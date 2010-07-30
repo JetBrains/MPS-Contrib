@@ -16,10 +16,10 @@ import jetbrains.mps.graphLayout.graph.Node;
 import java.util.ArrayList;
 import jetbrains.mps.graphLayout.algorithms.ShortestPath;
 
-public class ShortestPathEmbeddingFinder implements IEmbeddinngFinder {
-  private IEmbeddinngFinder myInitialFinder;
+public class ShortestPathEmbeddingFinder implements IEmbeddingFinder {
+  private IEmbeddingFinder myInitialFinder;
 
-  public ShortestPathEmbeddingFinder(IEmbeddinngFinder initialFinder) {
+  public ShortestPathEmbeddingFinder(IEmbeddingFinder initialFinder) {
     myInitialFinder = initialFinder;
   }
 

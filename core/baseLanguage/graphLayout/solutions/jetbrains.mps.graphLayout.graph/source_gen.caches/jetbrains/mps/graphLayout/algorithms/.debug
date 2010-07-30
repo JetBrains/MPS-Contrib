@@ -167,28 +167,29 @@
     <unitInfo nodeId="1654665216152485424" fileName="STNumbering.java" startLine="15" startPosition="0" endLine="139" endPosition="0" unitName="jetbrains.mps.graphLayout.algorithms.STNumbering" />
   </root>
   <root nodeId="1654665216152485857">
-    <nodeInfo nodeId="1654665216152485875" fileName="GraphOrientation.java" startLine="13" startPosition="70" endLine="14" endPosition="79" />
+    <nodeInfo nodeId="1654665216152485875" fileName="GraphOrientation.java" startLine="13" startPosition="84" endLine="14" endPosition="79" />
     <nodeInfo nodeId="1654665216152488926" fileName="GraphOrientation.java" startLine="15" startPosition="63" endLine="16" endPosition="77" />
     <nodeInfo nodeId="1654665216152488945" fileName="GraphOrientation.java" startLine="16" startPosition="77" endLine="17" endPosition="77" />
     <nodeInfo nodeId="1654665216152488958" fileName="GraphOrientation.java" startLine="18" startPosition="34" endLine="19" endPosition="22" />
+    <nodeInfo nodeId="516638300680465151" fileName="GraphOrientation.java" startLine="21" startPosition="5" endLine="22" endPosition="23" />
     <nodeInfo nodeId="1654665216152488913" fileName="GraphOrientation.java" startLine="17" startPosition="77" endLine="20" endPosition="7" />
     <nodeInfo nodeId="1654665216152488903" fileName="GraphOrientation.java" startLine="14" startPosition="79" endLine="21" endPosition="5" />
-    <nodeInfo nodeId="1654665216152485863" fileName="GraphOrientation.java" startLine="12" startPosition="31" endLine="23" endPosition="0" />
+    <nodeInfo nodeId="1654665216152485863" fileName="GraphOrientation.java" startLine="12" startPosition="31" endLine="24" endPosition="0" />
     <scopeInfo nodeId="1654665216152488915" fileName="GraphOrientation.java" startLine="18" startPosition="34" endLine="19" endPosition="22" />
     <scopeInfo nodeId="1654665216152488906" fileName="GraphOrientation.java" startLine="15" startPosition="63" endLine="20" endPosition="7">
       <varInfo nodeId="1654665216152488946" varName="targetNum" />
       <varInfo nodeId="1654665216152488927" varName="sourceNum" />
     </scopeInfo>
     <scopeInfo nodeId="1654665216152488903" fileName="GraphOrientation.java" startLine="14" startPosition="79" endLine="21" endPosition="5" />
-    <scopeInfo nodeId="1654665216152485866" fileName="GraphOrientation.java" startLine="13" startPosition="70" endLine="21" endPosition="5">
+    <scopeInfo nodeId="1654665216152485866" fileName="GraphOrientation.java" startLine="13" startPosition="84" endLine="22" endPosition="23">
       <varInfo nodeId="1654665216152485876" varName="stNumbering" />
     </scopeInfo>
-    <scopeInfo nodeId="1654665216152485863" fileName="GraphOrientation.java" startLine="12" startPosition="31" endLine="23" endPosition="0">
+    <scopeInfo nodeId="1654665216152485863" fileName="GraphOrientation.java" startLine="12" startPosition="31" endLine="24" endPosition="0">
       <varInfo nodeId="1654665216152485867" varName="graph" />
       <varInfo nodeId="1654665216152485869" varName="source" />
       <varInfo nodeId="1654665216152485872" varName="target" />
     </scopeInfo>
-    <unitInfo nodeId="1654665216152485857" fileName="GraphOrientation.java" startLine="12" startPosition="0" endLine="24" endPosition="0" unitName="jetbrains.mps.graphLayout.algorithms.GraphOrientation" />
+    <unitInfo nodeId="1654665216152485857" fileName="GraphOrientation.java" startLine="12" startPosition="0" endLine="25" endPosition="0" unitName="jetbrains.mps.graphLayout.algorithms.GraphOrientation" />
   </root>
   <root nodeId="4179389957059009260">
     <nodeInfo nodeId="4179389957059012257" fileName="ShortestPath.java" startLine="27" startPosition="171" endLine="28" endPosition="58" />

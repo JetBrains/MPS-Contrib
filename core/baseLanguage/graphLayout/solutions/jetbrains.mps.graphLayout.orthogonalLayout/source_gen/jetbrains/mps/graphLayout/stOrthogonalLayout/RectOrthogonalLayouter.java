@@ -21,6 +21,7 @@ import jetbrains.mps.graphLayout.algorithms.BiconnectAugmentation;
 import jetbrains.mps.graphLayout.planarGraph.EmbeddedGraph;
 import jetbrains.mps.graphLayout.planarization.ShortestPathEmbeddingFinder;
 import jetbrains.mps.graphLayout.planarization.BiconnectedInitialEmbeddingFinder;
+import jetbrains.mps.graphLayout.planarization.PlanarizationEmbeddingFinder;
 import java.util.Set;
 import jetbrains.mps.internal.collections.runtime.SetSequence;
 import java.util.HashSet;
@@ -120,7 +121,10 @@ public class RectOrthogonalLayouter {
     ListSequence.fromList(oldEdges).addSequence(ListSequence.fromList(graph.getEdges()));
     BiconnectAugmentation.makeBiconnected(graph);
     Node addedNode = ListSequence.fromList(graph.getNodes()).last();
-    EmbeddedGraph embeddedGraph = new ShortestPathEmbeddingFinder(new BiconnectedInitialEmbeddingFinder()).find(graph);
+    /*
+      EmbeddedGraph embeddedGraph = new ShortestPathEmbeddingFinder(new BiconnectedInitialEmbeddingFinder()).find(graph);
+    */
+    EmbeddedGraph embeddedGraph = new ShortestPathEmbeddingFinder(new PlanarizationEmbeddingFinder()).find(graph);
     for (Node node : ListSequence.fromList(graph.getNodes())) {
       if (!(MapSequence.fromMap(nodeSizes).containsKey(node))) {
         MapSequence.fromMap(nodeSizes).put(node, new Dimension(myNodeSize, myNodeSize));

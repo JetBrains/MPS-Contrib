@@ -11,7 +11,7 @@ import java.util.ArrayList;
 import jetbrains.mps.internal.collections.runtime.MapSequence;
 import java.util.HashMap;
 import jetbrains.mps.graphLayout.graph.Node;
-import jetbrains.mps.internal.collections.runtime.ISelector;
+import jetbrains.mps.internal.collections.runtime.IWhereFilter;
 
 public class EmbeddedGraph {
   private List<Face> myFaces;
@@ -28,19 +28,28 @@ public class EmbeddedGraph {
   }
 
   public Face findContainingFace(List<Node> nodes) {
+    Face containingFace = null;
     for (Face face : ListSequence.fromList(getFaces())) {
-      List<Node> faceNodes = ListSequence.fromList(face.getDarts()).select(new ISelector<Dart, Node>() {
-        public Node select(Dart it) {
-          return it.getSource();
-        }
-      }).toListSequence();
-      boolean contains = true;
-      for (Node node : ListSequence.fromList(nodes)) {
-        if (!(ListSequence.fromList(faceNodes).contains(node))) {
-          contains = false;
+      if (face.contains(nodes)) {
+        if (isOuterFace(face)) {
+          containingFace = face;
+        } else {
+          return face;
         }
       }
-      if (contains) {
+    }
+    return containingFace;
+  }
+
+  public Face getFaceToTheRight(final Edge edge) {
+    List<Face> faces = MapSequence.fromMap(myAdjacentFacesMap).get(edge);
+    for (Face face : ListSequence.fromList(faces)) {
+      Dart dart = ListSequence.fromList(face.getDarts()).findFirst(new IWhereFilter<Dart>() {
+        public boolean accept(Dart it) {
+          return it.getEdge() == edge;
+        }
+      });
+      if (dart.getSource() == edge.getTarget()) {
         return face;
       }
     }
@@ -78,7 +87,7 @@ public class EmbeddedGraph {
     return newNode;
   }
 
-  public void splitFace(Face face, List<Edge> path, Node start, Node end) {
+  public List<Face> splitFace(Face face, List<Edge> path, Node start, Node end) {
     Graph originalGraph = this.getGraph();
     Face faceSToE = new Face(originalGraph);
     Face faceEToS = new Face(originalGraph);
@@ -110,22 +119,22 @@ public class EmbeddedGraph {
       endSucc = posStart;
     }
     for (int i = begSucc; i < endSucc; i++) {
-      succ.addNext(ListSequence.fromList(darts).getElement(i));
+      succ.addLast(ListSequence.fromList(darts).getElement(i));
     }
     for (int i = endSucc; i < ListSequence.fromList(darts).count(); i++) {
-      split.addNext(ListSequence.fromList(darts).getElement(i));
+      split.addLast(ListSequence.fromList(darts).getElement(i));
     }
     for (int i = 0; i < begSucc; i++) {
-      split.addNext(ListSequence.fromList(darts).getElement(i));
+      split.addLast(ListSequence.fromList(darts).getElement(i));
     }
     Node cur = start;
     for (Edge edge : ListSequence.fromList(path)) {
-      faceSToE.addNext(new Dart(edge, cur));
+      faceSToE.addLast(new Dart(edge, cur));
       cur = edge.getOpposite(cur);
     }
     cur = end;
     for (Edge edge : ListSequence.fromList(path).reversedList()) {
-      faceEToS.addNext(new Dart(edge, cur));
+      faceEToS.addLast(new Dart(edge, cur));
       cur = edge.getOpposite(cur);
     }
     this.removeFace(face);
@@ -134,6 +143,7 @@ public class EmbeddedGraph {
     if (this.isOuterFace(face)) {
       this.setOuterFace(split);
     }
+    return ListSequence.fromListAndArray(new ArrayList<Face>(), faceSToE, faceEToS);
   }
 
   public void addFace(Face face) {
@@ -175,6 +185,14 @@ public class EmbeddedGraph {
   public void insertDart(Face face, int pos, Dart dart) {
     ListSequence.fromList(face.getDarts()).insertElement(pos, dart);
     adjustEdge(dart.getEdge(), face);
+  }
+
+  public void addFirstDart(Face face, Dart dart) {
+    insertDart(face, 0, dart);
+  }
+
+  public void addLastDart(Face face, Dart dart) {
+    insertDart(face, ListSequence.fromList(face.getDarts()).count(), dart);
   }
 
   public List<Face> getFaces() {

@@ -20,7 +20,7 @@ import jetbrains.mps.graphLayout.planarGraph.DualGraph;
 import java.util.Map;
 import jetbrains.mps.internal.collections.runtime.MapSequence;
 
-public class BiconnectedInitialEmbeddingFinder implements IEmbeddinngFinder {
+public class BiconnectedInitialEmbeddingFinder implements IEmbeddingFinder {
   public BiconnectedInitialEmbeddingFinder() {
   }
 
@@ -113,11 +113,11 @@ public class BiconnectedInitialEmbeddingFinder implements IEmbeddinngFinder {
     }
     Face innerFace = new Face(graph);
     for (Dart dart : ListSequence.fromList(path)) {
-      innerFace.addNext(dart);
+      innerFace.addLast(dart);
     }
     Face outerFace = new Face(graph);
     for (Dart dart : ListSequence.fromList(path).reversedList()) {
-      outerFace.addNext(new Dart(dart.getEdge(), dart.getTarget()));
+      outerFace.addLast(new Dart(dart.getEdge(), dart.getTarget()));
     }
     embeddedGraph.addFace(innerFace);
     embeddedGraph.addFace(outerFace);

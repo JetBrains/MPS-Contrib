@@ -18,6 +18,7 @@ import jetbrains.mps.internal.collections.runtime.ListSequence;
 import java.util.ArrayList;
 import jetbrains.mps.graphLayout.planarGraph.Dart;
 import jetbrains.mps.internal.collections.runtime.IWhereFilter;
+import jetbrains.mps.graphLayout.algorithms.GraphOrientation;
 
 public class STNumbering_Test extends TestCase {
   public void test_test1() throws Exception {
@@ -63,7 +64,10 @@ public class STNumbering_Test extends TestCase {
     /*
       System.out.println(graph);
     */
-    Map<Node, Integer> numbering = STNumbering.number(graph, s, t);
+    /*
+      Map<Node, Integer> numbering = STNumbering.number(graph, s, t);
+    */
+    Map<Node, Integer> numbering = GraphOrientation.orientST(graph, s, t);
     System.out.println("s = " + s + ", t = " + t);
     System.out.println(numbering);
     STNumberingChecker.check(graph, s, t, numbering);

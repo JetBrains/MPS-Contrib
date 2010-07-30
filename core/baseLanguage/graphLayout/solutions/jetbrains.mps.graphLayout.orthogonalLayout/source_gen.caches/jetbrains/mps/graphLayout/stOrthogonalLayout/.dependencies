@@ -110,6 +110,7 @@
     <classNode dependClassName="jetbrains.mps.graphLayout.planarGraph.EmbeddedGraph" />
     <classNode dependClassName="jetbrains.mps.graphLayout.planarGraph.STPlanarGraph" />
     <classNode dependClassName="jetbrains.mps.graphLayout.planarization.BiconnectedInitialEmbeddingFinder" />
+    <classNode dependClassName="jetbrains.mps.graphLayout.planarization.PlanarizationEmbeddingFinder" />
     <classNode dependClassName="jetbrains.mps.graphLayout.planarization.ShortestPathEmbeddingFinder" />
     <classNode dependClassName="jetbrains.mps.graphLayout.stOrthogonalLayout.ConstraintsSupporter" />
     <classNode dependClassName="jetbrains.mps.graphLayout.stOrthogonalLayout.LayoutOptimizer" />

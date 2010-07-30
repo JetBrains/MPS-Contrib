@@ -1794,27 +1794,55 @@
               </node>
             </node>
           </node>
-          <node role="statement:3" type="jetbrains.mps.baseLanguage.structure.LocalVariableDeclarationStatement:3" id="6160477238666708878">
-            <node role="localVariableDeclaration:3" type="jetbrains.mps.baseLanguage.structure.LocalVariableDeclaration:3" id="6160477238666708879">
+          <node role="statement:3" type="jetbrains.mps.baseLanguage.structure.CommentedStatementsBlock:3" id="925859607109435161">
+            <node role="statement:3" type="jetbrains.mps.baseLanguage.structure.LocalVariableDeclarationStatement:3" id="6160477238666708878">
+              <node role="localVariableDeclaration:3" type="jetbrains.mps.baseLanguage.structure.LocalVariableDeclaration:3" id="6160477238666708879">
+                <property name="name:3" value="numbering" />
+                <node role="type:3" type="jetbrains.mps.baseLanguage.collections.structure.MapType:7" id="6160477238666708880">
+                  <node role="keyType:7" type="jetbrains.mps.baseLanguage.structure.ClassifierType:3" id="6160477238666708881">
+                    <link role="classifier:3" targetNodeId="1.4671312709908983848" resolveInfo="Node" />
+                  </node>
+                  <node role="valueType:7" type="jetbrains.mps.baseLanguage.structure.ClassifierType:3" id="6160477238666708882">
+                    <link role="classifier:3" targetNodeId="2v.~Integer" resolveInfo="Integer" />
+                  </node>
+                </node>
+                <node role="initializer:3" type="jetbrains.mps.baseLanguage.structure.StaticMethodCall:3" id="6160477238666708883">
+                  <link role="baseMethodDeclaration:3" targetNodeId="5.1654665216152485441" resolveInfo="number" />
+                  <link role="classConcept:3" targetNodeId="5.1654665216152485424" resolveInfo="STNumbering" />
+                  <node role="actualArgument:3" type="jetbrains.mps.baseLanguage.structure.LocalVariableReference:3" id="6160477238666708884">
+                    <link role="variableDeclaration:3" targetNodeId="6160477238666708866" resolveInfo="graph" />
+                  </node>
+                  <node role="actualArgument:3" type="jetbrains.mps.baseLanguage.structure.LocalVariableReference:3" id="6160477238666709999">
+                    <link role="variableDeclaration:3" targetNodeId="6160477238666709972" resolveInfo="s" />
+                  </node>
+                  <node role="actualArgument:3" type="jetbrains.mps.baseLanguage.structure.LocalVariableReference:3" id="6160477238666710001">
+                    <link role="variableDeclaration:3" targetNodeId="6160477238666709979" resolveInfo="t" />
+                  </node>
+                </node>
+              </node>
+            </node>
+          </node>
+          <node role="statement:3" type="jetbrains.mps.baseLanguage.structure.LocalVariableDeclarationStatement:3" id="925859607109435163">
+            <node role="localVariableDeclaration:3" type="jetbrains.mps.baseLanguage.structure.LocalVariableDeclaration:3" id="925859607109435164">
               <property name="name:3" value="numbering" />
-              <node role="type:3" type="jetbrains.mps.baseLanguage.collections.structure.MapType:7" id="6160477238666708880">
-                <node role="keyType:7" type="jetbrains.mps.baseLanguage.structure.ClassifierType:3" id="6160477238666708881">
+              <node role="type:3" type="jetbrains.mps.baseLanguage.collections.structure.MapType:7" id="925859607109435165">
+                <node role="keyType:7" type="jetbrains.mps.baseLanguage.structure.ClassifierType:3" id="925859607109435168">
                   <link role="classifier:3" targetNodeId="1.4671312709908983848" resolveInfo="Node" />
                 </node>
-                <node role="valueType:7" type="jetbrains.mps.baseLanguage.structure.ClassifierType:3" id="6160477238666708882">
+                <node role="valueType:7" type="jetbrains.mps.baseLanguage.structure.ClassifierType:3" id="925859607109435169">
                   <link role="classifier:3" targetNodeId="2v.~Integer" resolveInfo="Integer" />
                 </node>
               </node>
-              <node role="initializer:3" type="jetbrains.mps.baseLanguage.structure.StaticMethodCall:3" id="6160477238666708883">
-                <link role="baseMethodDeclaration:3" targetNodeId="5.1654665216152485441" resolveInfo="number" />
-                <link role="classConcept:3" targetNodeId="5.1654665216152485424" resolveInfo="STNumbering" />
-                <node role="actualArgument:3" type="jetbrains.mps.baseLanguage.structure.LocalVariableReference:3" id="6160477238666708884">
+              <node role="initializer:3" type="jetbrains.mps.baseLanguage.structure.StaticMethodCall:3" id="925859607109435172">
+                <link role="baseMethodDeclaration:3" targetNodeId="5.1654665216152485863" resolveInfo="orientST" />
+                <link role="classConcept:3" targetNodeId="5.1654665216152485857" resolveInfo="GraphOrientation" />
+                <node role="actualArgument:3" type="jetbrains.mps.baseLanguage.structure.LocalVariableReference:3" id="925859607109435173">
                   <link role="variableDeclaration:3" targetNodeId="6160477238666708866" resolveInfo="graph" />
                 </node>
-                <node role="actualArgument:3" type="jetbrains.mps.baseLanguage.structure.LocalVariableReference:3" id="6160477238666709999">
+                <node role="actualArgument:3" type="jetbrains.mps.baseLanguage.structure.LocalVariableReference:3" id="925859607109435176">
                   <link role="variableDeclaration:3" targetNodeId="6160477238666709972" resolveInfo="s" />
                 </node>
-                <node role="actualArgument:3" type="jetbrains.mps.baseLanguage.structure.LocalVariableReference:3" id="6160477238666710001">
+                <node role="actualArgument:3" type="jetbrains.mps.baseLanguage.structure.LocalVariableReference:3" id="925859607109435177">
                   <link role="variableDeclaration:3" targetNodeId="6160477238666709979" resolveInfo="t" />
                 </node>
               </node>

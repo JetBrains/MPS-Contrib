@@ -151,6 +151,107 @@
     </scopeInfo>
     <unitInfo nodeId="1646208389854262552" fileName="CheckFace.java" startLine="11" startPosition="0" endLine="28" endPosition="0" unitName="planarizationTest.CheckFace" />
   </root>
+  <root nodeId="1941596757861048852">
+    <nodeInfo nodeId="1941596757861048995" fileName="PQTreeComputeAHValues_Test.java" startLine="20" startPosition="45" endLine="21" endPosition="31" />
+    <nodeInfo nodeId="1941596757861049003" fileName="PQTreeComputeAHValues_Test.java" startLine="21" startPosition="31" endLine="22" endPosition="69" />
+    <nodeInfo nodeId="1941596757861049014" fileName="PQTreeComputeAHValues_Test.java" startLine="22" startPosition="69" endLine="23" endPosition="119" />
+    <nodeInfo nodeId="1941596757861055763" fileName="PQTreeComputeAHValues_Test.java" startLine="23" startPosition="119" endLine="24" endPosition="209" />
+    <nodeInfo nodeId="1941596757861055571" fileName="PQTreeComputeAHValues_Test.java" startLine="24" startPosition="209" endLine="25" endPosition="33" />
+    <nodeInfo nodeId="1941596757861055569" fileName="PQTreeComputeAHValues_Test.java" startLine="25" startPosition="33" endLine="26" endPosition="45" />
+    <nodeInfo nodeId="1941596757861055590" fileName="PQTreeComputeAHValues_Test.java" startLine="26" startPosition="45" endLine="27" endPosition="45" />
+    <nodeInfo nodeId="1941596757861055608" fileName="PQTreeComputeAHValues_Test.java" startLine="30" startPosition="45" endLine="31" endPosition="31" />
+    <nodeInfo nodeId="1941596757861055613" fileName="PQTreeComputeAHValues_Test.java" startLine="31" startPosition="31" endLine="32" endPosition="69" />
+    <nodeInfo nodeId="1941596757861055623" fileName="PQTreeComputeAHValues_Test.java" startLine="32" startPosition="69" endLine="33" endPosition="29" />
+    <nodeInfo nodeId="1941596757861055630" fileName="PQTreeComputeAHValues_Test.java" startLine="33" startPosition="29" endLine="34" endPosition="23" />
+    <nodeInfo nodeId="1941596757861055639" fileName="PQTreeComputeAHValues_Test.java" startLine="34" startPosition="23" endLine="35" endPosition="40" />
+    <nodeInfo nodeId="1941596757861055650" fileName="PQTreeComputeAHValues_Test.java" startLine="35" startPosition="40" endLine="36" endPosition="43" />
+    <nodeInfo nodeId="1941596757861055662" fileName="PQTreeComputeAHValues_Test.java" startLine="36" startPosition="43" endLine="37" endPosition="118" />
+    <nodeInfo nodeId="1941596757861055704" fileName="PQTreeComputeAHValues_Test.java" startLine="37" startPosition="118" endLine="38" endPosition="28" />
+    <nodeInfo nodeId="1941596757861055790" fileName="PQTreeComputeAHValues_Test.java" startLine="38" startPosition="28" endLine="39" endPosition="254" />
+    <nodeInfo nodeId="1941596757861055837" fileName="PQTreeComputeAHValues_Test.java" startLine="39" startPosition="254" endLine="40" endPosition="49" />
+    <nodeInfo nodeId="1941596757861055861" fileName="PQTreeComputeAHValues_Test.java" startLine="40" startPosition="49" endLine="41" endPosition="49" />
+    <nodeInfo nodeId="1941596757861055734" fileName="PQTreeComputeAHValues_Test.java" startLine="44" startPosition="64" endLine="45" endPosition="20" />
+    <nodeInfo nodeId="1941596757861055743" fileName="PQTreeComputeAHValues_Test.java" startLine="46" startPosition="55" endLine="47" endPosition="39" />
+    <nodeInfo nodeId="1941596757861055754" fileName="PQTreeComputeAHValues_Test.java" startLine="48" startPosition="5" endLine="49" endPosition="29" />
+    <nodeInfo nodeId="1941596757861055827" fileName="PQTreeComputeAHValues_Test.java" startLine="49" startPosition="29" endLine="50" endPosition="33" />
+    <nodeInfo nodeId="1941596757861055820" fileName="PQTreeComputeAHValues_Test.java" startLine="50" startPosition="33" endLine="51" endPosition="25" />
+    <nodeInfo nodeId="1941596757861083026" fileName="PQTreeComputeAHValues_Test.java" startLine="51" startPosition="25" endLine="52" endPosition="25" />
+    <nodeInfo nodeId="1941596757861048889" fileName="PQTreeComputeAHValues_Test.java" startLine="56" startPosition="35" endLine="57" endPosition="32" />
+    <nodeInfo nodeId="1941596757861048895" fileName="PQTreeComputeAHValues_Test.java" startLine="57" startPosition="32" endLine="58" endPosition="55" />
+    <nodeInfo nodeId="1941596757861048900" fileName="PQTreeComputeAHValues_Test.java" startLine="58" startPosition="55" endLine="59" endPosition="29" />
+    <nodeInfo nodeId="1941596757861048933" fileName="PQTreeComputeAHValues_Test.java" startLine="63" startPosition="103" endLine="64" endPosition="29" />
+    <nodeInfo nodeId="1941596757861048945" fileName="PQTreeComputeAHValues_Test.java" startLine="65" startPosition="43" endLine="66" endPosition="30" />
+    <nodeInfo nodeId="1941596757861048950" fileName="PQTreeComputeAHValues_Test.java" startLine="66" startPosition="30" endLine="67" endPosition="83" />
+    <nodeInfo nodeId="1941596757861048958" fileName="PQTreeComputeAHValues_Test.java" startLine="67" startPosition="83" endLine="68" endPosition="29" />
+    <nodeInfo nodeId="1941596757861055671" fileName="PQTreeComputeAHValues_Test.java" startLine="69" startPosition="5" endLine="70" endPosition="16" />
+    <nodeInfo nodeId="1941596757861048988" fileName="PQTreeComputeAHValues_Test.java" startLine="74" startPosition="63" endLine="75" endPosition="40" />
+    <nodeInfo nodeId="1941596757861055738" fileName="PQTreeComputeAHValues_Test.java" startLine="45" startPosition="20" endLine="48" endPosition="5" />
+    <nodeInfo nodeId="1941596757861048982" fileName="PQTreeComputeAHValues_Test.java" startLine="73" startPosition="39" endLine="76" endPosition="5" />
+    <nodeInfo nodeId="1941596757861048884" fileName="PQTreeComputeAHValues_Test.java" startLine="55" startPosition="88" endLine="60" endPosition="5" />
+    <nodeInfo nodeId="1941596757861048943" fileName="PQTreeComputeAHValues_Test.java" startLine="64" startPosition="29" endLine="69" endPosition="5" />
+    <nodeInfo nodeId="1941596757861048976" fileName="PQTreeComputeAHValues_Test.java" startLine="72" startPosition="0" endLine="78" endPosition="0" />
+    <nodeInfo nodeId="1941596757861048880" fileName="PQTreeComputeAHValues_Test.java" startLine="54" startPosition="0" endLine="62" endPosition="0" />
+    <nodeInfo nodeId="1941596757861048859" fileName="PQTreeComputeAHValues_Test.java" startLine="19" startPosition="58" endLine="29" endPosition="0" />
+    <nodeInfo nodeId="1941596757861048919" fileName="PQTreeComputeAHValues_Test.java" startLine="62" startPosition="0" endLine="72" endPosition="0" />
+    <nodeInfo nodeId="1941596757861055723" fileName="PQTreeComputeAHValues_Test.java" startLine="43" startPosition="0" endLine="54" endPosition="0" />
+    <nodeInfo nodeId="1941596757861055602" fileName="PQTreeComputeAHValues_Test.java" startLine="29" startPosition="0" endLine="43" endPosition="0" />
+    <scopeInfo nodeId="1941596757861055741" fileName="PQTreeComputeAHValues_Test.java" startLine="46" startPosition="55" endLine="47" endPosition="39" />
+    <scopeInfo nodeId="1941596757861048987" fileName="PQTreeComputeAHValues_Test.java" startLine="74" startPosition="63" endLine="75" endPosition="40" />
+    <scopeInfo nodeId="1941596757861055738" fileName="PQTreeComputeAHValues_Test.java" startLine="45" startPosition="20" endLine="48" endPosition="5" />
+    <scopeInfo nodeId="1941596757861048888" fileName="PQTreeComputeAHValues_Test.java" startLine="56" startPosition="35" endLine="59" endPosition="29">
+      <varInfo nodeId="1941596757861048890" varName="cur" />
+    </scopeInfo>
+    <scopeInfo nodeId="1941596757861048944" fileName="PQTreeComputeAHValues_Test.java" startLine="65" startPosition="43" endLine="68" endPosition="29">
+      <varInfo nodeId="1941596757861048946" varName="cur" />
+    </scopeInfo>
+    <scopeInfo nodeId="1941596757861048981" fileName="PQTreeComputeAHValues_Test.java" startLine="73" startPosition="39" endLine="76" endPosition="5" />
+    <scopeInfo nodeId="1941596757861048982" fileName="PQTreeComputeAHValues_Test.java" startLine="73" startPosition="39" endLine="76" endPosition="5" />
+    <scopeInfo nodeId="1941596757861048883" fileName="PQTreeComputeAHValues_Test.java" startLine="55" startPosition="88" endLine="60" endPosition="5" />
+    <scopeInfo nodeId="1941596757861048884" fileName="PQTreeComputeAHValues_Test.java" startLine="55" startPosition="88" endLine="60" endPosition="5">
+      <varInfo nodeId="1941596757861048885" varName="i" />
+    </scopeInfo>
+    <scopeInfo nodeId="1941596757861048943" fileName="PQTreeComputeAHValues_Test.java" startLine="64" startPosition="29" endLine="69" endPosition="5">
+      <varInfo nodeId="1941596757861048963" varName="i" />
+    </scopeInfo>
+    <scopeInfo nodeId="1941596757861048976" fileName="PQTreeComputeAHValues_Test.java" startLine="72" startPosition="0" endLine="78" endPosition="0">
+      <varInfo nodeId="1941596757861048979" varName="tree" />
+    </scopeInfo>
+    <scopeInfo nodeId="1941596757861048862" fileName="PQTreeComputeAHValues_Test.java" startLine="20" startPosition="45" endLine="27" endPosition="45">
+      <varInfo nodeId="1941596757861048996" varName="tree" />
+      <varInfo nodeId="1941596757861055572" varName="root" />
+      <varInfo nodeId="1941596757861049004" varName="leaves" />
+    </scopeInfo>
+    <scopeInfo nodeId="1941596757861048932" fileName="PQTreeComputeAHValues_Test.java" startLine="63" startPosition="103" endLine="70" endPosition="16">
+      <varInfo nodeId="1941596757861048934" varName="node" />
+    </scopeInfo>
+    <scopeInfo nodeId="1941596757861055726" fileName="PQTreeComputeAHValues_Test.java" startLine="44" startPosition="64" endLine="52" endPosition="25">
+      <varInfo nodeId="1941596757861055828" varName="root" />
+    </scopeInfo>
+    <scopeInfo nodeId="1941596757861048880" fileName="PQTreeComputeAHValues_Test.java" startLine="54" startPosition="0" endLine="62" endPosition="0">
+      <varInfo nodeId="1941596757861048914" varName="allLeaves" />
+      <varInfo nodeId="1941596757861048912" varName="num" />
+      <varInfo nodeId="1941596757861048910" varName="node" />
+      <varInfo nodeId="1941596757861048917" varName="tree" />
+    </scopeInfo>
+    <scopeInfo nodeId="1941596757861048859" fileName="PQTreeComputeAHValues_Test.java" startLine="19" startPosition="58" endLine="29" endPosition="0" />
+    <scopeInfo nodeId="1941596757861048919" fileName="PQTreeComputeAHValues_Test.java" startLine="62" startPosition="0" endLine="72" endPosition="0">
+      <varInfo nodeId="1941596757861048929" varName="num" />
+      <varInfo nodeId="1941596757861055667" varName="tree" />
+      <varInfo nodeId="1941596757861048927" varName="numChildren" />
+      <varInfo nodeId="1941596757861048924" varName="leaves" />
+    </scopeInfo>
+    <scopeInfo nodeId="1941596757861055605" fileName="PQTreeComputeAHValues_Test.java" startLine="30" startPosition="45" endLine="41" endPosition="49">
+      <varInfo nodeId="1941596757861055663" varName="node" />
+      <varInfo nodeId="1941596757861055609" varName="tree" />
+      <varInfo nodeId="1941596757861055624" varName="root" />
+      <varInfo nodeId="1941596757861055614" varName="leaves" />
+    </scopeInfo>
+    <scopeInfo nodeId="1941596757861055723" fileName="PQTreeComputeAHValues_Test.java" startLine="43" startPosition="0" endLine="54" endPosition="0">
+      <varInfo nodeId="1941596757861055729" varName="fullLeaves" />
+      <varInfo nodeId="1941596757861055727" varName="tree" />
+    </scopeInfo>
+    <scopeInfo nodeId="1941596757861055602" fileName="PQTreeComputeAHValues_Test.java" startLine="29" startPosition="0" endLine="43" endPosition="0" />
+  </root>
   <root nodeId="4179389957059017814">
     <nodeInfo nodeId="4179389957059017898" fileName="TreeEmbeddingFinder_Find_Test.java" startLine="14" startPosition="48" endLine="15" endPosition="50" />
     <nodeInfo nodeId="4179389957059017905" fileName="TreeEmbeddingFinder_Find_Test.java" startLine="15" startPosition="50" endLine="16" endPosition="16" />
@@ -206,6 +307,312 @@
     <scopeInfo nodeId="4179389957059017829" fileName="TreeEmbeddingFinder_Find_Test.java" startLine="43" startPosition="0" endLine="51" endPosition="0">
       <varInfo nodeId="4179389957059017867" varName="graph" />
     </scopeInfo>
+  </root>
+  <root nodeId="516638300680467095">
+    <nodeInfo nodeId="516638300680467141" fileName="PQPlanarityTest_Test.java" startLine="19" startPosition="45" endLine="20" endPosition="76" />
+    <nodeInfo nodeId="5639575219014565247" fileName="PQPlanarityTest_Test.java" startLine="20" startPosition="76" endLine="21" endPosition="27" />
+    <nodeInfo nodeId="5639575219014565257" fileName="PQPlanarityTest_Test.java" startLine="24" startPosition="45" endLine="25" endPosition="137" />
+    <nodeInfo nodeId="5639575219014565261" fileName="PQPlanarityTest_Test.java" startLine="25" startPosition="137" endLine="26" endPosition="27" />
+    <nodeInfo nodeId="5639575219014582056" fileName="PQPlanarityTest_Test.java" startLine="29" startPosition="45" endLine="30" endPosition="71" />
+    <nodeInfo nodeId="5656502300472221635" fileName="PQPlanarityTest_Test.java" startLine="30" startPosition="71" endLine="31" endPosition="31" />
+    <nodeInfo nodeId="5656502300472220599" fileName="PQPlanarityTest_Test.java" startLine="34" startPosition="45" endLine="35" endPosition="127" />
+    <nodeInfo nodeId="5656502300472221639" fileName="PQPlanarityTest_Test.java" startLine="35" startPosition="127" endLine="36" endPosition="31" />
+    <nodeInfo nodeId="5656502300472221546" fileName="PQPlanarityTest_Test.java" startLine="39" startPosition="45" endLine="40" endPosition="92" />
+    <nodeInfo nodeId="5656502300472221643" fileName="PQPlanarityTest_Test.java" startLine="40" startPosition="92" endLine="41" endPosition="31" />
+    <nodeInfo nodeId="5442489283395841238" fileName="PQPlanarityTest_Test.java" startLine="44" startPosition="45" endLine="45" endPosition="82" />
+    <nodeInfo nodeId="5442489283395841242" fileName="PQPlanarityTest_Test.java" startLine="45" startPosition="82" endLine="46" endPosition="31" />
+    <nodeInfo nodeId="6541005299200788049" fileName="PQPlanarityTest_Test.java" startLine="49" startPosition="45" endLine="50" endPosition="102" />
+    <nodeInfo nodeId="6541005299200788053" fileName="PQPlanarityTest_Test.java" startLine="50" startPosition="102" endLine="51" endPosition="31" />
+    <nodeInfo nodeId="6541005299200807726" fileName="PQPlanarityTest_Test.java" startLine="54" startPosition="45" endLine="55" endPosition="117" />
+    <nodeInfo nodeId="6541005299200807730" fileName="PQPlanarityTest_Test.java" startLine="55" startPosition="117" endLine="56" endPosition="31" />
+    <nodeInfo nodeId="1941596757861099430" fileName="PQPlanarityTest_Test.java" startLine="59" startPosition="57" endLine="60" endPosition="102" />
+    <nodeInfo nodeId="1941596757861099434" fileName="PQPlanarityTest_Test.java" startLine="60" startPosition="102" endLine="61" endPosition="31" />
+    <nodeInfo nodeId="5442489283395852500" fileName="PQPlanarityTest_Test.java" startLine="64" startPosition="42" endLine="65" endPosition="107" />
+    <nodeInfo nodeId="5442489283395852795" fileName="PQPlanarityTest_Test.java" startLine="65" startPosition="107" endLine="66" endPosition="31" />
+    <nodeInfo nodeId="5442489283395852489" fileName="PQPlanarityTest_Test.java" startLine="69" startPosition="53" endLine="70" endPosition="143" />
+    <nodeInfo nodeId="5442489283395852493" fileName="PQPlanarityTest_Test.java" startLine="70" startPosition="143" endLine="71" endPosition="31" />
+    <nodeInfo nodeId="5639575219014565220" fileName="PQPlanarityTest_Test.java" startLine="74" startPosition="73" endLine="75" endPosition="62" />
+    <nodeInfo nodeId="5639575219014565226" fileName="PQPlanarityTest_Test.java" startLine="75" startPosition="62" endLine="76" endPosition="30" />
+    <nodeInfo nodeId="5639575219014565232" fileName="PQPlanarityTest_Test.java" startLine="76" startPosition="30" endLine="77" endPosition="30" />
+    <nodeInfo nodeId="5639575219014565238" fileName="PQPlanarityTest_Test.java" startLine="77" startPosition="30" endLine="78" endPosition="87" />
+    <nodeInfo nodeId="5656502300472221596" fileName="PQPlanarityTest_Test.java" startLine="81" startPosition="49" endLine="82" endPosition="62" />
+    <nodeInfo nodeId="5656502300472221603" fileName="PQPlanarityTest_Test.java" startLine="82" startPosition="62" endLine="83" endPosition="87" />
+    <nodeInfo nodeId="5656502300472221618" fileName="PQPlanarityTest_Test.java" startLine="84" startPosition="63" endLine="85" endPosition="66" />
+    <nodeInfo nodeId="5442489283395853087" fileName="PQPlanarityTest_Test.java" startLine="86" startPosition="5" endLine="87" endPosition="90" />
+    <nodeInfo nodeId="5442489283395853097" fileName="PQPlanarityTest_Test.java" startLine="87" startPosition="90" endLine="88" endPosition="57" />
+    <nodeInfo nodeId="5656502300472221612" fileName="PQPlanarityTest_Test.java" startLine="83" startPosition="87" endLine="86" endPosition="5" />
+    <nodeInfo nodeId="516638300680467137" fileName="PQPlanarityTest_Test.java" startLine="18" startPosition="52" endLine="23" endPosition="0" />
+    <nodeInfo nodeId="5639575219014565252" fileName="PQPlanarityTest_Test.java" startLine="23" startPosition="0" endLine="28" endPosition="0" />
+    <nodeInfo nodeId="5639575219014582052" fileName="PQPlanarityTest_Test.java" startLine="28" startPosition="0" endLine="33" endPosition="0" />
+    <nodeInfo nodeId="5656502300472220595" fileName="PQPlanarityTest_Test.java" startLine="33" startPosition="0" endLine="38" endPosition="0" />
+    <nodeInfo nodeId="5656502300472221542" fileName="PQPlanarityTest_Test.java" startLine="38" startPosition="0" endLine="43" endPosition="0" />
+    <nodeInfo nodeId="5442489283395841233" fileName="PQPlanarityTest_Test.java" startLine="43" startPosition="0" endLine="48" endPosition="0" />
+    <nodeInfo nodeId="6541005299200788044" fileName="PQPlanarityTest_Test.java" startLine="48" startPosition="0" endLine="53" endPosition="0" />
+    <nodeInfo nodeId="6541005299200807721" fileName="PQPlanarityTest_Test.java" startLine="53" startPosition="0" endLine="58" endPosition="0" />
+    <nodeInfo nodeId="1941596757861099425" fileName="PQPlanarityTest_Test.java" startLine="58" startPosition="0" endLine="63" endPosition="0" />
+    <nodeInfo nodeId="5442489283395852496" fileName="PQPlanarityTest_Test.java" startLine="63" startPosition="0" endLine="68" endPosition="0" />
+    <nodeInfo nodeId="5442489283395852484" fileName="PQPlanarityTest_Test.java" startLine="68" startPosition="0" endLine="73" endPosition="0" />
+    <nodeInfo nodeId="5639575219014565215" fileName="PQPlanarityTest_Test.java" startLine="73" startPosition="0" endLine="80" endPosition="0" />
+    <nodeInfo nodeId="5656502300472221587" fileName="PQPlanarityTest_Test.java" startLine="80" startPosition="0" endLine="90" endPosition="0" />
+    <scopeInfo nodeId="5656502300472221617" fileName="PQPlanarityTest_Test.java" startLine="84" startPosition="63" endLine="85" endPosition="66" />
+    <scopeInfo nodeId="516638300680467140" fileName="PQPlanarityTest_Test.java" startLine="19" startPosition="45" endLine="21" endPosition="27">
+      <varInfo nodeId="516638300680467142" varName="graphString" />
+    </scopeInfo>
+    <scopeInfo nodeId="5639575219014565255" fileName="PQPlanarityTest_Test.java" startLine="24" startPosition="45" endLine="26" endPosition="27">
+      <varInfo nodeId="5639575219014565258" varName="graphString" />
+    </scopeInfo>
+    <scopeInfo nodeId="5639575219014582055" fileName="PQPlanarityTest_Test.java" startLine="29" startPosition="45" endLine="31" endPosition="31">
+      <varInfo nodeId="5639575219014582057" varName="graphString" />
+    </scopeInfo>
+    <scopeInfo nodeId="5656502300472220598" fileName="PQPlanarityTest_Test.java" startLine="34" startPosition="45" endLine="36" endPosition="31">
+      <varInfo nodeId="5656502300472220600" varName="graphString" />
+    </scopeInfo>
+    <scopeInfo nodeId="5656502300472221545" fileName="PQPlanarityTest_Test.java" startLine="39" startPosition="45" endLine="41" endPosition="31">
+      <varInfo nodeId="5656502300472221547" varName="graphString" />
+    </scopeInfo>
+    <scopeInfo nodeId="5442489283395841236" fileName="PQPlanarityTest_Test.java" startLine="44" startPosition="45" endLine="46" endPosition="31">
+      <varInfo nodeId="5442489283395841239" varName="graphString" />
+    </scopeInfo>
+    <scopeInfo nodeId="6541005299200788047" fileName="PQPlanarityTest_Test.java" startLine="49" startPosition="45" endLine="51" endPosition="31">
+      <varInfo nodeId="6541005299200788050" varName="graphString" />
+    </scopeInfo>
+    <scopeInfo nodeId="6541005299200807724" fileName="PQPlanarityTest_Test.java" startLine="54" startPosition="45" endLine="56" endPosition="31">
+      <varInfo nodeId="6541005299200807727" varName="graphString" />
+    </scopeInfo>
+    <scopeInfo nodeId="1941596757861099428" fileName="PQPlanarityTest_Test.java" startLine="59" startPosition="57" endLine="61" endPosition="31">
+      <varInfo nodeId="1941596757861099431" varName="graphString" />
+    </scopeInfo>
+    <scopeInfo nodeId="5442489283395852499" fileName="PQPlanarityTest_Test.java" startLine="64" startPosition="42" endLine="66" endPosition="31">
+      <varInfo nodeId="5442489283395852501" varName="graphString" />
+    </scopeInfo>
+    <scopeInfo nodeId="5442489283395852487" fileName="PQPlanarityTest_Test.java" startLine="69" startPosition="53" endLine="71" endPosition="31">
+      <varInfo nodeId="5442489283395852490" varName="graphString" />
+    </scopeInfo>
+    <scopeInfo nodeId="5656502300472221612" fileName="PQPlanarityTest_Test.java" startLine="83" startPosition="87" endLine="86" endPosition="5" />
+    <scopeInfo nodeId="5639575219014565219" fileName="PQPlanarityTest_Test.java" startLine="74" startPosition="73" endLine="78" endPosition="87">
+      <varInfo nodeId="5639575219014565213" varName="t" />
+      <varInfo nodeId="5639575219014565211" varName="graph" />
+      <varInfo nodeId="5639575219014565212" varName="s" />
+    </scopeInfo>
+    <scopeInfo nodeId="516638300680467137" fileName="PQPlanarityTest_Test.java" startLine="18" startPosition="52" endLine="23" endPosition="0" />
+    <scopeInfo nodeId="5639575219014565252" fileName="PQPlanarityTest_Test.java" startLine="23" startPosition="0" endLine="28" endPosition="0" />
+    <scopeInfo nodeId="5639575219014582052" fileName="PQPlanarityTest_Test.java" startLine="28" startPosition="0" endLine="33" endPosition="0" />
+    <scopeInfo nodeId="5656502300472220595" fileName="PQPlanarityTest_Test.java" startLine="33" startPosition="0" endLine="38" endPosition="0" />
+    <scopeInfo nodeId="5656502300472221542" fileName="PQPlanarityTest_Test.java" startLine="38" startPosition="0" endLine="43" endPosition="0" />
+    <scopeInfo nodeId="5442489283395841233" fileName="PQPlanarityTest_Test.java" startLine="43" startPosition="0" endLine="48" endPosition="0" />
+    <scopeInfo nodeId="6541005299200788044" fileName="PQPlanarityTest_Test.java" startLine="48" startPosition="0" endLine="53" endPosition="0" />
+    <scopeInfo nodeId="6541005299200807721" fileName="PQPlanarityTest_Test.java" startLine="53" startPosition="0" endLine="58" endPosition="0" />
+    <scopeInfo nodeId="1941596757861099425" fileName="PQPlanarityTest_Test.java" startLine="58" startPosition="0" endLine="63" endPosition="0" />
+    <scopeInfo nodeId="5442489283395852496" fileName="PQPlanarityTest_Test.java" startLine="63" startPosition="0" endLine="68" endPosition="0" />
+    <scopeInfo nodeId="5442489283395852484" fileName="PQPlanarityTest_Test.java" startLine="68" startPosition="0" endLine="73" endPosition="0" />
+    <scopeInfo nodeId="5639575219014565215" fileName="PQPlanarityTest_Test.java" startLine="73" startPosition="0" endLine="80" endPosition="0">
+      <varInfo nodeId="5639575219014565214" varName="graphString" />
+    </scopeInfo>
+    <scopeInfo nodeId="5656502300472221590" fileName="PQPlanarityTest_Test.java" startLine="81" startPosition="49" endLine="88" endPosition="57">
+      <varInfo nodeId="5656502300472221597" varName="graph" />
+      <varInfo nodeId="5656502300472221604" varName="stNumbering" />
+      <varInfo nodeId="5442489283395853088" varName="embeddedGraph" />
+    </scopeInfo>
+    <scopeInfo nodeId="5656502300472221587" fileName="PQPlanarityTest_Test.java" startLine="80" startPosition="0" endLine="90" endPosition="0">
+      <varInfo nodeId="5656502300472221591" varName="graphString" />
+    </scopeInfo>
+  </root>
+  <root nodeId="5442489283395856244">
+    <nodeInfo nodeId="5442489283395858340" fileName="PQTreeMakeReductible_Test.java" startLine="18" startPosition="51" endLine="19" endPosition="31" />
+    <nodeInfo nodeId="5442489283395858387" fileName="PQTreeMakeReductible_Test.java" startLine="19" startPosition="31" endLine="20" endPosition="69" />
+    <nodeInfo nodeId="5442489283395867859" fileName="PQTreeMakeReductible_Test.java" startLine="20" startPosition="69" endLine="21" endPosition="109" />
+    <nodeInfo nodeId="5442489283395862804" fileName="PQTreeMakeReductible_Test.java" startLine="21" startPosition="109" endLine="22" endPosition="76" />
+    <nodeInfo nodeId="5442489283395862818" fileName="PQTreeMakeReductible_Test.java" startLine="22" startPosition="76" endLine="23" endPosition="76" />
+    <nodeInfo nodeId="5442489283395862826" fileName="PQTreeMakeReductible_Test.java" startLine="23" startPosition="76" endLine="24" endPosition="76" />
+    <nodeInfo nodeId="5442489283395862836" fileName="PQTreeMakeReductible_Test.java" startLine="24" startPosition="76" endLine="25" endPosition="25" />
+    <nodeInfo nodeId="5442489283395866471" fileName="PQTreeMakeReductible_Test.java" startLine="25" startPosition="25" endLine="26" endPosition="29" />
+    <nodeInfo nodeId="5442489283395865649" fileName="PQTreeMakeReductible_Test.java" startLine="28" startPosition="38" endLine="29" endPosition="50" />
+    <nodeInfo nodeId="5442489283395866020" fileName="PQTreeMakeReductible_Test.java" startLine="34" startPosition="52" endLine="35" endPosition="31" />
+    <nodeInfo nodeId="5442489283395866025" fileName="PQTreeMakeReductible_Test.java" startLine="35" startPosition="31" endLine="36" endPosition="69" />
+    <nodeInfo nodeId="5442489283395866032" fileName="PQTreeMakeReductible_Test.java" startLine="36" startPosition="69" endLine="37" endPosition="109" />
+    <nodeInfo nodeId="5442489283395866038" fileName="PQTreeMakeReductible_Test.java" startLine="37" startPosition="109" endLine="38" endPosition="76" />
+    <nodeInfo nodeId="5442489283395866045" fileName="PQTreeMakeReductible_Test.java" startLine="38" startPosition="76" endLine="39" endPosition="76" />
+    <nodeInfo nodeId="5442489283395866052" fileName="PQTreeMakeReductible_Test.java" startLine="39" startPosition="76" endLine="40" endPosition="76" />
+    <nodeInfo nodeId="5442489283395866059" fileName="PQTreeMakeReductible_Test.java" startLine="40" startPosition="76" endLine="41" endPosition="25" />
+    <nodeInfo nodeId="5442489283395866477" fileName="PQTreeMakeReductible_Test.java" startLine="41" startPosition="25" endLine="42" endPosition="29" />
+    <nodeInfo nodeId="5442489283395866074" fileName="PQTreeMakeReductible_Test.java" startLine="44" startPosition="38" endLine="45" endPosition="50" />
+    <nodeInfo nodeId="5442489283395868689" fileName="PQTreeMakeReductible_Test.java" startLine="50" startPosition="51" endLine="51" endPosition="31" />
+    <nodeInfo nodeId="5442489283395868694" fileName="PQTreeMakeReductible_Test.java" startLine="51" startPosition="31" endLine="52" endPosition="69" />
+    <nodeInfo nodeId="5442489283395868701" fileName="PQTreeMakeReductible_Test.java" startLine="52" startPosition="69" endLine="53" endPosition="109" />
+    <nodeInfo nodeId="5442489283395868714" fileName="PQTreeMakeReductible_Test.java" startLine="53" startPosition="109" endLine="54" endPosition="76" />
+    <nodeInfo nodeId="5442489283395868721" fileName="PQTreeMakeReductible_Test.java" startLine="54" startPosition="76" endLine="55" endPosition="76" />
+    <nodeInfo nodeId="5442489283395868728" fileName="PQTreeMakeReductible_Test.java" startLine="55" startPosition="76" endLine="56" endPosition="76" />
+    <nodeInfo nodeId="5442489283395868767" fileName="PQTreeMakeReductible_Test.java" startLine="56" startPosition="76" endLine="57" endPosition="76" />
+    <nodeInfo nodeId="5442489283395873486" fileName="PQTreeMakeReductible_Test.java" startLine="57" startPosition="76" endLine="58" endPosition="29" />
+    <nodeInfo nodeId="5442489283395873492" fileName="PQTreeMakeReductible_Test.java" startLine="58" startPosition="29" endLine="59" endPosition="33" />
+    <nodeInfo nodeId="5442489283395868735" fileName="PQTreeMakeReductible_Test.java" startLine="59" startPosition="33" endLine="60" endPosition="25" />
+    <nodeInfo nodeId="5442489283395868739" fileName="PQTreeMakeReductible_Test.java" startLine="60" startPosition="25" endLine="61" endPosition="29" />
+    <nodeInfo nodeId="5442489283395868754" fileName="PQTreeMakeReductible_Test.java" startLine="63" startPosition="38" endLine="64" endPosition="50" />
+    <nodeInfo nodeId="5442489283395876152" fileName="PQTreeMakeReductible_Test.java" startLine="69" startPosition="51" endLine="70" endPosition="31" />
+    <nodeInfo nodeId="5442489283395876157" fileName="PQTreeMakeReductible_Test.java" startLine="70" startPosition="31" endLine="71" endPosition="69" />
+    <nodeInfo nodeId="5442489283395876164" fileName="PQTreeMakeReductible_Test.java" startLine="71" startPosition="69" endLine="72" endPosition="112" />
+    <nodeInfo nodeId="5442489283395876177" fileName="PQTreeMakeReductible_Test.java" startLine="72" startPosition="112" endLine="73" endPosition="76" />
+    <nodeInfo nodeId="5442489283395876249" fileName="PQTreeMakeReductible_Test.java" startLine="73" startPosition="76" endLine="74" endPosition="76" />
+    <nodeInfo nodeId="5442489283395876191" fileName="PQTreeMakeReductible_Test.java" startLine="74" startPosition="76" endLine="75" endPosition="76" />
+    <nodeInfo nodeId="5442489283395876198" fileName="PQTreeMakeReductible_Test.java" startLine="75" startPosition="76" endLine="76" endPosition="76" />
+    <nodeInfo nodeId="5442489283395876259" fileName="PQTreeMakeReductible_Test.java" startLine="76" startPosition="76" endLine="77" endPosition="76" />
+    <nodeInfo nodeId="5442489283395876205" fileName="PQTreeMakeReductible_Test.java" startLine="77" startPosition="76" endLine="78" endPosition="29" />
+    <nodeInfo nodeId="5442489283395876210" fileName="PQTreeMakeReductible_Test.java" startLine="78" startPosition="29" endLine="79" endPosition="33" />
+    <nodeInfo nodeId="5442489283395876215" fileName="PQTreeMakeReductible_Test.java" startLine="79" startPosition="33" endLine="80" endPosition="25" />
+    <nodeInfo nodeId="5442489283395876219" fileName="PQTreeMakeReductible_Test.java" startLine="80" startPosition="25" endLine="81" endPosition="29" />
+    <nodeInfo nodeId="5442489283395876234" fileName="PQTreeMakeReductible_Test.java" startLine="83" startPosition="38" endLine="84" endPosition="50" />
+    <nodeInfo nodeId="5442489283395876056" fileName="PQTreeMakeReductible_Test.java" startLine="89" startPosition="51" endLine="90" endPosition="31" />
+    <nodeInfo nodeId="5442489283395876061" fileName="PQTreeMakeReductible_Test.java" startLine="90" startPosition="31" endLine="91" endPosition="69" />
+    <nodeInfo nodeId="5442489283395876068" fileName="PQTreeMakeReductible_Test.java" startLine="91" startPosition="69" endLine="92" endPosition="118" />
+    <nodeInfo nodeId="5442489283395876081" fileName="PQTreeMakeReductible_Test.java" startLine="92" startPosition="118" endLine="93" endPosition="76" />
+    <nodeInfo nodeId="5442489283395876282" fileName="PQTreeMakeReductible_Test.java" startLine="93" startPosition="76" endLine="94" endPosition="76" />
+    <nodeInfo nodeId="5442489283395876088" fileName="PQTreeMakeReductible_Test.java" startLine="94" startPosition="76" endLine="95" endPosition="76" />
+    <nodeInfo nodeId="5442489283395876095" fileName="PQTreeMakeReductible_Test.java" startLine="95" startPosition="76" endLine="96" endPosition="76" />
+    <nodeInfo nodeId="5442489283395876102" fileName="PQTreeMakeReductible_Test.java" startLine="96" startPosition="76" endLine="97" endPosition="76" />
+    <nodeInfo nodeId="5442489283395877388" fileName="PQTreeMakeReductible_Test.java" startLine="97" startPosition="76" endLine="98" endPosition="76" />
+    <nodeInfo nodeId="5442489283395876109" fileName="PQTreeMakeReductible_Test.java" startLine="98" startPosition="76" endLine="99" endPosition="29" />
+    <nodeInfo nodeId="5442489283395876114" fileName="PQTreeMakeReductible_Test.java" startLine="99" startPosition="29" endLine="100" endPosition="33" />
+    <nodeInfo nodeId="5442489283395876119" fileName="PQTreeMakeReductible_Test.java" startLine="100" startPosition="33" endLine="101" endPosition="25" />
+    <nodeInfo nodeId="5442489283395876123" fileName="PQTreeMakeReductible_Test.java" startLine="101" startPosition="25" endLine="102" endPosition="29" />
+    <nodeInfo nodeId="5442489283395876138" fileName="PQTreeMakeReductible_Test.java" startLine="104" startPosition="38" endLine="105" endPosition="50" />
+    <nodeInfo nodeId="6541005299200808297" fileName="PQTreeMakeReductible_Test.java" startLine="110" startPosition="45" endLine="111" endPosition="31" />
+    <nodeInfo nodeId="6541005299200808302" fileName="PQTreeMakeReductible_Test.java" startLine="111" startPosition="31" endLine="112" endPosition="69" />
+    <nodeInfo nodeId="6541005299200808319" fileName="PQTreeMakeReductible_Test.java" startLine="112" startPosition="69" endLine="113" endPosition="29" />
+    <nodeInfo nodeId="6541005299200808310" fileName="PQTreeMakeReductible_Test.java" startLine="113" startPosition="29" endLine="114" endPosition="23" />
+    <nodeInfo nodeId="6541005299200808329" fileName="PQTreeMakeReductible_Test.java" startLine="114" startPosition="23" endLine="115" endPosition="43" />
+    <nodeInfo nodeId="6541005299200808341" fileName="PQTreeMakeReductible_Test.java" startLine="115" startPosition="43" endLine="116" endPosition="30" />
+    <nodeInfo nodeId="6541005299200808348" fileName="PQTreeMakeReductible_Test.java" startLine="116" startPosition="30" endLine="117" endPosition="29" />
+    <nodeInfo nodeId="6541005299200808365" fileName="PQTreeMakeReductible_Test.java" startLine="117" startPosition="29" endLine="118" endPosition="44" />
+    <nodeInfo nodeId="6541005299200808381" fileName="PQTreeMakeReductible_Test.java" startLine="118" startPosition="44" endLine="119" endPosition="31" />
+    <nodeInfo nodeId="6541005299200808388" fileName="PQTreeMakeReductible_Test.java" startLine="119" startPosition="31" endLine="120" endPosition="32" />
+    <nodeInfo nodeId="6541005299200808404" fileName="PQTreeMakeReductible_Test.java" startLine="120" startPosition="32" endLine="121" endPosition="45" />
+    <nodeInfo nodeId="6805803048261517213" fileName="PQTreeMakeReductible_Test.java" startLine="121" startPosition="45" endLine="122" endPosition="31" />
+    <nodeInfo nodeId="6805803048261517218" fileName="PQTreeMakeReductible_Test.java" startLine="122" startPosition="31" endLine="123" endPosition="31" />
+    <nodeInfo nodeId="6805803048261517223" fileName="PQTreeMakeReductible_Test.java" startLine="123" startPosition="31" endLine="124" endPosition="45" />
+    <nodeInfo nodeId="6541005299200808462" fileName="PQTreeMakeReductible_Test.java" startLine="124" startPosition="45" endLine="125" endPosition="20" />
+    <nodeInfo nodeId="6541005299200808466" fileName="PQTreeMakeReductible_Test.java" startLine="125" startPosition="20" endLine="126" endPosition="76" />
+    <nodeInfo nodeId="6541005299200808473" fileName="PQTreeMakeReductible_Test.java" startLine="126" startPosition="76" endLine="127" endPosition="76" />
+    <nodeInfo nodeId="6541005299200808480" fileName="PQTreeMakeReductible_Test.java" startLine="127" startPosition="76" endLine="128" endPosition="76" />
+    <nodeInfo nodeId="6805803048261517230" fileName="PQTreeMakeReductible_Test.java" startLine="128" startPosition="76" endLine="129" endPosition="76" />
+    <nodeInfo nodeId="6541005299200808488" fileName="PQTreeMakeReductible_Test.java" startLine="129" startPosition="76" endLine="130" endPosition="29" />
+    <nodeInfo nodeId="6541005299200808493" fileName="PQTreeMakeReductible_Test.java" startLine="130" startPosition="29" endLine="131" endPosition="33" />
+    <nodeInfo nodeId="6541005299200808498" fileName="PQTreeMakeReductible_Test.java" startLine="131" startPosition="33" endLine="132" endPosition="25" />
+    <nodeInfo nodeId="6541005299200808502" fileName="PQTreeMakeReductible_Test.java" startLine="132" startPosition="25" endLine="133" endPosition="29" />
+    <nodeInfo nodeId="5442489283395862701" fileName="PQTreeMakeReductible_Test.java" startLine="137" startPosition="35" endLine="138" endPosition="32" />
+    <nodeInfo nodeId="5442489283395862709" fileName="PQTreeMakeReductible_Test.java" startLine="138" startPosition="32" endLine="139" endPosition="55" />
+    <nodeInfo nodeId="5442489283395862719" fileName="PQTreeMakeReductible_Test.java" startLine="139" startPosition="55" endLine="140" endPosition="29" />
+    <nodeInfo nodeId="5442489283395865557" fileName="PQTreeMakeReductible_Test.java" startLine="144" startPosition="101" endLine="145" endPosition="29" />
+    <nodeInfo nodeId="5442489283395865561" fileName="PQTreeMakeReductible_Test.java" startLine="145" startPosition="29" endLine="146" endPosition="23" />
+    <nodeInfo nodeId="5442489283395867369" fileName="PQTreeMakeReductible_Test.java" startLine="147" startPosition="43" endLine="148" endPosition="30" />
+    <nodeInfo nodeId="5442489283395867375" fileName="PQTreeMakeReductible_Test.java" startLine="148" startPosition="30" endLine="149" endPosition="83" />
+    <nodeInfo nodeId="5442489283395867389" fileName="PQTreeMakeReductible_Test.java" startLine="149" startPosition="83" endLine="150" endPosition="29" />
+    <nodeInfo nodeId="6541005299200808438" fileName="PQTreeMakeReductible_Test.java" startLine="151" startPosition="5" endLine="152" endPosition="25" />
+    <nodeInfo nodeId="6541005299200808433" fileName="PQTreeMakeReductible_Test.java" startLine="156" startPosition="63" endLine="157" endPosition="40" />
+    <nodeInfo nodeId="6541005299200808428" fileName="PQTreeMakeReductible_Test.java" startLine="155" startPosition="39" endLine="158" endPosition="5" />
+    <nodeInfo nodeId="5442489283395865645" fileName="PQTreeMakeReductible_Test.java" startLine="27" startPosition="94" endLine="31" endPosition="0" />
+    <nodeInfo nodeId="5442489283395866072" fileName="PQTreeMakeReductible_Test.java" startLine="43" startPosition="94" endLine="47" endPosition="0" />
+    <nodeInfo nodeId="5442489283395868752" fileName="PQTreeMakeReductible_Test.java" startLine="62" startPosition="94" endLine="66" endPosition="0" />
+    <nodeInfo nodeId="5442489283395876232" fileName="PQTreeMakeReductible_Test.java" startLine="82" startPosition="94" endLine="86" endPosition="0" />
+    <nodeInfo nodeId="5442489283395876136" fileName="PQTreeMakeReductible_Test.java" startLine="103" startPosition="94" endLine="107" endPosition="0" />
+    <nodeInfo nodeId="5442489283395865632" fileName="PQTreeMakeReductible_Test.java" startLine="26" startPosition="29" endLine="31" endPosition="21" />
+    <nodeInfo nodeId="5442489283395866063" fileName="PQTreeMakeReductible_Test.java" startLine="42" startPosition="29" endLine="47" endPosition="21" />
+    <nodeInfo nodeId="5442489283395868744" fileName="PQTreeMakeReductible_Test.java" startLine="61" startPosition="29" endLine="66" endPosition="21" />
+    <nodeInfo nodeId="5442489283395876224" fileName="PQTreeMakeReductible_Test.java" startLine="81" startPosition="29" endLine="86" endPosition="21" />
+    <nodeInfo nodeId="5442489283395876128" fileName="PQTreeMakeReductible_Test.java" startLine="102" startPosition="29" endLine="107" endPosition="21" />
+    <nodeInfo nodeId="5442489283395862682" fileName="PQTreeMakeReductible_Test.java" startLine="136" startPosition="88" endLine="141" endPosition="5" />
+    <nodeInfo nodeId="5442489283395867354" fileName="PQTreeMakeReductible_Test.java" startLine="146" startPosition="23" endLine="151" endPosition="5" />
+    <nodeInfo nodeId="6541005299200808423" fileName="PQTreeMakeReductible_Test.java" startLine="154" startPosition="0" endLine="160" endPosition="0" />
+    <nodeInfo nodeId="5442489283395862668" fileName="PQTreeMakeReductible_Test.java" startLine="135" startPosition="0" endLine="143" endPosition="0" />
+    <nodeInfo nodeId="5442489283395865550" fileName="PQTreeMakeReductible_Test.java" startLine="143" startPosition="0" endLine="154" endPosition="0" />
+    <nodeInfo nodeId="5442489283395858334" fileName="PQTreeMakeReductible_Test.java" startLine="17" startPosition="57" endLine="33" endPosition="0" />
+    <nodeInfo nodeId="5442489283395866016" fileName="PQTreeMakeReductible_Test.java" startLine="33" startPosition="0" endLine="49" endPosition="0" />
+    <nodeInfo nodeId="5442489283395868685" fileName="PQTreeMakeReductible_Test.java" startLine="49" startPosition="0" endLine="68" endPosition="0" />
+    <nodeInfo nodeId="5442489283395876148" fileName="PQTreeMakeReductible_Test.java" startLine="68" startPosition="0" endLine="88" endPosition="0" />
+    <nodeInfo nodeId="5442489283395876052" fileName="PQTreeMakeReductible_Test.java" startLine="88" startPosition="0" endLine="109" endPosition="0" />
+    <nodeInfo nodeId="6541005299200808293" fileName="PQTreeMakeReductible_Test.java" startLine="109" startPosition="0" endLine="135" endPosition="0" />
+    <scopeInfo nodeId="5442489283395865646" fileName="PQTreeMakeReductible_Test.java" startLine="28" startPosition="38" endLine="29" endPosition="50" />
+    <scopeInfo nodeId="5442489283395866073" fileName="PQTreeMakeReductible_Test.java" startLine="44" startPosition="38" endLine="45" endPosition="50" />
+    <scopeInfo nodeId="5442489283395868753" fileName="PQTreeMakeReductible_Test.java" startLine="63" startPosition="38" endLine="64" endPosition="50" />
+    <scopeInfo nodeId="5442489283395876233" fileName="PQTreeMakeReductible_Test.java" startLine="83" startPosition="38" endLine="84" endPosition="50" />
+    <scopeInfo nodeId="5442489283395876137" fileName="PQTreeMakeReductible_Test.java" startLine="104" startPosition="38" endLine="105" endPosition="50" />
+    <scopeInfo nodeId="6541005299200808432" fileName="PQTreeMakeReductible_Test.java" startLine="156" startPosition="63" endLine="157" endPosition="40" />
+    <scopeInfo nodeId="5442489283395862684" fileName="PQTreeMakeReductible_Test.java" startLine="137" startPosition="35" endLine="140" endPosition="29">
+      <varInfo nodeId="5442489283395862702" varName="cur" />
+    </scopeInfo>
+    <scopeInfo nodeId="5442489283395867355" fileName="PQTreeMakeReductible_Test.java" startLine="147" startPosition="43" endLine="150" endPosition="29">
+      <varInfo nodeId="5442489283395867370" varName="cur" />
+    </scopeInfo>
+    <scopeInfo nodeId="6541005299200808427" fileName="PQTreeMakeReductible_Test.java" startLine="155" startPosition="39" endLine="158" endPosition="5" />
+    <scopeInfo nodeId="6541005299200808428" fileName="PQTreeMakeReductible_Test.java" startLine="155" startPosition="39" endLine="158" endPosition="5" />
+    <scopeInfo nodeId="5442489283395865645" fileName="PQTreeMakeReductible_Test.java" startLine="27" startPosition="94" endLine="31" endPosition="0" />
+    <scopeInfo nodeId="5442489283395866072" fileName="PQTreeMakeReductible_Test.java" startLine="43" startPosition="94" endLine="47" endPosition="0" />
+    <scopeInfo nodeId="5442489283395868752" fileName="PQTreeMakeReductible_Test.java" startLine="62" startPosition="94" endLine="66" endPosition="0" />
+    <scopeInfo nodeId="5442489283395876232" fileName="PQTreeMakeReductible_Test.java" startLine="82" startPosition="94" endLine="86" endPosition="0" />
+    <scopeInfo nodeId="5442489283395876136" fileName="PQTreeMakeReductible_Test.java" startLine="103" startPosition="94" endLine="107" endPosition="0" />
+    <scopeInfo nodeId="5442489283395862671" fileName="PQTreeMakeReductible_Test.java" startLine="136" startPosition="88" endLine="141" endPosition="5" />
+    <scopeInfo nodeId="5442489283395862682" fileName="PQTreeMakeReductible_Test.java" startLine="136" startPosition="88" endLine="141" endPosition="5">
+      <varInfo nodeId="5442489283395862683" varName="i" />
+    </scopeInfo>
+    <scopeInfo nodeId="5442489283395867354" fileName="PQTreeMakeReductible_Test.java" startLine="146" startPosition="23" endLine="151" endPosition="5">
+      <varInfo nodeId="5442489283395867357" varName="i" />
+    </scopeInfo>
+    <scopeInfo nodeId="6541005299200808423" fileName="PQTreeMakeReductible_Test.java" startLine="154" startPosition="0" endLine="160" endPosition="0">
+      <varInfo nodeId="6541005299200808422" varName="tree" />
+    </scopeInfo>
+    <scopeInfo nodeId="5442489283395862668" fileName="PQTreeMakeReductible_Test.java" startLine="135" startPosition="0" endLine="143" endPosition="0">
+      <varInfo nodeId="5442489283395862677" varName="allLeaves" />
+      <varInfo nodeId="5442489283395862672" varName="num" />
+      <varInfo nodeId="5442489283395862674" varName="node" />
+      <varInfo nodeId="5442489283395862696" varName="tree" />
+    </scopeInfo>
+    <scopeInfo nodeId="5442489283395865556" fileName="PQTreeMakeReductible_Test.java" startLine="144" startPosition="101" endLine="152" endPosition="25">
+      <varInfo nodeId="5442489283395865544" varName="node" />
+    </scopeInfo>
+    <scopeInfo nodeId="5442489283395865550" fileName="PQTreeMakeReductible_Test.java" startLine="143" startPosition="0" endLine="154" endPosition="0">
+      <varInfo nodeId="5442489283395867343" varName="num" />
+      <varInfo nodeId="5442489283395865548" varName="tree" />
+      <varInfo nodeId="5442489283395867340" varName="numChildren" />
+      <varInfo nodeId="5442489283395865549" varName="leaves" />
+    </scopeInfo>
+    <scopeInfo nodeId="5442489283395858337" fileName="PQTreeMakeReductible_Test.java" startLine="18" startPosition="51" endLine="31" endPosition="21">
+      <varInfo nodeId="5442489283395858341" varName="tree" />
+      <varInfo nodeId="5442489283395858388" varName="leaves" />
+    </scopeInfo>
+    <scopeInfo nodeId="5442489283395866019" fileName="PQTreeMakeReductible_Test.java" startLine="34" startPosition="52" endLine="47" endPosition="21">
+      <varInfo nodeId="5442489283395866021" varName="tree" />
+      <varInfo nodeId="5442489283395866026" varName="leaves" />
+    </scopeInfo>
+    <scopeInfo nodeId="5442489283395858334" fileName="PQTreeMakeReductible_Test.java" startLine="17" startPosition="57" endLine="33" endPosition="0" />
+    <scopeInfo nodeId="5442489283395866016" fileName="PQTreeMakeReductible_Test.java" startLine="33" startPosition="0" endLine="49" endPosition="0" />
+    <scopeInfo nodeId="5442489283395868688" fileName="PQTreeMakeReductible_Test.java" startLine="50" startPosition="51" endLine="66" endPosition="21">
+      <varInfo nodeId="5442489283395868690" varName="tree" />
+      <varInfo nodeId="5442489283395868695" varName="leaves" />
+    </scopeInfo>
+    <scopeInfo nodeId="5442489283395876151" fileName="PQTreeMakeReductible_Test.java" startLine="69" startPosition="51" endLine="86" endPosition="21">
+      <varInfo nodeId="5442489283395876153" varName="tree" />
+      <varInfo nodeId="5442489283395876158" varName="leaves" />
+    </scopeInfo>
+    <scopeInfo nodeId="5442489283395876055" fileName="PQTreeMakeReductible_Test.java" startLine="89" startPosition="51" endLine="107" endPosition="21">
+      <varInfo nodeId="5442489283395876057" varName="tree" />
+      <varInfo nodeId="5442489283395876062" varName="leaves" />
+    </scopeInfo>
+    <scopeInfo nodeId="5442489283395868685" fileName="PQTreeMakeReductible_Test.java" startLine="49" startPosition="0" endLine="68" endPosition="0" />
+    <scopeInfo nodeId="5442489283395876148" fileName="PQTreeMakeReductible_Test.java" startLine="68" startPosition="0" endLine="88" endPosition="0" />
+    <scopeInfo nodeId="5442489283395876052" fileName="PQTreeMakeReductible_Test.java" startLine="88" startPosition="0" endLine="109" endPosition="0" />
+    <scopeInfo nodeId="6541005299200808296" fileName="PQTreeMakeReductible_Test.java" startLine="110" startPosition="45" endLine="133" endPosition="29">
+      <varInfo nodeId="6805803048261517214" varName="pNode2" />
+      <varInfo nodeId="6541005299200808298" varName="tree" />
+      <varInfo nodeId="6541005299200808320" varName="root" />
+      <varInfo nodeId="6541005299200808342" varName="qNode" />
+      <varInfo nodeId="6541005299200808303" varName="leaves" />
+      <varInfo nodeId="6541005299200808382" varName="pNode1" />
+    </scopeInfo>
+    <scopeInfo nodeId="6541005299200808293" fileName="PQTreeMakeReductible_Test.java" startLine="109" startPosition="0" endLine="135" endPosition="0" />
+    <unitInfo nodeId="5442489283395865645" fileName="PQTreeMakeReductible_Test.java" startLine="27" startPosition="72" endLine="31" endPosition="5" unitName="planarizationTest.PQTreeMakeReductible_Test$1" />
+    <unitInfo nodeId="5442489283395866072" fileName="PQTreeMakeReductible_Test.java" startLine="43" startPosition="72" endLine="47" endPosition="5" unitName="planarizationTest.PQTreeMakeReductible_Test$2" />
+    <unitInfo nodeId="5442489283395868752" fileName="PQTreeMakeReductible_Test.java" startLine="62" startPosition="72" endLine="66" endPosition="5" unitName="planarizationTest.PQTreeMakeReductible_Test$3" />
+    <unitInfo nodeId="5442489283395876232" fileName="PQTreeMakeReductible_Test.java" startLine="82" startPosition="72" endLine="86" endPosition="5" unitName="planarizationTest.PQTreeMakeReductible_Test$4" />
+    <unitInfo nodeId="5442489283395876136" fileName="PQTreeMakeReductible_Test.java" startLine="103" startPosition="72" endLine="107" endPosition="5" unitName="planarizationTest.PQTreeMakeReductible_Test$5" />
   </root>
   <root nodeId="6984255766319183447">
     <nodeInfo nodeId="6984255766319236613" fileName="STPlanarGraph_Test.java" startLine="28" startPosition="45" endLine="29" endPosition="53" />

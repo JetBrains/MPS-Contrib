@@ -5,6 +5,6 @@ package jetbrains.mps.graphLayout.planarization;
 import jetbrains.mps.graphLayout.planarGraph.EmbeddedGraph;
 import jetbrains.mps.graphLayout.graph.Graph;
 
-public interface IEmbeddinngFinder {
+public interface IEmbeddingFinder {
   public EmbeddedGraph find(Graph graph);
 }

@@ -55,7 +55,7 @@ public class GraphIO {
             curEdge = edge;
           }
         }
-        face.addNext(new Dart(curEdge, source));
+        face.addLast(new Dart(curEdge, source));
       }
       embeddedGraph.addFace(face);
       if (curFace == numFaces - 1) {

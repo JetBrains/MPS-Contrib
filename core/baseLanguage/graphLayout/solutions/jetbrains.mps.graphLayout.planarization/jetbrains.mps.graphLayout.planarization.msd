@@ -7,5 +7,8 @@
   <dependencies>
     <dependency reexport="false">8b851d7a-07be-4a1c-b815-1fb38e1fa4cc(jetbrains.mps.graphLayout.graph)</dependency>
   </dependencies>
+  <usedLanguages>
+    <usedLanguage>f2801650-65d5-424e-bb1b-463a8781b786(jetbrains.mps.baseLanguage.javadoc)</usedLanguage>
+  </usedLanguages>
 </solution>
 

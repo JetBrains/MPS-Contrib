@@ -2683,7 +2683,14 @@
     <property name="name:3" value="GraphOrientation" />
     <node role="staticMethod:3" type="jetbrains.mps.baseLanguage.structure.StaticMethodDeclaration:3" id="1654665216152485863">
       <property name="name:3" value="orientST" />
-      <node role="returnType:3" type="jetbrains.mps.baseLanguage.structure.VoidType:3" id="1654665216152485864" />
+      <node role="returnType:3" type="jetbrains.mps.baseLanguage.collections.structure.MapType:7" id="516638300680465145">
+        <node role="keyType:7" type="jetbrains.mps.baseLanguage.structure.ClassifierType:3" id="516638300680465148">
+          <link role="classifier:3" targetNodeId="1.4671312709908983848" resolveInfo="Node" />
+        </node>
+        <node role="valueType:7" type="jetbrains.mps.baseLanguage.structure.ClassifierType:3" id="516638300680465149">
+          <link role="classifier:3" targetNodeId="2v.~Integer" resolveInfo="Integer" />
+        </node>
+      </node>
       <node role="visibility:3" type="jetbrains.mps.baseLanguage.structure.PublicVisibility:3" id="1654665216152485865" />
       <node role="body:3" type="jetbrains.mps.baseLanguage.structure.StatementList:3" id="1654665216152485866">
         <node role="statement:3" type="jetbrains.mps.baseLanguage.structure.LocalVariableDeclarationStatement:3" id="1654665216152485875">
@@ -2785,6 +2792,11 @@
                 </node>
               </node>
             </node>
+          </node>
+        </node>
+        <node role="statement:3" type="jetbrains.mps.baseLanguage.structure.ReturnStatement:3" id="516638300680465151">
+          <node role="expression:3" type="jetbrains.mps.baseLanguage.structure.LocalVariableReference:3" id="516638300680465153">
+            <link role="variableDeclaration:3" targetNodeId="1654665216152485876" resolveInfo="stNumbering" />
           </node>
         </node>
       </node>

@@ -24,7 +24,7 @@ import java.util.HashSet;
 import jetbrains.mps.graphLayout.algorithms.Dfs;
 import java.util.LinkedHashSet;
 
-public class TreeEmbeddingFinder implements IEmbeddinngFinder {
+public class TreeEmbeddingFinder implements IEmbeddingFinder {
   private Map<Edge, List<Edge>> mySplittedEdges;
 
   public TreeEmbeddingFinder() {
@@ -108,20 +108,20 @@ public class TreeEmbeddingFinder implements IEmbeddinngFinder {
       toFind = ListSequence.fromList(nodes).getElement(1);
     }
     do {
-      ListSequence.fromList(newFaces).getElement(0).addNext(cur);
+      ListSequence.fromList(newFaces).getElement(0).addLast(cur);
       cur = dartItr.next();
     } while (cur.getSource() != toFind);
-    ListSequence.fromList(newFaces).getElement(0).addNext(new Dart(newEdge, cur.getSource()));
-    ListSequence.fromList(newFaces).getElement(1).addNext(new Dart(newEdge, first.getSource()));
-    ListSequence.fromList(newFaces).getElement(1).addNext(cur);
+    ListSequence.fromList(newFaces).getElement(0).addLast(new Dart(newEdge, cur.getSource()));
+    ListSequence.fromList(newFaces).getElement(1).addLast(new Dart(newEdge, first.getSource()));
+    ListSequence.fromList(newFaces).getElement(1).addLast(cur);
     while (dartItr.hasNext()) {
       cur = dartItr.next();
-      ListSequence.fromList(newFaces).getElement(1).addNext(cur);
+      ListSequence.fromList(newFaces).getElement(1).addLast(cur);
     }
     dartItr = ListSequence.fromList(face.getDarts()).iterator();
     cur = dartItr.next();
     while (cur != first) {
-      ListSequence.fromList(newFaces).getElement(1).addNext(cur);
+      ListSequence.fromList(newFaces).getElement(1).addLast(cur);
       cur = dartItr.next();
     }
     embeddedGraph.removeFace(face);
@@ -213,7 +213,7 @@ public class TreeEmbeddingFinder implements IEmbeddinngFinder {
     @Override
     protected void processEdge(Edge edge, Node source) {
       if (MapSequence.fromMap(getDfsState()).get(edge.getOpposite(source)) == Dfs.BEFORE) {
-        myOuterFace.addNext(new Dart(edge, source));
+        myOuterFace.addLast(new Dart(edge, source));
       } else {
         SetSequence.fromSet(myBackEdges).addElement(edge);
       }
@@ -222,7 +222,7 @@ public class TreeEmbeddingFinder implements IEmbeddinngFinder {
     @Override
     protected void postprocess(Node node, Edge from) {
       if (from != null) {
-        myOuterFace.addNext(new Dart(from, node));
+        myOuterFace.addLast(new Dart(from, node));
       }
 
     }

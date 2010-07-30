@@ -120,6 +120,97 @@
     <scopeInfo nodeId="5180427534212034570" fileName="NodeMap.java" startLine="91" startPosition="0" endLine="102" endPosition="0" />
     <unitInfo nodeId="5180427534211916789" fileName="NodeMap.java" startLine="14" startPosition="0" endLine="103" endPosition="0" unitName="jetbrains.mps.graphLayout.util.NodeMap" />
   </root>
+  <root nodeId="5506742424957159871">
+    <nodeInfo nodeId="7691038695743456911" fileName="OldPQTreeNode.java" startLine="9" startPosition="37" endLine="10" endPosition="41" />
+    <nodeInfo nodeId="7691038695743539323" fileName="OldPQTreeNode.java" startLine="10" startPosition="41" endLine="11" endPosition="33" />
+    <nodeInfo nodeId="7691038695743456947" fileName="OldPQTreeNode.java" startLine="11" startPosition="33" endLine="12" endPosition="38" />
+    <nodeInfo nodeId="7691038695743456917" fileName="OldPQTreeNode.java" startLine="14" startPosition="26" endLine="15" endPosition="71" />
+    <nodeInfo nodeId="7691038695743472078" fileName="OldPQTreeNode.java" startLine="15" startPosition="71" endLine="16" endPosition="19" />
+    <nodeInfo nodeId="7691038695743539328" fileName="OldPQTreeNode.java" startLine="16" startPosition="19" endLine="17" endPosition="20" />
+    <nodeInfo nodeId="7691038695743472084" fileName="OldPQTreeNode.java" startLine="22" startPosition="51" endLine="23" endPosition="20" />
+    <nodeInfo nodeId="7691038695743472095" fileName="OldPQTreeNode.java" startLine="26" startPosition="41" endLine="27" endPosition="19" />
+    <nodeInfo nodeId="7691038695743472128" fileName="OldPQTreeNode.java" startLine="30" startPosition="44" endLine="31" endPosition="22" />
+    <nodeInfo nodeId="7691038695743472195" fileName="OldPQTreeNode.java" startLine="34" startPosition="49" endLine="35" endPosition="56" />
+    <nodeInfo nodeId="7691038695743539359" fileName="OldPQTreeNode.java" startLine="35" startPosition="56" endLine="36" endPosition="26" />
+    <nodeInfo nodeId="7691038695743538742" fileName="OldPQTreeNode.java" startLine="39" startPosition="50" endLine="40" endPosition="62" />
+    <nodeInfo nodeId="7691038695743539368" fileName="OldPQTreeNode.java" startLine="40" startPosition="62" endLine="41" endPosition="26" />
+    <nodeInfo nodeId="7691038695743539350" fileName="OldPQTreeNode.java" startLine="48" startPosition="47" endLine="49" endPosition="27" />
+    <nodeInfo nodeId="7691038695743542539" fileName="OldPQTreeNode.java" startLine="52" startPosition="38" endLine="53" endPosition="48" />
+    <nodeInfo nodeId="7691038695743542600" fileName="OldPQTreeNode.java" startLine="53" startPosition="48" endLine="54" endPosition="23" />
+    <nodeInfo nodeId="7691038695743542629" fileName="OldPQTreeNode.java" startLine="55" startPosition="38" endLine="56" endPosition="20" />
+    <nodeInfo nodeId="7691038695743542556" fileName="OldPQTreeNode.java" startLine="57" startPosition="5" endLine="58" endPosition="83" />
+    <nodeInfo nodeId="7691038695743542587" fileName="OldPQTreeNode.java" startLine="59" startPosition="59" endLine="60" endPosition="46" />
+    <nodeInfo nodeId="7691038695743542649" fileName="OldPQTreeNode.java" startLine="61" startPosition="72" endLine="62" endPosition="51" />
+    <nodeInfo nodeId="7691038695743542546" fileName="OldPQTreeNode.java" startLine="64" startPosition="5" endLine="65" endPosition="30" />
+    <nodeInfo nodeId="516638300680409534" fileName="OldPQTreeNode.java" startLine="69" startPosition="60" endLine="70" endPosition="64" />
+    <nodeInfo nodeId="516638300680409538" fileName="OldPQTreeNode.java" startLine="71" startPosition="5" endLine="72" endPosition="16" />
+    <nodeInfo nodeId="7691038695743456932" fileName="OldPQTreeNode.java" startLine="19" startPosition="0" endLine="21" endPosition="0" />
+    <nodeInfo nodeId="7691038695743542567" fileName="OldPQTreeNode.java" startLine="74" startPosition="0" endLine="76" endPosition="0" />
+    <nodeInfo nodeId="7691038695743456975" fileName="OldPQTreeNode.java" startLine="81" startPosition="0" endLine="83" endPosition="5" />
+    <nodeInfo nodeId="7691038695743542614" fileName="OldPQTreeNode.java" startLine="54" startPosition="23" endLine="57" endPosition="5" />
+    <nodeInfo nodeId="7691038695743542644" fileName="OldPQTreeNode.java" startLine="60" startPosition="46" endLine="63" endPosition="7" />
+    <nodeInfo nodeId="516638300680409515" fileName="OldPQTreeNode.java" startLine="68" startPosition="33" endLine="71" endPosition="5" />
+    <nodeInfo nodeId="7691038695743472067" fileName="OldPQTreeNode.java" startLine="21" startPosition="0" endLine="25" endPosition="0" />
+    <nodeInfo nodeId="7691038695743472090" fileName="OldPQTreeNode.java" startLine="25" startPosition="0" endLine="29" endPosition="0" />
+    <nodeInfo nodeId="7691038695743472121" fileName="OldPQTreeNode.java" startLine="29" startPosition="0" endLine="33" endPosition="0" />
+    <nodeInfo nodeId="7691038695743539338" fileName="OldPQTreeNode.java" startLine="43" startPosition="0" endLine="47" endPosition="0" />
+    <nodeInfo nodeId="7691038695743539346" fileName="OldPQTreeNode.java" startLine="47" startPosition="0" endLine="51" endPosition="0" />
+    <nodeInfo nodeId="7691038695743456907" fileName="OldPQTreeNode.java" startLine="13" startPosition="0" endLine="18" endPosition="3" />
+    <nodeInfo nodeId="7691038695743472189" fileName="OldPQTreeNode.java" startLine="33" startPosition="0" endLine="38" endPosition="0" />
+    <nodeInfo nodeId="7691038695743538725" fileName="OldPQTreeNode.java" startLine="38" startPosition="0" endLine="43" endPosition="0" />
+    <nodeInfo nodeId="516638300680385935" fileName="OldPQTreeNode.java" startLine="58" startPosition="83" endLine="64" endPosition="5" />
+    <nodeInfo nodeId="516638300680409511" fileName="OldPQTreeNode.java" startLine="67" startPosition="0" endLine="74" endPosition="0" />
+    <nodeInfo nodeId="7691038695743542526" fileName="OldPQTreeNode.java" startLine="51" startPosition="0" endLine="67" endPosition="0" />
+    <scopeInfo nodeId="7691038695743456978" fileName="OldPQTreeNode.java" startLine="82" startPosition="13" endLine="82" endPosition="13" />
+    <scopeInfo nodeId="7691038695743472070" fileName="OldPQTreeNode.java" startLine="22" startPosition="51" endLine="23" endPosition="20" />
+    <scopeInfo nodeId="7691038695743472093" fileName="OldPQTreeNode.java" startLine="26" startPosition="41" endLine="27" endPosition="19" />
+    <scopeInfo nodeId="7691038695743472124" fileName="OldPQTreeNode.java" startLine="30" startPosition="44" endLine="31" endPosition="22" />
+    <scopeInfo nodeId="7691038695743539341" fileName="OldPQTreeNode.java" startLine="44" startPosition="36" endLine="45" endPosition="25" />
+    <scopeInfo nodeId="7691038695743539349" fileName="OldPQTreeNode.java" startLine="48" startPosition="47" endLine="49" endPosition="27" />
+    <scopeInfo nodeId="7691038695743542615" fileName="OldPQTreeNode.java" startLine="55" startPosition="38" endLine="56" endPosition="20" />
+    <scopeInfo nodeId="7691038695743542647" fileName="OldPQTreeNode.java" startLine="61" startPosition="72" endLine="62" endPosition="51" />
+    <scopeInfo nodeId="516638300680409517" fileName="OldPQTreeNode.java" startLine="69" startPosition="60" endLine="70" endPosition="64" />
+    <scopeInfo nodeId="7691038695743456932" fileName="OldPQTreeNode.java" startLine="19" startPosition="0" endLine="21" endPosition="0">
+      <varInfo nodeId="7691038695743540489" varName="isPertinentRoot" />
+    </scopeInfo>
+    <scopeInfo nodeId="7691038695743472192" fileName="OldPQTreeNode.java" startLine="34" startPosition="49" endLine="36" endPosition="26" />
+    <scopeInfo nodeId="7691038695743538728" fileName="OldPQTreeNode.java" startLine="39" startPosition="50" endLine="41" endPosition="26" />
+    <scopeInfo nodeId="7691038695743542567" fileName="OldPQTreeNode.java" startLine="74" startPosition="0" endLine="76" endPosition="0" />
+    <scopeInfo nodeId="7691038695743456975" fileName="OldPQTreeNode.java" startLine="81" startPosition="0" endLine="83" endPosition="5" />
+    <scopeInfo nodeId="7691038695743456910" fileName="OldPQTreeNode.java" startLine="14" startPosition="26" endLine="17" endPosition="20" />
+    <scopeInfo nodeId="7691038695743542614" fileName="OldPQTreeNode.java" startLine="54" startPosition="23" endLine="57" endPosition="5">
+      <varInfo nodeId="7691038695743542617" varName="i" />
+    </scopeInfo>
+    <scopeInfo nodeId="7691038695743542644" fileName="OldPQTreeNode.java" startLine="60" startPosition="46" endLine="63" endPosition="7" />
+    <scopeInfo nodeId="7691038695743472067" fileName="OldPQTreeNode.java" startLine="21" startPosition="0" endLine="25" endPosition="0">
+      <varInfo nodeId="7691038695743472075" varName="state" />
+    </scopeInfo>
+    <scopeInfo nodeId="7691038695743472090" fileName="OldPQTreeNode.java" startLine="25" startPosition="0" endLine="29" endPosition="0" />
+    <scopeInfo nodeId="7691038695743472121" fileName="OldPQTreeNode.java" startLine="29" startPosition="0" endLine="33" endPosition="0" />
+    <scopeInfo nodeId="7691038695743539338" fileName="OldPQTreeNode.java" startLine="43" startPosition="0" endLine="47" endPosition="0" />
+    <scopeInfo nodeId="7691038695743539346" fileName="OldPQTreeNode.java" startLine="47" startPosition="0" endLine="51" endPosition="0">
+      <varInfo nodeId="7691038695743539356" varName="parent" />
+    </scopeInfo>
+    <scopeInfo nodeId="516638300680385937" fileName="OldPQTreeNode.java" startLine="59" startPosition="59" endLine="63" endPosition="7" />
+    <scopeInfo nodeId="516638300680409514" fileName="OldPQTreeNode.java" startLine="68" startPosition="33" endLine="72" endPosition="16" />
+    <scopeInfo nodeId="7691038695743456907" fileName="OldPQTreeNode.java" startLine="13" startPosition="0" endLine="18" endPosition="3" />
+    <scopeInfo nodeId="7691038695743472189" fileName="OldPQTreeNode.java" startLine="33" startPosition="0" endLine="38" endPosition="0">
+      <varInfo nodeId="7691038695743472193" varName="child" />
+    </scopeInfo>
+    <scopeInfo nodeId="7691038695743538725" fileName="OldPQTreeNode.java" startLine="38" startPosition="0" endLine="43" endPosition="0">
+      <varInfo nodeId="7691038695743538740" varName="child" />
+    </scopeInfo>
+    <scopeInfo nodeId="516638300680409511" fileName="OldPQTreeNode.java" startLine="67" startPosition="0" endLine="74" endPosition="0" />
+    <scopeInfo nodeId="7691038695743542529" fileName="OldPQTreeNode.java" startLine="52" startPosition="38" endLine="65" endPosition="30">
+      <varInfo nodeId="7691038695743542601" varName="spaces" />
+      <varInfo nodeId="7691038695743542540" varName="builder" />
+    </scopeInfo>
+    <scopeInfo nodeId="7691038695743542526" fileName="OldPQTreeNode.java" startLine="51" startPosition="0" endLine="67" endPosition="0">
+      <varInfo nodeId="7691038695743542594" varName="offset" />
+    </scopeInfo>
+    <unitInfo nodeId="7691038695743456973" fileName="OldPQTreeNode.java" startLine="77" startPosition="0" endLine="85" endPosition="0" unitName="jetbrains.mps.graphLayout.util.OldPQTreeNode$State" />
+    <unitInfo nodeId="5506742424957159871" fileName="OldPQTreeNode.java" startLine="9" startPosition="0" endLine="86" endPosition="0" unitName="jetbrains.mps.graphLayout.util.OldPQTreeNode" />
+  </root>
   <root nodeId="5639900666367221336">
     <nodeInfo nodeId="5639900666367221388" fileName="GeomUtil.java" startLine="9" startPosition="72" endLine="10" endPosition="43" />
     <nodeInfo nodeId="5639900666367292096" fileName="GeomUtil.java" startLine="13" startPosition="74" endLine="14" endPosition="44" />
@@ -208,6 +299,605 @@
       <varInfo nodeId="6160477238666701740" varName="rect" />
     </scopeInfo>
     <unitInfo nodeId="5639900666367221336" fileName="GeomUtil.java" startLine="8" startPosition="0" endLine="62" endPosition="0" unitName="jetbrains.mps.graphLayout.util.GeomUtil" />
+  </root>
+  <root nodeId="7691038695743456886">
+    <nodeInfo nodeId="7691038695743472177" fileName="OldPNode.java" startLine="10" startPosition="21" endLine="11" endPosition="12" />
+    <nodeInfo nodeId="7691038695743472116" fileName="OldPNode.java" startLine="14" startPosition="63" endLine="15" endPosition="20" />
+    <nodeInfo nodeId="7691038695743539425" fileName="OldPNode.java" startLine="15" startPosition="20" endLine="16" endPosition="21" />
+    <nodeInfo nodeId="7691038695743539431" fileName="OldPNode.java" startLine="16" startPosition="21" endLine="17" endPosition="23" />
+    <nodeInfo nodeId="7691038695743539468" fileName="OldPNode.java" startLine="17" startPosition="23" endLine="18" endPosition="67" />
+    <nodeInfo nodeId="7691038695743472147" fileName="OldPNode.java" startLine="20" startPosition="56" endLine="21" endPosition="18" />
+    <nodeInfo nodeId="7691038695743539444" fileName="OldPNode.java" startLine="23" startPosition="59" endLine="24" endPosition="21" />
+    <nodeInfo nodeId="7691038695743539455" fileName="OldPNode.java" startLine="26" startPosition="57" endLine="27" endPosition="19" />
+    <nodeInfo nodeId="7691038695743539483" fileName="OldPNode.java" startLine="30" startPosition="33" endLine="31" endPosition="27" />
+    <nodeInfo nodeId="7691038695743539540" fileName="OldPNode.java" startLine="33" startPosition="28" endLine="34" endPosition="29" />
+    <nodeInfo nodeId="7691038695743539545" fileName="OldPNode.java" startLine="35" startPosition="14" endLine="36" endPosition="29" />
+    <nodeInfo nodeId="7691038695743539559" fileName="OldPNode.java" startLine="39" startPosition="28" endLine="40" endPosition="29" />
+    <nodeInfo nodeId="7691038695743539563" fileName="OldPNode.java" startLine="41" startPosition="14" endLine="42" endPosition="29" />
+    <nodeInfo nodeId="7691038695743539579" fileName="OldPNode.java" startLine="45" startPosition="28" endLine="46" endPosition="29" />
+    <nodeInfo nodeId="7691038695743539588" fileName="OldPNode.java" startLine="48" startPosition="5" endLine="49" endPosition="16" />
+    <nodeInfo nodeId="7691038695743472151" fileName="OldPNode.java" startLine="56" startPosition="39" endLine="57" endPosition="39" />
+    <nodeInfo nodeId="7691038695743539388" fileName="OldPNode.java" startLine="57" startPosition="39" endLine="58" endPosition="16" />
+    <nodeInfo nodeId="7691038695743472170" fileName="OldPNode.java" startLine="66" startPosition="38" endLine="67" endPosition="43" />
+    <nodeInfo nodeId="7691038695743475265" fileName="OldPNode.java" startLine="67" startPosition="43" endLine="68" endPosition="47" />
+    <nodeInfo nodeId="7691038695743475192" fileName="OldPNode.java" startLine="68" startPosition="47" endLine="69" endPosition="86" />
+    <nodeInfo nodeId="7691038695743475216" fileName="OldPNode.java" startLine="70" startPosition="31" endLine="71" endPosition="42" />
+    <nodeInfo nodeId="7691038695743475242" fileName="OldPNode.java" startLine="72" startPosition="56" endLine="73" endPosition="25" />
+    <nodeInfo nodeId="7691038695743475255" fileName="OldPNode.java" startLine="73" startPosition="25" endLine="74" endPosition="35" />
+    <nodeInfo nodeId="516638300680409548" fileName="OldPNode.java" startLine="76" startPosition="5" endLine="77" endPosition="31" />
+    <nodeInfo nodeId="7691038695743475274" fileName="OldPNode.java" startLine="77" startPosition="31" endLine="78" endPosition="26" />
+    <nodeInfo nodeId="7691038695743475281" fileName="OldPNode.java" startLine="78" startPosition="26" endLine="79" endPosition="42" />
+    <nodeInfo nodeId="7691038695743539393" fileName="OldPNode.java" startLine="79" startPosition="42" endLine="80" endPosition="16" />
+    <nodeInfo nodeId="7691038695743475292" fileName="OldPNode.java" startLine="87" startPosition="38" endLine="88" endPosition="47" />
+    <nodeInfo nodeId="7691038695743475297" fileName="OldPNode.java" startLine="88" startPosition="47" endLine="89" endPosition="51" />
+    <nodeInfo nodeId="7691038695743475338" fileName="OldPNode.java" startLine="89" startPosition="51" endLine="90" endPosition="48" />
+    <nodeInfo nodeId="7691038695743475343" fileName="OldPNode.java" startLine="90" startPosition="48" endLine="91" endPosition="53" />
+    <nodeInfo nodeId="7691038695743475302" fileName="OldPNode.java" startLine="91" startPosition="53" endLine="92" endPosition="86" />
+    <nodeInfo nodeId="7691038695743475314" fileName="OldPNode.java" startLine="93" startPosition="31" endLine="94" endPosition="42" />
+    <nodeInfo nodeId="7691038695743475355" fileName="OldPNode.java" startLine="94" startPosition="42" endLine="95" endPosition="23" />
+    <nodeInfo nodeId="7691038695743475326" fileName="OldPNode.java" startLine="96" startPosition="56" endLine="97" endPosition="39" />
+    <nodeInfo nodeId="7691038695743475364" fileName="OldPNode.java" startLine="98" startPosition="14" endLine="99" endPosition="40" />
+    <nodeInfo nodeId="7691038695743475390" fileName="OldPNode.java" startLine="101" startPosition="5" endLine="102" endPosition="42" />
+    <nodeInfo nodeId="516638300680409561" fileName="OldPNode.java" startLine="102" startPosition="42" endLine="103" endPosition="39" />
+    <nodeInfo nodeId="516638300680409576" fileName="OldPNode.java" startLine="103" startPosition="39" endLine="104" endPosition="41" />
+    <nodeInfo nodeId="7691038695743475399" fileName="OldPNode.java" startLine="104" startPosition="41" endLine="105" endPosition="42" />
+    <nodeInfo nodeId="7691038695743475408" fileName="OldPNode.java" startLine="105" startPosition="42" endLine="106" endPosition="43" />
+    <nodeInfo nodeId="7691038695743475417" fileName="OldPNode.java" startLine="106" startPosition="43" endLine="107" endPosition="54" />
+    <nodeInfo nodeId="7691038695743539398" fileName="OldPNode.java" startLine="107" startPosition="54" endLine="108" endPosition="23" />
+    <nodeInfo nodeId="7691038695743538626" fileName="OldPNode.java" startLine="115" startPosition="38" endLine="116" endPosition="47" />
+    <nodeInfo nodeId="7691038695743538755" fileName="OldPNode.java" startLine="116" startPosition="47" endLine="117" endPosition="51" />
+    <nodeInfo nodeId="7691038695743538679" fileName="OldPNode.java" startLine="117" startPosition="51" endLine="118" endPosition="32" />
+    <nodeInfo nodeId="7691038695743538636" fileName="OldPNode.java" startLine="118" startPosition="32" endLine="119" endPosition="86" />
+    <nodeInfo nodeId="7691038695743538648" fileName="OldPNode.java" startLine="120" startPosition="31" endLine="121" endPosition="42" />
+    <nodeInfo nodeId="7691038695743538656" fileName="OldPNode.java" startLine="122" startPosition="56" endLine="123" endPosition="25" />
+    <nodeInfo nodeId="7691038695743538660" fileName="OldPNode.java" startLine="123" startPosition="25" endLine="124" endPosition="39" />
+    <nodeInfo nodeId="7691038695743538700" fileName="OldPNode.java" startLine="126" startPosition="59" endLine="127" endPosition="38" />
+    <nodeInfo nodeId="516638300680409589" fileName="OldPNode.java" startLine="129" startPosition="5" endLine="130" endPosition="39" />
+    <nodeInfo nodeId="7691038695743538787" fileName="OldPNode.java" startLine="131" startPosition="106" endLine="132" endPosition="45" />
+    <nodeInfo nodeId="7691038695743538800" fileName="OldPNode.java" startLine="133" startPosition="12" endLine="134" endPosition="44" />
+    <nodeInfo nodeId="7691038695743538673" fileName="OldPNode.java" startLine="135" startPosition="5" endLine="136" endPosition="42" />
+    <nodeInfo nodeId="7691038695743539403" fileName="OldPNode.java" startLine="136" startPosition="42" endLine="137" endPosition="16" />
+    <nodeInfo nodeId="7691038695743538812" fileName="OldPNode.java" startLine="144" startPosition="38" endLine="145" endPosition="47" />
+    <nodeInfo nodeId="7691038695743538817" fileName="OldPNode.java" startLine="145" startPosition="47" endLine="146" endPosition="51" />
+    <nodeInfo nodeId="7691038695743538901" fileName="OldPNode.java" startLine="146" startPosition="51" endLine="147" endPosition="48" />
+    <nodeInfo nodeId="7691038695743538906" fileName="OldPNode.java" startLine="147" startPosition="48" endLine="148" endPosition="53" />
+    <nodeInfo nodeId="7691038695743538822" fileName="OldPNode.java" startLine="148" startPosition="53" endLine="149" endPosition="32" />
+    <nodeInfo nodeId="7691038695743538826" fileName="OldPNode.java" startLine="149" startPosition="32" endLine="150" endPosition="86" />
+    <nodeInfo nodeId="7691038695743538838" fileName="OldPNode.java" startLine="151" startPosition="31" endLine="152" endPosition="42" />
+    <nodeInfo nodeId="7691038695743538846" fileName="OldPNode.java" startLine="153" startPosition="56" endLine="154" endPosition="25" />
+    <nodeInfo nodeId="7691038695743538850" fileName="OldPNode.java" startLine="154" startPosition="25" endLine="155" endPosition="39" />
+    <nodeInfo nodeId="7691038695743538915" fileName="OldPNode.java" startLine="157" startPosition="57" endLine="158" endPosition="25" />
+    <nodeInfo nodeId="7691038695743538919" fileName="OldPNode.java" startLine="158" startPosition="25" endLine="159" endPosition="40" />
+    <nodeInfo nodeId="7691038695743538862" fileName="OldPNode.java" startLine="161" startPosition="59" endLine="162" endPosition="38" />
+    <nodeInfo nodeId="516638300680409601" fileName="OldPNode.java" startLine="164" startPosition="5" endLine="165" endPosition="39" />
+    <nodeInfo nodeId="516638300680409615" fileName="OldPNode.java" startLine="165" startPosition="39" endLine="166" endPosition="41" />
+    <nodeInfo nodeId="7691038695743538875" fileName="OldPNode.java" startLine="167" startPosition="106" endLine="168" endPosition="45" />
+    <nodeInfo nodeId="7691038695743538932" fileName="OldPNode.java" startLine="168" startPosition="45" endLine="169" endPosition="45" />
+    <nodeInfo nodeId="7691038695743538891" fileName="OldPNode.java" startLine="170" startPosition="12" endLine="171" endPosition="44" />
+    <nodeInfo nodeId="7691038695743538939" fileName="OldPNode.java" startLine="171" startPosition="44" endLine="172" endPosition="46" />
+    <nodeInfo nodeId="7691038695743539407" fileName="OldPNode.java" startLine="173" startPosition="5" endLine="174" endPosition="23" />
+    <nodeInfo nodeId="7691038695743538954" fileName="OldPNode.java" startLine="181" startPosition="38" endLine="182" endPosition="47" />
+    <nodeInfo nodeId="7691038695743538959" fileName="OldPNode.java" startLine="182" startPosition="47" endLine="183" endPosition="51" />
+    <nodeInfo nodeId="7691038695743538964" fileName="OldPNode.java" startLine="183" startPosition="51" endLine="184" endPosition="33" />
+    <nodeInfo nodeId="7691038695743539042" fileName="OldPNode.java" startLine="184" startPosition="33" endLine="185" endPosition="33" />
+    <nodeInfo nodeId="7691038695743538968" fileName="OldPNode.java" startLine="185" startPosition="33" endLine="186" endPosition="86" />
+    <nodeInfo nodeId="7691038695743538980" fileName="OldPNode.java" startLine="187" startPosition="31" endLine="188" endPosition="42" />
+    <nodeInfo nodeId="7691038695743538988" fileName="OldPNode.java" startLine="189" startPosition="56" endLine="190" endPosition="25" />
+    <nodeInfo nodeId="7691038695743538992" fileName="OldPNode.java" startLine="190" startPosition="25" endLine="191" endPosition="39" />
+    <nodeInfo nodeId="7691038695743539056" fileName="OldPNode.java" startLine="194" startPosition="35" endLine="195" endPosition="41" />
+    <nodeInfo nodeId="7691038695743539064" fileName="OldPNode.java" startLine="196" startPosition="16" endLine="197" endPosition="41" />
+    <nodeInfo nodeId="7691038695743539079" fileName="OldPNode.java" startLine="198" startPosition="9" endLine="199" endPosition="25" />
+    <nodeInfo nodeId="516638300680409628" fileName="OldPNode.java" startLine="201" startPosition="5" endLine="202" endPosition="39" />
+    <nodeInfo nodeId="7691038695743539089" fileName="OldPNode.java" startLine="202" startPosition="39" endLine="203" endPosition="39" />
+    <nodeInfo nodeId="516638300680402100" fileName="OldPNode.java" startLine="203" startPosition="39" endLine="204" endPosition="51" />
+    <nodeInfo nodeId="7691038695743539096" fileName="OldPNode.java" startLine="204" startPosition="51" endLine="205" endPosition="62" />
+    <nodeInfo nodeId="7691038695743539133" fileName="OldPNode.java" startLine="206" startPosition="89" endLine="207" endPosition="64" />
+    <nodeInfo nodeId="7691038695743539150" fileName="OldPNode.java" startLine="209" startPosition="65" endLine="210" endPosition="35" />
+    <nodeInfo nodeId="7691038695743539159" fileName="OldPNode.java" startLine="211" startPosition="5" endLine="212" endPosition="39" />
+    <nodeInfo nodeId="7691038695743539202" fileName="OldPNode.java" startLine="212" startPosition="39" endLine="213" endPosition="42" />
+    <nodeInfo nodeId="7691038695743539180" fileName="OldPNode.java" startLine="214" startPosition="90" endLine="215" endPosition="64" />
+    <nodeInfo nodeId="7691038695743539197" fileName="OldPNode.java" startLine="217" startPosition="65" endLine="218" endPosition="35" />
+    <nodeInfo nodeId="7691038695743539208" fileName="OldPNode.java" startLine="219" startPosition="5" endLine="220" endPosition="27" />
+    <nodeInfo nodeId="7691038695743539038" fileName="OldPNode.java" startLine="220" startPosition="27" endLine="221" endPosition="42" />
+    <nodeInfo nodeId="7691038695743539413" fileName="OldPNode.java" startLine="221" startPosition="42" endLine="222" endPosition="16" />
+    <nodeInfo nodeId="516638300680382279" fileName="OldPNode.java" startLine="225" startPosition="27" endLine="226" endPosition="15" />
+    <nodeInfo nodeId="7691038695743539543" fileName="OldPNode.java" startLine="35" startPosition="12" endLine="37" endPosition="7" />
+    <nodeInfo nodeId="7691038695743539561" fileName="OldPNode.java" startLine="41" startPosition="12" endLine="43" endPosition="7" />
+    <nodeInfo nodeId="7691038695743475362" fileName="OldPNode.java" startLine="98" startPosition="12" endLine="100" endPosition="7" />
+    <nodeInfo nodeId="7691038695743538798" fileName="OldPNode.java" startLine="133" startPosition="10" endLine="135" endPosition="5" />
+    <nodeInfo nodeId="7691038695743539062" fileName="OldPNode.java" startLine="196" startPosition="14" endLine="198" endPosition="9" />
+    <nodeInfo nodeId="7691038695743456888" fileName="OldPNode.java" startLine="9" startPosition="45" endLine="12" endPosition="3" />
+    <nodeInfo nodeId="7691038695743472133" fileName="OldPNode.java" startLine="19" startPosition="69" endLine="22" endPosition="7" />
+    <nodeInfo nodeId="7691038695743539437" fileName="OldPNode.java" startLine="22" startPosition="7" endLine="25" endPosition="7" />
+    <nodeInfo nodeId="7691038695743539448" fileName="OldPNode.java" startLine="25" startPosition="7" endLine="28" endPosition="7" />
+    <nodeInfo nodeId="7691038695743539575" fileName="OldPNode.java" startLine="44" startPosition="33" endLine="47" endPosition="7" />
+    <nodeInfo nodeId="7691038695743538685" fileName="OldPNode.java" startLine="125" startPosition="7" endLine="128" endPosition="7" />
+    <nodeInfo nodeId="7691038695743538860" fileName="OldPNode.java" startLine="160" startPosition="7" endLine="163" endPosition="7" />
+    <nodeInfo nodeId="7691038695743538889" fileName="OldPNode.java" startLine="170" startPosition="10" endLine="173" endPosition="5" />
+    <nodeInfo nodeId="7691038695743539109" fileName="OldPNode.java" startLine="205" startPosition="62" endLine="208" endPosition="5" />
+    <nodeInfo nodeId="7691038695743539145" fileName="OldPNode.java" startLine="208" startPosition="5" endLine="211" endPosition="5" />
+    <nodeInfo nodeId="7691038695743539178" fileName="OldPNode.java" startLine="213" startPosition="42" endLine="216" endPosition="5" />
+    <nodeInfo nodeId="7691038695743539193" fileName="OldPNode.java" startLine="216" startPosition="5" endLine="219" endPosition="5" />
+    <nodeInfo nodeId="7691038695743475227" fileName="OldPNode.java" startLine="71" startPosition="42" endLine="75" endPosition="7" />
+    <nodeInfo nodeId="7691038695743538654" fileName="OldPNode.java" startLine="121" startPosition="42" endLine="125" endPosition="7" />
+    <nodeInfo nodeId="7691038695743538844" fileName="OldPNode.java" startLine="152" startPosition="42" endLine="156" endPosition="7" />
+    <nodeInfo nodeId="7691038695743538913" fileName="OldPNode.java" startLine="156" startPosition="7" endLine="160" endPosition="7" />
+    <nodeInfo nodeId="7691038695743538986" fileName="OldPNode.java" startLine="188" startPosition="42" endLine="192" endPosition="7" />
+    <nodeInfo nodeId="516638300680382273" fileName="OldPNode.java" startLine="224" startPosition="0" endLine="228" endPosition="0" />
+    <nodeInfo nodeId="7691038695743539536" fileName="OldPNode.java" startLine="32" startPosition="33" endLine="37" endPosition="7" />
+    <nodeInfo nodeId="7691038695743539556" fileName="OldPNode.java" startLine="38" startPosition="33" endLine="43" endPosition="7" />
+    <nodeInfo nodeId="7691038695743475320" fileName="OldPNode.java" startLine="95" startPosition="23" endLine="100" endPosition="7" />
+    <nodeInfo nodeId="7691038695743538761" fileName="OldPNode.java" startLine="130" startPosition="39" endLine="135" endPosition="5" />
+    <nodeInfo nodeId="7691038695743539047" fileName="OldPNode.java" startLine="193" startPosition="59" endLine="198" endPosition="9" />
+    <nodeInfo nodeId="7691038695743475205" fileName="OldPNode.java" startLine="69" startPosition="86" endLine="76" endPosition="5" />
+    <nodeInfo nodeId="7691038695743538873" fileName="OldPNode.java" startLine="166" startPosition="41" endLine="173" endPosition="5" />
+    <nodeInfo nodeId="7691038695743539002" fileName="OldPNode.java" startLine="192" startPosition="7" endLine="200" endPosition="7" />
+    <nodeInfo nodeId="7691038695743472106" fileName="OldPNode.java" startLine="51" startPosition="0" endLine="60" endPosition="0" />
+    <nodeInfo nodeId="7691038695743475309" fileName="OldPNode.java" startLine="92" startPosition="86" endLine="101" endPosition="5" />
+    <nodeInfo nodeId="7691038695743538643" fileName="OldPNode.java" startLine="119" startPosition="86" endLine="129" endPosition="5" />
+    <nodeInfo nodeId="7691038695743472111" fileName="OldPNode.java" startLine="18" startPosition="67" endLine="29" endPosition="5" />
+    <nodeInfo nodeId="7691038695743538833" fileName="OldPNode.java" startLine="150" startPosition="86" endLine="164" endPosition="5" />
+    <nodeInfo nodeId="7691038695743538975" fileName="OldPNode.java" startLine="186" startPosition="86" endLine="201" endPosition="5" />
+    <nodeInfo nodeId="7691038695743539463" fileName="OldPNode.java" startLine="29" startPosition="5" endLine="48" endPosition="5" />
+    <nodeInfo nodeId="7691038695743472155" fileName="OldPNode.java" startLine="60" startPosition="0" endLine="82" endPosition="0" />
+    <nodeInfo nodeId="7691038695743475285" fileName="OldPNode.java" startLine="82" startPosition="0" endLine="110" endPosition="0" />
+    <nodeInfo nodeId="7691038695743475429" fileName="OldPNode.java" startLine="110" startPosition="0" endLine="139" endPosition="0" />
+    <nodeInfo nodeId="7691038695743538553" fileName="OldPNode.java" startLine="139" startPosition="0" endLine="176" endPosition="0" />
+    <nodeInfo nodeId="7691038695743472099" fileName="OldPNode.java" startLine="13" startPosition="0" endLine="51" endPosition="0" />
+    <nodeInfo nodeId="7691038695743538557" fileName="OldPNode.java" startLine="176" startPosition="0" endLine="224" endPosition="0" />
+    <scopeInfo nodeId="7691038695743456891" fileName="OldPNode.java" startLine="10" startPosition="21" endLine="11" endPosition="12" />
+    <scopeInfo nodeId="7691038695743472135" fileName="OldPNode.java" startLine="20" startPosition="56" endLine="21" endPosition="18" />
+    <scopeInfo nodeId="7691038695743539443" fileName="OldPNode.java" startLine="23" startPosition="59" endLine="24" endPosition="21" />
+    <scopeInfo nodeId="7691038695743539454" fileName="OldPNode.java" startLine="26" startPosition="57" endLine="27" endPosition="19" />
+    <scopeInfo nodeId="7691038695743539464" fileName="OldPNode.java" startLine="30" startPosition="33" endLine="31" endPosition="27" />
+    <scopeInfo nodeId="7691038695743539538" fileName="OldPNode.java" startLine="33" startPosition="28" endLine="34" endPosition="29" />
+    <scopeInfo nodeId="7691038695743539544" fileName="OldPNode.java" startLine="35" startPosition="14" endLine="36" endPosition="29" />
+    <scopeInfo nodeId="7691038695743539558" fileName="OldPNode.java" startLine="39" startPosition="28" endLine="40" endPosition="29" />
+    <scopeInfo nodeId="7691038695743539562" fileName="OldPNode.java" startLine="41" startPosition="14" endLine="42" endPosition="29" />
+    <scopeInfo nodeId="7691038695743539577" fileName="OldPNode.java" startLine="45" startPosition="28" endLine="46" endPosition="29" />
+    <scopeInfo nodeId="7691038695743475321" fileName="OldPNode.java" startLine="96" startPosition="56" endLine="97" endPosition="39" />
+    <scopeInfo nodeId="7691038695743475363" fileName="OldPNode.java" startLine="98" startPosition="14" endLine="99" endPosition="40" />
+    <scopeInfo nodeId="7691038695743538686" fileName="OldPNode.java" startLine="126" startPosition="59" endLine="127" endPosition="38" />
+    <scopeInfo nodeId="7691038695743538762" fileName="OldPNode.java" startLine="131" startPosition="106" endLine="132" endPosition="45" />
+    <scopeInfo nodeId="7691038695743538799" fileName="OldPNode.java" startLine="133" startPosition="12" endLine="134" endPosition="44" />
+    <scopeInfo nodeId="7691038695743538861" fileName="OldPNode.java" startLine="161" startPosition="59" endLine="162" endPosition="38" />
+    <scopeInfo nodeId="7691038695743539048" fileName="OldPNode.java" startLine="194" startPosition="35" endLine="195" endPosition="41" />
+    <scopeInfo nodeId="7691038695743539063" fileName="OldPNode.java" startLine="196" startPosition="16" endLine="197" endPosition="41" />
+    <scopeInfo nodeId="7691038695743539110" fileName="OldPNode.java" startLine="206" startPosition="89" endLine="207" endPosition="64" />
+    <scopeInfo nodeId="7691038695743539148" fileName="OldPNode.java" startLine="209" startPosition="65" endLine="210" endPosition="35" />
+    <scopeInfo nodeId="7691038695743539179" fileName="OldPNode.java" startLine="214" startPosition="90" endLine="215" endPosition="64" />
+    <scopeInfo nodeId="7691038695743539196" fileName="OldPNode.java" startLine="217" startPosition="65" endLine="218" endPosition="35" />
+    <scopeInfo nodeId="516638300680382276" fileName="OldPNode.java" startLine="225" startPosition="27" endLine="226" endPosition="15" />
+    <scopeInfo nodeId="7691038695743472109" fileName="OldPNode.java" startLine="56" startPosition="39" endLine="58" endPosition="16" />
+    <scopeInfo nodeId="7691038695743475228" fileName="OldPNode.java" startLine="72" startPosition="56" endLine="74" endPosition="35" />
+    <scopeInfo nodeId="7691038695743538655" fileName="OldPNode.java" startLine="122" startPosition="56" endLine="124" endPosition="39" />
+    <scopeInfo nodeId="7691038695743538845" fileName="OldPNode.java" startLine="153" startPosition="56" endLine="155" endPosition="39" />
+    <scopeInfo nodeId="7691038695743538914" fileName="OldPNode.java" startLine="157" startPosition="57" endLine="159" endPosition="40" />
+    <scopeInfo nodeId="7691038695743538874" fileName="OldPNode.java" startLine="167" startPosition="106" endLine="169" endPosition="45" />
+    <scopeInfo nodeId="7691038695743538890" fileName="OldPNode.java" startLine="170" startPosition="12" endLine="172" endPosition="46" />
+    <scopeInfo nodeId="7691038695743538987" fileName="OldPNode.java" startLine="189" startPosition="56" endLine="191" endPosition="39" />
+    <scopeInfo nodeId="7691038695743456888" fileName="OldPNode.java" startLine="9" startPosition="45" endLine="12" endPosition="3" />
+    <scopeInfo nodeId="7691038695743539569" fileName="OldPNode.java" startLine="44" startPosition="33" endLine="47" endPosition="7" />
+    <scopeInfo nodeId="7691038695743539145" fileName="OldPNode.java" startLine="208" startPosition="5" endLine="211" endPosition="5" />
+    <scopeInfo nodeId="7691038695743539193" fileName="OldPNode.java" startLine="216" startPosition="5" endLine="219" endPosition="5" />
+    <scopeInfo nodeId="516638300680382273" fileName="OldPNode.java" startLine="224" startPosition="0" endLine="228" endPosition="0" />
+    <scopeInfo nodeId="7691038695743539499" fileName="OldPNode.java" startLine="32" startPosition="33" endLine="37" endPosition="7" />
+    <scopeInfo nodeId="7691038695743539550" fileName="OldPNode.java" startLine="38" startPosition="33" endLine="43" endPosition="7" />
+    <scopeInfo nodeId="7691038695743475207" fileName="OldPNode.java" startLine="70" startPosition="31" endLine="75" endPosition="7">
+      <varInfo nodeId="7691038695743475217" varName="node" />
+    </scopeInfo>
+    <scopeInfo nodeId="7691038695743539003" fileName="OldPNode.java" startLine="193" startPosition="59" endLine="199" endPosition="25" />
+    <scopeInfo nodeId="7691038695743475313" fileName="OldPNode.java" startLine="93" startPosition="31" endLine="100" endPosition="7">
+      <varInfo nodeId="7691038695743475315" varName="node" />
+    </scopeInfo>
+    <scopeInfo nodeId="7691038695743538647" fileName="OldPNode.java" startLine="120" startPosition="31" endLine="128" endPosition="7">
+      <varInfo nodeId="7691038695743538649" varName="node" />
+    </scopeInfo>
+    <scopeInfo nodeId="7691038695743472114" fileName="OldPNode.java" startLine="19" startPosition="69" endLine="28" endPosition="7" />
+    <scopeInfo nodeId="7691038695743472106" fileName="OldPNode.java" startLine="51" startPosition="0" endLine="60" endPosition="0" />
+    <scopeInfo nodeId="7691038695743472111" fileName="OldPNode.java" startLine="18" startPosition="67" endLine="29" endPosition="5" />
+    <scopeInfo nodeId="7691038695743538837" fileName="OldPNode.java" startLine="151" startPosition="31" endLine="163" endPosition="7">
+      <varInfo nodeId="7691038695743538839" varName="node" />
+    </scopeInfo>
+    <scopeInfo nodeId="7691038695743538979" fileName="OldPNode.java" startLine="187" startPosition="31" endLine="200" endPosition="7">
+      <varInfo nodeId="7691038695743538981" varName="node" />
+    </scopeInfo>
+    <scopeInfo nodeId="7691038695743472158" fileName="OldPNode.java" startLine="66" startPosition="38" endLine="80" endPosition="16">
+      <varInfo nodeId="7691038695743475193" varName="nodeItr" />
+      <varInfo nodeId="7691038695743472171" varName="newNode" />
+    </scopeInfo>
+    <scopeInfo nodeId="7691038695743475288" fileName="OldPNode.java" startLine="87" startPosition="38" endLine="108" endPosition="23">
+      <varInfo nodeId="7691038695743475293" varName="newFullNode" />
+      <varInfo nodeId="7691038695743475391" varName="replacement" />
+      <varInfo nodeId="7691038695743475303" varName="nodeItr" />
+      <varInfo nodeId="7691038695743475339" varName="newEmptyNode" />
+    </scopeInfo>
+    <scopeInfo nodeId="7691038695743472155" fileName="OldPNode.java" startLine="60" startPosition="0" endLine="82" endPosition="0" />
+    <scopeInfo nodeId="7691038695743475432" fileName="OldPNode.java" startLine="115" startPosition="38" endLine="137" endPosition="16">
+      <varInfo nodeId="7691038695743538627" varName="newFullNode" />
+      <varInfo nodeId="7691038695743538637" varName="nodeItr" />
+      <varInfo nodeId="7691038695743538680" varName="partialNode" />
+    </scopeInfo>
+    <scopeInfo nodeId="7691038695743475285" fileName="OldPNode.java" startLine="82" startPosition="0" endLine="110" endPosition="0" />
+    <scopeInfo nodeId="7691038695743475429" fileName="OldPNode.java" startLine="110" startPosition="0" endLine="139" endPosition="0" />
+    <scopeInfo nodeId="7691038695743538556" fileName="OldPNode.java" startLine="144" startPosition="38" endLine="174" endPosition="23">
+      <varInfo nodeId="7691038695743538813" varName="newFullNode" />
+      <varInfo nodeId="7691038695743538827" varName="nodeItr" />
+      <varInfo nodeId="7691038695743538823" varName="partialNode" />
+      <varInfo nodeId="7691038695743538902" varName="newEmptyNode" />
+    </scopeInfo>
+    <scopeInfo nodeId="7691038695743472105" fileName="OldPNode.java" startLine="14" startPosition="63" endLine="49" endPosition="16">
+      <varInfo nodeId="7691038695743539432" varName="numPartial" />
+      <varInfo nodeId="7691038695743539469" varName="numChildren" />
+      <varInfo nodeId="7691038695743472117" varName="numFull" />
+      <varInfo nodeId="7691038695743539426" varName="numEmpty" />
+    </scopeInfo>
+    <scopeInfo nodeId="7691038695743538553" fileName="OldPNode.java" startLine="139" startPosition="0" endLine="176" endPosition="0" />
+    <scopeInfo nodeId="7691038695743472099" fileName="OldPNode.java" startLine="13" startPosition="0" endLine="51" endPosition="0">
+      <varInfo nodeId="7691038695743540493" varName="isPertinentRoot" />
+    </scopeInfo>
+    <scopeInfo nodeId="7691038695743538560" fileName="OldPNode.java" startLine="181" startPosition="38" endLine="222" endPosition="16">
+      <varInfo nodeId="7691038695743538955" varName="newFullNode" />
+      <varInfo nodeId="7691038695743539090" varName="newQNode" />
+      <varInfo nodeId="7691038695743538969" varName="nodeItr" />
+      <varInfo nodeId="7691038695743539097" varName="children" />
+      <varInfo nodeId="7691038695743538965" varName="partialNode1" />
+      <varInfo nodeId="7691038695743539043" varName="partialNode2" />
+    </scopeInfo>
+    <scopeInfo nodeId="7691038695743538557" fileName="OldPNode.java" startLine="176" startPosition="0" endLine="224" endPosition="0" />
+    <unitInfo nodeId="7691038695743456886" fileName="OldPNode.java" startLine="9" startPosition="0" endLine="229" endPosition="0" unitName="jetbrains.mps.graphLayout.util.OldPNode" />
+  </root>
+  <root nodeId="7691038695743456893">
+    <nodeInfo nodeId="516638300680421505" fileName="OldQNode.java" startLine="13" startPosition="63" endLine="14" endPosition="20" />
+    <nodeInfo nodeId="516638300680421509" fileName="OldQNode.java" startLine="14" startPosition="20" endLine="15" endPosition="21" />
+    <nodeInfo nodeId="516638300680421513" fileName="OldQNode.java" startLine="15" startPosition="21" endLine="16" endPosition="23" />
+    <nodeInfo nodeId="516638300680421534" fileName="OldQNode.java" startLine="18" startPosition="57" endLine="19" endPosition="18" />
+    <nodeInfo nodeId="516638300680421544" fileName="OldQNode.java" startLine="21" startPosition="60" endLine="22" endPosition="21" />
+    <nodeInfo nodeId="516638300680421554" fileName="OldQNode.java" startLine="24" startPosition="58" endLine="25" endPosition="19" />
+    <nodeInfo nodeId="516638300680421576" fileName="OldQNode.java" startLine="29" startPosition="26" endLine="30" endPosition="53" />
+    <nodeInfo nodeId="516638300680422280" fileName="OldQNode.java" startLine="31" startPosition="14" endLine="32" endPosition="107" />
+    <nodeInfo nodeId="516638300680422295" fileName="OldQNode.java" startLine="32" startPosition="107" endLine="33" endPosition="24" />
+    <nodeInfo nodeId="516638300680422319" fileName="OldQNode.java" startLine="35" startPosition="51" endLine="36" endPosition="22" />
+    <nodeInfo nodeId="516638300680422324" fileName="OldQNode.java" startLine="36" startPosition="22" endLine="37" endPosition="46" />
+    <nodeInfo nodeId="516638300680422392" fileName="OldQNode.java" startLine="39" startPosition="9" endLine="40" endPosition="160" />
+    <nodeInfo nodeId="516638300680422444" fileName="OldQNode.java" startLine="41" startPosition="48" endLine="42" endPosition="22" />
+    <nodeInfo nodeId="516638300680421585" fileName="OldQNode.java" startLine="43" startPosition="9" endLine="44" endPosition="56" />
+    <nodeInfo nodeId="516638300680421621" fileName="OldQNode.java" startLine="46" startPosition="33" endLine="47" endPosition="89" />
+    <nodeInfo nodeId="516638300680421644" fileName="OldQNode.java" startLine="47" startPosition="89" endLine="48" endPosition="42" />
+    <nodeInfo nodeId="516638300680421671" fileName="OldQNode.java" startLine="48" startPosition="42" endLine="49" endPosition="49" />
+    <nodeInfo nodeId="516638300680421684" fileName="OldQNode.java" startLine="51" startPosition="38" endLine="52" endPosition="43" />
+    <nodeInfo nodeId="516638300680421714" fileName="OldQNode.java" startLine="54" startPosition="48" endLine="55" endPosition="22" />
+    <nodeInfo nodeId="516638300680421718" fileName="OldQNode.java" startLine="56" startPosition="9" endLine="57" endPosition="30" />
+    <nodeInfo nodeId="516638300680421739" fileName="OldQNode.java" startLine="59" startPosition="34" endLine="60" endPosition="30" />
+    <nodeInfo nodeId="516638300680421765" fileName="OldQNode.java" startLine="61" startPosition="48" endLine="62" endPosition="22" />
+    <nodeInfo nodeId="516638300680421769" fileName="OldQNode.java" startLine="64" startPosition="7" endLine="65" endPosition="27" />
+    <nodeInfo nodeId="516638300680438870" fileName="OldQNode.java" startLine="67" startPosition="31" endLine="68" endPosition="20" />
+    <nodeInfo nodeId="516638300680421776" fileName="OldQNode.java" startLine="69" startPosition="7" endLine="70" endPosition="89" />
+    <nodeInfo nodeId="516638300680421783" fileName="OldQNode.java" startLine="70" startPosition="89" endLine="71" endPosition="42" />
+    <nodeInfo nodeId="516638300680421871" fileName="OldQNode.java" startLine="73" startPosition="58" endLine="74" endPosition="22" />
+    <nodeInfo nodeId="516638300680421815" fileName="OldQNode.java" startLine="75" startPosition="9" endLine="76" endPosition="30" />
+    <nodeInfo nodeId="516638300680421886" fileName="OldQNode.java" startLine="77" startPosition="7" endLine="78" endPosition="28" />
+    <nodeInfo nodeId="516638300680421906" fileName="OldQNode.java" startLine="80" startPosition="57" endLine="81" endPosition="22" />
+    <nodeInfo nodeId="516638300680421831" fileName="OldQNode.java" startLine="82" startPosition="9" endLine="83" endPosition="30" />
+    <nodeInfo nodeId="516638300680421924" fileName="OldQNode.java" startLine="85" startPosition="34" endLine="86" endPosition="30" />
+    <nodeInfo nodeId="516638300680421951" fileName="OldQNode.java" startLine="87" startPosition="58" endLine="88" endPosition="22" />
+    <nodeInfo nodeId="516638300680421851" fileName="OldQNode.java" startLine="90" startPosition="7" endLine="91" endPosition="27" />
+    <nodeInfo nodeId="516638300680421594" fileName="OldQNode.java" startLine="92" startPosition="5" endLine="93" endPosition="16" />
+    <nodeInfo nodeId="516638300680413546" fileName="OldQNode.java" startLine="100" startPosition="63" endLine="101" endPosition="20" />
+    <nodeInfo nodeId="516638300680413551" fileName="OldQNode.java" startLine="101" startPosition="20" endLine="102" endPosition="16" />
+    <nodeInfo nodeId="516638300680413583" fileName="OldQNode.java" startLine="109" startPosition="38" endLine="110" endPosition="44" />
+    <nodeInfo nodeId="516638300680421254" fileName="OldQNode.java" startLine="110" startPosition="44" endLine="111" endPosition="51" />
+    <nodeInfo nodeId="516638300680421084" fileName="OldQNode.java" startLine="111" startPosition="51" endLine="112" endPosition="49" />
+    <nodeInfo nodeId="516638300680421152" fileName="OldQNode.java" startLine="112" startPosition="49" endLine="113" endPosition="93" />
+    <nodeInfo nodeId="516638300680421207" fileName="OldQNode.java" startLine="114" startPosition="188" endLine="115" endPosition="64" />
+    <nodeInfo nodeId="516638300680421264" fileName="OldQNode.java" startLine="118" startPosition="60" endLine="119" endPosition="66" />
+    <nodeInfo nodeId="516638300680421297" fileName="OldQNode.java" startLine="120" startPosition="100" endLine="121" endPosition="82" />
+    <nodeInfo nodeId="516638300680421322" fileName="OldQNode.java" startLine="123" startPosition="83" endLine="124" endPosition="46" />
+    <nodeInfo nodeId="516638300680421245" fileName="OldQNode.java" startLine="126" startPosition="14" endLine="127" endPosition="37" />
+    <nodeInfo nodeId="516638300680413561" fileName="OldQNode.java" startLine="129" startPosition="5" endLine="130" endPosition="20" />
+    <nodeInfo nodeId="516638300680421340" fileName="OldQNode.java" startLine="137" startPosition="38" endLine="138" endPosition="44" />
+    <nodeInfo nodeId="516638300680421345" fileName="OldQNode.java" startLine="138" startPosition="44" endLine="139" endPosition="51" />
+    <nodeInfo nodeId="516638300680421450" fileName="OldQNode.java" startLine="139" startPosition="51" endLine="140" endPosition="32" />
+    <nodeInfo nodeId="516638300680421398" fileName="OldQNode.java" startLine="142" startPosition="60" endLine="143" endPosition="66" />
+    <nodeInfo nodeId="516638300680421470" fileName="OldQNode.java" startLine="145" startPosition="102" endLine="146" endPosition="84" />
+    <nodeInfo nodeId="516638300680421487" fileName="OldQNode.java" startLine="149" startPosition="103" endLine="150" endPosition="84" />
+    <nodeInfo nodeId="516638300680421424" fileName="OldQNode.java" startLine="153" startPosition="83" endLine="154" endPosition="46" />
+    <nodeInfo nodeId="516638300680421456" fileName="OldQNode.java" startLine="155" startPosition="9" endLine="156" endPosition="29" />
+    <nodeInfo nodeId="516638300680421431" fileName="OldQNode.java" startLine="157" startPosition="14" endLine="158" endPosition="37" />
+    <nodeInfo nodeId="516638300680421436" fileName="OldQNode.java" startLine="160" startPosition="5" endLine="161" endPosition="20" />
+    <nodeInfo nodeId="516638300680382270" fileName="OldQNode.java" startLine="164" startPosition="27" endLine="165" endPosition="15" />
+    <nodeInfo nodeId="7691038695743456895" fileName="OldQNode.java" startLine="9" startPosition="45" endLine="11" endPosition="3" />
+    <nodeInfo nodeId="516638300680421243" fileName="OldQNode.java" startLine="126" startPosition="12" endLine="128" endPosition="7" />
+    <nodeInfo nodeId="516638300680421429" fileName="OldQNode.java" startLine="157" startPosition="12" endLine="159" endPosition="7" />
+    <nodeInfo nodeId="516638300680421527" fileName="OldQNode.java" startLine="17" startPosition="70" endLine="20" endPosition="7" />
+    <nodeInfo nodeId="516638300680421537" fileName="OldQNode.java" startLine="20" startPosition="7" endLine="23" endPosition="7" />
+    <nodeInfo nodeId="516638300680421547" fileName="OldQNode.java" startLine="23" startPosition="7" endLine="26" endPosition="7" />
+    <nodeInfo nodeId="516638300680422428" fileName="OldQNode.java" startLine="40" startPosition="160" endLine="43" endPosition="9" />
+    <nodeInfo nodeId="516638300680421676" fileName="OldQNode.java" startLine="50" startPosition="61" endLine="53" endPosition="9" />
+    <nodeInfo nodeId="516638300680421700" fileName="OldQNode.java" startLine="53" startPosition="9" endLine="56" endPosition="9" />
+    <nodeInfo nodeId="516638300680421751" fileName="OldQNode.java" startLine="60" startPosition="30" endLine="63" endPosition="9" />
+    <nodeInfo nodeId="516638300680438862" fileName="OldQNode.java" startLine="66" startPosition="33" endLine="69" endPosition="7" />
+    <nodeInfo nodeId="516638300680421856" fileName="OldQNode.java" startLine="72" startPosition="61" endLine="75" endPosition="9" />
+    <nodeInfo nodeId="516638300680421904" fileName="OldQNode.java" startLine="79" startPosition="61" endLine="82" endPosition="9" />
+    <nodeInfo nodeId="516638300680421936" fileName="OldQNode.java" startLine="86" startPosition="30" endLine="89" endPosition="9" />
+    <nodeInfo nodeId="516638300680421121" fileName="OldQNode.java" startLine="113" startPosition="93" endLine="116" endPosition="5" />
+    <nodeInfo nodeId="516638300680421277" fileName="OldQNode.java" startLine="119" startPosition="66" endLine="122" endPosition="9" />
+    <nodeInfo nodeId="516638300680421309" fileName="OldQNode.java" startLine="122" startPosition="9" endLine="125" endPosition="9" />
+    <nodeInfo nodeId="516638300680421468" fileName="OldQNode.java" startLine="144" startPosition="27" endLine="147" endPosition="11" />
+    <nodeInfo nodeId="516638300680421485" fileName="OldQNode.java" startLine="148" startPosition="16" endLine="151" endPosition="11" />
+    <nodeInfo nodeId="516638300680421420" fileName="OldQNode.java" startLine="152" startPosition="9" endLine="155" endPosition="9" />
+    <nodeInfo nodeId="516638300680422306" fileName="OldQNode.java" startLine="34" startPosition="74" endLine="38" endPosition="11" />
+    <nodeInfo nodeId="516638300680421483" fileName="OldQNode.java" startLine="148" startPosition="14" endLine="152" endPosition="9" />
+    <nodeInfo nodeId="516638300680382263" fileName="OldQNode.java" startLine="163" startPosition="0" endLine="167" endPosition="0" />
+    <nodeInfo nodeId="516638300680422301" fileName="OldQNode.java" startLine="33" startPosition="24" endLine="39" endPosition="9" />
+    <nodeInfo nodeId="516638300680421730" fileName="OldQNode.java" startLine="58" startPosition="7" endLine="64" endPosition="7" />
+    <nodeInfo nodeId="516638300680421793" fileName="OldQNode.java" startLine="71" startPosition="42" endLine="77" endPosition="7" />
+    <nodeInfo nodeId="516638300680421826" fileName="OldQNode.java" startLine="78" startPosition="28" endLine="84" endPosition="7" />
+    <nodeInfo nodeId="516638300680421915" fileName="OldQNode.java" startLine="84" startPosition="7" endLine="90" endPosition="7" />
+    <nodeInfo nodeId="516638300680421634" fileName="OldQNode.java" startLine="49" startPosition="49" endLine="58" endPosition="7" />
+    <nodeInfo nodeId="516638300680386579" fileName="OldQNode.java" startLine="95" startPosition="0" endLine="104" endPosition="0" />
+    <nodeInfo nodeId="516638300680421463" fileName="OldQNode.java" startLine="143" startPosition="66" endLine="152" endPosition="9" />
+    <nodeInfo nodeId="516638300680421523" fileName="OldQNode.java" startLine="16" startPosition="23" endLine="27" endPosition="5" />
+    <nodeInfo nodeId="516638300680421229" fileName="OldQNode.java" startLine="117" startPosition="65" endLine="128" endPosition="7" />
+    <nodeInfo nodeId="516638300680421224" fileName="OldQNode.java" startLine="116" startPosition="5" endLine="129" endPosition="5" />
+    <nodeInfo nodeId="516638300680421583" fileName="OldQNode.java" startLine="31" startPosition="12" endLine="45" endPosition="7" />
+    <nodeInfo nodeId="516638300680421567" fileName="OldQNode.java" startLine="28" startPosition="26" endLine="45" endPosition="7" />
+    <nodeInfo nodeId="516638300680421391" fileName="OldQNode.java" startLine="141" startPosition="70" endLine="159" endPosition="7" />
+    <nodeInfo nodeId="516638300680421387" fileName="OldQNode.java" startLine="140" startPosition="32" endLine="160" endPosition="5" />
+    <nodeInfo nodeId="516638300680413554" fileName="OldQNode.java" startLine="104" startPosition="0" endLine="132" endPosition="0" />
+    <nodeInfo nodeId="516638300680421336" fileName="OldQNode.java" startLine="132" startPosition="0" endLine="163" endPosition="0" />
+    <nodeInfo nodeId="516638300680421558" fileName="OldQNode.java" startLine="27" startPosition="5" endLine="92" endPosition="5" />
+    <nodeInfo nodeId="7691038695743538713" fileName="OldQNode.java" startLine="12" startPosition="0" endLine="95" endPosition="0" />
+    <scopeInfo nodeId="7691038695743456898" fileName="OldQNode.java" startLine="10" startPosition="21" endLine="10" endPosition="21" />
+    <scopeInfo nodeId="516638300680421533" fileName="OldQNode.java" startLine="18" startPosition="57" endLine="19" endPosition="18" />
+    <scopeInfo nodeId="516638300680421543" fileName="OldQNode.java" startLine="21" startPosition="60" endLine="22" endPosition="21" />
+    <scopeInfo nodeId="516638300680421553" fileName="OldQNode.java" startLine="24" startPosition="58" endLine="25" endPosition="19" />
+    <scopeInfo nodeId="516638300680421568" fileName="OldQNode.java" startLine="29" startPosition="26" endLine="30" endPosition="53" />
+    <scopeInfo nodeId="516638300680422429" fileName="OldQNode.java" startLine="41" startPosition="48" endLine="42" endPosition="22" />
+    <scopeInfo nodeId="516638300680421678" fileName="OldQNode.java" startLine="51" startPosition="38" endLine="52" endPosition="43" />
+    <scopeInfo nodeId="516638300680421701" fileName="OldQNode.java" startLine="54" startPosition="48" endLine="55" endPosition="22" />
+    <scopeInfo nodeId="516638300680421752" fileName="OldQNode.java" startLine="61" startPosition="48" endLine="62" endPosition="22" />
+    <scopeInfo nodeId="516638300680438863" fileName="OldQNode.java" startLine="67" startPosition="31" endLine="68" endPosition="20" />
+    <scopeInfo nodeId="516638300680421857" fileName="OldQNode.java" startLine="73" startPosition="58" endLine="74" endPosition="22" />
+    <scopeInfo nodeId="516638300680421905" fileName="OldQNode.java" startLine="80" startPosition="57" endLine="81" endPosition="22" />
+    <scopeInfo nodeId="516638300680421937" fileName="OldQNode.java" startLine="87" startPosition="58" endLine="88" endPosition="22" />
+    <scopeInfo nodeId="516638300680421122" fileName="OldQNode.java" startLine="114" startPosition="188" endLine="115" endPosition="64" />
+    <scopeInfo nodeId="516638300680421278" fileName="OldQNode.java" startLine="120" startPosition="100" endLine="121" endPosition="82" />
+    <scopeInfo nodeId="516638300680421312" fileName="OldQNode.java" startLine="123" startPosition="83" endLine="124" endPosition="46" />
+    <scopeInfo nodeId="516638300680421244" fileName="OldQNode.java" startLine="126" startPosition="14" endLine="127" endPosition="37" />
+    <scopeInfo nodeId="516638300680421469" fileName="OldQNode.java" startLine="145" startPosition="102" endLine="146" endPosition="84" />
+    <scopeInfo nodeId="516638300680421486" fileName="OldQNode.java" startLine="149" startPosition="103" endLine="150" endPosition="84" />
+    <scopeInfo nodeId="516638300680421423" fileName="OldQNode.java" startLine="153" startPosition="83" endLine="154" endPosition="46" />
+    <scopeInfo nodeId="516638300680421430" fileName="OldQNode.java" startLine="157" startPosition="14" endLine="158" endPosition="37" />
+    <scopeInfo nodeId="516638300680382266" fileName="OldQNode.java" startLine="164" startPosition="27" endLine="165" endPosition="15" />
+    <scopeInfo nodeId="7691038695743456895" fileName="OldQNode.java" startLine="9" startPosition="45" endLine="11" endPosition="3" />
+    <scopeInfo nodeId="516638300680422308" fileName="OldQNode.java" startLine="35" startPosition="51" endLine="37" endPosition="46" />
+    <scopeInfo nodeId="516638300680386582" fileName="OldQNode.java" startLine="100" startPosition="63" endLine="102" endPosition="16" />
+    <scopeInfo nodeId="516638300680421309" fileName="OldQNode.java" startLine="122" startPosition="9" endLine="125" endPosition="9" />
+    <scopeInfo nodeId="516638300680421464" fileName="OldQNode.java" startLine="144" startPosition="27" endLine="147" endPosition="11" />
+    <scopeInfo nodeId="516638300680421484" fileName="OldQNode.java" startLine="148" startPosition="16" endLine="151" endPosition="11" />
+    <scopeInfo nodeId="516638300680421420" fileName="OldQNode.java" startLine="152" startPosition="9" endLine="155" endPosition="9" />
+    <scopeInfo nodeId="516638300680422304" fileName="OldQNode.java" startLine="34" startPosition="74" endLine="38" endPosition="11" />
+    <scopeInfo nodeId="516638300680421732" fileName="OldQNode.java" startLine="59" startPosition="34" endLine="63" endPosition="9" />
+    <scopeInfo nodeId="516638300680421794" fileName="OldQNode.java" startLine="72" startPosition="61" endLine="76" endPosition="30" />
+    <scopeInfo nodeId="516638300680421830" fileName="OldQNode.java" startLine="79" startPosition="61" endLine="83" endPosition="30" />
+    <scopeInfo nodeId="516638300680421917" fileName="OldQNode.java" startLine="85" startPosition="34" endLine="89" endPosition="9" />
+    <scopeInfo nodeId="516638300680382263" fileName="OldQNode.java" startLine="163" startPosition="0" endLine="167" endPosition="0" />
+    <scopeInfo nodeId="516638300680422301" fileName="OldQNode.java" startLine="33" startPosition="24" endLine="39" endPosition="9" />
+    <scopeInfo nodeId="516638300680421636" fileName="OldQNode.java" startLine="50" startPosition="61" endLine="57" endPosition="30" />
+    <scopeInfo nodeId="516638300680421231" fileName="OldQNode.java" startLine="118" startPosition="60" endLine="125" endPosition="9">
+      <varInfo nodeId="516638300680421265" varName="partialChildren" />
+    </scopeInfo>
+    <scopeInfo nodeId="516638300680421526" fileName="OldQNode.java" startLine="17" startPosition="70" endLine="26" endPosition="7" />
+    <scopeInfo nodeId="516638300680386579" fileName="OldQNode.java" startLine="95" startPosition="0" endLine="104" endPosition="0">
+      <varInfo nodeId="516638300680413572" varName="state" />
+    </scopeInfo>
+    <scopeInfo nodeId="516638300680421523" fileName="OldQNode.java" startLine="16" startPosition="23" endLine="27" endPosition="5" />
+    <scopeInfo nodeId="516638300680421227" fileName="OldQNode.java" startLine="117" startPosition="65" endLine="128" endPosition="7" />
+    <scopeInfo nodeId="516638300680421584" fileName="OldQNode.java" startLine="31" startPosition="14" endLine="44" endPosition="56">
+      <varInfo nodeId="516638300680422393" varName="isGoodPertinent" />
+      <varInfo nodeId="516638300680422281" varName="prevChildState" />
+      <varInfo nodeId="516638300680422296" varName="numDiff" />
+    </scopeInfo>
+    <scopeInfo nodeId="516638300680421224" fileName="OldQNode.java" startLine="116" startPosition="5" endLine="129" endPosition="5" />
+    <scopeInfo nodeId="516638300680421397" fileName="OldQNode.java" startLine="142" startPosition="60" endLine="156" endPosition="29">
+      <varInfo nodeId="516638300680421399" varName="partialChildren" />
+    </scopeInfo>
+    <scopeInfo nodeId="516638300680421559" fileName="OldQNode.java" startLine="28" startPosition="26" endLine="45" endPosition="7" />
+    <scopeInfo nodeId="516638300680421390" fileName="OldQNode.java" startLine="141" startPosition="70" endLine="159" endPosition="7" />
+    <scopeInfo nodeId="516638300680421592" fileName="OldQNode.java" startLine="46" startPosition="33" endLine="65" endPosition="27">
+      <varInfo nodeId="516638300680421622" varName="childItr" />
+      <varInfo nodeId="516638300680421645" varName="cur" />
+      <varInfo nodeId="516638300680421672" varName="firstChildState" />
+    </scopeInfo>
+    <scopeInfo nodeId="516638300680421387" fileName="OldQNode.java" startLine="140" startPosition="32" endLine="160" endPosition="5" />
+    <scopeInfo nodeId="516638300680413557" fileName="OldQNode.java" startLine="109" startPosition="38" endLine="130" endPosition="20">
+      <varInfo nodeId="516638300680413584" varName="newQNode" />
+      <varInfo nodeId="516638300680421085" varName="children" />
+      <varInfo nodeId="516638300680421153" varName="firstChildState" />
+    </scopeInfo>
+    <scopeInfo nodeId="516638300680421339" fileName="OldQNode.java" startLine="137" startPosition="38" endLine="161" endPosition="20">
+      <varInfo nodeId="516638300680421341" varName="newQNode" />
+      <varInfo nodeId="516638300680421451" varName="firstPartial" />
+    </scopeInfo>
+    <scopeInfo nodeId="516638300680421604" fileName="OldQNode.java" startLine="66" startPosition="33" endLine="91" endPosition="27">
+      <varInfo nodeId="516638300680421777" varName="childItr" />
+      <varInfo nodeId="516638300680421784" varName="cur" />
+    </scopeInfo>
+    <scopeInfo nodeId="516638300680413554" fileName="OldQNode.java" startLine="104" startPosition="0" endLine="132" endPosition="0" />
+    <scopeInfo nodeId="516638300680421336" fileName="OldQNode.java" startLine="132" startPosition="0" endLine="163" endPosition="0" />
+    <scopeInfo nodeId="7691038695743538719" fileName="OldQNode.java" startLine="13" startPosition="63" endLine="93" endPosition="16">
+      <varInfo nodeId="516638300680421514" varName="numPartial" />
+      <varInfo nodeId="516638300680421506" varName="numFull" />
+      <varInfo nodeId="516638300680421510" varName="numEmpty" />
+    </scopeInfo>
+    <scopeInfo nodeId="7691038695743538713" fileName="OldQNode.java" startLine="12" startPosition="0" endLine="95" endPosition="0">
+      <varInfo nodeId="7691038695743541909" varName="isPertinentRoot" />
+    </scopeInfo>
+    <unitInfo nodeId="7691038695743456893" fileName="OldQNode.java" startLine="9" startPosition="0" endLine="168" endPosition="0" unitName="jetbrains.mps.graphLayout.util.OldQNode" />
+  </root>
+  <root nodeId="7691038695743456900">
+    <nodeInfo nodeId="7691038695743539665" fileName="OldLeaf.java" startLine="6" startPosition="44" endLine="7" endPosition="27" />
+    <nodeInfo nodeId="516638300680462540" fileName="OldLeaf.java" startLine="7" startPosition="27" endLine="8" endPosition="24" />
+    <nodeInfo nodeId="7691038695743539671" fileName="OldLeaf.java" startLine="10" startPosition="34" endLine="11" endPosition="18" />
+    <nodeInfo nodeId="7691038695743539678" fileName="OldLeaf.java" startLine="11" startPosition="18" endLine="12" endPosition="25" />
+    <nodeInfo nodeId="516638300680388159" fileName="OldLeaf.java" startLine="16" startPosition="29" endLine="17" endPosition="42" />
+    <nodeInfo nodeId="7691038695743539417" fileName="OldLeaf.java" startLine="18" startPosition="5" endLine="19" endPosition="16" />
+    <nodeInfo nodeId="516638300680382288" fileName="OldLeaf.java" startLine="22" startPosition="27" endLine="23" endPosition="15" />
+    <nodeInfo nodeId="516638300680462556" fileName="OldLeaf.java" startLine="30" startPosition="36" endLine="31" endPosition="23" />
+    <nodeInfo nodeId="516638300680464767" fileName="OldLeaf.java" startLine="35" startPosition="38" endLine="36" endPosition="23" />
+    <nodeInfo nodeId="516638300680464788" fileName="OldLeaf.java" startLine="37" startPosition="38" endLine="38" endPosition="20" />
+    <nodeInfo nodeId="516638300680462575" fileName="OldLeaf.java" startLine="39" startPosition="5" endLine="40" endPosition="78" />
+    <nodeInfo nodeId="516638300680388150" fileName="OldLeaf.java" startLine="15" startPosition="63" endLine="18" endPosition="5" />
+    <nodeInfo nodeId="516638300680464773" fileName="OldLeaf.java" startLine="36" startPosition="23" endLine="39" endPosition="5" />
+    <nodeInfo nodeId="7691038695743456902" fileName="OldLeaf.java" startLine="9" startPosition="0" endLine="13" endPosition="3" />
+    <nodeInfo nodeId="516638300680382282" fileName="OldLeaf.java" startLine="21" startPosition="0" endLine="25" endPosition="0" />
+    <nodeInfo nodeId="516638300680462544" fileName="OldLeaf.java" startLine="25" startPosition="0" endLine="29" endPosition="0" />
+    <nodeInfo nodeId="516638300680462552" fileName="OldLeaf.java" startLine="29" startPosition="0" endLine="33" endPosition="0" />
+    <nodeInfo nodeId="7691038695743456940" fileName="OldLeaf.java" startLine="14" startPosition="0" endLine="21" endPosition="0" />
+    <nodeInfo nodeId="516638300680462564" fileName="OldLeaf.java" startLine="33" startPosition="0" endLine="42" endPosition="0" />
+    <scopeInfo nodeId="516638300680388151" fileName="OldLeaf.java" startLine="16" startPosition="29" endLine="17" endPosition="42" />
+    <scopeInfo nodeId="516638300680382285" fileName="OldLeaf.java" startLine="22" startPosition="27" endLine="23" endPosition="15" />
+    <scopeInfo nodeId="516638300680462547" fileName="OldLeaf.java" startLine="26" startPosition="27" endLine="27" endPosition="23" />
+    <scopeInfo nodeId="516638300680462555" fileName="OldLeaf.java" startLine="30" startPosition="36" endLine="31" endPosition="23" />
+    <scopeInfo nodeId="516638300680464774" fileName="OldLeaf.java" startLine="37" startPosition="38" endLine="38" endPosition="20" />
+    <scopeInfo nodeId="7691038695743456905" fileName="OldLeaf.java" startLine="10" startPosition="34" endLine="12" endPosition="25" />
+    <scopeInfo nodeId="516638300680464773" fileName="OldLeaf.java" startLine="36" startPosition="23" endLine="39" endPosition="5">
+      <varInfo nodeId="516638300680464776" varName="i" />
+    </scopeInfo>
+    <scopeInfo nodeId="7691038695743456902" fileName="OldLeaf.java" startLine="9" startPosition="0" endLine="13" endPosition="3">
+      <varInfo nodeId="7691038695743539669" varName="tree" />
+    </scopeInfo>
+    <scopeInfo nodeId="7691038695743456946" fileName="OldLeaf.java" startLine="15" startPosition="63" endLine="19" endPosition="16" />
+    <scopeInfo nodeId="516638300680382282" fileName="OldLeaf.java" startLine="21" startPosition="0" endLine="25" endPosition="0" />
+    <scopeInfo nodeId="516638300680462544" fileName="OldLeaf.java" startLine="25" startPosition="0" endLine="29" endPosition="0" />
+    <scopeInfo nodeId="516638300680462552" fileName="OldLeaf.java" startLine="29" startPosition="0" endLine="33" endPosition="0">
+      <varInfo nodeId="516638300680462562" varName="data" />
+    </scopeInfo>
+    <scopeInfo nodeId="516638300680462569" fileName="OldLeaf.java" startLine="35" startPosition="38" endLine="40" endPosition="78">
+      <varInfo nodeId="516638300680464768" varName="spaces" />
+    </scopeInfo>
+    <scopeInfo nodeId="7691038695743456940" fileName="OldLeaf.java" startLine="14" startPosition="0" endLine="21" endPosition="0">
+      <varInfo nodeId="7691038695743541903" varName="isPertinentRoot" />
+    </scopeInfo>
+    <scopeInfo nodeId="516638300680462564" fileName="OldLeaf.java" startLine="33" startPosition="0" endLine="42" endPosition="0">
+      <varInfo nodeId="516638300680462567" varName="offset" />
+    </scopeInfo>
+    <unitInfo nodeId="7691038695743456900" fileName="OldLeaf.java" startLine="6" startPosition="0" endLine="43" endPosition="0" unitName="jetbrains.mps.graphLayout.util.OldLeaf" />
+  </root>
+  <root nodeId="7691038695743539591">
+    <nodeInfo nodeId="7691038695743539597" fileName="OldPQTree.java" startLine="15" startPosition="24" endLine="16" endPosition="31" />
+    <nodeInfo nodeId="7691038695743539608" fileName="OldPQTree.java" startLine="16" startPosition="31" endLine="17" endPosition="33" />
+    <nodeInfo nodeId="516638300680442138" fileName="OldPQTree.java" startLine="17" startPosition="33" endLine="18" endPosition="54" />
+    <nodeInfo nodeId="7691038695743539615" fileName="OldPQTree.java" startLine="20" startPosition="22" endLine="21" endPosition="63" />
+    <nodeInfo nodeId="7691038695743539624" fileName="OldPQTree.java" startLine="21" startPosition="63" endLine="22" endPosition="18" />
+    <nodeInfo nodeId="7691038695743539642" fileName="OldPQTree.java" startLine="29" startPosition="43" endLine="30" endPosition="23" />
+    <nodeInfo nodeId="7691038695743539656" fileName="OldPQTree.java" startLine="33" startPosition="37" endLine="34" endPosition="53" />
+    <nodeInfo nodeId="516638300680464461" fileName="OldPQTree.java" startLine="38" startPosition="58" endLine="39" endPosition="47" />
+    <nodeInfo nodeId="7691038695743539700" fileName="OldPQTree.java" startLine="41" startPosition="64" endLine="42" endPosition="46" />
+    <nodeInfo nodeId="516638300680442147" fileName="OldPQTree.java" startLine="43" startPosition="5" endLine="44" endPosition="81" />
+    <nodeInfo nodeId="7691038695743540375" fileName="OldPQTree.java" startLine="44" startPosition="81" endLine="45" endPosition="107" />
+    <nodeInfo nodeId="7691038695743540579" fileName="OldPQTree.java" startLine="45" startPosition="107" endLine="46" endPosition="40" />
+    <nodeInfo nodeId="7691038695743539910" fileName="OldPQTree.java" startLine="51" startPosition="56" endLine="52" endPosition="58" />
+    <nodeInfo nodeId="7691038695743539922" fileName="OldPQTree.java" startLine="53" startPosition="14" endLine="54" endPosition="58" />
+    <nodeInfo nodeId="7691038695743539967" fileName="OldPQTree.java" startLine="56" startPosition="12" endLine="57" endPosition="18" />
+    <nodeInfo nodeId="7691038695743540006" fileName="OldPQTree.java" startLine="58" startPosition="77" endLine="59" endPosition="81" />
+    <nodeInfo nodeId="7691038695743540033" fileName="OldPQTree.java" startLine="60" startPosition="36" endLine="61" endPosition="31" />
+    <nodeInfo nodeId="7691038695743540037" fileName="OldPQTree.java" startLine="62" startPosition="9" endLine="63" endPosition="63" />
+    <nodeInfo nodeId="7691038695743540362" fileName="OldPQTree.java" startLine="64" startPosition="7" endLine="65" endPosition="58" />
+    <nodeInfo nodeId="7691038695743539994" fileName="OldPQTree.java" startLine="67" startPosition="77" endLine="68" endPosition="18" />
+    <nodeInfo nodeId="7691038695743539999" fileName="OldPQTree.java" startLine="69" startPosition="12" endLine="70" endPosition="18" />
+    <nodeInfo nodeId="516638300680442175" fileName="OldPQTree.java" startLine="75" startPosition="62" endLine="76" endPosition="47" />
+    <nodeInfo nodeId="516638300680442185" fileName="OldPQTree.java" startLine="76" startPosition="47" endLine="77" endPosition="18" />
+    <nodeInfo nodeId="7691038695743540416" fileName="OldPQTree.java" startLine="78" startPosition="5" endLine="79" endPosition="54" />
+    <nodeInfo nodeId="7691038695743540431" fileName="OldPQTree.java" startLine="79" startPosition="54" endLine="80" endPosition="67" />
+    <nodeInfo nodeId="7691038695743540465" fileName="OldPQTree.java" startLine="81" startPosition="32" endLine="82" endPosition="44" />
+    <nodeInfo nodeId="7691038695743540479" fileName="OldPQTree.java" startLine="82" startPosition="44" endLine="83" endPosition="53" />
+    <nodeInfo nodeId="7691038695743540533" fileName="OldPQTree.java" startLine="84" startPosition="29" endLine="85" endPosition="20" />
+    <nodeInfo nodeId="7691038695743540562" fileName="OldPQTree.java" startLine="86" startPosition="7" endLine="87" endPosition="29" />
+    <nodeInfo nodeId="7691038695743540507" fileName="OldPQTree.java" startLine="88" startPosition="5" endLine="89" endPosition="47" />
+    <nodeInfo nodeId="516638300680385311" fileName="OldPQTree.java" startLine="93" startPosition="28" endLine="94" endPosition="33" />
+    <nodeInfo nodeId="7691038695743539920" fileName="OldPQTree.java" startLine="53" startPosition="12" endLine="55" endPosition="7" />
+    <nodeInfo nodeId="7691038695743539997" fileName="OldPQTree.java" startLine="69" startPosition="10" endLine="71" endPosition="5" />
+    <nodeInfo nodeId="516638300680464456" fileName="OldPQTree.java" startLine="37" startPosition="63" endLine="40" endPosition="5" />
+    <nodeInfo nodeId="7691038695743539695" fileName="OldPQTree.java" startLine="40" startPosition="5" endLine="43" endPosition="5" />
+    <nodeInfo nodeId="7691038695743540024" fileName="OldPQTree.java" startLine="59" startPosition="81" endLine="62" endPosition="9" />
+    <nodeInfo nodeId="7691038695743540524" fileName="OldPQTree.java" startLine="83" startPosition="53" endLine="86" endPosition="7" />
+    <nodeInfo nodeId="7691038695743539593" fileName="OldPQTree.java" startLine="19" startPosition="0" endLine="23" endPosition="3" />
+    <nodeInfo nodeId="7691038695743539630" fileName="OldPQTree.java" startLine="24" startPosition="0" endLine="28" endPosition="0" />
+    <nodeInfo nodeId="7691038695743539638" fileName="OldPQTree.java" startLine="28" startPosition="0" endLine="32" endPosition="0" />
+    <nodeInfo nodeId="7691038695743539650" fileName="OldPQTree.java" startLine="32" startPosition="0" endLine="36" endPosition="0" />
+    <nodeInfo nodeId="516638300680442162" fileName="OldPQTree.java" startLine="74" startPosition="77" endLine="78" endPosition="5" />
+    <nodeInfo nodeId="516638300680465765" fileName="OldPQTree.java" startLine="96" startPosition="0" endLine="100" endPosition="0" />
+    <nodeInfo nodeId="7691038695743539896" fileName="OldPQTree.java" startLine="50" startPosition="34" endLine="55" endPosition="7" />
+    <nodeInfo nodeId="7691038695743539981" fileName="OldPQTree.java" startLine="66" startPosition="5" endLine="71" endPosition="5" />
+    <nodeInfo nodeId="516638300680385204" fileName="OldPQTree.java" startLine="91" startPosition="0" endLine="96" endPosition="0" />
+    <nodeInfo nodeId="7691038695743539973" fileName="OldPQTree.java" startLine="57" startPosition="18" endLine="64" endPosition="7" />
+    <nodeInfo nodeId="7691038695743540451" fileName="OldPQTree.java" startLine="80" startPosition="67" endLine="88" endPosition="5" />
+    <nodeInfo nodeId="7691038695743539965" fileName="OldPQTree.java" startLine="56" startPosition="10" endLine="66" endPosition="5" />
+    <nodeInfo nodeId="7691038695743539686" fileName="OldPQTree.java" startLine="36" startPosition="0" endLine="48" endPosition="0" />
+    <nodeInfo nodeId="7691038695743539888" fileName="OldPQTree.java" startLine="49" startPosition="84" endLine="66" endPosition="5" />
+    <nodeInfo nodeId="7691038695743540394" fileName="OldPQTree.java" startLine="73" startPosition="0" endLine="91" endPosition="0" />
+    <nodeInfo nodeId="7691038695743539874" fileName="OldPQTree.java" startLine="48" startPosition="0" endLine="73" endPosition="0" />
+    <scopeInfo nodeId="7691038695743539633" fileName="OldPQTree.java" startLine="25" startPosition="34" endLine="26" endPosition="23" />
+    <scopeInfo nodeId="7691038695743539641" fileName="OldPQTree.java" startLine="29" startPosition="43" endLine="30" endPosition="23" />
+    <scopeInfo nodeId="7691038695743539653" fileName="OldPQTree.java" startLine="33" startPosition="37" endLine="34" endPosition="53" />
+    <scopeInfo nodeId="516638300680464459" fileName="OldPQTree.java" startLine="38" startPosition="58" endLine="39" endPosition="47" />
+    <scopeInfo nodeId="7691038695743539698" fileName="OldPQTree.java" startLine="41" startPosition="64" endLine="42" endPosition="46" />
+    <scopeInfo nodeId="7691038695743539898" fileName="OldPQTree.java" startLine="51" startPosition="56" endLine="52" endPosition="58" />
+    <scopeInfo nodeId="7691038695743539921" fileName="OldPQTree.java" startLine="53" startPosition="14" endLine="54" endPosition="58" />
+    <scopeInfo nodeId="7691038695743540025" fileName="OldPQTree.java" startLine="60" startPosition="36" endLine="61" endPosition="31" />
+    <scopeInfo nodeId="7691038695743539982" fileName="OldPQTree.java" startLine="67" startPosition="77" endLine="68" endPosition="18" />
+    <scopeInfo nodeId="7691038695743539998" fileName="OldPQTree.java" startLine="69" startPosition="12" endLine="70" endPosition="18" />
+    <scopeInfo nodeId="7691038695743540525" fileName="OldPQTree.java" startLine="84" startPosition="29" endLine="85" endPosition="20" />
+    <scopeInfo nodeId="516638300680385207" fileName="OldPQTree.java" startLine="93" startPosition="28" endLine="94" endPosition="33" />
+    <scopeInfo nodeId="516638300680465769" fileName="OldPQTree.java" startLine="97" startPosition="36" endLine="98" endPosition="25" />
+    <scopeInfo nodeId="7691038695743539596" fileName="OldPQTree.java" startLine="20" startPosition="22" endLine="22" endPosition="18" />
+    <scopeInfo nodeId="516638300680442163" fileName="OldPQTree.java" startLine="75" startPosition="62" endLine="77" endPosition="18" />
+    <scopeInfo nodeId="516638300680464456" fileName="OldPQTree.java" startLine="37" startPosition="63" endLine="40" endPosition="5" />
+    <scopeInfo nodeId="7691038695743539695" fileName="OldPQTree.java" startLine="40" startPosition="5" endLine="43" endPosition="5" />
+    <scopeInfo nodeId="7691038695743539593" fileName="OldPQTree.java" startLine="19" startPosition="0" endLine="23" endPosition="3" />
+    <scopeInfo nodeId="7691038695743539630" fileName="OldPQTree.java" startLine="24" startPosition="0" endLine="28" endPosition="0" />
+    <scopeInfo nodeId="7691038695743539638" fileName="OldPQTree.java" startLine="28" startPosition="0" endLine="32" endPosition="0">
+      <varInfo nodeId="7691038695743539648" varName="root" />
+    </scopeInfo>
+    <scopeInfo nodeId="7691038695743539650" fileName="OldPQTree.java" startLine="32" startPosition="0" endLine="36" endPosition="0">
+      <varInfo nodeId="7691038695743539654" varName="leaf" />
+    </scopeInfo>
+    <scopeInfo nodeId="516638300680465765" fileName="OldPQTree.java" startLine="96" startPosition="0" endLine="100" endPosition="0" />
+    <scopeInfo nodeId="7691038695743539890" fileName="OldPQTree.java" startLine="50" startPosition="34" endLine="55" endPosition="7" />
+    <scopeInfo nodeId="7691038695743539976" fileName="OldPQTree.java" startLine="58" startPosition="77" endLine="63" endPosition="63">
+      <varInfo nodeId="7691038695743540007" varName="pertinentRoot" />
+    </scopeInfo>
+    <scopeInfo nodeId="516638300680385204" fileName="OldPQTree.java" startLine="91" startPosition="0" endLine="96" endPosition="0" />
+    <scopeInfo nodeId="7691038695743540453" fileName="OldPQTree.java" startLine="81" startPosition="32" endLine="87" endPosition="29">
+      <varInfo nodeId="7691038695743540466" varName="child" />
+      <varInfo nodeId="7691038695743540480" varName="newChild" />
+    </scopeInfo>
+    <scopeInfo nodeId="7691038695743539973" fileName="OldPQTree.java" startLine="57" startPosition="18" endLine="64" endPosition="7" />
+    <scopeInfo nodeId="7691038695743539689" fileName="OldPQTree.java" startLine="37" startPosition="63" endLine="46" endPosition="40">
+      <varInfo nodeId="7691038695743540376" varName="pertinentRoot" />
+    </scopeInfo>
+    <scopeInfo nodeId="7691038695743539966" fileName="OldPQTree.java" startLine="56" startPosition="12" endLine="65" endPosition="58">
+      <varInfo nodeId="7691038695743539968" varName="num" />
+    </scopeInfo>
+    <scopeInfo nodeId="7691038695743539686" fileName="OldPQTree.java" startLine="36" startPosition="0" endLine="48" endPosition="0">
+      <varInfo nodeId="7691038695743539691" varName="successiveLeaves" />
+    </scopeInfo>
+    <scopeInfo nodeId="7691038695743540397" fileName="OldPQTree.java" startLine="74" startPosition="77" endLine="89" endPosition="47">
+      <varInfo nodeId="7691038695743540432" varName="childItr" />
+      <varInfo nodeId="7691038695743540417" varName="children" />
+    </scopeInfo>
+    <scopeInfo nodeId="7691038695743540394" fileName="OldPQTree.java" startLine="73" startPosition="0" endLine="91" endPosition="0">
+      <varInfo nodeId="7691038695743540398" varName="node" />
+      <varInfo nodeId="7691038695743540517" varName="isPertinentRoot" />
+    </scopeInfo>
+    <scopeInfo nodeId="7691038695743539877" fileName="OldPQTree.java" startLine="49" startPosition="84" endLine="71" endPosition="5" />
+    <scopeInfo nodeId="7691038695743539874" fileName="OldPQTree.java" startLine="48" startPosition="0" endLine="73" endPosition="0">
+      <varInfo nodeId="7691038695743539879" varName="node" />
+      <varInfo nodeId="7691038695743539935" varName="numAllFullLeaves" />
+    </scopeInfo>
+    <unitInfo nodeId="7691038695743539591" fileName="OldPQTree.java" startLine="15" startPosition="0" endLine="101" endPosition="0" unitName="jetbrains.mps.graphLayout.util.OldPQTree" />
   </root>
 </debugInfo>
 
