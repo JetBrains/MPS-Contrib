@@ -1,0 +1,9 @@
+<component name="libraryTable">
+  <library name="Trove4j">
+    <CLASSES>
+      <root url="jar://$PROJECT_DIR$/lib/trove4j/trove4j.jar!/" />
+    </CLASSES>
+    <JAVADOC />
+    <SOURCES />
+  </library>
+</component>

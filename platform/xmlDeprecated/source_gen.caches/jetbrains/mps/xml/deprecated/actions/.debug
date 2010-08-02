@@ -1,0 +1,39 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<debugInfo>
+  <root nodeId="1220989580562">
+    <nodeInfo nodeId="1220989964204" fileName="QueriesGenerated.java" startLine="30" startPosition="94" endLine="31" endPosition="111" />
+    <nodeInfo nodeId="1220989978759" fileName="QueriesGenerated.java" startLine="31" startPosition="111" endLine="32" endPosition="59" />
+    <nodeInfo nodeId="1220989994145" fileName="QueriesGenerated.java" startLine="32" startPosition="59" endLine="33" endPosition="24" />
+    <nodeInfo nodeId="1220990261092" fileName="QueriesGenerated.java" startLine="37" startPosition="45" endLine="38" endPosition="29" />
+    <nodeInfo nodeId="1220990269861" fileName="QueriesGenerated.java" startLine="39" startPosition="13" endLine="40" endPosition="22" />
+    <nodeInfo nodeId="1220990243225" fileName="QueriesGenerated.java" startLine="36" startPosition="57" endLine="39" endPosition="13" />
+    <scopeInfo nodeId="1220990243226" fileName="QueriesGenerated.java" startLine="37" startPosition="45" endLine="38" endPosition="29" />
+    <scopeInfo nodeId="1220989812818" fileName="QueriesGenerated.java" startLine="30" startPosition="94" endLine="33" endPosition="24">
+      <varInfo nodeId="1220989964205" varName="text" />
+    </scopeInfo>
+    <scopeInfo nodeId="1220989835679" fileName="QueriesGenerated.java" startLine="36" startPosition="57" endLine="40" endPosition="22" />
+  </root>
+  <root nodeId="1220992142083">
+    <nodeInfo nodeId="1220992363474" fileName="QueriesGenerated.java" startLine="59" startPosition="94" endLine="60" endPosition="116" />
+    <nodeInfo nodeId="1220992382029" fileName="QueriesGenerated.java" startLine="60" startPosition="116" endLine="61" endPosition="77" />
+    <nodeInfo nodeId="1220992391509" fileName="QueriesGenerated.java" startLine="61" startPosition="77" endLine="62" endPosition="24" />
+    <nodeInfo nodeId="1220992270238" fileName="QueriesGenerated.java" startLine="65" startPosition="57" endLine="66" endPosition="27" />
+    <scopeInfo nodeId="1220992214857" fileName="QueriesGenerated.java" startLine="65" startPosition="57" endLine="66" endPosition="27" />
+    <scopeInfo nodeId="1220992177574" fileName="QueriesGenerated.java" startLine="59" startPosition="94" endLine="62" endPosition="24">
+      <varInfo nodeId="1220992363475" varName="attr" />
+    </scopeInfo>
+  </root>
+  <root nodeId="1220992737642">
+    <nodeInfo nodeId="7376433222636453731" fileName="QueriesGenerated.java" startLine="83" startPosition="51" endLine="84" endPosition="33" />
+    <nodeInfo nodeId="1220992946295" fileName="QueriesGenerated.java" startLine="84" startPosition="33" endLine="85" endPosition="118" />
+    <nodeInfo nodeId="1220992989922" fileName="QueriesGenerated.java" startLine="85" startPosition="118" endLine="86" endPosition="79" />
+    <nodeInfo nodeId="1220992976225" fileName="QueriesGenerated.java" startLine="86" startPosition="79" endLine="87" endPosition="85" />
+    <nodeInfo nodeId="1220993506808" fileName="QueriesGenerated.java" startLine="87" startPosition="85" endLine="88" endPosition="26" />
+    <nodeInfo nodeId="1220992913744" fileName="QueriesGenerated.java" startLine="91" startPosition="55" endLine="92" endPosition="25" />
+    <scopeInfo nodeId="1220992891931" fileName="QueriesGenerated.java" startLine="91" startPosition="55" endLine="92" endPosition="25" />
+    <scopeInfo nodeId="1220992876616" fileName="QueriesGenerated.java" startLine="83" startPosition="51" endLine="88" endPosition="26">
+      <varInfo nodeId="1220992946296" varName="nextAttr" />
+    </scopeInfo>
+  </root>
+</debugInfo>
+

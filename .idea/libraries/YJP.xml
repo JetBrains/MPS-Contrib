@@ -1,0 +1,9 @@
+<component name="libraryTable">
+  <library name="YJP">
+    <CLASSES>
+      <root url="jar://$PROJECT_DIR$/lib/yjp/yjp-controller-api-redist.jar!/" />
+    </CLASSES>
+    <JAVADOC />
+    <SOURCES />
+  </library>
+</component>

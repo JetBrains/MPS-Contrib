@@ -1,0 +1,13 @@
+<component name="libraryTable">
+  <library name="jfcUnit">
+    <CLASSES>
+      <root url="jar://$PROJECT_DIR$/lib/jfcunit/jfcunit.jar!/" />
+      <root url="jar://$PROJECT_DIR$/lib/jfcunit/DnD.jar!/" />
+      <root url="jar://$PROJECT_DIR$/lib/jfcunit/SwingSet.jar!/" />
+    </CLASSES>
+    <JAVADOC />
+    <SOURCES>
+      <root url="jar://$PROJECT_DIR$/lib/jfcunit/src.zip!/src" />
+    </SOURCES>
+  </library>
+</component>

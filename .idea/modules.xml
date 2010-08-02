@@ -1,0 +1,89 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ProjectModuleManager">
+    <modules>
+      <module fileurl="file://$PROJECT_DIR$/core/baseLanguage/closures/Closures.iml" filepath="$PROJECT_DIR$/core/baseLanguage/closures/Closures.iml" group="core/baseLanguage/closures" />
+      <module fileurl="file://$PROJECT_DIR$/core/baseLanguage/closures/runtime/Closures-runtime.iml" filepath="$PROJECT_DIR$/core/baseLanguage/closures/runtime/Closures-runtime.iml" group="core/baseLanguage/closures" />
+      <module fileurl="file://$PROJECT_DIR$/samples/complexLanguage/ComplexNumbersLanguage.iml" filepath="$PROJECT_DIR$/samples/complexLanguage/ComplexNumbersLanguage.iml" group="samples" />
+      <module fileurl="file://$PROJECT_DIR$/MPS.iml" filepath="$PROJECT_DIR$/MPS.iml" />
+      <module fileurl="file://$PROJECT_DIR$/MPSPlugin/MPSSupport/MPSSupport.iml" filepath="$PROJECT_DIR$/MPSPlugin/MPSSupport/MPSSupport.iml" />
+      <module fileurl="file://$PROJECT_DIR$/core/baseLanguage/tuples/Tuples.iml" filepath="$PROJECT_DIR$/core/baseLanguage/tuples/Tuples.iml" group="core/baseLanguage/tuples" />
+      <module fileurl="file://$PROJECT_DIR$/core/baseLanguage/tuples/runtime/Tuples-runtime.iml" filepath="$PROJECT_DIR$/core/baseLanguage/tuples/runtime/Tuples-runtime.iml" group="core/baseLanguage/tuples" />
+      <module fileurl="file://$PROJECT_DIR$/platform/ypath/YPath.iml" filepath="$PROJECT_DIR$/platform/ypath/YPath.iml" group="platform/YPath-Panacea" />
+      <module fileurl="file://$PROJECT_DIR$/platform/ypath/runtime/YPath-runtime.iml" filepath="$PROJECT_DIR$/platform/ypath/runtime/YPath-runtime.iml" group="platform/YPath-Panacea" />
+      <module fileurl="file://$PROJECT_DIR$/platform/ypath/solutions/YPath-solutions.iml" filepath="$PROJECT_DIR$/platform/ypath/solutions/YPath-solutions.iml" group="platform/YPath-Panacea" />
+      <module fileurl="file://$PROJECT_DIR$/core/languageDesign/actions/actions.iml" filepath="$PROJECT_DIR$/core/languageDesign/actions/actions.iml" group="core/languageDesign" />
+      <module fileurl="file://$PROJECT_DIR$/samples/agreement/agreement.iml" filepath="$PROJECT_DIR$/samples/agreement/agreement.iml" group="samples" />
+      <module fileurl="file://$PROJECT_DIR$/core/languageDesign/annotations/annotations.iml" filepath="$PROJECT_DIR$/core/languageDesign/annotations/annotations.iml" group="core/languageDesign" />
+      <module fileurl="file://$PROJECT_DIR$/platform/buildlanguage/ant/ant.iml" filepath="$PROJECT_DIR$/platform/buildlanguage/ant/ant.iml" group="platform/build" />
+      <module fileurl="file://$PROJECT_DIR$/core/baseLanguage/baseLanguage/baseLanguage.iml" filepath="$PROJECT_DIR$/core/baseLanguage/baseLanguage/baseLanguage.iml" group="core/baseLanguage/baseLanguage" />
+      <module fileurl="file://$PROJECT_DIR$/core/baseLanguage/baseLanguage/solutions/jetbrains.mps.baseLanguage.refactoringTest/baseLanguage.test.iml" filepath="$PROJECT_DIR$/core/baseLanguage/baseLanguage/solutions/jetbrains.mps.baseLanguage.refactoringTest/baseLanguage.test.iml" group="core/baseLanguage/baseLanguage" />
+      <module fileurl="file://$PROJECT_DIR$/core/baseLanguage/baseLanguageInternal/baseLanguageInternal.iml" filepath="$PROJECT_DIR$/core/baseLanguage/baseLanguageInternal/baseLanguageInternal.iml" group="core/baseLanguage" />
+      <module fileurl="file://$PROJECT_DIR$/core/languageDesign/behavior/behavior.iml" filepath="$PROJECT_DIR$/core/languageDesign/behavior/behavior.iml" group="core/languageDesign" />
+      <module fileurl="file://$PROJECT_DIR$/core/baseLanguage/blTypes/blTypes.iml" filepath="$PROJECT_DIR$/core/baseLanguage/blTypes/blTypes.iml" group="core/baseLanguage" />
+      <module fileurl="file://$PROJECT_DIR$/platform/buildlanguage/buildLanguage.iml" filepath="$PROJECT_DIR$/platform/buildlanguage/buildLanguage.iml" group="platform/build" />
+      <module fileurl="file://$PROJECT_DIR$/core/baseLanguage/checkDot/checkedDots.iml" filepath="$PROJECT_DIR$/core/baseLanguage/checkDot/checkedDots.iml" />
+      <module fileurl="file://$PROJECT_DIR$/core/baseLanguage/classifiers/classifiers.iml" filepath="$PROJECT_DIR$/core/baseLanguage/classifiers/classifiers.iml" group="core/baseLanguage" />
+      <module fileurl="file://$PROJECT_DIR$/core/baseLanguage/collections/collections.iml" filepath="$PROJECT_DIR$/core/baseLanguage/collections/collections.iml" group="core/baseLanguage/collections" />
+      <module fileurl="file://$PROJECT_DIR$/core/baseLanguage/collections/runtime/collections-runtime.iml" filepath="$PROJECT_DIR$/core/baseLanguage/collections/runtime/collections-runtime.iml" group="core/baseLanguage/collections" />
+      <module fileurl="file://$PROJECT_DIR$/core/languageDesign/constraints/constraints.iml" filepath="$PROJECT_DIR$/core/languageDesign/constraints/constraints.iml" group="core/languageDesign" />
+      <module fileurl="file://$PROJECT_DIR$/core/baseLanguage/constructors/constructors.iml" filepath="$PROJECT_DIR$/core/baseLanguage/constructors/constructors.iml" />
+      <module fileurl="file://$PROJECT_DIR$/core/languageDesign/core/core.iml" filepath="$PROJECT_DIR$/core/languageDesign/core/core.iml" group="core/languageDesign" />
+      <module fileurl="file://$PROJECT_DIR$/platform/buildlanguage/languages/custommps/customMps.iml" filepath="$PROJECT_DIR$/platform/buildlanguage/languages/custommps/customMps.iml" group="platform/build" />
+      <module fileurl="file://$PROJECT_DIR$/core/languageDesign/dataFlow/dataFlow.iml" filepath="$PROJECT_DIR$/core/languageDesign/dataFlow/dataFlow.iml" group="core/languageDesign/dataFlow" />
+      <module fileurl="file://$PROJECT_DIR$/core/languageDesign/dataFlow/runtime/dataFlow-runtime.iml" filepath="$PROJECT_DIR$/core/languageDesign/dataFlow/runtime/dataFlow-runtime.iml" group="core/languageDesign/dataFlow" />
+      <module fileurl="file://$PROJECT_DIR$/core/kernel/debug/debug.iml" filepath="$PROJECT_DIR$/core/kernel/debug/debug.iml" group="core/kernel" />
+      <module fileurl="file://$PROJECT_DIR$/core/kernel/debug-api/debug-api.iml" filepath="$PROJECT_DIR$/core/kernel/debug-api/debug-api.iml" />
+      <module fileurl="file://$PROJECT_DIR$/platform/buildlanguage/languages/distrib/distrib.iml" filepath="$PROJECT_DIR$/platform/buildlanguage/languages/distrib/distrib.iml" group="platform/build" />
+      <module fileurl="file://$PROJECT_DIR$/samples/dslbook_example/dslbook_example.iml" filepath="$PROJECT_DIR$/samples/dslbook_example/dslbook_example.iml" group="samples" />
+      <module fileurl="file://$PROJECT_DIR$/core/languageDesign/editor/editor.iml" filepath="$PROJECT_DIR$/core/languageDesign/editor/editor.iml" group="core/languageDesign" />
+      <module fileurl="file://$PROJECT_DIR$/core/languageDesign/findUsages/findUsages.iml" filepath="$PROJECT_DIR$/core/languageDesign/findUsages/findUsages.iml" group="core/languageDesign" />
+      <module fileurl="file://$PROJECT_DIR$/samples/fixedLengthReader/fixedLengthReader.iml" filepath="$PROJECT_DIR$/samples/fixedLengthReader/fixedLengthReader.iml" group="samples" />
+      <module fileurl="file://$PROJECT_DIR$/samples/formulaLanguage/formulaLanguage.iml" filepath="$PROJECT_DIR$/samples/formulaLanguage/formulaLanguage.iml" group="samples" />
+      <module fileurl="file://$PROJECT_DIR$/core/languageDesign/generator/generator.iml" filepath="$PROJECT_DIR$/core/languageDesign/generator/generator.iml" group="core/languageDesign" />
+      <module fileurl="file://$PROJECT_DIR$/workbench/ideUiLanguage/ideUiLanguage.iml" filepath="$PROJECT_DIR$/workbench/ideUiLanguage/ideUiLanguage.iml" group="workbench" />
+      <module fileurl="file://$PROJECT_DIR$/core/idea-patch/idea-patch.iml" filepath="$PROJECT_DIR$/core/idea-patch/idea-patch.iml" group="core/kernel" />
+      <module fileurl="file://$PROJECT_DIR$/core/languageDesign/intentions/intentions.iml" filepath="$PROJECT_DIR$/core/languageDesign/intentions/intentions.iml" group="core/languageDesign" />
+      <module fileurl="file://$PROJECT_DIR$/core/javaParser/javaParser.iml" filepath="$PROJECT_DIR$/core/javaParser/javaParser.iml" group="core/kernel" />
+      <module fileurl="file://$PROJECT_DIR$/core/baseLanguage/javadoc/javadoc.iml" filepath="$PROJECT_DIR$/core/baseLanguage/javadoc/javadoc.iml" group="core/baseLanguage" />
+      <module fileurl="file://$PROJECT_DIR$/core/kernel/kernel.iml" filepath="$PROJECT_DIR$/core/kernel/kernel.iml" group="core/kernel" />
+      <module fileurl="file://$PROJECT_DIR$/core/baseLanguage/logging/logging.iml" filepath="$PROJECT_DIR$/core/baseLanguage/logging/logging.iml" group="core/baseLanguage" />
+      <module fileurl="file://$PROJECT_DIR$/core/baseLanguage/math/math.iml" filepath="$PROJECT_DIR$/core/baseLanguage/math/math.iml" group="core/baseLanguage/math" />
+      <module fileurl="file://$PROJECT_DIR$/core/baseLanguage/math/runtime/math-runtime.iml" filepath="$PROJECT_DIR$/core/baseLanguage/math/runtime/math-runtime.iml" group="core/baseLanguage/math" />
+      <module fileurl="file://$PROJECT_DIR$/core/baseLanguage/money/money.iml" filepath="$PROJECT_DIR$/core/baseLanguage/money/money.iml" group="core/baseLanguage/money" />
+      <module fileurl="file://$PROJECT_DIR$/core/baseLanguage/money/runtime/moneyRuntime.iml" filepath="$PROJECT_DIR$/core/baseLanguage/money/runtime/moneyRuntime.iml" group="core/baseLanguage/money" />
+      <module fileurl="file://$PROJECT_DIR$/core/languageDesign/mps-lite/mps-lite.iml" filepath="$PROJECT_DIR$/core/languageDesign/mps-lite/mps-lite.iml" group="core/languageDesign" />
+      <module fileurl="file://$PROJECT_DIR$/samples/nanoc/nanoc.iml" filepath="$PROJECT_DIR$/samples/nanoc/nanoc.iml" group="samples" />
+      <module fileurl="file://$PROJECT_DIR$/core/baseLanguage/overloadedOperators/overloadedOperators.iml" filepath="$PROJECT_DIR$/core/baseLanguage/overloadedOperators/overloadedOperators.iml" />
+      <module fileurl="file://$PROJECT_DIR$/platform/buildlanguage/languages/packaging/packaging.iml" filepath="$PROJECT_DIR$/platform/buildlanguage/languages/packaging/packaging.iml" group="platform/build" />
+      <module fileurl="file://$PROJECT_DIR$/core/languageDesign/pattern/pattern.iml" filepath="$PROJECT_DIR$/core/languageDesign/pattern/pattern.iml" group="core/languageDesign" />
+      <module fileurl="file://$PROJECT_DIR$/core/languageDesign/plugin/plugin.iml" filepath="$PROJECT_DIR$/core/languageDesign/plugin/plugin.iml" group="core/languageDesign" />
+      <module fileurl="file://$PROJECT_DIR$/platform/quickQueryLanguage/quickQueryLanguage.iml" filepath="$PROJECT_DIR$/platform/quickQueryLanguage/quickQueryLanguage.iml" group="platform" />
+      <module fileurl="file://$PROJECT_DIR$/core/languageDesign/quotation/quotation.iml" filepath="$PROJECT_DIR$/core/languageDesign/quotation/quotation.iml" group="core/languageDesign" />
+      <module fileurl="file://$PROJECT_DIR$/core/languageDesign/refactoring/refactoring.iml" filepath="$PROJECT_DIR$/core/languageDesign/refactoring/refactoring.iml" group="core/languageDesign/refactoring" />
+      <module fileurl="file://$PROJECT_DIR$/platform/regexp/regexp.iml" filepath="$PROJECT_DIR$/platform/regexp/regexp.iml" group="platform/regexp" />
+      <module fileurl="file://$PROJECT_DIR$/platform/regexp/runtime/regexp_runtime.iml" filepath="$PROJECT_DIR$/platform/regexp/runtime/regexp_runtime.iml" group="platform/regexp" />
+      <module fileurl="file://$PROJECT_DIR$/resources/resources.iml" filepath="$PROJECT_DIR$/resources/resources.iml" group="workbench" />
+      <module fileurl="file://$PROJECT_DIR$/core/baseLanguage/runConfigurations/runConfigurations.iml" filepath="$PROJECT_DIR$/core/baseLanguage/runConfigurations/runConfigurations.iml" group="core/baseLanguage" />
+      <module fileurl="file://$PROJECT_DIR$/core/runtime/runtime.iml" filepath="$PROJECT_DIR$/core/runtime/runtime.iml" group="core/kernel" />
+      <module fileurl="file://$PROJECT_DIR$/samples/sampleXML/sampleXML.iml" filepath="$PROJECT_DIR$/samples/sampleXML/sampleXML.iml" group="samples" />
+      <module fileurl="file://$PROJECT_DIR$/core/languageDesign/script/script.iml" filepath="$PROJECT_DIR$/core/languageDesign/script/script.iml" group="core/languageDesign" />
+      <module fileurl="file://$PROJECT_DIR$/core/languageDesign/sharedConcepts/sharedConcepts.iml" filepath="$PROJECT_DIR$/core/languageDesign/sharedConcepts/sharedConcepts.iml" group="core/languageDesign" />
+      <module fileurl="file://$PROJECT_DIR$/core/languageDesign/smodel/smodel.iml" filepath="$PROJECT_DIR$/core/languageDesign/smodel/smodel.iml" group="core/languageDesign" />
+      <module fileurl="file://$PROJECT_DIR$/core/languageDesign/smodelTests/smodelTests.iml" filepath="$PROJECT_DIR$/core/languageDesign/smodelTests/smodelTests.iml" group="core/languageDesign" />
+      <module fileurl="file://$PROJECT_DIR$/core/languageDesign/structure/structure.iml" filepath="$PROJECT_DIR$/core/languageDesign/structure/structure.iml" group="core/languageDesign" />
+      <module fileurl="file://$PROJECT_DIR$/core/languageDesign/stubs/stubs.iml" filepath="$PROJECT_DIR$/core/languageDesign/stubs/stubs.iml" group="core/languageDesign" />
+      <module fileurl="file://$PROJECT_DIR$/core/languageDesign/test/test.iml" filepath="$PROJECT_DIR$/core/languageDesign/test/test.iml" group="core/languageDesign" />
+      <module fileurl="file://$PROJECT_DIR$/testMaterial/testRefactoring/testRefactoring.iml" filepath="$PROJECT_DIR$/testMaterial/testRefactoring/testRefactoring.iml" group="core/languageDesign/refactoring" />
+      <module fileurl="file://$PROJECT_DIR$/core/languageDesign/textGen/textgen.iml" filepath="$PROJECT_DIR$/core/languageDesign/textGen/textgen.iml" group="core/languageDesign" />
+      <module fileurl="file://$PROJECT_DIR$/core/languageDesign/typesystem/typesystem.iml" filepath="$PROJECT_DIR$/core/languageDesign/typesystem/typesystem.iml" group="core/languageDesign" />
+      <module fileurl="file://$PROJECT_DIR$/platform/uiLanguage/uiLanguage.iml" filepath="$PROJECT_DIR$/platform/uiLanguage/uiLanguage.iml" group="platform/uiLanguage" />
+      <module fileurl="file://$PROJECT_DIR$/core/baseLanguage/unitTest/unitTest.iml" filepath="$PROJECT_DIR$/core/baseLanguage/unitTest/unitTest.iml" group="core/baseLanguage" />
+      <module fileurl="file://$PROJECT_DIR$/workbench/workbench.iml" filepath="$PROJECT_DIR$/workbench/workbench.iml" group="workbench" />
+      <module fileurl="file://$PROJECT_DIR$/platform/xmlDeprecated/xmlDeprecated.iml" filepath="$PROJECT_DIR$/platform/xmlDeprecated/xmlDeprecated.iml" group="platform" />
+      <module fileurl="file://$PROJECT_DIR$/core/kernel/xmlQuery/runtime/xmlQuery-runtime.iml" filepath="$PROJECT_DIR$/core/kernel/xmlQuery/runtime/xmlQuery-runtime.iml" />
+      <module fileurl="file://$PROJECT_DIR$/platform/xml/xmlSchema/xmlSchema.iml" filepath="$PROJECT_DIR$/platform/xml/xmlSchema/xmlSchema.iml" group="platform/xml" />
+    </modules>
+  </component>
+</project>
+
