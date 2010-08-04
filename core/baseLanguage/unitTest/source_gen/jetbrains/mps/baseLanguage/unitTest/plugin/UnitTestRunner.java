@@ -55,7 +55,7 @@ public class UnitTestRunner extends BaseRunner {
         runParams.value = ITestable_Behavior.call_getTestRunParameters_1216045139515(ListSequence.fromList(tests).first());
         testsToRun.value = ListSequence.fromList(tests).where(new IWhereFilter<SNode>() {
           public boolean accept(SNode it) {
-            return ITestable_Behavior.call_getTestRunParameters_1216045139515(it).equals(runParams.value);
+            return eq_y7hhub_a0a0a0a0a0a0b0a0a0a0e0b(check_y7hhub_a0a0a0a0a1a0e0b(it), runParams.value);
           }
         }).toListSequence();
         ListSequence.fromList(tests).visitAll(new IVisitor<SNode>() {
@@ -136,5 +136,19 @@ public class UnitTestRunner extends BaseRunner {
       buff.append(path).append(BaseRunner.ps());
     }
     return buff.toString();
+  }
+
+  private static TestRunParameters check_y7hhub_a0a0a0a0a1a0e0b(SNode p) {
+    if (null == p) {
+      return null;
+    }
+    return ITestable_Behavior.call_getTestRunParameters_1216045139515(p);
+  }
+
+  private static boolean eq_y7hhub_a0a0a0a0a0a0b0a0a0a0e0b(Object a, Object b) {
+    return (a != null ?
+      a.equals(b) :
+      a == b
+    );
   }
 }
