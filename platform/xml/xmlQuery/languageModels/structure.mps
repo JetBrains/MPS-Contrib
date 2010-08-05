@@ -82,10 +82,11 @@
   <languageAspect modelUID="r:bd6e2c7d-3a5d-4eed-9ff9-27f23ecb34e2(jetbrains.mps.xmlQuery.structure)" version="4" />
   <languageAspect modelUID="r:00000000-0000-4000-0000-011c89590598(jetbrains.mps.xmlSchema.structure)" version="3" />
   <languageAspect modelUID="r:00000000-0000-4000-0000-011c895902ca(jetbrains.mps.baseLanguage.structure)" version="3" />
-  <maxImportIndex value="6" />
+  <maxImportIndex value="7" />
   <import index="2" modelUID="r:00000000-0000-4000-0000-011c89590598(jetbrains.mps.xmlSchema.structure)" version="3" />
   <import index="3" modelUID="r:00000000-0000-4000-0000-011c895902ca(jetbrains.mps.baseLanguage.structure)" version="3" />
   <import index="6" modelUID="r:77052501-5144-48a7-be50-7535fc6d1073(jetbrains.mps.baseLanguage.builders.structure)" version="0" />
+  <import index="7" modelUID="f:java_stub#org.xml.sax(org.xml.sax@java_stub)" version="-1" />
   <visible index="2" modelUID="r:00000000-0000-4000-0000-011c89590288(jetbrains.mps.lang.core.structure)" />
   <node type="jetbrains.mps.lang.structure.structure.ConceptDeclaration:0" id="4815471077468621634">
     <property name="name:0" value="AccessChildrenOperation" />
@@ -354,6 +355,12 @@
     <property name="package:0" value="sax" />
     <property name="name:0" value="XMLSAXAttributeHandler" />
     <link role="extends:0" targetNodeId="4635390255048097274:4" resolveInfo="XMLSAXHandlerFunction" />
+    <node role="conceptLink:0" type="jetbrains.mps.lang.structure.structure.AggregationConceptLink:0" id="2286463592495189659">
+      <link role="conceptLinkDeclaration:0" targetNodeId="3.6204026822016975620:3" resolveInfo="conceptFunctionThrowsType" />
+      <node role="target:0" type="jetbrains.mps.baseLanguage.structure.ClassifierType:3" id="2286463592495208019">
+        <link role="classifier:3" targetNodeId="7.~SAXParseException" resolveInfo="SAXParseException" />
+      </node>
+    </node>
     <node role="conceptProperty:0" type="jetbrains.mps.lang.structure.structure.StringConceptProperty:0" id="8640335038346961144">
       <property name="value:0" value="attribute handler" />
       <link role="conceptPropertyDeclaration:0" targetNodeId="2v.1137473891462:0" resolveInfo="alias" />

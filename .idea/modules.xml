@@ -34,6 +34,7 @@
       <module fileurl="file://$PROJECT_DIR$/core/languageDesign/dataFlow/runtime/dataFlow-runtime.iml" filepath="$PROJECT_DIR$/core/languageDesign/dataFlow/runtime/dataFlow-runtime.iml" group="core/languageDesign/dataFlow" />
       <module fileurl="file://$PROJECT_DIR$/core/kernel/debug/debug.iml" filepath="$PROJECT_DIR$/core/kernel/debug/debug.iml" group="core/kernel" />
       <module fileurl="file://$PROJECT_DIR$/core/kernel/debug-api/debug-api.iml" filepath="$PROJECT_DIR$/core/kernel/debug-api/debug-api.iml" />
+      <module fileurl="file://$PROJECT_DIR$/core/kernel/debug/debugProject/solutions/jetbrains.mps.debug.tests/debugTests.iml" filepath="$PROJECT_DIR$/core/kernel/debug/debugProject/solutions/jetbrains.mps.debug.tests/debugTests.iml" group="core/kernel" />
       <module fileurl="file://$PROJECT_DIR$/platform/buildlanguage/languages/distrib/distrib.iml" filepath="$PROJECT_DIR$/platform/buildlanguage/languages/distrib/distrib.iml" group="platform/build" />
       <module fileurl="file://$PROJECT_DIR$/samples/dslbook_example/dslbook_example.iml" filepath="$PROJECT_DIR$/samples/dslbook_example/dslbook_example.iml" group="samples" />
       <module fileurl="file://$PROJECT_DIR$/core/languageDesign/editor/editor.iml" filepath="$PROJECT_DIR$/core/languageDesign/editor/editor.iml" group="core/languageDesign" />
