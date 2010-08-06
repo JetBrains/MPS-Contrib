@@ -827,5 +827,63 @@
       <link role="concept:3" targetNodeId="1.8640335038346803753:4" resolveInfo="XMLSAXChildHandler_childObject" />
     </node>
   </node>
+  <node type="jetbrains.mps.lang.typesystem.structure.InferenceRule:3" id="2286463592495270571">
+    <property name="name:3" value="typeof_XMLSAXAttributeReference" />
+    <property name="package:3" value="sax" />
+    <node role="body:3" type="jetbrains.mps.baseLanguage.structure.StatementList:3" id="2286463592495270572">
+      <node role="statement:3" type="jetbrains.mps.lang.typesystem.structure.CreateEquationStatement:3" id="2286463592495273282">
+        <node role="rightExpression:3" type="jetbrains.mps.lang.typesystem.structure.NormalTypeClause:3" id="2286463592495273286">
+          <node role="normalType:3" type="jetbrains.mps.lang.quotation.structure.Quotation:0" id="2286463592495273287">
+            <node role="quotedNode:0" type="jetbrains.mps.baseLanguage.structure.StringType:3" id="2286463592495273293" />
+          </node>
+        </node>
+        <node role="leftExpression:3" type="jetbrains.mps.lang.typesystem.structure.NormalTypeClause:3" id="2286463592495273285">
+          <node role="normalType:3" type="jetbrains.mps.lang.typesystem.structure.TypeOfExpression:3" id="2286463592495273279">
+            <node role="term:3" type="jetbrains.mps.lang.typesystem.structure.ApplicableNodeReference:3" id="2286463592495273281">
+              <link role="applicableNode:3" targetNodeId="2286463592495270573" resolveInfo="xmlsaxAttributeReference" />
+            </node>
+          </node>
+        </node>
+      </node>
+    </node>
+    <node role="applicableNode:3" type="jetbrains.mps.lang.typesystem.structure.ConceptReference:3" id="2286463592495270573">
+      <property name="name:3" value="xmlsaxAttributeReference" />
+      <link role="concept:3" targetNodeId="1.2286463592495220221:4" resolveInfo="XMLSAXAttributeReference" />
+    </node>
+  </node>
+  <node type="jetbrains.mps.lang.typesystem.structure.InferenceRule:3" id="355506112073016263">
+    <property name="name:3" value="typeof_XMLSAXFieldReference" />
+    <property name="package:3" value="sax" />
+    <node role="body:3" type="jetbrains.mps.baseLanguage.structure.StatementList:3" id="355506112073016264">
+      <node role="statement:3" type="jetbrains.mps.lang.typesystem.structure.CreateEquationStatement:3" id="355506112073022126">
+        <node role="leftExpression:3" type="jetbrains.mps.lang.typesystem.structure.NormalTypeClause:3" id="355506112073022129">
+          <node role="normalType:3" type="jetbrains.mps.lang.typesystem.structure.TypeOfExpression:3" id="355506112073022123">
+            <node role="term:3" type="jetbrains.mps.lang.typesystem.structure.ApplicableNodeReference:3" id="355506112073022125">
+              <link role="applicableNode:3" targetNodeId="355506112073016265" resolveInfo="xmlsaxFieldReference" />
+            </node>
+          </node>
+        </node>
+        <node role="rightExpression:3" type="jetbrains.mps.lang.typesystem.structure.NormalTypeClause:3" id="355506112073022130">
+          <node role="normalType:3" type="jetbrains.mps.baseLanguage.structure.DotExpression:3" id="355506112073022137">
+            <node role="operand:3" type="jetbrains.mps.baseLanguage.structure.DotExpression:3" id="355506112073022132">
+              <node role="operand:3" type="jetbrains.mps.lang.typesystem.structure.ApplicableNodeReference:3" id="355506112073022131">
+                <link role="applicableNode:3" targetNodeId="355506112073016265" resolveInfo="xmlsaxFieldReference" />
+              </node>
+              <node role="operation:3" type="jetbrains.mps.lang.smodel.structure.SLinkAccess:16" id="355506112073022136">
+                <link role="link:16" targetNodeId="1.7707758858785994427:4" />
+              </node>
+            </node>
+            <node role="operation:3" type="jetbrains.mps.lang.smodel.structure.SLinkAccess:16" id="355506112073022141">
+              <link role="link:16" targetNodeId="1.7707758858785994413:4" />
+            </node>
+          </node>
+        </node>
+      </node>
+    </node>
+    <node role="applicableNode:3" type="jetbrains.mps.lang.typesystem.structure.ConceptReference:3" id="355506112073016265">
+      <property name="name:3" value="xmlsaxFieldReference" />
+      <link role="concept:3" targetNodeId="1.7707758858785994426:4" resolveInfo="XMLSAXFieldReference" />
+    </node>
+  </node>
 </model>
 

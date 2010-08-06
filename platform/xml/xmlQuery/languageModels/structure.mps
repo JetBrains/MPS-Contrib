@@ -285,6 +285,12 @@
       <property name="sourceCardinality:0" value="0..n" />
       <link role="target:0" targetNodeId="4635390255047863051:4" resolveInfo="XMLSAXNode" />
     </node>
+    <node role="linkDeclaration:0" type="jetbrains.mps.lang.structure.structure.LinkDeclaration:0" id="7707758858785994425">
+      <property name="metaClass:0" value="aggregation" />
+      <property name="role:0" value="fields" />
+      <property name="sourceCardinality:0" value="0..n" />
+      <link role="target:0" targetNodeId="7707758858785994411:4" resolveInfo="XMLSAXFieldDeclaration" />
+    </node>
     <node role="implements:0" type="jetbrains.mps.lang.structure.structure.InterfaceConceptReference:0" id="4635390255047869795">
       <link role="intfc:0" targetNodeId="2v.1169194658468:0" resolveInfo="INamedConcept" />
     </node>
@@ -296,7 +302,7 @@
     <node role="linkDeclaration:0" type="jetbrains.mps.lang.structure.structure.LinkDeclaration:0" id="4635390255047981675">
       <property name="metaClass:0" value="aggregation" />
       <property name="role:0" value="type" />
-      <property name="sourceCardinality:0" value="1" />
+      <property name="sourceCardinality:0" value="0..1" />
       <link role="target:0" targetNodeId="3.1068431790189:3" resolveInfo="Type" />
     </node>
     <node role="linkDeclaration:0" type="jetbrains.mps.lang.structure.structure.LinkDeclaration:0" id="4635390255047981704">
@@ -330,6 +336,10 @@
       <property name="name:0" value="tagName" />
       <link role="dataType:0" targetNodeId="2v.1082983041843:0" resolveInfo="string" />
     </node>
+    <node role="propertyDeclaration:0" type="jetbrains.mps.lang.structure.structure.PropertyDeclaration:0" id="2286463592495362657">
+      <property name="name:0" value="isCompact" />
+      <link role="dataType:0" targetNodeId="2v.1082983657063:0" resolveInfo="boolean" />
+    </node>
     <node role="implements:0" type="jetbrains.mps.lang.structure.structure.InterfaceConceptReference:0" id="4635390255047870154">
       <link role="intfc:0" targetNodeId="2v.1169194658468:0" resolveInfo="INamedConcept" />
     </node>
@@ -355,12 +365,6 @@
     <property name="package:0" value="sax" />
     <property name="name:0" value="XMLSAXAttributeHandler" />
     <link role="extends:0" targetNodeId="4635390255048097274:4" resolveInfo="XMLSAXHandlerFunction" />
-    <node role="conceptLink:0" type="jetbrains.mps.lang.structure.structure.AggregationConceptLink:0" id="2286463592495189659">
-      <link role="conceptLinkDeclaration:0" targetNodeId="3.6204026822016975620:3" resolveInfo="conceptFunctionThrowsType" />
-      <node role="target:0" type="jetbrains.mps.baseLanguage.structure.ClassifierType:3" id="2286463592495208019">
-        <link role="classifier:3" targetNodeId="7.~SAXParseException" resolveInfo="SAXParseException" />
-      </node>
-    </node>
     <node role="conceptProperty:0" type="jetbrains.mps.lang.structure.structure.StringConceptProperty:0" id="8640335038346961144">
       <property name="value:0" value="attribute handler" />
       <link role="conceptPropertyDeclaration:0" targetNodeId="2v.1137473891462:0" resolveInfo="alias" />
@@ -434,6 +438,12 @@
     <node role="conceptLink:0" type="jetbrains.mps.lang.structure.structure.ReferenceConceptLink:0" id="4635390255048098091">
       <link role="conceptLinkDeclaration:0" targetNodeId="3.1161119487665:3" resolveInfo="applicableConceptFunctionParameter" />
       <link role="target:0" targetNodeId="4635390255048098081:4" resolveInfo="XMLSAXHandler_resultObject" />
+    </node>
+    <node role="conceptLink:0" type="jetbrains.mps.lang.structure.structure.AggregationConceptLink:0" id="2286463592495220219">
+      <link role="conceptLinkDeclaration:0" targetNodeId="3.6204026822016975620:3" resolveInfo="conceptFunctionThrowsType" />
+      <node role="target:0" type="jetbrains.mps.baseLanguage.structure.ClassifierType:3" id="2286463592495220220">
+        <link role="classifier:3" targetNodeId="7.~SAXParseException" resolveInfo="SAXParseException" />
+      </node>
     </node>
     <node role="conceptProperty:0" type="jetbrains.mps.lang.structure.structure.BooleanConceptProperty:0" id="4635390255048097276">
       <link role="conceptPropertyDeclaration:0" targetNodeId="2v.1137473854053:0" resolveInfo="abstract" />
@@ -528,6 +538,45 @@
     <node role="conceptLink:0" type="jetbrains.mps.lang.structure.structure.AggregationConceptLink:0" id="3444414697307355857">
       <link role="conceptLinkDeclaration:0" targetNodeId="3.1137545148427:3" resolveInfo="conceptFunctionReturnType" />
       <node role="target:0" type="jetbrains.mps.baseLanguage.structure.BooleanType:3" id="3444414697307356524" />
+    </node>
+  </node>
+  <node type="jetbrains.mps.lang.structure.structure.ConceptDeclaration:0" id="2286463592495220221">
+    <property name="package:0" value="sax" />
+    <property name="name:0" value="XMLSAXAttributeReference" />
+    <link role="extends:0" targetNodeId="3.1068431790191:3" resolveInfo="Expression" />
+    <node role="linkDeclaration:0" type="jetbrains.mps.lang.structure.structure.LinkDeclaration:0" id="2286463592495220222">
+      <property name="metaClass:0" value="reference" />
+      <property name="role:0" value="attribute" />
+      <property name="sourceCardinality:0" value="1" />
+      <link role="target:0" targetNodeId="4635390255047981693:4" resolveInfo="XMLSAXAttributeRule" />
+    </node>
+  </node>
+  <node type="jetbrains.mps.lang.structure.structure.ConceptDeclaration:0" id="7707758858785994411">
+    <property name="package:0" value="sax" />
+    <property name="name:0" value="XMLSAXFieldDeclaration" />
+    <link role="extends:0" targetNodeId="2v.1133920641626:0" resolveInfo="BaseConcept" />
+    <node role="linkDeclaration:0" type="jetbrains.mps.lang.structure.structure.LinkDeclaration:0" id="7707758858785994413">
+      <property name="metaClass:0" value="aggregation" />
+      <property name="role:0" value="type" />
+      <property name="sourceCardinality:0" value="1" />
+      <link role="target:0" targetNodeId="3.1068431790189:3" resolveInfo="Type" />
+    </node>
+    <node role="implements:0" type="jetbrains.mps.lang.structure.structure.InterfaceConceptReference:0" id="7707758858785994412">
+      <link role="intfc:0" targetNodeId="2v.1169194658468:0" resolveInfo="INamedConcept" />
+    </node>
+  </node>
+  <node type="jetbrains.mps.lang.structure.structure.ConceptDeclaration:0" id="7707758858785994426">
+    <property name="package:0" value="sax" />
+    <property name="name:0" value="XMLSAXFieldReference" />
+    <link role="extends:0" targetNodeId="3.1068431790191:3" resolveInfo="Expression" />
+    <node role="linkDeclaration:0" type="jetbrains.mps.lang.structure.structure.LinkDeclaration:0" id="7707758858785994427">
+      <property name="metaClass:0" value="reference" />
+      <property name="role:0" value="declaration" />
+      <property name="sourceCardinality:0" value="1" />
+      <link role="target:0" targetNodeId="7707758858785994411:4" resolveInfo="XMLSAXFieldDeclaration" />
+    </node>
+    <node role="conceptProperty:0" type="jetbrains.mps.lang.structure.structure.BooleanConceptProperty:0" id="7707758858786082866">
+      <link role="conceptPropertyDeclaration:0" targetNodeId="3.1146528679895:3" resolveInfo="lvalue" />
     </node>
   </node>
 </model>

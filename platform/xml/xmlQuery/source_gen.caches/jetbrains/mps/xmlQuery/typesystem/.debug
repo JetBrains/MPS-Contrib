@@ -29,6 +29,24 @@
     <scopeInfo nodeId="115745247309398866" fileName="typeof_AccessTextOperation_InferenceRule.java" startLine="21" startPosition="5" endLine="25" endPosition="346" />
     <scopeInfo nodeId="115745247309398849" fileName="typeof_AccessTextOperation_InferenceRule.java" startLine="20" startPosition="95" endLine="26" endPosition="5" />
   </root>
+  <root nodeId="2286463592495270571">
+    <nodeInfo nodeId="2286463592495273282" fileName="typeof_XMLSAXAttributeReference_InferenceRule.java" startLine="21" startPosition="5" endLine="22" endPosition="66" />
+    <nodeInfo nodeId="2286463592495273282" fileName="typeof_XMLSAXAttributeReference_InferenceRule.java" startLine="22" startPosition="66" endLine="23" endPosition="53" />
+    <nodeInfo nodeId="2286463592495273282" fileName="typeof_XMLSAXAttributeReference_InferenceRule.java" startLine="23" startPosition="53" endLine="24" endPosition="212" />
+    <nodeInfo nodeId="2286463592495273282" fileName="typeof_XMLSAXAttributeReference_InferenceRule.java" startLine="24" startPosition="212" endLine="25" endPosition="352" />
+    <nodeInfo nodeId="2286463592495273282" fileName="typeof_XMLSAXAttributeReference_InferenceRule.java" startLine="20" startPosition="110" endLine="26" endPosition="5" />
+    <scopeInfo nodeId="2286463592495273282" fileName="typeof_XMLSAXAttributeReference_InferenceRule.java" startLine="21" startPosition="5" endLine="25" endPosition="352" />
+    <scopeInfo nodeId="2286463592495270572" fileName="typeof_XMLSAXAttributeReference_InferenceRule.java" startLine="20" startPosition="110" endLine="26" endPosition="5" />
+  </root>
+  <root nodeId="355506112073016263">
+    <nodeInfo nodeId="355506112073022126" fileName="typeof_XMLSAXFieldReference_InferenceRule.java" startLine="19" startPosition="5" endLine="20" endPosition="62" />
+    <nodeInfo nodeId="355506112073022126" fileName="typeof_XMLSAXFieldReference_InferenceRule.java" startLine="20" startPosition="62" endLine="21" endPosition="53" />
+    <nodeInfo nodeId="355506112073022126" fileName="typeof_XMLSAXFieldReference_InferenceRule.java" startLine="21" startPosition="53" endLine="22" endPosition="211" />
+    <nodeInfo nodeId="355506112073022126" fileName="typeof_XMLSAXFieldReference_InferenceRule.java" startLine="22" startPosition="211" endLine="23" endPosition="349" />
+    <nodeInfo nodeId="355506112073022126" fileName="typeof_XMLSAXFieldReference_InferenceRule.java" startLine="18" startPosition="106" endLine="24" endPosition="5" />
+    <scopeInfo nodeId="355506112073022126" fileName="typeof_XMLSAXFieldReference_InferenceRule.java" startLine="19" startPosition="5" endLine="23" endPosition="349" />
+    <scopeInfo nodeId="355506112073016264" fileName="typeof_XMLSAXFieldReference_InferenceRule.java" startLine="18" startPosition="106" endLine="24" endPosition="5" />
+  </root>
   <root nodeId="3865540407050958119">
     <nodeInfo nodeId="3865540407050958130" fileName="supertypeof_XMLElementType_SubtypingRule.java" startLine="26" startPosition="72" endLine="27" endPosition="122" />
     <nodeInfo nodeId="115745247309565332" fileName="supertypeof_XMLElementType_SubtypingRule.java" startLine="31" startPosition="218" endLine="32" endPosition="254" />

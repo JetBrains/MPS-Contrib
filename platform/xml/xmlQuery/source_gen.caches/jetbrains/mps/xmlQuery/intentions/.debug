@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<debugInfo>
+  <root nodeId="2286463592495362683">
+    <nodeInfo nodeId="2286463592495373122" fileName="Switch_HasAttributes_Intention.java" startLine="38" startPosition="76" endLine="39" endPosition="106" />
+    <nodeInfo nodeId="2286463592495372556" fileName="Switch_HasAttributes_Intention.java" startLine="31" startPosition="85" endLine="35" endPosition="6" />
+    <scopeInfo nodeId="2286463592495362687" fileName="Switch_HasAttributes_Intention.java" startLine="38" startPosition="76" endLine="39" endPosition="106" />
+    <scopeInfo nodeId="2286463592495362685" fileName="Switch_HasAttributes_Intention.java" startLine="31" startPosition="85" endLine="35" endPosition="6" />
+  </root>
+  <root nodeId="2286463592495455974">
+    <nodeInfo nodeId="2286463592495455993" fileName="addHandler_Intention.java" startLine="32" startPosition="85" endLine="33" endPosition="25" />
+    <nodeInfo nodeId="2286463592495455981" fileName="addHandler_Intention.java" startLine="43" startPosition="90" endLine="44" endPosition="70" />
+    <nodeInfo nodeId="2286463592495455995" fileName="addHandler_Intention.java" startLine="47" startPosition="76" endLine="48" endPosition="152" />
+    <scopeInfo nodeId="2286463592495455976" fileName="addHandler_Intention.java" startLine="32" startPosition="85" endLine="33" endPosition="25" />
+    <scopeInfo nodeId="2286463592495455980" fileName="addHandler_Intention.java" startLine="43" startPosition="90" endLine="44" endPosition="70" />
+    <scopeInfo nodeId="2286463592495455978" fileName="addHandler_Intention.java" startLine="47" startPosition="76" endLine="48" endPosition="152" />
+  </root>
+</debugInfo>
+

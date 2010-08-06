@@ -14,6 +14,25 @@
       <varInfo nodeId="1384720974900260391" varName="contextBuilder" />
     </scopeInfo>
   </root>
+  <root nodeId="2286463592495220223">
+    <nodeInfo nodeId="2286463592495228830" fileName="XMLSAXAttributeReference_Constraints.java" startLine="10" startPosition="114" endLine="11" endPosition="142" />
+    <nodeInfo nodeId="2286463592495255205" fileName="XMLSAXAttributeReference_attribute_ReferentConstraint.java" startLine="32" startPosition="132" endLine="33" endPosition="144" />
+    <nodeInfo nodeId="2286463592495263720" fileName="XMLSAXAttributeReference_attribute_ReferentConstraint.java" startLine="33" startPosition="144" endLine="34" endPosition="66" />
+    <nodeInfo nodeId="2286463592495263829" fileName="XMLSAXAttributeReference_attribute_ReferentConstraint.java" startLine="37" startPosition="41" endLine="38" endPosition="66" />
+    <nodeInfo nodeId="2286463592495263741" fileName="XMLSAXAttributeReference_attribute_ReferentConstraint.java" startLine="41" startPosition="5" endLine="42" endPosition="13" />
+    <nodeInfo nodeId="2286463592495263827" fileName="XMLSAXAttributeReference_attribute_ReferentConstraint.java" startLine="36" startPosition="250" endLine="40" endPosition="0" />
+    <nodeInfo nodeId="2286463592495263776" fileName="XMLSAXAttributeReference_attribute_ReferentConstraint.java" startLine="35" startPosition="147" endLine="40" endPosition="10" />
+    <nodeInfo nodeId="2286463592495263748" fileName="XMLSAXAttributeReference_attribute_ReferentConstraint.java" startLine="34" startPosition="66" endLine="41" endPosition="5" />
+    <scopeInfo nodeId="2286463592495220225" fileName="XMLSAXAttributeReference_Constraints.java" startLine="10" startPosition="114" endLine="11" endPosition="142" />
+    <scopeInfo nodeId="2286463592495263828" fileName="XMLSAXAttributeReference_attribute_ReferentConstraint.java" startLine="37" startPosition="41" endLine="38" endPosition="66" />
+    <scopeInfo nodeId="2286463592495263827" fileName="XMLSAXAttributeReference_attribute_ReferentConstraint.java" startLine="36" startPosition="250" endLine="40" endPosition="0" />
+    <scopeInfo nodeId="2286463592495263749" fileName="XMLSAXAttributeReference_attribute_ReferentConstraint.java" startLine="35" startPosition="147" endLine="40" endPosition="10" />
+    <scopeInfo nodeId="2286463592495228154" fileName="XMLSAXAttributeReference_attribute_ReferentConstraint.java" startLine="32" startPosition="132" endLine="42" endPosition="13">
+      <varInfo nodeId="2286463592495263721" varName="n" />
+      <varInfo nodeId="2286463592495255206" varName="creator" />
+    </scopeInfo>
+    <unitInfo nodeId="2286463592495263827" fileName="XMLSAXAttributeReference_attribute_ReferentConstraint.java" startLine="36" startPosition="227" endLine="40" endPosition="7" unitName="jetbrains.mps.xmlQuery.constraints.XMLSAXAttributeReference_attribute_ReferentConstraint$1" />
+  </root>
   <root nodeId="2341233264267552651">
     <nodeInfo nodeId="5285611549890897323" fileName="SchemaUtil.java" startLine="23" startPosition="35" endLine="24" endPosition="36" />
     <nodeInfo nodeId="5285611549890897330" fileName="SchemaUtil.java" startLine="25" startPosition="5" endLine="26" endPosition="0" />
@@ -264,6 +283,16 @@
   <root nodeId="7567280977594965151">
     <nodeInfo nodeId="7567280977595060301" fileName="TextBuilder_Constraints.java" startLine="11" startPosition="114" endLine="12" endPosition="173" />
     <scopeInfo nodeId="7567280977594965153" fileName="TextBuilder_Constraints.java" startLine="11" startPosition="114" endLine="12" endPosition="173" />
+  </root>
+  <root nodeId="7707758858785994434">
+    <nodeInfo nodeId="7707758858785994449" fileName="XMLSAXFieldReference_declaration_ReferentConstraint.java" startLine="27" startPosition="132" endLine="28" endPosition="133" />
+    <nodeInfo nodeId="7707758858785994479" fileName="XMLSAXFieldReference_declaration_ReferentConstraint.java" startLine="29" startPosition="22" endLine="30" endPosition="59" />
+    <nodeInfo nodeId="7707758858785994488" fileName="XMLSAXFieldReference_declaration_ReferentConstraint.java" startLine="31" startPosition="5" endLine="32" endPosition="16" />
+    <nodeInfo nodeId="7707758858785994461" fileName="XMLSAXFieldReference_declaration_ReferentConstraint.java" startLine="28" startPosition="133" endLine="31" endPosition="5" />
+    <scopeInfo nodeId="7707758858785994462" fileName="XMLSAXFieldReference_declaration_ReferentConstraint.java" startLine="29" startPosition="22" endLine="30" endPosition="59" />
+    <scopeInfo nodeId="7707758858785994437" fileName="XMLSAXFieldReference_declaration_ReferentConstraint.java" startLine="27" startPosition="132" endLine="32" endPosition="16">
+      <varInfo nodeId="7707758858785994450" varName="n" />
+    </scopeInfo>
   </root>
 </debugInfo>
 

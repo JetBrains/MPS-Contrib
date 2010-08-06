@@ -4,6 +4,7 @@
   <refactoringHistory />
   <language namespace="af65afd8-f0dd-4942-87d9-63a55f2a9db1(jetbrains.mps.lang.behavior)" />
   <language namespace="f3061a53-9226-4cc5-a443-f952ceaf5816(jetbrains.mps.baseLanguage)" />
+  <language namespace="ceab5195-25ea-4f22-9b92-103b95ca8c0c(jetbrains.mps.lang.core)" />
   <languageAspect modelUID="r:00000000-0000-4000-0000-011c895902ca(jetbrains.mps.baseLanguage.structure)" version="3" />
   <languageAspect modelUID="r:00000000-0000-4000-0000-011c895902db(jetbrains.mps.baseLanguage.blTypes.constraints)" version="0" />
   <languageAspect modelUID="r:00000000-0000-4000-0000-011c89590283(jetbrains.mps.lang.core.constraints)" version="2" />
@@ -701,8 +702,8 @@
             <node role="operand:3" type="jetbrains.mps.baseLanguage.structure.LocalVariableReference:3" id="2268737274628969577">
               <link role="variableDeclaration:3" targetNodeId="2268737274628969550" resolveInfo="rule" />
             </node>
-            <node role="operation:3" type="jetbrains.mps.lang.smodel.structure.SLinkAccess:16" id="2268737274628969582">
-              <link role="link:16" targetNodeId="2v.4635390255047981675:4" />
+            <node role="operation:3" type="jetbrains.mps.lang.smodel.structure.Node_ConceptMethodCall:16" id="2286463592495435227">
+              <link role="baseMethodDeclaration:16" targetNodeId="2286463592495414413" resolveInfo="getType" />
             </node>
           </node>
         </node>
@@ -798,6 +799,53 @@
     </node>
     <node role="constructor" type="jetbrains.mps.lang.behavior.structure.ConceptConstructorDeclaration" id="3444414697307503269">
       <node role="body" type="jetbrains.mps.baseLanguage.structure.StatementList:3" id="3444414697307503270" />
+    </node>
+  </node>
+  <node type="jetbrains.mps.lang.behavior.structure.ConceptBehavior" id="2286463592495414410">
+    <property name="package" value="sax" />
+    <link role="concept" targetNodeId="2v.4635390255047863051:4" resolveInfo="XMLSAXNodeRule" />
+    <node role="method" type="jetbrains.mps.lang.behavior.structure.ConceptMethodDeclaration" id="2286463592495414413">
+      <property name="name" value="getType" />
+      <node role="visibility" type="jetbrains.mps.baseLanguage.structure.PublicVisibility:3" id="2286463592495414414" />
+      <node role="returnType" type="jetbrains.mps.lang.smodel.structure.SNodeType:16" id="2286463592495414417">
+        <link role="concept:16" targetNodeId="7v.1068431790189:3" resolveInfo="Type" />
+      </node>
+      <node role="body" type="jetbrains.mps.baseLanguage.structure.StatementList:3" id="2286463592495414416">
+        <node role="statement:3" type="jetbrains.mps.baseLanguage.structure.ExpressionStatement:3" id="2286463592495414427">
+          <node role="expression:3" type="jetbrains.mps.baseLanguage.structure.TernaryOperatorExpression:3" id="2286463592495414439">
+            <node role="condition:3" type="jetbrains.mps.baseLanguage.structure.DotExpression:3" id="2286463592495414434">
+              <node role="operand:3" type="jetbrains.mps.baseLanguage.structure.DotExpression:3" id="2286463592495414429">
+                <node role="operand:3" type="jetbrains.mps.lang.behavior.structure.ThisNodeExpression" id="2286463592495414428" />
+                <node role="operation:3" type="jetbrains.mps.lang.smodel.structure.SLinkAccess:16" id="2286463592495414433">
+                  <link role="link:16" targetNodeId="2v.4635390255047981675:4" />
+                </node>
+              </node>
+              <node role="operation:3" type="jetbrains.mps.lang.smodel.structure.Node_IsNotNullOperation:16" id="2286463592495414438" />
+            </node>
+            <node role="ifTrue:3" type="jetbrains.mps.baseLanguage.structure.DotExpression:3" id="2286463592495414444">
+              <node role="operand:3" type="jetbrains.mps.lang.behavior.structure.ThisNodeExpression" id="2286463592495414443" />
+              <node role="operation:3" type="jetbrains.mps.lang.smodel.structure.SLinkAccess:16" id="2286463592495414448">
+                <link role="link:16" targetNodeId="2v.4635390255047981675:4" />
+              </node>
+            </node>
+            <node role="ifFalse:3" type="jetbrains.mps.lang.quotation.structure.Quotation:0" id="2286463592495414449">
+              <node role="quotedNode:0" type="jetbrains.mps.baseLanguage.structure.ClassifierType:3" id="2286463592495414452">
+                <link role="classifier:3" targetNodeId="4v.~Object" resolveInfo="Object" />
+              </node>
+            </node>
+          </node>
+        </node>
+      </node>
+    </node>
+    <node role="constructor" type="jetbrains.mps.lang.behavior.structure.ConceptConstructorDeclaration" id="2286463592495414411">
+      <node role="body" type="jetbrains.mps.baseLanguage.structure.StatementList:3" id="2286463592495414412" />
+    </node>
+  </node>
+  <node type="jetbrains.mps.lang.behavior.structure.ConceptBehavior" id="7707758858786082649">
+    <property name="package" value="sax" />
+    <link role="concept" targetNodeId="2v.7707758858785994426:4" resolveInfo="XMLSAXFieldReference" />
+    <node role="constructor" type="jetbrains.mps.lang.behavior.structure.ConceptConstructorDeclaration" id="7707758858786082650">
+      <node role="body" type="jetbrains.mps.baseLanguage.structure.StatementList:3" id="7707758858786082651" />
     </node>
   </node>
 </model>

@@ -1,20 +1,34 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <debugInfo>
+  <root nodeId="2286463592495373153">
+    <nodeInfo nodeId="2286463592495373157" fileName="delete_CompactKW.java" startLine="32" startPosition="75" endLine="33" endPosition="61" />
+    <scopeInfo nodeId="2286463592495373156" fileName="delete_CompactKW.java" startLine="32" startPosition="75" endLine="33" endPosition="61" />
+  </root>
   <root nodeId="4635390255047870155">
-    <nodeInfo nodeId="8640335038346963436" fileName="XMLSAXNodeRule_Editor.java" startLine="374" startPosition="111" endLine="375" endPosition="82" />
-    <nodeInfo nodeId="2268737274628969596" fileName="XMLSAXNodeRule_Editor.java" startLine="378" startPosition="111" endLine="379" endPosition="157" />
-    <nodeInfo nodeId="2268737274628969610" fileName="XMLSAXNodeRule_Editor.java" startLine="382" startPosition="112" endLine="383" endPosition="185" />
-    <nodeInfo nodeId="2268737274628969650" fileName="XMLSAXNodeRule_Editor.java" startLine="386" startPosition="112" endLine="387" endPosition="157" />
-    <nodeInfo nodeId="3444414697307356875" fileName="XMLSAXNodeRule_Editor.java" startLine="390" startPosition="112" endLine="391" endPosition="131" />
-    <scopeInfo nodeId="8640335038346963435" fileName="XMLSAXNodeRule_Editor.java" startLine="374" startPosition="111" endLine="375" endPosition="82" />
-    <scopeInfo nodeId="2268737274628969595" fileName="XMLSAXNodeRule_Editor.java" startLine="378" startPosition="111" endLine="379" endPosition="157" />
-    <scopeInfo nodeId="2268737274628969609" fileName="XMLSAXNodeRule_Editor.java" startLine="382" startPosition="112" endLine="383" endPosition="185" />
-    <scopeInfo nodeId="2268737274628969649" fileName="XMLSAXNodeRule_Editor.java" startLine="386" startPosition="112" endLine="387" endPosition="157" />
-    <scopeInfo nodeId="3444414697307356874" fileName="XMLSAXNodeRule_Editor.java" startLine="390" startPosition="112" endLine="391" endPosition="131" />
+    <nodeInfo nodeId="2286463592495373144" fileName="XMLSAXNodeRule_Editor.java" startLine="429" startPosition="111" endLine="430" endPosition="61" />
+    <nodeInfo nodeId="8640335038346963436" fileName="XMLSAXNodeRule_Editor.java" startLine="433" startPosition="111" endLine="434" endPosition="82" />
+    <nodeInfo nodeId="2268737274628969596" fileName="XMLSAXNodeRule_Editor.java" startLine="437" startPosition="111" endLine="438" endPosition="215" />
+    <nodeInfo nodeId="2268737274628969610" fileName="XMLSAXNodeRule_Editor.java" startLine="441" startPosition="112" endLine="442" endPosition="243" />
+    <nodeInfo nodeId="2286463592495477038" fileName="XMLSAXNodeRule_Editor.java" startLine="445" startPosition="112" endLine="446" endPosition="154" />
+    <nodeInfo nodeId="2268737274628969650" fileName="XMLSAXNodeRule_Editor.java" startLine="449" startPosition="112" endLine="450" endPosition="215" />
+    <nodeInfo nodeId="2286463592495477063" fileName="XMLSAXNodeRule_Editor.java" startLine="453" startPosition="112" endLine="454" endPosition="123" />
+    <nodeInfo nodeId="3444414697307356875" fileName="XMLSAXNodeRule_Editor.java" startLine="457" startPosition="112" endLine="458" endPosition="189" />
+    <nodeInfo nodeId="2286463592495477088" fileName="XMLSAXNodeRule_Editor.java" startLine="461" startPosition="112" endLine="462" endPosition="128" />
+    <scopeInfo nodeId="2286463592495373143" fileName="XMLSAXNodeRule_Editor.java" startLine="429" startPosition="111" endLine="430" endPosition="61" />
+    <scopeInfo nodeId="8640335038346963435" fileName="XMLSAXNodeRule_Editor.java" startLine="433" startPosition="111" endLine="434" endPosition="82" />
+    <scopeInfo nodeId="2268737274628969595" fileName="XMLSAXNodeRule_Editor.java" startLine="437" startPosition="111" endLine="438" endPosition="215" />
+    <scopeInfo nodeId="2268737274628969609" fileName="XMLSAXNodeRule_Editor.java" startLine="441" startPosition="112" endLine="442" endPosition="243" />
+    <scopeInfo nodeId="2286463592495477037" fileName="XMLSAXNodeRule_Editor.java" startLine="445" startPosition="112" endLine="446" endPosition="154" />
+    <scopeInfo nodeId="2268737274628969649" fileName="XMLSAXNodeRule_Editor.java" startLine="449" startPosition="112" endLine="450" endPosition="215" />
+    <scopeInfo nodeId="2286463592495477062" fileName="XMLSAXNodeRule_Editor.java" startLine="453" startPosition="112" endLine="454" endPosition="123" />
+    <scopeInfo nodeId="3444414697307356874" fileName="XMLSAXNodeRule_Editor.java" startLine="457" startPosition="112" endLine="458" endPosition="189" />
+    <scopeInfo nodeId="2286463592495477087" fileName="XMLSAXNodeRule_Editor.java" startLine="461" startPosition="112" endLine="462" endPosition="128" />
   </root>
   <root nodeId="4635390255047981695">
-    <nodeInfo nodeId="2268737274629028873" fileName="XMLSAXAttributeRule_Editor.java" startLine="143" startPosition="111" endLine="144" endPosition="62" />
-    <scopeInfo nodeId="2268737274629028872" fileName="XMLSAXAttributeRule_Editor.java" startLine="143" startPosition="111" endLine="144" endPosition="62" />
+    <nodeInfo nodeId="2268737274629028873" fileName="XMLSAXAttributeRule_Editor.java" startLine="150" startPosition="111" endLine="151" endPosition="62" />
+    <nodeInfo nodeId="2286463592495455962" fileName="XMLSAXAttributeRule_Editor.java" startLine="154" startPosition="111" endLine="155" endPosition="70" />
+    <scopeInfo nodeId="2268737274629028872" fileName="XMLSAXAttributeRule_Editor.java" startLine="150" startPosition="111" endLine="151" endPosition="62" />
+    <scopeInfo nodeId="2286463592495455961" fileName="XMLSAXAttributeRule_Editor.java" startLine="154" startPosition="111" endLine="155" endPosition="70" />
   </root>
   <root nodeId="4815471077468675531">
     <nodeInfo nodeId="634907465121528354" fileName="XMLElementType_Editor.java" startLine="114" startPosition="111" endLine="115" endPosition="70" />

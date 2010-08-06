@@ -10,12 +10,17 @@
     <scopeInfo nodeId="608266221866981709" fileName="TextBuilder_Behavior.java" startLine="35" startPosition="145" endLine="36" endPosition="98" />
   </root>
   <root nodeId="2268737274628969538">
-    <nodeInfo nodeId="2268737274628969549" fileName="XMLSAXNodeCreator_Behavior.java" startLine="16" startPosition="83" endLine="17" endPosition="120" />
-    <nodeInfo nodeId="2268737274628969576" fileName="XMLSAXNodeCreator_Behavior.java" startLine="17" startPosition="120" endLine="18" endPosition="57" />
-    <scopeInfo nodeId="2268737274628969540" fileName="XMLSAXNodeCreator_Behavior.java" startLine="13" startPosition="43" endLine="13" endPosition="43" />
-    <scopeInfo nodeId="2268737274628969543" fileName="XMLSAXNodeCreator_Behavior.java" startLine="16" startPosition="83" endLine="18" endPosition="57">
+    <nodeInfo nodeId="2268737274628969549" fileName="XMLSAXNodeCreator_Behavior.java" startLine="15" startPosition="83" endLine="16" endPosition="120" />
+    <nodeInfo nodeId="2268737274628969576" fileName="XMLSAXNodeCreator_Behavior.java" startLine="16" startPosition="120" endLine="17" endPosition="74" />
+    <scopeInfo nodeId="2268737274628969540" fileName="XMLSAXNodeCreator_Behavior.java" startLine="12" startPosition="43" endLine="12" endPosition="43" />
+    <scopeInfo nodeId="2268737274628969543" fileName="XMLSAXNodeCreator_Behavior.java" startLine="15" startPosition="83" endLine="17" endPosition="74">
       <varInfo nodeId="2268737274628969550" varName="rule" />
     </scopeInfo>
+  </root>
+  <root nodeId="2286463592495414410">
+    <nodeInfo nodeId="2286463592495414427" fileName="XMLSAXNodeRule_Behavior.java" startLine="19" startPosition="72" endLine="23" endPosition="6" />
+    <scopeInfo nodeId="2286463592495414412" fileName="XMLSAXNodeRule_Behavior.java" startLine="16" startPosition="43" endLine="16" endPosition="43" />
+    <scopeInfo nodeId="2286463592495414416" fileName="XMLSAXNodeRule_Behavior.java" startLine="19" startPosition="72" endLine="23" endPosition="6" />
   </root>
   <root nodeId="3149278768676788185">
     <nodeInfo nodeId="1384720974900260450" fileName="ElementBuilder_Behavior.java" startLine="29" startPosition="81" endLine="30" endPosition="122" />
@@ -74,6 +79,9 @@
     <scopeInfo nodeId="7225751495667376243" fileName="AttributeBuilder_Behavior.java" startLine="29" startPosition="81" endLine="30" endPosition="107" />
     <scopeInfo nodeId="7225751495667376247" fileName="AttributeBuilder_Behavior.java" startLine="33" startPosition="105" endLine="34" endPosition="62" />
     <scopeInfo nodeId="608266221866981660" fileName="AttributeBuilder_Behavior.java" startLine="37" startPosition="145" endLine="38" endPosition="219" />
+  </root>
+  <root nodeId="7707758858786082649">
+    <scopeInfo nodeId="7707758858786082651" fileName="XMLSAXFieldReference_Behavior.java" startLine="8" startPosition="43" endLine="8" endPosition="43" />
   </root>
 </debugInfo>
 
