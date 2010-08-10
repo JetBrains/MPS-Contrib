@@ -1,62 +1,6 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <model modelUID="r:00000000-0000-4000-0000-011c89590588(jetbrains.mps.xml.structure)">
-  <persistence version="4" />
-  <refactoringHistory>
-    <refactoringContext modelVersion="0">
-      <refactoring refactoringClass="jetbrains.mps.refactoring.renameLanguage.LanguageRenamer$MyRefactoring" />
-      <moveMap />
-      <conceptFeatureMap>
-        <entry>
-          <key featureName="Attribute" conceptFQName="webr.xml.structure.Attribute" featureKind="CONCEPT" />
-          <value featureName="Attribute" conceptFQName="jetbrains.mps.xml.structure.Attribute" featureKind="CONCEPT" />
-        </entry>
-        <entry>
-          <key featureName="BaseAttribute" conceptFQName="webr.xml.structure.BaseAttribute" featureKind="CONCEPT" />
-          <value featureName="BaseAttribute" conceptFQName="jetbrains.mps.xml.structure.BaseAttribute" featureKind="CONCEPT" />
-        </entry>
-        <entry>
-          <key featureName="BaseElement" conceptFQName="webr.xml.structure.BaseElement" featureKind="CONCEPT" />
-          <value featureName="BaseElement" conceptFQName="jetbrains.mps.xml.structure.BaseElement" featureKind="CONCEPT" />
-        </entry>
-        <entry>
-          <key featureName="BaseText" conceptFQName="webr.xml.structure.BaseText" featureKind="CONCEPT" />
-          <value featureName="BaseText" conceptFQName="jetbrains.mps.xml.structure.BaseText" featureKind="CONCEPT" />
-        </entry>
-        <entry>
-          <key featureName="CDATA" conceptFQName="webr.xml.structure.CDATA" featureKind="CONCEPT" />
-          <value featureName="CDATA" conceptFQName="jetbrains.mps.xml.structure.CDATA" featureKind="CONCEPT" />
-        </entry>
-        <entry>
-          <key featureName="ComplexText" conceptFQName="webr.xml.structure.ComplexText" featureKind="CONCEPT" />
-          <value featureName="ComplexText" conceptFQName="jetbrains.mps.xml.structure.ComplexText" featureKind="CONCEPT" />
-        </entry>
-        <entry>
-          <key featureName="Content" conceptFQName="webr.xml.structure.Content" featureKind="CONCEPT" />
-          <value featureName="Content" conceptFQName="jetbrains.mps.xml.structure.Content" featureKind="CONCEPT" />
-        </entry>
-        <entry>
-          <key featureName="ContentList" conceptFQName="webr.xml.structure.ContentList" featureKind="CONCEPT" />
-          <value featureName="ContentList" conceptFQName="jetbrains.mps.xml.structure.ContentList" featureKind="CONCEPT" />
-        </entry>
-        <entry>
-          <key featureName="Element" conceptFQName="webr.xml.structure.Element" featureKind="CONCEPT" />
-          <value featureName="Element" conceptFQName="jetbrains.mps.xml.structure.Element" featureKind="CONCEPT" />
-        </entry>
-        <entry>
-          <key featureName="EntityReference" conceptFQName="webr.xml.structure.EntityReference" featureKind="CONCEPT" />
-          <value featureName="EntityReference" conceptFQName="jetbrains.mps.xml.structure.EntityReference" featureKind="CONCEPT" />
-        </entry>
-        <entry>
-          <key featureName="Text" conceptFQName="webr.xml.structure.Text" featureKind="CONCEPT" />
-          <value featureName="Text" conceptFQName="jetbrains.mps.xml.structure.Text" featureKind="CONCEPT" />
-        </entry>
-        <entry>
-          <key featureName="XmlRoot" conceptFQName="webr.xml.structure.XmlRoot" featureKind="CONCEPT" />
-          <value featureName="XmlRoot" conceptFQName="jetbrains.mps.xml.structure.XmlRoot" featureKind="CONCEPT" />
-        </entry>
-      </conceptFeatureMap>
-    </refactoringContext>
-  </refactoringHistory>
+  <persistence version="5" />
   <language namespace="c72da2b9-7cce-4447-8389-f407dc1158b7(jetbrains.mps.lang.structure)" />
   <languageAspect modelUID="r:00000000-0000-4000-0000-011c8959028c(jetbrains.mps.lang.structure.constraints)" version="11" />
   <languageAspect modelUID="r:00000000-0000-4000-0000-011c8959032e(jetbrains.mps.baseLanguage.collections.structure)" version="1" />

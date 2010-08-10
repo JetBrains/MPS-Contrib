@@ -1,63 +1,6 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <model modelUID="r:bd6e2c7d-3a5d-4eed-9ff9-27f23ecb34e2(jetbrains.mps.xmlQuery.structure)">
-  <persistence version="4" />
-  <refactoringHistory>
-    <refactoringContext modelVersion="0">
-      <refactoring refactoringClass="jetbrains.mps.lang.structure.refactorings.RenameConcept" />
-      <moveMap />
-      <sourceMap />
-      <conceptFeatureMap>
-        <entry>
-          <key featureName="XmlType" conceptFQName="jetbrains.mps.xmlQuery.structure.XmlType" featureKind="CONCEPT" />
-          <value featureName="XMLNodeType" conceptFQName="jetbrains.mps.xmlQuery.structure.XMLNodeType" featureKind="CONCEPT" />
-        </entry>
-      </conceptFeatureMap>
-    </refactoringContext>
-    <refactoringContext modelVersion="1">
-      <refactoring refactoringClass="jetbrains.mps.lang.structure.refactorings.RenameConcept" />
-      <moveMap />
-      <sourceMap />
-      <conceptFeatureMap>
-        <entry>
-          <key featureName="GetChildOperation" conceptFQName="jetbrains.mps.xmlQuery.structure.GetChildOperation" featureKind="CONCEPT" />
-          <value featureName="AccessChildOperation" conceptFQName="jetbrains.mps.xmlQuery.structure.AccessChildOperation" featureKind="CONCEPT" />
-        </entry>
-      </conceptFeatureMap>
-    </refactoringContext>
-    <refactoringContext modelVersion="2">
-      <refactoring refactoringClass="jetbrains.mps.lang.structure.refactorings.RenameConcept" />
-      <moveMap />
-      <sourceMap />
-      <conceptFeatureMap>
-        <entry>
-          <key featureName="XMLNodeType" conceptFQName="jetbrains.mps.xmlQuery.structure.XMLNodeType" featureKind="CONCEPT" />
-          <value featureName="XMLElementType" conceptFQName="jetbrains.mps.xmlQuery.structure.XMLElementType" featureKind="CONCEPT" />
-        </entry>
-      </conceptFeatureMap>
-    </refactoringContext>
-    <refactoringContext modelVersion="3">
-      <refactoring refactoringClass="jetbrains.mps.lang.structure.refactorings.RenameConcept" />
-      <moveMap />
-      <sourceMap />
-      <conceptFeatureMap>
-        <entry>
-          <key featureName="XMLNodeOperation" conceptFQName="jetbrains.mps.xmlQuery.structure.XMLNodeOperation" featureKind="CONCEPT" />
-          <value featureName="XMLElementOperation" conceptFQName="jetbrains.mps.xmlQuery.structure.XMLElementOperation" featureKind="CONCEPT" />
-        </entry>
-      </conceptFeatureMap>
-    </refactoringContext>
-    <refactoringContext modelVersion="4">
-      <refactoring refactoringClass="jetbrains.mps.lang.structure.refactorings.RenameConcept" />
-      <moveMap />
-      <sourceMap />
-      <conceptFeatureMap>
-        <entry>
-          <key featureName="AccessArbitraryChildOperation" conceptFQName="jetbrains.mps.xmlQuery.structure.AccessArbitraryChildOperation" featureKind="CONCEPT" />
-          <value featureName="AccessArbitraryChildrenOperation" conceptFQName="jetbrains.mps.xmlQuery.structure.AccessArbitraryChildrenOperation" featureKind="CONCEPT" />
-        </entry>
-      </conceptFeatureMap>
-    </refactoringContext>
-  </refactoringHistory>
+  <persistence version="5" />
   <language namespace="c72da2b9-7cce-4447-8389-f407dc1158b7(jetbrains.mps.lang.structure)" />
   <language namespace="ceab5195-25ea-4f22-9b92-103b95ca8c0c(jetbrains.mps.lang.core)" />
   <language namespace="f3061a53-9226-4cc5-a443-f952ceaf5816(jetbrains.mps.baseLanguage)" />
