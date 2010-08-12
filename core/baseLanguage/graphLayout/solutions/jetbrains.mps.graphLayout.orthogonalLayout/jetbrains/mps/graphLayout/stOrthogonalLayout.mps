@@ -5250,7 +5250,7 @@
             </node>
           </node>
         </node>
-        <node role="statement:3" type="jetbrains.mps.baseLanguage.structure.CommentedStatementsBlock:3" id="925859607109489350">
+        <node role="statement:3" type="jetbrains.mps.baseLanguage.structure.CommentedStatementsBlock:3" id="5709109565604315350">
           <node role="statement:3" type="jetbrains.mps.baseLanguage.structure.LocalVariableDeclarationStatement:3" id="903391227141137555">
             <node role="localVariableDeclaration:3" type="jetbrains.mps.baseLanguage.structure.LocalVariableDeclaration:3" id="903391227141137556">
               <property name="name:3" value="embeddedGraph" />
@@ -5415,8 +5415,8 @@
                   </node>
                 </node>
                 <node role="initializer:3" type="jetbrains.mps.baseLanguage.structure.DotExpression:3" id="1177671074986683286">
-                  <node role="operand:3" type="jetbrains.mps.baseLanguage.structure.LocalVariableReference:3" id="860462848750225527">
-                    <link role="variableDeclaration:3" targetNodeId="903391227141137556" resolveInfo="embeddedGraph" />
+                  <node role="operand:3" type="jetbrains.mps.baseLanguage.structure.LocalVariableReference:3" id="5709109565604333193">
+                    <link role="variableDeclaration:3" targetNodeId="860462848750218289" resolveInfo="embeddedGraph" />
                   </node>
                   <node role="operation:3" type="jetbrains.mps.baseLanguage.structure.InstanceMethodCallOperation:3" id="1177671074986683288">
                     <link role="baseMethodDeclaration:3" targetNodeId="1.6494745554568916980" resolveInfo="findFullHistory" />
@@ -5691,8 +5691,8 @@
           </node>
           <node role="inputSequence:7" type="jetbrains.mps.baseLanguage.structure.DotExpression:3" id="903391227141137574">
             <node role="operand:3" type="jetbrains.mps.baseLanguage.structure.DotExpression:3" id="903391227141137575">
-              <node role="operand:3" type="jetbrains.mps.baseLanguage.structure.LocalVariableReference:3" id="860462848750225529">
-                <link role="variableDeclaration:3" targetNodeId="903391227141137556" resolveInfo="embeddedGraph" />
+              <node role="operand:3" type="jetbrains.mps.baseLanguage.structure.LocalVariableReference:3" id="5709109565604330053">
+                <link role="variableDeclaration:3" targetNodeId="860462848750218289" resolveInfo="embeddedGraph" />
               </node>
               <node role="operation:3" type="jetbrains.mps.baseLanguage.structure.InstanceMethodCallOperation:3" id="903391227141137577">
                 <link role="baseMethodDeclaration:3" targetNodeId="1.1123934034178601486" resolveInfo="getOuterFace" />
@@ -5792,8 +5792,8 @@
             <node role="initializer:3" type="jetbrains.mps.baseLanguage.structure.GenericNewExpression:3" id="903391227141137632">
               <node role="creator:3" type="jetbrains.mps.baseLanguage.structure.ClassCreator:3" id="903391227141137633">
                 <link role="baseMethodDeclaration:3" targetNodeId="1.6984255766319182657" resolveInfo="STPlanarGraph" />
-                <node role="actualArgument:3" type="jetbrains.mps.baseLanguage.structure.LocalVariableReference:3" id="860462848750225528">
-                  <link role="variableDeclaration:3" targetNodeId="903391227141137556" resolveInfo="embeddedGraph" />
+                <node role="actualArgument:3" type="jetbrains.mps.baseLanguage.structure.LocalVariableReference:3" id="5709109565604330054">
+                  <link role="variableDeclaration:3" targetNodeId="860462848750218289" resolveInfo="embeddedGraph" />
                 </node>
                 <node role="actualArgument:3" type="jetbrains.mps.baseLanguage.structure.LocalVariableReference:3" id="903391227141137635">
                   <link role="variableDeclaration:3" targetNodeId="903391227141137606" resolveInfo="s" />
@@ -5903,8 +5903,8 @@
                   <node role="actualArgument:3" type="jetbrains.mps.baseLanguage.structure.LocalVariableReference:3" id="6160477238666742468">
                     <link role="variableDeclaration:3" targetNodeId="1418350014056295375" resolveInfo="oldEdges" />
                   </node>
-                  <node role="actualArgument:3" type="jetbrains.mps.baseLanguage.structure.LocalVariableReference:3" id="860462848750225530">
-                    <link role="variableDeclaration:3" targetNodeId="903391227141137556" resolveInfo="embeddedGraph" />
+                  <node role="actualArgument:3" type="jetbrains.mps.baseLanguage.structure.LocalVariableReference:3" id="5709109565604330055">
+                    <link role="variableDeclaration:3" targetNodeId="860462848750218289" resolveInfo="embeddedGraph" />
                   </node>
                   <node role="actualArgument:3" type="jetbrains.mps.baseLanguage.structure.LocalVariableReference:3" id="6160477238666742470">
                     <link role="variableDeclaration:3" targetNodeId="6494745554568954317" resolveInfo="graphLayout" />
@@ -6633,7 +6633,7 @@
                                         </node>
                                       </node>
                                       <node role="actualArgument:3" type="jetbrains.mps.baseLanguage.structure.DotExpression:3" id="8680836410351712089">
-                                        <node role="operand:3" type="jetbrains.mps.baseLanguage.structure.LocalVariableReference:3" id="8680836410351712088">
+                                        <node role="operand:3" type="jetbrains.mps.baseLanguage.structure.LocalVariableReference:3" id="5709109565604331607">
                                           <link role="variableDeclaration:3" targetNodeId="8680836410351712035" resolveInfo="labelRect" />
                                         </node>
                                         <node role="operation:3" type="jetbrains.mps.baseLanguage.structure.FieldReferenceOperation:3" id="8680836410351712093">

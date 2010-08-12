@@ -91,6 +91,55 @@
     <scopeInfo nodeId="508819492464319469" fileName="VisibilityRepresentation_Test.java" startLine="38" startPosition="0" endLine="55" endPosition="0" />
     <scopeInfo nodeId="3619822174190284693" fileName="VisibilityRepresentation_Test.java" startLine="55" startPosition="0" endLine="72" endPosition="0" />
   </root>
+  <root nodeId="7371029937982882760">
+    <nodeInfo nodeId="7371029937982882770" fileName="StressTest.java" startLine="22" startPosition="59" endLine="23" endPosition="45" />
+    <nodeInfo nodeId="7371029937982882843" fileName="StressTest.java" startLine="23" startPosition="45" endLine="24" endPosition="67" />
+    <nodeInfo nodeId="7371029937982882774" fileName="StressTest.java" startLine="24" startPosition="67" endLine="25" endPosition="45" />
+    <nodeInfo nodeId="7371029937982882781" fileName="StressTest.java" startLine="25" startPosition="45" endLine="26" endPosition="45" />
+    <nodeInfo nodeId="7371029937982882788" fileName="StressTest.java" startLine="26" startPosition="45" endLine="27" endPosition="44" />
+    <nodeInfo nodeId="7371029937982882941" fileName="StressTest.java" startLine="28" startPosition="48" endLine="29" endPosition="47" />
+    <nodeInfo nodeId="7371029937982882798" fileName="StressTest.java" startLine="29" startPosition="47" endLine="30" endPosition="76" />
+    <nodeInfo nodeId="7371029937982882804" fileName="StressTest.java" startLine="30" startPosition="76" endLine="31" endPosition="50" />
+    <nodeInfo nodeId="7371029937982882810" fileName="StressTest.java" startLine="31" startPosition="50" endLine="32" endPosition="37" />
+    <nodeInfo nodeId="7371029937982882814" fileName="StressTest.java" startLine="32" startPosition="37" endLine="33" endPosition="18" />
+    <nodeInfo nodeId="7371029937982882861" fileName="StressTest.java" startLine="33" startPosition="18" endLine="34" endPosition="91" />
+    <nodeInfo nodeId="7371029937982882884" fileName="StressTest.java" startLine="35" startPosition="65" endLine="36" endPosition="72" />
+    <nodeInfo nodeId="7371029937982882911" fileName="StressTest.java" startLine="37" startPosition="7" endLine="38" endPosition="91" />
+    <nodeInfo nodeId="7371029937982882926" fileName="StressTest.java" startLine="39" startPosition="65" endLine="40" endPosition="72" />
+    <nodeInfo nodeId="7371029937982882850" fileName="StressTest.java" startLine="41" startPosition="7" endLine="42" endPosition="53" />
+    <nodeInfo nodeId="7371029937982882955" fileName="StressTest.java" startLine="43" startPosition="5" endLine="44" endPosition="31" />
+    <nodeInfo nodeId="7371029937982882762" fileName="StressTest.java" startLine="18" startPosition="25" endLine="20" endPosition="3" />
+    <nodeInfo nodeId="7371029937982882874" fileName="StressTest.java" startLine="34" startPosition="91" endLine="37" endPosition="7" />
+    <nodeInfo nodeId="7371029937982882920" fileName="StressTest.java" startLine="38" startPosition="91" endLine="41" endPosition="7" />
+    <nodeInfo nodeId="7371029937982882796" fileName="StressTest.java" startLine="27" startPosition="44" endLine="43" endPosition="5" />
+    <nodeInfo nodeId="7371029937982882766" fileName="StressTest.java" startLine="21" startPosition="0" endLine="46" endPosition="0" />
+    <scopeInfo nodeId="7371029937982882765" fileName="StressTest.java" startLine="19" startPosition="23" endLine="19" endPosition="23" />
+    <scopeInfo nodeId="7371029937982882877" fileName="StressTest.java" startLine="35" startPosition="65" endLine="36" endPosition="72" />
+    <scopeInfo nodeId="7371029937982882925" fileName="StressTest.java" startLine="39" startPosition="65" endLine="40" endPosition="72" />
+    <scopeInfo nodeId="7371029937982882762" fileName="StressTest.java" startLine="18" startPosition="25" endLine="20" endPosition="3" />
+    <scopeInfo nodeId="7371029937982882874" fileName="StressTest.java" startLine="34" startPosition="91" endLine="37" endPosition="7" />
+    <scopeInfo nodeId="7371029937982882920" fileName="StressTest.java" startLine="38" startPosition="91" endLine="41" endPosition="7" />
+    <scopeInfo nodeId="7371029937982882797" fileName="StressTest.java" startLine="28" startPosition="48" endLine="42" endPosition="53">
+      <varInfo nodeId="7371029937982882799" varName="graph" />
+      <varInfo nodeId="7371029937982882912" varName="edgeSizes" />
+      <varInfo nodeId="7371029937982882862" varName="nodeSizes" />
+      <varInfo nodeId="7371029937982882805" varName="out" />
+    </scopeInfo>
+    <scopeInfo nodeId="7371029937982882796" fileName="StressTest.java" startLine="27" startPosition="44" endLine="43" endPosition="5">
+      <varInfo nodeId="7371029937982882818" varName="iter" />
+    </scopeInfo>
+    <scopeInfo nodeId="7371029937982882769" fileName="StressTest.java" startLine="22" startPosition="59" endLine="44" endPosition="31">
+      <varInfo nodeId="7371029937982882782" varName="numEdges" />
+      <varInfo nodeId="7371029937982882775" varName="numNodes" />
+      <varInfo nodeId="7371029937982882771" varName="fileName" />
+      <varInfo nodeId="7371029937982882844" varName="layouter" />
+      <varInfo nodeId="7371029937982882789" varName="numIter" />
+    </scopeInfo>
+    <scopeInfo nodeId="7371029937982882766" fileName="StressTest.java" startLine="21" startPosition="0" endLine="46" endPosition="0">
+      <varInfo nodeId="7371029937982882826" varName="args" />
+    </scopeInfo>
+    <unitInfo nodeId="7371029937982882760" fileName="StressTest.java" startLine="18" startPosition="0" endLine="47" endPosition="0" unitName="orthogonalLayoutTest.StressTest" />
+  </root>
   <root nodeId="903391227141028133">
     <nodeInfo nodeId="903391227141029780" fileName="ConstraintsSupporter_Test.java" startLine="25" startPosition="45" endLine="26" endPosition="51" />
     <nodeInfo nodeId="903391227141029797" fileName="ConstraintsSupporter_Test.java" startLine="26" startPosition="51" endLine="27" endPosition="54" />

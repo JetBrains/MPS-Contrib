@@ -71,6 +71,11 @@ public class PQPlanarityTest_Test extends TestCase {
     testWithGraph(graphString);
   }
 
+  public void test_test9() throws Exception {
+    String graphString = "11 22\n  0 9\n  0 4  \n0 1  \n0 7  \n0 10  \n1 3  \n1 7  \n1 8  \n1 2  \n2 9  \n2 3  \n3 8  \n3 5  \n4 6  \n4 5  \n5 9  \n5 8  \n5 7  \n6 7  \n7 8  \n8 9  \n9 10\n";
+    testWithGraph(graphString);
+  }
+
   private void test(String graphString) throws IllegalArgumentException {
     Graph graph = GraphIO.scanGraph(new Scanner(graphString));
     Node s = graph.getNode(0);

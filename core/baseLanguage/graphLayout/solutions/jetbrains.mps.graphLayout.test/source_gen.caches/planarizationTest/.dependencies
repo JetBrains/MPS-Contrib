@@ -49,40 +49,6 @@
     <classNode dependClassName="visualization.GraphIO" />
     <classNode extendsClassName="junit.framework.TestCase" />
   </dependency>
-  <dependency className="planarizationTest.PQTreeComputeAHValues_Test" file="PQTreeComputeAHValues_Test.java">
-    <classNode dependClassName="java.lang.Exception" />
-    <classNode dependClassName="java.lang.Integer" />
-    <classNode dependClassName="java.lang.System" />
-    <classNode dependClassName="java.util.ArrayList" />
-    <classNode dependClassName="java.util.HashSet" />
-    <classNode dependClassName="java.util.List" />
-    <classNode dependClassName="java.util.Set" />
-    <classNode dependClassName="jetbrains.mps.graphLayout.planarization.Leaf" />
-    <classNode dependClassName="jetbrains.mps.graphLayout.planarization.PNode" />
-    <classNode dependClassName="jetbrains.mps.graphLayout.planarization.PQNode" />
-    <classNode dependClassName="jetbrains.mps.graphLayout.planarization.PQTree" />
-    <classNode dependClassName="jetbrains.mps.graphLayout.planarization.QNode" />
-    <classNode dependClassName="jetbrains.mps.internal.collections.runtime.ListSequence" />
-    <classNode dependClassName="jetbrains.mps.internal.collections.runtime.SetSequence" />
-    <classNode dependClassName="junit.framework.Assert" />
-    <classNode extendsClassName="junit.framework.TestCase" />
-  </dependency>
-  <dependency className="planarizationTest.PQTreeMakeReductible_Test" file="PQTreeMakeReductible_Test.java">
-    <classNode dependClassName="java.lang.Exception" />
-    <classNode dependClassName="java.lang.Integer" />
-    <classNode dependClassName="java.lang.System" />
-    <classNode dependClassName="java.util.ArrayList" />
-    <classNode dependClassName="java.util.List" />
-    <classNode dependClassName="jetbrains.mps.graphLayout.planarization.Leaf" />
-    <classNode dependClassName="jetbrains.mps.graphLayout.planarization.PNode" />
-    <classNode dependClassName="jetbrains.mps.graphLayout.planarization.PQNode" />
-    <classNode dependClassName="jetbrains.mps.graphLayout.planarization.PQTree" />
-    <classNode dependClassName="jetbrains.mps.graphLayout.planarization.QNode" />
-    <classNode dependClassName="jetbrains.mps.internal.collections.runtime.IWhereFilter" />
-    <classNode dependClassName="jetbrains.mps.internal.collections.runtime.ListSequence" />
-    <classNode dependClassName="junit.framework.Assert" />
-    <classNode extendsClassName="junit.framework.TestCase" />
-  </dependency>
   <dependency className="planarizationTest.STPlanarGraph_Test" file="STPlanarGraph_Test.java">
     <classNode dependClassName="java.lang.Exception" />
     <classNode dependClassName="java.lang.String" />
@@ -122,6 +88,30 @@
     <classNode dependClassName="sampleGraphs.SimpleDirectedGraphs" />
     <classNode dependClassName="visualization.GraphIO" />
     <classNode extendsClassName="junit.framework.TestCase" />
+  </dependency>
+  <dependency className="planarizationTest.StressTestPQ" file="StressTestPQ.java">
+    <classNode dependClassName="java.io.PrintWriter" />
+    <classNode dependClassName="java.lang.Exception" />
+    <classNode dependClassName="java.lang.Integer" />
+    <classNode dependClassName="java.lang.String" />
+    <classNode dependClassName="java.lang.System" />
+    <classNode dependClassName="java.util.HashMap" />
+    <classNode dependClassName="java.util.List" />
+    <classNode dependClassName="java.util.Map" />
+    <classNode dependClassName="jetbrains.mps.graphLayout.algorithms.BiconnectAugmentation" />
+    <classNode dependClassName="jetbrains.mps.graphLayout.algorithms.ConnectivityComponents" />
+    <classNode dependClassName="jetbrains.mps.graphLayout.algorithms.TopologicalSorting" />
+    <classNode dependClassName="jetbrains.mps.graphLayout.graph.Edge" />
+    <classNode dependClassName="jetbrains.mps.graphLayout.graph.Graph" />
+    <classNode dependClassName="jetbrains.mps.graphLayout.graph.Node" />
+    <classNode dependClassName="jetbrains.mps.graphLayout.planarGraph.EmbeddedGraph" />
+    <classNode dependClassName="jetbrains.mps.graphLayout.planarization.IEmbeddingFinder" />
+    <classNode dependClassName="jetbrains.mps.graphLayout.planarization.PlanarizationEmbeddingFinder" />
+    <classNode dependClassName="jetbrains.mps.internal.collections.runtime.ListSequence" />
+    <classNode dependClassName="jetbrains.mps.internal.collections.runtime.MapSequence" />
+    <classNode dependClassName="planarizationTest.CheckEmbeddedGraph" />
+    <classNode dependClassName="sampleGraphs.RandomGraphGenerator" />
+    <classNode dependClassName="visualization.GraphIO" />
   </dependency>
   <dependency className="planarizationTest.TreeEmbeddingFinder_Find_Test" file="TreeEmbeddingFinder_Find_Test.java">
     <classNode dependClassName="java.lang.Exception" />
