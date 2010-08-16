@@ -16,7 +16,7 @@ public class NodeMap<V> implements Map<Node, V> {
   private Graph myGraph;
 
   public NodeMap(Graph graph) {
-    myMap = new ArrayList<V>();
+    myMap = new ArrayList<V>(graph.getNumNodes());
     myGraph = graph;
   }
 

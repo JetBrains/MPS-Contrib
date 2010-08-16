@@ -78,14 +78,12 @@ public class PNode extends PQNode {
       for (PQNode child : ListSequence.fromList(firstEmptySegment).reversedList()) {
         newComponent.addFirstChild(child);
       }
-      newComponent.getEdgesOrder().merge(partialChild.getEdgesOrder());
-      for (PQNode child : ListSequence.fromList(partialChild.getChildren()).where(new IWhereFilter<PQNode>() {
+      ListSequence.fromList(partialChild.getChildren()).removeWhere(new IWhereFilter<PQNode>() {
         public boolean accept(PQNode it) {
-          return it.getState() == PQNode.State.FULL;
+          return it.getState() != PQNode.State.FULL;
         }
-      })) {
-        child.collectEdgesOrderInSubtree(edgesOrder);
-      }
+      });
+      partialChild.collectEdgesOrderInSubtree(edgesOrder);
       for (PQNode child : ListSequence.fromList(children).where(new IWhereFilter<PQNode>() {
         public boolean accept(PQNode it) {
           return it.getState() == PQNode.State.FULL;
@@ -115,14 +113,22 @@ public class PNode extends PQNode {
       for (PQNode child : ListSequence.fromList(emptyNodes)) {
         newComponent.addLastChild(child);
       }
-      newComponent.getEdgesOrder().merge(partialChild0.getEdgesOrder());
-      for (PQNode child : ListSequence.fromList(partialChild0.getChildren()).where(new IWhereFilter<PQNode>() {
-        public boolean accept(PQNode it) {
-          return it.getState() == PQNode.State.FULL;
+      /*
+        newComponent.getEdgesOrder().merge(partialChild0.getEdgesOrder());
+        for (PQNode child : ListSequence.fromList(partialChild0.getChildren()).where(new IWhereFilter<PQNode>() {
+          public boolean accept(PQNode it) {
+            return it.getState() == PQNode.State.FULL;
+          }
+        })) {
+          child.collectEdgesOrderInSubtree(edgesOrder);
         }
-      })) {
-        child.collectEdgesOrderInSubtree(edgesOrder);
-      }
+      */
+      ListSequence.fromList(partialChild0.getChildren()).removeWhere(new IWhereFilter<PQNode>() {
+        public boolean accept(PQNode it) {
+          return it.getState() != PQNode.State.FULL;
+        }
+      });
+      partialChild0.collectEdgesOrderInSubtree(edgesOrder);
       for (PQNode child : ListSequence.fromList(children).where(new IWhereFilter<PQNode>() {
         public boolean accept(PQNode it) {
           return it.getState() == PQNode.State.FULL;
@@ -130,14 +136,22 @@ public class PNode extends PQNode {
       })) {
         child.collectEdgesOrderInSubtree(edgesOrder);
       }
-      newComponent.getEdgesOrder().merge(partialChild1.getEdgesOrder());
-      for (PQNode child : ListSequence.fromList(partialChild1.getChildren()).where(new IWhereFilter<PQNode>() {
+      ListSequence.fromList(partialChild1.getChildren()).removeWhere(new IWhereFilter<PQNode>() {
         public boolean accept(PQNode it) {
-          return it.getState() == PQNode.State.FULL;
+          return it.getState() != PQNode.State.FULL;
         }
-      })) {
-        child.collectEdgesOrderInSubtree(edgesOrder);
-      }
+      });
+      partialChild1.collectEdgesOrderInSubtree(edgesOrder);
+      /*
+        newComponent.getEdgesOrder().merge(partialChild1.getEdgesOrder());
+        for (PQNode child : ListSequence.fromList(partialChild1.getChildren()).where(new IWhereFilter<PQNode>() {
+          public boolean accept(PQNode it) {
+            return it.getState() == PQNode.State.FULL;
+          }
+        })) {
+          child.collectEdgesOrderInSubtree(edgesOrder);
+        }
+      */
     }
     return nextNode;
   }

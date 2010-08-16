@@ -6,155 +6,86 @@
     <nodeInfo nodeId="5213231752900627148" fileName="STNumbering.java" startLine="20" startPosition="47" endLine="21" endPosition="22" />
     <nodeInfo nodeId="5213231752900627163" fileName="STNumbering.java" startLine="24" startPosition="25" endLine="25" endPosition="40" />
     <nodeInfo nodeId="5213231752900627170" fileName="STNumbering.java" startLine="25" startPosition="40" endLine="26" endPosition="25" />
-    <nodeInfo nodeId="5213231752900619507" fileName="STNumbering.java" startLine="27" startPosition="5" endLine="28" endPosition="63" />
-    <nodeInfo nodeId="5213231752900619514" fileName="STNumbering.java" startLine="28" startPosition="63" endLine="29" endPosition="42" />
-    <nodeInfo nodeId="5213231752900627107" fileName="STNumbering.java" startLine="29" startPosition="42" endLine="30" endPosition="44" />
-    <nodeInfo nodeId="5213231752900627616" fileName="STNumbering.java" startLine="30" startPosition="44" endLine="31" endPosition="66" />
+    <nodeInfo nodeId="5213231752900619507" fileName="STNumbering.java" startLine="27" startPosition="5" endLine="28" endPosition="78" />
+    <nodeInfo nodeId="5213231752900619514" fileName="STNumbering.java" startLine="28" startPosition="78" endLine="29" endPosition="55" />
+    <nodeInfo nodeId="5213231752900627107" fileName="STNumbering.java" startLine="29" startPosition="55" endLine="30" endPosition="57" />
+    <nodeInfo nodeId="5213231752900627616" fileName="STNumbering.java" startLine="30" startPosition="57" endLine="31" endPosition="66" />
     <nodeInfo nodeId="5213231752900627981" fileName="STNumbering.java" startLine="31" startPosition="66" endLine="32" endPosition="48" />
     <nodeInfo nodeId="5213231752900628268" fileName="STNumbering.java" startLine="32" startPosition="48" endLine="33" endPosition="57" />
     <nodeInfo nodeId="5213231752900628289" fileName="STNumbering.java" startLine="33" startPosition="57" endLine="34" endPosition="19" />
     <nodeInfo nodeId="5213231752900628300" fileName="STNumbering.java" startLine="35" startPosition="66" endLine="36" endPosition="51" />
     <nodeInfo nodeId="5213231752900627186" fileName="STNumbering.java" startLine="38" startPosition="22" endLine="39" endPosition="31" />
     <nodeInfo nodeId="5213231752900615693" fileName="STNumbering.java" startLine="40" startPosition="5" endLine="41" endPosition="15" />
-    <nodeInfo nodeId="5213231752900619184" fileName="STNumbering.java" startLine="44" startPosition="44" endLine="45" endPosition="34" />
-    <nodeInfo nodeId="5213231752900619258" fileName="STNumbering.java" startLine="45" startPosition="34" endLine="46" endPosition="37" />
-    <nodeInfo nodeId="5213231752900619266" fileName="STNumbering.java" startLine="46" startPosition="37" endLine="47" endPosition="25" />
-    <nodeInfo nodeId="5213231752900619211" fileName="STNumbering.java" startLine="52" startPosition="62" endLine="53" endPosition="39" />
-    <nodeInfo nodeId="5213231752900619219" fileName="STNumbering.java" startLine="53" startPosition="39" endLine="54" endPosition="42" />
-    <nodeInfo nodeId="5213231752900615865" fileName="STNumbering.java" startLine="54" startPosition="42" endLine="55" endPosition="39" />
-    <nodeInfo nodeId="5213231752900615872" fileName="STNumbering.java" startLine="55" startPosition="39" endLine="56" endPosition="61" />
-    <nodeInfo nodeId="5213231752900619248" fileName="STNumbering.java" startLine="56" startPosition="61" endLine="57" endPosition="53" />
-    <nodeInfo nodeId="5213231752900619273" fileName="STNumbering.java" startLine="57" startPosition="53" endLine="58" endPosition="48" />
-    <nodeInfo nodeId="5213231752900619284" fileName="STNumbering.java" startLine="58" startPosition="48" endLine="59" endPosition="19" />
-    <nodeInfo nodeId="5213231752900616154" fileName="STNumbering.java" startLine="59" startPosition="19" endLine="60" endPosition="46" />
-    <nodeInfo nodeId="5213231752900619290" fileName="STNumbering.java" startLine="64" startPosition="53" endLine="65" endPosition="55" />
-    <nodeInfo nodeId="5213231752900619308" fileName="STNumbering.java" startLine="65" startPosition="55" endLine="66" endPosition="49" />
-    <nodeInfo nodeId="5213231752900619155" fileName="STNumbering.java" startLine="70" startPosition="56" endLine="71" endPosition="43" />
-    <nodeInfo nodeId="5213231752900619470" fileName="STNumbering.java" startLine="72" startPosition="67" endLine="73" endPosition="32" />
-    <nodeInfo nodeId="5213231752900619386" fileName="STNumbering.java" startLine="78" startPosition="54" endLine="79" endPosition="41" />
-    <nodeInfo nodeId="5213231752900619475" fileName="STNumbering.java" startLine="79" startPosition="41" endLine="80" endPosition="60" />
-    <nodeInfo nodeId="5213231752900619415" fileName="STNumbering.java" startLine="83" startPosition="52" endLine="84" endPosition="57" />
-    <nodeInfo nodeId="5213231752900619434" fileName="STNumbering.java" startLine="85" startPosition="92" endLine="86" endPosition="53" />
-    <nodeInfo nodeId="5213231752900627258" fileName="STNumbering.java" startLine="99" startPosition="45" endLine="100" endPosition="38" />
-    <nodeInfo nodeId="5213231752900627288" fileName="STNumbering.java" startLine="100" startPosition="38" endLine="101" endPosition="34" />
-    <nodeInfo nodeId="5213231752900627274" fileName="STNumbering.java" startLine="101" startPosition="34" endLine="102" endPosition="30" />
-    <nodeInfo nodeId="5213231752900627585" fileName="STNumbering.java" startLine="102" startPosition="30" endLine="103" endPosition="26" />
-    <nodeInfo nodeId="5213231752900627222" fileName="STNumbering.java" startLine="108" startPosition="83" endLine="109" endPosition="39" />
-    <nodeInfo nodeId="5213231752900627466" fileName="STNumbering.java" startLine="109" startPosition="39" endLine="110" endPosition="18" />
-    <nodeInfo nodeId="5213231752900627473" fileName="STNumbering.java" startLine="110" startPosition="18" endLine="111" endPosition="43" />
-    <nodeInfo nodeId="5213231752900627496" fileName="STNumbering.java" startLine="111" startPosition="43" endLine="112" endPosition="61" />
-    <nodeInfo nodeId="5213231752900627559" fileName="STNumbering.java" startLine="112" startPosition="61" endLine="113" endPosition="47" />
-    <nodeInfo nodeId="5213231752900627590" fileName="STNumbering.java" startLine="113" startPosition="47" endLine="114" endPosition="24" />
-    <nodeInfo nodeId="5213231752900627539" fileName="STNumbering.java" startLine="114" startPosition="24" endLine="115" endPosition="50" />
-    <nodeInfo nodeId="5213231752900627566" fileName="STNumbering.java" startLine="115" startPosition="50" endLine="116" endPosition="84" />
-    <nodeInfo nodeId="5213231752900627519" fileName="STNumbering.java" startLine="116" startPosition="84" endLine="117" endPosition="26" />
-    <nodeInfo nodeId="5213231752900627244" fileName="STNumbering.java" startLine="122" startPosition="29" endLine="123" endPosition="43" />
-    <nodeInfo nodeId="5213231752900627345" fileName="STNumbering.java" startLine="123" startPosition="43" endLine="124" endPosition="68" />
-    <nodeInfo nodeId="5213231752900627397" fileName="STNumbering.java" startLine="124" startPosition="68" endLine="125" endPosition="34" />
-    <nodeInfo nodeId="5213231752900627401" fileName="STNumbering.java" startLine="126" startPosition="88" endLine="127" endPosition="36" />
-    <nodeInfo nodeId="5213231752900627414" fileName="STNumbering.java" startLine="128" startPosition="9" endLine="129" endPosition="69" />
-    <nodeInfo nodeId="5213231752900627426" fileName="STNumbering.java" startLine="129" startPosition="69" endLine="130" endPosition="118" />
-    <nodeInfo nodeId="5213231752900627604" fileName="STNumbering.java" startLine="134" startPosition="33" endLine="135" endPosition="20" />
-    <nodeInfo nodeId="5213231752900615515" fileName="STNumbering.java" startLine="48" startPosition="0" endLine="50" endPosition="5" />
-    <nodeInfo nodeId="5213231752900627204" fileName="STNumbering.java" startLine="104" startPosition="0" endLine="106" endPosition="5" />
+    <nodeInfo nodeId="5213231752900627258" fileName="STNumbering.java" startLine="44" startPosition="45" endLine="45" endPosition="38" />
+    <nodeInfo nodeId="5213231752900627288" fileName="STNumbering.java" startLine="45" startPosition="38" endLine="46" endPosition="34" />
+    <nodeInfo nodeId="5213231752900627274" fileName="STNumbering.java" startLine="46" startPosition="34" endLine="47" endPosition="30" />
+    <nodeInfo nodeId="5213231752900627585" fileName="STNumbering.java" startLine="47" startPosition="30" endLine="48" endPosition="26" />
+    <nodeInfo nodeId="5213231752900627222" fileName="STNumbering.java" startLine="53" startPosition="83" endLine="54" endPosition="39" />
+    <nodeInfo nodeId="5213231752900627466" fileName="STNumbering.java" startLine="54" startPosition="39" endLine="55" endPosition="18" />
+    <nodeInfo nodeId="5213231752900627473" fileName="STNumbering.java" startLine="55" startPosition="18" endLine="56" endPosition="43" />
+    <nodeInfo nodeId="5213231752900627496" fileName="STNumbering.java" startLine="56" startPosition="43" endLine="57" endPosition="61" />
+    <nodeInfo nodeId="5213231752900627559" fileName="STNumbering.java" startLine="57" startPosition="61" endLine="58" endPosition="47" />
+    <nodeInfo nodeId="5213231752900627590" fileName="STNumbering.java" startLine="58" startPosition="47" endLine="59" endPosition="24" />
+    <nodeInfo nodeId="5213231752900627539" fileName="STNumbering.java" startLine="59" startPosition="24" endLine="60" endPosition="50" />
+    <nodeInfo nodeId="5213231752900627566" fileName="STNumbering.java" startLine="60" startPosition="50" endLine="61" endPosition="84" />
+    <nodeInfo nodeId="5213231752900627519" fileName="STNumbering.java" startLine="61" startPosition="84" endLine="62" endPosition="26" />
+    <nodeInfo nodeId="5213231752900627244" fileName="STNumbering.java" startLine="67" startPosition="29" endLine="68" endPosition="43" />
+    <nodeInfo nodeId="5213231752900627345" fileName="STNumbering.java" startLine="68" startPosition="43" endLine="69" endPosition="68" />
+    <nodeInfo nodeId="5213231752900627397" fileName="STNumbering.java" startLine="69" startPosition="68" endLine="70" endPosition="34" />
+    <nodeInfo nodeId="5213231752900627401" fileName="STNumbering.java" startLine="71" startPosition="88" endLine="72" endPosition="36" />
+    <nodeInfo nodeId="5213231752900627414" fileName="STNumbering.java" startLine="73" startPosition="9" endLine="74" endPosition="69" />
+    <nodeInfo nodeId="5213231752900627426" fileName="STNumbering.java" startLine="74" startPosition="69" endLine="75" endPosition="118" />
+    <nodeInfo nodeId="5213231752900627604" fileName="STNumbering.java" startLine="79" startPosition="33" endLine="80" endPosition="20" />
+    <nodeInfo nodeId="5213231752900627204" fileName="STNumbering.java" startLine="49" startPosition="0" endLine="51" endPosition="5" />
     <nodeInfo nodeId="5213231752900627146" fileName="STNumbering.java" startLine="19" startPosition="64" endLine="22" endPosition="7" />
     <nodeInfo nodeId="5213231752900628284" fileName="STNumbering.java" startLine="34" startPosition="19" endLine="37" endPosition="5" />
     <nodeInfo nodeId="5213231752900627184" fileName="STNumbering.java" startLine="37" startPosition="5" endLine="40" endPosition="5" />
-    <nodeInfo nodeId="5213231752900619145" fileName="STNumbering.java" startLine="71" startPosition="43" endLine="74" endPosition="7" />
-    <nodeInfo nodeId="5213231752900619421" fileName="STNumbering.java" startLine="84" startPosition="57" endLine="87" endPosition="7" />
-    <nodeInfo nodeId="5213231752900627358" fileName="STNumbering.java" startLine="125" startPosition="34" endLine="128" endPosition="9" />
+    <nodeInfo nodeId="5213231752900627358" fileName="STNumbering.java" startLine="70" startPosition="34" endLine="73" endPosition="9" />
     <nodeInfo nodeId="5213231752900627161" fileName="STNumbering.java" startLine="23" startPosition="5" endLine="27" endPosition="5" />
-    <nodeInfo nodeId="5213231752900619484" fileName="STNumbering.java" startLine="89" startPosition="0" endLine="93" endPosition="0" />
-    <nodeInfo nodeId="5213231752900619494" fileName="STNumbering.java" startLine="93" startPosition="0" endLine="97" endPosition="0" />
-    <nodeInfo nodeId="5213231752900627597" fileName="STNumbering.java" startLine="133" startPosition="0" endLine="137" endPosition="0" />
+    <nodeInfo nodeId="5213231752900627597" fileName="STNumbering.java" startLine="78" startPosition="0" endLine="82" endPosition="0" />
     <nodeInfo nodeId="5213231752900627143" fileName="STNumbering.java" startLine="18" startPosition="32" endLine="23" endPosition="5" />
-    <nodeInfo nodeId="5213231752900619171" fileName="STNumbering.java" startLine="62" startPosition="0" endLine="68" endPosition="0" />
-    <nodeInfo nodeId="5213231752900619371" fileName="STNumbering.java" startLine="76" startPosition="0" endLine="82" endPosition="0" />
-    <nodeInfo nodeId="5213231752900619404" fileName="STNumbering.java" startLine="82" startPosition="0" endLine="89" endPosition="0" />
-    <nodeInfo nodeId="5213231752900619128" fileName="STNumbering.java" startLine="68" startPosition="0" endLine="76" endPosition="0" />
-    <nodeInfo nodeId="5213231752900627578" fileName="STNumbering.java" startLine="121" startPosition="53" endLine="131" endPosition="7" />
-    <nodeInfo nodeId="5213231752900615855" fileName="STNumbering.java" startLine="51" startPosition="0" endLine="62" endPosition="0" />
-    <nodeInfo nodeId="5213231752900627211" fileName="STNumbering.java" startLine="107" startPosition="0" endLine="119" endPosition="0" />
-    <nodeInfo nodeId="5213231752900627228" fileName="STNumbering.java" startLine="119" startPosition="0" endLine="133" endPosition="0" />
+    <nodeInfo nodeId="5213231752900627578" fileName="STNumbering.java" startLine="66" startPosition="53" endLine="76" endPosition="7" />
+    <nodeInfo nodeId="5213231752900627211" fileName="STNumbering.java" startLine="52" startPosition="0" endLine="64" endPosition="0" />
+    <nodeInfo nodeId="5213231752900627228" fileName="STNumbering.java" startLine="64" startPosition="0" endLine="78" endPosition="0" />
     <nodeInfo nodeId="1654665216152485441" fileName="STNumbering.java" startLine="15" startPosition="26" endLine="43" endPosition="0" />
-    <scopeInfo nodeId="5213231752900615518" fileName="STNumbering.java" startLine="49" startPosition="23" endLine="49" endPosition="23" />
-    <scopeInfo nodeId="5213231752900627207" fileName="STNumbering.java" startLine="105" startPosition="24" endLine="105" endPosition="24" />
+    <scopeInfo nodeId="5213231752900627207" fileName="STNumbering.java" startLine="50" startPosition="24" endLine="50" endPosition="24" />
     <scopeInfo nodeId="5213231752900627147" fileName="STNumbering.java" startLine="20" startPosition="47" endLine="21" endPosition="22" />
     <scopeInfo nodeId="5213231752900628287" fileName="STNumbering.java" startLine="35" startPosition="66" endLine="36" endPosition="51" />
     <scopeInfo nodeId="5213231752900627185" fileName="STNumbering.java" startLine="38" startPosition="22" endLine="39" endPosition="31" />
-    <scopeInfo nodeId="5213231752900619146" fileName="STNumbering.java" startLine="72" startPosition="67" endLine="73" endPosition="32" />
-    <scopeInfo nodeId="5213231752900619433" fileName="STNumbering.java" startLine="85" startPosition="92" endLine="86" endPosition="53" />
-    <scopeInfo nodeId="5213231752900619489" fileName="STNumbering.java" startLine="90" startPosition="37" endLine="91" endPosition="24" />
-    <scopeInfo nodeId="5213231752900619499" fileName="STNumbering.java" startLine="94" startPosition="40" endLine="95" endPosition="24" />
-    <scopeInfo nodeId="5213231752900627359" fileName="STNumbering.java" startLine="126" startPosition="88" endLine="127" endPosition="36" />
-    <scopeInfo nodeId="5213231752900627600" fileName="STNumbering.java" startLine="134" startPosition="33" endLine="135" endPosition="20" />
+    <scopeInfo nodeId="5213231752900627359" fileName="STNumbering.java" startLine="71" startPosition="88" endLine="72" endPosition="36" />
+    <scopeInfo nodeId="5213231752900627600" fileName="STNumbering.java" startLine="79" startPosition="33" endLine="80" endPosition="20" />
     <scopeInfo nodeId="5213231752900627162" fileName="STNumbering.java" startLine="24" startPosition="25" endLine="26" endPosition="25" />
-    <scopeInfo nodeId="5213231752900615515" fileName="STNumbering.java" startLine="48" startPosition="0" endLine="50" endPosition="5" />
-    <scopeInfo nodeId="5213231752900619178" fileName="STNumbering.java" startLine="64" startPosition="53" endLine="66" endPosition="49" />
-    <scopeInfo nodeId="5213231752900619378" fileName="STNumbering.java" startLine="78" startPosition="54" endLine="80" endPosition="60">
-      <varInfo nodeId="5213231752900619387" varName="prev" />
-    </scopeInfo>
-    <scopeInfo nodeId="5213231752900627204" fileName="STNumbering.java" startLine="104" startPosition="0" endLine="106" endPosition="5" />
+    <scopeInfo nodeId="5213231752900627204" fileName="STNumbering.java" startLine="49" startPosition="0" endLine="51" endPosition="5" />
     <scopeInfo nodeId="5213231752900627145" fileName="STNumbering.java" startLine="19" startPosition="64" endLine="22" endPosition="7" />
     <scopeInfo nodeId="5213231752900628284" fileName="STNumbering.java" startLine="34" startPosition="19" endLine="37" endPosition="5" />
-    <scopeInfo nodeId="5213231752900619135" fileName="STNumbering.java" startLine="70" startPosition="56" endLine="74" endPosition="7">
-      <varInfo nodeId="5213231752900619156" varName="next" />
-    </scopeInfo>
-    <scopeInfo nodeId="5213231752900619407" fileName="STNumbering.java" startLine="83" startPosition="52" endLine="87" endPosition="7">
-      <varInfo nodeId="5213231752900619416" varName="oldLow" />
-    </scopeInfo>
-    <scopeInfo nodeId="5213231752900619484" fileName="STNumbering.java" startLine="89" startPosition="0" endLine="93" endPosition="0" />
-    <scopeInfo nodeId="5213231752900619494" fileName="STNumbering.java" startLine="93" startPosition="0" endLine="97" endPosition="0" />
-    <scopeInfo nodeId="5213231752900627597" fileName="STNumbering.java" startLine="133" startPosition="0" endLine="137" endPosition="0" />
+    <scopeInfo nodeId="5213231752900627597" fileName="STNumbering.java" startLine="78" startPosition="0" endLine="82" endPosition="0" />
     <scopeInfo nodeId="5213231752900627143" fileName="STNumbering.java" startLine="18" startPosition="32" endLine="23" endPosition="5" />
-    <scopeInfo nodeId="5213231752900619171" fileName="STNumbering.java" startLine="62" startPosition="0" endLine="68" endPosition="0">
-      <varInfo nodeId="5213231752900619174" varName="node" />
-      <varInfo nodeId="5213231752900619176" varName="from" />
-    </scopeInfo>
-    <scopeInfo nodeId="5213231752900619371" fileName="STNumbering.java" startLine="76" startPosition="0" endLine="82" endPosition="0">
-      <varInfo nodeId="5213231752900619374" varName="node" />
-      <varInfo nodeId="5213231752900619376" varName="from" />
-    </scopeInfo>
-    <scopeInfo nodeId="5213231752900619404" fileName="STNumbering.java" startLine="82" startPosition="0" endLine="89" endPosition="0">
-      <varInfo nodeId="5213231752900619409" varName="node" />
-      <varInfo nodeId="5213231752900619411" varName="newLow" />
-    </scopeInfo>
-    <scopeInfo nodeId="5213231752900615860" fileName="STNumbering.java" startLine="52" startPosition="62" endLine="60" endPosition="46" />
-    <scopeInfo nodeId="5213231752900619128" fileName="STNumbering.java" startLine="68" startPosition="0" endLine="76" endPosition="0">
-      <varInfo nodeId="5213231752900619131" varName="edge" />
-      <varInfo nodeId="5213231752900619133" varName="source" />
-    </scopeInfo>
-    <scopeInfo nodeId="5213231752900627580" fileName="STNumbering.java" startLine="122" startPosition="29" endLine="130" endPosition="118">
+    <scopeInfo nodeId="5213231752900627580" fileName="STNumbering.java" startLine="67" startPosition="29" endLine="75" endPosition="118">
       <varInfo nodeId="5213231752900627346" varName="prevIndex" />
       <varInfo nodeId="5213231752900627398" varName="nodeIndex" />
       <varInfo nodeId="5213231752900627245" varName="prev" />
     </scopeInfo>
-    <scopeInfo nodeId="5213231752900627216" fileName="STNumbering.java" startLine="108" startPosition="83" endLine="117" endPosition="26">
+    <scopeInfo nodeId="5213231752900627216" fileName="STNumbering.java" startLine="53" startPosition="83" endLine="62" endPosition="26">
       <varInfo nodeId="5213231752900627560" varName="target" />
     </scopeInfo>
-    <scopeInfo nodeId="5213231752900627235" fileName="STNumbering.java" startLine="121" startPosition="53" endLine="131" endPosition="7" />
-    <scopeInfo nodeId="5213231752900615855" fileName="STNumbering.java" startLine="51" startPosition="0" endLine="62" endPosition="0">
-      <varInfo nodeId="5213231752900627179" varName="stEdge" />
-      <varInfo nodeId="5213231752900615858" varName="graph" />
-      <varInfo nodeId="5213231752900615877" varName="source" />
-    </scopeInfo>
-    <scopeInfo nodeId="5213231752900627211" fileName="STNumbering.java" startLine="107" startPosition="0" endLine="119" endPosition="0">
+    <scopeInfo nodeId="5213231752900627235" fileName="STNumbering.java" startLine="66" startPosition="53" endLine="76" endPosition="7" />
+    <scopeInfo nodeId="5213231752900627211" fileName="STNumbering.java" startLine="52" startPosition="0" endLine="64" endPosition="0">
       <varInfo nodeId="5213231752900627456" varName="stEdge" />
       <varInfo nodeId="5213231752900627214" varName="graph" />
       <varInfo nodeId="5213231752900627450" varName="source" />
       <varInfo nodeId="5213231752900627459" varName="low" />
     </scopeInfo>
-    <scopeInfo nodeId="5213231752900627228" fileName="STNumbering.java" startLine="119" startPosition="0" endLine="133" endPosition="0">
+    <scopeInfo nodeId="5213231752900627228" fileName="STNumbering.java" startLine="64" startPosition="0" endLine="78" endPosition="0">
       <varInfo nodeId="5213231752900627231" varName="node" />
       <varInfo nodeId="5213231752900627233" varName="from" />
     </scopeInfo>
     <scopeInfo nodeId="1654665216152485444" fileName="STNumbering.java" startLine="16" startPosition="82" endLine="41" endPosition="15">
       <varInfo nodeId="5213231752900627136" varName="stEdge" />
       <varInfo nodeId="5213231752900628269" varName="res" />
-      <varInfo nodeId="5213231752900627617" varName="secondDfs" />
-      <varInfo nodeId="5213231752900619508" varName="firstDfs" />
+      <varInfo nodeId="5213231752900627617" varName="numbering" />
       <varInfo nodeId="5213231752900628290" varName="curNum" />
       <varInfo nodeId="5213231752900627108" varName="low" />
+      <varInfo nodeId="5213231752900619508" varName="biconnectedComponents" />
       <varInfo nodeId="5213231752900627140" varName="deleteAfter" />
     </scopeInfo>
     <scopeInfo nodeId="1654665216152485441" fileName="STNumbering.java" startLine="15" startPosition="26" endLine="43" endPosition="0">
@@ -162,9 +93,8 @@
       <varInfo nodeId="1654665216152485453" varName="source" />
       <varInfo nodeId="1654665216152485456" varName="target" />
     </scopeInfo>
-    <unitInfo nodeId="5213231752900627202" fileName="STNumbering.java" startLine="99" startPosition="0" endLine="138" endPosition="0" unitName="jetbrains.mps.graphLayout.algorithms.STNumbering$SecondDfs" />
-    <unitInfo nodeId="5213231752900615513" fileName="STNumbering.java" startLine="44" startPosition="0" endLine="98" endPosition="0" unitName="jetbrains.mps.graphLayout.algorithms.STNumbering$FirstDfs" />
-    <unitInfo nodeId="1654665216152485424" fileName="STNumbering.java" startLine="15" startPosition="0" endLine="139" endPosition="0" unitName="jetbrains.mps.graphLayout.algorithms.STNumbering" />
+    <unitInfo nodeId="5213231752900627202" fileName="STNumbering.java" startLine="44" startPosition="0" endLine="83" endPosition="0" unitName="jetbrains.mps.graphLayout.algorithms.STNumbering$Numbering" />
+    <unitInfo nodeId="1654665216152485424" fileName="STNumbering.java" startLine="15" startPosition="0" endLine="84" endPosition="0" unitName="jetbrains.mps.graphLayout.algorithms.STNumbering" />
   </root>
   <root nodeId="1654665216152485857">
     <nodeInfo nodeId="1654665216152485875" fileName="GraphOrientation.java" startLine="13" startPosition="84" endLine="14" endPosition="79" />
@@ -172,15 +102,33 @@
     <nodeInfo nodeId="1654665216152488945" fileName="GraphOrientation.java" startLine="16" startPosition="77" endLine="17" endPosition="77" />
     <nodeInfo nodeId="1654665216152488958" fileName="GraphOrientation.java" startLine="18" startPosition="34" endLine="19" endPosition="22" />
     <nodeInfo nodeId="516638300680465151" fileName="GraphOrientation.java" startLine="21" startPosition="5" endLine="22" endPosition="23" />
+    <nodeInfo nodeId="3021256511735324762" fileName="GraphOrientation.java" startLine="25" startPosition="58" endLine="26" endPosition="69" />
+    <nodeInfo nodeId="4644851485137274663" fileName="GraphOrientation.java" startLine="26" startPosition="69" endLine="27" endPosition="40" />
+    <nodeInfo nodeId="4644851485137274679" fileName="GraphOrientation.java" startLine="27" startPosition="40" endLine="28" endPosition="40" />
+    <nodeInfo nodeId="4644851485137274692" fileName="GraphOrientation.java" startLine="28" startPosition="40" endLine="29" endPosition="79" />
+    <nodeInfo nodeId="4644851485137274707" fileName="GraphOrientation.java" startLine="30" startPosition="63" endLine="31" endPosition="77" />
+    <nodeInfo nodeId="4644851485137274715" fileName="GraphOrientation.java" startLine="31" startPosition="77" endLine="32" endPosition="77" />
+    <nodeInfo nodeId="4644851485137274725" fileName="GraphOrientation.java" startLine="33" startPosition="34" endLine="34" endPosition="22" />
+    <nodeInfo nodeId="4644851485137274732" fileName="GraphOrientation.java" startLine="36" startPosition="5" endLine="37" endPosition="23" />
+    <nodeInfo nodeId="4644851485137274678" fileName="GraphOrientation.java" startLine="37" startPosition="23" endLine="38" endPosition="0" />
     <nodeInfo nodeId="1654665216152488913" fileName="GraphOrientation.java" startLine="17" startPosition="77" endLine="20" endPosition="7" />
+    <nodeInfo nodeId="4644851485137274723" fileName="GraphOrientation.java" startLine="32" startPosition="77" endLine="35" endPosition="7" />
     <nodeInfo nodeId="1654665216152488903" fileName="GraphOrientation.java" startLine="14" startPosition="79" endLine="21" endPosition="5" />
+    <nodeInfo nodeId="4644851485137274701" fileName="GraphOrientation.java" startLine="29" startPosition="79" endLine="36" endPosition="5" />
     <nodeInfo nodeId="1654665216152485863" fileName="GraphOrientation.java" startLine="12" startPosition="31" endLine="24" endPosition="0" />
+    <nodeInfo nodeId="4644851485137274645" fileName="GraphOrientation.java" startLine="24" startPosition="0" endLine="40" endPosition="0" />
     <scopeInfo nodeId="1654665216152488915" fileName="GraphOrientation.java" startLine="18" startPosition="34" endLine="19" endPosition="22" />
+    <scopeInfo nodeId="4644851485137274724" fileName="GraphOrientation.java" startLine="33" startPosition="34" endLine="34" endPosition="22" />
     <scopeInfo nodeId="1654665216152488906" fileName="GraphOrientation.java" startLine="15" startPosition="63" endLine="20" endPosition="7">
       <varInfo nodeId="1654665216152488946" varName="targetNum" />
       <varInfo nodeId="1654665216152488927" varName="sourceNum" />
     </scopeInfo>
+    <scopeInfo nodeId="4644851485137274706" fileName="GraphOrientation.java" startLine="30" startPosition="63" endLine="35" endPosition="7">
+      <varInfo nodeId="4644851485137274716" varName="targetNum" />
+      <varInfo nodeId="4644851485137274708" varName="sourceNum" />
+    </scopeInfo>
     <scopeInfo nodeId="1654665216152488903" fileName="GraphOrientation.java" startLine="14" startPosition="79" endLine="21" endPosition="5" />
+    <scopeInfo nodeId="4644851485137274701" fileName="GraphOrientation.java" startLine="29" startPosition="79" endLine="36" endPosition="5" />
     <scopeInfo nodeId="1654665216152485866" fileName="GraphOrientation.java" startLine="13" startPosition="84" endLine="22" endPosition="23">
       <varInfo nodeId="1654665216152485876" varName="stNumbering" />
     </scopeInfo>
@@ -189,9 +137,257 @@
       <varInfo nodeId="1654665216152485869" varName="source" />
       <varInfo nodeId="1654665216152485872" varName="target" />
     </scopeInfo>
-    <unitInfo nodeId="1654665216152485857" fileName="GraphOrientation.java" startLine="12" startPosition="0" endLine="25" endPosition="0" unitName="jetbrains.mps.graphLayout.algorithms.GraphOrientation" />
+    <scopeInfo nodeId="4644851485137274648" fileName="GraphOrientation.java" startLine="25" startPosition="58" endLine="38" endPosition="0">
+      <varInfo nodeId="3021256511735324763" varName="firstEdge" />
+      <varInfo nodeId="4644851485137274664" varName="source" />
+      <varInfo nodeId="4644851485137274693" varName="stNumbering" />
+      <varInfo nodeId="4644851485137274680" varName="target" />
+    </scopeInfo>
+    <scopeInfo nodeId="4644851485137274645" fileName="GraphOrientation.java" startLine="24" startPosition="0" endLine="40" endPosition="0">
+      <varInfo nodeId="4644851485137274659" varName="graph" />
+    </scopeInfo>
+    <unitInfo nodeId="1654665216152485857" fileName="GraphOrientation.java" startLine="12" startPosition="0" endLine="41" endPosition="0" unitName="jetbrains.mps.graphLayout.algorithms.GraphOrientation" />
+  </root>
+  <root nodeId="3720762119843889432">
+    <nodeInfo nodeId="4644851485137244695" fileName="BiconnectedComponent.java" startLine="18" startPosition="35" endLine="19" endPosition="28" />
+    <nodeInfo nodeId="4644851485137244699" fileName="BiconnectedComponent.java" startLine="19" startPosition="28" endLine="20" endPosition="48" />
+    <nodeInfo nodeId="4644851485137244703" fileName="BiconnectedComponent.java" startLine="20" startPosition="48" endLine="21" endPosition="52" />
+    <nodeInfo nodeId="4644851485137244708" fileName="BiconnectedComponent.java" startLine="21" startPosition="52" endLine="22" endPosition="54" />
+    <nodeInfo nodeId="4644851485137244717" fileName="BiconnectedComponent.java" startLine="24" startPosition="33" endLine="25" endPosition="55" />
+    <nodeInfo nodeId="4644851485137244723" fileName="BiconnectedComponent.java" startLine="25" startPosition="55" endLine="26" endPosition="78" />
+    <nodeInfo nodeId="4644851485137244729" fileName="BiconnectedComponent.java" startLine="26" startPosition="78" endLine="27" endPosition="79" />
+    <nodeInfo nodeId="4644851485137244736" fileName="BiconnectedComponent.java" startLine="27" startPosition="79" endLine="28" endPosition="81" />
+    <nodeInfo nodeId="4644851485137244752" fileName="BiconnectedComponent.java" startLine="31" startPosition="71" endLine="32" endPosition="60" />
+    <nodeInfo nodeId="4644851485137244757" fileName="BiconnectedComponent.java" startLine="32" startPosition="60" endLine="33" endPosition="58" />
+    <nodeInfo nodeId="4644851485137244771" fileName="BiconnectedComponent.java" startLine="36" startPosition="71" endLine="37" endPosition="60" />
+    <nodeInfo nodeId="4644851485137244776" fileName="BiconnectedComponent.java" startLine="37" startPosition="60" endLine="38" endPosition="56" />
+    <nodeInfo nodeId="4644851485137244790" fileName="BiconnectedComponent.java" startLine="41" startPosition="34" endLine="42" endPosition="50" />
+    <nodeInfo nodeId="4644851485137246208" fileName="BiconnectedComponent.java" startLine="45" startPosition="51" endLine="46" endPosition="22" />
+    <nodeInfo nodeId="4644851485137246285" fileName="BiconnectedComponent.java" startLine="49" startPosition="31" endLine="50" endPosition="19" />
+    <nodeInfo nodeId="4644851485137246306" fileName="BiconnectedComponent.java" startLine="54" startPosition="60" endLine="55" endPosition="55" />
+    <nodeInfo nodeId="4644851485137246315" fileName="BiconnectedComponent.java" startLine="56" startPosition="12" endLine="57" endPosition="57" />
+    <nodeInfo nodeId="4644851485137246844" fileName="BiconnectedComponent.java" startLine="61" startPosition="41" endLine="62" endPosition="48" />
+    <nodeInfo nodeId="4644851485137246860" fileName="BiconnectedComponent.java" startLine="62" startPosition="48" endLine="63" endPosition="127" />
+    <nodeInfo nodeId="4644851485137246886" fileName="BiconnectedComponent.java" startLine="64" startPosition="77" endLine="65" endPosition="71" />
+    <nodeInfo nodeId="4644851485137246925" fileName="BiconnectedComponent.java" startLine="65" startPosition="71" endLine="66" endPosition="52" />
+    <nodeInfo nodeId="4644851485137246851" fileName="BiconnectedComponent.java" startLine="67" startPosition="5" endLine="68" endPosition="30" />
+    <nodeInfo nodeId="4644851485137240832" fileName="BiconnectedComponent.java" startLine="71" startPosition="62" endLine="72" endPosition="59" />
+    <nodeInfo nodeId="4644851485137240297" fileName="BiconnectedComponent.java" startLine="72" startPosition="59" endLine="73" endPosition="67" />
+    <nodeInfo nodeId="4644851485137240308" fileName="BiconnectedComponent.java" startLine="73" startPosition="67" endLine="74" endPosition="28" />
+    <nodeInfo nodeId="4644851485137246241" fileName="BiconnectedComponent.java" startLine="74" startPosition="28" endLine="75" endPosition="100" />
+    <nodeInfo nodeId="4644851485137251894" fileName="BiconnectedComponent.java" startLine="75" startPosition="100" endLine="76" endPosition="91" />
+    <nodeInfo nodeId="4644851485137251872" fileName="BiconnectedComponent.java" startLine="77" startPosition="118" endLine="78" endPosition="27" />
+    <nodeInfo nodeId="4644851485137240304" fileName="BiconnectedComponent.java" startLine="79" startPosition="5" endLine="80" endPosition="16" />
+    <nodeInfo nodeId="4644851485137244903" fileName="BiconnectedComponent.java" startLine="83" startPosition="46" endLine="84" endPosition="34" />
+    <nodeInfo nodeId="4644851485137244911" fileName="BiconnectedComponent.java" startLine="84" startPosition="34" endLine="85" endPosition="37" />
+    <nodeInfo nodeId="4644851485137244939" fileName="BiconnectedComponent.java" startLine="87" startPosition="67" endLine="88" endPosition="18" />
+    <nodeInfo nodeId="4644851485137244947" fileName="BiconnectedComponent.java" startLine="88" startPosition="18" endLine="89" endPosition="18" />
+    <nodeInfo nodeId="4644851485137250777" fileName="BiconnectedComponent.java" startLine="92" startPosition="68" endLine="93" endPosition="39" />
+    <nodeInfo nodeId="4644851485137250784" fileName="BiconnectedComponent.java" startLine="93" startPosition="39" endLine="94" endPosition="76" />
+    <nodeInfo nodeId="4644851485137245016" fileName="BiconnectedComponent.java" startLine="97" startPosition="76" endLine="98" endPosition="56" />
+    <nodeInfo nodeId="4644851485137245997" fileName="BiconnectedComponent.java" startLine="98" startPosition="56" endLine="99" endPosition="53" />
+    <nodeInfo nodeId="4644851485137246002" fileName="BiconnectedComponent.java" startLine="100" startPosition="25" endLine="101" endPosition="90" />
+    <nodeInfo nodeId="4644851485137246062" fileName="BiconnectedComponent.java" startLine="101" startPosition="90" endLine="102" endPosition="45" />
+    <nodeInfo nodeId="4644851485137246011" fileName="BiconnectedComponent.java" startLine="102" startPosition="45" endLine="103" endPosition="63" />
+    <nodeInfo nodeId="4644851485137245129" fileName="BiconnectedComponent.java" startLine="104" startPosition="33" endLine="105" endPosition="34" />
+    <nodeInfo nodeId="4644851485137246029" fileName="BiconnectedComponent.java" startLine="106" startPosition="41" endLine="107" endPosition="53" />
+    <nodeInfo nodeId="4644851485137246048" fileName="BiconnectedComponent.java" startLine="107" startPosition="53" endLine="108" endPosition="40" />
+    <nodeInfo nodeId="4644851485137251363" fileName="BiconnectedComponent.java" startLine="108" startPosition="40" endLine="109" endPosition="38" />
+    <nodeInfo nodeId="4644851485137246038" fileName="BiconnectedComponent.java" startLine="109" startPosition="38" endLine="110" endPosition="56" />
+    <nodeInfo nodeId="4644851485137246075" fileName="BiconnectedComponent.java" startLine="111" startPosition="16" endLine="112" endPosition="53" />
+    <nodeInfo nodeId="4644851485137246088" fileName="BiconnectedComponent.java" startLine="112" startPosition="53" endLine="113" endPosition="38" />
+    <nodeInfo nodeId="4644851485137246081" fileName="BiconnectedComponent.java" startLine="113" startPosition="38" endLine="114" endPosition="54" />
+    <nodeInfo nodeId="4644851485137246107" fileName="BiconnectedComponent.java" startLine="116" startPosition="14" endLine="117" endPosition="32" />
+    <nodeInfo nodeId="4644851485137246164" fileName="BiconnectedComponent.java" startLine="119" startPosition="64" endLine="120" endPosition="43" />
+    <nodeInfo nodeId="4644851485137246178" fileName="BiconnectedComponent.java" startLine="121" startPosition="66" endLine="122" endPosition="41" />
+    <nodeInfo nodeId="4644851485137246313" fileName="BiconnectedComponent.java" startLine="56" startPosition="10" endLine="58" endPosition="5" />
+    <nodeInfo nodeId="4644851485137246105" fileName="BiconnectedComponent.java" startLine="116" startPosition="12" endLine="118" endPosition="7" />
+    <nodeInfo nodeId="4644851485137251853" fileName="BiconnectedComponent.java" startLine="76" startPosition="91" endLine="79" endPosition="5" />
+    <nodeInfo nodeId="4644851485137246171" fileName="BiconnectedComponent.java" startLine="120" startPosition="43" endLine="123" endPosition="9" />
+    <nodeInfo nodeId="4644851485137244786" fileName="BiconnectedComponent.java" startLine="40" startPosition="0" endLine="44" endPosition="0" />
+    <nodeInfo nodeId="4644851485137246201" fileName="BiconnectedComponent.java" startLine="44" startPosition="0" endLine="48" endPosition="0" />
+    <nodeInfo nodeId="4644851485137246278" fileName="BiconnectedComponent.java" startLine="48" startPosition="0" endLine="52" endPosition="0" />
+    <nodeInfo nodeId="4644851485137246881" fileName="BiconnectedComponent.java" startLine="63" startPosition="127" endLine="67" endPosition="5" />
+    <nodeInfo nodeId="4644851485137244690" fileName="BiconnectedComponent.java" startLine="86" startPosition="0" endLine="90" endPosition="5" />
+    <nodeInfo nodeId="4644851485137246073" fileName="BiconnectedComponent.java" startLine="111" startPosition="14" endLine="115" endPosition="9" />
+    <nodeInfo nodeId="4644851485137244748" fileName="BiconnectedComponent.java" startLine="30" startPosition="0" endLine="35" endPosition="0" />
+    <nodeInfo nodeId="4644851485137244767" fileName="BiconnectedComponent.java" startLine="35" startPosition="0" endLine="40" endPosition="0" />
+    <nodeInfo nodeId="4644851485137246295" fileName="BiconnectedComponent.java" startLine="53" startPosition="59" endLine="58" endPosition="5" />
+    <nodeInfo nodeId="4644851485137250766" fileName="BiconnectedComponent.java" startLine="91" startPosition="0" endLine="96" endPosition="0" />
+    <nodeInfo nodeId="4644851485137244713" fileName="BiconnectedComponent.java" startLine="23" startPosition="0" endLine="29" endPosition="3" />
+    <nodeInfo nodeId="4644851485137246158" fileName="BiconnectedComponent.java" startLine="118" startPosition="7" endLine="124" endPosition="7" />
+    <nodeInfo nodeId="4644851485137246288" fileName="BiconnectedComponent.java" startLine="52" startPosition="0" endLine="60" endPosition="0" />
+    <nodeInfo nodeId="4644851485137246834" fileName="BiconnectedComponent.java" startLine="60" startPosition="0" endLine="70" endPosition="0" />
+    <nodeInfo nodeId="4644851485137240287" fileName="BiconnectedComponent.java" startLine="70" startPosition="0" endLine="82" endPosition="0" />
+    <nodeInfo nodeId="4644851485137245116" fileName="BiconnectedComponent.java" startLine="103" startPosition="63" endLine="115" endPosition="9" />
+    <nodeInfo nodeId="4644851485137246097" fileName="BiconnectedComponent.java" startLine="99" startPosition="53" endLine="118" endPosition="7" />
+    <nodeInfo nodeId="4644851485137244881" fileName="BiconnectedComponent.java" startLine="96" startPosition="0" endLine="126" endPosition="0" />
+    <scopeInfo nodeId="4644851485137244789" fileName="BiconnectedComponent.java" startLine="41" startPosition="34" endLine="42" endPosition="50" />
+    <scopeInfo nodeId="4644851485137246204" fileName="BiconnectedComponent.java" startLine="45" startPosition="51" endLine="46" endPosition="22" />
+    <scopeInfo nodeId="4644851485137246281" fileName="BiconnectedComponent.java" startLine="49" startPosition="31" endLine="50" endPosition="19" />
+    <scopeInfo nodeId="4644851485137246297" fileName="BiconnectedComponent.java" startLine="54" startPosition="60" endLine="55" endPosition="55" />
+    <scopeInfo nodeId="4644851485137246314" fileName="BiconnectedComponent.java" startLine="56" startPosition="12" endLine="57" endPosition="57" />
+    <scopeInfo nodeId="4644851485137251854" fileName="BiconnectedComponent.java" startLine="77" startPosition="118" endLine="78" endPosition="27" />
+    <scopeInfo nodeId="4644851485137245117" fileName="BiconnectedComponent.java" startLine="104" startPosition="33" endLine="105" endPosition="34" />
+    <scopeInfo nodeId="4644851485137246106" fileName="BiconnectedComponent.java" startLine="116" startPosition="14" endLine="117" endPosition="32" />
+    <scopeInfo nodeId="4644851485137246177" fileName="BiconnectedComponent.java" startLine="121" startPosition="66" endLine="122" endPosition="41" />
+    <scopeInfo nodeId="4644851485137244751" fileName="BiconnectedComponent.java" startLine="31" startPosition="71" endLine="33" endPosition="58" />
+    <scopeInfo nodeId="4644851485137244770" fileName="BiconnectedComponent.java" startLine="36" startPosition="71" endLine="38" endPosition="56" />
+    <scopeInfo nodeId="4644851485137246884" fileName="BiconnectedComponent.java" startLine="64" startPosition="77" endLine="66" endPosition="52" />
+    <scopeInfo nodeId="4644851485137244693" fileName="BiconnectedComponent.java" startLine="87" startPosition="67" endLine="89" endPosition="18" />
+    <scopeInfo nodeId="4644851485137250771" fileName="BiconnectedComponent.java" startLine="92" startPosition="68" endLine="94" endPosition="76" />
+    <scopeInfo nodeId="4644851485137246074" fileName="BiconnectedComponent.java" startLine="111" startPosition="16" endLine="114" endPosition="54" />
+    <scopeInfo nodeId="4644851485137244716" fileName="BiconnectedComponent.java" startLine="24" startPosition="33" endLine="28" endPosition="81" />
+    <scopeInfo nodeId="4644851485137244786" fileName="BiconnectedComponent.java" startLine="40" startPosition="0" endLine="44" endPosition="0">
+      <varInfo nodeId="4644851485137244795" varName="node" />
+    </scopeInfo>
+    <scopeInfo nodeId="4644851485137246201" fileName="BiconnectedComponent.java" startLine="44" startPosition="0" endLine="48" endPosition="0" />
+    <scopeInfo nodeId="4644851485137246278" fileName="BiconnectedComponent.java" startLine="48" startPosition="0" endLine="52" endPosition="0" />
+    <scopeInfo nodeId="4644851485137246881" fileName="BiconnectedComponent.java" startLine="63" startPosition="127" endLine="67" endPosition="5" />
+    <scopeInfo nodeId="4644851485137244690" fileName="BiconnectedComponent.java" startLine="86" startPosition="0" endLine="90" endPosition="5">
+      <varInfo nodeId="4644851485137244925" varName="num" />
+      <varInfo nodeId="4644851485137244919" varName="low" />
+    </scopeInfo>
+    <scopeInfo nodeId="4644851485137245984" fileName="BiconnectedComponent.java" startLine="106" startPosition="41" endLine="110" endPosition="56" />
+    <scopeInfo nodeId="4644851485137246163" fileName="BiconnectedComponent.java" startLine="119" startPosition="64" endLine="123" endPosition="9">
+      <varInfo nodeId="4644851485137246165" varName="next" />
+    </scopeInfo>
+    <scopeInfo nodeId="4644851485137244748" fileName="BiconnectedComponent.java" startLine="30" startPosition="0" endLine="35" endPosition="0">
+      <varInfo nodeId="4644851485137244765" varName="node" />
+      <varInfo nodeId="4644851485137244763" varName="component" />
+    </scopeInfo>
+    <scopeInfo nodeId="4644851485137244767" fileName="BiconnectedComponent.java" startLine="35" startPosition="0" endLine="40" endPosition="0">
+      <varInfo nodeId="4644851485137244784" varName="edge" />
+      <varInfo nodeId="4644851485137244782" varName="component" />
+    </scopeInfo>
+    <scopeInfo nodeId="4644851485137246291" fileName="BiconnectedComponent.java" startLine="53" startPosition="59" endLine="58" endPosition="5" />
+    <scopeInfo nodeId="4644851485137250766" fileName="BiconnectedComponent.java" startLine="91" startPosition="0" endLine="96" endPosition="0">
+      <varInfo nodeId="4644851485137250769" varName="graph" />
+      <varInfo nodeId="4644851485137250786" varName="component" />
+    </scopeInfo>
+    <scopeInfo nodeId="4644851485137244713" fileName="BiconnectedComponent.java" startLine="23" startPosition="0" endLine="29" endPosition="3" />
+    <scopeInfo nodeId="4644851485137246158" fileName="BiconnectedComponent.java" startLine="118" startPosition="7" endLine="124" endPosition="7" />
+    <scopeInfo nodeId="4644851485137246837" fileName="BiconnectedComponent.java" startLine="61" startPosition="41" endLine="68" endPosition="30">
+      <varInfo nodeId="4644851485137246845" varName="builder" />
+    </scopeInfo>
+    <scopeInfo nodeId="4644851485137246288" fileName="BiconnectedComponent.java" startLine="52" startPosition="0" endLine="60" endPosition="0">
+      <varInfo nodeId="4644851485137246293" varName="child" />
+    </scopeInfo>
+    <scopeInfo nodeId="4644851485137240290" fileName="BiconnectedComponent.java" startLine="71" startPosition="62" endLine="80" endPosition="16">
+      <varInfo nodeId="4644851485137240833" varName="tree" />
+      <varInfo nodeId="4644851485137251895" varName="treeCandidate" />
+      <varInfo nodeId="4644851485137240298" varName="components" />
+    </scopeInfo>
+    <scopeInfo nodeId="4644851485137246834" fileName="BiconnectedComponent.java" startLine="60" startPosition="0" endLine="70" endPosition="0">
+      <varInfo nodeId="4644851485137246839" varName="prefix" />
+    </scopeInfo>
+    <scopeInfo nodeId="4644851485137240287" fileName="BiconnectedComponent.java" startLine="70" startPosition="0" endLine="82" endPosition="0">
+      <varInfo nodeId="4644851485137240293" varName="graph" />
+    </scopeInfo>
+    <scopeInfo nodeId="4644851485137246099" fileName="BiconnectedComponent.java" startLine="100" startPosition="25" endLine="115" endPosition="9">
+      <varInfo nodeId="4644851485137246063" varName="source" />
+      <varInfo nodeId="4644851485137246003" varName="lowNum" />
+      <varInfo nodeId="4644851485137246012" varName="sourceNum" />
+    </scopeInfo>
+    <scopeInfo nodeId="4644851485137244884" fileName="BiconnectedComponent.java" startLine="97" startPosition="76" endLine="124" endPosition="7">
+      <varInfo nodeId="4644851485137245998" varName="nextComponent" />
+    </scopeInfo>
+    <scopeInfo nodeId="4644851485137244881" fileName="BiconnectedComponent.java" startLine="96" startPosition="0" endLine="126" endPosition="0">
+      <varInfo nodeId="4644851485137244885" varName="node" />
+      <varInfo nodeId="4644851485137244887" varName="component" />
+      <varInfo nodeId="4644851485137244994" varName="from" />
+    </scopeInfo>
+    <unitInfo nodeId="4644851485137244688" fileName="BiconnectedComponent.java" startLine="83" startPosition="0" endLine="127" endPosition="0" unitName="jetbrains.mps.graphLayout.algorithms.BiconnectedComponent$TreeMaker" />
+    <unitInfo nodeId="3720762119843889432" fileName="BiconnectedComponent.java" startLine="18" startPosition="0" endLine="128" endPosition="0" unitName="jetbrains.mps.graphLayout.algorithms.BiconnectedComponent" />
+  </root>
+  <root nodeId="3720762119843889438">
+    <nodeInfo nodeId="3720762119843889890" fileName="BiconnectedComponents.java" startLine="13" startPosition="48" endLine="14" endPosition="32" />
+    <nodeInfo nodeId="3720762119843889895" fileName="BiconnectedComponents.java" startLine="14" startPosition="32" endLine="15" endPosition="35" />
+    <nodeInfo nodeId="3720762119843889900" fileName="BiconnectedComponents.java" startLine="15" startPosition="35" endLine="16" endPosition="23" />
+    <nodeInfo nodeId="4644851485137240401" fileName="BiconnectedComponents.java" startLine="22" startPosition="34" endLine="23" endPosition="37" />
+    <nodeInfo nodeId="4644851485137240408" fileName="BiconnectedComponents.java" startLine="23" startPosition="37" endLine="24" endPosition="40" />
+    <nodeInfo nodeId="4644851485137240415" fileName="BiconnectedComponents.java" startLine="24" startPosition="40" endLine="25" endPosition="37" />
+    <nodeInfo nodeId="4644851485137240419" fileName="BiconnectedComponents.java" startLine="25" startPosition="37" endLine="26" endPosition="17" />
+    <nodeInfo nodeId="4644851485137240423" fileName="BiconnectedComponents.java" startLine="26" startPosition="17" endLine="27" endPosition="63" />
+    <nodeInfo nodeId="3720762119843889916" fileName="BiconnectedComponents.java" startLine="30" startPosition="60" endLine="31" endPosition="37" />
+    <nodeInfo nodeId="3720762119843889923" fileName="BiconnectedComponents.java" startLine="31" startPosition="37" endLine="32" endPosition="40" />
+    <nodeInfo nodeId="3720762119843889930" fileName="BiconnectedComponents.java" startLine="32" startPosition="40" endLine="33" endPosition="37" />
+    <nodeInfo nodeId="3720762119843889934" fileName="BiconnectedComponents.java" startLine="33" startPosition="37" endLine="34" endPosition="59" />
+    <nodeInfo nodeId="3720762119843889940" fileName="BiconnectedComponents.java" startLine="34" startPosition="59" endLine="35" endPosition="51" />
+    <nodeInfo nodeId="3720762119843889946" fileName="BiconnectedComponents.java" startLine="35" startPosition="51" endLine="36" endPosition="46" />
+    <nodeInfo nodeId="3720762119843889952" fileName="BiconnectedComponents.java" startLine="36" startPosition="46" endLine="37" endPosition="17" />
+    <nodeInfo nodeId="3720762119843889956" fileName="BiconnectedComponents.java" startLine="37" startPosition="17" endLine="38" endPosition="44" />
+    <nodeInfo nodeId="3720762119843889983" fileName="BiconnectedComponents.java" startLine="42" startPosition="51" endLine="43" endPosition="53" />
+    <nodeInfo nodeId="3720762119843889990" fileName="BiconnectedComponents.java" startLine="43" startPosition="53" endLine="44" endPosition="47" />
+    <nodeInfo nodeId="3720762119843890005" fileName="BiconnectedComponents.java" startLine="48" startPosition="54" endLine="49" endPosition="41" />
+    <nodeInfo nodeId="3720762119843890014" fileName="BiconnectedComponents.java" startLine="50" startPosition="65" endLine="51" endPosition="30" />
+    <nodeInfo nodeId="3720762119843890033" fileName="BiconnectedComponents.java" startLine="57" startPosition="23" endLine="58" endPosition="41" />
+    <nodeInfo nodeId="3720762119843890040" fileName="BiconnectedComponents.java" startLine="58" startPosition="41" endLine="59" endPosition="60" />
+    <nodeInfo nodeId="3720762119843890051" fileName="BiconnectedComponents.java" startLine="63" startPosition="50" endLine="64" endPosition="55" />
+    <nodeInfo nodeId="3720762119843890066" fileName="BiconnectedComponents.java" startLine="65" startPosition="90" endLine="66" endPosition="51" />
+    <nodeInfo nodeId="3720762119843890082" fileName="BiconnectedComponents.java" startLine="70" startPosition="35" endLine="71" endPosition="22" />
+    <nodeInfo nodeId="3720762119843890092" fileName="BiconnectedComponents.java" startLine="74" startPosition="38" endLine="75" endPosition="22" />
+    <nodeInfo nodeId="3720762119843889440" fileName="BiconnectedComponents.java" startLine="17" startPosition="0" endLine="19" endPosition="3" />
+    <nodeInfo nodeId="3720762119843890012" fileName="BiconnectedComponents.java" startLine="49" startPosition="41" endLine="52" endPosition="5" />
+    <nodeInfo nodeId="3720762119843890057" fileName="BiconnectedComponents.java" startLine="64" startPosition="55" endLine="67" endPosition="5" />
+    <nodeInfo nodeId="4644851485137250270" fileName="BiconnectedComponents.java" startLine="56" startPosition="52" endLine="60" endPosition="5" />
+    <nodeInfo nodeId="3720762119843890076" fileName="BiconnectedComponents.java" startLine="69" startPosition="0" endLine="73" endPosition="0" />
+    <nodeInfo nodeId="3720762119843890086" fileName="BiconnectedComponents.java" startLine="73" startPosition="0" endLine="77" endPosition="0" />
+    <nodeInfo nodeId="3720762119843889975" fileName="BiconnectedComponents.java" startLine="40" startPosition="0" endLine="46" endPosition="0" />
+    <nodeInfo nodeId="3720762119843890047" fileName="BiconnectedComponents.java" startLine="62" startPosition="0" endLine="69" endPosition="0" />
+    <nodeInfo nodeId="3720762119843889997" fileName="BiconnectedComponents.java" startLine="46" startPosition="0" endLine="54" endPosition="0" />
+    <nodeInfo nodeId="3720762119843890025" fileName="BiconnectedComponents.java" startLine="54" startPosition="0" endLine="62" endPosition="0" />
+    <nodeInfo nodeId="4644851485137240395" fileName="BiconnectedComponents.java" startLine="20" startPosition="0" endLine="29" endPosition="0" />
+    <nodeInfo nodeId="3720762119843889906" fileName="BiconnectedComponents.java" startLine="29" startPosition="0" endLine="40" endPosition="0" />
+    <scopeInfo nodeId="3720762119843889443" fileName="BiconnectedComponents.java" startLine="18" startPosition="34" endLine="18" endPosition="34" />
+    <scopeInfo nodeId="3720762119843890013" fileName="BiconnectedComponents.java" startLine="50" startPosition="65" endLine="51" endPosition="30" />
+    <scopeInfo nodeId="3720762119843890065" fileName="BiconnectedComponents.java" startLine="65" startPosition="90" endLine="66" endPosition="51" />
+    <scopeInfo nodeId="3720762119843890081" fileName="BiconnectedComponents.java" startLine="70" startPosition="35" endLine="71" endPosition="22" />
+    <scopeInfo nodeId="3720762119843890091" fileName="BiconnectedComponents.java" startLine="74" startPosition="38" endLine="75" endPosition="22" />
+    <scopeInfo nodeId="3720762119843889440" fileName="BiconnectedComponents.java" startLine="17" startPosition="0" endLine="19" endPosition="3" />
+    <scopeInfo nodeId="3720762119843889982" fileName="BiconnectedComponents.java" startLine="42" startPosition="51" endLine="44" endPosition="47" />
+    <scopeInfo nodeId="4644851485137250272" fileName="BiconnectedComponents.java" startLine="57" startPosition="23" endLine="59" endPosition="60">
+      <varInfo nodeId="3720762119843890034" varName="prev" />
+    </scopeInfo>
+    <scopeInfo nodeId="3720762119843890004" fileName="BiconnectedComponents.java" startLine="48" startPosition="54" endLine="52" endPosition="5">
+      <varInfo nodeId="3720762119843890006" varName="next" />
+    </scopeInfo>
+    <scopeInfo nodeId="3720762119843890032" fileName="BiconnectedComponents.java" startLine="56" startPosition="52" endLine="60" endPosition="5" />
+    <scopeInfo nodeId="3720762119843890050" fileName="BiconnectedComponents.java" startLine="63" startPosition="50" endLine="67" endPosition="5">
+      <varInfo nodeId="3720762119843890052" varName="oldLow" />
+    </scopeInfo>
+    <scopeInfo nodeId="3720762119843890076" fileName="BiconnectedComponents.java" startLine="69" startPosition="0" endLine="73" endPosition="0" />
+    <scopeInfo nodeId="3720762119843890086" fileName="BiconnectedComponents.java" startLine="73" startPosition="0" endLine="77" endPosition="0" />
+    <scopeInfo nodeId="4644851485137240400" fileName="BiconnectedComponents.java" startLine="22" startPosition="34" endLine="27" endPosition="63" />
+    <scopeInfo nodeId="3720762119843889975" fileName="BiconnectedComponents.java" startLine="40" startPosition="0" endLine="46" endPosition="0">
+      <varInfo nodeId="3720762119843889978" varName="node" />
+      <varInfo nodeId="3720762119843889980" varName="from" />
+    </scopeInfo>
+    <scopeInfo nodeId="3720762119843890047" fileName="BiconnectedComponents.java" startLine="62" startPosition="0" endLine="69" endPosition="0">
+      <varInfo nodeId="3720762119843890072" varName="node" />
+      <varInfo nodeId="3720762119843890074" varName="newLow" />
+    </scopeInfo>
+    <scopeInfo nodeId="3720762119843889915" fileName="BiconnectedComponents.java" startLine="30" startPosition="60" endLine="38" endPosition="44" />
+    <scopeInfo nodeId="3720762119843889997" fileName="BiconnectedComponents.java" startLine="46" startPosition="0" endLine="54" endPosition="0">
+      <varInfo nodeId="3720762119843890000" varName="edge" />
+      <varInfo nodeId="3720762119843890002" varName="source" />
+    </scopeInfo>
+    <scopeInfo nodeId="3720762119843890025" fileName="BiconnectedComponents.java" startLine="54" startPosition="0" endLine="62" endPosition="0">
+      <varInfo nodeId="3720762119843890028" varName="node" />
+      <varInfo nodeId="3720762119843890030" varName="from" />
+    </scopeInfo>
+    <scopeInfo nodeId="4644851485137240395" fileName="BiconnectedComponents.java" startLine="20" startPosition="0" endLine="29" endPosition="0">
+      <varInfo nodeId="4644851485137240398" varName="graph" />
+    </scopeInfo>
+    <scopeInfo nodeId="3720762119843889906" fileName="BiconnectedComponents.java" startLine="29" startPosition="0" endLine="40" endPosition="0">
+      <varInfo nodeId="3720762119843889913" varName="stEdge" />
+      <varInfo nodeId="3720762119843889909" varName="graph" />
+      <varInfo nodeId="3720762119843889911" varName="source" />
+    </scopeInfo>
+    <unitInfo nodeId="3720762119843889438" fileName="BiconnectedComponents.java" startLine="13" startPosition="0" endLine="78" endPosition="0" unitName="jetbrains.mps.graphLayout.algorithms.BiconnectedComponents" />
   </root>
   <root nodeId="4179389957059009260">
+    <nodeInfo nodeId="1418350014056290860" fileName="ShortestPath.java" startLine="21" startPosition="40" endLine="22" endPosition="20" />
     <nodeInfo nodeId="4179389957059012257" fileName="ShortestPath.java" startLine="27" startPosition="171" endLine="28" endPosition="58" />
     <nodeInfo nodeId="4179389957059012272" fileName="ShortestPath.java" startLine="28" startPosition="58" endLine="29" endPosition="52" />
     <nodeInfo nodeId="4179389957059012287" fileName="ShortestPath.java" startLine="29" startPosition="52" endLine="30" endPosition="72" />
@@ -267,8 +463,8 @@
     <nodeInfo nodeId="4519409331094618582" fileName="Dfs.java" startLine="14" startPosition="31" endLine="15" endPosition="31" />
     <nodeInfo nodeId="4519409331094618588" fileName="Dfs.java" startLine="15" startPosition="31" endLine="16" endPosition="30" />
     <nodeInfo nodeId="4660430665333277279" fileName="Dfs.java" startLine="17" startPosition="0" endLine="18" endPosition="24" />
-    <nodeInfo nodeId="4660430665333277292" fileName="Dfs.java" startLine="18" startPosition="24" endLine="19" endPosition="40" />
-    <nodeInfo nodeId="1646208389854254566" fileName="Dfs.java" startLine="19" startPosition="40" endLine="20" endPosition="37" />
+    <nodeInfo nodeId="4660430665333277292" fileName="Dfs.java" startLine="18" startPosition="24" endLine="19" endPosition="42" />
+    <nodeInfo nodeId="1646208389854254566" fileName="Dfs.java" startLine="19" startPosition="42" endLine="20" endPosition="37" />
     <nodeInfo nodeId="1646208389854254837" fileName="Dfs.java" startLine="25" startPosition="34" endLine="26" endPosition="39" />
     <nodeInfo nodeId="1654665216152485570" fileName="Dfs.java" startLine="29" startPosition="60" endLine="30" endPosition="32" />
     <nodeInfo nodeId="4519409331094803431" fileName="Dfs.java" startLine="32" startPosition="64" endLine="33" endPosition="25" />
@@ -285,6 +481,7 @@
     <nodeInfo nodeId="4660430665333277484" fileName="Dfs.java" startLine="56" startPosition="68" endLine="57" endPosition="28" />
     <nodeInfo nodeId="4660430665333277488" fileName="Dfs.java" startLine="60" startPosition="5" endLine="61" endPosition="28" />
     <nodeInfo nodeId="4660430665333277394" fileName="Dfs.java" startLine="61" startPosition="28" endLine="62" endPosition="53" />
+    <nodeInfo nodeId="4660430665333277458" fileName="Dfs.java" startLine="80" startPosition="46" endLine="81" endPosition="27" />
     <nodeInfo nodeId="6074874003310498464" fileName="Dfs.java" startLine="84" startPosition="27" endLine="85" endPosition="19" />
     <nodeInfo nodeId="4660430665333277273" fileName="Dfs.java" startLine="21" startPosition="0" endLine="23" endPosition="3" />
     <nodeInfo nodeId="1654665216152485559" fileName="Dfs.java" startLine="43" startPosition="28" endLine="46" endPosition="5" />
@@ -456,6 +653,7 @@
     <nodeInfo nodeId="5213231752900660207" fileName="ConnectivityComponents.java" startLine="29" startPosition="30" endLine="30" endPosition="46" />
     <nodeInfo nodeId="5213231752900660245" fileName="ConnectivityComponents.java" startLine="34" startPosition="37" endLine="35" endPosition="27" />
     <nodeInfo nodeId="5213231752900660264" fileName="ConnectivityComponents.java" startLine="39" startPosition="53" endLine="40" endPosition="70" />
+    <nodeInfo nodeId="5213231752900665227" fileName="ConnectivityComponents.java" startLine="43" startPosition="47" endLine="44" endPosition="31" />
     <nodeInfo nodeId="5213231752900660174" fileName="ConnectivityComponents.java" startLine="22" startPosition="0" endLine="24" endPosition="5" />
     <nodeInfo nodeId="5213231752900665221" fileName="ConnectivityComponents.java" startLine="42" startPosition="0" endLine="46" endPosition="0" />
     <nodeInfo nodeId="5213231752900660238" fileName="ConnectivityComponents.java" startLine="32" startPosition="0" endLine="37" endPosition="0" />
@@ -507,7 +705,7 @@
     <nodeInfo nodeId="6074874003310495340" fileName="BiconnectAugmentation.java" startLine="48" startPosition="53" endLine="49" endPosition="55" />
     <nodeInfo nodeId="6074874003310495347" fileName="BiconnectAugmentation.java" startLine="49" startPosition="55" endLine="50" endPosition="49" />
     <nodeInfo nodeId="6074874003310495362" fileName="BiconnectAugmentation.java" startLine="54" startPosition="56" endLine="55" endPosition="43" />
-    <nodeInfo nodeId="6074874003310495371" fileName="BiconnectAugmentation.java" startLine="56" startPosition="88" endLine="57" endPosition="32" />
+    <nodeInfo nodeId="6074874003310495371" fileName="BiconnectAugmentation.java" startLine="56" startPosition="71" endLine="57" endPosition="32" />
     <nodeInfo nodeId="6074874003310495389" fileName="BiconnectAugmentation.java" startLine="63" startPosition="25" endLine="64" endPosition="43" />
     <nodeInfo nodeId="6074874003310498546" fileName="BiconnectAugmentation.java" startLine="66" startPosition="34" endLine="67" endPosition="28" />
     <nodeInfo nodeId="6074874003310498589" fileName="BiconnectAugmentation.java" startLine="68" startPosition="11" endLine="69" endPosition="63" />
@@ -535,7 +733,7 @@
     <scopeInfo nodeId="6074874003310495273" fileName="BiconnectAugmentation.java" startLine="29" startPosition="20" endLine="29" endPosition="20" />
     <scopeInfo nodeId="5213231752900665932" fileName="BiconnectAugmentation.java" startLine="17" startPosition="56" endLine="18" endPosition="113" />
     <scopeInfo nodeId="6074874003310498621" fileName="BiconnectAugmentation.java" startLine="41" startPosition="61" endLine="42" endPosition="74" />
-    <scopeInfo nodeId="6074874003310495370" fileName="BiconnectAugmentation.java" startLine="56" startPosition="88" endLine="57" endPosition="32" />
+    <scopeInfo nodeId="6074874003310495370" fileName="BiconnectAugmentation.java" startLine="56" startPosition="71" endLine="57" endPosition="32" />
     <scopeInfo nodeId="6074874003310498538" fileName="BiconnectAugmentation.java" startLine="66" startPosition="34" endLine="67" endPosition="28" />
     <scopeInfo nodeId="6074874003310495425" fileName="BiconnectAugmentation.java" startLine="78" startPosition="92" endLine="79" endPosition="53" />
     <scopeInfo nodeId="6074874003310495270" fileName="BiconnectAugmentation.java" startLine="28" startPosition="0" endLine="30" endPosition="5" />

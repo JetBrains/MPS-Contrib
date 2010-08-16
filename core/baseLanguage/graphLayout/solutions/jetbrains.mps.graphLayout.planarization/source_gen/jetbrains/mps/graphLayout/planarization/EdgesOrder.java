@@ -38,14 +38,6 @@ public class EdgesOrder {
     return this.reverseIfNeed(edges);
   }
 
-  public void setInEdgesOrder(Node node, List<Edge> edges) {
-    MapSequence.fromMap(myInEdgesMap).put(node, edges);
-  }
-
-  public void setOutEdgesOrder(Node node, List<Edge> edges) {
-    MapSequence.fromMap(myOutEdgesMap).put(node, edges);
-  }
-
   public void reverse() {
     myReversed = !(myReversed);
   }
@@ -60,10 +52,6 @@ public class EdgesOrder {
     return builder.toString();
   }
 
-  public Node getFirstNode() {
-    return SetSequence.fromSet(getNodes()).first();
-  }
-
   public Set<Node> getNodes() {
     return MapSequence.fromMap(myInEdgesMap).keySet();
   }
@@ -73,7 +61,6 @@ public class EdgesOrder {
       checkNode(node);
       ListSequence.fromList(MapSequence.fromMap(myInEdgesMap).get(node)).addSequence(ListSequence.fromList(order.getInEdgesOrder(node)));
       ListSequence.fromList(MapSequence.fromMap(myOutEdgesMap).get(node)).addSequence(ListSequence.fromList(order.getOutEdgesOrder(node)));
-
     }
   }
 

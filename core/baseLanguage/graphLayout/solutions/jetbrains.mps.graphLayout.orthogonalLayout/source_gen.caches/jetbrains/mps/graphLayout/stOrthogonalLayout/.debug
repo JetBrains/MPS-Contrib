@@ -702,7 +702,7 @@
     <nodeInfo nodeId="903391227141137541" fileName="RectOrthogonalLayouter.java" startLine="121" startPosition="89" endLine="122" endPosition="49" />
     <nodeInfo nodeId="6494745554568960882" fileName="RectOrthogonalLayouter.java" startLine="122" startPosition="49" endLine="123" endPosition="68" />
     <nodeInfo nodeId="903391227141137555" fileName="RectOrthogonalLayouter.java" startLine="124" startPosition="6" endLine="125" endPosition="121" />
-    <nodeInfo nodeId="860462848750218288" fileName="RectOrthogonalLayouter.java" startLine="126" startPosition="6" endLine="127" endPosition="114" />
+    <nodeInfo nodeId="860462848750218288" fileName="RectOrthogonalLayouter.java" startLine="126" startPosition="6" endLine="127" endPosition="107" />
     <nodeInfo nodeId="1400338595887567660" fileName="RectOrthogonalLayouter.java" startLine="129" startPosition="64" endLine="130" endPosition="88" />
     <nodeInfo nodeId="1177671074986683268" fileName="RectOrthogonalLayouter.java" startLine="132" startPosition="5" endLine="133" endPosition="92" />
     <nodeInfo nodeId="8680836410351596187" fileName="RectOrthogonalLayouter.java" startLine="133" startPosition="92" endLine="134" endPosition="66" />
@@ -878,7 +878,7 @@
     <nodeInfo nodeId="903391227141169014" fileName="RectOrthogonalLayouter.java" startLine="353" startPosition="12" endLine="355" endPosition="7" />
     <nodeInfo nodeId="903391227141137428" fileName="RectOrthogonalLayouter.java" startLine="54" startPosition="25" endLine="57" endPosition="5" />
     <nodeInfo nodeId="8680836410351742910" fileName="RectOrthogonalLayouter.java" startLine="101" startPosition="102" endLine="104" endPosition="7" />
-    <nodeInfo nodeId="5709109565604315350" fileName="RectOrthogonalLayouter.java" startLine="123" startPosition="68" endLine="126" endPosition="6" />
+    <nodeInfo nodeId="3495542515823120720" fileName="RectOrthogonalLayouter.java" startLine="123" startPosition="68" endLine="126" endPosition="6" />
     <nodeInfo nodeId="903391227141137876" fileName="RectOrthogonalLayouter.java" startLine="128" startPosition="63" endLine="131" endPosition="7" />
     <nodeInfo nodeId="1177671074986683296" fileName="RectOrthogonalLayouter.java" startLine="137" startPosition="37" endLine="140" endPosition="7" />
     <nodeInfo nodeId="490728924230506897" fileName="RectOrthogonalLayouter.java" startLine="152" startPosition="63" endLine="155" endPosition="7" />
@@ -914,7 +914,7 @@
     <nodeInfo nodeId="903391227141137458" fileName="RectOrthogonalLayouter.java" startLine="63" startPosition="116" endLine="68" endPosition="5" />
     <nodeInfo nodeId="8680836410351735982" fileName="RectOrthogonalLayouter.java" startLine="79" startPosition="80" endLine="84" endPosition="7" />
     <nodeInfo nodeId="6160477238666742486" fileName="RectOrthogonalLayouter.java" startLine="105" startPosition="5" endLine="110" endPosition="5" />
-    <nodeInfo nodeId="903391227141137866" fileName="RectOrthogonalLayouter.java" startLine="127" startPosition="114" endLine="132" endPosition="5" />
+    <nodeInfo nodeId="903391227141137866" fileName="RectOrthogonalLayouter.java" startLine="127" startPosition="107" endLine="132" endPosition="5" />
     <nodeInfo nodeId="490728924230506887" fileName="RectOrthogonalLayouter.java" startLine="151" startPosition="5" endLine="156" endPosition="5" />
     <nodeInfo nodeId="6160477238666605265" fileName="RectOrthogonalLayouter.java" startLine="189" startPosition="26" endLine="194" endPosition="9" />
     <nodeInfo nodeId="6160477238666605339" fileName="RectOrthogonalLayouter.java" startLine="196" startPosition="26" endLine="201" endPosition="9" />
@@ -1058,7 +1058,7 @@
     <scopeInfo nodeId="5639900666367311151" fileName="RectOrthogonalLayouter.java" startLine="99" startPosition="63" endLine="104" endPosition="7">
       <varInfo nodeId="8680836410351702432" varName="subgraphLayout" />
     </scopeInfo>
-    <scopeInfo nodeId="903391227141137866" fileName="RectOrthogonalLayouter.java" startLine="127" startPosition="114" endLine="132" endPosition="5" />
+    <scopeInfo nodeId="903391227141137866" fileName="RectOrthogonalLayouter.java" startLine="127" startPosition="107" endLine="132" endPosition="5" />
     <scopeInfo nodeId="490728924230506887" fileName="RectOrthogonalLayouter.java" startLine="151" startPosition="5" endLine="156" endPosition="5" />
     <scopeInfo nodeId="8680836410351596224" fileName="RectOrthogonalLayouter.java" startLine="311" startPosition="58" endLine="316" endPosition="52">
       <varInfo nodeId="8680836410351696122" varName="height" />

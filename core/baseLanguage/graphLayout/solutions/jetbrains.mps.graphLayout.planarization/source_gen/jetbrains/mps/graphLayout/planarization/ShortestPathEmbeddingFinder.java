@@ -17,6 +17,8 @@ import java.util.ArrayList;
 import jetbrains.mps.graphLayout.algorithms.ShortestPath;
 
 public class ShortestPathEmbeddingFinder implements IEmbeddingFinder {
+  private static int SHOW_LOG = 1;
+
   private IEmbeddingFinder myInitialFinder;
 
   public ShortestPathEmbeddingFinder(IEmbeddingFinder initialFinder) {
@@ -25,11 +27,19 @@ public class ShortestPathEmbeddingFinder implements IEmbeddingFinder {
 
   public EmbeddedGraph find(Graph graph) {
     final EmbeddedGraph embeddedGraph = myInitialFinder.find(graph);
+    if (SHOW_LOG > 0) {
+      System.out.println("initial embedding: ");
+      System.out.println(embeddedGraph);
+    }
     List<Edge> toAdd = ListSequence.fromList(graph.getEdges()).where(new IWhereFilter<Edge>() {
       public boolean accept(Edge it) {
         return !(MapSequence.fromMap(embeddedGraph.getAdjacentFacesMap()).containsKey(it));
       }
     }).toListSequence();
+    if (SHOW_LOG > 0) {
+      System.out.println("edges to add: ");
+      System.out.println(toAdd);
+    }
     for (Edge edge : ListSequence.fromList(toAdd)) {
       edge.removeFromGraph();
     }

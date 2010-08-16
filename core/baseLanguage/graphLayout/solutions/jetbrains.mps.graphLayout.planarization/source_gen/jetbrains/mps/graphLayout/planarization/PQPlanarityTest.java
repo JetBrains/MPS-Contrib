@@ -6,89 +6,108 @@ import java.util.Map;
 import jetbrains.mps.graphLayout.graph.Node;
 import java.util.List;
 import jetbrains.mps.graphLayout.graph.Edge;
-import jetbrains.mps.graphLayout.planarGraph.EmbeddedGraph;
+import java.util.Set;
 import jetbrains.mps.graphLayout.graph.Graph;
 import jetbrains.mps.graphLayout.util.NodeMap;
+import jetbrains.mps.internal.collections.runtime.SetSequence;
+import java.util.HashSet;
 import jetbrains.mps.internal.collections.runtime.ListSequence;
 import jetbrains.mps.internal.collections.runtime.MapSequence;
-import jetbrains.mps.internal.collections.runtime.backports.LinkedList;
+import java.util.ArrayList;
+import jetbrains.mps.graphLayout.planarGraph.EmbeddedGraph;
 import java.util.Arrays;
 import jetbrains.mps.graphLayout.planarGraph.Face;
 import java.util.Iterator;
-import java.util.Set;
-import jetbrains.mps.internal.collections.runtime.SetSequence;
+import jetbrains.mps.graphLayout.planarGraph.Dart;
+import jetbrains.mps.internal.collections.runtime.backports.LinkedList;
 
 public class PQPlanarityTest {
-  private static int SHOW_LOG = 0;
+  private static int SHOW_LOG = 1;
 
-  private Map<Node, List<Edge>> myInEdgeOrder;
+  private PQTree myTree;
+  private Map<Node, List<Edge>> myEdgesOrder;
 
   public PQPlanarityTest() {
   }
 
-  public EmbeddedGraph testPlanarity(Graph graph, Map<Node, Integer> stNumbering) {
+  public Set<Edge> removeEdgesToPlanarity(Graph graph, Map<Node, Integer> stNumbering) {
+    myEdgesOrder = new NodeMap<List<Edge>>(graph);
+    Set<Edge> removed = SetSequence.fromSet(new HashSet<Edge>());
     if (SHOW_LOG > 0) {
       System.out.println("GRAPH!!! " + graph);
       System.out.println(stNumbering);
     }
-    myInEdgeOrder = new NodeMap<List<Edge>>(graph);
     Node[] nodeOrder = new Node[graph.getNumNodes()];
     for (Node node : ListSequence.fromList(graph.getNodes())) {
       nodeOrder[MapSequence.fromMap(stNumbering).get(node)] = node;
     }
-    PQTree graphTree = new PQTree();
+    myTree = new PQTree();
     PQNode curPQNode = new PNode(nodeOrder[0], null);
-    graphTree.setRoot(curPQNode);
+    myTree.setRoot(curPQNode);
     for (int i = 0; i < nodeOrder.length - 1; i++) {
       Node curGraphNode = nodeOrder[i];
-      // add leaves for edges starting from current graph node 
       for (Edge edge : ListSequence.fromList(curGraphNode.getOutEdges())) {
         PNode node = new PNode(edge.getTarget(), edge);
         curPQNode.addLastChild(node);
       }
       Node nextGraphNode = nodeOrder[i + 1];
       if (SHOW_LOG > 0) {
-        System.out.println(graphTree);
+        System.out.println(myTree);
         System.out.println("next node is: " + nextGraphNode);
       }
-      if (i < nodeOrder.length - 1) {
-        curPQNode = graphTree.modifyTree(nextGraphNode);
+      curPQNode = myTree.modifyTree(nextGraphNode);
+      PQNode parent = curPQNode.getParent();
+      List<Edge> remainingEdges;
+      if (parent instanceof QNode) {
+        remainingEdges = ((QNode) parent).getEdgesOrder().getInEdgesOrder(nextGraphNode);
       } else {
-        MapSequence.fromMap(myInEdgeOrder).put(nextGraphNode, ListSequence.fromList(new LinkedList<Edge>()));
-        getLastEdgeOrder(graphTree.getRoot(), MapSequence.fromMap(myInEdgeOrder).get(nextGraphNode));
+        remainingEdges = ListSequence.fromListAndArray(new ArrayList<Edge>(), ((PNode) curPQNode).getEdge());
       }
+      Set<Edge> allInEdges = SetSequence.fromSet(new HashSet<Edge>());
+      SetSequence.fromSet(allInEdges).addSequence(ListSequence.fromList(nextGraphNode.getEdges(Edge.Direction.BACK)));
+      SetSequence.fromSet(allInEdges).removeSequence(ListSequence.fromList(remainingEdges));
+      SetSequence.fromSet(removed).addSequence(SetSequence.fromSet(allInEdges));
     }
-    EdgesOrder order = ((QNode) ListSequence.fromList(graphTree.getRoot().getChildren()).first()).getEdgesOrder();
-    if (PQPlanarityTest.SHOW_LOG > 0) {
-      System.out.println(graphTree);
+    EdgesOrder order = ((QNode) ListSequence.fromList(myTree.getRoot().getChildren()).first()).getEdgesOrder();
+    for (Node node : ListSequence.fromList(graph.getNodes())) {
+      MapSequence.fromMap(myEdgesOrder).put(node, order.getInEdgesOrder(node));
+    }
+    if (SHOW_LOG > 0) {
+      System.out.println(myTree);
       for (int i = nodeOrder.length - 1; i >= 0; i--) {
         Node node = nodeOrder[i];
         System.out.print("node " + node + ":");
         System.out.print(" in edges: " + order.getInEdgesOrder(node));
         System.out.println(" out edges: " + order.getOutEdgesOrder(node));
       }
+      System.out.println("removed edges: ");
+      System.out.println(removed);
     }
-    EmbeddedGraph embeddedGraph = createEmbeddedGraph(graph, order, Arrays.asList(nodeOrder));
-    if (PQPlanarityTest.SHOW_LOG > 0) {
-      System.out.println(embeddedGraph);
-      System.out.println("bad edges:");
-      for (Edge edge : ListSequence.fromList(graph.getEdges())) {
-        if (!(MapSequence.fromMap(embeddedGraph.getAdjacentFacesMap()).containsKey(edge))) {
-          System.out.println(edge);
-        }
-      }
-    }
-    return embeddedGraph;
+    return removed;
   }
 
-  public void getLastEdgeOrder(PQNode node, List<Edge> edgeList) {
-    if (ListSequence.fromList(node.getChildren()).count() == 0) {
-      ListSequence.fromList(edgeList).addElement(((PNode) node).getEdge());
-    } else {
-      for (PQNode child : ListSequence.fromList(node.getChildren())) {
-        getLastEdgeOrder(child, edgeList);
-      }
+  public EmbeddedGraph getEmbedding(Graph graph, Map<Node, Integer> stNumbering) {
+    if (SHOW_LOG > 0) {
+      System.out.println("CONSTRUCTING THE EMBEDDING!!!");
     }
+    Set<Edge> edges = removeEdgesToPlanarity(graph, stNumbering);
+    if (SetSequence.fromSet(edges).count() > 0) {
+      throw new RuntimeException("trying to get embedding of nonplanar graph!!!" + edges);
+    }
+    EdgesOrder order = ((QNode) ListSequence.fromList(myTree.getRoot().getChildren()).first()).getEdgesOrder();
+    Node[] nodeOrder = new Node[graph.getNumNodes()];
+    for (Node node : ListSequence.fromList(graph.getNodes())) {
+      nodeOrder[MapSequence.fromMap(stNumbering).get(node)] = node;
+    }
+    EmbeddedGraph embeddedGraph;
+    /*
+      embeddedGraph = createEmbeddedGraph(graph, order, Arrays.asList(nodeOrder));
+    */
+    embeddedGraph = createEmbeddedGraphFromInEdges(graph, Arrays.asList(nodeOrder));
+    if (SHOW_LOG > 0) {
+      System.out.println(embeddedGraph);
+    }
+    return embeddedGraph;
   }
 
   public EmbeddedGraph createEmbeddedGraph(Graph graph, EdgesOrder order, List<Node> nodeOrder) {
@@ -102,19 +121,89 @@ public class PQPlanarityTest {
       // last edge should not be processed 
       while (edgeItr.hasNext()) {
         Edge edge = edgeItr.next();
-        embeddedGraph.addFace(order.findFace(graph, node, edge, true));
+        if (edgeItr.hasNext()) {
+          embeddedGraph.addFace(order.findFace(graph, node, edge, true));
+        }
       }
     }
     return embeddedGraph;
   }
 
-  public void findAddedComponent(Node node, Set<Node> res, Set<Node> added, Map<Node, List<Edge>> edgeOrder) {
-    if (SetSequence.fromSet(added).contains(node)) {
-      SetSequence.fromSet(res).addElement(node);
-    } else {
-      for (Edge edge : ListSequence.fromList(MapSequence.fromMap(edgeOrder).get(node))) {
-        findAddedComponent(edge.getSource(), res, added, edgeOrder);
+  public EmbeddedGraph createEmbeddedGraphFromInEdges(Graph graph, List<Node> nodeOrder) {
+    if (SHOW_LOG > 0) {
+      System.out.println("-------------------------");
+      System.out.println(myEdgesOrder);
+    }
+    Set<Node> addedNodes = SetSequence.fromSet(new HashSet<Node>());
+    Set<Edge> addedEdges = SetSequence.fromSet(new HashSet<Edge>());
+    EmbeddedGraph embeddedGraph = new EmbeddedGraph(graph);
+    Face outerFace = new Face(graph);
+    Face innerFace = new Face(graph);
+    Node first = ListSequence.fromList(nodeOrder).first();
+    Node last = ListSequence.fromList(nodeOrder).last();
+    Node cur = last;
+    while (cur != first) {
+      SetSequence.fromSet(addedNodes).addElement(cur);
+      Edge curEdge = ListSequence.fromList(MapSequence.fromMap(myEdgesOrder).get(cur)).first();
+      Node next = curEdge.getOpposite(cur);
+      outerFace.addFirst(new Dart(curEdge, next));
+      innerFace.addLast(new Dart(curEdge, cur));
+      SetSequence.fromSet(addedEdges).addElement(curEdge);
+      cur = next;
+    }
+    SetSequence.fromSet(addedNodes).addElement(first);
+    cur = last;
+    while (cur != first) {
+      SetSequence.fromSet(addedNodes).addElement(cur);
+      Edge curEdge = ListSequence.fromList(MapSequence.fromMap(myEdgesOrder).get(cur)).last();
+      Node next = curEdge.getOpposite(cur);
+      outerFace.addLast(new Dart(curEdge, cur));
+      innerFace.addFirst(new Dart(curEdge, next));
+      SetSequence.fromSet(addedEdges).addElement(curEdge);
+      cur = next;
+    }
+    embeddedGraph.addFace(outerFace);
+    embeddedGraph.setOuterFace(outerFace);
+    embeddedGraph.addFace(innerFace);
+    if (SHOW_LOG > 0) {
+      System.out.println(embeddedGraph);
+    }
+    for (Node node : ListSequence.fromList(nodeOrder).reversedList()) {
+      Edge prev = null;
+      for (Edge edge : ListSequence.fromList(MapSequence.fromMap(myEdgesOrder).get(node))) {
+        if (SetSequence.fromSet(addedEdges).contains(edge)) {
+          prev = edge;
+          continue;
+        }
+        List<Edge> path = ListSequence.fromList(new LinkedList<Edge>());
+        ListSequence.fromList(path).addElement(edge);
+        cur = edge.getSource();
+        while (!(SetSequence.fromSet(addedNodes).contains(cur))) {
+          SetSequence.fromSet(addedNodes).addElement(cur);
+          Edge nextEdge = ListSequence.fromList(MapSequence.fromMap(myEdgesOrder).get(cur)).first();
+          ListSequence.fromList(path).insertElement(0, nextEdge);
+          cur = nextEdge.getSource();
+        }
+        if (SHOW_LOG > 0) {
+          System.out.println("adding path: " + path);
+        }
+        Face containingFace;
+        if (edge == ListSequence.fromList(MapSequence.fromMap(myEdgesOrder).get(node)).first()) {
+          containingFace = embeddedGraph.getFaceToTheLeft(ListSequence.fromList(MapSequence.fromMap(myEdgesOrder).get(node)).last());
+        } else {
+          containingFace = embeddedGraph.getFaceToTheRight(prev);
+        }
+        if (SHOW_LOG > 0) {
+          System.out.println("to face: " + containingFace);
+        }
+        embeddedGraph.splitFace(containingFace, path, ListSequence.fromList(path).first().getSource(), node);
+        SetSequence.fromSet(addedEdges).addSequence(ListSequence.fromList(path));
+        prev = edge;
+        if (SHOW_LOG > 0) {
+          System.out.println(embeddedGraph);
+        }
       }
     }
+    return embeddedGraph;
   }
 }

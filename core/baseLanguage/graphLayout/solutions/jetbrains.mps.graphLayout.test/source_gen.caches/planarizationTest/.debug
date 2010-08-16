@@ -1,31 +1,37 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <debugInfo>
   <root nodeId="1123934034178616897">
-    <nodeInfo nodeId="1123934034178616946" fileName="CheckEmbeddedGraph.java" startLine="16" startPosition="85" endLine="17" endPosition="21" />
-    <nodeInfo nodeId="1123934034178616952" fileName="CheckEmbeddedGraph.java" startLine="19" startPosition="5" endLine="20" endPosition="16" />
-    <nodeInfo nodeId="3619822174190276483" fileName="CheckEmbeddedGraph.java" startLine="23" startPosition="70" endLine="24" endPosition="38" />
-    <nodeInfo nodeId="3619822174190276497" fileName="CheckEmbeddedGraph.java" startLine="26" startPosition="37" endLine="27" endPosition="56" />
-    <nodeInfo nodeId="1123934034178616920" fileName="CheckEmbeddedGraph.java" startLine="15" startPosition="126" endLine="18" endPosition="7" />
-    <nodeInfo nodeId="3619822174190276492" fileName="CheckEmbeddedGraph.java" startLine="25" startPosition="71" endLine="28" endPosition="7" />
-    <nodeInfo nodeId="1123934034178616910" fileName="CheckEmbeddedGraph.java" startLine="14" startPosition="73" endLine="19" endPosition="5" />
-    <nodeInfo nodeId="3619822174190276486" fileName="CheckEmbeddedGraph.java" startLine="24" startPosition="38" endLine="29" endPosition="5" />
-    <nodeInfo nodeId="1123934034178616903" fileName="CheckEmbeddedGraph.java" startLine="13" startPosition="33" endLine="22" endPosition="0" />
-    <nodeInfo nodeId="3619822174190276479" fileName="CheckEmbeddedGraph.java" startLine="22" startPosition="0" endLine="31" endPosition="0" />
-    <scopeInfo nodeId="1123934034178616922" fileName="CheckEmbeddedGraph.java" startLine="16" startPosition="85" endLine="17" endPosition="21" />
-    <scopeInfo nodeId="3619822174190276496" fileName="CheckEmbeddedGraph.java" startLine="26" startPosition="37" endLine="27" endPosition="56" />
-    <scopeInfo nodeId="1123934034178616913" fileName="CheckEmbeddedGraph.java" startLine="15" startPosition="126" endLine="18" endPosition="7" />
-    <scopeInfo nodeId="3619822174190276491" fileName="CheckEmbeddedGraph.java" startLine="25" startPosition="71" endLine="28" endPosition="7" />
-    <scopeInfo nodeId="1123934034178616910" fileName="CheckEmbeddedGraph.java" startLine="14" startPosition="73" endLine="19" endPosition="5" />
-    <scopeInfo nodeId="3619822174190276486" fileName="CheckEmbeddedGraph.java" startLine="24" startPosition="38" endLine="29" endPosition="5" />
-    <scopeInfo nodeId="1123934034178616906" fileName="CheckEmbeddedGraph.java" startLine="14" startPosition="73" endLine="20" endPosition="16" />
-    <scopeInfo nodeId="3619822174190276482" fileName="CheckEmbeddedGraph.java" startLine="23" startPosition="70" endLine="29" endPosition="5" />
-    <scopeInfo nodeId="1123934034178616903" fileName="CheckEmbeddedGraph.java" startLine="13" startPosition="33" endLine="22" endPosition="0">
+    <nodeInfo nodeId="1123934034178616946" fileName="CheckEmbeddedGraph.java" startLine="18" startPosition="85" endLine="19" endPosition="21" />
+    <nodeInfo nodeId="1123934034178616952" fileName="CheckEmbeddedGraph.java" startLine="21" startPosition="5" endLine="22" endPosition="16" />
+    <nodeInfo nodeId="3619822174190276483" fileName="CheckEmbeddedGraph.java" startLine="25" startPosition="70" endLine="26" endPosition="38" />
+    <nodeInfo nodeId="3619822174190276497" fileName="CheckEmbeddedGraph.java" startLine="28" startPosition="91" endLine="29" endPosition="56" />
+    <nodeInfo nodeId="6191740939834535624" fileName="CheckEmbeddedGraph.java" startLine="33" startPosition="115" endLine="34" endPosition="84" />
+    <nodeInfo nodeId="1123934034178616920" fileName="CheckEmbeddedGraph.java" startLine="17" startPosition="126" endLine="20" endPosition="7" />
+    <nodeInfo nodeId="3619822174190276492" fileName="CheckEmbeddedGraph.java" startLine="27" startPosition="71" endLine="30" endPosition="7" />
+    <nodeInfo nodeId="6191740939834535602" fileName="CheckEmbeddedGraph.java" startLine="32" startPosition="110" endLine="35" endPosition="7" />
+    <nodeInfo nodeId="1123934034178616910" fileName="CheckEmbeddedGraph.java" startLine="16" startPosition="73" endLine="21" endPosition="5" />
+    <nodeInfo nodeId="3619822174190276486" fileName="CheckEmbeddedGraph.java" startLine="26" startPosition="38" endLine="31" endPosition="5" />
+    <nodeInfo nodeId="6191740939834535587" fileName="CheckEmbeddedGraph.java" startLine="31" startPosition="5" endLine="36" endPosition="5" />
+    <nodeInfo nodeId="1123934034178616903" fileName="CheckEmbeddedGraph.java" startLine="15" startPosition="33" endLine="24" endPosition="0" />
+    <nodeInfo nodeId="3619822174190276479" fileName="CheckEmbeddedGraph.java" startLine="24" startPosition="0" endLine="38" endPosition="0" />
+    <scopeInfo nodeId="1123934034178616922" fileName="CheckEmbeddedGraph.java" startLine="18" startPosition="85" endLine="19" endPosition="21" />
+    <scopeInfo nodeId="3619822174190276496" fileName="CheckEmbeddedGraph.java" startLine="28" startPosition="91" endLine="29" endPosition="56" />
+    <scopeInfo nodeId="6191740939834535604" fileName="CheckEmbeddedGraph.java" startLine="33" startPosition="115" endLine="34" endPosition="84" />
+    <scopeInfo nodeId="1123934034178616913" fileName="CheckEmbeddedGraph.java" startLine="17" startPosition="126" endLine="20" endPosition="7" />
+    <scopeInfo nodeId="3619822174190276491" fileName="CheckEmbeddedGraph.java" startLine="27" startPosition="71" endLine="30" endPosition="7" />
+    <scopeInfo nodeId="6191740939834535590" fileName="CheckEmbeddedGraph.java" startLine="32" startPosition="110" endLine="35" endPosition="7" />
+    <scopeInfo nodeId="1123934034178616910" fileName="CheckEmbeddedGraph.java" startLine="16" startPosition="73" endLine="21" endPosition="5" />
+    <scopeInfo nodeId="3619822174190276486" fileName="CheckEmbeddedGraph.java" startLine="26" startPosition="38" endLine="31" endPosition="5" />
+    <scopeInfo nodeId="6191740939834535587" fileName="CheckEmbeddedGraph.java" startLine="31" startPosition="5" endLine="36" endPosition="5" />
+    <scopeInfo nodeId="1123934034178616906" fileName="CheckEmbeddedGraph.java" startLine="16" startPosition="73" endLine="22" endPosition="16" />
+    <scopeInfo nodeId="1123934034178616903" fileName="CheckEmbeddedGraph.java" startLine="15" startPosition="33" endLine="24" endPosition="0">
       <varInfo nodeId="1123934034178616908" varName="embeddedGraph" />
     </scopeInfo>
-    <scopeInfo nodeId="3619822174190276479" fileName="CheckEmbeddedGraph.java" startLine="22" startPosition="0" endLine="31" endPosition="0">
+    <scopeInfo nodeId="3619822174190276482" fileName="CheckEmbeddedGraph.java" startLine="25" startPosition="70" endLine="36" endPosition="5" />
+    <scopeInfo nodeId="3619822174190276479" fileName="CheckEmbeddedGraph.java" startLine="24" startPosition="0" endLine="38" endPosition="0">
       <varInfo nodeId="3619822174190276503" varName="embeddedGraph" />
     </scopeInfo>
-    <unitInfo nodeId="1123934034178616897" fileName="CheckEmbeddedGraph.java" startLine="13" startPosition="0" endLine="32" endPosition="0" unitName="planarizationTest.CheckEmbeddedGraph" />
+    <unitInfo nodeId="1123934034178616897" fileName="CheckEmbeddedGraph.java" startLine="15" startPosition="0" endLine="39" endPosition="0" unitName="planarizationTest.CheckEmbeddedGraph" />
   </root>
   <root nodeId="1327612371813215595">
     <nodeInfo nodeId="1327612371813215648" fileName="BiconnectedInitialEmbeddingFinder_Test.java" startLine="14" startPosition="45" endLine="15" endPosition="48" />
@@ -208,88 +214,181 @@
     </scopeInfo>
   </root>
   <root nodeId="4267939112872666223">
-    <nodeInfo nodeId="4267939112872666233" fileName="StressTestPQ.java" startLine="27" startPosition="59" endLine="28" endPosition="47" />
-    <nodeInfo nodeId="4267939112872666242" fileName="StressTestPQ.java" startLine="28" startPosition="47" endLine="29" endPosition="45" />
-    <nodeInfo nodeId="4267939112872666249" fileName="StressTestPQ.java" startLine="29" startPosition="45" endLine="30" endPosition="45" />
-    <nodeInfo nodeId="4267939112872666256" fileName="StressTestPQ.java" startLine="30" startPosition="45" endLine="31" endPosition="44" />
-    <nodeInfo nodeId="4267939112872670874" fileName="StressTestPQ.java" startLine="31" startPosition="44" endLine="32" endPosition="65" />
-    <nodeInfo nodeId="4267939112872666265" fileName="StressTestPQ.java" startLine="33" startPosition="48" endLine="34" endPosition="47" />
-    <nodeInfo nodeId="4267939112872666272" fileName="StressTestPQ.java" startLine="34" startPosition="47" endLine="35" endPosition="76" />
-    <nodeInfo nodeId="4267939112872678545" fileName="StressTestPQ.java" startLine="35" startPosition="76" endLine="36" endPosition="82" />
-    <nodeInfo nodeId="4267939112872678556" fileName="StressTestPQ.java" startLine="36" startPosition="82" endLine="37" endPosition="41" />
-    <nodeInfo nodeId="4267939112872678583" fileName="StressTestPQ.java" startLine="37" startPosition="41" endLine="38" endPosition="79" />
-    <nodeInfo nodeId="4267939112872678599" fileName="StressTestPQ.java" startLine="40" startPosition="61" endLine="41" endPosition="75" />
-    <nodeInfo nodeId="4267939112872682253" fileName="StressTestPQ.java" startLine="45" startPosition="73" endLine="46" endPosition="123" />
-    <nodeInfo nodeId="4267939112872682997" fileName="StressTestPQ.java" startLine="49" startPosition="45" endLine="50" endPosition="42" />
-    <nodeInfo nodeId="4267939112872683006" fileName="StressTestPQ.java" startLine="50" startPosition="42" endLine="51" endPosition="17" />
-    <nodeInfo nodeId="4267939112872677869" fileName="StressTestPQ.java" startLine="52" startPosition="7" endLine="53" endPosition="60" />
-    <nodeInfo nodeId="5709109565604318166" fileName="StressTestPQ.java" startLine="54" startPosition="11" endLine="55" endPosition="66" />
-    <nodeInfo nodeId="5709109565604318309" fileName="StressTestPQ.java" startLine="55" startPosition="66" endLine="56" endPosition="61" />
-    <nodeInfo nodeId="6282206171011646384" fileName="StressTestPQ.java" startLine="56" startPosition="61" endLine="57" endPosition="106" />
-    <nodeInfo nodeId="5709109565604318179" fileName="StressTestPQ.java" startLine="58" startPosition="29" endLine="59" endPosition="54" />
-    <nodeInfo nodeId="5709109565604318190" fileName="StressTestPQ.java" startLine="59" startPosition="54" endLine="60" endPosition="41" />
-    <nodeInfo nodeId="5709109565604318197" fileName="StressTestPQ.java" startLine="60" startPosition="41" endLine="61" endPosition="65" />
-    <nodeInfo nodeId="5709109565604318221" fileName="StressTestPQ.java" startLine="61" startPosition="65" endLine="62" endPosition="69" />
-    <nodeInfo nodeId="5709109565604318228" fileName="StressTestPQ.java" startLine="63" startPosition="58" endLine="64" endPosition="73" />
-    <nodeInfo nodeId="5709109565604318254" fileName="StressTestPQ.java" startLine="66" startPosition="76" endLine="67" endPosition="123" />
-    <nodeInfo nodeId="5709109565604318283" fileName="StressTestPQ.java" startLine="68" startPosition="9" endLine="69" endPosition="52" />
-    <nodeInfo nodeId="5709109565604318289" fileName="StressTestPQ.java" startLine="69" startPosition="52" endLine="70" endPosition="46" />
-    <nodeInfo nodeId="5709109565604318293" fileName="StressTestPQ.java" startLine="70" startPosition="46" endLine="71" endPosition="20" />
-    <nodeInfo nodeId="5709109565604318300" fileName="StressTestPQ.java" startLine="71" startPosition="20" endLine="72" endPosition="30" />
-    <nodeInfo nodeId="5709109565604318174" fileName="StressTestPQ.java" startLine="72" startPosition="30" endLine="73" endPosition="23" />
-    <nodeInfo nodeId="4267939112872666355" fileName="StressTestPQ.java" startLine="75" startPosition="5" endLine="76" endPosition="31" />
-    <nodeInfo nodeId="4267939112872666225" fileName="StressTestPQ.java" startLine="23" startPosition="27" endLine="25" endPosition="3" />
-    <nodeInfo nodeId="4267939112872678574" fileName="StressTestPQ.java" startLine="39" startPosition="65" endLine="42" endPosition="9" />
-    <nodeInfo nodeId="4267939112872678625" fileName="StressTestPQ.java" startLine="44" startPosition="65" endLine="47" endPosition="9" />
-    <nodeInfo nodeId="5709109565604318207" fileName="StressTestPQ.java" startLine="62" startPosition="69" endLine="65" endPosition="9" />
-    <nodeInfo nodeId="5709109565604318244" fileName="StressTestPQ.java" startLine="65" startPosition="9" endLine="68" endPosition="9" />
-    <nodeInfo nodeId="4267939112872682983" fileName="StressTestPQ.java" startLine="48" startPosition="7" endLine="52" endPosition="7" />
-    <nodeInfo nodeId="4267939112872678564" fileName="StressTestPQ.java" startLine="38" startPosition="79" endLine="43" endPosition="7" />
-    <nodeInfo nodeId="4267939112872678615" fileName="StressTestPQ.java" startLine="43" startPosition="7" endLine="48" endPosition="7" />
-    <nodeInfo nodeId="5709109565604318159" fileName="StressTestPQ.java" startLine="53" startPosition="60" endLine="74" endPosition="7" />
-    <nodeInfo nodeId="4267939112872666263" fileName="StressTestPQ.java" startLine="32" startPosition="65" endLine="75" endPosition="5" />
-    <nodeInfo nodeId="4267939112872666229" fileName="StressTestPQ.java" startLine="26" startPosition="0" endLine="78" endPosition="0" />
-    <scopeInfo nodeId="4267939112872666228" fileName="StressTestPQ.java" startLine="24" startPosition="25" endLine="24" endPosition="25" />
-    <scopeInfo nodeId="4267939112872678576" fileName="StressTestPQ.java" startLine="40" startPosition="61" endLine="41" endPosition="75" />
-    <scopeInfo nodeId="4267939112872678627" fileName="StressTestPQ.java" startLine="45" startPosition="73" endLine="46" endPosition="123" />
-    <scopeInfo nodeId="5709109565604318210" fileName="StressTestPQ.java" startLine="63" startPosition="58" endLine="64" endPosition="73" />
-    <scopeInfo nodeId="5709109565604318247" fileName="StressTestPQ.java" startLine="66" startPosition="76" endLine="67" endPosition="123" />
-    <scopeInfo nodeId="4267939112872666225" fileName="StressTestPQ.java" startLine="23" startPosition="27" endLine="25" endPosition="3" />
-    <scopeInfo nodeId="4267939112872682984" fileName="StressTestPQ.java" startLine="49" startPosition="45" endLine="51" endPosition="17" />
-    <scopeInfo nodeId="4267939112872678567" fileName="StressTestPQ.java" startLine="39" startPosition="65" endLine="42" endPosition="9" />
-    <scopeInfo nodeId="4267939112872678618" fileName="StressTestPQ.java" startLine="44" startPosition="65" endLine="47" endPosition="9" />
-    <scopeInfo nodeId="5709109565604318160" fileName="StressTestPQ.java" startLine="54" startPosition="11" endLine="57" endPosition="106">
+    <nodeInfo nodeId="4267939112872666233" fileName="StressTestPQ.java" startLine="28" startPosition="59" endLine="29" endPosition="47" />
+    <nodeInfo nodeId="4267939112872666242" fileName="StressTestPQ.java" startLine="29" startPosition="47" endLine="30" endPosition="45" />
+    <nodeInfo nodeId="4267939112872666249" fileName="StressTestPQ.java" startLine="30" startPosition="45" endLine="31" endPosition="45" />
+    <nodeInfo nodeId="4267939112872666256" fileName="StressTestPQ.java" startLine="31" startPosition="45" endLine="32" endPosition="44" />
+    <nodeInfo nodeId="4267939112872670874" fileName="StressTestPQ.java" startLine="32" startPosition="44" endLine="33" endPosition="28" />
+    <nodeInfo nodeId="3720762119843725901" fileName="StressTestPQ.java" startLine="33" startPosition="28" endLine="34" endPosition="48" />
+    <nodeInfo nodeId="3720762119843725906" fileName="StressTestPQ.java" startLine="35" startPosition="6" endLine="36" endPosition="83" />
+    <nodeInfo nodeId="4267939112872666265" fileName="StressTestPQ.java" startLine="38" startPosition="48" endLine="39" endPosition="47" />
+    <nodeInfo nodeId="4267939112872666272" fileName="StressTestPQ.java" startLine="39" startPosition="47" endLine="40" endPosition="76" />
+    <nodeInfo nodeId="4267939112872678545" fileName="StressTestPQ.java" startLine="40" startPosition="76" endLine="41" endPosition="82" />
+    <nodeInfo nodeId="4267939112872678556" fileName="StressTestPQ.java" startLine="41" startPosition="82" endLine="42" endPosition="41" />
+    <nodeInfo nodeId="4267939112872678583" fileName="StressTestPQ.java" startLine="42" startPosition="41" endLine="43" endPosition="79" />
+    <nodeInfo nodeId="4267939112872678599" fileName="StressTestPQ.java" startLine="45" startPosition="61" endLine="46" endPosition="75" />
+    <nodeInfo nodeId="4267939112872682253" fileName="StressTestPQ.java" startLine="50" startPosition="73" endLine="51" endPosition="123" />
+    <nodeInfo nodeId="4267939112872682997" fileName="StressTestPQ.java" startLine="54" startPosition="45" endLine="55" endPosition="42" />
+    <nodeInfo nodeId="4267939112872683006" fileName="StressTestPQ.java" startLine="55" startPosition="42" endLine="56" endPosition="17" />
+    <nodeInfo nodeId="4267939112872677869" fileName="StressTestPQ.java" startLine="57" startPosition="7" endLine="58" endPosition="60" />
+    <nodeInfo nodeId="3720762119843727035" fileName="StressTestPQ.java" startLine="58" startPosition="60" endLine="59" endPosition="50" />
+    <nodeInfo nodeId="3720762119843727041" fileName="StressTestPQ.java" startLine="59" startPosition="50" endLine="60" endPosition="46" />
+    <nodeInfo nodeId="3720762119843727045" fileName="StressTestPQ.java" startLine="60" startPosition="46" endLine="61" endPosition="18" />
+    <nodeInfo nodeId="5709109565604318166" fileName="StressTestPQ.java" startLine="62" startPosition="11" endLine="63" endPosition="66" />
+    <nodeInfo nodeId="5709109565604318309" fileName="StressTestPQ.java" startLine="63" startPosition="66" endLine="64" endPosition="61" />
+    <nodeInfo nodeId="6282206171011646384" fileName="StressTestPQ.java" startLine="64" startPosition="61" endLine="65" endPosition="106" />
+    <nodeInfo nodeId="5709109565604318179" fileName="StressTestPQ.java" startLine="66" startPosition="29" endLine="67" endPosition="54" />
+    <nodeInfo nodeId="5709109565604318190" fileName="StressTestPQ.java" startLine="67" startPosition="54" endLine="68" endPosition="41" />
+    <nodeInfo nodeId="5709109565604318197" fileName="StressTestPQ.java" startLine="68" startPosition="41" endLine="69" endPosition="65" />
+    <nodeInfo nodeId="5709109565604318221" fileName="StressTestPQ.java" startLine="69" startPosition="65" endLine="70" endPosition="69" />
+    <nodeInfo nodeId="5709109565604318228" fileName="StressTestPQ.java" startLine="71" startPosition="58" endLine="72" endPosition="73" />
+    <nodeInfo nodeId="5709109565604318254" fileName="StressTestPQ.java" startLine="74" startPosition="76" endLine="75" endPosition="123" />
+    <nodeInfo nodeId="5709109565604318283" fileName="StressTestPQ.java" startLine="77" startPosition="10" endLine="78" endPosition="54" />
+    <nodeInfo nodeId="5709109565604318289" fileName="StressTestPQ.java" startLine="78" startPosition="54" endLine="79" endPosition="48" />
+    <nodeInfo nodeId="5709109565604318293" fileName="StressTestPQ.java" startLine="79" startPosition="48" endLine="80" endPosition="22" />
+    <nodeInfo nodeId="5709109565604318300" fileName="StressTestPQ.java" startLine="81" startPosition="10" endLine="82" endPosition="30" />
+    <nodeInfo nodeId="5709109565604318174" fileName="StressTestPQ.java" startLine="82" startPosition="30" endLine="83" endPosition="23" />
+    <nodeInfo nodeId="4267939112872666355" fileName="StressTestPQ.java" startLine="85" startPosition="5" endLine="86" endPosition="31" />
+    <nodeInfo nodeId="4267939112872666225" fileName="StressTestPQ.java" startLine="24" startPosition="27" endLine="26" endPosition="3" />
+    <nodeInfo nodeId="4644851485137259900" fileName="StressTestPQ.java" startLine="34" startPosition="48" endLine="37" endPosition="6" />
+    <nodeInfo nodeId="4267939112872678574" fileName="StressTestPQ.java" startLine="44" startPosition="65" endLine="47" endPosition="9" />
+    <nodeInfo nodeId="4267939112872678625" fileName="StressTestPQ.java" startLine="49" startPosition="65" endLine="52" endPosition="9" />
+    <nodeInfo nodeId="5709109565604318207" fileName="StressTestPQ.java" startLine="70" startPosition="69" endLine="73" endPosition="9" />
+    <nodeInfo nodeId="5709109565604318244" fileName="StressTestPQ.java" startLine="73" startPosition="9" endLine="76" endPosition="9" />
+    <nodeInfo nodeId="4267939112872682983" fileName="StressTestPQ.java" startLine="53" startPosition="7" endLine="57" endPosition="7" />
+    <nodeInfo nodeId="4267939112872678564" fileName="StressTestPQ.java" startLine="43" startPosition="79" endLine="48" endPosition="7" />
+    <nodeInfo nodeId="4267939112872678615" fileName="StressTestPQ.java" startLine="48" startPosition="7" endLine="53" endPosition="7" />
+    <nodeInfo nodeId="3720762119843727050" fileName="StressTestPQ.java" startLine="76" startPosition="9" endLine="81" endPosition="10" />
+    <nodeInfo nodeId="5709109565604318159" fileName="StressTestPQ.java" startLine="61" startPosition="18" endLine="84" endPosition="7" />
+    <nodeInfo nodeId="4267939112872666263" fileName="StressTestPQ.java" startLine="37" startPosition="6" endLine="85" endPosition="5" />
+    <nodeInfo nodeId="4267939112872666229" fileName="StressTestPQ.java" startLine="27" startPosition="0" endLine="88" endPosition="0" />
+    <scopeInfo nodeId="4267939112872666228" fileName="StressTestPQ.java" startLine="25" startPosition="25" endLine="25" endPosition="25" />
+    <scopeInfo nodeId="4267939112872678576" fileName="StressTestPQ.java" startLine="45" startPosition="61" endLine="46" endPosition="75" />
+    <scopeInfo nodeId="4267939112872678627" fileName="StressTestPQ.java" startLine="50" startPosition="73" endLine="51" endPosition="123" />
+    <scopeInfo nodeId="5709109565604318210" fileName="StressTestPQ.java" startLine="71" startPosition="58" endLine="72" endPosition="73" />
+    <scopeInfo nodeId="5709109565604318247" fileName="StressTestPQ.java" startLine="74" startPosition="76" endLine="75" endPosition="123" />
+    <scopeInfo nodeId="4267939112872666225" fileName="StressTestPQ.java" startLine="24" startPosition="27" endLine="26" endPosition="3" />
+    <scopeInfo nodeId="4267939112872682984" fileName="StressTestPQ.java" startLine="54" startPosition="45" endLine="56" endPosition="17" />
+    <scopeInfo nodeId="4267939112872678567" fileName="StressTestPQ.java" startLine="44" startPosition="65" endLine="47" endPosition="9" />
+    <scopeInfo nodeId="4267939112872678618" fileName="StressTestPQ.java" startLine="49" startPosition="65" endLine="52" endPosition="9" />
+    <scopeInfo nodeId="5709109565604318160" fileName="StressTestPQ.java" startLine="62" startPosition="11" endLine="65" endPosition="106">
       <varInfo nodeId="5709109565604318167" varName="embeddedGraph" />
     </scopeInfo>
-    <scopeInfo nodeId="5709109565604318207" fileName="StressTestPQ.java" startLine="62" startPosition="69" endLine="65" endPosition="9" />
-    <scopeInfo nodeId="5709109565604318244" fileName="StressTestPQ.java" startLine="65" startPosition="9" endLine="68" endPosition="9" />
-    <scopeInfo nodeId="4267939112872678564" fileName="StressTestPQ.java" startLine="38" startPosition="79" endLine="43" endPosition="7" />
-    <scopeInfo nodeId="4267939112872678615" fileName="StressTestPQ.java" startLine="43" startPosition="7" endLine="48" endPosition="7" />
-    <scopeInfo nodeId="5709109565604318165" fileName="StressTestPQ.java" startLine="58" startPosition="29" endLine="73" endPosition="23">
+    <scopeInfo nodeId="5709109565604318207" fileName="StressTestPQ.java" startLine="70" startPosition="69" endLine="73" endPosition="9" />
+    <scopeInfo nodeId="5709109565604318244" fileName="StressTestPQ.java" startLine="73" startPosition="9" endLine="76" endPosition="9" />
+    <scopeInfo nodeId="4267939112872678564" fileName="StressTestPQ.java" startLine="43" startPosition="79" endLine="48" endPosition="7" />
+    <scopeInfo nodeId="4267939112872678615" fileName="StressTestPQ.java" startLine="48" startPosition="7" endLine="53" endPosition="7" />
+    <scopeInfo nodeId="5709109565604318165" fileName="StressTestPQ.java" startLine="66" startPosition="29" endLine="83" endPosition="23">
       <varInfo nodeId="5709109565604318191" varName="orderedGraph" />
       <varInfo nodeId="5709109565604318222" varName="sorting" />
-      <varInfo nodeId="5709109565604318284" varName="out" />
     </scopeInfo>
-    <scopeInfo nodeId="4267939112872666264" fileName="StressTestPQ.java" startLine="33" startPosition="48" endLine="74" endPosition="7">
+    <scopeInfo nodeId="4267939112872666264" fileName="StressTestPQ.java" startLine="38" startPosition="48" endLine="84" endPosition="7">
       <varInfo nodeId="4267939112872666273" varName="graph" />
       <varInfo nodeId="4267939112872678584" varName="nodeMap" />
       <varInfo nodeId="4267939112872678557" varName="firstComponent" />
       <varInfo nodeId="4267939112872678546" varName="components" />
+      <varInfo nodeId="3720762119843727036" varName="out" />
     </scopeInfo>
-    <scopeInfo nodeId="4267939112872666263" fileName="StressTestPQ.java" startLine="32" startPosition="65" endLine="75" endPosition="5">
+    <scopeInfo nodeId="4267939112872666263" fileName="StressTestPQ.java" startLine="37" startPosition="6" endLine="85" endPosition="5">
       <varInfo nodeId="4267939112872666347" varName="iter" />
     </scopeInfo>
-    <scopeInfo nodeId="4267939112872666232" fileName="StressTestPQ.java" startLine="27" startPosition="59" endLine="76" endPosition="31">
+    <scopeInfo nodeId="4267939112872666232" fileName="StressTestPQ.java" startLine="28" startPosition="59" endLine="86" endPosition="31">
       <varInfo nodeId="4267939112872666250" varName="numEdges" />
       <varInfo nodeId="4267939112872666243" varName="numNodes" />
       <varInfo nodeId="4267939112872666234" varName="fileName" />
       <varInfo nodeId="4267939112872670875" varName="finder" />
       <varInfo nodeId="4267939112872666257" varName="numIter" />
     </scopeInfo>
-    <scopeInfo nodeId="4267939112872666229" fileName="StressTestPQ.java" startLine="26" startPosition="0" endLine="78" endPosition="0">
+    <scopeInfo nodeId="4267939112872666229" fileName="StressTestPQ.java" startLine="27" startPosition="0" endLine="88" endPosition="0">
       <varInfo nodeId="4267939112872666360" varName="args" />
     </scopeInfo>
-    <unitInfo nodeId="4267939112872666223" fileName="StressTestPQ.java" startLine="23" startPosition="0" endLine="79" endPosition="0" unitName="planarizationTest.StressTestPQ" />
+    <unitInfo nodeId="4267939112872666223" fileName="StressTestPQ.java" startLine="24" startPosition="0" endLine="89" endPosition="0" unitName="planarizationTest.StressTestPQ" />
+  </root>
+  <root nodeId="4644851485137285698">
+    <nodeInfo nodeId="4644851485137285746" fileName="PQPlanarizationFinder_Test.java" startLine="13" startPosition="45" endLine="14" endPosition="46" />
+    <nodeInfo nodeId="4644851485137285754" fileName="PQPlanarizationFinder_Test.java" startLine="14" startPosition="46" endLine="15" endPosition="62" />
+    <nodeInfo nodeId="4644851485137285766" fileName="PQPlanarizationFinder_Test.java" startLine="15" startPosition="62" endLine="16" endPosition="16" />
+    <nodeInfo nodeId="6191740939834533159" fileName="PQPlanarizationFinder_Test.java" startLine="19" startPosition="57" endLine="20" endPosition="102" />
+    <nodeInfo nodeId="6191740939834533169" fileName="PQPlanarizationFinder_Test.java" startLine="20" startPosition="102" endLine="21" endPosition="62" />
+    <nodeInfo nodeId="6191740939834533183" fileName="PQPlanarizationFinder_Test.java" startLine="21" startPosition="62" endLine="22" endPosition="16" />
+    <nodeInfo nodeId="6191740939834535095" fileName="PQPlanarizationFinder_Test.java" startLine="25" startPosition="45" endLine="26" endPosition="191" />
+    <nodeInfo nodeId="6191740939834535099" fileName="PQPlanarizationFinder_Test.java" startLine="26" startPosition="191" endLine="27" endPosition="62" />
+    <nodeInfo nodeId="6191740939834535106" fileName="PQPlanarizationFinder_Test.java" startLine="27" startPosition="62" endLine="28" endPosition="16" />
+    <nodeInfo nodeId="8327149575965772619" fileName="PQPlanarizationFinder_Test.java" startLine="31" startPosition="45" endLine="32" endPosition="139" />
+    <nodeInfo nodeId="8327149575965772623" fileName="PQPlanarizationFinder_Test.java" startLine="32" startPosition="139" endLine="33" endPosition="62" />
+    <nodeInfo nodeId="8327149575965772630" fileName="PQPlanarizationFinder_Test.java" startLine="33" startPosition="62" endLine="34" endPosition="16" />
+    <nodeInfo nodeId="8327149575965775526" fileName="PQPlanarizationFinder_Test.java" startLine="37" startPosition="53" endLine="38" endPosition="143" />
+    <nodeInfo nodeId="8327149575965775547" fileName="PQPlanarizationFinder_Test.java" startLine="38" startPosition="143" endLine="39" endPosition="62" />
+    <nodeInfo nodeId="8327149575965775530" fileName="PQPlanarizationFinder_Test.java" startLine="39" startPosition="62" endLine="40" endPosition="16" />
+    <nodeInfo nodeId="8327149575965775537" fileName="PQPlanarizationFinder_Test.java" startLine="43" startPosition="45" endLine="44" endPosition="191" />
+    <nodeInfo nodeId="8327149575965775555" fileName="PQPlanarizationFinder_Test.java" startLine="44" startPosition="191" endLine="45" endPosition="62" />
+    <nodeInfo nodeId="8327149575965775563" fileName="PQPlanarizationFinder_Test.java" startLine="45" startPosition="62" endLine="46" endPosition="16" />
+    <nodeInfo nodeId="8327149575965780775" fileName="PQPlanarizationFinder_Test.java" startLine="49" startPosition="45" endLine="50" endPosition="141" />
+    <nodeInfo nodeId="8327149575965780779" fileName="PQPlanarizationFinder_Test.java" startLine="50" startPosition="141" endLine="51" endPosition="62" />
+    <nodeInfo nodeId="8327149575965780786" fileName="PQPlanarizationFinder_Test.java" startLine="51" startPosition="62" endLine="52" endPosition="16" />
+    <nodeInfo nodeId="3495542515823048721" fileName="PQPlanarizationFinder_Test.java" startLine="55" startPosition="45" endLine="56" endPosition="193" />
+    <nodeInfo nodeId="3495542515823048725" fileName="PQPlanarizationFinder_Test.java" startLine="56" startPosition="193" endLine="57" endPosition="62" />
+    <nodeInfo nodeId="3495542515823048732" fileName="PQPlanarizationFinder_Test.java" startLine="57" startPosition="62" endLine="58" endPosition="16" />
+    <nodeInfo nodeId="4644851485137285714" fileName="PQPlanarizationFinder_Test.java" startLine="61" startPosition="33" endLine="62" endPosition="63" />
+    <nodeInfo nodeId="4644851485137285723" fileName="PQPlanarizationFinder_Test.java" startLine="62" startPosition="63" endLine="63" endPosition="53" />
+    <nodeInfo nodeId="4644851485137285770" fileName="PQPlanarizationFinder_Test.java" startLine="63" startPosition="53" endLine="64" endPosition="38" />
+    <nodeInfo nodeId="4644851485137285738" fileName="PQPlanarizationFinder_Test.java" startLine="64" startPosition="38" endLine="65" endPosition="57" />
+    <nodeInfo nodeId="4644851485137285742" fileName="PQPlanarizationFinder_Test.java" startLine="12" startPosition="58" endLine="18" endPosition="0" />
+    <nodeInfo nodeId="6191740939834533155" fileName="PQPlanarizationFinder_Test.java" startLine="18" startPosition="0" endLine="24" endPosition="0" />
+    <nodeInfo nodeId="6191740939834535089" fileName="PQPlanarizationFinder_Test.java" startLine="24" startPosition="0" endLine="30" endPosition="0" />
+    <nodeInfo nodeId="8327149575965772615" fileName="PQPlanarizationFinder_Test.java" startLine="30" startPosition="0" endLine="36" endPosition="0" />
+    <nodeInfo nodeId="8327149575965775522" fileName="PQPlanarizationFinder_Test.java" startLine="36" startPosition="0" endLine="42" endPosition="0" />
+    <nodeInfo nodeId="8327149575965775533" fileName="PQPlanarizationFinder_Test.java" startLine="42" startPosition="0" endLine="48" endPosition="0" />
+    <nodeInfo nodeId="8327149575965780768" fileName="PQPlanarizationFinder_Test.java" startLine="48" startPosition="0" endLine="54" endPosition="0" />
+    <nodeInfo nodeId="3495542515823048717" fileName="PQPlanarizationFinder_Test.java" startLine="54" startPosition="0" endLine="60" endPosition="0" />
+    <nodeInfo nodeId="4644851485137285705" fileName="PQPlanarizationFinder_Test.java" startLine="60" startPosition="0" endLine="67" endPosition="0" />
+    <scopeInfo nodeId="4644851485137285745" fileName="PQPlanarizationFinder_Test.java" startLine="13" startPosition="45" endLine="16" endPosition="16">
+      <varInfo nodeId="4644851485137285747" varName="graphString" />
+      <varInfo nodeId="4644851485137285755" varName="graph" />
+    </scopeInfo>
+    <scopeInfo nodeId="6191740939834533158" fileName="PQPlanarizationFinder_Test.java" startLine="19" startPosition="57" endLine="22" endPosition="16">
+      <varInfo nodeId="6191740939834533160" varName="graphString" />
+      <varInfo nodeId="6191740939834533170" varName="graph" />
+    </scopeInfo>
+    <scopeInfo nodeId="6191740939834535092" fileName="PQPlanarizationFinder_Test.java" startLine="25" startPosition="45" endLine="28" endPosition="16">
+      <varInfo nodeId="6191740939834535096" varName="graphString" />
+      <varInfo nodeId="6191740939834535100" varName="graph" />
+    </scopeInfo>
+    <scopeInfo nodeId="8327149575965772618" fileName="PQPlanarizationFinder_Test.java" startLine="31" startPosition="45" endLine="34" endPosition="16">
+      <varInfo nodeId="8327149575965772620" varName="graphString" />
+      <varInfo nodeId="8327149575965772624" varName="graph" />
+    </scopeInfo>
+    <scopeInfo nodeId="8327149575965775525" fileName="PQPlanarizationFinder_Test.java" startLine="37" startPosition="53" endLine="40" endPosition="16">
+      <varInfo nodeId="8327149575965775527" varName="graphString" />
+      <varInfo nodeId="8327149575965775548" varName="graph" />
+    </scopeInfo>
+    <scopeInfo nodeId="8327149575965775536" fileName="PQPlanarizationFinder_Test.java" startLine="43" startPosition="45" endLine="46" endPosition="16">
+      <varInfo nodeId="8327149575965775538" varName="graphString" />
+      <varInfo nodeId="8327149575965775556" varName="graph" />
+    </scopeInfo>
+    <scopeInfo nodeId="8327149575965780774" fileName="PQPlanarizationFinder_Test.java" startLine="49" startPosition="45" endLine="52" endPosition="16">
+      <varInfo nodeId="8327149575965780776" varName="graphString" />
+      <varInfo nodeId="8327149575965780780" varName="graph" />
+    </scopeInfo>
+    <scopeInfo nodeId="3495542515823048720" fileName="PQPlanarizationFinder_Test.java" startLine="55" startPosition="45" endLine="58" endPosition="16">
+      <varInfo nodeId="3495542515823048722" varName="graphString" />
+      <varInfo nodeId="3495542515823048726" varName="graph" />
+    </scopeInfo>
+    <scopeInfo nodeId="4644851485137285711" fileName="PQPlanarizationFinder_Test.java" startLine="61" startPosition="33" endLine="65" endPosition="57">
+      <varInfo nodeId="4644851485137285724" varName="embeddedGraph" />
+      <varInfo nodeId="4644851485137285715" varName="finder" />
+    </scopeInfo>
+    <scopeInfo nodeId="4644851485137285742" fileName="PQPlanarizationFinder_Test.java" startLine="12" startPosition="58" endLine="18" endPosition="0" />
+    <scopeInfo nodeId="6191740939834533155" fileName="PQPlanarizationFinder_Test.java" startLine="18" startPosition="0" endLine="24" endPosition="0" />
+    <scopeInfo nodeId="6191740939834535089" fileName="PQPlanarizationFinder_Test.java" startLine="24" startPosition="0" endLine="30" endPosition="0" />
+    <scopeInfo nodeId="8327149575965772615" fileName="PQPlanarizationFinder_Test.java" startLine="30" startPosition="0" endLine="36" endPosition="0" />
+    <scopeInfo nodeId="8327149575965775522" fileName="PQPlanarizationFinder_Test.java" startLine="36" startPosition="0" endLine="42" endPosition="0" />
+    <scopeInfo nodeId="8327149575965775533" fileName="PQPlanarizationFinder_Test.java" startLine="42" startPosition="0" endLine="48" endPosition="0" />
+    <scopeInfo nodeId="8327149575965780768" fileName="PQPlanarizationFinder_Test.java" startLine="48" startPosition="0" endLine="54" endPosition="0" />
+    <scopeInfo nodeId="3495542515823048717" fileName="PQPlanarizationFinder_Test.java" startLine="54" startPosition="0" endLine="60" endPosition="0" />
+    <scopeInfo nodeId="4644851485137285705" fileName="PQPlanarizationFinder_Test.java" startLine="60" startPosition="0" endLine="67" endPosition="0">
+      <varInfo nodeId="4644851485137285709" varName="graph" />
+    </scopeInfo>
   </root>
   <root nodeId="516638300680467095">
     <nodeInfo nodeId="516638300680467141" fileName="PQPlanarityTest_Test.java" startLine="19" startPosition="45" endLine="20" endPosition="76" />
@@ -302,45 +401,27 @@
     <nodeInfo nodeId="5656502300472221639" fileName="PQPlanarityTest_Test.java" startLine="35" startPosition="127" endLine="36" endPosition="31" />
     <nodeInfo nodeId="5656502300472221546" fileName="PQPlanarityTest_Test.java" startLine="39" startPosition="45" endLine="40" endPosition="92" />
     <nodeInfo nodeId="5656502300472221643" fileName="PQPlanarityTest_Test.java" startLine="40" startPosition="92" endLine="41" endPosition="31" />
-    <nodeInfo nodeId="5442489283395841238" fileName="PQPlanarityTest_Test.java" startLine="44" startPosition="45" endLine="45" endPosition="82" />
-    <nodeInfo nodeId="5442489283395841242" fileName="PQPlanarityTest_Test.java" startLine="45" startPosition="82" endLine="46" endPosition="31" />
-    <nodeInfo nodeId="6541005299200788049" fileName="PQPlanarityTest_Test.java" startLine="49" startPosition="45" endLine="50" endPosition="102" />
-    <nodeInfo nodeId="6541005299200788053" fileName="PQPlanarityTest_Test.java" startLine="50" startPosition="102" endLine="51" endPosition="31" />
-    <nodeInfo nodeId="6541005299200807726" fileName="PQPlanarityTest_Test.java" startLine="54" startPosition="45" endLine="55" endPosition="117" />
-    <nodeInfo nodeId="6541005299200807730" fileName="PQPlanarityTest_Test.java" startLine="55" startPosition="117" endLine="56" endPosition="31" />
-    <nodeInfo nodeId="1941596757861099430" fileName="PQPlanarityTest_Test.java" startLine="59" startPosition="57" endLine="60" endPosition="102" />
-    <nodeInfo nodeId="1941596757861099434" fileName="PQPlanarityTest_Test.java" startLine="60" startPosition="102" endLine="61" endPosition="31" />
-    <nodeInfo nodeId="5442489283395852500" fileName="PQPlanarityTest_Test.java" startLine="64" startPosition="42" endLine="65" endPosition="107" />
-    <nodeInfo nodeId="5442489283395852795" fileName="PQPlanarityTest_Test.java" startLine="65" startPosition="107" endLine="66" endPosition="31" />
-    <nodeInfo nodeId="5442489283395852489" fileName="PQPlanarityTest_Test.java" startLine="69" startPosition="53" endLine="70" endPosition="143" />
-    <nodeInfo nodeId="5442489283395852493" fileName="PQPlanarityTest_Test.java" startLine="70" startPosition="143" endLine="71" endPosition="31" />
-    <nodeInfo nodeId="5709109565604317543" fileName="PQPlanarityTest_Test.java" startLine="74" startPosition="45" endLine="75" endPosition="191" />
-    <nodeInfo nodeId="5709109565604317549" fileName="PQPlanarityTest_Test.java" startLine="75" startPosition="191" endLine="76" endPosition="31" />
-    <nodeInfo nodeId="5639575219014565220" fileName="PQPlanarityTest_Test.java" startLine="79" startPosition="73" endLine="80" endPosition="62" />
-    <nodeInfo nodeId="5639575219014565226" fileName="PQPlanarityTest_Test.java" startLine="80" startPosition="62" endLine="81" endPosition="30" />
-    <nodeInfo nodeId="5639575219014565232" fileName="PQPlanarityTest_Test.java" startLine="81" startPosition="30" endLine="82" endPosition="30" />
-    <nodeInfo nodeId="5639575219014565238" fileName="PQPlanarityTest_Test.java" startLine="82" startPosition="30" endLine="83" endPosition="87" />
-    <nodeInfo nodeId="5656502300472221596" fileName="PQPlanarityTest_Test.java" startLine="86" startPosition="49" endLine="87" endPosition="62" />
-    <nodeInfo nodeId="5656502300472221603" fileName="PQPlanarityTest_Test.java" startLine="87" startPosition="62" endLine="88" endPosition="87" />
-    <nodeInfo nodeId="5656502300472221618" fileName="PQPlanarityTest_Test.java" startLine="89" startPosition="63" endLine="90" endPosition="66" />
-    <nodeInfo nodeId="5442489283395853087" fileName="PQPlanarityTest_Test.java" startLine="91" startPosition="5" endLine="92" endPosition="90" />
-    <nodeInfo nodeId="5442489283395853097" fileName="PQPlanarityTest_Test.java" startLine="92" startPosition="90" endLine="93" endPosition="57" />
-    <nodeInfo nodeId="5656502300472221612" fileName="PQPlanarityTest_Test.java" startLine="88" startPosition="87" endLine="91" endPosition="5" />
+    <nodeInfo nodeId="6541005299200788049" fileName="PQPlanarityTest_Test.java" startLine="44" startPosition="45" endLine="45" endPosition="102" />
+    <nodeInfo nodeId="6541005299200788053" fileName="PQPlanarityTest_Test.java" startLine="45" startPosition="102" endLine="46" endPosition="31" />
+    <nodeInfo nodeId="5639575219014565220" fileName="PQPlanarityTest_Test.java" startLine="49" startPosition="73" endLine="50" endPosition="62" />
+    <nodeInfo nodeId="5639575219014565226" fileName="PQPlanarityTest_Test.java" startLine="50" startPosition="62" endLine="51" endPosition="30" />
+    <nodeInfo nodeId="5639575219014565232" fileName="PQPlanarityTest_Test.java" startLine="51" startPosition="30" endLine="52" endPosition="30" />
+    <nodeInfo nodeId="5639575219014565238" fileName="PQPlanarityTest_Test.java" startLine="52" startPosition="30" endLine="53" endPosition="86" />
+    <nodeInfo nodeId="5656502300472221596" fileName="PQPlanarityTest_Test.java" startLine="56" startPosition="49" endLine="57" endPosition="62" />
+    <nodeInfo nodeId="5656502300472221603" fileName="PQPlanarityTest_Test.java" startLine="57" startPosition="62" endLine="58" endPosition="87" />
+    <nodeInfo nodeId="5656502300472221618" fileName="PQPlanarityTest_Test.java" startLine="59" startPosition="63" endLine="60" endPosition="66" />
+    <nodeInfo nodeId="5442489283395853087" fileName="PQPlanarityTest_Test.java" startLine="61" startPosition="5" endLine="62" endPosition="89" />
+    <nodeInfo nodeId="5442489283395853097" fileName="PQPlanarityTest_Test.java" startLine="62" startPosition="89" endLine="63" endPosition="57" />
+    <nodeInfo nodeId="5656502300472221612" fileName="PQPlanarityTest_Test.java" startLine="58" startPosition="87" endLine="61" endPosition="5" />
     <nodeInfo nodeId="516638300680467137" fileName="PQPlanarityTest_Test.java" startLine="18" startPosition="52" endLine="23" endPosition="0" />
     <nodeInfo nodeId="5639575219014565252" fileName="PQPlanarityTest_Test.java" startLine="23" startPosition="0" endLine="28" endPosition="0" />
     <nodeInfo nodeId="5639575219014582052" fileName="PQPlanarityTest_Test.java" startLine="28" startPosition="0" endLine="33" endPosition="0" />
     <nodeInfo nodeId="5656502300472220595" fileName="PQPlanarityTest_Test.java" startLine="33" startPosition="0" endLine="38" endPosition="0" />
     <nodeInfo nodeId="5656502300472221542" fileName="PQPlanarityTest_Test.java" startLine="38" startPosition="0" endLine="43" endPosition="0" />
-    <nodeInfo nodeId="5442489283395841233" fileName="PQPlanarityTest_Test.java" startLine="43" startPosition="0" endLine="48" endPosition="0" />
-    <nodeInfo nodeId="6541005299200788044" fileName="PQPlanarityTest_Test.java" startLine="48" startPosition="0" endLine="53" endPosition="0" />
-    <nodeInfo nodeId="6541005299200807721" fileName="PQPlanarityTest_Test.java" startLine="53" startPosition="0" endLine="58" endPosition="0" />
-    <nodeInfo nodeId="1941596757861099425" fileName="PQPlanarityTest_Test.java" startLine="58" startPosition="0" endLine="63" endPosition="0" />
-    <nodeInfo nodeId="5442489283395852496" fileName="PQPlanarityTest_Test.java" startLine="63" startPosition="0" endLine="68" endPosition="0" />
-    <nodeInfo nodeId="5442489283395852484" fileName="PQPlanarityTest_Test.java" startLine="68" startPosition="0" endLine="73" endPosition="0" />
-    <nodeInfo nodeId="5709109565604317539" fileName="PQPlanarityTest_Test.java" startLine="73" startPosition="0" endLine="78" endPosition="0" />
-    <nodeInfo nodeId="5639575219014565215" fileName="PQPlanarityTest_Test.java" startLine="78" startPosition="0" endLine="85" endPosition="0" />
-    <nodeInfo nodeId="5656502300472221587" fileName="PQPlanarityTest_Test.java" startLine="85" startPosition="0" endLine="95" endPosition="0" />
-    <scopeInfo nodeId="5656502300472221617" fileName="PQPlanarityTest_Test.java" startLine="89" startPosition="63" endLine="90" endPosition="66" />
+    <nodeInfo nodeId="6541005299200788044" fileName="PQPlanarityTest_Test.java" startLine="43" startPosition="0" endLine="48" endPosition="0" />
+    <nodeInfo nodeId="5639575219014565215" fileName="PQPlanarityTest_Test.java" startLine="48" startPosition="0" endLine="55" endPosition="0" />
+    <nodeInfo nodeId="5656502300472221587" fileName="PQPlanarityTest_Test.java" startLine="55" startPosition="0" endLine="65" endPosition="0" />
+    <scopeInfo nodeId="5656502300472221617" fileName="PQPlanarityTest_Test.java" startLine="59" startPosition="63" endLine="60" endPosition="66" />
     <scopeInfo nodeId="516638300680467140" fileName="PQPlanarityTest_Test.java" startLine="19" startPosition="45" endLine="21" endPosition="27">
       <varInfo nodeId="516638300680467142" varName="graphString" />
     </scopeInfo>
@@ -356,29 +437,11 @@
     <scopeInfo nodeId="5656502300472221545" fileName="PQPlanarityTest_Test.java" startLine="39" startPosition="45" endLine="41" endPosition="31">
       <varInfo nodeId="5656502300472221547" varName="graphString" />
     </scopeInfo>
-    <scopeInfo nodeId="5442489283395841236" fileName="PQPlanarityTest_Test.java" startLine="44" startPosition="45" endLine="46" endPosition="31">
-      <varInfo nodeId="5442489283395841239" varName="graphString" />
-    </scopeInfo>
-    <scopeInfo nodeId="6541005299200788047" fileName="PQPlanarityTest_Test.java" startLine="49" startPosition="45" endLine="51" endPosition="31">
+    <scopeInfo nodeId="6541005299200788047" fileName="PQPlanarityTest_Test.java" startLine="44" startPosition="45" endLine="46" endPosition="31">
       <varInfo nodeId="6541005299200788050" varName="graphString" />
     </scopeInfo>
-    <scopeInfo nodeId="6541005299200807724" fileName="PQPlanarityTest_Test.java" startLine="54" startPosition="45" endLine="56" endPosition="31">
-      <varInfo nodeId="6541005299200807727" varName="graphString" />
-    </scopeInfo>
-    <scopeInfo nodeId="1941596757861099428" fileName="PQPlanarityTest_Test.java" startLine="59" startPosition="57" endLine="61" endPosition="31">
-      <varInfo nodeId="1941596757861099431" varName="graphString" />
-    </scopeInfo>
-    <scopeInfo nodeId="5442489283395852499" fileName="PQPlanarityTest_Test.java" startLine="64" startPosition="42" endLine="66" endPosition="31">
-      <varInfo nodeId="5442489283395852501" varName="graphString" />
-    </scopeInfo>
-    <scopeInfo nodeId="5442489283395852487" fileName="PQPlanarityTest_Test.java" startLine="69" startPosition="53" endLine="71" endPosition="31">
-      <varInfo nodeId="5442489283395852490" varName="graphString" />
-    </scopeInfo>
-    <scopeInfo nodeId="5709109565604317542" fileName="PQPlanarityTest_Test.java" startLine="74" startPosition="45" endLine="76" endPosition="31">
-      <varInfo nodeId="5709109565604317544" varName="graphString" />
-    </scopeInfo>
-    <scopeInfo nodeId="5656502300472221612" fileName="PQPlanarityTest_Test.java" startLine="88" startPosition="87" endLine="91" endPosition="5" />
-    <scopeInfo nodeId="5639575219014565219" fileName="PQPlanarityTest_Test.java" startLine="79" startPosition="73" endLine="83" endPosition="87">
+    <scopeInfo nodeId="5656502300472221612" fileName="PQPlanarityTest_Test.java" startLine="58" startPosition="87" endLine="61" endPosition="5" />
+    <scopeInfo nodeId="5639575219014565219" fileName="PQPlanarityTest_Test.java" startLine="49" startPosition="73" endLine="53" endPosition="86">
       <varInfo nodeId="5639575219014565213" varName="t" />
       <varInfo nodeId="5639575219014565211" varName="graph" />
       <varInfo nodeId="5639575219014565212" varName="s" />
@@ -388,24 +451,103 @@
     <scopeInfo nodeId="5639575219014582052" fileName="PQPlanarityTest_Test.java" startLine="28" startPosition="0" endLine="33" endPosition="0" />
     <scopeInfo nodeId="5656502300472220595" fileName="PQPlanarityTest_Test.java" startLine="33" startPosition="0" endLine="38" endPosition="0" />
     <scopeInfo nodeId="5656502300472221542" fileName="PQPlanarityTest_Test.java" startLine="38" startPosition="0" endLine="43" endPosition="0" />
-    <scopeInfo nodeId="5442489283395841233" fileName="PQPlanarityTest_Test.java" startLine="43" startPosition="0" endLine="48" endPosition="0" />
-    <scopeInfo nodeId="6541005299200788044" fileName="PQPlanarityTest_Test.java" startLine="48" startPosition="0" endLine="53" endPosition="0" />
-    <scopeInfo nodeId="6541005299200807721" fileName="PQPlanarityTest_Test.java" startLine="53" startPosition="0" endLine="58" endPosition="0" />
-    <scopeInfo nodeId="1941596757861099425" fileName="PQPlanarityTest_Test.java" startLine="58" startPosition="0" endLine="63" endPosition="0" />
-    <scopeInfo nodeId="5442489283395852496" fileName="PQPlanarityTest_Test.java" startLine="63" startPosition="0" endLine="68" endPosition="0" />
-    <scopeInfo nodeId="5442489283395852484" fileName="PQPlanarityTest_Test.java" startLine="68" startPosition="0" endLine="73" endPosition="0" />
-    <scopeInfo nodeId="5709109565604317539" fileName="PQPlanarityTest_Test.java" startLine="73" startPosition="0" endLine="78" endPosition="0" />
-    <scopeInfo nodeId="5639575219014565215" fileName="PQPlanarityTest_Test.java" startLine="78" startPosition="0" endLine="85" endPosition="0">
+    <scopeInfo nodeId="6541005299200788044" fileName="PQPlanarityTest_Test.java" startLine="43" startPosition="0" endLine="48" endPosition="0" />
+    <scopeInfo nodeId="5639575219014565215" fileName="PQPlanarityTest_Test.java" startLine="48" startPosition="0" endLine="55" endPosition="0">
       <varInfo nodeId="5639575219014565214" varName="graphString" />
     </scopeInfo>
-    <scopeInfo nodeId="5656502300472221590" fileName="PQPlanarityTest_Test.java" startLine="86" startPosition="49" endLine="93" endPosition="57">
+    <scopeInfo nodeId="5656502300472221590" fileName="PQPlanarityTest_Test.java" startLine="56" startPosition="49" endLine="63" endPosition="57">
       <varInfo nodeId="5656502300472221597" varName="graph" />
       <varInfo nodeId="5656502300472221604" varName="stNumbering" />
       <varInfo nodeId="5442489283395853088" varName="embeddedGraph" />
     </scopeInfo>
-    <scopeInfo nodeId="5656502300472221587" fileName="PQPlanarityTest_Test.java" startLine="85" startPosition="0" endLine="95" endPosition="0">
+    <scopeInfo nodeId="5656502300472221587" fileName="PQPlanarityTest_Test.java" startLine="55" startPosition="0" endLine="65" endPosition="0">
       <varInfo nodeId="5656502300472221591" varName="graphString" />
     </scopeInfo>
+  </root>
+  <root nodeId="6191740939834534343">
+    <nodeInfo nodeId="6191740939834534353" fileName="StressTestPlanarization.java" startLine="27" startPosition="59" endLine="28" endPosition="51" />
+    <nodeInfo nodeId="6191740939834534357" fileName="StressTestPlanarization.java" startLine="28" startPosition="51" endLine="29" endPosition="45" />
+    <nodeInfo nodeId="6191740939834534364" fileName="StressTestPlanarization.java" startLine="29" startPosition="45" endLine="30" endPosition="45" />
+    <nodeInfo nodeId="6191740939834534371" fileName="StressTestPlanarization.java" startLine="30" startPosition="45" endLine="31" endPosition="44" />
+    <nodeInfo nodeId="6191740939834534378" fileName="StressTestPlanarization.java" startLine="31" startPosition="44" endLine="32" endPosition="28" />
+    <nodeInfo nodeId="6191740939834534381" fileName="StressTestPlanarization.java" startLine="32" startPosition="28" endLine="33" endPosition="41" />
+    <nodeInfo nodeId="6191740939834534396" fileName="StressTestPlanarization.java" startLine="34" startPosition="48" endLine="35" endPosition="47" />
+    <nodeInfo nodeId="6191740939834534403" fileName="StressTestPlanarization.java" startLine="35" startPosition="47" endLine="36" endPosition="76" />
+    <nodeInfo nodeId="6191740939834534409" fileName="StressTestPlanarization.java" startLine="36" startPosition="76" endLine="37" endPosition="82" />
+    <nodeInfo nodeId="6191740939834534416" fileName="StressTestPlanarization.java" startLine="37" startPosition="82" endLine="38" endPosition="41" />
+    <nodeInfo nodeId="6191740939834534421" fileName="StressTestPlanarization.java" startLine="38" startPosition="41" endLine="39" endPosition="79" />
+    <nodeInfo nodeId="6191740939834534438" fileName="StressTestPlanarization.java" startLine="41" startPosition="61" endLine="42" endPosition="75" />
+    <nodeInfo nodeId="6191740939834534459" fileName="StressTestPlanarization.java" startLine="46" startPosition="73" endLine="47" endPosition="123" />
+    <nodeInfo nodeId="6191740939834534481" fileName="StressTestPlanarization.java" startLine="50" startPosition="45" endLine="51" endPosition="42" />
+    <nodeInfo nodeId="6191740939834534486" fileName="StressTestPlanarization.java" startLine="51" startPosition="42" endLine="52" endPosition="17" />
+    <nodeInfo nodeId="6191740939834534492" fileName="StressTestPlanarization.java" startLine="53" startPosition="7" endLine="54" endPosition="60" />
+    <nodeInfo nodeId="6191740939834534495" fileName="StressTestPlanarization.java" startLine="54" startPosition="60" endLine="55" endPosition="50" />
+    <nodeInfo nodeId="6191740939834534501" fileName="StressTestPlanarization.java" startLine="55" startPosition="50" endLine="56" endPosition="46" />
+    <nodeInfo nodeId="6191740939834534505" fileName="StressTestPlanarization.java" startLine="56" startPosition="46" endLine="57" endPosition="18" />
+    <nodeInfo nodeId="6191740939834534511" fileName="StressTestPlanarization.java" startLine="58" startPosition="11" endLine="59" endPosition="87" />
+    <nodeInfo nodeId="6191740939834534518" fileName="StressTestPlanarization.java" startLine="59" startPosition="87" endLine="60" endPosition="61" />
+    <nodeInfo nodeId="6191740939834534521" fileName="StressTestPlanarization.java" startLine="60" startPosition="61" endLine="61" endPosition="106" />
+    <nodeInfo nodeId="6191740939834534536" fileName="StressTestPlanarization.java" startLine="62" startPosition="29" endLine="63" endPosition="62" />
+    <nodeInfo nodeId="6191740939834534541" fileName="StressTestPlanarization.java" startLine="63" startPosition="62" endLine="64" endPosition="41" />
+    <nodeInfo nodeId="6191740939834534546" fileName="StressTestPlanarization.java" startLine="64" startPosition="41" endLine="65" endPosition="65" />
+    <nodeInfo nodeId="6191740939834534553" fileName="StressTestPlanarization.java" startLine="65" startPosition="65" endLine="66" endPosition="69" />
+    <nodeInfo nodeId="6191740939834534563" fileName="StressTestPlanarization.java" startLine="67" startPosition="58" endLine="68" endPosition="73" />
+    <nodeInfo nodeId="6191740939834534577" fileName="StressTestPlanarization.java" startLine="70" startPosition="76" endLine="71" endPosition="123" />
+    <nodeInfo nodeId="6191740939834534605" fileName="StressTestPlanarization.java" startLine="72" startPosition="9" endLine="73" endPosition="30" />
+    <nodeInfo nodeId="6191740939834534610" fileName="StressTestPlanarization.java" startLine="73" startPosition="30" endLine="74" endPosition="23" />
+    <nodeInfo nodeId="6191740939834534621" fileName="StressTestPlanarization.java" startLine="76" startPosition="5" endLine="77" endPosition="31" />
+    <nodeInfo nodeId="6191740939834534345" fileName="StressTestPlanarization.java" startLine="23" startPosition="38" endLine="25" endPosition="3" />
+    <nodeInfo nodeId="6191740939834534436" fileName="StressTestPlanarization.java" startLine="40" startPosition="65" endLine="43" endPosition="9" />
+    <nodeInfo nodeId="6191740939834534457" fileName="StressTestPlanarization.java" startLine="45" startPosition="65" endLine="48" endPosition="9" />
+    <nodeInfo nodeId="6191740939834534559" fileName="StressTestPlanarization.java" startLine="66" startPosition="69" endLine="69" endPosition="9" />
+    <nodeInfo nodeId="6191740939834534571" fileName="StressTestPlanarization.java" startLine="69" startPosition="9" endLine="72" endPosition="9" />
+    <nodeInfo nodeId="6191740939834534479" fileName="StressTestPlanarization.java" startLine="49" startPosition="7" endLine="53" endPosition="7" />
+    <nodeInfo nodeId="6191740939834534430" fileName="StressTestPlanarization.java" startLine="39" startPosition="79" endLine="44" endPosition="7" />
+    <nodeInfo nodeId="6191740939834534451" fileName="StressTestPlanarization.java" startLine="44" startPosition="7" endLine="49" endPosition="7" />
+    <nodeInfo nodeId="6191740939834534509" fileName="StressTestPlanarization.java" startLine="57" startPosition="18" endLine="75" endPosition="7" />
+    <nodeInfo nodeId="6191740939834534394" fileName="StressTestPlanarization.java" startLine="33" startPosition="41" endLine="76" endPosition="5" />
+    <nodeInfo nodeId="6191740939834534349" fileName="StressTestPlanarization.java" startLine="26" startPosition="0" endLine="79" endPosition="0" />
+    <scopeInfo nodeId="6191740939834534348" fileName="StressTestPlanarization.java" startLine="24" startPosition="36" endLine="24" endPosition="36" />
+    <scopeInfo nodeId="6191740939834534437" fileName="StressTestPlanarization.java" startLine="41" startPosition="61" endLine="42" endPosition="75" />
+    <scopeInfo nodeId="6191740939834534458" fileName="StressTestPlanarization.java" startLine="46" startPosition="73" endLine="47" endPosition="123" />
+    <scopeInfo nodeId="6191740939834534562" fileName="StressTestPlanarization.java" startLine="67" startPosition="58" endLine="68" endPosition="73" />
+    <scopeInfo nodeId="6191740939834534576" fileName="StressTestPlanarization.java" startLine="70" startPosition="76" endLine="71" endPosition="123" />
+    <scopeInfo nodeId="6191740939834534345" fileName="StressTestPlanarization.java" startLine="23" startPosition="38" endLine="25" endPosition="3" />
+    <scopeInfo nodeId="6191740939834534480" fileName="StressTestPlanarization.java" startLine="50" startPosition="45" endLine="52" endPosition="17" />
+    <scopeInfo nodeId="6191740939834534435" fileName="StressTestPlanarization.java" startLine="40" startPosition="65" endLine="43" endPosition="9" />
+    <scopeInfo nodeId="6191740939834534456" fileName="StressTestPlanarization.java" startLine="45" startPosition="65" endLine="48" endPosition="9" />
+    <scopeInfo nodeId="6191740939834534510" fileName="StressTestPlanarization.java" startLine="58" startPosition="11" endLine="61" endPosition="106">
+      <varInfo nodeId="6191740939834534512" varName="embeddedGraph" />
+    </scopeInfo>
+    <scopeInfo nodeId="6191740939834534559" fileName="StressTestPlanarization.java" startLine="66" startPosition="69" endLine="69" endPosition="9" />
+    <scopeInfo nodeId="6191740939834534571" fileName="StressTestPlanarization.java" startLine="69" startPosition="9" endLine="72" endPosition="9" />
+    <scopeInfo nodeId="6191740939834534430" fileName="StressTestPlanarization.java" startLine="39" startPosition="79" endLine="44" endPosition="7" />
+    <scopeInfo nodeId="6191740939834534451" fileName="StressTestPlanarization.java" startLine="44" startPosition="7" endLine="49" endPosition="7" />
+    <scopeInfo nodeId="6191740939834534535" fileName="StressTestPlanarization.java" startLine="62" startPosition="29" endLine="74" endPosition="23">
+      <varInfo nodeId="6191740939834534542" varName="orderedGraph" />
+      <varInfo nodeId="6191740939834534554" varName="sorting" />
+    </scopeInfo>
+    <scopeInfo nodeId="6191740939834534395" fileName="StressTestPlanarization.java" startLine="34" startPosition="48" endLine="75" endPosition="7">
+      <varInfo nodeId="6191740939834534404" varName="graph" />
+      <varInfo nodeId="6191740939834534422" varName="nodeMap" />
+      <varInfo nodeId="6191740939834534417" varName="firstComponent" />
+      <varInfo nodeId="6191740939834534410" varName="components" />
+      <varInfo nodeId="6191740939834534496" varName="out" />
+    </scopeInfo>
+    <scopeInfo nodeId="6191740939834534394" fileName="StressTestPlanarization.java" startLine="33" startPosition="41" endLine="76" endPosition="5">
+      <varInfo nodeId="6191740939834534613" varName="iter" />
+    </scopeInfo>
+    <scopeInfo nodeId="6191740939834534352" fileName="StressTestPlanarization.java" startLine="27" startPosition="59" endLine="77" endPosition="31">
+      <varInfo nodeId="6191740939834534365" varName="numEdges" />
+      <varInfo nodeId="6191740939834534358" varName="numNodes" />
+      <varInfo nodeId="6191740939834534354" varName="fileName" />
+      <varInfo nodeId="6191740939834534379" varName="finder" />
+      <varInfo nodeId="6191740939834534372" varName="numIter" />
+    </scopeInfo>
+    <scopeInfo nodeId="6191740939834534349" fileName="StressTestPlanarization.java" startLine="26" startPosition="0" endLine="79" endPosition="0">
+      <varInfo nodeId="6191740939834534626" varName="args" />
+    </scopeInfo>
+    <unitInfo nodeId="6191740939834534343" fileName="StressTestPlanarization.java" startLine="23" startPosition="0" endLine="80" endPosition="0" unitName="planarizationTest.StressTestPlanarization" />
   </root>
   <root nodeId="6984255766319183447">
     <nodeInfo nodeId="6984255766319236613" fileName="STPlanarGraph_Test.java" startLine="28" startPosition="45" endLine="29" endPosition="53" />

@@ -70,10 +70,10 @@ public class GraphIO {
     for (Node node : ListSequence.fromList(graph.getNodes())) {
       numEdges += ListSequence.fromList(node.getOutEdges()).count();
     }
-    writer.println(graph.getNumNodes() + " " + numEdges);
+    writer.println(graph.getNumNodes() + " " + numEdges + "  ");
     for (Node node : ListSequence.fromList(graph.getNodes())) {
       for (Edge edge : ListSequence.fromList(node.getOutEdges())) {
-        writer.println(edge.getSource().getIndex() + " " + edge.getTarget().getIndex());
+        writer.println(edge.getSource().getIndex() + " " + edge.getTarget().getIndex() + "  ");
       }
     }
   }

@@ -41,38 +41,8 @@ public class PQPlanarityTest_Test extends TestCase {
     testWithGraph(graphString);
   }
 
-  public void test_test6() throws Exception {
-    String graphString = "5 10  0 1  0 2  0 3  0 4  1 2  1 3  1 4  2 3  2 4  3 4";
-    testWithGraph(graphString);
-  }
-
   public void test_test7() throws Exception {
     String graphString = "8 14  0 1  0 2  0 3  0 6  0 7  1 2  1 4  2 3  2 4  3 4  3 6  4 5  5 6  6 7";
-    testWithGraph(graphString);
-  }
-
-  public void test_test8() throws Exception {
-    String graphString = "8 17  0 7  0 5  0 6  0 1  0 3  1 5  1 6  1 2  2 5  2 3  2 4  3 5  3 4  3 6  4 5  5 6  6 7";
-    testWithGraph(graphString);
-  }
-
-  public void test_testForBreakingST() throws Exception {
-    String graphString = "8 14  0 2  0 5  0 1  0 6  0 7  1 5  1 6  1 4  2 3  2 6  3 4  4 5  5 6  6 7";
-    testWithGraph(graphString);
-  }
-
-  public void test_K6() throws Exception {
-    String graphString = "6 15  0 1  0 2  0 3  0 4  0 5  1 2  1 3  1 4  1 5  2 3  2 4  2 5  3 4  3 5  4 5";
-    testWithGraph(graphString);
-  }
-
-  public void test_JTSPaperGraph() throws Exception {
-    String graphString = "10 22  0 1  0 3  0 5  0 6  0 9  1 2  1 5  1 7  1 8  2 3  2 8  3 4  3 7  4 5  4 7  4 8  5 6  5 8  6 8  6 9  7 9  8 9";
-    testWithGraph(graphString);
-  }
-
-  public void test_test9() throws Exception {
-    String graphString = "11 22\n  0 9\n  0 4  \n0 1  \n0 7  \n0 10  \n1 3  \n1 7  \n1 8  \n1 2  \n2 9  \n2 3  \n3 8  \n3 5  \n4 6  \n4 5  \n5 9  \n5 8  \n5 7  \n6 7  \n7 8  \n8 9  \n9 10\n";
     testWithGraph(graphString);
   }
 
@@ -80,7 +50,7 @@ public class PQPlanarityTest_Test extends TestCase {
     Graph graph = GraphIO.scanGraph(new Scanner(graphString));
     Node s = graph.getNode(0);
     Node t = graph.getNode(4);
-    new PQPlanarityTest().testPlanarity(graph, GraphOrientation.orientST(graph, s, t));
+    new PQPlanarityTest().getEmbedding(graph, GraphOrientation.orientST(graph, s, t));
   }
 
   public void testWithGraph(String graphString) {
@@ -89,7 +59,7 @@ public class PQPlanarityTest_Test extends TestCase {
     for (Node node : ListSequence.fromList(graph.getNodes())) {
       MapSequence.fromMap(stNumbering).put(node, node.getIndex());
     }
-    EmbeddedGraph embeddedGraph = new PQPlanarityTest().testPlanarity(graph, stNumbering);
+    EmbeddedGraph embeddedGraph = new PQPlanarityTest().getEmbedding(graph, stNumbering);
     CheckEmbeddedGraph.checkEmbeddedGraph(embeddedGraph);
   }
 }

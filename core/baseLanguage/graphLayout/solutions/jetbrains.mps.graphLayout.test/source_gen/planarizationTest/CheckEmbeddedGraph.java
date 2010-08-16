@@ -9,6 +9,8 @@ import jetbrains.mps.internal.collections.runtime.Sequence;
 import jetbrains.mps.internal.collections.runtime.MapSequence;
 import jetbrains.mps.internal.collections.runtime.ListSequence;
 import jetbrains.mps.graphLayout.planarGraph.CheckFace;
+import jetbrains.mps.graphLayout.graph.Edge;
+import jetbrains.mps.internal.collections.runtime.SetSequence;
 
 public class CheckEmbeddedGraph {
   public static boolean checkAdjacentFaces(EmbeddedGraph embeddedGraph) {
@@ -23,8 +25,13 @@ public class CheckEmbeddedGraph {
   public static void checkEmbeddedGraph(EmbeddedGraph embeddedGraph) {
     checkAdjacentFaces(embeddedGraph);
     for (Face face : ListSequence.fromList(embeddedGraph.getFaces())) {
-      if (!(CheckFace.check(face))) {
+      if (!(CheckFace.check(face)) || ListSequence.fromList(face.getDarts()).count() < 3) {
         throw new RuntimeException("bad face: " + face);
+      }
+    }
+    for (Edge edge : SetSequence.fromSet(MapSequence.fromMap(embeddedGraph.getAdjacentFacesMap()).keySet())) {
+      if (ListSequence.fromList(MapSequence.fromMap(embeddedGraph.getAdjacentFacesMap()).get(edge)).count() != 2) {
+        throw new RuntimeException("edge has wrong num of adjacent faces! " + edge);
       }
     }
   }

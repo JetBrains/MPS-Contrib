@@ -56,6 +56,21 @@ public class EmbeddedGraph {
     return null;
   }
 
+  public Face getFaceToTheLeft(final Edge edge) {
+    List<Face> faces = MapSequence.fromMap(myAdjacentFacesMap).get(edge);
+    for (Face face : ListSequence.fromList(faces)) {
+      Dart dart = ListSequence.fromList(face.getDarts()).findFirst(new IWhereFilter<Dart>() {
+        public boolean accept(Dart it) {
+          return it.getEdge() == edge;
+        }
+      });
+      if (dart.getSource() == edge.getSource()) {
+        return face;
+      }
+    }
+    return null;
+  }
+
   public Node splitEdge(Edge edge) {
     Graph originalGraph = this.getGraph();
     Node newNode = originalGraph.addDummyNode();

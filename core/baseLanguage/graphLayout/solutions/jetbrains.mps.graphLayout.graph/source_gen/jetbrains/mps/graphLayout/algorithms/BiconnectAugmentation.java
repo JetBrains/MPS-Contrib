@@ -53,7 +53,7 @@ public class BiconnectAugmentation {
     @Override
     protected void processEdge(Edge edge, Node source) {
       Node next = edge.getOpposite(source);
-      if (MapSequence.fromMap(getDfsState()).get(next) == STNumbering.FirstDfs.DURING) {
+      if (MapSequence.fromMap(getDfsState()).get(next) == Dfs.DURING) {
         changeLow(source, next);
       }
     }

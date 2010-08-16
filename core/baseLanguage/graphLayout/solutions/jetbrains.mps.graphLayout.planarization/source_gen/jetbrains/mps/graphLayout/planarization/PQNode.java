@@ -4,7 +4,7 @@ package jetbrains.mps.graphLayout.planarization;
 
 import java.util.List;
 import jetbrains.mps.internal.collections.runtime.ListSequence;
-import java.util.ArrayList;
+import jetbrains.mps.internal.collections.runtime.backports.LinkedList;
 import jetbrains.mps.graphLayout.graph.Node;
 import java.util.Iterator;
 
@@ -17,7 +17,7 @@ public abstract class PQNode {
   private int myNumFullLeaves;
 
   public PQNode() {
-    myChildren = ListSequence.fromList(new ArrayList<PQNode>());
+    myChildren = ListSequence.fromList(new LinkedList<PQNode>());
     myState = null;
     myParent = null;
   }

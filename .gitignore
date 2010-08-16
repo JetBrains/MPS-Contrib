@@ -1,5 +1,6 @@
 .DS_Store
 .idea/workspace.xml
+MPSPlugin/.idea/workspace.xml
 classes
 classes_gen
 testclasses

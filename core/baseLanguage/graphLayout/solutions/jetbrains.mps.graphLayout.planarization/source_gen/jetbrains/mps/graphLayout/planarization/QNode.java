@@ -323,19 +323,29 @@ public class QNode extends PQNode {
 
   @Override
   public void collectEdgesOrderInSubtree(EdgesOrder order) {
+    /*
+      Node last = this.getLast();
+      for (PQNode child : ListSequence.fromList(getChildren())) {
+        child.collectEdgesOrderInSubtree(order);
+        if (child instanceof PNode && ((PNode) child).getGraphNode() == last) {
+          order.merge(getEdgesOrder());
+        }
+      }
+    */
+    order.merge(getEdgesOrder());
+    for (PQNode child : ListSequence.fromList(getChildren())) {
+      child.collectEdgesOrderInSubtree(order);
+    }
+  }
+
+  public Node getLast() {
     Node last = null;
     for (Node node : SetSequence.fromSet(getEdgesOrder().getNodes())) {
       if (ListSequence.fromList(getEdgesOrder().getOutEdgesOrder(node)).count() == 0) {
         last = node;
       }
     }
-    for (PQNode child : ListSequence.fromList(getChildren())) {
-      child.collectEdgesOrderInSubtree(order);
-      if (child instanceof PNode && ((PNode) child).getGraphNode() == last) {
-        order.merge(getEdgesOrder());
-
-      }
-    }
+    return last;
   }
 
   @Override

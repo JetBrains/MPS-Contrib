@@ -144,6 +144,69 @@
     </scopeInfo>
     <scopeInfo nodeId="4179389957059012716" fileName="ShortestPath_Test.java" startLine="14" startPosition="49" endLine="25" endPosition="0" />
   </root>
+  <root nodeId="4644851485137246800">
+    <nodeInfo nodeId="4644851485137247436" fileName="BiconnectComponent_Test.java" startLine="13" startPosition="45" endLine="14" endPosition="71" />
+    <nodeInfo nodeId="4644851485137247443" fileName="BiconnectComponent_Test.java" startLine="14" startPosition="71" endLine="15" endPosition="62" />
+    <nodeInfo nodeId="4644851485137249824" fileName="BiconnectComponent_Test.java" startLine="15" startPosition="62" endLine="16" endPosition="16" />
+    <nodeInfo nodeId="4644851485137252414" fileName="BiconnectComponent_Test.java" startLine="19" startPosition="45" endLine="20" endPosition="66" />
+    <nodeInfo nodeId="4644851485137252418" fileName="BiconnectComponent_Test.java" startLine="20" startPosition="66" endLine="21" endPosition="62" />
+    <nodeInfo nodeId="4644851485137252425" fileName="BiconnectComponent_Test.java" startLine="21" startPosition="62" endLine="22" endPosition="16" />
+    <nodeInfo nodeId="4644851485137252886" fileName="BiconnectComponent_Test.java" startLine="25" startPosition="45" endLine="26" endPosition="82" />
+    <nodeInfo nodeId="4644851485137252890" fileName="BiconnectComponent_Test.java" startLine="26" startPosition="82" endLine="27" endPosition="62" />
+    <nodeInfo nodeId="4644851485137252897" fileName="BiconnectComponent_Test.java" startLine="27" startPosition="62" endLine="28" endPosition="16" />
+    <nodeInfo nodeId="4644851485137253359" fileName="BiconnectComponent_Test.java" startLine="31" startPosition="45" endLine="32" endPosition="61" />
+    <nodeInfo nodeId="4644851485137253363" fileName="BiconnectComponent_Test.java" startLine="32" startPosition="61" endLine="33" endPosition="62" />
+    <nodeInfo nodeId="4644851485137253370" fileName="BiconnectComponent_Test.java" startLine="33" startPosition="62" endLine="34" endPosition="16" />
+    <nodeInfo nodeId="4644851485137254299" fileName="BiconnectComponent_Test.java" startLine="37" startPosition="45" endLine="38" endPosition="51" />
+    <nodeInfo nodeId="4644851485137254303" fileName="BiconnectComponent_Test.java" startLine="38" startPosition="51" endLine="39" endPosition="62" />
+    <nodeInfo nodeId="4644851485137254310" fileName="BiconnectComponent_Test.java" startLine="39" startPosition="62" endLine="40" endPosition="16" />
+    <nodeInfo nodeId="4644851485137254782" fileName="BiconnectComponent_Test.java" startLine="43" startPosition="45" endLine="44" endPosition="48" />
+    <nodeInfo nodeId="4644851485137254790" fileName="BiconnectComponent_Test.java" startLine="44" startPosition="48" endLine="45" endPosition="16" />
+    <nodeInfo nodeId="4644851485137246816" fileName="BiconnectComponent_Test.java" startLine="48" startPosition="33" endLine="49" endPosition="71" />
+    <nodeInfo nodeId="4644851485137246826" fileName="BiconnectComponent_Test.java" startLine="49" startPosition="71" endLine="50" endPosition="42" />
+    <nodeInfo nodeId="4644851485137254776" fileName="BiconnectComponent_Test.java" startLine="42" startPosition="0" endLine="47" endPosition="0" />
+    <nodeInfo nodeId="4644851485137246807" fileName="BiconnectComponent_Test.java" startLine="47" startPosition="0" endLine="52" endPosition="0" />
+    <nodeInfo nodeId="4644851485137247432" fileName="BiconnectComponent_Test.java" startLine="12" startPosition="55" endLine="18" endPosition="0" />
+    <nodeInfo nodeId="4644851485137252410" fileName="BiconnectComponent_Test.java" startLine="18" startPosition="0" endLine="24" endPosition="0" />
+    <nodeInfo nodeId="4644851485137252882" fileName="BiconnectComponent_Test.java" startLine="24" startPosition="0" endLine="30" endPosition="0" />
+    <nodeInfo nodeId="4644851485137253355" fileName="BiconnectComponent_Test.java" startLine="30" startPosition="0" endLine="36" endPosition="0" />
+    <nodeInfo nodeId="4644851485137254295" fileName="BiconnectComponent_Test.java" startLine="36" startPosition="0" endLine="42" endPosition="0" />
+    <scopeInfo nodeId="4644851485137254779" fileName="BiconnectComponent_Test.java" startLine="43" startPosition="45" endLine="45" endPosition="16">
+      <varInfo nodeId="4644851485137254783" varName="chain" />
+    </scopeInfo>
+    <scopeInfo nodeId="4644851485137246810" fileName="BiconnectComponent_Test.java" startLine="48" startPosition="33" endLine="50" endPosition="42">
+      <varInfo nodeId="4644851485137246817" varName="tree" />
+    </scopeInfo>
+    <scopeInfo nodeId="4644851485137247435" fileName="BiconnectComponent_Test.java" startLine="13" startPosition="45" endLine="16" endPosition="16">
+      <varInfo nodeId="4644851485137247437" varName="graphString" />
+      <varInfo nodeId="4644851485137247444" varName="graph" />
+    </scopeInfo>
+    <scopeInfo nodeId="4644851485137252413" fileName="BiconnectComponent_Test.java" startLine="19" startPosition="45" endLine="22" endPosition="16">
+      <varInfo nodeId="4644851485137252415" varName="graphString" />
+      <varInfo nodeId="4644851485137252419" varName="graph" />
+    </scopeInfo>
+    <scopeInfo nodeId="4644851485137252885" fileName="BiconnectComponent_Test.java" startLine="25" startPosition="45" endLine="28" endPosition="16">
+      <varInfo nodeId="4644851485137252887" varName="graphString" />
+      <varInfo nodeId="4644851485137252891" varName="graph" />
+    </scopeInfo>
+    <scopeInfo nodeId="4644851485137253358" fileName="BiconnectComponent_Test.java" startLine="31" startPosition="45" endLine="34" endPosition="16">
+      <varInfo nodeId="4644851485137253360" varName="graphString" />
+      <varInfo nodeId="4644851485137253364" varName="graph" />
+    </scopeInfo>
+    <scopeInfo nodeId="4644851485137254298" fileName="BiconnectComponent_Test.java" startLine="37" startPosition="45" endLine="40" endPosition="16">
+      <varInfo nodeId="4644851485137254300" varName="graphString" />
+      <varInfo nodeId="4644851485137254304" varName="graph" />
+    </scopeInfo>
+    <scopeInfo nodeId="4644851485137254776" fileName="BiconnectComponent_Test.java" startLine="42" startPosition="0" endLine="47" endPosition="0" />
+    <scopeInfo nodeId="4644851485137246807" fileName="BiconnectComponent_Test.java" startLine="47" startPosition="0" endLine="52" endPosition="0">
+      <varInfo nodeId="4644851485137246811" varName="graph" />
+    </scopeInfo>
+    <scopeInfo nodeId="4644851485137247432" fileName="BiconnectComponent_Test.java" startLine="12" startPosition="55" endLine="18" endPosition="0" />
+    <scopeInfo nodeId="4644851485137252410" fileName="BiconnectComponent_Test.java" startLine="18" startPosition="0" endLine="24" endPosition="0" />
+    <scopeInfo nodeId="4644851485137252882" fileName="BiconnectComponent_Test.java" startLine="24" startPosition="0" endLine="30" endPosition="0" />
+    <scopeInfo nodeId="4644851485137253355" fileName="BiconnectComponent_Test.java" startLine="30" startPosition="0" endLine="36" endPosition="0" />
+    <scopeInfo nodeId="4644851485137254295" fileName="BiconnectComponent_Test.java" startLine="36" startPosition="0" endLine="42" endPosition="0" />
+  </root>
   <root nodeId="5180427534212042871">
     <nodeInfo nodeId="5180427534212042882" fileName="TopologicalSorting_Test.java" startLine="16" startPosition="45" endLine="17" endPosition="51" />
     <nodeInfo nodeId="5180427534212042900" fileName="TopologicalSorting_Test.java" startLine="17" startPosition="51" endLine="18" endPosition="62" />

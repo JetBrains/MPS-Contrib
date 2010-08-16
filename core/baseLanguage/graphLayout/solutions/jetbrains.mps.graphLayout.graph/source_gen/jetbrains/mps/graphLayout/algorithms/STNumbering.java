@@ -25,14 +25,14 @@ public class STNumbering {
       stEdge = source.addEdgeTo(target);
       deleteAfter = true;
     }
-    STNumbering.FirstDfs firstDfs = new STNumbering.FirstDfs();
-    firstDfs.doDfs(graph, source, stEdge);
-    Map<Node, Node> low = firstDfs.getLow();
-    STNumbering.SecondDfs secondDfs = new STNumbering.SecondDfs();
-    secondDfs.doDfs(graph, source, stEdge, low);
+    BiconnectedComponents biconnectedComponents = new BiconnectedComponents();
+    biconnectedComponents.doDfs(graph, source, stEdge);
+    Map<Node, Node> low = biconnectedComponents.getLow();
+    STNumbering.Numbering numbering = new STNumbering.Numbering();
+    numbering.doDfs(graph, source, stEdge, low);
     Map<Node, Integer> res = new NodeMap<Integer>(graph);
     int curNum = 0;
-    for (Node node : ListSequence.fromList(secondDfs.getList())) {
+    for (Node node : ListSequence.fromList(numbering.getList())) {
       MapSequence.fromMap(res).put(node, curNum++);
     }
     if (deleteAfter) {
@@ -41,68 +41,13 @@ public class STNumbering {
     return res;
   }
 
-  public static class FirstDfs extends Dfs {
-    private Map<Node, Node> myLow;
-    private Map<Node, Integer> myNum;
-    private int myCurNum;
-
-    public FirstDfs() {
-    }
-
-    public void doDfs(Graph graph, Node source, Edge stEdge) {
-      myLow = new NodeMap<Node>(graph);
-      myNum = new NodeMap<Integer>(graph);
-      init(graph, Edge.Direction.BOTH);
-      MapSequence.fromMap(getDfsState()).put(source, DURING);
-      MapSequence.fromMap(myLow).put(source, source);
-      MapSequence.fromMap(myNum).put(source, 0);
-      myCurNum = 1;
-      dfs(stEdge.getOpposite(source), stEdge);
-    }
-
-    @Override
-    protected void preprocess(Node node, Edge from) {
-      MapSequence.fromMap(myNum).put(node, myCurNum++);
-      MapSequence.fromMap(myLow).put(node, node);
-    }
-
-    @Override
-    protected void processEdge(Edge edge, Node source) {
-      Node next = edge.getOpposite(source);
-      if (MapSequence.fromMap(getDfsState()).get(next) == DURING) {
-        changeLow(source, next);
-      }
-    }
-
-    @Override
-    protected void postprocess(Node node, Edge from) {
-      Node prev = from.getOpposite(node);
-      changeLow(prev, MapSequence.fromMap(myLow).get(node));
-    }
-
-    private void changeLow(Node node, Node newLow) {
-      Node oldLow = MapSequence.fromMap(myLow).get(node);
-      if (MapSequence.fromMap(myNum).get(oldLow) > MapSequence.fromMap(myNum).get(newLow)) {
-        MapSequence.fromMap(myLow).put(node, newLow);
-      }
-    }
-
-    public Map<Node, Node> getLow() {
-      return this.myLow;
-    }
-
-    public Map<Node, Integer> getNum() {
-      return this.myNum;
-    }
-  }
-
-  public static class SecondDfs extends Dfs {
+  public static class Numbering extends Dfs {
     private Map<Node, Integer> mySign;
     private Map<Node, Node> myLow;
     private List<Node> myList;
     private Node myTarget;
 
-    public SecondDfs() {
+    public Numbering() {
     }
 
     public void doDfs(Graph graph, Node source, Edge stEdge, Map<Node, Node> low) {
