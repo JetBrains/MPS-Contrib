@@ -30,13 +30,40 @@
   <languageAspect modelUID="r:00000000-0000-4000-0000-011c89590368(jetbrains.mps.lang.plugin.structure)" version="23" />
   <languageAspect modelUID="r:00000000-0000-4000-0000-011c895902ae(jetbrains.mps.lang.typesystem.constraints)" version="17" />
   <languageAspect modelUID="r:550fbd90-c9f2-4576-a8a6-223eca16d68b(jetbrains.mps.baseLanguage.runConfigurations.structure)" version="0" />
+  <languageAspect modelUID="r:00000000-0000-4000-0000-011c895902f3(jetbrains.mps.lang.generator.generationContext.structure)" version="0" />
+  <languageAspect modelUID="r:00000000-0000-4000-0000-011c8959035b(jetbrains.mps.lang.findUsages.structure)" version="2" />
+  <languageAspect modelUID="r:de0d3c0c-d049-41cf-bbf9-a920ba513cd3(jetbrains.mps.lang.textGen.structure)" version="11" />
+  <languageAspect modelUID="r:00000000-0000-4000-0000-011c8959037d(jetbrains.mps.lang.dataFlow.structure)" version="0" />
+  <languageAspect modelUID="r:00000000-0000-4000-0000-011c89590377(jetbrains.mps.lang.dataFlow.constraints)" version="4" />
+  <languageAspect modelUID="r:00000000-0000-4000-0000-011c89590319(jetbrains.mps.lang.refactoring.structure)" version="1" />
+  <languageAspect modelUID="r:00000000-0000-4000-0000-011c89590358(jetbrains.mps.lang.findUsages.constraints)" version="4" />
+  <languageAspect modelUID="r:00000000-0000-4000-0000-011c895902d5(jetbrains.mps.baseLanguage.unitTest.plugin)" version="0" />
+  <languageAspect modelUID="r:00000000-0000-4000-0000-011c8959034f(jetbrains.mps.lang.intentions.constraints)" version="1" />
+  <languageAspect modelUID="r:00000000-0000-4000-0000-011c895902d2(jetbrains.mps.baseLanguage.unitTest.constraints)" version="1" />
+  <languageAspect modelUID="r:00000000-0000-4000-0000-011c89590307(jetbrains.mps.lang.constraints.constraints)" version="9" />
+  <languageAspect modelUID="r:00000000-0000-4000-0000-011c895902ba(jetbrains.mps.lang.sharedConcepts.constraints)" version="0" />
+  <languageAspect modelUID="r:00000000-0000-4000-0000-011c89590313(jetbrains.mps.lang.refactoring.constraints)" version="4" />
+  <languageAspect modelUID="r:00000000-0000-4000-0000-011c895902e8(jetbrains.mps.lang.generator.structure)" version="2" />
+  <languageAspect modelUID="r:00000000-0000-4000-0000-011c89590382(jetbrains.mps.lang.test.constraints)" version="0" />
+  <languageAspect modelUID="r:00000000-0000-4000-0000-011c8959031e(jetbrains.mps.lang.script.constraints)" version="0" />
+  <languageAspect modelUID="r:00000000-0000-4000-0000-011c8959030d(jetbrains.mps.lang.constraints.structure)" version="8" />
+  <languageAspect modelUID="r:00000000-0000-4000-0000-011c895902bc(jetbrains.mps.lang.sharedConcepts.structure)" version="0" />
+  <languageAspect modelUID="r:00000000-0000-4000-0000-011c895902a8(jetbrains.mps.lang.actions.structure)" version="23" />
+  <languageAspect modelUID="r:00000000-0000-4000-0000-011c89590388(jetbrains.mps.lang.test.structure)" version="4" />
+  <languageAspect modelUID="r:00000000-0000-4000-0000-011c89590353(jetbrains.mps.lang.intentions.structure)" version="8" />
+  <languageAspect modelUID="r:00000000-0000-4000-0000-011c895902a4(jetbrains.mps.lang.actions.constraints)" version="16" />
+  <languageAspect modelUID="r:00000000-0000-4000-0000-011c895902e2(jetbrains.mps.lang.generator.constraints)" version="16" />
+  <languageAspect modelUID="r:1a7fc406-f263-498c-a126-51036fe6a9da(jetbrains.mps.lang.editor.editorTest.structure)" version="5" />
+  <languageAspect modelUID="r:00000000-0000-4000-0000-011c89590298(jetbrains.mps.lang.editor.constraints)" version="21" />
+  <languageAspect modelUID="r:00000000-0000-4000-0000-011c89590323(jetbrains.mps.lang.script.structure)" version="0" />
+  <languageAspect modelUID="r:00000000-0000-4000-0000-011c8959029e(jetbrains.mps.lang.editor.structure)" version="32" />
   <devkit namespace="2677cb18-f558-4e33-bc38-a5139cee06dc(jetbrains.mps.devkit.language-design)" />
-  <maxImportIndex value="4" />
+  <maxImportIndex value="5" />
   <import index="2" modelUID="r:00000000-0000-4000-0000-011c895902ca(jetbrains.mps.baseLanguage.structure)" version="3" />
   <import index="3" modelUID="r:f144b87b-8ea5-4a8a-bb79-78fd4663e93c(jetbrains.mps.baseLanguage.util.plugin.run)" version="-1" />
   <import index="4" modelUID="r:00000000-0000-4000-0000-011c89590292(jetbrains.mps.lang.structure.structure)" version="0" />
+  <import index="5" modelUID="r:00000000-0000-4000-0000-011c89590368(jetbrains.mps.lang.plugin.structure)" version="23" />
   <visible index="2" modelUID="r:00000000-0000-4000-0000-011c89590288(jetbrains.mps.lang.core.structure)" />
-  <visible index="3" modelUID="r:00000000-0000-4000-0000-011c89590368(jetbrains.mps.lang.plugin.structure)" />
   <node type="jetbrains.mps.lang.structure.structure.ConceptDeclaration:0" id="8456022385895583119">
     <property name="name:0" value="JavaNodeRunConfiguration" />
     <property name="rootable:0" value="true" />
@@ -56,12 +83,12 @@
       <property name="metaClass:0" value="aggregation" />
       <property name="role:0" value="checkBlock" />
       <link role="target:0" targetNodeId="8456022385895584871:0" resolveInfo="JavaCheckBlock" />
-      <link role="specializedLink:0" targetNodeId="3v.678887849223472883:23" />
+      <link role="specializedLink:0" targetNodeId="5.678887849223472883:23" />
     </node>
     <node role="linkDeclaration:0" type="jetbrains.mps.lang.structure.structure.LinkDeclaration:0" id="2178855608170933990">
       <property name="metaClass:0" value="aggregation" />
       <property name="role:0" value="editor" />
-      <link role="specializedLink:0" targetNodeId="3v.162872405267681133:23" />
+      <link role="specializedLink:0" targetNodeId="5.162872405267681133:23" />
       <link role="target:0" targetNodeId="2178855608170754068:0" resolveInfo="JavaConfigurationEditorDeclaration" />
     </node>
     <node role="linkDeclaration:0" type="jetbrains.mps.lang.structure.structure.LinkDeclaration:0" id="4462513030604064304">
@@ -73,7 +100,7 @@
   <node type="jetbrains.mps.lang.structure.structure.ConceptDeclaration:0" id="8456022385895584871">
     <property name="name:0" value="JavaCheckBlock" />
     <property name="package:0" value="node" />
-    <link role="extends:0" targetNodeId="3v.1347772807199150767:23" resolveInfo="AbstractCheckConfigBlock" />
+    <link role="extends:0" targetNodeId="5.1347772807199150767:23" resolveInfo="AbstractCheckConfigBlock" />
     <node role="conceptLink:0" type="jetbrains.mps.lang.structure.structure.ReferenceConceptLink:0" id="668913963929392860">
       <link role="conceptLinkDeclaration:0" targetNodeId="2.1161119487665:3" resolveInfo="applicableConceptFunctionParameter" />
       <link role="target:0" targetNodeId="3607966867310075767:0" resolveInfo="Node_FunctionParameter" />
@@ -90,9 +117,9 @@
     <property name="name:0" value="JavaRunConfiguration" />
     <property name="rootable:0" value="true" />
     <property name="package:0" value="java" />
-    <link role="extends:0" targetNodeId="3v.7035278950562851062:23" resolveInfo="RunConfigurationDeclaration" />
+    <link role="extends:0" targetNodeId="5.7035278950562851062:23" resolveInfo="RunConfigurationDeclaration" />
     <node role="implements:0" type="jetbrains.mps.lang.structure.structure.InterfaceConceptReference:0" id="655818460756092288">
-      <link role="intfc:0" targetNodeId="3v.3636700473138841144:23" resolveInfo="IEnchancedRunConfiguration" />
+      <link role="intfc:0" targetNodeId="5.3636700473138841144:23" resolveInfo="IEnchancedRunConfiguration" />
     </node>
   </node>
   <node type="jetbrains.mps.lang.structure.structure.ConceptDeclaration:0" id="4964800443628314809">
@@ -116,7 +143,7 @@
   <node type="jetbrains.mps.lang.structure.structure.AnnotationLinkDeclaration:0" id="7549816165173144969">
     <property name="role:0" value="userComponentReferenceAnnotation" />
     <property name="package:0" value="annotations" />
-    <link role="source:0" targetNodeId="3v.3452826078638178132:23" resolveInfo="ComponentReference" />
+    <link role="source:0" targetNodeId="5.3452826078638178132:23" resolveInfo="ComponentReference" />
     <link role="target:0" targetNodeId="7549816165173145425:0" resolveInfo="UserComponentReferenceAnnotation" />
   </node>
   <node type="jetbrains.mps.lang.structure.structure.ConceptDeclaration:0" id="7549816165173145425">
@@ -156,13 +183,13 @@
       <link role="conceptPropertyDeclaration:0" targetNodeId="2v.1137473891462:0" resolveInfo="alias" />
     </node>
     <node role="implements:0" type="jetbrains.mps.lang.structure.structure.InterfaceConceptReference:0" id="7589249354678411013">
-      <link role="intfc:0" targetNodeId="3v.7086588812844908357:23" resolveInfo="IRunConfigPropertyInstance" />
+      <link role="intfc:0" targetNodeId="5.7086588812844908357:23" resolveInfo="IRunConfigPropertyInstance" />
     </node>
   </node>
   <node type="jetbrains.mps.lang.structure.structure.ConceptDeclaration:0" id="2178855608170754068">
     <property name="name:0" value="JavaNodeConfigurationEditorDeclaration" />
     <property name="package:0" value="node" />
-    <link role="extends:0" targetNodeId="3v.162872405267681132:23" resolveInfo="ConfigurationEditorDeclaration" />
+    <link role="extends:0" targetNodeId="5.162872405267681132:23" resolveInfo="ConfigurationEditorDeclaration" />
     <node role="linkDeclaration:0" type="jetbrains.mps.lang.structure.structure.LinkDeclaration:0" id="2178855608170754524">
       <property name="metaClass:0" value="aggregation" />
       <property name="role:0" value="onChangeNodeBlock" />
@@ -204,7 +231,7 @@
     <property name="package:0" value="annotations" />
     <property name="role:0" value="componentInsideOfChangeListenerAnnotation" />
     <link role="target:0" targetNodeId="1566895476211680658:0" resolveInfo="ComponentInsideOfChangeListenerAnnotation" />
-    <link role="source:0" targetNodeId="3v.3452826078638178132:23" resolveInfo="ComponentReference" />
+    <link role="source:0" targetNodeId="5.3452826078638178132:23" resolveInfo="ComponentReference" />
   </node>
   <node type="jetbrains.mps.lang.structure.structure.ConceptDeclaration:0" id="4462513030604064303">
     <property name="package:0" value="node" />

@@ -33,11 +33,34 @@
   <languageAspect modelUID="r:00000000-0000-4000-0000-011c89590368(jetbrains.mps.lang.plugin.structure)" version="23" />
   <languageAspect modelUID="r:00000000-0000-4000-0000-011c895902ae(jetbrains.mps.lang.typesystem.constraints)" version="17" />
   <languageAspect modelUID="r:550fbd90-c9f2-4576-a8a6-223eca16d68b(jetbrains.mps.baseLanguage.runConfigurations.structure)" version="0" />
+  <languageAspect modelUID="r:00000000-0000-4000-0000-011c895902f3(jetbrains.mps.lang.generator.generationContext.structure)" version="0" />
+  <languageAspect modelUID="r:00000000-0000-4000-0000-011c8959035b(jetbrains.mps.lang.findUsages.structure)" version="2" />
+  <languageAspect modelUID="r:de0d3c0c-d049-41cf-bbf9-a920ba513cd3(jetbrains.mps.lang.textGen.structure)" version="11" />
+  <languageAspect modelUID="r:00000000-0000-4000-0000-011c8959037d(jetbrains.mps.lang.dataFlow.structure)" version="0" />
+  <languageAspect modelUID="r:00000000-0000-4000-0000-011c89590377(jetbrains.mps.lang.dataFlow.constraints)" version="4" />
+  <languageAspect modelUID="r:00000000-0000-4000-0000-011c89590319(jetbrains.mps.lang.refactoring.structure)" version="1" />
+  <languageAspect modelUID="r:00000000-0000-4000-0000-011c89590358(jetbrains.mps.lang.findUsages.constraints)" version="4" />
+  <languageAspect modelUID="r:00000000-0000-4000-0000-011c895902d5(jetbrains.mps.baseLanguage.unitTest.plugin)" version="0" />
+  <languageAspect modelUID="r:00000000-0000-4000-0000-011c8959034f(jetbrains.mps.lang.intentions.constraints)" version="1" />
+  <languageAspect modelUID="r:00000000-0000-4000-0000-011c895902d2(jetbrains.mps.baseLanguage.unitTest.constraints)" version="1" />
+  <languageAspect modelUID="r:00000000-0000-4000-0000-011c89590307(jetbrains.mps.lang.constraints.constraints)" version="9" />
+  <languageAspect modelUID="r:00000000-0000-4000-0000-011c89590313(jetbrains.mps.lang.refactoring.constraints)" version="4" />
+  <languageAspect modelUID="r:00000000-0000-4000-0000-011c895902e8(jetbrains.mps.lang.generator.structure)" version="2" />
+  <languageAspect modelUID="r:00000000-0000-4000-0000-011c89590382(jetbrains.mps.lang.test.constraints)" version="0" />
+  <languageAspect modelUID="r:00000000-0000-4000-0000-011c8959031e(jetbrains.mps.lang.script.constraints)" version="0" />
+  <languageAspect modelUID="r:00000000-0000-4000-0000-011c8959030d(jetbrains.mps.lang.constraints.structure)" version="8" />
+  <languageAspect modelUID="r:00000000-0000-4000-0000-011c895902a8(jetbrains.mps.lang.actions.structure)" version="23" />
+  <languageAspect modelUID="r:00000000-0000-4000-0000-011c89590388(jetbrains.mps.lang.test.structure)" version="4" />
+  <languageAspect modelUID="r:00000000-0000-4000-0000-011c89590353(jetbrains.mps.lang.intentions.structure)" version="8" />
+  <languageAspect modelUID="r:00000000-0000-4000-0000-011c895902a4(jetbrains.mps.lang.actions.constraints)" version="16" />
+  <languageAspect modelUID="r:00000000-0000-4000-0000-011c895902e2(jetbrains.mps.lang.generator.constraints)" version="16" />
+  <languageAspect modelUID="r:1a7fc406-f263-498c-a126-51036fe6a9da(jetbrains.mps.lang.editor.editorTest.structure)" version="5" />
+  <languageAspect modelUID="r:00000000-0000-4000-0000-011c89590323(jetbrains.mps.lang.script.structure)" version="0" />
   <devkit namespace="2677cb18-f558-4e33-bc38-a5139cee06dc(jetbrains.mps.devkit.language-design)" />
-  <maxImportIndex value="1" />
+  <maxImportIndex value="2" />
   <import index="1" modelUID="r:550fbd90-c9f2-4576-a8a6-223eca16d68b(jetbrains.mps.baseLanguage.runConfigurations.structure)" version="0" />
-  <visible index="2" modelUID="r:00000000-0000-4000-0000-011c89590363(jetbrains.mps.lang.plugin.editor)" />
-  <visible index="3" modelUID="r:00000000-0000-4000-0000-011c89590288(jetbrains.mps.lang.core.structure)" />
+  <import index="2" modelUID="r:00000000-0000-4000-0000-011c89590363(jetbrains.mps.lang.plugin.editor)" version="-1" />
+  <visible index="2" modelUID="r:00000000-0000-4000-0000-011c89590288(jetbrains.mps.lang.core.structure)" />
   <node type="jetbrains.mps.lang.editor.structure.ConceptEditorDeclaration:32" id="6629582826328966249">
     <property name="package:32" value="node" />
     <link role="conceptDeclaration:32" targetNodeId="1.8456022385895583119:0" resolveInfo="JavaRunConfiguration" />
@@ -45,7 +68,7 @@
       <node role="body:32" type="jetbrains.mps.lang.editor.structure.CellModel_Collection:32" id="6629582826328966252">
         <property name="vertical:32" value="true" />
         <node role="childCellModel:32" type="jetbrains.mps.lang.editor.structure.CellModel_Component:32" id="6629582826328966260">
-          <link role="editorComponent:32" targetNodeId="2v.8456022385895659119" resolveInfo="RunConfigurationPresentation" />
+          <link role="editorComponent:32" targetNodeId="2.8456022385895659119" resolveInfo="RunConfigurationPresentation" />
         </node>
         <node role="childCellModel:32" type="jetbrains.mps.lang.editor.structure.CellModel_Collection:32" id="3592413331516836937">
           <node role="styleItem:32" type="jetbrains.mps.lang.editor.structure.SelectableStyleSheetItem:32" id="3592413331516836938">
@@ -72,7 +95,7 @@
               <node role="editorComponent:32" type="jetbrains.mps.lang.editor.structure.InlineEditorComponent:32" id="4462513030603986928">
                 <node role="cellModel:32" type="jetbrains.mps.lang.editor.structure.CellModel_Property:32" id="4462513030603986929">
                   <property name="readOnly:32" value="true" />
-                  <link role="relationDeclaration:32" targetNodeId="3v.1169194664001:0" resolveInfo="name" />
+                  <link role="relationDeclaration:32" targetNodeId="2v.1169194664001:0" resolveInfo="name" />
                 </node>
               </node>
             </node>
@@ -90,15 +113,15 @@
         </node>
         <node role="childCellModel:32" type="jetbrains.mps.lang.editor.structure.CellModel_Constant:32" id="6629582826328966261" />
         <node role="childCellModel:32" type="jetbrains.mps.lang.editor.structure.CellModel_Component:32" id="6629582826328966262">
-          <link role="editorComponent:32" targetNodeId="2v.8456022385895659191" resolveInfo="RunConfigurationBody" />
+          <link role="editorComponent:32" targetNodeId="2.8456022385895659191" resolveInfo="RunConfigurationBody" />
         </node>
         <node role="childCellModel:32" type="jetbrains.mps.lang.editor.structure.CellModel_Component:32" id="5156436276193323062">
-          <link role="editorComponent:32" targetNodeId="2v.8255351389869730373" resolveInfo="RunConfigurationMethods" />
+          <link role="editorComponent:32" targetNodeId="2.8255351389869730373" resolveInfo="RunConfigurationMethods" />
         </node>
         <node role="cellLayout:32" type="jetbrains.mps.lang.editor.structure.CellLayout_Vertical:32" id="6629582826328966263" />
       </node>
       <node role="header:32" type="jetbrains.mps.lang.editor.structure.CellModel_Component:32" id="6629582826328966264">
-        <link role="editorComponent:32" targetNodeId="2v.8456022385895659107" resolveInfo="RunConfigurationHeader" />
+        <link role="editorComponent:32" targetNodeId="2.8456022385895659107" resolveInfo="RunConfigurationHeader" />
       </node>
     </node>
   </node>
@@ -109,19 +132,19 @@
       <node role="body:32" type="jetbrains.mps.lang.editor.structure.CellModel_Collection:32" id="3405970486215434354">
         <property name="vertical:32" value="true" />
         <node role="childCellModel:32" type="jetbrains.mps.lang.editor.structure.CellModel_Component:32" id="3405970486215434355">
-          <link role="editorComponent:32" targetNodeId="2v.8456022385895659119" resolveInfo="RunConfigurationPresentation" />
+          <link role="editorComponent:32" targetNodeId="2.8456022385895659119" resolveInfo="RunConfigurationPresentation" />
         </node>
         <node role="childCellModel:32" type="jetbrains.mps.lang.editor.structure.CellModel_Constant:32" id="3405970486215434367" />
         <node role="childCellModel:32" type="jetbrains.mps.lang.editor.structure.CellModel_Component:32" id="3405970486215434368">
-          <link role="editorComponent:32" targetNodeId="2v.8456022385895659191" resolveInfo="RunConfigurationBody" />
+          <link role="editorComponent:32" targetNodeId="2.8456022385895659191" resolveInfo="RunConfigurationBody" />
         </node>
         <node role="childCellModel:32" type="jetbrains.mps.lang.editor.structure.CellModel_Component:32" id="5156436276193306986">
-          <link role="editorComponent:32" targetNodeId="2v.8255351389869730373" resolveInfo="RunConfigurationMethods" />
+          <link role="editorComponent:32" targetNodeId="2.8255351389869730373" resolveInfo="RunConfigurationMethods" />
         </node>
         <node role="cellLayout:32" type="jetbrains.mps.lang.editor.structure.CellLayout_Vertical:32" id="3405970486215434369" />
       </node>
       <node role="header:32" type="jetbrains.mps.lang.editor.structure.CellModel_Component:32" id="3405970486215434370">
-        <link role="editorComponent:32" targetNodeId="2v.8456022385895659107" resolveInfo="RunConfigurationHeader" />
+        <link role="editorComponent:32" targetNodeId="2.8456022385895659107" resolveInfo="RunConfigurationHeader" />
       </node>
     </node>
   </node>
@@ -130,7 +153,7 @@
     <link role="conceptDeclaration:32" targetNodeId="1.2178855608170754068:0" resolveInfo="JavaConfigurationEditorDeclaration" />
     <node role="cellModel:32" type="jetbrains.mps.lang.editor.structure.CellModel_Collection:32" id="2178855608170754550">
       <node role="childCellModel:32" type="jetbrains.mps.lang.editor.structure.CellModel_Component:32" id="2178855608170754554">
-        <link role="editorComponent:32" targetNodeId="2v.2178855608170754530" resolveInfo="ConfigurationEditorDeclaration_BasicEditor" />
+        <link role="editorComponent:32" targetNodeId="2.2178855608170754530" resolveInfo="ConfigurationEditorDeclaration_BasicEditor" />
       </node>
       <node role="childCellModel:32" type="jetbrains.mps.lang.editor.structure.CellModel_RefNode:32" id="2178855608170754555">
         <link role="relationDeclaration:32" targetNodeId="1.2178855608170754524:0" />
