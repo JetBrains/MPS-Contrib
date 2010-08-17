@@ -104,7 +104,7 @@
   </dependency>
   <dependency className="jetbrains.mps.buildlanguage.structure.ExternalPropertyDeclaration" file="ExternalPropertyDeclaration.java">
     <classNode dependClassName="java.lang.String" />
-    <classNode dependClassName="jetbrains.mps.buildlanguage.structure.PropertyDeclaration" />
+    <classNode dependClassName="jetbrains.mps.buildlanguage.structure.AbstractPropertyDeclaration" />
     <classNode dependClassName="jetbrains.mps.project.GlobalScope" />
     <classNode dependClassName="jetbrains.mps.smodel.SModel" />
     <classNode dependClassName="jetbrains.mps.smodel.SModelUtil_new" />

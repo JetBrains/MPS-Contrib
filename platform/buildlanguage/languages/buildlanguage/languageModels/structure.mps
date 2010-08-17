@@ -554,7 +554,7 @@
   <node type="jetbrains.mps.lang.structure.structure.ConceptDeclaration:0" id="1219147669362">
     <property name="package:0" value="Declarations" />
     <property name="name:0" value="ExternalPropertyDeclaration" />
-    <link role="extends:0" targetNodeId="1196851107341:21" resolveInfo="PropertyDeclaration" />
+    <link role="extends:0" targetNodeId="1463999527524104369:21" resolveInfo="AbstractPropertyDeclaration" />
     <node role="propertyDeclaration:0" type="jetbrains.mps.lang.structure.structure.PropertyDeclaration:0" id="1219774190534">
       <property name="name:0" value="checkOnStart" />
       <link role="dataType:0" targetNodeId="1.1082983657063:0" resolveInfo="boolean" />
