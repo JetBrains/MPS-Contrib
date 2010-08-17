@@ -9,6 +9,7 @@
   </root>
   <root nodeId="1213104856811">
     <nodeInfo nodeId="1230226012058" fileName="TargetReferencePropertyValueExpression_fullName_PropertyConstraint.java" startLine="26" startPosition="74" endLine="27" endPosition="18" />
+    <nodeInfo nodeId="1230225940642" fileName="TargetReferencePropertyValueExpression_fullName_PropertyConstraint.java" startLine="28" startPosition="5" endLine="29" endPosition="218" />
     <nodeInfo nodeId="1230226002742" fileName="TargetReferencePropertyValueExpression_fullName_PropertyConstraint.java" startLine="25" startPosition="80" endLine="28" endPosition="5" />
     <scopeInfo nodeId="1230226002743" fileName="TargetReferencePropertyValueExpression_fullName_PropertyConstraint.java" startLine="26" startPosition="74" endLine="27" endPosition="18" />
     <scopeInfo nodeId="1230225937137" fileName="TargetReferencePropertyValueExpression_fullName_PropertyConstraint.java" startLine="25" startPosition="80" endLine="29" endPosition="218" />
@@ -37,7 +38,9 @@
     <scopeInfo nodeId="1219148068257" fileName="ExternalPropertyDeclaration_Constraints.java" startLine="10" startPosition="114" endLine="11" endPosition="232" />
   </root>
   <root nodeId="4710899751214243183">
+    <nodeInfo nodeId="4710899751214245568" fileName="CallReference_call_ReferentConstraint.java" startLine="32" startPosition="39" endLine="33" endPosition="81" />
     <nodeInfo nodeId="4710899751214245561" fileName="CallReference_call_ReferentConstraint.java" startLine="31" startPosition="251" endLine="35" endPosition="0" />
+    <nodeInfo nodeId="4710899751214245162" fileName="CallReference_call_ReferentConstraint.java" startLine="30" startPosition="132" endLine="35" endPosition="7" />
     <scopeInfo nodeId="4710899751214245562" fileName="CallReference_call_ReferentConstraint.java" startLine="32" startPosition="39" endLine="33" endPosition="81" />
     <scopeInfo nodeId="4710899751214245561" fileName="CallReference_call_ReferentConstraint.java" startLine="31" startPosition="251" endLine="35" endPosition="0" />
     <scopeInfo nodeId="4710899751214243186" fileName="CallReference_call_ReferentConstraint.java" startLine="30" startPosition="132" endLine="35" endPosition="7" />

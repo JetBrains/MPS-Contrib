@@ -1,6 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <debugInfo>
   <root nodeId="1201260187613">
+    <nodeInfo nodeId="1201260284664" fileName="AddComment_intention_Intention.java" startLine="49" startPosition="90" endLine="50" endPosition="75" />
     <nodeInfo nodeId="1201260308382" fileName="AddComment_intention_Intention.java" startLine="53" startPosition="76" endLine="54" endPosition="58" />
     <nodeInfo nodeId="1201602536535" fileName="AddComment_intention_Intention.java" startLine="32" startPosition="85" endLine="39" endPosition="6" />
     <scopeInfo nodeId="1201260187617" fileName="AddComment_intention_Intention.java" startLine="49" startPosition="90" endLine="50" endPosition="75" />
@@ -8,6 +9,7 @@
     <scopeInfo nodeId="1201260187615" fileName="AddComment_intention_Intention.java" startLine="32" startPosition="85" endLine="39" endPosition="6" />
   </root>
   <root nodeId="1201595831626">
+    <nodeInfo nodeId="1201602317493" fileName="RemoveEmptyComment_intention_Intention.java" startLine="49" startPosition="90" endLine="50" endPosition="145" />
     <nodeInfo nodeId="1201595932926" fileName="RemoveEmptyComment_intention_Intention.java" startLine="53" startPosition="76" endLine="54" endPosition="60" />
     <nodeInfo nodeId="1201595870746" fileName="RemoveEmptyComment_intention_Intention.java" startLine="32" startPosition="85" endLine="39" endPosition="6" />
     <scopeInfo nodeId="1201595895263" fileName="RemoveEmptyComment_intention_Intention.java" startLine="49" startPosition="90" endLine="50" endPosition="145" />
