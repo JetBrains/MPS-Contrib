@@ -322,7 +322,7 @@ public class RunConfigurationTypeDeclaration_Editor extends DefaultNodeEditor {
     String path = null;
     IModule module = EditorUtil.findAnchorModule(node);
     if (module != null) {
-      path = MacrosUtil.expandPath(SPropertyOperations.getString(node, "iconPath"), module.getModuleUID());
+      path = MacrosUtil.expandPath(SPropertyOperations.getString(node, "iconPath"), module.getModuleFqName());
     }
     return path != null && FileSystem.getFile(path).exists();
   }
