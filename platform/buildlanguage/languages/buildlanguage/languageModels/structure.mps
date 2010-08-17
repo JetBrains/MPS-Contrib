@@ -82,7 +82,7 @@
       <property name="metaClass:0" value="aggregation" />
       <property name="role:0" value="property" />
       <property name="sourceCardinality:0" value="0..n" />
-      <link role="target:0" targetNodeId="1196851107341:21" resolveInfo="PropertyDeclaration" />
+      <link role="target:0" targetNodeId="1463999527524104369:21" resolveInfo="AbstractPropertyDeclaration" />
     </node>
     <node role="conceptProperty:0" type="jetbrains.mps.lang.structure.structure.StringConceptProperty:0" id="1196852405908">
       <property name="value:0" value="project" />
@@ -154,7 +154,7 @@
       <property name="metaClass:0" value="aggregation" />
       <property name="role:0" value="propertyList" />
       <property name="sourceCardinality:0" value="0..n" />
-      <link role="target:0" targetNodeId="1196851107341:21" resolveInfo="PropertyDeclaration" />
+      <link role="target:0" targetNodeId="1463999527524104369:21" resolveInfo="AbstractPropertyDeclaration" />
     </node>
     <node role="conceptProperty:0" type="jetbrains.mps.lang.structure.structure.StringConceptProperty:0" id="1196853825551">
       <property name="value:0" value="target" />

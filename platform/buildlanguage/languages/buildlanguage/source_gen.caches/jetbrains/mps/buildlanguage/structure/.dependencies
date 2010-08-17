@@ -246,10 +246,10 @@
     <classNode dependClassName="jetbrains.mps.buildlanguage.structure.AbstractCall" />
     <classNode dependClassName="jetbrains.mps.buildlanguage.structure.AbstractImportProject" />
     <classNode dependClassName="jetbrains.mps.buildlanguage.structure.AbstractImportProperties" />
+    <classNode dependClassName="jetbrains.mps.buildlanguage.structure.AbstractPropertyDeclaration" />
     <classNode dependClassName="jetbrains.mps.buildlanguage.structure.FileName" />
     <classNode dependClassName="jetbrains.mps.buildlanguage.structure.IAntScript" />
     <classNode dependClassName="jetbrains.mps.buildlanguage.structure.IPropertyHolder" />
-    <classNode dependClassName="jetbrains.mps.buildlanguage.structure.PropertyDeclaration" />
     <classNode dependClassName="jetbrains.mps.buildlanguage.structure.TargetDeclaration" />
     <classNode dependClassName="jetbrains.mps.buildlanguage.structure.TargetReference" />
     <classNode dependClassName="jetbrains.mps.lang.core.structure.INamedConcept" />
@@ -330,10 +330,10 @@
     <classNode dependClassName="java.util.Iterator" />
     <classNode dependClassName="java.util.List" />
     <classNode dependClassName="jetbrains.mps.buildlanguage.structure.AbstractCall" />
+    <classNode dependClassName="jetbrains.mps.buildlanguage.structure.AbstractPropertyDeclaration" />
     <classNode dependClassName="jetbrains.mps.buildlanguage.structure.ICommented" />
     <classNode dependClassName="jetbrains.mps.buildlanguage.structure.IProjectComponent" />
     <classNode dependClassName="jetbrains.mps.buildlanguage.structure.IPropertyHolder" />
-    <classNode dependClassName="jetbrains.mps.buildlanguage.structure.PropertyDeclaration" />
     <classNode dependClassName="jetbrains.mps.buildlanguage.structure.TargetReference" />
     <classNode dependClassName="jetbrains.mps.project.GlobalScope" />
     <classNode dependClassName="jetbrains.mps.smodel.SModel" />
