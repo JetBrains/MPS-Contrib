@@ -136,7 +136,7 @@
     <nodeInfo nodeId="3256972444606016028" fileName="BuiltInTaskDeclaration_Behavior.java" startLine="107" startPosition="122" endLine="108" endPosition="318" />
     <nodeInfo nodeId="5452960144484163768" fileName="BuiltInTaskDeclaration_Behavior.java" startLine="111" startPosition="130" endLine="112" endPosition="323" />
     <nodeInfo nodeId="4710899751214015960" fileName="BuiltInTaskDeclaration_Behavior.java" startLine="115" startPosition="81" endLine="116" endPosition="60" />
-    <nodeInfo nodeId="1445805690439864438" fileName="BuiltInTaskDeclaration_Behavior.java" startLine="119" startPosition="101" endLine="120" endPosition="118" />
+    <nodeInfo nodeId="1445805690439864438" fileName="BuiltInTaskDeclaration_Behavior.java" startLine="119" startPosition="101" endLine="120" endPosition="160" />
     <nodeInfo nodeId="353793545802644125" fileName="BuiltInTaskDeclaration_Behavior.java" startLine="35" startPosition="9" endLine="38" endPosition="9" />
     <nodeInfo nodeId="353793545802644166" fileName="BuiltInTaskDeclaration_Behavior.java" startLine="46" startPosition="100" endLine="49" endPosition="7" />
     <nodeInfo nodeId="353793545802644179" fileName="BuiltInTaskDeclaration_Behavior.java" startLine="50" startPosition="5" endLine="53" endPosition="5" />
@@ -172,7 +172,7 @@
     <scopeInfo nodeId="1191515374482689223" fileName="BuiltInTaskDeclaration_Behavior.java" startLine="107" startPosition="122" endLine="108" endPosition="318" />
     <scopeInfo nodeId="5452960144484163761" fileName="BuiltInTaskDeclaration_Behavior.java" startLine="111" startPosition="130" endLine="112" endPosition="323" />
     <scopeInfo nodeId="4710899751214015944" fileName="BuiltInTaskDeclaration_Behavior.java" startLine="115" startPosition="81" endLine="116" endPosition="60" />
-    <scopeInfo nodeId="1445805690439864422" fileName="BuiltInTaskDeclaration_Behavior.java" startLine="119" startPosition="101" endLine="120" endPosition="118" />
+    <scopeInfo nodeId="1445805690439864422" fileName="BuiltInTaskDeclaration_Behavior.java" startLine="119" startPosition="101" endLine="120" endPosition="160" />
     <scopeInfo nodeId="353793545802644390" fileName="BuiltInTaskDeclaration_Behavior.java" startLine="18" startPosition="43" endLine="20" endPosition="60" />
     <scopeInfo nodeId="353793545802644119" fileName="BuiltInTaskDeclaration_Behavior.java" startLine="31" startPosition="103" endLine="33" endPosition="18" />
     <scopeInfo nodeId="353793545802644353" fileName="BuiltInTaskDeclaration_Behavior.java" startLine="91" startPosition="92" endLine="93" endPosition="19" />

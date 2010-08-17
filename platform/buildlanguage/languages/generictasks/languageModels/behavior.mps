@@ -68,7 +68,7 @@
   <languageAspect modelUID="r:00000000-0000-4000-0000-011c895903ac(jetbrains.mps.baseLanguageInternal.structure)" version="1" />
   <languageAspect modelUID="r:309aeee7-bee8-445c-b31d-35928d1da75f(jetbrains.mps.baseLanguage.tuples.structure)" version="2" />
   <devkit namespace="2677cb18-f558-4e33-bc38-a5139cee06dc(jetbrains.mps.devkit.language-design)" />
-  <maxImportIndex value="11" />
+  <maxImportIndex value="12" />
   <import index="1" modelUID="r:1e7ada09-c25e-41ea-a9b5-398e142ef533(jetbrains.mps.build.generictasks.structure)" version="22" />
   <import index="2" modelUID="r:00000000-0000-4000-0000-011c895904c8(jetbrains.mps.buildlanguage.structure)" version="21" />
   <import index="3" modelUID="r:00000000-0000-4000-0000-011c895904c0(jetbrains.mps.buildlanguage.behavior)" version="-1" />
@@ -77,6 +77,7 @@
   <import index="6" modelUID="f:java_stub#jetbrains.mps.smodel(jetbrains.mps.smodel@java_stub)" version="-1" />
   <import index="7" modelUID="f:java_stub#jetbrains.mps.project(jetbrains.mps.project@java_stub)" version="-1" />
   <import index="8" modelUID="r:f2a46e84-6223-43fc-9c7a-2bd327c7efad(jetbrains.mps.build.generictasks.plugin)" version="-1" />
+  <import index="12" modelUID="f:java_stub#jetbrains.mps.project.structure.modules(jetbrains.mps.project.structure.modules@java_stub)" version="-1" />
   <node type="jetbrains.mps.lang.behavior.structure.ConceptBehavior" id="353793545802643785">
     <link role="concept" targetNodeId="1.353793545802643466:22" resolveInfo="GenericAttribute" />
     <node role="method" type="jetbrains.mps.lang.behavior.structure.ConceptMethodDeclaration" id="353793545802643786">
@@ -483,27 +484,37 @@
         <node role="statement:3" type="jetbrains.mps.baseLanguage.structure.ExpressionStatement:3" id="1445805690439864438">
           <node role="expression:3" type="jetbrains.mps.baseLanguage.structure.DotExpression:3" id="1445805690439864439">
             <node role="operand:3" type="jetbrains.mps.baseLanguage.structure.DotExpression:3" id="1445805690439864440">
-              <node role="operand:3" type="jetbrains.mps.baseLanguage.structure.DotExpression:3" id="1445805690439864441">
-                <node role="operand:3" type="jetbrains.mps.baseLanguage.structure.ParameterReference:3" id="1445805690439864442">
-                  <link role="variableDeclaration:3" targetNodeId="1445805690439864436" resolveInfo="operationContext" />
+              <node role="operand:3" type="jetbrains.mps.baseLanguage.structure.DotExpression:3" id="9002858624978342510">
+                <node role="operand:3" type="jetbrains.mps.baseLanguage.structure.DotExpression:3" id="1445805690439864441">
+                  <node role="operand:3" type="jetbrains.mps.baseLanguage.structure.ParameterReference:3" id="1445805690439864442">
+                    <link role="variableDeclaration:3" targetNodeId="1445805690439864436" resolveInfo="operationContext" />
+                  </node>
+                  <node role="operation:3" type="jetbrains.mps.baseLanguage.structure.InstanceMethodCallOperation:3" id="1445805690439864443">
+                    <link role="baseMethodDeclaration:3" targetNodeId="6.~IOperationContext.getModule():jetbrains.mps.project.IModule" resolveInfo="getModule" />
+                  </node>
                 </node>
-                <node role="operation:3" type="jetbrains.mps.baseLanguage.structure.InstanceMethodCallOperation:3" id="1445805690439864443">
-                  <link role="baseMethodDeclaration:3" targetNodeId="6.~IOperationContext.getModule():jetbrains.mps.project.IModule" resolveInfo="getModule" />
+                <node role="operation:3" type="jetbrains.mps.baseLanguage.structure.InstanceMethodCallOperation:3" id="9002858624978342514">
+                  <link role="baseMethodDeclaration:3" targetNodeId="7.~IModule.getModuleReference():jetbrains.mps.project.structure.modules.ModuleReference" resolveInfo="getModuleReference" />
                 </node>
               </node>
               <node role="operation:3" type="jetbrains.mps.baseLanguage.structure.InstanceMethodCallOperation:3" id="1445805690439864444">
-                <link role="baseMethodDeclaration:3" targetNodeId="7.~IModule.getModuleId():jetbrains.mps.project.ModuleId" resolveInfo="getModuleId" />
+                <link role="baseMethodDeclaration:3" targetNodeId="12.~ModuleReference.getModuleId():jetbrains.mps.project.ModuleId" resolveInfo="getModuleId" />
               </node>
             </node>
             <node role="operation:3" type="jetbrains.mps.baseLanguage.structure.InstanceMethodCallOperation:3" id="1445805690439864445">
               <link role="baseMethodDeclaration:3" targetNodeId="7.~ModuleId.equals(java.lang.Object):boolean" resolveInfo="equals" />
               <node role="actualArgument:3" type="jetbrains.mps.baseLanguage.structure.DotExpression:3" id="1445805690439864446">
-                <node role="operand:3" type="jetbrains.mps.baseLanguage.structure.StaticMethodCall:3" id="1445805690439864447">
-                  <link role="classConcept:3" targetNodeId="8.353793545803155653" resolveInfo="ImportAntStuffUtil" />
-                  <link role="baseMethodDeclaration:3" targetNodeId="8.8233904257588557402" resolveInfo="getLanguageReference" />
+                <node role="operand:3" type="jetbrains.mps.baseLanguage.structure.DotExpression:3" id="9002858624978342515">
+                  <node role="operand:3" type="jetbrains.mps.baseLanguage.structure.StaticMethodCall:3" id="1445805690439864447">
+                    <link role="classConcept:3" targetNodeId="8.353793545803155653" resolveInfo="ImportAntStuffUtil" />
+                    <link role="baseMethodDeclaration:3" targetNodeId="8.8233904257588557402" resolveInfo="getLanguageReference" />
+                  </node>
+                  <node role="operation:3" type="jetbrains.mps.baseLanguage.structure.InstanceMethodCallOperation:3" id="9002858624978342519">
+                    <link role="baseMethodDeclaration:3" targetNodeId="7.~AbstractModule.getModuleReference():jetbrains.mps.project.structure.modules.ModuleReference" resolveInfo="getModuleReference" />
+                  </node>
                 </node>
                 <node role="operation:3" type="jetbrains.mps.baseLanguage.structure.InstanceMethodCallOperation:3" id="1445805690439864448">
-                  <link role="baseMethodDeclaration:3" targetNodeId="7.~AbstractModule.getModuleId():jetbrains.mps.project.ModuleId" resolveInfo="getModuleId" />
+                  <link role="baseMethodDeclaration:3" targetNodeId="12.~ModuleReference.getModuleId():jetbrains.mps.project.ModuleId" resolveInfo="getModuleId" />
                 </node>
               </node>
             </node>

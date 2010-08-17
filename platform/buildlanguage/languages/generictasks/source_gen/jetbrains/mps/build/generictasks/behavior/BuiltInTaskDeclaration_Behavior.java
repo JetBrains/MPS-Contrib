@@ -117,6 +117,6 @@ public class BuiltInTaskDeclaration_Behavior {
   }
 
   public static boolean isInGeneratedModels_1445805690439864419(IOperationContext operationContext) {
-    return operationContext.getModule().getModuleId().equals(ImportAntStuffUtil.getLanguageReference().getModuleId());
+    return operationContext.getModule().getModuleReference().getModuleId().equals(ImportAntStuffUtil.getLanguageReference().getModuleReference().getModuleId());
   }
 }
