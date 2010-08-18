@@ -102,7 +102,6 @@ public class DurationType_boxing_SubtypingRule extends SubtypingRule_Runtime imp
     }
 
     public void performActions(Object o) {
-
     }
   }
 }
