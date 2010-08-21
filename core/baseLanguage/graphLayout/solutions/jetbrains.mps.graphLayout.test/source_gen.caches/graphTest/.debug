@@ -127,6 +127,195 @@
     <scopeInfo nodeId="6160477238666708848" fileName="STNumbering_Test.java" startLine="44" startPosition="0" endLine="75" endPosition="0" />
     <unitInfo nodeId="6160477238666709959" fileName="STNumbering_Test.java" startLine="57" startPosition="61" endLine="61" endPosition="5" unitName="graphTest.STNumbering_Test$1" />
   </root>
+  <root nodeId="228830736476020639">
+    <nodeInfo nodeId="228830736476020848" fileName="MinCirculation_Test.java" startLine="22" startPosition="45" endLine="23" endPosition="51" />
+    <nodeInfo nodeId="228830736476020856" fileName="MinCirculation_Test.java" startLine="23" startPosition="51" endLine="24" endPosition="62" />
+    <nodeInfo nodeId="228830736476020867" fileName="MinCirculation_Test.java" startLine="24" startPosition="62" endLine="25" endPosition="79" />
+    <nodeInfo nodeId="228830736476020880" fileName="MinCirculation_Test.java" startLine="25" startPosition="79" endLine="26" endPosition="99" />
+    <nodeInfo nodeId="228830736476020898" fileName="MinCirculation_Test.java" startLine="26" startPosition="99" endLine="27" endPosition="99" />
+    <nodeInfo nodeId="228830736476020909" fileName="MinCirculation_Test.java" startLine="27" startPosition="99" endLine="28" endPosition="99" />
+    <nodeInfo nodeId="228830736476020920" fileName="MinCirculation_Test.java" startLine="28" startPosition="99" endLine="29" endPosition="99" />
+    <nodeInfo nodeId="228830736476020932" fileName="MinCirculation_Test.java" startLine="29" startPosition="99" endLine="30" endPosition="84" />
+    <nodeInfo nodeId="228830736476020941" fileName="MinCirculation_Test.java" startLine="30" startPosition="84" endLine="31" endPosition="104" />
+    <nodeInfo nodeId="228830736476020952" fileName="MinCirculation_Test.java" startLine="31" startPosition="104" endLine="32" endPosition="104" />
+    <nodeInfo nodeId="228830736476020963" fileName="MinCirculation_Test.java" startLine="32" startPosition="104" endLine="33" endPosition="104" />
+    <nodeInfo nodeId="228830736476020974" fileName="MinCirculation_Test.java" startLine="33" startPosition="104" endLine="34" endPosition="104" />
+    <nodeInfo nodeId="228830736476020986" fileName="MinCirculation_Test.java" startLine="34" startPosition="104" endLine="35" endPosition="80" />
+    <nodeInfo nodeId="228830736476020995" fileName="MinCirculation_Test.java" startLine="35" startPosition="80" endLine="36" endPosition="100" />
+    <nodeInfo nodeId="228830736476021006" fileName="MinCirculation_Test.java" startLine="36" startPosition="100" endLine="37" endPosition="100" />
+    <nodeInfo nodeId="228830736476021017" fileName="MinCirculation_Test.java" startLine="37" startPosition="100" endLine="38" endPosition="100" />
+    <nodeInfo nodeId="228830736476021028" fileName="MinCirculation_Test.java" startLine="38" startPosition="100" endLine="39" endPosition="100" />
+    <nodeInfo nodeId="228830736476021062" fileName="MinCirculation_Test.java" startLine="39" startPosition="100" endLine="40" endPosition="70" />
+    <nodeInfo nodeId="228830736476021073" fileName="MinCirculation_Test.java" startLine="40" startPosition="70" endLine="41" endPosition="59" />
+    <nodeInfo nodeId="228830736476021095" fileName="MinCirculation_Test.java" startLine="42" startPosition="63" endLine="43" endPosition="73" />
+    <nodeInfo nodeId="228830736476022847" fileName="MinCirculation_Test.java" startLine="47" startPosition="45" endLine="48" endPosition="51" />
+    <nodeInfo nodeId="228830736476022851" fileName="MinCirculation_Test.java" startLine="48" startPosition="51" endLine="49" endPosition="62" />
+    <nodeInfo nodeId="228830736476022858" fileName="MinCirculation_Test.java" startLine="49" startPosition="62" endLine="50" endPosition="79" />
+    <nodeInfo nodeId="228830736476022867" fileName="MinCirculation_Test.java" startLine="50" startPosition="79" endLine="51" endPosition="99" />
+    <nodeInfo nodeId="228830736476022878" fileName="MinCirculation_Test.java" startLine="51" startPosition="99" endLine="52" endPosition="99" />
+    <nodeInfo nodeId="228830736476022889" fileName="MinCirculation_Test.java" startLine="52" startPosition="99" endLine="53" endPosition="99" />
+    <nodeInfo nodeId="228830736476022900" fileName="MinCirculation_Test.java" startLine="53" startPosition="99" endLine="54" endPosition="99" />
+    <nodeInfo nodeId="228830736476022911" fileName="MinCirculation_Test.java" startLine="54" startPosition="99" endLine="55" endPosition="84" />
+    <nodeInfo nodeId="228830736476022920" fileName="MinCirculation_Test.java" startLine="55" startPosition="84" endLine="56" endPosition="105" />
+    <nodeInfo nodeId="228830736476022931" fileName="MinCirculation_Test.java" startLine="56" startPosition="105" endLine="57" endPosition="105" />
+    <nodeInfo nodeId="228830736476022942" fileName="MinCirculation_Test.java" startLine="57" startPosition="105" endLine="58" endPosition="105" />
+    <nodeInfo nodeId="228830736476022953" fileName="MinCirculation_Test.java" startLine="58" startPosition="105" endLine="59" endPosition="105" />
+    <nodeInfo nodeId="228830736476022964" fileName="MinCirculation_Test.java" startLine="59" startPosition="105" endLine="60" endPosition="80" />
+    <nodeInfo nodeId="228830736476022973" fileName="MinCirculation_Test.java" startLine="60" startPosition="80" endLine="61" endPosition="100" />
+    <nodeInfo nodeId="228830736476022984" fileName="MinCirculation_Test.java" startLine="61" startPosition="100" endLine="62" endPosition="100" />
+    <nodeInfo nodeId="228830736476022995" fileName="MinCirculation_Test.java" startLine="62" startPosition="100" endLine="63" endPosition="100" />
+    <nodeInfo nodeId="228830736476023006" fileName="MinCirculation_Test.java" startLine="63" startPosition="100" endLine="64" endPosition="100" />
+    <nodeInfo nodeId="228830736476023017" fileName="MinCirculation_Test.java" startLine="64" startPosition="100" endLine="65" endPosition="70" />
+    <nodeInfo nodeId="228830736476025769" fileName="MinCirculation_Test.java" startLine="65" startPosition="70" endLine="66" endPosition="36" />
+    <nodeInfo nodeId="228830736476023027" fileName="MinCirculation_Test.java" startLine="66" startPosition="36" endLine="67" endPosition="59" />
+    <nodeInfo nodeId="228830736476023039" fileName="MinCirculation_Test.java" startLine="68" startPosition="63" endLine="69" endPosition="73" />
+    <nodeInfo nodeId="228830736476020670" fileName="MinCirculation_Test.java" startLine="73" startPosition="126" endLine="74" endPosition="39" />
+    <nodeInfo nodeId="228830736476020676" fileName="MinCirculation_Test.java" startLine="74" startPosition="39" endLine="75" endPosition="67" />
+    <nodeInfo nodeId="228830736476020684" fileName="MinCirculation_Test.java" startLine="75" startPosition="67" endLine="76" endPosition="99" />
+    <nodeInfo nodeId="228830736476020700" fileName="MinCirculation_Test.java" startLine="76" startPosition="99" endLine="77" endPosition="68" />
+    <nodeInfo nodeId="228830736476020708" fileName="MinCirculation_Test.java" startLine="77" startPosition="68" endLine="78" endPosition="55" />
+    <nodeInfo nodeId="228830736476020714" fileName="MinCirculation_Test.java" startLine="78" startPosition="55" endLine="79" endPosition="83" />
+    <nodeInfo nodeId="228830736476020722" fileName="MinCirculation_Test.java" startLine="79" startPosition="83" endLine="80" endPosition="23" />
+    <nodeInfo nodeId="228830736476020745" fileName="MinCirculation_Test.java" startLine="83" startPosition="92" endLine="84" endPosition="44" />
+    <nodeInfo nodeId="228830736476020754" fileName="MinCirculation_Test.java" startLine="85" startPosition="68" endLine="86" endPosition="129" />
+    <nodeInfo nodeId="228830736476020787" fileName="MinCirculation_Test.java" startLine="90" startPosition="77" endLine="91" endPosition="21" />
+    <nodeInfo nodeId="228830736476020797" fileName="MinCirculation_Test.java" startLine="92" startPosition="79" endLine="93" endPosition="92" />
+    <nodeInfo nodeId="228830736476020807" fileName="MinCirculation_Test.java" startLine="94" startPosition="5" endLine="95" endPosition="20" />
+    <nodeInfo nodeId="228830736476021085" fileName="MinCirculation_Test.java" startLine="41" startPosition="59" endLine="44" endPosition="5" />
+    <nodeInfo nodeId="228830736476023033" fileName="MinCirculation_Test.java" startLine="67" startPosition="59" endLine="70" endPosition="5" />
+    <nodeInfo nodeId="228830736476020752" fileName="MinCirculation_Test.java" startLine="84" startPosition="44" endLine="87" endPosition="5" />
+    <nodeInfo nodeId="228830736476020791" fileName="MinCirculation_Test.java" startLine="91" startPosition="21" endLine="94" endPosition="5" />
+    <nodeInfo nodeId="228830736476020741" fileName="MinCirculation_Test.java" startLine="82" startPosition="0" endLine="89" endPosition="0" />
+    <nodeInfo nodeId="228830736476020783" fileName="MinCirculation_Test.java" startLine="89" startPosition="0" endLine="97" endPosition="0" />
+    <nodeInfo nodeId="228830736476020667" fileName="MinCirculation_Test.java" startLine="72" startPosition="0" endLine="82" endPosition="0" />
+    <nodeInfo nodeId="228830736476020839" fileName="MinCirculation_Test.java" startLine="21" startPosition="51" endLine="46" endPosition="0" />
+    <nodeInfo nodeId="228830736476022843" fileName="MinCirculation_Test.java" startLine="46" startPosition="0" endLine="72" endPosition="0" />
+    <scopeInfo nodeId="228830736476021088" fileName="MinCirculation_Test.java" startLine="42" startPosition="63" endLine="43" endPosition="73" />
+    <scopeInfo nodeId="228830736476023038" fileName="MinCirculation_Test.java" startLine="68" startPosition="63" endLine="69" endPosition="73" />
+    <scopeInfo nodeId="228830736476020753" fileName="MinCirculation_Test.java" startLine="85" startPosition="68" endLine="86" endPosition="129" />
+    <scopeInfo nodeId="228830736476020796" fileName="MinCirculation_Test.java" startLine="92" startPosition="79" endLine="93" endPosition="92" />
+    <scopeInfo nodeId="228830736476021085" fileName="MinCirculation_Test.java" startLine="41" startPosition="59" endLine="44" endPosition="5" />
+    <scopeInfo nodeId="228830736476023033" fileName="MinCirculation_Test.java" startLine="67" startPosition="59" endLine="70" endPosition="5" />
+    <scopeInfo nodeId="228830736476020752" fileName="MinCirculation_Test.java" startLine="84" startPosition="44" endLine="87" endPosition="5">
+      <varInfo nodeId="228830736476020764" varName="i" />
+    </scopeInfo>
+    <scopeInfo nodeId="228830736476020791" fileName="MinCirculation_Test.java" startLine="91" startPosition="21" endLine="94" endPosition="5" />
+    <scopeInfo nodeId="228830736476020744" fileName="MinCirculation_Test.java" startLine="83" startPosition="92" endLine="87" endPosition="5">
+      <varInfo nodeId="228830736476020746" varName="edges" />
+    </scopeInfo>
+    <scopeInfo nodeId="228830736476020786" fileName="MinCirculation_Test.java" startLine="90" startPosition="77" endLine="95" endPosition="20">
+      <varInfo nodeId="228830736476020788" varName="flowCost" />
+    </scopeInfo>
+    <scopeInfo nodeId="228830736476020669" fileName="MinCirculation_Test.java" startLine="73" startPosition="126" endLine="80" endPosition="23">
+      <varInfo nodeId="228830736476020677" varName="numEdges" />
+      <varInfo nodeId="228830736476020685" varName="circulation" />
+      <varInfo nodeId="228830736476020671" varName="numNodes" />
+    </scopeInfo>
+    <scopeInfo nodeId="228830736476020741" fileName="MinCirculation_Test.java" startLine="82" startPosition="0" endLine="89" endPosition="0">
+      <varInfo nodeId="228830736476020780" varName="values" />
+      <varInfo nodeId="228830736476020778" varName="source" />
+      <varInfo nodeId="228830736476020774" varName="edgesMap" />
+    </scopeInfo>
+    <scopeInfo nodeId="228830736476020783" fileName="MinCirculation_Test.java" startLine="89" startPosition="0" endLine="97" endPosition="0">
+      <varInfo nodeId="228830736476020809" varName="flow" />
+      <varInfo nodeId="228830736476020813" varName="cost" />
+    </scopeInfo>
+    <scopeInfo nodeId="228830736476020667" fileName="MinCirculation_Test.java" startLine="72" startPosition="0" endLine="82" endPosition="0">
+      <varInfo nodeId="228830736476020724" varName="graph" />
+      <varInfo nodeId="228830736476020730" varName="capacity" />
+      <varInfo nodeId="228830736476020817" varName="low" />
+      <varInfo nodeId="228830736476020734" varName="cost" />
+    </scopeInfo>
+    <scopeInfo nodeId="228830736476020842" fileName="MinCirculation_Test.java" startLine="22" startPosition="45" endLine="44" endPosition="5">
+      <varInfo nodeId="228830736476020849" varName="graphString" />
+      <varInfo nodeId="228830736476020857" varName="graph" />
+      <varInfo nodeId="228830736476021063" varName="circulation" />
+      <varInfo nodeId="228830736476020933" varName="capacity" />
+      <varInfo nodeId="228830736476020868" varName="low" />
+      <varInfo nodeId="228830736476020987" varName="cost" />
+    </scopeInfo>
+    <scopeInfo nodeId="228830736476022846" fileName="MinCirculation_Test.java" startLine="47" startPosition="45" endLine="70" endPosition="5">
+      <varInfo nodeId="228830736476022848" varName="graphString" />
+      <varInfo nodeId="228830736476022852" varName="graph" />
+      <varInfo nodeId="228830736476023018" varName="circulation" />
+      <varInfo nodeId="228830736476022912" varName="capacity" />
+      <varInfo nodeId="228830736476022859" varName="low" />
+      <varInfo nodeId="228830736476022965" varName="cost" />
+    </scopeInfo>
+    <scopeInfo nodeId="228830736476020839" fileName="MinCirculation_Test.java" startLine="21" startPosition="51" endLine="46" endPosition="0" />
+    <scopeInfo nodeId="228830736476022843" fileName="MinCirculation_Test.java" startLine="46" startPosition="0" endLine="72" endPosition="0" />
+  </root>
+  <root nodeId="3935697627027920091">
+    <nodeInfo nodeId="3935697627027920245" fileName="FlowChecker.java" startLine="15" startPosition="63" endLine="16" endPosition="104" />
+    <nodeInfo nodeId="3935697627027920261" fileName="FlowChecker.java" startLine="16" startPosition="104" endLine="17" endPosition="66" />
+    <nodeInfo nodeId="228830736476019042" fileName="FlowChecker.java" startLine="20" startPosition="45" endLine="21" endPosition="50" />
+    <nodeInfo nodeId="3935697627027920394" fileName="FlowChecker.java" startLine="25" startPosition="69" endLine="26" endPosition="106" />
+    <nodeInfo nodeId="3935697627027920420" fileName="FlowChecker.java" startLine="28" startPosition="68" endLine="29" endPosition="106" />
+    <nodeInfo nodeId="228830736476019075" fileName="FlowChecker.java" startLine="35" startPosition="63" endLine="36" endPosition="111" />
+    <nodeInfo nodeId="228830736476019083" fileName="FlowChecker.java" startLine="36" startPosition="111" endLine="37" endPosition="106" />
+    <nodeInfo nodeId="228830736476019132" fileName="FlowChecker.java" startLine="39" startPosition="63" endLine="40" endPosition="43" />
+    <nodeInfo nodeId="228830736476019010" fileName="FlowChecker.java" startLine="44" startPosition="77" endLine="45" endPosition="19" />
+    <nodeInfo nodeId="228830736476019018" fileName="FlowChecker.java" startLine="46" startPosition="64" endLine="47" endPosition="52" />
+    <nodeInfo nodeId="228830736476019024" fileName="FlowChecker.java" startLine="48" startPosition="5" endLine="49" endPosition="20" />
+    <nodeInfo nodeId="228830736476019032" fileName="FlowChecker.java" startLine="50" startPosition="64" endLine="51" endPosition="53" />
+    <nodeInfo nodeId="228830736476019038" fileName="FlowChecker.java" startLine="52" startPosition="5" endLine="53" endPosition="41" />
+    <nodeInfo nodeId="3935697627027920287" fileName="FlowChecker.java" startLine="19" startPosition="63" endLine="22" endPosition="7" />
+    <nodeInfo nodeId="3935697627027920383" fileName="FlowChecker.java" startLine="24" startPosition="20" endLine="27" endPosition="7" />
+    <nodeInfo nodeId="3935697627027920414" fileName="FlowChecker.java" startLine="27" startPosition="7" endLine="30" endPosition="7" />
+    <nodeInfo nodeId="228830736476019089" fileName="FlowChecker.java" startLine="38" startPosition="5" endLine="41" endPosition="5" />
+    <nodeInfo nodeId="228830736476019013" fileName="FlowChecker.java" startLine="45" startPosition="19" endLine="48" endPosition="5" />
+    <nodeInfo nodeId="228830736476019027" fileName="FlowChecker.java" startLine="49" startPosition="20" endLine="52" endPosition="5" />
+    <nodeInfo nodeId="3935697627027920235" fileName="FlowChecker.java" startLine="14" startPosition="144" endLine="18" endPosition="5" />
+    <nodeInfo nodeId="228830736476019069" fileName="FlowChecker.java" startLine="34" startPosition="137" endLine="38" endPosition="5" />
+    <nodeInfo nodeId="3935697627027920274" fileName="FlowChecker.java" startLine="18" startPosition="5" endLine="23" endPosition="5" />
+    <nodeInfo nodeId="3935697627027920359" fileName="FlowChecker.java" startLine="23" startPosition="5" endLine="31" endPosition="5" />
+    <nodeInfo nodeId="228830736476019046" fileName="FlowChecker.java" startLine="33" startPosition="0" endLine="43" endPosition="0" />
+    <nodeInfo nodeId="228830736476019002" fileName="FlowChecker.java" startLine="43" startPosition="0" endLine="55" endPosition="0" />
+    <nodeInfo nodeId="3935697627027920209" fileName="FlowChecker.java" startLine="13" startPosition="26" endLine="33" endPosition="0" />
+    <scopeInfo nodeId="3935697627027920289" fileName="FlowChecker.java" startLine="20" startPosition="45" endLine="21" endPosition="50" />
+    <scopeInfo nodeId="3935697627027920386" fileName="FlowChecker.java" startLine="25" startPosition="69" endLine="26" endPosition="106" />
+    <scopeInfo nodeId="3935697627027920419" fileName="FlowChecker.java" startLine="28" startPosition="68" endLine="29" endPosition="106" />
+    <scopeInfo nodeId="228830736476019094" fileName="FlowChecker.java" startLine="39" startPosition="63" endLine="40" endPosition="43" />
+    <scopeInfo nodeId="228830736476019017" fileName="FlowChecker.java" startLine="46" startPosition="64" endLine="47" endPosition="52" />
+    <scopeInfo nodeId="228830736476019031" fileName="FlowChecker.java" startLine="50" startPosition="64" endLine="51" endPosition="53" />
+    <scopeInfo nodeId="3935697627027920238" fileName="FlowChecker.java" startLine="15" startPosition="63" endLine="17" endPosition="66" />
+    <scopeInfo nodeId="228830736476019074" fileName="FlowChecker.java" startLine="35" startPosition="63" endLine="37" endPosition="106" />
+    <scopeInfo nodeId="3935697627027920277" fileName="FlowChecker.java" startLine="19" startPosition="63" endLine="22" endPosition="7" />
+    <scopeInfo nodeId="3935697627027920383" fileName="FlowChecker.java" startLine="24" startPosition="20" endLine="27" endPosition="7" />
+    <scopeInfo nodeId="3935697627027920414" fileName="FlowChecker.java" startLine="27" startPosition="7" endLine="30" endPosition="7" />
+    <scopeInfo nodeId="228830736476019089" fileName="FlowChecker.java" startLine="38" startPosition="5" endLine="41" endPosition="5" />
+    <scopeInfo nodeId="228830736476019013" fileName="FlowChecker.java" startLine="45" startPosition="19" endLine="48" endPosition="5" />
+    <scopeInfo nodeId="228830736476019027" fileName="FlowChecker.java" startLine="49" startPosition="20" endLine="52" endPosition="5" />
+    <scopeInfo nodeId="3935697627027920235" fileName="FlowChecker.java" startLine="14" startPosition="144" endLine="18" endPosition="5" />
+    <scopeInfo nodeId="228830736476019069" fileName="FlowChecker.java" startLine="34" startPosition="137" endLine="38" endPosition="5" />
+    <scopeInfo nodeId="3935697627027920274" fileName="FlowChecker.java" startLine="18" startPosition="5" endLine="23" endPosition="5" />
+    <scopeInfo nodeId="3935697627027920360" fileName="FlowChecker.java" startLine="24" startPosition="20" endLine="30" endPosition="7" />
+    <scopeInfo nodeId="228830736476019049" fileName="FlowChecker.java" startLine="34" startPosition="137" endLine="41" endPosition="5" />
+    <scopeInfo nodeId="228830736476019009" fileName="FlowChecker.java" startLine="44" startPosition="77" endLine="53" endPosition="41">
+      <varInfo nodeId="228830736476018999" varName="outFlow" />
+      <varInfo nodeId="228830736476018997" varName="inFlow" />
+    </scopeInfo>
+    <scopeInfo nodeId="228830736476019046" fileName="FlowChecker.java" startLine="33" startPosition="0" endLine="43" endPosition="0">
+      <varInfo nodeId="228830736476019050" varName="graph" />
+      <varInfo nodeId="228830736476019108" varName="circulation" />
+      <varInfo nodeId="228830736476019060" varName="capacity" />
+      <varInfo nodeId="228830736476019053" varName="low" />
+    </scopeInfo>
+    <scopeInfo nodeId="228830736476019002" fileName="FlowChecker.java" startLine="43" startPosition="0" endLine="55" endPosition="0">
+      <varInfo nodeId="228830736476019000" varName="node" />
+      <varInfo nodeId="228830736476019001" varName="flow" />
+    </scopeInfo>
+    <scopeInfo nodeId="3935697627027920212" fileName="FlowChecker.java" startLine="14" startPosition="144" endLine="31" endPosition="5" />
+    <scopeInfo nodeId="3935697627027920209" fileName="FlowChecker.java" startLine="13" startPosition="26" endLine="33" endPosition="0">
+      <varInfo nodeId="3935697627027920213" varName="graph" />
+      <varInfo nodeId="3935697627027920215" varName="source" />
+      <varInfo nodeId="3935697627027920218" varName="target" />
+      <varInfo nodeId="3935697627027920221" varName="capacity" />
+      <varInfo nodeId="3935697627027920278" varName="checkFull" />
+      <varInfo nodeId="3935697627027920228" varName="flow" />
+    </scopeInfo>
+    <unitInfo nodeId="3935697627027920091" fileName="FlowChecker.java" startLine="13" startPosition="0" endLine="56" endPosition="0" unitName="graphTest.FlowChecker" />
+  </root>
   <root nodeId="4179389957059012709">
     <nodeInfo nodeId="4179389957059012722" fileName="ShortestPath_Test.java" startLine="15" startPosition="48" endLine="16" endPosition="50" />
     <nodeInfo nodeId="4179389957059012729" fileName="ShortestPath_Test.java" startLine="16" startPosition="50" endLine="17" endPosition="108" />
@@ -143,6 +332,23 @@
       <varInfo nodeId="4179389957059012730" varName="path" />
     </scopeInfo>
     <scopeInfo nodeId="4179389957059012716" fileName="ShortestPath_Test.java" startLine="14" startPosition="49" endLine="25" endPosition="0" />
+  </root>
+  <root nodeId="4250605017401931158">
+    <nodeInfo nodeId="4250605017401931171" fileName="FordBellman_Test.java" startLine="17" startPosition="48" endLine="18" endPosition="50" />
+    <nodeInfo nodeId="4250605017401931207" fileName="FordBellman_Test.java" startLine="18" startPosition="50" endLine="19" endPosition="77" />
+    <nodeInfo nodeId="4250605017401931221" fileName="FordBellman_Test.java" startLine="19" startPosition="77" endLine="20" endPosition="100" />
+    <nodeInfo nodeId="4250605017401931248" fileName="FordBellman_Test.java" startLine="20" startPosition="100" endLine="21" endPosition="100" />
+    <nodeInfo nodeId="4250605017401931266" fileName="FordBellman_Test.java" startLine="21" startPosition="100" endLine="22" endPosition="100" />
+    <nodeInfo nodeId="4250605017401931184" fileName="FordBellman_Test.java" startLine="22" startPosition="100" endLine="23" endPosition="70" />
+    <nodeInfo nodeId="4250605017401933175" fileName="FordBellman_Test.java" startLine="23" startPosition="70" endLine="24" endPosition="26" />
+    <nodeInfo nodeId="4250605017401933680" fileName="FordBellman_Test.java" startLine="24" startPosition="26" endLine="25" endPosition="101" />
+    <nodeInfo nodeId="4250605017401931165" fileName="FordBellman_Test.java" startLine="16" startPosition="48" endLine="27" endPosition="0" />
+    <scopeInfo nodeId="4250605017401931168" fileName="FordBellman_Test.java" startLine="17" startPosition="48" endLine="25" endPosition="101">
+      <varInfo nodeId="4250605017401931208" varName="w" />
+      <varInfo nodeId="4250605017401931172" varName="graph" />
+      <varInfo nodeId="4250605017401931185" varName="bellman" />
+    </scopeInfo>
+    <scopeInfo nodeId="4250605017401931165" fileName="FordBellman_Test.java" startLine="16" startPosition="48" endLine="27" endPosition="0" />
   </root>
   <root nodeId="4644851485137246800">
     <nodeInfo nodeId="4644851485137247436" fileName="BiconnectComponent_Test.java" startLine="13" startPosition="45" endLine="14" endPosition="71" />
@@ -352,48 +558,58 @@
     <unitInfo nodeId="6074874003310499065" fileName="BiconnectivityChecker.java" startLine="15" startPosition="0" endLine="77" endPosition="0" unitName="graphTest.BiconnectivityChecker" />
   </root>
   <root nodeId="6074874003310500653">
-    <nodeInfo nodeId="6074874003310507284" fileName="BiconnectAugmentation_Test.java" startLine="15" startPosition="46" endLine="16" endPosition="48" />
-    <nodeInfo nodeId="6074874003310500674" fileName="BiconnectAugmentation_Test.java" startLine="16" startPosition="48" endLine="17" endPosition="49" />
-    <nodeInfo nodeId="6074874003310506959" fileName="BiconnectAugmentation_Test.java" startLine="17" startPosition="49" endLine="18" endPosition="39" />
-    <nodeInfo nodeId="6074874003310507610" fileName="BiconnectAugmentation_Test.java" startLine="21" startPosition="45" endLine="22" endPosition="41" />
-    <nodeInfo nodeId="6074874003310508336" fileName="BiconnectAugmentation_Test.java" startLine="22" startPosition="41" endLine="23" endPosition="22" />
-    <nodeInfo nodeId="6074874003310508297" fileName="BiconnectAugmentation_Test.java" startLine="26" startPosition="45" endLine="27" endPosition="66" />
-    <nodeInfo nodeId="6074874003310508340" fileName="BiconnectAugmentation_Test.java" startLine="27" startPosition="66" endLine="28" endPosition="22" />
-    <nodeInfo nodeId="4624841703139859439" fileName="BiconnectAugmentation_Test.java" startLine="31" startPosition="42" endLine="32" endPosition="82" />
-    <nodeInfo nodeId="4624841703139859445" fileName="BiconnectAugmentation_Test.java" startLine="32" startPosition="82" endLine="33" endPosition="22" />
-    <nodeInfo nodeId="6074874003310508321" fileName="BiconnectAugmentation_Test.java" startLine="36" startPosition="40" endLine="37" endPosition="62" />
-    <nodeInfo nodeId="6074874003310508328" fileName="BiconnectAugmentation_Test.java" startLine="37" startPosition="62" endLine="38" endPosition="49" />
-    <nodeInfo nodeId="6074874003310508670" fileName="BiconnectAugmentation_Test.java" startLine="38" startPosition="49" endLine="39" endPosition="30" />
-    <nodeInfo nodeId="4624841703139860124" fileName="BiconnectAugmentation_Test.java" startLine="39" startPosition="30" endLine="40" endPosition="72" />
-    <nodeInfo nodeId="4624841703139860147" fileName="BiconnectAugmentation_Test.java" startLine="40" startPosition="72" endLine="41" endPosition="38" />
-    <nodeInfo nodeId="6074874003310508331" fileName="BiconnectAugmentation_Test.java" startLine="41" startPosition="38" endLine="42" endPosition="39" />
-    <nodeInfo nodeId="6074874003310507606" fileName="BiconnectAugmentation_Test.java" startLine="20" startPosition="0" endLine="25" endPosition="0" />
-    <nodeInfo nodeId="6074874003310508293" fileName="BiconnectAugmentation_Test.java" startLine="25" startPosition="0" endLine="30" endPosition="0" />
-    <nodeInfo nodeId="4624841703139859435" fileName="BiconnectAugmentation_Test.java" startLine="30" startPosition="0" endLine="35" endPosition="0" />
-    <nodeInfo nodeId="6074874003310500664" fileName="BiconnectAugmentation_Test.java" startLine="14" startPosition="58" endLine="20" endPosition="0" />
-    <nodeInfo nodeId="6074874003310508314" fileName="BiconnectAugmentation_Test.java" startLine="35" startPosition="0" endLine="44" endPosition="0" />
-    <scopeInfo nodeId="6074874003310507609" fileName="BiconnectAugmentation_Test.java" startLine="21" startPosition="45" endLine="23" endPosition="22">
-      <varInfo nodeId="6074874003310507611" varName="graphString" />
-    </scopeInfo>
-    <scopeInfo nodeId="6074874003310508296" fileName="BiconnectAugmentation_Test.java" startLine="26" startPosition="45" endLine="28" endPosition="22">
-      <varInfo nodeId="6074874003310508298" varName="graphString" />
-    </scopeInfo>
-    <scopeInfo nodeId="4624841703139859438" fileName="BiconnectAugmentation_Test.java" startLine="31" startPosition="42" endLine="33" endPosition="22">
-      <varInfo nodeId="4624841703139859440" varName="graphString" />
-    </scopeInfo>
-    <scopeInfo nodeId="6074874003310500667" fileName="BiconnectAugmentation_Test.java" startLine="15" startPosition="46" endLine="18" endPosition="39">
+    <nodeInfo nodeId="6074874003310507284" fileName="BiconnectAugmentation_Test.java" startLine="13" startPosition="46" endLine="14" endPosition="48" />
+    <nodeInfo nodeId="6074874003310500674" fileName="BiconnectAugmentation_Test.java" startLine="14" startPosition="48" endLine="15" endPosition="49" />
+    <nodeInfo nodeId="6074874003310506959" fileName="BiconnectAugmentation_Test.java" startLine="15" startPosition="49" endLine="16" endPosition="39" />
+    <nodeInfo nodeId="6074874003310507610" fileName="BiconnectAugmentation_Test.java" startLine="19" startPosition="45" endLine="20" endPosition="41" />
+    <nodeInfo nodeId="6074874003310508336" fileName="BiconnectAugmentation_Test.java" startLine="20" startPosition="41" endLine="21" endPosition="22" />
+    <nodeInfo nodeId="529057043639338209" fileName="BiconnectAugmentation_Test.java" startLine="21" startPosition="22" endLine="22" endPosition="27" />
+    <nodeInfo nodeId="6074874003310508297" fileName="BiconnectAugmentation_Test.java" startLine="25" startPosition="45" endLine="26" endPosition="66" />
+    <nodeInfo nodeId="6074874003310508340" fileName="BiconnectAugmentation_Test.java" startLine="26" startPosition="66" endLine="27" endPosition="22" />
+    <nodeInfo nodeId="529057043639338213" fileName="BiconnectAugmentation_Test.java" startLine="27" startPosition="22" endLine="28" endPosition="27" />
+    <nodeInfo nodeId="4624841703139859439" fileName="BiconnectAugmentation_Test.java" startLine="31" startPosition="45" endLine="32" endPosition="56" />
+    <nodeInfo nodeId="4624841703139859445" fileName="BiconnectAugmentation_Test.java" startLine="32" startPosition="56" endLine="33" endPosition="22" />
+    <nodeInfo nodeId="529057043639338216" fileName="BiconnectAugmentation_Test.java" startLine="33" startPosition="22" endLine="34" endPosition="27" />
+    <nodeInfo nodeId="6074874003310508321" fileName="BiconnectAugmentation_Test.java" startLine="37" startPosition="40" endLine="38" endPosition="62" />
+    <nodeInfo nodeId="6074874003310508328" fileName="BiconnectAugmentation_Test.java" startLine="38" startPosition="62" endLine="39" endPosition="49" />
+    <nodeInfo nodeId="6074874003310508331" fileName="BiconnectAugmentation_Test.java" startLine="39" startPosition="49" endLine="40" endPosition="39" />
+    <nodeInfo nodeId="529057043639338193" fileName="BiconnectAugmentation_Test.java" startLine="43" startPosition="45" endLine="44" endPosition="62" />
+    <nodeInfo nodeId="529057043639338200" fileName="BiconnectAugmentation_Test.java" startLine="44" startPosition="62" endLine="45" endPosition="54" />
+    <nodeInfo nodeId="529057043639339165" fileName="BiconnectAugmentation_Test.java" startLine="45" startPosition="54" endLine="46" endPosition="30" />
+    <nodeInfo nodeId="529057043639338203" fileName="BiconnectAugmentation_Test.java" startLine="46" startPosition="30" endLine="47" endPosition="39" />
+    <nodeInfo nodeId="6074874003310500664" fileName="BiconnectAugmentation_Test.java" startLine="12" startPosition="58" endLine="18" endPosition="0" />
+    <nodeInfo nodeId="6074874003310507606" fileName="BiconnectAugmentation_Test.java" startLine="18" startPosition="0" endLine="24" endPosition="0" />
+    <nodeInfo nodeId="6074874003310508293" fileName="BiconnectAugmentation_Test.java" startLine="24" startPosition="0" endLine="30" endPosition="0" />
+    <nodeInfo nodeId="4624841703139859435" fileName="BiconnectAugmentation_Test.java" startLine="30" startPosition="0" endLine="36" endPosition="0" />
+    <nodeInfo nodeId="6074874003310508314" fileName="BiconnectAugmentation_Test.java" startLine="36" startPosition="0" endLine="42" endPosition="0" />
+    <nodeInfo nodeId="529057043639338186" fileName="BiconnectAugmentation_Test.java" startLine="42" startPosition="0" endLine="49" endPosition="0" />
+    <scopeInfo nodeId="6074874003310500667" fileName="BiconnectAugmentation_Test.java" startLine="13" startPosition="46" endLine="16" endPosition="39">
       <varInfo nodeId="6074874003310507285" varName="graph" />
     </scopeInfo>
-    <scopeInfo nodeId="6074874003310507606" fileName="BiconnectAugmentation_Test.java" startLine="20" startPosition="0" endLine="25" endPosition="0" />
-    <scopeInfo nodeId="6074874003310508293" fileName="BiconnectAugmentation_Test.java" startLine="25" startPosition="0" endLine="30" endPosition="0" />
-    <scopeInfo nodeId="4624841703139859435" fileName="BiconnectAugmentation_Test.java" startLine="30" startPosition="0" endLine="35" endPosition="0" />
-    <scopeInfo nodeId="6074874003310500664" fileName="BiconnectAugmentation_Test.java" startLine="14" startPosition="58" endLine="20" endPosition="0" />
-    <scopeInfo nodeId="6074874003310508317" fileName="BiconnectAugmentation_Test.java" startLine="36" startPosition="40" endLine="42" endPosition="39">
-      <varInfo nodeId="6074874003310508322" varName="graph" />
-      <varInfo nodeId="4624841703139860125" varName="embeddedGraph" />
+    <scopeInfo nodeId="6074874003310507609" fileName="BiconnectAugmentation_Test.java" startLine="19" startPosition="45" endLine="22" endPosition="27">
+      <varInfo nodeId="6074874003310507611" varName="graphString" />
     </scopeInfo>
-    <scopeInfo nodeId="6074874003310508314" fileName="BiconnectAugmentation_Test.java" startLine="35" startPosition="0" endLine="44" endPosition="0">
+    <scopeInfo nodeId="6074874003310508296" fileName="BiconnectAugmentation_Test.java" startLine="25" startPosition="45" endLine="28" endPosition="27">
+      <varInfo nodeId="6074874003310508298" varName="graphString" />
+    </scopeInfo>
+    <scopeInfo nodeId="4624841703139859438" fileName="BiconnectAugmentation_Test.java" startLine="31" startPosition="45" endLine="34" endPosition="27">
+      <varInfo nodeId="4624841703139859440" varName="graphString" />
+    </scopeInfo>
+    <scopeInfo nodeId="6074874003310508317" fileName="BiconnectAugmentation_Test.java" startLine="37" startPosition="40" endLine="40" endPosition="39">
+      <varInfo nodeId="6074874003310508322" varName="graph" />
+    </scopeInfo>
+    <scopeInfo nodeId="529057043639338189" fileName="BiconnectAugmentation_Test.java" startLine="43" startPosition="45" endLine="47" endPosition="39">
+      <varInfo nodeId="529057043639338194" varName="graph" />
+    </scopeInfo>
+    <scopeInfo nodeId="6074874003310500664" fileName="BiconnectAugmentation_Test.java" startLine="12" startPosition="58" endLine="18" endPosition="0" />
+    <scopeInfo nodeId="6074874003310507606" fileName="BiconnectAugmentation_Test.java" startLine="18" startPosition="0" endLine="24" endPosition="0" />
+    <scopeInfo nodeId="6074874003310508293" fileName="BiconnectAugmentation_Test.java" startLine="24" startPosition="0" endLine="30" endPosition="0" />
+    <scopeInfo nodeId="4624841703139859435" fileName="BiconnectAugmentation_Test.java" startLine="30" startPosition="0" endLine="36" endPosition="0" />
+    <scopeInfo nodeId="6074874003310508314" fileName="BiconnectAugmentation_Test.java" startLine="36" startPosition="0" endLine="42" endPosition="0">
       <varInfo nodeId="6074874003310508318" varName="graphString" />
+    </scopeInfo>
+    <scopeInfo nodeId="529057043639338186" fileName="BiconnectAugmentation_Test.java" startLine="42" startPosition="0" endLine="49" endPosition="0">
+      <varInfo nodeId="529057043639338190" varName="graphString" />
     </scopeInfo>
   </root>
   <root nodeId="903391227141030928">
@@ -415,6 +631,109 @@
       <varInfo nodeId="903391227141030963" varName="edges" />
     </scopeInfo>
     <scopeInfo nodeId="903391227141030935" fileName="WeightedTopologicalNumbering_Test.java" startLine="18" startPosition="65" endLine="31" endPosition="0" />
+  </root>
+  <root nodeId="9057893087611421554">
+    <nodeInfo nodeId="9057893087611421748" fileName="MinCostMaxFlow_Test.java" startLine="22" startPosition="45" endLine="23" endPosition="71" />
+    <nodeInfo nodeId="9057893087611421756" fileName="MinCostMaxFlow_Test.java" startLine="23" startPosition="71" endLine="24" endPosition="62" />
+    <nodeInfo nodeId="9057893087611422592" fileName="MinCostMaxFlow_Test.java" startLine="24" startPosition="62" endLine="25" endPosition="84" />
+    <nodeInfo nodeId="9057893087611426457" fileName="MinCostMaxFlow_Test.java" startLine="25" startPosition="84" endLine="26" endPosition="107" />
+    <nodeInfo nodeId="9057893087611426474" fileName="MinCostMaxFlow_Test.java" startLine="26" startPosition="107" endLine="27" endPosition="107" />
+    <nodeInfo nodeId="9057893087611426486" fileName="MinCostMaxFlow_Test.java" startLine="27" startPosition="107" endLine="28" endPosition="107" />
+    <nodeInfo nodeId="9057893087611426498" fileName="MinCostMaxFlow_Test.java" startLine="28" startPosition="107" endLine="29" endPosition="104" />
+    <nodeInfo nodeId="9057893087611426510" fileName="MinCostMaxFlow_Test.java" startLine="29" startPosition="104" endLine="30" endPosition="104" />
+    <nodeInfo nodeId="9057893087611426661" fileName="MinCostMaxFlow_Test.java" startLine="30" startPosition="104" endLine="31" endPosition="80" />
+    <nodeInfo nodeId="9057893087611426670" fileName="MinCostMaxFlow_Test.java" startLine="31" startPosition="80" endLine="32" endPosition="103" />
+    <nodeInfo nodeId="9057893087611426682" fileName="MinCostMaxFlow_Test.java" startLine="32" startPosition="103" endLine="33" endPosition="103" />
+    <nodeInfo nodeId="9057893087611426694" fileName="MinCostMaxFlow_Test.java" startLine="33" startPosition="103" endLine="34" endPosition="103" />
+    <nodeInfo nodeId="9057893087611426706" fileName="MinCostMaxFlow_Test.java" startLine="34" startPosition="103" endLine="35" endPosition="100" />
+    <nodeInfo nodeId="9057893087611426717" fileName="MinCostMaxFlow_Test.java" startLine="35" startPosition="100" endLine="36" endPosition="100" />
+    <nodeInfo nodeId="9057893087611433120" fileName="MinCostMaxFlow_Test.java" startLine="36" startPosition="100" endLine="37" endPosition="155" />
+    <nodeInfo nodeId="9057893087611433140" fileName="MinCostMaxFlow_Test.java" startLine="37" startPosition="155" endLine="38" endPosition="52" />
+    <nodeInfo nodeId="9057893087611433841" fileName="MinCostMaxFlow_Test.java" startLine="41" startPosition="45" endLine="42" endPosition="71" />
+    <nodeInfo nodeId="9057893087611433845" fileName="MinCostMaxFlow_Test.java" startLine="42" startPosition="71" endLine="43" endPosition="62" />
+    <nodeInfo nodeId="9057893087611433852" fileName="MinCostMaxFlow_Test.java" startLine="43" startPosition="62" endLine="44" endPosition="84" />
+    <nodeInfo nodeId="9057893087611433861" fileName="MinCostMaxFlow_Test.java" startLine="44" startPosition="84" endLine="45" endPosition="107" />
+    <nodeInfo nodeId="9057893087611433873" fileName="MinCostMaxFlow_Test.java" startLine="45" startPosition="107" endLine="46" endPosition="107" />
+    <nodeInfo nodeId="9057893087611433885" fileName="MinCostMaxFlow_Test.java" startLine="46" startPosition="107" endLine="47" endPosition="107" />
+    <nodeInfo nodeId="9057893087611433897" fileName="MinCostMaxFlow_Test.java" startLine="47" startPosition="107" endLine="48" endPosition="104" />
+    <nodeInfo nodeId="9057893087611433908" fileName="MinCostMaxFlow_Test.java" startLine="48" startPosition="104" endLine="49" endPosition="104" />
+    <nodeInfo nodeId="9057893087611433919" fileName="MinCostMaxFlow_Test.java" startLine="49" startPosition="104" endLine="50" endPosition="80" />
+    <nodeInfo nodeId="9057893087611433928" fileName="MinCostMaxFlow_Test.java" startLine="50" startPosition="80" endLine="51" endPosition="103" />
+    <nodeInfo nodeId="9057893087611433940" fileName="MinCostMaxFlow_Test.java" startLine="51" startPosition="103" endLine="52" endPosition="104" />
+    <nodeInfo nodeId="9057893087611433952" fileName="MinCostMaxFlow_Test.java" startLine="52" startPosition="104" endLine="53" endPosition="103" />
+    <nodeInfo nodeId="9057893087611433964" fileName="MinCostMaxFlow_Test.java" startLine="53" startPosition="103" endLine="54" endPosition="100" />
+    <nodeInfo nodeId="9057893087611433975" fileName="MinCostMaxFlow_Test.java" startLine="54" startPosition="100" endLine="55" endPosition="100" />
+    <nodeInfo nodeId="9057893087611433986" fileName="MinCostMaxFlow_Test.java" startLine="55" startPosition="100" endLine="56" endPosition="155" />
+    <nodeInfo nodeId="9057893087611434005" fileName="MinCostMaxFlow_Test.java" startLine="56" startPosition="155" endLine="57" endPosition="52" />
+    <nodeInfo nodeId="9057893087611421671" fileName="MinCostMaxFlow_Test.java" startLine="60" startPosition="128" endLine="61" endPosition="39" />
+    <nodeInfo nodeId="9057893087611421683" fileName="MinCostMaxFlow_Test.java" startLine="61" startPosition="39" endLine="62" endPosition="67" />
+    <nodeInfo nodeId="9057893087611421659" fileName="MinCostMaxFlow_Test.java" startLine="62" startPosition="67" endLine="63" endPosition="92" />
+    <nodeInfo nodeId="9057893087611430926" fileName="MinCostMaxFlow_Test.java" startLine="63" startPosition="92" endLine="64" endPosition="29" />
+    <nodeInfo nodeId="9057893087611421699" fileName="MinCostMaxFlow_Test.java" startLine="64" startPosition="29" endLine="65" endPosition="72" />
+    <nodeInfo nodeId="9057893087611421714" fileName="MinCostMaxFlow_Test.java" startLine="65" startPosition="72" endLine="66" endPosition="55" />
+    <nodeInfo nodeId="9057893087611421727" fileName="MinCostMaxFlow_Test.java" startLine="66" startPosition="55" endLine="67" endPosition="83" />
+    <nodeInfo nodeId="9057893087611433117" fileName="MinCostMaxFlow_Test.java" startLine="67" startPosition="83" endLine="68" endPosition="16" />
+    <nodeInfo nodeId="9057893087611426396" fileName="MinCostMaxFlow_Test.java" startLine="71" startPosition="92" endLine="72" endPosition="44" />
+    <nodeInfo nodeId="9057893087611426438" fileName="MinCostMaxFlow_Test.java" startLine="73" startPosition="68" endLine="74" endPosition="129" />
+    <nodeInfo nodeId="9057893087611433075" fileName="MinCostMaxFlow_Test.java" startLine="78" startPosition="77" endLine="79" endPosition="21" />
+    <nodeInfo nodeId="9057893087611433091" fileName="MinCostMaxFlow_Test.java" startLine="80" startPosition="79" endLine="81" endPosition="92" />
+    <nodeInfo nodeId="9057893087611433110" fileName="MinCostMaxFlow_Test.java" startLine="82" startPosition="5" endLine="83" endPosition="20" />
+    <nodeInfo nodeId="9057893087611426417" fileName="MinCostMaxFlow_Test.java" startLine="72" startPosition="44" endLine="75" endPosition="5" />
+    <nodeInfo nodeId="9057893087611433081" fileName="MinCostMaxFlow_Test.java" startLine="79" startPosition="21" endLine="82" endPosition="5" />
+    <nodeInfo nodeId="9057893087611426349" fileName="MinCostMaxFlow_Test.java" startLine="70" startPosition="0" endLine="77" endPosition="0" />
+    <nodeInfo nodeId="9057893087611433055" fileName="MinCostMaxFlow_Test.java" startLine="77" startPosition="0" endLine="85" endPosition="0" />
+    <nodeInfo nodeId="9057893087611421610" fileName="MinCostMaxFlow_Test.java" startLine="59" startPosition="0" endLine="70" endPosition="0" />
+    <nodeInfo nodeId="9057893087611421744" fileName="MinCostMaxFlow_Test.java" startLine="21" startPosition="51" endLine="40" endPosition="0" />
+    <nodeInfo nodeId="9057893087611433837" fileName="MinCostMaxFlow_Test.java" startLine="40" startPosition="0" endLine="59" endPosition="0" />
+    <scopeInfo nodeId="9057893087611426418" fileName="MinCostMaxFlow_Test.java" startLine="73" startPosition="68" endLine="74" endPosition="129" />
+    <scopeInfo nodeId="9057893087611433084" fileName="MinCostMaxFlow_Test.java" startLine="80" startPosition="79" endLine="81" endPosition="92" />
+    <scopeInfo nodeId="9057893087611426417" fileName="MinCostMaxFlow_Test.java" startLine="72" startPosition="44" endLine="75" endPosition="5">
+      <varInfo nodeId="9057893087611426420" varName="i" />
+    </scopeInfo>
+    <scopeInfo nodeId="9057893087611433081" fileName="MinCostMaxFlow_Test.java" startLine="79" startPosition="21" endLine="82" endPosition="5" />
+    <scopeInfo nodeId="9057893087611426352" fileName="MinCostMaxFlow_Test.java" startLine="71" startPosition="92" endLine="75" endPosition="5">
+      <varInfo nodeId="9057893087611426397" varName="edges" />
+    </scopeInfo>
+    <scopeInfo nodeId="9057893087611433058" fileName="MinCostMaxFlow_Test.java" startLine="78" startPosition="77" endLine="83" endPosition="20">
+      <varInfo nodeId="9057893087611433076" varName="flowCost" />
+    </scopeInfo>
+    <scopeInfo nodeId="9057893087611426349" fileName="MinCostMaxFlow_Test.java" startLine="70" startPosition="0" endLine="77" endPosition="0">
+      <varInfo nodeId="9057893087611426366" varName="values" />
+      <varInfo nodeId="9057893087611426371" varName="source" />
+      <varInfo nodeId="9057893087611426354" varName="edgesMap" />
+    </scopeInfo>
+    <scopeInfo nodeId="9057893087611421613" fileName="MinCostMaxFlow_Test.java" startLine="60" startPosition="128" endLine="68" endPosition="16">
+      <varInfo nodeId="9057893087611421684" varName="numEdges" />
+      <varInfo nodeId="9057893087611421672" varName="numNodes" />
+      <varInfo nodeId="9057893087611421660" varName="flow" />
+    </scopeInfo>
+    <scopeInfo nodeId="9057893087611433055" fileName="MinCostMaxFlow_Test.java" startLine="77" startPosition="0" endLine="85" endPosition="0">
+      <varInfo nodeId="9057893087611433062" varName="flow" />
+      <varInfo nodeId="9057893087611433068" varName="cost" />
+    </scopeInfo>
+    <scopeInfo nodeId="9057893087611421610" fileName="MinCostMaxFlow_Test.java" startLine="59" startPosition="0" endLine="70" endPosition="0">
+      <varInfo nodeId="9057893087611421614" varName="graph" />
+      <varInfo nodeId="9057893087611421646" varName="source" />
+      <varInfo nodeId="9057893087611421649" varName="target" />
+      <varInfo nodeId="9057893087611421616" varName="capacity" />
+      <varInfo nodeId="9057893087611421626" varName="cost" />
+    </scopeInfo>
+    <scopeInfo nodeId="9057893087611421747" fileName="MinCostMaxFlow_Test.java" startLine="22" startPosition="45" endLine="38" endPosition="52">
+      <varInfo nodeId="9057893087611421749" varName="graphString" />
+      <varInfo nodeId="9057893087611421757" varName="graph" />
+      <varInfo nodeId="9057893087611422593" varName="capacity" />
+      <varInfo nodeId="9057893087611433121" varName="flow" />
+      <varInfo nodeId="9057893087611426662" varName="cost" />
+    </scopeInfo>
+    <scopeInfo nodeId="9057893087611433840" fileName="MinCostMaxFlow_Test.java" startLine="41" startPosition="45" endLine="57" endPosition="52">
+      <varInfo nodeId="9057893087611433842" varName="graphString" />
+      <varInfo nodeId="9057893087611433846" varName="graph" />
+      <varInfo nodeId="9057893087611433853" varName="capacity" />
+      <varInfo nodeId="9057893087611433987" varName="flow" />
+      <varInfo nodeId="9057893087611433920" varName="cost" />
+    </scopeInfo>
+    <scopeInfo nodeId="9057893087611421744" fileName="MinCostMaxFlow_Test.java" startLine="21" startPosition="51" endLine="40" endPosition="0" />
+    <scopeInfo nodeId="9057893087611433837" fileName="MinCostMaxFlow_Test.java" startLine="40" startPosition="0" endLine="59" endPosition="0" />
   </root>
   <root nodeId="920414672219836580">
     <nodeInfo nodeId="920414672219836591" fileName="TopologicalNumbering_Test.java" startLine="17" startPosition="51" endLine="18" endPosition="53" />

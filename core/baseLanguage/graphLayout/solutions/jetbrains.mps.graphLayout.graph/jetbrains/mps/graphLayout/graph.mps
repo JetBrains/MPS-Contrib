@@ -1081,6 +1081,80 @@
         <node role="type:3" type="jetbrains.mps.baseLanguage.structure.IntegerType:3" id="4038232163187048525" />
       </node>
     </node>
+    <node role="method:3" type="jetbrains.mps.baseLanguage.structure.InstanceMethodDeclaration:3" id="228830736476010680">
+      <property name="name:3" value="remove" />
+      <node role="returnType:3" type="jetbrains.mps.baseLanguage.structure.VoidType:3" id="228830736476010681" />
+      <node role="visibility:3" type="jetbrains.mps.baseLanguage.structure.PublicVisibility:3" id="228830736476010682" />
+      <node role="body:3" type="jetbrains.mps.baseLanguage.structure.StatementList:3" id="228830736476010683">
+        <node role="statement:3" type="jetbrains.mps.baseLanguage.structure.IfStatement:3" id="228830736476010686">
+          <node role="condition:3" type="jetbrains.mps.baseLanguage.structure.NotExpression:3" id="228830736476010689">
+            <node role="expression:3" type="jetbrains.mps.baseLanguage.structure.DotExpression:3" id="228830736476010692">
+              <node role="operand:3" type="jetbrains.mps.baseLanguage.structure.ParameterReference:3" id="228830736476010691">
+                <link role="variableDeclaration:3" targetNodeId="228830736476010684" resolveInfo="node" />
+              </node>
+              <node role="operation:3" type="jetbrains.mps.baseLanguage.structure.InstanceMethodCallOperation:3" id="228830736476010696">
+                <link role="baseMethodDeclaration:3" targetNodeId="6088058844796081325" resolveInfo="isDummy" />
+              </node>
+            </node>
+          </node>
+          <node role="ifTrue:3" type="jetbrains.mps.baseLanguage.structure.StatementList:3" id="228830736476010688">
+            <node role="statement:3" type="jetbrains.mps.baseLanguage.structure.ThrowStatement:3" id="228830736476010697">
+              <node role="throwable:3" type="jetbrains.mps.baseLanguage.structure.GenericNewExpression:3" id="228830736476010699">
+                <node role="creator:3" type="jetbrains.mps.baseLanguage.structure.ClassCreator:3" id="228830736476015950">
+                  <link role="baseMethodDeclaration:3" targetNodeId="2v.~RuntimeException.&lt;init&gt;(java.lang.String)" resolveInfo="RuntimeException" />
+                  <node role="actualArgument:3" type="jetbrains.mps.baseLanguage.structure.StringLiteral:3" id="228830736476015951">
+                    <property name="value:3" value="attept to remove real node" />
+                  </node>
+                </node>
+              </node>
+            </node>
+          </node>
+        </node>
+        <node role="statement:3" type="jetbrains.mps.baseLanguage.collections.structure.ForEachStatement:7" id="228830736476015953">
+          <node role="variable:7" type="jetbrains.mps.baseLanguage.collections.structure.ForEachVariable:7" id="228830736476015954">
+            <property name="name:7" value="edge" />
+          </node>
+          <node role="inputSequence:7" type="jetbrains.mps.baseLanguage.structure.DotExpression:3" id="228830736476015958">
+            <node role="operand:3" type="jetbrains.mps.baseLanguage.structure.ParameterReference:3" id="228830736476015957">
+              <link role="variableDeclaration:3" targetNodeId="228830736476010684" resolveInfo="node" />
+            </node>
+            <node role="operation:3" type="jetbrains.mps.baseLanguage.structure.InstanceMethodCallOperation:3" id="228830736476015962">
+              <link role="baseMethodDeclaration:3" targetNodeId="1327612371813210994" resolveInfo="getEdges" />
+            </node>
+          </node>
+          <node role="body:7" type="jetbrains.mps.baseLanguage.structure.StatementList:3" id="228830736476015956">
+            <node role="statement:3" type="jetbrains.mps.baseLanguage.structure.ExpressionStatement:3" id="228830736476015963">
+              <node role="expression:3" type="jetbrains.mps.baseLanguage.structure.DotExpression:3" id="228830736476015965">
+                <node role="operand:3" type="jetbrains.mps.baseLanguage.collections.structure.ForEachVariableReference:7" id="228830736476015964">
+                  <link role="variable:7" targetNodeId="228830736476015954" resolveInfo="edge" />
+                </node>
+                <node role="operation:3" type="jetbrains.mps.baseLanguage.structure.InstanceMethodCallOperation:3" id="228830736476015969">
+                  <link role="baseMethodDeclaration:3" targetNodeId="4660430665333277202" resolveInfo="removeFromGraph" />
+                </node>
+              </node>
+            </node>
+          </node>
+        </node>
+        <node role="statement:3" type="jetbrains.mps.baseLanguage.structure.ExpressionStatement:3" id="228830736476015972">
+          <node role="expression:3" type="jetbrains.mps.baseLanguage.structure.DotExpression:3" id="228830736476015974">
+            <node role="operand:3" type="jetbrains.mps.baseLanguage.structure.LocalInstanceFieldReference:3" id="228830736476015973">
+              <link role="variableDeclaration:3" targetNodeId="8567569493821107942" resolveInfo="myNodes" />
+            </node>
+            <node role="operation:3" type="jetbrains.mps.baseLanguage.collections.structure.RemoveElementOperation:7" id="228830736476015978">
+              <node role="argument:7" type="jetbrains.mps.baseLanguage.structure.ParameterReference:3" id="228830736476015980">
+                <link role="variableDeclaration:3" targetNodeId="228830736476010684" resolveInfo="node" />
+              </node>
+            </node>
+          </node>
+        </node>
+      </node>
+      <node role="parameter:3" type="jetbrains.mps.baseLanguage.structure.ParameterDeclaration:3" id="228830736476010684">
+        <property name="name:3" value="node" />
+        <node role="type:3" type="jetbrains.mps.baseLanguage.structure.ClassifierType:3" id="228830736476010685">
+          <link role="classifier:3" targetNodeId="4671312709908983848" resolveInfo="Node" />
+        </node>
+      </node>
+    </node>
     <node role="method:3" type="jetbrains.mps.baseLanguage.structure.InstanceMethodDeclaration:3" id="4519409331094617227">
       <property name="name:3" value="toString" />
       <node role="visibility:3" type="jetbrains.mps.baseLanguage.structure.PublicVisibility:3" id="4519409331094617228" />

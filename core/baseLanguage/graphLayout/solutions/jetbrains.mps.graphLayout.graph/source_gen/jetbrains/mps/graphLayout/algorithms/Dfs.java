@@ -30,9 +30,9 @@ public abstract class Dfs {
     this.init(graph, direction);
     for (Node node : ListSequence.fromList(myGraph.getNodes())) {
       if (MapSequence.fromMap(myDfsState).get(node) == BEFORE) {
-        preprocessRoot();
+        preprocessRoot(node);
         dfs(node, null);
-        postprocessRoot();
+        postprocessRoot(node);
       }
     }
   }
@@ -62,10 +62,10 @@ public abstract class Dfs {
     MapSequence.fromMap(myDfsState).put(node, AFTER);
   }
 
-  protected void preprocessRoot() {
+  protected void preprocessRoot(Node root) {
   }
 
-  protected void postprocessRoot() {
+  protected void postprocessRoot(Node root) {
   }
 
   protected void preprocess(Node node, Edge from) {

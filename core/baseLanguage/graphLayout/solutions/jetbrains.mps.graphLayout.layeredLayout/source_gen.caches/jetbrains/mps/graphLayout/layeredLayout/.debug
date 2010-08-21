@@ -83,6 +83,7 @@
     <nodeInfo nodeId="190081711777510109" fileName="MedianLayerSorter.java" startLine="60" startPosition="90" endLine="61" endPosition="82" />
     <nodeInfo nodeId="190081711777515794" fileName="MedianLayerSorter.java" startLine="62" startPosition="65" endLine="63" endPosition="112" />
     <nodeInfo nodeId="190081711777516025" fileName="MedianLayerSorter.java" startLine="65" startPosition="60" endLine="66" endPosition="16" />
+    <nodeInfo nodeId="190081711777515967" fileName="MedianLayerSorter.java" startLine="69" startPosition="47" endLine="70" endPosition="18" />
     <nodeInfo nodeId="4759409676487234270" fileName="MedianLayerSorter.java" startLine="73" startPosition="64" endLine="74" endPosition="111" />
     <nodeInfo nodeId="4759409676487234280" fileName="MedianLayerSorter.java" startLine="75" startPosition="12" endLine="76" endPosition="221" />
     <nodeInfo nodeId="4759409676487232965" fileName="MedianLayerSorter.java" startLine="80" startPosition="97" endLine="81" endPosition="26" />
@@ -191,6 +192,7 @@
     <nodeInfo nodeId="8780938838750221673" fileName="NodeLayeredOrder.java" startLine="48" startPosition="45" endLine="49" endPosition="24" />
     <nodeInfo nodeId="3256072703923739015" fileName="NodeLayeredOrder.java" startLine="52" startPosition="41" endLine="53" endPosition="67" />
     <nodeInfo nodeId="4660430665333276426" fileName="NodeLayeredOrder.java" startLine="56" startPosition="29" endLine="57" endPosition="57" />
+    <nodeInfo nodeId="4759409676487240523" fileName="NodeLayeredOrder.java" startLine="60" startPosition="27" endLine="61" endPosition="24" />
     <nodeInfo nodeId="4519409331094691680" fileName="NodeLayeredOrder.java" startLine="65" startPosition="28" endLine="66" endPosition="48" />
     <nodeInfo nodeId="4519409331094692092" fileName="NodeLayeredOrder.java" startLine="66" startPosition="48" endLine="67" endPosition="45" />
     <nodeInfo nodeId="4519409331094692065" fileName="NodeLayeredOrder.java" startLine="69" startPosition="59" endLine="70" endPosition="46" />
@@ -328,6 +330,7 @@
     <nodeInfo nodeId="4660430665333281360" fileName="LayeredLayouter.java" startLine="45" startPosition="116" endLine="46" endPosition="34" />
     <nodeInfo nodeId="4660430665333281368" fileName="LayeredLayouter.java" startLine="47" startPosition="7" endLine="48" endPosition="56" />
     <nodeInfo nodeId="4660430665333281381" fileName="LayeredLayouter.java" startLine="48" startPosition="56" endLine="49" endPosition="33" />
+    <nodeInfo nodeId="4660430665333281563" fileName="LayeredLayouter.java" startLine="52" startPosition="38" endLine="53" endPosition="28" />
     <nodeInfo nodeId="4660430665333281663" fileName="LayeredLayouter.java" startLine="56" startPosition="63" endLine="57" endPosition="85" />
     <nodeInfo nodeId="190081711777469969" fileName="LayeredLayouter.java" startLine="59" startPosition="71" endLine="60" endPosition="19" />
     <nodeInfo nodeId="190081711777469981" fileName="LayeredLayouter.java" startLine="61" startPosition="9" endLine="62" endPosition="214" />
@@ -560,7 +563,7 @@
     <nodeInfo nodeId="5180427534212031479" fileName="BlockGraphProcessor.java" startLine="89" startPosition="56" endLine="90" endPosition="37" />
     <nodeInfo nodeId="5180427534212031934" fileName="BlockGraphProcessor.java" startLine="92" startPosition="68" endLine="93" endPosition="59" />
     <nodeInfo nodeId="5180427534212031944" fileName="BlockGraphProcessor.java" startLine="94" startPosition="16" endLine="95" endPosition="107" />
-    <nodeInfo nodeId="5180427534212031512" fileName="BlockGraphProcessor.java" startLine="101" startPosition="37" endLine="102" endPosition="19" />
+    <nodeInfo nodeId="5180427534212031512" fileName="BlockGraphProcessor.java" startLine="101" startPosition="46" endLine="102" endPosition="19" />
     <nodeInfo nodeId="5180427534212031824" fileName="BlockGraphProcessor.java" startLine="23" startPosition="0" endLine="25" endPosition="3" />
     <nodeInfo nodeId="5180427534212031799" fileName="BlockGraphProcessor.java" startLine="72" startPosition="14" endLine="74" endPosition="9" />
     <nodeInfo nodeId="5180427534212031445" fileName="BlockGraphProcessor.java" startLine="79" startPosition="43" endLine="81" endPosition="5" />
@@ -589,7 +592,7 @@
     <scopeInfo nodeId="5180427534212031455" fileName="BlockGraphProcessor.java" startLine="84" startPosition="53" endLine="85" endPosition="59" />
     <scopeInfo nodeId="5180427534212031924" fileName="BlockGraphProcessor.java" startLine="92" startPosition="68" endLine="93" endPosition="59" />
     <scopeInfo nodeId="5180427534212031943" fileName="BlockGraphProcessor.java" startLine="94" startPosition="16" endLine="95" endPosition="107" />
-    <scopeInfo nodeId="5180427534212031511" fileName="BlockGraphProcessor.java" startLine="101" startPosition="37" endLine="102" endPosition="19" />
+    <scopeInfo nodeId="5180427534212031511" fileName="BlockGraphProcessor.java" startLine="101" startPosition="46" endLine="102" endPosition="19" />
     <scopeInfo nodeId="5180427534212031824" fileName="BlockGraphProcessor.java" startLine="23" startPosition="0" endLine="25" endPosition="3" />
     <scopeInfo nodeId="5180427534212031639" fileName="BlockGraphProcessor.java" startLine="46" startPosition="68" endLine="48" endPosition="52" />
     <scopeInfo nodeId="5180427534212031770" fileName="BlockGraphProcessor.java" startLine="68" startPosition="67" endLine="70" endPosition="66" />
@@ -603,7 +606,9 @@
       <varInfo nodeId="1646208389854255911" varName="from" />
     </scopeInfo>
     <scopeInfo nodeId="5180427534212031488" fileName="BlockGraphProcessor.java" startLine="91" startPosition="155" endLine="96" endPosition="9" />
-    <scopeInfo nodeId="5180427534212031508" fileName="BlockGraphProcessor.java" startLine="99" startPosition="0" endLine="104" endPosition="0" />
+    <scopeInfo nodeId="5180427534212031508" fileName="BlockGraphProcessor.java" startLine="99" startPosition="0" endLine="104" endPosition="0">
+      <varInfo nodeId="529057043639081513" varName="node" />
+    </scopeInfo>
     <scopeInfo nodeId="5180427534212031593" fileName="BlockGraphProcessor.java" startLine="36" startPosition="68" endLine="43" endPosition="7" />
     <scopeInfo nodeId="5180427534212031470" fileName="BlockGraphProcessor.java" startLine="89" startPosition="56" endLine="97" endPosition="7">
       <varInfo nodeId="5180427534212031480" varName="target" />
@@ -670,6 +675,7 @@
     <nodeInfo nodeId="8780938838750204054" fileName="BKCoordinatePlacer.java" startLine="68" startPosition="5" endLine="69" endPosition="65" />
     <nodeInfo nodeId="8780938838750204079" fileName="BKCoordinatePlacer.java" startLine="70" startPosition="52" endLine="71" endPosition="82" />
     <nodeInfo nodeId="8780938838750204088" fileName="BKCoordinatePlacer.java" startLine="72" startPosition="72" endLine="73" endPosition="177" />
+    <nodeInfo nodeId="8780938838750204120" fileName="BKCoordinatePlacer.java" startLine="76" startPosition="49" endLine="77" endPosition="20" />
     <nodeInfo nodeId="8780938838750204127" fileName="BKCoordinatePlacer.java" startLine="79" startPosition="32" endLine="80" endPosition="150" />
     <nodeInfo nodeId="8780938838750205255" fileName="BKCoordinatePlacer.java" startLine="81" startPosition="5" endLine="82" endPosition="38" />
     <nodeInfo nodeId="8780938838750205277" fileName="BKCoordinatePlacer.java" startLine="83" startPosition="52" endLine="84" endPosition="82" />
@@ -738,6 +744,7 @@
     <nodeInfo nodeId="920414672219868129" fileName="BKCoordinatePlacer.java" startLine="244" startPosition="37" endLine="245" endPosition="46" />
     <nodeInfo nodeId="920414672219877011" fileName="BKCoordinatePlacer.java" startLine="245" startPosition="46" endLine="246" endPosition="90" />
     <nodeInfo nodeId="920414672219877091" fileName="BKCoordinatePlacer.java" startLine="247" startPosition="38" endLine="248" endPosition="40" />
+    <nodeInfo nodeId="6220135881201370427" fileName="BKCoordinatePlacer.java" startLine="251" startPosition="48" endLine="252" endPosition="55" />
     <nodeInfo nodeId="920414672219877875" fileName="BKCoordinatePlacer.java" startLine="254" startPosition="36" endLine="255" endPosition="79" />
     <nodeInfo nodeId="920414672219877882" fileName="BKCoordinatePlacer.java" startLine="255" startPosition="79" endLine="256" endPosition="156" />
     <nodeInfo nodeId="920414672219877907" fileName="BKCoordinatePlacer.java" startLine="256" startPosition="156" endLine="257" endPosition="150" />

@@ -21,7 +21,7 @@ public class BiconnectedComponent {
   private Map<BiconnectedComponent, Edge> myBridges;
   private Map<BiconnectedComponent, Node> myCutpoints;
 
-  public BiconnectedComponent() {
+  private BiconnectedComponent() {
     myNodes = SetSequence.fromSet(new HashSet<Node>());
     myChildren = ListSequence.fromList(new ArrayList<BiconnectedComponent>());
     myBridges = MapSequence.fromMap(new HashMap<BiconnectedComponent, Edge>());
@@ -53,6 +53,32 @@ public class BiconnectedComponent {
   public Object getConnection(BiconnectedComponent child) {
     if (MapSequence.fromMap(myBridges).containsKey(child)) {
       return MapSequence.fromMap(myBridges).get(child);
+    } else {
+      return MapSequence.fromMap(myCutpoints).get(child);
+    }
+  }
+
+  public Node getChildCutpoint(BiconnectedComponent child) {
+    if (MapSequence.fromMap(myBridges).containsKey(child)) {
+      Edge bridge = MapSequence.fromMap(myBridges).get(child);
+      Node cutpoint = bridge.getSource();
+      if (SetSequence.fromSet(getNodes()).contains(cutpoint)) {
+        cutpoint = bridge.getTarget();
+      }
+      return cutpoint;
+    } else {
+      return MapSequence.fromMap(myCutpoints).get(child);
+    }
+  }
+
+  public Node getCutpoint(BiconnectedComponent child) {
+    if (MapSequence.fromMap(myBridges).containsKey(child)) {
+      Edge bridge = MapSequence.fromMap(myBridges).get(child);
+      Node cutpoint = bridge.getSource();
+      if (!(SetSequence.fromSet(getNodes()).contains(cutpoint))) {
+        cutpoint = bridge.getTarget();
+      }
+      return cutpoint;
     } else {
       return MapSequence.fromMap(myCutpoints).get(child);
     }

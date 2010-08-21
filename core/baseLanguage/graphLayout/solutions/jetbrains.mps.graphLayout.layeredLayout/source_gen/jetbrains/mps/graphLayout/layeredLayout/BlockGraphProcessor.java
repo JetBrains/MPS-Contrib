@@ -98,7 +98,7 @@ public class BlockGraphProcessor {
     }
 
     @Override
-    protected void preprocessRoot() {
+    protected void preprocessRoot(Node node) {
       myMaxClass++;
     }
   }

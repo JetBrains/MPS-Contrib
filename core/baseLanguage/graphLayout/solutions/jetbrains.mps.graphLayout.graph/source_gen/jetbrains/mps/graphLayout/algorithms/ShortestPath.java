@@ -16,6 +16,8 @@ import jetbrains.mps.internal.collections.runtime.MapSequence;
 import jetbrains.mps.internal.collections.runtime.ListSequence;
 
 public class ShortestPath {
+  public static final int INF = Integer.MAX_VALUE / 2;
+
   public static List<Edge> getPath(Graph graph, Node source, Node target, Edge.Direction direction) {
     return getPath(graph, source, target, direction, new _FunctionTypes._return_P1_E0<Boolean, Edge>() {
       public Boolean invoke(Edge edge) {

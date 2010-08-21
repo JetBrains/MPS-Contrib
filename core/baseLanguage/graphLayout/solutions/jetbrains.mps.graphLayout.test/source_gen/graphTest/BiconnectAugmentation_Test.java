@@ -8,8 +8,6 @@ import sampleGraphs.SimpleDirectedGraphs;
 import jetbrains.mps.graphLayout.algorithms.BiconnectAugmentation;
 import visualization.GraphIO;
 import java.util.Scanner;
-import jetbrains.mps.graphLayout.planarGraph.EmbeddedGraph;
-import jetbrains.mps.graphLayout.planarization.TreeEmbeddingFinder;
 
 public class BiconnectAugmentation_Test extends TestCase {
   public void test_chain3() throws Exception {
@@ -21,24 +19,31 @@ public class BiconnectAugmentation_Test extends TestCase {
   public void test_test1() throws Exception {
     String graphString = "3 2  0 1  0 2";
     test(graphString);
+    testSmart(graphString);
   }
 
   public void test_test2() throws Exception {
     String graphString = "6 7  0 1  1 2  2 0  1 3  3 4  4 5  5 3";
     test(graphString);
+    testSmart(graphString);
   }
 
-  public void test_K5() throws Exception {
-    String graphString = "5 10  0 1  0 2  0 3  0 4  1 2  1 3  1 4  2 3  2 4  3 4";
+  public void test_test3() throws Exception {
+    String graphString = "5 5  0 1  1 2  2 3  3 0  3 4";
     test(graphString);
+    testSmart(graphString);
   }
 
   public void test(String graphString) {
     Graph graph = GraphIO.scanGraph(new Scanner(graphString));
     BiconnectAugmentation.makeBiconnected(graph);
+    BiconnectivityChecker.check(graph);
+  }
+
+  public void testSmart(String graphString) {
+    Graph graph = GraphIO.scanGraph(new Scanner(graphString));
+    BiconnectAugmentation.smartMakeBiconnected(graph);
     System.out.println(graph);
-    EmbeddedGraph embeddedGraph = new TreeEmbeddingFinder().find(graph);
-    System.out.println(embeddedGraph);
     BiconnectivityChecker.check(graph);
   }
 }

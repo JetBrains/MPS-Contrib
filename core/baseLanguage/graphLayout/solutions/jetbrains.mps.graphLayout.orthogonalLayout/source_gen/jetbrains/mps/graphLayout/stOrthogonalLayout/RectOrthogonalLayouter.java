@@ -180,9 +180,6 @@ public class RectOrthogonalLayouter {
     for (Edge oldEdge : ListSequence.fromList(oldEdges)) {
       List<Edge> history = embeddedGraph.findFullHistory(oldEdge);
       Node cur = oldEdge.getSource();
-      if (!(ListSequence.fromList(ListSequence.fromList(history).first().getAdjacentNodes()).contains(cur))) {
-        history = ListSequence.fromList(history).reversedList();
-      }
       if (ListSequence.fromList(history).count() > 1) {
         List<Point> oldEdgeLayout = ListSequence.fromList(new ArrayList<Point>());
         List<Point> sourceHistoryPath = graphLayout.getLayoutFor(ListSequence.fromList(history).first());

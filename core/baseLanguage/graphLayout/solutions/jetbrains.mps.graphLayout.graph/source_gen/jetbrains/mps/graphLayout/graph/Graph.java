@@ -49,6 +49,16 @@ public class Graph {
     return getNode(sourceIndex).addEdgeTo(getNode(targetIndex));
   }
 
+  public void remove(Node node) {
+    if (!(node.isDummy())) {
+      throw new RuntimeException("attept to remove real node");
+    }
+    for (Edge edge : ListSequence.fromList(node.getEdges())) {
+      edge.removeFromGraph();
+    }
+    ListSequence.fromList(myNodes).removeElement(node);
+  }
+
   @Override
   public String toString() {
     StringBuilder result = new StringBuilder();

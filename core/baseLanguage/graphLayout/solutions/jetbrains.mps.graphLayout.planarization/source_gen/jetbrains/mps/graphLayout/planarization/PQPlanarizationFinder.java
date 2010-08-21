@@ -21,7 +21,7 @@ import java.util.List;
 import jetbrains.mps.internal.collections.runtime.ISelector;
 
 public class PQPlanarizationFinder implements IEmbeddingFinder {
-  private static int SHOW_LOG = 1;
+  private static int SHOW_LOG = 0;
 
   private Graph myGraph;
   private Map<Node, Integer> myNumbering;
@@ -102,24 +102,12 @@ public class PQPlanarizationFinder implements IEmbeddingFinder {
     for (BiconnectedComponent child : ListSequence.fromList(component.getChildren())) {
       EmbeddedGraph childEmbedding = createEmbedding(child);
       Object connection = component.getConnection(child);
-      Edge bridge;
-      Node cutpoint;
+      Edge bridge = null;
       if (connection instanceof Edge) {
         bridge = ((Edge) connection);
-        cutpoint = bridge.getTarget();
-        if (!(SetSequence.fromSet(component.getNodes()).contains(cutpoint))) {
-          cutpoint = bridge.getSource();
-        }
-      } else {
-        bridge = null;
-        cutpoint = ((Node) connection);
       }
-      Node childCutpoint;
-      if (bridge != null) {
-        childCutpoint = bridge.getOpposite(cutpoint);
-      } else {
-        childCutpoint = cutpoint;
-      }
+      Node cutpoint = component.getCutpoint(child);
+      Node childCutpoint = component.getChildCutpoint(child);
       Face outerChildFace;
       if (ListSequence.fromList(childEmbedding.getFaces()).count() > 1) {
         outerChildFace = childEmbedding.findContainingFace(ListSequence.fromListAndArray(new ArrayList<Node>(), childCutpoint));

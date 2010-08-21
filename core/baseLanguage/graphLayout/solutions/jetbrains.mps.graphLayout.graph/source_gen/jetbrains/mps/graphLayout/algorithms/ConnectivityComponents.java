@@ -31,7 +31,7 @@ public class ConnectivityComponents {
     }
 
     @Override
-    protected void preprocessRoot() {
+    protected void preprocessRoot(Node root) {
       myCurrentComponent++;
     }
 

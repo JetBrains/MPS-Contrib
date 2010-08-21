@@ -142,354 +142,399 @@
     <unitInfo nodeId="2899723422951321463" fileName="Face.java" startLine="15" startPosition="0" endLine="57" endPosition="0" unitName="jetbrains.mps.graphLayout.planarGraph.Face" />
   </root>
   <root nodeId="2899723422951321538">
-    <nodeInfo nodeId="2899723422951321545" fileName="EmbeddedGraph.java" startLine="16" startPosition="28" endLine="17" endPosition="29" />
-    <nodeInfo nodeId="1646208389854277416" fileName="EmbeddedGraph.java" startLine="17" startPosition="29" endLine="18" endPosition="51" />
-    <nodeInfo nodeId="4179389957059016084" fileName="EmbeddedGraph.java" startLine="18" startPosition="51" endLine="19" endPosition="24" />
-    <nodeInfo nodeId="1123934034178601482" fileName="EmbeddedGraph.java" startLine="19" startPosition="24" endLine="20" endPosition="27" />
-    <nodeInfo nodeId="1418350014056299611" fileName="EmbeddedGraph.java" startLine="20" startPosition="27" endLine="21" endPosition="47" />
-    <nodeInfo nodeId="2899723422951321553" fileName="EmbeddedGraph.java" startLine="23" startPosition="37" endLine="24" endPosition="59" />
-    <nodeInfo nodeId="4179389957059013973" fileName="EmbeddedGraph.java" startLine="24" startPosition="59" endLine="25" endPosition="78" />
-    <nodeInfo nodeId="1418350014056299625" fileName="EmbeddedGraph.java" startLine="25" startPosition="78" endLine="26" endPosition="74" />
-    <nodeInfo nodeId="4179389957059016089" fileName="EmbeddedGraph.java" startLine="26" startPosition="74" endLine="27" endPosition="20" />
-    <nodeInfo nodeId="925859607109394139" fileName="EmbeddedGraph.java" startLine="30" startPosition="52" endLine="31" endPosition="31" />
-    <nodeInfo nodeId="925859607109394180" fileName="EmbeddedGraph.java" startLine="34" startPosition="32" endLine="35" endPosition="32" />
-    <nodeInfo nodeId="925859607109394188" fileName="EmbeddedGraph.java" startLine="36" startPosition="16" endLine="37" endPosition="22" />
-    <nodeInfo nodeId="1327612371813252059" fileName="EmbeddedGraph.java" startLine="40" startPosition="5" endLine="41" endPosition="26" />
-    <nodeInfo nodeId="925859607109483533" fileName="EmbeddedGraph.java" startLine="44" startPosition="50" endLine="45" endPosition="73" />
-    <nodeInfo nodeId="925859607109483591" fileName="EmbeddedGraph.java" startLine="48" startPosition="40" endLine="49" endPosition="38" />
-    <nodeInfo nodeId="925859607109483622" fileName="EmbeddedGraph.java" startLine="52" startPosition="49" endLine="53" endPosition="20" />
-    <nodeInfo nodeId="925859607109483526" fileName="EmbeddedGraph.java" startLine="55" startPosition="5" endLine="56" endPosition="16" />
-    <nodeInfo nodeId="3021256511735256691" fileName="EmbeddedGraph.java" startLine="59" startPosition="49" endLine="60" endPosition="73" />
-    <nodeInfo nodeId="3021256511735256712" fileName="EmbeddedGraph.java" startLine="63" startPosition="40" endLine="64" endPosition="38" />
-    <nodeInfo nodeId="3021256511735256722" fileName="EmbeddedGraph.java" startLine="67" startPosition="49" endLine="68" endPosition="20" />
-    <nodeInfo nodeId="3021256511735256731" fileName="EmbeddedGraph.java" startLine="70" startPosition="5" endLine="71" endPosition="16" />
-    <nodeInfo nodeId="1327612371813262758" fileName="EmbeddedGraph.java" startLine="74" startPosition="36" endLine="75" endPosition="42" />
-    <nodeInfo nodeId="1327612371813262764" fileName="EmbeddedGraph.java" startLine="75" startPosition="42" endLine="76" endPosition="48" />
-    <nodeInfo nodeId="1327612371813262770" fileName="EmbeddedGraph.java" startLine="76" startPosition="48" endLine="77" endPosition="27" />
-    <nodeInfo nodeId="1327612371813262774" fileName="EmbeddedGraph.java" startLine="77" startPosition="27" endLine="78" endPosition="71" />
-    <nodeInfo nodeId="1327612371813262781" fileName="EmbeddedGraph.java" startLine="78" startPosition="71" endLine="79" endPosition="84" />
-    <nodeInfo nodeId="1327612371813262791" fileName="EmbeddedGraph.java" startLine="79" startPosition="84" endLine="80" endPosition="84" />
-    <nodeInfo nodeId="1418350014056299639" fileName="EmbeddedGraph.java" startLine="80" startPosition="84" endLine="81" endPosition="60" />
-    <nodeInfo nodeId="1327612371813262801" fileName="EmbeddedGraph.java" startLine="81" startPosition="60" endLine="82" endPosition="77" />
-    <nodeInfo nodeId="1327612371813262808" fileName="EmbeddedGraph.java" startLine="82" startPosition="77" endLine="83" endPosition="136" />
-    <nodeInfo nodeId="1327612371813262821" fileName="EmbeddedGraph.java" startLine="84" startPosition="61" endLine="85" endPosition="41" />
-    <nodeInfo nodeId="1327612371813262828" fileName="EmbeddedGraph.java" startLine="85" startPosition="41" endLine="86" endPosition="18" />
-    <nodeInfo nodeId="1327612371813262841" fileName="EmbeddedGraph.java" startLine="87" startPosition="78" endLine="88" endPosition="14" />
-    <nodeInfo nodeId="1327612371813262844" fileName="EmbeddedGraph.java" startLine="89" startPosition="7" endLine="90" endPosition="72" />
-    <nodeInfo nodeId="1327612371813262864" fileName="EmbeddedGraph.java" startLine="92" startPosition="100" endLine="93" endPosition="80" />
-    <nodeInfo nodeId="1327612371813262890" fileName="EmbeddedGraph.java" startLine="97" startPosition="100" endLine="98" endPosition="69" />
-    <nodeInfo nodeId="1327612371813262902" fileName="EmbeddedGraph.java" startLine="101" startPosition="5" endLine="102" endPosition="19" />
-    <nodeInfo nodeId="1327612371813252134" fileName="EmbeddedGraph.java" startLine="105" startPosition="81" endLine="106" endPosition="42" />
-    <nodeInfo nodeId="1327612371813252551" fileName="EmbeddedGraph.java" startLine="106" startPosition="42" endLine="107" endPosition="44" />
-    <nodeInfo nodeId="1327612371813252560" fileName="EmbeddedGraph.java" startLine="107" startPosition="44" endLine="108" endPosition="44" />
-    <nodeInfo nodeId="1327612371813252377" fileName="EmbeddedGraph.java" startLine="108" startPosition="44" endLine="109" endPosition="39" />
-    <nodeInfo nodeId="1327612371813252403" fileName="EmbeddedGraph.java" startLine="109" startPosition="39" endLine="110" endPosition="22" />
-    <nodeInfo nodeId="1327612371813252409" fileName="EmbeddedGraph.java" startLine="110" startPosition="22" endLine="111" endPosition="20" />
-    <nodeInfo nodeId="1327612371813252465" fileName="EmbeddedGraph.java" startLine="112" startPosition="68" endLine="113" endPosition="60" />
-    <nodeInfo nodeId="1327612371813252484" fileName="EmbeddedGraph.java" startLine="114" startPosition="37" endLine="115" endPosition="21" />
-    <nodeInfo nodeId="1327612371813252500" fileName="EmbeddedGraph.java" startLine="117" startPosition="35" endLine="118" endPosition="19" />
-    <nodeInfo nodeId="1327612371813252757" fileName="EmbeddedGraph.java" startLine="120" startPosition="5" endLine="121" endPosition="14" />
-    <nodeInfo nodeId="1327612371813252764" fileName="EmbeddedGraph.java" startLine="121" startPosition="14" endLine="122" endPosition="15" />
-    <nodeInfo nodeId="1327612371813256534" fileName="EmbeddedGraph.java" startLine="122" startPosition="15" endLine="123" endPosition="16" />
-    <nodeInfo nodeId="1327612371813256538" fileName="EmbeddedGraph.java" startLine="123" startPosition="16" endLine="124" endPosition="16" />
-    <nodeInfo nodeId="1327612371813252770" fileName="EmbeddedGraph.java" startLine="125" startPosition="28" endLine="126" endPosition="22" />
-    <nodeInfo nodeId="1327612371813252777" fileName="EmbeddedGraph.java" startLine="126" startPosition="22" endLine="127" endPosition="23" />
-    <nodeInfo nodeId="1327612371813256542" fileName="EmbeddedGraph.java" startLine="127" startPosition="23" endLine="128" endPosition="25" />
-    <nodeInfo nodeId="1327612371813256549" fileName="EmbeddedGraph.java" startLine="128" startPosition="25" endLine="129" endPosition="23" />
-    <nodeInfo nodeId="1327612371813252783" fileName="EmbeddedGraph.java" startLine="130" startPosition="12" endLine="131" endPosition="22" />
-    <nodeInfo nodeId="1327612371813252787" fileName="EmbeddedGraph.java" startLine="131" startPosition="22" endLine="132" endPosition="23" />
-    <nodeInfo nodeId="1327612371813256556" fileName="EmbeddedGraph.java" startLine="132" startPosition="23" endLine="133" endPosition="23" />
-    <nodeInfo nodeId="1327612371813256563" fileName="EmbeddedGraph.java" startLine="133" startPosition="23" endLine="134" endPosition="25" />
-    <nodeInfo nodeId="1327612371813252706" fileName="EmbeddedGraph.java" startLine="136" startPosition="45" endLine="137" endPosition="63" />
-    <nodeInfo nodeId="1327612371813252723" fileName="EmbeddedGraph.java" startLine="139" startPosition="74" endLine="140" endPosition="64" />
-    <nodeInfo nodeId="1327612371813252742" fileName="EmbeddedGraph.java" startLine="142" startPosition="39" endLine="143" endPosition="64" />
-    <nodeInfo nodeId="1327612371813252822" fileName="EmbeddedGraph.java" startLine="144" startPosition="5" endLine="145" endPosition="21" />
-    <nodeInfo nodeId="1327612371813252829" fileName="EmbeddedGraph.java" startLine="146" startPosition="51" endLine="147" endPosition="44" />
-    <nodeInfo nodeId="1327612371813252843" fileName="EmbeddedGraph.java" startLine="147" startPosition="44" endLine="148" endPosition="34" />
-    <nodeInfo nodeId="1327612371813252856" fileName="EmbeddedGraph.java" startLine="149" startPosition="5" endLine="150" endPosition="14" />
-    <nodeInfo nodeId="1327612371813252868" fileName="EmbeddedGraph.java" startLine="151" startPosition="66" endLine="152" endPosition="44" />
-    <nodeInfo nodeId="1327612371813252876" fileName="EmbeddedGraph.java" startLine="152" startPosition="44" endLine="153" endPosition="34" />
-    <nodeInfo nodeId="1327612371813252327" fileName="EmbeddedGraph.java" startLine="154" startPosition="5" endLine="155" endPosition="26" />
-    <nodeInfo nodeId="1327612371813252798" fileName="EmbeddedGraph.java" startLine="155" startPosition="26" endLine="156" endPosition="22" />
-    <nodeInfo nodeId="1327612371813252802" fileName="EmbeddedGraph.java" startLine="156" startPosition="22" endLine="157" endPosition="22" />
-    <nodeInfo nodeId="1327612371813252343" fileName="EmbeddedGraph.java" startLine="158" startPosition="33" endLine="159" endPosition="31" />
-    <nodeInfo nodeId="925859607109435617" fileName="EmbeddedGraph.java" startLine="160" startPosition="5" endLine="161" endPosition="84" />
-    <nodeInfo nodeId="2899723422951325411" fileName="EmbeddedGraph.java" startLine="164" startPosition="34" endLine="165" endPosition="52" />
-    <nodeInfo nodeId="1646208389854277451" fileName="EmbeddedGraph.java" startLine="166" startPosition="62" endLine="167" endPosition="33" />
-    <nodeInfo nodeId="1123934034178615985" fileName="EmbeddedGraph.java" startLine="167" startPosition="33" endLine="168" endPosition="34" />
-    <nodeInfo nodeId="1123934034178615970" fileName="EmbeddedGraph.java" startLine="173" startPosition="68" endLine="174" endPosition="102" />
-    <nodeInfo nodeId="1123934034178615978" fileName="EmbeddedGraph.java" startLine="175" startPosition="5" endLine="176" endPosition="94" />
-    <nodeInfo nodeId="4179389957059019734" fileName="EmbeddedGraph.java" startLine="179" startPosition="37" endLine="180" endPosition="55" />
-    <nodeInfo nodeId="1123934034178616030" fileName="EmbeddedGraph.java" startLine="181" startPosition="62" endLine="182" endPosition="46" />
-    <nodeInfo nodeId="1123934034178616021" fileName="EmbeddedGraph.java" startLine="186" startPosition="51" endLine="187" endPosition="97" />
-    <nodeInfo nodeId="1123934034178617030" fileName="EmbeddedGraph.java" startLine="188" startPosition="96" endLine="189" endPosition="62" />
-    <nodeInfo nodeId="1123934034178615920" fileName="EmbeddedGraph.java" startLine="193" startPosition="54" endLine="194" endPosition="74" />
-    <nodeInfo nodeId="1123934034178616070" fileName="EmbeddedGraph.java" startLine="194" startPosition="74" endLine="195" endPosition="42" />
-    <nodeInfo nodeId="1123934034178615905" fileName="EmbeddedGraph.java" startLine="195" startPosition="42" endLine="196" endPosition="65" />
-    <nodeInfo nodeId="1123934034178615992" fileName="EmbeddedGraph.java" startLine="196" startPosition="65" endLine="197" endPosition="37" />
-    <nodeInfo nodeId="1123934034178616107" fileName="EmbeddedGraph.java" startLine="200" startPosition="57" endLine="201" endPosition="68" />
-    <nodeInfo nodeId="1123934034178616100" fileName="EmbeddedGraph.java" startLine="201" startPosition="68" endLine="202" endPosition="37" />
-    <nodeInfo nodeId="860462848750221591" fileName="EmbeddedGraph.java" startLine="205" startPosition="50" endLine="206" endPosition="30" />
-    <nodeInfo nodeId="860462848750221622" fileName="EmbeddedGraph.java" startLine="209" startPosition="49" endLine="210" endPosition="75" />
-    <nodeInfo nodeId="4179389957059015280" fileName="EmbeddedGraph.java" startLine="213" startPosition="32" endLine="214" endPosition="24" />
-    <nodeInfo nodeId="4179389957059015291" fileName="EmbeddedGraph.java" startLine="217" startPosition="54" endLine="218" endPosition="35" />
-    <nodeInfo nodeId="4179389957059016103" fileName="EmbeddedGraph.java" startLine="221" startPosition="27" endLine="222" endPosition="24" />
-    <nodeInfo nodeId="4179389957059019056" fileName="EmbeddedGraph.java" startLine="226" startPosition="28" endLine="227" endPosition="48" />
-    <nodeInfo nodeId="4179389957059019064" fileName="EmbeddedGraph.java" startLine="228" startPosition="54" endLine="229" endPosition="34" />
-    <nodeInfo nodeId="1654665216152484508" fileName="EmbeddedGraph.java" startLine="230" startPosition="5" endLine="231" endPosition="97" />
-    <nodeInfo nodeId="4179389957059019077" fileName="EmbeddedGraph.java" startLine="231" startPosition="97" endLine="232" endPosition="30" />
-    <nodeInfo nodeId="1123934034178601490" fileName="EmbeddedGraph.java" startLine="235" startPosition="30" endLine="236" endPosition="28" />
-    <nodeInfo nodeId="1123934034178601498" fileName="EmbeddedGraph.java" startLine="239" startPosition="44" endLine="240" endPosition="33" />
-    <nodeInfo nodeId="1123934034178601513" fileName="EmbeddedGraph.java" startLine="243" startPosition="41" endLine="244" endPosition="31" />
-    <nodeInfo nodeId="1418350014056299925" fileName="EmbeddedGraph.java" startLine="247" startPosition="50" endLine="248" endPosition="26" />
-    <nodeInfo nodeId="1418350014056299939" fileName="EmbeddedGraph.java" startLine="251" startPosition="63" endLine="252" endPosition="60" />
-    <nodeInfo nodeId="6494745554568916986" fileName="EmbeddedGraph.java" startLine="255" startPosition="48" endLine="256" endPosition="74" />
-    <nodeInfo nodeId="6494745554568917052" fileName="EmbeddedGraph.java" startLine="256" startPosition="74" endLine="257" endPosition="71" />
-    <nodeInfo nodeId="6494745554568917073" fileName="EmbeddedGraph.java" startLine="258" startPosition="26" endLine="259" endPosition="58" />
-    <nodeInfo nodeId="6494745554568917092" fileName="EmbeddedGraph.java" startLine="261" startPosition="59" endLine="262" endPosition="104" />
-    <nodeInfo nodeId="6494745554568917105" fileName="EmbeddedGraph.java" startLine="264" startPosition="5" endLine="265" endPosition="23" />
-    <nodeInfo nodeId="925859607109394186" fileName="EmbeddedGraph.java" startLine="36" startPosition="14" endLine="38" endPosition="9" />
-    <nodeInfo nodeId="925859607109483603" fileName="EmbeddedGraph.java" startLine="51" startPosition="9" endLine="54" endPosition="7" />
-    <nodeInfo nodeId="3021256511735256720" fileName="EmbeddedGraph.java" startLine="66" startPosition="9" endLine="69" endPosition="7" />
-    <nodeInfo nodeId="1327612371813262832" fileName="EmbeddedGraph.java" startLine="86" startPosition="18" endLine="89" endPosition="7" />
-    <nodeInfo nodeId="1327612371813262854" fileName="EmbeddedGraph.java" startLine="91" startPosition="60" endLine="94" endPosition="9" />
-    <nodeInfo nodeId="1327612371813262880" fileName="EmbeddedGraph.java" startLine="96" startPosition="60" endLine="99" endPosition="9" />
-    <nodeInfo nodeId="1327612371813252475" fileName="EmbeddedGraph.java" startLine="113" startPosition="60" endLine="116" endPosition="7" />
-    <nodeInfo nodeId="1327612371813252491" fileName="EmbeddedGraph.java" startLine="116" startPosition="7" endLine="119" endPosition="7" />
-    <nodeInfo nodeId="1327612371813252701" fileName="EmbeddedGraph.java" startLine="135" startPosition="5" endLine="138" endPosition="5" />
-    <nodeInfo nodeId="1327612371813252718" fileName="EmbeddedGraph.java" startLine="138" startPosition="5" endLine="141" endPosition="5" />
-    <nodeInfo nodeId="1327612371813252737" fileName="EmbeddedGraph.java" startLine="141" startPosition="5" endLine="144" endPosition="5" />
-    <nodeInfo nodeId="1327612371813252341" fileName="EmbeddedGraph.java" startLine="157" startPosition="22" endLine="160" endPosition="5" />
-    <nodeInfo nodeId="1123934034178615963" fileName="EmbeddedGraph.java" startLine="172" startPosition="49" endLine="175" endPosition="5" />
-    <nodeInfo nodeId="4179389957059019744" fileName="EmbeddedGraph.java" startLine="180" startPosition="55" endLine="183" endPosition="5" />
-    <nodeInfo nodeId="1123934034178616038" fileName="EmbeddedGraph.java" startLine="187" startPosition="97" endLine="190" endPosition="5" />
-    <nodeInfo nodeId="4179389957059019048" fileName="EmbeddedGraph.java" startLine="227" startPosition="48" endLine="230" endPosition="5" />
-    <nodeInfo nodeId="6494745554568917084" fileName="EmbeddedGraph.java" startLine="260" startPosition="12" endLine="263" endPosition="7" />
-    <nodeInfo nodeId="925859607109483587" fileName="EmbeddedGraph.java" startLine="47" startPosition="93" endLine="51" endPosition="0" />
-    <nodeInfo nodeId="3021256511735256710" fileName="EmbeddedGraph.java" startLine="62" startPosition="93" endLine="66" endPosition="0" />
-    <nodeInfo nodeId="1327612371813252809" fileName="EmbeddedGraph.java" startLine="145" startPosition="21" endLine="149" endPosition="5" />
-    <nodeInfo nodeId="1327612371813252864" fileName="EmbeddedGraph.java" startLine="150" startPosition="14" endLine="154" endPosition="5" />
-    <nodeInfo nodeId="1646208389854277431" fileName="EmbeddedGraph.java" startLine="165" startPosition="52" endLine="169" endPosition="5" />
-    <nodeInfo nodeId="860462848750221580" fileName="EmbeddedGraph.java" startLine="204" startPosition="0" endLine="208" endPosition="0" />
-    <nodeInfo nodeId="860462848750221618" fileName="EmbeddedGraph.java" startLine="208" startPosition="0" endLine="212" endPosition="0" />
-    <nodeInfo nodeId="4179389957059015275" fileName="EmbeddedGraph.java" startLine="212" startPosition="0" endLine="216" endPosition="0" />
-    <nodeInfo nodeId="4179389957059015284" fileName="EmbeddedGraph.java" startLine="216" startPosition="0" endLine="220" endPosition="0" />
-    <nodeInfo nodeId="4179389957059016099" fileName="EmbeddedGraph.java" startLine="220" startPosition="0" endLine="224" endPosition="0" />
-    <nodeInfo nodeId="1123934034178601486" fileName="EmbeddedGraph.java" startLine="234" startPosition="0" endLine="238" endPosition="0" />
-    <nodeInfo nodeId="1123934034178601494" fileName="EmbeddedGraph.java" startLine="238" startPosition="0" endLine="242" endPosition="0" />
-    <nodeInfo nodeId="1123934034178601506" fileName="EmbeddedGraph.java" startLine="242" startPosition="0" endLine="246" endPosition="0" />
-    <nodeInfo nodeId="1418350014056299914" fileName="EmbeddedGraph.java" startLine="246" startPosition="0" endLine="250" endPosition="0" />
-    <nodeInfo nodeId="1418350014056299928" fileName="EmbeddedGraph.java" startLine="250" startPosition="0" endLine="254" endPosition="0" />
-    <nodeInfo nodeId="6494745554568917082" fileName="EmbeddedGraph.java" startLine="260" startPosition="10" endLine="264" endPosition="5" />
-    <nodeInfo nodeId="925859607109394175" fileName="EmbeddedGraph.java" startLine="33" startPosition="33" endLine="38" endPosition="9" />
-    <nodeInfo nodeId="925859607109483572" fileName="EmbeddedGraph.java" startLine="46" startPosition="52" endLine="51" endPosition="9" />
-    <nodeInfo nodeId="3021256511735256702" fileName="EmbeddedGraph.java" startLine="61" startPosition="52" endLine="66" endPosition="9" />
-    <nodeInfo nodeId="1327612371813262850" fileName="EmbeddedGraph.java" startLine="90" startPosition="72" endLine="95" endPosition="7" />
-    <nodeInfo nodeId="1327612371813262876" fileName="EmbeddedGraph.java" startLine="95" startPosition="7" endLine="100" endPosition="7" />
-    <nodeInfo nodeId="1327612371813252637" fileName="EmbeddedGraph.java" startLine="130" startPosition="10" endLine="135" endPosition="5" />
-    <nodeInfo nodeId="1123934034178616080" fileName="EmbeddedGraph.java" startLine="199" startPosition="0" endLine="204" endPosition="0" />
-    <nodeInfo nodeId="2899723422951321540" fileName="EmbeddedGraph.java" startLine="22" startPosition="0" endLine="28" endPosition="3" />
-    <nodeInfo nodeId="1327612371813252054" fileName="EmbeddedGraph.java" startLine="32" startPosition="57" endLine="39" endPosition="7" />
-    <nodeInfo nodeId="1123934034178615957" fileName="EmbeddedGraph.java" startLine="171" startPosition="0" endLine="178" endPosition="0" />
-    <nodeInfo nodeId="4179389957059019728" fileName="EmbeddedGraph.java" startLine="178" startPosition="0" endLine="185" endPosition="0" />
-    <nodeInfo nodeId="1123934034178616015" fileName="EmbeddedGraph.java" startLine="185" startPosition="0" endLine="192" endPosition="0" />
-    <nodeInfo nodeId="1123934034178615893" fileName="EmbeddedGraph.java" startLine="192" startPosition="0" endLine="199" endPosition="0" />
-    <nodeInfo nodeId="6494745554568917064" fileName="EmbeddedGraph.java" startLine="257" startPosition="71" endLine="264" endPosition="5" />
-    <nodeInfo nodeId="2899723422951325404" fileName="EmbeddedGraph.java" startLine="163" startPosition="0" endLine="171" endPosition="0" />
-    <nodeInfo nodeId="1327612371813252010" fileName="EmbeddedGraph.java" startLine="31" startPosition="31" endLine="40" endPosition="5" />
-    <nodeInfo nodeId="1327612371813252443" fileName="EmbeddedGraph.java" startLine="111" startPosition="20" endLine="120" endPosition="5" />
-    <nodeInfo nodeId="925859607109483545" fileName="EmbeddedGraph.java" startLine="45" startPosition="73" endLine="55" endPosition="5" />
-    <nodeInfo nodeId="3021256511735256698" fileName="EmbeddedGraph.java" startLine="60" startPosition="73" endLine="70" endPosition="5" />
-    <nodeInfo nodeId="4179389957059019040" fileName="EmbeddedGraph.java" startLine="224" startPosition="0" endLine="234" endPosition="0" />
-    <nodeInfo nodeId="1327612371813252519" fileName="EmbeddedGraph.java" startLine="124" startPosition="16" endLine="135" endPosition="5" />
-    <nodeInfo nodeId="6494745554568916980" fileName="EmbeddedGraph.java" startLine="254" startPosition="0" endLine="267" endPosition="0" />
-    <nodeInfo nodeId="1327612371813251996" fileName="EmbeddedGraph.java" startLine="29" startPosition="0" endLine="43" endPosition="0" />
-    <nodeInfo nodeId="925859607109483521" fileName="EmbeddedGraph.java" startLine="43" startPosition="0" endLine="58" endPosition="0" />
-    <nodeInfo nodeId="3021256511735256687" fileName="EmbeddedGraph.java" startLine="58" startPosition="0" endLine="73" endPosition="0" />
-    <nodeInfo nodeId="1327612371813262817" fileName="EmbeddedGraph.java" startLine="83" startPosition="136" endLine="101" endPosition="5" />
-    <nodeInfo nodeId="1327612371813262754" fileName="EmbeddedGraph.java" startLine="73" startPosition="0" endLine="104" endPosition="0" />
-    <nodeInfo nodeId="1327612371813252110" fileName="EmbeddedGraph.java" startLine="104" startPosition="0" endLine="163" endPosition="0" />
-    <scopeInfo nodeId="925859607109394177" fileName="EmbeddedGraph.java" startLine="34" startPosition="32" endLine="35" endPosition="32" />
-    <scopeInfo nodeId="925859607109394187" fileName="EmbeddedGraph.java" startLine="36" startPosition="16" endLine="37" endPosition="22" />
-    <scopeInfo nodeId="925859607109483588" fileName="EmbeddedGraph.java" startLine="48" startPosition="40" endLine="49" endPosition="38" />
-    <scopeInfo nodeId="925859607109483604" fileName="EmbeddedGraph.java" startLine="52" startPosition="49" endLine="53" endPosition="20" />
-    <scopeInfo nodeId="3021256511735256711" fileName="EmbeddedGraph.java" startLine="63" startPosition="40" endLine="64" endPosition="38" />
-    <scopeInfo nodeId="3021256511735256721" fileName="EmbeddedGraph.java" startLine="67" startPosition="49" endLine="68" endPosition="20" />
-    <scopeInfo nodeId="1327612371813262840" fileName="EmbeddedGraph.java" startLine="87" startPosition="78" endLine="88" endPosition="14" />
-    <scopeInfo nodeId="1327612371813262863" fileName="EmbeddedGraph.java" startLine="92" startPosition="100" endLine="93" endPosition="80" />
-    <scopeInfo nodeId="1327612371813262889" fileName="EmbeddedGraph.java" startLine="97" startPosition="100" endLine="98" endPosition="69" />
-    <scopeInfo nodeId="1327612371813252483" fileName="EmbeddedGraph.java" startLine="114" startPosition="37" endLine="115" endPosition="21" />
-    <scopeInfo nodeId="1327612371813252499" fileName="EmbeddedGraph.java" startLine="117" startPosition="35" endLine="118" endPosition="19" />
-    <scopeInfo nodeId="1327612371813252705" fileName="EmbeddedGraph.java" startLine="136" startPosition="45" endLine="137" endPosition="63" />
-    <scopeInfo nodeId="1327612371813252722" fileName="EmbeddedGraph.java" startLine="139" startPosition="74" endLine="140" endPosition="64" />
-    <scopeInfo nodeId="1327612371813252741" fileName="EmbeddedGraph.java" startLine="142" startPosition="39" endLine="143" endPosition="64" />
-    <scopeInfo nodeId="1327612371813252342" fileName="EmbeddedGraph.java" startLine="158" startPosition="33" endLine="159" endPosition="31" />
-    <scopeInfo nodeId="1123934034178615969" fileName="EmbeddedGraph.java" startLine="173" startPosition="68" endLine="174" endPosition="102" />
-    <scopeInfo nodeId="4179389957059019747" fileName="EmbeddedGraph.java" startLine="181" startPosition="62" endLine="182" endPosition="46" />
-    <scopeInfo nodeId="1123934034178616039" fileName="EmbeddedGraph.java" startLine="188" startPosition="96" endLine="189" endPosition="62" />
-    <scopeInfo nodeId="860462848750221583" fileName="EmbeddedGraph.java" startLine="205" startPosition="50" endLine="206" endPosition="30" />
-    <scopeInfo nodeId="860462848750221621" fileName="EmbeddedGraph.java" startLine="209" startPosition="49" endLine="210" endPosition="75" />
-    <scopeInfo nodeId="4179389957059015279" fileName="EmbeddedGraph.java" startLine="213" startPosition="32" endLine="214" endPosition="24" />
-    <scopeInfo nodeId="4179389957059015290" fileName="EmbeddedGraph.java" startLine="217" startPosition="54" endLine="218" endPosition="35" />
-    <scopeInfo nodeId="4179389957059016102" fileName="EmbeddedGraph.java" startLine="221" startPosition="27" endLine="222" endPosition="24" />
-    <scopeInfo nodeId="4179389957059019051" fileName="EmbeddedGraph.java" startLine="228" startPosition="54" endLine="229" endPosition="34" />
-    <scopeInfo nodeId="1123934034178601489" fileName="EmbeddedGraph.java" startLine="235" startPosition="30" endLine="236" endPosition="28" />
-    <scopeInfo nodeId="1123934034178601497" fileName="EmbeddedGraph.java" startLine="239" startPosition="44" endLine="240" endPosition="33" />
-    <scopeInfo nodeId="1123934034178601509" fileName="EmbeddedGraph.java" startLine="243" startPosition="41" endLine="244" endPosition="31" />
-    <scopeInfo nodeId="1418350014056299917" fileName="EmbeddedGraph.java" startLine="247" startPosition="50" endLine="248" endPosition="26" />
-    <scopeInfo nodeId="1418350014056299931" fileName="EmbeddedGraph.java" startLine="251" startPosition="63" endLine="252" endPosition="60" />
-    <scopeInfo nodeId="6494745554568917065" fileName="EmbeddedGraph.java" startLine="258" startPosition="26" endLine="259" endPosition="58" />
-    <scopeInfo nodeId="6494745554568917089" fileName="EmbeddedGraph.java" startLine="261" startPosition="59" endLine="262" endPosition="104" />
-    <scopeInfo nodeId="1327612371813252812" fileName="EmbeddedGraph.java" startLine="146" startPosition="51" endLine="148" endPosition="34" />
-    <scopeInfo nodeId="1327612371813252867" fileName="EmbeddedGraph.java" startLine="151" startPosition="66" endLine="153" endPosition="34" />
-    <scopeInfo nodeId="1646208389854277434" fileName="EmbeddedGraph.java" startLine="166" startPosition="62" endLine="168" endPosition="34">
+    <nodeInfo nodeId="2899723422951321545" fileName="EmbeddedGraph.java" startLine="17" startPosition="28" endLine="18" endPosition="29" />
+    <nodeInfo nodeId="1646208389854277416" fileName="EmbeddedGraph.java" startLine="18" startPosition="29" endLine="19" endPosition="51" />
+    <nodeInfo nodeId="4179389957059016084" fileName="EmbeddedGraph.java" startLine="19" startPosition="51" endLine="20" endPosition="24" />
+    <nodeInfo nodeId="1123934034178601482" fileName="EmbeddedGraph.java" startLine="20" startPosition="24" endLine="21" endPosition="27" />
+    <nodeInfo nodeId="1418350014056299611" fileName="EmbeddedGraph.java" startLine="21" startPosition="27" endLine="22" endPosition="47" />
+    <nodeInfo nodeId="2899723422951321553" fileName="EmbeddedGraph.java" startLine="24" startPosition="37" endLine="25" endPosition="59" />
+    <nodeInfo nodeId="4179389957059013973" fileName="EmbeddedGraph.java" startLine="25" startPosition="59" endLine="26" endPosition="78" />
+    <nodeInfo nodeId="1418350014056299625" fileName="EmbeddedGraph.java" startLine="26" startPosition="78" endLine="27" endPosition="74" />
+    <nodeInfo nodeId="4179389957059016089" fileName="EmbeddedGraph.java" startLine="27" startPosition="74" endLine="28" endPosition="20" />
+    <nodeInfo nodeId="925859607109394139" fileName="EmbeddedGraph.java" startLine="31" startPosition="52" endLine="32" endPosition="31" />
+    <nodeInfo nodeId="925859607109394180" fileName="EmbeddedGraph.java" startLine="35" startPosition="32" endLine="36" endPosition="32" />
+    <nodeInfo nodeId="925859607109394188" fileName="EmbeddedGraph.java" startLine="37" startPosition="16" endLine="38" endPosition="22" />
+    <nodeInfo nodeId="1327612371813252059" fileName="EmbeddedGraph.java" startLine="41" startPosition="5" endLine="42" endPosition="26" />
+    <nodeInfo nodeId="925859607109483533" fileName="EmbeddedGraph.java" startLine="45" startPosition="50" endLine="46" endPosition="73" />
+    <nodeInfo nodeId="925859607109483591" fileName="EmbeddedGraph.java" startLine="49" startPosition="40" endLine="50" endPosition="38" />
+    <nodeInfo nodeId="925859607109483622" fileName="EmbeddedGraph.java" startLine="53" startPosition="49" endLine="54" endPosition="20" />
+    <nodeInfo nodeId="925859607109483526" fileName="EmbeddedGraph.java" startLine="56" startPosition="5" endLine="57" endPosition="16" />
+    <nodeInfo nodeId="3021256511735256691" fileName="EmbeddedGraph.java" startLine="60" startPosition="49" endLine="61" endPosition="73" />
+    <nodeInfo nodeId="3021256511735256712" fileName="EmbeddedGraph.java" startLine="64" startPosition="40" endLine="65" endPosition="38" />
+    <nodeInfo nodeId="3021256511735256722" fileName="EmbeddedGraph.java" startLine="68" startPosition="49" endLine="69" endPosition="20" />
+    <nodeInfo nodeId="3021256511735256731" fileName="EmbeddedGraph.java" startLine="71" startPosition="5" endLine="72" endPosition="16" />
+    <nodeInfo nodeId="529057043639031784" fileName="EmbeddedGraph.java" startLine="75" startPosition="36" endLine="76" endPosition="73" />
+    <nodeInfo nodeId="529057043639031615" fileName="EmbeddedGraph.java" startLine="79" startPosition="57" endLine="80" endPosition="42" />
+    <nodeInfo nodeId="529057043639031621" fileName="EmbeddedGraph.java" startLine="80" startPosition="42" endLine="81" endPosition="48" />
+    <nodeInfo nodeId="529057043639031627" fileName="EmbeddedGraph.java" startLine="81" startPosition="48" endLine="82" endPosition="27" />
+    <nodeInfo nodeId="529057043639031777" fileName="EmbeddedGraph.java" startLine="82" startPosition="27" endLine="83" endPosition="44" />
+    <nodeInfo nodeId="529057043639031638" fileName="EmbeddedGraph.java" startLine="83" startPosition="44" endLine="84" endPosition="84" />
+    <nodeInfo nodeId="529057043639031648" fileName="EmbeddedGraph.java" startLine="84" startPosition="84" endLine="85" endPosition="84" />
+    <nodeInfo nodeId="529057043639031658" fileName="EmbeddedGraph.java" startLine="85" startPosition="84" endLine="86" endPosition="60" />
+    <nodeInfo nodeId="529057043639031664" fileName="EmbeddedGraph.java" startLine="86" startPosition="60" endLine="87" endPosition="77" />
+    <nodeInfo nodeId="529057043639031671" fileName="EmbeddedGraph.java" startLine="87" startPosition="77" endLine="88" endPosition="136" />
+    <nodeInfo nodeId="529057043639031684" fileName="EmbeddedGraph.java" startLine="89" startPosition="61" endLine="90" endPosition="41" />
+    <nodeInfo nodeId="529057043639031691" fileName="EmbeddedGraph.java" startLine="90" startPosition="41" endLine="91" endPosition="18" />
+    <nodeInfo nodeId="529057043639031704" fileName="EmbeddedGraph.java" startLine="92" startPosition="78" endLine="93" endPosition="14" />
+    <nodeInfo nodeId="529057043639031707" fileName="EmbeddedGraph.java" startLine="94" startPosition="7" endLine="95" endPosition="72" />
+    <nodeInfo nodeId="529057043639031727" fileName="EmbeddedGraph.java" startLine="97" startPosition="100" endLine="98" endPosition="80" />
+    <nodeInfo nodeId="529057043639031753" fileName="EmbeddedGraph.java" startLine="102" startPosition="100" endLine="103" endPosition="69" />
+    <nodeInfo nodeId="529057043639031765" fileName="EmbeddedGraph.java" startLine="106" startPosition="5" endLine="107" endPosition="19" />
+    <nodeInfo nodeId="1327612371813252134" fileName="EmbeddedGraph.java" startLine="110" startPosition="81" endLine="111" endPosition="42" />
+    <nodeInfo nodeId="1327612371813252551" fileName="EmbeddedGraph.java" startLine="111" startPosition="42" endLine="112" endPosition="44" />
+    <nodeInfo nodeId="1327612371813252560" fileName="EmbeddedGraph.java" startLine="112" startPosition="44" endLine="113" endPosition="44" />
+    <nodeInfo nodeId="1327612371813252377" fileName="EmbeddedGraph.java" startLine="113" startPosition="44" endLine="114" endPosition="39" />
+    <nodeInfo nodeId="1327612371813252403" fileName="EmbeddedGraph.java" startLine="114" startPosition="39" endLine="115" endPosition="22" />
+    <nodeInfo nodeId="1327612371813252409" fileName="EmbeddedGraph.java" startLine="115" startPosition="22" endLine="116" endPosition="20" />
+    <nodeInfo nodeId="1327612371813252465" fileName="EmbeddedGraph.java" startLine="117" startPosition="68" endLine="118" endPosition="60" />
+    <nodeInfo nodeId="1327612371813252484" fileName="EmbeddedGraph.java" startLine="119" startPosition="37" endLine="120" endPosition="21" />
+    <nodeInfo nodeId="1327612371813252500" fileName="EmbeddedGraph.java" startLine="122" startPosition="35" endLine="123" endPosition="19" />
+    <nodeInfo nodeId="1327612371813252757" fileName="EmbeddedGraph.java" startLine="125" startPosition="5" endLine="126" endPosition="14" />
+    <nodeInfo nodeId="1327612371813252764" fileName="EmbeddedGraph.java" startLine="126" startPosition="14" endLine="127" endPosition="15" />
+    <nodeInfo nodeId="1327612371813256534" fileName="EmbeddedGraph.java" startLine="127" startPosition="15" endLine="128" endPosition="16" />
+    <nodeInfo nodeId="1327612371813256538" fileName="EmbeddedGraph.java" startLine="128" startPosition="16" endLine="129" endPosition="16" />
+    <nodeInfo nodeId="1327612371813252770" fileName="EmbeddedGraph.java" startLine="130" startPosition="28" endLine="131" endPosition="22" />
+    <nodeInfo nodeId="1327612371813252777" fileName="EmbeddedGraph.java" startLine="131" startPosition="22" endLine="132" endPosition="23" />
+    <nodeInfo nodeId="1327612371813256542" fileName="EmbeddedGraph.java" startLine="132" startPosition="23" endLine="133" endPosition="25" />
+    <nodeInfo nodeId="1327612371813256549" fileName="EmbeddedGraph.java" startLine="133" startPosition="25" endLine="134" endPosition="23" />
+    <nodeInfo nodeId="1327612371813252783" fileName="EmbeddedGraph.java" startLine="135" startPosition="12" endLine="136" endPosition="22" />
+    <nodeInfo nodeId="1327612371813252787" fileName="EmbeddedGraph.java" startLine="136" startPosition="22" endLine="137" endPosition="23" />
+    <nodeInfo nodeId="1327612371813256556" fileName="EmbeddedGraph.java" startLine="137" startPosition="23" endLine="138" endPosition="23" />
+    <nodeInfo nodeId="1327612371813256563" fileName="EmbeddedGraph.java" startLine="138" startPosition="23" endLine="139" endPosition="25" />
+    <nodeInfo nodeId="1327612371813252706" fileName="EmbeddedGraph.java" startLine="141" startPosition="45" endLine="142" endPosition="63" />
+    <nodeInfo nodeId="1327612371813252723" fileName="EmbeddedGraph.java" startLine="144" startPosition="74" endLine="145" endPosition="64" />
+    <nodeInfo nodeId="1327612371813252742" fileName="EmbeddedGraph.java" startLine="147" startPosition="39" endLine="148" endPosition="64" />
+    <nodeInfo nodeId="1327612371813252822" fileName="EmbeddedGraph.java" startLine="149" startPosition="5" endLine="150" endPosition="21" />
+    <nodeInfo nodeId="1327612371813252829" fileName="EmbeddedGraph.java" startLine="151" startPosition="51" endLine="152" endPosition="44" />
+    <nodeInfo nodeId="1327612371813252843" fileName="EmbeddedGraph.java" startLine="152" startPosition="44" endLine="153" endPosition="34" />
+    <nodeInfo nodeId="1327612371813252856" fileName="EmbeddedGraph.java" startLine="154" startPosition="5" endLine="155" endPosition="14" />
+    <nodeInfo nodeId="1327612371813252868" fileName="EmbeddedGraph.java" startLine="156" startPosition="66" endLine="157" endPosition="44" />
+    <nodeInfo nodeId="1327612371813252876" fileName="EmbeddedGraph.java" startLine="157" startPosition="44" endLine="158" endPosition="34" />
+    <nodeInfo nodeId="1327612371813252327" fileName="EmbeddedGraph.java" startLine="159" startPosition="5" endLine="160" endPosition="26" />
+    <nodeInfo nodeId="1327612371813252798" fileName="EmbeddedGraph.java" startLine="160" startPosition="26" endLine="161" endPosition="22" />
+    <nodeInfo nodeId="1327612371813252802" fileName="EmbeddedGraph.java" startLine="161" startPosition="22" endLine="162" endPosition="22" />
+    <nodeInfo nodeId="1327612371813252343" fileName="EmbeddedGraph.java" startLine="163" startPosition="33" endLine="164" endPosition="31" />
+    <nodeInfo nodeId="925859607109435617" fileName="EmbeddedGraph.java" startLine="165" startPosition="5" endLine="166" endPosition="84" />
+    <nodeInfo nodeId="2899723422951325411" fileName="EmbeddedGraph.java" startLine="169" startPosition="34" endLine="170" endPosition="52" />
+    <nodeInfo nodeId="1646208389854277451" fileName="EmbeddedGraph.java" startLine="171" startPosition="62" endLine="172" endPosition="33" />
+    <nodeInfo nodeId="1123934034178615985" fileName="EmbeddedGraph.java" startLine="172" startPosition="33" endLine="173" endPosition="34" />
+    <nodeInfo nodeId="1123934034178615970" fileName="EmbeddedGraph.java" startLine="178" startPosition="68" endLine="179" endPosition="102" />
+    <nodeInfo nodeId="1123934034178615978" fileName="EmbeddedGraph.java" startLine="180" startPosition="5" endLine="181" endPosition="94" />
+    <nodeInfo nodeId="4179389957059019734" fileName="EmbeddedGraph.java" startLine="184" startPosition="37" endLine="185" endPosition="55" />
+    <nodeInfo nodeId="1123934034178616030" fileName="EmbeddedGraph.java" startLine="186" startPosition="62" endLine="187" endPosition="46" />
+    <nodeInfo nodeId="1123934034178616021" fileName="EmbeddedGraph.java" startLine="191" startPosition="51" endLine="192" endPosition="97" />
+    <nodeInfo nodeId="1123934034178617030" fileName="EmbeddedGraph.java" startLine="193" startPosition="96" endLine="194" endPosition="62" />
+    <nodeInfo nodeId="1123934034178615920" fileName="EmbeddedGraph.java" startLine="198" startPosition="54" endLine="199" endPosition="74" />
+    <nodeInfo nodeId="1123934034178616070" fileName="EmbeddedGraph.java" startLine="199" startPosition="74" endLine="200" endPosition="42" />
+    <nodeInfo nodeId="1123934034178615905" fileName="EmbeddedGraph.java" startLine="200" startPosition="42" endLine="201" endPosition="65" />
+    <nodeInfo nodeId="1123934034178615992" fileName="EmbeddedGraph.java" startLine="201" startPosition="65" endLine="202" endPosition="37" />
+    <nodeInfo nodeId="1123934034178616107" fileName="EmbeddedGraph.java" startLine="205" startPosition="57" endLine="206" endPosition="68" />
+    <nodeInfo nodeId="1123934034178616100" fileName="EmbeddedGraph.java" startLine="206" startPosition="68" endLine="207" endPosition="37" />
+    <nodeInfo nodeId="860462848750221591" fileName="EmbeddedGraph.java" startLine="210" startPosition="50" endLine="211" endPosition="30" />
+    <nodeInfo nodeId="860462848750221622" fileName="EmbeddedGraph.java" startLine="214" startPosition="49" endLine="215" endPosition="75" />
+    <nodeInfo nodeId="4179389957059015280" fileName="EmbeddedGraph.java" startLine="218" startPosition="32" endLine="219" endPosition="24" />
+    <nodeInfo nodeId="4179389957059015291" fileName="EmbeddedGraph.java" startLine="222" startPosition="54" endLine="223" endPosition="35" />
+    <nodeInfo nodeId="529057043639039078" fileName="EmbeddedGraph.java" startLine="230" startPosition="44" endLine="231" endPosition="42" />
+    <nodeInfo nodeId="529057043639077306" fileName="EmbeddedGraph.java" startLine="240" startPosition="38" endLine="241" endPosition="26" />
+    <nodeInfo nodeId="529057043639077341" fileName="EmbeddedGraph.java" startLine="248" startPosition="66" endLine="249" endPosition="20" />
+    <nodeInfo nodeId="529057043639077345" fileName="EmbeddedGraph.java" startLine="251" startPosition="5" endLine="252" endPosition="16" />
+    <nodeInfo nodeId="4179389957059016103" fileName="EmbeddedGraph.java" startLine="255" startPosition="27" endLine="256" endPosition="24" />
+    <nodeInfo nodeId="4179389957059019056" fileName="EmbeddedGraph.java" startLine="260" startPosition="28" endLine="261" endPosition="48" />
+    <nodeInfo nodeId="4179389957059019064" fileName="EmbeddedGraph.java" startLine="262" startPosition="54" endLine="263" endPosition="34" />
+    <nodeInfo nodeId="1654665216152484508" fileName="EmbeddedGraph.java" startLine="264" startPosition="5" endLine="265" endPosition="97" />
+    <nodeInfo nodeId="4179389957059019077" fileName="EmbeddedGraph.java" startLine="265" startPosition="97" endLine="266" endPosition="30" />
+    <nodeInfo nodeId="1123934034178601490" fileName="EmbeddedGraph.java" startLine="269" startPosition="30" endLine="270" endPosition="28" />
+    <nodeInfo nodeId="1123934034178601498" fileName="EmbeddedGraph.java" startLine="273" startPosition="44" endLine="274" endPosition="33" />
+    <nodeInfo nodeId="1123934034178601513" fileName="EmbeddedGraph.java" startLine="277" startPosition="41" endLine="278" endPosition="31" />
+    <nodeInfo nodeId="1418350014056299925" fileName="EmbeddedGraph.java" startLine="281" startPosition="50" endLine="282" endPosition="26" />
+    <nodeInfo nodeId="1418350014056299939" fileName="EmbeddedGraph.java" startLine="285" startPosition="63" endLine="286" endPosition="60" />
+    <nodeInfo nodeId="6494745554568916986" fileName="EmbeddedGraph.java" startLine="289" startPosition="48" endLine="290" endPosition="74" />
+    <nodeInfo nodeId="6494745554568917052" fileName="EmbeddedGraph.java" startLine="290" startPosition="74" endLine="291" endPosition="71" />
+    <nodeInfo nodeId="6494745554568917073" fileName="EmbeddedGraph.java" startLine="292" startPosition="26" endLine="293" endPosition="58" />
+    <nodeInfo nodeId="6494745554568917092" fileName="EmbeddedGraph.java" startLine="295" startPosition="59" endLine="296" endPosition="104" />
+    <nodeInfo nodeId="529057043639328495" fileName="EmbeddedGraph.java" startLine="299" startPosition="125" endLine="300" endPosition="70" />
+    <nodeInfo nodeId="6494745554568917105" fileName="EmbeddedGraph.java" startLine="301" startPosition="5" endLine="302" endPosition="23" />
+    <nodeInfo nodeId="925859607109394186" fileName="EmbeddedGraph.java" startLine="37" startPosition="14" endLine="39" endPosition="9" />
+    <nodeInfo nodeId="925859607109483603" fileName="EmbeddedGraph.java" startLine="52" startPosition="9" endLine="55" endPosition="7" />
+    <nodeInfo nodeId="3021256511735256720" fileName="EmbeddedGraph.java" startLine="67" startPosition="9" endLine="70" endPosition="7" />
+    <nodeInfo nodeId="529057043639031695" fileName="EmbeddedGraph.java" startLine="91" startPosition="18" endLine="94" endPosition="7" />
+    <nodeInfo nodeId="529057043639031717" fileName="EmbeddedGraph.java" startLine="96" startPosition="60" endLine="99" endPosition="9" />
+    <nodeInfo nodeId="529057043639031743" fileName="EmbeddedGraph.java" startLine="101" startPosition="60" endLine="104" endPosition="9" />
+    <nodeInfo nodeId="1327612371813252475" fileName="EmbeddedGraph.java" startLine="118" startPosition="60" endLine="121" endPosition="7" />
+    <nodeInfo nodeId="1327612371813252491" fileName="EmbeddedGraph.java" startLine="121" startPosition="7" endLine="124" endPosition="7" />
+    <nodeInfo nodeId="1327612371813252701" fileName="EmbeddedGraph.java" startLine="140" startPosition="5" endLine="143" endPosition="5" />
+    <nodeInfo nodeId="1327612371813252718" fileName="EmbeddedGraph.java" startLine="143" startPosition="5" endLine="146" endPosition="5" />
+    <nodeInfo nodeId="1327612371813252737" fileName="EmbeddedGraph.java" startLine="146" startPosition="5" endLine="149" endPosition="5" />
+    <nodeInfo nodeId="1327612371813252341" fileName="EmbeddedGraph.java" startLine="162" startPosition="22" endLine="165" endPosition="5" />
+    <nodeInfo nodeId="1123934034178615963" fileName="EmbeddedGraph.java" startLine="177" startPosition="49" endLine="180" endPosition="5" />
+    <nodeInfo nodeId="4179389957059019744" fileName="EmbeddedGraph.java" startLine="185" startPosition="55" endLine="188" endPosition="5" />
+    <nodeInfo nodeId="1123934034178616038" fileName="EmbeddedGraph.java" startLine="192" startPosition="97" endLine="195" endPosition="5" />
+    <nodeInfo nodeId="529057043639077325" fileName="EmbeddedGraph.java" startLine="247" startPosition="57" endLine="250" endPosition="7" />
+    <nodeInfo nodeId="4179389957059019048" fileName="EmbeddedGraph.java" startLine="261" startPosition="48" endLine="264" endPosition="5" />
+    <nodeInfo nodeId="6494745554568917084" fileName="EmbeddedGraph.java" startLine="294" startPosition="12" endLine="297" endPosition="7" />
+    <nodeInfo nodeId="529057043639328456" fileName="EmbeddedGraph.java" startLine="298" startPosition="5" endLine="301" endPosition="5" />
+    <nodeInfo nodeId="925859607109483587" fileName="EmbeddedGraph.java" startLine="48" startPosition="93" endLine="52" endPosition="0" />
+    <nodeInfo nodeId="3021256511735256710" fileName="EmbeddedGraph.java" startLine="63" startPosition="93" endLine="67" endPosition="0" />
+    <nodeInfo nodeId="1327612371813262754" fileName="EmbeddedGraph.java" startLine="74" startPosition="0" endLine="78" endPosition="0" />
+    <nodeInfo nodeId="1327612371813252809" fileName="EmbeddedGraph.java" startLine="150" startPosition="21" endLine="154" endPosition="5" />
+    <nodeInfo nodeId="1327612371813252864" fileName="EmbeddedGraph.java" startLine="155" startPosition="14" endLine="159" endPosition="5" />
+    <nodeInfo nodeId="1646208389854277431" fileName="EmbeddedGraph.java" startLine="170" startPosition="52" endLine="174" endPosition="5" />
+    <nodeInfo nodeId="860462848750221580" fileName="EmbeddedGraph.java" startLine="209" startPosition="0" endLine="213" endPosition="0" />
+    <nodeInfo nodeId="860462848750221618" fileName="EmbeddedGraph.java" startLine="213" startPosition="0" endLine="217" endPosition="0" />
+    <nodeInfo nodeId="4179389957059015275" fileName="EmbeddedGraph.java" startLine="217" startPosition="0" endLine="221" endPosition="0" />
+    <nodeInfo nodeId="4179389957059015284" fileName="EmbeddedGraph.java" startLine="221" startPosition="0" endLine="225" endPosition="0" />
+    <nodeInfo nodeId="529057043639039074" fileName="EmbeddedGraph.java" startLine="229" startPosition="90" endLine="233" endPosition="0" />
+    <nodeInfo nodeId="529057043639077302" fileName="EmbeddedGraph.java" startLine="239" startPosition="95" endLine="243" endPosition="0" />
+    <nodeInfo nodeId="4179389957059016099" fileName="EmbeddedGraph.java" startLine="254" startPosition="0" endLine="258" endPosition="0" />
+    <nodeInfo nodeId="1123934034178601486" fileName="EmbeddedGraph.java" startLine="268" startPosition="0" endLine="272" endPosition="0" />
+    <nodeInfo nodeId="1123934034178601494" fileName="EmbeddedGraph.java" startLine="272" startPosition="0" endLine="276" endPosition="0" />
+    <nodeInfo nodeId="1123934034178601506" fileName="EmbeddedGraph.java" startLine="276" startPosition="0" endLine="280" endPosition="0" />
+    <nodeInfo nodeId="1418350014056299914" fileName="EmbeddedGraph.java" startLine="280" startPosition="0" endLine="284" endPosition="0" />
+    <nodeInfo nodeId="1418350014056299928" fileName="EmbeddedGraph.java" startLine="284" startPosition="0" endLine="288" endPosition="0" />
+    <nodeInfo nodeId="6494745554568917082" fileName="EmbeddedGraph.java" startLine="294" startPosition="10" endLine="298" endPosition="5" />
+    <nodeInfo nodeId="925859607109394175" fileName="EmbeddedGraph.java" startLine="34" startPosition="33" endLine="39" endPosition="9" />
+    <nodeInfo nodeId="925859607109483572" fileName="EmbeddedGraph.java" startLine="47" startPosition="52" endLine="52" endPosition="9" />
+    <nodeInfo nodeId="3021256511735256702" fileName="EmbeddedGraph.java" startLine="62" startPosition="52" endLine="67" endPosition="9" />
+    <nodeInfo nodeId="529057043639031713" fileName="EmbeddedGraph.java" startLine="95" startPosition="72" endLine="100" endPosition="7" />
+    <nodeInfo nodeId="529057043639031739" fileName="EmbeddedGraph.java" startLine="100" startPosition="7" endLine="105" endPosition="7" />
+    <nodeInfo nodeId="1327612371813252637" fileName="EmbeddedGraph.java" startLine="135" startPosition="10" endLine="140" endPosition="5" />
+    <nodeInfo nodeId="1123934034178616080" fileName="EmbeddedGraph.java" startLine="204" startPosition="0" endLine="209" endPosition="0" />
+    <nodeInfo nodeId="529057043639039062" fileName="EmbeddedGraph.java" startLine="228" startPosition="37" endLine="233" endPosition="11" />
+    <nodeInfo nodeId="529057043639077288" fileName="EmbeddedGraph.java" startLine="238" startPosition="44" endLine="243" endPosition="7" />
+    <nodeInfo nodeId="529057043639077319" fileName="EmbeddedGraph.java" startLine="246" startPosition="34" endLine="251" endPosition="5" />
+    <nodeInfo nodeId="2899723422951321540" fileName="EmbeddedGraph.java" startLine="23" startPosition="0" endLine="29" endPosition="3" />
+    <nodeInfo nodeId="1327612371813252054" fileName="EmbeddedGraph.java" startLine="33" startPosition="57" endLine="40" endPosition="7" />
+    <nodeInfo nodeId="1123934034178615957" fileName="EmbeddedGraph.java" startLine="176" startPosition="0" endLine="183" endPosition="0" />
+    <nodeInfo nodeId="4179389957059019728" fileName="EmbeddedGraph.java" startLine="183" startPosition="0" endLine="190" endPosition="0" />
+    <nodeInfo nodeId="1123934034178616015" fileName="EmbeddedGraph.java" startLine="190" startPosition="0" endLine="197" endPosition="0" />
+    <nodeInfo nodeId="1123934034178615893" fileName="EmbeddedGraph.java" startLine="197" startPosition="0" endLine="204" endPosition="0" />
+    <nodeInfo nodeId="6494745554568917064" fileName="EmbeddedGraph.java" startLine="291" startPosition="71" endLine="298" endPosition="5" />
+    <nodeInfo nodeId="2899723422951325404" fileName="EmbeddedGraph.java" startLine="168" startPosition="0" endLine="176" endPosition="0" />
+    <nodeInfo nodeId="529057043639039058" fileName="EmbeddedGraph.java" startLine="227" startPosition="123" endLine="235" endPosition="0" />
+    <nodeInfo nodeId="529057043639077281" fileName="EmbeddedGraph.java" startLine="237" startPosition="0" endLine="245" endPosition="0" />
+    <nodeInfo nodeId="1327612371813252010" fileName="EmbeddedGraph.java" startLine="32" startPosition="31" endLine="41" endPosition="5" />
+    <nodeInfo nodeId="1327612371813252443" fileName="EmbeddedGraph.java" startLine="116" startPosition="20" endLine="125" endPosition="5" />
+    <nodeInfo nodeId="529057043639039045" fileName="EmbeddedGraph.java" startLine="226" startPosition="47" endLine="235" endPosition="24" />
+    <nodeInfo nodeId="529057043639077312" fileName="EmbeddedGraph.java" startLine="245" startPosition="0" endLine="254" endPosition="0" />
+    <nodeInfo nodeId="925859607109483545" fileName="EmbeddedGraph.java" startLine="46" startPosition="73" endLine="56" endPosition="5" />
+    <nodeInfo nodeId="3021256511735256698" fileName="EmbeddedGraph.java" startLine="61" startPosition="73" endLine="71" endPosition="5" />
+    <nodeInfo nodeId="4179389957059019040" fileName="EmbeddedGraph.java" startLine="258" startPosition="0" endLine="268" endPosition="0" />
+    <nodeInfo nodeId="1327612371813252519" fileName="EmbeddedGraph.java" startLine="129" startPosition="16" endLine="140" endPosition="5" />
+    <nodeInfo nodeId="529057043639039036" fileName="EmbeddedGraph.java" startLine="225" startPosition="0" endLine="237" endPosition="0" />
+    <nodeInfo nodeId="1327612371813251996" fileName="EmbeddedGraph.java" startLine="30" startPosition="0" endLine="44" endPosition="0" />
+    <nodeInfo nodeId="925859607109483521" fileName="EmbeddedGraph.java" startLine="44" startPosition="0" endLine="59" endPosition="0" />
+    <nodeInfo nodeId="3021256511735256687" fileName="EmbeddedGraph.java" startLine="59" startPosition="0" endLine="74" endPosition="0" />
+    <nodeInfo nodeId="6494745554568916980" fileName="EmbeddedGraph.java" startLine="288" startPosition="0" endLine="304" endPosition="0" />
+    <nodeInfo nodeId="529057043639031680" fileName="EmbeddedGraph.java" startLine="88" startPosition="136" endLine="106" endPosition="5" />
+    <nodeInfo nodeId="529057043639031593" fileName="EmbeddedGraph.java" startLine="78" startPosition="0" endLine="109" endPosition="0" />
+    <nodeInfo nodeId="1327612371813252110" fileName="EmbeddedGraph.java" startLine="109" startPosition="0" endLine="168" endPosition="0" />
+    <scopeInfo nodeId="925859607109394177" fileName="EmbeddedGraph.java" startLine="35" startPosition="32" endLine="36" endPosition="32" />
+    <scopeInfo nodeId="925859607109394187" fileName="EmbeddedGraph.java" startLine="37" startPosition="16" endLine="38" endPosition="22" />
+    <scopeInfo nodeId="925859607109483588" fileName="EmbeddedGraph.java" startLine="49" startPosition="40" endLine="50" endPosition="38" />
+    <scopeInfo nodeId="925859607109483604" fileName="EmbeddedGraph.java" startLine="53" startPosition="49" endLine="54" endPosition="20" />
+    <scopeInfo nodeId="3021256511735256711" fileName="EmbeddedGraph.java" startLine="64" startPosition="40" endLine="65" endPosition="38" />
+    <scopeInfo nodeId="3021256511735256721" fileName="EmbeddedGraph.java" startLine="68" startPosition="49" endLine="69" endPosition="20" />
+    <scopeInfo nodeId="1327612371813262757" fileName="EmbeddedGraph.java" startLine="75" startPosition="36" endLine="76" endPosition="73" />
+    <scopeInfo nodeId="529057043639031703" fileName="EmbeddedGraph.java" startLine="92" startPosition="78" endLine="93" endPosition="14" />
+    <scopeInfo nodeId="529057043639031726" fileName="EmbeddedGraph.java" startLine="97" startPosition="100" endLine="98" endPosition="80" />
+    <scopeInfo nodeId="529057043639031752" fileName="EmbeddedGraph.java" startLine="102" startPosition="100" endLine="103" endPosition="69" />
+    <scopeInfo nodeId="1327612371813252483" fileName="EmbeddedGraph.java" startLine="119" startPosition="37" endLine="120" endPosition="21" />
+    <scopeInfo nodeId="1327612371813252499" fileName="EmbeddedGraph.java" startLine="122" startPosition="35" endLine="123" endPosition="19" />
+    <scopeInfo nodeId="1327612371813252705" fileName="EmbeddedGraph.java" startLine="141" startPosition="45" endLine="142" endPosition="63" />
+    <scopeInfo nodeId="1327612371813252722" fileName="EmbeddedGraph.java" startLine="144" startPosition="74" endLine="145" endPosition="64" />
+    <scopeInfo nodeId="1327612371813252741" fileName="EmbeddedGraph.java" startLine="147" startPosition="39" endLine="148" endPosition="64" />
+    <scopeInfo nodeId="1327612371813252342" fileName="EmbeddedGraph.java" startLine="163" startPosition="33" endLine="164" endPosition="31" />
+    <scopeInfo nodeId="1123934034178615969" fileName="EmbeddedGraph.java" startLine="178" startPosition="68" endLine="179" endPosition="102" />
+    <scopeInfo nodeId="4179389957059019747" fileName="EmbeddedGraph.java" startLine="186" startPosition="62" endLine="187" endPosition="46" />
+    <scopeInfo nodeId="1123934034178616039" fileName="EmbeddedGraph.java" startLine="193" startPosition="96" endLine="194" endPosition="62" />
+    <scopeInfo nodeId="860462848750221583" fileName="EmbeddedGraph.java" startLine="210" startPosition="50" endLine="211" endPosition="30" />
+    <scopeInfo nodeId="860462848750221621" fileName="EmbeddedGraph.java" startLine="214" startPosition="49" endLine="215" endPosition="75" />
+    <scopeInfo nodeId="4179389957059015279" fileName="EmbeddedGraph.java" startLine="218" startPosition="32" endLine="219" endPosition="24" />
+    <scopeInfo nodeId="4179389957059015290" fileName="EmbeddedGraph.java" startLine="222" startPosition="54" endLine="223" endPosition="35" />
+    <scopeInfo nodeId="529057043639039075" fileName="EmbeddedGraph.java" startLine="230" startPosition="44" endLine="231" endPosition="42" />
+    <scopeInfo nodeId="529057043639077303" fileName="EmbeddedGraph.java" startLine="240" startPosition="38" endLine="241" endPosition="26" />
+    <scopeInfo nodeId="529057043639077327" fileName="EmbeddedGraph.java" startLine="248" startPosition="66" endLine="249" endPosition="20" />
+    <scopeInfo nodeId="4179389957059016102" fileName="EmbeddedGraph.java" startLine="255" startPosition="27" endLine="256" endPosition="24" />
+    <scopeInfo nodeId="4179389957059019051" fileName="EmbeddedGraph.java" startLine="262" startPosition="54" endLine="263" endPosition="34" />
+    <scopeInfo nodeId="1123934034178601489" fileName="EmbeddedGraph.java" startLine="269" startPosition="30" endLine="270" endPosition="28" />
+    <scopeInfo nodeId="1123934034178601497" fileName="EmbeddedGraph.java" startLine="273" startPosition="44" endLine="274" endPosition="33" />
+    <scopeInfo nodeId="1123934034178601509" fileName="EmbeddedGraph.java" startLine="277" startPosition="41" endLine="278" endPosition="31" />
+    <scopeInfo nodeId="1418350014056299917" fileName="EmbeddedGraph.java" startLine="281" startPosition="50" endLine="282" endPosition="26" />
+    <scopeInfo nodeId="1418350014056299931" fileName="EmbeddedGraph.java" startLine="285" startPosition="63" endLine="286" endPosition="60" />
+    <scopeInfo nodeId="6494745554568917065" fileName="EmbeddedGraph.java" startLine="292" startPosition="26" endLine="293" endPosition="58" />
+    <scopeInfo nodeId="6494745554568917089" fileName="EmbeddedGraph.java" startLine="295" startPosition="59" endLine="296" endPosition="104" />
+    <scopeInfo nodeId="529057043639328457" fileName="EmbeddedGraph.java" startLine="299" startPosition="125" endLine="300" endPosition="70" />
+    <scopeInfo nodeId="1327612371813252812" fileName="EmbeddedGraph.java" startLine="151" startPosition="51" endLine="153" endPosition="34" />
+    <scopeInfo nodeId="1327612371813252867" fileName="EmbeddedGraph.java" startLine="156" startPosition="66" endLine="158" endPosition="34" />
+    <scopeInfo nodeId="1646208389854277434" fileName="EmbeddedGraph.java" startLine="171" startPosition="62" endLine="173" endPosition="34">
       <varInfo nodeId="1646208389854277452" varName="edge" />
     </scopeInfo>
-    <scopeInfo nodeId="1123934034178616083" fileName="EmbeddedGraph.java" startLine="200" startPosition="57" endLine="202" endPosition="37" />
-    <scopeInfo nodeId="1327612371813262853" fileName="EmbeddedGraph.java" startLine="91" startPosition="60" endLine="94" endPosition="9" />
-    <scopeInfo nodeId="1327612371813262879" fileName="EmbeddedGraph.java" startLine="96" startPosition="60" endLine="99" endPosition="9" />
-    <scopeInfo nodeId="1327612371813252701" fileName="EmbeddedGraph.java" startLine="135" startPosition="5" endLine="138" endPosition="5">
+    <scopeInfo nodeId="1123934034178616083" fileName="EmbeddedGraph.java" startLine="205" startPosition="57" endLine="207" endPosition="37" />
+    <scopeInfo nodeId="529057043639031716" fileName="EmbeddedGraph.java" startLine="96" startPosition="60" endLine="99" endPosition="9" />
+    <scopeInfo nodeId="529057043639031742" fileName="EmbeddedGraph.java" startLine="101" startPosition="60" endLine="104" endPosition="9" />
+    <scopeInfo nodeId="1327612371813252701" fileName="EmbeddedGraph.java" startLine="140" startPosition="5" endLine="143" endPosition="5">
       <varInfo nodeId="1327612371813252702" varName="i" />
     </scopeInfo>
-    <scopeInfo nodeId="1327612371813252718" fileName="EmbeddedGraph.java" startLine="138" startPosition="5" endLine="141" endPosition="5">
+    <scopeInfo nodeId="1327612371813252718" fileName="EmbeddedGraph.java" startLine="143" startPosition="5" endLine="146" endPosition="5">
       <varInfo nodeId="1327612371813252719" varName="i" />
     </scopeInfo>
-    <scopeInfo nodeId="1327612371813252737" fileName="EmbeddedGraph.java" startLine="141" startPosition="5" endLine="144" endPosition="5">
+    <scopeInfo nodeId="1327612371813252737" fileName="EmbeddedGraph.java" startLine="146" startPosition="5" endLine="149" endPosition="5">
       <varInfo nodeId="1327612371813252738" varName="i" />
     </scopeInfo>
-    <scopeInfo nodeId="4179389957059019744" fileName="EmbeddedGraph.java" startLine="180" startPosition="55" endLine="183" endPosition="5" />
-    <scopeInfo nodeId="4179389957059019048" fileName="EmbeddedGraph.java" startLine="227" startPosition="48" endLine="230" endPosition="5" />
-    <scopeInfo nodeId="6494745554568917083" fileName="EmbeddedGraph.java" startLine="260" startPosition="12" endLine="263" endPosition="7" />
-    <scopeInfo nodeId="6494745554568917084" fileName="EmbeddedGraph.java" startLine="260" startPosition="12" endLine="263" endPosition="7" />
-    <scopeInfo nodeId="2899723422951321543" fileName="EmbeddedGraph.java" startLine="23" startPosition="37" endLine="27" endPosition="20" />
-    <scopeInfo nodeId="925859607109483587" fileName="EmbeddedGraph.java" startLine="47" startPosition="93" endLine="51" endPosition="0" />
-    <scopeInfo nodeId="3021256511735256710" fileName="EmbeddedGraph.java" startLine="62" startPosition="93" endLine="66" endPosition="0" />
-    <scopeInfo nodeId="1327612371813252520" fileName="EmbeddedGraph.java" startLine="125" startPosition="28" endLine="129" endPosition="23" />
-    <scopeInfo nodeId="1327612371813252638" fileName="EmbeddedGraph.java" startLine="130" startPosition="12" endLine="134" endPosition="25" />
-    <scopeInfo nodeId="1327612371813252809" fileName="EmbeddedGraph.java" startLine="145" startPosition="21" endLine="149" endPosition="5" />
-    <scopeInfo nodeId="1327612371813252864" fileName="EmbeddedGraph.java" startLine="150" startPosition="14" endLine="154" endPosition="5" />
-    <scopeInfo nodeId="1646208389854277431" fileName="EmbeddedGraph.java" startLine="165" startPosition="52" endLine="169" endPosition="5" />
-    <scopeInfo nodeId="1123934034178615962" fileName="EmbeddedGraph.java" startLine="172" startPosition="49" endLine="176" endPosition="94" />
-    <scopeInfo nodeId="4179389957059019731" fileName="EmbeddedGraph.java" startLine="179" startPosition="37" endLine="183" endPosition="5" />
-    <scopeInfo nodeId="1123934034178616020" fileName="EmbeddedGraph.java" startLine="186" startPosition="51" endLine="190" endPosition="5" />
-    <scopeInfo nodeId="1123934034178615896" fileName="EmbeddedGraph.java" startLine="193" startPosition="54" endLine="197" endPosition="37">
+    <scopeInfo nodeId="4179389957059019744" fileName="EmbeddedGraph.java" startLine="185" startPosition="55" endLine="188" endPosition="5" />
+    <scopeInfo nodeId="529057043639077322" fileName="EmbeddedGraph.java" startLine="247" startPosition="57" endLine="250" endPosition="7" />
+    <scopeInfo nodeId="4179389957059019048" fileName="EmbeddedGraph.java" startLine="261" startPosition="48" endLine="264" endPosition="5" />
+    <scopeInfo nodeId="6494745554568917083" fileName="EmbeddedGraph.java" startLine="294" startPosition="12" endLine="297" endPosition="7" />
+    <scopeInfo nodeId="6494745554568917084" fileName="EmbeddedGraph.java" startLine="294" startPosition="12" endLine="297" endPosition="7" />
+    <scopeInfo nodeId="2899723422951321543" fileName="EmbeddedGraph.java" startLine="24" startPosition="37" endLine="28" endPosition="20" />
+    <scopeInfo nodeId="925859607109483587" fileName="EmbeddedGraph.java" startLine="48" startPosition="93" endLine="52" endPosition="0" />
+    <scopeInfo nodeId="3021256511735256710" fileName="EmbeddedGraph.java" startLine="63" startPosition="93" endLine="67" endPosition="0" />
+    <scopeInfo nodeId="1327612371813262754" fileName="EmbeddedGraph.java" startLine="74" startPosition="0" endLine="78" endPosition="0">
+      <varInfo nodeId="1327612371813262906" varName="edge" />
+    </scopeInfo>
+    <scopeInfo nodeId="1327612371813252520" fileName="EmbeddedGraph.java" startLine="130" startPosition="28" endLine="134" endPosition="23" />
+    <scopeInfo nodeId="1327612371813252638" fileName="EmbeddedGraph.java" startLine="135" startPosition="12" endLine="139" endPosition="25" />
+    <scopeInfo nodeId="1327612371813252809" fileName="EmbeddedGraph.java" startLine="150" startPosition="21" endLine="154" endPosition="5" />
+    <scopeInfo nodeId="1327612371813252864" fileName="EmbeddedGraph.java" startLine="155" startPosition="14" endLine="159" endPosition="5" />
+    <scopeInfo nodeId="1646208389854277431" fileName="EmbeddedGraph.java" startLine="170" startPosition="52" endLine="174" endPosition="5" />
+    <scopeInfo nodeId="1123934034178615962" fileName="EmbeddedGraph.java" startLine="177" startPosition="49" endLine="181" endPosition="94" />
+    <scopeInfo nodeId="4179389957059019731" fileName="EmbeddedGraph.java" startLine="184" startPosition="37" endLine="188" endPosition="5" />
+    <scopeInfo nodeId="1123934034178616020" fileName="EmbeddedGraph.java" startLine="191" startPosition="51" endLine="195" endPosition="5" />
+    <scopeInfo nodeId="1123934034178615896" fileName="EmbeddedGraph.java" startLine="198" startPosition="54" endLine="202" endPosition="37">
       <varInfo nodeId="1123934034178615921" varName="oldDart" />
     </scopeInfo>
-    <scopeInfo nodeId="860462848750221580" fileName="EmbeddedGraph.java" startLine="204" startPosition="0" endLine="208" endPosition="0">
+    <scopeInfo nodeId="860462848750221580" fileName="EmbeddedGraph.java" startLine="209" startPosition="0" endLine="213" endPosition="0">
       <varInfo nodeId="860462848750221588" varName="dart" />
       <varInfo nodeId="860462848750221586" varName="face" />
     </scopeInfo>
-    <scopeInfo nodeId="860462848750221618" fileName="EmbeddedGraph.java" startLine="208" startPosition="0" endLine="212" endPosition="0">
+    <scopeInfo nodeId="860462848750221618" fileName="EmbeddedGraph.java" startLine="213" startPosition="0" endLine="217" endPosition="0">
       <varInfo nodeId="860462848750221629" varName="dart" />
       <varInfo nodeId="860462848750221627" varName="face" />
     </scopeInfo>
-    <scopeInfo nodeId="4179389957059015275" fileName="EmbeddedGraph.java" startLine="212" startPosition="0" endLine="216" endPosition="0" />
-    <scopeInfo nodeId="4179389957059015284" fileName="EmbeddedGraph.java" startLine="216" startPosition="0" endLine="220" endPosition="0" />
-    <scopeInfo nodeId="4179389957059016099" fileName="EmbeddedGraph.java" startLine="220" startPosition="0" endLine="224" endPosition="0" />
-    <scopeInfo nodeId="1123934034178601486" fileName="EmbeddedGraph.java" startLine="234" startPosition="0" endLine="238" endPosition="0" />
-    <scopeInfo nodeId="1123934034178601494" fileName="EmbeddedGraph.java" startLine="238" startPosition="0" endLine="242" endPosition="0">
+    <scopeInfo nodeId="4179389957059015275" fileName="EmbeddedGraph.java" startLine="217" startPosition="0" endLine="221" endPosition="0" />
+    <scopeInfo nodeId="4179389957059015284" fileName="EmbeddedGraph.java" startLine="221" startPosition="0" endLine="225" endPosition="0" />
+    <scopeInfo nodeId="529057043639039074" fileName="EmbeddedGraph.java" startLine="229" startPosition="90" endLine="233" endPosition="0" />
+    <scopeInfo nodeId="529057043639077302" fileName="EmbeddedGraph.java" startLine="239" startPosition="95" endLine="243" endPosition="0" />
+    <scopeInfo nodeId="4179389957059016099" fileName="EmbeddedGraph.java" startLine="254" startPosition="0" endLine="258" endPosition="0" />
+    <scopeInfo nodeId="1123934034178601486" fileName="EmbeddedGraph.java" startLine="268" startPosition="0" endLine="272" endPosition="0" />
+    <scopeInfo nodeId="1123934034178601494" fileName="EmbeddedGraph.java" startLine="272" startPosition="0" endLine="276" endPosition="0">
       <varInfo nodeId="1123934034178601504" varName="outerFace" />
     </scopeInfo>
-    <scopeInfo nodeId="1123934034178601506" fileName="EmbeddedGraph.java" startLine="242" startPosition="0" endLine="246" endPosition="0">
+    <scopeInfo nodeId="1123934034178601506" fileName="EmbeddedGraph.java" startLine="276" startPosition="0" endLine="280" endPosition="0">
       <varInfo nodeId="1123934034178601511" varName="face" />
     </scopeInfo>
-    <scopeInfo nodeId="1418350014056299914" fileName="EmbeddedGraph.java" startLine="246" startPosition="0" endLine="250" endPosition="0" />
-    <scopeInfo nodeId="1418350014056299928" fileName="EmbeddedGraph.java" startLine="250" startPosition="0" endLine="254" endPosition="0">
+    <scopeInfo nodeId="1418350014056299914" fileName="EmbeddedGraph.java" startLine="280" startPosition="0" endLine="284" endPosition="0" />
+    <scopeInfo nodeId="1418350014056299928" fileName="EmbeddedGraph.java" startLine="284" startPosition="0" endLine="288" endPosition="0">
       <varInfo nodeId="1418350014056299932" varName="edge" />
       <varInfo nodeId="1418350014056299934" varName="newEdges" />
     </scopeInfo>
-    <scopeInfo nodeId="1327612371813252055" fileName="EmbeddedGraph.java" startLine="33" startPosition="33" endLine="38" endPosition="9" />
-    <scopeInfo nodeId="1327612371813262850" fileName="EmbeddedGraph.java" startLine="90" startPosition="72" endLine="95" endPosition="7" />
-    <scopeInfo nodeId="1327612371813262876" fileName="EmbeddedGraph.java" startLine="95" startPosition="7" endLine="100" endPosition="7" />
-    <scopeInfo nodeId="2899723422951325407" fileName="EmbeddedGraph.java" startLine="164" startPosition="34" endLine="169" endPosition="5" />
-    <scopeInfo nodeId="1123934034178616080" fileName="EmbeddedGraph.java" startLine="199" startPosition="0" endLine="204" endPosition="0">
+    <scopeInfo nodeId="1327612371813252055" fileName="EmbeddedGraph.java" startLine="34" startPosition="33" endLine="39" endPosition="9" />
+    <scopeInfo nodeId="529057043639031713" fileName="EmbeddedGraph.java" startLine="95" startPosition="72" endLine="100" endPosition="7" />
+    <scopeInfo nodeId="529057043639031739" fileName="EmbeddedGraph.java" startLine="100" startPosition="7" endLine="105" endPosition="7" />
+    <scopeInfo nodeId="2899723422951325407" fileName="EmbeddedGraph.java" startLine="169" startPosition="34" endLine="174" endPosition="5" />
+    <scopeInfo nodeId="1123934034178616080" fileName="EmbeddedGraph.java" startLine="204" startPosition="0" endLine="209" endPosition="0">
       <varInfo nodeId="1123934034178616089" varName="dart" />
       <varInfo nodeId="1123934034178616084" varName="face" />
       <varInfo nodeId="1123934034178616086" varName="pos" />
     </scopeInfo>
-    <scopeInfo nodeId="2899723422951321540" fileName="EmbeddedGraph.java" startLine="22" startPosition="0" endLine="28" endPosition="3">
+    <scopeInfo nodeId="529057043639039059" fileName="EmbeddedGraph.java" startLine="228" startPosition="37" endLine="233" endPosition="11" />
+    <scopeInfo nodeId="529057043639077284" fileName="EmbeddedGraph.java" startLine="238" startPosition="44" endLine="243" endPosition="7" />
+    <scopeInfo nodeId="529057043639077319" fileName="EmbeddedGraph.java" startLine="246" startPosition="34" endLine="251" endPosition="5" />
+    <scopeInfo nodeId="2899723422951321540" fileName="EmbeddedGraph.java" startLine="23" startPosition="0" endLine="29" endPosition="3">
       <varInfo nodeId="4179389957059016094" varName="graph" />
     </scopeInfo>
-    <scopeInfo nodeId="4179389957059019043" fileName="EmbeddedGraph.java" startLine="226" startPosition="28" endLine="232" endPosition="30">
+    <scopeInfo nodeId="529057043639077315" fileName="EmbeddedGraph.java" startLine="246" startPosition="34" endLine="252" endPosition="16" />
+    <scopeInfo nodeId="4179389957059019043" fileName="EmbeddedGraph.java" startLine="260" startPosition="28" endLine="266" endPosition="30">
       <varInfo nodeId="4179389957059019057" varName="builder" />
     </scopeInfo>
-    <scopeInfo nodeId="1327612371813252015" fileName="EmbeddedGraph.java" startLine="32" startPosition="57" endLine="39" endPosition="7" />
-    <scopeInfo nodeId="1327612371813252444" fileName="EmbeddedGraph.java" startLine="112" startPosition="68" endLine="119" endPosition="7">
+    <scopeInfo nodeId="1327612371813252015" fileName="EmbeddedGraph.java" startLine="33" startPosition="57" endLine="40" endPosition="7" />
+    <scopeInfo nodeId="1327612371813252444" fileName="EmbeddedGraph.java" startLine="117" startPosition="68" endLine="124" endPosition="7">
       <varInfo nodeId="1327612371813252466" varName="cur" />
     </scopeInfo>
-    <scopeInfo nodeId="1123934034178615957" fileName="EmbeddedGraph.java" startLine="171" startPosition="0" endLine="178" endPosition="0">
+    <scopeInfo nodeId="1123934034178615957" fileName="EmbeddedGraph.java" startLine="176" startPosition="0" endLine="183" endPosition="0">
       <varInfo nodeId="1123934034178615956" varName="face" />
       <varInfo nodeId="1123934034178615955" varName="edge" />
     </scopeInfo>
-    <scopeInfo nodeId="4179389957059019728" fileName="EmbeddedGraph.java" startLine="178" startPosition="0" endLine="185" endPosition="0">
+    <scopeInfo nodeId="4179389957059019728" fileName="EmbeddedGraph.java" startLine="183" startPosition="0" endLine="190" endPosition="0">
       <varInfo nodeId="4179389957059019732" varName="face" />
     </scopeInfo>
-    <scopeInfo nodeId="1123934034178616015" fileName="EmbeddedGraph.java" startLine="185" startPosition="0" endLine="192" endPosition="0">
+    <scopeInfo nodeId="1123934034178616015" fileName="EmbeddedGraph.java" startLine="190" startPosition="0" endLine="197" endPosition="0">
       <varInfo nodeId="1123934034178616014" varName="face" />
       <varInfo nodeId="1123934034178616013" varName="edge" />
     </scopeInfo>
-    <scopeInfo nodeId="1123934034178615893" fileName="EmbeddedGraph.java" startLine="192" startPosition="0" endLine="199" endPosition="0">
+    <scopeInfo nodeId="1123934034178615893" fileName="EmbeddedGraph.java" startLine="197" startPosition="0" endLine="204" endPosition="0">
       <varInfo nodeId="1123934034178615902" varName="dart" />
       <varInfo nodeId="1123934034178615897" varName="face" />
       <varInfo nodeId="1123934034178615899" varName="pos" />
     </scopeInfo>
-    <scopeInfo nodeId="925859607109483548" fileName="EmbeddedGraph.java" startLine="46" startPosition="52" endLine="54" endPosition="7">
+    <scopeInfo nodeId="925859607109483548" fileName="EmbeddedGraph.java" startLine="47" startPosition="52" endLine="55" endPosition="7">
       <varInfo nodeId="925859607109483573" varName="dart" />
     </scopeInfo>
-    <scopeInfo nodeId="3021256511735256701" fileName="EmbeddedGraph.java" startLine="61" startPosition="52" endLine="69" endPosition="7">
+    <scopeInfo nodeId="3021256511735256701" fileName="EmbeddedGraph.java" startLine="62" startPosition="52" endLine="70" endPosition="7">
       <varInfo nodeId="3021256511735256703" varName="dart" />
     </scopeInfo>
-    <scopeInfo nodeId="2899723422951325404" fileName="EmbeddedGraph.java" startLine="163" startPosition="0" endLine="171" endPosition="0">
+    <scopeInfo nodeId="2899723422951325404" fileName="EmbeddedGraph.java" startLine="168" startPosition="0" endLine="176" endPosition="0">
       <varInfo nodeId="2899723422951325409" varName="face" />
     </scopeInfo>
-    <scopeInfo nodeId="1327612371813252010" fileName="EmbeddedGraph.java" startLine="31" startPosition="31" endLine="40" endPosition="5" />
-    <scopeInfo nodeId="1327612371813252443" fileName="EmbeddedGraph.java" startLine="111" startPosition="20" endLine="120" endPosition="5">
+    <scopeInfo nodeId="529057043639039058" fileName="EmbeddedGraph.java" startLine="227" startPosition="123" endLine="235" endPosition="0" />
+    <scopeInfo nodeId="529057043639077281" fileName="EmbeddedGraph.java" startLine="237" startPosition="0" endLine="245" endPosition="0">
+      <varInfo nodeId="529057043639077286" varName="dart" />
+    </scopeInfo>
+    <scopeInfo nodeId="1327612371813252010" fileName="EmbeddedGraph.java" startLine="32" startPosition="31" endLine="41" endPosition="5" />
+    <scopeInfo nodeId="1327612371813252443" fileName="EmbeddedGraph.java" startLine="116" startPosition="20" endLine="125" endPosition="5">
       <varInfo nodeId="1327612371813252446" varName="i" />
     </scopeInfo>
-    <scopeInfo nodeId="925859607109483545" fileName="EmbeddedGraph.java" startLine="45" startPosition="73" endLine="55" endPosition="5" />
-    <scopeInfo nodeId="3021256511735256698" fileName="EmbeddedGraph.java" startLine="60" startPosition="73" endLine="70" endPosition="5" />
-    <scopeInfo nodeId="4179389957059019040" fileName="EmbeddedGraph.java" startLine="224" startPosition="0" endLine="234" endPosition="0" />
-    <scopeInfo nodeId="6494745554568916983" fileName="EmbeddedGraph.java" startLine="255" startPosition="48" endLine="265" endPosition="23">
+    <scopeInfo nodeId="529057043639039039" fileName="EmbeddedGraph.java" startLine="226" startPosition="47" endLine="235" endPosition="24" />
+    <scopeInfo nodeId="529057043639077312" fileName="EmbeddedGraph.java" startLine="245" startPosition="0" endLine="254" endPosition="0">
+      <varInfo nodeId="529057043639077317" varName="dart" />
+    </scopeInfo>
+    <scopeInfo nodeId="925859607109483545" fileName="EmbeddedGraph.java" startLine="46" startPosition="73" endLine="56" endPosition="5" />
+    <scopeInfo nodeId="3021256511735256698" fileName="EmbeddedGraph.java" startLine="61" startPosition="73" endLine="71" endPosition="5" />
+    <scopeInfo nodeId="4179389957059019040" fileName="EmbeddedGraph.java" startLine="258" startPosition="0" endLine="268" endPosition="0" />
+    <scopeInfo nodeId="1327612371813251999" fileName="EmbeddedGraph.java" startLine="31" startPosition="52" endLine="42" endPosition="26">
+      <varInfo nodeId="925859607109394140" varName="containingFace" />
+    </scopeInfo>
+    <scopeInfo nodeId="925859607109483524" fileName="EmbeddedGraph.java" startLine="45" startPosition="50" endLine="57" endPosition="16">
+      <varInfo nodeId="925859607109483534" varName="faces" />
+    </scopeInfo>
+    <scopeInfo nodeId="3021256511735256690" fileName="EmbeddedGraph.java" startLine="60" startPosition="49" endLine="72" endPosition="16">
+      <varInfo nodeId="3021256511735256692" varName="faces" />
+    </scopeInfo>
+    <scopeInfo nodeId="529057043639039036" fileName="EmbeddedGraph.java" startLine="225" startPosition="0" endLine="237" endPosition="0">
+      <varInfo nodeId="529057043639039043" varName="edge" />
+    </scopeInfo>
+    <scopeInfo nodeId="6494745554568916983" fileName="EmbeddedGraph.java" startLine="289" startPosition="48" endLine="302" endPosition="23">
       <varInfo nodeId="6494745554568917053" varName="history" />
       <varInfo nodeId="6494745554568916987" varName="fullHistory" />
     </scopeInfo>
-    <scopeInfo nodeId="1327612371813251999" fileName="EmbeddedGraph.java" startLine="30" startPosition="52" endLine="41" endPosition="26">
-      <varInfo nodeId="925859607109394140" varName="containingFace" />
-    </scopeInfo>
-    <scopeInfo nodeId="925859607109483524" fileName="EmbeddedGraph.java" startLine="44" startPosition="50" endLine="56" endPosition="16">
-      <varInfo nodeId="925859607109483534" varName="faces" />
-    </scopeInfo>
-    <scopeInfo nodeId="3021256511735256690" fileName="EmbeddedGraph.java" startLine="59" startPosition="49" endLine="71" endPosition="16">
-      <varInfo nodeId="3021256511735256692" varName="faces" />
-    </scopeInfo>
-    <scopeInfo nodeId="6494745554568916980" fileName="EmbeddedGraph.java" startLine="254" startPosition="0" endLine="267" endPosition="0">
-      <varInfo nodeId="6494745554568916984" varName="edge" />
-    </scopeInfo>
-    <scopeInfo nodeId="1327612371813251996" fileName="EmbeddedGraph.java" startLine="29" startPosition="0" endLine="43" endPosition="0">
+    <scopeInfo nodeId="1327612371813251996" fileName="EmbeddedGraph.java" startLine="30" startPosition="0" endLine="44" endPosition="0">
       <varInfo nodeId="1327612371813252001" varName="nodes" />
     </scopeInfo>
-    <scopeInfo nodeId="925859607109483521" fileName="EmbeddedGraph.java" startLine="43" startPosition="0" endLine="58" endPosition="0">
+    <scopeInfo nodeId="925859607109483521" fileName="EmbeddedGraph.java" startLine="44" startPosition="0" endLine="59" endPosition="0">
       <varInfo nodeId="925859607109483529" varName="edge" />
     </scopeInfo>
-    <scopeInfo nodeId="3021256511735256687" fileName="EmbeddedGraph.java" startLine="58" startPosition="0" endLine="73" endPosition="0">
+    <scopeInfo nodeId="3021256511735256687" fileName="EmbeddedGraph.java" startLine="59" startPosition="0" endLine="74" endPosition="0">
       <varInfo nodeId="3021256511735256733" varName="edge" />
     </scopeInfo>
-    <scopeInfo nodeId="1327612371813262820" fileName="EmbeddedGraph.java" startLine="84" startPosition="61" endLine="100" endPosition="7">
-      <varInfo nodeId="1327612371813262845" varName="dartToReplace" />
-      <varInfo nodeId="1327612371813262822" varName="darts" />
-      <varInfo nodeId="1327612371813262829" varName="pos" />
+    <scopeInfo nodeId="529057043639031683" fileName="EmbeddedGraph.java" startLine="89" startPosition="61" endLine="105" endPosition="7">
+      <varInfo nodeId="529057043639031708" varName="dartToReplace" />
+      <varInfo nodeId="529057043639031685" varName="darts" />
+      <varInfo nodeId="529057043639031692" varName="pos" />
     </scopeInfo>
-    <scopeInfo nodeId="1327612371813262817" fileName="EmbeddedGraph.java" startLine="83" startPosition="136" endLine="101" endPosition="5" />
-    <scopeInfo nodeId="1327612371813262757" fileName="EmbeddedGraph.java" startLine="74" startPosition="36" endLine="102" endPosition="19">
-      <varInfo nodeId="1327612371813262775" varName="newEdges" />
-      <varInfo nodeId="1327612371813262759" varName="originalGraph" />
-      <varInfo nodeId="1327612371813262802" varName="facesToProcess" />
-      <varInfo nodeId="1327612371813262765" varName="newNode" />
+    <scopeInfo nodeId="6494745554568916980" fileName="EmbeddedGraph.java" startLine="288" startPosition="0" endLine="304" endPosition="0">
+      <varInfo nodeId="6494745554568916984" varName="edge" />
     </scopeInfo>
-    <scopeInfo nodeId="1327612371813262754" fileName="EmbeddedGraph.java" startLine="73" startPosition="0" endLine="104" endPosition="0">
-      <varInfo nodeId="1327612371813262906" varName="edge" />
+    <scopeInfo nodeId="529057043639031680" fileName="EmbeddedGraph.java" startLine="88" startPosition="136" endLine="106" endPosition="5" />
+    <scopeInfo nodeId="529057043639031596" fileName="EmbeddedGraph.java" startLine="79" startPosition="57" endLine="107" endPosition="19">
+      <varInfo nodeId="529057043639031616" varName="originalGraph" />
+      <varInfo nodeId="529057043639031665" varName="facesToProcess" />
+      <varInfo nodeId="529057043639031622" varName="newNode" />
     </scopeInfo>
-    <scopeInfo nodeId="1327612371813252113" fileName="EmbeddedGraph.java" startLine="105" startPosition="81" endLine="161" endPosition="84">
+    <scopeInfo nodeId="529057043639031593" fileName="EmbeddedGraph.java" startLine="78" startPosition="0" endLine="109" endPosition="0">
+      <varInfo nodeId="529057043639031598" varName="edge" />
+      <varInfo nodeId="529057043639031600" varName="newEdges" />
+    </scopeInfo>
+    <scopeInfo nodeId="1327612371813252113" fileName="EmbeddedGraph.java" startLine="110" startPosition="81" endLine="166" endPosition="84">
       <varInfo nodeId="1327612371813252552" varName="faceSToE" />
       <varInfo nodeId="1327612371813252758" varName="succ" />
       <varInfo nodeId="1327612371813252410" varName="posEnd" />
@@ -502,15 +547,18 @@
       <varInfo nodeId="1327612371813252378" varName="darts" />
       <varInfo nodeId="1327612371813252404" varName="posStart" />
     </scopeInfo>
-    <scopeInfo nodeId="1327612371813252110" fileName="EmbeddedGraph.java" startLine="104" startPosition="0" endLine="163" endPosition="0">
+    <scopeInfo nodeId="1327612371813252110" fileName="EmbeddedGraph.java" startLine="109" startPosition="0" endLine="168" endPosition="0">
       <varInfo nodeId="1327612371813252116" varName="face" />
       <varInfo nodeId="1327612371813252508" varName="start" />
       <varInfo nodeId="1327612371813252118" varName="path" />
       <varInfo nodeId="1327612371813252511" varName="end" />
     </scopeInfo>
-    <unitInfo nodeId="925859607109483587" fileName="EmbeddedGraph.java" startLine="47" startPosition="71" endLine="51" endPosition="7" unitName="jetbrains.mps.graphLayout.planarGraph.EmbeddedGraph$1" />
-    <unitInfo nodeId="3021256511735256710" fileName="EmbeddedGraph.java" startLine="62" startPosition="71" endLine="66" endPosition="7" unitName="jetbrains.mps.graphLayout.planarGraph.EmbeddedGraph$2" />
-    <unitInfo nodeId="2899723422951321538" fileName="EmbeddedGraph.java" startLine="16" startPosition="0" endLine="268" endPosition="0" unitName="jetbrains.mps.graphLayout.planarGraph.EmbeddedGraph" />
+    <unitInfo nodeId="925859607109483587" fileName="EmbeddedGraph.java" startLine="48" startPosition="71" endLine="52" endPosition="7" unitName="jetbrains.mps.graphLayout.planarGraph.EmbeddedGraph$1" />
+    <unitInfo nodeId="3021256511735256710" fileName="EmbeddedGraph.java" startLine="63" startPosition="71" endLine="67" endPosition="7" unitName="jetbrains.mps.graphLayout.planarGraph.EmbeddedGraph$2" />
+    <unitInfo nodeId="529057043639039074" fileName="EmbeddedGraph.java" startLine="229" startPosition="68" endLine="233" endPosition="9" unitName="jetbrains.mps.graphLayout.planarGraph.IWhereFilter$anonymous" />
+    <unitInfo nodeId="529057043639077302" fileName="EmbeddedGraph.java" startLine="239" startPosition="73" endLine="243" endPosition="5" unitName="jetbrains.mps.graphLayout.planarGraph.EmbeddedGraph$4" />
+    <unitInfo nodeId="529057043639039058" fileName="EmbeddedGraph.java" startLine="227" startPosition="98" endLine="235" endPosition="5" unitName="jetbrains.mps.graphLayout.planarGraph.EmbeddedGraph$3" />
+    <unitInfo nodeId="2899723422951321538" fileName="EmbeddedGraph.java" startLine="17" startPosition="0" endLine="305" endPosition="0" unitName="jetbrains.mps.graphLayout.planarGraph.EmbeddedGraph" />
   </root>
   <root nodeId="4179389957059015219">
     <nodeInfo nodeId="4179389957059015232" fileName="DualGraph.java" startLine="16" startPosition="38" endLine="17" endPosition="40" />

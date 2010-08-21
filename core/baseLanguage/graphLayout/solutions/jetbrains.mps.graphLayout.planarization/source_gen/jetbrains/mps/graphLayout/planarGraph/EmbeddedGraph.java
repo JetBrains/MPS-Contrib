@@ -12,6 +12,7 @@ import jetbrains.mps.internal.collections.runtime.MapSequence;
 import java.util.HashMap;
 import jetbrains.mps.graphLayout.graph.Node;
 import jetbrains.mps.internal.collections.runtime.IWhereFilter;
+import jetbrains.mps.internal.collections.runtime.ISelector;
 
 public class EmbeddedGraph {
   private List<Face> myFaces;
@@ -72,10 +73,14 @@ public class EmbeddedGraph {
   }
 
   public Node splitEdge(Edge edge) {
+    return splitEdge(edge, ListSequence.fromList(new ArrayList<Edge>()));
+  }
+
+  public Node splitEdge(Edge edge, List<Edge> newEdges) {
     Graph originalGraph = this.getGraph();
     Node newNode = originalGraph.addDummyNode();
     edge.removeFromGraph();
-    List<Edge> newEdges = ListSequence.fromList(new ArrayList<Edge>());
+    ListSequence.fromList(newEdges).clear();
     ListSequence.fromList(newEdges).addElement(edge.getSource().addEdgeTo(newNode));
     ListSequence.fromList(newEdges).addElement(newNode.addEdgeTo(edge.getTarget()));
     MapSequence.fromMap(myEdgesHistory).put(edge, newEdges);
@@ -218,6 +223,35 @@ public class EmbeddedGraph {
     return this.myAdjacentFacesMap;
   }
 
+  public List<Dart> getDarts(final Edge edge) {
+    return ListSequence.fromList(MapSequence.fromMap(getAdjacentFacesMap()).get(edge)).select(new ISelector<Face, Dart>() {
+      public Dart select(Face face) {
+        return ListSequence.fromList(face.getDarts()).findFirst(new IWhereFilter<Dart>() {
+          public boolean accept(Dart dart) {
+            return dart.getEdge() == edge;
+          }
+        });
+      }
+    }).toListSequence();
+  }
+
+  public Dart getOpposite(final Dart dart) {
+    return ListSequence.fromList(getDarts(dart.getEdge())).findFirst(new IWhereFilter<Dart>() {
+      public boolean accept(Dart it) {
+        return it != dart;
+      }
+    });
+  }
+
+  public Face getFace(Dart dart) {
+    for (Face face : ListSequence.fromList(getFaces())) {
+      if (ListSequence.fromList(face.getDarts()).contains(dart)) {
+        return face;
+      }
+    }
+    return null;
+  }
+
   public Graph getGraph() {
     return this.myGraph;
   }
@@ -261,6 +295,9 @@ public class EmbeddedGraph {
       for (Edge newEdge : ListSequence.fromList(history)) {
         ListSequence.fromList(fullHistory).addSequence(ListSequence.fromList(findFullHistory(newEdge)));
       }
+    }
+    if (!(ListSequence.fromList(ListSequence.fromList(fullHistory).first().getAdjacentNodes()).contains(edge.getSource()))) {
+      fullHistory = ListSequence.fromList(fullHistory).reversedList();
     }
     return fullHistory;
   }

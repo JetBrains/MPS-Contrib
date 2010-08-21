@@ -9,7 +9,7 @@ import jetbrains.mps.internal.collections.runtime.ListSequence;
 import java.util.ArrayList;
 
 public class PQTree {
-  private static int SHOW_LOG = 1;
+  private static int SHOW_LOG = 0;
 
   private PQNode myRoot;
   private Node myNodeToMerge;

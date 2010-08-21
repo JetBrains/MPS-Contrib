@@ -10,6 +10,7 @@ import jetbrains.mps.graphLayout.graphLayout.GraphLayoutPoint;
 import javax.swing.JTextField;
 import javax.swing.JRadioButton;
 import java.awt.GridBagLayout;
+import jetbrains.mps.graphLayout.flowOrthogonalLayout.OrthogonalPointLayouter;
 import jetbrains.mps.graphLayout.stOrthogonalLayout.OrthogonalLayouter;
 import jetbrains.mps.graphLayout.layeredLayout.LayeredLayouter;
 import layeredLayoutTest.EdgeReverterProxy;
@@ -63,7 +64,10 @@ public class TestPanel extends JPanel {
     createNewGraphButton();
     createTextPanel();
     createGraphPanel();
-    myLayouter = new OrthogonalLayouter();
+    myLayouter = new OrthogonalPointLayouter();
+    /*
+      myLayouter = new OrthogonalLayouter();
+    */
     /*
       myLayouter = new LayeredLayouter(new EdgeReverterProxy(new DFSEdgeReverter()), new LayererProxy(new TopologicalLayerer()), new BKCoordinatePlacer(), new MedianLayerByLayerSorterProxy());
     */
@@ -231,7 +235,11 @@ public class TestPanel extends JPanel {
           graphics.fillOval(x, y, TestPanel.NSIZE, TestPanel.NSIZE);
           graphics.setColor(oldColor);
           graphics.drawOval(x, y, TestPanel.NSIZE, TestPanel.NSIZE);
-          graphics.drawString(Integer.toString(node.getIndex()), x + TestPanel.NSIZE / 3, y + 2 * TestPanel.NSIZE / 3);
+          if (node.isDummy()) {
+            graphics.fillOval(x, y, TestPanel.NSIZE, TestPanel.NSIZE);
+          } else {
+            graphics.drawString(Integer.toString(node.getIndex()), x + TestPanel.NSIZE / 3, y + 2 * TestPanel.NSIZE / 3);
+          }
         }
       }
     }
