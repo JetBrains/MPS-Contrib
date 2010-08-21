@@ -28,7 +28,7 @@ public class BiconnectAugmentation {
       List<Node> toConnect = ListSequence.fromList(new ArrayList<Node>());
       collectListNodes(root, toConnect, null);
       if (ListSequence.fromList(toConnect).count() == 1) {
-        if (ListSequence.fromList(root.getChildren()).count() == 1) {
+        if (SetSequence.fromSet(root.getNodes()).count() == 1) {
           ListSequence.fromList(toConnect).addElement(SetSequence.fromSet(root.getNodes()).first());
         } else {
           final Node cutpoint = root.getCutpoint(ListSequence.fromList(root.getChildren()).first());

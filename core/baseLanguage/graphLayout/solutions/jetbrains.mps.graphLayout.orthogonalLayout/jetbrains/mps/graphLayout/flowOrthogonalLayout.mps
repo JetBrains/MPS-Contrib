@@ -1306,21 +1306,19 @@
                         <link role="classifier:3" targetNodeId="1.2899723422951321463" resolveInfo="Face" />
                       </node>
                     </node>
-                    <node role="initializer:3" type="jetbrains.mps.baseLanguage.collections.structure.MapElement:7" id="529057043639389285">
-                      <node role="map:7" type="jetbrains.mps.baseLanguage.structure.DotExpression:3" id="529057043639389286">
-                        <node role="operand:3" type="jetbrains.mps.baseLanguage.structure.ParameterReference:3" id="529057043639389287">
-                          <link role="variableDeclaration:3" targetNodeId="529057043639388981" resolveInfo="embeddedGraph" />
-                        </node>
-                        <node role="operation:3" type="jetbrains.mps.baseLanguage.structure.InstanceMethodCallOperation:3" id="529057043639389288">
-                          <link role="baseMethodDeclaration:3" targetNodeId="1.4179389957059015284" resolveInfo="getAdjacentFacesMap" />
-                        </node>
+                    <node role="initializer:3" type="jetbrains.mps.baseLanguage.structure.DotExpression:3" id="529057043639389286">
+                      <node role="operand:3" type="jetbrains.mps.baseLanguage.structure.ParameterReference:3" id="529057043639389287">
+                        <link role="variableDeclaration:3" targetNodeId="529057043639388981" resolveInfo="embeddedGraph" />
                       </node>
-                      <node role="key:7" type="jetbrains.mps.baseLanguage.structure.DotExpression:3" id="529057043639389289">
-                        <node role="operand:3" type="jetbrains.mps.baseLanguage.collections.structure.ForEachVariableReference:7" id="529057043639389290">
-                          <link role="variable:7" targetNodeId="529057043639389241" resolveInfo="dart" />
-                        </node>
-                        <node role="operation:3" type="jetbrains.mps.baseLanguage.structure.InstanceMethodCallOperation:3" id="529057043639389291">
-                          <link role="baseMethodDeclaration:3" targetNodeId="1.1646208389854277460" resolveInfo="getEdge" />
+                      <node role="operation:3" type="jetbrains.mps.baseLanguage.structure.InstanceMethodCallOperation:3" id="2503771434357704454">
+                        <link role="baseMethodDeclaration:3" targetNodeId="1.2503771434357703709" resolveInfo="getAdjacentFaces" />
+                        <node role="actualArgument:3" type="jetbrains.mps.baseLanguage.structure.DotExpression:3" id="2503771434357704455">
+                          <node role="operand:3" type="jetbrains.mps.baseLanguage.collections.structure.ForEachVariableReference:7" id="2503771434357704456">
+                            <link role="variable:7" targetNodeId="529057043639389241" resolveInfo="dart" />
+                          </node>
+                          <node role="operation:3" type="jetbrains.mps.baseLanguage.structure.InstanceMethodCallOperation:3" id="2503771434357704457">
+                            <link role="baseMethodDeclaration:3" targetNodeId="1.1646208389854277460" resolveInfo="getEdge" />
+                          </node>
                         </node>
                       </node>
                     </node>

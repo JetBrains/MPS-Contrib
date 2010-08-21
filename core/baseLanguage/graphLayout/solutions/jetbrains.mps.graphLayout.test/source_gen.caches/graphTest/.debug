@@ -53,79 +53,39 @@
     </scopeInfo>
   </root>
   <root nodeId="1654665216152489675">
-    <nodeInfo nodeId="1654665216152489686" fileName="STNumbering_Test.java" startLine="24" startPosition="45" endLine="25" endPosition="51" />
-    <nodeInfo nodeId="1654665216152489695" fileName="STNumbering_Test.java" startLine="25" startPosition="51" endLine="26" endPosition="62" />
-    <nodeInfo nodeId="1654665216152550112" fileName="STNumbering_Test.java" startLine="26" startPosition="62" endLine="27" endPosition="97" />
-    <nodeInfo nodeId="5213231752900629099" fileName="STNumbering_Test.java" startLine="27" startPosition="97" endLine="28" endPosition="83" />
-    <nodeInfo nodeId="5213231752900621484" fileName="STNumbering_Test.java" startLine="31" startPosition="54" endLine="32" endPosition="103" />
-    <nodeInfo nodeId="5213231752900621491" fileName="STNumbering_Test.java" startLine="32" startPosition="103" endLine="33" endPosition="62" />
-    <nodeInfo nodeId="5213231752900621498" fileName="STNumbering_Test.java" startLine="33" startPosition="62" endLine="34" endPosition="97" />
-    <nodeInfo nodeId="5213231752900629117" fileName="STNumbering_Test.java" startLine="34" startPosition="97" endLine="35" endPosition="83" />
-    <nodeInfo nodeId="4624841703139866878" fileName="STNumbering_Test.java" startLine="38" startPosition="46" endLine="39" endPosition="92" />
-    <nodeInfo nodeId="4624841703139866882" fileName="STNumbering_Test.java" startLine="39" startPosition="92" endLine="40" endPosition="62" />
-    <nodeInfo nodeId="4624841703139866889" fileName="STNumbering_Test.java" startLine="40" startPosition="62" endLine="41" endPosition="97" />
-    <nodeInfo nodeId="4624841703139866904" fileName="STNumbering_Test.java" startLine="41" startPosition="97" endLine="42" endPosition="83" />
-    <nodeInfo nodeId="6160477238666708852" fileName="STNumbering_Test.java" startLine="45" startPosition="45" endLine="46" endPosition="139" />
-    <nodeInfo nodeId="6160477238666708865" fileName="STNumbering_Test.java" startLine="46" startPosition="139" endLine="47" endPosition="62" />
-    <nodeInfo nodeId="6160477238666708858" fileName="STNumbering_Test.java" startLine="47" startPosition="62" endLine="48" endPosition="49" />
-    <nodeInfo nodeId="6160477238666709991" fileName="STNumbering_Test.java" startLine="48" startPosition="49" endLine="49" endPosition="45" />
-    <nodeInfo nodeId="6160477238666709916" fileName="STNumbering_Test.java" startLine="49" startPosition="45" endLine="50" endPosition="119" />
-    <nodeInfo nodeId="6160477238666709931" fileName="STNumbering_Test.java" startLine="50" startPosition="119" endLine="51" endPosition="73" />
-    <nodeInfo nodeId="6160477238666710672" fileName="STNumbering_Test.java" startLine="51" startPosition="73" endLine="52" endPosition="39" />
-    <nodeInfo nodeId="6160477238666709946" fileName="STNumbering_Test.java" startLine="53" startPosition="86" endLine="54" endPosition="69" />
-    <nodeInfo nodeId="6160477238666712458" fileName="STNumbering_Test.java" startLine="55" startPosition="5" endLine="56" endPosition="35" />
-    <nodeInfo nodeId="6160477238666709961" fileName="STNumbering_Test.java" startLine="58" startPosition="38" endLine="59" endPosition="40" />
-    <nodeInfo nodeId="6160477238666709971" fileName="STNumbering_Test.java" startLine="61" startPosition="24" endLine="62" endPosition="61" />
-    <nodeInfo nodeId="6160477238666709978" fileName="STNumbering_Test.java" startLine="62" startPosition="61" endLine="63" endPosition="107" />
-    <nodeInfo nodeId="6160477238666711112" fileName="STNumbering_Test.java" startLine="64" startPosition="6" endLine="65" endPosition="32" />
-    <nodeInfo nodeId="6160477238666708878" fileName="STNumbering_Test.java" startLine="67" startPosition="6" endLine="68" endPosition="69" />
-    <nodeInfo nodeId="925859607109435163" fileName="STNumbering_Test.java" startLine="69" startPosition="6" endLine="70" endPosition="74" />
-    <nodeInfo nodeId="6160477238666711999" fileName="STNumbering_Test.java" startLine="70" startPosition="74" endLine="71" endPosition="50" />
-    <nodeInfo nodeId="6160477238666711555" fileName="STNumbering_Test.java" startLine="71" startPosition="50" endLine="72" endPosition="34" />
-    <nodeInfo nodeId="6160477238666708893" fileName="STNumbering_Test.java" startLine="72" startPosition="34" endLine="73" endPosition="53" />
-    <nodeInfo nodeId="6160477238666709938" fileName="STNumbering_Test.java" startLine="52" startPosition="39" endLine="55" endPosition="5" />
-    <nodeInfo nodeId="6160477238666711563" fileName="STNumbering_Test.java" startLine="63" startPosition="107" endLine="66" endPosition="6" />
-    <nodeInfo nodeId="925859607109435161" fileName="STNumbering_Test.java" startLine="66" startPosition="6" endLine="69" endPosition="6" />
-    <nodeInfo nodeId="6160477238666709959" fileName="STNumbering_Test.java" startLine="57" startPosition="83" endLine="61" endPosition="0" />
-    <nodeInfo nodeId="6160477238666709953" fileName="STNumbering_Test.java" startLine="56" startPosition="35" endLine="61" endPosition="24" />
-    <nodeInfo nodeId="1654665216152489682" fileName="STNumbering_Test.java" startLine="23" startPosition="48" endLine="30" endPosition="0" />
-    <nodeInfo nodeId="5213231752900621480" fileName="STNumbering_Test.java" startLine="30" startPosition="0" endLine="37" endPosition="0" />
-    <nodeInfo nodeId="4624841703139866871" fileName="STNumbering_Test.java" startLine="37" startPosition="0" endLine="44" endPosition="0" />
-    <nodeInfo nodeId="6160477238666708848" fileName="STNumbering_Test.java" startLine="44" startPosition="0" endLine="75" endPosition="0" />
-    <scopeInfo nodeId="6160477238666709945" fileName="STNumbering_Test.java" startLine="53" startPosition="86" endLine="54" endPosition="69" />
-    <scopeInfo nodeId="6160477238666709960" fileName="STNumbering_Test.java" startLine="58" startPosition="38" endLine="59" endPosition="40" />
-    <scopeInfo nodeId="6160477238666709938" fileName="STNumbering_Test.java" startLine="52" startPosition="39" endLine="55" endPosition="5" />
-    <scopeInfo nodeId="1654665216152489685" fileName="STNumbering_Test.java" startLine="24" startPosition="45" endLine="28" endPosition="83">
+    <nodeInfo nodeId="1654665216152489686" fileName="STNumbering_Test.java" startLine="14" startPosition="45" endLine="15" endPosition="51" />
+    <nodeInfo nodeId="1654665216152489695" fileName="STNumbering_Test.java" startLine="15" startPosition="51" endLine="16" endPosition="62" />
+    <nodeInfo nodeId="1654665216152550112" fileName="STNumbering_Test.java" startLine="16" startPosition="62" endLine="17" endPosition="97" />
+    <nodeInfo nodeId="5213231752900629099" fileName="STNumbering_Test.java" startLine="17" startPosition="97" endLine="18" endPosition="83" />
+    <nodeInfo nodeId="5213231752900621484" fileName="STNumbering_Test.java" startLine="21" startPosition="54" endLine="22" endPosition="103" />
+    <nodeInfo nodeId="5213231752900621491" fileName="STNumbering_Test.java" startLine="22" startPosition="103" endLine="23" endPosition="62" />
+    <nodeInfo nodeId="5213231752900621498" fileName="STNumbering_Test.java" startLine="23" startPosition="62" endLine="24" endPosition="97" />
+    <nodeInfo nodeId="5213231752900629117" fileName="STNumbering_Test.java" startLine="24" startPosition="97" endLine="25" endPosition="83" />
+    <nodeInfo nodeId="4624841703139866878" fileName="STNumbering_Test.java" startLine="28" startPosition="46" endLine="29" endPosition="92" />
+    <nodeInfo nodeId="4624841703139866882" fileName="STNumbering_Test.java" startLine="29" startPosition="92" endLine="30" endPosition="62" />
+    <nodeInfo nodeId="4624841703139866889" fileName="STNumbering_Test.java" startLine="30" startPosition="62" endLine="31" endPosition="97" />
+    <nodeInfo nodeId="4624841703139866904" fileName="STNumbering_Test.java" startLine="31" startPosition="97" endLine="32" endPosition="83" />
+    <nodeInfo nodeId="1654665216152489682" fileName="STNumbering_Test.java" startLine="13" startPosition="48" endLine="20" endPosition="0" />
+    <nodeInfo nodeId="5213231752900621480" fileName="STNumbering_Test.java" startLine="20" startPosition="0" endLine="27" endPosition="0" />
+    <nodeInfo nodeId="4624841703139866871" fileName="STNumbering_Test.java" startLine="27" startPosition="0" endLine="34" endPosition="0" />
+    <scopeInfo nodeId="1654665216152489685" fileName="STNumbering_Test.java" startLine="14" startPosition="45" endLine="18" endPosition="83">
       <varInfo nodeId="1654665216152489687" varName="graphString" />
       <varInfo nodeId="1654665216152489696" varName="graph" />
       <varInfo nodeId="1654665216152550113" varName="numbering" />
     </scopeInfo>
-    <scopeInfo nodeId="5213231752900621483" fileName="STNumbering_Test.java" startLine="31" startPosition="54" endLine="35" endPosition="83">
+    <scopeInfo nodeId="5213231752900621483" fileName="STNumbering_Test.java" startLine="21" startPosition="54" endLine="25" endPosition="83">
       <varInfo nodeId="5213231752900621485" varName="graphString" />
       <varInfo nodeId="5213231752900621492" varName="graph" />
       <varInfo nodeId="5213231752900621499" varName="numbering" />
     </scopeInfo>
-    <scopeInfo nodeId="4624841703139866874" fileName="STNumbering_Test.java" startLine="38" startPosition="46" endLine="42" endPosition="83">
+    <scopeInfo nodeId="4624841703139866874" fileName="STNumbering_Test.java" startLine="28" startPosition="46" endLine="32" endPosition="83">
       <varInfo nodeId="4624841703139866879" varName="graphString" />
       <varInfo nodeId="4624841703139866883" varName="graph" />
       <varInfo nodeId="4624841703139866890" varName="numbering" />
     </scopeInfo>
-    <scopeInfo nodeId="6160477238666709959" fileName="STNumbering_Test.java" startLine="57" startPosition="83" endLine="61" endPosition="0" />
-    <scopeInfo nodeId="1654665216152489682" fileName="STNumbering_Test.java" startLine="23" startPosition="48" endLine="30" endPosition="0" />
-    <scopeInfo nodeId="5213231752900621480" fileName="STNumbering_Test.java" startLine="30" startPosition="0" endLine="37" endPosition="0" />
-    <scopeInfo nodeId="4624841703139866871" fileName="STNumbering_Test.java" startLine="37" startPosition="0" endLine="44" endPosition="0" />
-    <scopeInfo nodeId="6160477238666708851" fileName="STNumbering_Test.java" startLine="45" startPosition="45" endLine="73" endPosition="53">
-      <varInfo nodeId="6160477238666708853" varName="graphString" />
-      <varInfo nodeId="6160477238666709979" varName="t" />
-      <varInfo nodeId="6160477238666708866" varName="graph" />
-      <varInfo nodeId="6160477238666709972" varName="s" />
-      <varInfo nodeId="925859607109435164" varName="numbering" />
-      <varInfo nodeId="6160477238666709917" varName="embeddedGraph" />
-      <varInfo nodeId="6160477238666709992" varName="maxIndex" />
-      <varInfo nodeId="6160477238666709932" varName="outerNodes" />
-    </scopeInfo>
-    <scopeInfo nodeId="6160477238666708848" fileName="STNumbering_Test.java" startLine="44" startPosition="0" endLine="75" endPosition="0" />
-    <unitInfo nodeId="6160477238666709959" fileName="STNumbering_Test.java" startLine="57" startPosition="61" endLine="61" endPosition="5" unitName="graphTest.STNumbering_Test$1" />
+    <scopeInfo nodeId="1654665216152489682" fileName="STNumbering_Test.java" startLine="13" startPosition="48" endLine="20" endPosition="0" />
+    <scopeInfo nodeId="5213231752900621480" fileName="STNumbering_Test.java" startLine="20" startPosition="0" endLine="27" endPosition="0" />
+    <scopeInfo nodeId="4624841703139866871" fileName="STNumbering_Test.java" startLine="27" startPosition="0" endLine="34" endPosition="0" />
   </root>
   <root nodeId="228830736476020639">
     <nodeInfo nodeId="228830736476020848" fileName="MinCirculation_Test.java" startLine="22" startPosition="45" endLine="23" endPosition="51" />

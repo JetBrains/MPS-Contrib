@@ -17,10 +17,11 @@ import jetbrains.mps.internal.collections.runtime.IWhereFilter;
 import java.util.ArrayList;
 import jetbrains.mps.graphLayout.planarGraph.Face;
 import jetbrains.mps.graphLayout.planarGraph.DualGraph;
-import java.util.Map;
 import jetbrains.mps.internal.collections.runtime.MapSequence;
 
 public class BiconnectedInitialEmbeddingFinder implements IEmbeddingFinder {
+  private static int SHOW_INFO = 1;
+
   public BiconnectedInitialEmbeddingFinder() {
   }
 
@@ -46,9 +47,9 @@ public class BiconnectedInitialEmbeddingFinder implements IEmbeddingFinder {
   }
 
   private void addPath(EmbeddedGraph embeddedGraph, final Node start, final Node toAdd, Set<Node> toBeAdded) {
-    /*
+    if (SHOW_INFO > 0) {
       System.out.println("before: \n" + embeddedGraph);
-    */
+    }
     Set<Edge> removed = SetSequence.fromSet(new HashSet<Edge>());
     for (Edge edge : ListSequence.fromList(start.getEdges())) {
       if (SetSequence.fromSet(toBeAdded).contains(edge.getOpposite(start))) {
@@ -79,9 +80,9 @@ public class BiconnectedInitialEmbeddingFinder implements IEmbeddingFinder {
         SetSequence.fromSet(toBeAdded).removeElement(node);
       }
     }
-    /*
+    if (SHOW_INFO > 0) {
       System.out.println("find path: " + path);
-    */
+    }
     connect(embeddedGraph, path, start, cur);
   }
 
@@ -126,7 +127,6 @@ public class BiconnectedInitialEmbeddingFinder implements IEmbeddingFinder {
 
   public void connect(EmbeddedGraph embeddedGraph, List<Edge> path, Node start, Node end) {
     DualGraph dualGraph = new DualGraph(embeddedGraph);
-    Map<Edge, List<Face>> adjacentFacesMap = embeddedGraph.getAdjacentFacesMap();
     Node dualStart = dualGraph.addRealNode(start);
     Node dualEnd = dualGraph.addRealNode(end);
     List<Edge> dualPath = ShortestPath.getPath(dualGraph, dualStart, dualEnd, Edge.Direction.BOTH);
@@ -136,7 +136,7 @@ public class BiconnectedInitialEmbeddingFinder implements IEmbeddingFinder {
     Node cur = dualStart;
     for (Edge edge : ListSequence.fromList(dualPath)) {
       Edge realEdge = MapSequence.fromMap(dualGraph.getEdgesMap()).get(edge);
-      if (MapSequence.fromMap(adjacentFacesMap).get(realEdge) != null) {
+      if (embeddedGraph.getAdjacentFaces(realEdge) != null) {
         ListSequence.fromList(nodePath).addElement(embeddedGraph.splitEdge(MapSequence.fromMap(dualGraph.getEdgesMap()).get(edge)));
       }
       cur = edge.getOpposite(cur);

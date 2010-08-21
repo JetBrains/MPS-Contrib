@@ -1,37 +1,31 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <debugInfo>
   <root nodeId="1123934034178616897">
-    <nodeInfo nodeId="1123934034178616946" fileName="CheckEmbeddedGraph.java" startLine="18" startPosition="85" endLine="19" endPosition="21" />
-    <nodeInfo nodeId="1123934034178616952" fileName="CheckEmbeddedGraph.java" startLine="21" startPosition="5" endLine="22" endPosition="16" />
-    <nodeInfo nodeId="3619822174190276483" fileName="CheckEmbeddedGraph.java" startLine="25" startPosition="70" endLine="26" endPosition="38" />
-    <nodeInfo nodeId="3619822174190276497" fileName="CheckEmbeddedGraph.java" startLine="28" startPosition="91" endLine="29" endPosition="56" />
-    <nodeInfo nodeId="6191740939834535624" fileName="CheckEmbeddedGraph.java" startLine="33" startPosition="115" endLine="34" endPosition="84" />
-    <nodeInfo nodeId="1123934034178616920" fileName="CheckEmbeddedGraph.java" startLine="17" startPosition="126" endLine="20" endPosition="7" />
-    <nodeInfo nodeId="3619822174190276492" fileName="CheckEmbeddedGraph.java" startLine="27" startPosition="71" endLine="30" endPosition="7" />
-    <nodeInfo nodeId="6191740939834535602" fileName="CheckEmbeddedGraph.java" startLine="32" startPosition="110" endLine="35" endPosition="7" />
-    <nodeInfo nodeId="1123934034178616910" fileName="CheckEmbeddedGraph.java" startLine="16" startPosition="73" endLine="21" endPosition="5" />
-    <nodeInfo nodeId="3619822174190276486" fileName="CheckEmbeddedGraph.java" startLine="26" startPosition="38" endLine="31" endPosition="5" />
-    <nodeInfo nodeId="6191740939834535587" fileName="CheckEmbeddedGraph.java" startLine="31" startPosition="5" endLine="36" endPosition="5" />
-    <nodeInfo nodeId="1123934034178616903" fileName="CheckEmbeddedGraph.java" startLine="15" startPosition="33" endLine="24" endPosition="0" />
-    <nodeInfo nodeId="3619822174190276479" fileName="CheckEmbeddedGraph.java" startLine="24" startPosition="0" endLine="38" endPosition="0" />
-    <scopeInfo nodeId="1123934034178616922" fileName="CheckEmbeddedGraph.java" startLine="18" startPosition="85" endLine="19" endPosition="21" />
-    <scopeInfo nodeId="3619822174190276496" fileName="CheckEmbeddedGraph.java" startLine="28" startPosition="91" endLine="29" endPosition="56" />
-    <scopeInfo nodeId="6191740939834535604" fileName="CheckEmbeddedGraph.java" startLine="33" startPosition="115" endLine="34" endPosition="84" />
-    <scopeInfo nodeId="1123934034178616913" fileName="CheckEmbeddedGraph.java" startLine="17" startPosition="126" endLine="20" endPosition="7" />
-    <scopeInfo nodeId="3619822174190276491" fileName="CheckEmbeddedGraph.java" startLine="27" startPosition="71" endLine="30" endPosition="7" />
-    <scopeInfo nodeId="6191740939834535590" fileName="CheckEmbeddedGraph.java" startLine="32" startPosition="110" endLine="35" endPosition="7" />
-    <scopeInfo nodeId="1123934034178616910" fileName="CheckEmbeddedGraph.java" startLine="16" startPosition="73" endLine="21" endPosition="5" />
-    <scopeInfo nodeId="3619822174190276486" fileName="CheckEmbeddedGraph.java" startLine="26" startPosition="38" endLine="31" endPosition="5" />
-    <scopeInfo nodeId="6191740939834535587" fileName="CheckEmbeddedGraph.java" startLine="31" startPosition="5" endLine="36" endPosition="5" />
-    <scopeInfo nodeId="1123934034178616906" fileName="CheckEmbeddedGraph.java" startLine="16" startPosition="73" endLine="22" endPosition="16" />
-    <scopeInfo nodeId="1123934034178616903" fileName="CheckEmbeddedGraph.java" startLine="15" startPosition="33" endLine="24" endPosition="0">
+    <nodeInfo nodeId="2503771434357704727" fileName="CheckEmbeddedGraph.java" startLine="15" startPosition="85" endLine="16" endPosition="21" />
+    <nodeInfo nodeId="1123934034178616952" fileName="CheckEmbeddedGraph.java" startLine="18" startPosition="5" endLine="19" endPosition="16" />
+    <nodeInfo nodeId="3619822174190276483" fileName="CheckEmbeddedGraph.java" startLine="22" startPosition="70" endLine="23" endPosition="38" />
+    <nodeInfo nodeId="3619822174190276497" fileName="CheckEmbeddedGraph.java" startLine="25" startPosition="91" endLine="26" endPosition="56" />
+    <nodeInfo nodeId="2503771434357704711" fileName="CheckEmbeddedGraph.java" startLine="14" startPosition="69" endLine="17" endPosition="7" />
+    <nodeInfo nodeId="3619822174190276492" fileName="CheckEmbeddedGraph.java" startLine="24" startPosition="71" endLine="27" endPosition="7" />
+    <nodeInfo nodeId="2503771434357704705" fileName="CheckEmbeddedGraph.java" startLine="13" startPosition="73" endLine="18" endPosition="5" />
+    <nodeInfo nodeId="3619822174190276486" fileName="CheckEmbeddedGraph.java" startLine="23" startPosition="38" endLine="28" endPosition="5" />
+    <nodeInfo nodeId="1123934034178616903" fileName="CheckEmbeddedGraph.java" startLine="12" startPosition="33" endLine="21" endPosition="0" />
+    <nodeInfo nodeId="3619822174190276479" fileName="CheckEmbeddedGraph.java" startLine="21" startPosition="0" endLine="30" endPosition="0" />
+    <scopeInfo nodeId="2503771434357704712" fileName="CheckEmbeddedGraph.java" startLine="15" startPosition="85" endLine="16" endPosition="21" />
+    <scopeInfo nodeId="3619822174190276496" fileName="CheckEmbeddedGraph.java" startLine="25" startPosition="91" endLine="26" endPosition="56" />
+    <scopeInfo nodeId="2503771434357704710" fileName="CheckEmbeddedGraph.java" startLine="14" startPosition="69" endLine="17" endPosition="7" />
+    <scopeInfo nodeId="3619822174190276491" fileName="CheckEmbeddedGraph.java" startLine="24" startPosition="71" endLine="27" endPosition="7" />
+    <scopeInfo nodeId="2503771434357704705" fileName="CheckEmbeddedGraph.java" startLine="13" startPosition="73" endLine="18" endPosition="5" />
+    <scopeInfo nodeId="3619822174190276486" fileName="CheckEmbeddedGraph.java" startLine="23" startPosition="38" endLine="28" endPosition="5" />
+    <scopeInfo nodeId="1123934034178616906" fileName="CheckEmbeddedGraph.java" startLine="13" startPosition="73" endLine="19" endPosition="16" />
+    <scopeInfo nodeId="3619822174190276482" fileName="CheckEmbeddedGraph.java" startLine="22" startPosition="70" endLine="28" endPosition="5" />
+    <scopeInfo nodeId="1123934034178616903" fileName="CheckEmbeddedGraph.java" startLine="12" startPosition="33" endLine="21" endPosition="0">
       <varInfo nodeId="1123934034178616908" varName="embeddedGraph" />
     </scopeInfo>
-    <scopeInfo nodeId="3619822174190276482" fileName="CheckEmbeddedGraph.java" startLine="25" startPosition="70" endLine="36" endPosition="5" />
-    <scopeInfo nodeId="3619822174190276479" fileName="CheckEmbeddedGraph.java" startLine="24" startPosition="0" endLine="38" endPosition="0">
+    <scopeInfo nodeId="3619822174190276479" fileName="CheckEmbeddedGraph.java" startLine="21" startPosition="0" endLine="30" endPosition="0">
       <varInfo nodeId="3619822174190276503" varName="embeddedGraph" />
     </scopeInfo>
-    <unitInfo nodeId="1123934034178616897" fileName="CheckEmbeddedGraph.java" startLine="15" startPosition="0" endLine="39" endPosition="0" unitName="planarizationTest.CheckEmbeddedGraph" />
+    <unitInfo nodeId="1123934034178616897" fileName="CheckEmbeddedGraph.java" startLine="12" startPosition="0" endLine="31" endPosition="0" unitName="planarizationTest.CheckEmbeddedGraph" />
   </root>
   <root nodeId="1327612371813215595">
     <nodeInfo nodeId="1327612371813215648" fileName="BiconnectedInitialEmbeddingFinder_Test.java" startLine="14" startPosition="45" endLine="15" endPosition="48" />

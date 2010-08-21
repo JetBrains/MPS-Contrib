@@ -69,7 +69,7 @@ public class OrthogonalRepresentation {
         MapSequence.fromMap(low).put(edge, 1);
         MapSequence.fromMap(capacity).put(edge, 4);
         MapSequence.fromMap(cost).put(edge, 0);
-        List<Face> faces = MapSequence.fromMap(embeddedGraph.getAdjacentFacesMap()).get(dart.getEdge());
+        List<Face> faces = embeddedGraph.getAdjacentFaces(dart.getEdge());
         Node oppositeFaceNode;
         if (ListSequence.fromList(faces).getElement(0) == face) {
           oppositeFaceNode = MapSequence.fromMap(faceMap).get(ListSequence.fromList(faces).getElement(1));

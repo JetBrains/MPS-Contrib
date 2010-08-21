@@ -3541,7 +3541,7 @@
                           <link role="variableDeclaration:3" targetNodeId="529057043639336291" resolveInfo="root" />
                         </node>
                         <node role="operation:3" type="jetbrains.mps.baseLanguage.structure.InstanceMethodCallOperation:3" id="529057043639383874">
-                          <link role="baseMethodDeclaration:3" targetNodeId="4644851485137246201" resolveInfo="getChildren" />
+                          <link role="baseMethodDeclaration:3" targetNodeId="4644851485137246278" resolveInfo="getNodes" />
                         </node>
                       </node>
                       <node role="operation:3" type="jetbrains.mps.baseLanguage.collections.structure.GetSizeOperation:7" id="529057043639383879" />

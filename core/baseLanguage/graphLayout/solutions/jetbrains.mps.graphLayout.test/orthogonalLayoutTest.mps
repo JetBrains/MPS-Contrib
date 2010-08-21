@@ -2325,18 +2325,17 @@
           </node>
           <node role="body:7" type="jetbrains.mps.baseLanguage.structure.StatementList:3" id="228830736476028629">
             <node role="statement:3" type="jetbrains.mps.baseLanguage.unitTest.structure.AssertTrue" id="228830736476028635">
-              <node role="condition" type="jetbrains.mps.baseLanguage.structure.DotExpression:3" id="228830736476028643">
-                <node role="operand:3" type="jetbrains.mps.baseLanguage.structure.DotExpression:3" id="228830736476028638">
+              <node role="condition" type="jetbrains.mps.baseLanguage.structure.NotEqualsExpression:3" id="2503771434357704700">
+                <node role="rightExpression:3" type="jetbrains.mps.baseLanguage.structure.NullLiteral:3" id="2503771434357704703" />
+                <node role="leftExpression:3" type="jetbrains.mps.baseLanguage.structure.DotExpression:3" id="228830736476028638">
                   <node role="operand:3" type="jetbrains.mps.baseLanguage.structure.ParameterReference:3" id="228830736476028637">
                     <link role="variableDeclaration:3" targetNodeId="228830736476028569" resolveInfo="embeddedGraph" />
                   </node>
                   <node role="operation:3" type="jetbrains.mps.baseLanguage.structure.InstanceMethodCallOperation:3" id="228830736476028642">
-                    <link role="baseMethodDeclaration:3" targetNodeId="1.4179389957059015284" resolveInfo="getAdjacentFacesMap" />
-                  </node>
-                </node>
-                <node role="operation:3" type="jetbrains.mps.baseLanguage.collections.structure.ContainsKeyOperation:7" id="228830736476028647">
-                  <node role="key:7" type="jetbrains.mps.baseLanguage.collections.structure.ForEachVariableReference:7" id="228830736476028649">
-                    <link role="variable:7" targetNodeId="228830736476028627" resolveInfo="edge" />
+                    <link role="baseMethodDeclaration:3" targetNodeId="1.2503771434357703709" resolveInfo="getAdjacentFaces" />
+                    <node role="actualArgument:3" type="jetbrains.mps.baseLanguage.collections.structure.ForEachVariableReference:7" id="2503771434357704699">
+                      <link role="variable:7" targetNodeId="228830736476028627" resolveInfo="edge" />
+                    </node>
                   </node>
                 </node>
               </node>

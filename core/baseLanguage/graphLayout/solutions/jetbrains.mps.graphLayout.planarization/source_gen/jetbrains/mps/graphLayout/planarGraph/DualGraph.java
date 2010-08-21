@@ -10,8 +10,8 @@ import jetbrains.mps.internal.collections.runtime.MapSequence;
 import java.util.HashMap;
 import jetbrains.mps.graphLayout.util.NodeMap;
 import jetbrains.mps.internal.collections.runtime.ListSequence;
-import java.util.List;
 import jetbrains.mps.internal.collections.runtime.SetSequence;
+import java.util.List;
 
 public class DualGraph extends Graph {
   private EmbeddedGraph myEmbeddedGraph;
@@ -33,10 +33,10 @@ public class DualGraph extends Graph {
       MapSequence.fromMap(myNodesMap).put(face, node);
       MapSequence.fromMap(myFacesMap).put(node, face);
     }
-    Map<Edge, List<Face>> adjacentFacesMap = myEmbeddedGraph.getAdjacentFacesMap();
-    for (Edge edge : SetSequence.fromSet(MapSequence.fromMap(adjacentFacesMap).keySet())) {
-      Node faceNode1 = MapSequence.fromMap(myNodesMap).get(ListSequence.fromList(MapSequence.fromMap(adjacentFacesMap).get(edge)).getElement(0));
-      Node faceNode2 = MapSequence.fromMap(myNodesMap).get(ListSequence.fromList(MapSequence.fromMap(adjacentFacesMap).get(edge)).getElement(1));
+    for (Edge edge : SetSequence.fromSet(myEmbeddedGraph.getEdges())) {
+      List<Face> faces = myEmbeddedGraph.getAdjacentFaces(edge);
+      Node faceNode1 = MapSequence.fromMap(myNodesMap).get(ListSequence.fromList(faces).getElement(0));
+      Node faceNode2 = MapSequence.fromMap(myNodesMap).get(ListSequence.fromList(faces).getElement(1));
       Edge faceEdge = faceNode1.addEdgeTo(faceNode2);
       MapSequence.fromMap(myEdgesMap).put(faceEdge, edge);
     }
@@ -45,7 +45,7 @@ public class DualGraph extends Graph {
   public Node addRealNode(Node realNode) {
     Node newNode = this.addDummyNode();
     for (Edge edge : ListSequence.fromList(realNode.getEdges())) {
-      for (Face face : ListSequence.fromList(MapSequence.fromMap(myEmbeddedGraph.getAdjacentFacesMap()).get(edge))) {
+      for (Face face : ListSequence.fromList(myEmbeddedGraph.getAdjacentFaces(edge))) {
         newNode.addEdgeTo(MapSequence.fromMap(this.getNodesMap()).get(face));
       }
     }

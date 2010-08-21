@@ -8,16 +8,15 @@ import java.util.List;
 import jetbrains.mps.graphLayout.graph.Edge;
 import jetbrains.mps.internal.collections.runtime.ListSequence;
 import jetbrains.mps.internal.collections.runtime.IWhereFilter;
-import jetbrains.mps.internal.collections.runtime.MapSequence;
 import jetbrains.mps.graphLayout.planarGraph.DualGraph;
-import java.util.Map;
-import jetbrains.mps.graphLayout.planarGraph.Face;
 import jetbrains.mps.graphLayout.graph.Node;
 import java.util.ArrayList;
+import jetbrains.mps.graphLayout.planarGraph.Face;
+import jetbrains.mps.internal.collections.runtime.MapSequence;
 import jetbrains.mps.graphLayout.algorithms.ShortestPath;
 
 public class ShortestPathEmbeddingFinder implements IEmbeddingFinder {
-  private static int SHOW_LOG = 1;
+  private static int SHOW_LOG = 0;
 
   private IEmbeddingFinder myInitialFinder;
 
@@ -33,7 +32,7 @@ public class ShortestPathEmbeddingFinder implements IEmbeddingFinder {
     }
     List<Edge> toAdd = ListSequence.fromList(graph.getEdges()).where(new IWhereFilter<Edge>() {
       public boolean accept(Edge it) {
-        return !(MapSequence.fromMap(embeddedGraph.getAdjacentFacesMap()).containsKey(it));
+        return embeddedGraph.getAdjacentFaces(it) == null;
       }
     }).toListSequence();
     if (SHOW_LOG > 0) {
@@ -51,12 +50,11 @@ public class ShortestPathEmbeddingFinder implements IEmbeddingFinder {
 
   private void restoreEdge(EmbeddedGraph embeddedGraph, Edge removedEdge) {
     DualGraph dualGraph = new DualGraph(embeddedGraph);
-    Map<Edge, List<Face>> adjacentFacesMap = embeddedGraph.getAdjacentFacesMap();
     List<Node> newNodes = ListSequence.fromList(new ArrayList<Node>());
     for (Node node : ListSequence.fromList(removedEdge.getAdjacentNodes())) {
       Node newNode = dualGraph.addDummyNode();
       for (Edge nodeEdge : ListSequence.fromList(node.getEdges(Edge.Direction.BOTH))) {
-        for (Face face : ListSequence.fromList(MapSequence.fromMap(adjacentFacesMap).get(nodeEdge))) {
+        for (Face face : ListSequence.fromList(embeddedGraph.getAdjacentFaces(nodeEdge))) {
           newNode.addEdgeTo(MapSequence.fromMap(dualGraph.getNodesMap()).get(face));
         }
       }
@@ -74,7 +72,7 @@ public class ShortestPathEmbeddingFinder implements IEmbeddingFinder {
     Node cur = ListSequence.fromList(newNodes).getElement(0);
     for (Edge edge : ListSequence.fromList(path)) {
       Edge realEdge = MapSequence.fromMap(dualGraph.getEdgesMap()).get(edge);
-      if (MapSequence.fromMap(adjacentFacesMap).get(realEdge) != null) {
+      if (embeddedGraph.getAdjacentFaces(realEdge) != null) {
         ListSequence.fromList(nodePath).addElement(embeddedGraph.splitEdge(MapSequence.fromMap(dualGraph.getEdgesMap()).get(edge)));
       }
       cur = edge.getOpposite(cur);
