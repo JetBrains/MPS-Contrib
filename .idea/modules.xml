@@ -2,6 +2,7 @@
 <project version="4">
   <component name="ProjectModuleManager">
     <modules>
+      <module fileurl="file://$PROJECT_DIR$/AllTests/AllTests.iml" filepath="$PROJECT_DIR$/AllTests/AllTests.iml" />
       <module fileurl="file://$PROJECT_DIR$/core/baseLanguage/closures/Closures.iml" filepath="$PROJECT_DIR$/core/baseLanguage/closures/Closures.iml" group="core/baseLanguage/closures" />
       <module fileurl="file://$PROJECT_DIR$/core/baseLanguage/closures/runtime/Closures-runtime.iml" filepath="$PROJECT_DIR$/core/baseLanguage/closures/runtime/Closures-runtime.iml" group="core/baseLanguage/closures" />
       <module fileurl="file://$PROJECT_DIR$/MPS.iml" filepath="$PROJECT_DIR$/MPS.iml" />
