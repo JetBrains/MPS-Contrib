@@ -36,6 +36,39 @@
     <classNode dependClassName="visualization.GraphIO" />
     <classNode extendsClassName="junit.framework.TestCase" />
   </dependency>
+  <dependency className="orthogonalLayoutTest.OrthogonalFlowLayouter_Test" file="OrthogonalFlowLayouter_Test.java">
+    <classNode dependClassName="java.lang.Exception" />
+    <classNode dependClassName="java.lang.String" />
+    <classNode dependClassName="java.util.Scanner" />
+    <classNode dependClassName="jetbrains.mps.graphLayout.flowOrthogonalLayout.OrthogonalPointLayouter" />
+    <classNode dependClassName="jetbrains.mps.graphLayout.graph.Graph" />
+    <classNode dependClassName="jetbrains.mps.graphLayout.graphLayout.GraphLayoutPoint" />
+    <classNode dependClassName="visualization.GraphIO" />
+    <classNode extendsClassName="junit.framework.TestCase" />
+  </dependency>
+  <dependency className="orthogonalLayoutTest.OrthogonalFlowSketchStressTest" file="OrthogonalFlowSketchStressTest.java">
+    <classNode dependClassName="java.awt.Point" />
+    <classNode dependClassName="java.io.PrintWriter" />
+    <classNode dependClassName="java.lang.Exception" />
+    <classNode dependClassName="java.lang.Integer" />
+    <classNode dependClassName="java.lang.String" />
+    <classNode dependClassName="java.lang.System" />
+    <classNode dependClassName="java.util.List" />
+    <classNode dependClassName="java.util.Map" />
+    <classNode dependClassName="jetbrains.mps.graphLayout.algorithms.ConnectivityComponents" />
+    <classNode dependClassName="jetbrains.mps.graphLayout.flowOrthogonalLayout.OrthogonalPointLayouter" />
+    <classNode dependClassName="jetbrains.mps.graphLayout.graph.Edge" />
+    <classNode dependClassName="jetbrains.mps.graphLayout.graph.Graph" />
+    <classNode dependClassName="jetbrains.mps.graphLayout.graph.Node" />
+    <classNode dependClassName="jetbrains.mps.graphLayout.graphLayout.GraphLayoutPoint" />
+    <classNode dependClassName="jetbrains.mps.graphLayout.graphLayout.ILayouter" />
+    <classNode dependClassName="jetbrains.mps.graphLayout.util.GeomUtil" />
+    <classNode dependClassName="jetbrains.mps.internal.collections.runtime.ListSequence" />
+    <classNode dependClassName="jetbrains.mps.internal.collections.runtime.MapSequence" />
+    <classNode dependClassName="junit.framework.Assert" />
+    <classNode dependClassName="sampleGraphs.RandomGraphGenerator" />
+    <classNode dependClassName="visualization.GraphIO" />
+  </dependency>
   <dependency className="orthogonalLayoutTest.OrthogonalFromVisibility_Test" file="OrthogonalFromVisibility_Test.java">
     <classNode dependClassName="java.lang.Exception" />
     <classNode dependClassName="java.lang.String" />
@@ -75,6 +108,7 @@
     <classNode dependClassName="jetbrains.mps.graphLayout.planarGraph.Dart" />
     <classNode dependClassName="jetbrains.mps.graphLayout.planarGraph.EmbeddedGraph" />
     <classNode dependClassName="jetbrains.mps.graphLayout.planarization.PQPlanarizationFinder" />
+    <classNode dependClassName="jetbrains.mps.graphLayout.util.Direction2D" />
     <classNode dependClassName="jetbrains.mps.internal.collections.runtime.IWhereFilter" />
     <classNode dependClassName="jetbrains.mps.internal.collections.runtime.ListSequence" />
     <classNode dependClassName="jetbrains.mps.internal.collections.runtime.MapSequence" />

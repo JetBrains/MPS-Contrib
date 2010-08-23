@@ -20,15 +20,12 @@ import java.util.HashSet;
 import jetbrains.mps.baseLanguage.closures.runtime.Wrappers;
 import java.util.ArrayList;
 import jetbrains.mps.internal.collections.runtime.IWhereFilter;
+import jetbrains.mps.graphLayout.util.Direction2D;
 import jetbrains.mps.graphLayout.algorithms.Dfs;
 import jetbrains.mps.internal.collections.runtime.ISelector;
 
 public class OrthogonalRepresentation {
   private static int SHOW_INFO = 0;
-  public static final int RIGHT = 0;
-  public static final int DOWN = 1;
-  public static final int LEFT = 2;
-  public static final int UP = 3;
 
   public static void getRepresentation(EmbeddedGraph embeddedGraph, Set<Edge> edgesToBeStraight, Map<Dart, Integer> bends, Map<Dart, Integer> angles) {
     Graph graph = embeddedGraph.getGraph();
@@ -169,14 +166,14 @@ public class OrthogonalRepresentation {
     }
   }
 
-  public static Map<Dart, Integer> getDirections(EmbeddedGraph embeddedGraph, Map<Dart, Integer> angles) {
+  public static Map<Dart, Direction2D> getDirections(EmbeddedGraph embeddedGraph, Map<Dart, Integer> angles) {
     OrthogonalRepresentation.GetDirectionsDfs dfs = new OrthogonalRepresentation.GetDirectionsDfs(embeddedGraph, angles);
     dfs.doDfs(embeddedGraph.getGraph(), Edge.Direction.BOTH);
     return dfs.getDirections();
   }
 
   private static class GetDirectionsDfs extends Dfs {
-    private Map<Dart, Integer> myDirections;
+    private Map<Dart, Direction2D> myDirections;
     private EmbeddedGraph myEmbeddedGraph;
     private Map<Dart, Integer> myAngles;
 
@@ -184,7 +181,7 @@ public class OrthogonalRepresentation {
       super();
       myEmbeddedGraph = embeddedGraph;
       myAngles = angles;
-      myDirections = MapSequence.fromMap(new HashMap<Dart, Integer>());
+      myDirections = MapSequence.fromMap(new HashMap<Dart, Direction2D>());
     }
 
     @Override
@@ -195,8 +192,8 @@ public class OrthogonalRepresentation {
           return it.getSource() == root;
         }
       });
-      MapSequence.fromMap(myDirections).put(dart, OrthogonalRepresentation.RIGHT);
-      MapSequence.fromMap(myDirections).put(myEmbeddedGraph.getOpposite(dart), OrthogonalRepresentation.LEFT);
+      MapSequence.fromMap(myDirections).put(dart, Direction2D.RIGHT);
+      MapSequence.fromMap(myDirections).put(myEmbeddedGraph.getOpposite(dart), MapSequence.fromMap(myDirections).get(dart).opposite());
     }
 
     @Override
@@ -226,13 +223,13 @@ public class OrthogonalRepresentation {
             next = dart;
           }
         }
-        MapSequence.fromMap(myDirections).put(next, (MapSequence.fromMap(myDirections).get(cur) + MapSequence.fromMap(myAngles).get(cur)) % 4);
-        MapSequence.fromMap(myDirections).put(myEmbeddedGraph.getOpposite(next), (MapSequence.fromMap(myDirections).get(next) + 2) % 4);
+        MapSequence.fromMap(myDirections).put(next, MapSequence.fromMap(myDirections).get(cur).turnClockwise(MapSequence.fromMap(myAngles).get(cur)));
+        MapSequence.fromMap(myDirections).put(myEmbeddedGraph.getOpposite(next), MapSequence.fromMap(myDirections).get(next).opposite());
         cur = next;
       } while (cur != first);
     }
 
-    public Map<Dart, Integer> getDirections() {
+    public Map<Dart, Direction2D> getDirections() {
       return myDirections;
     }
   }

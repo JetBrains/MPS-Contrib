@@ -1,5 +1,6 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <dependenciesRoot>
+  <dependency className="jetbrains.mps.graphLayout.util.Direction2D" file="Direction2D.java" />
   <dependency className="jetbrains.mps.graphLayout.util.GeomUtil" file="GeomUtil.java">
     <classNode dependClassName="java.awt.Point" />
     <classNode dependClassName="java.awt.Rectangle" />

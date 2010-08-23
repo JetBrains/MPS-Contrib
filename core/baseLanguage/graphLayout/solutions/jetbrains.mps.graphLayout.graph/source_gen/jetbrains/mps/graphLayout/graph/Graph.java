@@ -8,9 +8,11 @@ import java.util.ArrayList;
 
 public class Graph {
   private List<Node> myNodes;
+  private int myNextNum;
 
   public Graph() {
     myNodes = ListSequence.fromList(new ArrayList<Node>());
+    myNextNum = 0;
   }
 
   public List<Node> getNodes() {
@@ -34,11 +36,11 @@ public class Graph {
   }
 
   public Node addNode() {
-    return ListSequence.fromList(myNodes).addElement(new Node(ListSequence.fromList(myNodes).count(), false));
+    return ListSequence.fromList(myNodes).addElement(new Node(myNextNum++, false));
   }
 
   public Node addDummyNode() {
-    return ListSequence.fromList(myNodes).addElement(new Node(ListSequence.fromList(myNodes).count(), true));
+    return ListSequence.fromList(myNodes).addElement(new Node(myNextNum++, true));
   }
 
   public void addEdge(Edge edge) {
@@ -50,9 +52,6 @@ public class Graph {
   }
 
   public void remove(Node node) {
-    if (!(node.isDummy())) {
-      throw new RuntimeException("attept to remove real node");
-    }
     for (Edge edge : ListSequence.fromList(node.getEdges())) {
       edge.removeFromGraph();
     }

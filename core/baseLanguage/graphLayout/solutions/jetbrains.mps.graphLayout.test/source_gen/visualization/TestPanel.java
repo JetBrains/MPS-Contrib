@@ -100,11 +100,14 @@ public class TestPanel extends JPanel {
           int numNodes = Integer.parseInt(myNumNodesField.getText());
           int numEdges = Integer.parseInt(myNumEdgesField.getText());
           Graph g;
-          if (myAllowMultiEdges.isSelected()) {
-            g = RandomGraphGenerator.generateNoLoops(numNodes, numEdges);
-          } else {
-            g = RandomGraphGenerator.generateLayeredGraph(numNodes, numEdges);
-          }
+          /*
+            if (myAllowMultiEdges.isSelected()) {
+              g = RandomGraphGenerator.generateNoLoops(numNodes, numEdges);
+            } else {
+              g = RandomGraphGenerator.generateLayeredGraph(numNodes, numEdges);
+            }
+          */
+          g = RandomGraphGenerator.generateSimple(numNodes, numEdges);
           writeGraph(g);
         } catch (Exception e) {
           JOptionPane.showMessageDialog(TestPanel.this, "enter number of nodes and edges...\n" + e.toString());
@@ -235,11 +238,12 @@ public class TestPanel extends JPanel {
           graphics.fillOval(x, y, TestPanel.NSIZE, TestPanel.NSIZE);
           graphics.setColor(oldColor);
           graphics.drawOval(x, y, TestPanel.NSIZE, TestPanel.NSIZE);
-          if (node.isDummy()) {
-            graphics.fillOval(x, y, TestPanel.NSIZE, TestPanel.NSIZE);
-          } else {
-            graphics.drawString(Integer.toString(node.getIndex()), x + TestPanel.NSIZE / 3, y + 2 * TestPanel.NSIZE / 3);
-          }
+          graphics.drawString(Integer.toString(node.getIndex()), x + TestPanel.NSIZE / 3, y + 2 * TestPanel.NSIZE / 3);
+          /*
+            if (node.isDummy()) {
+              graphics.fillOval(x, y, TestPanel.NSIZE, TestPanel.NSIZE);
+            }
+          */
         }
       }
     }

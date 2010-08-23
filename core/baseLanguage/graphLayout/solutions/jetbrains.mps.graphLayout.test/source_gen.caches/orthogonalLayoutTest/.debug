@@ -1,118 +1,100 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <debugInfo>
   <root nodeId="228830736476028524">
-    <nodeInfo nodeId="228830736476028761" fileName="OrthogonalRepresentation_Test.java" startLine="25" startPosition="45" endLine="26" endPosition="51" />
-    <nodeInfo nodeId="228830736476028756" fileName="OrthogonalRepresentation_Test.java" startLine="26" startPosition="51" endLine="27" endPosition="62" />
-    <nodeInfo nodeId="228830736476028774" fileName="OrthogonalRepresentation_Test.java" startLine="27" startPosition="62" endLine="28" endPosition="16" />
-    <nodeInfo nodeId="228830736476042000" fileName="OrthogonalRepresentation_Test.java" startLine="31" startPosition="45" endLine="32" endPosition="76" />
-    <nodeInfo nodeId="228830736476042004" fileName="OrthogonalRepresentation_Test.java" startLine="32" startPosition="76" endLine="33" endPosition="62" />
-    <nodeInfo nodeId="228830736476042011" fileName="OrthogonalRepresentation_Test.java" startLine="33" startPosition="62" endLine="34" endPosition="16" />
-    <nodeInfo nodeId="529057043639332612" fileName="OrthogonalRepresentation_Test.java" startLine="37" startPosition="45" endLine="38" endPosition="97" />
-    <nodeInfo nodeId="529057043639332616" fileName="OrthogonalRepresentation_Test.java" startLine="38" startPosition="97" endLine="39" endPosition="62" />
-    <nodeInfo nodeId="529057043639332623" fileName="OrthogonalRepresentation_Test.java" startLine="39" startPosition="62" endLine="40" endPosition="16" />
-    <nodeInfo nodeId="529057043639333362" fileName="OrthogonalRepresentation_Test.java" startLine="43" startPosition="45" endLine="44" endPosition="76" />
-    <nodeInfo nodeId="529057043639333366" fileName="OrthogonalRepresentation_Test.java" startLine="44" startPosition="76" endLine="45" endPosition="62" />
-    <nodeInfo nodeId="529057043639333373" fileName="OrthogonalRepresentation_Test.java" startLine="45" startPosition="62" endLine="46" endPosition="16" />
-    <nodeInfo nodeId="529057043639333770" fileName="OrthogonalRepresentation_Test.java" startLine="49" startPosition="45" endLine="50" endPosition="205" />
-    <nodeInfo nodeId="529057043639333774" fileName="OrthogonalRepresentation_Test.java" startLine="50" startPosition="205" endLine="51" endPosition="62" />
-    <nodeInfo nodeId="529057043639333781" fileName="OrthogonalRepresentation_Test.java" startLine="51" startPosition="62" endLine="52" endPosition="16" />
-    <nodeInfo nodeId="228830736476028539" fileName="OrthogonalRepresentation_Test.java" startLine="55" startPosition="33" endLine="56" endPosition="74" />
-    <nodeInfo nodeId="228830736476028651" fileName="OrthogonalRepresentation_Test.java" startLine="56" startPosition="74" endLine="57" endPosition="38" />
-    <nodeInfo nodeId="228830736476043768" fileName="OrthogonalRepresentation_Test.java" startLine="57" startPosition="38" endLine="58" endPosition="81" />
-    <nodeInfo nodeId="228830736476043781" fileName="OrthogonalRepresentation_Test.java" startLine="58" startPosition="81" endLine="59" endPosition="82" />
-    <nodeInfo nodeId="228830736476043791" fileName="OrthogonalRepresentation_Test.java" startLine="59" startPosition="82" endLine="60" endPosition="77" />
-    <nodeInfo nodeId="228830736476055637" fileName="OrthogonalRepresentation_Test.java" startLine="60" startPosition="77" endLine="61" endPosition="61" />
-    <nodeInfo nodeId="529057043639057282" fileName="OrthogonalRepresentation_Test.java" startLine="61" startPosition="61" endLine="62" endPosition="79" />
-    <nodeInfo nodeId="529057043639057296" fileName="OrthogonalRepresentation_Test.java" startLine="62" startPosition="79" endLine="63" endPosition="61" />
-    <nodeInfo nodeId="529057043639071850" fileName="OrthogonalRepresentation_Test.java" startLine="64" startPosition="80" endLine="65" endPosition="67" />
-    <nodeInfo nodeId="529057043639062919" fileName="OrthogonalRepresentation_Test.java" startLine="66" startPosition="5" endLine="67" endPosition="38" />
-    <nodeInfo nodeId="529057043639081027" fileName="OrthogonalRepresentation_Test.java" startLine="67" startPosition="38" endLine="68" endPosition="98" />
-    <nodeInfo nodeId="529057043639081053" fileName="OrthogonalRepresentation_Test.java" startLine="69" startPosition="69" endLine="70" endPosition="42" />
-    <nodeInfo nodeId="529057043639081069" fileName="OrthogonalRepresentation_Test.java" startLine="72" startPosition="40" endLine="73" endPosition="40" />
-    <nodeInfo nodeId="529057043639081078" fileName="OrthogonalRepresentation_Test.java" startLine="75" startPosition="11" endLine="76" endPosition="171" />
-    <nodeInfo nodeId="529057043639207070" fileName="OrthogonalRepresentation_Test.java" startLine="78" startPosition="5" endLine="79" endPosition="57" />
-    <nodeInfo nodeId="529057043639207077" fileName="OrthogonalRepresentation_Test.java" startLine="79" startPosition="57" endLine="80" endPosition="46" />
-    <nodeInfo nodeId="228830736476028635" fileName="OrthogonalRepresentation_Test.java" startLine="84" startPosition="82" endLine="85" endPosition="70" />
-    <nodeInfo nodeId="529057043639081119" fileName="OrthogonalRepresentation_Test.java" startLine="90" startPosition="25" endLine="91" endPosition="21" />
-    <nodeInfo nodeId="529057043639081128" fileName="OrthogonalRepresentation_Test.java" startLine="93" startPosition="25" endLine="94" endPosition="20" />
-    <nodeInfo nodeId="529057043639081136" fileName="OrthogonalRepresentation_Test.java" startLine="96" startPosition="25" endLine="97" endPosition="20" />
-    <nodeInfo nodeId="529057043639081143" fileName="OrthogonalRepresentation_Test.java" startLine="99" startPosition="25" endLine="100" endPosition="18" />
-    <nodeInfo nodeId="529057043639081145" fileName="OrthogonalRepresentation_Test.java" startLine="101" startPosition="5" endLine="102" endPosition="19" />
-    <nodeInfo nodeId="529057043639071840" fileName="OrthogonalRepresentation_Test.java" startLine="63" startPosition="61" endLine="66" endPosition="5" />
-    <nodeInfo nodeId="228830736476028626" fileName="OrthogonalRepresentation_Test.java" startLine="83" startPosition="64" endLine="86" endPosition="5" />
-    <nodeInfo nodeId="529057043639081111" fileName="OrthogonalRepresentation_Test.java" startLine="89" startPosition="46" endLine="92" endPosition="5" />
-    <nodeInfo nodeId="529057043639081123" fileName="OrthogonalRepresentation_Test.java" startLine="92" startPosition="5" endLine="95" endPosition="5" />
-    <nodeInfo nodeId="529057043639081131" fileName="OrthogonalRepresentation_Test.java" startLine="95" startPosition="5" endLine="98" endPosition="5" />
-    <nodeInfo nodeId="529057043639081138" fileName="OrthogonalRepresentation_Test.java" startLine="98" startPosition="5" endLine="101" endPosition="5" />
-    <nodeInfo nodeId="529057043639081067" fileName="OrthogonalRepresentation_Test.java" startLine="71" startPosition="112" endLine="75" endPosition="0" />
-    <nodeInfo nodeId="228830736476028750" fileName="OrthogonalRepresentation_Test.java" startLine="24" startPosition="61" endLine="30" endPosition="0" />
-    <nodeInfo nodeId="228830736476041994" fileName="OrthogonalRepresentation_Test.java" startLine="30" startPosition="0" endLine="36" endPosition="0" />
-    <nodeInfo nodeId="529057043639332608" fileName="OrthogonalRepresentation_Test.java" startLine="36" startPosition="0" endLine="42" endPosition="0" />
-    <nodeInfo nodeId="529057043639333358" fileName="OrthogonalRepresentation_Test.java" startLine="42" startPosition="0" endLine="48" endPosition="0" />
-    <nodeInfo nodeId="529057043639333766" fileName="OrthogonalRepresentation_Test.java" startLine="48" startPosition="0" endLine="54" endPosition="0" />
-    <nodeInfo nodeId="228830736476028559" fileName="OrthogonalRepresentation_Test.java" startLine="82" startPosition="0" endLine="88" endPosition="0" />
-    <nodeInfo nodeId="529057043639081060" fileName="OrthogonalRepresentation_Test.java" startLine="70" startPosition="42" endLine="77" endPosition="7" />
-    <nodeInfo nodeId="529057043639081047" fileName="OrthogonalRepresentation_Test.java" startLine="68" startPosition="98" endLine="78" endPosition="5" />
-    <nodeInfo nodeId="529057043639081103" fileName="OrthogonalRepresentation_Test.java" startLine="88" startPosition="0" endLine="104" endPosition="0" />
-    <nodeInfo nodeId="228830736476028531" fileName="OrthogonalRepresentation_Test.java" startLine="54" startPosition="0" endLine="82" endPosition="0" />
-    <scopeInfo nodeId="529057043639071843" fileName="OrthogonalRepresentation_Test.java" startLine="64" startPosition="80" endLine="65" endPosition="67" />
-    <scopeInfo nodeId="529057043639081068" fileName="OrthogonalRepresentation_Test.java" startLine="72" startPosition="40" endLine="73" endPosition="40" />
-    <scopeInfo nodeId="529057043639081077" fileName="OrthogonalRepresentation_Test.java" startLine="75" startPosition="11" endLine="76" endPosition="171" />
-    <scopeInfo nodeId="228830736476028629" fileName="OrthogonalRepresentation_Test.java" startLine="84" startPosition="82" endLine="85" endPosition="70" />
-    <scopeInfo nodeId="529057043639081113" fileName="OrthogonalRepresentation_Test.java" startLine="90" startPosition="25" endLine="91" endPosition="21" />
-    <scopeInfo nodeId="529057043639081127" fileName="OrthogonalRepresentation_Test.java" startLine="93" startPosition="25" endLine="94" endPosition="20" />
-    <scopeInfo nodeId="529057043639081135" fileName="OrthogonalRepresentation_Test.java" startLine="96" startPosition="25" endLine="97" endPosition="20" />
-    <scopeInfo nodeId="529057043639081142" fileName="OrthogonalRepresentation_Test.java" startLine="99" startPosition="25" endLine="100" endPosition="18" />
-    <scopeInfo nodeId="228830736476028753" fileName="OrthogonalRepresentation_Test.java" startLine="25" startPosition="45" endLine="28" endPosition="16">
+    <nodeInfo nodeId="228830736476028761" fileName="OrthogonalRepresentation_Test.java" startLine="26" startPosition="45" endLine="27" endPosition="51" />
+    <nodeInfo nodeId="228830736476028756" fileName="OrthogonalRepresentation_Test.java" startLine="27" startPosition="51" endLine="28" endPosition="62" />
+    <nodeInfo nodeId="228830736476028774" fileName="OrthogonalRepresentation_Test.java" startLine="28" startPosition="62" endLine="29" endPosition="16" />
+    <nodeInfo nodeId="228830736476042000" fileName="OrthogonalRepresentation_Test.java" startLine="32" startPosition="45" endLine="33" endPosition="76" />
+    <nodeInfo nodeId="228830736476042004" fileName="OrthogonalRepresentation_Test.java" startLine="33" startPosition="76" endLine="34" endPosition="62" />
+    <nodeInfo nodeId="228830736476042011" fileName="OrthogonalRepresentation_Test.java" startLine="34" startPosition="62" endLine="35" endPosition="16" />
+    <nodeInfo nodeId="529057043639332612" fileName="OrthogonalRepresentation_Test.java" startLine="38" startPosition="45" endLine="39" endPosition="97" />
+    <nodeInfo nodeId="529057043639332616" fileName="OrthogonalRepresentation_Test.java" startLine="39" startPosition="97" endLine="40" endPosition="62" />
+    <nodeInfo nodeId="529057043639332623" fileName="OrthogonalRepresentation_Test.java" startLine="40" startPosition="62" endLine="41" endPosition="16" />
+    <nodeInfo nodeId="529057043639333362" fileName="OrthogonalRepresentation_Test.java" startLine="44" startPosition="45" endLine="45" endPosition="76" />
+    <nodeInfo nodeId="529057043639333366" fileName="OrthogonalRepresentation_Test.java" startLine="45" startPosition="76" endLine="46" endPosition="62" />
+    <nodeInfo nodeId="529057043639333373" fileName="OrthogonalRepresentation_Test.java" startLine="46" startPosition="62" endLine="47" endPosition="16" />
+    <nodeInfo nodeId="529057043639333770" fileName="OrthogonalRepresentation_Test.java" startLine="50" startPosition="45" endLine="51" endPosition="205" />
+    <nodeInfo nodeId="529057043639333774" fileName="OrthogonalRepresentation_Test.java" startLine="51" startPosition="205" endLine="52" endPosition="62" />
+    <nodeInfo nodeId="529057043639333781" fileName="OrthogonalRepresentation_Test.java" startLine="52" startPosition="62" endLine="53" endPosition="16" />
+    <nodeInfo nodeId="228830736476028539" fileName="OrthogonalRepresentation_Test.java" startLine="56" startPosition="33" endLine="57" endPosition="74" />
+    <nodeInfo nodeId="228830736476028651" fileName="OrthogonalRepresentation_Test.java" startLine="57" startPosition="74" endLine="58" endPosition="38" />
+    <nodeInfo nodeId="228830736476043768" fileName="OrthogonalRepresentation_Test.java" startLine="58" startPosition="38" endLine="59" endPosition="81" />
+    <nodeInfo nodeId="228830736476043781" fileName="OrthogonalRepresentation_Test.java" startLine="59" startPosition="81" endLine="60" endPosition="82" />
+    <nodeInfo nodeId="228830736476043791" fileName="OrthogonalRepresentation_Test.java" startLine="60" startPosition="82" endLine="61" endPosition="77" />
+    <nodeInfo nodeId="228830736476055637" fileName="OrthogonalRepresentation_Test.java" startLine="61" startPosition="77" endLine="62" endPosition="61" />
+    <nodeInfo nodeId="529057043639057282" fileName="OrthogonalRepresentation_Test.java" startLine="62" startPosition="61" endLine="63" endPosition="79" />
+    <nodeInfo nodeId="529057043639057296" fileName="OrthogonalRepresentation_Test.java" startLine="63" startPosition="79" endLine="64" endPosition="61" />
+    <nodeInfo nodeId="529057043639071850" fileName="OrthogonalRepresentation_Test.java" startLine="65" startPosition="80" endLine="66" endPosition="67" />
+    <nodeInfo nodeId="529057043639062919" fileName="OrthogonalRepresentation_Test.java" startLine="67" startPosition="5" endLine="68" endPosition="38" />
+    <nodeInfo nodeId="529057043639081027" fileName="OrthogonalRepresentation_Test.java" startLine="68" startPosition="38" endLine="69" endPosition="102" />
+    <nodeInfo nodeId="529057043639081053" fileName="OrthogonalRepresentation_Test.java" startLine="70" startPosition="69" endLine="71" endPosition="42" />
+    <nodeInfo nodeId="529057043639081069" fileName="OrthogonalRepresentation_Test.java" startLine="73" startPosition="40" endLine="74" endPosition="40" />
+    <nodeInfo nodeId="529057043639081078" fileName="OrthogonalRepresentation_Test.java" startLine="76" startPosition="11" endLine="77" endPosition="157" />
+    <nodeInfo nodeId="529057043639207070" fileName="OrthogonalRepresentation_Test.java" startLine="79" startPosition="5" endLine="80" endPosition="57" />
+    <nodeInfo nodeId="529057043639207077" fileName="OrthogonalRepresentation_Test.java" startLine="80" startPosition="57" endLine="81" endPosition="46" />
+    <nodeInfo nodeId="228830736476028635" fileName="OrthogonalRepresentation_Test.java" startLine="85" startPosition="82" endLine="86" endPosition="70" />
+    <nodeInfo nodeId="529057043639071840" fileName="OrthogonalRepresentation_Test.java" startLine="64" startPosition="61" endLine="67" endPosition="5" />
+    <nodeInfo nodeId="228830736476028626" fileName="OrthogonalRepresentation_Test.java" startLine="84" startPosition="64" endLine="87" endPosition="5" />
+    <nodeInfo nodeId="529057043639081067" fileName="OrthogonalRepresentation_Test.java" startLine="72" startPosition="112" endLine="76" endPosition="0" />
+    <nodeInfo nodeId="228830736476028750" fileName="OrthogonalRepresentation_Test.java" startLine="25" startPosition="61" endLine="31" endPosition="0" />
+    <nodeInfo nodeId="228830736476041994" fileName="OrthogonalRepresentation_Test.java" startLine="31" startPosition="0" endLine="37" endPosition="0" />
+    <nodeInfo nodeId="529057043639332608" fileName="OrthogonalRepresentation_Test.java" startLine="37" startPosition="0" endLine="43" endPosition="0" />
+    <nodeInfo nodeId="529057043639333358" fileName="OrthogonalRepresentation_Test.java" startLine="43" startPosition="0" endLine="49" endPosition="0" />
+    <nodeInfo nodeId="529057043639333766" fileName="OrthogonalRepresentation_Test.java" startLine="49" startPosition="0" endLine="55" endPosition="0" />
+    <nodeInfo nodeId="228830736476028559" fileName="OrthogonalRepresentation_Test.java" startLine="83" startPosition="0" endLine="89" endPosition="0" />
+    <nodeInfo nodeId="529057043639081060" fileName="OrthogonalRepresentation_Test.java" startLine="71" startPosition="42" endLine="78" endPosition="7" />
+    <nodeInfo nodeId="529057043639081047" fileName="OrthogonalRepresentation_Test.java" startLine="69" startPosition="102" endLine="79" endPosition="5" />
+    <nodeInfo nodeId="228830736476028531" fileName="OrthogonalRepresentation_Test.java" startLine="55" startPosition="0" endLine="83" endPosition="0" />
+    <scopeInfo nodeId="529057043639071843" fileName="OrthogonalRepresentation_Test.java" startLine="65" startPosition="80" endLine="66" endPosition="67" />
+    <scopeInfo nodeId="529057043639081068" fileName="OrthogonalRepresentation_Test.java" startLine="73" startPosition="40" endLine="74" endPosition="40" />
+    <scopeInfo nodeId="529057043639081077" fileName="OrthogonalRepresentation_Test.java" startLine="76" startPosition="11" endLine="77" endPosition="157" />
+    <scopeInfo nodeId="228830736476028629" fileName="OrthogonalRepresentation_Test.java" startLine="85" startPosition="82" endLine="86" endPosition="70" />
+    <scopeInfo nodeId="228830736476028753" fileName="OrthogonalRepresentation_Test.java" startLine="26" startPosition="45" endLine="29" endPosition="16">
       <varInfo nodeId="228830736476028762" varName="graphString" />
       <varInfo nodeId="228830736476028757" varName="graph" />
     </scopeInfo>
-    <scopeInfo nodeId="228830736476041997" fileName="OrthogonalRepresentation_Test.java" startLine="31" startPosition="45" endLine="34" endPosition="16">
+    <scopeInfo nodeId="228830736476041997" fileName="OrthogonalRepresentation_Test.java" startLine="32" startPosition="45" endLine="35" endPosition="16">
       <varInfo nodeId="228830736476042001" varName="graphString" />
       <varInfo nodeId="228830736476042005" varName="graph" />
     </scopeInfo>
-    <scopeInfo nodeId="529057043639332611" fileName="OrthogonalRepresentation_Test.java" startLine="37" startPosition="45" endLine="40" endPosition="16">
+    <scopeInfo nodeId="529057043639332611" fileName="OrthogonalRepresentation_Test.java" startLine="38" startPosition="45" endLine="41" endPosition="16">
       <varInfo nodeId="529057043639332613" varName="graphString" />
       <varInfo nodeId="529057043639332617" varName="graph" />
     </scopeInfo>
-    <scopeInfo nodeId="529057043639333361" fileName="OrthogonalRepresentation_Test.java" startLine="43" startPosition="45" endLine="46" endPosition="16">
+    <scopeInfo nodeId="529057043639333361" fileName="OrthogonalRepresentation_Test.java" startLine="44" startPosition="45" endLine="47" endPosition="16">
       <varInfo nodeId="529057043639333363" varName="graphString" />
       <varInfo nodeId="529057043639333367" varName="graph" />
     </scopeInfo>
-    <scopeInfo nodeId="529057043639333769" fileName="OrthogonalRepresentation_Test.java" startLine="49" startPosition="45" endLine="52" endPosition="16">
+    <scopeInfo nodeId="529057043639333769" fileName="OrthogonalRepresentation_Test.java" startLine="50" startPosition="45" endLine="53" endPosition="16">
       <varInfo nodeId="529057043639333771" varName="graphString" />
       <varInfo nodeId="529057043639333775" varName="graph" />
     </scopeInfo>
-    <scopeInfo nodeId="529057043639071840" fileName="OrthogonalRepresentation_Test.java" startLine="63" startPosition="61" endLine="66" endPosition="5" />
-    <scopeInfo nodeId="228830736476028562" fileName="OrthogonalRepresentation_Test.java" startLine="83" startPosition="64" endLine="86" endPosition="5" />
-    <scopeInfo nodeId="228830736476028626" fileName="OrthogonalRepresentation_Test.java" startLine="83" startPosition="64" endLine="86" endPosition="5" />
-    <scopeInfo nodeId="529057043639081067" fileName="OrthogonalRepresentation_Test.java" startLine="71" startPosition="112" endLine="75" endPosition="0" />
-    <scopeInfo nodeId="228830736476028750" fileName="OrthogonalRepresentation_Test.java" startLine="24" startPosition="61" endLine="30" endPosition="0" />
-    <scopeInfo nodeId="228830736476041994" fileName="OrthogonalRepresentation_Test.java" startLine="30" startPosition="0" endLine="36" endPosition="0" />
-    <scopeInfo nodeId="529057043639332608" fileName="OrthogonalRepresentation_Test.java" startLine="36" startPosition="0" endLine="42" endPosition="0" />
-    <scopeInfo nodeId="529057043639333358" fileName="OrthogonalRepresentation_Test.java" startLine="42" startPosition="0" endLine="48" endPosition="0" />
-    <scopeInfo nodeId="529057043639333766" fileName="OrthogonalRepresentation_Test.java" startLine="48" startPosition="0" endLine="54" endPosition="0" />
-    <scopeInfo nodeId="228830736476028559" fileName="OrthogonalRepresentation_Test.java" startLine="82" startPosition="0" endLine="88" endPosition="0">
+    <scopeInfo nodeId="529057043639071840" fileName="OrthogonalRepresentation_Test.java" startLine="64" startPosition="61" endLine="67" endPosition="5" />
+    <scopeInfo nodeId="228830736476028562" fileName="OrthogonalRepresentation_Test.java" startLine="84" startPosition="64" endLine="87" endPosition="5" />
+    <scopeInfo nodeId="228830736476028626" fileName="OrthogonalRepresentation_Test.java" startLine="84" startPosition="64" endLine="87" endPosition="5" />
+    <scopeInfo nodeId="529057043639081067" fileName="OrthogonalRepresentation_Test.java" startLine="72" startPosition="112" endLine="76" endPosition="0" />
+    <scopeInfo nodeId="228830736476028750" fileName="OrthogonalRepresentation_Test.java" startLine="25" startPosition="61" endLine="31" endPosition="0" />
+    <scopeInfo nodeId="228830736476041994" fileName="OrthogonalRepresentation_Test.java" startLine="31" startPosition="0" endLine="37" endPosition="0" />
+    <scopeInfo nodeId="529057043639332608" fileName="OrthogonalRepresentation_Test.java" startLine="37" startPosition="0" endLine="43" endPosition="0" />
+    <scopeInfo nodeId="529057043639333358" fileName="OrthogonalRepresentation_Test.java" startLine="43" startPosition="0" endLine="49" endPosition="0" />
+    <scopeInfo nodeId="529057043639333766" fileName="OrthogonalRepresentation_Test.java" startLine="49" startPosition="0" endLine="55" endPosition="0" />
+    <scopeInfo nodeId="228830736476028559" fileName="OrthogonalRepresentation_Test.java" startLine="83" startPosition="0" endLine="89" endPosition="0">
       <varInfo nodeId="228830736476028569" varName="embeddedGraph" />
     </scopeInfo>
-    <scopeInfo nodeId="529057043639081060" fileName="OrthogonalRepresentation_Test.java" startLine="70" startPosition="42" endLine="77" endPosition="7" />
-    <scopeInfo nodeId="529057043639081052" fileName="OrthogonalRepresentation_Test.java" startLine="69" startPosition="69" endLine="77" endPosition="7" />
-    <scopeInfo nodeId="529057043639081047" fileName="OrthogonalRepresentation_Test.java" startLine="68" startPosition="98" endLine="78" endPosition="5" />
-    <scopeInfo nodeId="529057043639081106" fileName="OrthogonalRepresentation_Test.java" startLine="89" startPosition="46" endLine="102" endPosition="19" />
-    <scopeInfo nodeId="529057043639081103" fileName="OrthogonalRepresentation_Test.java" startLine="88" startPosition="0" endLine="104" endPosition="0">
-      <varInfo nodeId="529057043639081109" varName="direction" />
-    </scopeInfo>
-    <scopeInfo nodeId="228830736476028534" fileName="OrthogonalRepresentation_Test.java" startLine="55" startPosition="33" endLine="80" endPosition="46">
+    <scopeInfo nodeId="529057043639081060" fileName="OrthogonalRepresentation_Test.java" startLine="71" startPosition="42" endLine="78" endPosition="7" />
+    <scopeInfo nodeId="529057043639081052" fileName="OrthogonalRepresentation_Test.java" startLine="70" startPosition="69" endLine="78" endPosition="7" />
+    <scopeInfo nodeId="529057043639081047" fileName="OrthogonalRepresentation_Test.java" startLine="69" startPosition="102" endLine="79" endPosition="5" />
+    <scopeInfo nodeId="228830736476028534" fileName="OrthogonalRepresentation_Test.java" startLine="56" startPosition="33" endLine="81" endPosition="46">
       <varInfo nodeId="529057043639081028" varName="directions" />
       <varInfo nodeId="228830736476043782" varName="angles" />
       <varInfo nodeId="228830736476043769" varName="bends" />
       <varInfo nodeId="228830736476028540" varName="embeddedGraph" />
       <varInfo nodeId="529057043639207071" varName="placer" />
     </scopeInfo>
-    <scopeInfo nodeId="228830736476028531" fileName="OrthogonalRepresentation_Test.java" startLine="54" startPosition="0" endLine="82" endPosition="0">
+    <scopeInfo nodeId="228830736476028531" fileName="OrthogonalRepresentation_Test.java" startLine="55" startPosition="0" endLine="83" endPosition="0">
       <varInfo nodeId="228830736476028535" varName="graph" />
     </scopeInfo>
-    <unitInfo nodeId="529057043639081067" fileName="OrthogonalRepresentation_Test.java" startLine="71" startPosition="90" endLine="75" endPosition="7" unitName="orthogonalLayoutTest.OrthogonalRepresentation_Test$1" />
+    <unitInfo nodeId="529057043639081067" fileName="OrthogonalRepresentation_Test.java" startLine="72" startPosition="90" endLine="76" endPosition="7" unitName="orthogonalLayoutTest.OrthogonalRepresentation_Test$1" />
   </root>
   <root nodeId="228830736476055337">
     <nodeInfo nodeId="228830736476055360" fileName="OrthogonalRepresentationChecker.java" startLine="20" startPosition="40" endLine="21" endPosition="38" />
@@ -275,6 +257,190 @@
       <varInfo nodeId="7371029937982882826" varName="args" />
     </scopeInfo>
     <unitInfo nodeId="7371029937982882760" fileName="StressTest.java" startLine="18" startPosition="0" endLine="47" endPosition="0" unitName="orthogonalLayoutTest.StressTest" />
+  </root>
+  <root nodeId="8734440518942960375">
+    <nodeInfo nodeId="8734440518942962343" fileName="OrthogonalFlowLayouter_Test.java" startLine="13" startPosition="45" endLine="14" endPosition="82" />
+    <nodeInfo nodeId="8734440518942962352" fileName="OrthogonalFlowLayouter_Test.java" startLine="14" startPosition="82" endLine="15" endPosition="62" />
+    <nodeInfo nodeId="8734440518942966469" fileName="OrthogonalFlowLayouter_Test.java" startLine="15" startPosition="62" endLine="16" endPosition="27" />
+    <nodeInfo nodeId="8568898107892568209" fileName="OrthogonalFlowLayouter_Test.java" startLine="19" startPosition="45" endLine="20" endPosition="51" />
+    <nodeInfo nodeId="8568898107892569270" fileName="OrthogonalFlowLayouter_Test.java" startLine="20" startPosition="51" endLine="21" endPosition="62" />
+    <nodeInfo nodeId="8568898107892569277" fileName="OrthogonalFlowLayouter_Test.java" startLine="21" startPosition="62" endLine="22" endPosition="27" />
+    <nodeInfo nodeId="8568898107892570485" fileName="OrthogonalFlowLayouter_Test.java" startLine="25" startPosition="45" endLine="26" endPosition="56" />
+    <nodeInfo nodeId="8568898107892570489" fileName="OrthogonalFlowLayouter_Test.java" startLine="26" startPosition="56" endLine="27" endPosition="62" />
+    <nodeInfo nodeId="8568898107892570496" fileName="OrthogonalFlowLayouter_Test.java" startLine="27" startPosition="62" endLine="28" endPosition="27" />
+    <nodeInfo nodeId="8568898107892570969" fileName="OrthogonalFlowLayouter_Test.java" startLine="31" startPosition="45" endLine="32" endPosition="56" />
+    <nodeInfo nodeId="8568898107892570973" fileName="OrthogonalFlowLayouter_Test.java" startLine="32" startPosition="56" endLine="33" endPosition="62" />
+    <nodeInfo nodeId="8568898107892570980" fileName="OrthogonalFlowLayouter_Test.java" startLine="33" startPosition="62" endLine="34" endPosition="27" />
+    <nodeInfo nodeId="8734440518942960391" fileName="OrthogonalFlowLayouter_Test.java" startLine="37" startPosition="44" endLine="38" endPosition="69" />
+    <nodeInfo nodeId="8568898107892568215" fileName="OrthogonalFlowLayouter_Test.java" startLine="38" startPosition="69" endLine="39" endPosition="60" />
+    <nodeInfo nodeId="8734440518942960382" fileName="OrthogonalFlowLayouter_Test.java" startLine="36" startPosition="0" endLine="41" endPosition="0" />
+    <nodeInfo nodeId="8734440518942962339" fileName="OrthogonalFlowLayouter_Test.java" startLine="12" startPosition="59" endLine="18" endPosition="0" />
+    <nodeInfo nodeId="8568898107892568205" fileName="OrthogonalFlowLayouter_Test.java" startLine="18" startPosition="0" endLine="24" endPosition="0" />
+    <nodeInfo nodeId="8568898107892570481" fileName="OrthogonalFlowLayouter_Test.java" startLine="24" startPosition="0" endLine="30" endPosition="0" />
+    <nodeInfo nodeId="8568898107892570963" fileName="OrthogonalFlowLayouter_Test.java" startLine="30" startPosition="0" endLine="36" endPosition="0" />
+    <scopeInfo nodeId="8734440518942960385" fileName="OrthogonalFlowLayouter_Test.java" startLine="37" startPosition="44" endLine="39" endPosition="60">
+      <varInfo nodeId="8568898107892568216" varName="layoutPoint" />
+      <varInfo nodeId="8734440518942960392" varName="layouter" />
+    </scopeInfo>
+    <scopeInfo nodeId="8734440518942962342" fileName="OrthogonalFlowLayouter_Test.java" startLine="13" startPosition="45" endLine="16" endPosition="27">
+      <varInfo nodeId="8734440518942962344" varName="graphString" />
+      <varInfo nodeId="8734440518942962353" varName="graph" />
+    </scopeInfo>
+    <scopeInfo nodeId="8568898107892568208" fileName="OrthogonalFlowLayouter_Test.java" startLine="19" startPosition="45" endLine="22" endPosition="27">
+      <varInfo nodeId="8568898107892568210" varName="graphString" />
+      <varInfo nodeId="8568898107892569271" varName="graph" />
+    </scopeInfo>
+    <scopeInfo nodeId="8568898107892570484" fileName="OrthogonalFlowLayouter_Test.java" startLine="25" startPosition="45" endLine="28" endPosition="27">
+      <varInfo nodeId="8568898107892570486" varName="graphString" />
+      <varInfo nodeId="8568898107892570490" varName="graph" />
+    </scopeInfo>
+    <scopeInfo nodeId="8568898107892570966" fileName="OrthogonalFlowLayouter_Test.java" startLine="31" startPosition="45" endLine="34" endPosition="27">
+      <varInfo nodeId="8568898107892570970" varName="graphString" />
+      <varInfo nodeId="8568898107892570974" varName="graph" />
+    </scopeInfo>
+    <scopeInfo nodeId="8734440518942960382" fileName="OrthogonalFlowLayouter_Test.java" startLine="36" startPosition="0" endLine="41" endPosition="0">
+      <varInfo nodeId="8734440518942960386" varName="graph" />
+    </scopeInfo>
+    <scopeInfo nodeId="8734440518942962339" fileName="OrthogonalFlowLayouter_Test.java" startLine="12" startPosition="59" endLine="18" endPosition="0" />
+    <scopeInfo nodeId="8568898107892568205" fileName="OrthogonalFlowLayouter_Test.java" startLine="18" startPosition="0" endLine="24" endPosition="0" />
+    <scopeInfo nodeId="8568898107892570481" fileName="OrthogonalFlowLayouter_Test.java" startLine="24" startPosition="0" endLine="30" endPosition="0" />
+    <scopeInfo nodeId="8568898107892570963" fileName="OrthogonalFlowLayouter_Test.java" startLine="30" startPosition="0" endLine="36" endPosition="0" />
+  </root>
+  <root nodeId="8734440518943050540">
+    <nodeInfo nodeId="8734440518943050550" fileName="OrthogonalFlowSketchStressTest.java" startLine="27" startPosition="59" endLine="28" endPosition="49" />
+    <nodeInfo nodeId="8734440518943050554" fileName="OrthogonalFlowSketchStressTest.java" startLine="28" startPosition="49" endLine="29" endPosition="55" />
+    <nodeInfo nodeId="8734440518943050559" fileName="OrthogonalFlowSketchStressTest.java" startLine="29" startPosition="55" endLine="30" endPosition="45" />
+    <nodeInfo nodeId="8734440518943050566" fileName="OrthogonalFlowSketchStressTest.java" startLine="30" startPosition="45" endLine="31" endPosition="45" />
+    <nodeInfo nodeId="8734440518943050573" fileName="OrthogonalFlowSketchStressTest.java" startLine="31" startPosition="45" endLine="32" endPosition="44" />
+    <nodeInfo nodeId="8734440518943050582" fileName="OrthogonalFlowSketchStressTest.java" startLine="33" startPosition="48" endLine="34" endPosition="47" />
+    <nodeInfo nodeId="8734440518943050589" fileName="OrthogonalFlowSketchStressTest.java" startLine="34" startPosition="47" endLine="35" endPosition="76" />
+    <nodeInfo nodeId="315882939481520374" fileName="OrthogonalFlowSketchStressTest.java" startLine="35" startPosition="76" endLine="36" endPosition="82" />
+    <nodeInfo nodeId="315882939481520387" fileName="OrthogonalFlowSketchStressTest.java" startLine="36" startPosition="82" endLine="37" endPosition="34" />
+    <nodeInfo nodeId="315882939481520430" fileName="OrthogonalFlowSketchStressTest.java" startLine="40" startPosition="99" endLine="41" endPosition="33" />
+    <nodeInfo nodeId="8734440518943050595" fileName="OrthogonalFlowSketchStressTest.java" startLine="45" startPosition="25" endLine="46" endPosition="52" />
+    <nodeInfo nodeId="8734440518943050601" fileName="OrthogonalFlowSketchStressTest.java" startLine="46" startPosition="52" endLine="47" endPosition="39" />
+    <nodeInfo nodeId="8734440518943050605" fileName="OrthogonalFlowSketchStressTest.java" startLine="47" startPosition="39" endLine="48" endPosition="20" />
+    <nodeInfo nodeId="8734440518943050682" fileName="OrthogonalFlowSketchStressTest.java" startLine="48" startPosition="20" endLine="49" endPosition="69" />
+    <nodeInfo nodeId="8734440518943055249" fileName="OrthogonalFlowSketchStressTest.java" startLine="49" startPosition="69" endLine="50" endPosition="43" />
+    <nodeInfo nodeId="315882939481520442" fileName="OrthogonalFlowSketchStressTest.java" startLine="51" startPosition="14" endLine="52" endPosition="56" />
+    <nodeInfo nodeId="8734440518943050672" fileName="OrthogonalFlowSketchStressTest.java" startLine="54" startPosition="5" endLine="55" endPosition="31" />
+    <nodeInfo nodeId="8734440518943055228" fileName="OrthogonalFlowSketchStressTest.java" startLine="58" startPosition="70" endLine="59" endPosition="41" />
+    <nodeInfo nodeId="8734440518943055259" fileName="OrthogonalFlowSketchStressTest.java" startLine="60" startPosition="63" endLine="61" endPosition="92" />
+    <nodeInfo nodeId="8734440518943055327" fileName="OrthogonalFlowSketchStressTest.java" startLine="62" startPosition="5" endLine="63" endPosition="40" />
+    <nodeInfo nodeId="8734440518943055281" fileName="OrthogonalFlowSketchStressTest.java" startLine="64" startPosition="52" endLine="65" endPosition="92" />
+    <nodeInfo nodeId="8734440518943055290" fileName="OrthogonalFlowSketchStressTest.java" startLine="65" startPosition="92" endLine="66" endPosition="62" />
+    <nodeInfo nodeId="8734440518943055311" fileName="OrthogonalFlowSketchStressTest.java" startLine="66" startPosition="62" endLine="67" endPosition="72" />
+    <nodeInfo nodeId="8734440518943055428" fileName="OrthogonalFlowSketchStressTest.java" startLine="67" startPosition="72" endLine="68" endPosition="234" />
+    <nodeInfo nodeId="8734440518943055382" fileName="OrthogonalFlowSketchStressTest.java" startLine="71" startPosition="74" endLine="72" endPosition="103" />
+    <nodeInfo nodeId="8734440518943055394" fileName="OrthogonalFlowSketchStressTest.java" startLine="72" startPosition="103" endLine="73" endPosition="103" />
+    <nodeInfo nodeId="8734440518943055556" fileName="OrthogonalFlowSketchStressTest.java" startLine="73" startPosition="103" endLine="74" endPosition="29" />
+    <nodeInfo nodeId="8734440518943055569" fileName="OrthogonalFlowSketchStressTest.java" startLine="74" startPosition="29" endLine="75" endPosition="29" />
+    <nodeInfo nodeId="8734440518943055580" fileName="OrthogonalFlowSketchStressTest.java" startLine="75" startPosition="29" endLine="76" endPosition="20" />
+    <nodeInfo nodeId="8734440518943055590" fileName="OrthogonalFlowSketchStressTest.java" startLine="77" startPosition="64" endLine="78" endPosition="27" />
+    <nodeInfo nodeId="8734440518943055606" fileName="OrthogonalFlowSketchStressTest.java" startLine="78" startPosition="27" endLine="79" endPosition="29" />
+    <nodeInfo nodeId="8734440518943055628" fileName="OrthogonalFlowSketchStressTest.java" startLine="81" startPosition="64" endLine="82" endPosition="27" />
+    <nodeInfo nodeId="8734440518943055636" fileName="OrthogonalFlowSketchStressTest.java" startLine="82" startPosition="27" endLine="83" endPosition="29" />
+    <nodeInfo nodeId="8734440518943055710" fileName="OrthogonalFlowSketchStressTest.java" startLine="86" startPosition="39" endLine="87" endPosition="25" />
+    <nodeInfo nodeId="8734440518943055721" fileName="OrthogonalFlowSketchStressTest.java" startLine="87" startPosition="25" endLine="88" endPosition="24" />
+    <nodeInfo nodeId="8734440518943055736" fileName="OrthogonalFlowSketchStressTest.java" startLine="88" startPosition="24" endLine="89" endPosition="21" />
+    <nodeInfo nodeId="8734440518943055768" fileName="OrthogonalFlowSketchStressTest.java" startLine="92" startPosition="27" endLine="93" endPosition="75" />
+    <nodeInfo nodeId="8734440518943055792" fileName="OrthogonalFlowSketchStressTest.java" startLine="93" startPosition="75" endLine="94" endPosition="75" />
+    <nodeInfo nodeId="8734440518943055806" fileName="OrthogonalFlowSketchStressTest.java" startLine="95" startPosition="16" endLine="96" endPosition="73" />
+    <nodeInfo nodeId="8734440518943055832" fileName="OrthogonalFlowSketchStressTest.java" startLine="96" startPosition="73" endLine="97" endPosition="73" />
+    <nodeInfo nodeId="8734440518943055876" fileName="OrthogonalFlowSketchStressTest.java" startLine="97" startPosition="73" endLine="98" endPosition="49" />
+    <nodeInfo nodeId="8734440518943050542" fileName="OrthogonalFlowSketchStressTest.java" startLine="23" startPosition="45" endLine="25" endPosition="3" />
+    <nodeInfo nodeId="315882939481520440" fileName="OrthogonalFlowSketchStressTest.java" startLine="51" startPosition="12" endLine="53" endPosition="7" />
+    <nodeInfo nodeId="315882939481520414" fileName="OrthogonalFlowSketchStressTest.java" startLine="39" startPosition="65" endLine="42" endPosition="11" />
+    <nodeInfo nodeId="8734440518943055239" fileName="OrthogonalFlowSketchStressTest.java" startLine="59" startPosition="41" endLine="62" endPosition="5" />
+    <nodeInfo nodeId="8734440518943055585" fileName="OrthogonalFlowSketchStressTest.java" startLine="76" startPosition="20" endLine="80" endPosition="9" />
+    <nodeInfo nodeId="8734440518943055624" fileName="OrthogonalFlowSketchStressTest.java" startLine="80" startPosition="9" endLine="84" endPosition="9" />
+    <nodeInfo nodeId="8734440518943055804" fileName="OrthogonalFlowSketchStressTest.java" startLine="95" startPosition="14" endLine="99" endPosition="9" />
+    <nodeInfo nodeId="315882939481520404" fileName="OrthogonalFlowSketchStressTest.java" startLine="38" startPosition="63" endLine="43" endPosition="9" />
+    <nodeInfo nodeId="8734440518943055692" fileName="OrthogonalFlowSketchStressTest.java" startLine="85" startPosition="27" endLine="90" endPosition="11" />
+    <nodeInfo nodeId="8734440518943055275" fileName="OrthogonalFlowSketchStressTest.java" startLine="63" startPosition="40" endLine="69" endPosition="5" />
+    <nodeInfo nodeId="315882939481520393" fileName="OrthogonalFlowSketchStressTest.java" startLine="37" startPosition="34" endLine="44" endPosition="7" />
+    <nodeInfo nodeId="8734440518943055664" fileName="OrthogonalFlowSketchStressTest.java" startLine="84" startPosition="9" endLine="91" endPosition="9" />
+    <nodeInfo nodeId="8734440518943055747" fileName="OrthogonalFlowSketchStressTest.java" startLine="91" startPosition="9" endLine="99" endPosition="9" />
+    <nodeInfo nodeId="315882939481520436" fileName="OrthogonalFlowSketchStressTest.java" startLine="44" startPosition="7" endLine="53" endPosition="7" />
+    <nodeInfo nodeId="8734440518943050580" fileName="OrthogonalFlowSketchStressTest.java" startLine="32" startPosition="44" endLine="54" endPosition="5" />
+    <nodeInfo nodeId="8734440518943055356" fileName="OrthogonalFlowSketchStressTest.java" startLine="70" startPosition="68" endLine="100" endPosition="7" />
+    <nodeInfo nodeId="8734440518943050546" fileName="OrthogonalFlowSketchStressTest.java" startLine="26" startPosition="0" endLine="57" endPosition="0" />
+    <nodeInfo nodeId="8734440518943055336" fileName="OrthogonalFlowSketchStressTest.java" startLine="69" startPosition="5" endLine="101" endPosition="5" />
+    <nodeInfo nodeId="8734440518943050690" fileName="OrthogonalFlowSketchStressTest.java" startLine="57" startPosition="0" endLine="103" endPosition="0" />
+    <scopeInfo nodeId="8734440518943050545" fileName="OrthogonalFlowSketchStressTest.java" startLine="24" startPosition="43" endLine="24" endPosition="43" />
+    <scopeInfo nodeId="315882939481520416" fileName="OrthogonalFlowSketchStressTest.java" startLine="40" startPosition="99" endLine="41" endPosition="33" />
+    <scopeInfo nodeId="315882939481520441" fileName="OrthogonalFlowSketchStressTest.java" startLine="51" startPosition="14" endLine="52" endPosition="56" />
+    <scopeInfo nodeId="8734440518943055242" fileName="OrthogonalFlowSketchStressTest.java" startLine="60" startPosition="63" endLine="61" endPosition="92" />
+    <scopeInfo nodeId="8734440518943050542" fileName="OrthogonalFlowSketchStressTest.java" startLine="23" startPosition="45" endLine="25" endPosition="3" />
+    <scopeInfo nodeId="8734440518943055588" fileName="OrthogonalFlowSketchStressTest.java" startLine="77" startPosition="64" endLine="79" endPosition="29" />
+    <scopeInfo nodeId="8734440518943055627" fileName="OrthogonalFlowSketchStressTest.java" startLine="81" startPosition="64" endLine="83" endPosition="29" />
+    <scopeInfo nodeId="8734440518943055748" fileName="OrthogonalFlowSketchStressTest.java" startLine="92" startPosition="27" endLine="94" endPosition="75" />
+    <scopeInfo nodeId="315882939481520407" fileName="OrthogonalFlowSketchStressTest.java" startLine="39" startPosition="65" endLine="42" endPosition="11" />
+    <scopeInfo nodeId="8734440518943055239" fileName="OrthogonalFlowSketchStressTest.java" startLine="59" startPosition="41" endLine="62" endPosition="5" />
+    <scopeInfo nodeId="8734440518943055693" fileName="OrthogonalFlowSketchStressTest.java" startLine="86" startPosition="39" endLine="89" endPosition="21">
+      <varInfo nodeId="8734440518943055711" varName="p" />
+    </scopeInfo>
+    <scopeInfo nodeId="8734440518943055805" fileName="OrthogonalFlowSketchStressTest.java" startLine="95" startPosition="16" endLine="98" endPosition="49">
+      <varInfo nodeId="8734440518943055807" varName="vInside" />
+      <varInfo nodeId="8734440518943055833" varName="hInside" />
+    </scopeInfo>
+    <scopeInfo nodeId="8734440518943055280" fileName="OrthogonalFlowSketchStressTest.java" startLine="64" startPosition="52" endLine="68" endPosition="234">
+      <varInfo nodeId="8734440518943055291" varName="edgeLayout" />
+    </scopeInfo>
+    <scopeInfo nodeId="8734440518943055585" fileName="OrthogonalFlowSketchStressTest.java" startLine="76" startPosition="20" endLine="80" endPosition="9" />
+    <scopeInfo nodeId="8734440518943055624" fileName="OrthogonalFlowSketchStressTest.java" startLine="80" startPosition="9" endLine="84" endPosition="9" />
+    <scopeInfo nodeId="315882939481520396" fileName="OrthogonalFlowSketchStressTest.java" startLine="38" startPosition="63" endLine="43" endPosition="9" />
+    <scopeInfo nodeId="315882939481520404" fileName="OrthogonalFlowSketchStressTest.java" startLine="38" startPosition="63" endLine="43" endPosition="9" />
+    <scopeInfo nodeId="315882939481520438" fileName="OrthogonalFlowSketchStressTest.java" startLine="45" startPosition="25" endLine="50" endPosition="43">
+      <varInfo nodeId="8734440518943050683" varName="graphLayoutPoint" />
+      <varInfo nodeId="8734440518943050596" varName="out" />
+    </scopeInfo>
+    <scopeInfo nodeId="8734440518943055665" fileName="OrthogonalFlowSketchStressTest.java" startLine="85" startPosition="27" endLine="90" endPosition="11" />
+    <scopeInfo nodeId="8734440518943055692" fileName="OrthogonalFlowSketchStressTest.java" startLine="85" startPosition="27" endLine="90" endPosition="11">
+      <varInfo nodeId="8734440518943055698" varName="k" />
+    </scopeInfo>
+    <scopeInfo nodeId="8734440518943055275" fileName="OrthogonalFlowSketchStressTest.java" startLine="63" startPosition="40" endLine="69" endPosition="5" />
+    <scopeInfo nodeId="315882939481520393" fileName="OrthogonalFlowSketchStressTest.java" startLine="37" startPosition="34" endLine="44" endPosition="7" />
+    <scopeInfo nodeId="8734440518943050581" fileName="OrthogonalFlowSketchStressTest.java" startLine="33" startPosition="48" endLine="53" endPosition="7">
+      <varInfo nodeId="8734440518943050590" varName="graph" />
+      <varInfo nodeId="315882939481520388" varName="oneComponent" />
+      <varInfo nodeId="315882939481520375" varName="components" />
+    </scopeInfo>
+    <scopeInfo nodeId="8734440518943050580" fileName="OrthogonalFlowSketchStressTest.java" startLine="32" startPosition="44" endLine="54" endPosition="5">
+      <varInfo nodeId="8734440518943050664" varName="iter" />
+    </scopeInfo>
+    <scopeInfo nodeId="8734440518943050549" fileName="OrthogonalFlowSketchStressTest.java" startLine="27" startPosition="59" endLine="55" endPosition="31">
+      <varInfo nodeId="8734440518943050567" varName="numEdges" />
+      <varInfo nodeId="8734440518943050560" varName="numNodes" />
+      <varInfo nodeId="8734440518943050551" varName="fileName" />
+      <varInfo nodeId="8734440518943050555" varName="layouter" />
+      <varInfo nodeId="8734440518943050574" varName="numIter" />
+    </scopeInfo>
+    <scopeInfo nodeId="8734440518943055357" fileName="OrthogonalFlowSketchStressTest.java" startLine="71" startPosition="74" endLine="99" endPosition="9">
+      <varInfo nodeId="8734440518943055395" varName="edgeLayout2" />
+      <varInfo nodeId="8734440518943055383" varName="edgeLayout1" />
+      <varInfo nodeId="8734440518943055581" varName="cur" />
+      <varInfo nodeId="8734440518943055570" varName="y" />
+      <varInfo nodeId="8734440518943055557" varName="x" />
+    </scopeInfo>
+    <scopeInfo nodeId="8734440518943055337" fileName="OrthogonalFlowSketchStressTest.java" startLine="70" startPosition="68" endLine="100" endPosition="7" />
+    <scopeInfo nodeId="8734440518943055356" fileName="OrthogonalFlowSketchStressTest.java" startLine="70" startPosition="68" endLine="100" endPosition="7">
+      <varInfo nodeId="8734440518943055359" varName="j" />
+    </scopeInfo>
+    <scopeInfo nodeId="8734440518943050546" fileName="OrthogonalFlowSketchStressTest.java" startLine="26" startPosition="0" endLine="57" endPosition="0">
+      <varInfo nodeId="8734440518943050677" varName="args" />
+    </scopeInfo>
+    <scopeInfo nodeId="8734440518943055336" fileName="OrthogonalFlowSketchStressTest.java" startLine="69" startPosition="5" endLine="101" endPosition="5">
+      <varInfo nodeId="8734440518943055339" varName="i" />
+    </scopeInfo>
+    <scopeInfo nodeId="8734440518943050693" fileName="OrthogonalFlowSketchStressTest.java" startLine="58" startPosition="70" endLine="101" endPosition="5">
+      <varInfo nodeId="8734440518943055229" varName="graph" />
+      <varInfo nodeId="8734440518943055328" varName="edges" />
+    </scopeInfo>
+    <scopeInfo nodeId="8734440518943050690" fileName="OrthogonalFlowSketchStressTest.java" startLine="57" startPosition="0" endLine="103" endPosition="0">
+      <varInfo nodeId="8734440518943055224" varName="graphLayout" />
+    </scopeInfo>
+    <unitInfo nodeId="8734440518943050540" fileName="OrthogonalFlowSketchStressTest.java" startLine="23" startPosition="0" endLine="104" endPosition="0" unitName="orthogonalLayoutTest.OrthogonalFlowSketchStressTest" />
   </root>
   <root nodeId="903391227141028133">
     <nodeInfo nodeId="903391227141029780" fileName="ConstraintsSupporter_Test.java" startLine="25" startPosition="45" endLine="26" endPosition="51" />
