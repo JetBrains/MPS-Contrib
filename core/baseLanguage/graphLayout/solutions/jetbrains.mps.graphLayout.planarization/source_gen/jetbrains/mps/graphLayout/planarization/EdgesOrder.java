@@ -8,6 +8,7 @@ import java.util.List;
 import jetbrains.mps.graphLayout.graph.Edge;
 import jetbrains.mps.internal.collections.runtime.MapSequence;
 import java.util.HashMap;
+import java.util.LinkedHashMap;
 import jetbrains.mps.internal.collections.runtime.SetSequence;
 import java.util.Set;
 import jetbrains.mps.internal.collections.runtime.ListSequence;
@@ -23,8 +24,12 @@ public class EdgesOrder {
   private boolean myReversed;
 
   public EdgesOrder() {
-    myInEdgesMap = MapSequence.fromMap(new HashMap<Node, List<Edge>>());
-    myOutEdgesMap = MapSequence.fromMap(new HashMap<Node, List<Edge>>());
+    /*
+      myInEdgesMap = MapSequence.fromMap(new HashMap<Node, List<Edge>>());
+      myOutEdgesMap = MapSequence.fromMap(new HashMap<Node, List<Edge>>());
+    */
+    myInEdgesMap = MapSequence.fromMap(new LinkedHashMap<Node, List<Edge>>(16, (float) 0.75, false));
+    myOutEdgesMap = MapSequence.fromMap(new LinkedHashMap<Node, List<Edge>>(16, (float) 0.75, false));
     myReversed = false;
   }
 

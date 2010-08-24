@@ -46,8 +46,8 @@ import java.awt.Color;
 
 public class TestPanel extends JPanel {
   private static Dimension FRAME_DIMENSION = new Dimension(800, 600);
-  private static int SCALE_X = 40;
-  private static int SCALE_Y = 40;
+  private static int SCALE_X = 20;
+  private static int SCALE_Y = 20;
   private static int NSIZE = 20;
 
   private JTextArea myTextArea;

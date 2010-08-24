@@ -20,6 +20,7 @@ public class DualGraph extends Graph {
   private Map<Edge, Edge> myEdgesMap;
 
   public DualGraph(EmbeddedGraph graph) {
+    super();
     myEmbeddedGraph = graph;
     myEdgesMap = MapSequence.fromMap(new HashMap<Edge, Edge>());
     compute();

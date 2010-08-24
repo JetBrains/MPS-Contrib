@@ -46,7 +46,7 @@ public class Edge {
     if (node == myTarget) {
       return mySource;
     }
-    throw new RuntimeException("argument is't adjacent to this edge");
+    throw new RuntimeException("node " + node + " is't adjacent to edge " + this);
   }
 
   public List<Node> getAdjacentNodes() {

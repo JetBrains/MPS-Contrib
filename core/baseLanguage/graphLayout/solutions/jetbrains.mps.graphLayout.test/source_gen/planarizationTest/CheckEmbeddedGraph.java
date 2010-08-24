@@ -8,6 +8,7 @@ import jetbrains.mps.internal.collections.runtime.SetSequence;
 import jetbrains.mps.internal.collections.runtime.ListSequence;
 import jetbrains.mps.graphLayout.planarGraph.Face;
 import jetbrains.mps.graphLayout.planarGraph.CheckFace;
+import jetbrains.mps.graphLayout.planarGraph.Dart;
 
 public class CheckEmbeddedGraph {
   public static boolean checkAdjacentFaces(EmbeddedGraph embeddedGraph) {
@@ -24,6 +25,11 @@ public class CheckEmbeddedGraph {
     for (Face face : ListSequence.fromList(embeddedGraph.getFaces())) {
       if (!(CheckFace.check(face)) || ListSequence.fromList(face.getDarts()).count() < 3) {
         throw new RuntimeException("bad face: " + face);
+      }
+      for (Dart dart : ListSequence.fromList(face.getDarts())) {
+        if (embeddedGraph.getFace(dart) != face) {
+          throw new RuntimeException("bad dart: " + dart);
+        }
       }
     }
   }

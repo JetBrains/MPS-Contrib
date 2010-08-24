@@ -10,7 +10,7 @@ import java.util.Set;
 import jetbrains.mps.graphLayout.graph.Graph;
 import jetbrains.mps.graphLayout.util.NodeMap;
 import jetbrains.mps.internal.collections.runtime.SetSequence;
-import java.util.HashSet;
+import java.util.LinkedHashSet;
 import jetbrains.mps.internal.collections.runtime.ListSequence;
 import jetbrains.mps.internal.collections.runtime.MapSequence;
 import java.util.ArrayList;
@@ -18,6 +18,7 @@ import jetbrains.mps.graphLayout.planarGraph.EmbeddedGraph;
 import java.util.Arrays;
 import jetbrains.mps.graphLayout.planarGraph.Face;
 import java.util.Iterator;
+import java.util.HashSet;
 import jetbrains.mps.graphLayout.planarGraph.Dart;
 import jetbrains.mps.internal.collections.runtime.backports.LinkedList;
 
@@ -32,7 +33,7 @@ public class PQPlanarityTest {
 
   public Set<Edge> removeEdgesToPlanarity(Graph graph, Map<Node, Integer> stNumbering) {
     myEdgesOrder = new NodeMap<List<Edge>>(graph);
-    Set<Edge> removed = SetSequence.fromSet(new HashSet<Edge>());
+    Set<Edge> removed = SetSequence.fromSet(new LinkedHashSet<Edge>());
     if (SHOW_LOG > 0) {
       System.out.println("GRAPH!!! " + graph);
       System.out.println(stNumbering);
@@ -63,7 +64,7 @@ public class PQPlanarityTest {
       } else {
         remainingEdges = ListSequence.fromListAndArray(new ArrayList<Edge>(), ((PNode) curPQNode).getEdge());
       }
-      Set<Edge> allInEdges = SetSequence.fromSet(new HashSet<Edge>());
+      Set<Edge> allInEdges = SetSequence.fromSet(new LinkedHashSet<Edge>());
       SetSequence.fromSet(allInEdges).addSequence(ListSequence.fromList(nextGraphNode.getEdges(Edge.Direction.BACK)));
       SetSequence.fromSet(allInEdges).removeSequence(ListSequence.fromList(remainingEdges));
       SetSequence.fromSet(removed).addSequence(SetSequence.fromSet(allInEdges));

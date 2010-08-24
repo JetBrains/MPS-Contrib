@@ -241,7 +241,7 @@
     <nodeInfo nodeId="1327612371813257457" fileName="ShortestPathEmbeddingFinder.java" startLine="27" startPosition="42" endLine="28" endPosition="68" />
     <nodeInfo nodeId="3720762119843733898" fileName="ShortestPathEmbeddingFinder.java" startLine="29" startPosition="23" endLine="30" endPosition="48" />
     <nodeInfo nodeId="3720762119843733865" fileName="ShortestPathEmbeddingFinder.java" startLine="30" startPosition="48" endLine="31" endPosition="40" />
-    <nodeInfo nodeId="1327612371813257545" fileName="ShortestPathEmbeddingFinder.java" startLine="34" startPosition="38" endLine="35" endPosition="58" />
+    <nodeInfo nodeId="4422427343208761575" fileName="ShortestPathEmbeddingFinder.java" startLine="34" startPosition="38" endLine="35" endPosition="58" />
     <nodeInfo nodeId="3720762119843733890" fileName="ShortestPathEmbeddingFinder.java" startLine="38" startPosition="23" endLine="39" endPosition="43" />
     <nodeInfo nodeId="3720762119843733916" fileName="ShortestPathEmbeddingFinder.java" startLine="39" startPosition="43" endLine="40" endPosition="32" />
     <nodeInfo nodeId="1327612371813257833" fileName="ShortestPathEmbeddingFinder.java" startLine="42" startPosition="52" endLine="43" endPosition="29" />
@@ -249,55 +249,47 @@
     <nodeInfo nodeId="1327612371813257469" fileName="ShortestPathEmbeddingFinder.java" startLine="47" startPosition="5" endLine="48" endPosition="25" />
     <nodeInfo nodeId="1327612371813257608" fileName="ShortestPathEmbeddingFinder.java" startLine="51" startPosition="75" endLine="52" endPosition="55" />
     <nodeInfo nodeId="1327612371813257623" fileName="ShortestPathEmbeddingFinder.java" startLine="52" startPosition="55" endLine="53" endPosition="71" />
-    <nodeInfo nodeId="1327612371813257636" fileName="ShortestPathEmbeddingFinder.java" startLine="54" startPosition="77" endLine="55" endPosition="46" />
-    <nodeInfo nodeId="1327612371813257655" fileName="ShortestPathEmbeddingFinder.java" startLine="57" startPosition="91" endLine="58" endPosition="84" />
-    <nodeInfo nodeId="1327612371813257664" fileName="ShortestPathEmbeddingFinder.java" startLine="60" startPosition="7" endLine="61" endPosition="58" />
-    <nodeInfo nodeId="1327612371813257669" fileName="ShortestPathEmbeddingFinder.java" startLine="63" startPosition="6" endLine="64" endPosition="53" />
-    <nodeInfo nodeId="1327612371813257676" fileName="ShortestPathEmbeddingFinder.java" startLine="64" startPosition="53" endLine="65" endPosition="36" />
-    <nodeInfo nodeId="1327612371813257681" fileName="ShortestPathEmbeddingFinder.java" startLine="65" startPosition="36" endLine="66" endPosition="50" />
-    <nodeInfo nodeId="1327612371813257688" fileName="ShortestPathEmbeddingFinder.java" startLine="67" startPosition="6" endLine="68" endPosition="169" />
-    <nodeInfo nodeId="1327612371813257701" fileName="ShortestPathEmbeddingFinder.java" startLine="68" startPosition="169" endLine="69" endPosition="71" />
-    <nodeInfo nodeId="1327612371813257708" fileName="ShortestPathEmbeddingFinder.java" startLine="69" startPosition="71" endLine="70" endPosition="71" />
-    <nodeInfo nodeId="1327612371813257715" fileName="ShortestPathEmbeddingFinder.java" startLine="70" startPosition="71" endLine="71" endPosition="116" />
-    <nodeInfo nodeId="1327612371813257724" fileName="ShortestPathEmbeddingFinder.java" startLine="71" startPosition="116" endLine="72" endPosition="61" />
-    <nodeInfo nodeId="1327612371813257734" fileName="ShortestPathEmbeddingFinder.java" startLine="73" startPosition="51" endLine="74" endPosition="77" />
-    <nodeInfo nodeId="1327612371813257749" fileName="ShortestPathEmbeddingFinder.java" startLine="75" startPosition="61" endLine="76" endPosition="132" />
-    <nodeInfo nodeId="1327612371813257760" fileName="ShortestPathEmbeddingFinder.java" startLine="77" startPosition="7" endLine="78" endPosition="34" />
-    <nodeInfo nodeId="1327612371813257767" fileName="ShortestPathEmbeddingFinder.java" startLine="78" startPosition="34" endLine="79" endPosition="75" />
-    <nodeInfo nodeId="1327612371813257780" fileName="ShortestPathEmbeddingFinder.java" startLine="80" startPosition="28" endLine="81" endPosition="60" />
-    <nodeInfo nodeId="1418350014056299953" fileName="ShortestPathEmbeddingFinder.java" startLine="83" startPosition="5" endLine="84" endPosition="71" />
-    <nodeInfo nodeId="1327612371813257785" fileName="ShortestPathEmbeddingFinder.java" startLine="84" startPosition="71" endLine="85" endPosition="116" />
-    <nodeInfo nodeId="1327612371813258040" fileName="ShortestPathEmbeddingFinder.java" startLine="86" startPosition="75" endLine="87" endPosition="65" />
-    <nodeInfo nodeId="1327612371813258050" fileName="ShortestPathEmbeddingFinder.java" startLine="87" startPosition="65" endLine="88" endPosition="67" />
-    <nodeInfo nodeId="1327612371813258066" fileName="ShortestPathEmbeddingFinder.java" startLine="88" startPosition="67" endLine="89" endPosition="42" />
-    <nodeInfo nodeId="1418350014056299964" fileName="ShortestPathEmbeddingFinder.java" startLine="89" startPosition="42" endLine="90" endPosition="58" />
-    <nodeInfo nodeId="1327612371813258079" fileName="ShortestPathEmbeddingFinder.java" startLine="90" startPosition="58" endLine="91" endPosition="90" />
-    <nodeInfo nodeId="1327612371813258019" fileName="ShortestPathEmbeddingFinder.java" startLine="91" startPosition="90" endLine="92" endPosition="99" />
-    <nodeInfo nodeId="1418350014056299977" fileName="ShortestPathEmbeddingFinder.java" startLine="93" startPosition="5" endLine="94" endPosition="57" />
+    <nodeInfo nodeId="1327612371813257664" fileName="ShortestPathEmbeddingFinder.java" startLine="54" startPosition="77" endLine="55" endPosition="78" />
+    <nodeInfo nodeId="1327612371813257688" fileName="ShortestPathEmbeddingFinder.java" startLine="56" startPosition="5" endLine="57" endPosition="169" />
+    <nodeInfo nodeId="1327612371813257701" fileName="ShortestPathEmbeddingFinder.java" startLine="57" startPosition="169" endLine="58" endPosition="71" />
+    <nodeInfo nodeId="1327612371813257708" fileName="ShortestPathEmbeddingFinder.java" startLine="58" startPosition="71" endLine="59" endPosition="71" />
+    <nodeInfo nodeId="1327612371813257715" fileName="ShortestPathEmbeddingFinder.java" startLine="59" startPosition="71" endLine="60" endPosition="116" />
+    <nodeInfo nodeId="1327612371813257724" fileName="ShortestPathEmbeddingFinder.java" startLine="60" startPosition="116" endLine="61" endPosition="61" />
+    <nodeInfo nodeId="1327612371813257734" fileName="ShortestPathEmbeddingFinder.java" startLine="62" startPosition="51" endLine="63" endPosition="77" />
+    <nodeInfo nodeId="1327612371813257749" fileName="ShortestPathEmbeddingFinder.java" startLine="64" startPosition="61" endLine="65" endPosition="132" />
+    <nodeInfo nodeId="1327612371813257760" fileName="ShortestPathEmbeddingFinder.java" startLine="66" startPosition="7" endLine="67" endPosition="34" />
+    <nodeInfo nodeId="1327612371813257767" fileName="ShortestPathEmbeddingFinder.java" startLine="67" startPosition="34" endLine="68" endPosition="75" />
+    <nodeInfo nodeId="1327612371813257780" fileName="ShortestPathEmbeddingFinder.java" startLine="69" startPosition="28" endLine="70" endPosition="60" />
+    <nodeInfo nodeId="1418350014056299953" fileName="ShortestPathEmbeddingFinder.java" startLine="72" startPosition="5" endLine="73" endPosition="71" />
+    <nodeInfo nodeId="1327612371813257785" fileName="ShortestPathEmbeddingFinder.java" startLine="73" startPosition="71" endLine="74" endPosition="116" />
+    <nodeInfo nodeId="1327612371813258040" fileName="ShortestPathEmbeddingFinder.java" startLine="75" startPosition="75" endLine="76" endPosition="65" />
+    <nodeInfo nodeId="1327612371813258050" fileName="ShortestPathEmbeddingFinder.java" startLine="76" startPosition="65" endLine="77" endPosition="67" />
+    <nodeInfo nodeId="1327612371813258066" fileName="ShortestPathEmbeddingFinder.java" startLine="77" startPosition="67" endLine="78" endPosition="42" />
+    <nodeInfo nodeId="1418350014056299964" fileName="ShortestPathEmbeddingFinder.java" startLine="78" startPosition="42" endLine="79" endPosition="58" />
+    <nodeInfo nodeId="1327612371813258079" fileName="ShortestPathEmbeddingFinder.java" startLine="79" startPosition="58" endLine="80" endPosition="90" />
+    <nodeInfo nodeId="1327612371813258019" fileName="ShortestPathEmbeddingFinder.java" startLine="80" startPosition="90" endLine="81" endPosition="99" />
+    <nodeInfo nodeId="1418350014056299977" fileName="ShortestPathEmbeddingFinder.java" startLine="82" startPosition="5" endLine="83" endPosition="57" />
     <nodeInfo nodeId="1327612371813257429" fileName="ShortestPathEmbeddingFinder.java" startLine="22" startPosition="0" endLine="25" endPosition="3" />
     <nodeInfo nodeId="1327612371813257510" fileName="ShortestPathEmbeddingFinder.java" startLine="41" startPosition="5" endLine="44" endPosition="5" />
     <nodeInfo nodeId="1327612371813257841" fileName="ShortestPathEmbeddingFinder.java" startLine="44" startPosition="5" endLine="47" endPosition="5" />
-    <nodeInfo nodeId="1327612371813257649" fileName="ShortestPathEmbeddingFinder.java" startLine="56" startPosition="87" endLine="59" endPosition="9" />
-    <nodeInfo nodeId="1327612371813257742" fileName="ShortestPathEmbeddingFinder.java" startLine="74" startPosition="77" endLine="77" endPosition="7" />
-    <nodeInfo nodeId="1327612371813257775" fileName="ShortestPathEmbeddingFinder.java" startLine="79" startPosition="75" endLine="82" endPosition="7" />
+    <nodeInfo nodeId="1327612371813257630" fileName="ShortestPathEmbeddingFinder.java" startLine="53" startPosition="71" endLine="56" endPosition="5" />
+    <nodeInfo nodeId="1327612371813257742" fileName="ShortestPathEmbeddingFinder.java" startLine="63" startPosition="77" endLine="66" endPosition="7" />
+    <nodeInfo nodeId="1327612371813257775" fileName="ShortestPathEmbeddingFinder.java" startLine="68" startPosition="75" endLine="71" endPosition="7" />
     <nodeInfo nodeId="3720762119843733881" fileName="ShortestPathEmbeddingFinder.java" startLine="28" startPosition="68" endLine="32" endPosition="5" />
-    <nodeInfo nodeId="1327612371813257541" fileName="ShortestPathEmbeddingFinder.java" startLine="33" startPosition="95" endLine="37" endPosition="0" />
+    <nodeInfo nodeId="4422427343208761573" fileName="ShortestPathEmbeddingFinder.java" startLine="33" startPosition="95" endLine="37" endPosition="0" />
     <nodeInfo nodeId="3720762119843733906" fileName="ShortestPathEmbeddingFinder.java" startLine="37" startPosition="24" endLine="41" endPosition="5" />
     <nodeInfo nodeId="1327612371813257524" fileName="ShortestPathEmbeddingFinder.java" startLine="32" startPosition="5" endLine="37" endPosition="24" />
-    <nodeInfo nodeId="1327612371813257642" fileName="ShortestPathEmbeddingFinder.java" startLine="55" startPosition="46" endLine="60" endPosition="7" />
-    <nodeInfo nodeId="1327612371813257851" fileName="ShortestPathEmbeddingFinder.java" startLine="62" startPosition="5" endLine="67" endPosition="6" />
-    <nodeInfo nodeId="1327612371813257794" fileName="ShortestPathEmbeddingFinder.java" startLine="85" startPosition="116" endLine="93" endPosition="5" />
-    <nodeInfo nodeId="1327612371813257630" fileName="ShortestPathEmbeddingFinder.java" startLine="53" startPosition="71" endLine="62" endPosition="5" />
-    <nodeInfo nodeId="1327612371813257730" fileName="ShortestPathEmbeddingFinder.java" startLine="72" startPosition="61" endLine="83" endPosition="5" />
+    <nodeInfo nodeId="1327612371813257794" fileName="ShortestPathEmbeddingFinder.java" startLine="74" startPosition="116" endLine="82" endPosition="5" />
+    <nodeInfo nodeId="1327612371813257730" fileName="ShortestPathEmbeddingFinder.java" startLine="61" startPosition="61" endLine="72" endPosition="5" />
     <nodeInfo nodeId="1327612371813257446" fileName="ShortestPathEmbeddingFinder.java" startLine="26" startPosition="0" endLine="50" endPosition="0" />
-    <nodeInfo nodeId="1327612371813257600" fileName="ShortestPathEmbeddingFinder.java" startLine="50" startPosition="0" endLine="96" endPosition="0" />
+    <nodeInfo nodeId="1327612371813257600" fileName="ShortestPathEmbeddingFinder.java" startLine="50" startPosition="0" endLine="85" endPosition="0" />
     <scopeInfo nodeId="1327612371813257432" fileName="ShortestPathEmbeddingFinder.java" startLine="23" startPosition="70" endLine="24" endPosition="36" />
-    <scopeInfo nodeId="1327612371813257542" fileName="ShortestPathEmbeddingFinder.java" startLine="34" startPosition="38" endLine="35" endPosition="58" />
+    <scopeInfo nodeId="4422427343208761574" fileName="ShortestPathEmbeddingFinder.java" startLine="34" startPosition="38" endLine="35" endPosition="58" />
     <scopeInfo nodeId="1327612371813257513" fileName="ShortestPathEmbeddingFinder.java" startLine="42" startPosition="52" endLine="43" endPosition="29" />
     <scopeInfo nodeId="1327612371813257844" fileName="ShortestPathEmbeddingFinder.java" startLine="45" startPosition="52" endLine="46" endPosition="39" />
-    <scopeInfo nodeId="1327612371813257654" fileName="ShortestPathEmbeddingFinder.java" startLine="57" startPosition="91" endLine="58" endPosition="84" />
-    <scopeInfo nodeId="1327612371813257748" fileName="ShortestPathEmbeddingFinder.java" startLine="75" startPosition="61" endLine="76" endPosition="132" />
-    <scopeInfo nodeId="1327612371813257779" fileName="ShortestPathEmbeddingFinder.java" startLine="80" startPosition="28" endLine="81" endPosition="60" />
+    <scopeInfo nodeId="1327612371813257635" fileName="ShortestPathEmbeddingFinder.java" startLine="54" startPosition="77" endLine="55" endPosition="78" />
+    <scopeInfo nodeId="1327612371813257748" fileName="ShortestPathEmbeddingFinder.java" startLine="64" startPosition="61" endLine="65" endPosition="132" />
+    <scopeInfo nodeId="1327612371813257779" fileName="ShortestPathEmbeddingFinder.java" startLine="69" startPosition="28" endLine="70" endPosition="60" />
     <scopeInfo nodeId="3720762119843733883" fileName="ShortestPathEmbeddingFinder.java" startLine="29" startPosition="23" endLine="31" endPosition="40" />
     <scopeInfo nodeId="3720762119843733908" fileName="ShortestPathEmbeddingFinder.java" startLine="38" startPosition="23" endLine="40" endPosition="32" />
     <scopeInfo nodeId="1327612371813257429" fileName="ShortestPathEmbeddingFinder.java" startLine="22" startPosition="0" endLine="25" endPosition="3">
@@ -305,28 +297,22 @@
     </scopeInfo>
     <scopeInfo nodeId="1327612371813257510" fileName="ShortestPathEmbeddingFinder.java" startLine="41" startPosition="5" endLine="44" endPosition="5" />
     <scopeInfo nodeId="1327612371813257841" fileName="ShortestPathEmbeddingFinder.java" startLine="44" startPosition="5" endLine="47" endPosition="5" />
-    <scopeInfo nodeId="1327612371813257648" fileName="ShortestPathEmbeddingFinder.java" startLine="56" startPosition="87" endLine="59" endPosition="9" />
-    <scopeInfo nodeId="1327612371813257649" fileName="ShortestPathEmbeddingFinder.java" startLine="56" startPosition="87" endLine="59" endPosition="9" />
-    <scopeInfo nodeId="1327612371813257541" fileName="ShortestPathEmbeddingFinder.java" startLine="33" startPosition="95" endLine="37" endPosition="0" />
-    <scopeInfo nodeId="1327612371813257642" fileName="ShortestPathEmbeddingFinder.java" startLine="55" startPosition="46" endLine="60" endPosition="7" />
-    <scopeInfo nodeId="1327612371813257795" fileName="ShortestPathEmbeddingFinder.java" startLine="86" startPosition="75" endLine="92" endPosition="99">
+    <scopeInfo nodeId="1327612371813257630" fileName="ShortestPathEmbeddingFinder.java" startLine="53" startPosition="71" endLine="56" endPosition="5" />
+    <scopeInfo nodeId="4422427343208761573" fileName="ShortestPathEmbeddingFinder.java" startLine="33" startPosition="95" endLine="37" endPosition="0" />
+    <scopeInfo nodeId="1327612371813257795" fileName="ShortestPathEmbeddingFinder.java" startLine="75" startPosition="75" endLine="81" endPosition="99">
       <varInfo nodeId="1327612371813258067" varName="newEdge" />
       <varInfo nodeId="1327612371813258080" varName="tempPath" />
       <varInfo nodeId="1327612371813258041" varName="start" />
       <varInfo nodeId="1327612371813258051" varName="end" />
     </scopeInfo>
-    <scopeInfo nodeId="1327612371813257635" fileName="ShortestPathEmbeddingFinder.java" startLine="54" startPosition="77" endLine="61" endPosition="58">
-      <varInfo nodeId="1327612371813257637" varName="newNode" />
-    </scopeInfo>
-    <scopeInfo nodeId="1327612371813257794" fileName="ShortestPathEmbeddingFinder.java" startLine="85" startPosition="116" endLine="93" endPosition="5">
+    <scopeInfo nodeId="1327612371813257794" fileName="ShortestPathEmbeddingFinder.java" startLine="74" startPosition="116" endLine="82" endPosition="5">
       <varInfo nodeId="1327612371813257813" varName="i" />
     </scopeInfo>
-    <scopeInfo nodeId="1327612371813257630" fileName="ShortestPathEmbeddingFinder.java" startLine="53" startPosition="71" endLine="62" endPosition="5" />
-    <scopeInfo nodeId="1327612371813257733" fileName="ShortestPathEmbeddingFinder.java" startLine="73" startPosition="51" endLine="82" endPosition="7">
+    <scopeInfo nodeId="1327612371813257733" fileName="ShortestPathEmbeddingFinder.java" startLine="62" startPosition="51" endLine="71" endPosition="7">
       <varInfo nodeId="1327612371813257768" varName="curFace" />
       <varInfo nodeId="1327612371813257735" varName="realEdge" />
     </scopeInfo>
-    <scopeInfo nodeId="1327612371813257730" fileName="ShortestPathEmbeddingFinder.java" startLine="72" startPosition="61" endLine="83" endPosition="5" />
+    <scopeInfo nodeId="1327612371813257730" fileName="ShortestPathEmbeddingFinder.java" startLine="61" startPosition="61" endLine="72" endPosition="5" />
     <scopeInfo nodeId="1327612371813257451" fileName="ShortestPathEmbeddingFinder.java" startLine="27" startPosition="42" endLine="48" endPosition="25">
       <varInfo nodeId="1327612371813257525" varName="toAdd" />
       <varInfo nodeId="1327612371813257458" varName="embeddedGraph" />
@@ -334,7 +320,7 @@
     <scopeInfo nodeId="1327612371813257446" fileName="ShortestPathEmbeddingFinder.java" startLine="26" startPosition="0" endLine="50" endPosition="0">
       <varInfo nodeId="1327612371813257449" varName="graph" />
     </scopeInfo>
-    <scopeInfo nodeId="1327612371813257607" fileName="ShortestPathEmbeddingFinder.java" startLine="51" startPosition="75" endLine="94" endPosition="57">
+    <scopeInfo nodeId="1327612371813257607" fileName="ShortestPathEmbeddingFinder.java" startLine="51" startPosition="75" endLine="83" endPosition="57">
       <varInfo nodeId="1327612371813257702" varName="nodePath" />
       <varInfo nodeId="1327612371813257689" varName="path" />
       <varInfo nodeId="1327612371813257725" varName="cur" />
@@ -343,12 +329,12 @@
       <varInfo nodeId="1327612371813257609" varName="dualGraph" />
       <varInfo nodeId="1327612371813257709" varName="facePath" />
     </scopeInfo>
-    <scopeInfo nodeId="1327612371813257600" fileName="ShortestPathEmbeddingFinder.java" startLine="50" startPosition="0" endLine="96" endPosition="0">
+    <scopeInfo nodeId="1327612371813257600" fileName="ShortestPathEmbeddingFinder.java" startLine="50" startPosition="0" endLine="85" endPosition="0">
       <varInfo nodeId="1327612371813257605" varName="removedEdge" />
       <varInfo nodeId="1327612371813257603" varName="embeddedGraph" />
     </scopeInfo>
-    <unitInfo nodeId="1327612371813257541" fileName="ShortestPathEmbeddingFinder.java" startLine="33" startPosition="73" endLine="37" endPosition="5" unitName="jetbrains.mps.graphLayout.planarization.ShortestPathEmbeddingFinder$1" />
-    <unitInfo nodeId="1327612371813257427" fileName="ShortestPathEmbeddingFinder.java" startLine="18" startPosition="0" endLine="97" endPosition="0" unitName="jetbrains.mps.graphLayout.planarization.ShortestPathEmbeddingFinder" />
+    <unitInfo nodeId="4422427343208761573" fileName="ShortestPathEmbeddingFinder.java" startLine="33" startPosition="73" endLine="37" endPosition="5" unitName="jetbrains.mps.graphLayout.planarization.ShortestPathEmbeddingFinder$1" />
+    <unitInfo nodeId="1327612371813257427" fileName="ShortestPathEmbeddingFinder.java" startLine="18" startPosition="0" endLine="86" endPosition="0" unitName="jetbrains.mps.graphLayout.planarization.ShortestPathEmbeddingFinder" />
   </root>
   <root nodeId="2899723422951321567">
     <nodeInfo nodeId="2899723422951321569" fileName="IEmbeddingFinder.java" startLine="8" startPosition="35" endLine="9" endPosition="41" />
@@ -1549,25 +1535,27 @@
     <nodeInfo nodeId="3495542515823086581" fileName="PQPlanarizationFinder.java" startLine="114" startPosition="14" endLine="115" endPosition="55" />
     <nodeInfo nodeId="3495542515822992634" fileName="PQPlanarizationFinder.java" startLine="117" startPosition="27" endLine="118" endPosition="38" />
     <nodeInfo nodeId="3495542515822992587" fileName="PQPlanarizationFinder.java" startLine="119" startPosition="75" endLine="120" endPosition="80" />
-    <nodeInfo nodeId="3495542515822992596" fileName="PQPlanarizationFinder.java" startLine="121" startPosition="9" endLine="122" endPosition="79" />
-    <nodeInfo nodeId="3495542515822992607" fileName="PQPlanarizationFinder.java" startLine="122" startPosition="79" endLine="123" endPosition="59" />
-    <nodeInfo nodeId="3495542515822992695" fileName="PQPlanarizationFinder.java" startLine="125" startPosition="33" endLine="126" endPosition="40" />
-    <nodeInfo nodeId="3495542515822992699" fileName="PQPlanarizationFinder.java" startLine="126" startPosition="40" endLine="127" endPosition="33" />
-    <nodeInfo nodeId="3495542515822992707" fileName="PQPlanarizationFinder.java" startLine="128" startPosition="14" endLine="129" endPosition="118" />
-    <nodeInfo nodeId="3495542515822992717" fileName="PQPlanarizationFinder.java" startLine="129" startPosition="118" endLine="130" endPosition="59" />
-    <nodeInfo nodeId="3495542515822992724" fileName="PQPlanarizationFinder.java" startLine="130" startPosition="59" endLine="131" endPosition="40" />
-    <nodeInfo nodeId="3495542515822992729" fileName="PQPlanarizationFinder.java" startLine="131" startPosition="40" endLine="132" endPosition="50" />
-    <nodeInfo nodeId="3495542515822992734" fileName="PQPlanarizationFinder.java" startLine="132" startPosition="50" endLine="133" endPosition="41" />
-    <nodeInfo nodeId="3495542515822992748" fileName="PQPlanarizationFinder.java" startLine="134" startPosition="90" endLine="135" endPosition="32" />
-    <nodeInfo nodeId="3495542515822992785" fileName="PQPlanarizationFinder.java" startLine="137" startPosition="100" endLine="138" endPosition="32" />
-    <nodeInfo nodeId="3495542515822992803" fileName="PQPlanarizationFinder.java" startLine="139" startPosition="9" endLine="140" endPosition="40" />
-    <nodeInfo nodeId="3495542515822992810" fileName="PQPlanarizationFinder.java" startLine="141" startPosition="22" endLine="142" endPosition="47" />
-    <nodeInfo nodeId="3495542515822992822" fileName="PQPlanarizationFinder.java" startLine="144" startPosition="81" endLine="145" endPosition="44" />
-    <nodeInfo nodeId="4644851485137262136" fileName="PQPlanarizationFinder.java" startLine="148" startPosition="5" endLine="149" endPosition="26" />
-    <nodeInfo nodeId="3495542515823090632" fileName="PQPlanarizationFinder.java" startLine="154" startPosition="35" endLine="155" endPosition="30" />
-    <nodeInfo nodeId="3495542515823090641" fileName="PQPlanarizationFinder.java" startLine="157" startPosition="24" endLine="158" endPosition="82" />
-    <nodeInfo nodeId="4644851485137283743" fileName="PQPlanarizationFinder.java" startLine="160" startPosition="68" endLine="161" endPosition="102" />
-    <nodeInfo nodeId="4644851485137283758" fileName="PQPlanarizationFinder.java" startLine="162" startPosition="5" endLine="163" endPosition="17" />
+    <nodeInfo nodeId="4422427343208822211" fileName="PQPlanarizationFinder.java" startLine="121" startPosition="9" endLine="122" endPosition="99" />
+    <nodeInfo nodeId="4422427343208822228" fileName="PQPlanarizationFinder.java" startLine="122" startPosition="99" endLine="123" endPosition="79" />
+    <nodeInfo nodeId="3495542515822992596" fileName="PQPlanarizationFinder.java" startLine="124" startPosition="10" endLine="125" endPosition="81" />
+    <nodeInfo nodeId="3495542515822992607" fileName="PQPlanarizationFinder.java" startLine="125" startPosition="81" endLine="126" endPosition="61" />
+    <nodeInfo nodeId="3495542515822992695" fileName="PQPlanarizationFinder.java" startLine="129" startPosition="33" endLine="130" endPosition="40" />
+    <nodeInfo nodeId="3495542515822992699" fileName="PQPlanarizationFinder.java" startLine="130" startPosition="40" endLine="131" endPosition="33" />
+    <nodeInfo nodeId="3495542515822992707" fileName="PQPlanarizationFinder.java" startLine="132" startPosition="14" endLine="133" endPosition="118" />
+    <nodeInfo nodeId="3495542515822992717" fileName="PQPlanarizationFinder.java" startLine="133" startPosition="118" endLine="134" endPosition="59" />
+    <nodeInfo nodeId="3495542515822992724" fileName="PQPlanarizationFinder.java" startLine="134" startPosition="59" endLine="135" endPosition="40" />
+    <nodeInfo nodeId="3495542515822992729" fileName="PQPlanarizationFinder.java" startLine="135" startPosition="40" endLine="136" endPosition="50" />
+    <nodeInfo nodeId="3495542515822992734" fileName="PQPlanarizationFinder.java" startLine="136" startPosition="50" endLine="137" endPosition="41" />
+    <nodeInfo nodeId="3495542515822992748" fileName="PQPlanarizationFinder.java" startLine="138" startPosition="90" endLine="139" endPosition="32" />
+    <nodeInfo nodeId="3495542515822992785" fileName="PQPlanarizationFinder.java" startLine="141" startPosition="100" endLine="142" endPosition="32" />
+    <nodeInfo nodeId="3495542515822992803" fileName="PQPlanarizationFinder.java" startLine="143" startPosition="9" endLine="144" endPosition="40" />
+    <nodeInfo nodeId="3495542515822992810" fileName="PQPlanarizationFinder.java" startLine="145" startPosition="22" endLine="146" endPosition="47" />
+    <nodeInfo nodeId="3495542515822992822" fileName="PQPlanarizationFinder.java" startLine="148" startPosition="81" endLine="149" endPosition="44" />
+    <nodeInfo nodeId="4644851485137262136" fileName="PQPlanarizationFinder.java" startLine="152" startPosition="5" endLine="153" endPosition="26" />
+    <nodeInfo nodeId="3495542515823090632" fileName="PQPlanarizationFinder.java" startLine="158" startPosition="35" endLine="159" endPosition="30" />
+    <nodeInfo nodeId="3495542515823090641" fileName="PQPlanarizationFinder.java" startLine="161" startPosition="24" endLine="162" endPosition="82" />
+    <nodeInfo nodeId="4644851485137283743" fileName="PQPlanarizationFinder.java" startLine="164" startPosition="68" endLine="165" endPosition="102" />
+    <nodeInfo nodeId="4644851485137283758" fileName="PQPlanarizationFinder.java" startLine="166" startPosition="5" endLine="167" endPosition="17" />
     <nodeInfo nodeId="4644851485137260286" fileName="PQPlanarizationFinder.java" startLine="28" startPosition="0" endLine="30" endPosition="3" />
     <nodeInfo nodeId="3495542515823086572" fileName="PQPlanarizationFinder.java" startLine="114" startPosition="12" endLine="116" endPosition="7" />
     <nodeInfo nodeId="4644851485137262078" fileName="PQPlanarizationFinder.java" startLine="43" startPosition="12" endLine="46" endPosition="7" />
@@ -1577,32 +1565,33 @@
     <nodeInfo nodeId="4644851485137277593" fileName="PQPlanarizationFinder.java" startLine="92" startPosition="42" endLine="95" endPosition="9" />
     <nodeInfo nodeId="529057043639384939" fileName="PQPlanarizationFinder.java" startLine="105" startPosition="25" endLine="108" endPosition="7" />
     <nodeInfo nodeId="3495542515822992615" fileName="PQPlanarizationFinder.java" startLine="118" startPosition="38" endLine="121" endPosition="9" />
-    <nodeInfo nodeId="3495542515822992740" fileName="PQPlanarizationFinder.java" startLine="133" startPosition="41" endLine="136" endPosition="9" />
-    <nodeInfo nodeId="3495542515822992777" fileName="PQPlanarizationFinder.java" startLine="136" startPosition="9" endLine="139" endPosition="9" />
-    <nodeInfo nodeId="3495542515822992808" fileName="PQPlanarizationFinder.java" startLine="140" startPosition="40" endLine="143" endPosition="9" />
-    <nodeInfo nodeId="3495542515822992816" fileName="PQPlanarizationFinder.java" startLine="143" startPosition="9" endLine="146" endPosition="9" />
-    <nodeInfo nodeId="4644851485137283689" fileName="PQPlanarizationFinder.java" startLine="159" startPosition="5" endLine="162" endPosition="5" />
+    <nodeInfo nodeId="3495542515822992740" fileName="PQPlanarizationFinder.java" startLine="137" startPosition="41" endLine="140" endPosition="9" />
+    <nodeInfo nodeId="3495542515822992777" fileName="PQPlanarizationFinder.java" startLine="140" startPosition="9" endLine="143" endPosition="9" />
+    <nodeInfo nodeId="3495542515822992808" fileName="PQPlanarizationFinder.java" startLine="144" startPosition="40" endLine="147" endPosition="9" />
+    <nodeInfo nodeId="3495542515822992816" fileName="PQPlanarizationFinder.java" startLine="147" startPosition="9" endLine="150" endPosition="9" />
+    <nodeInfo nodeId="4644851485137283689" fileName="PQPlanarizationFinder.java" startLine="163" startPosition="5" endLine="166" endPosition="5" />
     <nodeInfo nodeId="6191740939834475452" fileName="PQPlanarizationFinder.java" startLine="36" startPosition="83" endLine="40" endPosition="5" />
     <nodeInfo nodeId="4644851485137262226" fileName="PQPlanarizationFinder.java" startLine="75" startPosition="41" endLine="79" endPosition="11" />
     <nodeInfo nodeId="3495542515823096659" fileName="PQPlanarizationFinder.java" startLine="81" startPosition="7" endLine="85" endPosition="7" />
     <nodeInfo nodeId="3495542515822992488" fileName="PQPlanarizationFinder.java" startLine="97" startPosition="10" endLine="101" endPosition="5" />
-    <nodeInfo nodeId="3495542515823090630" fileName="PQPlanarizationFinder.java" startLine="153" startPosition="75" endLine="157" endPosition="0" />
+    <nodeInfo nodeId="4422427343208822241" fileName="PQPlanarizationFinder.java" startLine="123" startPosition="79" endLine="127" endPosition="10" />
+    <nodeInfo nodeId="3495542515823090630" fileName="PQPlanarizationFinder.java" startLine="157" startPosition="75" endLine="161" endPosition="0" />
     <nodeInfo nodeId="4644851485137262170" fileName="PQPlanarizationFinder.java" startLine="67" startPosition="87" endLine="72" endPosition="7" />
     <nodeInfo nodeId="3495542515823086569" fileName="PQPlanarizationFinder.java" startLine="111" startPosition="26" endLine="116" endPosition="7" />
     <nodeInfo nodeId="4644851485137262214" fileName="PQPlanarizationFinder.java" startLine="73" startPosition="67" endLine="80" endPosition="9" />
-    <nodeInfo nodeId="3495542515823090607" fileName="PQPlanarizationFinder.java" startLine="152" startPosition="63" endLine="159" endPosition="5" />
-    <nodeInfo nodeId="3495542515822992540" fileName="PQPlanarizationFinder.java" startLine="116" startPosition="7" endLine="124" endPosition="7" />
+    <nodeInfo nodeId="3495542515823090607" fileName="PQPlanarizationFinder.java" startLine="156" startPosition="63" endLine="163" endPosition="5" />
     <nodeInfo nodeId="4644851485137262196" fileName="PQPlanarizationFinder.java" startLine="72" startPosition="7" endLine="81" endPosition="7" />
     <nodeInfo nodeId="4644851485137277476" fileName="PQPlanarizationFinder.java" startLine="86" startPosition="135" endLine="96" endPosition="7" />
+    <nodeInfo nodeId="3495542515822992540" fileName="PQPlanarizationFinder.java" startLine="116" startPosition="7" endLine="128" endPosition="7" />
     <nodeInfo nodeId="4644851485137260391" fileName="PQPlanarizationFinder.java" startLine="43" startPosition="10" endLine="56" endPosition="5" />
-    <nodeInfo nodeId="4644851485137283674" fileName="PQPlanarizationFinder.java" startLine="151" startPosition="0" endLine="165" endPosition="0" />
+    <nodeInfo nodeId="4644851485137283674" fileName="PQPlanarizationFinder.java" startLine="155" startPosition="0" endLine="169" endPosition="0" />
     <nodeInfo nodeId="4644851485137260358" fileName="PQPlanarizationFinder.java" startLine="40" startPosition="5" endLine="56" endPosition="5" />
-    <nodeInfo nodeId="3495542515822992705" fileName="PQPlanarizationFinder.java" startLine="128" startPosition="12" endLine="147" endPosition="7" />
-    <nodeInfo nodeId="3495542515822992660" fileName="PQPlanarizationFinder.java" startLine="124" startPosition="7" endLine="147" endPosition="7" />
+    <nodeInfo nodeId="3495542515822992705" fileName="PQPlanarizationFinder.java" startLine="132" startPosition="12" endLine="151" endPosition="7" />
+    <nodeInfo nodeId="3495542515822992660" fileName="PQPlanarizationFinder.java" startLine="128" startPosition="7" endLine="151" endPosition="7" />
     <nodeInfo nodeId="4644851485137260291" fileName="PQPlanarizationFinder.java" startLine="31" startPosition="0" endLine="58" endPosition="0" />
     <nodeInfo nodeId="4644851485137283305" fileName="PQPlanarizationFinder.java" startLine="63" startPosition="71" endLine="101" endPosition="5" />
-    <nodeInfo nodeId="4644851485137277581" fileName="PQPlanarizationFinder.java" startLine="101" startPosition="5" endLine="148" endPosition="5" />
-    <nodeInfo nodeId="4644851485137262100" fileName="PQPlanarizationFinder.java" startLine="58" startPosition="0" endLine="151" endPosition="0" />
+    <nodeInfo nodeId="4644851485137277581" fileName="PQPlanarizationFinder.java" startLine="101" startPosition="5" endLine="152" endPosition="5" />
+    <nodeInfo nodeId="4644851485137262100" fileName="PQPlanarizationFinder.java" startLine="58" startPosition="0" endLine="155" endPosition="0" />
     <scopeInfo nodeId="4644851485137260289" fileName="PQPlanarizationFinder.java" startLine="29" startPosition="34" endLine="29" endPosition="34" />
     <scopeInfo nodeId="4644851485137260359" fileName="PQPlanarizationFinder.java" startLine="41" startPosition="52" endLine="42" endPosition="62" />
     <scopeInfo nodeId="4644851485137262081" fileName="PQPlanarizationFinder.java" startLine="44" startPosition="54" endLine="45" endPosition="31" />
@@ -1614,20 +1603,20 @@
     <scopeInfo nodeId="3495542515823086571" fileName="PQPlanarizationFinder.java" startLine="112" startPosition="73" endLine="113" endPosition="128" />
     <scopeInfo nodeId="3495542515823086573" fileName="PQPlanarizationFinder.java" startLine="114" startPosition="14" endLine="115" endPosition="55" />
     <scopeInfo nodeId="3495542515822992617" fileName="PQPlanarizationFinder.java" startLine="119" startPosition="75" endLine="120" endPosition="80" />
-    <scopeInfo nodeId="3495542515822992747" fileName="PQPlanarizationFinder.java" startLine="134" startPosition="90" endLine="135" endPosition="32" />
-    <scopeInfo nodeId="3495542515822992784" fileName="PQPlanarizationFinder.java" startLine="137" startPosition="100" endLine="138" endPosition="32" />
-    <scopeInfo nodeId="3495542515822992809" fileName="PQPlanarizationFinder.java" startLine="141" startPosition="22" endLine="142" endPosition="47" />
-    <scopeInfo nodeId="3495542515822992821" fileName="PQPlanarizationFinder.java" startLine="144" startPosition="81" endLine="145" endPosition="44" />
-    <scopeInfo nodeId="3495542515823090631" fileName="PQPlanarizationFinder.java" startLine="154" startPosition="35" endLine="155" endPosition="30" />
-    <scopeInfo nodeId="3495542515823090608" fileName="PQPlanarizationFinder.java" startLine="157" startPosition="24" endLine="158" endPosition="82" />
-    <scopeInfo nodeId="4644851485137283691" fileName="PQPlanarizationFinder.java" startLine="160" startPosition="68" endLine="161" endPosition="102" />
+    <scopeInfo nodeId="3495542515822992747" fileName="PQPlanarizationFinder.java" startLine="138" startPosition="90" endLine="139" endPosition="32" />
+    <scopeInfo nodeId="3495542515822992784" fileName="PQPlanarizationFinder.java" startLine="141" startPosition="100" endLine="142" endPosition="32" />
+    <scopeInfo nodeId="3495542515822992809" fileName="PQPlanarizationFinder.java" startLine="145" startPosition="22" endLine="146" endPosition="47" />
+    <scopeInfo nodeId="3495542515822992821" fileName="PQPlanarizationFinder.java" startLine="148" startPosition="81" endLine="149" endPosition="44" />
+    <scopeInfo nodeId="3495542515823090631" fileName="PQPlanarizationFinder.java" startLine="158" startPosition="35" endLine="159" endPosition="30" />
+    <scopeInfo nodeId="3495542515823090608" fileName="PQPlanarizationFinder.java" startLine="161" startPosition="24" endLine="162" endPosition="82" />
+    <scopeInfo nodeId="4644851485137283691" fileName="PQPlanarizationFinder.java" startLine="164" startPosition="68" endLine="165" endPosition="102" />
     <scopeInfo nodeId="4644851485137260286" fileName="PQPlanarizationFinder.java" startLine="28" startPosition="0" endLine="30" endPosition="3" />
     <scopeInfo nodeId="6191740939834475454" fileName="PQPlanarizationFinder.java" startLine="37" startPosition="23" endLine="39" endPosition="34" />
     <scopeInfo nodeId="4644851485137262228" fileName="PQPlanarizationFinder.java" startLine="76" startPosition="60" endLine="78" endPosition="68">
       <varInfo nodeId="4644851485137274578" varName="newEdge" />
     </scopeInfo>
     <scopeInfo nodeId="3495542515823096661" fileName="PQPlanarizationFinder.java" startLine="82" startPosition="25" endLine="84" endPosition="46" />
-    <scopeInfo nodeId="3495542515822992661" fileName="PQPlanarizationFinder.java" startLine="125" startPosition="33" endLine="127" endPosition="33" />
+    <scopeInfo nodeId="3495542515822992661" fileName="PQPlanarizationFinder.java" startLine="129" startPosition="33" endLine="131" endPosition="33" />
     <scopeInfo nodeId="4644851485137262078" fileName="PQPlanarizationFinder.java" startLine="43" startPosition="12" endLine="46" endPosition="7" />
     <scopeInfo nodeId="4644851485137262120" fileName="PQPlanarizationFinder.java" startLine="51" startPosition="58" endLine="54" endPosition="7" />
     <scopeInfo nodeId="4644851485137262173" fileName="PQPlanarizationFinder.java" startLine="68" startPosition="52" endLine="71" endPosition="70">
@@ -1637,15 +1626,14 @@
     <scopeInfo nodeId="3495542515822992489" fileName="PQPlanarizationFinder.java" startLine="97" startPosition="12" endLine="100" endPosition="44">
       <varInfo nodeId="3495542515822992501" varName="fakeFace" />
     </scopeInfo>
-    <scopeInfo nodeId="3495542515822992740" fileName="PQPlanarizationFinder.java" startLine="133" startPosition="41" endLine="136" endPosition="9" />
-    <scopeInfo nodeId="3495542515822992777" fileName="PQPlanarizationFinder.java" startLine="136" startPosition="9" endLine="139" endPosition="9" />
-    <scopeInfo nodeId="3495542515822992816" fileName="PQPlanarizationFinder.java" startLine="143" startPosition="9" endLine="146" endPosition="9" />
-    <scopeInfo nodeId="3495542515823090630" fileName="PQPlanarizationFinder.java" startLine="153" startPosition="75" endLine="157" endPosition="0" />
+    <scopeInfo nodeId="3495542515822992740" fileName="PQPlanarizationFinder.java" startLine="137" startPosition="41" endLine="140" endPosition="9" />
+    <scopeInfo nodeId="3495542515822992777" fileName="PQPlanarizationFinder.java" startLine="140" startPosition="9" endLine="143" endPosition="9" />
+    <scopeInfo nodeId="3495542515822992816" fileName="PQPlanarizationFinder.java" startLine="147" startPosition="9" endLine="150" endPosition="9" />
+    <scopeInfo nodeId="3495542515823090630" fileName="PQPlanarizationFinder.java" startLine="157" startPosition="75" endLine="161" endPosition="0" />
     <scopeInfo nodeId="4644851485137262170" fileName="PQPlanarizationFinder.java" startLine="67" startPosition="87" endLine="72" endPosition="7" />
     <scopeInfo nodeId="4644851485137262217" fileName="PQPlanarizationFinder.java" startLine="74" startPosition="86" endLine="79" endPosition="11">
       <varInfo nodeId="4644851485137262258" varName="target" />
     </scopeInfo>
-    <scopeInfo nodeId="3495542515822992541" fileName="PQPlanarizationFinder.java" startLine="117" startPosition="27" endLine="123" endPosition="59" />
     <scopeInfo nodeId="4644851485137262199" fileName="PQPlanarizationFinder.java" startLine="73" startPosition="67" endLine="80" endPosition="9" />
     <scopeInfo nodeId="4644851485137262214" fileName="PQPlanarizationFinder.java" startLine="73" startPosition="67" endLine="80" endPosition="9" />
     <scopeInfo nodeId="4644851485137277479" fileName="PQPlanarizationFinder.java" startLine="87" startPosition="87" endLine="95" endPosition="9">
@@ -1653,16 +1641,17 @@
     </scopeInfo>
     <scopeInfo nodeId="4644851485137262196" fileName="PQPlanarizationFinder.java" startLine="72" startPosition="7" endLine="81" endPosition="7" />
     <scopeInfo nodeId="4644851485137277476" fileName="PQPlanarizationFinder.java" startLine="86" startPosition="135" endLine="96" endPosition="7" />
-    <scopeInfo nodeId="4644851485137283677" fileName="PQPlanarizationFinder.java" startLine="152" startPosition="63" endLine="163" endPosition="17" />
+    <scopeInfo nodeId="3495542515822992541" fileName="PQPlanarizationFinder.java" startLine="117" startPosition="27" endLine="127" endPosition="10" />
+    <scopeInfo nodeId="4644851485137283677" fileName="PQPlanarizationFinder.java" startLine="156" startPosition="63" endLine="167" endPosition="17" />
     <scopeInfo nodeId="4644851485137260392" fileName="PQPlanarizationFinder.java" startLine="43" startPosition="12" endLine="55" endPosition="27">
       <varInfo nodeId="4644851485137262071" varName="tree" />
       <varInfo nodeId="4644851485137262113" varName="embeddedGraph" />
     </scopeInfo>
-    <scopeInfo nodeId="4644851485137283674" fileName="PQPlanarizationFinder.java" startLine="151" startPosition="0" endLine="165" endPosition="0">
+    <scopeInfo nodeId="4644851485137283674" fileName="PQPlanarizationFinder.java" startLine="155" startPosition="0" endLine="169" endPosition="0">
       <varInfo nodeId="4644851485137283682" varName="darts" />
       <varInfo nodeId="4644851485137283686" varName="end" />
     </scopeInfo>
-    <scopeInfo nodeId="3495542515822992706" fileName="PQPlanarizationFinder.java" startLine="128" startPosition="14" endLine="146" endPosition="9">
+    <scopeInfo nodeId="3495542515822992706" fileName="PQPlanarizationFinder.java" startLine="132" startPosition="14" endLine="150" endPosition="9">
       <varInfo nodeId="3495542515822992708" varName="face" />
       <varInfo nodeId="3495542515822992735" varName="newFace" />
       <varInfo nodeId="3495542515822992718" varName="isOuter" />
@@ -1680,7 +1669,7 @@
       <varInfo nodeId="4644851485137274603" varName="componentEmbedding" />
       <varInfo nodeId="4644851485137283339" varName="invertedNodeMap" />
     </scopeInfo>
-    <scopeInfo nodeId="4644851485137277584" fileName="PQPlanarizationFinder.java" startLine="102" startPosition="87" endLine="147" endPosition="7">
+    <scopeInfo nodeId="4644851485137277584" fileName="PQPlanarizationFinder.java" startLine="102" startPosition="87" endLine="151" endPosition="7">
       <varInfo nodeId="3495542515823082516" varName="outerChildFace" />
       <varInfo nodeId="4644851485137283422" varName="connection" />
       <varInfo nodeId="529057043639384921" varName="childCutpoint" />
@@ -1688,267 +1677,267 @@
       <varInfo nodeId="529057043639384907" varName="cutpoint" />
       <varInfo nodeId="529057043639384933" varName="bridge" />
     </scopeInfo>
-    <scopeInfo nodeId="4644851485137277581" fileName="PQPlanarizationFinder.java" startLine="101" startPosition="5" endLine="148" endPosition="5" />
-    <scopeInfo nodeId="4644851485137262103" fileName="PQPlanarizationFinder.java" startLine="59" startPosition="73" endLine="149" endPosition="26">
+    <scopeInfo nodeId="4644851485137277581" fileName="PQPlanarizationFinder.java" startLine="101" startPosition="5" endLine="152" endPosition="5" />
+    <scopeInfo nodeId="4644851485137262103" fileName="PQPlanarizationFinder.java" startLine="59" startPosition="73" endLine="153" endPosition="26">
       <varInfo nodeId="4644851485137283326" varName="graphEmbedding" />
       <varInfo nodeId="4644851485137262207" varName="nodes" />
       <varInfo nodeId="4644851485137283387" varName="manyNodeComponent" />
       <varInfo nodeId="4644851485137262151" varName="componentGraph" />
     </scopeInfo>
-    <scopeInfo nodeId="4644851485137262100" fileName="PQPlanarizationFinder.java" startLine="58" startPosition="0" endLine="151" endPosition="0">
+    <scopeInfo nodeId="4644851485137262100" fileName="PQPlanarizationFinder.java" startLine="58" startPosition="0" endLine="155" endPosition="0">
       <varInfo nodeId="4644851485137262105" varName="component" />
     </scopeInfo>
-    <unitInfo nodeId="3495542515823090630" fileName="PQPlanarizationFinder.java" startLine="153" startPosition="50" endLine="157" endPosition="5" unitName="jetbrains.mps.graphLayout.planarization.PQPlanarizationFinder$1" />
-    <unitInfo nodeId="4644851485137260284" fileName="PQPlanarizationFinder.java" startLine="23" startPosition="0" endLine="166" endPosition="0" unitName="jetbrains.mps.graphLayout.planarization.PQPlanarizationFinder" />
+    <unitInfo nodeId="3495542515823090630" fileName="PQPlanarizationFinder.java" startLine="157" startPosition="50" endLine="161" endPosition="5" unitName="jetbrains.mps.graphLayout.planarization.PQPlanarizationFinder$1" />
+    <unitInfo nodeId="4644851485137260284" fileName="PQPlanarizationFinder.java" startLine="23" startPosition="0" endLine="170" endPosition="0" unitName="jetbrains.mps.graphLayout.planarization.PQPlanarizationFinder" />
   </root>
   <root nodeId="516638300680465086">
-    <nodeInfo nodeId="5709109565604324397" fileName="PQPlanarityTest.java" startLine="24" startPosition="30" endLine="25" endPosition="34" />
-    <nodeInfo nodeId="4644851485137255665" fileName="PQPlanarityTest.java" startLine="26" startPosition="0" endLine="27" endPosition="24" />
-    <nodeInfo nodeId="8327149575965782000" fileName="PQPlanarityTest.java" startLine="27" startPosition="24" endLine="28" endPosition="45" />
-    <nodeInfo nodeId="3021256511735233145" fileName="PQPlanarityTest.java" startLine="33" startPosition="88" endLine="34" endPosition="50" />
-    <nodeInfo nodeId="4644851485137255506" fileName="PQPlanarityTest.java" startLine="34" startPosition="50" endLine="35" endPosition="65" />
-    <nodeInfo nodeId="4644851485137255294" fileName="PQPlanarityTest.java" startLine="36" startPosition="23" endLine="37" endPosition="46" />
-    <nodeInfo nodeId="4644851485137255301" fileName="PQPlanarityTest.java" startLine="37" startPosition="46" endLine="38" endPosition="38" />
-    <nodeInfo nodeId="4644851485137255310" fileName="PQPlanarityTest.java" startLine="39" startPosition="5" endLine="40" endPosition="53" />
-    <nodeInfo nodeId="4644851485137255327" fileName="PQPlanarityTest.java" startLine="41" startPosition="63" endLine="42" endPosition="67" />
-    <nodeInfo nodeId="4644851485137255669" fileName="PQPlanarityTest.java" startLine="43" startPosition="5" endLine="44" endPosition="26" />
-    <nodeInfo nodeId="4644851485137255340" fileName="PQPlanarityTest.java" startLine="44" startPosition="26" endLine="45" endPosition="53" />
-    <nodeInfo nodeId="4644851485137255349" fileName="PQPlanarityTest.java" startLine="45" startPosition="53" endLine="46" endPosition="30" />
-    <nodeInfo nodeId="4644851485137255356" fileName="PQPlanarityTest.java" startLine="47" startPosition="52" endLine="48" endPosition="39" />
-    <nodeInfo nodeId="4644851485137255367" fileName="PQPlanarityTest.java" startLine="49" startPosition="75" endLine="50" endPosition="55" />
-    <nodeInfo nodeId="4644851485137255376" fileName="PQPlanarityTest.java" startLine="50" startPosition="55" endLine="51" endPosition="37" />
-    <nodeInfo nodeId="4644851485137255384" fileName="PQPlanarityTest.java" startLine="52" startPosition="7" endLine="53" endPosition="44" />
-    <nodeInfo nodeId="4644851485137255397" fileName="PQPlanarityTest.java" startLine="54" startPosition="25" endLine="55" endPosition="35" />
-    <nodeInfo nodeId="4644851485137255402" fileName="PQPlanarityTest.java" startLine="55" startPosition="35" endLine="56" endPosition="61" />
-    <nodeInfo nodeId="4644851485137255409" fileName="PQPlanarityTest.java" startLine="57" startPosition="7" endLine="58" endPosition="51" />
-    <nodeInfo nodeId="4644851485137255524" fileName="PQPlanarityTest.java" startLine="58" startPosition="51" endLine="59" endPosition="44" />
-    <nodeInfo nodeId="3021256511735310272" fileName="PQPlanarityTest.java" startLine="59" startPosition="44" endLine="60" endPosition="32" />
-    <nodeInfo nodeId="8327149575965782053" fileName="PQPlanarityTest.java" startLine="61" startPosition="36" endLine="62" endPosition="89" />
-    <nodeInfo nodeId="8327149575965782019" fileName="PQPlanarityTest.java" startLine="63" startPosition="14" endLine="64" endPosition="109" />
-    <nodeInfo nodeId="3021256511735301043" fileName="PQPlanarityTest.java" startLine="65" startPosition="7" endLine="66" endPosition="70" />
-    <nodeInfo nodeId="3021256511735301050" fileName="PQPlanarityTest.java" startLine="66" startPosition="70" endLine="67" endPosition="118" />
-    <nodeInfo nodeId="3021256511735301058" fileName="PQPlanarityTest.java" startLine="67" startPosition="118" endLine="68" endPosition="92" />
-    <nodeInfo nodeId="3021256511735301065" fileName="PQPlanarityTest.java" startLine="68" startPosition="92" endLine="69" endPosition="80" />
-    <nodeInfo nodeId="4644851485137255429" fileName="PQPlanarityTest.java" startLine="70" startPosition="5" endLine="71" endPosition="111" />
-    <nodeInfo nodeId="3021256511735310292" fileName="PQPlanarityTest.java" startLine="72" startPosition="63" endLine="73" endPosition="79" />
-    <nodeInfo nodeId="4644851485137255446" fileName="PQPlanarityTest.java" startLine="75" startPosition="23" endLine="76" endPosition="33" />
-    <nodeInfo nodeId="4644851485137255453" fileName="PQPlanarityTest.java" startLine="77" startPosition="55" endLine="78" endPosition="33" />
-    <nodeInfo nodeId="4644851485137255459" fileName="PQPlanarityTest.java" startLine="78" startPosition="33" endLine="79" endPosition="47" />
-    <nodeInfo nodeId="4644851485137255468" fileName="PQPlanarityTest.java" startLine="79" startPosition="47" endLine="80" endPosition="70" />
-    <nodeInfo nodeId="4644851485137255478" fileName="PQPlanarityTest.java" startLine="80" startPosition="70" endLine="81" endPosition="74" />
-    <nodeInfo nodeId="4644851485137255730" fileName="PQPlanarityTest.java" startLine="82" startPosition="7" endLine="83" endPosition="44" />
-    <nodeInfo nodeId="4644851485137255739" fileName="PQPlanarityTest.java" startLine="83" startPosition="44" endLine="84" endPosition="34" />
-    <nodeInfo nodeId="4644851485137255649" fileName="PQPlanarityTest.java" startLine="85" startPosition="5" endLine="86" endPosition="19" />
-    <nodeInfo nodeId="3021256511735307053" fileName="PQPlanarityTest.java" startLine="90" startPosition="23" endLine="91" endPosition="58" />
-    <nodeInfo nodeId="3021256511735305024" fileName="PQPlanarityTest.java" startLine="92" startPosition="5" endLine="93" endPosition="65" />
-    <nodeInfo nodeId="3021256511735305051" fileName="PQPlanarityTest.java" startLine="94" startPosition="49" endLine="95" endPosition="90" />
-    <nodeInfo nodeId="4644851485137255684" fileName="PQPlanarityTest.java" startLine="96" startPosition="5" endLine="97" endPosition="111" />
-    <nodeInfo nodeId="4644851485137255702" fileName="PQPlanarityTest.java" startLine="97" startPosition="111" endLine="98" endPosition="53" />
-    <nodeInfo nodeId="4644851485137255719" fileName="PQPlanarityTest.java" startLine="99" startPosition="63" endLine="100" endPosition="67" />
-    <nodeInfo nodeId="5709109565604328095" fileName="PQPlanarityTest.java" startLine="101" startPosition="5" endLine="102" endPosition="32" />
-    <nodeInfo nodeId="3021256511735177565" fileName="PQPlanarityTest.java" startLine="103" startPosition="6" endLine="104" endPosition="82" />
-    <nodeInfo nodeId="3021256511735177570" fileName="PQPlanarityTest.java" startLine="105" startPosition="6" endLine="106" endPosition="84" />
-    <nodeInfo nodeId="860462848750219899" fileName="PQPlanarityTest.java" startLine="107" startPosition="23" endLine="108" endPosition="40" />
-    <nodeInfo nodeId="860462848750178530" fileName="PQPlanarityTest.java" startLine="109" startPosition="5" endLine="110" endPosition="25" />
-    <nodeInfo nodeId="5709109565604293317" fileName="PQPlanarityTest.java" startLine="113" startPosition="97" endLine="114" endPosition="59" />
-    <nodeInfo nodeId="5709109565604304477" fileName="PQPlanarityTest.java" startLine="114" startPosition="59" endLine="115" endPosition="56" />
-    <nodeInfo nodeId="5709109565604293331" fileName="PQPlanarityTest.java" startLine="115" startPosition="56" endLine="116" endPosition="116" />
-    <nodeInfo nodeId="5709109565604293484" fileName="PQPlanarityTest.java" startLine="116" startPosition="116" endLine="117" endPosition="37" />
-    <nodeInfo nodeId="5709109565604293493" fileName="PQPlanarityTest.java" startLine="117" startPosition="37" endLine="118" endPosition="42" />
-    <nodeInfo nodeId="5709109565604293540" fileName="PQPlanarityTest.java" startLine="119" startPosition="71" endLine="120" endPosition="93" />
-    <nodeInfo nodeId="5709109565604293592" fileName="PQPlanarityTest.java" startLine="120" startPosition="93" endLine="121" endPosition="43" />
-    <nodeInfo nodeId="5709109565604293580" fileName="PQPlanarityTest.java" startLine="122" startPosition="33" endLine="123" endPosition="35" />
-    <nodeInfo nodeId="6191740939834529517" fileName="PQPlanarityTest.java" startLine="124" startPosition="32" endLine="125" endPosition="73" />
-    <nodeInfo nodeId="5709109565604293325" fileName="PQPlanarityTest.java" startLine="128" startPosition="5" endLine="129" endPosition="25" />
-    <nodeInfo nodeId="3021256511735245093" fileName="PQPlanarityTest.java" startLine="133" startPosition="23" endLine="134" endPosition="54" />
-    <nodeInfo nodeId="3021256511735245102" fileName="PQPlanarityTest.java" startLine="134" startPosition="54" endLine="135" endPosition="39" />
-    <nodeInfo nodeId="3021256511735167865" fileName="PQPlanarityTest.java" startLine="136" startPosition="5" endLine="137" endPosition="68" />
-    <nodeInfo nodeId="3021256511735168065" fileName="PQPlanarityTest.java" startLine="137" startPosition="68" endLine="138" endPosition="68" />
-    <nodeInfo nodeId="3021256511735167848" fileName="PQPlanarityTest.java" startLine="138" startPosition="68" endLine="139" endPosition="59" />
-    <nodeInfo nodeId="3021256511735167858" fileName="PQPlanarityTest.java" startLine="139" startPosition="59" endLine="140" endPosition="37" />
-    <nodeInfo nodeId="3021256511735235130" fileName="PQPlanarityTest.java" startLine="140" startPosition="37" endLine="141" endPosition="37" />
-    <nodeInfo nodeId="3021256511735167881" fileName="PQPlanarityTest.java" startLine="141" startPosition="37" endLine="142" endPosition="58" />
-    <nodeInfo nodeId="3021256511735167894" fileName="PQPlanarityTest.java" startLine="142" startPosition="58" endLine="143" endPosition="56" />
-    <nodeInfo nodeId="3021256511735167907" fileName="PQPlanarityTest.java" startLine="143" startPosition="56" endLine="144" endPosition="20" />
-    <nodeInfo nodeId="3021256511735168008" fileName="PQPlanarityTest.java" startLine="145" startPosition="26" endLine="146" endPosition="54" />
-    <nodeInfo nodeId="3021256511735167929" fileName="PQPlanarityTest.java" startLine="146" startPosition="54" endLine="147" endPosition="95" />
-    <nodeInfo nodeId="3021256511735235150" fileName="PQPlanarityTest.java" startLine="147" startPosition="95" endLine="148" endPosition="43" />
-    <nodeInfo nodeId="3021256511735167944" fileName="PQPlanarityTest.java" startLine="148" startPosition="43" endLine="149" endPosition="50" />
-    <nodeInfo nodeId="3021256511735235138" fileName="PQPlanarityTest.java" startLine="149" startPosition="50" endLine="150" endPosition="48" />
-    <nodeInfo nodeId="3021256511735168076" fileName="PQPlanarityTest.java" startLine="150" startPosition="48" endLine="151" endPosition="58" />
-    <nodeInfo nodeId="3021256511735235159" fileName="PQPlanarityTest.java" startLine="151" startPosition="58" endLine="152" endPosition="17" />
-    <nodeInfo nodeId="3021256511735168022" fileName="PQPlanarityTest.java" startLine="153" startPosition="5" endLine="154" endPosition="54" />
-    <nodeInfo nodeId="3021256511735167971" fileName="PQPlanarityTest.java" startLine="154" startPosition="54" endLine="155" endPosition="15" />
-    <nodeInfo nodeId="3021256511735168041" fileName="PQPlanarityTest.java" startLine="156" startPosition="26" endLine="157" endPosition="54" />
-    <nodeInfo nodeId="3021256511735167984" fileName="PQPlanarityTest.java" startLine="157" startPosition="54" endLine="158" endPosition="94" />
-    <nodeInfo nodeId="3021256511735235167" fileName="PQPlanarityTest.java" startLine="158" startPosition="94" endLine="159" endPosition="43" />
-    <nodeInfo nodeId="3021256511735167999" fileName="PQPlanarityTest.java" startLine="159" startPosition="43" endLine="160" endPosition="48" />
-    <nodeInfo nodeId="3021256511735235182" fileName="PQPlanarityTest.java" startLine="160" startPosition="48" endLine="161" endPosition="50" />
-    <nodeInfo nodeId="3021256511735168086" fileName="PQPlanarityTest.java" startLine="161" startPosition="50" endLine="162" endPosition="58" />
-    <nodeInfo nodeId="3021256511735235177" fileName="PQPlanarityTest.java" startLine="162" startPosition="58" endLine="163" endPosition="17" />
-    <nodeInfo nodeId="3021256511735168047" fileName="PQPlanarityTest.java" startLine="164" startPosition="5" endLine="165" endPosition="37" />
-    <nodeInfo nodeId="3021256511735168056" fileName="PQPlanarityTest.java" startLine="165" startPosition="37" endLine="166" endPosition="42" />
-    <nodeInfo nodeId="3021256511735237159" fileName="PQPlanarityTest.java" startLine="166" startPosition="42" endLine="167" endPosition="37" />
-    <nodeInfo nodeId="3021256511735247084" fileName="PQPlanarityTest.java" startLine="168" startPosition="23" endLine="169" endPosition="40" />
-    <nodeInfo nodeId="3021256511735175543" fileName="PQPlanarityTest.java" startLine="171" startPosition="71" endLine="172" endPosition="23" />
-    <nodeInfo nodeId="3021256511735252150" fileName="PQPlanarityTest.java" startLine="174" startPosition="61" endLine="175" endPosition="22" />
-    <nodeInfo nodeId="3021256511735168129" fileName="PQPlanarityTest.java" startLine="175" startPosition="22" endLine="176" endPosition="19" />
-    <nodeInfo nodeId="3021256511735168156" fileName="PQPlanarityTest.java" startLine="177" startPosition="9" endLine="178" endPosition="72" />
-    <nodeInfo nodeId="3021256511735168166" fileName="PQPlanarityTest.java" startLine="178" startPosition="72" endLine="179" endPosition="53" />
-    <nodeInfo nodeId="3021256511735168178" fileName="PQPlanarityTest.java" startLine="179" startPosition="53" endLine="180" endPosition="31" />
-    <nodeInfo nodeId="3021256511735241129" fileName="PQPlanarityTest.java" startLine="181" startPosition="66" endLine="182" endPosition="58" />
-    <nodeInfo nodeId="3021256511735168208" fileName="PQPlanarityTest.java" startLine="182" startPosition="58" endLine="183" endPosition="100" />
-    <nodeInfo nodeId="3021256511735168233" fileName="PQPlanarityTest.java" startLine="183" startPosition="100" endLine="184" endPosition="65" />
-    <nodeInfo nodeId="3021256511735168227" fileName="PQPlanarityTest.java" startLine="184" startPosition="65" endLine="185" endPosition="37" />
-    <nodeInfo nodeId="3021256511735247090" fileName="PQPlanarityTest.java" startLine="187" startPosition="27" endLine="188" endPosition="53" />
-    <nodeInfo nodeId="3021256511735168152" fileName="PQPlanarityTest.java" startLine="189" startPosition="9" endLine="190" endPosition="28" />
-    <nodeInfo nodeId="3021256511735168249" fileName="PQPlanarityTest.java" startLine="191" startPosition="97" endLine="192" endPosition="133" />
-    <nodeInfo nodeId="3021256511735175528" fileName="PQPlanarityTest.java" startLine="193" startPosition="16" endLine="194" endPosition="65" />
-    <nodeInfo nodeId="3021256511735247103" fileName="PQPlanarityTest.java" startLine="196" startPosition="27" endLine="197" endPosition="59" />
-    <nodeInfo nodeId="3021256511735175564" fileName="PQPlanarityTest.java" startLine="198" startPosition="9" endLine="199" endPosition="109" />
-    <nodeInfo nodeId="3021256511735241109" fileName="PQPlanarityTest.java" startLine="199" startPosition="109" endLine="200" endPosition="81" />
-    <nodeInfo nodeId="3021256511735175549" fileName="PQPlanarityTest.java" startLine="200" startPosition="81" endLine="201" endPosition="20" />
-    <nodeInfo nodeId="3021256511735247116" fileName="PQPlanarityTest.java" startLine="202" startPosition="27" endLine="203" endPosition="44" />
-    <nodeInfo nodeId="3021256511735167872" fileName="PQPlanarityTest.java" startLine="206" startPosition="5" endLine="207" endPosition="25" />
-    <nodeInfo nodeId="516638300680465088" fileName="PQPlanarityTest.java" startLine="29" startPosition="0" endLine="31" endPosition="3" />
-    <nodeInfo nodeId="8327149575965782017" fileName="PQPlanarityTest.java" startLine="63" startPosition="12" endLine="65" endPosition="7" />
-    <nodeInfo nodeId="3021256511735175526" fileName="PQPlanarityTest.java" startLine="193" startPosition="14" endLine="195" endPosition="9" />
-    <nodeInfo nodeId="4644851485137255321" fileName="PQPlanarityTest.java" startLine="40" startPosition="53" endLine="43" endPosition="5" />
-    <nodeInfo nodeId="3021256511735310282" fileName="PQPlanarityTest.java" startLine="71" startPosition="111" endLine="74" endPosition="5" />
-    <nodeInfo nodeId="3021256511735307044" fileName="PQPlanarityTest.java" startLine="89" startPosition="82" endLine="92" endPosition="5" />
-    <nodeInfo nodeId="3021256511735305032" fileName="PQPlanarityTest.java" startLine="93" startPosition="65" endLine="96" endPosition="5" />
-    <nodeInfo nodeId="4644851485137255713" fileName="PQPlanarityTest.java" startLine="98" startPosition="53" endLine="101" endPosition="5" />
-    <nodeInfo nodeId="3021256511735177568" fileName="PQPlanarityTest.java" startLine="102" startPosition="32" endLine="105" endPosition="6" />
-    <nodeInfo nodeId="5709109565604328036" fileName="PQPlanarityTest.java" startLine="106" startPosition="84" endLine="109" endPosition="5" />
-    <nodeInfo nodeId="6191740939834529507" fileName="PQPlanarityTest.java" startLine="123" startPosition="35" endLine="126" endPosition="9" />
-    <nodeInfo nodeId="3021256511735327274" fileName="PQPlanarityTest.java" startLine="167" startPosition="37" endLine="170" endPosition="5" />
-    <nodeInfo nodeId="3021256511735327282" fileName="PQPlanarityTest.java" startLine="186" startPosition="9" endLine="189" endPosition="9" />
-    <nodeInfo nodeId="3021256511735327289" fileName="PQPlanarityTest.java" startLine="195" startPosition="9" endLine="198" endPosition="9" />
-    <nodeInfo nodeId="3021256511735327296" fileName="PQPlanarityTest.java" startLine="201" startPosition="20" endLine="204" endPosition="9" />
-    <nodeInfo nodeId="4644851485137255292" fileName="PQPlanarityTest.java" startLine="35" startPosition="65" endLine="39" endPosition="5" />
-    <nodeInfo nodeId="4644851485137255364" fileName="PQPlanarityTest.java" startLine="48" startPosition="39" endLine="52" endPosition="7" />
-    <nodeInfo nodeId="4644851485137255392" fileName="PQPlanarityTest.java" startLine="53" startPosition="44" endLine="57" endPosition="7" />
-    <nodeInfo nodeId="3495542515823098683" fileName="PQPlanarityTest.java" startLine="132" startPosition="90" endLine="136" endPosition="5" />
-    <nodeInfo nodeId="3021256511735168117" fileName="PQPlanarityTest.java" startLine="173" startPosition="92" endLine="177" endPosition="9" />
-    <nodeInfo nodeId="4644851485137255536" fileName="PQPlanarityTest.java" startLine="60" startPosition="32" endLine="65" endPosition="7" />
-    <nodeInfo nodeId="3021256511735168131" fileName="PQPlanarityTest.java" startLine="190" startPosition="28" endLine="195" endPosition="9" />
-    <nodeInfo nodeId="4644851485137255451" fileName="PQPlanarityTest.java" startLine="76" startPosition="33" endLine="82" endPosition="7" />
-    <nodeInfo nodeId="5709109565604293569" fileName="PQPlanarityTest.java" startLine="121" startPosition="43" endLine="127" endPosition="7" />
-    <nodeInfo nodeId="3021256511735168190" fileName="PQPlanarityTest.java" startLine="180" startPosition="31" endLine="186" endPosition="9" />
-    <nodeInfo nodeId="3021256511735167919" fileName="PQPlanarityTest.java" startLine="144" startPosition="20" endLine="153" endPosition="5" />
-    <nodeInfo nodeId="3021256511735167979" fileName="PQPlanarityTest.java" startLine="155" startPosition="15" endLine="164" endPosition="5" />
-    <nodeInfo nodeId="5709109565604293502" fileName="PQPlanarityTest.java" startLine="118" startPosition="42" endLine="128" endPosition="5" />
-    <nodeInfo nodeId="4644851485137255444" fileName="PQPlanarityTest.java" startLine="74" startPosition="5" endLine="85" endPosition="5" />
-    <nodeInfo nodeId="5709109565604293300" fileName="PQPlanarityTest.java" startLine="112" startPosition="0" endLine="131" endPosition="0" />
-    <nodeInfo nodeId="4644851485137255354" fileName="PQPlanarityTest.java" startLine="46" startPosition="30" endLine="70" endPosition="5" />
-    <nodeInfo nodeId="516638300680465092" fileName="PQPlanarityTest.java" startLine="88" startPosition="0" endLine="112" endPosition="0" />
-    <nodeInfo nodeId="3021256511735168102" fileName="PQPlanarityTest.java" startLine="172" startPosition="23" endLine="205" endPosition="7" />
-    <nodeInfo nodeId="3021256511735168092" fileName="PQPlanarityTest.java" startLine="170" startPosition="5" endLine="206" endPosition="5" />
-    <nodeInfo nodeId="4644851485137255264" fileName="PQPlanarityTest.java" startLine="32" startPosition="0" endLine="88" endPosition="0" />
-    <nodeInfo nodeId="8327149575965781995" fileName="PQPlanarityTest.java" startLine="131" startPosition="0" endLine="209" endPosition="0" />
-    <scopeInfo nodeId="516638300680465091" fileName="PQPlanarityTest.java" startLine="30" startPosition="28" endLine="30" endPosition="28" />
-    <scopeInfo nodeId="4644851485137255326" fileName="PQPlanarityTest.java" startLine="41" startPosition="63" endLine="42" endPosition="67" />
-    <scopeInfo nodeId="4644851485137255537" fileName="PQPlanarityTest.java" startLine="61" startPosition="36" endLine="62" endPosition="89" />
-    <scopeInfo nodeId="8327149575965782018" fileName="PQPlanarityTest.java" startLine="63" startPosition="14" endLine="64" endPosition="109" />
-    <scopeInfo nodeId="3021256511735310285" fileName="PQPlanarityTest.java" startLine="72" startPosition="63" endLine="73" endPosition="79" />
-    <scopeInfo nodeId="3021256511735307045" fileName="PQPlanarityTest.java" startLine="90" startPosition="23" endLine="91" endPosition="58" />
-    <scopeInfo nodeId="3021256511735305033" fileName="PQPlanarityTest.java" startLine="94" startPosition="49" endLine="95" endPosition="90" />
-    <scopeInfo nodeId="4644851485137255718" fileName="PQPlanarityTest.java" startLine="99" startPosition="63" endLine="100" endPosition="67" />
-    <scopeInfo nodeId="5709109565604328038" fileName="PQPlanarityTest.java" startLine="107" startPosition="23" endLine="108" endPosition="40" />
-    <scopeInfo nodeId="6191740939834529508" fileName="PQPlanarityTest.java" startLine="124" startPosition="32" endLine="125" endPosition="73" />
-    <scopeInfo nodeId="3021256511735327276" fileName="PQPlanarityTest.java" startLine="168" startPosition="23" endLine="169" endPosition="40" />
-    <scopeInfo nodeId="3021256511735327284" fileName="PQPlanarityTest.java" startLine="187" startPosition="27" endLine="188" endPosition="53" />
-    <scopeInfo nodeId="3021256511735168132" fileName="PQPlanarityTest.java" startLine="191" startPosition="97" endLine="192" endPosition="133" />
-    <scopeInfo nodeId="3021256511735175527" fileName="PQPlanarityTest.java" startLine="193" startPosition="16" endLine="194" endPosition="65" />
-    <scopeInfo nodeId="3021256511735327291" fileName="PQPlanarityTest.java" startLine="196" startPosition="27" endLine="197" endPosition="59" />
-    <scopeInfo nodeId="3021256511735327298" fileName="PQPlanarityTest.java" startLine="202" startPosition="27" endLine="203" endPosition="44" />
-    <scopeInfo nodeId="516638300680465088" fileName="PQPlanarityTest.java" startLine="29" startPosition="0" endLine="31" endPosition="3" />
-    <scopeInfo nodeId="4644851485137255293" fileName="PQPlanarityTest.java" startLine="36" startPosition="23" endLine="38" endPosition="38" />
-    <scopeInfo nodeId="4644851485137255366" fileName="PQPlanarityTest.java" startLine="49" startPosition="75" endLine="51" endPosition="37">
+    <nodeInfo nodeId="5709109565604324397" fileName="PQPlanarityTest.java" startLine="25" startPosition="30" endLine="26" endPosition="34" />
+    <nodeInfo nodeId="4644851485137255665" fileName="PQPlanarityTest.java" startLine="27" startPosition="0" endLine="28" endPosition="24" />
+    <nodeInfo nodeId="8327149575965782000" fileName="PQPlanarityTest.java" startLine="28" startPosition="24" endLine="29" endPosition="45" />
+    <nodeInfo nodeId="3021256511735233145" fileName="PQPlanarityTest.java" startLine="34" startPosition="88" endLine="35" endPosition="50" />
+    <nodeInfo nodeId="4644851485137255506" fileName="PQPlanarityTest.java" startLine="35" startPosition="50" endLine="36" endPosition="71" />
+    <nodeInfo nodeId="4644851485137255294" fileName="PQPlanarityTest.java" startLine="37" startPosition="23" endLine="38" endPosition="46" />
+    <nodeInfo nodeId="4644851485137255301" fileName="PQPlanarityTest.java" startLine="38" startPosition="46" endLine="39" endPosition="38" />
+    <nodeInfo nodeId="4644851485137255310" fileName="PQPlanarityTest.java" startLine="40" startPosition="5" endLine="41" endPosition="53" />
+    <nodeInfo nodeId="4644851485137255327" fileName="PQPlanarityTest.java" startLine="42" startPosition="63" endLine="43" endPosition="67" />
+    <nodeInfo nodeId="4644851485137255669" fileName="PQPlanarityTest.java" startLine="44" startPosition="5" endLine="45" endPosition="26" />
+    <nodeInfo nodeId="4644851485137255340" fileName="PQPlanarityTest.java" startLine="45" startPosition="26" endLine="46" endPosition="53" />
+    <nodeInfo nodeId="4644851485137255349" fileName="PQPlanarityTest.java" startLine="46" startPosition="53" endLine="47" endPosition="30" />
+    <nodeInfo nodeId="4644851485137255356" fileName="PQPlanarityTest.java" startLine="48" startPosition="52" endLine="49" endPosition="39" />
+    <nodeInfo nodeId="4644851485137255367" fileName="PQPlanarityTest.java" startLine="50" startPosition="75" endLine="51" endPosition="55" />
+    <nodeInfo nodeId="4644851485137255376" fileName="PQPlanarityTest.java" startLine="51" startPosition="55" endLine="52" endPosition="37" />
+    <nodeInfo nodeId="4644851485137255384" fileName="PQPlanarityTest.java" startLine="53" startPosition="7" endLine="54" endPosition="44" />
+    <nodeInfo nodeId="4644851485137255397" fileName="PQPlanarityTest.java" startLine="55" startPosition="25" endLine="56" endPosition="35" />
+    <nodeInfo nodeId="4644851485137255402" fileName="PQPlanarityTest.java" startLine="56" startPosition="35" endLine="57" endPosition="61" />
+    <nodeInfo nodeId="4644851485137255409" fileName="PQPlanarityTest.java" startLine="58" startPosition="7" endLine="59" endPosition="51" />
+    <nodeInfo nodeId="4644851485137255524" fileName="PQPlanarityTest.java" startLine="59" startPosition="51" endLine="60" endPosition="44" />
+    <nodeInfo nodeId="3021256511735310272" fileName="PQPlanarityTest.java" startLine="60" startPosition="44" endLine="61" endPosition="32" />
+    <nodeInfo nodeId="8327149575965782053" fileName="PQPlanarityTest.java" startLine="62" startPosition="36" endLine="63" endPosition="89" />
+    <nodeInfo nodeId="8327149575965782019" fileName="PQPlanarityTest.java" startLine="64" startPosition="14" endLine="65" endPosition="109" />
+    <nodeInfo nodeId="3021256511735301043" fileName="PQPlanarityTest.java" startLine="66" startPosition="7" endLine="67" endPosition="76" />
+    <nodeInfo nodeId="3021256511735301050" fileName="PQPlanarityTest.java" startLine="67" startPosition="76" endLine="68" endPosition="118" />
+    <nodeInfo nodeId="3021256511735301058" fileName="PQPlanarityTest.java" startLine="68" startPosition="118" endLine="69" endPosition="92" />
+    <nodeInfo nodeId="3021256511735301065" fileName="PQPlanarityTest.java" startLine="69" startPosition="92" endLine="70" endPosition="80" />
+    <nodeInfo nodeId="4644851485137255429" fileName="PQPlanarityTest.java" startLine="71" startPosition="5" endLine="72" endPosition="111" />
+    <nodeInfo nodeId="3021256511735310292" fileName="PQPlanarityTest.java" startLine="73" startPosition="63" endLine="74" endPosition="79" />
+    <nodeInfo nodeId="4644851485137255446" fileName="PQPlanarityTest.java" startLine="76" startPosition="23" endLine="77" endPosition="33" />
+    <nodeInfo nodeId="4644851485137255453" fileName="PQPlanarityTest.java" startLine="78" startPosition="55" endLine="79" endPosition="33" />
+    <nodeInfo nodeId="4644851485137255459" fileName="PQPlanarityTest.java" startLine="79" startPosition="33" endLine="80" endPosition="47" />
+    <nodeInfo nodeId="4644851485137255468" fileName="PQPlanarityTest.java" startLine="80" startPosition="47" endLine="81" endPosition="70" />
+    <nodeInfo nodeId="4644851485137255478" fileName="PQPlanarityTest.java" startLine="81" startPosition="70" endLine="82" endPosition="74" />
+    <nodeInfo nodeId="4644851485137255730" fileName="PQPlanarityTest.java" startLine="83" startPosition="7" endLine="84" endPosition="44" />
+    <nodeInfo nodeId="4644851485137255739" fileName="PQPlanarityTest.java" startLine="84" startPosition="44" endLine="85" endPosition="34" />
+    <nodeInfo nodeId="4644851485137255649" fileName="PQPlanarityTest.java" startLine="86" startPosition="5" endLine="87" endPosition="19" />
+    <nodeInfo nodeId="3021256511735307053" fileName="PQPlanarityTest.java" startLine="91" startPosition="23" endLine="92" endPosition="58" />
+    <nodeInfo nodeId="3021256511735305024" fileName="PQPlanarityTest.java" startLine="93" startPosition="5" endLine="94" endPosition="65" />
+    <nodeInfo nodeId="3021256511735305051" fileName="PQPlanarityTest.java" startLine="95" startPosition="49" endLine="96" endPosition="90" />
+    <nodeInfo nodeId="4644851485137255684" fileName="PQPlanarityTest.java" startLine="97" startPosition="5" endLine="98" endPosition="111" />
+    <nodeInfo nodeId="4644851485137255702" fileName="PQPlanarityTest.java" startLine="98" startPosition="111" endLine="99" endPosition="53" />
+    <nodeInfo nodeId="4644851485137255719" fileName="PQPlanarityTest.java" startLine="100" startPosition="63" endLine="101" endPosition="67" />
+    <nodeInfo nodeId="5709109565604328095" fileName="PQPlanarityTest.java" startLine="102" startPosition="5" endLine="103" endPosition="32" />
+    <nodeInfo nodeId="3021256511735177565" fileName="PQPlanarityTest.java" startLine="104" startPosition="6" endLine="105" endPosition="82" />
+    <nodeInfo nodeId="3021256511735177570" fileName="PQPlanarityTest.java" startLine="106" startPosition="6" endLine="107" endPosition="84" />
+    <nodeInfo nodeId="860462848750219899" fileName="PQPlanarityTest.java" startLine="108" startPosition="23" endLine="109" endPosition="40" />
+    <nodeInfo nodeId="860462848750178530" fileName="PQPlanarityTest.java" startLine="110" startPosition="5" endLine="111" endPosition="25" />
+    <nodeInfo nodeId="5709109565604293317" fileName="PQPlanarityTest.java" startLine="114" startPosition="97" endLine="115" endPosition="59" />
+    <nodeInfo nodeId="5709109565604304477" fileName="PQPlanarityTest.java" startLine="115" startPosition="59" endLine="116" endPosition="56" />
+    <nodeInfo nodeId="5709109565604293331" fileName="PQPlanarityTest.java" startLine="116" startPosition="56" endLine="117" endPosition="116" />
+    <nodeInfo nodeId="5709109565604293484" fileName="PQPlanarityTest.java" startLine="117" startPosition="116" endLine="118" endPosition="37" />
+    <nodeInfo nodeId="5709109565604293493" fileName="PQPlanarityTest.java" startLine="118" startPosition="37" endLine="119" endPosition="42" />
+    <nodeInfo nodeId="5709109565604293540" fileName="PQPlanarityTest.java" startLine="120" startPosition="71" endLine="121" endPosition="93" />
+    <nodeInfo nodeId="5709109565604293592" fileName="PQPlanarityTest.java" startLine="121" startPosition="93" endLine="122" endPosition="43" />
+    <nodeInfo nodeId="5709109565604293580" fileName="PQPlanarityTest.java" startLine="123" startPosition="33" endLine="124" endPosition="35" />
+    <nodeInfo nodeId="6191740939834529517" fileName="PQPlanarityTest.java" startLine="125" startPosition="32" endLine="126" endPosition="73" />
+    <nodeInfo nodeId="5709109565604293325" fileName="PQPlanarityTest.java" startLine="129" startPosition="5" endLine="130" endPosition="25" />
+    <nodeInfo nodeId="3021256511735245093" fileName="PQPlanarityTest.java" startLine="134" startPosition="23" endLine="135" endPosition="54" />
+    <nodeInfo nodeId="3021256511735245102" fileName="PQPlanarityTest.java" startLine="135" startPosition="54" endLine="136" endPosition="39" />
+    <nodeInfo nodeId="3021256511735167865" fileName="PQPlanarityTest.java" startLine="137" startPosition="5" endLine="138" endPosition="68" />
+    <nodeInfo nodeId="3021256511735168065" fileName="PQPlanarityTest.java" startLine="138" startPosition="68" endLine="139" endPosition="68" />
+    <nodeInfo nodeId="3021256511735167848" fileName="PQPlanarityTest.java" startLine="139" startPosition="68" endLine="140" endPosition="59" />
+    <nodeInfo nodeId="3021256511735167858" fileName="PQPlanarityTest.java" startLine="140" startPosition="59" endLine="141" endPosition="37" />
+    <nodeInfo nodeId="3021256511735235130" fileName="PQPlanarityTest.java" startLine="141" startPosition="37" endLine="142" endPosition="37" />
+    <nodeInfo nodeId="3021256511735167881" fileName="PQPlanarityTest.java" startLine="142" startPosition="37" endLine="143" endPosition="58" />
+    <nodeInfo nodeId="3021256511735167894" fileName="PQPlanarityTest.java" startLine="143" startPosition="58" endLine="144" endPosition="56" />
+    <nodeInfo nodeId="3021256511735167907" fileName="PQPlanarityTest.java" startLine="144" startPosition="56" endLine="145" endPosition="20" />
+    <nodeInfo nodeId="3021256511735168008" fileName="PQPlanarityTest.java" startLine="146" startPosition="26" endLine="147" endPosition="54" />
+    <nodeInfo nodeId="3021256511735167929" fileName="PQPlanarityTest.java" startLine="147" startPosition="54" endLine="148" endPosition="95" />
+    <nodeInfo nodeId="3021256511735235150" fileName="PQPlanarityTest.java" startLine="148" startPosition="95" endLine="149" endPosition="43" />
+    <nodeInfo nodeId="3021256511735167944" fileName="PQPlanarityTest.java" startLine="149" startPosition="43" endLine="150" endPosition="50" />
+    <nodeInfo nodeId="3021256511735235138" fileName="PQPlanarityTest.java" startLine="150" startPosition="50" endLine="151" endPosition="48" />
+    <nodeInfo nodeId="3021256511735168076" fileName="PQPlanarityTest.java" startLine="151" startPosition="48" endLine="152" endPosition="58" />
+    <nodeInfo nodeId="3021256511735235159" fileName="PQPlanarityTest.java" startLine="152" startPosition="58" endLine="153" endPosition="17" />
+    <nodeInfo nodeId="3021256511735168022" fileName="PQPlanarityTest.java" startLine="154" startPosition="5" endLine="155" endPosition="54" />
+    <nodeInfo nodeId="3021256511735167971" fileName="PQPlanarityTest.java" startLine="155" startPosition="54" endLine="156" endPosition="15" />
+    <nodeInfo nodeId="3021256511735168041" fileName="PQPlanarityTest.java" startLine="157" startPosition="26" endLine="158" endPosition="54" />
+    <nodeInfo nodeId="3021256511735167984" fileName="PQPlanarityTest.java" startLine="158" startPosition="54" endLine="159" endPosition="94" />
+    <nodeInfo nodeId="3021256511735235167" fileName="PQPlanarityTest.java" startLine="159" startPosition="94" endLine="160" endPosition="43" />
+    <nodeInfo nodeId="3021256511735167999" fileName="PQPlanarityTest.java" startLine="160" startPosition="43" endLine="161" endPosition="48" />
+    <nodeInfo nodeId="3021256511735235182" fileName="PQPlanarityTest.java" startLine="161" startPosition="48" endLine="162" endPosition="50" />
+    <nodeInfo nodeId="3021256511735168086" fileName="PQPlanarityTest.java" startLine="162" startPosition="50" endLine="163" endPosition="58" />
+    <nodeInfo nodeId="3021256511735235177" fileName="PQPlanarityTest.java" startLine="163" startPosition="58" endLine="164" endPosition="17" />
+    <nodeInfo nodeId="3021256511735168047" fileName="PQPlanarityTest.java" startLine="165" startPosition="5" endLine="166" endPosition="37" />
+    <nodeInfo nodeId="3021256511735168056" fileName="PQPlanarityTest.java" startLine="166" startPosition="37" endLine="167" endPosition="42" />
+    <nodeInfo nodeId="3021256511735237159" fileName="PQPlanarityTest.java" startLine="167" startPosition="42" endLine="168" endPosition="37" />
+    <nodeInfo nodeId="3021256511735247084" fileName="PQPlanarityTest.java" startLine="169" startPosition="23" endLine="170" endPosition="40" />
+    <nodeInfo nodeId="3021256511735175543" fileName="PQPlanarityTest.java" startLine="172" startPosition="71" endLine="173" endPosition="23" />
+    <nodeInfo nodeId="3021256511735252150" fileName="PQPlanarityTest.java" startLine="175" startPosition="61" endLine="176" endPosition="22" />
+    <nodeInfo nodeId="3021256511735168129" fileName="PQPlanarityTest.java" startLine="176" startPosition="22" endLine="177" endPosition="19" />
+    <nodeInfo nodeId="3021256511735168156" fileName="PQPlanarityTest.java" startLine="178" startPosition="9" endLine="179" endPosition="72" />
+    <nodeInfo nodeId="3021256511735168166" fileName="PQPlanarityTest.java" startLine="179" startPosition="72" endLine="180" endPosition="53" />
+    <nodeInfo nodeId="3021256511735168178" fileName="PQPlanarityTest.java" startLine="180" startPosition="53" endLine="181" endPosition="31" />
+    <nodeInfo nodeId="3021256511735241129" fileName="PQPlanarityTest.java" startLine="182" startPosition="66" endLine="183" endPosition="58" />
+    <nodeInfo nodeId="3021256511735168208" fileName="PQPlanarityTest.java" startLine="183" startPosition="58" endLine="184" endPosition="100" />
+    <nodeInfo nodeId="3021256511735168233" fileName="PQPlanarityTest.java" startLine="184" startPosition="100" endLine="185" endPosition="65" />
+    <nodeInfo nodeId="3021256511735168227" fileName="PQPlanarityTest.java" startLine="185" startPosition="65" endLine="186" endPosition="37" />
+    <nodeInfo nodeId="3021256511735247090" fileName="PQPlanarityTest.java" startLine="188" startPosition="27" endLine="189" endPosition="53" />
+    <nodeInfo nodeId="3021256511735168152" fileName="PQPlanarityTest.java" startLine="190" startPosition="9" endLine="191" endPosition="28" />
+    <nodeInfo nodeId="3021256511735168249" fileName="PQPlanarityTest.java" startLine="192" startPosition="97" endLine="193" endPosition="133" />
+    <nodeInfo nodeId="3021256511735175528" fileName="PQPlanarityTest.java" startLine="194" startPosition="16" endLine="195" endPosition="65" />
+    <nodeInfo nodeId="3021256511735247103" fileName="PQPlanarityTest.java" startLine="197" startPosition="27" endLine="198" endPosition="59" />
+    <nodeInfo nodeId="3021256511735175564" fileName="PQPlanarityTest.java" startLine="199" startPosition="9" endLine="200" endPosition="109" />
+    <nodeInfo nodeId="3021256511735241109" fileName="PQPlanarityTest.java" startLine="200" startPosition="109" endLine="201" endPosition="81" />
+    <nodeInfo nodeId="3021256511735175549" fileName="PQPlanarityTest.java" startLine="201" startPosition="81" endLine="202" endPosition="20" />
+    <nodeInfo nodeId="3021256511735247116" fileName="PQPlanarityTest.java" startLine="203" startPosition="27" endLine="204" endPosition="44" />
+    <nodeInfo nodeId="3021256511735167872" fileName="PQPlanarityTest.java" startLine="207" startPosition="5" endLine="208" endPosition="25" />
+    <nodeInfo nodeId="516638300680465088" fileName="PQPlanarityTest.java" startLine="30" startPosition="0" endLine="32" endPosition="3" />
+    <nodeInfo nodeId="8327149575965782017" fileName="PQPlanarityTest.java" startLine="64" startPosition="12" endLine="66" endPosition="7" />
+    <nodeInfo nodeId="3021256511735175526" fileName="PQPlanarityTest.java" startLine="194" startPosition="14" endLine="196" endPosition="9" />
+    <nodeInfo nodeId="4644851485137255321" fileName="PQPlanarityTest.java" startLine="41" startPosition="53" endLine="44" endPosition="5" />
+    <nodeInfo nodeId="3021256511735310282" fileName="PQPlanarityTest.java" startLine="72" startPosition="111" endLine="75" endPosition="5" />
+    <nodeInfo nodeId="3021256511735307044" fileName="PQPlanarityTest.java" startLine="90" startPosition="82" endLine="93" endPosition="5" />
+    <nodeInfo nodeId="3021256511735305032" fileName="PQPlanarityTest.java" startLine="94" startPosition="65" endLine="97" endPosition="5" />
+    <nodeInfo nodeId="4644851485137255713" fileName="PQPlanarityTest.java" startLine="99" startPosition="53" endLine="102" endPosition="5" />
+    <nodeInfo nodeId="3021256511735177568" fileName="PQPlanarityTest.java" startLine="103" startPosition="32" endLine="106" endPosition="6" />
+    <nodeInfo nodeId="5709109565604328036" fileName="PQPlanarityTest.java" startLine="107" startPosition="84" endLine="110" endPosition="5" />
+    <nodeInfo nodeId="6191740939834529507" fileName="PQPlanarityTest.java" startLine="124" startPosition="35" endLine="127" endPosition="9" />
+    <nodeInfo nodeId="3021256511735327274" fileName="PQPlanarityTest.java" startLine="168" startPosition="37" endLine="171" endPosition="5" />
+    <nodeInfo nodeId="3021256511735327282" fileName="PQPlanarityTest.java" startLine="187" startPosition="9" endLine="190" endPosition="9" />
+    <nodeInfo nodeId="3021256511735327289" fileName="PQPlanarityTest.java" startLine="196" startPosition="9" endLine="199" endPosition="9" />
+    <nodeInfo nodeId="3021256511735327296" fileName="PQPlanarityTest.java" startLine="202" startPosition="20" endLine="205" endPosition="9" />
+    <nodeInfo nodeId="4644851485137255292" fileName="PQPlanarityTest.java" startLine="36" startPosition="71" endLine="40" endPosition="5" />
+    <nodeInfo nodeId="4644851485137255364" fileName="PQPlanarityTest.java" startLine="49" startPosition="39" endLine="53" endPosition="7" />
+    <nodeInfo nodeId="4644851485137255392" fileName="PQPlanarityTest.java" startLine="54" startPosition="44" endLine="58" endPosition="7" />
+    <nodeInfo nodeId="3495542515823098683" fileName="PQPlanarityTest.java" startLine="133" startPosition="90" endLine="137" endPosition="5" />
+    <nodeInfo nodeId="3021256511735168117" fileName="PQPlanarityTest.java" startLine="174" startPosition="92" endLine="178" endPosition="9" />
+    <nodeInfo nodeId="4644851485137255536" fileName="PQPlanarityTest.java" startLine="61" startPosition="32" endLine="66" endPosition="7" />
+    <nodeInfo nodeId="3021256511735168131" fileName="PQPlanarityTest.java" startLine="191" startPosition="28" endLine="196" endPosition="9" />
+    <nodeInfo nodeId="4644851485137255451" fileName="PQPlanarityTest.java" startLine="77" startPosition="33" endLine="83" endPosition="7" />
+    <nodeInfo nodeId="5709109565604293569" fileName="PQPlanarityTest.java" startLine="122" startPosition="43" endLine="128" endPosition="7" />
+    <nodeInfo nodeId="3021256511735168190" fileName="PQPlanarityTest.java" startLine="181" startPosition="31" endLine="187" endPosition="9" />
+    <nodeInfo nodeId="3021256511735167919" fileName="PQPlanarityTest.java" startLine="145" startPosition="20" endLine="154" endPosition="5" />
+    <nodeInfo nodeId="3021256511735167979" fileName="PQPlanarityTest.java" startLine="156" startPosition="15" endLine="165" endPosition="5" />
+    <nodeInfo nodeId="5709109565604293502" fileName="PQPlanarityTest.java" startLine="119" startPosition="42" endLine="129" endPosition="5" />
+    <nodeInfo nodeId="4644851485137255444" fileName="PQPlanarityTest.java" startLine="75" startPosition="5" endLine="86" endPosition="5" />
+    <nodeInfo nodeId="5709109565604293300" fileName="PQPlanarityTest.java" startLine="113" startPosition="0" endLine="132" endPosition="0" />
+    <nodeInfo nodeId="4644851485137255354" fileName="PQPlanarityTest.java" startLine="47" startPosition="30" endLine="71" endPosition="5" />
+    <nodeInfo nodeId="516638300680465092" fileName="PQPlanarityTest.java" startLine="89" startPosition="0" endLine="113" endPosition="0" />
+    <nodeInfo nodeId="3021256511735168102" fileName="PQPlanarityTest.java" startLine="173" startPosition="23" endLine="206" endPosition="7" />
+    <nodeInfo nodeId="3021256511735168092" fileName="PQPlanarityTest.java" startLine="171" startPosition="5" endLine="207" endPosition="5" />
+    <nodeInfo nodeId="4644851485137255264" fileName="PQPlanarityTest.java" startLine="33" startPosition="0" endLine="89" endPosition="0" />
+    <nodeInfo nodeId="8327149575965781995" fileName="PQPlanarityTest.java" startLine="132" startPosition="0" endLine="210" endPosition="0" />
+    <scopeInfo nodeId="516638300680465091" fileName="PQPlanarityTest.java" startLine="31" startPosition="28" endLine="31" endPosition="28" />
+    <scopeInfo nodeId="4644851485137255326" fileName="PQPlanarityTest.java" startLine="42" startPosition="63" endLine="43" endPosition="67" />
+    <scopeInfo nodeId="4644851485137255537" fileName="PQPlanarityTest.java" startLine="62" startPosition="36" endLine="63" endPosition="89" />
+    <scopeInfo nodeId="8327149575965782018" fileName="PQPlanarityTest.java" startLine="64" startPosition="14" endLine="65" endPosition="109" />
+    <scopeInfo nodeId="3021256511735310285" fileName="PQPlanarityTest.java" startLine="73" startPosition="63" endLine="74" endPosition="79" />
+    <scopeInfo nodeId="3021256511735307045" fileName="PQPlanarityTest.java" startLine="91" startPosition="23" endLine="92" endPosition="58" />
+    <scopeInfo nodeId="3021256511735305033" fileName="PQPlanarityTest.java" startLine="95" startPosition="49" endLine="96" endPosition="90" />
+    <scopeInfo nodeId="4644851485137255718" fileName="PQPlanarityTest.java" startLine="100" startPosition="63" endLine="101" endPosition="67" />
+    <scopeInfo nodeId="5709109565604328038" fileName="PQPlanarityTest.java" startLine="108" startPosition="23" endLine="109" endPosition="40" />
+    <scopeInfo nodeId="6191740939834529508" fileName="PQPlanarityTest.java" startLine="125" startPosition="32" endLine="126" endPosition="73" />
+    <scopeInfo nodeId="3021256511735327276" fileName="PQPlanarityTest.java" startLine="169" startPosition="23" endLine="170" endPosition="40" />
+    <scopeInfo nodeId="3021256511735327284" fileName="PQPlanarityTest.java" startLine="188" startPosition="27" endLine="189" endPosition="53" />
+    <scopeInfo nodeId="3021256511735168132" fileName="PQPlanarityTest.java" startLine="192" startPosition="97" endLine="193" endPosition="133" />
+    <scopeInfo nodeId="3021256511735175527" fileName="PQPlanarityTest.java" startLine="194" startPosition="16" endLine="195" endPosition="65" />
+    <scopeInfo nodeId="3021256511735327291" fileName="PQPlanarityTest.java" startLine="197" startPosition="27" endLine="198" endPosition="59" />
+    <scopeInfo nodeId="3021256511735327298" fileName="PQPlanarityTest.java" startLine="203" startPosition="27" endLine="204" endPosition="44" />
+    <scopeInfo nodeId="516638300680465088" fileName="PQPlanarityTest.java" startLine="30" startPosition="0" endLine="32" endPosition="3" />
+    <scopeInfo nodeId="4644851485137255293" fileName="PQPlanarityTest.java" startLine="37" startPosition="23" endLine="39" endPosition="38" />
+    <scopeInfo nodeId="4644851485137255366" fileName="PQPlanarityTest.java" startLine="50" startPosition="75" endLine="52" endPosition="37">
       <varInfo nodeId="4644851485137255368" varName="node" />
     </scopeInfo>
-    <scopeInfo nodeId="4644851485137255396" fileName="PQPlanarityTest.java" startLine="54" startPosition="25" endLine="56" endPosition="61" />
-    <scopeInfo nodeId="3495542515823098685" fileName="PQPlanarityTest.java" startLine="133" startPosition="23" endLine="135" endPosition="39" />
-    <scopeInfo nodeId="3021256511735168119" fileName="PQPlanarityTest.java" startLine="174" startPosition="61" endLine="176" endPosition="19" />
-    <scopeInfo nodeId="4644851485137255321" fileName="PQPlanarityTest.java" startLine="40" startPosition="53" endLine="43" endPosition="5" />
-    <scopeInfo nodeId="3021256511735310282" fileName="PQPlanarityTest.java" startLine="71" startPosition="111" endLine="74" endPosition="5" />
-    <scopeInfo nodeId="4644851485137255713" fileName="PQPlanarityTest.java" startLine="98" startPosition="53" endLine="101" endPosition="5" />
-    <scopeInfo nodeId="4644851485137255364" fileName="PQPlanarityTest.java" startLine="48" startPosition="39" endLine="52" endPosition="7" />
-    <scopeInfo nodeId="4644851485137255452" fileName="PQPlanarityTest.java" startLine="77" startPosition="55" endLine="81" endPosition="74">
+    <scopeInfo nodeId="4644851485137255396" fileName="PQPlanarityTest.java" startLine="55" startPosition="25" endLine="57" endPosition="61" />
+    <scopeInfo nodeId="3495542515823098685" fileName="PQPlanarityTest.java" startLine="134" startPosition="23" endLine="136" endPosition="39" />
+    <scopeInfo nodeId="3021256511735168119" fileName="PQPlanarityTest.java" startLine="175" startPosition="61" endLine="177" endPosition="19" />
+    <scopeInfo nodeId="4644851485137255321" fileName="PQPlanarityTest.java" startLine="41" startPosition="53" endLine="44" endPosition="5" />
+    <scopeInfo nodeId="3021256511735310282" fileName="PQPlanarityTest.java" startLine="72" startPosition="111" endLine="75" endPosition="5" />
+    <scopeInfo nodeId="4644851485137255713" fileName="PQPlanarityTest.java" startLine="99" startPosition="53" endLine="102" endPosition="5" />
+    <scopeInfo nodeId="4644851485137255364" fileName="PQPlanarityTest.java" startLine="49" startPosition="39" endLine="53" endPosition="7" />
+    <scopeInfo nodeId="4644851485137255452" fileName="PQPlanarityTest.java" startLine="78" startPosition="55" endLine="82" endPosition="74">
       <varInfo nodeId="4644851485137255454" varName="node" />
     </scopeInfo>
-    <scopeInfo nodeId="5709109565604293571" fileName="PQPlanarityTest.java" startLine="122" startPosition="33" endLine="126" endPosition="9">
+    <scopeInfo nodeId="5709109565604293571" fileName="PQPlanarityTest.java" startLine="123" startPosition="33" endLine="127" endPosition="9">
       <varInfo nodeId="5709109565604293581" varName="edge" />
     </scopeInfo>
-    <scopeInfo nodeId="3021256511735168192" fileName="PQPlanarityTest.java" startLine="181" startPosition="66" endLine="185" endPosition="37">
+    <scopeInfo nodeId="3021256511735168192" fileName="PQPlanarityTest.java" startLine="182" startPosition="66" endLine="186" endPosition="37">
       <varInfo nodeId="3021256511735168209" varName="nextEdge" />
     </scopeInfo>
-    <scopeInfo nodeId="4644851485137255451" fileName="PQPlanarityTest.java" startLine="76" startPosition="33" endLine="82" endPosition="7">
+    <scopeInfo nodeId="4644851485137255451" fileName="PQPlanarityTest.java" startLine="77" startPosition="33" endLine="83" endPosition="7">
       <varInfo nodeId="4644851485137255488" varName="i" />
     </scopeInfo>
-    <scopeInfo nodeId="3021256511735167921" fileName="PQPlanarityTest.java" startLine="145" startPosition="26" endLine="152" endPosition="17">
+    <scopeInfo nodeId="3021256511735167921" fileName="PQPlanarityTest.java" startLine="146" startPosition="26" endLine="153" endPosition="17">
       <varInfo nodeId="3021256511735235151" varName="next" />
       <varInfo nodeId="3021256511735167930" varName="curEdge" />
     </scopeInfo>
-    <scopeInfo nodeId="3021256511735167983" fileName="PQPlanarityTest.java" startLine="156" startPosition="26" endLine="163" endPosition="17">
+    <scopeInfo nodeId="3021256511735167983" fileName="PQPlanarityTest.java" startLine="157" startPosition="26" endLine="164" endPosition="17">
       <varInfo nodeId="3021256511735235168" varName="next" />
       <varInfo nodeId="3021256511735167985" varName="curEdge" />
     </scopeInfo>
-    <scopeInfo nodeId="5709109565604293505" fileName="PQPlanarityTest.java" startLine="119" startPosition="71" endLine="127" endPosition="7">
+    <scopeInfo nodeId="5709109565604293505" fileName="PQPlanarityTest.java" startLine="120" startPosition="71" endLine="128" endPosition="7">
       <varInfo nodeId="5709109565604293541" varName="edgeItr" />
     </scopeInfo>
-    <scopeInfo nodeId="4644851485137255445" fileName="PQPlanarityTest.java" startLine="75" startPosition="23" endLine="84" endPosition="34" />
-    <scopeInfo nodeId="5709109565604293502" fileName="PQPlanarityTest.java" startLine="118" startPosition="42" endLine="128" endPosition="5" />
-    <scopeInfo nodeId="5709109565604293303" fileName="PQPlanarityTest.java" startLine="113" startPosition="97" endLine="129" endPosition="25">
+    <scopeInfo nodeId="4644851485137255445" fileName="PQPlanarityTest.java" startLine="76" startPosition="23" endLine="85" endPosition="34" />
+    <scopeInfo nodeId="5709109565604293502" fileName="PQPlanarityTest.java" startLine="119" startPosition="42" endLine="129" endPosition="5" />
+    <scopeInfo nodeId="5709109565604293303" fileName="PQPlanarityTest.java" startLine="114" startPosition="97" endLine="130" endPosition="25">
       <varInfo nodeId="5709109565604304478" varName="last" />
       <varInfo nodeId="5709109565604293318" varName="embeddedGraph" />
       <varInfo nodeId="5709109565604293332" varName="outerFace" />
     </scopeInfo>
-    <scopeInfo nodeId="5709109565604293300" fileName="PQPlanarityTest.java" startLine="112" startPosition="0" endLine="131" endPosition="0">
+    <scopeInfo nodeId="5709109565604293300" fileName="PQPlanarityTest.java" startLine="113" startPosition="0" endLine="132" endPosition="0">
       <varInfo nodeId="5709109565604293363" varName="nodeOrder" />
       <varInfo nodeId="5709109565604293305" varName="graph" />
       <varInfo nodeId="5709109565604293307" varName="order" />
     </scopeInfo>
-    <scopeInfo nodeId="516638300680465095" fileName="PQPlanarityTest.java" startLine="89" startPosition="82" endLine="110" endPosition="25">
+    <scopeInfo nodeId="516638300680465095" fileName="PQPlanarityTest.java" startLine="90" startPosition="82" endLine="111" endPosition="25">
       <varInfo nodeId="4644851485137255703" varName="nodeOrder" />
       <varInfo nodeId="4644851485137255685" varName="order" />
       <varInfo nodeId="3021256511735305025" varName="edges" />
       <varInfo nodeId="5709109565604328096" varName="embeddedGraph" />
     </scopeInfo>
-    <scopeInfo nodeId="4644851485137255355" fileName="PQPlanarityTest.java" startLine="47" startPosition="52" endLine="69" endPosition="80">
+    <scopeInfo nodeId="4644851485137255355" fileName="PQPlanarityTest.java" startLine="48" startPosition="52" endLine="70" endPosition="80">
       <varInfo nodeId="4644851485137255357" varName="curGraphNode" />
       <varInfo nodeId="3021256511735301044" varName="allInEdges" />
       <varInfo nodeId="4644851485137255525" varName="parent" />
       <varInfo nodeId="3021256511735310273" varName="remainingEdges" />
       <varInfo nodeId="4644851485137255385" varName="nextGraphNode" />
     </scopeInfo>
-    <scopeInfo nodeId="4644851485137255354" fileName="PQPlanarityTest.java" startLine="46" startPosition="30" endLine="70" endPosition="5">
+    <scopeInfo nodeId="4644851485137255354" fileName="PQPlanarityTest.java" startLine="47" startPosition="30" endLine="71" endPosition="5">
       <varInfo nodeId="4644851485137255416" varName="i" />
     </scopeInfo>
-    <scopeInfo nodeId="516638300680465092" fileName="PQPlanarityTest.java" startLine="88" startPosition="0" endLine="112" endPosition="0">
+    <scopeInfo nodeId="516638300680465092" fileName="PQPlanarityTest.java" startLine="89" startPosition="0" endLine="113" endPosition="0">
       <varInfo nodeId="516638300680465096" varName="graph" />
       <varInfo nodeId="5639575219014569936" varName="stNumbering" />
     </scopeInfo>
-    <scopeInfo nodeId="3021256511735168105" fileName="PQPlanarityTest.java" startLine="173" startPosition="92" endLine="204" endPosition="9">
+    <scopeInfo nodeId="3021256511735168105" fileName="PQPlanarityTest.java" startLine="174" startPosition="92" endLine="205" endPosition="9">
       <varInfo nodeId="3021256511735168157" varName="path" />
       <varInfo nodeId="3021256511735168153" varName="containingFace" />
     </scopeInfo>
-    <scopeInfo nodeId="3021256511735168102" fileName="PQPlanarityTest.java" startLine="172" startPosition="23" endLine="205" endPosition="7" />
-    <scopeInfo nodeId="3021256511735168095" fileName="PQPlanarityTest.java" startLine="171" startPosition="71" endLine="205" endPosition="7">
+    <scopeInfo nodeId="3021256511735168102" fileName="PQPlanarityTest.java" startLine="173" startPosition="23" endLine="206" endPosition="7" />
+    <scopeInfo nodeId="3021256511735168095" fileName="PQPlanarityTest.java" startLine="172" startPosition="71" endLine="206" endPosition="7">
       <varInfo nodeId="3021256511735175544" varName="prev" />
     </scopeInfo>
-    <scopeInfo nodeId="3021256511735168092" fileName="PQPlanarityTest.java" startLine="170" startPosition="5" endLine="206" endPosition="5" />
-    <scopeInfo nodeId="4644851485137255267" fileName="PQPlanarityTest.java" startLine="33" startPosition="88" endLine="86" endPosition="19">
+    <scopeInfo nodeId="3021256511735168092" fileName="PQPlanarityTest.java" startLine="171" startPosition="5" endLine="207" endPosition="5" />
+    <scopeInfo nodeId="4644851485137255267" fileName="PQPlanarityTest.java" startLine="34" startPosition="88" endLine="87" endPosition="19">
       <varInfo nodeId="4644851485137255311" varName="nodeOrder" />
       <varInfo nodeId="4644851485137255341" varName="curPQNode" />
       <varInfo nodeId="4644851485137255430" varName="order" />
       <varInfo nodeId="4644851485137255507" varName="removed" />
     </scopeInfo>
-    <scopeInfo nodeId="4644851485137255264" fileName="PQPlanarityTest.java" startLine="32" startPosition="0" endLine="88" endPosition="0">
+    <scopeInfo nodeId="4644851485137255264" fileName="PQPlanarityTest.java" startLine="33" startPosition="0" endLine="89" endPosition="0">
       <varInfo nodeId="4644851485137255271" varName="graph" />
       <varInfo nodeId="4644851485137255273" varName="stNumbering" />
     </scopeInfo>
-    <scopeInfo nodeId="8327149575965781998" fileName="PQPlanarityTest.java" startLine="132" startPosition="90" endLine="207" endPosition="25">
+    <scopeInfo nodeId="8327149575965781998" fileName="PQPlanarityTest.java" startLine="133" startPosition="90" endLine="208" endPosition="25">
       <varInfo nodeId="3021256511735167895" varName="last" />
       <varInfo nodeId="3021256511735168066" varName="addedEdges" />
       <varInfo nodeId="3021256511735235131" varName="innerFace" />
@@ -1958,11 +1947,11 @@
       <varInfo nodeId="3021256511735167882" varName="first" />
       <varInfo nodeId="3021256511735167866" varName="addedNodes" />
     </scopeInfo>
-    <scopeInfo nodeId="8327149575965781995" fileName="PQPlanarityTest.java" startLine="131" startPosition="0" endLine="209" endPosition="0">
+    <scopeInfo nodeId="8327149575965781995" fileName="PQPlanarityTest.java" startLine="132" startPosition="0" endLine="210" endPosition="0">
       <varInfo nodeId="8327149575965782081" varName="nodeOrder" />
       <varInfo nodeId="8327149575965782077" varName="graph" />
     </scopeInfo>
-    <unitInfo nodeId="516638300680465086" fileName="PQPlanarityTest.java" startLine="24" startPosition="0" endLine="210" endPosition="0" unitName="jetbrains.mps.graphLayout.planarization.PQPlanarityTest" />
+    <unitInfo nodeId="516638300680465086" fileName="PQPlanarityTest.java" startLine="25" startPosition="0" endLine="211" endPosition="0" unitName="jetbrains.mps.graphLayout.planarization.PQPlanarityTest" />
   </root>
   <root nodeId="5656502300472228858">
     <nodeInfo nodeId="5656502300472228864" fileName="NodeWithEdgeOrder.java" startLine="11" startPosition="32" endLine="12" endPosition="22" />
@@ -2503,220 +2492,223 @@
     <unitInfo nodeId="6001806680467668506" fileName="PNode.java" startLine="13" startPosition="0" endLine="392" endPosition="0" unitName="jetbrains.mps.graphLayout.planarization.PNode" />
   </root>
   <root nodeId="603019764244010093">
-    <nodeInfo nodeId="603019764244010099" fileName="EdgesOrder.java" startLine="20" startPosition="25" endLine="21" endPosition="45" />
-    <nodeInfo nodeId="603019764244010109" fileName="EdgesOrder.java" startLine="21" startPosition="45" endLine="22" endPosition="46" />
-    <nodeInfo nodeId="603019764244035817" fileName="EdgesOrder.java" startLine="22" startPosition="46" endLine="23" endPosition="29" />
-    <nodeInfo nodeId="603019764244013723" fileName="EdgesOrder.java" startLine="25" startPosition="23" endLine="26" endPosition="72" />
-    <nodeInfo nodeId="603019764244013734" fileName="EdgesOrder.java" startLine="26" startPosition="72" endLine="27" endPosition="73" />
-    <nodeInfo nodeId="603019764244013745" fileName="EdgesOrder.java" startLine="27" startPosition="73" endLine="28" endPosition="23" />
-    <nodeInfo nodeId="603019764244013762" fileName="EdgesOrder.java" startLine="31" startPosition="48" endLine="32" endPosition="67" />
-    <nodeInfo nodeId="603019764244013854" fileName="EdgesOrder.java" startLine="32" startPosition="67" endLine="33" endPosition="37" />
-    <nodeInfo nodeId="603019764244013806" fileName="EdgesOrder.java" startLine="36" startPosition="49" endLine="37" endPosition="68" />
-    <nodeInfo nodeId="603019764244013860" fileName="EdgesOrder.java" startLine="37" startPosition="68" endLine="38" endPosition="37" />
-    <nodeInfo nodeId="603019764244035827" fileName="EdgesOrder.java" startLine="41" startPosition="25" endLine="42" endPosition="31" />
-    <nodeInfo nodeId="5709109565604241136" fileName="EdgesOrder.java" startLine="45" startPosition="41" endLine="46" endPosition="48" />
-    <nodeInfo nodeId="5709109565604241152" fileName="EdgesOrder.java" startLine="47" startPosition="87" endLine="48" endPosition="47" />
-    <nodeInfo nodeId="5709109565604241165" fileName="EdgesOrder.java" startLine="48" startPosition="47" endLine="49" endPosition="82" />
-    <nodeInfo nodeId="5709109565604241178" fileName="EdgesOrder.java" startLine="49" startPosition="82" endLine="50" endPosition="91" />
-    <nodeInfo nodeId="5709109565604241143" fileName="EdgesOrder.java" startLine="51" startPosition="5" endLine="52" endPosition="30" />
-    <nodeInfo nodeId="603019764244021987" fileName="EdgesOrder.java" startLine="55" startPosition="31" endLine="56" endPosition="54" />
-    <nodeInfo nodeId="5709109565604265040" fileName="EdgesOrder.java" startLine="60" startPosition="61" endLine="61" endPosition="22" />
-    <nodeInfo nodeId="603019764244022075" fileName="EdgesOrder.java" startLine="61" startPosition="22" endLine="62" endPosition="137" />
-    <nodeInfo nodeId="603019764244022085" fileName="EdgesOrder.java" startLine="62" startPosition="137" endLine="63" endPosition="139" />
-    <nodeInfo nodeId="87514548894030384" fileName="EdgesOrder.java" startLine="67" startPosition="45" endLine="68" endPosition="20" />
-    <nodeInfo nodeId="5709109565604267371" fileName="EdgesOrder.java" startLine="69" startPosition="23" endLine="70" endPosition="34" />
-    <nodeInfo nodeId="87514548894030399" fileName="EdgesOrder.java" startLine="70" startPosition="34" endLine="71" endPosition="102" />
-    <nodeInfo nodeId="87514548894030418" fileName="EdgesOrder.java" startLine="71" startPosition="102" endLine="72" endPosition="103" />
-    <nodeInfo nodeId="87514548894030350" fileName="EdgesOrder.java" startLine="77" startPosition="65" endLine="78" endPosition="97" />
-    <nodeInfo nodeId="87514548894030363" fileName="EdgesOrder.java" startLine="78" startPosition="97" endLine="79" endPosition="98" />
-    <nodeInfo nodeId="603019764244013880" fileName="EdgesOrder.java" startLine="84" startPosition="21" endLine="85" endPosition="57" />
-    <nodeInfo nodeId="603019764244013890" fileName="EdgesOrder.java" startLine="86" startPosition="12" endLine="87" endPosition="19" />
-    <nodeInfo nodeId="5709109565604293664" fileName="EdgesOrder.java" startLine="91" startPosition="78" endLine="92" endPosition="32" />
-    <nodeInfo nodeId="5709109565604299453" fileName="EdgesOrder.java" startLine="92" startPosition="32" endLine="93" endPosition="17" />
-    <nodeInfo nodeId="5709109565604299461" fileName="EdgesOrder.java" startLine="93" startPosition="17" endLine="94" endPosition="40" />
-    <nodeInfo nodeId="5709109565604299485" fileName="EdgesOrder.java" startLine="95" startPosition="41" endLine="96" endPosition="28" />
-    <nodeInfo nodeId="5709109565604299494" fileName="EdgesOrder.java" startLine="96" startPosition="28" endLine="97" endPosition="36" />
-    <nodeInfo nodeId="5709109565604304428" fileName="EdgesOrder.java" startLine="97" startPosition="36" endLine="98" endPosition="20" />
-    <nodeInfo nodeId="5709109565604304431" fileName="EdgesOrder.java" startLine="99" startPosition="22" endLine="100" endPosition="64" />
-    <nodeInfo nodeId="5709109565604304441" fileName="EdgesOrder.java" startLine="101" startPosition="14" endLine="102" endPosition="64" />
-    <nodeInfo nodeId="5709109565604299531" fileName="EdgesOrder.java" startLine="103" startPosition="7" endLine="104" endPosition="44" />
-    <nodeInfo nodeId="5709109565604299537" fileName="EdgesOrder.java" startLine="105" startPosition="5" endLine="106" endPosition="26" />
-    <nodeInfo nodeId="5709109565604293680" fileName="EdgesOrder.java" startLine="106" startPosition="26" endLine="107" endPosition="16" />
-    <nodeInfo nodeId="5709109565604293741" fileName="EdgesOrder.java" startLine="110" startPosition="54" endLine="111" endPosition="47" />
-    <nodeInfo nodeId="5709109565604293734" fileName="EdgesOrder.java" startLine="111" startPosition="47" endLine="112" endPosition="49" />
-    <nodeInfo nodeId="5709109565604299402" fileName="EdgesOrder.java" startLine="113" startPosition="35" endLine="114" endPosition="53" />
-    <nodeInfo nodeId="5709109565604299409" fileName="EdgesOrder.java" startLine="115" startPosition="12" endLine="116" endPosition="54" />
-    <nodeInfo nodeId="5709109565604299418" fileName="EdgesOrder.java" startLine="120" startPosition="54" endLine="121" endPosition="47" />
-    <nodeInfo nodeId="5709109565604299424" fileName="EdgesOrder.java" startLine="121" startPosition="47" endLine="122" endPosition="49" />
-    <nodeInfo nodeId="5709109565604299437" fileName="EdgesOrder.java" startLine="123" startPosition="35" endLine="124" endPosition="54" />
-    <nodeInfo nodeId="5709109565604299445" fileName="EdgesOrder.java" startLine="125" startPosition="12" endLine="126" endPosition="53" />
-    <nodeInfo nodeId="5709109565604299267" fileName="EdgesOrder.java" startLine="130" startPosition="109" endLine="131" endPosition="18" />
-    <nodeInfo nodeId="5709109565604299283" fileName="EdgesOrder.java" startLine="132" startPosition="27" endLine="133" endPosition="63" />
-    <nodeInfo nodeId="5709109565604299295" fileName="EdgesOrder.java" startLine="134" startPosition="12" endLine="135" endPosition="62" />
-    <nodeInfo nodeId="5709109565604299216" fileName="EdgesOrder.java" startLine="139" startPosition="23" endLine="140" endPosition="64" />
-    <nodeInfo nodeId="5709109565604299314" fileName="EdgesOrder.java" startLine="141" startPosition="16" endLine="142" endPosition="63" />
-    <nodeInfo nodeId="5709109565604299227" fileName="EdgesOrder.java" startLine="145" startPosition="23" endLine="146" endPosition="62" />
-    <nodeInfo nodeId="5709109565604299330" fileName="EdgesOrder.java" startLine="147" startPosition="16" endLine="148" endPosition="63" />
-    <nodeInfo nodeId="5709109565604299233" fileName="EdgesOrder.java" startLine="151" startPosition="12" endLine="152" endPosition="29" />
-    <nodeInfo nodeId="5709109565604299338" fileName="EdgesOrder.java" startLine="153" startPosition="21" endLine="154" endPosition="82" />
-    <nodeInfo nodeId="5709109565604299349" fileName="EdgesOrder.java" startLine="155" startPosition="14" endLine="156" endPosition="67" />
-    <nodeInfo nodeId="5709109565604299245" fileName="EdgesOrder.java" startLine="158" startPosition="33" endLine="159" endPosition="34" />
-    <nodeInfo nodeId="5709109565604299253" fileName="EdgesOrder.java" startLine="160" startPosition="26" endLine="161" endPosition="32" />
-    <nodeInfo nodeId="5709109565604299366" fileName="EdgesOrder.java" startLine="164" startPosition="5" endLine="165" endPosition="63" />
-    <nodeInfo nodeId="603019764244013888" fileName="EdgesOrder.java" startLine="86" startPosition="10" endLine="88" endPosition="5" />
-    <nodeInfo nodeId="5709109565604304439" fileName="EdgesOrder.java" startLine="101" startPosition="12" endLine="103" endPosition="7" />
-    <nodeInfo nodeId="5709109565604299129" fileName="EdgesOrder.java" startLine="115" startPosition="10" endLine="117" endPosition="5" />
-    <nodeInfo nodeId="5709109565604299443" fileName="EdgesOrder.java" startLine="125" startPosition="10" endLine="127" endPosition="5" />
-    <nodeInfo nodeId="5709109565604299291" fileName="EdgesOrder.java" startLine="134" startPosition="10" endLine="136" endPosition="5" />
-    <nodeInfo nodeId="5709109565604299309" fileName="EdgesOrder.java" startLine="141" startPosition="14" endLine="143" endPosition="9" />
-    <nodeInfo nodeId="5709109565604299325" fileName="EdgesOrder.java" startLine="147" startPosition="14" endLine="149" endPosition="9" />
-    <nodeInfo nodeId="5709109565604299344" fileName="EdgesOrder.java" startLine="155" startPosition="12" endLine="157" endPosition="7" />
-    <nodeInfo nodeId="5709109565604299251" fileName="EdgesOrder.java" startLine="159" startPosition="34" endLine="162" endPosition="9" />
-    <nodeInfo nodeId="603019764244013931" fileName="EdgesOrder.java" startLine="40" startPosition="0" endLine="44" endPosition="0" />
-    <nodeInfo nodeId="603019764244021980" fileName="EdgesOrder.java" startLine="54" startPosition="0" endLine="58" endPosition="0" />
-    <nodeInfo nodeId="87514548894030334" fileName="EdgesOrder.java" startLine="76" startPosition="37" endLine="80" endPosition="5" />
-    <nodeInfo nodeId="603019764244010095" fileName="EdgesOrder.java" startLine="24" startPosition="0" endLine="29" endPosition="3" />
-    <nodeInfo nodeId="603019764244013753" fileName="EdgesOrder.java" startLine="30" startPosition="0" endLine="35" endPosition="0" />
-    <nodeInfo nodeId="603019764244013801" fileName="EdgesOrder.java" startLine="35" startPosition="0" endLine="40" endPosition="0" />
-    <nodeInfo nodeId="5709109565604240242" fileName="EdgesOrder.java" startLine="46" startPosition="48" endLine="51" endPosition="5" />
-    <nodeInfo nodeId="603019764244022000" fileName="EdgesOrder.java" startLine="59" startPosition="39" endLine="64" endPosition="5" />
-    <nodeInfo nodeId="87514548894030389" fileName="EdgesOrder.java" startLine="68" startPosition="20" endLine="73" endPosition="5" />
-    <nodeInfo nodeId="603019764244013878" fileName="EdgesOrder.java" startLine="83" startPosition="54" endLine="88" endPosition="5" />
-    <nodeInfo nodeId="5709109565604304419" fileName="EdgesOrder.java" startLine="98" startPosition="20" endLine="103" endPosition="7" />
-    <nodeInfo nodeId="5709109565604293685" fileName="EdgesOrder.java" startLine="112" startPosition="49" endLine="117" endPosition="5" />
-    <nodeInfo nodeId="5709109565604299430" fileName="EdgesOrder.java" startLine="122" startPosition="49" endLine="127" endPosition="5" />
-    <nodeInfo nodeId="5709109565604299271" fileName="EdgesOrder.java" startLine="131" startPosition="18" endLine="136" endPosition="5" />
-    <nodeInfo nodeId="5709109565604299306" fileName="EdgesOrder.java" startLine="138" startPosition="63" endLine="143" endPosition="9" />
-    <nodeInfo nodeId="5709109565604299322" fileName="EdgesOrder.java" startLine="144" startPosition="14" endLine="149" endPosition="9" />
-    <nodeInfo nodeId="5709109565604299341" fileName="EdgesOrder.java" startLine="152" startPosition="29" endLine="157" endPosition="7" />
-    <nodeInfo nodeId="5709109565604299225" fileName="EdgesOrder.java" startLine="144" startPosition="12" endLine="150" endPosition="7" />
-    <nodeInfo nodeId="5709109565604299240" fileName="EdgesOrder.java" startLine="157" startPosition="7" endLine="163" endPosition="7" />
-    <nodeInfo nodeId="87514548894030327" fileName="EdgesOrder.java" startLine="75" startPosition="0" endLine="82" endPosition="0" />
-    <nodeInfo nodeId="603019764244021972" fileName="EdgesOrder.java" startLine="58" startPosition="0" endLine="66" endPosition="0" />
-    <nodeInfo nodeId="603019764244013868" fileName="EdgesOrder.java" startLine="82" startPosition="0" endLine="90" endPosition="0" />
-    <nodeInfo nodeId="87514548894030321" fileName="EdgesOrder.java" startLine="66" startPosition="0" endLine="75" endPosition="0" />
-    <nodeInfo nodeId="603019764244013987" fileName="EdgesOrder.java" startLine="44" startPosition="0" endLine="54" endPosition="0" />
-    <nodeInfo nodeId="5709109565604293618" fileName="EdgesOrder.java" startLine="109" startPosition="0" endLine="119" endPosition="0" />
-    <nodeInfo nodeId="5709109565604293625" fileName="EdgesOrder.java" startLine="119" startPosition="0" endLine="129" endPosition="0" />
-    <nodeInfo nodeId="5709109565604299472" fileName="EdgesOrder.java" startLine="94" startPosition="40" endLine="105" endPosition="5" />
-    <nodeInfo nodeId="5709109565604299214" fileName="EdgesOrder.java" startLine="137" startPosition="27" endLine="150" endPosition="7" />
-    <nodeInfo nodeId="5709109565604299231" fileName="EdgesOrder.java" startLine="151" startPosition="10" endLine="164" endPosition="5" />
-    <nodeInfo nodeId="5709109565604293652" fileName="EdgesOrder.java" startLine="90" startPosition="0" endLine="109" endPosition="0" />
-    <nodeInfo nodeId="5709109565604299207" fileName="EdgesOrder.java" startLine="136" startPosition="5" endLine="164" endPosition="5" />
-    <nodeInfo nodeId="5709109565604299187" fileName="EdgesOrder.java" startLine="129" startPosition="0" endLine="167" endPosition="0" />
-    <scopeInfo nodeId="603019764244013934" fileName="EdgesOrder.java" startLine="41" startPosition="25" endLine="42" endPosition="31" />
-    <scopeInfo nodeId="603019764244021983" fileName="EdgesOrder.java" startLine="55" startPosition="31" endLine="56" endPosition="54" />
-    <scopeInfo nodeId="603019764244013879" fileName="EdgesOrder.java" startLine="84" startPosition="21" endLine="85" endPosition="57" />
-    <scopeInfo nodeId="603019764244013889" fileName="EdgesOrder.java" startLine="86" startPosition="12" endLine="87" endPosition="19" />
-    <scopeInfo nodeId="5709109565604304420" fileName="EdgesOrder.java" startLine="99" startPosition="22" endLine="100" endPosition="64" />
-    <scopeInfo nodeId="5709109565604304440" fileName="EdgesOrder.java" startLine="101" startPosition="14" endLine="102" endPosition="64" />
-    <scopeInfo nodeId="5709109565604293687" fileName="EdgesOrder.java" startLine="113" startPosition="35" endLine="114" endPosition="53" />
-    <scopeInfo nodeId="5709109565604299130" fileName="EdgesOrder.java" startLine="115" startPosition="12" endLine="116" endPosition="54" />
-    <scopeInfo nodeId="5709109565604299436" fileName="EdgesOrder.java" startLine="123" startPosition="35" endLine="124" endPosition="54" />
-    <scopeInfo nodeId="5709109565604299444" fileName="EdgesOrder.java" startLine="125" startPosition="12" endLine="126" endPosition="53" />
-    <scopeInfo nodeId="5709109565604299272" fileName="EdgesOrder.java" startLine="132" startPosition="27" endLine="133" endPosition="63" />
-    <scopeInfo nodeId="5709109565604299292" fileName="EdgesOrder.java" startLine="134" startPosition="12" endLine="135" endPosition="62" />
-    <scopeInfo nodeId="5709109565604299308" fileName="EdgesOrder.java" startLine="139" startPosition="23" endLine="140" endPosition="64" />
-    <scopeInfo nodeId="5709109565604299310" fileName="EdgesOrder.java" startLine="141" startPosition="16" endLine="142" endPosition="63" />
-    <scopeInfo nodeId="5709109565604299324" fileName="EdgesOrder.java" startLine="145" startPosition="23" endLine="146" endPosition="62" />
-    <scopeInfo nodeId="5709109565604299326" fileName="EdgesOrder.java" startLine="147" startPosition="16" endLine="148" endPosition="63" />
-    <scopeInfo nodeId="5709109565604299343" fileName="EdgesOrder.java" startLine="153" startPosition="21" endLine="154" endPosition="82" />
-    <scopeInfo nodeId="5709109565604299345" fileName="EdgesOrder.java" startLine="155" startPosition="14" endLine="156" endPosition="67" />
-    <scopeInfo nodeId="5709109565604299252" fileName="EdgesOrder.java" startLine="160" startPosition="26" endLine="161" endPosition="32" />
-    <scopeInfo nodeId="603019764244013756" fileName="EdgesOrder.java" startLine="31" startPosition="48" endLine="33" endPosition="37">
+    <nodeInfo nodeId="603019764244010099" fileName="EdgesOrder.java" startLine="21" startPosition="25" endLine="22" endPosition="45" />
+    <nodeInfo nodeId="603019764244010109" fileName="EdgesOrder.java" startLine="22" startPosition="45" endLine="23" endPosition="46" />
+    <nodeInfo nodeId="603019764244035817" fileName="EdgesOrder.java" startLine="23" startPosition="46" endLine="24" endPosition="29" />
+    <nodeInfo nodeId="603019764244013723" fileName="EdgesOrder.java" startLine="27" startPosition="6" endLine="28" endPosition="74" />
+    <nodeInfo nodeId="603019764244013734" fileName="EdgesOrder.java" startLine="28" startPosition="74" endLine="29" endPosition="75" />
+    <nodeInfo nodeId="4422427343208747115" fileName="EdgesOrder.java" startLine="30" startPosition="6" endLine="31" endPosition="101" />
+    <nodeInfo nodeId="4422427343208747123" fileName="EdgesOrder.java" startLine="31" startPosition="101" endLine="32" endPosition="102" />
+    <nodeInfo nodeId="603019764244013745" fileName="EdgesOrder.java" startLine="32" startPosition="102" endLine="33" endPosition="23" />
+    <nodeInfo nodeId="603019764244013762" fileName="EdgesOrder.java" startLine="36" startPosition="48" endLine="37" endPosition="67" />
+    <nodeInfo nodeId="603019764244013854" fileName="EdgesOrder.java" startLine="37" startPosition="67" endLine="38" endPosition="37" />
+    <nodeInfo nodeId="603019764244013806" fileName="EdgesOrder.java" startLine="41" startPosition="49" endLine="42" endPosition="68" />
+    <nodeInfo nodeId="603019764244013860" fileName="EdgesOrder.java" startLine="42" startPosition="68" endLine="43" endPosition="37" />
+    <nodeInfo nodeId="603019764244035827" fileName="EdgesOrder.java" startLine="46" startPosition="25" endLine="47" endPosition="31" />
+    <nodeInfo nodeId="5709109565604241136" fileName="EdgesOrder.java" startLine="50" startPosition="41" endLine="51" endPosition="48" />
+    <nodeInfo nodeId="5709109565604241152" fileName="EdgesOrder.java" startLine="52" startPosition="87" endLine="53" endPosition="47" />
+    <nodeInfo nodeId="5709109565604241165" fileName="EdgesOrder.java" startLine="53" startPosition="47" endLine="54" endPosition="82" />
+    <nodeInfo nodeId="5709109565604241178" fileName="EdgesOrder.java" startLine="54" startPosition="82" endLine="55" endPosition="91" />
+    <nodeInfo nodeId="5709109565604241143" fileName="EdgesOrder.java" startLine="56" startPosition="5" endLine="57" endPosition="30" />
+    <nodeInfo nodeId="603019764244021987" fileName="EdgesOrder.java" startLine="60" startPosition="31" endLine="61" endPosition="54" />
+    <nodeInfo nodeId="5709109565604265040" fileName="EdgesOrder.java" startLine="65" startPosition="61" endLine="66" endPosition="22" />
+    <nodeInfo nodeId="603019764244022075" fileName="EdgesOrder.java" startLine="66" startPosition="22" endLine="67" endPosition="137" />
+    <nodeInfo nodeId="603019764244022085" fileName="EdgesOrder.java" startLine="67" startPosition="137" endLine="68" endPosition="139" />
+    <nodeInfo nodeId="87514548894030384" fileName="EdgesOrder.java" startLine="72" startPosition="45" endLine="73" endPosition="20" />
+    <nodeInfo nodeId="5709109565604267371" fileName="EdgesOrder.java" startLine="74" startPosition="23" endLine="75" endPosition="34" />
+    <nodeInfo nodeId="87514548894030399" fileName="EdgesOrder.java" startLine="75" startPosition="34" endLine="76" endPosition="102" />
+    <nodeInfo nodeId="87514548894030418" fileName="EdgesOrder.java" startLine="76" startPosition="102" endLine="77" endPosition="103" />
+    <nodeInfo nodeId="87514548894030350" fileName="EdgesOrder.java" startLine="82" startPosition="65" endLine="83" endPosition="97" />
+    <nodeInfo nodeId="87514548894030363" fileName="EdgesOrder.java" startLine="83" startPosition="97" endLine="84" endPosition="98" />
+    <nodeInfo nodeId="603019764244013880" fileName="EdgesOrder.java" startLine="89" startPosition="21" endLine="90" endPosition="57" />
+    <nodeInfo nodeId="603019764244013890" fileName="EdgesOrder.java" startLine="91" startPosition="12" endLine="92" endPosition="19" />
+    <nodeInfo nodeId="5709109565604293664" fileName="EdgesOrder.java" startLine="96" startPosition="78" endLine="97" endPosition="32" />
+    <nodeInfo nodeId="5709109565604299453" fileName="EdgesOrder.java" startLine="97" startPosition="32" endLine="98" endPosition="17" />
+    <nodeInfo nodeId="5709109565604299461" fileName="EdgesOrder.java" startLine="98" startPosition="17" endLine="99" endPosition="40" />
+    <nodeInfo nodeId="5709109565604299485" fileName="EdgesOrder.java" startLine="100" startPosition="41" endLine="101" endPosition="28" />
+    <nodeInfo nodeId="5709109565604299494" fileName="EdgesOrder.java" startLine="101" startPosition="28" endLine="102" endPosition="36" />
+    <nodeInfo nodeId="5709109565604304428" fileName="EdgesOrder.java" startLine="102" startPosition="36" endLine="103" endPosition="20" />
+    <nodeInfo nodeId="5709109565604304431" fileName="EdgesOrder.java" startLine="104" startPosition="22" endLine="105" endPosition="64" />
+    <nodeInfo nodeId="5709109565604304441" fileName="EdgesOrder.java" startLine="106" startPosition="14" endLine="107" endPosition="64" />
+    <nodeInfo nodeId="5709109565604299531" fileName="EdgesOrder.java" startLine="108" startPosition="7" endLine="109" endPosition="44" />
+    <nodeInfo nodeId="5709109565604299537" fileName="EdgesOrder.java" startLine="110" startPosition="5" endLine="111" endPosition="26" />
+    <nodeInfo nodeId="5709109565604293680" fileName="EdgesOrder.java" startLine="111" startPosition="26" endLine="112" endPosition="16" />
+    <nodeInfo nodeId="5709109565604293741" fileName="EdgesOrder.java" startLine="115" startPosition="54" endLine="116" endPosition="47" />
+    <nodeInfo nodeId="5709109565604293734" fileName="EdgesOrder.java" startLine="116" startPosition="47" endLine="117" endPosition="49" />
+    <nodeInfo nodeId="5709109565604299402" fileName="EdgesOrder.java" startLine="118" startPosition="35" endLine="119" endPosition="53" />
+    <nodeInfo nodeId="5709109565604299409" fileName="EdgesOrder.java" startLine="120" startPosition="12" endLine="121" endPosition="54" />
+    <nodeInfo nodeId="5709109565604299418" fileName="EdgesOrder.java" startLine="125" startPosition="54" endLine="126" endPosition="47" />
+    <nodeInfo nodeId="5709109565604299424" fileName="EdgesOrder.java" startLine="126" startPosition="47" endLine="127" endPosition="49" />
+    <nodeInfo nodeId="5709109565604299437" fileName="EdgesOrder.java" startLine="128" startPosition="35" endLine="129" endPosition="54" />
+    <nodeInfo nodeId="5709109565604299445" fileName="EdgesOrder.java" startLine="130" startPosition="12" endLine="131" endPosition="53" />
+    <nodeInfo nodeId="5709109565604299267" fileName="EdgesOrder.java" startLine="135" startPosition="109" endLine="136" endPosition="18" />
+    <nodeInfo nodeId="5709109565604299283" fileName="EdgesOrder.java" startLine="137" startPosition="27" endLine="138" endPosition="63" />
+    <nodeInfo nodeId="5709109565604299295" fileName="EdgesOrder.java" startLine="139" startPosition="12" endLine="140" endPosition="62" />
+    <nodeInfo nodeId="5709109565604299216" fileName="EdgesOrder.java" startLine="144" startPosition="23" endLine="145" endPosition="64" />
+    <nodeInfo nodeId="5709109565604299314" fileName="EdgesOrder.java" startLine="146" startPosition="16" endLine="147" endPosition="63" />
+    <nodeInfo nodeId="5709109565604299227" fileName="EdgesOrder.java" startLine="150" startPosition="23" endLine="151" endPosition="62" />
+    <nodeInfo nodeId="5709109565604299330" fileName="EdgesOrder.java" startLine="152" startPosition="16" endLine="153" endPosition="63" />
+    <nodeInfo nodeId="5709109565604299233" fileName="EdgesOrder.java" startLine="156" startPosition="12" endLine="157" endPosition="29" />
+    <nodeInfo nodeId="5709109565604299338" fileName="EdgesOrder.java" startLine="158" startPosition="21" endLine="159" endPosition="82" />
+    <nodeInfo nodeId="5709109565604299349" fileName="EdgesOrder.java" startLine="160" startPosition="14" endLine="161" endPosition="67" />
+    <nodeInfo nodeId="5709109565604299245" fileName="EdgesOrder.java" startLine="163" startPosition="33" endLine="164" endPosition="34" />
+    <nodeInfo nodeId="5709109565604299253" fileName="EdgesOrder.java" startLine="165" startPosition="26" endLine="166" endPosition="32" />
+    <nodeInfo nodeId="5709109565604299366" fileName="EdgesOrder.java" startLine="169" startPosition="5" endLine="170" endPosition="63" />
+    <nodeInfo nodeId="603019764244013888" fileName="EdgesOrder.java" startLine="91" startPosition="10" endLine="93" endPosition="5" />
+    <nodeInfo nodeId="5709109565604304439" fileName="EdgesOrder.java" startLine="106" startPosition="12" endLine="108" endPosition="7" />
+    <nodeInfo nodeId="5709109565604299129" fileName="EdgesOrder.java" startLine="120" startPosition="10" endLine="122" endPosition="5" />
+    <nodeInfo nodeId="5709109565604299443" fileName="EdgesOrder.java" startLine="130" startPosition="10" endLine="132" endPosition="5" />
+    <nodeInfo nodeId="5709109565604299291" fileName="EdgesOrder.java" startLine="139" startPosition="10" endLine="141" endPosition="5" />
+    <nodeInfo nodeId="5709109565604299309" fileName="EdgesOrder.java" startLine="146" startPosition="14" endLine="148" endPosition="9" />
+    <nodeInfo nodeId="5709109565604299325" fileName="EdgesOrder.java" startLine="152" startPosition="14" endLine="154" endPosition="9" />
+    <nodeInfo nodeId="5709109565604299344" fileName="EdgesOrder.java" startLine="160" startPosition="12" endLine="162" endPosition="7" />
+    <nodeInfo nodeId="5709109565604299251" fileName="EdgesOrder.java" startLine="164" startPosition="34" endLine="167" endPosition="9" />
+    <nodeInfo nodeId="4422427343208747079" fileName="EdgesOrder.java" startLine="26" startPosition="23" endLine="30" endPosition="6" />
+    <nodeInfo nodeId="603019764244013931" fileName="EdgesOrder.java" startLine="45" startPosition="0" endLine="49" endPosition="0" />
+    <nodeInfo nodeId="603019764244021980" fileName="EdgesOrder.java" startLine="59" startPosition="0" endLine="63" endPosition="0" />
+    <nodeInfo nodeId="87514548894030334" fileName="EdgesOrder.java" startLine="81" startPosition="37" endLine="85" endPosition="5" />
+    <nodeInfo nodeId="603019764244013753" fileName="EdgesOrder.java" startLine="35" startPosition="0" endLine="40" endPosition="0" />
+    <nodeInfo nodeId="603019764244013801" fileName="EdgesOrder.java" startLine="40" startPosition="0" endLine="45" endPosition="0" />
+    <nodeInfo nodeId="5709109565604240242" fileName="EdgesOrder.java" startLine="51" startPosition="48" endLine="56" endPosition="5" />
+    <nodeInfo nodeId="603019764244022000" fileName="EdgesOrder.java" startLine="64" startPosition="39" endLine="69" endPosition="5" />
+    <nodeInfo nodeId="87514548894030389" fileName="EdgesOrder.java" startLine="73" startPosition="20" endLine="78" endPosition="5" />
+    <nodeInfo nodeId="603019764244013878" fileName="EdgesOrder.java" startLine="88" startPosition="54" endLine="93" endPosition="5" />
+    <nodeInfo nodeId="5709109565604304419" fileName="EdgesOrder.java" startLine="103" startPosition="20" endLine="108" endPosition="7" />
+    <nodeInfo nodeId="5709109565604293685" fileName="EdgesOrder.java" startLine="117" startPosition="49" endLine="122" endPosition="5" />
+    <nodeInfo nodeId="5709109565604299430" fileName="EdgesOrder.java" startLine="127" startPosition="49" endLine="132" endPosition="5" />
+    <nodeInfo nodeId="5709109565604299271" fileName="EdgesOrder.java" startLine="136" startPosition="18" endLine="141" endPosition="5" />
+    <nodeInfo nodeId="5709109565604299306" fileName="EdgesOrder.java" startLine="143" startPosition="63" endLine="148" endPosition="9" />
+    <nodeInfo nodeId="5709109565604299322" fileName="EdgesOrder.java" startLine="149" startPosition="14" endLine="154" endPosition="9" />
+    <nodeInfo nodeId="5709109565604299341" fileName="EdgesOrder.java" startLine="157" startPosition="29" endLine="162" endPosition="7" />
+    <nodeInfo nodeId="5709109565604299225" fileName="EdgesOrder.java" startLine="149" startPosition="12" endLine="155" endPosition="7" />
+    <nodeInfo nodeId="5709109565604299240" fileName="EdgesOrder.java" startLine="162" startPosition="7" endLine="168" endPosition="7" />
+    <nodeInfo nodeId="87514548894030327" fileName="EdgesOrder.java" startLine="80" startPosition="0" endLine="87" endPosition="0" />
+    <nodeInfo nodeId="603019764244021972" fileName="EdgesOrder.java" startLine="63" startPosition="0" endLine="71" endPosition="0" />
+    <nodeInfo nodeId="603019764244013868" fileName="EdgesOrder.java" startLine="87" startPosition="0" endLine="95" endPosition="0" />
+    <nodeInfo nodeId="603019764244010095" fileName="EdgesOrder.java" startLine="25" startPosition="0" endLine="34" endPosition="3" />
+    <nodeInfo nodeId="87514548894030321" fileName="EdgesOrder.java" startLine="71" startPosition="0" endLine="80" endPosition="0" />
+    <nodeInfo nodeId="603019764244013987" fileName="EdgesOrder.java" startLine="49" startPosition="0" endLine="59" endPosition="0" />
+    <nodeInfo nodeId="5709109565604293618" fileName="EdgesOrder.java" startLine="114" startPosition="0" endLine="124" endPosition="0" />
+    <nodeInfo nodeId="5709109565604293625" fileName="EdgesOrder.java" startLine="124" startPosition="0" endLine="134" endPosition="0" />
+    <nodeInfo nodeId="5709109565604299472" fileName="EdgesOrder.java" startLine="99" startPosition="40" endLine="110" endPosition="5" />
+    <nodeInfo nodeId="5709109565604299214" fileName="EdgesOrder.java" startLine="142" startPosition="27" endLine="155" endPosition="7" />
+    <nodeInfo nodeId="5709109565604299231" fileName="EdgesOrder.java" startLine="156" startPosition="10" endLine="169" endPosition="5" />
+    <nodeInfo nodeId="5709109565604293652" fileName="EdgesOrder.java" startLine="95" startPosition="0" endLine="114" endPosition="0" />
+    <nodeInfo nodeId="5709109565604299207" fileName="EdgesOrder.java" startLine="141" startPosition="5" endLine="169" endPosition="5" />
+    <nodeInfo nodeId="5709109565604299187" fileName="EdgesOrder.java" startLine="134" startPosition="0" endLine="172" endPosition="0" />
+    <scopeInfo nodeId="603019764244013934" fileName="EdgesOrder.java" startLine="46" startPosition="25" endLine="47" endPosition="31" />
+    <scopeInfo nodeId="603019764244021983" fileName="EdgesOrder.java" startLine="60" startPosition="31" endLine="61" endPosition="54" />
+    <scopeInfo nodeId="603019764244013879" fileName="EdgesOrder.java" startLine="89" startPosition="21" endLine="90" endPosition="57" />
+    <scopeInfo nodeId="603019764244013889" fileName="EdgesOrder.java" startLine="91" startPosition="12" endLine="92" endPosition="19" />
+    <scopeInfo nodeId="5709109565604304420" fileName="EdgesOrder.java" startLine="104" startPosition="22" endLine="105" endPosition="64" />
+    <scopeInfo nodeId="5709109565604304440" fileName="EdgesOrder.java" startLine="106" startPosition="14" endLine="107" endPosition="64" />
+    <scopeInfo nodeId="5709109565604293687" fileName="EdgesOrder.java" startLine="118" startPosition="35" endLine="119" endPosition="53" />
+    <scopeInfo nodeId="5709109565604299130" fileName="EdgesOrder.java" startLine="120" startPosition="12" endLine="121" endPosition="54" />
+    <scopeInfo nodeId="5709109565604299436" fileName="EdgesOrder.java" startLine="128" startPosition="35" endLine="129" endPosition="54" />
+    <scopeInfo nodeId="5709109565604299444" fileName="EdgesOrder.java" startLine="130" startPosition="12" endLine="131" endPosition="53" />
+    <scopeInfo nodeId="5709109565604299272" fileName="EdgesOrder.java" startLine="137" startPosition="27" endLine="138" endPosition="63" />
+    <scopeInfo nodeId="5709109565604299292" fileName="EdgesOrder.java" startLine="139" startPosition="12" endLine="140" endPosition="62" />
+    <scopeInfo nodeId="5709109565604299308" fileName="EdgesOrder.java" startLine="144" startPosition="23" endLine="145" endPosition="64" />
+    <scopeInfo nodeId="5709109565604299310" fileName="EdgesOrder.java" startLine="146" startPosition="16" endLine="147" endPosition="63" />
+    <scopeInfo nodeId="5709109565604299324" fileName="EdgesOrder.java" startLine="150" startPosition="23" endLine="151" endPosition="62" />
+    <scopeInfo nodeId="5709109565604299326" fileName="EdgesOrder.java" startLine="152" startPosition="16" endLine="153" endPosition="63" />
+    <scopeInfo nodeId="5709109565604299343" fileName="EdgesOrder.java" startLine="158" startPosition="21" endLine="159" endPosition="82" />
+    <scopeInfo nodeId="5709109565604299345" fileName="EdgesOrder.java" startLine="160" startPosition="14" endLine="161" endPosition="67" />
+    <scopeInfo nodeId="5709109565604299252" fileName="EdgesOrder.java" startLine="165" startPosition="26" endLine="166" endPosition="32" />
+    <scopeInfo nodeId="603019764244013756" fileName="EdgesOrder.java" startLine="36" startPosition="48" endLine="38" endPosition="37">
       <varInfo nodeId="603019764244013763" varName="edges" />
     </scopeInfo>
-    <scopeInfo nodeId="603019764244013805" fileName="EdgesOrder.java" startLine="36" startPosition="49" endLine="38" endPosition="37">
+    <scopeInfo nodeId="603019764244013805" fileName="EdgesOrder.java" startLine="41" startPosition="49" endLine="43" endPosition="37">
       <varInfo nodeId="603019764244013807" varName="edges" />
     </scopeInfo>
-    <scopeInfo nodeId="87514548894030336" fileName="EdgesOrder.java" startLine="77" startPosition="65" endLine="79" endPosition="98" />
-    <scopeInfo nodeId="603019764244010098" fileName="EdgesOrder.java" startLine="25" startPosition="23" endLine="28" endPosition="23" />
-    <scopeInfo nodeId="5709109565604240245" fileName="EdgesOrder.java" startLine="47" startPosition="87" endLine="50" endPosition="91" />
-    <scopeInfo nodeId="603019764244022003" fileName="EdgesOrder.java" startLine="60" startPosition="61" endLine="63" endPosition="139" />
-    <scopeInfo nodeId="87514548894030390" fileName="EdgesOrder.java" startLine="69" startPosition="23" endLine="72" endPosition="103" />
-    <scopeInfo nodeId="603019764244013931" fileName="EdgesOrder.java" startLine="40" startPosition="0" endLine="44" endPosition="0" />
-    <scopeInfo nodeId="603019764244021980" fileName="EdgesOrder.java" startLine="54" startPosition="0" endLine="58" endPosition="0" />
-    <scopeInfo nodeId="87514548894030330" fileName="EdgesOrder.java" startLine="76" startPosition="37" endLine="80" endPosition="5" />
-    <scopeInfo nodeId="5709109565604299244" fileName="EdgesOrder.java" startLine="158" startPosition="33" endLine="162" endPosition="9">
+    <scopeInfo nodeId="87514548894030336" fileName="EdgesOrder.java" startLine="82" startPosition="65" endLine="84" endPosition="98" />
+    <scopeInfo nodeId="5709109565604240245" fileName="EdgesOrder.java" startLine="52" startPosition="87" endLine="55" endPosition="91" />
+    <scopeInfo nodeId="603019764244022003" fileName="EdgesOrder.java" startLine="65" startPosition="61" endLine="68" endPosition="139" />
+    <scopeInfo nodeId="87514548894030390" fileName="EdgesOrder.java" startLine="74" startPosition="23" endLine="77" endPosition="103" />
+    <scopeInfo nodeId="603019764244013931" fileName="EdgesOrder.java" startLine="45" startPosition="0" endLine="49" endPosition="0" />
+    <scopeInfo nodeId="603019764244021980" fileName="EdgesOrder.java" startLine="59" startPosition="0" endLine="63" endPosition="0" />
+    <scopeInfo nodeId="87514548894030330" fileName="EdgesOrder.java" startLine="81" startPosition="37" endLine="85" endPosition="5" />
+    <scopeInfo nodeId="5709109565604299244" fileName="EdgesOrder.java" startLine="163" startPosition="33" endLine="167" endPosition="9">
       <varInfo nodeId="5709109565604299246" varName="cur" />
     </scopeInfo>
-    <scopeInfo nodeId="603019764244010095" fileName="EdgesOrder.java" startLine="24" startPosition="0" endLine="29" endPosition="3" />
-    <scopeInfo nodeId="603019764244013753" fileName="EdgesOrder.java" startLine="30" startPosition="0" endLine="35" endPosition="0">
+    <scopeInfo nodeId="603019764244013753" fileName="EdgesOrder.java" startLine="35" startPosition="0" endLine="40" endPosition="0">
       <varInfo nodeId="603019764244013760" varName="node" />
     </scopeInfo>
-    <scopeInfo nodeId="603019764244013801" fileName="EdgesOrder.java" startLine="35" startPosition="0" endLine="40" endPosition="0">
+    <scopeInfo nodeId="603019764244013801" fileName="EdgesOrder.java" startLine="40" startPosition="0" endLine="45" endPosition="0">
       <varInfo nodeId="603019764244013827" varName="node" />
     </scopeInfo>
-    <scopeInfo nodeId="5709109565604240242" fileName="EdgesOrder.java" startLine="46" startPosition="48" endLine="51" endPosition="5" />
-    <scopeInfo nodeId="603019764244021975" fileName="EdgesOrder.java" startLine="59" startPosition="39" endLine="64" endPosition="5" />
-    <scopeInfo nodeId="603019764244022000" fileName="EdgesOrder.java" startLine="59" startPosition="39" endLine="64" endPosition="5" />
-    <scopeInfo nodeId="603019764244013877" fileName="EdgesOrder.java" startLine="83" startPosition="54" endLine="88" endPosition="5" />
-    <scopeInfo nodeId="5709109565604299215" fileName="EdgesOrder.java" startLine="138" startPosition="63" endLine="143" endPosition="9" />
-    <scopeInfo nodeId="5709109565604299226" fileName="EdgesOrder.java" startLine="144" startPosition="14" endLine="149" endPosition="9" />
-    <scopeInfo nodeId="87514548894030324" fileName="EdgesOrder.java" startLine="67" startPosition="45" endLine="73" endPosition="5" />
-    <scopeInfo nodeId="603019764244013990" fileName="EdgesOrder.java" startLine="45" startPosition="41" endLine="52" endPosition="30">
+    <scopeInfo nodeId="5709109565604240242" fileName="EdgesOrder.java" startLine="51" startPosition="48" endLine="56" endPosition="5" />
+    <scopeInfo nodeId="603019764244021975" fileName="EdgesOrder.java" startLine="64" startPosition="39" endLine="69" endPosition="5" />
+    <scopeInfo nodeId="603019764244022000" fileName="EdgesOrder.java" startLine="64" startPosition="39" endLine="69" endPosition="5" />
+    <scopeInfo nodeId="603019764244013877" fileName="EdgesOrder.java" startLine="88" startPosition="54" endLine="93" endPosition="5" />
+    <scopeInfo nodeId="5709109565604299215" fileName="EdgesOrder.java" startLine="143" startPosition="63" endLine="148" endPosition="9" />
+    <scopeInfo nodeId="5709109565604299226" fileName="EdgesOrder.java" startLine="149" startPosition="14" endLine="154" endPosition="9" />
+    <scopeInfo nodeId="87514548894030324" fileName="EdgesOrder.java" startLine="72" startPosition="45" endLine="78" endPosition="5" />
+    <scopeInfo nodeId="603019764244010098" fileName="EdgesOrder.java" startLine="26" startPosition="23" endLine="33" endPosition="23" />
+    <scopeInfo nodeId="603019764244013990" fileName="EdgesOrder.java" startLine="50" startPosition="41" endLine="57" endPosition="30">
       <varInfo nodeId="5709109565604241137" varName="builder" />
     </scopeInfo>
-    <scopeInfo nodeId="87514548894030327" fileName="EdgesOrder.java" startLine="75" startPosition="0" endLine="82" endPosition="0">
+    <scopeInfo nodeId="87514548894030327" fileName="EdgesOrder.java" startLine="80" startPosition="0" endLine="87" endPosition="0">
       <varInfo nodeId="87514548894030332" varName="node" />
     </scopeInfo>
-    <scopeInfo nodeId="5709109565604293621" fileName="EdgesOrder.java" startLine="110" startPosition="54" endLine="117" endPosition="5">
+    <scopeInfo nodeId="5709109565604293621" fileName="EdgesOrder.java" startLine="115" startPosition="54" endLine="122" endPosition="5">
       <varInfo nodeId="5709109565604293742" varName="inOrder" />
       <varInfo nodeId="5709109565604293735" varName="outOrder" />
     </scopeInfo>
-    <scopeInfo nodeId="5709109565604293628" fileName="EdgesOrder.java" startLine="120" startPosition="54" endLine="127" endPosition="5">
+    <scopeInfo nodeId="5709109565604293628" fileName="EdgesOrder.java" startLine="125" startPosition="54" endLine="132" endPosition="5">
       <varInfo nodeId="5709109565604299419" varName="inOrder" />
       <varInfo nodeId="5709109565604299425" varName="outOrder" />
     </scopeInfo>
-    <scopeInfo nodeId="603019764244021972" fileName="EdgesOrder.java" startLine="58" startPosition="0" endLine="66" endPosition="0">
+    <scopeInfo nodeId="603019764244021972" fileName="EdgesOrder.java" startLine="63" startPosition="0" endLine="71" endPosition="0">
       <varInfo nodeId="603019764244021978" varName="order" />
     </scopeInfo>
-    <scopeInfo nodeId="603019764244013868" fileName="EdgesOrder.java" startLine="82" startPosition="0" endLine="90" endPosition="0">
+    <scopeInfo nodeId="603019764244013868" fileName="EdgesOrder.java" startLine="87" startPosition="0" endLine="95" endPosition="0">
       <varInfo nodeId="603019764244013874" varName="edges" />
     </scopeInfo>
-    <scopeInfo nodeId="87514548894030321" fileName="EdgesOrder.java" startLine="66" startPosition="0" endLine="75" endPosition="0">
+    <scopeInfo nodeId="603019764244010095" fileName="EdgesOrder.java" startLine="25" startPosition="0" endLine="34" endPosition="3" />
+    <scopeInfo nodeId="87514548894030321" fileName="EdgesOrder.java" startLine="71" startPosition="0" endLine="80" endPosition="0">
       <varInfo nodeId="87514548894030377" varName="node" />
       <varInfo nodeId="87514548894030325" varName="edge" />
     </scopeInfo>
-    <scopeInfo nodeId="5709109565604299474" fileName="EdgesOrder.java" startLine="95" startPosition="41" endLine="104" endPosition="44">
+    <scopeInfo nodeId="5709109565604299474" fileName="EdgesOrder.java" startLine="100" startPosition="41" endLine="109" endPosition="44">
       <varInfo nodeId="5709109565604304429" varName="nextEdge" />
     </scopeInfo>
-    <scopeInfo nodeId="603019764244013987" fileName="EdgesOrder.java" startLine="44" startPosition="0" endLine="54" endPosition="0">
+    <scopeInfo nodeId="603019764244013987" fileName="EdgesOrder.java" startLine="49" startPosition="0" endLine="59" endPosition="0">
       <varInfo nodeId="5709109565604269714" varName="prefix" />
     </scopeInfo>
-    <scopeInfo nodeId="5709109565604293618" fileName="EdgesOrder.java" startLine="109" startPosition="0" endLine="119" endPosition="0">
+    <scopeInfo nodeId="5709109565604293618" fileName="EdgesOrder.java" startLine="114" startPosition="0" endLine="124" endPosition="0">
       <varInfo nodeId="5709109565604293632" varName="node" />
       <varInfo nodeId="5709109565604293623" varName="edge" />
     </scopeInfo>
-    <scopeInfo nodeId="5709109565604293625" fileName="EdgesOrder.java" startLine="119" startPosition="0" endLine="129" endPosition="0">
+    <scopeInfo nodeId="5709109565604293625" fileName="EdgesOrder.java" startLine="124" startPosition="0" endLine="134" endPosition="0">
       <varInfo nodeId="5709109565604293635" varName="node" />
       <varInfo nodeId="5709109565604293630" varName="edge" />
     </scopeInfo>
-    <scopeInfo nodeId="5709109565604299232" fileName="EdgesOrder.java" startLine="151" startPosition="12" endLine="163" endPosition="7">
+    <scopeInfo nodeId="5709109565604299232" fileName="EdgesOrder.java" startLine="156" startPosition="12" endLine="168" endPosition="7">
       <varInfo nodeId="5709109565604299234" varName="edgeItr" />
     </scopeInfo>
-    <scopeInfo nodeId="5709109565604299213" fileName="EdgesOrder.java" startLine="137" startPosition="27" endLine="150" endPosition="7" />
-    <scopeInfo nodeId="5709109565604293655" fileName="EdgesOrder.java" startLine="91" startPosition="78" endLine="107" endPosition="16">
+    <scopeInfo nodeId="5709109565604299213" fileName="EdgesOrder.java" startLine="142" startPosition="27" endLine="155" endPosition="7" />
+    <scopeInfo nodeId="5709109565604293655" fileName="EdgesOrder.java" startLine="96" startPosition="78" endLine="112" endPosition="16">
       <varInfo nodeId="5709109565604293665" varName="face" />
       <varInfo nodeId="5709109565604299454" varName="curNode" />
       <varInfo nodeId="5709109565604299462" varName="curDart" />
     </scopeInfo>
-    <scopeInfo nodeId="5709109565604293652" fileName="EdgesOrder.java" startLine="90" startPosition="0" endLine="109" endPosition="0">
+    <scopeInfo nodeId="5709109565604293652" fileName="EdgesOrder.java" startLine="95" startPosition="0" endLine="114" endPosition="0">
       <varInfo nodeId="5709109565604293657" varName="node" />
       <varInfo nodeId="5709109565604293659" varName="edge" />
       <varInfo nodeId="5709109565604293675" varName="graph" />
       <varInfo nodeId="5709109565604304415" varName="clockwise" />
     </scopeInfo>
-    <scopeInfo nodeId="5709109565604299190" fileName="EdgesOrder.java" startLine="130" startPosition="109" endLine="165" endPosition="63">
+    <scopeInfo nodeId="5709109565604299190" fileName="EdgesOrder.java" startLine="135" startPosition="109" endLine="170" endPosition="63">
       <varInfo nodeId="5709109565604299268" varName="sideEdge" />
     </scopeInfo>
-    <scopeInfo nodeId="5709109565604299187" fileName="EdgesOrder.java" startLine="129" startPosition="0" endLine="167" endPosition="0">
+    <scopeInfo nodeId="5709109565604299187" fileName="EdgesOrder.java" startLine="134" startPosition="0" endLine="172" endPosition="0">
       <varInfo nodeId="5709109565604299202" varName="tryFirst" />
       <varInfo nodeId="5709109565604299197" varName="alternativeList" />
       <varInfo nodeId="5709109565604299193" varName="containingList" />
       <varInfo nodeId="5709109565604299260" varName="edge" />
     </scopeInfo>
-    <unitInfo nodeId="603019764244010093" fileName="EdgesOrder.java" startLine="20" startPosition="0" endLine="168" endPosition="0" unitName="jetbrains.mps.graphLayout.planarization.EdgesOrder" />
+    <unitInfo nodeId="603019764244010093" fileName="EdgesOrder.java" startLine="21" startPosition="0" endLine="173" endPosition="0" unitName="jetbrains.mps.graphLayout.planarization.EdgesOrder" />
   </root>
   <root nodeId="860462848750178536">
     <nodeInfo nodeId="860462848750180219" fileName="PlanarizationEmbeddingFinder.java" startLine="14" startPosition="42" endLine="15" endPosition="184" />

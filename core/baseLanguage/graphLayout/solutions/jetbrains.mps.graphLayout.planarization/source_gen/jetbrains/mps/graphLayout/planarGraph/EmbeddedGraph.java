@@ -10,6 +10,7 @@ import jetbrains.mps.internal.collections.runtime.ListSequence;
 import java.util.ArrayList;
 import jetbrains.mps.internal.collections.runtime.MapSequence;
 import java.util.HashMap;
+import java.util.LinkedHashMap;
 import jetbrains.mps.graphLayout.graph.Node;
 import jetbrains.mps.internal.collections.runtime.ISelector;
 import java.util.Set;
@@ -29,7 +30,7 @@ public class EmbeddedGraph {
     myAdjacentFacesMap = MapSequence.fromMap(new HashMap<Edge, List<Face>>());
     myEdgesHistory = MapSequence.fromMap(new HashMap<Edge, List<Edge>>());
     myDartsToFacesMap = MapSequence.fromMap(new HashMap<Dart, Face>());
-    myEdgeDarts = MapSequence.fromMap(new HashMap<Edge, List<Dart>>());
+    myEdgeDarts = MapSequence.fromMap(new LinkedHashMap<Edge, List<Dart>>(16, (float) 0.75, false));
     myGraph = graph;
   }
 

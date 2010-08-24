@@ -119,8 +119,12 @@ public class PQPlanarizationFinder implements IEmbeddingFinder {
         if (ListSequence.fromList(outerChildFace.getDarts()).count() > 0) {
           makeEndsWith(outerChildFace.getDarts(), bridge.getOpposite(cutpoint));
         }
-        outerChildFace.addLast(new Dart(bridge, bridge.getOpposite(cutpoint)));
-        outerChildFace.addLast(new Dart(bridge, cutpoint));
+        childEmbedding.addLastDart(outerChildFace, new Dart(bridge, bridge.getOpposite(cutpoint)));
+        childEmbedding.addLastDart(outerChildFace, new Dart(bridge, cutpoint));
+        /*
+          outerChildFace.addLast(new Dart(bridge, bridge.getOpposite(cutpoint)));
+          outerChildFace.addLast(new Dart(bridge, cutpoint));
+        */
       }
       if (!(manyNodeComponent)) {
         graphEmbedding = childEmbedding;

@@ -118,6 +118,114 @@
     <unitInfo nodeId="228830736476055358" fileName="OrthogonalRepresentationChecker.java" startLine="19" startPosition="92" endLine="23" endPosition="7" unitName="orthogonalLayoutTest.OrthogonalRepresentationChecker$1" />
     <unitInfo nodeId="228830736476055337" fileName="OrthogonalRepresentationChecker.java" startLine="16" startPosition="0" endLine="29" endPosition="0" unitName="orthogonalLayoutTest.OrthogonalRepresentationChecker" />
   </root>
+  <root nodeId="4422427343208739409">
+    <nodeInfo nodeId="4422427343208740800" fileName="AmbiguityLayout_Test.java" startLine="24" startPosition="45" endLine="25" endPosition="139" />
+    <nodeInfo nodeId="4422427343208740808" fileName="AmbiguityLayout_Test.java" startLine="25" startPosition="139" endLine="26" endPosition="62" />
+    <nodeInfo nodeId="4422427343208740819" fileName="AmbiguityLayout_Test.java" startLine="26" startPosition="62" endLine="27" endPosition="16" />
+    <nodeInfo nodeId="4422427343208830721" fileName="AmbiguityLayout_Test.java" startLine="30" startPosition="45" endLine="31" endPosition="138" />
+    <nodeInfo nodeId="4422427343208830725" fileName="AmbiguityLayout_Test.java" startLine="31" startPosition="138" endLine="32" endPosition="62" />
+    <nodeInfo nodeId="4422427343208830732" fileName="AmbiguityLayout_Test.java" startLine="32" startPosition="62" endLine="33" endPosition="16" />
+    <nodeInfo nodeId="4422427343208739460" fileName="AmbiguityLayout_Test.java" startLine="36" startPosition="33" endLine="37" endPosition="89" />
+    <nodeInfo nodeId="4422427343208739469" fileName="AmbiguityLayout_Test.java" startLine="37" startPosition="89" endLine="38" endPosition="89" />
+    <nodeInfo nodeId="4422427343208739524" fileName="AmbiguityLayout_Test.java" startLine="39" startPosition="63" endLine="40" endPosition="68" />
+    <nodeInfo nodeId="4422427343208739515" fileName="AmbiguityLayout_Test.java" startLine="42" startPosition="63" endLine="43" endPosition="68" />
+    <nodeInfo nodeId="4422427343208739434" fileName="AmbiguityLayout_Test.java" startLine="44" startPosition="5" endLine="45" endPosition="92" />
+    <nodeInfo nodeId="4422427343208739558" fileName="AmbiguityLayout_Test.java" startLine="46" startPosition="53" endLine="47" endPosition="97" />
+    <nodeInfo nodeId="4422427343208739588" fileName="AmbiguityLayout_Test.java" startLine="48" startPosition="65" endLine="49" endPosition="49" />
+    <nodeInfo nodeId="4422427343208739601" fileName="AmbiguityLayout_Test.java" startLine="49" startPosition="49" endLine="50" endPosition="52" />
+    <nodeInfo nodeId="4422427343208739610" fileName="AmbiguityLayout_Test.java" startLine="50" startPosition="52" endLine="51" endPosition="106" />
+    <nodeInfo nodeId="4422427343208739693" fileName="AmbiguityLayout_Test.java" startLine="53" startPosition="65" endLine="54" endPosition="51" />
+    <nodeInfo nodeId="4422427343208739707" fileName="AmbiguityLayout_Test.java" startLine="54" startPosition="51" endLine="55" endPosition="54" />
+    <nodeInfo nodeId="4422427343208739717" fileName="AmbiguityLayout_Test.java" startLine="55" startPosition="54" endLine="56" endPosition="98" />
+    <nodeInfo nodeId="4422427343208740691" fileName="AmbiguityLayout_Test.java" startLine="57" startPosition="69" endLine="58" endPosition="206" />
+    <nodeInfo nodeId="4422427343208740748" fileName="AmbiguityLayout_Test.java" startLine="59" startPosition="9" endLine="60" endPosition="51" />
+    <nodeInfo nodeId="4422427343208740755" fileName="AmbiguityLayout_Test.java" startLine="60" startPosition="51" endLine="61" endPosition="54" />
+    <nodeInfo nodeId="4422427343208740762" fileName="AmbiguityLayout_Test.java" startLine="61" startPosition="54" endLine="62" endPosition="106" />
+    <nodeInfo nodeId="4422427343208739478" fileName="AmbiguityLayout_Test.java" startLine="38" startPosition="89" endLine="41" endPosition="5" />
+    <nodeInfo nodeId="4422427343208739509" fileName="AmbiguityLayout_Test.java" startLine="41" startPosition="5" endLine="44" endPosition="5" />
+    <nodeInfo nodeId="4422427343208739739" fileName="AmbiguityLayout_Test.java" startLine="56" startPosition="98" endLine="59" endPosition="9" />
+    <nodeInfo nodeId="4422427343208739576" fileName="AmbiguityLayout_Test.java" startLine="47" startPosition="97" endLine="52" endPosition="7" />
+    <nodeInfo nodeId="4422427343208740796" fileName="AmbiguityLayout_Test.java" startLine="23" startPosition="52" endLine="29" endPosition="0" />
+    <nodeInfo nodeId="4422427343208830717" fileName="AmbiguityLayout_Test.java" startLine="29" startPosition="0" endLine="35" endPosition="0" />
+    <nodeInfo nodeId="4422427343208739682" fileName="AmbiguityLayout_Test.java" startLine="52" startPosition="7" endLine="63" endPosition="7" />
+    <nodeInfo nodeId="4422427343208739538" fileName="AmbiguityLayout_Test.java" startLine="45" startPosition="92" endLine="64" endPosition="5" />
+    <nodeInfo nodeId="4422427343208739420" fileName="AmbiguityLayout_Test.java" startLine="35" startPosition="0" endLine="66" endPosition="0" />
+    <scopeInfo nodeId="4422427343208739483" fileName="AmbiguityLayout_Test.java" startLine="39" startPosition="63" endLine="40" endPosition="68" />
+    <scopeInfo nodeId="4422427343208739514" fileName="AmbiguityLayout_Test.java" startLine="42" startPosition="63" endLine="43" endPosition="68" />
+    <scopeInfo nodeId="4422427343208739740" fileName="AmbiguityLayout_Test.java" startLine="57" startPosition="69" endLine="58" endPosition="206" />
+    <scopeInfo nodeId="4422427343208740799" fileName="AmbiguityLayout_Test.java" startLine="24" startPosition="45" endLine="27" endPosition="16">
+      <varInfo nodeId="4422427343208740801" varName="graphString" />
+      <varInfo nodeId="4422427343208740809" varName="graph" />
+    </scopeInfo>
+    <scopeInfo nodeId="4422427343208830720" fileName="AmbiguityLayout_Test.java" startLine="30" startPosition="45" endLine="33" endPosition="16">
+      <varInfo nodeId="4422427343208830722" varName="graphString" />
+      <varInfo nodeId="4422427343208830726" varName="graph" />
+    </scopeInfo>
+    <scopeInfo nodeId="4422427343208739478" fileName="AmbiguityLayout_Test.java" startLine="38" startPosition="89" endLine="41" endPosition="5" />
+    <scopeInfo nodeId="4422427343208739509" fileName="AmbiguityLayout_Test.java" startLine="41" startPosition="5" endLine="44" endPosition="5" />
+    <scopeInfo nodeId="4422427343208739579" fileName="AmbiguityLayout_Test.java" startLine="48" startPosition="65" endLine="51" endPosition="106">
+      <varInfo nodeId="4422427343208739589" varName="r1" />
+      <varInfo nodeId="4422427343208739602" varName="r2" />
+    </scopeInfo>
+    <scopeInfo nodeId="4422427343208739739" fileName="AmbiguityLayout_Test.java" startLine="56" startPosition="98" endLine="59" endPosition="9">
+      <varInfo nodeId="4422427343208739742" varName="p" />
+    </scopeInfo>
+    <scopeInfo nodeId="4422427343208739576" fileName="AmbiguityLayout_Test.java" startLine="47" startPosition="97" endLine="52" endPosition="7" />
+    <scopeInfo nodeId="4422427343208740796" fileName="AmbiguityLayout_Test.java" startLine="23" startPosition="52" endLine="29" endPosition="0" />
+    <scopeInfo nodeId="4422427343208830717" fileName="AmbiguityLayout_Test.java" startLine="29" startPosition="0" endLine="35" endPosition="0" />
+    <scopeInfo nodeId="4422427343208739685" fileName="AmbiguityLayout_Test.java" startLine="53" startPosition="65" endLine="62" endPosition="106">
+      <varInfo nodeId="4422427343208739708" varName="p2" />
+      <varInfo nodeId="4422427343208739694" varName="p1" />
+      <varInfo nodeId="4422427343208740749" varName="r1" />
+      <varInfo nodeId="4422427343208740756" varName="r2" />
+    </scopeInfo>
+    <scopeInfo nodeId="4422427343208739682" fileName="AmbiguityLayout_Test.java" startLine="52" startPosition="7" endLine="63" endPosition="7" />
+    <scopeInfo nodeId="4422427343208739539" fileName="AmbiguityLayout_Test.java" startLine="46" startPosition="53" endLine="63" endPosition="7">
+      <varInfo nodeId="4422427343208739559" varName="newLayout" />
+    </scopeInfo>
+    <scopeInfo nodeId="4422427343208739538" fileName="AmbiguityLayout_Test.java" startLine="45" startPosition="92" endLine="64" endPosition="5">
+      <varInfo nodeId="4422427343208739541" varName="testNum" />
+    </scopeInfo>
+    <scopeInfo nodeId="4422427343208739423" fileName="AmbiguityLayout_Test.java" startLine="36" startPosition="33" endLine="64" endPosition="5">
+      <varInfo nodeId="4422427343208739435" varName="layout" />
+      <varInfo nodeId="4422427343208739470" varName="edgeSizes" />
+      <varInfo nodeId="4422427343208739461" varName="nodeSizes" />
+    </scopeInfo>
+    <scopeInfo nodeId="4422427343208739420" fileName="AmbiguityLayout_Test.java" startLine="35" startPosition="0" endLine="66" endPosition="0">
+      <varInfo nodeId="4422427343208739424" varName="graph" />
+    </scopeInfo>
+  </root>
+  <root nodeId="4422427343208776753">
+    <nodeInfo nodeId="4422427343208776834" fileName="RectOrthogonalLayouter_Test.java" startLine="20" startPosition="45" endLine="21" endPosition="138" />
+    <nodeInfo nodeId="4422427343208776900" fileName="RectOrthogonalLayouter_Test.java" startLine="21" startPosition="138" endLine="22" endPosition="62" />
+    <nodeInfo nodeId="4422427343208776911" fileName="RectOrthogonalLayouter_Test.java" startLine="22" startPosition="62" endLine="23" endPosition="16" />
+    <nodeInfo nodeId="4422427343208776772" fileName="RectOrthogonalLayouter_Test.java" startLine="26" startPosition="33" endLine="27" endPosition="89" />
+    <nodeInfo nodeId="4422427343208776781" fileName="RectOrthogonalLayouter_Test.java" startLine="27" startPosition="89" endLine="28" endPosition="89" />
+    <nodeInfo nodeId="4422427343208776796" fileName="RectOrthogonalLayouter_Test.java" startLine="29" startPosition="63" endLine="30" endPosition="68" />
+    <nodeInfo nodeId="4422427343208776811" fileName="RectOrthogonalLayouter_Test.java" startLine="32" startPosition="63" endLine="33" endPosition="68" />
+    <nodeInfo nodeId="4422427343208776820" fileName="RectOrthogonalLayouter_Test.java" startLine="34" startPosition="5" endLine="35" endPosition="92" />
+    <nodeInfo nodeId="4422427343208776790" fileName="RectOrthogonalLayouter_Test.java" startLine="28" startPosition="89" endLine="31" endPosition="5" />
+    <nodeInfo nodeId="4422427343208776805" fileName="RectOrthogonalLayouter_Test.java" startLine="31" startPosition="5" endLine="34" endPosition="5" />
+    <nodeInfo nodeId="4422427343208776830" fileName="RectOrthogonalLayouter_Test.java" startLine="19" startPosition="59" endLine="25" endPosition="0" />
+    <nodeInfo nodeId="4422427343208776760" fileName="RectOrthogonalLayouter_Test.java" startLine="25" startPosition="0" endLine="37" endPosition="0" />
+    <scopeInfo nodeId="4422427343208776795" fileName="RectOrthogonalLayouter_Test.java" startLine="29" startPosition="63" endLine="30" endPosition="68" />
+    <scopeInfo nodeId="4422427343208776810" fileName="RectOrthogonalLayouter_Test.java" startLine="32" startPosition="63" endLine="33" endPosition="68" />
+    <scopeInfo nodeId="4422427343208776833" fileName="RectOrthogonalLayouter_Test.java" startLine="20" startPosition="45" endLine="23" endPosition="16">
+      <varInfo nodeId="4422427343208776835" varName="graphString" />
+      <varInfo nodeId="4422427343208776901" varName="graph" />
+    </scopeInfo>
+    <scopeInfo nodeId="4422427343208776790" fileName="RectOrthogonalLayouter_Test.java" startLine="28" startPosition="89" endLine="31" endPosition="5" />
+    <scopeInfo nodeId="4422427343208776805" fileName="RectOrthogonalLayouter_Test.java" startLine="31" startPosition="5" endLine="34" endPosition="5" />
+    <scopeInfo nodeId="4422427343208776830" fileName="RectOrthogonalLayouter_Test.java" startLine="19" startPosition="59" endLine="25" endPosition="0" />
+    <scopeInfo nodeId="4422427343208776763" fileName="RectOrthogonalLayouter_Test.java" startLine="26" startPosition="33" endLine="35" endPosition="92">
+      <varInfo nodeId="4422427343208776821" varName="layout" />
+      <varInfo nodeId="4422427343208776782" varName="edgeSizes" />
+      <varInfo nodeId="4422427343208776773" varName="nodeSizes" />
+    </scopeInfo>
+    <scopeInfo nodeId="4422427343208776760" fileName="RectOrthogonalLayouter_Test.java" startLine="25" startPosition="0" endLine="37" endPosition="0">
+      <varInfo nodeId="4422427343208776764" varName="graph" />
+    </scopeInfo>
+  </root>
   <root nodeId="508819492464323617">
     <nodeInfo nodeId="508819492464323638" fileName="OrthogonalFromVisibility_Test.java" startLine="13" startPosition="49" endLine="14" endPosition="137" />
     <nodeInfo nodeId="508819492464323642" fileName="OrthogonalFromVisibility_Test.java" startLine="14" startPosition="137" endLine="15" endPosition="62" />
@@ -259,52 +367,77 @@
     <unitInfo nodeId="7371029937982882760" fileName="StressTest.java" startLine="18" startPosition="0" endLine="47" endPosition="0" unitName="orthogonalLayoutTest.StressTest" />
   </root>
   <root nodeId="8734440518942960375">
-    <nodeInfo nodeId="8734440518942962343" fileName="OrthogonalFlowLayouter_Test.java" startLine="13" startPosition="45" endLine="14" endPosition="82" />
-    <nodeInfo nodeId="8734440518942962352" fileName="OrthogonalFlowLayouter_Test.java" startLine="14" startPosition="82" endLine="15" endPosition="62" />
-    <nodeInfo nodeId="8734440518942966469" fileName="OrthogonalFlowLayouter_Test.java" startLine="15" startPosition="62" endLine="16" endPosition="27" />
-    <nodeInfo nodeId="8568898107892568209" fileName="OrthogonalFlowLayouter_Test.java" startLine="19" startPosition="45" endLine="20" endPosition="51" />
-    <nodeInfo nodeId="8568898107892569270" fileName="OrthogonalFlowLayouter_Test.java" startLine="20" startPosition="51" endLine="21" endPosition="62" />
-    <nodeInfo nodeId="8568898107892569277" fileName="OrthogonalFlowLayouter_Test.java" startLine="21" startPosition="62" endLine="22" endPosition="27" />
-    <nodeInfo nodeId="8568898107892570485" fileName="OrthogonalFlowLayouter_Test.java" startLine="25" startPosition="45" endLine="26" endPosition="56" />
-    <nodeInfo nodeId="8568898107892570489" fileName="OrthogonalFlowLayouter_Test.java" startLine="26" startPosition="56" endLine="27" endPosition="62" />
-    <nodeInfo nodeId="8568898107892570496" fileName="OrthogonalFlowLayouter_Test.java" startLine="27" startPosition="62" endLine="28" endPosition="27" />
-    <nodeInfo nodeId="8568898107892570969" fileName="OrthogonalFlowLayouter_Test.java" startLine="31" startPosition="45" endLine="32" endPosition="56" />
-    <nodeInfo nodeId="8568898107892570973" fileName="OrthogonalFlowLayouter_Test.java" startLine="32" startPosition="56" endLine="33" endPosition="62" />
-    <nodeInfo nodeId="8568898107892570980" fileName="OrthogonalFlowLayouter_Test.java" startLine="33" startPosition="62" endLine="34" endPosition="27" />
-    <nodeInfo nodeId="8734440518942960391" fileName="OrthogonalFlowLayouter_Test.java" startLine="37" startPosition="44" endLine="38" endPosition="69" />
-    <nodeInfo nodeId="8568898107892568215" fileName="OrthogonalFlowLayouter_Test.java" startLine="38" startPosition="69" endLine="39" endPosition="60" />
-    <nodeInfo nodeId="8734440518942960382" fileName="OrthogonalFlowLayouter_Test.java" startLine="36" startPosition="0" endLine="41" endPosition="0" />
-    <nodeInfo nodeId="8734440518942962339" fileName="OrthogonalFlowLayouter_Test.java" startLine="12" startPosition="59" endLine="18" endPosition="0" />
-    <nodeInfo nodeId="8568898107892568205" fileName="OrthogonalFlowLayouter_Test.java" startLine="18" startPosition="0" endLine="24" endPosition="0" />
-    <nodeInfo nodeId="8568898107892570481" fileName="OrthogonalFlowLayouter_Test.java" startLine="24" startPosition="0" endLine="30" endPosition="0" />
-    <nodeInfo nodeId="8568898107892570963" fileName="OrthogonalFlowLayouter_Test.java" startLine="30" startPosition="0" endLine="36" endPosition="0" />
-    <scopeInfo nodeId="8734440518942960385" fileName="OrthogonalFlowLayouter_Test.java" startLine="37" startPosition="44" endLine="39" endPosition="60">
-      <varInfo nodeId="8568898107892568216" varName="layoutPoint" />
-      <varInfo nodeId="8734440518942960392" varName="layouter" />
-    </scopeInfo>
-    <scopeInfo nodeId="8734440518942962342" fileName="OrthogonalFlowLayouter_Test.java" startLine="13" startPosition="45" endLine="16" endPosition="27">
+    <nodeInfo nodeId="8734440518942962343" fileName="OrthogonalFlowLayouter_Test.java" startLine="20" startPosition="45" endLine="21" endPosition="82" />
+    <nodeInfo nodeId="8734440518942962352" fileName="OrthogonalFlowLayouter_Test.java" startLine="21" startPosition="82" endLine="22" endPosition="62" />
+    <nodeInfo nodeId="8734440518942966469" fileName="OrthogonalFlowLayouter_Test.java" startLine="22" startPosition="62" endLine="23" endPosition="27" />
+    <nodeInfo nodeId="8568898107892568209" fileName="OrthogonalFlowLayouter_Test.java" startLine="26" startPosition="45" endLine="27" endPosition="51" />
+    <nodeInfo nodeId="8568898107892569270" fileName="OrthogonalFlowLayouter_Test.java" startLine="27" startPosition="51" endLine="28" endPosition="62" />
+    <nodeInfo nodeId="8568898107892569277" fileName="OrthogonalFlowLayouter_Test.java" startLine="28" startPosition="62" endLine="29" endPosition="27" />
+    <nodeInfo nodeId="8568898107892570485" fileName="OrthogonalFlowLayouter_Test.java" startLine="32" startPosition="45" endLine="33" endPosition="56" />
+    <nodeInfo nodeId="8568898107892570489" fileName="OrthogonalFlowLayouter_Test.java" startLine="33" startPosition="56" endLine="34" endPosition="62" />
+    <nodeInfo nodeId="8568898107892570496" fileName="OrthogonalFlowLayouter_Test.java" startLine="34" startPosition="62" endLine="35" endPosition="27" />
+    <nodeInfo nodeId="8568898107892570969" fileName="OrthogonalFlowLayouter_Test.java" startLine="38" startPosition="45" endLine="39" endPosition="56" />
+    <nodeInfo nodeId="8568898107892570973" fileName="OrthogonalFlowLayouter_Test.java" startLine="39" startPosition="56" endLine="40" endPosition="62" />
+    <nodeInfo nodeId="8568898107892570980" fileName="OrthogonalFlowLayouter_Test.java" startLine="40" startPosition="62" endLine="41" endPosition="27" />
+    <nodeInfo nodeId="4422427343208667181" fileName="OrthogonalFlowLayouter_Test.java" startLine="44" startPosition="45" endLine="45" endPosition="118" />
+    <nodeInfo nodeId="4422427343208667185" fileName="OrthogonalFlowLayouter_Test.java" startLine="45" startPosition="118" endLine="46" endPosition="62" />
+    <nodeInfo nodeId="4422427343208667192" fileName="OrthogonalFlowLayouter_Test.java" startLine="46" startPosition="62" endLine="47" endPosition="27" />
+    <nodeInfo nodeId="8734440518942960391" fileName="OrthogonalFlowLayouter_Test.java" startLine="50" startPosition="44" endLine="51" endPosition="69" />
+    <nodeInfo nodeId="8568898107892568215" fileName="OrthogonalFlowLayouter_Test.java" startLine="51" startPosition="69" endLine="52" endPosition="60" />
+    <nodeInfo nodeId="4422427343208577747" fileName="OrthogonalFlowLayouter_Test.java" startLine="53" startPosition="102" endLine="54" endPosition="37" />
+    <nodeInfo nodeId="4422427343208577763" fileName="OrthogonalFlowLayouter_Test.java" startLine="54" startPosition="37" endLine="55" endPosition="82" />
+    <nodeInfo nodeId="4422427343208577758" fileName="OrthogonalFlowLayouter_Test.java" startLine="55" startPosition="82" endLine="56" endPosition="71" />
+    <nodeInfo nodeId="4422427343208577801" fileName="OrthogonalFlowLayouter_Test.java" startLine="56" startPosition="71" endLine="57" endPosition="71" />
+    <nodeInfo nodeId="4422427343208577816" fileName="OrthogonalFlowLayouter_Test.java" startLine="57" startPosition="71" endLine="58" endPosition="37" />
+    <nodeInfo nodeId="4422427343208577822" fileName="OrthogonalFlowLayouter_Test.java" startLine="58" startPosition="37" endLine="59" endPosition="80" />
+    <nodeInfo nodeId="4422427343208577831" fileName="OrthogonalFlowLayouter_Test.java" startLine="59" startPosition="80" endLine="60" endPosition="70" />
+    <nodeInfo nodeId="4422427343208577842" fileName="OrthogonalFlowLayouter_Test.java" startLine="60" startPosition="70" endLine="61" endPosition="70" />
+    <nodeInfo nodeId="8734440518942962339" fileName="OrthogonalFlowLayouter_Test.java" startLine="19" startPosition="59" endLine="25" endPosition="0" />
+    <nodeInfo nodeId="8568898107892568205" fileName="OrthogonalFlowLayouter_Test.java" startLine="25" startPosition="0" endLine="31" endPosition="0" />
+    <nodeInfo nodeId="8568898107892570481" fileName="OrthogonalFlowLayouter_Test.java" startLine="31" startPosition="0" endLine="37" endPosition="0" />
+    <nodeInfo nodeId="8568898107892570963" fileName="OrthogonalFlowLayouter_Test.java" startLine="37" startPosition="0" endLine="43" endPosition="0" />
+    <nodeInfo nodeId="4422427343208667177" fileName="OrthogonalFlowLayouter_Test.java" startLine="43" startPosition="0" endLine="49" endPosition="0" />
+    <nodeInfo nodeId="4422427343208577730" fileName="OrthogonalFlowLayouter_Test.java" startLine="52" startPosition="60" endLine="62" endPosition="5" />
+    <nodeInfo nodeId="8734440518942960382" fileName="OrthogonalFlowLayouter_Test.java" startLine="49" startPosition="0" endLine="64" endPosition="0" />
+    <scopeInfo nodeId="8734440518942962342" fileName="OrthogonalFlowLayouter_Test.java" startLine="20" startPosition="45" endLine="23" endPosition="27">
       <varInfo nodeId="8734440518942962344" varName="graphString" />
       <varInfo nodeId="8734440518942962353" varName="graph" />
     </scopeInfo>
-    <scopeInfo nodeId="8568898107892568208" fileName="OrthogonalFlowLayouter_Test.java" startLine="19" startPosition="45" endLine="22" endPosition="27">
+    <scopeInfo nodeId="8568898107892568208" fileName="OrthogonalFlowLayouter_Test.java" startLine="26" startPosition="45" endLine="29" endPosition="27">
       <varInfo nodeId="8568898107892568210" varName="graphString" />
       <varInfo nodeId="8568898107892569271" varName="graph" />
     </scopeInfo>
-    <scopeInfo nodeId="8568898107892570484" fileName="OrthogonalFlowLayouter_Test.java" startLine="25" startPosition="45" endLine="28" endPosition="27">
+    <scopeInfo nodeId="8568898107892570484" fileName="OrthogonalFlowLayouter_Test.java" startLine="32" startPosition="45" endLine="35" endPosition="27">
       <varInfo nodeId="8568898107892570486" varName="graphString" />
       <varInfo nodeId="8568898107892570490" varName="graph" />
     </scopeInfo>
-    <scopeInfo nodeId="8568898107892570966" fileName="OrthogonalFlowLayouter_Test.java" startLine="31" startPosition="45" endLine="34" endPosition="27">
+    <scopeInfo nodeId="8568898107892570966" fileName="OrthogonalFlowLayouter_Test.java" startLine="38" startPosition="45" endLine="41" endPosition="27">
       <varInfo nodeId="8568898107892570970" varName="graphString" />
       <varInfo nodeId="8568898107892570974" varName="graph" />
     </scopeInfo>
-    <scopeInfo nodeId="8734440518942960382" fileName="OrthogonalFlowLayouter_Test.java" startLine="36" startPosition="0" endLine="41" endPosition="0">
+    <scopeInfo nodeId="4422427343208667180" fileName="OrthogonalFlowLayouter_Test.java" startLine="44" startPosition="45" endLine="47" endPosition="27">
+      <varInfo nodeId="4422427343208667182" varName="graphString" />
+      <varInfo nodeId="4422427343208667186" varName="graph" />
+    </scopeInfo>
+    <scopeInfo nodeId="8734440518942962339" fileName="OrthogonalFlowLayouter_Test.java" startLine="19" startPosition="59" endLine="25" endPosition="0" />
+    <scopeInfo nodeId="8568898107892568205" fileName="OrthogonalFlowLayouter_Test.java" startLine="25" startPosition="0" endLine="31" endPosition="0" />
+    <scopeInfo nodeId="8568898107892570481" fileName="OrthogonalFlowLayouter_Test.java" startLine="31" startPosition="0" endLine="37" endPosition="0" />
+    <scopeInfo nodeId="8568898107892570963" fileName="OrthogonalFlowLayouter_Test.java" startLine="37" startPosition="0" endLine="43" endPosition="0" />
+    <scopeInfo nodeId="4422427343208667177" fileName="OrthogonalFlowLayouter_Test.java" startLine="43" startPosition="0" endLine="49" endPosition="0" />
+    <scopeInfo nodeId="4422427343208577733" fileName="OrthogonalFlowLayouter_Test.java" startLine="53" startPosition="102" endLine="61" endPosition="70">
+      <varInfo nodeId="4422427343208577823" varName="last" />
+      <varInfo nodeId="4422427343208577748" varName="source" />
+      <varInfo nodeId="4422427343208577817" varName="target" />
+      <varInfo nodeId="4422427343208577764" varName="first" />
+    </scopeInfo>
+    <scopeInfo nodeId="4422427343208577730" fileName="OrthogonalFlowLayouter_Test.java" startLine="52" startPosition="60" endLine="62" endPosition="5" />
+    <scopeInfo nodeId="8734440518942960385" fileName="OrthogonalFlowLayouter_Test.java" startLine="50" startPosition="44" endLine="62" endPosition="5">
+      <varInfo nodeId="8568898107892568216" varName="layoutPoint" />
+      <varInfo nodeId="8734440518942960392" varName="layouter" />
+    </scopeInfo>
+    <scopeInfo nodeId="8734440518942960382" fileName="OrthogonalFlowLayouter_Test.java" startLine="49" startPosition="0" endLine="64" endPosition="0">
       <varInfo nodeId="8734440518942960386" varName="graph" />
     </scopeInfo>
-    <scopeInfo nodeId="8734440518942962339" fileName="OrthogonalFlowLayouter_Test.java" startLine="12" startPosition="59" endLine="18" endPosition="0" />
-    <scopeInfo nodeId="8568898107892568205" fileName="OrthogonalFlowLayouter_Test.java" startLine="18" startPosition="0" endLine="24" endPosition="0" />
-    <scopeInfo nodeId="8568898107892570481" fileName="OrthogonalFlowLayouter_Test.java" startLine="24" startPosition="0" endLine="30" endPosition="0" />
-    <scopeInfo nodeId="8568898107892570963" fileName="OrthogonalFlowLayouter_Test.java" startLine="30" startPosition="0" endLine="36" endPosition="0" />
   </root>
   <root nodeId="8734440518943050540">
     <nodeInfo nodeId="8734440518943050550" fileName="OrthogonalFlowSketchStressTest.java" startLine="27" startPosition="59" endLine="28" endPosition="49" />

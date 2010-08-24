@@ -11,9 +11,9 @@ import jetbrains.mps.internal.collections.runtime.IWhereFilter;
 import jetbrains.mps.graphLayout.planarGraph.DualGraph;
 import jetbrains.mps.graphLayout.graph.Node;
 import java.util.ArrayList;
+import jetbrains.mps.graphLayout.algorithms.ShortestPath;
 import jetbrains.mps.graphLayout.planarGraph.Face;
 import jetbrains.mps.internal.collections.runtime.MapSequence;
-import jetbrains.mps.graphLayout.algorithms.ShortestPath;
 
 public class ShortestPathEmbeddingFinder implements IEmbeddingFinder {
   private static int SHOW_LOG = 0;
@@ -52,19 +52,8 @@ public class ShortestPathEmbeddingFinder implements IEmbeddingFinder {
     DualGraph dualGraph = new DualGraph(embeddedGraph);
     List<Node> newNodes = ListSequence.fromList(new ArrayList<Node>());
     for (Node node : ListSequence.fromList(removedEdge.getAdjacentNodes())) {
-      Node newNode = dualGraph.addDummyNode();
-      for (Edge nodeEdge : ListSequence.fromList(node.getEdges(Edge.Direction.BOTH))) {
-        for (Face face : ListSequence.fromList(embeddedGraph.getAdjacentFaces(nodeEdge))) {
-          newNode.addEdgeTo(MapSequence.fromMap(dualGraph.getNodesMap()).get(face));
-        }
-      }
-      ListSequence.fromList(newNodes).addElement(newNode);
+      ListSequence.fromList(newNodes).addElement(dualGraph.addRealNode(node));
     }
-    /*
-      System.out.println("before: " + embeddedGraph);
-      System.out.println(dualGraph);
-      System.out.println("adding " + removedEdge);
-    */
     List<Edge> path = ShortestPath.getPath(dualGraph, ListSequence.fromList(newNodes).getElement(0), ListSequence.fromList(newNodes).getElement(1), Edge.Direction.BOTH);
     List<Node> nodePath = ListSequence.fromList(new ArrayList<Node>());
     List<Face> facePath = ListSequence.fromList(new ArrayList<Face>());

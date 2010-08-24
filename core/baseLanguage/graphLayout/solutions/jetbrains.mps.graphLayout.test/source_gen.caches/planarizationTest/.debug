@@ -1,31 +1,37 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <debugInfo>
   <root nodeId="1123934034178616897">
-    <nodeInfo nodeId="2503771434357704727" fileName="CheckEmbeddedGraph.java" startLine="15" startPosition="85" endLine="16" endPosition="21" />
-    <nodeInfo nodeId="1123934034178616952" fileName="CheckEmbeddedGraph.java" startLine="18" startPosition="5" endLine="19" endPosition="16" />
-    <nodeInfo nodeId="3619822174190276483" fileName="CheckEmbeddedGraph.java" startLine="22" startPosition="70" endLine="23" endPosition="38" />
-    <nodeInfo nodeId="3619822174190276497" fileName="CheckEmbeddedGraph.java" startLine="25" startPosition="91" endLine="26" endPosition="56" />
-    <nodeInfo nodeId="2503771434357704711" fileName="CheckEmbeddedGraph.java" startLine="14" startPosition="69" endLine="17" endPosition="7" />
-    <nodeInfo nodeId="3619822174190276492" fileName="CheckEmbeddedGraph.java" startLine="24" startPosition="71" endLine="27" endPosition="7" />
-    <nodeInfo nodeId="2503771434357704705" fileName="CheckEmbeddedGraph.java" startLine="13" startPosition="73" endLine="18" endPosition="5" />
-    <nodeInfo nodeId="3619822174190276486" fileName="CheckEmbeddedGraph.java" startLine="23" startPosition="38" endLine="28" endPosition="5" />
-    <nodeInfo nodeId="1123934034178616903" fileName="CheckEmbeddedGraph.java" startLine="12" startPosition="33" endLine="21" endPosition="0" />
-    <nodeInfo nodeId="3619822174190276479" fileName="CheckEmbeddedGraph.java" startLine="21" startPosition="0" endLine="30" endPosition="0" />
-    <scopeInfo nodeId="2503771434357704712" fileName="CheckEmbeddedGraph.java" startLine="15" startPosition="85" endLine="16" endPosition="21" />
-    <scopeInfo nodeId="3619822174190276496" fileName="CheckEmbeddedGraph.java" startLine="25" startPosition="91" endLine="26" endPosition="56" />
-    <scopeInfo nodeId="2503771434357704710" fileName="CheckEmbeddedGraph.java" startLine="14" startPosition="69" endLine="17" endPosition="7" />
-    <scopeInfo nodeId="3619822174190276491" fileName="CheckEmbeddedGraph.java" startLine="24" startPosition="71" endLine="27" endPosition="7" />
-    <scopeInfo nodeId="2503771434357704705" fileName="CheckEmbeddedGraph.java" startLine="13" startPosition="73" endLine="18" endPosition="5" />
-    <scopeInfo nodeId="3619822174190276486" fileName="CheckEmbeddedGraph.java" startLine="23" startPosition="38" endLine="28" endPosition="5" />
-    <scopeInfo nodeId="1123934034178616906" fileName="CheckEmbeddedGraph.java" startLine="13" startPosition="73" endLine="19" endPosition="16" />
-    <scopeInfo nodeId="3619822174190276482" fileName="CheckEmbeddedGraph.java" startLine="22" startPosition="70" endLine="28" endPosition="5" />
-    <scopeInfo nodeId="1123934034178616903" fileName="CheckEmbeddedGraph.java" startLine="12" startPosition="33" endLine="21" endPosition="0">
+    <nodeInfo nodeId="2503771434357704727" fileName="CheckEmbeddedGraph.java" startLine="16" startPosition="85" endLine="17" endPosition="21" />
+    <nodeInfo nodeId="1123934034178616952" fileName="CheckEmbeddedGraph.java" startLine="19" startPosition="5" endLine="20" endPosition="16" />
+    <nodeInfo nodeId="3619822174190276483" fileName="CheckEmbeddedGraph.java" startLine="23" startPosition="70" endLine="24" endPosition="38" />
+    <nodeInfo nodeId="3619822174190276497" fileName="CheckEmbeddedGraph.java" startLine="26" startPosition="91" endLine="27" endPosition="56" />
+    <nodeInfo nodeId="4422427343208780890" fileName="CheckEmbeddedGraph.java" startLine="30" startPosition="50" endLine="31" endPosition="58" />
+    <nodeInfo nodeId="2503771434357704711" fileName="CheckEmbeddedGraph.java" startLine="15" startPosition="69" endLine="18" endPosition="7" />
+    <nodeInfo nodeId="3619822174190276492" fileName="CheckEmbeddedGraph.java" startLine="25" startPosition="71" endLine="28" endPosition="7" />
+    <nodeInfo nodeId="4422427343208780867" fileName="CheckEmbeddedGraph.java" startLine="29" startPosition="64" endLine="32" endPosition="9" />
+    <nodeInfo nodeId="2503771434357704705" fileName="CheckEmbeddedGraph.java" startLine="14" startPosition="73" endLine="19" endPosition="5" />
+    <nodeInfo nodeId="4422427343208780857" fileName="CheckEmbeddedGraph.java" startLine="28" startPosition="7" endLine="33" endPosition="7" />
+    <nodeInfo nodeId="1123934034178616903" fileName="CheckEmbeddedGraph.java" startLine="13" startPosition="33" endLine="22" endPosition="0" />
+    <nodeInfo nodeId="3619822174190276486" fileName="CheckEmbeddedGraph.java" startLine="24" startPosition="38" endLine="34" endPosition="5" />
+    <nodeInfo nodeId="3619822174190276479" fileName="CheckEmbeddedGraph.java" startLine="22" startPosition="0" endLine="36" endPosition="0" />
+    <scopeInfo nodeId="2503771434357704712" fileName="CheckEmbeddedGraph.java" startLine="16" startPosition="85" endLine="17" endPosition="21" />
+    <scopeInfo nodeId="3619822174190276496" fileName="CheckEmbeddedGraph.java" startLine="26" startPosition="91" endLine="27" endPosition="56" />
+    <scopeInfo nodeId="4422427343208780869" fileName="CheckEmbeddedGraph.java" startLine="30" startPosition="50" endLine="31" endPosition="58" />
+    <scopeInfo nodeId="2503771434357704710" fileName="CheckEmbeddedGraph.java" startLine="15" startPosition="69" endLine="18" endPosition="7" />
+    <scopeInfo nodeId="4422427343208780860" fileName="CheckEmbeddedGraph.java" startLine="29" startPosition="64" endLine="32" endPosition="9" />
+    <scopeInfo nodeId="2503771434357704705" fileName="CheckEmbeddedGraph.java" startLine="14" startPosition="73" endLine="19" endPosition="5" />
+    <scopeInfo nodeId="4422427343208780857" fileName="CheckEmbeddedGraph.java" startLine="28" startPosition="7" endLine="33" endPosition="7" />
+    <scopeInfo nodeId="1123934034178616906" fileName="CheckEmbeddedGraph.java" startLine="14" startPosition="73" endLine="20" endPosition="16" />
+    <scopeInfo nodeId="3619822174190276491" fileName="CheckEmbeddedGraph.java" startLine="25" startPosition="71" endLine="33" endPosition="7" />
+    <scopeInfo nodeId="1123934034178616903" fileName="CheckEmbeddedGraph.java" startLine="13" startPosition="33" endLine="22" endPosition="0">
       <varInfo nodeId="1123934034178616908" varName="embeddedGraph" />
     </scopeInfo>
-    <scopeInfo nodeId="3619822174190276479" fileName="CheckEmbeddedGraph.java" startLine="21" startPosition="0" endLine="30" endPosition="0">
+    <scopeInfo nodeId="3619822174190276486" fileName="CheckEmbeddedGraph.java" startLine="24" startPosition="38" endLine="34" endPosition="5" />
+    <scopeInfo nodeId="3619822174190276482" fileName="CheckEmbeddedGraph.java" startLine="23" startPosition="70" endLine="34" endPosition="5" />
+    <scopeInfo nodeId="3619822174190276479" fileName="CheckEmbeddedGraph.java" startLine="22" startPosition="0" endLine="36" endPosition="0">
       <varInfo nodeId="3619822174190276503" varName="embeddedGraph" />
     </scopeInfo>
-    <unitInfo nodeId="1123934034178616897" fileName="CheckEmbeddedGraph.java" startLine="12" startPosition="0" endLine="31" endPosition="0" unitName="planarizationTest.CheckEmbeddedGraph" />
+    <unitInfo nodeId="1123934034178616897" fileName="CheckEmbeddedGraph.java" startLine="13" startPosition="0" endLine="37" endPosition="0" unitName="planarizationTest.CheckEmbeddedGraph" />
   </root>
   <root nodeId="1327612371813215595">
     <nodeInfo nodeId="1327612371813215648" fileName="BiconnectedInitialEmbeddingFinder_Test.java" startLine="14" startPosition="45" endLine="15" endPosition="48" />
@@ -297,6 +303,114 @@
       <varInfo nodeId="4267939112872666360" varName="args" />
     </scopeInfo>
     <unitInfo nodeId="4267939112872666223" fileName="StressTestPQ.java" startLine="24" startPosition="0" endLine="89" endPosition="0" unitName="planarizationTest.StressTestPQ" />
+  </root>
+  <root nodeId="4422427343208741421">
+    <nodeInfo nodeId="4422427343208741837" fileName="AmbiguityPlanarizationFinder_Test.java" startLine="24" startPosition="45" endLine="25" endPosition="139" />
+    <nodeInfo nodeId="4422427343208741845" fileName="AmbiguityPlanarizationFinder_Test.java" startLine="25" startPosition="139" endLine="26" endPosition="62" />
+    <nodeInfo nodeId="4422427343208741856" fileName="AmbiguityPlanarizationFinder_Test.java" startLine="26" startPosition="62" endLine="27" endPosition="16" />
+    <nodeInfo nodeId="4422427343208756663" fileName="AmbiguityPlanarizationFinder_Test.java" startLine="30" startPosition="45" endLine="31" endPosition="138" />
+    <nodeInfo nodeId="4422427343208756667" fileName="AmbiguityPlanarizationFinder_Test.java" startLine="31" startPosition="138" endLine="32" endPosition="62" />
+    <nodeInfo nodeId="4422427343208756674" fileName="AmbiguityPlanarizationFinder_Test.java" startLine="32" startPosition="62" endLine="33" endPosition="16" />
+    <nodeInfo nodeId="4422427343208741437" fileName="AmbiguityPlanarizationFinder_Test.java" startLine="36" startPosition="33" endLine="37" endPosition="43" />
+    <nodeInfo nodeId="4422427343208741461" fileName="AmbiguityPlanarizationFinder_Test.java" startLine="38" startPosition="53" endLine="39" endPosition="31" />
+    <nodeInfo nodeId="4422427343208741466" fileName="AmbiguityPlanarizationFinder_Test.java" startLine="39" startPosition="31" endLine="40" endPosition="79" />
+    <nodeInfo nodeId="4422427343208741475" fileName="AmbiguityPlanarizationFinder_Test.java" startLine="40" startPosition="79" endLine="41" endPosition="79" />
+    <nodeInfo nodeId="4422427343208741490" fileName="AmbiguityPlanarizationFinder_Test.java" startLine="42" startPosition="65" endLine="43" endPosition="63" />
+    <nodeInfo nodeId="4422427343208741504" fileName="AmbiguityPlanarizationFinder_Test.java" startLine="45" startPosition="65" endLine="46" endPosition="161" />
+    <nodeInfo nodeId="4422427343208831939" fileName="AmbiguityPlanarizationFinder_Test.java" startLine="47" startPosition="7" endLine="48" endPosition="50" />
+    <nodeInfo nodeId="4422427343208741540" fileName="AmbiguityPlanarizationFinder_Test.java" startLine="48" startPosition="50" endLine="49" endPosition="34" />
+    <nodeInfo nodeId="4422427343208746498" fileName="AmbiguityPlanarizationFinder_Test.java" startLine="49" startPosition="34" endLine="50" endPosition="94" />
+    <nodeInfo nodeId="4422427343208741568" fileName="AmbiguityPlanarizationFinder_Test.java" startLine="51" startPosition="38" endLine="52" endPosition="42" />
+    <nodeInfo nodeId="4422427343208741597" fileName="AmbiguityPlanarizationFinder_Test.java" startLine="53" startPosition="14" endLine="54" endPosition="50" />
+    <nodeInfo nodeId="4422427343208741613" fileName="AmbiguityPlanarizationFinder_Test.java" startLine="54" startPosition="50" endLine="55" endPosition="124" />
+    <nodeInfo nodeId="4422427343208741673" fileName="AmbiguityPlanarizationFinder_Test.java" startLine="56" startPosition="82" endLine="57" endPosition="73" />
+    <nodeInfo nodeId="4422427343208741688" fileName="AmbiguityPlanarizationFinder_Test.java" startLine="57" startPosition="73" endLine="58" endPosition="73" />
+    <nodeInfo nodeId="4422427343208741697" fileName="AmbiguityPlanarizationFinder_Test.java" startLine="58" startPosition="73" endLine="59" endPosition="122" />
+    <nodeInfo nodeId="4422427343208741769" fileName="AmbiguityPlanarizationFinder_Test.java" startLine="60" startPosition="82" endLine="61" endPosition="73" />
+    <nodeInfo nodeId="4422427343208741784" fileName="AmbiguityPlanarizationFinder_Test.java" startLine="61" startPosition="73" endLine="62" endPosition="73" />
+    <nodeInfo nodeId="4422427343208741793" fileName="AmbiguityPlanarizationFinder_Test.java" startLine="62" startPosition="73" endLine="63" endPosition="86" />
+    <nodeInfo nodeId="4422427343208741821" fileName="AmbiguityPlanarizationFinder_Test.java" startLine="63" startPosition="86" endLine="64" endPosition="86" />
+    <nodeInfo nodeId="4422427343208744031" fileName="AmbiguityPlanarizationFinder_Test.java" startLine="66" startPosition="9" endLine="67" endPosition="146" />
+    <nodeInfo nodeId="4422427343208744087" fileName="AmbiguityPlanarizationFinder_Test.java" startLine="68" startPosition="91" endLine="69" endPosition="82" />
+    <nodeInfo nodeId="4422427343208744102" fileName="AmbiguityPlanarizationFinder_Test.java" startLine="69" startPosition="82" endLine="70" endPosition="86" />
+    <nodeInfo nodeId="4422427343208744119" fileName="AmbiguityPlanarizationFinder_Test.java" startLine="70" startPosition="86" endLine="71" endPosition="122" />
+    <nodeInfo nodeId="4422427343208744175" fileName="AmbiguityPlanarizationFinder_Test.java" startLine="72" startPosition="82" endLine="73" endPosition="73" />
+    <nodeInfo nodeId="4422427343208744189" fileName="AmbiguityPlanarizationFinder_Test.java" startLine="73" startPosition="73" endLine="74" endPosition="73" />
+    <nodeInfo nodeId="4422427343208744201" fileName="AmbiguityPlanarizationFinder_Test.java" startLine="74" startPosition="73" endLine="75" endPosition="86" />
+    <nodeInfo nodeId="4422427343208744213" fileName="AmbiguityPlanarizationFinder_Test.java" startLine="75" startPosition="86" endLine="76" endPosition="86" />
+    <nodeInfo nodeId="4422427343208741484" fileName="AmbiguityPlanarizationFinder_Test.java" startLine="41" startPosition="79" endLine="44" endPosition="7" />
+    <nodeInfo nodeId="4422427343208741498" fileName="AmbiguityPlanarizationFinder_Test.java" startLine="44" startPosition="7" endLine="47" endPosition="7" />
+    <nodeInfo nodeId="4422427343208741833" fileName="AmbiguityPlanarizationFinder_Test.java" startLine="23" startPosition="65" endLine="29" endPosition="0" />
+    <nodeInfo nodeId="4422427343208756659" fileName="AmbiguityPlanarizationFinder_Test.java" startLine="29" startPosition="0" endLine="35" endPosition="0" />
+    <nodeInfo nodeId="4422427343208741737" fileName="AmbiguityPlanarizationFinder_Test.java" startLine="59" startPosition="122" endLine="65" endPosition="11" />
+    <nodeInfo nodeId="4422427343208744147" fileName="AmbiguityPlanarizationFinder_Test.java" startLine="71" startPosition="122" endLine="77" endPosition="11" />
+    <nodeInfo nodeId="4422427343208741646" fileName="AmbiguityPlanarizationFinder_Test.java" startLine="55" startPosition="124" endLine="66" endPosition="9" />
+    <nodeInfo nodeId="4422427343208744060" fileName="AmbiguityPlanarizationFinder_Test.java" startLine="67" startPosition="146" endLine="78" endPosition="9" />
+    <nodeInfo nodeId="4422427343208741588" fileName="AmbiguityPlanarizationFinder_Test.java" startLine="53" startPosition="12" endLine="79" endPosition="7" />
+    <nodeInfo nodeId="4422427343208741557" fileName="AmbiguityPlanarizationFinder_Test.java" startLine="50" startPosition="94" endLine="79" endPosition="7" />
+    <nodeInfo nodeId="4422427343208741441" fileName="AmbiguityPlanarizationFinder_Test.java" startLine="37" startPosition="43" endLine="80" endPosition="5" />
+    <nodeInfo nodeId="4422427343208741428" fileName="AmbiguityPlanarizationFinder_Test.java" startLine="35" startPosition="0" endLine="82" endPosition="0" />
+    <scopeInfo nodeId="4422427343208741489" fileName="AmbiguityPlanarizationFinder_Test.java" startLine="42" startPosition="65" endLine="43" endPosition="63" />
+    <scopeInfo nodeId="4422427343208741503" fileName="AmbiguityPlanarizationFinder_Test.java" startLine="45" startPosition="65" endLine="46" endPosition="161" />
+    <scopeInfo nodeId="4422427343208741558" fileName="AmbiguityPlanarizationFinder_Test.java" startLine="51" startPosition="38" endLine="52" endPosition="42" />
+    <scopeInfo nodeId="4422427343208741836" fileName="AmbiguityPlanarizationFinder_Test.java" startLine="24" startPosition="45" endLine="27" endPosition="16">
+      <varInfo nodeId="4422427343208741838" varName="graphString" />
+      <varInfo nodeId="4422427343208741846" varName="graph" />
+    </scopeInfo>
+    <scopeInfo nodeId="4422427343208756662" fileName="AmbiguityPlanarizationFinder_Test.java" startLine="30" startPosition="45" endLine="33" endPosition="16">
+      <varInfo nodeId="4422427343208756664" varName="graphString" />
+      <varInfo nodeId="4422427343208756668" varName="graph" />
+    </scopeInfo>
+    <scopeInfo nodeId="4422427343208741484" fileName="AmbiguityPlanarizationFinder_Test.java" startLine="41" startPosition="79" endLine="44" endPosition="7" />
+    <scopeInfo nodeId="4422427343208741498" fileName="AmbiguityPlanarizationFinder_Test.java" startLine="44" startPosition="7" endLine="47" endPosition="7" />
+    <scopeInfo nodeId="4422427343208741738" fileName="AmbiguityPlanarizationFinder_Test.java" startLine="60" startPosition="82" endLine="64" endPosition="86">
+      <varInfo nodeId="4422427343208741770" varName="e1" />
+      <varInfo nodeId="4422427343208741785" varName="e2" />
+    </scopeInfo>
+    <scopeInfo nodeId="4422427343208744148" fileName="AmbiguityPlanarizationFinder_Test.java" startLine="72" startPosition="82" endLine="76" endPosition="86">
+      <varInfo nodeId="4422427343208744176" varName="d1" />
+      <varInfo nodeId="4422427343208744190" varName="d2" />
+    </scopeInfo>
+    <scopeInfo nodeId="4422427343208741833" fileName="AmbiguityPlanarizationFinder_Test.java" startLine="23" startPosition="65" endLine="29" endPosition="0" />
+    <scopeInfo nodeId="4422427343208756659" fileName="AmbiguityPlanarizationFinder_Test.java" startLine="29" startPosition="0" endLine="35" endPosition="0" />
+    <scopeInfo nodeId="4422427343208741737" fileName="AmbiguityPlanarizationFinder_Test.java" startLine="59" startPosition="122" endLine="65" endPosition="11">
+      <varInfo nodeId="4422427343208741745" varName="j" />
+    </scopeInfo>
+    <scopeInfo nodeId="4422427343208744147" fileName="AmbiguityPlanarizationFinder_Test.java" startLine="71" startPosition="122" endLine="77" endPosition="11">
+      <varInfo nodeId="4422427343208744150" varName="j" />
+    </scopeInfo>
+    <scopeInfo nodeId="4422427343208741647" fileName="AmbiguityPlanarizationFinder_Test.java" startLine="56" startPosition="82" endLine="65" endPosition="11">
+      <varInfo nodeId="4422427343208741674" varName="n1" />
+      <varInfo nodeId="4422427343208741689" varName="n2" />
+    </scopeInfo>
+    <scopeInfo nodeId="4422427343208744061" fileName="AmbiguityPlanarizationFinder_Test.java" startLine="68" startPosition="91" endLine="77" endPosition="11">
+      <varInfo nodeId="4422427343208744088" varName="f1" />
+      <varInfo nodeId="4422427343208744103" varName="f2" />
+    </scopeInfo>
+    <scopeInfo nodeId="4422427343208741646" fileName="AmbiguityPlanarizationFinder_Test.java" startLine="55" startPosition="124" endLine="66" endPosition="9">
+      <varInfo nodeId="4422427343208741649" varName="i" />
+    </scopeInfo>
+    <scopeInfo nodeId="4422427343208744060" fileName="AmbiguityPlanarizationFinder_Test.java" startLine="67" startPosition="146" endLine="78" endPosition="9">
+      <varInfo nodeId="4422427343208744063" varName="i" />
+    </scopeInfo>
+    <scopeInfo nodeId="4422427343208741589" fileName="AmbiguityPlanarizationFinder_Test.java" startLine="53" startPosition="14" endLine="78" endPosition="9">
+      <varInfo nodeId="4422427343208741598" varName="main" />
+    </scopeInfo>
+    <scopeInfo nodeId="4422427343208741442" fileName="AmbiguityPlanarizationFinder_Test.java" startLine="38" startPosition="53" endLine="79" endPosition="7">
+      <varInfo nodeId="4422427343208741476" varName="edgeMap" />
+      <varInfo nodeId="4422427343208741467" varName="nodeMap" />
+      <varInfo nodeId="4422427343208741541" varName="embeddedGraph" />
+      <varInfo nodeId="4422427343208741462" varName="copy" />
+    </scopeInfo>
+    <scopeInfo nodeId="4422427343208741441" fileName="AmbiguityPlanarizationFinder_Test.java" startLine="37" startPosition="43" endLine="80" endPosition="5">
+      <varInfo nodeId="4422427343208741444" varName="testNum" />
+    </scopeInfo>
+    <scopeInfo nodeId="4422427343208741434" fileName="AmbiguityPlanarizationFinder_Test.java" startLine="36" startPosition="33" endLine="80" endPosition="5">
+      <varInfo nodeId="4422427343208741438" varName="mainEmbeddedGraph" />
+    </scopeInfo>
+    <scopeInfo nodeId="4422427343208741428" fileName="AmbiguityPlanarizationFinder_Test.java" startLine="35" startPosition="0" endLine="82" endPosition="0">
+      <varInfo nodeId="4422427343208741432" varName="graph" />
+    </scopeInfo>
   </root>
   <root nodeId="4644851485137285698">
     <nodeInfo nodeId="4644851485137285746" fileName="PQPlanarizationFinder_Test.java" startLine="13" startPosition="45" endLine="14" endPosition="46" />

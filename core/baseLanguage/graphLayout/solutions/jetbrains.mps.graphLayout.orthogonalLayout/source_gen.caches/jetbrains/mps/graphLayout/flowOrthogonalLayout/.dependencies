@@ -20,6 +20,7 @@
   <dependency className="jetbrains.mps.graphLayout.flowOrthogonalLayout.OrthogonalPointLayouter" file="OrthogonalPointLayouter.java">
     <classNode dependClassName="java.awt.Point" />
     <classNode dependClassName="java.lang.Integer" />
+    <classNode dependClassName="java.lang.Math" />
     <classNode dependClassName="java.lang.Override" />
     <classNode dependClassName="java.lang.System" />
     <classNode dependClassName="java.util.ArrayList" />
@@ -45,6 +46,7 @@
     <classNode dependClassName="jetbrains.mps.internal.collections.runtime.IWhereFilter" />
     <classNode dependClassName="jetbrains.mps.internal.collections.runtime.ListSequence" />
     <classNode dependClassName="jetbrains.mps.internal.collections.runtime.MapSequence" />
+    <classNode dependClassName="jetbrains.mps.internal.collections.runtime.Sequence" />
     <classNode dependClassName="jetbrains.mps.internal.collections.runtime.SetSequence" />
     <classNode extendsClassName="jetbrains.mps.graphLayout.algorithms.Dfs" />
     <classNode extendsClassName="jetbrains.mps.graphLayout.graphLayout.ILayouter" />

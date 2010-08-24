@@ -8,7 +8,7 @@ import java.util.List;
 import java.util.Map;
 import jetbrains.mps.graphLayout.graph.Edge;
 import jetbrains.mps.internal.collections.runtime.SetSequence;
-import java.util.HashSet;
+import java.util.LinkedHashSet;
 import jetbrains.mps.internal.collections.runtime.ListSequence;
 import java.util.ArrayList;
 import jetbrains.mps.internal.collections.runtime.MapSequence;
@@ -22,7 +22,7 @@ public class BiconnectedComponent {
   private Map<BiconnectedComponent, Node> myCutpoints;
 
   private BiconnectedComponent() {
-    myNodes = SetSequence.fromSet(new HashSet<Node>());
+    myNodes = SetSequence.fromSet(new LinkedHashSet<Node>());
     myChildren = ListSequence.fromList(new ArrayList<BiconnectedComponent>());
     myBridges = MapSequence.fromMap(new HashMap<BiconnectedComponent, Edge>());
     myCutpoints = MapSequence.fromMap(new HashMap<BiconnectedComponent, Node>());

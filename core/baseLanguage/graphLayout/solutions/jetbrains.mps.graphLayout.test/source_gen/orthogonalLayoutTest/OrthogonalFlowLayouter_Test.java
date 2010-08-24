@@ -8,6 +8,13 @@ import visualization.GraphIO;
 import java.util.Scanner;
 import jetbrains.mps.graphLayout.flowOrthogonalLayout.OrthogonalPointLayouter;
 import jetbrains.mps.graphLayout.graphLayout.GraphLayoutPoint;
+import jetbrains.mps.graphLayout.graph.Edge;
+import jetbrains.mps.internal.collections.runtime.SetSequence;
+import jetbrains.mps.internal.collections.runtime.MapSequence;
+import jetbrains.mps.graphLayout.graph.Node;
+import java.awt.Point;
+import jetbrains.mps.internal.collections.runtime.ListSequence;
+import junit.framework.Assert;
 
 public class OrthogonalFlowLayouter_Test extends TestCase {
   public void test_test1() throws Exception {
@@ -34,8 +41,24 @@ public class OrthogonalFlowLayouter_Test extends TestCase {
     testPlanarGraph(graph);
   }
 
+  public void test_test5() throws Exception {
+    String graphString = "7 12  \n0 5\n  0 2\n  0 6  \n1 0  \n1 2  \n2 4  \n2 6  \n3 2  \n4 5  \n4 1  \n6 4  \n6 1\n";
+    Graph graph = GraphIO.scanGraph(new Scanner(graphString));
+    testPlanarGraph(graph);
+  }
+
   public void testPlanarGraph(Graph graph) {
     OrthogonalPointLayouter layouter = new OrthogonalPointLayouter();
     GraphLayoutPoint layoutPoint = layouter.doLayout(graph);
+    for (Edge edge : SetSequence.fromSet(MapSequence.fromMap(layoutPoint.getEdgeLayout()).keySet())) {
+      Node source = edge.getSource();
+      Point first = ListSequence.fromList(layoutPoint.getLayoutFor(edge)).first();
+      Assert.assertTrue(layoutPoint.getLayoutFor(source).x == first.x);
+      Assert.assertTrue(layoutPoint.getLayoutFor(source).y == first.y);
+      Node target = edge.getTarget();
+      Point last = ListSequence.fromList(layoutPoint.getLayoutFor(edge)).last();
+      Assert.assertTrue(layoutPoint.getLayoutFor(target).x == last.x);
+      Assert.assertTrue(layoutPoint.getLayoutFor(target).y == last.y);
+    }
   }
 }

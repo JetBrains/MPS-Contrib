@@ -14,6 +14,7 @@ import java.util.ArrayList;
 import jetbrains.mps.internal.collections.runtime.IWhereFilter;
 import java.util.Map;
 import jetbrains.mps.graphLayout.util.NodeMap;
+import java.util.LinkedHashSet;
 import jetbrains.mps.internal.collections.runtime.MapSequence;
 
 public class BiconnectAugmentation {
@@ -86,10 +87,10 @@ public class BiconnectAugmentation {
       myNum = new NodeMap<Integer>(graph);
       myCurNum = 0;
       mySource = source;
-      myConnectToNew = SetSequence.fromSet(new HashSet<Node>());
+      myConnectToNew = SetSequence.fromSet(new LinkedHashSet<Node>());
       init(graph, Edge.Direction.BOTH);
       dfs(source, null);
-      Set<Edge> result = SetSequence.fromSet(new HashSet<Edge>());
+      Set<Edge> result = SetSequence.fromSet(new LinkedHashSet<Edge>());
       for (Node node : SetSequence.fromSet(myConnectToNew)) {
         SetSequence.fromSet(result).addElement(myNewNode.addEdgeTo(node));
       }

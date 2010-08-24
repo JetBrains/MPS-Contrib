@@ -617,8 +617,21 @@
           <node role="throwable:3" type="jetbrains.mps.baseLanguage.structure.GenericNewExpression:3" id="1646208389854254615">
             <node role="creator:3" type="jetbrains.mps.baseLanguage.structure.ClassCreator:3" id="1646208389854254617">
               <link role="baseMethodDeclaration:3" targetNodeId="2v.~RuntimeException.&lt;init&gt;(java.lang.String)" resolveInfo="RuntimeException" />
-              <node role="actualArgument:3" type="jetbrains.mps.baseLanguage.structure.StringLiteral:3" id="1646208389854254618">
-                <property name="value:3" value="argument is't adjacent to this edge" />
+              <node role="actualArgument:3" type="jetbrains.mps.baseLanguage.structure.PlusExpression:3" id="4422427343208637565">
+                <node role="rightExpression:3" type="jetbrains.mps.baseLanguage.structure.ThisExpression:3" id="4422427343208637568" />
+                <node role="leftExpression:3" type="jetbrains.mps.baseLanguage.structure.PlusExpression:3" id="4422427343208637557">
+                  <node role="leftExpression:3" type="jetbrains.mps.baseLanguage.structure.PlusExpression:3" id="4422427343208637561">
+                    <node role="rightExpression:3" type="jetbrains.mps.baseLanguage.structure.ParameterReference:3" id="4422427343208637564">
+                      <link role="variableDeclaration:3" targetNodeId="1646208389854254584" resolveInfo="node" />
+                    </node>
+                    <node role="leftExpression:3" type="jetbrains.mps.baseLanguage.structure.StringLiteral:3" id="4422427343208637560">
+                      <property name="value:3" value="node " />
+                    </node>
+                  </node>
+                  <node role="rightExpression:3" type="jetbrains.mps.baseLanguage.structure.StringLiteral:3" id="1646208389854254618">
+                    <property name="value:3" value=" is't adjacent to edge " />
+                  </node>
+                </node>
               </node>
             </node>
           </node>

@@ -83,7 +83,7 @@ public class EdgeLengthComputer {
         }
         Edge newEdge = sourceNode.addEdgeTo(targetNode);
         MapSequence.fromMap(edgeMap).put(edge, newEdge);
-        MapSequence.fromMap(low).put(newEdge, 1);
+        MapSequence.fromMap(low).put(newEdge, 2);
         MapSequence.fromMap(capacity).put(newEdge, Integer.MAX_VALUE / 2);
         MapSequence.fromMap(cost).put(newEdge, 1);
       }
