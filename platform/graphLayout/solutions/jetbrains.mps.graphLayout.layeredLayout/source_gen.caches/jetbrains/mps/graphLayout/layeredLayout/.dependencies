@@ -141,7 +141,7 @@
     <classNode dependClassName="jetbrains.mps.graphLayout.graph.Edge" />
     <classNode dependClassName="jetbrains.mps.graphLayout.graph.Graph" />
     <classNode dependClassName="jetbrains.mps.graphLayout.graph.Node" />
-    <classNode dependClassName="jetbrains.mps.graphLayout.graphLayout.GraphLayoutPoint" />
+    <classNode dependClassName="jetbrains.mps.graphLayout.graphLayout.GraphPointLayout" />
     <classNode dependClassName="jetbrains.mps.graphLayout.layeredLayout.ICoordinatePlacer" />
     <classNode dependClassName="jetbrains.mps.graphLayout.layeredLayout.IEdgeReverter" />
     <classNode dependClassName="jetbrains.mps.graphLayout.layeredLayout.ILayerer" />

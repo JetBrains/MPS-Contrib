@@ -18,6 +18,8 @@ import java.util.LinkedHashSet;
 import jetbrains.mps.internal.collections.runtime.MapSequence;
 
 public class BiconnectAugmentation {
+  private static int SHOW_LOG = 0;
+
   public static Set<Edge> makeBiconnected(Graph graph) {
     return new BiconnectAugmentation.MyDfs().doDfs(graph, ListSequence.fromList(graph.getNodes()).getElement(0));
   }
@@ -25,20 +27,21 @@ public class BiconnectAugmentation {
   public static Set<Edge> smartMakeBiconnected(Graph graph) {
     Set<Edge> addedEdges = SetSequence.fromSet(new HashSet<Edge>());
     BiconnectedComponent root = BiconnectedComponent.createTree(graph);
+    if (SHOW_LOG > 0) {
+      System.out.println(root.toString(""));
+    }
     if (ListSequence.fromList(root.getChildren()).count() > 0) {
       List<Node> toConnect = ListSequence.fromList(new ArrayList<Node>());
       collectListNodes(root, toConnect, null);
-      if (ListSequence.fromList(toConnect).count() == 1) {
-        if (SetSequence.fromSet(root.getNodes()).count() == 1) {
-          ListSequence.fromList(toConnect).addElement(SetSequence.fromSet(root.getNodes()).first());
-        } else {
-          final Node cutpoint = root.getCutpoint(ListSequence.fromList(root.getChildren()).first());
-          ListSequence.fromList(toConnect).addElement(SetSequence.fromSet(root.getNodes()).findFirst(new IWhereFilter<Node>() {
-            public boolean accept(Node it) {
-              return it != cutpoint;
-            }
-          }));
-        }
+      if (SetSequence.fromSet(root.getNodes()).count() == 1) {
+        ListSequence.fromList(toConnect).addElement(SetSequence.fromSet(root.getNodes()).first());
+      } else {
+        final Node cutpoint = root.getCutpoint(ListSequence.fromList(root.getChildren()).first());
+        ListSequence.fromList(toConnect).addElement(SetSequence.fromSet(root.getNodes()).findFirst(new IWhereFilter<Node>() {
+          public boolean accept(Node it) {
+            return it != cutpoint;
+          }
+        }));
       }
       Node prev = null;
       for (Node node : ListSequence.fromList(toConnect)) {
@@ -53,7 +56,6 @@ public class BiconnectAugmentation {
 
   private static void collectListNodes(BiconnectedComponent component, List<Node> nodes, final Node cutpoint) {
     if (ListSequence.fromList(component.getChildren()).count() == 0) {
-
       Set<Node> componentNodes = component.getNodes();
       if (SetSequence.fromSet(componentNodes).count() == 1) {
         ListSequence.fromList(nodes).addElement(SetSequence.fromSet(componentNodes).first());

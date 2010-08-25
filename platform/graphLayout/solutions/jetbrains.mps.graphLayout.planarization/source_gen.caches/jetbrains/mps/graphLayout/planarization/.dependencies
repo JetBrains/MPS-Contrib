@@ -118,6 +118,7 @@
     <classNode dependClassName="java.util.Map" />
     <classNode dependClassName="java.util.Set" />
     <classNode dependClassName="jetbrains.mps.graphLayout.algorithms.BiconnectedComponent" />
+    <classNode dependClassName="jetbrains.mps.graphLayout.algorithms.ConnectivityComponents" />
     <classNode dependClassName="jetbrains.mps.graphLayout.algorithms.GraphOrientation" />
     <classNode dependClassName="jetbrains.mps.graphLayout.graph.Edge" />
     <classNode dependClassName="jetbrains.mps.graphLayout.graph.Graph" />

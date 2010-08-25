@@ -9,6 +9,7 @@ import jetbrains.mps.internal.collections.runtime.ListSequence;
 import jetbrains.mps.graphLayout.planarGraph.Face;
 import jetbrains.mps.graphLayout.planarGraph.CheckFace;
 import jetbrains.mps.graphLayout.planarGraph.Dart;
+import junit.framework.Assert;
 
 public class CheckEmbeddedGraph {
   public static boolean checkAdjacentFaces(EmbeddedGraph embeddedGraph) {
@@ -31,6 +32,12 @@ public class CheckEmbeddedGraph {
           throw new RuntimeException("bad dart: " + dart);
         }
       }
+    }
+  }
+
+  public static void checkFull(EmbeddedGraph embeddedGraph) {
+    for (Edge edge : ListSequence.fromList(embeddedGraph.getGraph().getEdges())) {
+      Assert.assertTrue(embeddedGraph.getAdjacentFaces(edge) != null);
     }
   }
 }

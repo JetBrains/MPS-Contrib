@@ -34,6 +34,12 @@ public class BiconnectAugmentation_Test extends TestCase {
     testSmart(graphString);
   }
 
+  public void test_test4() throws Exception {
+    String graphString = "7 12  \n0 4  \n0 6  \n0 5  \n0 3  \n2 5  \n3 5  \n4 3  \n4 6  \n5 1  \n5 6  \n5 4  \n6 3";
+    test(graphString);
+    testSmart(graphString);
+  }
+
   public void test(String graphString) {
     Graph graph = GraphIO.scanGraph(new Scanner(graphString));
     BiconnectAugmentation.makeBiconnected(graph);

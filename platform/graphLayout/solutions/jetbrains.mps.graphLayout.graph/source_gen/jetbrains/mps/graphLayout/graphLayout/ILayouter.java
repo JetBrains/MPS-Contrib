@@ -5,5 +5,5 @@ package jetbrains.mps.graphLayout.graphLayout;
 import jetbrains.mps.graphLayout.graph.Graph;
 
 public interface ILayouter {
-  public GraphLayoutPoint doLayout(Graph graph);
+  public GraphPointLayout doLayout(Graph graph);
 }

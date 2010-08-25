@@ -10,6 +10,7 @@ import java.util.Scanner;
 import jetbrains.mps.graphLayout.planarGraph.EmbeddedGraph;
 import jetbrains.mps.graphLayout.planarization.ShortestPathEmbeddingFinder;
 import jetbrains.mps.graphLayout.planarization.BiconnectedInitialEmbeddingFinder;
+import jetbrains.mps.graphLayout.planarization.PQPlanarizationFinder;
 
 public class ShortestPathEmbeddingFinder_Test extends TestCase {
   public void test_cycle() throws Exception {
@@ -37,9 +38,21 @@ public class ShortestPathEmbeddingFinder_Test extends TestCase {
     test(GraphIO.scanGraph(new Scanner(graphString)));
   }
 
+  public void test_test2() throws Exception {
+    String graphString = "7 12\n  0 3\n  0 1  \n1 2  \n1 6  \n2 5  \n2 4  \n3 5  \n4 0  \n5 4  \n5 0  \n6 4  \n6 3";
+    Graph graph = GraphIO.scanGraph(new Scanner(graphString));
+    testPQ(graph);
+  }
+
   public void test(Graph graph) {
     EmbeddedGraph embeddedGraph = new ShortestPathEmbeddingFinder(new BiconnectedInitialEmbeddingFinder()).find(graph);
     CheckEmbeddedGraph.checkEmbeddedGraph(embeddedGraph);
-    System.out.println(embeddedGraph);
+    CheckEmbeddedGraph.checkFull(embeddedGraph);
+  }
+
+  public void testPQ(Graph graph) {
+    EmbeddedGraph embeddedGraph = new ShortestPathEmbeddingFinder(new PQPlanarizationFinder()).find(graph);
+    CheckEmbeddedGraph.checkEmbeddedGraph(embeddedGraph);
+    CheckEmbeddedGraph.checkFull(embeddedGraph);
   }
 }

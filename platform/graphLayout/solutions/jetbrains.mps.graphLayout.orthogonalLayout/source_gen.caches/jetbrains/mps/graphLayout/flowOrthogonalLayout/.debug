@@ -430,424 +430,471 @@
   </root>
   <root nodeId="529057043639208598">
     <nodeInfo nodeId="529057043639208829" fileName="OrthogonalPointLayouter.java" startLine="32" startPosition="59" endLine="33" endPosition="37" />
-    <nodeInfo nodeId="8568898107892568228" fileName="OrthogonalPointLayouter.java" startLine="33" startPosition="37" endLine="34" endPosition="35" />
-    <nodeInfo nodeId="529057043639328278" fileName="OrthogonalPointLayouter.java" startLine="39" startPosition="49" endLine="40" endPosition="29" />
-    <nodeInfo nodeId="529057043639328293" fileName="OrthogonalPointLayouter.java" startLine="40" startPosition="29" endLine="41" endPosition="77" />
-    <nodeInfo nodeId="529057043639328285" fileName="OrthogonalPointLayouter.java" startLine="41" startPosition="77" endLine="42" endPosition="77" />
-    <nodeInfo nodeId="529057043639328326" fileName="OrthogonalPointLayouter.java" startLine="43" startPosition="63" endLine="44" endPosition="61" />
-    <nodeInfo nodeId="529057043639328352" fileName="OrthogonalPointLayouter.java" startLine="46" startPosition="63" endLine="47" endPosition="159" />
-    <nodeInfo nodeId="529057043639335402" fileName="OrthogonalPointLayouter.java" startLine="48" startPosition="5" endLine="49" endPosition="53" />
-    <nodeInfo nodeId="529057043639208638" fileName="OrthogonalPointLayouter.java" startLine="49" startPosition="53" endLine="50" endPosition="106" />
-    <nodeInfo nodeId="3380715998758086654" fileName="OrthogonalPointLayouter.java" startLine="50" startPosition="106" endLine="51" endPosition="89" />
-    <nodeInfo nodeId="3380715998758092590" fileName="OrthogonalPointLayouter.java" startLine="52" startPosition="63" endLine="53" endPosition="116" />
-    <nodeInfo nodeId="4422427343208738054" fileName="OrthogonalPointLayouter.java" startLine="54" startPosition="154" endLine="55" endPosition="125" />
-    <nodeInfo nodeId="3380715998758086401" fileName="OrthogonalPointLayouter.java" startLine="57" startPosition="5" endLine="58" endPosition="90" />
-    <nodeInfo nodeId="3380715998758092785" fileName="OrthogonalPointLayouter.java" startLine="58" startPosition="90" endLine="59" endPosition="83" />
-    <nodeInfo nodeId="3380715998758086412" fileName="OrthogonalPointLayouter.java" startLine="59" startPosition="83" endLine="60" endPosition="83" />
-    <nodeInfo nodeId="3380715998758092865" fileName="OrthogonalPointLayouter.java" startLine="61" startPosition="88" endLine="62" endPosition="70" />
-    <nodeInfo nodeId="3380715998758092881" fileName="OrthogonalPointLayouter.java" startLine="63" startPosition="72" endLine="64" endPosition="106" />
-    <nodeInfo nodeId="3380715998758092937" fileName="OrthogonalPointLayouter.java" startLine="67" startPosition="90" endLine="68" endPosition="55" />
-    <nodeInfo nodeId="3380715998758092945" fileName="OrthogonalPointLayouter.java" startLine="69" startPosition="66" endLine="70" endPosition="97" />
-    <nodeInfo nodeId="3380715998758092962" fileName="OrthogonalPointLayouter.java" startLine="72" startPosition="52" endLine="73" endPosition="55" />
-    <nodeInfo nodeId="3380715998758092974" fileName="OrthogonalPointLayouter.java" startLine="74" startPosition="67" endLine="75" endPosition="136" />
-    <nodeInfo nodeId="3380715998758086347" fileName="OrthogonalPointLayouter.java" startLine="78" startPosition="5" endLine="79" endPosition="73" />
-    <nodeInfo nodeId="3380715998758086456" fileName="OrthogonalPointLayouter.java" startLine="79" startPosition="73" endLine="80" endPosition="63" />
-    <nodeInfo nodeId="3380715998758170841" fileName="OrthogonalPointLayouter.java" startLine="81" startPosition="63" endLine="82" endPosition="61" />
-    <nodeInfo nodeId="3380715998758086487" fileName="OrthogonalPointLayouter.java" startLine="83" startPosition="64" endLine="84" endPosition="37" />
-    <nodeInfo nodeId="3380715998758086493" fileName="OrthogonalPointLayouter.java" startLine="84" startPosition="37" endLine="85" endPosition="37" />
-    <nodeInfo nodeId="3380715998758086502" fileName="OrthogonalPointLayouter.java" startLine="85" startPosition="37" endLine="86" endPosition="37" />
-    <nodeInfo nodeId="3380715998758086506" fileName="OrthogonalPointLayouter.java" startLine="86" startPosition="37" endLine="87" endPosition="37" />
-    <nodeInfo nodeId="3380715998758086527" fileName="OrthogonalPointLayouter.java" startLine="88" startPosition="97" endLine="89" endPosition="57" />
-    <nodeInfo nodeId="3380715998758086544" fileName="OrthogonalPointLayouter.java" startLine="89" startPosition="57" endLine="90" endPosition="41" />
-    <nodeInfo nodeId="3380715998758086561" fileName="OrthogonalPointLayouter.java" startLine="90" startPosition="41" endLine="91" endPosition="41" />
-    <nodeInfo nodeId="3380715998758086572" fileName="OrthogonalPointLayouter.java" startLine="91" startPosition="41" endLine="92" endPosition="41" />
-    <nodeInfo nodeId="3380715998758086580" fileName="OrthogonalPointLayouter.java" startLine="92" startPosition="41" endLine="93" endPosition="41" />
-    <nodeInfo nodeId="3380715998758086604" fileName="OrthogonalPointLayouter.java" startLine="94" startPosition="9" endLine="95" endPosition="88" />
-    <nodeInfo nodeId="3380715998758086463" fileName="OrthogonalPointLayouter.java" startLine="96" startPosition="14" endLine="97" endPosition="104" />
-    <nodeInfo nodeId="3380715998758092625" fileName="OrthogonalPointLayouter.java" startLine="100" startPosition="68" endLine="101" endPosition="77" />
-    <nodeInfo nodeId="3380715998758092649" fileName="OrthogonalPointLayouter.java" startLine="101" startPosition="77" endLine="102" endPosition="75" />
-    <nodeInfo nodeId="4422427343208581745" fileName="OrthogonalPointLayouter.java" startLine="102" startPosition="75" endLine="103" endPosition="80" />
-    <nodeInfo nodeId="4422427343208581762" fileName="OrthogonalPointLayouter.java" startLine="103" startPosition="80" endLine="104" endPosition="15" />
-    <nodeInfo nodeId="4422427343208581810" fileName="OrthogonalPointLayouter.java" startLine="104" startPosition="15" endLine="105" endPosition="80" />
-    <nodeInfo nodeId="4422427343208581798" fileName="OrthogonalPointLayouter.java" startLine="106" startPosition="132" endLine="107" endPosition="26" />
-    <nodeInfo nodeId="4422427343208581819" fileName="OrthogonalPointLayouter.java" startLine="108" startPosition="14" endLine="109" endPosition="69" />
-    <nodeInfo nodeId="4422427343208581845" fileName="OrthogonalPointLayouter.java" startLine="112" startPosition="38" endLine="113" endPosition="110" />
-    <nodeInfo nodeId="4422427343208581855" fileName="OrthogonalPointLayouter.java" startLine="114" startPosition="16" endLine="115" endPosition="125" />
-    <nodeInfo nodeId="4422427343208581873" fileName="OrthogonalPointLayouter.java" startLine="116" startPosition="9" endLine="117" endPosition="36" />
-    <nodeInfo nodeId="4422427343208636222" fileName="OrthogonalPointLayouter.java" startLine="118" startPosition="7" endLine="119" endPosition="106" />
-    <nodeInfo nodeId="4422427343208636232" fileName="OrthogonalPointLayouter.java" startLine="119" startPosition="106" endLine="120" endPosition="100" />
-    <nodeInfo nodeId="3380715998758093090" fileName="OrthogonalPointLayouter.java" startLine="120" startPosition="100" endLine="121" endPosition="54" />
-    <nodeInfo nodeId="3380715998758086426" fileName="OrthogonalPointLayouter.java" startLine="122" startPosition="5" endLine="123" endPosition="23" />
-    <nodeInfo nodeId="3380715998758077830" fileName="OrthogonalPointLayouter.java" startLine="126" startPosition="99" endLine="127" endPosition="43" />
-    <nodeInfo nodeId="3380715998758082385" fileName="OrthogonalPointLayouter.java" startLine="127" startPosition="43" endLine="128" endPosition="71" />
-    <nodeInfo nodeId="3380715998758082395" fileName="OrthogonalPointLayouter.java" startLine="128" startPosition="71" endLine="129" endPosition="89" />
-    <nodeInfo nodeId="3380715998758082779" fileName="OrthogonalPointLayouter.java" startLine="129" startPosition="89" endLine="130" endPosition="71" />
-    <nodeInfo nodeId="3380715998758082786" fileName="OrthogonalPointLayouter.java" startLine="130" startPosition="71" endLine="131" endPosition="89" />
-    <nodeInfo nodeId="3380715998758082424" fileName="OrthogonalPointLayouter.java" startLine="131" startPosition="89" endLine="132" endPosition="81" />
-    <nodeInfo nodeId="3380715998758082433" fileName="OrthogonalPointLayouter.java" startLine="132" startPosition="81" endLine="133" endPosition="82" />
-    <nodeInfo nodeId="3380715998758082442" fileName="OrthogonalPointLayouter.java" startLine="133" startPosition="82" endLine="134" endPosition="96" />
-    <nodeInfo nodeId="3380715998758082449" fileName="OrthogonalPointLayouter.java" startLine="135" startPosition="24" endLine="136" endPosition="35" />
-    <nodeInfo nodeId="3380715998758082454" fileName="OrthogonalPointLayouter.java" startLine="136" startPosition="35" endLine="137" endPosition="32" />
-    <nodeInfo nodeId="3380715998758082463" fileName="OrthogonalPointLayouter.java" startLine="138" startPosition="5" endLine="139" endPosition="79" />
-    <nodeInfo nodeId="3380715998758082468" fileName="OrthogonalPointLayouter.java" startLine="139" startPosition="79" endLine="140" endPosition="102" />
-    <nodeInfo nodeId="3380715998758082756" fileName="OrthogonalPointLayouter.java" startLine="141" startPosition="24" endLine="142" endPosition="71" />
-    <nodeInfo nodeId="3380715998758082532" fileName="OrthogonalPointLayouter.java" startLine="143" startPosition="5" endLine="144" endPosition="52" />
-    <nodeInfo nodeId="3380715998758082538" fileName="OrthogonalPointLayouter.java" startLine="145" startPosition="24" endLine="146" endPosition="61" />
-    <nodeInfo nodeId="3380715998758082763" fileName="OrthogonalPointLayouter.java" startLine="146" startPosition="61" endLine="147" endPosition="66" />
-    <nodeInfo nodeId="3380715998758082592" fileName="OrthogonalPointLayouter.java" startLine="148" startPosition="5" endLine="149" endPosition="93" />
-    <nodeInfo nodeId="3380715998758082603" fileName="OrthogonalPointLayouter.java" startLine="149" startPosition="93" endLine="150" endPosition="138" />
-    <nodeInfo nodeId="3380715998758082611" fileName="OrthogonalPointLayouter.java" startLine="150" startPosition="138" endLine="151" endPosition="42" />
-    <nodeInfo nodeId="3380715998758082775" fileName="OrthogonalPointLayouter.java" startLine="151" startPosition="42" endLine="152" endPosition="0" />
-    <nodeInfo nodeId="3380715998758082617" fileName="OrthogonalPointLayouter.java" startLine="152" startPosition="0" endLine="153" endPosition="56" />
-    <nodeInfo nodeId="3380715998758082801" fileName="OrthogonalPointLayouter.java" startLine="153" startPosition="56" endLine="154" endPosition="63" />
-    <nodeInfo nodeId="3380715998758082820" fileName="OrthogonalPointLayouter.java" startLine="155" startPosition="55" endLine="156" endPosition="81" />
-    <nodeInfo nodeId="3380715998758082848" fileName="OrthogonalPointLayouter.java" startLine="158" startPosition="55" endLine="159" endPosition="63" />
-    <nodeInfo nodeId="3380715998758082869" fileName="OrthogonalPointLayouter.java" startLine="159" startPosition="63" endLine="160" endPosition="77" />
-    <nodeInfo nodeId="4422427343208575196" fileName="OrthogonalPointLayouter.java" startLine="160" startPosition="77" endLine="161" endPosition="34" />
-    <nodeInfo nodeId="3380715998758082879" fileName="OrthogonalPointLayouter.java" startLine="161" startPosition="34" endLine="162" endPosition="94" />
-    <nodeInfo nodeId="4422427343208575211" fileName="OrthogonalPointLayouter.java" startLine="163" startPosition="63" endLine="164" endPosition="49" />
-    <nodeInfo nodeId="3380715998758082902" fileName="OrthogonalPointLayouter.java" startLine="164" startPosition="49" endLine="165" endPosition="97" />
-    <nodeInfo nodeId="4422427343208575232" fileName="OrthogonalPointLayouter.java" startLine="165" startPosition="97" endLine="166" endPosition="19" />
-    <nodeInfo nodeId="3380715998758082921" fileName="OrthogonalPointLayouter.java" startLine="167" startPosition="7" endLine="168" endPosition="49" />
-    <nodeInfo nodeId="3380715998758082625" fileName="OrthogonalPointLayouter.java" startLine="169" startPosition="5" endLine="170" endPosition="62" />
-    <nodeInfo nodeId="3380715998758082637" fileName="OrthogonalPointLayouter.java" startLine="171" startPosition="63" endLine="172" endPosition="80" />
-    <nodeInfo nodeId="3380715998758082651" fileName="OrthogonalPointLayouter.java" startLine="174" startPosition="63" endLine="175" endPosition="77" />
-    <nodeInfo nodeId="3380715998758082658" fileName="OrthogonalPointLayouter.java" startLine="175" startPosition="77" endLine="176" endPosition="118" />
-    <nodeInfo nodeId="3380715998758082669" fileName="OrthogonalPointLayouter.java" startLine="176" startPosition="118" endLine="177" endPosition="118" />
-    <nodeInfo nodeId="3380715998758082680" fileName="OrthogonalPointLayouter.java" startLine="177" startPosition="118" endLine="178" endPosition="48" />
-    <nodeInfo nodeId="3380715998758082686" fileName="OrthogonalPointLayouter.java" startLine="179" startPosition="5" endLine="180" endPosition="23" />
-    <nodeInfo nodeId="3380715998758082708" fileName="OrthogonalPointLayouter.java" startLine="183" startPosition="113" endLine="184" endPosition="59" />
-    <nodeInfo nodeId="3380715998758082718" fileName="OrthogonalPointLayouter.java" startLine="185" startPosition="71" endLine="186" endPosition="35" />
-    <nodeInfo nodeId="3380715998758082725" fileName="OrthogonalPointLayouter.java" startLine="187" startPosition="44" endLine="188" endPosition="37" />
-    <nodeInfo nodeId="3380715998758082736" fileName="OrthogonalPointLayouter.java" startLine="190" startPosition="64" endLine="191" endPosition="94" />
-    <nodeInfo nodeId="3380715998758082752" fileName="OrthogonalPointLayouter.java" startLine="192" startPosition="7" endLine="193" endPosition="27" />
-    <nodeInfo nodeId="8734440518942959593" fileName="OrthogonalPointLayouter.java" startLine="197" startPosition="123" endLine="198" endPosition="43" />
-    <nodeInfo nodeId="8734440518942959604" fileName="OrthogonalPointLayouter.java" startLine="198" startPosition="43" endLine="199" endPosition="68" />
-    <nodeInfo nodeId="8734440518942959630" fileName="OrthogonalPointLayouter.java" startLine="199" startPosition="68" endLine="200" endPosition="72" />
-    <nodeInfo nodeId="8734440518942959637" fileName="OrthogonalPointLayouter.java" startLine="200" startPosition="72" endLine="201" endPosition="90" />
-    <nodeInfo nodeId="8734440518942959790" fileName="OrthogonalPointLayouter.java" startLine="202" startPosition="62" endLine="203" endPosition="41" />
-    <nodeInfo nodeId="8734440518942959675" fileName="OrthogonalPointLayouter.java" startLine="204" startPosition="54" endLine="205" endPosition="17" />
-    <nodeInfo nodeId="3380715998758086362" fileName="OrthogonalPointLayouter.java" startLine="206" startPosition="7" endLine="207" endPosition="73" />
-    <nodeInfo nodeId="3380715998758086372" fileName="OrthogonalPointLayouter.java" startLine="207" startPosition="73" endLine="208" endPosition="55" />
-    <nodeInfo nodeId="8734440518942969738" fileName="OrthogonalPointLayouter.java" startLine="208" startPosition="55" endLine="209" endPosition="60" />
-    <nodeInfo nodeId="8734440518942969778" fileName="OrthogonalPointLayouter.java" startLine="211" startPosition="42" endLine="212" endPosition="42" />
-    <nodeInfo nodeId="8734440518942959901" fileName="OrthogonalPointLayouter.java" startLine="214" startPosition="9" endLine="215" endPosition="31" />
-    <nodeInfo nodeId="8734440518942960010" fileName="OrthogonalPointLayouter.java" startLine="215" startPosition="31" endLine="216" endPosition="47" />
-    <nodeInfo nodeId="8734440518942960023" fileName="OrthogonalPointLayouter.java" startLine="216" startPosition="47" endLine="217" endPosition="37" />
-    <nodeInfo nodeId="8734440518942960145" fileName="OrthogonalPointLayouter.java" startLine="217" startPosition="37" endLine="218" endPosition="78" />
-    <nodeInfo nodeId="3380715998758095707" fileName="OrthogonalPointLayouter.java" startLine="219" startPosition="42" endLine="220" endPosition="27" />
-    <nodeInfo nodeId="3380715998758086383" fileName="OrthogonalPointLayouter.java" startLine="221" startPosition="7" endLine="222" endPosition="63" />
-    <nodeInfo nodeId="3380715998758092757" fileName="OrthogonalPointLayouter.java" startLine="222" startPosition="63" endLine="223" endPosition="64" />
-    <nodeInfo nodeId="8734440518942960159" fileName="OrthogonalPointLayouter.java" startLine="223" startPosition="64" endLine="224" endPosition="37" />
-    <nodeInfo nodeId="8734440518942969755" fileName="OrthogonalPointLayouter.java" startLine="224" startPosition="37" endLine="225" endPosition="37" />
-    <nodeInfo nodeId="8734440518942959938" fileName="OrthogonalPointLayouter.java" startLine="226" startPosition="10" endLine="227" endPosition="54" />
-    <nodeInfo nodeId="8734440518942969867" fileName="OrthogonalPointLayouter.java" startLine="227" startPosition="54" endLine="228" endPosition="46" />
-    <nodeInfo nodeId="8734440518942969663" fileName="OrthogonalPointLayouter.java" startLine="228" startPosition="46" endLine="229" endPosition="67" />
-    <nodeInfo nodeId="8734440518942969803" fileName="OrthogonalPointLayouter.java" startLine="229" startPosition="67" endLine="230" endPosition="33" />
-    <nodeInfo nodeId="8734440518942969830" fileName="OrthogonalPointLayouter.java" startLine="231" startPosition="28" endLine="232" endPosition="61" />
-    <nodeInfo nodeId="8734440518942969857" fileName="OrthogonalPointLayouter.java" startLine="233" startPosition="9" endLine="234" endPosition="100" />
-    <nodeInfo nodeId="8734440518943034910" fileName="OrthogonalPointLayouter.java" startLine="235" startPosition="31" endLine="236" endPosition="31" />
-    <nodeInfo nodeId="8734440518942960262" fileName="OrthogonalPointLayouter.java" startLine="237" startPosition="9" endLine="238" endPosition="65" />
-    <nodeInfo nodeId="8734440518942960030" fileName="OrthogonalPointLayouter.java" startLine="238" startPosition="65" endLine="239" endPosition="25" />
-    <nodeInfo nodeId="8734440518942960058" fileName="OrthogonalPointLayouter.java" startLine="240" startPosition="36" endLine="241" endPosition="37" />
-    <nodeInfo nodeId="8734440518942960067" fileName="OrthogonalPointLayouter.java" startLine="242" startPosition="16" endLine="243" endPosition="45" />
-    <nodeInfo nodeId="3380715998758086393" fileName="OrthogonalPointLayouter.java" startLine="243" startPosition="45" endLine="244" endPosition="66" />
-    <nodeInfo nodeId="8734440518942960165" fileName="OrthogonalPointLayouter.java" startLine="245" startPosition="9" endLine="246" endPosition="25" />
-    <nodeInfo nodeId="8734440518942960170" fileName="OrthogonalPointLayouter.java" startLine="247" startPosition="36" endLine="248" endPosition="37" />
-    <nodeInfo nodeId="8734440518942960179" fileName="OrthogonalPointLayouter.java" startLine="249" startPosition="16" endLine="250" endPosition="60" />
-    <nodeInfo nodeId="3380715998758095717" fileName="OrthogonalPointLayouter.java" startLine="251" startPosition="46" endLine="252" endPosition="31" />
-    <nodeInfo nodeId="3380715998758092768" fileName="OrthogonalPointLayouter.java" startLine="253" startPosition="11" endLine="254" endPosition="76" />
-    <nodeInfo nodeId="8734440518942960088" fileName="OrthogonalPointLayouter.java" startLine="255" startPosition="9" endLine="256" endPosition="69" />
-    <nodeInfo nodeId="4422427343208579105" fileName="OrthogonalPointLayouter.java" startLine="256" startPosition="69" endLine="257" endPosition="72" />
-    <nodeInfo nodeId="8734440518942960100" fileName="OrthogonalPointLayouter.java" startLine="257" startPosition="72" endLine="258" endPosition="67" />
-    <nodeInfo nodeId="8734440518942960235" fileName="OrthogonalPointLayouter.java" startLine="258" startPosition="67" endLine="259" endPosition="85" />
-    <nodeInfo nodeId="8734440518942960315" fileName="OrthogonalPointLayouter.java" startLine="259" startPosition="85" endLine="260" endPosition="81" />
-    <nodeInfo nodeId="8734440518942960333" fileName="OrthogonalPointLayouter.java" startLine="260" startPosition="81" endLine="261" endPosition="99" />
-    <nodeInfo nodeId="8734440518942960355" fileName="OrthogonalPointLayouter.java" startLine="261" startPosition="99" endLine="262" endPosition="27" />
-    <nodeInfo nodeId="8734440518942960362" fileName="OrthogonalPointLayouter.java" startLine="262" startPosition="27" endLine="263" endPosition="33" />
-    <nodeInfo nodeId="8734440518942960369" fileName="OrthogonalPointLayouter.java" startLine="263" startPosition="33" endLine="264" endPosition="33" />
-    <nodeInfo nodeId="8734440518942968102" fileName="OrthogonalPointLayouter.java" startLine="265" startPosition="37" endLine="266" endPosition="37" />
-    <nodeInfo nodeId="8734440518942961273" fileName="OrthogonalPointLayouter.java" startLine="266" startPosition="37" endLine="267" endPosition="25" />
-    <nodeInfo nodeId="8734440518942959614" fileName="OrthogonalPointLayouter.java" startLine="268" startPosition="5" endLine="269" endPosition="22" />
-    <nodeInfo nodeId="315882939481516052" fileName="OrthogonalPointLayouter.java" startLine="272" startPosition="99" endLine="273" endPosition="68" />
-    <nodeInfo nodeId="315882939481516064" fileName="OrthogonalPointLayouter.java" startLine="273" startPosition="68" endLine="274" endPosition="94" />
-    <nodeInfo nodeId="8146903765832629851" fileName="OrthogonalPointLayouter.java" startLine="276" startPosition="44" endLine="277" endPosition="17" />
-    <nodeInfo nodeId="8146903765832624824" fileName="OrthogonalPointLayouter.java" startLine="278" startPosition="7" endLine="279" endPosition="56" />
-    <nodeInfo nodeId="8146903765832608611" fileName="OrthogonalPointLayouter.java" startLine="283" startPosition="107" endLine="284" endPosition="24" />
-    <nodeInfo nodeId="8146903765832693568" fileName="OrthogonalPointLayouter.java" startLine="284" startPosition="24" endLine="285" endPosition="39" />
-    <nodeInfo nodeId="8146903765832693551" fileName="OrthogonalPointLayouter.java" startLine="285" startPosition="39" endLine="286" endPosition="69" />
-    <nodeInfo nodeId="8146903765832608631" fileName="OrthogonalPointLayouter.java" startLine="286" startPosition="69" endLine="287" endPosition="52" />
-    <nodeInfo nodeId="8146903765832693638" fileName="OrthogonalPointLayouter.java" startLine="287" startPosition="52" endLine="288" endPosition="16" />
-    <nodeInfo nodeId="8146903765832693588" fileName="OrthogonalPointLayouter.java" startLine="289" startPosition="50" endLine="290" endPosition="32" />
-    <nodeInfo nodeId="8146903765832693607" fileName="OrthogonalPointLayouter.java" startLine="290" startPosition="32" endLine="291" endPosition="107" />
-    <nodeInfo nodeId="8146903765832693619" fileName="OrthogonalPointLayouter.java" startLine="292" startPosition="21" endLine="293" endPosition="23" />
-    <nodeInfo nodeId="8146903765832693644" fileName="OrthogonalPointLayouter.java" startLine="293" startPosition="23" endLine="294" endPosition="19" />
-    <nodeInfo nodeId="8568898107892565024" fileName="OrthogonalPointLayouter.java" startLine="295" startPosition="7" endLine="296" endPosition="17" />
-    <nodeInfo nodeId="8146903765832693672" fileName="OrthogonalPointLayouter.java" startLine="299" startPosition="33" endLine="300" endPosition="58" />
-    <nodeInfo nodeId="8146903765832693686" fileName="OrthogonalPointLayouter.java" startLine="301" startPosition="7" endLine="302" endPosition="32" />
-    <nodeInfo nodeId="8568898107892565029" fileName="OrthogonalPointLayouter.java" startLine="302" startPosition="32" endLine="303" endPosition="103" />
-    <nodeInfo nodeId="8568898107892565042" fileName="OrthogonalPointLayouter.java" startLine="303" startPosition="103" endLine="304" endPosition="17" />
-    <nodeInfo nodeId="315882939481514784" fileName="OrthogonalPointLayouter.java" startLine="306" startPosition="26" endLine="307" endPosition="73" />
-    <nodeInfo nodeId="315882939481514915" fileName="OrthogonalPointLayouter.java" startLine="307" startPosition="73" endLine="308" endPosition="58" />
-    <nodeInfo nodeId="8568898107892565078" fileName="OrthogonalPointLayouter.java" startLine="308" startPosition="58" endLine="309" endPosition="71" />
-    <nodeInfo nodeId="315882939481514842" fileName="OrthogonalPointLayouter.java" startLine="312" startPosition="55" endLine="313" endPosition="98" />
-    <nodeInfo nodeId="315882939481514861" fileName="OrthogonalPointLayouter.java" startLine="314" startPosition="18" endLine="315" endPosition="109" />
-    <nodeInfo nodeId="315882939481514881" fileName="OrthogonalPointLayouter.java" startLine="318" startPosition="7" endLine="319" endPosition="53" />
-    <nodeInfo nodeId="315882939481514891" fileName="OrthogonalPointLayouter.java" startLine="319" startPosition="53" endLine="320" endPosition="61" />
-    <nodeInfo nodeId="315882939481514935" fileName="OrthogonalPointLayouter.java" startLine="320" startPosition="61" endLine="321" endPosition="43" />
-    <nodeInfo nodeId="8568898107892565098" fileName="OrthogonalPointLayouter.java" startLine="321" startPosition="43" endLine="322" endPosition="52" />
-    <nodeInfo nodeId="8568898107892565131" fileName="OrthogonalPointLayouter.java" startLine="322" startPosition="52" endLine="323" endPosition="143" />
-    <nodeInfo nodeId="315882939481514969" fileName="OrthogonalPointLayouter.java" startLine="325" startPosition="44" endLine="326" endPosition="96" />
-    <nodeInfo nodeId="315882939481514989" fileName="OrthogonalPointLayouter.java" startLine="327" startPosition="16" endLine="328" endPosition="107" />
-    <nodeInfo nodeId="8568898107892565169" fileName="OrthogonalPointLayouter.java" startLine="331" startPosition="60" endLine="332" endPosition="61" />
-    <nodeInfo nodeId="529057043639208740" fileName="OrthogonalPointLayouter.java" startLine="337" startPosition="48" endLine="338" endPosition="43" />
-    <nodeInfo nodeId="529057043639208748" fileName="OrthogonalPointLayouter.java" startLine="338" startPosition="43" endLine="339" endPosition="41" />
-    <nodeInfo nodeId="529057043639208756" fileName="OrthogonalPointLayouter.java" startLine="339" startPosition="41" endLine="340" endPosition="48" />
-    <nodeInfo nodeId="529057043639209024" fileName="OrthogonalPointLayouter.java" startLine="340" startPosition="48" endLine="341" endPosition="42" />
-    <nodeInfo nodeId="529057043639208780" fileName="OrthogonalPointLayouter.java" startLine="343" startPosition="124" endLine="344" endPosition="70" />
-    <nodeInfo nodeId="529057043639208790" fileName="OrthogonalPointLayouter.java" startLine="344" startPosition="70" endLine="345" endPosition="26" />
-    <nodeInfo nodeId="529057043639208797" fileName="OrthogonalPointLayouter.java" startLine="345" startPosition="26" endLine="346" endPosition="32" />
-    <nodeInfo nodeId="529057043639325806" fileName="OrthogonalPointLayouter.java" startLine="346" startPosition="32" endLine="347" endPosition="38" />
-    <nodeInfo nodeId="529057043639208814" fileName="OrthogonalPointLayouter.java" startLine="351" startPosition="46" endLine="352" endPosition="70" />
-    <nodeInfo nodeId="529057043639237805" fileName="OrthogonalPointLayouter.java" startLine="357" startPosition="25" endLine="358" endPosition="15" />
-    <nodeInfo nodeId="529057043639208860" fileName="OrthogonalPointLayouter.java" startLine="359" startPosition="7" endLine="360" endPosition="49" />
-    <nodeInfo nodeId="529057043639208852" fileName="OrthogonalPointLayouter.java" startLine="360" startPosition="49" endLine="361" endPosition="63" />
-    <nodeInfo nodeId="529057043639208882" fileName="OrthogonalPointLayouter.java" startLine="361" startPosition="63" endLine="362" endPosition="63" />
-    <nodeInfo nodeId="529057043639209053" fileName="OrthogonalPointLayouter.java" startLine="364" startPosition="42" endLine="365" endPosition="44" />
-    <nodeInfo nodeId="529057043639208904" fileName="OrthogonalPointLayouter.java" startLine="368" startPosition="77" endLine="369" endPosition="92" />
-    <nodeInfo nodeId="529057043639208920" fileName="OrthogonalPointLayouter.java" startLine="371" startPosition="76" endLine="372" endPosition="92" />
-    <nodeInfo nodeId="529057043639208935" fileName="OrthogonalPointLayouter.java" startLine="374" startPosition="74" endLine="375" endPosition="92" />
-    <nodeInfo nodeId="529057043639208950" fileName="OrthogonalPointLayouter.java" startLine="377" startPosition="76" endLine="378" endPosition="92" />
-    <nodeInfo nodeId="529057043639208980" fileName="OrthogonalPointLayouter.java" startLine="379" startPosition="7" endLine="380" endPosition="68" />
-    <nodeInfo nodeId="529057043639209004" fileName="OrthogonalPointLayouter.java" startLine="383" startPosition="46" endLine="384" endPosition="27" />
-    <nodeInfo nodeId="529057043639208600" fileName="OrthogonalPointLayouter.java" startLine="35" startPosition="0" endLine="37" endPosition="3" />
-    <nodeInfo nodeId="3380715998758086451" fileName="OrthogonalPointLayouter.java" startLine="96" startPosition="12" endLine="98" endPosition="7" />
-    <nodeInfo nodeId="4422427343208581808" fileName="OrthogonalPointLayouter.java" startLine="108" startPosition="12" endLine="110" endPosition="7" />
-    <nodeInfo nodeId="4422427343208581853" fileName="OrthogonalPointLayouter.java" startLine="114" startPosition="14" endLine="116" endPosition="9" />
-    <nodeInfo nodeId="315882939481514859" fileName="OrthogonalPointLayouter.java" startLine="314" startPosition="16" endLine="316" endPosition="11" />
-    <nodeInfo nodeId="315882939481514984" fileName="OrthogonalPointLayouter.java" startLine="327" startPosition="14" endLine="329" endPosition="9" />
-    <nodeInfo nodeId="529057043639328316" fileName="OrthogonalPointLayouter.java" startLine="42" startPosition="77" endLine="45" endPosition="5" />
-    <nodeInfo nodeId="529057043639328342" fileName="OrthogonalPointLayouter.java" startLine="45" startPosition="5" endLine="48" endPosition="5" />
-    <nodeInfo nodeId="4422427343208738010" fileName="OrthogonalPointLayouter.java" startLine="53" startPosition="116" endLine="56" endPosition="7" />
-    <nodeInfo nodeId="3380715998758092858" fileName="OrthogonalPointLayouter.java" startLine="62" startPosition="70" endLine="65" endPosition="7" />
-    <nodeInfo nodeId="3380715998758092906" fileName="OrthogonalPointLayouter.java" startLine="68" startPosition="55" endLine="71" endPosition="7" />
-    <nodeInfo nodeId="3380715998758092968" fileName="OrthogonalPointLayouter.java" startLine="73" startPosition="55" endLine="76" endPosition="9" />
-    <nodeInfo nodeId="3380715998758082476" fileName="OrthogonalPointLayouter.java" startLine="140" startPosition="102" endLine="143" endPosition="5" />
-    <nodeInfo nodeId="3380715998758082809" fileName="OrthogonalPointLayouter.java" startLine="154" startPosition="63" endLine="157" endPosition="5" />
-    <nodeInfo nodeId="3380715998758082631" fileName="OrthogonalPointLayouter.java" startLine="170" startPosition="62" endLine="173" endPosition="5" />
-    <nodeInfo nodeId="3380715998758082723" fileName="OrthogonalPointLayouter.java" startLine="186" startPosition="35" endLine="189" endPosition="7" />
-    <nodeInfo nodeId="3380715998758082734" fileName="OrthogonalPointLayouter.java" startLine="189" startPosition="7" endLine="192" endPosition="7" />
-    <nodeInfo nodeId="8734440518942959661" fileName="OrthogonalPointLayouter.java" startLine="203" startPosition="41" endLine="206" endPosition="7" />
-    <nodeInfo nodeId="3380715998758095693" fileName="OrthogonalPointLayouter.java" startLine="218" startPosition="78" endLine="221" endPosition="7" />
-    <nodeInfo nodeId="8734440518942969811" fileName="OrthogonalPointLayouter.java" startLine="230" startPosition="33" endLine="233" endPosition="9" />
-    <nodeInfo nodeId="8734440518943034901" fileName="OrthogonalPointLayouter.java" startLine="234" startPosition="100" endLine="237" endPosition="9" />
-    <nodeInfo nodeId="8734440518942960064" fileName="OrthogonalPointLayouter.java" startLine="242" startPosition="14" endLine="245" endPosition="9" />
-    <nodeInfo nodeId="3380715998758095715" fileName="OrthogonalPointLayouter.java" startLine="250" startPosition="60" endLine="253" endPosition="11" />
-    <nodeInfo nodeId="8146903765832629840" fileName="OrthogonalPointLayouter.java" startLine="275" startPosition="52" endLine="278" endPosition="7" />
-    <nodeInfo nodeId="8146903765832693659" fileName="OrthogonalPointLayouter.java" startLine="298" startPosition="22" endLine="301" endPosition="7" />
-    <nodeInfo nodeId="8568898107892565146" fileName="OrthogonalPointLayouter.java" startLine="330" startPosition="7" endLine="333" endPosition="7" />
-    <nodeInfo nodeId="529057043639237796" fileName="OrthogonalPointLayouter.java" startLine="356" startPosition="53" endLine="359" endPosition="7" />
-    <nodeInfo nodeId="529057043639208891" fileName="OrthogonalPointLayouter.java" startLine="367" startPosition="9" endLine="370" endPosition="7" />
-    <nodeInfo nodeId="529057043639208918" fileName="OrthogonalPointLayouter.java" startLine="370" startPosition="7" endLine="373" endPosition="7" />
-    <nodeInfo nodeId="529057043639208933" fileName="OrthogonalPointLayouter.java" startLine="373" startPosition="7" endLine="376" endPosition="7" />
-    <nodeInfo nodeId="529057043639208948" fileName="OrthogonalPointLayouter.java" startLine="376" startPosition="7" endLine="379" endPosition="7" />
-    <nodeInfo nodeId="3380715998758082447" fileName="OrthogonalPointLayouter.java" startLine="134" startPosition="96" endLine="138" endPosition="5" />
-    <nodeInfo nodeId="3380715998758082536" fileName="OrthogonalPointLayouter.java" startLine="144" startPosition="52" endLine="148" endPosition="5" />
-    <nodeInfo nodeId="8734440518942969774" fileName="OrthogonalPointLayouter.java" startLine="210" startPosition="116" endLine="214" endPosition="0" />
-    <nodeInfo nodeId="8146903765832693617" fileName="OrthogonalPointLayouter.java" startLine="291" startPosition="107" endLine="295" endPosition="7" />
-    <nodeInfo nodeId="529057043639209049" fileName="OrthogonalPointLayouter.java" startLine="363" startPosition="108" endLine="367" endPosition="0" />
-    <nodeInfo nodeId="529057043639208995" fileName="OrthogonalPointLayouter.java" startLine="382" startPosition="0" endLine="386" endPosition="0" />
-    <nodeInfo nodeId="4422427343208581766" fileName="OrthogonalPointLayouter.java" startLine="105" startPosition="80" endLine="110" endPosition="7" />
-    <nodeInfo nodeId="4422427343208581831" fileName="OrthogonalPointLayouter.java" startLine="111" startPosition="60" endLine="116" endPosition="9" />
-    <nodeInfo nodeId="3380715998758082862" fileName="OrthogonalPointLayouter.java" startLine="162" startPosition="94" endLine="167" endPosition="7" />
-    <nodeInfo nodeId="8734440518942960049" fileName="OrthogonalPointLayouter.java" startLine="209" startPosition="60" endLine="214" endPosition="9" />
-    <nodeInfo nodeId="315882939481514812" fileName="OrthogonalPointLayouter.java" startLine="311" startPosition="85" endLine="316" endPosition="11" />
-    <nodeInfo nodeId="315882939481514956" fileName="OrthogonalPointLayouter.java" startLine="324" startPosition="82" endLine="329" endPosition="9" />
-    <nodeInfo nodeId="529057043639208803" fileName="OrthogonalPointLayouter.java" startLine="349" startPosition="0" endLine="354" endPosition="0" />
-    <nodeInfo nodeId="529057043639209033" fileName="OrthogonalPointLayouter.java" startLine="362" startPosition="63" endLine="367" endPosition="9" />
-    <nodeInfo nodeId="3380715998758092580" fileName="OrthogonalPointLayouter.java" startLine="51" startPosition="89" endLine="57" endPosition="5" />
-    <nodeInfo nodeId="3380715998758092848" fileName="OrthogonalPointLayouter.java" startLine="60" startPosition="83" endLine="66" endPosition="5" />
-    <nodeInfo nodeId="3380715998758094385" fileName="OrthogonalPointLayouter.java" startLine="71" startPosition="7" endLine="77" endPosition="7" />
-    <nodeInfo nodeId="3380715998758082645" fileName="OrthogonalPointLayouter.java" startLine="173" startPosition="5" endLine="179" endPosition="5" />
-    <nodeInfo nodeId="8734440518942960035" fileName="OrthogonalPointLayouter.java" startLine="239" startPosition="25" endLine="245" endPosition="9" />
-    <nodeInfo nodeId="8734440518942960177" fileName="OrthogonalPointLayouter.java" startLine="249" startPosition="14" endLine="255" endPosition="9" />
-    <nodeInfo nodeId="8146903765832624814" fileName="OrthogonalPointLayouter.java" startLine="274" startPosition="94" endLine="280" endPosition="5" />
-    <nodeInfo nodeId="529057043639208735" fileName="OrthogonalPointLayouter.java" startLine="342" startPosition="0" endLine="348" endPosition="5" />
-    <nodeInfo nodeId="3380715998758086510" fileName="OrthogonalPointLayouter.java" startLine="87" startPosition="37" endLine="94" endPosition="9" />
-    <nodeInfo nodeId="315882939481514801" fileName="OrthogonalPointLayouter.java" startLine="310" startPosition="60" endLine="317" endPosition="9" />
-    <nodeInfo nodeId="315882939481514945" fileName="OrthogonalPointLayouter.java" startLine="323" startPosition="143" endLine="330" endPosition="7" />
-    <nodeInfo nodeId="3380715998758092994" fileName="OrthogonalPointLayouter.java" startLine="110" startPosition="7" endLine="118" endPosition="7" />
-    <nodeInfo nodeId="8146903765832693651" fileName="OrthogonalPointLayouter.java" startLine="297" startPosition="5" endLine="305" endPosition="5" />
-    <nodeInfo nodeId="8734440518942960168" fileName="OrthogonalPointLayouter.java" startLine="246" startPosition="25" endLine="255" endPosition="9" />
-    <nodeInfo nodeId="8146903765832693577" fileName="OrthogonalPointLayouter.java" startLine="288" startPosition="16" endLine="297" endPosition="5" />
-    <nodeInfo nodeId="315882939481514796" fileName="OrthogonalPointLayouter.java" startLine="309" startPosition="71" endLine="318" endPosition="7" />
-    <nodeInfo nodeId="3380715998758082713" fileName="OrthogonalPointLayouter.java" startLine="184" startPosition="59" endLine="194" endPosition="5" />
-    <nodeInfo nodeId="8146903765832599966" fileName="OrthogonalPointLayouter.java" startLine="271" startPosition="0" endLine="282" endPosition="0" />
-    <nodeInfo nodeId="3380715998758092896" fileName="OrthogonalPointLayouter.java" startLine="66" startPosition="5" endLine="78" endPosition="5" />
-    <nodeInfo nodeId="3380715998758082836" fileName="OrthogonalPointLayouter.java" startLine="157" startPosition="5" endLine="169" endPosition="5" />
-    <nodeInfo nodeId="3380715998758082700" fileName="OrthogonalPointLayouter.java" startLine="182" startPosition="0" endLine="196" endPosition="0" />
-    <nodeInfo nodeId="3380715998758086440" fileName="OrthogonalPointLayouter.java" startLine="82" startPosition="61" endLine="98" endPosition="7" />
-    <nodeInfo nodeId="3380715998758086430" fileName="OrthogonalPointLayouter.java" startLine="80" startPosition="63" endLine="99" endPosition="5" />
-    <nodeInfo nodeId="3380715998758086639" fileName="OrthogonalPointLayouter.java" startLine="99" startPosition="5" endLine="122" endPosition="5" />
-    <nodeInfo nodeId="529057043639208835" fileName="OrthogonalPointLayouter.java" startLine="354" startPosition="0" endLine="382" endPosition="0" />
-    <nodeInfo nodeId="8568898107892565176" fileName="OrthogonalPointLayouter.java" startLine="305" startPosition="5" endLine="334" endPosition="5" />
-    <nodeInfo nodeId="8734440518942959715" fileName="OrthogonalPointLayouter.java" startLine="225" startPosition="37" endLine="265" endPosition="37" />
-    <nodeInfo nodeId="8146903765832608593" fileName="OrthogonalPointLayouter.java" startLine="282" startPosition="0" endLine="336" endPosition="0" />
-    <nodeInfo nodeId="3380715998758077821" fileName="OrthogonalPointLayouter.java" startLine="125" startPosition="0" endLine="182" endPosition="0" />
-    <nodeInfo nodeId="8734440518942959618" fileName="OrthogonalPointLayouter.java" startLine="201" startPosition="90" endLine="268" endPosition="5" />
-    <nodeInfo nodeId="8734440518942955518" fileName="OrthogonalPointLayouter.java" startLine="196" startPosition="0" endLine="271" endPosition="0" />
-    <nodeInfo nodeId="529057043639208604" fileName="OrthogonalPointLayouter.java" startLine="38" startPosition="0" endLine="125" endPosition="0" />
-    <scopeInfo nodeId="529057043639208603" fileName="OrthogonalPointLayouter.java" startLine="36" startPosition="36" endLine="36" endPosition="36" />
-    <scopeInfo nodeId="529057043639328319" fileName="OrthogonalPointLayouter.java" startLine="43" startPosition="63" endLine="44" endPosition="61" />
-    <scopeInfo nodeId="529057043639328345" fileName="OrthogonalPointLayouter.java" startLine="46" startPosition="63" endLine="47" endPosition="159" />
-    <scopeInfo nodeId="4422427343208738011" fileName="OrthogonalPointLayouter.java" startLine="54" startPosition="154" endLine="55" endPosition="125" />
-    <scopeInfo nodeId="3380715998758092860" fileName="OrthogonalPointLayouter.java" startLine="63" startPosition="72" endLine="64" endPosition="106" />
-    <scopeInfo nodeId="3380715998758092908" fileName="OrthogonalPointLayouter.java" startLine="69" startPosition="66" endLine="70" endPosition="97" />
-    <scopeInfo nodeId="3380715998758092973" fileName="OrthogonalPointLayouter.java" startLine="74" startPosition="67" endLine="75" endPosition="136" />
-    <scopeInfo nodeId="3380715998758086452" fileName="OrthogonalPointLayouter.java" startLine="96" startPosition="14" endLine="97" endPosition="104" />
-    <scopeInfo nodeId="4422427343208581767" fileName="OrthogonalPointLayouter.java" startLine="106" startPosition="132" endLine="107" endPosition="26" />
-    <scopeInfo nodeId="4422427343208581809" fileName="OrthogonalPointLayouter.java" startLine="108" startPosition="14" endLine="109" endPosition="69" />
-    <scopeInfo nodeId="4422427343208581832" fileName="OrthogonalPointLayouter.java" startLine="112" startPosition="38" endLine="113" endPosition="110" />
-    <scopeInfo nodeId="4422427343208581854" fileName="OrthogonalPointLayouter.java" startLine="114" startPosition="16" endLine="115" endPosition="125" />
-    <scopeInfo nodeId="3380715998758082477" fileName="OrthogonalPointLayouter.java" startLine="141" startPosition="24" endLine="142" endPosition="71" />
-    <scopeInfo nodeId="3380715998758082812" fileName="OrthogonalPointLayouter.java" startLine="155" startPosition="55" endLine="156" endPosition="81" />
-    <scopeInfo nodeId="3380715998758082636" fileName="OrthogonalPointLayouter.java" startLine="171" startPosition="63" endLine="172" endPosition="80" />
-    <scopeInfo nodeId="3380715998758082724" fileName="OrthogonalPointLayouter.java" startLine="187" startPosition="44" endLine="188" endPosition="37" />
-    <scopeInfo nodeId="3380715998758082735" fileName="OrthogonalPointLayouter.java" startLine="190" startPosition="64" endLine="191" endPosition="94" />
-    <scopeInfo nodeId="8734440518942959662" fileName="OrthogonalPointLayouter.java" startLine="204" startPosition="54" endLine="205" endPosition="17" />
-    <scopeInfo nodeId="8734440518942969775" fileName="OrthogonalPointLayouter.java" startLine="211" startPosition="42" endLine="212" endPosition="42" />
-    <scopeInfo nodeId="3380715998758095694" fileName="OrthogonalPointLayouter.java" startLine="219" startPosition="42" endLine="220" endPosition="27" />
-    <scopeInfo nodeId="8734440518942969812" fileName="OrthogonalPointLayouter.java" startLine="231" startPosition="28" endLine="232" endPosition="61" />
-    <scopeInfo nodeId="8734440518943034902" fileName="OrthogonalPointLayouter.java" startLine="235" startPosition="31" endLine="236" endPosition="31" />
-    <scopeInfo nodeId="8734440518942960036" fileName="OrthogonalPointLayouter.java" startLine="240" startPosition="36" endLine="241" endPosition="37" />
-    <scopeInfo nodeId="8734440518942960169" fileName="OrthogonalPointLayouter.java" startLine="247" startPosition="36" endLine="248" endPosition="37" />
-    <scopeInfo nodeId="3380715998758095716" fileName="OrthogonalPointLayouter.java" startLine="251" startPosition="46" endLine="252" endPosition="31" />
-    <scopeInfo nodeId="8146903765832629841" fileName="OrthogonalPointLayouter.java" startLine="276" startPosition="44" endLine="277" endPosition="17" />
-    <scopeInfo nodeId="8146903765832693661" fileName="OrthogonalPointLayouter.java" startLine="299" startPosition="33" endLine="300" endPosition="58" />
-    <scopeInfo nodeId="315882939481514814" fileName="OrthogonalPointLayouter.java" startLine="312" startPosition="55" endLine="313" endPosition="98" />
-    <scopeInfo nodeId="315882939481514860" fileName="OrthogonalPointLayouter.java" startLine="314" startPosition="18" endLine="315" endPosition="109" />
-    <scopeInfo nodeId="315882939481514958" fileName="OrthogonalPointLayouter.java" startLine="325" startPosition="44" endLine="326" endPosition="96" />
-    <scopeInfo nodeId="315882939481514985" fileName="OrthogonalPointLayouter.java" startLine="327" startPosition="16" endLine="328" endPosition="107" />
-    <scopeInfo nodeId="8568898107892565149" fileName="OrthogonalPointLayouter.java" startLine="331" startPosition="60" endLine="332" endPosition="61" />
-    <scopeInfo nodeId="529057043639208808" fileName="OrthogonalPointLayouter.java" startLine="351" startPosition="46" endLine="352" endPosition="70" />
-    <scopeInfo nodeId="529057043639237797" fileName="OrthogonalPointLayouter.java" startLine="357" startPosition="25" endLine="358" endPosition="15" />
-    <scopeInfo nodeId="529057043639209050" fileName="OrthogonalPointLayouter.java" startLine="364" startPosition="42" endLine="365" endPosition="44" />
-    <scopeInfo nodeId="529057043639208892" fileName="OrthogonalPointLayouter.java" startLine="368" startPosition="77" endLine="369" endPosition="92" />
-    <scopeInfo nodeId="529057043639208919" fileName="OrthogonalPointLayouter.java" startLine="371" startPosition="76" endLine="372" endPosition="92" />
-    <scopeInfo nodeId="529057043639208934" fileName="OrthogonalPointLayouter.java" startLine="374" startPosition="74" endLine="375" endPosition="92" />
-    <scopeInfo nodeId="529057043639208949" fileName="OrthogonalPointLayouter.java" startLine="377" startPosition="76" endLine="378" endPosition="92" />
-    <scopeInfo nodeId="529057043639208998" fileName="OrthogonalPointLayouter.java" startLine="383" startPosition="46" endLine="384" endPosition="27" />
-    <scopeInfo nodeId="529057043639208600" fileName="OrthogonalPointLayouter.java" startLine="35" startPosition="0" endLine="37" endPosition="3" />
-    <scopeInfo nodeId="3380715998758082448" fileName="OrthogonalPointLayouter.java" startLine="135" startPosition="24" endLine="137" endPosition="32" />
-    <scopeInfo nodeId="3380715998758082537" fileName="OrthogonalPointLayouter.java" startLine="145" startPosition="24" endLine="147" endPosition="66" />
-    <scopeInfo nodeId="8734440518942960065" fileName="OrthogonalPointLayouter.java" startLine="242" startPosition="16" endLine="244" endPosition="66" />
-    <scopeInfo nodeId="8146903765832693618" fileName="OrthogonalPointLayouter.java" startLine="292" startPosition="21" endLine="294" endPosition="19" />
-    <scopeInfo nodeId="529057043639328316" fileName="OrthogonalPointLayouter.java" startLine="42" startPosition="77" endLine="45" endPosition="5" />
-    <scopeInfo nodeId="529057043639328342" fileName="OrthogonalPointLayouter.java" startLine="45" startPosition="5" endLine="48" endPosition="5" />
-    <scopeInfo nodeId="3380715998758082809" fileName="OrthogonalPointLayouter.java" startLine="154" startPosition="63" endLine="157" endPosition="5" />
-    <scopeInfo nodeId="3380715998758082865" fileName="OrthogonalPointLayouter.java" startLine="163" startPosition="63" endLine="166" endPosition="19">
+    <nodeInfo nodeId="8568898107892568228" fileName="OrthogonalPointLayouter.java" startLine="33" startPosition="37" endLine="34" endPosition="34" />
+    <nodeInfo nodeId="5488345258545822738" fileName="OrthogonalPointLayouter.java" startLine="34" startPosition="34" endLine="35" endPosition="35" />
+    <nodeInfo nodeId="5488345258545822966" fileName="OrthogonalPointLayouter.java" startLine="35" startPosition="35" endLine="36" endPosition="35" />
+    <nodeInfo nodeId="5488345258545828435" fileName="OrthogonalPointLayouter.java" startLine="37" startPosition="0" endLine="38" endPosition="25" />
+    <nodeInfo nodeId="5488345258545822730" fileName="OrthogonalPointLayouter.java" startLine="43" startPosition="49" endLine="44" endPosition="45" />
+    <nodeInfo nodeId="5488345258545828442" fileName="OrthogonalPointLayouter.java" startLine="44" startPosition="45" endLine="45" endPosition="19" />
+    <nodeInfo nodeId="5488345258545822771" fileName="OrthogonalPointLayouter.java" startLine="46" startPosition="24" endLine="47" endPosition="190" />
+    <nodeInfo nodeId="529057043639328278" fileName="OrthogonalPointLayouter.java" startLine="48" startPosition="5" endLine="49" endPosition="29" />
+    <nodeInfo nodeId="529057043639328293" fileName="OrthogonalPointLayouter.java" startLine="49" startPosition="29" endLine="50" endPosition="77" />
+    <nodeInfo nodeId="529057043639328285" fileName="OrthogonalPointLayouter.java" startLine="50" startPosition="77" endLine="51" endPosition="77" />
+    <nodeInfo nodeId="529057043639328326" fileName="OrthogonalPointLayouter.java" startLine="52" startPosition="63" endLine="53" endPosition="61" />
+    <nodeInfo nodeId="529057043639328352" fileName="OrthogonalPointLayouter.java" startLine="55" startPosition="63" endLine="56" endPosition="159" />
+    <nodeInfo nodeId="529057043639335402" fileName="OrthogonalPointLayouter.java" startLine="57" startPosition="5" endLine="58" endPosition="53" />
+    <nodeInfo nodeId="529057043639208638" fileName="OrthogonalPointLayouter.java" startLine="58" startPosition="53" endLine="59" endPosition="106" />
+    <nodeInfo nodeId="3380715998758086654" fileName="OrthogonalPointLayouter.java" startLine="59" startPosition="106" endLine="60" endPosition="89" />
+    <nodeInfo nodeId="5488345258545805053" fileName="OrthogonalPointLayouter.java" startLine="61" startPosition="63" endLine="62" endPosition="61" />
+    <nodeInfo nodeId="3380715998758092590" fileName="OrthogonalPointLayouter.java" startLine="62" startPosition="61" endLine="63" endPosition="86" />
+    <nodeInfo nodeId="5488345258545807725" fileName="OrthogonalPointLayouter.java" startLine="63" startPosition="86" endLine="64" endPosition="81" />
+    <nodeInfo nodeId="4422427343208738054" fileName="OrthogonalPointLayouter.java" startLine="65" startPosition="87" endLine="66" endPosition="125" />
+    <nodeInfo nodeId="3380715998758086401" fileName="OrthogonalPointLayouter.java" startLine="68" startPosition="5" endLine="69" endPosition="90" />
+    <nodeInfo nodeId="3380715998758092785" fileName="OrthogonalPointLayouter.java" startLine="69" startPosition="90" endLine="70" endPosition="83" />
+    <nodeInfo nodeId="3380715998758086412" fileName="OrthogonalPointLayouter.java" startLine="70" startPosition="83" endLine="71" endPosition="83" />
+    <nodeInfo nodeId="3380715998758092865" fileName="OrthogonalPointLayouter.java" startLine="72" startPosition="88" endLine="73" endPosition="70" />
+    <nodeInfo nodeId="3380715998758092881" fileName="OrthogonalPointLayouter.java" startLine="74" startPosition="72" endLine="75" endPosition="106" />
+    <nodeInfo nodeId="3380715998758092937" fileName="OrthogonalPointLayouter.java" startLine="78" startPosition="90" endLine="79" endPosition="55" />
+    <nodeInfo nodeId="3380715998758092945" fileName="OrthogonalPointLayouter.java" startLine="80" startPosition="66" endLine="81" endPosition="97" />
+    <nodeInfo nodeId="3380715998758092962" fileName="OrthogonalPointLayouter.java" startLine="83" startPosition="52" endLine="84" endPosition="55" />
+    <nodeInfo nodeId="3380715998758092974" fileName="OrthogonalPointLayouter.java" startLine="85" startPosition="67" endLine="86" endPosition="136" />
+    <nodeInfo nodeId="5488345258545828307" fileName="OrthogonalPointLayouter.java" startLine="90" startPosition="24" endLine="91" endPosition="48" />
+    <nodeInfo nodeId="5488345258545828311" fileName="OrthogonalPointLayouter.java" startLine="91" startPosition="48" endLine="92" endPosition="85" />
+    <nodeInfo nodeId="5488345258545828334" fileName="OrthogonalPointLayouter.java" startLine="92" startPosition="85" endLine="93" endPosition="168" />
+    <nodeInfo nodeId="5488345258545828324" fileName="OrthogonalPointLayouter.java" startLine="93" startPosition="168" endLine="94" endPosition="24" />
+    <nodeInfo nodeId="3380715998758086347" fileName="OrthogonalPointLayouter.java" startLine="95" startPosition="5" endLine="96" endPosition="73" />
+    <nodeInfo nodeId="3380715998758086456" fileName="OrthogonalPointLayouter.java" startLine="96" startPosition="73" endLine="97" endPosition="63" />
+    <nodeInfo nodeId="3380715998758170841" fileName="OrthogonalPointLayouter.java" startLine="98" startPosition="63" endLine="99" endPosition="61" />
+    <nodeInfo nodeId="3380715998758086487" fileName="OrthogonalPointLayouter.java" startLine="100" startPosition="64" endLine="101" endPosition="37" />
+    <nodeInfo nodeId="3380715998758086493" fileName="OrthogonalPointLayouter.java" startLine="101" startPosition="37" endLine="102" endPosition="37" />
+    <nodeInfo nodeId="3380715998758086502" fileName="OrthogonalPointLayouter.java" startLine="102" startPosition="37" endLine="103" endPosition="37" />
+    <nodeInfo nodeId="3380715998758086506" fileName="OrthogonalPointLayouter.java" startLine="103" startPosition="37" endLine="104" endPosition="37" />
+    <nodeInfo nodeId="3380715998758086527" fileName="OrthogonalPointLayouter.java" startLine="105" startPosition="97" endLine="106" endPosition="57" />
+    <nodeInfo nodeId="3380715998758086544" fileName="OrthogonalPointLayouter.java" startLine="106" startPosition="57" endLine="107" endPosition="41" />
+    <nodeInfo nodeId="3380715998758086561" fileName="OrthogonalPointLayouter.java" startLine="107" startPosition="41" endLine="108" endPosition="41" />
+    <nodeInfo nodeId="3380715998758086572" fileName="OrthogonalPointLayouter.java" startLine="108" startPosition="41" endLine="109" endPosition="41" />
+    <nodeInfo nodeId="3380715998758086580" fileName="OrthogonalPointLayouter.java" startLine="109" startPosition="41" endLine="110" endPosition="41" />
+    <nodeInfo nodeId="3380715998758086604" fileName="OrthogonalPointLayouter.java" startLine="111" startPosition="9" endLine="112" endPosition="88" />
+    <nodeInfo nodeId="3380715998758086463" fileName="OrthogonalPointLayouter.java" startLine="113" startPosition="14" endLine="114" endPosition="104" />
+    <nodeInfo nodeId="3380715998758092625" fileName="OrthogonalPointLayouter.java" startLine="117" startPosition="68" endLine="118" endPosition="77" />
+    <nodeInfo nodeId="3380715998758092649" fileName="OrthogonalPointLayouter.java" startLine="118" startPosition="77" endLine="119" endPosition="75" />
+    <nodeInfo nodeId="4422427343208581745" fileName="OrthogonalPointLayouter.java" startLine="119" startPosition="75" endLine="120" endPosition="80" />
+    <nodeInfo nodeId="4422427343208581762" fileName="OrthogonalPointLayouter.java" startLine="120" startPosition="80" endLine="121" endPosition="15" />
+    <nodeInfo nodeId="4422427343208581810" fileName="OrthogonalPointLayouter.java" startLine="121" startPosition="15" endLine="122" endPosition="80" />
+    <nodeInfo nodeId="4422427343208581798" fileName="OrthogonalPointLayouter.java" startLine="123" startPosition="132" endLine="124" endPosition="26" />
+    <nodeInfo nodeId="4422427343208581819" fileName="OrthogonalPointLayouter.java" startLine="125" startPosition="14" endLine="126" endPosition="69" />
+    <nodeInfo nodeId="4422427343208581845" fileName="OrthogonalPointLayouter.java" startLine="129" startPosition="38" endLine="130" endPosition="110" />
+    <nodeInfo nodeId="4422427343208581855" fileName="OrthogonalPointLayouter.java" startLine="131" startPosition="16" endLine="132" endPosition="125" />
+    <nodeInfo nodeId="4422427343208581873" fileName="OrthogonalPointLayouter.java" startLine="133" startPosition="9" endLine="134" endPosition="36" />
+    <nodeInfo nodeId="4422427343208636222" fileName="OrthogonalPointLayouter.java" startLine="135" startPosition="7" endLine="136" endPosition="106" />
+    <nodeInfo nodeId="4422427343208636232" fileName="OrthogonalPointLayouter.java" startLine="136" startPosition="106" endLine="137" endPosition="100" />
+    <nodeInfo nodeId="3380715998758093090" fileName="OrthogonalPointLayouter.java" startLine="137" startPosition="100" endLine="138" endPosition="54" />
+    <nodeInfo nodeId="5488345258545822907" fileName="OrthogonalPointLayouter.java" startLine="140" startPosition="24" endLine="141" endPosition="48" />
+    <nodeInfo nodeId="5488345258545822947" fileName="OrthogonalPointLayouter.java" startLine="141" startPosition="48" endLine="142" endPosition="64" />
+    <nodeInfo nodeId="3380715998758086426" fileName="OrthogonalPointLayouter.java" startLine="143" startPosition="5" endLine="144" endPosition="23" />
+    <nodeInfo nodeId="3380715998758077830" fileName="OrthogonalPointLayouter.java" startLine="147" startPosition="99" endLine="148" endPosition="43" />
+    <nodeInfo nodeId="3380715998758082385" fileName="OrthogonalPointLayouter.java" startLine="148" startPosition="43" endLine="149" endPosition="71" />
+    <nodeInfo nodeId="3380715998758082395" fileName="OrthogonalPointLayouter.java" startLine="149" startPosition="71" endLine="150" endPosition="89" />
+    <nodeInfo nodeId="3380715998758082779" fileName="OrthogonalPointLayouter.java" startLine="150" startPosition="89" endLine="151" endPosition="71" />
+    <nodeInfo nodeId="3380715998758082786" fileName="OrthogonalPointLayouter.java" startLine="151" startPosition="71" endLine="152" endPosition="89" />
+    <nodeInfo nodeId="3380715998758082424" fileName="OrthogonalPointLayouter.java" startLine="152" startPosition="89" endLine="153" endPosition="81" />
+    <nodeInfo nodeId="3380715998758082433" fileName="OrthogonalPointLayouter.java" startLine="153" startPosition="81" endLine="154" endPosition="82" />
+    <nodeInfo nodeId="3380715998758082442" fileName="OrthogonalPointLayouter.java" startLine="154" startPosition="82" endLine="155" endPosition="96" />
+    <nodeInfo nodeId="3380715998758082449" fileName="OrthogonalPointLayouter.java" startLine="156" startPosition="23" endLine="157" endPosition="35" />
+    <nodeInfo nodeId="3380715998758082454" fileName="OrthogonalPointLayouter.java" startLine="157" startPosition="35" endLine="158" endPosition="32" />
+    <nodeInfo nodeId="5488345258545829959" fileName="OrthogonalPointLayouter.java" startLine="160" startPosition="24" endLine="161" endPosition="48" />
+    <nodeInfo nodeId="5488345258545829963" fileName="OrthogonalPointLayouter.java" startLine="161" startPosition="48" endLine="162" endPosition="90" />
+    <nodeInfo nodeId="5488345258545829997" fileName="OrthogonalPointLayouter.java" startLine="162" startPosition="90" endLine="163" endPosition="24" />
+    <nodeInfo nodeId="3380715998758082463" fileName="OrthogonalPointLayouter.java" startLine="164" startPosition="5" endLine="165" endPosition="79" />
+    <nodeInfo nodeId="3380715998758082468" fileName="OrthogonalPointLayouter.java" startLine="165" startPosition="79" endLine="166" endPosition="102" />
+    <nodeInfo nodeId="3380715998758082756" fileName="OrthogonalPointLayouter.java" startLine="167" startPosition="23" endLine="168" endPosition="71" />
+    <nodeInfo nodeId="3380715998758082532" fileName="OrthogonalPointLayouter.java" startLine="169" startPosition="5" endLine="170" endPosition="52" />
+    <nodeInfo nodeId="5488345258545828461" fileName="OrthogonalPointLayouter.java" startLine="171" startPosition="24" endLine="172" endPosition="48" />
+    <nodeInfo nodeId="5488345258545828465" fileName="OrthogonalPointLayouter.java" startLine="172" startPosition="48" endLine="173" endPosition="88" />
+    <nodeInfo nodeId="5488345258545828478" fileName="OrthogonalPointLayouter.java" startLine="173" startPosition="88" endLine="174" endPosition="170" />
+    <nodeInfo nodeId="5488345258545828499" fileName="OrthogonalPointLayouter.java" startLine="174" startPosition="170" endLine="175" endPosition="24" />
+    <nodeInfo nodeId="3380715998758082538" fileName="OrthogonalPointLayouter.java" startLine="177" startPosition="23" endLine="178" endPosition="61" />
+    <nodeInfo nodeId="3380715998758082763" fileName="OrthogonalPointLayouter.java" startLine="178" startPosition="61" endLine="179" endPosition="66" />
+    <nodeInfo nodeId="3380715998758082592" fileName="OrthogonalPointLayouter.java" startLine="180" startPosition="5" endLine="181" endPosition="93" />
+    <nodeInfo nodeId="3380715998758082603" fileName="OrthogonalPointLayouter.java" startLine="181" startPosition="93" endLine="182" endPosition="138" />
+    <nodeInfo nodeId="3380715998758082611" fileName="OrthogonalPointLayouter.java" startLine="182" startPosition="138" endLine="183" endPosition="42" />
+    <nodeInfo nodeId="3380715998758082617" fileName="OrthogonalPointLayouter.java" startLine="183" startPosition="42" endLine="184" endPosition="56" />
+    <nodeInfo nodeId="3380715998758082801" fileName="OrthogonalPointLayouter.java" startLine="184" startPosition="56" endLine="185" endPosition="63" />
+    <nodeInfo nodeId="3380715998758082820" fileName="OrthogonalPointLayouter.java" startLine="186" startPosition="55" endLine="187" endPosition="81" />
+    <nodeInfo nodeId="3380715998758082848" fileName="OrthogonalPointLayouter.java" startLine="189" startPosition="55" endLine="190" endPosition="63" />
+    <nodeInfo nodeId="3380715998758082869" fileName="OrthogonalPointLayouter.java" startLine="190" startPosition="63" endLine="191" endPosition="77" />
+    <nodeInfo nodeId="4422427343208575196" fileName="OrthogonalPointLayouter.java" startLine="191" startPosition="77" endLine="192" endPosition="34" />
+    <nodeInfo nodeId="3380715998758082879" fileName="OrthogonalPointLayouter.java" startLine="192" startPosition="34" endLine="193" endPosition="94" />
+    <nodeInfo nodeId="4422427343208575211" fileName="OrthogonalPointLayouter.java" startLine="194" startPosition="63" endLine="195" endPosition="49" />
+    <nodeInfo nodeId="3380715998758082902" fileName="OrthogonalPointLayouter.java" startLine="195" startPosition="49" endLine="196" endPosition="97" />
+    <nodeInfo nodeId="4422427343208575232" fileName="OrthogonalPointLayouter.java" startLine="196" startPosition="97" endLine="197" endPosition="19" />
+    <nodeInfo nodeId="3380715998758082921" fileName="OrthogonalPointLayouter.java" startLine="198" startPosition="7" endLine="199" endPosition="49" />
+    <nodeInfo nodeId="3380715998758082625" fileName="OrthogonalPointLayouter.java" startLine="200" startPosition="5" endLine="201" endPosition="62" />
+    <nodeInfo nodeId="3380715998758082637" fileName="OrthogonalPointLayouter.java" startLine="202" startPosition="63" endLine="203" endPosition="80" />
+    <nodeInfo nodeId="3380715998758082651" fileName="OrthogonalPointLayouter.java" startLine="205" startPosition="63" endLine="206" endPosition="77" />
+    <nodeInfo nodeId="3380715998758082658" fileName="OrthogonalPointLayouter.java" startLine="206" startPosition="77" endLine="207" endPosition="118" />
+    <nodeInfo nodeId="3380715998758082669" fileName="OrthogonalPointLayouter.java" startLine="207" startPosition="118" endLine="208" endPosition="118" />
+    <nodeInfo nodeId="3380715998758082680" fileName="OrthogonalPointLayouter.java" startLine="208" startPosition="118" endLine="209" endPosition="48" />
+    <nodeInfo nodeId="5488345258545828559" fileName="OrthogonalPointLayouter.java" startLine="211" startPosition="24" endLine="212" endPosition="48" />
+    <nodeInfo nodeId="5488345258545828563" fileName="OrthogonalPointLayouter.java" startLine="212" startPosition="48" endLine="213" endPosition="78" />
+    <nodeInfo nodeId="5488345258545828597" fileName="OrthogonalPointLayouter.java" startLine="213" startPosition="78" endLine="214" endPosition="24" />
+    <nodeInfo nodeId="3380715998758082686" fileName="OrthogonalPointLayouter.java" startLine="215" startPosition="5" endLine="216" endPosition="23" />
+    <nodeInfo nodeId="3380715998758082708" fileName="OrthogonalPointLayouter.java" startLine="219" startPosition="113" endLine="220" endPosition="59" />
+    <nodeInfo nodeId="3380715998758082718" fileName="OrthogonalPointLayouter.java" startLine="221" startPosition="71" endLine="222" endPosition="35" />
+    <nodeInfo nodeId="3380715998758082725" fileName="OrthogonalPointLayouter.java" startLine="223" startPosition="44" endLine="224" endPosition="37" />
+    <nodeInfo nodeId="3380715998758082736" fileName="OrthogonalPointLayouter.java" startLine="226" startPosition="64" endLine="227" endPosition="94" />
+    <nodeInfo nodeId="3380715998758082752" fileName="OrthogonalPointLayouter.java" startLine="228" startPosition="7" endLine="229" endPosition="27" />
+    <nodeInfo nodeId="8734440518942959593" fileName="OrthogonalPointLayouter.java" startLine="233" startPosition="123" endLine="234" endPosition="43" />
+    <nodeInfo nodeId="8734440518942959604" fileName="OrthogonalPointLayouter.java" startLine="234" startPosition="43" endLine="235" endPosition="68" />
+    <nodeInfo nodeId="8734440518942959630" fileName="OrthogonalPointLayouter.java" startLine="235" startPosition="68" endLine="236" endPosition="72" />
+    <nodeInfo nodeId="8734440518942959637" fileName="OrthogonalPointLayouter.java" startLine="236" startPosition="72" endLine="237" endPosition="90" />
+    <nodeInfo nodeId="8734440518942959790" fileName="OrthogonalPointLayouter.java" startLine="238" startPosition="62" endLine="239" endPosition="41" />
+    <nodeInfo nodeId="8734440518942959675" fileName="OrthogonalPointLayouter.java" startLine="240" startPosition="54" endLine="241" endPosition="17" />
+    <nodeInfo nodeId="3380715998758086362" fileName="OrthogonalPointLayouter.java" startLine="242" startPosition="7" endLine="243" endPosition="73" />
+    <nodeInfo nodeId="3380715998758086372" fileName="OrthogonalPointLayouter.java" startLine="243" startPosition="73" endLine="244" endPosition="55" />
+    <nodeInfo nodeId="8734440518942969738" fileName="OrthogonalPointLayouter.java" startLine="244" startPosition="55" endLine="245" endPosition="60" />
+    <nodeInfo nodeId="8734440518942969778" fileName="OrthogonalPointLayouter.java" startLine="247" startPosition="42" endLine="248" endPosition="42" />
+    <nodeInfo nodeId="8734440518942959901" fileName="OrthogonalPointLayouter.java" startLine="250" startPosition="9" endLine="251" endPosition="31" />
+    <nodeInfo nodeId="8734440518942960010" fileName="OrthogonalPointLayouter.java" startLine="251" startPosition="31" endLine="252" endPosition="47" />
+    <nodeInfo nodeId="8734440518942960023" fileName="OrthogonalPointLayouter.java" startLine="252" startPosition="47" endLine="253" endPosition="37" />
+    <nodeInfo nodeId="8734440518942960145" fileName="OrthogonalPointLayouter.java" startLine="253" startPosition="37" endLine="254" endPosition="78" />
+    <nodeInfo nodeId="3380715998758095707" fileName="OrthogonalPointLayouter.java" startLine="255" startPosition="42" endLine="256" endPosition="27" />
+    <nodeInfo nodeId="3380715998758086383" fileName="OrthogonalPointLayouter.java" startLine="257" startPosition="7" endLine="258" endPosition="63" />
+    <nodeInfo nodeId="3380715998758092757" fileName="OrthogonalPointLayouter.java" startLine="258" startPosition="63" endLine="259" endPosition="64" />
+    <nodeInfo nodeId="8734440518942960159" fileName="OrthogonalPointLayouter.java" startLine="259" startPosition="64" endLine="260" endPosition="37" />
+    <nodeInfo nodeId="8734440518942969755" fileName="OrthogonalPointLayouter.java" startLine="260" startPosition="37" endLine="261" endPosition="37" />
+    <nodeInfo nodeId="8734440518942959938" fileName="OrthogonalPointLayouter.java" startLine="262" startPosition="10" endLine="263" endPosition="54" />
+    <nodeInfo nodeId="8734440518942969867" fileName="OrthogonalPointLayouter.java" startLine="263" startPosition="54" endLine="264" endPosition="46" />
+    <nodeInfo nodeId="8734440518942969663" fileName="OrthogonalPointLayouter.java" startLine="264" startPosition="46" endLine="265" endPosition="67" />
+    <nodeInfo nodeId="8734440518942969803" fileName="OrthogonalPointLayouter.java" startLine="265" startPosition="67" endLine="266" endPosition="33" />
+    <nodeInfo nodeId="8734440518942969830" fileName="OrthogonalPointLayouter.java" startLine="267" startPosition="28" endLine="268" endPosition="61" />
+    <nodeInfo nodeId="8734440518942969857" fileName="OrthogonalPointLayouter.java" startLine="269" startPosition="9" endLine="270" endPosition="100" />
+    <nodeInfo nodeId="8734440518943034910" fileName="OrthogonalPointLayouter.java" startLine="271" startPosition="31" endLine="272" endPosition="31" />
+    <nodeInfo nodeId="8734440518942960262" fileName="OrthogonalPointLayouter.java" startLine="273" startPosition="9" endLine="274" endPosition="65" />
+    <nodeInfo nodeId="8734440518942960030" fileName="OrthogonalPointLayouter.java" startLine="274" startPosition="65" endLine="275" endPosition="25" />
+    <nodeInfo nodeId="8734440518942960058" fileName="OrthogonalPointLayouter.java" startLine="276" startPosition="36" endLine="277" endPosition="37" />
+    <nodeInfo nodeId="8734440518942960067" fileName="OrthogonalPointLayouter.java" startLine="278" startPosition="16" endLine="279" endPosition="45" />
+    <nodeInfo nodeId="3380715998758086393" fileName="OrthogonalPointLayouter.java" startLine="279" startPosition="45" endLine="280" endPosition="66" />
+    <nodeInfo nodeId="8734440518942960165" fileName="OrthogonalPointLayouter.java" startLine="281" startPosition="9" endLine="282" endPosition="25" />
+    <nodeInfo nodeId="8734440518942960170" fileName="OrthogonalPointLayouter.java" startLine="283" startPosition="36" endLine="284" endPosition="37" />
+    <nodeInfo nodeId="8734440518942960179" fileName="OrthogonalPointLayouter.java" startLine="285" startPosition="16" endLine="286" endPosition="60" />
+    <nodeInfo nodeId="3380715998758095717" fileName="OrthogonalPointLayouter.java" startLine="287" startPosition="46" endLine="288" endPosition="31" />
+    <nodeInfo nodeId="3380715998758092768" fileName="OrthogonalPointLayouter.java" startLine="289" startPosition="11" endLine="290" endPosition="76" />
+    <nodeInfo nodeId="8734440518942960088" fileName="OrthogonalPointLayouter.java" startLine="291" startPosition="9" endLine="292" endPosition="69" />
+    <nodeInfo nodeId="4422427343208579105" fileName="OrthogonalPointLayouter.java" startLine="292" startPosition="69" endLine="293" endPosition="72" />
+    <nodeInfo nodeId="8734440518942960100" fileName="OrthogonalPointLayouter.java" startLine="293" startPosition="72" endLine="294" endPosition="67" />
+    <nodeInfo nodeId="8734440518942960235" fileName="OrthogonalPointLayouter.java" startLine="294" startPosition="67" endLine="295" endPosition="85" />
+    <nodeInfo nodeId="8734440518942960315" fileName="OrthogonalPointLayouter.java" startLine="295" startPosition="85" endLine="296" endPosition="81" />
+    <nodeInfo nodeId="8734440518942960333" fileName="OrthogonalPointLayouter.java" startLine="296" startPosition="81" endLine="297" endPosition="99" />
+    <nodeInfo nodeId="8734440518942960355" fileName="OrthogonalPointLayouter.java" startLine="297" startPosition="99" endLine="298" endPosition="27" />
+    <nodeInfo nodeId="8734440518942960362" fileName="OrthogonalPointLayouter.java" startLine="298" startPosition="27" endLine="299" endPosition="33" />
+    <nodeInfo nodeId="8734440518942960369" fileName="OrthogonalPointLayouter.java" startLine="299" startPosition="33" endLine="300" endPosition="33" />
+    <nodeInfo nodeId="8734440518942968102" fileName="OrthogonalPointLayouter.java" startLine="301" startPosition="37" endLine="302" endPosition="37" />
+    <nodeInfo nodeId="8734440518942961273" fileName="OrthogonalPointLayouter.java" startLine="302" startPosition="37" endLine="303" endPosition="25" />
+    <nodeInfo nodeId="8734440518942959614" fileName="OrthogonalPointLayouter.java" startLine="304" startPosition="5" endLine="305" endPosition="22" />
+    <nodeInfo nodeId="315882939481516052" fileName="OrthogonalPointLayouter.java" startLine="308" startPosition="99" endLine="309" endPosition="68" />
+    <nodeInfo nodeId="315882939481516064" fileName="OrthogonalPointLayouter.java" startLine="309" startPosition="68" endLine="310" endPosition="94" />
+    <nodeInfo nodeId="8146903765832629851" fileName="OrthogonalPointLayouter.java" startLine="312" startPosition="44" endLine="313" endPosition="17" />
+    <nodeInfo nodeId="8146903765832624824" fileName="OrthogonalPointLayouter.java" startLine="314" startPosition="7" endLine="315" endPosition="56" />
+    <nodeInfo nodeId="8146903765832608611" fileName="OrthogonalPointLayouter.java" startLine="319" startPosition="107" endLine="320" endPosition="24" />
+    <nodeInfo nodeId="8146903765832693568" fileName="OrthogonalPointLayouter.java" startLine="320" startPosition="24" endLine="321" endPosition="39" />
+    <nodeInfo nodeId="8146903765832693551" fileName="OrthogonalPointLayouter.java" startLine="321" startPosition="39" endLine="322" endPosition="69" />
+    <nodeInfo nodeId="8146903765832608631" fileName="OrthogonalPointLayouter.java" startLine="322" startPosition="69" endLine="323" endPosition="52" />
+    <nodeInfo nodeId="8146903765832693638" fileName="OrthogonalPointLayouter.java" startLine="323" startPosition="52" endLine="324" endPosition="16" />
+    <nodeInfo nodeId="8146903765832693588" fileName="OrthogonalPointLayouter.java" startLine="325" startPosition="50" endLine="326" endPosition="32" />
+    <nodeInfo nodeId="8146903765832693607" fileName="OrthogonalPointLayouter.java" startLine="326" startPosition="32" endLine="327" endPosition="107" />
+    <nodeInfo nodeId="8146903765832693619" fileName="OrthogonalPointLayouter.java" startLine="328" startPosition="21" endLine="329" endPosition="23" />
+    <nodeInfo nodeId="8146903765832693644" fileName="OrthogonalPointLayouter.java" startLine="329" startPosition="23" endLine="330" endPosition="19" />
+    <nodeInfo nodeId="8568898107892565024" fileName="OrthogonalPointLayouter.java" startLine="331" startPosition="7" endLine="332" endPosition="17" />
+    <nodeInfo nodeId="8146903765832693672" fileName="OrthogonalPointLayouter.java" startLine="335" startPosition="33" endLine="336" endPosition="58" />
+    <nodeInfo nodeId="8146903765832693686" fileName="OrthogonalPointLayouter.java" startLine="337" startPosition="7" endLine="338" endPosition="32" />
+    <nodeInfo nodeId="8568898107892565029" fileName="OrthogonalPointLayouter.java" startLine="338" startPosition="32" endLine="339" endPosition="103" />
+    <nodeInfo nodeId="8568898107892565042" fileName="OrthogonalPointLayouter.java" startLine="339" startPosition="103" endLine="340" endPosition="17" />
+    <nodeInfo nodeId="315882939481514784" fileName="OrthogonalPointLayouter.java" startLine="342" startPosition="26" endLine="343" endPosition="73" />
+    <nodeInfo nodeId="315882939481514915" fileName="OrthogonalPointLayouter.java" startLine="343" startPosition="73" endLine="344" endPosition="58" />
+    <nodeInfo nodeId="8568898107892565078" fileName="OrthogonalPointLayouter.java" startLine="344" startPosition="58" endLine="345" endPosition="71" />
+    <nodeInfo nodeId="315882939481514842" fileName="OrthogonalPointLayouter.java" startLine="348" startPosition="55" endLine="349" endPosition="98" />
+    <nodeInfo nodeId="315882939481514861" fileName="OrthogonalPointLayouter.java" startLine="350" startPosition="18" endLine="351" endPosition="109" />
+    <nodeInfo nodeId="315882939481514881" fileName="OrthogonalPointLayouter.java" startLine="354" startPosition="7" endLine="355" endPosition="53" />
+    <nodeInfo nodeId="315882939481514891" fileName="OrthogonalPointLayouter.java" startLine="355" startPosition="53" endLine="356" endPosition="61" />
+    <nodeInfo nodeId="315882939481514935" fileName="OrthogonalPointLayouter.java" startLine="356" startPosition="61" endLine="357" endPosition="43" />
+    <nodeInfo nodeId="8568898107892565098" fileName="OrthogonalPointLayouter.java" startLine="357" startPosition="43" endLine="358" endPosition="52" />
+    <nodeInfo nodeId="8568898107892565131" fileName="OrthogonalPointLayouter.java" startLine="358" startPosition="52" endLine="359" endPosition="143" />
+    <nodeInfo nodeId="315882939481514969" fileName="OrthogonalPointLayouter.java" startLine="361" startPosition="44" endLine="362" endPosition="96" />
+    <nodeInfo nodeId="315882939481514989" fileName="OrthogonalPointLayouter.java" startLine="363" startPosition="16" endLine="364" endPosition="107" />
+    <nodeInfo nodeId="8568898107892565169" fileName="OrthogonalPointLayouter.java" startLine="367" startPosition="60" endLine="368" endPosition="61" />
+    <nodeInfo nodeId="529057043639208740" fileName="OrthogonalPointLayouter.java" startLine="373" startPosition="48" endLine="374" endPosition="43" />
+    <nodeInfo nodeId="529057043639208748" fileName="OrthogonalPointLayouter.java" startLine="374" startPosition="43" endLine="375" endPosition="41" />
+    <nodeInfo nodeId="529057043639208756" fileName="OrthogonalPointLayouter.java" startLine="375" startPosition="41" endLine="376" endPosition="48" />
+    <nodeInfo nodeId="529057043639209024" fileName="OrthogonalPointLayouter.java" startLine="376" startPosition="48" endLine="377" endPosition="42" />
+    <nodeInfo nodeId="529057043639208780" fileName="OrthogonalPointLayouter.java" startLine="379" startPosition="124" endLine="380" endPosition="70" />
+    <nodeInfo nodeId="529057043639208790" fileName="OrthogonalPointLayouter.java" startLine="380" startPosition="70" endLine="381" endPosition="26" />
+    <nodeInfo nodeId="529057043639208797" fileName="OrthogonalPointLayouter.java" startLine="381" startPosition="26" endLine="382" endPosition="32" />
+    <nodeInfo nodeId="529057043639325806" fileName="OrthogonalPointLayouter.java" startLine="382" startPosition="32" endLine="383" endPosition="38" />
+    <nodeInfo nodeId="529057043639208814" fileName="OrthogonalPointLayouter.java" startLine="387" startPosition="46" endLine="388" endPosition="70" />
+    <nodeInfo nodeId="529057043639237805" fileName="OrthogonalPointLayouter.java" startLine="393" startPosition="25" endLine="394" endPosition="15" />
+    <nodeInfo nodeId="529057043639208860" fileName="OrthogonalPointLayouter.java" startLine="395" startPosition="7" endLine="396" endPosition="49" />
+    <nodeInfo nodeId="529057043639208852" fileName="OrthogonalPointLayouter.java" startLine="396" startPosition="49" endLine="397" endPosition="63" />
+    <nodeInfo nodeId="529057043639208882" fileName="OrthogonalPointLayouter.java" startLine="397" startPosition="63" endLine="398" endPosition="63" />
+    <nodeInfo nodeId="529057043639209053" fileName="OrthogonalPointLayouter.java" startLine="400" startPosition="42" endLine="401" endPosition="44" />
+    <nodeInfo nodeId="529057043639208904" fileName="OrthogonalPointLayouter.java" startLine="404" startPosition="77" endLine="405" endPosition="92" />
+    <nodeInfo nodeId="529057043639208920" fileName="OrthogonalPointLayouter.java" startLine="407" startPosition="76" endLine="408" endPosition="92" />
+    <nodeInfo nodeId="529057043639208935" fileName="OrthogonalPointLayouter.java" startLine="410" startPosition="74" endLine="411" endPosition="92" />
+    <nodeInfo nodeId="529057043639208950" fileName="OrthogonalPointLayouter.java" startLine="413" startPosition="76" endLine="414" endPosition="92" />
+    <nodeInfo nodeId="529057043639208980" fileName="OrthogonalPointLayouter.java" startLine="415" startPosition="7" endLine="416" endPosition="68" />
+    <nodeInfo nodeId="529057043639209004" fileName="OrthogonalPointLayouter.java" startLine="419" startPosition="46" endLine="420" endPosition="27" />
+    <nodeInfo nodeId="529057043639208600" fileName="OrthogonalPointLayouter.java" startLine="39" startPosition="0" endLine="41" endPosition="3" />
+    <nodeInfo nodeId="3380715998758086451" fileName="OrthogonalPointLayouter.java" startLine="113" startPosition="12" endLine="115" endPosition="7" />
+    <nodeInfo nodeId="4422427343208581808" fileName="OrthogonalPointLayouter.java" startLine="125" startPosition="12" endLine="127" endPosition="7" />
+    <nodeInfo nodeId="4422427343208581853" fileName="OrthogonalPointLayouter.java" startLine="131" startPosition="14" endLine="133" endPosition="9" />
+    <nodeInfo nodeId="315882939481514859" fileName="OrthogonalPointLayouter.java" startLine="350" startPosition="16" endLine="352" endPosition="11" />
+    <nodeInfo nodeId="315882939481514984" fileName="OrthogonalPointLayouter.java" startLine="363" startPosition="14" endLine="365" endPosition="9" />
+    <nodeInfo nodeId="5488345258545822762" fileName="OrthogonalPointLayouter.java" startLine="45" startPosition="19" endLine="48" endPosition="5" />
+    <nodeInfo nodeId="529057043639328316" fileName="OrthogonalPointLayouter.java" startLine="51" startPosition="77" endLine="54" endPosition="5" />
+    <nodeInfo nodeId="529057043639328342" fileName="OrthogonalPointLayouter.java" startLine="54" startPosition="5" endLine="57" endPosition="5" />
+    <nodeInfo nodeId="4422427343208738010" fileName="OrthogonalPointLayouter.java" startLine="64" startPosition="81" endLine="67" endPosition="7" />
+    <nodeInfo nodeId="3380715998758092858" fileName="OrthogonalPointLayouter.java" startLine="73" startPosition="70" endLine="76" endPosition="7" />
+    <nodeInfo nodeId="3380715998758092906" fileName="OrthogonalPointLayouter.java" startLine="79" startPosition="55" endLine="82" endPosition="7" />
+    <nodeInfo nodeId="3380715998758092968" fileName="OrthogonalPointLayouter.java" startLine="84" startPosition="55" endLine="87" endPosition="9" />
+    <nodeInfo nodeId="3380715998758082476" fileName="OrthogonalPointLayouter.java" startLine="166" startPosition="102" endLine="169" endPosition="5" />
+    <nodeInfo nodeId="3380715998758082809" fileName="OrthogonalPointLayouter.java" startLine="185" startPosition="63" endLine="188" endPosition="5" />
+    <nodeInfo nodeId="3380715998758082631" fileName="OrthogonalPointLayouter.java" startLine="201" startPosition="62" endLine="204" endPosition="5" />
+    <nodeInfo nodeId="3380715998758082723" fileName="OrthogonalPointLayouter.java" startLine="222" startPosition="35" endLine="225" endPosition="7" />
+    <nodeInfo nodeId="3380715998758082734" fileName="OrthogonalPointLayouter.java" startLine="225" startPosition="7" endLine="228" endPosition="7" />
+    <nodeInfo nodeId="8734440518942959661" fileName="OrthogonalPointLayouter.java" startLine="239" startPosition="41" endLine="242" endPosition="7" />
+    <nodeInfo nodeId="3380715998758095693" fileName="OrthogonalPointLayouter.java" startLine="254" startPosition="78" endLine="257" endPosition="7" />
+    <nodeInfo nodeId="8734440518942969811" fileName="OrthogonalPointLayouter.java" startLine="266" startPosition="33" endLine="269" endPosition="9" />
+    <nodeInfo nodeId="8734440518943034901" fileName="OrthogonalPointLayouter.java" startLine="270" startPosition="100" endLine="273" endPosition="9" />
+    <nodeInfo nodeId="8734440518942960064" fileName="OrthogonalPointLayouter.java" startLine="278" startPosition="14" endLine="281" endPosition="9" />
+    <nodeInfo nodeId="3380715998758095715" fileName="OrthogonalPointLayouter.java" startLine="286" startPosition="60" endLine="289" endPosition="11" />
+    <nodeInfo nodeId="8146903765832629840" fileName="OrthogonalPointLayouter.java" startLine="311" startPosition="52" endLine="314" endPosition="7" />
+    <nodeInfo nodeId="8146903765832693659" fileName="OrthogonalPointLayouter.java" startLine="334" startPosition="22" endLine="337" endPosition="7" />
+    <nodeInfo nodeId="8568898107892565146" fileName="OrthogonalPointLayouter.java" startLine="366" startPosition="7" endLine="369" endPosition="7" />
+    <nodeInfo nodeId="529057043639237796" fileName="OrthogonalPointLayouter.java" startLine="392" startPosition="53" endLine="395" endPosition="7" />
+    <nodeInfo nodeId="529057043639208891" fileName="OrthogonalPointLayouter.java" startLine="403" startPosition="9" endLine="406" endPosition="7" />
+    <nodeInfo nodeId="529057043639208918" fileName="OrthogonalPointLayouter.java" startLine="406" startPosition="7" endLine="409" endPosition="7" />
+    <nodeInfo nodeId="529057043639208933" fileName="OrthogonalPointLayouter.java" startLine="409" startPosition="7" endLine="412" endPosition="7" />
+    <nodeInfo nodeId="529057043639208948" fileName="OrthogonalPointLayouter.java" startLine="412" startPosition="7" endLine="415" endPosition="7" />
+    <nodeInfo nodeId="5488345258545822905" fileName="OrthogonalPointLayouter.java" startLine="139" startPosition="5" endLine="143" endPosition="5" />
+    <nodeInfo nodeId="3380715998758082447" fileName="OrthogonalPointLayouter.java" startLine="155" startPosition="96" endLine="159" endPosition="5" />
+    <nodeInfo nodeId="3380715998758082536" fileName="OrthogonalPointLayouter.java" startLine="176" startPosition="5" endLine="180" endPosition="5" />
+    <nodeInfo nodeId="8734440518942969774" fileName="OrthogonalPointLayouter.java" startLine="246" startPosition="116" endLine="250" endPosition="0" />
+    <nodeInfo nodeId="8146903765832693617" fileName="OrthogonalPointLayouter.java" startLine="327" startPosition="107" endLine="331" endPosition="7" />
+    <nodeInfo nodeId="529057043639209049" fileName="OrthogonalPointLayouter.java" startLine="399" startPosition="108" endLine="403" endPosition="0" />
+    <nodeInfo nodeId="529057043639208995" fileName="OrthogonalPointLayouter.java" startLine="418" startPosition="0" endLine="422" endPosition="0" />
+    <nodeInfo nodeId="4422427343208581766" fileName="OrthogonalPointLayouter.java" startLine="122" startPosition="80" endLine="127" endPosition="7" />
+    <nodeInfo nodeId="4422427343208581831" fileName="OrthogonalPointLayouter.java" startLine="128" startPosition="60" endLine="133" endPosition="9" />
+    <nodeInfo nodeId="5488345258545829957" fileName="OrthogonalPointLayouter.java" startLine="159" startPosition="5" endLine="164" endPosition="5" />
+    <nodeInfo nodeId="3380715998758082862" fileName="OrthogonalPointLayouter.java" startLine="193" startPosition="94" endLine="198" endPosition="7" />
+    <nodeInfo nodeId="5488345258545828557" fileName="OrthogonalPointLayouter.java" startLine="210" startPosition="5" endLine="215" endPosition="5" />
+    <nodeInfo nodeId="8734440518942960049" fileName="OrthogonalPointLayouter.java" startLine="245" startPosition="60" endLine="250" endPosition="9" />
+    <nodeInfo nodeId="315882939481514812" fileName="OrthogonalPointLayouter.java" startLine="347" startPosition="85" endLine="352" endPosition="11" />
+    <nodeInfo nodeId="315882939481514956" fileName="OrthogonalPointLayouter.java" startLine="360" startPosition="82" endLine="365" endPosition="9" />
+    <nodeInfo nodeId="529057043639208803" fileName="OrthogonalPointLayouter.java" startLine="385" startPosition="0" endLine="390" endPosition="0" />
+    <nodeInfo nodeId="529057043639209033" fileName="OrthogonalPointLayouter.java" startLine="398" startPosition="63" endLine="403" endPosition="9" />
+    <nodeInfo nodeId="3380715998758092848" fileName="OrthogonalPointLayouter.java" startLine="71" startPosition="83" endLine="77" endPosition="5" />
+    <nodeInfo nodeId="3380715998758094385" fileName="OrthogonalPointLayouter.java" startLine="82" startPosition="7" endLine="88" endPosition="7" />
+    <nodeInfo nodeId="5488345258545828305" fileName="OrthogonalPointLayouter.java" startLine="89" startPosition="5" endLine="95" endPosition="5" />
+    <nodeInfo nodeId="5488345258545828459" fileName="OrthogonalPointLayouter.java" startLine="170" startPosition="52" endLine="176" endPosition="5" />
+    <nodeInfo nodeId="3380715998758082645" fileName="OrthogonalPointLayouter.java" startLine="204" startPosition="5" endLine="210" endPosition="5" />
+    <nodeInfo nodeId="8734440518942960035" fileName="OrthogonalPointLayouter.java" startLine="275" startPosition="25" endLine="281" endPosition="9" />
+    <nodeInfo nodeId="8734440518942960177" fileName="OrthogonalPointLayouter.java" startLine="285" startPosition="14" endLine="291" endPosition="9" />
+    <nodeInfo nodeId="8146903765832624814" fileName="OrthogonalPointLayouter.java" startLine="310" startPosition="94" endLine="316" endPosition="5" />
+    <nodeInfo nodeId="529057043639208735" fileName="OrthogonalPointLayouter.java" startLine="378" startPosition="0" endLine="384" endPosition="5" />
+    <nodeInfo nodeId="3380715998758086510" fileName="OrthogonalPointLayouter.java" startLine="104" startPosition="37" endLine="111" endPosition="9" />
+    <nodeInfo nodeId="315882939481514801" fileName="OrthogonalPointLayouter.java" startLine="346" startPosition="60" endLine="353" endPosition="9" />
+    <nodeInfo nodeId="315882939481514945" fileName="OrthogonalPointLayouter.java" startLine="359" startPosition="143" endLine="366" endPosition="7" />
+    <nodeInfo nodeId="3380715998758092580" fileName="OrthogonalPointLayouter.java" startLine="60" startPosition="89" endLine="68" endPosition="5" />
+    <nodeInfo nodeId="3380715998758092994" fileName="OrthogonalPointLayouter.java" startLine="127" startPosition="7" endLine="135" endPosition="7" />
+    <nodeInfo nodeId="8146903765832693651" fileName="OrthogonalPointLayouter.java" startLine="333" startPosition="5" endLine="341" endPosition="5" />
+    <nodeInfo nodeId="8734440518942960168" fileName="OrthogonalPointLayouter.java" startLine="282" startPosition="25" endLine="291" endPosition="9" />
+    <nodeInfo nodeId="8146903765832693577" fileName="OrthogonalPointLayouter.java" startLine="324" startPosition="16" endLine="333" endPosition="5" />
+    <nodeInfo nodeId="315882939481514796" fileName="OrthogonalPointLayouter.java" startLine="345" startPosition="71" endLine="354" endPosition="7" />
+    <nodeInfo nodeId="3380715998758082713" fileName="OrthogonalPointLayouter.java" startLine="220" startPosition="59" endLine="230" endPosition="5" />
+    <nodeInfo nodeId="8146903765832599966" fileName="OrthogonalPointLayouter.java" startLine="307" startPosition="0" endLine="318" endPosition="0" />
+    <nodeInfo nodeId="3380715998758092896" fileName="OrthogonalPointLayouter.java" startLine="77" startPosition="5" endLine="89" endPosition="5" />
+    <nodeInfo nodeId="3380715998758082836" fileName="OrthogonalPointLayouter.java" startLine="188" startPosition="5" endLine="200" endPosition="5" />
+    <nodeInfo nodeId="3380715998758082700" fileName="OrthogonalPointLayouter.java" startLine="218" startPosition="0" endLine="232" endPosition="0" />
+    <nodeInfo nodeId="3380715998758086440" fileName="OrthogonalPointLayouter.java" startLine="99" startPosition="61" endLine="115" endPosition="7" />
+    <nodeInfo nodeId="3380715998758086430" fileName="OrthogonalPointLayouter.java" startLine="97" startPosition="63" endLine="116" endPosition="5" />
+    <nodeInfo nodeId="3380715998758086639" fileName="OrthogonalPointLayouter.java" startLine="116" startPosition="5" endLine="139" endPosition="5" />
+    <nodeInfo nodeId="529057043639208835" fileName="OrthogonalPointLayouter.java" startLine="390" startPosition="0" endLine="418" endPosition="0" />
+    <nodeInfo nodeId="8568898107892565176" fileName="OrthogonalPointLayouter.java" startLine="341" startPosition="5" endLine="370" endPosition="5" />
+    <nodeInfo nodeId="8734440518942959715" fileName="OrthogonalPointLayouter.java" startLine="261" startPosition="37" endLine="301" endPosition="37" />
+    <nodeInfo nodeId="8146903765832608593" fileName="OrthogonalPointLayouter.java" startLine="318" startPosition="0" endLine="372" endPosition="0" />
+    <nodeInfo nodeId="8734440518942959618" fileName="OrthogonalPointLayouter.java" startLine="237" startPosition="90" endLine="304" endPosition="5" />
+    <nodeInfo nodeId="3380715998758077821" fileName="OrthogonalPointLayouter.java" startLine="146" startPosition="0" endLine="218" endPosition="0" />
+    <nodeInfo nodeId="8734440518942955518" fileName="OrthogonalPointLayouter.java" startLine="232" startPosition="0" endLine="307" endPosition="0" />
+    <nodeInfo nodeId="529057043639208604" fileName="OrthogonalPointLayouter.java" startLine="42" startPosition="0" endLine="146" endPosition="0" />
+    <scopeInfo nodeId="529057043639208603" fileName="OrthogonalPointLayouter.java" startLine="40" startPosition="36" endLine="40" endPosition="36" />
+    <scopeInfo nodeId="5488345258545822763" fileName="OrthogonalPointLayouter.java" startLine="46" startPosition="24" endLine="47" endPosition="190" />
+    <scopeInfo nodeId="529057043639328319" fileName="OrthogonalPointLayouter.java" startLine="52" startPosition="63" endLine="53" endPosition="61" />
+    <scopeInfo nodeId="529057043639328345" fileName="OrthogonalPointLayouter.java" startLine="55" startPosition="63" endLine="56" endPosition="159" />
+    <scopeInfo nodeId="4422427343208738011" fileName="OrthogonalPointLayouter.java" startLine="65" startPosition="87" endLine="66" endPosition="125" />
+    <scopeInfo nodeId="3380715998758092860" fileName="OrthogonalPointLayouter.java" startLine="74" startPosition="72" endLine="75" endPosition="106" />
+    <scopeInfo nodeId="3380715998758092908" fileName="OrthogonalPointLayouter.java" startLine="80" startPosition="66" endLine="81" endPosition="97" />
+    <scopeInfo nodeId="3380715998758092973" fileName="OrthogonalPointLayouter.java" startLine="85" startPosition="67" endLine="86" endPosition="136" />
+    <scopeInfo nodeId="3380715998758086452" fileName="OrthogonalPointLayouter.java" startLine="113" startPosition="14" endLine="114" endPosition="104" />
+    <scopeInfo nodeId="4422427343208581767" fileName="OrthogonalPointLayouter.java" startLine="123" startPosition="132" endLine="124" endPosition="26" />
+    <scopeInfo nodeId="4422427343208581809" fileName="OrthogonalPointLayouter.java" startLine="125" startPosition="14" endLine="126" endPosition="69" />
+    <scopeInfo nodeId="4422427343208581832" fileName="OrthogonalPointLayouter.java" startLine="129" startPosition="38" endLine="130" endPosition="110" />
+    <scopeInfo nodeId="4422427343208581854" fileName="OrthogonalPointLayouter.java" startLine="131" startPosition="16" endLine="132" endPosition="125" />
+    <scopeInfo nodeId="3380715998758082477" fileName="OrthogonalPointLayouter.java" startLine="167" startPosition="23" endLine="168" endPosition="71" />
+    <scopeInfo nodeId="3380715998758082812" fileName="OrthogonalPointLayouter.java" startLine="186" startPosition="55" endLine="187" endPosition="81" />
+    <scopeInfo nodeId="3380715998758082636" fileName="OrthogonalPointLayouter.java" startLine="202" startPosition="63" endLine="203" endPosition="80" />
+    <scopeInfo nodeId="3380715998758082724" fileName="OrthogonalPointLayouter.java" startLine="223" startPosition="44" endLine="224" endPosition="37" />
+    <scopeInfo nodeId="3380715998758082735" fileName="OrthogonalPointLayouter.java" startLine="226" startPosition="64" endLine="227" endPosition="94" />
+    <scopeInfo nodeId="8734440518942959662" fileName="OrthogonalPointLayouter.java" startLine="240" startPosition="54" endLine="241" endPosition="17" />
+    <scopeInfo nodeId="8734440518942969775" fileName="OrthogonalPointLayouter.java" startLine="247" startPosition="42" endLine="248" endPosition="42" />
+    <scopeInfo nodeId="3380715998758095694" fileName="OrthogonalPointLayouter.java" startLine="255" startPosition="42" endLine="256" endPosition="27" />
+    <scopeInfo nodeId="8734440518942969812" fileName="OrthogonalPointLayouter.java" startLine="267" startPosition="28" endLine="268" endPosition="61" />
+    <scopeInfo nodeId="8734440518943034902" fileName="OrthogonalPointLayouter.java" startLine="271" startPosition="31" endLine="272" endPosition="31" />
+    <scopeInfo nodeId="8734440518942960036" fileName="OrthogonalPointLayouter.java" startLine="276" startPosition="36" endLine="277" endPosition="37" />
+    <scopeInfo nodeId="8734440518942960169" fileName="OrthogonalPointLayouter.java" startLine="283" startPosition="36" endLine="284" endPosition="37" />
+    <scopeInfo nodeId="3380715998758095716" fileName="OrthogonalPointLayouter.java" startLine="287" startPosition="46" endLine="288" endPosition="31" />
+    <scopeInfo nodeId="8146903765832629841" fileName="OrthogonalPointLayouter.java" startLine="312" startPosition="44" endLine="313" endPosition="17" />
+    <scopeInfo nodeId="8146903765832693661" fileName="OrthogonalPointLayouter.java" startLine="335" startPosition="33" endLine="336" endPosition="58" />
+    <scopeInfo nodeId="315882939481514814" fileName="OrthogonalPointLayouter.java" startLine="348" startPosition="55" endLine="349" endPosition="98" />
+    <scopeInfo nodeId="315882939481514860" fileName="OrthogonalPointLayouter.java" startLine="350" startPosition="18" endLine="351" endPosition="109" />
+    <scopeInfo nodeId="315882939481514958" fileName="OrthogonalPointLayouter.java" startLine="361" startPosition="44" endLine="362" endPosition="96" />
+    <scopeInfo nodeId="315882939481514985" fileName="OrthogonalPointLayouter.java" startLine="363" startPosition="16" endLine="364" endPosition="107" />
+    <scopeInfo nodeId="8568898107892565149" fileName="OrthogonalPointLayouter.java" startLine="367" startPosition="60" endLine="368" endPosition="61" />
+    <scopeInfo nodeId="529057043639208808" fileName="OrthogonalPointLayouter.java" startLine="387" startPosition="46" endLine="388" endPosition="70" />
+    <scopeInfo nodeId="529057043639237797" fileName="OrthogonalPointLayouter.java" startLine="393" startPosition="25" endLine="394" endPosition="15" />
+    <scopeInfo nodeId="529057043639209050" fileName="OrthogonalPointLayouter.java" startLine="400" startPosition="42" endLine="401" endPosition="44" />
+    <scopeInfo nodeId="529057043639208892" fileName="OrthogonalPointLayouter.java" startLine="404" startPosition="77" endLine="405" endPosition="92" />
+    <scopeInfo nodeId="529057043639208919" fileName="OrthogonalPointLayouter.java" startLine="407" startPosition="76" endLine="408" endPosition="92" />
+    <scopeInfo nodeId="529057043639208934" fileName="OrthogonalPointLayouter.java" startLine="410" startPosition="74" endLine="411" endPosition="92" />
+    <scopeInfo nodeId="529057043639208949" fileName="OrthogonalPointLayouter.java" startLine="413" startPosition="76" endLine="414" endPosition="92" />
+    <scopeInfo nodeId="529057043639208998" fileName="OrthogonalPointLayouter.java" startLine="419" startPosition="46" endLine="420" endPosition="27" />
+    <scopeInfo nodeId="529057043639208600" fileName="OrthogonalPointLayouter.java" startLine="39" startPosition="0" endLine="41" endPosition="3" />
+    <scopeInfo nodeId="5488345258545822906" fileName="OrthogonalPointLayouter.java" startLine="140" startPosition="24" endLine="142" endPosition="64">
+      <varInfo nodeId="5488345258545822908" varName="newTime" />
+    </scopeInfo>
+    <scopeInfo nodeId="3380715998758082448" fileName="OrthogonalPointLayouter.java" startLine="156" startPosition="23" endLine="158" endPosition="32" />
+    <scopeInfo nodeId="3380715998758082537" fileName="OrthogonalPointLayouter.java" startLine="177" startPosition="23" endLine="179" endPosition="66" />
+    <scopeInfo nodeId="8734440518942960065" fileName="OrthogonalPointLayouter.java" startLine="278" startPosition="16" endLine="280" endPosition="66" />
+    <scopeInfo nodeId="8146903765832693618" fileName="OrthogonalPointLayouter.java" startLine="328" startPosition="21" endLine="330" endPosition="19" />
+    <scopeInfo nodeId="529057043639328316" fileName="OrthogonalPointLayouter.java" startLine="51" startPosition="77" endLine="54" endPosition="5" />
+    <scopeInfo nodeId="529057043639328342" fileName="OrthogonalPointLayouter.java" startLine="54" startPosition="5" endLine="57" endPosition="5" />
+    <scopeInfo nodeId="5488345258545829958" fileName="OrthogonalPointLayouter.java" startLine="160" startPosition="24" endLine="163" endPosition="24">
+      <varInfo nodeId="5488345258545829960" varName="newTime" />
+    </scopeInfo>
+    <scopeInfo nodeId="3380715998758082809" fileName="OrthogonalPointLayouter.java" startLine="185" startPosition="63" endLine="188" endPosition="5" />
+    <scopeInfo nodeId="3380715998758082865" fileName="OrthogonalPointLayouter.java" startLine="194" startPosition="63" endLine="197" endPosition="19">
       <varInfo nodeId="4422427343208575212" varName="next" />
     </scopeInfo>
-    <scopeInfo nodeId="3380715998758082631" fileName="OrthogonalPointLayouter.java" startLine="170" startPosition="62" endLine="173" endPosition="5" />
-    <scopeInfo nodeId="3380715998758082734" fileName="OrthogonalPointLayouter.java" startLine="189" startPosition="7" endLine="192" endPosition="7" />
-    <scopeInfo nodeId="8568898107892565146" fileName="OrthogonalPointLayouter.java" startLine="330" startPosition="7" endLine="333" endPosition="7" />
-    <scopeInfo nodeId="3380715998758092583" fileName="OrthogonalPointLayouter.java" startLine="52" startPosition="63" endLine="56" endPosition="7" />
-    <scopeInfo nodeId="3380715998758092851" fileName="OrthogonalPointLayouter.java" startLine="61" startPosition="88" endLine="65" endPosition="7">
+    <scopeInfo nodeId="3380715998758082631" fileName="OrthogonalPointLayouter.java" startLine="201" startPosition="62" endLine="204" endPosition="5" />
+    <scopeInfo nodeId="5488345258545828558" fileName="OrthogonalPointLayouter.java" startLine="211" startPosition="24" endLine="214" endPosition="24">
+      <varInfo nodeId="5488345258545828560" varName="newTime" />
+    </scopeInfo>
+    <scopeInfo nodeId="3380715998758082734" fileName="OrthogonalPointLayouter.java" startLine="225" startPosition="7" endLine="228" endPosition="7" />
+    <scopeInfo nodeId="8568898107892565146" fileName="OrthogonalPointLayouter.java" startLine="366" startPosition="7" endLine="369" endPosition="7" />
+    <scopeInfo nodeId="3380715998758092851" fileName="OrthogonalPointLayouter.java" startLine="72" startPosition="88" endLine="76" endPosition="7">
       <varInfo nodeId="3380715998758092866" varName="replacement" />
     </scopeInfo>
-    <scopeInfo nodeId="3380715998758094387" fileName="OrthogonalPointLayouter.java" startLine="72" startPosition="52" endLine="76" endPosition="9">
+    <scopeInfo nodeId="3380715998758094387" fileName="OrthogonalPointLayouter.java" startLine="83" startPosition="52" endLine="87" endPosition="9">
       <varInfo nodeId="3380715998758092963" varName="last" />
     </scopeInfo>
-    <scopeInfo nodeId="3380715998758082650" fileName="OrthogonalPointLayouter.java" startLine="174" startPosition="63" endLine="178" endPosition="48">
+    <scopeInfo nodeId="5488345258545828306" fileName="OrthogonalPointLayouter.java" startLine="90" startPosition="24" endLine="94" endPosition="24">
+      <varInfo nodeId="5488345258545828308" varName="newTime" />
+    </scopeInfo>
+    <scopeInfo nodeId="5488345258545828460" fileName="OrthogonalPointLayouter.java" startLine="171" startPosition="24" endLine="175" endPosition="24">
+      <varInfo nodeId="5488345258545828462" varName="newTime" />
+    </scopeInfo>
+    <scopeInfo nodeId="3380715998758082650" fileName="OrthogonalPointLayouter.java" startLine="205" startPosition="63" endLine="209" endPosition="48">
       <varInfo nodeId="3380715998758082652" varName="edgeLayout" />
     </scopeInfo>
-    <scopeInfo nodeId="8734440518942969774" fileName="OrthogonalPointLayouter.java" startLine="210" startPosition="116" endLine="214" endPosition="0" />
-    <scopeInfo nodeId="8146903765832624817" fileName="OrthogonalPointLayouter.java" startLine="275" startPosition="52" endLine="279" endPosition="56" />
-    <scopeInfo nodeId="529057043639208738" fileName="OrthogonalPointLayouter.java" startLine="343" startPosition="124" endLine="347" endPosition="38" />
-    <scopeInfo nodeId="529057043639209049" fileName="OrthogonalPointLayouter.java" startLine="363" startPosition="108" endLine="367" endPosition="0" />
-    <scopeInfo nodeId="529057043639208995" fileName="OrthogonalPointLayouter.java" startLine="382" startPosition="0" endLine="386" endPosition="0" />
-    <scopeInfo nodeId="3380715998758086513" fileName="OrthogonalPointLayouter.java" startLine="88" startPosition="97" endLine="93" endPosition="41">
+    <scopeInfo nodeId="8734440518942969774" fileName="OrthogonalPointLayouter.java" startLine="246" startPosition="116" endLine="250" endPosition="0" />
+    <scopeInfo nodeId="8146903765832624817" fileName="OrthogonalPointLayouter.java" startLine="311" startPosition="52" endLine="315" endPosition="56" />
+    <scopeInfo nodeId="529057043639208738" fileName="OrthogonalPointLayouter.java" startLine="379" startPosition="124" endLine="383" endPosition="38" />
+    <scopeInfo nodeId="529057043639209049" fileName="OrthogonalPointLayouter.java" startLine="399" startPosition="108" endLine="403" endPosition="0" />
+    <scopeInfo nodeId="529057043639208995" fileName="OrthogonalPointLayouter.java" startLine="418" startPosition="0" endLine="422" endPosition="0" />
+    <scopeInfo nodeId="3380715998758086513" fileName="OrthogonalPointLayouter.java" startLine="105" startPosition="97" endLine="110" endPosition="41">
       <varInfo nodeId="3380715998758086528" varName="point" />
     </scopeInfo>
-    <scopeInfo nodeId="3380715998758082862" fileName="OrthogonalPointLayouter.java" startLine="162" startPosition="94" endLine="167" endPosition="7" />
-    <scopeInfo nodeId="8734440518942960178" fileName="OrthogonalPointLayouter.java" startLine="249" startPosition="16" endLine="254" endPosition="76" />
-    <scopeInfo nodeId="315882939481514804" fileName="OrthogonalPointLayouter.java" startLine="311" startPosition="85" endLine="316" endPosition="11" />
-    <scopeInfo nodeId="315882939481514948" fileName="OrthogonalPointLayouter.java" startLine="324" startPosition="82" endLine="329" endPosition="9" />
-    <scopeInfo nodeId="529057043639208803" fileName="OrthogonalPointLayouter.java" startLine="349" startPosition="0" endLine="354" endPosition="0">
+    <scopeInfo nodeId="3380715998758082862" fileName="OrthogonalPointLayouter.java" startLine="193" startPosition="94" endLine="198" endPosition="7" />
+    <scopeInfo nodeId="8734440518942960178" fileName="OrthogonalPointLayouter.java" startLine="285" startPosition="16" endLine="290" endPosition="76" />
+    <scopeInfo nodeId="315882939481514804" fileName="OrthogonalPointLayouter.java" startLine="347" startPosition="85" endLine="352" endPosition="11" />
+    <scopeInfo nodeId="315882939481514948" fileName="OrthogonalPointLayouter.java" startLine="360" startPosition="82" endLine="365" endPosition="9" />
+    <scopeInfo nodeId="529057043639208803" fileName="OrthogonalPointLayouter.java" startLine="385" startPosition="0" endLine="390" endPosition="0">
       <varInfo nodeId="529057043639208806" varName="root" />
     </scopeInfo>
-    <scopeInfo nodeId="3380715998758092580" fileName="OrthogonalPointLayouter.java" startLine="51" startPosition="89" endLine="57" endPosition="5" />
-    <scopeInfo nodeId="3380715998758092848" fileName="OrthogonalPointLayouter.java" startLine="60" startPosition="83" endLine="66" endPosition="5" />
-    <scopeInfo nodeId="3380715998758092997" fileName="OrthogonalPointLayouter.java" startLine="111" startPosition="60" endLine="117" endPosition="36" />
-    <scopeInfo nodeId="3380715998758082645" fileName="OrthogonalPointLayouter.java" startLine="173" startPosition="5" endLine="179" endPosition="5" />
-    <scopeInfo nodeId="8146903765832624814" fileName="OrthogonalPointLayouter.java" startLine="274" startPosition="94" endLine="280" endPosition="5" />
-    <scopeInfo nodeId="8146903765832693653" fileName="OrthogonalPointLayouter.java" startLine="298" startPosition="22" endLine="304" endPosition="17">
+    <scopeInfo nodeId="3380715998758092583" fileName="OrthogonalPointLayouter.java" startLine="61" startPosition="63" endLine="67" endPosition="7">
+      <varInfo nodeId="5488345258545805054" varName="copyEdge" />
+    </scopeInfo>
+    <scopeInfo nodeId="3380715998758092848" fileName="OrthogonalPointLayouter.java" startLine="71" startPosition="83" endLine="77" endPosition="5" />
+    <scopeInfo nodeId="3380715998758092997" fileName="OrthogonalPointLayouter.java" startLine="128" startPosition="60" endLine="134" endPosition="36" />
+    <scopeInfo nodeId="3380715998758082645" fileName="OrthogonalPointLayouter.java" startLine="204" startPosition="5" endLine="210" endPosition="5" />
+    <scopeInfo nodeId="8146903765832624814" fileName="OrthogonalPointLayouter.java" startLine="310" startPosition="94" endLine="316" endPosition="5" />
+    <scopeInfo nodeId="8146903765832693653" fileName="OrthogonalPointLayouter.java" startLine="334" startPosition="22" endLine="340" endPosition="17">
       <varInfo nodeId="8146903765832693687" varName="cur" />
     </scopeInfo>
-    <scopeInfo nodeId="529057043639208735" fileName="OrthogonalPointLayouter.java" startLine="342" startPosition="0" endLine="348" endPosition="5">
+    <scopeInfo nodeId="529057043639208735" fileName="OrthogonalPointLayouter.java" startLine="378" startPosition="0" endLine="384" endPosition="5">
       <varInfo nodeId="529057043639208773" varName="directions" />
       <varInfo nodeId="529057043639208766" varName="lengths" />
       <varInfo nodeId="529057043639208764" varName="embeddedGraph" />
     </scopeInfo>
-    <scopeInfo nodeId="3380715998758086510" fileName="OrthogonalPointLayouter.java" startLine="87" startPosition="37" endLine="94" endPosition="9" />
-    <scopeInfo nodeId="8146903765832693579" fileName="OrthogonalPointLayouter.java" startLine="289" startPosition="50" endLine="296" endPosition="17">
+    <scopeInfo nodeId="3380715998758086510" fileName="OrthogonalPointLayouter.java" startLine="104" startPosition="37" endLine="111" endPosition="9" />
+    <scopeInfo nodeId="8146903765832693579" fileName="OrthogonalPointLayouter.java" startLine="325" startPosition="50" endLine="332" endPosition="17">
       <varInfo nodeId="8146903765832693608" varName="turn" />
       <varInfo nodeId="8146903765832693589" varName="cur" />
     </scopeInfo>
-    <scopeInfo nodeId="315882939481514799" fileName="OrthogonalPointLayouter.java" startLine="310" startPosition="60" endLine="317" endPosition="9" />
-    <scopeInfo nodeId="315882939481514801" fileName="OrthogonalPointLayouter.java" startLine="310" startPosition="60" endLine="317" endPosition="9" />
-    <scopeInfo nodeId="315882939481514945" fileName="OrthogonalPointLayouter.java" startLine="323" startPosition="143" endLine="330" endPosition="7" />
-    <scopeInfo nodeId="3380715998758092994" fileName="OrthogonalPointLayouter.java" startLine="110" startPosition="7" endLine="118" endPosition="7" />
-    <scopeInfo nodeId="3380715998758082717" fileName="OrthogonalPointLayouter.java" startLine="185" startPosition="71" endLine="193" endPosition="27" />
-    <scopeInfo nodeId="8146903765832599969" fileName="OrthogonalPointLayouter.java" startLine="272" startPosition="99" endLine="280" endPosition="5">
+    <scopeInfo nodeId="315882939481514799" fileName="OrthogonalPointLayouter.java" startLine="346" startPosition="60" endLine="353" endPosition="9" />
+    <scopeInfo nodeId="315882939481514801" fileName="OrthogonalPointLayouter.java" startLine="346" startPosition="60" endLine="353" endPosition="9" />
+    <scopeInfo nodeId="315882939481514945" fileName="OrthogonalPointLayouter.java" startLine="359" startPosition="143" endLine="366" endPosition="7" />
+    <scopeInfo nodeId="3380715998758092580" fileName="OrthogonalPointLayouter.java" startLine="60" startPosition="89" endLine="68" endPosition="5" />
+    <scopeInfo nodeId="3380715998758092994" fileName="OrthogonalPointLayouter.java" startLine="127" startPosition="7" endLine="135" endPosition="7" />
+    <scopeInfo nodeId="3380715998758082717" fileName="OrthogonalPointLayouter.java" startLine="221" startPosition="71" endLine="229" endPosition="27" />
+    <scopeInfo nodeId="8146903765832599969" fileName="OrthogonalPointLayouter.java" startLine="308" startPosition="99" endLine="316" endPosition="5">
       <varInfo nodeId="315882939481516053" varName="faces" />
     </scopeInfo>
-    <scopeInfo nodeId="315882939481514796" fileName="OrthogonalPointLayouter.java" startLine="309" startPosition="71" endLine="318" endPosition="7" />
-    <scopeInfo nodeId="3380715998758092899" fileName="OrthogonalPointLayouter.java" startLine="67" startPosition="90" endLine="77" endPosition="7">
+    <scopeInfo nodeId="315882939481514796" fileName="OrthogonalPointLayouter.java" startLine="345" startPosition="71" endLine="354" endPosition="7" />
+    <scopeInfo nodeId="3380715998758092899" fileName="OrthogonalPointLayouter.java" startLine="78" startPosition="90" endLine="88" endPosition="7">
       <varInfo nodeId="3380715998758092938" varName="first" />
     </scopeInfo>
-    <scopeInfo nodeId="3380715998758082839" fileName="OrthogonalPointLayouter.java" startLine="158" startPosition="55" endLine="168" endPosition="49">
+    <scopeInfo nodeId="3380715998758082839" fileName="OrthogonalPointLayouter.java" startLine="189" startPosition="55" endLine="199" endPosition="49">
       <varInfo nodeId="3380715998758082849" varName="history" />
       <varInfo nodeId="4422427343208575197" varName="cur" />
       <varInfo nodeId="3380715998758082870" varName="edgeLayout" />
     </scopeInfo>
-    <scopeInfo nodeId="3380715998758082713" fileName="OrthogonalPointLayouter.java" startLine="184" startPosition="59" endLine="194" endPosition="5" />
-    <scopeInfo nodeId="3380715998758082707" fileName="OrthogonalPointLayouter.java" startLine="183" startPosition="113" endLine="194" endPosition="5" />
-    <scopeInfo nodeId="8146903765832599966" fileName="OrthogonalPointLayouter.java" startLine="271" startPosition="0" endLine="282" endPosition="0">
+    <scopeInfo nodeId="3380715998758082713" fileName="OrthogonalPointLayouter.java" startLine="220" startPosition="59" endLine="230" endPosition="5" />
+    <scopeInfo nodeId="3380715998758082707" fileName="OrthogonalPointLayouter.java" startLine="219" startPosition="113" endLine="230" endPosition="5" />
+    <scopeInfo nodeId="8146903765832599966" fileName="OrthogonalPointLayouter.java" startLine="307" startPosition="0" endLine="318" endPosition="0">
       <varInfo nodeId="8146903765832604036" varName="direction" />
       <varInfo nodeId="8146903765832604034" varName="embeddedGraph" />
     </scopeInfo>
-    <scopeInfo nodeId="3380715998758092896" fileName="OrthogonalPointLayouter.java" startLine="66" startPosition="5" endLine="78" endPosition="5" />
-    <scopeInfo nodeId="3380715998758086442" fileName="OrthogonalPointLayouter.java" startLine="83" startPosition="64" endLine="95" endPosition="88">
+    <scopeInfo nodeId="3380715998758092896" fileName="OrthogonalPointLayouter.java" startLine="77" startPosition="5" endLine="89" endPosition="5" />
+    <scopeInfo nodeId="3380715998758086442" fileName="OrthogonalPointLayouter.java" startLine="100" startPosition="64" endLine="112" endPosition="88">
       <varInfo nodeId="3380715998758086507" varName="maxY" />
       <varInfo nodeId="3380715998758086503" varName="maxX" />
       <varInfo nodeId="3380715998758086488" varName="minX" />
       <varInfo nodeId="3380715998758086494" varName="minY" />
     </scopeInfo>
-    <scopeInfo nodeId="3380715998758082836" fileName="OrthogonalPointLayouter.java" startLine="157" startPosition="5" endLine="169" endPosition="5" />
-    <scopeInfo nodeId="3380715998758082700" fileName="OrthogonalPointLayouter.java" startLine="182" startPosition="0" endLine="196" endPosition="0">
+    <scopeInfo nodeId="3380715998758082836" fileName="OrthogonalPointLayouter.java" startLine="188" startPosition="5" endLine="200" endPosition="5" />
+    <scopeInfo nodeId="3380715998758082700" fileName="OrthogonalPointLayouter.java" startLine="218" startPosition="0" endLine="232" endPosition="0">
       <varInfo nodeId="3380715998758082699" varName="directions" />
       <varInfo nodeId="3380715998758082698" varName="embeddedGraph" />
     </scopeInfo>
-    <scopeInfo nodeId="3380715998758086433" fileName="OrthogonalPointLayouter.java" startLine="81" startPosition="63" endLine="98" endPosition="7">
+    <scopeInfo nodeId="3380715998758086433" fileName="OrthogonalPointLayouter.java" startLine="98" startPosition="63" endLine="115" endPosition="7">
       <varInfo nodeId="3380715998758170842" varName="copyNode" />
     </scopeInfo>
-    <scopeInfo nodeId="3380715998758086430" fileName="OrthogonalPointLayouter.java" startLine="80" startPosition="63" endLine="99" endPosition="5" />
-    <scopeInfo nodeId="3380715998758086642" fileName="OrthogonalPointLayouter.java" startLine="100" startPosition="68" endLine="121" endPosition="54">
+    <scopeInfo nodeId="3380715998758086430" fileName="OrthogonalPointLayouter.java" startLine="97" startPosition="63" endLine="116" endPosition="5" />
+    <scopeInfo nodeId="3380715998758086642" fileName="OrthogonalPointLayouter.java" startLine="117" startPosition="68" endLine="138" endPosition="54">
       <varInfo nodeId="4422427343208581763" varName="cur" />
       <varInfo nodeId="3380715998758092626" varName="edgeLayout" />
       <varInfo nodeId="3380715998758092650" varName="edgeHistory" />
       <varInfo nodeId="4422427343208581811" varName="firstSource" />
       <varInfo nodeId="4422427343208581746" varName="copySource" />
     </scopeInfo>
-    <scopeInfo nodeId="3380715998758086639" fileName="OrthogonalPointLayouter.java" startLine="99" startPosition="5" endLine="122" endPosition="5" />
-    <scopeInfo nodeId="529057043639208842" fileName="OrthogonalPointLayouter.java" startLine="356" startPosition="53" endLine="380" endPosition="68">
+    <scopeInfo nodeId="3380715998758086639" fileName="OrthogonalPointLayouter.java" startLine="116" startPosition="5" endLine="139" endPosition="5" />
+    <scopeInfo nodeId="529057043639208842" fileName="OrthogonalPointLayouter.java" startLine="392" startPosition="53" endLine="416" endPosition="68">
       <varInfo nodeId="529057043639209034" varName="dart" />
       <varInfo nodeId="529057043639208861" varName="source" />
       <varInfo nodeId="529057043639208883" varName="y" />
       <varInfo nodeId="529057043639208853" varName="x" />
     </scopeInfo>
-    <scopeInfo nodeId="8568898107892565178" fileName="OrthogonalPointLayouter.java" startLine="306" startPosition="26" endLine="333" endPosition="7">
+    <scopeInfo nodeId="8568898107892565178" fileName="OrthogonalPointLayouter.java" startLine="342" startPosition="26" endLine="369" endPosition="7">
       <varInfo nodeId="8568898107892565099" varName="splitEdge" />
       <varInfo nodeId="315882939481514936" varName="badCorner" />
       <varInfo nodeId="8568898107892565132" varName="newFaces" />
@@ -855,11 +902,11 @@
       <varInfo nodeId="8568898107892565079" varName="newNode" />
       <varInfo nodeId="315882939481514916" varName="prevOpposite" />
     </scopeInfo>
-    <scopeInfo nodeId="529057043639208835" fileName="OrthogonalPointLayouter.java" startLine="354" startPosition="0" endLine="382" endPosition="0">
+    <scopeInfo nodeId="529057043639208835" fileName="OrthogonalPointLayouter.java" startLine="390" startPosition="0" endLine="418" endPosition="0">
       <varInfo nodeId="529057043639208838" varName="node" />
       <varInfo nodeId="529057043639208840" varName="from" />
     </scopeInfo>
-    <scopeInfo nodeId="8734440518942959717" fileName="OrthogonalPointLayouter.java" startLine="226" startPosition="10" endLine="264" endPosition="33">
+    <scopeInfo nodeId="8734440518942959717" fileName="OrthogonalPointLayouter.java" startLine="262" startPosition="10" endLine="300" endPosition="33">
       <varInfo nodeId="8734440518942960166" varName="nextNewEdge" />
       <varInfo nodeId="8734440518942969804" varName="nextPos" />
       <varInfo nodeId="8734440518942960089" varName="edgeBetweenNewNodes" />
@@ -870,14 +917,32 @@
       <varInfo nodeId="8734440518942969858" varName="nextDart" />
       <varInfo nodeId="8734440518942969868" varName="darts" />
     </scopeInfo>
-    <scopeInfo nodeId="8146903765832608596" fileName="OrthogonalPointLayouter.java" startLine="283" startPosition="107" endLine="334" endPosition="5">
+    <scopeInfo nodeId="8146903765832608596" fileName="OrthogonalPointLayouter.java" startLine="319" startPosition="107" endLine="370" endPosition="5">
       <varInfo nodeId="8146903765832608612" varName="badDart" />
       <varInfo nodeId="8146903765832693639" varName="sum" />
       <varInfo nodeId="8146903765832693552" varName="dartItr" />
       <varInfo nodeId="8146903765832693569" varName="darts" />
       <varInfo nodeId="8146903765832608632" varName="prev" />
     </scopeInfo>
-    <scopeInfo nodeId="3380715998758077824" fileName="OrthogonalPointLayouter.java" startLine="126" startPosition="99" endLine="180" endPosition="23">
+    <scopeInfo nodeId="8146903765832608593" fileName="OrthogonalPointLayouter.java" startLine="318" startPosition="0" endLine="372" endPosition="0">
+      <varInfo nodeId="8146903765832608599" varName="face" />
+      <varInfo nodeId="8146903765832608602" varName="direction" />
+      <varInfo nodeId="8146903765832608597" varName="embeddedGraph" />
+    </scopeInfo>
+    <scopeInfo nodeId="8734440518942959621" fileName="OrthogonalPointLayouter.java" startLine="238" startPosition="62" endLine="303" endPosition="25">
+      <varInfo nodeId="8734440518942960050" varName="firstDart" />
+      <varInfo nodeId="8734440518942969756" varName="newFace" />
+      <varInfo nodeId="8734440518942960160" varName="curNewEdge" />
+      <varInfo nodeId="8734440518942969739" varName="firstEdge" />
+      <varInfo nodeId="8734440518942960024" varName="curNewNode" />
+      <varInfo nodeId="8734440518942960011" varName="firstNewNode" />
+      <varInfo nodeId="8734440518942959791" varName="edges" />
+      <varInfo nodeId="8734440518942959902" varName="curDart" />
+      <varInfo nodeId="3380715998758086363" varName="newNodes" />
+      <varInfo nodeId="8734440518942960146" varName="firstNewEdge" />
+    </scopeInfo>
+    <scopeInfo nodeId="8734440518942959618" fileName="OrthogonalPointLayouter.java" startLine="237" startPosition="90" endLine="304" endPosition="5" />
+    <scopeInfo nodeId="3380715998758077824" fileName="OrthogonalPointLayouter.java" startLine="147" startPosition="99" endLine="216" endPosition="23">
       <varInfo nodeId="3380715998758082469" varName="directions" />
       <varInfo nodeId="3380715998758082434" varName="angles" />
       <varInfo nodeId="3380715998758082780" varName="oldNodes" />
@@ -890,41 +955,24 @@
       <varInfo nodeId="3380715998758082618" varName="coordinates" />
       <varInfo nodeId="3380715998758082626" varName="copyLayout" />
     </scopeInfo>
-    <scopeInfo nodeId="8146903765832608593" fileName="OrthogonalPointLayouter.java" startLine="282" startPosition="0" endLine="336" endPosition="0">
-      <varInfo nodeId="8146903765832608599" varName="face" />
-      <varInfo nodeId="8146903765832608602" varName="direction" />
-      <varInfo nodeId="8146903765832608597" varName="embeddedGraph" />
-    </scopeInfo>
-    <scopeInfo nodeId="3380715998758077821" fileName="OrthogonalPointLayouter.java" startLine="125" startPosition="0" endLine="182" endPosition="0">
+    <scopeInfo nodeId="3380715998758077821" fileName="OrthogonalPointLayouter.java" startLine="146" startPosition="0" endLine="218" endPosition="0">
       <varInfo nodeId="3380715998758092746" varName="edgesToBeStraight" />
       <varInfo nodeId="3380715998758077826" varName="embeddedGraph" />
     </scopeInfo>
-    <scopeInfo nodeId="8734440518942959621" fileName="OrthogonalPointLayouter.java" startLine="202" startPosition="62" endLine="267" endPosition="25">
-      <varInfo nodeId="8734440518942960050" varName="firstDart" />
-      <varInfo nodeId="8734440518942969756" varName="newFace" />
-      <varInfo nodeId="8734440518942960160" varName="curNewEdge" />
-      <varInfo nodeId="8734440518942969739" varName="firstEdge" />
-      <varInfo nodeId="8734440518942960024" varName="curNewNode" />
-      <varInfo nodeId="8734440518942960011" varName="firstNewNode" />
-      <varInfo nodeId="8734440518942959791" varName="edges" />
-      <varInfo nodeId="8734440518942959902" varName="curDart" />
-      <varInfo nodeId="3380715998758086363" varName="newNodes" />
-      <varInfo nodeId="8734440518942960146" varName="firstNewEdge" />
-    </scopeInfo>
-    <scopeInfo nodeId="8734440518942959618" fileName="OrthogonalPointLayouter.java" startLine="201" startPosition="90" endLine="268" endPosition="5" />
-    <scopeInfo nodeId="8734440518942955521" fileName="OrthogonalPointLayouter.java" startLine="197" startPosition="123" endLine="269" endPosition="22">
+    <scopeInfo nodeId="8734440518942955521" fileName="OrthogonalPointLayouter.java" startLine="233" startPosition="123" endLine="305" endPosition="22">
       <varInfo nodeId="8734440518942959594" varName="graph" />
       <varInfo nodeId="8734440518942959605" varName="addedEdges" />
       <varInfo nodeId="8734440518942959631" varName="realNodes" />
     </scopeInfo>
-    <scopeInfo nodeId="8734440518942955518" fileName="OrthogonalPointLayouter.java" startLine="196" startPosition="0" endLine="271" endPosition="0">
+    <scopeInfo nodeId="8734440518942955518" fileName="OrthogonalPointLayouter.java" startLine="232" startPosition="0" endLine="307" endPosition="0">
       <varInfo nodeId="3380715998758092739" varName="edgeMap" />
       <varInfo nodeId="3380715998758086352" varName="nodeMap" />
       <varInfo nodeId="8734440518942959589" varName="embeddedGraph" />
     </scopeInfo>
-    <scopeInfo nodeId="529057043639208607" fileName="OrthogonalPointLayouter.java" startLine="39" startPosition="49" endLine="123" endPosition="23">
+    <scopeInfo nodeId="529057043639208607" fileName="OrthogonalPointLayouter.java" startLine="43" startPosition="49" endLine="144" endPosition="23">
       <varInfo nodeId="3380715998758092786" varName="replacedEdges" />
       <varInfo nodeId="3380715998758086655" varName="history" />
+      <varInfo nodeId="5488345258545822731" varName="time" />
       <varInfo nodeId="529057043639328286" varName="edgeMap" />
       <varInfo nodeId="3380715998758086457" varName="graphLayout" />
       <varInfo nodeId="529057043639328294" varName="nodeMap" />
@@ -934,13 +982,13 @@
       <varInfo nodeId="3380715998758086348" varName="copyLayout" />
       <varInfo nodeId="529057043639328279" varName="copy" />
     </scopeInfo>
-    <scopeInfo nodeId="529057043639208604" fileName="OrthogonalPointLayouter.java" startLine="38" startPosition="0" endLine="125" endPosition="0">
+    <scopeInfo nodeId="529057043639208604" fileName="OrthogonalPointLayouter.java" startLine="42" startPosition="0" endLine="146" endPosition="0">
       <varInfo nodeId="529057043639208633" varName="graph" />
     </scopeInfo>
-    <unitInfo nodeId="8734440518942969774" fileName="OrthogonalPointLayouter.java" startLine="210" startPosition="94" endLine="214" endPosition="7" unitName="jetbrains.mps.graphLayout.flowOrthogonalLayout.OrthogonalPointLayouter$1" />
-    <unitInfo nodeId="529057043639209049" fileName="OrthogonalPointLayouter.java" startLine="363" startPosition="86" endLine="367" endPosition="7" unitName="jetbrains.mps.graphLayout.flowOrthogonalLayout.OrthogonalPointLayouter$1" />
-    <unitInfo nodeId="529057043639208733" fileName="OrthogonalPointLayouter.java" startLine="337" startPosition="0" endLine="387" endPosition="0" unitName="jetbrains.mps.graphLayout.flowOrthogonalLayout.OrthogonalPointLayouter$CoordinatePlacerDfs" />
-    <unitInfo nodeId="529057043639208598" fileName="OrthogonalPointLayouter.java" startLine="32" startPosition="0" endLine="388" endPosition="0" unitName="jetbrains.mps.graphLayout.flowOrthogonalLayout.OrthogonalPointLayouter" />
+    <unitInfo nodeId="8734440518942969774" fileName="OrthogonalPointLayouter.java" startLine="246" startPosition="94" endLine="250" endPosition="7" unitName="jetbrains.mps.graphLayout.flowOrthogonalLayout.OrthogonalPointLayouter$1" />
+    <unitInfo nodeId="529057043639209049" fileName="OrthogonalPointLayouter.java" startLine="399" startPosition="86" endLine="403" endPosition="7" unitName="jetbrains.mps.graphLayout.flowOrthogonalLayout.OrthogonalPointLayouter$1" />
+    <unitInfo nodeId="529057043639208733" fileName="OrthogonalPointLayouter.java" startLine="373" startPosition="0" endLine="423" endPosition="0" unitName="jetbrains.mps.graphLayout.flowOrthogonalLayout.OrthogonalPointLayouter$CoordinatePlacerDfs" />
+    <unitInfo nodeId="529057043639208598" fileName="OrthogonalPointLayouter.java" startLine="32" startPosition="0" endLine="424" endPosition="0" unitName="jetbrains.mps.graphLayout.flowOrthogonalLayout.OrthogonalPointLayouter" />
   </root>
 </debugInfo>
 

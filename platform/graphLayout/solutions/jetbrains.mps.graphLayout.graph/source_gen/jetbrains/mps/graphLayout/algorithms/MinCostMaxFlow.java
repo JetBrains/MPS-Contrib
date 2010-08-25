@@ -16,7 +16,10 @@ import jetbrains.mps.baseLanguage.closures.runtime._FunctionTypes;
 import java.util.List;
 
 public class MinCostMaxFlow {
+  private static int SHOW_TIME = 1;
+
   public static Map<Edge, Integer> getFlow(Graph graph, Node source, Node target, Map<Edge, Integer> initialCapacity, Map<Edge, Integer> cost) {
+    double time = System.currentTimeMillis();
     Map<Edge, Integer> flow = MapSequence.fromMap(new HashMap<Edge, Integer>());
     Map<Edge, Edge> opposite = MapSequence.fromMap(new HashMap<Edge, Edge>());
     final Map<Edge, Integer> capacity = MapSequence.fromMap(new HashMap<Edge, Integer>());
@@ -63,6 +66,10 @@ public class MinCostMaxFlow {
     }
     for (Edge edge : SetSequence.fromSet(dummyEdges)) {
       edge.removeFromGraph();
+    }
+    if (SHOW_TIME > 0) {
+      System.out.println("Min cost max flow algorithm on network with " + ListSequence.fromList(graph.getNodes()).count() + " nodes and " + ListSequence.fromList(graph.getEdges()).count() + " edges");
+      System.out.println("working time is " + ((System.currentTimeMillis() - time) / 1000) + " seconds");
     }
     return flow;
   }

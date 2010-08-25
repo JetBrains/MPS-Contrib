@@ -17,7 +17,7 @@
     <classNode dependClassName="jetbrains.mps.internal.collections.runtime.Sequence" />
     <classNode dependClassName="jetbrains.mps.internal.collections.runtime.SetSequence" />
   </dependency>
-  <dependency className="jetbrains.mps.graphLayout.graphLayout.GraphLayoutPoint" file="GraphLayoutPoint.java">
+  <dependency className="jetbrains.mps.graphLayout.graphLayout.GraphPointLayout" file="GraphPointLayout.java">
     <classNode dependClassName="java.awt.Point" />
     <classNode dependClassName="java.util.HashMap" />
     <classNode dependClassName="java.util.List" />
@@ -29,7 +29,7 @@
   </dependency>
   <dependency className="jetbrains.mps.graphLayout.graphLayout.ILayouter" file="ILayouter.java">
     <classNode dependClassName="jetbrains.mps.graphLayout.graph.Graph" />
-    <classNode dependClassName="jetbrains.mps.graphLayout.graphLayout.GraphLayoutPoint" />
+    <classNode dependClassName="jetbrains.mps.graphLayout.graphLayout.GraphPointLayout" />
   </dependency>
   <dependency className="jetbrains.mps.graphLayout.graphLayout.LayoutTransform" file="LayoutTransform.java">
     <classNode dependClassName="java.awt.Point" />

@@ -6,14 +6,15 @@ import jetbrains.mps.graphLayout.graph.Graph;
 import java.util.Map;
 import jetbrains.mps.graphLayout.graph.Node;
 import jetbrains.mps.graphLayout.planarGraph.EmbeddedGraph;
+import jetbrains.mps.graphLayout.algorithms.ConnectivityComponents;
+import jetbrains.mps.internal.collections.runtime.ListSequence;
+import jetbrains.mps.internal.collections.runtime.MapSequence;
 import jetbrains.mps.graphLayout.algorithms.GraphOrientation;
 import java.util.Set;
 import jetbrains.mps.graphLayout.graph.Edge;
 import jetbrains.mps.internal.collections.runtime.SetSequence;
 import jetbrains.mps.graphLayout.algorithms.BiconnectedComponent;
-import jetbrains.mps.internal.collections.runtime.MapSequence;
 import java.util.HashMap;
-import jetbrains.mps.internal.collections.runtime.ListSequence;
 import jetbrains.mps.graphLayout.planarGraph.Face;
 import jetbrains.mps.graphLayout.planarGraph.Dart;
 import java.util.ArrayList;
@@ -30,6 +31,12 @@ public class PQPlanarizationFinder implements IEmbeddingFinder {
   }
 
   public EmbeddedGraph find(Graph graph) {
+    Map<Node, Integer> components = ConnectivityComponents.getComponents(graph);
+    for (Node node : ListSequence.fromList(graph.getNodes())) {
+      if (MapSequence.fromMap(components).get(node) != 0) {
+        throw new RuntimeException("graph isn't connected!!!");
+      }
+    }
     myGraph = graph;
     myNumbering = GraphOrientation.orientST(graph);
     PQPlanarityTest pqPlanarityTest = new PQPlanarityTest();

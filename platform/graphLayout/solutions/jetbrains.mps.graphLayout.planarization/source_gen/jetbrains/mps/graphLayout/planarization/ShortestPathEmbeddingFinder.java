@@ -31,8 +31,8 @@ public class ShortestPathEmbeddingFinder implements IEmbeddingFinder {
       System.out.println(embeddedGraph);
     }
     List<Edge> toAdd = ListSequence.fromList(graph.getEdges()).where(new IWhereFilter<Edge>() {
-      public boolean accept(Edge it) {
-        return embeddedGraph.getAdjacentFaces(it) == null;
+      public boolean accept(Edge edge) {
+        return embeddedGraph.getAdjacentFaces(edge) == null;
       }
     }).toListSequence();
     if (SHOW_LOG > 0) {
@@ -44,6 +44,10 @@ public class ShortestPathEmbeddingFinder implements IEmbeddingFinder {
     }
     for (Edge edge : ListSequence.fromList(toAdd)) {
       restoreEdge(embeddedGraph, edge);
+      if (SHOW_LOG > 0) {
+        System.out.println("restored " + edge);
+        System.out.println(embeddedGraph);
+      }
     }
     return embeddedGraph;
   }
@@ -72,6 +76,10 @@ public class ShortestPathEmbeddingFinder implements IEmbeddingFinder {
     }
     List<Edge> newEdges = ListSequence.fromList(new ArrayList<Edge>());
     ListSequence.fromList(nodePath).addElement(ListSequence.fromList(removedEdge.getAdjacentNodes()).getElement(1));
+    if (SHOW_LOG > 0) {
+      System.out.println("path: ");
+      System.out.println(nodePath);
+    }
     for (int i = 0; i < ListSequence.fromList(nodePath).count() - 1; i++) {
       Node start = ListSequence.fromList(nodePath).getElement(i);
       Node end = ListSequence.fromList(nodePath).getElement(i + 1);

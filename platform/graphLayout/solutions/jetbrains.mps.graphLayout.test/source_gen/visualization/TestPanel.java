@@ -6,7 +6,7 @@ import javax.swing.JPanel;
 import java.awt.Dimension;
 import javax.swing.JTextArea;
 import jetbrains.mps.graphLayout.graphLayout.ILayouter;
-import jetbrains.mps.graphLayout.graphLayout.GraphLayoutPoint;
+import jetbrains.mps.graphLayout.graphLayout.GraphPointLayout;
 import javax.swing.JTextField;
 import javax.swing.JRadioButton;
 import java.awt.GridBagLayout;
@@ -53,7 +53,7 @@ public class TestPanel extends JPanel {
   private JTextArea myTextArea;
   private TestPanel.MyGraphLabel myGraphLabel;
   private ILayouter myLayouter;
-  private GraphLayoutPoint myCurrentLayout;
+  private GraphPointLayout myCurrentLayout;
   private JTextField myNumEdgesField;
   private JTextField myNumNodesField;
   private JRadioButton myAllowMultiEdges;

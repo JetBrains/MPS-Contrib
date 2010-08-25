@@ -11,12 +11,12 @@ import java.util.List;
 import jetbrains.mps.internal.collections.runtime.MapSequence;
 import java.util.HashMap;
 
-public class GraphLayoutPoint {
+public class GraphPointLayout {
   private Graph myGraph;
   private Map<Node, Point> myNodeLayout;
   private Map<Edge, List<Point>> myEdgeLayout;
 
-  public GraphLayoutPoint(Graph graph) {
+  public GraphPointLayout(Graph graph) {
     myGraph = graph;
     myNodeLayout = MapSequence.fromMap(new HashMap<Node, Point>());
     myEdgeLayout = MapSequence.fromMap(new HashMap<Edge, List<Point>>());
