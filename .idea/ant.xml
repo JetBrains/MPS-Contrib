@@ -17,7 +17,8 @@
       <maximumHeapSize value="128" />
       <maximumStackSize value="32" />
       <properties />
-    </buildFile>    <buildFile url="file://$PROJECT_DIR$/AllTests/make_all_modules.xml">
+    </buildFile>
+    <buildFile url="file://$PROJECT_DIR$/AllTests/make_all_modules.xml">
       <additionalClassPath />
       <antReference projectDefault="true" />
       <customJdkName value="" />

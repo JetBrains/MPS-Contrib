@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<model modelUID="r:453eba07-be06-4d79-be27-e839de91fcf2(sax@tests)">
+<model modelUID="r:453eba07-be06-4d79-be27-e839de91fcf2(sax)">
   <persistence version="4" />
   <refactoringHistory />
   <language namespace="f61473f9-130f-42f6-b98d-6c438812c2f6(jetbrains.mps.baseLanguage.unitTest)" />
@@ -22,7 +22,6 @@
   <import index="1" modelUID="f:java_stub#javax.xml.parsers(javax.xml.parsers@java_stub)" version="-1" />
   <import index="2" modelUID="f:java_stub#org.xml.sax(org.xml.sax@java_stub)" version="-1" />
   <import index="3" modelUID="f:java_stub#java.io(java.io@java_stub)" version="-1" />
-  <import index="4" modelUID="r:453eba07-be06-4d79-be27-e839de91fcf2(sax@tests)" version="-1" />
   <import index="5" modelUID="f:java_stub#sax(sax@java_stub)" version="-1" />
   <visible index="2" modelUID="f:java_stub#java.lang(java.lang@java_stub)" />
   <node type="jetbrains.mps.xmlQuery.structure.XMLSAXParser:4" id="2059681291147340382">

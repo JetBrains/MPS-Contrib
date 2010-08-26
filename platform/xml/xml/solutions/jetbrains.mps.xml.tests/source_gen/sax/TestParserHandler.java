@@ -9,9 +9,10 @@ import org.xml.sax.Attributes;
 import org.xml.sax.SAXParseException;
 
 public class TestParserHandler extends DefaultHandler {
-  private static TestParserHandler.rootElementElementHandler rootElementhandler = new TestParserHandler.rootElementElementHandler();
-  private static TestParserHandler.childElementElementHandler childElementhandler = new TestParserHandler.childElementElementHandler();
+  private static String[] EMPTY_ARRAY = new String[0];
 
+  private TestParserHandler.rootElementElementHandler rootElementhandler = new TestParserHandler.rootElementElementHandler();
+  private TestParserHandler.childElementElementHandler childElementhandler = new TestParserHandler.childElementElementHandler();
   private Stack<TestParserHandler.ElementHandler> handlers = new Stack<TestParserHandler.ElementHandler>();
   private Stack<Object> values = new Stack<Object>();
   private AstRoot result;
@@ -64,7 +65,6 @@ public class TestParserHandler extends DefaultHandler {
     } else {
       current = current.createChild(qName);
     }
-    Object result = current.createObject();
 
     // check required 
     for (String attr : current.requiredAttributes()) {
@@ -72,6 +72,8 @@ public class TestParserHandler extends DefaultHandler {
         throw new SAXParseException("attribute " + attr + " is absent", null);
       }
     }
+
+    Object result = current.createObject(attributes);
 
     // handle attributes 
     for (int i = 0; i < attributes.getLength(); i++) {
@@ -83,13 +85,11 @@ public class TestParserHandler extends DefaultHandler {
     values.push(result);
   }
 
-  private static class ElementHandler {
-    private static String[] EMPTY_ARRAY = new String[0];
-
+  private class ElementHandler {
     private ElementHandler() {
     }
 
-    protected Object createObject() {
+    protected Object createObject(Attributes attrs) {
       return null;
     }
 
@@ -112,15 +112,15 @@ public class TestParserHandler extends DefaultHandler {
     }
 
     protected String[] requiredAttributes() {
-      return EMPTY_ARRAY;
+      return TestParserHandler.EMPTY_ARRAY;
     }
 
     protected void validate(Object resultObject) throws SAXParseException {
     }
   }
 
-  public static class rootElementElementHandler extends TestParserHandler.ElementHandler {
-    private static String[] requiredAttributes = new String[]{"name"};
+  public class rootElementElementHandler extends TestParserHandler.ElementHandler {
+    private String[] requiredAttributes = new String[]{"name"};
 
     public rootElementElementHandler() {
     }
@@ -143,7 +143,7 @@ public class TestParserHandler extends DefaultHandler {
     @Override
     protected TestParserHandler.ElementHandler createChild(String tagName) throws SAXParseException {
       if ("child".equals(tagName)) {
-        return TestParserHandler.childElementhandler;
+        return childElementhandler;
       }
       return super.createChild(tagName);
     }
@@ -166,17 +166,19 @@ public class TestParserHandler extends DefaultHandler {
     }
   }
 
-  public static class childElementElementHandler extends TestParserHandler.ElementHandler {
+  public class childElementElementHandler extends TestParserHandler.ElementHandler {
+    private String[] requiredAttributes = new String[]{};
+
     public childElementElementHandler() {
     }
 
     @Override
     protected TestParserHandler.ElementHandler createChild(String tagName) throws SAXParseException {
       if ("mine".equals(tagName)) {
-        return TestParserHandler.childElementhandler;
+        return childElementhandler;
       }
       if ("theirs".equals(tagName)) {
-        return TestParserHandler.childElementhandler;
+        return childElementhandler;
       }
       return super.createChild(tagName);
     }
@@ -185,11 +187,9 @@ public class TestParserHandler extends DefaultHandler {
     protected void handleChild(Object resultObject, String tagName, Object value) throws SAXParseException {
       AstChild result = (AstChild) resultObject;
       if ("mine".equals(tagName)) {
-        AstChild child = (AstChild) value;
         return;
       }
       if ("theirs".equals(tagName)) {
-        AstChild child = (AstChild) value;
         return;
       }
       super.handleChild(resultObject, tagName, value);
