@@ -5,7 +5,6 @@
   <language namespace="f85adbd8-2ec2-4572-bcfc-8dd799a7f025(jetbrains.mps.xmlUnitTest)" />
   <language namespace="f3061a53-9226-4cc5-a443-f952ceaf5816(jetbrains.mps.baseLanguage)" />
   <language namespace="f61473f9-130f-42f6-b98d-6c438812c2f6(jetbrains.mps.baseLanguage.unitTest)" />
-  <language namespace="772f6dcd-8c0d-48f7-869c-908e036f7c8e(jetbrains.mps.sampleXML)" />
   <languageAspect modelUID="r:00000000-0000-4000-0000-011c895902c1(jetbrains.mps.baseLanguage.constraints)" version="83" />
   <languageAspect modelUID="r:00000000-0000-4000-0000-011c895902ca(jetbrains.mps.baseLanguage.structure)" version="3" />
   <languageAspect modelUID="r:00000000-0000-4000-0000-011c895902db(jetbrains.mps.baseLanguage.blTypes.constraints)" version="0" />
@@ -34,11 +33,11 @@
             </node>
             <node role="expected" type="jetbrains.mps.xmlUnitTest.structure.XMLStringLiteral" id="9070985627710932730">
               <node role="xml" type="jetbrains.mps.xmlUnitTest.structure.XMLLiteral" id="9070985627710932731">
-                <node role="element" type="jetbrains.mps.sampleXML.structure.Element" id="9070985627710932732">
+                <node role="element" type="jetbrains.mps.xmlUnitTest.structure.Element" id="6123597934392512203">
                   <property name="name" value="foo" />
-                  <node role="content" type="jetbrains.mps.sampleXML.structure.Element" id="9070985627710932734">
+                  <node role="content" type="jetbrains.mps.xmlUnitTest.structure.Element" id="6123597934392512205">
                     <property name="name" value="bar" />
-                    <node role="attribute" type="jetbrains.mps.sampleXML.structure.Attribute" id="9070985627710932735">
+                    <node role="attribute" type="jetbrains.mps.xmlUnitTest.structure.Attribute" id="6123597934392512206">
                       <property name="name" value="id" />
                       <property name="value" value="123" />
                     </node>
