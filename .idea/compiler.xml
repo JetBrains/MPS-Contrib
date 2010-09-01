@@ -21,6 +21,7 @@
       <entry name="?*.css" />
       <entry name="?*.ico" />
       <entry name="?*.zip" />
+      <entry name="?*.info" />
     </wildcardResourcePatterns>
     <annotationProcessing enabled="false" useClasspath="true" />
   </component>
