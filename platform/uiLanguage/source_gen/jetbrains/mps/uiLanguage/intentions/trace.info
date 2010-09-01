@@ -1,6 +1,8 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <debugInfo>
   <root nodeId="1203674861152">
+    <nodeInfo nodeId="1203674873659" fileName="AddOnChangeHandler_Intention.java" startLine="32" startPosition="85" endLine="33" endPosition="32" />
+    <nodeInfo nodeId="1203675036883" fileName="AddOnChangeHandler_Intention.java" startLine="43" startPosition="90" endLine="44" endPosition="69" />
     <nodeInfo nodeId="1203675329293" fileName="AddOnChangeHandler_Intention.java" startLine="47" startPosition="76" endLine="48" endPosition="113" />
     <nodeInfo nodeId="1203675046224" fileName="AddOnChangeHandler_Intention.java" startLine="48" startPosition="113" endLine="49" endPosition="66" />
     <nodeInfo nodeId="1203675320534" fileName="AddOnChangeHandler_Intention.java" startLine="49" startPosition="66" endLine="50" endPosition="37" />
@@ -11,6 +13,8 @@
     </scopeInfo>
   </root>
   <root nodeId="1204896171511">
+    <nodeInfo nodeId="1204896171514" fileName="AddInitializer_Intention.java" startLine="32" startPosition="85" endLine="33" endPosition="29" />
+    <nodeInfo nodeId="1204896171518" fileName="AddInitializer_Intention.java" startLine="43" startPosition="90" endLine="44" endPosition="69" />
     <nodeInfo nodeId="1204896171526" fileName="AddInitializer_Intention.java" startLine="47" startPosition="76" endLine="48" endPosition="113" />
     <nodeInfo nodeId="1204896171532" fileName="AddInitializer_Intention.java" startLine="48" startPosition="113" endLine="49" endPosition="69" />
     <nodeInfo nodeId="1204896171539" fileName="AddInitializer_Intention.java" startLine="49" startPosition="69" endLine="50" endPosition="37" />

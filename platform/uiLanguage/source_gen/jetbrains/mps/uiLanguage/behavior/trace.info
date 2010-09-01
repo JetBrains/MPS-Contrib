@@ -165,6 +165,7 @@
     <scopeInfo nodeId="1213877414352" fileName="ComponentInstance_Behavior.java" startLine="12" startPosition="82" endLine="13" endPosition="78" />
   </root>
   <root nodeId="1213877438936">
+    <nodeInfo nodeId="1227876802850" fileName="Scroller_Behavior.java" startLine="17" startPosition="39" endLine="18" endPosition="105" />
     <nodeInfo nodeId="1227876802846" fileName="Scroller_Behavior.java" startLine="16" startPosition="142" endLine="20" endPosition="0" />
     <nodeInfo nodeId="1213877438940" fileName="Scroller_Behavior.java" startLine="15" startPosition="78" endLine="20" endPosition="73" />
     <scopeInfo nodeId="1213877438958" fileName="Scroller_Behavior.java" startLine="12" startPosition="43" endLine="12" endPosition="43" />
@@ -187,6 +188,7 @@
     <nodeInfo nodeId="1216902155155" fileName="ComponentDeclaration_Behavior.java" startLine="31" startPosition="91" endLine="32" endPosition="18" />
     <nodeInfo nodeId="1216902155157" fileName="ComponentDeclaration_Behavior.java" startLine="33" startPosition="5" endLine="34" endPosition="139" />
     <nodeInfo nodeId="1213877495367" fileName="ComponentDeclaration_Behavior.java" startLine="37" startPosition="72" endLine="38" endPosition="37" />
+    <nodeInfo nodeId="1227876799311" fileName="ComponentDeclaration_Behavior.java" startLine="40" startPosition="39" endLine="41" endPosition="78" />
     <nodeInfo nodeId="1213877495393" fileName="ComponentDeclaration_Behavior.java" startLine="46" startPosition="86" endLine="47" endPosition="48" />
     <nodeInfo nodeId="1213877495401" fileName="ComponentDeclaration_Behavior.java" startLine="48" startPosition="91" endLine="49" endPosition="192" />
     <nodeInfo nodeId="1213877495415" fileName="ComponentDeclaration_Behavior.java" startLine="50" startPosition="5" endLine="51" endPosition="18" />
@@ -275,6 +277,7 @@
     <unitInfo nodeId="1227876799307" fileName="ComponentDeclaration_Behavior.java" startLine="39" startPosition="164" endLine="43" endPosition="5" unitName="jetbrains.mps.uiLanguage.behavior.ComponentDeclaration_Behavior$1" />
   </root>
   <root nodeId="1213877498059">
+    <nodeInfo nodeId="1227876805215" fileName="IComponentInstance_Behavior.java" startLine="20" startPosition="39" endLine="21" endPosition="103" />
     <nodeInfo nodeId="1213877498083" fileName="IComponentInstance_Behavior.java" startLine="26" startPosition="82" endLine="27" endPosition="16" />
     <nodeInfo nodeId="1227876805211" fileName="IComponentInstance_Behavior.java" startLine="19" startPosition="142" endLine="23" endPosition="0" />
     <nodeInfo nodeId="1213877498063" fileName="IComponentInstance_Behavior.java" startLine="18" startPosition="78" endLine="23" endPosition="71" />
