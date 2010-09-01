@@ -18,8 +18,6 @@ import java.util.HashMap;
 import jetbrains.mps.graphLayout.planarGraph.Face;
 import jetbrains.mps.graphLayout.planarGraph.Dart;
 import java.util.ArrayList;
-import java.util.List;
-import jetbrains.mps.internal.collections.runtime.ISelector;
 
 public class PQPlanarizationFinder implements IEmbeddingFinder {
   private static int SHOW_LOG = 0;
@@ -124,14 +122,10 @@ public class PQPlanarizationFinder implements IEmbeddingFinder {
       if (bridge != null) {
         // outerChildFace can be fake 
         if (ListSequence.fromList(outerChildFace.getDarts()).count() > 0) {
-          makeEndsWith(outerChildFace.getDarts(), bridge.getOpposite(cutpoint));
+          outerChildFace.makeEndsWith(bridge.getOpposite(cutpoint));
         }
         childEmbedding.addLastDart(outerChildFace, new Dart(bridge, bridge.getOpposite(cutpoint)));
         childEmbedding.addLastDart(outerChildFace, new Dart(bridge, cutpoint));
-        /*
-          outerChildFace.addLast(new Dart(bridge, bridge.getOpposite(cutpoint)));
-          outerChildFace.addLast(new Dart(bridge, cutpoint));
-        */
       }
       if (!(manyNodeComponent)) {
         graphEmbedding = childEmbedding;
@@ -142,10 +136,10 @@ public class PQPlanarizationFinder implements IEmbeddingFinder {
         graphEmbedding.removeFace(face);
         childEmbedding.removeFace(outerChildFace);
         Face newFace = new Face(myGraph);
-        for (Dart dart : ListSequence.fromList(makeEndsWith(face.getDarts(), cutpoint))) {
+        for (Dart dart : ListSequence.fromList(face.makeEndsWith(cutpoint))) {
           newFace.addLast(dart);
         }
-        for (Dart dart : ListSequence.fromList(makeEndsWith(outerChildFace.getDarts(), cutpoint))) {
+        for (Dart dart : ListSequence.fromList(outerChildFace.makeEndsWith(cutpoint))) {
           newFace.addLast(dart);
         }
         graphEmbedding.addFace(newFace);
@@ -158,19 +152,5 @@ public class PQPlanarizationFinder implements IEmbeddingFinder {
       }
     }
     return graphEmbedding;
-  }
-
-  private List<Dart> makeEndsWith(List<Dart> darts, Node end) {
-    if (!(ListSequence.fromList(darts).select(new ISelector<Dart, Node>() {
-      public Node select(Dart it) {
-        return it.getTarget();
-      }
-    }).contains(end))) {
-      throw new RuntimeException("list " + darts + " doesn't contain node" + end);
-    }
-    while (ListSequence.fromList(darts).last().getTarget() != end) {
-      ListSequence.fromList(darts).insertElement(0, ListSequence.fromList(darts).removeLastElement());
-    }
-    return darts;
   }
 }

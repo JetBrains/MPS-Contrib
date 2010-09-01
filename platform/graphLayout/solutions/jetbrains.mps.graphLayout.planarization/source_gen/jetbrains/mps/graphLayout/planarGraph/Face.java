@@ -11,6 +11,7 @@ import java.util.Set;
 import jetbrains.mps.internal.collections.runtime.SetSequence;
 import java.util.HashSet;
 import jetbrains.mps.internal.collections.runtime.ISelector;
+import jetbrains.mps.internal.collections.runtime.IWhereFilter;
 
 public class Face {
   private Graph myGraph;
@@ -41,6 +42,25 @@ public class Face {
       }
     }));
     return SetSequence.fromSet(faceNodes).containsSequence(ListSequence.fromList(nodes));
+  }
+
+  public List<Dart> makeEndsWith(final Node end) {
+    Dart dart = ListSequence.fromList(myDarts).findFirst(new IWhereFilter<Dart>() {
+      public boolean accept(Dart it) {
+        return it.getTarget() == end;
+      }
+    });
+    if (dart == null) {
+      throw new RuntimeException("list " + myDarts + " doesn't contain node" + end);
+    }
+    return makeEndsWith(dart);
+  }
+
+  public List<Dart> makeEndsWith(Dart dart) {
+    while (ListSequence.fromList(myDarts).last() != dart) {
+      ListSequence.fromList(myDarts).insertElement(0, ListSequence.fromList(myDarts).removeLastElement());
+    }
+    return myDarts;
   }
 
   @Override

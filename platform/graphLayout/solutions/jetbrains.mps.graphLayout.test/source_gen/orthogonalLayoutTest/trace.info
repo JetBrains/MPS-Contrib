@@ -375,6 +375,96 @@
     </scopeInfo>
     <unitInfo nodeId="7371029937982882760" fileName="StressTest.java" startLine="18" startPosition="0" endLine="47" endPosition="0" unitName="orthogonalLayoutTest.StressTest" />
   </root>
+  <root nodeId="7428187320254612431">
+    <nodeInfo nodeId="7428187320254617040" fileName="EmbeddedGraphModifier_Test.java" startLine="31" startPosition="45" endLine="32" endPosition="51" />
+    <nodeInfo nodeId="7428187320254617048" fileName="EmbeddedGraphModifier_Test.java" startLine="32" startPosition="51" endLine="33" endPosition="62" />
+    <nodeInfo nodeId="7428187320254619050" fileName="EmbeddedGraphModifier_Test.java" startLine="33" startPosition="62" endLine="34" endPosition="16" />
+    <nodeInfo nodeId="4655725461921807324" fileName="EmbeddedGraphModifier_Test.java" startLine="37" startPosition="45" endLine="38" endPosition="82" />
+    <nodeInfo nodeId="4655725461921807331" fileName="EmbeddedGraphModifier_Test.java" startLine="38" startPosition="82" endLine="39" endPosition="62" />
+    <nodeInfo nodeId="4655725461921807578" fileName="EmbeddedGraphModifier_Test.java" startLine="40" startPosition="6" endLine="41" endPosition="67" />
+    <nodeInfo nodeId="4655725461921807558" fileName="EmbeddedGraphModifier_Test.java" startLine="41" startPosition="67" endLine="42" endPosition="91" />
+    <nodeInfo nodeId="4655725461921807541" fileName="EmbeddedGraphModifier_Test.java" startLine="42" startPosition="91" endLine="43" endPosition="63" />
+    <nodeInfo nodeId="4655725461921807551" fileName="EmbeddedGraphModifier_Test.java" startLine="43" startPosition="63" endLine="44" endPosition="85" />
+    <nodeInfo nodeId="5750894051601355531" fileName="EmbeddedGraphModifier_Test.java" startLine="44" startPosition="85" endLine="45" endPosition="64" />
+    <nodeInfo nodeId="5750894051601355539" fileName="EmbeddedGraphModifier_Test.java" startLine="45" startPosition="64" endLine="46" endPosition="52" />
+    <nodeInfo nodeId="5750894051601347644" fileName="EmbeddedGraphModifier_Test.java" startLine="46" startPosition="52" endLine="47" endPosition="59" />
+    <nodeInfo nodeId="5750894051601367558" fileName="EmbeddedGraphModifier_Test.java" startLine="48" startPosition="6" endLine="49" endPosition="16" />
+    <nodeInfo nodeId="4655725461921804585" fileName="EmbeddedGraphModifier_Test.java" startLine="52" startPosition="84" endLine="53" endPosition="68" />
+    <nodeInfo nodeId="4655725461921804592" fileName="EmbeddedGraphModifier_Test.java" startLine="53" startPosition="68" endLine="54" endPosition="86" />
+    <nodeInfo nodeId="4655725461921804614" fileName="EmbeddedGraphModifier_Test.java" startLine="55" startPosition="52" endLine="56" endPosition="91" />
+    <nodeInfo nodeId="4655725461921804622" fileName="EmbeddedGraphModifier_Test.java" startLine="57" startPosition="5" endLine="58" endPosition="107" />
+    <nodeInfo nodeId="4655725461921804632" fileName="EmbeddedGraphModifier_Test.java" startLine="58" startPosition="107" endLine="59" endPosition="78" />
+    <nodeInfo nodeId="4655725461921831491" fileName="EmbeddedGraphModifier_Test.java" startLine="59" startPosition="78" endLine="60" endPosition="106" />
+    <nodeInfo nodeId="5750894051601368170" fileName="EmbeddedGraphModifier_Test.java" startLine="61" startPosition="6" endLine="62" endPosition="40" />
+    <nodeInfo nodeId="4655725461921804647" fileName="EmbeddedGraphModifier_Test.java" startLine="63" startPosition="6" endLine="64" endPosition="81" />
+    <nodeInfo nodeId="4655725461921804656" fileName="EmbeddedGraphModifier_Test.java" startLine="64" startPosition="81" endLine="65" endPosition="82" />
+    <nodeInfo nodeId="4655725461921804665" fileName="EmbeddedGraphModifier_Test.java" startLine="65" startPosition="82" endLine="66" endPosition="84" />
+    <nodeInfo nodeId="4655725461921804670" fileName="EmbeddedGraphModifier_Test.java" startLine="66" startPosition="84" endLine="67" endPosition="79" />
+    <nodeInfo nodeId="4655725461921804675" fileName="EmbeddedGraphModifier_Test.java" startLine="67" startPosition="79" endLine="68" endPosition="102" />
+    <nodeInfo nodeId="4655725461921804683" fileName="EmbeddedGraphModifier_Test.java" startLine="68" startPosition="102" endLine="69" endPosition="43" />
+    <nodeInfo nodeId="4655725461921804689" fileName="EmbeddedGraphModifier_Test.java" startLine="69" startPosition="43" endLine="70" endPosition="20" />
+    <nodeInfo nodeId="4655725461921804704" fileName="EmbeddedGraphModifier_Test.java" startLine="73" startPosition="33" endLine="74" endPosition="118" />
+    <nodeInfo nodeId="4655725461921804732" fileName="EmbeddedGraphModifier_Test.java" startLine="74" startPosition="118" endLine="75" endPosition="61" />
+    <nodeInfo nodeId="4655725461921700549" fileName="EmbeddedGraphModifier_Test.java" startLine="75" startPosition="61" endLine="76" endPosition="45" />
+    <nodeInfo nodeId="4655725461921804741" fileName="EmbeddedGraphModifier_Test.java" startLine="76" startPosition="45" endLine="77" endPosition="62" />
+    <nodeInfo nodeId="4655725461921803952" fileName="EmbeddedGraphModifier_Test.java" startLine="78" startPosition="6" endLine="79" endPosition="40" />
+    <nodeInfo nodeId="7428187320254617023" fileName="EmbeddedGraphModifier_Test.java" startLine="80" startPosition="6" endLine="81" endPosition="57" />
+    <nodeInfo nodeId="5750894051601401259" fileName="EmbeddedGraphModifier_Test.java" startLine="81" startPosition="57" endLine="82" endPosition="73" />
+    <nodeInfo nodeId="5750894051601401281" fileName="EmbeddedGraphModifier_Test.java" startLine="83" startPosition="63" endLine="84" endPosition="54" />
+    <nodeInfo nodeId="5750894051601401290" fileName="EmbeddedGraphModifier_Test.java" startLine="84" startPosition="54" endLine="85" endPosition="67" />
+    <nodeInfo nodeId="5750894051601401329" fileName="EmbeddedGraphModifier_Test.java" startLine="86" startPosition="54" endLine="87" endPosition="81" />
+    <nodeInfo nodeId="5750894051601401340" fileName="EmbeddedGraphModifier_Test.java" startLine="89" startPosition="5" endLine="90" endPosition="152" />
+    <nodeInfo nodeId="4655725461921804610" fileName="EmbeddedGraphModifier_Test.java" startLine="54" startPosition="86" endLine="57" endPosition="5" />
+    <nodeInfo nodeId="4915750462377024148" fileName="EmbeddedGraphModifier_Test.java" startLine="60" startPosition="106" endLine="63" endPosition="6" />
+    <nodeInfo nodeId="4915750462377024149" fileName="EmbeddedGraphModifier_Test.java" startLine="77" startPosition="62" endLine="80" endPosition="6" />
+    <nodeInfo nodeId="5750894051601401324" fileName="EmbeddedGraphModifier_Test.java" startLine="85" startPosition="67" endLine="88" endPosition="7" />
+    <nodeInfo nodeId="7428187320254617036" fileName="EmbeddedGraphModifier_Test.java" startLine="30" startPosition="58" endLine="36" endPosition="0" />
+    <nodeInfo nodeId="5750894051601401246" fileName="EmbeddedGraphModifier_Test.java" startLine="82" startPosition="73" endLine="89" endPosition="5" />
+    <nodeInfo nodeId="5750894051601404624" fileName="EmbeddedGraphModifier_Test.java" startLine="39" startPosition="62" endLine="48" endPosition="6" />
+    <nodeInfo nodeId="4655725461921807320" fileName="EmbeddedGraphModifier_Test.java" startLine="36" startPosition="0" endLine="51" endPosition="0" />
+    <nodeInfo nodeId="7428187320254612438" fileName="EmbeddedGraphModifier_Test.java" startLine="72" startPosition="0" endLine="92" endPosition="0" />
+    <nodeInfo nodeId="4655725461921804570" fileName="EmbeddedGraphModifier_Test.java" startLine="51" startPosition="0" endLine="72" endPosition="0" />
+    <scopeInfo nodeId="4655725461921804613" fileName="EmbeddedGraphModifier_Test.java" startLine="55" startPosition="52" endLine="56" endPosition="91" />
+    <scopeInfo nodeId="5750894051601401327" fileName="EmbeddedGraphModifier_Test.java" startLine="86" startPosition="54" endLine="87" endPosition="81" />
+    <scopeInfo nodeId="7428187320254617039" fileName="EmbeddedGraphModifier_Test.java" startLine="31" startPosition="45" endLine="34" endPosition="16">
+      <varInfo nodeId="7428187320254617041" varName="graphString" />
+      <varInfo nodeId="7428187320254617049" varName="graph" />
+    </scopeInfo>
+    <scopeInfo nodeId="4655725461921804610" fileName="EmbeddedGraphModifier_Test.java" startLine="54" startPosition="86" endLine="57" endPosition="5" />
+    <scopeInfo nodeId="5750894051601401324" fileName="EmbeddedGraphModifier_Test.java" startLine="85" startPosition="67" endLine="88" endPosition="7" />
+    <scopeInfo nodeId="5750894051601401249" fileName="EmbeddedGraphModifier_Test.java" startLine="83" startPosition="63" endLine="88" endPosition="7">
+      <varInfo nodeId="5750894051601401282" varName="darts" />
+    </scopeInfo>
+    <scopeInfo nodeId="7428187320254617036" fileName="EmbeddedGraphModifier_Test.java" startLine="30" startPosition="58" endLine="36" endPosition="0" />
+    <scopeInfo nodeId="5750894051601401246" fileName="EmbeddedGraphModifier_Test.java" startLine="82" startPosition="73" endLine="89" endPosition="5" />
+    <scopeInfo nodeId="4655725461921807323" fileName="EmbeddedGraphModifier_Test.java" startLine="37" startPosition="45" endLine="49" endPosition="16">
+      <varInfo nodeId="4655725461921807325" varName="graphString" />
+      <varInfo nodeId="4655725461921807332" varName="graph" />
+    </scopeInfo>
+    <scopeInfo nodeId="4655725461921807320" fileName="EmbeddedGraphModifier_Test.java" startLine="36" startPosition="0" endLine="51" endPosition="0" />
+    <scopeInfo nodeId="7428187320254612441" fileName="EmbeddedGraphModifier_Test.java" startLine="73" startPosition="33" endLine="90" endPosition="152">
+      <varInfo nodeId="5750894051601401260" varName="dartDirections" />
+      <varInfo nodeId="4655725461921804733" varName="modifier" />
+      <varInfo nodeId="4655725461921804705" varName="nodeMap" />
+      <varInfo nodeId="4655725461921804742" varName="embeddedGraph" />
+    </scopeInfo>
+    <scopeInfo nodeId="4655725461921804573" fileName="EmbeddedGraphModifier_Test.java" startLine="52" startPosition="84" endLine="70" endPosition="20">
+      <varInfo nodeId="4655725461921804676" varName="directions" />
+      <varInfo nodeId="4655725461921804657" varName="angles" />
+      <varInfo nodeId="4655725461921804633" varName="modifier" />
+      <varInfo nodeId="4655725461921831492" varName="edges" />
+      <varInfo nodeId="4655725461921804586" varName="nodes" />
+      <varInfo nodeId="4655725461921804648" varName="bends" />
+      <varInfo nodeId="4655725461921804623" varName="embeddedGraph" />
+    </scopeInfo>
+    <scopeInfo nodeId="7428187320254612438" fileName="EmbeddedGraphModifier_Test.java" startLine="72" startPosition="0" endLine="92" endPosition="0">
+      <varInfo nodeId="7428187320254616830" varName="graph" />
+    </scopeInfo>
+    <scopeInfo nodeId="4655725461921804570" fileName="EmbeddedGraphModifier_Test.java" startLine="51" startPosition="0" endLine="72" endPosition="0">
+      <varInfo nodeId="4655725461921804574" varName="graph" />
+      <varInfo nodeId="4655725461921804692" varName="nodeMap" />
+    </scopeInfo>
+  </root>
   <root nodeId="8734440518942960375">
     <nodeInfo nodeId="8734440518942962343" fileName="OrthogonalFlowLayouter_Test.java" startLine="13" startPosition="45" endLine="14" endPosition="82" />
     <nodeInfo nodeId="8734440518942962352" fileName="OrthogonalFlowLayouter_Test.java" startLine="14" startPosition="82" endLine="15" endPosition="62" />

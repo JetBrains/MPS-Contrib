@@ -12,9 +12,9 @@ import jetbrains.mps.internal.collections.runtime.MapSequence;
 import java.util.HashMap;
 import java.util.LinkedHashMap;
 import jetbrains.mps.graphLayout.graph.Node;
+import jetbrains.mps.internal.collections.runtime.IWhereFilter;
 import jetbrains.mps.internal.collections.runtime.ISelector;
 import java.util.Set;
-import jetbrains.mps.internal.collections.runtime.IWhereFilter;
 
 public class EmbeddedGraph {
   private List<Face> myFaces;
@@ -66,6 +66,14 @@ public class EmbeddedGraph {
       }
     }
     return null;
+  }
+
+  public Dart getSourceDart(Edge edge, final Node source) {
+    return ListSequence.fromList(getDarts(edge)).findFirst(new IWhereFilter<Dart>() {
+      public boolean accept(Dart dart) {
+        return dart.getSource() == source;
+      }
+    });
   }
 
   public Node splitEdge(Edge edge) {
@@ -198,7 +206,11 @@ public class EmbeddedGraph {
     unadjustDart(oldDart);
     ListSequence.fromList(face.getDarts()).setElement(pos, dart);
     adjustDart(dart, face);
+  }
 
+  public void removeDart(Face face, Dart dart) {
+    unadjustDart(dart);
+    ListSequence.fromList(face.getDarts()).removeElement(dart);
   }
 
   public void insertDart(Face face, int pos, Dart dart) {
@@ -249,6 +261,18 @@ public class EmbeddedGraph {
 
   public Face getFace(Dart dart) {
     return MapSequence.fromMap(myDartsToFacesMap).get(dart);
+  }
+
+  public List<Dart> getDartWithSource(final Node node) {
+    List<Dart> darts = ListSequence.fromList(new ArrayList<Dart>());
+    for (Edge edge : ListSequence.fromList(node.getEdges())) {
+      ListSequence.fromList(darts).addElement(ListSequence.fromList(getDarts(edge)).findFirst(new IWhereFilter<Dart>() {
+        public boolean accept(Dart dart) {
+          return dart.getSource() == node;
+        }
+      }));
+    }
+    return darts;
   }
 
   public Graph getGraph() {

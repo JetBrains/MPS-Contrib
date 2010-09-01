@@ -1493,199 +1493,179 @@
     <unitInfo nodeId="344116171239987587" fileName="QNode.java" startLine="11" startPosition="0" endLine="356" endPosition="0" unitName="jetbrains.mps.graphLayout.planarization.QNode" />
   </root>
   <root nodeId="4644851485137260284">
-    <nodeInfo nodeId="6191740939834475446" fileName="PQPlanarizationFinder.java" startLine="24" startPosition="64" endLine="25" endPosition="34" />
-    <nodeInfo nodeId="4644851485137274531" fileName="PQPlanarizationFinder.java" startLine="26" startPosition="0" endLine="27" endPosition="24" />
-    <nodeInfo nodeId="4644851485137274535" fileName="PQPlanarizationFinder.java" startLine="27" startPosition="24" endLine="28" endPosition="41" />
-    <nodeInfo nodeId="5488345258545679107" fileName="PQPlanarizationFinder.java" startLine="33" startPosition="42" endLine="34" endPosition="80" />
-    <nodeInfo nodeId="5488345258545679137" fileName="PQPlanarizationFinder.java" startLine="36" startPosition="59" endLine="37" endPosition="63" />
-    <nodeInfo nodeId="4644851485137274549" fileName="PQPlanarizationFinder.java" startLine="39" startPosition="5" endLine="40" endPosition="20" />
-    <nodeInfo nodeId="4644851485137274543" fileName="PQPlanarizationFinder.java" startLine="40" startPosition="20" endLine="41" endPosition="51" />
-    <nodeInfo nodeId="4644851485137260374" fileName="PQPlanarizationFinder.java" startLine="41" startPosition="51" endLine="42" endPosition="60" />
-    <nodeInfo nodeId="4644851485137260321" fileName="PQPlanarizationFinder.java" startLine="42" startPosition="60" endLine="43" endPosition="83" />
-    <nodeInfo nodeId="6191740939834478472" fileName="PQPlanarizationFinder.java" startLine="44" startPosition="23" endLine="45" endPosition="43" />
-    <nodeInfo nodeId="6191740939834475438" fileName="PQPlanarizationFinder.java" startLine="45" startPosition="43" endLine="46" endPosition="34" />
-    <nodeInfo nodeId="4644851485137260372" fileName="PQPlanarizationFinder.java" startLine="48" startPosition="52" endLine="49" endPosition="62" />
-    <nodeInfo nodeId="4644851485137262086" fileName="PQPlanarizationFinder.java" startLine="51" startPosition="54" endLine="52" endPosition="31" />
-    <nodeInfo nodeId="4644851485137262070" fileName="PQPlanarizationFinder.java" startLine="53" startPosition="7" endLine="54" endPosition="73" />
-    <nodeInfo nodeId="6191740939834475466" fileName="PQPlanarizationFinder.java" startLine="55" startPosition="25" endLine="56" endPosition="46" />
-    <nodeInfo nodeId="4644851485137262112" fileName="PQPlanarizationFinder.java" startLine="57" startPosition="7" endLine="58" endPosition="58" />
-    <nodeInfo nodeId="4644851485137262125" fileName="PQPlanarizationFinder.java" startLine="59" startPosition="54" endLine="60" endPosition="26" />
-    <nodeInfo nodeId="4644851485137262133" fileName="PQPlanarizationFinder.java" startLine="61" startPosition="7" endLine="62" endPosition="27" />
-    <nodeInfo nodeId="4644851485137262150" fileName="PQPlanarizationFinder.java" startLine="66" startPosition="73" endLine="67" endPosition="39" />
-    <nodeInfo nodeId="4644851485137262206" fileName="PQPlanarizationFinder.java" startLine="67" startPosition="39" endLine="68" endPosition="43" />
-    <nodeInfo nodeId="4644851485137283325" fileName="PQPlanarizationFinder.java" startLine="68" startPosition="43" endLine="69" endPosition="62" />
-    <nodeInfo nodeId="4644851485137283386" fileName="PQPlanarizationFinder.java" startLine="69" startPosition="62" endLine="70" endPosition="71" />
-    <nodeInfo nodeId="4644851485137283329" fileName="PQPlanarizationFinder.java" startLine="71" startPosition="28" endLine="72" endPosition="79" />
-    <nodeInfo nodeId="4644851485137283338" fileName="PQPlanarizationFinder.java" startLine="72" startPosition="79" endLine="73" endPosition="87" />
-    <nodeInfo nodeId="4644851485137283347" fileName="PQPlanarizationFinder.java" startLine="73" startPosition="87" endLine="74" endPosition="87" />
-    <nodeInfo nodeId="4644851485137277541" fileName="PQPlanarizationFinder.java" startLine="75" startPosition="52" endLine="76" endPosition="54" />
-    <nodeInfo nodeId="4644851485137262180" fileName="PQPlanarizationFinder.java" startLine="76" startPosition="54" endLine="77" endPosition="62" />
-    <nodeInfo nodeId="4644851485137277549" fileName="PQPlanarizationFinder.java" startLine="77" startPosition="62" endLine="78" endPosition="70" />
-    <nodeInfo nodeId="4644851485137262257" fileName="PQPlanarizationFinder.java" startLine="81" startPosition="86" endLine="82" endPosition="41" />
-    <nodeInfo nodeId="4644851485137274577" fileName="PQPlanarizationFinder.java" startLine="83" startPosition="60" endLine="84" endPosition="118" />
-    <nodeInfo nodeId="4644851485137274589" fileName="PQPlanarizationFinder.java" startLine="84" startPosition="118" endLine="85" endPosition="68" />
-    <nodeInfo nodeId="3021256511735320718" fileName="PQPlanarizationFinder.java" startLine="89" startPosition="25" endLine="90" endPosition="143" />
-    <nodeInfo nodeId="3021256511735322745" fileName="PQPlanarizationFinder.java" startLine="90" startPosition="143" endLine="91" endPosition="46" />
-    <nodeInfo nodeId="4644851485137274602" fileName="PQPlanarizationFinder.java" startLine="92" startPosition="7" endLine="93" endPosition="135" />
-    <nodeInfo nodeId="4644851485137277489" fileName="PQPlanarizationFinder.java" startLine="94" startPosition="87" endLine="95" endPosition="43" />
-    <nodeInfo nodeId="4644851485137277507" fileName="PQPlanarizationFinder.java" startLine="96" startPosition="75" endLine="97" endPosition="156" />
-    <nodeInfo nodeId="4644851485137277572" fileName="PQPlanarizationFinder.java" startLine="98" startPosition="9" endLine="99" endPosition="42" />
-    <nodeInfo nodeId="4644851485137277604" fileName="PQPlanarizationFinder.java" startLine="100" startPosition="60" endLine="101" endPosition="49" />
-    <nodeInfo nodeId="3495542515822992500" fileName="PQPlanarizationFinder.java" startLine="104" startPosition="12" endLine="105" endPosition="40" />
-    <nodeInfo nodeId="3495542515822992490" fileName="PQPlanarizationFinder.java" startLine="105" startPosition="40" endLine="106" endPosition="39" />
-    <nodeInfo nodeId="3495542515822992510" fileName="PQPlanarizationFinder.java" startLine="106" startPosition="39" endLine="107" endPosition="44" />
-    <nodeInfo nodeId="4644851485137283416" fileName="PQPlanarizationFinder.java" startLine="109" startPosition="87" endLine="110" endPosition="60" />
-    <nodeInfo nodeId="4644851485137283421" fileName="PQPlanarizationFinder.java" startLine="110" startPosition="60" endLine="111" endPosition="57" />
-    <nodeInfo nodeId="529057043639384932" fileName="PQPlanarizationFinder.java" startLine="111" startPosition="57" endLine="112" endPosition="25" />
-    <nodeInfo nodeId="529057043639384948" fileName="PQPlanarizationFinder.java" startLine="113" startPosition="39" endLine="114" endPosition="37" />
-    <nodeInfo nodeId="529057043639384906" fileName="PQPlanarizationFinder.java" startLine="115" startPosition="7" endLine="116" endPosition="51" />
-    <nodeInfo nodeId="529057043639384920" fileName="PQPlanarizationFinder.java" startLine="116" startPosition="51" endLine="117" endPosition="61" />
-    <nodeInfo nodeId="3495542515823082515" fileName="PQPlanarizationFinder.java" startLine="117" startPosition="61" endLine="118" endPosition="26" />
-    <nodeInfo nodeId="3495542515823086566" fileName="PQPlanarizationFinder.java" startLine="119" startPosition="73" endLine="120" endPosition="128" />
-    <nodeInfo nodeId="3495542515823086581" fileName="PQPlanarizationFinder.java" startLine="121" startPosition="14" endLine="122" endPosition="55" />
-    <nodeInfo nodeId="3495542515822992634" fileName="PQPlanarizationFinder.java" startLine="124" startPosition="27" endLine="125" endPosition="38" />
-    <nodeInfo nodeId="3495542515822992587" fileName="PQPlanarizationFinder.java" startLine="126" startPosition="75" endLine="127" endPosition="80" />
-    <nodeInfo nodeId="4422427343208822211" fileName="PQPlanarizationFinder.java" startLine="128" startPosition="9" endLine="129" endPosition="99" />
-    <nodeInfo nodeId="4422427343208822228" fileName="PQPlanarizationFinder.java" startLine="129" startPosition="99" endLine="130" endPosition="79" />
-    <nodeInfo nodeId="3495542515822992596" fileName="PQPlanarizationFinder.java" startLine="131" startPosition="10" endLine="132" endPosition="81" />
-    <nodeInfo nodeId="3495542515822992607" fileName="PQPlanarizationFinder.java" startLine="132" startPosition="81" endLine="133" endPosition="61" />
-    <nodeInfo nodeId="3495542515822992695" fileName="PQPlanarizationFinder.java" startLine="136" startPosition="33" endLine="137" endPosition="40" />
-    <nodeInfo nodeId="3495542515822992699" fileName="PQPlanarizationFinder.java" startLine="137" startPosition="40" endLine="138" endPosition="33" />
-    <nodeInfo nodeId="3495542515822992707" fileName="PQPlanarizationFinder.java" startLine="139" startPosition="14" endLine="140" endPosition="118" />
-    <nodeInfo nodeId="3495542515822992717" fileName="PQPlanarizationFinder.java" startLine="140" startPosition="118" endLine="141" endPosition="59" />
-    <nodeInfo nodeId="3495542515822992724" fileName="PQPlanarizationFinder.java" startLine="141" startPosition="59" endLine="142" endPosition="40" />
-    <nodeInfo nodeId="3495542515822992729" fileName="PQPlanarizationFinder.java" startLine="142" startPosition="40" endLine="143" endPosition="50" />
-    <nodeInfo nodeId="3495542515822992734" fileName="PQPlanarizationFinder.java" startLine="143" startPosition="50" endLine="144" endPosition="41" />
-    <nodeInfo nodeId="3495542515822992748" fileName="PQPlanarizationFinder.java" startLine="145" startPosition="90" endLine="146" endPosition="32" />
-    <nodeInfo nodeId="3495542515822992785" fileName="PQPlanarizationFinder.java" startLine="148" startPosition="100" endLine="149" endPosition="32" />
-    <nodeInfo nodeId="3495542515822992803" fileName="PQPlanarizationFinder.java" startLine="150" startPosition="9" endLine="151" endPosition="40" />
-    <nodeInfo nodeId="3495542515822992810" fileName="PQPlanarizationFinder.java" startLine="152" startPosition="22" endLine="153" endPosition="47" />
-    <nodeInfo nodeId="3495542515822992822" fileName="PQPlanarizationFinder.java" startLine="155" startPosition="81" endLine="156" endPosition="44" />
-    <nodeInfo nodeId="4644851485137262136" fileName="PQPlanarizationFinder.java" startLine="159" startPosition="5" endLine="160" endPosition="26" />
-    <nodeInfo nodeId="3495542515823090632" fileName="PQPlanarizationFinder.java" startLine="165" startPosition="35" endLine="166" endPosition="30" />
-    <nodeInfo nodeId="3495542515823090641" fileName="PQPlanarizationFinder.java" startLine="168" startPosition="24" endLine="169" endPosition="82" />
-    <nodeInfo nodeId="4644851485137283743" fileName="PQPlanarizationFinder.java" startLine="171" startPosition="68" endLine="172" endPosition="102" />
-    <nodeInfo nodeId="4644851485137283758" fileName="PQPlanarizationFinder.java" startLine="173" startPosition="5" endLine="174" endPosition="17" />
-    <nodeInfo nodeId="4644851485137260286" fileName="PQPlanarizationFinder.java" startLine="29" startPosition="0" endLine="31" endPosition="3" />
-    <nodeInfo nodeId="3495542515823086572" fileName="PQPlanarizationFinder.java" startLine="121" startPosition="12" endLine="123" endPosition="7" />
-    <nodeInfo nodeId="5488345258545679125" fileName="PQPlanarizationFinder.java" startLine="35" startPosition="63" endLine="38" endPosition="7" />
-    <nodeInfo nodeId="4644851485137262078" fileName="PQPlanarizationFinder.java" startLine="50" startPosition="12" endLine="53" endPosition="7" />
-    <nodeInfo nodeId="6191740939834475461" fileName="PQPlanarizationFinder.java" startLine="54" startPosition="73" endLine="57" endPosition="7" />
-    <nodeInfo nodeId="4644851485137262120" fileName="PQPlanarizationFinder.java" startLine="58" startPosition="58" endLine="61" endPosition="7" />
-    <nodeInfo nodeId="4644851485137277497" fileName="PQPlanarizationFinder.java" startLine="95" startPosition="43" endLine="98" endPosition="9" />
-    <nodeInfo nodeId="4644851485137277593" fileName="PQPlanarizationFinder.java" startLine="99" startPosition="42" endLine="102" endPosition="9" />
-    <nodeInfo nodeId="529057043639384939" fileName="PQPlanarizationFinder.java" startLine="112" startPosition="25" endLine="115" endPosition="7" />
-    <nodeInfo nodeId="3495542515822992615" fileName="PQPlanarizationFinder.java" startLine="125" startPosition="38" endLine="128" endPosition="9" />
-    <nodeInfo nodeId="3495542515822992740" fileName="PQPlanarizationFinder.java" startLine="144" startPosition="41" endLine="147" endPosition="9" />
-    <nodeInfo nodeId="3495542515822992777" fileName="PQPlanarizationFinder.java" startLine="147" startPosition="9" endLine="150" endPosition="9" />
-    <nodeInfo nodeId="3495542515822992808" fileName="PQPlanarizationFinder.java" startLine="151" startPosition="40" endLine="154" endPosition="9" />
-    <nodeInfo nodeId="3495542515822992816" fileName="PQPlanarizationFinder.java" startLine="154" startPosition="9" endLine="157" endPosition="9" />
-    <nodeInfo nodeId="4644851485137283689" fileName="PQPlanarizationFinder.java" startLine="170" startPosition="5" endLine="173" endPosition="5" />
-    <nodeInfo nodeId="6191740939834475452" fileName="PQPlanarizationFinder.java" startLine="43" startPosition="83" endLine="47" endPosition="5" />
-    <nodeInfo nodeId="4644851485137262226" fileName="PQPlanarizationFinder.java" startLine="82" startPosition="41" endLine="86" endPosition="11" />
-    <nodeInfo nodeId="3495542515823096659" fileName="PQPlanarizationFinder.java" startLine="88" startPosition="7" endLine="92" endPosition="7" />
-    <nodeInfo nodeId="3495542515822992488" fileName="PQPlanarizationFinder.java" startLine="104" startPosition="10" endLine="108" endPosition="5" />
-    <nodeInfo nodeId="4422427343208822241" fileName="PQPlanarizationFinder.java" startLine="130" startPosition="79" endLine="134" endPosition="10" />
-    <nodeInfo nodeId="3495542515823090630" fileName="PQPlanarizationFinder.java" startLine="164" startPosition="75" endLine="168" endPosition="0" />
-    <nodeInfo nodeId="5488345258545679115" fileName="PQPlanarizationFinder.java" startLine="34" startPosition="80" endLine="39" endPosition="5" />
-    <nodeInfo nodeId="4644851485137262170" fileName="PQPlanarizationFinder.java" startLine="74" startPosition="87" endLine="79" endPosition="7" />
-    <nodeInfo nodeId="3495542515823086569" fileName="PQPlanarizationFinder.java" startLine="118" startPosition="26" endLine="123" endPosition="7" />
-    <nodeInfo nodeId="4644851485137262214" fileName="PQPlanarizationFinder.java" startLine="80" startPosition="67" endLine="87" endPosition="9" />
-    <nodeInfo nodeId="3495542515823090607" fileName="PQPlanarizationFinder.java" startLine="163" startPosition="63" endLine="170" endPosition="5" />
-    <nodeInfo nodeId="4644851485137262196" fileName="PQPlanarizationFinder.java" startLine="79" startPosition="7" endLine="88" endPosition="7" />
-    <nodeInfo nodeId="4644851485137277476" fileName="PQPlanarizationFinder.java" startLine="93" startPosition="135" endLine="103" endPosition="7" />
-    <nodeInfo nodeId="3495542515822992540" fileName="PQPlanarizationFinder.java" startLine="123" startPosition="7" endLine="135" endPosition="7" />
-    <nodeInfo nodeId="4644851485137260391" fileName="PQPlanarizationFinder.java" startLine="50" startPosition="10" endLine="63" endPosition="5" />
-    <nodeInfo nodeId="4644851485137283674" fileName="PQPlanarizationFinder.java" startLine="162" startPosition="0" endLine="176" endPosition="0" />
-    <nodeInfo nodeId="4644851485137260358" fileName="PQPlanarizationFinder.java" startLine="47" startPosition="5" endLine="63" endPosition="5" />
-    <nodeInfo nodeId="3495542515822992705" fileName="PQPlanarizationFinder.java" startLine="139" startPosition="12" endLine="158" endPosition="7" />
-    <nodeInfo nodeId="3495542515822992660" fileName="PQPlanarizationFinder.java" startLine="135" startPosition="7" endLine="158" endPosition="7" />
-    <nodeInfo nodeId="4644851485137260291" fileName="PQPlanarizationFinder.java" startLine="32" startPosition="0" endLine="65" endPosition="0" />
-    <nodeInfo nodeId="4644851485137283305" fileName="PQPlanarizationFinder.java" startLine="70" startPosition="71" endLine="108" endPosition="5" />
-    <nodeInfo nodeId="4644851485137277581" fileName="PQPlanarizationFinder.java" startLine="108" startPosition="5" endLine="159" endPosition="5" />
-    <nodeInfo nodeId="4644851485137262100" fileName="PQPlanarizationFinder.java" startLine="65" startPosition="0" endLine="162" endPosition="0" />
-    <scopeInfo nodeId="4644851485137260289" fileName="PQPlanarizationFinder.java" startLine="30" startPosition="34" endLine="30" endPosition="34" />
-    <scopeInfo nodeId="5488345258545679127" fileName="PQPlanarizationFinder.java" startLine="36" startPosition="59" endLine="37" endPosition="63" />
-    <scopeInfo nodeId="4644851485137260359" fileName="PQPlanarizationFinder.java" startLine="48" startPosition="52" endLine="49" endPosition="62" />
-    <scopeInfo nodeId="4644851485137262081" fileName="PQPlanarizationFinder.java" startLine="51" startPosition="54" endLine="52" endPosition="31" />
-    <scopeInfo nodeId="6191740939834475465" fileName="PQPlanarizationFinder.java" startLine="55" startPosition="25" endLine="56" endPosition="46" />
-    <scopeInfo nodeId="4644851485137262123" fileName="PQPlanarizationFinder.java" startLine="59" startPosition="54" endLine="60" endPosition="26" />
-    <scopeInfo nodeId="4644851485137277500" fileName="PQPlanarizationFinder.java" startLine="96" startPosition="75" endLine="97" endPosition="156" />
-    <scopeInfo nodeId="4644851485137277594" fileName="PQPlanarizationFinder.java" startLine="100" startPosition="60" endLine="101" endPosition="49" />
-    <scopeInfo nodeId="529057043639384940" fileName="PQPlanarizationFinder.java" startLine="113" startPosition="39" endLine="114" endPosition="37" />
-    <scopeInfo nodeId="3495542515823086571" fileName="PQPlanarizationFinder.java" startLine="119" startPosition="73" endLine="120" endPosition="128" />
-    <scopeInfo nodeId="3495542515823086573" fileName="PQPlanarizationFinder.java" startLine="121" startPosition="14" endLine="122" endPosition="55" />
-    <scopeInfo nodeId="3495542515822992617" fileName="PQPlanarizationFinder.java" startLine="126" startPosition="75" endLine="127" endPosition="80" />
-    <scopeInfo nodeId="3495542515822992747" fileName="PQPlanarizationFinder.java" startLine="145" startPosition="90" endLine="146" endPosition="32" />
-    <scopeInfo nodeId="3495542515822992784" fileName="PQPlanarizationFinder.java" startLine="148" startPosition="100" endLine="149" endPosition="32" />
-    <scopeInfo nodeId="3495542515822992809" fileName="PQPlanarizationFinder.java" startLine="152" startPosition="22" endLine="153" endPosition="47" />
-    <scopeInfo nodeId="3495542515822992821" fileName="PQPlanarizationFinder.java" startLine="155" startPosition="81" endLine="156" endPosition="44" />
-    <scopeInfo nodeId="3495542515823090631" fileName="PQPlanarizationFinder.java" startLine="165" startPosition="35" endLine="166" endPosition="30" />
-    <scopeInfo nodeId="3495542515823090608" fileName="PQPlanarizationFinder.java" startLine="168" startPosition="24" endLine="169" endPosition="82" />
-    <scopeInfo nodeId="4644851485137283691" fileName="PQPlanarizationFinder.java" startLine="171" startPosition="68" endLine="172" endPosition="102" />
-    <scopeInfo nodeId="4644851485137260286" fileName="PQPlanarizationFinder.java" startLine="29" startPosition="0" endLine="31" endPosition="3" />
-    <scopeInfo nodeId="6191740939834475454" fileName="PQPlanarizationFinder.java" startLine="44" startPosition="23" endLine="46" endPosition="34" />
-    <scopeInfo nodeId="4644851485137262228" fileName="PQPlanarizationFinder.java" startLine="83" startPosition="60" endLine="85" endPosition="68">
+    <nodeInfo nodeId="6191740939834475446" fileName="PQPlanarizationFinder.java" startLine="22" startPosition="64" endLine="23" endPosition="34" />
+    <nodeInfo nodeId="4644851485137274531" fileName="PQPlanarizationFinder.java" startLine="24" startPosition="0" endLine="25" endPosition="24" />
+    <nodeInfo nodeId="4644851485137274535" fileName="PQPlanarizationFinder.java" startLine="25" startPosition="24" endLine="26" endPosition="41" />
+    <nodeInfo nodeId="5488345258545679107" fileName="PQPlanarizationFinder.java" startLine="31" startPosition="42" endLine="32" endPosition="80" />
+    <nodeInfo nodeId="5488345258545679137" fileName="PQPlanarizationFinder.java" startLine="34" startPosition="59" endLine="35" endPosition="63" />
+    <nodeInfo nodeId="4644851485137274549" fileName="PQPlanarizationFinder.java" startLine="37" startPosition="5" endLine="38" endPosition="20" />
+    <nodeInfo nodeId="4644851485137274543" fileName="PQPlanarizationFinder.java" startLine="38" startPosition="20" endLine="39" endPosition="51" />
+    <nodeInfo nodeId="4644851485137260374" fileName="PQPlanarizationFinder.java" startLine="39" startPosition="51" endLine="40" endPosition="60" />
+    <nodeInfo nodeId="4644851485137260321" fileName="PQPlanarizationFinder.java" startLine="40" startPosition="60" endLine="41" endPosition="83" />
+    <nodeInfo nodeId="6191740939834478472" fileName="PQPlanarizationFinder.java" startLine="42" startPosition="23" endLine="43" endPosition="43" />
+    <nodeInfo nodeId="6191740939834475438" fileName="PQPlanarizationFinder.java" startLine="43" startPosition="43" endLine="44" endPosition="34" />
+    <nodeInfo nodeId="4644851485137260372" fileName="PQPlanarizationFinder.java" startLine="46" startPosition="52" endLine="47" endPosition="62" />
+    <nodeInfo nodeId="4644851485137262086" fileName="PQPlanarizationFinder.java" startLine="49" startPosition="54" endLine="50" endPosition="31" />
+    <nodeInfo nodeId="4644851485137262070" fileName="PQPlanarizationFinder.java" startLine="51" startPosition="7" endLine="52" endPosition="73" />
+    <nodeInfo nodeId="6191740939834475466" fileName="PQPlanarizationFinder.java" startLine="53" startPosition="25" endLine="54" endPosition="46" />
+    <nodeInfo nodeId="4644851485137262112" fileName="PQPlanarizationFinder.java" startLine="55" startPosition="7" endLine="56" endPosition="58" />
+    <nodeInfo nodeId="4644851485137262125" fileName="PQPlanarizationFinder.java" startLine="57" startPosition="54" endLine="58" endPosition="26" />
+    <nodeInfo nodeId="4644851485137262133" fileName="PQPlanarizationFinder.java" startLine="59" startPosition="7" endLine="60" endPosition="27" />
+    <nodeInfo nodeId="4644851485137262150" fileName="PQPlanarizationFinder.java" startLine="64" startPosition="73" endLine="65" endPosition="39" />
+    <nodeInfo nodeId="4644851485137262206" fileName="PQPlanarizationFinder.java" startLine="65" startPosition="39" endLine="66" endPosition="43" />
+    <nodeInfo nodeId="4644851485137283325" fileName="PQPlanarizationFinder.java" startLine="66" startPosition="43" endLine="67" endPosition="62" />
+    <nodeInfo nodeId="4644851485137283386" fileName="PQPlanarizationFinder.java" startLine="67" startPosition="62" endLine="68" endPosition="71" />
+    <nodeInfo nodeId="4644851485137283329" fileName="PQPlanarizationFinder.java" startLine="69" startPosition="28" endLine="70" endPosition="79" />
+    <nodeInfo nodeId="4644851485137283338" fileName="PQPlanarizationFinder.java" startLine="70" startPosition="79" endLine="71" endPosition="87" />
+    <nodeInfo nodeId="4644851485137283347" fileName="PQPlanarizationFinder.java" startLine="71" startPosition="87" endLine="72" endPosition="87" />
+    <nodeInfo nodeId="4644851485137277541" fileName="PQPlanarizationFinder.java" startLine="73" startPosition="52" endLine="74" endPosition="54" />
+    <nodeInfo nodeId="4644851485137262180" fileName="PQPlanarizationFinder.java" startLine="74" startPosition="54" endLine="75" endPosition="62" />
+    <nodeInfo nodeId="4644851485137277549" fileName="PQPlanarizationFinder.java" startLine="75" startPosition="62" endLine="76" endPosition="70" />
+    <nodeInfo nodeId="4644851485137262257" fileName="PQPlanarizationFinder.java" startLine="79" startPosition="86" endLine="80" endPosition="41" />
+    <nodeInfo nodeId="4644851485137274577" fileName="PQPlanarizationFinder.java" startLine="81" startPosition="60" endLine="82" endPosition="118" />
+    <nodeInfo nodeId="4644851485137274589" fileName="PQPlanarizationFinder.java" startLine="82" startPosition="118" endLine="83" endPosition="68" />
+    <nodeInfo nodeId="3021256511735320718" fileName="PQPlanarizationFinder.java" startLine="87" startPosition="25" endLine="88" endPosition="143" />
+    <nodeInfo nodeId="3021256511735322745" fileName="PQPlanarizationFinder.java" startLine="88" startPosition="143" endLine="89" endPosition="46" />
+    <nodeInfo nodeId="4644851485137274602" fileName="PQPlanarizationFinder.java" startLine="90" startPosition="7" endLine="91" endPosition="135" />
+    <nodeInfo nodeId="4644851485137277489" fileName="PQPlanarizationFinder.java" startLine="92" startPosition="87" endLine="93" endPosition="43" />
+    <nodeInfo nodeId="4644851485137277507" fileName="PQPlanarizationFinder.java" startLine="94" startPosition="75" endLine="95" endPosition="156" />
+    <nodeInfo nodeId="4644851485137277572" fileName="PQPlanarizationFinder.java" startLine="96" startPosition="9" endLine="97" endPosition="42" />
+    <nodeInfo nodeId="4644851485137277604" fileName="PQPlanarizationFinder.java" startLine="98" startPosition="60" endLine="99" endPosition="49" />
+    <nodeInfo nodeId="3495542515822992500" fileName="PQPlanarizationFinder.java" startLine="102" startPosition="12" endLine="103" endPosition="40" />
+    <nodeInfo nodeId="3495542515822992490" fileName="PQPlanarizationFinder.java" startLine="103" startPosition="40" endLine="104" endPosition="39" />
+    <nodeInfo nodeId="3495542515822992510" fileName="PQPlanarizationFinder.java" startLine="104" startPosition="39" endLine="105" endPosition="44" />
+    <nodeInfo nodeId="4644851485137283416" fileName="PQPlanarizationFinder.java" startLine="107" startPosition="87" endLine="108" endPosition="60" />
+    <nodeInfo nodeId="4644851485137283421" fileName="PQPlanarizationFinder.java" startLine="108" startPosition="60" endLine="109" endPosition="57" />
+    <nodeInfo nodeId="529057043639384932" fileName="PQPlanarizationFinder.java" startLine="109" startPosition="57" endLine="110" endPosition="25" />
+    <nodeInfo nodeId="529057043639384948" fileName="PQPlanarizationFinder.java" startLine="111" startPosition="39" endLine="112" endPosition="37" />
+    <nodeInfo nodeId="529057043639384906" fileName="PQPlanarizationFinder.java" startLine="113" startPosition="7" endLine="114" endPosition="51" />
+    <nodeInfo nodeId="529057043639384920" fileName="PQPlanarizationFinder.java" startLine="114" startPosition="51" endLine="115" endPosition="61" />
+    <nodeInfo nodeId="3495542515823082515" fileName="PQPlanarizationFinder.java" startLine="115" startPosition="61" endLine="116" endPosition="26" />
+    <nodeInfo nodeId="3495542515823086566" fileName="PQPlanarizationFinder.java" startLine="117" startPosition="73" endLine="118" endPosition="128" />
+    <nodeInfo nodeId="3495542515823086581" fileName="PQPlanarizationFinder.java" startLine="119" startPosition="14" endLine="120" endPosition="55" />
+    <nodeInfo nodeId="3495542515822992634" fileName="PQPlanarizationFinder.java" startLine="122" startPosition="27" endLine="123" endPosition="38" />
+    <nodeInfo nodeId="7428187320254602890" fileName="PQPlanarizationFinder.java" startLine="124" startPosition="75" endLine="125" endPosition="68" />
+    <nodeInfo nodeId="4422427343208822211" fileName="PQPlanarizationFinder.java" startLine="126" startPosition="9" endLine="127" endPosition="99" />
+    <nodeInfo nodeId="4422427343208822228" fileName="PQPlanarizationFinder.java" startLine="127" startPosition="99" endLine="128" endPosition="79" />
+    <nodeInfo nodeId="3495542515822992695" fileName="PQPlanarizationFinder.java" startLine="130" startPosition="33" endLine="131" endPosition="40" />
+    <nodeInfo nodeId="3495542515822992699" fileName="PQPlanarizationFinder.java" startLine="131" startPosition="40" endLine="132" endPosition="33" />
+    <nodeInfo nodeId="3495542515822992707" fileName="PQPlanarizationFinder.java" startLine="133" startPosition="14" endLine="134" endPosition="118" />
+    <nodeInfo nodeId="3495542515822992717" fileName="PQPlanarizationFinder.java" startLine="134" startPosition="118" endLine="135" endPosition="59" />
+    <nodeInfo nodeId="3495542515822992724" fileName="PQPlanarizationFinder.java" startLine="135" startPosition="59" endLine="136" endPosition="40" />
+    <nodeInfo nodeId="3495542515822992729" fileName="PQPlanarizationFinder.java" startLine="136" startPosition="40" endLine="137" endPosition="50" />
+    <nodeInfo nodeId="3495542515822992734" fileName="PQPlanarizationFinder.java" startLine="137" startPosition="50" endLine="138" endPosition="41" />
+    <nodeInfo nodeId="3495542515822992748" fileName="PQPlanarizationFinder.java" startLine="139" startPosition="78" endLine="140" endPosition="32" />
+    <nodeInfo nodeId="3495542515822992785" fileName="PQPlanarizationFinder.java" startLine="142" startPosition="88" endLine="143" endPosition="32" />
+    <nodeInfo nodeId="3495542515822992803" fileName="PQPlanarizationFinder.java" startLine="144" startPosition="9" endLine="145" endPosition="40" />
+    <nodeInfo nodeId="3495542515822992810" fileName="PQPlanarizationFinder.java" startLine="146" startPosition="22" endLine="147" endPosition="47" />
+    <nodeInfo nodeId="3495542515822992822" fileName="PQPlanarizationFinder.java" startLine="149" startPosition="81" endLine="150" endPosition="44" />
+    <nodeInfo nodeId="4644851485137262136" fileName="PQPlanarizationFinder.java" startLine="153" startPosition="5" endLine="154" endPosition="26" />
+    <nodeInfo nodeId="4644851485137260286" fileName="PQPlanarizationFinder.java" startLine="27" startPosition="0" endLine="29" endPosition="3" />
+    <nodeInfo nodeId="3495542515823086572" fileName="PQPlanarizationFinder.java" startLine="119" startPosition="12" endLine="121" endPosition="7" />
+    <nodeInfo nodeId="5488345258545679125" fileName="PQPlanarizationFinder.java" startLine="33" startPosition="63" endLine="36" endPosition="7" />
+    <nodeInfo nodeId="4644851485137262078" fileName="PQPlanarizationFinder.java" startLine="48" startPosition="12" endLine="51" endPosition="7" />
+    <nodeInfo nodeId="6191740939834475461" fileName="PQPlanarizationFinder.java" startLine="52" startPosition="73" endLine="55" endPosition="7" />
+    <nodeInfo nodeId="4644851485137262120" fileName="PQPlanarizationFinder.java" startLine="56" startPosition="58" endLine="59" endPosition="7" />
+    <nodeInfo nodeId="4644851485137277497" fileName="PQPlanarizationFinder.java" startLine="93" startPosition="43" endLine="96" endPosition="9" />
+    <nodeInfo nodeId="4644851485137277593" fileName="PQPlanarizationFinder.java" startLine="97" startPosition="42" endLine="100" endPosition="9" />
+    <nodeInfo nodeId="529057043639384939" fileName="PQPlanarizationFinder.java" startLine="110" startPosition="25" endLine="113" endPosition="7" />
+    <nodeInfo nodeId="3495542515822992615" fileName="PQPlanarizationFinder.java" startLine="123" startPosition="38" endLine="126" endPosition="9" />
+    <nodeInfo nodeId="3495542515822992740" fileName="PQPlanarizationFinder.java" startLine="138" startPosition="41" endLine="141" endPosition="9" />
+    <nodeInfo nodeId="3495542515822992777" fileName="PQPlanarizationFinder.java" startLine="141" startPosition="9" endLine="144" endPosition="9" />
+    <nodeInfo nodeId="3495542515822992808" fileName="PQPlanarizationFinder.java" startLine="145" startPosition="40" endLine="148" endPosition="9" />
+    <nodeInfo nodeId="3495542515822992816" fileName="PQPlanarizationFinder.java" startLine="148" startPosition="9" endLine="151" endPosition="9" />
+    <nodeInfo nodeId="6191740939834475452" fileName="PQPlanarizationFinder.java" startLine="41" startPosition="83" endLine="45" endPosition="5" />
+    <nodeInfo nodeId="4644851485137262226" fileName="PQPlanarizationFinder.java" startLine="80" startPosition="41" endLine="84" endPosition="11" />
+    <nodeInfo nodeId="3495542515823096659" fileName="PQPlanarizationFinder.java" startLine="86" startPosition="7" endLine="90" endPosition="7" />
+    <nodeInfo nodeId="3495542515822992488" fileName="PQPlanarizationFinder.java" startLine="102" startPosition="10" endLine="106" endPosition="5" />
+    <nodeInfo nodeId="5488345258545679115" fileName="PQPlanarizationFinder.java" startLine="32" startPosition="80" endLine="37" endPosition="5" />
+    <nodeInfo nodeId="4644851485137262170" fileName="PQPlanarizationFinder.java" startLine="72" startPosition="87" endLine="77" endPosition="7" />
+    <nodeInfo nodeId="3495542515823086569" fileName="PQPlanarizationFinder.java" startLine="116" startPosition="26" endLine="121" endPosition="7" />
+    <nodeInfo nodeId="4644851485137262214" fileName="PQPlanarizationFinder.java" startLine="78" startPosition="67" endLine="85" endPosition="9" />
+    <nodeInfo nodeId="3495542515822992540" fileName="PQPlanarizationFinder.java" startLine="121" startPosition="7" endLine="129" endPosition="7" />
+    <nodeInfo nodeId="4644851485137262196" fileName="PQPlanarizationFinder.java" startLine="77" startPosition="7" endLine="86" endPosition="7" />
+    <nodeInfo nodeId="4644851485137277476" fileName="PQPlanarizationFinder.java" startLine="91" startPosition="135" endLine="101" endPosition="7" />
+    <nodeInfo nodeId="4644851485137260391" fileName="PQPlanarizationFinder.java" startLine="48" startPosition="10" endLine="61" endPosition="5" />
+    <nodeInfo nodeId="4644851485137260358" fileName="PQPlanarizationFinder.java" startLine="45" startPosition="5" endLine="61" endPosition="5" />
+    <nodeInfo nodeId="3495542515822992705" fileName="PQPlanarizationFinder.java" startLine="133" startPosition="12" endLine="152" endPosition="7" />
+    <nodeInfo nodeId="3495542515822992660" fileName="PQPlanarizationFinder.java" startLine="129" startPosition="7" endLine="152" endPosition="7" />
+    <nodeInfo nodeId="4644851485137260291" fileName="PQPlanarizationFinder.java" startLine="30" startPosition="0" endLine="63" endPosition="0" />
+    <nodeInfo nodeId="4644851485137283305" fileName="PQPlanarizationFinder.java" startLine="68" startPosition="71" endLine="106" endPosition="5" />
+    <nodeInfo nodeId="4644851485137277581" fileName="PQPlanarizationFinder.java" startLine="106" startPosition="5" endLine="153" endPosition="5" />
+    <nodeInfo nodeId="4644851485137262100" fileName="PQPlanarizationFinder.java" startLine="63" startPosition="0" endLine="156" endPosition="0" />
+    <scopeInfo nodeId="4644851485137260289" fileName="PQPlanarizationFinder.java" startLine="28" startPosition="34" endLine="28" endPosition="34" />
+    <scopeInfo nodeId="5488345258545679127" fileName="PQPlanarizationFinder.java" startLine="34" startPosition="59" endLine="35" endPosition="63" />
+    <scopeInfo nodeId="4644851485137260359" fileName="PQPlanarizationFinder.java" startLine="46" startPosition="52" endLine="47" endPosition="62" />
+    <scopeInfo nodeId="4644851485137262081" fileName="PQPlanarizationFinder.java" startLine="49" startPosition="54" endLine="50" endPosition="31" />
+    <scopeInfo nodeId="6191740939834475465" fileName="PQPlanarizationFinder.java" startLine="53" startPosition="25" endLine="54" endPosition="46" />
+    <scopeInfo nodeId="4644851485137262123" fileName="PQPlanarizationFinder.java" startLine="57" startPosition="54" endLine="58" endPosition="26" />
+    <scopeInfo nodeId="4644851485137277500" fileName="PQPlanarizationFinder.java" startLine="94" startPosition="75" endLine="95" endPosition="156" />
+    <scopeInfo nodeId="4644851485137277594" fileName="PQPlanarizationFinder.java" startLine="98" startPosition="60" endLine="99" endPosition="49" />
+    <scopeInfo nodeId="529057043639384940" fileName="PQPlanarizationFinder.java" startLine="111" startPosition="39" endLine="112" endPosition="37" />
+    <scopeInfo nodeId="3495542515823086571" fileName="PQPlanarizationFinder.java" startLine="117" startPosition="73" endLine="118" endPosition="128" />
+    <scopeInfo nodeId="3495542515823086573" fileName="PQPlanarizationFinder.java" startLine="119" startPosition="14" endLine="120" endPosition="55" />
+    <scopeInfo nodeId="3495542515822992617" fileName="PQPlanarizationFinder.java" startLine="124" startPosition="75" endLine="125" endPosition="68" />
+    <scopeInfo nodeId="3495542515822992747" fileName="PQPlanarizationFinder.java" startLine="139" startPosition="78" endLine="140" endPosition="32" />
+    <scopeInfo nodeId="3495542515822992784" fileName="PQPlanarizationFinder.java" startLine="142" startPosition="88" endLine="143" endPosition="32" />
+    <scopeInfo nodeId="3495542515822992809" fileName="PQPlanarizationFinder.java" startLine="146" startPosition="22" endLine="147" endPosition="47" />
+    <scopeInfo nodeId="3495542515822992821" fileName="PQPlanarizationFinder.java" startLine="149" startPosition="81" endLine="150" endPosition="44" />
+    <scopeInfo nodeId="4644851485137260286" fileName="PQPlanarizationFinder.java" startLine="27" startPosition="0" endLine="29" endPosition="3" />
+    <scopeInfo nodeId="6191740939834475454" fileName="PQPlanarizationFinder.java" startLine="42" startPosition="23" endLine="44" endPosition="34" />
+    <scopeInfo nodeId="4644851485137262228" fileName="PQPlanarizationFinder.java" startLine="81" startPosition="60" endLine="83" endPosition="68">
       <varInfo nodeId="4644851485137274578" varName="newEdge" />
     </scopeInfo>
-    <scopeInfo nodeId="3495542515823096661" fileName="PQPlanarizationFinder.java" startLine="89" startPosition="25" endLine="91" endPosition="46" />
-    <scopeInfo nodeId="3495542515822992661" fileName="PQPlanarizationFinder.java" startLine="136" startPosition="33" endLine="138" endPosition="33" />
-    <scopeInfo nodeId="5488345258545679118" fileName="PQPlanarizationFinder.java" startLine="35" startPosition="63" endLine="38" endPosition="7" />
-    <scopeInfo nodeId="4644851485137262078" fileName="PQPlanarizationFinder.java" startLine="50" startPosition="12" endLine="53" endPosition="7" />
-    <scopeInfo nodeId="4644851485137262120" fileName="PQPlanarizationFinder.java" startLine="58" startPosition="58" endLine="61" endPosition="7" />
-    <scopeInfo nodeId="4644851485137262173" fileName="PQPlanarizationFinder.java" startLine="75" startPosition="52" endLine="78" endPosition="70">
+    <scopeInfo nodeId="3495542515823096661" fileName="PQPlanarizationFinder.java" startLine="87" startPosition="25" endLine="89" endPosition="46" />
+    <scopeInfo nodeId="3495542515822992661" fileName="PQPlanarizationFinder.java" startLine="130" startPosition="33" endLine="132" endPosition="33" />
+    <scopeInfo nodeId="5488345258545679118" fileName="PQPlanarizationFinder.java" startLine="33" startPosition="63" endLine="36" endPosition="7" />
+    <scopeInfo nodeId="4644851485137262078" fileName="PQPlanarizationFinder.java" startLine="48" startPosition="12" endLine="51" endPosition="7" />
+    <scopeInfo nodeId="4644851485137262120" fileName="PQPlanarizationFinder.java" startLine="56" startPosition="58" endLine="59" endPosition="7" />
+    <scopeInfo nodeId="4644851485137262173" fileName="PQPlanarizationFinder.java" startLine="73" startPosition="52" endLine="76" endPosition="70">
       <varInfo nodeId="4644851485137277542" varName="componentNode" />
     </scopeInfo>
-    <scopeInfo nodeId="4644851485137277497" fileName="PQPlanarizationFinder.java" startLine="95" startPosition="43" endLine="98" endPosition="9" />
-    <scopeInfo nodeId="3495542515822992489" fileName="PQPlanarizationFinder.java" startLine="104" startPosition="12" endLine="107" endPosition="44">
+    <scopeInfo nodeId="4644851485137277497" fileName="PQPlanarizationFinder.java" startLine="93" startPosition="43" endLine="96" endPosition="9" />
+    <scopeInfo nodeId="3495542515822992489" fileName="PQPlanarizationFinder.java" startLine="102" startPosition="12" endLine="105" endPosition="44">
       <varInfo nodeId="3495542515822992501" varName="fakeFace" />
     </scopeInfo>
-    <scopeInfo nodeId="3495542515822992740" fileName="PQPlanarizationFinder.java" startLine="144" startPosition="41" endLine="147" endPosition="9" />
-    <scopeInfo nodeId="3495542515822992777" fileName="PQPlanarizationFinder.java" startLine="147" startPosition="9" endLine="150" endPosition="9" />
-    <scopeInfo nodeId="3495542515822992816" fileName="PQPlanarizationFinder.java" startLine="154" startPosition="9" endLine="157" endPosition="9" />
-    <scopeInfo nodeId="3495542515823090630" fileName="PQPlanarizationFinder.java" startLine="164" startPosition="75" endLine="168" endPosition="0" />
-    <scopeInfo nodeId="5488345258545679115" fileName="PQPlanarizationFinder.java" startLine="34" startPosition="80" endLine="39" endPosition="5" />
-    <scopeInfo nodeId="4644851485137262170" fileName="PQPlanarizationFinder.java" startLine="74" startPosition="87" endLine="79" endPosition="7" />
-    <scopeInfo nodeId="4644851485137262217" fileName="PQPlanarizationFinder.java" startLine="81" startPosition="86" endLine="86" endPosition="11">
+    <scopeInfo nodeId="3495542515822992740" fileName="PQPlanarizationFinder.java" startLine="138" startPosition="41" endLine="141" endPosition="9" />
+    <scopeInfo nodeId="3495542515822992777" fileName="PQPlanarizationFinder.java" startLine="141" startPosition="9" endLine="144" endPosition="9" />
+    <scopeInfo nodeId="3495542515822992816" fileName="PQPlanarizationFinder.java" startLine="148" startPosition="9" endLine="151" endPosition="9" />
+    <scopeInfo nodeId="5488345258545679115" fileName="PQPlanarizationFinder.java" startLine="32" startPosition="80" endLine="37" endPosition="5" />
+    <scopeInfo nodeId="4644851485137262170" fileName="PQPlanarizationFinder.java" startLine="72" startPosition="87" endLine="77" endPosition="7" />
+    <scopeInfo nodeId="4644851485137262217" fileName="PQPlanarizationFinder.java" startLine="79" startPosition="86" endLine="84" endPosition="11">
       <varInfo nodeId="4644851485137262258" varName="target" />
     </scopeInfo>
-    <scopeInfo nodeId="4644851485137262199" fileName="PQPlanarizationFinder.java" startLine="80" startPosition="67" endLine="87" endPosition="9" />
-    <scopeInfo nodeId="4644851485137262214" fileName="PQPlanarizationFinder.java" startLine="80" startPosition="67" endLine="87" endPosition="9" />
-    <scopeInfo nodeId="4644851485137277479" fileName="PQPlanarizationFinder.java" startLine="94" startPosition="87" endLine="102" endPosition="9">
+    <scopeInfo nodeId="3495542515822992541" fileName="PQPlanarizationFinder.java" startLine="122" startPosition="27" endLine="128" endPosition="79" />
+    <scopeInfo nodeId="4644851485137262199" fileName="PQPlanarizationFinder.java" startLine="78" startPosition="67" endLine="85" endPosition="9" />
+    <scopeInfo nodeId="4644851485137262214" fileName="PQPlanarizationFinder.java" startLine="78" startPosition="67" endLine="85" endPosition="9" />
+    <scopeInfo nodeId="4644851485137277479" fileName="PQPlanarizationFinder.java" startLine="92" startPosition="87" endLine="100" endPosition="9">
       <varInfo nodeId="4644851485137277490" varName="graphFace" />
     </scopeInfo>
-    <scopeInfo nodeId="4644851485137262196" fileName="PQPlanarizationFinder.java" startLine="79" startPosition="7" endLine="88" endPosition="7" />
-    <scopeInfo nodeId="4644851485137277476" fileName="PQPlanarizationFinder.java" startLine="93" startPosition="135" endLine="103" endPosition="7" />
-    <scopeInfo nodeId="3495542515822992541" fileName="PQPlanarizationFinder.java" startLine="124" startPosition="27" endLine="134" endPosition="10" />
-    <scopeInfo nodeId="4644851485137283677" fileName="PQPlanarizationFinder.java" startLine="163" startPosition="63" endLine="174" endPosition="17" />
-    <scopeInfo nodeId="4644851485137260392" fileName="PQPlanarizationFinder.java" startLine="50" startPosition="12" endLine="62" endPosition="27">
+    <scopeInfo nodeId="4644851485137262196" fileName="PQPlanarizationFinder.java" startLine="77" startPosition="7" endLine="86" endPosition="7" />
+    <scopeInfo nodeId="4644851485137277476" fileName="PQPlanarizationFinder.java" startLine="91" startPosition="135" endLine="101" endPosition="7" />
+    <scopeInfo nodeId="4644851485137260392" fileName="PQPlanarizationFinder.java" startLine="48" startPosition="12" endLine="60" endPosition="27">
       <varInfo nodeId="4644851485137262071" varName="tree" />
       <varInfo nodeId="4644851485137262113" varName="embeddedGraph" />
     </scopeInfo>
-    <scopeInfo nodeId="4644851485137283674" fileName="PQPlanarizationFinder.java" startLine="162" startPosition="0" endLine="176" endPosition="0">
-      <varInfo nodeId="4644851485137283682" varName="darts" />
-      <varInfo nodeId="4644851485137283686" varName="end" />
-    </scopeInfo>
-    <scopeInfo nodeId="3495542515822992706" fileName="PQPlanarizationFinder.java" startLine="139" startPosition="14" endLine="157" endPosition="9">
+    <scopeInfo nodeId="3495542515822992706" fileName="PQPlanarizationFinder.java" startLine="133" startPosition="14" endLine="151" endPosition="9">
       <varInfo nodeId="3495542515822992708" varName="face" />
       <varInfo nodeId="3495542515822992735" varName="newFace" />
       <varInfo nodeId="3495542515822992718" varName="isOuter" />
     </scopeInfo>
-    <scopeInfo nodeId="4644851485137260296" fileName="PQPlanarizationFinder.java" startLine="33" startPosition="42" endLine="63" endPosition="5">
+    <scopeInfo nodeId="4644851485137260296" fileName="PQPlanarizationFinder.java" startLine="31" startPosition="42" endLine="61" endPosition="5">
       <varInfo nodeId="4644851485137260375" varName="pqPlanarityTest" />
       <varInfo nodeId="4644851485137260322" varName="removed" />
       <varInfo nodeId="5488345258545679108" varName="components" />
     </scopeInfo>
-    <scopeInfo nodeId="4644851485137283307" fileName="PQPlanarizationFinder.java" startLine="71" startPosition="28" endLine="103" endPosition="7">
+    <scopeInfo nodeId="4644851485137283307" fileName="PQPlanarizationFinder.java" startLine="69" startPosition="28" endLine="101" endPosition="7">
       <varInfo nodeId="4644851485137283348" varName="invertedEdgeMap" />
       <varInfo nodeId="4644851485137283330" varName="nodeMap" />
       <varInfo nodeId="4644851485137274603" varName="componentEmbedding" />
       <varInfo nodeId="4644851485137283339" varName="invertedNodeMap" />
     </scopeInfo>
-    <scopeInfo nodeId="4644851485137260291" fileName="PQPlanarizationFinder.java" startLine="32" startPosition="0" endLine="65" endPosition="0">
+    <scopeInfo nodeId="4644851485137260291" fileName="PQPlanarizationFinder.java" startLine="30" startPosition="0" endLine="63" endPosition="0">
       <varInfo nodeId="4644851485137260294" varName="graph" />
     </scopeInfo>
-    <scopeInfo nodeId="4644851485137277584" fileName="PQPlanarizationFinder.java" startLine="109" startPosition="87" endLine="158" endPosition="7">
+    <scopeInfo nodeId="4644851485137277584" fileName="PQPlanarizationFinder.java" startLine="107" startPosition="87" endLine="152" endPosition="7">
       <varInfo nodeId="3495542515823082516" varName="outerChildFace" />
       <varInfo nodeId="4644851485137283422" varName="connection" />
       <varInfo nodeId="529057043639384921" varName="childCutpoint" />
@@ -1693,18 +1673,17 @@
       <varInfo nodeId="529057043639384907" varName="cutpoint" />
       <varInfo nodeId="529057043639384933" varName="bridge" />
     </scopeInfo>
-    <scopeInfo nodeId="4644851485137277581" fileName="PQPlanarizationFinder.java" startLine="108" startPosition="5" endLine="159" endPosition="5" />
-    <scopeInfo nodeId="4644851485137262103" fileName="PQPlanarizationFinder.java" startLine="66" startPosition="73" endLine="160" endPosition="26">
+    <scopeInfo nodeId="4644851485137277581" fileName="PQPlanarizationFinder.java" startLine="106" startPosition="5" endLine="153" endPosition="5" />
+    <scopeInfo nodeId="4644851485137262103" fileName="PQPlanarizationFinder.java" startLine="64" startPosition="73" endLine="154" endPosition="26">
       <varInfo nodeId="4644851485137283326" varName="graphEmbedding" />
       <varInfo nodeId="4644851485137262207" varName="nodes" />
       <varInfo nodeId="4644851485137283387" varName="manyNodeComponent" />
       <varInfo nodeId="4644851485137262151" varName="componentGraph" />
     </scopeInfo>
-    <scopeInfo nodeId="4644851485137262100" fileName="PQPlanarizationFinder.java" startLine="65" startPosition="0" endLine="162" endPosition="0">
+    <scopeInfo nodeId="4644851485137262100" fileName="PQPlanarizationFinder.java" startLine="63" startPosition="0" endLine="156" endPosition="0">
       <varInfo nodeId="4644851485137262105" varName="component" />
     </scopeInfo>
-    <unitInfo nodeId="3495542515823090630" fileName="PQPlanarizationFinder.java" startLine="164" startPosition="50" endLine="168" endPosition="5" unitName="jetbrains.mps.graphLayout.planarization.PQPlanarizationFinder$1" />
-    <unitInfo nodeId="4644851485137260284" fileName="PQPlanarizationFinder.java" startLine="24" startPosition="0" endLine="177" endPosition="0" unitName="jetbrains.mps.graphLayout.planarization.PQPlanarizationFinder" />
+    <unitInfo nodeId="4644851485137260284" fileName="PQPlanarizationFinder.java" startLine="22" startPosition="0" endLine="157" endPosition="0" unitName="jetbrains.mps.graphLayout.planarization.PQPlanarizationFinder" />
   </root>
   <root nodeId="516638300680465086">
     <nodeInfo nodeId="5709109565604324397" fileName="PQPlanarityTest.java" startLine="25" startPosition="30" endLine="26" endPosition="34" />

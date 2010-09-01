@@ -19,15 +19,15 @@ import java.util.List;
 import java.util.Set;
 import jetbrains.mps.internal.collections.runtime.SetSequence;
 import jetbrains.mps.internal.collections.runtime.Sequence;
-import java.awt.Point;
+import java.util.LinkedHashMap;
 import java.util.ArrayList;
+import java.awt.Point;
 import jetbrains.mps.graphLayout.planarGraph.Dart;
 import jetbrains.mps.graphLayout.util.Direction2D;
 import jetbrains.mps.graphLayout.planarGraph.Face;
-import java.util.HashSet;
-import jetbrains.mps.internal.collections.runtime.IWhereFilter;
 import java.util.Iterator;
 import jetbrains.mps.graphLayout.algorithms.Dfs;
+import jetbrains.mps.internal.collections.runtime.IWhereFilter;
 
 public class OrthogonalPointLayouter implements ILayouter {
   private static int UNIT_LENGHT = 1;
@@ -68,7 +68,7 @@ public class OrthogonalPointLayouter implements ILayouter {
     }
     Map<Node, List<Node>> newNodes = MapSequence.fromMap(new HashMap<Node, List<Node>>());
     Map<Edge, Edge> replacedEdges = MapSequence.fromMap(new HashMap<Edge, Edge>());
-    Set<Edge> newEdges = reduceNodesDegree(embeddedGraph, newNodes, replacedEdges);
+    Set<Edge> newEdges = new EmbeddedGraphModifier(embeddedGraph).reduceNodesDegree(newNodes, replacedEdges);
     for (Edge edge : SetSequence.fromSet(MapSequence.fromMap(replacedEdges).keySet())) {
       Edge replacement = MapSequence.fromMap(replacedEdges).get(edge);
       if (MapSequence.fromMap(replacedEdges).containsKey(replacement)) {
@@ -93,7 +93,16 @@ public class OrthogonalPointLayouter implements ILayouter {
       System.out.println("graph now has " + ListSequence.fromList(copy.getNodes()).count() + " nodes and " + ListSequence.fromList(copy.getEdges()).count() + " edges");
       curTime = newTime;
     }
-    GraphPointLayout copyLayout = getFlowLayout(embeddedGraph, newEdges);
+    Map<Node, List<Node>> nodesToSplit = MapSequence.fromMap(new LinkedHashMap<Node, List<Node>>(16, (float) 0.75, false));
+    for (Node node : ListSequence.fromList(graph.getNodes())) {
+      Node copyNode = MapSequence.fromMap(nodeMap).get(node);
+      if (!(MapSequence.fromMap(newNodes).containsKey(copyNode))) {
+        MapSequence.fromMap(nodesToSplit).put(copyNode, ListSequence.fromList(new ArrayList<Node>()));
+      } else {
+        MapSequence.fromMap(nodesToSplit).put(copyNode, MapSequence.fromMap(newNodes).get(copyNode));
+      }
+    }
+    GraphPointLayout copyLayout = getFlowLayout(embeddedGraph, newEdges, nodesToSplit);
     GraphPointLayout graphLayout = new GraphPointLayout(graph);
     for (Node node : ListSequence.fromList(graph.getNodes())) {
       Node copyNode = MapSequence.fromMap(nodeMap).get(node);
@@ -141,10 +150,11 @@ public class OrthogonalPointLayouter implements ILayouter {
       long newTime = System.currentTimeMillis();
       System.out.println("all: " + ((newTime - time) / MILLIS));
     }
-    return graphLayout;
+    return copyLayout;
   }
 
-  public GraphPointLayout getFlowLayout(EmbeddedGraph embeddedGraph, Set<Edge> edgesToBeStraight) {
+  public GraphPointLayout getFlowLayout(EmbeddedGraph embeddedGraph, Set<Edge> edgesToBeStraight, Map<Node, List<Node>> nodeMap) {
+    EmbeddedGraphModifier modifier = new EmbeddedGraphModifier(embeddedGraph);
     Graph graph = embeddedGraph.getGraph();
     List<Edge> oldEdges = ListSequence.fromList(new ArrayList<Edge>());
     ListSequence.fromList(oldEdges).addSequence(ListSequence.fromList(graph.getEdges()));
@@ -164,9 +174,8 @@ public class OrthogonalPointLayouter implements ILayouter {
     }
     OrthogonalRepresentation.replaceBendsByNodes(embeddedGraph, bends, angles);
     Map<Dart, Direction2D> directions = OrthogonalRepresentation.getDirections(embeddedGraph, angles);
-    if (SHOW_lOG > 0) {
-      this.printEmbeddedGraphWithDirections(embeddedGraph, directions);
-    }
+    modifier.setDartDirections(directions);
+    modifier.makeRectanglesForNodes(nodeMap);
     makeRectangularFaces(embeddedGraph, directions);
     if (SHOW_TIME > 0) {
       long newTime = System.currentTimeMillis();
@@ -213,11 +222,10 @@ public class OrthogonalPointLayouter implements ILayouter {
       System.out.println("finding layout: " + ((newTime - curTime) / MILLIS));
       curTime = newTime;
     }
-    return graphLayout;
+    return copyLayout;
   }
 
   private void printEmbeddedGraphWithDirections(EmbeddedGraph embeddedGraph, Map<Dart, Direction2D> directions) {
-    System.out.println("after replacing bends by nodes: ");
     for (Face face : ListSequence.fromList(embeddedGraph.getFaces())) {
       System.out.println("face: ");
       if (embeddedGraph.isOuterFace(face)) {
@@ -228,81 +236,6 @@ public class OrthogonalPointLayouter implements ILayouter {
       }
       System.out.println();
     }
-  }
-
-  public Set<Edge> reduceNodesDegree(EmbeddedGraph embeddedGraph, Map<Node, List<Node>> nodeMap, Map<Edge, Edge> edgeMap) {
-    Graph graph = embeddedGraph.getGraph();
-    Set<Edge> addedEdges = SetSequence.fromSet(new HashSet<Edge>());
-    List<Node> realNodes = ListSequence.fromList(new ArrayList<Node>());
-    ListSequence.fromList(realNodes).addSequence(ListSequence.fromList(graph.getNodes()));
-    for (final Node node : ListSequence.fromList(realNodes)) {
-      List<Edge> edges = node.getEdges();
-      if (ListSequence.fromList(edges).count() <= 4) {
-        continue;
-      }
-      List<Node> newNodes = ListSequence.fromList(new ArrayList<Node>());
-      MapSequence.fromMap(nodeMap).put(node, newNodes);
-      Edge firstEdge = ListSequence.fromList(edges).first();
-      Dart firstDart = ListSequence.fromList(embeddedGraph.getDarts(firstEdge)).findFirst(new IWhereFilter<Dart>() {
-        public boolean accept(Dart dart) {
-          return dart.getSource() == node;
-        }
-      });
-      Dart curDart = firstDart;
-      Node firstNewNode = graph.addDummyNode();
-      Node curNewNode = firstNewNode;
-      Edge firstNewEdge = firstNewNode.addEdgeTo(firstEdge.getOpposite(node));
-      if (firstEdge.getSource() == node) {
-        firstEdge.revert();
-      }
-      ListSequence.fromList(newNodes).addElement(firstNewNode);
-      MapSequence.fromMap(edgeMap).put(firstEdge, firstNewEdge);
-      Edge curNewEdge = firstNewEdge;
-      Face newFace = new Face(graph);
-      do {
-        Face curFace = embeddedGraph.getFace(curDart);
-        List<Dart> darts = curFace.getDarts();
-        int curPos = ListSequence.fromList(darts).indexOf(curDart);
-        int nextPos = curPos - 1;
-        if (nextPos == -1) {
-          nextPos = ListSequence.fromList(darts).count() - 1;
-        }
-        Dart nextDart = embeddedGraph.getOpposite(ListSequence.fromList(darts).getElement(nextPos));
-        if (nextDart == null) {
-          nextDart = firstDart;
-        }
-        Node oppositeNode = nextDart.getEdge().getOpposite(node);
-        Node nextNewNode;
-        if (nextDart == firstDart) {
-          nextNewNode = firstNewNode;
-        } else {
-          nextNewNode = graph.addDummyNode();
-          ListSequence.fromList(newNodes).addElement(nextNewNode);
-        }
-        Edge nextNewEdge;
-        if (nextDart == firstDart) {
-          nextNewEdge = firstNewEdge;
-        } else {
-          nextNewEdge = nextNewNode.addEdgeTo(oppositeNode);
-          if (firstEdge.getSource() == node) {
-            firstEdge.revert();
-          }
-          MapSequence.fromMap(edgeMap).put(nextDart.getEdge(), nextNewEdge);
-        }
-        Edge edgeBetweenNewNodes = curNewNode.addEdgeTo(nextNewNode);
-        SetSequence.fromSet(addedEdges).addElement(edgeBetweenNewNodes);
-        newFace.addLast(new Dart(edgeBetweenNewNodes, curNewNode));
-        embeddedGraph.setDart(curFace, nextPos, new Dart(nextNewEdge, oppositeNode));
-        embeddedGraph.setDart(curFace, curPos, new Dart(curNewEdge, curNewNode));
-        embeddedGraph.insertDart(curFace, nextPos + 1, new Dart(edgeBetweenNewNodes, nextNewNode));
-        curDart = nextDart;
-        curNewNode = nextNewNode;
-        curNewEdge = nextNewEdge;
-      } while (curDart != firstDart);
-      embeddedGraph.addFace(newFace);
-      graph.remove(node);
-    }
-    return addedEdges;
   }
 
   public void makeRectangularFaces(EmbeddedGraph embeddedGraph, Map<Dart, Direction2D> direction) {

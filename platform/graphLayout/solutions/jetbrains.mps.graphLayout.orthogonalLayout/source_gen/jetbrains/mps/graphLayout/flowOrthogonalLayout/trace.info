@@ -1,0 +1,1320 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<debugInfo>
+  <root nodeId="228830736476027579">
+    <nodeInfo nodeId="228830736476041433" fileName="OrthogonalRepresentation.java" startLine="27" startPosition="39" endLine="28" endPosition="35" />
+    <nodeInfo nodeId="529057043639389028" fileName="OrthogonalRepresentation.java" startLine="30" startPosition="151" endLine="31" endPosition="43" />
+    <nodeInfo nodeId="529057043639389034" fileName="OrthogonalRepresentation.java" startLine="31" startPosition="43" endLine="32" endPosition="32" />
+    <nodeInfo nodeId="529057043639389039" fileName="OrthogonalRepresentation.java" startLine="32" startPosition="32" endLine="33" endPosition="36" />
+    <nodeInfo nodeId="529057043639389045" fileName="OrthogonalRepresentation.java" startLine="33" startPosition="36" endLine="34" endPosition="79" />
+    <nodeInfo nodeId="529057043639389054" fileName="OrthogonalRepresentation.java" startLine="34" startPosition="79" endLine="35" endPosition="84" />
+    <nodeInfo nodeId="529057043639389063" fileName="OrthogonalRepresentation.java" startLine="35" startPosition="84" endLine="36" endPosition="80" />
+    <nodeInfo nodeId="529057043639389072" fileName="OrthogonalRepresentation.java" startLine="36" startPosition="80" endLine="37" endPosition="77" />
+    <nodeInfo nodeId="529057043639389087" fileName="OrthogonalRepresentation.java" startLine="38" startPosition="63" endLine="39" endPosition="43" />
+    <nodeInfo nodeId="529057043639389093" fileName="OrthogonalRepresentation.java" startLine="39" startPosition="43" endLine="40" endPosition="58" />
+    <nodeInfo nodeId="529057043639389099" fileName="OrthogonalRepresentation.java" startLine="40" startPosition="58" endLine="41" endPosition="48" />
+    <nodeInfo nodeId="529057043639389106" fileName="OrthogonalRepresentation.java" startLine="41" startPosition="48" endLine="42" endPosition="44" />
+    <nodeInfo nodeId="529057043639389112" fileName="OrthogonalRepresentation.java" startLine="42" startPosition="44" endLine="43" endPosition="82" />
+    <nodeInfo nodeId="529057043639389120" fileName="OrthogonalRepresentation.java" startLine="43" startPosition="82" endLine="44" endPosition="45" />
+    <nodeInfo nodeId="529057043639389126" fileName="OrthogonalRepresentation.java" startLine="45" startPosition="5" endLine="46" endPosition="77" />
+    <nodeInfo nodeId="529057043639389141" fileName="OrthogonalRepresentation.java" startLine="47" startPosition="71" endLine="48" endPosition="36" />
+    <nodeInfo nodeId="529057043639389147" fileName="OrthogonalRepresentation.java" startLine="48" startPosition="36" endLine="49" endPosition="51" />
+    <nodeInfo nodeId="529057043639389153" fileName="OrthogonalRepresentation.java" startLine="49" startPosition="51" endLine="50" endPosition="41" />
+    <nodeInfo nodeId="529057043639389166" fileName="OrthogonalRepresentation.java" startLine="51" startPosition="44" endLine="52" endPosition="99" />
+    <nodeInfo nodeId="529057043639389182" fileName="OrthogonalRepresentation.java" startLine="53" startPosition="14" endLine="54" endPosition="99" />
+    <nodeInfo nodeId="529057043639389196" fileName="OrthogonalRepresentation.java" startLine="55" startPosition="7" endLine="56" endPosition="82" />
+    <nodeInfo nodeId="529057043639389204" fileName="OrthogonalRepresentation.java" startLine="56" startPosition="82" endLine="57" endPosition="45" />
+    <nodeInfo nodeId="529057043639389210" fileName="OrthogonalRepresentation.java" startLine="58" startPosition="5" endLine="59" endPosition="81" />
+    <nodeInfo nodeId="529057043639389219" fileName="OrthogonalRepresentation.java" startLine="59" startPosition="81" endLine="60" endPosition="82" />
+    <nodeInfo nodeId="529057043639389234" fileName="OrthogonalRepresentation.java" startLine="61" startPosition="71" endLine="62" endPosition="61" />
+    <nodeInfo nodeId="529057043639389246" fileName="OrthogonalRepresentation.java" startLine="63" startPosition="64" endLine="64" endPosition="91" />
+    <nodeInfo nodeId="529057043639389257" fileName="OrthogonalRepresentation.java" startLine="64" startPosition="91" endLine="65" endPosition="58" />
+    <nodeInfo nodeId="529057043639389263" fileName="OrthogonalRepresentation.java" startLine="65" startPosition="58" endLine="66" endPosition="46" />
+    <nodeInfo nodeId="529057043639389269" fileName="OrthogonalRepresentation.java" startLine="66" startPosition="46" endLine="67" endPosition="51" />
+    <nodeInfo nodeId="529057043639389275" fileName="OrthogonalRepresentation.java" startLine="67" startPosition="51" endLine="68" endPosition="47" />
+    <nodeInfo nodeId="529057043639389281" fileName="OrthogonalRepresentation.java" startLine="68" startPosition="47" endLine="69" endPosition="74" />
+    <nodeInfo nodeId="529057043639389292" fileName="OrthogonalRepresentation.java" startLine="69" startPosition="74" endLine="70" endPosition="30" />
+    <nodeInfo nodeId="529057043639389297" fileName="OrthogonalRepresentation.java" startLine="71" startPosition="65" endLine="72" endPosition="106" />
+    <nodeInfo nodeId="529057043639389312" fileName="OrthogonalRepresentation.java" startLine="73" startPosition="16" endLine="74" endPosition="106" />
+    <nodeInfo nodeId="529057043639389320" fileName="OrthogonalRepresentation.java" startLine="75" startPosition="9" endLine="76" endPosition="52" />
+    <nodeInfo nodeId="529057043639389327" fileName="OrthogonalRepresentation.java" startLine="76" startPosition="52" endLine="77" endPosition="57" />
+    <nodeInfo nodeId="529057043639389333" fileName="OrthogonalRepresentation.java" startLine="77" startPosition="57" endLine="78" endPosition="46" />
+    <nodeInfo nodeId="529057043639389520" fileName="OrthogonalRepresentation.java" startLine="79" startPosition="78" endLine="80" endPosition="53" />
+    <nodeInfo nodeId="529057043639389530" fileName="OrthogonalRepresentation.java" startLine="81" startPosition="16" endLine="82" endPosition="73" />
+    <nodeInfo nodeId="529057043639389349" fileName="OrthogonalRepresentation.java" startLine="83" startPosition="9" endLine="84" endPosition="47" />
+    <nodeInfo nodeId="529057043639389357" fileName="OrthogonalRepresentation.java" startLine="87" startPosition="24" endLine="88" endPosition="49" />
+    <nodeInfo nodeId="529057043639389368" fileName="OrthogonalRepresentation.java" startLine="89" startPosition="65" endLine="90" endPosition="95" />
+    <nodeInfo nodeId="529057043639389387" fileName="OrthogonalRepresentation.java" startLine="92" startPosition="73" endLine="93" endPosition="95" />
+    <nodeInfo nodeId="529057043639389406" fileName="OrthogonalRepresentation.java" startLine="95" startPosition="67" endLine="96" endPosition="200" />
+    <nodeInfo nodeId="529057043639389435" fileName="OrthogonalRepresentation.java" startLine="98" startPosition="5" endLine="99" endPosition="101" />
+    <nodeInfo nodeId="529057043639389451" fileName="OrthogonalRepresentation.java" startLine="100" startPosition="86" endLine="101" endPosition="125" />
+    <nodeInfo nodeId="529057043639389461" fileName="OrthogonalRepresentation.java" startLine="101" startPosition="125" endLine="102" endPosition="127" />
+    <nodeInfo nodeId="529057043639389471" fileName="OrthogonalRepresentation.java" startLine="106" startPosition="122" endLine="107" endPosition="94" />
+    <nodeInfo nodeId="529057043639056500" fileName="OrthogonalRepresentation.java" startLine="111" startPosition="82" endLine="112" endPosition="54" />
+    <nodeInfo nodeId="529057043639056516" fileName="OrthogonalRepresentation.java" startLine="112" startPosition="54" endLine="113" endPosition="72" />
+    <nodeInfo nodeId="529057043639056529" fileName="OrthogonalRepresentation.java" startLine="113" startPosition="72" endLine="114" endPosition="27" />
+    <nodeInfo nodeId="529057043639056562" fileName="OrthogonalRepresentation.java" startLine="115" startPosition="91" endLine="116" endPosition="71" />
+    <nodeInfo nodeId="529057043639056574" fileName="OrthogonalRepresentation.java" startLine="116" startPosition="71" endLine="117" endPosition="62" />
+    <nodeInfo nodeId="529057043639056586" fileName="OrthogonalRepresentation.java" startLine="119" startPosition="91" endLine="120" endPosition="71" />
+    <nodeInfo nodeId="529057043639056592" fileName="OrthogonalRepresentation.java" startLine="120" startPosition="71" endLine="121" endPosition="62" />
+    <nodeInfo nodeId="529057043639056641" fileName="OrthogonalRepresentation.java" startLine="124" startPosition="71" endLine="125" endPosition="77" />
+    <nodeInfo nodeId="529057043639056648" fileName="OrthogonalRepresentation.java" startLine="125" startPosition="77" endLine="126" endPosition="96" />
+    <nodeInfo nodeId="529057043639056666" fileName="OrthogonalRepresentation.java" startLine="128" startPosition="44" endLine="129" endPosition="80" />
+    <nodeInfo nodeId="529057043639056685" fileName="OrthogonalRepresentation.java" startLine="133" startPosition="44" endLine="134" endPosition="80" />
+    <nodeInfo nodeId="529057043639056703" fileName="OrthogonalRepresentation.java" startLine="137" startPosition="87" endLine="138" endPosition="57" />
+    <nodeInfo nodeId="529057043639056716" fileName="OrthogonalRepresentation.java" startLine="139" startPosition="53" endLine="140" endPosition="60" />
+    <nodeInfo nodeId="529057043639056724" fileName="OrthogonalRepresentation.java" startLine="141" startPosition="20" endLine="142" endPosition="109" />
+    <nodeInfo nodeId="529057043639056732" fileName="OrthogonalRepresentation.java" startLine="144" startPosition="11" endLine="145" endPosition="34" />
+    <nodeInfo nodeId="529057043639056790" fileName="OrthogonalRepresentation.java" startLine="145" startPosition="34" endLine="146" endPosition="35" />
+    <nodeInfo nodeId="529057043639056750" fileName="OrthogonalRepresentation.java" startLine="148" startPosition="54" endLine="149" endPosition="39" />
+    <nodeInfo nodeId="529057043639056754" fileName="OrthogonalRepresentation.java" startLine="149" startPosition="39" endLine="150" endPosition="112" />
+    <nodeInfo nodeId="529057043639056764" fileName="OrthogonalRepresentation.java" startLine="150" startPosition="112" endLine="151" endPosition="61" />
+    <nodeInfo nodeId="529057043639056796" fileName="OrthogonalRepresentation.java" startLine="152" startPosition="20" endLine="153" endPosition="40" />
+    <nodeInfo nodeId="529057043639056772" fileName="OrthogonalRepresentation.java" startLine="153" startPosition="40" endLine="154" endPosition="60" />
+    <nodeInfo nodeId="529057043639056807" fileName="OrthogonalRepresentation.java" startLine="154" startPosition="60" endLine="155" endPosition="101" />
+    <nodeInfo nodeId="529057043639056822" fileName="OrthogonalRepresentation.java" startLine="157" startPosition="11" endLine="158" endPosition="66" />
+    <nodeInfo nodeId="529057043639056832" fileName="OrthogonalRepresentation.java" startLine="158" startPosition="66" endLine="159" endPosition="67" />
+    <nodeInfo nodeId="529057043639056842" fileName="OrthogonalRepresentation.java" startLine="159" startPosition="67" endLine="160" endPosition="57" />
+    <nodeInfo nodeId="529057043639056847" fileName="OrthogonalRepresentation.java" startLine="160" startPosition="57" endLine="161" endPosition="58" />
+    <nodeInfo nodeId="529057043639056854" fileName="OrthogonalRepresentation.java" startLine="161" startPosition="58" endLine="162" endPosition="42" />
+    <nodeInfo nodeId="529057043639056861" fileName="OrthogonalRepresentation.java" startLine="162" startPosition="42" endLine="163" endPosition="34" />
+    <nodeInfo nodeId="529057043639077460" fileName="OrthogonalRepresentation.java" startLine="169" startPosition="110" endLine="170" endPosition="121" />
+    <nodeInfo nodeId="529057043639077470" fileName="OrthogonalRepresentation.java" startLine="170" startPosition="121" endLine="171" endPosition="61" />
+    <nodeInfo nodeId="529057043639077487" fileName="OrthogonalRepresentation.java" startLine="171" startPosition="61" endLine="172" endPosition="31" />
+    <nodeInfo nodeId="529057043639072381" fileName="OrthogonalRepresentation.java" startLine="175" startPosition="53" endLine="176" endPosition="48" />
+    <nodeInfo nodeId="529057043639072416" fileName="OrthogonalRepresentation.java" startLine="176" startPosition="48" endLine="177" endPosition="42" />
+    <nodeInfo nodeId="529057043639072399" fileName="OrthogonalRepresentation.java" startLine="177" startPosition="42" endLine="178" endPosition="40" />
+    <nodeInfo nodeId="529057043639072376" fileName="OrthogonalRepresentation.java" startLine="180" startPosition="85" endLine="181" endPosition="14" />
+    <nodeInfo nodeId="529057043639072421" fileName="OrthogonalRepresentation.java" startLine="181" startPosition="14" endLine="182" endPosition="38" />
+    <nodeInfo nodeId="529057043639072428" fileName="OrthogonalRepresentation.java" startLine="182" startPosition="38" endLine="183" endPosition="24" />
+    <nodeInfo nodeId="529057043639072390" fileName="OrthogonalRepresentation.java" startLine="183" startPosition="24" endLine="184" endPosition="75" />
+    <nodeInfo nodeId="529057043639072490" fileName="OrthogonalRepresentation.java" startLine="188" startPosition="52" endLine="189" endPosition="65" />
+    <nodeInfo nodeId="529057043639072539" fileName="OrthogonalRepresentation.java" startLine="191" startPosition="40" endLine="192" endPosition="40" />
+    <nodeInfo nodeId="529057043639072457" fileName="OrthogonalRepresentation.java" startLine="194" startPosition="9" endLine="195" endPosition="69" />
+    <nodeInfo nodeId="529057043639204993" fileName="OrthogonalRepresentation.java" startLine="195" startPosition="69" endLine="196" endPosition="135" />
+    <nodeInfo nodeId="529057043639077191" fileName="OrthogonalRepresentation.java" startLine="204" startPosition="46" endLine="205" endPosition="46" />
+    <nodeInfo nodeId="529057043639077231" fileName="OrthogonalRepresentation.java" startLine="211" startPosition="42" endLine="212" endPosition="69" />
+    <nodeInfo nodeId="529057043639077241" fileName="OrthogonalRepresentation.java" startLine="214" startPosition="9" endLine="215" endPosition="77" />
+    <nodeInfo nodeId="529057043639077251" fileName="OrthogonalRepresentation.java" startLine="215" startPosition="77" endLine="216" endPosition="60" />
+    <nodeInfo nodeId="529057043639077271" fileName="OrthogonalRepresentation.java" startLine="216" startPosition="60" endLine="217" endPosition="23" />
+    <nodeInfo nodeId="529057043639077350" fileName="OrthogonalRepresentation.java" startLine="218" startPosition="10" endLine="219" endPosition="49" />
+    <nodeInfo nodeId="529057043639077364" fileName="OrthogonalRepresentation.java" startLine="219" startPosition="49" endLine="220" endPosition="25" />
+    <nodeInfo nodeId="529057043639077400" fileName="OrthogonalRepresentation.java" startLine="222" startPosition="83" endLine="223" endPosition="24" />
+    <nodeInfo nodeId="529057043639077407" fileName="OrthogonalRepresentation.java" startLine="225" startPosition="9" endLine="226" endPosition="150" />
+    <nodeInfo nodeId="529057043639204958" fileName="OrthogonalRepresentation.java" startLine="226" startPosition="150" endLine="227" endPosition="137" />
+    <nodeInfo nodeId="529057043639077436" fileName="OrthogonalRepresentation.java" startLine="227" startPosition="137" endLine="228" endPosition="19" />
+    <nodeInfo nodeId="529057043639077452" fileName="OrthogonalRepresentation.java" startLine="232" startPosition="51" endLine="233" endPosition="26" />
+    <nodeInfo nodeId="529057043639389180" fileName="OrthogonalRepresentation.java" startLine="53" startPosition="12" endLine="55" endPosition="7" />
+    <nodeInfo nodeId="529057043639389310" fileName="OrthogonalRepresentation.java" startLine="73" startPosition="14" endLine="75" endPosition="9" />
+    <nodeInfo nodeId="529057043639389528" fileName="OrthogonalRepresentation.java" startLine="81" startPosition="14" endLine="83" endPosition="9" />
+    <nodeInfo nodeId="529057043639056722" fileName="OrthogonalRepresentation.java" startLine="141" startPosition="18" endLine="143" endPosition="13" />
+    <nodeInfo nodeId="529057043639389362" fileName="OrthogonalRepresentation.java" startLine="88" startPosition="49" endLine="91" endPosition="7" />
+    <nodeInfo nodeId="529057043639389381" fileName="OrthogonalRepresentation.java" startLine="91" startPosition="7" endLine="94" endPosition="7" />
+    <nodeInfo nodeId="529057043639389400" fileName="OrthogonalRepresentation.java" startLine="94" startPosition="7" endLine="97" endPosition="7" />
+    <nodeInfo nodeId="529057043639077376" fileName="OrthogonalRepresentation.java" startLine="221" startPosition="56" endLine="224" endPosition="11" />
+    <nodeInfo nodeId="529057043639389445" fileName="OrthogonalRepresentation.java" startLine="99" startPosition="101" endLine="103" endPosition="5" />
+    <nodeInfo nodeId="228830736476027589" fileName="OrthogonalRepresentation.java" startLine="105" startPosition="0" endLine="109" endPosition="0" />
+    <nodeInfo nodeId="529057043639056535" fileName="OrthogonalRepresentation.java" startLine="114" startPosition="27" endLine="118" endPosition="7" />
+    <nodeInfo nodeId="529057043639056584" fileName="OrthogonalRepresentation.java" startLine="118" startPosition="7" endLine="122" endPosition="7" />
+    <nodeInfo nodeId="529057043639056664" fileName="OrthogonalRepresentation.java" startLine="127" startPosition="91" endLine="131" endPosition="0" />
+    <nodeInfo nodeId="529057043639056683" fileName="OrthogonalRepresentation.java" startLine="132" startPosition="92" endLine="136" endPosition="0" />
+    <nodeInfo nodeId="529057043639056770" fileName="OrthogonalRepresentation.java" startLine="152" startPosition="18" endLine="156" endPosition="13" />
+    <nodeInfo nodeId="529057043639072535" fileName="OrthogonalRepresentation.java" startLine="190" startPosition="108" endLine="194" endPosition="0" />
+    <nodeInfo nodeId="529057043639077187" fileName="OrthogonalRepresentation.java" startLine="203" startPosition="107" endLine="207" endPosition="0" />
+    <nodeInfo nodeId="529057043639077227" fileName="OrthogonalRepresentation.java" startLine="210" startPosition="84" endLine="214" endPosition="0" />
+    <nodeInfo nodeId="529057043639077442" fileName="OrthogonalRepresentation.java" startLine="231" startPosition="0" endLine="235" endPosition="0" />
+    <nodeInfo nodeId="529057043639389160" fileName="OrthogonalRepresentation.java" startLine="50" startPosition="41" endLine="55" endPosition="7" />
+    <nodeInfo nodeId="529057043639389295" fileName="OrthogonalRepresentation.java" startLine="70" startPosition="30" endLine="75" endPosition="9" />
+    <nodeInfo nodeId="529057043639389503" fileName="OrthogonalRepresentation.java" startLine="78" startPosition="46" endLine="83" endPosition="9" />
+    <nodeInfo nodeId="529057043639056658" fileName="OrthogonalRepresentation.java" startLine="126" startPosition="96" endLine="131" endPosition="13" />
+    <nodeInfo nodeId="529057043639056677" fileName="OrthogonalRepresentation.java" startLine="131" startPosition="13" endLine="136" endPosition="13" />
+    <nodeInfo nodeId="529057043639056709" fileName="OrthogonalRepresentation.java" startLine="138" startPosition="57" endLine="143" endPosition="13" />
+    <nodeInfo nodeId="529057043639072502" fileName="OrthogonalRepresentation.java" startLine="189" startPosition="65" endLine="194" endPosition="9" />
+    <nodeInfo nodeId="529057043639077174" fileName="OrthogonalRepresentation.java" startLine="202" startPosition="39" endLine="207" endPosition="13" />
+    <nodeInfo nodeId="529057043639077217" fileName="OrthogonalRepresentation.java" startLine="209" startPosition="26" endLine="214" endPosition="9" />
+    <nodeInfo nodeId="529057043639077371" fileName="OrthogonalRepresentation.java" startLine="220" startPosition="25" endLine="225" endPosition="9" />
+    <nodeInfo nodeId="529057043639072213" fileName="OrthogonalRepresentation.java" startLine="168" startPosition="0" endLine="174" endPosition="0" />
+    <nodeInfo nodeId="529057043639072368" fileName="OrthogonalRepresentation.java" startLine="179" startPosition="0" endLine="185" endPosition="5" />
+    <nodeInfo nodeId="529057043639389081" fileName="OrthogonalRepresentation.java" startLine="37" startPosition="77" endLine="45" endPosition="5" />
+    <nodeInfo nodeId="529057043639056696" fileName="OrthogonalRepresentation.java" startLine="136" startPosition="13" endLine="144" endPosition="11" />
+    <nodeInfo nodeId="529057043639077170" fileName="OrthogonalRepresentation.java" startLine="201" startPosition="100" endLine="209" endPosition="0" />
+    <nodeInfo nodeId="529057043639056743" fileName="OrthogonalRepresentation.java" startLine="147" startPosition="89" endLine="156" endPosition="13" />
+    <nodeInfo nodeId="529057043639077153" fileName="OrthogonalRepresentation.java" startLine="200" startPosition="59" endLine="209" endPosition="26" />
+    <nodeInfo nodeId="529057043639056736" fileName="OrthogonalRepresentation.java" startLine="146" startPosition="35" endLine="157" endPosition="11" />
+    <nodeInfo nodeId="529057043639389135" fileName="OrthogonalRepresentation.java" startLine="46" startPosition="77" endLine="58" endPosition="5" />
+    <nodeInfo nodeId="529057043639389355" fileName="OrthogonalRepresentation.java" startLine="86" startPosition="5" endLine="98" endPosition="5" />
+    <nodeInfo nodeId="529057043639072434" fileName="OrthogonalRepresentation.java" startLine="186" startPosition="0" endLine="198" endPosition="0" />
+    <nodeInfo nodeId="529057043639077265" fileName="OrthogonalRepresentation.java" startLine="217" startPosition="23" endLine="229" endPosition="29" />
+    <nodeInfo nodeId="529057043639389240" fileName="OrthogonalRepresentation.java" startLine="62" startPosition="61" endLine="85" endPosition="7" />
+    <nodeInfo nodeId="529057043639389228" fileName="OrthogonalRepresentation.java" startLine="60" startPosition="82" endLine="86" endPosition="5" />
+    <nodeInfo nodeId="529057043639072551" fileName="OrthogonalRepresentation.java" startLine="198" startPosition="0" endLine="231" endPosition="0" />
+    <nodeInfo nodeId="529057043639056618" fileName="OrthogonalRepresentation.java" startLine="123" startPosition="38" endLine="164" endPosition="9" />
+    <nodeInfo nodeId="529057043639056609" fileName="OrthogonalRepresentation.java" startLine="122" startPosition="7" endLine="165" endPosition="7" />
+    <nodeInfo nodeId="529057043639039940" fileName="OrthogonalRepresentation.java" startLine="110" startPosition="124" endLine="166" endPosition="5" />
+    <nodeInfo nodeId="228830736476056025" fileName="OrthogonalRepresentation.java" startLine="109" startPosition="0" endLine="168" endPosition="0" />
+    <nodeInfo nodeId="529057043639388977" fileName="OrthogonalRepresentation.java" startLine="29" startPosition="0" endLine="105" endPosition="0" />
+    <scopeInfo nodeId="529057043639389165" fileName="OrthogonalRepresentation.java" startLine="51" startPosition="44" endLine="52" endPosition="99" />
+    <scopeInfo nodeId="529057043639389181" fileName="OrthogonalRepresentation.java" startLine="53" startPosition="14" endLine="54" endPosition="99" />
+    <scopeInfo nodeId="529057043639389296" fileName="OrthogonalRepresentation.java" startLine="71" startPosition="65" endLine="72" endPosition="106" />
+    <scopeInfo nodeId="529057043639389311" fileName="OrthogonalRepresentation.java" startLine="73" startPosition="16" endLine="74" endPosition="106" />
+    <scopeInfo nodeId="529057043639389504" fileName="OrthogonalRepresentation.java" startLine="79" startPosition="78" endLine="80" endPosition="53" />
+    <scopeInfo nodeId="529057043639389529" fileName="OrthogonalRepresentation.java" startLine="81" startPosition="16" endLine="82" endPosition="73" />
+    <scopeInfo nodeId="529057043639389367" fileName="OrthogonalRepresentation.java" startLine="89" startPosition="65" endLine="90" endPosition="95" />
+    <scopeInfo nodeId="529057043639389386" fileName="OrthogonalRepresentation.java" startLine="92" startPosition="73" endLine="93" endPosition="95" />
+    <scopeInfo nodeId="529057043639389405" fileName="OrthogonalRepresentation.java" startLine="95" startPosition="67" endLine="96" endPosition="200" />
+    <scopeInfo nodeId="228830736476027592" fileName="OrthogonalRepresentation.java" startLine="106" startPosition="122" endLine="107" endPosition="94" />
+    <scopeInfo nodeId="529057043639056665" fileName="OrthogonalRepresentation.java" startLine="128" startPosition="44" endLine="129" endPosition="80" />
+    <scopeInfo nodeId="529057043639056684" fileName="OrthogonalRepresentation.java" startLine="133" startPosition="44" endLine="134" endPosition="80" />
+    <scopeInfo nodeId="529057043639056715" fileName="OrthogonalRepresentation.java" startLine="139" startPosition="53" endLine="140" endPosition="60" />
+    <scopeInfo nodeId="529057043639056723" fileName="OrthogonalRepresentation.java" startLine="141" startPosition="20" endLine="142" endPosition="109" />
+    <scopeInfo nodeId="529057043639072536" fileName="OrthogonalRepresentation.java" startLine="191" startPosition="40" endLine="192" endPosition="40" />
+    <scopeInfo nodeId="529057043639077188" fileName="OrthogonalRepresentation.java" startLine="204" startPosition="46" endLine="205" endPosition="46" />
+    <scopeInfo nodeId="529057043639077228" fileName="OrthogonalRepresentation.java" startLine="211" startPosition="42" endLine="212" endPosition="69" />
+    <scopeInfo nodeId="529057043639077378" fileName="OrthogonalRepresentation.java" startLine="222" startPosition="83" endLine="223" endPosition="24" />
+    <scopeInfo nodeId="529057043639077445" fileName="OrthogonalRepresentation.java" startLine="232" startPosition="51" endLine="233" endPosition="26" />
+    <scopeInfo nodeId="529057043639389450" fileName="OrthogonalRepresentation.java" startLine="100" startPosition="86" endLine="102" endPosition="127" />
+    <scopeInfo nodeId="529057043639056536" fileName="OrthogonalRepresentation.java" startLine="115" startPosition="91" endLine="117" endPosition="62" />
+    <scopeInfo nodeId="529057043639056585" fileName="OrthogonalRepresentation.java" startLine="119" startPosition="91" endLine="121" endPosition="62" />
+    <scopeInfo nodeId="529057043639389362" fileName="OrthogonalRepresentation.java" startLine="88" startPosition="49" endLine="91" endPosition="7" />
+    <scopeInfo nodeId="529057043639389381" fileName="OrthogonalRepresentation.java" startLine="91" startPosition="7" endLine="94" endPosition="7" />
+    <scopeInfo nodeId="529057043639389400" fileName="OrthogonalRepresentation.java" startLine="94" startPosition="7" endLine="97" endPosition="7" />
+    <scopeInfo nodeId="529057043639056749" fileName="OrthogonalRepresentation.java" startLine="148" startPosition="54" endLine="151" endPosition="61" />
+    <scopeInfo nodeId="529057043639056771" fileName="OrthogonalRepresentation.java" startLine="152" startPosition="20" endLine="155" endPosition="101" />
+    <scopeInfo nodeId="529057043639072216" fileName="OrthogonalRepresentation.java" startLine="169" startPosition="110" endLine="172" endPosition="31">
+      <varInfo nodeId="529057043639077461" varName="dfs" />
+    </scopeInfo>
+    <scopeInfo nodeId="529057043639077374" fileName="OrthogonalRepresentation.java" startLine="221" startPosition="56" endLine="224" endPosition="11" />
+    <scopeInfo nodeId="529057043639389445" fileName="OrthogonalRepresentation.java" startLine="99" startPosition="101" endLine="103" endPosition="5" />
+    <scopeInfo nodeId="228830736476027589" fileName="OrthogonalRepresentation.java" startLine="105" startPosition="0" endLine="109" endPosition="0">
+      <varInfo nodeId="228830736476042303" varName="angles" />
+      <varInfo nodeId="228830736476042296" varName="bends" />
+      <varInfo nodeId="228830736476027593" varName="embeddedGraph" />
+    </scopeInfo>
+    <scopeInfo nodeId="529057043639056664" fileName="OrthogonalRepresentation.java" startLine="127" startPosition="91" endLine="131" endPosition="0" />
+    <scopeInfo nodeId="529057043639056683" fileName="OrthogonalRepresentation.java" startLine="132" startPosition="92" endLine="136" endPosition="0" />
+    <scopeInfo nodeId="529057043639072371" fileName="OrthogonalRepresentation.java" startLine="180" startPosition="85" endLine="184" endPosition="75" />
+    <scopeInfo nodeId="529057043639072535" fileName="OrthogonalRepresentation.java" startLine="190" startPosition="108" endLine="194" endPosition="0" />
+    <scopeInfo nodeId="529057043639077187" fileName="OrthogonalRepresentation.java" startLine="203" startPosition="107" endLine="207" endPosition="0" />
+    <scopeInfo nodeId="529057043639077227" fileName="OrthogonalRepresentation.java" startLine="210" startPosition="84" endLine="214" endPosition="0" />
+    <scopeInfo nodeId="529057043639077442" fileName="OrthogonalRepresentation.java" startLine="231" startPosition="0" endLine="235" endPosition="0" />
+    <scopeInfo nodeId="529057043639077171" fileName="OrthogonalRepresentation.java" startLine="202" startPosition="39" endLine="207" endPosition="13" />
+    <scopeInfo nodeId="529057043639077371" fileName="OrthogonalRepresentation.java" startLine="220" startPosition="25" endLine="225" endPosition="9" />
+    <scopeInfo nodeId="529057043639389086" fileName="OrthogonalRepresentation.java" startLine="38" startPosition="63" endLine="44" endPosition="45">
+      <varInfo nodeId="529057043639389100" varName="edge" />
+      <varInfo nodeId="529057043639389088" varName="networkNode" />
+    </scopeInfo>
+    <scopeInfo nodeId="529057043639056702" fileName="OrthogonalRepresentation.java" startLine="137" startPosition="87" endLine="143" endPosition="13" />
+    <scopeInfo nodeId="529057043639072213" fileName="OrthogonalRepresentation.java" startLine="168" startPosition="0" endLine="174" endPosition="0">
+      <varInfo nodeId="529057043639072246" varName="angles" />
+      <varInfo nodeId="529057043639072244" varName="embeddedGraph" />
+    </scopeInfo>
+    <scopeInfo nodeId="529057043639072368" fileName="OrthogonalRepresentation.java" startLine="179" startPosition="0" endLine="185" endPosition="5">
+      <varInfo nodeId="529057043639072409" varName="angles" />
+      <varInfo nodeId="529057043639072407" varName="embeddedGraph" />
+    </scopeInfo>
+    <scopeInfo nodeId="529057043639389081" fileName="OrthogonalRepresentation.java" startLine="37" startPosition="77" endLine="45" endPosition="5" />
+    <scopeInfo nodeId="529057043639056696" fileName="OrthogonalRepresentation.java" startLine="136" startPosition="13" endLine="144" endPosition="11" />
+    <scopeInfo nodeId="529057043639072437" fileName="OrthogonalRepresentation.java" startLine="188" startPosition="52" endLine="196" endPosition="135">
+      <varInfo nodeId="529057043639072503" varName="dart" />
+      <varInfo nodeId="529057043639072491" varName="edge" />
+    </scopeInfo>
+    <scopeInfo nodeId="529057043639077170" fileName="OrthogonalRepresentation.java" startLine="201" startPosition="100" endLine="209" endPosition="0" />
+    <scopeInfo nodeId="529057043639056742" fileName="OrthogonalRepresentation.java" startLine="147" startPosition="89" endLine="156" endPosition="13" />
+    <scopeInfo nodeId="529057043639389140" fileName="OrthogonalRepresentation.java" startLine="47" startPosition="71" endLine="57" endPosition="45">
+      <varInfo nodeId="529057043639389142" varName="node" />
+      <varInfo nodeId="529057043639389154" varName="edge" />
+    </scopeInfo>
+    <scopeInfo nodeId="529057043639389356" fileName="OrthogonalRepresentation.java" startLine="87" startPosition="24" endLine="97" endPosition="7" />
+    <scopeInfo nodeId="529057043639077267" fileName="OrthogonalRepresentation.java" startLine="218" startPosition="10" endLine="228" endPosition="19">
+      <varInfo nodeId="529057043639077351" varName="face" />
+      <varInfo nodeId="529057043639077365" varName="next" />
+    </scopeInfo>
+    <scopeInfo nodeId="529057043639056736" fileName="OrthogonalRepresentation.java" startLine="146" startPosition="35" endLine="157" endPosition="11" />
+    <scopeInfo nodeId="529057043639389135" fileName="OrthogonalRepresentation.java" startLine="46" startPosition="77" endLine="58" endPosition="5" />
+    <scopeInfo nodeId="529057043639072434" fileName="OrthogonalRepresentation.java" startLine="186" startPosition="0" endLine="198" endPosition="0">
+      <varInfo nodeId="529057043639072447" varName="root" />
+    </scopeInfo>
+    <scopeInfo nodeId="529057043639389245" fileName="OrthogonalRepresentation.java" startLine="63" startPosition="64" endLine="84" endPosition="47">
+      <varInfo nodeId="529057043639389282" varName="faces" />
+      <varInfo nodeId="529057043639389247" varName="edge" />
+      <varInfo nodeId="529057043639389293" varName="oppositeFaceNode" />
+    </scopeInfo>
+    <scopeInfo nodeId="529057043639389240" fileName="OrthogonalRepresentation.java" startLine="62" startPosition="61" endLine="85" endPosition="7" />
+    <scopeInfo nodeId="529057043639389233" fileName="OrthogonalRepresentation.java" startLine="61" startPosition="71" endLine="85" endPosition="7">
+      <varInfo nodeId="529057043639389235" varName="faceNode" />
+    </scopeInfo>
+    <scopeInfo nodeId="529057043639389228" fileName="OrthogonalRepresentation.java" startLine="60" startPosition="82" endLine="86" endPosition="5" />
+    <scopeInfo nodeId="529057043639077152" fileName="OrthogonalRepresentation.java" startLine="200" startPosition="59" endLine="229" endPosition="29">
+      <varInfo nodeId="529057043639077242" varName="orderedDarts" />
+      <varInfo nodeId="529057043639077272" varName="cur" />
+      <varInfo nodeId="529057043639077218" varName="first" />
+      <varInfo nodeId="529057043639077154" varName="darts" />
+    </scopeInfo>
+    <scopeInfo nodeId="529057043639072551" fileName="OrthogonalRepresentation.java" startLine="198" startPosition="0" endLine="231" endPosition="0">
+      <varInfo nodeId="529057043639072554" varName="node" />
+      <varInfo nodeId="529057043639072556" varName="from" />
+    </scopeInfo>
+    <scopeInfo nodeId="529057043639056620" fileName="OrthogonalRepresentation.java" startLine="124" startPosition="71" endLine="163" endPosition="34">
+      <varInfo nodeId="529057043639056791" varName="nextOpposite" />
+      <varInfo nodeId="529057043639056678" varName="second" />
+      <varInfo nodeId="529057043639056733" varName="nextToSplit" />
+      <varInfo nodeId="529057043639056649" varName="addedNode" />
+      <varInfo nodeId="529057043639056642" varName="newEdges" />
+      <varInfo nodeId="529057043639056659" varName="first" />
+    </scopeInfo>
+    <scopeInfo nodeId="529057043639056610" fileName="OrthogonalRepresentation.java" startLine="123" startPosition="38" endLine="164" endPosition="9" />
+    <scopeInfo nodeId="529057043639039943" fileName="OrthogonalRepresentation.java" startLine="111" startPosition="82" endLine="165" endPosition="7">
+      <varInfo nodeId="529057043639056530" varName="opposite" />
+      <varInfo nodeId="529057043639056517" varName="dartToSplit" />
+      <varInfo nodeId="529057043639056501" varName="darts" />
+    </scopeInfo>
+    <scopeInfo nodeId="228830736476056028" fileName="OrthogonalRepresentation.java" startLine="110" startPosition="124" endLine="166" endPosition="5" />
+    <scopeInfo nodeId="529057043639039940" fileName="OrthogonalRepresentation.java" startLine="110" startPosition="124" endLine="166" endPosition="5" />
+    <scopeInfo nodeId="228830736476056025" fileName="OrthogonalRepresentation.java" startLine="109" startPosition="0" endLine="168" endPosition="0">
+      <varInfo nodeId="228830736476056038" varName="angles" />
+      <varInfo nodeId="228830736476056031" varName="bends" />
+      <varInfo nodeId="228830736476056029" varName="embeddedGraph" />
+    </scopeInfo>
+    <scopeInfo nodeId="529057043639388980" fileName="OrthogonalRepresentation.java" startLine="30" startPosition="151" endLine="103" endPosition="5">
+      <varInfo nodeId="529057043639389040" varName="center" />
+      <varInfo nodeId="529057043639389029" varName="graph" />
+      <varInfo nodeId="529057043639389436" varName="circulation" />
+      <varInfo nodeId="529057043639389220" varName="dartAngleMap" />
+      <varInfo nodeId="529057043639389073" varName="nodeMap" />
+      <varInfo nodeId="529057043639389211" varName="dartBendMap" />
+      <varInfo nodeId="529057043639389055" varName="capacity" />
+      <varInfo nodeId="529057043639389127" varName="faceMap" />
+      <varInfo nodeId="529057043639389046" varName="low" />
+      <varInfo nodeId="529057043639389064" varName="cost" />
+      <varInfo nodeId="529057043639389035" varName="network" />
+    </scopeInfo>
+    <scopeInfo nodeId="529057043639388977" fileName="OrthogonalRepresentation.java" startLine="29" startPosition="0" endLine="105" endPosition="0">
+      <varInfo nodeId="529057043639388997" varName="angles" />
+      <varInfo nodeId="529057043639388988" varName="bends" />
+      <varInfo nodeId="529057043639388983" varName="edgesToBeStraight" />
+      <varInfo nodeId="529057043639388981" varName="embeddedGraph" />
+    </scopeInfo>
+    <unitInfo nodeId="529057043639056664" fileName="OrthogonalRepresentation.java" startLine="127" startPosition="69" endLine="131" endPosition="11" unitName="jetbrains.mps.graphLayout.flowOrthogonalLayout.OrthogonalRepresentation$1" />
+    <unitInfo nodeId="529057043639056683" fileName="OrthogonalRepresentation.java" startLine="132" startPosition="70" endLine="136" endPosition="11" unitName="jetbrains.mps.graphLayout.flowOrthogonalLayout.OrthogonalRepresentation$2" />
+    <unitInfo nodeId="529057043639072535" fileName="OrthogonalRepresentation.java" startLine="190" startPosition="86" endLine="194" endPosition="7" unitName="jetbrains.mps.graphLayout.flowOrthogonalLayout.OrthogonalRepresentation$1" />
+    <unitInfo nodeId="529057043639077187" fileName="OrthogonalRepresentation.java" startLine="203" startPosition="85" endLine="207" endPosition="11" unitName="jetbrains.mps.graphLayout.flowOrthogonalLayout.IWhereFilter$anonymous" />
+    <unitInfo nodeId="529057043639077227" fileName="OrthogonalRepresentation.java" startLine="210" startPosition="62" endLine="214" endPosition="7" unitName="jetbrains.mps.graphLayout.flowOrthogonalLayout.OrthogonalRepresentation$3" />
+    <unitInfo nodeId="529057043639077170" fileName="OrthogonalRepresentation.java" startLine="201" startPosition="75" endLine="209" endPosition="7" unitName="jetbrains.mps.graphLayout.flowOrthogonalLayout.OrthogonalRepresentation$2" />
+    <unitInfo nodeId="529057043639072366" fileName="OrthogonalRepresentation.java" startLine="175" startPosition="0" endLine="236" endPosition="0" unitName="jetbrains.mps.graphLayout.flowOrthogonalLayout.OrthogonalRepresentation$GetDirectionsDfs" />
+    <unitInfo nodeId="228830736476027579" fileName="OrthogonalRepresentation.java" startLine="27" startPosition="0" endLine="237" endPosition="0" unitName="jetbrains.mps.graphLayout.flowOrthogonalLayout.OrthogonalRepresentation" />
+  </root>
+  <root nodeId="529057043639205569">
+    <nodeInfo nodeId="529057043639206269" fileName="EdgeLengthComputer.java" startLine="19" startPosition="33" endLine="20" endPosition="35" />
+    <nodeInfo nodeId="529057043639206251" fileName="EdgeLengthComputer.java" startLine="25" startPosition="101" endLine="26" endPosition="105" />
+    <nodeInfo nodeId="529057043639206260" fileName="EdgeLengthComputer.java" startLine="26" startPosition="105" endLine="27" endPosition="104" />
+    <nodeInfo nodeId="529057043639207458" fileName="EdgeLengthComputer.java" startLine="27" startPosition="104" endLine="28" endPosition="83" />
+    <nodeInfo nodeId="529057043639207487" fileName="EdgeLengthComputer.java" startLine="29" startPosition="82" endLine="30" endPosition="17" />
+    <nodeInfo nodeId="529057043639207492" fileName="EdgeLengthComputer.java" startLine="31" startPosition="66" endLine="32" endPosition="63" />
+    <nodeInfo nodeId="529057043639207504" fileName="EdgeLengthComputer.java" startLine="33" startPosition="14" endLine="34" endPosition="63" />
+    <nodeInfo nodeId="529057043639207511" fileName="EdgeLengthComputer.java" startLine="35" startPosition="7" endLine="36" endPosition="53" />
+    <nodeInfo nodeId="529057043639206301" fileName="EdgeLengthComputer.java" startLine="39" startPosition="84" endLine="40" endPosition="100" />
+    <nodeInfo nodeId="529057043639207528" fileName="EdgeLengthComputer.java" startLine="42" startPosition="5" endLine="43" endPosition="19" />
+    <nodeInfo nodeId="529057043639205779" fileName="EdgeLengthComputer.java" startLine="46" startPosition="148" endLine="47" endPosition="43" />
+    <nodeInfo nodeId="529057043639205598" fileName="EdgeLengthComputer.java" startLine="47" startPosition="43" endLine="48" endPosition="32" />
+    <nodeInfo nodeId="529057043639205605" fileName="EdgeLengthComputer.java" startLine="48" startPosition="32" endLine="49" endPosition="77" />
+    <nodeInfo nodeId="529057043639205618" fileName="EdgeLengthComputer.java" startLine="49" startPosition="77" endLine="50" endPosition="77" />
+    <nodeInfo nodeId="529057043639205633" fileName="EdgeLengthComputer.java" startLine="50" startPosition="77" endLine="51" endPosition="36" />
+    <nodeInfo nodeId="529057043639205644" fileName="EdgeLengthComputer.java" startLine="51" startPosition="36" endLine="52" endPosition="36" />
+    <nodeInfo nodeId="529057043639205806" fileName="EdgeLengthComputer.java" startLine="53" startPosition="71" endLine="54" endPosition="64" />
+    <nodeInfo nodeId="529057043639206010" fileName="EdgeLengthComputer.java" startLine="55" startPosition="5" endLine="56" endPosition="79" />
+    <nodeInfo nodeId="529057043639206022" fileName="EdgeLengthComputer.java" startLine="56" startPosition="79" endLine="57" endPosition="84" />
+    <nodeInfo nodeId="529057043639206031" fileName="EdgeLengthComputer.java" startLine="57" startPosition="84" endLine="58" endPosition="80" />
+    <nodeInfo nodeId="529057043639206043" fileName="EdgeLengthComputer.java" startLine="58" startPosition="80" endLine="59" endPosition="45" />
+    <nodeInfo nodeId="529057043639206055" fileName="EdgeLengthComputer.java" startLine="59" startPosition="45" endLine="60" endPosition="46" />
+    <nodeInfo nodeId="529057043639206066" fileName="EdgeLengthComputer.java" startLine="60" startPosition="46" endLine="61" endPosition="71" />
+    <nodeInfo nodeId="529057043639206081" fileName="EdgeLengthComputer.java" startLine="61" startPosition="71" endLine="62" endPosition="47" />
+    <nodeInfo nodeId="529057043639205848" fileName="EdgeLengthComputer.java" startLine="65" startPosition="42" endLine="66" endPosition="72" />
+    <nodeInfo nodeId="529057043639205871" fileName="EdgeLengthComputer.java" startLine="69" startPosition="25" endLine="70" endPosition="54" />
+    <nodeInfo nodeId="529057043639205883" fileName="EdgeLengthComputer.java" startLine="70" startPosition="54" endLine="71" endPosition="81" />
+    <nodeInfo nodeId="529057043639205946" fileName="EdgeLengthComputer.java" startLine="71" startPosition="81" endLine="72" endPosition="24" />
+    <nodeInfo nodeId="529057043639205952" fileName="EdgeLengthComputer.java" startLine="72" startPosition="24" endLine="73" endPosition="24" />
+    <nodeInfo nodeId="529057043639205909" fileName="EdgeLengthComputer.java" startLine="74" startPosition="52" endLine="75" endPosition="30" />
+    <nodeInfo nodeId="529057043639205958" fileName="EdgeLengthComputer.java" startLine="76" startPosition="16" endLine="77" endPosition="68" />
+    <nodeInfo nodeId="529057043639205970" fileName="EdgeLengthComputer.java" startLine="79" startPosition="52" endLine="80" endPosition="30" />
+    <nodeInfo nodeId="529057043639205980" fileName="EdgeLengthComputer.java" startLine="81" startPosition="16" endLine="82" endPosition="68" />
+    <nodeInfo nodeId="529057043639206091" fileName="EdgeLengthComputer.java" startLine="83" startPosition="9" endLine="84" endPosition="56" />
+    <nodeInfo nodeId="529057043639205993" fileName="EdgeLengthComputer.java" startLine="84" startPosition="56" endLine="85" endPosition="56" />
+    <nodeInfo nodeId="529057043639206100" fileName="EdgeLengthComputer.java" startLine="85" startPosition="56" endLine="86" endPosition="49" />
+    <nodeInfo nodeId="529057043639206111" fileName="EdgeLengthComputer.java" startLine="86" startPosition="49" endLine="87" endPosition="74" />
+    <nodeInfo nodeId="529057043639206126" fileName="EdgeLengthComputer.java" startLine="87" startPosition="74" endLine="88" endPosition="50" />
+    <nodeInfo nodeId="529057043639206148" fileName="EdgeLengthComputer.java" startLine="90" startPosition="5" endLine="91" endPosition="101" />
+    <nodeInfo nodeId="529057043639206159" fileName="EdgeLengthComputer.java" startLine="91" startPosition="101" endLine="92" endPosition="86" />
+    <nodeInfo nodeId="529057043639206183" fileName="EdgeLengthComputer.java" startLine="94" startPosition="59" endLine="95" endPosition="128" />
+    <nodeInfo nodeId="529057043639206202" fileName="EdgeLengthComputer.java" startLine="97" startPosition="5" endLine="98" endPosition="22" />
+    <nodeInfo nodeId="529057043639205579" fileName="EdgeLengthComputer.java" startLine="21" startPosition="0" endLine="23" endPosition="3" />
+    <nodeInfo nodeId="529057043639207502" fileName="EdgeLengthComputer.java" startLine="33" startPosition="12" endLine="35" endPosition="7" />
+    <nodeInfo nodeId="529057043639205955" fileName="EdgeLengthComputer.java" startLine="76" startPosition="14" endLine="78" endPosition="9" />
+    <nodeInfo nodeId="529057043639205978" fileName="EdgeLengthComputer.java" startLine="81" startPosition="14" endLine="83" endPosition="9" />
+    <nodeInfo nodeId="529057043639206286" fileName="EdgeLengthComputer.java" startLine="38" startPosition="24" endLine="41" endPosition="7" />
+    <nodeInfo nodeId="529057043639205796" fileName="EdgeLengthComputer.java" startLine="52" startPosition="36" endLine="55" endPosition="5" />
+    <nodeInfo nodeId="529057043639206309" fileName="EdgeLengthComputer.java" startLine="93" startPosition="63" endLine="96" endPosition="7" />
+    <nodeInfo nodeId="529057043639205844" fileName="EdgeLengthComputer.java" startLine="64" startPosition="106" endLine="68" endPosition="0" />
+    <nodeInfo nodeId="529057043639207490" fileName="EdgeLengthComputer.java" startLine="30" startPosition="17" endLine="35" endPosition="7" />
+    <nodeInfo nodeId="529057043639206277" fileName="EdgeLengthComputer.java" startLine="37" startPosition="5" endLine="42" endPosition="5" />
+    <nodeInfo nodeId="529057043639205823" fileName="EdgeLengthComputer.java" startLine="63" startPosition="63" endLine="68" endPosition="9" />
+    <nodeInfo nodeId="529057043639205898" fileName="EdgeLengthComputer.java" startLine="73" startPosition="24" endLine="78" endPosition="9" />
+    <nodeInfo nodeId="529057043639205968" fileName="EdgeLengthComputer.java" startLine="78" startPosition="9" endLine="83" endPosition="9" />
+    <nodeInfo nodeId="529057043639206173" fileName="EdgeLengthComputer.java" startLine="92" startPosition="86" endLine="97" endPosition="5" />
+    <nodeInfo nodeId="529057043639207453" fileName="EdgeLengthComputer.java" startLine="28" startPosition="83" endLine="37" endPosition="5" />
+    <nodeInfo nodeId="529057043639206221" fileName="EdgeLengthComputer.java" startLine="24" startPosition="0" endLine="45" endPosition="0" />
+    <nodeInfo nodeId="529057043639205860" fileName="EdgeLengthComputer.java" startLine="68" startPosition="9" endLine="89" endPosition="7" />
+    <nodeInfo nodeId="529057043639205772" fileName="EdgeLengthComputer.java" startLine="62" startPosition="47" endLine="90" endPosition="5" />
+    <nodeInfo nodeId="529057043639205583" fileName="EdgeLengthComputer.java" startLine="45" startPosition="0" endLine="100" endPosition="0" />
+    <scopeInfo nodeId="529057043639205582" fileName="EdgeLengthComputer.java" startLine="22" startPosition="31" endLine="22" endPosition="31" />
+    <scopeInfo nodeId="529057043639207491" fileName="EdgeLengthComputer.java" startLine="31" startPosition="66" endLine="32" endPosition="63" />
+    <scopeInfo nodeId="529057043639207503" fileName="EdgeLengthComputer.java" startLine="33" startPosition="14" endLine="34" endPosition="63" />
+    <scopeInfo nodeId="529057043639206289" fileName="EdgeLengthComputer.java" startLine="39" startPosition="84" endLine="40" endPosition="100" />
+    <scopeInfo nodeId="529057043639205799" fileName="EdgeLengthComputer.java" startLine="53" startPosition="71" endLine="54" endPosition="64" />
+    <scopeInfo nodeId="529057043639205845" fileName="EdgeLengthComputer.java" startLine="65" startPosition="42" endLine="66" endPosition="72" />
+    <scopeInfo nodeId="529057043639205899" fileName="EdgeLengthComputer.java" startLine="74" startPosition="52" endLine="75" endPosition="30" />
+    <scopeInfo nodeId="529057043639205956" fileName="EdgeLengthComputer.java" startLine="76" startPosition="16" endLine="77" endPosition="68" />
+    <scopeInfo nodeId="529057043639205969" fileName="EdgeLengthComputer.java" startLine="79" startPosition="52" endLine="80" endPosition="30" />
+    <scopeInfo nodeId="529057043639205979" fileName="EdgeLengthComputer.java" startLine="81" startPosition="16" endLine="82" endPosition="68" />
+    <scopeInfo nodeId="529057043639206311" fileName="EdgeLengthComputer.java" startLine="94" startPosition="59" endLine="95" endPosition="128" />
+    <scopeInfo nodeId="529057043639205579" fileName="EdgeLengthComputer.java" startLine="21" startPosition="0" endLine="23" endPosition="3" />
+    <scopeInfo nodeId="529057043639206278" fileName="EdgeLengthComputer.java" startLine="38" startPosition="24" endLine="41" endPosition="7" />
+    <scopeInfo nodeId="529057043639206286" fileName="EdgeLengthComputer.java" startLine="38" startPosition="24" endLine="41" endPosition="7" />
+    <scopeInfo nodeId="529057043639205796" fileName="EdgeLengthComputer.java" startLine="52" startPosition="36" endLine="55" endPosition="5" />
+    <scopeInfo nodeId="529057043639206176" fileName="EdgeLengthComputer.java" startLine="93" startPosition="63" endLine="96" endPosition="7" />
+    <scopeInfo nodeId="529057043639205844" fileName="EdgeLengthComputer.java" startLine="64" startPosition="106" endLine="68" endPosition="0" />
+    <scopeInfo nodeId="529057043639206173" fileName="EdgeLengthComputer.java" startLine="92" startPosition="86" endLine="97" endPosition="5" />
+    <scopeInfo nodeId="529057043639207456" fileName="EdgeLengthComputer.java" startLine="29" startPosition="82" endLine="36" endPosition="53">
+      <varInfo nodeId="529057043639207488" varName="length" />
+    </scopeInfo>
+    <scopeInfo nodeId="529057043639207453" fileName="EdgeLengthComputer.java" startLine="28" startPosition="83" endLine="37" endPosition="5" />
+    <scopeInfo nodeId="529057043639206224" fileName="EdgeLengthComputer.java" startLine="25" startPosition="101" endLine="43" endPosition="19">
+      <varInfo nodeId="529057043639206252" varName="horEdgeLengths" />
+      <varInfo nodeId="529057043639207459" varName="lengths" />
+      <varInfo nodeId="529057043639206261" varName="verEdgeLenghts" />
+    </scopeInfo>
+    <scopeInfo nodeId="529057043639205861" fileName="EdgeLengthComputer.java" startLine="69" startPosition="25" endLine="88" endPosition="50">
+      <varInfo nodeId="529057043639205953" varName="targetNode" />
+      <varInfo nodeId="529057043639206092" varName="newEdge" />
+      <varInfo nodeId="529057043639205947" varName="sourceNode" />
+      <varInfo nodeId="529057043639205872" varName="targetFace" />
+      <varInfo nodeId="529057043639205884" varName="sourceFace" />
+    </scopeInfo>
+    <scopeInfo nodeId="529057043639206221" fileName="EdgeLengthComputer.java" startLine="24" startPosition="0" endLine="45" endPosition="0">
+      <varInfo nodeId="529057043639206227" varName="directions" />
+      <varInfo nodeId="529057043639206225" varName="embeddedGraph" />
+    </scopeInfo>
+    <scopeInfo nodeId="529057043639205775" fileName="EdgeLengthComputer.java" startLine="63" startPosition="63" endLine="89" endPosition="7">
+      <varInfo nodeId="529057043639205824" varName="dart" />
+    </scopeInfo>
+    <scopeInfo nodeId="529057043639205772" fileName="EdgeLengthComputer.java" startLine="62" startPosition="47" endLine="90" endPosition="5" />
+    <scopeInfo nodeId="529057043639205586" fileName="EdgeLengthComputer.java" startLine="46" startPosition="148" endLine="98" endPosition="22">
+      <varInfo nodeId="529057043639206160" varName="edgeLength" />
+      <varInfo nodeId="529057043639205606" varName="edgeMap" />
+      <varInfo nodeId="529057043639205780" varName="graph" />
+      <varInfo nodeId="529057043639205634" varName="source" />
+      <varInfo nodeId="529057043639206149" varName="circulation" />
+      <varInfo nodeId="529057043639206044" varName="backEdge" />
+      <varInfo nodeId="529057043639205645" varName="target" />
+      <varInfo nodeId="529057043639206023" varName="capacity" />
+      <varInfo nodeId="529057043639205619" varName="faceMap" />
+      <varInfo nodeId="529057043639206011" varName="low" />
+      <varInfo nodeId="529057043639206032" varName="cost" />
+      <varInfo nodeId="529057043639205599" varName="network" />
+    </scopeInfo>
+    <scopeInfo nodeId="529057043639205583" fileName="EdgeLengthComputer.java" startLine="45" startPosition="0" endLine="100" endPosition="0">
+      <varInfo nodeId="529057043639205589" varName="directions" />
+      <varInfo nodeId="529057043639206210" varName="direction" />
+      <varInfo nodeId="529057043639205587" varName="embeddedGraph" />
+    </scopeInfo>
+    <unitInfo nodeId="529057043639205844" fileName="EdgeLengthComputer.java" startLine="64" startPosition="84" endLine="68" endPosition="7" unitName="jetbrains.mps.graphLayout.flowOrthogonalLayout.EdgeLengthComputer$1" />
+    <unitInfo nodeId="529057043639205569" fileName="EdgeLengthComputer.java" startLine="19" startPosition="0" endLine="101" endPosition="0" unitName="jetbrains.mps.graphLayout.flowOrthogonalLayout.EdgeLengthComputer" />
+  </root>
+  <root nodeId="529057043639208598">
+    <nodeInfo nodeId="529057043639208829" fileName="OrthogonalPointLayouter.java" startLine="32" startPosition="59" endLine="33" endPosition="37" />
+    <nodeInfo nodeId="8568898107892568228" fileName="OrthogonalPointLayouter.java" startLine="33" startPosition="37" endLine="34" endPosition="34" />
+    <nodeInfo nodeId="5488345258545822738" fileName="OrthogonalPointLayouter.java" startLine="34" startPosition="34" endLine="35" endPosition="35" />
+    <nodeInfo nodeId="5488345258545822966" fileName="OrthogonalPointLayouter.java" startLine="35" startPosition="35" endLine="36" endPosition="35" />
+    <nodeInfo nodeId="5488345258545828435" fileName="OrthogonalPointLayouter.java" startLine="37" startPosition="0" endLine="38" endPosition="25" />
+    <nodeInfo nodeId="5488345258545822730" fileName="OrthogonalPointLayouter.java" startLine="43" startPosition="49" endLine="44" endPosition="45" />
+    <nodeInfo nodeId="5488345258545828442" fileName="OrthogonalPointLayouter.java" startLine="44" startPosition="45" endLine="45" endPosition="19" />
+    <nodeInfo nodeId="5488345258545822771" fileName="OrthogonalPointLayouter.java" startLine="46" startPosition="24" endLine="47" endPosition="190" />
+    <nodeInfo nodeId="529057043639328278" fileName="OrthogonalPointLayouter.java" startLine="48" startPosition="5" endLine="49" endPosition="29" />
+    <nodeInfo nodeId="529057043639328293" fileName="OrthogonalPointLayouter.java" startLine="49" startPosition="29" endLine="50" endPosition="77" />
+    <nodeInfo nodeId="529057043639328285" fileName="OrthogonalPointLayouter.java" startLine="50" startPosition="77" endLine="51" endPosition="77" />
+    <nodeInfo nodeId="529057043639328326" fileName="OrthogonalPointLayouter.java" startLine="52" startPosition="63" endLine="53" endPosition="61" />
+    <nodeInfo nodeId="529057043639328352" fileName="OrthogonalPointLayouter.java" startLine="55" startPosition="63" endLine="56" endPosition="159" />
+    <nodeInfo nodeId="529057043639335402" fileName="OrthogonalPointLayouter.java" startLine="57" startPosition="5" endLine="58" endPosition="53" />
+    <nodeInfo nodeId="529057043639208638" fileName="OrthogonalPointLayouter.java" startLine="58" startPosition="53" endLine="59" endPosition="106" />
+    <nodeInfo nodeId="3380715998758086654" fileName="OrthogonalPointLayouter.java" startLine="59" startPosition="106" endLine="60" endPosition="89" />
+    <nodeInfo nodeId="5488345258545805053" fileName="OrthogonalPointLayouter.java" startLine="61" startPosition="63" endLine="62" endPosition="61" />
+    <nodeInfo nodeId="3380715998758092590" fileName="OrthogonalPointLayouter.java" startLine="62" startPosition="61" endLine="63" endPosition="86" />
+    <nodeInfo nodeId="5488345258545807725" fileName="OrthogonalPointLayouter.java" startLine="63" startPosition="86" endLine="64" endPosition="81" />
+    <nodeInfo nodeId="4422427343208738054" fileName="OrthogonalPointLayouter.java" startLine="65" startPosition="87" endLine="66" endPosition="125" />
+    <nodeInfo nodeId="3380715998758086401" fileName="OrthogonalPointLayouter.java" startLine="68" startPosition="5" endLine="69" endPosition="90" />
+    <nodeInfo nodeId="3380715998758092785" fileName="OrthogonalPointLayouter.java" startLine="69" startPosition="90" endLine="70" endPosition="83" />
+    <nodeInfo nodeId="3380715998758086412" fileName="OrthogonalPointLayouter.java" startLine="70" startPosition="83" endLine="71" endPosition="109" />
+    <nodeInfo nodeId="3380715998758092865" fileName="OrthogonalPointLayouter.java" startLine="72" startPosition="88" endLine="73" endPosition="70" />
+    <nodeInfo nodeId="3380715998758092881" fileName="OrthogonalPointLayouter.java" startLine="74" startPosition="72" endLine="75" endPosition="106" />
+    <nodeInfo nodeId="3380715998758092937" fileName="OrthogonalPointLayouter.java" startLine="78" startPosition="90" endLine="79" endPosition="55" />
+    <nodeInfo nodeId="3380715998758092945" fileName="OrthogonalPointLayouter.java" startLine="80" startPosition="66" endLine="81" endPosition="97" />
+    <nodeInfo nodeId="3380715998758092962" fileName="OrthogonalPointLayouter.java" startLine="83" startPosition="52" endLine="84" endPosition="55" />
+    <nodeInfo nodeId="3380715998758092974" fileName="OrthogonalPointLayouter.java" startLine="85" startPosition="67" endLine="86" endPosition="136" />
+    <nodeInfo nodeId="5488345258545828307" fileName="OrthogonalPointLayouter.java" startLine="90" startPosition="24" endLine="91" endPosition="48" />
+    <nodeInfo nodeId="5488345258545828311" fileName="OrthogonalPointLayouter.java" startLine="91" startPosition="48" endLine="92" endPosition="85" />
+    <nodeInfo nodeId="5488345258545828334" fileName="OrthogonalPointLayouter.java" startLine="92" startPosition="85" endLine="93" endPosition="168" />
+    <nodeInfo nodeId="5488345258545828324" fileName="OrthogonalPointLayouter.java" startLine="93" startPosition="168" endLine="94" endPosition="24" />
+    <nodeInfo nodeId="4655725461921717859" fileName="OrthogonalPointLayouter.java" startLine="95" startPosition="5" endLine="96" endPosition="123" />
+    <nodeInfo nodeId="4915750462377020031" fileName="OrthogonalPointLayouter.java" startLine="97" startPosition="63" endLine="98" endPosition="61" />
+    <nodeInfo nodeId="4655725461921717901" fileName="OrthogonalPointLayouter.java" startLine="99" startPosition="67" endLine="100" endPosition="102" />
+    <nodeInfo nodeId="4915750462377020021" fileName="OrthogonalPointLayouter.java" startLine="101" startPosition="14" endLine="102" endPosition="101" />
+    <nodeInfo nodeId="3380715998758086347" fileName="OrthogonalPointLayouter.java" startLine="104" startPosition="5" endLine="105" endPosition="87" />
+    <nodeInfo nodeId="3380715998758086456" fileName="OrthogonalPointLayouter.java" startLine="105" startPosition="87" endLine="106" endPosition="63" />
+    <nodeInfo nodeId="3380715998758170841" fileName="OrthogonalPointLayouter.java" startLine="107" startPosition="63" endLine="108" endPosition="61" />
+    <nodeInfo nodeId="3380715998758086487" fileName="OrthogonalPointLayouter.java" startLine="109" startPosition="64" endLine="110" endPosition="37" />
+    <nodeInfo nodeId="3380715998758086493" fileName="OrthogonalPointLayouter.java" startLine="110" startPosition="37" endLine="111" endPosition="37" />
+    <nodeInfo nodeId="3380715998758086502" fileName="OrthogonalPointLayouter.java" startLine="111" startPosition="37" endLine="112" endPosition="37" />
+    <nodeInfo nodeId="3380715998758086506" fileName="OrthogonalPointLayouter.java" startLine="112" startPosition="37" endLine="113" endPosition="37" />
+    <nodeInfo nodeId="3380715998758086527" fileName="OrthogonalPointLayouter.java" startLine="114" startPosition="97" endLine="115" endPosition="57" />
+    <nodeInfo nodeId="3380715998758086544" fileName="OrthogonalPointLayouter.java" startLine="115" startPosition="57" endLine="116" endPosition="41" />
+    <nodeInfo nodeId="3380715998758086561" fileName="OrthogonalPointLayouter.java" startLine="116" startPosition="41" endLine="117" endPosition="41" />
+    <nodeInfo nodeId="3380715998758086572" fileName="OrthogonalPointLayouter.java" startLine="117" startPosition="41" endLine="118" endPosition="41" />
+    <nodeInfo nodeId="3380715998758086580" fileName="OrthogonalPointLayouter.java" startLine="118" startPosition="41" endLine="119" endPosition="41" />
+    <nodeInfo nodeId="3380715998758086604" fileName="OrthogonalPointLayouter.java" startLine="120" startPosition="9" endLine="121" endPosition="88" />
+    <nodeInfo nodeId="3380715998758086463" fileName="OrthogonalPointLayouter.java" startLine="122" startPosition="14" endLine="123" endPosition="104" />
+    <nodeInfo nodeId="3380715998758092625" fileName="OrthogonalPointLayouter.java" startLine="126" startPosition="68" endLine="127" endPosition="77" />
+    <nodeInfo nodeId="3380715998758092649" fileName="OrthogonalPointLayouter.java" startLine="127" startPosition="77" endLine="128" endPosition="75" />
+    <nodeInfo nodeId="4422427343208581745" fileName="OrthogonalPointLayouter.java" startLine="128" startPosition="75" endLine="129" endPosition="80" />
+    <nodeInfo nodeId="4422427343208581762" fileName="OrthogonalPointLayouter.java" startLine="129" startPosition="80" endLine="130" endPosition="15" />
+    <nodeInfo nodeId="4422427343208581810" fileName="OrthogonalPointLayouter.java" startLine="130" startPosition="15" endLine="131" endPosition="80" />
+    <nodeInfo nodeId="4422427343208581798" fileName="OrthogonalPointLayouter.java" startLine="132" startPosition="132" endLine="133" endPosition="26" />
+    <nodeInfo nodeId="4422427343208581819" fileName="OrthogonalPointLayouter.java" startLine="134" startPosition="14" endLine="135" endPosition="69" />
+    <nodeInfo nodeId="4422427343208581845" fileName="OrthogonalPointLayouter.java" startLine="138" startPosition="38" endLine="139" endPosition="110" />
+    <nodeInfo nodeId="4422427343208581855" fileName="OrthogonalPointLayouter.java" startLine="140" startPosition="16" endLine="141" endPosition="125" />
+    <nodeInfo nodeId="4422427343208581873" fileName="OrthogonalPointLayouter.java" startLine="142" startPosition="9" endLine="143" endPosition="36" />
+    <nodeInfo nodeId="4422427343208636222" fileName="OrthogonalPointLayouter.java" startLine="144" startPosition="7" endLine="145" endPosition="106" />
+    <nodeInfo nodeId="4422427343208636232" fileName="OrthogonalPointLayouter.java" startLine="145" startPosition="106" endLine="146" endPosition="100" />
+    <nodeInfo nodeId="3380715998758093090" fileName="OrthogonalPointLayouter.java" startLine="146" startPosition="100" endLine="147" endPosition="54" />
+    <nodeInfo nodeId="5488345258545822907" fileName="OrthogonalPointLayouter.java" startLine="149" startPosition="24" endLine="150" endPosition="48" />
+    <nodeInfo nodeId="5488345258545822947" fileName="OrthogonalPointLayouter.java" startLine="150" startPosition="48" endLine="151" endPosition="64" />
+    <nodeInfo nodeId="3380715998758086426" fileName="OrthogonalPointLayouter.java" startLine="152" startPosition="5" endLine="153" endPosition="22" />
+    <nodeInfo nodeId="4655725461921716246" fileName="OrthogonalPointLayouter.java" startLine="156" startPosition="130" endLine="157" endPosition="78" />
+    <nodeInfo nodeId="3380715998758077830" fileName="OrthogonalPointLayouter.java" startLine="157" startPosition="78" endLine="158" endPosition="43" />
+    <nodeInfo nodeId="3380715998758082385" fileName="OrthogonalPointLayouter.java" startLine="158" startPosition="43" endLine="159" endPosition="71" />
+    <nodeInfo nodeId="3380715998758082395" fileName="OrthogonalPointLayouter.java" startLine="159" startPosition="71" endLine="160" endPosition="89" />
+    <nodeInfo nodeId="3380715998758082779" fileName="OrthogonalPointLayouter.java" startLine="160" startPosition="89" endLine="161" endPosition="71" />
+    <nodeInfo nodeId="3380715998758082786" fileName="OrthogonalPointLayouter.java" startLine="161" startPosition="71" endLine="162" endPosition="89" />
+    <nodeInfo nodeId="3380715998758082424" fileName="OrthogonalPointLayouter.java" startLine="162" startPosition="89" endLine="163" endPosition="81" />
+    <nodeInfo nodeId="3380715998758082433" fileName="OrthogonalPointLayouter.java" startLine="163" startPosition="81" endLine="164" endPosition="82" />
+    <nodeInfo nodeId="3380715998758082442" fileName="OrthogonalPointLayouter.java" startLine="164" startPosition="82" endLine="165" endPosition="96" />
+    <nodeInfo nodeId="3380715998758082449" fileName="OrthogonalPointLayouter.java" startLine="166" startPosition="23" endLine="167" endPosition="35" />
+    <nodeInfo nodeId="3380715998758082454" fileName="OrthogonalPointLayouter.java" startLine="167" startPosition="35" endLine="168" endPosition="32" />
+    <nodeInfo nodeId="5488345258545829959" fileName="OrthogonalPointLayouter.java" startLine="170" startPosition="24" endLine="171" endPosition="48" />
+    <nodeInfo nodeId="5488345258545829963" fileName="OrthogonalPointLayouter.java" startLine="171" startPosition="48" endLine="172" endPosition="90" />
+    <nodeInfo nodeId="5488345258545829997" fileName="OrthogonalPointLayouter.java" startLine="172" startPosition="90" endLine="173" endPosition="24" />
+    <nodeInfo nodeId="3380715998758082463" fileName="OrthogonalPointLayouter.java" startLine="174" startPosition="5" endLine="175" endPosition="79" />
+    <nodeInfo nodeId="3380715998758082468" fileName="OrthogonalPointLayouter.java" startLine="175" startPosition="79" endLine="176" endPosition="102" />
+    <nodeInfo nodeId="4655725461921716255" fileName="OrthogonalPointLayouter.java" startLine="176" startPosition="102" endLine="177" endPosition="43" />
+    <nodeInfo nodeId="4655725461921716264" fileName="OrthogonalPointLayouter.java" startLine="177" startPosition="43" endLine="178" endPosition="45" />
+    <nodeInfo nodeId="3380715998758082532" fileName="OrthogonalPointLayouter.java" startLine="178" startPosition="45" endLine="179" endPosition="52" />
+    <nodeInfo nodeId="5488345258545828461" fileName="OrthogonalPointLayouter.java" startLine="180" startPosition="24" endLine="181" endPosition="48" />
+    <nodeInfo nodeId="5488345258545828465" fileName="OrthogonalPointLayouter.java" startLine="181" startPosition="48" endLine="182" endPosition="88" />
+    <nodeInfo nodeId="5488345258545828478" fileName="OrthogonalPointLayouter.java" startLine="182" startPosition="88" endLine="183" endPosition="170" />
+    <nodeInfo nodeId="5488345258545828499" fileName="OrthogonalPointLayouter.java" startLine="183" startPosition="170" endLine="184" endPosition="24" />
+    <nodeInfo nodeId="3380715998758082538" fileName="OrthogonalPointLayouter.java" startLine="186" startPosition="23" endLine="187" endPosition="61" />
+    <nodeInfo nodeId="3380715998758082763" fileName="OrthogonalPointLayouter.java" startLine="187" startPosition="61" endLine="188" endPosition="66" />
+    <nodeInfo nodeId="3380715998758082592" fileName="OrthogonalPointLayouter.java" startLine="189" startPosition="5" endLine="190" endPosition="93" />
+    <nodeInfo nodeId="3380715998758082603" fileName="OrthogonalPointLayouter.java" startLine="190" startPosition="93" endLine="191" endPosition="138" />
+    <nodeInfo nodeId="3380715998758082611" fileName="OrthogonalPointLayouter.java" startLine="191" startPosition="138" endLine="192" endPosition="42" />
+    <nodeInfo nodeId="3380715998758082617" fileName="OrthogonalPointLayouter.java" startLine="192" startPosition="42" endLine="193" endPosition="56" />
+    <nodeInfo nodeId="3380715998758082801" fileName="OrthogonalPointLayouter.java" startLine="193" startPosition="56" endLine="194" endPosition="63" />
+    <nodeInfo nodeId="3380715998758082820" fileName="OrthogonalPointLayouter.java" startLine="195" startPosition="55" endLine="196" endPosition="81" />
+    <nodeInfo nodeId="3380715998758082848" fileName="OrthogonalPointLayouter.java" startLine="198" startPosition="55" endLine="199" endPosition="63" />
+    <nodeInfo nodeId="3380715998758082869" fileName="OrthogonalPointLayouter.java" startLine="199" startPosition="63" endLine="200" endPosition="77" />
+    <nodeInfo nodeId="4422427343208575196" fileName="OrthogonalPointLayouter.java" startLine="200" startPosition="77" endLine="201" endPosition="34" />
+    <nodeInfo nodeId="3380715998758082879" fileName="OrthogonalPointLayouter.java" startLine="201" startPosition="34" endLine="202" endPosition="94" />
+    <nodeInfo nodeId="4422427343208575211" fileName="OrthogonalPointLayouter.java" startLine="203" startPosition="63" endLine="204" endPosition="49" />
+    <nodeInfo nodeId="3380715998758082902" fileName="OrthogonalPointLayouter.java" startLine="204" startPosition="49" endLine="205" endPosition="97" />
+    <nodeInfo nodeId="4422427343208575232" fileName="OrthogonalPointLayouter.java" startLine="205" startPosition="97" endLine="206" endPosition="19" />
+    <nodeInfo nodeId="3380715998758082921" fileName="OrthogonalPointLayouter.java" startLine="207" startPosition="7" endLine="208" endPosition="49" />
+    <nodeInfo nodeId="3380715998758082625" fileName="OrthogonalPointLayouter.java" startLine="209" startPosition="5" endLine="210" endPosition="62" />
+    <nodeInfo nodeId="3380715998758082637" fileName="OrthogonalPointLayouter.java" startLine="211" startPosition="63" endLine="212" endPosition="80" />
+    <nodeInfo nodeId="3380715998758082651" fileName="OrthogonalPointLayouter.java" startLine="214" startPosition="63" endLine="215" endPosition="77" />
+    <nodeInfo nodeId="3380715998758082658" fileName="OrthogonalPointLayouter.java" startLine="215" startPosition="77" endLine="216" endPosition="118" />
+    <nodeInfo nodeId="3380715998758082669" fileName="OrthogonalPointLayouter.java" startLine="216" startPosition="118" endLine="217" endPosition="118" />
+    <nodeInfo nodeId="3380715998758082680" fileName="OrthogonalPointLayouter.java" startLine="217" startPosition="118" endLine="218" endPosition="48" />
+    <nodeInfo nodeId="5488345258545828559" fileName="OrthogonalPointLayouter.java" startLine="220" startPosition="24" endLine="221" endPosition="48" />
+    <nodeInfo nodeId="5488345258545828563" fileName="OrthogonalPointLayouter.java" startLine="221" startPosition="48" endLine="222" endPosition="78" />
+    <nodeInfo nodeId="5488345258545828597" fileName="OrthogonalPointLayouter.java" startLine="222" startPosition="78" endLine="223" endPosition="24" />
+    <nodeInfo nodeId="3380715998758082686" fileName="OrthogonalPointLayouter.java" startLine="224" startPosition="5" endLine="225" endPosition="22" />
+    <nodeInfo nodeId="3380715998758082718" fileName="OrthogonalPointLayouter.java" startLine="229" startPosition="71" endLine="230" endPosition="35" />
+    <nodeInfo nodeId="3380715998758082725" fileName="OrthogonalPointLayouter.java" startLine="231" startPosition="44" endLine="232" endPosition="37" />
+    <nodeInfo nodeId="3380715998758082736" fileName="OrthogonalPointLayouter.java" startLine="234" startPosition="64" endLine="235" endPosition="94" />
+    <nodeInfo nodeId="3380715998758082752" fileName="OrthogonalPointLayouter.java" startLine="236" startPosition="7" endLine="237" endPosition="27" />
+    <nodeInfo nodeId="315882939481516052" fileName="OrthogonalPointLayouter.java" startLine="241" startPosition="99" endLine="242" endPosition="68" />
+    <nodeInfo nodeId="315882939481516064" fileName="OrthogonalPointLayouter.java" startLine="242" startPosition="68" endLine="243" endPosition="94" />
+    <nodeInfo nodeId="8146903765832629851" fileName="OrthogonalPointLayouter.java" startLine="245" startPosition="44" endLine="246" endPosition="17" />
+    <nodeInfo nodeId="8146903765832624824" fileName="OrthogonalPointLayouter.java" startLine="247" startPosition="7" endLine="248" endPosition="56" />
+    <nodeInfo nodeId="8146903765832608611" fileName="OrthogonalPointLayouter.java" startLine="252" startPosition="107" endLine="253" endPosition="24" />
+    <nodeInfo nodeId="8146903765832693568" fileName="OrthogonalPointLayouter.java" startLine="253" startPosition="24" endLine="254" endPosition="39" />
+    <nodeInfo nodeId="8146903765832693551" fileName="OrthogonalPointLayouter.java" startLine="254" startPosition="39" endLine="255" endPosition="69" />
+    <nodeInfo nodeId="8146903765832608631" fileName="OrthogonalPointLayouter.java" startLine="255" startPosition="69" endLine="256" endPosition="52" />
+    <nodeInfo nodeId="8146903765832693638" fileName="OrthogonalPointLayouter.java" startLine="256" startPosition="52" endLine="257" endPosition="16" />
+    <nodeInfo nodeId="8146903765832693588" fileName="OrthogonalPointLayouter.java" startLine="258" startPosition="50" endLine="259" endPosition="32" />
+    <nodeInfo nodeId="8146903765832693607" fileName="OrthogonalPointLayouter.java" startLine="259" startPosition="32" endLine="260" endPosition="107" />
+    <nodeInfo nodeId="8146903765832693619" fileName="OrthogonalPointLayouter.java" startLine="261" startPosition="21" endLine="262" endPosition="23" />
+    <nodeInfo nodeId="8146903765832693644" fileName="OrthogonalPointLayouter.java" startLine="262" startPosition="23" endLine="263" endPosition="19" />
+    <nodeInfo nodeId="8568898107892565024" fileName="OrthogonalPointLayouter.java" startLine="264" startPosition="7" endLine="265" endPosition="17" />
+    <nodeInfo nodeId="8146903765832693672" fileName="OrthogonalPointLayouter.java" startLine="268" startPosition="33" endLine="269" endPosition="58" />
+    <nodeInfo nodeId="8146903765832693686" fileName="OrthogonalPointLayouter.java" startLine="270" startPosition="7" endLine="271" endPosition="32" />
+    <nodeInfo nodeId="8568898107892565029" fileName="OrthogonalPointLayouter.java" startLine="271" startPosition="32" endLine="272" endPosition="103" />
+    <nodeInfo nodeId="8568898107892565042" fileName="OrthogonalPointLayouter.java" startLine="272" startPosition="103" endLine="273" endPosition="17" />
+    <nodeInfo nodeId="315882939481514784" fileName="OrthogonalPointLayouter.java" startLine="275" startPosition="26" endLine="276" endPosition="73" />
+    <nodeInfo nodeId="315882939481514915" fileName="OrthogonalPointLayouter.java" startLine="276" startPosition="73" endLine="277" endPosition="58" />
+    <nodeInfo nodeId="8568898107892565078" fileName="OrthogonalPointLayouter.java" startLine="277" startPosition="58" endLine="278" endPosition="71" />
+    <nodeInfo nodeId="315882939481514842" fileName="OrthogonalPointLayouter.java" startLine="281" startPosition="55" endLine="282" endPosition="98" />
+    <nodeInfo nodeId="315882939481514861" fileName="OrthogonalPointLayouter.java" startLine="283" startPosition="18" endLine="284" endPosition="109" />
+    <nodeInfo nodeId="315882939481514881" fileName="OrthogonalPointLayouter.java" startLine="287" startPosition="7" endLine="288" endPosition="53" />
+    <nodeInfo nodeId="315882939481514891" fileName="OrthogonalPointLayouter.java" startLine="288" startPosition="53" endLine="289" endPosition="61" />
+    <nodeInfo nodeId="315882939481514935" fileName="OrthogonalPointLayouter.java" startLine="289" startPosition="61" endLine="290" endPosition="43" />
+    <nodeInfo nodeId="8568898107892565098" fileName="OrthogonalPointLayouter.java" startLine="290" startPosition="43" endLine="291" endPosition="52" />
+    <nodeInfo nodeId="8568898107892565131" fileName="OrthogonalPointLayouter.java" startLine="291" startPosition="52" endLine="292" endPosition="143" />
+    <nodeInfo nodeId="315882939481514969" fileName="OrthogonalPointLayouter.java" startLine="294" startPosition="44" endLine="295" endPosition="96" />
+    <nodeInfo nodeId="315882939481514989" fileName="OrthogonalPointLayouter.java" startLine="296" startPosition="16" endLine="297" endPosition="107" />
+    <nodeInfo nodeId="8568898107892565169" fileName="OrthogonalPointLayouter.java" startLine="300" startPosition="60" endLine="301" endPosition="61" />
+    <nodeInfo nodeId="529057043639208740" fileName="OrthogonalPointLayouter.java" startLine="306" startPosition="48" endLine="307" endPosition="43" />
+    <nodeInfo nodeId="529057043639208748" fileName="OrthogonalPointLayouter.java" startLine="307" startPosition="43" endLine="308" endPosition="41" />
+    <nodeInfo nodeId="529057043639208756" fileName="OrthogonalPointLayouter.java" startLine="308" startPosition="41" endLine="309" endPosition="48" />
+    <nodeInfo nodeId="529057043639209024" fileName="OrthogonalPointLayouter.java" startLine="309" startPosition="48" endLine="310" endPosition="42" />
+    <nodeInfo nodeId="529057043639208780" fileName="OrthogonalPointLayouter.java" startLine="312" startPosition="124" endLine="313" endPosition="70" />
+    <nodeInfo nodeId="529057043639208790" fileName="OrthogonalPointLayouter.java" startLine="313" startPosition="70" endLine="314" endPosition="26" />
+    <nodeInfo nodeId="529057043639208797" fileName="OrthogonalPointLayouter.java" startLine="314" startPosition="26" endLine="315" endPosition="32" />
+    <nodeInfo nodeId="529057043639325806" fileName="OrthogonalPointLayouter.java" startLine="315" startPosition="32" endLine="316" endPosition="38" />
+    <nodeInfo nodeId="529057043639208814" fileName="OrthogonalPointLayouter.java" startLine="320" startPosition="46" endLine="321" endPosition="70" />
+    <nodeInfo nodeId="529057043639237805" fileName="OrthogonalPointLayouter.java" startLine="326" startPosition="25" endLine="327" endPosition="15" />
+    <nodeInfo nodeId="529057043639208860" fileName="OrthogonalPointLayouter.java" startLine="328" startPosition="7" endLine="329" endPosition="49" />
+    <nodeInfo nodeId="529057043639208852" fileName="OrthogonalPointLayouter.java" startLine="329" startPosition="49" endLine="330" endPosition="63" />
+    <nodeInfo nodeId="529057043639208882" fileName="OrthogonalPointLayouter.java" startLine="330" startPosition="63" endLine="331" endPosition="63" />
+    <nodeInfo nodeId="529057043639209053" fileName="OrthogonalPointLayouter.java" startLine="333" startPosition="42" endLine="334" endPosition="44" />
+    <nodeInfo nodeId="529057043639208904" fileName="OrthogonalPointLayouter.java" startLine="337" startPosition="77" endLine="338" endPosition="92" />
+    <nodeInfo nodeId="529057043639208920" fileName="OrthogonalPointLayouter.java" startLine="340" startPosition="76" endLine="341" endPosition="92" />
+    <nodeInfo nodeId="529057043639208935" fileName="OrthogonalPointLayouter.java" startLine="343" startPosition="74" endLine="344" endPosition="92" />
+    <nodeInfo nodeId="529057043639208950" fileName="OrthogonalPointLayouter.java" startLine="346" startPosition="76" endLine="347" endPosition="92" />
+    <nodeInfo nodeId="529057043639208980" fileName="OrthogonalPointLayouter.java" startLine="348" startPosition="7" endLine="349" endPosition="68" />
+    <nodeInfo nodeId="529057043639209004" fileName="OrthogonalPointLayouter.java" startLine="352" startPosition="46" endLine="353" endPosition="27" />
+    <nodeInfo nodeId="529057043639208600" fileName="OrthogonalPointLayouter.java" startLine="39" startPosition="0" endLine="41" endPosition="3" />
+    <nodeInfo nodeId="4915750462377020019" fileName="OrthogonalPointLayouter.java" startLine="101" startPosition="12" endLine="103" endPosition="7" />
+    <nodeInfo nodeId="3380715998758086451" fileName="OrthogonalPointLayouter.java" startLine="122" startPosition="12" endLine="124" endPosition="7" />
+    <nodeInfo nodeId="4422427343208581808" fileName="OrthogonalPointLayouter.java" startLine="134" startPosition="12" endLine="136" endPosition="7" />
+    <nodeInfo nodeId="4422427343208581853" fileName="OrthogonalPointLayouter.java" startLine="140" startPosition="14" endLine="142" endPosition="9" />
+    <nodeInfo nodeId="315882939481514859" fileName="OrthogonalPointLayouter.java" startLine="283" startPosition="16" endLine="285" endPosition="11" />
+    <nodeInfo nodeId="315882939481514984" fileName="OrthogonalPointLayouter.java" startLine="296" startPosition="14" endLine="298" endPosition="9" />
+    <nodeInfo nodeId="5488345258545822762" fileName="OrthogonalPointLayouter.java" startLine="45" startPosition="19" endLine="48" endPosition="5" />
+    <nodeInfo nodeId="529057043639328316" fileName="OrthogonalPointLayouter.java" startLine="51" startPosition="77" endLine="54" endPosition="5" />
+    <nodeInfo nodeId="529057043639328342" fileName="OrthogonalPointLayouter.java" startLine="54" startPosition="5" endLine="57" endPosition="5" />
+    <nodeInfo nodeId="4422427343208738010" fileName="OrthogonalPointLayouter.java" startLine="64" startPosition="81" endLine="67" endPosition="7" />
+    <nodeInfo nodeId="3380715998758092858" fileName="OrthogonalPointLayouter.java" startLine="73" startPosition="70" endLine="76" endPosition="7" />
+    <nodeInfo nodeId="3380715998758092906" fileName="OrthogonalPointLayouter.java" startLine="79" startPosition="55" endLine="82" endPosition="7" />
+    <nodeInfo nodeId="3380715998758092968" fileName="OrthogonalPointLayouter.java" startLine="84" startPosition="55" endLine="87" endPosition="9" />
+    <nodeInfo nodeId="3380715998758082809" fileName="OrthogonalPointLayouter.java" startLine="194" startPosition="63" endLine="197" endPosition="5" />
+    <nodeInfo nodeId="3380715998758082631" fileName="OrthogonalPointLayouter.java" startLine="210" startPosition="62" endLine="213" endPosition="5" />
+    <nodeInfo nodeId="3380715998758082723" fileName="OrthogonalPointLayouter.java" startLine="230" startPosition="35" endLine="233" endPosition="7" />
+    <nodeInfo nodeId="3380715998758082734" fileName="OrthogonalPointLayouter.java" startLine="233" startPosition="7" endLine="236" endPosition="7" />
+    <nodeInfo nodeId="8146903765832629840" fileName="OrthogonalPointLayouter.java" startLine="244" startPosition="52" endLine="247" endPosition="7" />
+    <nodeInfo nodeId="8146903765832693659" fileName="OrthogonalPointLayouter.java" startLine="267" startPosition="22" endLine="270" endPosition="7" />
+    <nodeInfo nodeId="8568898107892565146" fileName="OrthogonalPointLayouter.java" startLine="299" startPosition="7" endLine="302" endPosition="7" />
+    <nodeInfo nodeId="529057043639237796" fileName="OrthogonalPointLayouter.java" startLine="325" startPosition="53" endLine="328" endPosition="7" />
+    <nodeInfo nodeId="529057043639208891" fileName="OrthogonalPointLayouter.java" startLine="336" startPosition="9" endLine="339" endPosition="7" />
+    <nodeInfo nodeId="529057043639208918" fileName="OrthogonalPointLayouter.java" startLine="339" startPosition="7" endLine="342" endPosition="7" />
+    <nodeInfo nodeId="529057043639208933" fileName="OrthogonalPointLayouter.java" startLine="342" startPosition="7" endLine="345" endPosition="7" />
+    <nodeInfo nodeId="529057043639208948" fileName="OrthogonalPointLayouter.java" startLine="345" startPosition="7" endLine="348" endPosition="7" />
+    <nodeInfo nodeId="5488345258545822905" fileName="OrthogonalPointLayouter.java" startLine="148" startPosition="5" endLine="152" endPosition="5" />
+    <nodeInfo nodeId="3380715998758082447" fileName="OrthogonalPointLayouter.java" startLine="165" startPosition="96" endLine="169" endPosition="5" />
+    <nodeInfo nodeId="3380715998758082536" fileName="OrthogonalPointLayouter.java" startLine="185" startPosition="5" endLine="189" endPosition="5" />
+    <nodeInfo nodeId="8146903765832693617" fileName="OrthogonalPointLayouter.java" startLine="260" startPosition="107" endLine="264" endPosition="7" />
+    <nodeInfo nodeId="529057043639209049" fileName="OrthogonalPointLayouter.java" startLine="332" startPosition="108" endLine="336" endPosition="0" />
+    <nodeInfo nodeId="529057043639208995" fileName="OrthogonalPointLayouter.java" startLine="351" startPosition="0" endLine="355" endPosition="0" />
+    <nodeInfo nodeId="4655725461921717885" fileName="OrthogonalPointLayouter.java" startLine="98" startPosition="61" endLine="103" endPosition="7" />
+    <nodeInfo nodeId="4422427343208581766" fileName="OrthogonalPointLayouter.java" startLine="131" startPosition="80" endLine="136" endPosition="7" />
+    <nodeInfo nodeId="4422427343208581831" fileName="OrthogonalPointLayouter.java" startLine="137" startPosition="60" endLine="142" endPosition="9" />
+    <nodeInfo nodeId="5488345258545829957" fileName="OrthogonalPointLayouter.java" startLine="169" startPosition="5" endLine="174" endPosition="5" />
+    <nodeInfo nodeId="3380715998758082862" fileName="OrthogonalPointLayouter.java" startLine="202" startPosition="94" endLine="207" endPosition="7" />
+    <nodeInfo nodeId="5488345258545828557" fileName="OrthogonalPointLayouter.java" startLine="219" startPosition="5" endLine="224" endPosition="5" />
+    <nodeInfo nodeId="315882939481514812" fileName="OrthogonalPointLayouter.java" startLine="280" startPosition="85" endLine="285" endPosition="11" />
+    <nodeInfo nodeId="315882939481514956" fileName="OrthogonalPointLayouter.java" startLine="293" startPosition="82" endLine="298" endPosition="9" />
+    <nodeInfo nodeId="529057043639208803" fileName="OrthogonalPointLayouter.java" startLine="318" startPosition="0" endLine="323" endPosition="0" />
+    <nodeInfo nodeId="529057043639209033" fileName="OrthogonalPointLayouter.java" startLine="331" startPosition="63" endLine="336" endPosition="9" />
+    <nodeInfo nodeId="3380715998758092848" fileName="OrthogonalPointLayouter.java" startLine="71" startPosition="109" endLine="77" endPosition="5" />
+    <nodeInfo nodeId="3380715998758094385" fileName="OrthogonalPointLayouter.java" startLine="82" startPosition="7" endLine="88" endPosition="7" />
+    <nodeInfo nodeId="5488345258545828305" fileName="OrthogonalPointLayouter.java" startLine="89" startPosition="5" endLine="95" endPosition="5" />
+    <nodeInfo nodeId="5488345258545828459" fileName="OrthogonalPointLayouter.java" startLine="179" startPosition="52" endLine="185" endPosition="5" />
+    <nodeInfo nodeId="3380715998758082645" fileName="OrthogonalPointLayouter.java" startLine="213" startPosition="5" endLine="219" endPosition="5" />
+    <nodeInfo nodeId="8146903765832624814" fileName="OrthogonalPointLayouter.java" startLine="243" startPosition="94" endLine="249" endPosition="5" />
+    <nodeInfo nodeId="529057043639208735" fileName="OrthogonalPointLayouter.java" startLine="311" startPosition="0" endLine="317" endPosition="5" />
+    <nodeInfo nodeId="3380715998758086510" fileName="OrthogonalPointLayouter.java" startLine="113" startPosition="37" endLine="120" endPosition="9" />
+    <nodeInfo nodeId="315882939481514801" fileName="OrthogonalPointLayouter.java" startLine="279" startPosition="60" endLine="286" endPosition="9" />
+    <nodeInfo nodeId="315882939481514945" fileName="OrthogonalPointLayouter.java" startLine="292" startPosition="143" endLine="299" endPosition="7" />
+    <nodeInfo nodeId="3380715998758092580" fileName="OrthogonalPointLayouter.java" startLine="60" startPosition="89" endLine="68" endPosition="5" />
+    <nodeInfo nodeId="4655725461921717875" fileName="OrthogonalPointLayouter.java" startLine="96" startPosition="123" endLine="104" endPosition="5" />
+    <nodeInfo nodeId="3380715998758092994" fileName="OrthogonalPointLayouter.java" startLine="136" startPosition="7" endLine="144" endPosition="7" />
+    <nodeInfo nodeId="8146903765832693651" fileName="OrthogonalPointLayouter.java" startLine="266" startPosition="5" endLine="274" endPosition="5" />
+    <nodeInfo nodeId="8146903765832693577" fileName="OrthogonalPointLayouter.java" startLine="257" startPosition="16" endLine="266" endPosition="5" />
+    <nodeInfo nodeId="315882939481514796" fileName="OrthogonalPointLayouter.java" startLine="278" startPosition="71" endLine="287" endPosition="7" />
+    <nodeInfo nodeId="3380715998758082713" fileName="OrthogonalPointLayouter.java" startLine="228" startPosition="113" endLine="238" endPosition="5" />
+    <nodeInfo nodeId="8146903765832599966" fileName="OrthogonalPointLayouter.java" startLine="240" startPosition="0" endLine="251" endPosition="0" />
+    <nodeInfo nodeId="3380715998758092896" fileName="OrthogonalPointLayouter.java" startLine="77" startPosition="5" endLine="89" endPosition="5" />
+    <nodeInfo nodeId="3380715998758082836" fileName="OrthogonalPointLayouter.java" startLine="197" startPosition="5" endLine="209" endPosition="5" />
+    <nodeInfo nodeId="3380715998758082700" fileName="OrthogonalPointLayouter.java" startLine="227" startPosition="0" endLine="240" endPosition="0" />
+    <nodeInfo nodeId="3380715998758086440" fileName="OrthogonalPointLayouter.java" startLine="108" startPosition="61" endLine="124" endPosition="7" />
+    <nodeInfo nodeId="3380715998758086430" fileName="OrthogonalPointLayouter.java" startLine="106" startPosition="63" endLine="125" endPosition="5" />
+    <nodeInfo nodeId="3380715998758086639" fileName="OrthogonalPointLayouter.java" startLine="125" startPosition="5" endLine="148" endPosition="5" />
+    <nodeInfo nodeId="529057043639208835" fileName="OrthogonalPointLayouter.java" startLine="323" startPosition="0" endLine="351" endPosition="0" />
+    <nodeInfo nodeId="8568898107892565176" fileName="OrthogonalPointLayouter.java" startLine="274" startPosition="5" endLine="303" endPosition="5" />
+    <nodeInfo nodeId="8146903765832608593" fileName="OrthogonalPointLayouter.java" startLine="251" startPosition="0" endLine="305" endPosition="0" />
+    <nodeInfo nodeId="3380715998758077821" fileName="OrthogonalPointLayouter.java" startLine="155" startPosition="0" endLine="227" endPosition="0" />
+    <nodeInfo nodeId="529057043639208604" fileName="OrthogonalPointLayouter.java" startLine="42" startPosition="0" endLine="155" endPosition="0" />
+    <scopeInfo nodeId="529057043639208603" fileName="OrthogonalPointLayouter.java" startLine="40" startPosition="36" endLine="40" endPosition="36" />
+    <scopeInfo nodeId="5488345258545822763" fileName="OrthogonalPointLayouter.java" startLine="46" startPosition="24" endLine="47" endPosition="190" />
+    <scopeInfo nodeId="529057043639328319" fileName="OrthogonalPointLayouter.java" startLine="52" startPosition="63" endLine="53" endPosition="61" />
+    <scopeInfo nodeId="529057043639328345" fileName="OrthogonalPointLayouter.java" startLine="55" startPosition="63" endLine="56" endPosition="159" />
+    <scopeInfo nodeId="4422427343208738011" fileName="OrthogonalPointLayouter.java" startLine="65" startPosition="87" endLine="66" endPosition="125" />
+    <scopeInfo nodeId="3380715998758092860" fileName="OrthogonalPointLayouter.java" startLine="74" startPosition="72" endLine="75" endPosition="106" />
+    <scopeInfo nodeId="3380715998758092908" fileName="OrthogonalPointLayouter.java" startLine="80" startPosition="66" endLine="81" endPosition="97" />
+    <scopeInfo nodeId="3380715998758092973" fileName="OrthogonalPointLayouter.java" startLine="85" startPosition="67" endLine="86" endPosition="136" />
+    <scopeInfo nodeId="4655725461921717887" fileName="OrthogonalPointLayouter.java" startLine="99" startPosition="67" endLine="100" endPosition="102" />
+    <scopeInfo nodeId="4915750462377020020" fileName="OrthogonalPointLayouter.java" startLine="101" startPosition="14" endLine="102" endPosition="101" />
+    <scopeInfo nodeId="3380715998758086452" fileName="OrthogonalPointLayouter.java" startLine="122" startPosition="14" endLine="123" endPosition="104" />
+    <scopeInfo nodeId="4422427343208581767" fileName="OrthogonalPointLayouter.java" startLine="132" startPosition="132" endLine="133" endPosition="26" />
+    <scopeInfo nodeId="4422427343208581809" fileName="OrthogonalPointLayouter.java" startLine="134" startPosition="14" endLine="135" endPosition="69" />
+    <scopeInfo nodeId="4422427343208581832" fileName="OrthogonalPointLayouter.java" startLine="138" startPosition="38" endLine="139" endPosition="110" />
+    <scopeInfo nodeId="4422427343208581854" fileName="OrthogonalPointLayouter.java" startLine="140" startPosition="16" endLine="141" endPosition="125" />
+    <scopeInfo nodeId="3380715998758082812" fileName="OrthogonalPointLayouter.java" startLine="195" startPosition="55" endLine="196" endPosition="81" />
+    <scopeInfo nodeId="3380715998758082636" fileName="OrthogonalPointLayouter.java" startLine="211" startPosition="63" endLine="212" endPosition="80" />
+    <scopeInfo nodeId="3380715998758082724" fileName="OrthogonalPointLayouter.java" startLine="231" startPosition="44" endLine="232" endPosition="37" />
+    <scopeInfo nodeId="3380715998758082735" fileName="OrthogonalPointLayouter.java" startLine="234" startPosition="64" endLine="235" endPosition="94" />
+    <scopeInfo nodeId="8146903765832629841" fileName="OrthogonalPointLayouter.java" startLine="245" startPosition="44" endLine="246" endPosition="17" />
+    <scopeInfo nodeId="8146903765832693661" fileName="OrthogonalPointLayouter.java" startLine="268" startPosition="33" endLine="269" endPosition="58" />
+    <scopeInfo nodeId="315882939481514814" fileName="OrthogonalPointLayouter.java" startLine="281" startPosition="55" endLine="282" endPosition="98" />
+    <scopeInfo nodeId="315882939481514860" fileName="OrthogonalPointLayouter.java" startLine="283" startPosition="18" endLine="284" endPosition="109" />
+    <scopeInfo nodeId="315882939481514958" fileName="OrthogonalPointLayouter.java" startLine="294" startPosition="44" endLine="295" endPosition="96" />
+    <scopeInfo nodeId="315882939481514985" fileName="OrthogonalPointLayouter.java" startLine="296" startPosition="16" endLine="297" endPosition="107" />
+    <scopeInfo nodeId="8568898107892565149" fileName="OrthogonalPointLayouter.java" startLine="300" startPosition="60" endLine="301" endPosition="61" />
+    <scopeInfo nodeId="529057043639208808" fileName="OrthogonalPointLayouter.java" startLine="320" startPosition="46" endLine="321" endPosition="70" />
+    <scopeInfo nodeId="529057043639237797" fileName="OrthogonalPointLayouter.java" startLine="326" startPosition="25" endLine="327" endPosition="15" />
+    <scopeInfo nodeId="529057043639209050" fileName="OrthogonalPointLayouter.java" startLine="333" startPosition="42" endLine="334" endPosition="44" />
+    <scopeInfo nodeId="529057043639208892" fileName="OrthogonalPointLayouter.java" startLine="337" startPosition="77" endLine="338" endPosition="92" />
+    <scopeInfo nodeId="529057043639208919" fileName="OrthogonalPointLayouter.java" startLine="340" startPosition="76" endLine="341" endPosition="92" />
+    <scopeInfo nodeId="529057043639208934" fileName="OrthogonalPointLayouter.java" startLine="343" startPosition="74" endLine="344" endPosition="92" />
+    <scopeInfo nodeId="529057043639208949" fileName="OrthogonalPointLayouter.java" startLine="346" startPosition="76" endLine="347" endPosition="92" />
+    <scopeInfo nodeId="529057043639208998" fileName="OrthogonalPointLayouter.java" startLine="352" startPosition="46" endLine="353" endPosition="27" />
+    <scopeInfo nodeId="529057043639208600" fileName="OrthogonalPointLayouter.java" startLine="39" startPosition="0" endLine="41" endPosition="3" />
+    <scopeInfo nodeId="5488345258545822906" fileName="OrthogonalPointLayouter.java" startLine="149" startPosition="24" endLine="151" endPosition="64">
+      <varInfo nodeId="5488345258545822908" varName="newTime" />
+    </scopeInfo>
+    <scopeInfo nodeId="3380715998758082448" fileName="OrthogonalPointLayouter.java" startLine="166" startPosition="23" endLine="168" endPosition="32" />
+    <scopeInfo nodeId="3380715998758082537" fileName="OrthogonalPointLayouter.java" startLine="186" startPosition="23" endLine="188" endPosition="66" />
+    <scopeInfo nodeId="8146903765832693618" fileName="OrthogonalPointLayouter.java" startLine="261" startPosition="21" endLine="263" endPosition="19" />
+    <scopeInfo nodeId="529057043639328316" fileName="OrthogonalPointLayouter.java" startLine="51" startPosition="77" endLine="54" endPosition="5" />
+    <scopeInfo nodeId="529057043639328342" fileName="OrthogonalPointLayouter.java" startLine="54" startPosition="5" endLine="57" endPosition="5" />
+    <scopeInfo nodeId="5488345258545829958" fileName="OrthogonalPointLayouter.java" startLine="170" startPosition="24" endLine="173" endPosition="24">
+      <varInfo nodeId="5488345258545829960" varName="newTime" />
+    </scopeInfo>
+    <scopeInfo nodeId="3380715998758082809" fileName="OrthogonalPointLayouter.java" startLine="194" startPosition="63" endLine="197" endPosition="5" />
+    <scopeInfo nodeId="3380715998758082865" fileName="OrthogonalPointLayouter.java" startLine="203" startPosition="63" endLine="206" endPosition="19">
+      <varInfo nodeId="4422427343208575212" varName="next" />
+    </scopeInfo>
+    <scopeInfo nodeId="3380715998758082631" fileName="OrthogonalPointLayouter.java" startLine="210" startPosition="62" endLine="213" endPosition="5" />
+    <scopeInfo nodeId="5488345258545828558" fileName="OrthogonalPointLayouter.java" startLine="220" startPosition="24" endLine="223" endPosition="24">
+      <varInfo nodeId="5488345258545828560" varName="newTime" />
+    </scopeInfo>
+    <scopeInfo nodeId="3380715998758082734" fileName="OrthogonalPointLayouter.java" startLine="233" startPosition="7" endLine="236" endPosition="7" />
+    <scopeInfo nodeId="8568898107892565146" fileName="OrthogonalPointLayouter.java" startLine="299" startPosition="7" endLine="302" endPosition="7" />
+    <scopeInfo nodeId="3380715998758092851" fileName="OrthogonalPointLayouter.java" startLine="72" startPosition="88" endLine="76" endPosition="7">
+      <varInfo nodeId="3380715998758092866" varName="replacement" />
+    </scopeInfo>
+    <scopeInfo nodeId="3380715998758094387" fileName="OrthogonalPointLayouter.java" startLine="83" startPosition="52" endLine="87" endPosition="9">
+      <varInfo nodeId="3380715998758092963" varName="last" />
+    </scopeInfo>
+    <scopeInfo nodeId="5488345258545828306" fileName="OrthogonalPointLayouter.java" startLine="90" startPosition="24" endLine="94" endPosition="24">
+      <varInfo nodeId="5488345258545828308" varName="newTime" />
+    </scopeInfo>
+    <scopeInfo nodeId="5488345258545828460" fileName="OrthogonalPointLayouter.java" startLine="180" startPosition="24" endLine="184" endPosition="24">
+      <varInfo nodeId="5488345258545828462" varName="newTime" />
+    </scopeInfo>
+    <scopeInfo nodeId="3380715998758082650" fileName="OrthogonalPointLayouter.java" startLine="214" startPosition="63" endLine="218" endPosition="48">
+      <varInfo nodeId="3380715998758082652" varName="edgeLayout" />
+    </scopeInfo>
+    <scopeInfo nodeId="8146903765832624817" fileName="OrthogonalPointLayouter.java" startLine="244" startPosition="52" endLine="248" endPosition="56" />
+    <scopeInfo nodeId="529057043639208738" fileName="OrthogonalPointLayouter.java" startLine="312" startPosition="124" endLine="316" endPosition="38" />
+    <scopeInfo nodeId="529057043639209049" fileName="OrthogonalPointLayouter.java" startLine="332" startPosition="108" endLine="336" endPosition="0" />
+    <scopeInfo nodeId="529057043639208995" fileName="OrthogonalPointLayouter.java" startLine="351" startPosition="0" endLine="355" endPosition="0" />
+    <scopeInfo nodeId="3380715998758086513" fileName="OrthogonalPointLayouter.java" startLine="114" startPosition="97" endLine="119" endPosition="41">
+      <varInfo nodeId="3380715998758086528" varName="point" />
+    </scopeInfo>
+    <scopeInfo nodeId="3380715998758082862" fileName="OrthogonalPointLayouter.java" startLine="202" startPosition="94" endLine="207" endPosition="7" />
+    <scopeInfo nodeId="315882939481514804" fileName="OrthogonalPointLayouter.java" startLine="280" startPosition="85" endLine="285" endPosition="11" />
+    <scopeInfo nodeId="315882939481514948" fileName="OrthogonalPointLayouter.java" startLine="293" startPosition="82" endLine="298" endPosition="9" />
+    <scopeInfo nodeId="529057043639208803" fileName="OrthogonalPointLayouter.java" startLine="318" startPosition="0" endLine="323" endPosition="0">
+      <varInfo nodeId="529057043639208806" varName="root" />
+    </scopeInfo>
+    <scopeInfo nodeId="3380715998758092583" fileName="OrthogonalPointLayouter.java" startLine="61" startPosition="63" endLine="67" endPosition="7">
+      <varInfo nodeId="5488345258545805054" varName="copyEdge" />
+    </scopeInfo>
+    <scopeInfo nodeId="3380715998758092848" fileName="OrthogonalPointLayouter.java" startLine="71" startPosition="109" endLine="77" endPosition="5" />
+    <scopeInfo nodeId="4655725461921717878" fileName="OrthogonalPointLayouter.java" startLine="97" startPosition="63" endLine="103" endPosition="7">
+      <varInfo nodeId="4915750462377020032" varName="copyNode" />
+    </scopeInfo>
+    <scopeInfo nodeId="3380715998758092997" fileName="OrthogonalPointLayouter.java" startLine="137" startPosition="60" endLine="143" endPosition="36" />
+    <scopeInfo nodeId="3380715998758082645" fileName="OrthogonalPointLayouter.java" startLine="213" startPosition="5" endLine="219" endPosition="5" />
+    <scopeInfo nodeId="8146903765832624814" fileName="OrthogonalPointLayouter.java" startLine="243" startPosition="94" endLine="249" endPosition="5" />
+    <scopeInfo nodeId="8146903765832693653" fileName="OrthogonalPointLayouter.java" startLine="267" startPosition="22" endLine="273" endPosition="17">
+      <varInfo nodeId="8146903765832693687" varName="cur" />
+    </scopeInfo>
+    <scopeInfo nodeId="529057043639208735" fileName="OrthogonalPointLayouter.java" startLine="311" startPosition="0" endLine="317" endPosition="5">
+      <varInfo nodeId="529057043639208773" varName="directions" />
+      <varInfo nodeId="529057043639208766" varName="lengths" />
+      <varInfo nodeId="529057043639208764" varName="embeddedGraph" />
+    </scopeInfo>
+    <scopeInfo nodeId="3380715998758086510" fileName="OrthogonalPointLayouter.java" startLine="113" startPosition="37" endLine="120" endPosition="9" />
+    <scopeInfo nodeId="8146903765832693579" fileName="OrthogonalPointLayouter.java" startLine="258" startPosition="50" endLine="265" endPosition="17">
+      <varInfo nodeId="8146903765832693608" varName="turn" />
+      <varInfo nodeId="8146903765832693589" varName="cur" />
+    </scopeInfo>
+    <scopeInfo nodeId="315882939481514799" fileName="OrthogonalPointLayouter.java" startLine="279" startPosition="60" endLine="286" endPosition="9" />
+    <scopeInfo nodeId="315882939481514801" fileName="OrthogonalPointLayouter.java" startLine="279" startPosition="60" endLine="286" endPosition="9" />
+    <scopeInfo nodeId="315882939481514945" fileName="OrthogonalPointLayouter.java" startLine="292" startPosition="143" endLine="299" endPosition="7" />
+    <scopeInfo nodeId="3380715998758092580" fileName="OrthogonalPointLayouter.java" startLine="60" startPosition="89" endLine="68" endPosition="5" />
+    <scopeInfo nodeId="4655725461921717875" fileName="OrthogonalPointLayouter.java" startLine="96" startPosition="123" endLine="104" endPosition="5" />
+    <scopeInfo nodeId="3380715998758092994" fileName="OrthogonalPointLayouter.java" startLine="136" startPosition="7" endLine="144" endPosition="7" />
+    <scopeInfo nodeId="3380715998758082717" fileName="OrthogonalPointLayouter.java" startLine="229" startPosition="71" endLine="237" endPosition="27" />
+    <scopeInfo nodeId="8146903765832599969" fileName="OrthogonalPointLayouter.java" startLine="241" startPosition="99" endLine="249" endPosition="5">
+      <varInfo nodeId="315882939481516053" varName="faces" />
+    </scopeInfo>
+    <scopeInfo nodeId="315882939481514796" fileName="OrthogonalPointLayouter.java" startLine="278" startPosition="71" endLine="287" endPosition="7" />
+    <scopeInfo nodeId="3380715998758092899" fileName="OrthogonalPointLayouter.java" startLine="78" startPosition="90" endLine="88" endPosition="7">
+      <varInfo nodeId="3380715998758092938" varName="first" />
+    </scopeInfo>
+    <scopeInfo nodeId="3380715998758082839" fileName="OrthogonalPointLayouter.java" startLine="198" startPosition="55" endLine="208" endPosition="49">
+      <varInfo nodeId="3380715998758082849" varName="history" />
+      <varInfo nodeId="4422427343208575197" varName="cur" />
+      <varInfo nodeId="3380715998758082870" varName="edgeLayout" />
+    </scopeInfo>
+    <scopeInfo nodeId="3380715998758082707" fileName="OrthogonalPointLayouter.java" startLine="228" startPosition="113" endLine="238" endPosition="5" />
+    <scopeInfo nodeId="3380715998758082713" fileName="OrthogonalPointLayouter.java" startLine="228" startPosition="113" endLine="238" endPosition="5" />
+    <scopeInfo nodeId="8146903765832599966" fileName="OrthogonalPointLayouter.java" startLine="240" startPosition="0" endLine="251" endPosition="0">
+      <varInfo nodeId="8146903765832604036" varName="direction" />
+      <varInfo nodeId="8146903765832604034" varName="embeddedGraph" />
+    </scopeInfo>
+    <scopeInfo nodeId="3380715998758092896" fileName="OrthogonalPointLayouter.java" startLine="77" startPosition="5" endLine="89" endPosition="5" />
+    <scopeInfo nodeId="3380715998758086442" fileName="OrthogonalPointLayouter.java" startLine="109" startPosition="64" endLine="121" endPosition="88">
+      <varInfo nodeId="3380715998758086507" varName="maxY" />
+      <varInfo nodeId="3380715998758086503" varName="maxX" />
+      <varInfo nodeId="3380715998758086488" varName="minX" />
+      <varInfo nodeId="3380715998758086494" varName="minY" />
+    </scopeInfo>
+    <scopeInfo nodeId="3380715998758082836" fileName="OrthogonalPointLayouter.java" startLine="197" startPosition="5" endLine="209" endPosition="5" />
+    <scopeInfo nodeId="3380715998758082700" fileName="OrthogonalPointLayouter.java" startLine="227" startPosition="0" endLine="240" endPosition="0">
+      <varInfo nodeId="3380715998758082699" varName="directions" />
+      <varInfo nodeId="3380715998758082698" varName="embeddedGraph" />
+    </scopeInfo>
+    <scopeInfo nodeId="3380715998758086433" fileName="OrthogonalPointLayouter.java" startLine="107" startPosition="63" endLine="124" endPosition="7">
+      <varInfo nodeId="3380715998758170842" varName="copyNode" />
+    </scopeInfo>
+    <scopeInfo nodeId="3380715998758086430" fileName="OrthogonalPointLayouter.java" startLine="106" startPosition="63" endLine="125" endPosition="5" />
+    <scopeInfo nodeId="3380715998758086642" fileName="OrthogonalPointLayouter.java" startLine="126" startPosition="68" endLine="147" endPosition="54">
+      <varInfo nodeId="4422427343208581763" varName="cur" />
+      <varInfo nodeId="3380715998758092626" varName="edgeLayout" />
+      <varInfo nodeId="3380715998758092650" varName="edgeHistory" />
+      <varInfo nodeId="4422427343208581811" varName="firstSource" />
+      <varInfo nodeId="4422427343208581746" varName="copySource" />
+    </scopeInfo>
+    <scopeInfo nodeId="3380715998758086639" fileName="OrthogonalPointLayouter.java" startLine="125" startPosition="5" endLine="148" endPosition="5" />
+    <scopeInfo nodeId="529057043639208842" fileName="OrthogonalPointLayouter.java" startLine="325" startPosition="53" endLine="349" endPosition="68">
+      <varInfo nodeId="529057043639209034" varName="dart" />
+      <varInfo nodeId="529057043639208861" varName="source" />
+      <varInfo nodeId="529057043639208883" varName="y" />
+      <varInfo nodeId="529057043639208853" varName="x" />
+    </scopeInfo>
+    <scopeInfo nodeId="8568898107892565178" fileName="OrthogonalPointLayouter.java" startLine="275" startPosition="26" endLine="302" endPosition="7">
+      <varInfo nodeId="8568898107892565099" varName="splitEdge" />
+      <varInfo nodeId="315882939481514936" varName="badCorner" />
+      <varInfo nodeId="8568898107892565132" varName="newFaces" />
+      <varInfo nodeId="315882939481514785" varName="newEdges" />
+      <varInfo nodeId="8568898107892565079" varName="newNode" />
+      <varInfo nodeId="315882939481514916" varName="prevOpposite" />
+    </scopeInfo>
+    <scopeInfo nodeId="529057043639208835" fileName="OrthogonalPointLayouter.java" startLine="323" startPosition="0" endLine="351" endPosition="0">
+      <varInfo nodeId="529057043639208838" varName="node" />
+      <varInfo nodeId="529057043639208840" varName="from" />
+    </scopeInfo>
+    <scopeInfo nodeId="8146903765832608596" fileName="OrthogonalPointLayouter.java" startLine="252" startPosition="107" endLine="303" endPosition="5">
+      <varInfo nodeId="8146903765832608612" varName="badDart" />
+      <varInfo nodeId="8146903765832693639" varName="sum" />
+      <varInfo nodeId="8146903765832693552" varName="dartItr" />
+      <varInfo nodeId="8146903765832693569" varName="darts" />
+      <varInfo nodeId="8146903765832608632" varName="prev" />
+    </scopeInfo>
+    <scopeInfo nodeId="8146903765832608593" fileName="OrthogonalPointLayouter.java" startLine="251" startPosition="0" endLine="305" endPosition="0">
+      <varInfo nodeId="8146903765832608599" varName="face" />
+      <varInfo nodeId="8146903765832608602" varName="direction" />
+      <varInfo nodeId="8146903765832608597" varName="embeddedGraph" />
+    </scopeInfo>
+    <scopeInfo nodeId="3380715998758077824" fileName="OrthogonalPointLayouter.java" startLine="156" startPosition="130" endLine="225" endPosition="22">
+      <varInfo nodeId="3380715998758082469" varName="directions" />
+      <varInfo nodeId="3380715998758082434" varName="angles" />
+      <varInfo nodeId="4655725461921716247" varName="modifier" />
+      <varInfo nodeId="3380715998758082780" varName="oldNodes" />
+      <varInfo nodeId="3380715998758082604" varName="dfs" />
+      <varInfo nodeId="3380715998758077831" varName="graph" />
+      <varInfo nodeId="3380715998758082802" varName="graphLayout" />
+      <varInfo nodeId="3380715998758082386" varName="oldEdges" />
+      <varInfo nodeId="3380715998758082425" varName="bends" />
+      <varInfo nodeId="3380715998758082593" varName="lengths" />
+      <varInfo nodeId="3380715998758082618" varName="coordinates" />
+      <varInfo nodeId="3380715998758082626" varName="copyLayout" />
+    </scopeInfo>
+    <scopeInfo nodeId="3380715998758077821" fileName="OrthogonalPointLayouter.java" startLine="155" startPosition="0" endLine="227" endPosition="0">
+      <varInfo nodeId="4655725461921716271" varName="nodeMap" />
+      <varInfo nodeId="3380715998758092746" varName="edgesToBeStraight" />
+      <varInfo nodeId="3380715998758077826" varName="embeddedGraph" />
+    </scopeInfo>
+    <scopeInfo nodeId="529057043639208607" fileName="OrthogonalPointLayouter.java" startLine="43" startPosition="49" endLine="153" endPosition="22">
+      <varInfo nodeId="4655725461921717860" varName="nodesToSplit" />
+      <varInfo nodeId="3380715998758092786" varName="replacedEdges" />
+      <varInfo nodeId="3380715998758086655" varName="history" />
+      <varInfo nodeId="5488345258545822731" varName="time" />
+      <varInfo nodeId="529057043639328286" varName="edgeMap" />
+      <varInfo nodeId="3380715998758086457" varName="graphLayout" />
+      <varInfo nodeId="529057043639328294" varName="nodeMap" />
+      <varInfo nodeId="529057043639208639" varName="embeddedGraph" />
+      <varInfo nodeId="3380715998758086413" varName="newEdges" />
+      <varInfo nodeId="3380715998758086402" varName="newNodes" />
+      <varInfo nodeId="3380715998758086348" varName="copyLayout" />
+      <varInfo nodeId="529057043639328279" varName="copy" />
+    </scopeInfo>
+    <scopeInfo nodeId="529057043639208604" fileName="OrthogonalPointLayouter.java" startLine="42" startPosition="0" endLine="155" endPosition="0">
+      <varInfo nodeId="529057043639208633" varName="graph" />
+    </scopeInfo>
+    <unitInfo nodeId="529057043639209049" fileName="OrthogonalPointLayouter.java" startLine="332" startPosition="86" endLine="336" endPosition="7" unitName="jetbrains.mps.graphLayout.flowOrthogonalLayout.OrthogonalPointLayouter$1" />
+    <unitInfo nodeId="529057043639208733" fileName="OrthogonalPointLayouter.java" startLine="306" startPosition="0" endLine="356" endPosition="0" unitName="jetbrains.mps.graphLayout.flowOrthogonalLayout.OrthogonalPointLayouter$CoordinatePlacerDfs" />
+    <unitInfo nodeId="529057043639208598" fileName="OrthogonalPointLayouter.java" startLine="32" startPosition="0" endLine="357" endPosition="0" unitName="jetbrains.mps.graphLayout.flowOrthogonalLayout.OrthogonalPointLayouter" />
+  </root>
+  <root nodeId="7428187320254594689">
+    <nodeInfo nodeId="7428187320254595078" fileName="EmbeddedGraphModifier.java" startLine="27" startPosition="36" endLine="28" endPosition="24" />
+    <nodeInfo nodeId="7428187320254595083" fileName="EmbeddedGraphModifier.java" startLine="28" startPosition="24" endLine="29" endPosition="40" />
+    <nodeInfo nodeId="7428187320254595087" fileName="EmbeddedGraphModifier.java" startLine="29" startPosition="40" endLine="30" endPosition="50" />
+    <nodeInfo nodeId="7428187320254595096" fileName="EmbeddedGraphModifier.java" startLine="32" startPosition="61" endLine="33" endPosition="39" />
+    <nodeInfo nodeId="7428187320254595109" fileName="EmbeddedGraphModifier.java" startLine="33" startPosition="39" endLine="34" endPosition="36" />
+    <nodeInfo nodeId="7428187320254595129" fileName="EmbeddedGraphModifier.java" startLine="37" startPosition="72" endLine="38" endPosition="38" />
+    <nodeInfo nodeId="7428187320254594739" fileName="EmbeddedGraphModifier.java" startLine="42" startPosition="89" endLine="43" endPosition="71" />
+    <nodeInfo nodeId="4655725461921796700" fileName="EmbeddedGraphModifier.java" startLine="44" startPosition="54" endLine="45" endPosition="41" />
+    <nodeInfo nodeId="4655725461921796693" fileName="EmbeddedGraphModifier.java" startLine="46" startPosition="14" endLine="47" endPosition="84" />
+    <nodeInfo nodeId="4655725461921796732" fileName="EmbeddedGraphModifier.java" startLine="52" startPosition="68" endLine="53" endPosition="140" />
+    <nodeInfo nodeId="4655725461921797038" fileName="EmbeddedGraphModifier.java" startLine="53" startPosition="140" endLine="54" endPosition="139" />
+    <nodeInfo nodeId="4655725461921797115" fileName="EmbeddedGraphModifier.java" startLine="56" startPosition="40" endLine="57" endPosition="57" />
+    <nodeInfo nodeId="4655725461921797668" fileName="EmbeddedGraphModifier.java" startLine="59" startPosition="7" endLine="60" endPosition="83" />
+    <nodeInfo nodeId="4655725461921797138" fileName="EmbeddedGraphModifier.java" startLine="63" startPosition="42" endLine="64" endPosition="53" />
+    <nodeInfo nodeId="4655725461921797160" fileName="EmbeddedGraphModifier.java" startLine="66" startPosition="9" endLine="67" endPosition="84" />
+    <nodeInfo nodeId="4655725461921797198" fileName="EmbeddedGraphModifier.java" startLine="67" startPosition="84" endLine="68" endPosition="83" />
+    <nodeInfo nodeId="4655725461921797346" fileName="EmbeddedGraphModifier.java" startLine="68" startPosition="83" endLine="69" endPosition="90" />
+    <nodeInfo nodeId="4655725461921797353" fileName="EmbeddedGraphModifier.java" startLine="69" startPosition="90" endLine="70" endPosition="90" />
+    <nodeInfo nodeId="4655725461921797263" fileName="EmbeddedGraphModifier.java" startLine="73" startPosition="44" endLine="74" endPosition="89" />
+    <nodeInfo nodeId="4655725461921797308" fileName="EmbeddedGraphModifier.java" startLine="76" startPosition="11" endLine="77" endPosition="81" />
+    <nodeInfo nodeId="4655725461921797742" fileName="EmbeddedGraphModifier.java" startLine="77" startPosition="81" endLine="78" endPosition="25" />
+    <nodeInfo nodeId="4655725461921797768" fileName="EmbeddedGraphModifier.java" startLine="79" startPosition="85" endLine="80" endPosition="38" />
+    <nodeInfo nodeId="4655725461921797774" fileName="EmbeddedGraphModifier.java" startLine="81" startPosition="16" endLine="82" endPosition="38" />
+    <nodeInfo nodeId="4655725461921797748" fileName="EmbeddedGraphModifier.java" startLine="84" startPosition="68" endLine="85" endPosition="107" />
+    <nodeInfo nodeId="4655725461921797764" fileName="EmbeddedGraphModifier.java" startLine="86" startPosition="16" endLine="87" endPosition="59" />
+    <nodeInfo nodeId="4915750462377089201" fileName="EmbeddedGraphModifier.java" startLine="89" startPosition="7" endLine="90" endPosition="29" />
+    <nodeInfo nodeId="4655725461921797086" fileName="EmbeddedGraphModifier.java" startLine="90" startPosition="29" endLine="91" endPosition="23" />
+    <nodeInfo nodeId="4655725461921797152" fileName="EmbeddedGraphModifier.java" startLine="91" startPosition="23" endLine="92" endPosition="36" />
+    <nodeInfo nodeId="4655725461921797799" fileName="EmbeddedGraphModifier.java" startLine="94" startPosition="82" endLine="95" endPosition="60" />
+    <nodeInfo nodeId="4655725461921797855" fileName="EmbeddedGraphModifier.java" startLine="95" startPosition="60" endLine="96" endPosition="68" />
+    <nodeInfo nodeId="4915750462377086335" fileName="EmbeddedGraphModifier.java" startLine="96" startPosition="68" endLine="97" endPosition="38" />
+    <nodeInfo nodeId="4655725461921798096" fileName="EmbeddedGraphModifier.java" startLine="98" startPosition="42" endLine="99" endPosition="75" />
+    <nodeInfo nodeId="5750894051601399235" fileName="EmbeddedGraphModifier.java" startLine="99" startPosition="75" endLine="100" endPosition="116" />
+    <nodeInfo nodeId="4915750462377089213" fileName="EmbeddedGraphModifier.java" startLine="101" startPosition="35" endLine="102" endPosition="59" />
+    <nodeInfo nodeId="4915750462377086395" fileName="EmbeddedGraphModifier.java" startLine="104" startPosition="46" endLine="105" endPosition="91" />
+    <nodeInfo nodeId="4915750462377086406" fileName="EmbeddedGraphModifier.java" startLine="107" startPosition="13" endLine="108" endPosition="136" />
+    <nodeInfo nodeId="4655725461921797937" fileName="EmbeddedGraphModifier.java" startLine="109" startPosition="9" endLine="110" endPosition="75" />
+    <nodeInfo nodeId="4655725461921797947" fileName="EmbeddedGraphModifier.java" startLine="110" startPosition="75" endLine="111" endPosition="59" />
+    <nodeInfo nodeId="4655725461921797974" fileName="EmbeddedGraphModifier.java" startLine="113" startPosition="44" endLine="114" endPosition="65" />
+    <nodeInfo nodeId="4655725461921797990" fileName="EmbeddedGraphModifier.java" startLine="116" startPosition="11" endLine="117" endPosition="75" />
+    <nodeInfo nodeId="4655725461921798001" fileName="EmbeddedGraphModifier.java" startLine="117" startPosition="75" endLine="118" endPosition="115" />
+    <nodeInfo nodeId="4655725461921798038" fileName="EmbeddedGraphModifier.java" startLine="120" startPosition="44" endLine="121" endPosition="65" />
+    <nodeInfo nodeId="4915750462377087283" fileName="EmbeddedGraphModifier.java" startLine="123" startPosition="11" endLine="124" endPosition="66" />
+    <nodeInfo nodeId="4655725461921798048" fileName="EmbeddedGraphModifier.java" startLine="124" startPosition="66" endLine="125" endPosition="77" />
+    <nodeInfo nodeId="4655725461921798054" fileName="EmbeddedGraphModifier.java" startLine="125" startPosition="77" endLine="126" endPosition="117" />
+    <nodeInfo nodeId="4655725461921798115" fileName="EmbeddedGraphModifier.java" startLine="127" startPosition="67" endLine="128" endPosition="72" />
+    <nodeInfo nodeId="4655725461921798125" fileName="EmbeddedGraphModifier.java" startLine="129" startPosition="9" endLine="130" endPosition="70" />
+    <nodeInfo nodeId="4915750462377087278" fileName="EmbeddedGraphModifier.java" startLine="130" startPosition="70" endLine="131" endPosition="37" />
+    <nodeInfo nodeId="7428187320254595183" fileName="EmbeddedGraphModifier.java" startLine="136" startPosition="53" endLine="137" endPosition="74" />
+    <nodeInfo nodeId="7428187320254597528" fileName="EmbeddedGraphModifier.java" startLine="137" startPosition="74" endLine="138" endPosition="63" />
+    <nodeInfo nodeId="7428187320254595223" fileName="EmbeddedGraphModifier.java" startLine="138" startPosition="63" endLine="139" endPosition="43" />
+    <nodeInfo nodeId="7428187320254595228" fileName="EmbeddedGraphModifier.java" startLine="139" startPosition="43" endLine="140" endPosition="50" />
+    <nodeInfo nodeId="7428187320254595233" fileName="EmbeddedGraphModifier.java" startLine="140" startPosition="50" endLine="141" endPosition="41" />
+    <nodeInfo nodeId="7428187320254597551" fileName="EmbeddedGraphModifier.java" startLine="141" startPosition="41" endLine="142" endPosition="83" />
+    <nodeInfo nodeId="7428187320254597640" fileName="EmbeddedGraphModifier.java" startLine="142" startPosition="83" endLine="143" endPosition="78" />
+    <nodeInfo nodeId="7428187320254595239" fileName="EmbeddedGraphModifier.java" startLine="144" startPosition="72" endLine="145" endPosition="26" />
+    <nodeInfo nodeId="7428187320254595243" fileName="EmbeddedGraphModifier.java" startLine="146" startPosition="63" endLine="147" endPosition="41" />
+    <nodeInfo nodeId="7428187320254595254" fileName="EmbeddedGraphModifier.java" startLine="148" startPosition="14" endLine="149" endPosition="48" />
+    <nodeInfo nodeId="7428187320254595267" fileName="EmbeddedGraphModifier.java" startLine="152" startPosition="42" endLine="153" endPosition="72" />
+    <nodeInfo nodeId="7428187320254595282" fileName="EmbeddedGraphModifier.java" startLine="156" startPosition="28" endLine="157" endPosition="99" />
+    <nodeInfo nodeId="7428187320254595295" fileName="EmbeddedGraphModifier.java" startLine="158" startPosition="14" endLine="159" endPosition="46" />
+    <nodeInfo nodeId="7428187320254597566" fileName="EmbeddedGraphModifier.java" startLine="159" startPosition="46" endLine="160" endPosition="96" />
+    <nodeInfo nodeId="7428187320254595313" fileName="EmbeddedGraphModifier.java" startLine="160" startPosition="96" endLine="161" endPosition="92" />
+    <nodeInfo nodeId="7428187320254595328" fileName="EmbeddedGraphModifier.java" startLine="161" startPosition="92" endLine="162" endPosition="93" />
+    <nodeInfo nodeId="7428187320254595341" fileName="EmbeddedGraphModifier.java" startLine="163" startPosition="7" endLine="164" endPosition="37" />
+    <nodeInfo nodeId="4655725461921684031" fileName="EmbeddedGraphModifier.java" startLine="165" startPosition="5" endLine="166" endPosition="78" />
+    <nodeInfo nodeId="4655725461921684061" fileName="EmbeddedGraphModifier.java" startLine="167" startPosition="52" endLine="168" endPosition="70" />
+    <nodeInfo nodeId="4655725461921684075" fileName="EmbeddedGraphModifier.java" startLine="168" startPosition="70" endLine="169" endPosition="73" />
+    <nodeInfo nodeId="4655725461921684083" fileName="EmbeddedGraphModifier.java" startLine="170" startPosition="28" endLine="171" endPosition="65" />
+    <nodeInfo nodeId="4655725461921684130" fileName="EmbeddedGraphModifier.java" startLine="172" startPosition="7" endLine="173" endPosition="171" />
+    <nodeInfo nodeId="7428187320254597597" fileName="EmbeddedGraphModifier.java" startLine="175" startPosition="52" endLine="176" endPosition="48" />
+    <nodeInfo nodeId="7428187320254607669" fileName="EmbeddedGraphModifier.java" startLine="176" startPosition="48" endLine="177" endPosition="45" />
+    <nodeInfo nodeId="7428187320254607585" fileName="EmbeddedGraphModifier.java" startLine="177" startPosition="45" endLine="178" endPosition="69" />
+    <nodeInfo nodeId="7428187320254607616" fileName="EmbeddedGraphModifier.java" startLine="178" startPosition="69" endLine="179" endPosition="36" />
+    <nodeInfo nodeId="7428187320254607635" fileName="EmbeddedGraphModifier.java" startLine="180" startPosition="28" endLine="181" endPosition="65" />
+    <nodeInfo nodeId="7428187320254597733" fileName="EmbeddedGraphModifier.java" startLine="182" startPosition="7" endLine="183" endPosition="77" />
+    <nodeInfo nodeId="7428187320254607713" fileName="EmbeddedGraphModifier.java" startLine="183" startPosition="77" endLine="184" endPosition="68" />
+    <nodeInfo nodeId="7428187320254607730" fileName="EmbeddedGraphModifier.java" startLine="184" startPosition="68" endLine="185" endPosition="61" />
+    <nodeInfo nodeId="7428187320254602653" fileName="EmbeddedGraphModifier.java" startLine="185" startPosition="61" endLine="186" endPosition="41" />
+    <nodeInfo nodeId="7428187320254602686" fileName="EmbeddedGraphModifier.java" startLine="186" startPosition="41" endLine="187" endPosition="37" />
+    <nodeInfo nodeId="7428187320254607746" fileName="EmbeddedGraphModifier.java" startLine="187" startPosition="37" endLine="188" endPosition="74" />
+    <nodeInfo nodeId="7428187320254602695" fileName="EmbeddedGraphModifier.java" startLine="188" startPosition="74" endLine="189" endPosition="80" />
+    <nodeInfo nodeId="7428187320254602735" fileName="EmbeddedGraphModifier.java" startLine="189" startPosition="80" endLine="190" endPosition="15" />
+    <nodeInfo nodeId="7428187320254602780" fileName="EmbeddedGraphModifier.java" startLine="191" startPosition="10" endLine="192" endPosition="29" />
+    <nodeInfo nodeId="7428187320254608503" fileName="EmbeddedGraphModifier.java" startLine="194" startPosition="10" endLine="195" endPosition="62" />
+    <nodeInfo nodeId="7428187320254608531" fileName="EmbeddedGraphModifier.java" startLine="196" startPosition="35" endLine="197" endPosition="69" />
+    <nodeInfo nodeId="7428187320254608540" fileName="EmbeddedGraphModifier.java" startLine="198" startPosition="9" endLine="199" endPosition="29" />
+    <nodeInfo nodeId="4655725461921692178" fileName="EmbeddedGraphModifier.java" startLine="200" startPosition="39" endLine="201" endPosition="53" />
+    <nodeInfo nodeId="7428187320254608557" fileName="EmbeddedGraphModifier.java" startLine="201" startPosition="53" endLine="202" endPosition="63" />
+    <nodeInfo nodeId="4655725461921692187" fileName="EmbeddedGraphModifier.java" startLine="202" startPosition="63" endLine="203" endPosition="111" />
+    <nodeInfo nodeId="4655725461921692292" fileName="EmbeddedGraphModifier.java" startLine="203" startPosition="111" endLine="204" endPosition="63" />
+    <nodeInfo nodeId="7428187320254608580" fileName="EmbeddedGraphModifier.java" startLine="204" startPosition="63" endLine="205" endPosition="67" />
+    <nodeInfo nodeId="4655725461921692303" fileName="EmbeddedGraphModifier.java" startLine="205" startPosition="67" endLine="206" endPosition="113" />
+    <nodeInfo nodeId="7428187320254608604" fileName="EmbeddedGraphModifier.java" startLine="206" startPosition="113" endLine="207" endPosition="45" />
+    <nodeInfo nodeId="7428187320254608722" fileName="EmbeddedGraphModifier.java" startLine="207" startPosition="45" endLine="208" endPosition="34" />
+    <nodeInfo nodeId="7428187320254608744" fileName="EmbeddedGraphModifier.java" startLine="208" startPosition="34" endLine="209" endPosition="49" />
+    <nodeInfo nodeId="7428187320254608754" fileName="EmbeddedGraphModifier.java" startLine="210" startPosition="60" endLine="211" endPosition="51" />
+    <nodeInfo nodeId="4655725461921696833" fileName="EmbeddedGraphModifier.java" startLine="212" startPosition="7" endLine="213" endPosition="60" />
+    <nodeInfo nodeId="4655725461921696843" fileName="EmbeddedGraphModifier.java" startLine="213" startPosition="60" endLine="214" endPosition="64" />
+    <nodeInfo nodeId="7428187320254597542" fileName="EmbeddedGraphModifier.java" startLine="215" startPosition="5" endLine="216" endPosition="43" />
+    <nodeInfo nodeId="7428187320254659687" fileName="EmbeddedGraphModifier.java" startLine="216" startPosition="43" endLine="217" endPosition="25" />
+    <nodeInfo nodeId="7428187320254597667" fileName="EmbeddedGraphModifier.java" startLine="220" startPosition="96" endLine="221" endPosition="54" />
+    <nodeInfo nodeId="7428187320254595011" fileName="EmbeddedGraphModifier.java" startLine="221" startPosition="54" endLine="222" endPosition="32" />
+    <nodeInfo nodeId="7428187320254595016" fileName="EmbeddedGraphModifier.java" startLine="222" startPosition="32" endLine="223" endPosition="79" />
+    <nodeInfo nodeId="4655725461921698378" fileName="EmbeddedGraphModifier.java" startLine="223" startPosition="79" endLine="224" endPosition="54" />
+    <nodeInfo nodeId="4655725461921698389" fileName="EmbeddedGraphModifier.java" startLine="224" startPosition="54" endLine="225" endPosition="122" />
+    <nodeInfo nodeId="7428187320254597685" fileName="EmbeddedGraphModifier.java" startLine="225" startPosition="122" endLine="226" endPosition="60" />
+    <nodeInfo nodeId="4655725461921800360" fileName="EmbeddedGraphModifier.java" startLine="229" startPosition="94" endLine="230" endPosition="68" />
+    <nodeInfo nodeId="4655725461921800367" fileName="EmbeddedGraphModifier.java" startLine="230" startPosition="68" endLine="231" endPosition="72" />
+    <nodeInfo nodeId="4655725461921800374" fileName="EmbeddedGraphModifier.java" startLine="231" startPosition="72" endLine="232" endPosition="92" />
+    <nodeInfo nodeId="4655725461921800385" fileName="EmbeddedGraphModifier.java" startLine="233" startPosition="62" endLine="234" endPosition="41" />
+    <nodeInfo nodeId="4655725461921800394" fileName="EmbeddedGraphModifier.java" startLine="235" startPosition="54" endLine="236" endPosition="17" />
+    <nodeInfo nodeId="4655725461921800400" fileName="EmbeddedGraphModifier.java" startLine="237" startPosition="7" endLine="238" endPosition="73" />
+    <nodeInfo nodeId="4655725461921800407" fileName="EmbeddedGraphModifier.java" startLine="238" startPosition="73" endLine="239" endPosition="55" />
+    <nodeInfo nodeId="4655725461921800413" fileName="EmbeddedGraphModifier.java" startLine="239" startPosition="55" endLine="240" endPosition="60" />
+    <nodeInfo nodeId="4655725461921800430" fileName="EmbeddedGraphModifier.java" startLine="242" startPosition="42" endLine="243" endPosition="42" />
+    <nodeInfo nodeId="4655725461921800438" fileName="EmbeddedGraphModifier.java" startLine="245" startPosition="9" endLine="246" endPosition="31" />
+    <nodeInfo nodeId="4655725461921800442" fileName="EmbeddedGraphModifier.java" startLine="246" startPosition="31" endLine="247" endPosition="49" />
+    <nodeInfo nodeId="4655725461921800448" fileName="EmbeddedGraphModifier.java" startLine="247" startPosition="49" endLine="248" endPosition="37" />
+    <nodeInfo nodeId="4655725461921800452" fileName="EmbeddedGraphModifier.java" startLine="248" startPosition="37" endLine="249" endPosition="78" />
+    <nodeInfo nodeId="4655725461921800464" fileName="EmbeddedGraphModifier.java" startLine="250" startPosition="42" endLine="251" endPosition="27" />
+    <nodeInfo nodeId="4655725461921800473" fileName="EmbeddedGraphModifier.java" startLine="252" startPosition="7" endLine="253" endPosition="63" />
+    <nodeInfo nodeId="4655725461921800478" fileName="EmbeddedGraphModifier.java" startLine="253" startPosition="63" endLine="254" endPosition="64" />
+    <nodeInfo nodeId="4655725461921800484" fileName="EmbeddedGraphModifier.java" startLine="254" startPosition="64" endLine="255" endPosition="37" />
+    <nodeInfo nodeId="4655725461921800488" fileName="EmbeddedGraphModifier.java" startLine="255" startPosition="37" endLine="256" endPosition="39" />
+    <nodeInfo nodeId="4655725461921800499" fileName="EmbeddedGraphModifier.java" startLine="257" startPosition="10" endLine="258" endPosition="56" />
+    <nodeInfo nodeId="4655725461921800506" fileName="EmbeddedGraphModifier.java" startLine="258" startPosition="56" endLine="259" endPosition="46" />
+    <nodeInfo nodeId="4655725461921800513" fileName="EmbeddedGraphModifier.java" startLine="259" startPosition="46" endLine="260" endPosition="67" />
+    <nodeInfo nodeId="4655725461921800520" fileName="EmbeddedGraphModifier.java" startLine="260" startPosition="67" endLine="261" endPosition="33" />
+    <nodeInfo nodeId="4655725461921800528" fileName="EmbeddedGraphModifier.java" startLine="262" startPosition="28" endLine="263" endPosition="61" />
+    <nodeInfo nodeId="4655725461921800539" fileName="EmbeddedGraphModifier.java" startLine="264" startPosition="9" endLine="265" endPosition="102" />
+    <nodeInfo nodeId="4655725461921800550" fileName="EmbeddedGraphModifier.java" startLine="266" startPosition="31" endLine="267" endPosition="31" />
+    <nodeInfo nodeId="4655725461921800557" fileName="EmbeddedGraphModifier.java" startLine="268" startPosition="9" endLine="269" endPosition="65" />
+    <nodeInfo nodeId="4655725461921800566" fileName="EmbeddedGraphModifier.java" startLine="269" startPosition="65" endLine="270" endPosition="25" />
+    <nodeInfo nodeId="4655725461921800571" fileName="EmbeddedGraphModifier.java" startLine="271" startPosition="36" endLine="272" endPosition="37" />
+    <nodeInfo nodeId="4655725461921800580" fileName="EmbeddedGraphModifier.java" startLine="273" startPosition="16" endLine="274" endPosition="47" />
+    <nodeInfo nodeId="4655725461921800586" fileName="EmbeddedGraphModifier.java" startLine="274" startPosition="47" endLine="275" endPosition="66" />
+    <nodeInfo nodeId="4655725461921800591" fileName="EmbeddedGraphModifier.java" startLine="276" startPosition="9" endLine="277" endPosition="25" />
+    <nodeInfo nodeId="4655725461921800596" fileName="EmbeddedGraphModifier.java" startLine="278" startPosition="36" endLine="279" endPosition="37" />
+    <nodeInfo nodeId="4655725461921800605" fileName="EmbeddedGraphModifier.java" startLine="280" startPosition="16" endLine="281" endPosition="60" />
+    <nodeInfo nodeId="4655725461921800614" fileName="EmbeddedGraphModifier.java" startLine="282" startPosition="46" endLine="283" endPosition="31" />
+    <nodeInfo nodeId="4655725461921800623" fileName="EmbeddedGraphModifier.java" startLine="284" startPosition="11" endLine="285" endPosition="76" />
+    <nodeInfo nodeId="4655725461921800631" fileName="EmbeddedGraphModifier.java" startLine="286" startPosition="9" endLine="287" endPosition="69" />
+    <nodeInfo nodeId="4655725461921800638" fileName="EmbeddedGraphModifier.java" startLine="287" startPosition="69" endLine="288" endPosition="72" />
+    <nodeInfo nodeId="4655725461921800643" fileName="EmbeddedGraphModifier.java" startLine="288" startPosition="72" endLine="289" endPosition="67" />
+    <nodeInfo nodeId="4655725461921800651" fileName="EmbeddedGraphModifier.java" startLine="289" startPosition="67" endLine="290" endPosition="87" />
+    <nodeInfo nodeId="4655725461921800661" fileName="EmbeddedGraphModifier.java" startLine="290" startPosition="87" endLine="291" endPosition="83" />
+    <nodeInfo nodeId="4655725461921800671" fileName="EmbeddedGraphModifier.java" startLine="291" startPosition="83" endLine="292" endPosition="101" />
+    <nodeInfo nodeId="4655725461921800683" fileName="EmbeddedGraphModifier.java" startLine="292" startPosition="101" endLine="293" endPosition="27" />
+    <nodeInfo nodeId="4655725461921800687" fileName="EmbeddedGraphModifier.java" startLine="293" startPosition="27" endLine="294" endPosition="33" />
+    <nodeInfo nodeId="4655725461921800691" fileName="EmbeddedGraphModifier.java" startLine="294" startPosition="33" endLine="295" endPosition="33" />
+    <nodeInfo nodeId="4655725461921800695" fileName="EmbeddedGraphModifier.java" startLine="296" startPosition="37" endLine="297" endPosition="39" />
+    <nodeInfo nodeId="4655725461921800700" fileName="EmbeddedGraphModifier.java" startLine="297" startPosition="39" endLine="298" endPosition="27" />
+    <nodeInfo nodeId="4655725461921800705" fileName="EmbeddedGraphModifier.java" startLine="299" startPosition="5" endLine="300" endPosition="22" />
+    <nodeInfo nodeId="4655725461921804755" fileName="EmbeddedGraphModifier.java" startLine="303" startPosition="43" endLine="304" endPosition="27" />
+    <nodeInfo nodeId="5750894051601401237" fileName="EmbeddedGraphModifier.java" startLine="307" startPosition="53" endLine="308" endPosition="28" />
+    <nodeInfo nodeId="7428187320254594960" fileName="EmbeddedGraphModifier.java" startLine="46" startPosition="12" endLine="48" endPosition="7" />
+    <nodeInfo nodeId="4655725461921797374" fileName="EmbeddedGraphModifier.java" startLine="81" startPosition="14" endLine="83" endPosition="9" />
+    <nodeInfo nodeId="4655725461921797762" fileName="EmbeddedGraphModifier.java" startLine="86" startPosition="14" endLine="88" endPosition="9" />
+    <nodeInfo nodeId="7428187320254595252" fileName="EmbeddedGraphModifier.java" startLine="148" startPosition="12" endLine="150" endPosition="7" />
+    <nodeInfo nodeId="4655725461921798110" fileName="EmbeddedGraphModifier.java" startLine="126" startPosition="117" endLine="129" endPosition="9" />
+    <nodeInfo nodeId="4655725461921684081" fileName="EmbeddedGraphModifier.java" startLine="169" startPosition="73" endLine="172" endPosition="7" />
+    <nodeInfo nodeId="7428187320254607626" fileName="EmbeddedGraphModifier.java" startLine="179" startPosition="36" endLine="182" endPosition="7" />
+    <nodeInfo nodeId="7428187320254602772" fileName="EmbeddedGraphModifier.java" startLine="190" startPosition="15" endLine="193" endPosition="41" />
+    <nodeInfo nodeId="7428187320254608517" fileName="EmbeddedGraphModifier.java" startLine="195" startPosition="62" endLine="198" endPosition="9" />
+    <nodeInfo nodeId="7428187320254608634" fileName="EmbeddedGraphModifier.java" startLine="209" startPosition="49" endLine="212" endPosition="7" />
+    <nodeInfo nodeId="4655725461921800392" fileName="EmbeddedGraphModifier.java" startLine="234" startPosition="41" endLine="237" endPosition="7" />
+    <nodeInfo nodeId="4655725461921800462" fileName="EmbeddedGraphModifier.java" startLine="249" startPosition="78" endLine="252" endPosition="7" />
+    <nodeInfo nodeId="4655725461921800526" fileName="EmbeddedGraphModifier.java" startLine="261" startPosition="33" endLine="264" endPosition="9" />
+    <nodeInfo nodeId="4655725461921800548" fileName="EmbeddedGraphModifier.java" startLine="265" startPosition="102" endLine="268" endPosition="9" />
+    <nodeInfo nodeId="4655725461921800578" fileName="EmbeddedGraphModifier.java" startLine="273" startPosition="14" endLine="276" endPosition="9" />
+    <nodeInfo nodeId="4655725461921800612" fileName="EmbeddedGraphModifier.java" startLine="281" startPosition="60" endLine="284" endPosition="11" />
+    <nodeInfo nodeId="7428187320254594691" fileName="EmbeddedGraphModifier.java" startLine="31" startPosition="0" endLine="35" endPosition="3" />
+    <nodeInfo nodeId="7428187320254595119" fileName="EmbeddedGraphModifier.java" startLine="36" startPosition="0" endLine="40" endPosition="0" />
+    <nodeInfo nodeId="4655725461921797111" fileName="EmbeddedGraphModifier.java" startLine="55" startPosition="106" endLine="59" endPosition="0" />
+    <nodeInfo nodeId="4655725461921797136" fileName="EmbeddedGraphModifier.java" startLine="62" startPosition="107" endLine="66" endPosition="0" />
+    <nodeInfo nodeId="4655725461921797259" fileName="EmbeddedGraphModifier.java" startLine="72" startPosition="107" endLine="76" endPosition="0" />
+    <nodeInfo nodeId="4915750462377086393" fileName="EmbeddedGraphModifier.java" startLine="103" startPosition="106" endLine="107" endPosition="0" />
+    <nodeInfo nodeId="4655725461921797972" fileName="EmbeddedGraphModifier.java" startLine="112" startPosition="156" endLine="116" endPosition="0" />
+    <nodeInfo nodeId="4655725461921798036" fileName="EmbeddedGraphModifier.java" startLine="119" startPosition="157" endLine="123" endPosition="0" />
+    <nodeInfo nodeId="7428187320254595265" fileName="EmbeddedGraphModifier.java" startLine="151" startPosition="86" endLine="155" endPosition="0" />
+    <nodeInfo nodeId="4655725461921800428" fileName="EmbeddedGraphModifier.java" startLine="241" startPosition="118" endLine="245" endPosition="0" />
+    <nodeInfo nodeId="4655725461921804750" fileName="EmbeddedGraphModifier.java" startLine="302" startPosition="0" endLine="306" endPosition="0" />
+    <nodeInfo nodeId="5750894051601401228" fileName="EmbeddedGraphModifier.java" startLine="306" startPosition="0" endLine="310" endPosition="0" />
+    <nodeInfo nodeId="7428187320254594746" fileName="EmbeddedGraphModifier.java" startLine="43" startPosition="71" endLine="48" endPosition="7" />
+    <nodeInfo nodeId="4655725461921797096" fileName="EmbeddedGraphModifier.java" startLine="54" startPosition="139" endLine="59" endPosition="7" />
+    <nodeInfo nodeId="4655725461921797128" fileName="EmbeddedGraphModifier.java" startLine="61" startPosition="58" endLine="66" endPosition="9" />
+    <nodeInfo nodeId="4655725461921797244" fileName="EmbeddedGraphModifier.java" startLine="71" startPosition="41" endLine="76" endPosition="11" />
+    <nodeInfo nodeId="4655725461921797291" fileName="EmbeddedGraphModifier.java" startLine="78" startPosition="25" endLine="83" endPosition="9" />
+    <nodeInfo nodeId="4655725461921797746" fileName="EmbeddedGraphModifier.java" startLine="83" startPosition="9" endLine="88" endPosition="9" />
+    <nodeInfo nodeId="4915750462377086383" fileName="EmbeddedGraphModifier.java" startLine="102" startPosition="59" endLine="107" endPosition="13" />
+    <nodeInfo nodeId="4655725461921797961" fileName="EmbeddedGraphModifier.java" startLine="111" startPosition="59" endLine="116" endPosition="11" />
+    <nodeInfo nodeId="4655725461921798025" fileName="EmbeddedGraphModifier.java" startLine="118" startPosition="115" endLine="123" endPosition="11" />
+    <nodeInfo nodeId="7428187320254595241" fileName="EmbeddedGraphModifier.java" startLine="145" startPosition="26" endLine="150" endPosition="7" />
+    <nodeInfo nodeId="7428187320254595260" fileName="EmbeddedGraphModifier.java" startLine="150" startPosition="7" endLine="155" endPosition="9" />
+    <nodeInfo nodeId="7428187320254595293" fileName="EmbeddedGraphModifier.java" startLine="158" startPosition="12" endLine="163" endPosition="7" />
+    <nodeInfo nodeId="4655725461921800419" fileName="EmbeddedGraphModifier.java" startLine="240" startPosition="60" endLine="245" endPosition="9" />
+    <nodeInfo nodeId="4655725461921800569" fileName="EmbeddedGraphModifier.java" startLine="270" startPosition="25" endLine="276" endPosition="9" />
+    <nodeInfo nodeId="4655725461921800603" fileName="EmbeddedGraphModifier.java" startLine="280" startPosition="14" endLine="286" endPosition="9" />
+    <nodeInfo nodeId="7428187320254607737" fileName="EmbeddedGraphModifier.java" startLine="193" startPosition="41" endLine="200" endPosition="39" />
+    <nodeInfo nodeId="7428187320254594733" fileName="EmbeddedGraphModifier.java" startLine="41" startPosition="76" endLine="49" endPosition="5" />
+    <nodeInfo nodeId="7428187320254595274" fileName="EmbeddedGraphModifier.java" startLine="155" startPosition="9" endLine="163" endPosition="7" />
+    <nodeInfo nodeId="4655725461921684044" fileName="EmbeddedGraphModifier.java" startLine="166" startPosition="78" endLine="174" endPosition="5" />
+    <nodeInfo nodeId="4915750462377086373" fileName="EmbeddedGraphModifier.java" startLine="100" startPosition="116" endLine="109" endPosition="9" />
+    <nodeInfo nodeId="7428187320254594992" fileName="EmbeddedGraphModifier.java" startLine="219" startPosition="0" endLine="228" endPosition="0" />
+    <nodeInfo nodeId="4655725461921800594" fileName="EmbeddedGraphModifier.java" startLine="277" startPosition="25" endLine="286" endPosition="9" />
+    <nodeInfo nodeId="7428187320254594717" fileName="EmbeddedGraphModifier.java" startLine="40" startPosition="0" endLine="51" endPosition="0" />
+    <nodeInfo nodeId="4655725461921797220" fileName="EmbeddedGraphModifier.java" startLine="70" startPosition="90" endLine="89" endPosition="7" />
+    <nodeInfo nodeId="7428187320254595236" fileName="EmbeddedGraphModifier.java" startLine="143" startPosition="78" endLine="165" endPosition="5" />
+    <nodeInfo nodeId="4655725461921796746" fileName="EmbeddedGraphModifier.java" startLine="60" startPosition="83" endLine="93" endPosition="5" />
+    <nodeInfo nodeId="4655725461921797863" fileName="EmbeddedGraphModifier.java" startLine="97" startPosition="38" endLine="132" endPosition="7" />
+    <nodeInfo nodeId="4655725461921797789" fileName="EmbeddedGraphModifier.java" startLine="93" startPosition="5" endLine="133" endPosition="5" />
+    <nodeInfo nodeId="4655725461921800494" fileName="EmbeddedGraphModifier.java" startLine="256" startPosition="39" endLine="296" endPosition="37" />
+    <nodeInfo nodeId="7428187320254597590" fileName="EmbeddedGraphModifier.java" startLine="174" startPosition="5" endLine="215" endPosition="5" />
+    <nodeInfo nodeId="4655725461921800381" fileName="EmbeddedGraphModifier.java" startLine="232" startPosition="92" endLine="299" endPosition="5" />
+    <nodeInfo nodeId="4655725461921800349" fileName="EmbeddedGraphModifier.java" startLine="228" startPosition="0" endLine="302" endPosition="0" />
+    <nodeInfo nodeId="4655725461921722514" fileName="EmbeddedGraphModifier.java" startLine="51" startPosition="0" endLine="135" endPosition="0" />
+    <nodeInfo nodeId="7428187320254595178" fileName="EmbeddedGraphModifier.java" startLine="135" startPosition="0" endLine="219" endPosition="0" />
+    <scopeInfo nodeId="7428187320254595122" fileName="EmbeddedGraphModifier.java" startLine="37" startPosition="72" endLine="38" endPosition="38" />
+    <scopeInfo nodeId="7428187320254594747" fileName="EmbeddedGraphModifier.java" startLine="44" startPosition="54" endLine="45" endPosition="41" />
+    <scopeInfo nodeId="7428187320254594961" fileName="EmbeddedGraphModifier.java" startLine="46" startPosition="14" endLine="47" endPosition="84" />
+    <scopeInfo nodeId="4655725461921797112" fileName="EmbeddedGraphModifier.java" startLine="56" startPosition="40" endLine="57" endPosition="57" />
+    <scopeInfo nodeId="4655725461921797137" fileName="EmbeddedGraphModifier.java" startLine="63" startPosition="42" endLine="64" endPosition="53" />
+    <scopeInfo nodeId="4655725461921797260" fileName="EmbeddedGraphModifier.java" startLine="73" startPosition="44" endLine="74" endPosition="89" />
+    <scopeInfo nodeId="4655725461921797292" fileName="EmbeddedGraphModifier.java" startLine="79" startPosition="85" endLine="80" endPosition="38" />
+    <scopeInfo nodeId="4655725461921797375" fileName="EmbeddedGraphModifier.java" startLine="81" startPosition="16" endLine="82" endPosition="38" />
+    <scopeInfo nodeId="4655725461921797747" fileName="EmbeddedGraphModifier.java" startLine="84" startPosition="68" endLine="85" endPosition="107" />
+    <scopeInfo nodeId="4655725461921797763" fileName="EmbeddedGraphModifier.java" startLine="86" startPosition="16" endLine="87" endPosition="59" />
+    <scopeInfo nodeId="4915750462377086394" fileName="EmbeddedGraphModifier.java" startLine="104" startPosition="46" endLine="105" endPosition="91" />
+    <scopeInfo nodeId="4655725461921797973" fileName="EmbeddedGraphModifier.java" startLine="113" startPosition="44" endLine="114" endPosition="65" />
+    <scopeInfo nodeId="4655725461921798037" fileName="EmbeddedGraphModifier.java" startLine="120" startPosition="44" endLine="121" endPosition="65" />
+    <scopeInfo nodeId="4655725461921798113" fileName="EmbeddedGraphModifier.java" startLine="127" startPosition="67" endLine="128" endPosition="72" />
+    <scopeInfo nodeId="7428187320254595242" fileName="EmbeddedGraphModifier.java" startLine="146" startPosition="63" endLine="147" endPosition="41" />
+    <scopeInfo nodeId="7428187320254595253" fileName="EmbeddedGraphModifier.java" startLine="148" startPosition="14" endLine="149" endPosition="48" />
+    <scopeInfo nodeId="7428187320254595266" fileName="EmbeddedGraphModifier.java" startLine="152" startPosition="42" endLine="153" endPosition="72" />
+    <scopeInfo nodeId="7428187320254595275" fileName="EmbeddedGraphModifier.java" startLine="156" startPosition="28" endLine="157" endPosition="99" />
+    <scopeInfo nodeId="4655725461921684082" fileName="EmbeddedGraphModifier.java" startLine="170" startPosition="28" endLine="171" endPosition="65" />
+    <scopeInfo nodeId="7428187320254607627" fileName="EmbeddedGraphModifier.java" startLine="180" startPosition="28" endLine="181" endPosition="65" />
+    <scopeInfo nodeId="7428187320254602774" fileName="EmbeddedGraphModifier.java" startLine="191" startPosition="10" endLine="192" endPosition="29" />
+    <scopeInfo nodeId="7428187320254608518" fileName="EmbeddedGraphModifier.java" startLine="196" startPosition="35" endLine="197" endPosition="69" />
+    <scopeInfo nodeId="7428187320254608637" fileName="EmbeddedGraphModifier.java" startLine="210" startPosition="60" endLine="211" endPosition="51" />
+    <scopeInfo nodeId="4655725461921800393" fileName="EmbeddedGraphModifier.java" startLine="235" startPosition="54" endLine="236" endPosition="17" />
+    <scopeInfo nodeId="4655725461921800429" fileName="EmbeddedGraphModifier.java" startLine="242" startPosition="42" endLine="243" endPosition="42" />
+    <scopeInfo nodeId="4655725461921800463" fileName="EmbeddedGraphModifier.java" startLine="250" startPosition="42" endLine="251" endPosition="27" />
+    <scopeInfo nodeId="4655725461921800527" fileName="EmbeddedGraphModifier.java" startLine="262" startPosition="28" endLine="263" endPosition="61" />
+    <scopeInfo nodeId="4655725461921800549" fileName="EmbeddedGraphModifier.java" startLine="266" startPosition="31" endLine="267" endPosition="31" />
+    <scopeInfo nodeId="4655725461921800570" fileName="EmbeddedGraphModifier.java" startLine="271" startPosition="36" endLine="272" endPosition="37" />
+    <scopeInfo nodeId="4655725461921800595" fileName="EmbeddedGraphModifier.java" startLine="278" startPosition="36" endLine="279" endPosition="37" />
+    <scopeInfo nodeId="4655725461921800613" fileName="EmbeddedGraphModifier.java" startLine="282" startPosition="46" endLine="283" endPosition="31" />
+    <scopeInfo nodeId="4655725461921804753" fileName="EmbeddedGraphModifier.java" startLine="303" startPosition="43" endLine="304" endPosition="27" />
+    <scopeInfo nodeId="5750894051601401231" fileName="EmbeddedGraphModifier.java" startLine="307" startPosition="53" endLine="308" endPosition="28" />
+    <scopeInfo nodeId="7428187320254594694" fileName="EmbeddedGraphModifier.java" startLine="32" startPosition="61" endLine="34" endPosition="36" />
+    <scopeInfo nodeId="4655725461921800579" fileName="EmbeddedGraphModifier.java" startLine="273" startPosition="16" endLine="275" endPosition="66" />
+    <scopeInfo nodeId="4655725461921798110" fileName="EmbeddedGraphModifier.java" startLine="126" startPosition="117" endLine="129" endPosition="9" />
+    <scopeInfo nodeId="7428187320254608634" fileName="EmbeddedGraphModifier.java" startLine="209" startPosition="49" endLine="212" endPosition="7" />
+    <scopeInfo nodeId="7428187320254594691" fileName="EmbeddedGraphModifier.java" startLine="31" startPosition="0" endLine="35" endPosition="3">
+      <varInfo nodeId="7428187320254595076" varName="embeddedGraph" />
+    </scopeInfo>
+    <scopeInfo nodeId="7428187320254595119" fileName="EmbeddedGraphModifier.java" startLine="36" startPosition="0" endLine="40" endPosition="0">
+      <varInfo nodeId="7428187320254595123" varName="dartDirections" />
+    </scopeInfo>
+    <scopeInfo nodeId="4655725461921797111" fileName="EmbeddedGraphModifier.java" startLine="55" startPosition="106" endLine="59" endPosition="0" />
+    <scopeInfo nodeId="4655725461921797136" fileName="EmbeddedGraphModifier.java" startLine="62" startPosition="107" endLine="66" endPosition="0" />
+    <scopeInfo nodeId="4655725461921797259" fileName="EmbeddedGraphModifier.java" startLine="72" startPosition="107" endLine="76" endPosition="0" />
+    <scopeInfo nodeId="4915750462377086393" fileName="EmbeddedGraphModifier.java" startLine="103" startPosition="106" endLine="107" endPosition="0" />
+    <scopeInfo nodeId="4655725461921797972" fileName="EmbeddedGraphModifier.java" startLine="112" startPosition="156" endLine="116" endPosition="0" />
+    <scopeInfo nodeId="4655725461921798036" fileName="EmbeddedGraphModifier.java" startLine="119" startPosition="157" endLine="123" endPosition="0" />
+    <scopeInfo nodeId="7428187320254595265" fileName="EmbeddedGraphModifier.java" startLine="151" startPosition="86" endLine="155" endPosition="0" />
+    <scopeInfo nodeId="7428187320254595294" fileName="EmbeddedGraphModifier.java" startLine="158" startPosition="14" endLine="162" endPosition="93">
+      <varInfo nodeId="7428187320254595175" varName="newNode" />
+    </scopeInfo>
+    <scopeInfo nodeId="4655725461921800428" fileName="EmbeddedGraphModifier.java" startLine="241" startPosition="118" endLine="245" endPosition="0" />
+    <scopeInfo nodeId="4655725461921804750" fileName="EmbeddedGraphModifier.java" startLine="302" startPosition="0" endLine="306" endPosition="0" />
+    <scopeInfo nodeId="5750894051601401228" fileName="EmbeddedGraphModifier.java" startLine="306" startPosition="0" endLine="310" endPosition="0" />
+    <scopeInfo nodeId="7428187320254607739" fileName="EmbeddedGraphModifier.java" startLine="194" startPosition="10" endLine="199" endPosition="29" />
+    <scopeInfo nodeId="4655725461921800604" fileName="EmbeddedGraphModifier.java" startLine="280" startPosition="16" endLine="285" endPosition="76" />
+    <scopeInfo nodeId="7428187320254594738" fileName="EmbeddedGraphModifier.java" startLine="42" startPosition="89" endLine="48" endPosition="7">
+      <varInfo nodeId="7428187320254594740" varName="nodes" />
+    </scopeInfo>
+    <scopeInfo nodeId="4655725461921684047" fileName="EmbeddedGraphModifier.java" startLine="167" startPosition="52" endLine="173" endPosition="171">
+      <varInfo nodeId="4655725461921684062" varName="faceDarts" />
+      <varInfo nodeId="4655725461921684076" varName="prevIndex" />
+    </scopeInfo>
+    <scopeInfo nodeId="7428187320254594995" fileName="EmbeddedGraphModifier.java" startLine="220" startPosition="96" endLine="226" endPosition="60">
+      <varInfo nodeId="4655725461921698379" varName="outerDart" />
+      <varInfo nodeId="7428187320254597668" varName="innerDart" />
+    </scopeInfo>
+    <scopeInfo nodeId="4915750462377086374" fileName="EmbeddedGraphModifier.java" startLine="101" startPosition="35" endLine="108" endPosition="136">
+      <varInfo nodeId="4915750462377089214" varName="curSource" />
+      <varInfo nodeId="4915750462377086384" varName="realEdge" />
+    </scopeInfo>
+    <scopeInfo nodeId="7428187320254594720" fileName="EmbeddedGraphModifier.java" startLine="41" startPosition="76" endLine="49" endPosition="5" />
+    <scopeInfo nodeId="7428187320254594733" fileName="EmbeddedGraphModifier.java" startLine="41" startPosition="76" endLine="49" endPosition="5" />
+    <scopeInfo nodeId="4655725461921684044" fileName="EmbeddedGraphModifier.java" startLine="166" startPosition="78" endLine="174" endPosition="5" />
+    <scopeInfo nodeId="7428187320254594992" fileName="EmbeddedGraphModifier.java" startLine="219" startPosition="0" endLine="228" endPosition="0">
+      <varInfo nodeId="7428187320254597659" varName="outerDarts" />
+      <varInfo nodeId="7428187320254594998" varName="edge" />
+      <varInfo nodeId="7428187320254595001" varName="dir" />
+      <varInfo nodeId="7428187320254594996" varName="nodeFace" />
+    </scopeInfo>
+    <scopeInfo nodeId="7428187320254594717" fileName="EmbeddedGraphModifier.java" startLine="40" startPosition="0" endLine="51" endPosition="0">
+      <varInfo nodeId="7428187320254594964" varName="nodesToProcess" />
+    </scopeInfo>
+    <scopeInfo nodeId="4655725461921797221" fileName="EmbeddedGraphModifier.java" startLine="71" startPosition="41" endLine="88" endPosition="9">
+      <varInfo nodeId="4655725461921797309" varName="curRealDart" />
+      <varInfo nodeId="4655725461921797245" varName="curRealEdge" />
+      <varInfo nodeId="4655725461921797743" varName="edgeToSplit" />
+    </scopeInfo>
+    <scopeInfo nodeId="7428187320254595238" fileName="EmbeddedGraphModifier.java" startLine="144" startPosition="72" endLine="164" endPosition="37">
+      <varInfo nodeId="7428187320254595168" varName="nextCornerNode" />
+      <varInfo nodeId="7428187320254595174" varName="dirDart" />
+    </scopeInfo>
+    <scopeInfo nodeId="7428187320254595236" fileName="EmbeddedGraphModifier.java" startLine="143" startPosition="78" endLine="165" endPosition="5" />
+    <scopeInfo nodeId="4655725461921796749" fileName="EmbeddedGraphModifier.java" startLine="61" startPosition="58" endLine="92" endPosition="36">
+      <varInfo nodeId="4655725461921797354" varName="curToNextDir" />
+      <varInfo nodeId="4655725461921797347" varName="prevToCurDir" />
+      <varInfo nodeId="4655725461921797161" varName="prevToCurDart" />
+      <varInfo nodeId="4655725461921797199" varName="curToNextDart" />
+      <varInfo nodeId="4655725461921797129" varName="curToNextEdge" />
+    </scopeInfo>
+    <scopeInfo nodeId="4655725461921796746" fileName="EmbeddedGraphModifier.java" startLine="60" startPosition="83" endLine="93" endPosition="5" />
+    <scopeInfo nodeId="4655725461921797864" fileName="EmbeddedGraphModifier.java" startLine="98" startPosition="42" endLine="131" endPosition="37">
+      <varInfo nodeId="4915750462377087284" varName="nextDirection" />
+      <varInfo nodeId="4655725461921797962" varName="firstDart" />
+      <varInfo nodeId="4655725461921798026" varName="secondDart" />
+      <varInfo nodeId="4655725461921798097" varName="toRemove" />
+      <varInfo nodeId="4655725461921797938" varName="newEdges" />
+    </scopeInfo>
+    <scopeInfo nodeId="4655725461921797863" fileName="EmbeddedGraphModifier.java" startLine="97" startPosition="38" endLine="132" endPosition="7">
+      <varInfo nodeId="4655725461921797866" varName="i" />
+    </scopeInfo>
+    <scopeInfo nodeId="4655725461921797792" fileName="EmbeddedGraphModifier.java" startLine="94" startPosition="82" endLine="132" endPosition="7">
+      <varInfo nodeId="4915750462377086336" varName="curDirection" />
+      <varInfo nodeId="4655725461921797800" varName="splitNum" />
+      <varInfo nodeId="4655725461921797856" varName="curEdge" />
+    </scopeInfo>
+    <scopeInfo nodeId="4655725461921800498" fileName="EmbeddedGraphModifier.java" startLine="257" startPosition="10" endLine="295" endPosition="33">
+      <varInfo nodeId="4655725461921800592" varName="nextNewEdge" />
+      <varInfo nodeId="4655725461921800521" varName="nextPos" />
+      <varInfo nodeId="4655725461921800632" varName="edgeBetweenNewNodes" />
+      <varInfo nodeId="4655725461921800567" varName="nextNewNode" />
+      <varInfo nodeId="4655725461921800514" varName="curPos" />
+      <varInfo nodeId="4655725461921800500" varName="curFace" />
+      <varInfo nodeId="4655725461921800558" varName="oppositeNode" />
+      <varInfo nodeId="4655725461921800540" varName="nextDart" />
+      <varInfo nodeId="4655725461921800507" varName="darts" />
+    </scopeInfo>
+    <scopeInfo nodeId="7428187320254597593" fileName="EmbeddedGraphModifier.java" startLine="175" startPosition="52" endLine="214" endPosition="64">
+      <varInfo nodeId="7428187320254597598" varName="face" />
+      <varInfo nodeId="7428187320254607714" varName="startEdge" />
+      <varInfo nodeId="7428187320254607586" varName="dartIndex" />
+      <varInfo nodeId="4655725461921692179" varName="newStartDart" />
+      <varInfo nodeId="7428187320254607617" varName="prevIndex" />
+      <varInfo nodeId="4655725461921692293" varName="newEndDart" />
+      <varInfo nodeId="7428187320254602696" varName="dartItr" />
+      <varInfo nodeId="7428187320254607670" varName="faceDarts" />
+      <varInfo nodeId="7428187320254597734" varName="prevDart" />
+      <varInfo nodeId="7428187320254602654" varName="start" />
+      <varInfo nodeId="7428187320254607731" varName="endEdge" />
+      <varInfo nodeId="7428187320254607747" varName="newDarts" />
+      <varInfo nodeId="7428187320254602736" varName="cur" />
+      <varInfo nodeId="7428187320254602687" varName="end" />
+    </scopeInfo>
+    <scopeInfo nodeId="4655725461921797789" fileName="EmbeddedGraphModifier.java" startLine="93" startPosition="5" endLine="133" endPosition="5" />
+    <scopeInfo nodeId="7428187320254597590" fileName="EmbeddedGraphModifier.java" startLine="174" startPosition="5" endLine="215" endPosition="5" />
+    <scopeInfo nodeId="4655725461921800384" fileName="EmbeddedGraphModifier.java" startLine="233" startPosition="62" endLine="298" endPosition="27">
+      <varInfo nodeId="4655725461921800420" varName="firstDart" />
+      <varInfo nodeId="4655725461921800489" varName="newFace" />
+      <varInfo nodeId="4655725461921800485" varName="curNewEdge" />
+      <varInfo nodeId="4655725461921800414" varName="firstEdge" />
+      <varInfo nodeId="4655725461921800449" varName="curNewNode" />
+      <varInfo nodeId="4655725461921800443" varName="firstNewNode" />
+      <varInfo nodeId="4655725461921800386" varName="edges" />
+      <varInfo nodeId="4655725461921800439" varName="curDart" />
+      <varInfo nodeId="4655725461921800401" varName="newNodes" />
+      <varInfo nodeId="4655725461921800453" varName="firstNewEdge" />
+    </scopeInfo>
+    <scopeInfo nodeId="4655725461921800381" fileName="EmbeddedGraphModifier.java" startLine="232" startPosition="92" endLine="299" endPosition="5" />
+    <scopeInfo nodeId="4655725461921800353" fileName="EmbeddedGraphModifier.java" startLine="229" startPosition="94" endLine="300" endPosition="22">
+      <varInfo nodeId="4655725461921800361" varName="addedEdges" />
+      <varInfo nodeId="4655725461921800368" varName="realNodes" />
+    </scopeInfo>
+    <scopeInfo nodeId="4655725461921800349" fileName="EmbeddedGraphModifier.java" startLine="228" startPosition="0" endLine="302" endPosition="0">
+      <varInfo nodeId="4655725461921800714" varName="edgeMap" />
+      <varInfo nodeId="4655725461921800709" varName="nodeMap" />
+    </scopeInfo>
+    <scopeInfo nodeId="4655725461921722517" fileName="EmbeddedGraphModifier.java" startLine="52" startPosition="68" endLine="133" endPosition="5">
+      <varInfo nodeId="4655725461921797669" varName="toSplit" />
+      <varInfo nodeId="4655725461921797039" varName="cur" />
+      <varInfo nodeId="4655725461921797097" varName="prevToCurEdge" />
+      <varInfo nodeId="4655725461921796733" varName="prev" />
+    </scopeInfo>
+    <scopeInfo nodeId="7428187320254595182" fileName="EmbeddedGraphModifier.java" startLine="136" startPosition="53" endLine="217" endPosition="25">
+      <varInfo nodeId="7428187320254595167" varName="allDirections" />
+      <varInfo nodeId="7428187320254597641" varName="nodeOuterDarts" />
+      <varInfo nodeId="7428187320254597552" varName="edgesFromNode" />
+      <varInfo nodeId="4655725461921684032" varName="endEdges" />
+      <varInfo nodeId="7428187320254595172" varName="nodeInnerFace" />
+      <varInfo nodeId="7428187320254597529" varName="darts" />
+      <varInfo nodeId="7428187320254595166" varName="firstCornerNode" />
+      <varInfo nodeId="7428187320254595171" varName="curCornerNode" />
+    </scopeInfo>
+    <scopeInfo nodeId="4655725461921722514" fileName="EmbeddedGraphModifier.java" startLine="51" startPosition="0" endLine="135" endPosition="0">
+      <varInfo nodeId="4655725461921796689" varName="nodes" />
+    </scopeInfo>
+    <scopeInfo nodeId="7428187320254595178" fileName="EmbeddedGraphModifier.java" startLine="135" startPosition="0" endLine="219" endPosition="0">
+      <varInfo nodeId="7428187320254595177" varName="node" />
+    </scopeInfo>
+    <unitInfo nodeId="4655725461921797111" fileName="EmbeddedGraphModifier.java" startLine="55" startPosition="84" endLine="59" endPosition="5" unitName="jetbrains.mps.graphLayout.flowOrthogonalLayout.EmbeddedGraphModifier$1" />
+    <unitInfo nodeId="4655725461921797136" fileName="EmbeddedGraphModifier.java" startLine="62" startPosition="85" endLine="66" endPosition="7" unitName="jetbrains.mps.graphLayout.flowOrthogonalLayout.EmbeddedGraphModifier$2" />
+    <unitInfo nodeId="4655725461921797259" fileName="EmbeddedGraphModifier.java" startLine="72" startPosition="85" endLine="76" endPosition="9" unitName="jetbrains.mps.graphLayout.flowOrthogonalLayout.EmbeddedGraphModifier$3" />
+    <unitInfo nodeId="4915750462377086393" fileName="EmbeddedGraphModifier.java" startLine="103" startPosition="84" endLine="107" endPosition="11" unitName="jetbrains.mps.graphLayout.flowOrthogonalLayout.EmbeddedGraphModifier$4" />
+    <unitInfo nodeId="4655725461921797972" fileName="EmbeddedGraphModifier.java" startLine="112" startPosition="134" endLine="116" endPosition="9" unitName="jetbrains.mps.graphLayout.flowOrthogonalLayout.EmbeddedGraphModifier$5" />
+    <unitInfo nodeId="4655725461921798036" fileName="EmbeddedGraphModifier.java" startLine="119" startPosition="135" endLine="123" endPosition="9" unitName="jetbrains.mps.graphLayout.flowOrthogonalLayout.EmbeddedGraphModifier$6" />
+    <unitInfo nodeId="7428187320254595265" fileName="EmbeddedGraphModifier.java" startLine="151" startPosition="64" endLine="155" endPosition="7" unitName="jetbrains.mps.graphLayout.flowOrthogonalLayout.EmbeddedGraphModifier$7" />
+    <unitInfo nodeId="4655725461921800428" fileName="EmbeddedGraphModifier.java" startLine="241" startPosition="96" endLine="245" endPosition="7" unitName="jetbrains.mps.graphLayout.flowOrthogonalLayout.EmbeddedGraphModifier$8" />
+    <unitInfo nodeId="7428187320254594689" fileName="EmbeddedGraphModifier.java" startLine="27" startPosition="0" endLine="311" endPosition="0" unitName="jetbrains.mps.graphLayout.flowOrthogonalLayout.EmbeddedGraphModifier" />
+  </root>
+</debugInfo>
+
