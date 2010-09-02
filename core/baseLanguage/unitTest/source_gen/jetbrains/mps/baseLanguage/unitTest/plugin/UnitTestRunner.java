@@ -60,7 +60,7 @@ public class UnitTestRunner extends BaseRunner {
         }).toListSequence();
         ListSequence.fromList(tests).visitAll(new IVisitor<SNode>() {
           public void visit(SNode it) {
-            if (!(ITestable_Behavior.call_getTestRunParameters_1216045139515(it).equals(runParams.value))) {
+            if (!(eq_y7hhub_a0a0a0a0a0a2a0a0a0a4a1(check_y7hhub_a0a0a0a0c0a4a1(it), runParams.value))) {
               LOG.error("Can not execute " + it + ": run parameters does not match.");
             }
           }
@@ -145,7 +145,21 @@ public class UnitTestRunner extends BaseRunner {
     return ITestable_Behavior.call_getTestRunParameters_1216045139515(p);
   }
 
+  private static TestRunParameters check_y7hhub_a0a0a0a0c0a4a1(SNode p) {
+    if (null == p) {
+      return null;
+    }
+    return ITestable_Behavior.call_getTestRunParameters_1216045139515(p);
+  }
+
   private static boolean eq_y7hhub_a0a0a0a0a0a0b0a0a0a0e0b(Object a, Object b) {
+    return (a != null ?
+      a.equals(b) :
+      a == b
+    );
+  }
+
+  private static boolean eq_y7hhub_a0a0a0a0a0a2a0a0a0a4a1(Object a, Object b) {
     return (a != null ?
       a.equals(b) :
       a == b
