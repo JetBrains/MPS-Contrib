@@ -13,6 +13,10 @@ import jetbrains.mps.buildlanguage.behavior.IDeclaration_Behavior;
 import jetbrains.mps.internal.collections.runtime.Sequence;
 import jetbrains.mps.smodel.IOperationContext;
 import jetbrains.mps.build.generictasks.plugin.ImportAntStuffUtil;
+import jetbrains.mps.project.ModuleId;
+import jetbrains.mps.project.structure.modules.ModuleReference;
+import jetbrains.mps.project.IModule;
+import jetbrains.mps.smodel.Language;
 
 public class BuiltInTaskDeclaration_Behavior {
   public static void init(SNode thisNode) {
@@ -117,6 +121,48 @@ public class BuiltInTaskDeclaration_Behavior {
   }
 
   public static boolean isInGeneratedModels_1445805690439864419(IOperationContext operationContext) {
-    return operationContext.getModule().getModuleReference().getModuleId().equals(ImportAntStuffUtil.getLanguageReference().getModuleReference().getModuleId());
+    return eq_y5o5bz_a0a0j(check_y5o5bz_a0a0a(check_y5o5bz_a0a0a0(check_y5o5bz_a0a0a0a(operationContext))), check_y5o5bz_a0a0a_0(check_y5o5bz_a0a0a0_0(ImportAntStuffUtil.getLanguageReference())));
+  }
+
+  private static ModuleId check_y5o5bz_a0a0a(ModuleReference p) {
+    if (null == p) {
+      return null;
+    }
+    return p.getModuleId();
+  }
+
+  private static ModuleReference check_y5o5bz_a0a0a0(IModule p) {
+    if (null == p) {
+      return null;
+    }
+    return p.getModuleReference();
+  }
+
+  private static IModule check_y5o5bz_a0a0a0a(IOperationContext p) {
+    if (null == p) {
+      return null;
+    }
+    return p.getModule();
+  }
+
+  private static ModuleId check_y5o5bz_a0a0a_0(ModuleReference p) {
+    if (null == p) {
+      return null;
+    }
+    return p.getModuleId();
+  }
+
+  private static ModuleReference check_y5o5bz_a0a0a0_0(Language p) {
+    if (null == p) {
+      return null;
+    }
+    return p.getModuleReference();
+  }
+
+  private static boolean eq_y5o5bz_a0a0j(Object a, Object b) {
+    return (a != null ?
+      a.equals(b) :
+      a == b
+    );
   }
 }

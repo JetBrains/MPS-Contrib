@@ -18,7 +18,7 @@
       <maximumStackSize value="32" />
       <properties />
     </buildFile>
-    <buildFile url="file://$PROJECT_DIR$/AllTests/make_all_modules.xml">
+    <buildFile url="file://$PROJECT_DIR$/testbench/make_all_modules.xml">
       <additionalClassPath />
       <antReference projectDefault="true" />
       <customJdkName value="" />
