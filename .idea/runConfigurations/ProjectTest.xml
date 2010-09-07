@@ -9,7 +9,7 @@
     <option name="MAIN_CLASS_NAME" value="ProjectTest" />
     <option name="METHOD_NAME" value="" />
     <option name="TEST_OBJECT" value="class" />
-    <option name="VM_PARAMETERS" value="-ea -Xss1024k -Xmx1536m -XX:MaxPermSize=128m -XX:+HeapDumpOnOutOfMemoryError -client " />
+    <option name="VM_PARAMETERS" value="-ea -Xss1024k -Xmx1536m -XX:MaxPermSize=192m -XX:+HeapDumpOnOutOfMemoryError -client " />
     <option name="PARAMETERS" value="" />
     <option name="WORKING_DIRECTORY" value="file://$PROJECT_DIR$" />
     <option name="ENV_VARIABLES" />
@@ -18,10 +18,16 @@
       <value defaultName="singleModule" />
     </option>
     <envs />
+    <RunnerSettings RunnerId="Debug">
+      <option name="DEBUG_PORT" value="60627" />
+      <option name="TRANSPORT" value="0" />
+      <option name="LOCAL" value="true" />
+    </RunnerSettings>
     <RunnerSettings RunnerId="Profile ">
       <option name="myExternalizedOptions" value="&#10;additional-options2=onexit\=snapshot&#10;" />
     </RunnerSettings>
     <RunnerSettings RunnerId="Run" />
+    <ConfigurationWrapper RunnerId="Debug" />
     <ConfigurationWrapper RunnerId="Run" />
     <method>
       <option name="AntTarget" enabled="true" antfile="file://$PROJECT_DIR$/AllTests/make_all_modules.xml" target="make" />
