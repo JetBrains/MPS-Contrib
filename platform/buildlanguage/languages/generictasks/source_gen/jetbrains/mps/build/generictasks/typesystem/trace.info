@@ -1,5 +1,12 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <debugInfo>
+  <unitInfo fileName="typeof_Attribute_InferenceRule.java" startLine="14" startPosition="0" endLine="40" endPosition="0" unitName="jetbrains.mps.build.generictasks.typesystem.typeof_Attribute_InferenceRule" />
+  <unitInfo fileName="TypesystemDescriptor.java" startLine="9" startPosition="0" endLine="37" endPosition="0" unitName="jetbrains.mps.build.generictasks.typesystem.TypesystemDescriptor" />
+  <unitInfo fileName="checkAttributeValueIsInEnum_NonTypesystemRule.java" startLine="18" startPosition="0" endLine="46" endPosition="0" unitName="jetbrains.mps.build.generictasks.typesystem.checkAttributeValueIsInEnum_NonTypesystemRule" />
+  <unitInfo fileName="checkParentsOfInterfaceAreInterfaces_NonTypesystemRule.java" startLine="19" startPosition="0" endLine="47" endPosition="0" unitName="jetbrains.mps.build.generictasks.typesystem.checkParentsOfInterfaceAreInterfaces_NonTypesystemRule" />
+  <unitInfo fileName="checkAttributeDeclarationDefaultValueIsInEnum_NonTypesystemRule.java" startLine="18" startPosition="0" endLine="53" endPosition="0" unitName="jetbrains.mps.build.generictasks.typesystem.checkAttributeDeclarationDefaultValueIsInEnum_NonTypesystemRule" />
+  <unitInfo fileName="typeof_GenericAttributeDeclaration_InferenceRule.java" startLine="15" startPosition="0" endLine="52" endPosition="0" unitName="jetbrains.mps.build.generictasks.typesystem.typeof_GenericAttributeDeclaration_InferenceRule" />
+  <unitInfo fileName="checkAllRequiredAttributesPresent_NonTypesystemRule.java" startLine="20" startPosition="0" endLine="60" endPosition="0" unitName="jetbrains.mps.build.generictasks.typesystem.checkAllRequiredAttributesPresent_NonTypesystemRule" />
   <root nodeId="353793545802854604">
     <nodeInfo nodeId="353793545802854606" fileName="typeof_Attribute_InferenceRule.java" startLine="19" startPosition="5" endLine="20" endPosition="95" />
     <nodeInfo nodeId="353793545802854606" fileName="typeof_Attribute_InferenceRule.java" startLine="20" startPosition="95" endLine="21" endPosition="53" />

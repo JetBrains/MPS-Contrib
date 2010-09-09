@@ -1,5 +1,8 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <debugInfo>
+  <unitInfo fileName="QueriesGenerated.java" startLine="37" startPosition="30" endLine="42" endPosition="9" unitName="jetbrains.mps.build.generictasks.actions.QueriesGenerated$1" />
+  <unitInfo fileName="QueriesGenerated.java" startLine="46" startPosition="57" endLine="52" endPosition="13" unitName="jetbrains.mps.build.generictasks.actions.QueriesGenerated$2" />
+  <unitInfo fileName="QueriesGenerated.java" startLine="22" startPosition="0" endLine="60" endPosition="0" unitName="jetbrains.mps.build.generictasks.actions.QueriesGenerated" />
   <root nodeId="353793545802854367">
     <nodeInfo nodeId="353793545802854373" fileName="QueriesGenerated.java" startLine="24" startPosition="124" endLine="25" endPosition="19" />
     <nodeInfo nodeId="353793545802854380" fileName="QueriesGenerated.java" startLine="26" startPosition="5" endLine="27" endPosition="178" />

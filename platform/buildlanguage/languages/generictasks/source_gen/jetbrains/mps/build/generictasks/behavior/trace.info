@@ -1,5 +1,12 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <debugInfo>
+  <unitInfo fileName="TaskReference_Behavior.java" startLine="7" startPosition="0" endLine="11" endPosition="0" unitName="jetbrains.mps.build.generictasks.behavior.TaskReference_Behavior" />
+  <unitInfo fileName="Attribute_Behavior.java" startLine="8" startPosition="0" endLine="19" endPosition="0" unitName="jetbrains.mps.build.generictasks.behavior.Attribute_Behavior" />
+  <unitInfo fileName="AttributeDeclaration_Behavior.java" startLine="11" startPosition="0" endLine="43" endPosition="0" unitName="jetbrains.mps.build.generictasks.behavior.AttributeDeclaration_Behavior" />
+  <unitInfo fileName="PathReference_Behavior.java" startLine="14" startPosition="0" endLine="53" endPosition="0" unitName="jetbrains.mps.build.generictasks.behavior.PathReference_Behavior" />
+  <unitInfo fileName="TaskCall_Behavior.java" startLine="14" startPosition="0" endLine="61" endPosition="0" unitName="jetbrains.mps.build.generictasks.behavior.TaskCall_Behavior" />
+  <unitInfo fileName="ITaskDeclaration_Behavior.java" startLine="15" startPosition="0" endLine="120" endPosition="0" unitName="jetbrains.mps.build.generictasks.behavior.ITaskDeclaration_Behavior" />
+  <unitInfo fileName="BuiltInTaskDeclaration_Behavior.java" startLine="21" startPosition="0" endLine="169" endPosition="0" unitName="jetbrains.mps.build.generictasks.behavior.BuiltInTaskDeclaration_Behavior" />
   <root nodeId="1449762848926780416">
     <nodeInfo nodeId="1449762848926780421" fileName="ITaskDeclaration_Behavior.java" startLine="27" startPosition="80" endLine="28" endPosition="64" />
     <nodeInfo nodeId="1449762848926780431" fileName="ITaskDeclaration_Behavior.java" startLine="31" startPosition="83" endLine="32" endPosition="82" />

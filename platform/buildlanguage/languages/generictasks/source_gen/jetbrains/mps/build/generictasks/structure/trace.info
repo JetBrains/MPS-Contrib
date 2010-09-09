@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<debugInfo>
+  <unitInfo fileName="Generictasks_Language.java" startLine="9" startPosition="0" endLine="16" endPosition="0" unitName="jetbrains.mps.build.generictasks.structure.Generictasks_Language" />
+  <unitInfo fileName="PathReference.java" startLine="11" startPosition="0" endLine="26" endPosition="0" unitName="jetbrains.mps.build.generictasks.structure.PathReference" />
+  <unitInfo fileName="TaskReference.java" startLine="11" startPosition="0" endLine="35" endPosition="0" unitName="jetbrains.mps.build.generictasks.structure.TaskReference" />
+  <unitInfo fileName="ITaskDeclaration.java" startLine="10" startPosition="0" endLine="41" endPosition="0" unitName="jetbrains.mps.build.generictasks.structure.ITaskDeclaration" />
+  <unitInfo fileName="Attribute.java" startLine="12" startPosition="0" endLine="45" endPosition="0" unitName="jetbrains.mps.build.generictasks.structure.Attribute" />
+  <unitInfo fileName="NestedDeclaration.java" startLine="12" startPosition="0" endLine="48" endPosition="0" unitName="jetbrains.mps.build.generictasks.structure.NestedDeclaration" />
+  <unitInfo fileName="TaskInterfaceDeclaration.java" startLine="12" startPosition="0" endLine="48" endPosition="0" unitName="jetbrains.mps.build.generictasks.structure.TaskInterfaceDeclaration" />
+  <unitInfo fileName="TaskCall.java" startLine="14" startPosition="0" endLine="104" endPosition="0" unitName="jetbrains.mps.build.generictasks.structure.TaskCall" />
+  <unitInfo fileName="AttributeDeclaration.java" startLine="16" startPosition="0" endLine="112" endPosition="0" unitName="jetbrains.mps.build.generictasks.structure.AttributeDeclaration" />
+  <unitInfo fileName="BuiltInTaskDeclaration.java" startLine="13" startPosition="0" endLine="202" endPosition="0" unitName="jetbrains.mps.build.generictasks.structure.BuiltInTaskDeclaration" />
+</debugInfo>
+

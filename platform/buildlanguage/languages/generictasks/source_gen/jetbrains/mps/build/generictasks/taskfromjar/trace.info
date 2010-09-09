@@ -331,6 +331,9 @@
     <nodeInfo nodeId="1462969652806435167" fileName="ClassInfo.java" startLine="75" startPosition="49" endLine="109" endPosition="5" />
     <nodeInfo nodeId="1462969652806435561" fileName="ClassInfo.java" startLine="172" startPosition="0" endLine="207" endPosition="0" />
     <nodeInfo nodeId="1462969652806435141" fileName="ClassInfo.java" startLine="72" startPosition="0" endLine="111" endPosition="0" />
+    <scopeInfo nodeId="1462969652806435436" fileName="ClassInfo.java" startLine="129" startPosition="0" endLine="129" endPosition="39">
+      <varInfo nodeId="1462969652806435438" varName="e" />
+    </scopeInfo>
     <scopeInfo nodeId="1462969652806435437" fileName="ClassInfo.java" startLine="129" startPosition="39" endLine="129" endPosition="39" />
     <scopeInfo nodeId="1462969652806434812" fileName="ClassInfo.java" startLine="364" startPosition="34" endLine="364" endPosition="34" />
     <scopeInfo nodeId="1462969652806435369" fileName="ClassInfo.java" startLine="82" startPosition="41" endLine="83" endPosition="94" />
@@ -357,9 +360,21 @@
     <scopeInfo nodeId="1462969652806434337" fileName="ClassInfo.java" startLine="218" startPosition="37" endLine="219" endPosition="25" />
     <scopeInfo nodeId="1462969652806434347" fileName="ClassInfo.java" startLine="222" startPosition="29" endLine="223" endPosition="25" />
     <scopeInfo nodeId="1462969652806434356" fileName="ClassInfo.java" startLine="226" startPosition="31" endLine="227" endPosition="25" />
+    <scopeInfo nodeId="1462969652806434428" fileName="ClassInfo.java" startLine="239" startPosition="0" endLine="240" endPosition="30">
+      <varInfo nodeId="1462969652806434434" varName="e" />
+    </scopeInfo>
     <scopeInfo nodeId="1462969652806434429" fileName="ClassInfo.java" startLine="239" startPosition="43" endLine="240" endPosition="30" />
+    <scopeInfo nodeId="1462969652806434436" fileName="ClassInfo.java" startLine="241" startPosition="0" endLine="242" endPosition="30">
+      <varInfo nodeId="1462969652806434442" varName="e" />
+    </scopeInfo>
     <scopeInfo nodeId="1462969652806434437" fileName="ClassInfo.java" startLine="241" startPosition="47" endLine="242" endPosition="30" />
+    <scopeInfo nodeId="1462969652806434444" fileName="ClassInfo.java" startLine="243" startPosition="0" endLine="244" endPosition="30">
+      <varInfo nodeId="1462969652806434450" varName="e" />
+    </scopeInfo>
     <scopeInfo nodeId="1462969652806434445" fileName="ClassInfo.java" startLine="243" startPosition="44" endLine="244" endPosition="30" />
+    <scopeInfo nodeId="1462969652806434452" fileName="ClassInfo.java" startLine="245" startPosition="0" endLine="246" endPosition="30">
+      <varInfo nodeId="1462969652806434458" varName="e" />
+    </scopeInfo>
     <scopeInfo nodeId="1462969652806434453" fileName="ClassInfo.java" startLine="245" startPosition="44" endLine="246" endPosition="30" />
     <scopeInfo nodeId="1462969652806434495" fileName="ClassInfo.java" startLine="251" startPosition="35" endLine="252" endPosition="31" />
     <scopeInfo nodeId="1462969652806434505" fileName="ClassInfo.java" startLine="255" startPosition="52" endLine="256" endPosition="37" />
@@ -382,6 +397,9 @@
     <scopeInfo nodeId="1462969652806435668" fileName="ClassInfo.java" startLine="197" startPosition="56" endLine="199" endPosition="22" />
     <scopeInfo nodeId="1462969652806435685" fileName="ClassInfo.java" startLine="201" startPosition="58" endLine="203" endPosition="22" />
     <scopeInfo nodeId="1462969652806434657" fileName="ClassInfo.java" startLine="299" startPosition="60" endLine="301" endPosition="42" />
+    <scopeInfo nodeId="1462969652806434369" fileName="ClassInfo.java" startLine="315" startPosition="0" endLine="317" endPosition="21">
+      <varInfo nodeId="1462969652806434377" varName="e" />
+    </scopeInfo>
     <scopeInfo nodeId="1462969652806434370" fileName="ClassInfo.java" startLine="315" startPosition="42" endLine="317" endPosition="21" />
     <scopeInfo nodeId="1462969652806434703" fileName="ClassInfo.java" startLine="328" startPosition="35" endLine="330" endPosition="58" />
     <scopeInfo nodeId="1462969652806434791" fileName="ClassInfo.java" startLine="355" startPosition="40" endLine="357" endPosition="24" />
@@ -826,7 +844,13 @@
     <scopeInfo nodeId="1462969652806436740" fileName="Generator.java" startLine="44" startPosition="18" endLine="45" endPosition="59" />
     <scopeInfo nodeId="1462969652806436747" fileName="Generator.java" startLine="46" startPosition="17" endLine="47" endPosition="62" />
     <scopeInfo nodeId="1462969652806436844" fileName="Generator.java" startLine="61" startPosition="47" endLine="62" endPosition="48" />
+    <scopeInfo nodeId="1462969652806436770" fileName="Generator.java" startLine="65" startPosition="0" endLine="66" endPosition="29">
+      <varInfo nodeId="1462969652806436777" varName="e" />
+    </scopeInfo>
     <scopeInfo nodeId="1462969652806436771" fileName="Generator.java" startLine="65" startPosition="29" endLine="66" endPosition="29" />
+    <scopeInfo nodeId="1462969652806436779" fileName="Generator.java" startLine="67" startPosition="0" endLine="68" endPosition="29">
+      <varInfo nodeId="1462969652806436786" varName="e" />
+    </scopeInfo>
     <scopeInfo nodeId="1462969652806436780" fileName="Generator.java" startLine="67" startPosition="40" endLine="68" endPosition="29" />
     <scopeInfo nodeId="1462969652806436939" fileName="Generator.java" startLine="88" startPosition="31" endLine="89" endPosition="19" />
     <scopeInfo nodeId="1462969652806436954" fileName="Generator.java" startLine="91" startPosition="95" endLine="92" endPosition="43" />
@@ -1445,11 +1469,20 @@
     <nodeInfo nodeId="1462969652806437839" fileName="Scanner.java" startLine="47" startPosition="0" endLine="73" endPosition="0" />
     <nodeInfo nodeId="1462969652806438105" fileName="Scanner.java" startLine="112" startPosition="0" endLine="139" endPosition="0" />
     <nodeInfo nodeId="1462969652806438228" fileName="Scanner.java" startLine="139" startPosition="0" endLine="173" endPosition="0" />
+    <scopeInfo nodeId="1462969652806438304" fileName="Scanner.java" startLine="165" startPosition="0" endLine="165" endPosition="39">
+      <varInfo nodeId="1462969652806438306" varName="e1" />
+    </scopeInfo>
     <scopeInfo nodeId="1462969652806438305" fileName="Scanner.java" startLine="165" startPosition="39" endLine="165" endPosition="39" />
+    <scopeInfo nodeId="1462969652806438308" fileName="Scanner.java" startLine="166" startPosition="0" endLine="166" endPosition="41">
+      <varInfo nodeId="1462969652806438310" varName="e1" />
+    </scopeInfo>
     <scopeInfo nodeId="1462969652806438309" fileName="Scanner.java" startLine="166" startPosition="41" endLine="166" endPosition="41" />
     <scopeInfo nodeId="1462969652806437986" fileName="Scanner.java" startLine="64" startPosition="34" endLine="65" endPosition="100" />
     <scopeInfo nodeId="1462969652806438045" fileName="Scanner.java" startLine="76" startPosition="39" endLine="77" endPosition="13" />
     <scopeInfo nodeId="1462969652806438076" fileName="Scanner.java" startLine="82" startPosition="13" endLine="83" endPosition="71" />
+    <scopeInfo nodeId="1462969652806438067" fileName="Scanner.java" startLine="84" startPosition="0" endLine="85" endPosition="32">
+      <varInfo nodeId="1462969652806438074" varName="e1" />
+    </scopeInfo>
     <scopeInfo nodeId="1462969652806438068" fileName="Scanner.java" startLine="84" startPosition="34" endLine="85" endPosition="32" />
     <scopeInfo nodeId="1462969652806438090" fileName="Scanner.java" startLine="91" startPosition="33" endLine="92" endPosition="27" />
     <scopeInfo nodeId="1462969652806438099" fileName="Scanner.java" startLine="95" startPosition="36" endLine="96" endPosition="53" />
@@ -1459,17 +1492,29 @@
     <scopeInfo nodeId="1462969652806438255" fileName="Scanner.java" startLine="142" startPosition="39" endLine="143" endPosition="35" />
     <scopeInfo nodeId="1462969652806438292" fileName="Scanner.java" startLine="149" startPosition="52" endLine="150" endPosition="17" />
     <scopeInfo nodeId="1462969652806438367" fileName="Scanner.java" startLine="158" startPosition="40" endLine="159" endPosition="19" />
+    <scopeInfo nodeId="1462969652806438295" fileName="Scanner.java" startLine="163" startPosition="0" endLine="164" endPosition="30">
+      <varInfo nodeId="1462969652806438302" varName="e1" />
+    </scopeInfo>
     <scopeInfo nodeId="1462969652806438296" fileName="Scanner.java" startLine="163" startPosition="43" endLine="164" endPosition="30" />
+    <scopeInfo nodeId="1462969652806438312" fileName="Scanner.java" startLine="167" startPosition="0" endLine="168" endPosition="30">
+      <varInfo nodeId="1462969652806438319" varName="e1" />
+    </scopeInfo>
     <scopeInfo nodeId="1462969652806438313" fileName="Scanner.java" startLine="167" startPosition="32" endLine="168" endPosition="30" />
     <scopeInfo nodeId="1462969652806438390" fileName="Scanner.java" startLine="174" startPosition="51" endLine="175" endPosition="101" />
     <scopeInfo nodeId="1462969652806438409" fileName="Scanner.java" startLine="178" startPosition="53" endLine="179" endPosition="53" />
     <scopeInfo nodeId="1462969652806438460" fileName="Scanner.java" startLine="185" startPosition="30" endLine="186" endPosition="25" />
     <scopeInfo nodeId="1462969652806438501" fileName="Scanner.java" startLine="196" startPosition="59" endLine="197" endPosition="17" />
     <scopeInfo nodeId="1462969652806438520" fileName="Scanner.java" startLine="200" startPosition="13" endLine="201" endPosition="82" />
+    <scopeInfo nodeId="1462969652806438515" fileName="Scanner.java" startLine="202" startPosition="0" endLine="203" endPosition="16">
+      <varInfo nodeId="1462969652806438518" varName="e1" />
+    </scopeInfo>
     <scopeInfo nodeId="1462969652806438516" fileName="Scanner.java" startLine="202" startPosition="34" endLine="203" endPosition="16" />
     <scopeInfo nodeId="1462969652806438569" fileName="Scanner.java" startLine="214" startPosition="33" endLine="215" endPosition="67" />
     <scopeInfo nodeId="1462969652806437824" fileName="Scanner.java" startLine="43" startPosition="53" endLine="45" endPosition="50" />
     <scopeInfo nodeId="1462969652806438209" fileName="Scanner.java" startLine="129" startPosition="36" endLine="131" endPosition="12" />
+    <scopeInfo nodeId="1462969652806438166" fileName="Scanner.java" startLine="134" startPosition="0" endLine="136" endPosition="18">
+      <varInfo nodeId="1462969652806438175" varName="e" />
+    </scopeInfo>
     <scopeInfo nodeId="1462969652806438167" fileName="Scanner.java" startLine="134" startPosition="39" endLine="136" endPosition="18" />
     <scopeInfo nodeId="1462969652806437888" fileName="Scanner.java" startLine="52" startPosition="42" endLine="55" endPosition="32">
       <varInfo nodeId="1462969652806437890" varName="jarFile" />
