@@ -76,6 +76,7 @@
       <module fileurl="file://$PROJECT_DIR$/testbench/testbench.iml" filepath="$PROJECT_DIR$/testbench/testbench.iml" />
       <module fileurl="file://$PROJECT_DIR$/core/languageDesign/textGen/textgen.iml" filepath="$PROJECT_DIR$/core/languageDesign/textGen/textgen.iml" group="core/languageDesign" />
       <module fileurl="file://$PROJECT_DIR$/core/languageDesign/typesystem/typesystem.iml" filepath="$PROJECT_DIR$/core/languageDesign/typesystem/typesystem.iml" group="core/languageDesign" />
+      <module fileurl="file://$PROJECT_DIR$/core/typesystemEngine/typesystemEngine.iml" filepath="$PROJECT_DIR$/core/typesystemEngine/typesystemEngine.iml" group="core/kernel" />
       <module fileurl="file://$PROJECT_DIR$/platform/uiLanguage/uiLanguage.iml" filepath="$PROJECT_DIR$/platform/uiLanguage/uiLanguage.iml" group="platform/uiLanguage" />
       <module fileurl="file://$PROJECT_DIR$/core/baseLanguage/unitTest/unitTest.iml" filepath="$PROJECT_DIR$/core/baseLanguage/unitTest/unitTest.iml" group="core/baseLanguage" />
       <module fileurl="file://$PROJECT_DIR$/plugins/vcs/vcs.iml" filepath="$PROJECT_DIR$/plugins/vcs/vcs.iml" group="plugins" />

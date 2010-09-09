@@ -19,7 +19,11 @@ import jetbrains.mps.internal.collections.runtime.IWhereFilter;
 import jetbrains.mps.internal.collections.runtime.IVisitor;
 import org.apache.commons.lang.StringUtils;
 import jetbrains.mps.internal.collections.runtime.Sequence;
+import jetbrains.mps.internal.collections.runtime.IRightCombinator;
 import java.io.File;
+import jetbrains.mps.util.FileUtil;
+import java.io.PrintWriter;
+import java.io.FileNotFoundException;
 import java.util.Set;
 import jetbrains.mps.project.IModule;
 import jetbrains.mps.internal.collections.runtime.SetSequence;
@@ -28,6 +32,7 @@ import jetbrains.mps.lang.smodel.generator.smodelAdapter.SNodeOperations;
 import java.util.LinkedHashSet;
 
 public class UnitTestRunner extends BaseRunner {
+  private static final int MAX_COMMAND_LINE = 16384;
   private static Logger LOG = Logger.getLogger(UnitTestRunner.class);
 
   private ProcessBuilder myProcessBuilder;
@@ -71,38 +76,84 @@ public class UnitTestRunner extends BaseRunner {
   }
 
   private Process runTestWithParameters(final TestRunParameters parameters, final List<SNode> tests) throws ProcessNotCreatedException {
+    final List<String> params = ListSequence.fromList(new ArrayList<String>());
+    final Wrappers._T<String> workingDir = new Wrappers._T<String>(null);
+    final Wrappers._T<String> programParams = new Wrappers._T<String>(null);
+    final Wrappers._T<String> vmParams = new Wrappers._T<String>(null);
+    final Wrappers._T<String> classpathString = new Wrappers._T<String>();
+    final Wrappers._T<List<String>> testsCommandLine = new Wrappers._T<List<String>>();
+    final Wrappers._long testCommandLineLength = new Wrappers._long(0);
+
     ModelAccess.instance().runReadAction(new Runnable() {
       public void run() {
-        List<String> params = ListSequence.fromList(new ArrayList<String>());
-        String workingDir = null;
-        String programParams = null;
-        String vmParams = null;
         if (UnitTestRunner.this.myRunParameters != null) {
-          workingDir = UnitTestRunner.this.myRunParameters.getWorkingDirectory();
-          programParams = UnitTestRunner.this.myRunParameters.getProgramParameters();
-          vmParams = UnitTestRunner.this.myRunParameters.getVMParameters();
+          workingDir.value = UnitTestRunner.this.myRunParameters.getWorkingDirectory();
+          programParams.value = UnitTestRunner.this.myRunParameters.getProgramParameters();
+          vmParams.value = UnitTestRunner.this.myRunParameters.getVMParameters();
         }
+
         UnitTestRunner.this.addJavaCommand(params);
+
         ListSequence.fromList(params).addSequence(ListSequence.fromList(parameters.getVmParameters()));
-        if (vmParams != null && StringUtils.isNotEmpty(vmParams)) {
-          String[] paramList = UnitTestRunner.this.splitParams(vmParams);
+        if (vmParams.value != null && StringUtils.isNotEmpty(vmParams.value)) {
+          String[] paramList = UnitTestRunner.this.splitParams(vmParams.value);
           ListSequence.fromList(params).addSequence(Sequence.fromIterable(Sequence.fromArray(paramList)));
         }
-        UnitTestRunner.this.addClassPath(params, UnitTestRunner.this.getClasspathString(tests, parameters.getClassPath()));
+
+        classpathString.value = UnitTestRunner.this.getClasspathString(tests, parameters.getClassPath());
+        UnitTestRunner.this.addClassPath(params, classpathString.value);
+
         ListSequence.fromList(params).addElement(parameters.getTestRunner());
+
+        testsCommandLine.value = ListSequence.fromList(new ArrayList<String>(ListSequence.fromList(tests).count()));
         for (SNode test : ListSequence.fromList(tests)) {
-          ListSequence.fromList(params).addSequence(ListSequence.fromList(ITestable_Behavior.call_getParametersPart_1215620460293(test)));
-        }
-        if (programParams != null && StringUtils.isNotEmpty(programParams)) {
-          String[] paramList = UnitTestRunner.this.splitParams(programParams);
-          ListSequence.fromList(params).addSequence(Sequence.fromIterable(Sequence.fromArray(paramList)));
-        }
-        UnitTestRunner.this.myProcessBuilder = new ProcessBuilder(params);
-        if (workingDir != null && StringUtils.isNotEmpty(workingDir)) {
-          UnitTestRunner.this.myProcessBuilder.directory(new File(workingDir));
+          List<String> parametersPart = ITestable_Behavior.call_getParametersPart_1215620460293(test);
+          testCommandLineLength.value = ListSequence.fromList(parametersPart).foldRight(testCommandLineLength.value, new IRightCombinator<String, Long>() {
+            public Long combine(String it, Long s) {
+              return s + it.length();
+            }
+          });
+          ListSequence.fromList(testsCommandLine.value).addSequence(ListSequence.fromList(parametersPart));
         }
       }
     });
+
+    // on win command line length is restricted to 32767=2**15-1 symbols 
+    // according to http://blogs.msdn.com/b/oldnewthing/archive/2003/12/10/56028.aspx 
+    // so I use nice and round number 16384=2**14-1 as an upper bound 
+    if (classpathString.value.length() + testCommandLineLength.value < MAX_COMMAND_LINE) {
+      ListSequence.fromList(params).addSequence(ListSequence.fromList(testsCommandLine.value));
+    } else {
+      // if we are to long, we have to write everything into the tmp file 
+      File tmpFile = FileUtil.createTmpFile();
+      // we want to be sure that file is deleted, even when process is not started 
+      tmpFile.deleteOnExit();
+      try {
+        PrintWriter writer = new PrintWriter(tmpFile);
+        for (String commandLinePiece : ListSequence.fromList(testsCommandLine.value)) {
+          writer.append(commandLinePiece);
+          writer.append("\n");
+        }
+        writer.flush();
+        writer.close();
+        ListSequence.fromList(params).addElement("-f");
+        ListSequence.fromList(params).addElement(tmpFile.getAbsolutePath());
+      } catch (FileNotFoundException e) {
+        throw new ProcessNotCreatedException("Could not output run parameters to file " + tmpFile, this.getCommandLine(this.myRunParameters.getWorkingDirectory()));
+      }
+    }
+
+    if (programParams.value != null && StringUtils.isNotEmpty(programParams.value)) {
+      String[] paramList = this.splitParams(programParams.value);
+      ListSequence.fromList(params).addSequence(Sequence.fromIterable(Sequence.fromArray(paramList)));
+    }
+
+    this.myProcessBuilder = new ProcessBuilder(params);
+
+    if (workingDir.value != null && StringUtils.isNotEmpty(workingDir.value)) {
+      this.myProcessBuilder.directory(new File(workingDir.value));
+    }
+
 
     try {
       return this.myProcessBuilder.start();
