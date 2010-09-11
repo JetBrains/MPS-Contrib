@@ -19,7 +19,7 @@ import jetbrains.mps.internal.collections.runtime.IWhereFilter;
 import jetbrains.mps.internal.collections.runtime.IVisitor;
 import org.apache.commons.lang.StringUtils;
 import jetbrains.mps.internal.collections.runtime.Sequence;
-import jetbrains.mps.internal.collections.runtime.IRightCombinator;
+import jetbrains.mps.internal.collections.runtime.ILeftCombinator;
 import java.io.File;
 import jetbrains.mps.util.FileUtil;
 import java.io.PrintWriter;
@@ -108,8 +108,8 @@ public class UnitTestRunner extends BaseRunner {
         testsCommandLine.value = ListSequence.fromList(new ArrayList<String>(ListSequence.fromList(tests).count()));
         for (SNode test : ListSequence.fromList(tests)) {
           List<String> parametersPart = ITestable_Behavior.call_getParametersPart_1215620460293(test);
-          testCommandLineLength.value = ListSequence.fromList(parametersPart).foldRight(testCommandLineLength.value, new IRightCombinator<String, Long>() {
-            public Long combine(String it, Long s) {
+          testCommandLineLength.value = ListSequence.fromList(parametersPart).foldLeft(testCommandLineLength.value, new ILeftCombinator<String, Long>() {
+            public Long combine(Long s, String it) {
               return s + it.length();
             }
           });
