@@ -148,75 +148,326 @@
     </scopeInfo>
     <unitInfo nodeId="1654665216152485857" fileName="GraphOrientation.java" startLine="12" startPosition="0" endLine="41" endPosition="0" unitName="jetbrains.mps.graphLayout.algorithms.GraphOrientation" />
   </root>
+  <root nodeId="1953828525454955931">
+    <nodeInfo nodeId="1953828525454955947" fileName="Dijkstra.java" startLine="19" startPosition="23" endLine="20" endPosition="24" />
+    <nodeInfo nodeId="1953828525454961248" fileName="Dijkstra.java" startLine="20" startPosition="24" endLine="21" endPosition="24" />
+    <nodeInfo nodeId="1953828525454955951" fileName="Dijkstra.java" startLine="21" startPosition="24" endLine="22" endPosition="39" />
+    <nodeInfo nodeId="1953828525454980132" fileName="Dijkstra.java" startLine="22" startPosition="39" endLine="23" endPosition="36" />
+    <nodeInfo nodeId="1953828525454980281" fileName="Dijkstra.java" startLine="23" startPosition="36" endLine="24" endPosition="33" />
+    <nodeInfo nodeId="1953828525454980160" fileName="Dijkstra.java" startLine="24" startPosition="33" endLine="25" endPosition="30" />
+    <nodeInfo nodeId="1953828525454955959" fileName="Dijkstra.java" startLine="27" startPosition="73" endLine="28" endPosition="20" />
+    <nodeInfo nodeId="1953828525454961253" fileName="Dijkstra.java" startLine="28" startPosition="20" endLine="29" endPosition="22" />
+    <nodeInfo nodeId="1953828525454955966" fileName="Dijkstra.java" startLine="29" startPosition="22" endLine="30" endPosition="24" />
+    <nodeInfo nodeId="1953828525454982276" fileName="Dijkstra.java" startLine="35" startPosition="40" endLine="36" endPosition="20" />
+    <nodeInfo nodeId="1953828525454979959" fileName="Dijkstra.java" startLine="41" startPosition="129" endLine="42" endPosition="11" />
+    <nodeInfo nodeId="1953828525454979972" fileName="Dijkstra.java" startLine="43" startPosition="30" endLine="44" endPosition="33" />
+    <nodeInfo nodeId="1953828525454980340" fileName="Dijkstra.java" startLine="45" startPosition="71" endLine="46" endPosition="14" />
+    <nodeInfo nodeId="1953828525454980266" fileName="Dijkstra.java" startLine="47" startPosition="7" endLine="48" endPosition="26" />
+    <nodeInfo nodeId="1953828525454980079" fileName="Dijkstra.java" startLine="50" startPosition="40" endLine="51" endPosition="35" />
+    <nodeInfo nodeId="7111916660161194128" fileName="Dijkstra.java" startLine="54" startPosition="59" endLine="55" endPosition="0" />
+    <nodeInfo nodeId="7111916660161177390" fileName="Dijkstra.java" startLine="55" startPosition="0" endLine="56" endPosition="71" />
+    <nodeInfo nodeId="1953828525454980278" fileName="Dijkstra.java" startLine="57" startPosition="9" endLine="58" endPosition="48" />
+    <nodeInfo nodeId="1953828525454980361" fileName="Dijkstra.java" startLine="59" startPosition="140" endLine="60" endPosition="33" />
+    <nodeInfo nodeId="1953828525454980358" fileName="Dijkstra.java" startLine="60" startPosition="33" endLine="61" endPosition="135" />
+    <nodeInfo nodeId="1953828525454980384" fileName="Dijkstra.java" startLine="61" startPosition="135" endLine="62" endPosition="58" />
+    <nodeInfo nodeId="1953828525454980395" fileName="Dijkstra.java" startLine="62" startPosition="58" endLine="63" endPosition="30" />
+    <nodeInfo nodeId="1953828525454980186" fileName="Dijkstra.java" startLine="69" startPosition="23" endLine="70" endPosition="63" />
+    <nodeInfo nodeId="1953828525454980290" fileName="Dijkstra.java" startLine="70" startPosition="63" endLine="71" endPosition="60" />
+    <nodeInfo nodeId="1953828525454980193" fileName="Dijkstra.java" startLine="71" startPosition="60" endLine="72" endPosition="61" />
+    <nodeInfo nodeId="1953828525454980201" fileName="Dijkstra.java" startLine="73" startPosition="65" endLine="74" endPosition="62" />
+    <nodeInfo nodeId="1953828525454980212" fileName="Dijkstra.java" startLine="75" startPosition="5" endLine="76" endPosition="49" />
+    <nodeInfo nodeId="1953828525454980234" fileName="Dijkstra.java" startLine="77" startPosition="65" endLine="78" endPosition="22" />
+    <nodeInfo nodeId="1953828525454980418" fileName="Dijkstra.java" startLine="82" startPosition="50" endLine="83" endPosition="68" />
+    <nodeInfo nodeId="1953828525454980427" fileName="Dijkstra.java" startLine="84" startPosition="70" endLine="85" endPosition="18" />
+    <nodeInfo nodeId="1953828525454980434" fileName="Dijkstra.java" startLine="86" startPosition="5" endLine="87" endPosition="22" />
+    <nodeInfo nodeId="1953828525454980443" fileName="Dijkstra.java" startLine="88" startPosition="29" endLine="89" endPosition="55" />
+    <nodeInfo nodeId="1953828525454980449" fileName="Dijkstra.java" startLine="89" startPosition="55" endLine="90" endPosition="57" />
+    <nodeInfo nodeId="1953828525454980454" fileName="Dijkstra.java" startLine="90" startPosition="57" endLine="91" endPosition="34" />
+    <nodeInfo nodeId="1953828525454980461" fileName="Dijkstra.java" startLine="92" startPosition="5" endLine="93" endPosition="16" />
+    <nodeInfo nodeId="1953828525455084553" fileName="Dijkstra.java" startLine="96" startPosition="43" endLine="97" endPosition="18" />
+    <nodeInfo nodeId="7727845083901379984" fileName="Dijkstra.java" startLine="104" startPosition="49" endLine="105" endPosition="114" />
+    <nodeInfo nodeId="7727845083901380007" fileName="Dijkstra.java" startLine="106" startPosition="29" endLine="107" endPosition="27" />
+    <nodeInfo nodeId="7727845083901380012" fileName="Dijkstra.java" startLine="108" startPosition="14" endLine="109" endPosition="52" />
+    <nodeInfo nodeId="1953828525454980115" fileName="Dijkstra.java" startLine="100" startPosition="60" endLine="102" endPosition="5" />
+    <nodeInfo nodeId="7727845083901380010" fileName="Dijkstra.java" startLine="108" startPosition="12" endLine="110" endPosition="7" />
+    <nodeInfo nodeId="1953828525454980327" fileName="Dijkstra.java" startLine="44" startPosition="33" endLine="47" endPosition="7" />
+    <nodeInfo nodeId="1953828525454961191" fileName="Dijkstra.java" startLine="72" startPosition="61" endLine="75" endPosition="5" />
+    <nodeInfo nodeId="1953828525454980224" fileName="Dijkstra.java" startLine="76" startPosition="49" endLine="79" endPosition="5" />
+    <nodeInfo nodeId="1953828525454980425" fileName="Dijkstra.java" startLine="83" startPosition="68" endLine="86" endPosition="5" />
+    <nodeInfo nodeId="1953828525454982274" fileName="Dijkstra.java" startLine="34" startPosition="67" endLine="38" endPosition="0" />
+    <nodeInfo nodeId="1953828525454980075" fileName="Dijkstra.java" startLine="49" startPosition="104" endLine="53" endPosition="0" />
+    <nodeInfo nodeId="7111916660161177377" fileName="Dijkstra.java" startLine="53" startPosition="11" endLine="57" endPosition="9" />
+    <nodeInfo nodeId="1953828525455084549" fileName="Dijkstra.java" startLine="95" startPosition="0" endLine="99" endPosition="0" />
+    <nodeInfo nodeId="1953828525454955933" fileName="Dijkstra.java" startLine="26" startPosition="0" endLine="31" endPosition="3" />
+    <nodeInfo nodeId="1953828525454982272" fileName="Dijkstra.java" startLine="33" startPosition="29" endLine="38" endPosition="29" />
+    <nodeInfo nodeId="1953828525454980438" fileName="Dijkstra.java" startLine="87" startPosition="22" endLine="92" endPosition="5" />
+    <nodeInfo nodeId="7727845083901379998" fileName="Dijkstra.java" startLine="105" startPosition="114" endLine="110" endPosition="7" />
+    <nodeInfo nodeId="1953828525454980318" fileName="Dijkstra.java" startLine="58" startPosition="48" endLine="64" endPosition="9" />
+    <nodeInfo nodeId="1953828525454982268" fileName="Dijkstra.java" startLine="32" startPosition="0" endLine="40" endPosition="0" />
+    <nodeInfo nodeId="1953828525454980124" fileName="Dijkstra.java" startLine="103" startPosition="0" endLine="112" endPosition="0" />
+    <nodeInfo nodeId="1953828525454955986" fileName="Dijkstra.java" startLine="68" startPosition="0" endLine="81" endPosition="0" />
+    <nodeInfo nodeId="1953828525454980415" fileName="Dijkstra.java" startLine="81" startPosition="0" endLine="95" endPosition="0" />
+    <nodeInfo nodeId="1953828525454979979" fileName="Dijkstra.java" startLine="48" startPosition="26" endLine="65" endPosition="7" />
+    <nodeInfo nodeId="1953828525454979962" fileName="Dijkstra.java" startLine="42" startPosition="11" endLine="66" endPosition="5" />
+    <nodeInfo nodeId="1953828525454955973" fileName="Dijkstra.java" startLine="40" startPosition="0" endLine="68" endPosition="0" />
+    <scopeInfo nodeId="1953828525454980118" fileName="Dijkstra.java" startLine="101" startPosition="29" endLine="101" endPosition="29" />
+    <scopeInfo nodeId="1953828525454982275" fileName="Dijkstra.java" startLine="35" startPosition="40" endLine="36" endPosition="20" />
+    <scopeInfo nodeId="1953828525454980328" fileName="Dijkstra.java" startLine="45" startPosition="71" endLine="46" endPosition="14" />
+    <scopeInfo nodeId="1953828525454980076" fileName="Dijkstra.java" startLine="50" startPosition="40" endLine="51" endPosition="35" />
+    <scopeInfo nodeId="1953828525454961194" fileName="Dijkstra.java" startLine="73" startPosition="65" endLine="74" endPosition="62" />
+    <scopeInfo nodeId="1953828525454980227" fileName="Dijkstra.java" startLine="77" startPosition="65" endLine="78" endPosition="22" />
+    <scopeInfo nodeId="1953828525454980426" fileName="Dijkstra.java" startLine="84" startPosition="70" endLine="85" endPosition="18" />
+    <scopeInfo nodeId="1953828525455084552" fileName="Dijkstra.java" startLine="96" startPosition="43" endLine="97" endPosition="18" />
+    <scopeInfo nodeId="7727845083901379999" fileName="Dijkstra.java" startLine="106" startPosition="29" endLine="107" endPosition="27" />
+    <scopeInfo nodeId="7727845083901380011" fileName="Dijkstra.java" startLine="108" startPosition="14" endLine="109" endPosition="52" />
+    <scopeInfo nodeId="7111916660161177378" fileName="Dijkstra.java" startLine="54" startPosition="59" endLine="56" endPosition="71" />
+    <scopeInfo nodeId="1953828525454980115" fileName="Dijkstra.java" startLine="100" startPosition="60" endLine="102" endPosition="5" />
+    <scopeInfo nodeId="1953828525454955936" fileName="Dijkstra.java" startLine="27" startPosition="73" endLine="30" endPosition="24" />
+    <scopeInfo nodeId="1953828525454961191" fileName="Dijkstra.java" startLine="72" startPosition="61" endLine="75" endPosition="5" />
+    <scopeInfo nodeId="1953828525454980224" fileName="Dijkstra.java" startLine="76" startPosition="49" endLine="79" endPosition="5" />
+    <scopeInfo nodeId="1953828525454980442" fileName="Dijkstra.java" startLine="88" startPosition="29" endLine="91" endPosition="34">
+      <varInfo nodeId="1953828525454980444" varName="prev" />
+    </scopeInfo>
+    <scopeInfo nodeId="1953828525454982274" fileName="Dijkstra.java" startLine="34" startPosition="67" endLine="38" endPosition="0" />
+    <scopeInfo nodeId="1953828525454980075" fileName="Dijkstra.java" startLine="49" startPosition="104" endLine="53" endPosition="0" />
+    <scopeInfo nodeId="1953828525454980319" fileName="Dijkstra.java" startLine="59" startPosition="140" endLine="63" endPosition="30" />
+    <scopeInfo nodeId="1953828525455084549" fileName="Dijkstra.java" startLine="95" startPosition="0" endLine="99" endPosition="0" />
+    <scopeInfo nodeId="1953828525454955933" fileName="Dijkstra.java" startLine="26" startPosition="0" endLine="31" endPosition="3">
+      <varInfo nodeId="1953828525454955937" varName="graph" />
+      <varInfo nodeId="1953828525454961245" varName="source" />
+      <varInfo nodeId="1953828525454955939" varName="weights" />
+    </scopeInfo>
+    <scopeInfo nodeId="1953828525454982271" fileName="Dijkstra.java" startLine="33" startPosition="29" endLine="38" endPosition="29" />
+    <scopeInfo nodeId="1953828525454980131" fileName="Dijkstra.java" startLine="104" startPosition="49" endLine="110" endPosition="7">
+      <varInfo nodeId="7727845083901379985" varName="distCompare" />
+    </scopeInfo>
+    <scopeInfo nodeId="1953828525454982268" fileName="Dijkstra.java" startLine="32" startPosition="0" endLine="40" endPosition="0" />
+    <scopeInfo nodeId="1953828525454980124" fileName="Dijkstra.java" startLine="103" startPosition="0" endLine="112" endPosition="0">
+      <varInfo nodeId="1953828525454980129" varName="second" />
+      <varInfo nodeId="1953828525454980127" varName="first" />
+    </scopeInfo>
+    <scopeInfo nodeId="1953828525454955989" fileName="Dijkstra.java" startLine="69" startPosition="23" endLine="79" endPosition="5" />
+    <scopeInfo nodeId="1953828525454980275" fileName="Dijkstra.java" startLine="53" startPosition="11" endLine="64" endPosition="9">
+      <varInfo nodeId="1953828525454980279" varName="opposite" />
+    </scopeInfo>
+    <scopeInfo nodeId="1953828525454980417" fileName="Dijkstra.java" startLine="82" startPosition="50" endLine="93" endPosition="16">
+      <varInfo nodeId="1953828525454980419" varName="path" />
+      <varInfo nodeId="1953828525454980435" varName="cur" />
+    </scopeInfo>
+    <scopeInfo nodeId="1953828525454955986" fileName="Dijkstra.java" startLine="68" startPosition="0" endLine="81" endPosition="0" />
+    <scopeInfo nodeId="1953828525454980415" fileName="Dijkstra.java" startLine="81" startPosition="0" endLine="95" endPosition="0">
+      <varInfo nodeId="1953828525454980465" varName="target" />
+    </scopeInfo>
+    <scopeInfo nodeId="1953828525454979979" fileName="Dijkstra.java" startLine="48" startPosition="26" endLine="65" endPosition="7" />
+    <scopeInfo nodeId="1953828525454979964" fileName="Dijkstra.java" startLine="43" startPosition="30" endLine="65" endPosition="7">
+      <varInfo nodeId="1953828525454979973" varName="first" />
+    </scopeInfo>
+    <scopeInfo nodeId="1953828525454979929" fileName="Dijkstra.java" startLine="41" startPosition="129" endLine="66" endPosition="5" />
+    <scopeInfo nodeId="1953828525454955973" fileName="Dijkstra.java" startLine="40" startPosition="0" endLine="68" endPosition="0">
+      <varInfo nodeId="1953828525454955982" varName="direction" />
+      <varInfo nodeId="1953828525454955977" varName="filter" />
+    </scopeInfo>
+    <unitInfo nodeId="1953828525454982274" fileName="Dijkstra.java" startLine="34" startPosition="20" endLine="38" endPosition="5" unitName="jetbrains.mps.graphLayout.algorithms.Dijkstra$1" />
+    <unitInfo nodeId="1953828525454980075" fileName="Dijkstra.java" startLine="49" startPosition="82" endLine="53" endPosition="7" unitName="jetbrains.mps.graphLayout.algorithms.Dijkstra$2" />
+    <unitInfo nodeId="1953828525454980113" fileName="Dijkstra.java" startLine="100" startPosition="0" endLine="113" endPosition="0" unitName="jetbrains.mps.graphLayout.algorithms.Dijkstra$NodeComparator" />
+    <unitInfo nodeId="1953828525454955931" fileName="Dijkstra.java" startLine="19" startPosition="0" endLine="114" endPosition="0" unitName="jetbrains.mps.graphLayout.algorithms.Dijkstra" />
+  </root>
+  <root nodeId="1953828525455084197">
+    <nodeInfo nodeId="1953828525455084198" fileName="MinCostMaxFlowWithPotentials.java" startLine="18" startPosition="43" endLine="19" endPosition="35" />
+    <nodeInfo nodeId="1953828525455084208" fileName="MinCostMaxFlowWithPotentials.java" startLine="21" startPosition="151" endLine="22" endPosition="45" />
+    <nodeInfo nodeId="1953828525455084212" fileName="MinCostMaxFlowWithPotentials.java" startLine="22" startPosition="45" endLine="23" endPosition="80" />
+    <nodeInfo nodeId="1953828525455084221" fileName="MinCostMaxFlowWithPotentials.java" startLine="23" startPosition="80" endLine="24" endPosition="78" />
+    <nodeInfo nodeId="1953828525455084230" fileName="MinCostMaxFlowWithPotentials.java" startLine="24" startPosition="78" endLine="25" endPosition="90" />
+    <nodeInfo nodeId="1953828525455084521" fileName="MinCostMaxFlowWithPotentials.java" startLine="25" startPosition="90" endLine="26" endPosition="80" />
+    <nodeInfo nodeId="1953828525455084239" fileName="MinCostMaxFlowWithPotentials.java" startLine="26" startPosition="80" endLine="27" endPosition="68" />
+    <nodeInfo nodeId="1953828525455084252" fileName="MinCostMaxFlowWithPotentials.java" startLine="28" startPosition="63" endLine="29" endPosition="94" />
+    <nodeInfo nodeId="1953828525455084531" fileName="MinCostMaxFlowWithPotentials.java" startLine="29" startPosition="94" endLine="30" endPosition="86" />
+    <nodeInfo nodeId="1953828525455084260" fileName="MinCostMaxFlowWithPotentials.java" startLine="30" startPosition="86" endLine="31" endPosition="45" />
+    <nodeInfo nodeId="1953828525455084266" fileName="MinCostMaxFlowWithPotentials.java" startLine="31" startPosition="45" endLine="32" endPosition="71" />
+    <nodeInfo nodeId="1953828525455084277" fileName="MinCostMaxFlowWithPotentials.java" startLine="32" startPosition="71" endLine="33" endPosition="60" />
+    <nodeInfo nodeId="1953828525455084283" fileName="MinCostMaxFlowWithPotentials.java" startLine="33" startPosition="60" endLine="34" endPosition="60" />
+    <nodeInfo nodeId="1953828525455084289" fileName="MinCostMaxFlowWithPotentials.java" startLine="34" startPosition="60" endLine="35" endPosition="57" />
+    <nodeInfo nodeId="1953828525455084295" fileName="MinCostMaxFlowWithPotentials.java" startLine="35" startPosition="57" endLine="36" endPosition="88" />
+    <nodeInfo nodeId="1953828525455084304" fileName="MinCostMaxFlowWithPotentials.java" startLine="36" startPosition="88" endLine="37" endPosition="63" />
+    <nodeInfo nodeId="1953828525455084309" fileName="MinCostMaxFlowWithPotentials.java" startLine="38" startPosition="5" endLine="39" endPosition="27" />
+    <nodeInfo nodeId="7727845083901414792" fileName="MinCostMaxFlowWithPotentials.java" startLine="39" startPosition="27" endLine="40" endPosition="20" />
+    <nodeInfo nodeId="7727845083901414798" fileName="MinCostMaxFlowWithPotentials.java" startLine="41" startPosition="21" endLine="42" endPosition="16" />
+    <nodeInfo nodeId="1953828525455084316" fileName="MinCostMaxFlowWithPotentials.java" startLine="42" startPosition="16" endLine="43" endPosition="70" />
+    <nodeInfo nodeId="1953828525455084330" fileName="MinCostMaxFlowWithPotentials.java" startLine="45" startPosition="42" endLine="46" endPosition="61" />
+    <nodeInfo nodeId="1953828525455084339" fileName="MinCostMaxFlowWithPotentials.java" startLine="48" startPosition="31" endLine="49" endPosition="67" />
+    <nodeInfo nodeId="1953828525455084349" fileName="MinCostMaxFlowWithPotentials.java" startLine="50" startPosition="25" endLine="51" endPosition="24" />
+    <nodeInfo nodeId="1953828525455084358" fileName="MinCostMaxFlowWithPotentials.java" startLine="52" startPosition="14" endLine="53" endPosition="44" />
+    <nodeInfo nodeId="1953828525455084366" fileName="MinCostMaxFlowWithPotentials.java" startLine="54" startPosition="55" endLine="55" endPosition="87" />
+    <nodeInfo nodeId="1953828525455084384" fileName="MinCostMaxFlowWithPotentials.java" startLine="58" startPosition="63" endLine="59" endPosition="68" />
+    <nodeInfo nodeId="1953828525455084390" fileName="MinCostMaxFlowWithPotentials.java" startLine="59" startPosition="68" endLine="60" endPosition="107" />
+    <nodeInfo nodeId="1953828525455084400" fileName="MinCostMaxFlowWithPotentials.java" startLine="60" startPosition="107" endLine="61" endPosition="115" />
+    <nodeInfo nodeId="1953828525455084410" fileName="MinCostMaxFlowWithPotentials.java" startLine="61" startPosition="115" endLine="62" endPosition="93" />
+    <nodeInfo nodeId="1953828525455084420" fileName="MinCostMaxFlowWithPotentials.java" startLine="63" startPosition="18" endLine="64" endPosition="99" />
+    <nodeInfo nodeId="1953828525455084430" fileName="MinCostMaxFlowWithPotentials.java" startLine="64" startPosition="99" endLine="65" endPosition="107" />
+    <nodeInfo nodeId="1953828525455084440" fileName="MinCostMaxFlowWithPotentials.java" startLine="65" startPosition="107" endLine="66" endPosition="124" />
+    <nodeInfo nodeId="1953828525455084569" fileName="MinCostMaxFlowWithPotentials.java" startLine="68" startPosition="9" endLine="69" endPosition="71" />
+    <nodeInfo nodeId="7727845083901413046" fileName="MinCostMaxFlowWithPotentials.java" startLine="71" startPosition="88" endLine="72" endPosition="21" />
+    <nodeInfo nodeId="1953828525455084588" fileName="MinCostMaxFlowWithPotentials.java" startLine="73" startPosition="11" endLine="74" endPosition="191" />
+    <nodeInfo nodeId="1953828525455084661" fileName="MinCostMaxFlowWithPotentials.java" startLine="75" startPosition="103" endLine="76" endPosition="58" />
+    <nodeInfo nodeId="7727845083901414803" fileName="MinCostMaxFlowWithPotentials.java" startLine="80" startPosition="5" endLine="81" endPosition="67" />
+    <nodeInfo nodeId="1953828525455084454" fileName="MinCostMaxFlowWithPotentials.java" startLine="82" startPosition="55" endLine="83" endPosition="29" />
+    <nodeInfo nodeId="1953828525455084460" fileName="MinCostMaxFlowWithPotentials.java" startLine="85" startPosition="53" endLine="86" endPosition="200" />
+    <nodeInfo nodeId="1953828525455084481" fileName="MinCostMaxFlowWithPotentials.java" startLine="86" startPosition="200" endLine="87" endPosition="105" />
+    <nodeInfo nodeId="1953828525455084499" fileName="MinCostMaxFlowWithPotentials.java" startLine="88" startPosition="5" endLine="89" endPosition="16" />
+    <nodeInfo nodeId="1953828525455084362" fileName="MinCostMaxFlowWithPotentials.java" startLine="53" startPosition="44" endLine="56" endPosition="9" />
+    <nodeInfo nodeId="7727845083901413022" fileName="MinCostMaxFlowWithPotentials.java" startLine="70" startPosition="67" endLine="73" endPosition="11" />
+    <nodeInfo nodeId="1953828525455084634" fileName="MinCostMaxFlowWithPotentials.java" startLine="74" startPosition="191" endLine="77" endPosition="11" />
+    <nodeInfo nodeId="1953828525455084450" fileName="MinCostMaxFlowWithPotentials.java" startLine="81" startPosition="67" endLine="84" endPosition="5" />
+    <nodeInfo nodeId="1953828525455084328" fileName="MinCostMaxFlowWithPotentials.java" startLine="44" startPosition="88" endLine="48" endPosition="0" />
+    <nodeInfo nodeId="1953828525455084418" fileName="MinCostMaxFlowWithPotentials.java" startLine="63" startPosition="16" endLine="67" endPosition="11" />
+    <nodeInfo nodeId="1953828525455084458" fileName="MinCostMaxFlowWithPotentials.java" startLine="84" startPosition="5" endLine="88" endPosition="5" />
+    <nodeInfo nodeId="1953828525455084324" fileName="MinCostMaxFlowWithPotentials.java" startLine="43" startPosition="70" endLine="48" endPosition="31" />
+    <nodeInfo nodeId="1953828525455084578" fileName="MinCostMaxFlowWithPotentials.java" startLine="69" startPosition="71" endLine="78" endPosition="9" />
+    <nodeInfo nodeId="1953828525455084378" fileName="MinCostMaxFlowWithPotentials.java" startLine="57" startPosition="55" endLine="67" endPosition="11" />
+    <nodeInfo nodeId="1953828525455084246" fileName="MinCostMaxFlowWithPotentials.java" startLine="27" startPosition="68" endLine="38" endPosition="5" />
+    <nodeInfo nodeId="1953828525455084374" fileName="MinCostMaxFlowWithPotentials.java" startLine="56" startPosition="9" endLine="68" endPosition="9" />
+    <nodeInfo nodeId="1953828525455084356" fileName="MinCostMaxFlowWithPotentials.java" startLine="52" startPosition="12" endLine="79" endPosition="7" />
+    <nodeInfo nodeId="1953828525455084347" fileName="MinCostMaxFlowWithPotentials.java" startLine="49" startPosition="67" endLine="79" endPosition="7" />
+    <nodeInfo nodeId="1953828525455084313" fileName="MinCostMaxFlowWithPotentials.java" startLine="40" startPosition="20" endLine="80" endPosition="5" />
+    <nodeInfo nodeId="1953828525455084202" fileName="MinCostMaxFlowWithPotentials.java" startLine="20" startPosition="0" endLine="91" endPosition="0" />
+    <scopeInfo nodeId="1953828525455084329" fileName="MinCostMaxFlowWithPotentials.java" startLine="45" startPosition="42" endLine="46" endPosition="61" />
+    <scopeInfo nodeId="1953828525455084348" fileName="MinCostMaxFlowWithPotentials.java" startLine="50" startPosition="25" endLine="51" endPosition="24" />
+    <scopeInfo nodeId="1953828525455084365" fileName="MinCostMaxFlowWithPotentials.java" startLine="54" startPosition="55" endLine="55" endPosition="87" />
+    <scopeInfo nodeId="7727845083901413023" fileName="MinCostMaxFlowWithPotentials.java" startLine="71" startPosition="88" endLine="72" endPosition="21" />
+    <scopeInfo nodeId="1953828525455084635" fileName="MinCostMaxFlowWithPotentials.java" startLine="75" startPosition="103" endLine="76" endPosition="58" />
+    <scopeInfo nodeId="1953828525455084453" fileName="MinCostMaxFlowWithPotentials.java" startLine="82" startPosition="55" endLine="83" endPosition="29" />
+    <scopeInfo nodeId="1953828525455084459" fileName="MinCostMaxFlowWithPotentials.java" startLine="85" startPosition="53" endLine="87" endPosition="105" />
+    <scopeInfo nodeId="1953828525455084362" fileName="MinCostMaxFlowWithPotentials.java" startLine="53" startPosition="44" endLine="56" endPosition="9" />
+    <scopeInfo nodeId="1953828525455084419" fileName="MinCostMaxFlowWithPotentials.java" startLine="63" startPosition="18" endLine="66" endPosition="124" />
+    <scopeInfo nodeId="1953828525455084450" fileName="MinCostMaxFlowWithPotentials.java" startLine="81" startPosition="67" endLine="84" endPosition="5" />
+    <scopeInfo nodeId="1953828525455084328" fileName="MinCostMaxFlowWithPotentials.java" startLine="44" startPosition="88" endLine="48" endPosition="0" />
+    <scopeInfo nodeId="1953828525455084383" fileName="MinCostMaxFlowWithPotentials.java" startLine="58" startPosition="63" endLine="62" endPosition="93">
+      <varInfo nodeId="1953828525455084385" varName="realEdge" />
+    </scopeInfo>
+    <scopeInfo nodeId="1953828525455084581" fileName="MinCostMaxFlowWithPotentials.java" startLine="70" startPosition="67" endLine="77" endPosition="11" />
+    <scopeInfo nodeId="1953828525455084251" fileName="MinCostMaxFlowWithPotentials.java" startLine="28" startPosition="63" endLine="37" endPosition="63">
+      <varInfo nodeId="1953828525455084267" varName="oppositeEdge" />
+    </scopeInfo>
+    <scopeInfo nodeId="1953828525455084578" fileName="MinCostMaxFlowWithPotentials.java" startLine="69" startPosition="71" endLine="78" endPosition="9" />
+    <scopeInfo nodeId="1953828525455084377" fileName="MinCostMaxFlowWithPotentials.java" startLine="57" startPosition="55" endLine="67" endPosition="11" />
+    <scopeInfo nodeId="1953828525455084246" fileName="MinCostMaxFlowWithPotentials.java" startLine="27" startPosition="68" endLine="38" endPosition="5" />
+    <scopeInfo nodeId="1953828525455084374" fileName="MinCostMaxFlowWithPotentials.java" startLine="56" startPosition="9" endLine="68" endPosition="9" />
+    <scopeInfo nodeId="1953828525455084357" fileName="MinCostMaxFlowWithPotentials.java" startLine="52" startPosition="14" endLine="78" endPosition="9">
+      <varInfo nodeId="1953828525455084359" varName="minCapacity" />
+      <varInfo nodeId="1953828525455084570" varName="distance" />
+    </scopeInfo>
+    <scopeInfo nodeId="1953828525455084315" fileName="MinCostMaxFlowWithPotentials.java" startLine="41" startPosition="21" endLine="79" endPosition="7">
+      <varInfo nodeId="1953828525455084317" varName="shortestPathFinder" />
+      <varInfo nodeId="1953828525455084340" varName="path" />
+    </scopeInfo>
+    <scopeInfo nodeId="1953828525455084207" fileName="MinCostMaxFlowWithPotentials.java" startLine="21" startPosition="151" endLine="89" endPosition="16">
+      <varInfo nodeId="1953828525455084209" varName="time" />
+      <varInfo nodeId="1953828525455084240" varName="dummyEdges" />
+      <varInfo nodeId="1953828525455084222" varName="opposite" />
+      <varInfo nodeId="1953828525455084231" varName="capacity" />
+      <varInfo nodeId="1953828525455084213" varName="flow" />
+      <varInfo nodeId="1953828525455084310" varName="hasPath" />
+      <varInfo nodeId="1953828525455084522" varName="cost" />
+      <varInfo nodeId="7727845083901414793" varName="numIter" />
+    </scopeInfo>
+    <scopeInfo nodeId="1953828525455084202" fileName="MinCostMaxFlowWithPotentials.java" startLine="20" startPosition="0" endLine="91" endPosition="0">
+      <varInfo nodeId="1953828525455084501" varName="graph" />
+      <varInfo nodeId="1953828525455084503" varName="source" />
+      <varInfo nodeId="1953828525455084511" varName="initialCost" />
+      <varInfo nodeId="1953828525455084505" varName="target" />
+      <varInfo nodeId="1953828525455084507" varName="initialCapacity" />
+    </scopeInfo>
+    <unitInfo nodeId="1953828525455084328" fileName="MinCostMaxFlowWithPotentials.java" startLine="44" startPosition="41" endLine="48" endPosition="7" unitName="jetbrains.mps.graphLayout.algorithms.MinCostMaxFlowWithPotentials$1" />
+    <unitInfo nodeId="1953828525455084197" fileName="MinCostMaxFlowWithPotentials.java" startLine="18" startPosition="0" endLine="92" endPosition="0" unitName="jetbrains.mps.graphLayout.algorithms.MinCostMaxFlowWithPotentials" />
+  </root>
   <root nodeId="228830736476010494">
-    <nodeInfo nodeId="228830736476016180" fileName="MinCostCirculation.java" startLine="14" startPosition="149" endLine="15" endPosition="84" />
-    <nodeInfo nodeId="228830736476010647" fileName="MinCostCirculation.java" startLine="15" startPosition="84" endLine="16" endPosition="39" />
-    <nodeInfo nodeId="228830736476010669" fileName="MinCostCirculation.java" startLine="16" startPosition="39" endLine="17" endPosition="39" />
-    <nodeInfo nodeId="228830736476016203" fileName="MinCostCirculation.java" startLine="18" startPosition="63" endLine="19" endPosition="131" />
-    <nodeInfo nodeId="228830736476016018" fileName="MinCostCirculation.java" startLine="22" startPosition="27" endLine="23" endPosition="17" />
-    <nodeInfo nodeId="228830736476016020" fileName="MinCostCirculation.java" startLine="24" startPosition="7" endLine="25" endPosition="19" />
-    <nodeInfo nodeId="228830736476016036" fileName="MinCostCirculation.java" startLine="26" startPosition="66" endLine="27" endPosition="51" />
-    <nodeInfo nodeId="228830736476016054" fileName="MinCostCirculation.java" startLine="29" startPosition="67" endLine="30" endPosition="51" />
-    <nodeInfo nodeId="228830736476023998" fileName="MinCostCirculation.java" startLine="31" startPosition="7" endLine="32" endPosition="26" />
-    <nodeInfo nodeId="228830736476024011" fileName="MinCostCirculation.java" startLine="33" startPosition="21" endLine="34" endPosition="41" />
-    <nodeInfo nodeId="228830736476024014" fileName="MinCostCirculation.java" startLine="36" startPosition="21" endLine="37" endPosition="41" />
-    <nodeInfo nodeId="228830736476024002" fileName="MinCostCirculation.java" startLine="39" startPosition="28" endLine="40" endPosition="67" />
-    <nodeInfo nodeId="228830736476024035" fileName="MinCostCirculation.java" startLine="40" startPosition="67" endLine="41" endPosition="50" />
-    <nodeInfo nodeId="228830736476016243" fileName="MinCostCirculation.java" startLine="43" startPosition="5" endLine="44" endPosition="92" />
-    <nodeInfo nodeId="228830736476016281" fileName="MinCostCirculation.java" startLine="46" startPosition="91" endLine="47" endPosition="20" />
-    <nodeInfo nodeId="228830736476016340" fileName="MinCostCirculation.java" startLine="50" startPosition="113" endLine="51" endPosition="48" />
-    <nodeInfo nodeId="228830736476015981" fileName="MinCostCirculation.java" startLine="52" startPosition="5" endLine="53" endPosition="25" />
-    <nodeInfo nodeId="228830736476015990" fileName="MinCostCirculation.java" startLine="53" startPosition="25" endLine="54" endPosition="25" />
-    <nodeInfo nodeId="228830736476024905" fileName="MinCostCirculation.java" startLine="55" startPosition="63" endLine="56" endPosition="116" />
-    <nodeInfo nodeId="228830736476010663" fileName="MinCostCirculation.java" startLine="57" startPosition="5" endLine="58" endPosition="16" />
-    <nodeInfo nodeId="228830736476016193" fileName="MinCostCirculation.java" startLine="17" startPosition="39" endLine="20" endPosition="5" />
-    <nodeInfo nodeId="228830736476016009" fileName="MinCostCirculation.java" startLine="21" startPosition="63" endLine="24" endPosition="7" />
-    <nodeInfo nodeId="228830736476016026" fileName="MinCostCirculation.java" startLine="25" startPosition="19" endLine="28" endPosition="7" />
-    <nodeInfo nodeId="228830736476016048" fileName="MinCostCirculation.java" startLine="28" startPosition="7" endLine="31" endPosition="7" />
-    <nodeInfo nodeId="228830736476016066" fileName="MinCostCirculation.java" startLine="32" startPosition="26" endLine="35" endPosition="7" />
-    <nodeInfo nodeId="228830736476016155" fileName="MinCostCirculation.java" startLine="35" startPosition="7" endLine="38" endPosition="7" />
-    <nodeInfo nodeId="228830736476016265" fileName="MinCostCirculation.java" startLine="45" startPosition="67" endLine="48" endPosition="7" />
-    <nodeInfo nodeId="228830736476016318" fileName="MinCostCirculation.java" startLine="49" startPosition="5" endLine="52" endPosition="5" />
-    <nodeInfo nodeId="228830736476024899" fileName="MinCostCirculation.java" startLine="54" startPosition="25" endLine="57" endPosition="5" />
-    <nodeInfo nodeId="228830736476024021" fileName="MinCostCirculation.java" startLine="38" startPosition="7" endLine="42" endPosition="7" />
-    <nodeInfo nodeId="228830736476016255" fileName="MinCostCirculation.java" startLine="44" startPosition="92" endLine="49" endPosition="5" />
-    <nodeInfo nodeId="228830736476015999" fileName="MinCostCirculation.java" startLine="20" startPosition="5" endLine="43" endPosition="5" />
-    <nodeInfo nodeId="228830736476010500" fileName="MinCostCirculation.java" startLine="13" startPosition="33" endLine="60" endPosition="0" />
-    <scopeInfo nodeId="228830736476016196" fileName="MinCostCirculation.java" startLine="18" startPosition="63" endLine="19" endPosition="131" />
-    <scopeInfo nodeId="228830736476016011" fileName="MinCostCirculation.java" startLine="22" startPosition="27" endLine="23" endPosition="17" />
-    <scopeInfo nodeId="228830736476016029" fileName="MinCostCirculation.java" startLine="26" startPosition="66" endLine="27" endPosition="51" />
-    <scopeInfo nodeId="228830736476016053" fileName="MinCostCirculation.java" startLine="29" startPosition="67" endLine="30" endPosition="51" />
-    <scopeInfo nodeId="228830736476016067" fileName="MinCostCirculation.java" startLine="33" startPosition="21" endLine="34" endPosition="41" />
-    <scopeInfo nodeId="228830736476016156" fileName="MinCostCirculation.java" startLine="36" startPosition="21" endLine="37" endPosition="41" />
-    <scopeInfo nodeId="228830736476016267" fileName="MinCostCirculation.java" startLine="46" startPosition="91" endLine="47" endPosition="20" />
-    <scopeInfo nodeId="228830736476016321" fileName="MinCostCirculation.java" startLine="50" startPosition="113" endLine="51" endPosition="48" />
-    <scopeInfo nodeId="228830736476024904" fileName="MinCostCirculation.java" startLine="55" startPosition="63" endLine="56" endPosition="116" />
-    <scopeInfo nodeId="228830736476024023" fileName="MinCostCirculation.java" startLine="39" startPosition="28" endLine="41" endPosition="50" />
-    <scopeInfo nodeId="228830736476016193" fileName="MinCostCirculation.java" startLine="17" startPosition="39" endLine="20" endPosition="5" />
-    <scopeInfo nodeId="228830736476016026" fileName="MinCostCirculation.java" startLine="25" startPosition="19" endLine="28" endPosition="7" />
-    <scopeInfo nodeId="228830736476016048" fileName="MinCostCirculation.java" startLine="28" startPosition="7" endLine="31" endPosition="7" />
-    <scopeInfo nodeId="228830736476016258" fileName="MinCostCirculation.java" startLine="45" startPosition="67" endLine="48" endPosition="7" />
-    <scopeInfo nodeId="228830736476016318" fileName="MinCostCirculation.java" startLine="49" startPosition="5" endLine="52" endPosition="5" />
-    <scopeInfo nodeId="228830736476024899" fileName="MinCostCirculation.java" startLine="54" startPosition="25" endLine="57" endPosition="5" />
-    <scopeInfo nodeId="228830736476016255" fileName="MinCostCirculation.java" startLine="44" startPosition="92" endLine="49" endPosition="5" />
-    <scopeInfo nodeId="228830736476016002" fileName="MinCostCirculation.java" startLine="21" startPosition="63" endLine="42" endPosition="7">
+    <nodeInfo nodeId="1953828525455088164" fileName="MinCostCirculation.java" startLine="13" startPosition="33" endLine="14" endPosition="35" />
+    <nodeInfo nodeId="228830736476016180" fileName="MinCostCirculation.java" startLine="16" startPosition="149" endLine="17" endPosition="84" />
+    <nodeInfo nodeId="228830736476010647" fileName="MinCostCirculation.java" startLine="17" startPosition="84" endLine="18" endPosition="39" />
+    <nodeInfo nodeId="228830736476010669" fileName="MinCostCirculation.java" startLine="18" startPosition="39" endLine="19" endPosition="39" />
+    <nodeInfo nodeId="228830736476016203" fileName="MinCostCirculation.java" startLine="20" startPosition="63" endLine="21" endPosition="131" />
+    <nodeInfo nodeId="228830736476016018" fileName="MinCostCirculation.java" startLine="24" startPosition="27" endLine="25" endPosition="17" />
+    <nodeInfo nodeId="228830736476016020" fileName="MinCostCirculation.java" startLine="26" startPosition="7" endLine="27" endPosition="19" />
+    <nodeInfo nodeId="228830736476016036" fileName="MinCostCirculation.java" startLine="28" startPosition="66" endLine="29" endPosition="51" />
+    <nodeInfo nodeId="228830736476016054" fileName="MinCostCirculation.java" startLine="31" startPosition="67" endLine="32" endPosition="51" />
+    <nodeInfo nodeId="228830736476023998" fileName="MinCostCirculation.java" startLine="33" startPosition="7" endLine="34" endPosition="26" />
+    <nodeInfo nodeId="228830736476024011" fileName="MinCostCirculation.java" startLine="35" startPosition="21" endLine="36" endPosition="41" />
+    <nodeInfo nodeId="228830736476024014" fileName="MinCostCirculation.java" startLine="38" startPosition="21" endLine="39" endPosition="41" />
+    <nodeInfo nodeId="228830736476024002" fileName="MinCostCirculation.java" startLine="41" startPosition="28" endLine="42" endPosition="67" />
+    <nodeInfo nodeId="228830736476024035" fileName="MinCostCirculation.java" startLine="42" startPosition="67" endLine="43" endPosition="50" />
+    <nodeInfo nodeId="228830736476016243" fileName="MinCostCirculation.java" startLine="45" startPosition="5" endLine="46" endPosition="28" />
+    <nodeInfo nodeId="1953828525455088175" fileName="MinCostCirculation.java" startLine="47" startPosition="24" endLine="48" endPosition="89" />
+    <nodeInfo nodeId="7727845083901418307" fileName="MinCostCirculation.java" startLine="49" startPosition="8" endLine="50" endPosition="103" />
+    <nodeInfo nodeId="7727845083901418333" fileName="MinCostCirculation.java" startLine="50" startPosition="103" endLine="51" endPosition="25" />
+    <nodeInfo nodeId="7727845083901418339" fileName="MinCostCirculation.java" startLine="51" startPosition="25" endLine="52" endPosition="32" />
+    <nodeInfo nodeId="7727845083901418350" fileName="MinCostCirculation.java" startLine="53" startPosition="67" endLine="54" endPosition="96" />
+    <nodeInfo nodeId="7727845083901418369" fileName="MinCostCirculation.java" startLine="54" startPosition="96" endLine="55" endPosition="110" />
+    <nodeInfo nodeId="7727845083901418392" fileName="MinCostCirculation.java" startLine="57" startPosition="42" endLine="58" endPosition="87" />
+    <nodeInfo nodeId="1953828525455088186" fileName="MinCostCirculation.java" startLine="61" startPosition="12" endLine="62" endPosition="75" />
+    <nodeInfo nodeId="1953828525455137477" fileName="MinCostCirculation.java" startLine="65" startPosition="91" endLine="66" endPosition="65" />
+    <nodeInfo nodeId="228830736476016340" fileName="MinCostCirculation.java" startLine="69" startPosition="113" endLine="70" endPosition="48" />
+    <nodeInfo nodeId="228830736476015981" fileName="MinCostCirculation.java" startLine="71" startPosition="5" endLine="72" endPosition="25" />
+    <nodeInfo nodeId="228830736476015990" fileName="MinCostCirculation.java" startLine="72" startPosition="25" endLine="73" endPosition="25" />
+    <nodeInfo nodeId="228830736476024905" fileName="MinCostCirculation.java" startLine="74" startPosition="63" endLine="75" endPosition="116" />
+    <nodeInfo nodeId="228830736476010663" fileName="MinCostCirculation.java" startLine="76" startPosition="5" endLine="77" endPosition="16" />
+    <nodeInfo nodeId="1953828525455088184" fileName="MinCostCirculation.java" startLine="61" startPosition="10" endLine="63" endPosition="5" />
+    <nodeInfo nodeId="228830736476016193" fileName="MinCostCirculation.java" startLine="19" startPosition="39" endLine="22" endPosition="5" />
+    <nodeInfo nodeId="228830736476016009" fileName="MinCostCirculation.java" startLine="23" startPosition="63" endLine="26" endPosition="7" />
+    <nodeInfo nodeId="228830736476016026" fileName="MinCostCirculation.java" startLine="27" startPosition="19" endLine="30" endPosition="7" />
+    <nodeInfo nodeId="228830736476016048" fileName="MinCostCirculation.java" startLine="30" startPosition="7" endLine="33" endPosition="7" />
+    <nodeInfo nodeId="228830736476016066" fileName="MinCostCirculation.java" startLine="34" startPosition="26" endLine="37" endPosition="7" />
+    <nodeInfo nodeId="228830736476016155" fileName="MinCostCirculation.java" startLine="37" startPosition="7" endLine="40" endPosition="7" />
+    <nodeInfo nodeId="7727845083901418382" fileName="MinCostCirculation.java" startLine="56" startPosition="9" endLine="59" endPosition="9" />
+    <nodeInfo nodeId="228830736476016265" fileName="MinCostCirculation.java" startLine="64" startPosition="67" endLine="67" endPosition="7" />
+    <nodeInfo nodeId="228830736476016318" fileName="MinCostCirculation.java" startLine="68" startPosition="5" endLine="71" endPosition="5" />
+    <nodeInfo nodeId="228830736476024899" fileName="MinCostCirculation.java" startLine="73" startPosition="25" endLine="76" endPosition="5" />
+    <nodeInfo nodeId="228830736476024021" fileName="MinCostCirculation.java" startLine="40" startPosition="7" endLine="44" endPosition="7" />
+    <nodeInfo nodeId="7727845083901418328" fileName="MinCostCirculation.java" startLine="52" startPosition="32" endLine="56" endPosition="9" />
+    <nodeInfo nodeId="228830736476016255" fileName="MinCostCirculation.java" startLine="63" startPosition="5" endLine="68" endPosition="5" />
+    <nodeInfo nodeId="7727845083901428411" fileName="MinCostCirculation.java" startLine="48" startPosition="89" endLine="60" endPosition="8" />
+    <nodeInfo nodeId="1953828525455088160" fileName="MinCostCirculation.java" startLine="46" startPosition="28" endLine="63" endPosition="5" />
+    <nodeInfo nodeId="228830736476015999" fileName="MinCostCirculation.java" startLine="22" startPosition="5" endLine="45" endPosition="5" />
+    <nodeInfo nodeId="228830736476010500" fileName="MinCostCirculation.java" startLine="15" startPosition="0" endLine="79" endPosition="0" />
+    <scopeInfo nodeId="228830736476016196" fileName="MinCostCirculation.java" startLine="20" startPosition="63" endLine="21" endPosition="131" />
+    <scopeInfo nodeId="228830736476016011" fileName="MinCostCirculation.java" startLine="24" startPosition="27" endLine="25" endPosition="17" />
+    <scopeInfo nodeId="228830736476016029" fileName="MinCostCirculation.java" startLine="28" startPosition="66" endLine="29" endPosition="51" />
+    <scopeInfo nodeId="228830736476016053" fileName="MinCostCirculation.java" startLine="31" startPosition="67" endLine="32" endPosition="51" />
+    <scopeInfo nodeId="228830736476016067" fileName="MinCostCirculation.java" startLine="35" startPosition="21" endLine="36" endPosition="41" />
+    <scopeInfo nodeId="228830736476016156" fileName="MinCostCirculation.java" startLine="38" startPosition="21" endLine="39" endPosition="41" />
+    <scopeInfo nodeId="7727845083901418383" fileName="MinCostCirculation.java" startLine="57" startPosition="42" endLine="58" endPosition="87" />
+    <scopeInfo nodeId="1953828525455088185" fileName="MinCostCirculation.java" startLine="61" startPosition="12" endLine="62" endPosition="75" />
+    <scopeInfo nodeId="228830736476016267" fileName="MinCostCirculation.java" startLine="65" startPosition="91" endLine="66" endPosition="65" />
+    <scopeInfo nodeId="228830736476016321" fileName="MinCostCirculation.java" startLine="69" startPosition="113" endLine="70" endPosition="48" />
+    <scopeInfo nodeId="228830736476024904" fileName="MinCostCirculation.java" startLine="74" startPosition="63" endLine="75" endPosition="116" />
+    <scopeInfo nodeId="228830736476024023" fileName="MinCostCirculation.java" startLine="41" startPosition="28" endLine="43" endPosition="50" />
+    <scopeInfo nodeId="7727845083901418331" fileName="MinCostCirculation.java" startLine="53" startPosition="67" endLine="55" endPosition="110" />
+    <scopeInfo nodeId="228830736476016193" fileName="MinCostCirculation.java" startLine="19" startPosition="39" endLine="22" endPosition="5" />
+    <scopeInfo nodeId="228830736476016026" fileName="MinCostCirculation.java" startLine="27" startPosition="19" endLine="30" endPosition="7" />
+    <scopeInfo nodeId="228830736476016048" fileName="MinCostCirculation.java" startLine="30" startPosition="7" endLine="33" endPosition="7" />
+    <scopeInfo nodeId="228830736476016258" fileName="MinCostCirculation.java" startLine="64" startPosition="67" endLine="67" endPosition="7" />
+    <scopeInfo nodeId="228830736476016318" fileName="MinCostCirculation.java" startLine="68" startPosition="5" endLine="71" endPosition="5" />
+    <scopeInfo nodeId="228830736476024899" fileName="MinCostCirculation.java" startLine="73" startPosition="25" endLine="76" endPosition="5" />
+    <scopeInfo nodeId="7727845083901418328" fileName="MinCostCirculation.java" startLine="52" startPosition="32" endLine="56" endPosition="9" />
+    <scopeInfo nodeId="228830736476016255" fileName="MinCostCirculation.java" startLine="63" startPosition="5" endLine="68" endPosition="5" />
+    <scopeInfo nodeId="1953828525455088161" fileName="MinCostCirculation.java" startLine="47" startPosition="24" endLine="60" endPosition="8" />
+    <scopeInfo nodeId="228830736476016002" fileName="MinCostCirculation.java" startLine="23" startPosition="63" endLine="44" endPosition="7">
       <varInfo nodeId="228830736476023999" varName="newEdge" />
       <varInfo nodeId="228830736476016021" varName="diff" />
     </scopeInfo>
-    <scopeInfo nodeId="228830736476015999" fileName="MinCostCirculation.java" startLine="20" startPosition="5" endLine="43" endPosition="5" />
-    <scopeInfo nodeId="228830736476010503" fileName="MinCostCirculation.java" startLine="14" startPosition="149" endLine="58" endPosition="16">
+    <scopeInfo nodeId="228830736476015999" fileName="MinCostCirculation.java" startLine="22" startPosition="5" endLine="45" endPosition="5" />
+    <scopeInfo nodeId="228830736476010503" fileName="MinCostCirculation.java" startLine="16" startPosition="149" endLine="77" endPosition="16">
       <varInfo nodeId="228830736476010648" varName="source" />
       <varInfo nodeId="228830736476010670" varName="target" />
       <varInfo nodeId="228830736476016181" varName="capacity" />
       <varInfo nodeId="228830736476016244" varName="flow" />
     </scopeInfo>
-    <scopeInfo nodeId="228830736476010500" fileName="MinCostCirculation.java" startLine="13" startPosition="33" endLine="60" endPosition="0">
+    <scopeInfo nodeId="228830736476010500" fileName="MinCostCirculation.java" startLine="15" startPosition="0" endLine="79" endPosition="0">
       <varInfo nodeId="228830736476010504" varName="graph" />
       <varInfo nodeId="228830736476010519" varName="initialCapacity" />
       <varInfo nodeId="228830736476010512" varName="low" />
       <varInfo nodeId="228830736476010526" varName="cost" />
     </scopeInfo>
-    <unitInfo nodeId="228830736476010494" fileName="MinCostCirculation.java" startLine="13" startPosition="0" endLine="61" endPosition="0" unitName="jetbrains.mps.graphLayout.algorithms.MinCostCirculation" />
+    <unitInfo nodeId="228830736476010494" fileName="MinCostCirculation.java" startLine="13" startPosition="0" endLine="80" endPosition="0" unitName="jetbrains.mps.graphLayout.algorithms.MinCostCirculation" />
   </root>
   <root nodeId="3720762119843889432">
     <nodeInfo nodeId="4644851485137244695" fileName="BiconnectedComponent.java" startLine="18" startPosition="35" endLine="19" endPosition="28" />
@@ -568,96 +819,208 @@
     <unitInfo nodeId="4179389957059009260" fileName="ShortestPath.java" startLine="18" startPosition="0" endLine="66" endPosition="0" unitName="jetbrains.mps.graphLayout.algorithms.ShortestPath" />
   </root>
   <root nodeId="4250605017401923979">
-    <nodeInfo nodeId="4250605017401923997" fileName="FordBellman.java" startLine="17" startPosition="26" endLine="18" endPosition="24" />
-    <nodeInfo nodeId="4250605017401924001" fileName="FordBellman.java" startLine="18" startPosition="24" endLine="19" endPosition="24" />
-    <nodeInfo nodeId="4250605017401924005" fileName="FordBellman.java" startLine="19" startPosition="24" endLine="20" endPosition="39" />
-    <nodeInfo nodeId="4250605017401924041" fileName="FordBellman.java" startLine="20" startPosition="39" endLine="21" endPosition="33" />
-    <nodeInfo nodeId="4250605017401924054" fileName="FordBellman.java" startLine="21" startPosition="33" endLine="22" endPosition="36" />
-    <nodeInfo nodeId="4250605017401924013" fileName="FordBellman.java" startLine="24" startPosition="76" endLine="25" endPosition="20" />
-    <nodeInfo nodeId="4250605017401924020" fileName="FordBellman.java" startLine="25" startPosition="20" endLine="26" endPosition="22" />
-    <nodeInfo nodeId="4250605017401924027" fileName="FordBellman.java" startLine="26" startPosition="22" endLine="27" endPosition="24" />
-    <nodeInfo nodeId="4250605017401924129" fileName="FordBellman.java" startLine="30" startPosition="133" endLine="31" endPosition="11" />
-    <nodeInfo nodeId="4250605017401928186" fileName="FordBellman.java" startLine="35" startPosition="42" endLine="36" endPosition="41" />
-    <nodeInfo nodeId="4250605017401928121" fileName="FordBellman.java" startLine="38" startPosition="13" endLine="39" endPosition="47" />
-    <nodeInfo nodeId="4250605017401928127" fileName="FordBellman.java" startLine="39" startPosition="47" endLine="40" endPosition="65" />
-    <nodeInfo nodeId="4250605017401928135" fileName="FordBellman.java" startLine="40" startPosition="65" endLine="41" endPosition="67" />
-    <nodeInfo nodeId="4250605017401928143" fileName="FordBellman.java" startLine="42" startPosition="116" endLine="43" endPosition="107" />
-    <nodeInfo nodeId="4250605017401928153" fileName="FordBellman.java" startLine="43" startPosition="107" endLine="44" endPosition="58" />
-    <nodeInfo nodeId="4250605017401932564" fileName="FordBellman.java" startLine="53" startPosition="40" endLine="54" endPosition="20" />
-    <nodeInfo nodeId="4250605017401924067" fileName="FordBellman.java" startLine="59" startPosition="23" endLine="60" endPosition="40" />
-    <nodeInfo nodeId="4250605017401924079" fileName="FordBellman.java" startLine="60" startPosition="40" endLine="61" endPosition="43" />
-    <nodeInfo nodeId="4250605017401924104" fileName="FordBellman.java" startLine="62" startPosition="65" endLine="63" endPosition="62" />
-    <nodeInfo nodeId="4250605017401924115" fileName="FordBellman.java" startLine="64" startPosition="5" endLine="65" endPosition="49" />
-    <nodeInfo nodeId="4250605017401924298" fileName="FordBellman.java" startLine="68" startPosition="50" endLine="69" endPosition="68" />
-    <nodeInfo nodeId="4250605017401927983" fileName="FordBellman.java" startLine="70" startPosition="70" endLine="71" endPosition="18" />
-    <nodeInfo nodeId="4250605017401927989" fileName="FordBellman.java" startLine="72" startPosition="5" endLine="73" endPosition="22" />
-    <nodeInfo nodeId="4250605017401928008" fileName="FordBellman.java" startLine="74" startPosition="29" endLine="75" endPosition="55" />
-    <nodeInfo nodeId="4250605017401928018" fileName="FordBellman.java" startLine="75" startPosition="55" endLine="76" endPosition="57" />
-    <nodeInfo nodeId="4250605017401928028" fileName="FordBellman.java" startLine="76" startPosition="57" endLine="77" endPosition="34" />
-    <nodeInfo nodeId="4250605017401924308" fileName="FordBellman.java" startLine="78" startPosition="5" endLine="79" endPosition="16" />
-    <nodeInfo nodeId="4250605017401924094" fileName="FordBellman.java" startLine="61" startPosition="43" endLine="64" endPosition="5" />
-    <nodeInfo nodeId="4250605017401924363" fileName="FordBellman.java" startLine="69" startPosition="68" endLine="72" endPosition="5" />
-    <nodeInfo nodeId="4250605017401928182" fileName="FordBellman.java" startLine="34" startPosition="105" endLine="38" endPosition="0" />
-    <nodeInfo nodeId="4250605017401928141" fileName="FordBellman.java" startLine="41" startPosition="67" endLine="45" endPosition="11" />
-    <nodeInfo nodeId="4250605017401932560" fileName="FordBellman.java" startLine="52" startPosition="67" endLine="56" endPosition="0" />
-    <nodeInfo nodeId="4250605017401923981" fileName="FordBellman.java" startLine="23" startPosition="0" endLine="28" endPosition="3" />
-    <nodeInfo nodeId="4250605017401932558" fileName="FordBellman.java" startLine="51" startPosition="29" endLine="56" endPosition="29" />
-    <nodeInfo nodeId="4250605017401924312" fileName="FordBellman.java" startLine="73" startPosition="22" endLine="78" endPosition="5" />
-    <nodeInfo nodeId="4250605017401932554" fileName="FordBellman.java" startLine="50" startPosition="0" endLine="58" endPosition="0" />
-    <nodeInfo nodeId="4250605017401924062" fileName="FordBellman.java" startLine="58" startPosition="0" endLine="67" endPosition="0" />
-    <nodeInfo nodeId="4250605017401928117" fileName="FordBellman.java" startLine="33" startPosition="67" endLine="46" endPosition="9" />
-    <nodeInfo nodeId="4250605017401924285" fileName="FordBellman.java" startLine="67" startPosition="0" endLine="81" endPosition="0" />
-    <nodeInfo nodeId="4250605017401928107" fileName="FordBellman.java" startLine="32" startPosition="66" endLine="47" endPosition="7" />
-    <nodeInfo nodeId="4250605017401924132" fileName="FordBellman.java" startLine="31" startPosition="11" endLine="48" endPosition="5" />
-    <nodeInfo nodeId="4250605017401924033" fileName="FordBellman.java" startLine="29" startPosition="0" endLine="50" endPosition="0" />
-    <scopeInfo nodeId="4250605017401928183" fileName="FordBellman.java" startLine="35" startPosition="42" endLine="36" endPosition="41" />
-    <scopeInfo nodeId="4250605017401932561" fileName="FordBellman.java" startLine="53" startPosition="40" endLine="54" endPosition="20" />
-    <scopeInfo nodeId="4250605017401924097" fileName="FordBellman.java" startLine="62" startPosition="65" endLine="63" endPosition="62" />
-    <scopeInfo nodeId="4250605017401924364" fileName="FordBellman.java" startLine="70" startPosition="70" endLine="71" endPosition="18" />
-    <scopeInfo nodeId="4250605017401928142" fileName="FordBellman.java" startLine="42" startPosition="116" endLine="44" endPosition="58" />
-    <scopeInfo nodeId="4250605017401923984" fileName="FordBellman.java" startLine="24" startPosition="76" endLine="27" endPosition="24" />
-    <scopeInfo nodeId="4250605017401924094" fileName="FordBellman.java" startLine="61" startPosition="43" endLine="64" endPosition="5" />
-    <scopeInfo nodeId="4250605017401924314" fileName="FordBellman.java" startLine="74" startPosition="29" endLine="77" endPosition="34">
+    <nodeInfo nodeId="4250605017401923997" fileName="FordBellman.java" startLine="20" startPosition="26" endLine="21" endPosition="24" />
+    <nodeInfo nodeId="4250605017401924001" fileName="FordBellman.java" startLine="21" startPosition="24" endLine="22" endPosition="24" />
+    <nodeInfo nodeId="7953585273259917129" fileName="FordBellman.java" startLine="22" startPosition="24" endLine="23" endPosition="37" />
+    <nodeInfo nodeId="7953585273259917133" fileName="FordBellman.java" startLine="23" startPosition="37" endLine="24" endPosition="81" />
+    <nodeInfo nodeId="4250605017401924005" fileName="FordBellman.java" startLine="24" startPosition="81" endLine="25" endPosition="39" />
+    <nodeInfo nodeId="4250605017401924041" fileName="FordBellman.java" startLine="25" startPosition="39" endLine="26" endPosition="33" />
+    <nodeInfo nodeId="4250605017401924054" fileName="FordBellman.java" startLine="26" startPosition="33" endLine="27" endPosition="36" />
+    <nodeInfo nodeId="4250605017401924013" fileName="FordBellman.java" startLine="29" startPosition="76" endLine="30" endPosition="20" />
+    <nodeInfo nodeId="4250605017401924020" fileName="FordBellman.java" startLine="30" startPosition="20" endLine="31" endPosition="22" />
+    <nodeInfo nodeId="4250605017401924027" fileName="FordBellman.java" startLine="31" startPosition="22" endLine="32" endPosition="24" />
+    <nodeInfo nodeId="4250605017401924129" fileName="FordBellman.java" startLine="35" startPosition="133" endLine="36" endPosition="32" />
+    <nodeInfo nodeId="7953585273259917140" fileName="FordBellman.java" startLine="36" startPosition="32" endLine="37" endPosition="0" />
+    <nodeInfo nodeId="7953585273259917020" fileName="FordBellman.java" startLine="39" startPosition="67" endLine="40" endPosition="63" />
+    <nodeInfo nodeId="7953585273259917036" fileName="FordBellman.java" startLine="41" startPosition="45" endLine="42" endPosition="19" />
+    <nodeInfo nodeId="4250605017401928186" fileName="FordBellman.java" startLine="45" startPosition="42" endLine="46" endPosition="41" />
+    <nodeInfo nodeId="4250605017401928121" fileName="FordBellman.java" startLine="48" startPosition="13" endLine="49" endPosition="47" />
+    <nodeInfo nodeId="4250605017401928135" fileName="FordBellman.java" startLine="49" startPosition="47" endLine="50" endPosition="67" />
+    <nodeInfo nodeId="4250605017401928143" fileName="FordBellman.java" startLine="51" startPosition="83" endLine="52" endPosition="107" />
+    <nodeInfo nodeId="4250605017401928153" fileName="FordBellman.java" startLine="52" startPosition="107" endLine="53" endPosition="58" />
+    <nodeInfo nodeId="4250605017401932564" fileName="FordBellman.java" startLine="62" startPosition="40" endLine="63" endPosition="20" />
+    <nodeInfo nodeId="7953585273259917155" fileName="FordBellman.java" startLine="68" startPosition="117" endLine="69" endPosition="28" />
+    <nodeInfo nodeId="7953585273259917162" fileName="FordBellman.java" startLine="69" startPosition="28" endLine="70" endPosition="22" />
+    <nodeInfo nodeId="4250605017401924067" fileName="FordBellman.java" startLine="70" startPosition="22" endLine="71" endPosition="40" />
+    <nodeInfo nodeId="4250605017401924079" fileName="FordBellman.java" startLine="71" startPosition="40" endLine="72" endPosition="43" />
+    <nodeInfo nodeId="4250605017401924104" fileName="FordBellman.java" startLine="73" startPosition="65" endLine="74" endPosition="62" />
+    <nodeInfo nodeId="4250605017401924115" fileName="FordBellman.java" startLine="75" startPosition="5" endLine="76" endPosition="49" />
+    <nodeInfo nodeId="4250605017401924298" fileName="FordBellman.java" startLine="79" startPosition="50" endLine="80" endPosition="68" />
+    <nodeInfo nodeId="4250605017401927983" fileName="FordBellman.java" startLine="81" startPosition="70" endLine="82" endPosition="18" />
+    <nodeInfo nodeId="4250605017401927989" fileName="FordBellman.java" startLine="83" startPosition="5" endLine="84" endPosition="22" />
+    <nodeInfo nodeId="4250605017401928008" fileName="FordBellman.java" startLine="85" startPosition="29" endLine="86" endPosition="55" />
+    <nodeInfo nodeId="4250605017401928018" fileName="FordBellman.java" startLine="86" startPosition="55" endLine="87" endPosition="57" />
+    <nodeInfo nodeId="4250605017401928028" fileName="FordBellman.java" startLine="87" startPosition="57" endLine="88" endPosition="34" />
+    <nodeInfo nodeId="4250605017401924308" fileName="FordBellman.java" startLine="89" startPosition="5" endLine="90" endPosition="16" />
+    <nodeInfo nodeId="7953585273259917060" fileName="FordBellman.java" startLine="94" startPosition="65" endLine="95" endPosition="61" />
+    <nodeInfo nodeId="7953585273259917068" fileName="FordBellman.java" startLine="96" startPosition="43" endLine="97" endPosition="17" />
+    <nodeInfo nodeId="7953585273259917082" fileName="FordBellman.java" startLine="100" startPosition="40" endLine="101" endPosition="37" />
+    <nodeInfo nodeId="7953585273259917090" fileName="FordBellman.java" startLine="103" startPosition="11" endLine="104" endPosition="45" />
+    <nodeInfo nodeId="7953585273259917097" fileName="FordBellman.java" startLine="104" startPosition="45" endLine="105" endPosition="65" />
+    <nodeInfo nodeId="7953585273259917176" fileName="FordBellman.java" startLine="106" startPosition="81" endLine="107" endPosition="75" />
+    <nodeInfo nodeId="7953585273259917187" fileName="FordBellman.java" startLine="107" startPosition="75" endLine="108" endPosition="71" />
+    <nodeInfo nodeId="7953585273259917202" fileName="FordBellman.java" startLine="108" startPosition="71" endLine="109" endPosition="62" />
+    <nodeInfo nodeId="7953585273259917213" fileName="FordBellman.java" startLine="109" startPosition="62" endLine="110" endPosition="58" />
+    <nodeInfo nodeId="7953585273259917230" fileName="FordBellman.java" startLine="110" startPosition="58" endLine="111" endPosition="26" />
+    <nodeInfo nodeId="7953585273259917254" fileName="FordBellman.java" startLine="112" startPosition="65" endLine="113" endPosition="57" />
+    <nodeInfo nodeId="7953585273259917266" fileName="FordBellman.java" startLine="113" startPosition="57" endLine="114" endPosition="61" />
+    <nodeInfo nodeId="7953585273259917247" fileName="FordBellman.java" startLine="114" startPosition="61" endLine="115" endPosition="64" />
+    <nodeInfo nodeId="7953585273259917281" fileName="FordBellman.java" startLine="115" startPosition="64" endLine="116" endPosition="40" />
+    <nodeInfo nodeId="7953585273259917319" fileName="FordBellman.java" startLine="117" startPosition="11" endLine="118" endPosition="27" />
+    <nodeInfo nodeId="7953585273259917344" fileName="FordBellman.java" startLine="118" startPosition="27" endLine="119" endPosition="27" />
+    <nodeInfo nodeId="7953585273259917350" fileName="FordBellman.java" startLine="120" startPosition="63" endLine="121" endPosition="45" />
+    <nodeInfo nodeId="7953585273259917372" fileName="FordBellman.java" startLine="122" startPosition="31" endLine="123" endPosition="31" />
+    <nodeInfo nodeId="7953585273259917379" fileName="FordBellman.java" startLine="123" startPosition="31" endLine="124" endPosition="20" />
+    <nodeInfo nodeId="7953585273259917394" fileName="FordBellman.java" startLine="127" startPosition="63" endLine="128" endPosition="61" />
+    <nodeInfo nodeId="7953585273259917402" fileName="FordBellman.java" startLine="129" startPosition="11" endLine="130" endPosition="23" />
+    <nodeInfo nodeId="7953585273259924997" fileName="FordBellman.java" startLine="133" startPosition="5" endLine="134" endPosition="16" />
+    <nodeInfo nodeId="7953585273259917008" fileName="FordBellman.java" startLine="137" startPosition="53" endLine="138" endPosition="71" />
+    <nodeInfo nodeId="7953585273259917450" fileName="FordBellman.java" startLine="141" startPosition="182" endLine="142" endPosition="65" />
+    <nodeInfo nodeId="7953585273259922362" fileName="FordBellman.java" startLine="144" startPosition="56" endLine="145" endPosition="17" />
+    <nodeInfo nodeId="7953585273259922366" fileName="FordBellman.java" startLine="146" startPosition="7" endLine="147" endPosition="66" />
+    <nodeInfo nodeId="7953585273259922380" fileName="FordBellman.java" startLine="147" startPosition="66" endLine="148" endPosition="45" />
+    <nodeInfo nodeId="7953585273259922394" fileName="FordBellman.java" startLine="148" startPosition="45" endLine="149" endPosition="79" />
+    <nodeInfo nodeId="7953585273259922416" fileName="FordBellman.java" startLine="150" startPosition="34" endLine="151" endPosition="29" />
+    <nodeInfo nodeId="7953585273259922439" fileName="FordBellman.java" startLine="154" startPosition="57" endLine="155" endPosition="63" />
+    <nodeInfo nodeId="7953585273259922450" fileName="FordBellman.java" startLine="158" startPosition="5" endLine="159" endPosition="16" />
+    <nodeInfo nodeId="7953585273259917026" fileName="FordBellman.java" startLine="40" startPosition="63" endLine="43" endPosition="9" />
+    <nodeInfo nodeId="4250605017401924094" fileName="FordBellman.java" startLine="72" startPosition="43" endLine="75" endPosition="5" />
+    <nodeInfo nodeId="4250605017401924363" fileName="FordBellman.java" startLine="80" startPosition="68" endLine="83" endPosition="5" />
+    <nodeInfo nodeId="7953585273259917066" fileName="FordBellman.java" startLine="95" startPosition="61" endLine="98" endPosition="7" />
+    <nodeInfo nodeId="7953585273259917381" fileName="FordBellman.java" startLine="126" startPosition="11" endLine="129" endPosition="11" />
+    <nodeInfo nodeId="7953585273259917475" fileName="FordBellman.java" startLine="143" startPosition="63" endLine="146" endPosition="7" />
+    <nodeInfo nodeId="7953585273259922407" fileName="FordBellman.java" startLine="149" startPosition="79" endLine="152" endPosition="7" />
+    <nodeInfo nodeId="7953585273259922430" fileName="FordBellman.java" startLine="153" startPosition="72" endLine="156" endPosition="9" />
+    <nodeInfo nodeId="4250605017401928182" fileName="FordBellman.java" startLine="44" startPosition="105" endLine="48" endPosition="0" />
+    <nodeInfo nodeId="4250605017401928141" fileName="FordBellman.java" startLine="50" startPosition="67" endLine="54" endPosition="11" />
+    <nodeInfo nodeId="4250605017401932560" fileName="FordBellman.java" startLine="61" startPosition="67" endLine="65" endPosition="0" />
+    <nodeInfo nodeId="7953585273259917080" fileName="FordBellman.java" startLine="99" startPosition="105" endLine="103" endPosition="0" />
+    <nodeInfo nodeId="7953585273259917363" fileName="FordBellman.java" startLine="121" startPosition="45" endLine="125" endPosition="13" />
+    <nodeInfo nodeId="7953585273259916999" fileName="FordBellman.java" startLine="136" startPosition="0" endLine="140" endPosition="0" />
+    <nodeInfo nodeId="4250605017401923981" fileName="FordBellman.java" startLine="28" startPosition="0" endLine="33" endPosition="3" />
+    <nodeInfo nodeId="4250605017401932558" fileName="FordBellman.java" startLine="60" startPosition="29" endLine="65" endPosition="29" />
+    <nodeInfo nodeId="4250605017401924312" fileName="FordBellman.java" startLine="84" startPosition="22" endLine="89" endPosition="5" />
+    <nodeInfo nodeId="7953585273259922420" fileName="FordBellman.java" startLine="152" startPosition="7" endLine="157" endPosition="7" />
+    <nodeInfo nodeId="7953585273259917223" fileName="FordBellman.java" startLine="111" startPosition="26" endLine="117" endPosition="11" />
+    <nodeInfo nodeId="7953585273259917337" fileName="FordBellman.java" startLine="119" startPosition="27" endLine="126" endPosition="11" />
+    <nodeInfo nodeId="4250605017401932554" fileName="FordBellman.java" startLine="59" startPosition="0" endLine="67" endPosition="0" />
+    <nodeInfo nodeId="4250605017401924062" fileName="FordBellman.java" startLine="67" startPosition="0" endLine="78" endPosition="0" />
+    <nodeInfo nodeId="4250605017401928117" fileName="FordBellman.java" startLine="43" startPosition="9" endLine="55" endPosition="9" />
+    <nodeInfo nodeId="4250605017401924285" fileName="FordBellman.java" startLine="78" startPosition="0" endLine="92" endPosition="0" />
+    <nodeInfo nodeId="7953585273259917465" fileName="FordBellman.java" startLine="142" startPosition="65" endLine="158" endPosition="5" />
+    <nodeInfo nodeId="4250605017401928107" fileName="FordBellman.java" startLine="38" startPosition="66" endLine="56" endPosition="7" />
+    <nodeInfo nodeId="4250605017401924132" fileName="FordBellman.java" startLine="37" startPosition="0" endLine="57" endPosition="5" />
+    <nodeInfo nodeId="7953585273259917405" fileName="FordBellman.java" startLine="140" startPosition="0" endLine="161" endPosition="0" />
+    <nodeInfo nodeId="4250605017401924033" fileName="FordBellman.java" startLine="34" startPosition="0" endLine="59" endPosition="0" />
+    <nodeInfo nodeId="7953585273259917103" fileName="FordBellman.java" startLine="105" startPosition="65" endLine="131" endPosition="9" />
+    <nodeInfo nodeId="7953585273259917072" fileName="FordBellman.java" startLine="98" startPosition="7" endLine="132" endPosition="7" />
+    <nodeInfo nodeId="7953585273259917054" fileName="FordBellman.java" startLine="93" startPosition="59" endLine="133" endPosition="5" />
+    <nodeInfo nodeId="7953585273259917037" fileName="FordBellman.java" startLine="92" startPosition="0" endLine="136" endPosition="0" />
+    <scopeInfo nodeId="7953585273259917027" fileName="FordBellman.java" startLine="41" startPosition="45" endLine="42" endPosition="19" />
+    <scopeInfo nodeId="4250605017401928183" fileName="FordBellman.java" startLine="45" startPosition="42" endLine="46" endPosition="41" />
+    <scopeInfo nodeId="4250605017401932561" fileName="FordBellman.java" startLine="62" startPosition="40" endLine="63" endPosition="20" />
+    <scopeInfo nodeId="4250605017401924097" fileName="FordBellman.java" startLine="73" startPosition="65" endLine="74" endPosition="62" />
+    <scopeInfo nodeId="4250605017401924364" fileName="FordBellman.java" startLine="81" startPosition="70" endLine="82" endPosition="18" />
+    <scopeInfo nodeId="7953585273259917067" fileName="FordBellman.java" startLine="96" startPosition="43" endLine="97" endPosition="17" />
+    <scopeInfo nodeId="7953585273259917081" fileName="FordBellman.java" startLine="100" startPosition="40" endLine="101" endPosition="37" />
+    <scopeInfo nodeId="7953585273259917383" fileName="FordBellman.java" startLine="127" startPosition="63" endLine="128" endPosition="61" />
+    <scopeInfo nodeId="7953585273259917002" fileName="FordBellman.java" startLine="137" startPosition="53" endLine="138" endPosition="71" />
+    <scopeInfo nodeId="7953585273259917477" fileName="FordBellman.java" startLine="144" startPosition="56" endLine="145" endPosition="17" />
+    <scopeInfo nodeId="7953585273259922408" fileName="FordBellman.java" startLine="150" startPosition="34" endLine="151" endPosition="29" />
+    <scopeInfo nodeId="7953585273259922432" fileName="FordBellman.java" startLine="154" startPosition="57" endLine="155" endPosition="63" />
+    <scopeInfo nodeId="4250605017401928142" fileName="FordBellman.java" startLine="51" startPosition="83" endLine="53" endPosition="58" />
+    <scopeInfo nodeId="7953585273259917364" fileName="FordBellman.java" startLine="122" startPosition="31" endLine="124" endPosition="20" />
+    <scopeInfo nodeId="4250605017401923984" fileName="FordBellman.java" startLine="29" startPosition="76" endLine="32" endPosition="24" />
+    <scopeInfo nodeId="4250605017401924094" fileName="FordBellman.java" startLine="72" startPosition="43" endLine="75" endPosition="5" />
+    <scopeInfo nodeId="4250605017401924314" fileName="FordBellman.java" startLine="85" startPosition="29" endLine="88" endPosition="34">
       <varInfo nodeId="4250605017401928009" varName="prev" />
     </scopeInfo>
-    <scopeInfo nodeId="4250605017401928182" fileName="FordBellman.java" startLine="34" startPosition="105" endLine="38" endPosition="0" />
-    <scopeInfo nodeId="4250605017401932560" fileName="FordBellman.java" startLine="52" startPosition="67" endLine="56" endPosition="0" />
-    <scopeInfo nodeId="4250605017401923981" fileName="FordBellman.java" startLine="23" startPosition="0" endLine="28" endPosition="3">
+    <scopeInfo nodeId="7953585273259922423" fileName="FordBellman.java" startLine="153" startPosition="72" endLine="156" endPosition="9" />
+    <scopeInfo nodeId="4250605017401928182" fileName="FordBellman.java" startLine="44" startPosition="105" endLine="48" endPosition="0" />
+    <scopeInfo nodeId="4250605017401932560" fileName="FordBellman.java" startLine="61" startPosition="67" endLine="65" endPosition="0" />
+    <scopeInfo nodeId="7953585273259917080" fileName="FordBellman.java" startLine="99" startPosition="105" endLine="103" endPosition="0" />
+    <scopeInfo nodeId="7953585273259917225" fileName="FordBellman.java" startLine="112" startPosition="65" endLine="116" endPosition="40">
+      <varInfo nodeId="7953585273259917267" varName="next" />
+    </scopeInfo>
+    <scopeInfo nodeId="7953585273259916999" fileName="FordBellman.java" startLine="136" startPosition="0" endLine="140" endPosition="0">
+      <varInfo nodeId="7953585273259917006" varName="target" />
+    </scopeInfo>
+    <scopeInfo nodeId="4250605017401923981" fileName="FordBellman.java" startLine="28" startPosition="0" endLine="33" endPosition="3">
       <varInfo nodeId="4250605017401923985" varName="graph" />
       <varInfo nodeId="4250605017401923987" varName="source" />
       <varInfo nodeId="4250605017401923990" varName="weights" />
     </scopeInfo>
-    <scopeInfo nodeId="4250605017401932557" fileName="FordBellman.java" startLine="51" startPosition="29" endLine="56" endPosition="29" />
-    <scopeInfo nodeId="4250605017401924065" fileName="FordBellman.java" startLine="59" startPosition="23" endLine="65" endPosition="49" />
-    <scopeInfo nodeId="4250605017401928120" fileName="FordBellman.java" startLine="38" startPosition="13" endLine="45" endPosition="11">
+    <scopeInfo nodeId="4250605017401932557" fileName="FordBellman.java" startLine="60" startPosition="29" endLine="65" endPosition="29" />
+    <scopeInfo nodeId="7953585273259917340" fileName="FordBellman.java" startLine="120" startPosition="63" endLine="125" endPosition="13" />
+    <scopeInfo nodeId="7953585273259922420" fileName="FordBellman.java" startLine="152" startPosition="7" endLine="157" endPosition="7" />
+    <scopeInfo nodeId="4250605017401928120" fileName="FordBellman.java" startLine="48" startPosition="13" endLine="54" endPosition="11">
       <varInfo nodeId="4250605017401928136" varName="targetDist" />
-      <varInfo nodeId="4250605017401928128" varName="sourceDist" />
       <varInfo nodeId="4250605017401928122" varName="target" />
     </scopeInfo>
-    <scopeInfo nodeId="4250605017401932554" fileName="FordBellman.java" startLine="50" startPosition="0" endLine="58" endPosition="0" />
-    <scopeInfo nodeId="4250605017401924062" fileName="FordBellman.java" startLine="58" startPosition="0" endLine="67" endPosition="0" />
-    <scopeInfo nodeId="4250605017401924288" fileName="FordBellman.java" startLine="68" startPosition="50" endLine="79" endPosition="16">
+    <scopeInfo nodeId="7953585273259917337" fileName="FordBellman.java" startLine="119" startPosition="27" endLine="126" endPosition="11" />
+    <scopeInfo nodeId="4250605017401932554" fileName="FordBellman.java" startLine="59" startPosition="0" endLine="67" endPosition="0" />
+    <scopeInfo nodeId="4250605017401924065" fileName="FordBellman.java" startLine="68" startPosition="117" endLine="76" endPosition="49" />
+    <scopeInfo nodeId="4250605017401924062" fileName="FordBellman.java" startLine="67" startPosition="0" endLine="78" endPosition="0">
+      <varInfo nodeId="7953585273259917146" varName="direction" />
+      <varInfo nodeId="7953585273259917148" varName="filter" />
+    </scopeInfo>
+    <scopeInfo nodeId="4250605017401924288" fileName="FordBellman.java" startLine="79" startPosition="50" endLine="90" endPosition="16">
       <varInfo nodeId="4250605017401924299" varName="path" />
       <varInfo nodeId="4250605017401927990" varName="cur" />
     </scopeInfo>
-    <scopeInfo nodeId="4250605017401928110" fileName="FordBellman.java" startLine="33" startPosition="67" endLine="46" endPosition="9" />
-    <scopeInfo nodeId="4250605017401928117" fileName="FordBellman.java" startLine="33" startPosition="67" endLine="46" endPosition="9" />
-    <scopeInfo nodeId="4250605017401924285" fileName="FordBellman.java" startLine="67" startPosition="0" endLine="81" endPosition="0">
+    <scopeInfo nodeId="4250605017401928117" fileName="FordBellman.java" startLine="43" startPosition="9" endLine="55" endPosition="9" />
+    <scopeInfo nodeId="4250605017401924285" fileName="FordBellman.java" startLine="78" startPosition="0" endLine="92" endPosition="0">
       <varInfo nodeId="4250605017401924296" varName="target" />
     </scopeInfo>
-    <scopeInfo nodeId="4250605017401924133" fileName="FordBellman.java" startLine="32" startPosition="66" endLine="47" endPosition="7" />
-    <scopeInfo nodeId="4250605017401928107" fileName="FordBellman.java" startLine="32" startPosition="66" endLine="47" endPosition="7" />
-    <scopeInfo nodeId="4250605017401924132" fileName="FordBellman.java" startLine="31" startPosition="11" endLine="48" endPosition="5">
+    <scopeInfo nodeId="7953585273259917468" fileName="FordBellman.java" startLine="143" startPosition="63" endLine="157" endPosition="7">
+      <varInfo nodeId="7953585273259922367" varName="bellman" />
+      <varInfo nodeId="7953585273259922395" varName="negativeCycle" />
+    </scopeInfo>
+    <scopeInfo nodeId="4250605017401928110" fileName="FordBellman.java" startLine="39" startPosition="67" endLine="55" endPosition="9">
+      <varInfo nodeId="7953585273259917021" varName="sourceDist" />
+    </scopeInfo>
+    <scopeInfo nodeId="7953585273259917465" fileName="FordBellman.java" startLine="142" startPosition="65" endLine="158" endPosition="5" />
+    <scopeInfo nodeId="4250605017401924133" fileName="FordBellman.java" startLine="38" startPosition="66" endLine="56" endPosition="7" />
+    <scopeInfo nodeId="4250605017401928107" fileName="FordBellman.java" startLine="38" startPosition="66" endLine="56" endPosition="7" />
+    <scopeInfo nodeId="7953585273259917408" fileName="FordBellman.java" startLine="141" startPosition="182" endLine="159" endPosition="16">
+      <varInfo nodeId="7953585273259917451" varName="visited" />
+    </scopeInfo>
+    <scopeInfo nodeId="4250605017401924132" fileName="FordBellman.java" startLine="37" startPosition="0" endLine="57" endPosition="5">
       <varInfo nodeId="4250605017401924135" varName="iter" />
     </scopeInfo>
-    <scopeInfo nodeId="4250605017401924036" fileName="FordBellman.java" startLine="30" startPosition="133" endLine="48" endPosition="5" />
-    <scopeInfo nodeId="4250605017401924033" fileName="FordBellman.java" startLine="29" startPosition="0" endLine="50" endPosition="0">
+    <scopeInfo nodeId="7953585273259917405" fileName="FordBellman.java" startLine="140" startPosition="0" endLine="161" endPosition="0">
+      <varInfo nodeId="7953585273259917432" varName="graph" />
+      <varInfo nodeId="7953585273259917434" varName="weights" />
+      <varInfo nodeId="7953585273259922388" varName="direction" />
+      <varInfo nodeId="7953585273259917441" varName="filter" />
+    </scopeInfo>
+    <scopeInfo nodeId="4250605017401924036" fileName="FordBellman.java" startLine="35" startPosition="133" endLine="57" endPosition="5" />
+    <scopeInfo nodeId="7953585273259917104" fileName="FordBellman.java" startLine="106" startPosition="81" endLine="130" endPosition="23">
+      <varInfo nodeId="7953585273259917188" varName="visited" />
+      <varInfo nodeId="7953585273259917177" varName="cycle" />
+      <varInfo nodeId="7953585273259917345" varName="last" />
+      <varInfo nodeId="7953585273259917231" varName="cur" />
+      <varInfo nodeId="7953585273259917320" varName="first" />
+    </scopeInfo>
+    <scopeInfo nodeId="4250605017401924033" fileName="FordBellman.java" startLine="34" startPosition="0" endLine="59" endPosition="0">
       <varInfo nodeId="4250605017401928043" varName="direction" />
       <varInfo nodeId="4250605017401924335" varName="edgeFilter" />
     </scopeInfo>
-    <unitInfo nodeId="4250605017401928182" fileName="FordBellman.java" startLine="34" startPosition="83" endLine="38" endPosition="9" unitName="jetbrains.mps.graphLayout.algorithms.FordBellman$1" />
-    <unitInfo nodeId="4250605017401932560" fileName="FordBellman.java" startLine="52" startPosition="20" endLine="56" endPosition="5" unitName="jetbrains.mps.graphLayout.algorithms.FordBellman$2" />
-    <unitInfo nodeId="4250605017401923979" fileName="FordBellman.java" startLine="17" startPosition="0" endLine="82" endPosition="0" unitName="jetbrains.mps.graphLayout.algorithms.FordBellman" />
+    <scopeInfo nodeId="7953585273259917089" fileName="FordBellman.java" startLine="103" startPosition="11" endLine="131" endPosition="9">
+      <varInfo nodeId="7953585273259917098" varName="targetDist" />
+      <varInfo nodeId="7953585273259917091" varName="target" />
+    </scopeInfo>
+    <scopeInfo nodeId="7953585273259917072" fileName="FordBellman.java" startLine="98" startPosition="7" endLine="132" endPosition="7" />
+    <scopeInfo nodeId="7953585273259917059" fileName="FordBellman.java" startLine="94" startPosition="65" endLine="132" endPosition="7">
+      <varInfo nodeId="7953585273259917061" varName="sourceDist" />
+    </scopeInfo>
+    <scopeInfo nodeId="7953585273259917054" fileName="FordBellman.java" startLine="93" startPosition="59" endLine="133" endPosition="5" />
+    <scopeInfo nodeId="7953585273259917040" fileName="FordBellman.java" startLine="93" startPosition="59" endLine="134" endPosition="16" />
+    <scopeInfo nodeId="7953585273259917037" fileName="FordBellman.java" startLine="92" startPosition="0" endLine="136" endPosition="0" />
+    <unitInfo nodeId="4250605017401928182" fileName="FordBellman.java" startLine="44" startPosition="83" endLine="48" endPosition="9" unitName="jetbrains.mps.graphLayout.algorithms.FordBellman$1" />
+    <unitInfo nodeId="4250605017401932560" fileName="FordBellman.java" startLine="61" startPosition="20" endLine="65" endPosition="5" unitName="jetbrains.mps.graphLayout.algorithms.FordBellman$2" />
+    <unitInfo nodeId="7953585273259917080" fileName="FordBellman.java" startLine="99" startPosition="83" endLine="103" endPosition="7" unitName="jetbrains.mps.graphLayout.algorithms.FordBellman$3" />
+    <unitInfo nodeId="4250605017401923979" fileName="FordBellman.java" startLine="20" startPosition="0" endLine="162" endPosition="0" unitName="jetbrains.mps.graphLayout.algorithms.FordBellman" />
   </root>
   <root nodeId="4660430665333277271">
     <nodeInfo nodeId="4519409331094618576" fileName="Dfs.java" startLine="13" startPosition="27" endLine="14" endPosition="31" />
@@ -848,48 +1211,63 @@
     <unitInfo nodeId="5180427534212043147" fileName="TopologicalNumbering.java" startLine="14" startPosition="0" endLine="33" endPosition="0" unitName="jetbrains.mps.graphLayout.algorithms.TopologicalNumbering" />
   </root>
   <root nodeId="5213231752900660164">
-    <nodeInfo nodeId="5213231752900660298" fileName="ConnectivityComponents.java" startLine="13" startPosition="63" endLine="14" endPosition="74" />
-    <nodeInfo nodeId="5213231752900665212" fileName="ConnectivityComponents.java" startLine="14" startPosition="74" endLine="15" endPosition="21" />
-    <nodeInfo nodeId="5213231752900665231" fileName="ConnectivityComponents.java" startLine="15" startPosition="21" endLine="16" endPosition="31" />
-    <nodeInfo nodeId="5213231752900660179" fileName="ConnectivityComponents.java" startLine="19" startPosition="42" endLine="20" endPosition="44" />
-    <nodeInfo nodeId="5213231752900660227" fileName="ConnectivityComponents.java" startLine="20" startPosition="44" endLine="21" endPosition="35" />
-    <nodeInfo nodeId="5213231752900660216" fileName="ConnectivityComponents.java" startLine="27" startPosition="36" endLine="28" endPosition="49" />
-    <nodeInfo nodeId="5213231752900660232" fileName="ConnectivityComponents.java" startLine="28" startPosition="49" endLine="29" endPosition="30" />
-    <nodeInfo nodeId="5213231752900660207" fileName="ConnectivityComponents.java" startLine="29" startPosition="30" endLine="30" endPosition="46" />
-    <nodeInfo nodeId="5213231752900660245" fileName="ConnectivityComponents.java" startLine="34" startPosition="46" endLine="35" endPosition="27" />
-    <nodeInfo nodeId="5213231752900660264" fileName="ConnectivityComponents.java" startLine="39" startPosition="53" endLine="40" endPosition="70" />
-    <nodeInfo nodeId="5213231752900665227" fileName="ConnectivityComponents.java" startLine="43" startPosition="47" endLine="44" endPosition="31" />
-    <nodeInfo nodeId="5213231752900660174" fileName="ConnectivityComponents.java" startLine="22" startPosition="0" endLine="24" endPosition="5" />
-    <nodeInfo nodeId="5213231752900665221" fileName="ConnectivityComponents.java" startLine="42" startPosition="0" endLine="46" endPosition="0" />
-    <nodeInfo nodeId="5213231752900660238" fileName="ConnectivityComponents.java" startLine="32" startPosition="0" endLine="37" endPosition="0" />
-    <nodeInfo nodeId="5213231752900660250" fileName="ConnectivityComponents.java" startLine="37" startPosition="0" endLine="42" endPosition="0" />
-    <nodeInfo nodeId="5213231752900660278" fileName="ConnectivityComponents.java" startLine="12" startPosition="37" endLine="18" endPosition="0" />
-    <nodeInfo nodeId="5213231752900660200" fileName="ConnectivityComponents.java" startLine="25" startPosition="0" endLine="32" endPosition="0" />
-    <scopeInfo nodeId="5213231752900660177" fileName="ConnectivityComponents.java" startLine="23" startPosition="20" endLine="23" endPosition="20" />
-    <scopeInfo nodeId="5213231752900660241" fileName="ConnectivityComponents.java" startLine="34" startPosition="46" endLine="35" endPosition="27" />
-    <scopeInfo nodeId="5213231752900660257" fileName="ConnectivityComponents.java" startLine="39" startPosition="53" endLine="40" endPosition="70" />
-    <scopeInfo nodeId="5213231752900665226" fileName="ConnectivityComponents.java" startLine="43" startPosition="47" endLine="44" endPosition="31" />
-    <scopeInfo nodeId="5213231752900660174" fileName="ConnectivityComponents.java" startLine="22" startPosition="0" endLine="24" endPosition="5" />
-    <scopeInfo nodeId="5213231752900660281" fileName="ConnectivityComponents.java" startLine="13" startPosition="63" endLine="16" endPosition="31">
+    <nodeInfo nodeId="5213231752900660298" fileName="ConnectivityComponents.java" startLine="14" startPosition="63" endLine="15" endPosition="74" />
+    <nodeInfo nodeId="5213231752900665212" fileName="ConnectivityComponents.java" startLine="15" startPosition="74" endLine="16" endPosition="21" />
+    <nodeInfo nodeId="5213231752900665231" fileName="ConnectivityComponents.java" startLine="16" startPosition="21" endLine="17" endPosition="31" />
+    <nodeInfo nodeId="7953585273260012476" fileName="ConnectivityComponents.java" startLine="20" startPosition="50" endLine="21" endPosition="56" />
+    <nodeInfo nodeId="7953585273260012511" fileName="ConnectivityComponents.java" startLine="23" startPosition="57" endLine="24" endPosition="21" />
+    <nodeInfo nodeId="7953585273260012485" fileName="ConnectivityComponents.java" startLine="26" startPosition="5" endLine="27" endPosition="16" />
+    <nodeInfo nodeId="5213231752900660179" fileName="ConnectivityComponents.java" startLine="30" startPosition="42" endLine="31" endPosition="44" />
+    <nodeInfo nodeId="5213231752900660227" fileName="ConnectivityComponents.java" startLine="31" startPosition="44" endLine="32" endPosition="35" />
+    <nodeInfo nodeId="5213231752900660216" fileName="ConnectivityComponents.java" startLine="38" startPosition="36" endLine="39" endPosition="49" />
+    <nodeInfo nodeId="5213231752900660232" fileName="ConnectivityComponents.java" startLine="39" startPosition="49" endLine="40" endPosition="30" />
+    <nodeInfo nodeId="5213231752900660207" fileName="ConnectivityComponents.java" startLine="40" startPosition="30" endLine="41" endPosition="46" />
+    <nodeInfo nodeId="5213231752900660245" fileName="ConnectivityComponents.java" startLine="45" startPosition="46" endLine="46" endPosition="27" />
+    <nodeInfo nodeId="5213231752900660264" fileName="ConnectivityComponents.java" startLine="50" startPosition="53" endLine="51" endPosition="70" />
+    <nodeInfo nodeId="5213231752900665227" fileName="ConnectivityComponents.java" startLine="54" startPosition="47" endLine="55" endPosition="31" />
+    <nodeInfo nodeId="5213231752900660174" fileName="ConnectivityComponents.java" startLine="33" startPosition="0" endLine="35" endPosition="5" />
+    <nodeInfo nodeId="7953585273260012499" fileName="ConnectivityComponents.java" startLine="22" startPosition="63" endLine="25" endPosition="7" />
+    <nodeInfo nodeId="5213231752900665221" fileName="ConnectivityComponents.java" startLine="53" startPosition="0" endLine="57" endPosition="0" />
+    <nodeInfo nodeId="7953585273260012489" fileName="ConnectivityComponents.java" startLine="21" startPosition="56" endLine="26" endPosition="5" />
+    <nodeInfo nodeId="5213231752900660238" fileName="ConnectivityComponents.java" startLine="43" startPosition="0" endLine="48" endPosition="0" />
+    <nodeInfo nodeId="5213231752900660250" fileName="ConnectivityComponents.java" startLine="48" startPosition="0" endLine="53" endPosition="0" />
+    <nodeInfo nodeId="5213231752900660278" fileName="ConnectivityComponents.java" startLine="13" startPosition="37" endLine="19" endPosition="0" />
+    <nodeInfo nodeId="5213231752900660200" fileName="ConnectivityComponents.java" startLine="36" startPosition="0" endLine="43" endPosition="0" />
+    <nodeInfo nodeId="7953585273260012466" fileName="ConnectivityComponents.java" startLine="19" startPosition="0" endLine="29" endPosition="0" />
+    <scopeInfo nodeId="5213231752900660177" fileName="ConnectivityComponents.java" startLine="34" startPosition="20" endLine="34" endPosition="20" />
+    <scopeInfo nodeId="7953585273260012501" fileName="ConnectivityComponents.java" startLine="23" startPosition="57" endLine="24" endPosition="21" />
+    <scopeInfo nodeId="5213231752900660241" fileName="ConnectivityComponents.java" startLine="45" startPosition="46" endLine="46" endPosition="27" />
+    <scopeInfo nodeId="5213231752900660257" fileName="ConnectivityComponents.java" startLine="50" startPosition="53" endLine="51" endPosition="70" />
+    <scopeInfo nodeId="5213231752900665226" fileName="ConnectivityComponents.java" startLine="54" startPosition="47" endLine="55" endPosition="31" />
+    <scopeInfo nodeId="5213231752900660174" fileName="ConnectivityComponents.java" startLine="33" startPosition="0" endLine="35" endPosition="5" />
+    <scopeInfo nodeId="5213231752900660281" fileName="ConnectivityComponents.java" startLine="14" startPosition="63" endLine="17" endPosition="31">
       <varInfo nodeId="5213231752900660299" varName="dfs" />
     </scopeInfo>
-    <scopeInfo nodeId="5213231752900660205" fileName="ConnectivityComponents.java" startLine="27" startPosition="36" endLine="30" endPosition="46" />
-    <scopeInfo nodeId="5213231752900665221" fileName="ConnectivityComponents.java" startLine="42" startPosition="0" endLine="46" endPosition="0" />
-    <scopeInfo nodeId="5213231752900660238" fileName="ConnectivityComponents.java" startLine="32" startPosition="0" endLine="37" endPosition="0">
+    <scopeInfo nodeId="7953585273260012492" fileName="ConnectivityComponents.java" startLine="22" startPosition="63" endLine="25" endPosition="7" />
+    <scopeInfo nodeId="5213231752900660205" fileName="ConnectivityComponents.java" startLine="38" startPosition="36" endLine="41" endPosition="46" />
+    <scopeInfo nodeId="5213231752900665221" fileName="ConnectivityComponents.java" startLine="53" startPosition="0" endLine="57" endPosition="0" />
+    <scopeInfo nodeId="7953585273260012489" fileName="ConnectivityComponents.java" startLine="21" startPosition="56" endLine="26" endPosition="5" />
+    <scopeInfo nodeId="5213231752900660238" fileName="ConnectivityComponents.java" startLine="43" startPosition="0" endLine="48" endPosition="0">
       <varInfo nodeId="529057043639079613" varName="root" />
     </scopeInfo>
-    <scopeInfo nodeId="5213231752900660250" fileName="ConnectivityComponents.java" startLine="37" startPosition="0" endLine="42" endPosition="0">
+    <scopeInfo nodeId="5213231752900660250" fileName="ConnectivityComponents.java" startLine="48" startPosition="0" endLine="53" endPosition="0">
       <varInfo nodeId="5213231752900660253" varName="node" />
       <varInfo nodeId="5213231752900660255" varName="from" />
     </scopeInfo>
-    <scopeInfo nodeId="5213231752900660278" fileName="ConnectivityComponents.java" startLine="12" startPosition="37" endLine="18" endPosition="0">
+    <scopeInfo nodeId="5213231752900660278" fileName="ConnectivityComponents.java" startLine="13" startPosition="37" endLine="19" endPosition="0">
       <varInfo nodeId="5213231752900660287" varName="graph" />
     </scopeInfo>
-    <scopeInfo nodeId="5213231752900660200" fileName="ConnectivityComponents.java" startLine="25" startPosition="0" endLine="32" endPosition="0">
+    <scopeInfo nodeId="7953585273260012469" fileName="ConnectivityComponents.java" startLine="20" startPosition="50" endLine="27" endPosition="16">
+      <varInfo nodeId="7953585273260012477" varName="component" />
+    </scopeInfo>
+    <scopeInfo nodeId="5213231752900660200" fileName="ConnectivityComponents.java" startLine="36" startPosition="0" endLine="43" endPosition="0">
       <varInfo nodeId="5213231752900660203" varName="graph" />
     </scopeInfo>
-    <unitInfo nodeId="5213231752900660172" fileName="ConnectivityComponents.java" startLine="19" startPosition="0" endLine="47" endPosition="0" unitName="jetbrains.mps.graphLayout.algorithms.ConnectivityComponents$MyDfs" />
-    <unitInfo nodeId="5213231752900660164" fileName="ConnectivityComponents.java" startLine="12" startPosition="0" endLine="48" endPosition="0" unitName="jetbrains.mps.graphLayout.algorithms.ConnectivityComponents" />
+    <scopeInfo nodeId="7953585273260012466" fileName="ConnectivityComponents.java" startLine="19" startPosition="0" endLine="29" endPosition="0">
+      <varInfo nodeId="7953585273260012471" varName="graph" />
+    </scopeInfo>
+    <unitInfo nodeId="5213231752900660172" fileName="ConnectivityComponents.java" startLine="30" startPosition="0" endLine="58" endPosition="0" unitName="jetbrains.mps.graphLayout.algorithms.ConnectivityComponents$MyDfs" />
+    <unitInfo nodeId="5213231752900660164" fileName="ConnectivityComponents.java" startLine="13" startPosition="0" endLine="59" endPosition="0" unitName="jetbrains.mps.graphLayout.algorithms.ConnectivityComponents" />
   </root>
   <root nodeId="5213231752900665923">
     <nodeInfo nodeId="5488345258545815597" fileName="BiconnectAugmentation.java" startLine="20" startPosition="36" endLine="21" endPosition="34" />
@@ -1149,6 +1527,171 @@
     </scopeInfo>
     <unitInfo nodeId="7144400041334860821" fileName="MinCostMaxFlow.java" startLine="40" startPosition="41" endLine="44" endPosition="7" unitName="jetbrains.mps.graphLayout.algorithms.MinCostMaxFlow$1" />
     <unitInfo nodeId="7144400041334857035" fileName="MinCostMaxFlow.java" startLine="18" startPosition="0" endLine="77" endPosition="0" unitName="jetbrains.mps.graphLayout.algorithms.MinCostMaxFlow" />
+  </root>
+  <root nodeId="7953585273259926130">
+    <nodeInfo nodeId="7953585273259926131" fileName="MinCostMaxFlowCycleCancelling.java" startLine="18" startPosition="44" endLine="19" endPosition="35" />
+    <nodeInfo nodeId="7953585273259926141" fileName="MinCostMaxFlowCycleCancelling.java" startLine="21" startPosition="144" endLine="22" endPosition="45" />
+    <nodeInfo nodeId="7953585273259926145" fileName="MinCostMaxFlowCycleCancelling.java" startLine="22" startPosition="45" endLine="23" endPosition="86" />
+    <nodeInfo nodeId="7953585273259926154" fileName="MinCostMaxFlowCycleCancelling.java" startLine="23" startPosition="86" endLine="24" endPosition="78" />
+    <nodeInfo nodeId="7953585273259926163" fileName="MinCostMaxFlowCycleCancelling.java" startLine="24" startPosition="78" endLine="25" endPosition="90" />
+    <nodeInfo nodeId="7953585273259926172" fileName="MinCostMaxFlowCycleCancelling.java" startLine="25" startPosition="90" endLine="26" endPosition="68" />
+    <nodeInfo nodeId="7953585273259926185" fileName="MinCostMaxFlowCycleCancelling.java" startLine="27" startPosition="63" endLine="28" endPosition="132" />
+    <nodeInfo nodeId="7953585273259926199" fileName="MinCostMaxFlowCycleCancelling.java" startLine="28" startPosition="132" endLine="29" endPosition="71" />
+    <nodeInfo nodeId="7953585273259926210" fileName="MinCostMaxFlowCycleCancelling.java" startLine="29" startPosition="71" endLine="30" endPosition="60" />
+    <nodeInfo nodeId="7953585273259926216" fileName="MinCostMaxFlowCycleCancelling.java" startLine="30" startPosition="60" endLine="31" endPosition="60" />
+    <nodeInfo nodeId="7953585273259926222" fileName="MinCostMaxFlowCycleCancelling.java" startLine="31" startPosition="60" endLine="32" endPosition="91" />
+    <nodeInfo nodeId="7953585273259926228" fileName="MinCostMaxFlowCycleCancelling.java" startLine="32" startPosition="91" endLine="33" endPosition="88" />
+    <nodeInfo nodeId="7953585273259926237" fileName="MinCostMaxFlowCycleCancelling.java" startLine="33" startPosition="88" endLine="34" endPosition="63" />
+    <nodeInfo nodeId="7953585273259926242" fileName="MinCostMaxFlowCycleCancelling.java" startLine="35" startPosition="5" endLine="36" endPosition="36" />
+    <nodeInfo nodeId="2173844983035785616" fileName="MinCostMaxFlowCycleCancelling.java" startLine="37" startPosition="30" endLine="38" endPosition="69" />
+    <nodeInfo nodeId="2173844983035785638" fileName="MinCostMaxFlowCycleCancelling.java" startLine="40" startPosition="42" endLine="41" endPosition="61" />
+    <nodeInfo nodeId="2173844983035785650" fileName="MinCostMaxFlowCycleCancelling.java" startLine="43" startPosition="31" endLine="44" endPosition="75" />
+    <nodeInfo nodeId="7953585273259926282" fileName="MinCostMaxFlowCycleCancelling.java" startLine="45" startPosition="26" endLine="46" endPosition="33" />
+    <nodeInfo nodeId="7953585273259926291" fileName="MinCostMaxFlowCycleCancelling.java" startLine="47" startPosition="14" endLine="48" endPosition="44" />
+    <nodeInfo nodeId="7953585273259926299" fileName="MinCostMaxFlowCycleCancelling.java" startLine="49" startPosition="56" endLine="50" endPosition="87" />
+    <nodeInfo nodeId="7953585273259926317" fileName="MinCostMaxFlowCycleCancelling.java" startLine="53" startPosition="63" endLine="54" endPosition="68" />
+    <nodeInfo nodeId="7953585273259926323" fileName="MinCostMaxFlowCycleCancelling.java" startLine="54" startPosition="68" endLine="55" endPosition="107" />
+    <nodeInfo nodeId="7953585273259926333" fileName="MinCostMaxFlowCycleCancelling.java" startLine="55" startPosition="107" endLine="56" endPosition="115" />
+    <nodeInfo nodeId="7953585273259926343" fileName="MinCostMaxFlowCycleCancelling.java" startLine="56" startPosition="115" endLine="57" endPosition="93" />
+    <nodeInfo nodeId="7953585273259926353" fileName="MinCostMaxFlowCycleCancelling.java" startLine="58" startPosition="18" endLine="59" endPosition="99" />
+    <nodeInfo nodeId="7953585273259926363" fileName="MinCostMaxFlowCycleCancelling.java" startLine="59" startPosition="99" endLine="60" endPosition="107" />
+    <nodeInfo nodeId="7953585273259926373" fileName="MinCostMaxFlowCycleCancelling.java" startLine="60" startPosition="107" endLine="61" endPosition="124" />
+    <nodeInfo nodeId="7953585273259926387" fileName="MinCostMaxFlowCycleCancelling.java" startLine="66" startPosition="55" endLine="67" endPosition="29" />
+    <nodeInfo nodeId="7953585273259926393" fileName="MinCostMaxFlowCycleCancelling.java" startLine="69" startPosition="24" endLine="70" endPosition="200" />
+    <nodeInfo nodeId="7953585273259926414" fileName="MinCostMaxFlowCycleCancelling.java" startLine="70" startPosition="200" endLine="71" endPosition="105" />
+    <nodeInfo nodeId="7953585273259926432" fileName="MinCostMaxFlowCycleCancelling.java" startLine="72" startPosition="5" endLine="73" endPosition="16" />
+    <nodeInfo nodeId="7953585273259926295" fileName="MinCostMaxFlowCycleCancelling.java" startLine="48" startPosition="44" endLine="51" endPosition="9" />
+    <nodeInfo nodeId="7953585273259926383" fileName="MinCostMaxFlowCycleCancelling.java" startLine="65" startPosition="5" endLine="68" endPosition="5" />
+    <nodeInfo nodeId="2173844983035785636" fileName="MinCostMaxFlowCycleCancelling.java" startLine="39" startPosition="81" endLine="43" endPosition="0" />
+    <nodeInfo nodeId="7953585273259926351" fileName="MinCostMaxFlowCycleCancelling.java" startLine="58" startPosition="16" endLine="62" endPosition="11" />
+    <nodeInfo nodeId="7953585273259926391" fileName="MinCostMaxFlowCycleCancelling.java" startLine="68" startPosition="5" endLine="72" endPosition="5" />
+    <nodeInfo nodeId="2173844983035785628" fileName="MinCostMaxFlowCycleCancelling.java" startLine="38" startPosition="69" endLine="43" endPosition="31" />
+    <nodeInfo nodeId="7953585273259926179" fileName="MinCostMaxFlowCycleCancelling.java" startLine="26" startPosition="68" endLine="35" endPosition="5" />
+    <nodeInfo nodeId="7953585273259926311" fileName="MinCostMaxFlowCycleCancelling.java" startLine="52" startPosition="56" endLine="62" endPosition="11" />
+    <nodeInfo nodeId="7953585273259926307" fileName="MinCostMaxFlowCycleCancelling.java" startLine="51" startPosition="9" endLine="63" endPosition="9" />
+    <nodeInfo nodeId="7953585273259926289" fileName="MinCostMaxFlowCycleCancelling.java" startLine="47" startPosition="12" endLine="64" endPosition="7" />
+    <nodeInfo nodeId="7953585273259926280" fileName="MinCostMaxFlowCycleCancelling.java" startLine="44" startPosition="75" endLine="64" endPosition="7" />
+    <nodeInfo nodeId="7953585273259926246" fileName="MinCostMaxFlowCycleCancelling.java" startLine="36" startPosition="36" endLine="65" endPosition="5" />
+    <nodeInfo nodeId="7953585273259926135" fileName="MinCostMaxFlowCycleCancelling.java" startLine="20" startPosition="0" endLine="75" endPosition="0" />
+    <scopeInfo nodeId="2173844983035785637" fileName="MinCostMaxFlowCycleCancelling.java" startLine="40" startPosition="42" endLine="41" endPosition="61" />
+    <scopeInfo nodeId="7953585273259926281" fileName="MinCostMaxFlowCycleCancelling.java" startLine="45" startPosition="26" endLine="46" endPosition="33" />
+    <scopeInfo nodeId="7953585273259926298" fileName="MinCostMaxFlowCycleCancelling.java" startLine="49" startPosition="56" endLine="50" endPosition="87" />
+    <scopeInfo nodeId="7953585273259926386" fileName="MinCostMaxFlowCycleCancelling.java" startLine="66" startPosition="55" endLine="67" endPosition="29" />
+    <scopeInfo nodeId="7953585273259926392" fileName="MinCostMaxFlowCycleCancelling.java" startLine="69" startPosition="24" endLine="71" endPosition="105" />
+    <scopeInfo nodeId="7953585273259926295" fileName="MinCostMaxFlowCycleCancelling.java" startLine="48" startPosition="44" endLine="51" endPosition="9" />
+    <scopeInfo nodeId="7953585273259926352" fileName="MinCostMaxFlowCycleCancelling.java" startLine="58" startPosition="18" endLine="61" endPosition="124" />
+    <scopeInfo nodeId="7953585273259926383" fileName="MinCostMaxFlowCycleCancelling.java" startLine="65" startPosition="5" endLine="68" endPosition="5" />
+    <scopeInfo nodeId="2173844983035785636" fileName="MinCostMaxFlowCycleCancelling.java" startLine="39" startPosition="81" endLine="43" endPosition="0" />
+    <scopeInfo nodeId="7953585273259926316" fileName="MinCostMaxFlowCycleCancelling.java" startLine="53" startPosition="63" endLine="57" endPosition="93">
+      <varInfo nodeId="7953585273259926318" varName="realEdge" />
+    </scopeInfo>
+    <scopeInfo nodeId="7953585273259926184" fileName="MinCostMaxFlowCycleCancelling.java" startLine="27" startPosition="63" endLine="34" endPosition="63">
+      <varInfo nodeId="7953585273259926200" varName="oppositeEdge" />
+    </scopeInfo>
+    <scopeInfo nodeId="7953585273259926179" fileName="MinCostMaxFlowCycleCancelling.java" startLine="26" startPosition="68" endLine="35" endPosition="5" />
+    <scopeInfo nodeId="7953585273259926310" fileName="MinCostMaxFlowCycleCancelling.java" startLine="52" startPosition="56" endLine="62" endPosition="11" />
+    <scopeInfo nodeId="7953585273259926307" fileName="MinCostMaxFlowCycleCancelling.java" startLine="51" startPosition="9" endLine="63" endPosition="9" />
+    <scopeInfo nodeId="7953585273259926290" fileName="MinCostMaxFlowCycleCancelling.java" startLine="47" startPosition="14" endLine="63" endPosition="9">
+      <varInfo nodeId="7953585273259926292" varName="minCapacity" />
+    </scopeInfo>
+    <scopeInfo nodeId="7953585273259926248" fileName="MinCostMaxFlowCycleCancelling.java" startLine="37" startPosition="30" endLine="64" endPosition="7">
+      <varInfo nodeId="2173844983035785651" varName="cycle" />
+      <varInfo nodeId="2173844983035785617" varName="cycleFinder" />
+    </scopeInfo>
+    <scopeInfo nodeId="7953585273259926140" fileName="MinCostMaxFlowCycleCancelling.java" startLine="21" startPosition="144" endLine="73" endPosition="16">
+      <varInfo nodeId="7953585273259926142" varName="time" />
+      <varInfo nodeId="7953585273259926173" varName="dummyEdges" />
+      <varInfo nodeId="7953585273259926155" varName="opposite" />
+      <varInfo nodeId="7953585273259926164" varName="capacity" />
+      <varInfo nodeId="7953585273259926243" varName="hasNegativeCycle" />
+      <varInfo nodeId="7953585273259926146" varName="flow" />
+    </scopeInfo>
+    <scopeInfo nodeId="7953585273259926135" fileName="MinCostMaxFlowCycleCancelling.java" startLine="20" startPosition="0" endLine="75" endPosition="0">
+      <varInfo nodeId="7953585273259926434" varName="graph" />
+      <varInfo nodeId="7953585273259926436" varName="source" />
+      <varInfo nodeId="7953585273259926438" varName="target" />
+      <varInfo nodeId="7953585273259926440" varName="initialCapacity" />
+      <varInfo nodeId="7953585273259926444" varName="cost" />
+    </scopeInfo>
+    <unitInfo nodeId="2173844983035785636" fileName="MinCostMaxFlowCycleCancelling.java" startLine="39" startPosition="34" endLine="43" endPosition="7" unitName="jetbrains.mps.graphLayout.algorithms.MinCostMaxFlowCycleCancelling$1" />
+    <unitInfo nodeId="7953585273259926130" fileName="MinCostMaxFlowCycleCancelling.java" startLine="18" startPosition="0" endLine="76" endPosition="0" unitName="jetbrains.mps.graphLayout.algorithms.MinCostMaxFlowCycleCancelling" />
+  </root>
+  <root nodeId="7953585273259926451">
+    <nodeInfo nodeId="7953585273259926488" fileName="MaxFlow.java" startLine="19" startPosition="119" endLine="20" endPosition="80" />
+    <nodeInfo nodeId="7953585273259926497" fileName="MaxFlow.java" startLine="20" startPosition="80" endLine="21" endPosition="78" />
+    <nodeInfo nodeId="7953585273259926506" fileName="MaxFlow.java" startLine="21" startPosition="78" endLine="22" endPosition="90" />
+    <nodeInfo nodeId="7953585273259926515" fileName="MaxFlow.java" startLine="22" startPosition="90" endLine="23" endPosition="68" />
+    <nodeInfo nodeId="7953585273259926528" fileName="MaxFlow.java" startLine="24" startPosition="63" endLine="25" endPosition="94" />
+    <nodeInfo nodeId="7953585273259926536" fileName="MaxFlow.java" startLine="25" startPosition="94" endLine="26" endPosition="45" />
+    <nodeInfo nodeId="7953585273259926542" fileName="MaxFlow.java" startLine="26" startPosition="45" endLine="27" endPosition="71" />
+    <nodeInfo nodeId="7953585273259926553" fileName="MaxFlow.java" startLine="27" startPosition="71" endLine="28" endPosition="60" />
+    <nodeInfo nodeId="7953585273259926559" fileName="MaxFlow.java" startLine="28" startPosition="60" endLine="29" endPosition="60" />
+    <nodeInfo nodeId="7953585273259926565" fileName="MaxFlow.java" startLine="29" startPosition="60" endLine="30" endPosition="57" />
+    <nodeInfo nodeId="7953585273259926580" fileName="MaxFlow.java" startLine="30" startPosition="57" endLine="31" endPosition="63" />
+    <nodeInfo nodeId="7953585273259926585" fileName="MaxFlow.java" startLine="32" startPosition="5" endLine="33" endPosition="27" />
+    <nodeInfo nodeId="7953585273259926809" fileName="MaxFlow.java" startLine="36" startPosition="42" endLine="37" endPosition="61" />
+    <nodeInfo nodeId="7953585273259926625" fileName="MaxFlow.java" startLine="40" startPosition="25" endLine="41" endPosition="24" />
+    <nodeInfo nodeId="7953585273259926634" fileName="MaxFlow.java" startLine="42" startPosition="14" endLine="43" endPosition="44" />
+    <nodeInfo nodeId="7953585273259926642" fileName="MaxFlow.java" startLine="44" startPosition="55" endLine="45" endPosition="87" />
+    <nodeInfo nodeId="7953585273259926660" fileName="MaxFlow.java" startLine="48" startPosition="63" endLine="49" endPosition="68" />
+    <nodeInfo nodeId="7953585273259926666" fileName="MaxFlow.java" startLine="49" startPosition="68" endLine="50" endPosition="107" />
+    <nodeInfo nodeId="7953585273259926676" fileName="MaxFlow.java" startLine="50" startPosition="107" endLine="51" endPosition="115" />
+    <nodeInfo nodeId="7953585273259926686" fileName="MaxFlow.java" startLine="51" startPosition="115" endLine="52" endPosition="93" />
+    <nodeInfo nodeId="7953585273259926696" fileName="MaxFlow.java" startLine="53" startPosition="18" endLine="54" endPosition="99" />
+    <nodeInfo nodeId="7953585273259926706" fileName="MaxFlow.java" startLine="54" startPosition="99" endLine="55" endPosition="107" />
+    <nodeInfo nodeId="7953585273259926716" fileName="MaxFlow.java" startLine="55" startPosition="107" endLine="56" endPosition="124" />
+    <nodeInfo nodeId="7953585273259926730" fileName="MaxFlow.java" startLine="61" startPosition="55" endLine="62" endPosition="29" />
+    <nodeInfo nodeId="7953585273259926775" fileName="MaxFlow.java" startLine="63" startPosition="5" endLine="64" endPosition="16" />
+    <nodeInfo nodeId="7953585273259926638" fileName="MaxFlow.java" startLine="43" startPosition="44" endLine="46" endPosition="9" />
+    <nodeInfo nodeId="7953585273259926726" fileName="MaxFlow.java" startLine="60" startPosition="5" endLine="63" endPosition="5" />
+    <nodeInfo nodeId="7953585273259926807" fileName="MaxFlow.java" startLine="35" startPosition="141" endLine="39" endPosition="0" />
+    <nodeInfo nodeId="7953585273259926694" fileName="MaxFlow.java" startLine="53" startPosition="16" endLine="57" endPosition="11" />
+    <nodeInfo nodeId="7953585273259926792" fileName="MaxFlow.java" startLine="34" startPosition="21" endLine="39" endPosition="9" />
+    <nodeInfo nodeId="7953585273259926522" fileName="MaxFlow.java" startLine="23" startPosition="68" endLine="32" endPosition="5" />
+    <nodeInfo nodeId="7953585273259926654" fileName="MaxFlow.java" startLine="47" startPosition="55" endLine="57" endPosition="11" />
+    <nodeInfo nodeId="7953585273259926650" fileName="MaxFlow.java" startLine="46" startPosition="9" endLine="58" endPosition="9" />
+    <nodeInfo nodeId="7953585273259926632" fileName="MaxFlow.java" startLine="42" startPosition="12" endLine="59" endPosition="7" />
+    <nodeInfo nodeId="7953585273259926623" fileName="MaxFlow.java" startLine="39" startPosition="9" endLine="59" endPosition="7" />
+    <nodeInfo nodeId="7953585273259926589" fileName="MaxFlow.java" startLine="33" startPosition="27" endLine="60" endPosition="5" />
+    <nodeInfo nodeId="7953585273259926478" fileName="MaxFlow.java" startLine="18" startPosition="22" endLine="66" endPosition="0" />
+    <scopeInfo nodeId="7953585273259926808" fileName="MaxFlow.java" startLine="36" startPosition="42" endLine="37" endPosition="61" />
+    <scopeInfo nodeId="7953585273259926624" fileName="MaxFlow.java" startLine="40" startPosition="25" endLine="41" endPosition="24" />
+    <scopeInfo nodeId="7953585273259926641" fileName="MaxFlow.java" startLine="44" startPosition="55" endLine="45" endPosition="87" />
+    <scopeInfo nodeId="7953585273259926729" fileName="MaxFlow.java" startLine="61" startPosition="55" endLine="62" endPosition="29" />
+    <scopeInfo nodeId="7953585273259926638" fileName="MaxFlow.java" startLine="43" startPosition="44" endLine="46" endPosition="9" />
+    <scopeInfo nodeId="7953585273259926695" fileName="MaxFlow.java" startLine="53" startPosition="18" endLine="56" endPosition="124" />
+    <scopeInfo nodeId="7953585273259926726" fileName="MaxFlow.java" startLine="60" startPosition="5" endLine="63" endPosition="5" />
+    <scopeInfo nodeId="7953585273259926807" fileName="MaxFlow.java" startLine="35" startPosition="141" endLine="39" endPosition="0" />
+    <scopeInfo nodeId="7953585273259926659" fileName="MaxFlow.java" startLine="48" startPosition="63" endLine="52" endPosition="93">
+      <varInfo nodeId="7953585273259926661" varName="realEdge" />
+    </scopeInfo>
+    <scopeInfo nodeId="7953585273259926527" fileName="MaxFlow.java" startLine="24" startPosition="63" endLine="31" endPosition="63">
+      <varInfo nodeId="7953585273259926543" varName="oppositeEdge" />
+    </scopeInfo>
+    <scopeInfo nodeId="7953585273259926522" fileName="MaxFlow.java" startLine="23" startPosition="68" endLine="32" endPosition="5" />
+    <scopeInfo nodeId="7953585273259926653" fileName="MaxFlow.java" startLine="47" startPosition="55" endLine="57" endPosition="11" />
+    <scopeInfo nodeId="7953585273259926650" fileName="MaxFlow.java" startLine="46" startPosition="9" endLine="58" endPosition="9" />
+    <scopeInfo nodeId="7953585273259926633" fileName="MaxFlow.java" startLine="42" startPosition="14" endLine="58" endPosition="9">
+      <varInfo nodeId="7953585273259926635" varName="minCapacity" />
+    </scopeInfo>
+    <scopeInfo nodeId="7953585273259926591" fileName="MaxFlow.java" startLine="34" startPosition="21" endLine="59" endPosition="7">
+      <varInfo nodeId="7953585273259926793" varName="path" />
+    </scopeInfo>
+    <scopeInfo nodeId="7953585273259926483" fileName="MaxFlow.java" startLine="19" startPosition="119" endLine="64" endPosition="16">
+      <varInfo nodeId="7953585273259926516" varName="dummyEdges" />
+      <varInfo nodeId="7953585273259926498" varName="opposite" />
+      <varInfo nodeId="7953585273259926507" varName="capacity" />
+      <varInfo nodeId="7953585273259926489" varName="flow" />
+      <varInfo nodeId="7953585273259926586" varName="hasPath" />
+    </scopeInfo>
+    <scopeInfo nodeId="7953585273259926478" fileName="MaxFlow.java" startLine="18" startPosition="22" endLine="66" endPosition="0">
+      <varInfo nodeId="7953585273259926777" varName="graph" />
+      <varInfo nodeId="7953585273259926779" varName="source" />
+      <varInfo nodeId="7953585273259926781" varName="target" />
+      <varInfo nodeId="7953585273259926783" varName="initialCapacity" />
+    </scopeInfo>
+    <unitInfo nodeId="7953585273259926807" fileName="MaxFlow.java" startLine="35" startPosition="94" endLine="39" endPosition="7" unitName="jetbrains.mps.graphLayout.algorithms.MaxFlow$1" />
+    <unitInfo nodeId="7953585273259926451" fileName="MaxFlow.java" startLine="18" startPosition="0" endLine="67" endPosition="0" unitName="jetbrains.mps.graphLayout.algorithms.MaxFlow" />
   </root>
   <root nodeId="903391227141019952">
     <nodeInfo nodeId="903391227141022947" fileName="WeightedTopologicalNumbering.java" startLine="15" startPosition="116" endLine="16" endPosition="56" />

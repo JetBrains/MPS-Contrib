@@ -10,7 +10,8 @@ import jetbrains.mps.graphLayout.graphLayout.GraphPointLayout;
 import javax.swing.JTextField;
 import javax.swing.JRadioButton;
 import java.awt.GridBagLayout;
-import jetbrains.mps.graphLayout.flowOrthogonalLayout.OrthogonalPointLayouter;
+import jetbrains.mps.graphLayout.flowOrthogonalLayout.OrthogonalPointFlowLayouter;
+import jetbrains.mps.graphLayout.flowOrthogonalLayout.FlowLayoutWithNodeProcessing;
 import jetbrains.mps.graphLayout.stOrthogonalLayout.OrthogonalLayouter;
 import jetbrains.mps.graphLayout.layeredLayout.LayeredLayouter;
 import layeredLayoutTest.EdgeReverterProxy;
@@ -46,8 +47,8 @@ import java.awt.Color;
 
 public class TestPanel extends JPanel {
   private static Dimension FRAME_DIMENSION = new Dimension(800, 600);
-  private static int SCALE_X = 20;
-  private static int SCALE_Y = 20;
+  private static int SCALE_X = 15;
+  private static int SCALE_Y = 15;
   private static int NSIZE = 20;
 
   private JTextArea myTextArea;
@@ -64,7 +65,10 @@ public class TestPanel extends JPanel {
     createNewGraphButton();
     createTextPanel();
     createGraphPanel();
-    myLayouter = new OrthogonalPointLayouter();
+    myLayouter = new OrthogonalPointFlowLayouter();
+    /*
+      myLayouter = new FlowLayoutWithNodeProcessing();
+    */
     /*
       myLayouter = new OrthogonalLayouter();
     */

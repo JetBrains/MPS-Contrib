@@ -11,6 +11,8 @@ import jetbrains.mps.graphLayout.graph.Node;
 import jetbrains.mps.internal.collections.runtime.ListSequence;
 
 public class MinCostCirculation {
+  private static int TEST_MODE = 1;
+
   public static Map<Edge, Integer> getCirculation(Graph graph, Map<Edge, Integer> low, Map<Edge, Integer> initialCapacity, Map<Edge, Integer> cost) {
     Map<Edge, Integer> capacity = MapSequence.fromMap(new HashMap<Edge, Integer>());
     Node source = graph.addDummyNode();
@@ -41,10 +43,27 @@ public class MinCostCirculation {
         MapSequence.fromMap(cost).put(newEdge, 0);
       }
     }
-    Map<Edge, Integer> flow = MinCostMaxFlow.getFlow(graph, source, target, capacity, cost);
+    Map<Edge, Integer> flow;
+    if (TEST_MODE > 0) {
+      flow = MinCostMaxFlowWithPotentials.getFlow(graph, source, target, capacity, cost);
+      /*
+        Map<Edge, Integer> anotherFlow = MinCostMaxFlow.getFlow(graph, source, target, capacity, cost);
+        int flowCost = 0;
+        int anotherFlowCost = 0;
+        for (Edge edge : ListSequence.fromList(graph.getEdges())) {
+          flowCost += MapSequence.fromMap(flow).get(edge) * MapSequence.fromMap(cost).get(edge);
+          anotherFlowCost += MapSequence.fromMap(anotherFlow).get(edge) * MapSequence.fromMap(cost).get(edge);
+        }
+        if (anotherFlowCost != flowCost) {
+          throw new RuntimeException("dijkstra result is different than ford-bellman");
+        }
+      */
+    } else {
+      flow = MinCostMaxFlow.getFlow(graph, source, target, capacity, cost);
+    }
     for (Edge edge : ListSequence.fromList(source.getOutEdges())) {
       if (MapSequence.fromMap(flow).get(edge) != MapSequence.fromMap(capacity).get(edge)) {
-        return null;
+        throw new RuntimeException("failed to find circulation");
       }
     }
     for (Edge edge : ListSequence.fromList(source.getEdges()).concat(ListSequence.fromList(target.getEdges()))) {

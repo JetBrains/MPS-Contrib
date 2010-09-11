@@ -4,6 +4,7 @@
     <classNode dependClassName="java.io.PrintWriter" />
     <classNode dependClassName="java.lang.Exception" />
     <classNode dependClassName="java.lang.IllegalArgumentException" />
+    <classNode dependClassName="java.lang.String" />
     <classNode dependClassName="java.util.List" />
     <classNode dependClassName="java.util.Scanner" />
     <classNode dependClassName="jetbrains.mps.graphLayout.graph.Edge" />
@@ -55,6 +56,7 @@
     <classNode dependClassName="javax.swing.JTextArea" />
     <classNode dependClassName="javax.swing.JTextField" />
     <classNode dependClassName="javax.swing.SwingUtilities" />
+    <classNode dependClassName="jetbrains.mps.graphLayout.flowOrthogonalLayout.OrthogonalRectFlowLayouter" />
     <classNode dependClassName="jetbrains.mps.graphLayout.graph.Edge" />
     <classNode dependClassName="jetbrains.mps.graphLayout.graph.Graph" />
     <classNode dependClassName="jetbrains.mps.graphLayout.graph.Node" />
@@ -96,7 +98,8 @@
     <classNode dependClassName="javax.swing.JTextArea" />
     <classNode dependClassName="javax.swing.JTextField" />
     <classNode dependClassName="javax.swing.SwingUtilities" />
-    <classNode dependClassName="jetbrains.mps.graphLayout.flowOrthogonalLayout.OrthogonalPointLayouter" />
+    <classNode dependClassName="jetbrains.mps.graphLayout.flowOrthogonalLayout.FlowLayoutWithNodeProcessing" />
+    <classNode dependClassName="jetbrains.mps.graphLayout.flowOrthogonalLayout.OrthogonalPointFlowLayouter" />
     <classNode dependClassName="jetbrains.mps.graphLayout.graph.Edge" />
     <classNode dependClassName="jetbrains.mps.graphLayout.graph.Graph" />
     <classNode dependClassName="jetbrains.mps.graphLayout.graph.Node" />

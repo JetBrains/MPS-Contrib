@@ -38,6 +38,10 @@ public enum Direction2D {
     return turn;
   }
 
+  public boolean isHorizontal() {
+    return this == Direction2D.RIGHT || this == Direction2D.LEFT;
+  }
+
   public static Direction2D get(int intDirection) {
     return Direction2D.values()[intDirection];
   }

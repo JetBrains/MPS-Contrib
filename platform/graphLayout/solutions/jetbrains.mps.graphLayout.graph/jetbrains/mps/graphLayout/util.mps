@@ -1946,6 +1946,31 @@
         </node>
       </node>
     </node>
+    <node role="method:3" type="jetbrains.mps.baseLanguage.structure.InstanceMethodDeclaration:3" id="102129025687872308">
+      <property name="name:3" value="isHorizontal" />
+      <node role="returnType:3" type="jetbrains.mps.baseLanguage.structure.BooleanType:3" id="102129025687872312" />
+      <node role="visibility:3" type="jetbrains.mps.baseLanguage.structure.PublicVisibility:3" id="102129025687872310" />
+      <node role="body:3" type="jetbrains.mps.baseLanguage.structure.StatementList:3" id="102129025687872311">
+        <node role="statement:3" type="jetbrains.mps.baseLanguage.structure.ReturnStatement:3" id="102129025687872313">
+          <node role="expression:3" type="jetbrains.mps.baseLanguage.structure.OrExpression:3" id="102129025687872321">
+            <node role="rightExpression:3" type="jetbrains.mps.baseLanguage.structure.EqualsExpression:3" id="102129025687872325">
+              <node role="rightExpression:3" type="jetbrains.mps.baseLanguage.structure.EnumConstantReference:3" id="102129025687872329">
+                <link role="enumConstantDeclaration:3" targetNodeId="315882939481360449" resolveInfo="LEFT" />
+                <link role="enumClass:3" targetNodeId="315882939481360320" resolveInfo="Direction2D" />
+              </node>
+              <node role="leftExpression:3" type="jetbrains.mps.baseLanguage.structure.ThisExpression:3" id="102129025687872324" />
+            </node>
+            <node role="leftExpression:3" type="jetbrains.mps.baseLanguage.structure.EqualsExpression:3" id="102129025687872316">
+              <node role="leftExpression:3" type="jetbrains.mps.baseLanguage.structure.ThisExpression:3" id="102129025687872315" />
+              <node role="rightExpression:3" type="jetbrains.mps.baseLanguage.structure.EnumConstantReference:3" id="102129025687872320">
+                <link role="enumConstantDeclaration:3" targetNodeId="315882939481360326" resolveInfo="RIGHT" />
+                <link role="enumClass:3" targetNodeId="315882939481360320" resolveInfo="Direction2D" />
+              </node>
+            </node>
+          </node>
+        </node>
+      </node>
+    </node>
     <node role="staticMethod:3" type="jetbrains.mps.baseLanguage.structure.StaticMethodDeclaration:3" id="315882939481360433">
       <property name="name:3" value="get" />
       <node role="returnType:3" type="jetbrains.mps.baseLanguage.structure.ClassifierType:3" id="315882939481360437">

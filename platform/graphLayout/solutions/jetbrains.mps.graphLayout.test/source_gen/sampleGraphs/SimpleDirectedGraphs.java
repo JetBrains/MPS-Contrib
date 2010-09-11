@@ -4,6 +4,8 @@ package sampleGraphs;
 
 import jetbrains.mps.graphLayout.graph.Graph;
 import jetbrains.mps.graphLayout.graph.Node;
+import java.util.List;
+import jetbrains.mps.internal.collections.runtime.ListSequence;
 
 public class SimpleDirectedGraphs {
   public static Graph emptyGraph(int numNodes) {
@@ -45,5 +47,25 @@ public class SimpleDirectedGraphs {
     sandwatces.getNode(3).addEdgeTo(sandwatces.getNode(4));
     sandwatces.getNode(3).addEdgeTo(sandwatces.getNode(5));
     return sandwatces;
+  }
+
+  public static Graph weel(int numNodes) {
+    Graph graph = emptyGraph(numNodes);
+    List<Node> nodes = graph.getNodes();
+    Node first = ListSequence.fromList(nodes).first();
+    Node prev = null;
+    for (Node node : ListSequence.fromList(nodes)) {
+      if (node == first) {
+        continue;
+      }
+      first.addEdgeTo(node);
+      if (prev == null) {
+        node.addEdgeTo(ListSequence.fromList(nodes).last());
+      } else {
+        node.addEdgeTo(prev);
+      }
+      prev = node;
+    }
+    return graph;
   }
 }

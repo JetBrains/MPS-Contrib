@@ -6,10 +6,10 @@ import junit.framework.TestCase;
 import jetbrains.mps.graphLayout.graph.Graph;
 import visualization.GraphIO;
 import java.util.Scanner;
-import jetbrains.mps.graphLayout.flowOrthogonalLayout.OrthogonalPointLayouter;
+import jetbrains.mps.graphLayout.flowOrthogonalLayout.OrthogonalPointFlowLayouter;
 import jetbrains.mps.graphLayout.graphLayout.GraphPointLayout;
 
-public class OrthogonalFlowLayouter_Test extends TestCase {
+public class OrthogonalPointFlowLayouter_Test extends TestCase {
   public void test_test1() throws Exception {
     String graphString = "6 10  0 1  0 2  0 3  0 4  0 5  1 2  2 3  3 4  4 5  5 1";
     Graph graph = GraphIO.scanGraph(new Scanner(graphString));
@@ -53,7 +53,7 @@ public class OrthogonalFlowLayouter_Test extends TestCase {
   }
 
   public void test(Graph graph) {
-    OrthogonalPointLayouter layouter = new OrthogonalPointLayouter();
+    OrthogonalPointFlowLayouter layouter = new OrthogonalPointFlowLayouter();
     GraphPointLayout layout = layouter.doLayout(graph);
     OrthogonalLayoutChecker.checkLayout(layout);
   }

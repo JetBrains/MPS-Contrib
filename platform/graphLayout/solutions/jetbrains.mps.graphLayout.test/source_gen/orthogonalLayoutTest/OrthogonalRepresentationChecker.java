@@ -5,7 +5,7 @@ package orthogonalLayoutTest;
 import jetbrains.mps.graphLayout.graph.Graph;
 import java.util.Map;
 import jetbrains.mps.graphLayout.planarGraph.Dart;
-import jetbrains.mps.graphLayout.graph.Edge;
+import jetbrains.mps.graphLayout.graph.Node;
 import jetbrains.mps.internal.collections.runtime.ListSequence;
 import java.util.List;
 import jetbrains.mps.internal.collections.runtime.SetSequence;
@@ -14,15 +14,28 @@ import jetbrains.mps.internal.collections.runtime.IWhereFilter;
 import junit.framework.Assert;
 
 public class OrthogonalRepresentationChecker {
-  public static void checkBends(Graph graph, Map<Dart, Integer> bends) {
-    for (final Edge edge : ListSequence.fromList(graph.getEdges())) {
-      List<Dart> darts = SetSequence.fromSet(MapSequence.fromMap(bends).keySet()).where(new IWhereFilter<Dart>() {
+  public static void checkAngles(Graph graph, Map<Dart, Integer> angles, int minAngle) {
+    for (final Node node : ListSequence.fromList(graph.getNodes())) {
+      List<Dart> darts = SetSequence.fromSet(MapSequence.fromMap(angles).keySet()).where(new IWhereFilter<Dart>() {
         public boolean accept(Dart it) {
-          return it.getEdge() == edge;
+          return it.getSource() == node;
         }
       }).toListSequence();
-      Assert.assertTrue(ListSequence.fromList(darts).count() == 2);
-      Assert.assertTrue(MapSequence.fromMap(bends).get(ListSequence.fromList(darts).getElement(0)) * MapSequence.fromMap(bends).get(ListSequence.fromList(darts).getElement(1)) == 0);
+      Assert.assertTrue(ListSequence.fromList(darts).count() == ListSequence.fromList(node.getEdges()).count());
+      int totalAngle = 0;
+      for (Dart dart : ListSequence.fromList(darts)) {
+        Integer dartAngle = MapSequence.fromMap(angles).get(dart);
+        Assert.assertTrue(minAngle <= dartAngle);
+        totalAngle += dartAngle;
+      }
+      Assert.assertTrue(totalAngle == 4);
     }
+  }
+
+  public static void checkOrthogonalRepresentation(Graph graph, Map<Dart, Integer> bends, Map<Dart, Integer> angles, int minAngle) {
+    int numEdges = ListSequence.fromList(graph.getEdges()).count();
+    Assert.assertTrue(2 * numEdges == MapSequence.fromMap(bends).count());
+    Assert.assertTrue(2 * numEdges == MapSequence.fromMap(angles).count());
+    checkAngles(graph, angles, minAngle);
   }
 }

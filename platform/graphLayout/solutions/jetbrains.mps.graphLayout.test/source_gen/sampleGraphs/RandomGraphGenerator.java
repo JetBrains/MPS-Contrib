@@ -11,6 +11,7 @@ import java.util.ArrayList;
 import jetbrains.mps.internal.collections.runtime.SortedSetSequence;
 import java.util.TreeSet;
 import jetbrains.mps.internal.collections.runtime.SetSequence;
+import jetbrains.mps.graphLayout.algorithms.ConnectivityComponents;
 
 public class RandomGraphGenerator {
   private static Random rand = new Random();
@@ -174,5 +175,16 @@ public class RandomGraphGenerator {
       numInLayer[i]++;
     }
     return generateFixedNumLayers(numInLayer, numEdges);
+  }
+
+  public static Graph generateSimpleConnectedGraph(int numNodes, int numEdges) {
+    Graph graph = null;
+    while (graph == null) {
+      graph = generateSimple(numNodes, numEdges);
+      if (!(ConnectivityComponents.isConnected(graph))) {
+        graph = null;
+      }
+    }
+    return graph;
   }
 }

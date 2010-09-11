@@ -5,10 +5,11 @@ package visualization;
 import javax.swing.JPanel;
 import java.awt.Dimension;
 import javax.swing.JTextArea;
-import jetbrains.mps.graphLayout.stOrthogonalLayout.RectOrthogonalLayouter;
+import jetbrains.mps.graphLayout.flowOrthogonalLayout.OrthogonalRectFlowLayouter;
 import jetbrains.mps.graphLayout.graphLayout.GraphLayout;
 import javax.swing.JTextField;
 import java.awt.GridBagLayout;
+import jetbrains.mps.graphLayout.stOrthogonalLayout.RectOrthogonalLayouter;
 import java.awt.GridBagConstraints;
 import javax.swing.BorderFactory;
 import javax.swing.JButton;
@@ -42,7 +43,7 @@ public class OrthogonalLayoutTestPanel extends JPanel {
 
   private JTextArea myTextArea;
   private OrthogonalLayoutTestPanel.MyGraphLabel myGraphLabel;
-  private RectOrthogonalLayouter myLayouter;
+  private OrthogonalRectFlowLayouter myLayouter;
   private LayoutPainter myPainter;
   private GraphLayout myCurrentLayout;
   private JTextField myNumEdgesField;
@@ -56,8 +57,13 @@ public class OrthogonalLayoutTestPanel extends JPanel {
     createLayoutChoiceButtons();
     createTextPanel();
     createGraphPanel();
-    myLayouter = new RectOrthogonalLayouter();
-    myLayouter.setEdgeDistance(20);
+    /*
+      myLayouter = new RectOrthogonalLayouter();
+    */
+    myLayouter = new OrthogonalRectFlowLayouter();
+    /*
+      myLayouter.setEdgeDistance(20);
+    */
     myCurrentLayout = null;
     myPainter = new LayoutPainter();
   }
@@ -131,7 +137,9 @@ public class OrthogonalLayoutTestPanel extends JPanel {
   }
 
   private void layoutGraph() {
-    myLayouter.setLayoutLevel(myLayoutChoice.getSelectedLayoutLavel());
+    /*
+      myLayouter.setLayoutLevel(myLayoutChoice.getSelectedLayoutLavel());
+    */
     Scanner scanner = new Scanner(myTextArea.getText());
     Map<Node, Dimension> nodeDimensions = MapSequence.fromMap(new HashMap<Node, Dimension>());
     Map<Edge, Dimension> edgeDimensions = MapSequence.fromMap(new HashMap<Edge, Dimension>());
@@ -170,7 +178,7 @@ public class OrthogonalLayoutTestPanel extends JPanel {
           }
         }
       }
-      myCurrentLayout = myLayouter.doLayout(g, nodeDimensions, edgeDimensions);
+      myCurrentLayout = myLayouter.doLayout(g, nodeDimensions);
     }
   }
 

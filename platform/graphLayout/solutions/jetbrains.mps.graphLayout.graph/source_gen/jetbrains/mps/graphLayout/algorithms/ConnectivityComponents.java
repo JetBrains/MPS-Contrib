@@ -5,15 +5,26 @@ package jetbrains.mps.graphLayout.algorithms;
 import java.util.Map;
 import jetbrains.mps.graphLayout.graph.Node;
 import jetbrains.mps.graphLayout.graph.Graph;
+import jetbrains.mps.internal.collections.runtime.ListSequence;
+import jetbrains.mps.internal.collections.runtime.MapSequence;
 import jetbrains.mps.graphLayout.util.NodeMap;
 import jetbrains.mps.graphLayout.graph.Edge;
-import jetbrains.mps.internal.collections.runtime.MapSequence;
 
 public class ConnectivityComponents {
   public static Map<Node, Integer> getComponents(Graph graph) {
     ConnectivityComponents.MyDfs dfs = new ConnectivityComponents.MyDfs();
     dfs.doDfs(graph);
     return dfs.getComponents();
+  }
+
+  public static boolean isConnected(Graph graph) {
+    Map<Node, Integer> component = getComponents(graph);
+    for (Node node : ListSequence.fromList(graph.getNodes())) {
+      if (MapSequence.fromMap(component).get(node) > 0) {
+        return false;
+      }
+    }
+    return true;
   }
 
   private static class MyDfs extends Dfs {

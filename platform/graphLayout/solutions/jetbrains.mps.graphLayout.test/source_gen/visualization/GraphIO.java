@@ -14,6 +14,10 @@ import jetbrains.mps.graphLayout.planarGraph.Dart;
 import java.io.PrintWriter;
 
 public class GraphIO {
+  public static Graph scanGraph(String graphString) {
+    return scanGraph(new Scanner(graphString));
+  }
+
   public static Graph scanGraph(Scanner scanner) throws IllegalArgumentException {
     try {
       Graph graph = new Graph();

@@ -15,12 +15,12 @@ import java.util.HashMap;
 import jetbrains.mps.internal.collections.runtime.ListSequence;
 import jetbrains.mps.graphLayout.graph.Edge;
 
-public class StressTest {
-  public StressTest() {
+public class RectOrthogonalLayouterStressTest {
+  public RectOrthogonalLayouterStressTest() {
   }
 
   public static void main(String[] args) throws Exception {
-    String fileName = "C:\\work\\stress.txt";
+    String fileName = "C:\\work\\stressQuasi.txt";
     RectOrthogonalLayouter layouter = new RectOrthogonalLayouter();
     int numNodes = Integer.parseInt(args[0]);
     int numEdges = Integer.parseInt(args[1]);

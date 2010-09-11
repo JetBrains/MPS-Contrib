@@ -148,4 +148,17 @@ public class GraphLayout {
     }
     return new Rectangle(minX, minY, maxX - minX, maxY - minY);
   }
+
+  @Override
+  public String toString() {
+    StringBuilder builder = new StringBuilder();
+    builder.append("Layout: \n");
+    for (Node node : SetSequence.fromSet(MapSequence.fromMap(myNodeLayout).keySet())) {
+      builder.append("  for node: " + node + ": " + MapSequence.fromMap(myNodeLayout).get(node) + "\n");
+    }
+    for (Edge edge : SetSequence.fromSet(MapSequence.fromMap(myEdgeLayout).keySet())) {
+      builder.append("  for edge: " + edge + ": " + MapSequence.fromMap(myEdgeLayout).get(edge) + "\n");
+    }
+    return builder.toString();
+  }
 }

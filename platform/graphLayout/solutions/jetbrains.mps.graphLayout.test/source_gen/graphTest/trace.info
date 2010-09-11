@@ -1,5 +1,18 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <debugInfo>
+  <unitInfo fileName="ShortestPath_Test.java" startLine="14" startPosition="0" endLine="26" endPosition="0" unitName="graphTest.ShortestPath_Test" />
+  <unitInfo fileName="TopologicalSorting_Test.java" startLine="15" startPosition="0" endLine="27" endPosition="0" unitName="graphTest.TopologicalSorting_Test" />
+  <unitInfo fileName="FordBellman_Test.java" startLine="16" startPosition="0" endLine="28" endPosition="0" unitName="graphTest.FordBellman_Test" />
+  <unitInfo fileName="WeightedTopologicalNumbering_Test.java" startLine="18" startPosition="0" endLine="32" endPosition="0" unitName="graphTest.WeightedTopologicalNumbering_Test" />
+  <unitInfo fileName="STNumbering_Test.java" startLine="13" startPosition="0" endLine="35" endPosition="0" unitName="graphTest.STNumbering_Test" />
+  <unitInfo fileName="TopologicalNumbering_Test.java" startLine="16" startPosition="0" endLine="41" endPosition="0" unitName="graphTest.TopologicalNumbering_Test" />
+  <unitInfo fileName="MinCostMaxFlowWithPotentials_Test.java" startLine="18" startPosition="0" endLine="49" endPosition="0" unitName="graphTest.MinCostMaxFlowWithPotentials_Test" />
+  <unitInfo fileName="GraphStructure_Test.java" startLine="16" startPosition="0" endLine="53" endPosition="0" unitName="graphTest.GraphStructure_Test" />
+  <unitInfo fileName="BiconnectComponent_Test.java" startLine="12" startPosition="0" endLine="53" endPosition="0" unitName="graphTest.BiconnectComponent_Test" />
+  <unitInfo fileName="BiconnectAugmentation_Test.java" startLine="12" startPosition="0" endLine="56" endPosition="0" unitName="graphTest.BiconnectAugmentation_Test" />
+  <unitInfo fileName="MinCostMaxFlow_Test.java" startLine="21" startPosition="0" endLine="87" endPosition="0" unitName="graphTest.MinCostMaxFlow_Test" />
+  <unitInfo fileName="Dijkstra_Test.java" startLine="19" startPosition="0" endLine="88" endPosition="0" unitName="graphTest.Dijkstra_Test" />
+  <unitInfo fileName="MinCirculation_Test.java" startLine="21" startPosition="0" endLine="98" endPosition="0" unitName="graphTest.MinCirculation_Test" />
   <root nodeId="1567683135099891119">
     <nodeInfo nodeId="1567683135099891199" fileName="GraphStructure_Test.java" startLine="17" startPosition="46" endLine="18" endPosition="48" />
     <nodeInfo nodeId="1567683135099891271" fileName="GraphStructure_Test.java" startLine="18" startPosition="48" endLine="19" endPosition="25" />
@@ -86,6 +99,115 @@
     <scopeInfo nodeId="1654665216152489682" fileName="STNumbering_Test.java" startLine="13" startPosition="48" endLine="20" endPosition="0" />
     <scopeInfo nodeId="5213231752900621480" fileName="STNumbering_Test.java" startLine="20" startPosition="0" endLine="27" endPosition="0" />
     <scopeInfo nodeId="4624841703139866871" fileName="STNumbering_Test.java" startLine="27" startPosition="0" endLine="34" endPosition="0" />
+  </root>
+  <root nodeId="1953828525454981991">
+    <nodeInfo nodeId="1953828525454983931" fileName="Dijkstra_Test.java" startLine="20" startPosition="48" endLine="21" endPosition="56" />
+    <nodeInfo nodeId="1953828525454983939" fileName="Dijkstra_Test.java" startLine="21" startPosition="56" endLine="22" endPosition="62" />
+    <nodeInfo nodeId="1953828525454986003" fileName="Dijkstra_Test.java" startLine="22" startPosition="62" endLine="23" endPosition="72" />
+    <nodeInfo nodeId="1953828525454986018" fileName="Dijkstra_Test.java" startLine="23" startPosition="72" endLine="24" endPosition="72" />
+    <nodeInfo nodeId="1953828525454985939" fileName="Dijkstra_Test.java" startLine="24" startPosition="72" endLine="25" endPosition="83" />
+    <nodeInfo nodeId="1953828525454985956" fileName="Dijkstra_Test.java" startLine="25" startPosition="83" endLine="26" endPosition="40" />
+    <nodeInfo nodeId="1953828525454985969" fileName="Dijkstra_Test.java" startLine="26" startPosition="40" endLine="27" endPosition="84" />
+    <nodeInfo nodeId="1953828525454985984" fileName="Dijkstra_Test.java" startLine="27" startPosition="84" endLine="28" endPosition="84" />
+    <nodeInfo nodeId="1953828525454985992" fileName="Dijkstra_Test.java" startLine="28" startPosition="84" endLine="29" endPosition="84" />
+    <nodeInfo nodeId="1953828525455054909" fileName="Dijkstra_Test.java" startLine="29" startPosition="84" endLine="30" endPosition="84" />
+    <nodeInfo nodeId="1953828525455054917" fileName="Dijkstra_Test.java" startLine="30" startPosition="84" endLine="31" endPosition="84" />
+    <nodeInfo nodeId="1953828525454986035" fileName="Dijkstra_Test.java" startLine="31" startPosition="84" endLine="32" endPosition="44" />
+    <nodeInfo nodeId="1953828525455054833" fileName="Dijkstra_Test.java" startLine="35" startPosition="45" endLine="36" endPosition="46" />
+    <nodeInfo nodeId="1953828525455054837" fileName="Dijkstra_Test.java" startLine="36" startPosition="46" endLine="37" endPosition="62" />
+    <nodeInfo nodeId="1953828525455054844" fileName="Dijkstra_Test.java" startLine="37" startPosition="62" endLine="38" endPosition="72" />
+    <nodeInfo nodeId="1953828525455054852" fileName="Dijkstra_Test.java" startLine="38" startPosition="72" endLine="39" endPosition="72" />
+    <nodeInfo nodeId="1953828525455054860" fileName="Dijkstra_Test.java" startLine="39" startPosition="72" endLine="40" endPosition="83" />
+    <nodeInfo nodeId="1953828525455054869" fileName="Dijkstra_Test.java" startLine="40" startPosition="83" endLine="41" endPosition="40" />
+    <nodeInfo nodeId="1953828525455054876" fileName="Dijkstra_Test.java" startLine="41" startPosition="40" endLine="42" endPosition="84" />
+    <nodeInfo nodeId="1953828525455054884" fileName="Dijkstra_Test.java" startLine="42" startPosition="84" endLine="43" endPosition="84" />
+    <nodeInfo nodeId="1953828525455054892" fileName="Dijkstra_Test.java" startLine="43" startPosition="84" endLine="44" endPosition="84" />
+    <nodeInfo nodeId="1953828525455054900" fileName="Dijkstra_Test.java" startLine="44" startPosition="84" endLine="45" endPosition="44" />
+    <nodeInfo nodeId="7727845083901381790" fileName="Dijkstra_Test.java" startLine="48" startPosition="45" endLine="49" endPosition="51" />
+    <nodeInfo nodeId="7727845083901381794" fileName="Dijkstra_Test.java" startLine="49" startPosition="51" endLine="50" endPosition="62" />
+    <nodeInfo nodeId="7727845083901381801" fileName="Dijkstra_Test.java" startLine="50" startPosition="62" endLine="51" endPosition="72" />
+    <nodeInfo nodeId="7727845083901381809" fileName="Dijkstra_Test.java" startLine="51" startPosition="72" endLine="52" endPosition="72" />
+    <nodeInfo nodeId="7727845083901381817" fileName="Dijkstra_Test.java" startLine="52" startPosition="72" endLine="53" endPosition="83" />
+    <nodeInfo nodeId="7727845083901381826" fileName="Dijkstra_Test.java" startLine="53" startPosition="83" endLine="54" endPosition="40" />
+    <nodeInfo nodeId="7727845083901381833" fileName="Dijkstra_Test.java" startLine="54" startPosition="40" endLine="55" endPosition="84" />
+    <nodeInfo nodeId="7727845083901381841" fileName="Dijkstra_Test.java" startLine="55" startPosition="84" endLine="56" endPosition="84" />
+    <nodeInfo nodeId="7727845083901381849" fileName="Dijkstra_Test.java" startLine="56" startPosition="84" endLine="57" endPosition="84" />
+    <nodeInfo nodeId="7727845083901381865" fileName="Dijkstra_Test.java" startLine="57" startPosition="84" endLine="58" endPosition="84" />
+    <nodeInfo nodeId="7727845083901381857" fileName="Dijkstra_Test.java" startLine="58" startPosition="84" endLine="59" endPosition="44" />
+    <nodeInfo nodeId="7727845083901385072" fileName="Dijkstra_Test.java" startLine="62" startPosition="45" endLine="63" endPosition="56" />
+    <nodeInfo nodeId="7727845083901385076" fileName="Dijkstra_Test.java" startLine="63" startPosition="56" endLine="64" endPosition="62" />
+    <nodeInfo nodeId="7727845083901385083" fileName="Dijkstra_Test.java" startLine="64" startPosition="62" endLine="65" endPosition="72" />
+    <nodeInfo nodeId="7727845083901385091" fileName="Dijkstra_Test.java" startLine="65" startPosition="72" endLine="66" endPosition="72" />
+    <nodeInfo nodeId="7727845083901385099" fileName="Dijkstra_Test.java" startLine="66" startPosition="72" endLine="67" endPosition="83" />
+    <nodeInfo nodeId="7727845083901385108" fileName="Dijkstra_Test.java" startLine="67" startPosition="83" endLine="68" endPosition="40" />
+    <nodeInfo nodeId="7727845083901385115" fileName="Dijkstra_Test.java" startLine="68" startPosition="40" endLine="69" endPosition="84" />
+    <nodeInfo nodeId="7727845083901385123" fileName="Dijkstra_Test.java" startLine="69" startPosition="84" endLine="70" endPosition="84" />
+    <nodeInfo nodeId="7727845083901385131" fileName="Dijkstra_Test.java" startLine="70" startPosition="84" endLine="71" endPosition="84" />
+    <nodeInfo nodeId="7727845083901385139" fileName="Dijkstra_Test.java" startLine="71" startPosition="84" endLine="72" endPosition="84" />
+    <nodeInfo nodeId="7727845083901385155" fileName="Dijkstra_Test.java" startLine="72" startPosition="84" endLine="73" endPosition="84" />
+    <nodeInfo nodeId="7727845083901385147" fileName="Dijkstra_Test.java" startLine="73" startPosition="84" endLine="74" endPosition="44" />
+    <nodeInfo nodeId="1953828525454983842" fileName="Dijkstra_Test.java" startLine="77" startPosition="107" endLine="78" endPosition="59" />
+    <nodeInfo nodeId="1953828525454983853" fileName="Dijkstra_Test.java" startLine="78" startPosition="59" endLine="79" endPosition="25" />
+    <nodeInfo nodeId="1953828525454983890" fileName="Dijkstra_Test.java" startLine="79" startPosition="25" endLine="80" endPosition="53" />
+    <nodeInfo nodeId="1953828525454983899" fileName="Dijkstra_Test.java" startLine="80" startPosition="53" endLine="81" endPosition="19" />
+    <nodeInfo nodeId="1953828525454983910" fileName="Dijkstra_Test.java" startLine="82" startPosition="51" endLine="83" endPosition="55" />
+    <nodeInfo nodeId="1953828525454983921" fileName="Dijkstra_Test.java" startLine="84" startPosition="5" endLine="85" endPosition="48" />
+    <nodeInfo nodeId="1953828525454983905" fileName="Dijkstra_Test.java" startLine="81" startPosition="19" endLine="84" endPosition="5" />
+    <nodeInfo nodeId="1953828525454983819" fileName="Dijkstra_Test.java" startLine="76" startPosition="0" endLine="87" endPosition="0" />
+    <nodeInfo nodeId="1953828525455054823" fileName="Dijkstra_Test.java" startLine="34" startPosition="0" endLine="47" endPosition="0" />
+    <nodeInfo nodeId="7727845083901381786" fileName="Dijkstra_Test.java" startLine="47" startPosition="0" endLine="61" endPosition="0" />
+    <nodeInfo nodeId="1953828525454982001" fileName="Dijkstra_Test.java" startLine="19" startPosition="45" endLine="34" endPosition="0" />
+    <nodeInfo nodeId="7727845083901385068" fileName="Dijkstra_Test.java" startLine="61" startPosition="0" endLine="76" endPosition="0" />
+    <scopeInfo nodeId="1953828525454983908" fileName="Dijkstra_Test.java" startLine="82" startPosition="51" endLine="83" endPosition="55" />
+    <scopeInfo nodeId="1953828525454983905" fileName="Dijkstra_Test.java" startLine="81" startPosition="19" endLine="84" endPosition="5" />
+    <scopeInfo nodeId="1953828525454983822" fileName="Dijkstra_Test.java" startLine="77" startPosition="107" endLine="85" endPosition="48">
+      <varInfo nodeId="1953828525454983900" varName="length" />
+      <varInfo nodeId="1953828525454983891" varName="path" />
+      <varInfo nodeId="1953828525454983843" varName="finder" />
+    </scopeInfo>
+    <scopeInfo nodeId="1953828525455054826" fileName="Dijkstra_Test.java" startLine="35" startPosition="45" endLine="45" endPosition="44">
+      <varInfo nodeId="1953828525455054834" varName="graphString" />
+      <varInfo nodeId="1953828525455054838" varName="graph" />
+      <varInfo nodeId="1953828525455054870" varName="edges" />
+      <varInfo nodeId="1953828525455054845" varName="source" />
+      <varInfo nodeId="1953828525455054861" varName="weights" />
+      <varInfo nodeId="1953828525455054853" varName="target" />
+    </scopeInfo>
+    <scopeInfo nodeId="7727845083901381789" fileName="Dijkstra_Test.java" startLine="48" startPosition="45" endLine="59" endPosition="44">
+      <varInfo nodeId="7727845083901381791" varName="graphString" />
+      <varInfo nodeId="7727845083901381795" varName="graph" />
+      <varInfo nodeId="7727845083901381827" varName="edges" />
+      <varInfo nodeId="7727845083901381802" varName="source" />
+      <varInfo nodeId="7727845083901381818" varName="weights" />
+      <varInfo nodeId="7727845083901381810" varName="target" />
+    </scopeInfo>
+    <scopeInfo nodeId="1953828525454983819" fileName="Dijkstra_Test.java" startLine="76" startPosition="0" endLine="87" endPosition="0">
+      <varInfo nodeId="1953828525454983838" varName="expectedLength" />
+      <varInfo nodeId="1953828525454983823" varName="graph" />
+      <varInfo nodeId="1953828525454983832" varName="source" />
+      <varInfo nodeId="1953828525454983825" varName="weights" />
+      <varInfo nodeId="1953828525454983835" varName="target" />
+    </scopeInfo>
+    <scopeInfo nodeId="1953828525454982004" fileName="Dijkstra_Test.java" startLine="20" startPosition="48" endLine="32" endPosition="44">
+      <varInfo nodeId="1953828525454983932" varName="graphString" />
+      <varInfo nodeId="1953828525454983940" varName="graph" />
+      <varInfo nodeId="1953828525454985957" varName="edges" />
+      <varInfo nodeId="1953828525454986004" varName="source" />
+      <varInfo nodeId="1953828525454985940" varName="weights" />
+      <varInfo nodeId="1953828525454986019" varName="target" />
+    </scopeInfo>
+    <scopeInfo nodeId="7727845083901385071" fileName="Dijkstra_Test.java" startLine="62" startPosition="45" endLine="74" endPosition="44">
+      <varInfo nodeId="7727845083901385073" varName="graphString" />
+      <varInfo nodeId="7727845083901385077" varName="graph" />
+      <varInfo nodeId="7727845083901385109" varName="edges" />
+      <varInfo nodeId="7727845083901385084" varName="source" />
+      <varInfo nodeId="7727845083901385100" varName="weights" />
+      <varInfo nodeId="7727845083901385092" varName="target" />
+    </scopeInfo>
+    <scopeInfo nodeId="1953828525455054823" fileName="Dijkstra_Test.java" startLine="34" startPosition="0" endLine="47" endPosition="0" />
+    <scopeInfo nodeId="7727845083901381786" fileName="Dijkstra_Test.java" startLine="47" startPosition="0" endLine="61" endPosition="0" />
+    <scopeInfo nodeId="1953828525454982001" fileName="Dijkstra_Test.java" startLine="19" startPosition="45" endLine="34" endPosition="0" />
+    <scopeInfo nodeId="7727845083901385068" fileName="Dijkstra_Test.java" startLine="61" startPosition="0" endLine="76" endPosition="0" />
   </root>
   <root nodeId="228830736476020639">
     <nodeInfo nodeId="228830736476020848" fileName="MinCirculation_Test.java" startLine="22" startPosition="45" endLine="23" endPosition="51" />
@@ -632,6 +754,58 @@
       <varInfo nodeId="529057043639338190" varName="graphString" />
     </scopeInfo>
   </root>
+  <root nodeId="7727845083901343929">
+    <nodeInfo nodeId="7727845083901344063" fileName="MinCostMaxFlowWithPotentials_Test.java" startLine="19" startPosition="45" endLine="20" endPosition="78" />
+    <nodeInfo nodeId="7727845083901372012" fileName="MinCostMaxFlowWithPotentials_Test.java" startLine="20" startPosition="78" endLine="21" endPosition="84" />
+    <nodeInfo nodeId="7727845083901372021" fileName="MinCostMaxFlowWithPotentials_Test.java" startLine="21" startPosition="84" endLine="22" endPosition="80" />
+    <nodeInfo nodeId="7727845083901372040" fileName="MinCostMaxFlowWithPotentials_Test.java" startLine="22" startPosition="80" endLine="23" endPosition="72" />
+    <nodeInfo nodeId="7727845083901372055" fileName="MinCostMaxFlowWithPotentials_Test.java" startLine="23" startPosition="72" endLine="24" endPosition="72" />
+    <nodeInfo nodeId="7727845083901372030" fileName="MinCostMaxFlowWithPotentials_Test.java" startLine="24" startPosition="72" endLine="25" endPosition="40" />
+    <nodeInfo nodeId="7727845083901372069" fileName="MinCostMaxFlowWithPotentials_Test.java" startLine="26" startPosition="52" endLine="27" endPosition="49" />
+    <nodeInfo nodeId="7727845083901372080" fileName="MinCostMaxFlowWithPotentials_Test.java" startLine="27" startPosition="49" endLine="28" endPosition="45" />
+    <nodeInfo nodeId="7727845083901372091" fileName="MinCostMaxFlowWithPotentials_Test.java" startLine="29" startPosition="5" endLine="30" endPosition="81" />
+    <nodeInfo nodeId="7727845083901372106" fileName="MinCostMaxFlowWithPotentials_Test.java" startLine="30" startPosition="81" endLine="31" endPosition="81" />
+    <nodeInfo nodeId="7727845083901372116" fileName="MinCostMaxFlowWithPotentials_Test.java" startLine="31" startPosition="81" endLine="32" endPosition="55" />
+    <nodeInfo nodeId="7727845083901343954" fileName="MinCostMaxFlowWithPotentials_Test.java" startLine="35" startPosition="135" endLine="36" endPosition="106" />
+    <nodeInfo nodeId="7727845083901343971" fileName="MinCostMaxFlowWithPotentials_Test.java" startLine="37" startPosition="63" endLine="38" endPosition="190" />
+    <nodeInfo nodeId="7727845083901343994" fileName="MinCostMaxFlowWithPotentials_Test.java" startLine="39" startPosition="5" endLine="40" endPosition="71" />
+    <nodeInfo nodeId="7727845083901344002" fileName="MinCostMaxFlowWithPotentials_Test.java" startLine="40" startPosition="71" endLine="41" endPosition="22" />
+    <nodeInfo nodeId="7727845083901344012" fileName="MinCostMaxFlowWithPotentials_Test.java" startLine="42" startPosition="63" endLine="43" endPosition="93" />
+    <nodeInfo nodeId="7727845083901344022" fileName="MinCostMaxFlowWithPotentials_Test.java" startLine="44" startPosition="5" endLine="45" endPosition="34" />
+    <nodeInfo nodeId="7727845083901344027" fileName="MinCostMaxFlowWithPotentials_Test.java" startLine="45" startPosition="34" endLine="46" endPosition="49" />
+    <nodeInfo nodeId="7727845083901343965" fileName="MinCostMaxFlowWithPotentials_Test.java" startLine="36" startPosition="106" endLine="39" endPosition="5" />
+    <nodeInfo nodeId="7727845083901344006" fileName="MinCostMaxFlowWithPotentials_Test.java" startLine="41" startPosition="22" endLine="44" endPosition="5" />
+    <nodeInfo nodeId="7727845083901372064" fileName="MinCostMaxFlowWithPotentials_Test.java" startLine="25" startPosition="40" endLine="29" endPosition="5" />
+    <nodeInfo nodeId="7727845083901343950" fileName="MinCostMaxFlowWithPotentials_Test.java" startLine="34" startPosition="0" endLine="48" endPosition="0" />
+    <nodeInfo nodeId="7727845083901344047" fileName="MinCostMaxFlowWithPotentials_Test.java" startLine="18" startPosition="65" endLine="34" endPosition="0" />
+    <scopeInfo nodeId="7727845083901343970" fileName="MinCostMaxFlowWithPotentials_Test.java" startLine="37" startPosition="63" endLine="38" endPosition="190" />
+    <scopeInfo nodeId="7727845083901344011" fileName="MinCostMaxFlowWithPotentials_Test.java" startLine="42" startPosition="63" endLine="43" endPosition="93" />
+    <scopeInfo nodeId="7727845083901372067" fileName="MinCostMaxFlowWithPotentials_Test.java" startLine="26" startPosition="52" endLine="28" endPosition="45" />
+    <scopeInfo nodeId="7727845083901343965" fileName="MinCostMaxFlowWithPotentials_Test.java" startLine="36" startPosition="106" endLine="39" endPosition="5" />
+    <scopeInfo nodeId="7727845083901344006" fileName="MinCostMaxFlowWithPotentials_Test.java" startLine="41" startPosition="22" endLine="44" endPosition="5" />
+    <scopeInfo nodeId="7727845083901372064" fileName="MinCostMaxFlowWithPotentials_Test.java" startLine="25" startPosition="40" endLine="29" endPosition="5" />
+    <scopeInfo nodeId="7727845083901343953" fileName="MinCostMaxFlowWithPotentials_Test.java" startLine="35" startPosition="135" endLine="46" endPosition="49">
+      <varInfo nodeId="7727845083901344003" varName="totalCost" />
+      <varInfo nodeId="7727845083901343955" varName="flow" />
+    </scopeInfo>
+    <scopeInfo nodeId="7727845083901344050" fileName="MinCostMaxFlowWithPotentials_Test.java" startLine="19" startPosition="45" endLine="32" endPosition="55">
+      <varInfo nodeId="7727845083901344064" varName="graph" />
+      <varInfo nodeId="7727845083901372031" varName="edges" />
+      <varInfo nodeId="7727845083901372041" varName="source" />
+      <varInfo nodeId="7727845083901372056" varName="target" />
+      <varInfo nodeId="7727845083901372013" varName="capacity" />
+      <varInfo nodeId="7727845083901372022" varName="cost" />
+    </scopeInfo>
+    <scopeInfo nodeId="7727845083901343950" fileName="MinCostMaxFlowWithPotentials_Test.java" startLine="34" startPosition="0" endLine="48" endPosition="0">
+      <varInfo nodeId="7727845083901344031" varName="graph" />
+      <varInfo nodeId="7727845083901344033" varName="source" />
+      <varInfo nodeId="7727845083901344045" varName="expectedCost" />
+      <varInfo nodeId="7727845083901344035" varName="target" />
+      <varInfo nodeId="7727845083901344037" varName="capacity" />
+      <varInfo nodeId="7727845083901344041" varName="cost" />
+    </scopeInfo>
+    <scopeInfo nodeId="7727845083901344047" fileName="MinCostMaxFlowWithPotentials_Test.java" startLine="18" startPosition="65" endLine="34" endPosition="0" />
+  </root>
   <root nodeId="903391227141030928">
     <nodeInfo nodeId="903391227141030947" fileName="WeightedTopologicalNumbering_Test.java" startLine="19" startPosition="45" endLine="20" endPosition="50" />
     <nodeInfo nodeId="903391227141030962" fileName="WeightedTopologicalNumbering_Test.java" startLine="20" startPosition="50" endLine="21" endPosition="40" />
@@ -687,51 +861,52 @@
     <nodeInfo nodeId="9057893087611434005" fileName="MinCostMaxFlow_Test.java" startLine="56" startPosition="155" endLine="57" endPosition="52" />
     <nodeInfo nodeId="9057893087611421671" fileName="MinCostMaxFlow_Test.java" startLine="60" startPosition="128" endLine="61" endPosition="39" />
     <nodeInfo nodeId="9057893087611421683" fileName="MinCostMaxFlow_Test.java" startLine="61" startPosition="39" endLine="62" endPosition="67" />
-    <nodeInfo nodeId="9057893087611421659" fileName="MinCostMaxFlow_Test.java" startLine="62" startPosition="67" endLine="63" endPosition="92" />
-    <nodeInfo nodeId="9057893087611430926" fileName="MinCostMaxFlow_Test.java" startLine="63" startPosition="92" endLine="64" endPosition="29" />
-    <nodeInfo nodeId="9057893087611421699" fileName="MinCostMaxFlow_Test.java" startLine="64" startPosition="29" endLine="65" endPosition="72" />
-    <nodeInfo nodeId="9057893087611421714" fileName="MinCostMaxFlow_Test.java" startLine="65" startPosition="72" endLine="66" endPosition="55" />
-    <nodeInfo nodeId="9057893087611421727" fileName="MinCostMaxFlow_Test.java" startLine="66" startPosition="55" endLine="67" endPosition="83" />
-    <nodeInfo nodeId="9057893087611433117" fileName="MinCostMaxFlow_Test.java" startLine="67" startPosition="83" endLine="68" endPosition="16" />
-    <nodeInfo nodeId="9057893087611426396" fileName="MinCostMaxFlow_Test.java" startLine="71" startPosition="92" endLine="72" endPosition="44" />
-    <nodeInfo nodeId="9057893087611426438" fileName="MinCostMaxFlow_Test.java" startLine="73" startPosition="68" endLine="74" endPosition="129" />
-    <nodeInfo nodeId="9057893087611433075" fileName="MinCostMaxFlow_Test.java" startLine="78" startPosition="77" endLine="79" endPosition="21" />
-    <nodeInfo nodeId="9057893087611433091" fileName="MinCostMaxFlow_Test.java" startLine="80" startPosition="79" endLine="81" endPosition="92" />
-    <nodeInfo nodeId="9057893087611433110" fileName="MinCostMaxFlow_Test.java" startLine="82" startPosition="5" endLine="83" endPosition="20" />
-    <nodeInfo nodeId="9057893087611426417" fileName="MinCostMaxFlow_Test.java" startLine="72" startPosition="44" endLine="75" endPosition="5" />
-    <nodeInfo nodeId="9057893087611433081" fileName="MinCostMaxFlow_Test.java" startLine="79" startPosition="21" endLine="82" endPosition="5" />
-    <nodeInfo nodeId="9057893087611426349" fileName="MinCostMaxFlow_Test.java" startLine="70" startPosition="0" endLine="77" endPosition="0" />
-    <nodeInfo nodeId="9057893087611433055" fileName="MinCostMaxFlow_Test.java" startLine="77" startPosition="0" endLine="85" endPosition="0" />
-    <nodeInfo nodeId="9057893087611421610" fileName="MinCostMaxFlow_Test.java" startLine="59" startPosition="0" endLine="70" endPosition="0" />
+    <nodeInfo nodeId="9057893087611421659" fileName="MinCostMaxFlow_Test.java" startLine="62" startPosition="67" endLine="63" endPosition="28" />
+    <nodeInfo nodeId="7953585273259929183" fileName="MinCostMaxFlow_Test.java" startLine="63" startPosition="28" endLine="64" endPosition="73" />
+    <nodeInfo nodeId="9057893087611430926" fileName="MinCostMaxFlow_Test.java" startLine="64" startPosition="73" endLine="65" endPosition="29" />
+    <nodeInfo nodeId="9057893087611421699" fileName="MinCostMaxFlow_Test.java" startLine="65" startPosition="29" endLine="66" endPosition="72" />
+    <nodeInfo nodeId="9057893087611421714" fileName="MinCostMaxFlow_Test.java" startLine="66" startPosition="72" endLine="67" endPosition="55" />
+    <nodeInfo nodeId="9057893087611421727" fileName="MinCostMaxFlow_Test.java" startLine="67" startPosition="55" endLine="68" endPosition="83" />
+    <nodeInfo nodeId="9057893087611433117" fileName="MinCostMaxFlow_Test.java" startLine="68" startPosition="83" endLine="69" endPosition="16" />
+    <nodeInfo nodeId="9057893087611426396" fileName="MinCostMaxFlow_Test.java" startLine="72" startPosition="92" endLine="73" endPosition="44" />
+    <nodeInfo nodeId="9057893087611426438" fileName="MinCostMaxFlow_Test.java" startLine="74" startPosition="68" endLine="75" endPosition="129" />
+    <nodeInfo nodeId="9057893087611433075" fileName="MinCostMaxFlow_Test.java" startLine="79" startPosition="77" endLine="80" endPosition="21" />
+    <nodeInfo nodeId="9057893087611433091" fileName="MinCostMaxFlow_Test.java" startLine="81" startPosition="79" endLine="82" endPosition="92" />
+    <nodeInfo nodeId="9057893087611433110" fileName="MinCostMaxFlow_Test.java" startLine="83" startPosition="5" endLine="84" endPosition="20" />
+    <nodeInfo nodeId="9057893087611426417" fileName="MinCostMaxFlow_Test.java" startLine="73" startPosition="44" endLine="76" endPosition="5" />
+    <nodeInfo nodeId="9057893087611433081" fileName="MinCostMaxFlow_Test.java" startLine="80" startPosition="21" endLine="83" endPosition="5" />
+    <nodeInfo nodeId="9057893087611426349" fileName="MinCostMaxFlow_Test.java" startLine="71" startPosition="0" endLine="78" endPosition="0" />
+    <nodeInfo nodeId="9057893087611433055" fileName="MinCostMaxFlow_Test.java" startLine="78" startPosition="0" endLine="86" endPosition="0" />
+    <nodeInfo nodeId="9057893087611421610" fileName="MinCostMaxFlow_Test.java" startLine="59" startPosition="0" endLine="71" endPosition="0" />
     <nodeInfo nodeId="9057893087611421744" fileName="MinCostMaxFlow_Test.java" startLine="21" startPosition="51" endLine="40" endPosition="0" />
     <nodeInfo nodeId="9057893087611433837" fileName="MinCostMaxFlow_Test.java" startLine="40" startPosition="0" endLine="59" endPosition="0" />
-    <scopeInfo nodeId="9057893087611426418" fileName="MinCostMaxFlow_Test.java" startLine="73" startPosition="68" endLine="74" endPosition="129" />
-    <scopeInfo nodeId="9057893087611433084" fileName="MinCostMaxFlow_Test.java" startLine="80" startPosition="79" endLine="81" endPosition="92" />
-    <scopeInfo nodeId="9057893087611426417" fileName="MinCostMaxFlow_Test.java" startLine="72" startPosition="44" endLine="75" endPosition="5">
+    <scopeInfo nodeId="9057893087611426418" fileName="MinCostMaxFlow_Test.java" startLine="74" startPosition="68" endLine="75" endPosition="129" />
+    <scopeInfo nodeId="9057893087611433084" fileName="MinCostMaxFlow_Test.java" startLine="81" startPosition="79" endLine="82" endPosition="92" />
+    <scopeInfo nodeId="9057893087611426417" fileName="MinCostMaxFlow_Test.java" startLine="73" startPosition="44" endLine="76" endPosition="5">
       <varInfo nodeId="9057893087611426420" varName="i" />
     </scopeInfo>
-    <scopeInfo nodeId="9057893087611433081" fileName="MinCostMaxFlow_Test.java" startLine="79" startPosition="21" endLine="82" endPosition="5" />
-    <scopeInfo nodeId="9057893087611426352" fileName="MinCostMaxFlow_Test.java" startLine="71" startPosition="92" endLine="75" endPosition="5">
+    <scopeInfo nodeId="9057893087611433081" fileName="MinCostMaxFlow_Test.java" startLine="80" startPosition="21" endLine="83" endPosition="5" />
+    <scopeInfo nodeId="9057893087611426352" fileName="MinCostMaxFlow_Test.java" startLine="72" startPosition="92" endLine="76" endPosition="5">
       <varInfo nodeId="9057893087611426397" varName="edges" />
     </scopeInfo>
-    <scopeInfo nodeId="9057893087611433058" fileName="MinCostMaxFlow_Test.java" startLine="78" startPosition="77" endLine="83" endPosition="20">
+    <scopeInfo nodeId="9057893087611433058" fileName="MinCostMaxFlow_Test.java" startLine="79" startPosition="77" endLine="84" endPosition="20">
       <varInfo nodeId="9057893087611433076" varName="flowCost" />
     </scopeInfo>
-    <scopeInfo nodeId="9057893087611426349" fileName="MinCostMaxFlow_Test.java" startLine="70" startPosition="0" endLine="77" endPosition="0">
+    <scopeInfo nodeId="9057893087611426349" fileName="MinCostMaxFlow_Test.java" startLine="71" startPosition="0" endLine="78" endPosition="0">
       <varInfo nodeId="9057893087611426366" varName="values" />
       <varInfo nodeId="9057893087611426371" varName="source" />
       <varInfo nodeId="9057893087611426354" varName="edgesMap" />
     </scopeInfo>
-    <scopeInfo nodeId="9057893087611421613" fileName="MinCostMaxFlow_Test.java" startLine="60" startPosition="128" endLine="68" endPosition="16">
+    <scopeInfo nodeId="9057893087611433055" fileName="MinCostMaxFlow_Test.java" startLine="78" startPosition="0" endLine="86" endPosition="0">
+      <varInfo nodeId="9057893087611433062" varName="flow" />
+      <varInfo nodeId="9057893087611433068" varName="cost" />
+    </scopeInfo>
+    <scopeInfo nodeId="9057893087611421613" fileName="MinCostMaxFlow_Test.java" startLine="60" startPosition="128" endLine="69" endPosition="16">
       <varInfo nodeId="9057893087611421684" varName="numEdges" />
       <varInfo nodeId="9057893087611421672" varName="numNodes" />
       <varInfo nodeId="9057893087611421660" varName="flow" />
     </scopeInfo>
-    <scopeInfo nodeId="9057893087611433055" fileName="MinCostMaxFlow_Test.java" startLine="77" startPosition="0" endLine="85" endPosition="0">
-      <varInfo nodeId="9057893087611433062" varName="flow" />
-      <varInfo nodeId="9057893087611433068" varName="cost" />
-    </scopeInfo>
-    <scopeInfo nodeId="9057893087611421610" fileName="MinCostMaxFlow_Test.java" startLine="59" startPosition="0" endLine="70" endPosition="0">
+    <scopeInfo nodeId="9057893087611421610" fileName="MinCostMaxFlow_Test.java" startLine="59" startPosition="0" endLine="71" endPosition="0">
       <varInfo nodeId="9057893087611421614" varName="graph" />
       <varInfo nodeId="9057893087611421646" varName="source" />
       <varInfo nodeId="9057893087611421649" varName="target" />
