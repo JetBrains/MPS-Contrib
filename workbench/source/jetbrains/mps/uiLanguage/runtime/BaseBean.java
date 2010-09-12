@@ -15,8 +15,8 @@
  */
 package jetbrains.mps.uiLanguage.runtime;
 
-import java.beans.PropertyChangeSupport;
 import java.beans.PropertyChangeListener;
+import java.beans.PropertyChangeSupport;
 
 public class BaseBean {
   private PropertyChangeSupport myPropertyChangeSupport = new PropertyChangeSupport(this);
