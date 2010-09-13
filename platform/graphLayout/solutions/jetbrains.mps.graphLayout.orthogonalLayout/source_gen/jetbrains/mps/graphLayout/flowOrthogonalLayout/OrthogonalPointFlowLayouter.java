@@ -16,16 +16,11 @@ import jetbrains.mps.graphLayout.planarGraph.EmbeddedGraph;
 import jetbrains.mps.graphLayout.planarization.ShortestPathEmbeddingFinder;
 import jetbrains.mps.graphLayout.planarization.PQPlanarizationFinder;
 import java.util.List;
-import java.util.Set;
-import jetbrains.mps.internal.collections.runtime.Sequence;
-import java.util.LinkedHashMap;
-import java.util.ArrayList;
 import java.awt.Point;
+import java.util.ArrayList;
 import jetbrains.mps.graphLayout.planarGraph.Dart;
 import jetbrains.mps.graphLayout.util.Direction2D;
-import jetbrains.mps.internal.collections.runtime.SetSequence;
 import jetbrains.mps.graphLayout.planarGraph.Face;
-import jetbrains.mps.internal.collections.runtime.ISelector;
 
 public class OrthogonalPointFlowLayouter implements ILayouter {
   private static int UNIT_LENGHT = 1;
@@ -64,68 +59,21 @@ public class OrthogonalPointFlowLayouter implements ILayouter {
         MapSequence.fromMap(history).put(edge, ListSequence.fromList(MapSequence.fromMap(history).get(edge)).reversedList());
       }
     }
-    Map<Node, List<Node>> newNodes = MapSequence.fromMap(new HashMap<Node, List<Node>>());
-    Map<Edge, Edge> replacedEdges = MapSequence.fromMap(new HashMap<Edge, Edge>());
-    Set<Edge> newEdges = new EmbeddedGraphModifier(embeddedGraph).reduceNodesDegree(newNodes, replacedEdges);
-    for (List<Edge> list : Sequence.fromIterable(MapSequence.fromMap(history).values())) {
-      Edge first = ListSequence.fromList(list).first();
-      if (MapSequence.fromMap(replacedEdges).containsKey(first)) {
-        ListSequence.fromList(list).setElement(0, MapSequence.fromMap(replacedEdges).get(first));
-      }
-      if (ListSequence.fromList(list).count() > 1) {
-        Edge last = ListSequence.fromList(list).last();
-        if (MapSequence.fromMap(replacedEdges).containsKey(last)) {
-          ListSequence.fromList(list).setElement(ListSequence.fromList(list).count() - 1, MapSequence.fromMap(replacedEdges).get(last));
-        }
-      }
-    }
     if (SHOW_TIME > 0) {
       long newTime = System.currentTimeMillis();
       System.out.println("finding the embedding: " + ((newTime - curTime) / MILLIS));
       System.out.println("graph now has " + ListSequence.fromList(copy.getNodes()).count() + " nodes and " + ListSequence.fromList(copy.getEdges()).count() + " edges");
       curTime = newTime;
     }
-    Map<Node, List<Node>> nodesToSplit = MapSequence.fromMap(new LinkedHashMap<Node, List<Node>>(16, (float) 0.75, false));
-    for (Node node : ListSequence.fromList(graph.getNodes())) {
-      Node copyNode = MapSequence.fromMap(nodeMap).get(node);
-      if (!(MapSequence.fromMap(newNodes).containsKey(copyNode))) {
-        MapSequence.fromMap(nodesToSplit).put(copyNode, ListSequence.fromList(new ArrayList<Node>()));
-      } else {
-        MapSequence.fromMap(nodesToSplit).put(copyNode, MapSequence.fromMap(newNodes).get(copyNode));
-      }
-    }
-    GraphPointLayout copyLayout = getFlowLayout(embeddedGraph, newEdges, nodesToSplit);
+    GraphPointLayout copyLayout = getFlowLayout(embeddedGraph);
     GraphPointLayout graphLayout = new GraphPointLayout(graph);
     for (Node node : ListSequence.fromList(graph.getNodes())) {
-      Node copyNode = MapSequence.fromMap(nodeMap).get(node);
-      if (MapSequence.fromMap(newNodes).containsKey(copyNode)) {
-        int minX = Integer.MAX_VALUE;
-        int minY = Integer.MAX_VALUE;
-        int maxX = Integer.MIN_VALUE;
-        int maxY = Integer.MIN_VALUE;
-        for (Node newNode : ListSequence.fromList(MapSequence.fromMap(newNodes).get(copyNode))) {
-          Point point = copyLayout.getLayoutFor(newNode);
-          minX = Math.min(point.x, minX);
-          minY = Math.min(point.y, minY);
-          maxX = Math.max(point.x, maxX);
-          maxY = Math.max(point.y, maxY);
-        }
-        graphLayout.setLayoutFor(node, new Point((minX + maxX) / 2, (minY + maxY) / 2));
-      } else {
-        graphLayout.setLayoutFor(node, copyLayout.getLayoutFor(MapSequence.fromMap(nodeMap).get(node)));
-      }
+      graphLayout.setLayoutFor(node, copyLayout.getLayoutFor(MapSequence.fromMap(nodeMap).get(node)));
     }
     for (Edge graphEdge : ListSequence.fromList(graph.getEdges())) {
       List<Point> edgeLayout = ListSequence.fromList(new ArrayList<Point>());
       List<Edge> edgeHistory = MapSequence.fromMap(history).get(graphEdge);
-      Node copySource = MapSequence.fromMap(nodeMap).get(graphEdge.getSource());
-      Node cur;
-      Node firstSource = ListSequence.fromList(edgeHistory).first().getSource();
-      if (copySource == firstSource || ListSequence.fromList(MapSequence.fromMap(newNodes).get(copySource)).contains(firstSource)) {
-        cur = firstSource;
-      } else {
-        cur = ListSequence.fromList(edgeHistory).first().getTarget();
-      }
+      Node cur = MapSequence.fromMap(nodeMap).get(graphEdge.getSource());
       for (Edge edge : ListSequence.fromList(edgeHistory)) {
         if (cur == edge.getSource()) {
           ListSequence.fromList(edgeLayout).addSequence(ListSequence.fromList(copyLayout.getLayoutFor(edge)));
@@ -134,19 +82,16 @@ public class OrthogonalPointFlowLayouter implements ILayouter {
         }
         cur = edge.getOpposite(cur);
       }
-      ListSequence.fromList(edgeLayout).insertElement(0, graphLayout.getLayoutFor(graphEdge.getSource()));
-      ListSequence.fromList(edgeLayout).addElement(graphLayout.getLayoutFor(graphEdge.getTarget()));
       graphLayout.setLayoutFor(graphEdge, edgeLayout);
     }
     if (SHOW_TIME > 0) {
       long newTime = System.currentTimeMillis();
       System.out.println("all: " + ((newTime - time) / MILLIS));
     }
-    return copyLayout;
+    return graphLayout;
   }
 
-  public GraphPointLayout getFlowLayout(EmbeddedGraph embeddedGraph, Set<Edge> edgesToBeStraight, Map<Node, List<Node>> nodeMap) {
-    EmbeddedGraphModifier modifier = new EmbeddedGraphModifier(embeddedGraph);
+  public GraphPointLayout getFlowLayout(EmbeddedGraph embeddedGraph) {
     Graph graph = embeddedGraph.getGraph();
     List<Edge> oldEdges = ListSequence.fromList(new ArrayList<Edge>());
     ListSequence.fromList(oldEdges).addSequence(ListSequence.fromList(graph.getEdges()));
@@ -154,7 +99,7 @@ public class OrthogonalPointFlowLayouter implements ILayouter {
     ListSequence.fromList(oldNodes).addSequence(ListSequence.fromList(graph.getNodes()));
     Map<Dart, Integer> bends = MapSequence.fromMap(new HashMap<Dart, Integer>());
     Map<Dart, Integer> angles = MapSequence.fromMap(new HashMap<Dart, Integer>());
-    OrthogonalRepresentation.getRepresentation(embeddedGraph, edgesToBeStraight, bends, angles);
+    QuasiOrthogonalRepresentation.getRepresentation(embeddedGraph, bends, angles);
     if (SHOW_lOG > 0) {
       System.out.println("bends:");
       System.out.println(bends);
@@ -164,36 +109,22 @@ public class OrthogonalPointFlowLayouter implements ILayouter {
       System.out.println("finding the representation: " + ((newTime - curTime) / MILLIS));
       curTime = newTime;
     }
+    new QuasiRepresentationModifier(embeddedGraph, bends, angles).reduceToOrthogonalRepresentation();
     OrthogonalRepresentation.replaceBendsByNodes(embeddedGraph, bends, angles);
     Map<Dart, Direction2D> directions = OrthogonalRepresentation.getDirections(embeddedGraph, angles);
+    EmbeddedGraphModifier modifier = new EmbeddedGraphModifier(embeddedGraph);
     modifier.setDartDirections(directions);
-    /*
-      modifier.makeRectanglesForNodes(nodeMap);
-    */
     modifier.makeRectangularFaces();
+    if (SHOW_lOG > 0) {
+      System.out.println("after making faces rectangular: ");
+      printEmbeddedGraphWithDirections(embeddedGraph, directions);
+    }
     if (SHOW_TIME > 0) {
       long newTime = System.currentTimeMillis();
       System.out.println("making faces rectangular: " + ((newTime - curTime) / MILLIS));
       System.out.println("graph now has " + ListSequence.fromList(graph.getNodes()).count() + " nodes and " + ListSequence.fromList(graph.getEdges()).count() + " edges");
       curTime = newTime;
     }
-    if (SHOW_lOG > 0) {
-      System.out.println("after making faces rectangular: ");
-      printEmbeddedGraphWithDirections(embeddedGraph, directions);
-    }
-    /*
-      Map<Edge, Integer> nodeBorderLengths = MapSequence.fromMap(new HashMap<Edge, Integer>());
-      for (Node node : SetSequence.fromSet(MapSequence.fromMap(nodeMap).keySet())) {
-        Face face = modifier.getNodeFace(node);
-        for (Edge edge : ListSequence.fromList(face.getDarts()).select(new ISelector<Dart, Edge>() {
-          public Edge select(Dart dart) {
-            return dart.getEdge();
-          }
-        })) {
-          MapSequence.fromMap(nodeBorderLengths).put(edge, 5);
-        }
-      }
-    */
     Map<Edge, Integer> lengths = new EdgeLengthComputer().compute(embeddedGraph, directions);
     CoordinatePlacer placer = new CoordinatePlacer(embeddedGraph, lengths, directions);
     Map<Node, Point> coordinates = placer.getCoordinates();
@@ -213,22 +144,12 @@ public class OrthogonalPointFlowLayouter implements ILayouter {
       }
       graphLayout.setLayoutFor(edge, edgeLayout);
     }
-    GraphPointLayout copyLayout = new GraphPointLayout(graph);
-    for (Node node : ListSequence.fromList(graph.getNodes())) {
-      copyLayout.setLayoutFor(node, MapSequence.fromMap(coordinates).get(node));
-    }
-    for (Edge edge : ListSequence.fromList(graph.getEdges())) {
-      List<Point> edgeLayout = ListSequence.fromList(new ArrayList<Point>());
-      ListSequence.fromList(edgeLayout).addElement(new Point(MapSequence.fromMap(coordinates).get(edge.getSource())));
-      ListSequence.fromList(edgeLayout).addElement(new Point(MapSequence.fromMap(coordinates).get(edge.getTarget())));
-      copyLayout.setLayoutFor(edge, edgeLayout);
-    }
     if (SHOW_TIME > 0) {
       long newTime = System.currentTimeMillis();
       System.out.println("finding layout: " + ((newTime - curTime) / MILLIS));
       curTime = newTime;
     }
-    return copyLayout;
+    return graphLayout;
   }
 
   private void printEmbeddedGraphWithDirections(EmbeddedGraph embeddedGraph, Map<Dart, Direction2D> directions) {

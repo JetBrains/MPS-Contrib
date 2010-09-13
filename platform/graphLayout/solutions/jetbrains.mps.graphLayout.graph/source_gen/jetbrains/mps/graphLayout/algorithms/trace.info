@@ -404,12 +404,12 @@
     <nodeInfo nodeId="7727845083901418369" fileName="MinCostCirculation.java" startLine="54" startPosition="96" endLine="55" endPosition="110" />
     <nodeInfo nodeId="7727845083901418392" fileName="MinCostCirculation.java" startLine="57" startPosition="42" endLine="58" endPosition="87" />
     <nodeInfo nodeId="1953828525455088186" fileName="MinCostCirculation.java" startLine="61" startPosition="12" endLine="62" endPosition="75" />
-    <nodeInfo nodeId="1953828525455137477" fileName="MinCostCirculation.java" startLine="65" startPosition="91" endLine="66" endPosition="65" />
-    <nodeInfo nodeId="228830736476016340" fileName="MinCostCirculation.java" startLine="69" startPosition="113" endLine="70" endPosition="48" />
-    <nodeInfo nodeId="228830736476015981" fileName="MinCostCirculation.java" startLine="71" startPosition="5" endLine="72" endPosition="25" />
-    <nodeInfo nodeId="228830736476015990" fileName="MinCostCirculation.java" startLine="72" startPosition="25" endLine="73" endPosition="25" />
-    <nodeInfo nodeId="228830736476024905" fileName="MinCostCirculation.java" startLine="74" startPosition="63" endLine="75" endPosition="116" />
-    <nodeInfo nodeId="228830736476010663" fileName="MinCostCirculation.java" startLine="76" startPosition="5" endLine="77" endPosition="16" />
+    <nodeInfo nodeId="1953828525455137477" fileName="MinCostCirculation.java" startLine="66" startPosition="93" endLine="67" endPosition="67" />
+    <nodeInfo nodeId="228830736476016340" fileName="MinCostCirculation.java" startLine="71" startPosition="113" endLine="72" endPosition="48" />
+    <nodeInfo nodeId="228830736476015981" fileName="MinCostCirculation.java" startLine="73" startPosition="5" endLine="74" endPosition="25" />
+    <nodeInfo nodeId="228830736476015990" fileName="MinCostCirculation.java" startLine="74" startPosition="25" endLine="75" endPosition="25" />
+    <nodeInfo nodeId="228830736476024905" fileName="MinCostCirculation.java" startLine="76" startPosition="63" endLine="77" endPosition="116" />
+    <nodeInfo nodeId="228830736476010663" fileName="MinCostCirculation.java" startLine="78" startPosition="5" endLine="79" endPosition="16" />
     <nodeInfo nodeId="1953828525455088184" fileName="MinCostCirculation.java" startLine="61" startPosition="10" endLine="63" endPosition="5" />
     <nodeInfo nodeId="228830736476016193" fileName="MinCostCirculation.java" startLine="19" startPosition="39" endLine="22" endPosition="5" />
     <nodeInfo nodeId="228830736476016009" fileName="MinCostCirculation.java" startLine="23" startPosition="63" endLine="26" endPosition="7" />
@@ -418,16 +418,17 @@
     <nodeInfo nodeId="228830736476016066" fileName="MinCostCirculation.java" startLine="34" startPosition="26" endLine="37" endPosition="7" />
     <nodeInfo nodeId="228830736476016155" fileName="MinCostCirculation.java" startLine="37" startPosition="7" endLine="40" endPosition="7" />
     <nodeInfo nodeId="7727845083901418382" fileName="MinCostCirculation.java" startLine="56" startPosition="9" endLine="59" endPosition="9" />
-    <nodeInfo nodeId="228830736476016265" fileName="MinCostCirculation.java" startLine="64" startPosition="67" endLine="67" endPosition="7" />
-    <nodeInfo nodeId="228830736476016318" fileName="MinCostCirculation.java" startLine="68" startPosition="5" endLine="71" endPosition="5" />
-    <nodeInfo nodeId="228830736476024899" fileName="MinCostCirculation.java" startLine="73" startPosition="25" endLine="76" endPosition="5" />
+    <nodeInfo nodeId="228830736476016265" fileName="MinCostCirculation.java" startLine="65" startPosition="69" endLine="68" endPosition="9" />
+    <nodeInfo nodeId="228830736476016318" fileName="MinCostCirculation.java" startLine="70" startPosition="6" endLine="73" endPosition="5" />
+    <nodeInfo nodeId="228830736476024899" fileName="MinCostCirculation.java" startLine="75" startPosition="25" endLine="78" endPosition="5" />
     <nodeInfo nodeId="228830736476024021" fileName="MinCostCirculation.java" startLine="40" startPosition="7" endLine="44" endPosition="7" />
     <nodeInfo nodeId="7727845083901418328" fileName="MinCostCirculation.java" startLine="52" startPosition="32" endLine="56" endPosition="9" />
-    <nodeInfo nodeId="228830736476016255" fileName="MinCostCirculation.java" startLine="63" startPosition="5" endLine="68" endPosition="5" />
+    <nodeInfo nodeId="228830736476016255" fileName="MinCostCirculation.java" startLine="64" startPosition="6" endLine="69" endPosition="7" />
+    <nodeInfo nodeId="272112265222925061" fileName="MinCostCirculation.java" startLine="63" startPosition="5" endLine="70" endPosition="6" />
     <nodeInfo nodeId="7727845083901428411" fileName="MinCostCirculation.java" startLine="48" startPosition="89" endLine="60" endPosition="8" />
     <nodeInfo nodeId="1953828525455088160" fileName="MinCostCirculation.java" startLine="46" startPosition="28" endLine="63" endPosition="5" />
     <nodeInfo nodeId="228830736476015999" fileName="MinCostCirculation.java" startLine="22" startPosition="5" endLine="45" endPosition="5" />
-    <nodeInfo nodeId="228830736476010500" fileName="MinCostCirculation.java" startLine="15" startPosition="0" endLine="79" endPosition="0" />
+    <nodeInfo nodeId="228830736476010500" fileName="MinCostCirculation.java" startLine="15" startPosition="0" endLine="81" endPosition="0" />
     <scopeInfo nodeId="228830736476016196" fileName="MinCostCirculation.java" startLine="20" startPosition="63" endLine="21" endPosition="131" />
     <scopeInfo nodeId="228830736476016011" fileName="MinCostCirculation.java" startLine="24" startPosition="27" endLine="25" endPosition="17" />
     <scopeInfo nodeId="228830736476016029" fileName="MinCostCirculation.java" startLine="28" startPosition="66" endLine="29" endPosition="51" />
@@ -436,38 +437,38 @@
     <scopeInfo nodeId="228830736476016156" fileName="MinCostCirculation.java" startLine="38" startPosition="21" endLine="39" endPosition="41" />
     <scopeInfo nodeId="7727845083901418383" fileName="MinCostCirculation.java" startLine="57" startPosition="42" endLine="58" endPosition="87" />
     <scopeInfo nodeId="1953828525455088185" fileName="MinCostCirculation.java" startLine="61" startPosition="12" endLine="62" endPosition="75" />
-    <scopeInfo nodeId="228830736476016267" fileName="MinCostCirculation.java" startLine="65" startPosition="91" endLine="66" endPosition="65" />
-    <scopeInfo nodeId="228830736476016321" fileName="MinCostCirculation.java" startLine="69" startPosition="113" endLine="70" endPosition="48" />
-    <scopeInfo nodeId="228830736476024904" fileName="MinCostCirculation.java" startLine="74" startPosition="63" endLine="75" endPosition="116" />
+    <scopeInfo nodeId="228830736476016267" fileName="MinCostCirculation.java" startLine="66" startPosition="93" endLine="67" endPosition="67" />
+    <scopeInfo nodeId="228830736476016321" fileName="MinCostCirculation.java" startLine="71" startPosition="113" endLine="72" endPosition="48" />
+    <scopeInfo nodeId="228830736476024904" fileName="MinCostCirculation.java" startLine="76" startPosition="63" endLine="77" endPosition="116" />
     <scopeInfo nodeId="228830736476024023" fileName="MinCostCirculation.java" startLine="41" startPosition="28" endLine="43" endPosition="50" />
     <scopeInfo nodeId="7727845083901418331" fileName="MinCostCirculation.java" startLine="53" startPosition="67" endLine="55" endPosition="110" />
     <scopeInfo nodeId="228830736476016193" fileName="MinCostCirculation.java" startLine="19" startPosition="39" endLine="22" endPosition="5" />
     <scopeInfo nodeId="228830736476016026" fileName="MinCostCirculation.java" startLine="27" startPosition="19" endLine="30" endPosition="7" />
     <scopeInfo nodeId="228830736476016048" fileName="MinCostCirculation.java" startLine="30" startPosition="7" endLine="33" endPosition="7" />
-    <scopeInfo nodeId="228830736476016258" fileName="MinCostCirculation.java" startLine="64" startPosition="67" endLine="67" endPosition="7" />
-    <scopeInfo nodeId="228830736476016318" fileName="MinCostCirculation.java" startLine="68" startPosition="5" endLine="71" endPosition="5" />
-    <scopeInfo nodeId="228830736476024899" fileName="MinCostCirculation.java" startLine="73" startPosition="25" endLine="76" endPosition="5" />
+    <scopeInfo nodeId="228830736476016258" fileName="MinCostCirculation.java" startLine="65" startPosition="69" endLine="68" endPosition="9" />
+    <scopeInfo nodeId="228830736476016318" fileName="MinCostCirculation.java" startLine="70" startPosition="6" endLine="73" endPosition="5" />
+    <scopeInfo nodeId="228830736476024899" fileName="MinCostCirculation.java" startLine="75" startPosition="25" endLine="78" endPosition="5" />
     <scopeInfo nodeId="7727845083901418328" fileName="MinCostCirculation.java" startLine="52" startPosition="32" endLine="56" endPosition="9" />
-    <scopeInfo nodeId="228830736476016255" fileName="MinCostCirculation.java" startLine="63" startPosition="5" endLine="68" endPosition="5" />
+    <scopeInfo nodeId="228830736476016255" fileName="MinCostCirculation.java" startLine="64" startPosition="6" endLine="69" endPosition="7" />
     <scopeInfo nodeId="1953828525455088161" fileName="MinCostCirculation.java" startLine="47" startPosition="24" endLine="60" endPosition="8" />
     <scopeInfo nodeId="228830736476016002" fileName="MinCostCirculation.java" startLine="23" startPosition="63" endLine="44" endPosition="7">
       <varInfo nodeId="228830736476023999" varName="newEdge" />
       <varInfo nodeId="228830736476016021" varName="diff" />
     </scopeInfo>
     <scopeInfo nodeId="228830736476015999" fileName="MinCostCirculation.java" startLine="22" startPosition="5" endLine="45" endPosition="5" />
-    <scopeInfo nodeId="228830736476010503" fileName="MinCostCirculation.java" startLine="16" startPosition="149" endLine="77" endPosition="16">
+    <scopeInfo nodeId="228830736476010503" fileName="MinCostCirculation.java" startLine="16" startPosition="149" endLine="79" endPosition="16">
       <varInfo nodeId="228830736476010648" varName="source" />
       <varInfo nodeId="228830736476010670" varName="target" />
       <varInfo nodeId="228830736476016181" varName="capacity" />
       <varInfo nodeId="228830736476016244" varName="flow" />
     </scopeInfo>
-    <scopeInfo nodeId="228830736476010500" fileName="MinCostCirculation.java" startLine="15" startPosition="0" endLine="79" endPosition="0">
+    <scopeInfo nodeId="228830736476010500" fileName="MinCostCirculation.java" startLine="15" startPosition="0" endLine="81" endPosition="0">
       <varInfo nodeId="228830736476010504" varName="graph" />
       <varInfo nodeId="228830736476010519" varName="initialCapacity" />
       <varInfo nodeId="228830736476010512" varName="low" />
       <varInfo nodeId="228830736476010526" varName="cost" />
     </scopeInfo>
-    <unitInfo nodeId="228830736476010494" fileName="MinCostCirculation.java" startLine="13" startPosition="0" endLine="80" endPosition="0" unitName="jetbrains.mps.graphLayout.algorithms.MinCostCirculation" />
+    <unitInfo nodeId="228830736476010494" fileName="MinCostCirculation.java" startLine="13" startPosition="0" endLine="82" endPosition="0" unitName="jetbrains.mps.graphLayout.algorithms.MinCostCirculation" />
   </root>
   <root nodeId="3720762119843889432">
     <nodeInfo nodeId="4644851485137244695" fileName="BiconnectedComponent.java" startLine="18" startPosition="35" endLine="19" endPosition="28" />

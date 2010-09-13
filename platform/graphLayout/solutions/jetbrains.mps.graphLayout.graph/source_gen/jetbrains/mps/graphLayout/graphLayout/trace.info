@@ -1,65 +1,68 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <debugInfo>
   <root nodeId="1327612371813188313">
-    <nodeInfo nodeId="1327612371813188314" fileName="GraphLayoutPoint.java" startLine="14" startPosition="31" endLine="15" endPosition="24" />
-    <nodeInfo nodeId="1327612371813188317" fileName="GraphLayoutPoint.java" startLine="15" startPosition="24" endLine="16" endPosition="40" />
-    <nodeInfo nodeId="1327612371813188322" fileName="GraphLayoutPoint.java" startLine="16" startPosition="40" endLine="17" endPosition="46" />
-    <nodeInfo nodeId="1327612371813188333" fileName="GraphLayoutPoint.java" startLine="19" startPosition="40" endLine="20" endPosition="20" />
-    <nodeInfo nodeId="1327612371813188337" fileName="GraphLayoutPoint.java" startLine="20" startPosition="20" endLine="21" endPosition="67" />
-    <nodeInfo nodeId="1327612371813188344" fileName="GraphLayoutPoint.java" startLine="21" startPosition="67" endLine="22" endPosition="73" />
-    <nodeInfo nodeId="1327612371813188368" fileName="GraphLayoutPoint.java" startLine="29" startPosition="58" endLine="30" endPosition="35" />
-    <nodeInfo nodeId="1327612371813188393" fileName="GraphLayoutPoint.java" startLine="37" startPosition="64" endLine="38" endPosition="35" />
-    <nodeInfo nodeId="1327612371813188408" fileName="GraphLayoutPoint.java" startLine="41" startPosition="52" endLine="42" endPosition="55" />
-    <nodeInfo nodeId="1327612371813188422" fileName="GraphLayoutPoint.java" startLine="45" startPosition="40" endLine="46" endPosition="55" />
-    <nodeInfo nodeId="1327612371813188432" fileName="GraphLayoutPoint.java" startLine="49" startPosition="59" endLine="50" endPosition="56" />
-    <nodeInfo nodeId="1327612371813188448" fileName="GraphLayoutPoint.java" startLine="53" startPosition="46" endLine="54" endPosition="55" />
-    <nodeInfo nodeId="1327612371813188354" fileName="GraphLayoutPoint.java" startLine="24" startPosition="0" endLine="28" endPosition="0" />
-    <nodeInfo nodeId="1327612371813188364" fileName="GraphLayoutPoint.java" startLine="28" startPosition="0" endLine="32" endPosition="0" />
-    <nodeInfo nodeId="1327612371813188378" fileName="GraphLayoutPoint.java" startLine="32" startPosition="0" endLine="36" endPosition="0" />
-    <nodeInfo nodeId="1327612371813188389" fileName="GraphLayoutPoint.java" startLine="36" startPosition="0" endLine="40" endPosition="0" />
-    <nodeInfo nodeId="1327612371813188404" fileName="GraphLayoutPoint.java" startLine="40" startPosition="0" endLine="44" endPosition="0" />
-    <nodeInfo nodeId="1327612371813188418" fileName="GraphLayoutPoint.java" startLine="44" startPosition="0" endLine="48" endPosition="0" />
-    <nodeInfo nodeId="1327612371813188428" fileName="GraphLayoutPoint.java" startLine="48" startPosition="0" endLine="52" endPosition="0" />
-    <nodeInfo nodeId="1327612371813188443" fileName="GraphLayoutPoint.java" startLine="52" startPosition="0" endLine="56" endPosition="0" />
-    <nodeInfo nodeId="5213231752900659915" fileName="GraphLayoutPoint.java" startLine="56" startPosition="0" endLine="60" endPosition="0" />
-    <nodeInfo nodeId="1327612371813188329" fileName="GraphLayoutPoint.java" startLine="18" startPosition="0" endLine="23" endPosition="3" />
-    <scopeInfo nodeId="1327612371813188359" fileName="GraphLayoutPoint.java" startLine="25" startPosition="43" endLine="26" endPosition="29" />
-    <scopeInfo nodeId="1327612371813188367" fileName="GraphLayoutPoint.java" startLine="29" startPosition="58" endLine="30" endPosition="35" />
-    <scopeInfo nodeId="1327612371813188384" fileName="GraphLayoutPoint.java" startLine="33" startPosition="49" endLine="34" endPosition="29" />
-    <scopeInfo nodeId="1327612371813188392" fileName="GraphLayoutPoint.java" startLine="37" startPosition="64" endLine="38" endPosition="35" />
-    <scopeInfo nodeId="1327612371813188407" fileName="GraphLayoutPoint.java" startLine="41" startPosition="52" endLine="42" endPosition="55" />
-    <scopeInfo nodeId="1327612371813188421" fileName="GraphLayoutPoint.java" startLine="45" startPosition="40" endLine="46" endPosition="55" />
-    <scopeInfo nodeId="1327612371813188431" fileName="GraphLayoutPoint.java" startLine="49" startPosition="59" endLine="50" endPosition="56" />
-    <scopeInfo nodeId="1327612371813188447" fileName="GraphLayoutPoint.java" startLine="53" startPosition="46" endLine="54" endPosition="55" />
-    <scopeInfo nodeId="5213231752900659918" fileName="GraphLayoutPoint.java" startLine="57" startPosition="27" endLine="58" endPosition="24" />
-    <scopeInfo nodeId="1327612371813188332" fileName="GraphLayoutPoint.java" startLine="19" startPosition="40" endLine="22" endPosition="73" />
-    <scopeInfo nodeId="1327612371813188354" fileName="GraphLayoutPoint.java" startLine="24" startPosition="0" endLine="28" endPosition="0" />
-    <scopeInfo nodeId="1327612371813188364" fileName="GraphLayoutPoint.java" startLine="28" startPosition="0" endLine="32" endPosition="0">
+    <nodeInfo nodeId="1327612371813188314" fileName="GraphPointLayout.java" startLine="14" startPosition="31" endLine="15" endPosition="24" />
+    <nodeInfo nodeId="1327612371813188317" fileName="GraphPointLayout.java" startLine="15" startPosition="24" endLine="16" endPosition="40" />
+    <nodeInfo nodeId="1327612371813188322" fileName="GraphPointLayout.java" startLine="16" startPosition="40" endLine="17" endPosition="46" />
+    <nodeInfo nodeId="1327612371813188333" fileName="GraphPointLayout.java" startLine="19" startPosition="40" endLine="20" endPosition="20" />
+    <nodeInfo nodeId="1327612371813188337" fileName="GraphPointLayout.java" startLine="20" startPosition="20" endLine="21" endPosition="67" />
+    <nodeInfo nodeId="1327612371813188344" fileName="GraphPointLayout.java" startLine="21" startPosition="67" endLine="22" endPosition="73" />
+    <nodeInfo nodeId="1327612371813188360" fileName="GraphPointLayout.java" startLine="25" startPosition="43" endLine="26" endPosition="29" />
+    <nodeInfo nodeId="1327612371813188368" fileName="GraphPointLayout.java" startLine="29" startPosition="58" endLine="30" endPosition="35" />
+    <nodeInfo nodeId="1327612371813188385" fileName="GraphPointLayout.java" startLine="33" startPosition="49" endLine="34" endPosition="29" />
+    <nodeInfo nodeId="1327612371813188393" fileName="GraphPointLayout.java" startLine="37" startPosition="64" endLine="38" endPosition="35" />
+    <nodeInfo nodeId="1327612371813188408" fileName="GraphPointLayout.java" startLine="41" startPosition="52" endLine="42" endPosition="55" />
+    <nodeInfo nodeId="1327612371813188422" fileName="GraphPointLayout.java" startLine="45" startPosition="40" endLine="46" endPosition="55" />
+    <nodeInfo nodeId="1327612371813188432" fileName="GraphPointLayout.java" startLine="49" startPosition="59" endLine="50" endPosition="56" />
+    <nodeInfo nodeId="1327612371813188448" fileName="GraphPointLayout.java" startLine="53" startPosition="46" endLine="54" endPosition="55" />
+    <nodeInfo nodeId="5213231752900659919" fileName="GraphPointLayout.java" startLine="57" startPosition="27" endLine="58" endPosition="24" />
+    <nodeInfo nodeId="1327612371813188354" fileName="GraphPointLayout.java" startLine="24" startPosition="0" endLine="28" endPosition="0" />
+    <nodeInfo nodeId="1327612371813188364" fileName="GraphPointLayout.java" startLine="28" startPosition="0" endLine="32" endPosition="0" />
+    <nodeInfo nodeId="1327612371813188378" fileName="GraphPointLayout.java" startLine="32" startPosition="0" endLine="36" endPosition="0" />
+    <nodeInfo nodeId="1327612371813188389" fileName="GraphPointLayout.java" startLine="36" startPosition="0" endLine="40" endPosition="0" />
+    <nodeInfo nodeId="1327612371813188404" fileName="GraphPointLayout.java" startLine="40" startPosition="0" endLine="44" endPosition="0" />
+    <nodeInfo nodeId="1327612371813188418" fileName="GraphPointLayout.java" startLine="44" startPosition="0" endLine="48" endPosition="0" />
+    <nodeInfo nodeId="1327612371813188428" fileName="GraphPointLayout.java" startLine="48" startPosition="0" endLine="52" endPosition="0" />
+    <nodeInfo nodeId="1327612371813188443" fileName="GraphPointLayout.java" startLine="52" startPosition="0" endLine="56" endPosition="0" />
+    <nodeInfo nodeId="5213231752900659915" fileName="GraphPointLayout.java" startLine="56" startPosition="0" endLine="60" endPosition="0" />
+    <nodeInfo nodeId="1327612371813188329" fileName="GraphPointLayout.java" startLine="18" startPosition="0" endLine="23" endPosition="3" />
+    <scopeInfo nodeId="1327612371813188359" fileName="GraphPointLayout.java" startLine="25" startPosition="43" endLine="26" endPosition="29" />
+    <scopeInfo nodeId="1327612371813188367" fileName="GraphPointLayout.java" startLine="29" startPosition="58" endLine="30" endPosition="35" />
+    <scopeInfo nodeId="1327612371813188384" fileName="GraphPointLayout.java" startLine="33" startPosition="49" endLine="34" endPosition="29" />
+    <scopeInfo nodeId="1327612371813188392" fileName="GraphPointLayout.java" startLine="37" startPosition="64" endLine="38" endPosition="35" />
+    <scopeInfo nodeId="1327612371813188407" fileName="GraphPointLayout.java" startLine="41" startPosition="52" endLine="42" endPosition="55" />
+    <scopeInfo nodeId="1327612371813188421" fileName="GraphPointLayout.java" startLine="45" startPosition="40" endLine="46" endPosition="55" />
+    <scopeInfo nodeId="1327612371813188431" fileName="GraphPointLayout.java" startLine="49" startPosition="59" endLine="50" endPosition="56" />
+    <scopeInfo nodeId="1327612371813188447" fileName="GraphPointLayout.java" startLine="53" startPosition="46" endLine="54" endPosition="55" />
+    <scopeInfo nodeId="5213231752900659918" fileName="GraphPointLayout.java" startLine="57" startPosition="27" endLine="58" endPosition="24" />
+    <scopeInfo nodeId="1327612371813188332" fileName="GraphPointLayout.java" startLine="19" startPosition="40" endLine="22" endPosition="73" />
+    <scopeInfo nodeId="1327612371813188354" fileName="GraphPointLayout.java" startLine="24" startPosition="0" endLine="28" endPosition="0" />
+    <scopeInfo nodeId="1327612371813188364" fileName="GraphPointLayout.java" startLine="28" startPosition="0" endLine="32" endPosition="0">
       <varInfo nodeId="1327612371813188374" varName="nodeLayout" />
     </scopeInfo>
-    <scopeInfo nodeId="1327612371813188378" fileName="GraphLayoutPoint.java" startLine="32" startPosition="0" endLine="36" endPosition="0" />
-    <scopeInfo nodeId="1327612371813188389" fileName="GraphLayoutPoint.java" startLine="36" startPosition="0" endLine="40" endPosition="0">
+    <scopeInfo nodeId="1327612371813188378" fileName="GraphPointLayout.java" startLine="32" startPosition="0" endLine="36" endPosition="0" />
+    <scopeInfo nodeId="1327612371813188389" fileName="GraphPointLayout.java" startLine="36" startPosition="0" endLine="40" endPosition="0">
       <varInfo nodeId="1327612371813188399" varName="edgeLayout" />
     </scopeInfo>
-    <scopeInfo nodeId="1327612371813188404" fileName="GraphLayoutPoint.java" startLine="40" startPosition="0" endLine="44" endPosition="0">
+    <scopeInfo nodeId="1327612371813188404" fileName="GraphPointLayout.java" startLine="40" startPosition="0" endLine="44" endPosition="0">
       <varInfo nodeId="1327612371813188416" varName="point" />
       <varInfo nodeId="1327612371813188414" varName="node" />
     </scopeInfo>
-    <scopeInfo nodeId="1327612371813188418" fileName="GraphLayoutPoint.java" startLine="44" startPosition="0" endLine="48" endPosition="0">
+    <scopeInfo nodeId="1327612371813188418" fileName="GraphPointLayout.java" startLine="44" startPosition="0" endLine="48" endPosition="0">
       <varInfo nodeId="1327612371813188426" varName="node" />
     </scopeInfo>
-    <scopeInfo nodeId="1327612371813188428" fileName="GraphLayoutPoint.java" startLine="48" startPosition="0" endLine="52" endPosition="0">
+    <scopeInfo nodeId="1327612371813188428" fileName="GraphPointLayout.java" startLine="48" startPosition="0" endLine="52" endPosition="0">
       <varInfo nodeId="1327612371813188438" varName="edge" />
       <varInfo nodeId="1327612371813188440" varName="points" />
     </scopeInfo>
-    <scopeInfo nodeId="1327612371813188443" fileName="GraphLayoutPoint.java" startLine="52" startPosition="0" endLine="56" endPosition="0">
+    <scopeInfo nodeId="1327612371813188443" fileName="GraphPointLayout.java" startLine="52" startPosition="0" endLine="56" endPosition="0">
       <varInfo nodeId="1327612371813188452" varName="edge" />
     </scopeInfo>
-    <scopeInfo nodeId="5213231752900659915" fileName="GraphLayoutPoint.java" startLine="56" startPosition="0" endLine="60" endPosition="0" />
-    <scopeInfo nodeId="1327612371813188329" fileName="GraphLayoutPoint.java" startLine="18" startPosition="0" endLine="23" endPosition="3">
+    <scopeInfo nodeId="5213231752900659915" fileName="GraphPointLayout.java" startLine="56" startPosition="0" endLine="60" endPosition="0" />
+    <scopeInfo nodeId="1327612371813188329" fileName="GraphPointLayout.java" startLine="18" startPosition="0" endLine="23" endPosition="3">
       <varInfo nodeId="1327612371813188352" varName="graph" />
     </scopeInfo>
-    <unitInfo nodeId="1327612371813188313" fileName="GraphLayoutPoint.java" startLine="14" startPosition="0" endLine="61" endPosition="0" unitName="jetbrains.mps.graphLayout.graphLayout.GraphLayoutPoint" />
+    <unitInfo nodeId="1327612371813188313" fileName="GraphPointLayout.java" startLine="14" startPosition="0" endLine="61" endPosition="0" unitName="jetbrains.mps.graphLayout.graphLayout.GraphPointLayout" />
   </root>
   <root nodeId="1327612371813208563">
     <nodeInfo nodeId="1327612371813208565" fileName="ILayouter.java" startLine="7" startPosition="28" endLine="8" endPosition="48" />
@@ -77,7 +80,9 @@
     <nodeInfo nodeId="903391227141129958" fileName="GraphLayout.java" startLine="26" startPosition="20" endLine="27" endPosition="71" />
     <nodeInfo nodeId="903391227141129965" fileName="GraphLayout.java" startLine="27" startPosition="71" endLine="28" endPosition="73" />
     <nodeInfo nodeId="1177671074986683450" fileName="GraphLayout.java" startLine="28" startPosition="73" endLine="29" endPosition="72" />
+    <nodeInfo nodeId="903391227141129852" fileName="GraphLayout.java" startLine="32" startPosition="47" endLine="33" endPosition="29" />
     <nodeInfo nodeId="903391227141129860" fileName="GraphLayout.java" startLine="36" startPosition="62" endLine="37" endPosition="35" />
+    <nodeInfo nodeId="903391227141129877" fileName="GraphLayout.java" startLine="40" startPosition="49" endLine="41" endPosition="29" />
     <nodeInfo nodeId="903391227141129885" fileName="GraphLayout.java" startLine="44" startPosition="64" endLine="45" endPosition="35" />
     <nodeInfo nodeId="903391227141129900" fileName="GraphLayout.java" startLine="48" startPosition="55" endLine="49" endPosition="54" />
     <nodeInfo nodeId="903391227141129914" fileName="GraphLayout.java" startLine="52" startPosition="44" endLine="53" endPosition="55" />
@@ -86,53 +91,48 @@
     <nodeInfo nodeId="1177671074986683460" fileName="GraphLayout.java" startLine="64" startPosition="62" endLine="65" endPosition="60" />
     <nodeInfo nodeId="1177671074986683477" fileName="GraphLayout.java" startLine="68" startPosition="46" endLine="69" endPosition="56" />
     <nodeInfo nodeId="8680836410351595556" fileName="GraphLayout.java" startLine="72" startPosition="48" endLine="73" endPosition="25" />
-    <nodeInfo nodeId="5639900666367180723" fileName="GraphLayout.java" startLine="81" startPosition="87" endLine="82" endPosition="79" />
-    <nodeInfo nodeId="5639900666367180758" fileName="GraphLayout.java" startLine="82" startPosition="79" endLine="83" endPosition="69" />
-    <nodeInfo nodeId="5639900666367187942" fileName="GraphLayout.java" startLine="83" startPosition="69" endLine="84" endPosition="121" />
-    <nodeInfo nodeId="5639900666367187963" fileName="GraphLayout.java" startLine="85" startPosition="22" endLine="86" endPosition="53" />
-    <nodeInfo nodeId="5639900666367187975" fileName="GraphLayout.java" startLine="87" startPosition="7" endLine="88" endPosition="69" />
-    <nodeInfo nodeId="5639900666367188014" fileName="GraphLayout.java" startLine="88" startPosition="69" endLine="89" endPosition="191" />
-    <nodeInfo nodeId="5639900666367188005" fileName="GraphLayout.java" startLine="90" startPosition="22" endLine="91" endPosition="91" />
-    <nodeInfo nodeId="5639900666367175081" fileName="GraphLayout.java" startLine="94" startPosition="96" endLine="95" endPosition="111" />
-    <nodeInfo nodeId="5639900666367175137" fileName="GraphLayout.java" startLine="95" startPosition="111" endLine="96" endPosition="16" />
-    <nodeInfo nodeId="5639900666367175156" fileName="GraphLayout.java" startLine="97" startPosition="55" endLine="98" endPosition="120" />
-    <nodeInfo nodeId="5639900666367175187" fileName="GraphLayout.java" startLine="99" startPosition="28" endLine="100" endPosition="61" />
-    <nodeInfo nodeId="5639900666367175210" fileName="GraphLayout.java" startLine="101" startPosition="16" endLine="102" endPosition="14" />
-    <nodeInfo nodeId="5639900666367175215" fileName="GraphLayout.java" startLine="102" startPosition="14" endLine="103" endPosition="23" />
-    <nodeInfo nodeId="5639900666367183743" fileName="GraphLayout.java" startLine="109" startPosition="63" endLine="110" endPosition="75" />
-    <nodeInfo nodeId="5639900666367187773" fileName="GraphLayout.java" startLine="110" startPosition="75" endLine="111" endPosition="29" />
-    <nodeInfo nodeId="5639900666367183754" fileName="GraphLayout.java" startLine="111" startPosition="29" endLine="112" endPosition="76" />
-    <nodeInfo nodeId="5639900666367187685" fileName="GraphLayout.java" startLine="112" startPosition="76" endLine="113" endPosition="90" />
-    <nodeInfo nodeId="5639900666367187698" fileName="GraphLayout.java" startLine="113" startPosition="90" endLine="114" endPosition="89" />
-    <nodeInfo nodeId="5639900666367187711" fileName="GraphLayout.java" startLine="114" startPosition="89" endLine="115" endPosition="103" />
-    <nodeInfo nodeId="5639900666367187866" fileName="GraphLayout.java" startLine="118" startPosition="58" endLine="119" endPosition="19" />
-    <nodeInfo nodeId="5639900666367187934" fileName="GraphLayout.java" startLine="122" startPosition="58" endLine="123" endPosition="19" />
-    <nodeInfo nodeId="5639900666367187766" fileName="GraphLayout.java" startLine="126" startPosition="5" endLine="127" endPosition="16" />
-    <nodeInfo nodeId="5639900666367310703" fileName="GraphLayout.java" startLine="130" startPosition="45" endLine="131" endPosition="33" />
-    <nodeInfo nodeId="5639900666367310709" fileName="GraphLayout.java" startLine="131" startPosition="33" endLine="132" endPosition="33" />
-    <nodeInfo nodeId="5639900666367310716" fileName="GraphLayout.java" startLine="132" startPosition="33" endLine="133" endPosition="33" />
-    <nodeInfo nodeId="5639900666367310720" fileName="GraphLayout.java" startLine="133" startPosition="33" endLine="134" endPosition="33" />
-    <nodeInfo nodeId="5639900666367310756" fileName="GraphLayout.java" startLine="135" startPosition="169" endLine="136" endPosition="36" />
-    <nodeInfo nodeId="5639900666367310778" fileName="GraphLayout.java" startLine="136" startPosition="36" endLine="137" endPosition="36" />
-    <nodeInfo nodeId="5639900666367310787" fileName="GraphLayout.java" startLine="137" startPosition="36" endLine="138" endPosition="49" />
-    <nodeInfo nodeId="5639900666367310796" fileName="GraphLayout.java" startLine="138" startPosition="49" endLine="139" endPosition="50" />
-    <nodeInfo nodeId="5639900666367310856" fileName="GraphLayout.java" startLine="142" startPosition="51" endLine="143" endPosition="35" />
-    <nodeInfo nodeId="5639900666367310864" fileName="GraphLayout.java" startLine="143" startPosition="35" endLine="144" endPosition="35" />
-    <nodeInfo nodeId="5639900666367310872" fileName="GraphLayout.java" startLine="144" startPosition="35" endLine="145" endPosition="35" />
-    <nodeInfo nodeId="5639900666367310884" fileName="GraphLayout.java" startLine="145" startPosition="35" endLine="146" endPosition="35" />
-    <nodeInfo nodeId="5639900666367310725" fileName="GraphLayout.java" startLine="148" startPosition="5" endLine="149" endPosition="63" />
-    <nodeInfo nodeId="3698135283642022693" fileName="GraphLayout.java" startLine="153" startPosition="28" endLine="154" endPosition="48" />
-    <nodeInfo nodeId="3698135283642022709" fileName="GraphLayout.java" startLine="154" startPosition="48" endLine="155" endPosition="33" />
-    <nodeInfo nodeId="3698135283642022773" fileName="GraphLayout.java" startLine="156" startPosition="87" endLine="157" endPosition="104" />
-    <nodeInfo nodeId="3698135283642022813" fileName="GraphLayout.java" startLine="159" startPosition="87" endLine="160" endPosition="104" />
-    <nodeInfo nodeId="3698135283642022700" fileName="GraphLayout.java" startLine="161" startPosition="5" endLine="162" endPosition="30" />
-    <nodeInfo nodeId="5639900666367187954" fileName="GraphLayout.java" startLine="84" startPosition="121" endLine="87" endPosition="7" />
-    <nodeInfo nodeId="5639900666367188003" fileName="GraphLayout.java" startLine="89" startPosition="191" endLine="92" endPosition="7" />
-    <nodeInfo nodeId="5639900666367175208" fileName="GraphLayout.java" startLine="101" startPosition="14" endLine="104" endPosition="9" />
-    <nodeInfo nodeId="5639900666367187795" fileName="GraphLayout.java" startLine="117" startPosition="16" endLine="120" endPosition="9" />
-    <nodeInfo nodeId="5639900666367187905" fileName="GraphLayout.java" startLine="121" startPosition="14" endLine="124" endPosition="9" />
-    <nodeInfo nodeId="3698135283642022718" fileName="GraphLayout.java" startLine="155" startPosition="33" endLine="158" endPosition="5" />
-    <nodeInfo nodeId="3698135283642022807" fileName="GraphLayout.java" startLine="158" startPosition="5" endLine="161" endPosition="5" />
+    <nodeInfo nodeId="903391227141129950" fileName="GraphLayout.java" startLine="76" startPosition="27" endLine="77" endPosition="24" />
+    <nodeInfo nodeId="1265453300920958995" fileName="GraphLayout.java" startLine="81" startPosition="87" endLine="82" endPosition="48" />
+    <nodeInfo nodeId="1265453300920959174" fileName="GraphLayout.java" startLine="84" startPosition="87" endLine="85" endPosition="37" />
+    <nodeInfo nodeId="1265453300920959109" fileName="GraphLayout.java" startLine="89" startPosition="46" endLine="90" endPosition="67" />
+    <nodeInfo nodeId="1265453300920959115" fileName="GraphLayout.java" startLine="90" startPosition="67" endLine="91" endPosition="109" />
+    <nodeInfo nodeId="1265453300920959128" fileName="GraphLayout.java" startLine="91" startPosition="109" endLine="92" endPosition="14" />
+    <nodeInfo nodeId="1265453300920959138" fileName="GraphLayout.java" startLine="93" startPosition="53" endLine="94" endPosition="118" />
+    <nodeInfo nodeId="1265453300920959155" fileName="GraphLayout.java" startLine="95" startPosition="26" endLine="96" endPosition="59" />
+    <nodeInfo nodeId="1265453300920959167" fileName="GraphLayout.java" startLine="97" startPosition="14" endLine="98" endPosition="12" />
+    <nodeInfo nodeId="1265453300920959170" fileName="GraphLayout.java" startLine="98" startPosition="12" endLine="99" endPosition="21" />
+    <nodeInfo nodeId="1265453300920958919" fileName="GraphLayout.java" startLine="104" startPosition="57" endLine="105" endPosition="77" />
+    <nodeInfo nodeId="1265453300920958926" fileName="GraphLayout.java" startLine="105" startPosition="77" endLine="106" endPosition="67" />
+    <nodeInfo nodeId="1265453300920958932" fileName="GraphLayout.java" startLine="106" startPosition="67" endLine="107" endPosition="128" />
+    <nodeInfo nodeId="1265453300920958944" fileName="GraphLayout.java" startLine="108" startPosition="20" endLine="109" endPosition="51" />
+    <nodeInfo nodeId="1265453300920958953" fileName="GraphLayout.java" startLine="110" startPosition="5" endLine="111" endPosition="67" />
+    <nodeInfo nodeId="1265453300920958961" fileName="GraphLayout.java" startLine="111" startPosition="67" endLine="112" endPosition="198" />
+    <nodeInfo nodeId="1265453300920958982" fileName="GraphLayout.java" startLine="113" startPosition="20" endLine="114" endPosition="89" />
+    <nodeInfo nodeId="5639900666367310703" fileName="GraphLayout.java" startLine="118" startPosition="45" endLine="119" endPosition="33" />
+    <nodeInfo nodeId="5639900666367310709" fileName="GraphLayout.java" startLine="119" startPosition="33" endLine="120" endPosition="33" />
+    <nodeInfo nodeId="5639900666367310716" fileName="GraphLayout.java" startLine="120" startPosition="33" endLine="121" endPosition="33" />
+    <nodeInfo nodeId="5639900666367310720" fileName="GraphLayout.java" startLine="121" startPosition="33" endLine="122" endPosition="33" />
+    <nodeInfo nodeId="5639900666367310756" fileName="GraphLayout.java" startLine="123" startPosition="169" endLine="124" endPosition="36" />
+    <nodeInfo nodeId="5639900666367310778" fileName="GraphLayout.java" startLine="124" startPosition="36" endLine="125" endPosition="36" />
+    <nodeInfo nodeId="5639900666367310787" fileName="GraphLayout.java" startLine="125" startPosition="36" endLine="126" endPosition="49" />
+    <nodeInfo nodeId="5639900666367310796" fileName="GraphLayout.java" startLine="126" startPosition="49" endLine="127" endPosition="50" />
+    <nodeInfo nodeId="5639900666367310856" fileName="GraphLayout.java" startLine="130" startPosition="51" endLine="131" endPosition="35" />
+    <nodeInfo nodeId="5639900666367310864" fileName="GraphLayout.java" startLine="131" startPosition="35" endLine="132" endPosition="35" />
+    <nodeInfo nodeId="5639900666367310872" fileName="GraphLayout.java" startLine="132" startPosition="35" endLine="133" endPosition="35" />
+    <nodeInfo nodeId="5639900666367310884" fileName="GraphLayout.java" startLine="133" startPosition="35" endLine="134" endPosition="35" />
+    <nodeInfo nodeId="5639900666367310725" fileName="GraphLayout.java" startLine="136" startPosition="5" endLine="137" endPosition="63" />
+    <nodeInfo nodeId="3698135283642022693" fileName="GraphLayout.java" startLine="141" startPosition="28" endLine="142" endPosition="48" />
+    <nodeInfo nodeId="3698135283642022709" fileName="GraphLayout.java" startLine="142" startPosition="48" endLine="143" endPosition="33" />
+    <nodeInfo nodeId="3698135283642022773" fileName="GraphLayout.java" startLine="144" startPosition="87" endLine="145" endPosition="104" />
+    <nodeInfo nodeId="3698135283642022813" fileName="GraphLayout.java" startLine="147" startPosition="87" endLine="148" endPosition="104" />
+    <nodeInfo nodeId="3698135283642022700" fileName="GraphLayout.java" startLine="149" startPosition="5" endLine="150" endPosition="30" />
+    <nodeInfo nodeId="5639900666367180698" fileName="GraphLayout.java" startLine="80" startPosition="34" endLine="83" endPosition="5" />
+    <nodeInfo nodeId="1265453300920959002" fileName="GraphLayout.java" startLine="83" startPosition="5" endLine="86" endPosition="5" />
+    <nodeInfo nodeId="1265453300920959165" fileName="GraphLayout.java" startLine="97" startPosition="12" endLine="100" endPosition="7" />
+    <nodeInfo nodeId="1265453300920958942" fileName="GraphLayout.java" startLine="107" startPosition="128" endLine="110" endPosition="5" />
+    <nodeInfo nodeId="1265453300920958980" fileName="GraphLayout.java" startLine="112" startPosition="198" endLine="115" endPosition="5" />
+    <nodeInfo nodeId="3698135283642022718" fileName="GraphLayout.java" startLine="143" startPosition="33" endLine="146" endPosition="5" />
+    <nodeInfo nodeId="3698135283642022807" fileName="GraphLayout.java" startLine="146" startPosition="5" endLine="149" endPosition="5" />
     <nodeInfo nodeId="903391227141129846" fileName="GraphLayout.java" startLine="31" startPosition="0" endLine="35" endPosition="0" />
     <nodeInfo nodeId="903391227141129856" fileName="GraphLayout.java" startLine="35" startPosition="0" endLine="39" endPosition="0" />
     <nodeInfo nodeId="903391227141129870" fileName="GraphLayout.java" startLine="39" startPosition="0" endLine="43" endPosition="0" />
@@ -145,21 +145,17 @@
     <nodeInfo nodeId="1177671074986683470" fileName="GraphLayout.java" startLine="67" startPosition="0" endLine="71" endPosition="0" />
     <nodeInfo nodeId="8680836410351595547" fileName="GraphLayout.java" startLine="71" startPosition="0" endLine="75" endPosition="0" />
     <nodeInfo nodeId="903391227141129946" fileName="GraphLayout.java" startLine="75" startPosition="0" endLine="79" endPosition="0" />
-    <nodeInfo nodeId="5639900666367187793" fileName="GraphLayout.java" startLine="121" startPosition="12" endLine="125" endPosition="7" />
     <nodeInfo nodeId="903391227141129820" fileName="GraphLayout.java" startLine="24" startPosition="0" endLine="30" endPosition="3" />
-    <nodeInfo nodeId="5639900666367175178" fileName="GraphLayout.java" startLine="98" startPosition="120" endLine="104" endPosition="9" />
-    <nodeInfo nodeId="5639900666367310746" fileName="GraphLayout.java" startLine="134" startPosition="33" endLine="140" endPosition="5" />
-    <nodeInfo nodeId="5639900666367310851" fileName="GraphLayout.java" startLine="141" startPosition="96" endLine="147" endPosition="7" />
-    <nodeInfo nodeId="5639900666367310841" fileName="GraphLayout.java" startLine="140" startPosition="5" endLine="148" endPosition="5" />
-    <nodeInfo nodeId="5639900666367175143" fileName="GraphLayout.java" startLine="96" startPosition="16" endLine="105" endPosition="7" />
-    <nodeInfo nodeId="5639900666367187769" fileName="GraphLayout.java" startLine="116" startPosition="55" endLine="125" endPosition="7" />
-    <nodeInfo nodeId="5639900666367187760" fileName="GraphLayout.java" startLine="115" startPosition="103" endLine="126" endPosition="5" />
-    <nodeInfo nodeId="5639900666367180698" fileName="GraphLayout.java" startLine="80" startPosition="34" endLine="93" endPosition="5" />
-    <nodeInfo nodeId="5639900666367175071" fileName="GraphLayout.java" startLine="93" startPosition="5" endLine="106" endPosition="5" />
-    <nodeInfo nodeId="3698135283642022552" fileName="GraphLayout.java" startLine="151" startPosition="0" endLine="164" endPosition="0" />
-    <nodeInfo nodeId="5639900666367180737" fileName="GraphLayout.java" startLine="108" startPosition="0" endLine="129" endPosition="0" />
-    <nodeInfo nodeId="5639900666367310698" fileName="GraphLayout.java" startLine="129" startPosition="0" endLine="151" endPosition="0" />
-    <nodeInfo nodeId="5639900666367175067" fileName="GraphLayout.java" startLine="79" startPosition="0" endLine="108" endPosition="0" />
+    <nodeInfo nodeId="1265453300920959153" fileName="GraphLayout.java" startLine="94" startPosition="118" endLine="100" endPosition="7" />
+    <nodeInfo nodeId="5639900666367310746" fileName="GraphLayout.java" startLine="122" startPosition="33" endLine="128" endPosition="5" />
+    <nodeInfo nodeId="5639900666367310851" fileName="GraphLayout.java" startLine="129" startPosition="96" endLine="135" endPosition="7" />
+    <nodeInfo nodeId="5639900666367310841" fileName="GraphLayout.java" startLine="128" startPosition="5" endLine="136" endPosition="5" />
+    <nodeInfo nodeId="5639900666367175067" fileName="GraphLayout.java" startLine="79" startPosition="0" endLine="88" endPosition="0" />
+    <nodeInfo nodeId="1265453300920959131" fileName="GraphLayout.java" startLine="92" startPosition="14" endLine="101" endPosition="5" />
+    <nodeInfo nodeId="3698135283642022552" fileName="GraphLayout.java" startLine="139" startPosition="0" endLine="152" endPosition="0" />
+    <nodeInfo nodeId="1265453300920958914" fileName="GraphLayout.java" startLine="103" startPosition="0" endLine="117" endPosition="0" />
+    <nodeInfo nodeId="1265453300920959104" fileName="GraphLayout.java" startLine="88" startPosition="0" endLine="103" endPosition="0" />
+    <nodeInfo nodeId="5639900666367310698" fileName="GraphLayout.java" startLine="117" startPosition="0" endLine="139" endPosition="0" />
     <scopeInfo nodeId="903391227141129851" fileName="GraphLayout.java" startLine="32" startPosition="47" endLine="33" endPosition="29" />
     <scopeInfo nodeId="903391227141129859" fileName="GraphLayout.java" startLine="36" startPosition="62" endLine="37" endPosition="35" />
     <scopeInfo nodeId="903391227141129876" fileName="GraphLayout.java" startLine="40" startPosition="49" endLine="41" endPosition="29" />
@@ -172,18 +168,18 @@
     <scopeInfo nodeId="1177671074986683473" fileName="GraphLayout.java" startLine="68" startPosition="46" endLine="69" endPosition="56" />
     <scopeInfo nodeId="8680836410351595550" fileName="GraphLayout.java" startLine="72" startPosition="48" endLine="73" endPosition="25" />
     <scopeInfo nodeId="903391227141129949" fileName="GraphLayout.java" startLine="76" startPosition="27" endLine="77" endPosition="24" />
-    <scopeInfo nodeId="5639900666367187955" fileName="GraphLayout.java" startLine="85" startPosition="22" endLine="86" endPosition="53" />
-    <scopeInfo nodeId="5639900666367188004" fileName="GraphLayout.java" startLine="90" startPosition="22" endLine="91" endPosition="91" />
-    <scopeInfo nodeId="5639900666367175179" fileName="GraphLayout.java" startLine="99" startPosition="28" endLine="100" endPosition="61" />
-    <scopeInfo nodeId="5639900666367187797" fileName="GraphLayout.java" startLine="118" startPosition="58" endLine="119" endPosition="19" />
-    <scopeInfo nodeId="5639900666367187933" fileName="GraphLayout.java" startLine="122" startPosition="58" endLine="123" endPosition="19" />
-    <scopeInfo nodeId="3698135283642022721" fileName="GraphLayout.java" startLine="156" startPosition="87" endLine="157" endPosition="104" />
-    <scopeInfo nodeId="3698135283642022812" fileName="GraphLayout.java" startLine="159" startPosition="87" endLine="160" endPosition="104" />
-    <scopeInfo nodeId="5639900666367175209" fileName="GraphLayout.java" startLine="101" startPosition="16" endLine="103" endPosition="23" />
-    <scopeInfo nodeId="5639900666367187771" fileName="GraphLayout.java" startLine="117" startPosition="16" endLine="120" endPosition="9" />
-    <scopeInfo nodeId="5639900666367187794" fileName="GraphLayout.java" startLine="121" startPosition="14" endLine="124" endPosition="9" />
-    <scopeInfo nodeId="3698135283642022718" fileName="GraphLayout.java" startLine="155" startPosition="33" endLine="158" endPosition="5" />
-    <scopeInfo nodeId="3698135283642022807" fileName="GraphLayout.java" startLine="158" startPosition="5" endLine="161" endPosition="5" />
+    <scopeInfo nodeId="5639900666367180701" fileName="GraphLayout.java" startLine="81" startPosition="87" endLine="82" endPosition="48" />
+    <scopeInfo nodeId="1265453300920959005" fileName="GraphLayout.java" startLine="84" startPosition="87" endLine="85" endPosition="37" />
+    <scopeInfo nodeId="1265453300920959154" fileName="GraphLayout.java" startLine="95" startPosition="26" endLine="96" endPosition="59" />
+    <scopeInfo nodeId="1265453300920958943" fileName="GraphLayout.java" startLine="108" startPosition="20" endLine="109" endPosition="51" />
+    <scopeInfo nodeId="1265453300920958981" fileName="GraphLayout.java" startLine="113" startPosition="20" endLine="114" endPosition="89" />
+    <scopeInfo nodeId="3698135283642022721" fileName="GraphLayout.java" startLine="144" startPosition="87" endLine="145" endPosition="104" />
+    <scopeInfo nodeId="3698135283642022812" fileName="GraphLayout.java" startLine="147" startPosition="87" endLine="148" endPosition="104" />
+    <scopeInfo nodeId="1265453300920959166" fileName="GraphLayout.java" startLine="97" startPosition="14" endLine="99" endPosition="21" />
+    <scopeInfo nodeId="5639900666367180698" fileName="GraphLayout.java" startLine="80" startPosition="34" endLine="83" endPosition="5" />
+    <scopeInfo nodeId="1265453300920959002" fileName="GraphLayout.java" startLine="83" startPosition="5" endLine="86" endPosition="5" />
+    <scopeInfo nodeId="3698135283642022718" fileName="GraphLayout.java" startLine="143" startPosition="33" endLine="146" endPosition="5" />
+    <scopeInfo nodeId="3698135283642022807" fileName="GraphLayout.java" startLine="146" startPosition="5" endLine="149" endPosition="5" />
     <scopeInfo nodeId="903391227141129823" fileName="GraphLayout.java" startLine="25" startPosition="35" endLine="29" endPosition="72" />
     <scopeInfo nodeId="903391227141129846" fileName="GraphLayout.java" startLine="31" startPosition="0" endLine="35" endPosition="0" />
     <scopeInfo nodeId="903391227141129856" fileName="GraphLayout.java" startLine="35" startPosition="0" endLine="39" endPosition="0">
@@ -216,54 +212,48 @@
     </scopeInfo>
     <scopeInfo nodeId="8680836410351595547" fileName="GraphLayout.java" startLine="71" startPosition="0" endLine="75" endPosition="0" />
     <scopeInfo nodeId="903391227141129946" fileName="GraphLayout.java" startLine="75" startPosition="0" endLine="79" endPosition="0" />
-    <scopeInfo nodeId="5639900666367310749" fileName="GraphLayout.java" startLine="135" startPosition="169" endLine="139" endPosition="50" />
-    <scopeInfo nodeId="5639900666367310854" fileName="GraphLayout.java" startLine="142" startPosition="51" endLine="146" endPosition="35" />
+    <scopeInfo nodeId="5639900666367310749" fileName="GraphLayout.java" startLine="123" startPosition="169" endLine="127" endPosition="50" />
+    <scopeInfo nodeId="5639900666367310854" fileName="GraphLayout.java" startLine="130" startPosition="51" endLine="134" endPosition="35" />
     <scopeInfo nodeId="903391227141129820" fileName="GraphLayout.java" startLine="24" startPosition="0" endLine="30" endPosition="3">
       <varInfo nodeId="903391227141129974" varName="graph" />
     </scopeInfo>
-    <scopeInfo nodeId="5639900666367310746" fileName="GraphLayout.java" startLine="134" startPosition="33" endLine="140" endPosition="5" />
-    <scopeInfo nodeId="5639900666367310844" fileName="GraphLayout.java" startLine="141" startPosition="96" endLine="147" endPosition="7" />
-    <scopeInfo nodeId="5639900666367310851" fileName="GraphLayout.java" startLine="141" startPosition="96" endLine="147" endPosition="7" />
-    <scopeInfo nodeId="5639900666367175145" fileName="GraphLayout.java" startLine="97" startPosition="55" endLine="104" endPosition="9">
-      <varInfo nodeId="5639900666367175157" varName="curVer" />
+    <scopeInfo nodeId="5639900666367175070" fileName="GraphLayout.java" startLine="80" startPosition="34" endLine="86" endPosition="5" />
+    <scopeInfo nodeId="5639900666367310746" fileName="GraphLayout.java" startLine="122" startPosition="33" endLine="128" endPosition="5" />
+    <scopeInfo nodeId="5639900666367310844" fileName="GraphLayout.java" startLine="129" startPosition="96" endLine="135" endPosition="7" />
+    <scopeInfo nodeId="5639900666367310851" fileName="GraphLayout.java" startLine="129" startPosition="96" endLine="135" endPosition="7" />
+    <scopeInfo nodeId="1265453300920959137" fileName="GraphLayout.java" startLine="93" startPosition="53" endLine="100" endPosition="7">
+      <varInfo nodeId="1265453300920959102" varName="curVer" />
     </scopeInfo>
-    <scopeInfo nodeId="5639900666367310841" fileName="GraphLayout.java" startLine="140" startPosition="5" endLine="148" endPosition="5" />
-    <scopeInfo nodeId="5639900666367187763" fileName="GraphLayout.java" startLine="116" startPosition="55" endLine="125" endPosition="7" />
-    <scopeInfo nodeId="3698135283642022555" fileName="GraphLayout.java" startLine="153" startPosition="28" endLine="162" endPosition="30">
+    <scopeInfo nodeId="5639900666367310841" fileName="GraphLayout.java" startLine="128" startPosition="5" endLine="136" endPosition="5" />
+    <scopeInfo nodeId="5639900666367175067" fileName="GraphLayout.java" startLine="79" startPosition="0" endLine="88" endPosition="0" />
+    <scopeInfo nodeId="3698135283642022555" fileName="GraphLayout.java" startLine="141" startPosition="28" endLine="150" endPosition="30">
       <varInfo nodeId="3698135283642022694" varName="builder" />
     </scopeInfo>
-    <scopeInfo nodeId="5639900666367180701" fileName="GraphLayout.java" startLine="81" startPosition="87" endLine="92" endPosition="7">
-      <varInfo nodeId="5639900666367187943" varName="p" />
-      <varInfo nodeId="5639900666367180759" varName="path" />
-      <varInfo nodeId="5639900666367180724" varName="rect" />
+    <scopeInfo nodeId="1265453300920958918" fileName="GraphLayout.java" startLine="104" startPosition="57" endLine="115" endPosition="5">
+      <varInfo nodeId="1265453300920958912" varName="p" />
+      <varInfo nodeId="1265453300920958911" varName="path" />
+      <varInfo nodeId="1265453300920958910" varName="rect" />
     </scopeInfo>
-    <scopeInfo nodeId="5639900666367175074" fileName="GraphLayout.java" startLine="94" startPosition="96" endLine="105" endPosition="7">
-      <varInfo nodeId="5639900666367175082" varName="ver" />
-      <varInfo nodeId="5639900666367175138" varName="i" />
+    <scopeInfo nodeId="1265453300920959108" fileName="GraphLayout.java" startLine="89" startPosition="46" endLine="101" endPosition="5">
+      <varInfo nodeId="1265453300920959099" varName="path" />
+      <varInfo nodeId="1265453300920959101" varName="ver" />
+      <varInfo nodeId="1265453300920959100" varName="i" />
     </scopeInfo>
-    <scopeInfo nodeId="5639900666367187760" fileName="GraphLayout.java" startLine="115" startPosition="103" endLine="126" endPosition="5" />
-    <scopeInfo nodeId="5639900666367180698" fileName="GraphLayout.java" startLine="80" startPosition="34" endLine="93" endPosition="5" />
-    <scopeInfo nodeId="5639900666367175071" fileName="GraphLayout.java" startLine="93" startPosition="5" endLine="106" endPosition="5" />
-    <scopeInfo nodeId="3698135283642022552" fileName="GraphLayout.java" startLine="151" startPosition="0" endLine="164" endPosition="0" />
-    <scopeInfo nodeId="5639900666367180740" fileName="GraphLayout.java" startLine="109" startPosition="63" endLine="127" endPosition="16">
-      <varInfo nodeId="5639900666367183744" varName="rectPoints" />
-      <varInfo nodeId="5639900666367187774" varName="ver" />
+    <scopeInfo nodeId="3698135283642022552" fileName="GraphLayout.java" startLine="139" startPosition="0" endLine="152" endPosition="0" />
+    <scopeInfo nodeId="1265453300920958914" fileName="GraphLayout.java" startLine="103" startPosition="0" endLine="117" endPosition="0">
+      <varInfo nodeId="1265453300920958913" varName="edge" />
     </scopeInfo>
-    <scopeInfo nodeId="5639900666367310701" fileName="GraphLayout.java" startLine="130" startPosition="45" endLine="149" endPosition="63">
+    <scopeInfo nodeId="1265453300920959104" fileName="GraphLayout.java" startLine="88" startPosition="0" endLine="103" endPosition="0">
+      <varInfo nodeId="1265453300920959103" varName="edge" />
+    </scopeInfo>
+    <scopeInfo nodeId="5639900666367310701" fileName="GraphLayout.java" startLine="118" startPosition="45" endLine="137" endPosition="63">
       <varInfo nodeId="5639900666367310721" varName="maxY" />
       <varInfo nodeId="5639900666367310717" varName="maxX" />
       <varInfo nodeId="5639900666367310704" varName="minX" />
       <varInfo nodeId="5639900666367310710" varName="minY" />
     </scopeInfo>
-    <scopeInfo nodeId="5639900666367180737" fileName="GraphLayout.java" startLine="108" startPosition="0" endLine="129" endPosition="0">
-      <varInfo nodeId="5639900666367180747" varName="e" />
-      <varInfo nodeId="5639900666367180744" varName="b" />
-      <varInfo nodeId="5639900666367180742" varName="rect" />
-    </scopeInfo>
-    <scopeInfo nodeId="5639900666367310698" fileName="GraphLayout.java" startLine="129" startPosition="0" endLine="151" endPosition="0" />
-    <scopeInfo nodeId="5639900666367175070" fileName="GraphLayout.java" startLine="80" startPosition="34" endLine="106" endPosition="5" />
-    <scopeInfo nodeId="5639900666367175067" fileName="GraphLayout.java" startLine="79" startPosition="0" endLine="108" endPosition="0" />
-    <unitInfo nodeId="903391227141129818" fileName="GraphLayout.java" startLine="19" startPosition="0" endLine="165" endPosition="0" unitName="jetbrains.mps.graphLayout.graphLayout.GraphLayout" />
+    <scopeInfo nodeId="5639900666367310698" fileName="GraphLayout.java" startLine="117" startPosition="0" endLine="139" endPosition="0" />
+    <unitInfo nodeId="903391227141129818" fileName="GraphLayout.java" startLine="19" startPosition="0" endLine="153" endPosition="0" unitName="jetbrains.mps.graphLayout.graphLayout.GraphLayout" />
   </root>
   <root nodeId="903391227141130350">
     <nodeInfo nodeId="903391227141130374" fileName="LayoutTransform.java" startLine="17" startPosition="79" endLine="18" endPosition="63" />

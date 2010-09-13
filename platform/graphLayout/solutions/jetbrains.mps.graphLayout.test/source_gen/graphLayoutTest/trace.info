@@ -1,5 +1,48 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <debugInfo>
+  <root nodeId="1265453300920882204">
+    <nodeInfo nodeId="1265453300920882340" fileName="GraphLayoutChecker.java" startLine="17" startPosition="54" endLine="18" endPosition="36" />
+    <nodeInfo nodeId="1265453300920882352" fileName="GraphLayoutChecker.java" startLine="19" startPosition="63" endLine="20" endPosition="60" />
+    <nodeInfo nodeId="1265453300920882365" fileName="GraphLayoutChecker.java" startLine="22" startPosition="63" endLine="23" endPosition="57" />
+    <nodeInfo nodeId="1265453300920882373" fileName="GraphLayoutChecker.java" startLine="23" startPosition="57" endLine="24" endPosition="45" />
+    <nodeInfo nodeId="1265453300920883584" fileName="GraphLayoutChecker.java" startLine="25" startPosition="5" endLine="26" endPosition="26" />
+    <nodeInfo nodeId="1265453300920883531" fileName="GraphLayoutChecker.java" startLine="29" startPosition="56" endLine="30" endPosition="36" />
+    <nodeInfo nodeId="1265453300920883543" fileName="GraphLayoutChecker.java" startLine="31" startPosition="63" endLine="32" endPosition="57" />
+    <nodeInfo nodeId="1265453300920883551" fileName="GraphLayoutChecker.java" startLine="32" startPosition="57" endLine="33" endPosition="67" />
+    <nodeInfo nodeId="1265453300920883560" fileName="GraphLayoutChecker.java" startLine="33" startPosition="67" endLine="34" endPosition="98" />
+    <nodeInfo nodeId="1265453300920883566" fileName="GraphLayoutChecker.java" startLine="34" startPosition="98" endLine="35" endPosition="67" />
+    <nodeInfo nodeId="1265453300920883575" fileName="GraphLayoutChecker.java" startLine="35" startPosition="67" endLine="36" endPosition="97" />
+    <nodeInfo nodeId="1265453300920882346" fileName="GraphLayoutChecker.java" startLine="18" startPosition="36" endLine="21" endPosition="5" />
+    <nodeInfo nodeId="1265453300920882359" fileName="GraphLayoutChecker.java" startLine="21" startPosition="5" endLine="25" endPosition="5" />
+    <nodeInfo nodeId="1265453300920883537" fileName="GraphLayoutChecker.java" startLine="30" startPosition="36" endLine="37" endPosition="5" />
+    <nodeInfo nodeId="1265453300920883527" fileName="GraphLayoutChecker.java" startLine="28" startPosition="0" endLine="39" endPosition="0" />
+    <nodeInfo nodeId="1265453300920882336" fileName="GraphLayoutChecker.java" startLine="16" startPosition="33" endLine="28" endPosition="0" />
+    <scopeInfo nodeId="1265453300920882351" fileName="GraphLayoutChecker.java" startLine="19" startPosition="63" endLine="20" endPosition="60" />
+    <scopeInfo nodeId="1265453300920882364" fileName="GraphLayoutChecker.java" startLine="22" startPosition="63" endLine="24" endPosition="45">
+      <varInfo nodeId="1265453300920882366" varName="edgeLayout" />
+    </scopeInfo>
+    <scopeInfo nodeId="1265453300920882346" fileName="GraphLayoutChecker.java" startLine="18" startPosition="36" endLine="21" endPosition="5" />
+    <scopeInfo nodeId="1265453300920882359" fileName="GraphLayoutChecker.java" startLine="21" startPosition="5" endLine="25" endPosition="5" />
+    <scopeInfo nodeId="1265453300920883542" fileName="GraphLayoutChecker.java" startLine="31" startPosition="63" endLine="36" endPosition="97">
+      <varInfo nodeId="1265453300920883567" varName="targetRect" />
+      <varInfo nodeId="1265453300920883552" varName="sourceRect" />
+      <varInfo nodeId="1265453300920883544" varName="edgeLayout" />
+    </scopeInfo>
+    <scopeInfo nodeId="1265453300920883537" fileName="GraphLayoutChecker.java" startLine="30" startPosition="36" endLine="37" endPosition="5" />
+    <scopeInfo nodeId="1265453300920883530" fileName="GraphLayoutChecker.java" startLine="29" startPosition="56" endLine="37" endPosition="5">
+      <varInfo nodeId="1265453300920883532" varName="graph" />
+    </scopeInfo>
+    <scopeInfo nodeId="1265453300920882339" fileName="GraphLayoutChecker.java" startLine="17" startPosition="54" endLine="26" endPosition="26">
+      <varInfo nodeId="1265453300920882341" varName="graph" />
+    </scopeInfo>
+    <scopeInfo nodeId="1265453300920883527" fileName="GraphLayoutChecker.java" startLine="28" startPosition="0" endLine="39" endPosition="0">
+      <varInfo nodeId="1265453300920883581" varName="layout" />
+    </scopeInfo>
+    <scopeInfo nodeId="1265453300920882336" fileName="GraphLayoutChecker.java" startLine="16" startPosition="33" endLine="28" endPosition="0">
+      <varInfo nodeId="1265453300920882377" varName="layout" />
+    </scopeInfo>
+    <unitInfo nodeId="1265453300920882204" fileName="GraphLayoutChecker.java" startLine="16" startPosition="0" endLine="40" endPosition="0" unitName="graphLayoutTest.GraphLayoutChecker" />
+  </root>
   <root nodeId="5488345258545703426">
     <nodeInfo nodeId="5488345258545703444" fileName="GraphPointLayoutChecker.java" startLine="15" startPosition="59" endLine="16" endPosition="36" />
     <nodeInfo nodeId="5488345258545703480" fileName="GraphPointLayoutChecker.java" startLine="17" startPosition="63" endLine="18" endPosition="60" />

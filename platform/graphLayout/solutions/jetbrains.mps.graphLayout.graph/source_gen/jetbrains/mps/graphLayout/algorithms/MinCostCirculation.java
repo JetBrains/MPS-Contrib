@@ -61,11 +61,13 @@ public class MinCostCirculation {
     } else {
       flow = MinCostMaxFlow.getFlow(graph, source, target, capacity, cost);
     }
-    for (Edge edge : ListSequence.fromList(source.getOutEdges())) {
-      if (MapSequence.fromMap(flow).get(edge) != MapSequence.fromMap(capacity).get(edge)) {
-        throw new RuntimeException("failed to find circulation");
+    /*
+      for (Edge edge : ListSequence.fromList(source.getOutEdges())) {
+        if (MapSequence.fromMap(flow).get(edge) != MapSequence.fromMap(capacity).get(edge)) {
+          throw new RuntimeException("failed to find circulation");
+        }
       }
-    }
+    */
     for (Edge edge : ListSequence.fromList(source.getEdges()).concat(ListSequence.fromList(target.getEdges()))) {
       MapSequence.fromMap(flow).removeKey(edge);
     }

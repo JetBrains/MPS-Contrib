@@ -1,5 +1,17 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <dependenciesRoot>
+  <dependency className="graphLayoutTest.GraphLayoutChecker" file="GraphLayoutChecker.java">
+    <classNode dependClassName="java.awt.Point" />
+    <classNode dependClassName="java.awt.Rectangle" />
+    <classNode dependClassName="java.util.List" />
+    <classNode dependClassName="jetbrains.mps.graphLayout.graph.Edge" />
+    <classNode dependClassName="jetbrains.mps.graphLayout.graph.Graph" />
+    <classNode dependClassName="jetbrains.mps.graphLayout.graph.Node" />
+    <classNode dependClassName="jetbrains.mps.graphLayout.graphLayout.GraphLayout" />
+    <classNode dependClassName="jetbrains.mps.graphLayout.util.GeomUtil" />
+    <classNode dependClassName="jetbrains.mps.internal.collections.runtime.ListSequence" />
+    <classNode dependClassName="junit.framework.Assert" />
+  </dependency>
   <dependency className="graphLayoutTest.GraphPointLayoutChecker" file="GraphPointLayoutChecker.java">
     <classNode dependClassName="java.awt.Point" />
     <classNode dependClassName="java.util.List" />

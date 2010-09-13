@@ -22,13 +22,18 @@ public class LayoutPainter {
   public void paint(GraphLayout layout, Graphics g) {
     Map<Edge, List<Point>> edgeLayout = layout.getEdgeLayout();
     for (Edge edge : SetSequence.fromSet(MapSequence.fromMap(edgeLayout).keySet())) {
-      Iterator<Point> itr = ListSequence.fromList(MapSequence.fromMap(edgeLayout).get(edge)).iterator();
+      List<Point> path = MapSequence.fromMap(edgeLayout).get(edge);
+      Iterator<Point> itr = ListSequence.fromList(path).iterator();
       Point cur = itr.next();
       while (itr.hasNext()) {
         Point next = itr.next();
         g.drawLine(cur.x, cur.y, next.x, next.y);
         cur = next;
       }
+      Point first = ListSequence.fromList(path).first();
+      g.fillOval(first.x - 2, first.y - 2, 4, 4);
+      Point last = ListSequence.fromList(path).last();
+      g.fillOval(last.x - 2, last.y - 2, 4, 4);
     }
     Map<Node, Rectangle> nodeLayout = layout.getNodeLayout();
     for (Node node : SetSequence.fromSet(MapSequence.fromMap(nodeLayout).keySet())) {

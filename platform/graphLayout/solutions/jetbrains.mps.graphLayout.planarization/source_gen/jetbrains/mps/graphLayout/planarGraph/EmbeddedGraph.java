@@ -315,13 +315,31 @@ public class EmbeddedGraph {
     if (history == null) {
       ListSequence.fromList(fullHistory).addElement(edge);
     } else {
+      Node cur = edge.getSource();
+      if (!(ListSequence.fromList(ListSequence.fromList(history).first().getAdjacentNodes()).contains(cur))) {
+        history = ListSequence.fromList(history).reversedList();
+      }
       for (Edge newEdge : ListSequence.fromList(history)) {
-        ListSequence.fromList(fullHistory).addSequence(ListSequence.fromList(findFullHistory(newEdge)));
+        List<Edge> newHistory = findFullHistory(newEdge);
+        if (!(ListSequence.fromList(ListSequence.fromList(newHistory).first().getAdjacentNodes()).contains(cur))) {
+          newHistory = ListSequence.fromList(newHistory).reversedList();
+        }
+        ListSequence.fromList(fullHistory).addSequence(ListSequence.fromList(newHistory));
+        cur = newEdge.getOpposite(cur);
       }
     }
-    if (!(ListSequence.fromList(ListSequence.fromList(fullHistory).first().getAdjacentNodes()).contains(edge.getSource()))) {
-      fullHistory = ListSequence.fromList(fullHistory).reversedList();
-    }
+    /*
+      if (history == null) {
+        ListSequence.fromList(fullHistory).addElement(edge);
+      } else {
+        for (Edge newEdge : ListSequence.fromList(history)) {
+          ListSequence.fromList(fullHistory).addSequence(ListSequence.fromList(findFullHistory(newEdge)));
+        }
+      }
+      if (!(ListSequence.fromList(ListSequence.fromList(fullHistory).first().getAdjacentNodes()).contains(edge.getSource()))) {
+        fullHistory = ListSequence.fromList(fullHistory).reversedList();
+      }
+    */
     return fullHistory;
   }
 }

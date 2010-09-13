@@ -16,13 +16,10 @@ import java.util.List;
 import jetbrains.mps.graphLayout.algorithms.MinCostMaxFlowWithPotentials;
 import jetbrains.mps.internal.collections.runtime.SetSequence;
 import jetbrains.mps.internal.collections.runtime.Sequence;
-import jetbrains.mps.baseLanguage.closures.runtime.Wrappers;
-import java.util.ArrayList;
-import jetbrains.mps.internal.collections.runtime.IWhereFilter;
 
 public class QuasiOrthogonalRepresentation {
   private static int INF = 1000000;
-  private static int SHOW_INFO = 1;
+  private static int SHOW_INFO = 0;
 
   public QuasiOrthogonalRepresentation() {
   }
@@ -95,27 +92,29 @@ public class QuasiOrthogonalRepresentation {
     Map<Node, Map<Face, Edge>> faceToNodeEdges = MapSequence.fromMap(new HashMap<Node, Map<Face, Edge>>());
     Map<Edge, Dart> tempEdgesToDart = MapSequence.fromMap(new HashMap<Edge, Dart>());
     for (Node node : ListSequence.fromList(graph.getNodes())) {
-      List<Dart> darts = embeddedGraph.getDartWithSource(node);
-      Map<Face, Node> faceNodes = MapSequence.fromMap(new HashMap<Face, Node>());
-      Map<Face, Edge> faceEdges = MapSequence.fromMap(new HashMap<Face, Edge>());
-      for (Dart dart : ListSequence.fromList(darts)) {
-        Node faceNode = network.addNode();
-        Face face = embeddedGraph.getFace(dart);
-        MapSequence.fromMap(faceNodes).put(face, faceNode);
-        Edge edge = faceNode.addEdgeTo(MapSequence.fromMap(nodeMap).get(node));
-        MapSequence.fromMap(cost).put(edge, 0);
-        MapSequence.fromMap(capacity).put(edge, 1);
-        MapSequence.fromMap(faceEdges).put(face, edge);
+      if (ListSequence.fromList(node.getEdges()).count() > 4) {
+        List<Dart> darts = embeddedGraph.getDartWithSource(node);
+        Map<Face, Node> faceNodes = MapSequence.fromMap(new HashMap<Face, Node>());
+        Map<Face, Edge> faceEdges = MapSequence.fromMap(new HashMap<Face, Edge>());
+        for (Dart dart : ListSequence.fromList(darts)) {
+          Node faceNode = network.addNode();
+          Face face = embeddedGraph.getFace(dart);
+          MapSequence.fromMap(faceNodes).put(face, faceNode);
+          Edge edge = faceNode.addEdgeTo(MapSequence.fromMap(nodeMap).get(node));
+          MapSequence.fromMap(cost).put(edge, 0);
+          MapSequence.fromMap(capacity).put(edge, 1);
+          MapSequence.fromMap(faceEdges).put(face, edge);
+        }
+        for (Dart dart : ListSequence.fromList(darts)) {
+          Face face = embeddedGraph.getFace(dart);
+          Face leftFace = embeddedGraph.getFace(embeddedGraph.getOpposite(dart));
+          Edge edge = MapSequence.fromMap(faceMap).get(leftFace).addEdgeTo(MapSequence.fromMap(faceNodes).get(face));
+          MapSequence.fromMap(cost).put(edge, 1);
+          MapSequence.fromMap(capacity).put(edge, 1);
+          MapSequence.fromMap(tempEdgesToDart).put(edge, dart);
+        }
+        MapSequence.fromMap(faceToNodeEdges).put(node, faceEdges);
       }
-      for (Dart dart : ListSequence.fromList(darts)) {
-        Face face = embeddedGraph.getFace(dart);
-        Face leftFace = embeddedGraph.getFace(embeddedGraph.getOpposite(dart));
-        Edge edge = MapSequence.fromMap(faceMap).get(leftFace).addEdgeTo(MapSequence.fromMap(faceNodes).get(face));
-        MapSequence.fromMap(cost).put(edge, 1);
-        MapSequence.fromMap(capacity).put(edge, 1);
-        MapSequence.fromMap(tempEdgesToDart).put(edge, dart);
-      }
-      MapSequence.fromMap(faceToNodeEdges).put(node, faceEdges);
     }
     /*
       for (Node node : ListSequence.fromList(graph.getNodes())) {
@@ -165,7 +164,7 @@ public class QuasiOrthogonalRepresentation {
       for (Dart dart : ListSequence.fromList(face.getDarts())) {
         Node source = dart.getSource();
         int angle = MapSequence.fromMap(flow).get(MapSequence.fromMap(dartAngleMap).get(dart)) + 1;
-        if (MapSequence.fromMap(flow).get(MapSequence.fromMap(MapSequence.fromMap(faceToNodeEdges).get(source)).get(face)) > 0) {
+        if (MapSequence.fromMap(MapSequence.fromMap(faceToNodeEdges).get(source)).get(face) != null && MapSequence.fromMap(flow).get(MapSequence.fromMap(MapSequence.fromMap(faceToNodeEdges).get(source)).get(face)) > 0) {
           angle -= 1;
         }
         MapSequence.fromMap(angles).put(dart, angle);
@@ -179,7 +178,7 @@ public class QuasiOrthogonalRepresentation {
       for (Dart dart : ListSequence.fromList(darts)) {
         Node node = dart.getSource();
         Edge edgeToNode = MapSequence.fromMap(MapSequence.fromMap(faceToNodeEdges).get(node)).get(face);
-        if (MapSequence.fromMap(flow).get(edgeToNode) > 0) {
+        if (edgeToNode != null && MapSequence.fromMap(flow).get(edgeToNode) > 0) {
           Dart dartWithBend = embeddedGraph.getOpposite(dart);
           MapSequence.fromMap(bends).put(dartWithBend, MapSequence.fromMap(bends).get(dartWithBend) + 1);
         }
@@ -235,66 +234,6 @@ public class QuasiOrthogonalRepresentation {
       System.out.println("!!! total bends number = " + totalBendsNumber);
       if (totalBendsNumber != totalCost) {
         throw new RuntimeException("total cost is not equal to bends number");
-      }
-    }
-
-  }
-
-  public static void replaceBendsByNodes(EmbeddedGraph embeddedGraph, Map<Dart, Integer> bends, Map<Dart, Integer> angles) {
-    for (Edge edge : ListSequence.fromList(embeddedGraph.getGraph().getEdges())) {
-      List<Dart> darts = embeddedGraph.getDarts(edge);
-      final Wrappers._T<Dart> dartToSplit = new Wrappers._T<Dart>(null);
-      Dart opposite = null;
-      if (MapSequence.fromMap(bends).get(ListSequence.fromList(darts).getElement(0)) > 0) {
-        dartToSplit.value = ListSequence.fromList(darts).getElement(0);
-        opposite = ListSequence.fromList(darts).getElement(1);
-      }
-      if (MapSequence.fromMap(bends).get(ListSequence.fromList(darts).getElement(1)) > 0) {
-        dartToSplit.value = ListSequence.fromList(darts).getElement(1);
-        opposite = ListSequence.fromList(darts).getElement(0);
-      }
-      if (dartToSplit.value != null) {
-        while (MapSequence.fromMap(bends).get(dartToSplit.value) > 0) {
-          List<Edge> newEdges = ListSequence.fromList(new ArrayList<Edge>());
-          final Node addedNode = embeddedGraph.splitEdge(dartToSplit.value.getEdge(), newEdges);
-          Edge first = ListSequence.fromList(newEdges).findFirst(new IWhereFilter<Edge>() {
-            public boolean accept(Edge it) {
-              return it.getOpposite(addedNode) == dartToSplit.value.getSource();
-            }
-          });
-          Edge second = ListSequence.fromList(newEdges).findFirst(new IWhereFilter<Edge>() {
-            public boolean accept(Edge it) {
-              return it.getOpposite(addedNode) == dartToSplit.value.getTarget();
-            }
-          });
-          for (Dart firstDart : ListSequence.fromList(embeddedGraph.getDarts(first))) {
-            MapSequence.fromMap(bends).put(firstDart, 0);
-            if (firstDart.getSource() == addedNode) {
-              MapSequence.fromMap(angles).put(firstDart, 3);
-            } else {
-              MapSequence.fromMap(angles).put(firstDart, MapSequence.fromMap(angles).get(dartToSplit.value));
-            }
-          }
-          Dart nextToSplit = null;
-          Dart nextOpposite = null;
-          for (Dart secondDart : ListSequence.fromList(embeddedGraph.getDarts(second))) {
-            if (secondDart.getSource() == addedNode) {
-              nextToSplit = secondDart;
-              MapSequence.fromMap(bends).put(secondDart, MapSequence.fromMap(bends).get(dartToSplit.value) - 1);
-              MapSequence.fromMap(angles).put(secondDart, 1);
-            } else {
-              nextOpposite = secondDart;
-              MapSequence.fromMap(bends).put(secondDart, 0);
-              MapSequence.fromMap(angles).put(secondDart, MapSequence.fromMap(angles).get(opposite));
-            }
-          }
-          MapSequence.fromMap(bends).removeKey(dartToSplit.value);
-          MapSequence.fromMap(angles).removeKey(dartToSplit.value);
-          MapSequence.fromMap(bends).removeKey(opposite);
-          MapSequence.fromMap(angles).removeKey(opposite);
-          dartToSplit.value = nextToSplit;
-          opposite = nextOpposite;
-        }
       }
     }
   }

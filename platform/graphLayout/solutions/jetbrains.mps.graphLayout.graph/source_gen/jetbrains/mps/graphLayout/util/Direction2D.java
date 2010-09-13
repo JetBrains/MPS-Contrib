@@ -4,12 +4,17 @@ package jetbrains.mps.graphLayout.util;
 
 
 public enum Direction2D {
-  RIGHT(),
-  DOWN(),
-  LEFT(),
-  UP();
+  RIGHT(1, 0),
+  DOWN(0, -1),
+  LEFT(-1, 0),
+  UP(0, 1);
 
-  Direction2D() {
+  private int myDx;
+  private int myDy;
+
+  Direction2D(int dx, int dy) {
+    myDx = dx;
+    myDy = dy;
   }
 
   public Direction2D turnClockwise(int angle) {
@@ -39,11 +44,29 @@ public enum Direction2D {
   }
 
   public boolean isHorizontal() {
-    return this == Direction2D.RIGHT || this == Direction2D.LEFT;
+    return myDx != 0;
+
+  }
+
+  public int dx() {
+    return myDx;
+  }
+
+  public int dy() {
+    return myDy;
   }
 
   public static Direction2D get(int intDirection) {
     return Direction2D.values()[intDirection];
+  }
+
+  public static Direction2D getByShifts(int dx, int dy) {
+    for (Direction2D dir : Direction2D.values()) {
+      if (dir.dx() == dx && dir.dy() == dy) {
+        return dir;
+      }
+    }
+    return null;
   }
 
   static {

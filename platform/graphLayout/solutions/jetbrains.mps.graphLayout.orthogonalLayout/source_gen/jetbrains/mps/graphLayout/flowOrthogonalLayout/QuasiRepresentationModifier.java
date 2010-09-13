@@ -7,35 +7,40 @@ import jetbrains.mps.graphLayout.planarGraph.EmbeddedGraph;
 import java.util.Map;
 import jetbrains.mps.graphLayout.planarGraph.Dart;
 import java.util.List;
+import jetbrains.mps.graphLayout.graph.Edge;
 import jetbrains.mps.graphLayout.graph.Node;
 import jetbrains.mps.internal.collections.runtime.ListSequence;
+import jetbrains.mps.internal.collections.runtime.backports.LinkedList;
+import jetbrains.mps.internal.collections.runtime.MapSequence;
+import java.util.HashMap;
 import java.util.ArrayList;
 import java.util.Iterator;
 import java.util.Set;
 import jetbrains.mps.internal.collections.runtime.SetSequence;
 import java.util.HashSet;
-import jetbrains.mps.internal.collections.runtime.MapSequence;
-import jetbrains.mps.internal.collections.runtime.backports.LinkedList;
 import jetbrains.mps.baseLanguage.closures.runtime.Wrappers;
-import jetbrains.mps.graphLayout.graph.Edge;
 import jetbrains.mps.internal.collections.runtime.IWhereFilter;
 import jetbrains.mps.graphLayout.planarGraph.Face;
-import java.util.HashMap;
 
 public class QuasiRepresentationModifier {
   private Graph myGraph;
   private EmbeddedGraph myEmbeddedGraph;
   private Map<Dart, Integer> myAngles;
   private Map<Dart, Integer> myBends;
+  private List<List<Edge>> myModifiedEdges;
+  private List<Node> myModificationSources;
 
   public QuasiRepresentationModifier(EmbeddedGraph embeddedGraph, Map<Dart, Integer> bends, Map<Dart, Integer> angles) {
     myGraph = embeddedGraph.getGraph();
     myEmbeddedGraph = embeddedGraph;
     myAngles = angles;
     myBends = bends;
+    myModifiedEdges = ListSequence.fromList(new LinkedList<List<Edge>>());
+    myModificationSources = ListSequence.fromList(new LinkedList<Node>());
   }
 
   public void reduceToOrthogonalRepresentation() {
+    Map<Edge, Edge> edgeTransform = MapSequence.fromMap(new HashMap<Edge, Edge>());
     List<Node> initialNodes = ListSequence.fromList(new ArrayList<Node>());
     ListSequence.fromList(initialNodes).addSequence(ListSequence.fromList(myGraph.getNodes()));
     for (final Node node : ListSequence.fromList(initialNodes)) {
@@ -51,14 +56,31 @@ public class QuasiRepresentationModifier {
             ListSequence.fromList(sameDirectionDarts).addElement(curDart);
             curDart = dartItr.next();
           }
+
+          List<Edge> modifiedEdges = ListSequence.fromList(new LinkedList<Edge>());
+          for (Dart dart : ListSequence.fromList(sameDirectionDarts)) {
+            Edge edge = dart.getEdge();
+            if (MapSequence.fromMap(edgeTransform).containsKey(edge)) {
+              edge = MapSequence.fromMap(edgeTransform).get(edge);
+            }
+            ListSequence.fromList(modifiedEdges).addElement(edge);
+          }
+          Edge edge = curDart.getEdge();
+          if (MapSequence.fromMap(edgeTransform).containsKey(edge)) {
+            edge = MapSequence.fromMap(edgeTransform).get(edge);
+          }
+          ListSequence.fromList(modifiedEdges).addElement(edge);
+          ListSequence.fromList(myModifiedEdges).addElement(modifiedEdges);
+          ListSequence.fromList(myModificationSources).addElement(node);
+
           final Wrappers._T<Edge> curEdge = new Wrappers._T<Edge>(curDart.getEdge());
           for (Dart dart : ListSequence.fromList(sameDirectionDarts).reversedList()) {
             SetSequence.fromSet(removed).addElement(curDart);
             SetSequence.fromSet(removed).addElement(myEmbeddedGraph.getOpposite(curDart));
             Dart backCurDart = myEmbeddedGraph.getOpposite(curDart);
-            List<Edge> newEdges = ListSequence.fromList(new ArrayList<Edge>());
-            Node newNode = myEmbeddedGraph.splitEdge(curEdge.value, newEdges);
-            Edge nextEdge = ListSequence.fromList(newEdges).findFirst(new IWhereFilter<Edge>() {
+            List<Edge> edgesFromSplit = ListSequence.fromList(new ArrayList<Edge>());
+            Node newNode = myEmbeddedGraph.splitEdge(curEdge.value, edgesFromSplit);
+            Edge nextEdge = ListSequence.fromList(edgesFromSplit).findFirst(new IWhereFilter<Edge>() {
               public boolean accept(Edge it) {
                 return ListSequence.fromList(it.getAdjacentNodes()).contains(node);
               }
@@ -71,11 +93,14 @@ public class QuasiRepresentationModifier {
             MapSequence.fromMap(myAngles).put(tempDart, 1);
             MapSequence.fromMap(myBends).put(tempDart, 0);
 
-            Edge anotherEdge = ListSequence.fromList(newEdges).findFirst(new IWhereFilter<Edge>() {
+            Edge anotherEdge = ListSequence.fromList(edgesFromSplit).findFirst(new IWhereFilter<Edge>() {
               public boolean accept(Edge it) {
                 return ListSequence.fromList(it.getAdjacentNodes()).contains(curEdge.value.getOpposite(node));
               }
             });
+            if (dart == ListSequence.fromList(sameDirectionDarts).last()) {
+              MapSequence.fromMap(edgeTransform).put(anotherEdge, curEdge.value);
+            }
             tempDart = myEmbeddedGraph.getSourceDart(anotherEdge, newNode);
             MapSequence.fromMap(myAngles).put(tempDart, 2);
             MapSequence.fromMap(myBends).put(tempDart, MapSequence.fromMap(myBends).get(curDart));
@@ -94,6 +119,7 @@ public class QuasiRepresentationModifier {
             face.makeEndsWith(node);
             oldEdge.removeFromGraph();
             Edge newEdge = newNode.addEdgeTo(oldEdge.getOpposite(node));
+            MapSequence.fromMap(edgeTransform).put(newEdge, oldEdge);
             Dart lastFaceDart = ListSequence.fromList(face.getDarts()).last();
             myEmbeddedGraph.removeDart(face, lastFaceDart);
             Dart frontNewDart = new Dart(newEdge, newNode);
@@ -107,6 +133,10 @@ public class QuasiRepresentationModifier {
             myEmbeddedGraph.insertDart(anotherFace, ListSequence.fromList(anotherFace.getDarts()).count(), lastFaceDart);
             MapSequence.fromMap(myAngles).put(backNewDart, MapSequence.fromMap(myAngles).get(backOldDart));
             MapSequence.fromMap(myBends).put(backNewDart, MapSequence.fromMap(myBends).get(backOldDart) - 1);
+
+            List<Edge> historyEdges = ListSequence.fromListAndArray(new ArrayList<Edge>(), nextEdge, newEdge);
+            myEmbeddedGraph.setEdgesHistory(oldEdge, historyEdges);
+
             curEdge.value = nextEdge;
             curDart = myEmbeddedGraph.getSourceDart(curEdge.value, node);
           }
@@ -152,161 +182,11 @@ public class QuasiRepresentationModifier {
     return darts;
   }
 
-  public EmbeddedGraph reduceToOrthogonalRepresentation(Map<Dart, Integer> newBendMap, Map<Edge, Integer> newAnglesMap) {
-    Graph representationGraph = new Graph();
-    Map<Node, Node> nodeMap = MapSequence.fromMap(new HashMap<Node, Node>());
-    Map<Edge, Edge> edgeMap = MapSequence.fromMap(new HashMap<Edge, Edge>());
-    Map<Edge, List<Edge>> longEdges = MapSequence.fromMap(new HashMap<Edge, List<Edge>>());
-    for (Node node : ListSequence.fromList(myGraph.getNodes())) {
-      MapSequence.fromMap(nodeMap).put(node, representationGraph.addNode());
-    }
-    Set<Edge> reduced = SetSequence.fromSet(new HashSet<Edge>());
-    for (Node node : ListSequence.fromList(myGraph.getNodes())) {
-      List<Dart> darts = myEmbeddedGraph.getDartWithSource(node);
-      List<Dart> sortedDarts = ListSequence.fromList(new LinkedList<Dart>());
-      Dart curDart = ListSequence.fromList(darts).first();
-      while (ListSequence.fromList(sortedDarts).count() != ListSequence.fromList(darts).count()) {
-        ListSequence.fromList(sortedDarts).addElement(curDart);
-        Face curFace = myEmbeddedGraph.getFace(curDart);
-        for (Dart dart : ListSequence.fromList(darts)) {
-          Dart opposite = myEmbeddedGraph.getOpposite(dart);
-          if (myEmbeddedGraph.getFace(opposite) == curFace) {
-            curDart = dart;
-            break;
-          }
-        }
-      }
-      darts = sortedDarts;
-      boolean hasZeroAngles = false;
-      for (Dart dart : ListSequence.fromList(darts)) {
-        if (MapSequence.fromMap(myAngles).get(dart) == 0) {
-          hasZeroAngles = true;
-        }
-      }
-      if (hasZeroAngles) {
-        while (MapSequence.fromMap(myAngles).get(ListSequence.fromList(darts).first()) != 0) {
-          ListSequence.fromList(darts).addElement(ListSequence.fromList(darts).removeElementAt(0));
-        }
-        while (MapSequence.fromMap(myAngles).get(ListSequence.fromList(darts).last()) == 0) {
-          ListSequence.fromList(darts).insertElement(0, ListSequence.fromList(darts).removeLastElement());
-        }
-      }
-      Iterator<Dart> dartItr = ListSequence.fromList(darts).iterator();
-      while (dartItr.hasNext()) {
-        curDart = dartItr.next();
-        if (MapSequence.fromMap(myAngles).get(curDart) == 0) {
-          List<Dart> sameDirectionDarts = ListSequence.fromList(new LinkedList<Dart>());
-          while (MapSequence.fromMap(myAngles).get(curDart) == 0) {
-            ListSequence.fromList(sameDirectionDarts).addElement(curDart);
-            curDart = dartItr.next();
-          }
-          Node curNode = MapSequence.fromMap(nodeMap).get(node);
-          List<Edge> edgeList = ListSequence.fromList(new LinkedList<Edge>());
-          for (Dart dart : ListSequence.fromList(sameDirectionDarts)) {
-            Edge edgeToReduce = dart.getEdge();
-            if (SetSequence.fromSet(reduced).contains(edgeToReduce)) {
-              throw new RuntimeException("found edge with two reduced ends: " + edgeToReduce);
-            } else {
-              SetSequence.fromSet(reduced).addElement(edgeToReduce);
-            }
-            Node tempNode = representationGraph.addNode();
-            ListSequence.fromList(edgeList).addElement(curNode.addEdgeTo(tempNode));
-            replaceEdge(dart, tempNode, edgeMap, nodeMap);
-            curNode = tempNode;
-          }
-          Edge edgeToReduce = curDart.getEdge();
-          if (SetSequence.fromSet(reduced).contains(edgeToReduce)) {
-            throw new RuntimeException("found edge with two reduced ends: " + edgeToReduce);
-          } else {
-            SetSequence.fromSet(reduced).addElement(edgeToReduce);
-          }
-          replaceEdge(curDart, curNode, edgeMap, nodeMap);
-          MapSequence.fromMap(longEdges).put(curDart.getEdge(), edgeList);
-        } else {
-          Edge edge = curDart.getEdge();
-          if (!(MapSequence.fromMap(edgeMap).containsKey(edge))) {
-            if (edge.getSource() == node) {
-              MapSequence.fromMap(edgeMap).put(edge, MapSequence.fromMap(nodeMap).get(node).addEdgeTo(MapSequence.fromMap(nodeMap).get(curDart.getTarget())));
-            } else {
-              MapSequence.fromMap(edgeMap).put(edge, MapSequence.fromMap(nodeMap).get(curDart.getTarget()).addEdgeTo(MapSequence.fromMap(nodeMap).get(node)));
-            }
-          }
-        }
-      }
-    }
-    /*
-      System.out.println(edgeMap);
-      System.out.println(longEdges);
-    */
-    return getEmbeddedGraph(representationGraph, edgeMap, longEdges);
+  public List<List<Edge>> getModifiedEdges() {
+    return myModifiedEdges;
   }
 
-  private Edge replaceEdge(Dart dart, Node newSource, Map<Edge, Edge> edgeMap, Map<Node, Node> nodeMap) {
-    Edge edge = dart.getEdge();
-    Node opposite;
-    if (MapSequence.fromMap(edgeMap).containsKey(edge)) {
-      opposite = MapSequence.fromMap(edgeMap).get(edge).getSource();
-    } else {
-      opposite = MapSequence.fromMap(nodeMap).get(dart.getEdge().getOpposite(dart.getSource()));
-    }
-    if (edge.getSource() == dart.getSource()) {
-      MapSequence.fromMap(edgeMap).put(edge, newSource.addEdgeTo(opposite));
-    } else {
-      MapSequence.fromMap(edgeMap).put(edge, opposite.addEdgeTo(newSource));
-    }
-    return MapSequence.fromMap(edgeMap).get(edge);
-  }
-
-  private EmbeddedGraph getEmbeddedGraph(Graph representationGraph, Map<Edge, Edge> edgeMap, Map<Edge, List<Edge>> longEdges) {
-    EmbeddedGraph representationEmbeddedGraph = new EmbeddedGraph(representationGraph);
-    for (Face face : ListSequence.fromList(myEmbeddedGraph.getFaces())) {
-      Face newFace = new Face(representationGraph);
-      Node last = null;
-      for (Dart dart : ListSequence.fromList(face.getDarts())) {
-        Edge edge = dart.getEdge();
-        Edge newEdge = MapSequence.fromMap(edgeMap).get(edge);
-        Node newDartSource;
-        if (dart.getSource() == edge.getSource()) {
-          newDartSource = newEdge.getSource();
-        } else {
-          newDartSource = newEdge.getTarget();
-        }
-        connectIfNeed(last, newDartSource, newFace, longEdges, edge);
-        Dart newDart = new Dart(newEdge, newDartSource);
-        newFace.addLast(newDart);
-        last = newDart.getTarget();
-      }
-      Node first = ListSequence.fromList(newFace.getDarts()).first().getSource();
-      connectIfNeed(last, first, newFace, longEdges, ListSequence.fromList(face.getDarts()).first().getEdge());
-      representationEmbeddedGraph.addFace(newFace);
-      if (myEmbeddedGraph.isOuterFace(face)) {
-        representationEmbeddedGraph.setOuterFace(newFace);
-      }
-    }
-    return representationEmbeddedGraph;
-  }
-
-  private void connectIfNeed(final Node source, final Node target, Face newFace, Map<Edge, List<Edge>> longEdges, Edge oldEdge) {
-    if (source != null && source != target) {
-      Edge middleEdge = ListSequence.fromList(source.getEdges()).findFirst(new IWhereFilter<Edge>() {
-        public boolean accept(Edge it) {
-          return it.getOpposite(source) == target;
-        }
-      });
-      if (middleEdge == null) {
-        List<Edge> edges = MapSequence.fromMap(longEdges).get(oldEdge);
-        Node cur = source;
-        if (!(ListSequence.fromList(ListSequence.fromList(edges).first().getAdjacentNodes()).contains(source))) {
-          edges = ListSequence.fromList(edges).reversedList();
-        }
-        for (Edge edge : ListSequence.fromList(edges)) {
-          newFace.addLast(new Dart(edge, cur));
-          cur = edge.getOpposite(cur);
-        }
-      } else {
-        Dart middleDart = new Dart(middleEdge, source);
-        newFace.addLast(middleDart);
-      }
-    }
+  public List<Node> getModificationSources() {
+    return myModificationSources;
   }
 }

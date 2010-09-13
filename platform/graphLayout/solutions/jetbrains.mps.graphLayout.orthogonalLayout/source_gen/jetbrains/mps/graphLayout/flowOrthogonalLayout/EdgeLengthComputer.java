@@ -17,7 +17,7 @@ import jetbrains.mps.internal.collections.runtime.IWhereFilter;
 import jetbrains.mps.graphLayout.algorithms.MinCostCirculation;
 
 public class EdgeLengthComputer {
-  private static int SHOW_INFO = 1;
+  private static int SHOW_INFO = 0;
   private static int UNIT_LENGTH = 3;
 
   private int myUnitLength;
@@ -63,7 +63,9 @@ public class EdgeLengthComputer {
     Node source = network.addNode();
     Node target = network.addNode();
     for (Face face : ListSequence.fromList(embeddedGraph.getFaces())) {
-      MapSequence.fromMap(faceMap).put(face, network.addNode());
+      if (!(embeddedGraph.isOuterFace(face))) {
+        MapSequence.fromMap(faceMap).put(face, network.addNode());
+      }
     }
     Map<Edge, Integer> low = MapSequence.fromMap(new HashMap<Edge, Integer>());
     Map<Edge, Integer> capacity = MapSequence.fromMap(new HashMap<Edge, Integer>());

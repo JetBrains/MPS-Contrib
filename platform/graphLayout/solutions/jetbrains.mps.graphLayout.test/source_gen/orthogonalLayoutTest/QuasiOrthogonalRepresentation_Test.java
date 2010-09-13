@@ -14,9 +14,14 @@ import jetbrains.mps.graphLayout.planarGraph.Dart;
 import jetbrains.mps.internal.collections.runtime.MapSequence;
 import java.util.HashMap;
 import jetbrains.mps.graphLayout.flowOrthogonalLayout.QuasiOrthogonalRepresentation;
+import java.util.Set;
+import jetbrains.mps.graphLayout.graph.Edge;
+import jetbrains.mps.internal.collections.runtime.SetSequence;
+import java.util.HashSet;
+import jetbrains.mps.internal.collections.runtime.ListSequence;
 import jetbrains.mps.graphLayout.flowOrthogonalLayout.QuasiRepresentationModifier;
 import jetbrains.mps.graphLayout.graph.Node;
-import jetbrains.mps.internal.collections.runtime.ListSequence;
+import java.util.List;
 import jetbrains.mps.graphLayout.planarGraph.CheckEmbeddedGraph;
 
 public class QuasiOrthogonalRepresentation_Test extends TestCase {
@@ -77,6 +82,8 @@ public class QuasiOrthogonalRepresentation_Test extends TestCase {
     Map<Dart, Integer> bends = MapSequence.fromMap(new HashMap<Dart, Integer>());
     Map<Dart, Integer> angles = MapSequence.fromMap(new HashMap<Dart, Integer>());
     QuasiOrthogonalRepresentation.getRepresentation(embeddedGraph, bends, angles);
+    Set<Edge> oldEdges = SetSequence.fromSet(new HashSet<Edge>());
+    SetSequence.fromSet(oldEdges).addSequence(ListSequence.fromList(graph.getEdges()));
     OrthogonalRepresentationChecker.checkOrthogonalRepresentation(graph, bends, angles, 0);
     new QuasiRepresentationModifier(embeddedGraph, bends, angles).reduceToOrthogonalRepresentation();
     System.out.println(embeddedGraph);
@@ -84,6 +91,12 @@ public class QuasiOrthogonalRepresentation_Test extends TestCase {
       System.out.println("node " + node);
       for (Dart dart : ListSequence.fromList(embeddedGraph.getDartWithSource(node))) {
         System.out.println(dart + " angle = " + MapSequence.fromMap(angles).get(dart) + ", bends = " + MapSequence.fromMap(bends).get(dart) + ", opposite bends = " + MapSequence.fromMap(bends).get(embeddedGraph.getOpposite(dart)));
+      }
+    }
+    for (Edge edge : SetSequence.fromSet(oldEdges)) {
+      List<Edge> history = embeddedGraph.findFullHistory(edge);
+      if (ListSequence.fromList(history).count() > 1) {
+        System.out.println("edge " + edge + " -> " + history);
       }
     }
     CheckEmbeddedGraph.checkEmbeddedGraph(embeddedGraph);

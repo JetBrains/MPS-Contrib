@@ -15,8 +15,8 @@ import java.io.PrintWriter;
 import visualization.GraphIO;
 import jetbrains.mps.graphLayout.graphLayout.GraphPointLayout;
 
-public class OrthogonalFlowStressTest {
-  public OrthogonalFlowStressTest() {
+public class OrthogonalPointFlowLayouterStressTest {
+  public OrthogonalPointFlowLayouterStressTest() {
   }
 
   public static void main(String[] args) throws Exception {

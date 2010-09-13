@@ -13,8 +13,8 @@ import jetbrains.mps.internal.collections.runtime.MapSequence;
 import java.util.HashMap;
 import jetbrains.mps.internal.collections.runtime.SetSequence;
 import jetbrains.mps.internal.collections.runtime.ListSequence;
+import jetbrains.mps.graphLayout.util.GeomUtil;
 import jetbrains.mps.internal.collections.runtime.Sequence;
-import java.util.ArrayList;
 
 public class GraphLayout {
   private Graph myGraph;
@@ -79,52 +79,40 @@ public class GraphLayout {
 
   public void refineEdgeLayout() {
     for (Edge edge : SetSequence.fromSet(MapSequence.fromMap(myEdgeLayout).keySet())) {
-      Rectangle rect = MapSequence.fromMap(myNodeLayout).get(edge.getSource());
-      List<Point> path = MapSequence.fromMap(myEdgeLayout).get(edge);
-      Point p = moveToBorder(rect, ListSequence.fromList(path).getElement(0), ListSequence.fromList(path).getElement(1));
-      if (p != null) {
-        ListSequence.fromList(path).setElement(0, p);
-      }
-      rect = MapSequence.fromMap(myNodeLayout).get(edge.getTarget());
-      p = moveToBorder(rect, ListSequence.fromList(path).getElement(ListSequence.fromList(path).count() - 1), ListSequence.fromList(path).getElement(ListSequence.fromList(path).count() - 2));
-      if (p != null) {
-        ListSequence.fromList(path).setElement(ListSequence.fromList(path).count() - 1, p);
-      }
+      this.shiftEdgeLayoutAlongEndsBorder(edge);
     }
-    for (List<Point> path : Sequence.fromIterable(MapSequence.fromMap(myEdgeLayout).values())) {
-      boolean ver = ListSequence.fromList(path).getElement(0).x == ListSequence.fromList(path).getElement(1).x;
-      int i = 2;
-      while (i < ListSequence.fromList(path).count()) {
-        boolean curVer = ListSequence.fromList(path).getElement(i - 1).x == ListSequence.fromList(path).getElement(i).x;
-        if (curVer == ver) {
-          ListSequence.fromList(path).removeElementAt(i - 1);
-        } else {
-          i++;
-          ver = curVer;
-        }
+    for (Edge edge : SetSequence.fromSet(MapSequence.fromMap(myEdgeLayout).keySet())) {
+      this.removeStraightBends(edge);
+    }
+  }
+
+  public void removeStraightBends(Edge edge) {
+    List<Point> path = MapSequence.fromMap(myEdgeLayout).get(edge);
+    boolean ver = ListSequence.fromList(path).getElement(0).x == ListSequence.fromList(path).getElement(1).x;
+    int i = 2;
+    while (i < ListSequence.fromList(path).count()) {
+      boolean curVer = ListSequence.fromList(path).getElement(i - 1).x == ListSequence.fromList(path).getElement(i).x;
+      if (curVer == ver) {
+        ListSequence.fromList(path).removeElementAt(i - 1);
+      } else {
+        i++;
+        ver = curVer;
       }
     }
   }
 
-  public Point moveToBorder(Rectangle rect, Point b, Point e) {
-    List<Point> rectPoints = ListSequence.fromList(new ArrayList<Point>());
-    boolean ver = b.x == e.x;
-    ListSequence.fromList(rectPoints).addElement(new Point(rect.x, rect.y));
-    ListSequence.fromList(rectPoints).addElement(new Point(rect.x, rect.y + rect.height));
-    ListSequence.fromList(rectPoints).addElement(new Point(rect.x + rect.width, rect.y));
-    ListSequence.fromList(rectPoints).addElement(new Point(rect.x + rect.width, rect.y + rect.height));
-    for (Point p : ListSequence.fromList(rectPoints)) {
-      if (ver) {
-        if (p.x == b.x && (p.y - b.y) * (p.y - e.y) < 0) {
-          return p;
-        }
-      } else {
-        if (p.y == b.y && (p.x - b.x) * (p.x - e.x) < 0) {
-          return p;
-        }
-      }
+  public void shiftEdgeLayoutAlongEndsBorder(Edge edge) {
+    Rectangle rect = MapSequence.fromMap(myNodeLayout).get(edge.getSource());
+    List<Point> path = MapSequence.fromMap(myEdgeLayout).get(edge);
+    Point p = GeomUtil.moveToBorder(rect, ListSequence.fromList(path).getElement(0), ListSequence.fromList(path).getElement(1));
+    if (p != null) {
+      ListSequence.fromList(path).setElement(0, p);
     }
-    return null;
+    rect = MapSequence.fromMap(myNodeLayout).get(edge.getTarget());
+    p = GeomUtil.moveToBorder(rect, ListSequence.fromList(path).getElement(ListSequence.fromList(path).count() - 1), ListSequence.fromList(path).getElement(ListSequence.fromList(path).count() - 2));
+    if (p != null) {
+      ListSequence.fromList(path).setElement(ListSequence.fromList(path).count() - 1, p);
+    }
   }
 
   public Rectangle getContainingRectangle() {
