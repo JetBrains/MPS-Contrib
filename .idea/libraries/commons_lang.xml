@@ -1,11 +1,9 @@
 <component name="libraryTable">
   <library name="commons-lang">
     <CLASSES>
-      <root url="jar://$PROJECT_DIR$/lib/commons-lang/commons-lang-2.1.jar!/" />
+      <root url="jar://$PROJECT_DIR$/lib/commons-lang-2.4.jar!/" />
     </CLASSES>
     <JAVADOC />
-    <SOURCES>
-      <root url="jar://$PROJECT_DIR$/lib/commons-lang/commons-lang-2.1-src.zip!/commons-lang-2.1/src/java" />
-    </SOURCES>
+    <SOURCES />
   </library>
 </component>
