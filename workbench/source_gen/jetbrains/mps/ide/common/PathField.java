@@ -127,7 +127,7 @@ public class PathField extends JPanel {
     }
     IFile result = chooser.showDialog();
     if (result != null) {
-      myThis.setPath(result.getPath());
+      myThis.setPath(result.getAbsolutePath());
     }
   }
 
