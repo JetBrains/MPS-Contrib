@@ -26,7 +26,7 @@ import jetbrains.mps.nodeEditor.BlockCells;
 import jetbrains.mps.project.IModule;
 import jetbrains.mps.lang.structure.editor.EditorUtil;
 import jetbrains.mps.plugins.MacrosUtil;
-import jetbrains.mps.vfs.FileSystem;
+import jetbrains.mps.vfs.OldFileSystem;
 import javax.swing.JComponent;
 
 public class RunConfigurationTypeDeclaration_Editor extends DefaultNodeEditor {
@@ -324,7 +324,7 @@ public class RunConfigurationTypeDeclaration_Editor extends DefaultNodeEditor {
     if (module != null) {
       path = MacrosUtil.expandPath(SPropertyOperations.getString(node, "iconPath"), module.getModuleFqName());
     }
-    return path != null && FileSystem.getFile(path).exists();
+    return path != null && OldFileSystem.getFile(path).exists();
   }
 
   private static boolean renderingCondition_wgm1kr_a2a(SNode node, EditorContext editorContext, IScope scope) {
