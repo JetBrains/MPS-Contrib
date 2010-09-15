@@ -5,7 +5,7 @@ package jetbrains.mps.ide.common;
 import jetbrains.mps.ide.ui.filechoosers.treefilechooser.TreeFileChooser;
 import jetbrains.mps.internal.collections.runtime.ListSequence;
 import jetbrains.mps.uiLanguage.runtime.events.Events;
-import jetbrains.mps.vfs.OldFileSystem;
+import jetbrains.mps.vfs.FileSystem;
 import jetbrains.mps.vfs.IFile;
 import org.jdesktop.beansbinding.AutoBinding;
 import org.jdesktop.beansbinding.BeanProperty;
@@ -124,7 +124,7 @@ public class PathField extends JPanel {
     TreeFileChooser chooser = new TreeFileChooser();
     chooser.setMode(myThis.getMode());
     if (oldPath != null) {
-      chooser.setInitialFile(OldFileSystem.getFile(oldPath));
+      chooser.setInitialFile(FileSystem.getInstance().getFileByPath(oldPath));
     }
     IFile result = chooser.showDialog();
     if (result != null) {
