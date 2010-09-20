@@ -46,7 +46,7 @@
   <languageAspect modelUID="r:00000000-0000-4000-0000-011c8959034b(jetbrains.mps.lang.quotation.structure)" version="0" />
   <languageAspect modelUID="r:00000000-0000-4000-0000-011c895903ac(jetbrains.mps.baseLanguageInternal.structure)" version="1" />
   <languageAspect modelUID="r:309aeee7-bee8-445c-b31d-35928d1da75f(jetbrains.mps.baseLanguage.tuples.structure)" version="2" />
-  <maxImportIndex value="45" />
+  <maxImportIndex value="47" />
   <import index="2" modelUID="f:java_stub#com.intellij.execution.configurations(com.intellij.execution.configurations@java_stub)" version="-1" />
   <import index="3" modelUID="f:java_stub#jetbrains.mps.ide.icons(jetbrains.mps.ide.icons@java_stub)" version="-1" />
   <import index="4" modelUID="f:java_stub#java.lang(java.lang@java_stub)" version="-1" />
@@ -86,6 +86,7 @@
   <import index="43" modelUID="r:82f15792-6966-47aa-8004-b293ab2bcfd2(jetbrains.mps.lang.plugin.run)" version="-1" />
   <import index="44" modelUID="f:java_stub#java.io(java.io@java_stub)" version="-1" />
   <import index="45" modelUID="r:00000000-0000-4000-0000-011c89590368(jetbrains.mps.lang.plugin.structure)" version="23" />
+  <import index="47" modelUID="f:java_stub#jetbrains.mps.ide.common(jetbrains.mps.ide.common@java_stub)" version="-1" />
   <visible index="2" modelUID="r:00000000-0000-4000-0000-011c89590373(jetbrains.mps.baseLanguage.classifiers.structure)" />
   <visible index="3" modelUID="r:00000000-0000-4000-0000-011c895902ca(jetbrains.mps.baseLanguage.structure)" />
   <node type="jetbrains.mps.lang.generator.structure.MappingConfiguration:2" id="6977813497819596721">
@@ -2777,8 +2778,8 @@
                           <link role="classifier:3" targetNodeId="35.~ConsoleViewImpl" resolveInfo="ConsoleViewImpl" />
                         </node>
                         <node role="initializer:3" type="jetbrains.mps.baseLanguage.structure.StaticMethodCall:3" id="5480079629709898076">
-                          <link role="baseMethodDeclaration:3" targetNodeId="37.1412418657078202477" resolveInfo="createConsoleView" />
-                          <link role="classConcept:3" targetNodeId="37.4494976841093370953" resolveInfo="StacktraceUtil" />
+                          <link role="classConcept:3" targetNodeId="47.~JavaConsoleCreator" resolveInfo="JavaConsoleCreator" />
+                          <link role="baseMethodDeclaration:3" targetNodeId="47.~JavaConsoleCreator.createConsoleView(com.intellij.openapi.project.Project):com.intellij.execution.impl.ConsoleViewImpl" resolveInfo="createConsoleView" />
                           <node role="actualArgument:3" type="jetbrains.mps.baseLanguage.structure.DotExpression:3" id="47694270443871036">
                             <node role="operand:3" type="jetbrains.mps.baseLanguage.structure.StaticFieldReference:3" id="47694270443871037">
                               <link role="classifier:3" targetNodeId="36.~MPSDataKeys" resolveInfo="MPSDataKeys" />
