@@ -102,15 +102,15 @@ public class RunConfigurationDeclaration_Behavior {
     public QuotationClass_ym0401_a0a0g() {
     }
 
-    public SNode createNode(Object parameter_3) {
+    public SNode createNode(Object parameter_2) {
       SNode result = null;
       Set<SNode> _parameterValues_129834374 = new HashSet<SNode>();
       SNode quotedNode_1 = null;
       {
         quotedNode_1 = SModelUtil_new.instantiateConceptDeclaration("jetbrains.mps.lang.plugin.structure.RunConfigType", null, GlobalScope.getInstance(), false);
-        SNode quotedNode1_2 = quotedNode_1;
-        quotedNode1_2.setReferent("runConfig", (SNode) parameter_3);
-        result = quotedNode1_2;
+        SNode quotedNode1_1 = quotedNode_1;
+        quotedNode1_1.setReferent("runConfig", (SNode) parameter_2);
+        result = quotedNode1_1;
       }
       return result;
     }
