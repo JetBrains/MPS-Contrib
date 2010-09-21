@@ -935,6 +935,448 @@
     <unitInfo nodeId="529057043639072366" fileName="OrthogonalRepresentation.java" startLine="179" startPosition="0" endLine="240" endPosition="0" unitName="jetbrains.mps.graphLayout.flowOrthogonalLayout.OrthogonalRepresentation$GetDirectionsDfs" />
     <unitInfo nodeId="228830736476027579" fileName="OrthogonalRepresentation.java" startLine="27" startPosition="0" endLine="241" endPosition="0" unitName="jetbrains.mps.graphLayout.flowOrthogonalLayout.OrthogonalRepresentation" />
   </root>
+  <root nodeId="3182425861591366358">
+    <nodeInfo nodeId="5728232039832657438" fileName="ConstraintsGraphProcessor.java" startLine="32" startPosition="40" endLine="33" endPosition="35" />
+    <nodeInfo nodeId="5728232039832708919" fileName="ConstraintsGraphProcessor.java" startLine="33" startPosition="35" endLine="34" endPosition="31" />
+    <nodeInfo nodeId="3182425861591380859" fileName="ConstraintsGraphProcessor.java" startLine="35" startPosition="0" endLine="36" endPosition="24" />
+    <nodeInfo nodeId="3182425861591366374" fileName="ConstraintsGraphProcessor.java" startLine="36" startPosition="24" endLine="37" endPosition="40" />
+    <nodeInfo nodeId="3182425861591366379" fileName="ConstraintsGraphProcessor.java" startLine="37" startPosition="40" endLine="38" endPosition="46" />
+    <nodeInfo nodeId="7861048744530874436" fileName="ConstraintsGraphProcessor.java" startLine="38" startPosition="46" endLine="39" endPosition="38" />
+    <nodeInfo nodeId="7861048744530874440" fileName="ConstraintsGraphProcessor.java" startLine="39" startPosition="38" endLine="40" endPosition="38" />
+    <nodeInfo nodeId="7861048744530874444" fileName="ConstraintsGraphProcessor.java" startLine="40" startPosition="38" endLine="41" endPosition="39" />
+    <nodeInfo nodeId="7861048744530874452" fileName="ConstraintsGraphProcessor.java" startLine="41" startPosition="39" endLine="42" endPosition="39" />
+    <nodeInfo nodeId="3182425861591366387" fileName="ConstraintsGraphProcessor.java" startLine="44" startPosition="100" endLine="45" endPosition="36" />
+    <nodeInfo nodeId="3182425861591380864" fileName="ConstraintsGraphProcessor.java" startLine="45" startPosition="36" endLine="46" endPosition="39" />
+    <nodeInfo nodeId="3182425861591366394" fileName="ConstraintsGraphProcessor.java" startLine="46" startPosition="39" endLine="47" endPosition="30" />
+    <nodeInfo nodeId="5728232039832718152" fileName="ConstraintsGraphProcessor.java" startLine="50" startPosition="32" endLine="51" endPosition="15" />
+    <nodeInfo nodeId="5728232039832724350" fileName="ConstraintsGraphProcessor.java" startLine="53" startPosition="46" endLine="54" endPosition="17" />
+    <nodeInfo nodeId="5728232039832718165" fileName="ConstraintsGraphProcessor.java" startLine="55" startPosition="7" endLine="56" endPosition="30" />
+    <nodeInfo nodeId="5728232039832718188" fileName="ConstraintsGraphProcessor.java" startLine="59" startPosition="67" endLine="60" endPosition="78" />
+    <nodeInfo nodeId="5728232039832718198" fileName="ConstraintsGraphProcessor.java" startLine="62" startPosition="67" endLine="63" endPosition="76" />
+    <nodeInfo nodeId="5274739094344192349" fileName="ConstraintsGraphProcessor.java" startLine="64" startPosition="7" endLine="65" endPosition="26" />
+    <nodeInfo nodeId="5274739094344259821" fileName="ConstraintsGraphProcessor.java" startLine="69" startPosition="44" endLine="70" endPosition="89" />
+    <nodeInfo nodeId="5274739094344259813" fileName="ConstraintsGraphProcessor.java" startLine="70" startPosition="89" endLine="71" endPosition="89" />
+    <nodeInfo nodeId="5274739094344259835" fileName="ConstraintsGraphProcessor.java" startLine="71" startPosition="89" endLine="72" endPosition="83" />
+    <nodeInfo nodeId="5274739094344259879" fileName="ConstraintsGraphProcessor.java" startLine="73" startPosition="65" endLine="74" endPosition="64" />
+    <nodeInfo nodeId="5274739094344259889" fileName="ConstraintsGraphProcessor.java" startLine="74" startPosition="64" endLine="75" endPosition="64" />
+    <nodeInfo nodeId="5274739094344259858" fileName="ConstraintsGraphProcessor.java" startLine="75" startPosition="64" endLine="76" endPosition="154" />
+    <nodeInfo nodeId="5274739094344259905" fileName="ConstraintsGraphProcessor.java" startLine="77" startPosition="5" endLine="78" endPosition="23" />
+    <nodeInfo nodeId="7861048744530874502" fileName="ConstraintsGraphProcessor.java" startLine="81" startPosition="44" endLine="82" endPosition="72" />
+    <nodeInfo nodeId="7861048744530874512" fileName="ConstraintsGraphProcessor.java" startLine="82" startPosition="72" endLine="83" endPosition="88" />
+    <nodeInfo nodeId="7861048744530874523" fileName="ConstraintsGraphProcessor.java" startLine="83" startPosition="88" endLine="84" endPosition="79" />
+    <nodeInfo nodeId="7861048744530874627" fileName="ConstraintsGraphProcessor.java" startLine="84" startPosition="79" endLine="85" endPosition="24" />
+    <nodeInfo nodeId="7861048744530874560" fileName="ConstraintsGraphProcessor.java" startLine="86" startPosition="62" endLine="87" endPosition="68" />
+    <nodeInfo nodeId="7861048744530874584" fileName="ConstraintsGraphProcessor.java" startLine="87" startPosition="68" endLine="88" endPosition="37" />
+    <nodeInfo nodeId="7861048744530874597" fileName="ConstraintsGraphProcessor.java" startLine="88" startPosition="37" endLine="89" endPosition="15" />
+    <nodeInfo nodeId="7861048744530874600" fileName="ConstraintsGraphProcessor.java" startLine="90" startPosition="31" endLine="91" endPosition="60" />
+    <nodeInfo nodeId="7861048744530874613" fileName="ConstraintsGraphProcessor.java" startLine="92" startPosition="14" endLine="93" endPosition="60" />
+    <nodeInfo nodeId="5274739094344147018" fileName="ConstraintsGraphProcessor.java" startLine="96" startPosition="30" endLine="97" endPosition="109" />
+    <nodeInfo nodeId="5728232039832677163" fileName="ConstraintsGraphProcessor.java" startLine="98" startPosition="9" endLine="99" endPosition="56" />
+    <nodeInfo nodeId="5728232039832677168" fileName="ConstraintsGraphProcessor.java" startLine="99" startPosition="56" endLine="100" endPosition="58" />
+    <nodeInfo nodeId="7861048744530874661" fileName="ConstraintsGraphProcessor.java" startLine="101" startPosition="7" endLine="102" endPosition="20" />
+    <nodeInfo nodeId="5728232039832730323" fileName="ConstraintsGraphProcessor.java" startLine="104" startPosition="61" endLine="105" endPosition="143" />
+    <nodeInfo nodeId="5728232039832730337" fileName="ConstraintsGraphProcessor.java" startLine="106" startPosition="12" endLine="107" endPosition="60" />
+    <nodeInfo nodeId="5728232039832730345" fileName="ConstraintsGraphProcessor.java" startLine="107" startPosition="60" endLine="108" endPosition="58" />
+    <nodeInfo nodeId="5728232039832670286" fileName="ConstraintsGraphProcessor.java" startLine="110" startPosition="24" endLine="111" endPosition="31" />
+    <nodeInfo nodeId="5728232039832670325" fileName="ConstraintsGraphProcessor.java" startLine="112" startPosition="73" endLine="113" endPosition="197" />
+    <nodeInfo nodeId="5728232039832682145" fileName="ConstraintsGraphProcessor.java" startLine="115" startPosition="5" endLine="116" endPosition="22" />
+    <nodeInfo nodeId="5728232039832703863" fileName="ConstraintsGraphProcessor.java" startLine="118" startPosition="175" endLine="119" endPosition="45" />
+    <nodeInfo nodeId="5728232039832693535" fileName="ConstraintsGraphProcessor.java" startLine="120" startPosition="37" endLine="121" endPosition="61" />
+    <nodeInfo nodeId="5728232039832693545" fileName="ConstraintsGraphProcessor.java" startLine="121" startPosition="61" endLine="122" endPosition="62" />
+    <nodeInfo nodeId="5728232039832693555" fileName="ConstraintsGraphProcessor.java" startLine="122" startPosition="62" endLine="123" endPosition="63" />
+    <nodeInfo nodeId="5728232039832693566" fileName="ConstraintsGraphProcessor.java" startLine="124" startPosition="9" endLine="125" endPosition="58" />
+    <nodeInfo nodeId="5728232039832682206" fileName="ConstraintsGraphProcessor.java" startLine="125" startPosition="58" endLine="126" endPosition="22" />
+    <nodeInfo nodeId="5728232039832687313" fileName="ConstraintsGraphProcessor.java" startLine="127" startPosition="14" endLine="128" endPosition="110" />
+    <nodeInfo nodeId="5728232039832687327" fileName="ConstraintsGraphProcessor.java" startLine="128" startPosition="110" endLine="129" endPosition="112" />
+    <nodeInfo nodeId="5728232039832687334" fileName="ConstraintsGraphProcessor.java" startLine="129" startPosition="112" endLine="130" endPosition="114" />
+    <nodeInfo nodeId="5728232039832682216" fileName="ConstraintsGraphProcessor.java" startLine="130" startPosition="114" endLine="131" endPosition="20" />
+    <nodeInfo nodeId="5728232039832682236" fileName="ConstraintsGraphProcessor.java" startLine="132" startPosition="66" endLine="133" endPosition="58" />
+    <nodeInfo nodeId="5274739094344237524" fileName="ConstraintsGraphProcessor.java" startLine="139" startPosition="28" endLine="140" endPosition="68" />
+    <nodeInfo nodeId="5274739094344243028" fileName="ConstraintsGraphProcessor.java" startLine="143" startPosition="5" endLine="144" endPosition="41" />
+    <nodeInfo nodeId="5274739094344242885" fileName="ConstraintsGraphProcessor.java" startLine="147" startPosition="87" endLine="148" endPosition="14" />
+    <nodeInfo nodeId="5274739094344242868" fileName="ConstraintsGraphProcessor.java" startLine="149" startPosition="72" endLine="150" endPosition="36" />
+    <nodeInfo nodeId="5274739094344242898" fileName="ConstraintsGraphProcessor.java" startLine="151" startPosition="12" endLine="152" endPosition="36" />
+    <nodeInfo nodeId="5274739094344242930" fileName="ConstraintsGraphProcessor.java" startLine="155" startPosition="37" endLine="156" endPosition="56" />
+    <nodeInfo nodeId="5274739094344242948" fileName="ConstraintsGraphProcessor.java" startLine="157" startPosition="14" endLine="158" endPosition="56" />
+    <nodeInfo nodeId="5274739094344242999" fileName="ConstraintsGraphProcessor.java" startLine="163" startPosition="79" endLine="164" endPosition="165" />
+    <nodeInfo nodeId="5274739094344243010" fileName="ConstraintsGraphProcessor.java" startLine="164" startPosition="165" endLine="165" endPosition="165" />
+    <nodeInfo nodeId="3182425861591393124" fileName="ConstraintsGraphProcessor.java" startLine="168" startPosition="26" endLine="169" endPosition="80" />
+    <nodeInfo nodeId="3182425861591393159" fileName="ConstraintsGraphProcessor.java" startLine="171" startPosition="46" endLine="172" endPosition="34" />
+    <nodeInfo nodeId="3182425861591393170" fileName="ConstraintsGraphProcessor.java" startLine="174" startPosition="19" endLine="175" endPosition="80" />
+    <nodeInfo nodeId="3182425861591393185" fileName="ConstraintsGraphProcessor.java" startLine="177" startPosition="46" endLine="178" endPosition="32" />
+    <nodeInfo nodeId="3182425861591392878" fileName="ConstraintsGraphProcessor.java" startLine="180" startPosition="19" endLine="181" endPosition="77" />
+    <nodeInfo nodeId="3182425861591393354" fileName="ConstraintsGraphProcessor.java" startLine="182" startPosition="65" endLine="183" endPosition="66" />
+    <nodeInfo nodeId="3182425861591393377" fileName="ConstraintsGraphProcessor.java" startLine="184" startPosition="28" endLine="185" endPosition="56" />
+    <nodeInfo nodeId="3182425861591393389" fileName="ConstraintsGraphProcessor.java" startLine="186" startPosition="14" endLine="187" endPosition="90" />
+    <nodeInfo nodeId="7861048744530874461" fileName="ConstraintsGraphProcessor.java" startLine="189" startPosition="5" endLine="190" endPosition="48" />
+    <nodeInfo nodeId="7861048744530874468" fileName="ConstraintsGraphProcessor.java" startLine="190" startPosition="48" endLine="191" endPosition="48" />
+    <nodeInfo nodeId="7861048744530874475" fileName="ConstraintsGraphProcessor.java" startLine="191" startPosition="48" endLine="192" endPosition="30" />
+    <nodeInfo nodeId="7861048744530874482" fileName="ConstraintsGraphProcessor.java" startLine="192" startPosition="30" endLine="193" endPosition="30" />
+    <nodeInfo nodeId="5728232039832657454" fileName="ConstraintsGraphProcessor.java" startLine="194" startPosition="24" endLine="195" endPosition="46" />
+    <nodeInfo nodeId="5728232039832658450" fileName="ConstraintsGraphProcessor.java" startLine="196" startPosition="67" endLine="197" endPosition="43" />
+    <nodeInfo nodeId="5728232039832658461" fileName="ConstraintsGraphProcessor.java" startLine="197" startPosition="43" endLine="198" endPosition="138" />
+    <nodeInfo nodeId="5728232039832658480" fileName="ConstraintsGraphProcessor.java" startLine="199" startPosition="7" endLine="200" endPosition="81" />
+    <nodeInfo nodeId="5728232039832658491" fileName="ConstraintsGraphProcessor.java" startLine="200" startPosition="81" endLine="201" endPosition="79" />
+    <nodeInfo nodeId="3182425861591393282" fileName="ConstraintsGraphProcessor.java" startLine="207" startPosition="38" endLine="208" endPosition="70" />
+    <nodeInfo nodeId="3182425861591393311" fileName="ConstraintsGraphProcessor.java" startLine="211" startPosition="23" endLine="212" endPosition="75" />
+    <nodeInfo nodeId="3182425861591393328" fileName="ConstraintsGraphProcessor.java" startLine="212" startPosition="75" endLine="213" endPosition="75" />
+    <nodeInfo nodeId="3182425861591393343" fileName="ConstraintsGraphProcessor.java" startLine="213" startPosition="75" endLine="214" endPosition="46" />
+    <nodeInfo nodeId="3182425861591393296" fileName="ConstraintsGraphProcessor.java" startLine="215" startPosition="5" endLine="216" endPosition="16" />
+    <nodeInfo nodeId="3182425861591393025" fileName="ConstraintsGraphProcessor.java" startLine="221" startPosition="40" endLine="222" endPosition="88" />
+    <nodeInfo nodeId="3182425861591393034" fileName="ConstraintsGraphProcessor.java" startLine="222" startPosition="88" endLine="223" endPosition="83" />
+    <nodeInfo nodeId="3182425861591393042" fileName="ConstraintsGraphProcessor.java" startLine="225" startPosition="7" endLine="226" endPosition="91" />
+    <nodeInfo nodeId="3182425861591393056" fileName="ConstraintsGraphProcessor.java" startLine="226" startPosition="91" endLine="227" endPosition="41" />
+    <nodeInfo nodeId="3182425861591393073" fileName="ConstraintsGraphProcessor.java" startLine="228" startPosition="71" endLine="229" endPosition="54" />
+    <nodeInfo nodeId="3182425861591393083" fileName="ConstraintsGraphProcessor.java" startLine="230" startPosition="57" endLine="231" endPosition="62" />
+    <nodeInfo nodeId="3182425861591393099" fileName="ConstraintsGraphProcessor.java" startLine="233" startPosition="5" endLine="234" endPosition="28" />
+    <nodeInfo nodeId="5274739094344166067" fileName="ConstraintsGraphProcessor.java" startLine="240" startPosition="50" endLine="241" endPosition="19" />
+    <nodeInfo nodeId="5274739094344191926" fileName="ConstraintsGraphProcessor.java" startLine="243" startPosition="28" endLine="244" endPosition="92" />
+    <nodeInfo nodeId="5274739094344191947" fileName="ConstraintsGraphProcessor.java" startLine="245" startPosition="9" endLine="246" endPosition="74" />
+    <nodeInfo nodeId="5274739094344191974" fileName="ConstraintsGraphProcessor.java" startLine="246" startPosition="74" endLine="247" endPosition="71" />
+    <nodeInfo nodeId="5274739094344191993" fileName="ConstraintsGraphProcessor.java" startLine="248" startPosition="28" endLine="249" endPosition="70" />
+    <nodeInfo nodeId="5274739094344192011" fileName="ConstraintsGraphProcessor.java" startLine="249" startPosition="70" endLine="250" endPosition="70" />
+    <nodeInfo nodeId="5274739094344192021" fileName="ConstraintsGraphProcessor.java" startLine="251" startPosition="9" endLine="252" endPosition="36" />
+    <nodeInfo nodeId="5274739094344192307" fileName="ConstraintsGraphProcessor.java" startLine="252" startPosition="36" endLine="253" endPosition="71" />
+    <nodeInfo nodeId="5274739094344192318" fileName="ConstraintsGraphProcessor.java" startLine="253" startPosition="71" endLine="254" endPosition="71" />
+    <nodeInfo nodeId="5274739094344192336" fileName="ConstraintsGraphProcessor.java" startLine="255" startPosition="29" endLine="256" endPosition="91" />
+    <nodeInfo nodeId="5274739094344192274" fileName="ConstraintsGraphProcessor.java" startLine="263" startPosition="83" endLine="264" endPosition="18" />
+    <nodeInfo nodeId="5274739094344192279" fileName="ConstraintsGraphProcessor.java" startLine="266" startPosition="83" endLine="267" endPosition="18" />
+    <nodeInfo nodeId="5274739094344192136" fileName="ConstraintsGraphProcessor.java" startLine="268" startPosition="5" endLine="269" endPosition="17" />
+    <nodeInfo nodeId="5274739094344166088" fileName="ConstraintsGraphProcessor.java" startLine="274" startPosition="39" endLine="275" endPosition="72" />
+    <nodeInfo nodeId="5274739094344166105" fileName="ConstraintsGraphProcessor.java" startLine="279" startPosition="39" endLine="280" endPosition="72" />
+    <nodeInfo nodeId="5274739094344166112" fileName="ConstraintsGraphProcessor.java" startLine="282" startPosition="7" endLine="283" endPosition="31" />
+    <nodeInfo nodeId="5274739094344166118" fileName="ConstraintsGraphProcessor.java" startLine="284" startPosition="55" endLine="285" endPosition="67" />
+    <nodeInfo nodeId="5274739094344166125" fileName="ConstraintsGraphProcessor.java" startLine="286" startPosition="5" endLine="287" endPosition="22" />
+    <nodeInfo nodeId="5274739094344192155" fileName="ConstraintsGraphProcessor.java" startLine="290" startPosition="77" endLine="291" endPosition="53" />
+    <nodeInfo nodeId="5274739094344192181" fileName="ConstraintsGraphProcessor.java" startLine="291" startPosition="53" endLine="292" endPosition="28" />
+    <nodeInfo nodeId="5274739094344192188" fileName="ConstraintsGraphProcessor.java" startLine="293" startPosition="35" endLine="294" endPosition="29" />
+    <nodeInfo nodeId="5274739094344192197" fileName="ConstraintsGraphProcessor.java" startLine="295" startPosition="12" endLine="296" endPosition="29" />
+    <nodeInfo nodeId="5274739094344192233" fileName="ConstraintsGraphProcessor.java" startLine="298" startPosition="43" endLine="299" endPosition="58" />
+    <nodeInfo nodeId="5274739094344192209" fileName="ConstraintsGraphProcessor.java" startLine="300" startPosition="5" endLine="301" endPosition="16" />
+    <nodeInfo nodeId="5274739094344166178" fileName="ConstraintsGraphProcessor.java" startLine="304" startPosition="82" endLine="305" endPosition="84" />
+    <nodeInfo nodeId="5274739094344166197" fileName="ConstraintsGraphProcessor.java" startLine="306" startPosition="35" endLine="307" endPosition="35" />
+    <nodeInfo nodeId="5274739094344166206" fileName="ConstraintsGraphProcessor.java" startLine="308" startPosition="12" endLine="309" endPosition="35" />
+    <nodeInfo nodeId="5274739094344166169" fileName="ConstraintsGraphProcessor.java" startLine="312" startPosition="39" endLine="313" endPosition="70" />
+    <nodeInfo nodeId="5274739094344166229" fileName="ConstraintsGraphProcessor.java" startLine="315" startPosition="7" endLine="316" endPosition="73" />
+    <nodeInfo nodeId="5274739094344166239" fileName="ConstraintsGraphProcessor.java" startLine="316" startPosition="73" endLine="317" endPosition="83" />
+    <nodeInfo nodeId="5274739094344166261" fileName="ConstraintsGraphProcessor.java" startLine="317" startPosition="83" endLine="318" endPosition="30" />
+    <nodeInfo nodeId="5274739094344166302" fileName="ConstraintsGraphProcessor.java" startLine="321" startPosition="40" endLine="322" endPosition="72" />
+    <nodeInfo nodeId="5274739094344191837" fileName="ConstraintsGraphProcessor.java" startLine="326" startPosition="43" endLine="327" endPosition="105" />
+    <nodeInfo nodeId="5274739094344166336" fileName="ConstraintsGraphProcessor.java" startLine="328" startPosition="9" endLine="329" endPosition="23" />
+    <nodeInfo nodeId="5274739094344166351" fileName="ConstraintsGraphProcessor.java" startLine="330" startPosition="14" endLine="331" endPosition="77" />
+    <nodeInfo nodeId="5274739094344166397" fileName="ConstraintsGraphProcessor.java" startLine="335" startPosition="62" endLine="336" endPosition="108" />
+    <nodeInfo nodeId="5274739094344191843" fileName="ConstraintsGraphProcessor.java" startLine="338" startPosition="28" endLine="339" endPosition="107" />
+    <nodeInfo nodeId="5274739094344166366" fileName="ConstraintsGraphProcessor.java" startLine="341" startPosition="5" endLine="342" endPosition="59" />
+    <nodeInfo nodeId="5274739094344166322" fileName="ConstraintsGraphProcessor.java" startLine="342" startPosition="59" endLine="343" endPosition="16" />
+    <nodeInfo nodeId="7861048744530874611" fileName="ConstraintsGraphProcessor.java" startLine="92" startPosition="12" endLine="94" endPosition="7" />
+    <nodeInfo nodeId="5274739094344242896" fileName="ConstraintsGraphProcessor.java" startLine="151" startPosition="10" endLine="153" endPosition="5" />
+    <nodeInfo nodeId="5274739094344242946" fileName="ConstraintsGraphProcessor.java" startLine="157" startPosition="12" endLine="159" endPosition="7" />
+    <nodeInfo nodeId="3182425861591393387" fileName="ConstraintsGraphProcessor.java" startLine="186" startPosition="12" endLine="188" endPosition="7" />
+    <nodeInfo nodeId="5274739094344192195" fileName="ConstraintsGraphProcessor.java" startLine="295" startPosition="10" endLine="297" endPosition="5" />
+    <nodeInfo nodeId="5274739094344166204" fileName="ConstraintsGraphProcessor.java" startLine="308" startPosition="10" endLine="310" endPosition="5" />
+    <nodeInfo nodeId="5274739094344166349" fileName="ConstraintsGraphProcessor.java" startLine="330" startPosition="12" endLine="332" endPosition="7" />
+    <nodeInfo nodeId="5728232039832724339" fileName="ConstraintsGraphProcessor.java" startLine="52" startPosition="73" endLine="55" endPosition="7" />
+    <nodeInfo nodeId="5728232039832718186" fileName="ConstraintsGraphProcessor.java" startLine="58" startPosition="20" endLine="61" endPosition="7" />
+    <nodeInfo nodeId="5728232039832718196" fileName="ConstraintsGraphProcessor.java" startLine="61" startPosition="7" endLine="64" endPosition="7" />
+    <nodeInfo nodeId="5274739094344147016" fileName="ConstraintsGraphProcessor.java" startLine="95" startPosition="27" endLine="98" endPosition="9" />
+    <nodeInfo nodeId="5728232039832730335" fileName="ConstraintsGraphProcessor.java" startLine="106" startPosition="10" endLine="109" endPosition="5" />
+    <nodeInfo nodeId="5728232039832670305" fileName="ConstraintsGraphProcessor.java" startLine="111" startPosition="31" endLine="114" endPosition="7" />
+    <nodeInfo nodeId="5728232039832682222" fileName="ConstraintsGraphProcessor.java" startLine="131" startPosition="20" endLine="134" endPosition="9" />
+    <nodeInfo nodeId="5274739094344237515" fileName="ConstraintsGraphProcessor.java" startLine="138" startPosition="61" endLine="141" endPosition="9" />
+    <nodeInfo nodeId="3182425861591393079" fileName="ConstraintsGraphProcessor.java" startLine="229" startPosition="54" endLine="232" endPosition="7" />
+    <nodeInfo nodeId="5274739094344166062" fileName="ConstraintsGraphProcessor.java" startLine="239" startPosition="83" endLine="242" endPosition="9" />
+    <nodeInfo nodeId="5274739094344191924" fileName="ConstraintsGraphProcessor.java" startLine="242" startPosition="9" endLine="245" endPosition="9" />
+    <nodeInfo nodeId="5274739094344192329" fileName="ConstraintsGraphProcessor.java" startLine="254" startPosition="71" endLine="257" endPosition="9" />
+    <nodeInfo nodeId="5274739094344192252" fileName="ConstraintsGraphProcessor.java" startLine="262" startPosition="64" endLine="265" endPosition="5" />
+    <nodeInfo nodeId="5274739094344192277" fileName="ConstraintsGraphProcessor.java" startLine="265" startPosition="5" endLine="268" endPosition="5" />
+    <nodeInfo nodeId="5274739094344166115" fileName="ConstraintsGraphProcessor.java" startLine="283" startPosition="31" endLine="286" endPosition="5" />
+    <nodeInfo nodeId="5274739094344192213" fileName="ConstraintsGraphProcessor.java" startLine="297" startPosition="5" endLine="300" endPosition="5" />
+    <nodeInfo nodeId="5274739094344191821" fileName="ConstraintsGraphProcessor.java" startLine="325" startPosition="25" endLine="328" endPosition="9" />
+    <nodeInfo nodeId="5274739094344166383" fileName="ConstraintsGraphProcessor.java" startLine="334" startPosition="20" endLine="337" endPosition="7" />
+    <nodeInfo nodeId="5274739094344191841" fileName="ConstraintsGraphProcessor.java" startLine="337" startPosition="7" endLine="340" endPosition="7" />
+    <nodeInfo nodeId="3182425861591393157" fileName="ConstraintsGraphProcessor.java" startLine="170" startPosition="119" endLine="174" endPosition="0" />
+    <nodeInfo nodeId="3182425861591393183" fileName="ConstraintsGraphProcessor.java" startLine="176" startPosition="119" endLine="180" endPosition="0" />
+    <nodeInfo nodeId="5728232039832658407" fileName="ConstraintsGraphProcessor.java" startLine="195" startPosition="46" endLine="199" endPosition="7" />
+    <nodeInfo nodeId="3182425861591393280" fileName="ConstraintsGraphProcessor.java" startLine="206" startPosition="110" endLine="210" endPosition="0" />
+    <nodeInfo nodeId="5274739094344191984" fileName="ConstraintsGraphProcessor.java" startLine="247" startPosition="71" endLine="251" endPosition="9" />
+    <nodeInfo nodeId="5274739094344166086" fileName="ConstraintsGraphProcessor.java" startLine="273" startPosition="126" endLine="277" endPosition="0" />
+    <nodeInfo nodeId="5274739094344166103" fileName="ConstraintsGraphProcessor.java" startLine="278" startPosition="126" endLine="282" endPosition="0" />
+    <nodeInfo nodeId="5274739094344166167" fileName="ConstraintsGraphProcessor.java" startLine="311" startPosition="124" endLine="315" endPosition="0" />
+    <nodeInfo nodeId="5274739094344166298" fileName="ConstraintsGraphProcessor.java" startLine="320" startPosition="117" endLine="324" endPosition="0" />
+    <nodeInfo nodeId="3182425861591366360" fileName="ConstraintsGraphProcessor.java" startLine="43" startPosition="0" endLine="48" endPosition="3" />
+    <nodeInfo nodeId="5274739094344259848" fileName="ConstraintsGraphProcessor.java" startLine="72" startPosition="83" endLine="77" endPosition="5" />
+    <nodeInfo nodeId="7861048744530874571" fileName="ConstraintsGraphProcessor.java" startLine="89" startPosition="15" endLine="94" endPosition="7" />
+    <nodeInfo nodeId="5728232039832693520" fileName="ConstraintsGraphProcessor.java" startLine="119" startPosition="45" endLine="124" endPosition="9" />
+    <nodeInfo nodeId="5274739094344237510" fileName="ConstraintsGraphProcessor.java" startLine="137" startPosition="20" endLine="142" endPosition="7" />
+    <nodeInfo nodeId="5274739094344242848" fileName="ConstraintsGraphProcessor.java" startLine="148" startPosition="14" endLine="153" endPosition="5" />
+    <nodeInfo nodeId="5274739094344242920" fileName="ConstraintsGraphProcessor.java" startLine="154" startPosition="24" endLine="159" endPosition="7" />
+    <nodeInfo nodeId="5728232039832687376" fileName="ConstraintsGraphProcessor.java" startLine="162" startPosition="0" endLine="167" endPosition="0" />
+    <nodeInfo nodeId="3182425861591393153" fileName="ConstraintsGraphProcessor.java" startLine="169" startPosition="80" endLine="174" endPosition="19" />
+    <nodeInfo nodeId="3182425861591393179" fileName="ConstraintsGraphProcessor.java" startLine="175" startPosition="80" endLine="180" endPosition="19" />
+    <nodeInfo nodeId="3182425861591393368" fileName="ConstraintsGraphProcessor.java" startLine="183" startPosition="66" endLine="188" endPosition="7" />
+    <nodeInfo nodeId="3182425861591393271" fileName="ConstraintsGraphProcessor.java" startLine="205" startPosition="93" endLine="210" endPosition="7" />
+    <nodeInfo nodeId="3182425861591393300" fileName="ConstraintsGraphProcessor.java" startLine="210" startPosition="7" endLine="215" endPosition="5" />
+    <nodeInfo nodeId="3182425861591393023" fileName="ConstraintsGraphProcessor.java" startLine="220" startPosition="133" endLine="225" endPosition="0" />
+    <nodeInfo nodeId="5274739094344166078" fileName="ConstraintsGraphProcessor.java" startLine="272" startPosition="85" endLine="277" endPosition="7" />
+    <nodeInfo nodeId="5274739094344166095" fileName="ConstraintsGraphProcessor.java" startLine="277" startPosition="7" endLine="282" endPosition="7" />
+    <nodeInfo nodeId="5274739094344192186" fileName="ConstraintsGraphProcessor.java" startLine="292" startPosition="28" endLine="297" endPosition="5" />
+    <nodeInfo nodeId="5274739094344166187" fileName="ConstraintsGraphProcessor.java" startLine="305" startPosition="84" endLine="310" endPosition="5" />
+    <nodeInfo nodeId="5274739094344166158" fileName="ConstraintsGraphProcessor.java" startLine="310" startPosition="5" endLine="315" endPosition="7" />
+    <nodeInfo nodeId="5274739094344166274" fileName="ConstraintsGraphProcessor.java" startLine="319" startPosition="52" endLine="324" endPosition="9" />
+    <nodeInfo nodeId="5728232039832718155" fileName="ConstraintsGraphProcessor.java" startLine="51" startPosition="15" endLine="57" endPosition="5" />
+    <nodeInfo nodeId="5728232039832730308" fileName="ConstraintsGraphProcessor.java" startLine="103" startPosition="5" endLine="109" endPosition="5" />
+    <nodeInfo nodeId="5728232039832670277" fileName="ConstraintsGraphProcessor.java" startLine="109" startPosition="5" endLine="115" endPosition="5" />
+    <nodeInfo nodeId="3182425861591393016" fileName="ConstraintsGraphProcessor.java" startLine="219" startPosition="163" endLine="225" endPosition="7" />
+    <nodeInfo nodeId="3182425861591393070" fileName="ConstraintsGraphProcessor.java" startLine="227" startPosition="41" endLine="233" endPosition="5" />
+    <nodeInfo nodeId="5728232039832677161" fileName="ConstraintsGraphProcessor.java" startLine="94" startPosition="7" endLine="101" endPosition="7" />
+    <nodeInfo nodeId="5274739094344237501" fileName="ConstraintsGraphProcessor.java" startLine="136" startPosition="5" endLine="143" endPosition="5" />
+    <nodeInfo nodeId="5274739094344242911" fileName="ConstraintsGraphProcessor.java" startLine="153" startPosition="5" endLine="160" endPosition="5" />
+    <nodeInfo nodeId="5728232039832682214" fileName="ConstraintsGraphProcessor.java" startLine="127" startPosition="12" endLine="135" endPosition="7" />
+    <nodeInfo nodeId="3182425861591393193" fileName="ConstraintsGraphProcessor.java" startLine="181" startPosition="77" endLine="189" endPosition="5" />
+    <nodeInfo nodeId="5274739094344166327" fileName="ConstraintsGraphProcessor.java" startLine="324" startPosition="9" endLine="332" endPosition="7" />
+    <nodeInfo nodeId="5274739094344191962" fileName="ConstraintsGraphProcessor.java" startLine="333" startPosition="5" endLine="341" endPosition="5" />
+    <nodeInfo nodeId="5728232039832718184" fileName="ConstraintsGraphProcessor.java" startLine="57" startPosition="5" endLine="66" endPosition="5" />
+    <nodeInfo nodeId="5728232039832657445" fileName="ConstraintsGraphProcessor.java" startLine="193" startPosition="30" endLine="202" endPosition="5" />
+    <nodeInfo nodeId="5274739094344192108" fileName="ConstraintsGraphProcessor.java" startLine="261" startPosition="0" endLine="271" endPosition="0" />
+    <nodeInfo nodeId="5274739094344259805" fileName="ConstraintsGraphProcessor.java" startLine="68" startPosition="0" endLine="80" endPosition="0" />
+    <nodeInfo nodeId="3182425861591393247" fileName="ConstraintsGraphProcessor.java" startLine="204" startPosition="0" endLine="218" endPosition="0" />
+    <nodeInfo nodeId="5274739094344192140" fileName="ConstraintsGraphProcessor.java" startLine="289" startPosition="0" endLine="303" endPosition="0" />
+    <nodeInfo nodeId="5274739094344166223" fileName="ConstraintsGraphProcessor.java" startLine="318" startPosition="30" endLine="333" endPosition="5" />
+    <nodeInfo nodeId="5274739094344242834" fileName="ConstraintsGraphProcessor.java" startLine="146" startPosition="0" endLine="162" endPosition="0" />
+    <nodeInfo nodeId="7861048744530874544" fileName="ConstraintsGraphProcessor.java" startLine="85" startPosition="24" endLine="103" endPosition="5" />
+    <nodeInfo nodeId="5728232039832682165" fileName="ConstraintsGraphProcessor.java" startLine="117" startPosition="57" endLine="135" endPosition="7" />
+    <nodeInfo nodeId="3182425861591393012" fileName="ConstraintsGraphProcessor.java" startLine="218" startPosition="0" endLine="236" endPosition="0" />
+    <nodeInfo nodeId="5274739094344166074" fileName="ConstraintsGraphProcessor.java" startLine="271" startPosition="0" endLine="289" endPosition="0" />
+    <nodeInfo nodeId="5728232039832718148" fileName="ConstraintsGraphProcessor.java" startLine="49" startPosition="0" endLine="68" endPosition="0" />
+    <nodeInfo nodeId="5728232039832682131" fileName="ConstraintsGraphProcessor.java" startLine="116" startPosition="22" endLine="136" endPosition="5" />
+    <nodeInfo nodeId="5274739094344165963" fileName="ConstraintsGraphProcessor.java" startLine="238" startPosition="81" endLine="258" endPosition="7" />
+    <nodeInfo nodeId="5274739094344159938" fileName="ConstraintsGraphProcessor.java" startLine="237" startPosition="36" endLine="259" endPosition="5" />
+    <nodeInfo nodeId="5274739094344159933" fileName="ConstraintsGraphProcessor.java" startLine="236" startPosition="0" endLine="261" endPosition="0" />
+    <nodeInfo nodeId="3182425861591366400" fileName="ConstraintsGraphProcessor.java" startLine="167" startPosition="0" endLine="204" endPosition="0" />
+    <nodeInfo nodeId="5274739094344166145" fileName="ConstraintsGraphProcessor.java" startLine="303" startPosition="0" endLine="345" endPosition="0" />
+    <nodeInfo nodeId="7861048744530874492" fileName="ConstraintsGraphProcessor.java" startLine="80" startPosition="0" endLine="146" endPosition="0" />
+    <scopeInfo nodeId="5728232039832724340" fileName="ConstraintsGraphProcessor.java" startLine="53" startPosition="46" endLine="54" endPosition="17" />
+    <scopeInfo nodeId="5728232039832718187" fileName="ConstraintsGraphProcessor.java" startLine="59" startPosition="67" endLine="60" endPosition="78" />
+    <scopeInfo nodeId="5728232039832718197" fileName="ConstraintsGraphProcessor.java" startLine="62" startPosition="67" endLine="63" endPosition="76" />
+    <scopeInfo nodeId="7861048744530874572" fileName="ConstraintsGraphProcessor.java" startLine="90" startPosition="31" endLine="91" endPosition="60" />
+    <scopeInfo nodeId="7861048744530874612" fileName="ConstraintsGraphProcessor.java" startLine="92" startPosition="14" endLine="93" endPosition="60" />
+    <scopeInfo nodeId="5274739094344147017" fileName="ConstraintsGraphProcessor.java" startLine="96" startPosition="30" endLine="97" endPosition="109" />
+    <scopeInfo nodeId="5728232039832730309" fileName="ConstraintsGraphProcessor.java" startLine="104" startPosition="61" endLine="105" endPosition="143" />
+    <scopeInfo nodeId="5728232039832670306" fileName="ConstraintsGraphProcessor.java" startLine="112" startPosition="73" endLine="113" endPosition="197" />
+    <scopeInfo nodeId="5728232039832682223" fileName="ConstraintsGraphProcessor.java" startLine="132" startPosition="66" endLine="133" endPosition="58" />
+    <scopeInfo nodeId="5274739094344237517" fileName="ConstraintsGraphProcessor.java" startLine="139" startPosition="28" endLine="140" endPosition="68" />
+    <scopeInfo nodeId="5274739094344242850" fileName="ConstraintsGraphProcessor.java" startLine="149" startPosition="72" endLine="150" endPosition="36" />
+    <scopeInfo nodeId="5274739094344242897" fileName="ConstraintsGraphProcessor.java" startLine="151" startPosition="12" endLine="152" endPosition="36" />
+    <scopeInfo nodeId="5274739094344242921" fileName="ConstraintsGraphProcessor.java" startLine="155" startPosition="37" endLine="156" endPosition="56" />
+    <scopeInfo nodeId="5274739094344242947" fileName="ConstraintsGraphProcessor.java" startLine="157" startPosition="14" endLine="158" endPosition="56" />
+    <scopeInfo nodeId="3182425861591393158" fileName="ConstraintsGraphProcessor.java" startLine="171" startPosition="46" endLine="172" endPosition="34" />
+    <scopeInfo nodeId="3182425861591393184" fileName="ConstraintsGraphProcessor.java" startLine="177" startPosition="46" endLine="178" endPosition="32" />
+    <scopeInfo nodeId="3182425861591393369" fileName="ConstraintsGraphProcessor.java" startLine="184" startPosition="28" endLine="185" endPosition="56" />
+    <scopeInfo nodeId="3182425861591393388" fileName="ConstraintsGraphProcessor.java" startLine="186" startPosition="14" endLine="187" endPosition="90" />
+    <scopeInfo nodeId="3182425861591393281" fileName="ConstraintsGraphProcessor.java" startLine="207" startPosition="38" endLine="208" endPosition="70" />
+    <scopeInfo nodeId="3182425861591393082" fileName="ConstraintsGraphProcessor.java" startLine="230" startPosition="57" endLine="231" endPosition="62" />
+    <scopeInfo nodeId="5274739094344166063" fileName="ConstraintsGraphProcessor.java" startLine="240" startPosition="50" endLine="241" endPosition="19" />
+    <scopeInfo nodeId="5274739094344191925" fileName="ConstraintsGraphProcessor.java" startLine="243" startPosition="28" endLine="244" endPosition="92" />
+    <scopeInfo nodeId="5274739094344192330" fileName="ConstraintsGraphProcessor.java" startLine="255" startPosition="29" endLine="256" endPosition="91" />
+    <scopeInfo nodeId="5274739094344192253" fileName="ConstraintsGraphProcessor.java" startLine="263" startPosition="83" endLine="264" endPosition="18" />
+    <scopeInfo nodeId="5274739094344192278" fileName="ConstraintsGraphProcessor.java" startLine="266" startPosition="83" endLine="267" endPosition="18" />
+    <scopeInfo nodeId="5274739094344166087" fileName="ConstraintsGraphProcessor.java" startLine="274" startPosition="39" endLine="275" endPosition="72" />
+    <scopeInfo nodeId="5274739094344166104" fileName="ConstraintsGraphProcessor.java" startLine="279" startPosition="39" endLine="280" endPosition="72" />
+    <scopeInfo nodeId="5274739094344166117" fileName="ConstraintsGraphProcessor.java" startLine="284" startPosition="55" endLine="285" endPosition="67" />
+    <scopeInfo nodeId="5274739094344192187" fileName="ConstraintsGraphProcessor.java" startLine="293" startPosition="35" endLine="294" endPosition="29" />
+    <scopeInfo nodeId="5274739094344192196" fileName="ConstraintsGraphProcessor.java" startLine="295" startPosition="12" endLine="296" endPosition="29" />
+    <scopeInfo nodeId="5274739094344192214" fileName="ConstraintsGraphProcessor.java" startLine="298" startPosition="43" endLine="299" endPosition="58" />
+    <scopeInfo nodeId="5274739094344166188" fileName="ConstraintsGraphProcessor.java" startLine="306" startPosition="35" endLine="307" endPosition="35" />
+    <scopeInfo nodeId="5274739094344166205" fileName="ConstraintsGraphProcessor.java" startLine="308" startPosition="12" endLine="309" endPosition="35" />
+    <scopeInfo nodeId="5274739094344166168" fileName="ConstraintsGraphProcessor.java" startLine="312" startPosition="39" endLine="313" endPosition="70" />
+    <scopeInfo nodeId="5274739094344166299" fileName="ConstraintsGraphProcessor.java" startLine="321" startPosition="40" endLine="322" endPosition="72" />
+    <scopeInfo nodeId="5274739094344191822" fileName="ConstraintsGraphProcessor.java" startLine="326" startPosition="43" endLine="327" endPosition="105" />
+    <scopeInfo nodeId="5274739094344166350" fileName="ConstraintsGraphProcessor.java" startLine="330" startPosition="14" endLine="331" endPosition="77" />
+    <scopeInfo nodeId="5274739094344166384" fileName="ConstraintsGraphProcessor.java" startLine="335" startPosition="62" endLine="336" endPosition="108" />
+    <scopeInfo nodeId="5274739094344191842" fileName="ConstraintsGraphProcessor.java" startLine="338" startPosition="28" endLine="339" endPosition="107" />
+    <scopeInfo nodeId="5728232039832730336" fileName="ConstraintsGraphProcessor.java" startLine="106" startPosition="12" endLine="108" endPosition="58" />
+    <scopeInfo nodeId="5728232039832687379" fileName="ConstraintsGraphProcessor.java" startLine="163" startPosition="79" endLine="165" endPosition="165" />
+    <scopeInfo nodeId="5728232039832658412" fileName="ConstraintsGraphProcessor.java" startLine="196" startPosition="67" endLine="198" endPosition="138" />
+    <scopeInfo nodeId="3182425861591393024" fileName="ConstraintsGraphProcessor.java" startLine="221" startPosition="40" endLine="223" endPosition="83">
+      <varInfo nodeId="3182425861591393026" varName="dart" />
+    </scopeInfo>
+    <scopeInfo nodeId="5274739094344191985" fileName="ConstraintsGraphProcessor.java" startLine="248" startPosition="28" endLine="250" endPosition="70" />
+    <scopeInfo nodeId="3182425861591366363" fileName="ConstraintsGraphProcessor.java" startLine="44" startPosition="100" endLine="47" endPosition="30" />
+    <scopeInfo nodeId="5274739094344259851" fileName="ConstraintsGraphProcessor.java" startLine="73" startPosition="65" endLine="76" endPosition="154">
+      <varInfo nodeId="5274739094344259890" varName="verSeg" />
+      <varInfo nodeId="5274739094344259880" varName="horSeg" />
+    </scopeInfo>
+    <scopeInfo nodeId="5728232039832670305" fileName="ConstraintsGraphProcessor.java" startLine="111" startPosition="31" endLine="114" endPosition="7">
+      <varInfo nodeId="5728232039832670308" varName="i" />
+    </scopeInfo>
+    <scopeInfo nodeId="5728232039832693521" fileName="ConstraintsGraphProcessor.java" startLine="120" startPosition="37" endLine="123" endPosition="63" />
+    <scopeInfo nodeId="5274739094344237513" fileName="ConstraintsGraphProcessor.java" startLine="138" startPosition="61" endLine="141" endPosition="9" />
+    <scopeInfo nodeId="3182425861591393301" fileName="ConstraintsGraphProcessor.java" startLine="211" startPosition="23" endLine="214" endPosition="46">
+      <varInfo nodeId="3182425861591393329" varName="targetNode" />
+      <varInfo nodeId="3182425861591393312" varName="sourceNode" />
+    </scopeInfo>
+    <scopeInfo nodeId="3182425861591393079" fileName="ConstraintsGraphProcessor.java" startLine="229" startPosition="54" endLine="232" endPosition="7" />
+    <scopeInfo nodeId="5274739094344166115" fileName="ConstraintsGraphProcessor.java" startLine="283" startPosition="31" endLine="286" endPosition="5" />
+    <scopeInfo nodeId="5274739094344192213" fileName="ConstraintsGraphProcessor.java" startLine="297" startPosition="5" endLine="300" endPosition="5">
+      <varInfo nodeId="5274739094344192216" varName="i" />
+    </scopeInfo>
+    <scopeInfo nodeId="5728232039832718158" fileName="ConstraintsGraphProcessor.java" startLine="52" startPosition="73" endLine="56" endPosition="30" />
+    <scopeInfo nodeId="5728232039832670278" fileName="ConstraintsGraphProcessor.java" startLine="110" startPosition="24" endLine="114" endPosition="7" />
+    <scopeInfo nodeId="3182425861591393157" fileName="ConstraintsGraphProcessor.java" startLine="170" startPosition="119" endLine="174" endPosition="0" />
+    <scopeInfo nodeId="3182425861591393183" fileName="ConstraintsGraphProcessor.java" startLine="176" startPosition="119" endLine="180" endPosition="0" />
+    <scopeInfo nodeId="5728232039832658407" fileName="ConstraintsGraphProcessor.java" startLine="195" startPosition="46" endLine="199" endPosition="7" />
+    <scopeInfo nodeId="3182425861591393280" fileName="ConstraintsGraphProcessor.java" startLine="206" startPosition="110" endLine="210" endPosition="0" />
+    <scopeInfo nodeId="3182425861591393072" fileName="ConstraintsGraphProcessor.java" startLine="228" startPosition="71" endLine="232" endPosition="7">
+      <varInfo nodeId="3182425861591393074" varName="componentNode" />
+    </scopeInfo>
+    <scopeInfo nodeId="5274739094344166086" fileName="ConstraintsGraphProcessor.java" startLine="273" startPosition="126" endLine="277" endPosition="0" />
+    <scopeInfo nodeId="5274739094344166103" fileName="ConstraintsGraphProcessor.java" startLine="278" startPosition="126" endLine="282" endPosition="0" />
+    <scopeInfo nodeId="5274739094344166167" fileName="ConstraintsGraphProcessor.java" startLine="311" startPosition="124" endLine="315" endPosition="0" />
+    <scopeInfo nodeId="5274739094344166298" fileName="ConstraintsGraphProcessor.java" startLine="320" startPosition="117" endLine="324" endPosition="0" />
+    <scopeInfo nodeId="5274739094344166328" fileName="ConstraintsGraphProcessor.java" startLine="325" startPosition="25" endLine="329" endPosition="23" />
+    <scopeInfo nodeId="3182425861591366360" fileName="ConstraintsGraphProcessor.java" startLine="43" startPosition="0" endLine="48" endPosition="3">
+      <varInfo nodeId="3182425861591366366" varName="directions" />
+      <varInfo nodeId="3182425861591366364" varName="embeddedGraph" />
+    </scopeInfo>
+    <scopeInfo nodeId="5274739094344259848" fileName="ConstraintsGraphProcessor.java" startLine="72" startPosition="83" endLine="77" endPosition="5" />
+    <scopeInfo nodeId="5728232039832677162" fileName="ConstraintsGraphProcessor.java" startLine="95" startPosition="27" endLine="100" endPosition="58" />
+    <scopeInfo nodeId="5728232039832693520" fileName="ConstraintsGraphProcessor.java" startLine="119" startPosition="45" endLine="124" endPosition="9">
+      <varInfo nodeId="5728232039832693523" varName="i" />
+    </scopeInfo>
+    <scopeInfo nodeId="5274739094344237502" fileName="ConstraintsGraphProcessor.java" startLine="137" startPosition="20" endLine="142" endPosition="7" />
+    <scopeInfo nodeId="5274739094344237510" fileName="ConstraintsGraphProcessor.java" startLine="137" startPosition="20" endLine="142" endPosition="7" />
+    <scopeInfo nodeId="5274739094344242912" fileName="ConstraintsGraphProcessor.java" startLine="154" startPosition="24" endLine="159" endPosition="7" />
+    <scopeInfo nodeId="5728232039832687376" fileName="ConstraintsGraphProcessor.java" startLine="162" startPosition="0" endLine="167" endPosition="0">
+      <varInfo nodeId="5274739094344242993" varName="directions" />
+      <varInfo nodeId="5728232039832687381" varName="nodes" />
+    </scopeInfo>
+    <scopeInfo nodeId="3182425861591393023" fileName="ConstraintsGraphProcessor.java" startLine="220" startPosition="133" endLine="225" endPosition="0" />
+    <scopeInfo nodeId="5728232039832718155" fileName="ConstraintsGraphProcessor.java" startLine="51" startPosition="15" endLine="57" endPosition="5" />
+    <scopeInfo nodeId="3182425861591393196" fileName="ConstraintsGraphProcessor.java" startLine="182" startPosition="65" endLine="188" endPosition="7">
+      <varInfo nodeId="3182425861591393355" varName="newEdge" />
+    </scopeInfo>
+    <scopeInfo nodeId="3182425861591393070" fileName="ConstraintsGraphProcessor.java" startLine="227" startPosition="41" endLine="233" endPosition="5" />
+    <scopeInfo nodeId="5274739094344191964" fileName="ConstraintsGraphProcessor.java" startLine="334" startPosition="20" endLine="340" endPosition="7" />
+    <scopeInfo nodeId="5728232039832718185" fileName="ConstraintsGraphProcessor.java" startLine="58" startPosition="20" endLine="65" endPosition="26" />
+    <scopeInfo nodeId="5728232039832682215" fileName="ConstraintsGraphProcessor.java" startLine="127" startPosition="14" endLine="134" endPosition="9" />
+    <scopeInfo nodeId="5728232039832657446" fileName="ConstraintsGraphProcessor.java" startLine="194" startPosition="24" endLine="201" endPosition="79" />
+    <scopeInfo nodeId="5274739094344192111" fileName="ConstraintsGraphProcessor.java" startLine="262" startPosition="64" endLine="269" endPosition="17" />
+    <scopeInfo nodeId="5728232039832682167" fileName="ConstraintsGraphProcessor.java" startLine="118" startPosition="175" endLine="126" endPosition="22" />
+    <scopeInfo nodeId="3182425861591393193" fileName="ConstraintsGraphProcessor.java" startLine="181" startPosition="77" endLine="189" endPosition="5" />
+    <scopeInfo nodeId="5274739094344259808" fileName="ConstraintsGraphProcessor.java" startLine="69" startPosition="44" endLine="78" endPosition="23">
+      <varInfo nodeId="5274739094344259822" varName="horNumbering" />
+      <varInfo nodeId="5274739094344259814" varName="verNumbering" />
+      <varInfo nodeId="5274739094344259836" varName="coordinates" />
+    </scopeInfo>
+    <scopeInfo nodeId="5274739094344192108" fileName="ConstraintsGraphProcessor.java" startLine="261" startPosition="0" endLine="271" endPosition="0">
+      <varInfo nodeId="5274739094344192123" varName="node" />
+      <varInfo nodeId="5274739094344192126" varName="ends" />
+      <varInfo nodeId="5274739094344192114" varName="graph" />
+    </scopeInfo>
+    <scopeInfo nodeId="3182425861591393250" fileName="ConstraintsGraphProcessor.java" startLine="205" startPosition="93" endLine="216" endPosition="16">
+      <varInfo nodeId="3182425861591393272" varName="dart" />
+    </scopeInfo>
+    <scopeInfo nodeId="5274739094344192143" fileName="ConstraintsGraphProcessor.java" startLine="290" startPosition="77" endLine="301" endPosition="16">
+      <varInfo nodeId="5274739094344192156" varName="ends" />
+      <varInfo nodeId="5274739094344192182" varName="nodeMap" />
+    </scopeInfo>
+    <scopeInfo nodeId="5274739094344259805" fileName="ConstraintsGraphProcessor.java" startLine="68" startPosition="0" endLine="80" endPosition="0" />
+    <scopeInfo nodeId="5274739094344242837" fileName="ConstraintsGraphProcessor.java" startLine="147" startPosition="87" endLine="160" endPosition="5">
+      <varInfo nodeId="5274739094344242886" varName="edge" />
+    </scopeInfo>
+    <scopeInfo nodeId="5274739094344166226" fileName="ConstraintsGraphProcessor.java" startLine="319" startPosition="52" endLine="332" endPosition="7">
+      <varInfo nodeId="5274739094344166275" varName="dart" />
+    </scopeInfo>
+    <scopeInfo nodeId="3182425861591393247" fileName="ConstraintsGraphProcessor.java" startLine="204" startPosition="0" endLine="218" endPosition="0">
+      <varInfo nodeId="3182425861591393258" varName="nodeMap" />
+      <varInfo nodeId="3182425861591393267" varName="direction" />
+      <varInfo nodeId="3182425861591393253" varName="realEdge" />
+    </scopeInfo>
+    <scopeInfo nodeId="5274739094344192140" fileName="ConstraintsGraphProcessor.java" startLine="289" startPosition="0" endLine="303" endPosition="0">
+      <varInfo nodeId="5274739094344192150" varName="direction" />
+      <varInfo nodeId="5274739094344192148" varName="segment" />
+    </scopeInfo>
+    <scopeInfo nodeId="3182425861591393015" fileName="ConstraintsGraphProcessor.java" startLine="219" startPosition="163" endLine="234" endPosition="28">
+      <varInfo nodeId="3182425861591393043" varName="componentsList" />
+      <varInfo nodeId="3182425861591393017" varName="components" />
+      <varInfo nodeId="3182425861591393057" varName="constraintsCraph" />
+    </scopeInfo>
+    <scopeInfo nodeId="5274739094344166077" fileName="ConstraintsGraphProcessor.java" startLine="272" startPosition="85" endLine="287" endPosition="22">
+      <varInfo nodeId="5274739094344166073" varName="intersects" />
+      <varInfo nodeId="5274739094344166071" varName="verNodes" />
+      <varInfo nodeId="5274739094344166070" varName="horNodes" />
+    </scopeInfo>
+    <scopeInfo nodeId="5274739094344166223" fileName="ConstraintsGraphProcessor.java" startLine="318" startPosition="30" endLine="333" endPosition="5" />
+    <scopeInfo nodeId="5728232039832718151" fileName="ConstraintsGraphProcessor.java" startLine="50" startPosition="32" endLine="66" endPosition="5" />
+    <scopeInfo nodeId="7861048744530874547" fileName="ConstraintsGraphProcessor.java" startLine="86" startPosition="62" endLine="102" endPosition="20">
+      <varInfo nodeId="7861048744530874598" varName="seg" />
+      <varInfo nodeId="7861048744530874585" varName="source" />
+      <varInfo nodeId="7861048744530874561" varName="dir" />
+    </scopeInfo>
+    <scopeInfo nodeId="5274739094344242834" fileName="ConstraintsGraphProcessor.java" startLine="146" startPosition="0" endLine="162" endPosition="0">
+      <varInfo nodeId="5274739094344242839" varName="node1" />
+      <varInfo nodeId="5274739094344242844" varName="direction" />
+      <varInfo nodeId="5274739094344242841" varName="node2" />
+    </scopeInfo>
+    <scopeInfo nodeId="7861048744530874544" fileName="ConstraintsGraphProcessor.java" startLine="85" startPosition="24" endLine="103" endPosition="5" />
+    <scopeInfo nodeId="5728232039832682133" fileName="ConstraintsGraphProcessor.java" startLine="117" startPosition="57" endLine="135" endPosition="7" />
+    <scopeInfo nodeId="3182425861591393012" fileName="ConstraintsGraphProcessor.java" startLine="218" startPosition="0" endLine="236" endPosition="0">
+      <varInfo nodeId="3182425861591393091" varName="nodeMap" />
+      <varInfo nodeId="3182425861591393101" varName="directionFilter" />
+    </scopeInfo>
+    <scopeInfo nodeId="5274739094344165966" fileName="ConstraintsGraphProcessor.java" startLine="239" startPosition="83" endLine="257" endPosition="9">
+      <varInfo nodeId="5274739094344191975" varName="verEnds" />
+      <varInfo nodeId="5274739094344192022" varName="isSeparated" />
+      <varInfo nodeId="5274739094344191948" varName="horEnds" />
+    </scopeInfo>
+    <scopeInfo nodeId="5274739094344166074" fileName="ConstraintsGraphProcessor.java" startLine="271" startPosition="0" endLine="289" endPosition="0">
+      <varInfo nodeId="5274739094344166130" varName="horSegment" />
+      <varInfo nodeId="5274739094344166132" varName="verSegment" />
+    </scopeInfo>
+    <scopeInfo nodeId="5728232039832718148" fileName="ConstraintsGraphProcessor.java" startLine="49" startPosition="0" endLine="68" endPosition="0" />
+    <scopeInfo nodeId="5274739094344159941" fileName="ConstraintsGraphProcessor.java" startLine="238" startPosition="81" endLine="258" endPosition="7" />
+    <scopeInfo nodeId="5274739094344165963" fileName="ConstraintsGraphProcessor.java" startLine="238" startPosition="81" endLine="258" endPosition="7" />
+    <scopeInfo nodeId="5274739094344159936" fileName="ConstraintsGraphProcessor.java" startLine="237" startPosition="36" endLine="259" endPosition="5" />
+    <scopeInfo nodeId="5274739094344159938" fileName="ConstraintsGraphProcessor.java" startLine="237" startPosition="36" endLine="259" endPosition="5" />
+    <scopeInfo nodeId="5274739094344159933" fileName="ConstraintsGraphProcessor.java" startLine="236" startPosition="0" endLine="261" endPosition="0" />
+    <scopeInfo nodeId="3182425861591366403" fileName="ConstraintsGraphProcessor.java" startLine="168" startPosition="26" endLine="202" endPosition="5">
+      <varInfo nodeId="3182425861591392879" varName="edgeMap" />
+      <varInfo nodeId="3182425861591393154" varName="horConstraintsGraph" />
+      <varInfo nodeId="3182425861591393171" varName="verNodeMap" />
+      <varInfo nodeId="3182425861591393125" varName="horNodeMap" />
+      <varInfo nodeId="3182425861591393180" varName="verConstraintsGraph" />
+    </scopeInfo>
+    <scopeInfo nodeId="3182425861591366400" fileName="ConstraintsGraphProcessor.java" startLine="167" startPosition="0" endLine="204" endPosition="0" />
+    <scopeInfo nodeId="5274739094344166148" fileName="ConstraintsGraphProcessor.java" startLine="304" startPosition="82" endLine="343" endPosition="16">
+      <varInfo nodeId="5274739094344166262" varName="ends" />
+      <varInfo nodeId="5274739094344166230" varName="firstCandidates" />
+      <varInfo nodeId="5274739094344166159" varName="nodes" />
+      <varInfo nodeId="5274739094344166179" varName="nodeMap" />
+    </scopeInfo>
+    <scopeInfo nodeId="5274739094344166145" fileName="ConstraintsGraphProcessor.java" startLine="303" startPosition="0" endLine="345" endPosition="0">
+      <varInfo nodeId="5274739094344166154" varName="direction" />
+      <varInfo nodeId="5274739094344166152" varName="segment" />
+    </scopeInfo>
+    <scopeInfo nodeId="7861048744530874495" fileName="ConstraintsGraphProcessor.java" startLine="81" startPosition="44" endLine="144" endPosition="41">
+      <varInfo nodeId="7861048744530874513" varName="directions" />
+      <varInfo nodeId="7861048744530874628" varName="prevSeg" />
+      <varInfo nodeId="7861048744530874524" varName="rotations" />
+      <varInfo nodeId="7861048744530874503" varName="segments" />
+      <varInfo nodeId="5728232039832682146" varName="numShifts" />
+    </scopeInfo>
+    <scopeInfo nodeId="7861048744530874492" fileName="ConstraintsGraphProcessor.java" startLine="80" startPosition="0" endLine="146" endPosition="0">
+      <varInfo nodeId="7861048744530874500" varName="face" />
+    </scopeInfo>
+    <unitInfo nodeId="3182425861591393157" fileName="ConstraintsGraphProcessor.java" startLine="170" startPosition="65" endLine="174" endPosition="5" unitName="jetbrains.mps.graphLayout.flowOrthogonalLayout.ConstraintsGraphProcessor$1" />
+    <unitInfo nodeId="3182425861591393183" fileName="ConstraintsGraphProcessor.java" startLine="176" startPosition="65" endLine="180" endPosition="5" unitName="jetbrains.mps.graphLayout.flowOrthogonalLayout.ConstraintsGraphProcessor$2" />
+    <unitInfo nodeId="3182425861591393280" fileName="ConstraintsGraphProcessor.java" startLine="206" startPosition="88" endLine="210" endPosition="5" unitName="jetbrains.mps.graphLayout.flowOrthogonalLayout.ConstraintsGraphProcessor$3" />
+    <unitInfo nodeId="5274739094344166086" fileName="ConstraintsGraphProcessor.java" startLine="273" startPosition="104" endLine="277" endPosition="5" unitName="jetbrains.mps.graphLayout.flowOrthogonalLayout.ConstraintsGraphProcessor$5" />
+    <unitInfo nodeId="5274739094344166103" fileName="ConstraintsGraphProcessor.java" startLine="278" startPosition="104" endLine="282" endPosition="5" unitName="jetbrains.mps.graphLayout.flowOrthogonalLayout.ConstraintsGraphProcessor$6" />
+    <unitInfo nodeId="5274739094344166167" fileName="ConstraintsGraphProcessor.java" startLine="311" startPosition="102" endLine="315" endPosition="5" unitName="jetbrains.mps.graphLayout.flowOrthogonalLayout.ConstraintsGraphProcessor$7" />
+    <unitInfo nodeId="5274739094344166298" fileName="ConstraintsGraphProcessor.java" startLine="320" startPosition="95" endLine="324" endPosition="7" unitName="jetbrains.mps.graphLayout.flowOrthogonalLayout.ConstraintsGraphProcessor$8" />
+    <unitInfo nodeId="3182425861591393023" fileName="ConstraintsGraphProcessor.java" startLine="220" startPosition="86" endLine="225" endPosition="5" unitName="jetbrains.mps.graphLayout.flowOrthogonalLayout.ConstraintsGraphProcessor$4" />
+    <unitInfo nodeId="3182425861591366358" fileName="ConstraintsGraphProcessor.java" startLine="32" startPosition="0" endLine="346" endPosition="0" unitName="jetbrains.mps.graphLayout.flowOrthogonalLayout.ConstraintsGraphProcessor" />
+  </root>
   <root nodeId="3698135283642052543">
     <nodeInfo nodeId="3698135283642052784" fileName="OrthogonalRepresentationWithNodesProcessing.java" startLine="26" startPosition="58" endLine="27" endPosition="35" />
     <nodeInfo nodeId="3698135283642052792" fileName="OrthogonalRepresentationWithNodesProcessing.java" startLine="29" startPosition="148" endLine="30" endPosition="43" />
@@ -1681,26 +2123,30 @@
     <nodeInfo nodeId="5488345258545828478" fileName="OrthogonalPointFlowLayouter.java" startLine="124" startPosition="88" endLine="125" endPosition="170" />
     <nodeInfo nodeId="5488345258545828499" fileName="OrthogonalPointFlowLayouter.java" startLine="125" startPosition="170" endLine="126" endPosition="24" />
     <nodeInfo nodeId="3380715998758082592" fileName="OrthogonalPointFlowLayouter.java" startLine="127" startPosition="5" endLine="128" endPosition="93" />
-    <nodeInfo nodeId="3380715998758082603" fileName="OrthogonalPointFlowLayouter.java" startLine="128" startPosition="93" endLine="129" endPosition="87" />
-    <nodeInfo nodeId="3380715998758082617" fileName="OrthogonalPointFlowLayouter.java" startLine="129" startPosition="87" endLine="130" endPosition="59" />
-    <nodeInfo nodeId="3380715998758082801" fileName="OrthogonalPointFlowLayouter.java" startLine="130" startPosition="59" endLine="131" endPosition="63" />
-    <nodeInfo nodeId="3380715998758082820" fileName="OrthogonalPointFlowLayouter.java" startLine="132" startPosition="55" endLine="133" endPosition="81" />
-    <nodeInfo nodeId="3380715998758082848" fileName="OrthogonalPointFlowLayouter.java" startLine="135" startPosition="55" endLine="136" endPosition="63" />
-    <nodeInfo nodeId="3380715998758082869" fileName="OrthogonalPointFlowLayouter.java" startLine="136" startPosition="63" endLine="137" endPosition="77" />
-    <nodeInfo nodeId="4422427343208575196" fileName="OrthogonalPointFlowLayouter.java" startLine="137" startPosition="77" endLine="138" endPosition="34" />
-    <nodeInfo nodeId="3380715998758082879" fileName="OrthogonalPointFlowLayouter.java" startLine="138" startPosition="34" endLine="139" endPosition="94" />
-    <nodeInfo nodeId="4422427343208575211" fileName="OrthogonalPointFlowLayouter.java" startLine="140" startPosition="63" endLine="141" endPosition="49" />
-    <nodeInfo nodeId="3380715998758082902" fileName="OrthogonalPointFlowLayouter.java" startLine="141" startPosition="49" endLine="142" endPosition="97" />
-    <nodeInfo nodeId="4422427343208575232" fileName="OrthogonalPointFlowLayouter.java" startLine="142" startPosition="97" endLine="143" endPosition="19" />
-    <nodeInfo nodeId="3380715998758082921" fileName="OrthogonalPointFlowLayouter.java" startLine="144" startPosition="7" endLine="145" endPosition="49" />
-    <nodeInfo nodeId="5488345258545828559" fileName="OrthogonalPointFlowLayouter.java" startLine="147" startPosition="24" endLine="148" endPosition="48" />
-    <nodeInfo nodeId="5488345258545828563" fileName="OrthogonalPointFlowLayouter.java" startLine="148" startPosition="48" endLine="149" endPosition="78" />
-    <nodeInfo nodeId="5488345258545828597" fileName="OrthogonalPointFlowLayouter.java" startLine="149" startPosition="78" endLine="150" endPosition="24" />
-    <nodeInfo nodeId="3380715998758082686" fileName="OrthogonalPointFlowLayouter.java" startLine="151" startPosition="5" endLine="152" endPosition="23" />
-    <nodeInfo nodeId="3380715998758082718" fileName="OrthogonalPointFlowLayouter.java" startLine="156" startPosition="71" endLine="157" endPosition="35" />
-    <nodeInfo nodeId="3380715998758082725" fileName="OrthogonalPointFlowLayouter.java" startLine="158" startPosition="44" endLine="159" endPosition="37" />
-    <nodeInfo nodeId="3380715998758082736" fileName="OrthogonalPointFlowLayouter.java" startLine="161" startPosition="64" endLine="162" endPosition="94" />
-    <nodeInfo nodeId="3380715998758082752" fileName="OrthogonalPointFlowLayouter.java" startLine="163" startPosition="7" endLine="164" endPosition="27" />
+    <nodeInfo nodeId="5274739094344265321" fileName="OrthogonalPointFlowLayouter.java" startLine="128" startPosition="93" endLine="129" endPosition="33" />
+    <nodeInfo nodeId="3380715998758082603" fileName="OrthogonalPointFlowLayouter.java" startLine="130" startPosition="6" endLine="131" endPosition="89" />
+    <nodeInfo nodeId="5274739094344265318" fileName="OrthogonalPointFlowLayouter.java" startLine="131" startPosition="89" endLine="132" endPosition="44" />
+    <nodeInfo nodeId="5274739094344265331" fileName="OrthogonalPointFlowLayouter.java" startLine="133" startPosition="6" endLine="134" endPosition="99" />
+    <nodeInfo nodeId="5274739094344265341" fileName="OrthogonalPointFlowLayouter.java" startLine="134" startPosition="99" endLine="135" endPosition="31" />
+    <nodeInfo nodeId="5274739094344265357" fileName="OrthogonalPointFlowLayouter.java" startLine="135" startPosition="31" endLine="136" endPosition="45" />
+    <nodeInfo nodeId="3380715998758082801" fileName="OrthogonalPointFlowLayouter.java" startLine="136" startPosition="45" endLine="137" endPosition="63" />
+    <nodeInfo nodeId="3380715998758082820" fileName="OrthogonalPointFlowLayouter.java" startLine="138" startPosition="55" endLine="139" endPosition="81" />
+    <nodeInfo nodeId="3380715998758082848" fileName="OrthogonalPointFlowLayouter.java" startLine="141" startPosition="55" endLine="142" endPosition="63" />
+    <nodeInfo nodeId="3380715998758082869" fileName="OrthogonalPointFlowLayouter.java" startLine="142" startPosition="63" endLine="143" endPosition="77" />
+    <nodeInfo nodeId="4422427343208575196" fileName="OrthogonalPointFlowLayouter.java" startLine="143" startPosition="77" endLine="144" endPosition="34" />
+    <nodeInfo nodeId="3380715998758082879" fileName="OrthogonalPointFlowLayouter.java" startLine="144" startPosition="34" endLine="145" endPosition="94" />
+    <nodeInfo nodeId="4422427343208575211" fileName="OrthogonalPointFlowLayouter.java" startLine="146" startPosition="63" endLine="147" endPosition="49" />
+    <nodeInfo nodeId="3380715998758082902" fileName="OrthogonalPointFlowLayouter.java" startLine="147" startPosition="49" endLine="148" endPosition="97" />
+    <nodeInfo nodeId="4422427343208575232" fileName="OrthogonalPointFlowLayouter.java" startLine="148" startPosition="97" endLine="149" endPosition="19" />
+    <nodeInfo nodeId="3380715998758082921" fileName="OrthogonalPointFlowLayouter.java" startLine="150" startPosition="7" endLine="151" endPosition="49" />
+    <nodeInfo nodeId="5488345258545828559" fileName="OrthogonalPointFlowLayouter.java" startLine="153" startPosition="24" endLine="154" endPosition="48" />
+    <nodeInfo nodeId="5488345258545828563" fileName="OrthogonalPointFlowLayouter.java" startLine="154" startPosition="48" endLine="155" endPosition="78" />
+    <nodeInfo nodeId="5488345258545828597" fileName="OrthogonalPointFlowLayouter.java" startLine="155" startPosition="78" endLine="156" endPosition="24" />
+    <nodeInfo nodeId="3380715998758082686" fileName="OrthogonalPointFlowLayouter.java" startLine="157" startPosition="5" endLine="158" endPosition="23" />
+    <nodeInfo nodeId="3380715998758082718" fileName="OrthogonalPointFlowLayouter.java" startLine="162" startPosition="71" endLine="163" endPosition="35" />
+    <nodeInfo nodeId="3380715998758082725" fileName="OrthogonalPointFlowLayouter.java" startLine="164" startPosition="44" endLine="165" endPosition="37" />
+    <nodeInfo nodeId="3380715998758082736" fileName="OrthogonalPointFlowLayouter.java" startLine="167" startPosition="64" endLine="168" endPosition="94" />
+    <nodeInfo nodeId="3380715998758082752" fileName="OrthogonalPointFlowLayouter.java" startLine="169" startPosition="7" endLine="170" endPosition="27" />
     <nodeInfo nodeId="529057043639208600" fileName="OrthogonalPointFlowLayouter.java" startLine="32" startPosition="0" endLine="34" endPosition="3" />
     <nodeInfo nodeId="4422427343208581853" fileName="OrthogonalPointFlowLayouter.java" startLine="80" startPosition="14" endLine="82" endPosition="9" />
     <nodeInfo nodeId="5488345258545822762" fileName="OrthogonalPointFlowLayouter.java" startLine="38" startPosition="19" endLine="41" endPosition="5" />
@@ -1708,26 +2154,27 @@
     <nodeInfo nodeId="529057043639328342" fileName="OrthogonalPointFlowLayouter.java" startLine="47" startPosition="5" endLine="50" endPosition="5" />
     <nodeInfo nodeId="4422427343208738010" fileName="OrthogonalPointFlowLayouter.java" startLine="57" startPosition="81" endLine="60" endPosition="7" />
     <nodeInfo nodeId="3380715998758086430" fileName="OrthogonalPointFlowLayouter.java" startLine="69" startPosition="63" endLine="72" endPosition="5" />
-    <nodeInfo nodeId="3380715998758082809" fileName="OrthogonalPointFlowLayouter.java" startLine="131" startPosition="63" endLine="134" endPosition="5" />
-    <nodeInfo nodeId="3380715998758082723" fileName="OrthogonalPointFlowLayouter.java" startLine="157" startPosition="35" endLine="160" endPosition="7" />
-    <nodeInfo nodeId="3380715998758082734" fileName="OrthogonalPointFlowLayouter.java" startLine="160" startPosition="7" endLine="163" endPosition="7" />
+    <nodeInfo nodeId="3380715998758082809" fileName="OrthogonalPointFlowLayouter.java" startLine="137" startPosition="63" endLine="140" endPosition="5" />
+    <nodeInfo nodeId="3380715998758082723" fileName="OrthogonalPointFlowLayouter.java" startLine="163" startPosition="35" endLine="166" endPosition="7" />
+    <nodeInfo nodeId="3380715998758082734" fileName="OrthogonalPointFlowLayouter.java" startLine="166" startPosition="7" endLine="169" endPosition="7" />
     <nodeInfo nodeId="5488345258545822905" fileName="OrthogonalPointFlowLayouter.java" startLine="86" startPosition="5" endLine="90" endPosition="5" />
     <nodeInfo nodeId="3380715998758082447" fileName="OrthogonalPointFlowLayouter.java" startLine="102" startPosition="82" endLine="106" endPosition="5" />
     <nodeInfo nodeId="6370402596948413032" fileName="OrthogonalPointFlowLayouter.java" startLine="117" startPosition="36" endLine="121" endPosition="5" />
+    <nodeInfo nodeId="5274739094344265326" fileName="OrthogonalPointFlowLayouter.java" startLine="129" startPosition="33" endLine="133" endPosition="6" />
     <nodeInfo nodeId="4422427343208581831" fileName="OrthogonalPointFlowLayouter.java" startLine="77" startPosition="60" endLine="82" endPosition="9" />
     <nodeInfo nodeId="5488345258545829957" fileName="OrthogonalPointFlowLayouter.java" startLine="106" startPosition="5" endLine="111" endPosition="5" />
-    <nodeInfo nodeId="3380715998758082862" fileName="OrthogonalPointFlowLayouter.java" startLine="139" startPosition="94" endLine="144" endPosition="7" />
-    <nodeInfo nodeId="5488345258545828557" fileName="OrthogonalPointFlowLayouter.java" startLine="146" startPosition="5" endLine="151" endPosition="5" />
+    <nodeInfo nodeId="3380715998758082862" fileName="OrthogonalPointFlowLayouter.java" startLine="145" startPosition="94" endLine="150" endPosition="7" />
+    <nodeInfo nodeId="5488345258545828557" fileName="OrthogonalPointFlowLayouter.java" startLine="152" startPosition="5" endLine="157" endPosition="5" />
     <nodeInfo nodeId="5488345258545828305" fileName="OrthogonalPointFlowLayouter.java" startLine="61" startPosition="5" endLine="67" endPosition="5" />
     <nodeInfo nodeId="5488345258545828459" fileName="OrthogonalPointFlowLayouter.java" startLine="121" startPosition="5" endLine="127" endPosition="5" />
     <nodeInfo nodeId="3380715998758092580" fileName="OrthogonalPointFlowLayouter.java" startLine="53" startPosition="89" endLine="61" endPosition="5" />
     <nodeInfo nodeId="3380715998758092994" fileName="OrthogonalPointFlowLayouter.java" startLine="76" startPosition="73" endLine="84" endPosition="7" />
-    <nodeInfo nodeId="3380715998758082713" fileName="OrthogonalPointFlowLayouter.java" startLine="155" startPosition="113" endLine="165" endPosition="5" />
-    <nodeInfo nodeId="3380715998758082836" fileName="OrthogonalPointFlowLayouter.java" startLine="134" startPosition="5" endLine="146" endPosition="5" />
-    <nodeInfo nodeId="3380715998758082700" fileName="OrthogonalPointFlowLayouter.java" startLine="154" startPosition="0" endLine="167" endPosition="0" />
+    <nodeInfo nodeId="3380715998758082713" fileName="OrthogonalPointFlowLayouter.java" startLine="161" startPosition="113" endLine="171" endPosition="5" />
+    <nodeInfo nodeId="3380715998758082836" fileName="OrthogonalPointFlowLayouter.java" startLine="140" startPosition="5" endLine="152" endPosition="5" />
+    <nodeInfo nodeId="3380715998758082700" fileName="OrthogonalPointFlowLayouter.java" startLine="160" startPosition="0" endLine="173" endPosition="0" />
     <nodeInfo nodeId="3380715998758086639" fileName="OrthogonalPointFlowLayouter.java" startLine="72" startPosition="5" endLine="86" endPosition="5" />
     <nodeInfo nodeId="529057043639208604" fileName="OrthogonalPointFlowLayouter.java" startLine="35" startPosition="0" endLine="93" endPosition="0" />
-    <nodeInfo nodeId="3380715998758077821" fileName="OrthogonalPointFlowLayouter.java" startLine="93" startPosition="0" endLine="154" endPosition="0" />
+    <nodeInfo nodeId="3380715998758077821" fileName="OrthogonalPointFlowLayouter.java" startLine="93" startPosition="0" endLine="160" endPosition="0" />
     <scopeInfo nodeId="529057043639208603" fileName="OrthogonalPointFlowLayouter.java" startLine="33" startPosition="40" endLine="33" endPosition="40" />
     <scopeInfo nodeId="5488345258545822763" fileName="OrthogonalPointFlowLayouter.java" startLine="39" startPosition="24" endLine="40" endPosition="190" />
     <scopeInfo nodeId="529057043639328319" fileName="OrthogonalPointFlowLayouter.java" startLine="45" startPosition="63" endLine="46" endPosition="61" />
@@ -1736,9 +2183,9 @@
     <scopeInfo nodeId="3380715998758086433" fileName="OrthogonalPointFlowLayouter.java" startLine="70" startPosition="63" endLine="71" endPosition="102" />
     <scopeInfo nodeId="4422427343208581832" fileName="OrthogonalPointFlowLayouter.java" startLine="78" startPosition="38" endLine="79" endPosition="110" />
     <scopeInfo nodeId="4422427343208581854" fileName="OrthogonalPointFlowLayouter.java" startLine="80" startPosition="16" endLine="81" endPosition="125" />
-    <scopeInfo nodeId="3380715998758082812" fileName="OrthogonalPointFlowLayouter.java" startLine="132" startPosition="55" endLine="133" endPosition="81" />
-    <scopeInfo nodeId="3380715998758082724" fileName="OrthogonalPointFlowLayouter.java" startLine="158" startPosition="44" endLine="159" endPosition="37" />
-    <scopeInfo nodeId="3380715998758082735" fileName="OrthogonalPointFlowLayouter.java" startLine="161" startPosition="64" endLine="162" endPosition="94" />
+    <scopeInfo nodeId="3380715998758082812" fileName="OrthogonalPointFlowLayouter.java" startLine="138" startPosition="55" endLine="139" endPosition="81" />
+    <scopeInfo nodeId="3380715998758082724" fileName="OrthogonalPointFlowLayouter.java" startLine="164" startPosition="44" endLine="165" endPosition="37" />
+    <scopeInfo nodeId="3380715998758082735" fileName="OrthogonalPointFlowLayouter.java" startLine="167" startPosition="64" endLine="168" endPosition="94" />
     <scopeInfo nodeId="529057043639208600" fileName="OrthogonalPointFlowLayouter.java" startLine="32" startPosition="0" endLine="34" endPosition="3" />
     <scopeInfo nodeId="5488345258545822906" fileName="OrthogonalPointFlowLayouter.java" startLine="87" startPosition="24" endLine="89" endPosition="64">
       <varInfo nodeId="5488345258545822908" varName="newTime" />
@@ -1751,42 +2198,42 @@
     <scopeInfo nodeId="5488345258545829958" fileName="OrthogonalPointFlowLayouter.java" startLine="107" startPosition="24" endLine="110" endPosition="24">
       <varInfo nodeId="5488345258545829960" varName="newTime" />
     </scopeInfo>
-    <scopeInfo nodeId="3380715998758082809" fileName="OrthogonalPointFlowLayouter.java" startLine="131" startPosition="63" endLine="134" endPosition="5" />
-    <scopeInfo nodeId="3380715998758082865" fileName="OrthogonalPointFlowLayouter.java" startLine="140" startPosition="63" endLine="143" endPosition="19">
+    <scopeInfo nodeId="3380715998758082809" fileName="OrthogonalPointFlowLayouter.java" startLine="137" startPosition="63" endLine="140" endPosition="5" />
+    <scopeInfo nodeId="3380715998758082865" fileName="OrthogonalPointFlowLayouter.java" startLine="146" startPosition="63" endLine="149" endPosition="19">
       <varInfo nodeId="4422427343208575212" varName="next" />
     </scopeInfo>
-    <scopeInfo nodeId="5488345258545828558" fileName="OrthogonalPointFlowLayouter.java" startLine="147" startPosition="24" endLine="150" endPosition="24">
+    <scopeInfo nodeId="5488345258545828558" fileName="OrthogonalPointFlowLayouter.java" startLine="153" startPosition="24" endLine="156" endPosition="24">
       <varInfo nodeId="5488345258545828560" varName="newTime" />
     </scopeInfo>
-    <scopeInfo nodeId="3380715998758082734" fileName="OrthogonalPointFlowLayouter.java" startLine="160" startPosition="7" endLine="163" endPosition="7" />
+    <scopeInfo nodeId="3380715998758082734" fileName="OrthogonalPointFlowLayouter.java" startLine="166" startPosition="7" endLine="169" endPosition="7" />
     <scopeInfo nodeId="5488345258545828306" fileName="OrthogonalPointFlowLayouter.java" startLine="62" startPosition="24" endLine="66" endPosition="24">
       <varInfo nodeId="5488345258545828308" varName="newTime" />
     </scopeInfo>
     <scopeInfo nodeId="5488345258545828460" fileName="OrthogonalPointFlowLayouter.java" startLine="122" startPosition="24" endLine="126" endPosition="24">
       <varInfo nodeId="5488345258545828462" varName="newTime" />
     </scopeInfo>
-    <scopeInfo nodeId="3380715998758082862" fileName="OrthogonalPointFlowLayouter.java" startLine="139" startPosition="94" endLine="144" endPosition="7" />
+    <scopeInfo nodeId="3380715998758082862" fileName="OrthogonalPointFlowLayouter.java" startLine="145" startPosition="94" endLine="150" endPosition="7" />
     <scopeInfo nodeId="3380715998758092583" fileName="OrthogonalPointFlowLayouter.java" startLine="54" startPosition="63" endLine="60" endPosition="7">
       <varInfo nodeId="5488345258545805054" varName="copyEdge" />
     </scopeInfo>
     <scopeInfo nodeId="3380715998758092997" fileName="OrthogonalPointFlowLayouter.java" startLine="77" startPosition="60" endLine="83" endPosition="36" />
     <scopeInfo nodeId="3380715998758092580" fileName="OrthogonalPointFlowLayouter.java" startLine="53" startPosition="89" endLine="61" endPosition="5" />
     <scopeInfo nodeId="3380715998758092994" fileName="OrthogonalPointFlowLayouter.java" startLine="76" startPosition="73" endLine="84" endPosition="7" />
-    <scopeInfo nodeId="3380715998758082717" fileName="OrthogonalPointFlowLayouter.java" startLine="156" startPosition="71" endLine="164" endPosition="27" />
-    <scopeInfo nodeId="3380715998758082839" fileName="OrthogonalPointFlowLayouter.java" startLine="135" startPosition="55" endLine="145" endPosition="49">
+    <scopeInfo nodeId="3380715998758082717" fileName="OrthogonalPointFlowLayouter.java" startLine="162" startPosition="71" endLine="170" endPosition="27" />
+    <scopeInfo nodeId="3380715998758082839" fileName="OrthogonalPointFlowLayouter.java" startLine="141" startPosition="55" endLine="151" endPosition="49">
       <varInfo nodeId="3380715998758082849" varName="history" />
       <varInfo nodeId="4422427343208575197" varName="cur" />
       <varInfo nodeId="3380715998758082870" varName="edgeLayout" />
     </scopeInfo>
-    <scopeInfo nodeId="3380715998758082707" fileName="OrthogonalPointFlowLayouter.java" startLine="155" startPosition="113" endLine="165" endPosition="5" />
-    <scopeInfo nodeId="3380715998758082713" fileName="OrthogonalPointFlowLayouter.java" startLine="155" startPosition="113" endLine="165" endPosition="5" />
+    <scopeInfo nodeId="3380715998758082707" fileName="OrthogonalPointFlowLayouter.java" startLine="161" startPosition="113" endLine="171" endPosition="5" />
+    <scopeInfo nodeId="3380715998758082713" fileName="OrthogonalPointFlowLayouter.java" startLine="161" startPosition="113" endLine="171" endPosition="5" />
     <scopeInfo nodeId="3380715998758086642" fileName="OrthogonalPointFlowLayouter.java" startLine="73" startPosition="68" endLine="85" endPosition="54">
       <varInfo nodeId="4422427343208581763" varName="cur" />
       <varInfo nodeId="3380715998758092626" varName="edgeLayout" />
       <varInfo nodeId="3380715998758092650" varName="edgeHistory" />
     </scopeInfo>
-    <scopeInfo nodeId="3380715998758082836" fileName="OrthogonalPointFlowLayouter.java" startLine="134" startPosition="5" endLine="146" endPosition="5" />
-    <scopeInfo nodeId="3380715998758082700" fileName="OrthogonalPointFlowLayouter.java" startLine="154" startPosition="0" endLine="167" endPosition="0">
+    <scopeInfo nodeId="3380715998758082836" fileName="OrthogonalPointFlowLayouter.java" startLine="140" startPosition="5" endLine="152" endPosition="5" />
+    <scopeInfo nodeId="3380715998758082700" fileName="OrthogonalPointFlowLayouter.java" startLine="160" startPosition="0" endLine="173" endPosition="0">
       <varInfo nodeId="3380715998758082699" varName="directions" />
       <varInfo nodeId="3380715998758082698" varName="embeddedGraph" />
     </scopeInfo>
@@ -1804,7 +2251,7 @@
     <scopeInfo nodeId="529057043639208604" fileName="OrthogonalPointFlowLayouter.java" startLine="35" startPosition="0" endLine="93" endPosition="0">
       <varInfo nodeId="529057043639208633" varName="graph" />
     </scopeInfo>
-    <scopeInfo nodeId="3380715998758077824" fileName="OrthogonalPointFlowLayouter.java" startLine="94" startPosition="70" endLine="152" endPosition="23">
+    <scopeInfo nodeId="3380715998758077824" fileName="OrthogonalPointFlowLayouter.java" startLine="94" startPosition="70" endLine="158" endPosition="23">
       <varInfo nodeId="6370402596948413026" varName="modifier" />
       <varInfo nodeId="3380715998758082469" varName="directions" />
       <varInfo nodeId="3380715998758082434" varName="angles" />
@@ -1814,13 +2261,13 @@
       <varInfo nodeId="3380715998758082386" varName="oldEdges" />
       <varInfo nodeId="3380715998758082425" varName="bends" />
       <varInfo nodeId="3380715998758082593" varName="lengths" />
-      <varInfo nodeId="3380715998758082604" varName="placer" />
-      <varInfo nodeId="3380715998758082618" varName="coordinates" />
+      <varInfo nodeId="5274739094344265332" varName="processor" />
+      <varInfo nodeId="5274739094344265322" varName="coordinates" />
     </scopeInfo>
-    <scopeInfo nodeId="3380715998758077821" fileName="OrthogonalPointFlowLayouter.java" startLine="93" startPosition="0" endLine="154" endPosition="0">
+    <scopeInfo nodeId="3380715998758077821" fileName="OrthogonalPointFlowLayouter.java" startLine="93" startPosition="0" endLine="160" endPosition="0">
       <varInfo nodeId="3380715998758077826" varName="embeddedGraph" />
     </scopeInfo>
-    <unitInfo nodeId="529057043639208598" fileName="OrthogonalPointFlowLayouter.java" startLine="25" startPosition="0" endLine="168" endPosition="0" unitName="jetbrains.mps.graphLayout.flowOrthogonalLayout.OrthogonalPointFlowLayouter" />
+    <unitInfo nodeId="529057043639208598" fileName="OrthogonalPointFlowLayouter.java" startLine="25" startPosition="0" endLine="174" endPosition="0" unitName="jetbrains.mps.graphLayout.flowOrthogonalLayout.OrthogonalPointFlowLayouter" />
   </root>
   <root nodeId="5530235529701257398">
     <nodeInfo nodeId="5530235529701257406" fileName="FlowLayoutWithNodeProcessing.java" startLine="25" startPosition="64" endLine="26" endPosition="34" />

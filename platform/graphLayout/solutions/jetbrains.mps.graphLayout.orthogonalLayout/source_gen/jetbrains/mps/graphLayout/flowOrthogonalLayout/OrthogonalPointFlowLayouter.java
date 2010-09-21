@@ -126,8 +126,14 @@ public class OrthogonalPointFlowLayouter implements ILayouter {
       curTime = newTime;
     }
     Map<Edge, Integer> lengths = new EdgeLengthComputer().compute(embeddedGraph, directions);
-    CoordinatePlacer placer = new CoordinatePlacer(embeddedGraph, lengths, directions);
-    Map<Node, Point> coordinates = placer.getCoordinates();
+    Map<Node, Point> coordinates;
+    /*
+      CoordinatePlacer placer = new CoordinatePlacer(embeddedGraph, lengths, directions);
+      coordinates = placer.getCoordinates();
+    */
+    ConstraintsGraphProcessor processor = new ConstraintsGraphProcessor(embeddedGraph, directions);
+    processor.constructGraph();
+    coordinates = processor.getCoordinates();
     GraphPointLayout graphLayout = new GraphPointLayout(graph);
     for (Node node : ListSequence.fromList(oldNodes)) {
       graphLayout.setLayoutFor(node, MapSequence.fromMap(coordinates).get(node));

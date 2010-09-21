@@ -5,15 +5,29 @@ package jetbrains.mps.graphLayout.algorithms;
 import java.util.Map;
 import jetbrains.mps.graphLayout.graph.Node;
 import jetbrains.mps.graphLayout.graph.Graph;
+import jetbrains.mps.baseLanguage.closures.runtime._FunctionTypes;
+import jetbrains.mps.graphLayout.graph.Edge;
 import jetbrains.mps.internal.collections.runtime.ListSequence;
 import jetbrains.mps.internal.collections.runtime.MapSequence;
-import jetbrains.mps.graphLayout.util.NodeMap;
-import jetbrains.mps.graphLayout.graph.Edge;
+import java.util.List;
+import jetbrains.mps.internal.collections.runtime.SetSequence;
+import java.util.ArrayList;
+import jetbrains.mps.internal.collections.runtime.LinkedListSequence;
+import jetbrains.mps.internal.collections.runtime.backports.LinkedList;
+import java.util.HashMap;
 
 public class ConnectivityComponents {
   public static Map<Node, Integer> getComponents(Graph graph) {
+    return getComponents(graph, new _FunctionTypes._return_P1_E0<Boolean, Edge>() {
+      public Boolean invoke(Edge edge) {
+        return true;
+      }
+    });
+  }
+
+  public static Map<Node, Integer> getComponents(Graph graph, _FunctionTypes._return_P1_E0<? extends Boolean, ? super Edge> filter) {
     ConnectivityComponents.MyDfs dfs = new ConnectivityComponents.MyDfs();
-    dfs.doDfs(graph);
+    dfs.doDfs(graph, Edge.Direction.BOTH, filter);
     return dfs.getComponents();
   }
 
@@ -27,6 +41,21 @@ public class ConnectivityComponents {
     return true;
   }
 
+  public static List<List<Node>> getComponentsList(Map<Node, Integer> components) {
+    int componentsNum = 0;
+    for (Node node : SetSequence.fromSet(MapSequence.fromMap(components).keySet())) {
+      componentsNum = Math.max(componentsNum, MapSequence.fromMap(components).get(node) + 1);
+    }
+    List<List<Node>> componentsList = ListSequence.fromList(new ArrayList<List<Node>>(componentsNum));
+    for (int i = 0; i < componentsNum; i++) {
+      ListSequence.fromList(componentsList).addElement(LinkedListSequence.fromLinkedList(new LinkedList<Node>()));
+    }
+    for (Node node : SetSequence.fromSet(MapSequence.fromMap(components).keySet())) {
+      ListSequence.fromList(ListSequence.fromList(componentsList).getElement(MapSequence.fromMap(components).get(node))).addElement(node);
+    }
+    return componentsList;
+  }
+
   private static class MyDfs extends Dfs {
     private Map<Node, Integer> myComponents;
     private int myCurrentComponent;
@@ -35,10 +64,10 @@ public class ConnectivityComponents {
     }
 
     @Override
-    public void doDfs(Graph graph) {
-      myComponents = new NodeMap<Integer>(graph);
+    public void doDfs(Graph graph, Edge.Direction direction, _FunctionTypes._return_P1_E0<? extends Boolean, ? super Edge> filter) {
+      myComponents = MapSequence.fromMap(new HashMap<Node, Integer>());
       myCurrentComponent = -1;
-      super.doDfs(graph, Edge.Direction.BOTH);
+      super.doDfs(graph, Edge.Direction.BOTH, filter);
     }
 
     @Override

@@ -1,5 +1,6 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <debugInfo>
+  <unitInfo fileName="TestRandomGraph_Test.java" startLine="16" startPosition="0" endLine="71" endPosition="0" unitName="internalTest.TestRandomGraph_Test" />
   <root nodeId="1567683135099905768">
     <nodeInfo nodeId="1567683135099905876" fileName="TestRandomGraph_Test.java" startLine="17" startPosition="56" endLine="18" endPosition="34" />
     <nodeInfo nodeId="1567683135099905885" fileName="TestRandomGraph_Test.java" startLine="18" startPosition="34" endLine="19" endPosition="22" />
@@ -40,7 +41,9 @@
     <nodeInfo nodeId="1567683135099905872" fileName="TestRandomGraph_Test.java" startLine="16" startPosition="52" endLine="50" endPosition="0" />
     <scopeInfo nodeId="1567683135099905930" fileName="TestRandomGraph_Test.java" startLine="28" startPosition="18" endLine="29" endPosition="37" />
     <scopeInfo nodeId="1567683135099905941" fileName="TestRandomGraph_Test.java" startLine="31" startPosition="55" endLine="32" endPosition="50" />
+    <scopeInfo nodeId="1567683135099905974" fileName="TestRandomGraph_Test.java" startLine="38" startPosition="0" endLine="39" endPosition="28" />
     <scopeInfo nodeId="1567683135099905974" fileName="TestRandomGraph_Test.java" startLine="38" startPosition="42" endLine="39" endPosition="28" />
+    <scopeInfo nodeId="1567683135099905983" fileName="TestRandomGraph_Test.java" startLine="44" startPosition="0" endLine="45" endPosition="28" />
     <scopeInfo nodeId="1567683135099905983" fileName="TestRandomGraph_Test.java" startLine="44" startPosition="42" endLine="45" endPosition="28" />
     <scopeInfo nodeId="1567683135099905849" fileName="TestRandomGraph_Test.java" startLine="65" startPosition="66" endLine="66" endPosition="129" />
     <scopeInfo nodeId="1567683135099905974" fileName="TestRandomGraph_Test.java" startLine="35" startPosition="9" endLine="37" endPosition="20" />

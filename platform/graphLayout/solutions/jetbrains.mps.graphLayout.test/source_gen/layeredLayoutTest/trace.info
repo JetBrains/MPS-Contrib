@@ -1,5 +1,9 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <debugInfo>
+  <unitInfo fileName="DFSEdgeReverter_Test.java" startLine="10" startPosition="0" endLine="16" endPosition="0" unitName="layeredLayoutTest.DFSEdgeReverter_Test" />
+  <unitInfo fileName="BlockGraphProcessor_Test.java" startLine="14" startPosition="0" endLine="39" endPosition="0" unitName="layeredLayoutTest.BlockGraphProcessor_Test" />
+  <unitInfo fileName="DFSNodeSorter_Test.java" startLine="18" startPosition="0" endLine="54" endPosition="0" unitName="layeredLayoutTest.DFSNodeSorter_Test" />
+  <unitInfo fileName="TopologicalLayerer_Test.java" startLine="15" startPosition="0" endLine="76" endPosition="0" unitName="layeredLayoutTest.TopologicalLayerer_Test" />
   <root nodeId="1567683135099906065">
     <nodeInfo nodeId="1567683135099906076" fileName="DFSEdgeReverter_Test.java" startLine="11" startPosition="45" endLine="12" endPosition="49" />
     <nodeInfo nodeId="4519409331094619719" fileName="DFSEdgeReverter_Test.java" startLine="12" startPosition="49" endLine="13" endPosition="68" />
@@ -54,6 +58,7 @@
     <nodeInfo nodeId="1567683135099906274" fileName="TopologicalLayerer_Test.java" startLine="44" startPosition="0" endLine="54" endPosition="0" />
     <nodeInfo nodeId="1567683135099906371" fileName="TopologicalLayerer_Test.java" startLine="65" startPosition="0" endLine="75" endPosition="0" />
     <nodeInfo nodeId="1567683135099906293" fileName="TopologicalLayerer_Test.java" startLine="54" startPosition="0" endLine="65" endPosition="0" />
+    <scopeInfo nodeId="1567683135099906283" fileName="TopologicalLayerer_Test.java" startLine="50" startPosition="0" endLine="51" endPosition="28" />
     <scopeInfo nodeId="1567683135099906283" fileName="TopologicalLayerer_Test.java" startLine="50" startPosition="42" endLine="51" endPosition="28" />
     <scopeInfo nodeId="1567683135099906283" fileName="TopologicalLayerer_Test.java" startLine="47" startPosition="9" endLine="49" endPosition="49" />
     <scopeInfo nodeId="1567683135099906097" fileName="TopologicalLayerer_Test.java" startLine="16" startPosition="46" endLine="19" endPosition="78">

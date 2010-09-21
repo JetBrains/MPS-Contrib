@@ -45,7 +45,10 @@ public enum Direction2D {
 
   public boolean isHorizontal() {
     return myDx != 0;
+  }
 
+  public boolean isVertical() {
+    return myDy != 0;
   }
 
   public int dx() {

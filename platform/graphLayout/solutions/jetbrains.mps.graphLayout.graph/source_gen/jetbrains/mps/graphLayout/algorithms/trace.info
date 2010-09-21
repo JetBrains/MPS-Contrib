@@ -1024,108 +1024,136 @@
     <unitInfo nodeId="4250605017401923979" fileName="FordBellman.java" startLine="20" startPosition="0" endLine="162" endPosition="0" unitName="jetbrains.mps.graphLayout.algorithms.FordBellman" />
   </root>
   <root nodeId="4660430665333277271">
-    <nodeInfo nodeId="4519409331094618576" fileName="Dfs.java" startLine="13" startPosition="27" endLine="14" endPosition="31" />
-    <nodeInfo nodeId="4519409331094618582" fileName="Dfs.java" startLine="14" startPosition="31" endLine="15" endPosition="31" />
-    <nodeInfo nodeId="4519409331094618588" fileName="Dfs.java" startLine="15" startPosition="31" endLine="16" endPosition="30" />
-    <nodeInfo nodeId="4660430665333277279" fileName="Dfs.java" startLine="17" startPosition="0" endLine="18" endPosition="24" />
-    <nodeInfo nodeId="4660430665333277292" fileName="Dfs.java" startLine="18" startPosition="24" endLine="19" endPosition="42" />
-    <nodeInfo nodeId="1646208389854254566" fileName="Dfs.java" startLine="19" startPosition="42" endLine="20" endPosition="37" />
-    <nodeInfo nodeId="1646208389854254837" fileName="Dfs.java" startLine="25" startPosition="34" endLine="26" endPosition="39" />
-    <nodeInfo nodeId="1654665216152485570" fileName="Dfs.java" startLine="29" startPosition="60" endLine="30" endPosition="32" />
-    <nodeInfo nodeId="4519409331094803431" fileName="Dfs.java" startLine="32" startPosition="64" endLine="33" endPosition="29" />
-    <nodeInfo nodeId="4660430665333277376" fileName="Dfs.java" startLine="33" startPosition="29" endLine="34" endPosition="24" />
-    <nodeInfo nodeId="5180427534212043091" fileName="Dfs.java" startLine="34" startPosition="24" endLine="35" endPosition="30" />
-    <nodeInfo nodeId="1654665216152485544" fileName="Dfs.java" startLine="40" startPosition="59" endLine="41" endPosition="20" />
-    <nodeInfo nodeId="1654665216152485548" fileName="Dfs.java" startLine="41" startPosition="20" endLine="42" endPosition="45" />
-    <nodeInfo nodeId="1654665216152485555" fileName="Dfs.java" startLine="42" startPosition="45" endLine="43" endPosition="28" />
-    <nodeInfo nodeId="1654665216152485564" fileName="Dfs.java" startLine="44" startPosition="65" endLine="45" endPosition="56" />
-    <nodeInfo nodeId="4660430665333277383" fileName="Dfs.java" startLine="49" startPosition="44" endLine="50" endPosition="54" />
-    <nodeInfo nodeId="4660430665333277427" fileName="Dfs.java" startLine="50" startPosition="54" endLine="51" endPosition="27" />
-    <nodeInfo nodeId="4660430665333277443" fileName="Dfs.java" startLine="53" startPosition="25" endLine="54" endPosition="32" />
-    <nodeInfo nodeId="4660430665333277473" fileName="Dfs.java" startLine="54" startPosition="32" endLine="55" endPosition="45" />
-    <nodeInfo nodeId="4660430665333277484" fileName="Dfs.java" startLine="56" startPosition="68" endLine="57" endPosition="28" />
-    <nodeInfo nodeId="4660430665333277488" fileName="Dfs.java" startLine="60" startPosition="5" endLine="61" endPosition="28" />
-    <nodeInfo nodeId="4660430665333277394" fileName="Dfs.java" startLine="61" startPosition="28" endLine="62" endPosition="53" />
-    <nodeInfo nodeId="4660430665333277458" fileName="Dfs.java" startLine="80" startPosition="46" endLine="81" endPosition="27" />
-    <nodeInfo nodeId="6074874003310498464" fileName="Dfs.java" startLine="84" startPosition="27" endLine="85" endPosition="19" />
-    <nodeInfo nodeId="4660430665333277273" fileName="Dfs.java" startLine="21" startPosition="0" endLine="23" endPosition="3" />
-    <nodeInfo nodeId="1654665216152485559" fileName="Dfs.java" startLine="43" startPosition="28" endLine="46" endPosition="5" />
-    <nodeInfo nodeId="4660430665333277448" fileName="Dfs.java" startLine="55" startPosition="45" endLine="58" endPosition="9" />
-    <nodeInfo nodeId="4519409331094802661" fileName="Dfs.java" startLine="64" startPosition="0" endLine="67" endPosition="0" />
-    <nodeInfo nodeId="5180427534212043085" fileName="Dfs.java" startLine="67" startPosition="0" endLine="70" endPosition="0" />
-    <nodeInfo nodeId="4660430665333277405" fileName="Dfs.java" startLine="70" startPosition="0" endLine="73" endPosition="0" />
-    <nodeInfo nodeId="4660430665333277419" fileName="Dfs.java" startLine="73" startPosition="0" endLine="76" endPosition="0" />
-    <nodeInfo nodeId="4660430665333277412" fileName="Dfs.java" startLine="76" startPosition="0" endLine="79" endPosition="0" />
-    <nodeInfo nodeId="1646208389854254821" fileName="Dfs.java" startLine="24" startPosition="0" endLine="28" endPosition="0" />
-    <nodeInfo nodeId="4660430665333277452" fileName="Dfs.java" startLine="79" startPosition="0" endLine="83" endPosition="0" />
-    <nodeInfo nodeId="6074874003310498455" fileName="Dfs.java" startLine="83" startPosition="0" endLine="87" endPosition="0" />
-    <nodeInfo nodeId="4660430665333277359" fileName="Dfs.java" startLine="31" startPosition="65" endLine="36" endPosition="7" />
-    <nodeInfo nodeId="4660430665333277337" fileName="Dfs.java" startLine="30" startPosition="32" endLine="37" endPosition="5" />
-    <nodeInfo nodeId="1646208389854262407" fileName="Dfs.java" startLine="52" startPosition="73" endLine="59" endPosition="7" />
-    <nodeInfo nodeId="1654665216152485538" fileName="Dfs.java" startLine="39" startPosition="0" endLine="48" endPosition="0" />
-    <nodeInfo nodeId="4660430665333277431" fileName="Dfs.java" startLine="51" startPosition="27" endLine="60" endPosition="5" />
-    <nodeInfo nodeId="4660430665333277333" fileName="Dfs.java" startLine="28" startPosition="0" endLine="39" endPosition="0" />
-    <nodeInfo nodeId="4660430665333277371" fileName="Dfs.java" startLine="48" startPosition="0" endLine="64" endPosition="0" />
-    <scopeInfo nodeId="4660430665333277276" fileName="Dfs.java" startLine="22" startPosition="16" endLine="22" endPosition="16" />
-    <scopeInfo nodeId="4519409331094802664" fileName="Dfs.java" startLine="65" startPosition="44" endLine="65" endPosition="44" />
-    <scopeInfo nodeId="5180427534212043088" fileName="Dfs.java" startLine="68" startPosition="45" endLine="68" endPosition="45" />
-    <scopeInfo nodeId="4660430665333277408" fileName="Dfs.java" startLine="71" startPosition="51" endLine="71" endPosition="51" />
-    <scopeInfo nodeId="4660430665333277422" fileName="Dfs.java" startLine="74" startPosition="54" endLine="74" endPosition="54" />
-    <scopeInfo nodeId="4660430665333277415" fileName="Dfs.java" startLine="77" startPosition="52" endLine="77" endPosition="52" />
-    <scopeInfo nodeId="1646208389854254824" fileName="Dfs.java" startLine="25" startPosition="34" endLine="26" endPosition="39" />
-    <scopeInfo nodeId="1654665216152485563" fileName="Dfs.java" startLine="44" startPosition="65" endLine="45" endPosition="56" />
-    <scopeInfo nodeId="4660430665333277449" fileName="Dfs.java" startLine="56" startPosition="68" endLine="57" endPosition="28" />
-    <scopeInfo nodeId="4660430665333277457" fileName="Dfs.java" startLine="80" startPosition="46" endLine="81" endPosition="27" />
-    <scopeInfo nodeId="6074874003310498458" fileName="Dfs.java" startLine="84" startPosition="27" endLine="85" endPosition="19" />
-    <scopeInfo nodeId="4660430665333277273" fileName="Dfs.java" startLine="21" startPosition="0" endLine="23" endPosition="3" />
-    <scopeInfo nodeId="4660430665333277361" fileName="Dfs.java" startLine="32" startPosition="64" endLine="35" endPosition="30" />
-    <scopeInfo nodeId="1654665216152485559" fileName="Dfs.java" startLine="43" startPosition="28" endLine="46" endPosition="5" />
-    <scopeInfo nodeId="4519409331094802661" fileName="Dfs.java" startLine="64" startPosition="0" endLine="67" endPosition="0">
+    <nodeInfo nodeId="4519409331094618576" fileName="Dfs.java" startLine="14" startPosition="27" endLine="15" endPosition="31" />
+    <nodeInfo nodeId="4519409331094618582" fileName="Dfs.java" startLine="15" startPosition="31" endLine="16" endPosition="31" />
+    <nodeInfo nodeId="4519409331094618588" fileName="Dfs.java" startLine="16" startPosition="31" endLine="17" endPosition="30" />
+    <nodeInfo nodeId="4660430665333277279" fileName="Dfs.java" startLine="18" startPosition="0" endLine="19" endPosition="24" />
+    <nodeInfo nodeId="3182425861591366742" fileName="Dfs.java" startLine="19" startPosition="24" endLine="20" endPosition="37" />
+    <nodeInfo nodeId="4660430665333277292" fileName="Dfs.java" startLine="20" startPosition="37" endLine="21" endPosition="42" />
+    <nodeInfo nodeId="3182425861591366745" fileName="Dfs.java" startLine="21" startPosition="42" endLine="22" endPosition="85" />
+    <nodeInfo nodeId="1646208389854254837" fileName="Dfs.java" startLine="27" startPosition="34" endLine="28" endPosition="39" />
+    <nodeInfo nodeId="3182425861591371984" fileName="Dfs.java" startLine="33" startPosition="40" endLine="34" endPosition="20" />
+    <nodeInfo nodeId="1654665216152485570" fileName="Dfs.java" startLine="39" startPosition="134" endLine="40" endPosition="44" />
+    <nodeInfo nodeId="4519409331094803431" fileName="Dfs.java" startLine="42" startPosition="64" endLine="43" endPosition="29" />
+    <nodeInfo nodeId="4660430665333277376" fileName="Dfs.java" startLine="43" startPosition="29" endLine="44" endPosition="24" />
+    <nodeInfo nodeId="5180427534212043091" fileName="Dfs.java" startLine="44" startPosition="24" endLine="45" endPosition="30" />
+    <nodeInfo nodeId="3182425861591375288" fileName="Dfs.java" startLine="52" startPosition="40" endLine="53" endPosition="20" />
+    <nodeInfo nodeId="1654665216152485544" fileName="Dfs.java" startLine="58" startPosition="133" endLine="59" endPosition="20" />
+    <nodeInfo nodeId="3182425861591366782" fileName="Dfs.java" startLine="59" startPosition="20" endLine="60" endPosition="30" />
+    <nodeInfo nodeId="1654665216152485548" fileName="Dfs.java" startLine="60" startPosition="30" endLine="61" endPosition="45" />
+    <nodeInfo nodeId="1654665216152485555" fileName="Dfs.java" startLine="61" startPosition="45" endLine="62" endPosition="28" />
+    <nodeInfo nodeId="1654665216152485564" fileName="Dfs.java" startLine="63" startPosition="65" endLine="64" endPosition="56" />
+    <nodeInfo nodeId="4660430665333277383" fileName="Dfs.java" startLine="68" startPosition="44" endLine="69" endPosition="54" />
+    <nodeInfo nodeId="4660430665333277427" fileName="Dfs.java" startLine="69" startPosition="54" endLine="70" endPosition="27" />
+    <nodeInfo nodeId="4660430665333277443" fileName="Dfs.java" startLine="72" startPosition="25" endLine="73" endPosition="32" />
+    <nodeInfo nodeId="4660430665333277473" fileName="Dfs.java" startLine="73" startPosition="32" endLine="74" endPosition="45" />
+    <nodeInfo nodeId="4660430665333277484" fileName="Dfs.java" startLine="75" startPosition="68" endLine="76" endPosition="28" />
+    <nodeInfo nodeId="4660430665333277488" fileName="Dfs.java" startLine="79" startPosition="5" endLine="80" endPosition="28" />
+    <nodeInfo nodeId="4660430665333277394" fileName="Dfs.java" startLine="80" startPosition="28" endLine="81" endPosition="53" />
+    <nodeInfo nodeId="4660430665333277458" fileName="Dfs.java" startLine="99" startPosition="46" endLine="100" endPosition="27" />
+    <nodeInfo nodeId="6074874003310498464" fileName="Dfs.java" startLine="103" startPosition="27" endLine="104" endPosition="19" />
+    <nodeInfo nodeId="4660430665333277273" fileName="Dfs.java" startLine="23" startPosition="0" endLine="25" endPosition="3" />
+    <nodeInfo nodeId="1654665216152485559" fileName="Dfs.java" startLine="62" startPosition="28" endLine="65" endPosition="5" />
+    <nodeInfo nodeId="4660430665333277448" fileName="Dfs.java" startLine="74" startPosition="45" endLine="77" endPosition="9" />
+    <nodeInfo nodeId="4519409331094802661" fileName="Dfs.java" startLine="83" startPosition="0" endLine="86" endPosition="0" />
+    <nodeInfo nodeId="5180427534212043085" fileName="Dfs.java" startLine="86" startPosition="0" endLine="89" endPosition="0" />
+    <nodeInfo nodeId="4660430665333277405" fileName="Dfs.java" startLine="89" startPosition="0" endLine="92" endPosition="0" />
+    <nodeInfo nodeId="4660430665333277419" fileName="Dfs.java" startLine="92" startPosition="0" endLine="95" endPosition="0" />
+    <nodeInfo nodeId="4660430665333277412" fileName="Dfs.java" startLine="95" startPosition="0" endLine="98" endPosition="0" />
+    <nodeInfo nodeId="1646208389854254821" fileName="Dfs.java" startLine="26" startPosition="0" endLine="30" endPosition="0" />
+    <nodeInfo nodeId="3182425861591371980" fileName="Dfs.java" startLine="32" startPosition="79" endLine="36" endPosition="0" />
+    <nodeInfo nodeId="3182425861591375284" fileName="Dfs.java" startLine="51" startPosition="78" endLine="55" endPosition="0" />
+    <nodeInfo nodeId="4660430665333277452" fileName="Dfs.java" startLine="98" startPosition="0" endLine="102" endPosition="0" />
+    <nodeInfo nodeId="6074874003310498455" fileName="Dfs.java" startLine="102" startPosition="0" endLine="106" endPosition="0" />
+    <nodeInfo nodeId="3182425861591371974" fileName="Dfs.java" startLine="31" startPosition="60" endLine="36" endPosition="7" />
+    <nodeInfo nodeId="4660430665333277359" fileName="Dfs.java" startLine="41" startPosition="65" endLine="46" endPosition="7" />
+    <nodeInfo nodeId="3182425861591375278" fileName="Dfs.java" startLine="50" startPosition="59" endLine="55" endPosition="7" />
+    <nodeInfo nodeId="4660430665333277337" fileName="Dfs.java" startLine="40" startPosition="44" endLine="47" endPosition="5" />
+    <nodeInfo nodeId="1646208389854262407" fileName="Dfs.java" startLine="71" startPosition="93" endLine="78" endPosition="7" />
+    <nodeInfo nodeId="3182425861591366755" fileName="Dfs.java" startLine="30" startPosition="0" endLine="38" endPosition="0" />
+    <nodeInfo nodeId="3182425861591375269" fileName="Dfs.java" startLine="49" startPosition="0" endLine="57" endPosition="0" />
+    <nodeInfo nodeId="4660430665333277431" fileName="Dfs.java" startLine="70" startPosition="27" endLine="79" endPosition="5" />
+    <nodeInfo nodeId="1654665216152485538" fileName="Dfs.java" startLine="57" startPosition="0" endLine="67" endPosition="0" />
+    <nodeInfo nodeId="4660430665333277333" fileName="Dfs.java" startLine="38" startPosition="0" endLine="49" endPosition="0" />
+    <nodeInfo nodeId="4660430665333277371" fileName="Dfs.java" startLine="67" startPosition="0" endLine="83" endPosition="0" />
+    <scopeInfo nodeId="4660430665333277276" fileName="Dfs.java" startLine="24" startPosition="16" endLine="24" endPosition="16" />
+    <scopeInfo nodeId="4519409331094802664" fileName="Dfs.java" startLine="84" startPosition="44" endLine="84" endPosition="44" />
+    <scopeInfo nodeId="5180427534212043088" fileName="Dfs.java" startLine="87" startPosition="45" endLine="87" endPosition="45" />
+    <scopeInfo nodeId="4660430665333277408" fileName="Dfs.java" startLine="90" startPosition="51" endLine="90" endPosition="51" />
+    <scopeInfo nodeId="4660430665333277422" fileName="Dfs.java" startLine="93" startPosition="54" endLine="93" endPosition="54" />
+    <scopeInfo nodeId="4660430665333277415" fileName="Dfs.java" startLine="96" startPosition="52" endLine="96" endPosition="52" />
+    <scopeInfo nodeId="1646208389854254824" fileName="Dfs.java" startLine="27" startPosition="34" endLine="28" endPosition="39" />
+    <scopeInfo nodeId="3182425861591371981" fileName="Dfs.java" startLine="33" startPosition="40" endLine="34" endPosition="20" />
+    <scopeInfo nodeId="3182425861591375285" fileName="Dfs.java" startLine="52" startPosition="40" endLine="53" endPosition="20" />
+    <scopeInfo nodeId="1654665216152485563" fileName="Dfs.java" startLine="63" startPosition="65" endLine="64" endPosition="56" />
+    <scopeInfo nodeId="4660430665333277449" fileName="Dfs.java" startLine="75" startPosition="68" endLine="76" endPosition="28" />
+    <scopeInfo nodeId="4660430665333277457" fileName="Dfs.java" startLine="99" startPosition="46" endLine="100" endPosition="27" />
+    <scopeInfo nodeId="6074874003310498458" fileName="Dfs.java" startLine="103" startPosition="27" endLine="104" endPosition="19" />
+    <scopeInfo nodeId="4660430665333277273" fileName="Dfs.java" startLine="23" startPosition="0" endLine="25" endPosition="3" />
+    <scopeInfo nodeId="4660430665333277361" fileName="Dfs.java" startLine="42" startPosition="64" endLine="45" endPosition="30" />
+    <scopeInfo nodeId="1654665216152485559" fileName="Dfs.java" startLine="62" startPosition="28" endLine="65" endPosition="5" />
+    <scopeInfo nodeId="4519409331094802661" fileName="Dfs.java" startLine="83" startPosition="0" endLine="86" endPosition="0">
       <varInfo nodeId="529057043639072441" varName="root" />
     </scopeInfo>
-    <scopeInfo nodeId="5180427534212043085" fileName="Dfs.java" startLine="67" startPosition="0" endLine="70" endPosition="0">
+    <scopeInfo nodeId="5180427534212043085" fileName="Dfs.java" startLine="86" startPosition="0" endLine="89" endPosition="0">
       <varInfo nodeId="529057043639072443" varName="root" />
     </scopeInfo>
-    <scopeInfo nodeId="4660430665333277405" fileName="Dfs.java" startLine="70" startPosition="0" endLine="73" endPosition="0">
+    <scopeInfo nodeId="4660430665333277405" fileName="Dfs.java" startLine="89" startPosition="0" endLine="92" endPosition="0">
       <varInfo nodeId="4660430665333277410" varName="node" />
       <varInfo nodeId="2899723422951325023" varName="from" />
     </scopeInfo>
-    <scopeInfo nodeId="4660430665333277419" fileName="Dfs.java" startLine="73" startPosition="0" endLine="76" endPosition="0">
+    <scopeInfo nodeId="4660430665333277419" fileName="Dfs.java" startLine="92" startPosition="0" endLine="95" endPosition="0">
       <varInfo nodeId="4660430665333277424" varName="edge" />
       <varInfo nodeId="1646208389854266726" varName="source" />
     </scopeInfo>
-    <scopeInfo nodeId="4660430665333277412" fileName="Dfs.java" startLine="76" startPosition="0" endLine="79" endPosition="0">
+    <scopeInfo nodeId="4660430665333277412" fileName="Dfs.java" startLine="95" startPosition="0" endLine="98" endPosition="0">
       <varInfo nodeId="4660430665333277416" varName="node" />
       <varInfo nodeId="2899723422951325028" varName="from" />
     </scopeInfo>
-    <scopeInfo nodeId="1646208389854254821" fileName="Dfs.java" startLine="24" startPosition="0" endLine="28" endPosition="0">
+    <scopeInfo nodeId="1646208389854254821" fileName="Dfs.java" startLine="26" startPosition="0" endLine="30" endPosition="0">
       <varInfo nodeId="1646208389854254835" varName="graph" />
     </scopeInfo>
-    <scopeInfo nodeId="4660430665333277452" fileName="Dfs.java" startLine="79" startPosition="0" endLine="83" endPosition="0" />
-    <scopeInfo nodeId="6074874003310498455" fileName="Dfs.java" startLine="83" startPosition="0" endLine="87" endPosition="0" />
-    <scopeInfo nodeId="4660430665333277340" fileName="Dfs.java" startLine="31" startPosition="65" endLine="36" endPosition="7" />
-    <scopeInfo nodeId="1646208389854262409" fileName="Dfs.java" startLine="53" startPosition="25" endLine="58" endPosition="9">
+    <scopeInfo nodeId="3182425861591371980" fileName="Dfs.java" startLine="32" startPosition="79" endLine="36" endPosition="0" />
+    <scopeInfo nodeId="3182425861591375284" fileName="Dfs.java" startLine="51" startPosition="78" endLine="55" endPosition="0" />
+    <scopeInfo nodeId="4660430665333277452" fileName="Dfs.java" startLine="98" startPosition="0" endLine="102" endPosition="0" />
+    <scopeInfo nodeId="6074874003310498455" fileName="Dfs.java" startLine="102" startPosition="0" endLine="106" endPosition="0" />
+    <scopeInfo nodeId="3182425861591366758" fileName="Dfs.java" startLine="31" startPosition="60" endLine="36" endPosition="7" />
+    <scopeInfo nodeId="4660430665333277340" fileName="Dfs.java" startLine="41" startPosition="65" endLine="46" endPosition="7" />
+    <scopeInfo nodeId="3182425861591375272" fileName="Dfs.java" startLine="50" startPosition="59" endLine="55" endPosition="7" />
+    <scopeInfo nodeId="1646208389854262409" fileName="Dfs.java" startLine="72" startPosition="25" endLine="77" endPosition="9">
       <varInfo nodeId="4660430665333277474" varName="target" />
     </scopeInfo>
-    <scopeInfo nodeId="1654665216152485543" fileName="Dfs.java" startLine="40" startPosition="59" endLine="46" endPosition="5" />
-    <scopeInfo nodeId="4660430665333277337" fileName="Dfs.java" startLine="30" startPosition="32" endLine="37" endPosition="5" />
-    <scopeInfo nodeId="4660430665333277434" fileName="Dfs.java" startLine="52" startPosition="73" endLine="59" endPosition="7" />
-    <scopeInfo nodeId="4660430665333277336" fileName="Dfs.java" startLine="29" startPosition="60" endLine="37" endPosition="5" />
-    <scopeInfo nodeId="1654665216152485538" fileName="Dfs.java" startLine="39" startPosition="0" endLine="48" endPosition="0">
+    <scopeInfo nodeId="4660430665333277337" fileName="Dfs.java" startLine="40" startPosition="44" endLine="47" endPosition="5" />
+    <scopeInfo nodeId="1654665216152485543" fileName="Dfs.java" startLine="58" startPosition="133" endLine="65" endPosition="5" />
+    <scopeInfo nodeId="4660430665333277434" fileName="Dfs.java" startLine="71" startPosition="93" endLine="78" endPosition="7" />
+    <scopeInfo nodeId="3182425861591366755" fileName="Dfs.java" startLine="30" startPosition="0" endLine="38" endPosition="0">
+      <varInfo nodeId="3182425861591366759" varName="graph" />
+      <varInfo nodeId="3182425861591366761" varName="direction" />
+    </scopeInfo>
+    <scopeInfo nodeId="4660430665333277336" fileName="Dfs.java" startLine="39" startPosition="134" endLine="47" endPosition="5" />
+    <scopeInfo nodeId="3182425861591375269" fileName="Dfs.java" startLine="49" startPosition="0" endLine="57" endPosition="0">
+      <varInfo nodeId="3182425861591375273" varName="graph" />
+      <varInfo nodeId="3182425861591375275" varName="direction" />
+    </scopeInfo>
+    <scopeInfo nodeId="4660430665333277431" fileName="Dfs.java" startLine="70" startPosition="27" endLine="79" endPosition="5" />
+    <scopeInfo nodeId="1654665216152485538" fileName="Dfs.java" startLine="57" startPosition="0" endLine="67" endPosition="0">
       <varInfo nodeId="1654665216152485536" varName="graph" />
       <varInfo nodeId="1654665216152485537" varName="direction" />
+      <varInfo nodeId="3182425861591366772" varName="edgeFilter" />
     </scopeInfo>
-    <scopeInfo nodeId="4660430665333277431" fileName="Dfs.java" startLine="51" startPosition="27" endLine="60" endPosition="5" />
-    <scopeInfo nodeId="4660430665333277333" fileName="Dfs.java" startLine="28" startPosition="0" endLine="39" endPosition="0">
+    <scopeInfo nodeId="4660430665333277333" fileName="Dfs.java" startLine="38" startPosition="0" endLine="49" endPosition="0">
       <varInfo nodeId="4660430665333277350" varName="graph" />
       <varInfo nodeId="1646208389854254825" varName="direction" />
+      <varInfo nodeId="3182425861591366764" varName="edgeFilter" />
     </scopeInfo>
-    <scopeInfo nodeId="4660430665333277374" fileName="Dfs.java" startLine="49" startPosition="44" endLine="62" endPosition="53" />
-    <scopeInfo nodeId="4660430665333277371" fileName="Dfs.java" startLine="48" startPosition="0" endLine="64" endPosition="0">
+    <scopeInfo nodeId="4660430665333277374" fileName="Dfs.java" startLine="68" startPosition="44" endLine="81" endPosition="53" />
+    <scopeInfo nodeId="4660430665333277371" fileName="Dfs.java" startLine="67" startPosition="0" endLine="83" endPosition="0">
       <varInfo nodeId="4660430665333277379" varName="node" />
       <varInfo nodeId="2899723422951324817" varName="from" />
     </scopeInfo>
-    <unitInfo nodeId="4660430665333277271" fileName="Dfs.java" startLine="13" startPosition="0" endLine="88" endPosition="0" unitName="jetbrains.mps.graphLayout.algorithms.Dfs" />
+    <unitInfo nodeId="3182425861591371980" fileName="Dfs.java" startLine="32" startPosition="32" endLine="36" endPosition="5" unitName="jetbrains.mps.graphLayout.algorithms.Dfs$1" />
+    <unitInfo nodeId="3182425861591375284" fileName="Dfs.java" startLine="51" startPosition="31" endLine="55" endPosition="5" unitName="jetbrains.mps.graphLayout.algorithms.Dfs$2" />
+    <unitInfo nodeId="4660430665333277271" fileName="Dfs.java" startLine="14" startPosition="0" endLine="107" endPosition="0" unitName="jetbrains.mps.graphLayout.algorithms.Dfs" />
   </root>
   <root nodeId="5180427534212042655">
     <nodeInfo nodeId="5180427534212042679" fileName="TopologicalSorting.java" startLine="13" startPosition="45" endLine="14" endPosition="29" />
@@ -1137,9 +1165,9 @@
     <nodeInfo nodeId="5180427534212042808" fileName="TopologicalSorting.java" startLine="32" startPosition="33" endLine="33" endPosition="19" />
     <nodeInfo nodeId="920414672219845792" fileName="TopologicalSorting.java" startLine="36" startPosition="34" endLine="37" endPosition="23" />
     <nodeInfo nodeId="920414672219845776" fileName="TopologicalSorting.java" startLine="42" startPosition="81" endLine="43" endPosition="25" />
-    <nodeInfo nodeId="5180427534212042786" fileName="TopologicalSorting.java" startLine="47" startPosition="78" endLine="48" endPosition="57" />
+    <nodeInfo nodeId="5180427534212042786" fileName="TopologicalSorting.java" startLine="47" startPosition="46" endLine="48" endPosition="57" />
     <nodeInfo nodeId="5180427534212042792" fileName="TopologicalSorting.java" startLine="48" startPosition="57" endLine="49" endPosition="24" />
-    <nodeInfo nodeId="920414672219845802" fileName="TopologicalSorting.java" startLine="50" startPosition="32" endLine="51" endPosition="72" />
+    <nodeInfo nodeId="5728232039832708941" fileName="TopologicalSorting.java" startLine="50" startPosition="32" endLine="51" endPosition="18" />
     <nodeInfo nodeId="5180427534212042812" fileName="TopologicalSorting.java" startLine="52" startPosition="5" endLine="53" endPosition="29" />
     <nodeInfo nodeId="5180427534212042771" fileName="TopologicalSorting.java" startLine="16" startPosition="0" endLine="18" endPosition="3" />
     <nodeInfo nodeId="920414672219845756" fileName="TopologicalSorting.java" startLine="41" startPosition="54" endLine="44" endPosition="5" />
@@ -1155,7 +1183,7 @@
     <scopeInfo nodeId="5180427534212042803" fileName="TopologicalSorting.java" startLine="32" startPosition="33" endLine="33" endPosition="19" />
     <scopeInfo nodeId="920414672219845789" fileName="TopologicalSorting.java" startLine="36" startPosition="34" endLine="37" endPosition="23" />
     <scopeInfo nodeId="920414672219845758" fileName="TopologicalSorting.java" startLine="42" startPosition="81" endLine="43" endPosition="25" />
-    <scopeInfo nodeId="920414672219845783" fileName="TopologicalSorting.java" startLine="50" startPosition="32" endLine="51" endPosition="72" />
+    <scopeInfo nodeId="920414672219845783" fileName="TopologicalSorting.java" startLine="50" startPosition="32" endLine="51" endPosition="18" />
     <scopeInfo nodeId="5180427534212042771" fileName="TopologicalSorting.java" startLine="16" startPosition="0" endLine="18" endPosition="3" />
     <scopeInfo nodeId="5180427534212042692" fileName="TopologicalSorting.java" startLine="21" startPosition="34" endLine="24" endPosition="23" />
     <scopeInfo nodeId="920414672219845743" fileName="TopologicalSorting.java" startLine="41" startPosition="54" endLine="44" endPosition="5" />
@@ -1165,7 +1193,7 @@
       <varInfo nodeId="5180427534212042722" varName="node" />
       <varInfo nodeId="2899723422951325113" varName="from" />
     </scopeInfo>
-    <scopeInfo nodeId="5180427534212042779" fileName="TopologicalSorting.java" startLine="47" startPosition="78" endLine="53" endPosition="29">
+    <scopeInfo nodeId="5180427534212042779" fileName="TopologicalSorting.java" startLine="47" startPosition="46" endLine="53" endPosition="29">
       <varInfo nodeId="5180427534212042787" varName="sorter" />
     </scopeInfo>
     <scopeInfo nodeId="5180427534212042687" fileName="TopologicalSorting.java" startLine="19" startPosition="0" endLine="26" endPosition="0">
@@ -1212,63 +1240,102 @@
     <unitInfo nodeId="5180427534212043147" fileName="TopologicalNumbering.java" startLine="14" startPosition="0" endLine="33" endPosition="0" unitName="jetbrains.mps.graphLayout.algorithms.TopologicalNumbering" />
   </root>
   <root nodeId="5213231752900660164">
-    <nodeInfo nodeId="5213231752900660298" fileName="ConnectivityComponents.java" startLine="14" startPosition="63" endLine="15" endPosition="74" />
-    <nodeInfo nodeId="5213231752900665212" fileName="ConnectivityComponents.java" startLine="15" startPosition="74" endLine="16" endPosition="21" />
-    <nodeInfo nodeId="5213231752900665231" fileName="ConnectivityComponents.java" startLine="16" startPosition="21" endLine="17" endPosition="31" />
-    <nodeInfo nodeId="7953585273260012476" fileName="ConnectivityComponents.java" startLine="20" startPosition="50" endLine="21" endPosition="56" />
-    <nodeInfo nodeId="7953585273260012511" fileName="ConnectivityComponents.java" startLine="23" startPosition="57" endLine="24" endPosition="21" />
-    <nodeInfo nodeId="7953585273260012485" fileName="ConnectivityComponents.java" startLine="26" startPosition="5" endLine="27" endPosition="16" />
-    <nodeInfo nodeId="5213231752900660179" fileName="ConnectivityComponents.java" startLine="30" startPosition="42" endLine="31" endPosition="44" />
-    <nodeInfo nodeId="5213231752900660227" fileName="ConnectivityComponents.java" startLine="31" startPosition="44" endLine="32" endPosition="35" />
-    <nodeInfo nodeId="5213231752900660216" fileName="ConnectivityComponents.java" startLine="38" startPosition="36" endLine="39" endPosition="49" />
-    <nodeInfo nodeId="5213231752900660232" fileName="ConnectivityComponents.java" startLine="39" startPosition="49" endLine="40" endPosition="30" />
-    <nodeInfo nodeId="5213231752900660207" fileName="ConnectivityComponents.java" startLine="40" startPosition="30" endLine="41" endPosition="46" />
-    <nodeInfo nodeId="5213231752900660245" fileName="ConnectivityComponents.java" startLine="45" startPosition="46" endLine="46" endPosition="27" />
-    <nodeInfo nodeId="5213231752900660264" fileName="ConnectivityComponents.java" startLine="50" startPosition="53" endLine="51" endPosition="70" />
-    <nodeInfo nodeId="5213231752900665227" fileName="ConnectivityComponents.java" startLine="54" startPosition="47" endLine="55" endPosition="31" />
-    <nodeInfo nodeId="5213231752900660174" fileName="ConnectivityComponents.java" startLine="33" startPosition="0" endLine="35" endPosition="5" />
-    <nodeInfo nodeId="7953585273260012499" fileName="ConnectivityComponents.java" startLine="22" startPosition="63" endLine="25" endPosition="7" />
-    <nodeInfo nodeId="5213231752900665221" fileName="ConnectivityComponents.java" startLine="53" startPosition="0" endLine="57" endPosition="0" />
-    <nodeInfo nodeId="7953585273260012489" fileName="ConnectivityComponents.java" startLine="21" startPosition="56" endLine="26" endPosition="5" />
-    <nodeInfo nodeId="5213231752900660238" fileName="ConnectivityComponents.java" startLine="43" startPosition="0" endLine="48" endPosition="0" />
-    <nodeInfo nodeId="5213231752900660250" fileName="ConnectivityComponents.java" startLine="48" startPosition="0" endLine="53" endPosition="0" />
-    <nodeInfo nodeId="5213231752900660278" fileName="ConnectivityComponents.java" startLine="13" startPosition="37" endLine="19" endPosition="0" />
-    <nodeInfo nodeId="5213231752900660200" fileName="ConnectivityComponents.java" startLine="36" startPosition="0" endLine="43" endPosition="0" />
-    <nodeInfo nodeId="7953585273260012466" fileName="ConnectivityComponents.java" startLine="19" startPosition="0" endLine="29" endPosition="0" />
-    <scopeInfo nodeId="5213231752900660177" fileName="ConnectivityComponents.java" startLine="34" startPosition="20" endLine="34" endPosition="20" />
-    <scopeInfo nodeId="7953585273260012501" fileName="ConnectivityComponents.java" startLine="23" startPosition="57" endLine="24" endPosition="21" />
-    <scopeInfo nodeId="5213231752900660241" fileName="ConnectivityComponents.java" startLine="45" startPosition="46" endLine="46" endPosition="27" />
-    <scopeInfo nodeId="5213231752900660257" fileName="ConnectivityComponents.java" startLine="50" startPosition="53" endLine="51" endPosition="70" />
-    <scopeInfo nodeId="5213231752900665226" fileName="ConnectivityComponents.java" startLine="54" startPosition="47" endLine="55" endPosition="31" />
-    <scopeInfo nodeId="5213231752900660174" fileName="ConnectivityComponents.java" startLine="33" startPosition="0" endLine="35" endPosition="5" />
-    <scopeInfo nodeId="5213231752900660281" fileName="ConnectivityComponents.java" startLine="14" startPosition="63" endLine="17" endPosition="31">
-      <varInfo nodeId="5213231752900660299" varName="dfs" />
+    <nodeInfo nodeId="3182425861591379002" fileName="ConnectivityComponents.java" startLine="22" startPosition="40" endLine="23" endPosition="20" />
+    <nodeInfo nodeId="3182425861591378968" fileName="ConnectivityComponents.java" startLine="28" startPosition="133" endLine="29" endPosition="74" />
+    <nodeInfo nodeId="3182425861591378973" fileName="ConnectivityComponents.java" startLine="29" startPosition="74" endLine="30" endPosition="50" />
+    <nodeInfo nodeId="3182425861591378985" fileName="ConnectivityComponents.java" startLine="30" startPosition="50" endLine="31" endPosition="31" />
+    <nodeInfo nodeId="7953585273260012476" fileName="ConnectivityComponents.java" startLine="34" startPosition="50" endLine="35" endPosition="56" />
+    <nodeInfo nodeId="7953585273260012511" fileName="ConnectivityComponents.java" startLine="37" startPosition="57" endLine="38" endPosition="21" />
+    <nodeInfo nodeId="7953585273260012485" fileName="ConnectivityComponents.java" startLine="40" startPosition="5" endLine="41" endPosition="16" />
+    <nodeInfo nodeId="3182425861591381252" fileName="ConnectivityComponents.java" startLine="44" startPosition="83" endLine="45" endPosition="26" />
+    <nodeInfo nodeId="3182425861591381268" fileName="ConnectivityComponents.java" startLine="46" startPosition="85" endLine="47" endPosition="93" />
+    <nodeInfo nodeId="3182425861591381287" fileName="ConnectivityComponents.java" startLine="48" startPosition="5" endLine="49" endPosition="102" />
+    <nodeInfo nodeId="3182425861591381322" fileName="ConnectivityComponents.java" startLine="50" startPosition="45" endLine="51" endPosition="114" />
+    <nodeInfo nodeId="3182425861591392781" fileName="ConnectivityComponents.java" startLine="53" startPosition="85" endLine="54" endPosition="138" />
+    <nodeInfo nodeId="3182425861591392799" fileName="ConnectivityComponents.java" startLine="55" startPosition="5" endLine="56" endPosition="26" />
+    <nodeInfo nodeId="5213231752900660179" fileName="ConnectivityComponents.java" startLine="59" startPosition="42" endLine="60" endPosition="44" />
+    <nodeInfo nodeId="5213231752900660227" fileName="ConnectivityComponents.java" startLine="60" startPosition="44" endLine="61" endPosition="35" />
+    <nodeInfo nodeId="5213231752900660216" fileName="ConnectivityComponents.java" startLine="67" startPosition="132" endLine="68" endPosition="71" />
+    <nodeInfo nodeId="5213231752900660232" fileName="ConnectivityComponents.java" startLine="68" startPosition="71" endLine="69" endPosition="30" />
+    <nodeInfo nodeId="5213231752900660207" fileName="ConnectivityComponents.java" startLine="69" startPosition="30" endLine="70" endPosition="54" />
+    <nodeInfo nodeId="5213231752900660245" fileName="ConnectivityComponents.java" startLine="74" startPosition="46" endLine="75" endPosition="27" />
+    <nodeInfo nodeId="5213231752900660264" fileName="ConnectivityComponents.java" startLine="79" startPosition="53" endLine="80" endPosition="70" />
+    <nodeInfo nodeId="5213231752900665227" fileName="ConnectivityComponents.java" startLine="83" startPosition="47" endLine="84" endPosition="31" />
+    <nodeInfo nodeId="5213231752900660174" fileName="ConnectivityComponents.java" startLine="62" startPosition="0" endLine="64" endPosition="5" />
+    <nodeInfo nodeId="7953585273260012499" fileName="ConnectivityComponents.java" startLine="36" startPosition="63" endLine="39" endPosition="7" />
+    <nodeInfo nodeId="3182425861591381258" fileName="ConnectivityComponents.java" startLine="45" startPosition="26" endLine="48" endPosition="5" />
+    <nodeInfo nodeId="3182425861591381307" fileName="ConnectivityComponents.java" startLine="49" startPosition="102" endLine="52" endPosition="5" />
+    <nodeInfo nodeId="3182425861591392771" fileName="ConnectivityComponents.java" startLine="52" startPosition="5" endLine="55" endPosition="5" />
+    <nodeInfo nodeId="3182425861591378998" fileName="ConnectivityComponents.java" startLine="21" startPosition="83" endLine="25" endPosition="0" />
+    <nodeInfo nodeId="5213231752900665221" fileName="ConnectivityComponents.java" startLine="82" startPosition="0" endLine="86" endPosition="0" />
+    <nodeInfo nodeId="3182425861591378994" fileName="ConnectivityComponents.java" startLine="20" startPosition="63" endLine="25" endPosition="7" />
+    <nodeInfo nodeId="7953585273260012489" fileName="ConnectivityComponents.java" startLine="35" startPosition="56" endLine="40" endPosition="5" />
+    <nodeInfo nodeId="5213231752900660238" fileName="ConnectivityComponents.java" startLine="72" startPosition="0" endLine="77" endPosition="0" />
+    <nodeInfo nodeId="5213231752900660250" fileName="ConnectivityComponents.java" startLine="77" startPosition="0" endLine="82" endPosition="0" />
+    <nodeInfo nodeId="3182425861591378950" fileName="ConnectivityComponents.java" startLine="27" startPosition="0" endLine="33" endPosition="0" />
+    <nodeInfo nodeId="5213231752900660200" fileName="ConnectivityComponents.java" startLine="65" startPosition="0" endLine="72" endPosition="0" />
+    <nodeInfo nodeId="5213231752900660278" fileName="ConnectivityComponents.java" startLine="19" startPosition="37" endLine="27" endPosition="0" />
+    <nodeInfo nodeId="7953585273260012466" fileName="ConnectivityComponents.java" startLine="33" startPosition="0" endLine="43" endPosition="0" />
+    <nodeInfo nodeId="3182425861591381228" fileName="ConnectivityComponents.java" startLine="43" startPosition="0" endLine="58" endPosition="0" />
+    <scopeInfo nodeId="5213231752900660177" fileName="ConnectivityComponents.java" startLine="63" startPosition="20" endLine="63" endPosition="20" />
+    <scopeInfo nodeId="3182425861591378999" fileName="ConnectivityComponents.java" startLine="22" startPosition="40" endLine="23" endPosition="20" />
+    <scopeInfo nodeId="7953585273260012501" fileName="ConnectivityComponents.java" startLine="37" startPosition="57" endLine="38" endPosition="21" />
+    <scopeInfo nodeId="3182425861591381261" fileName="ConnectivityComponents.java" startLine="46" startPosition="85" endLine="47" endPosition="93" />
+    <scopeInfo nodeId="3182425861591381308" fileName="ConnectivityComponents.java" startLine="50" startPosition="45" endLine="51" endPosition="114" />
+    <scopeInfo nodeId="3182425861591392774" fileName="ConnectivityComponents.java" startLine="53" startPosition="85" endLine="54" endPosition="138" />
+    <scopeInfo nodeId="5213231752900660241" fileName="ConnectivityComponents.java" startLine="74" startPosition="46" endLine="75" endPosition="27" />
+    <scopeInfo nodeId="5213231752900660257" fileName="ConnectivityComponents.java" startLine="79" startPosition="53" endLine="80" endPosition="70" />
+    <scopeInfo nodeId="5213231752900665226" fileName="ConnectivityComponents.java" startLine="83" startPosition="47" endLine="84" endPosition="31" />
+    <scopeInfo nodeId="5213231752900660174" fileName="ConnectivityComponents.java" startLine="62" startPosition="0" endLine="64" endPosition="5" />
+    <scopeInfo nodeId="3182425861591378953" fileName="ConnectivityComponents.java" startLine="28" startPosition="133" endLine="31" endPosition="31">
+      <varInfo nodeId="3182425861591378969" varName="dfs" />
     </scopeInfo>
-    <scopeInfo nodeId="7953585273260012492" fileName="ConnectivityComponents.java" startLine="22" startPosition="63" endLine="25" endPosition="7" />
-    <scopeInfo nodeId="5213231752900660205" fileName="ConnectivityComponents.java" startLine="38" startPosition="36" endLine="41" endPosition="46" />
-    <scopeInfo nodeId="5213231752900665221" fileName="ConnectivityComponents.java" startLine="53" startPosition="0" endLine="57" endPosition="0" />
-    <scopeInfo nodeId="7953585273260012489" fileName="ConnectivityComponents.java" startLine="21" startPosition="56" endLine="26" endPosition="5" />
-    <scopeInfo nodeId="5213231752900660238" fileName="ConnectivityComponents.java" startLine="43" startPosition="0" endLine="48" endPosition="0">
+    <scopeInfo nodeId="7953585273260012492" fileName="ConnectivityComponents.java" startLine="36" startPosition="63" endLine="39" endPosition="7" />
+    <scopeInfo nodeId="3182425861591381258" fileName="ConnectivityComponents.java" startLine="45" startPosition="26" endLine="48" endPosition="5" />
+    <scopeInfo nodeId="3182425861591381307" fileName="ConnectivityComponents.java" startLine="49" startPosition="102" endLine="52" endPosition="5">
+      <varInfo nodeId="3182425861591381310" varName="i" />
+    </scopeInfo>
+    <scopeInfo nodeId="3182425861591392771" fileName="ConnectivityComponents.java" startLine="52" startPosition="5" endLine="55" endPosition="5" />
+    <scopeInfo nodeId="5213231752900660205" fileName="ConnectivityComponents.java" startLine="67" startPosition="132" endLine="70" endPosition="54" />
+    <scopeInfo nodeId="3182425861591378998" fileName="ConnectivityComponents.java" startLine="21" startPosition="83" endLine="25" endPosition="0" />
+    <scopeInfo nodeId="5213231752900665221" fileName="ConnectivityComponents.java" startLine="82" startPosition="0" endLine="86" endPosition="0" />
+    <scopeInfo nodeId="5213231752900660281" fileName="ConnectivityComponents.java" startLine="20" startPosition="63" endLine="25" endPosition="7" />
+    <scopeInfo nodeId="7953585273260012489" fileName="ConnectivityComponents.java" startLine="35" startPosition="56" endLine="40" endPosition="5" />
+    <scopeInfo nodeId="5213231752900660238" fileName="ConnectivityComponents.java" startLine="72" startPosition="0" endLine="77" endPosition="0">
       <varInfo nodeId="529057043639079613" varName="root" />
     </scopeInfo>
-    <scopeInfo nodeId="5213231752900660250" fileName="ConnectivityComponents.java" startLine="48" startPosition="0" endLine="53" endPosition="0">
+    <scopeInfo nodeId="5213231752900660250" fileName="ConnectivityComponents.java" startLine="77" startPosition="0" endLine="82" endPosition="0">
       <varInfo nodeId="5213231752900660253" varName="node" />
       <varInfo nodeId="5213231752900660255" varName="from" />
     </scopeInfo>
-    <scopeInfo nodeId="5213231752900660278" fileName="ConnectivityComponents.java" startLine="13" startPosition="37" endLine="19" endPosition="0">
-      <varInfo nodeId="5213231752900660287" varName="graph" />
+    <scopeInfo nodeId="3182425861591378950" fileName="ConnectivityComponents.java" startLine="27" startPosition="0" endLine="33" endPosition="0">
+      <varInfo nodeId="3182425861591378959" varName="graph" />
+      <varInfo nodeId="3182425861591378961" varName="filter" />
     </scopeInfo>
-    <scopeInfo nodeId="7953585273260012469" fileName="ConnectivityComponents.java" startLine="20" startPosition="50" endLine="27" endPosition="16">
+    <scopeInfo nodeId="7953585273260012469" fileName="ConnectivityComponents.java" startLine="34" startPosition="50" endLine="41" endPosition="16">
       <varInfo nodeId="7953585273260012477" varName="component" />
     </scopeInfo>
-    <scopeInfo nodeId="5213231752900660200" fileName="ConnectivityComponents.java" startLine="36" startPosition="0" endLine="43" endPosition="0">
+    <scopeInfo nodeId="5213231752900660200" fileName="ConnectivityComponents.java" startLine="65" startPosition="0" endLine="72" endPosition="0">
       <varInfo nodeId="5213231752900660203" varName="graph" />
+      <varInfo nodeId="3182425861591378928" varName="direction" />
+      <varInfo nodeId="3182425861591378932" varName="filter" />
     </scopeInfo>
-    <scopeInfo nodeId="7953585273260012466" fileName="ConnectivityComponents.java" startLine="19" startPosition="0" endLine="29" endPosition="0">
+    <scopeInfo nodeId="5213231752900660278" fileName="ConnectivityComponents.java" startLine="19" startPosition="37" endLine="27" endPosition="0">
+      <varInfo nodeId="5213231752900660287" varName="graph" />
+    </scopeInfo>
+    <scopeInfo nodeId="7953585273260012466" fileName="ConnectivityComponents.java" startLine="33" startPosition="0" endLine="43" endPosition="0">
       <varInfo nodeId="7953585273260012471" varName="graph" />
     </scopeInfo>
-    <unitInfo nodeId="5213231752900660172" fileName="ConnectivityComponents.java" startLine="30" startPosition="0" endLine="58" endPosition="0" unitName="jetbrains.mps.graphLayout.algorithms.ConnectivityComponents$MyDfs" />
-    <unitInfo nodeId="5213231752900660164" fileName="ConnectivityComponents.java" startLine="13" startPosition="0" endLine="59" endPosition="0" unitName="jetbrains.mps.graphLayout.algorithms.ConnectivityComponents" />
+    <scopeInfo nodeId="3182425861591381231" fileName="ConnectivityComponents.java" startLine="44" startPosition="83" endLine="56" endPosition="26">
+      <varInfo nodeId="3182425861591381288" varName="componentsList" />
+      <varInfo nodeId="3182425861591381253" varName="componentsNum" />
+    </scopeInfo>
+    <scopeInfo nodeId="3182425861591381228" fileName="ConnectivityComponents.java" startLine="43" startPosition="0" endLine="58" endPosition="0">
+      <varInfo nodeId="3182425861591381246" varName="components" />
+    </scopeInfo>
+    <unitInfo nodeId="3182425861591378998" fileName="ConnectivityComponents.java" startLine="21" startPosition="36" endLine="25" endPosition="5" unitName="jetbrains.mps.graphLayout.algorithms._FunctionTypes._return_P1_E0$anonymous" />
+    <unitInfo nodeId="5213231752900660172" fileName="ConnectivityComponents.java" startLine="59" startPosition="0" endLine="87" endPosition="0" unitName="jetbrains.mps.graphLayout.algorithms.ConnectivityComponents$MyDfs" />
+    <unitInfo nodeId="5213231752900660164" fileName="ConnectivityComponents.java" startLine="19" startPosition="0" endLine="88" endPosition="0" unitName="jetbrains.mps.graphLayout.algorithms.ConnectivityComponents" />
   </root>
   <root nodeId="5213231752900665923">
     <nodeInfo nodeId="5488345258545815597" fileName="BiconnectAugmentation.java" startLine="20" startPosition="36" endLine="21" endPosition="34" />

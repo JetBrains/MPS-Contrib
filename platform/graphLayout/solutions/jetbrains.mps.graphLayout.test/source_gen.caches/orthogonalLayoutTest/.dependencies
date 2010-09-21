@@ -32,6 +32,49 @@
     <classNode dependClassName="jetbrains.mps.internal.collections.runtime.MapSequence" />
     <classNode dependClassName="junit.framework.Assert" />
   </dependency>
+  <dependency className="orthogonalLayoutTest.ConstraintsGraphStressTest" file="ConstraintsGraphStressTest.java">
+    <classNode dependClassName="java.io.PrintWriter" />
+    <classNode dependClassName="java.lang.Exception" />
+    <classNode dependClassName="java.lang.Integer" />
+    <classNode dependClassName="java.lang.String" />
+    <classNode dependClassName="java.lang.System" />
+    <classNode dependClassName="java.util.HashMap" />
+    <classNode dependClassName="java.util.Map" />
+    <classNode dependClassName="jetbrains.mps.graphLayout.algorithms.BiconnectAugmentation" />
+    <classNode dependClassName="jetbrains.mps.graphLayout.flowOrthogonalLayout.ConstraintsGraphProcessor" />
+    <classNode dependClassName="jetbrains.mps.graphLayout.flowOrthogonalLayout.OrthogonalRepresentation" />
+    <classNode dependClassName="jetbrains.mps.graphLayout.flowOrthogonalLayout.QuasiOrthogonalRepresentation" />
+    <classNode dependClassName="jetbrains.mps.graphLayout.flowOrthogonalLayout.QuasiRepresentationModifier" />
+    <classNode dependClassName="jetbrains.mps.graphLayout.graph.Graph" />
+    <classNode dependClassName="jetbrains.mps.graphLayout.planarGraph.Dart" />
+    <classNode dependClassName="jetbrains.mps.graphLayout.planarGraph.EmbeddedGraph" />
+    <classNode dependClassName="jetbrains.mps.graphLayout.planarization.PQPlanarizationFinder" />
+    <classNode dependClassName="jetbrains.mps.graphLayout.planarization.ShortestPathEmbeddingFinder" />
+    <classNode dependClassName="jetbrains.mps.graphLayout.util.Direction2D" />
+    <classNode dependClassName="jetbrains.mps.internal.collections.runtime.MapSequence" />
+    <classNode dependClassName="sampleGraphs.RandomGraphGenerator" />
+    <classNode dependClassName="visualization.GraphIO" />
+  </dependency>
+  <dependency className="orthogonalLayoutTest.ConstraintsGraph_Test" file="ConstraintsGraph_Test.java">
+    <classNode dependClassName="java.lang.Exception" />
+    <classNode dependClassName="java.lang.Integer" />
+    <classNode dependClassName="java.lang.System" />
+    <classNode dependClassName="java.util.HashMap" />
+    <classNode dependClassName="java.util.Map" />
+    <classNode dependClassName="jetbrains.mps.graphLayout.flowOrthogonalLayout.ConstraintsGraphProcessor" />
+    <classNode dependClassName="jetbrains.mps.graphLayout.flowOrthogonalLayout.OrthogonalRepresentation" />
+    <classNode dependClassName="jetbrains.mps.graphLayout.flowOrthogonalLayout.QuasiOrthogonalRepresentation" />
+    <classNode dependClassName="jetbrains.mps.graphLayout.flowOrthogonalLayout.QuasiRepresentationModifier" />
+    <classNode dependClassName="jetbrains.mps.graphLayout.graph.Graph" />
+    <classNode dependClassName="jetbrains.mps.graphLayout.planarGraph.Dart" />
+    <classNode dependClassName="jetbrains.mps.graphLayout.planarGraph.EmbeddedGraph" />
+    <classNode dependClassName="jetbrains.mps.graphLayout.planarization.PQPlanarizationFinder" />
+    <classNode dependClassName="jetbrains.mps.graphLayout.planarization.ShortestPathEmbeddingFinder" />
+    <classNode dependClassName="jetbrains.mps.graphLayout.util.Direction2D" />
+    <classNode dependClassName="jetbrains.mps.internal.collections.runtime.MapSequence" />
+    <classNode dependClassName="visualization.GraphIO" />
+    <classNode extendsClassName="junit.framework.TestCase" />
+  </dependency>
   <dependency className="orthogonalLayoutTest.ConstraintsSupporter_Test" file="ConstraintsSupporter_Test.java">
     <classNode dependClassName="java.awt.Dimension" />
     <classNode dependClassName="java.awt.Rectangle" />

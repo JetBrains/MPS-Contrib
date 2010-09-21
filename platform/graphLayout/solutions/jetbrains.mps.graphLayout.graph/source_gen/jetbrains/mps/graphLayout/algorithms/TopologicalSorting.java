@@ -44,11 +44,11 @@ public class TopologicalSorting extends Dfs {
     }
   }
 
-  public static List<Node> sort(Graph graph) throws IllegalArgumentException {
+  public static List<Node> sort(Graph graph) {
     TopologicalSorting sorter = new TopologicalSorting();
     sorter.doDfs(graph);
     if (sorter.getHasCycles()) {
-      throw new IllegalArgumentException("input graph must be acyclic");
+      return null;
     }
     return sorter.getOrder();
   }

@@ -1,5 +1,12 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <debugInfo>
+  <unitInfo fileName="BiconnectedInitialEmbeddingFinder_Test.java" startLine="13" startPosition="0" endLine="45" endPosition="0" unitName="planarizationTest.BiconnectedInitialEmbeddingFinder_Test" />
+  <unitInfo fileName="TreeEmbeddingFinder_Find_Test.java" startLine="13" startPosition="0" endLine="52" endPosition="0" unitName="planarizationTest.TreeEmbeddingFinder_Find_Test" />
+  <unitInfo fileName="ShortestPathEmbeddingFinder_Test.java" startLine="15" startPosition="0" endLine="59" endPosition="0" unitName="planarizationTest.ShortestPathEmbeddingFinder_Test" />
+  <unitInfo fileName="PQPlanarityTest_Test.java" startLine="18" startPosition="0" endLine="66" endPosition="0" unitName="planarizationTest.PQPlanarityTest_Test" />
+  <unitInfo fileName="PQPlanarizationFinder_Test.java" startLine="12" startPosition="0" endLine="68" endPosition="0" unitName="planarizationTest.PQPlanarizationFinder_Test" />
+  <unitInfo fileName="AmbiguityPlanarizationFinder_Test.java" startLine="23" startPosition="0" endLine="83" endPosition="0" unitName="planarizationTest.AmbiguityPlanarizationFinder_Test" />
+  <unitInfo fileName="STPlanarGraph_Test.java" startLine="27" startPosition="0" endLine="121" endPosition="0" unitName="planarizationTest.STPlanarGraph_Test" />
   <root nodeId="1123934034178616897">
     <nodeInfo nodeId="2503771434357704727" fileName="CheckEmbeddedGraph.java" startLine="17" startPosition="85" endLine="18" endPosition="21" />
     <nodeInfo nodeId="1123934034178616952" fileName="CheckEmbeddedGraph.java" startLine="20" startPosition="5" endLine="21" endPosition="16" />
@@ -306,6 +313,9 @@
     <scopeInfo nodeId="5709109565604318244" fileName="StressTestPQ.java" startLine="73" startPosition="9" endLine="76" endPosition="9" />
     <scopeInfo nodeId="4267939112872678564" fileName="StressTestPQ.java" startLine="43" startPosition="79" endLine="48" endPosition="7" />
     <scopeInfo nodeId="4267939112872678615" fileName="StressTestPQ.java" startLine="48" startPosition="7" endLine="53" endPosition="7" />
+    <scopeInfo nodeId="5709109565604318162" fileName="StressTestPQ.java" startLine="66" startPosition="0" endLine="83" endPosition="23">
+      <varInfo nodeId="5709109565604318163" varName="e" />
+    </scopeInfo>
     <scopeInfo nodeId="5709109565604318165" fileName="StressTestPQ.java" startLine="66" startPosition="29" endLine="83" endPosition="23">
       <varInfo nodeId="5709109565604318191" varName="orderedGraph" />
       <varInfo nodeId="5709109565604318222" varName="sorting" />
@@ -659,6 +669,9 @@
     <scopeInfo nodeId="6191740939834534571" fileName="StressTestPlanarization.java" startLine="69" startPosition="9" endLine="72" endPosition="9" />
     <scopeInfo nodeId="6191740939834534430" fileName="StressTestPlanarization.java" startLine="39" startPosition="79" endLine="44" endPosition="7" />
     <scopeInfo nodeId="6191740939834534451" fileName="StressTestPlanarization.java" startLine="44" startPosition="7" endLine="49" endPosition="7" />
+    <scopeInfo nodeId="6191740939834534532" fileName="StressTestPlanarization.java" startLine="62" startPosition="0" endLine="74" endPosition="23">
+      <varInfo nodeId="6191740939834534533" varName="e" />
+    </scopeInfo>
     <scopeInfo nodeId="6191740939834534535" fileName="StressTestPlanarization.java" startLine="62" startPosition="29" endLine="74" endPosition="23">
       <varInfo nodeId="6191740939834534542" varName="orderedGraph" />
       <varInfo nodeId="6191740939834534554" varName="sorting" />
