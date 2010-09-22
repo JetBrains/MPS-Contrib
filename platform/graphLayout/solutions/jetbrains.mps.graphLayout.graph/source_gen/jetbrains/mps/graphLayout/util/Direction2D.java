@@ -43,6 +43,14 @@ public enum Direction2D {
     return turn;
   }
 
+  public int getClockwiseTurn(Direction2D dir) {
+    int turn = dir.ordinal() - ordinal();
+    if (turn < 0) {
+      turn += 4;
+    }
+    return turn;
+  }
+
   public boolean isHorizontal() {
     return myDx != 0;
   }

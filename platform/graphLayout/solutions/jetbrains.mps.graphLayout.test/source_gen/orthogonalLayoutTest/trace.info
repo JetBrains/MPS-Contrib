@@ -2,7 +2,6 @@
 <debugInfo>
   <unitInfo fileName="OrthogonalFromVisibility_Test.java" startLine="12" startPosition="0" endLine="19" endPosition="0" unitName="orthogonalLayoutTest.OrthogonalFromVisibility_Test" />
   <unitInfo fileName="RectOrthogonalLayouter_Test.java" startLine="19" startPosition="0" endLine="38" endPosition="0" unitName="orthogonalLayoutTest.RectOrthogonalLayouter_Test" />
-  <unitInfo fileName="ConstraintsGraph_Test.java" startLine="21" startPosition="0" endLine="51" endPosition="0" unitName="orthogonalLayoutTest.ConstraintsGraph_Test" />
   <unitInfo fileName="OrthogonalFlowLayouter_Test.java" startLine="18" startPosition="0" endLine="54" endPosition="0" unitName="orthogonalLayoutTest.OrthogonalFlowLayouter_Test" />
   <unitInfo fileName="AmbiguityLayout_Test.java" startLine="23" startPosition="0" endLine="67" endPosition="0" unitName="orthogonalLayoutTest.AmbiguityLayout_Test" />
   <unitInfo fileName="ConstraintsSupporter_Test.java" startLine="24" startPosition="0" endLine="69" endPosition="0" unitName="orthogonalLayoutTest.ConstraintsSupporter_Test" />
@@ -10,6 +9,7 @@
   <unitInfo fileName="VisibilityRepresentation_Test.java" startLine="23" startPosition="0" endLine="73" endPosition="0" unitName="orthogonalLayoutTest.VisibilityRepresentation_Test" />
   <unitInfo fileName="RectOrthogonalFlowLayouter_Test.java" startLine="18" startPosition="0" endLine="71" endPosition="0" unitName="orthogonalLayoutTest.RectOrthogonalFlowLayouter_Test" />
   <unitInfo fileName="EmbeddedGraphModifier_Test.java" startLine="30" startPosition="0" endLine="84" endPosition="0" unitName="orthogonalLayoutTest.EmbeddedGraphModifier_Test" />
+  <unitInfo fileName="ConstraintsGraph_Test.java" startLine="26" startPosition="0" endLine="89" endPosition="0" unitName="orthogonalLayoutTest.ConstraintsGraph_Test" />
   <unitInfo fileName="OrthogonalRepresentation_Test.java" startLine="25" startPosition="0" endLine="101" endPosition="0" unitName="orthogonalLayoutTest.OrthogonalRepresentation_Test" />
   <unitInfo fileName="QuasiOrthogonalRepresentation_Test.java" startLine="27" startPosition="0" endLine="106" endPosition="0" unitName="orthogonalLayoutTest.QuasiOrthogonalRepresentation_Test" />
   <root nodeId="100801320082832729">
@@ -897,48 +897,98 @@
     </scopeInfo>
   </root>
   <root nodeId="7861048744530895409">
-    <nodeInfo nodeId="7861048744530908431" fileName="ConstraintsGraph_Test.java" startLine="22" startPosition="45" endLine="23" endPosition="63" />
-    <nodeInfo nodeId="7861048744530908439" fileName="ConstraintsGraph_Test.java" startLine="23" startPosition="63" endLine="24" endPosition="16" />
-    <nodeInfo nodeId="5728232039832668441" fileName="ConstraintsGraph_Test.java" startLine="27" startPosition="45" endLine="28" endPosition="78" />
-    <nodeInfo nodeId="5728232039832668446" fileName="ConstraintsGraph_Test.java" startLine="28" startPosition="78" endLine="29" endPosition="16" />
-    <nodeInfo nodeId="5728232039832729394" fileName="ConstraintsGraph_Test.java" startLine="32" startPosition="45" endLine="33" endPosition="150" />
-    <nodeInfo nodeId="5728232039832729399" fileName="ConstraintsGraph_Test.java" startLine="33" startPosition="150" endLine="34" endPosition="16" />
-    <nodeInfo nodeId="5274739094344230343" fileName="ConstraintsGraph_Test.java" startLine="37" startPosition="33" endLine="38" endPosition="107" />
-    <nodeInfo nodeId="5274739094344230353" fileName="ConstraintsGraph_Test.java" startLine="38" startPosition="107" endLine="39" endPosition="81" />
-    <nodeInfo nodeId="5274739094344230362" fileName="ConstraintsGraph_Test.java" startLine="39" startPosition="81" endLine="40" endPosition="82" />
-    <nodeInfo nodeId="5274739094344230371" fileName="ConstraintsGraph_Test.java" startLine="40" startPosition="82" endLine="41" endPosition="82" />
-    <nodeInfo nodeId="5274739094344230376" fileName="ConstraintsGraph_Test.java" startLine="41" startPosition="82" endLine="42" endPosition="110" />
-    <nodeInfo nodeId="5274739094344230384" fileName="ConstraintsGraph_Test.java" startLine="42" startPosition="110" endLine="43" endPosition="53" />
-    <nodeInfo nodeId="5274739094344230388" fileName="ConstraintsGraph_Test.java" startLine="43" startPosition="53" endLine="44" endPosition="79" />
-    <nodeInfo nodeId="5274739094344236565" fileName="ConstraintsGraph_Test.java" startLine="44" startPosition="79" endLine="45" endPosition="38" />
-    <nodeInfo nodeId="5274739094344230393" fileName="ConstraintsGraph_Test.java" startLine="45" startPosition="38" endLine="46" endPosition="102" />
-    <nodeInfo nodeId="5274739094344230401" fileName="ConstraintsGraph_Test.java" startLine="46" startPosition="102" endLine="47" endPosition="99" />
-    <nodeInfo nodeId="5274739094344230408" fileName="ConstraintsGraph_Test.java" startLine="47" startPosition="99" endLine="48" endPosition="31" />
-    <nodeInfo nodeId="7861048744530908425" fileName="ConstraintsGraph_Test.java" startLine="21" startPosition="53" endLine="26" endPosition="0" />
-    <nodeInfo nodeId="5728232039832668437" fileName="ConstraintsGraph_Test.java" startLine="26" startPosition="0" endLine="31" endPosition="0" />
-    <nodeInfo nodeId="5728232039832729386" fileName="ConstraintsGraph_Test.java" startLine="31" startPosition="0" endLine="36" endPosition="0" />
-    <nodeInfo nodeId="7861048744530895416" fileName="ConstraintsGraph_Test.java" startLine="36" startPosition="0" endLine="50" endPosition="0" />
-    <scopeInfo nodeId="7861048744530908428" fileName="ConstraintsGraph_Test.java" startLine="22" startPosition="45" endLine="24" endPosition="16">
+    <nodeInfo nodeId="7861048744530908431" fileName="ConstraintsGraph_Test.java" startLine="27" startPosition="45" endLine="28" endPosition="63" />
+    <nodeInfo nodeId="7861048744530908439" fileName="ConstraintsGraph_Test.java" startLine="28" startPosition="63" endLine="29" endPosition="16" />
+    <nodeInfo nodeId="5728232039832668441" fileName="ConstraintsGraph_Test.java" startLine="32" startPosition="45" endLine="33" endPosition="78" />
+    <nodeInfo nodeId="5728232039832668446" fileName="ConstraintsGraph_Test.java" startLine="33" startPosition="78" endLine="34" endPosition="16" />
+    <nodeInfo nodeId="5728232039832729394" fileName="ConstraintsGraph_Test.java" startLine="37" startPosition="45" endLine="38" endPosition="150" />
+    <nodeInfo nodeId="5728232039832729399" fileName="ConstraintsGraph_Test.java" startLine="38" startPosition="150" endLine="39" endPosition="16" />
+    <nodeInfo nodeId="3403946177685386702" fileName="ConstraintsGraph_Test.java" startLine="42" startPosition="57" endLine="43" endPosition="63" />
+    <nodeInfo nodeId="3403946177685386707" fileName="ConstraintsGraph_Test.java" startLine="43" startPosition="63" endLine="44" endPosition="28" />
+    <nodeInfo nodeId="3403946177685386612" fileName="ConstraintsGraph_Test.java" startLine="47" startPosition="45" endLine="48" endPosition="107" />
+    <nodeInfo nodeId="3403946177685386622" fileName="ConstraintsGraph_Test.java" startLine="48" startPosition="107" endLine="49" endPosition="81" />
+    <nodeInfo nodeId="3403946177685386631" fileName="ConstraintsGraph_Test.java" startLine="49" startPosition="81" endLine="50" endPosition="82" />
+    <nodeInfo nodeId="3403946177685386640" fileName="ConstraintsGraph_Test.java" startLine="50" startPosition="82" endLine="51" endPosition="82" />
+    <nodeInfo nodeId="3403946177685386645" fileName="ConstraintsGraph_Test.java" startLine="51" startPosition="82" endLine="52" endPosition="110" />
+    <nodeInfo nodeId="3403946177685386653" fileName="ConstraintsGraph_Test.java" startLine="52" startPosition="110" endLine="53" endPosition="53" />
+    <nodeInfo nodeId="3403946177685386657" fileName="ConstraintsGraph_Test.java" startLine="53" startPosition="53" endLine="54" endPosition="79" />
+    <nodeInfo nodeId="3403946177685386669" fileName="ConstraintsGraph_Test.java" startLine="54" startPosition="79" endLine="55" endPosition="102" />
+    <nodeInfo nodeId="3403946177685421981" fileName="ConstraintsGraph_Test.java" startLine="55" startPosition="102" endLine="56" endPosition="38" />
+    <nodeInfo nodeId="3403946177685421986" fileName="ConstraintsGraph_Test.java" startLine="56" startPosition="38" endLine="57" endPosition="35" />
+    <nodeInfo nodeId="3403946177685386677" fileName="ConstraintsGraph_Test.java" startLine="57" startPosition="35" endLine="58" endPosition="99" />
+    <nodeInfo nodeId="3403946177685413004" fileName="ConstraintsGraph_Test.java" startLine="58" startPosition="99" endLine="59" endPosition="68" />
+    <nodeInfo nodeId="3403946177685413013" fileName="ConstraintsGraph_Test.java" startLine="59" startPosition="68" endLine="60" endPosition="86" />
+    <nodeInfo nodeId="3403946177685440127" fileName="ConstraintsGraph_Test.java" startLine="60" startPosition="86" endLine="61" endPosition="89" />
+    <nodeInfo nodeId="3403946177685440145" fileName="ConstraintsGraph_Test.java" startLine="62" startPosition="52" endLine="63" endPosition="70" />
+    <nodeInfo nodeId="3403946177685386684" fileName="ConstraintsGraph_Test.java" startLine="64" startPosition="5" endLine="65" endPosition="52" />
+    <nodeInfo nodeId="5274739094344230343" fileName="ConstraintsGraph_Test.java" startLine="68" startPosition="33" endLine="69" endPosition="107" />
+    <nodeInfo nodeId="5274739094344230353" fileName="ConstraintsGraph_Test.java" startLine="69" startPosition="107" endLine="70" endPosition="81" />
+    <nodeInfo nodeId="5274739094344230362" fileName="ConstraintsGraph_Test.java" startLine="70" startPosition="81" endLine="71" endPosition="82" />
+    <nodeInfo nodeId="5274739094344230371" fileName="ConstraintsGraph_Test.java" startLine="71" startPosition="82" endLine="72" endPosition="82" />
+    <nodeInfo nodeId="5274739094344230376" fileName="ConstraintsGraph_Test.java" startLine="72" startPosition="82" endLine="73" endPosition="110" />
+    <nodeInfo nodeId="5274739094344230384" fileName="ConstraintsGraph_Test.java" startLine="73" startPosition="110" endLine="74" endPosition="53" />
+    <nodeInfo nodeId="5274739094344230388" fileName="ConstraintsGraph_Test.java" startLine="74" startPosition="53" endLine="75" endPosition="79" />
+    <nodeInfo nodeId="5274739094344236565" fileName="ConstraintsGraph_Test.java" startLine="75" startPosition="79" endLine="76" endPosition="38" />
+    <nodeInfo nodeId="5274739094344230393" fileName="ConstraintsGraph_Test.java" startLine="76" startPosition="38" endLine="77" endPosition="102" />
+    <nodeInfo nodeId="5274739094344230401" fileName="ConstraintsGraph_Test.java" startLine="77" startPosition="102" endLine="78" endPosition="99" />
+    <nodeInfo nodeId="3403946177685462599" fileName="ConstraintsGraph_Test.java" startLine="78" startPosition="99" endLine="79" endPosition="68" />
+    <nodeInfo nodeId="3403946177685462606" fileName="ConstraintsGraph_Test.java" startLine="79" startPosition="68" endLine="80" endPosition="86" />
+    <nodeInfo nodeId="3403946177685462613" fileName="ConstraintsGraph_Test.java" startLine="80" startPosition="86" endLine="81" endPosition="89" />
+    <nodeInfo nodeId="3403946177685462625" fileName="ConstraintsGraph_Test.java" startLine="82" startPosition="52" endLine="83" endPosition="70" />
+    <nodeInfo nodeId="3403946177685462635" fileName="ConstraintsGraph_Test.java" startLine="84" startPosition="5" endLine="85" endPosition="52" />
+    <nodeInfo nodeId="5274739094344230408" fileName="ConstraintsGraph_Test.java" startLine="85" startPosition="52" endLine="86" endPosition="31" />
+    <nodeInfo nodeId="3403946177685440140" fileName="ConstraintsGraph_Test.java" startLine="61" startPosition="89" endLine="64" endPosition="5" />
+    <nodeInfo nodeId="3403946177685462622" fileName="ConstraintsGraph_Test.java" startLine="81" startPosition="89" endLine="84" endPosition="5" />
+    <nodeInfo nodeId="7861048744530908425" fileName="ConstraintsGraph_Test.java" startLine="26" startPosition="53" endLine="31" endPosition="0" />
+    <nodeInfo nodeId="5728232039832668437" fileName="ConstraintsGraph_Test.java" startLine="31" startPosition="0" endLine="36" endPosition="0" />
+    <nodeInfo nodeId="5728232039832729386" fileName="ConstraintsGraph_Test.java" startLine="36" startPosition="0" endLine="41" endPosition="0" />
+    <nodeInfo nodeId="3403946177685386697" fileName="ConstraintsGraph_Test.java" startLine="41" startPosition="0" endLine="46" endPosition="0" />
+    <nodeInfo nodeId="3403946177685386602" fileName="ConstraintsGraph_Test.java" startLine="46" startPosition="0" endLine="67" endPosition="0" />
+    <nodeInfo nodeId="7861048744530895416" fileName="ConstraintsGraph_Test.java" startLine="67" startPosition="0" endLine="88" endPosition="0" />
+    <scopeInfo nodeId="3403946177685440143" fileName="ConstraintsGraph_Test.java" startLine="62" startPosition="52" endLine="63" endPosition="70" />
+    <scopeInfo nodeId="3403946177685462624" fileName="ConstraintsGraph_Test.java" startLine="82" startPosition="52" endLine="83" endPosition="70" />
+    <scopeInfo nodeId="7861048744530908428" fileName="ConstraintsGraph_Test.java" startLine="27" startPosition="45" endLine="29" endPosition="16">
       <varInfo nodeId="7861048744530908432" varName="graph" />
     </scopeInfo>
-    <scopeInfo nodeId="5728232039832668440" fileName="ConstraintsGraph_Test.java" startLine="27" startPosition="45" endLine="29" endPosition="16">
+    <scopeInfo nodeId="5728232039832668440" fileName="ConstraintsGraph_Test.java" startLine="32" startPosition="45" endLine="34" endPosition="16">
       <varInfo nodeId="5728232039832668442" varName="graph" />
     </scopeInfo>
-    <scopeInfo nodeId="5728232039832729389" fileName="ConstraintsGraph_Test.java" startLine="32" startPosition="45" endLine="34" endPosition="16">
+    <scopeInfo nodeId="5728232039832729389" fileName="ConstraintsGraph_Test.java" startLine="37" startPosition="45" endLine="39" endPosition="16">
       <varInfo nodeId="5728232039832729395" varName="graph" />
     </scopeInfo>
-    <scopeInfo nodeId="7861048744530908425" fileName="ConstraintsGraph_Test.java" startLine="21" startPosition="53" endLine="26" endPosition="0" />
-    <scopeInfo nodeId="5728232039832668437" fileName="ConstraintsGraph_Test.java" startLine="26" startPosition="0" endLine="31" endPosition="0" />
-    <scopeInfo nodeId="5728232039832729386" fileName="ConstraintsGraph_Test.java" startLine="31" startPosition="0" endLine="36" endPosition="0" />
-    <scopeInfo nodeId="7861048744530895419" fileName="ConstraintsGraph_Test.java" startLine="37" startPosition="33" endLine="48" endPosition="31">
+    <scopeInfo nodeId="3403946177685386700" fileName="ConstraintsGraph_Test.java" startLine="42" startPosition="57" endLine="44" endPosition="28">
+      <varInfo nodeId="3403946177685386703" varName="graph" />
+    </scopeInfo>
+    <scopeInfo nodeId="3403946177685440140" fileName="ConstraintsGraph_Test.java" startLine="61" startPosition="89" endLine="64" endPosition="5" />
+    <scopeInfo nodeId="3403946177685462622" fileName="ConstraintsGraph_Test.java" startLine="81" startPosition="89" endLine="84" endPosition="5" />
+    <scopeInfo nodeId="7861048744530908425" fileName="ConstraintsGraph_Test.java" startLine="26" startPosition="53" endLine="31" endPosition="0" />
+    <scopeInfo nodeId="5728232039832668437" fileName="ConstraintsGraph_Test.java" startLine="31" startPosition="0" endLine="36" endPosition="0" />
+    <scopeInfo nodeId="5728232039832729386" fileName="ConstraintsGraph_Test.java" startLine="36" startPosition="0" endLine="41" endPosition="0" />
+    <scopeInfo nodeId="3403946177685386697" fileName="ConstraintsGraph_Test.java" startLine="41" startPosition="0" endLine="46" endPosition="0" />
+    <scopeInfo nodeId="3403946177685386605" fileName="ConstraintsGraph_Test.java" startLine="47" startPosition="45" endLine="65" endPosition="52">
+      <varInfo nodeId="3403946177685386670" varName="directions" />
+      <varInfo nodeId="3403946177685386646" varName="quasiModifier" />
+      <varInfo nodeId="3403946177685386632" varName="angles" />
+      <varInfo nodeId="3403946177685413005" varName="nodes" />
+      <varInfo nodeId="3403946177685386623" varName="bends" />
+      <varInfo nodeId="3403946177685386613" varName="embeddedGraph" />
+      <varInfo nodeId="3403946177685386678" varName="processor" />
+      <varInfo nodeId="3403946177685440128" varName="nodeSizes" />
+    </scopeInfo>
+    <scopeInfo nodeId="7861048744530895419" fileName="ConstraintsGraph_Test.java" startLine="68" startPosition="33" endLine="86" endPosition="31">
       <varInfo nodeId="5274739094344230394" varName="directions" />
       <varInfo nodeId="5274739094344230377" varName="quasiModifier" />
       <varInfo nodeId="5274739094344230363" varName="angles" />
+      <varInfo nodeId="3403946177685462600" varName="nodes" />
       <varInfo nodeId="5274739094344230354" varName="bends" />
       <varInfo nodeId="5274739094344230344" varName="embeddedGraph" />
       <varInfo nodeId="5274739094344230402" varName="processor" />
+      <varInfo nodeId="3403946177685462614" varName="nodeSizes" />
     </scopeInfo>
-    <scopeInfo nodeId="7861048744530895416" fileName="ConstraintsGraph_Test.java" startLine="36" startPosition="0" endLine="50" endPosition="0">
+    <scopeInfo nodeId="3403946177685386602" fileName="ConstraintsGraph_Test.java" startLine="46" startPosition="0" endLine="67" endPosition="0">
+      <varInfo nodeId="3403946177685386606" varName="graph" />
+    </scopeInfo>
+    <scopeInfo nodeId="7861048744530895416" fileName="ConstraintsGraph_Test.java" startLine="67" startPosition="0" endLine="88" endPosition="0">
       <varInfo nodeId="7861048744530895582" varName="graph" />
     </scopeInfo>
   </root>

@@ -17,6 +17,11 @@ import jetbrains.mps.graphLayout.flowOrthogonalLayout.QuasiRepresentationModifie
 import jetbrains.mps.graphLayout.flowOrthogonalLayout.OrthogonalRepresentation;
 import jetbrains.mps.graphLayout.util.Direction2D;
 import jetbrains.mps.graphLayout.flowOrthogonalLayout.ConstraintsGraphProcessor;
+import java.util.List;
+import jetbrains.mps.graphLayout.graph.Node;
+import jetbrains.mps.internal.collections.runtime.ListSequence;
+import java.util.ArrayList;
+import java.awt.Dimension;
 
 public class ConstraintsGraph_Test extends TestCase {
   public void test_test1() throws Exception {
@@ -34,6 +39,32 @@ public class ConstraintsGraph_Test extends TestCase {
     test(graph);
   }
 
+  public void test_testModification1() throws Exception {
+    Graph graph = GraphIO.scanGraph("4 4  0 1  1 2  2 3  3 0");
+    testModification(graph);
+  }
+
+  public void testModification(Graph graph) {
+    EmbeddedGraph embeddedGraph = new ShortestPathEmbeddingFinder(new PQPlanarizationFinder()).find(graph);
+    Map<Dart, Integer> bends = MapSequence.fromMap(new HashMap<Dart, Integer>());
+    Map<Dart, Integer> angles = MapSequence.fromMap(new HashMap<Dart, Integer>());
+    QuasiOrthogonalRepresentation.getRepresentation(embeddedGraph, bends, angles);
+    QuasiRepresentationModifier quasiModifier = new QuasiRepresentationModifier(embeddedGraph, bends, angles);
+    quasiModifier.reduceToOrthogonalRepresentation();
+    OrthogonalRepresentation.replaceBendsByNodes(embeddedGraph, bends, angles);
+    Map<Dart, Direction2D> directions = OrthogonalRepresentation.getDirections(embeddedGraph, angles);
+    System.out.println(embeddedGraph);
+    System.out.println(directions);
+    ConstraintsGraphProcessor processor = new ConstraintsGraphProcessor(embeddedGraph, directions);
+    List<Node> nodes = ListSequence.fromList(new ArrayList<Node>());
+    ListSequence.fromList(nodes).addSequence(ListSequence.fromList(graph.getNodes()));
+    Map<Node, Dimension> nodeSizes = MapSequence.fromMap(new HashMap<Node, Dimension>());
+    for (Node node : ListSequence.fromList(nodes)) {
+      MapSequence.fromMap(nodeSizes).put(node, new Dimension(30, 30));
+    }
+    processor.modifyEmbeddedGraph(nodes, nodeSizes);
+  }
+
   public void test(Graph graph) {
     EmbeddedGraph embeddedGraph = new ShortestPathEmbeddingFinder(new PQPlanarizationFinder()).find(graph);
     Map<Dart, Integer> bends = MapSequence.fromMap(new HashMap<Dart, Integer>());
@@ -45,6 +76,13 @@ public class ConstraintsGraph_Test extends TestCase {
     System.out.println(embeddedGraph);
     Map<Dart, Direction2D> directions = OrthogonalRepresentation.getDirections(embeddedGraph, angles);
     ConstraintsGraphProcessor processor = new ConstraintsGraphProcessor(embeddedGraph, directions);
+    List<Node> nodes = ListSequence.fromList(new ArrayList<Node>());
+    ListSequence.fromList(nodes).addSequence(ListSequence.fromList(graph.getNodes()));
+    Map<Node, Dimension> nodeSizes = MapSequence.fromMap(new HashMap<Node, Dimension>());
+    for (Node node : ListSequence.fromList(nodes)) {
+      MapSequence.fromMap(nodeSizes).put(node, new Dimension(30, 30));
+    }
+    processor.modifyEmbeddedGraph(nodes, nodeSizes);
     processor.constructGraph();
   }
 }
