@@ -31,7 +31,7 @@
     <nodeInfo nodeId="1567683135099906247" fileName="TopologicalLayerer_Test.java" startLine="39" startPosition="99" endLine="40" endPosition="81" />
     <nodeInfo nodeId="1567683135099906256" fileName="TopologicalLayerer_Test.java" startLine="40" startPosition="81" endLine="41" endPosition="81" />
     <nodeInfo nodeId="1567683135099906265" fileName="TopologicalLayerer_Test.java" startLine="41" startPosition="81" endLine="42" endPosition="81" />
-    <nodeInfo nodeId="1567683135099906278" fileName="TopologicalLayerer_Test.java" startLine="45" startPosition="45" endLine="46" endPosition="48" />
+    <nodeInfo nodeId="3263240354041154372" fileName="TopologicalLayerer_Test.java" startLine="45" startPosition="45" endLine="46" endPosition="48" />
     <nodeInfo nodeId="1567683135099906287" fileName="TopologicalLayerer_Test.java" startLine="47" startPosition="9" endLine="48" endPosition="70" />
     <nodeInfo nodeId="1567683135099906283" fileName="TopologicalLayerer_Test.java" startLine="48" startPosition="70" endLine="49" endPosition="49" />
     <nodeInfo nodeId="1567683135099906283" fileName="TopologicalLayerer_Test.java" startLine="50" startPosition="42" endLine="51" endPosition="28" />
@@ -80,7 +80,7 @@
     <scopeInfo nodeId="1567683135099906094" fileName="TopologicalLayerer_Test.java" startLine="15" startPosition="55" endLine="21" endPosition="0" />
     <scopeInfo nodeId="1567683135099906128" fileName="TopologicalLayerer_Test.java" startLine="21" startPosition="0" endLine="28" endPosition="0" />
     <scopeInfo nodeId="1567683135099906277" fileName="TopologicalLayerer_Test.java" startLine="45" startPosition="45" endLine="52" endPosition="5">
-      <varInfo nodeId="1567683135099906279" varName="cycle" />
+      <varInfo nodeId="3263240354041154373" varName="cycle" />
     </scopeInfo>
     <scopeInfo nodeId="1567683135099906374" fileName="TopologicalLayerer_Test.java" startLine="66" startPosition="56" endLine="73" endPosition="84">
       <varInfo nodeId="1567683135099906376" varName="simpleGraph" />

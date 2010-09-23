@@ -4236,8 +4236,8 @@
     <node role="field:3" type="jetbrains.mps.baseLanguage.structure.FieldDeclaration:3" id="903391227141136156">
       <property name="name:3" value="myLayouter" />
       <node role="visibility:3" type="jetbrains.mps.baseLanguage.structure.PrivateVisibility:3" id="903391227141136157" />
-      <node role="type:3" type="jetbrains.mps.baseLanguage.structure.ClassifierType:3" id="272112265222882003">
-        <link role="classifier:3" targetNodeId="16.6370402596948444184" resolveInfo="OrthogonalFlowLayouter" />
+      <node role="type:3" type="jetbrains.mps.baseLanguage.structure.ClassifierType:3" id="3263240354040991385">
+        <link role="classifier:3" targetNodeId="16.3403946177685519197" resolveInfo="OrthogonalFlowLayouterConstraints" />
       </node>
     </node>
     <node role="field:3" type="jetbrains.mps.baseLanguage.structure.FieldDeclaration:3" id="903391227141136131">
@@ -5597,7 +5597,7 @@
                     <link role="variableDeclaration:3" targetNodeId="903391227141136156" resolveInfo="myLayouter" />
                   </node>
                   <node role="operation:3" type="jetbrains.mps.baseLanguage.structure.InstanceMethodCallOperation:3" id="903391227141138877">
-                    <link role="baseMethodDeclaration:3" targetNodeId="16.6370402596948444190" resolveInfo="doLayout" />
+                    <link role="baseMethodDeclaration:3" targetNodeId="16.3403946177685519210" resolveInfo="doLayout" />
                     <node role="actualArgument:3" type="jetbrains.mps.baseLanguage.structure.LocalVariableReference:3" id="903391227141138878">
                       <link role="variableDeclaration:3" targetNodeId="903391227141135767" resolveInfo="g" />
                     </node>
@@ -6049,7 +6049,7 @@
           <node role="expression:3" type="jetbrains.mps.baseLanguage.structure.AssignmentExpression:3" id="3698135283642035873">
             <node role="rValue:3" type="jetbrains.mps.baseLanguage.structure.GenericNewExpression:3" id="3698135283642039219">
               <node role="creator:3" type="jetbrains.mps.baseLanguage.structure.ClassCreator:3" id="3698135283642039220">
-                <link role="baseMethodDeclaration:3" targetNodeId="16.6370402596948444186" resolveInfo="OrthogonalFlowLayouter" />
+                <link role="baseMethodDeclaration:3" targetNodeId="16.3403946177685520960" resolveInfo="OrthogonalFlowLayouterConstraints" />
               </node>
             </node>
             <node role="lValue:3" type="jetbrains.mps.baseLanguage.structure.LocalInstanceFieldReference:3" id="3698135283642035872">

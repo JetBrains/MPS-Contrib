@@ -43,7 +43,7 @@ public class TopologicalLayerer_Test extends TestCase {
   }
 
   public void test_cycle() throws Exception {
-    Graph cycle = SimpleDirectedGraphs.cycle(5);
+    Graph cycle = SimpleDirectedGraphs.cycle(3);
     try {
       new LayererProxy(new TopologicalLayerer()).computeLayers(cycle);
       Assert.fail("input graph must be acyclic");

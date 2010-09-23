@@ -9,13 +9,16 @@ import jetbrains.mps.graphLayout.planarGraph.Dart;
 import jetbrains.mps.graphLayout.util.Direction2D;
 import jetbrains.mps.graphLayout.graph.Node;
 import jetbrains.mps.graphLayout.graph.Edge;
+import java.util.Set;
+import jetbrains.mps.graphLayout.planarGraph.Face;
 import java.awt.Dimension;
 import jetbrains.mps.internal.collections.runtime.MapSequence;
 import java.util.HashMap;
 import jetbrains.mps.internal.collections.runtime.Sequence;
 import java.util.List;
 import jetbrains.mps.internal.collections.runtime.ListSequence;
-import jetbrains.mps.graphLayout.planarGraph.Face;
+import jetbrains.mps.internal.collections.runtime.SetSequence;
+import java.util.HashSet;
 import java.util.ArrayList;
 import jetbrains.mps.internal.collections.runtime.IWhereFilter;
 import jetbrains.mps.internal.collections.runtime.backports.LinkedList;
@@ -23,18 +26,15 @@ import jetbrains.mps.internal.collections.runtime.ISelector;
 import jetbrains.mps.graphLayout.algorithms.TopologicalSorting;
 import java.awt.Point;
 import jetbrains.mps.graphLayout.algorithms.TopologicalNumbering;
-import jetbrains.mps.internal.collections.runtime.SetSequence;
 import jetbrains.mps.graphLayout.algorithms.WeightedTopologicalNumbering;
 import jetbrains.mps.baseLanguage.closures.runtime._FunctionTypes;
 import jetbrains.mps.graphLayout.algorithms.ConnectivityComponents;
 import java.util.Arrays;
 import jetbrains.mps.graphLayout.algorithms.ShortestPath;
 import jetbrains.mps.baseLanguage.closures.runtime.Wrappers;
-import java.util.Set;
-import java.util.HashSet;
 
 public class ConstraintsGraphProcessor {
-  private static int SHOW_INFO = 1;
+  private static int SHOW_INFO = 0;
   private static int DEBUG = 1;
   private static int DEFAULT_UNIT_LENGTH = 20;
 
@@ -47,6 +47,8 @@ public class ConstraintsGraphProcessor {
   private Map<Node, Node> myVerNodeMap;
   private Map<Edge, Edge> myEdgeMap;
   private Map<Edge, Integer> myEdgeLengths;
+  private Iterable<Node> myNodesWithSize;
+  private Set<Face> myFacesToSkip;
   private int myUnitLength;
 
   public ConstraintsGraphProcessor(EmbeddedGraph embeddedGraph, Map<Dart, Direction2D> directions) {
@@ -57,6 +59,7 @@ public class ConstraintsGraphProcessor {
   }
 
   public void modifyEmbeddedGraph(Iterable<Node> nodesWithSize, Map<Node, Dimension> nodeSizes) {
+    myNodesWithSize = nodesWithSize;
     myEdgeLengths = MapSequence.fromMap(new HashMap<Edge, Integer>());
     for (Node node : Sequence.fromIterable(nodesWithSize)) {
       splitEdges(node);
@@ -95,6 +98,7 @@ public class ConstraintsGraphProcessor {
   }
 
   public Map<Direction2D, List<Edge>> makeRectangleForNode(Node node) {
+    myFacesToSkip = SetSequence.fromSet(new HashSet<Face>());
     List<Dart> darts = myEmbeddedGraph.getDartWithSource(node);
     Map<Direction2D, List<Edge>> edgesInDirection = MapSequence.fromMap(new HashMap<Direction2D, List<Edge>>());
     for (Direction2D dir : Direction2D.values()) {
@@ -129,17 +133,22 @@ public class ConstraintsGraphProcessor {
       }
       boolean isOuter = myEmbeddedGraph.isOuterFace(face);
       List<Face> newFaces = myEmbeddedGraph.splitFace(face, newEdges, pathSource, pathTarget);
-      if (isOuter) {
-        Face newOuterFace = null;
-        for (Face newFace : ListSequence.fromList(newFaces)) {
-          Iterable<Node> faceNodes = ListSequence.fromList(newFace.getDarts()).select(new ISelector<Dart, Node>() {
-            public Node select(Dart dart) {
-              return dart.getSource();
-            }
-          });
-          if (!(Sequence.fromIterable(faceNodes).contains(node))) {
-            newOuterFace = newFace;
+      Face newFaceWithNode = null;
+      for (Face newFace : ListSequence.fromList(newFaces)) {
+        Iterable<Node> faceNodes = ListSequence.fromList(newFace.getDarts()).select(new ISelector<Dart, Node>() {
+          public Node select(Dart dart) {
+            return dart.getSource();
           }
+        });
+        if (Sequence.fromIterable(faceNodes).contains(node)) {
+          newFaceWithNode = newFace;
+        }
+      }
+      SetSequence.fromSet(myFacesToSkip).addElement(newFaceWithNode);
+      if (isOuter) {
+        Face newOuterFace = ListSequence.fromList(newFaces).getElement(0);
+        if (newOuterFace == newFaceWithNode) {
+          newOuterFace = ListSequence.fromList(newFaces).getElement(1);
         }
         myEmbeddedGraph.setOuterFace(newOuterFace);
       }
@@ -189,7 +198,7 @@ public class ConstraintsGraphProcessor {
   public void constructGraph() {
     getShape();
     for (Face face : ListSequence.fromList(myEmbeddedGraph.getFaces())) {
-      if (myEmbeddedGraph.isOuterFace(face)) {
+      if (myEmbeddedGraph.isOuterFace(face) || SetSequence.fromSet(myFacesToSkip).contains(face)) {
         continue;
       }
       makeShapeComplete(face);
@@ -228,13 +237,18 @@ public class ConstraintsGraphProcessor {
     for (Edge edge : SetSequence.fromSet(MapSequence.fromMap(myEdgeLengths).keySet())) {
       MapSequence.fromMap(edgeLengths).put(MapSequence.fromMap(myEdgeMap).get(edge), MapSequence.fromMap(myEdgeLengths).get(edge));
     }
+    for (Node node : Sequence.fromIterable(myNodesWithSize)) {
+      for (Edge edge : ListSequence.fromList(node.getEdges())) {
+        MapSequence.fromMap(edgeLengths).put(MapSequence.fromMap(myEdgeMap).get(edge), 0);
+      }
+    }
     Map<Node, Integer> horNumbering = WeightedTopologicalNumbering.number(myHorConstraintsGraph, edgeLengths);
     Map<Node, Integer> verNumbering = WeightedTopologicalNumbering.number(myVerConstraintsGraph, edgeLengths);
     Map<Node, Point> coordinates = MapSequence.fromMap(new HashMap<Node, Point>());
     for (Node node : ListSequence.fromList(myGraph.getNodes())) {
       Node horSeg = MapSequence.fromMap(myHorNodeMap).get(node);
       Node verSeg = MapSequence.fromMap(myVerNodeMap).get(node);
-      MapSequence.fromMap(coordinates).put(node, new Point(MapSequence.fromMap(horNumbering).get(horSeg), MapSequence.fromMap(verNumbering).get(verSeg)));
+      MapSequence.fromMap(coordinates).put(node, new Point(MapSequence.fromMap(verNumbering).get(verSeg), MapSequence.fromMap(horNumbering).get(horSeg)));
     }
     return coordinates;
   }
@@ -305,7 +319,15 @@ public class ConstraintsGraphProcessor {
     connectPattern(segments, directions);
   }
 
-  private void connectConstraintsNodes(Node node1, Node node2, Direction2D direction) {
+  private void connectConstraintsNodes(final Node node1, final Node node2, Direction2D direction) {
+    Edge connectingEdge = ListSequence.fromList(node1.getEdges()).findFirst(new IWhereFilter<Edge>() {
+      public boolean accept(Edge edge) {
+        return edge.getOpposite(node1) == node2;
+      }
+    });
+    if (connectingEdge != null) {
+      return;
+    }
     Edge edge;
     if (direction == Direction2D.UP || direction == Direction2D.RIGHT) {
       edge = node1.addEdgeTo(node2);
@@ -352,6 +374,7 @@ public class ConstraintsGraphProcessor {
     myVerConstraintsGraph = verConstraintsGraph;
     myHorNodeMap = horNodeMap;
     myVerNodeMap = verNodeMap;
+    myEdgeMap = edgeMap;
     if (SHOW_INFO > 0) {
       System.out.println("constaints graph:");
       for (Node node : ListSequence.fromList(myGraph.getNodes())) {

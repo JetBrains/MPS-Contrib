@@ -1210,34 +1210,37 @@
   </root>
   <root nodeId="5180427534212043147">
     <nodeInfo nodeId="920414672219832490" fileName="TopologicalNumbering.java" startLine="18" startPosition="88" endLine="19" endPosition="56" />
-    <nodeInfo nodeId="920414672219832516" fileName="TopologicalNumbering.java" startLine="19" startPosition="56" endLine="20" endPosition="63" />
-    <nodeInfo nodeId="920414672219835501" fileName="TopologicalNumbering.java" startLine="21" startPosition="63" endLine="22" endPosition="50" />
-    <nodeInfo nodeId="920414672219835549" fileName="TopologicalNumbering.java" startLine="25" startPosition="67" endLine="26" endPosition="39" />
-    <nodeInfo nodeId="920414672219835527" fileName="TopologicalNumbering.java" startLine="26" startPosition="39" endLine="27" endPosition="151" />
-    <nodeInfo nodeId="920414672219832531" fileName="TopologicalNumbering.java" startLine="29" startPosition="5" endLine="30" endPosition="21" />
+    <nodeInfo nodeId="3263240354041154763" fileName="TopologicalNumbering.java" startLine="20" startPosition="26" endLine="21" endPosition="72" />
+    <nodeInfo nodeId="920414672219832516" fileName="TopologicalNumbering.java" startLine="22" startPosition="5" endLine="23" endPosition="63" />
+    <nodeInfo nodeId="920414672219835501" fileName="TopologicalNumbering.java" startLine="24" startPosition="63" endLine="25" endPosition="50" />
+    <nodeInfo nodeId="920414672219835549" fileName="TopologicalNumbering.java" startLine="28" startPosition="67" endLine="29" endPosition="39" />
+    <nodeInfo nodeId="920414672219835527" fileName="TopologicalNumbering.java" startLine="29" startPosition="39" endLine="30" endPosition="151" />
+    <nodeInfo nodeId="920414672219832531" fileName="TopologicalNumbering.java" startLine="32" startPosition="5" endLine="33" endPosition="21" />
     <nodeInfo nodeId="5180427534212043149" fileName="TopologicalNumbering.java" startLine="14" startPosition="35" endLine="16" endPosition="3" />
-    <nodeInfo nodeId="920414672219835491" fileName="TopologicalNumbering.java" startLine="20" startPosition="63" endLine="23" endPosition="5" />
-    <nodeInfo nodeId="920414672219835517" fileName="TopologicalNumbering.java" startLine="24" startPosition="54" endLine="28" endPosition="7" />
-    <nodeInfo nodeId="920414672219835512" fileName="TopologicalNumbering.java" startLine="23" startPosition="5" endLine="29" endPosition="5" />
-    <nodeInfo nodeId="920414672219832483" fileName="TopologicalNumbering.java" startLine="17" startPosition="0" endLine="32" endPosition="0" />
+    <nodeInfo nodeId="3263240354041154754" fileName="TopologicalNumbering.java" startLine="19" startPosition="56" endLine="22" endPosition="5" />
+    <nodeInfo nodeId="920414672219835491" fileName="TopologicalNumbering.java" startLine="23" startPosition="63" endLine="26" endPosition="5" />
+    <nodeInfo nodeId="920414672219835517" fileName="TopologicalNumbering.java" startLine="27" startPosition="54" endLine="31" endPosition="7" />
+    <nodeInfo nodeId="920414672219835512" fileName="TopologicalNumbering.java" startLine="26" startPosition="5" endLine="32" endPosition="5" />
+    <nodeInfo nodeId="920414672219832483" fileName="TopologicalNumbering.java" startLine="17" startPosition="0" endLine="35" endPosition="0" />
     <scopeInfo nodeId="5180427534212043152" fileName="TopologicalNumbering.java" startLine="15" startPosition="34" endLine="15" endPosition="34" />
-    <scopeInfo nodeId="920414672219835494" fileName="TopologicalNumbering.java" startLine="21" startPosition="63" endLine="22" endPosition="50" />
+    <scopeInfo nodeId="3263240354041154755" fileName="TopologicalNumbering.java" startLine="20" startPosition="26" endLine="21" endPosition="72" />
+    <scopeInfo nodeId="920414672219835494" fileName="TopologicalNumbering.java" startLine="24" startPosition="63" endLine="25" endPosition="50" />
     <scopeInfo nodeId="5180427534212043149" fileName="TopologicalNumbering.java" startLine="14" startPosition="35" endLine="16" endPosition="3" />
-    <scopeInfo nodeId="920414672219835520" fileName="TopologicalNumbering.java" startLine="25" startPosition="67" endLine="27" endPosition="151">
+    <scopeInfo nodeId="920414672219835520" fileName="TopologicalNumbering.java" startLine="28" startPosition="67" endLine="30" endPosition="151">
       <varInfo nodeId="920414672219835550" varName="target" />
     </scopeInfo>
-    <scopeInfo nodeId="920414672219835491" fileName="TopologicalNumbering.java" startLine="20" startPosition="63" endLine="23" endPosition="5" />
-    <scopeInfo nodeId="920414672219835515" fileName="TopologicalNumbering.java" startLine="24" startPosition="54" endLine="28" endPosition="7" />
-    <scopeInfo nodeId="920414672219835517" fileName="TopologicalNumbering.java" startLine="24" startPosition="54" endLine="28" endPosition="7" />
-    <scopeInfo nodeId="920414672219835512" fileName="TopologicalNumbering.java" startLine="23" startPosition="5" endLine="29" endPosition="5" />
-    <scopeInfo nodeId="920414672219832486" fileName="TopologicalNumbering.java" startLine="18" startPosition="88" endLine="30" endPosition="21">
+    <scopeInfo nodeId="920414672219835491" fileName="TopologicalNumbering.java" startLine="23" startPosition="63" endLine="26" endPosition="5" />
+    <scopeInfo nodeId="920414672219835515" fileName="TopologicalNumbering.java" startLine="27" startPosition="54" endLine="31" endPosition="7" />
+    <scopeInfo nodeId="920414672219835517" fileName="TopologicalNumbering.java" startLine="27" startPosition="54" endLine="31" endPosition="7" />
+    <scopeInfo nodeId="920414672219835512" fileName="TopologicalNumbering.java" startLine="26" startPosition="5" endLine="32" endPosition="5" />
+    <scopeInfo nodeId="920414672219832486" fileName="TopologicalNumbering.java" startLine="18" startPosition="88" endLine="33" endPosition="21">
       <varInfo nodeId="920414672219832517" varName="numbering" />
       <varInfo nodeId="920414672219832491" varName="sorting" />
     </scopeInfo>
-    <scopeInfo nodeId="920414672219832483" fileName="TopologicalNumbering.java" startLine="17" startPosition="0" endLine="32" endPosition="0">
+    <scopeInfo nodeId="920414672219832483" fileName="TopologicalNumbering.java" startLine="17" startPosition="0" endLine="35" endPosition="0">
       <varInfo nodeId="920414672219832488" varName="graph" />
     </scopeInfo>
-    <unitInfo nodeId="5180427534212043147" fileName="TopologicalNumbering.java" startLine="14" startPosition="0" endLine="33" endPosition="0" unitName="jetbrains.mps.graphLayout.algorithms.TopologicalNumbering" />
+    <unitInfo nodeId="5180427534212043147" fileName="TopologicalNumbering.java" startLine="14" startPosition="0" endLine="36" endPosition="0" unitName="jetbrains.mps.graphLayout.algorithms.TopologicalNumbering" />
   </root>
   <root nodeId="5213231752900660164">
     <nodeInfo nodeId="3182425861591379002" fileName="ConnectivityComponents.java" startLine="22" startPosition="40" endLine="23" endPosition="20" />
