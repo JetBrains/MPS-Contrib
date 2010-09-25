@@ -170,7 +170,7 @@ public class UnitTestRunner extends BaseRunner {
     return this.getCommandString(this.myProcessBuilder);
   }
 
-  public String getClasspathString(List<SNode> list, List<String> addictionClassPath) {
+  public String getClasspathString(List<SNode> list, List<String> additionalClassPath) {
     Set<IModule> uniqModules = SetSequence.fromSet(new HashSet<IModule>());
     for (SNode testable : list) {
       IModule module = SNodeOperations.getModel(testable).getModelDescriptor().getModule();
@@ -180,10 +180,10 @@ public class UnitTestRunner extends BaseRunner {
     for (IModule module : uniqModules) {
       SetSequence.fromSet(classpath).addSequence(SetSequence.fromSet(BaseRunner.getModuleClasspath(module, true)));
     }
-    ListSequence.fromList(addictionClassPath).addSequence(SetSequence.fromSet(classpath));
+    ListSequence.fromList(additionalClassPath).addSequence(SetSequence.fromSet(classpath));
 
     StringBuffer buff = new StringBuffer();
-    for (String path : addictionClassPath) {
+    for (String path : additionalClassPath) {
       buff.append(path).append(BaseRunner.ps());
     }
     return buff.toString();
