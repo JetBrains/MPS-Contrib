@@ -7,16 +7,16 @@ import jetbrains.mps.graphLayout.graph.Graph;
 import java.util.Map;
 import jetbrains.mps.graphLayout.graph.Node;
 import java.awt.Dimension;
+import jetbrains.mps.graphLayout.graph.Edge;
 import jetbrains.mps.internal.collections.runtime.MapSequence;
 import java.util.HashMap;
-import jetbrains.mps.graphLayout.graph.Edge;
 import jetbrains.mps.internal.collections.runtime.ListSequence;
+import jetbrains.mps.internal.collections.runtime.SetSequence;
 import java.util.List;
 import java.awt.Point;
 import java.awt.Rectangle;
 import jetbrains.mps.graphLayout.graphLayout.LayoutTransform;
 import java.util.Set;
-import jetbrains.mps.internal.collections.runtime.SetSequence;
 import java.util.HashSet;
 import jetbrains.mps.graphLayout.algorithms.BiconnectAugmentation;
 import jetbrains.mps.graphLayout.planarGraph.EmbeddedGraph;
@@ -25,32 +25,38 @@ import jetbrains.mps.graphLayout.planarization.PQPlanarizationFinder;
 import java.util.ArrayList;
 import jetbrains.mps.graphLayout.planarGraph.Dart;
 import jetbrains.mps.graphLayout.util.Direction2D;
+import jetbrains.mps.internal.collections.runtime.Sequence;
 import jetbrains.mps.internal.collections.runtime.backports.LinkedList;
 import jetbrains.mps.graphLayout.util.GeomUtil;
 
-public class OrthogonalFlowLayouterConstraints {
+public class OrthogonalFlowLabelProcessing {
   private static int DEFAULT_UNIT_LENGTH = 20;
-  private static int SHOW_INFO = 1;
+  private static int SHOW_INFO = 0;
 
-  private int myUnitLength = DEFAULT_UNIT_LENGTH;
+  private int myUnitLength = OrthogonalFlowLabelProcessing.DEFAULT_UNIT_LENGTH;
 
-  public OrthogonalFlowLayouterConstraints() {
+  public OrthogonalFlowLabelProcessing() {
   }
 
-  public GraphLayout doLayout(Graph graph, Map<Node, Dimension> nodeSizes) {
+  public GraphLayout doLayout(Graph graph, Map<Node, Dimension> nodeSizes, Map<Edge, Dimension> labelSizes) {
     Graph copy = new Graph();
     Map<Node, Node> nodeMap = MapSequence.fromMap(new HashMap<Node, Node>());
     Map<Edge, Edge> edgeMap = MapSequence.fromMap(new HashMap<Edge, Edge>());
-    Map<Node, Dimension> copySizes = MapSequence.fromMap(new HashMap<Node, Dimension>());
+    Map<Node, Dimension> copyNodeSizes = MapSequence.fromMap(new HashMap<Node, Dimension>());
+    Map<Edge, Dimension> copyLabelSizes = MapSequence.fromMap(new HashMap<Edge, Dimension>());
     for (Node node : ListSequence.fromList(graph.getNodes())) {
       Node copyNode = copy.addNode();
       MapSequence.fromMap(nodeMap).put(node, copyNode);
-      MapSequence.fromMap(copySizes).put(copyNode, MapSequence.fromMap(nodeSizes).get(node));
+      MapSequence.fromMap(copyNodeSizes).put(copyNode, MapSequence.fromMap(nodeSizes).get(node));
     }
     for (Edge edge : ListSequence.fromList(graph.getEdges())) {
-      MapSequence.fromMap(edgeMap).put(edge, MapSequence.fromMap(nodeMap).get(edge.getSource()).addEdgeTo(MapSequence.fromMap(nodeMap).get(edge.getTarget())));
+      Edge copyEdge = MapSequence.fromMap(nodeMap).get(edge.getSource()).addEdgeTo(MapSequence.fromMap(nodeMap).get(edge.getTarget()));
+      MapSequence.fromMap(edgeMap).put(edge, copyEdge);
     }
-    GraphLayout copyLayout = getLayoutCorruptGraph(copy, copySizes);
+    for (Edge edge : SetSequence.fromSet(MapSequence.fromMap(labelSizes).keySet())) {
+      MapSequence.fromMap(copyLabelSizes).put(MapSequence.fromMap(edgeMap).get(edge), MapSequence.fromMap(labelSizes).get(edge));
+    }
+    GraphLayout copyLayout = getLayoutCorruptGraph(copy, copyNodeSizes, copyLabelSizes);
     GraphLayout layout = new GraphLayout(graph);
     for (Node node : ListSequence.fromList(graph.getNodes())) {
       layout.setLayoutFor(node, copyLayout.getLayoutFor(MapSequence.fromMap(nodeMap).get(node)));
@@ -64,12 +70,15 @@ public class OrthogonalFlowLayouterConstraints {
       }
       layout.setLayoutFor(edge, copyEdgeLayout);
     }
+    for (Edge edge : SetSequence.fromSet(MapSequence.fromMap(labelSizes).keySet())) {
+      layout.setLabelLayout(edge, copyLayout.getLabelLayout(MapSequence.fromMap(edgeMap).get(edge)));
+    }
     Rectangle rect = layout.getContainingRectangle();
     layout = LayoutTransform.shift(layout, 20 - rect.x, 20 - rect.y);
     return layout;
   }
 
-  private GraphLayout getLayoutCorruptGraph(Graph graph, Map<Node, Dimension> nodeSizes) {
+  private GraphLayout getLayoutCorruptGraph(Graph graph, Map<Node, Dimension> nodeSizes, Map<Edge, Dimension> initialLabelSizes) {
     Set<Node> initialNodes = SetSequence.fromSet(new HashSet<Node>());
     SetSequence.fromSet(initialNodes).addSequence(ListSequence.fromList(graph.getNodes()));
     Set<Edge> initialEdges = SetSequence.fromSet(new HashSet<Edge>());
@@ -77,10 +86,16 @@ public class OrthogonalFlowLayouterConstraints {
     BiconnectAugmentation.smartMakeBiconnected(graph);
     EmbeddedGraph embeddedGraph = new ShortestPathEmbeddingFinder(new PQPlanarizationFinder()).find(graph);
     Map<Edge, List<Edge>> history = MapSequence.fromMap(new HashMap<Edge, List<Edge>>());
+    Map<Edge, Edge> labeledEdge = MapSequence.fromMap(new HashMap<Edge, Edge>());
     for (Edge edge : SetSequence.fromSet(initialEdges)) {
       MapSequence.fromMap(history).put(edge, embeddedGraph.findFullHistory(edge));
+      MapSequence.fromMap(labeledEdge).put(edge, getLabeledEdge(MapSequence.fromMap(history).get(edge)));
     }
-    GraphLayout layout = getLayoutFromEmbeddedGraph(embeddedGraph, nodeSizes);
+    Map<Edge, Dimension> labelSizes = MapSequence.fromMap(new HashMap<Edge, Dimension>());
+    for (Edge edge : SetSequence.fromSet(MapSequence.fromMap(initialLabelSizes).keySet())) {
+      MapSequence.fromMap(labelSizes).put(MapSequence.fromMap(labeledEdge).get(edge), MapSequence.fromMap(initialLabelSizes).get(edge));
+    }
+    GraphLayout layout = getLayoutFromEmbeddedGraph(embeddedGraph, nodeSizes, labelSizes);
     GraphLayout initialLayout = new GraphLayout(graph);
     for (Node node : SetSequence.fromSet(initialNodes)) {
       initialLayout.setLayoutFor(node, layout.getLayoutFor(node));
@@ -98,13 +113,17 @@ public class OrthogonalFlowLayouterConstraints {
       }
       initialLayout.setLayoutFor(edge, edgeLayout);
     }
+    for (Edge edge : SetSequence.fromSet(MapSequence.fromMap(initialLabelSizes).keySet())) {
+      initialLayout.setLabelLayout(edge, layout.getLabelLayout(MapSequence.fromMap(labeledEdge).get(edge)));
+    }
     return initialLayout;
   }
 
-  private GraphLayout getLayoutFromEmbeddedGraph(EmbeddedGraph embeddedGraph, Map<Node, Dimension> nodeSizes) {
-    if (SHOW_INFO > 0) {
-      System.out.println("initial graph: " + embeddedGraph);
-    }
+  private Edge getLabeledEdge(List<Edge> edges) {
+    return ListSequence.fromList(edges).getElement(ListSequence.fromList(edges).count() / 2);
+  }
+
+  private GraphLayout getLayoutFromEmbeddedGraph(EmbeddedGraph embeddedGraph, Map<Node, Dimension> nodeSizes, Map<Edge, Dimension> initialLabelSizes) {
     Graph graph = embeddedGraph.getGraph();
     List<Edge> oldEdges = ListSequence.fromList(new ArrayList<Edge>());
     ListSequence.fromList(oldEdges).addSequence(ListSequence.fromList(graph.getEdges()));
@@ -115,30 +134,54 @@ public class OrthogonalFlowLayouterConstraints {
     QuasiOrthogonalRepresentation.getRepresentation(embeddedGraph, bends, angles);
     QuasiRepresentationModifier quasiModifier = new QuasiRepresentationModifier(embeddedGraph, bends, angles);
     quasiModifier.reduceToOrthogonalRepresentation();
-    if (SHOW_INFO > 0) {
-      System.out.println("modifications: ");
-      for (QuasiRepresentationModifier.Modification modification : ListSequence.fromList(quasiModifier.getModifications())) {
-        System.out.println(modification);
-      }
-    }
     OrthogonalRepresentation.replaceBendsByNodes(embeddedGraph, bends, angles);
     Map<Dart, Direction2D> directions = OrthogonalRepresentation.getDirections(embeddedGraph, angles);
-    if (SHOW_INFO > 0) {
+    if (OrthogonalFlowLabelProcessing.SHOW_INFO > 0) {
       System.out.println("modified graph: " + embeddedGraph);
     }
-    Map<Node, Map<Direction2D, Integer>> nodeDirectionSizes = this.getNodeDirectionSizes(oldNodes, nodeSizes);
-    Map<Edge, Integer> edgesShifts = getEdgesShifts(quasiModifier.getModifications(), directions, nodeSizes);
+    Map<Edge, Edge> labeledEdge = MapSequence.fromMap(new HashMap<Edge, Edge>());
+    for (Edge edge : SetSequence.fromSet(MapSequence.fromMap(initialLabelSizes).keySet())) {
+      MapSequence.fromMap(labeledEdge).put(edge, getLabeledEdge(embeddedGraph.findFullHistory(edge)));
+    }
+    Map<Edge, Dimension> labelSizes = MapSequence.fromMap(new HashMap<Edge, Dimension>());
+    for (Edge edge : SetSequence.fromSet(MapSequence.fromMap(initialLabelSizes).keySet())) {
+      MapSequence.fromMap(labelSizes).put(MapSequence.fromMap(labeledEdge).get(edge), MapSequence.fromMap(initialLabelSizes).get(edge));
+    }
     ConstraintsGraphProcessor processor = new ConstraintsGraphProcessor(embeddedGraph, directions);
-    processor.modifyEmbeddedGraph(oldNodes, nodeSizes);
+    processor.modifyEmbeddedGraph(oldNodes, nodeSizes, labelSizes);
+    Map<Edge, Node> labelNodes = processor.getLabelNodes();
+    Map<Node, Dimension> labelNodeSizes = MapSequence.fromMap(new HashMap<Node, Dimension>());
+    for (Edge edge : SetSequence.fromSet(MapSequence.fromMap(labelNodes).keySet())) {
+      MapSequence.fromMap(labelNodeSizes).put(MapSequence.fromMap(labelNodes).get(edge), MapSequence.fromMap(labelSizes).get(edge));
+    }
     processor.constructGraph();
-    Map<Node, Point> coordinates = processor.getCoordinatesInModifiedGraph(edgesShifts, nodeDirectionSizes);
+    Map<Node, Point> coordinates = processor.getCoordinatesInModifiedGraph();
+    Map<Node, Map<Direction2D, Integer>> nodeDirectionSizes = MapSequence.fromMap(new HashMap<Node, Map<Direction2D, Integer>>());
+    for (Node node : ListSequence.fromList(oldNodes).concat(Sequence.fromIterable(MapSequence.fromMap(labelNodes).values()))) {
+      Map<Direction2D, Integer> directionSizes = MapSequence.fromMap(new HashMap<Direction2D, Integer>());
+      Dimension size;
+      if (ListSequence.fromList(oldNodes).contains(node)) {
+        size = MapSequence.fromMap(nodeSizes).get(node);
+      } else {
+        size = MapSequence.fromMap(labelNodeSizes).get(node);
+      }
+      int horSize = size.height;
+      MapSequence.fromMap(directionSizes).put(Direction2D.UP, horSize / 2);
+      MapSequence.fromMap(directionSizes).put(Direction2D.DOWN, horSize - MapSequence.fromMap(directionSizes).get(Direction2D.UP));
+      int verSize = size.width;
+      MapSequence.fromMap(directionSizes).put(Direction2D.LEFT, verSize / 2);
+      MapSequence.fromMap(directionSizes).put(Direction2D.RIGHT, verSize - MapSequence.fromMap(directionSizes).get(Direction2D.LEFT));
+      MapSequence.fromMap(nodeDirectionSizes).put(node, directionSizes);
+    }
     GraphLayout graphLayout = new GraphLayout(graph);
     for (Node node : ListSequence.fromList(oldNodes)) {
-      Point center = MapSequence.fromMap(coordinates).get(node);
-      Map<Direction2D, Integer> sizes = MapSequence.fromMap(nodeDirectionSizes).get(node);
-      Dimension nodeSize = MapSequence.fromMap(nodeSizes).get(node);
-      Rectangle rect = new Rectangle(center.x - MapSequence.fromMap(sizes).get(Direction2D.LEFT), center.y - MapSequence.fromMap(sizes).get(Direction2D.DOWN), nodeSize.width, nodeSize.height);
+      Rectangle rect = this.getRectangle(coordinates, node, nodeDirectionSizes, nodeSizes);
       graphLayout.setLayoutFor(node, rect);
+    }
+    for (Edge edge : SetSequence.fromSet(MapSequence.fromMap(initialLabelSizes).keySet())) {
+      Node labelNode = MapSequence.fromMap(labelNodes).get(MapSequence.fromMap(labeledEdge).get(edge));
+      Rectangle rect = getRectangle(coordinates, labelNode, nodeDirectionSizes, labelNodeSizes);
+      graphLayout.setLabelLayout(edge, rect);
     }
     for (Edge edge : ListSequence.fromList(oldEdges)) {
       Node source = edge.getSource();
@@ -160,7 +203,7 @@ public class OrthogonalFlowLayouterConstraints {
         ListSequence.fromList(edgeLayout).removeElementAt(0);
         ListSequence.fromList(edgeLayout).insertElement(0, first);
       }
-      if (ListSequence.fromList(oldNodes).contains(edge.getTarget())) {
+      if (ListSequence.fromList(oldNodes).contains(target)) {
         Direction2D dir = MapSequence.fromMap(directions).get(embeddedGraph.getSourceDart(ListSequence.fromList(history).last(), target));
         int size = MapSequence.fromMap(MapSequence.fromMap(nodeDirectionSizes).get(target)).get(dir);
         Point last = ListSequence.fromList(edgeLayout).removeLastElement();
@@ -170,55 +213,19 @@ public class OrthogonalFlowLayouterConstraints {
       }
       graphLayout.setLayoutFor(edge, edgeLayout);
     }
-    for (QuasiRepresentationModifier.Modification modification : ListSequence.fromList(quasiModifier.getModifications())) {
-      splitEdges(graphLayout, modification);
-    }
     return graphLayout;
   }
 
-  private Map<Node, Map<Direction2D, Integer>> getNodeDirectionSizes(List<Node> oldNodes, Map<Node, Dimension> nodeSizes) {
-    Map<Node, Map<Direction2D, Integer>> nodeDirectionSizes = MapSequence.fromMap(new HashMap<Node, Map<Direction2D, Integer>>());
-    for (Node node : ListSequence.fromList(oldNodes)) {
-      Map<Direction2D, Integer> directionSizes = MapSequence.fromMap(new HashMap<Direction2D, Integer>());
-      Dimension size = MapSequence.fromMap(nodeSizes).get(node);
-      int horSize = size.height;
-      MapSequence.fromMap(directionSizes).put(Direction2D.UP, horSize / 2);
-      MapSequence.fromMap(directionSizes).put(Direction2D.DOWN, horSize - MapSequence.fromMap(directionSizes).get(Direction2D.UP));
-      int verSize = size.width;
-      MapSequence.fromMap(directionSizes).put(Direction2D.LEFT, verSize / 2);
-      MapSequence.fromMap(directionSizes).put(Direction2D.RIGHT, verSize - MapSequence.fromMap(directionSizes).get(Direction2D.LEFT));
-      MapSequence.fromMap(nodeDirectionSizes).put(node, directionSizes);
-    }
-    return nodeDirectionSizes;
+  private Rectangle getRectangle(Map<Node, Point> coordinates, Node node, Map<Node, Map<Direction2D, Integer>> nodeDirectionSizes, Map<Node, Dimension> nodeSizes) {
+    Point center = MapSequence.fromMap(coordinates).get(node);
+    Map<Direction2D, Integer> sizes = MapSequence.fromMap(nodeDirectionSizes).get(node);
+    Dimension nodeSize = MapSequence.fromMap(nodeSizes).get(node);
+    return new Rectangle(center.x - MapSequence.fromMap(sizes).get(Direction2D.LEFT), center.y - MapSequence.fromMap(sizes).get(Direction2D.DOWN), nodeSize.width, nodeSize.height);
   }
 
-  private Map<Edge, Integer> getEdgesShifts(List<QuasiRepresentationModifier.Modification> modifications, Map<Dart, Direction2D> directions, Map<Node, Dimension> nodeSizes) {
-    Map<Edge, Integer> edgeShifts = MapSequence.fromMap(new HashMap<Edge, Integer>());
-    for (QuasiRepresentationModifier.Modification modification : ListSequence.fromList(modifications)) {
-      List<Edge> edges = modification.getNewEdges();
-      Node node = modification.getSource();
-      Direction2D dir = MapSequence.fromMap(directions).get(modification.getSourceDart());
-      int nodeLength;
-      if (dir.isVertical()) {
-        nodeLength = MapSequence.fromMap(nodeSizes).get(node).width;
-      } else {
-        nodeLength = MapSequence.fromMap(nodeSizes).get(node).height;
-      }
-      int unitShift = nodeLength / (2 * ListSequence.fromList(edges).count());
-      int curShift = 0;
-      for (Edge edge : ListSequence.fromList(edges)) {
-        MapSequence.fromMap(edgeShifts).put(edge, curShift);
-        curShift += unitShift;
-      }
-    }
-    return edgeShifts;
-  }
-
-  private void splitEdges(GraphLayout layout, QuasiRepresentationModifier.Modification modification) {
-    List<Edge> edges = modification.getModifiedEdges();
+  private void splitEdges(GraphLayout layout, List<Edge> edges, Node node) {
     Edge firstEdge = ListSequence.fromList(edges).first();
     List<Point> path = layout.getLayoutFor(firstEdge);
-    Node node = modification.getSource();
     Direction2D dartsDir;
     if (firstEdge.getSource() == node) {
       dartsDir = GeomUtil.getDirection(ListSequence.fromList(path).getElement(0), ListSequence.fromList(path).getElement(1));
@@ -230,15 +237,15 @@ public class OrthogonalFlowLayouterConstraints {
     int dx = shiftDir.dx();
     int dy = shiftDir.dy();
     int nodeLenght;
-    if (dx != 0) {
+    if (dx > 0) {
       nodeLenght = layout.getLayoutFor(node).width;
     } else {
       nodeLenght = layout.getLayoutFor(node).height;
     }
     int unitShift = nodeLenght / (2 * ListSequence.fromList(edges).count());
     int curShift = 0;
-    for (Edge edge : ListSequence.fromList(edges)) {
-      if (edge != ListSequence.fromList(edges).first()) {
+    for (Edge edge : ListSequence.fromList(edges).reversedList()) {
+      if (edge != ListSequence.fromList(edges).last()) {
         layout.removeStraightBends(edge);
         List<Point> edgeLayout = layout.getLayoutFor(edge);
         List<Point> pointsToShift;

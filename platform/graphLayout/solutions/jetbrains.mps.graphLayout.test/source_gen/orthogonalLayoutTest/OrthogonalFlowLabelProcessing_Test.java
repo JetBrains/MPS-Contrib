@@ -12,10 +12,11 @@ import java.awt.Dimension;
 import jetbrains.mps.internal.collections.runtime.MapSequence;
 import java.util.HashMap;
 import jetbrains.mps.internal.collections.runtime.ListSequence;
+import jetbrains.mps.graphLayout.graph.Edge;
 import jetbrains.mps.graphLayout.graphLayout.GraphLayout;
-import jetbrains.mps.graphLayout.flowOrthogonalLayout.OrthogonalFlowLayouter;
+import jetbrains.mps.graphLayout.flowOrthogonalLayout.OrthogonalFlowLabelProcessing;
 
-public class OrthogonalFlowLayouter_Test extends TestCase {
+public class OrthogonalFlowLabelProcessing_Test extends TestCase {
   public void test_test1() throws Exception {
     Graph graph = GraphIO.scanGraph("4 4  0 1  1 2  2 3  3 0");
     test(graph);
@@ -41,12 +42,25 @@ public class OrthogonalFlowLayouter_Test extends TestCase {
     test(graph);
   }
 
+  public void test_testLabel() throws Exception {
+    Graph graph = GraphIO.scanGraph("4 4  0 1  1 2  2 3  3 0");
+    Map<Node, Dimension> nodeSizes = MapSequence.fromMap(new HashMap<Node, Dimension>());
+    for (Node node : ListSequence.fromList(graph.getNodes())) {
+      MapSequence.fromMap(nodeSizes).put(node, new Dimension(30, 30));
+    }
+    Map<Edge, Dimension> edgeSizes = MapSequence.fromMap(new HashMap<Edge, Dimension>());
+    MapSequence.fromMap(edgeSizes).put(ListSequence.fromList(graph.getEdges()).first(), new Dimension(30, 30));
+    GraphLayout graphLayout = new OrthogonalFlowLabelProcessing().doLayout(graph, nodeSizes, edgeSizes);
+    System.out.println(graphLayout);
+    OrthogonalLayoutChecker.chechLayout(graphLayout);
+  }
+
   public void test(Graph graph) {
     Map<Node, Dimension> nodeSizes = MapSequence.fromMap(new HashMap<Node, Dimension>());
     for (Node node : ListSequence.fromList(graph.getNodes())) {
       MapSequence.fromMap(nodeSizes).put(node, new Dimension(30, 30));
     }
-    GraphLayout graphLayout = new OrthogonalFlowLayouter().doLayout(graph, nodeSizes);
+    GraphLayout graphLayout = new OrthogonalFlowLabelProcessing().doLayout(graph, nodeSizes, MapSequence.fromMap(new HashMap<Edge, Dimension>()));
     System.out.println(graphLayout);
     OrthogonalLayoutChecker.chechLayout(graphLayout);
   }

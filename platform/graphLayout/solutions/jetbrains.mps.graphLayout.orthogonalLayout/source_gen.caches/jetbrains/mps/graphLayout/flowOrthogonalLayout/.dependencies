@@ -127,7 +127,7 @@
     <classNode dependClassName="jetbrains.mps.internal.collections.runtime.Sequence" />
     <classNode extendsClassName="jetbrains.mps.graphLayout.graphLayout.ILayouter" />
   </dependency>
-  <dependency className="jetbrains.mps.graphLayout.flowOrthogonalLayout.OrthogonalFlowLayouter" file="OrthogonalFlowLayouter.java">
+  <dependency className="jetbrains.mps.graphLayout.flowOrthogonalLayout.OrthogonalFlowLabelProcessing" file="OrthogonalFlowLabelProcessing.java">
     <classNode dependClassName="java.awt.Dimension" />
     <classNode dependClassName="java.awt.Point" />
     <classNode dependClassName="java.awt.Rectangle" />
@@ -136,14 +136,11 @@
     <classNode dependClassName="java.util.ArrayList" />
     <classNode dependClassName="java.util.HashMap" />
     <classNode dependClassName="java.util.HashSet" />
-    <classNode dependClassName="java.util.Iterator" />
     <classNode dependClassName="java.util.List" />
     <classNode dependClassName="java.util.Map" />
     <classNode dependClassName="java.util.Set" />
     <classNode dependClassName="jetbrains.mps.graphLayout.algorithms.BiconnectAugmentation" />
-    <classNode dependClassName="jetbrains.mps.graphLayout.flowOrthogonalLayout.CoordinatePlacer" />
-    <classNode dependClassName="jetbrains.mps.graphLayout.flowOrthogonalLayout.EdgeLengthComputer" />
-    <classNode dependClassName="jetbrains.mps.graphLayout.flowOrthogonalLayout.EmbeddedGraphModifier" />
+    <classNode dependClassName="jetbrains.mps.graphLayout.flowOrthogonalLayout.ConstraintsGraphProcessor" />
     <classNode dependClassName="jetbrains.mps.graphLayout.flowOrthogonalLayout.OrthogonalRepresentation" />
     <classNode dependClassName="jetbrains.mps.graphLayout.flowOrthogonalLayout.QuasiOrthogonalRepresentation" />
     <classNode dependClassName="jetbrains.mps.graphLayout.flowOrthogonalLayout.QuasiRepresentationModifier" />
@@ -151,7 +148,6 @@
     <classNode dependClassName="jetbrains.mps.graphLayout.graph.Graph" />
     <classNode dependClassName="jetbrains.mps.graphLayout.graph.Node" />
     <classNode dependClassName="jetbrains.mps.graphLayout.graphLayout.GraphLayout" />
-    <classNode dependClassName="jetbrains.mps.graphLayout.graphLayout.GraphPointLayout" />
     <classNode dependClassName="jetbrains.mps.graphLayout.graphLayout.LayoutTransform" />
     <classNode dependClassName="jetbrains.mps.graphLayout.planarGraph.Dart" />
     <classNode dependClassName="jetbrains.mps.graphLayout.planarGraph.EmbeddedGraph" />
@@ -161,6 +157,7 @@
     <classNode dependClassName="jetbrains.mps.graphLayout.util.GeomUtil" />
     <classNode dependClassName="jetbrains.mps.internal.collections.runtime.ListSequence" />
     <classNode dependClassName="jetbrains.mps.internal.collections.runtime.MapSequence" />
+    <classNode dependClassName="jetbrains.mps.internal.collections.runtime.Sequence" />
     <classNode dependClassName="jetbrains.mps.internal.collections.runtime.SetSequence" />
     <classNode dependClassName="jetbrains.mps.internal.collections.runtime.backports.LinkedList" />
   </dependency>
@@ -173,7 +170,6 @@
     <classNode dependClassName="java.util.ArrayList" />
     <classNode dependClassName="java.util.HashMap" />
     <classNode dependClassName="java.util.HashSet" />
-    <classNode dependClassName="java.util.Iterator" />
     <classNode dependClassName="java.util.List" />
     <classNode dependClassName="java.util.Map" />
     <classNode dependClassName="java.util.Set" />
@@ -336,6 +332,9 @@
   </dependency>
   <dependency className="jetbrains.mps.graphLayout.flowOrthogonalLayout.QuasiRepresentationModifier" file="QuasiRepresentationModifier.java">
     <classNode dependClassName="java.lang.Integer" />
+    <classNode dependClassName="java.lang.Override" />
+    <classNode dependClassName="java.lang.String" />
+    <classNode dependClassName="java.lang.StringBuilder" />
     <classNode dependClassName="java.util.ArrayList" />
     <classNode dependClassName="java.util.HashMap" />
     <classNode dependClassName="java.util.HashSet" />

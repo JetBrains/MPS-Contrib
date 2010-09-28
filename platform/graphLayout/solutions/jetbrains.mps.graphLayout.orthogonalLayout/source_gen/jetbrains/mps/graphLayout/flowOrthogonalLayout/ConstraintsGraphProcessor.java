@@ -14,12 +14,12 @@ import jetbrains.mps.graphLayout.planarGraph.Face;
 import java.awt.Dimension;
 import jetbrains.mps.internal.collections.runtime.MapSequence;
 import java.util.HashMap;
-import jetbrains.mps.internal.collections.runtime.Sequence;
+import jetbrains.mps.internal.collections.runtime.SetSequence;
 import java.util.List;
 import jetbrains.mps.internal.collections.runtime.ListSequence;
-import jetbrains.mps.internal.collections.runtime.SetSequence;
-import java.util.HashSet;
 import java.util.ArrayList;
+import jetbrains.mps.internal.collections.runtime.Sequence;
+import java.util.HashSet;
 import jetbrains.mps.internal.collections.runtime.IWhereFilter;
 import jetbrains.mps.internal.collections.runtime.backports.LinkedList;
 import jetbrains.mps.internal.collections.runtime.ISelector;
@@ -49,6 +49,7 @@ public class ConstraintsGraphProcessor {
   private Map<Edge, Integer> myEdgeLengths;
   private Iterable<Node> myNodesWithSize;
   private Set<Face> myFacesToSkip;
+  private Map<Edge, Node> myLabelNodes;
   private int myUnitLength;
 
   public ConstraintsGraphProcessor(EmbeddedGraph embeddedGraph, Map<Dart, Direction2D> directions) {
@@ -58,11 +59,38 @@ public class ConstraintsGraphProcessor {
     myUnitLength = DEFAULT_UNIT_LENGTH;
   }
 
+  public void modifyEmbeddedGraph(Iterable<Node> nodesWithSize, Map<Node, Dimension> nodeSizes, Map<Edge, Dimension> labelSizes) {
+    Map<Edge, Node> labelNodes = MapSequence.fromMap(new HashMap<Edge, Node>());
+    for (Edge edge : SetSequence.fromSet(MapSequence.fromMap(labelSizes).keySet())) {
+      MapSequence.fromMap(labelNodes).put(edge, splitEdge(edge));
+    }
+    List<Node> nodesAndLabels = ListSequence.fromList(new ArrayList<Node>());
+    ListSequence.fromList(nodesAndLabels).addSequence(Sequence.fromIterable(nodesWithSize));
+    ListSequence.fromList(nodesAndLabels).addSequence(Sequence.fromIterable(MapSequence.fromMap(labelNodes).values()));
+    Map<Node, Dimension> nodeAndLabelsSizes = MapSequence.fromMap(new HashMap<Node, Dimension>());
+    for (Node node : Sequence.fromIterable(nodesWithSize)) {
+      MapSequence.fromMap(nodeAndLabelsSizes).put(node, MapSequence.fromMap(nodeSizes).get(node));
+    }
+    for (Edge edge : SetSequence.fromSet(MapSequence.fromMap(labelSizes).keySet())) {
+      MapSequence.fromMap(nodeAndLabelsSizes).put(MapSequence.fromMap(labelNodes).get(edge), MapSequence.fromMap(labelSizes).get(edge));
+    }
+    modifyEmbeddedGraph(nodesAndLabels, nodeAndLabelsSizes);
+    myLabelNodes = labelNodes;
+  }
+
+  public Map<Edge, Node> getLabelNodes() {
+    return myLabelNodes;
+  }
+
   public void modifyEmbeddedGraph(Iterable<Node> nodesWithSize, Map<Node, Dimension> nodeSizes) {
     myNodesWithSize = nodesWithSize;
     myEdgeLengths = MapSequence.fromMap(new HashMap<Edge, Integer>());
     for (Node node : Sequence.fromIterable(nodesWithSize)) {
-      splitEdges(node);
+      List<Edge> oldEdges = ListSequence.fromList(new ArrayList<Edge>());
+      ListSequence.fromList(oldEdges).addSequence(ListSequence.fromList(node.getEdges()));
+      for (Edge oldEdge : ListSequence.fromList(oldEdges)) {
+        this.splitEdge(oldEdge);
+      }
       Map<Direction2D, List<Edge>> rectEdges = makeRectangleForNode(node);
       for (Direction2D dir : Direction2D.values()) {
         int length = MapSequence.fromMap(nodeSizes).get(node).width;
@@ -171,28 +199,25 @@ public class ConstraintsGraphProcessor {
     return edgesInDirection;
   }
 
-  private void splitEdges(Node node) {
-    List<Edge> oldEdges = ListSequence.fromList(new ArrayList<Edge>());
-    ListSequence.fromList(oldEdges).addSequence(ListSequence.fromList(node.getEdges()));
-    for (Edge oldEdge : ListSequence.fromList(oldEdges)) {
-      Node source = oldEdge.getSource();
-      Node target = oldEdge.getTarget();
-      Dart sourceDart = myEmbeddedGraph.getSourceDart(oldEdge, source);
-      Dart targetDart = myEmbeddedGraph.getSourceDart(oldEdge, target);
-      List<Edge> edges = ListSequence.fromList(new ArrayList<Edge>());
-      myEmbeddedGraph.splitEdge(oldEdge, edges);
-      for (Edge edge : ListSequence.fromList(edges)) {
-        for (Dart dart : ListSequence.fromList(myEmbeddedGraph.getDarts(edge))) {
-          if (dart.getSource() == source || dart.getTarget() == target) {
-            MapSequence.fromMap(myDirections).put(dart, MapSequence.fromMap(myDirections).get(sourceDart));
-          } else {
-            MapSequence.fromMap(myDirections).put(dart, MapSequence.fromMap(myDirections).get(targetDart));
-          }
+  private Node splitEdge(Edge oldEdge) {
+    Node source = oldEdge.getSource();
+    Node target = oldEdge.getTarget();
+    Dart sourceDart = myEmbeddedGraph.getSourceDart(oldEdge, source);
+    Dart targetDart = myEmbeddedGraph.getSourceDart(oldEdge, target);
+    List<Edge> edges = ListSequence.fromList(new ArrayList<Edge>());
+    Node node = myEmbeddedGraph.splitEdge(oldEdge, edges);
+    for (Edge edge : ListSequence.fromList(edges)) {
+      for (Dart dart : ListSequence.fromList(myEmbeddedGraph.getDarts(edge))) {
+        if (dart.getSource() == source || dart.getTarget() == target) {
+          MapSequence.fromMap(myDirections).put(dart, MapSequence.fromMap(myDirections).get(sourceDart));
+        } else {
+          MapSequence.fromMap(myDirections).put(dart, MapSequence.fromMap(myDirections).get(targetDart));
         }
       }
-      MapSequence.fromMap(myDirections).removeKey(sourceDart);
-      MapSequence.fromMap(myDirections).removeKey(targetDart);
     }
+    MapSequence.fromMap(myDirections).removeKey(sourceDart);
+    MapSequence.fromMap(myDirections).removeKey(targetDart);
+    return node;
   }
 
   public void constructGraph() {
@@ -227,6 +252,10 @@ public class ConstraintsGraphProcessor {
   }
 
   public Map<Node, Point> getCoordinatesInModifiedGraph() {
+    return getCoordinatesInModifiedGraph(null, null);
+  }
+
+  public Map<Node, Point> getCoordinatesInModifiedGraph(Map<Edge, Integer> edgeExtentions, Map<Node, Map<Direction2D, Integer>> nodeDirectionSizes) {
     Map<Edge, Integer> edgeLengths = MapSequence.fromMap(new HashMap<Edge, Integer>());
     for (Edge edge : ListSequence.fromList(myHorConstraintsGraph.getEdges())) {
       MapSequence.fromMap(edgeLengths).put(edge, myUnitLength);
@@ -234,21 +263,32 @@ public class ConstraintsGraphProcessor {
     for (Edge edge : ListSequence.fromList(myVerConstraintsGraph.getEdges())) {
       MapSequence.fromMap(edgeLengths).put(edge, myUnitLength);
     }
-    for (Edge edge : SetSequence.fromSet(MapSequence.fromMap(myEdgeLengths).keySet())) {
-      MapSequence.fromMap(edgeLengths).put(MapSequence.fromMap(myEdgeMap).get(edge), MapSequence.fromMap(myEdgeLengths).get(edge));
-    }
     for (Node node : Sequence.fromIterable(myNodesWithSize)) {
       for (Edge edge : ListSequence.fromList(node.getEdges())) {
         MapSequence.fromMap(edgeLengths).put(MapSequence.fromMap(myEdgeMap).get(edge), 0);
       }
     }
+    for (Edge edge : SetSequence.fromSet(MapSequence.fromMap(myEdgeLengths).keySet())) {
+      MapSequence.fromMap(edgeLengths).put(MapSequence.fromMap(myEdgeMap).get(edge), MapSequence.fromMap(myEdgeLengths).get(edge));
+    }
+    for (Node node : SetSequence.fromSet(MapSequence.fromMap(nodeDirectionSizes).keySet())) {
+      for (Edge edge : ListSequence.fromList(node.getEdges())) {
+        Dart sourceDart = myEmbeddedGraph.getSourceDart(edge, node);
+        MapSequence.fromMap(edgeLengths).put(MapSequence.fromMap(myEdgeMap).get(edge), MapSequence.fromMap(MapSequence.fromMap(nodeDirectionSizes).get(node)).get(MapSequence.fromMap(myDirections).get(sourceDart)));
+      }
+    }
+    for (Edge edge : SetSequence.fromSet(MapSequence.fromMap(edgeExtentions).keySet())) {
+      Edge curEdge = ListSequence.fromList(myEmbeddedGraph.findFullHistory(edge)).first();
+      Edge constraintEdge = MapSequence.fromMap(myEdgeMap).get(curEdge);
+      MapSequence.fromMap(edgeLengths).put(constraintEdge, MapSequence.fromMap(edgeLengths).get(constraintEdge) + MapSequence.fromMap(edgeExtentions).get(edge));
+    }
     Map<Node, Integer> horNumbering = WeightedTopologicalNumbering.number(myHorConstraintsGraph, edgeLengths);
-    Map<Node, Integer> verNumbering = WeightedTopologicalNumbering.number(myVerConstraintsGraph, edgeLengths);
+    Map<Node, Integer> verNjumbering = WeightedTopologicalNumbering.number(myVerConstraintsGraph, edgeLengths);
     Map<Node, Point> coordinates = MapSequence.fromMap(new HashMap<Node, Point>());
     for (Node node : ListSequence.fromList(myGraph.getNodes())) {
       Node horSeg = MapSequence.fromMap(myHorNodeMap).get(node);
       Node verSeg = MapSequence.fromMap(myVerNodeMap).get(node);
-      MapSequence.fromMap(coordinates).put(node, new Point(MapSequence.fromMap(verNumbering).get(verSeg), MapSequence.fromMap(horNumbering).get(horSeg)));
+      MapSequence.fromMap(coordinates).put(node, new Point(MapSequence.fromMap(verNjumbering).get(verSeg), MapSequence.fromMap(horNumbering).get(horSeg)));
     }
     return coordinates;
   }

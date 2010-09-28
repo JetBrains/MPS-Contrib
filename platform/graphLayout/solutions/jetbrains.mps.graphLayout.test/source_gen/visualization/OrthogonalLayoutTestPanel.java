@@ -168,7 +168,7 @@ public class OrthogonalLayoutTestPanel extends JPanel {
     if (g != null) {
       for (Node node : ListSequence.fromList(g.getNodes())) {
         if (MapSequence.fromMap(nodeDimensions).get(node) == null) {
-          MapSequence.fromMap(nodeDimensions).put(node, new Dimension(DEFAULT_NODE_SIZE, DEFAULT_NODE_SIZE));
+          MapSequence.fromMap(nodeDimensions).put(node, new Dimension(DEFAULT_NODE_SIZE, DEFAULT_NODE_SIZE + 10));
         }
       }
       if (myLayoutChoice.isSetLabels()) {

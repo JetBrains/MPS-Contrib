@@ -7,12 +7,12 @@ import jetbrains.mps.graphLayout.planarGraph.EmbeddedGraph;
 import java.util.Map;
 import jetbrains.mps.graphLayout.planarGraph.Dart;
 import java.util.List;
-import jetbrains.mps.graphLayout.graph.Edge;
-import jetbrains.mps.graphLayout.graph.Node;
 import jetbrains.mps.internal.collections.runtime.ListSequence;
 import jetbrains.mps.internal.collections.runtime.backports.LinkedList;
+import jetbrains.mps.graphLayout.graph.Edge;
 import jetbrains.mps.internal.collections.runtime.MapSequence;
 import java.util.HashMap;
+import jetbrains.mps.graphLayout.graph.Node;
 import java.util.ArrayList;
 import java.util.Iterator;
 import java.util.Set;
@@ -27,16 +27,14 @@ public class QuasiRepresentationModifier {
   private EmbeddedGraph myEmbeddedGraph;
   private Map<Dart, Integer> myAngles;
   private Map<Dart, Integer> myBends;
-  private List<List<Edge>> myModifiedEdges;
-  private List<Node> myModificationSources;
+  private List<QuasiRepresentationModifier.Modification> myModifications;
 
   public QuasiRepresentationModifier(EmbeddedGraph embeddedGraph, Map<Dart, Integer> bends, Map<Dart, Integer> angles) {
     myGraph = embeddedGraph.getGraph();
     myEmbeddedGraph = embeddedGraph;
     myAngles = angles;
     myBends = bends;
-    myModifiedEdges = ListSequence.fromList(new LinkedList<List<Edge>>());
-    myModificationSources = ListSequence.fromList(new LinkedList<Node>());
+    myModifications = ListSequence.fromList(new LinkedList<QuasiRepresentationModifier.Modification>());
   }
 
   public void reduceToOrthogonalRepresentation() {
@@ -70,10 +68,9 @@ public class QuasiRepresentationModifier {
             edge = MapSequence.fromMap(edgeTransform).get(edge);
           }
           ListSequence.fromList(modifiedEdges).addElement(edge);
-          ListSequence.fromList(myModifiedEdges).addElement(modifiedEdges);
-          ListSequence.fromList(myModificationSources).addElement(node);
-
           final Wrappers._T<Edge> curEdge = new Wrappers._T<Edge>(curDart.getEdge());
+          int curNum = 0;
+          List<Edge> newEdges = ListSequence.fromList(new LinkedList<Edge>());
           for (Dart dart : ListSequence.fromList(sameDirectionDarts).reversedList()) {
             SetSequence.fromSet(removed).addElement(curDart);
             SetSequence.fromSet(removed).addElement(myEmbeddedGraph.getOpposite(curDart));
@@ -100,6 +97,7 @@ public class QuasiRepresentationModifier {
             });
             if (dart == ListSequence.fromList(sameDirectionDarts).last()) {
               MapSequence.fromMap(edgeTransform).put(anotherEdge, curEdge.value);
+              ListSequence.fromList(newEdges).addElement(anotherEdge);
             }
             tempDart = myEmbeddedGraph.getSourceDart(anotherEdge, newNode);
             MapSequence.fromMap(myAngles).put(tempDart, 2);
@@ -119,6 +117,7 @@ public class QuasiRepresentationModifier {
             face.makeEndsWith(node);
             oldEdge.removeFromGraph();
             Edge newEdge = newNode.addEdgeTo(oldEdge.getOpposite(node));
+            ListSequence.fromList(newEdges).addElement(newEdge);
             MapSequence.fromMap(edgeTransform).put(newEdge, oldEdge);
             Dart lastFaceDart = ListSequence.fromList(face.getDarts()).last();
             myEmbeddedGraph.removeDart(face, lastFaceDart);
@@ -139,7 +138,9 @@ public class QuasiRepresentationModifier {
 
             curEdge.value = nextEdge;
             curDart = myEmbeddedGraph.getSourceDart(curEdge.value, node);
+            curNum++;
           }
+          ListSequence.fromList(myModifications).addElement(new QuasiRepresentationModifier.Modification(ListSequence.fromList(modifiedEdges).reversedList(), newEdges, node, curDart));
         }
       }
       for (Dart dart : SetSequence.fromSet(removed)) {
@@ -182,11 +183,48 @@ public class QuasiRepresentationModifier {
     return darts;
   }
 
-  public List<List<Edge>> getModifiedEdges() {
-    return myModifiedEdges;
+  public List<QuasiRepresentationModifier.Modification> getModifications() {
+    return myModifications;
   }
 
-  public List<Node> getModificationSources() {
-    return myModificationSources;
+  public class Modification {
+    private List<Edge> myModifiedEdges;
+    private List<Edge> myNewEdges;
+    private Node mySource;
+    private Dart mySourceDart;
+
+    public Modification(List<Edge> modifiedEdges, List<Edge> newEdges, Node source, Dart sourceDart) {
+      this.myModifiedEdges = modifiedEdges;
+      this.myNewEdges = newEdges;
+      this.mySource = source;
+      this.mySourceDart = sourceDart;
+    }
+
+    public List<Edge> getModifiedEdges() {
+      return myModifiedEdges;
+    }
+
+    public List<Edge> getNewEdges() {
+      return myNewEdges;
+    }
+
+    public Node getSource() {
+      return mySource;
+    }
+
+    public Dart getSourceDart() {
+      return mySourceDart;
+    }
+
+    @Override
+    public String toString() {
+      StringBuilder builder = new StringBuilder();
+      builder.append("modification:\n");
+      builder.append("  modified edges: " + myModifiedEdges);
+      builder.append("  new edges: " + myNewEdges);
+      builder.append("  source: " + mySource);
+      builder.append("  dart: " + mySourceDart);
+      return builder.toString();
+    }
   }
 }
