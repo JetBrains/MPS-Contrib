@@ -4960,7 +4960,7 @@
               <link role="baseMethodDeclaration:3" targetNodeId="5.~JTextArea.append(java.lang.String):void" resolveInfo="append" />
               <node role="actualArgument:3" type="jetbrains.mps.baseLanguage.structure.PlusExpression:3" id="903391227141135714">
                 <node role="rightExpression:3" type="jetbrains.mps.baseLanguage.structure.StringLiteral:3" id="903391227141135715">
-                  <property name="value:3" value="\n" />
+                  <property name="value:3" value="  \n" />
                 </node>
                 <node role="leftExpression:3" type="jetbrains.mps.baseLanguage.structure.PlusExpression:3" id="903391227141135716">
                   <node role="leftExpression:3" type="jetbrains.mps.baseLanguage.structure.PlusExpression:3" id="903391227141135717">
@@ -5009,7 +5009,7 @@
                   <link role="baseMethodDeclaration:3" targetNodeId="5.~JTextArea.append(java.lang.String):void" resolveInfo="append" />
                   <node role="actualArgument:3" type="jetbrains.mps.baseLanguage.structure.PlusExpression:3" id="8680836410351737654">
                     <node role="rightExpression:3" type="jetbrains.mps.baseLanguage.structure.StringLiteral:3" id="8680836410351737655">
-                      <property name="value:3" value="\n" />
+                      <property name="value:3" value="  \n" />
                     </node>
                     <node role="leftExpression:3" type="jetbrains.mps.baseLanguage.structure.PlusExpression:3" id="8680836410351737656">
                       <node role="leftExpression:3" type="jetbrains.mps.baseLanguage.structure.PlusExpression:3" id="8680836410351737657">

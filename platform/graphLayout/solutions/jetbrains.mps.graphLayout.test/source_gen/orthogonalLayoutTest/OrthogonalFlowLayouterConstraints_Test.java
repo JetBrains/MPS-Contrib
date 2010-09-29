@@ -46,6 +46,11 @@ public class OrthogonalFlowLayouterConstraints_Test extends TestCase {
     test(graph);
   }
 
+  public void test_test7() throws Exception {
+    Graph graph = GraphIO.scanGraph("10 23\n  0 2  \n0 3  \n0 8  \n0 5  \n1 8  \n3 2  \n3 6  \n4 3  \n4 1  \n4 7  \n5 2  \n5 1  \n5 9  \n6 0  \n7 3  \n7 1  \n7 2  \n8 9  \n8 6  \n8 3  \n9 3  \n9 2  \n9 1");
+    test(graph);
+  }
+
   public void test_testSplitEdges() throws Exception {
     Graph graph = GraphIO.scanGraph("7 12  \n0 1  \n1 4  \n1 5  \n2 6  \n2 1  \n2 0  \n3 2  \n3 6  \n5 6  \n5 2  \n6 4  \n6 0");
     Map<Node, Dimension> nodeSizes = MapSequence.fromMap(new HashMap<Node, Dimension>());

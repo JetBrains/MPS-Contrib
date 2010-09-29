@@ -27,6 +27,7 @@ import jetbrains.mps.graphLayout.planarGraph.Dart;
 import jetbrains.mps.graphLayout.util.Direction2D;
 import jetbrains.mps.internal.collections.runtime.backports.LinkedList;
 import jetbrains.mps.graphLayout.util.GeomUtil;
+import java.util.Iterator;
 
 public class OrthogonalFlowLayouterConstraints {
   private static int DEFAULT_UNIT_LENGTH = 20;
@@ -129,6 +130,7 @@ public class OrthogonalFlowLayouterConstraints {
     Map<Node, Map<Direction2D, Integer>> nodeDirectionSizes = this.getNodeDirectionSizes(oldNodes, nodeSizes);
     Map<Edge, Integer> edgesShifts = getEdgesShifts(quasiModifier.getModifications(), directions, nodeSizes);
     ConstraintsGraphProcessor processor = new ConstraintsGraphProcessor(embeddedGraph, directions);
+    processor.setUnitLength(myUnitLength);
     processor.modifyEmbeddedGraph(oldNodes, nodeSizes);
     processor.constructGraph();
     Map<Node, Point> coordinates = processor.getCoordinatesInModifiedGraph(edgesShifts, nodeDirectionSizes);
@@ -171,7 +173,7 @@ public class OrthogonalFlowLayouterConstraints {
       graphLayout.setLayoutFor(edge, edgeLayout);
     }
     for (QuasiRepresentationModifier.Modification modification : ListSequence.fromList(quasiModifier.getModifications())) {
-      splitEdges(graphLayout, modification);
+      splitEdges(graphLayout, modification, edgesShifts);
     }
     return graphLayout;
   }
@@ -200,11 +202,12 @@ public class OrthogonalFlowLayouterConstraints {
       Direction2D dir = MapSequence.fromMap(directions).get(modification.getSourceDart());
       int nodeLength;
       if (dir.isVertical()) {
-        nodeLength = MapSequence.fromMap(nodeSizes).get(node).width;
+        nodeLength = MapSequence.fromMap(nodeSizes).get(node).width / 2;
       } else {
-        nodeLength = MapSequence.fromMap(nodeSizes).get(node).height;
+        nodeLength = MapSequence.fromMap(nodeSizes).get(node).height / 2;
       }
-      int unitShift = nodeLength / (2 * ListSequence.fromList(edges).count());
+      nodeLength = Math.min(nodeLength, myUnitLength);
+      int unitShift = nodeLength / ListSequence.fromList(edges).count();
       int curShift = 0;
       for (Edge edge : ListSequence.fromList(edges)) {
         MapSequence.fromMap(edgeShifts).put(edge, curShift);
@@ -212,6 +215,39 @@ public class OrthogonalFlowLayouterConstraints {
       }
     }
     return edgeShifts;
+  }
+
+  private void splitEdges(GraphLayout layout, QuasiRepresentationModifier.Modification modification, Map<Edge, Integer> edgeShifts) {
+    List<Edge> edges = modification.getModifiedEdges();
+    Edge firstEdge = ListSequence.fromList(edges).first();
+    List<Point> path = layout.getLayoutFor(firstEdge);
+    Node node = modification.getSource();
+    Direction2D dartsDir;
+    if (firstEdge.getSource() == node) {
+      dartsDir = GeomUtil.getDirection(ListSequence.fromList(path).getElement(0), ListSequence.fromList(path).getElement(1));
+    } else {
+      int last = ListSequence.fromList(path).count() - 1;
+      dartsDir = GeomUtil.getDirection(ListSequence.fromList(path).getElement(last), ListSequence.fromList(path).getElement(last - 1));
+    }
+    Direction2D shiftDir = dartsDir.turnClockwise(3);
+    int dx = shiftDir.dx();
+    int dy = shiftDir.dy();
+    Iterator<Edge> newEdgeItr = ListSequence.fromList(modification.getNewEdges()).iterator();
+    for (Edge edge : ListSequence.fromList(edges)) {
+      layout.removeStraightBends(edge);
+      List<Point> edgeLayout = layout.getLayoutFor(edge);
+      List<Point> pointsToShift;
+      if (edge.getSource() == node) {
+        pointsToShift = ListSequence.fromListAndArray(new ArrayList<Point>(), ListSequence.fromList(edgeLayout).getElement(0), ListSequence.fromList(edgeLayout).getElement(1));
+      } else {
+        int last = ListSequence.fromList(edgeLayout).count() - 1;
+        pointsToShift = ListSequence.fromListAndArray(new ArrayList<Point>(), ListSequence.fromList(edgeLayout).getElement(last), ListSequence.fromList(edgeLayout).getElement(last - 1));
+      }
+      Edge newEdge = newEdgeItr.next();
+      for (Point point : ListSequence.fromList(pointsToShift)) {
+        point.translate(dx * MapSequence.fromMap(edgeShifts).get(newEdge), dy * MapSequence.fromMap(edgeShifts).get(newEdge));
+      }
+    }
   }
 
   private void splitEdges(GraphLayout layout, QuasiRepresentationModifier.Modification modification) {

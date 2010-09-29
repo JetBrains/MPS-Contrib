@@ -8529,6 +8529,36 @@
           </node>
         </node>
       </node>
+      <node role="testMethod" type="jetbrains.mps.baseLanguage.unitTest.structure.TestMethod" id="4319509563683730185">
+        <property name="methodName" value="test7" />
+        <node role="visibility" type="jetbrains.mps.baseLanguage.structure.PublicVisibility:3" id="4319509563683730186" />
+        <node role="returnType" type="jetbrains.mps.baseLanguage.structure.VoidType:3" id="4319509563683730187" />
+        <node role="body" type="jetbrains.mps.baseLanguage.structure.StatementList:3" id="4319509563683730188">
+          <node role="statement:3" type="jetbrains.mps.baseLanguage.structure.LocalVariableDeclarationStatement:3" id="4319509563683730189">
+            <node role="localVariableDeclaration:3" type="jetbrains.mps.baseLanguage.structure.LocalVariableDeclaration:3" id="4319509563683730190">
+              <property name="name:3" value="graph" />
+              <node role="type:3" type="jetbrains.mps.baseLanguage.structure.ClassifierType:3" id="4319509563683730191">
+                <link role="classifier:3" targetNodeId="6.8567569493821103298" resolveInfo="Graph" />
+              </node>
+              <node role="initializer:3" type="jetbrains.mps.baseLanguage.structure.StaticMethodCall:3" id="4319509563683730192">
+                <link role="classConcept:3" targetNodeId="2.1567683135099906914" resolveInfo="GraphIO" />
+                <link role="baseMethodDeclaration:3" targetNodeId="2.7727845083901344073" resolveInfo="scanGraph" />
+                <node role="actualArgument:3" type="jetbrains.mps.baseLanguage.structure.StringLiteral:3" id="4319509563683730193">
+                  <property name="value:3" value="10 23&#10;  0 2  &#10;0 3  &#10;0 8  &#10;0 5  &#10;1 8  &#10;3 2  &#10;3 6  &#10;4 3  &#10;4 1  &#10;4 7  &#10;5 2  &#10;5 1  &#10;5 9  &#10;6 0  &#10;7 3  &#10;7 1  &#10;7 2  &#10;8 9  &#10;8 6  &#10;8 3  &#10;9 3  &#10;9 2  &#10;9 1" />
+                </node>
+              </node>
+            </node>
+          </node>
+          <node role="statement:3" type="jetbrains.mps.baseLanguage.structure.ExpressionStatement:3" id="4319509563683730194">
+            <node role="expression:3" type="jetbrains.mps.baseLanguage.structure.LocalInstanceMethodCall:3" id="4319509563683730195">
+              <link role="baseMethodDeclaration:3" targetNodeId="1465095823296810323" resolveInfo="test" />
+              <node role="actualArgument:3" type="jetbrains.mps.baseLanguage.structure.LocalVariableReference:3" id="4319509563683730196">
+                <link role="variableDeclaration:3" targetNodeId="4319509563683730190" resolveInfo="graph" />
+              </node>
+            </node>
+          </node>
+        </node>
+      </node>
       <node role="testMethod" type="jetbrains.mps.baseLanguage.unitTest.structure.TestMethod" id="3263240354041071365">
         <property name="methodName" value="testSplitEdges" />
         <node role="visibility" type="jetbrains.mps.baseLanguage.structure.PublicVisibility:3" id="3263240354041071366" />

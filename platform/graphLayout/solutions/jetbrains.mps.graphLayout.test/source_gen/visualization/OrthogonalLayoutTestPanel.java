@@ -129,9 +129,9 @@ public class OrthogonalLayoutTestPanel extends JPanel {
   private void writeGraph(Graph graph) {
     List<Edge> edges = graph.getEdges();
     myTextArea.setText("");
-    myTextArea.append(graph.getNumNodes() + " " + ListSequence.fromList(edges).count() + "\n");
+    myTextArea.append(graph.getNumNodes() + " " + ListSequence.fromList(edges).count() + "  \n");
     for (Edge edge : ListSequence.fromList(graph.getEdges())) {
-      myTextArea.append(edge.getSource().getIndex() + " " + edge.getTarget().getIndex() + "\n");
+      myTextArea.append(edge.getSource().getIndex() + " " + edge.getTarget().getIndex() + "  \n");
     }
     myTextArea.append("\n\n 0 \n 0 \n");
   }

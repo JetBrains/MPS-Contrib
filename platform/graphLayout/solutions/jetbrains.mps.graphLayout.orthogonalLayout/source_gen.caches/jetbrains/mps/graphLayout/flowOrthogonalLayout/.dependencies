@@ -166,10 +166,12 @@
     <classNode dependClassName="java.awt.Point" />
     <classNode dependClassName="java.awt.Rectangle" />
     <classNode dependClassName="java.lang.Integer" />
+    <classNode dependClassName="java.lang.Math" />
     <classNode dependClassName="java.lang.System" />
     <classNode dependClassName="java.util.ArrayList" />
     <classNode dependClassName="java.util.HashMap" />
     <classNode dependClassName="java.util.HashSet" />
+    <classNode dependClassName="java.util.Iterator" />
     <classNode dependClassName="java.util.List" />
     <classNode dependClassName="java.util.Map" />
     <classNode dependClassName="java.util.Set" />

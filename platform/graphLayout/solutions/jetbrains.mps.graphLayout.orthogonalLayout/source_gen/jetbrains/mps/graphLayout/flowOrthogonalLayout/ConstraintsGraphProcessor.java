@@ -566,4 +566,12 @@ public class ConstraintsGraphProcessor {
     ends[0] = SetSequence.fromSet(firstCandidates).first();
     return ends;
   }
+
+  public int getUnitLength() {
+    return myUnitLength;
+  }
+
+  public void setUnitLength(int unitLength) {
+    myUnitLength = unitLength;
+  }
 }
