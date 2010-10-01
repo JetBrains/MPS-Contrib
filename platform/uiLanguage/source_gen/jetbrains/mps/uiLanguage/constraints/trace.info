@@ -1,5 +1,24 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <debugInfo>
+  <unitInfo fileName="BindExpression_Constraints.java" startLine="9" startPosition="0" endLine="14" endPosition="0" unitName="jetbrains.mps.uiLanguage.constraints.BindExpression_Constraints" />
+  <unitInfo fileName="StandardDialog_Constraints.java" startLine="9" startPosition="0" endLine="14" endPosition="0" unitName="jetbrains.mps.uiLanguage.constraints.StandardDialog_Constraints" />
+  <unitInfo fileName="RaiseInternalStatement_Constraints.java" startLine="9" startPosition="0" endLine="14" endPosition="0" unitName="jetbrains.mps.uiLanguage.constraints.RaiseInternalStatement_Constraints" />
+  <unitInfo fileName="RenderingObject_Constraints.java" startLine="9" startPosition="0" endLine="14" endPosition="0" unitName="jetbrains.mps.uiLanguage.constraints.RenderingObject_Constraints" />
+  <unitInfo fileName="EventHandlerReference_Constraints.java" startLine="9" startPosition="0" endLine="14" endPosition="0" unitName="jetbrains.mps.uiLanguage.constraints.EventHandlerReference_Constraints" />
+  <unitInfo fileName="ActionHandler_Constraints.java" startLine="12" startPosition="0" endLine="21" endPosition="0" unitName="jetbrains.mps.uiLanguage.constraints.ActionHandler_Constraints" />
+  <unitInfo fileName="InlineRenderer_Constraints.java" startLine="12" startPosition="0" endLine="21" endPosition="0" unitName="jetbrains.mps.uiLanguage.constraints.InlineRenderer_Constraints" />
+  <unitInfo fileName="CellRendererAttribute_Constraints.java" startLine="12" startPosition="0" endLine="21" endPosition="0" unitName="jetbrains.mps.uiLanguage.constraints.CellRendererAttribute_Constraints" />
+  <unitInfo fileName="RaiseOperation_Constraints.java" startLine="11" startPosition="0" endLine="23" endPosition="0" unitName="jetbrains.mps.uiLanguage.constraints.RaiseOperation_Constraints" />
+  <unitInfo fileName="ComponentController_name_PropertyConstraint.java" startLine="13" startPosition="0" endLine="29" endPosition="0" unitName="jetbrains.mps.uiLanguage.constraints.ComponentController_name_PropertyConstraint" />
+  <unitInfo fileName="ListElements_Constraints.java" startLine="26" startPosition="0" endLine="43" endPosition="0" unitName="jetbrains.mps.uiLanguage.constraints.ListElements_Constraints$QuotationClass_fpzj2u_a0a0a0a0a" />
+  <unitInfo fileName="AddListenerOperation_Constraints.java" startLine="10" startPosition="0" endLine="28" endPosition="0" unitName="jetbrains.mps.uiLanguage.constraints.AddListenerOperation_Constraints" />
+  <unitInfo fileName="RemoveListenerOperation_Constraints.java" startLine="10" startPosition="0" endLine="28" endPosition="0" unitName="jetbrains.mps.uiLanguage.constraints.RemoveListenerOperation_Constraints" />
+  <unitInfo fileName="StubCellRendererInfo_cellRendererSetter_ReferentConstraint.java" startLine="17" startPosition="0" endLine="37" endPosition="0" unitName="jetbrains.mps.uiLanguage.constraints.StubCellRendererInfo_cellRendererSetter_ReferentConstraint" />
+  <unitInfo fileName="ConstraintsDescriptor.java" startLine="11" startPosition="0" endLine="34" endPosition="0" unitName="jetbrains.mps.uiLanguage.constraints.ConstraintsDescriptor" />
+  <unitInfo fileName="AttributeValue_attribute_ReferentConstraint.java" startLine="19" startPosition="0" endLine="44" endPosition="0" unitName="jetbrains.mps.uiLanguage.constraints.AttributeValue_attribute_ReferentConstraint" />
+  <unitInfo fileName="ListElements_Constraints.java" startLine="18" startPosition="0" endLine="44" endPosition="0" unitName="jetbrains.mps.uiLanguage.constraints.ListElements_Constraints" />
+  <unitInfo fileName="ComponentInstance_componentDeclaration_ReferentConstraint.java" startLine="19" startPosition="0" endLine="45" endPosition="0" unitName="jetbrains.mps.uiLanguage.constraints.ComponentInstance_componentDeclaration_ReferentConstraint" />
+  <unitInfo fileName="ComponentReference_component_ReferentConstraint.java" startLine="20" startPosition="0" endLine="56" endPosition="0" unitName="jetbrains.mps.uiLanguage.constraints.ComponentReference_component_ReferentConstraint" />
   <root nodeId="1213104840187">
     <nodeInfo nodeId="1213104840191" fileName="ComponentReference_component_ReferentConstraint.java" startLine="32" startPosition="132" endLine="33" endPosition="241" />
     <nodeInfo nodeId="1213104840201" fileName="ComponentReference_component_ReferentConstraint.java" startLine="33" startPosition="241" endLine="34" endPosition="38" />

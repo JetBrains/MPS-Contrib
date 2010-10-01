@@ -1,5 +1,34 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <debugInfo>
+  <unitInfo fileName="RenderingObject_Behavior.java" startLine="7" startPosition="0" endLine="11" endPosition="0" unitName="jetbrains.mps.uiLanguage.behavior.RenderingObject_Behavior" />
+  <unitInfo fileName="RaiseOperation_Behavior.java" startLine="7" startPosition="0" endLine="11" endPosition="0" unitName="jetbrains.mps.uiLanguage.behavior.RaiseOperation_Behavior" />
+  <unitInfo fileName="AddListenerOperation_Behavior.java" startLine="7" startPosition="0" endLine="11" endPosition="0" unitName="jetbrains.mps.uiLanguage.behavior.AddListenerOperation_Behavior" />
+  <unitInfo fileName="ListElements_Behavior.java" startLine="7" startPosition="0" endLine="11" endPosition="0" unitName="jetbrains.mps.uiLanguage.behavior.ListElements_Behavior" />
+  <unitInfo fileName="AttributeValue_Behavior.java" startLine="7" startPosition="0" endLine="11" endPosition="0" unitName="jetbrains.mps.uiLanguage.behavior.AttributeValue_Behavior" />
+  <unitInfo fileName="AttributeReferenceOperation_Behavior.java" startLine="7" startPosition="0" endLine="11" endPosition="0" unitName="jetbrains.mps.uiLanguage.behavior.AttributeReferenceOperation_Behavior" />
+  <unitInfo fileName="ActionHandler_Behavior.java" startLine="7" startPosition="0" endLine="11" endPosition="0" unitName="jetbrains.mps.uiLanguage.behavior.ActionHandler_Behavior" />
+  <unitInfo fileName="RaiseInternalStatement_Behavior.java" startLine="7" startPosition="0" endLine="11" endPosition="0" unitName="jetbrains.mps.uiLanguage.behavior.RaiseInternalStatement_Behavior" />
+  <unitInfo fileName="RemoveListenerOperation_Behavior.java" startLine="7" startPosition="0" endLine="11" endPosition="0" unitName="jetbrains.mps.uiLanguage.behavior.RemoveListenerOperation_Behavior" />
+  <unitInfo fileName="ComponentReference_Behavior.java" startLine="7" startPosition="0" endLine="11" endPosition="0" unitName="jetbrains.mps.uiLanguage.behavior.ComponentReference_Behavior" />
+  <unitInfo fileName="EventHandlerReference_Behavior.java" startLine="7" startPosition="0" endLine="12" endPosition="0" unitName="jetbrains.mps.uiLanguage.behavior.EventHandlerReference_Behavior" />
+  <unitInfo fileName="ComponentInstance_Behavior.java" startLine="8" startPosition="0" endLine="16" endPosition="0" unitName="jetbrains.mps.uiLanguage.behavior.ComponentInstance_Behavior" />
+  <unitInfo fileName="ComponentController_Behavior.java" startLine="8" startPosition="0" endLine="16" endPosition="0" unitName="jetbrains.mps.uiLanguage.behavior.ComponentController_Behavior" />
+  <unitInfo fileName="CellRendererAttribute_Behavior.java" startLine="9" startPosition="0" endLine="17" endPosition="0" unitName="jetbrains.mps.uiLanguage.behavior.CellRendererAttribute_Behavior" />
+  <unitInfo fileName="InlineRenderer_Behavior.java" startLine="9" startPosition="0" endLine="17" endPosition="0" unitName="jetbrains.mps.uiLanguage.behavior.InlineRenderer_Behavior" />
+  <unitInfo fileName="BeanType_Behavior.java" startLine="10" startPosition="0" endLine="18" endPosition="0" unitName="jetbrains.mps.uiLanguage.behavior.BeanType_Behavior" />
+  <unitInfo fileName="ComponentType_Behavior.java" startLine="10" startPosition="0" endLine="18" endPosition="0" unitName="jetbrains.mps.uiLanguage.behavior.ComponentType_Behavior" />
+  <unitInfo fileName="StubCellRendererInfo_Behavior.java" startLine="10" startPosition="0" endLine="18" endPosition="0" unitName="jetbrains.mps.uiLanguage.behavior.StubCellRendererInfo_Behavior" />
+  <unitInfo fileName="Scroller_Behavior.java" startLine="11" startPosition="0" endLine="23" endPosition="0" unitName="jetbrains.mps.uiLanguage.behavior.Scroller_Behavior" />
+  <unitInfo fileName="Grid_Behavior.java" startLine="9" startPosition="0" endLine="25" endPosition="0" unitName="jetbrains.mps.uiLanguage.behavior.Grid_Behavior" />
+  <unitInfo fileName="StandardDialog_Behavior.java" startLine="23" startPosition="0" endLine="40" endPosition="0" unitName="jetbrains.mps.uiLanguage.behavior.StandardDialog_Behavior$QuotationClass_isnud2_a0a0a1" />
+  <unitInfo fileName="GridRow_Behavior.java" startLine="33" startPosition="0" endLine="50" endPosition="0" unitName="jetbrains.mps.uiLanguage.behavior.GridRow_Behavior$QuotationClass_cglpzy_a0a0a0d0b" />
+  <unitInfo fileName="EventDeclaration_Behavior.java" startLine="10" startPosition="0" endLine="28" endPosition="0" unitName="jetbrains.mps.uiLanguage.behavior.EventDeclaration_Behavior" />
+  <unitInfo fileName="BeanDeclaration_Behavior.java" startLine="13" startPosition="0" endLine="31" endPosition="0" unitName="jetbrains.mps.uiLanguage.behavior.BeanDeclaration_Behavior" />
+  <unitInfo fileName="IComponentInstance_Behavior.java" startLine="12" startPosition="0" endLine="38" endPosition="0" unitName="jetbrains.mps.uiLanguage.behavior.IComponentInstance_Behavior" />
+  <unitInfo fileName="StandardDialog_Behavior.java" startLine="15" startPosition="0" endLine="41" endPosition="0" unitName="jetbrains.mps.uiLanguage.behavior.StandardDialog_Behavior" />
+  <unitInfo fileName="GridRow_Behavior.java" startLine="19" startPosition="0" endLine="51" endPosition="0" unitName="jetbrains.mps.uiLanguage.behavior.GridRow_Behavior" />
+  <unitInfo fileName="BindExpression_Behavior.java" startLine="10" startPosition="0" endLine="46" endPosition="0" unitName="jetbrains.mps.uiLanguage.behavior.BindExpression_Behavior" />
+  <unitInfo fileName="ComponentDeclaration_Behavior.java" startLine="19" startPosition="0" endLine="124" endPosition="0" unitName="jetbrains.mps.uiLanguage.behavior.ComponentDeclaration_Behavior" />
   <root nodeId="1213877184373">
     <nodeInfo nodeId="1213877184376" fileName="ComponentController_Behavior.java" startLine="12" startPosition="79" endLine="13" endPosition="67" />
     <scopeInfo nodeId="1213877184382" fileName="ComponentController_Behavior.java" startLine="9" startPosition="43" endLine="9" endPosition="43" />

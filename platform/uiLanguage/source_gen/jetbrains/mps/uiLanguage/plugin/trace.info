@@ -1,5 +1,11 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <debugInfo>
+  <unitInfo fileName="UiLanguage_ApplicationPlugin.java" startLine="7" startPosition="0" endLine="9" endPosition="0" unitName="jetbrains.mps.uiLanguage.plugin.UiLanguage_ApplicationPlugin" />
+  <unitInfo fileName="UiLanguage_ProjectPlugin.java" startLine="18" startPosition="35" endLine="33" endPosition="5" unitName="jetbrains.mps.uiLanguage.plugin.UiLanguage_ProjectPlugin$1" />
+  <unitInfo fileName="UiLanguage_ProjectPlugin.java" startLine="15" startPosition="0" endLine="36" endPosition="0" unitName="jetbrains.mps.uiLanguage.plugin.UiLanguage_ProjectPlugin" />
+  <unitInfo fileName="ComponentEditor_TabbedEditor.java" startLine="24" startPosition="0" endLine="49" endPosition="0" unitName="jetbrains.mps.uiLanguage.plugin.ComponentEditor_TabbedEditor$Component_Tab" />
+  <unitInfo fileName="ComponentEditor_TabbedEditor.java" startLine="50" startPosition="0" endLine="80" endPosition="0" unitName="jetbrains.mps.uiLanguage.plugin.ComponentEditor_TabbedEditor$Controller_Tab" />
+  <unitInfo fileName="ComponentEditor_TabbedEditor.java" startLine="17" startPosition="0" endLine="81" endPosition="0" unitName="jetbrains.mps.uiLanguage.plugin.ComponentEditor_TabbedEditor" />
   <root nodeId="1207330934917">
     <nodeInfo nodeId="1207330989724" fileName="UiLanguage_ProjectPlugin.java" startLine="20" startPosition="107" endLine="21" endPosition="149" />
     <nodeInfo nodeId="1207331055454" fileName="UiLanguage_ProjectPlugin.java" startLine="22" startPosition="9" endLine="23" endPosition="20" />

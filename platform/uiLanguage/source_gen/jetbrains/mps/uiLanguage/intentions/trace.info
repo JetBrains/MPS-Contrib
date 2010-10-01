@@ -1,5 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <debugInfo>
+  <unitInfo fileName="AddInitializer_Intention.java" startLine="12" startPosition="0" endLine="57" endPosition="0" unitName="jetbrains.mps.uiLanguage.intentions.AddInitializer_Intention" />
+  <unitInfo fileName="AddOnChangeHandler_Intention.java" startLine="12" startPosition="0" endLine="57" endPosition="0" unitName="jetbrains.mps.uiLanguage.intentions.AddOnChangeHandler_Intention" />
   <root nodeId="1203674861152">
     <nodeInfo nodeId="1203674873659" fileName="AddOnChangeHandler_Intention.java" startLine="32" startPosition="85" endLine="33" endPosition="32" />
     <nodeInfo nodeId="1203675036883" fileName="AddOnChangeHandler_Intention.java" startLine="43" startPosition="90" endLine="44" endPosition="69" />
