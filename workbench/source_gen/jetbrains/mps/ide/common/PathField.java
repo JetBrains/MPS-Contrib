@@ -17,7 +17,7 @@ import org.jdesktop.beansbinding.BeanProperty;
 import org.jdesktop.beansbinding.Bindings;
 import java.awt.event.ActionListener;
 import java.awt.event.ActionEvent;
-import jetbrains.mps.vfs.FileSystemFile;
+import jetbrains.mps.vfs.FileSystem;
 import jetbrains.mps.vfs.IFile;
 
 public class PathField extends JPanel {
@@ -123,11 +123,11 @@ public class PathField extends JPanel {
     TreeFileChooser chooser = new TreeFileChooser();
     chooser.setMode(myThis.getMode());
     if (oldPath != null) {
-      chooser.setInitialFile(new FileSystemFile(oldPath));
+      chooser.setInitialFile(FileSystem.getInstance().getFileByPath(oldPath));
     }
     IFile result = chooser.showDialog();
     if (result != null) {
-      myThis.setPath(result.getPath());
+      myThis.setPath(result.getAbsolutePath());
     }
   }
 
