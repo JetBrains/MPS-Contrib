@@ -1,5 +1,19 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <debugInfo>
+  <unitInfo fileName="PredefinedPeriodFormat_isPublic_PropertyConstraint.java" startLine="11" startPosition="0" endLine="27" endPosition="0" unitName="jetbrains.mps.baseLanguage.datesInternal.constraints.PredefinedPeriodFormat_isPublic_PropertyConstraint" />
+  <unitInfo fileName="DateTimePropertyConfiguration_shortDescription_PropertyConstraint.java" startLine="11" startPosition="0" endLine="27" endPosition="0" unitName="jetbrains.mps.baseLanguage.datesInternal.constraints.DateTimePropertyConfiguration_shortDescription_PropertyConstraint" />
+  <unitInfo fileName="PredefinedDateFormat_isPublic_PropertyConstraint.java" startLine="11" startPosition="0" endLine="27" endPosition="0" unitName="jetbrains.mps.baseLanguage.datesInternal.constraints.PredefinedDateFormat_isPublic_PropertyConstraint" />
+  <unitInfo fileName="DateTimeZonePropertyFormatConfiguration_name_PropertyConstraint.java" startLine="11" startPosition="0" endLine="27" endPosition="0" unitName="jetbrains.mps.baseLanguage.datesInternal.constraints.DateTimeZonePropertyFormatConfiguration_name_PropertyConstraint" />
+  <unitInfo fileName="DateTimePropertyFormatType_name_PropertyConstraint.java" startLine="12" startPosition="0" endLine="28" endPosition="0" unitName="jetbrains.mps.baseLanguage.datesInternal.constraints.DateTimePropertyFormatType_name_PropertyConstraint" />
+  <unitInfo fileName="Month_alias_PropertyConstraint.java" startLine="12" startPosition="0" endLine="28" endPosition="0" unitName="jetbrains.mps.baseLanguage.datesInternal.constraints.Month_alias_PropertyConstraint" />
+  <unitInfo fileName="SchedulePeriod_alias_PropertyConstraint.java" startLine="12" startPosition="0" endLine="28" endPosition="0" unitName="jetbrains.mps.baseLanguage.datesInternal.constraints.SchedulePeriod_alias_PropertyConstraint" />
+  <unitInfo fileName="PredefinedDateFormat_name_PropertyConstraint.java" startLine="13" startPosition="0" endLine="29" endPosition="0" unitName="jetbrains.mps.baseLanguage.datesInternal.constraints.PredefinedDateFormat_name_PropertyConstraint" />
+  <unitInfo fileName="DateTimeIntPropertyFormatConfiguration_name_PropertyConstraint.java" startLine="13" startPosition="0" endLine="29" endPosition="0" unitName="jetbrains.mps.baseLanguage.datesInternal.constraints.DateTimeIntPropertyFormatConfiguration_name_PropertyConstraint" />
+  <unitInfo fileName="DurationType_name_PropertyConstraint.java" startLine="13" startPosition="0" endLine="29" endPosition="0" unitName="jetbrains.mps.baseLanguage.datesInternal.constraints.DurationType_name_PropertyConstraint" />
+  <unitInfo fileName="DateTimeProperty_jodaDateTimeFieldType_ReferentConstraint.java" startLine="16" startPosition="0" endLine="36" endPosition="0" unitName="jetbrains.mps.baseLanguage.datesInternal.constraints.DateTimeProperty_jodaDateTimeFieldType_ReferentConstraint" />
+  <unitInfo fileName="DateTimeProperty_jodaPeriodType_ReferentConstraint.java" startLine="16" startPosition="0" endLine="36" endPosition="0" unitName="jetbrains.mps.baseLanguage.datesInternal.constraints.DateTimeProperty_jodaPeriodType_ReferentConstraint" />
+  <unitInfo fileName="DateTimeProperty_periodFormatMethod_ReferentConstraint.java" startLine="17" startPosition="0" endLine="39" endPosition="0" unitName="jetbrains.mps.baseLanguage.datesInternal.constraints.DateTimeProperty_periodFormatMethod_ReferentConstraint" />
+  <unitInfo fileName="ConstraintsDescriptor.java" startLine="11" startPosition="0" endLine="42" endPosition="0" unitName="jetbrains.mps.baseLanguage.datesInternal.constraints.ConstraintsDescriptor" />
   <root nodeId="1213104844878">
     <nodeInfo nodeId="1213104844882" fileName="DurationType_name_PropertyConstraint.java" startLine="25" startPosition="80" endLine="26" endPosition="172" />
     <scopeInfo nodeId="1213104844881" fileName="DurationType_name_PropertyConstraint.java" startLine="25" startPosition="80" endLine="26" endPosition="172" />

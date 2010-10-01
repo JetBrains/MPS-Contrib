@@ -1,5 +1,16 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <debugInfo>
+  <unitInfo fileName="JavaNodeRunConfiguration_Behavior.java" startLine="12" startPosition="0" endLine="23" endPosition="0" unitName="jetbrains.mps.baseLanguage.runConfigurations.behavior.JavaNodeRunConfiguration_Behavior" />
+  <unitInfo fileName="IsApplicableBlock_Behavior.java" startLine="19" startPosition="0" endLine="35" endPosition="0" unitName="jetbrains.mps.baseLanguage.runConfigurations.behavior.IsApplicableBlock_Behavior$QuotationClass_alktie_a0a0b" />
+  <unitInfo fileName="Node_FunctionParameter_Behavior.java" startLine="40" startPosition="0" endLine="56" endPosition="0" unitName="jetbrains.mps.baseLanguage.runConfigurations.behavior.Node_FunctionParameter_Behavior$QuotationClass_2ajjny_a0b0e" />
+  <unitInfo fileName="JavaConfigurationRunParameters_FunctionParameter_Behavior.java" startLine="30" startPosition="0" endLine="47" endPosition="0" unitName="jetbrains.mps.baseLanguage.runConfigurations.behavior.JavaConfigurationRunParameters_FunctionParameter_Behavior$QuotationClass_xwtk3j_a0a0c" />
+  <unitInfo fileName="JavaRunConfiguration_Behavior.java" startLine="41" startPosition="0" endLine="58" endPosition="0" unitName="jetbrains.mps.baseLanguage.runConfigurations.behavior.JavaRunConfiguration_Behavior$QuotationClass_r2ediq_a0a0a0d" />
+  <unitInfo fileName="JavaRunConfiguration_Behavior.java" startLine="59" startPosition="0" endLine="76" endPosition="0" unitName="jetbrains.mps.baseLanguage.runConfigurations.behavior.JavaRunConfiguration_Behavior$QuotationClass_r2ediq_a0b0d" />
+  <unitInfo fileName="IJavaRunConfigurationParameter_Behavior.java" startLine="9" startPosition="0" endLine="32" endPosition="0" unitName="jetbrains.mps.baseLanguage.runConfigurations.behavior.IJavaRunConfigurationParameter_Behavior" />
+  <unitInfo fileName="IsApplicableBlock_Behavior.java" startLine="11" startPosition="0" endLine="36" endPosition="0" unitName="jetbrains.mps.baseLanguage.runConfigurations.behavior.IsApplicableBlock_Behavior" />
+  <unitInfo fileName="JavaConfigurationRunParameters_FunctionParameter_Behavior.java" startLine="14" startPosition="0" endLine="48" endPosition="0" unitName="jetbrains.mps.baseLanguage.runConfigurations.behavior.JavaConfigurationRunParameters_FunctionParameter_Behavior" />
+  <unitInfo fileName="Node_FunctionParameter_Behavior.java" startLine="14" startPosition="0" endLine="57" endPosition="0" unitName="jetbrains.mps.baseLanguage.runConfigurations.behavior.Node_FunctionParameter_Behavior" />
+  <unitInfo fileName="JavaRunConfiguration_Behavior.java" startLine="19" startPosition="0" endLine="77" endPosition="0" unitName="jetbrains.mps.baseLanguage.runConfigurations.behavior.JavaRunConfiguration_Behavior" />
   <root nodeId="1810772216404807666">
     <scopeInfo nodeId="1810772216404807668" fileName="IJavaRunConfigurationParameter_Behavior.java" startLine="13" startPosition="43" endLine="13" endPosition="43" />
   </root>

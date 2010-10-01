@@ -6,6 +6,7 @@ import jetbrains.mps.lang.typesystem.runtime.AbstractInferenceRule_Runtime;
 import jetbrains.mps.lang.typesystem.runtime.InferenceRule_Runtime;
 import jetbrains.mps.smodel.SNode;
 import jetbrains.mps.typesystem.inference.TypeCheckingContext;
+import jetbrains.mps.lang.typesystem.runtime.IsApplicableStatus;
 import jetbrains.mps.lang.smodel.generator.smodelAdapter.SNodeOperations;
 import jetbrains.mps.lang.smodel.generator.smodelAdapter.SLinkOperations;
 import jetbrains.mps.intentions.BaseIntentionProvider;
@@ -22,7 +23,7 @@ public class typeof_Parameter_FunctionParameter_InferenceRule extends AbstractIn
   public typeof_Parameter_FunctionParameter_InferenceRule() {
   }
 
-  public void applyRule(final SNode parameter, final TypeCheckingContext typeCheckingContext) {
+  public void applyRule(final SNode parameter, final TypeCheckingContext typeCheckingContext, IsApplicableStatus status) {
     SNode parametrizedExecuteBlock = SNodeOperations.getAncestor(parameter, "jetbrains.mps.lang.plugin.structure.ParametrizedExecuteBlock", false, false);
     if ((parametrizedExecuteBlock != null) && (SLinkOperations.getTarget(SLinkOperations.getTarget(parametrizedExecuteBlock, "executeParameterQuery", true), "parameterType", true) != null)) {
       {
@@ -52,8 +53,11 @@ public class typeof_Parameter_FunctionParameter_InferenceRule extends AbstractIn
     return "jetbrains.mps.lang.plugin.structure.Parameter_FunctionParameter";
   }
 
-  public boolean isApplicable(SNode argument) {
-    return SModelUtil_new.isAssignableConcept(argument.getConceptFqName(), this.getApplicableConceptFQName());
+  public IsApplicableStatus isApplicableAndPattern(SNode argument) {
+    {
+      boolean b = SModelUtil_new.isAssignableConcept(argument.getConceptFqName(), this.getApplicableConceptFQName());
+      return new IsApplicableStatus(b, null);
+    }
   }
 
   public boolean overrides() {

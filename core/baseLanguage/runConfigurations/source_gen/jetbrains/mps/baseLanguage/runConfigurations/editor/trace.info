@@ -1,3 +1,8 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<debugInfo />
+<debugInfo>
+  <unitInfo fileName="JavaNodeRunConfiguration_Editor.java" startLine="268" startPosition="0" endLine="300" endPosition="0" unitName="jetbrains.mps.baseLanguage.runConfigurations.editor.JavaNodeRunConfiguration_Editor$_Inline_oxce8e_a1a3b1a" />
+  <unitInfo fileName="JavaNodeConfigurationEditorDeclaration_Editor.java" startLine="17" startPosition="0" endLine="53" endPosition="0" unitName="jetbrains.mps.baseLanguage.runConfigurations.editor.JavaNodeConfigurationEditorDeclaration_Editor" />
+  <unitInfo fileName="JavaRunConfiguration_Editor.java" startLine="23" startPosition="0" endLine="139" endPosition="0" unitName="jetbrains.mps.baseLanguage.runConfigurations.editor.JavaRunConfiguration_Editor" />
+  <unitInfo fileName="JavaNodeRunConfiguration_Editor.java" startLine="30" startPosition="0" endLine="301" endPosition="0" unitName="jetbrains.mps.baseLanguage.runConfigurations.editor.JavaNodeRunConfiguration_Editor" />
+</debugInfo>
 

@@ -6,6 +6,7 @@ import jetbrains.mps.lang.typesystem.runtime.AbstractInferenceRule_Runtime;
 import jetbrains.mps.lang.typesystem.runtime.InferenceRule_Runtime;
 import jetbrains.mps.smodel.SNode;
 import jetbrains.mps.typesystem.inference.TypeCheckingContext;
+import jetbrains.mps.lang.typesystem.runtime.IsApplicableStatus;
 import jetbrains.mps.lang.smodel.generator.smodelAdapter.SLinkOperations;
 import jetbrains.mps.lang.smodel.generator.smodelAdapter.SConceptOperations;
 import jetbrains.mps.lang.smodel.generator.smodelAdapter.SPropertyOperations;
@@ -23,7 +24,7 @@ public class typeof_RunConfigurationRunProfileState_InferenceRule extends Abstra
   public typeof_RunConfigurationRunProfileState_InferenceRule() {
   }
 
-  public void applyRule(final SNode runConfigurationDeclaration, final TypeCheckingContext typeCheckingContext) {
+  public void applyRule(final SNode runConfigurationDeclaration, final TypeCheckingContext typeCheckingContext, IsApplicableStatus status) {
     if ((SLinkOperations.getTarget(runConfigurationDeclaration, "stateTypeParameter", false) != null)) {
       SNode stateType = SConceptOperations.createNewNode("jetbrains.mps.baseLanguage.structure.ClassifierType", null);
       SLinkOperations.setTarget(stateType, "classifier", SLinkOperations.getTarget(runConfigurationDeclaration, "stateTypeParameter", false), false);
@@ -51,8 +52,11 @@ public class typeof_RunConfigurationRunProfileState_InferenceRule extends Abstra
     return "jetbrains.mps.lang.plugin.structure.RunConfigurationDeclaration";
   }
 
-  public boolean isApplicable(SNode argument) {
-    return SModelUtil_new.isAssignableConcept(argument.getConceptFqName(), this.getApplicableConceptFQName());
+  public IsApplicableStatus isApplicableAndPattern(SNode argument) {
+    {
+      boolean b = SModelUtil_new.isAssignableConcept(argument.getConceptFqName(), this.getApplicableConceptFQName());
+      return new IsApplicableStatus(b, null);
+    }
   }
 
   public boolean overrides() {

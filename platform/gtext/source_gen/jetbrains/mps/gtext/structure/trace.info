@@ -1,3 +1,23 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<debugInfo />
+<debugInfo>
+  <unitInfo fileName="GCompositeItem.java" startLine="7" startPosition="0" endLine="10" endPosition="0" unitName="jetbrains.mps.gtext.structure.GCompositeItem" />
+  <unitInfo fileName="GTextConcept.java" startLine="7" startPosition="0" endLine="10" endPosition="0" unitName="jetbrains.mps.gtext.structure.GTextConcept" />
+  <unitInfo fileName="Gtext_Language.java" startLine="9" startPosition="0" endLine="16" endPosition="0" unitName="jetbrains.mps.gtext.structure.Gtext_Language" />
+  <unitInfo fileName="GIndent.java" startLine="10" startPosition="0" endLine="25" endPosition="0" unitName="jetbrains.mps.gtext.structure.GIndent" />
+  <unitInfo fileName="GNewLine.java" startLine="10" startPosition="0" endLine="25" endPosition="0" unitName="jetbrains.mps.gtext.structure.GNewLine" />
+  <unitInfo fileName="GIndentBlock.java" startLine="10" startPosition="0" endLine="34" endPosition="0" unitName="jetbrains.mps.gtext.structure.GIndentBlock" />
+  <unitInfo fileName="GText.java" startLine="10" startPosition="0" endLine="34" endPosition="0" unitName="jetbrains.mps.gtext.structure.GText" />
+  <unitInfo fileName="GStatementItem.java" startLine="11" startPosition="0" endLine="35" endPosition="0" unitName="jetbrains.mps.gtext.structure.GStatementItem" />
+  <unitInfo fileName="GExpressionItem.java" startLine="11" startPosition="0" endLine="35" endPosition="0" unitName="jetbrains.mps.gtext.structure.GExpressionItem" />
+  <unitInfo fileName="GItemStatement.java" startLine="13" startPosition="0" endLine="49" endPosition="0" unitName="jetbrains.mps.gtext.structure.GItemStatement" />
+  <unitInfo fileName="BuilderContextRef.java" startLine="11" startPosition="0" endLine="53" endPosition="0" unitName="jetbrains.mps.gtext.structure.BuilderContextRef" />
+  <unitInfo fileName="GItem.java" startLine="11" startPosition="0" endLine="53" endPosition="0" unitName="jetbrains.mps.gtext.structure.GItem" />
+  <unitInfo fileName="GContentPlaceholder.java" startLine="11" startPosition="0" endLine="62" endPosition="0" unitName="jetbrains.mps.gtext.structure.GContentPlaceholder" />
+  <unitInfo fileName="GLine.java" startLine="12" startPosition="0" endLine="75" endPosition="0" unitName="jetbrains.mps.gtext.structure.GLine" />
+  <unitInfo fileName="GItemList.java" startLine="12" startPosition="0" endLine="75" endPosition="0" unitName="jetbrains.mps.gtext.structure.GItemList" />
+  <unitInfo fileName="GSeparatorItemList.java" startLine="12" startPosition="0" endLine="84" endPosition="0" unitName="jetbrains.mps.gtext.structure.GSeparatorItemList" />
+  <unitInfo fileName="GConditionalLine.java" startLine="12" startPosition="0" endLine="84" endPosition="0" unitName="jetbrains.mps.gtext.structure.GConditionalLine" />
+  <unitInfo fileName="GContentBlock.java" startLine="13" startPosition="0" endLine="85" endPosition="0" unitName="jetbrains.mps.gtext.structure.GContentBlock" />
+  <unitInfo fileName="GDocument.java" startLine="14" startPosition="0" endLine="104" endPosition="0" unitName="jetbrains.mps.gtext.structure.GDocument" />
+</debugInfo>
 

@@ -6,6 +6,7 @@ import jetbrains.mps.lang.typesystem.runtime.AbstractNonTypesystemRule_Runtime;
 import jetbrains.mps.lang.typesystem.runtime.NonTypesystemRule_Runtime;
 import jetbrains.mps.smodel.SNode;
 import jetbrains.mps.typesystem.inference.TypeCheckingContext;
+import jetbrains.mps.lang.typesystem.runtime.IsApplicableStatus;
 import jetbrains.mps.internal.collections.runtime.ListSequence;
 import jetbrains.mps.build.generictasks.behavior.ITaskDeclaration_Behavior;
 import jetbrains.mps.lang.smodel.generator.smodelAdapter.SLinkOperations;
@@ -21,7 +22,7 @@ public class checkAllRequiredAttributesPresent_NonTypesystemRule extends Abstrac
   public checkAllRequiredAttributesPresent_NonTypesystemRule() {
   }
 
-  public void applyRule(final SNode genericTaskCall, final TypeCheckingContext typeCheckingContext) {
+  public void applyRule(final SNode genericTaskCall, final TypeCheckingContext typeCheckingContext, IsApplicableStatus status) {
     for (SNode attrDecl : ListSequence.fromList(ITaskDeclaration_Behavior.call_getAttributesDeclarations_1190349257898147625(SLinkOperations.getTarget(genericTaskCall, "declaration", false)))) {
       if (AttributeDeclaration_Behavior.call_isRequired_353793545802643811(attrDecl)) {
         boolean found = false;
@@ -49,8 +50,11 @@ public class checkAllRequiredAttributesPresent_NonTypesystemRule extends Abstrac
     return "jetbrains.mps.build.generictasks.structure.TaskCall";
   }
 
-  public boolean isApplicable(SNode argument) {
-    return SModelUtil_new.isAssignableConcept(argument.getConceptFqName(), this.getApplicableConceptFQName());
+  public IsApplicableStatus isApplicableAndPattern(SNode argument) {
+    {
+      boolean b = SModelUtil_new.isAssignableConcept(argument.getConceptFqName(), this.getApplicableConceptFQName());
+      return new IsApplicableStatus(b, null);
+    }
   }
 
   public boolean overrides() {

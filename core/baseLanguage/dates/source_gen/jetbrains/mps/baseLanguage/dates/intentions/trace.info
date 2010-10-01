@@ -1,5 +1,23 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <debugInfo>
+  <unitInfo fileName="AddDateTimePropertyForPeriod_Intention.java" startLine="63" startPosition="0" endLine="79" endPosition="0" unitName="jetbrains.mps.baseLanguage.dates.intentions.AddDateTimePropertyForPeriod_Intention$QuotationClass_wbe9gj_a1a0a0g" />
+  <unitInfo fileName="AddDateTimeProperty_Intention.java" startLine="63" startPosition="0" endLine="79" endPosition="0" unitName="jetbrains.mps.baseLanguage.dates.intentions.AddDateTimeProperty_Intention$QuotationClass_xprv33_a1a0a0a0a0a6" />
+  <unitInfo fileName="AddDateTimeProperty_Intention.java" startLine="80" startPosition="0" endLine="96" endPosition="0" unitName="jetbrains.mps.baseLanguage.dates.intentions.AddDateTimeProperty_Intention$QuotationClass_xprv33_a1a0a0a0a0a6_0" />
+  <unitInfo fileName="AddDateTimeProperty_Intention.java" startLine="97" startPosition="0" endLine="113" endPosition="0" unitName="jetbrains.mps.baseLanguage.dates.intentions.AddDateTimeProperty_Intention$QuotationClass_xprv33_a1a0a0a0a0a6_1" />
+  <unitInfo fileName="AddDateTimeProperty_Intention.java" startLine="114" startPosition="0" endLine="130" endPosition="0" unitName="jetbrains.mps.baseLanguage.dates.intentions.AddDateTimeProperty_Intention$QuotationClass_xprv33_a1a0a0a0a0a6_2" />
+  <unitInfo fileName="RemoveDateTimePropertyFromPeriod_Intention.java" startLine="12" startPosition="0" endLine="44" endPosition="0" unitName="jetbrains.mps.baseLanguage.dates.intentions.RemoveDateTimePropertyFromPeriod_Intention" />
+  <unitInfo fileName="remove_PeriodInPropertyExpression_Intention.java" startLine="12" startPosition="0" endLine="44" endPosition="0" unitName="jetbrains.mps.baseLanguage.dates.intentions.remove_PeriodInPropertyExpression_Intention" />
+  <unitInfo fileName="RemoveDateTimeProperty_Intention.java" startLine="12" startPosition="0" endLine="44" endPosition="0" unitName="jetbrains.mps.baseLanguage.dates.intentions.RemoveDateTimeProperty_Intention" />
+  <unitInfo fileName="ParseExpression_convert_Intention.java" startLine="13" startPosition="0" endLine="51" endPosition="0" unitName="jetbrains.mps.baseLanguage.dates.intentions.ParseExpression_convert_Intention" />
+  <unitInfo fileName="FormatExpression_convert_Intention.java" startLine="13" startPosition="0" endLine="52" endPosition="0" unitName="jetbrains.mps.baseLanguage.dates.intentions.FormatExpression_convert_Intention" />
+  <unitInfo fileName="InlineFormatExpression_convert_Intention.java" startLine="14" startPosition="0" endLine="55" endPosition="0" unitName="jetbrains.mps.baseLanguage.dates.intentions.InlineFormatExpression_convert_Intention" />
+  <unitInfo fileName="ConvertDateTimeMinusToMinus_Intention.java" startLine="12" startPosition="0" endLine="57" endPosition="0" unitName="jetbrains.mps.baseLanguage.dates.intentions.ConvertDateTimeMinusToMinus_Intention" />
+  <unitInfo fileName="ConvertDateTimePlusToPlus_Intention.java" startLine="12" startPosition="0" endLine="57" endPosition="0" unitName="jetbrains.mps.baseLanguage.dates.intentions.ConvertDateTimePlusToPlus_Intention" />
+  <unitInfo fileName="DateTimeWithPropertyOperation_fixInstance_Intention.java" startLine="14" startPosition="0" endLine="59" endPosition="0" unitName="jetbrains.mps.baseLanguage.dates.intentions.DateTimeWithPropertyOperation_fixInstance_Intention" />
+  <unitInfo fileName="RoundDateTimeOperation_fixInstant_Intention.java" startLine="14" startPosition="0" endLine="59" endPosition="0" unitName="jetbrains.mps.baseLanguage.dates.intentions.RoundDateTimeOperation_fixInstant_Intention" />
+  <unitInfo fileName="ConvertToDateTimeInMath_Intention.java" startLine="15" startPosition="0" endLine="69" endPosition="0" unitName="jetbrains.mps.baseLanguage.dates.intentions.ConvertToDateTimeInMath_Intention" />
+  <unitInfo fileName="AddDateTimePropertyForPeriod_Intention.java" startLine="18" startPosition="0" endLine="80" endPosition="0" unitName="jetbrains.mps.baseLanguage.dates.intentions.AddDateTimePropertyForPeriod_Intention" />
+  <unitInfo fileName="AddDateTimeProperty_Intention.java" startLine="18" startPosition="0" endLine="131" endPosition="0" unitName="jetbrains.mps.baseLanguage.dates.intentions.AddDateTimeProperty_Intention" />
   <root nodeId="1207144041354">
     <nodeInfo nodeId="1207144076220" fileName="ConvertDateTimePlusToPlus_Intention.java" startLine="32" startPosition="85" endLine="33" endPosition="50" />
     <nodeInfo nodeId="1213189632741" fileName="ConvertDateTimePlusToPlus_Intention.java" startLine="43" startPosition="90" endLine="44" endPosition="16" />

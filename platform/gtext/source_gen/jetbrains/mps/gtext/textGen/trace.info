@@ -1,5 +1,15 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <debugInfo>
+  <unitInfo fileName="GNewLine_TextGen.java" startLine="8" startPosition="0" endLine="13" endPosition="0" unitName="jetbrains.mps.gtext.textGen.GNewLine_TextGen" />
+  <unitInfo fileName="GIndent_TextGen.java" startLine="8" startPosition="0" endLine="13" endPosition="0" unitName="jetbrains.mps.gtext.textGen.GIndent_TextGen" />
+  <unitInfo fileName="GText_TextGen.java" startLine="9" startPosition="0" endLine="14" endPosition="0" unitName="jetbrains.mps.gtext.textGen.GText_TextGen" />
+  <unitInfo fileName="GExpressionItem_TextGen.java" startLine="10" startPosition="0" endLine="15" endPosition="0" unitName="jetbrains.mps.gtext.textGen.GExpressionItem_TextGen" />
+  <unitInfo fileName="GIndentBlock_TextGen.java" startLine="10" startPosition="0" endLine="17" endPosition="0" unitName="jetbrains.mps.gtext.textGen.GIndentBlock_TextGen" />
+  <unitInfo fileName="GItemList_TextGen.java" startLine="11" startPosition="0" endLine="20" endPosition="0" unitName="jetbrains.mps.gtext.textGen.GItemList_TextGen" />
+  <unitInfo fileName="GSeparatorItemList_TextGen.java" startLine="11" startPosition="0" endLine="21" endPosition="0" unitName="jetbrains.mps.gtext.textGen.GSeparatorItemList_TextGen" />
+  <unitInfo fileName="GLine_TextGen.java" startLine="11" startPosition="0" endLine="22" endPosition="0" unitName="jetbrains.mps.gtext.textGen.GLine_TextGen" />
+  <unitInfo fileName="GDocument_TextGen.java" startLine="12" startPosition="0" endLine="25" endPosition="0" unitName="jetbrains.mps.gtext.textGen.GDocument_TextGen" />
+  <unitInfo fileName="GConditionalLine_TextGen.java" startLine="12" startPosition="0" endLine="27" endPosition="0" unitName="jetbrains.mps.gtext.textGen.GConditionalLine_TextGen" />
   <root nodeId="1234548035318">
     <nodeInfo nodeId="1234548072518" fileName="GConditionalLine_TextGen.java" startLine="14" startPosition="61" endLine="15" endPosition="26" />
     <nodeInfo nodeId="1237463991927" fileName="GConditionalLine_TextGen.java" startLine="18" startPosition="73" endLine="19" endPosition="109" />

@@ -1,3 +1,13 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<debugInfo />
+<debugInfo>
+  <unitInfo fileName="XmlUnitTest_Language.java" startLine="9" startPosition="0" endLine="16" endPosition="0" unitName="jetbrains.mps.xmlUnitTest.structure.XmlUnitTest_Language" />
+  <unitInfo fileName="Text.java" startLine="10" startPosition="0" endLine="34" endPosition="0" unitName="jetbrains.mps.xmlUnitTest.structure.Text" />
+  <unitInfo fileName="XMLStringLiteral.java" startLine="11" startPosition="0" endLine="35" endPosition="0" unitName="jetbrains.mps.xmlUnitTest.structure.XMLStringLiteral" />
+  <unitInfo fileName="XMLLiteral.java" startLine="11" startPosition="0" endLine="35" endPosition="0" unitName="jetbrains.mps.xmlUnitTest.structure.XMLLiteral" />
+  <unitInfo fileName="ElementPart.java" startLine="12" startPosition="0" endLine="63" endPosition="0" unitName="jetbrains.mps.xmlUnitTest.structure.ElementPart" />
+  <unitInfo fileName="Element.java" startLine="12" startPosition="0" endLine="69" endPosition="0" unitName="jetbrains.mps.xmlUnitTest.structure.Element" />
+  <unitInfo fileName="Document.java" startLine="12" startPosition="0" endLine="72" endPosition="0" unitName="jetbrains.mps.xmlUnitTest.structure.Document" />
+  <unitInfo fileName="Attribute.java" startLine="12" startPosition="0" endLine="72" endPosition="0" unitName="jetbrains.mps.xmlUnitTest.structure.Attribute" />
+  <unitInfo fileName="AssertXMLEquals.java" startLine="14" startPosition="0" endLine="83" endPosition="0" unitName="jetbrains.mps.xmlUnitTest.structure.AssertXMLEquals" />
+</debugInfo>
 

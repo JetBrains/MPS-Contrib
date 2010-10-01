@@ -1,5 +1,10 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <debugInfo>
+  <unitInfo fileName="XMLLiteral_TextGen.java" startLine="8" startPosition="0" endLine="13" endPosition="0" unitName="jetbrains.mps.xmlUnitTest.textGen.XMLLiteral_TextGen" />
+  <unitInfo fileName="XMLStringLiteral_TextGen.java" startLine="10" startPosition="0" endLine="17" endPosition="0" unitName="jetbrains.mps.xmlUnitTest.textGen.XMLStringLiteral_TextGen" />
+  <unitInfo fileName="Document_TextGen.java" startLine="8" startPosition="0" endLine="17" endPosition="0" unitName="jetbrains.mps.xmlUnitTest.textGen.Document_TextGen" />
+  <unitInfo fileName="EscapingElementCreator.java" startLine="16" startPosition="0" endLine="30" endPosition="0" unitName="jetbrains.mps.xmlUnitTest.textGen.EscapingElementCreator" />
+  <unitInfo fileName="ElementCreator.java" startLine="16" startPosition="0" endLine="56" endPosition="0" unitName="jetbrains.mps.xmlUnitTest.textGen.ElementCreator" />
   <root nodeId="5211164146776719939">
     <nodeInfo nodeId="5211164146776725750" fileName="XMLStringLiteral_TextGen.java" startLine="11" startPosition="42" endLine="12" endPosition="22" />
     <nodeInfo nodeId="5211164146776725757" fileName="XMLStringLiteral_TextGen.java" startLine="12" startPosition="22" endLine="13" endPosition="145" />
@@ -103,6 +108,9 @@
     <nodeInfo nodeId="5211164146776838045" fileName="EscapingElementCreator.java" startLine="25" startPosition="27" endLine="26" endPosition="48" />
     <nodeInfo nodeId="5211164146776838038" fileName="EscapingElementCreator.java" startLine="18" startPosition="108" endLine="27" endPosition="5" />
     <scopeInfo nodeId="5211164146776904241" fileName="EscapingElementCreator.java" startLine="23" startPosition="39" endLine="24" endPosition="37" />
+    <scopeInfo nodeId="5211164146776838041" fileName="EscapingElementCreator.java" startLine="25" startPosition="0" endLine="26" endPosition="48">
+      <varInfo nodeId="5211164146776838042" varName="e" />
+    </scopeInfo>
     <scopeInfo nodeId="5211164146776838044" fileName="EscapingElementCreator.java" startLine="25" startPosition="27" endLine="26" endPosition="48" />
     <scopeInfo nodeId="5211164146776838039" fileName="EscapingElementCreator.java" startLine="19" startPosition="9" endLine="24" endPosition="37">
       <varInfo nodeId="5211164146776904224" varName="wrt" />
@@ -142,6 +150,9 @@
     <nodeInfo nodeId="5266766379151917435" fileName="ElementCreator.java" startLine="21" startPosition="36" endLine="30" endPosition="5" />
     <nodeInfo nodeId="5266766379151917360" fileName="ElementCreator.java" startLine="40" startPosition="25" endLine="52" endPosition="5" />
     <scopeInfo nodeId="5266766379151917459" fileName="ElementCreator.java" startLine="26" startPosition="58" endLine="27" endPosition="29" />
+    <scopeInfo nodeId="5266766379151917462" fileName="ElementCreator.java" startLine="28" startPosition="0" endLine="29" endPosition="48">
+      <varInfo nodeId="5266766379151917463" varName="e" />
+    </scopeInfo>
     <scopeInfo nodeId="5266766379151917465" fileName="ElementCreator.java" startLine="28" startPosition="27" endLine="29" endPosition="48" />
     <scopeInfo nodeId="5266766379151917335" fileName="ElementCreator.java" startLine="36" startPosition="70" endLine="37" endPosition="129" />
     <scopeInfo nodeId="5266766379151917365" fileName="ElementCreator.java" startLine="43" startPosition="23" endLine="44" endPosition="34" />

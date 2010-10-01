@@ -1,5 +1,17 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <debugInfo>
+  <unitInfo fileName="GContentPlaceholder_Behavior.java" startLine="7" startPosition="0" endLine="11" endPosition="0" unitName="jetbrains.mps.gtext.behavior.GContentPlaceholder_Behavior" />
+  <unitInfo fileName="GText_Behavior.java" startLine="7" startPosition="0" endLine="11" endPosition="0" unitName="jetbrains.mps.gtext.behavior.GText_Behavior" />
+  <unitInfo fileName="GDocument_Behavior.java" startLine="7" startPosition="0" endLine="11" endPosition="0" unitName="jetbrains.mps.gtext.behavior.GDocument_Behavior" />
+  <unitInfo fileName="BuilderContextRef_Behavior.java" startLine="7" startPosition="0" endLine="15" endPosition="0" unitName="jetbrains.mps.gtext.behavior.BuilderContextRef_Behavior" />
+  <unitInfo fileName="GTextConcept_Behavior.java" startLine="8" startPosition="0" endLine="16" endPosition="0" unitName="jetbrains.mps.gtext.behavior.GTextConcept_Behavior" />
+  <unitInfo fileName="GConditionalLine_Behavior.java" startLine="9" startPosition="0" endLine="17" endPosition="0" unitName="jetbrains.mps.gtext.behavior.GConditionalLine_Behavior" />
+  <unitInfo fileName="GSeparatorItemList_Behavior.java" startLine="9" startPosition="0" endLine="17" endPosition="0" unitName="jetbrains.mps.gtext.behavior.GSeparatorItemList_Behavior" />
+  <unitInfo fileName="GContentBlock_Behavior.java" startLine="9" startPosition="0" endLine="17" endPosition="0" unitName="jetbrains.mps.gtext.behavior.GContentBlock_Behavior" />
+  <unitInfo fileName="GLine_Behavior.java" startLine="9" startPosition="0" endLine="21" endPosition="0" unitName="jetbrains.mps.gtext.behavior.GLine_Behavior" />
+  <unitInfo fileName="GCompositeItem_Behavior.java" startLine="10" startPosition="0" endLine="24" endPosition="0" unitName="jetbrains.mps.gtext.behavior.GCompositeItem_Behavior" />
+  <unitInfo fileName="GItem_Behavior.java" startLine="9" startPosition="0" endLine="27" endPosition="0" unitName="jetbrains.mps.gtext.behavior.GItem_Behavior" />
+  <unitInfo fileName="GItemList_Behavior.java" startLine="11" startPosition="0" endLine="30" endPosition="0" unitName="jetbrains.mps.gtext.behavior.GItemList_Behavior" />
   <root nodeId="1213877183413">
     <nodeInfo nodeId="1239127253994" fileName="GContentBlock_Behavior.java" startLine="13" startPosition="76" endLine="14" endPosition="62" />
     <scopeInfo nodeId="1213877183415" fileName="GContentBlock_Behavior.java" startLine="10" startPosition="43" endLine="10" endPosition="43" />

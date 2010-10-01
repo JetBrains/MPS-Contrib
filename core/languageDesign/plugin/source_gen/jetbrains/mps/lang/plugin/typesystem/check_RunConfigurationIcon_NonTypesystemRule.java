@@ -6,6 +6,7 @@ import jetbrains.mps.lang.typesystem.runtime.AbstractNonTypesystemRule_Runtime;
 import jetbrains.mps.lang.typesystem.runtime.NonTypesystemRule_Runtime;
 import jetbrains.mps.smodel.SNode;
 import jetbrains.mps.typesystem.inference.TypeCheckingContext;
+import jetbrains.mps.lang.typesystem.runtime.IsApplicableStatus;
 import jetbrains.mps.lang.smodel.generator.smodelAdapter.SLinkOperations;
 import org.apache.commons.lang.StringUtils;
 import jetbrains.mps.lang.smodel.generator.smodelAdapter.SPropertyOperations;
@@ -19,7 +20,7 @@ public class check_RunConfigurationIcon_NonTypesystemRule extends AbstractNonTyp
   public check_RunConfigurationIcon_NonTypesystemRule() {
   }
 
-  public void applyRule(final SNode runConfigurationDeclaration, final TypeCheckingContext typeCheckingContext) {
+  public void applyRule(final SNode runConfigurationDeclaration, final TypeCheckingContext typeCheckingContext, IsApplicableStatus status) {
     if ((SLinkOperations.getTarget(runConfigurationDeclaration, "iconBlock", true) == null) && ((SLinkOperations.getTarget(runConfigurationDeclaration, "configType", false) != null) && StringUtils.isEmpty(SPropertyOperations.getString(SLinkOperations.getTarget(runConfigurationDeclaration, "configType", false), "iconPath")))) {
       {
         BaseIntentionProvider intentionProvider = null;
@@ -33,8 +34,11 @@ public class check_RunConfigurationIcon_NonTypesystemRule extends AbstractNonTyp
     return "jetbrains.mps.lang.plugin.structure.RunConfigurationDeclaration";
   }
 
-  public boolean isApplicable(SNode argument) {
-    return SModelUtil_new.isAssignableConcept(argument.getConceptFqName(), this.getApplicableConceptFQName());
+  public IsApplicableStatus isApplicableAndPattern(SNode argument) {
+    {
+      boolean b = SModelUtil_new.isAssignableConcept(argument.getConceptFqName(), this.getApplicableConceptFQName());
+      return new IsApplicableStatus(b, null);
+    }
   }
 
   public boolean overrides() {

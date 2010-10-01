@@ -1,5 +1,8 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <debugInfo>
+  <unitInfo fileName="GContentPlaceholder_Constraints.java" startLine="9" startPosition="0" endLine="15" endPosition="0" unitName="jetbrains.mps.gtext.constraints.GContentPlaceholder_Constraints" />
+  <unitInfo fileName="ConstraintsDescriptor.java" startLine="11" startPosition="0" endLine="30" endPosition="0" unitName="jetbrains.mps.gtext.constraints.ConstraintsDescriptor" />
+  <unitInfo fileName="GDocument_name_PropertyConstraint.java" startLine="13" startPosition="0" endLine="35" endPosition="0" unitName="jetbrains.mps.gtext.constraints.GDocument_name_PropertyConstraint" />
   <root nodeId="1213104844571">
     <nodeInfo nodeId="1213104844575" fileName="GDocument_name_PropertyConstraint.java" startLine="27" startPosition="80" endLine="28" endPosition="63" />
     <nodeInfo nodeId="7376433222636453717" fileName="GDocument_name_PropertyConstraint.java" startLine="31" startPosition="124" endLine="32" endPosition="11" />

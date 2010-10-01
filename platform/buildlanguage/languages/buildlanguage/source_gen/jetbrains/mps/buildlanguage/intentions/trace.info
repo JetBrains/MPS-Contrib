@@ -1,5 +1,9 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <debugInfo>
+  <unitInfo fileName="CreateNormalPropertyFromExternal_intention_Intention.java" startLine="14" startPosition="0" endLine="49" endPosition="0" unitName="jetbrains.mps.buildlanguage.intentions.CreateNormalPropertyFromExternal_intention_Intention" />
+  <unitInfo fileName="CreateExternalPropertyFromNormal_intention_Intention.java" startLine="14" startPosition="0" endLine="60" endPosition="0" unitName="jetbrains.mps.buildlanguage.intentions.CreateExternalPropertyFromNormal_intention_Intention" />
+  <unitInfo fileName="RemoveEmptyComment_intention_Intention.java" startLine="12" startPosition="0" endLine="61" endPosition="0" unitName="jetbrains.mps.buildlanguage.intentions.RemoveEmptyComment_intention_Intention" />
+  <unitInfo fileName="AddComment_intention_Intention.java" startLine="12" startPosition="0" endLine="61" endPosition="0" unitName="jetbrains.mps.buildlanguage.intentions.AddComment_intention_Intention" />
   <root nodeId="1201260187613">
     <nodeInfo nodeId="1201260284664" fileName="AddComment_intention_Intention.java" startLine="49" startPosition="90" endLine="50" endPosition="75" />
     <nodeInfo nodeId="1201260308382" fileName="AddComment_intention_Intention.java" startLine="53" startPosition="76" endLine="54" endPosition="58" />
