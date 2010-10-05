@@ -324,7 +324,7 @@ public class RunConfigurationTypeDeclaration_Editor extends DefaultNodeEditor {
     if (module != null) {
       path = MacrosUtil.expandPath(SPropertyOperations.getString(node, "iconPath"), module.getModuleFqName());
     }
-    return path != null && FileSystem.getFile(path).exists();
+    return path != null && FileSystem.getInstance().getFileByPath(path).exists();
   }
 
   private static boolean renderingCondition_wgm1kr_a2a(SNode node, EditorContext editorContext, IScope scope) {

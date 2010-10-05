@@ -224,7 +224,7 @@ public class RunConfigurationPresentation extends AbstractCellProvider {
     if (module != null) {
       path = MacrosUtil.expandPath(SPropertyOperations.getString(node, "iconPath"), module.getModuleFqName());
     }
-    return path != null && FileSystem.getFile(path).exists();
+    return path != null && FileSystem.getInstance().getFileByPath(path).exists();
   }
 
   private static JComponent _QueryFunction_JComponent_ltb2bm_a2b0(SNode node, EditorContext editorContext) {
