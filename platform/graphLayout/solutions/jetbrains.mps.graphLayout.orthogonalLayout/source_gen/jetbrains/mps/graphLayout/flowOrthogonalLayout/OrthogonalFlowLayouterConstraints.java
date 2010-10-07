@@ -10,6 +10,7 @@ import java.awt.Dimension;
 import jetbrains.mps.internal.collections.runtime.MapSequence;
 import java.util.HashMap;
 import jetbrains.mps.graphLayout.graph.Edge;
+import java.util.LinkedHashMap;
 import jetbrains.mps.internal.collections.runtime.ListSequence;
 import java.util.List;
 import java.awt.Point;
@@ -42,7 +43,7 @@ public class OrthogonalFlowLayouterConstraints {
     Graph copy = new Graph();
     Map<Node, Node> nodeMap = MapSequence.fromMap(new HashMap<Node, Node>());
     Map<Edge, Edge> edgeMap = MapSequence.fromMap(new HashMap<Edge, Edge>());
-    Map<Node, Dimension> copySizes = MapSequence.fromMap(new HashMap<Node, Dimension>());
+    Map<Node, Dimension> copySizes = MapSequence.fromMap(new LinkedHashMap<Node, Dimension>(16, (float) 0.75, false));
     for (Node node : ListSequence.fromList(graph.getNodes())) {
       Node copyNode = copy.addNode();
       MapSequence.fromMap(nodeMap).put(node, copyNode);
@@ -290,5 +291,9 @@ public class OrthogonalFlowLayouterConstraints {
       }
       curShift += unitShift;
     }
+  }
+
+  public void setUnitLength(int unitLength) {
+    myUnitLength = unitLength;
   }
 }

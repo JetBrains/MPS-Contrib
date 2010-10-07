@@ -1169,12 +1169,16 @@
     <nodeInfo nodeId="5180427534212042792" fileName="TopologicalSorting.java" startLine="48" startPosition="57" endLine="49" endPosition="24" />
     <nodeInfo nodeId="5728232039832708941" fileName="TopologicalSorting.java" startLine="50" startPosition="32" endLine="51" endPosition="18" />
     <nodeInfo nodeId="5180427534212042812" fileName="TopologicalSorting.java" startLine="52" startPosition="5" endLine="53" endPosition="29" />
+    <nodeInfo nodeId="7148630665778097063" fileName="TopologicalSorting.java" startLine="56" startPosition="48" endLine="57" endPosition="57" />
+    <nodeInfo nodeId="7148630665778097068" fileName="TopologicalSorting.java" startLine="57" startPosition="57" endLine="58" endPosition="24" />
+    <nodeInfo nodeId="7148630665778097085" fileName="TopologicalSorting.java" startLine="58" startPosition="24" endLine="59" endPosition="33" />
     <nodeInfo nodeId="5180427534212042771" fileName="TopologicalSorting.java" startLine="16" startPosition="0" endLine="18" endPosition="3" />
     <nodeInfo nodeId="920414672219845756" fileName="TopologicalSorting.java" startLine="41" startPosition="54" endLine="44" endPosition="5" />
     <nodeInfo nodeId="920414672219845782" fileName="TopologicalSorting.java" startLine="49" startPosition="24" endLine="52" endPosition="5" />
     <nodeInfo nodeId="5180427534212042800" fileName="TopologicalSorting.java" startLine="31" startPosition="0" endLine="35" endPosition="0" />
     <nodeInfo nodeId="920414672219845786" fileName="TopologicalSorting.java" startLine="35" startPosition="0" endLine="39" endPosition="0" />
     <nodeInfo nodeId="5180427534212042719" fileName="TopologicalSorting.java" startLine="26" startPosition="0" endLine="31" endPosition="0" />
+    <nodeInfo nodeId="7148630665778097051" fileName="TopologicalSorting.java" startLine="55" startPosition="0" endLine="61" endPosition="0" />
     <nodeInfo nodeId="5180427534212042687" fileName="TopologicalSorting.java" startLine="19" startPosition="0" endLine="26" endPosition="0" />
     <nodeInfo nodeId="920414672219845738" fileName="TopologicalSorting.java" startLine="39" startPosition="0" endLine="46" endPosition="0" />
     <nodeInfo nodeId="5180427534212042776" fileName="TopologicalSorting.java" startLine="46" startPosition="0" endLine="55" endPosition="0" />
@@ -1187,6 +1191,9 @@
     <scopeInfo nodeId="5180427534212042771" fileName="TopologicalSorting.java" startLine="16" startPosition="0" endLine="18" endPosition="3" />
     <scopeInfo nodeId="5180427534212042692" fileName="TopologicalSorting.java" startLine="21" startPosition="34" endLine="24" endPosition="23" />
     <scopeInfo nodeId="920414672219845743" fileName="TopologicalSorting.java" startLine="41" startPosition="54" endLine="44" endPosition="5" />
+    <scopeInfo nodeId="7148630665778097054" fileName="TopologicalSorting.java" startLine="56" startPosition="48" endLine="59" endPosition="33">
+      <varInfo nodeId="7148630665778097064" varName="sorter" />
+    </scopeInfo>
     <scopeInfo nodeId="5180427534212042800" fileName="TopologicalSorting.java" startLine="31" startPosition="0" endLine="35" endPosition="0" />
     <scopeInfo nodeId="920414672219845786" fileName="TopologicalSorting.java" startLine="35" startPosition="0" endLine="39" endPosition="0" />
     <scopeInfo nodeId="5180427534212042719" fileName="TopologicalSorting.java" startLine="26" startPosition="0" endLine="31" endPosition="0">
@@ -1195,6 +1202,9 @@
     </scopeInfo>
     <scopeInfo nodeId="5180427534212042779" fileName="TopologicalSorting.java" startLine="47" startPosition="46" endLine="53" endPosition="29">
       <varInfo nodeId="5180427534212042787" varName="sorter" />
+    </scopeInfo>
+    <scopeInfo nodeId="7148630665778097051" fileName="TopologicalSorting.java" startLine="55" startPosition="0" endLine="61" endPosition="0">
+      <varInfo nodeId="7148630665778097056" varName="graph" />
     </scopeInfo>
     <scopeInfo nodeId="5180427534212042687" fileName="TopologicalSorting.java" startLine="19" startPosition="0" endLine="26" endPosition="0">
       <varInfo nodeId="5180427534212042690" varName="graph" />
@@ -1206,7 +1216,7 @@
     <scopeInfo nodeId="5180427534212042776" fileName="TopologicalSorting.java" startLine="46" startPosition="0" endLine="55" endPosition="0">
       <varInfo nodeId="5180427534212042780" varName="graph" />
     </scopeInfo>
-    <unitInfo nodeId="5180427534212042655" fileName="TopologicalSorting.java" startLine="13" startPosition="0" endLine="56" endPosition="0" unitName="jetbrains.mps.graphLayout.algorithms.TopologicalSorting" />
+    <unitInfo nodeId="5180427534212042655" fileName="TopologicalSorting.java" startLine="13" startPosition="0" endLine="62" endPosition="0" unitName="jetbrains.mps.graphLayout.algorithms.TopologicalSorting" />
   </root>
   <root nodeId="5180427534212043147">
     <nodeInfo nodeId="920414672219832490" fileName="TopologicalNumbering.java" startLine="18" startPosition="88" endLine="19" endPosition="56" />

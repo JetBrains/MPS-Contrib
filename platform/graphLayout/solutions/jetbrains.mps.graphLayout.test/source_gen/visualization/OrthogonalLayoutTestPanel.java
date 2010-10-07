@@ -5,7 +5,7 @@ package visualization;
 import javax.swing.JPanel;
 import java.awt.Dimension;
 import javax.swing.JTextArea;
-import jetbrains.mps.graphLayout.flowOrthogonalLayout.OrthogonalFlowLayouterConstraints;
+import jetbrains.mps.graphLayout.flowOrthogonalLayout.TestPullingLabels;
 import jetbrains.mps.graphLayout.graphLayout.GraphLayout;
 import javax.swing.JTextField;
 import java.awt.GridBagLayout;
@@ -38,12 +38,12 @@ import java.awt.Graphics;
 public class OrthogonalLayoutTestPanel extends JPanel {
   private static Dimension FRAME_DIMENSION = new Dimension(800, 600);
   private static final int DEFAULT_NODE_SIZE = 30;
-  private static final int DEFAULT_EDGE_X_SIZE = 50;
-  private static final int DEFAULT_EDGE_Y_SIZE = 20;
+  private static final int DEFAULT_EDGE_X_SIZE = 60;
+  private static final int DEFAULT_EDGE_Y_SIZE = 60;
 
   private JTextArea myTextArea;
   private OrthogonalLayoutTestPanel.MyGraphLabel myGraphLabel;
-  private OrthogonalFlowLayouterConstraints myLayouter;
+  private TestPullingLabels myLayouter;
   private LayoutPainter myPainter;
   private GraphLayout myCurrentLayout;
   private JTextField myNumEdgesField;
@@ -60,7 +60,7 @@ public class OrthogonalLayoutTestPanel extends JPanel {
     /*
       myLayouter = new RectOrthogonalLayouter();
     */
-    myLayouter = new OrthogonalFlowLayouterConstraints();
+    myLayouter = new TestPullingLabels();
     /*
       myLayouter.setEdgeDistance(20);
     */
@@ -178,7 +178,7 @@ public class OrthogonalLayoutTestPanel extends JPanel {
           }
         }
       }
-      myCurrentLayout = myLayouter.doLayout(g, nodeDimensions);
+      myCurrentLayout = myLayouter.doLayout(g, nodeDimensions, edgeDimensions);
     }
   }
 

@@ -8237,12 +8237,12 @@
                 <link role="classifier:3" targetNodeId="8.~Dimension" resolveInfo="Dimension" />
               </node>
             </node>
-            <node role="initializer:3" type="jetbrains.mps.baseLanguage.structure.GenericNewExpression:3" id="1465095823296810332">
-              <node role="creator:3" type="jetbrains.mps.baseLanguage.collections.structure.HashMapCreator:7" id="1465095823296810333">
-                <node role="keyType:7" type="jetbrains.mps.baseLanguage.structure.ClassifierType:3" id="1465095823296810334">
+            <node role="initializer:3" type="jetbrains.mps.baseLanguage.structure.GenericNewExpression:3" id="7148630665778105582">
+              <node role="creator:3" type="jetbrains.mps.baseLanguage.collections.structure.LinkedHashMapCreator:7" id="7148630665778105583">
+                <node role="keyType:7" type="jetbrains.mps.baseLanguage.structure.ClassifierType:3" id="7148630665778105584">
                   <link role="classifier:3" targetNodeId="6.4671312709908983848" resolveInfo="Node" />
                 </node>
-                <node role="valueType:7" type="jetbrains.mps.baseLanguage.structure.ClassifierType:3" id="1465095823296810335">
+                <node role="valueType:7" type="jetbrains.mps.baseLanguage.structure.ClassifierType:3" id="7148630665778105585">
                   <link role="classifier:3" targetNodeId="8.~Dimension" resolveInfo="Dimension" />
                 </node>
               </node>
@@ -8544,7 +8544,7 @@
                 <link role="classConcept:3" targetNodeId="2.1567683135099906914" resolveInfo="GraphIO" />
                 <link role="baseMethodDeclaration:3" targetNodeId="2.7727845083901344073" resolveInfo="scanGraph" />
                 <node role="actualArgument:3" type="jetbrains.mps.baseLanguage.structure.StringLiteral:3" id="4319509563683730193">
-                  <property name="value:3" value="10 23&#10;  0 2  &#10;0 3  &#10;0 8  &#10;0 5  &#10;1 8  &#10;3 2  &#10;3 6  &#10;4 3  &#10;4 1  &#10;4 7  &#10;5 2  &#10;5 1  &#10;5 9  &#10;6 0  &#10;7 3  &#10;7 1  &#10;7 2  &#10;8 9  &#10;8 6  &#10;8 3  &#10;9 3  &#10;9 2  &#10;9 1" />
+                  <property name="value:3" value="6 6  0 1  1 2  2 3  3 4  4 5  5 0" />
                 </node>
               </node>
             </node>

@@ -52,4 +52,10 @@ public class TopologicalSorting extends Dfs {
     }
     return sorter.getOrder();
   }
+
+  public static boolean hasCycles(Graph graph) {
+    TopologicalSorting sorter = new TopologicalSorting();
+    sorter.doDfs(graph);
+    return sorter.getHasCycles();
+  }
 }

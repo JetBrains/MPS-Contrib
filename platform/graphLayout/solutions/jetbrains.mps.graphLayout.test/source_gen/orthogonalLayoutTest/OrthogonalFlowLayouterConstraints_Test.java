@@ -14,6 +14,7 @@ import java.util.HashMap;
 import jetbrains.mps.internal.collections.runtime.ListSequence;
 import jetbrains.mps.graphLayout.graphLayout.GraphLayout;
 import jetbrains.mps.graphLayout.flowOrthogonalLayout.OrthogonalFlowLayouterConstraints;
+import java.util.LinkedHashMap;
 
 public class OrthogonalFlowLayouterConstraints_Test extends TestCase {
   public void test_test1() throws Exception {
@@ -47,7 +48,7 @@ public class OrthogonalFlowLayouterConstraints_Test extends TestCase {
   }
 
   public void test_test7() throws Exception {
-    Graph graph = GraphIO.scanGraph("10 23\n  0 2  \n0 3  \n0 8  \n0 5  \n1 8  \n3 2  \n3 6  \n4 3  \n4 1  \n4 7  \n5 2  \n5 1  \n5 9  \n6 0  \n7 3  \n7 1  \n7 2  \n8 9  \n8 6  \n8 3  \n9 3  \n9 2  \n9 1");
+    Graph graph = GraphIO.scanGraph("6 6  0 1  1 2  2 3  3 4  4 5  5 0");
     test(graph);
   }
 
@@ -64,7 +65,7 @@ public class OrthogonalFlowLayouterConstraints_Test extends TestCase {
   }
 
   public void test(Graph graph) {
-    Map<Node, Dimension> nodeSizes = MapSequence.fromMap(new HashMap<Node, Dimension>());
+    Map<Node, Dimension> nodeSizes = MapSequence.fromMap(new LinkedHashMap<Node, Dimension>(16, (float) 0.75, false));
     for (Node node : ListSequence.fromList(graph.getNodes())) {
       MapSequence.fromMap(nodeSizes).put(node, new Dimension(30, 30));
     }

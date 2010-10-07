@@ -9,7 +9,7 @@
   <unitInfo fileName="VisibilityRepresentation_Test.java" startLine="23" startPosition="0" endLine="73" endPosition="0" unitName="orthogonalLayoutTest.VisibilityRepresentation_Test" />
   <unitInfo fileName="RectOrthogonalFlowLayouter_Test.java" startLine="18" startPosition="0" endLine="71" endPosition="0" unitName="orthogonalLayoutTest.RectOrthogonalFlowLayouter_Test" />
   <unitInfo fileName="EmbeddedGraphModifier_Test.java" startLine="30" startPosition="0" endLine="84" endPosition="0" unitName="orthogonalLayoutTest.EmbeddedGraphModifier_Test" />
-  <unitInfo fileName="OrthogonalFlowLayouterConstraints_Test.java" startLine="18" startPosition="0" endLine="76" endPosition="0" unitName="orthogonalLayoutTest.OrthogonalFlowLayouterConstraints_Test" />
+  <unitInfo fileName="OrthogonalFlowLayouterConstraints_Test.java" startLine="19" startPosition="0" endLine="77" endPosition="0" unitName="orthogonalLayoutTest.OrthogonalFlowLayouterConstraints_Test" />
   <unitInfo fileName="ConstraintsGraph_Test.java" startLine="26" startPosition="0" endLine="89" endPosition="0" unitName="orthogonalLayoutTest.ConstraintsGraph_Test" />
   <unitInfo fileName="OrthogonalRepresentation_Test.java" startLine="25" startPosition="0" endLine="101" endPosition="0" unitName="orthogonalLayoutTest.OrthogonalRepresentation_Test" />
   <unitInfo fileName="QuasiOrthogonalRepresentation_Test.java" startLine="27" startPosition="0" endLine="106" endPosition="0" unitName="orthogonalLayoutTest.QuasiOrthogonalRepresentation_Test" />
@@ -212,88 +212,88 @@
     </scopeInfo>
   </root>
   <root nodeId="1465095823296810322">
-    <nodeInfo nodeId="1465095823296810380" fileName="OrthogonalFlowLayouterConstraints_Test.java" startLine="19" startPosition="45" endLine="20" endPosition="63" />
-    <nodeInfo nodeId="1465095823296810385" fileName="OrthogonalFlowLayouterConstraints_Test.java" startLine="20" startPosition="63" endLine="21" endPosition="16" />
-    <nodeInfo nodeId="1465095823296810392" fileName="OrthogonalFlowLayouterConstraints_Test.java" startLine="24" startPosition="45" endLine="25" endPosition="47" />
-    <nodeInfo nodeId="1465095823296810397" fileName="OrthogonalFlowLayouterConstraints_Test.java" startLine="25" startPosition="47" endLine="26" endPosition="16" />
-    <nodeInfo nodeId="1465095823296810404" fileName="OrthogonalFlowLayouterConstraints_Test.java" startLine="29" startPosition="45" endLine="30" endPosition="114" />
-    <nodeInfo nodeId="1465095823296810409" fileName="OrthogonalFlowLayouterConstraints_Test.java" startLine="30" startPosition="114" endLine="31" endPosition="16" />
-    <nodeInfo nodeId="1465095823296810416" fileName="OrthogonalFlowLayouterConstraints_Test.java" startLine="34" startPosition="45" endLine="35" endPosition="128" />
-    <nodeInfo nodeId="1465095823296810421" fileName="OrthogonalFlowLayouterConstraints_Test.java" startLine="35" startPosition="128" endLine="36" endPosition="16" />
-    <nodeInfo nodeId="1465095823296810428" fileName="OrthogonalFlowLayouterConstraints_Test.java" startLine="39" startPosition="45" endLine="40" endPosition="128" />
-    <nodeInfo nodeId="1465095823296810433" fileName="OrthogonalFlowLayouterConstraints_Test.java" startLine="40" startPosition="128" endLine="41" endPosition="16" />
-    <nodeInfo nodeId="8045396427555554995" fileName="OrthogonalFlowLayouterConstraints_Test.java" startLine="44" startPosition="45" endLine="45" endPosition="128" />
-    <nodeInfo nodeId="8045396427555555000" fileName="OrthogonalFlowLayouterConstraints_Test.java" startLine="45" startPosition="128" endLine="46" endPosition="16" />
-    <nodeInfo nodeId="4319509563683730189" fileName="OrthogonalFlowLayouterConstraints_Test.java" startLine="49" startPosition="45" endLine="50" endPosition="206" />
-    <nodeInfo nodeId="4319509563683730194" fileName="OrthogonalFlowLayouterConstraints_Test.java" startLine="50" startPosition="206" endLine="51" endPosition="16" />
-    <nodeInfo nodeId="3263240354041071370" fileName="OrthogonalFlowLayouterConstraints_Test.java" startLine="54" startPosition="54" endLine="55" endPosition="128" />
-    <nodeInfo nodeId="3263240354041071381" fileName="OrthogonalFlowLayouterConstraints_Test.java" startLine="55" startPosition="128" endLine="56" endPosition="89" />
-    <nodeInfo nodeId="3263240354041071396" fileName="OrthogonalFlowLayouterConstraints_Test.java" startLine="57" startPosition="63" endLine="58" endPosition="70" />
-    <nodeInfo nodeId="3263240354041071425" fileName="OrthogonalFlowLayouterConstraints_Test.java" startLine="59" startPosition="5" endLine="60" endPosition="82" />
-    <nodeInfo nodeId="3263240354041071405" fileName="OrthogonalFlowLayouterConstraints_Test.java" startLine="60" startPosition="82" endLine="61" endPosition="97" />
-    <nodeInfo nodeId="3263240354041071414" fileName="OrthogonalFlowLayouterConstraints_Test.java" startLine="61" startPosition="97" endLine="62" endPosition="36" />
-    <nodeInfo nodeId="3263240354041071419" fileName="OrthogonalFlowLayouterConstraints_Test.java" startLine="62" startPosition="36" endLine="63" endPosition="53" />
-    <nodeInfo nodeId="1465095823296810327" fileName="OrthogonalFlowLayouterConstraints_Test.java" startLine="66" startPosition="33" endLine="67" endPosition="89" />
-    <nodeInfo nodeId="1465095823296810342" fileName="OrthogonalFlowLayouterConstraints_Test.java" startLine="68" startPosition="63" endLine="69" endPosition="70" />
-    <nodeInfo nodeId="1465095823296810351" fileName="OrthogonalFlowLayouterConstraints_Test.java" startLine="70" startPosition="5" endLine="71" endPosition="97" />
-    <nodeInfo nodeId="1465095823296810360" fileName="OrthogonalFlowLayouterConstraints_Test.java" startLine="71" startPosition="97" endLine="72" endPosition="36" />
-    <nodeInfo nodeId="1465095823296810365" fileName="OrthogonalFlowLayouterConstraints_Test.java" startLine="72" startPosition="36" endLine="73" endPosition="53" />
-    <nodeInfo nodeId="3263240354041071390" fileName="OrthogonalFlowLayouterConstraints_Test.java" startLine="56" startPosition="89" endLine="59" endPosition="5" />
-    <nodeInfo nodeId="1465095823296810336" fileName="OrthogonalFlowLayouterConstraints_Test.java" startLine="67" startPosition="89" endLine="70" endPosition="5" />
-    <nodeInfo nodeId="1465095823296810376" fileName="OrthogonalFlowLayouterConstraints_Test.java" startLine="18" startPosition="70" endLine="23" endPosition="0" />
-    <nodeInfo nodeId="1465095823296810388" fileName="OrthogonalFlowLayouterConstraints_Test.java" startLine="23" startPosition="0" endLine="28" endPosition="0" />
-    <nodeInfo nodeId="1465095823296810400" fileName="OrthogonalFlowLayouterConstraints_Test.java" startLine="28" startPosition="0" endLine="33" endPosition="0" />
-    <nodeInfo nodeId="1465095823296810412" fileName="OrthogonalFlowLayouterConstraints_Test.java" startLine="33" startPosition="0" endLine="38" endPosition="0" />
-    <nodeInfo nodeId="1465095823296810424" fileName="OrthogonalFlowLayouterConstraints_Test.java" startLine="38" startPosition="0" endLine="43" endPosition="0" />
-    <nodeInfo nodeId="8045396427555554991" fileName="OrthogonalFlowLayouterConstraints_Test.java" startLine="43" startPosition="0" endLine="48" endPosition="0" />
-    <nodeInfo nodeId="4319509563683730185" fileName="OrthogonalFlowLayouterConstraints_Test.java" startLine="48" startPosition="0" endLine="53" endPosition="0" />
-    <nodeInfo nodeId="1465095823296810323" fileName="OrthogonalFlowLayouterConstraints_Test.java" startLine="65" startPosition="0" endLine="75" endPosition="0" />
-    <nodeInfo nodeId="3263240354041071365" fileName="OrthogonalFlowLayouterConstraints_Test.java" startLine="53" startPosition="0" endLine="65" endPosition="0" />
-    <scopeInfo nodeId="3263240354041071395" fileName="OrthogonalFlowLayouterConstraints_Test.java" startLine="57" startPosition="63" endLine="58" endPosition="70" />
-    <scopeInfo nodeId="1465095823296810341" fileName="OrthogonalFlowLayouterConstraints_Test.java" startLine="68" startPosition="63" endLine="69" endPosition="70" />
-    <scopeInfo nodeId="1465095823296810379" fileName="OrthogonalFlowLayouterConstraints_Test.java" startLine="19" startPosition="45" endLine="21" endPosition="16">
+    <nodeInfo nodeId="1465095823296810380" fileName="OrthogonalFlowLayouterConstraints_Test.java" startLine="20" startPosition="45" endLine="21" endPosition="63" />
+    <nodeInfo nodeId="1465095823296810385" fileName="OrthogonalFlowLayouterConstraints_Test.java" startLine="21" startPosition="63" endLine="22" endPosition="16" />
+    <nodeInfo nodeId="1465095823296810392" fileName="OrthogonalFlowLayouterConstraints_Test.java" startLine="25" startPosition="45" endLine="26" endPosition="47" />
+    <nodeInfo nodeId="1465095823296810397" fileName="OrthogonalFlowLayouterConstraints_Test.java" startLine="26" startPosition="47" endLine="27" endPosition="16" />
+    <nodeInfo nodeId="1465095823296810404" fileName="OrthogonalFlowLayouterConstraints_Test.java" startLine="30" startPosition="45" endLine="31" endPosition="114" />
+    <nodeInfo nodeId="1465095823296810409" fileName="OrthogonalFlowLayouterConstraints_Test.java" startLine="31" startPosition="114" endLine="32" endPosition="16" />
+    <nodeInfo nodeId="1465095823296810416" fileName="OrthogonalFlowLayouterConstraints_Test.java" startLine="35" startPosition="45" endLine="36" endPosition="128" />
+    <nodeInfo nodeId="1465095823296810421" fileName="OrthogonalFlowLayouterConstraints_Test.java" startLine="36" startPosition="128" endLine="37" endPosition="16" />
+    <nodeInfo nodeId="1465095823296810428" fileName="OrthogonalFlowLayouterConstraints_Test.java" startLine="40" startPosition="45" endLine="41" endPosition="128" />
+    <nodeInfo nodeId="1465095823296810433" fileName="OrthogonalFlowLayouterConstraints_Test.java" startLine="41" startPosition="128" endLine="42" endPosition="16" />
+    <nodeInfo nodeId="8045396427555554995" fileName="OrthogonalFlowLayouterConstraints_Test.java" startLine="45" startPosition="45" endLine="46" endPosition="128" />
+    <nodeInfo nodeId="8045396427555555000" fileName="OrthogonalFlowLayouterConstraints_Test.java" startLine="46" startPosition="128" endLine="47" endPosition="16" />
+    <nodeInfo nodeId="4319509563683730189" fileName="OrthogonalFlowLayouterConstraints_Test.java" startLine="50" startPosition="45" endLine="51" endPosition="73" />
+    <nodeInfo nodeId="4319509563683730194" fileName="OrthogonalFlowLayouterConstraints_Test.java" startLine="51" startPosition="73" endLine="52" endPosition="16" />
+    <nodeInfo nodeId="3263240354041071370" fileName="OrthogonalFlowLayouterConstraints_Test.java" startLine="55" startPosition="54" endLine="56" endPosition="128" />
+    <nodeInfo nodeId="3263240354041071381" fileName="OrthogonalFlowLayouterConstraints_Test.java" startLine="56" startPosition="128" endLine="57" endPosition="89" />
+    <nodeInfo nodeId="3263240354041071396" fileName="OrthogonalFlowLayouterConstraints_Test.java" startLine="58" startPosition="63" endLine="59" endPosition="70" />
+    <nodeInfo nodeId="3263240354041071425" fileName="OrthogonalFlowLayouterConstraints_Test.java" startLine="60" startPosition="5" endLine="61" endPosition="82" />
+    <nodeInfo nodeId="3263240354041071405" fileName="OrthogonalFlowLayouterConstraints_Test.java" startLine="61" startPosition="82" endLine="62" endPosition="97" />
+    <nodeInfo nodeId="3263240354041071414" fileName="OrthogonalFlowLayouterConstraints_Test.java" startLine="62" startPosition="97" endLine="63" endPosition="36" />
+    <nodeInfo nodeId="3263240354041071419" fileName="OrthogonalFlowLayouterConstraints_Test.java" startLine="63" startPosition="36" endLine="64" endPosition="53" />
+    <nodeInfo nodeId="1465095823296810327" fileName="OrthogonalFlowLayouterConstraints_Test.java" startLine="67" startPosition="33" endLine="68" endPosition="118" />
+    <nodeInfo nodeId="1465095823296810342" fileName="OrthogonalFlowLayouterConstraints_Test.java" startLine="69" startPosition="63" endLine="70" endPosition="70" />
+    <nodeInfo nodeId="1465095823296810351" fileName="OrthogonalFlowLayouterConstraints_Test.java" startLine="71" startPosition="5" endLine="72" endPosition="97" />
+    <nodeInfo nodeId="1465095823296810360" fileName="OrthogonalFlowLayouterConstraints_Test.java" startLine="72" startPosition="97" endLine="73" endPosition="36" />
+    <nodeInfo nodeId="1465095823296810365" fileName="OrthogonalFlowLayouterConstraints_Test.java" startLine="73" startPosition="36" endLine="74" endPosition="53" />
+    <nodeInfo nodeId="3263240354041071390" fileName="OrthogonalFlowLayouterConstraints_Test.java" startLine="57" startPosition="89" endLine="60" endPosition="5" />
+    <nodeInfo nodeId="1465095823296810336" fileName="OrthogonalFlowLayouterConstraints_Test.java" startLine="68" startPosition="118" endLine="71" endPosition="5" />
+    <nodeInfo nodeId="1465095823296810376" fileName="OrthogonalFlowLayouterConstraints_Test.java" startLine="19" startPosition="70" endLine="24" endPosition="0" />
+    <nodeInfo nodeId="1465095823296810388" fileName="OrthogonalFlowLayouterConstraints_Test.java" startLine="24" startPosition="0" endLine="29" endPosition="0" />
+    <nodeInfo nodeId="1465095823296810400" fileName="OrthogonalFlowLayouterConstraints_Test.java" startLine="29" startPosition="0" endLine="34" endPosition="0" />
+    <nodeInfo nodeId="1465095823296810412" fileName="OrthogonalFlowLayouterConstraints_Test.java" startLine="34" startPosition="0" endLine="39" endPosition="0" />
+    <nodeInfo nodeId="1465095823296810424" fileName="OrthogonalFlowLayouterConstraints_Test.java" startLine="39" startPosition="0" endLine="44" endPosition="0" />
+    <nodeInfo nodeId="8045396427555554991" fileName="OrthogonalFlowLayouterConstraints_Test.java" startLine="44" startPosition="0" endLine="49" endPosition="0" />
+    <nodeInfo nodeId="4319509563683730185" fileName="OrthogonalFlowLayouterConstraints_Test.java" startLine="49" startPosition="0" endLine="54" endPosition="0" />
+    <nodeInfo nodeId="1465095823296810323" fileName="OrthogonalFlowLayouterConstraints_Test.java" startLine="66" startPosition="0" endLine="76" endPosition="0" />
+    <nodeInfo nodeId="3263240354041071365" fileName="OrthogonalFlowLayouterConstraints_Test.java" startLine="54" startPosition="0" endLine="66" endPosition="0" />
+    <scopeInfo nodeId="3263240354041071395" fileName="OrthogonalFlowLayouterConstraints_Test.java" startLine="58" startPosition="63" endLine="59" endPosition="70" />
+    <scopeInfo nodeId="1465095823296810341" fileName="OrthogonalFlowLayouterConstraints_Test.java" startLine="69" startPosition="63" endLine="70" endPosition="70" />
+    <scopeInfo nodeId="1465095823296810379" fileName="OrthogonalFlowLayouterConstraints_Test.java" startLine="20" startPosition="45" endLine="22" endPosition="16">
       <varInfo nodeId="1465095823296810381" varName="graph" />
     </scopeInfo>
-    <scopeInfo nodeId="1465095823296810391" fileName="OrthogonalFlowLayouterConstraints_Test.java" startLine="24" startPosition="45" endLine="26" endPosition="16">
+    <scopeInfo nodeId="1465095823296810391" fileName="OrthogonalFlowLayouterConstraints_Test.java" startLine="25" startPosition="45" endLine="27" endPosition="16">
       <varInfo nodeId="1465095823296810393" varName="graph" />
     </scopeInfo>
-    <scopeInfo nodeId="1465095823296810403" fileName="OrthogonalFlowLayouterConstraints_Test.java" startLine="29" startPosition="45" endLine="31" endPosition="16">
+    <scopeInfo nodeId="1465095823296810403" fileName="OrthogonalFlowLayouterConstraints_Test.java" startLine="30" startPosition="45" endLine="32" endPosition="16">
       <varInfo nodeId="1465095823296810405" varName="graph" />
     </scopeInfo>
-    <scopeInfo nodeId="1465095823296810415" fileName="OrthogonalFlowLayouterConstraints_Test.java" startLine="34" startPosition="45" endLine="36" endPosition="16">
+    <scopeInfo nodeId="1465095823296810415" fileName="OrthogonalFlowLayouterConstraints_Test.java" startLine="35" startPosition="45" endLine="37" endPosition="16">
       <varInfo nodeId="1465095823296810417" varName="graph" />
     </scopeInfo>
-    <scopeInfo nodeId="1465095823296810427" fileName="OrthogonalFlowLayouterConstraints_Test.java" startLine="39" startPosition="45" endLine="41" endPosition="16">
+    <scopeInfo nodeId="1465095823296810427" fileName="OrthogonalFlowLayouterConstraints_Test.java" startLine="40" startPosition="45" endLine="42" endPosition="16">
       <varInfo nodeId="1465095823296810429" varName="graph" />
     </scopeInfo>
-    <scopeInfo nodeId="8045396427555554994" fileName="OrthogonalFlowLayouterConstraints_Test.java" startLine="44" startPosition="45" endLine="46" endPosition="16">
+    <scopeInfo nodeId="8045396427555554994" fileName="OrthogonalFlowLayouterConstraints_Test.java" startLine="45" startPosition="45" endLine="47" endPosition="16">
       <varInfo nodeId="8045396427555554996" varName="graph" />
     </scopeInfo>
-    <scopeInfo nodeId="4319509563683730188" fileName="OrthogonalFlowLayouterConstraints_Test.java" startLine="49" startPosition="45" endLine="51" endPosition="16">
+    <scopeInfo nodeId="4319509563683730188" fileName="OrthogonalFlowLayouterConstraints_Test.java" startLine="50" startPosition="45" endLine="52" endPosition="16">
       <varInfo nodeId="4319509563683730190" varName="graph" />
     </scopeInfo>
-    <scopeInfo nodeId="3263240354041071390" fileName="OrthogonalFlowLayouterConstraints_Test.java" startLine="56" startPosition="89" endLine="59" endPosition="5" />
-    <scopeInfo nodeId="1465095823296810336" fileName="OrthogonalFlowLayouterConstraints_Test.java" startLine="67" startPosition="89" endLine="70" endPosition="5" />
-    <scopeInfo nodeId="1465095823296810376" fileName="OrthogonalFlowLayouterConstraints_Test.java" startLine="18" startPosition="70" endLine="23" endPosition="0" />
-    <scopeInfo nodeId="1465095823296810388" fileName="OrthogonalFlowLayouterConstraints_Test.java" startLine="23" startPosition="0" endLine="28" endPosition="0" />
-    <scopeInfo nodeId="1465095823296810400" fileName="OrthogonalFlowLayouterConstraints_Test.java" startLine="28" startPosition="0" endLine="33" endPosition="0" />
-    <scopeInfo nodeId="1465095823296810412" fileName="OrthogonalFlowLayouterConstraints_Test.java" startLine="33" startPosition="0" endLine="38" endPosition="0" />
-    <scopeInfo nodeId="1465095823296810424" fileName="OrthogonalFlowLayouterConstraints_Test.java" startLine="38" startPosition="0" endLine="43" endPosition="0" />
-    <scopeInfo nodeId="8045396427555554991" fileName="OrthogonalFlowLayouterConstraints_Test.java" startLine="43" startPosition="0" endLine="48" endPosition="0" />
-    <scopeInfo nodeId="4319509563683730185" fileName="OrthogonalFlowLayouterConstraints_Test.java" startLine="48" startPosition="0" endLine="53" endPosition="0" />
-    <scopeInfo nodeId="1465095823296810326" fileName="OrthogonalFlowLayouterConstraints_Test.java" startLine="66" startPosition="33" endLine="73" endPosition="53">
+    <scopeInfo nodeId="3263240354041071390" fileName="OrthogonalFlowLayouterConstraints_Test.java" startLine="57" startPosition="89" endLine="60" endPosition="5" />
+    <scopeInfo nodeId="1465095823296810336" fileName="OrthogonalFlowLayouterConstraints_Test.java" startLine="68" startPosition="118" endLine="71" endPosition="5" />
+    <scopeInfo nodeId="1465095823296810376" fileName="OrthogonalFlowLayouterConstraints_Test.java" startLine="19" startPosition="70" endLine="24" endPosition="0" />
+    <scopeInfo nodeId="1465095823296810388" fileName="OrthogonalFlowLayouterConstraints_Test.java" startLine="24" startPosition="0" endLine="29" endPosition="0" />
+    <scopeInfo nodeId="1465095823296810400" fileName="OrthogonalFlowLayouterConstraints_Test.java" startLine="29" startPosition="0" endLine="34" endPosition="0" />
+    <scopeInfo nodeId="1465095823296810412" fileName="OrthogonalFlowLayouterConstraints_Test.java" startLine="34" startPosition="0" endLine="39" endPosition="0" />
+    <scopeInfo nodeId="1465095823296810424" fileName="OrthogonalFlowLayouterConstraints_Test.java" startLine="39" startPosition="0" endLine="44" endPosition="0" />
+    <scopeInfo nodeId="8045396427555554991" fileName="OrthogonalFlowLayouterConstraints_Test.java" startLine="44" startPosition="0" endLine="49" endPosition="0" />
+    <scopeInfo nodeId="4319509563683730185" fileName="OrthogonalFlowLayouterConstraints_Test.java" startLine="49" startPosition="0" endLine="54" endPosition="0" />
+    <scopeInfo nodeId="1465095823296810326" fileName="OrthogonalFlowLayouterConstraints_Test.java" startLine="67" startPosition="33" endLine="74" endPosition="53">
       <varInfo nodeId="1465095823296810352" varName="graphLayout" />
       <varInfo nodeId="1465095823296810328" varName="nodeSizes" />
     </scopeInfo>
-    <scopeInfo nodeId="3263240354041071368" fileName="OrthogonalFlowLayouterConstraints_Test.java" startLine="54" startPosition="54" endLine="63" endPosition="53">
+    <scopeInfo nodeId="3263240354041071368" fileName="OrthogonalFlowLayouterConstraints_Test.java" startLine="55" startPosition="54" endLine="64" endPosition="53">
       <varInfo nodeId="3263240354041071371" varName="graph" />
       <varInfo nodeId="3263240354041071406" varName="graphLayout" />
       <varInfo nodeId="3263240354041071382" varName="nodeSizes" />
     </scopeInfo>
-    <scopeInfo nodeId="1465095823296810323" fileName="OrthogonalFlowLayouterConstraints_Test.java" startLine="65" startPosition="0" endLine="75" endPosition="0">
+    <scopeInfo nodeId="1465095823296810323" fileName="OrthogonalFlowLayouterConstraints_Test.java" startLine="66" startPosition="0" endLine="76" endPosition="0">
       <varInfo nodeId="1465095823296810368" varName="graph" />
     </scopeInfo>
-    <scopeInfo nodeId="3263240354041071365" fileName="OrthogonalFlowLayouterConstraints_Test.java" startLine="53" startPosition="0" endLine="65" endPosition="0" />
+    <scopeInfo nodeId="3263240354041071365" fileName="OrthogonalFlowLayouterConstraints_Test.java" startLine="54" startPosition="0" endLine="66" endPosition="0" />
   </root>
   <root nodeId="228830736476028524">
     <nodeInfo nodeId="228830736476028761" fileName="OrthogonalRepresentation_Test.java" startLine="26" startPosition="45" endLine="27" endPosition="51" />

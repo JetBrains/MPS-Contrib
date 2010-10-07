@@ -14,11 +14,11 @@ import jetbrains.mps.graphLayout.planarGraph.Face;
 import java.awt.Dimension;
 import jetbrains.mps.internal.collections.runtime.MapSequence;
 import java.util.HashMap;
-import jetbrains.mps.internal.collections.runtime.SetSequence;
+import jetbrains.mps.internal.collections.runtime.Sequence;
 import java.util.List;
 import jetbrains.mps.internal.collections.runtime.ListSequence;
 import java.util.ArrayList;
-import jetbrains.mps.internal.collections.runtime.Sequence;
+import jetbrains.mps.internal.collections.runtime.SetSequence;
 import java.util.HashSet;
 import jetbrains.mps.internal.collections.runtime.IWhereFilter;
 import jetbrains.mps.internal.collections.runtime.backports.LinkedList;
@@ -34,8 +34,8 @@ import jetbrains.mps.graphLayout.algorithms.ShortestPath;
 import jetbrains.mps.baseLanguage.closures.runtime.Wrappers;
 
 public class ConstraintsGraphProcessor {
-  private static int SHOW_INFO = 0;
-  private static int DEBUG = 1;
+  private static int SHOW_INFO = 1;
+  private static int DEBUG = 0;
   private static int DEFAULT_UNIT_LENGTH = 20;
 
   private Graph myGraph;
@@ -49,7 +49,6 @@ public class ConstraintsGraphProcessor {
   private Map<Edge, Integer> myEdgeLengths;
   private Iterable<Node> myNodesWithSize;
   private Set<Face> myFacesToSkip;
-  private Map<Edge, Node> myLabelNodes;
   private int myUnitLength;
 
   public ConstraintsGraphProcessor(EmbeddedGraph embeddedGraph, Map<Dart, Direction2D> directions) {
@@ -57,29 +56,10 @@ public class ConstraintsGraphProcessor {
     myGraph = embeddedGraph.getGraph();
     myDirections = directions;
     myUnitLength = DEFAULT_UNIT_LENGTH;
-  }
-
-  public void modifyEmbeddedGraph(Iterable<Node> nodesWithSize, Map<Node, Dimension> nodeSizes, Map<Edge, Dimension> labelSizes) {
-    Map<Edge, Node> labelNodes = MapSequence.fromMap(new HashMap<Edge, Node>());
-    for (Edge edge : SetSequence.fromSet(MapSequence.fromMap(labelSizes).keySet())) {
-      MapSequence.fromMap(labelNodes).put(edge, splitEdge(edge));
+    if (SHOW_INFO > 0) {
+      System.out.println("initial graph: ");
+      print();
     }
-    List<Node> nodesAndLabels = ListSequence.fromList(new ArrayList<Node>());
-    ListSequence.fromList(nodesAndLabels).addSequence(Sequence.fromIterable(nodesWithSize));
-    ListSequence.fromList(nodesAndLabels).addSequence(Sequence.fromIterable(MapSequence.fromMap(labelNodes).values()));
-    Map<Node, Dimension> nodeAndLabelsSizes = MapSequence.fromMap(new HashMap<Node, Dimension>());
-    for (Node node : Sequence.fromIterable(nodesWithSize)) {
-      MapSequence.fromMap(nodeAndLabelsSizes).put(node, MapSequence.fromMap(nodeSizes).get(node));
-    }
-    for (Edge edge : SetSequence.fromSet(MapSequence.fromMap(labelSizes).keySet())) {
-      MapSequence.fromMap(nodeAndLabelsSizes).put(MapSequence.fromMap(labelNodes).get(edge), MapSequence.fromMap(labelSizes).get(edge));
-    }
-    modifyEmbeddedGraph(nodesAndLabels, nodeAndLabelsSizes);
-    myLabelNodes = labelNodes;
-  }
-
-  public Map<Edge, Node> getLabelNodes() {
-    return myLabelNodes;
   }
 
   public void modifyEmbeddedGraph(Iterable<Node> nodesWithSize, Map<Node, Dimension> nodeSizes) {
@@ -109,18 +89,23 @@ public class ConstraintsGraphProcessor {
       }
     }
     if (SHOW_INFO > 0) {
-      for (Face face : ListSequence.fromList(myEmbeddedGraph.getFaces())) {
-        System.out.println("face: ");
-        if (myEmbeddedGraph.isOuterFace(face)) {
-          System.out.println("this is outer face");
+      System.out.println("after modification: ");
+      this.print();
+    }
+  }
+
+  private void print() {
+    for (Face face : ListSequence.fromList(myEmbeddedGraph.getFaces())) {
+      System.out.println("face: ");
+      if (myEmbeddedGraph.isOuterFace(face)) {
+        System.out.println("this is outer face");
+      }
+      for (Dart dart : ListSequence.fromList(face.getDarts())) {
+        String size = " ";
+        if (MapSequence.fromMap(myEdgeLengths).containsKey(dart.getEdge())) {
+          size += MapSequence.fromMap(myEdgeLengths).get(dart.getEdge());
         }
-        for (Dart dart : ListSequence.fromList(face.getDarts())) {
-          String size = " ";
-          if (MapSequence.fromMap(myEdgeLengths).containsKey(dart.getEdge())) {
-            size += MapSequence.fromMap(myEdgeLengths).get(dart.getEdge());
-          }
-          System.out.println("  " + dart + " dir = " + MapSequence.fromMap(myDirections).get(dart) + size);
-        }
+        System.out.println("  " + dart + " dir = " + MapSequence.fromMap(myDirections).get(dart) + size);
       }
     }
   }
@@ -263,11 +248,6 @@ public class ConstraintsGraphProcessor {
     for (Edge edge : ListSequence.fromList(myVerConstraintsGraph.getEdges())) {
       MapSequence.fromMap(edgeLengths).put(edge, myUnitLength);
     }
-    for (Node node : Sequence.fromIterable(myNodesWithSize)) {
-      for (Edge edge : ListSequence.fromList(node.getEdges())) {
-        MapSequence.fromMap(edgeLengths).put(MapSequence.fromMap(myEdgeMap).get(edge), 0);
-      }
-    }
     for (Edge edge : SetSequence.fromSet(MapSequence.fromMap(myEdgeLengths).keySet())) {
       MapSequence.fromMap(edgeLengths).put(MapSequence.fromMap(myEdgeMap).get(edge), MapSequence.fromMap(myEdgeLengths).get(edge));
     }
@@ -376,9 +356,9 @@ public class ConstraintsGraphProcessor {
     }
     if (SHOW_INFO > 0) {
       if (direction.isHorizontal()) {
-        System.out.println("added " + edge + " to hor");
-      } else {
         System.out.println("added " + edge + " to ver");
+      } else {
+        System.out.println("added " + edge + " to hor");
       }
     }
   }
@@ -477,7 +457,7 @@ public class ConstraintsGraphProcessor {
         isSeparated |= hasPath(myHorConstraintsGraph, horSeg, verEnds);
         isSeparated |= hasPath(myVerConstraintsGraph, verSeg, horEnds);
         if (!(isSeparated)) {
-          throw new RuntimeException("this pair is not separated in constraints graph!!!");
+          throw new RuntimeException("pair is not separated in constraints graph!!!");
         }
       }
     }
