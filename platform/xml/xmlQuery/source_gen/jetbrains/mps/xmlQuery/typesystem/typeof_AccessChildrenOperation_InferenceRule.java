@@ -6,6 +6,7 @@ import jetbrains.mps.lang.typesystem.runtime.AbstractInferenceRule_Runtime;
 import jetbrains.mps.lang.typesystem.runtime.InferenceRule_Runtime;
 import jetbrains.mps.smodel.SNode;
 import jetbrains.mps.typesystem.inference.TypeCheckingContext;
+import jetbrains.mps.lang.typesystem.runtime.IsApplicableStatus;
 import jetbrains.mps.lang.smodel.generator.smodelAdapter.SLinkOperations;
 import jetbrains.mps.lang.smodel.generator.smodelAdapter.SNodeOperations;
 import jetbrains.mps.intentions.BaseIntentionProvider;
@@ -22,7 +23,7 @@ public class typeof_AccessChildrenOperation_InferenceRule extends AbstractInfere
   public typeof_AccessChildrenOperation_InferenceRule() {
   }
 
-  public void applyRule(final SNode operation, final TypeCheckingContext typeCheckingContext) {
+  public void applyRule(final SNode operation, final TypeCheckingContext typeCheckingContext, IsApplicableStatus status) {
     SNode elementDeclaration = SLinkOperations.getTarget(operation, "elementDeclaration", false);
     SNode complexType;
     if (SNodeOperations.isInstanceOf(elementDeclaration, "jetbrains.mps.xmlSchema.structure.ElementWithType")) {
@@ -43,8 +44,11 @@ public class typeof_AccessChildrenOperation_InferenceRule extends AbstractInfere
     return "jetbrains.mps.xmlQuery.structure.AccessChildrenOperation";
   }
 
-  public boolean isApplicable(SNode argument) {
-    return SModelUtil_new.isAssignableConcept(argument.getConceptFqName(), this.getApplicableConceptFQName());
+  public IsApplicableStatus isApplicableAndPattern(SNode argument) {
+    {
+      boolean b = SModelUtil_new.isAssignableConcept(argument.getConceptFqName(), this.getApplicableConceptFQName());
+      return new IsApplicableStatus(b, null);
+    }
   }
 
   public boolean overrides() {
