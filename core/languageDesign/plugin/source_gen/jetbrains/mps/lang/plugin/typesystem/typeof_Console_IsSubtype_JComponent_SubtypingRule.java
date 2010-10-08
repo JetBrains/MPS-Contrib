@@ -19,7 +19,7 @@ public class typeof_Console_IsSubtype_JComponent_SubtypingRule extends Subtyping
   public typeof_Console_IsSubtype_JComponent_SubtypingRule() {
   }
 
-  public SNode getSubOrSuperType(SNode consoleType, TypeCheckingContext typeCheckingContext) {
+  public SNode getSubOrSuperType(SNode consoleType, TypeCheckingContext typeCheckingContext, IsApplicableStatus status) {
     return new typeof_Console_IsSubtype_JComponent_SubtypingRule.QuotationClass_oa5pba_a0a0a().createNode(typeCheckingContext);
   }
 
