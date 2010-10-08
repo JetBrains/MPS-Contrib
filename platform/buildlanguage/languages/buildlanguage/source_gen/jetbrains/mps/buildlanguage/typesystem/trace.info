@@ -119,8 +119,8 @@
     <scopeInfo nodeId="1201702257493" fileName="typeof_TagetReferencePropertyValueExpression_InferenceRule.java" startLine="21" startPosition="124" endLine="27" endPosition="5" />
   </root>
   <root nodeId="1203432744195">
-    <nodeInfo nodeId="1203432762776" fileName="FileIsSubtipeOfString_SubtypingRule.java" startLine="19" startPosition="91" endLine="20" endPosition="113" />
-    <scopeInfo nodeId="1203432744196" fileName="FileIsSubtipeOfString_SubtypingRule.java" startLine="19" startPosition="91" endLine="20" endPosition="113" />
+    <nodeInfo nodeId="1203432762776" fileName="FileIsSubtipeOfString_SubtypingRule.java" startLine="19" startPosition="118" endLine="20" endPosition="113" />
+    <scopeInfo nodeId="1203432744196" fileName="FileIsSubtipeOfString_SubtypingRule.java" startLine="19" startPosition="118" endLine="20" endPosition="113" />
   </root>
   <root nodeId="1225557125535">
     <nodeInfo nodeId="1225557159809" fileName="typeof_PlusOperation_InferenceRule.java" startLine="22" startPosition="5" endLine="23" endPosition="55" />
