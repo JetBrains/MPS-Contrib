@@ -33,7 +33,7 @@
     <scopeInfo nodeId="1202396452487" fileName="typeof_AttributeValue_InferenceRule.java" startLine="19" startPosition="124" endLine="26" endPosition="5" />
   </root>
   <root nodeId="1202465570668">
-    <nodeInfo nodeId="1202832958296" fileName="subtyping_ComponentType_SubtypingRule.java" startLine="25" startPosition="103" endLine="26" endPosition="48" />
+    <nodeInfo nodeId="1202832958296" fileName="subtyping_ComponentType_SubtypingRule.java" startLine="25" startPosition="130" endLine="26" endPosition="48" />
     <nodeInfo nodeId="1202465693767" fileName="subtyping_ComponentType_SubtypingRule.java" startLine="26" startPosition="48" endLine="27" endPosition="162" />
     <nodeInfo nodeId="1202833010517" fileName="subtyping_ComponentType_SubtypingRule.java" startLine="28" startPosition="36" endLine="29" endPosition="175" />
     <nodeInfo nodeId="1202833000294" fileName="subtyping_ComponentType_SubtypingRule.java" startLine="31" startPosition="111" endLine="32" endPosition="261" />
@@ -42,7 +42,7 @@
     <nodeInfo nodeId="1202832982272" fileName="subtyping_ComponentType_SubtypingRule.java" startLine="30" startPosition="5" endLine="33" endPosition="5" />
     <scopeInfo nodeId="1202465708143" fileName="subtyping_ComponentType_SubtypingRule.java" startLine="28" startPosition="36" endLine="29" endPosition="175" />
     <scopeInfo nodeId="1202832982273" fileName="subtyping_ComponentType_SubtypingRule.java" startLine="31" startPosition="111" endLine="32" endPosition="261" />
-    <scopeInfo nodeId="1202465570669" fileName="subtyping_ComponentType_SubtypingRule.java" startLine="25" startPosition="103" endLine="34" endPosition="18">
+    <scopeInfo nodeId="1202465570669" fileName="subtyping_ComponentType_SubtypingRule.java" startLine="25" startPosition="130" endLine="34" endPosition="18">
       <varInfo nodeId="1202832958297" varName="result" />
       <varInfo nodeId="1202465693768" varName="extendedComponent" />
     </scopeInfo>
@@ -75,8 +75,8 @@
     <scopeInfo nodeId="1203520939276" fileName="typeof_ComponentCreator_InferenceRule.java" startLine="22" startPosition="124" endLine="28" endPosition="5" />
   </root>
   <root nodeId="1207748658541">
-    <nodeInfo nodeId="1207748658543" fileName="Typeof_BeanType_IsSubtype_BeanObject_SubtypingRule.java" startLine="22" startPosition="91" endLine="23" endPosition="128" />
-    <scopeInfo nodeId="1207748658542" fileName="Typeof_BeanType_IsSubtype_BeanObject_SubtypingRule.java" startLine="22" startPosition="91" endLine="23" endPosition="128" />
+    <nodeInfo nodeId="1207748658543" fileName="Typeof_BeanType_IsSubtype_BeanObject_SubtypingRule.java" startLine="22" startPosition="118" endLine="23" endPosition="128" />
+    <scopeInfo nodeId="1207748658542" fileName="Typeof_BeanType_IsSubtype_BeanObject_SubtypingRule.java" startLine="22" startPosition="118" endLine="23" endPosition="128" />
   </root>
   <root nodeId="1207754475172">
     <nodeInfo nodeId="1207754534566" fileName="typeof_GenericNewExpression_InferenceRule.java" startLine="22" startPosition="7" endLine="23" endPosition="54" />

@@ -19,7 +19,7 @@ public class Typeof_BeanType_IsSubtype_BeanObject_SubtypingRule extends Subtypin
   public Typeof_BeanType_IsSubtype_BeanObject_SubtypingRule() {
   }
 
-  public SNode getSubOrSuperType(SNode beanType, TypeCheckingContext typeCheckingContext) {
+  public SNode getSubOrSuperType(SNode beanType, TypeCheckingContext typeCheckingContext, IsApplicableStatus status) {
     return new Typeof_BeanType_IsSubtype_BeanObject_SubtypingRule.QuotationClass_29jsfg_a0a0a().createNode(typeCheckingContext);
   }
 
