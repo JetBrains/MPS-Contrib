@@ -161,7 +161,7 @@
             </node>
             <node role="initializer:3" type="jetbrains.mps.baseLanguage.structure.StaticMethodCall:3" id="1462969652806434110">
               <link role="classConcept:3" targetNodeId="7.~TaskInterfaceDeclaration" resolveInfo="TaskInterfaceDeclaration" />
-              <link role="baseMethodDeclaration:3" targetNodeId="7.~TaskInterfaceDeclaration.newInstance(jetbrains.mps.smodel.SModel,boolean):jetbrains.mps.build.generictasks.structure.BuiltInTaskDeclaration" resolveInfo="newInstance" />
+              <link role="baseMethodDeclaration:3" targetNodeId="7.~TaskInterfaceDeclaration.newInstance(jetbrains.mps.smodel.SModel,boolean):jetbrains.mps.build.generictasks.structure.TaskInterfaceDeclaration" resolveInfo="newInstance" />
               <node role="actualArgument:3" type="jetbrains.mps.baseLanguage.structure.ParameterReference:3" id="1462969652806434111">
                 <link role="variableDeclaration:3" targetNodeId="1462969652806434096" resolveInfo="model" />
               </node>
@@ -208,9 +208,14 @@
                   <link role="variableDeclaration:3" targetNodeId="1462969652806434096" resolveInfo="model" />
                 </node>
                 <node role="operation:3" type="jetbrains.mps.baseLanguage.structure.InstanceMethodCallOperation:3" id="1462969652806434129">
-                  <link role="baseMethodDeclaration:3" targetNodeId="10.~SModel.addRoot(jetbrains.mps.smodel.INodeAdapter):void" resolveInfo="addRoot" />
-                  <node role="actualArgument:3" type="jetbrains.mps.baseLanguage.structure.LocalVariableReference:3" id="1462969652806434130">
-                    <link role="variableDeclaration:3" targetNodeId="1462969652806434108" resolveInfo="decl" />
+                  <link role="baseMethodDeclaration:3" targetNodeId="10.~SModel.addRoot(jetbrains.mps.smodel.SNode):void" resolveInfo="addRoot" />
+                  <node role="actualArgument:3" type="jetbrains.mps.baseLanguage.structure.DotExpression:3" id="1735577930765512744">
+                    <node role="operand:3" type="jetbrains.mps.baseLanguage.structure.LocalVariableReference:3" id="1462969652806434130">
+                      <link role="variableDeclaration:3" targetNodeId="1462969652806434108" resolveInfo="decl" />
+                    </node>
+                    <node role="operation:3" type="jetbrains.mps.baseLanguage.structure.InstanceMethodCallOperation:3" id="1735577930765513850">
+                      <link role="baseMethodDeclaration:3" targetNodeId="10.~BaseAdapter.getNode():jetbrains.mps.smodel.SNode" resolveInfo="getNode" />
+                    </node>
                   </node>
                 </node>
               </node>
@@ -286,7 +291,7 @@
             </node>
             <node role="initializer:3" type="jetbrains.mps.baseLanguage.structure.StaticMethodCall:3" id="1462969652806434159">
               <link role="classConcept:3" targetNodeId="7.~BuiltInTaskDeclaration" resolveInfo="BuiltInTaskDeclaration" />
-              <link role="baseMethodDeclaration:3" targetNodeId="7.~BuiltInTaskDeclaration.newInstance(jetbrains.mps.smodel.SModel,boolean):jetbrains.mps.lang.core.structure.BaseConcept" resolveInfo="newInstance" />
+              <link role="baseMethodDeclaration:3" targetNodeId="7.~BuiltInTaskDeclaration.newInstance(jetbrains.mps.smodel.SModel,boolean):jetbrains.mps.build.generictasks.structure.BuiltInTaskDeclaration" resolveInfo="newInstance" />
               <node role="actualArgument:3" type="jetbrains.mps.baseLanguage.structure.ParameterReference:3" id="1462969652806434160">
                 <link role="variableDeclaration:3" targetNodeId="1462969652806434141" resolveInfo="model" />
               </node>
@@ -333,9 +338,14 @@
                   <link role="variableDeclaration:3" targetNodeId="1462969652806434141" resolveInfo="model" />
                 </node>
                 <node role="operation:3" type="jetbrains.mps.baseLanguage.structure.InstanceMethodCallOperation:3" id="1462969652806434178">
-                  <link role="baseMethodDeclaration:3" targetNodeId="10.~SModel.addRoot(jetbrains.mps.smodel.INodeAdapter):void" resolveInfo="addRoot" />
-                  <node role="actualArgument:3" type="jetbrains.mps.baseLanguage.structure.LocalVariableReference:3" id="1462969652806434179">
-                    <link role="variableDeclaration:3" targetNodeId="1462969652806434157" resolveInfo="decl" />
+                  <link role="baseMethodDeclaration:3" targetNodeId="10.~SModel.addRoot(jetbrains.mps.smodel.SNode):void" resolveInfo="addRoot" />
+                  <node role="actualArgument:3" type="jetbrains.mps.baseLanguage.structure.DotExpression:3" id="1735577930765513851">
+                    <node role="operand:3" type="jetbrains.mps.baseLanguage.structure.LocalVariableReference:3" id="1462969652806434179">
+                      <link role="variableDeclaration:3" targetNodeId="1462969652806434157" resolveInfo="decl" />
+                    </node>
+                    <node role="operation:3" type="jetbrains.mps.baseLanguage.structure.InstanceMethodCallOperation:3" id="1735577930765513855">
+                      <link role="baseMethodDeclaration:3" targetNodeId="10.~BaseAdapter.getNode():jetbrains.mps.smodel.SNode" resolveInfo="getNode" />
+                    </node>
                   </node>
                 </node>
               </node>
@@ -668,7 +678,7 @@
             </node>
             <node role="initializer:3" type="jetbrains.mps.baseLanguage.structure.StaticMethodCall:3" id="1462969652806434304">
               <link role="classConcept:3" targetNodeId="7.~NestedDeclaration" resolveInfo="NestedDeclaration" />
-              <link role="baseMethodDeclaration:3" targetNodeId="7.~NestedDeclaration.newInstance(jetbrains.mps.smodel.SModel,boolean):jetbrains.mps.build.generictasks.structure.TaskReference" resolveInfo="newInstance" />
+              <link role="baseMethodDeclaration:3" targetNodeId="7.~NestedDeclaration.newInstance(jetbrains.mps.smodel.SModel,boolean):jetbrains.mps.build.generictasks.structure.NestedDeclaration" resolveInfo="newInstance" />
               <node role="actualArgument:3" type="jetbrains.mps.baseLanguage.structure.ParameterReference:3" id="1462969652806434305">
                 <link role="variableDeclaration:3" targetNodeId="1462969652806434296" resolveInfo="model" />
               </node>

@@ -22,7 +22,7 @@ public class BuildLanguageGenerator {
     decl.setName(declName);
     decl.setClassname(className);
     if (addAsRoot) {
-      model.addRoot(decl);
+      model.addRoot(decl.getNode());
     }
     decl.setDepracated(isDeprecated);
     return decl;
@@ -32,7 +32,7 @@ public class BuildLanguageGenerator {
     BuiltInTaskDeclaration decl = BuiltInTaskDeclaration.newInstance(model, true);
     this.fillTaskDeclaration(declName, className, isAbstract, canHaveInternalText, isDeprecated, decl);
     if (addAsRoot) {
-      model.addRoot(decl);
+      model.addRoot(decl.getNode());
     }
     return decl;
   }
