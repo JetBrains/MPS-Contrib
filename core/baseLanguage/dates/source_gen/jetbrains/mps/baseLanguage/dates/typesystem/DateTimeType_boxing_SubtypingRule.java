@@ -23,7 +23,7 @@ public class DateTimeType_boxing_SubtypingRule extends SubtypingRule_Runtime imp
   public DateTimeType_boxing_SubtypingRule() {
   }
 
-  public SNode getSubOrSuperType(SNode longClassifier, TypeCheckingContext typeCheckingContext) {
+  public SNode getSubOrSuperType(SNode longClassifier, TypeCheckingContext typeCheckingContext, IsApplicableStatus status) {
     return new DateTimeType_boxing_SubtypingRule.QuotationClass_enqoju_a0a0a().createNode(typeCheckingContext);
   }
 

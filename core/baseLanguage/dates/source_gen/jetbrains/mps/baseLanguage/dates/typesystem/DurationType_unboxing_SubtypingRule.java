@@ -19,7 +19,7 @@ public class DurationType_unboxing_SubtypingRule extends SubtypingRule_Runtime i
   public DurationType_unboxing_SubtypingRule() {
   }
 
-  public SNode getSubOrSuperType(SNode durationType, TypeCheckingContext typeCheckingContext) {
+  public SNode getSubOrSuperType(SNode durationType, TypeCheckingContext typeCheckingContext, IsApplicableStatus status) {
     return new DurationType_unboxing_SubtypingRule.QuotationClass_vhmhmy_a0a0a().createNode(typeCheckingContext);
   }
 

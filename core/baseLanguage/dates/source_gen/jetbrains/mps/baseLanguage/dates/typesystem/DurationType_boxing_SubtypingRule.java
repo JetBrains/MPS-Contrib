@@ -23,7 +23,7 @@ public class DurationType_boxing_SubtypingRule extends SubtypingRule_Runtime imp
   public DurationType_boxing_SubtypingRule() {
   }
 
-  public SNode getSubOrSuperType(SNode longClassifier, TypeCheckingContext typeCheckingContext) {
+  public SNode getSubOrSuperType(SNode longClassifier, TypeCheckingContext typeCheckingContext, IsApplicableStatus status) {
     return new DurationType_boxing_SubtypingRule.QuotationClass_jq3mqm_a0a0a().createNode(typeCheckingContext);
   }
 
