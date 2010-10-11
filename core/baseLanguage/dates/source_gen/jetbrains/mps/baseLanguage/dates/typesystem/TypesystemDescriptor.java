@@ -802,8 +802,8 @@ public class TypesystemDescriptor extends BaseHelginsDescriptor {
         SNode quotedNode_1 = null;
         {
           quotedNode_1 = SModelUtil_new.instantiateConceptDeclaration("jetbrains.mps.baseLanguage.dates.structure.DateTimeType", null, GlobalScope.getInstance(), false);
-          SNode quotedNode1_1 = quotedNode_1;
-          result = quotedNode1_1;
+          SNode quotedNode1_2 = quotedNode_1;
+          result = quotedNode1_2;
         }
         return result;
       }

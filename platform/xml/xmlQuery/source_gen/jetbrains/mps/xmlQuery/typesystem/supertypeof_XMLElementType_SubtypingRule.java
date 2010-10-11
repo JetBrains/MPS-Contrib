@@ -6,6 +6,7 @@ import jetbrains.mps.lang.typesystem.runtime.SubtypingRule_Runtime;
 import jetbrains.mps.lang.typesystem.runtime.ISubtypingRule_Runtime;
 import jetbrains.mps.smodel.SNode;
 import jetbrains.mps.typesystem.inference.TypeCheckingContext;
+import jetbrains.mps.lang.typesystem.runtime.IsApplicableStatus;
 import jetbrains.mps.lang.smodel.generator.smodelAdapter.SLinkOperations;
 import jetbrains.mps.internal.collections.runtime.ListSequence;
 import jetbrains.mps.lang.smodel.generator.smodelAdapter.SNodeOperations;
@@ -22,7 +23,7 @@ public class supertypeof_XMLElementType_SubtypingRule extends SubtypingRule_Runt
   public supertypeof_XMLElementType_SubtypingRule() {
   }
 
-  public SNode getSubOrSuperType(SNode xmlType, TypeCheckingContext typeCheckingContext) {
+  public SNode getSubOrSuperType(SNode xmlType, TypeCheckingContext typeCheckingContext, IsApplicableStatus status) {
     if ((SLinkOperations.getTarget(xmlType, "schema", false) == null)) {
       return new supertypeof_XMLElementType_SubtypingRule.QuotationClass_vusj77_a0a0a0a().createNode(typeCheckingContext);
     } else {
@@ -47,8 +48,11 @@ public class supertypeof_XMLElementType_SubtypingRule extends SubtypingRule_Runt
     return "jetbrains.mps.xmlQuery.structure.XMLElementType";
   }
 
-  public boolean isApplicable(SNode argument) {
-    return SModelUtil_new.isAssignableConcept(argument.getConceptFqName(), this.getApplicableConceptFQName());
+  public IsApplicableStatus isApplicableAndPattern(SNode argument) {
+    {
+      boolean b = SModelUtil_new.isAssignableConcept(argument.getConceptFqName(), this.getApplicableConceptFQName());
+      return new IsApplicableStatus(b, null);
+    }
   }
 
   public boolean isWeak() {

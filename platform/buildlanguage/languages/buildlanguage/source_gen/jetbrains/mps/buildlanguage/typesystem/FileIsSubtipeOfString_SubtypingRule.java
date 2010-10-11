@@ -16,7 +16,7 @@ public class FileIsSubtipeOfString_SubtypingRule extends SubtypingRule_Runtime i
   public FileIsSubtipeOfString_SubtypingRule() {
   }
 
-  public SNode getSubOrSuperType(SNode fileType, TypeCheckingContext typeCheckingContext) {
+  public SNode getSubOrSuperType(SNode fileType, TypeCheckingContext typeCheckingContext, IsApplicableStatus status) {
     return new FileIsSubtipeOfString_SubtypingRule.QuotationClass_3xtvj4_a0a0a().createNode(typeCheckingContext);
   }
 
