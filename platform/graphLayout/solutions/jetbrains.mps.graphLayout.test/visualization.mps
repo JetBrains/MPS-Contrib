@@ -4236,8 +4236,8 @@
     <node role="field:3" type="jetbrains.mps.baseLanguage.structure.FieldDeclaration:3" id="903391227141136156">
       <property name="name:3" value="myLayouter" />
       <node role="visibility:3" type="jetbrains.mps.baseLanguage.structure.PrivateVisibility:3" id="903391227141136157" />
-      <node role="type:3" type="jetbrains.mps.baseLanguage.structure.ClassifierType:3" id="6526638447416979916">
-        <link role="classifier:3" targetNodeId="16.7148630665778186788" resolveInfo="TestPullingLabels" />
+      <node role="type:3" type="jetbrains.mps.baseLanguage.structure.ClassifierType:3" id="7326890922422902515">
+        <link role="classifier:3" targetNodeId="16.7021611379030084756" resolveInfo="TestOrthogonalFlowLabelLayouter" />
       </node>
     </node>
     <node role="field:3" type="jetbrains.mps.baseLanguage.structure.FieldDeclaration:3" id="903391227141136131">
@@ -5602,7 +5602,7 @@
                     <link role="variableDeclaration:3" targetNodeId="903391227141136156" resolveInfo="myLayouter" />
                   </node>
                   <node role="operation:3" type="jetbrains.mps.baseLanguage.structure.InstanceMethodCallOperation:3" id="903391227141138877">
-                    <link role="baseMethodDeclaration:3" targetNodeId="16.7148630665778186794" resolveInfo="doLayout" />
+                    <link role="baseMethodDeclaration:3" targetNodeId="16.7021611379030082981" resolveInfo="doLayout" />
                     <node role="actualArgument:3" type="jetbrains.mps.baseLanguage.structure.LocalVariableReference:3" id="903391227141138878">
                       <link role="variableDeclaration:3" targetNodeId="903391227141135767" resolveInfo="g" />
                     </node>
@@ -6060,7 +6060,7 @@
             </node>
             <node role="rValue:3" type="jetbrains.mps.baseLanguage.structure.GenericNewExpression:3" id="6526638447416979917">
               <node role="creator:3" type="jetbrains.mps.baseLanguage.structure.ClassCreator:3" id="6526638447417029321">
-                <link role="baseMethodDeclaration:3" targetNodeId="16.7148630665778186790" resolveInfo="TestPullingLabels" />
+                <link role="baseMethodDeclaration:3" targetNodeId="16.7021611379030084758" resolveInfo="TestOrthogonalFlowLabelLayouter" />
               </node>
             </node>
           </node>

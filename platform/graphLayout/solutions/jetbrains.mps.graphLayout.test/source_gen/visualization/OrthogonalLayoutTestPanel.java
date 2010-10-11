@@ -5,7 +5,7 @@ package visualization;
 import javax.swing.JPanel;
 import java.awt.Dimension;
 import javax.swing.JTextArea;
-import jetbrains.mps.graphLayout.flowOrthogonalLayout.TestPullingLabels;
+import jetbrains.mps.graphLayout.flowOrthogonalLayout.TestOrthogonalFlowLabelLayouter;
 import jetbrains.mps.graphLayout.graphLayout.GraphLayout;
 import javax.swing.JTextField;
 import java.awt.GridBagLayout;
@@ -43,7 +43,7 @@ public class OrthogonalLayoutTestPanel extends JPanel {
 
   private JTextArea myTextArea;
   private OrthogonalLayoutTestPanel.MyGraphLabel myGraphLabel;
-  private TestPullingLabels myLayouter;
+  private TestOrthogonalFlowLabelLayouter myLayouter;
   private LayoutPainter myPainter;
   private GraphLayout myCurrentLayout;
   private JTextField myNumEdgesField;
@@ -60,7 +60,7 @@ public class OrthogonalLayoutTestPanel extends JPanel {
     /*
       myLayouter = new RectOrthogonalLayouter();
     */
-    myLayouter = new TestPullingLabels();
+    myLayouter = new TestOrthogonalFlowLabelLayouter();
     /*
       myLayouter.setEdgeDistance(20);
     */
