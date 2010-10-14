@@ -14,6 +14,9 @@ import jetbrains.mps.internal.collections.runtime.MapSequence;
 public class WeightedTopologicalNumbering {
   public static Map<Node, Integer> number(Graph graph, Map<Edge, Integer> weights) throws IllegalArgumentException {
     List<Node> sorting = TopologicalSorting.sort(graph);
+    if (sorting == null) {
+      throw new IllegalArgumentException("input graph has cycles");
+    }
     Map<Node, Integer> numbering = new NodeMap<Integer>(graph);
     for (Node node : ListSequence.fromList(graph.getNodes())) {
       MapSequence.fromMap(numbering).put(node, 0);

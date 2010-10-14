@@ -25,7 +25,7 @@ import jetbrains.mps.internal.collections.runtime.ISelector;
 import jetbrains.mps.internal.collections.runtime.Sequence;
 
 public class NodeBoxesMaker {
-  private static int SHOW_INFO = 1;
+  private static int SHOW_INFO = 0;
 
   private Graph myGraph;
   private EmbeddedGraph myEmbeddedGraph;

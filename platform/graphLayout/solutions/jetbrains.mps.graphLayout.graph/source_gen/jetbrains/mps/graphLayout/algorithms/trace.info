@@ -1776,32 +1776,35 @@
   </root>
   <root nodeId="903391227141019952">
     <nodeInfo nodeId="903391227141022947" fileName="WeightedTopologicalNumbering.java" startLine="15" startPosition="116" endLine="16" endPosition="56" />
-    <nodeInfo nodeId="903391227141022953" fileName="WeightedTopologicalNumbering.java" startLine="16" startPosition="56" endLine="17" endPosition="63" />
-    <nodeInfo nodeId="903391227141022968" fileName="WeightedTopologicalNumbering.java" startLine="18" startPosition="63" endLine="19" endPosition="50" />
-    <nodeInfo nodeId="903391227141022984" fileName="WeightedTopologicalNumbering.java" startLine="22" startPosition="67" endLine="23" endPosition="39" />
-    <nodeInfo nodeId="903391227141022990" fileName="WeightedTopologicalNumbering.java" startLine="23" startPosition="39" endLine="24" endPosition="188" />
-    <nodeInfo nodeId="903391227141023004" fileName="WeightedTopologicalNumbering.java" startLine="26" startPosition="5" endLine="27" endPosition="21" />
-    <nodeInfo nodeId="903391227141022962" fileName="WeightedTopologicalNumbering.java" startLine="17" startPosition="63" endLine="20" endPosition="5" />
-    <nodeInfo nodeId="903391227141022978" fileName="WeightedTopologicalNumbering.java" startLine="21" startPosition="54" endLine="25" endPosition="7" />
-    <nodeInfo nodeId="903391227141022974" fileName="WeightedTopologicalNumbering.java" startLine="20" startPosition="5" endLine="26" endPosition="5" />
-    <nodeInfo nodeId="903391227141019962" fileName="WeightedTopologicalNumbering.java" startLine="14" startPosition="43" endLine="29" endPosition="0" />
-    <scopeInfo nodeId="903391227141022967" fileName="WeightedTopologicalNumbering.java" startLine="18" startPosition="63" endLine="19" endPosition="50" />
-    <scopeInfo nodeId="903391227141022983" fileName="WeightedTopologicalNumbering.java" startLine="22" startPosition="67" endLine="24" endPosition="188">
+    <nodeInfo nodeId="3479464004557252487" fileName="WeightedTopologicalNumbering.java" startLine="17" startPosition="26" endLine="18" endPosition="67" />
+    <nodeInfo nodeId="903391227141022953" fileName="WeightedTopologicalNumbering.java" startLine="19" startPosition="5" endLine="20" endPosition="63" />
+    <nodeInfo nodeId="903391227141022968" fileName="WeightedTopologicalNumbering.java" startLine="21" startPosition="63" endLine="22" endPosition="50" />
+    <nodeInfo nodeId="903391227141022984" fileName="WeightedTopologicalNumbering.java" startLine="25" startPosition="67" endLine="26" endPosition="39" />
+    <nodeInfo nodeId="903391227141022990" fileName="WeightedTopologicalNumbering.java" startLine="26" startPosition="39" endLine="27" endPosition="188" />
+    <nodeInfo nodeId="903391227141023004" fileName="WeightedTopologicalNumbering.java" startLine="29" startPosition="5" endLine="30" endPosition="21" />
+    <nodeInfo nodeId="3479464004557252478" fileName="WeightedTopologicalNumbering.java" startLine="16" startPosition="56" endLine="19" endPosition="5" />
+    <nodeInfo nodeId="903391227141022962" fileName="WeightedTopologicalNumbering.java" startLine="20" startPosition="63" endLine="23" endPosition="5" />
+    <nodeInfo nodeId="903391227141022978" fileName="WeightedTopologicalNumbering.java" startLine="24" startPosition="54" endLine="28" endPosition="7" />
+    <nodeInfo nodeId="903391227141022974" fileName="WeightedTopologicalNumbering.java" startLine="23" startPosition="5" endLine="29" endPosition="5" />
+    <nodeInfo nodeId="903391227141019962" fileName="WeightedTopologicalNumbering.java" startLine="14" startPosition="43" endLine="32" endPosition="0" />
+    <scopeInfo nodeId="3479464004557252479" fileName="WeightedTopologicalNumbering.java" startLine="17" startPosition="26" endLine="18" endPosition="67" />
+    <scopeInfo nodeId="903391227141022967" fileName="WeightedTopologicalNumbering.java" startLine="21" startPosition="63" endLine="22" endPosition="50" />
+    <scopeInfo nodeId="903391227141022983" fileName="WeightedTopologicalNumbering.java" startLine="25" startPosition="67" endLine="27" endPosition="188">
       <varInfo nodeId="903391227141022985" varName="target" />
     </scopeInfo>
-    <scopeInfo nodeId="903391227141022962" fileName="WeightedTopologicalNumbering.java" startLine="17" startPosition="63" endLine="20" endPosition="5" />
-    <scopeInfo nodeId="903391227141022977" fileName="WeightedTopologicalNumbering.java" startLine="21" startPosition="54" endLine="25" endPosition="7" />
-    <scopeInfo nodeId="903391227141022978" fileName="WeightedTopologicalNumbering.java" startLine="21" startPosition="54" endLine="25" endPosition="7" />
-    <scopeInfo nodeId="903391227141022974" fileName="WeightedTopologicalNumbering.java" startLine="20" startPosition="5" endLine="26" endPosition="5" />
-    <scopeInfo nodeId="903391227141019965" fileName="WeightedTopologicalNumbering.java" startLine="15" startPosition="116" endLine="27" endPosition="21">
+    <scopeInfo nodeId="903391227141022962" fileName="WeightedTopologicalNumbering.java" startLine="20" startPosition="63" endLine="23" endPosition="5" />
+    <scopeInfo nodeId="903391227141022977" fileName="WeightedTopologicalNumbering.java" startLine="24" startPosition="54" endLine="28" endPosition="7" />
+    <scopeInfo nodeId="903391227141022978" fileName="WeightedTopologicalNumbering.java" startLine="24" startPosition="54" endLine="28" endPosition="7" />
+    <scopeInfo nodeId="903391227141022974" fileName="WeightedTopologicalNumbering.java" startLine="23" startPosition="5" endLine="29" endPosition="5" />
+    <scopeInfo nodeId="903391227141019965" fileName="WeightedTopologicalNumbering.java" startLine="15" startPosition="116" endLine="30" endPosition="21">
       <varInfo nodeId="903391227141022954" varName="numbering" />
       <varInfo nodeId="903391227141022948" varName="sorting" />
     </scopeInfo>
-    <scopeInfo nodeId="903391227141019962" fileName="WeightedTopologicalNumbering.java" startLine="14" startPosition="43" endLine="29" endPosition="0">
+    <scopeInfo nodeId="903391227141019962" fileName="WeightedTopologicalNumbering.java" startLine="14" startPosition="43" endLine="32" endPosition="0">
       <varInfo nodeId="903391227141019974" varName="graph" />
       <varInfo nodeId="903391227141019976" varName="weights" />
     </scopeInfo>
-    <unitInfo nodeId="903391227141019952" fileName="WeightedTopologicalNumbering.java" startLine="14" startPosition="0" endLine="30" endPosition="0" unitName="jetbrains.mps.graphLayout.algorithms.WeightedTopologicalNumbering" />
+    <unitInfo nodeId="903391227141019952" fileName="WeightedTopologicalNumbering.java" startLine="14" startPosition="0" endLine="33" endPosition="0" unitName="jetbrains.mps.graphLayout.algorithms.WeightedTopologicalNumbering" />
   </root>
 </debugInfo>
 

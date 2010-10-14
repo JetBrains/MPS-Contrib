@@ -277,6 +277,17 @@
     <nodeInfo nodeId="6526638447417134982" fileName="GeomUtil.java" startLine="140" startPosition="56" endLine="141" endPosition="69" />
     <nodeInfo nodeId="6526638447417134995" fileName="GeomUtil.java" startLine="141" startPosition="69" endLine="142" endPosition="55" />
     <nodeInfo nodeId="6526638447417134941" fileName="GeomUtil.java" startLine="142" startPosition="55" endLine="143" endPosition="18" />
+    <nodeInfo nodeId="5368829933099654658" fileName="GeomUtil.java" startLine="147" startPosition="35" endLine="148" endPosition="20" />
+    <nodeInfo nodeId="5368829933099654613" fileName="GeomUtil.java" startLine="150" startPosition="34" endLine="151" endPosition="33" />
+    <nodeInfo nodeId="5368829933099654622" fileName="GeomUtil.java" startLine="153" startPosition="32" endLine="154" endPosition="20" />
+    <nodeInfo nodeId="5368829933099654636" fileName="GeomUtil.java" startLine="155" startPosition="5" endLine="156" endPosition="32" />
+    <nodeInfo nodeId="5368829933099654694" fileName="GeomUtil.java" startLine="159" startPosition="63" endLine="160" endPosition="42" />
+    <nodeInfo nodeId="5368829933099812174" fileName="GeomUtil.java" startLine="164" startPosition="29" endLine="165" endPosition="24" />
+    <nodeInfo nodeId="5368829933099812184" fileName="GeomUtil.java" startLine="166" startPosition="12" endLine="167" endPosition="25" />
+    <nodeInfo nodeId="5368829933099812203" fileName="GeomUtil.java" startLine="172" startPosition="29" endLine="173" endPosition="25" />
+    <nodeInfo nodeId="5368829933099812209" fileName="GeomUtil.java" startLine="174" startPosition="12" endLine="175" endPosition="24" />
+    <nodeInfo nodeId="5368829933099812182" fileName="GeomUtil.java" startLine="166" startPosition="10" endLine="168" endPosition="5" />
+    <nodeInfo nodeId="5368829933099812207" fileName="GeomUtil.java" startLine="174" startPosition="10" endLine="176" endPosition="5" />
     <nodeInfo nodeId="6160477238666701766" fileName="GeomUtil.java" startLine="58" startPosition="23" endLine="61" endPosition="7" />
     <nodeInfo nodeId="6160477238666701824" fileName="GeomUtil.java" startLine="61" startPosition="7" endLine="64" endPosition="7" />
     <nodeInfo nodeId="6160477238666701890" fileName="GeomUtil.java" startLine="66" startPosition="23" endLine="69" endPosition="7" />
@@ -289,21 +300,30 @@
     <nodeInfo nodeId="272112265222956257" fileName="GeomUtil.java" startLine="113" startPosition="5" endLine="116" endPosition="5" />
     <nodeInfo nodeId="1265453300920941926" fileName="GeomUtil.java" startLine="127" startPosition="22" endLine="130" endPosition="5" />
     <nodeInfo nodeId="1265453300920941941" fileName="GeomUtil.java" startLine="130" startPosition="5" endLine="133" endPosition="5" />
+    <nodeInfo nodeId="5368829933099654648" fileName="GeomUtil.java" startLine="146" startPosition="63" endLine="149" endPosition="5" />
+    <nodeInfo nodeId="5368829933099654608" fileName="GeomUtil.java" startLine="149" startPosition="5" endLine="152" endPosition="5" />
+    <nodeInfo nodeId="5368829933099654617" fileName="GeomUtil.java" startLine="152" startPosition="5" endLine="155" endPosition="5" />
     <nodeInfo nodeId="5639900666367221376" fileName="GeomUtil.java" startLine="13" startPosition="23" endLine="17" endPosition="0" />
     <nodeInfo nodeId="5639900666367292092" fileName="GeomUtil.java" startLine="17" startPosition="0" endLine="21" endPosition="0" />
     <nodeInfo nodeId="6160477238666598196" fileName="GeomUtil.java" startLine="52" startPosition="0" endLine="56" endPosition="0" />
     <nodeInfo nodeId="272112265222926971" fileName="GeomUtil.java" startLine="89" startPosition="12" endLine="93" endPosition="7" />
     <nodeInfo nodeId="8680836410351713675" fileName="GeomUtil.java" startLine="97" startPosition="0" endLine="101" endPosition="0" />
+    <nodeInfo nodeId="5368829933099654684" fileName="GeomUtil.java" startLine="158" startPosition="0" endLine="162" endPosition="0" />
+    <nodeInfo nodeId="5368829933099812165" fileName="GeomUtil.java" startLine="163" startPosition="60" endLine="168" endPosition="5" />
+    <nodeInfo nodeId="5368829933099812198" fileName="GeomUtil.java" startLine="171" startPosition="61" endLine="176" endPosition="5" />
     <nodeInfo nodeId="5327124464817432527" fileName="GeomUtil.java" startLine="34" startPosition="33" endLine="40" endPosition="5" />
     <nodeInfo nodeId="1265453300920941774" fileName="GeomUtil.java" startLine="119" startPosition="0" endLine="125" endPosition="0" />
     <nodeInfo nodeId="5639900666367221478" fileName="GeomUtil.java" startLine="21" startPosition="0" endLine="29" endPosition="0" />
     <nodeInfo nodeId="6160477238666701748" fileName="GeomUtil.java" startLine="57" startPosition="72" endLine="65" endPosition="5" />
     <nodeInfo nodeId="6160477238666701871" fileName="GeomUtil.java" startLine="65" startPosition="5" endLine="73" endPosition="5" />
+    <nodeInfo nodeId="5368829933099812155" fileName="GeomUtil.java" startLine="162" startPosition="0" endLine="170" endPosition="0" />
+    <nodeInfo nodeId="5368829933099812194" fileName="GeomUtil.java" startLine="170" startPosition="0" endLine="178" endPosition="0" />
     <nodeInfo nodeId="6160477238666597965" fileName="GeomUtil.java" startLine="43" startPosition="0" endLine="52" endPosition="0" />
     <nodeInfo nodeId="272112265222926937" fileName="GeomUtil.java" startLine="84" startPosition="55" endLine="93" endPosition="7" />
     <nodeInfo nodeId="6526638447417134918" fileName="GeomUtil.java" startLine="136" startPosition="0" endLine="145" endPosition="0" />
     <nodeInfo nodeId="272112265222926933" fileName="GeomUtil.java" startLine="83" startPosition="103" endLine="94" endPosition="5" />
     <nodeInfo nodeId="1265453300920941910" fileName="GeomUtil.java" startLine="125" startPosition="0" endLine="136" endPosition="0" />
+    <nodeInfo nodeId="5368829933099654579" fileName="GeomUtil.java" startLine="145" startPosition="0" endLine="158" endPosition="0" />
     <nodeInfo nodeId="5327124464817432472" fileName="GeomUtil.java" startLine="29" startPosition="0" endLine="43" endPosition="0" />
     <nodeInfo nodeId="272112265222956099" fileName="GeomUtil.java" startLine="101" startPosition="0" endLine="119" endPosition="0" />
     <nodeInfo nodeId="6160477238666701735" fileName="GeomUtil.java" startLine="56" startPosition="0" endLine="76" endPosition="0" />
@@ -324,6 +344,14 @@
     <scopeInfo nodeId="272112265222956258" fileName="GeomUtil.java" startLine="114" startPosition="29" endLine="115" endPosition="63" />
     <scopeInfo nodeId="1265453300920941927" fileName="GeomUtil.java" startLine="128" startPosition="22" endLine="129" endPosition="21" />
     <scopeInfo nodeId="1265453300920941942" fileName="GeomUtil.java" startLine="131" startPosition="22" endLine="132" endPosition="20" />
+    <scopeInfo nodeId="5368829933099654649" fileName="GeomUtil.java" startLine="147" startPosition="35" endLine="148" endPosition="20" />
+    <scopeInfo nodeId="5368829933099654612" fileName="GeomUtil.java" startLine="150" startPosition="34" endLine="151" endPosition="33" />
+    <scopeInfo nodeId="5368829933099654621" fileName="GeomUtil.java" startLine="153" startPosition="32" endLine="154" endPosition="20" />
+    <scopeInfo nodeId="5368829933099654687" fileName="GeomUtil.java" startLine="159" startPosition="63" endLine="160" endPosition="42" />
+    <scopeInfo nodeId="5368829933099812167" fileName="GeomUtil.java" startLine="164" startPosition="29" endLine="165" endPosition="24" />
+    <scopeInfo nodeId="5368829933099812183" fileName="GeomUtil.java" startLine="166" startPosition="12" endLine="167" endPosition="25" />
+    <scopeInfo nodeId="5368829933099812202" fileName="GeomUtil.java" startLine="172" startPosition="29" endLine="173" endPosition="25" />
+    <scopeInfo nodeId="5368829933099812208" fileName="GeomUtil.java" startLine="174" startPosition="12" endLine="175" endPosition="24" />
     <scopeInfo nodeId="272112265222926939" fileName="GeomUtil.java" startLine="85" startPosition="16" endLine="88" endPosition="9" />
     <scopeInfo nodeId="272112265222926972" fileName="GeomUtil.java" startLine="89" startPosition="14" endLine="92" endPosition="9" />
     <scopeInfo nodeId="1265453300920941777" fileName="GeomUtil.java" startLine="120" startPosition="66" endLine="123" endPosition="43">
@@ -351,12 +379,18 @@
       <varInfo nodeId="8680836410351713680" varName="minX" />
       <varInfo nodeId="8680836410351713685" varName="minY" />
     </scopeInfo>
+    <scopeInfo nodeId="5368829933099654684" fileName="GeomUtil.java" startLine="158" startPosition="0" endLine="162" endPosition="0">
+      <varInfo nodeId="5368829933099654691" varName="dir" />
+      <varInfo nodeId="5368829933099654689" varName="rect" />
+    </scopeInfo>
     <scopeInfo nodeId="5639900666367221481" fileName="GeomUtil.java" startLine="22" startPosition="60" endLine="27" endPosition="63">
       <varInfo nodeId="5639900666367221537" varName="maxY" />
       <varInfo nodeId="5639900666367221527" varName="maxX" />
       <varInfo nodeId="5639900666367221489" varName="minX" />
       <varInfo nodeId="5639900666367221516" varName="minY" />
     </scopeInfo>
+    <scopeInfo nodeId="5368829933099812158" fileName="GeomUtil.java" startLine="163" startPosition="60" endLine="168" endPosition="5" />
+    <scopeInfo nodeId="5368829933099812197" fileName="GeomUtil.java" startLine="171" startPosition="61" endLine="176" endPosition="5" />
     <scopeInfo nodeId="5327124464817432527" fileName="GeomUtil.java" startLine="34" startPosition="33" endLine="40" endPosition="5" />
     <scopeInfo nodeId="6160477238666597968" fileName="GeomUtil.java" startLine="44" startPosition="59" endLine="50" endPosition="15">
       <varInfo nodeId="6160477238666597987" varName="res" />
@@ -377,6 +411,14 @@
     <scopeInfo nodeId="1265453300920941913" fileName="GeomUtil.java" startLine="126" startPosition="54" endLine="134" endPosition="21">
       <varInfo nodeId="1265453300920941921" varName="direction" />
     </scopeInfo>
+    <scopeInfo nodeId="5368829933099812155" fileName="GeomUtil.java" startLine="162" startPosition="0" endLine="170" endPosition="0">
+      <varInfo nodeId="5368829933099812162" varName="dir" />
+      <varInfo nodeId="5368829933099812160" varName="rect" />
+    </scopeInfo>
+    <scopeInfo nodeId="5368829933099812194" fileName="GeomUtil.java" startLine="170" startPosition="0" endLine="178" endPosition="0">
+      <varInfo nodeId="5368829933099812215" varName="dir" />
+      <varInfo nodeId="5368829933099812213" varName="rect" />
+    </scopeInfo>
     <scopeInfo nodeId="6160477238666597965" fileName="GeomUtil.java" startLine="43" startPosition="0" endLine="52" endPosition="0">
       <varInfo nodeId="6160477238666597970" varName="p" />
       <varInfo nodeId="6160477238666597972" varName="rect" />
@@ -385,6 +427,7 @@
     <scopeInfo nodeId="6526638447417134918" fileName="GeomUtil.java" startLine="136" startPosition="0" endLine="145" endPosition="0">
       <varInfo nodeId="6526638447417134925" varName="rect" />
     </scopeInfo>
+    <scopeInfo nodeId="5368829933099654582" fileName="GeomUtil.java" startLine="146" startPosition="63" endLine="156" endPosition="32" />
     <scopeInfo nodeId="5327124464817432475" fileName="GeomUtil.java" startLine="30" startPosition="70" endLine="41" endPosition="63">
       <varInfo nodeId="5327124464817432512" varName="maxY" />
       <varInfo nodeId="5327124464817432502" varName="maxX" />
@@ -395,6 +438,10 @@
     <scopeInfo nodeId="1265453300920941910" fileName="GeomUtil.java" startLine="125" startPosition="0" endLine="136" endPosition="0">
       <varInfo nodeId="1265453300920941917" varName="end" />
       <varInfo nodeId="1265453300920941915" varName="begin" />
+    </scopeInfo>
+    <scopeInfo nodeId="5368829933099654579" fileName="GeomUtil.java" startLine="145" startPosition="0" endLine="158" endPosition="0">
+      <varInfo nodeId="5368829933099654586" varName="dir" />
+      <varInfo nodeId="5368829933099654584" varName="rect" />
     </scopeInfo>
     <scopeInfo nodeId="5327124464817432472" fileName="GeomUtil.java" startLine="29" startPosition="0" endLine="43" endPosition="0">
       <varInfo nodeId="5327124464817432477" varName="points" />
@@ -423,7 +470,7 @@
       <varInfo nodeId="272112265222926846" varName="b" />
       <varInfo nodeId="272112265222926844" varName="rect" />
     </scopeInfo>
-    <unitInfo nodeId="5639900666367221336" fileName="GeomUtil.java" startLine="13" startPosition="0" endLine="146" endPosition="0" unitName="jetbrains.mps.graphLayout.util.GeomUtil" />
+    <unitInfo nodeId="5639900666367221336" fileName="GeomUtil.java" startLine="13" startPosition="0" endLine="179" endPosition="0" unitName="jetbrains.mps.graphLayout.util.GeomUtil" />
   </root>
 </debugInfo>
 

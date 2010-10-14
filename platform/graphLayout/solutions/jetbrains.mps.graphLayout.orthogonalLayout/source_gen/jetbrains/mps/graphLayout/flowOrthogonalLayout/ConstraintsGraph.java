@@ -30,7 +30,7 @@ import jetbrains.mps.baseLanguage.closures.runtime.Wrappers;
 import java.util.HashSet;
 
 public class ConstraintsGraph {
-  private static int SHOW_INFO = 1;
+  private static int SHOW_INFO = 0;
   private static int DEBUG = 0;
   private static int DEFAULT_UNIT_LENGTH = 20;
 
@@ -71,7 +71,7 @@ public class ConstraintsGraph {
     }
   }
 
-  public Map<Node, Point> getCoordinates(Map<Edge, Integer> predefinedEdgeLength, Map<Edge, Integer> predefinedEdgeWidth) {
+  public Map<Node, Point> getCoordinates(Map<Edge, Integer> predefinedEdgeLengths, Map<Edge, Integer> constraintEdgeLengths) {
     Map<Edge, Integer> edgeLengths = MapSequence.fromMap(new HashMap<Edge, Integer>());
     for (Edge edge : ListSequence.fromList(myHorConstraintsGraph.getEdges())) {
       MapSequence.fromMap(edgeLengths).put(edge, myUnitLength);
@@ -79,21 +79,12 @@ public class ConstraintsGraph {
     for (Edge edge : ListSequence.fromList(myVerConstraintsGraph.getEdges())) {
       MapSequence.fromMap(edgeLengths).put(edge, myUnitLength);
     }
-    for (Edge edge : SetSequence.fromSet(MapSequence.fromMap(predefinedEdgeLength).keySet())) {
+    for (Edge edge : SetSequence.fromSet(MapSequence.fromMap(predefinedEdgeLengths).keySet())) {
       Edge constraintEdge = MapSequence.fromMap(myEdgeMap).get(edge);
-      MapSequence.fromMap(edgeLengths).put(constraintEdge, MapSequence.fromMap(predefinedEdgeLength).get(edge));
+      MapSequence.fromMap(edgeLengths).put(constraintEdge, MapSequence.fromMap(predefinedEdgeLengths).get(edge));
     }
-    for (Edge edge : SetSequence.fromSet(MapSequence.fromMap(predefinedEdgeWidth).keySet())) {
-      Dart dart = ListSequence.fromList(myEmbeddedGraph.getDarts(edge)).first();
-      Node constraintNode;
-      if (MapSequence.fromMap(myDirections).get(dart).isHorizontal()) {
-        constraintNode = MapSequence.fromMap(myHorNodeMap).get(edge.getSource());
-      } else {
-        constraintNode = MapSequence.fromMap(myVerNodeMap).get(edge.getSource());
-      }
-      for (Edge constraintEdge : ListSequence.fromList(constraintNode.getOutEdges())) {
-        MapSequence.fromMap(edgeLengths).put(constraintEdge, Math.max(MapSequence.fromMap(edgeLengths).get(constraintEdge), MapSequence.fromMap(predefinedEdgeWidth).get(edge)));
-      }
+    for (Edge edge : SetSequence.fromSet(MapSequence.fromMap(constraintEdgeLengths).keySet())) {
+      MapSequence.fromMap(edgeLengths).put(edge, MapSequence.fromMap(constraintEdgeLengths).get(edge));
     }
     Map<Node, Integer> horNumbering = WeightedTopologicalNumbering.number(myHorConstraintsGraph, edgeLengths);
     Map<Node, Integer> verNumbering = WeightedTopologicalNumbering.number(myVerConstraintsGraph, edgeLengths);
@@ -384,5 +375,24 @@ public class ConstraintsGraph {
 
   public void setUnitLength(int unitLength) {
     myUnitLength = unitLength;
+  }
+
+  public Edge addConstraintEdge(Node first, Node second, Direction2D direction) {
+    Map<Node, Node> constraintsMap;
+    if (direction.isHorizontal()) {
+      constraintsMap = myVerNodeMap;
+    } else {
+      constraintsMap = myHorNodeMap;
+    }
+    Node source;
+    Node target;
+    if (direction == Direction2D.RIGHT || direction == Direction2D.UP) {
+      source = MapSequence.fromMap(constraintsMap).get(first);
+      target = MapSequence.fromMap(constraintsMap).get(second);
+    } else {
+      source = MapSequence.fromMap(constraintsMap).get(second);
+      target = MapSequence.fromMap(constraintsMap).get(first);
+    }
+    return source.addEdgeTo(target);
   }
 }

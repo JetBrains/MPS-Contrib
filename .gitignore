@@ -8,3 +8,4 @@ classes
 classes_gen
 testclasses
 *.iws
+teamcity-info.xml

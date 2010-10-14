@@ -5,11 +5,12 @@ package visualization;
 import javax.swing.JPanel;
 import java.awt.Dimension;
 import javax.swing.JTextArea;
-import jetbrains.mps.graphLayout.flowOrthogonalLayout.TestOrthogonalFlowLabelLayouter;
+import jetbrains.mps.graphLayout.flowOrthogonalLayout.AbstractOrthogonalFlowLayouter;
 import jetbrains.mps.graphLayout.graphLayout.GraphLayout;
 import javax.swing.JTextField;
 import java.awt.GridBagLayout;
 import jetbrains.mps.graphLayout.stOrthogonalLayout.RectOrthogonalLayouter;
+import jetbrains.mps.graphLayout.flowOrthogonalLayout.CurrentOrthogonalFlowLabelLayouter;
 import java.awt.GridBagConstraints;
 import javax.swing.BorderFactory;
 import javax.swing.JButton;
@@ -38,12 +39,12 @@ import java.awt.Graphics;
 public class OrthogonalLayoutTestPanel extends JPanel {
   private static Dimension FRAME_DIMENSION = new Dimension(800, 600);
   private static final int DEFAULT_NODE_SIZE = 30;
-  private static final int DEFAULT_EDGE_X_SIZE = 60;
-  private static final int DEFAULT_EDGE_Y_SIZE = 60;
+  private static final int DEFAULT_EDGE_X_SIZE = 70;
+  private static final int DEFAULT_EDGE_Y_SIZE = 35;
 
   private JTextArea myTextArea;
   private OrthogonalLayoutTestPanel.MyGraphLabel myGraphLabel;
-  private TestOrthogonalFlowLabelLayouter myLayouter;
+  private AbstractOrthogonalFlowLayouter myLayouter;
   private LayoutPainter myPainter;
   private GraphLayout myCurrentLayout;
   private JTextField myNumEdgesField;
@@ -60,7 +61,7 @@ public class OrthogonalLayoutTestPanel extends JPanel {
     /*
       myLayouter = new RectOrthogonalLayouter();
     */
-    myLayouter = new TestOrthogonalFlowLabelLayouter();
+    myLayouter = new CurrentOrthogonalFlowLabelLayouter();
     /*
       myLayouter.setEdgeDistance(20);
     */
@@ -160,10 +161,13 @@ public class OrthogonalLayoutTestPanel extends JPanel {
             return it.getTarget() == target;
           }
         }).first();
+        if (edge == null) {
+          throw new IllegalArgumentException("there is no edge " + source + " -> " + target);
+        }
         MapSequence.fromMap(edgeDimensions).put(edge, new Dimension(scanner.nextInt(), scanner.nextInt()));
       }
     } catch (IllegalArgumentException e) {
-      JOptionPane.showMessageDialog(this, "something is wrong in graph...");
+      JOptionPane.showMessageDialog(this, "something is wrong in graph notation...\n" + e);
     }
     if (g != null) {
       for (Node node : ListSequence.fromList(g.getNodes())) {
@@ -173,7 +177,7 @@ public class OrthogonalLayoutTestPanel extends JPanel {
       }
       if (myLayoutChoice.isSetLabels()) {
         for (Edge edge : ListSequence.fromList(g.getEdges())) {
-          if (MapSequence.fromMap(edgeDimensions).get(edge) == null) {
+          if (!(MapSequence.fromMap(edgeDimensions).containsKey(edge))) {
             MapSequence.fromMap(edgeDimensions).put(edge, new Dimension(DEFAULT_EDGE_X_SIZE, DEFAULT_EDGE_Y_SIZE));
           }
         }

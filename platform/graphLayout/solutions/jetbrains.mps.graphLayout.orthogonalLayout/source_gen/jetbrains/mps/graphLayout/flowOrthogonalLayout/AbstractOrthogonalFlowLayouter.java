@@ -12,9 +12,9 @@ import jetbrains.mps.internal.collections.runtime.MapSequence;
 import java.util.HashMap;
 import java.util.LinkedHashMap;
 import jetbrains.mps.internal.collections.runtime.ListSequence;
+import jetbrains.mps.internal.collections.runtime.SetSequence;
 import java.util.List;
 import java.awt.Point;
-import jetbrains.mps.internal.collections.runtime.SetSequence;
 import java.awt.Rectangle;
 import jetbrains.mps.graphLayout.graphLayout.LayoutTransform;
 import java.util.Set;
@@ -31,7 +31,7 @@ import java.util.Iterator;
 
 public abstract class AbstractOrthogonalFlowLayouter {
   private static int DEFAULT_UNIT_LENGTH = 20;
-  protected static int SHOW_INFO = 1;
+  protected static int SHOW_INFO = 0;
 
   private int myUnitLength = DEFAULT_UNIT_LENGTH;
 
@@ -50,9 +50,10 @@ public abstract class AbstractOrthogonalFlowLayouter {
       MapSequence.fromMap(copyNodeSizes).put(copyNode, MapSequence.fromMap(nodeSizes).get(node));
     }
     for (Edge edge : ListSequence.fromList(graph.getEdges())) {
-      Edge copyEdge = MapSequence.fromMap(nodeMap).get(edge.getSource()).addEdgeTo(MapSequence.fromMap(nodeMap).get(edge.getTarget()));
-      MapSequence.fromMap(edgeMap).put(edge, copyEdge);
-      MapSequence.fromMap(copyEdgeSizes).put(copyEdge, MapSequence.fromMap(edgeSizes).get(edge));
+      MapSequence.fromMap(edgeMap).put(edge, MapSequence.fromMap(nodeMap).get(edge.getSource()).addEdgeTo(MapSequence.fromMap(nodeMap).get(edge.getTarget())));
+    }
+    for (Edge edge : SetSequence.fromSet(MapSequence.fromMap(edgeSizes).keySet())) {
+      MapSequence.fromMap(copyEdgeSizes).put(MapSequence.fromMap(edgeMap).get(edge), MapSequence.fromMap(edgeSizes).get(edge));
     }
     GraphLayout copyLayout = getLayoutCorruptGraph(copy, copyNodeSizes, copyEdgeSizes);
     GraphLayout layout = new GraphLayout(graph);
@@ -113,7 +114,7 @@ public abstract class AbstractOrthogonalFlowLayouter {
       initialLayout.setLayoutFor(edge, edgeLayout);
     }
     for (Edge edge : SetSequence.fromSet(MapSequence.fromMap(edgeSizes).keySet())) {
-      initialLayout.setLabelLayout(edge, layout.getLabelLayout(edge));
+      initialLayout.setLabelLayout(edge, layout.getLabelLayout(MapSequence.fromMap(labeledEdges).get(edge)));
     }
     return initialLayout;
   }
