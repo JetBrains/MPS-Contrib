@@ -93,7 +93,7 @@
     <classNode dependClassName="jetbrains.mps.smodel.SNode" />
     <classNode dependClassName="jetbrains.mps.smodel.constraints.ModelConstraintsManager" />
     <classNode extendsClassName="jetbrains.mps.smodel.constraints.IModelConstraints" />
-    <classNode extendsClassName="jetbrains.mps.smodel.constraints.INodeReferentSetEventHandler" />
+    <classNode extendsClassName="jetbrains.mps.smodel.constraints.INodeReferenceFullSetHandler" />
   </dependency>
   <dependency className="jetbrains.mps.baseLanguage.dates.constraints.DateTimePropertyFormatToken_dateTimePropertyFormatType_ReferentConstraint" file="DateTimePropertyFormatToken_dateTimePropertyFormatType_ReferentConstraint.java">
     <classNode dependClassName="java.lang.Object" />

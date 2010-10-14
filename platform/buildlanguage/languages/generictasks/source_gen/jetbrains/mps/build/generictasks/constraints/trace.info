@@ -7,9 +7,9 @@
   <unitInfo fileName="ConstraintsDescriptor.java" startLine="11" startPosition="0" endLine="35" endPosition="0" unitName="jetbrains.mps.build.generictasks.constraints.ConstraintsDescriptor" />
   <unitInfo fileName="TaskCall_DefaultSearchScope.java" startLine="18" startPosition="0" endLine="45" endPosition="0" unitName="jetbrains.mps.build.generictasks.constraints.TaskCall_DefaultSearchScope" />
   <unitInfo fileName="PathReference_call_ReferentConstraint.java" startLine="19" startPosition="0" endLine="47" endPosition="0" unitName="jetbrains.mps.build.generictasks.constraints.PathReference_call_ReferentConstraint" />
-  <unitInfo fileName="Attribute_attributeDeclaration_ReferentConstraint.java" startLine="20" startPosition="0" endLine="55" endPosition="0" unitName="jetbrains.mps.build.generictasks.constraints.Attribute_attributeDeclaration_ReferentConstraint" />
   <unitInfo fileName="TaskReference_declaration_ReferentConstraint.java" startLine="19" startPosition="0" endLine="58" endPosition="0" unitName="jetbrains.mps.build.generictasks.constraints.TaskReference_declaration_ReferentConstraint" />
-  <unitInfo fileName="TaskCall_declaration_ReferentConstraint.java" startLine="24" startPosition="0" endLine="75" endPosition="0" unitName="jetbrains.mps.build.generictasks.constraints.TaskCall_declaration_ReferentConstraint" />
+  <unitInfo fileName="Attribute_attributeDeclaration_ReferentConstraint.java" startLine="20" startPosition="0" endLine="59" endPosition="0" unitName="jetbrains.mps.build.generictasks.constraints.Attribute_attributeDeclaration_ReferentConstraint" />
+  <unitInfo fileName="TaskCall_declaration_ReferentConstraint.java" startLine="24" startPosition="0" endLine="79" endPosition="0" unitName="jetbrains.mps.build.generictasks.constraints.TaskCall_declaration_ReferentConstraint" />
   <root nodeId="1190349257898069072">
     <nodeInfo nodeId="1190349257898069151" fileName="SequenceSearchScope.java" startLine="13" startPosition="62" endLine="14" endPosition="40" />
     <nodeInfo nodeId="1190349257898069159" fileName="SequenceSearchScope.java" startLine="16" startPosition="53" endLine="17" endPosition="20" />
@@ -68,22 +68,22 @@
   </root>
   <root nodeId="353793545802644405">
     <nodeInfo nodeId="353793545802644430" fileName="Attribute_attributeDeclaration_ReferentConstraint.java" startLine="34" startPosition="138" endLine="35" endPosition="121" />
-    <nodeInfo nodeId="353793545802644415" fileName="Attribute_attributeDeclaration_ReferentConstraint.java" startLine="38" startPosition="132" endLine="39" endPosition="152" />
-    <nodeInfo nodeId="1190349257898119432" fileName="Attribute_attributeDeclaration_ReferentConstraint.java" startLine="43" startPosition="119" endLine="44" endPosition="23" />
-    <nodeInfo nodeId="1190349257898148738" fileName="Attribute_attributeDeclaration_ReferentConstraint.java" startLine="45" startPosition="9" endLine="46" endPosition="278" />
-    <nodeInfo nodeId="1190349257898069984" fileName="Attribute_attributeDeclaration_ReferentConstraint.java" startLine="42" startPosition="44" endLine="45" endPosition="9" />
-    <nodeInfo nodeId="1190349257898069974" fileName="Attribute_attributeDeclaration_ReferentConstraint.java" startLine="40" startPosition="112" endLine="48" endPosition="0" />
-    <nodeInfo nodeId="1190349257898069193" fileName="Attribute_attributeDeclaration_ReferentConstraint.java" startLine="39" startPosition="152" endLine="48" endPosition="6" />
+    <nodeInfo nodeId="353793545802644415" fileName="Attribute_attributeDeclaration_ReferentConstraint.java" startLine="42" startPosition="132" endLine="43" endPosition="152" />
+    <nodeInfo nodeId="1190349257898119432" fileName="Attribute_attributeDeclaration_ReferentConstraint.java" startLine="47" startPosition="119" endLine="48" endPosition="23" />
+    <nodeInfo nodeId="1190349257898148738" fileName="Attribute_attributeDeclaration_ReferentConstraint.java" startLine="49" startPosition="9" endLine="50" endPosition="278" />
+    <nodeInfo nodeId="1190349257898069984" fileName="Attribute_attributeDeclaration_ReferentConstraint.java" startLine="46" startPosition="44" endLine="49" endPosition="9" />
+    <nodeInfo nodeId="1190349257898069974" fileName="Attribute_attributeDeclaration_ReferentConstraint.java" startLine="44" startPosition="112" endLine="52" endPosition="0" />
+    <nodeInfo nodeId="1190349257898069193" fileName="Attribute_attributeDeclaration_ReferentConstraint.java" startLine="43" startPosition="152" endLine="52" endPosition="6" />
     <scopeInfo nodeId="353793545802644429" fileName="Attribute_attributeDeclaration_ReferentConstraint.java" startLine="34" startPosition="138" endLine="35" endPosition="121" />
-    <scopeInfo nodeId="1190349257898069986" fileName="Attribute_attributeDeclaration_ReferentConstraint.java" startLine="43" startPosition="119" endLine="44" endPosition="23" />
-    <scopeInfo nodeId="1190349257898069979" fileName="Attribute_attributeDeclaration_ReferentConstraint.java" startLine="42" startPosition="44" endLine="46" endPosition="278" />
-    <scopeInfo nodeId="1190349257898069974" fileName="Attribute_attributeDeclaration_ReferentConstraint.java" startLine="40" startPosition="112" endLine="48" endPosition="0">
+    <scopeInfo nodeId="1190349257898069986" fileName="Attribute_attributeDeclaration_ReferentConstraint.java" startLine="47" startPosition="119" endLine="48" endPosition="23" />
+    <scopeInfo nodeId="1190349257898069979" fileName="Attribute_attributeDeclaration_ReferentConstraint.java" startLine="46" startPosition="44" endLine="50" endPosition="278" />
+    <scopeInfo nodeId="1190349257898069974" fileName="Attribute_attributeDeclaration_ReferentConstraint.java" startLine="44" startPosition="112" endLine="52" endPosition="0">
       <varInfo nodeId="1190349257898069977" varName="node" />
     </scopeInfo>
-    <scopeInfo nodeId="353793545802644408" fileName="Attribute_attributeDeclaration_ReferentConstraint.java" startLine="38" startPosition="132" endLine="48" endPosition="6">
+    <scopeInfo nodeId="353793545802644408" fileName="Attribute_attributeDeclaration_ReferentConstraint.java" startLine="42" startPosition="132" endLine="52" endPosition="6">
       <varInfo nodeId="353793545802644416" varName="taskCall" />
     </scopeInfo>
-    <unitInfo nodeId="1190349257898069972" fileName="Attribute_attributeDeclaration_ReferentConstraint.java" startLine="40" startPosition="15" endLine="48" endPosition="5" unitName="jetbrains.mps.build.generictasks.constraints.SequenceSearchScope$anonymous" />
+    <unitInfo nodeId="1190349257898069972" fileName="Attribute_attributeDeclaration_ReferentConstraint.java" startLine="44" startPosition="15" endLine="52" endPosition="5" unitName="jetbrains.mps.build.generictasks.constraints.SequenceSearchScope$anonymous" />
   </root>
   <root nodeId="353793545802644439">
     <nodeInfo nodeId="353793545802644443" fileName="TaskCall_name_PropertyConstraint.java" startLine="24" startPosition="80" endLine="25" endPosition="53" />
@@ -94,37 +94,37 @@
     <nodeInfo nodeId="353793545802644462" fileName="TaskCall_declaration_ReferentConstraint.java" startLine="40" startPosition="87" endLine="41" endPosition="116" />
     <nodeInfo nodeId="353793545802644468" fileName="TaskCall_declaration_ReferentConstraint.java" startLine="41" startPosition="116" endLine="42" endPosition="81" />
     <nodeInfo nodeId="353793545802644475" fileName="TaskCall_declaration_ReferentConstraint.java" startLine="42" startPosition="81" endLine="43" endPosition="109" />
-    <nodeInfo nodeId="353793545802644484" fileName="TaskCall_declaration_ReferentConstraint.java" startLine="48" startPosition="132" endLine="49" endPosition="187" />
-    <nodeInfo nodeId="1191515374482688691" fileName="TaskCall_declaration_ReferentConstraint.java" startLine="52" startPosition="41" endLine="53" endPosition="86" />
-    <nodeInfo nodeId="1648602681640249350" fileName="TaskCall_declaration_ReferentConstraint.java" startLine="57" startPosition="46" endLine="58" endPosition="274" />
-    <nodeInfo nodeId="1648602681640273341" fileName="TaskCall_declaration_ReferentConstraint.java" startLine="61" startPosition="5" endLine="62" endPosition="253" />
-    <nodeInfo nodeId="1648602681640273321" fileName="TaskCall_declaration_ReferentConstraint.java" startLine="65" startPosition="44" endLine="66" endPosition="439" />
+    <nodeInfo nodeId="353793545802644484" fileName="TaskCall_declaration_ReferentConstraint.java" startLine="52" startPosition="132" endLine="53" endPosition="187" />
+    <nodeInfo nodeId="1191515374482688691" fileName="TaskCall_declaration_ReferentConstraint.java" startLine="56" startPosition="41" endLine="57" endPosition="86" />
+    <nodeInfo nodeId="1648602681640249350" fileName="TaskCall_declaration_ReferentConstraint.java" startLine="61" startPosition="46" endLine="62" endPosition="274" />
+    <nodeInfo nodeId="1648602681640273341" fileName="TaskCall_declaration_ReferentConstraint.java" startLine="65" startPosition="5" endLine="66" endPosition="253" />
+    <nodeInfo nodeId="1648602681640273321" fileName="TaskCall_declaration_ReferentConstraint.java" startLine="69" startPosition="44" endLine="70" endPosition="439" />
     <nodeInfo nodeId="353793545802644554" fileName="TaskCall_DefaultSearchScope.java" startLine="33" startPosition="53" endLine="36" endPosition="7" />
-    <nodeInfo nodeId="1191515374482688689" fileName="TaskCall_declaration_ReferentConstraint.java" startLine="51" startPosition="106" endLine="55" endPosition="0" />
+    <nodeInfo nodeId="1191515374482688689" fileName="TaskCall_declaration_ReferentConstraint.java" startLine="55" startPosition="106" endLine="59" endPosition="0" />
     <nodeInfo nodeId="353793545802644550" fileName="TaskCall_DefaultSearchScope.java" startLine="32" startPosition="49" endLine="37" endPosition="5" />
     <nodeInfo nodeId="353793545802644457" fileName="TaskCall_declaration_ReferentConstraint.java" startLine="39" startPosition="122" endLine="44" endPosition="7" />
-    <nodeInfo nodeId="1648602681640249340" fileName="TaskCall_declaration_ReferentConstraint.java" startLine="55" startPosition="11" endLine="60" endPosition="0" />
-    <nodeInfo nodeId="1648602681640249374" fileName="TaskCall_declaration_ReferentConstraint.java" startLine="63" startPosition="276" endLine="68" endPosition="0" />
-    <nodeInfo nodeId="353793545802644528" fileName="TaskCall_declaration_ReferentConstraint.java" startLine="62" startPosition="253" endLine="68" endPosition="6" />
+    <nodeInfo nodeId="1648602681640249340" fileName="TaskCall_declaration_ReferentConstraint.java" startLine="59" startPosition="11" endLine="64" endPosition="0" />
+    <nodeInfo nodeId="1648602681640249374" fileName="TaskCall_declaration_ReferentConstraint.java" startLine="67" startPosition="276" endLine="72" endPosition="0" />
+    <nodeInfo nodeId="353793545802644528" fileName="TaskCall_declaration_ReferentConstraint.java" startLine="66" startPosition="253" endLine="72" endPosition="6" />
     <nodeInfo nodeId="353793545802644450" fileName="TaskCall_declaration_ReferentConstraint.java" startLine="38" startPosition="138" endLine="45" endPosition="5" />
-    <nodeInfo nodeId="353793545802644519" fileName="TaskCall_declaration_ReferentConstraint.java" startLine="50" startPosition="126" endLine="60" endPosition="8" />
-    <nodeInfo nodeId="353793545802644491" fileName="TaskCall_declaration_ReferentConstraint.java" startLine="49" startPosition="187" endLine="61" endPosition="5" />
+    <nodeInfo nodeId="353793545802644519" fileName="TaskCall_declaration_ReferentConstraint.java" startLine="54" startPosition="126" endLine="64" endPosition="8" />
+    <nodeInfo nodeId="353793545802644491" fileName="TaskCall_declaration_ReferentConstraint.java" startLine="53" startPosition="187" endLine="65" endPosition="5" />
     <scopeInfo nodeId="353793545802644442" fileName="TaskCall_name_PropertyConstraint.java" startLine="24" startPosition="80" endLine="25" endPosition="53" />
     <scopeInfo nodeId="353793545802644555" fileName="TaskCall_DefaultSearchScope.java" startLine="34" startPosition="177" endLine="35" endPosition="56" />
-    <scopeInfo nodeId="1191515374482688690" fileName="TaskCall_declaration_ReferentConstraint.java" startLine="52" startPosition="41" endLine="53" endPosition="86" />
-    <scopeInfo nodeId="1648602681640249345" fileName="TaskCall_declaration_ReferentConstraint.java" startLine="57" startPosition="46" endLine="58" endPosition="274" />
-    <scopeInfo nodeId="1648602681640249379" fileName="TaskCall_declaration_ReferentConstraint.java" startLine="65" startPosition="44" endLine="66" endPosition="439" />
+    <scopeInfo nodeId="1191515374482688690" fileName="TaskCall_declaration_ReferentConstraint.java" startLine="56" startPosition="41" endLine="57" endPosition="86" />
+    <scopeInfo nodeId="1648602681640249345" fileName="TaskCall_declaration_ReferentConstraint.java" startLine="61" startPosition="46" endLine="62" endPosition="274" />
+    <scopeInfo nodeId="1648602681640249379" fileName="TaskCall_declaration_ReferentConstraint.java" startLine="69" startPosition="44" endLine="70" endPosition="439" />
     <scopeInfo nodeId="353793545802644553" fileName="TaskCall_DefaultSearchScope.java" startLine="33" startPosition="53" endLine="36" endPosition="7" />
     <scopeInfo nodeId="353793545802644461" fileName="TaskCall_declaration_ReferentConstraint.java" startLine="40" startPosition="87" endLine="43" endPosition="109">
       <varInfo nodeId="353793545802644463" varName="attr" />
     </scopeInfo>
-    <scopeInfo nodeId="1191515374482688689" fileName="TaskCall_declaration_ReferentConstraint.java" startLine="51" startPosition="106" endLine="55" endPosition="0" />
+    <scopeInfo nodeId="1191515374482688689" fileName="TaskCall_declaration_ReferentConstraint.java" startLine="55" startPosition="106" endLine="59" endPosition="0" />
     <scopeInfo nodeId="353793545802644550" fileName="TaskCall_DefaultSearchScope.java" startLine="32" startPosition="49" endLine="37" endPosition="5" />
     <scopeInfo nodeId="353793545802644456" fileName="TaskCall_declaration_ReferentConstraint.java" startLine="39" startPosition="122" endLine="44" endPosition="7" />
-    <scopeInfo nodeId="1648602681640249340" fileName="TaskCall_declaration_ReferentConstraint.java" startLine="55" startPosition="11" endLine="60" endPosition="0">
+    <scopeInfo nodeId="1648602681640249340" fileName="TaskCall_declaration_ReferentConstraint.java" startLine="59" startPosition="11" endLine="64" endPosition="0">
       <varInfo nodeId="1648602681640249343" varName="node" />
     </scopeInfo>
-    <scopeInfo nodeId="1648602681640249374" fileName="TaskCall_declaration_ReferentConstraint.java" startLine="63" startPosition="276" endLine="68" endPosition="0">
+    <scopeInfo nodeId="1648602681640249374" fileName="TaskCall_declaration_ReferentConstraint.java" startLine="67" startPosition="276" endLine="72" endPosition="0">
       <varInfo nodeId="1648602681640249377" varName="node" />
     </scopeInfo>
     <scopeInfo nodeId="353793545802644449" fileName="TaskCall_declaration_ReferentConstraint.java" startLine="38" startPosition="138" endLine="45" endPosition="5" />
@@ -135,14 +135,14 @@
       <varInfo nodeId="353793545802644545" varName="visible" />
       <varInfo nodeId="353793545802644538" varName="nodes" />
     </scopeInfo>
-    <scopeInfo nodeId="353793545802644492" fileName="TaskCall_declaration_ReferentConstraint.java" startLine="50" startPosition="126" endLine="60" endPosition="8" />
-    <scopeInfo nodeId="353793545802644483" fileName="TaskCall_declaration_ReferentConstraint.java" startLine="48" startPosition="132" endLine="68" endPosition="6">
+    <scopeInfo nodeId="353793545802644492" fileName="TaskCall_declaration_ReferentConstraint.java" startLine="54" startPosition="126" endLine="64" endPosition="8" />
+    <scopeInfo nodeId="353793545802644483" fileName="TaskCall_declaration_ReferentConstraint.java" startLine="52" startPosition="132" endLine="72" endPosition="6">
       <varInfo nodeId="1648602681640273342" varName="nesteds" />
       <varInfo nodeId="353793545802644485" varName="declarations" />
     </scopeInfo>
-    <unitInfo nodeId="1191515374482688689" fileName="TaskCall_declaration_ReferentConstraint.java" startLine="51" startPosition="83" endLine="55" endPosition="7" unitName="jetbrains.mps.build.generictasks.constraints.TaskCall_declaration_ReferentConstraint$2" />
-    <unitInfo nodeId="1648602681640249372" fileName="TaskCall_declaration_ReferentConstraint.java" startLine="63" startPosition="15" endLine="68" endPosition="5" unitName="jetbrains.mps.build.generictasks.constraints.TaskCall_declaration_ReferentConstraint$2" />
-    <unitInfo nodeId="1648602681640249338" fileName="TaskCall_declaration_ReferentConstraint.java" startLine="51" startPosition="17" endLine="60" endPosition="7" unitName="jetbrains.mps.build.generictasks.constraints.TaskCall_declaration_ReferentConstraint$1" />
+    <unitInfo nodeId="1191515374482688689" fileName="TaskCall_declaration_ReferentConstraint.java" startLine="55" startPosition="83" endLine="59" endPosition="7" unitName="jetbrains.mps.build.generictasks.constraints.TaskCall_declaration_ReferentConstraint$2" />
+    <unitInfo nodeId="1648602681640249372" fileName="TaskCall_declaration_ReferentConstraint.java" startLine="67" startPosition="15" endLine="72" endPosition="5" unitName="jetbrains.mps.build.generictasks.constraints.TaskCall_declaration_ReferentConstraint$2" />
+    <unitInfo nodeId="1648602681640249338" fileName="TaskCall_declaration_ReferentConstraint.java" startLine="55" startPosition="17" endLine="64" endPosition="7" unitName="jetbrains.mps.build.generictasks.constraints.TaskCall_declaration_ReferentConstraint$1" />
   </root>
   <root nodeId="353793545802855002">
     <nodeInfo nodeId="353793545802855006" fileName="PathReference_call_ReferentConstraint.java" startLine="31" startPosition="132" endLine="32" endPosition="180" />

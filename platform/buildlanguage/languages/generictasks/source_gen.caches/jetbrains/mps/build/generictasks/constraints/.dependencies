@@ -17,7 +17,7 @@
     <classNode dependClassName="jetbrains.mps.smodel.constraints.ReferentConstraintContext" />
     <classNode extendsClassName="jetbrains.mps.smodel.constraints.BaseNodeReferenceSearchScopeProvider" />
     <classNode extendsClassName="jetbrains.mps.smodel.constraints.IModelConstraints" />
-    <classNode extendsClassName="jetbrains.mps.smodel.constraints.INodeReferentSetEventHandler" />
+    <classNode extendsClassName="jetbrains.mps.smodel.constraints.INodeReferenceFullSetHandler" />
   </dependency>
   <dependency className="jetbrains.mps.build.generictasks.constraints.BuiltInTaskDeclaration_Constraints" file="BuiltInTaskDeclaration_Constraints.java">
     <classNode dependClassName="jetbrains.mps.build.generictasks.behavior.BuiltInTaskDeclaration_Behavior" />
@@ -104,7 +104,7 @@
     <classNode dependClassName="jetbrains.mps.smodel.constraints.ReferentConstraintContext" />
     <classNode extendsClassName="jetbrains.mps.smodel.constraints.BaseNodeReferenceSearchScopeProvider" />
     <classNode extendsClassName="jetbrains.mps.smodel.constraints.IModelConstraints" />
-    <classNode extendsClassName="jetbrains.mps.smodel.constraints.INodeReferentSetEventHandler" />
+    <classNode extendsClassName="jetbrains.mps.smodel.constraints.INodeReferenceFullSetHandler" />
   </dependency>
   <dependency className="jetbrains.mps.build.generictasks.constraints.TaskCall_name_PropertyConstraint" file="TaskCall_name_PropertyConstraint.java">
     <classNode dependClassName="java.lang.Object" />
