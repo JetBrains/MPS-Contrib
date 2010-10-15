@@ -234,6 +234,11 @@
       <property name="sourceCardinality:0" value="0..n" />
       <link role="target:0" targetNodeId="7707758858785994411:4" resolveInfo="XMLSAXFieldDeclaration" />
     </node>
+    <node role="linkDeclaration:0" type="jetbrains.mps.lang.structure.structure.LinkDeclaration:0" id="4120841425052674327">
+      <property name="metaClass:0" value="aggregation" />
+      <property name="role:0" value="globalText" />
+      <link role="target:0" targetNodeId="4635390255048097272:4" resolveInfo="XMLSAXTextRule" />
+    </node>
     <node role="implements:0" type="jetbrains.mps.lang.structure.structure.InterfaceConceptReference:0" id="4635390255047869795">
       <link role="intfc:0" targetNodeId="2v.1169194658468:0" resolveInfo="INamedConcept" />
     </node>

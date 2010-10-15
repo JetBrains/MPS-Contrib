@@ -159,6 +159,14 @@ public class QueriesGenerated {
     return (SLinkOperations.getTarget(_context.getNode(), "validator", true) != null) && (SLinkOperations.getTarget(SLinkOperations.getTarget(_context.getNode(), "validator", true), "body", true) != null) && ListSequence.fromList(SLinkOperations.getTargets(SLinkOperations.getTarget(SLinkOperations.getTarget(_context.getNode(), "validator", true), "body", true), "statement", true)).isNotEmpty();
   }
 
+  public static boolean ifMacro_Condition_4120841425052733760(final IOperationContext operationContext, final IfMacroContext _context) {
+    return (SLinkOperations.getTarget(_context.getNode(), "globalText", true) != null);
+  }
+
+  public static boolean ifMacro_Condition_4120841425052678231(final IOperationContext operationContext, final IfMacroContext _context) {
+    return (SLinkOperations.getTarget(_context.getNode(), "globalText", true) != null);
+  }
+
   public static SNode sourceNodeQuery_8118141292490758600(final IOperationContext operationContext, final SourceSubstituteMacroNodeContext _context) {
     return SLinkOperations.getTarget(_context.getNode(), "operand", true);
   }
@@ -256,6 +264,21 @@ public class QueriesGenerated {
 
   public static SNode sourceNodeQuery_3444414697307455105(final IOperationContext operationContext, final SourceSubstituteMacroNodeContext _context) {
     return SLinkOperations.getTarget(SLinkOperations.getTarget(_context.getNode(), "root", false), "type", true);
+  }
+
+  public static SNode sourceNodeQuery_4120841425052733625(final IOperationContext operationContext, final SourceSubstituteMacroNodeContext _context) {
+    return SLinkOperations.getTarget(SLinkOperations.getTarget(_context.getNode(), "root", false), "type", true);
+  }
+
+  public static SNode sourceNodeQuery_4120841425052733634(final IOperationContext operationContext, final SourceSubstituteMacroNodeContext _context) {
+    return SLinkOperations.getTarget(SLinkOperations.getTarget(_context.getNode(), "root", false), "type", true);
+  }
+
+  public static SNode sourceNodeQuery_4120841425052733643(final IOperationContext operationContext, final SourceSubstituteMacroNodeContext _context) {
+    return ((SLinkOperations.getTarget(SLinkOperations.getTarget(_context.getNode(), "globalText", true), "handler", true) != null) ?
+      SLinkOperations.getTarget(SLinkOperations.getTarget(SLinkOperations.getTarget(_context.getNode(), "globalText", true), "handler", true), "body", true) :
+      null
+    );
   }
 
   public static Iterable sourceNodesQuery_7707758858786044604(final IOperationContext operationContext, final SourceSubstituteMacroNodesContext _context) {

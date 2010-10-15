@@ -260,6 +260,7 @@
     <classNode dependClassName="jetbrains.mps.smodel.SNode" />
     <classNode dependClassName="jetbrains.mps.xmlQuery.structure.XMLSAXFieldDeclaration" />
     <classNode dependClassName="jetbrains.mps.xmlQuery.structure.XMLSAXNodeRule" />
+    <classNode dependClassName="jetbrains.mps.xmlQuery.structure.XMLSAXTextRule" />
     <classNode extendsClassName="jetbrains.mps.lang.core.structure.BaseConcept" />
   </dependency>
   <dependency className="jetbrains.mps.xmlQuery.structure.XMLSAXTextHandler" file="XMLSAXTextHandler.java">
