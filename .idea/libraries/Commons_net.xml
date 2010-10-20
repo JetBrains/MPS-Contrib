@@ -3,7 +3,9 @@
     <CLASSES>
       <root url="jar://$PROJECT_DIR$/lib/commons-net-2.0-patched.jar!/" />
     </CLASSES>
-    <JAVADOC />
+    <JAVADOC>
+      <root url="http://commons.apache.org/net/api-release/" />
+    </JAVADOC>
     <SOURCES />
   </library>
 </component>

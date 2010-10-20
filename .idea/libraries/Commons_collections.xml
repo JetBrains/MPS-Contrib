@@ -3,7 +3,9 @@
     <CLASSES>
       <root url="jar://$PROJECT_DIR$/lib/commons-collections.jar!/" />
     </CLASSES>
-    <JAVADOC />
+    <JAVADOC>
+      <root url="http://commons.apache.org/collections/api-3.1/" />
+    </JAVADOC>
     <SOURCES />
   </library>
 </component>

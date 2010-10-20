@@ -143,7 +143,7 @@ public class QueriesGenerated {
             ListSequence.fromList(result).addElement(new DefaultChildNodeSubstituteAction(outputConcept, item, _context.getParentNode(), _context.getCurrentTargetNode(), _context.getChildSetter(), operationContext.getScope()) {
               public SNode createChildNode(Object parameterObject, SModel model, String pattern) {
                 SNode tz = SConceptOperations.createNewNode("jetbrains.mps.baseLanguage.dates.structure.TimeZoneIDExpression", null);
-                SPropertyOperations.set(tz, "timezone_id", "" + ((item)));
+                SPropertyOperations.set(tz, "timezone_id", (item));
                 return tz;
               }
 
