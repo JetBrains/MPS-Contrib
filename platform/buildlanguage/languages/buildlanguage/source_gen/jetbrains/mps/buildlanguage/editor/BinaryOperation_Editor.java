@@ -73,7 +73,7 @@ public class BinaryOperation_Editor extends DefaultNodeEditor {
     EditorCell editorCell;
     editorCell = provider.createEditorCell(editorContext);
     editorCell.setCellId("conceptProperty_operation");
-    editorCell.setSubstituteInfo(new CompositeSubstituteInfo(editorContext, provider.getCellContext(), new SubstituteInfoPart[]{new BinaryOperation_Editor.BinaryOperation_Editor_replaceWith_BinaryOperation_cellMenu_a0b0()}));
+    editorCell.setSubstituteInfo(new CompositeSubstituteInfo(editorContext, provider.getCellContext(), new SubstituteInfoPart[]{new BinaryOperation_Editor.ReplaceWith_BinaryOperation_cellMenu_a0b0()}));
     SNode attributeConcept = provider.getRoleAttribute();
     Class attributeKind = provider.getRoleAttributeClass();
     if (attributeConcept != null) {
@@ -84,8 +84,8 @@ public class BinaryOperation_Editor extends DefaultNodeEditor {
     return editorCell;
   }
 
-  public static class BinaryOperation_Editor_replaceWith_BinaryOperation_cellMenu_a0b0 extends AbstractCellMenuPart_ReplaceNode_CustomNodeConcept {
-    public BinaryOperation_Editor_replaceWith_BinaryOperation_cellMenu_a0b0() {
+  public static class ReplaceWith_BinaryOperation_cellMenu_a0b0 extends AbstractCellMenuPart_ReplaceNode_CustomNodeConcept {
+    public ReplaceWith_BinaryOperation_cellMenu_a0b0() {
     }
 
     public String getReplacementConceptName() {

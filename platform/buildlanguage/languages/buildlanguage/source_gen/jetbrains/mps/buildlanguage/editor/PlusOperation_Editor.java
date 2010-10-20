@@ -82,7 +82,7 @@ public class PlusOperation_Editor extends DefaultNodeEditor {
       style.set(StyleAttributes.PADDING_LEFT, new Padding(0.8, Measure.SPACES));
       style.set(StyleAttributes.PADDING_RIGHT, new Padding(0.8, Measure.SPACES));
     }
-    editorCell.setSubstituteInfo(new CompositeSubstituteInfo(editorContext, provider.getCellContext(), new SubstituteInfoPart[]{new PlusOperation_Editor.PlusOperation_Editor_replaceWith_BinaryOperation_cellMenu_a0b0()}));
+    editorCell.setSubstituteInfo(new CompositeSubstituteInfo(editorContext, provider.getCellContext(), new SubstituteInfoPart[]{new PlusOperation_Editor.ReplaceWith_BinaryOperation_cellMenu_a0b0_0()}));
     SNode attributeConcept = provider.getRoleAttribute();
     Class attributeKind = provider.getRoleAttributeClass();
     if (attributeConcept != null) {
@@ -93,8 +93,8 @@ public class PlusOperation_Editor extends DefaultNodeEditor {
     return editorCell;
   }
 
-  public static class PlusOperation_Editor_replaceWith_BinaryOperation_cellMenu_a0b0 extends AbstractCellMenuPart_ReplaceNode_CustomNodeConcept {
-    public PlusOperation_Editor_replaceWith_BinaryOperation_cellMenu_a0b0() {
+  public static class ReplaceWith_BinaryOperation_cellMenu_a0b0_0 extends AbstractCellMenuPart_ReplaceNode_CustomNodeConcept {
+    public ReplaceWith_BinaryOperation_cellMenu_a0b0_0() {
     }
 
     public String getReplacementConceptName() {
