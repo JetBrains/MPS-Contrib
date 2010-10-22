@@ -37,8 +37,6 @@
       </mapping-priorities>
     </generator>
   </generators>
-  <classPath />
-  <languageRuntimeClassPath />
   <sourcePath />
   <extendedLanguages>
     <extendedLanguage>ceab5195-25ea-4f22-9b92-103b95ca8c0c(jetbrains.mps.lang.core)</extendedLanguage>
