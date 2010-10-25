@@ -295,7 +295,7 @@
         <node role="statement:3" type="jetbrains.mps.baseLanguage.structure.ReturnStatement:3" id="1173977750575">
           <node role="expression:3" type="jetbrains.mps.baseLanguage.structure.GenericNewExpression:3" id="1217888404624">
             <node role="creator:3" type="jetbrains.mps.baseLanguage.structure.ClassCreator:3" id="1217888404626">
-              <link role="baseMethodDeclaration:3" targetNodeId="7.~SimpleSearchScope.&lt;init&gt;(java.util.List)" resolveInfo="SimpleSearchScope" />
+              <link role="baseMethodDeclaration:3" targetNodeId="7.~SimpleSearchScope.&lt;init&gt;(java.util.Collection)" resolveInfo="SimpleSearchScope" />
               <node role="actualArgument:3" type="jetbrains.mps.baseLanguage.structure.LocalVariableReference:3" id="1173977758115">
                 <link role="variableDeclaration:3" targetNodeId="1173977473303:9" resolveInfo="formats" />
               </node>
@@ -469,7 +469,7 @@
         <node role="statement:3" type="jetbrains.mps.baseLanguage.structure.ReturnStatement:3" id="34521615669577042">
           <node role="expression:3" type="jetbrains.mps.baseLanguage.structure.GenericNewExpression:3" id="34521615669577043">
             <node role="creator:3" type="jetbrains.mps.baseLanguage.structure.ClassCreator:3" id="34521615669577044">
-              <link role="baseMethodDeclaration:3" targetNodeId="7.~SimpleSearchScope.&lt;init&gt;(java.util.List)" resolveInfo="SimpleSearchScope" />
+              <link role="baseMethodDeclaration:3" targetNodeId="7.~SimpleSearchScope.&lt;init&gt;(java.util.Collection)" resolveInfo="SimpleSearchScope" />
               <node role="actualArgument:3" type="jetbrains.mps.baseLanguage.structure.LocalVariableReference:3" id="34521615669577045">
                 <link role="variableDeclaration:3" targetNodeId="34521615669577006:9" resolveInfo="formats" />
               </node>
@@ -592,7 +592,7 @@
         <node role="statement:3" type="jetbrains.mps.baseLanguage.structure.ReturnStatement:3" id="5581663871699705152">
           <node role="expression:3" type="jetbrains.mps.baseLanguage.structure.GenericNewExpression:3" id="5581663871699705153">
             <node role="creator:3" type="jetbrains.mps.baseLanguage.structure.ClassCreator:3" id="5581663871699705154">
-              <link role="baseMethodDeclaration:3" targetNodeId="7.~SimpleSearchScope.&lt;init&gt;(java.util.List)" resolveInfo="SimpleSearchScope" />
+              <link role="baseMethodDeclaration:3" targetNodeId="7.~SimpleSearchScope.&lt;init&gt;(java.util.Collection)" resolveInfo="SimpleSearchScope" />
               <node role="actualArgument:3" type="jetbrains.mps.baseLanguage.structure.LocalVariableReference:3" id="5581663871699705155">
                 <link role="variableDeclaration:3" targetNodeId="5581663871699705118:9" resolveInfo="formats" />
               </node>
