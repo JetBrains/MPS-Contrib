@@ -9,7 +9,7 @@ import jetbrains.mps.typesystem.inference.TypeCheckingContext;
 import jetbrains.mps.lang.typesystem.runtime.IsApplicableStatus;
 import jetbrains.mps.lang.smodel.generator.smodelAdapter.SLinkOperations;
 import jetbrains.mps.buildlanguage.behavior.Enum_Behavior;
-import jetbrains.mps.intentions.BaseIntentionProvider;
+import jetbrains.mps.errors.BaseQuickFixProvider;
 import jetbrains.mps.typesystem.inference.IErrorTarget;
 import jetbrains.mps.typesystem.inference.NodeErrorTarget;
 import jetbrains.mps.nodeEditor.IErrorReporter;
@@ -24,7 +24,7 @@ public class checkAttributeDeclarationDefaultValueIsInEnum_NonTypesystemRule ext
     if ((SLinkOperations.getTarget(genericAttributeDeclaration, "default", true) != null) && (SLinkOperations.getTarget(genericAttributeDeclaration, "enum", true) != null)) {
       if (!(Enum_Behavior.call_inEnum_1213877413964(SLinkOperations.getTarget(genericAttributeDeclaration, "enum", true), SLinkOperations.getTarget(genericAttributeDeclaration, "default", true)))) {
         {
-          BaseIntentionProvider intentionProvider = null;
+          BaseQuickFixProvider intentionProvider = null;
           IErrorTarget errorTarget = new NodeErrorTarget();
           IErrorReporter _reporter_2309309498 = typeCheckingContext.reportTypeError(genericAttributeDeclaration, "Default value of attribute \"" + SPropertyOperations.getString(genericAttributeDeclaration, "name") + "\" must be in " + Enum_Behavior.call_toString_1213877413898(SLinkOperations.getTarget(genericAttributeDeclaration, "enum", true)), "r:eac20369-5993-49cc-a9ac-fbeb7a91d81f(jetbrains.mps.build.generictasks.typesystem)", "353793545802854645", intentionProvider, errorTarget);
         }
@@ -32,7 +32,7 @@ public class checkAttributeDeclarationDefaultValueIsInEnum_NonTypesystemRule ext
     }
     if (SPropertyOperations.getString(genericAttributeDeclaration, "name") != null && SPropertyOperations.getString(genericAttributeDeclaration, "name").contains(" ")) {
       {
-        BaseIntentionProvider intentionProvider = null;
+        BaseQuickFixProvider intentionProvider = null;
         IErrorTarget errorTarget = new NodeErrorTarget();
         IErrorReporter _reporter_2309309498 = typeCheckingContext.reportTypeError(genericAttributeDeclaration, "Attribute name contains whitespaces!", "r:eac20369-5993-49cc-a9ac-fbeb7a91d81f(jetbrains.mps.build.generictasks.typesystem)", "353793545802854662", intentionProvider, errorTarget);
       }

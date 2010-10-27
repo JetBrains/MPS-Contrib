@@ -12,7 +12,7 @@ import jetbrains.mps.build.generictasks.behavior.ITaskDeclaration_Behavior;
 import jetbrains.mps.lang.smodel.generator.smodelAdapter.SLinkOperations;
 import jetbrains.mps.build.generictasks.behavior.AttributeDeclaration_Behavior;
 import jetbrains.mps.lang.smodel.generator.smodelAdapter.SPropertyOperations;
-import jetbrains.mps.intentions.BaseIntentionProvider;
+import jetbrains.mps.errors.BaseQuickFixProvider;
 import jetbrains.mps.typesystem.inference.IErrorTarget;
 import jetbrains.mps.typesystem.inference.NodeErrorTarget;
 import jetbrains.mps.nodeEditor.IErrorReporter;
@@ -36,7 +36,7 @@ public class checkAllRequiredAttributesPresent_NonTypesystemRule extends Abstrac
         }
         if (!(found)) {
           {
-            BaseIntentionProvider intentionProvider = null;
+            BaseQuickFixProvider intentionProvider = null;
             IErrorTarget errorTarget = new NodeErrorTarget();
             IErrorReporter _reporter_2309309498 = typeCheckingContext.reportTypeError(genericTaskCall, "Required attribute " + SPropertyOperations.getString(attrDecl, "name") + " is undefined.", "r:eac20369-5993-49cc-a9ac-fbeb7a91d81f(jetbrains.mps.build.generictasks.typesystem)", "353793545802854846", intentionProvider, errorTarget);
           }

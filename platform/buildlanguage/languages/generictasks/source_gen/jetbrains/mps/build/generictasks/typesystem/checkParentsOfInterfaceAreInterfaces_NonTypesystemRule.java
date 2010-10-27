@@ -10,7 +10,7 @@ import jetbrains.mps.lang.typesystem.runtime.IsApplicableStatus;
 import jetbrains.mps.internal.collections.runtime.ListSequence;
 import jetbrains.mps.lang.smodel.generator.smodelAdapter.SLinkOperations;
 import jetbrains.mps.lang.smodel.generator.smodelAdapter.SNodeOperations;
-import jetbrains.mps.intentions.BaseIntentionProvider;
+import jetbrains.mps.errors.BaseQuickFixProvider;
 import jetbrains.mps.typesystem.inference.IErrorTarget;
 import jetbrains.mps.typesystem.inference.NodeErrorTarget;
 import jetbrains.mps.nodeEditor.IErrorReporter;
@@ -25,7 +25,7 @@ public class checkParentsOfInterfaceAreInterfaces_NonTypesystemRule extends Abst
     for (SNode parent : ListSequence.fromList(SLinkOperations.getTargets(genericInterfaceDeclaration, "parents", true))) {
       if (!(SNodeOperations.isInstanceOf(SLinkOperations.getTarget(parent, "declaration", false), "jetbrains.mps.build.generictasks.structure.TaskInterfaceDeclaration"))) {
         {
-          BaseIntentionProvider intentionProvider = null;
+          BaseQuickFixProvider intentionProvider = null;
           IErrorTarget errorTarget = new NodeErrorTarget();
           IErrorReporter _reporter_2309309498 = typeCheckingContext.reportTypeError(parent, SPropertyOperations.getString(SLinkOperations.getTarget(parent, "declaration", false), "name") + " is not an interface!", "r:eac20369-5993-49cc-a9ac-fbeb7a91d81f(jetbrains.mps.build.generictasks.typesystem)", "353793545802854735", intentionProvider, errorTarget);
         }
