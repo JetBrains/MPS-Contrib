@@ -8,7 +8,7 @@ import jetbrains.mps.smodel.SNode;
 import jetbrains.mps.typesystem.inference.TypeCheckingContext;
 import jetbrains.mps.lang.typesystem.runtime.IsApplicableStatus;
 import jetbrains.mps.lang.smodel.generator.smodelAdapter.SLinkOperations;
-import jetbrains.mps.intentions.BaseIntentionProvider;
+import jetbrains.mps.errors.BaseQuickFixProvider;
 import jetbrains.mps.typesystem.inference.IErrorTarget;
 import jetbrains.mps.typesystem.inference.NodeErrorTarget;
 import jetbrains.mps.nodeEditor.IErrorReporter;
@@ -23,13 +23,13 @@ public class check_XMLElementType_references_NonTypesystemRule extends AbstractN
     if ((SLinkOperations.getTarget(elementType, "schema", false) != null)) {
       if ((SLinkOperations.getTarget(elementType, "complexType", false) == null)) {
         {
-          BaseIntentionProvider intentionProvider = null;
+          BaseQuickFixProvider intentionProvider = null;
           IErrorTarget errorTarget = new NodeErrorTarget();
           IErrorReporter _reporter_2309309498 = typeCheckingContext.reportTypeError(elementType, "Element type is not specified", "r:d89ddc4c-de44-408f-97b1-095c4af64bfb(jetbrains.mps.xmlQuery.typesystem)", "7129398160684613517", intentionProvider, errorTarget);
         }
       } else if (SNodeOperations.getAncestor(SLinkOperations.getTarget(elementType, "complexType", false), "jetbrains.mps.xmlSchema.structure.Schema", false, false) != SLinkOperations.getTarget(elementType, "schema", false)) {
         {
-          BaseIntentionProvider intentionProvider = null;
+          BaseQuickFixProvider intentionProvider = null;
           IErrorTarget errorTarget = new NodeErrorTarget();
           IErrorReporter _reporter_2309309498 = typeCheckingContext.reportTypeError(elementType, "Element type is from different schema", "r:d89ddc4c-de44-408f-97b1-095c4af64bfb(jetbrains.mps.xmlQuery.typesystem)", "7129398160684613527", intentionProvider, errorTarget);
         }
