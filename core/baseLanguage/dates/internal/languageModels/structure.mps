@@ -5,6 +5,7 @@
     <refactoringContext modelVersion="1">
       <refactoring refactoringClass="jetbrains.mps.refactoring.renameLanguage.LanguageRenamer$MyRefactoring" />
       <moveMap />
+      <sourceMap />
       <conceptFeatureMap>
         <entry>
           <key featureName="DateTimeIntPropertyFormatConfiguration" conceptFQName="jetbrains.mps.baseLanguage.ext.dates.internal.structure.DateTimeIntPropertyFormatConfiguration" featureKind="CONCEPT" />
@@ -67,6 +68,7 @@
     <refactoringContext modelVersion="2">
       <refactoring refactoringClass="jetbrains.mps.refactoring.renameLanguage.LanguageRenamer$MyRefactoring" />
       <moveMap />
+      <sourceMap />
       <conceptFeatureMap>
         <entry>
           <key featureName="DateTimeIntPropertyFormatConfiguration" conceptFQName="jetbrains.mps.baseLanguage.dates.internal.structure.DateTimeIntPropertyFormatConfiguration" featureKind="CONCEPT" />
@@ -270,6 +272,7 @@
           <value modelUID="r:00000000-0000-4000-0000-011c89590454(jetbrains.mps.samples.matrixLanguage.structure)" nodeId="1239356138941" />
         </entry>
       </moveMap>
+      <sourceMap />
       <conceptFeatureMap>
         <entry>
           <key featureName="MatrixType" conceptFQName="jetbrains.mps.baseLanguage.datesInternal.structure.MatrixType" featureKind="CONCEPT" />

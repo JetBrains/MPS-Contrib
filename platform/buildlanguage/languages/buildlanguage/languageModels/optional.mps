@@ -8410,6 +8410,7 @@
           <value modelUID="r:3a06e273-15da-4a30-a12e-b0f88177e972(jetbrains.mps.build.generictasks.optional)" nodeId="353793545802853614" />
         </entry>
       </moveMap>
+      <sourceMap />
       <conceptFeatureMap />
     </refactoringContext>
   </refactoringHistory>

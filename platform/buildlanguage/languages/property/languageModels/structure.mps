@@ -5,6 +5,7 @@
     <refactoringContext modelVersion="0">
       <refactoring refactoringClass="jetbrains.mps.refactoring.renameLanguage.LanguageRenamer$MyRefactoring" />
       <moveMap />
+      <sourceMap />
       <conceptFeatureMap>
         <entry>
           <key featureName="PropertyNode" conceptFQName="jetbrains.mps.property.structure.PropertyNode" featureKind="CONCEPT" />
@@ -15,6 +16,7 @@
     <refactoringContext modelVersion="1">
       <refactoring refactoringClass="jetbrains.mps.refactoring.renameLanguage.LanguageRenamer$MyRefactoring" />
       <moveMap />
+      <sourceMap />
       <conceptFeatureMap>
         <entry>
           <key featureName="PropertyNode" conceptFQName="jetbrains.mps.build.propertylanguage.structure.PropertyNode" featureKind="CONCEPT" />

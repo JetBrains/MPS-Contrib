@@ -47,10 +47,6 @@
       <module fileurl="file://$PROJECT_DIR$/core/baseLanguage/javadoc/javadoc.iml" filepath="$PROJECT_DIR$/core/baseLanguage/javadoc/javadoc.iml" group="core/baseLanguage" />
       <module fileurl="file://$PROJECT_DIR$/core/kernel/kernel.iml" filepath="$PROJECT_DIR$/core/kernel/kernel.iml" group="core/kernel" />
       <module fileurl="file://$PROJECT_DIR$/core/baseLanguage/logging/logging.iml" filepath="$PROJECT_DIR$/core/baseLanguage/logging/logging.iml" group="core/baseLanguage" />
-      <module fileurl="file://$PROJECT_DIR$/core/baseLanguage/math/math.iml" filepath="$PROJECT_DIR$/core/baseLanguage/math/math.iml" group="core/baseLanguage/math" />
-      <module fileurl="file://$PROJECT_DIR$/core/baseLanguage/math/runtime/math-runtime.iml" filepath="$PROJECT_DIR$/core/baseLanguage/math/runtime/math-runtime.iml" group="core/baseLanguage/math" />
-      <module fileurl="file://$PROJECT_DIR$/core/baseLanguage/money/money.iml" filepath="$PROJECT_DIR$/core/baseLanguage/money/money.iml" group="core/baseLanguage/money" />
-      <module fileurl="file://$PROJECT_DIR$/core/baseLanguage/money/runtime/moneyRuntime.iml" filepath="$PROJECT_DIR$/core/baseLanguage/money/runtime/moneyRuntime.iml" group="core/baseLanguage/money" />
       <module fileurl="file://$PROJECT_DIR$/core/languageDesign/mps-lite/mps-lite.iml" filepath="$PROJECT_DIR$/core/languageDesign/mps-lite/mps-lite.iml" group="core/languageDesign" />
       <module fileurl="file://$PROJECT_DIR$/core/baseLanguage/overloadedOperators/overloadedOperators.iml" filepath="$PROJECT_DIR$/core/baseLanguage/overloadedOperators/overloadedOperators.iml" />
       <module fileurl="file://$PROJECT_DIR$/platform/buildlanguage/languages/packaging/packaging.iml" filepath="$PROJECT_DIR$/platform/buildlanguage/languages/packaging/packaging.iml" group="platform/build" />

@@ -430,6 +430,7 @@
           <value modelUID="r:b8d9ec67-9c51-4cdf-b8f4-1f9375fd5f23(jetbrains.mps.build.generictasks.editor)" nodeId="353793545802854525" />
         </entry>
       </moveMap>
+      <sourceMap />
       <conceptFeatureMap />
     </refactoringContext>
   </refactoringHistory>

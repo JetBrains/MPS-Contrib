@@ -5,6 +5,7 @@
     <refactoringContext modelVersion="0">
       <refactoring refactoringClass="jetbrains.mps.refactoring.renameLanguage.LanguageRenamer$MyRefactoring" />
       <moveMap />
+      <sourceMap />
       <conceptFeatureMap>
         <entry>
           <key featureName="Attribute" conceptFQName="jetbrains.mps.xml.structure.Attribute" featureKind="CONCEPT" />

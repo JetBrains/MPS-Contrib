@@ -5,6 +5,7 @@
     <refactoringContext modelVersion="0">
       <refactoring refactoringClass="jetbrains.mps.refactoring.renameLanguage.LanguageRenamer$MyRefactoring" />
       <moveMap />
+      <sourceMap />
       <conceptFeatureMap>
         <entry>
           <key featureName="AbsDateTimeMinusOperation" conceptFQName="jetbrains.mps.baseLanguage.ext.dates.lang.structure.AbsDateTimeMinusOperation" featureKind="CONCEPT" />
@@ -163,6 +164,7 @@
     <refactoringContext modelVersion="1">
       <refactoring refactoringClass="jetbrains.mps.lang.structure.scripts.RenameConcept" />
       <moveMap />
+      <sourceMap />
       <conceptFeatureMap>
         <entry>
           <key featureName="InTimezone" conceptFQName="jetbrains.mps.baseLanguage.dates.structure.InTimezone" featureKind="CONCEPT" />
