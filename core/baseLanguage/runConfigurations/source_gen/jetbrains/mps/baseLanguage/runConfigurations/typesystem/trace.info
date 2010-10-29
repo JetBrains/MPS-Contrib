@@ -15,8 +15,8 @@
   </root>
   <root nodeId="7976893777486251143">
     <nodeInfo nodeId="7976893777486251164" conceptFqName="jetbrains.mps.baseLanguage.structure.LocalVariableDeclarationStatement" fileName="check_IsApplicableBlock_NonTypesystemRule.java" startLine="24" startPosition="7" endLine="25" endPosition="54" />
-    <nodeInfo nodeId="7976893777486251164" conceptFqName="jetbrains.mps.baseLanguage.structure.LocalVariableDeclarationStatement" fileName="check_IsApplicableBlock_NonTypesystemRule.java" startLine="25" startPosition="54" endLine="26" endPosition="57" />
-    <nodeInfo nodeId="7976893777486251164" conceptFqName="jetbrains.mps.baseLanguage.structure.LocalVariableDeclarationStatement" fileName="check_IsApplicableBlock_NonTypesystemRule.java" startLine="26" startPosition="57" endLine="27" endPosition="293" />
+    <nodeInfo nodeId="7976893777486251164" conceptFqName="jetbrains.mps.baseLanguage.structure.LocalVariableDeclarationStatement" fileName="check_IsApplicableBlock_NonTypesystemRule.java" startLine="25" startPosition="54" endLine="26" endPosition="60" />
+    <nodeInfo nodeId="7976893777486251164" conceptFqName="jetbrains.mps.baseLanguage.structure.LocalVariableDeclarationStatement" fileName="check_IsApplicableBlock_NonTypesystemRule.java" startLine="26" startPosition="60" endLine="27" endPosition="293" />
     <nodeInfo nodeId="7976893777486251164" conceptFqName="jetbrains.mps.baseLanguage.structure.BlockStatement" fileName="check_IsApplicableBlock_NonTypesystemRule.java" startLine="23" startPosition="173" endLine="28" endPosition="7" />
     <nodeInfo nodeId="7976893777486251146" conceptFqName="jetbrains.mps.baseLanguage.structure.ForeachStatement" fileName="check_IsApplicableBlock_NonTypesystemRule.java" startLine="22" startPosition="130" endLine="29" endPosition="5" />
     <scopeInfo nodeId="7976893777486251164" fileName="check_IsApplicableBlock_NonTypesystemRule.java" startLine="24" startPosition="7" endLine="27" endPosition="293" />

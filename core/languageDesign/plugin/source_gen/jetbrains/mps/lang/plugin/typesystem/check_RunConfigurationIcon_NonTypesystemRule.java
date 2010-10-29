@@ -11,8 +11,8 @@ import jetbrains.mps.lang.smodel.generator.smodelAdapter.SLinkOperations;
 import org.apache.commons.lang.StringUtils;
 import jetbrains.mps.lang.smodel.generator.smodelAdapter.SPropertyOperations;
 import jetbrains.mps.errors.BaseQuickFixProvider;
-import jetbrains.mps.typesystem.inference.IErrorTarget;
-import jetbrains.mps.typesystem.inference.NodeErrorTarget;
+import jetbrains.mps.errors.messageTargets.MessageTarget;
+import jetbrains.mps.errors.messageTargets.NodeMessageTarget;
 import jetbrains.mps.errors.IErrorReporter;
 import jetbrains.mps.smodel.SModelUtil_new;
 
@@ -24,7 +24,7 @@ public class check_RunConfigurationIcon_NonTypesystemRule extends AbstractNonTyp
     if ((SLinkOperations.getTarget(runConfigurationDeclaration, "iconBlock", true) == null) && ((SLinkOperations.getTarget(runConfigurationDeclaration, "configType", false) != null) && StringUtils.isEmpty(SPropertyOperations.getString(SLinkOperations.getTarget(runConfigurationDeclaration, "configType", false), "iconPath")))) {
       {
         BaseQuickFixProvider intentionProvider = null;
-        IErrorTarget errorTarget = new NodeErrorTarget();
+        MessageTarget errorTarget = new NodeMessageTarget();
         IErrorReporter _reporter_2309309498 = typeCheckingContext.reportTypeError(runConfigurationDeclaration, "Run Configuration Should Declare An Icon", "r:00000000-0000-4000-0000-011c89590364(jetbrains.mps.lang.plugin.typesystem)", "6986911548761826060", intentionProvider, errorTarget);
       }
     }
