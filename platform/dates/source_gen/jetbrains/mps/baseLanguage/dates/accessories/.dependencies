@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<dependenciesRoot>
+  <dependency className="jetbrains.mps.baseLanguage.dates.accessories.DateTimeUtil">
+    <classNode dependClassName="jetbrains.mps.baseLanguage.closures.runtime.Result" />
+    <classNode dependClassName="jetbrains.mps.baseLanguage.closures.runtime._UnrestrictedFunctionTypes" />
+    <classNode dependClassName="jetbrains.mps.baseLanguage.dates.runtime.DateTimeOperations" />
+    <classNode dependClassName="org.joda.time.DateTimeZone" />
+  </dependency>
+</dependenciesRoot>
+
