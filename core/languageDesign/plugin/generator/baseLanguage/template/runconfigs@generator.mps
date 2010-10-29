@@ -17,32 +17,14 @@
   <language namespace="13744753-c81f-424a-9c1b-cf8943bf4e86(jetbrains.mps.lang.sharedConcepts)" />
   <language namespace="d4615e3b-d671-4ba9-af01-2b78369b0ba7(jetbrains.mps.lang.pattern)" />
   <languageAspect modelUID="r:00000000-0000-4000-0000-011c89590288(jetbrains.mps.lang.core.structure)" version="0" />
-  <languageAspect modelUID="r:00000000-0000-4000-0000-011c895902db(jetbrains.mps.baseLanguage.blTypes.constraints)" version="0" />
-  <languageAspect modelUID="r:00000000-0000-4000-0000-011c895902fb(jetbrains.mps.lang.smodel.constraints)" version="21" />
-  <languageAspect modelUID="r:00000000-0000-4000-0000-011c89590334(jetbrains.mps.baseLanguage.closures.constraints)" version="2" />
-  <languageAspect modelUID="r:00000000-0000-4000-0000-011c8959028c(jetbrains.mps.lang.structure.constraints)" version="11" />
-  <languageAspect modelUID="r:00000000-0000-4000-0000-011c89590283(jetbrains.mps.lang.core.constraints)" version="2" />
   <languageAspect modelUID="r:00000000-0000-4000-0000-011c895902f3(jetbrains.mps.lang.generator.generationContext.structure)" version="0" />
-  <languageAspect modelUID="r:00000000-0000-4000-0000-011c89590292(jetbrains.mps.lang.structure.structure)" version="0" />
   <languageAspect modelUID="r:00000000-0000-4000-0000-011c89590301(jetbrains.mps.lang.smodel.structure)" version="16" />
   <languageAspect modelUID="r:00000000-0000-4000-0000-011c895902ca(jetbrains.mps.baseLanguage.structure)" version="3" />
   <languageAspect modelUID="r:00000000-0000-4000-0000-011c89590338(jetbrains.mps.baseLanguage.closures.structure)" version="3" />
   <languageAspect modelUID="r:00000000-0000-4000-0000-011c895902e8(jetbrains.mps.lang.generator.structure)" version="2" />
-  <languageAspect modelUID="r:00000000-0000-4000-0000-011c895902e2(jetbrains.mps.lang.generator.constraints)" version="16" />
-  <languageAspect modelUID="r:00000000-0000-4000-0000-011c895902ba(jetbrains.mps.lang.sharedConcepts.constraints)" version="0" />
-  <languageAspect modelUID="r:00000000-0000-4000-0000-011c89590361(jetbrains.mps.lang.plugin.constraints)" version="19" />
-  <languageAspect modelUID="r:00000000-0000-4000-0000-011c89590368(jetbrains.mps.lang.plugin.structure)" version="23" />
   <languageAspect modelUID="r:00000000-0000-4000-0000-011c895902bc(jetbrains.mps.lang.sharedConcepts.structure)" version="0" />
-  <languageAspect modelUID="r:00000000-0000-4000-0000-011c8959036e(jetbrains.mps.baseLanguage.classifiers.constraints)" version="7" />
-  <languageAspect modelUID="r:00000000-0000-4000-0000-011c895902c1(jetbrains.mps.baseLanguage.constraints)" version="83" />
-  <languageAspect modelUID="r:00000000-0000-4000-0000-011c89590328(jetbrains.mps.baseLanguage.collections.constraints)" version="6" />
   <languageAspect modelUID="r:00000000-0000-4000-0000-011c8959032e(jetbrains.mps.baseLanguage.collections.structure)" version="7" />
-  <languageAspect modelUID="r:00000000-0000-4000-0000-011c895902ae(jetbrains.mps.lang.typesystem.constraints)" version="17" />
-  <languageAspect modelUID="r:00000000-0000-4000-0000-011c895902b4(jetbrains.mps.lang.typesystem.structure)" version="3" />
-  <languageAspect modelUID="r:00000000-0000-4000-0000-011c89590340(jetbrains.mps.lang.pattern.constraints)" version="2" />
-  <languageAspect modelUID="r:00000000-0000-4000-0000-011c8959033d(jetbrains.mps.lang.annotations.structure)" version="0" />
   <languageAspect modelUID="r:00000000-0000-4000-0000-011c89590373(jetbrains.mps.baseLanguage.classifiers.structure)" version="0" />
-  <languageAspect modelUID="r:00000000-0000-4000-0000-011c89590345(jetbrains.mps.lang.pattern.structure)" version="0" />
   <languageAspect modelUID="r:00000000-0000-4000-0000-011c8959034b(jetbrains.mps.lang.quotation.structure)" version="0" />
   <languageAspect modelUID="r:00000000-0000-4000-0000-011c895903ac(jetbrains.mps.baseLanguageInternal.structure)" version="1" />
   <languageAspect modelUID="r:309aeee7-bee8-445c-b31d-35928d1da75f(jetbrains.mps.baseLanguage.tuples.structure)" version="2" />
@@ -547,14 +529,14 @@
       <link role="labelDeclaration:2" targetNodeId="446387597135509140" resolveInfo="map_ConfigCreatorClass" />
     </node>
     <node role="reductionMappingRule:2" type="jetbrains.mps.lang.generator.structure.Reduction_MappingRule:2" id="9061443648117368108">
-      <property name="package:2" value="RunConfigs.Configuration.Execute.Statements" />
+      <property name="virtualPackage:2" value="RunConfigs.Configuration.Execute.Statements" />
       <link role="applicableConcept:2" targetNodeId="45.9061443648117368091:23" resolveInfo="ConsoleType" />
       <node role="ruleConsequence:2" type="jetbrains.mps.lang.generator.structure.TemplateDeclarationReference:2" id="9061443648117368110">
         <link role="template:2" targetNodeId="9061443648117368111" resolveInfo="reduce_ConsoleType" />
       </node>
     </node>
     <node role="reductionMappingRule:2" type="jetbrains.mps.lang.generator.structure.Reduction_MappingRule:2" id="9061443648117368161">
-      <property name="package:2" value="RunConfigs.Configuration.Execute.Statements" />
+      <property name="virtualPackage:2" value="RunConfigs.Configuration.Execute.Statements" />
       <link role="applicableConcept:2" targetNodeId="45.9061443648117368090:23" resolveInfo="ConsoleExpression" />
       <node role="ruleConsequence:2" type="jetbrains.mps.lang.generator.structure.TemplateDeclarationReference:2" id="9061443648117368163">
         <link role="template:2" targetNodeId="9061443648117368164" resolveInfo="reduce_ConsoleExpression" />
@@ -591,7 +573,7 @@
       </node>
     </node>
     <node role="reductionMappingRule:2" type="jetbrains.mps.lang.generator.structure.Reduction_MappingRule:2" id="5508914264442964680">
-      <property name="package:2" value="Tool" />
+      <property name="virtualPackage:2" value="Tool" />
       <link role="applicableConcept:2" targetNodeId="45.1203071677434:23" resolveInfo="ToolDeclaration" />
       <node role="ruleConsequence:2" type="jetbrains.mps.lang.generator.structure.TemplateDeclarationReference:2" id="5508914264442964682">
         <link role="template:2" targetNodeId="5508914264442964683" resolveInfo="reduce_ToolDeclaration" />
@@ -3598,7 +3580,7 @@
   </node>
   <node type="jetbrains.mps.lang.generator.structure.TemplateDeclaration:2" id="7840798570675188771">
     <property name="name:2" value="reduce_ActionsStatement" />
-    <property name="package:2" value="Configuration.Execute" />
+    <property name="virtualPackage:2" value="Configuration.Execute" />
     <link role="applicableConcept:2" targetNodeId="45.678887849223472892:23" resolveInfo="ActionsStatement" />
     <node role="contentNode:2" type="jetbrains.mps.baseLanguage.structure.InstanceMethodDeclaration:3" id="7840798570675188795">
       <property name="isAbstract:3" value="false" />
@@ -3806,7 +3788,7 @@
   </node>
   <node type="jetbrains.mps.lang.generator.structure.TemplateDeclaration:2" id="7840798570675188774">
     <property name="name:2" value="reduce_ExecutionConsoleStatement" />
-    <property name="package:2" value="Configuration.Execute" />
+    <property name="virtualPackage:2" value="Configuration.Execute" />
     <link role="applicableConcept:2" targetNodeId="45.678887849223472894:23" resolveInfo="ExecutionConsoleStatement" />
     <node role="contentNode:2" type="jetbrains.mps.baseLanguage.structure.InstanceMethodDeclaration:3" id="7840798570675189415">
       <property name="isAbstract:3" value="false" />
@@ -3914,7 +3896,7 @@
   </node>
   <node type="jetbrains.mps.lang.generator.structure.TemplateDeclaration:2" id="7840798570675188777">
     <property name="name:2" value="reduce_ProcessHandlerStatement" />
-    <property name="package:2" value="Configuration.Execute" />
+    <property name="virtualPackage:2" value="Configuration.Execute" />
     <link role="applicableConcept:2" targetNodeId="45.678887849223472893:23" resolveInfo="ProcessHandlerStatement" />
     <node role="contentNode:2" type="jetbrains.mps.baseLanguage.structure.InstanceMethodDeclaration:3" id="7840798570675189645">
       <property name="isAbstract:3" value="false" />
@@ -3979,7 +3961,7 @@
   </node>
   <node type="jetbrains.mps.lang.generator.structure.TemplateDeclaration:2" id="8821770403474041105">
     <property name="name:2" value="reduce_ReportErrorStatement" />
-    <property name="package:2" value="Configuration.IsCorrect" />
+    <property name="virtualPackage:2" value="Configuration.IsCorrect" />
     <link role="applicableConcept:2" targetNodeId="45.8821770403474030735:23" resolveInfo="ReportErrorStatement" />
     <node role="contentNode:2" type="jetbrains.mps.baseLanguage.structure.StatementList:3" id="8821770403474041709">
       <node role="statement:3" type="jetbrains.mps.baseLanguage.structure.ExpressionStatement:3" id="8821770403474041717">
@@ -4225,7 +4207,7 @@
   </node>
   <node type="jetbrains.mps.lang.generator.structure.TemplateDeclaration:2" id="3452826078638209770">
     <property name="name:2" value="reduce_ComponentReference" />
-    <property name="package:2" value="Configuration" />
+    <property name="virtualPackage:2" value="Configuration" />
     <link role="applicableConcept:2" targetNodeId="45.3452826078638178132:23" resolveInfo="ComponentReference" />
     <node role="contentNode:2" type="jetbrains.mps.baseLanguage.structure.GenericNewExpression:3" id="3452826078638209774">
       <node role="creator:3" type="jetbrains.mps.baseLanguage.structure.AnonymousClassCreator:3" id="3452826078638209775">
@@ -4298,7 +4280,7 @@
   </node>
   <node type="jetbrains.mps.lang.generator.structure.TemplateDeclaration:2" id="7382861867148540630">
     <property name="name:2" value="reduce_PersistentPropertyReference_Config" />
-    <property name="package:2" value="Configuration" />
+    <property name="virtualPackage:2" value="Configuration" />
     <link role="applicableConcept:2" targetNodeId="3v.1197027756228:3" resolveInfo="DotExpression" />
     <node role="contentNode:2" type="jetbrains.mps.baseLanguage.structure.BlockStatement:3" id="7382861867148540631">
       <node role="statements:3" type="jetbrains.mps.baseLanguage.structure.StatementList:3" id="7382861867148540632">
@@ -4401,7 +4383,7 @@
   </node>
   <node type="jetbrains.mps.lang.generator.structure.TemplateDeclaration:2" id="6586153900349332385">
     <property name="name:2" value="reduce_ActionListStatement" />
-    <property name="package:2" value="Configuration.Execute" />
+    <property name="virtualPackage:2" value="Configuration.Execute" />
     <link role="applicableConcept:2" targetNodeId="45.6586153900349324059:23" resolveInfo="ActionListStatement" />
     <node role="contentNode:2" type="jetbrains.mps.baseLanguage.structure.InstanceMethodDeclaration:3" id="6586153900349332386">
       <property name="isAbstract:3" value="false" />
@@ -4470,7 +4452,7 @@
   </node>
   <node type="jetbrains.mps.baseLanguage.structure.ClassConcept:3" id="297139462068449337">
     <property name="name:3" value="OldConfigurationCreator" />
-    <property name="package:3" value="Create.Creator" />
+    <property name="virtualPackage:3" value="Create.Creator" />
     <node role="field:3" type="jetbrains.mps.baseLanguage.structure.FieldDeclaration:3" id="5447563960349297996">
       <property name="name:3" value="myConfig" />
       <node role="visibility:3" type="jetbrains.mps.baseLanguage.structure.PrivateVisibility:3" id="5447563960349297997" />
@@ -4761,7 +4743,7 @@
   </node>
   <node type="jetbrains.mps.lang.generator.structure.TemplateDeclaration:2" id="297139462068449351">
     <property name="name:2" value="reduce_CreateRunConfigStatement" />
-    <property name="package:2" value="Create" />
+    <property name="virtualPackage:2" value="Create" />
     <link role="applicableConcept:2" targetNodeId="45.7066926174333289651:23" resolveInfo="CreateRunConfigStatement" />
     <node role="contentNode:2" type="jetbrains.mps.baseLanguage.structure.ClassConcept:3" id="9068086904326285383">
       <property name="name:3" value="ConfigurationCreator" />
@@ -5412,7 +5394,7 @@
   </node>
   <node type="jetbrains.mps.lang.generator.structure.TemplateDeclaration:2" id="297139462068449354">
     <property name="name:2" value="reduce_RunConfigMainNodeStatement" />
-    <property name="package:2" value="Create" />
+    <property name="virtualPackage:2" value="Create" />
     <link role="applicableConcept:2" targetNodeId="45.8415911927033048376:23" resolveInfo="RunConfigMainNodeStatement" />
     <node role="contentNode:2" type="jetbrains.mps.baseLanguage.structure.ClassConcept:3" id="9068086904326275891">
       <property name="name:3" value="ConfigurationCreator" />
@@ -5526,7 +5508,7 @@
   </node>
   <node type="jetbrains.mps.lang.generator.structure.TemplateDeclaration:2" id="9061443648117364700">
     <property name="name:2" value="reduce_ProcessStatement" />
-    <property name="package:2" value="Configuration.Execute" />
+    <property name="virtualPackage:2" value="Configuration.Execute" />
     <link role="applicableConcept:2" targetNodeId="45.9061443648117357794:23" resolveInfo="ProcessStatement" />
     <node role="contentNode:2" type="jetbrains.mps.baseLanguage.structure.InstanceMethodDeclaration:3" id="9061443648117368258">
       <property name="isAbstract:3" value="false" />
@@ -5614,7 +5596,7 @@
   </node>
   <node type="jetbrains.mps.lang.generator.structure.TemplateDeclaration:2" id="9061443648117368111">
     <property name="name:2" value="reduce_ConsoleType" />
-    <property name="package:2" value="Configuration.Execute" />
+    <property name="virtualPackage:2" value="Configuration.Execute" />
     <link role="applicableConcept:2" targetNodeId="45.9061443648117368091:23" resolveInfo="ConsoleType" />
     <node role="contentNode:2" type="jetbrains.mps.baseLanguage.structure.ClassifierType:3" id="9061443648117368118">
       <link role="classifier:3" targetNodeId="35.~ConsoleViewImpl" resolveInfo="ConsoleViewImpl" />
@@ -5623,7 +5605,7 @@
   </node>
   <node type="jetbrains.mps.lang.generator.structure.TemplateDeclaration:2" id="9061443648117368164">
     <property name="name:2" value="reduce_ConsoleExpression" />
-    <property name="package:2" value="Configuration.Execute" />
+    <property name="virtualPackage:2" value="Configuration.Execute" />
     <link role="applicableConcept:2" targetNodeId="45.9061443648117368090:23" resolveInfo="ConsoleExpression" />
     <node role="contentNode:2" type="jetbrains.mps.baseLanguage.structure.InstanceMethodDeclaration:3" id="6483235410534834537">
       <property name="name:3" value="method" />
@@ -5657,7 +5639,7 @@
   </node>
   <node type="jetbrains.mps.baseLanguage.structure.ClassConcept:3" id="446387597135526729">
     <property name="name:3" value="ConfigurationCreatorTemplate" />
-    <property name="package:3" value="Create.Creator" />
+    <property name="virtualPackage:3" value="Create.Creator" />
     <node role="staticField:3" type="jetbrains.mps.baseLanguage.structure.StaticFieldDeclaration:3" id="3413190069412536879">
       <property name="name:3" value="LOG" />
       <property name="isFinal:3" value="true" />
@@ -6388,7 +6370,7 @@
   </node>
   <node type="jetbrains.mps.lang.generator.structure.TemplateDeclaration:2" id="446387597135550799">
     <property name="name:2" value="reduce_ModuleCreatorTarget" />
-    <property name="package:2" value="Create.Creator" />
+    <property name="virtualPackage:2" value="Create.Creator" />
     <link role="applicableConcept:2" targetNodeId="45.3856910426407529504:23" resolveInfo="ModuleCreatorTarget" />
     <node role="contentNode:2" type="jetbrains.mps.baseLanguage.structure.InstanceMethodDeclaration:3" id="446387597135550891">
       <property name="name:3" value="isApplicable" />
@@ -6418,7 +6400,7 @@
   </node>
   <node type="jetbrains.mps.lang.generator.structure.TemplateDeclaration:2" id="446387597135550802">
     <property name="name:2" value="reduce_ProjectCreatorTarget" />
-    <property name="package:2" value="Create.Creator" />
+    <property name="virtualPackage:2" value="Create.Creator" />
     <link role="applicableConcept:2" targetNodeId="45.1969840607717540885:23" resolveInfo="ProjectCreatorTarget" />
     <node role="contentNode:2" type="jetbrains.mps.baseLanguage.structure.InstanceMethodDeclaration:3" id="446387597135550869">
       <property name="name:3" value="isApplicable" />
@@ -6449,7 +6431,7 @@
   <visible index="8" modelUID="r:00000000-0000-4000-0000-011c89590301(jetbrains.mps.lang.smodel.structure)" />
   <node type="jetbrains.mps.lang.generator.structure.TemplateDeclaration:2" id="446387597135550805">
     <property name="name:2" value="reduce_NodesCreatorTarget" />
-    <property name="package:2" value="Create.Creator" />
+    <property name="virtualPackage:2" value="Create.Creator" />
     <link role="applicableConcept:2" targetNodeId="45.3994570451548100919:23" resolveInfo="NodesCreatorTarget" />
     <node role="contentNode:2" type="jetbrains.mps.baseLanguage.structure.InstanceMethodDeclaration:3" id="446387597135550902">
       <property name="name:3" value="isApplicable" />
@@ -6586,7 +6568,7 @@
   </node>
   <node type="jetbrains.mps.lang.generator.structure.TemplateDeclaration:2" id="5711758102250146872">
     <property name="name:2" value="reduce_ModelCreatorTarget" />
-    <property name="package:2" value="Create.Creator" />
+    <property name="virtualPackage:2" value="Create.Creator" />
     <link role="applicableConcept:2" targetNodeId="45.3856910426407529503:23" resolveInfo="ModelCreatorTarget" />
     <node role="contentNode:2" type="jetbrains.mps.baseLanguage.structure.InstanceMethodDeclaration:3" id="5711758102250146873">
       <property name="name:3" value="isApplicable" />
@@ -6621,7 +6603,7 @@
   </node>
   <node type="jetbrains.mps.lang.generator.structure.TemplateDeclaration:2" id="3994570451548110932">
     <property name="name:2" value="reduce_NodeCreatorTarget" />
-    <property name="package:2" value="Create.Creator" />
+    <property name="virtualPackage:2" value="Create.Creator" />
     <link role="applicableConcept:2" targetNodeId="45.3856910426407529501:23" resolveInfo="NodeCreatorTarget" />
     <node role="contentNode:2" type="jetbrains.mps.baseLanguage.structure.InstanceMethodDeclaration:3" id="3994570451548110933">
       <property name="name:3" value="isApplicable" />
@@ -6703,7 +6685,7 @@
   </node>
   <node type="jetbrains.mps.lang.generator.structure.TemplateDeclaration:2" id="4593326532895577366">
     <property name="name:2" value="reduce_GetUserDataExpression" />
-    <property name="package:2" value="Configuration.Execute" />
+    <property name="virtualPackage:2" value="Configuration.Execute" />
     <link role="applicableConcept:2" targetNodeId="45.492938830216689663:23" resolveInfo="GetUserDataExpression" />
     <node role="contentNode:2" type="jetbrains.mps.baseLanguage.structure.ClassConcept:3" id="4593326532895577369">
       <property name="name:3" value="Tmp" />
@@ -6804,7 +6786,7 @@
   </node>
   <node type="jetbrains.mps.lang.generator.structure.TemplateDeclaration:2" id="1347772807199312495">
     <property name="name:2" value="reduce_ExecuteConfigBlock" />
-    <property name="package:2" value="Configuration.Execute" />
+    <property name="virtualPackage:2" value="Configuration.Execute" />
     <link role="applicableConcept:2" targetNodeId="45.678887849223472884:23" resolveInfo="ExecuteConfigBlock" />
     <node role="contentNode:2" type="jetbrains.mps.baseLanguage.structure.Statement:3" id="1563971100923549094">
       <node role="templateFragment$attribute:3" type="jetbrains.mps.lang.generator.structure.TemplateFragment:2" id="1563971100923549095" />
@@ -6831,7 +6813,7 @@
   </node>
   <node type="jetbrains.mps.lang.generator.structure.TemplateDeclaration:2" id="1347772807199342339">
     <property name="name:2" value="reduce_CheckConfigurationBlock" />
-    <property name="package:2" value="Configuration.IsCorrect" />
+    <property name="virtualPackage:2" value="Configuration.IsCorrect" />
     <link role="applicableConcept:2" targetNodeId="45.678887849223472879:23" resolveInfo="CheckConfigurationBlock" />
     <node role="contentNode:2" type="jetbrains.mps.baseLanguage.structure.Statement:3" id="1414052598928851622">
       <node role="templateFragment$attribute:3" type="jetbrains.mps.lang.generator.structure.TemplateFragment:2" id="1414052598928851623" />
@@ -6858,7 +6840,7 @@
   </node>
   <node type="jetbrains.mps.lang.generator.structure.TemplateDeclaration:2" id="3636700473139096688">
     <property name="name:2" value="reduce_ParametrizedExecuteBlock" />
-    <property name="package:2" value="Configuration.Execute.Parametrized" />
+    <property name="virtualPackage:2" value="Configuration.Execute.Parametrized" />
     <link role="applicableConcept:2" targetNodeId="45.1110842925895076025:23" resolveInfo="ParametrizedExecuteBlock" />
     <node role="contentNode:2" type="jetbrains.mps.lang.plugin.structure.ExecuteConfigBlock:23" id="5507923377626961653">
       <node role="body:23" type="jetbrains.mps.baseLanguage.structure.StatementList:3" id="1633282062186470873">
@@ -7256,7 +7238,7 @@
   </node>
   <node type="jetbrains.mps.lang.generator.structure.TemplateDeclaration:2" id="7220350096173002506">
     <property name="name:2" value="reduce_Console_FunctionParameter" />
-    <property name="package:2" value="Configuration.Execute.Parametrized" />
+    <property name="virtualPackage:2" value="Configuration.Execute.Parametrized" />
     <link role="applicableConcept:2" targetNodeId="45.1110842925895076053:23" resolveInfo="Console_FunctionParameter" />
     <node role="contentNode:2" type="jetbrains.mps.lang.plugin.structure.ExecuteConfigBlock:23" id="7220350096173064994">
       <node role="body:23" type="jetbrains.mps.baseLanguage.structure.StatementList:3" id="7220350096173064995">
@@ -7411,7 +7393,7 @@
   </node>
   <node type="jetbrains.mps.lang.generator.structure.TemplateDeclaration:2" id="3018238135942868725">
     <property name="name:2" value="reduce_RunConfigurationMethodDeclaration" />
-    <property name="package:2" value="Configuration" />
+    <property name="virtualPackage:2" value="Configuration" />
     <link role="applicableConcept:2" targetNodeId="45.3018238135942601771:23" resolveInfo="RunConfigurationMethodDeclaration" />
     <node role="contentNode:2" type="jetbrains.mps.baseLanguage.structure.InstanceMethodDeclaration:3" id="3018238135942870218">
       <property name="name:3" value="method" />
@@ -7519,7 +7501,7 @@
   </node>
   <node type="jetbrains.mps.lang.generator.structure.TemplateSwitch:2" id="1491021298367454330">
     <property name="name:2" value="switch_IExecuteConfigBlock" />
-    <property name="package:2" value="Configuration.Execute" />
+    <property name="virtualPackage:2" value="Configuration.Execute" />
     <node role="reductionMappingRule:2" type="jetbrains.mps.lang.generator.structure.Reduction_MappingRule:2" id="1491021298367457602">
       <link role="applicableConcept:2" targetNodeId="45.678887849223472884:23" resolveInfo="ExecuteConfigBlock" />
       <node role="ruleConsequence:2" type="jetbrains.mps.lang.generator.structure.TemplateDeclarationReference:2" id="1491021298367457604">
@@ -7535,7 +7517,7 @@
   </node>
   <node type="jetbrains.mps.lang.generator.structure.TemplateSwitch:2" id="2392137962931144929">
     <property name="name:2" value="switch_ICheckConfigBlock" />
-    <property name="package:2" value="Configuration.IsCorrect" />
+    <property name="virtualPackage:2" value="Configuration.IsCorrect" />
     <node role="reductionMappingRule:2" type="jetbrains.mps.lang.generator.structure.Reduction_MappingRule:2" id="2392137962931148764">
       <link role="applicableConcept:2" targetNodeId="45.678887849223472879:23" resolveInfo="CheckConfigurationBlock" />
       <node role="ruleConsequence:2" type="jetbrains.mps.lang.generator.structure.TemplateDeclarationReference:2" id="2392137962931154591">
@@ -7545,7 +7527,7 @@
   </node>
   <node type="jetbrains.mps.lang.generator.structure.TemplateDeclaration:2" id="3361586479360290437">
     <property name="name:2" value="reduce_RunConfigPropertyInstance" />
-    <property name="package:2" value="Create" />
+    <property name="virtualPackage:2" value="Create" />
     <link role="applicableConcept:2" targetNodeId="45.7066926174333292873:23" resolveInfo="RunConfigPropertyInstance" />
     <node role="contentNode:2" type="jetbrains.mps.baseLanguage.structure.StatementList:3" id="3361586479360290453">
       <node role="statement:3" type="jetbrains.mps.baseLanguage.structure.LocalVariableDeclarationStatement:3" id="3361586479360296284">
@@ -7614,7 +7596,7 @@
   </node>
   <node type="jetbrains.mps.lang.generator.structure.TemplateDeclaration:2" id="3680762252127977708">
     <property name="name:2" value="reduce_ProjectExpression" />
-    <property name="package:2" value="RunConfigs.Configuration.Execute.Statements" />
+    <property name="virtualPackage:2" value="RunConfigs.Configuration.Execute.Statements" />
     <link role="applicableConcept:2" targetNodeId="45.3680762252127977523:23" resolveInfo="ProjectExpression" />
     <node role="contentNode:2" type="jetbrains.mps.baseLanguageInternal.structure.InternalVariableReference:1" id="3680762252127977713">
       <property name="name:1" value="project" />
