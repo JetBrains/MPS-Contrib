@@ -21,10 +21,10 @@ public class CheckEmbeddedGraph {
     return true;
   }
 
-  public static void checkEmbeddedGraph(EmbeddedGraph embeddedGraph) {
+  public static void checkEmbeddedGraph(EmbeddedGraph embeddedGraph, boolean isRegularFaces) {
     checkAdjacentFaces(embeddedGraph);
     for (Face face : ListSequence.fromList(embeddedGraph.getFaces())) {
-      if (!(CheckFace.check(face)) || ListSequence.fromList(face.getDarts()).count() < 3) {
+      if (!(CheckFace.check(face)) || (isRegularFaces && ListSequence.fromList(face.getDarts()).count() < 3)) {
         throw new RuntimeException("bad face: " + face);
       }
       for (Dart dart : ListSequence.fromList(face.getDarts())) {

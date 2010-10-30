@@ -62,6 +62,6 @@ public class PQPlanarizationFinder_Test extends TestCase {
     PQPlanarizationFinder finder = new PQPlanarizationFinder();
     EmbeddedGraph embeddedGraph = finder.find(graph);
     System.out.println(embeddedGraph);
-    CheckEmbeddedGraph.checkEmbeddedGraph(embeddedGraph);
+    CheckEmbeddedGraph.checkEmbeddedGraph(embeddedGraph, true);
   }
 }

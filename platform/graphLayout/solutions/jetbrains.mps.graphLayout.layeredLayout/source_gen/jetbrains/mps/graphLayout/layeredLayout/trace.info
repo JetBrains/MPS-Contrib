@@ -310,7 +310,7 @@
     <unitInfo nodeId="4660430665333266876" fileName="ICoordinatePlacer.java" startLine="10" startPosition="0" endLine="13" endPosition="0" unitName="jetbrains.mps.graphLayout.layeredLayout.ICoordinatePlacer" />
   </root>
   <root nodeId="4660430665333276832">
-    <nodeInfo nodeId="4660430665333280275" fileName="LayeredLayouter.java" startLine="21" startPosition="51" endLine="22" endPosition="35" />
+    <nodeInfo nodeId="4660430665333280275" fileName="LayeredLayouter.java" startLine="21" startPosition="56" endLine="22" endPosition="35" />
     <nodeInfo nodeId="4660430665333280296" fileName="LayeredLayouter.java" startLine="22" startPosition="35" endLine="23" endPosition="29" />
     <nodeInfo nodeId="4660430665333280308" fileName="LayeredLayouter.java" startLine="23" startPosition="29" endLine="24" endPosition="37" />
     <nodeInfo nodeId="4660430665333280320" fileName="LayeredLayouter.java" startLine="24" startPosition="37" endLine="25" endPosition="31" />

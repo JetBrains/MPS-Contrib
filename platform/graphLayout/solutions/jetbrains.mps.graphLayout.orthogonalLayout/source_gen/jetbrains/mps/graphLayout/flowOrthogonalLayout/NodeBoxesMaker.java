@@ -19,7 +19,6 @@ import java.awt.Dimension;
 import java.util.List;
 import jetbrains.mps.internal.collections.runtime.ListSequence;
 import java.util.ArrayList;
-import jetbrains.mps.internal.collections.runtime.IWhereFilter;
 import jetbrains.mps.internal.collections.runtime.backports.LinkedList;
 import jetbrains.mps.internal.collections.runtime.ISelector;
 import jetbrains.mps.internal.collections.runtime.Sequence;
@@ -108,12 +107,8 @@ public class NodeBoxesMaker {
     }
     Dart cur = ListSequence.fromList(darts).first();
     for (int step = 0; step < ListSequence.fromList(darts).count(); step++) {
-      final Face face = myEmbeddedGraph.getFace(cur);
-      Dart next = ListSequence.fromList(darts).findFirst(new IWhereFilter<Dart>() {
-        public boolean accept(Dart dart) {
-          return myEmbeddedGraph.getFace(myEmbeddedGraph.getOpposite(dart)) == face;
-        }
-      });
+      Face face = myEmbeddedGraph.getFace(cur);
+      Dart next = myEmbeddedGraph.getNextSourceDart(cur);
       int turn = MapSequence.fromMap(myDirections).get(cur).getClockwiseTurn(MapSequence.fromMap(myDirections).get(next));
       // if next==cur 
       if (turn == 0) {
@@ -136,13 +131,20 @@ public class NodeBoxesMaker {
       boolean isOuter = myEmbeddedGraph.isOuterFace(face);
       List<Face> newFaces = myEmbeddedGraph.splitFace(face, newEdges, pathSource, pathTarget);
       Face newFaceWithNode = null;
+      Edge firstEdge = ListSequence.fromList(newEdges).first();
+      Dart firstDart = myEmbeddedGraph.getSourceDart(firstEdge, firstEdge.getSource());
       for (Face newFace : ListSequence.fromList(newFaces)) {
-        Iterable<Node> faceNodes = ListSequence.fromList(newFace.getDarts()).select(new ISelector<Dart, Node>() {
-          public Node select(Dart dart) {
-            return dart.getSource();
+        /*
+          Iterable<Node> faceNodes = ListSequence.fromList(newFace.getDarts()).select(new ISelector<Dart, Node>() {
+            public Node select(Dart dart) {
+              return dart.getSource();
+            }
+          });
+          if (Sequence.fromIterable(faceNodes).contains(node)) {
+            newFaceWithNode = newFace;
           }
-        });
-        if (Sequence.fromIterable(faceNodes).contains(node)) {
+        */
+        if (ListSequence.fromList(newFace.getDarts()).contains(firstDart)) {
           newFaceWithNode = newFace;
         }
       }

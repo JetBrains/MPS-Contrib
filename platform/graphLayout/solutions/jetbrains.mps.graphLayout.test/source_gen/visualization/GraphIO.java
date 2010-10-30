@@ -12,6 +12,10 @@ import jetbrains.mps.internal.collections.runtime.ListSequence;
 import java.util.List;
 import jetbrains.mps.graphLayout.planarGraph.Dart;
 import java.io.PrintWriter;
+import java.util.Map;
+import java.awt.Dimension;
+import jetbrains.mps.internal.collections.runtime.MapSequence;
+import jetbrains.mps.internal.collections.runtime.SetSequence;
 
 public class GraphIO {
   public static Graph scanGraph(String graphString) {
@@ -80,5 +84,18 @@ public class GraphIO {
         writer.println(edge.getSource().getIndex() + " " + edge.getTarget().getIndex() + "  ");
       }
     }
+  }
+
+  public static void writeGraph(Graph graph, Map<Node, Dimension> nodeSizes, Map<Edge, Dimension> edgeLabelSizes, PrintWriter writer) {
+    writeGraph(graph, writer);
+    writer.println(MapSequence.fromMap(nodeSizes).count());
+    for (Node node : SetSequence.fromSet(MapSequence.fromMap(nodeSizes).keySet())) {
+      writer.println(node.getIndex() + " " + MapSequence.fromMap(nodeSizes).get(node).width + " " + MapSequence.fromMap(nodeSizes).get(node).height);
+    }
+    writer.println(MapSequence.fromMap(edgeLabelSizes).count());
+    for (Edge edge : SetSequence.fromSet(MapSequence.fromMap(edgeLabelSizes).keySet())) {
+      writer.println(edge.getSource().getIndex() + " " + edge.getTarget().getIndex() + " " + MapSequence.fromMap(edgeLabelSizes).get(edge).width + " " + MapSequence.fromMap(edgeLabelSizes).get(edge).height);
+    }
+
   }
 }

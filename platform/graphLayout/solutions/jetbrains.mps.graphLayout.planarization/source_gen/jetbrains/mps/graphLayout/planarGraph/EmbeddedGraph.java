@@ -169,6 +169,19 @@ public class EmbeddedGraph {
     return ListSequence.fromListAndArray(new ArrayList<Face>(), faceSToE, faceEToS);
   }
 
+  public Face makeLoop(Face face, List<Edge> loop, Node node) {
+    face.makeEndsWith(node);
+    for (Edge edge : ListSequence.fromList(loop)) {
+      addLastDart(face, new Dart(edge, edge.getSource()));
+    }
+    Face newFace = new Face(getGraph());
+    for (Edge edge : ListSequence.fromList(loop)) {
+      newFace.addFirst(new Dart(edge, edge.getTarget()));
+    }
+    addFace(newFace);
+    return newFace;
+  }
+
   public void addFace(Face face) {
     ListSequence.fromList(myFaces).addElement(face);
     for (Dart dart : ListSequence.fromList(face.getDarts())) {
@@ -266,13 +279,35 @@ public class EmbeddedGraph {
   public List<Dart> getDartWithSource(final Node node) {
     List<Dart> darts = ListSequence.fromList(new ArrayList<Dart>());
     for (Edge edge : ListSequence.fromList(node.getEdges())) {
-      ListSequence.fromList(darts).addElement(ListSequence.fromList(getDarts(edge)).findFirst(new IWhereFilter<Dart>() {
-        public boolean accept(Dart dart) {
-          return dart.getSource() == node;
-        }
-      }));
+      List<Dart> edgeDarts = getDarts(edge);
+      if (edgeDarts != null) {
+        ListSequence.fromList(darts).addElement(ListSequence.fromList(edgeDarts).findFirst(new IWhereFilter<Dart>() {
+          public boolean accept(Dart dart) {
+            return dart.getSource() == node;
+          }
+        }));
+      }
     }
     return darts;
+  }
+
+  public Dart getNextSourceDart(Dart dart) {
+    Face face = getFace(dart);
+    Dart next = null;
+    // here is a hack!!! in the bad case node is cutpoint of graph and condition below stands for many darts 
+    int num = 0;
+    for (Dart sourceDart : ListSequence.fromList(getDartWithSource(dart.getSource()))) {
+      if (getFace(getOpposite(sourceDart)) == face) {
+        next = sourceDart;
+        num++;
+      }
+    }
+    if (num > 1) {
+      // bad case :( 
+      face.makeStartsWith(dart);
+      next = getOpposite(ListSequence.fromList(face.getDarts()).last());
+    }
+    return next;
   }
 
   public Graph getGraph() {

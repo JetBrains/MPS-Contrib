@@ -1,47 +1,47 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <debugInfo>
   <root nodeId="315882939481360320">
-    <nodeInfo nodeId="272112265222927590" fileName="Direction2D.java" startLine="11" startPosition="0" endLine="12" endPosition="19" />
-    <nodeInfo nodeId="272112265222927594" fileName="Direction2D.java" startLine="12" startPosition="19" endLine="13" endPosition="19" />
-    <nodeInfo nodeId="272112265222927616" fileName="Direction2D.java" startLine="15" startPosition="31" endLine="16" endPosition="14" />
-    <nodeInfo nodeId="272112265222927623" fileName="Direction2D.java" startLine="16" startPosition="14" endLine="17" endPosition="14" />
-    <nodeInfo nodeId="315882939481360461" fileName="Direction2D.java" startLine="20" startPosition="47" endLine="21" endPosition="32" />
-    <nodeInfo nodeId="315882939481360480" fileName="Direction2D.java" startLine="22" startPosition="18" endLine="23" endPosition="15" />
-    <nodeInfo nodeId="315882939481360458" fileName="Direction2D.java" startLine="24" startPosition="5" endLine="25" endPosition="20" />
-    <nodeInfo nodeId="315882939481360493" fileName="Direction2D.java" startLine="28" startPosition="33" endLine="29" endPosition="28" />
-    <nodeInfo nodeId="315882939481360503" fileName="Direction2D.java" startLine="32" startPosition="39" endLine="33" endPosition="41" />
-    <nodeInfo nodeId="315882939481360527" fileName="Direction2D.java" startLine="34" startPosition="20" endLine="35" endPosition="16" />
-    <nodeInfo nodeId="315882939481360534" fileName="Direction2D.java" startLine="37" startPosition="20" endLine="38" endPosition="16" />
-    <nodeInfo nodeId="315882939481360541" fileName="Direction2D.java" startLine="40" startPosition="21" endLine="41" endPosition="15" />
-    <nodeInfo nodeId="315882939481360557" fileName="Direction2D.java" startLine="42" startPosition="5" endLine="43" endPosition="16" />
-    <nodeInfo nodeId="3403946177685372715" fileName="Direction2D.java" startLine="46" startPosition="48" endLine="47" endPosition="41" />
-    <nodeInfo nodeId="3403946177685372741" fileName="Direction2D.java" startLine="48" startPosition="19" endLine="49" endPosition="16" />
-    <nodeInfo nodeId="3403946177685372748" fileName="Direction2D.java" startLine="50" startPosition="5" endLine="51" endPosition="16" />
-    <nodeInfo nodeId="272112265222927655" fileName="Direction2D.java" startLine="54" startPosition="33" endLine="55" endPosition="21" />
-    <nodeInfo nodeId="3182425861591380996" fileName="Direction2D.java" startLine="58" startPosition="31" endLine="59" endPosition="21" />
-    <nodeInfo nodeId="272112265222927660" fileName="Direction2D.java" startLine="62" startPosition="19" endLine="63" endPosition="16" />
-    <nodeInfo nodeId="272112265222927668" fileName="Direction2D.java" startLine="66" startPosition="19" endLine="67" endPosition="16" />
-    <nodeInfo nodeId="315882939481360440" fileName="Direction2D.java" startLine="70" startPosition="51" endLine="71" endPosition="46" />
-    <nodeInfo nodeId="1265453300920942459" fileName="Direction2D.java" startLine="76" startPosition="45" endLine="77" endPosition="19" />
-    <nodeInfo nodeId="1265453300920942463" fileName="Direction2D.java" startLine="79" startPosition="5" endLine="80" endPosition="16" />
-    <nodeInfo nodeId="315882939481360471" fileName="Direction2D.java" startLine="21" startPosition="32" endLine="24" endPosition="5" />
-    <nodeInfo nodeId="315882939481360518" fileName="Direction2D.java" startLine="33" startPosition="41" endLine="36" endPosition="5" />
-    <nodeInfo nodeId="315882939481360532" fileName="Direction2D.java" startLine="36" startPosition="5" endLine="39" endPosition="5" />
-    <nodeInfo nodeId="315882939481360539" fileName="Direction2D.java" startLine="39" startPosition="5" endLine="42" endPosition="5" />
-    <nodeInfo nodeId="3403946177685372732" fileName="Direction2D.java" startLine="47" startPosition="41" endLine="50" endPosition="5" />
-    <nodeInfo nodeId="1265453300920942433" fileName="Direction2D.java" startLine="75" startPosition="50" endLine="78" endPosition="7" />
-    <nodeInfo nodeId="315882939481360322" fileName="Direction2D.java" startLine="14" startPosition="0" endLine="18" endPosition="3" />
-    <nodeInfo nodeId="315882939481360488" fileName="Direction2D.java" startLine="27" startPosition="0" endLine="31" endPosition="0" />
-    <nodeInfo nodeId="102129025687872308" fileName="Direction2D.java" startLine="53" startPosition="0" endLine="57" endPosition="0" />
-    <nodeInfo nodeId="3182425861591380991" fileName="Direction2D.java" startLine="57" startPosition="0" endLine="61" endPosition="0" />
-    <nodeInfo nodeId="272112265222927643" fileName="Direction2D.java" startLine="61" startPosition="0" endLine="65" endPosition="0" />
-    <nodeInfo nodeId="272112265222927664" fileName="Direction2D.java" startLine="65" startPosition="0" endLine="69" endPosition="0" />
-    <nodeInfo nodeId="315882939481360433" fileName="Direction2D.java" startLine="69" startPosition="0" endLine="73" endPosition="0" />
-    <nodeInfo nodeId="1265453300920942426" fileName="Direction2D.java" startLine="74" startPosition="57" endLine="79" endPosition="5" />
-    <nodeInfo nodeId="315882939481360451" fileName="Direction2D.java" startLine="19" startPosition="0" endLine="27" endPosition="0" />
-    <nodeInfo nodeId="3403946177685372708" fileName="Direction2D.java" startLine="45" startPosition="0" endLine="53" endPosition="0" />
-    <nodeInfo nodeId="1265453300920942416" fileName="Direction2D.java" startLine="73" startPosition="0" endLine="82" endPosition="0" />
-    <nodeInfo nodeId="315882939481360497" fileName="Direction2D.java" startLine="31" startPosition="0" endLine="45" endPosition="0" />
+    <nodeInfo nodeId="272112265222927590" conceptFqName="jetbrains.mps.baseLanguage.structure.FieldDeclaration" fileName="Direction2D.java" startLine="11" startPosition="0" endLine="12" endPosition="19" />
+    <nodeInfo nodeId="272112265222927594" conceptFqName="jetbrains.mps.baseLanguage.structure.FieldDeclaration" fileName="Direction2D.java" startLine="12" startPosition="19" endLine="13" endPosition="19" />
+    <nodeInfo nodeId="272112265222927616" conceptFqName="jetbrains.mps.baseLanguage.structure.ExpressionStatement" fileName="Direction2D.java" startLine="15" startPosition="31" endLine="16" endPosition="14" />
+    <nodeInfo nodeId="272112265222927623" conceptFqName="jetbrains.mps.baseLanguage.structure.ExpressionStatement" fileName="Direction2D.java" startLine="16" startPosition="14" endLine="17" endPosition="14" />
+    <nodeInfo nodeId="315882939481360461" conceptFqName="jetbrains.mps.baseLanguage.structure.LocalVariableDeclarationStatement" fileName="Direction2D.java" startLine="20" startPosition="47" endLine="21" endPosition="32" />
+    <nodeInfo nodeId="315882939481360480" conceptFqName="jetbrains.mps.baseLanguage.structure.ExpressionStatement" fileName="Direction2D.java" startLine="22" startPosition="18" endLine="23" endPosition="15" />
+    <nodeInfo nodeId="315882939481360458" conceptFqName="jetbrains.mps.baseLanguage.structure.ReturnStatement" fileName="Direction2D.java" startLine="24" startPosition="5" endLine="25" endPosition="20" />
+    <nodeInfo nodeId="315882939481360493" conceptFqName="jetbrains.mps.baseLanguage.structure.ReturnStatement" fileName="Direction2D.java" startLine="28" startPosition="33" endLine="29" endPosition="28" />
+    <nodeInfo nodeId="315882939481360503" conceptFqName="jetbrains.mps.baseLanguage.structure.LocalVariableDeclarationStatement" fileName="Direction2D.java" startLine="32" startPosition="39" endLine="33" endPosition="41" />
+    <nodeInfo nodeId="315882939481360527" conceptFqName="jetbrains.mps.baseLanguage.structure.ReturnStatement" fileName="Direction2D.java" startLine="34" startPosition="20" endLine="35" endPosition="16" />
+    <nodeInfo nodeId="315882939481360534" conceptFqName="jetbrains.mps.baseLanguage.structure.ReturnStatement" fileName="Direction2D.java" startLine="37" startPosition="20" endLine="38" endPosition="16" />
+    <nodeInfo nodeId="315882939481360541" conceptFqName="jetbrains.mps.baseLanguage.structure.ReturnStatement" fileName="Direction2D.java" startLine="40" startPosition="21" endLine="41" endPosition="15" />
+    <nodeInfo nodeId="315882939481360557" conceptFqName="jetbrains.mps.baseLanguage.structure.ReturnStatement" fileName="Direction2D.java" startLine="42" startPosition="5" endLine="43" endPosition="16" />
+    <nodeInfo nodeId="3403946177685372715" conceptFqName="jetbrains.mps.baseLanguage.structure.LocalVariableDeclarationStatement" fileName="Direction2D.java" startLine="46" startPosition="48" endLine="47" endPosition="41" />
+    <nodeInfo nodeId="3403946177685372741" conceptFqName="jetbrains.mps.baseLanguage.structure.ExpressionStatement" fileName="Direction2D.java" startLine="48" startPosition="19" endLine="49" endPosition="16" />
+    <nodeInfo nodeId="3403946177685372748" conceptFqName="jetbrains.mps.baseLanguage.structure.ReturnStatement" fileName="Direction2D.java" startLine="50" startPosition="5" endLine="51" endPosition="16" />
+    <nodeInfo nodeId="272112265222927655" conceptFqName="jetbrains.mps.baseLanguage.structure.ReturnStatement" fileName="Direction2D.java" startLine="54" startPosition="33" endLine="55" endPosition="21" />
+    <nodeInfo nodeId="3182425861591380996" conceptFqName="jetbrains.mps.baseLanguage.structure.ReturnStatement" fileName="Direction2D.java" startLine="58" startPosition="31" endLine="59" endPosition="21" />
+    <nodeInfo nodeId="272112265222927660" conceptFqName="jetbrains.mps.baseLanguage.structure.ReturnStatement" fileName="Direction2D.java" startLine="62" startPosition="19" endLine="63" endPosition="16" />
+    <nodeInfo nodeId="272112265222927668" conceptFqName="jetbrains.mps.baseLanguage.structure.ReturnStatement" fileName="Direction2D.java" startLine="66" startPosition="19" endLine="67" endPosition="16" />
+    <nodeInfo nodeId="315882939481360440" conceptFqName="jetbrains.mps.baseLanguage.structure.ReturnStatement" fileName="Direction2D.java" startLine="70" startPosition="51" endLine="71" endPosition="46" />
+    <nodeInfo nodeId="1265453300920942459" conceptFqName="jetbrains.mps.baseLanguage.structure.ReturnStatement" fileName="Direction2D.java" startLine="76" startPosition="45" endLine="77" endPosition="19" />
+    <nodeInfo nodeId="1265453300920942463" conceptFqName="jetbrains.mps.baseLanguage.structure.ReturnStatement" fileName="Direction2D.java" startLine="79" startPosition="5" endLine="80" endPosition="16" />
+    <nodeInfo nodeId="315882939481360471" conceptFqName="jetbrains.mps.baseLanguage.structure.IfStatement" fileName="Direction2D.java" startLine="21" startPosition="32" endLine="24" endPosition="5" />
+    <nodeInfo nodeId="315882939481360518" conceptFqName="jetbrains.mps.baseLanguage.structure.IfStatement" fileName="Direction2D.java" startLine="33" startPosition="41" endLine="36" endPosition="5" />
+    <nodeInfo nodeId="315882939481360532" conceptFqName="jetbrains.mps.baseLanguage.structure.IfStatement" fileName="Direction2D.java" startLine="36" startPosition="5" endLine="39" endPosition="5" />
+    <nodeInfo nodeId="315882939481360539" conceptFqName="jetbrains.mps.baseLanguage.structure.IfStatement" fileName="Direction2D.java" startLine="39" startPosition="5" endLine="42" endPosition="5" />
+    <nodeInfo nodeId="3403946177685372732" conceptFqName="jetbrains.mps.baseLanguage.structure.IfStatement" fileName="Direction2D.java" startLine="47" startPosition="41" endLine="50" endPosition="5" />
+    <nodeInfo nodeId="1265453300920942433" conceptFqName="jetbrains.mps.baseLanguage.structure.IfStatement" fileName="Direction2D.java" startLine="75" startPosition="50" endLine="78" endPosition="7" />
+    <nodeInfo nodeId="315882939481360322" conceptFqName="jetbrains.mps.baseLanguage.structure.ConstructorDeclaration" fileName="Direction2D.java" startLine="14" startPosition="0" endLine="18" endPosition="3" />
+    <nodeInfo nodeId="315882939481360488" conceptFqName="jetbrains.mps.baseLanguage.structure.InstanceMethodDeclaration" fileName="Direction2D.java" startLine="27" startPosition="0" endLine="31" endPosition="0" />
+    <nodeInfo nodeId="102129025687872308" conceptFqName="jetbrains.mps.baseLanguage.structure.InstanceMethodDeclaration" fileName="Direction2D.java" startLine="53" startPosition="0" endLine="57" endPosition="0" />
+    <nodeInfo nodeId="3182425861591380991" conceptFqName="jetbrains.mps.baseLanguage.structure.InstanceMethodDeclaration" fileName="Direction2D.java" startLine="57" startPosition="0" endLine="61" endPosition="0" />
+    <nodeInfo nodeId="272112265222927643" conceptFqName="jetbrains.mps.baseLanguage.structure.InstanceMethodDeclaration" fileName="Direction2D.java" startLine="61" startPosition="0" endLine="65" endPosition="0" />
+    <nodeInfo nodeId="272112265222927664" conceptFqName="jetbrains.mps.baseLanguage.structure.InstanceMethodDeclaration" fileName="Direction2D.java" startLine="65" startPosition="0" endLine="69" endPosition="0" />
+    <nodeInfo nodeId="315882939481360433" conceptFqName="jetbrains.mps.baseLanguage.structure.StaticMethodDeclaration" fileName="Direction2D.java" startLine="69" startPosition="0" endLine="73" endPosition="0" />
+    <nodeInfo nodeId="1265453300920942426" conceptFqName="jetbrains.mps.baseLanguage.structure.ForeachStatement" fileName="Direction2D.java" startLine="74" startPosition="57" endLine="79" endPosition="5" />
+    <nodeInfo nodeId="315882939481360451" conceptFqName="jetbrains.mps.baseLanguage.structure.InstanceMethodDeclaration" fileName="Direction2D.java" startLine="19" startPosition="0" endLine="27" endPosition="0" />
+    <nodeInfo nodeId="3403946177685372708" conceptFqName="jetbrains.mps.baseLanguage.structure.InstanceMethodDeclaration" fileName="Direction2D.java" startLine="45" startPosition="0" endLine="53" endPosition="0" />
+    <nodeInfo nodeId="1265453300920942416" conceptFqName="jetbrains.mps.baseLanguage.structure.StaticMethodDeclaration" fileName="Direction2D.java" startLine="73" startPosition="0" endLine="82" endPosition="0" />
+    <nodeInfo nodeId="315882939481360497" conceptFqName="jetbrains.mps.baseLanguage.structure.InstanceMethodDeclaration" fileName="Direction2D.java" startLine="31" startPosition="0" endLine="45" endPosition="0" />
     <scopeInfo nodeId="315882939481360328" fileName="Direction2D.java" startLine="83" startPosition="10" endLine="83" endPosition="10" />
     <scopeInfo nodeId="315882939481360472" fileName="Direction2D.java" startLine="22" startPosition="18" endLine="23" endPosition="15" />
     <scopeInfo nodeId="315882939481360491" fileName="Direction2D.java" startLine="28" startPosition="33" endLine="29" endPosition="28" />
@@ -97,58 +97,121 @@
     </scopeInfo>
     <unitInfo nodeId="315882939481360320" fileName="Direction2D.java" startLine="6" startPosition="0" endLine="86" endPosition="0" unitName="jetbrains.mps.graphLayout.util.Direction2D" />
   </root>
+  <root nodeId="40016457508976080">
+    <nodeInfo nodeId="40016457508977037" conceptFqName="jetbrains.mps.baseLanguage.structure.FieldDeclaration" fileName="LayoutInfoCopier.java" startLine="11" startPosition="51" endLine="12" endPosition="34" />
+    <nodeInfo nodeId="40016457508977041" conceptFqName="jetbrains.mps.baseLanguage.structure.FieldDeclaration" fileName="LayoutInfoCopier.java" startLine="12" startPosition="34" endLine="13" endPosition="32" />
+    <nodeInfo nodeId="40016457508977023" conceptFqName="jetbrains.mps.baseLanguage.structure.SuperConstructorInvocation" fileName="LayoutInfoCopier.java" startLine="15" startPosition="50" endLine="16" endPosition="33" />
+    <nodeInfo nodeId="40016457508977063" conceptFqName="jetbrains.mps.baseLanguage.structure.ExpressionStatement" fileName="LayoutInfoCopier.java" startLine="16" startPosition="33" endLine="17" endPosition="30" />
+    <nodeInfo nodeId="40016457508977046" conceptFqName="jetbrains.mps.baseLanguage.structure.ExpressionStatement" fileName="LayoutInfoCopier.java" startLine="17" startPosition="30" endLine="18" endPosition="43" />
+    <nodeInfo nodeId="40016457508977105" conceptFqName="jetbrains.mps.baseLanguage.structure.LocalVariableDeclarationStatement" fileName="LayoutInfoCopier.java" startLine="22" startPosition="54" endLine="23" endPosition="48" />
+    <nodeInfo nodeId="40016457508977136" conceptFqName="jetbrains.mps.baseLanguage.structure.LocalVariableDeclarationStatement" fileName="LayoutInfoCopier.java" startLine="25" startPosition="36" endLine="26" endPosition="42" />
+    <nodeInfo nodeId="40016457508977126" conceptFqName="jetbrains.mps.baseLanguage.structure.ExpressionStatement" fileName="LayoutInfoCopier.java" startLine="26" startPosition="42" endLine="27" endPosition="69" />
+    <nodeInfo nodeId="40016457508977168" conceptFqName="jetbrains.mps.baseLanguage.structure.LocalVariableDeclarationStatement" fileName="LayoutInfoCopier.java" startLine="31" startPosition="41" endLine="32" endPosition="42" />
+    <nodeInfo nodeId="40016457508977173" conceptFqName="jetbrains.mps.baseLanguage.structure.ExpressionStatement" fileName="LayoutInfoCopier.java" startLine="32" startPosition="42" endLine="33" endPosition="70" />
+    <nodeInfo nodeId="40016457508977111" conceptFqName="jetbrains.mps.baseLanguage.structure.ReturnStatement" fileName="LayoutInfoCopier.java" startLine="35" startPosition="5" endLine="36" endPosition="16" />
+    <nodeInfo nodeId="40016457508977188" conceptFqName="jetbrains.mps.baseLanguage.structure.ReturnStatement" fileName="LayoutInfoCopier.java" startLine="39" startPosition="41" endLine="40" endPosition="22" />
+    <nodeInfo nodeId="9047589280051434875" conceptFqName="jetbrains.mps.baseLanguage.structure.IfStatement" fileName="LayoutInfoCopier.java" startLine="24" startPosition="76" endLine="28" endPosition="7" />
+    <nodeInfo nodeId="9047589280051434879" conceptFqName="jetbrains.mps.baseLanguage.structure.IfStatement" fileName="LayoutInfoCopier.java" startLine="30" startPosition="75" endLine="34" endPosition="7" />
+    <nodeInfo nodeId="40016457508977183" conceptFqName="jetbrains.mps.baseLanguage.structure.InstanceMethodDeclaration" fileName="LayoutInfoCopier.java" startLine="38" startPosition="0" endLine="42" endPosition="0" />
+    <nodeInfo nodeId="40016457508976082" conceptFqName="jetbrains.mps.baseLanguage.structure.ConstructorDeclaration" fileName="LayoutInfoCopier.java" startLine="14" startPosition="0" endLine="19" endPosition="3" />
+    <nodeInfo nodeId="40016457508977115" conceptFqName="jetbrains.mps.baseLanguage.structure.ForeachStatement" fileName="LayoutInfoCopier.java" startLine="23" startPosition="48" endLine="29" endPosition="5" />
+    <nodeInfo nodeId="40016457508977162" conceptFqName="jetbrains.mps.baseLanguage.structure.ForeachStatement" fileName="LayoutInfoCopier.java" startLine="29" startPosition="5" endLine="35" endPosition="5" />
+    <nodeInfo nodeId="40016457508977076" conceptFqName="jetbrains.mps.baseLanguage.structure.InstanceMethodDeclaration" fileName="LayoutInfoCopier.java" startLine="20" startPosition="0" endLine="38" endPosition="0" />
+    <scopeInfo nodeId="40016457508977186" fileName="LayoutInfoCopier.java" startLine="39" startPosition="41" endLine="40" endPosition="22" />
+    <scopeInfo nodeId="9047589280051434877" fileName="LayoutInfoCopier.java" startLine="25" startPosition="36" endLine="27" endPosition="69">
+      <varInfo nodeId="40016457508977137" varName="copyNode" />
+    </scopeInfo>
+    <scopeInfo nodeId="9047589280051434881" fileName="LayoutInfoCopier.java" startLine="31" startPosition="41" endLine="33" endPosition="70">
+      <varInfo nodeId="40016457508977169" varName="copyEdge" />
+    </scopeInfo>
+    <scopeInfo nodeId="40016457508976085" fileName="LayoutInfoCopier.java" startLine="15" startPosition="50" endLine="18" endPosition="43" />
+    <scopeInfo nodeId="40016457508977125" fileName="LayoutInfoCopier.java" startLine="24" startPosition="76" endLine="28" endPosition="7" />
+    <scopeInfo nodeId="40016457508977167" fileName="LayoutInfoCopier.java" startLine="30" startPosition="75" endLine="34" endPosition="7" />
+    <scopeInfo nodeId="40016457508977183" fileName="LayoutInfoCopier.java" startLine="38" startPosition="0" endLine="42" endPosition="0" />
+    <scopeInfo nodeId="40016457508976082" fileName="LayoutInfoCopier.java" startLine="14" startPosition="0" endLine="19" endPosition="3">
+      <varInfo nodeId="40016457508977018" varName="layoutInfo" />
+    </scopeInfo>
+    <scopeInfo nodeId="40016457508977115" fileName="LayoutInfoCopier.java" startLine="23" startPosition="48" endLine="29" endPosition="5" />
+    <scopeInfo nodeId="40016457508977162" fileName="LayoutInfoCopier.java" startLine="29" startPosition="5" endLine="35" endPosition="5" />
+    <scopeInfo nodeId="40016457508977079" fileName="LayoutInfoCopier.java" startLine="22" startPosition="54" endLine="36" endPosition="16">
+      <varInfo nodeId="40016457508977106" varName="copy" />
+    </scopeInfo>
+    <scopeInfo nodeId="40016457508977076" fileName="LayoutInfoCopier.java" startLine="20" startPosition="0" endLine="38" endPosition="0">
+      <varInfo nodeId="40016457508983241" varName="nodeFilter" />
+    </scopeInfo>
+    <unitInfo nodeId="40016457508976080" fileName="LayoutInfoCopier.java" startLine="11" startPosition="0" endLine="43" endPosition="0" unitName="jetbrains.mps.graphLayout.util.LayoutInfoCopier" />
+  </root>
+  <root nodeId="40016457508978131">
+    <nodeInfo nodeId="40016457508978132" conceptFqName="jetbrains.mps.baseLanguage.structure.InstanceMethodDeclaration" fileName="Filter.java" startLine="6" startPosition="28" endLine="7" endPosition="29" />
+    <scopeInfo nodeId="40016457508978132" fileName="Filter.java" startLine="6" startPosition="28" endLine="7" endPosition="29">
+      <varInfo nodeId="40016457508978136" varName="t" />
+    </scopeInfo>
+    <unitInfo nodeId="40016457508978131" fileName="Filter.java" startLine="6" startPosition="0" endLine="9" endPosition="0" unitName="jetbrains.mps.graphLayout.util.Filter" />
+  </root>
+  <root nodeId="40016457508983181">
+    <nodeInfo nodeId="40016457508983198" conceptFqName="jetbrains.mps.baseLanguage.structure.ReturnStatement" fileName="DefaultFilter.java" startLine="10" startPosition="30" endLine="11" endPosition="16" />
+    <nodeInfo nodeId="40016457508983183" conceptFqName="jetbrains.mps.baseLanguage.structure.ConstructorDeclaration" fileName="DefaultFilter.java" startLine="6" startPosition="52" endLine="8" endPosition="3" />
+    <nodeInfo nodeId="40016457508983191" conceptFqName="jetbrains.mps.baseLanguage.structure.InstanceMethodDeclaration" fileName="DefaultFilter.java" startLine="9" startPosition="0" endLine="13" endPosition="0" />
+    <scopeInfo nodeId="40016457508983186" fileName="DefaultFilter.java" startLine="7" startPosition="26" endLine="7" endPosition="26" />
+    <scopeInfo nodeId="40016457508983194" fileName="DefaultFilter.java" startLine="10" startPosition="30" endLine="11" endPosition="16" />
+    <scopeInfo nodeId="40016457508983183" fileName="DefaultFilter.java" startLine="6" startPosition="52" endLine="8" endPosition="3" />
+    <scopeInfo nodeId="40016457508983191" fileName="DefaultFilter.java" startLine="9" startPosition="0" endLine="13" endPosition="0">
+      <varInfo nodeId="40016457508983196" varName="t" />
+    </scopeInfo>
+    <unitInfo nodeId="40016457508983181" fileName="DefaultFilter.java" startLine="6" startPosition="0" endLine="14" endPosition="0" unitName="jetbrains.mps.graphLayout.util.DefaultFilter" />
+  </root>
   <root nodeId="5180427534211916789">
-    <nodeInfo nodeId="5180427534211916797" fileName="NodeMap.java" startLine="14" startPosition="49" endLine="15" endPosition="29" />
-    <nodeInfo nodeId="6220135881201382331" fileName="NodeMap.java" startLine="15" startPosition="29" endLine="16" endPosition="24" />
-    <nodeInfo nodeId="5180427534211916804" fileName="NodeMap.java" startLine="18" startPosition="31" endLine="19" endPosition="50" />
-    <nodeInfo nodeId="6220135881201382347" fileName="NodeMap.java" startLine="19" startPosition="50" endLine="20" endPosition="20" />
-    <nodeInfo nodeId="5180427534212020960" fileName="NodeMap.java" startLine="23" startPosition="45" endLine="24" endPosition="60" />
-    <nodeInfo nodeId="6220135881201387355" fileName="NodeMap.java" startLine="27" startPosition="33" endLine="28" endPosition="17" />
-    <nodeInfo nodeId="6220135881201382355" fileName="NodeMap.java" startLine="32" startPosition="6" endLine="33" endPosition="63" />
-    <nodeInfo nodeId="6220135881201387329" fileName="NodeMap.java" startLine="34" startPosition="46" endLine="35" endPosition="36" />
-    <nodeInfo nodeId="6220135881201387344" fileName="NodeMap.java" startLine="36" startPosition="7" endLine="37" endPosition="17" />
-    <nodeInfo nodeId="6220135881201387368" fileName="NodeMap.java" startLine="38" startPosition="6" endLine="39" endPosition="60" />
-    <nodeInfo nodeId="5180427534212020982" fileName="NodeMap.java" startLine="42" startPosition="23" endLine="43" endPosition="60" />
-    <nodeInfo nodeId="5180427534212020986" fileName="NodeMap.java" startLine="46" startPosition="60" endLine="47" endPosition="60" />
-    <nodeInfo nodeId="5180427534212036566" fileName="NodeMap.java" startLine="50" startPosition="34" endLine="51" endPosition="60" />
-    <nodeInfo nodeId="5180427534212036418" fileName="NodeMap.java" startLine="54" startPosition="36" endLine="55" endPosition="32" />
-    <nodeInfo nodeId="5180427534212036561" fileName="NodeMap.java" startLine="55" startPosition="32" endLine="56" endPosition="26" />
-    <nodeInfo nodeId="5180427534212020345" fileName="NodeMap.java" startLine="56" startPosition="26" endLine="57" endPosition="28" />
-    <nodeInfo nodeId="5180427534212020361" fileName="NodeMap.java" startLine="57" startPosition="28" endLine="58" endPosition="17" />
-    <nodeInfo nodeId="5180427534212020387" fileName="NodeMap.java" startLine="61" startPosition="31" endLine="62" endPosition="32" />
-    <nodeInfo nodeId="5180427534212036548" fileName="NodeMap.java" startLine="62" startPosition="32" endLine="63" endPosition="32" />
-    <nodeInfo nodeId="5180427534212036556" fileName="NodeMap.java" startLine="63" startPosition="32" endLine="64" endPosition="26" />
-    <nodeInfo nodeId="5180427534212020397" fileName="NodeMap.java" startLine="64" startPosition="26" endLine="65" endPosition="28" />
-    <nodeInfo nodeId="5180427534212020990" fileName="NodeMap.java" startLine="68" startPosition="47" endLine="69" endPosition="60" />
-    <nodeInfo nodeId="5180427534212020994" fileName="NodeMap.java" startLine="72" startPosition="45" endLine="73" endPosition="60" />
-    <nodeInfo nodeId="5180427534212020998" fileName="NodeMap.java" startLine="76" startPosition="28" endLine="77" endPosition="60" />
-    <nodeInfo nodeId="5180427534212020338" fileName="NodeMap.java" startLine="80" startPosition="21" endLine="81" endPosition="24" />
-    <nodeInfo nodeId="5180427534212036531" fileName="NodeMap.java" startLine="86" startPosition="54" endLine="87" endPosition="24" />
-    <nodeInfo nodeId="5180427534212034585" fileName="NodeMap.java" startLine="93" startPosition="28" endLine="94" endPosition="48" />
-    <nodeInfo nodeId="5180427534212034601" fileName="NodeMap.java" startLine="94" startPosition="48" endLine="95" endPosition="34" />
-    <nodeInfo nodeId="5180427534212034643" fileName="NodeMap.java" startLine="96" startPosition="44" endLine="97" endPosition="55" />
-    <nodeInfo nodeId="5180427534212034668" fileName="NodeMap.java" startLine="98" startPosition="5" endLine="99" endPosition="30" />
-    <nodeInfo nodeId="5180427534212034592" fileName="NodeMap.java" startLine="99" startPosition="30" endLine="100" endPosition="30" />
-    <nodeInfo nodeId="6220135881201387309" fileName="NodeMap.java" startLine="33" startPosition="63" endLine="36" endPosition="7" />
-    <nodeInfo nodeId="5180427534212036524" fileName="NodeMap.java" startLine="85" startPosition="35" endLine="88" endPosition="7" />
-    <nodeInfo nodeId="5180427534212034622" fileName="NodeMap.java" startLine="95" startPosition="34" endLine="98" endPosition="5" />
-    <nodeInfo nodeId="5180427534211916791" fileName="NodeMap.java" startLine="17" startPosition="0" endLine="21" endPosition="3" />
-    <nodeInfo nodeId="5180427534212020252" fileName="NodeMap.java" startLine="22" startPosition="0" endLine="26" endPosition="0" />
-    <nodeInfo nodeId="5180427534212020259" fileName="NodeMap.java" startLine="26" startPosition="0" endLine="30" endPosition="0" />
-    <nodeInfo nodeId="5180427534212020269" fileName="NodeMap.java" startLine="41" startPosition="0" endLine="45" endPosition="0" />
-    <nodeInfo nodeId="5180427534212020273" fileName="NodeMap.java" startLine="45" startPosition="0" endLine="49" endPosition="0" />
-    <nodeInfo nodeId="5180427534212020283" fileName="NodeMap.java" startLine="49" startPosition="0" endLine="53" endPosition="0" />
-    <nodeInfo nodeId="5180427534212020303" fileName="NodeMap.java" startLine="67" startPosition="0" endLine="71" endPosition="0" />
-    <nodeInfo nodeId="5180427534212020309" fileName="NodeMap.java" startLine="71" startPosition="0" endLine="75" endPosition="0" />
-    <nodeInfo nodeId="5180427534212020315" fileName="NodeMap.java" startLine="75" startPosition="0" endLine="79" endPosition="0" />
-    <nodeInfo nodeId="5180427534212020319" fileName="NodeMap.java" startLine="79" startPosition="0" endLine="83" endPosition="0" />
-    <nodeInfo nodeId="5180427534212036522" fileName="NodeMap.java" startLine="84" startPosition="45" endLine="89" endPosition="5" />
-    <nodeInfo nodeId="6220135881201387366" fileName="NodeMap.java" startLine="31" startPosition="29" endLine="38" endPosition="6" />
-    <nodeInfo nodeId="5180427534212020289" fileName="NodeMap.java" startLine="53" startPosition="0" endLine="60" endPosition="0" />
-    <nodeInfo nodeId="5180427534212020297" fileName="NodeMap.java" startLine="60" startPosition="0" endLine="67" endPosition="0" />
-    <nodeInfo nodeId="5180427534212036509" fileName="NodeMap.java" startLine="83" startPosition="0" endLine="91" endPosition="0" />
-    <nodeInfo nodeId="5180427534212020264" fileName="NodeMap.java" startLine="30" startPosition="0" endLine="41" endPosition="0" />
-    <nodeInfo nodeId="5180427534212034570" fileName="NodeMap.java" startLine="91" startPosition="0" endLine="102" endPosition="0" />
+    <nodeInfo nodeId="5180427534211916797" conceptFqName="jetbrains.mps.baseLanguage.structure.FieldDeclaration" fileName="NodeMap.java" startLine="14" startPosition="49" endLine="15" endPosition="29" />
+    <nodeInfo nodeId="6220135881201382331" conceptFqName="jetbrains.mps.baseLanguage.structure.FieldDeclaration" fileName="NodeMap.java" startLine="15" startPosition="29" endLine="16" endPosition="24" />
+    <nodeInfo nodeId="5180427534211916804" conceptFqName="jetbrains.mps.baseLanguage.structure.ExpressionStatement" fileName="NodeMap.java" startLine="18" startPosition="31" endLine="19" endPosition="50" />
+    <nodeInfo nodeId="6220135881201382347" conceptFqName="jetbrains.mps.baseLanguage.structure.ExpressionStatement" fileName="NodeMap.java" startLine="19" startPosition="50" endLine="20" endPosition="20" />
+    <nodeInfo nodeId="5180427534212020960" conceptFqName="jetbrains.mps.baseLanguage.structure.ThrowStatement" fileName="NodeMap.java" startLine="23" startPosition="45" endLine="24" endPosition="60" />
+    <nodeInfo nodeId="6220135881201387355" conceptFqName="jetbrains.mps.baseLanguage.structure.ReturnStatement" fileName="NodeMap.java" startLine="27" startPosition="33" endLine="28" endPosition="17" />
+    <nodeInfo nodeId="6220135881201382355" conceptFqName="jetbrains.mps.baseLanguage.structure.LocalVariableDeclarationStatement" fileName="NodeMap.java" startLine="32" startPosition="6" endLine="33" endPosition="63" />
+    <nodeInfo nodeId="6220135881201387329" conceptFqName="jetbrains.mps.baseLanguage.structure.ExpressionStatement" fileName="NodeMap.java" startLine="34" startPosition="46" endLine="35" endPosition="36" />
+    <nodeInfo nodeId="6220135881201387344" conceptFqName="jetbrains.mps.baseLanguage.structure.ReturnStatement" fileName="NodeMap.java" startLine="36" startPosition="7" endLine="37" endPosition="17" />
+    <nodeInfo nodeId="6220135881201387368" conceptFqName="jetbrains.mps.baseLanguage.structure.ThrowStatement" fileName="NodeMap.java" startLine="38" startPosition="6" endLine="39" endPosition="60" />
+    <nodeInfo nodeId="5180427534212020982" conceptFqName="jetbrains.mps.baseLanguage.structure.ThrowStatement" fileName="NodeMap.java" startLine="42" startPosition="23" endLine="43" endPosition="60" />
+    <nodeInfo nodeId="5180427534212020986" conceptFqName="jetbrains.mps.baseLanguage.structure.ThrowStatement" fileName="NodeMap.java" startLine="46" startPosition="60" endLine="47" endPosition="60" />
+    <nodeInfo nodeId="5180427534212036566" conceptFqName="jetbrains.mps.baseLanguage.structure.ThrowStatement" fileName="NodeMap.java" startLine="50" startPosition="34" endLine="51" endPosition="60" />
+    <nodeInfo nodeId="5180427534212036418" conceptFqName="jetbrains.mps.baseLanguage.structure.LocalVariableDeclarationStatement" fileName="NodeMap.java" startLine="54" startPosition="36" endLine="55" endPosition="32" />
+    <nodeInfo nodeId="5180427534212036561" conceptFqName="jetbrains.mps.baseLanguage.structure.ExpressionStatement" fileName="NodeMap.java" startLine="55" startPosition="32" endLine="56" endPosition="26" />
+    <nodeInfo nodeId="5180427534212020345" conceptFqName="jetbrains.mps.baseLanguage.structure.ExpressionStatement" fileName="NodeMap.java" startLine="56" startPosition="26" endLine="57" endPosition="28" />
+    <nodeInfo nodeId="5180427534212020361" conceptFqName="jetbrains.mps.baseLanguage.structure.ReturnStatement" fileName="NodeMap.java" startLine="57" startPosition="28" endLine="58" endPosition="17" />
+    <nodeInfo nodeId="5180427534212020387" conceptFqName="jetbrains.mps.baseLanguage.structure.LocalVariableDeclarationStatement" fileName="NodeMap.java" startLine="61" startPosition="31" endLine="62" endPosition="32" />
+    <nodeInfo nodeId="5180427534212036548" conceptFqName="jetbrains.mps.baseLanguage.structure.LocalVariableDeclarationStatement" fileName="NodeMap.java" startLine="62" startPosition="32" endLine="63" endPosition="32" />
+    <nodeInfo nodeId="5180427534212036556" conceptFqName="jetbrains.mps.baseLanguage.structure.ExpressionStatement" fileName="NodeMap.java" startLine="63" startPosition="32" endLine="64" endPosition="26" />
+    <nodeInfo nodeId="5180427534212020397" conceptFqName="jetbrains.mps.baseLanguage.structure.ReturnStatement" fileName="NodeMap.java" startLine="64" startPosition="26" endLine="65" endPosition="28" />
+    <nodeInfo nodeId="5180427534212020990" conceptFqName="jetbrains.mps.baseLanguage.structure.ThrowStatement" fileName="NodeMap.java" startLine="68" startPosition="47" endLine="69" endPosition="60" />
+    <nodeInfo nodeId="5180427534212020994" conceptFqName="jetbrains.mps.baseLanguage.structure.ThrowStatement" fileName="NodeMap.java" startLine="72" startPosition="45" endLine="73" endPosition="60" />
+    <nodeInfo nodeId="5180427534212020998" conceptFqName="jetbrains.mps.baseLanguage.structure.ThrowStatement" fileName="NodeMap.java" startLine="76" startPosition="28" endLine="77" endPosition="60" />
+    <nodeInfo nodeId="5180427534212020338" conceptFqName="jetbrains.mps.baseLanguage.structure.ReturnStatement" fileName="NodeMap.java" startLine="80" startPosition="21" endLine="81" endPosition="24" />
+    <nodeInfo nodeId="5180427534212036531" conceptFqName="jetbrains.mps.baseLanguage.structure.ExpressionStatement" fileName="NodeMap.java" startLine="86" startPosition="54" endLine="87" endPosition="24" />
+    <nodeInfo nodeId="5180427534212034585" conceptFqName="jetbrains.mps.baseLanguage.structure.LocalVariableDeclarationStatement" fileName="NodeMap.java" startLine="93" startPosition="28" endLine="94" endPosition="48" />
+    <nodeInfo nodeId="5180427534212034601" conceptFqName="jetbrains.mps.baseLanguage.structure.ExpressionStatement" fileName="NodeMap.java" startLine="94" startPosition="48" endLine="95" endPosition="34" />
+    <nodeInfo nodeId="5180427534212034643" conceptFqName="jetbrains.mps.baseLanguage.structure.ExpressionStatement" fileName="NodeMap.java" startLine="96" startPosition="44" endLine="97" endPosition="55" />
+    <nodeInfo nodeId="5180427534212034668" conceptFqName="jetbrains.mps.baseLanguage.structure.ExpressionStatement" fileName="NodeMap.java" startLine="98" startPosition="5" endLine="99" endPosition="30" />
+    <nodeInfo nodeId="5180427534212034592" conceptFqName="jetbrains.mps.baseLanguage.structure.ReturnStatement" fileName="NodeMap.java" startLine="99" startPosition="30" endLine="100" endPosition="30" />
+    <nodeInfo nodeId="6220135881201387309" conceptFqName="jetbrains.mps.baseLanguage.structure.ForStatement" fileName="NodeMap.java" startLine="33" startPosition="63" endLine="36" endPosition="7" />
+    <nodeInfo nodeId="5180427534212036524" conceptFqName="jetbrains.mps.baseLanguage.structure.ForStatement" fileName="NodeMap.java" startLine="85" startPosition="35" endLine="88" endPosition="7" />
+    <nodeInfo nodeId="5180427534212034622" conceptFqName="jetbrains.mps.baseLanguage.structure.ForStatement" fileName="NodeMap.java" startLine="95" startPosition="34" endLine="98" endPosition="5" />
+    <nodeInfo nodeId="5180427534211916791" conceptFqName="jetbrains.mps.baseLanguage.structure.ConstructorDeclaration" fileName="NodeMap.java" startLine="17" startPosition="0" endLine="21" endPosition="3" />
+    <nodeInfo nodeId="5180427534212020252" conceptFqName="jetbrains.mps.baseLanguage.structure.InstanceMethodDeclaration" fileName="NodeMap.java" startLine="22" startPosition="0" endLine="26" endPosition="0" />
+    <nodeInfo nodeId="5180427534212020259" conceptFqName="jetbrains.mps.baseLanguage.structure.InstanceMethodDeclaration" fileName="NodeMap.java" startLine="26" startPosition="0" endLine="30" endPosition="0" />
+    <nodeInfo nodeId="5180427534212020269" conceptFqName="jetbrains.mps.baseLanguage.structure.InstanceMethodDeclaration" fileName="NodeMap.java" startLine="41" startPosition="0" endLine="45" endPosition="0" />
+    <nodeInfo nodeId="5180427534212020273" conceptFqName="jetbrains.mps.baseLanguage.structure.InstanceMethodDeclaration" fileName="NodeMap.java" startLine="45" startPosition="0" endLine="49" endPosition="0" />
+    <nodeInfo nodeId="5180427534212020283" conceptFqName="jetbrains.mps.baseLanguage.structure.InstanceMethodDeclaration" fileName="NodeMap.java" startLine="49" startPosition="0" endLine="53" endPosition="0" />
+    <nodeInfo nodeId="5180427534212020303" conceptFqName="jetbrains.mps.baseLanguage.structure.InstanceMethodDeclaration" fileName="NodeMap.java" startLine="67" startPosition="0" endLine="71" endPosition="0" />
+    <nodeInfo nodeId="5180427534212020309" conceptFqName="jetbrains.mps.baseLanguage.structure.InstanceMethodDeclaration" fileName="NodeMap.java" startLine="71" startPosition="0" endLine="75" endPosition="0" />
+    <nodeInfo nodeId="5180427534212020315" conceptFqName="jetbrains.mps.baseLanguage.structure.InstanceMethodDeclaration" fileName="NodeMap.java" startLine="75" startPosition="0" endLine="79" endPosition="0" />
+    <nodeInfo nodeId="5180427534212020319" conceptFqName="jetbrains.mps.baseLanguage.structure.InstanceMethodDeclaration" fileName="NodeMap.java" startLine="79" startPosition="0" endLine="83" endPosition="0" />
+    <nodeInfo nodeId="5180427534212036522" conceptFqName="jetbrains.mps.baseLanguage.structure.IfStatement" fileName="NodeMap.java" startLine="84" startPosition="45" endLine="89" endPosition="5" />
+    <nodeInfo nodeId="6220135881201387366" conceptFqName="jetbrains.mps.baseLanguage.structure.CommentedStatementsBlock" fileName="NodeMap.java" startLine="31" startPosition="29" endLine="38" endPosition="6" />
+    <nodeInfo nodeId="5180427534212020289" conceptFqName="jetbrains.mps.baseLanguage.structure.InstanceMethodDeclaration" fileName="NodeMap.java" startLine="53" startPosition="0" endLine="60" endPosition="0" />
+    <nodeInfo nodeId="5180427534212020297" conceptFqName="jetbrains.mps.baseLanguage.structure.InstanceMethodDeclaration" fileName="NodeMap.java" startLine="60" startPosition="0" endLine="67" endPosition="0" />
+    <nodeInfo nodeId="5180427534212036509" conceptFqName="jetbrains.mps.baseLanguage.structure.InstanceMethodDeclaration" fileName="NodeMap.java" startLine="83" startPosition="0" endLine="91" endPosition="0" />
+    <nodeInfo nodeId="5180427534212020264" conceptFqName="jetbrains.mps.baseLanguage.structure.InstanceMethodDeclaration" fileName="NodeMap.java" startLine="30" startPosition="0" endLine="41" endPosition="0" />
+    <nodeInfo nodeId="5180427534212034570" conceptFqName="jetbrains.mps.baseLanguage.structure.InstanceMethodDeclaration" fileName="NodeMap.java" startLine="91" startPosition="0" endLine="102" endPosition="0" />
     <scopeInfo nodeId="5180427534212020258" fileName="NodeMap.java" startLine="23" startPosition="45" endLine="24" endPosition="60" />
     <scopeInfo nodeId="5180427534212020263" fileName="NodeMap.java" startLine="27" startPosition="33" endLine="28" endPosition="17" />
     <scopeInfo nodeId="6220135881201387310" fileName="NodeMap.java" startLine="34" startPosition="46" endLine="35" endPosition="36" />
@@ -219,115 +282,122 @@
     <unitInfo nodeId="5180427534211916789" fileName="NodeMap.java" startLine="14" startPosition="0" endLine="103" endPosition="0" unitName="jetbrains.mps.graphLayout.util.NodeMap" />
   </root>
   <root nodeId="5639900666367221336">
-    <nodeInfo nodeId="5639900666367221388" fileName="GeomUtil.java" startLine="14" startPosition="72" endLine="15" endPosition="43" />
-    <nodeInfo nodeId="5639900666367292096" fileName="GeomUtil.java" startLine="18" startPosition="74" endLine="19" endPosition="44" />
-    <nodeInfo nodeId="5639900666367221488" fileName="GeomUtil.java" startLine="22" startPosition="60" endLine="23" endPosition="36" />
-    <nodeInfo nodeId="5639900666367221515" fileName="GeomUtil.java" startLine="23" startPosition="36" endLine="24" endPosition="36" />
-    <nodeInfo nodeId="5639900666367221526" fileName="GeomUtil.java" startLine="24" startPosition="36" endLine="25" endPosition="36" />
-    <nodeInfo nodeId="5639900666367221536" fileName="GeomUtil.java" startLine="25" startPosition="36" endLine="26" endPosition="36" />
-    <nodeInfo nodeId="5639900666367221565" fileName="GeomUtil.java" startLine="26" startPosition="36" endLine="27" endPosition="63" />
-    <nodeInfo nodeId="5327124464817432481" fileName="GeomUtil.java" startLine="30" startPosition="70" endLine="31" endPosition="33" />
-    <nodeInfo nodeId="5327124464817432491" fileName="GeomUtil.java" startLine="31" startPosition="33" endLine="32" endPosition="33" />
-    <nodeInfo nodeId="5327124464817432501" fileName="GeomUtil.java" startLine="32" startPosition="33" endLine="33" endPosition="33" />
-    <nodeInfo nodeId="5327124464817432511" fileName="GeomUtil.java" startLine="33" startPosition="33" endLine="34" endPosition="33" />
-    <nodeInfo nodeId="5327124464817432532" fileName="GeomUtil.java" startLine="35" startPosition="55" endLine="36" endPosition="37" />
-    <nodeInfo nodeId="5327124464817432547" fileName="GeomUtil.java" startLine="36" startPosition="37" endLine="37" endPosition="37" />
-    <nodeInfo nodeId="5327124464817432555" fileName="GeomUtil.java" startLine="37" startPosition="37" endLine="38" endPosition="37" />
-    <nodeInfo nodeId="5327124464817432563" fileName="GeomUtil.java" startLine="38" startPosition="37" endLine="39" endPosition="37" />
-    <nodeInfo nodeId="5327124464817432591" fileName="GeomUtil.java" startLine="40" startPosition="5" endLine="41" endPosition="63" />
-    <nodeInfo nodeId="6160477238666597986" fileName="GeomUtil.java" startLine="44" startPosition="59" endLine="45" endPosition="24" />
-    <nodeInfo nodeId="6160477238666597999" fileName="GeomUtil.java" startLine="45" startPosition="24" endLine="46" endPosition="83" />
-    <nodeInfo nodeId="6160477238666598053" fileName="GeomUtil.java" startLine="46" startPosition="83" endLine="47" endPosition="97" />
-    <nodeInfo nodeId="6160477238666598079" fileName="GeomUtil.java" startLine="47" startPosition="97" endLine="48" endPosition="82" />
-    <nodeInfo nodeId="6160477238666598105" fileName="GeomUtil.java" startLine="48" startPosition="82" endLine="49" endPosition="96" />
-    <nodeInfo nodeId="6160477238666597992" fileName="GeomUtil.java" startLine="49" startPosition="96" endLine="50" endPosition="15" />
-    <nodeInfo nodeId="6160477238666598206" fileName="GeomUtil.java" startLine="53" startPosition="59" endLine="54" endPosition="123" />
-    <nodeInfo nodeId="6160477238666701792" fileName="GeomUtil.java" startLine="59" startPosition="52" endLine="60" endPosition="39" />
-    <nodeInfo nodeId="6160477238666701851" fileName="GeomUtil.java" startLine="62" startPosition="66" endLine="63" endPosition="53" />
-    <nodeInfo nodeId="6160477238666701902" fileName="GeomUtil.java" startLine="67" startPosition="52" endLine="68" endPosition="39" />
-    <nodeInfo nodeId="6160477238666701913" fileName="GeomUtil.java" startLine="70" startPosition="65" endLine="71" endPosition="52" />
-    <nodeInfo nodeId="6160477238666701829" fileName="GeomUtil.java" startLine="73" startPosition="5" endLine="74" endPosition="16" />
-    <nodeInfo nodeId="272112265222926852" fileName="GeomUtil.java" startLine="77" startPosition="70" endLine="78" endPosition="75" />
-    <nodeInfo nodeId="272112265222926859" fileName="GeomUtil.java" startLine="78" startPosition="75" endLine="79" endPosition="29" />
-    <nodeInfo nodeId="272112265222926869" fileName="GeomUtil.java" startLine="79" startPosition="29" endLine="80" endPosition="76" />
-    <nodeInfo nodeId="272112265222926881" fileName="GeomUtil.java" startLine="80" startPosition="76" endLine="81" endPosition="90" />
-    <nodeInfo nodeId="272112265222926897" fileName="GeomUtil.java" startLine="81" startPosition="90" endLine="82" endPosition="89" />
-    <nodeInfo nodeId="272112265222926913" fileName="GeomUtil.java" startLine="82" startPosition="89" endLine="83" endPosition="103" />
-    <nodeInfo nodeId="272112265222926969" fileName="GeomUtil.java" startLine="86" startPosition="58" endLine="87" endPosition="19" />
-    <nodeInfo nodeId="272112265222927002" fileName="GeomUtil.java" startLine="90" startPosition="58" endLine="91" endPosition="19" />
-    <nodeInfo nodeId="272112265222927004" fileName="GeomUtil.java" startLine="94" startPosition="5" endLine="95" endPosition="16" />
-    <nodeInfo nodeId="8680836410351713691" fileName="GeomUtil.java" startLine="98" startPosition="76" endLine="99" endPosition="56" />
-    <nodeInfo nodeId="272112265222956170" fileName="GeomUtil.java" startLine="102" startPosition="88" endLine="103" endPosition="23" />
-    <nodeInfo nodeId="272112265222956200" fileName="GeomUtil.java" startLine="104" startPosition="29" endLine="105" endPosition="64" />
-    <nodeInfo nodeId="272112265222956213" fileName="GeomUtil.java" startLine="107" startPosition="29" endLine="108" endPosition="63" />
-    <nodeInfo nodeId="272112265222956236" fileName="GeomUtil.java" startLine="109" startPosition="5" endLine="110" endPosition="23" />
-    <nodeInfo nodeId="272112265222956244" fileName="GeomUtil.java" startLine="111" startPosition="29" endLine="112" endPosition="61" />
-    <nodeInfo nodeId="272112265222956259" fileName="GeomUtil.java" startLine="114" startPosition="29" endLine="115" endPosition="63" />
-    <nodeInfo nodeId="272112265222956279" fileName="GeomUtil.java" startLine="116" startPosition="5" endLine="117" endPosition="33" />
-    <nodeInfo nodeId="1265453300920942474" fileName="GeomUtil.java" startLine="120" startPosition="66" endLine="121" endPosition="42" />
-    <nodeInfo nodeId="1265453300920942486" fileName="GeomUtil.java" startLine="121" startPosition="42" endLine="122" endPosition="42" />
-    <nodeInfo nodeId="1265453300920941805" fileName="GeomUtil.java" startLine="122" startPosition="42" endLine="123" endPosition="43" />
-    <nodeInfo nodeId="1265453300920941920" fileName="GeomUtil.java" startLine="126" startPosition="54" endLine="127" endPosition="22" />
-    <nodeInfo nodeId="1265453300920941935" fileName="GeomUtil.java" startLine="128" startPosition="22" endLine="129" endPosition="21" />
-    <nodeInfo nodeId="1265453300920941943" fileName="GeomUtil.java" startLine="131" startPosition="22" endLine="132" endPosition="20" />
-    <nodeInfo nodeId="1265453300920941955" fileName="GeomUtil.java" startLine="133" startPosition="5" endLine="134" endPosition="21" />
-    <nodeInfo nodeId="6526638447417134929" fileName="GeomUtil.java" startLine="137" startPosition="57" endLine="138" endPosition="34" />
-    <nodeInfo nodeId="6526638447417134945" fileName="GeomUtil.java" startLine="138" startPosition="34" endLine="139" endPosition="42" />
-    <nodeInfo nodeId="6526638447417134969" fileName="GeomUtil.java" startLine="139" startPosition="42" endLine="140" endPosition="56" />
-    <nodeInfo nodeId="6526638447417134982" fileName="GeomUtil.java" startLine="140" startPosition="56" endLine="141" endPosition="69" />
-    <nodeInfo nodeId="6526638447417134995" fileName="GeomUtil.java" startLine="141" startPosition="69" endLine="142" endPosition="55" />
-    <nodeInfo nodeId="6526638447417134941" fileName="GeomUtil.java" startLine="142" startPosition="55" endLine="143" endPosition="18" />
-    <nodeInfo nodeId="5368829933099654658" fileName="GeomUtil.java" startLine="147" startPosition="35" endLine="148" endPosition="20" />
-    <nodeInfo nodeId="5368829933099654613" fileName="GeomUtil.java" startLine="150" startPosition="34" endLine="151" endPosition="33" />
-    <nodeInfo nodeId="5368829933099654622" fileName="GeomUtil.java" startLine="153" startPosition="32" endLine="154" endPosition="20" />
-    <nodeInfo nodeId="5368829933099654636" fileName="GeomUtil.java" startLine="155" startPosition="5" endLine="156" endPosition="32" />
-    <nodeInfo nodeId="5368829933099654694" fileName="GeomUtil.java" startLine="159" startPosition="63" endLine="160" endPosition="42" />
-    <nodeInfo nodeId="5368829933099812174" fileName="GeomUtil.java" startLine="164" startPosition="29" endLine="165" endPosition="24" />
-    <nodeInfo nodeId="5368829933099812184" fileName="GeomUtil.java" startLine="166" startPosition="12" endLine="167" endPosition="25" />
-    <nodeInfo nodeId="5368829933099812203" fileName="GeomUtil.java" startLine="172" startPosition="29" endLine="173" endPosition="25" />
-    <nodeInfo nodeId="5368829933099812209" fileName="GeomUtil.java" startLine="174" startPosition="12" endLine="175" endPosition="24" />
-    <nodeInfo nodeId="5368829933099812182" fileName="GeomUtil.java" startLine="166" startPosition="10" endLine="168" endPosition="5" />
-    <nodeInfo nodeId="5368829933099812207" fileName="GeomUtil.java" startLine="174" startPosition="10" endLine="176" endPosition="5" />
-    <nodeInfo nodeId="6160477238666701766" fileName="GeomUtil.java" startLine="58" startPosition="23" endLine="61" endPosition="7" />
-    <nodeInfo nodeId="6160477238666701824" fileName="GeomUtil.java" startLine="61" startPosition="7" endLine="64" endPosition="7" />
-    <nodeInfo nodeId="6160477238666701890" fileName="GeomUtil.java" startLine="66" startPosition="23" endLine="69" endPosition="7" />
-    <nodeInfo nodeId="6160477238666701911" fileName="GeomUtil.java" startLine="69" startPosition="7" endLine="72" endPosition="7" />
-    <nodeInfo nodeId="272112265222926940" fileName="GeomUtil.java" startLine="85" startPosition="16" endLine="88" endPosition="9" />
-    <nodeInfo nodeId="272112265222926973" fileName="GeomUtil.java" startLine="89" startPosition="14" endLine="92" endPosition="9" />
-    <nodeInfo nodeId="272112265222956181" fileName="GeomUtil.java" startLine="103" startPosition="23" endLine="106" endPosition="5" />
-    <nodeInfo nodeId="272112265222956211" fileName="GeomUtil.java" startLine="106" startPosition="5" endLine="109" endPosition="5" />
-    <nodeInfo nodeId="272112265222956242" fileName="GeomUtil.java" startLine="110" startPosition="23" endLine="113" endPosition="5" />
-    <nodeInfo nodeId="272112265222956257" fileName="GeomUtil.java" startLine="113" startPosition="5" endLine="116" endPosition="5" />
-    <nodeInfo nodeId="1265453300920941926" fileName="GeomUtil.java" startLine="127" startPosition="22" endLine="130" endPosition="5" />
-    <nodeInfo nodeId="1265453300920941941" fileName="GeomUtil.java" startLine="130" startPosition="5" endLine="133" endPosition="5" />
-    <nodeInfo nodeId="5368829933099654648" fileName="GeomUtil.java" startLine="146" startPosition="63" endLine="149" endPosition="5" />
-    <nodeInfo nodeId="5368829933099654608" fileName="GeomUtil.java" startLine="149" startPosition="5" endLine="152" endPosition="5" />
-    <nodeInfo nodeId="5368829933099654617" fileName="GeomUtil.java" startLine="152" startPosition="5" endLine="155" endPosition="5" />
-    <nodeInfo nodeId="5639900666367221376" fileName="GeomUtil.java" startLine="13" startPosition="23" endLine="17" endPosition="0" />
-    <nodeInfo nodeId="5639900666367292092" fileName="GeomUtil.java" startLine="17" startPosition="0" endLine="21" endPosition="0" />
-    <nodeInfo nodeId="6160477238666598196" fileName="GeomUtil.java" startLine="52" startPosition="0" endLine="56" endPosition="0" />
-    <nodeInfo nodeId="272112265222926971" fileName="GeomUtil.java" startLine="89" startPosition="12" endLine="93" endPosition="7" />
-    <nodeInfo nodeId="8680836410351713675" fileName="GeomUtil.java" startLine="97" startPosition="0" endLine="101" endPosition="0" />
-    <nodeInfo nodeId="5368829933099654684" fileName="GeomUtil.java" startLine="158" startPosition="0" endLine="162" endPosition="0" />
-    <nodeInfo nodeId="5368829933099812165" fileName="GeomUtil.java" startLine="163" startPosition="60" endLine="168" endPosition="5" />
-    <nodeInfo nodeId="5368829933099812198" fileName="GeomUtil.java" startLine="171" startPosition="61" endLine="176" endPosition="5" />
-    <nodeInfo nodeId="5327124464817432527" fileName="GeomUtil.java" startLine="34" startPosition="33" endLine="40" endPosition="5" />
-    <nodeInfo nodeId="1265453300920941774" fileName="GeomUtil.java" startLine="119" startPosition="0" endLine="125" endPosition="0" />
-    <nodeInfo nodeId="5639900666367221478" fileName="GeomUtil.java" startLine="21" startPosition="0" endLine="29" endPosition="0" />
-    <nodeInfo nodeId="6160477238666701748" fileName="GeomUtil.java" startLine="57" startPosition="72" endLine="65" endPosition="5" />
-    <nodeInfo nodeId="6160477238666701871" fileName="GeomUtil.java" startLine="65" startPosition="5" endLine="73" endPosition="5" />
-    <nodeInfo nodeId="5368829933099812155" fileName="GeomUtil.java" startLine="162" startPosition="0" endLine="170" endPosition="0" />
-    <nodeInfo nodeId="5368829933099812194" fileName="GeomUtil.java" startLine="170" startPosition="0" endLine="178" endPosition="0" />
-    <nodeInfo nodeId="6160477238666597965" fileName="GeomUtil.java" startLine="43" startPosition="0" endLine="52" endPosition="0" />
-    <nodeInfo nodeId="272112265222926937" fileName="GeomUtil.java" startLine="84" startPosition="55" endLine="93" endPosition="7" />
-    <nodeInfo nodeId="6526638447417134918" fileName="GeomUtil.java" startLine="136" startPosition="0" endLine="145" endPosition="0" />
-    <nodeInfo nodeId="272112265222926933" fileName="GeomUtil.java" startLine="83" startPosition="103" endLine="94" endPosition="5" />
-    <nodeInfo nodeId="1265453300920941910" fileName="GeomUtil.java" startLine="125" startPosition="0" endLine="136" endPosition="0" />
-    <nodeInfo nodeId="5368829933099654579" fileName="GeomUtil.java" startLine="145" startPosition="0" endLine="158" endPosition="0" />
-    <nodeInfo nodeId="5327124464817432472" fileName="GeomUtil.java" startLine="29" startPosition="0" endLine="43" endPosition="0" />
-    <nodeInfo nodeId="272112265222956099" fileName="GeomUtil.java" startLine="101" startPosition="0" endLine="119" endPosition="0" />
-    <nodeInfo nodeId="6160477238666701735" fileName="GeomUtil.java" startLine="56" startPosition="0" endLine="76" endPosition="0" />
-    <nodeInfo nodeId="272112265222926837" fileName="GeomUtil.java" startLine="76" startPosition="0" endLine="97" endPosition="0" />
+    <nodeInfo nodeId="5639900666367221388" conceptFqName="jetbrains.mps.baseLanguage.structure.ReturnStatement" fileName="GeomUtil.java" startLine="14" startPosition="72" endLine="15" endPosition="43" />
+    <nodeInfo nodeId="5639900666367292096" conceptFqName="jetbrains.mps.baseLanguage.structure.ReturnStatement" fileName="GeomUtil.java" startLine="18" startPosition="74" endLine="19" endPosition="44" />
+    <nodeInfo nodeId="5639900666367221488" conceptFqName="jetbrains.mps.baseLanguage.structure.LocalVariableDeclarationStatement" fileName="GeomUtil.java" startLine="22" startPosition="60" endLine="23" endPosition="36" />
+    <nodeInfo nodeId="5639900666367221515" conceptFqName="jetbrains.mps.baseLanguage.structure.LocalVariableDeclarationStatement" fileName="GeomUtil.java" startLine="23" startPosition="36" endLine="24" endPosition="36" />
+    <nodeInfo nodeId="5639900666367221526" conceptFqName="jetbrains.mps.baseLanguage.structure.LocalVariableDeclarationStatement" fileName="GeomUtil.java" startLine="24" startPosition="36" endLine="25" endPosition="36" />
+    <nodeInfo nodeId="5639900666367221536" conceptFqName="jetbrains.mps.baseLanguage.structure.LocalVariableDeclarationStatement" fileName="GeomUtil.java" startLine="25" startPosition="36" endLine="26" endPosition="36" />
+    <nodeInfo nodeId="5639900666367221565" conceptFqName="jetbrains.mps.baseLanguage.structure.ReturnStatement" fileName="GeomUtil.java" startLine="26" startPosition="36" endLine="27" endPosition="63" />
+    <nodeInfo nodeId="5327124464817432481" conceptFqName="jetbrains.mps.baseLanguage.structure.LocalVariableDeclarationStatement" fileName="GeomUtil.java" startLine="30" startPosition="70" endLine="31" endPosition="33" />
+    <nodeInfo nodeId="5327124464817432491" conceptFqName="jetbrains.mps.baseLanguage.structure.LocalVariableDeclarationStatement" fileName="GeomUtil.java" startLine="31" startPosition="33" endLine="32" endPosition="33" />
+    <nodeInfo nodeId="5327124464817432501" conceptFqName="jetbrains.mps.baseLanguage.structure.LocalVariableDeclarationStatement" fileName="GeomUtil.java" startLine="32" startPosition="33" endLine="33" endPosition="33" />
+    <nodeInfo nodeId="5327124464817432511" conceptFqName="jetbrains.mps.baseLanguage.structure.LocalVariableDeclarationStatement" fileName="GeomUtil.java" startLine="33" startPosition="33" endLine="34" endPosition="33" />
+    <nodeInfo nodeId="5327124464817432532" conceptFqName="jetbrains.mps.baseLanguage.structure.ExpressionStatement" fileName="GeomUtil.java" startLine="35" startPosition="55" endLine="36" endPosition="37" />
+    <nodeInfo nodeId="5327124464817432547" conceptFqName="jetbrains.mps.baseLanguage.structure.ExpressionStatement" fileName="GeomUtil.java" startLine="36" startPosition="37" endLine="37" endPosition="37" />
+    <nodeInfo nodeId="5327124464817432555" conceptFqName="jetbrains.mps.baseLanguage.structure.ExpressionStatement" fileName="GeomUtil.java" startLine="37" startPosition="37" endLine="38" endPosition="37" />
+    <nodeInfo nodeId="5327124464817432563" conceptFqName="jetbrains.mps.baseLanguage.structure.ExpressionStatement" fileName="GeomUtil.java" startLine="38" startPosition="37" endLine="39" endPosition="37" />
+    <nodeInfo nodeId="5327124464817432591" conceptFqName="jetbrains.mps.baseLanguage.structure.ReturnStatement" fileName="GeomUtil.java" startLine="40" startPosition="5" endLine="41" endPosition="63" />
+    <nodeInfo nodeId="6160477238666597986" conceptFqName="jetbrains.mps.baseLanguage.structure.LocalVariableDeclarationStatement" fileName="GeomUtil.java" startLine="44" startPosition="59" endLine="45" endPosition="24" />
+    <nodeInfo nodeId="6160477238666597999" conceptFqName="jetbrains.mps.baseLanguage.structure.ExpressionStatement" fileName="GeomUtil.java" startLine="45" startPosition="24" endLine="46" endPosition="83" />
+    <nodeInfo nodeId="6160477238666598053" conceptFqName="jetbrains.mps.baseLanguage.structure.ExpressionStatement" fileName="GeomUtil.java" startLine="46" startPosition="83" endLine="47" endPosition="96" />
+    <nodeInfo nodeId="6160477238666598079" conceptFqName="jetbrains.mps.baseLanguage.structure.ExpressionStatement" fileName="GeomUtil.java" startLine="47" startPosition="96" endLine="48" endPosition="82" />
+    <nodeInfo nodeId="6160477238666598105" conceptFqName="jetbrains.mps.baseLanguage.structure.ExpressionStatement" fileName="GeomUtil.java" startLine="48" startPosition="82" endLine="49" endPosition="96" />
+    <nodeInfo nodeId="6160477238666597992" conceptFqName="jetbrains.mps.baseLanguage.structure.ReturnStatement" fileName="GeomUtil.java" startLine="49" startPosition="96" endLine="50" endPosition="15" />
+    <nodeInfo nodeId="6160477238666598206" conceptFqName="jetbrains.mps.baseLanguage.structure.ReturnStatement" fileName="GeomUtil.java" startLine="53" startPosition="59" endLine="54" endPosition="123" />
+    <nodeInfo nodeId="6160477238666701792" conceptFqName="jetbrains.mps.baseLanguage.structure.ReturnStatement" fileName="GeomUtil.java" startLine="59" startPosition="52" endLine="60" endPosition="39" />
+    <nodeInfo nodeId="6160477238666701851" conceptFqName="jetbrains.mps.baseLanguage.structure.ReturnStatement" fileName="GeomUtil.java" startLine="62" startPosition="66" endLine="63" endPosition="53" />
+    <nodeInfo nodeId="6160477238666701902" conceptFqName="jetbrains.mps.baseLanguage.structure.ReturnStatement" fileName="GeomUtil.java" startLine="67" startPosition="52" endLine="68" endPosition="39" />
+    <nodeInfo nodeId="6160477238666701913" conceptFqName="jetbrains.mps.baseLanguage.structure.ReturnStatement" fileName="GeomUtil.java" startLine="70" startPosition="65" endLine="71" endPosition="52" />
+    <nodeInfo nodeId="6160477238666701829" conceptFqName="jetbrains.mps.baseLanguage.structure.ReturnStatement" fileName="GeomUtil.java" startLine="73" startPosition="5" endLine="74" endPosition="16" />
+    <nodeInfo nodeId="272112265222926852" conceptFqName="jetbrains.mps.baseLanguage.structure.LocalVariableDeclarationStatement" fileName="GeomUtil.java" startLine="77" startPosition="70" endLine="78" endPosition="75" />
+    <nodeInfo nodeId="272112265222926859" conceptFqName="jetbrains.mps.baseLanguage.structure.LocalVariableDeclarationStatement" fileName="GeomUtil.java" startLine="78" startPosition="75" endLine="79" endPosition="29" />
+    <nodeInfo nodeId="272112265222926869" conceptFqName="jetbrains.mps.baseLanguage.structure.ExpressionStatement" fileName="GeomUtil.java" startLine="79" startPosition="29" endLine="80" endPosition="76" />
+    <nodeInfo nodeId="272112265222926881" conceptFqName="jetbrains.mps.baseLanguage.structure.ExpressionStatement" fileName="GeomUtil.java" startLine="80" startPosition="76" endLine="81" endPosition="90" />
+    <nodeInfo nodeId="272112265222926897" conceptFqName="jetbrains.mps.baseLanguage.structure.ExpressionStatement" fileName="GeomUtil.java" startLine="81" startPosition="90" endLine="82" endPosition="89" />
+    <nodeInfo nodeId="272112265222926913" conceptFqName="jetbrains.mps.baseLanguage.structure.ExpressionStatement" fileName="GeomUtil.java" startLine="82" startPosition="89" endLine="83" endPosition="103" />
+    <nodeInfo nodeId="272112265222926969" conceptFqName="jetbrains.mps.baseLanguage.structure.ReturnStatement" fileName="GeomUtil.java" startLine="86" startPosition="58" endLine="87" endPosition="19" />
+    <nodeInfo nodeId="272112265222927002" conceptFqName="jetbrains.mps.baseLanguage.structure.ReturnStatement" fileName="GeomUtil.java" startLine="90" startPosition="58" endLine="91" endPosition="19" />
+    <nodeInfo nodeId="272112265222927004" conceptFqName="jetbrains.mps.baseLanguage.structure.ReturnStatement" fileName="GeomUtil.java" startLine="94" startPosition="5" endLine="95" endPosition="16" />
+    <nodeInfo nodeId="8680836410351713691" conceptFqName="jetbrains.mps.baseLanguage.structure.ReturnStatement" fileName="GeomUtil.java" startLine="98" startPosition="76" endLine="99" endPosition="56" />
+    <nodeInfo nodeId="272112265222956170" conceptFqName="jetbrains.mps.baseLanguage.structure.LocalVariableDeclarationStatement" fileName="GeomUtil.java" startLine="102" startPosition="88" endLine="103" endPosition="23" />
+    <nodeInfo nodeId="272112265222956200" conceptFqName="jetbrains.mps.baseLanguage.structure.ExpressionStatement" fileName="GeomUtil.java" startLine="104" startPosition="29" endLine="105" endPosition="64" />
+    <nodeInfo nodeId="272112265222956213" conceptFqName="jetbrains.mps.baseLanguage.structure.ExpressionStatement" fileName="GeomUtil.java" startLine="107" startPosition="29" endLine="108" endPosition="63" />
+    <nodeInfo nodeId="272112265222956236" conceptFqName="jetbrains.mps.baseLanguage.structure.LocalVariableDeclarationStatement" fileName="GeomUtil.java" startLine="109" startPosition="5" endLine="110" endPosition="23" />
+    <nodeInfo nodeId="272112265222956244" conceptFqName="jetbrains.mps.baseLanguage.structure.ExpressionStatement" fileName="GeomUtil.java" startLine="111" startPosition="29" endLine="112" endPosition="61" />
+    <nodeInfo nodeId="272112265222956259" conceptFqName="jetbrains.mps.baseLanguage.structure.ExpressionStatement" fileName="GeomUtil.java" startLine="114" startPosition="29" endLine="115" endPosition="63" />
+    <nodeInfo nodeId="272112265222956279" conceptFqName="jetbrains.mps.baseLanguage.structure.ReturnStatement" fileName="GeomUtil.java" startLine="116" startPosition="5" endLine="117" endPosition="33" />
+    <nodeInfo nodeId="1265453300920942474" conceptFqName="jetbrains.mps.baseLanguage.structure.LocalVariableDeclarationStatement" fileName="GeomUtil.java" startLine="120" startPosition="66" endLine="121" endPosition="42" />
+    <nodeInfo nodeId="1265453300920942486" conceptFqName="jetbrains.mps.baseLanguage.structure.LocalVariableDeclarationStatement" fileName="GeomUtil.java" startLine="121" startPosition="42" endLine="122" endPosition="42" />
+    <nodeInfo nodeId="1265453300920941805" conceptFqName="jetbrains.mps.baseLanguage.structure.ReturnStatement" fileName="GeomUtil.java" startLine="122" startPosition="42" endLine="123" endPosition="43" />
+    <nodeInfo nodeId="1265453300920941920" conceptFqName="jetbrains.mps.baseLanguage.structure.LocalVariableDeclarationStatement" fileName="GeomUtil.java" startLine="126" startPosition="54" endLine="127" endPosition="22" />
+    <nodeInfo nodeId="1265453300920941935" conceptFqName="jetbrains.mps.baseLanguage.structure.ExpressionStatement" fileName="GeomUtil.java" startLine="128" startPosition="22" endLine="129" endPosition="21" />
+    <nodeInfo nodeId="1265453300920941943" conceptFqName="jetbrains.mps.baseLanguage.structure.ExpressionStatement" fileName="GeomUtil.java" startLine="131" startPosition="22" endLine="132" endPosition="20" />
+    <nodeInfo nodeId="1265453300920941955" conceptFqName="jetbrains.mps.baseLanguage.structure.ReturnStatement" fileName="GeomUtil.java" startLine="133" startPosition="5" endLine="134" endPosition="21" />
+    <nodeInfo nodeId="6526638447417134929" conceptFqName="jetbrains.mps.baseLanguage.structure.LocalVariableDeclarationStatement" fileName="GeomUtil.java" startLine="137" startPosition="57" endLine="138" endPosition="34" />
+    <nodeInfo nodeId="6526638447417134945" conceptFqName="jetbrains.mps.baseLanguage.structure.ExpressionStatement" fileName="GeomUtil.java" startLine="138" startPosition="34" endLine="139" endPosition="42" />
+    <nodeInfo nodeId="6526638447417134969" conceptFqName="jetbrains.mps.baseLanguage.structure.ExpressionStatement" fileName="GeomUtil.java" startLine="139" startPosition="42" endLine="140" endPosition="56" />
+    <nodeInfo nodeId="6526638447417134982" conceptFqName="jetbrains.mps.baseLanguage.structure.ExpressionStatement" fileName="GeomUtil.java" startLine="140" startPosition="56" endLine="141" endPosition="69" />
+    <nodeInfo nodeId="6526638447417134995" conceptFqName="jetbrains.mps.baseLanguage.structure.ExpressionStatement" fileName="GeomUtil.java" startLine="141" startPosition="69" endLine="142" endPosition="55" />
+    <nodeInfo nodeId="6526638447417134941" conceptFqName="jetbrains.mps.baseLanguage.structure.ReturnStatement" fileName="GeomUtil.java" startLine="142" startPosition="55" endLine="143" endPosition="18" />
+    <nodeInfo nodeId="5368829933099654658" conceptFqName="jetbrains.mps.baseLanguage.structure.ReturnStatement" fileName="GeomUtil.java" startLine="147" startPosition="35" endLine="148" endPosition="20" />
+    <nodeInfo nodeId="5368829933099654613" conceptFqName="jetbrains.mps.baseLanguage.structure.ReturnStatement" fileName="GeomUtil.java" startLine="150" startPosition="34" endLine="151" endPosition="33" />
+    <nodeInfo nodeId="5368829933099654622" conceptFqName="jetbrains.mps.baseLanguage.structure.ReturnStatement" fileName="GeomUtil.java" startLine="153" startPosition="32" endLine="154" endPosition="20" />
+    <nodeInfo nodeId="5368829933099654636" conceptFqName="jetbrains.mps.baseLanguage.structure.ReturnStatement" fileName="GeomUtil.java" startLine="155" startPosition="5" endLine="156" endPosition="32" />
+    <nodeInfo nodeId="5368829933099654694" conceptFqName="jetbrains.mps.baseLanguage.structure.ReturnStatement" fileName="GeomUtil.java" startLine="159" startPosition="63" endLine="160" endPosition="42" />
+    <nodeInfo nodeId="5368829933099812174" conceptFqName="jetbrains.mps.baseLanguage.structure.ReturnStatement" fileName="GeomUtil.java" startLine="164" startPosition="29" endLine="165" endPosition="24" />
+    <nodeInfo nodeId="5368829933099812184" conceptFqName="jetbrains.mps.baseLanguage.structure.ReturnStatement" fileName="GeomUtil.java" startLine="166" startPosition="12" endLine="167" endPosition="25" />
+    <nodeInfo nodeId="5368829933099812203" conceptFqName="jetbrains.mps.baseLanguage.structure.ReturnStatement" fileName="GeomUtil.java" startLine="172" startPosition="29" endLine="173" endPosition="25" />
+    <nodeInfo nodeId="5368829933099812209" conceptFqName="jetbrains.mps.baseLanguage.structure.ReturnStatement" fileName="GeomUtil.java" startLine="174" startPosition="12" endLine="175" endPosition="24" />
+    <nodeInfo nodeId="8527875266531954523" conceptFqName="jetbrains.mps.baseLanguage.structure.LocalVariableDeclarationStatement" fileName="GeomUtil.java" startLine="179" startPosition="74" endLine="180" endPosition="22" />
+    <nodeInfo nodeId="8527875266531954599" conceptFqName="jetbrains.mps.baseLanguage.structure.ReturnStatement" fileName="GeomUtil.java" startLine="182" startPosition="78" endLine="183" endPosition="20" />
+    <nodeInfo nodeId="8527875266531954552" conceptFqName="jetbrains.mps.baseLanguage.structure.ExpressionStatement" fileName="GeomUtil.java" startLine="184" startPosition="7" endLine="185" endPosition="17" />
+    <nodeInfo nodeId="8527875266531954603" conceptFqName="jetbrains.mps.baseLanguage.structure.ReturnStatement" fileName="GeomUtil.java" startLine="186" startPosition="5" endLine="187" endPosition="17" />
+    <nodeInfo nodeId="5368829933099812182" conceptFqName="jetbrains.mps.baseLanguage.structure.BlockStatement" fileName="GeomUtil.java" startLine="166" startPosition="10" endLine="168" endPosition="5" />
+    <nodeInfo nodeId="5368829933099812207" conceptFqName="jetbrains.mps.baseLanguage.structure.BlockStatement" fileName="GeomUtil.java" startLine="174" startPosition="10" endLine="176" endPosition="5" />
+    <nodeInfo nodeId="6160477238666701766" conceptFqName="jetbrains.mps.baseLanguage.structure.IfStatement" fileName="GeomUtil.java" startLine="58" startPosition="23" endLine="61" endPosition="7" />
+    <nodeInfo nodeId="6160477238666701824" conceptFqName="jetbrains.mps.baseLanguage.structure.IfStatement" fileName="GeomUtil.java" startLine="61" startPosition="7" endLine="64" endPosition="7" />
+    <nodeInfo nodeId="6160477238666701890" conceptFqName="jetbrains.mps.baseLanguage.structure.IfStatement" fileName="GeomUtil.java" startLine="66" startPosition="23" endLine="69" endPosition="7" />
+    <nodeInfo nodeId="6160477238666701911" conceptFqName="jetbrains.mps.baseLanguage.structure.IfStatement" fileName="GeomUtil.java" startLine="69" startPosition="7" endLine="72" endPosition="7" />
+    <nodeInfo nodeId="272112265222926940" conceptFqName="jetbrains.mps.baseLanguage.structure.IfStatement" fileName="GeomUtil.java" startLine="85" startPosition="16" endLine="88" endPosition="9" />
+    <nodeInfo nodeId="272112265222926973" conceptFqName="jetbrains.mps.baseLanguage.structure.IfStatement" fileName="GeomUtil.java" startLine="89" startPosition="14" endLine="92" endPosition="9" />
+    <nodeInfo nodeId="272112265222956181" conceptFqName="jetbrains.mps.baseLanguage.structure.IfStatement" fileName="GeomUtil.java" startLine="103" startPosition="23" endLine="106" endPosition="5" />
+    <nodeInfo nodeId="272112265222956211" conceptFqName="jetbrains.mps.baseLanguage.structure.IfStatement" fileName="GeomUtil.java" startLine="106" startPosition="5" endLine="109" endPosition="5" />
+    <nodeInfo nodeId="272112265222956242" conceptFqName="jetbrains.mps.baseLanguage.structure.IfStatement" fileName="GeomUtil.java" startLine="110" startPosition="23" endLine="113" endPosition="5" />
+    <nodeInfo nodeId="272112265222956257" conceptFqName="jetbrains.mps.baseLanguage.structure.IfStatement" fileName="GeomUtil.java" startLine="113" startPosition="5" endLine="116" endPosition="5" />
+    <nodeInfo nodeId="1265453300920941926" conceptFqName="jetbrains.mps.baseLanguage.structure.IfStatement" fileName="GeomUtil.java" startLine="127" startPosition="22" endLine="130" endPosition="5" />
+    <nodeInfo nodeId="1265453300920941941" conceptFqName="jetbrains.mps.baseLanguage.structure.IfStatement" fileName="GeomUtil.java" startLine="130" startPosition="5" endLine="133" endPosition="5" />
+    <nodeInfo nodeId="5368829933099654648" conceptFqName="jetbrains.mps.baseLanguage.structure.IfStatement" fileName="GeomUtil.java" startLine="146" startPosition="63" endLine="149" endPosition="5" />
+    <nodeInfo nodeId="5368829933099654608" conceptFqName="jetbrains.mps.baseLanguage.structure.IfStatement" fileName="GeomUtil.java" startLine="149" startPosition="5" endLine="152" endPosition="5" />
+    <nodeInfo nodeId="5368829933099654617" conceptFqName="jetbrains.mps.baseLanguage.structure.IfStatement" fileName="GeomUtil.java" startLine="152" startPosition="5" endLine="155" endPosition="5" />
+    <nodeInfo nodeId="8527875266531954531" conceptFqName="jetbrains.mps.baseLanguage.structure.IfStatement" fileName="GeomUtil.java" startLine="181" startPosition="55" endLine="184" endPosition="7" />
+    <nodeInfo nodeId="5639900666367221376" conceptFqName="jetbrains.mps.baseLanguage.structure.StaticMethodDeclaration" fileName="GeomUtil.java" startLine="13" startPosition="23" endLine="17" endPosition="0" />
+    <nodeInfo nodeId="5639900666367292092" conceptFqName="jetbrains.mps.baseLanguage.structure.StaticMethodDeclaration" fileName="GeomUtil.java" startLine="17" startPosition="0" endLine="21" endPosition="0" />
+    <nodeInfo nodeId="6160477238666598196" conceptFqName="jetbrains.mps.baseLanguage.structure.StaticMethodDeclaration" fileName="GeomUtil.java" startLine="52" startPosition="0" endLine="56" endPosition="0" />
+    <nodeInfo nodeId="272112265222926971" conceptFqName="jetbrains.mps.baseLanguage.structure.BlockStatement" fileName="GeomUtil.java" startLine="89" startPosition="12" endLine="93" endPosition="7" />
+    <nodeInfo nodeId="8680836410351713675" conceptFqName="jetbrains.mps.baseLanguage.structure.StaticMethodDeclaration" fileName="GeomUtil.java" startLine="97" startPosition="0" endLine="101" endPosition="0" />
+    <nodeInfo nodeId="5368829933099654684" conceptFqName="jetbrains.mps.baseLanguage.structure.StaticMethodDeclaration" fileName="GeomUtil.java" startLine="158" startPosition="0" endLine="162" endPosition="0" />
+    <nodeInfo nodeId="5368829933099812165" conceptFqName="jetbrains.mps.baseLanguage.structure.IfStatement" fileName="GeomUtil.java" startLine="163" startPosition="60" endLine="168" endPosition="5" />
+    <nodeInfo nodeId="5368829933099812198" conceptFqName="jetbrains.mps.baseLanguage.structure.IfStatement" fileName="GeomUtil.java" startLine="171" startPosition="61" endLine="176" endPosition="5" />
+    <nodeInfo nodeId="5327124464817432527" conceptFqName="jetbrains.mps.baseLanguage.structure.ForeachStatement" fileName="GeomUtil.java" startLine="34" startPosition="33" endLine="40" endPosition="5" />
+    <nodeInfo nodeId="1265453300920941774" conceptFqName="jetbrains.mps.baseLanguage.structure.StaticMethodDeclaration" fileName="GeomUtil.java" startLine="119" startPosition="0" endLine="125" endPosition="0" />
+    <nodeInfo nodeId="8527875266531954527" conceptFqName="jetbrains.mps.baseLanguage.structure.ForeachStatement" fileName="GeomUtil.java" startLine="180" startPosition="22" endLine="186" endPosition="5" />
+    <nodeInfo nodeId="5639900666367221478" conceptFqName="jetbrains.mps.baseLanguage.structure.StaticMethodDeclaration" fileName="GeomUtil.java" startLine="21" startPosition="0" endLine="29" endPosition="0" />
+    <nodeInfo nodeId="6160477238666701748" conceptFqName="jetbrains.mps.baseLanguage.structure.IfStatement" fileName="GeomUtil.java" startLine="57" startPosition="72" endLine="65" endPosition="5" />
+    <nodeInfo nodeId="6160477238666701871" conceptFqName="jetbrains.mps.baseLanguage.structure.IfStatement" fileName="GeomUtil.java" startLine="65" startPosition="5" endLine="73" endPosition="5" />
+    <nodeInfo nodeId="5368829933099812155" conceptFqName="jetbrains.mps.baseLanguage.structure.StaticMethodDeclaration" fileName="GeomUtil.java" startLine="162" startPosition="0" endLine="170" endPosition="0" />
+    <nodeInfo nodeId="5368829933099812194" conceptFqName="jetbrains.mps.baseLanguage.structure.StaticMethodDeclaration" fileName="GeomUtil.java" startLine="170" startPosition="0" endLine="178" endPosition="0" />
+    <nodeInfo nodeId="6160477238666597965" conceptFqName="jetbrains.mps.baseLanguage.structure.StaticMethodDeclaration" fileName="GeomUtil.java" startLine="43" startPosition="0" endLine="52" endPosition="0" />
+    <nodeInfo nodeId="272112265222926937" conceptFqName="jetbrains.mps.baseLanguage.structure.IfStatement" fileName="GeomUtil.java" startLine="84" startPosition="55" endLine="93" endPosition="7" />
+    <nodeInfo nodeId="6526638447417134918" conceptFqName="jetbrains.mps.baseLanguage.structure.StaticMethodDeclaration" fileName="GeomUtil.java" startLine="136" startPosition="0" endLine="145" endPosition="0" />
+    <nodeInfo nodeId="272112265222926933" conceptFqName="jetbrains.mps.baseLanguage.structure.ForeachStatement" fileName="GeomUtil.java" startLine="83" startPosition="103" endLine="94" endPosition="5" />
+    <nodeInfo nodeId="1265453300920941910" conceptFqName="jetbrains.mps.baseLanguage.structure.StaticMethodDeclaration" fileName="GeomUtil.java" startLine="125" startPosition="0" endLine="136" endPosition="0" />
+    <nodeInfo nodeId="8527875266531954508" conceptFqName="jetbrains.mps.baseLanguage.structure.StaticMethodDeclaration" fileName="GeomUtil.java" startLine="178" startPosition="0" endLine="189" endPosition="0" />
+    <nodeInfo nodeId="5368829933099654579" conceptFqName="jetbrains.mps.baseLanguage.structure.StaticMethodDeclaration" fileName="GeomUtil.java" startLine="145" startPosition="0" endLine="158" endPosition="0" />
+    <nodeInfo nodeId="5327124464817432472" conceptFqName="jetbrains.mps.baseLanguage.structure.StaticMethodDeclaration" fileName="GeomUtil.java" startLine="29" startPosition="0" endLine="43" endPosition="0" />
+    <nodeInfo nodeId="272112265222956099" conceptFqName="jetbrains.mps.baseLanguage.structure.StaticMethodDeclaration" fileName="GeomUtil.java" startLine="101" startPosition="0" endLine="119" endPosition="0" />
+    <nodeInfo nodeId="6160477238666701735" conceptFqName="jetbrains.mps.baseLanguage.structure.StaticMethodDeclaration" fileName="GeomUtil.java" startLine="56" startPosition="0" endLine="76" endPosition="0" />
+    <nodeInfo nodeId="272112265222926837" conceptFqName="jetbrains.mps.baseLanguage.structure.StaticMethodDeclaration" fileName="GeomUtil.java" startLine="76" startPosition="0" endLine="97" endPosition="0" />
     <scopeInfo nodeId="5639900666367221379" fileName="GeomUtil.java" startLine="14" startPosition="72" endLine="15" endPosition="43" />
     <scopeInfo nodeId="5639900666367292095" fileName="GeomUtil.java" startLine="18" startPosition="74" endLine="19" endPosition="44" />
     <scopeInfo nodeId="6160477238666598199" fileName="GeomUtil.java" startLine="53" startPosition="59" endLine="54" endPosition="123" />
@@ -352,6 +422,7 @@
     <scopeInfo nodeId="5368829933099812183" fileName="GeomUtil.java" startLine="166" startPosition="12" endLine="167" endPosition="25" />
     <scopeInfo nodeId="5368829933099812202" fileName="GeomUtil.java" startLine="172" startPosition="29" endLine="173" endPosition="25" />
     <scopeInfo nodeId="5368829933099812208" fileName="GeomUtil.java" startLine="174" startPosition="12" endLine="175" endPosition="24" />
+    <scopeInfo nodeId="8527875266531954532" fileName="GeomUtil.java" startLine="182" startPosition="78" endLine="183" endPosition="20" />
     <scopeInfo nodeId="272112265222926939" fileName="GeomUtil.java" startLine="85" startPosition="16" endLine="88" endPosition="9" />
     <scopeInfo nodeId="272112265222926972" fileName="GeomUtil.java" startLine="89" startPosition="14" endLine="92" endPosition="9" />
     <scopeInfo nodeId="1265453300920941777" fileName="GeomUtil.java" startLine="120" startPosition="66" endLine="123" endPosition="43">
@@ -383,6 +454,7 @@
       <varInfo nodeId="5368829933099654691" varName="dir" />
       <varInfo nodeId="5368829933099654689" varName="rect" />
     </scopeInfo>
+    <scopeInfo nodeId="8527875266531954530" fileName="GeomUtil.java" startLine="181" startPosition="55" endLine="185" endPosition="17" />
     <scopeInfo nodeId="5639900666367221481" fileName="GeomUtil.java" startLine="22" startPosition="60" endLine="27" endPosition="63">
       <varInfo nodeId="5639900666367221537" varName="maxY" />
       <varInfo nodeId="5639900666367221527" varName="maxX" />
@@ -404,6 +476,7 @@
     <scopeInfo nodeId="6526638447417134921" fileName="GeomUtil.java" startLine="137" startPosition="57" endLine="143" endPosition="18">
       <varInfo nodeId="6526638447417134930" varName="points" />
     </scopeInfo>
+    <scopeInfo nodeId="8527875266531954527" fileName="GeomUtil.java" startLine="180" startPosition="22" endLine="186" endPosition="5" />
     <scopeInfo nodeId="5639900666367221478" fileName="GeomUtil.java" startLine="21" startPosition="0" endLine="29" endPosition="0">
       <varInfo nodeId="5639900666367221485" varName="p2" />
       <varInfo nodeId="5639900666367221483" varName="p1" />
@@ -418,6 +491,9 @@
     <scopeInfo nodeId="5368829933099812194" fileName="GeomUtil.java" startLine="170" startPosition="0" endLine="178" endPosition="0">
       <varInfo nodeId="5368829933099812215" varName="dir" />
       <varInfo nodeId="5368829933099812213" varName="rect" />
+    </scopeInfo>
+    <scopeInfo nodeId="8527875266531954511" fileName="GeomUtil.java" startLine="179" startPosition="74" endLine="187" endPosition="17">
+      <varInfo nodeId="8527875266531954524" varName="prev" />
     </scopeInfo>
     <scopeInfo nodeId="6160477238666597965" fileName="GeomUtil.java" startLine="43" startPosition="0" endLine="52" endPosition="0">
       <varInfo nodeId="6160477238666597970" varName="p" />
@@ -438,6 +514,10 @@
     <scopeInfo nodeId="1265453300920941910" fileName="GeomUtil.java" startLine="125" startPosition="0" endLine="136" endPosition="0">
       <varInfo nodeId="1265453300920941917" varName="end" />
       <varInfo nodeId="1265453300920941915" varName="begin" />
+    </scopeInfo>
+    <scopeInfo nodeId="8527875266531954508" fileName="GeomUtil.java" startLine="178" startPosition="0" endLine="189" endPosition="0">
+      <varInfo nodeId="8527875266531954516" varName="polyline" />
+      <varInfo nodeId="8527875266531954514" varName="rect" />
     </scopeInfo>
     <scopeInfo nodeId="5368829933099654579" fileName="GeomUtil.java" startLine="145" startPosition="0" endLine="158" endPosition="0">
       <varInfo nodeId="5368829933099654586" varName="dir" />
@@ -470,7 +550,100 @@
       <varInfo nodeId="272112265222926846" varName="b" />
       <varInfo nodeId="272112265222926844" varName="rect" />
     </scopeInfo>
-    <unitInfo nodeId="5639900666367221336" fileName="GeomUtil.java" startLine="13" startPosition="0" endLine="179" endPosition="0" unitName="jetbrains.mps.graphLayout.util.GeomUtil" />
+    <unitInfo nodeId="5639900666367221336" fileName="GeomUtil.java" startLine="13" startPosition="0" endLine="190" endPosition="0" unitName="jetbrains.mps.graphLayout.util.GeomUtil" />
+  </root>
+  <root nodeId="8729833695221619987">
+    <nodeInfo nodeId="8729833695221620003" conceptFqName="jetbrains.mps.baseLanguage.structure.FieldDeclaration" fileName="GraphCopier.java" startLine="14" startPosition="26" endLine="15" endPosition="24" />
+    <nodeInfo nodeId="8729833695221620017" conceptFqName="jetbrains.mps.baseLanguage.structure.FieldDeclaration" fileName="GraphCopier.java" startLine="15" startPosition="24" endLine="16" endPosition="23" />
+    <nodeInfo nodeId="8729833695221619995" conceptFqName="jetbrains.mps.baseLanguage.structure.FieldDeclaration" fileName="GraphCopier.java" startLine="16" startPosition="23" endLine="17" endPosition="36" />
+    <nodeInfo nodeId="8729833695221620007" conceptFqName="jetbrains.mps.baseLanguage.structure.FieldDeclaration" fileName="GraphCopier.java" startLine="17" startPosition="36" endLine="18" endPosition="36" />
+    <nodeInfo nodeId="8729833695221620029" conceptFqName="jetbrains.mps.baseLanguage.structure.ExpressionStatement" fileName="GraphCopier.java" startLine="20" startPosition="35" endLine="21" endPosition="20" />
+    <nodeInfo nodeId="8729833695221620021" conceptFqName="jetbrains.mps.baseLanguage.structure.ExpressionStatement" fileName="GraphCopier.java" startLine="21" startPosition="20" endLine="22" endPosition="25" />
+    <nodeInfo nodeId="8729833695221620036" conceptFqName="jetbrains.mps.baseLanguage.structure.ExpressionStatement" fileName="GraphCopier.java" startLine="22" startPosition="25" endLine="23" endPosition="63" />
+    <nodeInfo nodeId="8729833695221620046" conceptFqName="jetbrains.mps.baseLanguage.structure.ExpressionStatement" fileName="GraphCopier.java" startLine="23" startPosition="63" endLine="24" endPosition="63" />
+    <nodeInfo nodeId="8729833695221620081" conceptFqName="jetbrains.mps.baseLanguage.structure.LocalVariableDeclarationStatement" fileName="GraphCopier.java" startLine="27" startPosition="35" endLine="28" endPosition="37" />
+    <nodeInfo nodeId="8729833695221620068" conceptFqName="jetbrains.mps.baseLanguage.structure.ExpressionStatement" fileName="GraphCopier.java" startLine="28" startPosition="37" endLine="29" endPosition="55" />
+    <nodeInfo nodeId="8729833695221620089" conceptFqName="jetbrains.mps.baseLanguage.structure.ReturnStatement" fileName="GraphCopier.java" startLine="29" startPosition="55" endLine="30" endPosition="20" />
+    <nodeInfo nodeId="8729833695221620110" conceptFqName="jetbrains.mps.baseLanguage.structure.LocalVariableDeclarationStatement" fileName="GraphCopier.java" startLine="33" startPosition="35" endLine="34" endPosition="75" />
+    <nodeInfo nodeId="8729833695221620127" conceptFqName="jetbrains.mps.baseLanguage.structure.LocalVariableDeclarationStatement" fileName="GraphCopier.java" startLine="34" startPosition="75" endLine="35" endPosition="75" />
+    <nodeInfo nodeId="8729833695221620103" conceptFqName="jetbrains.mps.baseLanguage.structure.LocalVariableDeclarationStatement" fileName="GraphCopier.java" startLine="35" startPosition="75" endLine="36" endPosition="53" />
+    <nodeInfo nodeId="8729833695221620154" conceptFqName="jetbrains.mps.baseLanguage.structure.ExpressionStatement" fileName="GraphCopier.java" startLine="36" startPosition="53" endLine="37" endPosition="55" />
+    <nodeInfo nodeId="8729833695221620150" conceptFqName="jetbrains.mps.baseLanguage.structure.ReturnStatement" fileName="GraphCopier.java" startLine="37" startPosition="55" endLine="38" endPosition="20" />
+    <nodeInfo nodeId="40016457508977929" conceptFqName="jetbrains.mps.baseLanguage.structure.ReturnStatement" fileName="GraphCopier.java" startLine="41" startPosition="23" endLine="42" endPosition="51" />
+    <nodeInfo nodeId="9047589280051434872" conceptFqName="jetbrains.mps.baseLanguage.structure.ExpressionStatement" fileName="GraphCopier.java" startLine="47" startPosition="36" endLine="48" endPosition="23" />
+    <nodeInfo nodeId="40016457508977779" conceptFqName="jetbrains.mps.baseLanguage.structure.ExpressionStatement" fileName="GraphCopier.java" startLine="52" startPosition="46" endLine="53" endPosition="23" />
+    <nodeInfo nodeId="8729833695221620199" conceptFqName="jetbrains.mps.baseLanguage.structure.ReturnStatement" fileName="GraphCopier.java" startLine="55" startPosition="5" endLine="56" endPosition="18" />
+    <nodeInfo nodeId="40016457508983255" conceptFqName="jetbrains.mps.baseLanguage.structure.ReturnStatement" fileName="GraphCopier.java" startLine="59" startPosition="68" endLine="60" endPosition="86" />
+    <nodeInfo nodeId="8729833695221620207" conceptFqName="jetbrains.mps.baseLanguage.structure.ReturnStatement" fileName="GraphCopier.java" startLine="63" startPosition="26" endLine="64" endPosition="18" />
+    <nodeInfo nodeId="8729833695221620217" conceptFqName="jetbrains.mps.baseLanguage.structure.ReturnStatement" fileName="GraphCopier.java" startLine="67" startPosition="38" endLine="68" endPosition="52" />
+    <nodeInfo nodeId="8729833695221620229" conceptFqName="jetbrains.mps.baseLanguage.structure.ReturnStatement" fileName="GraphCopier.java" startLine="71" startPosition="38" endLine="72" endPosition="52" />
+    <nodeInfo nodeId="1074674001963606706" conceptFqName="jetbrains.mps.baseLanguage.structure.ReturnStatement" fileName="GraphCopier.java" startLine="75" startPosition="37" endLine="76" endPosition="51" />
+    <nodeInfo nodeId="1074674001963606720" conceptFqName="jetbrains.mps.baseLanguage.structure.ReturnStatement" fileName="GraphCopier.java" startLine="79" startPosition="37" endLine="80" endPosition="51" />
+    <nodeInfo nodeId="9047589280051434861" conceptFqName="jetbrains.mps.baseLanguage.structure.IfStatement" fileName="GraphCopier.java" startLine="46" startPosition="65" endLine="49" endPosition="7" />
+    <nodeInfo nodeId="40016457508977775" conceptFqName="jetbrains.mps.baseLanguage.structure.IfStatement" fileName="GraphCopier.java" startLine="51" startPosition="65" endLine="54" endPosition="7" />
+    <nodeInfo nodeId="40016457508977924" conceptFqName="jetbrains.mps.baseLanguage.structure.InstanceMethodDeclaration" fileName="GraphCopier.java" startLine="40" startPosition="0" endLine="44" endPosition="0" />
+    <nodeInfo nodeId="40016457508983248" conceptFqName="jetbrains.mps.baseLanguage.structure.InstanceMethodDeclaration" fileName="GraphCopier.java" startLine="58" startPosition="0" endLine="62" endPosition="0" />
+    <nodeInfo nodeId="8729833695221620202" conceptFqName="jetbrains.mps.baseLanguage.structure.InstanceMethodDeclaration" fileName="GraphCopier.java" startLine="62" startPosition="0" endLine="66" endPosition="0" />
+    <nodeInfo nodeId="8729833695221620210" conceptFqName="jetbrains.mps.baseLanguage.structure.InstanceMethodDeclaration" fileName="GraphCopier.java" startLine="66" startPosition="0" endLine="70" endPosition="0" />
+    <nodeInfo nodeId="8729833695221620225" conceptFqName="jetbrains.mps.baseLanguage.structure.InstanceMethodDeclaration" fileName="GraphCopier.java" startLine="70" startPosition="0" endLine="74" endPosition="0" />
+    <nodeInfo nodeId="1074674001963606699" conceptFqName="jetbrains.mps.baseLanguage.structure.InstanceMethodDeclaration" fileName="GraphCopier.java" startLine="74" startPosition="0" endLine="78" endPosition="0" />
+    <nodeInfo nodeId="1074674001963606715" conceptFqName="jetbrains.mps.baseLanguage.structure.InstanceMethodDeclaration" fileName="GraphCopier.java" startLine="78" startPosition="0" endLine="82" endPosition="0" />
+    <nodeInfo nodeId="8729833695221620170" conceptFqName="jetbrains.mps.baseLanguage.structure.ForeachStatement" fileName="GraphCopier.java" startLine="45" startPosition="54" endLine="50" endPosition="5" />
+    <nodeInfo nodeId="8729833695221620185" conceptFqName="jetbrains.mps.baseLanguage.structure.ForeachStatement" fileName="GraphCopier.java" startLine="50" startPosition="5" endLine="55" endPosition="5" />
+    <nodeInfo nodeId="8729833695221619989" conceptFqName="jetbrains.mps.baseLanguage.structure.ConstructorDeclaration" fileName="GraphCopier.java" startLine="19" startPosition="0" endLine="25" endPosition="3" />
+    <nodeInfo nodeId="8729833695221620055" conceptFqName="jetbrains.mps.baseLanguage.structure.InstanceMethodDeclaration" fileName="GraphCopier.java" startLine="26" startPosition="0" endLine="32" endPosition="0" />
+    <nodeInfo nodeId="8729833695221620092" conceptFqName="jetbrains.mps.baseLanguage.structure.InstanceMethodDeclaration" fileName="GraphCopier.java" startLine="32" startPosition="0" endLine="40" endPosition="0" />
+    <nodeInfo nodeId="8729833695221620165" conceptFqName="jetbrains.mps.baseLanguage.structure.InstanceMethodDeclaration" fileName="GraphCopier.java" startLine="44" startPosition="0" endLine="58" endPosition="0" />
+    <scopeInfo nodeId="40016457508977927" fileName="GraphCopier.java" startLine="41" startPosition="23" endLine="42" endPosition="51" />
+    <scopeInfo nodeId="9047589280051434862" fileName="GraphCopier.java" startLine="47" startPosition="36" endLine="48" endPosition="23" />
+    <scopeInfo nodeId="40016457508977776" fileName="GraphCopier.java" startLine="52" startPosition="46" endLine="53" endPosition="23" />
+    <scopeInfo nodeId="40016457508983254" fileName="GraphCopier.java" startLine="59" startPosition="68" endLine="60" endPosition="86" />
+    <scopeInfo nodeId="8729833695221620205" fileName="GraphCopier.java" startLine="63" startPosition="26" endLine="64" endPosition="18" />
+    <scopeInfo nodeId="8729833695221620213" fileName="GraphCopier.java" startLine="67" startPosition="38" endLine="68" endPosition="52" />
+    <scopeInfo nodeId="8729833695221620228" fileName="GraphCopier.java" startLine="71" startPosition="38" endLine="72" endPosition="52" />
+    <scopeInfo nodeId="1074674001963606702" fileName="GraphCopier.java" startLine="75" startPosition="37" endLine="76" endPosition="51" />
+    <scopeInfo nodeId="1074674001963606719" fileName="GraphCopier.java" startLine="79" startPosition="37" endLine="80" endPosition="51" />
+    <scopeInfo nodeId="8729833695221620058" fileName="GraphCopier.java" startLine="27" startPosition="35" endLine="30" endPosition="20">
+      <varInfo nodeId="8729833695221620082" varName="copyNode" />
+    </scopeInfo>
+    <scopeInfo nodeId="8729833695221620173" fileName="GraphCopier.java" startLine="46" startPosition="65" endLine="49" endPosition="7" />
+    <scopeInfo nodeId="8729833695221620188" fileName="GraphCopier.java" startLine="51" startPosition="65" endLine="54" endPosition="7" />
+    <scopeInfo nodeId="8729833695221619992" fileName="GraphCopier.java" startLine="20" startPosition="35" endLine="24" endPosition="63" />
+    <scopeInfo nodeId="40016457508977924" fileName="GraphCopier.java" startLine="40" startPosition="0" endLine="44" endPosition="0" />
+    <scopeInfo nodeId="40016457508983248" fileName="GraphCopier.java" startLine="58" startPosition="0" endLine="62" endPosition="0">
+      <varInfo nodeId="40016457508983247" varName="edge" />
+      <varInfo nodeId="40016457508983246" varName="nodeFilter" />
+    </scopeInfo>
+    <scopeInfo nodeId="8729833695221620202" fileName="GraphCopier.java" startLine="62" startPosition="0" endLine="66" endPosition="0" />
+    <scopeInfo nodeId="8729833695221620210" fileName="GraphCopier.java" startLine="66" startPosition="0" endLine="70" endPosition="0">
+      <varInfo nodeId="8729833695221620215" varName="node" />
+    </scopeInfo>
+    <scopeInfo nodeId="8729833695221620225" fileName="GraphCopier.java" startLine="70" startPosition="0" endLine="74" endPosition="0">
+      <varInfo nodeId="8729833695221620233" varName="edge" />
+    </scopeInfo>
+    <scopeInfo nodeId="1074674001963606699" fileName="GraphCopier.java" startLine="74" startPosition="0" endLine="78" endPosition="0" />
+    <scopeInfo nodeId="1074674001963606715" fileName="GraphCopier.java" startLine="78" startPosition="0" endLine="82" endPosition="0" />
+    <scopeInfo nodeId="8729833695221620095" fileName="GraphCopier.java" startLine="33" startPosition="35" endLine="38" endPosition="20">
+      <varInfo nodeId="8729833695221620104" varName="copyEdge" />
+      <varInfo nodeId="8729833695221620128" varName="copyTarget" />
+      <varInfo nodeId="8729833695221620111" varName="copySource" />
+    </scopeInfo>
+    <scopeInfo nodeId="8729833695221620170" fileName="GraphCopier.java" startLine="45" startPosition="54" endLine="50" endPosition="5" />
+    <scopeInfo nodeId="8729833695221620185" fileName="GraphCopier.java" startLine="50" startPosition="5" endLine="55" endPosition="5" />
+    <scopeInfo nodeId="8729833695221619989" fileName="GraphCopier.java" startLine="19" startPosition="0" endLine="25" endPosition="3">
+      <varInfo nodeId="8729833695221619993" varName="graph" />
+    </scopeInfo>
+    <scopeInfo nodeId="8729833695221620055" fileName="GraphCopier.java" startLine="26" startPosition="0" endLine="32" endPosition="0">
+      <varInfo nodeId="8729833695221620070" varName="node" />
+    </scopeInfo>
+    <scopeInfo nodeId="8729833695221620092" fileName="GraphCopier.java" startLine="32" startPosition="0" endLine="40" endPosition="0">
+      <varInfo nodeId="8729833695221620098" varName="edge" />
+    </scopeInfo>
+    <scopeInfo nodeId="8729833695221620168" fileName="GraphCopier.java" startLine="45" startPosition="54" endLine="56" endPosition="18" />
+    <scopeInfo nodeId="8729833695221620165" fileName="GraphCopier.java" startLine="44" startPosition="0" endLine="58" endPosition="0">
+      <varInfo nodeId="40016457508978171" varName="nodeFilter" />
+    </scopeInfo>
+    <unitInfo nodeId="8729833695221619987" fileName="GraphCopier.java" startLine="14" startPosition="0" endLine="83" endPosition="0" unitName="jetbrains.mps.graphLayout.util.GraphCopier" />
   </root>
 </debugInfo>
 

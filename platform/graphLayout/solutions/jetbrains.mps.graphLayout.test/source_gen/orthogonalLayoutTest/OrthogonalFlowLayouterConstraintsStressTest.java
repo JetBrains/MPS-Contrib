@@ -37,7 +37,7 @@ public class OrthogonalFlowLayouterConstraintsStressTest {
         MapSequence.fromMap(nodeSizes).put(node, new Dimension(70, 70));
       }
       GraphLayout layout = layouter.doLayout(graph, nodeSizes);
-      OrthogonalLayoutChecker.chechLayout(layout);
+      OrthogonalLayoutChecker.checkLayout(layout);
       double passedTime = (1.0 * System.currentTimeMillis() - time) / 1000;
       System.out.println("iteration " + iter + " has been working " + passedTime + " seconds");
     }

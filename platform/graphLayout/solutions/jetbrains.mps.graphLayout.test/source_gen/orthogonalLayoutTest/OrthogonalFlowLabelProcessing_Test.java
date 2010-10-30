@@ -52,7 +52,7 @@ public class OrthogonalFlowLabelProcessing_Test extends TestCase {
     MapSequence.fromMap(edgeSizes).put(ListSequence.fromList(graph.getEdges()).first(), new Dimension(30, 30));
     GraphLayout graphLayout = new OrthogonalFlowLabelProcessing().doLayout(graph, nodeSizes, edgeSizes);
     System.out.println(graphLayout);
-    OrthogonalLayoutChecker.chechLayout(graphLayout);
+    OrthogonalLayoutChecker.checkLayout(graphLayout);
   }
 
   public void test(Graph graph) {
@@ -62,6 +62,6 @@ public class OrthogonalFlowLabelProcessing_Test extends TestCase {
     }
     GraphLayout graphLayout = new OrthogonalFlowLabelProcessing().doLayout(graph, nodeSizes, MapSequence.fromMap(new HashMap<Edge, Dimension>()));
     System.out.println(graphLayout);
-    OrthogonalLayoutChecker.chechLayout(graphLayout);
+    OrthogonalLayoutChecker.checkLayout(graphLayout);
   }
 }

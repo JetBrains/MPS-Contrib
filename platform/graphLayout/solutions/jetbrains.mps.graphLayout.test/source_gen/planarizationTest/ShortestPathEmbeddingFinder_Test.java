@@ -46,13 +46,13 @@ public class ShortestPathEmbeddingFinder_Test extends TestCase {
 
   public void test(Graph graph) {
     EmbeddedGraph embeddedGraph = new ShortestPathEmbeddingFinder(new BiconnectedInitialEmbeddingFinder()).find(graph);
-    CheckEmbeddedGraph.checkEmbeddedGraph(embeddedGraph);
+    CheckEmbeddedGraph.checkEmbeddedGraph(embeddedGraph, true);
     CheckEmbeddedGraph.checkFull(embeddedGraph);
   }
 
   public void testPQ(Graph graph) {
     EmbeddedGraph embeddedGraph = new ShortestPathEmbeddingFinder(new PQPlanarizationFinder()).find(graph);
-    CheckEmbeddedGraph.checkEmbeddedGraph(embeddedGraph);
+    CheckEmbeddedGraph.checkEmbeddedGraph(embeddedGraph, true);
     CheckEmbeddedGraph.checkFull(embeddedGraph);
   }
 }

@@ -1974,7 +1974,7 @@
         </node>
         <node role="statement:3" type="jetbrains.mps.baseLanguage.structure.ExpressionStatement:3" id="6074874003310499780">
           <node role="expression:3" type="jetbrains.mps.baseLanguage.structure.LocalInstanceMethodCall:3" id="6074874003310499781">
-            <link role="baseMethodDeclaration:3" targetNodeId="5.1654665216152485538" resolveInfo="init" />
+            <link role="baseMethodDeclaration:3" targetNodeId="5.3182425861591375269" resolveInfo="init" />
             <node role="actualArgument:3" type="jetbrains.mps.baseLanguage.structure.ParameterReference:3" id="6074874003310499782">
               <link role="variableDeclaration:3" targetNodeId="6074874003310499747" resolveInfo="graph" />
             </node>

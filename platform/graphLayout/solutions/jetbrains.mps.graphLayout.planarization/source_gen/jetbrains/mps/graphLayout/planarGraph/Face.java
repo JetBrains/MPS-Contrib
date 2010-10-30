@@ -5,7 +5,7 @@ package jetbrains.mps.graphLayout.planarGraph;
 import jetbrains.mps.graphLayout.graph.Graph;
 import java.util.List;
 import jetbrains.mps.internal.collections.runtime.ListSequence;
-import java.util.ArrayList;
+import jetbrains.mps.internal.collections.runtime.backports.LinkedList;
 import jetbrains.mps.graphLayout.graph.Node;
 import java.util.Set;
 import jetbrains.mps.internal.collections.runtime.SetSequence;
@@ -19,7 +19,7 @@ public class Face {
 
   public Face(Graph graph) {
     myGraph = graph;
-    myDarts = ListSequence.fromList(new ArrayList<Dart>());
+    myDarts = ListSequence.fromList(new LinkedList<Dart>());
   }
 
   public void addLast(Dart dart) {
@@ -57,9 +57,18 @@ public class Face {
   }
 
   public List<Dart> makeEndsWith(Dart dart) {
+    if (!(ListSequence.fromList(myDarts).contains(dart))) {
+      throw new RuntimeException("list " + myDarts + " doesn't contain dart" + dart);
+    }
     while (ListSequence.fromList(myDarts).last() != dart) {
       ListSequence.fromList(myDarts).insertElement(0, ListSequence.fromList(myDarts).removeLastElement());
     }
+    return myDarts;
+  }
+
+  public List<Dart> makeStartsWith(Dart dart) {
+    makeEndsWith(dart);
+    ListSequence.fromList(myDarts).insertElement(0, ListSequence.fromList(myDarts).removeLastElement());
     return myDarts;
   }
 

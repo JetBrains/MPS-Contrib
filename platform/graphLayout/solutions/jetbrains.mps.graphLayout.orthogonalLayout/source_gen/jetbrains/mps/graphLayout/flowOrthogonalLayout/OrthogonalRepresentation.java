@@ -220,13 +220,7 @@ public class OrthogonalRepresentation {
       ListSequence.fromList(orderedDarts).addElement(first);
       Dart cur = first;
       do {
-        Face face = myEmbeddedGraph.getFace(cur);
-        Dart next = null;
-        for (Dart dart : ListSequence.fromList(darts)) {
-          if (myEmbeddedGraph.getFace(myEmbeddedGraph.getOpposite(dart)) == face) {
-            next = dart;
-          }
-        }
+        Dart next = myEmbeddedGraph.getNextSourceDart(cur);
         MapSequence.fromMap(myDirections).put(next, MapSequence.fromMap(myDirections).get(cur).turnClockwise(MapSequence.fromMap(myAngles).get(cur)));
         MapSequence.fromMap(myDirections).put(myEmbeddedGraph.getOpposite(next), MapSequence.fromMap(myDirections).get(next).opposite());
         cur = next;

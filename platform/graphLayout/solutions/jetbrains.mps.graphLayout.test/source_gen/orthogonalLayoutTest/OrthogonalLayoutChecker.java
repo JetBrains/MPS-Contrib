@@ -18,7 +18,7 @@ public class OrthogonalLayoutChecker {
     GraphPointLayoutChecker.checkLayout(layout);
   }
 
-  public static void chechLayout(GraphLayout layout) {
+  public static void checkLayout(GraphLayout layout) {
     GraphLayoutChecker.checkLayout(layout);
     checkOrthogonalEdges(layout);
   }

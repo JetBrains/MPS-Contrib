@@ -28,6 +28,10 @@ import jetbrains.mps.graphLayout.graph.Node;
 import jetbrains.mps.internal.collections.runtime.MapSequence;
 import java.util.HashMap;
 import jetbrains.mps.internal.collections.runtime.IWhereFilter;
+import jetbrains.mps.graphLayout.graphLayout.LayoutInfo;
+import jetbrains.mps.internal.collections.runtime.SetSequence;
+import jetbrains.mps.graphLayout.graphLayout.LayoutTransform;
+import orthogonalLayoutTest.OrthogonalLayoutChecker;
 import javax.swing.JScrollPane;
 import javax.swing.JFrame;
 import javax.swing.SwingUtilities;
@@ -182,7 +186,18 @@ public class OrthogonalLayoutTestPanel extends JPanel {
           }
         }
       }
-      myCurrentLayout = myLayouter.doLayout(g, nodeDimensions, edgeDimensions);
+      LayoutInfo layoutInfo = new LayoutInfo(g);
+      for (Node node : SetSequence.fromSet(MapSequence.fromMap(nodeDimensions).keySet())) {
+        layoutInfo.setNodeSize(node, MapSequence.fromMap(nodeDimensions).get(node));
+      }
+      for (Edge edge : SetSequence.fromSet(MapSequence.fromMap(edgeDimensions).keySet())) {
+        layoutInfo.setLabelSize(edge, MapSequence.fromMap(edgeDimensions).get(edge));
+      }
+      myCurrentLayout = myLayouter.doLayout(layoutInfo);
+      myCurrentLayout = LayoutTransform.shift(myCurrentLayout, 20, 20);
+      /*
+        OrthogonalLayoutChecker.checkLayout(myCurrentLayout);
+      */
     }
   }
 

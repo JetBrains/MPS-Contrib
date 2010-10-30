@@ -60,6 +60,6 @@ public class PQPlanarityTest_Test extends TestCase {
       MapSequence.fromMap(stNumbering).put(node, node.getIndex());
     }
     EmbeddedGraph embeddedGraph = new PQPlanarityTest().getEmbedding(graph, stNumbering);
-    CheckEmbeddedGraph.checkEmbeddedGraph(embeddedGraph);
+    CheckEmbeddedGraph.checkEmbeddedGraph(embeddedGraph, true);
   }
 }

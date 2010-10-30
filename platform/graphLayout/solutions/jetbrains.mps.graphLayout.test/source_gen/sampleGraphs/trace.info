@@ -1,5 +1,148 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <debugInfo>
+  <root nodeId="194249616896331558">
+    <nodeInfo nodeId="194249616896331591" fileName="RandomUtil.java" startLine="11" startPosition="64" endLine="12" endPosition="45" />
+    <nodeInfo nodeId="194249616896331560" fileName="RandomUtil.java" startLine="7" startPosition="25" endLine="9" endPosition="3" />
+    <nodeInfo nodeId="194249616896331564" fileName="RandomUtil.java" startLine="10" startPosition="0" endLine="14" endPosition="0" />
+    <scopeInfo nodeId="194249616896331563" fileName="RandomUtil.java" startLine="8" startPosition="23" endLine="8" endPosition="23" />
+    <scopeInfo nodeId="194249616896331567" fileName="RandomUtil.java" startLine="11" startPosition="64" endLine="12" endPosition="45" />
+    <scopeInfo nodeId="194249616896331560" fileName="RandomUtil.java" startLine="7" startPosition="25" endLine="9" endPosition="3" />
+    <scopeInfo nodeId="194249616896331564" fileName="RandomUtil.java" startLine="10" startPosition="0" endLine="14" endPosition="0">
+      <varInfo nodeId="194249616896331571" varName="min" />
+      <varInfo nodeId="194249616896331574" varName="max" />
+      <varInfo nodeId="194249616896331569" varName="rand" />
+    </scopeInfo>
+    <unitInfo nodeId="194249616896331558" fileName="RandomUtil.java" startLine="7" startPosition="0" endLine="15" endPosition="0" unitName="sampleGraphs.RandomUtil" />
+  </root>
+  <root nodeId="2950683109932016822">
+    <nodeInfo nodeId="2950683109932016834" fileName="SimpleConnectedGraphGenerator.java" startLine="9" startPosition="82" endLine="10" endPosition="40" />
+    <nodeInfo nodeId="2950683109932028134" fileName="SimpleConnectedGraphGenerator.java" startLine="15" startPosition="37" endLine="16" endPosition="19" />
+    <nodeInfo nodeId="2950683109932028138" fileName="SimpleConnectedGraphGenerator.java" startLine="17" startPosition="5" endLine="18" endPosition="53" />
+    <nodeInfo nodeId="2950683109932016829" fileName="SimpleConnectedGraphGenerator.java" startLine="8" startPosition="73" endLine="11" endPosition="3" />
+    <nodeInfo nodeId="2950683109932028126" fileName="SimpleConnectedGraphGenerator.java" startLine="14" startPosition="45" endLine="17" endPosition="5" />
+    <nodeInfo nodeId="2950683109932016847" fileName="SimpleConnectedGraphGenerator.java" startLine="12" startPosition="0" endLine="20" endPosition="0" />
+    <scopeInfo nodeId="2950683109932016833" fileName="SimpleConnectedGraphGenerator.java" startLine="9" startPosition="82" endLine="10" endPosition="40" />
+    <scopeInfo nodeId="2950683109932028128" fileName="SimpleConnectedGraphGenerator.java" startLine="15" startPosition="37" endLine="16" endPosition="19" />
+    <scopeInfo nodeId="2950683109932016829" fileName="SimpleConnectedGraphGenerator.java" startLine="8" startPosition="73" endLine="11" endPosition="3">
+      <varInfo nodeId="2950683109932016839" varName="minEdges" />
+      <varInfo nodeId="2950683109932016835" varName="numNodes" />
+      <varInfo nodeId="2950683109932016843" varName="maxEdges" />
+    </scopeInfo>
+    <scopeInfo nodeId="2950683109932016850" fileName="SimpleConnectedGraphGenerator.java" startLine="14" startPosition="45" endLine="18" endPosition="53" />
+    <scopeInfo nodeId="2950683109932016847" fileName="SimpleConnectedGraphGenerator.java" startLine="12" startPosition="0" endLine="20" endPosition="0">
+      <varInfo nodeId="2950683109932016853" varName="graph" />
+    </scopeInfo>
+    <unitInfo nodeId="2950683109932016822" fileName="SimpleConnectedGraphGenerator.java" startLine="8" startPosition="0" endLine="21" endPosition="0" unitName="sampleGraphs.SimpleConnectedGraphGenerator" />
+  </root>
+  <root nodeId="2950683109932029777">
+    <nodeInfo nodeId="2950683109932029783" fileName="LayoutInfoGenerator.java" startLine="16" startPosition="34" endLine="17" endPosition="34" />
+    <nodeInfo nodeId="194249616896331542" fileName="LayoutInfoGenerator.java" startLine="17" startPosition="34" endLine="18" endPosition="29" />
+    <nodeInfo nodeId="194249616896331546" fileName="LayoutInfoGenerator.java" startLine="18" startPosition="29" endLine="19" endPosition="29" />
+    <nodeInfo nodeId="194249616896341096" fileName="LayoutInfoGenerator.java" startLine="19" startPosition="29" endLine="20" endPosition="30" />
+    <nodeInfo nodeId="194249616896341099" fileName="LayoutInfoGenerator.java" startLine="20" startPosition="30" endLine="21" endPosition="30" />
+    <nodeInfo nodeId="194249616896331550" fileName="LayoutInfoGenerator.java" startLine="21" startPosition="30" endLine="22" endPosition="30" />
+    <nodeInfo nodeId="194249616896331554" fileName="LayoutInfoGenerator.java" startLine="22" startPosition="30" endLine="23" endPosition="30" />
+    <nodeInfo nodeId="194249616896341102" fileName="LayoutInfoGenerator.java" startLine="23" startPosition="30" endLine="24" endPosition="31" />
+    <nodeInfo nodeId="194249616896341105" fileName="LayoutInfoGenerator.java" startLine="24" startPosition="31" endLine="25" endPosition="31" />
+    <nodeInfo nodeId="2950683109932029787" fileName="LayoutInfoGenerator.java" startLine="25" startPosition="31" endLine="26" endPosition="45" />
+    <nodeInfo nodeId="2950683109932029822" fileName="LayoutInfoGenerator.java" startLine="26" startPosition="45" endLine="27" endPosition="24" />
+    <nodeInfo nodeId="2950683109932029826" fileName="LayoutInfoGenerator.java" startLine="27" startPosition="24" endLine="28" endPosition="43" />
+    <nodeInfo nodeId="2950683109932029834" fileName="LayoutInfoGenerator.java" startLine="28" startPosition="43" endLine="29" endPosition="48" />
+    <nodeInfo nodeId="194249616896441042" fileName="LayoutInfoGenerator.java" startLine="29" startPosition="48" endLine="30" endPosition="34" />
+    <nodeInfo nodeId="2950683109932029793" fileName="LayoutInfoGenerator.java" startLine="32" startPosition="64" endLine="33" endPosition="28" />
+    <nodeInfo nodeId="2950683109932029800" fileName="LayoutInfoGenerator.java" startLine="33" startPosition="28" endLine="34" endPosition="25" />
+    <nodeInfo nodeId="194249616896341119" fileName="LayoutInfoGenerator.java" startLine="37" startPosition="96" endLine="38" endPosition="30" />
+    <nodeInfo nodeId="194249616896341127" fileName="LayoutInfoGenerator.java" startLine="38" startPosition="30" endLine="39" endPosition="30" />
+    <nodeInfo nodeId="194249616896341134" fileName="LayoutInfoGenerator.java" startLine="39" startPosition="30" endLine="40" endPosition="32" />
+    <nodeInfo nodeId="194249616896341142" fileName="LayoutInfoGenerator.java" startLine="40" startPosition="32" endLine="41" endPosition="32" />
+    <nodeInfo nodeId="194249616896341156" fileName="LayoutInfoGenerator.java" startLine="44" startPosition="97" endLine="45" endPosition="31" />
+    <nodeInfo nodeId="194249616896341160" fileName="LayoutInfoGenerator.java" startLine="45" startPosition="31" endLine="46" endPosition="31" />
+    <nodeInfo nodeId="194249616896341164" fileName="LayoutInfoGenerator.java" startLine="46" startPosition="31" endLine="47" endPosition="33" />
+    <nodeInfo nodeId="194249616896341168" fileName="LayoutInfoGenerator.java" startLine="47" startPosition="33" endLine="48" endPosition="33" />
+    <nodeInfo nodeId="2950683109932029810" fileName="LayoutInfoGenerator.java" startLine="51" startPosition="32" endLine="52" endPosition="28" />
+    <nodeInfo nodeId="2950683109932029816" fileName="LayoutInfoGenerator.java" startLine="55" startPosition="46" endLine="56" endPosition="33" />
+    <nodeInfo nodeId="2950683109932029848" fileName="LayoutInfoGenerator.java" startLine="59" startPosition="26" endLine="60" endPosition="37" />
+    <nodeInfo nodeId="194249616896441052" fileName="LayoutInfoGenerator.java" startLine="60" startPosition="37" endLine="61" endPosition="43" />
+    <nodeInfo nodeId="2950683109932029860" fileName="LayoutInfoGenerator.java" startLine="61" startPosition="43" endLine="62" endPosition="70" />
+    <nodeInfo nodeId="2950683109932029870" fileName="LayoutInfoGenerator.java" startLine="62" startPosition="70" endLine="63" endPosition="75" />
+    <nodeInfo nodeId="194249616896331669" fileName="LayoutInfoGenerator.java" startLine="63" startPosition="75" endLine="64" endPosition="39" />
+    <nodeInfo nodeId="194249616896341217" fileName="LayoutInfoGenerator.java" startLine="65" startPosition="65" endLine="66" endPosition="79" />
+    <nodeInfo nodeId="194249616896341229" fileName="LayoutInfoGenerator.java" startLine="66" startPosition="79" endLine="67" endPosition="82" />
+    <nodeInfo nodeId="194249616896341239" fileName="LayoutInfoGenerator.java" startLine="67" startPosition="82" endLine="68" endPosition="79" />
+    <nodeInfo nodeId="194249616896441061" fileName="LayoutInfoGenerator.java" startLine="68" startPosition="79" endLine="69" endPosition="67" />
+    <nodeInfo nodeId="194249616896341264" fileName="LayoutInfoGenerator.java" startLine="71" startPosition="65" endLine="72" endPosition="35" />
+    <nodeInfo nodeId="194249616896348796" fileName="LayoutInfoGenerator.java" startLine="73" startPosition="33" endLine="74" endPosition="83" />
+    <nodeInfo nodeId="194249616896348803" fileName="LayoutInfoGenerator.java" startLine="74" startPosition="83" endLine="75" endPosition="86" />
+    <nodeInfo nodeId="194249616896348810" fileName="LayoutInfoGenerator.java" startLine="75" startPosition="86" endLine="76" endPosition="86" />
+    <nodeInfo nodeId="194249616896441074" fileName="LayoutInfoGenerator.java" startLine="76" startPosition="86" endLine="77" endPosition="70" />
+    <nodeInfo nodeId="194249616896341188" fileName="LayoutInfoGenerator.java" startLine="82" startPosition="27" endLine="83" endPosition="19" />
+    <nodeInfo nodeId="194249616896341196" fileName="LayoutInfoGenerator.java" startLine="86" startPosition="46" endLine="87" endPosition="23" />
+    <nodeInfo nodeId="194249616896341204" fileName="LayoutInfoGenerator.java" startLine="90" startPosition="51" endLine="91" endPosition="28" />
+    <nodeInfo nodeId="194249616896441089" fileName="LayoutInfoGenerator.java" startLine="94" startPosition="37" endLine="95" endPosition="24" />
+    <nodeInfo nodeId="2950683109932029779" fileName="LayoutInfoGenerator.java" startLine="31" startPosition="0" endLine="35" endPosition="3" />
+    <nodeInfo nodeId="2950683109932029806" fileName="LayoutInfoGenerator.java" startLine="50" startPosition="0" endLine="54" endPosition="0" />
+    <nodeInfo nodeId="2950683109932029812" fileName="LayoutInfoGenerator.java" startLine="54" startPosition="0" endLine="58" endPosition="0" />
+    <nodeInfo nodeId="194249616896341184" fileName="LayoutInfoGenerator.java" startLine="81" startPosition="0" endLine="85" endPosition="0" />
+    <nodeInfo nodeId="194249616896341190" fileName="LayoutInfoGenerator.java" startLine="85" startPosition="0" endLine="89" endPosition="0" />
+    <nodeInfo nodeId="194249616896341198" fileName="LayoutInfoGenerator.java" startLine="89" startPosition="0" endLine="93" endPosition="0" />
+    <nodeInfo nodeId="194249616896441084" fileName="LayoutInfoGenerator.java" startLine="93" startPosition="0" endLine="97" endPosition="0" />
+    <nodeInfo nodeId="194249616896341207" fileName="LayoutInfoGenerator.java" startLine="64" startPosition="39" endLine="70" endPosition="5" />
+    <nodeInfo nodeId="194249616896348785" fileName="LayoutInfoGenerator.java" startLine="72" startPosition="35" endLine="78" endPosition="7" />
+    <nodeInfo nodeId="194249616896341092" fileName="LayoutInfoGenerator.java" startLine="36" startPosition="0" endLine="43" endPosition="0" />
+    <nodeInfo nodeId="194249616896341152" fileName="LayoutInfoGenerator.java" startLine="43" startPosition="0" endLine="50" endPosition="0" />
+    <nodeInfo nodeId="194249616896341254" fileName="LayoutInfoGenerator.java" startLine="70" startPosition="5" endLine="79" endPosition="5" />
+    <nodeInfo nodeId="2950683109932029842" fileName="LayoutInfoGenerator.java" startLine="58" startPosition="0" endLine="81" endPosition="0" />
+    <scopeInfo nodeId="2950683109932029809" fileName="LayoutInfoGenerator.java" startLine="51" startPosition="32" endLine="52" endPosition="28" />
+    <scopeInfo nodeId="2950683109932029815" fileName="LayoutInfoGenerator.java" startLine="55" startPosition="46" endLine="56" endPosition="33" />
+    <scopeInfo nodeId="194249616896341187" fileName="LayoutInfoGenerator.java" startLine="82" startPosition="27" endLine="83" endPosition="19" />
+    <scopeInfo nodeId="194249616896341195" fileName="LayoutInfoGenerator.java" startLine="86" startPosition="46" endLine="87" endPosition="23" />
+    <scopeInfo nodeId="194249616896341203" fileName="LayoutInfoGenerator.java" startLine="90" startPosition="51" endLine="91" endPosition="28" />
+    <scopeInfo nodeId="194249616896441087" fileName="LayoutInfoGenerator.java" startLine="94" startPosition="37" endLine="95" endPosition="24" />
+    <scopeInfo nodeId="2950683109932029782" fileName="LayoutInfoGenerator.java" startLine="32" startPosition="64" endLine="34" endPosition="25" />
+    <scopeInfo nodeId="2950683109932029779" fileName="LayoutInfoGenerator.java" startLine="31" startPosition="0" endLine="35" endPosition="3">
+      <varInfo nodeId="2950683109932029791" varName="generator" />
+    </scopeInfo>
+    <scopeInfo nodeId="194249616896341095" fileName="LayoutInfoGenerator.java" startLine="37" startPosition="96" endLine="41" endPosition="32" />
+    <scopeInfo nodeId="194249616896341155" fileName="LayoutInfoGenerator.java" startLine="44" startPosition="97" endLine="48" endPosition="33" />
+    <scopeInfo nodeId="2950683109932029806" fileName="LayoutInfoGenerator.java" startLine="50" startPosition="0" endLine="54" endPosition="0" />
+    <scopeInfo nodeId="2950683109932029812" fileName="LayoutInfoGenerator.java" startLine="54" startPosition="0" endLine="58" endPosition="0">
+      <varInfo nodeId="2950683109932029820" varName="labelSeed" />
+    </scopeInfo>
+    <scopeInfo nodeId="194249616896341210" fileName="LayoutInfoGenerator.java" startLine="65" startPosition="65" endLine="69" endPosition="67">
+      <varInfo nodeId="194249616896341230" varName="height" />
+      <varInfo nodeId="194249616896341218" varName="width" />
+    </scopeInfo>
+    <scopeInfo nodeId="194249616896348786" fileName="LayoutInfoGenerator.java" startLine="73" startPosition="33" endLine="77" endPosition="70">
+      <varInfo nodeId="194249616896348804" varName="height" />
+      <varInfo nodeId="194249616896348797" varName="width" />
+    </scopeInfo>
+    <scopeInfo nodeId="194249616896341184" fileName="LayoutInfoGenerator.java" startLine="81" startPosition="0" endLine="85" endPosition="0" />
+    <scopeInfo nodeId="194249616896341190" fileName="LayoutInfoGenerator.java" startLine="85" startPosition="0" endLine="89" endPosition="0" />
+    <scopeInfo nodeId="194249616896341198" fileName="LayoutInfoGenerator.java" startLine="89" startPosition="0" endLine="93" endPosition="0" />
+    <scopeInfo nodeId="194249616896441084" fileName="LayoutInfoGenerator.java" startLine="93" startPosition="0" endLine="97" endPosition="0" />
+    <scopeInfo nodeId="194249616896341207" fileName="LayoutInfoGenerator.java" startLine="64" startPosition="39" endLine="70" endPosition="5" />
+    <scopeInfo nodeId="194249616896341092" fileName="LayoutInfoGenerator.java" startLine="36" startPosition="0" endLine="43" endPosition="0">
+      <varInfo nodeId="194249616896341113" varName="minHeight" />
+      <varInfo nodeId="194249616896341108" varName="minWidth" />
+      <varInfo nodeId="194249616896341116" varName="maxHeight" />
+      <varInfo nodeId="194249616896341110" varName="maxWidth" />
+    </scopeInfo>
+    <scopeInfo nodeId="194249616896341152" fileName="LayoutInfoGenerator.java" startLine="43" startPosition="0" endLine="50" endPosition="0">
+      <varInfo nodeId="194249616896341176" varName="minHeight" />
+      <varInfo nodeId="194249616896341172" varName="minWidth" />
+      <varInfo nodeId="194249616896341178" varName="maxHeight" />
+      <varInfo nodeId="194249616896341174" varName="maxWidth" />
+    </scopeInfo>
+    <scopeInfo nodeId="194249616896341257" fileName="LayoutInfoGenerator.java" startLine="71" startPosition="65" endLine="78" endPosition="7">
+      <varInfo nodeId="194249616896341265" varName="d" />
+    </scopeInfo>
+    <scopeInfo nodeId="194249616896341254" fileName="LayoutInfoGenerator.java" startLine="70" startPosition="5" endLine="79" endPosition="5" />
+    <scopeInfo nodeId="2950683109932029845" fileName="LayoutInfoGenerator.java" startLine="59" startPosition="26" endLine="79" endPosition="5">
+      <varInfo nodeId="194249616896331670" varName="rand" />
+    </scopeInfo>
+    <scopeInfo nodeId="2950683109932029842" fileName="LayoutInfoGenerator.java" startLine="58" startPosition="0" endLine="81" endPosition="0" />
+    <unitInfo nodeId="2950683109932029777" fileName="LayoutInfoGenerator.java" startLine="16" startPosition="0" endLine="98" endPosition="0" unitName="sampleGraphs.LayoutInfoGenerator" />
+  </root>
   <root nodeId="3437556975695846540">
     <nodeInfo nodeId="3437556975695846545" fileName="GraphsForLayers.java" startLine="8" startPosition="47" endLine="9" endPosition="53" />
     <nodeInfo nodeId="3437556975695846550" fileName="GraphsForLayers.java" startLine="9" startPosition="53" endLine="10" endPosition="49" />
@@ -387,6 +530,186 @@
       <varInfo nodeId="7953585273260040041" varName="numNodes" />
     </scopeInfo>
     <unitInfo nodeId="3437556975695847443" fileName="SimpleDirectedGraphs.java" startLine="10" startPosition="0" endLine="72" endPosition="0" unitName="sampleGraphs.SimpleDirectedGraphs" />
+  </root>
+  <root nodeId="8527875266531960809">
+    <nodeInfo nodeId="8527875266531960891" fileName="AbstractGraphGenerator.java" startLine="8" startPosition="46" endLine="9" endPosition="48" />
+    <nodeInfo nodeId="8527875266531960815" fileName="AbstractGraphGenerator.java" startLine="10" startPosition="0" endLine="11" endPosition="25" />
+    <nodeInfo nodeId="8527875266531960823" fileName="AbstractGraphGenerator.java" startLine="11" startPosition="25" endLine="12" endPosition="25" />
+    <nodeInfo nodeId="8527875266531960827" fileName="AbstractGraphGenerator.java" startLine="12" startPosition="25" endLine="13" endPosition="25" />
+    <nodeInfo nodeId="8527875266531973926" fileName="AbstractGraphGenerator.java" startLine="13" startPosition="25" endLine="14" endPosition="25" />
+    <nodeInfo nodeId="8527875266531973901" fileName="AbstractGraphGenerator.java" startLine="14" startPosition="25" endLine="15" endPosition="26" />
+    <nodeInfo nodeId="8527875266531960862" fileName="AbstractGraphGenerator.java" startLine="17" startPosition="75" endLine="18" endPosition="26" />
+    <nodeInfo nodeId="8527875266531960844" fileName="AbstractGraphGenerator.java" startLine="18" startPosition="26" endLine="19" endPosition="26" />
+    <nodeInfo nodeId="8527875266531960855" fileName="AbstractGraphGenerator.java" startLine="19" startPosition="26" endLine="20" endPosition="26" />
+    <nodeInfo nodeId="8527875266531973904" fileName="AbstractGraphGenerator.java" startLine="20" startPosition="26" endLine="21" endPosition="28" />
+    <nodeInfo nodeId="8527875266531973931" fileName="AbstractGraphGenerator.java" startLine="24" startPosition="59" endLine="25" endPosition="74" />
+    <nodeInfo nodeId="8527875266531960932" fileName="AbstractGraphGenerator.java" startLine="26" startPosition="46" endLine="27" endPosition="36" />
+    <nodeInfo nodeId="8527875266531960947" fileName="AbstractGraphGenerator.java" startLine="28" startPosition="35" endLine="29" endPosition="21" />
+    <nodeInfo nodeId="8527875266531965944" fileName="AbstractGraphGenerator.java" startLine="31" startPosition="5" endLine="32" endPosition="67" />
+    <nodeInfo nodeId="7383013054836007326" fileName="AbstractGraphGenerator.java" startLine="35" startPosition="45" endLine="36" endPosition="25" />
+    <nodeInfo nodeId="8527875266531966155" fileName="AbstractGraphGenerator.java" startLine="41" startPosition="28" endLine="42" endPosition="22" />
+    <nodeInfo nodeId="8527875266531966161" fileName="AbstractGraphGenerator.java" startLine="45" startPosition="28" endLine="46" endPosition="22" />
+    <nodeInfo nodeId="8527875266531974079" fileName="AbstractGraphGenerator.java" startLine="49" startPosition="29" endLine="50" endPosition="20" />
+    <nodeInfo nodeId="8527875266531960875" fileName="AbstractGraphGenerator.java" startLine="38" startPosition="0" endLine="40" endPosition="0" />
+    <nodeInfo nodeId="8527875266531960938" fileName="AbstractGraphGenerator.java" startLine="27" startPosition="36" endLine="30" endPosition="7" />
+    <nodeInfo nodeId="7383013054836007321" fileName="AbstractGraphGenerator.java" startLine="34" startPosition="0" endLine="38" endPosition="0" />
+    <nodeInfo nodeId="8527875266531966151" fileName="AbstractGraphGenerator.java" startLine="40" startPosition="0" endLine="44" endPosition="0" />
+    <nodeInfo nodeId="8527875266531966157" fileName="AbstractGraphGenerator.java" startLine="44" startPosition="0" endLine="48" endPosition="0" />
+    <nodeInfo nodeId="8527875266531974074" fileName="AbstractGraphGenerator.java" startLine="48" startPosition="0" endLine="52" endPosition="0" />
+    <nodeInfo nodeId="8527875266531960811" fileName="AbstractGraphGenerator.java" startLine="16" startPosition="0" endLine="22" endPosition="3" />
+    <nodeInfo nodeId="8527875266531960916" fileName="AbstractGraphGenerator.java" startLine="25" startPosition="74" endLine="31" endPosition="5" />
+    <nodeInfo nodeId="8527875266531960911" fileName="AbstractGraphGenerator.java" startLine="23" startPosition="0" endLine="34" endPosition="0" />
+    <scopeInfo nodeId="8527875266531960939" fileName="AbstractGraphGenerator.java" startLine="28" startPosition="35" endLine="29" endPosition="21" />
+    <scopeInfo nodeId="7383013054836007325" fileName="AbstractGraphGenerator.java" startLine="35" startPosition="45" endLine="36" endPosition="25" />
+    <scopeInfo nodeId="8527875266531966154" fileName="AbstractGraphGenerator.java" startLine="41" startPosition="28" endLine="42" endPosition="22" />
+    <scopeInfo nodeId="8527875266531966160" fileName="AbstractGraphGenerator.java" startLine="45" startPosition="28" endLine="46" endPosition="22" />
+    <scopeInfo nodeId="8527875266531974077" fileName="AbstractGraphGenerator.java" startLine="49" startPosition="29" endLine="50" endPosition="20" />
+    <scopeInfo nodeId="8527875266531960875" fileName="AbstractGraphGenerator.java" startLine="38" startPosition="0" endLine="40" endPosition="0" />
+    <scopeInfo nodeId="8527875266531960814" fileName="AbstractGraphGenerator.java" startLine="17" startPosition="75" endLine="21" endPosition="28" />
+    <scopeInfo nodeId="8527875266531960918" fileName="AbstractGraphGenerator.java" startLine="26" startPosition="46" endLine="30" endPosition="7">
+      <varInfo nodeId="8527875266531960933" varName="graph" />
+    </scopeInfo>
+    <scopeInfo nodeId="7383013054836007321" fileName="AbstractGraphGenerator.java" startLine="34" startPosition="0" endLine="38" endPosition="0">
+      <varInfo nodeId="7383013054836007320" varName="graph" />
+    </scopeInfo>
+    <scopeInfo nodeId="8527875266531966151" fileName="AbstractGraphGenerator.java" startLine="40" startPosition="0" endLine="44" endPosition="0" />
+    <scopeInfo nodeId="8527875266531966157" fileName="AbstractGraphGenerator.java" startLine="44" startPosition="0" endLine="48" endPosition="0" />
+    <scopeInfo nodeId="8527875266531974074" fileName="AbstractGraphGenerator.java" startLine="48" startPosition="0" endLine="52" endPosition="0" />
+    <scopeInfo nodeId="8527875266531960811" fileName="AbstractGraphGenerator.java" startLine="16" startPosition="0" endLine="22" endPosition="3">
+      <varInfo nodeId="8527875266531960838" varName="minEdges" />
+      <varInfo nodeId="8527875266531960831" varName="numNodes" />
+      <varInfo nodeId="8527875266531960841" varName="maxEdges" />
+    </scopeInfo>
+    <scopeInfo nodeId="8527875266531960916" fileName="AbstractGraphGenerator.java" startLine="25" startPosition="74" endLine="31" endPosition="5">
+      <varInfo nodeId="8527875266531960917" varName="i" />
+    </scopeInfo>
+    <scopeInfo nodeId="8527875266531960914" fileName="AbstractGraphGenerator.java" startLine="24" startPosition="59" endLine="32" endPosition="67" />
+    <scopeInfo nodeId="8527875266531960911" fileName="AbstractGraphGenerator.java" startLine="23" startPosition="0" endLine="34" endPosition="0" />
+    <unitInfo nodeId="8527875266531960809" fileName="AbstractGraphGenerator.java" startLine="8" startPosition="0" endLine="53" endPosition="0" unitName="sampleGraphs.AbstractGraphGenerator" />
+  </root>
+  <root nodeId="8527875266531960880">
+    <nodeInfo nodeId="8527875266531966121" fileName="BasicGraphGenerator.java" startLine="10" startPosition="72" endLine="11" endPosition="40" />
+    <nodeInfo nodeId="8527875266531966129" fileName="BasicGraphGenerator.java" startLine="14" startPosition="35" endLine="15" endPosition="30" />
+    <nodeInfo nodeId="8527875266531966173" fileName="BasicGraphGenerator.java" startLine="16" startPosition="45" endLine="17" endPosition="22" />
+    <nodeInfo nodeId="8527875266531973758" fileName="BasicGraphGenerator.java" startLine="19" startPosition="45" endLine="20" endPosition="38" />
+    <nodeInfo nodeId="8527875266531973775" fileName="BasicGraphGenerator.java" startLine="21" startPosition="25" endLine="22" endPosition="20" />
+    <nodeInfo nodeId="8527875266531966136" fileName="BasicGraphGenerator.java" startLine="24" startPosition="5" endLine="25" endPosition="17" />
+    <nodeInfo nodeId="8527875266531973778" fileName="BasicGraphGenerator.java" startLine="28" startPosition="44" endLine="29" endPosition="65" />
+    <nodeInfo nodeId="8527875266531973810" fileName="BasicGraphGenerator.java" startLine="29" startPosition="65" endLine="30" endPosition="65" />
+    <nodeInfo nodeId="8527875266531973818" fileName="BasicGraphGenerator.java" startLine="30" startPosition="65" endLine="31" endPosition="36" />
+    <nodeInfo nodeId="8527875266531966104" fileName="BasicGraphGenerator.java" startLine="9" startPosition="65" endLine="12" endPosition="3" />
+    <nodeInfo nodeId="8527875266531966140" fileName="BasicGraphGenerator.java" startLine="15" startPosition="30" endLine="18" endPosition="5" />
+    <nodeInfo nodeId="8527875266531973766" fileName="BasicGraphGenerator.java" startLine="20" startPosition="38" endLine="23" endPosition="7" />
+    <nodeInfo nodeId="8527875266531973733" fileName="BasicGraphGenerator.java" startLine="18" startPosition="5" endLine="24" endPosition="5" />
+    <nodeInfo nodeId="8527875266531973748" fileName="BasicGraphGenerator.java" startLine="27" startPosition="0" endLine="33" endPosition="0" />
+    <nodeInfo nodeId="8527875266531965951" fileName="BasicGraphGenerator.java" startLine="13" startPosition="0" endLine="27" endPosition="0" />
+    <scopeInfo nodeId="8527875266531966107" fileName="BasicGraphGenerator.java" startLine="10" startPosition="72" endLine="11" endPosition="40" />
+    <scopeInfo nodeId="8527875266531966141" fileName="BasicGraphGenerator.java" startLine="16" startPosition="45" endLine="17" endPosition="22" />
+    <scopeInfo nodeId="8527875266531973767" fileName="BasicGraphGenerator.java" startLine="21" startPosition="25" endLine="22" endPosition="20" />
+    <scopeInfo nodeId="8527875266531966104" fileName="BasicGraphGenerator.java" startLine="9" startPosition="65" endLine="12" endPosition="3">
+      <varInfo nodeId="8527875266531966110" varName="minEdges" />
+      <varInfo nodeId="8527875266531966108" varName="numNodes" />
+      <varInfo nodeId="8527875266531966113" varName="maxEdges" />
+    </scopeInfo>
+    <scopeInfo nodeId="8527875266531966140" fileName="BasicGraphGenerator.java" startLine="15" startPosition="30" endLine="18" endPosition="5">
+      <varInfo nodeId="8527875266531966143" varName="i" />
+    </scopeInfo>
+    <scopeInfo nodeId="8527875266531973751" fileName="BasicGraphGenerator.java" startLine="28" startPosition="44" endLine="31" endPosition="36">
+      <varInfo nodeId="8527875266531973779" varName="source" />
+      <varInfo nodeId="8527875266531973811" varName="target" />
+    </scopeInfo>
+    <scopeInfo nodeId="8527875266531973734" fileName="BasicGraphGenerator.java" startLine="19" startPosition="45" endLine="23" endPosition="7">
+      <varInfo nodeId="8527875266531973759" varName="edge" />
+    </scopeInfo>
+    <scopeInfo nodeId="8527875266531973733" fileName="BasicGraphGenerator.java" startLine="18" startPosition="5" endLine="24" endPosition="5">
+      <varInfo nodeId="8527875266531973736" varName="i" />
+    </scopeInfo>
+    <scopeInfo nodeId="8527875266531973748" fileName="BasicGraphGenerator.java" startLine="27" startPosition="0" endLine="33" endPosition="0">
+      <varInfo nodeId="8527875266531973754" varName="graph" />
+    </scopeInfo>
+    <scopeInfo nodeId="8527875266531965954" fileName="BasicGraphGenerator.java" startLine="14" startPosition="35" endLine="25" endPosition="17">
+      <varInfo nodeId="8527875266531966130" varName="graph" />
+    </scopeInfo>
+    <scopeInfo nodeId="8527875266531965951" fileName="BasicGraphGenerator.java" startLine="13" startPosition="0" endLine="27" endPosition="0" />
+    <unitInfo nodeId="8527875266531960880" fileName="BasicGraphGenerator.java" startLine="9" startPosition="0" endLine="34" endPosition="0" unitName="sampleGraphs.BasicGraphGenerator" />
+  </root>
+  <root nodeId="8527875266531973857">
+    <nodeInfo nodeId="8527875266531974042" fileName="SimpleGraphGenerator.java" startLine="12" startPosition="63" endLine="13" endPosition="40" />
+    <nodeInfo nodeId="8527875266531973998" fileName="SimpleGraphGenerator.java" startLine="14" startPosition="0" endLine="15" endPosition="29" />
+    <nodeInfo nodeId="8527875266531973878" fileName="SimpleGraphGenerator.java" startLine="17" startPosition="73" endLine="18" endPosition="40" />
+    <nodeInfo nodeId="8527875266531974268" fileName="SimpleGraphGenerator.java" startLine="23" startPosition="53" endLine="24" endPosition="67" />
+    <nodeInfo nodeId="8527875266531974278" fileName="SimpleGraphGenerator.java" startLine="24" startPosition="67" endLine="25" endPosition="67" />
+    <nodeInfo nodeId="8527875266531974352" fileName="SimpleGraphGenerator.java" startLine="26" startPosition="39" endLine="27" endPosition="40" />
+    <nodeInfo nodeId="8527875266531974468" fileName="SimpleGraphGenerator.java" startLine="32" startPosition="41" endLine="33" endPosition="42" />
+    <nodeInfo nodeId="8527875266531974481" fileName="SimpleGraphGenerator.java" startLine="36" startPosition="5" endLine="37" endPosition="16" />
+    <nodeInfo nodeId="8527875266531974402" fileName="SimpleGraphGenerator.java" startLine="42" startPosition="37" endLine="43" endPosition="40" />
+    <nodeInfo nodeId="8527875266531974412" fileName="SimpleGraphGenerator.java" startLine="46" startPosition="84" endLine="47" endPosition="18" />
+    <nodeInfo nodeId="8527875266531974437" fileName="SimpleGraphGenerator.java" startLine="48" startPosition="12" endLine="49" endPosition="19" />
+    <nodeInfo nodeId="8527875266531973988" fileName="SimpleGraphGenerator.java" startLine="54" startPosition="35" endLine="55" endPosition="33" />
+    <nodeInfo nodeId="8527875266531973974" fileName="SimpleGraphGenerator.java" startLine="56" startPosition="56" endLine="57" endPosition="18" />
+    <nodeInfo nodeId="8527875266531974005" fileName="SimpleGraphGenerator.java" startLine="58" startPosition="5" endLine="59" endPosition="37" />
+    <nodeInfo nodeId="8527875266531974032" fileName="SimpleGraphGenerator.java" startLine="60" startPosition="40" endLine="61" endPosition="26" />
+    <nodeInfo nodeId="8527875266531973948" fileName="SimpleGraphGenerator.java" startLine="62" startPosition="5" endLine="63" endPosition="33" />
+    <nodeInfo nodeId="8527875266531974435" fileName="SimpleGraphGenerator.java" startLine="48" startPosition="10" endLine="50" endPosition="5" />
+    <nodeInfo nodeId="8527875266531973873" fileName="SimpleGraphGenerator.java" startLine="16" startPosition="0" endLine="19" endPosition="3" />
+    <nodeInfo nodeId="8527875266531974335" fileName="SimpleGraphGenerator.java" startLine="25" startPosition="67" endLine="28" endPosition="7" />
+    <nodeInfo nodeId="8527875266531974466" fileName="SimpleGraphGenerator.java" startLine="31" startPosition="67" endLine="34" endPosition="9" />
+    <nodeInfo nodeId="8527875266531973951" fileName="SimpleGraphGenerator.java" startLine="55" startPosition="33" endLine="58" endPosition="5" />
+    <nodeInfo nodeId="8527875266531974017" fileName="SimpleGraphGenerator.java" startLine="59" startPosition="37" endLine="62" endPosition="5" />
+    <nodeInfo nodeId="8527875266531974400" fileName="SimpleGraphGenerator.java" startLine="41" startPosition="105" endLine="45" endPosition="0" />
+    <nodeInfo nodeId="8527875266531974456" fileName="SimpleGraphGenerator.java" startLine="30" startPosition="65" endLine="35" endPosition="7" />
+    <nodeInfo nodeId="8527875266531974390" fileName="SimpleGraphGenerator.java" startLine="40" startPosition="62" endLine="45" endPosition="24" />
+    <nodeInfo nodeId="8527875266531974410" fileName="SimpleGraphGenerator.java" startLine="45" startPosition="24" endLine="50" endPosition="5" />
+    <nodeInfo nodeId="8527875266531974111" fileName="SimpleGraphGenerator.java" startLine="22" startPosition="44" endLine="29" endPosition="5" />
+    <nodeInfo nodeId="8527875266531974446" fileName="SimpleGraphGenerator.java" startLine="29" startPosition="5" endLine="36" endPosition="5" />
+    <nodeInfo nodeId="8527875266531974377" fileName="SimpleGraphGenerator.java" startLine="39" startPosition="0" endLine="52" endPosition="0" />
+    <nodeInfo nodeId="8527875266531973943" fileName="SimpleGraphGenerator.java" startLine="52" startPosition="0" endLine="65" endPosition="0" />
+    <nodeInfo nodeId="8527875266531973891" fileName="SimpleGraphGenerator.java" startLine="20" startPosition="0" endLine="39" endPosition="0" />
+    <scopeInfo nodeId="8527875266531973877" fileName="SimpleGraphGenerator.java" startLine="17" startPosition="73" endLine="18" endPosition="40" />
+    <scopeInfo nodeId="8527875266531974336" fileName="SimpleGraphGenerator.java" startLine="26" startPosition="39" endLine="27" endPosition="40" />
+    <scopeInfo nodeId="8527875266531974467" fileName="SimpleGraphGenerator.java" startLine="32" startPosition="41" endLine="33" endPosition="42" />
+    <scopeInfo nodeId="8527875266531974401" fileName="SimpleGraphGenerator.java" startLine="42" startPosition="37" endLine="43" endPosition="40" />
+    <scopeInfo nodeId="8527875266531974411" fileName="SimpleGraphGenerator.java" startLine="46" startPosition="84" endLine="47" endPosition="18" />
+    <scopeInfo nodeId="8527875266531974436" fileName="SimpleGraphGenerator.java" startLine="48" startPosition="12" endLine="49" endPosition="19" />
+    <scopeInfo nodeId="8527875266531973952" fileName="SimpleGraphGenerator.java" startLine="56" startPosition="56" endLine="57" endPosition="18" />
+    <scopeInfo nodeId="8527875266531974018" fileName="SimpleGraphGenerator.java" startLine="60" startPosition="40" endLine="61" endPosition="26" />
+    <scopeInfo nodeId="8527875266531973873" fileName="SimpleGraphGenerator.java" startLine="16" startPosition="0" endLine="19" endPosition="3">
+      <varInfo nodeId="8527875266531973883" varName="minEdges" />
+      <varInfo nodeId="8527875266531973879" varName="numNodes" />
+      <varInfo nodeId="8527875266531973887" varName="maxEdges" />
+    </scopeInfo>
+    <scopeInfo nodeId="8527875266531974459" fileName="SimpleGraphGenerator.java" startLine="31" startPosition="67" endLine="34" endPosition="9" />
+    <scopeInfo nodeId="8527875266531974017" fileName="SimpleGraphGenerator.java" startLine="59" startPosition="37" endLine="62" endPosition="5">
+      <varInfo nodeId="8527875266531974020" varName="i" />
+    </scopeInfo>
+    <scopeInfo nodeId="8527875266531974400" fileName="SimpleGraphGenerator.java" startLine="41" startPosition="105" endLine="45" endPosition="0" />
+    <scopeInfo nodeId="8527875266531974112" fileName="SimpleGraphGenerator.java" startLine="23" startPosition="53" endLine="28" endPosition="7">
+      <varInfo nodeId="8527875266531974269" varName="source" />
+      <varInfo nodeId="8527875266531974279" varName="target" />
+    </scopeInfo>
+    <scopeInfo nodeId="8527875266531974449" fileName="SimpleGraphGenerator.java" startLine="30" startPosition="65" endLine="35" endPosition="7" />
+    <scopeInfo nodeId="8527875266531974456" fileName="SimpleGraphGenerator.java" startLine="30" startPosition="65" endLine="35" endPosition="7" />
+    <scopeInfo nodeId="8527875266531974111" fileName="SimpleGraphGenerator.java" startLine="22" startPosition="44" endLine="29" endPosition="5">
+      <varInfo nodeId="8527875266531974114" varName="iter" />
+    </scopeInfo>
+    <scopeInfo nodeId="8527875266531974446" fileName="SimpleGraphGenerator.java" startLine="29" startPosition="5" endLine="36" endPosition="5" />
+    <scopeInfo nodeId="8527875266531973946" fileName="SimpleGraphGenerator.java" startLine="54" startPosition="35" endLine="63" endPosition="33">
+      <varInfo nodeId="8527875266531973989" varName="numNodes" />
+    </scopeInfo>
+    <scopeInfo nodeId="8527875266531974380" fileName="SimpleGraphGenerator.java" startLine="40" startPosition="62" endLine="50" endPosition="5">
+      <varInfo nodeId="8527875266531974391" varName="sourceComp" />
+    </scopeInfo>
+    <scopeInfo nodeId="8527875266531974377" fileName="SimpleGraphGenerator.java" startLine="39" startPosition="0" endLine="52" endPosition="0">
+      <varInfo nodeId="8527875266531974383" varName="source" />
+      <varInfo nodeId="8527875266531974385" varName="target" />
+    </scopeInfo>
+    <scopeInfo nodeId="8527875266531973943" fileName="SimpleGraphGenerator.java" startLine="52" startPosition="0" endLine="65" endPosition="0" />
+    <scopeInfo nodeId="8527875266531973896" fileName="SimpleGraphGenerator.java" startLine="22" startPosition="44" endLine="37" endPosition="16" />
+    <scopeInfo nodeId="8527875266531973891" fileName="SimpleGraphGenerator.java" startLine="20" startPosition="0" endLine="39" endPosition="0">
+      <varInfo nodeId="8527875266531973894" varName="graph" />
+    </scopeInfo>
+    <unitInfo nodeId="8527875266531974400" fileName="SimpleGraphGenerator.java" startLine="41" startPosition="80" endLine="45" endPosition="5" unitName="sampleGraphs.SimpleGraphGenerator$1" />
+    <unitInfo nodeId="8527875266531973857" fileName="SimpleGraphGenerator.java" startLine="12" startPosition="0" endLine="66" endPosition="0" unitName="sampleGraphs.SimpleGraphGenerator" />
   </root>
 </debugInfo>
 
