@@ -19,6 +19,9 @@ import jetbrains.mps.smodel.SModelUtil_new;
 import jetbrains.mps.project.GlobalScope;
 
 public class SchemaUtil {
+  private SchemaUtil() {
+  }
+
   public static List<SNode> getAvailableAttributes(SNode typeExpression) {
     if ((typeExpression == null)) {
       return new ArrayList<SNode>();

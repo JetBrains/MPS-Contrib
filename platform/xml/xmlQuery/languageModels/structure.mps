@@ -5,26 +5,8 @@
   <language namespace="ceab5195-25ea-4f22-9b92-103b95ca8c0c(jetbrains.mps.lang.core)" />
   <language namespace="f3061a53-9226-4cc5-a443-f952ceaf5816(jetbrains.mps.baseLanguage)" />
   <languageAspect modelUID="r:00000000-0000-4000-0000-011c89590288(jetbrains.mps.lang.core.structure)" version="0" />
-  <languageAspect modelUID="r:00000000-0000-4000-0000-011c89590283(jetbrains.mps.lang.core.constraints)" version="2" />
   <languageAspect modelUID="r:00000000-0000-4000-0000-011c89590292(jetbrains.mps.lang.structure.structure)" version="0" />
-  <languageAspect modelUID="r:00000000-0000-4000-0000-011c8959028c(jetbrains.mps.lang.structure.constraints)" version="11" />
-  <languageAspect modelUID="r:00000000-0000-4000-0000-011c8959033d(jetbrains.mps.lang.annotations.structure)" version="0" />
-  <languageAspect modelUID="r:00000000-0000-4000-0000-011c89590328(jetbrains.mps.baseLanguage.collections.constraints)" version="6" />
-  <languageAspect modelUID="r:00000000-0000-4000-0000-011c8959032e(jetbrains.mps.baseLanguage.collections.structure)" version="7" />
-  <languageAspect modelUID="r:00000000-0000-4000-0000-011c895902ae(jetbrains.mps.lang.typesystem.constraints)" version="17" />
-  <languageAspect modelUID="r:00000000-0000-4000-0000-011c89590345(jetbrains.mps.lang.pattern.structure)" version="0" />
-  <languageAspect modelUID="r:00000000-0000-4000-0000-011c895902c1(jetbrains.mps.baseLanguage.constraints)" version="83" />
-  <languageAspect modelUID="r:00000000-0000-4000-0000-011c89590338(jetbrains.mps.baseLanguage.closures.structure)" version="3" />
-  <languageAspect modelUID="r:00000000-0000-4000-0000-011c89590340(jetbrains.mps.lang.pattern.constraints)" version="2" />
-  <languageAspect modelUID="r:00000000-0000-4000-0000-011c89590334(jetbrains.mps.baseLanguage.closures.constraints)" version="2" />
-  <languageAspect modelUID="r:00000000-0000-4000-0000-011c89590301(jetbrains.mps.lang.smodel.structure)" version="16" />
-  <languageAspect modelUID="r:00000000-0000-4000-0000-011c895902fb(jetbrains.mps.lang.smodel.constraints)" version="21" />
-  <languageAspect modelUID="r:00000000-0000-4000-0000-011c895902db(jetbrains.mps.baseLanguage.blTypes.constraints)" version="0" />
-  <languageAspect modelUID="r:00000000-0000-4000-0000-011c8959034b(jetbrains.mps.lang.quotation.structure)" version="0" />
-  <languageAspect modelUID="r:00000000-0000-4000-0000-011c895902b4(jetbrains.mps.lang.typesystem.structure)" version="3" />
   <languageAspect modelUID="r:bd6e2c7d-3a5d-4eed-9ff9-27f23ecb34e2(jetbrains.mps.xmlQuery.structure)" version="4" />
-  <languageAspect modelUID="r:00000000-0000-4000-0000-011c89590598(jetbrains.mps.xmlSchema.structure)" version="3" />
-  <languageAspect modelUID="r:00000000-0000-4000-0000-011c895902ca(jetbrains.mps.baseLanguage.structure)" version="3" />
   <maxImportIndex value="7" />
   <import index="2" modelUID="r:00000000-0000-4000-0000-011c89590598(jetbrains.mps.xmlSchema.structure)" version="3" />
   <import index="3" modelUID="r:00000000-0000-4000-0000-011c895902ca(jetbrains.mps.baseLanguage.structure)" version="3" />
@@ -33,7 +15,7 @@
   <visible index="2" modelUID="r:00000000-0000-4000-0000-011c89590288(jetbrains.mps.lang.core.structure)" />
   <node type="jetbrains.mps.lang.structure.structure.ConceptDeclaration:0" id="4815471077468621634">
     <property name="name:0" value="AccessChildrenOperation" />
-    <property name="package:0" value="operations" />
+    <property name="virtualPackage:0" value="operations" />
     <link role="extends:0" targetNodeId="4991903842868303816:4" resolveInfo="XMLNodeOperation" />
     <node role="linkDeclaration:0" type="jetbrains.mps.lang.structure.structure.LinkDeclaration:0" id="4815471077468621635">
       <property name="metaClass:0" value="reference" />
@@ -68,7 +50,7 @@
   </node>
   <node type="jetbrains.mps.lang.structure.structure.ConceptDeclaration:0" id="4991903842868303816">
     <property name="name:0" value="XMLElementOperation" />
-    <property name="package:0" value="operations" />
+    <property name="virtualPackage:0" value="operations" />
     <link role="extends:0" targetNodeId="2v.1133920641626:0" resolveInfo="BaseConcept" />
     <node role="implements:0" type="jetbrains.mps.lang.structure.structure.InterfaceConceptReference:0" id="4991903842868303817">
       <link role="intfc:0" targetNodeId="3.1197027803184:3" resolveInfo="IOperation" />
@@ -80,7 +62,7 @@
   <node type="jetbrains.mps.lang.structure.structure.ConceptDeclaration:0" id="4991903842868445303">
     <property name="name:0" value="AccessAttributeOperation" />
     <property name="iconPath:0" value="${mps_home}/core/baseLanguage/baseLanguage/icons/fieldNew.png" />
-    <property name="package:0" value="operations" />
+    <property name="virtualPackage:0" value="operations" />
     <link role="extends:0" targetNodeId="4991903842868303816:4" resolveInfo="XMLNodeOperation" />
     <node role="linkDeclaration:0" type="jetbrains.mps.lang.structure.structure.LinkDeclaration:0" id="4991903842868445309">
       <property name="metaClass:0" value="reference" />
@@ -91,7 +73,7 @@
   </node>
   <node type="jetbrains.mps.lang.structure.structure.ConceptDeclaration:0" id="634907465121461799">
     <property name="name:0" value="AccessArbitraryChildrenOperation" />
-    <property name="package:0" value="operations" />
+    <property name="virtualPackage:0" value="operations" />
     <link role="extends:0" targetNodeId="4991903842868303816:4" resolveInfo="XMLNodeOperation" />
     <node role="linkDeclaration:0" type="jetbrains.mps.lang.structure.structure.LinkDeclaration:0" id="4203809819610565424">
       <property name="metaClass:0" value="aggregation" />
@@ -110,7 +92,7 @@
   </node>
   <node type="jetbrains.mps.lang.structure.structure.ConceptDeclaration:0" id="634907465121463881">
     <property name="name:0" value="AccessArbitraryAttributeOperation" />
-    <property name="package:0" value="operations" />
+    <property name="virtualPackage:0" value="operations" />
     <link role="extends:0" targetNodeId="4991903842868303816:4" resolveInfo="XMLNodeOperation" />
     <node role="linkDeclaration:0" type="jetbrains.mps.lang.structure.structure.LinkDeclaration:0" id="4203809819610565421">
       <property name="metaClass:0" value="aggregation" />
@@ -129,7 +111,7 @@
   </node>
   <node type="jetbrains.mps.lang.structure.structure.ConceptDeclaration:0" id="4203809819610731778">
     <property name="name:0" value="AccessTextOperation" />
-    <property name="package:0" value="operations" />
+    <property name="virtualPackage:0" value="operations" />
     <link role="extends:0" targetNodeId="4991903842868303816:4" resolveInfo="XMLNodeOperation" />
     <node role="conceptProperty:0" type="jetbrains.mps.lang.structure.structure.StringConceptProperty:0" id="4203809819610731780">
       <property name="value:0" value="text" />
@@ -160,7 +142,7 @@
   </node>
   <node type="jetbrains.mps.lang.structure.structure.ConceptDeclaration:0" id="7225751495667376018">
     <property name="name:0" value="AttributeBuilder" />
-    <property name="package:0" value="builders" />
+    <property name="virtualPackage:0" value="builders" />
     <link role="extends:0" targetNodeId="6.7057666463730155275:0" resolveInfo="Builder" />
     <node role="linkDeclaration:0" type="jetbrains.mps.lang.structure.structure.LinkDeclaration:0" id="7225751495667403566">
       <property name="metaClass:0" value="aggregation" />
@@ -180,7 +162,7 @@
   </node>
   <node type="jetbrains.mps.lang.structure.structure.ConceptDeclaration:0" id="10026583185341422">
     <property name="name:0" value="TextBuilder" />
-    <property name="package:0" value="builders" />
+    <property name="virtualPackage:0" value="builders" />
     <link role="extends:0" targetNodeId="6.7057666463730155275:0" resolveInfo="Builder" />
     <node role="conceptProperty:0" type="jetbrains.mps.lang.structure.structure.StringConceptProperty:0" id="7567280977594908265">
       <property name="value:0" value="text :" />
@@ -201,8 +183,8 @@
     </node>
   </node>
   <node type="jetbrains.mps.lang.structure.structure.ConceptDeclaration:0" id="3149278768676788174">
-    <property name="package:0" value="builders" />
     <property name="name:0" value="ElementBuilder" />
+    <property name="virtualPackage:0" value="builders" />
     <link role="extends:0" targetNodeId="6.7057666463730155275:0" resolveInfo="Builder" />
     <node role="linkDeclaration:0" type="jetbrains.mps.lang.structure.structure.LinkDeclaration:0" id="1384720974900260378">
       <property name="metaClass:0" value="reference" />
@@ -214,7 +196,7 @@
   <node type="jetbrains.mps.lang.structure.structure.ConceptDeclaration:0" id="4635390255047863050">
     <property name="name:0" value="XMLSAXParser" />
     <property name="rootable:0" value="true" />
-    <property name="package:0" value="sax" />
+    <property name="virtualPackage:0" value="sax" />
     <link role="extends:0" targetNodeId="2v.1133920641626:0" resolveInfo="BaseConcept" />
     <node role="linkDeclaration:0" type="jetbrains.mps.lang.structure.structure.LinkDeclaration:0" id="4635390255047981684">
       <property name="metaClass:0" value="reference" />
@@ -244,8 +226,8 @@
     </node>
   </node>
   <node type="jetbrains.mps.lang.structure.structure.ConceptDeclaration:0" id="4635390255047863051">
-    <property name="package:0" value="sax" />
     <property name="name:0" value="XMLSAXNodeRule" />
+    <property name="virtualPackage:0" value="sax" />
     <link role="extends:0" targetNodeId="2v.1133920641626:0" resolveInfo="BaseConcept" />
     <node role="linkDeclaration:0" type="jetbrains.mps.lang.structure.structure.LinkDeclaration:0" id="4635390255047981675">
       <property name="metaClass:0" value="aggregation" />
@@ -293,8 +275,8 @@
     </node>
   </node>
   <node type="jetbrains.mps.lang.structure.structure.ConceptDeclaration:0" id="4635390255047981693">
-    <property name="package:0" value="sax" />
     <property name="name:0" value="XMLSAXAttributeRule" />
+    <property name="virtualPackage:0" value="sax" />
     <link role="extends:0" targetNodeId="2v.1133920641626:0" resolveInfo="BaseConcept" />
     <node role="propertyDeclaration:0" type="jetbrains.mps.lang.structure.structure.PropertyDeclaration:0" id="2268737274629028866">
       <property name="name:0" value="isRequired" />
@@ -310,8 +292,8 @@
     </node>
   </node>
   <node type="jetbrains.mps.lang.structure.structure.ConceptDeclaration:0" id="4635390255048069776">
-    <property name="package:0" value="sax" />
     <property name="name:0" value="XMLSAXAttributeHandler" />
+    <property name="virtualPackage:0" value="sax" />
     <link role="extends:0" targetNodeId="4635390255048097274:4" resolveInfo="XMLSAXHandlerFunction" />
     <node role="conceptProperty:0" type="jetbrains.mps.lang.structure.structure.StringConceptProperty:0" id="8640335038346961144">
       <property name="value:0" value="attribute handler" />
@@ -338,8 +320,8 @@
     </node>
   </node>
   <node type="jetbrains.mps.lang.structure.structure.ConceptDeclaration:0" id="4635390255048097272">
-    <property name="package:0" value="sax" />
     <property name="name:0" value="XMLSAXTextRule" />
+    <property name="virtualPackage:0" value="sax" />
     <link role="extends:0" targetNodeId="2v.1133920641626:0" resolveInfo="BaseConcept" />
     <node role="linkDeclaration:0" type="jetbrains.mps.lang.structure.structure.LinkDeclaration:0" id="4635390255048098137">
       <property name="metaClass:0" value="aggregation" />
@@ -348,8 +330,8 @@
     </node>
   </node>
   <node type="jetbrains.mps.lang.structure.structure.ConceptDeclaration:0" id="4635390255048097273">
-    <property name="package:0" value="sax" />
     <property name="name:0" value="XMLSAXTextHandler" />
+    <property name="virtualPackage:0" value="sax" />
     <link role="extends:0" targetNodeId="4635390255048097274:4" resolveInfo="XMLSAXHandlerFunction" />
     <node role="conceptLink:0" type="jetbrains.mps.lang.structure.structure.AggregationConceptLink:0" id="4635390255048098131">
       <link role="conceptLinkDeclaration:0" targetNodeId="3.1137546998352:3" resolveInfo="conceptFunctionParameter" />
@@ -376,8 +358,8 @@
     </node>
   </node>
   <node type="jetbrains.mps.lang.structure.structure.ConceptDeclaration:0" id="4635390255048097274">
-    <property name="package:0" value="sax" />
     <property name="name:0" value="XMLSAXHandlerFunction" />
+    <property name="virtualPackage:0" value="sax" />
     <link role="extends:0" targetNodeId="3.1137021947720:3" resolveInfo="ConceptFunction" />
     <node role="conceptLink:0" type="jetbrains.mps.lang.structure.structure.AggregationConceptLink:0" id="4635390255048097277">
       <link role="conceptLinkDeclaration:0" targetNodeId="3.1137545148427:3" resolveInfo="conceptFunctionReturnType" />
@@ -398,8 +380,8 @@
     </node>
   </node>
   <node type="jetbrains.mps.lang.structure.structure.ConceptDeclaration:0" id="4635390255048098081">
-    <property name="package:0" value="sax" />
     <property name="name:0" value="XMLSAXHandler_resultObject" />
+    <property name="virtualPackage:0" value="sax" />
     <link role="extends:0" targetNodeId="3.1107135704075:3" resolveInfo="ConceptFunctionParameter" />
     <node role="conceptProperty:0" type="jetbrains.mps.lang.structure.structure.StringConceptProperty:0" id="4635390255048098082">
       <property name="value:0" value="result" />
@@ -411,8 +393,8 @@
     </node>
   </node>
   <node type="jetbrains.mps.lang.structure.structure.ConceptDeclaration:0" id="8640335038346803749">
-    <property name="package:0" value="sax" />
     <property name="name:0" value="XMLSAXChildRule" />
+    <property name="virtualPackage:0" value="sax" />
     <link role="extends:0" targetNodeId="2v.1133920641626:0" resolveInfo="BaseConcept" />
     <node role="linkDeclaration:0" type="jetbrains.mps.lang.structure.structure.LinkDeclaration:0" id="8640335038346803781">
       <property name="metaClass:0" value="aggregation" />
@@ -435,8 +417,8 @@
     </node>
   </node>
   <node type="jetbrains.mps.lang.structure.structure.ConceptDeclaration:0" id="8640335038346803750">
-    <property name="package:0" value="sax" />
     <property name="name:0" value="XMLSAXChildHandler" />
+    <property name="virtualPackage:0" value="sax" />
     <link role="extends:0" targetNodeId="4635390255048097274:4" resolveInfo="XMLSAXHandlerFunction" />
     <node role="conceptLink:0" type="jetbrains.mps.lang.structure.structure.ReferenceConceptLink:0" id="8640335038346803784">
       <link role="conceptLinkDeclaration:0" targetNodeId="3.1161119487665:3" resolveInfo="applicableConceptFunctionParameter" />
@@ -448,8 +430,8 @@
     </node>
   </node>
   <node type="jetbrains.mps.lang.structure.structure.ConceptDeclaration:0" id="8640335038346803753">
-    <property name="package:0" value="sax" />
     <property name="name:0" value="XMLSAXChildHandler_childObject" />
+    <property name="virtualPackage:0" value="sax" />
     <link role="extends:0" targetNodeId="3.1107135704075:3" resolveInfo="ConceptFunctionParameter" />
     <node role="conceptProperty:0" type="jetbrains.mps.lang.structure.structure.StringConceptProperty:0" id="8640335038346803755">
       <property name="value:0" value="child" />
@@ -461,8 +443,8 @@
     </node>
   </node>
   <node type="jetbrains.mps.lang.structure.structure.ConceptDeclaration:0" id="2268737274628897541">
-    <property name="package:0" value="sax" />
     <property name="name:0" value="XMLSAXNodeCreator" />
+    <property name="virtualPackage:0" value="sax" />
     <link role="extends:0" targetNodeId="3.1137021947720:3" resolveInfo="ConceptFunction" />
     <node role="conceptProperty:0" type="jetbrains.mps.lang.structure.structure.StringConceptProperty:0" id="2268737274629004423">
       <property name="value:0" value="create" />
@@ -473,8 +455,8 @@
     </node>
   </node>
   <node type="jetbrains.mps.lang.structure.structure.ConceptDeclaration:0" id="3444414697307355268">
-    <property name="package:0" value="sax" />
     <property name="name:0" value="XMLSAXNodeValidator" />
+    <property name="virtualPackage:0" value="sax" />
     <link role="extends:0" targetNodeId="4635390255048097274:4" resolveInfo="XMLSAXHandlerFunction" />
     <node role="conceptProperty:0" type="jetbrains.mps.lang.structure.structure.StringConceptProperty:0" id="3444414697307355271">
       <property name="value:0" value="validate" />
@@ -489,8 +471,8 @@
     </node>
   </node>
   <node type="jetbrains.mps.lang.structure.structure.ConceptDeclaration:0" id="2286463592495220221">
-    <property name="package:0" value="sax" />
     <property name="name:0" value="XMLSAXAttributeReference" />
+    <property name="virtualPackage:0" value="sax" />
     <link role="extends:0" targetNodeId="3.1068431790191:3" resolveInfo="Expression" />
     <node role="linkDeclaration:0" type="jetbrains.mps.lang.structure.structure.LinkDeclaration:0" id="2286463592495220222">
       <property name="metaClass:0" value="reference" />
@@ -500,8 +482,8 @@
     </node>
   </node>
   <node type="jetbrains.mps.lang.structure.structure.ConceptDeclaration:0" id="7707758858785994411">
-    <property name="package:0" value="sax" />
     <property name="name:0" value="XMLSAXFieldDeclaration" />
+    <property name="virtualPackage:0" value="sax" />
     <link role="extends:0" targetNodeId="2v.1133920641626:0" resolveInfo="BaseConcept" />
     <node role="linkDeclaration:0" type="jetbrains.mps.lang.structure.structure.LinkDeclaration:0" id="7707758858785994413">
       <property name="metaClass:0" value="aggregation" />
@@ -514,8 +496,8 @@
     </node>
   </node>
   <node type="jetbrains.mps.lang.structure.structure.ConceptDeclaration:0" id="7707758858785994426">
-    <property name="package:0" value="sax" />
     <property name="name:0" value="XMLSAXFieldReference" />
+    <property name="virtualPackage:0" value="sax" />
     <link role="extends:0" targetNodeId="3.1068431790191:3" resolveInfo="Expression" />
     <node role="linkDeclaration:0" type="jetbrains.mps.lang.structure.structure.LinkDeclaration:0" id="7707758858785994427">
       <property name="metaClass:0" value="reference" />

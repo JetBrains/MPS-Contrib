@@ -135,7 +135,7 @@
     <classNode dependClassName="jetbrains.mps.xmlQuery.constraints.SchemaUtil" />
     <classNode extendsClassName="jetbrains.mps.smodel.constraints.BaseNodeReferenceSearchScopeProvider" />
     <classNode extendsClassName="jetbrains.mps.smodel.constraints.IModelConstraints" />
-    <classNode extendsClassName="jetbrains.mps.smodel.constraints.INodeReferentSetEventHandler" />
+    <classNode extendsClassName="jetbrains.mps.smodel.constraints.INodeReferenceFullSetHandler" />
   </dependency>
   <dependency className="jetbrains.mps.xmlQuery.constraints.XMLElementType_schema_ReferentConstraint" file="XMLElementType_schema_ReferentConstraint.java">
     <classNode dependClassName="jetbrains.mps.lang.smodel.generator.smodelAdapter.SLinkOperations" />
@@ -143,7 +143,7 @@
     <classNode dependClassName="jetbrains.mps.smodel.SNode" />
     <classNode dependClassName="jetbrains.mps.smodel.constraints.ModelConstraintsManager" />
     <classNode extendsClassName="jetbrains.mps.smodel.constraints.IModelConstraints" />
-    <classNode extendsClassName="jetbrains.mps.smodel.constraints.INodeReferentSetEventHandler" />
+    <classNode extendsClassName="jetbrains.mps.smodel.constraints.INodeReferenceFullSetHandler" />
   </dependency>
   <dependency className="jetbrains.mps.xmlQuery.constraints.XMLSAXAttributeReference_Constraints" file="XMLSAXAttributeReference_Constraints.java">
     <classNode dependClassName="jetbrains.mps.lang.smodel.generator.smodelAdapter.SNodeOperations" />
