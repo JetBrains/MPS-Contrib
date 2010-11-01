@@ -172,13 +172,13 @@ public class UnitTestRunner extends BaseRunner {
   }
 
   public String getClasspathString(List<ITestNodeWrapper> list, List<String> additionalClassPath) {
-    Set<IModule> uniqModules = SetSequence.fromSet(new HashSet<IModule>());
+    Set<IModule> uniqueModules = SetSequence.fromSet(new HashSet<IModule>());
     for (ITestNodeWrapper testable : list) {
       IModule module = SNodeOperations.getModel(testable.getNode()).getModelDescriptor().getModule();
-      SetSequence.fromSet(uniqModules).addElement(module);
+      SetSequence.fromSet(uniqueModules).addElement(module);
     }
     Set<String> classpath = SetSequence.fromSet(new LinkedHashSet<String>());
-    for (IModule module : uniqModules) {
+    for (IModule module : uniqueModules) {
       SetSequence.fromSet(classpath).addSequence(SetSequence.fromSet(BaseRunner.getModuleClasspath(module, true)));
     }
     ListSequence.fromList(additionalClassPath).addSequence(SetSequence.fromSet(classpath));
