@@ -7,14 +7,9 @@
   <language namespace="fd392034-7849-419d-9071-12563d152375(jetbrains.mps.baseLanguage.closures)" />
   <language namespace="f2801650-65d5-424e-bb1b-463a8781b786(jetbrains.mps.baseLanguage.javadoc)" />
   <languageAspect modelUID="r:00000000-0000-4000-0000-011c895902ca(jetbrains.mps.baseLanguage.structure)" version="3" />
-  <languageAspect modelUID="r:00000000-0000-4000-0000-011c895902c1(jetbrains.mps.baseLanguage.constraints)" version="83" />
-  <languageAspect modelUID="r:00000000-0000-4000-0000-011c895902db(jetbrains.mps.baseLanguage.blTypes.constraints)" version="0" />
   <languageAspect modelUID="r:00000000-0000-4000-0000-011c89590288(jetbrains.mps.lang.core.structure)" version="0" />
-  <languageAspect modelUID="r:00000000-0000-4000-0000-011c89590283(jetbrains.mps.lang.core.constraints)" version="2" />
-  <languageAspect modelUID="r:00000000-0000-4000-0000-011c89590328(jetbrains.mps.baseLanguage.collections.constraints)" version="6" />
   <languageAspect modelUID="r:00000000-0000-4000-0000-011c8959032e(jetbrains.mps.baseLanguage.collections.structure)" version="7" />
   <languageAspect modelUID="r:00000000-0000-4000-0000-011c89590338(jetbrains.mps.baseLanguage.closures.structure)" version="3" />
-  <languageAspect modelUID="r:00000000-0000-4000-0000-011c89590334(jetbrains.mps.baseLanguage.closures.constraints)" version="2" />
   <languageAspect modelUID="r:4095af4f-a097-4799-aaa9-03df087ddfa6(jetbrains.mps.baseLanguage.javadoc.structure)" version="5" />
   <maxImportIndex value="10" />
   <import index="1" modelUID="r:6d741586-5996-4cd2-b3d3-7b04b7dd2971(jetbrains.mps.graphLayout.planarGraph)" version="-1" />
@@ -24,8 +19,6 @@
   <import index="6" modelUID="f:java_stub#java.lang(java.lang@java_stub)" version="-1" />
   <import index="7" modelUID="r:8254b240-abed-4f97-a7cd-2eef733ec7fb(jetbrains.mps.graphLayout.util)" version="-1" />
   <import index="8" modelUID="f:java_stub#java.util(java.util@java_stub)" version="-1" />
-  <import index="9" modelUID="f:java_stub#java.lang.annotation(java.lang.annotation@java_stub)" version="-1" />
-  <import index="10" modelUID="f:java_stub#org.jetbrains.annotations(org.jetbrains.annotations@java_stub)" version="-1" />
   <node type="jetbrains.mps.baseLanguage.structure.Interface:3" id="2899723422951321567">
     <property name="name:3" value="IEmbeddingFinder" />
     <node role="method:3" type="jetbrains.mps.baseLanguage.structure.InstanceMethodDeclaration:3" id="2899723422951321569">
@@ -5064,7 +5057,7 @@
   </node>
   <node type="jetbrains.mps.baseLanguage.structure.ClassConcept:3" id="516638300680465086">
     <property name="name:3" value="PQPlanarityTest" />
-    <property name="package:3" value="PQTest" />
+    <property name="virtualPackage:3" value="PQTest" />
     <node role="field:3" type="jetbrains.mps.baseLanguage.structure.FieldDeclaration:3" id="4644851485137255665">
       <property name="name:3" value="myTree" />
       <node role="visibility:3" type="jetbrains.mps.baseLanguage.structure.PrivateVisibility:3" id="4644851485137255666" />
@@ -7370,7 +7363,7 @@
   </node>
   <node type="jetbrains.mps.baseLanguage.structure.ClassConcept:3" id="344116171239987094">
     <property name="name:3" value="PQTree" />
-    <property name="package:3" value="PQTree" />
+    <property name="virtualPackage:3" value="PQTree" />
     <node role="staticField:3" type="jetbrains.mps.baseLanguage.structure.StaticFieldDeclaration:3" id="5709109565604328119">
       <property name="name:3" value="SHOW_LOG" />
       <node role="visibility:3" type="jetbrains.mps.baseLanguage.structure.PrivateVisibility:3" id="5709109565604328120" />
@@ -8779,7 +8772,7 @@
   <node type="jetbrains.mps.baseLanguage.structure.ClassConcept:3" id="344116171239987370">
     <property name="name:3" value="PQNode" />
     <property name="abstractClass:3" value="true" />
-    <property name="package:3" value="PQTree" />
+    <property name="virtualPackage:3" value="PQTree" />
     <node role="staticField:3" type="jetbrains.mps.baseLanguage.structure.StaticFieldDeclaration:3" id="5442489283395824223">
       <property name="isFinal:3" value="true" />
       <property name="name:3" value="INF" />
@@ -9683,7 +9676,7 @@
   </node>
   <node type="jetbrains.mps.baseLanguage.structure.ClassConcept:3" id="344116171239987587">
     <property name="name:3" value="QNode" />
-    <property name="package:3" value="PQTree" />
+    <property name="virtualPackage:3" value="PQTree" />
     <node role="field:3" type="jetbrains.mps.baseLanguage.structure.FieldDeclaration:3" id="603019764244035786">
       <property name="name:3" value="myEdgesOrder" />
       <node role="visibility:3" type="jetbrains.mps.baseLanguage.structure.PrivateVisibility:3" id="603019764244035787" />
@@ -12362,8 +12355,8 @@
     </node>
   </node>
   <node type="jetbrains.mps.baseLanguage.structure.ClassConcept:3" id="6001806680467668506">
-    <property name="package:3" value="PQTree" />
     <property name="name:3" value="PNode" />
+    <property name="virtualPackage:3" value="PQTree" />
     <node role="field:3" type="jetbrains.mps.baseLanguage.structure.FieldDeclaration:3" id="603019764244030172">
       <property name="name:3" value="myGraphNode" />
       <node role="visibility:3" type="jetbrains.mps.baseLanguage.structure.PrivateVisibility:3" id="603019764244030173" />
@@ -15358,8 +15351,8 @@
     </node>
   </node>
   <node type="jetbrains.mps.baseLanguage.structure.ClassConcept:3" id="5656502300472228858">
-    <property name="package:3" value="PQTree" />
     <property name="name:3" value="NodeWithEdgeOrder" />
+    <property name="virtualPackage:3" value="PQTree" />
     <node role="field:3" type="jetbrains.mps.baseLanguage.structure.FieldDeclaration:3" id="5656502300472228864">
       <property name="name:3" value="myNode" />
       <node role="visibility:3" type="jetbrains.mps.baseLanguage.structure.PrivateVisibility:3" id="5656502300472228865" />
@@ -15631,8 +15624,8 @@
     </node>
   </node>
   <node type="jetbrains.mps.baseLanguage.structure.ClassConcept:3" id="860462848750178536">
-    <property name="package:3" value="PQTest" />
     <property name="name:3" value="PlanarizationEmbeddingFinder" />
+    <property name="virtualPackage:3" value="PQTest" />
     <node role="visibility:3" type="jetbrains.mps.baseLanguage.structure.PublicVisibility:3" id="860462848750178537" />
     <node role="constructor:3" type="jetbrains.mps.baseLanguage.structure.ConstructorDeclaration:3" id="860462848750178538">
       <node role="returnType:3" type="jetbrains.mps.baseLanguage.structure.VoidType:3" id="860462848750178539" />
@@ -15703,8 +15696,8 @@
     </node>
   </node>
   <node type="jetbrains.mps.baseLanguage.structure.ClassConcept:3" id="603019764244010093">
-    <property name="package:3" value="PQTree" />
     <property name="name:3" value="EdgesOrder" />
+    <property name="virtualPackage:3" value="PQTree" />
     <node role="method:3" type="jetbrains.mps.baseLanguage.structure.InstanceMethodDeclaration:3" id="603019764244013753">
       <property name="name:3" value="getInEdgesOrder" />
       <node role="returnType:3" type="jetbrains.mps.baseLanguage.collections.structure.ListType:7" id="603019764244013757">
@@ -17090,8 +17083,8 @@
     </node>
   </node>
   <node type="jetbrains.mps.baseLanguage.structure.ClassConcept:3" id="4644851485137260284">
-    <property name="package:3" value="PQTest" />
     <property name="name:3" value="PQPlanarizationFinder" />
+    <property name="virtualPackage:3" value="PQTest" />
     <node role="field:3" type="jetbrains.mps.baseLanguage.structure.FieldDeclaration:3" id="4644851485137274531">
       <property name="name:3" value="myGraph" />
       <node role="visibility:3" type="jetbrains.mps.baseLanguage.structure.PrivateVisibility:3" id="4644851485137274532" />

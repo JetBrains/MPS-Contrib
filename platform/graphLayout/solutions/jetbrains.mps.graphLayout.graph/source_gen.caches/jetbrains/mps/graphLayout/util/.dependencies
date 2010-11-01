@@ -6,13 +6,13 @@
   <dependency className="jetbrains.mps.graphLayout.util.Direction2D" file="Direction2D.java" />
   <dependency className="jetbrains.mps.graphLayout.util.Filter" file="Filter.java" />
   <dependency className="jetbrains.mps.graphLayout.util.GeomUtil" file="GeomUtil.java">
-    <classNode dependClassName="java.awt.Point" />
-    <classNode dependClassName="java.awt.Rectangle" />
     <classNode dependClassName="java.lang.Integer" />
     <classNode dependClassName="java.lang.Math" />
     <classNode dependClassName="java.util.ArrayList" />
     <classNode dependClassName="java.util.List" />
     <classNode dependClassName="java.util.Map" />
+    <classNode dependClassName="jetbrains.mps.graphLayout.intGeom2D.Point" />
+    <classNode dependClassName="jetbrains.mps.graphLayout.intGeom2D.Rectangle" />
     <classNode dependClassName="jetbrains.mps.graphLayout.util.Direction2D" />
     <classNode dependClassName="jetbrains.mps.internal.collections.runtime.ListSequence" />
     <classNode dependClassName="jetbrains.mps.internal.collections.runtime.MapSequence" />

@@ -1,9 +1,6 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <dependenciesRoot>
   <dependency className="jetbrains.mps.graphLayout.flowOrthogonalLayout.AbstractOrthogonalFlowLayouter" file="AbstractOrthogonalFlowLayouter.java">
-    <classNode dependClassName="java.awt.Dimension" />
-    <classNode dependClassName="java.awt.Point" />
-    <classNode dependClassName="java.awt.Rectangle" />
     <classNode dependClassName="java.lang.Integer" />
     <classNode dependClassName="java.lang.Math" />
     <classNode dependClassName="java.util.ArrayList" />
@@ -21,6 +18,9 @@
     <classNode dependClassName="jetbrains.mps.graphLayout.graphLayout.GraphLayout" />
     <classNode dependClassName="jetbrains.mps.graphLayout.graphLayout.LayoutInfo" />
     <classNode dependClassName="jetbrains.mps.graphLayout.graphLayout.LayoutTransform" />
+    <classNode dependClassName="jetbrains.mps.graphLayout.intGeom2D.Dimension" />
+    <classNode dependClassName="jetbrains.mps.graphLayout.intGeom2D.Point" />
+    <classNode dependClassName="jetbrains.mps.graphLayout.intGeom2D.Rectangle" />
     <classNode dependClassName="jetbrains.mps.graphLayout.planarGraph.Dart" />
     <classNode dependClassName="jetbrains.mps.graphLayout.planarGraph.EmbeddedGraph" />
     <classNode dependClassName="jetbrains.mps.graphLayout.planarGraph.Face" />
@@ -36,7 +36,6 @@
     <classNode extendsClassName="jetbrains.mps.graphLayout.graphLayout.BasicLayouter" />
   </dependency>
   <dependency className="jetbrains.mps.graphLayout.flowOrthogonalLayout.ConstraintsGraph" file="ConstraintsGraph.java">
-    <classNode dependClassName="java.awt.Point" />
     <classNode dependClassName="java.lang.Boolean" />
     <classNode dependClassName="java.lang.Integer" />
     <classNode dependClassName="java.lang.Iterable" />
@@ -57,6 +56,7 @@
     <classNode dependClassName="jetbrains.mps.graphLayout.graph.Edge" />
     <classNode dependClassName="jetbrains.mps.graphLayout.graph.Graph" />
     <classNode dependClassName="jetbrains.mps.graphLayout.graph.Node" />
+    <classNode dependClassName="jetbrains.mps.graphLayout.intGeom2D.Point" />
     <classNode dependClassName="jetbrains.mps.graphLayout.planarGraph.Dart" />
     <classNode dependClassName="jetbrains.mps.graphLayout.planarGraph.EmbeddedGraph" />
     <classNode dependClassName="jetbrains.mps.graphLayout.planarGraph.Face" />
@@ -69,8 +69,6 @@
     <classNode dependClassName="jetbrains.mps.internal.collections.runtime.backports.LinkedList" />
   </dependency>
   <dependency className="jetbrains.mps.graphLayout.flowOrthogonalLayout.ConstraintsGraphProcessor" file="ConstraintsGraphProcessor.java">
-    <classNode dependClassName="java.awt.Dimension" />
-    <classNode dependClassName="java.awt.Point" />
     <classNode dependClassName="java.lang.Boolean" />
     <classNode dependClassName="java.lang.Integer" />
     <classNode dependClassName="java.lang.Iterable" />
@@ -94,6 +92,8 @@
     <classNode dependClassName="jetbrains.mps.graphLayout.graph.Edge" />
     <classNode dependClassName="jetbrains.mps.graphLayout.graph.Graph" />
     <classNode dependClassName="jetbrains.mps.graphLayout.graph.Node" />
+    <classNode dependClassName="jetbrains.mps.graphLayout.intGeom2D.Dimension" />
+    <classNode dependClassName="jetbrains.mps.graphLayout.intGeom2D.Point" />
     <classNode dependClassName="jetbrains.mps.graphLayout.planarGraph.Dart" />
     <classNode dependClassName="jetbrains.mps.graphLayout.planarGraph.EmbeddedGraph" />
     <classNode dependClassName="jetbrains.mps.graphLayout.planarGraph.Face" />
@@ -107,13 +107,13 @@
     <classNode dependClassName="jetbrains.mps.internal.collections.runtime.backports.LinkedList" />
   </dependency>
   <dependency className="jetbrains.mps.graphLayout.flowOrthogonalLayout.CoordinatePlacer" file="CoordinatePlacer.java">
-    <classNode dependClassName="java.awt.Point" />
     <classNode dependClassName="java.lang.Integer" />
     <classNode dependClassName="java.lang.Override" />
     <classNode dependClassName="java.util.HashMap" />
     <classNode dependClassName="java.util.Map" />
     <classNode dependClassName="jetbrains.mps.graphLayout.graph.Edge" />
     <classNode dependClassName="jetbrains.mps.graphLayout.graph.Node" />
+    <classNode dependClassName="jetbrains.mps.graphLayout.intGeom2D.Point" />
     <classNode dependClassName="jetbrains.mps.graphLayout.planarGraph.Dart" />
     <classNode dependClassName="jetbrains.mps.graphLayout.planarGraph.EmbeddedGraph" />
     <classNode dependClassName="jetbrains.mps.graphLayout.util.Direction2D" />
@@ -123,9 +123,6 @@
     <classNode extendsClassName="jetbrains.mps.graphLayout.algorithms.Dfs" />
   </dependency>
   <dependency className="jetbrains.mps.graphLayout.flowOrthogonalLayout.CurrentOrthogonalFlowLabelLayouter" file="CurrentOrthogonalFlowLabelLayouter.java">
-    <classNode dependClassName="java.awt.Dimension" />
-    <classNode dependClassName="java.awt.Point" />
-    <classNode dependClassName="java.awt.Rectangle" />
     <classNode dependClassName="java.lang.Integer" />
     <classNode dependClassName="java.lang.Math" />
     <classNode dependClassName="java.lang.System" />
@@ -146,6 +143,9 @@
     <classNode dependClassName="jetbrains.mps.graphLayout.graph.Node" />
     <classNode dependClassName="jetbrains.mps.graphLayout.graphLayout.GraphLayout" />
     <classNode dependClassName="jetbrains.mps.graphLayout.graphLayout.LayoutInfo" />
+    <classNode dependClassName="jetbrains.mps.graphLayout.intGeom2D.Dimension" />
+    <classNode dependClassName="jetbrains.mps.graphLayout.intGeom2D.Point" />
+    <classNode dependClassName="jetbrains.mps.graphLayout.intGeom2D.Rectangle" />
     <classNode dependClassName="jetbrains.mps.graphLayout.planarGraph.Dart" />
     <classNode dependClassName="jetbrains.mps.graphLayout.planarGraph.EmbeddedGraph" />
     <classNode dependClassName="jetbrains.mps.graphLayout.planarGraph.Face" />
@@ -203,7 +203,6 @@
     <classNode dependClassName="jetbrains.mps.internal.collections.runtime.backports.LinkedList" />
   </dependency>
   <dependency className="jetbrains.mps.graphLayout.flowOrthogonalLayout.FlowLayoutWithNodeProcessing" file="FlowLayoutWithNodeProcessing.java">
-    <classNode dependClassName="java.awt.Point" />
     <classNode dependClassName="java.lang.Integer" />
     <classNode dependClassName="java.lang.System" />
     <classNode dependClassName="java.util.ArrayList" />
@@ -219,6 +218,7 @@
     <classNode dependClassName="jetbrains.mps.graphLayout.graph.Graph" />
     <classNode dependClassName="jetbrains.mps.graphLayout.graph.Node" />
     <classNode dependClassName="jetbrains.mps.graphLayout.graphLayout.GraphPointLayout" />
+    <classNode dependClassName="jetbrains.mps.graphLayout.intGeom2D.Point" />
     <classNode dependClassName="jetbrains.mps.graphLayout.planarGraph.Dart" />
     <classNode dependClassName="jetbrains.mps.graphLayout.planarGraph.EmbeddedGraph" />
     <classNode dependClassName="jetbrains.mps.graphLayout.planarGraph.Face" />
@@ -231,7 +231,6 @@
     <classNode extendsClassName="jetbrains.mps.graphLayout.graphLayout.IPointLayouter" />
   </dependency>
   <dependency className="jetbrains.mps.graphLayout.flowOrthogonalLayout.NodeBoxesMaker" file="NodeBoxesMaker.java">
-    <classNode dependClassName="java.awt.Dimension" />
     <classNode dependClassName="java.lang.Integer" />
     <classNode dependClassName="java.lang.Iterable" />
     <classNode dependClassName="java.lang.String" />
@@ -245,6 +244,7 @@
     <classNode dependClassName="jetbrains.mps.graphLayout.graph.Edge" />
     <classNode dependClassName="jetbrains.mps.graphLayout.graph.Graph" />
     <classNode dependClassName="jetbrains.mps.graphLayout.graph.Node" />
+    <classNode dependClassName="jetbrains.mps.graphLayout.intGeom2D.Dimension" />
     <classNode dependClassName="jetbrains.mps.graphLayout.planarGraph.Dart" />
     <classNode dependClassName="jetbrains.mps.graphLayout.planarGraph.EmbeddedGraph" />
     <classNode dependClassName="jetbrains.mps.graphLayout.planarGraph.Face" />
@@ -257,9 +257,6 @@
     <classNode dependClassName="jetbrains.mps.internal.collections.runtime.backports.LinkedList" />
   </dependency>
   <dependency className="jetbrains.mps.graphLayout.flowOrthogonalLayout.OrthogonalFlowLabelProcessing" file="OrthogonalFlowLabelProcessing.java">
-    <classNode dependClassName="java.awt.Dimension" />
-    <classNode dependClassName="java.awt.Point" />
-    <classNode dependClassName="java.awt.Rectangle" />
     <classNode dependClassName="java.lang.Integer" />
     <classNode dependClassName="java.lang.Math" />
     <classNode dependClassName="java.lang.System" />
@@ -281,6 +278,9 @@
     <classNode dependClassName="jetbrains.mps.graphLayout.graph.Node" />
     <classNode dependClassName="jetbrains.mps.graphLayout.graphLayout.GraphLayout" />
     <classNode dependClassName="jetbrains.mps.graphLayout.graphLayout.LayoutTransform" />
+    <classNode dependClassName="jetbrains.mps.graphLayout.intGeom2D.Dimension" />
+    <classNode dependClassName="jetbrains.mps.graphLayout.intGeom2D.Point" />
+    <classNode dependClassName="jetbrains.mps.graphLayout.intGeom2D.Rectangle" />
     <classNode dependClassName="jetbrains.mps.graphLayout.planarGraph.Dart" />
     <classNode dependClassName="jetbrains.mps.graphLayout.planarGraph.EmbeddedGraph" />
     <classNode dependClassName="jetbrains.mps.graphLayout.planarization.PQPlanarizationFinder" />
@@ -293,9 +293,6 @@
     <classNode dependClassName="jetbrains.mps.internal.collections.runtime.backports.LinkedList" />
   </dependency>
   <dependency className="jetbrains.mps.graphLayout.flowOrthogonalLayout.OrthogonalFlowLayouterConstraints" file="OrthogonalFlowLayouterConstraints.java">
-    <classNode dependClassName="java.awt.Dimension" />
-    <classNode dependClassName="java.awt.Point" />
-    <classNode dependClassName="java.awt.Rectangle" />
     <classNode dependClassName="java.lang.Integer" />
     <classNode dependClassName="java.lang.Math" />
     <classNode dependClassName="java.lang.System" />
@@ -317,6 +314,9 @@
     <classNode dependClassName="jetbrains.mps.graphLayout.graph.Node" />
     <classNode dependClassName="jetbrains.mps.graphLayout.graphLayout.GraphLayout" />
     <classNode dependClassName="jetbrains.mps.graphLayout.graphLayout.LayoutTransform" />
+    <classNode dependClassName="jetbrains.mps.graphLayout.intGeom2D.Dimension" />
+    <classNode dependClassName="jetbrains.mps.graphLayout.intGeom2D.Point" />
+    <classNode dependClassName="jetbrains.mps.graphLayout.intGeom2D.Rectangle" />
     <classNode dependClassName="jetbrains.mps.graphLayout.planarGraph.Dart" />
     <classNode dependClassName="jetbrains.mps.graphLayout.planarGraph.EmbeddedGraph" />
     <classNode dependClassName="jetbrains.mps.graphLayout.planarization.PQPlanarizationFinder" />
@@ -329,7 +329,6 @@
     <classNode dependClassName="jetbrains.mps.internal.collections.runtime.backports.LinkedList" />
   </dependency>
   <dependency className="jetbrains.mps.graphLayout.flowOrthogonalLayout.OrthogonalPointFlowLayouter" file="OrthogonalPointFlowLayouter.java">
-    <classNode dependClassName="java.awt.Point" />
     <classNode dependClassName="java.lang.Integer" />
     <classNode dependClassName="java.lang.System" />
     <classNode dependClassName="java.util.ArrayList" />
@@ -348,6 +347,7 @@
     <classNode dependClassName="jetbrains.mps.graphLayout.graph.Graph" />
     <classNode dependClassName="jetbrains.mps.graphLayout.graph.Node" />
     <classNode dependClassName="jetbrains.mps.graphLayout.graphLayout.GraphPointLayout" />
+    <classNode dependClassName="jetbrains.mps.graphLayout.intGeom2D.Point" />
     <classNode dependClassName="jetbrains.mps.graphLayout.planarGraph.Dart" />
     <classNode dependClassName="jetbrains.mps.graphLayout.planarGraph.EmbeddedGraph" />
     <classNode dependClassName="jetbrains.mps.graphLayout.planarGraph.Face" />
@@ -359,9 +359,6 @@
     <classNode extendsClassName="jetbrains.mps.graphLayout.graphLayout.IPointLayouter" />
   </dependency>
   <dependency className="jetbrains.mps.graphLayout.flowOrthogonalLayout.OrthogonalRectFlowLayouter" file="OrthogonalRectFlowLayouter.java">
-    <classNode dependClassName="java.awt.Dimension" />
-    <classNode dependClassName="java.awt.Point" />
-    <classNode dependClassName="java.awt.Rectangle" />
     <classNode dependClassName="java.lang.Integer" />
     <classNode dependClassName="java.lang.System" />
     <classNode dependClassName="java.util.ArrayList" />
@@ -380,6 +377,9 @@
     <classNode dependClassName="jetbrains.mps.graphLayout.graph.Node" />
     <classNode dependClassName="jetbrains.mps.graphLayout.graphLayout.GraphLayout" />
     <classNode dependClassName="jetbrains.mps.graphLayout.graphLayout.LayoutTransform" />
+    <classNode dependClassName="jetbrains.mps.graphLayout.intGeom2D.Dimension" />
+    <classNode dependClassName="jetbrains.mps.graphLayout.intGeom2D.Point" />
+    <classNode dependClassName="jetbrains.mps.graphLayout.intGeom2D.Rectangle" />
     <classNode dependClassName="jetbrains.mps.graphLayout.planarGraph.Dart" />
     <classNode dependClassName="jetbrains.mps.graphLayout.planarGraph.EmbeddedGraph" />
     <classNode dependClassName="jetbrains.mps.graphLayout.planarization.PQPlanarizationFinder" />
@@ -490,9 +490,6 @@
     <classNode dependClassName="jetbrains.mps.internal.collections.runtime.backports.LinkedList" />
   </dependency>
   <dependency className="jetbrains.mps.graphLayout.flowOrthogonalLayout.TestPullingLabels" file="TestPullingLabels.java">
-    <classNode dependClassName="java.awt.Dimension" />
-    <classNode dependClassName="java.awt.Point" />
-    <classNode dependClassName="java.awt.Rectangle" />
     <classNode dependClassName="java.lang.Integer" />
     <classNode dependClassName="java.lang.Math" />
     <classNode dependClassName="java.util.HashMap" />
@@ -506,6 +503,9 @@
     <classNode dependClassName="jetbrains.mps.graphLayout.graph.Node" />
     <classNode dependClassName="jetbrains.mps.graphLayout.graphLayout.GraphLayout" />
     <classNode dependClassName="jetbrains.mps.graphLayout.graphLayout.LayoutTransform" />
+    <classNode dependClassName="jetbrains.mps.graphLayout.intGeom2D.Dimension" />
+    <classNode dependClassName="jetbrains.mps.graphLayout.intGeom2D.Point" />
+    <classNode dependClassName="jetbrains.mps.graphLayout.intGeom2D.Rectangle" />
     <classNode dependClassName="jetbrains.mps.graphLayout.util.Direction2D" />
     <classNode dependClassName="jetbrains.mps.graphLayout.util.GeomUtil" />
     <classNode dependClassName="jetbrains.mps.internal.collections.runtime.ListSequence" />

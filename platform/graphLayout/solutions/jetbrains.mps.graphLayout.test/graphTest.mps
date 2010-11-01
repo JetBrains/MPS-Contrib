@@ -6,17 +6,9 @@
   <language namespace="83888646-71ce-4f1c-9c53-c54016f6ad4f(jetbrains.mps.baseLanguage.collections)" />
   <language namespace="f61473f9-130f-42f6-b98d-6c438812c2f6(jetbrains.mps.baseLanguage.unitTest)" />
   <language namespace="fd392034-7849-419d-9071-12563d152375(jetbrains.mps.baseLanguage.closures)" />
-  <languageAspect modelUID="r:00000000-0000-4000-0000-011c895902c1(jetbrains.mps.baseLanguage.constraints)" version="83" />
   <languageAspect modelUID="r:00000000-0000-4000-0000-011c895902ca(jetbrains.mps.baseLanguage.structure)" version="3" />
-  <languageAspect modelUID="r:00000000-0000-4000-0000-011c895902db(jetbrains.mps.baseLanguage.blTypes.constraints)" version="0" />
-  <languageAspect modelUID="r:00000000-0000-4000-0000-011c89590283(jetbrains.mps.lang.core.constraints)" version="2" />
   <languageAspect modelUID="r:00000000-0000-4000-0000-011c89590288(jetbrains.mps.lang.core.structure)" version="0" />
-  <languageAspect modelUID="r:00000000-0000-4000-0000-011c89590328(jetbrains.mps.baseLanguage.collections.constraints)" version="6" />
   <languageAspect modelUID="r:00000000-0000-4000-0000-011c8959032e(jetbrains.mps.baseLanguage.collections.structure)" version="7" />
-  <languageAspect modelUID="r:00000000-0000-4000-0000-011c89590334(jetbrains.mps.baseLanguage.closures.constraints)" version="2" />
-  <languageAspect modelUID="r:00000000-0000-4000-0000-011c89590338(jetbrains.mps.baseLanguage.closures.structure)" version="3" />
-  <languageAspect modelUID="r:00000000-0000-4000-0000-011c895902d5(jetbrains.mps.baseLanguage.unitTest.plugin)" version="0" />
-  <languageAspect modelUID="r:00000000-0000-4000-0000-011c895902d2(jetbrains.mps.baseLanguage.unitTest.constraints)" version="1" />
   <maxImportIndex value="13" />
   <import index="1" modelUID="r:d228b8c9-d2b1-4686-9904-e3c49a346bc6(jetbrains.mps.graphLayout.graph)" version="-1" />
   <import index="4" modelUID="r:1674ee60-7c44-4176-8f8c-2c87c767d971(sampleGraphs)" version="-1" />
@@ -413,7 +405,7 @@
   </node>
   <node type="jetbrains.mps.baseLanguage.unitTest.structure.BTestCase" id="5180427534212042871">
     <property name="testCaseName" value="TopologicalSorting" />
-    <property name="package" value="algorithms" />
+    <property name="virtualPackage" value="algorithms" />
     <node role="visibility" type="jetbrains.mps.baseLanguage.structure.PublicVisibility:3" id="5180427534212042872" />
     <node role="constructor" type="jetbrains.mps.baseLanguage.structure.ConstructorDeclaration:3" id="5180427534212042873">
       <node role="returnType:3" type="jetbrains.mps.baseLanguage.structure.VoidType:3" id="5180427534212042874" />
@@ -588,7 +580,7 @@
   </node>
   <node type="jetbrains.mps.baseLanguage.unitTest.structure.BTestCase" id="920414672219836580">
     <property name="testCaseName" value="TopologicalNumbering" />
-    <property name="package" value="algorithms" />
+    <property name="virtualPackage" value="algorithms" />
     <node role="visibility" type="jetbrains.mps.baseLanguage.structure.PublicVisibility:3" id="920414672219836581" />
     <node role="constructor" type="jetbrains.mps.baseLanguage.structure.ConstructorDeclaration:3" id="920414672219836582">
       <node role="returnType:3" type="jetbrains.mps.baseLanguage.structure.VoidType:3" id="920414672219836583" />
@@ -988,8 +980,8 @@
     </node>
   </node>
   <node type="jetbrains.mps.baseLanguage.unitTest.structure.BTestCase" id="4179389957059012709">
-    <property name="package" value="algorithms" />
     <property name="testCaseName" value="ShortestPath" />
+    <property name="virtualPackage" value="algorithms" />
     <node role="visibility" type="jetbrains.mps.baseLanguage.structure.PublicVisibility:3" id="4179389957059012710" />
     <node role="constructor" type="jetbrains.mps.baseLanguage.structure.ConstructorDeclaration:3" id="4179389957059012711">
       <node role="returnType:3" type="jetbrains.mps.baseLanguage.structure.VoidType:3" id="4179389957059012712" />
@@ -1187,8 +1179,8 @@
     </node>
   </node>
   <node type="jetbrains.mps.baseLanguage.unitTest.structure.BTestCase" id="1654665216152489675">
-    <property name="package" value="algorithms" />
     <property name="testCaseName" value="STNumbering" />
+    <property name="virtualPackage" value="algorithms" />
     <node role="visibility" type="jetbrains.mps.baseLanguage.structure.PublicVisibility:3" id="1654665216152489676" />
     <node role="constructor" type="jetbrains.mps.baseLanguage.structure.ConstructorDeclaration:3" id="1654665216152489677">
       <node role="returnType:3" type="jetbrains.mps.baseLanguage.structure.VoidType:3" id="1654665216152489678" />
@@ -1536,7 +1528,7 @@
   </node>
   <node type="jetbrains.mps.baseLanguage.structure.ClassConcept:3" id="5213231752900628577">
     <property name="name:3" value="STNumberingChecker" />
-    <property name="package:3" value="utils" />
+    <property name="virtualPackage:3" value="utils" />
     <node role="staticMethod:3" type="jetbrains.mps.baseLanguage.structure.StaticMethodDeclaration:3" id="5213231752900628583">
       <property name="name:3" value="check" />
       <node role="returnType:3" type="jetbrains.mps.baseLanguage.structure.VoidType:3" id="5213231752900628588" />
@@ -1841,8 +1833,8 @@
     <node role="visibility:3" type="jetbrains.mps.baseLanguage.structure.PublicVisibility:3" id="5213231752900628578" />
   </node>
   <node type="jetbrains.mps.baseLanguage.structure.ClassConcept:3" id="6074874003310499065">
-    <property name="package:3" value="utils" />
     <property name="name:3" value="BiconnectivityChecker" />
+    <property name="virtualPackage:3" value="utils" />
     <node role="constructor:3" type="jetbrains.mps.baseLanguage.structure.ConstructorDeclaration:3" id="6074874003310500076">
       <node role="returnType:3" type="jetbrains.mps.baseLanguage.structure.VoidType:3" id="6074874003310500077" />
       <node role="visibility:3" type="jetbrains.mps.baseLanguage.structure.PrivateVisibility:3" id="6074874003310500080" />
@@ -2390,8 +2382,8 @@
     </node>
   </node>
   <node type="jetbrains.mps.baseLanguage.unitTest.structure.BTestCase" id="6074874003310500653">
-    <property name="package" value="algorithms" />
     <property name="testCaseName" value="BiconnectAugmentation" />
+    <property name="virtualPackage" value="algorithms" />
     <node role="method" type="jetbrains.mps.baseLanguage.structure.InstanceMethodDeclaration:3" id="6074874003310508314">
       <property name="name:3" value="test" />
       <node role="returnType:3" type="jetbrains.mps.baseLanguage.structure.VoidType:3" id="6074874003310508315" />
@@ -2682,8 +2674,8 @@
     </node>
   </node>
   <node type="jetbrains.mps.baseLanguage.unitTest.structure.BTestCase" id="903391227141030928">
-    <property name="package" value="algorithms" />
     <property name="testCaseName" value="WeightedTopologicalNumbering" />
+    <property name="virtualPackage" value="algorithms" />
     <node role="visibility" type="jetbrains.mps.baseLanguage.structure.PublicVisibility:3" id="903391227141030929" />
     <node role="constructor" type="jetbrains.mps.baseLanguage.structure.ConstructorDeclaration:3" id="903391227141030930">
       <node role="returnType:3" type="jetbrains.mps.baseLanguage.structure.VoidType:3" id="903391227141030931" />
@@ -2906,8 +2898,8 @@
     </node>
   </node>
   <node type="jetbrains.mps.baseLanguage.unitTest.structure.BTestCase" id="4644851485137246800">
-    <property name="package" value="algorithms" />
     <property name="testCaseName" value="BiconnectComponent" />
+    <property name="virtualPackage" value="algorithms" />
     <node role="method" type="jetbrains.mps.baseLanguage.structure.InstanceMethodDeclaration:3" id="4644851485137246807">
       <property name="name:3" value="test" />
       <node role="returnType:3" type="jetbrains.mps.baseLanguage.structure.VoidType:3" id="4644851485137246808" />
@@ -3218,8 +3210,8 @@
     </node>
   </node>
   <node type="jetbrains.mps.baseLanguage.unitTest.structure.BTestCase" id="4250605017401931158">
-    <property name="package" value="algorithms" />
     <property name="testCaseName" value="FordBellman" />
+    <property name="virtualPackage" value="algorithms" />
     <node role="visibility" type="jetbrains.mps.baseLanguage.structure.PublicVisibility:3" id="4250605017401931159" />
     <node role="constructor" type="jetbrains.mps.baseLanguage.structure.ConstructorDeclaration:3" id="4250605017401931160">
       <node role="returnType:3" type="jetbrains.mps.baseLanguage.structure.VoidType:3" id="4250605017401931161" />
@@ -3440,8 +3432,8 @@
     </node>
   </node>
   <node type="jetbrains.mps.baseLanguage.structure.ClassConcept:3" id="3935697627027920091">
-    <property name="package:3" value="utils" />
     <property name="name:3" value="FlowChecker" />
+    <property name="virtualPackage:3" value="utils" />
     <node role="staticMethod:3" type="jetbrains.mps.baseLanguage.structure.StaticMethodDeclaration:3" id="3935697627027920209">
       <property name="name:3" value="checkFlow" />
       <node role="returnType:3" type="jetbrains.mps.baseLanguage.structure.VoidType:3" id="3935697627027920210" />
@@ -3911,8 +3903,8 @@
     <node role="visibility:3" type="jetbrains.mps.baseLanguage.structure.PublicVisibility:3" id="3935697627027920092" />
   </node>
   <node type="jetbrains.mps.baseLanguage.unitTest.structure.BTestCase" id="9057893087611421554">
-    <property name="package" value="algorithms" />
     <property name="testCaseName" value="MinCostMaxFlow" />
+    <property name="virtualPackage" value="algorithms" />
     <node role="method" type="jetbrains.mps.baseLanguage.structure.InstanceMethodDeclaration:3" id="9057893087611421610">
       <property name="name:3" value="test" />
       <node role="visibility:3" type="jetbrains.mps.baseLanguage.structure.PrivateVisibility:3" id="9057893087611433059" />
@@ -5212,8 +5204,8 @@
     </node>
   </node>
   <node type="jetbrains.mps.baseLanguage.unitTest.structure.BTestCase" id="228830736476020639">
-    <property name="package" value="algorithms" />
     <property name="testCaseName" value="MinCirculation" />
+    <property name="virtualPackage" value="algorithms" />
     <node role="method" type="jetbrains.mps.baseLanguage.structure.InstanceMethodDeclaration:3" id="228830736476020667">
       <property name="name:3" value="test" />
       <node role="visibility:3" type="jetbrains.mps.baseLanguage.structure.PrivateVisibility:3" id="228830736476020668" />
@@ -6645,7 +6637,7 @@
   </node>
   <node type="jetbrains.mps.baseLanguage.structure.ClassConcept:3" id="5488345258545816643">
     <property name="name:3" value="BiconnectAugmentationStressTest" />
-    <property name="package:3" value="algorithms.stressTests" />
+    <property name="virtualPackage:3" value="algorithms.stressTests" />
     <node role="staticMethod:3" type="jetbrains.mps.baseLanguage.structure.StaticMethodDeclaration:3" id="5488345258545816675">
       <property name="name:3" value="main" />
       <node role="returnType:3" type="jetbrains.mps.baseLanguage.structure.VoidType:3" id="5488345258545816676" />
@@ -6960,8 +6952,8 @@
     </node>
   </node>
   <node type="jetbrains.mps.baseLanguage.unitTest.structure.BTestCase" id="1953828525454981991">
-    <property name="package" value="algorithms" />
     <property name="testCaseName" value="Dijkstra" />
+    <property name="virtualPackage" value="algorithms" />
     <node role="method" type="jetbrains.mps.baseLanguage.structure.InstanceMethodDeclaration:3" id="1953828525454983819">
       <property name="name:3" value="test" />
       <node role="returnType:3" type="jetbrains.mps.baseLanguage.structure.VoidType:3" id="1953828525454983820" />
@@ -8005,8 +7997,8 @@
     </node>
   </node>
   <node type="jetbrains.mps.baseLanguage.unitTest.structure.BTestCase" id="7727845083901343929">
-    <property name="package" value="algorithms" />
     <property name="testCaseName" value="MinCostMaxFlowWithPotentials" />
+    <property name="virtualPackage" value="algorithms" />
     <node role="method" type="jetbrains.mps.baseLanguage.structure.InstanceMethodDeclaration:3" id="7727845083901343950">
       <property name="name:3" value="testFull" />
       <node role="returnType:3" type="jetbrains.mps.baseLanguage.structure.VoidType:3" id="7727845083901343951" />

@@ -16,7 +16,7 @@ import jetbrains.mps.graphLayout.planarGraph.EmbeddedGraph;
 import jetbrains.mps.graphLayout.planarization.ShortestPathEmbeddingFinder;
 import jetbrains.mps.graphLayout.planarization.PQPlanarizationFinder;
 import java.util.List;
-import java.awt.Point;
+import jetbrains.mps.graphLayout.intGeom2D.Point;
 import java.util.ArrayList;
 import jetbrains.mps.graphLayout.planarGraph.Dart;
 import jetbrains.mps.graphLayout.util.Direction2D;

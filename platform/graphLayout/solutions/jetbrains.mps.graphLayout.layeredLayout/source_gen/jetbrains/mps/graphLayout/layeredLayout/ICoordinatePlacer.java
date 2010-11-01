@@ -4,7 +4,7 @@ package jetbrains.mps.graphLayout.layeredLayout;
 
 import java.util.Map;
 import jetbrains.mps.graphLayout.graph.Node;
-import java.awt.Point;
+import jetbrains.mps.graphLayout.intGeom2D.Point;
 import jetbrains.mps.graphLayout.graph.Graph;
 
 public interface ICoordinatePlacer {

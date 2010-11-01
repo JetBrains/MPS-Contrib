@@ -12,11 +12,11 @@ import java.util.List;
 import jetbrains.mps.graphLayout.util.LayoutInfoCopier;
 import java.util.ArrayList;
 import jetbrains.mps.graphLayout.util.Filter;
-import java.awt.Rectangle;
-import java.awt.Dimension;
+import jetbrains.mps.graphLayout.intGeom2D.Rectangle;
+import jetbrains.mps.graphLayout.intGeom2D.Dimension;
 import jetbrains.mps.internal.collections.runtime.SetSequence;
 import jetbrains.mps.graphLayout.graph.Edge;
-import java.awt.Point;
+import jetbrains.mps.graphLayout.intGeom2D.Point;
 
 public abstract class BasicLayouter implements ILayouter {
   private static final int DEFAULT_UNIT_LENGTH = 20;

@@ -406,66 +406,6 @@
     </scopeInfo>
     <unitInfo nodeId="6984255766319277285" fileName="VisibilityRepresentation.java" startLine="19" startPosition="0" endLine="55" endPosition="0" unitName="jetbrains.mps.graphLayout.stOrthogonalLayout.VisibilityRepresentation" />
   </root>
-  <root nodeId="903391227141023011">
-    <nodeInfo nodeId="903391227141023057" conceptFqName="jetbrains.mps.baseLanguage.structure.LocalVariableDeclarationStatement" fileName="TessellationRepresentation.java" startLine="22" startPosition="175" endLine="23" endPosition="41" />
-    <nodeInfo nodeId="903391227141023063" conceptFqName="jetbrains.mps.baseLanguage.structure.LocalVariableDeclarationStatement" fileName="TessellationRepresentation.java" startLine="23" startPosition="41" endLine="24" endPosition="65" />
-    <nodeInfo nodeId="903391227141023069" conceptFqName="jetbrains.mps.baseLanguage.structure.LocalVariableDeclarationStatement" fileName="TessellationRepresentation.java" startLine="24" startPosition="65" endLine="25" endPosition="61" />
-    <nodeInfo nodeId="903391227141023091" conceptFqName="jetbrains.mps.baseLanguage.structure.LocalVariableDeclarationStatement" fileName="TessellationRepresentation.java" startLine="25" startPosition="61" endLine="26" endPosition="69" />
-    <nodeInfo nodeId="903391227141023131" conceptFqName="jetbrains.mps.baseLanguage.structure.LocalVariableDeclarationStatement" fileName="TessellationRepresentation.java" startLine="26" startPosition="69" endLine="27" endPosition="91" />
-    <nodeInfo nodeId="903391227141023180" conceptFqName="jetbrains.mps.baseLanguage.structure.LocalVariableDeclarationStatement" fileName="TessellationRepresentation.java" startLine="28" startPosition="67" endLine="29" endPosition="77" />
-    <nodeInfo nodeId="903391227141023149" conceptFqName="jetbrains.mps.baseLanguage.structure.ExpressionStatement" fileName="TessellationRepresentation.java" startLine="29" startPosition="77" endLine="30" endPosition="115" />
-    <nodeInfo nodeId="903391227141023112" conceptFqName="jetbrains.mps.baseLanguage.structure.LocalVariableDeclarationStatement" fileName="TessellationRepresentation.java" startLine="31" startPosition="5" endLine="32" endPosition="111" />
-    <nodeInfo nodeId="903391227141023119" conceptFqName="jetbrains.mps.baseLanguage.structure.LocalVariableDeclarationStatement" fileName="TessellationRepresentation.java" startLine="32" startPosition="111" endLine="33" endPosition="109" />
-    <nodeInfo nodeId="903391227141023220" conceptFqName="jetbrains.mps.baseLanguage.structure.LocalVariableDeclarationStatement" fileName="TessellationRepresentation.java" startLine="33" startPosition="109" endLine="34" endPosition="79" />
-    <nodeInfo nodeId="903391227141023242" conceptFqName="jetbrains.mps.baseLanguage.structure.ExpressionStatement" fileName="TessellationRepresentation.java" startLine="34" startPosition="79" endLine="35" endPosition="93" />
-    <nodeInfo nodeId="903391227141023257" conceptFqName="jetbrains.mps.baseLanguage.structure.ExpressionStatement" fileName="TessellationRepresentation.java" startLine="35" startPosition="93" endLine="36" endPosition="93" />
-    <nodeInfo nodeId="903391227141023265" conceptFqName="jetbrains.mps.baseLanguage.structure.ExpressionStatement" fileName="TessellationRepresentation.java" startLine="36" startPosition="93" endLine="37" endPosition="101" />
-    <nodeInfo nodeId="903391227141023226" conceptFqName="jetbrains.mps.baseLanguage.structure.LocalVariableDeclarationStatement" fileName="TessellationRepresentation.java" startLine="37" startPosition="101" endLine="38" endPosition="98" />
-    <nodeInfo nodeId="903391227141023305" conceptFqName="jetbrains.mps.baseLanguage.structure.LocalVariableDeclarationStatement" fileName="TessellationRepresentation.java" startLine="39" startPosition="63" endLine="40" endPosition="54" />
-    <nodeInfo nodeId="903391227141023316" conceptFqName="jetbrains.mps.baseLanguage.structure.LocalVariableDeclarationStatement" fileName="TessellationRepresentation.java" startLine="40" startPosition="54" endLine="41" endPosition="56" />
-    <nodeInfo nodeId="903391227141023287" conceptFqName="jetbrains.mps.baseLanguage.structure.LocalVariableDeclarationStatement" fileName="TessellationRepresentation.java" startLine="41" startPosition="56" endLine="42" endPosition="122" />
-    <nodeInfo nodeId="903391227141023340" conceptFqName="jetbrains.mps.baseLanguage.structure.LocalVariableDeclarationStatement" fileName="TessellationRepresentation.java" startLine="42" startPosition="122" endLine="43" endPosition="123" />
-    <nodeInfo nodeId="903391227141023401" conceptFqName="jetbrains.mps.baseLanguage.structure.ExpressionStatement" fileName="TessellationRepresentation.java" startLine="44" startPosition="54" endLine="45" endPosition="72" />
-    <nodeInfo nodeId="903391227141023352" conceptFqName="jetbrains.mps.baseLanguage.structure.LocalVariableDeclarationStatement" fileName="TessellationRepresentation.java" startLine="46" startPosition="7" endLine="47" endPosition="93" />
-    <nodeInfo nodeId="903391227141023368" conceptFqName="jetbrains.mps.baseLanguage.structure.LocalVariableDeclarationStatement" fileName="TessellationRepresentation.java" startLine="47" startPosition="93" endLine="48" endPosition="93" />
-    <nodeInfo nodeId="903391227141023421" conceptFqName="jetbrains.mps.baseLanguage.structure.ExpressionStatement" fileName="TessellationRepresentation.java" startLine="48" startPosition="93" endLine="49" endPosition="107" />
-    <nodeInfo nodeId="903391227141023108" conceptFqName="jetbrains.mps.baseLanguage.structure.ReturnStatement" fileName="TessellationRepresentation.java" startLine="50" startPosition="5" endLine="51" endPosition="16" />
-    <nodeInfo nodeId="903391227141023399" conceptFqName="jetbrains.mps.baseLanguage.structure.IfStatement" fileName="TessellationRepresentation.java" startLine="43" startPosition="123" endLine="46" endPosition="7" />
-    <nodeInfo nodeId="903391227141023139" conceptFqName="jetbrains.mps.baseLanguage.structure.ForeachStatement" fileName="TessellationRepresentation.java" startLine="27" startPosition="91" endLine="31" endPosition="5" />
-    <nodeInfo nodeId="903391227141023280" conceptFqName="jetbrains.mps.baseLanguage.structure.ForeachStatement" fileName="TessellationRepresentation.java" startLine="38" startPosition="98" endLine="50" endPosition="5" />
-    <nodeInfo nodeId="903391227141023017" conceptFqName="jetbrains.mps.baseLanguage.structure.StaticMethodDeclaration" fileName="TessellationRepresentation.java" startLine="21" startPosition="41" endLine="53" endPosition="0" />
-    <scopeInfo nodeId="903391227141023400" fileName="TessellationRepresentation.java" startLine="44" startPosition="54" endLine="45" endPosition="72" />
-    <scopeInfo nodeId="903391227141023142" fileName="TessellationRepresentation.java" startLine="28" startPosition="67" endLine="30" endPosition="115">
-      <varInfo nodeId="903391227141023181" varName="realEdge" />
-    </scopeInfo>
-    <scopeInfo nodeId="903391227141023139" fileName="TessellationRepresentation.java" startLine="27" startPosition="91" endLine="31" endPosition="5" />
-    <scopeInfo nodeId="903391227141023283" fileName="TessellationRepresentation.java" startLine="39" startPosition="63" endLine="49" endPosition="107">
-      <varInfo nodeId="903391227141023306" varName="leftFace" />
-      <varInfo nodeId="903391227141023317" varName="rightFace" />
-      <varInfo nodeId="903391227141023369" varName="maxY" />
-      <varInfo nodeId="903391227141023341" varName="maxX" />
-      <varInfo nodeId="903391227141023288" varName="minX" />
-      <varInfo nodeId="903391227141023353" varName="minY" />
-    </scopeInfo>
-    <scopeInfo nodeId="903391227141023280" fileName="TessellationRepresentation.java" startLine="38" startPosition="98" endLine="50" endPosition="5" />
-    <scopeInfo nodeId="903391227141023020" fileName="TessellationRepresentation.java" startLine="22" startPosition="175" endLine="51" endPosition="16">
-      <varInfo nodeId="903391227141023132" varName="dualConstraints" />
-      <varInfo nodeId="903391227141023058" varName="graph" />
-      <varInfo nodeId="903391227141023092" varName="dualTarget" />
-      <varInfo nodeId="903391227141023227" varName="representation" />
-      <varInfo nodeId="903391227141023221" varName="graphObjects" />
-      <varInfo nodeId="903391227141023064" varName="embeddedGraph" />
-      <varInfo nodeId="903391227141023113" varName="verticalNumbering" />
-      <varInfo nodeId="903391227141023070" varName="dualGraph" />
-      <varInfo nodeId="903391227141023120" varName="horizontalNumbering" />
-    </scopeInfo>
-    <scopeInfo nodeId="903391227141023017" fileName="TessellationRepresentation.java" startLine="21" startPosition="41" endLine="53" endPosition="0">
-      <varInfo nodeId="903391227141023047" varName="verticalEdgeConstraints" />
-      <varInfo nodeId="903391227141023030" varName="planarGraph" />
-      <varInfo nodeId="903391227141023040" varName="horizontalEdgeConstraints" />
-    </scopeInfo>
-    <unitInfo nodeId="903391227141023011" fileName="TessellationRepresentation.java" startLine="21" startPosition="0" endLine="54" endPosition="0" unitName="jetbrains.mps.graphLayout.stOrthogonalLayout.TessellationRepresentation" />
-  </root>
   <root nodeId="903391227141024519">
     <nodeInfo nodeId="903391227141027242" conceptFqName="jetbrains.mps.baseLanguage.structure.FieldDeclaration" fileName="ConstraintsSupporter.java" startLine="20" startPosition="35" endLine="21" endPosition="40" />
     <nodeInfo nodeId="903391227141027246" conceptFqName="jetbrains.mps.baseLanguage.structure.FieldDeclaration" fileName="ConstraintsSupporter.java" startLine="21" startPosition="40" endLine="22" endPosition="32" />

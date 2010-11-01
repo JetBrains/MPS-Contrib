@@ -17,7 +17,6 @@
     <classNode dependClassName="sampleGraphs.SimpleDirectedGraphs" />
   </dependency>
   <dependency className="sampleGraphs.LayoutInfoGenerator" file="LayoutInfoGenerator.java">
-    <classNode dependClassName="java.awt.Dimension" />
     <classNode dependClassName="java.util.HashMap" />
     <classNode dependClassName="java.util.Map" />
     <classNode dependClassName="java.util.Random" />
@@ -25,6 +24,7 @@
     <classNode dependClassName="jetbrains.mps.graphLayout.graph.Graph" />
     <classNode dependClassName="jetbrains.mps.graphLayout.graph.Node" />
     <classNode dependClassName="jetbrains.mps.graphLayout.graphLayout.LayoutInfo" />
+    <classNode dependClassName="jetbrains.mps.graphLayout.intGeom2D.Dimension" />
     <classNode dependClassName="jetbrains.mps.internal.collections.runtime.ListSequence" />
     <classNode dependClassName="jetbrains.mps.internal.collections.runtime.MapSequence" />
     <classNode dependClassName="sampleGraphs.AbstractGraphGenerator" />

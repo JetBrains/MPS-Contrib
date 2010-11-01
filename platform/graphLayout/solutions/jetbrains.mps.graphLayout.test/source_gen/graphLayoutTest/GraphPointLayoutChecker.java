@@ -9,7 +9,7 @@ import jetbrains.mps.internal.collections.runtime.ListSequence;
 import junit.framework.Assert;
 import jetbrains.mps.graphLayout.graph.Edge;
 import java.util.List;
-import java.awt.Point;
+import jetbrains.mps.graphLayout.intGeom2D.Point;
 
 public class GraphPointLayoutChecker {
   public static void checkLayout(GraphPointLayout layout) {

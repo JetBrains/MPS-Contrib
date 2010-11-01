@@ -7,11 +7,11 @@ import jetbrains.mps.graphLayout.graph.Edge;
 import jetbrains.mps.internal.collections.runtime.SetSequence;
 import jetbrains.mps.internal.collections.runtime.MapSequence;
 import java.util.List;
-import java.awt.Point;
+import jetbrains.mps.graphLayout.intGeom2D.Point;
 import jetbrains.mps.internal.collections.runtime.ListSequence;
 import java.util.ArrayList;
 import jetbrains.mps.graphLayout.util.GeomUtil;
-import java.awt.Rectangle;
+import jetbrains.mps.graphLayout.intGeom2D.Rectangle;
 import jetbrains.mps.graphLayout.graph.Node;
 import jetbrains.mps.internal.collections.runtime.Sequence;
 

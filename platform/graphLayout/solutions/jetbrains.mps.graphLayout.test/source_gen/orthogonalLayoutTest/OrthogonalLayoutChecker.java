@@ -10,7 +10,7 @@ import jetbrains.mps.graphLayout.graph.Graph;
 import jetbrains.mps.graphLayout.graph.Edge;
 import jetbrains.mps.internal.collections.runtime.ListSequence;
 import java.util.List;
-import java.awt.Point;
+import jetbrains.mps.graphLayout.intGeom2D.Point;
 import junit.framework.Assert;
 
 public class OrthogonalLayoutChecker {

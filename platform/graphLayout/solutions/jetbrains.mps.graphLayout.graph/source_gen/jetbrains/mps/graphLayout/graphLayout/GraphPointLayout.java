@@ -5,7 +5,7 @@ package jetbrains.mps.graphLayout.graphLayout;
 import jetbrains.mps.graphLayout.graph.Graph;
 import java.util.Map;
 import jetbrains.mps.graphLayout.graph.Node;
-import java.awt.Point;
+import jetbrains.mps.graphLayout.intGeom2D.Point;
 import jetbrains.mps.graphLayout.graph.Edge;
 import java.util.List;
 import jetbrains.mps.internal.collections.runtime.MapSequence;

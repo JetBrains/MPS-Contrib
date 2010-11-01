@@ -8,17 +8,17 @@ import visualization.GraphIO;
 import java.util.Scanner;
 import java.util.Map;
 import jetbrains.mps.graphLayout.graph.Node;
-import java.awt.Dimension;
+import jetbrains.mps.graphLayout.intGeom2D.Dimension;
 import jetbrains.mps.internal.collections.runtime.MapSequence;
 import java.util.HashMap;
 import jetbrains.mps.graphLayout.graph.Edge;
 import jetbrains.mps.internal.collections.runtime.ListSequence;
 import jetbrains.mps.graphLayout.graphLayout.GraphLayout;
 import jetbrains.mps.graphLayout.stOrthogonalLayout.RectOrthogonalLayouter;
-import java.awt.Rectangle;
+import jetbrains.mps.graphLayout.intGeom2D.Rectangle;
 import junit.framework.Assert;
 import java.util.List;
-import java.awt.Point;
+import jetbrains.mps.graphLayout.intGeom2D.Point;
 
 public class AmbiguityLayout_Test extends TestCase {
   public void test_test1() throws Exception {

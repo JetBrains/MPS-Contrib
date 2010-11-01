@@ -1,9 +1,6 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <dependenciesRoot>
   <dependency className="orthogonalLayoutTest.AmbiguityLayout_Test" file="AmbiguityLayout_Test.java">
-    <classNode dependClassName="java.awt.Dimension" />
-    <classNode dependClassName="java.awt.Point" />
-    <classNode dependClassName="java.awt.Rectangle" />
     <classNode dependClassName="java.lang.Exception" />
     <classNode dependClassName="java.lang.String" />
     <classNode dependClassName="java.util.HashMap" />
@@ -14,6 +11,9 @@
     <classNode dependClassName="jetbrains.mps.graphLayout.graph.Graph" />
     <classNode dependClassName="jetbrains.mps.graphLayout.graph.Node" />
     <classNode dependClassName="jetbrains.mps.graphLayout.graphLayout.GraphLayout" />
+    <classNode dependClassName="jetbrains.mps.graphLayout.intGeom2D.Dimension" />
+    <classNode dependClassName="jetbrains.mps.graphLayout.intGeom2D.Point" />
+    <classNode dependClassName="jetbrains.mps.graphLayout.intGeom2D.Rectangle" />
     <classNode dependClassName="jetbrains.mps.graphLayout.stOrthogonalLayout.RectOrthogonalLayouter" />
     <classNode dependClassName="jetbrains.mps.internal.collections.runtime.ListSequence" />
     <classNode dependClassName="jetbrains.mps.internal.collections.runtime.MapSequence" />
@@ -22,12 +22,12 @@
     <classNode extendsClassName="junit.framework.TestCase" />
   </dependency>
   <dependency className="orthogonalLayoutTest.ConstraintsChecker" file="ConstraintsChecker.java">
-    <classNode dependClassName="java.awt.Dimension" />
-    <classNode dependClassName="java.awt.Rectangle" />
     <classNode dependClassName="java.lang.Object" />
     <classNode dependClassName="java.util.Map" />
     <classNode dependClassName="jetbrains.mps.graphLayout.graph.Graph" />
     <classNode dependClassName="jetbrains.mps.graphLayout.graph.Node" />
+    <classNode dependClassName="jetbrains.mps.graphLayout.intGeom2D.Dimension" />
+    <classNode dependClassName="jetbrains.mps.graphLayout.intGeom2D.Rectangle" />
     <classNode dependClassName="jetbrains.mps.internal.collections.runtime.ListSequence" />
     <classNode dependClassName="jetbrains.mps.internal.collections.runtime.MapSequence" />
     <classNode dependClassName="junit.framework.Assert" />
@@ -56,7 +56,6 @@
     <classNode dependClassName="visualization.GraphIO" />
   </dependency>
   <dependency className="orthogonalLayoutTest.ConstraintsGraph_Test" file="ConstraintsGraph_Test.java">
-    <classNode dependClassName="java.awt.Dimension" />
     <classNode dependClassName="java.lang.Exception" />
     <classNode dependClassName="java.lang.Integer" />
     <classNode dependClassName="java.lang.System" />
@@ -70,6 +69,7 @@
     <classNode dependClassName="jetbrains.mps.graphLayout.flowOrthogonalLayout.QuasiRepresentationModifier" />
     <classNode dependClassName="jetbrains.mps.graphLayout.graph.Graph" />
     <classNode dependClassName="jetbrains.mps.graphLayout.graph.Node" />
+    <classNode dependClassName="jetbrains.mps.graphLayout.intGeom2D.Dimension" />
     <classNode dependClassName="jetbrains.mps.graphLayout.planarGraph.Dart" />
     <classNode dependClassName="jetbrains.mps.graphLayout.planarGraph.EmbeddedGraph" />
     <classNode dependClassName="jetbrains.mps.graphLayout.planarization.PQPlanarizationFinder" />
@@ -81,8 +81,6 @@
     <classNode extendsClassName="junit.framework.TestCase" />
   </dependency>
   <dependency className="orthogonalLayoutTest.ConstraintsSupporter_Test" file="ConstraintsSupporter_Test.java">
-    <classNode dependClassName="java.awt.Dimension" />
-    <classNode dependClassName="java.awt.Rectangle" />
     <classNode dependClassName="java.lang.Exception" />
     <classNode dependClassName="java.lang.Object" />
     <classNode dependClassName="java.lang.String" />
@@ -94,6 +92,8 @@
     <classNode dependClassName="jetbrains.mps.graphLayout.graph.Edge" />
     <classNode dependClassName="jetbrains.mps.graphLayout.graph.Graph" />
     <classNode dependClassName="jetbrains.mps.graphLayout.graph.Node" />
+    <classNode dependClassName="jetbrains.mps.graphLayout.intGeom2D.Dimension" />
+    <classNode dependClassName="jetbrains.mps.graphLayout.intGeom2D.Rectangle" />
     <classNode dependClassName="jetbrains.mps.graphLayout.planarGraph.EmbeddedGraph" />
     <classNode dependClassName="jetbrains.mps.graphLayout.planarGraph.STPlanarGraph" />
     <classNode dependClassName="jetbrains.mps.graphLayout.planarization.TreeEmbeddingFinder" />
@@ -106,7 +106,6 @@
     <classNode extendsClassName="junit.framework.TestCase" />
   </dependency>
   <dependency className="orthogonalLayoutTest.CurrentOrthogonalFlowLayouterStressTest" file="CurrentOrthogonalFlowLayouterStressTest.java">
-    <classNode dependClassName="java.awt.Dimension" />
     <classNode dependClassName="java.io.PrintWriter" />
     <classNode dependClassName="java.lang.Exception" />
     <classNode dependClassName="java.lang.Integer" />
@@ -120,6 +119,7 @@
     <classNode dependClassName="jetbrains.mps.graphLayout.graph.Node" />
     <classNode dependClassName="jetbrains.mps.graphLayout.graphLayout.GraphLayout" />
     <classNode dependClassName="jetbrains.mps.graphLayout.graphLayout.LayoutInfo" />
+    <classNode dependClassName="jetbrains.mps.graphLayout.intGeom2D.Dimension" />
     <classNode dependClassName="orthogonalLayoutTest.OrthogonalLayoutChecker" />
     <classNode dependClassName="sampleGraphs.LayoutInfoGenerator" />
     <classNode dependClassName="sampleGraphs.SimpleConnectedGraphGenerator" />
@@ -165,7 +165,6 @@
     <classNode dependClassName="orthogonalLayoutTest.CurrentOrthogonalFlowLayouterStressTest" />
   </dependency>
   <dependency className="orthogonalLayoutTest.OrthogonalFlowLabelProcessing_Test" file="OrthogonalFlowLabelProcessing_Test.java">
-    <classNode dependClassName="java.awt.Dimension" />
     <classNode dependClassName="java.lang.Exception" />
     <classNode dependClassName="java.lang.System" />
     <classNode dependClassName="java.util.HashMap" />
@@ -175,6 +174,7 @@
     <classNode dependClassName="jetbrains.mps.graphLayout.graph.Graph" />
     <classNode dependClassName="jetbrains.mps.graphLayout.graph.Node" />
     <classNode dependClassName="jetbrains.mps.graphLayout.graphLayout.GraphLayout" />
+    <classNode dependClassName="jetbrains.mps.graphLayout.intGeom2D.Dimension" />
     <classNode dependClassName="jetbrains.mps.internal.collections.runtime.ListSequence" />
     <classNode dependClassName="jetbrains.mps.internal.collections.runtime.MapSequence" />
     <classNode dependClassName="orthogonalLayoutTest.OrthogonalLayoutChecker" />
@@ -183,7 +183,6 @@
     <classNode extendsClassName="junit.framework.TestCase" />
   </dependency>
   <dependency className="orthogonalLayoutTest.OrthogonalFlowLayouterConstraintsStressTest" file="OrthogonalFlowLayouterConstraintsStressTest.java">
-    <classNode dependClassName="java.awt.Dimension" />
     <classNode dependClassName="java.io.PrintWriter" />
     <classNode dependClassName="java.lang.Exception" />
     <classNode dependClassName="java.lang.Integer" />
@@ -195,6 +194,7 @@
     <classNode dependClassName="jetbrains.mps.graphLayout.graph.Graph" />
     <classNode dependClassName="jetbrains.mps.graphLayout.graph.Node" />
     <classNode dependClassName="jetbrains.mps.graphLayout.graphLayout.GraphLayout" />
+    <classNode dependClassName="jetbrains.mps.graphLayout.intGeom2D.Dimension" />
     <classNode dependClassName="jetbrains.mps.internal.collections.runtime.ListSequence" />
     <classNode dependClassName="jetbrains.mps.internal.collections.runtime.MapSequence" />
     <classNode dependClassName="orthogonalLayoutTest.OrthogonalLayoutChecker" />
@@ -202,7 +202,6 @@
     <classNode dependClassName="visualization.GraphIO" />
   </dependency>
   <dependency className="orthogonalLayoutTest.OrthogonalFlowLayouterConstraints_Test" file="OrthogonalFlowLayouterConstraints_Test.java">
-    <classNode dependClassName="java.awt.Dimension" />
     <classNode dependClassName="java.lang.Exception" />
     <classNode dependClassName="java.lang.System" />
     <classNode dependClassName="java.util.HashMap" />
@@ -212,6 +211,7 @@
     <classNode dependClassName="jetbrains.mps.graphLayout.graph.Graph" />
     <classNode dependClassName="jetbrains.mps.graphLayout.graph.Node" />
     <classNode dependClassName="jetbrains.mps.graphLayout.graphLayout.GraphLayout" />
+    <classNode dependClassName="jetbrains.mps.graphLayout.intGeom2D.Dimension" />
     <classNode dependClassName="jetbrains.mps.internal.collections.runtime.ListSequence" />
     <classNode dependClassName="jetbrains.mps.internal.collections.runtime.MapSequence" />
     <classNode dependClassName="orthogonalLayoutTest.OrthogonalLayoutChecker" />
@@ -232,12 +232,12 @@
   <dependency className="orthogonalLayoutTest.OrthogonalLayoutChecker" file="OrthogonalLayoutChecker.java">
     <classNode dependClassName="graphLayoutTest.GraphLayoutChecker" />
     <classNode dependClassName="graphLayoutTest.GraphPointLayoutChecker" />
-    <classNode dependClassName="java.awt.Point" />
     <classNode dependClassName="java.util.List" />
     <classNode dependClassName="jetbrains.mps.graphLayout.graph.Edge" />
     <classNode dependClassName="jetbrains.mps.graphLayout.graph.Graph" />
     <classNode dependClassName="jetbrains.mps.graphLayout.graphLayout.GraphLayout" />
     <classNode dependClassName="jetbrains.mps.graphLayout.graphLayout.GraphPointLayout" />
+    <classNode dependClassName="jetbrains.mps.graphLayout.intGeom2D.Point" />
     <classNode dependClassName="jetbrains.mps.internal.collections.runtime.ListSequence" />
     <classNode dependClassName="junit.framework.Assert" />
   </dependency>
@@ -359,7 +359,6 @@
     <classNode extendsClassName="junit.framework.TestCase" />
   </dependency>
   <dependency className="orthogonalLayoutTest.RectOrthogonalFlowLayouter_Test" file="RectOrthogonalFlowLayouter_Test.java">
-    <classNode dependClassName="java.awt.Dimension" />
     <classNode dependClassName="java.lang.Exception" />
     <classNode dependClassName="java.lang.String" />
     <classNode dependClassName="java.lang.System" />
@@ -370,13 +369,13 @@
     <classNode dependClassName="jetbrains.mps.graphLayout.graph.Graph" />
     <classNode dependClassName="jetbrains.mps.graphLayout.graph.Node" />
     <classNode dependClassName="jetbrains.mps.graphLayout.graphLayout.GraphLayout" />
+    <classNode dependClassName="jetbrains.mps.graphLayout.intGeom2D.Dimension" />
     <classNode dependClassName="jetbrains.mps.internal.collections.runtime.ListSequence" />
     <classNode dependClassName="jetbrains.mps.internal.collections.runtime.MapSequence" />
     <classNode dependClassName="visualization.GraphIO" />
     <classNode extendsClassName="junit.framework.TestCase" />
   </dependency>
   <dependency className="orthogonalLayoutTest.RectOrthogonalLayouterStressTest" file="RectOrthogonalLayouterStressTest.java">
-    <classNode dependClassName="java.awt.Dimension" />
     <classNode dependClassName="java.io.PrintWriter" />
     <classNode dependClassName="java.lang.Exception" />
     <classNode dependClassName="java.lang.Integer" />
@@ -387,6 +386,7 @@
     <classNode dependClassName="jetbrains.mps.graphLayout.graph.Edge" />
     <classNode dependClassName="jetbrains.mps.graphLayout.graph.Graph" />
     <classNode dependClassName="jetbrains.mps.graphLayout.graph.Node" />
+    <classNode dependClassName="jetbrains.mps.graphLayout.intGeom2D.Dimension" />
     <classNode dependClassName="jetbrains.mps.graphLayout.stOrthogonalLayout.RectOrthogonalLayouter" />
     <classNode dependClassName="jetbrains.mps.internal.collections.runtime.ListSequence" />
     <classNode dependClassName="jetbrains.mps.internal.collections.runtime.MapSequence" />
@@ -394,7 +394,6 @@
     <classNode dependClassName="visualization.GraphIO" />
   </dependency>
   <dependency className="orthogonalLayoutTest.RectOrthogonalLayouter_Test" file="RectOrthogonalLayouter_Test.java">
-    <classNode dependClassName="java.awt.Dimension" />
     <classNode dependClassName="java.lang.Exception" />
     <classNode dependClassName="java.lang.String" />
     <classNode dependClassName="java.util.HashMap" />
@@ -404,6 +403,7 @@
     <classNode dependClassName="jetbrains.mps.graphLayout.graph.Graph" />
     <classNode dependClassName="jetbrains.mps.graphLayout.graph.Node" />
     <classNode dependClassName="jetbrains.mps.graphLayout.graphLayout.GraphLayout" />
+    <classNode dependClassName="jetbrains.mps.graphLayout.intGeom2D.Dimension" />
     <classNode dependClassName="jetbrains.mps.graphLayout.stOrthogonalLayout.RectOrthogonalLayouter" />
     <classNode dependClassName="jetbrains.mps.internal.collections.runtime.ListSequence" />
     <classNode dependClassName="jetbrains.mps.internal.collections.runtime.MapSequence" />
@@ -411,7 +411,6 @@
     <classNode extendsClassName="junit.framework.TestCase" />
   </dependency>
   <dependency className="orthogonalLayoutTest.VisibilityRepresentation_Test" file="VisibilityRepresentation_Test.java">
-    <classNode dependClassName="java.awt.Rectangle" />
     <classNode dependClassName="java.lang.Exception" />
     <classNode dependClassName="java.lang.Object" />
     <classNode dependClassName="java.lang.String" />
@@ -422,6 +421,7 @@
     <classNode dependClassName="jetbrains.mps.graphLayout.graph.Edge" />
     <classNode dependClassName="jetbrains.mps.graphLayout.graph.Graph" />
     <classNode dependClassName="jetbrains.mps.graphLayout.graph.Node" />
+    <classNode dependClassName="jetbrains.mps.graphLayout.intGeom2D.Rectangle" />
     <classNode dependClassName="jetbrains.mps.graphLayout.planarGraph.EmbeddedGraph" />
     <classNode dependClassName="jetbrains.mps.graphLayout.planarGraph.STPlanarGraph" />
     <classNode dependClassName="jetbrains.mps.graphLayout.planarization.BiconnectedInitialEmbeddingFinder" />

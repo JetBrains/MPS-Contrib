@@ -6,13 +6,8 @@
   <language namespace="83888646-71ce-4f1c-9c53-c54016f6ad4f(jetbrains.mps.baseLanguage.collections)" />
   <language namespace="fd392034-7849-419d-9071-12563d152375(jetbrains.mps.baseLanguage.closures)" />
   <languageAspect modelUID="r:00000000-0000-4000-0000-011c895902ca(jetbrains.mps.baseLanguage.structure)" version="3" />
-  <languageAspect modelUID="r:00000000-0000-4000-0000-011c895902c1(jetbrains.mps.baseLanguage.constraints)" version="83" />
-  <languageAspect modelUID="r:00000000-0000-4000-0000-011c895902db(jetbrains.mps.baseLanguage.blTypes.constraints)" version="0" />
   <languageAspect modelUID="r:00000000-0000-4000-0000-011c89590288(jetbrains.mps.lang.core.structure)" version="0" />
-  <languageAspect modelUID="r:00000000-0000-4000-0000-011c89590283(jetbrains.mps.lang.core.constraints)" version="2" />
-  <languageAspect modelUID="r:00000000-0000-4000-0000-011c89590328(jetbrains.mps.baseLanguage.collections.constraints)" version="6" />
   <languageAspect modelUID="r:00000000-0000-4000-0000-011c8959032e(jetbrains.mps.baseLanguage.collections.structure)" version="7" />
-  <languageAspect modelUID="r:00000000-0000-4000-0000-011c89590334(jetbrains.mps.baseLanguage.closures.constraints)" version="2" />
   <languageAspect modelUID="r:00000000-0000-4000-0000-011c89590338(jetbrains.mps.baseLanguage.closures.structure)" version="3" />
   <maxImportIndex value="6" />
   <import index="1" modelUID="r:d228b8c9-d2b1-4686-9904-e3c49a346bc6(jetbrains.mps.graphLayout.graph)" version="-1" />
@@ -23,7 +18,7 @@
   <node type="jetbrains.mps.baseLanguage.structure.ClassConcept:3" id="4660430665333277271">
     <property name="name:3" value="Dfs" />
     <property name="abstractClass:3" value="true" />
-    <property name="package:3" value="dfs" />
+    <property name="virtualPackage:3" value="dfs" />
     <node role="staticField:3" type="jetbrains.mps.baseLanguage.structure.StaticFieldDeclaration:3" id="4519409331094618576">
       <property name="name:3" value="BEFORE" />
       <node role="visibility:3" type="jetbrains.mps.baseLanguage.structure.PublicVisibility:3" id="4519409331094618600" />
@@ -1210,7 +1205,7 @@
   </node>
   <node type="jetbrains.mps.baseLanguage.structure.ClassConcept:3" id="4179389957059009260">
     <property name="name:3" value="ShortestPath" />
-    <property name="package:3" value="ShortestPaths" />
+    <property name="virtualPackage:3" value="ShortestPaths" />
     <node role="staticField:3" type="jetbrains.mps.baseLanguage.structure.StaticFieldDeclaration:3" id="4250605017401923948">
       <property name="isFinal:3" value="true" />
       <property name="name:3" value="INF" />
@@ -4670,7 +4665,7 @@
   </node>
   <node type="jetbrains.mps.baseLanguage.structure.ClassConcept:3" id="3720762119843889432">
     <property name="name:3" value="BiconnectedComponent" />
-    <property name="package:3" value="biconnectedComponents" />
+    <property name="virtualPackage:3" value="biconnectedComponents" />
     <node role="method:3" type="jetbrains.mps.baseLanguage.structure.InstanceMethodDeclaration:3" id="4644851485137244748">
       <property name="name:3" value="addComponent" />
       <node role="returnType:3" type="jetbrains.mps.baseLanguage.structure.VoidType:3" id="4644851485137244749" />
@@ -5976,7 +5971,7 @@
   </node>
   <node type="jetbrains.mps.baseLanguage.structure.ClassConcept:3" id="3720762119843889438">
     <property name="name:3" value="BiconnectedComponents" />
-    <property name="package:3" value="biconnectedComponents" />
+    <property name="virtualPackage:3" value="biconnectedComponents" />
     <node role="method:3" type="jetbrains.mps.baseLanguage.structure.InstanceMethodDeclaration:3" id="4644851485137240395">
       <property name="name:3" value="doDfs" />
       <node role="returnType:3" type="jetbrains.mps.baseLanguage.structure.VoidType:3" id="4644851485137240396" />
@@ -6562,7 +6557,7 @@
   </node>
   <node type="jetbrains.mps.baseLanguage.structure.ClassConcept:3" id="4250605017401923979">
     <property name="name:3" value="FordBellman" />
-    <property name="package:3" value="ShortestPaths" />
+    <property name="virtualPackage:3" value="ShortestPaths" />
     <node role="staticMethod:3" type="jetbrains.mps.baseLanguage.structure.StaticMethodDeclaration:3" id="7953585273259917405">
       <property name="name:3" value="getNegativeCycle" />
       <node role="returnType:3" type="jetbrains.mps.baseLanguage.collections.structure.ListType:7" id="7953585273259917409">
@@ -7856,7 +7851,7 @@
   </node>
   <node type="jetbrains.mps.baseLanguage.structure.ClassConcept:3" id="7144400041334857035">
     <property name="name:3" value="MinCostMaxFlow" />
-    <property name="package:3" value="flow" />
+    <property name="virtualPackage:3" value="flow" />
     <node role="staticField:3" type="jetbrains.mps.baseLanguage.structure.StaticFieldDeclaration:3" id="5488345258545835386">
       <property name="name:3" value="SHOW_TIME" />
       <node role="visibility:3" type="jetbrains.mps.baseLanguage.structure.PrivateVisibility:3" id="5488345258545835387" />
@@ -8656,7 +8651,7 @@
   </node>
   <node type="jetbrains.mps.baseLanguage.structure.ClassConcept:3" id="228830736476010494">
     <property name="name:3" value="MinCostCirculation" />
-    <property name="package:3" value="flow" />
+    <property name="virtualPackage:3" value="flow" />
     <node role="staticField:3" type="jetbrains.mps.baseLanguage.structure.StaticFieldDeclaration:3" id="1953828525455088164">
       <property name="name:3" value="TEST_MODE" />
       <node role="visibility:3" type="jetbrains.mps.baseLanguage.structure.PrivateVisibility:3" id="1953828525455088165" />
@@ -9416,7 +9411,7 @@
   </node>
   <node type="jetbrains.mps.baseLanguage.structure.ClassConcept:3" id="7953585273259926130">
     <property name="name:3" value="MinCostMaxFlowCycleCancelling" />
-    <property name="package:3" value="flow" />
+    <property name="virtualPackage:3" value="flow" />
     <node role="staticField:3" type="jetbrains.mps.baseLanguage.structure.StaticFieldDeclaration:3" id="7953585273259926131">
       <property name="name:3" value="SHOW_TIME" />
       <node role="visibility:3" type="jetbrains.mps.baseLanguage.structure.PrivateVisibility:3" id="7953585273259926132" />
@@ -10218,8 +10213,8 @@
     <node role="visibility:3" type="jetbrains.mps.baseLanguage.structure.PublicVisibility:3" id="7953585273259926448" />
   </node>
   <node type="jetbrains.mps.baseLanguage.structure.ClassConcept:3" id="7953585273259926451">
-    <property name="package:3" value="flow" />
     <property name="name:3" value="MaxFlow" />
+    <property name="virtualPackage:3" value="flow" />
     <node role="staticMethod:3" type="jetbrains.mps.baseLanguage.structure.StaticMethodDeclaration:3" id="7953585273259926478">
       <property name="name:3" value="getFlow" />
       <node role="returnType:3" type="jetbrains.mps.baseLanguage.collections.structure.MapType:7" id="7953585273259926479">
@@ -10836,8 +10831,8 @@
     <node role="visibility:3" type="jetbrains.mps.baseLanguage.structure.PublicVisibility:3" id="7953585273259926452" />
   </node>
   <node type="jetbrains.mps.baseLanguage.structure.ClassConcept:3" id="1953828525454955931">
-    <property name="package:3" value="ShortestPaths" />
     <property name="name:3" value="Dijkstra" />
+    <property name="virtualPackage:3" value="ShortestPaths" />
     <node role="staticInnerClassifiers:3" type="jetbrains.mps.baseLanguage.structure.ClassConcept:3" id="1953828525454980113">
       <property name="nonStatic:3" value="true" />
       <property name="name:3" value="NodeComparator" />
@@ -11662,7 +11657,7 @@
   </node>
   <node type="jetbrains.mps.baseLanguage.structure.ClassConcept:3" id="1953828525455084197">
     <property name="name:3" value="MinCostMaxFlowWithPotentials" />
-    <property name="package:3" value="flow" />
+    <property name="virtualPackage:3" value="flow" />
     <node role="staticField:3" type="jetbrains.mps.baseLanguage.structure.StaticFieldDeclaration:3" id="1953828525455084198">
       <property name="name:3" value="SHOW_TIME" />
       <node role="visibility:3" type="jetbrains.mps.baseLanguage.structure.PrivateVisibility:3" id="1953828525455084199" />

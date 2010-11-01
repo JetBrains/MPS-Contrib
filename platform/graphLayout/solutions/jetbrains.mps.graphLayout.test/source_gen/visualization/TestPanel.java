@@ -40,7 +40,7 @@ import javax.swing.SwingUtilities;
 import javax.swing.JLabel;
 import java.awt.Graphics;
 import java.util.Map;
-import java.awt.Point;
+import jetbrains.mps.graphLayout.intGeom2D.Point;
 import jetbrains.mps.internal.collections.runtime.SetSequence;
 import jetbrains.mps.internal.collections.runtime.MapSequence;
 import java.awt.Color;

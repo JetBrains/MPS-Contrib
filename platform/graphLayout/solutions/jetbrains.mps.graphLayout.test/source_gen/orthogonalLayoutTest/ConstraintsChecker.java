@@ -4,9 +4,9 @@ package orthogonalLayoutTest;
 
 import jetbrains.mps.graphLayout.graph.Graph;
 import java.util.Map;
-import java.awt.Rectangle;
+import jetbrains.mps.graphLayout.intGeom2D.Rectangle;
 import jetbrains.mps.graphLayout.graph.Node;
-import java.awt.Dimension;
+import jetbrains.mps.graphLayout.intGeom2D.Dimension;
 import jetbrains.mps.internal.collections.runtime.ListSequence;
 import junit.framework.Assert;
 import jetbrains.mps.internal.collections.runtime.MapSequence;

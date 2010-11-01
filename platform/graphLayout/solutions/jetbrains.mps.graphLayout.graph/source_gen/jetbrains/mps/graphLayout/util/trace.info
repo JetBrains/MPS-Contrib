@@ -350,7 +350,7 @@
     <nodeInfo nodeId="5368829933099812203" conceptFqName="jetbrains.mps.baseLanguage.structure.ReturnStatement" fileName="GeomUtil.java" startLine="172" startPosition="29" endLine="173" endPosition="25" />
     <nodeInfo nodeId="5368829933099812209" conceptFqName="jetbrains.mps.baseLanguage.structure.ReturnStatement" fileName="GeomUtil.java" startLine="174" startPosition="12" endLine="175" endPosition="24" />
     <nodeInfo nodeId="8527875266531954523" conceptFqName="jetbrains.mps.baseLanguage.structure.LocalVariableDeclarationStatement" fileName="GeomUtil.java" startLine="179" startPosition="74" endLine="180" endPosition="22" />
-    <nodeInfo nodeId="8527875266531954599" conceptFqName="jetbrains.mps.baseLanguage.structure.ReturnStatement" fileName="GeomUtil.java" startLine="182" startPosition="78" endLine="183" endPosition="20" />
+    <nodeInfo nodeId="8527875266531954599" conceptFqName="jetbrains.mps.baseLanguage.structure.ReturnStatement" fileName="GeomUtil.java" startLine="182" startPosition="59" endLine="183" endPosition="20" />
     <nodeInfo nodeId="8527875266531954552" conceptFqName="jetbrains.mps.baseLanguage.structure.ExpressionStatement" fileName="GeomUtil.java" startLine="184" startPosition="7" endLine="185" endPosition="17" />
     <nodeInfo nodeId="8527875266531954603" conceptFqName="jetbrains.mps.baseLanguage.structure.ReturnStatement" fileName="GeomUtil.java" startLine="186" startPosition="5" endLine="187" endPosition="17" />
     <nodeInfo nodeId="5368829933099812182" conceptFqName="jetbrains.mps.baseLanguage.structure.BlockStatement" fileName="GeomUtil.java" startLine="166" startPosition="10" endLine="168" endPosition="5" />
@@ -422,7 +422,7 @@
     <scopeInfo nodeId="5368829933099812183" fileName="GeomUtil.java" startLine="166" startPosition="12" endLine="167" endPosition="25" />
     <scopeInfo nodeId="5368829933099812202" fileName="GeomUtil.java" startLine="172" startPosition="29" endLine="173" endPosition="25" />
     <scopeInfo nodeId="5368829933099812208" fileName="GeomUtil.java" startLine="174" startPosition="12" endLine="175" endPosition="24" />
-    <scopeInfo nodeId="8527875266531954532" fileName="GeomUtil.java" startLine="182" startPosition="78" endLine="183" endPosition="20" />
+    <scopeInfo nodeId="8527875266531954532" fileName="GeomUtil.java" startLine="182" startPosition="59" endLine="183" endPosition="20" />
     <scopeInfo nodeId="272112265222926939" fileName="GeomUtil.java" startLine="85" startPosition="16" endLine="88" endPosition="9" />
     <scopeInfo nodeId="272112265222926972" fileName="GeomUtil.java" startLine="89" startPosition="14" endLine="92" endPosition="9" />
     <scopeInfo nodeId="1265453300920941777" fileName="GeomUtil.java" startLine="120" startPosition="66" endLine="123" endPosition="43">

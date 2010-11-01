@@ -12,11 +12,11 @@
     <classNode extendsClassName="jetbrains.mps.graphLayout.layeredLayout.IOneLayerSorter" />
   </dependency>
   <dependency className="jetbrains.mps.graphLayout.layeredLayout.AsIsCoordinatePlacer" file="AsIsCoordinatePlacer.java">
-    <classNode dependClassName="java.awt.Point" />
     <classNode dependClassName="java.util.List" />
     <classNode dependClassName="java.util.Map" />
     <classNode dependClassName="jetbrains.mps.graphLayout.graph.Graph" />
     <classNode dependClassName="jetbrains.mps.graphLayout.graph.Node" />
+    <classNode dependClassName="jetbrains.mps.graphLayout.intGeom2D.Point" />
     <classNode dependClassName="jetbrains.mps.graphLayout.layeredLayout.NodeLayeredOrder" />
     <classNode dependClassName="jetbrains.mps.graphLayout.util.NodeMap" />
     <classNode dependClassName="jetbrains.mps.internal.collections.runtime.ListSequence" />
@@ -24,7 +24,6 @@
     <classNode extendsClassName="jetbrains.mps.graphLayout.layeredLayout.ICoordinatePlacer" />
   </dependency>
   <dependency className="jetbrains.mps.graphLayout.layeredLayout.BKCoordinatePlacer" file="BKCoordinatePlacer.java">
-    <classNode dependClassName="java.awt.Point" />
     <classNode dependClassName="java.lang.Comparable" />
     <classNode dependClassName="java.lang.Integer" />
     <classNode dependClassName="java.lang.Math" />
@@ -41,6 +40,7 @@
     <classNode dependClassName="jetbrains.mps.graphLayout.graph.Edge" />
     <classNode dependClassName="jetbrains.mps.graphLayout.graph.Graph" />
     <classNode dependClassName="jetbrains.mps.graphLayout.graph.Node" />
+    <classNode dependClassName="jetbrains.mps.graphLayout.intGeom2D.Point" />
     <classNode dependClassName="jetbrains.mps.graphLayout.layeredLayout.BlockGraphProcessor" />
     <classNode dependClassName="jetbrains.mps.graphLayout.layeredLayout.NodeLayeredOrder" />
     <classNode dependClassName="jetbrains.mps.graphLayout.util.NodeMap" />
@@ -91,10 +91,10 @@
     <classNode extendsClassName="jetbrains.mps.graphLayout.layeredLayout.INodeSorter" />
   </dependency>
   <dependency className="jetbrains.mps.graphLayout.layeredLayout.ICoordinatePlacer" file="ICoordinatePlacer.java">
-    <classNode dependClassName="java.awt.Point" />
     <classNode dependClassName="java.util.Map" />
     <classNode dependClassName="jetbrains.mps.graphLayout.graph.Graph" />
     <classNode dependClassName="jetbrains.mps.graphLayout.graph.Node" />
+    <classNode dependClassName="jetbrains.mps.graphLayout.intGeom2D.Point" />
     <classNode dependClassName="jetbrains.mps.graphLayout.layeredLayout.NodeLayeredOrder" />
   </dependency>
   <dependency className="jetbrains.mps.graphLayout.layeredLayout.IEdgeReverter" file="IEdgeReverter.java">
@@ -131,7 +131,6 @@
     <classNode extendsClassName="jetbrains.mps.graphLayout.layeredLayout.INodeSorter" />
   </dependency>
   <dependency className="jetbrains.mps.graphLayout.layeredLayout.LayeredLayouter" file="LayeredLayouter.java">
-    <classNode dependClassName="java.awt.Point" />
     <classNode dependClassName="java.lang.Integer" />
     <classNode dependClassName="java.util.ArrayList" />
     <classNode dependClassName="java.util.HashMap" />
@@ -142,6 +141,7 @@
     <classNode dependClassName="jetbrains.mps.graphLayout.graph.Graph" />
     <classNode dependClassName="jetbrains.mps.graphLayout.graph.Node" />
     <classNode dependClassName="jetbrains.mps.graphLayout.graphLayout.GraphPointLayout" />
+    <classNode dependClassName="jetbrains.mps.graphLayout.intGeom2D.Point" />
     <classNode dependClassName="jetbrains.mps.graphLayout.layeredLayout.ICoordinatePlacer" />
     <classNode dependClassName="jetbrains.mps.graphLayout.layeredLayout.IEdgeReverter" />
     <classNode dependClassName="jetbrains.mps.graphLayout.layeredLayout.ILayerer" />

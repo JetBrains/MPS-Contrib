@@ -7,6 +7,7 @@
   <dependencies>
     <dependency reexport="false">7fd530a6-5071-4af8-8b0f-7cfb35109601(jetbrains.mps.graphLayout.planarization)</dependency>
     <dependency reexport="false">8b851d7a-07be-4a1c-b815-1fb38e1fa4cc(jetbrains.mps.graphLayout.graph)</dependency>
+    <dependency reexport="false">dd0b904b-7c6b-48aa-8557-baf05cd83f66(jetbrains.mps.graphLayout.geom)</dependency>
   </dependencies>
 </solution>
 

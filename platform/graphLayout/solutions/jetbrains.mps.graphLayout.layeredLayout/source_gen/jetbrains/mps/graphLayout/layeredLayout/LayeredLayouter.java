@@ -10,7 +10,7 @@ import jetbrains.mps.graphLayout.graph.Edge;
 import java.util.Map;
 import jetbrains.mps.graphLayout.graph.Node;
 import java.util.List;
-import java.awt.Point;
+import jetbrains.mps.graphLayout.intGeom2D.Point;
 import jetbrains.mps.internal.collections.runtime.SetSequence;
 import jetbrains.mps.internal.collections.runtime.MapSequence;
 import jetbrains.mps.internal.collections.runtime.ListSequence;
@@ -71,8 +71,8 @@ public class LayeredLayouter implements IPointLayouter {
     for (int index = 0; index < numOfRealNodes; index++) {
       Node node = graph.getNode(index);
       for (Edge edge : ListSequence.fromList(node.getOutEdges())) {
-        int sourceLayer = layers.get(edge.getSource());
-        int targetLayer = layers.get(edge.getTarget());
+        int sourceLayer = MapSequence.fromMap(layers).get(edge.getSource());
+        int targetLayer = MapSequence.fromMap(layers).get(edge.getTarget());
         if (targetLayer > sourceLayer + 1) {
           MapSequence.fromMap(substituteMap).put(edge, ListSequence.fromList(new ArrayList<Edge>()));
           Node cur = edge.getSource();

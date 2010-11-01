@@ -17,11 +17,11 @@ import jetbrains.mps.graphLayout.planarGraph.Dart;
 import jetbrains.mps.graphLayout.algorithms.GraphOrientation;
 import jetbrains.mps.graphLayout.planarGraph.STPlanarGraph;
 import java.util.Map;
-import java.awt.Rectangle;
+import jetbrains.mps.graphLayout.intGeom2D.Rectangle;
 import jetbrains.mps.internal.collections.runtime.MapSequence;
 import jetbrains.mps.graphLayout.graph.Edge;
 import jetbrains.mps.internal.collections.runtime.ISelector;
-import java.awt.Point;
+import jetbrains.mps.graphLayout.intGeom2D.Point;
 
 public class OrthogonalFromVisibility implements IPointLayouter {
   public OrthogonalFromVisibility() {

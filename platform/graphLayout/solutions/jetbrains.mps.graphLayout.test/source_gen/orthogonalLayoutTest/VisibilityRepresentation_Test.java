@@ -10,7 +10,7 @@ import jetbrains.mps.graphLayout.graph.Graph;
 import jetbrains.mps.graphLayout.algorithms.GraphOrientation;
 import jetbrains.mps.graphLayout.planarGraph.STPlanarGraph;
 import java.util.Map;
-import java.awt.Rectangle;
+import jetbrains.mps.graphLayout.intGeom2D.Rectangle;
 import jetbrains.mps.graphLayout.stOrthogonalLayout.VisibilityRepresentation;
 import jetbrains.mps.graphLayout.graph.Node;
 import jetbrains.mps.internal.collections.runtime.ListSequence;

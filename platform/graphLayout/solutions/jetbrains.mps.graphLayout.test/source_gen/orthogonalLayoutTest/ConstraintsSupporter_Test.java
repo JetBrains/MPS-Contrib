@@ -13,11 +13,11 @@ import jetbrains.mps.internal.collections.runtime.ListSequence;
 import jetbrains.mps.graphLayout.algorithms.GraphOrientation;
 import jetbrains.mps.graphLayout.planarGraph.STPlanarGraph;
 import java.util.Map;
-import java.awt.Dimension;
+import jetbrains.mps.graphLayout.intGeom2D.Dimension;
 import jetbrains.mps.internal.collections.runtime.MapSequence;
 import java.util.HashMap;
 import jetbrains.mps.graphLayout.graph.Edge;
-import java.awt.Rectangle;
+import jetbrains.mps.graphLayout.intGeom2D.Rectangle;
 import jetbrains.mps.graphLayout.stOrthogonalLayout.ConstraintsSupporter;
 import jetbrains.mps.internal.collections.runtime.SetSequence;
 

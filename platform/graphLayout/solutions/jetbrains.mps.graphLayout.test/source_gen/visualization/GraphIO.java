@@ -13,7 +13,7 @@ import java.util.List;
 import jetbrains.mps.graphLayout.planarGraph.Dart;
 import java.io.PrintWriter;
 import java.util.Map;
-import java.awt.Dimension;
+import jetbrains.mps.graphLayout.intGeom2D.Dimension;
 import jetbrains.mps.internal.collections.runtime.MapSequence;
 import jetbrains.mps.internal.collections.runtime.SetSequence;
 

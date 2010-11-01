@@ -9,7 +9,7 @@ import java.util.Scanner;
 import jetbrains.mps.graphLayout.flowOrthogonalLayout.OrthogonalRectFlowLayouter;
 import java.util.Map;
 import jetbrains.mps.graphLayout.graph.Node;
-import java.awt.Dimension;
+import jetbrains.mps.graphLayout.intGeom2D.Dimension;
 import jetbrains.mps.internal.collections.runtime.MapSequence;
 import java.util.HashMap;
 import jetbrains.mps.internal.collections.runtime.ListSequence;

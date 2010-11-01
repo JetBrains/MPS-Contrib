@@ -9,6 +9,7 @@
     <dependency reexport="false">5465d6e5-a895-46c0-8462-dad85a03ee2a(jetbrains.mps.graphLayout.layeredLayout)</dependency>
     <dependency reexport="false">7fd530a6-5071-4af8-8b0f-7cfb35109601(jetbrains.mps.graphLayout.planarization)</dependency>
     <dependency reexport="false">f08465e1-63a6-49b8-beae-ae52a38f3a7a(jetbrains.mps.graphLayout.orthogonalLayout)</dependency>
+    <dependency reexport="false">dd0b904b-7c6b-48aa-8557-baf05cd83f66(jetbrains.mps.graphLayout.geom)</dependency>
   </dependencies>
   <usedLanguages>
     <usedLanguage>f61473f9-130f-42f6-b98d-6c438812c2f6(jetbrains.mps.baseLanguage.unitTest)</usedLanguage>

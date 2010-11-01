@@ -8,7 +8,7 @@ import visualization.GraphIO;
 import sampleGraphs.SimpleDirectedGraphs;
 import java.util.Map;
 import jetbrains.mps.graphLayout.graph.Node;
-import java.awt.Dimension;
+import jetbrains.mps.graphLayout.intGeom2D.Dimension;
 import jetbrains.mps.internal.collections.runtime.MapSequence;
 import java.util.HashMap;
 import jetbrains.mps.internal.collections.runtime.ListSequence;

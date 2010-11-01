@@ -5,7 +5,7 @@ package jetbrains.mps.graphLayout.flowOrthogonalLayout;
 import jetbrains.mps.graphLayout.algorithms.Dfs;
 import java.util.Map;
 import jetbrains.mps.graphLayout.graph.Node;
-import java.awt.Point;
+import jetbrains.mps.graphLayout.intGeom2D.Point;
 import jetbrains.mps.graphLayout.graph.Edge;
 import jetbrains.mps.graphLayout.planarGraph.Dart;
 import jetbrains.mps.graphLayout.util.Direction2D;

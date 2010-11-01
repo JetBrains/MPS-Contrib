@@ -7,7 +7,7 @@ import java.util.Map;
 import jetbrains.mps.graphLayout.graph.Node;
 import java.util.Set;
 import jetbrains.mps.graphLayout.graph.Edge;
-import java.awt.Point;
+import jetbrains.mps.graphLayout.intGeom2D.Point;
 import java.util.List;
 import jetbrains.mps.internal.collections.runtime.ListSequence;
 import java.util.ArrayList;

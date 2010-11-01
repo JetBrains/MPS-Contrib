@@ -21,7 +21,7 @@ import java.util.List;
 import jetbrains.mps.graphLayout.graph.Node;
 import jetbrains.mps.internal.collections.runtime.ListSequence;
 import java.util.ArrayList;
-import java.awt.Dimension;
+import jetbrains.mps.graphLayout.intGeom2D.Dimension;
 
 public class ConstraintsGraph_Test extends TestCase {
   public void test_test1() throws Exception {

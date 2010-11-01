@@ -19,7 +19,7 @@ import jetbrains.mps.graphLayout.graphLayout.GraphPointLayout;
 import jetbrains.mps.graphLayout.planarization.ShortestPathEmbeddingFinder;
 import jetbrains.mps.graphLayout.planarization.PQPlanarizationFinder;
 import jetbrains.mps.internal.collections.runtime.Sequence;
-import java.awt.Point;
+import jetbrains.mps.graphLayout.intGeom2D.Point;
 import jetbrains.mps.graphLayout.planarGraph.Face;
 
 public class FlowLayoutWithNodeProcessing implements IPointLayouter {

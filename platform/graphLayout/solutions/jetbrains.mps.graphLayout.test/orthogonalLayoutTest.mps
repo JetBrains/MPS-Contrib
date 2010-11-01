@@ -6,18 +6,11 @@
   <language namespace="f3061a53-9226-4cc5-a443-f952ceaf5816(jetbrains.mps.baseLanguage)" />
   <language namespace="83888646-71ce-4f1c-9c53-c54016f6ad4f(jetbrains.mps.baseLanguage.collections)" />
   <language namespace="fd392034-7849-419d-9071-12563d152375(jetbrains.mps.baseLanguage.closures)" />
-  <languageAspect modelUID="r:00000000-0000-4000-0000-011c895902d5(jetbrains.mps.baseLanguage.unitTest.plugin)" version="0" />
-  <languageAspect modelUID="r:00000000-0000-4000-0000-011c895902d2(jetbrains.mps.baseLanguage.unitTest.constraints)" version="1" />
-  <languageAspect modelUID="r:00000000-0000-4000-0000-011c895902c1(jetbrains.mps.baseLanguage.constraints)" version="83" />
   <languageAspect modelUID="r:00000000-0000-4000-0000-011c895902ca(jetbrains.mps.baseLanguage.structure)" version="3" />
-  <languageAspect modelUID="r:00000000-0000-4000-0000-011c895902db(jetbrains.mps.baseLanguage.blTypes.constraints)" version="0" />
-  <languageAspect modelUID="r:00000000-0000-4000-0000-011c89590283(jetbrains.mps.lang.core.constraints)" version="2" />
   <languageAspect modelUID="r:00000000-0000-4000-0000-011c89590288(jetbrains.mps.lang.core.structure)" version="0" />
   <languageAspect modelUID="r:00000000-0000-4000-0000-011c8959032e(jetbrains.mps.baseLanguage.collections.structure)" version="7" />
   <languageAspect modelUID="r:00000000-0000-4000-0000-011c89590338(jetbrains.mps.baseLanguage.closures.structure)" version="3" />
-  <languageAspect modelUID="r:00000000-0000-4000-0000-011c89590328(jetbrains.mps.baseLanguage.collections.constraints)" version="6" />
-  <languageAspect modelUID="r:00000000-0000-4000-0000-011c89590334(jetbrains.mps.baseLanguage.closures.constraints)" version="2" />
-  <maxImportIndex value="18" />
+  <maxImportIndex value="19" />
   <import index="1" modelUID="r:6d741586-5996-4cd2-b3d3-7b04b7dd2971(jetbrains.mps.graphLayout.planarGraph)" version="-1" />
   <import index="2" modelUID="r:964bbf7c-f239-4721-836a-ba42f2f69703(visualization)" version="-1" />
   <import index="3" modelUID="f:java_stub#java.util(java.util@java_stub)" version="-1" />
@@ -25,7 +18,6 @@
   <import index="5" modelUID="r:c20b0f8c-abbe-4eb9-8b1f-6472cf6ea30c(jetbrains.mps.graphLayout.stOrthogonalLayout)" version="-1" />
   <import index="6" modelUID="r:d228b8c9-d2b1-4686-9904-e3c49a346bc6(jetbrains.mps.graphLayout.graph)" version="-1" />
   <import index="7" modelUID="f:java_stub#java.lang(java.lang@java_stub)" version="-1" />
-  <import index="8" modelUID="f:java_stub#java.awt(java.awt@java_stub)" version="-1" />
   <import index="9" modelUID="r:d0ff68b2-4710-4f71-b818-0fa9dd95286e(jetbrains.mps.graphLayout.planarization)" version="-1" />
   <import index="11" modelUID="r:839ad18f-aa0d-4b1a-8b4c-ca87cf3bcac6(jetbrains.mps.graphLayout.graphLayout)" version="-1" />
   <import index="12" modelUID="r:8254b240-abed-4f97-a7cd-2eef733ec7fb(jetbrains.mps.graphLayout.util)" version="-1" />
@@ -35,6 +27,7 @@
   <import index="16" modelUID="f:java_stub#org.apache.log4j(org.apache.log4j@java_stub)" version="-1" />
   <import index="17" modelUID="r:37c95452-cbcd-4818-9dbd-771ebb628247(graphLayoutTest)" version="-1" />
   <import index="18" modelUID="r:2d0fbdb5-e73c-4db3-b9e8-fb2e93925820(graphTest)" version="-1" />
+  <import index="19" modelUID="r:5498b4d6-623f-4d7c-a07f-396c96e14007(jetbrains.mps.graphLayout.intGeom2D)" version="-1" />
   <node type="jetbrains.mps.baseLanguage.unitTest.structure.BTestCase" id="6984255766319282469">
     <property name="testCaseName" value="VisibilityRepresentation" />
     <node role="visibility" type="jetbrains.mps.baseLanguage.structure.PublicVisibility:3" id="6984255766319282470" />
@@ -175,8 +168,8 @@
                 <node role="keyType:7" type="jetbrains.mps.baseLanguage.structure.ClassifierType:3" id="508819492464319424">
                   <link role="classifier:3" targetNodeId="7.~Object" resolveInfo="Object" />
                 </node>
-                <node role="valueType:7" type="jetbrains.mps.baseLanguage.structure.ClassifierType:3" id="508819492464319425">
-                  <link role="classifier:3" targetNodeId="8.~Rectangle" resolveInfo="Rectangle" />
+                <node role="valueType:7" type="jetbrains.mps.baseLanguage.structure.ClassifierType:3" id="5639108013728305465">
+                  <link role="classifier:3" targetNodeId="19.2301768597858221518" resolveInfo="Rectangle" />
                 </node>
               </node>
               <node role="initializer:3" type="jetbrains.mps.baseLanguage.structure.StaticMethodCall:3" id="508819492464319426">
@@ -444,8 +437,8 @@
                 <node role="keyType:7" type="jetbrains.mps.baseLanguage.structure.ClassifierType:3" id="508819492464323393">
                   <link role="classifier:3" targetNodeId="7.~Object" resolveInfo="Object" />
                 </node>
-                <node role="valueType:7" type="jetbrains.mps.baseLanguage.structure.ClassifierType:3" id="508819492464323394">
-                  <link role="classifier:3" targetNodeId="8.~Rectangle" resolveInfo="Rectangle" />
+                <node role="valueType:7" type="jetbrains.mps.baseLanguage.structure.ClassifierType:3" id="5639108013728305466">
+                  <link role="classifier:3" targetNodeId="19.2301768597858221518" resolveInfo="Rectangle" />
                 </node>
               </node>
               <node role="initializer:3" type="jetbrains.mps.baseLanguage.structure.StaticMethodCall:3" id="508819492464323395">
@@ -708,8 +701,8 @@
                 <node role="keyType:7" type="jetbrains.mps.baseLanguage.structure.ClassifierType:3" id="3619822174190284771">
                   <link role="classifier:3" targetNodeId="7.~Object" resolveInfo="Object" />
                 </node>
-                <node role="valueType:7" type="jetbrains.mps.baseLanguage.structure.ClassifierType:3" id="3619822174190284772">
-                  <link role="classifier:3" targetNodeId="8.~Rectangle" resolveInfo="Rectangle" />
+                <node role="valueType:7" type="jetbrains.mps.baseLanguage.structure.ClassifierType:3" id="5639108013728305467">
+                  <link role="classifier:3" targetNodeId="19.2301768597858221518" resolveInfo="Rectangle" />
                 </node>
               </node>
               <node role="initializer:3" type="jetbrains.mps.baseLanguage.structure.StaticMethodCall:3" id="3619822174190284773">
@@ -1147,8 +1140,8 @@
               <node role="keyType:7" type="jetbrains.mps.baseLanguage.structure.ClassifierType:3" id="1400338595887571431">
                 <link role="classifier:3" targetNodeId="6.4671312709908983848" resolveInfo="Node" />
               </node>
-              <node role="valueType:7" type="jetbrains.mps.baseLanguage.structure.ClassifierType:3" id="1400338595887571432">
-                <link role="classifier:3" targetNodeId="8.~Dimension" resolveInfo="Dimension" />
+              <node role="valueType:7" type="jetbrains.mps.baseLanguage.structure.ClassifierType:3" id="5639108013728306568">
+                <link role="classifier:3" targetNodeId="19.2301768597858221544" resolveInfo="Dimension" />
               </node>
             </node>
             <node role="initializer:3" type="jetbrains.mps.baseLanguage.structure.GenericNewExpression:3" id="1400338595887571434">
@@ -1156,8 +1149,8 @@
                 <node role="keyType:7" type="jetbrains.mps.baseLanguage.structure.ClassifierType:3" id="1400338595887571436">
                   <link role="classifier:3" targetNodeId="6.4671312709908983848" resolveInfo="Node" />
                 </node>
-                <node role="valueType:7" type="jetbrains.mps.baseLanguage.structure.ClassifierType:3" id="1400338595887571437">
-                  <link role="classifier:3" targetNodeId="8.~Dimension" resolveInfo="Dimension" />
+                <node role="valueType:7" type="jetbrains.mps.baseLanguage.structure.ClassifierType:3" id="5639108013728306570">
+                  <link role="classifier:3" targetNodeId="19.2301768597858221544" resolveInfo="Dimension" />
                 </node>
               </node>
             </node>
@@ -1170,8 +1163,8 @@
               <node role="keyType:7" type="jetbrains.mps.baseLanguage.structure.ClassifierType:3" id="490728924230505861">
                 <link role="classifier:3" targetNodeId="6.8567569493821103292" resolveInfo="Edge" />
               </node>
-              <node role="valueType:7" type="jetbrains.mps.baseLanguage.structure.ClassifierType:3" id="490728924230505862">
-                <link role="classifier:3" targetNodeId="8.~Dimension" resolveInfo="Dimension" />
+              <node role="valueType:7" type="jetbrains.mps.baseLanguage.structure.ClassifierType:3" id="5639108013728306569">
+                <link role="classifier:3" targetNodeId="19.2301768597858221544" resolveInfo="Dimension" />
               </node>
             </node>
             <node role="initializer:3" type="jetbrains.mps.baseLanguage.structure.GenericNewExpression:3" id="490728924230505864">
@@ -1179,8 +1172,8 @@
                 <node role="keyType:7" type="jetbrains.mps.baseLanguage.structure.ClassifierType:3" id="490728924230505866">
                   <link role="classifier:3" targetNodeId="6.8567569493821103292" resolveInfo="Edge" />
                 </node>
-                <node role="valueType:7" type="jetbrains.mps.baseLanguage.structure.ClassifierType:3" id="490728924230505867">
-                  <link role="classifier:3" targetNodeId="8.~Dimension" resolveInfo="Dimension" />
+                <node role="valueType:7" type="jetbrains.mps.baseLanguage.structure.ClassifierType:3" id="5639108013728306571">
+                  <link role="classifier:3" targetNodeId="19.2301768597858221544" resolveInfo="Dimension" />
                 </node>
               </node>
             </node>
@@ -1221,7 +1214,7 @@
                     </node>
                     <node role="rValue:3" type="jetbrains.mps.baseLanguage.structure.GenericNewExpression:3" id="1400338595887571439">
                       <node role="creator:3" type="jetbrains.mps.baseLanguage.structure.ClassCreator:3" id="1400338595887571441">
-                        <link role="baseMethodDeclaration:3" targetNodeId="8.~Dimension.&lt;init&gt;(int,int)" resolveInfo="Dimension" />
+                        <link role="baseMethodDeclaration:3" targetNodeId="19.2301768597858221546" resolveInfo="Dimension" />
                         <node role="actualArgument:3" type="jetbrains.mps.baseLanguage.structure.IntegerConstant:3" id="1400338595887571442">
                           <property name="value:3" value="0" />
                         </node>
@@ -1247,7 +1240,7 @@
                       </node>
                       <node role="rValue:3" type="jetbrains.mps.baseLanguage.structure.GenericNewExpression:3" id="1400338595887571454">
                         <node role="creator:3" type="jetbrains.mps.baseLanguage.structure.ClassCreator:3" id="1400338595887578947">
-                          <link role="baseMethodDeclaration:3" targetNodeId="8.~Dimension.&lt;init&gt;(int,int)" resolveInfo="Dimension" />
+                          <link role="baseMethodDeclaration:3" targetNodeId="19.2301768597858221546" resolveInfo="Dimension" />
                           <node role="actualArgument:3" type="jetbrains.mps.baseLanguage.structure.IntegerConstant:3" id="1400338595887578948">
                             <property name="value:3" value="5" />
                           </node>
@@ -1280,7 +1273,7 @@
               <node role="expression:3" type="jetbrains.mps.baseLanguage.structure.AssignmentExpression:3" id="490728924230505886">
                 <node role="rValue:3" type="jetbrains.mps.baseLanguage.structure.GenericNewExpression:3" id="490728924230505889">
                   <node role="creator:3" type="jetbrains.mps.baseLanguage.structure.ClassCreator:3" id="490728924230505891">
-                    <link role="baseMethodDeclaration:3" targetNodeId="8.~Dimension.&lt;init&gt;(int,int)" resolveInfo="Dimension" />
+                    <link role="baseMethodDeclaration:3" targetNodeId="19.2301768597858221546" resolveInfo="Dimension" />
                     <node role="actualArgument:3" type="jetbrains.mps.baseLanguage.structure.IntegerConstant:3" id="490728924230505892">
                       <property name="value:3" value="5" />
                     </node>
@@ -1308,8 +1301,8 @@
               <node role="keyType:7" type="jetbrains.mps.baseLanguage.structure.ClassifierType:3" id="903391227141029551">
                 <link role="classifier:3" targetNodeId="7.~Object" resolveInfo="Object" />
               </node>
-              <node role="valueType:7" type="jetbrains.mps.baseLanguage.structure.ClassifierType:3" id="903391227141029552">
-                <link role="classifier:3" targetNodeId="8.~Rectangle" resolveInfo="Rectangle" />
+              <node role="valueType:7" type="jetbrains.mps.baseLanguage.structure.ClassifierType:3" id="5639108013728306567">
+                <link role="classifier:3" targetNodeId="19.2301768597858221518" resolveInfo="Rectangle" />
               </node>
             </node>
             <node role="initializer:3" type="jetbrains.mps.baseLanguage.structure.DotExpression:3" id="903391227141029553">
@@ -1391,7 +1384,7 @@
             <node role="actualArgument:3" type="jetbrains.mps.baseLanguage.structure.ParameterReference:3" id="903391227141029565">
               <link role="variableDeclaration:3" targetNodeId="903391227141028144" resolveInfo="graph" />
             </node>
-            <node role="actualArgument:3" type="jetbrains.mps.baseLanguage.structure.LocalVariableReference:3" id="903391227141029569">
+            <node role="actualArgument:3" type="jetbrains.mps.baseLanguage.structure.LocalVariableReference:3" id="5639108013728305447">
               <link role="variableDeclaration:3" targetNodeId="903391227141029549" resolveInfo="rep" />
             </node>
             <node role="actualArgument:3" type="jetbrains.mps.baseLanguage.structure.LocalVariableReference:3" id="1400338595887578953">
@@ -1484,7 +1477,7 @@
   </node>
   <node type="jetbrains.mps.baseLanguage.structure.ClassConcept:3" id="903391227141028692">
     <property name="name:3" value="ConstraintsChecker" />
-    <property name="package:3" value="utils" />
+    <property name="virtualPackage:3" value="utils" />
     <node role="staticMethod:3" type="jetbrains.mps.baseLanguage.structure.StaticMethodDeclaration:3" id="903391227141028698">
       <property name="name:3" value="check" />
       <node role="returnType:3" type="jetbrains.mps.baseLanguage.structure.VoidType:3" id="903391227141028699" />
@@ -1514,8 +1507,8 @@
                       <link role="variableDeclaration:3" targetNodeId="1400338595887578959" resolveInfo="sizes" />
                     </node>
                   </node>
-                  <node role="operation:3" type="jetbrains.mps.baseLanguage.structure.FieldReferenceOperation:3" id="1400338595887578971">
-                    <link role="fieldDeclaration:3" targetNodeId="8.~Dimension.width" resolveInfo="width" />
+                  <node role="operation:3" type="jetbrains.mps.baseLanguage.structure.FieldReferenceOperation:3" id="5639108013728306573">
+                    <link role="fieldDeclaration:3" targetNodeId="19.2301768597858221550" resolveInfo="width" />
                   </node>
                 </node>
                 <node role="leftExpression:3" type="jetbrains.mps.baseLanguage.structure.DotExpression:3" id="903391227141028743">
@@ -1527,8 +1520,8 @@
                       <link role="variableDeclaration:3" targetNodeId="903391227141028702" resolveInfo="representation" />
                     </node>
                   </node>
-                  <node role="operation:3" type="jetbrains.mps.baseLanguage.structure.FieldReferenceOperation:3" id="903391227141028747">
-                    <link role="fieldDeclaration:3" targetNodeId="8.~Rectangle.width" resolveInfo="width" />
+                  <node role="operation:3" type="jetbrains.mps.baseLanguage.structure.FieldReferenceOperation:3" id="5639108013728305445">
+                    <link role="fieldDeclaration:3" targetNodeId="19.2301768597858221533" resolveInfo="width" />
                   </node>
                 </node>
               </node>
@@ -1544,8 +1537,8 @@
                       <link role="variableDeclaration:3" targetNodeId="1400338595887578959" resolveInfo="sizes" />
                     </node>
                   </node>
-                  <node role="operation:3" type="jetbrains.mps.baseLanguage.structure.FieldReferenceOperation:3" id="1400338595887578977">
-                    <link role="fieldDeclaration:3" targetNodeId="8.~Dimension.height" resolveInfo="height" />
+                  <node role="operation:3" type="jetbrains.mps.baseLanguage.structure.FieldReferenceOperation:3" id="5639108013728306574">
+                    <link role="fieldDeclaration:3" targetNodeId="19.2301768597858221555" resolveInfo="height" />
                   </node>
                 </node>
                 <node role="leftExpression:3" type="jetbrains.mps.baseLanguage.structure.DotExpression:3" id="903391227141028762">
@@ -1557,8 +1550,8 @@
                       <link role="variableDeclaration:3" targetNodeId="903391227141028702" resolveInfo="representation" />
                     </node>
                   </node>
-                  <node role="operation:3" type="jetbrains.mps.baseLanguage.structure.FieldReferenceOperation:3" id="903391227141028767">
-                    <link role="fieldDeclaration:3" targetNodeId="8.~Rectangle.height" resolveInfo="height" />
+                  <node role="operation:3" type="jetbrains.mps.baseLanguage.structure.FieldReferenceOperation:3" id="5639108013728305446">
+                    <link role="fieldDeclaration:3" targetNodeId="19.2301768597858221539" resolveInfo="height" />
                   </node>
                 </node>
               </node>
@@ -1578,8 +1571,8 @@
           <node role="keyType:7" type="jetbrains.mps.baseLanguage.structure.ClassifierType:3" id="903391227141028706">
             <link role="classifier:3" targetNodeId="7.~Object" resolveInfo="Object" />
           </node>
-          <node role="valueType:7" type="jetbrains.mps.baseLanguage.structure.ClassifierType:3" id="903391227141028707">
-            <link role="classifier:3" targetNodeId="8.~Rectangle" resolveInfo="Rectangle" />
+          <node role="valueType:7" type="jetbrains.mps.baseLanguage.structure.ClassifierType:3" id="5639108013728305444">
+            <link role="classifier:3" targetNodeId="19.2301768597858221518" resolveInfo="Rectangle" />
           </node>
         </node>
       </node>
@@ -1589,8 +1582,8 @@
           <node role="keyType:7" type="jetbrains.mps.baseLanguage.structure.ClassifierType:3" id="1400338595887578964">
             <link role="classifier:3" targetNodeId="6.4671312709908983848" resolveInfo="Node" />
           </node>
-          <node role="valueType:7" type="jetbrains.mps.baseLanguage.structure.ClassifierType:3" id="1400338595887578965">
-            <link role="classifier:3" targetNodeId="8.~Dimension" resolveInfo="Dimension" />
+          <node role="valueType:7" type="jetbrains.mps.baseLanguage.structure.ClassifierType:3" id="5639108013728306572">
+            <link role="classifier:3" targetNodeId="19.2301768597858221544" resolveInfo="Dimension" />
           </node>
         </node>
       </node>
@@ -1599,7 +1592,7 @@
   </node>
   <node type="jetbrains.mps.baseLanguage.structure.ClassConcept:3" id="7371029937982882760">
     <property name="name:3" value="RectOrthogonalLayouterStressTest" />
-    <property name="package:3" value="stressTests" />
+    <property name="virtualPackage:3" value="stressTests" />
     <node role="visibility:3" type="jetbrains.mps.baseLanguage.structure.PublicVisibility:3" id="7371029937982882761" />
     <node role="constructor:3" type="jetbrains.mps.baseLanguage.structure.ConstructorDeclaration:3" id="7371029937982882762">
       <node role="returnType:3" type="jetbrains.mps.baseLanguage.structure.VoidType:3" id="7371029937982882763" />
@@ -1771,8 +1764,8 @@
                   <node role="keyType:7" type="jetbrains.mps.baseLanguage.structure.ClassifierType:3" id="7371029937982882866">
                     <link role="classifier:3" targetNodeId="6.4671312709908983848" resolveInfo="Node" />
                   </node>
-                  <node role="valueType:7" type="jetbrains.mps.baseLanguage.structure.ClassifierType:3" id="7371029937982882867">
-                    <link role="classifier:3" targetNodeId="8.~Dimension" resolveInfo="Dimension" />
+                  <node role="valueType:7" type="jetbrains.mps.baseLanguage.structure.ClassifierType:3" id="5639108013728305399">
+                    <link role="classifier:3" targetNodeId="19.2301768597858221544" resolveInfo="Dimension" />
                   </node>
                 </node>
                 <node role="initializer:3" type="jetbrains.mps.baseLanguage.structure.GenericNewExpression:3" id="7371029937982882869">
@@ -1780,8 +1773,8 @@
                     <node role="keyType:7" type="jetbrains.mps.baseLanguage.structure.ClassifierType:3" id="7371029937982882871">
                       <link role="classifier:3" targetNodeId="6.4671312709908983848" resolveInfo="Node" />
                     </node>
-                    <node role="valueType:7" type="jetbrains.mps.baseLanguage.structure.ClassifierType:3" id="7371029937982882872">
-                      <link role="classifier:3" targetNodeId="8.~Dimension" resolveInfo="Dimension" />
+                    <node role="valueType:7" type="jetbrains.mps.baseLanguage.structure.ClassifierType:3" id="5639108013728305402">
+                      <link role="classifier:3" targetNodeId="19.2301768597858221544" resolveInfo="Dimension" />
                     </node>
                   </node>
                 </node>
@@ -1804,7 +1797,7 @@
                   <node role="expression:3" type="jetbrains.mps.baseLanguage.structure.AssignmentExpression:3" id="7371029937982882890">
                     <node role="rValue:3" type="jetbrains.mps.baseLanguage.structure.GenericNewExpression:3" id="7371029937982882893">
                       <node role="creator:3" type="jetbrains.mps.baseLanguage.structure.ClassCreator:3" id="7371029937982882894">
-                        <link role="baseMethodDeclaration:3" targetNodeId="8.~Dimension.&lt;init&gt;(int,int)" resolveInfo="Dimension" />
+                        <link role="baseMethodDeclaration:3" targetNodeId="19.2301768597858221546" resolveInfo="Dimension" />
                         <node role="actualArgument:3" type="jetbrains.mps.baseLanguage.structure.IntegerConstant:3" id="7371029937982882895">
                           <property name="value:3" value="10" />
                         </node>
@@ -1832,8 +1825,8 @@
                   <node role="keyType:7" type="jetbrains.mps.baseLanguage.structure.ClassifierType:3" id="7371029937982882935">
                     <link role="classifier:3" targetNodeId="6.8567569493821103292" resolveInfo="Edge" />
                   </node>
-                  <node role="valueType:7" type="jetbrains.mps.baseLanguage.structure.ClassifierType:3" id="7371029937982882915">
-                    <link role="classifier:3" targetNodeId="8.~Dimension" resolveInfo="Dimension" />
+                  <node role="valueType:7" type="jetbrains.mps.baseLanguage.structure.ClassifierType:3" id="5639108013728305400">
+                    <link role="classifier:3" targetNodeId="19.2301768597858221544" resolveInfo="Dimension" />
                   </node>
                 </node>
                 <node role="initializer:3" type="jetbrains.mps.baseLanguage.structure.GenericNewExpression:3" id="7371029937982882916">
@@ -1841,8 +1834,8 @@
                     <node role="keyType:7" type="jetbrains.mps.baseLanguage.structure.ClassifierType:3" id="7371029937982882936">
                       <link role="classifier:3" targetNodeId="6.8567569493821103292" resolveInfo="Edge" />
                     </node>
-                    <node role="valueType:7" type="jetbrains.mps.baseLanguage.structure.ClassifierType:3" id="7371029937982882919">
-                      <link role="classifier:3" targetNodeId="8.~Dimension" resolveInfo="Dimension" />
+                    <node role="valueType:7" type="jetbrains.mps.baseLanguage.structure.ClassifierType:3" id="5639108013728305401">
+                      <link role="classifier:3" targetNodeId="19.2301768597858221544" resolveInfo="Dimension" />
                     </node>
                   </node>
                 </node>
@@ -1865,7 +1858,7 @@
                   <node role="expression:3" type="jetbrains.mps.baseLanguage.structure.AssignmentExpression:3" id="7371029937982882927">
                     <node role="rValue:3" type="jetbrains.mps.baseLanguage.structure.GenericNewExpression:3" id="7371029937982882928">
                       <node role="creator:3" type="jetbrains.mps.baseLanguage.structure.ClassCreator:3" id="7371029937982882929">
-                        <link role="baseMethodDeclaration:3" targetNodeId="8.~Dimension.&lt;init&gt;(int,int)" resolveInfo="Dimension" />
+                        <link role="baseMethodDeclaration:3" targetNodeId="19.2301768597858221546" resolveInfo="Dimension" />
                         <node role="actualArgument:3" type="jetbrains.mps.baseLanguage.structure.IntegerConstant:3" id="7371029937982882930">
                           <property name="value:3" value="10" />
                         </node>
@@ -2676,8 +2669,8 @@
     </node>
   </node>
   <node type="jetbrains.mps.baseLanguage.structure.ClassConcept:3" id="228830736476055337">
-    <property name="package:3" value="utils" />
     <property name="name:3" value="OrthogonalRepresentationChecker" />
+    <property name="virtualPackage:3" value="utils" />
     <node role="staticMethod:3" type="jetbrains.mps.baseLanguage.structure.StaticMethodDeclaration:3" id="5736847780448772643">
       <property name="name:3" value="checkAngles" />
       <node role="returnType:3" type="jetbrains.mps.baseLanguage.structure.VoidType:3" id="5736847780448772644" />
@@ -3336,7 +3329,7 @@
   </node>
   <node type="jetbrains.mps.baseLanguage.structure.ClassConcept:3" id="8734440518943050540">
     <property name="name:3" value="OrthogonalPointFlowLayouterStressTest" />
-    <property name="package:3" value="stressTests" />
+    <property name="virtualPackage:3" value="stressTests" />
     <node role="visibility:3" type="jetbrains.mps.baseLanguage.structure.PublicVisibility:3" id="8734440518943050541" />
     <node role="constructor:3" type="jetbrains.mps.baseLanguage.structure.ConstructorDeclaration:3" id="8734440518943050542">
       <node role="returnType:3" type="jetbrains.mps.baseLanguage.structure.VoidType:3" id="8734440518943050543" />
@@ -3687,8 +3680,8 @@
               <node role="keyType:7" type="jetbrains.mps.baseLanguage.structure.ClassifierType:3" id="4422427343208739463">
                 <link role="classifier:3" targetNodeId="6.4671312709908983848" resolveInfo="Node" />
               </node>
-              <node role="valueType:7" type="jetbrains.mps.baseLanguage.structure.ClassifierType:3" id="4422427343208739464">
-                <link role="classifier:3" targetNodeId="8.~Dimension" resolveInfo="Dimension" />
+              <node role="valueType:7" type="jetbrains.mps.baseLanguage.structure.ClassifierType:3" id="5639108013728305409">
+                <link role="classifier:3" targetNodeId="19.2301768597858221544" resolveInfo="Dimension" />
               </node>
             </node>
             <node role="initializer:3" type="jetbrains.mps.baseLanguage.structure.GenericNewExpression:3" id="4422427343208739465">
@@ -3696,8 +3689,8 @@
                 <node role="keyType:7" type="jetbrains.mps.baseLanguage.structure.ClassifierType:3" id="4422427343208739467">
                   <link role="classifier:3" targetNodeId="6.4671312709908983848" resolveInfo="Node" />
                 </node>
-                <node role="valueType:7" type="jetbrains.mps.baseLanguage.structure.ClassifierType:3" id="4422427343208739468">
-                  <link role="classifier:3" targetNodeId="8.~Dimension" resolveInfo="Dimension" />
+                <node role="valueType:7" type="jetbrains.mps.baseLanguage.structure.ClassifierType:3" id="5639108013728305411">
+                  <link role="classifier:3" targetNodeId="19.2301768597858221544" resolveInfo="Dimension" />
                 </node>
               </node>
             </node>
@@ -3710,8 +3703,8 @@
               <node role="keyType:7" type="jetbrains.mps.baseLanguage.structure.ClassifierType:3" id="4422427343208739472">
                 <link role="classifier:3" targetNodeId="6.8567569493821103292" resolveInfo="Edge" />
               </node>
-              <node role="valueType:7" type="jetbrains.mps.baseLanguage.structure.ClassifierType:3" id="4422427343208739473">
-                <link role="classifier:3" targetNodeId="8.~Dimension" resolveInfo="Dimension" />
+              <node role="valueType:7" type="jetbrains.mps.baseLanguage.structure.ClassifierType:3" id="5639108013728305410">
+                <link role="classifier:3" targetNodeId="19.2301768597858221544" resolveInfo="Dimension" />
               </node>
             </node>
             <node role="initializer:3" type="jetbrains.mps.baseLanguage.structure.GenericNewExpression:3" id="4422427343208739474">
@@ -3719,8 +3712,8 @@
                 <node role="keyType:7" type="jetbrains.mps.baseLanguage.structure.ClassifierType:3" id="4422427343208739476">
                   <link role="classifier:3" targetNodeId="6.8567569493821103292" resolveInfo="Edge" />
                 </node>
-                <node role="valueType:7" type="jetbrains.mps.baseLanguage.structure.ClassifierType:3" id="4422427343208739477">
-                  <link role="classifier:3" targetNodeId="8.~Dimension" resolveInfo="Dimension" />
+                <node role="valueType:7" type="jetbrains.mps.baseLanguage.structure.ClassifierType:3" id="5639108013728305412">
+                  <link role="classifier:3" targetNodeId="19.2301768597858221544" resolveInfo="Dimension" />
                 </node>
               </node>
             </node>
@@ -3751,7 +3744,7 @@
                 </node>
                 <node role="rValue:3" type="jetbrains.mps.baseLanguage.structure.GenericNewExpression:3" id="4422427343208739529">
                   <node role="creator:3" type="jetbrains.mps.baseLanguage.structure.ClassCreator:3" id="4422427343208739530">
-                    <link role="baseMethodDeclaration:3" targetNodeId="8.~Dimension.&lt;init&gt;(int,int)" resolveInfo="Dimension" />
+                    <link role="baseMethodDeclaration:3" targetNodeId="19.2301768597858221546" resolveInfo="Dimension" />
                     <node role="actualArgument:3" type="jetbrains.mps.baseLanguage.structure.IntegerConstant:3" id="4422427343208739531">
                       <property name="value:3" value="5" />
                     </node>
@@ -3781,7 +3774,7 @@
               <node role="expression:3" type="jetbrains.mps.baseLanguage.structure.AssignmentExpression:3" id="4422427343208739516">
                 <node role="rValue:3" type="jetbrains.mps.baseLanguage.structure.GenericNewExpression:3" id="4422427343208739517">
                   <node role="creator:3" type="jetbrains.mps.baseLanguage.structure.ClassCreator:3" id="4422427343208739518">
-                    <link role="baseMethodDeclaration:3" targetNodeId="8.~Dimension.&lt;init&gt;(int,int)" resolveInfo="Dimension" />
+                    <link role="baseMethodDeclaration:3" targetNodeId="19.2301768597858221546" resolveInfo="Dimension" />
                     <node role="actualArgument:3" type="jetbrains.mps.baseLanguage.structure.IntegerConstant:3" id="4422427343208739519">
                       <property name="value:3" value="5" />
                     </node>
@@ -3874,8 +3867,8 @@
                 <node role="statement:3" type="jetbrains.mps.baseLanguage.structure.LocalVariableDeclarationStatement:3" id="4422427343208739588">
                   <node role="localVariableDeclaration:3" type="jetbrains.mps.baseLanguage.structure.LocalVariableDeclaration:3" id="4422427343208739589">
                     <property name="name:3" value="r1" />
-                    <node role="type:3" type="jetbrains.mps.baseLanguage.structure.ClassifierType:3" id="4422427343208739590">
-                      <link role="classifier:3" targetNodeId="8.~Rectangle" resolveInfo="Rectangle" />
+                    <node role="type:3" type="jetbrains.mps.baseLanguage.structure.ClassifierType:3" id="5639108013728305413">
+                      <link role="classifier:3" targetNodeId="19.2301768597858221518" resolveInfo="Rectangle" />
                     </node>
                     <node role="initializer:3" type="jetbrains.mps.baseLanguage.structure.DotExpression:3" id="4422427343208739593">
                       <node role="operand:3" type="jetbrains.mps.baseLanguage.structure.LocalVariableReference:3" id="4422427343208739592">
@@ -3893,8 +3886,8 @@
                 <node role="statement:3" type="jetbrains.mps.baseLanguage.structure.LocalVariableDeclarationStatement:3" id="4422427343208739601">
                   <node role="localVariableDeclaration:3" type="jetbrains.mps.baseLanguage.structure.LocalVariableDeclaration:3" id="4422427343208739602">
                     <property name="name:3" value="r2" />
-                    <node role="type:3" type="jetbrains.mps.baseLanguage.structure.ClassifierType:3" id="4422427343208739603">
-                      <link role="classifier:3" targetNodeId="8.~Rectangle" resolveInfo="Rectangle" />
+                    <node role="type:3" type="jetbrains.mps.baseLanguage.structure.ClassifierType:3" id="5639108013728305414">
+                      <link role="classifier:3" targetNodeId="19.2301768597858221518" resolveInfo="Rectangle" />
                     </node>
                     <node role="initializer:3" type="jetbrains.mps.baseLanguage.structure.DotExpression:3" id="4422427343208739604">
                       <node role="operand:3" type="jetbrains.mps.baseLanguage.structure.LocalVariableReference:3" id="4422427343208739608">
@@ -3916,16 +3909,16 @@
                         <node role="operand:3" type="jetbrains.mps.baseLanguage.structure.LocalVariableReference:3" id="4422427343208739675">
                           <link role="variableDeclaration:3" targetNodeId="4422427343208739602" resolveInfo="r2" />
                         </node>
-                        <node role="operation:3" type="jetbrains.mps.baseLanguage.structure.FieldReferenceOperation:3" id="4422427343208739680">
-                          <link role="fieldDeclaration:3" targetNodeId="8.~Rectangle.height" resolveInfo="height" />
+                        <node role="operation:3" type="jetbrains.mps.baseLanguage.structure.FieldReferenceOperation:3" id="5639108013728305422">
+                          <link role="fieldDeclaration:3" targetNodeId="19.2301768597858221539" resolveInfo="height" />
                         </node>
                       </node>
                       <node role="leftExpression:3" type="jetbrains.mps.baseLanguage.structure.DotExpression:3" id="4422427343208739667">
                         <node role="operand:3" type="jetbrains.mps.baseLanguage.structure.LocalVariableReference:3" id="4422427343208739666">
                           <link role="variableDeclaration:3" targetNodeId="4422427343208739589" resolveInfo="r1" />
                         </node>
-                        <node role="operation:3" type="jetbrains.mps.baseLanguage.structure.FieldReferenceOperation:3" id="4422427343208739671">
-                          <link role="fieldDeclaration:3" targetNodeId="8.~Rectangle.height" resolveInfo="height" />
+                        <node role="operation:3" type="jetbrains.mps.baseLanguage.structure.FieldReferenceOperation:3" id="5639108013728305421">
+                          <link role="fieldDeclaration:3" targetNodeId="19.2301768597858221539" resolveInfo="height" />
                         </node>
                       </node>
                     </node>
@@ -3936,16 +3929,16 @@
                             <node role="operand:3" type="jetbrains.mps.baseLanguage.structure.LocalVariableReference:3" id="4422427343208739612">
                               <link role="variableDeclaration:3" targetNodeId="4422427343208739589" resolveInfo="r1" />
                             </node>
-                            <node role="operation:3" type="jetbrains.mps.baseLanguage.structure.FieldReferenceOperation:3" id="4422427343208739617">
-                              <link role="fieldDeclaration:3" targetNodeId="8.~Rectangle.x" resolveInfo="x" />
+                            <node role="operation:3" type="jetbrains.mps.baseLanguage.structure.FieldReferenceOperation:3" id="5639108013728305415">
+                              <link role="fieldDeclaration:3" targetNodeId="19.2301768597858221524" resolveInfo="x" />
                             </node>
                           </node>
                           <node role="rightExpression:3" type="jetbrains.mps.baseLanguage.structure.DotExpression:3" id="4422427343208739622">
                             <node role="operand:3" type="jetbrains.mps.baseLanguage.structure.LocalVariableReference:3" id="4422427343208739621">
                               <link role="variableDeclaration:3" targetNodeId="4422427343208739602" resolveInfo="r2" />
                             </node>
-                            <node role="operation:3" type="jetbrains.mps.baseLanguage.structure.FieldReferenceOperation:3" id="4422427343208739626">
-                              <link role="fieldDeclaration:3" targetNodeId="8.~Rectangle.x" resolveInfo="x" />
+                            <node role="operation:3" type="jetbrains.mps.baseLanguage.structure.FieldReferenceOperation:3" id="5639108013728305416">
+                              <link role="fieldDeclaration:3" targetNodeId="19.2301768597858221524" resolveInfo="x" />
                             </node>
                           </node>
                         </node>
@@ -3954,16 +3947,16 @@
                             <node role="operand:3" type="jetbrains.mps.baseLanguage.structure.LocalVariableReference:3" id="4422427343208739630">
                               <link role="variableDeclaration:3" targetNodeId="4422427343208739589" resolveInfo="r1" />
                             </node>
-                            <node role="operation:3" type="jetbrains.mps.baseLanguage.structure.FieldReferenceOperation:3" id="4422427343208739635">
-                              <link role="fieldDeclaration:3" targetNodeId="8.~Rectangle.y" resolveInfo="y" />
+                            <node role="operation:3" type="jetbrains.mps.baseLanguage.structure.FieldReferenceOperation:3" id="5639108013728305417">
+                              <link role="fieldDeclaration:3" targetNodeId="19.2301768597858221529" resolveInfo="y" />
                             </node>
                           </node>
                           <node role="rightExpression:3" type="jetbrains.mps.baseLanguage.structure.DotExpression:3" id="4422427343208739640">
                             <node role="operand:3" type="jetbrains.mps.baseLanguage.structure.LocalVariableReference:3" id="4422427343208739639">
                               <link role="variableDeclaration:3" targetNodeId="4422427343208739602" resolveInfo="r2" />
                             </node>
-                            <node role="operation:3" type="jetbrains.mps.baseLanguage.structure.FieldReferenceOperation:3" id="4422427343208739644">
-                              <link role="fieldDeclaration:3" targetNodeId="8.~Rectangle.y" resolveInfo="y" />
+                            <node role="operation:3" type="jetbrains.mps.baseLanguage.structure.FieldReferenceOperation:3" id="5639108013728305418">
+                              <link role="fieldDeclaration:3" targetNodeId="19.2301768597858221529" resolveInfo="y" />
                             </node>
                           </node>
                         </node>
@@ -3973,16 +3966,16 @@
                           <node role="operand:3" type="jetbrains.mps.baseLanguage.structure.LocalVariableReference:3" id="4422427343208739648">
                             <link role="variableDeclaration:3" targetNodeId="4422427343208739589" resolveInfo="r1" />
                           </node>
-                          <node role="operation:3" type="jetbrains.mps.baseLanguage.structure.FieldReferenceOperation:3" id="4422427343208739653">
-                            <link role="fieldDeclaration:3" targetNodeId="8.~Rectangle.width" resolveInfo="width" />
+                          <node role="operation:3" type="jetbrains.mps.baseLanguage.structure.FieldReferenceOperation:3" id="5639108013728305419">
+                            <link role="fieldDeclaration:3" targetNodeId="19.2301768597858221533" resolveInfo="width" />
                           </node>
                         </node>
                         <node role="rightExpression:3" type="jetbrains.mps.baseLanguage.structure.DotExpression:3" id="4422427343208739658">
                           <node role="operand:3" type="jetbrains.mps.baseLanguage.structure.LocalVariableReference:3" id="4422427343208739657">
                             <link role="variableDeclaration:3" targetNodeId="4422427343208739602" resolveInfo="r2" />
                           </node>
-                          <node role="operation:3" type="jetbrains.mps.baseLanguage.structure.FieldReferenceOperation:3" id="4422427343208739662">
-                            <link role="fieldDeclaration:3" targetNodeId="8.~Rectangle.width" resolveInfo="width" />
+                          <node role="operation:3" type="jetbrains.mps.baseLanguage.structure.FieldReferenceOperation:3" id="5639108013728305420">
+                            <link role="fieldDeclaration:3" targetNodeId="19.2301768597858221533" resolveInfo="width" />
                           </node>
                         </node>
                       </node>
@@ -4000,8 +3993,8 @@
                   <node role="localVariableDeclaration:3" type="jetbrains.mps.baseLanguage.structure.LocalVariableDeclaration:3" id="4422427343208739694">
                     <property name="name:3" value="p1" />
                     <node role="type:3" type="jetbrains.mps.baseLanguage.collections.structure.ListType:7" id="4422427343208739695">
-                      <node role="elementType:7" type="jetbrains.mps.baseLanguage.structure.ClassifierType:3" id="4422427343208739697">
-                        <link role="classifier:3" targetNodeId="8.~Point" resolveInfo="Point" />
+                      <node role="elementType:7" type="jetbrains.mps.baseLanguage.structure.ClassifierType:3" id="5639108013728305423">
+                        <link role="classifier:3" targetNodeId="19.2301768597858221425" resolveInfo="Point" />
                       </node>
                     </node>
                     <node role="initializer:3" type="jetbrains.mps.baseLanguage.structure.DotExpression:3" id="4422427343208739700">
@@ -4021,8 +4014,8 @@
                   <node role="localVariableDeclaration:3" type="jetbrains.mps.baseLanguage.structure.LocalVariableDeclaration:3" id="4422427343208739708">
                     <property name="name:3" value="p2" />
                     <node role="type:3" type="jetbrains.mps.baseLanguage.collections.structure.ListType:7" id="4422427343208739709">
-                      <node role="elementType:7" type="jetbrains.mps.baseLanguage.structure.ClassifierType:3" id="4422427343208739710">
-                        <link role="classifier:3" targetNodeId="8.~Point" resolveInfo="Point" />
+                      <node role="elementType:7" type="jetbrains.mps.baseLanguage.structure.ClassifierType:3" id="5639108013728305424">
+                        <link role="classifier:3" targetNodeId="19.2301768597858221425" resolveInfo="Point" />
                       </node>
                     </node>
                     <node role="initializer:3" type="jetbrains.mps.baseLanguage.structure.DotExpression:3" id="4422427343208739711">
@@ -4068,8 +4061,8 @@
                                 <link role="variableDeclaration:3" targetNodeId="4422427343208739708" resolveInfo="p2" />
                               </node>
                             </node>
-                            <node role="operation:3" type="jetbrains.mps.baseLanguage.structure.FieldReferenceOperation:3" id="4422427343208740745">
-                              <link role="fieldDeclaration:3" targetNodeId="8.~Point.y" resolveInfo="y" />
+                            <node role="operation:3" type="jetbrains.mps.baseLanguage.structure.FieldReferenceOperation:3" id="5639108013728305428">
+                              <link role="fieldDeclaration:3" targetNodeId="19.2301768597858221436" resolveInfo="y" />
                             </node>
                           </node>
                           <node role="leftExpression:3" type="jetbrains.mps.baseLanguage.structure.DotExpression:3" id="4422427343208740728">
@@ -4081,8 +4074,8 @@
                                 <link role="variableDeclaration:3" targetNodeId="4422427343208739694" resolveInfo="p1" />
                               </node>
                             </node>
-                            <node role="operation:3" type="jetbrains.mps.baseLanguage.structure.FieldReferenceOperation:3" id="4422427343208740732">
-                              <link role="fieldDeclaration:3" targetNodeId="8.~Point.y" resolveInfo="y" />
+                            <node role="operation:3" type="jetbrains.mps.baseLanguage.structure.FieldReferenceOperation:3" id="5639108013728305427">
+                              <link role="fieldDeclaration:3" targetNodeId="19.2301768597858221436" resolveInfo="y" />
                             </node>
                           </node>
                         </node>
@@ -4096,8 +4089,8 @@
                                 <link role="variableDeclaration:3" targetNodeId="4422427343208739694" resolveInfo="p1" />
                               </node>
                             </node>
-                            <node role="operation:3" type="jetbrains.mps.baseLanguage.structure.FieldReferenceOperation:3" id="4422427343208740702">
-                              <link role="fieldDeclaration:3" targetNodeId="8.~Point.x" resolveInfo="x" />
+                            <node role="operation:3" type="jetbrains.mps.baseLanguage.structure.FieldReferenceOperation:3" id="5639108013728305425">
+                              <link role="fieldDeclaration:3" targetNodeId="19.2301768597858221431" resolveInfo="x" />
                             </node>
                           </node>
                           <node role="rightExpression:3" type="jetbrains.mps.baseLanguage.structure.DotExpression:3" id="4422427343208740715">
@@ -4109,8 +4102,8 @@
                                 <link role="variableDeclaration:3" targetNodeId="4422427343208739708" resolveInfo="p2" />
                               </node>
                             </node>
-                            <node role="operation:3" type="jetbrains.mps.baseLanguage.structure.FieldReferenceOperation:3" id="4422427343208740719">
-                              <link role="fieldDeclaration:3" targetNodeId="8.~Point.x" resolveInfo="x" />
+                            <node role="operation:3" type="jetbrains.mps.baseLanguage.structure.FieldReferenceOperation:3" id="5639108013728305426">
+                              <link role="fieldDeclaration:3" targetNodeId="19.2301768597858221431" resolveInfo="x" />
                             </node>
                           </node>
                         </node>
@@ -4144,8 +4137,8 @@
                 <node role="statement:3" type="jetbrains.mps.baseLanguage.structure.LocalVariableDeclarationStatement:3" id="4422427343208740748">
                   <node role="localVariableDeclaration:3" type="jetbrains.mps.baseLanguage.structure.LocalVariableDeclaration:3" id="4422427343208740749">
                     <property name="name:3" value="r1" />
-                    <node role="type:3" type="jetbrains.mps.baseLanguage.structure.ClassifierType:3" id="4422427343208740750">
-                      <link role="classifier:3" targetNodeId="8.~Rectangle" resolveInfo="Rectangle" />
+                    <node role="type:3" type="jetbrains.mps.baseLanguage.structure.ClassifierType:3" id="5639108013728305429">
+                      <link role="classifier:3" targetNodeId="19.2301768597858221518" resolveInfo="Rectangle" />
                     </node>
                     <node role="initializer:3" type="jetbrains.mps.baseLanguage.structure.DotExpression:3" id="4422427343208740751">
                       <node role="operand:3" type="jetbrains.mps.baseLanguage.structure.LocalVariableReference:3" id="4422427343208740752">
@@ -4163,8 +4156,8 @@
                 <node role="statement:3" type="jetbrains.mps.baseLanguage.structure.LocalVariableDeclarationStatement:3" id="4422427343208740755">
                   <node role="localVariableDeclaration:3" type="jetbrains.mps.baseLanguage.structure.LocalVariableDeclaration:3" id="4422427343208740756">
                     <property name="name:3" value="r2" />
-                    <node role="type:3" type="jetbrains.mps.baseLanguage.structure.ClassifierType:3" id="4422427343208740757">
-                      <link role="classifier:3" targetNodeId="8.~Rectangle" resolveInfo="Rectangle" />
+                    <node role="type:3" type="jetbrains.mps.baseLanguage.structure.ClassifierType:3" id="5639108013728305430">
+                      <link role="classifier:3" targetNodeId="19.2301768597858221518" resolveInfo="Rectangle" />
                     </node>
                     <node role="initializer:3" type="jetbrains.mps.baseLanguage.structure.DotExpression:3" id="4422427343208740758">
                       <node role="operand:3" type="jetbrains.mps.baseLanguage.structure.LocalVariableReference:3" id="4422427343208740759">
@@ -4186,16 +4179,16 @@
                         <node role="operand:3" type="jetbrains.mps.baseLanguage.structure.LocalVariableReference:3" id="4422427343208740766">
                           <link role="variableDeclaration:3" targetNodeId="4422427343208740756" resolveInfo="r2" />
                         </node>
-                        <node role="operation:3" type="jetbrains.mps.baseLanguage.structure.FieldReferenceOperation:3" id="4422427343208740767">
-                          <link role="fieldDeclaration:3" targetNodeId="8.~Rectangle.height" resolveInfo="height" />
+                        <node role="operation:3" type="jetbrains.mps.baseLanguage.structure.FieldReferenceOperation:3" id="5639108013728305438">
+                          <link role="fieldDeclaration:3" targetNodeId="19.2301768597858221539" resolveInfo="height" />
                         </node>
                       </node>
                       <node role="leftExpression:3" type="jetbrains.mps.baseLanguage.structure.DotExpression:3" id="4422427343208740768">
                         <node role="operand:3" type="jetbrains.mps.baseLanguage.structure.LocalVariableReference:3" id="4422427343208740769">
                           <link role="variableDeclaration:3" targetNodeId="4422427343208740749" resolveInfo="r1" />
                         </node>
-                        <node role="operation:3" type="jetbrains.mps.baseLanguage.structure.FieldReferenceOperation:3" id="4422427343208740770">
-                          <link role="fieldDeclaration:3" targetNodeId="8.~Rectangle.height" resolveInfo="height" />
+                        <node role="operation:3" type="jetbrains.mps.baseLanguage.structure.FieldReferenceOperation:3" id="5639108013728305437">
+                          <link role="fieldDeclaration:3" targetNodeId="19.2301768597858221539" resolveInfo="height" />
                         </node>
                       </node>
                     </node>
@@ -4206,16 +4199,16 @@
                             <node role="operand:3" type="jetbrains.mps.baseLanguage.structure.LocalVariableReference:3" id="4422427343208740775">
                               <link role="variableDeclaration:3" targetNodeId="4422427343208740749" resolveInfo="r1" />
                             </node>
-                            <node role="operation:3" type="jetbrains.mps.baseLanguage.structure.FieldReferenceOperation:3" id="4422427343208740776">
-                              <link role="fieldDeclaration:3" targetNodeId="8.~Rectangle.x" resolveInfo="x" />
+                            <node role="operation:3" type="jetbrains.mps.baseLanguage.structure.FieldReferenceOperation:3" id="5639108013728305431">
+                              <link role="fieldDeclaration:3" targetNodeId="19.2301768597858221524" resolveInfo="x" />
                             </node>
                           </node>
                           <node role="rightExpression:3" type="jetbrains.mps.baseLanguage.structure.DotExpression:3" id="4422427343208740777">
                             <node role="operand:3" type="jetbrains.mps.baseLanguage.structure.LocalVariableReference:3" id="4422427343208740778">
                               <link role="variableDeclaration:3" targetNodeId="4422427343208740756" resolveInfo="r2" />
                             </node>
-                            <node role="operation:3" type="jetbrains.mps.baseLanguage.structure.FieldReferenceOperation:3" id="4422427343208740779">
-                              <link role="fieldDeclaration:3" targetNodeId="8.~Rectangle.x" resolveInfo="x" />
+                            <node role="operation:3" type="jetbrains.mps.baseLanguage.structure.FieldReferenceOperation:3" id="5639108013728305432">
+                              <link role="fieldDeclaration:3" targetNodeId="19.2301768597858221524" resolveInfo="x" />
                             </node>
                           </node>
                         </node>
@@ -4224,16 +4217,16 @@
                             <node role="operand:3" type="jetbrains.mps.baseLanguage.structure.LocalVariableReference:3" id="4422427343208740782">
                               <link role="variableDeclaration:3" targetNodeId="4422427343208740749" resolveInfo="r1" />
                             </node>
-                            <node role="operation:3" type="jetbrains.mps.baseLanguage.structure.FieldReferenceOperation:3" id="4422427343208740783">
-                              <link role="fieldDeclaration:3" targetNodeId="8.~Rectangle.y" resolveInfo="y" />
+                            <node role="operation:3" type="jetbrains.mps.baseLanguage.structure.FieldReferenceOperation:3" id="5639108013728305433">
+                              <link role="fieldDeclaration:3" targetNodeId="19.2301768597858221529" resolveInfo="y" />
                             </node>
                           </node>
                           <node role="rightExpression:3" type="jetbrains.mps.baseLanguage.structure.DotExpression:3" id="4422427343208740784">
                             <node role="operand:3" type="jetbrains.mps.baseLanguage.structure.LocalVariableReference:3" id="4422427343208740785">
                               <link role="variableDeclaration:3" targetNodeId="4422427343208740756" resolveInfo="r2" />
                             </node>
-                            <node role="operation:3" type="jetbrains.mps.baseLanguage.structure.FieldReferenceOperation:3" id="4422427343208740786">
-                              <link role="fieldDeclaration:3" targetNodeId="8.~Rectangle.y" resolveInfo="y" />
+                            <node role="operation:3" type="jetbrains.mps.baseLanguage.structure.FieldReferenceOperation:3" id="5639108013728305434">
+                              <link role="fieldDeclaration:3" targetNodeId="19.2301768597858221529" resolveInfo="y" />
                             </node>
                           </node>
                         </node>
@@ -4243,16 +4236,16 @@
                           <node role="operand:3" type="jetbrains.mps.baseLanguage.structure.LocalVariableReference:3" id="4422427343208740789">
                             <link role="variableDeclaration:3" targetNodeId="4422427343208740749" resolveInfo="r1" />
                           </node>
-                          <node role="operation:3" type="jetbrains.mps.baseLanguage.structure.FieldReferenceOperation:3" id="4422427343208740790">
-                            <link role="fieldDeclaration:3" targetNodeId="8.~Rectangle.width" resolveInfo="width" />
+                          <node role="operation:3" type="jetbrains.mps.baseLanguage.structure.FieldReferenceOperation:3" id="5639108013728305435">
+                            <link role="fieldDeclaration:3" targetNodeId="19.2301768597858221533" resolveInfo="width" />
                           </node>
                         </node>
                         <node role="rightExpression:3" type="jetbrains.mps.baseLanguage.structure.DotExpression:3" id="4422427343208740791">
                           <node role="operand:3" type="jetbrains.mps.baseLanguage.structure.LocalVariableReference:3" id="4422427343208740792">
                             <link role="variableDeclaration:3" targetNodeId="4422427343208740756" resolveInfo="r2" />
                           </node>
-                          <node role="operation:3" type="jetbrains.mps.baseLanguage.structure.FieldReferenceOperation:3" id="4422427343208740793">
-                            <link role="fieldDeclaration:3" targetNodeId="8.~Rectangle.width" resolveInfo="width" />
+                          <node role="operation:3" type="jetbrains.mps.baseLanguage.structure.FieldReferenceOperation:3" id="5639108013728305436">
+                            <link role="fieldDeclaration:3" targetNodeId="19.2301768597858221533" resolveInfo="width" />
                           </node>
                         </node>
                       </node>
@@ -4410,8 +4403,8 @@
               <node role="keyType:7" type="jetbrains.mps.baseLanguage.structure.ClassifierType:3" id="4422427343208776775">
                 <link role="classifier:3" targetNodeId="6.4671312709908983848" resolveInfo="Node" />
               </node>
-              <node role="valueType:7" type="jetbrains.mps.baseLanguage.structure.ClassifierType:3" id="4422427343208776776">
-                <link role="classifier:3" targetNodeId="8.~Dimension" resolveInfo="Dimension" />
+              <node role="valueType:7" type="jetbrains.mps.baseLanguage.structure.ClassifierType:3" id="5639108013728305461">
+                <link role="classifier:3" targetNodeId="19.2301768597858221544" resolveInfo="Dimension" />
               </node>
             </node>
             <node role="initializer:3" type="jetbrains.mps.baseLanguage.structure.GenericNewExpression:3" id="4422427343208776777">
@@ -4419,8 +4412,8 @@
                 <node role="keyType:7" type="jetbrains.mps.baseLanguage.structure.ClassifierType:3" id="4422427343208776779">
                   <link role="classifier:3" targetNodeId="6.4671312709908983848" resolveInfo="Node" />
                 </node>
-                <node role="valueType:7" type="jetbrains.mps.baseLanguage.structure.ClassifierType:3" id="4422427343208776780">
-                  <link role="classifier:3" targetNodeId="8.~Dimension" resolveInfo="Dimension" />
+                <node role="valueType:7" type="jetbrains.mps.baseLanguage.structure.ClassifierType:3" id="5639108013728305463">
+                  <link role="classifier:3" targetNodeId="19.2301768597858221544" resolveInfo="Dimension" />
                 </node>
               </node>
             </node>
@@ -4433,8 +4426,8 @@
               <node role="keyType:7" type="jetbrains.mps.baseLanguage.structure.ClassifierType:3" id="4422427343208776784">
                 <link role="classifier:3" targetNodeId="6.8567569493821103292" resolveInfo="Edge" />
               </node>
-              <node role="valueType:7" type="jetbrains.mps.baseLanguage.structure.ClassifierType:3" id="4422427343208776785">
-                <link role="classifier:3" targetNodeId="8.~Dimension" resolveInfo="Dimension" />
+              <node role="valueType:7" type="jetbrains.mps.baseLanguage.structure.ClassifierType:3" id="5639108013728305462">
+                <link role="classifier:3" targetNodeId="19.2301768597858221544" resolveInfo="Dimension" />
               </node>
             </node>
             <node role="initializer:3" type="jetbrains.mps.baseLanguage.structure.GenericNewExpression:3" id="4422427343208776786">
@@ -4442,8 +4435,8 @@
                 <node role="keyType:7" type="jetbrains.mps.baseLanguage.structure.ClassifierType:3" id="4422427343208776788">
                   <link role="classifier:3" targetNodeId="6.8567569493821103292" resolveInfo="Edge" />
                 </node>
-                <node role="valueType:7" type="jetbrains.mps.baseLanguage.structure.ClassifierType:3" id="4422427343208776789">
-                  <link role="classifier:3" targetNodeId="8.~Dimension" resolveInfo="Dimension" />
+                <node role="valueType:7" type="jetbrains.mps.baseLanguage.structure.ClassifierType:3" id="5639108013728305464">
+                  <link role="classifier:3" targetNodeId="19.2301768597858221544" resolveInfo="Dimension" />
                 </node>
               </node>
             </node>
@@ -4474,7 +4467,7 @@
                 </node>
                 <node role="rValue:3" type="jetbrains.mps.baseLanguage.structure.GenericNewExpression:3" id="4422427343208776801">
                   <node role="creator:3" type="jetbrains.mps.baseLanguage.structure.ClassCreator:3" id="4422427343208776802">
-                    <link role="baseMethodDeclaration:3" targetNodeId="8.~Dimension.&lt;init&gt;(int,int)" resolveInfo="Dimension" />
+                    <link role="baseMethodDeclaration:3" targetNodeId="19.2301768597858221546" resolveInfo="Dimension" />
                     <node role="actualArgument:3" type="jetbrains.mps.baseLanguage.structure.IntegerConstant:3" id="4422427343208776803">
                       <property name="value:3" value="5" />
                     </node>
@@ -4504,7 +4497,7 @@
               <node role="expression:3" type="jetbrains.mps.baseLanguage.structure.AssignmentExpression:3" id="4422427343208776812">
                 <node role="rValue:3" type="jetbrains.mps.baseLanguage.structure.GenericNewExpression:3" id="4422427343208776813">
                   <node role="creator:3" type="jetbrains.mps.baseLanguage.structure.ClassCreator:3" id="4422427343208776814">
-                    <link role="baseMethodDeclaration:3" targetNodeId="8.~Dimension.&lt;init&gt;(int,int)" resolveInfo="Dimension" />
+                    <link role="baseMethodDeclaration:3" targetNodeId="19.2301768597858221546" resolveInfo="Dimension" />
                     <node role="actualArgument:3" type="jetbrains.mps.baseLanguage.structure.IntegerConstant:3" id="4422427343208776815">
                       <property name="value:3" value="5" />
                     </node>
@@ -4614,8 +4607,8 @@
     </node>
   </node>
   <node type="jetbrains.mps.baseLanguage.structure.ClassConcept:3" id="5488345258545703420">
-    <property name="package:3" value="utils" />
     <property name="name:3" value="OrthogonalLayoutChecker" />
+    <property name="virtualPackage:3" value="utils" />
     <node role="staticMethod:3" type="jetbrains.mps.baseLanguage.structure.StaticMethodDeclaration:3" id="5488345258545703603">
       <property name="name:3" value="checkLayout" />
       <node role="returnType:3" type="jetbrains.mps.baseLanguage.structure.VoidType:3" id="5488345258545703604" />
@@ -4706,8 +4699,8 @@
               <node role="localVariableDeclaration:3" type="jetbrains.mps.baseLanguage.structure.LocalVariableDeclaration:3" id="1265453300920883295">
                 <property name="name:3" value="edgeLayout" />
                 <node role="type:3" type="jetbrains.mps.baseLanguage.collections.structure.ListType:7" id="1265453300920883296">
-                  <node role="elementType:7" type="jetbrains.mps.baseLanguage.structure.ClassifierType:3" id="1265453300920883298">
-                    <link role="classifier:3" targetNodeId="8.~Point" resolveInfo="Point" />
+                  <node role="elementType:7" type="jetbrains.mps.baseLanguage.structure.ClassifierType:3" id="5639108013728305403">
+                    <link role="classifier:3" targetNodeId="19.2301768597858221425" resolveInfo="Point" />
                   </node>
                 </node>
                 <node role="initializer:3" type="jetbrains.mps.baseLanguage.structure.DotExpression:3" id="1265453300920883301">
@@ -4726,8 +4719,8 @@
             <node role="statement:3" type="jetbrains.mps.baseLanguage.structure.LocalVariableDeclarationStatement:3" id="1265453300920883317">
               <node role="localVariableDeclaration:3" type="jetbrains.mps.baseLanguage.structure.LocalVariableDeclaration:3" id="1265453300920883318">
                 <property name="name:3" value="prev" />
-                <node role="type:3" type="jetbrains.mps.baseLanguage.structure.ClassifierType:3" id="1265453300920883319">
-                  <link role="classifier:3" targetNodeId="8.~Point" resolveInfo="Point" />
+                <node role="type:3" type="jetbrains.mps.baseLanguage.structure.ClassifierType:3" id="5639108013728305404">
+                  <link role="classifier:3" targetNodeId="19.2301768597858221425" resolveInfo="Point" />
                 </node>
                 <node role="initializer:3" type="jetbrains.mps.baseLanguage.structure.NullLiteral:3" id="1265453300920883321" />
               </node>
@@ -4755,16 +4748,16 @@
                             <node role="operand:3" type="jetbrains.mps.baseLanguage.collections.structure.ForEachVariableReference:7" id="1265453300920883374">
                               <link role="variable:7" targetNodeId="1265453300920883324" resolveInfo="point" />
                             </node>
-                            <node role="operation:3" type="jetbrains.mps.baseLanguage.structure.FieldReferenceOperation:3" id="1265453300920883379">
-                              <link role="fieldDeclaration:3" targetNodeId="8.~Point.y" resolveInfo="y" />
+                            <node role="operation:3" type="jetbrains.mps.baseLanguage.structure.FieldReferenceOperation:3" id="5639108013728305408">
+                              <link role="fieldDeclaration:3" targetNodeId="19.2301768597858221436" resolveInfo="y" />
                             </node>
                           </node>
                           <node role="leftExpression:3" type="jetbrains.mps.baseLanguage.structure.DotExpression:3" id="1265453300920883366">
                             <node role="operand:3" type="jetbrains.mps.baseLanguage.structure.LocalVariableReference:3" id="1265453300920883365">
                               <link role="variableDeclaration:3" targetNodeId="1265453300920883318" resolveInfo="prev" />
                             </node>
-                            <node role="operation:3" type="jetbrains.mps.baseLanguage.structure.FieldReferenceOperation:3" id="1265453300920883370">
-                              <link role="fieldDeclaration:3" targetNodeId="8.~Point.y" resolveInfo="y" />
+                            <node role="operation:3" type="jetbrains.mps.baseLanguage.structure.FieldReferenceOperation:3" id="5639108013728305407">
+                              <link role="fieldDeclaration:3" targetNodeId="19.2301768597858221436" resolveInfo="y" />
                             </node>
                           </node>
                         </node>
@@ -4773,16 +4766,16 @@
                             <node role="operand:3" type="jetbrains.mps.baseLanguage.structure.LocalVariableReference:3" id="1265453300920883347">
                               <link role="variableDeclaration:3" targetNodeId="1265453300920883318" resolveInfo="prev" />
                             </node>
-                            <node role="operation:3" type="jetbrains.mps.baseLanguage.structure.FieldReferenceOperation:3" id="1265453300920883352">
-                              <link role="fieldDeclaration:3" targetNodeId="8.~Point.x" resolveInfo="x" />
+                            <node role="operation:3" type="jetbrains.mps.baseLanguage.structure.FieldReferenceOperation:3" id="5639108013728305405">
+                              <link role="fieldDeclaration:3" targetNodeId="19.2301768597858221431" resolveInfo="x" />
                             </node>
                           </node>
                           <node role="rightExpression:3" type="jetbrains.mps.baseLanguage.structure.DotExpression:3" id="1265453300920883357">
                             <node role="operand:3" type="jetbrains.mps.baseLanguage.collections.structure.ForEachVariableReference:7" id="1265453300920883356">
                               <link role="variable:7" targetNodeId="1265453300920883324" resolveInfo="point" />
                             </node>
-                            <node role="operation:3" type="jetbrains.mps.baseLanguage.structure.FieldReferenceOperation:3" id="1265453300920883361">
-                              <link role="fieldDeclaration:3" targetNodeId="8.~Point.x" resolveInfo="x" />
+                            <node role="operation:3" type="jetbrains.mps.baseLanguage.structure.FieldReferenceOperation:3" id="5639108013728305406">
+                              <link role="fieldDeclaration:3" targetNodeId="19.2301768597858221431" resolveInfo="x" />
                             </node>
                           </node>
                         </node>
@@ -4941,7 +4934,7 @@
                 <link role="variableDeclaration:3" targetNodeId="4655725461921804633" resolveInfo="modifier" />
               </node>
               <node role="operation:3" type="jetbrains.mps.baseLanguage.structure.InstanceMethodCallOperation:3" id="4655725461921831497">
-                <link role="baseMethodDeclaration:3" targetNodeId="15.4655725461921800349" resolveInfo="reduceNodesDegree" />
+                <link role="baseMethodDeclaration:3" targetNodeId="15.5530235529701317920" resolveInfo="reduceNodesDegree" />
                 <node role="actualArgument:3" type="jetbrains.mps.baseLanguage.structure.ParameterReference:3" id="4655725461921831498">
                   <link role="variableDeclaration:3" targetNodeId="4655725461921804692" resolveInfo="nodeMap" />
                 </node>
@@ -5472,8 +5465,8 @@
               <node role="keyType:7" type="jetbrains.mps.baseLanguage.structure.ClassifierType:3" id="3698135283642018489">
                 <link role="classifier:3" targetNodeId="6.4671312709908983848" resolveInfo="Node" />
               </node>
-              <node role="valueType:7" type="jetbrains.mps.baseLanguage.structure.ClassifierType:3" id="3698135283642018490">
-                <link role="classifier:3" targetNodeId="8.~Dimension" resolveInfo="Dimension" />
+              <node role="valueType:7" type="jetbrains.mps.baseLanguage.structure.ClassifierType:3" id="5639108013728305459">
+                <link role="classifier:3" targetNodeId="19.2301768597858221544" resolveInfo="Dimension" />
               </node>
             </node>
             <node role="initializer:3" type="jetbrains.mps.baseLanguage.structure.GenericNewExpression:3" id="3698135283642018492">
@@ -5481,8 +5474,8 @@
                 <node role="keyType:7" type="jetbrains.mps.baseLanguage.structure.ClassifierType:3" id="3698135283642018494">
                   <link role="classifier:3" targetNodeId="6.4671312709908983848" resolveInfo="Node" />
                 </node>
-                <node role="valueType:7" type="jetbrains.mps.baseLanguage.structure.ClassifierType:3" id="3698135283642018495">
-                  <link role="classifier:3" targetNodeId="8.~Dimension" resolveInfo="Dimension" />
+                <node role="valueType:7" type="jetbrains.mps.baseLanguage.structure.ClassifierType:3" id="5639108013728305460">
+                  <link role="classifier:3" targetNodeId="19.2301768597858221544" resolveInfo="Dimension" />
                 </node>
               </node>
             </node>
@@ -5505,7 +5498,7 @@
               <node role="expression:3" type="jetbrains.mps.baseLanguage.structure.AssignmentExpression:3" id="3698135283642018508">
                 <node role="rValue:3" type="jetbrains.mps.baseLanguage.structure.GenericNewExpression:3" id="3698135283642018511">
                   <node role="creator:3" type="jetbrains.mps.baseLanguage.structure.ClassCreator:3" id="3698135283642018512">
-                    <link role="baseMethodDeclaration:3" targetNodeId="8.~Dimension.&lt;init&gt;(int,int)" resolveInfo="Dimension" />
+                    <link role="baseMethodDeclaration:3" targetNodeId="19.2301768597858221546" resolveInfo="Dimension" />
                     <node role="actualArgument:3" type="jetbrains.mps.baseLanguage.structure.IntegerConstant:3" id="3698135283642018513">
                       <property name="value:3" value="10" />
                     </node>
@@ -6671,7 +6664,7 @@
   </node>
   <node type="jetbrains.mps.baseLanguage.structure.ClassConcept:3" id="7953585273260012257">
     <property name="name:3" value="QuasiOrthogonalRepresentationStressTest" />
-    <property name="package:3" value="stressTests" />
+    <property name="virtualPackage:3" value="stressTests" />
     <node role="visibility:3" type="jetbrains.mps.baseLanguage.structure.PublicVisibility:3" id="7953585273260012258" />
     <node role="constructor:3" type="jetbrains.mps.baseLanguage.structure.ConstructorDeclaration:3" id="7953585273260012259">
       <node role="returnType:3" type="jetbrains.mps.baseLanguage.structure.VoidType:3" id="7953585273260012260" />
@@ -7276,8 +7269,8 @@
               <node role="keyType:7" type="jetbrains.mps.baseLanguage.structure.ClassifierType:3" id="3403946177685440132">
                 <link role="classifier:3" targetNodeId="6.4671312709908983848" resolveInfo="Node" />
               </node>
-              <node role="valueType:7" type="jetbrains.mps.baseLanguage.structure.ClassifierType:3" id="3403946177685440133">
-                <link role="classifier:3" targetNodeId="8.~Dimension" resolveInfo="Dimension" />
+              <node role="valueType:7" type="jetbrains.mps.baseLanguage.structure.ClassifierType:3" id="5639108013728305439">
+                <link role="classifier:3" targetNodeId="19.2301768597858221544" resolveInfo="Dimension" />
               </node>
             </node>
             <node role="initializer:3" type="jetbrains.mps.baseLanguage.structure.GenericNewExpression:3" id="3403946177685440135">
@@ -7285,8 +7278,8 @@
                 <node role="keyType:7" type="jetbrains.mps.baseLanguage.structure.ClassifierType:3" id="3403946177685440137">
                   <link role="classifier:3" targetNodeId="6.4671312709908983848" resolveInfo="Node" />
                 </node>
-                <node role="valueType:7" type="jetbrains.mps.baseLanguage.structure.ClassifierType:3" id="3403946177685440138">
-                  <link role="classifier:3" targetNodeId="8.~Dimension" resolveInfo="Dimension" />
+                <node role="valueType:7" type="jetbrains.mps.baseLanguage.structure.ClassifierType:3" id="5639108013728305440">
+                  <link role="classifier:3" targetNodeId="19.2301768597858221544" resolveInfo="Dimension" />
                 </node>
               </node>
             </node>
@@ -7301,7 +7294,7 @@
               <node role="expression:3" type="jetbrains.mps.baseLanguage.structure.AssignmentExpression:3" id="3403946177685440151">
                 <node role="rValue:3" type="jetbrains.mps.baseLanguage.structure.GenericNewExpression:3" id="3403946177685440154">
                   <node role="creator:3" type="jetbrains.mps.baseLanguage.structure.ClassCreator:3" id="3403946177685440155">
-                    <link role="baseMethodDeclaration:3" targetNodeId="8.~Dimension.&lt;init&gt;(int,int)" resolveInfo="Dimension" />
+                    <link role="baseMethodDeclaration:3" targetNodeId="19.2301768597858221546" resolveInfo="Dimension" />
                     <node role="actualArgument:3" type="jetbrains.mps.baseLanguage.structure.IntegerConstant:3" id="3403946177685440156">
                       <property name="value:3" value="30" />
                     </node>
@@ -7585,8 +7578,8 @@
               <node role="keyType:7" type="jetbrains.mps.baseLanguage.structure.ClassifierType:3" id="3403946177685462616">
                 <link role="classifier:3" targetNodeId="6.4671312709908983848" resolveInfo="Node" />
               </node>
-              <node role="valueType:7" type="jetbrains.mps.baseLanguage.structure.ClassifierType:3" id="3403946177685462617">
-                <link role="classifier:3" targetNodeId="8.~Dimension" resolveInfo="Dimension" />
+              <node role="valueType:7" type="jetbrains.mps.baseLanguage.structure.ClassifierType:3" id="5639108013728305441">
+                <link role="classifier:3" targetNodeId="19.2301768597858221544" resolveInfo="Dimension" />
               </node>
             </node>
             <node role="initializer:3" type="jetbrains.mps.baseLanguage.structure.GenericNewExpression:3" id="3403946177685462618">
@@ -7594,8 +7587,8 @@
                 <node role="keyType:7" type="jetbrains.mps.baseLanguage.structure.ClassifierType:3" id="3403946177685462620">
                   <link role="classifier:3" targetNodeId="6.4671312709908983848" resolveInfo="Node" />
                 </node>
-                <node role="valueType:7" type="jetbrains.mps.baseLanguage.structure.ClassifierType:3" id="3403946177685462621">
-                  <link role="classifier:3" targetNodeId="8.~Dimension" resolveInfo="Dimension" />
+                <node role="valueType:7" type="jetbrains.mps.baseLanguage.structure.ClassifierType:3" id="5639108013728305442">
+                  <link role="classifier:3" targetNodeId="19.2301768597858221544" resolveInfo="Dimension" />
                 </node>
               </node>
             </node>
@@ -7610,7 +7603,7 @@
               <node role="expression:3" type="jetbrains.mps.baseLanguage.structure.AssignmentExpression:3" id="3403946177685462626">
                 <node role="rValue:3" type="jetbrains.mps.baseLanguage.structure.GenericNewExpression:3" id="3403946177685462627">
                   <node role="creator:3" type="jetbrains.mps.baseLanguage.structure.ClassCreator:3" id="3403946177685462628">
-                    <link role="baseMethodDeclaration:3" targetNodeId="8.~Dimension.&lt;init&gt;(int,int)" resolveInfo="Dimension" />
+                    <link role="baseMethodDeclaration:3" targetNodeId="19.2301768597858221546" resolveInfo="Dimension" />
                     <node role="actualArgument:3" type="jetbrains.mps.baseLanguage.structure.IntegerConstant:3" id="3403946177685462629">
                       <property name="value:3" value="30" />
                     </node>
@@ -7798,8 +7791,8 @@
     </node>
   </node>
   <node type="jetbrains.mps.baseLanguage.structure.ClassConcept:3" id="5728232039832716812">
-    <property name="package:3" value="stressTests" />
     <property name="name:3" value="ConstraintsGraphStressTest" />
+    <property name="virtualPackage:3" value="stressTests" />
     <node role="staticMethod:3" type="jetbrains.mps.baseLanguage.structure.StaticMethodDeclaration:3" id="5728232039832716953">
       <property name="name:3" value="main" />
       <node role="returnType:3" type="jetbrains.mps.baseLanguage.structure.VoidType:3" id="5728232039832716954" />
@@ -8233,8 +8226,8 @@
               <node role="keyType:7" type="jetbrains.mps.baseLanguage.structure.ClassifierType:3" id="1465095823296810330">
                 <link role="classifier:3" targetNodeId="6.4671312709908983848" resolveInfo="Node" />
               </node>
-              <node role="valueType:7" type="jetbrains.mps.baseLanguage.structure.ClassifierType:3" id="1465095823296810331">
-                <link role="classifier:3" targetNodeId="8.~Dimension" resolveInfo="Dimension" />
+              <node role="valueType:7" type="jetbrains.mps.baseLanguage.structure.ClassifierType:3" id="5639108013728305457">
+                <link role="classifier:3" targetNodeId="19.2301768597858221544" resolveInfo="Dimension" />
               </node>
             </node>
             <node role="initializer:3" type="jetbrains.mps.baseLanguage.structure.GenericNewExpression:3" id="7148630665778105582">
@@ -8242,8 +8235,8 @@
                 <node role="keyType:7" type="jetbrains.mps.baseLanguage.structure.ClassifierType:3" id="7148630665778105584">
                   <link role="classifier:3" targetNodeId="6.4671312709908983848" resolveInfo="Node" />
                 </node>
-                <node role="valueType:7" type="jetbrains.mps.baseLanguage.structure.ClassifierType:3" id="7148630665778105585">
-                  <link role="classifier:3" targetNodeId="8.~Dimension" resolveInfo="Dimension" />
+                <node role="valueType:7" type="jetbrains.mps.baseLanguage.structure.ClassifierType:3" id="5639108013728305458">
+                  <link role="classifier:3" targetNodeId="19.2301768597858221544" resolveInfo="Dimension" />
                 </node>
               </node>
             </node>
@@ -8266,7 +8259,7 @@
               <node role="expression:3" type="jetbrains.mps.baseLanguage.structure.AssignmentExpression:3" id="1465095823296810343">
                 <node role="rValue:3" type="jetbrains.mps.baseLanguage.structure.GenericNewExpression:3" id="1465095823296810344">
                   <node role="creator:3" type="jetbrains.mps.baseLanguage.structure.ClassCreator:3" id="1465095823296810345">
-                    <link role="baseMethodDeclaration:3" targetNodeId="8.~Dimension.&lt;init&gt;(int,int)" resolveInfo="Dimension" />
+                    <link role="baseMethodDeclaration:3" targetNodeId="19.2301768597858221546" resolveInfo="Dimension" />
                     <node role="actualArgument:3" type="jetbrains.mps.baseLanguage.structure.IntegerConstant:3" id="1465095823296810346">
                       <property name="value:3" value="30" />
                     </node>
@@ -8586,8 +8579,8 @@
                 <node role="keyType:7" type="jetbrains.mps.baseLanguage.structure.ClassifierType:3" id="3263240354041071384">
                   <link role="classifier:3" targetNodeId="6.4671312709908983848" resolveInfo="Node" />
                 </node>
-                <node role="valueType:7" type="jetbrains.mps.baseLanguage.structure.ClassifierType:3" id="3263240354041071385">
-                  <link role="classifier:3" targetNodeId="8.~Dimension" resolveInfo="Dimension" />
+                <node role="valueType:7" type="jetbrains.mps.baseLanguage.structure.ClassifierType:3" id="5639108013728305455">
+                  <link role="classifier:3" targetNodeId="19.2301768597858221544" resolveInfo="Dimension" />
                 </node>
               </node>
               <node role="initializer:3" type="jetbrains.mps.baseLanguage.structure.GenericNewExpression:3" id="3263240354041071386">
@@ -8595,8 +8588,8 @@
                   <node role="keyType:7" type="jetbrains.mps.baseLanguage.structure.ClassifierType:3" id="3263240354041071388">
                     <link role="classifier:3" targetNodeId="6.4671312709908983848" resolveInfo="Node" />
                   </node>
-                  <node role="valueType:7" type="jetbrains.mps.baseLanguage.structure.ClassifierType:3" id="3263240354041071389">
-                    <link role="classifier:3" targetNodeId="8.~Dimension" resolveInfo="Dimension" />
+                  <node role="valueType:7" type="jetbrains.mps.baseLanguage.structure.ClassifierType:3" id="5639108013728305456">
+                    <link role="classifier:3" targetNodeId="19.2301768597858221544" resolveInfo="Dimension" />
                   </node>
                 </node>
               </node>
@@ -8619,7 +8612,7 @@
                 <node role="expression:3" type="jetbrains.mps.baseLanguage.structure.AssignmentExpression:3" id="3263240354041071397">
                   <node role="rValue:3" type="jetbrains.mps.baseLanguage.structure.GenericNewExpression:3" id="3263240354041071398">
                     <node role="creator:3" type="jetbrains.mps.baseLanguage.structure.ClassCreator:3" id="3263240354041071399">
-                      <link role="baseMethodDeclaration:3" targetNodeId="8.~Dimension.&lt;init&gt;(int,int)" resolveInfo="Dimension" />
+                      <link role="baseMethodDeclaration:3" targetNodeId="19.2301768597858221546" resolveInfo="Dimension" />
                       <node role="actualArgument:3" type="jetbrains.mps.baseLanguage.structure.IntegerConstant:3" id="3263240354041071400">
                         <property name="value:3" value="30" />
                       </node>
@@ -8644,7 +8637,7 @@
             <node role="expression:3" type="jetbrains.mps.baseLanguage.structure.AssignmentExpression:3" id="3263240354041071437">
               <node role="rValue:3" type="jetbrains.mps.baseLanguage.structure.GenericNewExpression:3" id="3263240354041071440">
                 <node role="creator:3" type="jetbrains.mps.baseLanguage.structure.ClassCreator:3" id="3263240354041071441">
-                  <link role="baseMethodDeclaration:3" targetNodeId="8.~Dimension.&lt;init&gt;(int,int)" resolveInfo="Dimension" />
+                  <link role="baseMethodDeclaration:3" targetNodeId="19.2301768597858221546" resolveInfo="Dimension" />
                   <node role="actualArgument:3" type="jetbrains.mps.baseLanguage.structure.IntegerConstant:3" id="3263240354041071442">
                     <property name="value:3" value="100" />
                   </node>
@@ -8723,8 +8716,8 @@
     </node>
   </node>
   <node type="jetbrains.mps.baseLanguage.structure.ClassConcept:3" id="3263240354041096163">
-    <property name="package:3" value="stressTests" />
     <property name="name:3" value="OrthogonalFlowLayouterConstraintsStressTest" />
+    <property name="virtualPackage:3" value="stressTests" />
     <node role="visibility:3" type="jetbrains.mps.baseLanguage.structure.PublicVisibility:3" id="3263240354041096164" />
     <node role="constructor:3" type="jetbrains.mps.baseLanguage.structure.ConstructorDeclaration:3" id="3263240354041096165">
       <node role="returnType:3" type="jetbrains.mps.baseLanguage.structure.VoidType:3" id="3263240354041096166" />
@@ -8905,8 +8898,8 @@
                   <node role="keyType:7" type="jetbrains.mps.baseLanguage.structure.ClassifierType:3" id="3263240354041096234">
                     <link role="classifier:3" targetNodeId="6.4671312709908983848" resolveInfo="Node" />
                   </node>
-                  <node role="valueType:7" type="jetbrains.mps.baseLanguage.structure.ClassifierType:3" id="3263240354041096235">
-                    <link role="classifier:3" targetNodeId="8.~Dimension" resolveInfo="Dimension" />
+                  <node role="valueType:7" type="jetbrains.mps.baseLanguage.structure.ClassifierType:3" id="5639108013728305397">
+                    <link role="classifier:3" targetNodeId="19.2301768597858221544" resolveInfo="Dimension" />
                   </node>
                 </node>
                 <node role="initializer:3" type="jetbrains.mps.baseLanguage.structure.GenericNewExpression:3" id="3263240354041096236">
@@ -8914,8 +8907,8 @@
                     <node role="keyType:7" type="jetbrains.mps.baseLanguage.structure.ClassifierType:3" id="3263240354041096238">
                       <link role="classifier:3" targetNodeId="6.4671312709908983848" resolveInfo="Node" />
                     </node>
-                    <node role="valueType:7" type="jetbrains.mps.baseLanguage.structure.ClassifierType:3" id="3263240354041096239">
-                      <link role="classifier:3" targetNodeId="8.~Dimension" resolveInfo="Dimension" />
+                    <node role="valueType:7" type="jetbrains.mps.baseLanguage.structure.ClassifierType:3" id="5639108013728305398">
+                      <link role="classifier:3" targetNodeId="19.2301768597858221544" resolveInfo="Dimension" />
                     </node>
                   </node>
                 </node>
@@ -8938,7 +8931,7 @@
                   <node role="expression:3" type="jetbrains.mps.baseLanguage.structure.AssignmentExpression:3" id="3263240354041096247">
                     <node role="rValue:3" type="jetbrains.mps.baseLanguage.structure.GenericNewExpression:3" id="3263240354041096248">
                       <node role="creator:3" type="jetbrains.mps.baseLanguage.structure.ClassCreator:3" id="3263240354041096249">
-                        <link role="baseMethodDeclaration:3" targetNodeId="8.~Dimension.&lt;init&gt;(int,int)" resolveInfo="Dimension" />
+                        <link role="baseMethodDeclaration:3" targetNodeId="19.2301768597858221546" resolveInfo="Dimension" />
                         <node role="actualArgument:3" type="jetbrains.mps.baseLanguage.structure.IntegerConstant:3" id="3263240354041096250">
                           <property name="value:3" value="70" />
                         </node>
@@ -9116,8 +9109,8 @@
               <node role="keyType:7" type="jetbrains.mps.baseLanguage.structure.ClassifierType:3" id="2344624500434352558">
                 <link role="classifier:3" targetNodeId="6.4671312709908983848" resolveInfo="Node" />
               </node>
-              <node role="valueType:7" type="jetbrains.mps.baseLanguage.structure.ClassifierType:3" id="2344624500434352559">
-                <link role="classifier:3" targetNodeId="8.~Dimension" resolveInfo="Dimension" />
+              <node role="valueType:7" type="jetbrains.mps.baseLanguage.structure.ClassifierType:3" id="5639108013728305449">
+                <link role="classifier:3" targetNodeId="19.2301768597858221544" resolveInfo="Dimension" />
               </node>
             </node>
             <node role="initializer:3" type="jetbrains.mps.baseLanguage.structure.GenericNewExpression:3" id="2344624500434352560">
@@ -9125,8 +9118,8 @@
                 <node role="keyType:7" type="jetbrains.mps.baseLanguage.structure.ClassifierType:3" id="2344624500434352562">
                   <link role="classifier:3" targetNodeId="6.4671312709908983848" resolveInfo="Node" />
                 </node>
-                <node role="valueType:7" type="jetbrains.mps.baseLanguage.structure.ClassifierType:3" id="2344624500434352563">
-                  <link role="classifier:3" targetNodeId="8.~Dimension" resolveInfo="Dimension" />
+                <node role="valueType:7" type="jetbrains.mps.baseLanguage.structure.ClassifierType:3" id="5639108013728305450">
+                  <link role="classifier:3" targetNodeId="19.2301768597858221544" resolveInfo="Dimension" />
                 </node>
               </node>
             </node>
@@ -9149,7 +9142,7 @@
               <node role="expression:3" type="jetbrains.mps.baseLanguage.structure.AssignmentExpression:3" id="2344624500434352571">
                 <node role="rValue:3" type="jetbrains.mps.baseLanguage.structure.GenericNewExpression:3" id="2344624500434352572">
                   <node role="creator:3" type="jetbrains.mps.baseLanguage.structure.ClassCreator:3" id="2344624500434352573">
-                    <link role="baseMethodDeclaration:3" targetNodeId="8.~Dimension.&lt;init&gt;(int,int)" resolveInfo="Dimension" />
+                    <link role="baseMethodDeclaration:3" targetNodeId="19.2301768597858221546" resolveInfo="Dimension" />
                     <node role="actualArgument:3" type="jetbrains.mps.baseLanguage.structure.IntegerConstant:3" id="2344624500434352574">
                       <property name="value:3" value="30" />
                     </node>
@@ -9195,8 +9188,8 @@
                     <node role="keyType:7" type="jetbrains.mps.baseLanguage.structure.ClassifierType:3" id="2344624500434352729">
                       <link role="classifier:3" targetNodeId="6.8567569493821103292" resolveInfo="Edge" />
                     </node>
-                    <node role="valueType:7" type="jetbrains.mps.baseLanguage.structure.ClassifierType:3" id="2344624500434352730">
-                      <link role="classifier:3" targetNodeId="8.~Dimension" resolveInfo="Dimension" />
+                    <node role="valueType:7" type="jetbrains.mps.baseLanguage.structure.ClassifierType:3" id="5639108013728305448">
+                      <link role="classifier:3" targetNodeId="19.2301768597858221544" resolveInfo="Dimension" />
                     </node>
                   </node>
                 </node>
@@ -9419,8 +9412,8 @@
                 <node role="keyType:7" type="jetbrains.mps.baseLanguage.structure.ClassifierType:3" id="2344624500434354752">
                   <link role="classifier:3" targetNodeId="6.4671312709908983848" resolveInfo="Node" />
                 </node>
-                <node role="valueType:7" type="jetbrains.mps.baseLanguage.structure.ClassifierType:3" id="2344624500434354753">
-                  <link role="classifier:3" targetNodeId="8.~Dimension" resolveInfo="Dimension" />
+                <node role="valueType:7" type="jetbrains.mps.baseLanguage.structure.ClassifierType:3" id="5639108013728305451">
+                  <link role="classifier:3" targetNodeId="19.2301768597858221544" resolveInfo="Dimension" />
                 </node>
               </node>
               <node role="initializer:3" type="jetbrains.mps.baseLanguage.structure.GenericNewExpression:3" id="2344624500434354754">
@@ -9428,8 +9421,8 @@
                   <node role="keyType:7" type="jetbrains.mps.baseLanguage.structure.ClassifierType:3" id="2344624500434354756">
                     <link role="classifier:3" targetNodeId="6.4671312709908983848" resolveInfo="Node" />
                   </node>
-                  <node role="valueType:7" type="jetbrains.mps.baseLanguage.structure.ClassifierType:3" id="2344624500434354757">
-                    <link role="classifier:3" targetNodeId="8.~Dimension" resolveInfo="Dimension" />
+                  <node role="valueType:7" type="jetbrains.mps.baseLanguage.structure.ClassifierType:3" id="5639108013728305452">
+                    <link role="classifier:3" targetNodeId="19.2301768597858221544" resolveInfo="Dimension" />
                   </node>
                 </node>
               </node>
@@ -9452,7 +9445,7 @@
                 <node role="expression:3" type="jetbrains.mps.baseLanguage.structure.AssignmentExpression:3" id="2344624500434354765">
                   <node role="rValue:3" type="jetbrains.mps.baseLanguage.structure.GenericNewExpression:3" id="2344624500434354766">
                     <node role="creator:3" type="jetbrains.mps.baseLanguage.structure.ClassCreator:3" id="2344624500434354767">
-                      <link role="baseMethodDeclaration:3" targetNodeId="8.~Dimension.&lt;init&gt;(int,int)" resolveInfo="Dimension" />
+                      <link role="baseMethodDeclaration:3" targetNodeId="19.2301768597858221546" resolveInfo="Dimension" />
                       <node role="actualArgument:3" type="jetbrains.mps.baseLanguage.structure.IntegerConstant:3" id="2344624500434354768">
                         <property name="value:3" value="30" />
                       </node>
@@ -9480,8 +9473,8 @@
                 <node role="keyType:7" type="jetbrains.mps.baseLanguage.structure.ClassifierType:3" id="2344624500434354799">
                   <link role="classifier:3" targetNodeId="6.8567569493821103292" resolveInfo="Edge" />
                 </node>
-                <node role="valueType:7" type="jetbrains.mps.baseLanguage.structure.ClassifierType:3" id="2344624500434354800">
-                  <link role="classifier:3" targetNodeId="8.~Dimension" resolveInfo="Dimension" />
+                <node role="valueType:7" type="jetbrains.mps.baseLanguage.structure.ClassifierType:3" id="5639108013728305453">
+                  <link role="classifier:3" targetNodeId="19.2301768597858221544" resolveInfo="Dimension" />
                 </node>
               </node>
               <node role="initializer:3" type="jetbrains.mps.baseLanguage.structure.GenericNewExpression:3" id="2344624500434354801">
@@ -9489,8 +9482,8 @@
                   <node role="keyType:7" type="jetbrains.mps.baseLanguage.structure.ClassifierType:3" id="2344624500434354803">
                     <link role="classifier:3" targetNodeId="6.8567569493821103292" resolveInfo="Edge" />
                   </node>
-                  <node role="valueType:7" type="jetbrains.mps.baseLanguage.structure.ClassifierType:3" id="2344624500434354804">
-                    <link role="classifier:3" targetNodeId="8.~Dimension" resolveInfo="Dimension" />
+                  <node role="valueType:7" type="jetbrains.mps.baseLanguage.structure.ClassifierType:3" id="5639108013728305454">
+                    <link role="classifier:3" targetNodeId="19.2301768597858221544" resolveInfo="Dimension" />
                   </node>
                 </node>
               </node>
@@ -9500,7 +9493,7 @@
             <node role="expression:3" type="jetbrains.mps.baseLanguage.structure.AssignmentExpression:3" id="2344624500434354823">
               <node role="rValue:3" type="jetbrains.mps.baseLanguage.structure.GenericNewExpression:3" id="2344624500434354826">
                 <node role="creator:3" type="jetbrains.mps.baseLanguage.structure.ClassCreator:3" id="2344624500434354827">
-                  <link role="baseMethodDeclaration:3" targetNodeId="8.~Dimension.&lt;init&gt;(int,int)" resolveInfo="Dimension" />
+                  <link role="baseMethodDeclaration:3" targetNodeId="19.2301768597858221546" resolveInfo="Dimension" />
                   <node role="actualArgument:3" type="jetbrains.mps.baseLanguage.structure.IntegerConstant:3" id="2344624500434354828">
                     <property name="value:3" value="30" />
                   </node>
@@ -9583,7 +9576,7 @@
   </node>
   <node type="jetbrains.mps.baseLanguage.structure.ClassConcept:3" id="8527875266531958631">
     <property name="name:3" value="CurrentOrthogonalFlowLayouterStressTest" />
-    <property name="package:3" value="stressTests" />
+    <property name="virtualPackage:3" value="stressTests" />
     <node role="visibility:3" type="jetbrains.mps.baseLanguage.structure.PublicVisibility:3" id="8527875266531958632" />
     <node role="constructor:3" type="jetbrains.mps.baseLanguage.structure.ConstructorDeclaration:3" id="8527875266531958633">
       <node role="returnType:3" type="jetbrains.mps.baseLanguage.structure.VoidType:3" id="8527875266531958634" />
@@ -9808,8 +9801,8 @@
                   <node role="keyType:7" type="jetbrains.mps.baseLanguage.structure.ClassifierType:3" id="194249616896374554">
                     <link role="classifier:3" targetNodeId="6.4671312709908983848" resolveInfo="Node" />
                   </node>
-                  <node role="valueType:7" type="jetbrains.mps.baseLanguage.structure.ClassifierType:3" id="194249616896374555">
-                    <link role="classifier:3" targetNodeId="8.~Dimension" resolveInfo="Dimension" />
+                  <node role="valueType:7" type="jetbrains.mps.baseLanguage.structure.ClassifierType:3" id="5639108013728303240">
+                    <link role="classifier:3" targetNodeId="19.2301768597858221544" resolveInfo="Dimension" />
                   </node>
                 </node>
                 <node role="initializer:3" type="jetbrains.mps.baseLanguage.structure.DotExpression:3" id="194249616896374586">
@@ -9829,8 +9822,8 @@
                   <node role="keyType:7" type="jetbrains.mps.baseLanguage.structure.ClassifierType:3" id="194249616896374578">
                     <link role="classifier:3" targetNodeId="6.8567569493821103292" resolveInfo="Edge" />
                   </node>
-                  <node role="valueType:7" type="jetbrains.mps.baseLanguage.structure.ClassifierType:3" id="194249616896374579">
-                    <link role="classifier:3" targetNodeId="8.~Dimension" resolveInfo="Dimension" />
+                  <node role="valueType:7" type="jetbrains.mps.baseLanguage.structure.ClassifierType:3" id="5639108013728303241">
+                    <link role="classifier:3" targetNodeId="19.2301768597858221544" resolveInfo="Dimension" />
                   </node>
                 </node>
                 <node role="initializer:3" type="jetbrains.mps.baseLanguage.structure.DotExpression:3" id="194249616896374594">
@@ -9909,7 +9902,7 @@
                   <link role="variableDeclaration:3" targetNodeId="8527875266531958645" resolveInfo="layouter" />
                 </node>
                 <node role="operation:3" type="jetbrains.mps.baseLanguage.structure.InstanceMethodCallOperation:3" id="1267439904987138765">
-                  <link role="baseMethodDeclaration:3" targetNodeId="15.7021611379030084428" resolveInfo="setUnitLength" />
+                  <link role="baseMethodDeclaration:3" targetNodeId="11.1074674001963584145" resolveInfo="setUnitLength" />
                   <node role="actualArgument:3" type="jetbrains.mps.baseLanguage.structure.IntegerConstant:3" id="1267439904987138766">
                     <property name="value:3" value="30" />
                   </node>
@@ -10065,8 +10058,8 @@
     </node>
   </node>
   <node type="jetbrains.mps.baseLanguage.structure.ClassConcept:3" id="194249616896421866">
-    <property name="package:3" value="stressTests" />
     <property name="name:3" value="MultiTest" />
+    <property name="virtualPackage:3" value="stressTests" />
     <node role="field:3" type="jetbrains.mps.baseLanguage.structure.FieldDeclaration:3" id="194249616896421940">
       <property name="name:3" value="myNumNodes" />
       <node role="visibility:3" type="jetbrains.mps.baseLanguage.structure.PrivateVisibility:3" id="194249616896421941" />
