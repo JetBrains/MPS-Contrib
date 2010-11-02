@@ -86,7 +86,7 @@ public class OrthogonalRectFlowLayouter {
     GraphLayout graphLayout = new GraphLayout(graph);
     for (Node node : ListSequence.fromList(graph.getNodes())) {
       Node copyNode = MapSequence.fromMap(nodeMap).get(node);
-      graphLayout.setLayoutFor(node, new Rectangle(copyLayout.getLayoutFor(copyNode)));
+      graphLayout.setLayoutFor(node, new Rectangle(copyLayout.getNodeLayout(copyNode)));
     }
     for (Edge graphEdge : ListSequence.fromList(graph.getEdges())) {
       List<Point> edgeLayout = ListSequence.fromList(new ArrayList<Point>());
@@ -101,9 +101,9 @@ public class OrthogonalRectFlowLayouter {
       }
       for (Edge edge : ListSequence.fromList(edgeHistory)) {
         if (cur == edge.getSource()) {
-          ListSequence.fromList(edgeLayout).addSequence(ListSequence.fromList(copyLayout.getLayoutFor(edge)));
+          ListSequence.fromList(edgeLayout).addSequence(ListSequence.fromList(copyLayout.getEdgeLayout(edge)));
         } else {
-          ListSequence.fromList(edgeLayout).addSequence(ListSequence.fromList(copyLayout.getLayoutFor(edge)).reversedList());
+          ListSequence.fromList(edgeLayout).addSequence(ListSequence.fromList(copyLayout.getEdgeLayout(edge)).reversedList());
         }
         cur = edge.getOpposite(cur);
       }

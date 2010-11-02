@@ -6,7 +6,7 @@ import javax.swing.JPanel;
 import java.awt.Dimension;
 import javax.swing.JTextArea;
 import jetbrains.mps.graphLayout.flowOrthogonalLayout.AbstractOrthogonalFlowLayouter;
-import jetbrains.mps.graphLayout.graphLayout.GraphLayout;
+import jetbrains.mps.graphLayout.graphLayout.IGraphLayout;
 import javax.swing.JTextField;
 import java.awt.GridBagLayout;
 import jetbrains.mps.graphLayout.stOrthogonalLayout.RectOrthogonalLayouter;
@@ -31,6 +31,7 @@ import jetbrains.mps.internal.collections.runtime.IWhereFilter;
 import jetbrains.mps.graphLayout.graphLayout.LayoutInfo;
 import jetbrains.mps.internal.collections.runtime.SetSequence;
 import jetbrains.mps.graphLayout.graphLayout.LayoutTransform;
+import jetbrains.mps.graphLayout.graphLayout.GraphLayout;
 import orthogonalLayoutTest.OrthogonalLayoutChecker;
 import javax.swing.JScrollPane;
 import javax.swing.JFrame;
@@ -50,7 +51,7 @@ public class OrthogonalLayoutTestPanel extends JPanel {
   private OrthogonalLayoutTestPanel.MyGraphLabel myGraphLabel;
   private AbstractOrthogonalFlowLayouter myLayouter;
   private LayoutPainter myPainter;
-  private GraphLayout myCurrentLayout;
+  private IGraphLayout myCurrentLayout;
   private JTextField myNumEdgesField;
   private JTextField myNumNodesField;
   private OrthogonalLayoutTestPanel.MyLayoutChoice myLayoutChoice;
@@ -194,7 +195,7 @@ public class OrthogonalLayoutTestPanel extends JPanel {
         layoutInfo.setLabelSize(edge, MapSequence.fromMap(edgeDimensions).get(edge));
       }
       myCurrentLayout = myLayouter.doLayout(layoutInfo);
-      myCurrentLayout = LayoutTransform.shift(myCurrentLayout, 20, 20);
+      myCurrentLayout = LayoutTransform.shift(((GraphLayout) myCurrentLayout), 20, 20);
       /*
         OrthogonalLayoutChecker.checkLayout(myCurrentLayout);
       */

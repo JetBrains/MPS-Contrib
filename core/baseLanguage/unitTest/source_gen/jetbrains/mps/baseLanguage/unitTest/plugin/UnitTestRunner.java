@@ -5,16 +5,14 @@ package jetbrains.mps.baseLanguage.unitTest.plugin;
 import jetbrains.mps.baseLanguage.util.plugin.run.BaseRunner;
 import jetbrains.mps.logging.Logger;
 import java.util.List;
-import jetbrains.mps.smodel.SNode;
+import jetbrains.mps.internal.collections.runtime.ListSequence;
 import java.util.ArrayList;
 import jetbrains.mps.baseLanguage.util.plugin.run.ConfigRunParameters;
-import jetbrains.mps.internal.collections.runtime.ListSequence;
 import com.intellij.execution.process.ProcessNotCreatedException;
 import org.jetbrains.annotations.Nullable;
 import jetbrains.mps.baseLanguage.closures.runtime.Wrappers;
 import jetbrains.mps.baseLanguage.unitTest.runtime.TestRunParameters;
 import jetbrains.mps.smodel.ModelAccess;
-import jetbrains.mps.baseLanguage.unitTest.behavior.ITestable_Behavior;
 import jetbrains.mps.internal.collections.runtime.IWhereFilter;
 import jetbrains.mps.internal.collections.runtime.IVisitor;
 import org.apache.commons.lang.StringUtils;
@@ -36,9 +34,9 @@ public class UnitTestRunner extends BaseRunner {
   private static Logger LOG = Logger.getLogger(UnitTestRunner.class);
 
   private ProcessBuilder myProcessBuilder;
-  private final List<SNode> myTestable = new ArrayList<SNode>();
+  private final List<ITestNodeWrapper> myTestable = ListSequence.fromList(new ArrayList<ITestNodeWrapper>());
 
-  public UnitTestRunner(List<SNode> testable, ConfigRunParameters parameters) {
+  public UnitTestRunner(List<ITestNodeWrapper> testable, ConfigRunParameters parameters) {
     super(parameters);
     ListSequence.fromList(this.myTestable).addSequence(ListSequence.fromList(testable));
   }
@@ -48,23 +46,23 @@ public class UnitTestRunner extends BaseRunner {
   }
 
   @Nullable
-  public Process run(final List<SNode> tests) throws ProcessNotCreatedException {
+  public Process run(final List<ITestNodeWrapper> tests) throws ProcessNotCreatedException {
     if (ListSequence.fromList(tests).isEmpty()) {
       return null;
     }
 
     final Wrappers._T<TestRunParameters> runParams = new Wrappers._T<TestRunParameters>();
-    final Wrappers._T<List<SNode>> testsToRun = new Wrappers._T<List<SNode>>();
+    final Wrappers._T<List<ITestNodeWrapper>> testsToRun = new Wrappers._T<List<ITestNodeWrapper>>();
     ModelAccess.instance().runReadAction(new Runnable() {
       public void run() {
-        runParams.value = ITestable_Behavior.call_getTestRunParameters_1216045139515(ListSequence.fromList(tests).first());
-        testsToRun.value = ListSequence.fromList(tests).where(new IWhereFilter<SNode>() {
-          public boolean accept(SNode it) {
+        runParams.value = ListSequence.fromList(tests).first().getTestRunParameters();
+        testsToRun.value = ListSequence.fromList(tests).where(new IWhereFilter<ITestNodeWrapper>() {
+          public boolean accept(ITestNodeWrapper it) {
             return eq_y7hhub_a0a0a0a0a0a0b0a0a0a0e0b(check_y7hhub_a0a0a0a0a1a0e0b(it), runParams.value);
           }
         }).toListSequence();
-        ListSequence.fromList(tests).visitAll(new IVisitor<SNode>() {
-          public void visit(SNode it) {
+        ListSequence.fromList(tests).visitAll(new IVisitor<ITestNodeWrapper>() {
+          public void visit(ITestNodeWrapper it) {
             if (!(eq_y7hhub_a0a0a0a0a0a2a0a0a0a4a1(check_y7hhub_a0a0a0a0c0a4a1(it), runParams.value))) {
               LOG.error("Can not execute " + it + ": run parameters does not match.");
             }
@@ -75,7 +73,7 @@ public class UnitTestRunner extends BaseRunner {
     return this.runTestWithParameters(runParams.value, testsToRun.value);
   }
 
-  private Process runTestWithParameters(final TestRunParameters parameters, final List<SNode> tests) throws ProcessNotCreatedException {
+  private Process runTestWithParameters(final TestRunParameters parameters, final List<ITestNodeWrapper> tests) throws ProcessNotCreatedException {
     final List<String> params = ListSequence.fromList(new ArrayList<String>());
     final Wrappers._T<String> workingDir = new Wrappers._T<String>(null);
     final Wrappers._T<String> programParams = new Wrappers._T<String>(null);
@@ -106,8 +104,11 @@ public class UnitTestRunner extends BaseRunner {
         ListSequence.fromList(params).addElement(parameters.getTestRunner());
 
         testsCommandLine.value = ListSequence.fromList(new ArrayList<String>(ListSequence.fromList(tests).count()));
-        for (SNode test : ListSequence.fromList(tests)) {
-          List<String> parametersPart = ITestable_Behavior.call_getParametersPart_1215620460293(test);
+        for (ITestNodeWrapper test : ListSequence.fromList(tests)) {
+          List<String> parametersPart = ListSequence.fromListAndArray(new ArrayList<String>(), (test.isTestCase() ?
+            "-c" :
+            "-m"
+          ), test.getFqName());
           testCommandLineLength.value = ListSequence.fromList(parametersPart).foldLeft(testCommandLineLength.value, new ILeftCombinator<String, Long>() {
             public Long combine(Long s, String it) {
               return s + it.length();
@@ -170,14 +171,14 @@ public class UnitTestRunner extends BaseRunner {
     return this.getCommandString(this.myProcessBuilder);
   }
 
-  public String getClasspathString(List<SNode> list, List<String> additionalClassPath) {
-    Set<IModule> uniqModules = SetSequence.fromSet(new HashSet<IModule>());
-    for (SNode testable : list) {
-      IModule module = SNodeOperations.getModel(testable).getModelDescriptor().getModule();
-      SetSequence.fromSet(uniqModules).addElement(module);
+  public String getClasspathString(List<ITestNodeWrapper> list, List<String> additionalClassPath) {
+    Set<IModule> uniqueModules = SetSequence.fromSet(new HashSet<IModule>());
+    for (ITestNodeWrapper testable : list) {
+      IModule module = SNodeOperations.getModel(testable.getNode()).getModelDescriptor().getModule();
+      SetSequence.fromSet(uniqueModules).addElement(module);
     }
     Set<String> classpath = SetSequence.fromSet(new LinkedHashSet<String>());
-    for (IModule module : uniqModules) {
+    for (IModule module : uniqueModules) {
       SetSequence.fromSet(classpath).addSequence(SetSequence.fromSet(BaseRunner.getModuleClasspath(module, true)));
     }
     ListSequence.fromList(additionalClassPath).addSequence(SetSequence.fromSet(classpath));
@@ -189,18 +190,18 @@ public class UnitTestRunner extends BaseRunner {
     return buff.toString();
   }
 
-  private static TestRunParameters check_y7hhub_a0a0a0a0a1a0e0b(SNode p) {
+  private static TestRunParameters check_y7hhub_a0a0a0a0a1a0e0b(ITestNodeWrapper p) {
     if (null == p) {
       return null;
     }
-    return ITestable_Behavior.call_getTestRunParameters_1216045139515(p);
+    return p.getTestRunParameters();
   }
 
-  private static TestRunParameters check_y7hhub_a0a0a0a0c0a4a1(SNode p) {
+  private static TestRunParameters check_y7hhub_a0a0a0a0c0a4a1(ITestNodeWrapper p) {
     if (null == p) {
       return null;
     }
-    return ITestable_Behavior.call_getTestRunParameters_1216045139515(p);
+    return p.getTestRunParameters();
   }
 
   private static boolean eq_y7hhub_a0a0a0a0a0a0b0a0a0a0e0b(Object a, Object b) {

@@ -500,6 +500,8 @@
     <classNode dependClassName="jetbrains.mps.graphLayout.flowOrthogonalLayout.OrthogonalFlowLayouterConstraints" />
     <classNode dependClassName="jetbrains.mps.graphLayout.graph.Edge" />
     <classNode dependClassName="jetbrains.mps.graphLayout.graph.Graph" />
+    <classNode dependClassName="jetbrains.mps.graphLayout.graph.IEdge" />
+    <classNode dependClassName="jetbrains.mps.graphLayout.graph.INode" />
     <classNode dependClassName="jetbrains.mps.graphLayout.graph.Node" />
     <classNode dependClassName="jetbrains.mps.graphLayout.graphLayout.GraphLayout" />
     <classNode dependClassName="jetbrains.mps.graphLayout.graphLayout.LayoutTransform" />

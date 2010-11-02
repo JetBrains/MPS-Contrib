@@ -6,7 +6,7 @@ import java.util.List;
 import jetbrains.mps.internal.collections.runtime.ListSequence;
 import java.util.ArrayList;
 
-public class Edge {
+public class Edge implements IEdge {
   private Node mySource;
   private Node myTarget;
 

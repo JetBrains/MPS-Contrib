@@ -4,10 +4,9 @@ package jetbrains.mps.baseLanguage.unitTest.plugin;
 
 import jetbrains.mps.baseLanguage.util.plugin.run.ConfigRunParameters;
 import java.util.List;
-import jetbrains.mps.smodel.SNode;
+import jetbrains.mps.internal.collections.runtime.ListSequence;
 import java.util.ArrayList;
 import jetbrains.mps.smodel.ModelAccess;
-import jetbrains.mps.internal.collections.runtime.ListSequence;
 import com.intellij.execution.process.ProcessHandler;
 import com.intellij.execution.ExecutionException;
 import jetbrains.mps.baseLanguage.closures.runtime._FunctionTypes;
@@ -16,10 +15,10 @@ public class UnitTestExecutionController {
   private final TestRunState myState;
   private final TestEventsDispatcher myDispatcher;
   private final ConfigRunParameters myConfigurationRunParameters;
-  private final List<SNode> myWhatToTest = new ArrayList<SNode>();
+  private final List<ITestNodeWrapper> myWhatToTest = ListSequence.fromList(new ArrayList<ITestNodeWrapper>());
   private Process myCurrentProcess;
 
-  public UnitTestExecutionController(final List<SNode> whatToTest, ConfigRunParameters configurationRunParameters) {
+  public UnitTestExecutionController(final List<ITestNodeWrapper> whatToTest, ConfigRunParameters configurationRunParameters) {
     ModelAccess.instance().runReadAction(new Runnable() {
       public void run() {
         ListSequence.fromList(UnitTestExecutionController.this.myWhatToTest).addSequence(ListSequence.fromList(whatToTest));

@@ -18,6 +18,8 @@ import jetbrains.mps.graphLayout.intGeom2D.Point;
 import jetbrains.mps.internal.collections.runtime.ListSequence;
 import jetbrains.mps.graphLayout.util.Direction2D;
 import jetbrains.mps.graphLayout.util.GeomUtil;
+import jetbrains.mps.graphLayout.graph.INode;
+import jetbrains.mps.graphLayout.graph.IEdge;
 import java.util.Set;
 import java.util.HashSet;
 import jetbrains.mps.internal.collections.runtime.backports.LinkedList;
@@ -42,7 +44,7 @@ public class TestPullingLabels {
   }
 
   private GraphLayout addEdgeLabel(GraphLayout layout, Edge edge, Dimension labelSize, Map<Edge, Integer> labeledSegments) {
-    List<Point> path = layout.getLayoutFor(edge);
+    List<Point> path = layout.getEdgeLayout(edge);
     int begin = 0;
     int end = ListSequence.fromList(path).count() - 1;
     if (wasSplitted(layout, edge.getSource(), edge)) {
@@ -85,8 +87,8 @@ public class TestPullingLabels {
 
   public int getMinDist(GraphLayout layout, Rectangle rect, Direction2D dir) {
     int minDist = Integer.MAX_VALUE;
-    for (Node node : SetSequence.fromSet(MapSequence.fromMap(layout.getNodeLayout()).keySet())) {
-      Rectangle nodeRect = layout.getLayoutFor(node);
+    for (INode node : SetSequence.fromSet(MapSequence.fromMap(layout.getNodeLayout()).keySet())) {
+      Rectangle nodeRect = layout.getNodeLayout(node);
       Point[] points = GeomUtil.getCornerPoints(nodeRect);
       for (Point point : points) {
         if (rect.contains(point)) {
@@ -94,7 +96,7 @@ public class TestPullingLabels {
         }
       }
     }
-    for (Edge edge : SetSequence.fromSet(MapSequence.fromMap(layout.getLabelLayout()).keySet())) {
+    for (IEdge edge : SetSequence.fromSet(MapSequence.fromMap(layout.getLabelLayout()).keySet())) {
       Rectangle nodeRect = layout.getLabelLayout(edge);
       Point[] points = GeomUtil.getCornerPoints(nodeRect);
       for (Point point : points) {
@@ -103,8 +105,8 @@ public class TestPullingLabels {
         }
       }
     }
-    for (Edge edge : SetSequence.fromSet(MapSequence.fromMap(layout.getEdgeLayout()).keySet())) {
-      List<Point> points = layout.getLayoutFor(edge);
+    for (IEdge edge : SetSequence.fromSet(MapSequence.fromMap(layout.getEdgeLayout()).keySet())) {
+      List<Point> points = layout.getEdgeLayout(edge);
       for (Point point : points) {
         if (rect.contains(point)) {
           minDist = Math.min(minDist, getDist(rect, point, dir));
@@ -133,24 +135,26 @@ public class TestPullingLabels {
   public GraphLayout pullGraphLayout(GraphLayout layout, Direction2D direction, int shift, Point center, Map<Edge, Integer> labeledSegments, boolean alongEdge) {
     GraphLayout pulledLayout = new GraphLayout(layout.getGraph());
     Set<Node> unpulledNodes = SetSequence.fromSet(new HashSet<Node>());
-    for (Node node : SetSequence.fromSet(MapSequence.fromMap(layout.getNodeLayout()).keySet())) {
-      Rectangle nodeRect = layout.getLayoutFor(node);
+    for (INode node : SetSequence.fromSet(MapSequence.fromMap(layout.getNodeLayout()).keySet())) {
+      Node myNode = ((Node) node);
+      Rectangle nodeRect = layout.getNodeLayout(myNode);
       Rectangle pulledRect = pullRectangle(nodeRect, center, direction, shift, alongEdge);
       if (pulledRect.equals(nodeRect)) {
-        SetSequence.fromSet(unpulledNodes).addElement(node);
+        SetSequence.fromSet(unpulledNodes).addElement(myNode);
       }
       pulledLayout.setLayoutFor(node, pulledRect);
     }
-    for (Edge edge : SetSequence.fromSet(MapSequence.fromMap(layout.getEdgeLayout()).keySet())) {
-      List<Point> path = layout.getLayoutFor(edge);
+    for (IEdge edge : SetSequence.fromSet(MapSequence.fromMap(layout.getEdgeLayout()).keySet())) {
+      Edge myEdge = ((Edge) edge);
+      List<Point> path = layout.getEdgeLayout(edge);
       List<Point> pulledPath = ListSequence.fromList(new LinkedList<Point>());
       Set<Integer> pulled = SetSequence.fromSet(new HashSet<Integer>());
       int index = 0;
       for (Point point : ListSequence.fromList(path)) {
         if (point == ListSequence.fromList(path).first() || point == ListSequence.fromList(path).last()) {
-          Node node = edge.getSource();
+          Node node = myEdge.getSource();
           if (point == ListSequence.fromList(path).last()) {
-            node = edge.getTarget();
+            node = myEdge.getTarget();
           }
           if (SetSequence.fromSet(unpulledNodes).contains(node)) {
             ListSequence.fromList(pulledPath).addElement(new Point(point));
@@ -169,15 +173,15 @@ public class TestPullingLabels {
         }
         index++;
       }
-      if (MapSequence.fromMap(labeledSegments).containsKey(edge)) {
+      if (MapSequence.fromMap(labeledSegments).containsKey(myEdge)) {
         Rectangle rect = layout.getLabelLayout(edge);
-        int seg = MapSequence.fromMap(labeledSegments).get(edge);
+        int seg = MapSequence.fromMap(labeledSegments).get(myEdge);
         if (SetSequence.fromSet(pulled).contains(seg) || SetSequence.fromSet(pulled).contains(seg + 1)) {
           int dx = direction.dx() * shift;
           int dy = direction.dy() * shift;
-          pulledLayout.setLabelLayout(edge, new Rectangle(rect.x + dx, rect.y + dy, rect.width, rect.height));
+          pulledLayout.setLabelLayout(myEdge, new Rectangle(rect.x + dx, rect.y + dy, rect.width, rect.height));
         } else {
-          pulledLayout.setLabelLayout(edge, new Rectangle(rect));
+          pulledLayout.setLabelLayout(myEdge, new Rectangle(rect));
         }
       }
       pulledLayout.setLayoutFor(edge, pulledPath);
@@ -242,7 +246,7 @@ public class TestPullingLabels {
   }
 
   private Direction2D getStartDirection(GraphLayout layout, Node node, Edge edge) {
-    List<Point> path = layout.getLayoutFor(edge);
+    List<Point> path = layout.getEdgeLayout(edge);
     if (node == edge.getSource()) {
       return GeomUtil.getDirection(ListSequence.fromList(path).getElement(0), ListSequence.fromList(path).getElement(1));
     } else {

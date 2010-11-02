@@ -750,408 +750,412 @@
     <unitInfo nodeId="8729833695221588600" fileName="RectLayoutTestPanel.java" startLine="40" startPosition="0" endLine="312" endPosition="0" unitName="visualization.RectLayoutTestPanel" />
   </root>
   <root nodeId="903391227141130074">
-    <nodeInfo nodeId="903391227141130110" conceptFqName="jetbrains.mps.baseLanguage.structure.LocalVariableDeclarationStatement" fileName="LayoutPainter.java" startLine="22" startPosition="53" endLine="23" endPosition="63" />
-    <nodeInfo nodeId="272112265222939876" conceptFqName="jetbrains.mps.baseLanguage.structure.LocalVariableDeclarationStatement" fileName="LayoutPainter.java" startLine="24" startPosition="85" endLine="25" endPosition="67" />
-    <nodeInfo nodeId="903391227141130170" conceptFqName="jetbrains.mps.baseLanguage.structure.LocalVariableDeclarationStatement" fileName="LayoutPainter.java" startLine="25" startPosition="67" endLine="26" endPosition="67" />
-    <nodeInfo nodeId="903391227141130189" conceptFqName="jetbrains.mps.baseLanguage.structure.LocalVariableDeclarationStatement" fileName="LayoutPainter.java" startLine="26" startPosition="67" endLine="27" endPosition="29" />
-    <nodeInfo nodeId="903391227141130211" conceptFqName="jetbrains.mps.baseLanguage.structure.LocalVariableDeclarationStatement" fileName="LayoutPainter.java" startLine="28" startPosition="29" endLine="29" endPosition="32" />
-    <nodeInfo nodeId="903391227141130222" conceptFqName="jetbrains.mps.baseLanguage.structure.ExpressionStatement" fileName="LayoutPainter.java" startLine="29" startPosition="32" endLine="30" endPosition="49" />
-    <nodeInfo nodeId="903391227141130266" conceptFqName="jetbrains.mps.baseLanguage.structure.ExpressionStatement" fileName="LayoutPainter.java" startLine="30" startPosition="49" endLine="31" endPosition="19" />
-    <nodeInfo nodeId="272112265222939799" conceptFqName="jetbrains.mps.baseLanguage.structure.LocalVariableDeclarationStatement" fileName="LayoutPainter.java" startLine="32" startPosition="7" endLine="33" endPosition="56" />
-    <nodeInfo nodeId="272112265222939786" conceptFqName="jetbrains.mps.baseLanguage.structure.ExpressionStatement" fileName="LayoutPainter.java" startLine="33" startPosition="56" endLine="34" endPosition="49" />
-    <nodeInfo nodeId="272112265222939851" conceptFqName="jetbrains.mps.baseLanguage.structure.LocalVariableDeclarationStatement" fileName="LayoutPainter.java" startLine="34" startPosition="49" endLine="35" endPosition="54" />
-    <nodeInfo nodeId="272112265222939859" conceptFqName="jetbrains.mps.baseLanguage.structure.ExpressionStatement" fileName="LayoutPainter.java" startLine="35" startPosition="54" endLine="36" endPosition="47" />
-    <nodeInfo nodeId="903391227141130289" conceptFqName="jetbrains.mps.baseLanguage.structure.LocalVariableDeclarationStatement" fileName="LayoutPainter.java" startLine="37" startPosition="5" endLine="38" endPosition="61" />
-    <nodeInfo nodeId="903391227141130313" conceptFqName="jetbrains.mps.baseLanguage.structure.LocalVariableDeclarationStatement" fileName="LayoutPainter.java" startLine="39" startPosition="85" endLine="40" endPosition="65" />
-    <nodeInfo nodeId="903391227141130303" conceptFqName="jetbrains.mps.baseLanguage.structure.ExpressionStatement" fileName="LayoutPainter.java" startLine="40" startPosition="65" endLine="41" endPosition="58" />
-    <nodeInfo nodeId="903391227141161546" conceptFqName="jetbrains.mps.baseLanguage.structure.ExpressionStatement" fileName="LayoutPainter.java" startLine="41" startPosition="58" endLine="42" endPosition="61" />
-    <nodeInfo nodeId="8680836410351595887" conceptFqName="jetbrains.mps.baseLanguage.structure.LocalVariableDeclarationStatement" fileName="LayoutPainter.java" startLine="43" startPosition="5" endLine="44" endPosition="63" />
-    <nodeInfo nodeId="8680836410351595913" conceptFqName="jetbrains.mps.baseLanguage.structure.LocalVariableDeclarationStatement" fileName="LayoutPainter.java" startLine="45" startPosition="86" endLine="46" endPosition="66" />
-    <nodeInfo nodeId="8680836410351595919" conceptFqName="jetbrains.mps.baseLanguage.structure.ExpressionStatement" fileName="LayoutPainter.java" startLine="46" startPosition="66" endLine="47" endPosition="58" />
-    <nodeInfo nodeId="8680836410351595935" conceptFqName="jetbrains.mps.baseLanguage.structure.ExpressionStatement" fileName="LayoutPainter.java" startLine="47" startPosition="58" endLine="48" endPosition="61" />
-    <nodeInfo nodeId="903391227141130076" conceptFqName="jetbrains.mps.baseLanguage.structure.ConstructorDeclaration" fileName="LayoutPainter.java" startLine="18" startPosition="28" endLine="20" endPosition="3" />
-    <nodeInfo nodeId="903391227141130200" conceptFqName="jetbrains.mps.baseLanguage.structure.WhileStatement" fileName="LayoutPainter.java" startLine="27" startPosition="29" endLine="32" endPosition="7" />
-    <nodeInfo nodeId="903391227141130273" conceptFqName="jetbrains.mps.baseLanguage.structure.ForeachStatement" fileName="LayoutPainter.java" startLine="38" startPosition="61" endLine="43" endPosition="5" />
-    <nodeInfo nodeId="8680836410351595902" conceptFqName="jetbrains.mps.baseLanguage.structure.ForeachStatement" fileName="LayoutPainter.java" startLine="44" startPosition="63" endLine="49" endPosition="5" />
-    <nodeInfo nodeId="903391227141130098" conceptFqName="jetbrains.mps.baseLanguage.structure.ForeachStatement" fileName="LayoutPainter.java" startLine="23" startPosition="63" endLine="37" endPosition="5" />
-    <nodeInfo nodeId="903391227141130080" conceptFqName="jetbrains.mps.baseLanguage.structure.InstanceMethodDeclaration" fileName="LayoutPainter.java" startLine="21" startPosition="0" endLine="51" endPosition="0" />
-    <scopeInfo nodeId="903391227141130079" fileName="LayoutPainter.java" startLine="19" startPosition="26" endLine="19" endPosition="26" />
-    <scopeInfo nodeId="903391227141130076" fileName="LayoutPainter.java" startLine="18" startPosition="28" endLine="20" endPosition="3" />
-    <scopeInfo nodeId="903391227141130202" fileName="LayoutPainter.java" startLine="28" startPosition="29" endLine="31" endPosition="19">
-      <varInfo nodeId="903391227141130212" varName="next" />
+    <nodeInfo nodeId="2913448412765308012" conceptFqName="jetbrains.mps.baseLanguage.structure.LocalVariableDeclarationStatement" fileName="LayoutPainter.java" startLine="18" startPosition="54" endLine="19" endPosition="37" />
+    <nodeInfo nodeId="2913448412765308034" conceptFqName="jetbrains.mps.baseLanguage.structure.LocalVariableDeclarationStatement" fileName="LayoutPainter.java" startLine="19" startPosition="37" endLine="20" endPosition="71" />
+    <nodeInfo nodeId="2913448412765308053" conceptFqName="jetbrains.mps.baseLanguage.structure.LocalVariableDeclarationStatement" fileName="LayoutPainter.java" startLine="21" startPosition="37" endLine="22" endPosition="40" />
+    <nodeInfo nodeId="2913448412765308166" conceptFqName="jetbrains.mps.baseLanguage.structure.LocalVariableDeclarationStatement" fileName="LayoutPainter.java" startLine="22" startPosition="40" endLine="23" endPosition="66" />
+    <nodeInfo nodeId="2913448412765308193" conceptFqName="jetbrains.mps.baseLanguage.structure.LocalVariableDeclarationStatement" fileName="LayoutPainter.java" startLine="23" startPosition="66" endLine="24" endPosition="41" />
+    <nodeInfo nodeId="2913448412765308084" conceptFqName="jetbrains.mps.baseLanguage.structure.LocalVariableDeclarationStatement" fileName="LayoutPainter.java" startLine="24" startPosition="41" endLine="25" endPosition="24" />
+    <nodeInfo nodeId="2913448412765308095" conceptFqName="jetbrains.mps.baseLanguage.structure.LocalVariableDeclarationStatement" fileName="LayoutPainter.java" startLine="26" startPosition="39" endLine="27" endPosition="42" />
+    <nodeInfo nodeId="2913448412765308101" conceptFqName="jetbrains.mps.baseLanguage.structure.ExpressionStatement" fileName="LayoutPainter.java" startLine="27" startPosition="42" endLine="28" endPosition="49" />
+    <nodeInfo nodeId="2913448412765308117" conceptFqName="jetbrains.mps.baseLanguage.structure.ExpressionStatement" fileName="LayoutPainter.java" startLine="28" startPosition="49" endLine="29" endPosition="19" />
+    <nodeInfo nodeId="2913448412765308127" conceptFqName="jetbrains.mps.baseLanguage.structure.ExpressionStatement" fileName="LayoutPainter.java" startLine="30" startPosition="7" endLine="31" endPosition="49" />
+    <nodeInfo nodeId="2913448412765308149" conceptFqName="jetbrains.mps.baseLanguage.structure.ExpressionStatement" fileName="LayoutPainter.java" startLine="31" startPosition="49" endLine="32" endPosition="45" />
+    <nodeInfo nodeId="2913448412765308227" conceptFqName="jetbrains.mps.baseLanguage.structure.LocalVariableDeclarationStatement" fileName="LayoutPainter.java" startLine="33" startPosition="5" endLine="34" endPosition="71" />
+    <nodeInfo nodeId="2913448412765308247" conceptFqName="jetbrains.mps.baseLanguage.structure.LocalVariableDeclarationStatement" fileName="LayoutPainter.java" startLine="35" startPosition="37" endLine="36" endPosition="40" />
+    <nodeInfo nodeId="2913448412765308260" conceptFqName="jetbrains.mps.baseLanguage.structure.LocalVariableDeclarationStatement" fileName="LayoutPainter.java" startLine="36" startPosition="40" endLine="37" endPosition="50" />
+    <nodeInfo nodeId="2913448412765308272" conceptFqName="jetbrains.mps.baseLanguage.structure.ExpressionStatement" fileName="LayoutPainter.java" startLine="37" startPosition="50" endLine="38" endPosition="58" />
+    <nodeInfo nodeId="2913448412765308288" conceptFqName="jetbrains.mps.baseLanguage.structure.ExpressionStatement" fileName="LayoutPainter.java" startLine="38" startPosition="58" endLine="39" endPosition="61" />
+    <nodeInfo nodeId="2913448412765308271" conceptFqName="jetbrains.mps.baseLanguage.structure.Statement" fileName="LayoutPainter.java" startLine="39" startPosition="61" endLine="40" endPosition="0" />
+    <nodeInfo nodeId="2913448412765308314" conceptFqName="jetbrains.mps.baseLanguage.structure.ExpressionStatement" fileName="LayoutPainter.java" startLine="41" startPosition="5" endLine="42" endPosition="45" />
+    <nodeInfo nodeId="2913448412765308337" conceptFqName="jetbrains.mps.baseLanguage.structure.LocalVariableDeclarationStatement" fileName="LayoutPainter.java" startLine="43" startPosition="37" endLine="44" endPosition="40" />
+    <nodeInfo nodeId="2913448412765308431" conceptFqName="jetbrains.mps.baseLanguage.structure.LocalVariableDeclarationStatement" fileName="LayoutPainter.java" startLine="44" startPosition="40" endLine="45" endPosition="51" />
+    <nodeInfo nodeId="2913448412765308452" conceptFqName="jetbrains.mps.baseLanguage.structure.ExpressionStatement" fileName="LayoutPainter.java" startLine="46" startPosition="25" endLine="47" endPosition="60" />
+    <nodeInfo nodeId="2913448412765308468" conceptFqName="jetbrains.mps.baseLanguage.structure.ExpressionStatement" fileName="LayoutPainter.java" startLine="47" startPosition="60" endLine="48" endPosition="63" />
+    <nodeInfo nodeId="2913448412765308445" conceptFqName="jetbrains.mps.baseLanguage.structure.Statement" fileName="LayoutPainter.java" startLine="48" startPosition="63" endLine="49" endPosition="0" />
+    <nodeInfo nodeId="903391227141130076" conceptFqName="jetbrains.mps.baseLanguage.structure.ConstructorDeclaration" fileName="LayoutPainter.java" startLine="14" startPosition="28" endLine="16" endPosition="3" />
+    <nodeInfo nodeId="2913448412765308090" conceptFqName="jetbrains.mps.baseLanguage.structure.WhileStatement" fileName="LayoutPainter.java" startLine="25" startPosition="24" endLine="30" endPosition="7" />
+    <nodeInfo nodeId="2913448412765308443" conceptFqName="jetbrains.mps.baseLanguage.structure.IfStatement" fileName="LayoutPainter.java" startLine="45" startPosition="51" endLine="50" endPosition="7" />
+    <nodeInfo nodeId="2913448412765308236" conceptFqName="jetbrains.mps.baseLanguage.structure.WhileStatement" fileName="LayoutPainter.java" startLine="34" startPosition="71" endLine="41" endPosition="5" />
+    <nodeInfo nodeId="2913448412765308332" conceptFqName="jetbrains.mps.baseLanguage.structure.WhileStatement" fileName="LayoutPainter.java" startLine="42" startPosition="45" endLine="51" endPosition="5" />
+    <nodeInfo nodeId="2913448412765308042" conceptFqName="jetbrains.mps.baseLanguage.structure.WhileStatement" fileName="LayoutPainter.java" startLine="20" startPosition="71" endLine="33" endPosition="5" />
+    <nodeInfo nodeId="903391227141130080" conceptFqName="jetbrains.mps.baseLanguage.structure.InstanceMethodDeclaration" fileName="LayoutPainter.java" startLine="17" startPosition="0" endLine="53" endPosition="0" />
+    <scopeInfo nodeId="903391227141130079" fileName="LayoutPainter.java" startLine="15" startPosition="26" endLine="15" endPosition="26" />
+    <scopeInfo nodeId="903391227141130076" fileName="LayoutPainter.java" startLine="14" startPosition="28" endLine="16" endPosition="3" />
+    <scopeInfo nodeId="2913448412765308094" fileName="LayoutPainter.java" startLine="26" startPosition="39" endLine="29" endPosition="19">
+      <varInfo nodeId="2913448412765308096" varName="next" />
     </scopeInfo>
-    <scopeInfo nodeId="903391227141130276" fileName="LayoutPainter.java" startLine="39" startPosition="85" endLine="42" endPosition="61">
-      <varInfo nodeId="903391227141130314" varName="rect" />
+    <scopeInfo nodeId="2913448412765308444" fileName="LayoutPainter.java" startLine="46" startPosition="25" endLine="49" endPosition="0" />
+    <scopeInfo nodeId="2913448412765308238" fileName="LayoutPainter.java" startLine="35" startPosition="37" endLine="40" endPosition="0">
+      <varInfo nodeId="2913448412765308248" varName="node" />
+      <varInfo nodeId="2913448412765308261" varName="rect" />
     </scopeInfo>
-    <scopeInfo nodeId="8680836410351595905" fileName="LayoutPainter.java" startLine="45" startPosition="86" endLine="48" endPosition="61">
-      <varInfo nodeId="8680836410351595914" varName="rect" />
+    <scopeInfo nodeId="2913448412765308336" fileName="LayoutPainter.java" startLine="43" startPosition="37" endLine="50" endPosition="7">
+      <varInfo nodeId="2913448412765308338" varName="edge" />
+      <varInfo nodeId="2913448412765308432" varName="rect" />
     </scopeInfo>
-    <scopeInfo nodeId="903391227141130273" fileName="LayoutPainter.java" startLine="38" startPosition="61" endLine="43" endPosition="5" />
-    <scopeInfo nodeId="8680836410351595902" fileName="LayoutPainter.java" startLine="44" startPosition="63" endLine="49" endPosition="5" />
-    <scopeInfo nodeId="903391227141130101" fileName="LayoutPainter.java" startLine="24" startPosition="85" endLine="36" endPosition="47">
-      <varInfo nodeId="272112265222939852" varName="last" />
-      <varInfo nodeId="903391227141130171" varName="itr" />
-      <varInfo nodeId="272112265222939877" varName="path" />
-      <varInfo nodeId="903391227141130190" varName="cur" />
-      <varInfo nodeId="272112265222939800" varName="first" />
+    <scopeInfo nodeId="2913448412765308044" fileName="LayoutPainter.java" startLine="21" startPosition="37" endLine="32" endPosition="45">
+      <varInfo nodeId="2913448412765308054" varName="edge" />
+      <varInfo nodeId="2913448412765308167" varName="routeIterator" />
+      <varInfo nodeId="2913448412765308085" varName="cur" />
+      <varInfo nodeId="2913448412765308194" varName="first" />
     </scopeInfo>
-    <scopeInfo nodeId="903391227141130098" fileName="LayoutPainter.java" startLine="23" startPosition="63" endLine="37" endPosition="5" />
-    <scopeInfo nodeId="903391227141130083" fileName="LayoutPainter.java" startLine="22" startPosition="53" endLine="49" endPosition="5">
-      <varInfo nodeId="903391227141130290" varName="nodeLayout" />
-      <varInfo nodeId="8680836410351595888" varName="labelLayout" />
-      <varInfo nodeId="903391227141130111" varName="edgeLayout" />
+    <scopeInfo nodeId="903391227141130083" fileName="LayoutPainter.java" startLine="18" startPosition="54" endLine="51" endPosition="5">
+      <varInfo nodeId="2913448412765308228" varName="nodesIterator" />
+      <varInfo nodeId="2913448412765308013" varName="graph" />
+      <varInfo nodeId="2913448412765308035" varName="edgesIterator" />
     </scopeInfo>
-    <scopeInfo nodeId="903391227141130080" fileName="LayoutPainter.java" startLine="21" startPosition="0" endLine="51" endPosition="0">
+    <scopeInfo nodeId="903391227141130080" fileName="LayoutPainter.java" startLine="17" startPosition="0" endLine="53" endPosition="0">
       <varInfo nodeId="903391227141130086" varName="g" />
       <varInfo nodeId="903391227141130084" varName="layout" />
     </scopeInfo>
-    <unitInfo nodeId="903391227141130074" fileName="LayoutPainter.java" startLine="18" startPosition="0" endLine="52" endPosition="0" unitName="visualization.LayoutPainter" />
+    <unitInfo nodeId="903391227141130074" fileName="LayoutPainter.java" startLine="14" startPosition="0" endLine="54" endPosition="0" unitName="visualization.LayoutPainter" />
   </root>
   <root nodeId="903391227141135207">
-    <nodeInfo nodeId="903391227141135927" conceptFqName="jetbrains.mps.baseLanguage.structure.StaticFieldDeclaration" fileName="OrthogonalLayoutTestPanel.java" startLine="43" startPosition="55" endLine="44" endPosition="69" />
-    <nodeInfo nodeId="1418350014056289153" conceptFqName="jetbrains.mps.baseLanguage.structure.StaticFieldDeclaration" fileName="OrthogonalLayoutTestPanel.java" startLine="44" startPosition="69" endLine="45" endPosition="50" />
-    <nodeInfo nodeId="490728924230502971" conceptFqName="jetbrains.mps.baseLanguage.structure.StaticFieldDeclaration" fileName="OrthogonalLayoutTestPanel.java" startLine="45" startPosition="50" endLine="46" endPosition="52" />
-    <nodeInfo nodeId="490728924230502980" conceptFqName="jetbrains.mps.baseLanguage.structure.StaticFieldDeclaration" fileName="OrthogonalLayoutTestPanel.java" startLine="46" startPosition="52" endLine="47" endPosition="52" />
-    <nodeInfo nodeId="903391227141135413" conceptFqName="jetbrains.mps.baseLanguage.structure.FieldDeclaration" fileName="OrthogonalLayoutTestPanel.java" startLine="48" startPosition="0" endLine="49" endPosition="31" />
-    <nodeInfo nodeId="903391227141135416" conceptFqName="jetbrains.mps.baseLanguage.structure.FieldDeclaration" fileName="OrthogonalLayoutTestPanel.java" startLine="49" startPosition="31" endLine="50" endPosition="62" />
-    <nodeInfo nodeId="903391227141136156" conceptFqName="jetbrains.mps.baseLanguage.structure.FieldDeclaration" fileName="OrthogonalLayoutTestPanel.java" startLine="50" startPosition="62" endLine="51" endPosition="52" />
-    <nodeInfo nodeId="903391227141136131" conceptFqName="jetbrains.mps.baseLanguage.structure.FieldDeclaration" fileName="OrthogonalLayoutTestPanel.java" startLine="51" startPosition="52" endLine="52" endPosition="34" />
-    <nodeInfo nodeId="903391227141135422" conceptFqName="jetbrains.mps.baseLanguage.structure.FieldDeclaration" fileName="OrthogonalLayoutTestPanel.java" startLine="52" startPosition="34" endLine="53" endPosition="38" />
-    <nodeInfo nodeId="903391227141135425" conceptFqName="jetbrains.mps.baseLanguage.structure.FieldDeclaration" fileName="OrthogonalLayoutTestPanel.java" startLine="53" startPosition="38" endLine="54" endPosition="37" />
-    <nodeInfo nodeId="903391227141135428" conceptFqName="jetbrains.mps.baseLanguage.structure.FieldDeclaration" fileName="OrthogonalLayoutTestPanel.java" startLine="54" startPosition="37" endLine="55" endPosition="37" />
-    <nodeInfo nodeId="6160477238666742422" conceptFqName="jetbrains.mps.baseLanguage.structure.FieldDeclaration" fileName="OrthogonalLayoutTestPanel.java" startLine="55" startPosition="37" endLine="56" endPosition="66" />
-    <nodeInfo nodeId="903391227141135951" conceptFqName="jetbrains.mps.baseLanguage.structure.ExpressionStatement" fileName="OrthogonalLayoutTestPanel.java" startLine="58" startPosition="38" endLine="59" endPosition="40" />
-    <nodeInfo nodeId="903391227141135957" conceptFqName="jetbrains.mps.baseLanguage.structure.ExpressionStatement" fileName="OrthogonalLayoutTestPanel.java" startLine="59" startPosition="40" endLine="60" endPosition="27" />
-    <nodeInfo nodeId="903391227141135959" conceptFqName="jetbrains.mps.baseLanguage.structure.ExpressionStatement" fileName="OrthogonalLayoutTestPanel.java" startLine="60" startPosition="27" endLine="61" endPosition="27" />
-    <nodeInfo nodeId="6160477238666723347" conceptFqName="jetbrains.mps.baseLanguage.structure.ExpressionStatement" fileName="OrthogonalLayoutTestPanel.java" startLine="61" startPosition="27" endLine="62" endPosition="32" />
-    <nodeInfo nodeId="903391227141135961" conceptFqName="jetbrains.mps.baseLanguage.structure.ExpressionStatement" fileName="OrthogonalLayoutTestPanel.java" startLine="62" startPosition="32" endLine="63" endPosition="22" />
-    <nodeInfo nodeId="903391227141135963" conceptFqName="jetbrains.mps.baseLanguage.structure.ExpressionStatement" fileName="OrthogonalLayoutTestPanel.java" startLine="63" startPosition="22" endLine="64" endPosition="23" />
-    <nodeInfo nodeId="903391227141135965" conceptFqName="jetbrains.mps.baseLanguage.structure.ExpressionStatement" fileName="OrthogonalLayoutTestPanel.java" startLine="65" startPosition="6" endLine="66" endPosition="48" />
-    <nodeInfo nodeId="3698135283642035871" conceptFqName="jetbrains.mps.baseLanguage.structure.ExpressionStatement" fileName="OrthogonalLayoutTestPanel.java" startLine="67" startPosition="6" endLine="68" endPosition="58" />
-    <nodeInfo nodeId="1418350014056290615" conceptFqName="jetbrains.mps.baseLanguage.structure.ExpressionStatement" fileName="OrthogonalLayoutTestPanel.java" startLine="69" startPosition="6" endLine="70" endPosition="37" />
-    <nodeInfo nodeId="903391227141136006" conceptFqName="jetbrains.mps.baseLanguage.structure.ExpressionStatement" fileName="OrthogonalLayoutTestPanel.java" startLine="71" startPosition="6" endLine="72" endPosition="27" />
-    <nodeInfo nodeId="903391227141136080" conceptFqName="jetbrains.mps.baseLanguage.structure.ExpressionStatement" fileName="OrthogonalLayoutTestPanel.java" startLine="72" startPosition="27" endLine="73" endPosition="36" />
-    <nodeInfo nodeId="6160477238666723529" conceptFqName="jetbrains.mps.baseLanguage.structure.LocalVariableDeclarationStatement" fileName="OrthogonalLayoutTestPanel.java" startLine="76" startPosition="44" endLine="77" endPosition="52" />
-    <nodeInfo nodeId="6160477238666723534" conceptFqName="jetbrains.mps.baseLanguage.structure.ExpressionStatement" fileName="OrthogonalLayoutTestPanel.java" startLine="77" startPosition="52" endLine="78" endPosition="16" />
-    <nodeInfo nodeId="6160477238666723540" conceptFqName="jetbrains.mps.baseLanguage.structure.ExpressionStatement" fileName="OrthogonalLayoutTestPanel.java" startLine="78" startPosition="16" endLine="79" endPosition="16" />
-    <nodeInfo nodeId="6160477238666723546" conceptFqName="jetbrains.mps.baseLanguage.structure.ExpressionStatement" fileName="OrthogonalLayoutTestPanel.java" startLine="79" startPosition="16" endLine="80" endPosition="43" />
-    <nodeInfo nodeId="6160477238666742434" conceptFqName="jetbrains.mps.baseLanguage.structure.ExpressionStatement" fileName="OrthogonalLayoutTestPanel.java" startLine="80" startPosition="43" endLine="81" endPosition="68" />
-    <nodeInfo nodeId="6160477238666740738" conceptFqName="jetbrains.mps.baseLanguage.structure.ExpressionStatement" fileName="OrthogonalLayoutTestPanel.java" startLine="81" startPosition="68" endLine="82" endPosition="29" />
-    <nodeInfo nodeId="903391227141135438" conceptFqName="jetbrains.mps.baseLanguage.structure.ExpressionStatement" fileName="OrthogonalLayoutTestPanel.java" startLine="85" startPosition="39" endLine="86" endPosition="41" />
-    <nodeInfo nodeId="903391227141135444" conceptFqName="jetbrains.mps.baseLanguage.structure.ExpressionStatement" fileName="OrthogonalLayoutTestPanel.java" startLine="86" startPosition="41" endLine="87" endPosition="74" />
-    <nodeInfo nodeId="903391227141135450" conceptFqName="jetbrains.mps.baseLanguage.structure.ExpressionStatement" fileName="OrthogonalLayoutTestPanel.java" startLine="87" startPosition="74" endLine="88" endPosition="41" />
-    <nodeInfo nodeId="903391227141135456" conceptFqName="jetbrains.mps.baseLanguage.structure.ExpressionStatement" fileName="OrthogonalLayoutTestPanel.java" startLine="88" startPosition="41" endLine="89" endPosition="74" />
-    <nodeInfo nodeId="903391227141135468" conceptFqName="jetbrains.mps.baseLanguage.structure.LocalVariableDeclarationStatement" fileName="OrthogonalLayoutTestPanel.java" startLine="89" startPosition="74" endLine="90" endPosition="52" />
-    <nodeInfo nodeId="903391227141135473" conceptFqName="jetbrains.mps.baseLanguage.structure.ExpressionStatement" fileName="OrthogonalLayoutTestPanel.java" startLine="90" startPosition="52" endLine="91" endPosition="16" />
-    <nodeInfo nodeId="903391227141135479" conceptFqName="jetbrains.mps.baseLanguage.structure.ExpressionStatement" fileName="OrthogonalLayoutTestPanel.java" startLine="91" startPosition="16" endLine="92" endPosition="16" />
-    <nodeInfo nodeId="903391227141135485" conceptFqName="jetbrains.mps.baseLanguage.structure.ExpressionStatement" fileName="OrthogonalLayoutTestPanel.java" startLine="92" startPosition="16" endLine="93" endPosition="43" />
-    <nodeInfo nodeId="903391227141135491" conceptFqName="jetbrains.mps.baseLanguage.structure.ExpressionStatement" fileName="OrthogonalLayoutTestPanel.java" startLine="93" startPosition="43" endLine="94" endPosition="30" />
-    <nodeInfo nodeId="903391227141135496" conceptFqName="jetbrains.mps.baseLanguage.structure.ExpressionStatement" fileName="OrthogonalLayoutTestPanel.java" startLine="94" startPosition="30" endLine="95" endPosition="16" />
-    <nodeInfo nodeId="903391227141135502" conceptFqName="jetbrains.mps.baseLanguage.structure.ExpressionStatement" fileName="OrthogonalLayoutTestPanel.java" startLine="95" startPosition="16" endLine="96" endPosition="30" />
-    <nodeInfo nodeId="903391227141135507" conceptFqName="jetbrains.mps.baseLanguage.structure.ExpressionStatement" fileName="OrthogonalLayoutTestPanel.java" startLine="96" startPosition="30" endLine="97" endPosition="16" />
-    <nodeInfo nodeId="903391227141135518" conceptFqName="jetbrains.mps.baseLanguage.structure.ExpressionStatement" fileName="OrthogonalLayoutTestPanel.java" startLine="97" startPosition="16" endLine="98" endPosition="16" />
-    <nodeInfo nodeId="903391227141135524" conceptFqName="jetbrains.mps.baseLanguage.structure.LocalVariableDeclarationStatement" fileName="OrthogonalLayoutTestPanel.java" startLine="98" startPosition="16" endLine="99" endPosition="52" />
-    <nodeInfo nodeId="903391227141135546" conceptFqName="jetbrains.mps.baseLanguage.structure.LocalVariableDeclarationStatement" fileName="OrthogonalLayoutTestPanel.java" startLine="102" startPosition="13" endLine="103" endPosition="69" />
-    <nodeInfo nodeId="903391227141135553" conceptFqName="jetbrains.mps.baseLanguage.structure.LocalVariableDeclarationStatement" fileName="OrthogonalLayoutTestPanel.java" startLine="103" startPosition="69" endLine="104" endPosition="69" />
-    <nodeInfo nodeId="903391227141135560" conceptFqName="jetbrains.mps.baseLanguage.structure.LocalVariableDeclarationStatement" fileName="OrthogonalLayoutTestPanel.java" startLine="104" startPosition="69" endLine="105" endPosition="18" />
-    <nodeInfo nodeId="903391227141136150" conceptFqName="jetbrains.mps.baseLanguage.structure.ExpressionStatement" fileName="OrthogonalLayoutTestPanel.java" startLine="105" startPosition="18" endLine="106" endPosition="84" />
-    <nodeInfo nodeId="903391227141135582" conceptFqName="jetbrains.mps.baseLanguage.structure.ExpressionStatement" fileName="OrthogonalLayoutTestPanel.java" startLine="106" startPosition="84" endLine="107" endPosition="24" />
-    <nodeInfo nodeId="903391227141135589" conceptFqName="jetbrains.mps.baseLanguage.structure.ExpressionStatement" fileName="OrthogonalLayoutTestPanel.java" startLine="108" startPosition="31" endLine="109" endPosition="127" />
-    <nodeInfo nodeId="903391227141135597" conceptFqName="jetbrains.mps.baseLanguage.structure.ExpressionStatement" fileName="OrthogonalLayoutTestPanel.java" startLine="112" startPosition="7" endLine="113" endPosition="21" />
-    <nodeInfo nodeId="903391227141135606" conceptFqName="jetbrains.mps.baseLanguage.structure.LocalVariableDeclarationStatement" fileName="OrthogonalLayoutTestPanel.java" startLine="116" startPosition="39" endLine="117" endPosition="47" />
-    <nodeInfo nodeId="903391227141135612" conceptFqName="jetbrains.mps.baseLanguage.structure.LocalVariableDeclarationStatement" fileName="OrthogonalLayoutTestPanel.java" startLine="117" startPosition="47" endLine="118" endPosition="52" />
-    <nodeInfo nodeId="903391227141135631" conceptFqName="jetbrains.mps.baseLanguage.structure.ExpressionStatement" fileName="OrthogonalLayoutTestPanel.java" startLine="120" startPosition="51" endLine="121" endPosition="22" />
-    <nodeInfo nodeId="903391227141135633" conceptFqName="jetbrains.mps.baseLanguage.structure.ExpressionStatement" fileName="OrthogonalLayoutTestPanel.java" startLine="121" startPosition="22" endLine="122" endPosition="31" />
-    <nodeInfo nodeId="903391227141135637" conceptFqName="jetbrains.mps.baseLanguage.structure.ExpressionStatement" fileName="OrthogonalLayoutTestPanel.java" startLine="124" startPosition="7" endLine="125" endPosition="43" />
-    <nodeInfo nodeId="903391227141135643" conceptFqName="jetbrains.mps.baseLanguage.structure.ExpressionStatement" fileName="OrthogonalLayoutTestPanel.java" startLine="125" startPosition="43" endLine="126" endPosition="51" />
-    <nodeInfo nodeId="903391227141135649" conceptFqName="jetbrains.mps.baseLanguage.structure.ExpressionStatement" fileName="OrthogonalLayoutTestPanel.java" startLine="126" startPosition="51" endLine="127" endPosition="16" />
-    <nodeInfo nodeId="903391227141135655" conceptFqName="jetbrains.mps.baseLanguage.structure.ExpressionStatement" fileName="OrthogonalLayoutTestPanel.java" startLine="127" startPosition="16" endLine="128" endPosition="16" />
-    <nodeInfo nodeId="903391227141135661" conceptFqName="jetbrains.mps.baseLanguage.structure.ExpressionStatement" fileName="OrthogonalLayoutTestPanel.java" startLine="128" startPosition="16" endLine="129" endPosition="20" />
-    <nodeInfo nodeId="903391227141135667" conceptFqName="jetbrains.mps.baseLanguage.structure.ExpressionStatement" fileName="OrthogonalLayoutTestPanel.java" startLine="129" startPosition="20" endLine="130" endPosition="21" />
-    <nodeInfo nodeId="903391227141135673" conceptFqName="jetbrains.mps.baseLanguage.structure.ExpressionStatement" fileName="OrthogonalLayoutTestPanel.java" startLine="130" startPosition="21" endLine="131" endPosition="21" />
-    <nodeInfo nodeId="8680836410351737632" conceptFqName="jetbrains.mps.baseLanguage.structure.LocalVariableDeclarationStatement" fileName="OrthogonalLayoutTestPanel.java" startLine="134" startPosition="40" endLine="135" endPosition="40" />
-    <nodeInfo nodeId="903391227141135705" conceptFqName="jetbrains.mps.baseLanguage.structure.ExpressionStatement" fileName="OrthogonalLayoutTestPanel.java" startLine="135" startPosition="40" endLine="136" endPosition="27" />
-    <nodeInfo nodeId="903391227141135710" conceptFqName="jetbrains.mps.baseLanguage.structure.ExpressionStatement" fileName="OrthogonalLayoutTestPanel.java" startLine="136" startPosition="27" endLine="137" endPosition="97" />
-    <nodeInfo nodeId="8680836410351737650" conceptFqName="jetbrains.mps.baseLanguage.structure.ExpressionStatement" fileName="OrthogonalLayoutTestPanel.java" startLine="138" startPosition="63" endLine="139" endPosition="98" />
-    <nodeInfo nodeId="8680836410351737671" conceptFqName="jetbrains.mps.baseLanguage.structure.ExpressionStatement" fileName="OrthogonalLayoutTestPanel.java" startLine="140" startPosition="5" endLine="141" endPosition="40" />
-    <nodeInfo nodeId="6160477238666742415" conceptFqName="jetbrains.mps.baseLanguage.structure.ExpressionStatement" fileName="OrthogonalLayoutTestPanel.java" startLine="145" startPosition="6" endLine="146" endPosition="73" />
-    <nodeInfo nodeId="903391227141135758" conceptFqName="jetbrains.mps.baseLanguage.structure.LocalVariableDeclarationStatement" fileName="OrthogonalLayoutTestPanel.java" startLine="147" startPosition="6" endLine="148" endPosition="56" />
-    <nodeInfo nodeId="6160477238666745732" conceptFqName="jetbrains.mps.baseLanguage.structure.LocalVariableDeclarationStatement" fileName="OrthogonalLayoutTestPanel.java" startLine="148" startPosition="56" endLine="149" endPosition="166" />
-    <nodeInfo nodeId="490728924230502924" conceptFqName="jetbrains.mps.baseLanguage.structure.LocalVariableDeclarationStatement" fileName="OrthogonalLayoutTestPanel.java" startLine="149" startPosition="166" endLine="150" endPosition="166" />
-    <nodeInfo nodeId="903391227141135766" conceptFqName="jetbrains.mps.baseLanguage.structure.LocalVariableDeclarationStatement" fileName="OrthogonalLayoutTestPanel.java" startLine="150" startPosition="166" endLine="151" endPosition="19" />
-    <nodeInfo nodeId="903391227141135772" conceptFqName="jetbrains.mps.baseLanguage.structure.ExpressionStatement" fileName="OrthogonalLayoutTestPanel.java" startLine="152" startPosition="9" endLine="153" endPosition="37" />
-    <nodeInfo nodeId="8680836410351718570" conceptFqName="jetbrains.mps.baseLanguage.structure.LocalVariableDeclarationStatement" fileName="OrthogonalLayoutTestPanel.java" startLine="153" startPosition="37" endLine="154" endPosition="43" />
-    <nodeInfo nodeId="8680836410351718615" conceptFqName="jetbrains.mps.baseLanguage.structure.LocalVariableDeclarationStatement" fileName="OrthogonalLayoutTestPanel.java" startLine="155" startPosition="46" endLine="156" endPosition="49" />
-    <nodeInfo nodeId="8680836410351718624" conceptFqName="jetbrains.mps.baseLanguage.structure.ExpressionStatement" fileName="OrthogonalLayoutTestPanel.java" startLine="156" startPosition="49" endLine="157" endPosition="143" />
-    <nodeInfo nodeId="8680836410351718644" conceptFqName="jetbrains.mps.baseLanguage.structure.LocalVariableDeclarationStatement" fileName="OrthogonalLayoutTestPanel.java" startLine="158" startPosition="7" endLine="159" endPosition="45" />
-    <nodeInfo nodeId="8680836410351718652" conceptFqName="jetbrains.mps.baseLanguage.structure.LocalVariableDeclarationStatement" fileName="OrthogonalLayoutTestPanel.java" startLine="160" startPosition="48" endLine="161" endPosition="51" />
-    <nodeInfo nodeId="8680836410351718686" conceptFqName="jetbrains.mps.baseLanguage.structure.LocalVariableDeclarationStatement" fileName="OrthogonalLayoutTestPanel.java" startLine="161" startPosition="51" endLine="162" endPosition="57" />
-    <nodeInfo nodeId="8680836410351735748" conceptFqName="jetbrains.mps.baseLanguage.structure.ReturnStatement" fileName="OrthogonalLayoutTestPanel.java" startLine="164" startPosition="42" endLine="165" endPosition="44" />
-    <nodeInfo nodeId="5368829933099715632" conceptFqName="jetbrains.mps.baseLanguage.structure.ThrowStatement" fileName="OrthogonalLayoutTestPanel.java" startLine="168" startPosition="27" endLine="169" endPosition="93" />
-    <nodeInfo nodeId="8680836410351718661" conceptFqName="jetbrains.mps.baseLanguage.structure.ExpressionStatement" fileName="OrthogonalLayoutTestPanel.java" startLine="170" startPosition="9" endLine="171" endPosition="143" />
-    <nodeInfo nodeId="903391227141135781" conceptFqName="jetbrains.mps.baseLanguage.structure.ExpressionStatement" fileName="OrthogonalLayoutTestPanel.java" startLine="173" startPosition="42" endLine="174" endPosition="91" />
-    <nodeInfo nodeId="6160477238666745762" conceptFqName="jetbrains.mps.baseLanguage.structure.ExpressionStatement" fileName="OrthogonalLayoutTestPanel.java" startLine="178" startPosition="68" endLine="179" endPosition="150" />
-    <nodeInfo nodeId="8680836410351750036" conceptFqName="jetbrains.mps.baseLanguage.structure.ExpressionStatement" fileName="OrthogonalLayoutTestPanel.java" startLine="184" startPosition="73" endLine="185" endPosition="151" />
-    <nodeInfo nodeId="3848593518650118051" conceptFqName="jetbrains.mps.baseLanguage.structure.LocalVariableDeclarationStatement" fileName="OrthogonalLayoutTestPanel.java" startLine="188" startPosition="7" endLine="189" endPosition="48" />
-    <nodeInfo nodeId="3848593518650118069" conceptFqName="jetbrains.mps.baseLanguage.structure.ExpressionStatement" fileName="OrthogonalLayoutTestPanel.java" startLine="190" startPosition="91" endLine="191" endPosition="84" />
-    <nodeInfo nodeId="3848593518650118094" conceptFqName="jetbrains.mps.baseLanguage.structure.ExpressionStatement" fileName="OrthogonalLayoutTestPanel.java" startLine="193" startPosition="91" endLine="194" endPosition="85" />
-    <nodeInfo nodeId="903391227141138873" conceptFqName="jetbrains.mps.baseLanguage.structure.ExpressionStatement" fileName="OrthogonalLayoutTestPanel.java" startLine="195" startPosition="7" endLine="196" endPosition="56" />
-    <nodeInfo nodeId="9047589280051535853" conceptFqName="jetbrains.mps.baseLanguage.structure.ExpressionStatement" fileName="OrthogonalLayoutTestPanel.java" startLine="196" startPosition="56" endLine="197" endPosition="71" />
-    <nodeInfo nodeId="194249616896380519" conceptFqName="jetbrains.mps.baseLanguage.structure.ExpressionStatement" fileName="OrthogonalLayoutTestPanel.java" startLine="198" startPosition="8" endLine="199" endPosition="61" />
-    <nodeInfo nodeId="903391227141135796" conceptFqName="jetbrains.mps.baseLanguage.structure.ExpressionStatement" fileName="OrthogonalLayoutTestPanel.java" startLine="204" startPosition="34" endLine="205" endPosition="39" />
-    <nodeInfo nodeId="903391227141135803" conceptFqName="jetbrains.mps.baseLanguage.structure.ExpressionStatement" fileName="OrthogonalLayoutTestPanel.java" startLine="205" startPosition="39" endLine="206" endPosition="79" />
-    <nodeInfo nodeId="903391227141135809" conceptFqName="jetbrains.mps.baseLanguage.structure.LocalVariableDeclarationStatement" fileName="OrthogonalLayoutTestPanel.java" startLine="206" startPosition="79" endLine="207" endPosition="52" />
-    <nodeInfo nodeId="903391227141135814" conceptFqName="jetbrains.mps.baseLanguage.structure.ExpressionStatement" fileName="OrthogonalLayoutTestPanel.java" startLine="207" startPosition="52" endLine="208" endPosition="41" />
-    <nodeInfo nodeId="903391227141135820" conceptFqName="jetbrains.mps.baseLanguage.structure.ExpressionStatement" fileName="OrthogonalLayoutTestPanel.java" startLine="208" startPosition="41" endLine="209" endPosition="48" />
-    <nodeInfo nodeId="903391227141135826" conceptFqName="jetbrains.mps.baseLanguage.structure.ExpressionStatement" fileName="OrthogonalLayoutTestPanel.java" startLine="209" startPosition="48" endLine="210" endPosition="16" />
-    <nodeInfo nodeId="903391227141135832" conceptFqName="jetbrains.mps.baseLanguage.structure.ExpressionStatement" fileName="OrthogonalLayoutTestPanel.java" startLine="210" startPosition="16" endLine="211" endPosition="16" />
-    <nodeInfo nodeId="903391227141135838" conceptFqName="jetbrains.mps.baseLanguage.structure.ExpressionStatement" fileName="OrthogonalLayoutTestPanel.java" startLine="211" startPosition="16" endLine="212" endPosition="18" />
-    <nodeInfo nodeId="903391227141135844" conceptFqName="jetbrains.mps.baseLanguage.structure.ExpressionStatement" fileName="OrthogonalLayoutTestPanel.java" startLine="212" startPosition="18" endLine="213" endPosition="28" />
-    <nodeInfo nodeId="903391227141135854" conceptFqName="jetbrains.mps.baseLanguage.structure.ExpressionStatement" fileName="OrthogonalLayoutTestPanel.java" startLine="216" startPosition="35" endLine="217" endPosition="64" />
-    <nodeInfo nodeId="903391227141135859" conceptFqName="jetbrains.mps.baseLanguage.structure.ExpressionStatement" fileName="OrthogonalLayoutTestPanel.java" startLine="217" startPosition="64" endLine="218" endPosition="77" />
-    <nodeInfo nodeId="903391227141135865" conceptFqName="jetbrains.mps.baseLanguage.structure.LocalVariableDeclarationStatement" fileName="OrthogonalLayoutTestPanel.java" startLine="218" startPosition="77" endLine="219" endPosition="52" />
-    <nodeInfo nodeId="903391227141135870" conceptFqName="jetbrains.mps.baseLanguage.structure.ExpressionStatement" fileName="OrthogonalLayoutTestPanel.java" startLine="219" startPosition="52" endLine="220" endPosition="37" />
-    <nodeInfo nodeId="903391227141135876" conceptFqName="jetbrains.mps.baseLanguage.structure.ExpressionStatement" fileName="OrthogonalLayoutTestPanel.java" startLine="220" startPosition="37" endLine="221" endPosition="47" />
-    <nodeInfo nodeId="903391227141135882" conceptFqName="jetbrains.mps.baseLanguage.structure.ExpressionStatement" fileName="OrthogonalLayoutTestPanel.java" startLine="221" startPosition="47" endLine="222" endPosition="48" />
-    <nodeInfo nodeId="903391227141135888" conceptFqName="jetbrains.mps.baseLanguage.structure.ExpressionStatement" fileName="OrthogonalLayoutTestPanel.java" startLine="222" startPosition="48" endLine="223" endPosition="16" />
-    <nodeInfo nodeId="903391227141135894" conceptFqName="jetbrains.mps.baseLanguage.structure.ExpressionStatement" fileName="OrthogonalLayoutTestPanel.java" startLine="223" startPosition="16" endLine="224" endPosition="16" />
-    <nodeInfo nodeId="903391227141135900" conceptFqName="jetbrains.mps.baseLanguage.structure.ExpressionStatement" fileName="OrthogonalLayoutTestPanel.java" startLine="224" startPosition="16" endLine="225" endPosition="18" />
-    <nodeInfo nodeId="903391227141135906" conceptFqName="jetbrains.mps.baseLanguage.structure.ExpressionStatement" fileName="OrthogonalLayoutTestPanel.java" startLine="225" startPosition="18" endLine="226" endPosition="18" />
-    <nodeInfo nodeId="903391227141135919" conceptFqName="jetbrains.mps.baseLanguage.structure.ExpressionStatement" fileName="OrthogonalLayoutTestPanel.java" startLine="226" startPosition="18" endLine="227" endPosition="47" />
-    <nodeInfo nodeId="903391227141136015" conceptFqName="jetbrains.mps.baseLanguage.structure.LocalVariableDeclarationStatement" fileName="OrthogonalLayoutTestPanel.java" startLine="230" startPosition="32" endLine="231" endPosition="32" />
-    <nodeInfo nodeId="903391227141136020" conceptFqName="jetbrains.mps.baseLanguage.structure.ExpressionStatement" fileName="OrthogonalLayoutTestPanel.java" startLine="231" startPosition="32" endLine="232" endPosition="57" />
-    <nodeInfo nodeId="903391227141136025" conceptFqName="jetbrains.mps.baseLanguage.structure.ExpressionStatement" fileName="OrthogonalLayoutTestPanel.java" startLine="232" startPosition="57" endLine="233" endPosition="47" />
-    <nodeInfo nodeId="903391227141136031" conceptFqName="jetbrains.mps.baseLanguage.structure.ExpressionStatement" fileName="OrthogonalLayoutTestPanel.java" startLine="233" startPosition="47" endLine="234" endPosition="68" />
-    <nodeInfo nodeId="903391227141136036" conceptFqName="jetbrains.mps.baseLanguage.structure.ExpressionStatement" fileName="OrthogonalLayoutTestPanel.java" startLine="234" startPosition="68" endLine="235" endPosition="17" />
-    <nodeInfo nodeId="903391227141136040" conceptFqName="jetbrains.mps.baseLanguage.structure.ExpressionStatement" fileName="OrthogonalLayoutTestPanel.java" startLine="235" startPosition="17" endLine="236" endPosition="27" />
-    <nodeInfo nodeId="903391227141136059" conceptFqName="jetbrains.mps.baseLanguage.structure.ExpressionStatement" fileName="OrthogonalLayoutTestPanel.java" startLine="241" startPosition="25" endLine="242" endPosition="17" />
-    <nodeInfo nodeId="6160477238666743957" conceptFqName="jetbrains.mps.baseLanguage.structure.FieldDeclaration" fileName="OrthogonalLayoutTestPanel.java" startLine="247" startPosition="46" endLine="248" endPosition="30" />
-    <nodeInfo nodeId="8680836410351744506" conceptFqName="jetbrains.mps.baseLanguage.structure.FieldDeclaration" fileName="OrthogonalLayoutTestPanel.java" startLine="248" startPosition="30" endLine="249" endPosition="44" />
-    <nodeInfo nodeId="6160477238666740870" conceptFqName="jetbrains.mps.baseLanguage.structure.LocalVariableDeclarationStatement" fileName="OrthogonalLayoutTestPanel.java" startLine="251" startPosition="29" endLine="252" endPosition="44" />
-    <nodeInfo nodeId="6160477238666741127" conceptFqName="jetbrains.mps.baseLanguage.structure.LocalVariableDeclarationStatement" fileName="OrthogonalLayoutTestPanel.java" startLine="252" startPosition="44" endLine="253" endPosition="54" />
-    <nodeInfo nodeId="6160477238666741132" conceptFqName="jetbrains.mps.baseLanguage.structure.ExpressionStatement" fileName="OrthogonalLayoutTestPanel.java" startLine="253" startPosition="54" endLine="254" endPosition="43" />
-    <nodeInfo nodeId="6160477238666741138" conceptFqName="jetbrains.mps.baseLanguage.structure.ExpressionStatement" fileName="OrthogonalLayoutTestPanel.java" startLine="254" startPosition="43" endLine="255" endPosition="18" />
-    <nodeInfo nodeId="6160477238666741159" conceptFqName="jetbrains.mps.baseLanguage.structure.ExpressionStatement" fileName="OrthogonalLayoutTestPanel.java" startLine="255" startPosition="18" endLine="256" endPosition="18" />
-    <nodeInfo nodeId="6160477238666743968" conceptFqName="jetbrains.mps.baseLanguage.structure.LocalVariableDeclarationStatement" fileName="OrthogonalLayoutTestPanel.java" startLine="256" startPosition="18" endLine="257" endPosition="66" />
-    <nodeInfo nodeId="6160477238666744023" conceptFqName="jetbrains.mps.baseLanguage.structure.ExpressionStatement" fileName="OrthogonalLayoutTestPanel.java" startLine="259" startPosition="53" endLine="260" endPosition="28" />
-    <nodeInfo nodeId="6160477238666740909" conceptFqName="jetbrains.mps.baseLanguage.structure.ExpressionStatement" fileName="OrthogonalLayoutTestPanel.java" startLine="262" startPosition="9" endLine="263" endPosition="23" />
-    <nodeInfo nodeId="6160477238666743977" conceptFqName="jetbrains.mps.baseLanguage.structure.ExpressionStatement" fileName="OrthogonalLayoutTestPanel.java" startLine="263" startPosition="23" endLine="264" endPosition="24" />
-    <nodeInfo nodeId="6160477238666741096" conceptFqName="jetbrains.mps.baseLanguage.structure.ExpressionStatement" fileName="OrthogonalLayoutTestPanel.java" startLine="264" startPosition="24" endLine="265" endPosition="18" />
-    <nodeInfo nodeId="6160477238666741166" conceptFqName="jetbrains.mps.baseLanguage.structure.ExpressionStatement" fileName="OrthogonalLayoutTestPanel.java" startLine="265" startPosition="18" endLine="266" endPosition="48" />
-    <nodeInfo nodeId="6160477238666744063" conceptFqName="jetbrains.mps.baseLanguage.structure.ExpressionStatement" fileName="OrthogonalLayoutTestPanel.java" startLine="268" startPosition="53" endLine="269" endPosition="28" />
-    <nodeInfo nodeId="6160477238666741173" conceptFqName="jetbrains.mps.baseLanguage.structure.ExpressionStatement" fileName="OrthogonalLayoutTestPanel.java" startLine="271" startPosition="9" endLine="272" endPosition="23" />
-    <nodeInfo nodeId="6160477238666743988" conceptFqName="jetbrains.mps.baseLanguage.structure.ExpressionStatement" fileName="OrthogonalLayoutTestPanel.java" startLine="272" startPosition="23" endLine="273" endPosition="24" />
-    <nodeInfo nodeId="6160477238666741182" conceptFqName="jetbrains.mps.baseLanguage.structure.ExpressionStatement" fileName="OrthogonalLayoutTestPanel.java" startLine="273" startPosition="24" endLine="274" endPosition="18" />
-    <nodeInfo nodeId="6160477238666741188" conceptFqName="jetbrains.mps.baseLanguage.structure.ExpressionStatement" fileName="OrthogonalLayoutTestPanel.java" startLine="274" startPosition="18" endLine="275" endPosition="52" />
-    <nodeInfo nodeId="6160477238666744082" conceptFqName="jetbrains.mps.baseLanguage.structure.ExpressionStatement" fileName="OrthogonalLayoutTestPanel.java" startLine="277" startPosition="53" endLine="278" endPosition="28" />
-    <nodeInfo nodeId="6160477238666741194" conceptFqName="jetbrains.mps.baseLanguage.structure.ExpressionStatement" fileName="OrthogonalLayoutTestPanel.java" startLine="280" startPosition="9" endLine="281" endPosition="23" />
-    <nodeInfo nodeId="6160477238666741201" conceptFqName="jetbrains.mps.baseLanguage.structure.ExpressionStatement" fileName="OrthogonalLayoutTestPanel.java" startLine="281" startPosition="23" endLine="282" endPosition="24" />
-    <nodeInfo nodeId="6160477238666742152" conceptFqName="jetbrains.mps.baseLanguage.structure.ExpressionStatement" fileName="OrthogonalLayoutTestPanel.java" startLine="282" startPosition="24" endLine="283" endPosition="31" />
-    <nodeInfo nodeId="8680836410351744512" conceptFqName="jetbrains.mps.baseLanguage.structure.ExpressionStatement" fileName="OrthogonalLayoutTestPanel.java" startLine="283" startPosition="31" endLine="284" endPosition="18" />
-    <nodeInfo nodeId="8680836410351744524" conceptFqName="jetbrains.mps.baseLanguage.structure.ExpressionStatement" fileName="OrthogonalLayoutTestPanel.java" startLine="284" startPosition="18" endLine="285" endPosition="60" />
-    <nodeInfo nodeId="8680836410351749720" conceptFqName="jetbrains.mps.baseLanguage.structure.ExpressionStatement" fileName="OrthogonalLayoutTestPanel.java" startLine="285" startPosition="60" endLine="286" endPosition="23" />
-    <nodeInfo nodeId="8680836410351749730" conceptFqName="jetbrains.mps.baseLanguage.structure.ExpressionStatement" fileName="OrthogonalLayoutTestPanel.java" startLine="286" startPosition="23" endLine="287" endPosition="31" />
-    <nodeInfo nodeId="8680836410351749775" conceptFqName="jetbrains.mps.baseLanguage.structure.ExpressionStatement" fileName="OrthogonalLayoutTestPanel.java" startLine="287" startPosition="31" endLine="288" endPosition="34" />
-    <nodeInfo nodeId="6160477238666744005" conceptFqName="jetbrains.mps.baseLanguage.structure.ExpressionStatement" fileName="OrthogonalLayoutTestPanel.java" startLine="288" startPosition="34" endLine="289" endPosition="24" />
-    <nodeInfo nodeId="6160477238666743961" conceptFqName="jetbrains.mps.baseLanguage.structure.ReturnStatement" fileName="OrthogonalLayoutTestPanel.java" startLine="292" startPosition="41" endLine="293" endPosition="27" />
-    <nodeInfo nodeId="8680836410351749795" conceptFqName="jetbrains.mps.baseLanguage.structure.ReturnStatement" fileName="OrthogonalLayoutTestPanel.java" startLine="296" startPosition="34" endLine="297" endPosition="45" />
-    <nodeInfo nodeId="903391227141135214" conceptFqName="jetbrains.mps.baseLanguage.structure.SuperConstructorInvocation" fileName="OrthogonalLayoutTestPanel.java" startLine="302" startPosition="27" endLine="303" endPosition="14" />
-    <nodeInfo nodeId="903391227141136096" conceptFqName="jetbrains.mps.baseLanguage.structure.ExpressionStatement" fileName="OrthogonalLayoutTestPanel.java" startLine="308" startPosition="36" endLine="309" endPosition="55" />
-    <nodeInfo nodeId="903391227141136110" conceptFqName="jetbrains.mps.baseLanguage.structure.ExpressionStatement" fileName="OrthogonalLayoutTestPanel.java" startLine="310" startPosition="14" endLine="311" endPosition="51" />
-    <nodeInfo nodeId="903391227141136108" conceptFqName="jetbrains.mps.baseLanguage.structure.BlockStatement" fileName="OrthogonalLayoutTestPanel.java" startLine="310" startPosition="12" endLine="312" endPosition="7" />
-    <nodeInfo nodeId="3698135283642035869" conceptFqName="jetbrains.mps.baseLanguage.structure.CommentedStatementsBlock" fileName="OrthogonalLayoutTestPanel.java" startLine="64" startPosition="23" endLine="67" endPosition="6" />
-    <nodeInfo nodeId="3698135283642039221" conceptFqName="jetbrains.mps.baseLanguage.structure.CommentedStatementsBlock" fileName="OrthogonalLayoutTestPanel.java" startLine="68" startPosition="58" endLine="71" endPosition="6" />
-    <nodeInfo nodeId="8680836410351737619" conceptFqName="jetbrains.mps.baseLanguage.structure.ForeachStatement" fileName="OrthogonalLayoutTestPanel.java" startLine="137" startPosition="97" endLine="140" endPosition="5" />
-    <nodeInfo nodeId="3698135283642039222" conceptFqName="jetbrains.mps.baseLanguage.structure.CommentedStatementsBlock" fileName="OrthogonalLayoutTestPanel.java" startLine="144" startPosition="30" endLine="147" endPosition="6" />
-    <nodeInfo nodeId="5368829933099715616" conceptFqName="jetbrains.mps.baseLanguage.structure.IfStatement" fileName="OrthogonalLayoutTestPanel.java" startLine="167" startPosition="19" endLine="170" endPosition="9" />
-    <nodeInfo nodeId="1418350014056289141" conceptFqName="jetbrains.mps.baseLanguage.structure.IfStatement" fileName="OrthogonalLayoutTestPanel.java" startLine="177" startPosition="61" endLine="180" endPosition="9" />
-    <nodeInfo nodeId="8680836410351750024" conceptFqName="jetbrains.mps.baseLanguage.structure.IfStatement" fileName="OrthogonalLayoutTestPanel.java" startLine="183" startPosition="63" endLine="186" endPosition="11" />
-    <nodeInfo nodeId="3848593518650118059" conceptFqName="jetbrains.mps.baseLanguage.structure.ForeachStatement" fileName="OrthogonalLayoutTestPanel.java" startLine="189" startPosition="48" endLine="192" endPosition="7" />
-    <nodeInfo nodeId="3848593518650118084" conceptFqName="jetbrains.mps.baseLanguage.structure.ForeachStatement" fileName="OrthogonalLayoutTestPanel.java" startLine="192" startPosition="7" endLine="195" endPosition="7" />
-    <nodeInfo nodeId="194249616896467922" conceptFqName="jetbrains.mps.baseLanguage.structure.CommentedStatementsBlock" fileName="OrthogonalLayoutTestPanel.java" startLine="197" startPosition="71" endLine="200" endPosition="8" />
-    <nodeInfo nodeId="903391227141135210" conceptFqName="jetbrains.mps.baseLanguage.structure.ConstructorDeclaration" fileName="OrthogonalLayoutTestPanel.java" startLine="301" startPosition="45" endLine="304" endPosition="5" />
-    <nodeInfo nodeId="8680836410351718604" conceptFqName="jetbrains.mps.baseLanguage.structure.ForStatement" fileName="OrthogonalLayoutTestPanel.java" startLine="154" startPosition="43" endLine="158" endPosition="7" />
-    <nodeInfo nodeId="8680836410351718720" conceptFqName="jetbrains.mps.baseLanguage.structure.InstanceMethodDeclaration" fileName="OrthogonalLayoutTestPanel.java" startLine="163" startPosition="96" endLine="167" endPosition="0" />
-    <nodeInfo nodeId="903391227141136055" conceptFqName="jetbrains.mps.baseLanguage.structure.InstanceMethodDeclaration" fileName="OrthogonalLayoutTestPanel.java" startLine="240" startPosition="47" endLine="244" endPosition="0" />
-    <nodeInfo nodeId="6160477238666744017" conceptFqName="jetbrains.mps.baseLanguage.structure.InstanceMethodDeclaration" fileName="OrthogonalLayoutTestPanel.java" startLine="258" startPosition="53" endLine="262" endPosition="0" />
-    <nodeInfo nodeId="6160477238666744057" conceptFqName="jetbrains.mps.baseLanguage.structure.InstanceMethodDeclaration" fileName="OrthogonalLayoutTestPanel.java" startLine="267" startPosition="53" endLine="271" endPosition="0" />
-    <nodeInfo nodeId="6160477238666744076" conceptFqName="jetbrains.mps.baseLanguage.structure.InstanceMethodDeclaration" fileName="OrthogonalLayoutTestPanel.java" startLine="276" startPosition="53" endLine="280" endPosition="0" />
-    <nodeInfo nodeId="6160477238666742339" conceptFqName="jetbrains.mps.baseLanguage.structure.InstanceMethodDeclaration" fileName="OrthogonalLayoutTestPanel.java" startLine="291" startPosition="0" endLine="295" endPosition="0" />
-    <nodeInfo nodeId="8680836410351749781" conceptFqName="jetbrains.mps.baseLanguage.structure.InstanceMethodDeclaration" fileName="OrthogonalLayoutTestPanel.java" startLine="295" startPosition="0" endLine="299" endPosition="0" />
-    <nodeInfo nodeId="903391227141135625" conceptFqName="jetbrains.mps.baseLanguage.structure.InstanceMethodDeclaration" fileName="OrthogonalLayoutTestPanel.java" startLine="119" startPosition="51" endLine="124" endPosition="0" />
-    <nodeInfo nodeId="8680836410351718705" conceptFqName="jetbrains.mps.baseLanguage.structure.LocalVariableDeclarationStatement" fileName="OrthogonalLayoutTestPanel.java" startLine="162" startPosition="57" endLine="167" endPosition="19" />
-    <nodeInfo nodeId="903391227141155926" conceptFqName="jetbrains.mps.baseLanguage.structure.ForeachStatement" fileName="OrthogonalLayoutTestPanel.java" startLine="176" startPosition="20" endLine="181" endPosition="7" />
-    <nodeInfo nodeId="8680836410351750014" conceptFqName="jetbrains.mps.baseLanguage.structure.ForeachStatement" fileName="OrthogonalLayoutTestPanel.java" startLine="182" startPosition="41" endLine="187" endPosition="9" />
-    <nodeInfo nodeId="903391227141136049" conceptFqName="jetbrains.mps.baseLanguage.structure.ExpressionStatement" fileName="OrthogonalLayoutTestPanel.java" startLine="239" startPosition="42" endLine="244" endPosition="7" />
-    <nodeInfo nodeId="6160477238666743998" conceptFqName="jetbrains.mps.baseLanguage.structure.ExpressionStatement" fileName="OrthogonalLayoutTestPanel.java" startLine="257" startPosition="66" endLine="262" endPosition="9" />
-    <nodeInfo nodeId="6160477238666744049" conceptFqName="jetbrains.mps.baseLanguage.structure.ExpressionStatement" fileName="OrthogonalLayoutTestPanel.java" startLine="266" startPosition="48" endLine="271" endPosition="9" />
-    <nodeInfo nodeId="6160477238666744068" conceptFqName="jetbrains.mps.baseLanguage.structure.ExpressionStatement" fileName="OrthogonalLayoutTestPanel.java" startLine="275" startPosition="52" endLine="280" endPosition="9" />
-    <nodeInfo nodeId="903391227141136088" conceptFqName="jetbrains.mps.baseLanguage.structure.IfStatement" fileName="OrthogonalLayoutTestPanel.java" startLine="307" startPosition="51" endLine="312" endPosition="7" />
-    <nodeInfo nodeId="903391227141135617" conceptFqName="jetbrains.mps.baseLanguage.structure.ExpressionStatement" fileName="OrthogonalLayoutTestPanel.java" startLine="118" startPosition="52" endLine="124" endPosition="7" />
-    <nodeInfo nodeId="8680836410351750004" conceptFqName="jetbrains.mps.baseLanguage.structure.IfStatement" fileName="OrthogonalLayoutTestPanel.java" startLine="181" startPosition="7" endLine="188" endPosition="7" />
-    <nodeInfo nodeId="903391227141136045" conceptFqName="jetbrains.mps.baseLanguage.structure.StaticMethodDeclaration" fileName="OrthogonalLayoutTestPanel.java" startLine="238" startPosition="0" endLine="246" endPosition="0" />
-    <nodeInfo nodeId="6160477238666723341" conceptFqName="jetbrains.mps.baseLanguage.structure.InstanceMethodDeclaration" fileName="OrthogonalLayoutTestPanel.java" startLine="75" startPosition="0" endLine="84" endPosition="0" />
-    <nodeInfo nodeId="903391227141135544" conceptFqName="jetbrains.mps.baseLanguage.structure.TryCatchStatement" fileName="OrthogonalLayoutTestPanel.java" startLine="101" startPosition="51" endLine="110" endPosition="9" />
-    <nodeInfo nodeId="903391227141136011" conceptFqName="jetbrains.mps.baseLanguage.structure.StaticMethodDeclaration" fileName="OrthogonalLayoutTestPanel.java" startLine="229" startPosition="0" endLine="238" endPosition="0" />
-    <nodeInfo nodeId="903391227141135216" conceptFqName="jetbrains.mps.baseLanguage.structure.InstanceMethodDeclaration" fileName="OrthogonalLayoutTestPanel.java" startLine="305" startPosition="0" endLine="314" endPosition="0" />
-    <nodeInfo nodeId="903391227141135678" conceptFqName="jetbrains.mps.baseLanguage.structure.InstanceMethodDeclaration" fileName="OrthogonalLayoutTestPanel.java" startLine="133" startPosition="0" endLine="143" endPosition="0" />
-    <nodeInfo nodeId="903391227141135538" conceptFqName="jetbrains.mps.baseLanguage.structure.InstanceMethodDeclaration" fileName="OrthogonalLayoutTestPanel.java" startLine="100" startPosition="51" endLine="112" endPosition="0" />
-    <nodeInfo nodeId="903391227141135792" conceptFqName="jetbrains.mps.baseLanguage.structure.InstanceMethodDeclaration" fileName="OrthogonalLayoutTestPanel.java" startLine="203" startPosition="0" endLine="215" endPosition="0" />
-    <nodeInfo nodeId="903391227141135530" conceptFqName="jetbrains.mps.baseLanguage.structure.ExpressionStatement" fileName="OrthogonalLayoutTestPanel.java" startLine="99" startPosition="52" endLine="112" endPosition="7" />
-    <nodeInfo nodeId="8680836410351718650" conceptFqName="jetbrains.mps.baseLanguage.structure.ForStatement" fileName="OrthogonalLayoutTestPanel.java" startLine="159" startPosition="45" endLine="172" endPosition="7" />
-    <nodeInfo nodeId="903391227141135850" conceptFqName="jetbrains.mps.baseLanguage.structure.InstanceMethodDeclaration" fileName="OrthogonalLayoutTestPanel.java" startLine="215" startPosition="0" endLine="229" endPosition="0" />
-    <nodeInfo nodeId="903391227141135947" conceptFqName="jetbrains.mps.baseLanguage.structure.ConstructorDeclaration" fileName="OrthogonalLayoutTestPanel.java" startLine="57" startPosition="0" endLine="74" endPosition="3" />
-    <nodeInfo nodeId="903391227141135602" conceptFqName="jetbrains.mps.baseLanguage.structure.InstanceMethodDeclaration" fileName="OrthogonalLayoutTestPanel.java" startLine="115" startPosition="0" endLine="133" endPosition="0" />
-    <nodeInfo nodeId="903391227141135770" conceptFqName="jetbrains.mps.baseLanguage.structure.TryCatchStatement" fileName="OrthogonalLayoutTestPanel.java" startLine="151" startPosition="19" endLine="175" endPosition="5" />
-    <nodeInfo nodeId="903391227141138859" conceptFqName="jetbrains.mps.baseLanguage.structure.IfStatement" fileName="OrthogonalLayoutTestPanel.java" startLine="175" startPosition="5" endLine="201" endPosition="5" />
-    <nodeInfo nodeId="903391227141135434" conceptFqName="jetbrains.mps.baseLanguage.structure.InstanceMethodDeclaration" fileName="OrthogonalLayoutTestPanel.java" startLine="84" startPosition="0" endLine="115" endPosition="0" />
-    <nodeInfo nodeId="6160477238666740866" conceptFqName="jetbrains.mps.baseLanguage.structure.ConstructorDeclaration" fileName="OrthogonalLayoutTestPanel.java" startLine="250" startPosition="0" endLine="290" endPosition="5" />
-    <nodeInfo nodeId="903391227141135754" conceptFqName="jetbrains.mps.baseLanguage.structure.InstanceMethodDeclaration" fileName="OrthogonalLayoutTestPanel.java" startLine="143" startPosition="0" endLine="203" endPosition="0" />
-    <scopeInfo nodeId="903391227141135585" fileName="OrthogonalLayoutTestPanel.java" startLine="108" startPosition="0" endLine="109" endPosition="127">
+    <nodeInfo nodeId="903391227141135927" conceptFqName="jetbrains.mps.baseLanguage.structure.StaticFieldDeclaration" fileName="OrthogonalLayoutTestPanel.java" startLine="44" startPosition="55" endLine="45" endPosition="69" />
+    <nodeInfo nodeId="1418350014056289153" conceptFqName="jetbrains.mps.baseLanguage.structure.StaticFieldDeclaration" fileName="OrthogonalLayoutTestPanel.java" startLine="45" startPosition="69" endLine="46" endPosition="50" />
+    <nodeInfo nodeId="490728924230502971" conceptFqName="jetbrains.mps.baseLanguage.structure.StaticFieldDeclaration" fileName="OrthogonalLayoutTestPanel.java" startLine="46" startPosition="50" endLine="47" endPosition="52" />
+    <nodeInfo nodeId="490728924230502980" conceptFqName="jetbrains.mps.baseLanguage.structure.StaticFieldDeclaration" fileName="OrthogonalLayoutTestPanel.java" startLine="47" startPosition="52" endLine="48" endPosition="52" />
+    <nodeInfo nodeId="903391227141135413" conceptFqName="jetbrains.mps.baseLanguage.structure.FieldDeclaration" fileName="OrthogonalLayoutTestPanel.java" startLine="49" startPosition="0" endLine="50" endPosition="31" />
+    <nodeInfo nodeId="903391227141135416" conceptFqName="jetbrains.mps.baseLanguage.structure.FieldDeclaration" fileName="OrthogonalLayoutTestPanel.java" startLine="50" startPosition="31" endLine="51" endPosition="62" />
+    <nodeInfo nodeId="903391227141136156" conceptFqName="jetbrains.mps.baseLanguage.structure.FieldDeclaration" fileName="OrthogonalLayoutTestPanel.java" startLine="51" startPosition="62" endLine="52" endPosition="52" />
+    <nodeInfo nodeId="903391227141136131" conceptFqName="jetbrains.mps.baseLanguage.structure.FieldDeclaration" fileName="OrthogonalLayoutTestPanel.java" startLine="52" startPosition="52" endLine="53" endPosition="34" />
+    <nodeInfo nodeId="903391227141135422" conceptFqName="jetbrains.mps.baseLanguage.structure.FieldDeclaration" fileName="OrthogonalLayoutTestPanel.java" startLine="53" startPosition="34" endLine="54" endPosition="39" />
+    <nodeInfo nodeId="903391227141135425" conceptFqName="jetbrains.mps.baseLanguage.structure.FieldDeclaration" fileName="OrthogonalLayoutTestPanel.java" startLine="54" startPosition="39" endLine="55" endPosition="37" />
+    <nodeInfo nodeId="903391227141135428" conceptFqName="jetbrains.mps.baseLanguage.structure.FieldDeclaration" fileName="OrthogonalLayoutTestPanel.java" startLine="55" startPosition="37" endLine="56" endPosition="37" />
+    <nodeInfo nodeId="6160477238666742422" conceptFqName="jetbrains.mps.baseLanguage.structure.FieldDeclaration" fileName="OrthogonalLayoutTestPanel.java" startLine="56" startPosition="37" endLine="57" endPosition="66" />
+    <nodeInfo nodeId="903391227141135951" conceptFqName="jetbrains.mps.baseLanguage.structure.ExpressionStatement" fileName="OrthogonalLayoutTestPanel.java" startLine="59" startPosition="38" endLine="60" endPosition="40" />
+    <nodeInfo nodeId="903391227141135957" conceptFqName="jetbrains.mps.baseLanguage.structure.ExpressionStatement" fileName="OrthogonalLayoutTestPanel.java" startLine="60" startPosition="40" endLine="61" endPosition="27" />
+    <nodeInfo nodeId="903391227141135959" conceptFqName="jetbrains.mps.baseLanguage.structure.ExpressionStatement" fileName="OrthogonalLayoutTestPanel.java" startLine="61" startPosition="27" endLine="62" endPosition="27" />
+    <nodeInfo nodeId="6160477238666723347" conceptFqName="jetbrains.mps.baseLanguage.structure.ExpressionStatement" fileName="OrthogonalLayoutTestPanel.java" startLine="62" startPosition="27" endLine="63" endPosition="32" />
+    <nodeInfo nodeId="903391227141135961" conceptFqName="jetbrains.mps.baseLanguage.structure.ExpressionStatement" fileName="OrthogonalLayoutTestPanel.java" startLine="63" startPosition="32" endLine="64" endPosition="22" />
+    <nodeInfo nodeId="903391227141135963" conceptFqName="jetbrains.mps.baseLanguage.structure.ExpressionStatement" fileName="OrthogonalLayoutTestPanel.java" startLine="64" startPosition="22" endLine="65" endPosition="23" />
+    <nodeInfo nodeId="903391227141135965" conceptFqName="jetbrains.mps.baseLanguage.structure.ExpressionStatement" fileName="OrthogonalLayoutTestPanel.java" startLine="66" startPosition="6" endLine="67" endPosition="48" />
+    <nodeInfo nodeId="3698135283642035871" conceptFqName="jetbrains.mps.baseLanguage.structure.ExpressionStatement" fileName="OrthogonalLayoutTestPanel.java" startLine="68" startPosition="6" endLine="69" endPosition="58" />
+    <nodeInfo nodeId="1418350014056290615" conceptFqName="jetbrains.mps.baseLanguage.structure.ExpressionStatement" fileName="OrthogonalLayoutTestPanel.java" startLine="70" startPosition="6" endLine="71" endPosition="37" />
+    <nodeInfo nodeId="903391227141136006" conceptFqName="jetbrains.mps.baseLanguage.structure.ExpressionStatement" fileName="OrthogonalLayoutTestPanel.java" startLine="72" startPosition="6" endLine="73" endPosition="27" />
+    <nodeInfo nodeId="903391227141136080" conceptFqName="jetbrains.mps.baseLanguage.structure.ExpressionStatement" fileName="OrthogonalLayoutTestPanel.java" startLine="73" startPosition="27" endLine="74" endPosition="36" />
+    <nodeInfo nodeId="6160477238666723529" conceptFqName="jetbrains.mps.baseLanguage.structure.LocalVariableDeclarationStatement" fileName="OrthogonalLayoutTestPanel.java" startLine="77" startPosition="44" endLine="78" endPosition="52" />
+    <nodeInfo nodeId="6160477238666723534" conceptFqName="jetbrains.mps.baseLanguage.structure.ExpressionStatement" fileName="OrthogonalLayoutTestPanel.java" startLine="78" startPosition="52" endLine="79" endPosition="16" />
+    <nodeInfo nodeId="6160477238666723540" conceptFqName="jetbrains.mps.baseLanguage.structure.ExpressionStatement" fileName="OrthogonalLayoutTestPanel.java" startLine="79" startPosition="16" endLine="80" endPosition="16" />
+    <nodeInfo nodeId="6160477238666723546" conceptFqName="jetbrains.mps.baseLanguage.structure.ExpressionStatement" fileName="OrthogonalLayoutTestPanel.java" startLine="80" startPosition="16" endLine="81" endPosition="43" />
+    <nodeInfo nodeId="6160477238666742434" conceptFqName="jetbrains.mps.baseLanguage.structure.ExpressionStatement" fileName="OrthogonalLayoutTestPanel.java" startLine="81" startPosition="43" endLine="82" endPosition="68" />
+    <nodeInfo nodeId="6160477238666740738" conceptFqName="jetbrains.mps.baseLanguage.structure.ExpressionStatement" fileName="OrthogonalLayoutTestPanel.java" startLine="82" startPosition="68" endLine="83" endPosition="29" />
+    <nodeInfo nodeId="903391227141135438" conceptFqName="jetbrains.mps.baseLanguage.structure.ExpressionStatement" fileName="OrthogonalLayoutTestPanel.java" startLine="86" startPosition="39" endLine="87" endPosition="41" />
+    <nodeInfo nodeId="903391227141135444" conceptFqName="jetbrains.mps.baseLanguage.structure.ExpressionStatement" fileName="OrthogonalLayoutTestPanel.java" startLine="87" startPosition="41" endLine="88" endPosition="74" />
+    <nodeInfo nodeId="903391227141135450" conceptFqName="jetbrains.mps.baseLanguage.structure.ExpressionStatement" fileName="OrthogonalLayoutTestPanel.java" startLine="88" startPosition="74" endLine="89" endPosition="41" />
+    <nodeInfo nodeId="903391227141135456" conceptFqName="jetbrains.mps.baseLanguage.structure.ExpressionStatement" fileName="OrthogonalLayoutTestPanel.java" startLine="89" startPosition="41" endLine="90" endPosition="74" />
+    <nodeInfo nodeId="903391227141135468" conceptFqName="jetbrains.mps.baseLanguage.structure.LocalVariableDeclarationStatement" fileName="OrthogonalLayoutTestPanel.java" startLine="90" startPosition="74" endLine="91" endPosition="52" />
+    <nodeInfo nodeId="903391227141135473" conceptFqName="jetbrains.mps.baseLanguage.structure.ExpressionStatement" fileName="OrthogonalLayoutTestPanel.java" startLine="91" startPosition="52" endLine="92" endPosition="16" />
+    <nodeInfo nodeId="903391227141135479" conceptFqName="jetbrains.mps.baseLanguage.structure.ExpressionStatement" fileName="OrthogonalLayoutTestPanel.java" startLine="92" startPosition="16" endLine="93" endPosition="16" />
+    <nodeInfo nodeId="903391227141135485" conceptFqName="jetbrains.mps.baseLanguage.structure.ExpressionStatement" fileName="OrthogonalLayoutTestPanel.java" startLine="93" startPosition="16" endLine="94" endPosition="43" />
+    <nodeInfo nodeId="903391227141135491" conceptFqName="jetbrains.mps.baseLanguage.structure.ExpressionStatement" fileName="OrthogonalLayoutTestPanel.java" startLine="94" startPosition="43" endLine="95" endPosition="30" />
+    <nodeInfo nodeId="903391227141135496" conceptFqName="jetbrains.mps.baseLanguage.structure.ExpressionStatement" fileName="OrthogonalLayoutTestPanel.java" startLine="95" startPosition="30" endLine="96" endPosition="16" />
+    <nodeInfo nodeId="903391227141135502" conceptFqName="jetbrains.mps.baseLanguage.structure.ExpressionStatement" fileName="OrthogonalLayoutTestPanel.java" startLine="96" startPosition="16" endLine="97" endPosition="30" />
+    <nodeInfo nodeId="903391227141135507" conceptFqName="jetbrains.mps.baseLanguage.structure.ExpressionStatement" fileName="OrthogonalLayoutTestPanel.java" startLine="97" startPosition="30" endLine="98" endPosition="16" />
+    <nodeInfo nodeId="903391227141135518" conceptFqName="jetbrains.mps.baseLanguage.structure.ExpressionStatement" fileName="OrthogonalLayoutTestPanel.java" startLine="98" startPosition="16" endLine="99" endPosition="16" />
+    <nodeInfo nodeId="903391227141135524" conceptFqName="jetbrains.mps.baseLanguage.structure.LocalVariableDeclarationStatement" fileName="OrthogonalLayoutTestPanel.java" startLine="99" startPosition="16" endLine="100" endPosition="52" />
+    <nodeInfo nodeId="903391227141135546" conceptFqName="jetbrains.mps.baseLanguage.structure.LocalVariableDeclarationStatement" fileName="OrthogonalLayoutTestPanel.java" startLine="103" startPosition="13" endLine="104" endPosition="69" />
+    <nodeInfo nodeId="903391227141135553" conceptFqName="jetbrains.mps.baseLanguage.structure.LocalVariableDeclarationStatement" fileName="OrthogonalLayoutTestPanel.java" startLine="104" startPosition="69" endLine="105" endPosition="69" />
+    <nodeInfo nodeId="903391227141135560" conceptFqName="jetbrains.mps.baseLanguage.structure.LocalVariableDeclarationStatement" fileName="OrthogonalLayoutTestPanel.java" startLine="105" startPosition="69" endLine="106" endPosition="18" />
+    <nodeInfo nodeId="903391227141136150" conceptFqName="jetbrains.mps.baseLanguage.structure.ExpressionStatement" fileName="OrthogonalLayoutTestPanel.java" startLine="106" startPosition="18" endLine="107" endPosition="84" />
+    <nodeInfo nodeId="903391227141135582" conceptFqName="jetbrains.mps.baseLanguage.structure.ExpressionStatement" fileName="OrthogonalLayoutTestPanel.java" startLine="107" startPosition="84" endLine="108" endPosition="24" />
+    <nodeInfo nodeId="903391227141135589" conceptFqName="jetbrains.mps.baseLanguage.structure.ExpressionStatement" fileName="OrthogonalLayoutTestPanel.java" startLine="109" startPosition="31" endLine="110" endPosition="127" />
+    <nodeInfo nodeId="903391227141135597" conceptFqName="jetbrains.mps.baseLanguage.structure.ExpressionStatement" fileName="OrthogonalLayoutTestPanel.java" startLine="113" startPosition="7" endLine="114" endPosition="21" />
+    <nodeInfo nodeId="903391227141135606" conceptFqName="jetbrains.mps.baseLanguage.structure.LocalVariableDeclarationStatement" fileName="OrthogonalLayoutTestPanel.java" startLine="117" startPosition="39" endLine="118" endPosition="47" />
+    <nodeInfo nodeId="903391227141135612" conceptFqName="jetbrains.mps.baseLanguage.structure.LocalVariableDeclarationStatement" fileName="OrthogonalLayoutTestPanel.java" startLine="118" startPosition="47" endLine="119" endPosition="52" />
+    <nodeInfo nodeId="903391227141135631" conceptFqName="jetbrains.mps.baseLanguage.structure.ExpressionStatement" fileName="OrthogonalLayoutTestPanel.java" startLine="121" startPosition="51" endLine="122" endPosition="22" />
+    <nodeInfo nodeId="903391227141135633" conceptFqName="jetbrains.mps.baseLanguage.structure.ExpressionStatement" fileName="OrthogonalLayoutTestPanel.java" startLine="122" startPosition="22" endLine="123" endPosition="31" />
+    <nodeInfo nodeId="903391227141135637" conceptFqName="jetbrains.mps.baseLanguage.structure.ExpressionStatement" fileName="OrthogonalLayoutTestPanel.java" startLine="125" startPosition="7" endLine="126" endPosition="43" />
+    <nodeInfo nodeId="903391227141135643" conceptFqName="jetbrains.mps.baseLanguage.structure.ExpressionStatement" fileName="OrthogonalLayoutTestPanel.java" startLine="126" startPosition="43" endLine="127" endPosition="51" />
+    <nodeInfo nodeId="903391227141135649" conceptFqName="jetbrains.mps.baseLanguage.structure.ExpressionStatement" fileName="OrthogonalLayoutTestPanel.java" startLine="127" startPosition="51" endLine="128" endPosition="16" />
+    <nodeInfo nodeId="903391227141135655" conceptFqName="jetbrains.mps.baseLanguage.structure.ExpressionStatement" fileName="OrthogonalLayoutTestPanel.java" startLine="128" startPosition="16" endLine="129" endPosition="16" />
+    <nodeInfo nodeId="903391227141135661" conceptFqName="jetbrains.mps.baseLanguage.structure.ExpressionStatement" fileName="OrthogonalLayoutTestPanel.java" startLine="129" startPosition="16" endLine="130" endPosition="20" />
+    <nodeInfo nodeId="903391227141135667" conceptFqName="jetbrains.mps.baseLanguage.structure.ExpressionStatement" fileName="OrthogonalLayoutTestPanel.java" startLine="130" startPosition="20" endLine="131" endPosition="21" />
+    <nodeInfo nodeId="903391227141135673" conceptFqName="jetbrains.mps.baseLanguage.structure.ExpressionStatement" fileName="OrthogonalLayoutTestPanel.java" startLine="131" startPosition="21" endLine="132" endPosition="21" />
+    <nodeInfo nodeId="8680836410351737632" conceptFqName="jetbrains.mps.baseLanguage.structure.LocalVariableDeclarationStatement" fileName="OrthogonalLayoutTestPanel.java" startLine="135" startPosition="40" endLine="136" endPosition="40" />
+    <nodeInfo nodeId="903391227141135705" conceptFqName="jetbrains.mps.baseLanguage.structure.ExpressionStatement" fileName="OrthogonalLayoutTestPanel.java" startLine="136" startPosition="40" endLine="137" endPosition="27" />
+    <nodeInfo nodeId="903391227141135710" conceptFqName="jetbrains.mps.baseLanguage.structure.ExpressionStatement" fileName="OrthogonalLayoutTestPanel.java" startLine="137" startPosition="27" endLine="138" endPosition="97" />
+    <nodeInfo nodeId="8680836410351737650" conceptFqName="jetbrains.mps.baseLanguage.structure.ExpressionStatement" fileName="OrthogonalLayoutTestPanel.java" startLine="139" startPosition="63" endLine="140" endPosition="98" />
+    <nodeInfo nodeId="8680836410351737671" conceptFqName="jetbrains.mps.baseLanguage.structure.ExpressionStatement" fileName="OrthogonalLayoutTestPanel.java" startLine="141" startPosition="5" endLine="142" endPosition="40" />
+    <nodeInfo nodeId="6160477238666742415" conceptFqName="jetbrains.mps.baseLanguage.structure.ExpressionStatement" fileName="OrthogonalLayoutTestPanel.java" startLine="146" startPosition="6" endLine="147" endPosition="73" />
+    <nodeInfo nodeId="903391227141135758" conceptFqName="jetbrains.mps.baseLanguage.structure.LocalVariableDeclarationStatement" fileName="OrthogonalLayoutTestPanel.java" startLine="148" startPosition="6" endLine="149" endPosition="56" />
+    <nodeInfo nodeId="6160477238666745732" conceptFqName="jetbrains.mps.baseLanguage.structure.LocalVariableDeclarationStatement" fileName="OrthogonalLayoutTestPanel.java" startLine="149" startPosition="56" endLine="150" endPosition="166" />
+    <nodeInfo nodeId="490728924230502924" conceptFqName="jetbrains.mps.baseLanguage.structure.LocalVariableDeclarationStatement" fileName="OrthogonalLayoutTestPanel.java" startLine="150" startPosition="166" endLine="151" endPosition="166" />
+    <nodeInfo nodeId="903391227141135766" conceptFqName="jetbrains.mps.baseLanguage.structure.LocalVariableDeclarationStatement" fileName="OrthogonalLayoutTestPanel.java" startLine="151" startPosition="166" endLine="152" endPosition="19" />
+    <nodeInfo nodeId="903391227141135772" conceptFqName="jetbrains.mps.baseLanguage.structure.ExpressionStatement" fileName="OrthogonalLayoutTestPanel.java" startLine="153" startPosition="9" endLine="154" endPosition="37" />
+    <nodeInfo nodeId="8680836410351718570" conceptFqName="jetbrains.mps.baseLanguage.structure.LocalVariableDeclarationStatement" fileName="OrthogonalLayoutTestPanel.java" startLine="154" startPosition="37" endLine="155" endPosition="43" />
+    <nodeInfo nodeId="8680836410351718615" conceptFqName="jetbrains.mps.baseLanguage.structure.LocalVariableDeclarationStatement" fileName="OrthogonalLayoutTestPanel.java" startLine="156" startPosition="46" endLine="157" endPosition="49" />
+    <nodeInfo nodeId="8680836410351718624" conceptFqName="jetbrains.mps.baseLanguage.structure.ExpressionStatement" fileName="OrthogonalLayoutTestPanel.java" startLine="157" startPosition="49" endLine="158" endPosition="143" />
+    <nodeInfo nodeId="8680836410351718644" conceptFqName="jetbrains.mps.baseLanguage.structure.LocalVariableDeclarationStatement" fileName="OrthogonalLayoutTestPanel.java" startLine="159" startPosition="7" endLine="160" endPosition="45" />
+    <nodeInfo nodeId="8680836410351718652" conceptFqName="jetbrains.mps.baseLanguage.structure.LocalVariableDeclarationStatement" fileName="OrthogonalLayoutTestPanel.java" startLine="161" startPosition="48" endLine="162" endPosition="51" />
+    <nodeInfo nodeId="8680836410351718686" conceptFqName="jetbrains.mps.baseLanguage.structure.LocalVariableDeclarationStatement" fileName="OrthogonalLayoutTestPanel.java" startLine="162" startPosition="51" endLine="163" endPosition="57" />
+    <nodeInfo nodeId="8680836410351735748" conceptFqName="jetbrains.mps.baseLanguage.structure.ReturnStatement" fileName="OrthogonalLayoutTestPanel.java" startLine="165" startPosition="42" endLine="166" endPosition="44" />
+    <nodeInfo nodeId="5368829933099715632" conceptFqName="jetbrains.mps.baseLanguage.structure.ThrowStatement" fileName="OrthogonalLayoutTestPanel.java" startLine="169" startPosition="27" endLine="170" endPosition="93" />
+    <nodeInfo nodeId="8680836410351718661" conceptFqName="jetbrains.mps.baseLanguage.structure.ExpressionStatement" fileName="OrthogonalLayoutTestPanel.java" startLine="171" startPosition="9" endLine="172" endPosition="143" />
+    <nodeInfo nodeId="903391227141135781" conceptFqName="jetbrains.mps.baseLanguage.structure.ExpressionStatement" fileName="OrthogonalLayoutTestPanel.java" startLine="174" startPosition="42" endLine="175" endPosition="91" />
+    <nodeInfo nodeId="6160477238666745762" conceptFqName="jetbrains.mps.baseLanguage.structure.ExpressionStatement" fileName="OrthogonalLayoutTestPanel.java" startLine="179" startPosition="68" endLine="180" endPosition="150" />
+    <nodeInfo nodeId="8680836410351750036" conceptFqName="jetbrains.mps.baseLanguage.structure.ExpressionStatement" fileName="OrthogonalLayoutTestPanel.java" startLine="185" startPosition="73" endLine="186" endPosition="151" />
+    <nodeInfo nodeId="3848593518650118051" conceptFqName="jetbrains.mps.baseLanguage.structure.LocalVariableDeclarationStatement" fileName="OrthogonalLayoutTestPanel.java" startLine="189" startPosition="7" endLine="190" endPosition="48" />
+    <nodeInfo nodeId="3848593518650118069" conceptFqName="jetbrains.mps.baseLanguage.structure.ExpressionStatement" fileName="OrthogonalLayoutTestPanel.java" startLine="191" startPosition="91" endLine="192" endPosition="84" />
+    <nodeInfo nodeId="3848593518650118094" conceptFqName="jetbrains.mps.baseLanguage.structure.ExpressionStatement" fileName="OrthogonalLayoutTestPanel.java" startLine="194" startPosition="91" endLine="195" endPosition="85" />
+    <nodeInfo nodeId="903391227141138873" conceptFqName="jetbrains.mps.baseLanguage.structure.ExpressionStatement" fileName="OrthogonalLayoutTestPanel.java" startLine="196" startPosition="7" endLine="197" endPosition="56" />
+    <nodeInfo nodeId="9047589280051535853" conceptFqName="jetbrains.mps.baseLanguage.structure.ExpressionStatement" fileName="OrthogonalLayoutTestPanel.java" startLine="197" startPosition="56" endLine="198" endPosition="87" />
+    <nodeInfo nodeId="194249616896380519" conceptFqName="jetbrains.mps.baseLanguage.structure.ExpressionStatement" fileName="OrthogonalLayoutTestPanel.java" startLine="199" startPosition="8" endLine="200" endPosition="61" />
+    <nodeInfo nodeId="903391227141135796" conceptFqName="jetbrains.mps.baseLanguage.structure.ExpressionStatement" fileName="OrthogonalLayoutTestPanel.java" startLine="205" startPosition="34" endLine="206" endPosition="39" />
+    <nodeInfo nodeId="903391227141135803" conceptFqName="jetbrains.mps.baseLanguage.structure.ExpressionStatement" fileName="OrthogonalLayoutTestPanel.java" startLine="206" startPosition="39" endLine="207" endPosition="79" />
+    <nodeInfo nodeId="903391227141135809" conceptFqName="jetbrains.mps.baseLanguage.structure.LocalVariableDeclarationStatement" fileName="OrthogonalLayoutTestPanel.java" startLine="207" startPosition="79" endLine="208" endPosition="52" />
+    <nodeInfo nodeId="903391227141135814" conceptFqName="jetbrains.mps.baseLanguage.structure.ExpressionStatement" fileName="OrthogonalLayoutTestPanel.java" startLine="208" startPosition="52" endLine="209" endPosition="41" />
+    <nodeInfo nodeId="903391227141135820" conceptFqName="jetbrains.mps.baseLanguage.structure.ExpressionStatement" fileName="OrthogonalLayoutTestPanel.java" startLine="209" startPosition="41" endLine="210" endPosition="48" />
+    <nodeInfo nodeId="903391227141135826" conceptFqName="jetbrains.mps.baseLanguage.structure.ExpressionStatement" fileName="OrthogonalLayoutTestPanel.java" startLine="210" startPosition="48" endLine="211" endPosition="16" />
+    <nodeInfo nodeId="903391227141135832" conceptFqName="jetbrains.mps.baseLanguage.structure.ExpressionStatement" fileName="OrthogonalLayoutTestPanel.java" startLine="211" startPosition="16" endLine="212" endPosition="16" />
+    <nodeInfo nodeId="903391227141135838" conceptFqName="jetbrains.mps.baseLanguage.structure.ExpressionStatement" fileName="OrthogonalLayoutTestPanel.java" startLine="212" startPosition="16" endLine="213" endPosition="18" />
+    <nodeInfo nodeId="903391227141135844" conceptFqName="jetbrains.mps.baseLanguage.structure.ExpressionStatement" fileName="OrthogonalLayoutTestPanel.java" startLine="213" startPosition="18" endLine="214" endPosition="28" />
+    <nodeInfo nodeId="903391227141135854" conceptFqName="jetbrains.mps.baseLanguage.structure.ExpressionStatement" fileName="OrthogonalLayoutTestPanel.java" startLine="217" startPosition="35" endLine="218" endPosition="64" />
+    <nodeInfo nodeId="903391227141135859" conceptFqName="jetbrains.mps.baseLanguage.structure.ExpressionStatement" fileName="OrthogonalLayoutTestPanel.java" startLine="218" startPosition="64" endLine="219" endPosition="77" />
+    <nodeInfo nodeId="903391227141135865" conceptFqName="jetbrains.mps.baseLanguage.structure.LocalVariableDeclarationStatement" fileName="OrthogonalLayoutTestPanel.java" startLine="219" startPosition="77" endLine="220" endPosition="52" />
+    <nodeInfo nodeId="903391227141135870" conceptFqName="jetbrains.mps.baseLanguage.structure.ExpressionStatement" fileName="OrthogonalLayoutTestPanel.java" startLine="220" startPosition="52" endLine="221" endPosition="37" />
+    <nodeInfo nodeId="903391227141135876" conceptFqName="jetbrains.mps.baseLanguage.structure.ExpressionStatement" fileName="OrthogonalLayoutTestPanel.java" startLine="221" startPosition="37" endLine="222" endPosition="47" />
+    <nodeInfo nodeId="903391227141135882" conceptFqName="jetbrains.mps.baseLanguage.structure.ExpressionStatement" fileName="OrthogonalLayoutTestPanel.java" startLine="222" startPosition="47" endLine="223" endPosition="48" />
+    <nodeInfo nodeId="903391227141135888" conceptFqName="jetbrains.mps.baseLanguage.structure.ExpressionStatement" fileName="OrthogonalLayoutTestPanel.java" startLine="223" startPosition="48" endLine="224" endPosition="16" />
+    <nodeInfo nodeId="903391227141135894" conceptFqName="jetbrains.mps.baseLanguage.structure.ExpressionStatement" fileName="OrthogonalLayoutTestPanel.java" startLine="224" startPosition="16" endLine="225" endPosition="16" />
+    <nodeInfo nodeId="903391227141135900" conceptFqName="jetbrains.mps.baseLanguage.structure.ExpressionStatement" fileName="OrthogonalLayoutTestPanel.java" startLine="225" startPosition="16" endLine="226" endPosition="18" />
+    <nodeInfo nodeId="903391227141135906" conceptFqName="jetbrains.mps.baseLanguage.structure.ExpressionStatement" fileName="OrthogonalLayoutTestPanel.java" startLine="226" startPosition="18" endLine="227" endPosition="18" />
+    <nodeInfo nodeId="903391227141135919" conceptFqName="jetbrains.mps.baseLanguage.structure.ExpressionStatement" fileName="OrthogonalLayoutTestPanel.java" startLine="227" startPosition="18" endLine="228" endPosition="47" />
+    <nodeInfo nodeId="903391227141136015" conceptFqName="jetbrains.mps.baseLanguage.structure.LocalVariableDeclarationStatement" fileName="OrthogonalLayoutTestPanel.java" startLine="231" startPosition="32" endLine="232" endPosition="32" />
+    <nodeInfo nodeId="903391227141136020" conceptFqName="jetbrains.mps.baseLanguage.structure.ExpressionStatement" fileName="OrthogonalLayoutTestPanel.java" startLine="232" startPosition="32" endLine="233" endPosition="57" />
+    <nodeInfo nodeId="903391227141136025" conceptFqName="jetbrains.mps.baseLanguage.structure.ExpressionStatement" fileName="OrthogonalLayoutTestPanel.java" startLine="233" startPosition="57" endLine="234" endPosition="47" />
+    <nodeInfo nodeId="903391227141136031" conceptFqName="jetbrains.mps.baseLanguage.structure.ExpressionStatement" fileName="OrthogonalLayoutTestPanel.java" startLine="234" startPosition="47" endLine="235" endPosition="68" />
+    <nodeInfo nodeId="903391227141136036" conceptFqName="jetbrains.mps.baseLanguage.structure.ExpressionStatement" fileName="OrthogonalLayoutTestPanel.java" startLine="235" startPosition="68" endLine="236" endPosition="17" />
+    <nodeInfo nodeId="903391227141136040" conceptFqName="jetbrains.mps.baseLanguage.structure.ExpressionStatement" fileName="OrthogonalLayoutTestPanel.java" startLine="236" startPosition="17" endLine="237" endPosition="27" />
+    <nodeInfo nodeId="903391227141136059" conceptFqName="jetbrains.mps.baseLanguage.structure.ExpressionStatement" fileName="OrthogonalLayoutTestPanel.java" startLine="242" startPosition="25" endLine="243" endPosition="17" />
+    <nodeInfo nodeId="6160477238666743957" conceptFqName="jetbrains.mps.baseLanguage.structure.FieldDeclaration" fileName="OrthogonalLayoutTestPanel.java" startLine="248" startPosition="46" endLine="249" endPosition="30" />
+    <nodeInfo nodeId="8680836410351744506" conceptFqName="jetbrains.mps.baseLanguage.structure.FieldDeclaration" fileName="OrthogonalLayoutTestPanel.java" startLine="249" startPosition="30" endLine="250" endPosition="44" />
+    <nodeInfo nodeId="6160477238666740870" conceptFqName="jetbrains.mps.baseLanguage.structure.LocalVariableDeclarationStatement" fileName="OrthogonalLayoutTestPanel.java" startLine="252" startPosition="29" endLine="253" endPosition="44" />
+    <nodeInfo nodeId="6160477238666741127" conceptFqName="jetbrains.mps.baseLanguage.structure.LocalVariableDeclarationStatement" fileName="OrthogonalLayoutTestPanel.java" startLine="253" startPosition="44" endLine="254" endPosition="54" />
+    <nodeInfo nodeId="6160477238666741132" conceptFqName="jetbrains.mps.baseLanguage.structure.ExpressionStatement" fileName="OrthogonalLayoutTestPanel.java" startLine="254" startPosition="54" endLine="255" endPosition="43" />
+    <nodeInfo nodeId="6160477238666741138" conceptFqName="jetbrains.mps.baseLanguage.structure.ExpressionStatement" fileName="OrthogonalLayoutTestPanel.java" startLine="255" startPosition="43" endLine="256" endPosition="18" />
+    <nodeInfo nodeId="6160477238666741159" conceptFqName="jetbrains.mps.baseLanguage.structure.ExpressionStatement" fileName="OrthogonalLayoutTestPanel.java" startLine="256" startPosition="18" endLine="257" endPosition="18" />
+    <nodeInfo nodeId="6160477238666743968" conceptFqName="jetbrains.mps.baseLanguage.structure.LocalVariableDeclarationStatement" fileName="OrthogonalLayoutTestPanel.java" startLine="257" startPosition="18" endLine="258" endPosition="66" />
+    <nodeInfo nodeId="6160477238666744023" conceptFqName="jetbrains.mps.baseLanguage.structure.ExpressionStatement" fileName="OrthogonalLayoutTestPanel.java" startLine="260" startPosition="53" endLine="261" endPosition="28" />
+    <nodeInfo nodeId="6160477238666740909" conceptFqName="jetbrains.mps.baseLanguage.structure.ExpressionStatement" fileName="OrthogonalLayoutTestPanel.java" startLine="263" startPosition="9" endLine="264" endPosition="23" />
+    <nodeInfo nodeId="6160477238666743977" conceptFqName="jetbrains.mps.baseLanguage.structure.ExpressionStatement" fileName="OrthogonalLayoutTestPanel.java" startLine="264" startPosition="23" endLine="265" endPosition="24" />
+    <nodeInfo nodeId="6160477238666741096" conceptFqName="jetbrains.mps.baseLanguage.structure.ExpressionStatement" fileName="OrthogonalLayoutTestPanel.java" startLine="265" startPosition="24" endLine="266" endPosition="18" />
+    <nodeInfo nodeId="6160477238666741166" conceptFqName="jetbrains.mps.baseLanguage.structure.ExpressionStatement" fileName="OrthogonalLayoutTestPanel.java" startLine="266" startPosition="18" endLine="267" endPosition="48" />
+    <nodeInfo nodeId="6160477238666744063" conceptFqName="jetbrains.mps.baseLanguage.structure.ExpressionStatement" fileName="OrthogonalLayoutTestPanel.java" startLine="269" startPosition="53" endLine="270" endPosition="28" />
+    <nodeInfo nodeId="6160477238666741173" conceptFqName="jetbrains.mps.baseLanguage.structure.ExpressionStatement" fileName="OrthogonalLayoutTestPanel.java" startLine="272" startPosition="9" endLine="273" endPosition="23" />
+    <nodeInfo nodeId="6160477238666743988" conceptFqName="jetbrains.mps.baseLanguage.structure.ExpressionStatement" fileName="OrthogonalLayoutTestPanel.java" startLine="273" startPosition="23" endLine="274" endPosition="24" />
+    <nodeInfo nodeId="6160477238666741182" conceptFqName="jetbrains.mps.baseLanguage.structure.ExpressionStatement" fileName="OrthogonalLayoutTestPanel.java" startLine="274" startPosition="24" endLine="275" endPosition="18" />
+    <nodeInfo nodeId="6160477238666741188" conceptFqName="jetbrains.mps.baseLanguage.structure.ExpressionStatement" fileName="OrthogonalLayoutTestPanel.java" startLine="275" startPosition="18" endLine="276" endPosition="52" />
+    <nodeInfo nodeId="6160477238666744082" conceptFqName="jetbrains.mps.baseLanguage.structure.ExpressionStatement" fileName="OrthogonalLayoutTestPanel.java" startLine="278" startPosition="53" endLine="279" endPosition="28" />
+    <nodeInfo nodeId="6160477238666741194" conceptFqName="jetbrains.mps.baseLanguage.structure.ExpressionStatement" fileName="OrthogonalLayoutTestPanel.java" startLine="281" startPosition="9" endLine="282" endPosition="23" />
+    <nodeInfo nodeId="6160477238666741201" conceptFqName="jetbrains.mps.baseLanguage.structure.ExpressionStatement" fileName="OrthogonalLayoutTestPanel.java" startLine="282" startPosition="23" endLine="283" endPosition="24" />
+    <nodeInfo nodeId="6160477238666742152" conceptFqName="jetbrains.mps.baseLanguage.structure.ExpressionStatement" fileName="OrthogonalLayoutTestPanel.java" startLine="283" startPosition="24" endLine="284" endPosition="31" />
+    <nodeInfo nodeId="8680836410351744512" conceptFqName="jetbrains.mps.baseLanguage.structure.ExpressionStatement" fileName="OrthogonalLayoutTestPanel.java" startLine="284" startPosition="31" endLine="285" endPosition="18" />
+    <nodeInfo nodeId="8680836410351744524" conceptFqName="jetbrains.mps.baseLanguage.structure.ExpressionStatement" fileName="OrthogonalLayoutTestPanel.java" startLine="285" startPosition="18" endLine="286" endPosition="60" />
+    <nodeInfo nodeId="8680836410351749720" conceptFqName="jetbrains.mps.baseLanguage.structure.ExpressionStatement" fileName="OrthogonalLayoutTestPanel.java" startLine="286" startPosition="60" endLine="287" endPosition="23" />
+    <nodeInfo nodeId="8680836410351749730" conceptFqName="jetbrains.mps.baseLanguage.structure.ExpressionStatement" fileName="OrthogonalLayoutTestPanel.java" startLine="287" startPosition="23" endLine="288" endPosition="31" />
+    <nodeInfo nodeId="8680836410351749775" conceptFqName="jetbrains.mps.baseLanguage.structure.ExpressionStatement" fileName="OrthogonalLayoutTestPanel.java" startLine="288" startPosition="31" endLine="289" endPosition="34" />
+    <nodeInfo nodeId="6160477238666744005" conceptFqName="jetbrains.mps.baseLanguage.structure.ExpressionStatement" fileName="OrthogonalLayoutTestPanel.java" startLine="289" startPosition="34" endLine="290" endPosition="24" />
+    <nodeInfo nodeId="6160477238666743961" conceptFqName="jetbrains.mps.baseLanguage.structure.ReturnStatement" fileName="OrthogonalLayoutTestPanel.java" startLine="293" startPosition="41" endLine="294" endPosition="27" />
+    <nodeInfo nodeId="8680836410351749795" conceptFqName="jetbrains.mps.baseLanguage.structure.ReturnStatement" fileName="OrthogonalLayoutTestPanel.java" startLine="297" startPosition="34" endLine="298" endPosition="45" />
+    <nodeInfo nodeId="903391227141135214" conceptFqName="jetbrains.mps.baseLanguage.structure.SuperConstructorInvocation" fileName="OrthogonalLayoutTestPanel.java" startLine="303" startPosition="27" endLine="304" endPosition="14" />
+    <nodeInfo nodeId="903391227141136096" conceptFqName="jetbrains.mps.baseLanguage.structure.ExpressionStatement" fileName="OrthogonalLayoutTestPanel.java" startLine="309" startPosition="36" endLine="310" endPosition="55" />
+    <nodeInfo nodeId="903391227141136110" conceptFqName="jetbrains.mps.baseLanguage.structure.ExpressionStatement" fileName="OrthogonalLayoutTestPanel.java" startLine="311" startPosition="14" endLine="312" endPosition="51" />
+    <nodeInfo nodeId="903391227141136108" conceptFqName="jetbrains.mps.baseLanguage.structure.BlockStatement" fileName="OrthogonalLayoutTestPanel.java" startLine="311" startPosition="12" endLine="313" endPosition="7" />
+    <nodeInfo nodeId="3698135283642035869" conceptFqName="jetbrains.mps.baseLanguage.structure.CommentedStatementsBlock" fileName="OrthogonalLayoutTestPanel.java" startLine="65" startPosition="23" endLine="68" endPosition="6" />
+    <nodeInfo nodeId="3698135283642039221" conceptFqName="jetbrains.mps.baseLanguage.structure.CommentedStatementsBlock" fileName="OrthogonalLayoutTestPanel.java" startLine="69" startPosition="58" endLine="72" endPosition="6" />
+    <nodeInfo nodeId="8680836410351737619" conceptFqName="jetbrains.mps.baseLanguage.structure.ForeachStatement" fileName="OrthogonalLayoutTestPanel.java" startLine="138" startPosition="97" endLine="141" endPosition="5" />
+    <nodeInfo nodeId="3698135283642039222" conceptFqName="jetbrains.mps.baseLanguage.structure.CommentedStatementsBlock" fileName="OrthogonalLayoutTestPanel.java" startLine="145" startPosition="30" endLine="148" endPosition="6" />
+    <nodeInfo nodeId="5368829933099715616" conceptFqName="jetbrains.mps.baseLanguage.structure.IfStatement" fileName="OrthogonalLayoutTestPanel.java" startLine="168" startPosition="19" endLine="171" endPosition="9" />
+    <nodeInfo nodeId="1418350014056289141" conceptFqName="jetbrains.mps.baseLanguage.structure.IfStatement" fileName="OrthogonalLayoutTestPanel.java" startLine="178" startPosition="61" endLine="181" endPosition="9" />
+    <nodeInfo nodeId="8680836410351750024" conceptFqName="jetbrains.mps.baseLanguage.structure.IfStatement" fileName="OrthogonalLayoutTestPanel.java" startLine="184" startPosition="63" endLine="187" endPosition="11" />
+    <nodeInfo nodeId="3848593518650118059" conceptFqName="jetbrains.mps.baseLanguage.structure.ForeachStatement" fileName="OrthogonalLayoutTestPanel.java" startLine="190" startPosition="48" endLine="193" endPosition="7" />
+    <nodeInfo nodeId="3848593518650118084" conceptFqName="jetbrains.mps.baseLanguage.structure.ForeachStatement" fileName="OrthogonalLayoutTestPanel.java" startLine="193" startPosition="7" endLine="196" endPosition="7" />
+    <nodeInfo nodeId="194249616896467922" conceptFqName="jetbrains.mps.baseLanguage.structure.CommentedStatementsBlock" fileName="OrthogonalLayoutTestPanel.java" startLine="198" startPosition="87" endLine="201" endPosition="8" />
+    <nodeInfo nodeId="903391227141135210" conceptFqName="jetbrains.mps.baseLanguage.structure.ConstructorDeclaration" fileName="OrthogonalLayoutTestPanel.java" startLine="302" startPosition="45" endLine="305" endPosition="5" />
+    <nodeInfo nodeId="8680836410351718604" conceptFqName="jetbrains.mps.baseLanguage.structure.ForStatement" fileName="OrthogonalLayoutTestPanel.java" startLine="155" startPosition="43" endLine="159" endPosition="7" />
+    <nodeInfo nodeId="8680836410351718720" conceptFqName="jetbrains.mps.baseLanguage.structure.InstanceMethodDeclaration" fileName="OrthogonalLayoutTestPanel.java" startLine="164" startPosition="96" endLine="168" endPosition="0" />
+    <nodeInfo nodeId="903391227141136055" conceptFqName="jetbrains.mps.baseLanguage.structure.InstanceMethodDeclaration" fileName="OrthogonalLayoutTestPanel.java" startLine="241" startPosition="47" endLine="245" endPosition="0" />
+    <nodeInfo nodeId="6160477238666744017" conceptFqName="jetbrains.mps.baseLanguage.structure.InstanceMethodDeclaration" fileName="OrthogonalLayoutTestPanel.java" startLine="259" startPosition="53" endLine="263" endPosition="0" />
+    <nodeInfo nodeId="6160477238666744057" conceptFqName="jetbrains.mps.baseLanguage.structure.InstanceMethodDeclaration" fileName="OrthogonalLayoutTestPanel.java" startLine="268" startPosition="53" endLine="272" endPosition="0" />
+    <nodeInfo nodeId="6160477238666744076" conceptFqName="jetbrains.mps.baseLanguage.structure.InstanceMethodDeclaration" fileName="OrthogonalLayoutTestPanel.java" startLine="277" startPosition="53" endLine="281" endPosition="0" />
+    <nodeInfo nodeId="6160477238666742339" conceptFqName="jetbrains.mps.baseLanguage.structure.InstanceMethodDeclaration" fileName="OrthogonalLayoutTestPanel.java" startLine="292" startPosition="0" endLine="296" endPosition="0" />
+    <nodeInfo nodeId="8680836410351749781" conceptFqName="jetbrains.mps.baseLanguage.structure.InstanceMethodDeclaration" fileName="OrthogonalLayoutTestPanel.java" startLine="296" startPosition="0" endLine="300" endPosition="0" />
+    <nodeInfo nodeId="903391227141135625" conceptFqName="jetbrains.mps.baseLanguage.structure.InstanceMethodDeclaration" fileName="OrthogonalLayoutTestPanel.java" startLine="120" startPosition="51" endLine="125" endPosition="0" />
+    <nodeInfo nodeId="8680836410351718705" conceptFqName="jetbrains.mps.baseLanguage.structure.LocalVariableDeclarationStatement" fileName="OrthogonalLayoutTestPanel.java" startLine="163" startPosition="57" endLine="168" endPosition="19" />
+    <nodeInfo nodeId="903391227141155926" conceptFqName="jetbrains.mps.baseLanguage.structure.ForeachStatement" fileName="OrthogonalLayoutTestPanel.java" startLine="177" startPosition="20" endLine="182" endPosition="7" />
+    <nodeInfo nodeId="8680836410351750014" conceptFqName="jetbrains.mps.baseLanguage.structure.ForeachStatement" fileName="OrthogonalLayoutTestPanel.java" startLine="183" startPosition="41" endLine="188" endPosition="9" />
+    <nodeInfo nodeId="903391227141136049" conceptFqName="jetbrains.mps.baseLanguage.structure.ExpressionStatement" fileName="OrthogonalLayoutTestPanel.java" startLine="240" startPosition="42" endLine="245" endPosition="7" />
+    <nodeInfo nodeId="6160477238666743998" conceptFqName="jetbrains.mps.baseLanguage.structure.ExpressionStatement" fileName="OrthogonalLayoutTestPanel.java" startLine="258" startPosition="66" endLine="263" endPosition="9" />
+    <nodeInfo nodeId="6160477238666744049" conceptFqName="jetbrains.mps.baseLanguage.structure.ExpressionStatement" fileName="OrthogonalLayoutTestPanel.java" startLine="267" startPosition="48" endLine="272" endPosition="9" />
+    <nodeInfo nodeId="6160477238666744068" conceptFqName="jetbrains.mps.baseLanguage.structure.ExpressionStatement" fileName="OrthogonalLayoutTestPanel.java" startLine="276" startPosition="52" endLine="281" endPosition="9" />
+    <nodeInfo nodeId="903391227141136088" conceptFqName="jetbrains.mps.baseLanguage.structure.IfStatement" fileName="OrthogonalLayoutTestPanel.java" startLine="308" startPosition="51" endLine="313" endPosition="7" />
+    <nodeInfo nodeId="903391227141135617" conceptFqName="jetbrains.mps.baseLanguage.structure.ExpressionStatement" fileName="OrthogonalLayoutTestPanel.java" startLine="119" startPosition="52" endLine="125" endPosition="7" />
+    <nodeInfo nodeId="8680836410351750004" conceptFqName="jetbrains.mps.baseLanguage.structure.IfStatement" fileName="OrthogonalLayoutTestPanel.java" startLine="182" startPosition="7" endLine="189" endPosition="7" />
+    <nodeInfo nodeId="903391227141136045" conceptFqName="jetbrains.mps.baseLanguage.structure.StaticMethodDeclaration" fileName="OrthogonalLayoutTestPanel.java" startLine="239" startPosition="0" endLine="247" endPosition="0" />
+    <nodeInfo nodeId="6160477238666723341" conceptFqName="jetbrains.mps.baseLanguage.structure.InstanceMethodDeclaration" fileName="OrthogonalLayoutTestPanel.java" startLine="76" startPosition="0" endLine="85" endPosition="0" />
+    <nodeInfo nodeId="903391227141135544" conceptFqName="jetbrains.mps.baseLanguage.structure.TryCatchStatement" fileName="OrthogonalLayoutTestPanel.java" startLine="102" startPosition="51" endLine="111" endPosition="9" />
+    <nodeInfo nodeId="903391227141136011" conceptFqName="jetbrains.mps.baseLanguage.structure.StaticMethodDeclaration" fileName="OrthogonalLayoutTestPanel.java" startLine="230" startPosition="0" endLine="239" endPosition="0" />
+    <nodeInfo nodeId="903391227141135216" conceptFqName="jetbrains.mps.baseLanguage.structure.InstanceMethodDeclaration" fileName="OrthogonalLayoutTestPanel.java" startLine="306" startPosition="0" endLine="315" endPosition="0" />
+    <nodeInfo nodeId="903391227141135678" conceptFqName="jetbrains.mps.baseLanguage.structure.InstanceMethodDeclaration" fileName="OrthogonalLayoutTestPanel.java" startLine="134" startPosition="0" endLine="144" endPosition="0" />
+    <nodeInfo nodeId="903391227141135538" conceptFqName="jetbrains.mps.baseLanguage.structure.InstanceMethodDeclaration" fileName="OrthogonalLayoutTestPanel.java" startLine="101" startPosition="51" endLine="113" endPosition="0" />
+    <nodeInfo nodeId="903391227141135792" conceptFqName="jetbrains.mps.baseLanguage.structure.InstanceMethodDeclaration" fileName="OrthogonalLayoutTestPanel.java" startLine="204" startPosition="0" endLine="216" endPosition="0" />
+    <nodeInfo nodeId="903391227141135530" conceptFqName="jetbrains.mps.baseLanguage.structure.ExpressionStatement" fileName="OrthogonalLayoutTestPanel.java" startLine="100" startPosition="52" endLine="113" endPosition="7" />
+    <nodeInfo nodeId="8680836410351718650" conceptFqName="jetbrains.mps.baseLanguage.structure.ForStatement" fileName="OrthogonalLayoutTestPanel.java" startLine="160" startPosition="45" endLine="173" endPosition="7" />
+    <nodeInfo nodeId="903391227141135850" conceptFqName="jetbrains.mps.baseLanguage.structure.InstanceMethodDeclaration" fileName="OrthogonalLayoutTestPanel.java" startLine="216" startPosition="0" endLine="230" endPosition="0" />
+    <nodeInfo nodeId="903391227141135947" conceptFqName="jetbrains.mps.baseLanguage.structure.ConstructorDeclaration" fileName="OrthogonalLayoutTestPanel.java" startLine="58" startPosition="0" endLine="75" endPosition="3" />
+    <nodeInfo nodeId="903391227141135602" conceptFqName="jetbrains.mps.baseLanguage.structure.InstanceMethodDeclaration" fileName="OrthogonalLayoutTestPanel.java" startLine="116" startPosition="0" endLine="134" endPosition="0" />
+    <nodeInfo nodeId="903391227141135770" conceptFqName="jetbrains.mps.baseLanguage.structure.TryCatchStatement" fileName="OrthogonalLayoutTestPanel.java" startLine="152" startPosition="19" endLine="176" endPosition="5" />
+    <nodeInfo nodeId="903391227141138859" conceptFqName="jetbrains.mps.baseLanguage.structure.IfStatement" fileName="OrthogonalLayoutTestPanel.java" startLine="176" startPosition="5" endLine="202" endPosition="5" />
+    <nodeInfo nodeId="903391227141135434" conceptFqName="jetbrains.mps.baseLanguage.structure.InstanceMethodDeclaration" fileName="OrthogonalLayoutTestPanel.java" startLine="85" startPosition="0" endLine="116" endPosition="0" />
+    <nodeInfo nodeId="6160477238666740866" conceptFqName="jetbrains.mps.baseLanguage.structure.ConstructorDeclaration" fileName="OrthogonalLayoutTestPanel.java" startLine="251" startPosition="0" endLine="291" endPosition="5" />
+    <nodeInfo nodeId="903391227141135754" conceptFqName="jetbrains.mps.baseLanguage.structure.InstanceMethodDeclaration" fileName="OrthogonalLayoutTestPanel.java" startLine="144" startPosition="0" endLine="204" endPosition="0" />
+    <scopeInfo nodeId="903391227141135585" fileName="OrthogonalLayoutTestPanel.java" startLine="109" startPosition="0" endLine="110" endPosition="127">
       <varInfo nodeId="903391227141135586" varName="e" />
     </scopeInfo>
-    <scopeInfo nodeId="903391227141135588" fileName="OrthogonalLayoutTestPanel.java" startLine="108" startPosition="31" endLine="109" endPosition="127" />
-    <scopeInfo nodeId="8680836410351737622" fileName="OrthogonalLayoutTestPanel.java" startLine="138" startPosition="63" endLine="139" endPosition="98" />
-    <scopeInfo nodeId="8680836410351718721" fileName="OrthogonalLayoutTestPanel.java" startLine="164" startPosition="42" endLine="165" endPosition="44" />
-    <scopeInfo nodeId="5368829933099715617" fileName="OrthogonalLayoutTestPanel.java" startLine="168" startPosition="27" endLine="169" endPosition="93" />
-    <scopeInfo nodeId="903391227141135777" fileName="OrthogonalLayoutTestPanel.java" startLine="173" startPosition="0" endLine="174" endPosition="91">
+    <scopeInfo nodeId="903391227141135588" fileName="OrthogonalLayoutTestPanel.java" startLine="109" startPosition="31" endLine="110" endPosition="127" />
+    <scopeInfo nodeId="8680836410351737622" fileName="OrthogonalLayoutTestPanel.java" startLine="139" startPosition="63" endLine="140" endPosition="98" />
+    <scopeInfo nodeId="8680836410351718721" fileName="OrthogonalLayoutTestPanel.java" startLine="165" startPosition="42" endLine="166" endPosition="44" />
+    <scopeInfo nodeId="5368829933099715617" fileName="OrthogonalLayoutTestPanel.java" startLine="169" startPosition="27" endLine="170" endPosition="93" />
+    <scopeInfo nodeId="903391227141135777" fileName="OrthogonalLayoutTestPanel.java" startLine="174" startPosition="0" endLine="175" endPosition="91">
       <varInfo nodeId="903391227141135778" varName="e" />
     </scopeInfo>
-    <scopeInfo nodeId="903391227141135780" fileName="OrthogonalLayoutTestPanel.java" startLine="173" startPosition="42" endLine="174" endPosition="91" />
-    <scopeInfo nodeId="1418350014056289143" fileName="OrthogonalLayoutTestPanel.java" startLine="178" startPosition="68" endLine="179" endPosition="150" />
-    <scopeInfo nodeId="8680836410351750026" fileName="OrthogonalLayoutTestPanel.java" startLine="184" startPosition="73" endLine="185" endPosition="151" />
-    <scopeInfo nodeId="3848593518650118062" fileName="OrthogonalLayoutTestPanel.java" startLine="190" startPosition="91" endLine="191" endPosition="84" />
-    <scopeInfo nodeId="3848593518650118087" fileName="OrthogonalLayoutTestPanel.java" startLine="193" startPosition="91" endLine="194" endPosition="85" />
-    <scopeInfo nodeId="903391227141136058" fileName="OrthogonalLayoutTestPanel.java" startLine="241" startPosition="25" endLine="242" endPosition="17" />
-    <scopeInfo nodeId="6160477238666744022" fileName="OrthogonalLayoutTestPanel.java" startLine="259" startPosition="53" endLine="260" endPosition="28" />
-    <scopeInfo nodeId="6160477238666744062" fileName="OrthogonalLayoutTestPanel.java" startLine="268" startPosition="53" endLine="269" endPosition="28" />
-    <scopeInfo nodeId="6160477238666744081" fileName="OrthogonalLayoutTestPanel.java" startLine="277" startPosition="53" endLine="278" endPosition="28" />
-    <scopeInfo nodeId="6160477238666742342" fileName="OrthogonalLayoutTestPanel.java" startLine="292" startPosition="41" endLine="293" endPosition="27" />
-    <scopeInfo nodeId="8680836410351749784" fileName="OrthogonalLayoutTestPanel.java" startLine="296" startPosition="34" endLine="297" endPosition="45" />
-    <scopeInfo nodeId="903391227141135213" fileName="OrthogonalLayoutTestPanel.java" startLine="302" startPosition="27" endLine="303" endPosition="14" />
-    <scopeInfo nodeId="903391227141136090" fileName="OrthogonalLayoutTestPanel.java" startLine="308" startPosition="36" endLine="309" endPosition="55" />
-    <scopeInfo nodeId="903391227141136109" fileName="OrthogonalLayoutTestPanel.java" startLine="310" startPosition="14" endLine="311" endPosition="51" />
-    <scopeInfo nodeId="903391227141135630" fileName="OrthogonalLayoutTestPanel.java" startLine="120" startPosition="51" endLine="122" endPosition="31" />
-    <scopeInfo nodeId="8680836410351718605" fileName="OrthogonalLayoutTestPanel.java" startLine="155" startPosition="46" endLine="157" endPosition="143">
+    <scopeInfo nodeId="903391227141135780" fileName="OrthogonalLayoutTestPanel.java" startLine="174" startPosition="42" endLine="175" endPosition="91" />
+    <scopeInfo nodeId="1418350014056289143" fileName="OrthogonalLayoutTestPanel.java" startLine="179" startPosition="68" endLine="180" endPosition="150" />
+    <scopeInfo nodeId="8680836410351750026" fileName="OrthogonalLayoutTestPanel.java" startLine="185" startPosition="73" endLine="186" endPosition="151" />
+    <scopeInfo nodeId="3848593518650118062" fileName="OrthogonalLayoutTestPanel.java" startLine="191" startPosition="91" endLine="192" endPosition="84" />
+    <scopeInfo nodeId="3848593518650118087" fileName="OrthogonalLayoutTestPanel.java" startLine="194" startPosition="91" endLine="195" endPosition="85" />
+    <scopeInfo nodeId="903391227141136058" fileName="OrthogonalLayoutTestPanel.java" startLine="242" startPosition="25" endLine="243" endPosition="17" />
+    <scopeInfo nodeId="6160477238666744022" fileName="OrthogonalLayoutTestPanel.java" startLine="260" startPosition="53" endLine="261" endPosition="28" />
+    <scopeInfo nodeId="6160477238666744062" fileName="OrthogonalLayoutTestPanel.java" startLine="269" startPosition="53" endLine="270" endPosition="28" />
+    <scopeInfo nodeId="6160477238666744081" fileName="OrthogonalLayoutTestPanel.java" startLine="278" startPosition="53" endLine="279" endPosition="28" />
+    <scopeInfo nodeId="6160477238666742342" fileName="OrthogonalLayoutTestPanel.java" startLine="293" startPosition="41" endLine="294" endPosition="27" />
+    <scopeInfo nodeId="8680836410351749784" fileName="OrthogonalLayoutTestPanel.java" startLine="297" startPosition="34" endLine="298" endPosition="45" />
+    <scopeInfo nodeId="903391227141135213" fileName="OrthogonalLayoutTestPanel.java" startLine="303" startPosition="27" endLine="304" endPosition="14" />
+    <scopeInfo nodeId="903391227141136090" fileName="OrthogonalLayoutTestPanel.java" startLine="309" startPosition="36" endLine="310" endPosition="55" />
+    <scopeInfo nodeId="903391227141136109" fileName="OrthogonalLayoutTestPanel.java" startLine="311" startPosition="14" endLine="312" endPosition="51" />
+    <scopeInfo nodeId="903391227141135630" fileName="OrthogonalLayoutTestPanel.java" startLine="121" startPosition="51" endLine="123" endPosition="31" />
+    <scopeInfo nodeId="8680836410351718605" fileName="OrthogonalLayoutTestPanel.java" startLine="156" startPosition="46" endLine="158" endPosition="143">
       <varInfo nodeId="8680836410351718616" varName="node" />
     </scopeInfo>
-    <scopeInfo nodeId="8680836410351737619" fileName="OrthogonalLayoutTestPanel.java" startLine="137" startPosition="97" endLine="140" endPosition="5" />
-    <scopeInfo nodeId="903391227141155929" fileName="OrthogonalLayoutTestPanel.java" startLine="177" startPosition="61" endLine="180" endPosition="9" />
-    <scopeInfo nodeId="8680836410351750017" fileName="OrthogonalLayoutTestPanel.java" startLine="183" startPosition="63" endLine="186" endPosition="11" />
-    <scopeInfo nodeId="3848593518650118059" fileName="OrthogonalLayoutTestPanel.java" startLine="189" startPosition="48" endLine="192" endPosition="7" />
-    <scopeInfo nodeId="3848593518650118084" fileName="OrthogonalLayoutTestPanel.java" startLine="192" startPosition="7" endLine="195" endPosition="7" />
-    <scopeInfo nodeId="903391227141135210" fileName="OrthogonalLayoutTestPanel.java" startLine="301" startPosition="45" endLine="304" endPosition="5" />
-    <scopeInfo nodeId="8680836410351718604" fileName="OrthogonalLayoutTestPanel.java" startLine="154" startPosition="43" endLine="158" endPosition="7">
+    <scopeInfo nodeId="8680836410351737619" fileName="OrthogonalLayoutTestPanel.java" startLine="138" startPosition="97" endLine="141" endPosition="5" />
+    <scopeInfo nodeId="903391227141155929" fileName="OrthogonalLayoutTestPanel.java" startLine="178" startPosition="61" endLine="181" endPosition="9" />
+    <scopeInfo nodeId="8680836410351750017" fileName="OrthogonalLayoutTestPanel.java" startLine="184" startPosition="63" endLine="187" endPosition="11" />
+    <scopeInfo nodeId="3848593518650118059" fileName="OrthogonalLayoutTestPanel.java" startLine="190" startPosition="48" endLine="193" endPosition="7" />
+    <scopeInfo nodeId="3848593518650118084" fileName="OrthogonalLayoutTestPanel.java" startLine="193" startPosition="7" endLine="196" endPosition="7" />
+    <scopeInfo nodeId="903391227141135210" fileName="OrthogonalLayoutTestPanel.java" startLine="302" startPosition="45" endLine="305" endPosition="5" />
+    <scopeInfo nodeId="8680836410351718604" fileName="OrthogonalLayoutTestPanel.java" startLine="155" startPosition="43" endLine="159" endPosition="7">
       <varInfo nodeId="8680836410351718606" varName="i" />
     </scopeInfo>
-    <scopeInfo nodeId="8680836410351718720" fileName="OrthogonalLayoutTestPanel.java" startLine="163" startPosition="96" endLine="167" endPosition="0" />
-    <scopeInfo nodeId="903391227141136055" fileName="OrthogonalLayoutTestPanel.java" startLine="240" startPosition="47" endLine="244" endPosition="0" />
-    <scopeInfo nodeId="6160477238666744017" fileName="OrthogonalLayoutTestPanel.java" startLine="258" startPosition="53" endLine="262" endPosition="0">
+    <scopeInfo nodeId="8680836410351718720" fileName="OrthogonalLayoutTestPanel.java" startLine="164" startPosition="96" endLine="168" endPosition="0" />
+    <scopeInfo nodeId="903391227141136055" fileName="OrthogonalLayoutTestPanel.java" startLine="241" startPosition="47" endLine="245" endPosition="0" />
+    <scopeInfo nodeId="6160477238666744017" fileName="OrthogonalLayoutTestPanel.java" startLine="259" startPosition="53" endLine="263" endPosition="0">
       <varInfo nodeId="6160477238666744020" varName="p0" />
     </scopeInfo>
-    <scopeInfo nodeId="6160477238666744057" fileName="OrthogonalLayoutTestPanel.java" startLine="267" startPosition="53" endLine="271" endPosition="0">
+    <scopeInfo nodeId="6160477238666744057" fileName="OrthogonalLayoutTestPanel.java" startLine="268" startPosition="53" endLine="272" endPosition="0">
       <varInfo nodeId="6160477238666744060" varName="p0" />
     </scopeInfo>
-    <scopeInfo nodeId="6160477238666744076" fileName="OrthogonalLayoutTestPanel.java" startLine="276" startPosition="53" endLine="280" endPosition="0">
+    <scopeInfo nodeId="6160477238666744076" fileName="OrthogonalLayoutTestPanel.java" startLine="277" startPosition="53" endLine="281" endPosition="0">
       <varInfo nodeId="6160477238666744079" varName="p0" />
     </scopeInfo>
-    <scopeInfo nodeId="6160477238666742339" fileName="OrthogonalLayoutTestPanel.java" startLine="291" startPosition="0" endLine="295" endPosition="0" />
-    <scopeInfo nodeId="8680836410351749781" fileName="OrthogonalLayoutTestPanel.java" startLine="295" startPosition="0" endLine="299" endPosition="0" />
-    <scopeInfo nodeId="903391227141135545" fileName="OrthogonalLayoutTestPanel.java" startLine="102" startPosition="13" endLine="107" endPosition="24">
+    <scopeInfo nodeId="6160477238666742339" fileName="OrthogonalLayoutTestPanel.java" startLine="292" startPosition="0" endLine="296" endPosition="0" />
+    <scopeInfo nodeId="8680836410351749781" fileName="OrthogonalLayoutTestPanel.java" startLine="296" startPosition="0" endLine="300" endPosition="0" />
+    <scopeInfo nodeId="903391227141135545" fileName="OrthogonalLayoutTestPanel.java" startLine="103" startPosition="13" endLine="108" endPosition="24">
       <varInfo nodeId="903391227141135561" varName="g" />
       <varInfo nodeId="903391227141135554" varName="numEdges" />
       <varInfo nodeId="903391227141135547" varName="numNodes" />
     </scopeInfo>
-    <scopeInfo nodeId="903391227141135625" fileName="OrthogonalLayoutTestPanel.java" startLine="119" startPosition="51" endLine="124" endPosition="0">
+    <scopeInfo nodeId="903391227141135625" fileName="OrthogonalLayoutTestPanel.java" startLine="120" startPosition="51" endLine="125" endPosition="0">
       <varInfo nodeId="903391227141135628" varName="p0" />
     </scopeInfo>
-    <scopeInfo nodeId="903391227141155926" fileName="OrthogonalLayoutTestPanel.java" startLine="176" startPosition="20" endLine="181" endPosition="7" />
-    <scopeInfo nodeId="8680836410351750005" fileName="OrthogonalLayoutTestPanel.java" startLine="182" startPosition="41" endLine="187" endPosition="9" />
-    <scopeInfo nodeId="8680836410351750014" fileName="OrthogonalLayoutTestPanel.java" startLine="182" startPosition="41" endLine="187" endPosition="9" />
-    <scopeInfo nodeId="903391227141136048" fileName="OrthogonalLayoutTestPanel.java" startLine="239" startPosition="42" endLine="244" endPosition="7" />
-    <scopeInfo nodeId="903391227141135221" fileName="OrthogonalLayoutTestPanel.java" startLine="307" startPosition="51" endLine="312" endPosition="7" />
-    <scopeInfo nodeId="6160477238666723344" fileName="OrthogonalLayoutTestPanel.java" startLine="76" startPosition="44" endLine="82" endPosition="29">
+    <scopeInfo nodeId="903391227141155926" fileName="OrthogonalLayoutTestPanel.java" startLine="177" startPosition="20" endLine="182" endPosition="7" />
+    <scopeInfo nodeId="8680836410351750005" fileName="OrthogonalLayoutTestPanel.java" startLine="183" startPosition="41" endLine="188" endPosition="9" />
+    <scopeInfo nodeId="8680836410351750014" fileName="OrthogonalLayoutTestPanel.java" startLine="183" startPosition="41" endLine="188" endPosition="9" />
+    <scopeInfo nodeId="903391227141136048" fileName="OrthogonalLayoutTestPanel.java" startLine="240" startPosition="42" endLine="245" endPosition="7" />
+    <scopeInfo nodeId="903391227141135221" fileName="OrthogonalLayoutTestPanel.java" startLine="308" startPosition="51" endLine="313" endPosition="7" />
+    <scopeInfo nodeId="6160477238666723344" fileName="OrthogonalLayoutTestPanel.java" startLine="77" startPosition="44" endLine="83" endPosition="29">
       <varInfo nodeId="6160477238666723530" varName="c" />
     </scopeInfo>
-    <scopeInfo nodeId="903391227141136014" fileName="OrthogonalLayoutTestPanel.java" startLine="230" startPosition="32" endLine="236" endPosition="27">
+    <scopeInfo nodeId="903391227141136014" fileName="OrthogonalLayoutTestPanel.java" startLine="231" startPosition="32" endLine="237" endPosition="27">
       <varInfo nodeId="903391227141136016" varName="frame" />
     </scopeInfo>
-    <scopeInfo nodeId="903391227141135681" fileName="OrthogonalLayoutTestPanel.java" startLine="134" startPosition="40" endLine="141" endPosition="40">
+    <scopeInfo nodeId="903391227141135681" fileName="OrthogonalLayoutTestPanel.java" startLine="135" startPosition="40" endLine="142" endPosition="40">
       <varInfo nodeId="8680836410351737633" varName="edges" />
     </scopeInfo>
-    <scopeInfo nodeId="903391227141136045" fileName="OrthogonalLayoutTestPanel.java" startLine="238" startPosition="0" endLine="246" endPosition="0">
+    <scopeInfo nodeId="903391227141136045" fileName="OrthogonalLayoutTestPanel.java" startLine="239" startPosition="0" endLine="247" endPosition="0">
       <varInfo nodeId="903391227141136061" varName="args" />
     </scopeInfo>
-    <scopeInfo nodeId="6160477238666723341" fileName="OrthogonalLayoutTestPanel.java" startLine="75" startPosition="0" endLine="84" endPosition="0" />
-    <scopeInfo nodeId="903391227141135543" fileName="OrthogonalLayoutTestPanel.java" startLine="101" startPosition="51" endLine="110" endPosition="9" />
-    <scopeInfo nodeId="903391227141135795" fileName="OrthogonalLayoutTestPanel.java" startLine="204" startPosition="34" endLine="213" endPosition="28">
+    <scopeInfo nodeId="6160477238666723341" fileName="OrthogonalLayoutTestPanel.java" startLine="76" startPosition="0" endLine="85" endPosition="0" />
+    <scopeInfo nodeId="903391227141135543" fileName="OrthogonalLayoutTestPanel.java" startLine="102" startPosition="51" endLine="111" endPosition="9" />
+    <scopeInfo nodeId="903391227141135795" fileName="OrthogonalLayoutTestPanel.java" startLine="205" startPosition="34" endLine="214" endPosition="28">
       <varInfo nodeId="903391227141135810" varName="c" />
     </scopeInfo>
-    <scopeInfo nodeId="903391227141136011" fileName="OrthogonalLayoutTestPanel.java" startLine="229" startPosition="0" endLine="238" endPosition="0" />
-    <scopeInfo nodeId="903391227141135216" fileName="OrthogonalLayoutTestPanel.java" startLine="305" startPosition="0" endLine="314" endPosition="0">
+    <scopeInfo nodeId="903391227141136011" fileName="OrthogonalLayoutTestPanel.java" startLine="230" startPosition="0" endLine="239" endPosition="0" />
+    <scopeInfo nodeId="903391227141135216" fileName="OrthogonalLayoutTestPanel.java" startLine="306" startPosition="0" endLine="315" endPosition="0">
       <varInfo nodeId="903391227141135219" varName="graphics" />
     </scopeInfo>
-    <scopeInfo nodeId="903391227141135678" fileName="OrthogonalLayoutTestPanel.java" startLine="133" startPosition="0" endLine="143" endPosition="0">
+    <scopeInfo nodeId="903391227141135678" fileName="OrthogonalLayoutTestPanel.java" startLine="134" startPosition="0" endLine="144" endPosition="0">
       <varInfo nodeId="903391227141135752" varName="graph" />
     </scopeInfo>
-    <scopeInfo nodeId="8680836410351718651" fileName="OrthogonalLayoutTestPanel.java" startLine="160" startPosition="48" endLine="171" endPosition="143">
+    <scopeInfo nodeId="8680836410351718651" fileName="OrthogonalLayoutTestPanel.java" startLine="161" startPosition="48" endLine="172" endPosition="143">
       <varInfo nodeId="8680836410351718706" varName="edge" />
       <varInfo nodeId="8680836410351718653" varName="source" />
       <varInfo nodeId="8680836410351718687" varName="target" />
     </scopeInfo>
-    <scopeInfo nodeId="903391227141135853" fileName="OrthogonalLayoutTestPanel.java" startLine="216" startPosition="35" endLine="227" endPosition="47">
+    <scopeInfo nodeId="903391227141135853" fileName="OrthogonalLayoutTestPanel.java" startLine="217" startPosition="35" endLine="228" endPosition="47">
       <varInfo nodeId="903391227141135866" varName="c" />
     </scopeInfo>
-    <scopeInfo nodeId="903391227141135538" fileName="OrthogonalLayoutTestPanel.java" startLine="100" startPosition="51" endLine="112" endPosition="0">
+    <scopeInfo nodeId="903391227141135538" fileName="OrthogonalLayoutTestPanel.java" startLine="101" startPosition="51" endLine="113" endPosition="0">
       <varInfo nodeId="903391227141135541" varName="p0" />
     </scopeInfo>
-    <scopeInfo nodeId="903391227141135792" fileName="OrthogonalLayoutTestPanel.java" startLine="203" startPosition="0" endLine="215" endPosition="0" />
-    <scopeInfo nodeId="8680836410351718650" fileName="OrthogonalLayoutTestPanel.java" startLine="159" startPosition="45" endLine="172" endPosition="7">
+    <scopeInfo nodeId="903391227141135792" fileName="OrthogonalLayoutTestPanel.java" startLine="204" startPosition="0" endLine="216" endPosition="0" />
+    <scopeInfo nodeId="8680836410351718650" fileName="OrthogonalLayoutTestPanel.java" startLine="160" startPosition="45" endLine="173" endPosition="7">
       <varInfo nodeId="8680836410351718674" varName="i" />
     </scopeInfo>
-    <scopeInfo nodeId="903391227141135850" fileName="OrthogonalLayoutTestPanel.java" startLine="215" startPosition="0" endLine="229" endPosition="0" />
-    <scopeInfo nodeId="903391227141135950" fileName="OrthogonalLayoutTestPanel.java" startLine="58" startPosition="38" endLine="73" endPosition="36" />
-    <scopeInfo nodeId="903391227141135605" fileName="OrthogonalLayoutTestPanel.java" startLine="116" startPosition="39" endLine="131" endPosition="21">
+    <scopeInfo nodeId="903391227141135850" fileName="OrthogonalLayoutTestPanel.java" startLine="216" startPosition="0" endLine="230" endPosition="0" />
+    <scopeInfo nodeId="903391227141135950" fileName="OrthogonalLayoutTestPanel.java" startLine="59" startPosition="38" endLine="74" endPosition="36" />
+    <scopeInfo nodeId="903391227141135605" fileName="OrthogonalLayoutTestPanel.java" startLine="117" startPosition="39" endLine="132" endPosition="21">
       <varInfo nodeId="903391227141135613" varName="c" />
       <varInfo nodeId="903391227141135607" varName="button" />
     </scopeInfo>
-    <scopeInfo nodeId="903391227141135947" fileName="OrthogonalLayoutTestPanel.java" startLine="57" startPosition="0" endLine="74" endPosition="3" />
-    <scopeInfo nodeId="903391227141135602" fileName="OrthogonalLayoutTestPanel.java" startLine="115" startPosition="0" endLine="133" endPosition="0" />
-    <scopeInfo nodeId="903391227141135771" fileName="OrthogonalLayoutTestPanel.java" startLine="152" startPosition="9" endLine="172" endPosition="7">
+    <scopeInfo nodeId="903391227141135947" fileName="OrthogonalLayoutTestPanel.java" startLine="58" startPosition="0" endLine="75" endPosition="3" />
+    <scopeInfo nodeId="903391227141135602" fileName="OrthogonalLayoutTestPanel.java" startLine="116" startPosition="0" endLine="134" endPosition="0" />
+    <scopeInfo nodeId="903391227141135771" fileName="OrthogonalLayoutTestPanel.java" startLine="153" startPosition="9" endLine="173" endPosition="7">
       <varInfo nodeId="8680836410351718571" varName="numNodeSizes" />
       <varInfo nodeId="8680836410351718645" varName="edgeLabelSizes" />
     </scopeInfo>
-    <scopeInfo nodeId="903391227141138860" fileName="OrthogonalLayoutTestPanel.java" startLine="176" startPosition="20" endLine="200" endPosition="8">
+    <scopeInfo nodeId="903391227141138860" fileName="OrthogonalLayoutTestPanel.java" startLine="177" startPosition="20" endLine="201" endPosition="8">
       <varInfo nodeId="3848593518650118052" varName="layoutInfo" />
     </scopeInfo>
-    <scopeInfo nodeId="903391227141135437" fileName="OrthogonalLayoutTestPanel.java" startLine="85" startPosition="39" endLine="113" endPosition="21">
+    <scopeInfo nodeId="903391227141135437" fileName="OrthogonalLayoutTestPanel.java" startLine="86" startPosition="39" endLine="114" endPosition="21">
       <varInfo nodeId="903391227141135525" varName="button" />
       <varInfo nodeId="903391227141135469" varName="c" />
     </scopeInfo>
-    <scopeInfo nodeId="903391227141135434" fileName="OrthogonalLayoutTestPanel.java" startLine="84" startPosition="0" endLine="115" endPosition="0" />
-    <scopeInfo nodeId="6160477238666740869" fileName="OrthogonalLayoutTestPanel.java" startLine="251" startPosition="29" endLine="289" endPosition="24">
+    <scopeInfo nodeId="903391227141135434" fileName="OrthogonalLayoutTestPanel.java" startLine="85" startPosition="0" endLine="116" endPosition="0" />
+    <scopeInfo nodeId="6160477238666740869" fileName="OrthogonalLayoutTestPanel.java" startLine="252" startPosition="29" endLine="290" endPosition="24">
       <varInfo nodeId="6160477238666743969" varName="button" />
       <varInfo nodeId="6160477238666741128" varName="c" />
       <varInfo nodeId="6160477238666740871" varName="group" />
     </scopeInfo>
-    <scopeInfo nodeId="6160477238666740866" fileName="OrthogonalLayoutTestPanel.java" startLine="250" startPosition="0" endLine="290" endPosition="5" />
-    <scopeInfo nodeId="903391227141135757" fileName="OrthogonalLayoutTestPanel.java" startLine="144" startPosition="30" endLine="201" endPosition="5">
+    <scopeInfo nodeId="6160477238666740866" fileName="OrthogonalLayoutTestPanel.java" startLine="251" startPosition="0" endLine="291" endPosition="5" />
+    <scopeInfo nodeId="903391227141135757" fileName="OrthogonalLayoutTestPanel.java" startLine="145" startPosition="30" endLine="202" endPosition="5">
       <varInfo nodeId="903391227141135767" varName="g" />
       <varInfo nodeId="490728924230502925" varName="edgeDimensions" />
       <varInfo nodeId="6160477238666745733" varName="nodeDimensions" />
       <varInfo nodeId="903391227141135759" varName="scanner" />
     </scopeInfo>
-    <scopeInfo nodeId="903391227141135754" fileName="OrthogonalLayoutTestPanel.java" startLine="143" startPosition="0" endLine="203" endPosition="0" />
-    <unitInfo nodeId="8680836410351718720" fileName="OrthogonalLayoutTestPanel.java" startLine="163" startPosition="74" endLine="167" endPosition="9" unitName="visualization.OrthogonalLayoutTestPanel$3" />
-    <unitInfo nodeId="903391227141136053" fileName="OrthogonalLayoutTestPanel.java" startLine="240" startPosition="35" endLine="244" endPosition="5" unitName="visualization.OrthogonalLayoutTestPanel$4" />
-    <unitInfo nodeId="6160477238666744015" fileName="OrthogonalLayoutTestPanel.java" startLine="258" startPosition="35" endLine="262" endPosition="7" unitName="visualization.OrthogonalLayoutTestPanel$1" />
-    <unitInfo nodeId="6160477238666744055" fileName="OrthogonalLayoutTestPanel.java" startLine="267" startPosition="35" endLine="271" endPosition="7" unitName="visualization.OrthogonalLayoutTestPanel$2" />
-    <unitInfo nodeId="6160477238666744074" fileName="OrthogonalLayoutTestPanel.java" startLine="276" startPosition="35" endLine="280" endPosition="7" unitName="visualization.OrthogonalLayoutTestPanel$3" />
-    <unitInfo nodeId="903391227141135623" fileName="OrthogonalLayoutTestPanel.java" startLine="119" startPosition="33" endLine="124" endPosition="5" unitName="visualization.OrthogonalLayoutTestPanel$2" />
-    <unitInfo nodeId="903391227141135536" fileName="OrthogonalLayoutTestPanel.java" startLine="100" startPosition="33" endLine="112" endPosition="5" unitName="visualization.OrthogonalLayoutTestPanel$1" />
-    <unitInfo nodeId="903391227141135208" fileName="OrthogonalLayoutTestPanel.java" startLine="301" startPosition="0" endLine="315" endPosition="0" unitName="visualization.OrthogonalLayoutTestPanel$MyGraphLabel" />
-    <unitInfo nodeId="6160477238666740861" fileName="OrthogonalLayoutTestPanel.java" startLine="247" startPosition="0" endLine="300" endPosition="0" unitName="visualization.OrthogonalLayoutTestPanel$MyLayoutChoice" />
-    <unitInfo nodeId="903391227141135207" fileName="OrthogonalLayoutTestPanel.java" startLine="43" startPosition="0" endLine="316" endPosition="0" unitName="visualization.OrthogonalLayoutTestPanel" />
+    <scopeInfo nodeId="903391227141135754" fileName="OrthogonalLayoutTestPanel.java" startLine="144" startPosition="0" endLine="204" endPosition="0" />
+    <unitInfo nodeId="8680836410351718720" fileName="OrthogonalLayoutTestPanel.java" startLine="164" startPosition="74" endLine="168" endPosition="9" unitName="visualization.OrthogonalLayoutTestPanel$3" />
+    <unitInfo nodeId="903391227141136053" fileName="OrthogonalLayoutTestPanel.java" startLine="241" startPosition="35" endLine="245" endPosition="5" unitName="visualization.OrthogonalLayoutTestPanel$4" />
+    <unitInfo nodeId="6160477238666744015" fileName="OrthogonalLayoutTestPanel.java" startLine="259" startPosition="35" endLine="263" endPosition="7" unitName="visualization.OrthogonalLayoutTestPanel$1" />
+    <unitInfo nodeId="6160477238666744055" fileName="OrthogonalLayoutTestPanel.java" startLine="268" startPosition="35" endLine="272" endPosition="7" unitName="visualization.OrthogonalLayoutTestPanel$2" />
+    <unitInfo nodeId="6160477238666744074" fileName="OrthogonalLayoutTestPanel.java" startLine="277" startPosition="35" endLine="281" endPosition="7" unitName="visualization.OrthogonalLayoutTestPanel$3" />
+    <unitInfo nodeId="903391227141135623" fileName="OrthogonalLayoutTestPanel.java" startLine="120" startPosition="33" endLine="125" endPosition="5" unitName="visualization.OrthogonalLayoutTestPanel$2" />
+    <unitInfo nodeId="903391227141135536" fileName="OrthogonalLayoutTestPanel.java" startLine="101" startPosition="33" endLine="113" endPosition="5" unitName="visualization.OrthogonalLayoutTestPanel$1" />
+    <unitInfo nodeId="903391227141135208" fileName="OrthogonalLayoutTestPanel.java" startLine="302" startPosition="0" endLine="316" endPosition="0" unitName="visualization.OrthogonalLayoutTestPanel$MyGraphLabel" />
+    <unitInfo nodeId="6160477238666740861" fileName="OrthogonalLayoutTestPanel.java" startLine="248" startPosition="0" endLine="301" endPosition="0" unitName="visualization.OrthogonalLayoutTestPanel$MyLayoutChoice" />
+    <unitInfo nodeId="903391227141135207" fileName="OrthogonalLayoutTestPanel.java" startLine="44" startPosition="0" endLine="317" endPosition="0" unitName="visualization.OrthogonalLayoutTestPanel" />
   </root>
 </debugInfo>
 

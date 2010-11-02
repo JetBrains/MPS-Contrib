@@ -55,11 +55,11 @@ public class OrthogonalFlowLayouterConstraints {
     GraphLayout copyLayout = getLayoutCorruptGraph(copy, copySizes);
     GraphLayout layout = new GraphLayout(graph);
     for (Node node : ListSequence.fromList(graph.getNodes())) {
-      layout.setLayoutFor(node, copyLayout.getLayoutFor(MapSequence.fromMap(nodeMap).get(node)));
+      layout.setLayoutFor(node, copyLayout.getNodeLayout(MapSequence.fromMap(nodeMap).get(node)));
     }
     for (Edge edge : ListSequence.fromList(graph.getEdges())) {
       Edge copyEdge = MapSequence.fromMap(edgeMap).get(edge);
-      List<Point> copyEdgeLayout = copyLayout.getLayoutFor(copyEdge);
+      List<Point> copyEdgeLayout = copyLayout.getEdgeLayout(copyEdge);
       // copyEdge can be reverted 
       if (copyEdge.getSource() != MapSequence.fromMap(nodeMap).get(edge.getSource())) {
         copyEdgeLayout = ListSequence.fromList(copyEdgeLayout).reversedList();
@@ -85,13 +85,13 @@ public class OrthogonalFlowLayouterConstraints {
     GraphLayout layout = getLayoutFromEmbeddedGraph(embeddedGraph, nodeSizes);
     GraphLayout initialLayout = new GraphLayout(graph);
     for (Node node : SetSequence.fromSet(initialNodes)) {
-      initialLayout.setLayoutFor(node, layout.getLayoutFor(node));
+      initialLayout.setLayoutFor(node, layout.getNodeLayout(node));
     }
     for (Edge edge : SetSequence.fromSet(initialEdges)) {
       List<Point> edgeLayout = ListSequence.fromList(new ArrayList<Point>());
       Node cur = edge.getSource();
       for (Edge historyEdge : ListSequence.fromList(MapSequence.fromMap(history).get(edge))) {
-        List<Point> historyLayout = layout.getLayoutFor(historyEdge);
+        List<Point> historyLayout = layout.getEdgeLayout(historyEdge);
         if (historyEdge.getSource() != cur) {
           historyLayout = ListSequence.fromList(historyLayout).reversedList();
         }
@@ -221,7 +221,7 @@ public class OrthogonalFlowLayouterConstraints {
   private void splitEdges(GraphLayout layout, QuasiRepresentationModifier.Modification modification, Map<Edge, Integer> edgeShifts) {
     List<Edge> edges = modification.getModifiedEdges();
     Edge firstEdge = ListSequence.fromList(edges).first();
-    List<Point> path = layout.getLayoutFor(firstEdge);
+    List<Point> path = layout.getEdgeLayout(firstEdge);
     Node node = modification.getSource();
     Direction2D dartsDir;
     if (firstEdge.getSource() == node) {
@@ -236,7 +236,7 @@ public class OrthogonalFlowLayouterConstraints {
     Iterator<Edge> newEdgeItr = ListSequence.fromList(modification.getNewEdges()).iterator();
     for (Edge edge : ListSequence.fromList(edges)) {
       layout.removeStraightBends(edge);
-      List<Point> edgeLayout = layout.getLayoutFor(edge);
+      List<Point> edgeLayout = layout.getEdgeLayout(edge);
       List<Point> pointsToShift;
       if (edge.getSource() == node) {
         pointsToShift = ListSequence.fromListAndArray(new ArrayList<Point>(), ListSequence.fromList(edgeLayout).getElement(0), ListSequence.fromList(edgeLayout).getElement(1));
@@ -254,7 +254,7 @@ public class OrthogonalFlowLayouterConstraints {
   private void splitEdges(GraphLayout layout, QuasiRepresentationModifier.Modification modification) {
     List<Edge> edges = modification.getModifiedEdges();
     Edge firstEdge = ListSequence.fromList(edges).first();
-    List<Point> path = layout.getLayoutFor(firstEdge);
+    List<Point> path = layout.getEdgeLayout(firstEdge);
     Node node = modification.getSource();
     Direction2D dartsDir;
     if (firstEdge.getSource() == node) {
@@ -268,16 +268,16 @@ public class OrthogonalFlowLayouterConstraints {
     int dy = shiftDir.dy();
     int nodeLenght;
     if (dx != 0) {
-      nodeLenght = layout.getLayoutFor(node).width;
+      nodeLenght = layout.getNodeLayout(node).width;
     } else {
-      nodeLenght = layout.getLayoutFor(node).height;
+      nodeLenght = layout.getNodeLayout(node).height;
     }
     int unitShift = nodeLenght / (2 * ListSequence.fromList(edges).count());
     int curShift = 0;
     for (Edge edge : ListSequence.fromList(edges)) {
       if (edge != ListSequence.fromList(edges).first()) {
         layout.removeStraightBends(edge);
-        List<Point> edgeLayout = layout.getLayoutFor(edge);
+        List<Point> edgeLayout = layout.getEdgeLayout(edge);
         List<Point> pointsToShift;
         if (edge.getSource() == node) {
           pointsToShift = ListSequence.fromListAndArray(new ArrayList<Point>(), ListSequence.fromList(edgeLayout).getElement(0), ListSequence.fromList(edgeLayout).getElement(1));

@@ -5,8 +5,9 @@ package jetbrains.mps.graphLayout.graph;
 import java.util.List;
 import jetbrains.mps.internal.collections.runtime.ListSequence;
 import java.util.ArrayList;
+import java.util.Iterator;
 
-public class Graph {
+public class Graph implements IGraph {
   private List<Node> myNodes;
   private int myNextNum;
 
@@ -17,6 +18,24 @@ public class Graph {
 
   public List<Node> getNodes() {
     return myNodes;
+  }
+
+  public Iterator<Node> getNodesIterator() {
+    return ListSequence.fromList(getNodes()).iterator();
+  }
+
+  public Iterator<Edge> getEdgesIterator() {
+    return ListSequence.fromList(getEdges()).iterator();
+  }
+
+  public INode createNode() {
+    return addNode();
+  }
+
+  public IEdge connect(INode source, INode target) {
+    Node sourceNode = (Node) source;
+    Node targetNode = (Node) target;
+    return sourceNode.addEdgeTo(targetNode);
   }
 
   public List<Edge> getEdges() {

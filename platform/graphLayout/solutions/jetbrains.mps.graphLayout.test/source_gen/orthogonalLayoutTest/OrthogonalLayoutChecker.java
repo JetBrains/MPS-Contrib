@@ -24,9 +24,9 @@ public class OrthogonalLayoutChecker {
   }
 
   public static void checkOrthogonalEdges(GraphLayout layout) {
-    Graph graph = layout.getGraph();
+    Graph graph = ((Graph) layout.getGraph());
     for (Edge edge : ListSequence.fromList(graph.getEdges())) {
-      List<Point> edgeLayout = layout.getLayoutFor(edge);
+      List<Point> edgeLayout = layout.getEdgeLayout(edge);
       Point prev = null;
       for (Point point : ListSequence.fromList(edgeLayout)) {
         if (prev != null) {

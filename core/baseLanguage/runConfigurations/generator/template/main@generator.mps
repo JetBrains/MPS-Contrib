@@ -20,61 +20,18 @@
   <language namespace="7866978e-a0f0-4cc7-81bc-4d213d9375e1(jetbrains.mps.lang.smodel)" />
   <language namespace="3a13115c-633c-4c5c-bbcc-75c4219e9555(jetbrains.mps.lang.quotation)" />
   <languageAspect modelUID="r:00000000-0000-4000-0000-011c89590338(jetbrains.mps.baseLanguage.closures.structure)" version="3" />
-  <languageAspect modelUID="r:00000000-0000-4000-0000-011c89590334(jetbrains.mps.baseLanguage.closures.constraints)" version="2" />
   <languageAspect modelUID="r:00000000-0000-4000-0000-011c89590288(jetbrains.mps.lang.core.structure)" version="0" />
-  <languageAspect modelUID="r:00000000-0000-4000-0000-011c89590361(jetbrains.mps.lang.plugin.constraints)" version="19" />
-  <languageAspect modelUID="r:00000000-0000-4000-0000-011c895902e2(jetbrains.mps.lang.generator.constraints)" version="16" />
   <languageAspect modelUID="r:00000000-0000-4000-0000-011c895902bc(jetbrains.mps.lang.sharedConcepts.structure)" version="0" />
-  <languageAspect modelUID="r:00000000-0000-4000-0000-011c895902ba(jetbrains.mps.lang.sharedConcepts.constraints)" version="0" />
-  <languageAspect modelUID="r:00000000-0000-4000-0000-011c89590283(jetbrains.mps.lang.core.constraints)" version="2" />
   <languageAspect modelUID="r:00000000-0000-4000-0000-011c89590301(jetbrains.mps.lang.smodel.structure)" version="16" />
   <languageAspect modelUID="r:00000000-0000-4000-0000-011c89590373(jetbrains.mps.baseLanguage.classifiers.structure)" version="0" />
-  <languageAspect modelUID="r:00000000-0000-4000-0000-011c8959036e(jetbrains.mps.baseLanguage.classifiers.constraints)" version="7" />
-  <languageAspect modelUID="r:00000000-0000-4000-0000-011c895902fb(jetbrains.mps.lang.smodel.constraints)" version="21" />
-  <languageAspect modelUID="r:00000000-0000-4000-0000-011c895902db(jetbrains.mps.baseLanguage.blTypes.constraints)" version="0" />
-  <languageAspect modelUID="r:00000000-0000-4000-0000-011c895902c1(jetbrains.mps.baseLanguage.constraints)" version="83" />
-  <languageAspect modelUID="r:00000000-0000-4000-0000-011c895902ca(jetbrains.mps.baseLanguage.structure)" version="3" />
-  <languageAspect modelUID="r:00000000-0000-4000-0000-011c89590292(jetbrains.mps.lang.structure.structure)" version="0" />
-  <languageAspect modelUID="r:00000000-0000-4000-0000-011c89590368(jetbrains.mps.lang.plugin.structure)" version="23" />
   <languageAspect modelUID="r:00000000-0000-4000-0000-011c895902f3(jetbrains.mps.lang.generator.generationContext.structure)" version="0" />
-  <languageAspect modelUID="r:00000000-0000-4000-0000-011c8959028c(jetbrains.mps.lang.structure.constraints)" version="11" />
   <languageAspect modelUID="r:00000000-0000-4000-0000-011c895902e8(jetbrains.mps.lang.generator.structure)" version="2" />
-  <languageAspect modelUID="r:00000000-0000-4000-0000-011c8959033d(jetbrains.mps.lang.annotations.structure)" version="0" />
-  <languageAspect modelUID="r:00000000-0000-4000-0000-011c895902ae(jetbrains.mps.lang.typesystem.constraints)" version="17" />
   <languageAspect modelUID="r:00000000-0000-4000-0000-011c8959034b(jetbrains.mps.lang.quotation.structure)" version="0" />
   <languageAspect modelUID="r:00000000-0000-4000-0000-011c8959032e(jetbrains.mps.baseLanguage.collections.structure)" version="7" />
   <languageAspect modelUID="r:00000000-0000-4000-0000-011c895902b4(jetbrains.mps.lang.typesystem.structure)" version="3" />
-  <languageAspect modelUID="r:00000000-0000-4000-0000-011c89590340(jetbrains.mps.lang.pattern.constraints)" version="2" />
-  <languageAspect modelUID="r:00000000-0000-4000-0000-011c89590328(jetbrains.mps.baseLanguage.collections.constraints)" version="6" />
-  <languageAspect modelUID="r:00000000-0000-4000-0000-011c89590345(jetbrains.mps.lang.pattern.structure)" version="0" />
   <languageAspect modelUID="r:00000000-0000-4000-0000-011c895903ac(jetbrains.mps.baseLanguageInternal.structure)" version="1" />
   <languageAspect modelUID="r:00000000-0000-4000-0000-011c89590553(jetbrains.mps.uiLanguage.structure)" version="1" />
-  <languageAspect modelUID="r:00000000-0000-4000-0000-011c8959054e(jetbrains.mps.uiLanguage.constraints)" version="26" />
   <languageAspect modelUID="r:309aeee7-bee8-445c-b31d-35928d1da75f(jetbrains.mps.baseLanguage.tuples.structure)" version="2" />
-  <languageAspect modelUID="r:550fbd90-c9f2-4576-a8a6-223eca16d68b(jetbrains.mps.baseLanguage.runConfigurations.structure)" version="0" />
-  <languageAspect modelUID="r:00000000-0000-4000-0000-011c8959035b(jetbrains.mps.lang.findUsages.structure)" version="2" />
-  <languageAspect modelUID="r:de0d3c0c-d049-41cf-bbf9-a920ba513cd3(jetbrains.mps.lang.textGen.structure)" version="11" />
-  <languageAspect modelUID="r:00000000-0000-4000-0000-011c8959037d(jetbrains.mps.lang.dataFlow.structure)" version="0" />
-  <languageAspect modelUID="r:00000000-0000-4000-0000-011c89590377(jetbrains.mps.lang.dataFlow.constraints)" version="4" />
-  <languageAspect modelUID="r:00000000-0000-4000-0000-011c89590319(jetbrains.mps.lang.refactoring.structure)" version="1" />
-  <languageAspect modelUID="r:00000000-0000-4000-0000-011c89590358(jetbrains.mps.lang.findUsages.constraints)" version="4" />
-  <languageAspect modelUID="r:00000000-0000-4000-0000-011c895902d5(jetbrains.mps.baseLanguage.unitTest.plugin)" version="0" />
-  <languageAspect modelUID="r:00000000-0000-4000-0000-011c8959034f(jetbrains.mps.lang.intentions.constraints)" version="1" />
-  <languageAspect modelUID="r:00000000-0000-4000-0000-011c895902d2(jetbrains.mps.baseLanguage.unitTest.constraints)" version="1" />
-  <languageAspect modelUID="r:00000000-0000-4000-0000-011c89590307(jetbrains.mps.lang.constraints.constraints)" version="9" />
-  <languageAspect modelUID="r:00000000-0000-4000-0000-011c89590313(jetbrains.mps.lang.refactoring.constraints)" version="4" />
-  <languageAspect modelUID="r:00000000-0000-4000-0000-011c89590382(jetbrains.mps.lang.test.constraints)" version="0" />
-  <languageAspect modelUID="r:00000000-0000-4000-0000-011c8959031e(jetbrains.mps.lang.script.constraints)" version="0" />
-  <languageAspect modelUID="r:00000000-0000-4000-0000-011c8959030d(jetbrains.mps.lang.constraints.structure)" version="8" />
-  <languageAspect modelUID="r:00000000-0000-4000-0000-011c895902a8(jetbrains.mps.lang.actions.structure)" version="23" />
-  <languageAspect modelUID="r:00000000-0000-4000-0000-011c89590388(jetbrains.mps.lang.test.structure)" version="4" />
-  <languageAspect modelUID="r:00000000-0000-4000-0000-011c89590353(jetbrains.mps.lang.intentions.structure)" version="8" />
-  <languageAspect modelUID="r:00000000-0000-4000-0000-011c895902a4(jetbrains.mps.lang.actions.constraints)" version="16" />
-  <languageAspect modelUID="r:1a7fc406-f263-498c-a126-51036fe6a9da(jetbrains.mps.lang.editor.editorTest.structure)" version="5" />
-  <languageAspect modelUID="r:00000000-0000-4000-0000-011c89590298(jetbrains.mps.lang.editor.constraints)" version="21" />
-  <languageAspect modelUID="r:00000000-0000-4000-0000-011c89590323(jetbrains.mps.lang.script.structure)" version="0" />
-  <languageAspect modelUID="r:00000000-0000-4000-0000-011c8959029e(jetbrains.mps.lang.editor.structure)" version="32" />
-  <languageAspect modelUID="r:00000000-0000-4000-0000-011c8959057f(jetbrains.mps.baseLanguage.logging.structure)" version="0" />
   <maxImportIndex value="30" />
   <import index="1" modelUID="r:550fbd90-c9f2-4576-a8a6-223eca16d68b(jetbrains.mps.baseLanguage.runConfigurations.structure)" version="0" />
   <import index="2" modelUID="f:java_stub#java.lang(java.lang@java_stub)" version="-1" />
@@ -144,8 +101,8 @@
   <node type="jetbrains.mps.lang.plugin.structure.RunConfigurationDeclaration:23" id="8126994885493665468">
     <property name="name:23" value="JavaRunConfiguration" />
     <property name="iconPath:23" value="${mps_home}/about.txt" />
-    <property name="package:23" value="java" />
     <property name="isDebuggable:23" value="true" />
+    <property name="virtualPackage:23" value="java" />
     <link role="stateTypeParameter:23" targetNodeId="22.8255351389869681567" resolveInfo="JavaRunProfileState" />
     <node role="executionParameter:23" type="jetbrains.mps.lang.plugin.structure.RunConfigExecutionParameterDeclaration:23" id="1905391470717577616">
       <node role="nodeMacro$attribute:23" type="jetbrains.mps.lang.generator.structure.CopySrcListMacro:2" id="1905391470717577618">
@@ -1375,7 +1332,7 @@
   </node>
   <node type="jetbrains.mps.baseLanguage.structure.ClassConcept:3" id="3251065477410581227">
     <property name="name:3" value="JavaEditorComponent" />
-    <property name="package:3" value="java" />
+    <property name="virtualPackage:3" value="java" />
     <node role="field:3" type="jetbrains.mps.baseLanguage.structure.FieldDeclaration:3" id="3251065477411315356">
       <property name="name:3" value="myJavaConfigurationOptions" />
       <node role="visibility:3" type="jetbrains.mps.baseLanguage.structure.PrivateVisibility:3" id="3251065477411315357" />
@@ -1952,7 +1909,7 @@
   </node>
   <node type="jetbrains.mps.lang.generator.structure.TemplateDeclaration:2" id="5147346160405481762">
     <property name="name:2" value="weave_JavaNodeRunConfigurationExecute" />
-    <property name="package:2" value="node" />
+    <property name="virtualPackage:2" value="node" />
     <link role="applicableConcept:2" targetNodeId="1.8456022385895583119:0" resolveInfo="JavaNodeRunConfiguration" />
     <node role="contentNode:2" type="jetbrains.mps.lang.plugin.structure.ExecuteConfigBlock:23" id="1491021298367190471">
       <node role="body:23" type="jetbrains.mps.baseLanguage.structure.StatementList:3" id="1491021298367190472">
@@ -2035,7 +1992,7 @@
   </node>
   <node type="jetbrains.mps.lang.generator.structure.TemplateDeclaration:2" id="664608570000532559">
     <property name="name:2" value="weave_JavaNodeRunConfiguration" />
-    <property name="package:2" value="node" />
+    <property name="virtualPackage:2" value="node" />
     <link role="applicableConcept:2" targetNodeId="1.8456022385895583119:0" resolveInfo="JavaNodeRunConfiguration" />
     <node role="contentNode:2" type="jetbrains.mps.baseLanguage.runConfigurations.structure.JavaRunConfiguration:0" id="664608570000532560">
       <property name="name:0" value="JavaNodeRunConfiguration" />
@@ -2640,7 +2597,7 @@
   </node>
   <node type="jetbrains.mps.lang.generator.structure.TemplateDeclaration:2" id="1614521997361898028">
     <property name="name:2" value="weave_JavaNodeRunConfigurationCheck" />
-    <property name="package:2" value="node" />
+    <property name="virtualPackage:2" value="node" />
     <link role="applicableConcept:2" targetNodeId="1.8456022385895583119:0" resolveInfo="JavaNodeRunConfiguration" />
     <node role="contentNode:2" type="jetbrains.mps.lang.plugin.structure.CheckConfigurationBlock:23" id="1614521997361898120">
       <node role="body:23" type="jetbrains.mps.baseLanguage.structure.StatementList:3" id="1614521997361898121">
@@ -2740,7 +2697,7 @@
   </node>
   <node type="jetbrains.mps.lang.generator.structure.TemplateDeclaration:2" id="1491021298367441738">
     <property name="name:2" value="weave_JavaRunConfigurationCheck" />
-    <property name="package:2" value="java" />
+    <property name="virtualPackage:2" value="java" />
     <link role="applicableConcept:2" targetNodeId="1.655818460756091959:0" resolveInfo="JavaRunConfiguration" />
     <node role="contentNode:2" type="jetbrains.mps.lang.plugin.structure.CheckConfigurationBlock:23" id="2392137962931159143">
       <node role="body:23" type="jetbrains.mps.baseLanguage.structure.StatementList:3" id="2392137962931159144">
@@ -2767,7 +2724,7 @@
   </node>
   <node type="jetbrains.mps.lang.generator.structure.TemplateDeclaration:2" id="2392137962931159131">
     <property name="name:2" value="weave_JavaRunConfigurationExecute" />
-    <property name="package:2" value="java" />
+    <property name="virtualPackage:2" value="java" />
     <link role="applicableConcept:2" targetNodeId="1.655818460756091959:0" resolveInfo="JavaRunConfiguration" />
     <node role="contentNode:2" type="jetbrains.mps.lang.plugin.structure.ExecuteConfigBlock:23" id="2392137962931159132">
       <node role="body:23" type="jetbrains.mps.baseLanguage.structure.StatementList:3" id="9207521573506875606">
@@ -2798,7 +2755,7 @@
   </node>
   <node type="jetbrains.mps.lang.generator.structure.TemplateDeclaration:2" id="1633282062187307822">
     <property name="name:2" value="weave_JavaNodeRunConfigurationEditor_FieldDeclaration" />
-    <property name="package:2" value="node" />
+    <property name="virtualPackage:2" value="node" />
     <link role="applicableConcept:2" targetNodeId="1.8456022385895583119:0" resolveInfo="JavaNodeRunConfiguration" />
     <node role="contentNode:2" type="jetbrains.mps.baseLanguage.structure.ClassConcept:3" id="1633282062187307824">
       <property name="name:3" value="JavaEditorComponent" />
@@ -3004,7 +2961,7 @@
   </node>
   <node type="jetbrains.mps.lang.generator.structure.TemplateSwitch:2" id="6784027201968272728">
     <property name="name:2" value="switch_ICheckConfigBlockForJava" />
-    <property name="package:2" value="java" />
+    <property name="virtualPackage:2" value="java" />
     <link role="modifiedSwitch:2" targetNodeId="16.2392137962931144929" resolveInfo="switch_ICheckConfigBlock" />
     <node role="reductionMappingRule:2" type="jetbrains.mps.lang.generator.structure.Reduction_MappingRule:2" id="6784027201968276213">
       <link role="applicableConcept:2" targetNodeId="1.8456022385895584871:0" resolveInfo="JavaCheckBlock" />
@@ -3015,7 +2972,7 @@
   </node>
   <node type="jetbrains.mps.lang.generator.structure.TemplateDeclaration:2" id="6784027201968276216">
     <property name="name:2" value="case_JavaCheckBlock" />
-    <property name="package:2" value="node" />
+    <property name="virtualPackage:2" value="node" />
     <link role="applicableConcept:2" targetNodeId="1.8456022385895584871:0" resolveInfo="JavaCheckBlock" />
     <node role="contentNode:2" type="jetbrains.mps.baseLanguage.structure.Statement:3" id="6784027201968276219">
       <node role="templateFragment$attribute:3" type="jetbrains.mps.lang.generator.structure.TemplateFragment:2" id="6784027201968276220" />
@@ -3042,7 +2999,7 @@
   </node>
   <node type="jetbrains.mps.lang.generator.structure.TemplateDeclaration:2" id="6784027201969600140">
     <property name="name:2" value="weave_JavaNodeRunConfigurationEditor_ComponentAddition" />
-    <property name="package:2" value="node" />
+    <property name="virtualPackage:2" value="node" />
     <link role="applicableConcept:2" targetNodeId="1.8456022385895583119:0" resolveInfo="JavaNodeRunConfiguration" />
     <node role="contentNode:2" type="jetbrains.mps.baseLanguage.structure.ConstructorDeclaration:3" id="6784027201970263455">
       <node role="returnType:3" type="jetbrains.mps.baseLanguage.structure.VoidType:3" id="6784027201970263456" />
@@ -3288,7 +3245,7 @@
   </node>
   <node type="jetbrains.mps.lang.generator.structure.TemplateDeclaration:2" id="8755168384251012597">
     <property name="name:2" value="weave_JavaNodeRunConfigurationEditor_Apply" />
-    <property name="package:2" value="node" />
+    <property name="virtualPackage:2" value="node" />
     <link role="applicableConcept:2" targetNodeId="1.8456022385895583119:0" resolveInfo="JavaNodeRunConfiguration" />
     <node role="contentNode:2" type="jetbrains.mps.baseLanguage.structure.InstanceMethodDeclaration:3" id="8755168384251012607">
       <property name="name:3" value="apply" />
@@ -3347,7 +3304,7 @@
   </node>
   <node type="jetbrains.mps.lang.generator.structure.TemplateDeclaration:2" id="8755168384251798560">
     <property name="name:2" value="weave_JavaNodeRunConfigurationEditor_Reset" />
-    <property name="package:2" value="node" />
+    <property name="virtualPackage:2" value="node" />
     <link role="applicableConcept:2" targetNodeId="1.8456022385895583119:0" resolveInfo="JavaNodeRunConfiguration" />
     <node role="contentNode:2" type="jetbrains.mps.baseLanguage.structure.InstanceMethodDeclaration:3" id="8755168384251836991">
       <property name="name:3" value="reset" />
@@ -3393,7 +3350,7 @@
   </node>
   <node type="jetbrains.mps.lang.generator.structure.TemplateDeclaration:2" id="3361586479361545629">
     <property name="name:2" value="reduce_NodeRunConfigPropertyInstance" />
-    <property name="package:2" value="node" />
+    <property name="virtualPackage:2" value="node" />
     <link role="applicableConcept:2" targetNodeId="1.3361586479360705438:0" resolveInfo="NodeRunConfigPropertyInstance" />
     <node role="contentNode:2" type="jetbrains.mps.lang.plugin.structure.UniversalRunConfigCreator:23" id="7589249354677727653">
       <property name="name:23" value="Creator" />
@@ -3479,7 +3436,7 @@
   </node>
   <node type="jetbrains.mps.lang.generator.structure.TemplateDeclaration:2" id="5842104767989368460">
     <property name="name:2" value="reduce_Node_FunctionParameter" />
-    <property name="package:2" value="node" />
+    <property name="virtualPackage:2" value="node" />
     <link role="applicableConcept:2" targetNodeId="1.3607966867310075767:0" resolveInfo="Node_FunctionParameter" />
     <node role="contentNode:2" type="jetbrains.mps.baseLanguageInternal.structure.InternalPartialInstanceMethodCall:1" id="5842104767990261324">
       <property name="methodName:1" value="getNode" />

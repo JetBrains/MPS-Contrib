@@ -31,6 +31,7 @@ import jetbrains.mps.graphLayout.planarGraph.STPlanarGraph;
 import jetbrains.mps.graphLayout.intGeom2D.Point;
 import jetbrains.mps.graphLayout.util.GeomUtil;
 import jetbrains.mps.internal.collections.runtime.IWhereFilter;
+import jetbrains.mps.graphLayout.graph.IEdge;
 import jetbrains.mps.internal.collections.runtime.ISelector;
 
 public class RectOrthogonalLayouter {
@@ -94,11 +95,11 @@ public class RectOrthogonalLayouter {
     GraphLayout layout = new GraphLayout(graph);
     for (Node node : ListSequence.fromList(graph.getNodes())) {
       Graph subgraph = MapSequence.fromMap(nodeSubgraphs).get(node);
-      layout.setLayoutFor(node, MapSequence.fromMap(subgraphLayouts).get(subgraph).getLayoutFor(MapSequence.fromMap(newNodes).get(node)));
+      layout.setLayoutFor(node, MapSequence.fromMap(subgraphLayouts).get(subgraph).getNodeLayout(MapSequence.fromMap(newNodes).get(node)));
     }
     for (Edge edge : ListSequence.fromList(graph.getEdges())) {
       GraphLayout subgraphLayout = MapSequence.fromMap(subgraphLayouts).get(MapSequence.fromMap(nodeSubgraphs).get(edge.getSource()));
-      layout.setLayoutFor(edge, subgraphLayout.getLayoutFor(MapSequence.fromMap(newEdges).get(edge)));
+      layout.setLayoutFor(edge, subgraphLayout.getEdgeLayout(MapSequence.fromMap(newEdges).get(edge)));
       if (MapSequence.fromMap(edgeSizes).containsKey(edge)) {
         layout.setLabelLayout(edge, subgraphLayout.getLabelLayout(MapSequence.fromMap(myMovedLabels).get(MapSequence.fromMap(newEdges).get(edge))));
       }
@@ -182,14 +183,14 @@ public class RectOrthogonalLayouter {
       Node cur = oldEdge.getSource();
       if (ListSequence.fromList(history).count() > 1) {
         List<Point> oldEdgeLayout = ListSequence.fromList(new ArrayList<Point>());
-        List<Point> sourceHistoryPath = graphLayout.getLayoutFor(ListSequence.fromList(history).first());
+        List<Point> sourceHistoryPath = graphLayout.getEdgeLayout(ListSequence.fromList(history).first());
         Point sourcePoint;
         if (ListSequence.fromList(history).first().getSource() == oldEdge.getSource()) {
           sourcePoint = new Point(ListSequence.fromList(sourceHistoryPath).first());
         } else {
           sourcePoint = new Point(ListSequence.fromList(sourceHistoryPath).last());
         }
-        List<Point> targetHistoryPath = graphLayout.getLayoutFor(ListSequence.fromList(history).last());
+        List<Point> targetHistoryPath = graphLayout.getEdgeLayout(ListSequence.fromList(history).last());
         Point targetPoint;
         if (ListSequence.fromList(history).last().getTarget() == oldEdge.getTarget()) {
           targetPoint = new Point(ListSequence.fromList(targetHistoryPath).last());
@@ -198,12 +199,12 @@ public class RectOrthogonalLayouter {
         }
         Edge prev = null;
         for (Edge edge : ListSequence.fromList(history)) {
-          List<Point> edgeLayout = graphLayout.getLayoutFor(edge);
+          List<Point> edgeLayout = graphLayout.getEdgeLayout(edge);
           if (edge.getSource() != cur) {
             edgeLayout = ListSequence.fromList(edgeLayout).reversedList();
           }
           if (cur.isDummy()) {
-            Rectangle rect = graphLayout.getLayoutFor(cur);
+            Rectangle rect = graphLayout.getNodeLayout(cur);
             int y;
             if (SetSequence.fromSet(visited).contains(cur)) {
               y = rect.y + rect.height;
@@ -238,11 +239,11 @@ public class RectOrthogonalLayouter {
           cur = edge.getOpposite(cur);
         }
         // during shift edges we can disconnect edge from node 
-        Rectangle sourceRect = graphLayout.getLayoutFor(oldEdge.getSource());
+        Rectangle sourceRect = graphLayout.getNodeLayout(oldEdge.getSource());
         if (!(GeomUtil.contains(sourceRect, ListSequence.fromList(oldEdgeLayout).first()))) {
           ListSequence.fromList(oldEdgeLayout).insertElement(0, sourcePoint);
         }
-        Rectangle targetRect = graphLayout.getLayoutFor(oldEdge.getTarget());
+        Rectangle targetRect = graphLayout.getNodeLayout(oldEdge.getTarget());
         if (!(GeomUtil.contains(targetRect, ListSequence.fromList(oldEdgeLayout).last()))) {
           ListSequence.fromList(oldEdgeLayout).addElement(targetPoint);
         }
@@ -262,7 +263,7 @@ public class RectOrthogonalLayouter {
         graphLayout.setLayoutFor(oldEdge, oldEdgeLayout);
       } else {
         Edge newEdge = ListSequence.fromList(history).getElement(0);
-        graphLayout.setLayoutFor(oldEdge, graphLayout.getLayoutFor(newEdge));
+        graphLayout.setLayoutFor(oldEdge, graphLayout.getEdgeLayout(newEdge));
       }
     }
     List<Node> nodesToRemove = ListSequence.fromList(graph.getNodes()).where(new IWhereFilter<Node>() {
@@ -313,7 +314,7 @@ public class RectOrthogonalLayouter {
         layout.setLabelLayout(edge, labelRectangle);
       }
       List<Point> path = ListSequence.fromList(new ArrayList<Point>());
-      Rectangle sourceRect = layout.getLayoutFor(edge.getSource());
+      Rectangle sourceRect = layout.getNodeLayout(edge.getSource());
       int sourceMinX = sourceRect.x;
       int sourceMaxX = sourceRect.x + sourceRect.width;
       int edgeX = edgeRect.x;
@@ -331,7 +332,7 @@ public class RectOrthogonalLayouter {
       } else {
         ListSequence.fromList(path).addElement(new Point(edgeX, sourceRect.y + sourceRect.height));
       }
-      Rectangle targetRect = layout.getLayoutFor(edge.getTarget());
+      Rectangle targetRect = layout.getNodeLayout(edge.getTarget());
       int targetMinX = targetRect.x;
       int targetMaxX = targetRect.x + targetRect.width;
       hasHorLines = false;
@@ -358,16 +359,16 @@ public class RectOrthogonalLayouter {
   }
 
   public void correctEdgesLayout(GraphLayout layout) {
-    Graph graph = layout.getGraph();
+    Graph graph = ((Graph) layout.getGraph());
     for (Node node : ListSequence.fromList(graph.getNodes())) {
-      this.correctEdgesFromNode(layout, node, layout.getLayoutFor(node).x);
-      this.correctEdgesFromNode(layout, node, layout.getLayoutFor(node).x + layout.getLayoutFor(node).width);
+      this.correctEdgesFromNode(layout, node, layout.getNodeLayout(node).x);
+      this.correctEdgesFromNode(layout, node, layout.getNodeLayout(node).x + layout.getNodeLayout(node).width);
     }
   }
 
   private void correctEdgesFromNode(GraphLayout layout, Node node, final int xCoord) {
-    Map<Edge, List<Point>> edgeLayout = layout.getEdgeLayout();
-    Rectangle rect = layout.getLayoutFor(node);
+    Map<IEdge, List<Point>> edgeLayout = layout.getEdgeLayout();
+    Rectangle rect = layout.getNodeLayout(node);
     List<Edge> sourceEdges = ListSequence.fromList(new ArrayList<Edge>());
     List<Edge> targetEdges = ListSequence.fromList(new ArrayList<Edge>());
     final Map<Edge, Point> adjPoint = MapSequence.fromMap(new HashMap<Edge, Point>());

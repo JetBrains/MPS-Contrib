@@ -49,11 +49,11 @@ public abstract class AbstractOrthogonalFlowLayouter extends BasicLayouter {
     GraphLayout layout = new GraphLayout(graph);
     for (Node node : ListSequence.fromList(graph.getNodes())) {
       Node copyNode = copier.getNodeCopy(node);
-      layout.setLayoutFor(node, copyLayout.getLayoutFor(copyNode));
+      layout.setLayoutFor(node, copyLayout.getNodeLayout(copyNode));
     }
     for (Edge edge : ListSequence.fromList(graph.getEdges())) {
       Edge copyEdge = copier.getEdgeCopy(edge);
-      List<Point> copyEdgeLayout = copyLayout.getLayoutFor(copyEdge);
+      List<Point> copyEdgeLayout = copyLayout.getEdgeLayout(copyEdge);
       // copyEdge can be reverted 
       if (copyEdge.getSource() != copier.getNodeCopy(edge.getSource())) {
         copyEdgeLayout = ListSequence.fromList(copyEdgeLayout).reversedList();
@@ -119,7 +119,7 @@ public abstract class AbstractOrthogonalFlowLayouter extends BasicLayouter {
     Map<Edge, Edge> labeledEdges = MapSequence.fromMap(new HashMap<Edge, Edge>());
     LayoutInfo newInfo = new LayoutInfo(graph);
     for (Node node : SetSequence.fromSet(layoutInfo.getNodesWithSize())) {
-      Dimension size = layoutInfo.getSize(node);
+      Dimension size = layoutInfo.getNodeSize(node);
       if (size != null) {
         newInfo.setNodeSize(node, size);
       }
@@ -127,18 +127,18 @@ public abstract class AbstractOrthogonalFlowLayouter extends BasicLayouter {
     for (Edge edge : SetSequence.fromSet(layoutInfo.getLabeledEdges())) {
       Edge labeledEdge = getLabeledEdge(MapSequence.fromMap(history).get(edge));
       MapSequence.fromMap(labeledEdges).put(edge, labeledEdge);
-      newInfo.setLabelSize(labeledEdge, layoutInfo.getSize(edge));
+      newInfo.setLabelSize(labeledEdge, layoutInfo.getLabelSize(edge));
     }
     GraphLayout layout = getLayoutFromEmbeddedGraph(embeddedGraph, newInfo);
     GraphLayout initialLayout = new GraphLayout(graph);
     for (Node node : SetSequence.fromSet(initialNodes)) {
-      initialLayout.setLayoutFor(node, layout.getLayoutFor(node));
+      initialLayout.setLayoutFor(node, layout.getNodeLayout(node));
     }
     for (Edge edge : SetSequence.fromSet(initialEdges)) {
       List<Point> edgeLayout = ListSequence.fromList(new ArrayList<Point>());
       Node cur = edge.getSource();
       for (Edge historyEdge : ListSequence.fromList(MapSequence.fromMap(history).get(edge))) {
-        List<Point> historyLayout = layout.getLayoutFor(historyEdge);
+        List<Point> historyLayout = layout.getEdgeLayout(historyEdge);
         if (historyEdge.getSource() != cur) {
           historyLayout = ListSequence.fromList(historyLayout).reversedList();
         }
@@ -199,7 +199,7 @@ public abstract class AbstractOrthogonalFlowLayouter extends BasicLayouter {
   protected void splitEdges(GraphLayout layout, QuasiRepresentationModifier.Modification modification, Map<Edge, Integer> edgeShifts) {
     List<Edge> edges = modification.getModifiedEdges();
     Edge firstEdge = ListSequence.fromList(edges).first();
-    List<Point> path = layout.getLayoutFor(firstEdge);
+    List<Point> path = layout.getEdgeLayout(firstEdge);
     Node node = modification.getSource();
     Direction2D dartsDir;
     if (firstEdge.getSource() == node) {
@@ -214,7 +214,7 @@ public abstract class AbstractOrthogonalFlowLayouter extends BasicLayouter {
     Iterator<Edge> newEdgeItr = ListSequence.fromList(modification.getNewEdges()).iterator();
     for (Edge edge : ListSequence.fromList(edges)) {
       layout.removeStraightBends(edge);
-      List<Point> edgeLayout = layout.getLayoutFor(edge);
+      List<Point> edgeLayout = layout.getEdgeLayout(edge);
       List<Point> pointsToShift;
       if (edge.getSource() == node) {
         pointsToShift = ListSequence.fromListAndArray(new ArrayList<Point>(), ListSequence.fromList(edgeLayout).getElement(0), ListSequence.fromList(edgeLayout).getElement(1));

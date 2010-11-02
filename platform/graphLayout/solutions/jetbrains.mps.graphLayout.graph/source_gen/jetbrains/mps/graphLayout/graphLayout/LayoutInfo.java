@@ -9,9 +9,11 @@ import jetbrains.mps.graphLayout.intGeom2D.Dimension;
 import jetbrains.mps.graphLayout.graph.Edge;
 import jetbrains.mps.internal.collections.runtime.MapSequence;
 import java.util.LinkedHashMap;
+import jetbrains.mps.graphLayout.graph.INode;
+import jetbrains.mps.graphLayout.graph.IEdge;
 import java.util.Set;
 
-public class LayoutInfo {
+public class LayoutInfo implements ILayoutInfo {
   private Graph myGraph;
   private Map<Node, Dimension> myNodeSizes;
   private Map<Edge, Dimension> myLabelSizes;
@@ -22,20 +24,24 @@ public class LayoutInfo {
     myLabelSizes = MapSequence.fromMap(new LinkedHashMap<Edge, Dimension>(16, (float) 0.75, false));
   }
 
-  public void setNodeSize(Node node, Dimension size) {
-    MapSequence.fromMap(myNodeSizes).put(node, size);
+  public void setNodeSize(INode node, Dimension size) {
+    Node myNode = ((Node) node);
+    MapSequence.fromMap(myNodeSizes).put(myNode, size);
   }
 
-  public void setLabelSize(Edge labeledEdge, Dimension size) {
-    MapSequence.fromMap(myLabelSizes).put(labeledEdge, size);
+  public void setLabelSize(IEdge labeledEdge, Dimension size) {
+    Edge myLabeledEdge = ((Edge) labeledEdge);
+    MapSequence.fromMap(myLabelSizes).put(myLabeledEdge, size);
   }
 
-  public Dimension getSize(Node node) {
-    return MapSequence.fromMap(myNodeSizes).get(node);
+  public Dimension getNodeSize(INode node) {
+    Node myNode = ((Node) node);
+    return MapSequence.fromMap(myNodeSizes).get(myNode);
   }
 
-  public Dimension getSize(Edge edge) {
-    return MapSequence.fromMap(myLabelSizes).get(edge);
+  public Dimension getLabelSize(IEdge edge) {
+    Edge myEdge = ((Edge) edge);
+    return MapSequence.fromMap(myLabelSizes).get(myEdge);
   }
 
   public Graph getGraph() {

@@ -46,13 +46,13 @@ public class AmbiguityLayout_Test extends TestCase {
     for (int testNum = 0; testNum < 100; testNum++) {
       GraphLayout newLayout = new RectOrthogonalLayouter().doLayout(graph, nodeSizes, edgeSizes);
       for (Node node : ListSequence.fromList(graph.getNodes())) {
-        Rectangle r1 = layout.getLayoutFor(node);
-        Rectangle r2 = newLayout.getLayoutFor(node);
+        Rectangle r1 = layout.getNodeLayout(node);
+        Rectangle r2 = newLayout.getNodeLayout(node);
         Assert.assertTrue(r1.x == r2.x && r1.y == r2.y && r1.width == r2.width && r1.height == r2.height);
       }
       for (Edge edge : ListSequence.fromList(graph.getEdges())) {
-        List<Point> p1 = layout.getLayoutFor(edge);
-        List<Point> p2 = newLayout.getLayoutFor(edge);
+        List<Point> p1 = layout.getEdgeLayout(edge);
+        List<Point> p2 = newLayout.getEdgeLayout(edge);
         Assert.assertTrue(ListSequence.fromList(p1).count() == ListSequence.fromList(p2).count());
         for (int p = 0; p < ListSequence.fromList(p1).count(); p++) {
           Assert.assertTrue(ListSequence.fromList(p1).getElement(p).x == ListSequence.fromList(p2).getElement(p).x && ListSequence.fromList(p1).getElement(p).y == ListSequence.fromList(p2).getElement(p).y);

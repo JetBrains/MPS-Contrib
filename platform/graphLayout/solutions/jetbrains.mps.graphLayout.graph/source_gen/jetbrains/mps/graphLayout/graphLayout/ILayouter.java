@@ -4,5 +4,5 @@ package jetbrains.mps.graphLayout.graphLayout;
 
 
 public interface ILayouter {
-  public GraphLayout doLayout(LayoutInfo layoutInfo);
+  public IGraphLayout doLayout(ILayoutInfo layoutInfo);
 }

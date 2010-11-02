@@ -5,8 +5,9 @@ package jetbrains.mps.graphLayout.graph;
 import java.util.List;
 import jetbrains.mps.internal.collections.runtime.ListSequence;
 import jetbrains.mps.internal.collections.runtime.backports.LinkedList;
+import java.util.Iterator;
 
-public class Node {
+public class Node implements INode {
   private List<Edge> myOutEdges;
   private List<Edge> myInEdges;
   private int myIndex;
@@ -69,5 +70,17 @@ public class Node {
   @Override
   public String toString() {
     return Integer.toString(myIndex);
+  }
+
+  public Iterator<Edge> getEdgesIterator() {
+    return ListSequence.fromList(getEdges()).iterator();
+  }
+
+  public Iterator<Edge> getOutEdgesIterator() {
+    return ListSequence.fromList(getOutEdges()).iterator();
+  }
+
+  public Iterator<Edge> getInEdgesIterator() {
+    return ListSequence.fromList(getInEdges()).iterator();
   }
 }
