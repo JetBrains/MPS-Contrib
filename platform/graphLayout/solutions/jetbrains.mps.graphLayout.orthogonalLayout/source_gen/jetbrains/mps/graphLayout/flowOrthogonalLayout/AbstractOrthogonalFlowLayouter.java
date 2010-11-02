@@ -16,7 +16,7 @@ import jetbrains.mps.internal.collections.runtime.SetSequence;
 import jetbrains.mps.graphLayout.intGeom2D.Rectangle;
 import jetbrains.mps.graphLayout.graphLayout.LayoutTransform;
 import java.util.Set;
-import java.util.HashSet;
+import java.util.LinkedHashSet;
 import java.util.Map;
 import jetbrains.mps.internal.collections.runtime.MapSequence;
 import java.util.HashMap;
@@ -71,12 +71,12 @@ public abstract class AbstractOrthogonalFlowLayouter extends BasicLayouter {
 
   private GraphLayout getLayoutCorruptGraph(LayoutInfo layoutInfo) {
     Graph graph = layoutInfo.getGraph();
-    Set<Node> initialNodes = SetSequence.fromSet(new HashSet<Node>());
+    Set<Node> initialNodes = SetSequence.fromSet(new LinkedHashSet<Node>());
     SetSequence.fromSet(initialNodes).addSequence(ListSequence.fromList(graph.getNodes()));
-    Set<Edge> initialEdges = SetSequence.fromSet(new HashSet<Edge>());
+    Set<Edge> initialEdges = SetSequence.fromSet(new LinkedHashSet<Edge>());
     SetSequence.fromSet(initialEdges).addSequence(ListSequence.fromList(graph.getEdges()));
     Map<Edge, List<Edge>> history = MapSequence.fromMap(new HashMap<Edge, List<Edge>>());
-    Set<Edge> badEdges = SetSequence.fromSet(new HashSet<Edge>());
+    Set<Edge> badEdges = SetSequence.fromSet(new LinkedHashSet<Edge>());
     for (Edge edge : SetSequence.fromSet(initialEdges)) {
       if (edge.getSource() == edge.getTarget()) {
         SetSequence.fromSet(badEdges).addElement(edge);
@@ -102,14 +102,19 @@ public abstract class AbstractOrthogonalFlowLayouter extends BasicLayouter {
       List<Edge> newEdges = ListSequence.fromList(new LinkedList<Edge>());
       ListSequence.fromList(newEdges).addElement(node.addEdgeTo(newNode));
       ListSequence.fromList(newEdges).addElement(newNode.addEdgeTo(node));
-      MapSequence.fromMap(history).put(edge, newEdges);
+      embeddedGraph.setEdgesHistory(edge, newEdges);
       Face newFace = embeddedGraph.makeLoop(face, newEdges, node);
       MapSequence.fromMap(facesMap).put(node, newFace);
     }
+    Set<Edge> newEdges = BiconnectAugmentation.smartMakeBiconnected(graph);
+    for (Edge edge : SetSequence.fromSet(newEdges)) {
+      edge.removeFromGraph();
+    }
+    for (Edge edge : SetSequence.fromSet(newEdges)) {
+      ShortestPathEmbeddingFinder.restoreEdge(embeddedGraph, edge);
+    }
     for (Edge edge : SetSequence.fromSet(initialEdges)) {
-      if (!(MapSequence.fromMap(history).containsKey(edge))) {
-        MapSequence.fromMap(history).put(edge, embeddedGraph.findFullHistory(edge));
-      }
+      MapSequence.fromMap(history).put(edge, embeddedGraph.findFullHistory(edge));
     }
     Map<Edge, Edge> labeledEdges = MapSequence.fromMap(new HashMap<Edge, Edge>());
     LayoutInfo newInfo = new LayoutInfo(graph);

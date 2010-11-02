@@ -52,7 +52,7 @@ public class ShortestPathEmbeddingFinder implements IEmbeddingFinder {
     return embeddedGraph;
   }
 
-  private void restoreEdge(EmbeddedGraph embeddedGraph, Edge removedEdge) {
+  public static void restoreEdge(EmbeddedGraph embeddedGraph, Edge removedEdge) {
     DualGraph dualGraph = new DualGraph(embeddedGraph);
     List<Node> newNodes = ListSequence.fromList(new ArrayList<Node>());
     for (Node node : ListSequence.fromList(removedEdge.getAdjacentNodes())) {

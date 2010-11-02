@@ -7,14 +7,13 @@ import jetbrains.mps.graphLayout.graph.Edge;
 import jetbrains.mps.graphLayout.graph.Graph;
 import jetbrains.mps.internal.collections.runtime.ListSequence;
 import jetbrains.mps.internal.collections.runtime.SetSequence;
-import java.util.HashSet;
+import java.util.LinkedHashSet;
 import java.util.List;
 import jetbrains.mps.graphLayout.graph.Node;
 import java.util.ArrayList;
 import jetbrains.mps.internal.collections.runtime.IWhereFilter;
 import java.util.Map;
 import jetbrains.mps.graphLayout.util.NodeMap;
-import java.util.LinkedHashSet;
 import jetbrains.mps.internal.collections.runtime.MapSequence;
 
 public class BiconnectAugmentation {
@@ -25,7 +24,7 @@ public class BiconnectAugmentation {
   }
 
   public static Set<Edge> smartMakeBiconnected(Graph graph) {
-    Set<Edge> addedEdges = SetSequence.fromSet(new HashSet<Edge>());
+    Set<Edge> addedEdges = SetSequence.fromSet(new LinkedHashSet<Edge>());
     BiconnectedComponent root = BiconnectedComponent.createTree(graph);
     if (SHOW_LOG > 0) {
       System.out.println(root.toString(""));

@@ -245,82 +245,82 @@
     <nodeInfo nodeId="3720762119843733890" conceptFqName="jetbrains.mps.baseLanguage.structure.ExpressionStatement" fileName="ShortestPathEmbeddingFinder.java" startLine="38" startPosition="23" endLine="39" endPosition="43" />
     <nodeInfo nodeId="3720762119843733916" conceptFqName="jetbrains.mps.baseLanguage.structure.ExpressionStatement" fileName="ShortestPathEmbeddingFinder.java" startLine="39" startPosition="43" endLine="40" endPosition="32" />
     <nodeInfo nodeId="1327612371813257833" conceptFqName="jetbrains.mps.baseLanguage.structure.ExpressionStatement" fileName="ShortestPathEmbeddingFinder.java" startLine="42" startPosition="52" endLine="43" endPosition="29" />
-    <nodeInfo nodeId="1327612371813257846" conceptFqName="jetbrains.mps.baseLanguage.structure.ExpressionStatement" fileName="ShortestPathEmbeddingFinder.java" startLine="45" startPosition="52" endLine="46" endPosition="39" />
+    <nodeInfo nodeId="7133435336869263995" conceptFqName="jetbrains.mps.baseLanguage.structure.ExpressionStatement" fileName="ShortestPathEmbeddingFinder.java" startLine="45" startPosition="52" endLine="46" endPosition="39" />
     <nodeInfo nodeId="5488345258545696107" conceptFqName="jetbrains.mps.baseLanguage.structure.ExpressionStatement" fileName="ShortestPathEmbeddingFinder.java" startLine="47" startPosition="25" endLine="48" endPosition="47" />
     <nodeInfo nodeId="5488345258545696120" conceptFqName="jetbrains.mps.baseLanguage.structure.ExpressionStatement" fileName="ShortestPathEmbeddingFinder.java" startLine="48" startPosition="47" endLine="49" endPosition="42" />
     <nodeInfo nodeId="1327612371813257469" conceptFqName="jetbrains.mps.baseLanguage.structure.ReturnStatement" fileName="ShortestPathEmbeddingFinder.java" startLine="51" startPosition="5" endLine="52" endPosition="25" />
-    <nodeInfo nodeId="1327612371813257608" conceptFqName="jetbrains.mps.baseLanguage.structure.LocalVariableDeclarationStatement" fileName="ShortestPathEmbeddingFinder.java" startLine="55" startPosition="75" endLine="56" endPosition="55" />
-    <nodeInfo nodeId="1327612371813257623" conceptFqName="jetbrains.mps.baseLanguage.structure.LocalVariableDeclarationStatement" fileName="ShortestPathEmbeddingFinder.java" startLine="56" startPosition="55" endLine="57" endPosition="71" />
-    <nodeInfo nodeId="1327612371813257664" conceptFqName="jetbrains.mps.baseLanguage.structure.ExpressionStatement" fileName="ShortestPathEmbeddingFinder.java" startLine="58" startPosition="77" endLine="59" endPosition="78" />
-    <nodeInfo nodeId="1327612371813257688" conceptFqName="jetbrains.mps.baseLanguage.structure.LocalVariableDeclarationStatement" fileName="ShortestPathEmbeddingFinder.java" startLine="60" startPosition="5" endLine="61" endPosition="169" />
-    <nodeInfo nodeId="1327612371813257701" conceptFqName="jetbrains.mps.baseLanguage.structure.LocalVariableDeclarationStatement" fileName="ShortestPathEmbeddingFinder.java" startLine="61" startPosition="169" endLine="62" endPosition="71" />
-    <nodeInfo nodeId="1327612371813257708" conceptFqName="jetbrains.mps.baseLanguage.structure.LocalVariableDeclarationStatement" fileName="ShortestPathEmbeddingFinder.java" startLine="62" startPosition="71" endLine="63" endPosition="71" />
-    <nodeInfo nodeId="1327612371813257715" conceptFqName="jetbrains.mps.baseLanguage.structure.ExpressionStatement" fileName="ShortestPathEmbeddingFinder.java" startLine="63" startPosition="71" endLine="64" endPosition="116" />
-    <nodeInfo nodeId="1327612371813257724" conceptFqName="jetbrains.mps.baseLanguage.structure.LocalVariableDeclarationStatement" fileName="ShortestPathEmbeddingFinder.java" startLine="64" startPosition="116" endLine="65" endPosition="61" />
-    <nodeInfo nodeId="1327612371813257734" conceptFqName="jetbrains.mps.baseLanguage.structure.LocalVariableDeclarationStatement" fileName="ShortestPathEmbeddingFinder.java" startLine="66" startPosition="51" endLine="67" endPosition="77" />
-    <nodeInfo nodeId="1327612371813257749" conceptFqName="jetbrains.mps.baseLanguage.structure.ExpressionStatement" fileName="ShortestPathEmbeddingFinder.java" startLine="68" startPosition="61" endLine="69" endPosition="132" />
-    <nodeInfo nodeId="1327612371813257760" conceptFqName="jetbrains.mps.baseLanguage.structure.ExpressionStatement" fileName="ShortestPathEmbeddingFinder.java" startLine="70" startPosition="7" endLine="71" endPosition="34" />
-    <nodeInfo nodeId="1327612371813257767" conceptFqName="jetbrains.mps.baseLanguage.structure.LocalVariableDeclarationStatement" fileName="ShortestPathEmbeddingFinder.java" startLine="71" startPosition="34" endLine="72" endPosition="75" />
-    <nodeInfo nodeId="1327612371813257780" conceptFqName="jetbrains.mps.baseLanguage.structure.ExpressionStatement" fileName="ShortestPathEmbeddingFinder.java" startLine="73" startPosition="28" endLine="74" endPosition="60" />
-    <nodeInfo nodeId="1418350014056299953" conceptFqName="jetbrains.mps.baseLanguage.structure.LocalVariableDeclarationStatement" fileName="ShortestPathEmbeddingFinder.java" startLine="76" startPosition="5" endLine="77" endPosition="71" />
-    <nodeInfo nodeId="1327612371813257785" conceptFqName="jetbrains.mps.baseLanguage.structure.ExpressionStatement" fileName="ShortestPathEmbeddingFinder.java" startLine="77" startPosition="71" endLine="78" endPosition="116" />
-    <nodeInfo nodeId="5488345258545699436" conceptFqName="jetbrains.mps.baseLanguage.structure.ExpressionStatement" fileName="ShortestPathEmbeddingFinder.java" startLine="79" startPosition="23" endLine="80" endPosition="35" />
-    <nodeInfo nodeId="5488345258545699445" conceptFqName="jetbrains.mps.baseLanguage.structure.ExpressionStatement" fileName="ShortestPathEmbeddingFinder.java" startLine="80" startPosition="35" endLine="81" endPosition="35" />
-    <nodeInfo nodeId="1327612371813258040" conceptFqName="jetbrains.mps.baseLanguage.structure.LocalVariableDeclarationStatement" fileName="ShortestPathEmbeddingFinder.java" startLine="83" startPosition="75" endLine="84" endPosition="65" />
-    <nodeInfo nodeId="1327612371813258050" conceptFqName="jetbrains.mps.baseLanguage.structure.LocalVariableDeclarationStatement" fileName="ShortestPathEmbeddingFinder.java" startLine="84" startPosition="65" endLine="85" endPosition="67" />
-    <nodeInfo nodeId="1327612371813258066" conceptFqName="jetbrains.mps.baseLanguage.structure.LocalVariableDeclarationStatement" fileName="ShortestPathEmbeddingFinder.java" startLine="85" startPosition="67" endLine="86" endPosition="42" />
-    <nodeInfo nodeId="1418350014056299964" conceptFqName="jetbrains.mps.baseLanguage.structure.ExpressionStatement" fileName="ShortestPathEmbeddingFinder.java" startLine="86" startPosition="42" endLine="87" endPosition="58" />
-    <nodeInfo nodeId="1327612371813258079" conceptFqName="jetbrains.mps.baseLanguage.structure.LocalVariableDeclarationStatement" fileName="ShortestPathEmbeddingFinder.java" startLine="87" startPosition="58" endLine="88" endPosition="90" />
-    <nodeInfo nodeId="1327612371813258019" conceptFqName="jetbrains.mps.baseLanguage.structure.ExpressionStatement" fileName="ShortestPathEmbeddingFinder.java" startLine="88" startPosition="90" endLine="89" endPosition="99" />
-    <nodeInfo nodeId="1418350014056299977" conceptFqName="jetbrains.mps.baseLanguage.structure.ExpressionStatement" fileName="ShortestPathEmbeddingFinder.java" startLine="90" startPosition="5" endLine="91" endPosition="57" />
+    <nodeInfo nodeId="7133435336869263754" conceptFqName="jetbrains.mps.baseLanguage.structure.LocalVariableDeclarationStatement" fileName="ShortestPathEmbeddingFinder.java" startLine="55" startPosition="81" endLine="56" endPosition="55" />
+    <nodeInfo nodeId="7133435336869263760" conceptFqName="jetbrains.mps.baseLanguage.structure.LocalVariableDeclarationStatement" fileName="ShortestPathEmbeddingFinder.java" startLine="56" startPosition="55" endLine="57" endPosition="71" />
+    <nodeInfo nodeId="7133435336869263773" conceptFqName="jetbrains.mps.baseLanguage.structure.ExpressionStatement" fileName="ShortestPathEmbeddingFinder.java" startLine="58" startPosition="77" endLine="59" endPosition="78" />
+    <nodeInfo nodeId="7133435336869263781" conceptFqName="jetbrains.mps.baseLanguage.structure.LocalVariableDeclarationStatement" fileName="ShortestPathEmbeddingFinder.java" startLine="60" startPosition="5" endLine="61" endPosition="169" />
+    <nodeInfo nodeId="7133435336869263794" conceptFqName="jetbrains.mps.baseLanguage.structure.LocalVariableDeclarationStatement" fileName="ShortestPathEmbeddingFinder.java" startLine="61" startPosition="169" endLine="62" endPosition="71" />
+    <nodeInfo nodeId="7133435336869263801" conceptFqName="jetbrains.mps.baseLanguage.structure.LocalVariableDeclarationStatement" fileName="ShortestPathEmbeddingFinder.java" startLine="62" startPosition="71" endLine="63" endPosition="71" />
+    <nodeInfo nodeId="7133435336869263808" conceptFqName="jetbrains.mps.baseLanguage.structure.ExpressionStatement" fileName="ShortestPathEmbeddingFinder.java" startLine="63" startPosition="71" endLine="64" endPosition="116" />
+    <nodeInfo nodeId="7133435336869263817" conceptFqName="jetbrains.mps.baseLanguage.structure.LocalVariableDeclarationStatement" fileName="ShortestPathEmbeddingFinder.java" startLine="64" startPosition="116" endLine="65" endPosition="61" />
+    <nodeInfo nodeId="7133435336869263827" conceptFqName="jetbrains.mps.baseLanguage.structure.LocalVariableDeclarationStatement" fileName="ShortestPathEmbeddingFinder.java" startLine="66" startPosition="51" endLine="67" endPosition="77" />
+    <nodeInfo nodeId="7133435336869263843" conceptFqName="jetbrains.mps.baseLanguage.structure.ExpressionStatement" fileName="ShortestPathEmbeddingFinder.java" startLine="68" startPosition="61" endLine="69" endPosition="132" />
+    <nodeInfo nodeId="7133435336869263855" conceptFqName="jetbrains.mps.baseLanguage.structure.ExpressionStatement" fileName="ShortestPathEmbeddingFinder.java" startLine="70" startPosition="7" endLine="71" endPosition="34" />
+    <nodeInfo nodeId="7133435336869263862" conceptFqName="jetbrains.mps.baseLanguage.structure.LocalVariableDeclarationStatement" fileName="ShortestPathEmbeddingFinder.java" startLine="71" startPosition="34" endLine="72" endPosition="75" />
+    <nodeInfo nodeId="7133435336869263875" conceptFqName="jetbrains.mps.baseLanguage.structure.ExpressionStatement" fileName="ShortestPathEmbeddingFinder.java" startLine="73" startPosition="28" endLine="74" endPosition="60" />
+    <nodeInfo nodeId="7133435336869263880" conceptFqName="jetbrains.mps.baseLanguage.structure.LocalVariableDeclarationStatement" fileName="ShortestPathEmbeddingFinder.java" startLine="76" startPosition="5" endLine="77" endPosition="71" />
+    <nodeInfo nodeId="7133435336869263887" conceptFqName="jetbrains.mps.baseLanguage.structure.ExpressionStatement" fileName="ShortestPathEmbeddingFinder.java" startLine="77" startPosition="71" endLine="78" endPosition="116" />
+    <nodeInfo nodeId="7133435336869263898" conceptFqName="jetbrains.mps.baseLanguage.structure.ExpressionStatement" fileName="ShortestPathEmbeddingFinder.java" startLine="79" startPosition="23" endLine="80" endPosition="35" />
+    <nodeInfo nodeId="7133435336869263903" conceptFqName="jetbrains.mps.baseLanguage.structure.ExpressionStatement" fileName="ShortestPathEmbeddingFinder.java" startLine="80" startPosition="35" endLine="81" endPosition="35" />
+    <nodeInfo nodeId="7133435336869263914" conceptFqName="jetbrains.mps.baseLanguage.structure.LocalVariableDeclarationStatement" fileName="ShortestPathEmbeddingFinder.java" startLine="83" startPosition="75" endLine="84" endPosition="65" />
+    <nodeInfo nodeId="7133435336869263920" conceptFqName="jetbrains.mps.baseLanguage.structure.LocalVariableDeclarationStatement" fileName="ShortestPathEmbeddingFinder.java" startLine="84" startPosition="65" endLine="85" endPosition="67" />
+    <nodeInfo nodeId="7133435336869263928" conceptFqName="jetbrains.mps.baseLanguage.structure.LocalVariableDeclarationStatement" fileName="ShortestPathEmbeddingFinder.java" startLine="85" startPosition="67" endLine="86" endPosition="42" />
+    <nodeInfo nodeId="7133435336869263935" conceptFqName="jetbrains.mps.baseLanguage.structure.ExpressionStatement" fileName="ShortestPathEmbeddingFinder.java" startLine="86" startPosition="42" endLine="87" endPosition="58" />
+    <nodeInfo nodeId="7133435336869263940" conceptFqName="jetbrains.mps.baseLanguage.structure.LocalVariableDeclarationStatement" fileName="ShortestPathEmbeddingFinder.java" startLine="87" startPosition="58" endLine="88" endPosition="90" />
+    <nodeInfo nodeId="7133435336869263948" conceptFqName="jetbrains.mps.baseLanguage.structure.ExpressionStatement" fileName="ShortestPathEmbeddingFinder.java" startLine="88" startPosition="90" endLine="89" endPosition="99" />
+    <nodeInfo nodeId="7133435336869263970" conceptFqName="jetbrains.mps.baseLanguage.structure.ExpressionStatement" fileName="ShortestPathEmbeddingFinder.java" startLine="90" startPosition="5" endLine="91" endPosition="57" />
     <nodeInfo nodeId="1327612371813257429" conceptFqName="jetbrains.mps.baseLanguage.structure.ConstructorDeclaration" fileName="ShortestPathEmbeddingFinder.java" startLine="22" startPosition="0" endLine="25" endPosition="3" />
     <nodeInfo nodeId="1327612371813257510" conceptFqName="jetbrains.mps.baseLanguage.structure.ForeachStatement" fileName="ShortestPathEmbeddingFinder.java" startLine="41" startPosition="5" endLine="44" endPosition="5" />
-    <nodeInfo nodeId="1327612371813257630" conceptFqName="jetbrains.mps.baseLanguage.structure.ForeachStatement" fileName="ShortestPathEmbeddingFinder.java" startLine="57" startPosition="71" endLine="60" endPosition="5" />
-    <nodeInfo nodeId="1327612371813257742" conceptFqName="jetbrains.mps.baseLanguage.structure.IfStatement" fileName="ShortestPathEmbeddingFinder.java" startLine="67" startPosition="77" endLine="70" endPosition="7" />
-    <nodeInfo nodeId="1327612371813257775" conceptFqName="jetbrains.mps.baseLanguage.structure.IfStatement" fileName="ShortestPathEmbeddingFinder.java" startLine="72" startPosition="75" endLine="75" endPosition="7" />
+    <nodeInfo nodeId="7133435336869263767" conceptFqName="jetbrains.mps.baseLanguage.structure.ForeachStatement" fileName="ShortestPathEmbeddingFinder.java" startLine="57" startPosition="71" endLine="60" endPosition="5" />
+    <nodeInfo nodeId="7133435336869263835" conceptFqName="jetbrains.mps.baseLanguage.structure.IfStatement" fileName="ShortestPathEmbeddingFinder.java" startLine="67" startPosition="77" endLine="70" endPosition="7" />
+    <nodeInfo nodeId="7133435336869263870" conceptFqName="jetbrains.mps.baseLanguage.structure.IfStatement" fileName="ShortestPathEmbeddingFinder.java" startLine="72" startPosition="75" endLine="75" endPosition="7" />
     <nodeInfo nodeId="3720762119843733881" conceptFqName="jetbrains.mps.baseLanguage.structure.IfStatement" fileName="ShortestPathEmbeddingFinder.java" startLine="28" startPosition="68" endLine="32" endPosition="5" />
     <nodeInfo nodeId="4422427343208761573" conceptFqName="jetbrains.mps.baseLanguage.structure.InstanceMethodDeclaration" fileName="ShortestPathEmbeddingFinder.java" startLine="33" startPosition="95" endLine="37" endPosition="0" />
     <nodeInfo nodeId="3720762119843733906" conceptFqName="jetbrains.mps.baseLanguage.structure.IfStatement" fileName="ShortestPathEmbeddingFinder.java" startLine="37" startPosition="24" endLine="41" endPosition="5" />
     <nodeInfo nodeId="5488345258545696098" conceptFqName="jetbrains.mps.baseLanguage.structure.IfStatement" fileName="ShortestPathEmbeddingFinder.java" startLine="46" startPosition="39" endLine="50" endPosition="7" />
-    <nodeInfo nodeId="5488345258545699418" conceptFqName="jetbrains.mps.baseLanguage.structure.IfStatement" fileName="ShortestPathEmbeddingFinder.java" startLine="78" startPosition="116" endLine="82" endPosition="5" />
+    <nodeInfo nodeId="7133435336869263896" conceptFqName="jetbrains.mps.baseLanguage.structure.IfStatement" fileName="ShortestPathEmbeddingFinder.java" startLine="78" startPosition="116" endLine="82" endPosition="5" />
     <nodeInfo nodeId="1327612371813257524" conceptFqName="jetbrains.mps.baseLanguage.structure.LocalVariableDeclarationStatement" fileName="ShortestPathEmbeddingFinder.java" startLine="32" startPosition="5" endLine="37" endPosition="24" />
     <nodeInfo nodeId="1327612371813257841" conceptFqName="jetbrains.mps.baseLanguage.structure.ForeachStatement" fileName="ShortestPathEmbeddingFinder.java" startLine="44" startPosition="5" endLine="51" endPosition="5" />
-    <nodeInfo nodeId="1327612371813257794" conceptFqName="jetbrains.mps.baseLanguage.structure.ForStatement" fileName="ShortestPathEmbeddingFinder.java" startLine="82" startPosition="5" endLine="90" endPosition="5" />
-    <nodeInfo nodeId="1327612371813257730" conceptFqName="jetbrains.mps.baseLanguage.structure.ForeachStatement" fileName="ShortestPathEmbeddingFinder.java" startLine="65" startPosition="61" endLine="76" endPosition="5" />
+    <nodeInfo nodeId="7133435336869263912" conceptFqName="jetbrains.mps.baseLanguage.structure.ForStatement" fileName="ShortestPathEmbeddingFinder.java" startLine="82" startPosition="5" endLine="90" endPosition="5" />
+    <nodeInfo nodeId="7133435336869263823" conceptFqName="jetbrains.mps.baseLanguage.structure.ForeachStatement" fileName="ShortestPathEmbeddingFinder.java" startLine="65" startPosition="61" endLine="76" endPosition="5" />
     <nodeInfo nodeId="1327612371813257446" conceptFqName="jetbrains.mps.baseLanguage.structure.InstanceMethodDeclaration" fileName="ShortestPathEmbeddingFinder.java" startLine="26" startPosition="0" endLine="54" endPosition="0" />
-    <nodeInfo nodeId="1327612371813257600" conceptFqName="jetbrains.mps.baseLanguage.structure.InstanceMethodDeclaration" fileName="ShortestPathEmbeddingFinder.java" startLine="54" startPosition="0" endLine="93" endPosition="0" />
+    <nodeInfo nodeId="7133435336869263729" conceptFqName="jetbrains.mps.baseLanguage.structure.StaticMethodDeclaration" fileName="ShortestPathEmbeddingFinder.java" startLine="54" startPosition="0" endLine="93" endPosition="0" />
     <scopeInfo nodeId="1327612371813257432" fileName="ShortestPathEmbeddingFinder.java" startLine="23" startPosition="70" endLine="24" endPosition="36" />
     <scopeInfo nodeId="4422427343208761574" fileName="ShortestPathEmbeddingFinder.java" startLine="34" startPosition="40" endLine="35" endPosition="60" />
     <scopeInfo nodeId="1327612371813257513" fileName="ShortestPathEmbeddingFinder.java" startLine="42" startPosition="52" endLine="43" endPosition="29" />
-    <scopeInfo nodeId="1327612371813257635" fileName="ShortestPathEmbeddingFinder.java" startLine="58" startPosition="77" endLine="59" endPosition="78" />
-    <scopeInfo nodeId="1327612371813257748" fileName="ShortestPathEmbeddingFinder.java" startLine="68" startPosition="61" endLine="69" endPosition="132" />
-    <scopeInfo nodeId="1327612371813257779" fileName="ShortestPathEmbeddingFinder.java" startLine="73" startPosition="28" endLine="74" endPosition="60" />
+    <scopeInfo nodeId="7133435336869263772" fileName="ShortestPathEmbeddingFinder.java" startLine="58" startPosition="77" endLine="59" endPosition="78" />
+    <scopeInfo nodeId="7133435336869263842" fileName="ShortestPathEmbeddingFinder.java" startLine="68" startPosition="61" endLine="69" endPosition="132" />
+    <scopeInfo nodeId="7133435336869263874" fileName="ShortestPathEmbeddingFinder.java" startLine="73" startPosition="28" endLine="74" endPosition="60" />
     <scopeInfo nodeId="3720762119843733883" fileName="ShortestPathEmbeddingFinder.java" startLine="29" startPosition="23" endLine="31" endPosition="40" />
     <scopeInfo nodeId="3720762119843733908" fileName="ShortestPathEmbeddingFinder.java" startLine="38" startPosition="23" endLine="40" endPosition="32" />
     <scopeInfo nodeId="5488345258545696099" fileName="ShortestPathEmbeddingFinder.java" startLine="47" startPosition="25" endLine="49" endPosition="42" />
-    <scopeInfo nodeId="5488345258545699419" fileName="ShortestPathEmbeddingFinder.java" startLine="79" startPosition="23" endLine="81" endPosition="35" />
+    <scopeInfo nodeId="7133435336869263897" fileName="ShortestPathEmbeddingFinder.java" startLine="79" startPosition="23" endLine="81" endPosition="35" />
     <scopeInfo nodeId="1327612371813257429" fileName="ShortestPathEmbeddingFinder.java" startLine="22" startPosition="0" endLine="25" endPosition="3">
       <varInfo nodeId="1327612371813257433" varName="initialFinder" />
     </scopeInfo>
     <scopeInfo nodeId="1327612371813257510" fileName="ShortestPathEmbeddingFinder.java" startLine="41" startPosition="5" endLine="44" endPosition="5" />
-    <scopeInfo nodeId="1327612371813257630" fileName="ShortestPathEmbeddingFinder.java" startLine="57" startPosition="71" endLine="60" endPosition="5" />
+    <scopeInfo nodeId="7133435336869263767" fileName="ShortestPathEmbeddingFinder.java" startLine="57" startPosition="71" endLine="60" endPosition="5" />
     <scopeInfo nodeId="4422427343208761573" fileName="ShortestPathEmbeddingFinder.java" startLine="33" startPosition="95" endLine="37" endPosition="0" />
     <scopeInfo nodeId="1327612371813257844" fileName="ShortestPathEmbeddingFinder.java" startLine="45" startPosition="52" endLine="50" endPosition="7" />
-    <scopeInfo nodeId="1327612371813257795" fileName="ShortestPathEmbeddingFinder.java" startLine="83" startPosition="75" endLine="89" endPosition="99">
-      <varInfo nodeId="1327612371813258067" varName="newEdge" />
-      <varInfo nodeId="1327612371813258080" varName="tempPath" />
-      <varInfo nodeId="1327612371813258041" varName="start" />
-      <varInfo nodeId="1327612371813258051" varName="end" />
+    <scopeInfo nodeId="7133435336869263913" fileName="ShortestPathEmbeddingFinder.java" startLine="83" startPosition="75" endLine="89" endPosition="99">
+      <varInfo nodeId="7133435336869263929" varName="newEdge" />
+      <varInfo nodeId="7133435336869263941" varName="tempPath" />
+      <varInfo nodeId="7133435336869263915" varName="start" />
+      <varInfo nodeId="7133435336869263921" varName="end" />
     </scopeInfo>
     <scopeInfo nodeId="1327612371813257841" fileName="ShortestPathEmbeddingFinder.java" startLine="44" startPosition="5" endLine="51" endPosition="5" />
-    <scopeInfo nodeId="1327612371813257794" fileName="ShortestPathEmbeddingFinder.java" startLine="82" startPosition="5" endLine="90" endPosition="5">
-      <varInfo nodeId="1327612371813257813" varName="i" />
+    <scopeInfo nodeId="7133435336869263912" fileName="ShortestPathEmbeddingFinder.java" startLine="82" startPosition="5" endLine="90" endPosition="5">
+      <varInfo nodeId="7133435336869263958" varName="i" />
     </scopeInfo>
-    <scopeInfo nodeId="1327612371813257733" fileName="ShortestPathEmbeddingFinder.java" startLine="66" startPosition="51" endLine="75" endPosition="7">
-      <varInfo nodeId="1327612371813257768" varName="curFace" />
-      <varInfo nodeId="1327612371813257735" varName="realEdge" />
+    <scopeInfo nodeId="7133435336869263826" fileName="ShortestPathEmbeddingFinder.java" startLine="66" startPosition="51" endLine="75" endPosition="7">
+      <varInfo nodeId="7133435336869263863" varName="curFace" />
+      <varInfo nodeId="7133435336869263828" varName="realEdge" />
     </scopeInfo>
-    <scopeInfo nodeId="1327612371813257730" fileName="ShortestPathEmbeddingFinder.java" startLine="65" startPosition="61" endLine="76" endPosition="5" />
+    <scopeInfo nodeId="7133435336869263823" fileName="ShortestPathEmbeddingFinder.java" startLine="65" startPosition="61" endLine="76" endPosition="5" />
     <scopeInfo nodeId="1327612371813257451" fileName="ShortestPathEmbeddingFinder.java" startLine="27" startPosition="42" endLine="52" endPosition="25">
       <varInfo nodeId="1327612371813257525" varName="toAdd" />
       <varInfo nodeId="1327612371813257458" varName="embeddedGraph" />
@@ -328,18 +328,18 @@
     <scopeInfo nodeId="1327612371813257446" fileName="ShortestPathEmbeddingFinder.java" startLine="26" startPosition="0" endLine="54" endPosition="0">
       <varInfo nodeId="1327612371813257449" varName="graph" />
     </scopeInfo>
-    <scopeInfo nodeId="1327612371813257607" fileName="ShortestPathEmbeddingFinder.java" startLine="55" startPosition="75" endLine="91" endPosition="57">
-      <varInfo nodeId="1327612371813257702" varName="nodePath" />
-      <varInfo nodeId="1327612371813257689" varName="path" />
-      <varInfo nodeId="1327612371813257725" varName="cur" />
-      <varInfo nodeId="1418350014056299954" varName="newEdges" />
-      <varInfo nodeId="1327612371813257624" varName="newNodes" />
-      <varInfo nodeId="1327612371813257609" varName="dualGraph" />
-      <varInfo nodeId="1327612371813257709" varName="facePath" />
+    <scopeInfo nodeId="7133435336869263732" fileName="ShortestPathEmbeddingFinder.java" startLine="55" startPosition="81" endLine="91" endPosition="57">
+      <varInfo nodeId="7133435336869263795" varName="nodePath" />
+      <varInfo nodeId="7133435336869263782" varName="path" />
+      <varInfo nodeId="7133435336869263818" varName="cur" />
+      <varInfo nodeId="7133435336869263881" varName="newEdges" />
+      <varInfo nodeId="7133435336869263761" varName="newNodes" />
+      <varInfo nodeId="7133435336869263755" varName="dualGraph" />
+      <varInfo nodeId="7133435336869263802" varName="facePath" />
     </scopeInfo>
-    <scopeInfo nodeId="1327612371813257600" fileName="ShortestPathEmbeddingFinder.java" startLine="54" startPosition="0" endLine="93" endPosition="0">
-      <varInfo nodeId="1327612371813257605" varName="removedEdge" />
-      <varInfo nodeId="1327612371813257603" varName="embeddedGraph" />
+    <scopeInfo nodeId="7133435336869263729" fileName="ShortestPathEmbeddingFinder.java" startLine="54" startPosition="0" endLine="93" endPosition="0">
+      <varInfo nodeId="7133435336869263735" varName="removedEdge" />
+      <varInfo nodeId="7133435336869263733" varName="embeddedGraph" />
     </scopeInfo>
     <unitInfo nodeId="4422427343208761573" fileName="ShortestPathEmbeddingFinder.java" startLine="33" startPosition="73" endLine="37" endPosition="5" unitName="jetbrains.mps.graphLayout.planarization.ShortestPathEmbeddingFinder$1" />
     <unitInfo nodeId="1327612371813257427" fileName="ShortestPathEmbeddingFinder.java" startLine="18" startPosition="0" endLine="94" endPosition="0" unitName="jetbrains.mps.graphLayout.planarization.ShortestPathEmbeddingFinder" />
