@@ -30,14 +30,14 @@ public class typeof_GetUserDataExpression_InferenceRule extends AbstractInferenc
       SNode _nodeToCheck_1029348928467 = getUserDataExpression;
       BaseQuickFixProvider intentionProvider = null;
       EquationInfo _info_12389875345 = new EquationInfo(_nodeToCheck_1029348928467, null, "r:00000000-0000-4000-0000-011c89590364(jetbrains.mps.lang.plugin.typesystem)", "492938830216854177", 0, intentionProvider);
-      typeCheckingContext.createEquation((SNode) typeCheckingContext.typeOf(_nodeToCheck_1029348928467, "r:00000000-0000-4000-0000-011c89590364(jetbrains.mps.lang.plugin.typesystem)", "492938830216854172", true), (SNode) typeCheckingContext.getEquationManager().getRepresentator(t_typevar_492938830216854136), _info_12389875345);
+      typeCheckingContext.createEquation((SNode) typeCheckingContext.typeOf(_nodeToCheck_1029348928467, "r:00000000-0000-4000-0000-011c89590364(jetbrains.mps.lang.plugin.typesystem)", "492938830216854172", true), (SNode) typeCheckingContext.getRepresentative(t_typevar_492938830216854136), _info_12389875345);
     }
     {
       SNode _nodeToCheck_1029348928467 = SLinkOperations.getTarget(getUserDataExpression, "argument", true);
       BaseQuickFixProvider intentionProvider = null;
       EquationInfo _info_12389875345 = new EquationInfo(_nodeToCheck_1029348928467, null, "r:00000000-0000-4000-0000-011c89590364(jetbrains.mps.lang.plugin.typesystem)", "492938830216854137", 0, intentionProvider);
       _info_12389875345.setInequationGroup("default");
-      typeCheckingContext.createLessThanInequationStrong((SNode) typeCheckingContext.typeOf(_nodeToCheck_1029348928467, "r:00000000-0000-4000-0000-011c89590364(jetbrains.mps.lang.plugin.typesystem)", "492938830216854127", true), (SNode) new typeof_GetUserDataExpression_InferenceRule.QuotationClass_xw47et_a0a2a0().createNode(typeCheckingContext.getEquationManager().getRepresentator(t_typevar_492938830216854136), typeCheckingContext), false, _info_12389875345);
+      typeCheckingContext.createLessThanInequationStrong((SNode) typeCheckingContext.typeOf(_nodeToCheck_1029348928467, "r:00000000-0000-4000-0000-011c89590364(jetbrains.mps.lang.plugin.typesystem)", "492938830216854127", true), (SNode) new typeof_GetUserDataExpression_InferenceRule.QuotationClass_xw47et_a0a2a0().createNode(typeCheckingContext.getRepresentative(t_typevar_492938830216854136), typeCheckingContext), false, _info_12389875345);
     }
   }
 
@@ -79,7 +79,7 @@ public class typeof_GetUserDataExpression_InferenceRule extends AbstractInferenc
             quotedNode1_4 = quotedNode_2;
           }
           if (quotedNode1_4 != null) {
-            quotedNode_1.addChild("parameter", HUtil.copyIfNecessary(quotedNode1_4, typeCheckingContext));
+            quotedNode_1.addChild("parameter", HUtil.copyIfNecessary(quotedNode1_4));
           }
         }
         result = quotedNode1_3;
