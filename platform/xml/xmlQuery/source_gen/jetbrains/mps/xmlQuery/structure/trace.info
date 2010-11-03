@@ -7,6 +7,7 @@
   <unitInfo fileName="AccessTextOperation.java" startLine="10" startPosition="0" endLine="25" endPosition="0" unitName="jetbrains.mps.xmlQuery.structure.AccessTextOperation" />
   <unitInfo fileName="XMLSAXNodeValidator.java" startLine="10" startPosition="0" endLine="25" endPosition="0" unitName="jetbrains.mps.xmlQuery.structure.XMLSAXNodeValidator" />
   <unitInfo fileName="XMLSAXChildHandler_childObject.java" startLine="11" startPosition="0" endLine="26" endPosition="0" unitName="jetbrains.mps.xmlQuery.structure.XMLSAXChildHandler_childObject" />
+  <unitInfo fileName="XMLSAXLocatorExpression.java" startLine="11" startPosition="0" endLine="26" endPosition="0" unitName="jetbrains.mps.xmlQuery.structure.XMLSAXLocatorExpression" />
   <unitInfo fileName="XMLSAXTextHandler_value.java" startLine="11" startPosition="0" endLine="26" endPosition="0" unitName="jetbrains.mps.xmlQuery.structure.XMLSAXTextHandler_value" />
   <unitInfo fileName="XMLSAXHandler_resultObject.java" startLine="11" startPosition="0" endLine="26" endPosition="0" unitName="jetbrains.mps.xmlQuery.structure.XMLSAXHandler_resultObject" />
   <unitInfo fileName="XMLSAXHandlerFunction.java" startLine="11" startPosition="0" endLine="26" endPosition="0" unitName="jetbrains.mps.xmlQuery.structure.XMLSAXHandlerFunction" />

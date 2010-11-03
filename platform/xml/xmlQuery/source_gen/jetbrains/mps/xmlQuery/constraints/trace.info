@@ -1,5 +1,6 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <debugInfo>
+  <unitInfo fileName="XMLSAXLocatorExpression_Constraints.java" startLine="9" startPosition="0" endLine="14" endPosition="0" unitName="jetbrains.mps.xmlQuery.constraints.XMLSAXLocatorExpression_Constraints" />
   <unitInfo fileName="XMLSAXAttributeReference_Constraints.java" startLine="9" startPosition="0" endLine="14" endPosition="0" unitName="jetbrains.mps.xmlQuery.constraints.XMLSAXAttributeReference_Constraints" />
   <unitInfo fileName="TextBuilder_Constraints.java" startLine="10" startPosition="0" endLine="15" endPosition="0" unitName="jetbrains.mps.xmlQuery.constraints.TextBuilder_Constraints" />
   <unitInfo fileName="AttributeBuilder_Constraints.java" startLine="10" startPosition="0" endLine="15" endPosition="0" unitName="jetbrains.mps.xmlQuery.constraints.AttributeBuilder_Constraints" />
@@ -295,6 +296,10 @@
     <scopeInfo nodeId="7225751495667376053" fileName="AttributeBuilder_attributeDeclaration_ReferentConstraint.java" startLine="31" startPosition="132" endLine="37" endPosition="34">
       <varInfo nodeId="10026583184937144" varName="contextBuilder" />
     </scopeInfo>
+  </root>
+  <root nodeId="7459083455229529814">
+    <nodeInfo nodeId="7459083455229529825" conceptFqName="jetbrains.mps.baseLanguage.structure.ReturnStatement" fileName="XMLSAXLocatorExpression_Constraints.java" startLine="10" startPosition="114" endLine="11" endPosition="138" />
+    <scopeInfo nodeId="7459083455229529824" fileName="XMLSAXLocatorExpression_Constraints.java" startLine="10" startPosition="114" endLine="11" endPosition="138" />
   </root>
   <root nodeId="7567280977594965151">
     <nodeInfo nodeId="7567280977595060301" conceptFqName="jetbrains.mps.baseLanguage.structure.ReturnStatement" fileName="TextBuilder_Constraints.java" startLine="11" startPosition="114" endLine="12" endPosition="173" />

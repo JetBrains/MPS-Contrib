@@ -10,6 +10,7 @@
   <languageAspect modelUID="r:00000000-0000-4000-0000-011c8959029e(jetbrains.mps.lang.editor.structure)" version="32" />
   <languageAspect modelUID="r:00000000-0000-4000-0000-011c89590288(jetbrains.mps.lang.core.structure)" version="0" />
   <languageAspect modelUID="r:00000000-0000-4000-0000-011c8959032e(jetbrains.mps.baseLanguage.collections.structure)" version="7" />
+  <languageAspect modelUID="r:4ff472d0-0d77-4677-861d-f126af6e5437(jetbrains.mps.xmlQuery.editor)" version="-1" />
   <maxImportIndex value="7" />
   <import index="1" modelUID="r:bd6e2c7d-3a5d-4eed-9ff9-27f23ecb34e2(jetbrains.mps.xmlQuery.structure)" version="4" />
   <import index="2" modelUID="r:00000000-0000-4000-0000-011c89590598(jetbrains.mps.xmlSchema.structure)" version="3" />
@@ -1184,6 +1185,19 @@
             <property name="color:32" value="DARK_BLUE" />
           </node>
         </node>
+      </node>
+    </node>
+  </node>
+  <node type="jetbrains.mps.lang.editor.structure.ConceptEditorDeclaration:32" id="7459083455229529809">
+    <property name="virtualPackage:32" value="sax" />
+    <link role="conceptDeclaration:32" targetNodeId="1.7459083455229529757:4" resolveInfo="XMLSAXLocatorExpression" />
+    <node role="cellModel:32" type="jetbrains.mps.lang.editor.structure.CellModel_Constant:32" id="7459083455229529811">
+      <property name="text:32" value="locator" />
+      <node role="styleItem:32" type="jetbrains.mps.lang.editor.structure.FontStyleStyleClassItem:32" id="7459083455229529812">
+        <property name="style:32" value="BOLD_ITALIC" />
+      </node>
+      <node role="styleItem:32" type="jetbrains.mps.lang.editor.structure.ForegroundColorStyleClassItem:32" id="7459083455229529813">
+        <property name="color:32" value="DARK_BLUE" />
       </node>
     </node>
   </node>

@@ -1,6 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <debugInfo>
   <unitInfo fileName="XMLElementOperation_Editor.java" startLine="11" startPosition="0" endLine="22" endPosition="0" unitName="jetbrains.mps.xmlQuery.editor.XMLElementOperation_Editor" />
+  <unitInfo fileName="XMLSAXLocatorExpression_Editor.java" startLine="15" startPosition="0" endLine="32" endPosition="0" unitName="jetbrains.mps.xmlQuery.editor.XMLSAXLocatorExpression_Editor" />
   <unitInfo fileName="delete_CompactKW.java" startLine="17" startPosition="0" endLine="36" endPosition="0" unitName="jetbrains.mps.xmlQuery.editor.delete_CompactKW$delete_CompactKW_DELETE" />
   <unitInfo fileName="XMLElementType_Editor.java" startLine="155" startPosition="0" endLine="174" endPosition="0" unitName="jetbrains.mps.xmlQuery.editor.XMLElementType_Editor$_Inline_ohiupi_a4a" />
   <unitInfo fileName="delete_CompactKW.java" startLine="12" startPosition="0" endLine="37" endPosition="0" unitName="jetbrains.mps.xmlQuery.editor.delete_CompactKW" />

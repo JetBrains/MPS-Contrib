@@ -111,6 +111,10 @@ public class QueriesGenerated {
     return "field" + SPropertyOperations.getString(SLinkOperations.getTarget(_context.getNode(), "declaration", false), "name");
   }
 
+  public static Object referenceMacro_GetReferent_7459083455229529890(final IOperationContext operationContext, final ReferenceMacroContext _context) {
+    return "myLocator";
+  }
+
   public static boolean ifMacro_Condition_3444414697307502949(final IOperationContext operationContext, final IfMacroContext _context) {
     return (SLinkOperations.getTarget(_context.getNode(), "creator", true) != null) && (SLinkOperations.getTarget(SLinkOperations.getTarget(_context.getNode(), "creator", true), "body", true) != null) && ListSequence.fromList(SLinkOperations.getTargets(SLinkOperations.getTarget(SLinkOperations.getTarget(_context.getNode(), "creator", true), "body", true), "statement", true)).isNotEmpty();
   }

@@ -509,5 +509,14 @@
       <link role="conceptPropertyDeclaration:0" targetNodeId="3.1146528679895:3" resolveInfo="lvalue" />
     </node>
   </node>
+  <node type="jetbrains.mps.lang.structure.structure.ConceptDeclaration:0" id="7459083455229529757">
+    <property name="virtualPackage:0" value="sax" />
+    <property name="name:0" value="XMLSAXLocatorExpression" />
+    <link role="extends:0" targetNodeId="3.1068431790191:3" resolveInfo="Expression" />
+    <node role="conceptProperty:0" type="jetbrains.mps.lang.structure.structure.StringConceptProperty:0" id="7459083455229571324">
+      <property name="value:0" value="locator" />
+      <link role="conceptPropertyDeclaration:0" targetNodeId="2v.1137473891462:0" resolveInfo="alias" />
+    </node>
+  </node>
 </model>
 

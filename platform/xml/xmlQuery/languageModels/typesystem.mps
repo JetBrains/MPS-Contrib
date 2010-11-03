@@ -14,11 +14,14 @@
   <languageAspect modelUID="r:00000000-0000-4000-0000-011c89590288(jetbrains.mps.lang.core.structure)" version="0" />
   <languageAspect modelUID="r:00000000-0000-4000-0000-011c8959032e(jetbrains.mps.baseLanguage.collections.structure)" version="7" />
   <languageAspect modelUID="r:00000000-0000-4000-0000-011c8959034b(jetbrains.mps.lang.quotation.structure)" version="0" />
-  <maxImportIndex value="11" />
+  <languageAspect modelUID="f:java_stub#java.lang(java.lang@java_stub)" version="-1" />
+  <languageAspect modelUID="r:d89ddc4c-de44-408f-97b1-095c4af64bfb(jetbrains.mps.xmlQuery.typesystem)" version="-1" />
+  <maxImportIndex value="12" />
   <import index="1" modelUID="r:bd6e2c7d-3a5d-4eed-9ff9-27f23ecb34e2(jetbrains.mps.xmlQuery.structure)" version="4" />
   <import index="2" modelUID="r:00000000-0000-4000-0000-011c89590598(jetbrains.mps.xmlSchema.structure)" version="3" />
   <import index="9" modelUID="f:java_stub#org.jdom(org.jdom@java_stub)" version="-1" />
   <import index="11" modelUID="r:e79b58b4-ea58-4c9d-b43b-c3a260addf6a(jetbrains.mps.xmlQuery.constraints)" version="-1" />
+  <import index="12" modelUID="f:java_stub#org.xml.sax(org.xml.sax@java_stub)" version="-1" />
   <node type="jetbrains.mps.lang.typesystem.structure.InferenceRule:3" id="4991903842868198512">
     <property name="name:3" value="typeof_AccessChildrenOperation" />
     <property name="virtualPackage:3" value="operations" />
@@ -933,6 +936,32 @@
     <node role="applicableNode:3" type="jetbrains.mps.lang.typesystem.structure.ConceptReference:3" id="355506112073016265">
       <property name="name:3" value="xmlsaxFieldReference" />
       <link role="concept:3" targetNodeId="1.7707758858785994426:4" resolveInfo="XMLSAXFieldReference" />
+    </node>
+  </node>
+  <node type="jetbrains.mps.lang.typesystem.structure.InferenceRule:3" id="7459083455229529841">
+    <property name="name:3" value="typeof_XMLSAXLocatorExpression" />
+    <property name="virtualPackage:3" value="sax" />
+    <node role="body:3" type="jetbrains.mps.baseLanguage.structure.StatementList:3" id="7459083455229529842">
+      <node role="statement:3" type="jetbrains.mps.lang.typesystem.structure.CreateEquationStatement:3" id="7459083455229529848">
+        <node role="rightExpression:3" type="jetbrains.mps.lang.typesystem.structure.NormalTypeClause:3" id="7459083455229529852">
+          <node role="normalType:3" type="jetbrains.mps.lang.quotation.structure.Quotation:0" id="7459083455229529853">
+            <node role="quotedNode:0" type="jetbrains.mps.baseLanguage.structure.ClassifierType:3" id="7459083455229529856">
+              <link role="classifier:3" targetNodeId="12.~Locator" resolveInfo="Locator" />
+            </node>
+          </node>
+        </node>
+        <node role="leftExpression:3" type="jetbrains.mps.lang.typesystem.structure.NormalTypeClause:3" id="7459083455229529851">
+          <node role="normalType:3" type="jetbrains.mps.lang.typesystem.structure.TypeOfExpression:3" id="7459083455229529845">
+            <node role="term:3" type="jetbrains.mps.lang.typesystem.structure.ApplicableNodeReference:3" id="7459083455229529847">
+              <link role="applicableNode:3" targetNodeId="7459083455229529843" resolveInfo="locatorExpression" />
+            </node>
+          </node>
+        </node>
+      </node>
+    </node>
+    <node role="applicableNode:3" type="jetbrains.mps.lang.typesystem.structure.ConceptReference:3" id="7459083455229529843">
+      <property name="name:3" value="locatorExpression" />
+      <link role="concept:3" targetNodeId="1.7459083455229529757:4" resolveInfo="XMLSAXLocatorExpression" />
     </node>
   </node>
 </model>
