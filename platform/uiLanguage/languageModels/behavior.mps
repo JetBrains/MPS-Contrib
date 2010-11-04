@@ -9,36 +9,12 @@
   <language namespace="af65afd8-f0dd-4942-87d9-63a55f2a9db1(jetbrains.mps.lang.behavior)" />
   <language namespace="fd392034-7849-419d-9071-12563d152375(jetbrains.mps.baseLanguage.closures)" />
   <language namespace="5d6bee4c-f891-4a93-a0c9-e2268726ae47(jetbrains.mps.uiLanguage)" />
-  <languageAspect modelUID="r:00000000-0000-4000-0000-011c89590307(jetbrains.mps.lang.constraints.constraints)" version="9" />
-  <languageAspect modelUID="r:00000000-0000-4000-0000-011c8959030d(jetbrains.mps.lang.constraints.structure)" version="8" />
-  <languageAspect modelUID="r:00000000-0000-4000-0000-011c895902fb(jetbrains.mps.lang.smodel.constraints)" version="21" />
   <languageAspect modelUID="r:00000000-0000-4000-0000-011c89590301(jetbrains.mps.lang.smodel.structure)" version="16" />
-  <languageAspect modelUID="r:00000000-0000-4000-0000-011c895902c1(jetbrains.mps.baseLanguage.constraints)" version="83" />
-  <languageAspect modelUID="r:00000000-0000-4000-0000-011c895902ca(jetbrains.mps.baseLanguage.structure)" version="3" />
-  <languageAspect modelUID="r:00000000-0000-4000-0000-011c8959054e(jetbrains.mps.uiLanguage.constraints)" version="26" />
-  <languageAspect modelUID="r:00000000-0000-4000-0000-011c89590553(jetbrains.mps.uiLanguage.structure)" version="1" />
-  <languageAspect modelUID="r:00000000-0000-4000-0000-011c89590328(jetbrains.mps.baseLanguage.collections.constraints)" version="6" />
   <languageAspect modelUID="r:00000000-0000-4000-0000-011c8959032e(jetbrains.mps.baseLanguage.collections.structure)" version="7" />
-  <languageAspect modelUID="r:00000000-0000-4000-0000-011c895903fe(jetbrains.mps.baseLanguage.strings.constraints)" version="1" />
   <languageAspect modelUID="r:00000000-0000-4000-0000-011c89590338(jetbrains.mps.baseLanguage.closures.structure)" version="3" />
-  <languageAspect modelUID="r:00000000-0000-4000-0000-011c89590283(jetbrains.mps.lang.core.constraints)" version="2" />
-  <languageAspect modelUID="r:00000000-0000-4000-0000-011c8959028c(jetbrains.mps.lang.structure.constraints)" version="11" />
-  <languageAspect modelUID="r:00000000-0000-4000-0000-011c895902ba(jetbrains.mps.lang.sharedConcepts.constraints)" version="0" />
-  <languageAspect modelUID="r:00000000-0000-4000-0000-011c89590334(jetbrains.mps.baseLanguage.closures.constraints)" version="2" />
-  <languageAspect modelUID="r:00000000-0000-4000-0000-011c8959036e(jetbrains.mps.baseLanguage.classifiers.constraints)" version="7" />
-  <languageAspect modelUID="r:00000000-0000-4000-0000-011c895902ae(jetbrains.mps.lang.typesystem.constraints)" version="17" />
-  <languageAspect modelUID="r:00000000-0000-4000-0000-011c89590340(jetbrains.mps.lang.pattern.constraints)" version="2" />
-  <languageAspect modelUID="r:00000000-0000-4000-0000-011c895903e4(jetbrains.mps.internal.collections.constraints)" version="2" />
-  <languageAspect modelUID="r:00000000-0000-4000-0000-011c895902db(jetbrains.mps.baseLanguage.blTypes.constraints)" version="0" />
-  <languageAspect modelUID="r:00000000-0000-4000-0000-011c89590288(jetbrains.mps.lang.core.structure)" version="0" />
-  <languageAspect modelUID="r:00000000-0000-4000-0000-011c89590292(jetbrains.mps.lang.structure.structure)" version="0" />
-  <languageAspect modelUID="r:00000000-0000-4000-0000-011c895902bc(jetbrains.mps.lang.sharedConcepts.structure)" version="0" />
-  <languageAspect modelUID="r:00000000-0000-4000-0000-011c8959033d(jetbrains.mps.lang.annotations.structure)" version="0" />
   <languageAspect modelUID="r:00000000-0000-4000-0000-011c8959034b(jetbrains.mps.lang.quotation.structure)" version="0" />
-  <languageAspect modelUID="r:00000000-0000-4000-0000-011c89590345(jetbrains.mps.lang.pattern.structure)" version="0" />
-  <languageAspect modelUID="r:00000000-0000-4000-0000-011c895902b4(jetbrains.mps.lang.typesystem.structure)" version="3" />
-  <languageAspect modelUID="r:00000000-0000-4000-0000-011c89590402(jetbrains.mps.baseLanguage.strings.structure)" version="9" />
-  <languageAspect modelUID="r:00000000-0000-4000-0000-011c89590373(jetbrains.mps.baseLanguage.classifiers.structure)" version="0" />
+  <languageAspect modelUID="r:00000000-0000-4000-0000-011c8959054c(jetbrains.mps.uiLanguage.behavior)" version="-1" />
+  <languageAspect modelUID="r:3270011d-8b2d-4938-8dff-d256a759e017(jetbrains.mps.lang.behavior.structure)" version="-1" />
   <maxImportIndex value="11" />
   <import index="1" modelUID="r:00000000-0000-4000-0000-011c89590553(jetbrains.mps.uiLanguage.structure)" version="1" />
   <import index="3" modelUID="f:java_stub#java.lang(java.lang@java_stub)" version="-1" />
@@ -51,7 +27,7 @@
   <import index="10" modelUID="r:00000000-0000-4000-0000-011c89590288(jetbrains.mps.lang.core.structure)" version="0" />
   <import index="11" modelUID="r:00000000-0000-4000-0000-011c895902c0(jetbrains.mps.baseLanguage.behavior)" version="-1" />
   <node type="jetbrains.mps.lang.behavior.structure.ConceptBehavior" id="1213877184373">
-    <property name="package" value="Component" />
+    <property name="virtualPackage" value="Component" />
     <link role="concept" targetNodeId="1.1202388384249:1" resolveInfo="ComponentController" />
     <node role="method" type="jetbrains.mps.lang.behavior.structure.ConceptMethodDeclaration" id="1213877184374">
       <property name="name" value="getMainClassifier" />
@@ -77,21 +53,21 @@
     </node>
   </node>
   <node type="jetbrains.mps.lang.behavior.structure.ConceptBehavior" id="1213877185604">
-    <property name="package" value="Component" />
+    <property name="virtualPackage" value="Component" />
     <link role="concept" targetNodeId="1.1202742489421:1" resolveInfo="ComponentReference" />
     <node role="constructor" type="jetbrains.mps.lang.behavior.structure.ConceptConstructorDeclaration" id="1213877185605">
       <node role="body" type="jetbrains.mps.baseLanguage.structure.StatementList:3" id="1213877185606" />
     </node>
   </node>
   <node type="jetbrains.mps.lang.behavior.structure.ConceptBehavior" id="1213877222546">
-    <property name="package" value="Events.Operations" />
+    <property name="virtualPackage" value="Events.Operations" />
     <link role="concept" targetNodeId="1.1208090516982:1" resolveInfo="RemoveListenerOperation" />
     <node role="constructor" type="jetbrains.mps.lang.behavior.structure.ConceptConstructorDeclaration" id="1213877222547">
       <node role="body" type="jetbrains.mps.baseLanguage.structure.StatementList:3" id="1213877222548" />
     </node>
   </node>
   <node type="jetbrains.mps.lang.behavior.structure.ConceptBehavior" id="1213877252263">
-    <property name="package" value="HighLevel.Grid" />
+    <property name="virtualPackage" value="HighLevel.Grid" />
     <link role="concept" targetNodeId="1.1202823683703:1" resolveInfo="GridRow" />
     <node role="method" type="jetbrains.mps.lang.behavior.structure.ConceptMethodDeclaration" id="1213877252264">
       <property name="name" value="getRowComponents" />
@@ -210,21 +186,21 @@
     </node>
   </node>
   <node type="jetbrains.mps.lang.behavior.structure.ConceptBehavior" id="1213877265049">
-    <property name="package" value="Events.Operations" />
+    <property name="virtualPackage" value="Events.Operations" />
     <link role="concept" targetNodeId="1.1209655552864:1" resolveInfo="RaiseInternalStatement" />
     <node role="constructor" type="jetbrains.mps.lang.behavior.structure.ConceptConstructorDeclaration" id="1213877265050">
       <node role="body" type="jetbrains.mps.baseLanguage.structure.StatementList:3" id="1213877265051" />
     </node>
   </node>
   <node type="jetbrains.mps.lang.behavior.structure.ConceptBehavior" id="1213877265396">
-    <property name="package" value="Component" />
+    <property name="virtualPackage" value="Component" />
     <link role="concept" targetNodeId="1.1202744043552:1" resolveInfo="ActionHandler" />
     <node role="constructor" type="jetbrains.mps.lang.behavior.structure.ConceptConstructorDeclaration" id="1213877265397">
       <node role="body" type="jetbrains.mps.baseLanguage.structure.StatementList:3" id="1213877265398" />
     </node>
   </node>
   <node type="jetbrains.mps.lang.behavior.structure.ConceptBehavior" id="1213877287965">
-    <property name="package" value="Bindings" />
+    <property name="virtualPackage" value="Bindings" />
     <link role="concept" targetNodeId="1.1202464424004:1" resolveInfo="BindExpression" />
     <node role="method" type="jetbrains.mps.lang.behavior.structure.ConceptMethodDeclaration" id="1213877287966">
       <property name="isPrivate" value="false" />
@@ -440,14 +416,14 @@
     </node>
   </node>
   <node type="jetbrains.mps.lang.behavior.structure.ConceptBehavior" id="1213877294820">
-    <property name="package" value="Component" />
+    <property name="virtualPackage" value="Component" />
     <link role="concept" targetNodeId="1.1202478475127:1" resolveInfo="AttributeReferenceOperation" />
     <node role="constructor" type="jetbrains.mps.lang.behavior.structure.ConceptConstructorDeclaration" id="1213877294821">
       <node role="body" type="jetbrains.mps.baseLanguage.structure.StatementList:3" id="1213877294822" />
     </node>
   </node>
   <node type="jetbrains.mps.lang.behavior.structure.ConceptBehavior" id="1213877298461">
-    <property name="package" value="Renderers" />
+    <property name="virtualPackage" value="Renderers" />
     <link role="concept" targetNodeId="1.1210519144319:1" resolveInfo="InlineRenderer" />
     <node role="constructor" type="jetbrains.mps.lang.behavior.structure.ConceptConstructorDeclaration" id="1213877298462">
       <node role="body" type="jetbrains.mps.baseLanguage.structure.StatementList:3" id="1213877298463" />
@@ -486,21 +462,21 @@
     </node>
   </node>
   <node type="jetbrains.mps.lang.behavior.structure.ConceptBehavior" id="1213877324828">
-    <property name="package" value="Component" />
+    <property name="virtualPackage" value="Component" />
     <link role="concept" targetNodeId="1.1202389314593:1" resolveInfo="AttributeValue" />
     <node role="constructor" type="jetbrains.mps.lang.behavior.structure.ConceptConstructorDeclaration" id="1213877324829">
       <node role="body" type="jetbrains.mps.baseLanguage.structure.StatementList:3" id="1213877324830" />
     </node>
   </node>
   <node type="jetbrains.mps.lang.behavior.structure.ConceptBehavior" id="1213877330849">
-    <property name="package" value="HighLevel.List" />
+    <property name="virtualPackage" value="HighLevel.List" />
     <link role="concept" targetNodeId="1.1203084152264:1" resolveInfo="ListElements" />
     <node role="constructor" type="jetbrains.mps.lang.behavior.structure.ConceptConstructorDeclaration" id="1213877330850">
       <node role="body" type="jetbrains.mps.baseLanguage.structure.StatementList:3" id="1213877330851" />
     </node>
   </node>
   <node type="jetbrains.mps.lang.behavior.structure.ConceptBehavior" id="1213877331527">
-    <property name="package" value="Beans" />
+    <property name="virtualPackage" value="Beans" />
     <link role="concept" targetNodeId="1.1207748052051:1" resolveInfo="BeanDeclaration" />
     <node role="constructor" type="jetbrains.mps.lang.behavior.structure.ConceptConstructorDeclaration" id="1213877331528">
       <node role="body" type="jetbrains.mps.baseLanguage.structure.StatementList:3" id="1213877331529" />
@@ -612,7 +588,7 @@
     </node>
   </node>
   <node type="jetbrains.mps.lang.behavior.structure.ConceptBehavior" id="1213877333381">
-    <property name="package" value="HighLevel.Grid" />
+    <property name="virtualPackage" value="HighLevel.Grid" />
     <link role="concept" targetNodeId="1.1202823654753:1" resolveInfo="Grid" />
     <node role="method" type="jetbrains.mps.lang.behavior.structure.ConceptMethodDeclaration" id="1213877333382">
       <property name="name" value="getRowCount" />
@@ -701,7 +677,7 @@
     </node>
   </node>
   <node type="jetbrains.mps.lang.behavior.structure.ConceptBehavior" id="1213877336564">
-    <property name="package" value="Events" />
+    <property name="virtualPackage" value="Events" />
     <link role="concept" targetNodeId="1.1208087694312:1" resolveInfo="EventDeclaration" />
     <node role="method" type="jetbrains.mps.lang.behavior.structure.ConceptMethodDeclaration" id="1213877336565">
       <property name="name" value="isAppropriateHandler" />
@@ -870,7 +846,7 @@
     </node>
   </node>
   <node type="jetbrains.mps.lang.behavior.structure.ConceptBehavior" id="1213877358388">
-    <property name="package" value="Renderers" />
+    <property name="virtualPackage" value="Renderers" />
     <link role="concept" targetNodeId="1.1210173918195:1" resolveInfo="StubCellRendererInfo" />
     <node role="constructor" type="jetbrains.mps.lang.behavior.structure.ConceptConstructorDeclaration" id="1213877358389">
       <node role="body" type="jetbrains.mps.baseLanguage.structure.StatementList:3" id="1213877358390" />
@@ -916,7 +892,7 @@
     </node>
   </node>
   <node type="jetbrains.mps.lang.behavior.structure.ConceptBehavior" id="1213877364258">
-    <property name="package" value="Events.Operations" />
+    <property name="virtualPackage" value="Events.Operations" />
     <link role="concept" targetNodeId="1.1208685679469:1" resolveInfo="EventHandlerReference" />
     <node role="constructor" type="jetbrains.mps.lang.behavior.structure.ConceptConstructorDeclaration" id="1213877364259">
       <node role="body" type="jetbrains.mps.baseLanguage.structure.StatementList:3" id="1213877364260">
@@ -930,14 +906,14 @@
     </node>
   </node>
   <node type="jetbrains.mps.lang.behavior.structure.ConceptBehavior" id="1213877378839">
-    <property name="package" value="Events.Operations" />
+    <property name="virtualPackage" value="Events.Operations" />
     <link role="concept" targetNodeId="1.1208090496480:1" resolveInfo="AddListenerOperation" />
     <node role="constructor" type="jetbrains.mps.lang.behavior.structure.ConceptConstructorDeclaration" id="1213877378840">
       <node role="body" type="jetbrains.mps.baseLanguage.structure.StatementList:3" id="1213877378841" />
     </node>
   </node>
   <node type="jetbrains.mps.lang.behavior.structure.ConceptBehavior" id="1213877399833">
-    <property name="package" value="Component" />
+    <property name="virtualPackage" value="Component" />
     <link role="concept" targetNodeId="1.1202465023198:1" resolveInfo="ComponentType" />
     <node role="method" type="jetbrains.mps.lang.behavior.structure.ConceptMethodDeclaration" id="1213877399834">
       <property name="name" value="getMembers" />
@@ -975,7 +951,7 @@
     </node>
   </node>
   <node type="jetbrains.mps.lang.behavior.structure.ConceptBehavior" id="1213877401772">
-    <property name="package" value="Renderers" />
+    <property name="virtualPackage" value="Renderers" />
     <link role="concept" targetNodeId="1.1210179557036:1" resolveInfo="CellRendererAttribute" />
     <node role="constructor" type="jetbrains.mps.lang.behavior.structure.ConceptConstructorDeclaration" id="1213877401773">
       <node role="body" type="jetbrains.mps.baseLanguage.structure.StatementList:3" id="1213877401774" />
@@ -1014,14 +990,14 @@
     </node>
   </node>
   <node type="jetbrains.mps.lang.behavior.structure.ConceptBehavior" id="1213877406644">
-    <property name="package" value="Events.Operations" />
+    <property name="virtualPackage" value="Events.Operations" />
     <link role="concept" targetNodeId="1.1208089922381:1" resolveInfo="RaiseOperation" />
     <node role="constructor" type="jetbrains.mps.lang.behavior.structure.ConceptConstructorDeclaration" id="1213877406645">
       <node role="body" type="jetbrains.mps.baseLanguage.structure.StatementList:3" id="1213877406646" />
     </node>
   </node>
   <node type="jetbrains.mps.lang.behavior.structure.ConceptBehavior" id="1213877406991">
-    <property name="package" value="HighLevel.Dialog" />
+    <property name="virtualPackage" value="HighLevel.Dialog" />
     <link role="concept" targetNodeId="1.1202830095650:1" resolveInfo="StandardDialog" />
     <node role="method" type="jetbrains.mps.lang.behavior.structure.ConceptMethodDeclaration" id="1213877406992">
       <property name="name" value="getExtendedComponent" />
@@ -1051,7 +1027,7 @@
     </node>
   </node>
   <node type="jetbrains.mps.lang.behavior.structure.ConceptBehavior" id="1213877414350">
-    <property name="package" value="Component" />
+    <property name="virtualPackage" value="Component" />
     <link role="concept" targetNodeId="1.1202387945296:1" resolveInfo="ComponentInstance" />
     <node role="method" type="jetbrains.mps.lang.behavior.structure.ConceptMethodDeclaration" id="1213877414351">
       <property name="name" value="getExtendedComponent" />
@@ -1077,7 +1053,7 @@
     </node>
   </node>
   <node type="jetbrains.mps.lang.behavior.structure.ConceptBehavior" id="1213877438936">
-    <property name="package" value="HighLevel.Scroller" />
+    <property name="virtualPackage" value="HighLevel.Scroller" />
     <link role="concept" targetNodeId="1.1203089479329:1" resolveInfo="Scroller" />
     <node role="method" type="jetbrains.mps.lang.behavior.structure.ConceptMethodDeclaration" id="1213877438937">
       <property name="name" value="getWrappedComponent" />
@@ -1132,7 +1108,7 @@
     </node>
   </node>
   <node type="jetbrains.mps.lang.behavior.structure.ConceptBehavior" id="1213877442497">
-    <property name="package" value="Beans" />
+    <property name="virtualPackage" value="Beans" />
     <link role="concept" targetNodeId="1.1207748590566:1" resolveInfo="BeanType" />
     <node role="constructor" type="jetbrains.mps.lang.behavior.structure.ConceptConstructorDeclaration" id="1213877442498">
       <node role="body" type="jetbrains.mps.baseLanguage.structure.StatementList:3" id="1213877442499" />
@@ -1170,14 +1146,14 @@
     </node>
   </node>
   <node type="jetbrains.mps.lang.behavior.structure.ConceptBehavior" id="1213877477707">
-    <property name="package" value="Renderers" />
+    <property name="virtualPackage" value="Renderers" />
     <link role="concept" targetNodeId="1.1210521546663:1" resolveInfo="RenderingObject" />
     <node role="constructor" type="jetbrains.mps.lang.behavior.structure.ConceptConstructorDeclaration" id="1213877477708">
       <node role="body" type="jetbrains.mps.baseLanguage.structure.StatementList:3" id="1213877477709" />
     </node>
   </node>
   <node type="jetbrains.mps.lang.behavior.structure.ConceptBehavior" id="1213877495345">
-    <property name="package" value="Component" />
+    <property name="virtualPackage" value="Component" />
     <link role="concept" targetNodeId="1.1202387718766:1" resolveInfo="ComponentDeclaration" />
     <node role="method" type="jetbrains.mps.lang.behavior.structure.ConceptMethodDeclaration" id="1213877495346">
       <property name="name" value="getAfterConstruction" />
@@ -1899,7 +1875,7 @@
     </node>
   </node>
   <node type="jetbrains.mps.lang.behavior.structure.ConceptBehavior" id="1213877498059">
-    <property name="package" value="Component" />
+    <property name="virtualPackage" value="Component" />
     <link role="concept" targetNodeId="1.1202817076568:1" resolveInfo="IComponentInstance" />
     <node role="method" type="jetbrains.mps.lang.behavior.structure.ConceptMethodDeclaration" id="1213877498060">
       <property name="name" value="getLayoutConstraint" />

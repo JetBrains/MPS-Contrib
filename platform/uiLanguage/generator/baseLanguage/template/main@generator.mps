@@ -10,33 +10,13 @@
   <language namespace="83888646-71ce-4f1c-9c53-c54016f6ad4f(jetbrains.mps.baseLanguage.collections)" />
   <language namespace="fd392034-7849-419d-9071-12563d152375(jetbrains.mps.baseLanguage.closures)" />
   <language namespace="ceab5195-25ea-4f22-9b92-103b95ca8c0c(jetbrains.mps.lang.core)" />
-  <languageAspect modelUID="r:00000000-0000-4000-0000-011c895902c1(jetbrains.mps.baseLanguage.constraints)" version="83" />
-  <languageAspect modelUID="r:00000000-0000-4000-0000-011c895902ca(jetbrains.mps.baseLanguage.structure)" version="3" />
-  <languageAspect modelUID="r:00000000-0000-4000-0000-011c895902fb(jetbrains.mps.lang.smodel.constraints)" version="21" />
   <languageAspect modelUID="r:00000000-0000-4000-0000-011c89590301(jetbrains.mps.lang.smodel.structure)" version="16" />
-  <languageAspect modelUID="r:00000000-0000-4000-0000-011c895902e2(jetbrains.mps.lang.generator.constraints)" version="16" />
   <languageAspect modelUID="r:00000000-0000-4000-0000-011c895902e8(jetbrains.mps.lang.generator.structure)" version="2" />
-  <languageAspect modelUID="r:00000000-0000-4000-0000-011c89590328(jetbrains.mps.baseLanguage.collections.constraints)" version="6" />
   <languageAspect modelUID="r:00000000-0000-4000-0000-011c8959032e(jetbrains.mps.baseLanguage.collections.structure)" version="7" />
-  <languageAspect modelUID="r:00000000-0000-4000-0000-011c89590283(jetbrains.mps.lang.core.constraints)" version="2" />
-  <languageAspect modelUID="r:00000000-0000-4000-0000-011c89590334(jetbrains.mps.baseLanguage.closures.constraints)" version="2" />
   <languageAspect modelUID="r:00000000-0000-4000-0000-011c89590338(jetbrains.mps.baseLanguage.closures.structure)" version="3" />
-  <languageAspect modelUID="r:00000000-0000-4000-0000-011c8959030d(jetbrains.mps.lang.constraints.structure)" version="0" />
-  <languageAspect modelUID="r:00000000-0000-4000-0000-011c8959054e(jetbrains.mps.uiLanguage.constraints)" version="26" />
-  <languageAspect modelUID="r:00000000-0000-4000-0000-011c8959028c(jetbrains.mps.lang.structure.constraints)" version="11" />
-  <languageAspect modelUID="r:00000000-0000-4000-0000-011c895902ba(jetbrains.mps.lang.sharedConcepts.constraints)" version="0" />
-  <languageAspect modelUID="r:00000000-0000-4000-0000-011c8959036e(jetbrains.mps.baseLanguage.classifiers.constraints)" version="7" />
-  <languageAspect modelUID="r:00000000-0000-4000-0000-011c895903e4(jetbrains.mps.internal.collections.constraints)" version="2" />
-  <languageAspect modelUID="r:00000000-0000-4000-0000-011c89590553(jetbrains.mps.uiLanguage.structure)" version="1" />
-  <languageAspect modelUID="r:00000000-0000-4000-0000-011c895902db(jetbrains.mps.baseLanguage.blTypes.constraints)" version="0" />
   <languageAspect modelUID="r:00000000-0000-4000-0000-011c895903ac(jetbrains.mps.baseLanguageInternal.structure)" version="1" />
-  <languageAspect modelUID="r:00000000-0000-4000-0000-011c89590288(jetbrains.mps.lang.core.structure)" version="0" />
-  <languageAspect modelUID="r:00000000-0000-4000-0000-011c89590292(jetbrains.mps.lang.structure.structure)" version="0" />
-  <languageAspect modelUID="r:00000000-0000-4000-0000-011c895902bc(jetbrains.mps.lang.sharedConcepts.structure)" version="0" />
   <languageAspect modelUID="r:00000000-0000-4000-0000-011c895902f3(jetbrains.mps.lang.generator.generationContext.structure)" version="0" />
-  <languageAspect modelUID="r:00000000-0000-4000-0000-011c895903fe(jetbrains.mps.baseLanguage.strings.constraints)" version="1" />
-  <languageAspect modelUID="r:00000000-0000-4000-0000-011c89590402(jetbrains.mps.baseLanguage.strings.structure)" version="9" />
-  <languageAspect modelUID="r:00000000-0000-4000-0000-011c89590373(jetbrains.mps.baseLanguage.classifiers.structure)" version="0" />
+  <languageAspect modelUID="r:00000000-0000-4000-0000-011c89590557(jetbrains.mps.uiLanguage.generator.baseLanguage.template.main@generator)" version="-1" />
   <maxImportIndex value="22" />
   <import index="1" modelUID="r:00000000-0000-4000-0000-011c89590553(jetbrains.mps.uiLanguage.structure)" version="1" />
   <import index="2" modelUID="f:java_stub#java.lang(java.lang@java_stub)" version="-1" />
@@ -55,8 +35,8 @@
   <import index="21" modelUID="r:00000000-0000-4000-0000-011c8959054c(jetbrains.mps.uiLanguage.behavior)" version="-1" />
   <import index="22" modelUID="r:00000000-0000-4000-0000-011c89590373(jetbrains.mps.baseLanguage.classifiers.structure)" version="0" />
   <node type="jetbrains.mps.lang.generator.structure.MappingConfiguration:2" id="1202393865414">
-    <property name="package:2" value="Component" />
     <property name="name:2" value="component" />
+    <property name="virtualPackage:2" value="Component" />
     <node role="reductionMappingRule:2" type="jetbrains.mps.lang.generator.structure.Reduction_MappingRule:2" id="1202465908419">
       <link role="applicableConcept:2" targetNodeId="22.1205752633985:0" resolveInfo="ThisClassifierExpresson" />
       <node role="ruleConsequence:2" type="jetbrains.mps.lang.generator.structure.InlineTemplate_RuleConsequence:2" id="1202465925390">
@@ -359,7 +339,7 @@
   </node>
   <node type="jetbrains.mps.baseLanguage.structure.ClassConcept:3" id="1202393893891">
     <property name="name:3" value="ComponentClass" />
-    <property name="package:3" value="Component" />
+    <property name="virtualPackage:3" value="Component" />
     <node role="field:3" type="jetbrains.mps.baseLanguage.structure.FieldDeclaration:3" id="1202477876596">
       <property name="name:3" value="myThis" />
       <node role="visibility:3" type="jetbrains.mps.baseLanguage.structure.PublicVisibility:3" id="1202477876597" />
@@ -2136,7 +2116,7 @@
   </node>
   <node type="jetbrains.mps.lang.generator.structure.TemplateSwitch:2" id="1202395393525">
     <property name="name:2" value="ComponentPart_Switch" />
-    <property name="package:2" value="Component.ComponentParts" />
+    <property name="virtualPackage:2" value="Component.ComponentParts" />
     <node role="reductionMappingRule:2" type="jetbrains.mps.lang.generator.structure.Reduction_MappingRule:2" id="1202395403808">
       <link role="applicableConcept:2" targetNodeId="1.1202389314593:1" resolveInfo="AttributeValue" />
       <node role="ruleConsequence:2" type="jetbrains.mps.lang.generator.structure.TemplateDeclarationReference:2" id="1202395576034">
@@ -2224,8 +2204,8 @@
     <node role="defaultConsequence:2" type="jetbrains.mps.lang.generator.structure.AbandonInput_RuleConsequence:2" id="1203086776333" />
   </node>
   <node type="jetbrains.mps.lang.generator.structure.TemplateDeclaration:2" id="1202395477286">
-    <property name="package:2" value="Component.ComponentParts" />
     <property name="name:2" value="case_AttributeValue" />
+    <property name="virtualPackage:2" value="Component.ComponentParts" />
     <link role="applicableConcept:2" targetNodeId="1.1202389314593:1" resolveInfo="AttributeValue" />
     <node role="contentNode:2" type="jetbrains.mps.baseLanguage.structure.ExpressionStatement:3" id="1210094521534">
       <node role="expression:3" type="jetbrains.mps.baseLanguageInternal.structure.InternalPartialInstanceMethodCall:1" id="1210094521535">
@@ -2279,8 +2259,8 @@
     </node>
   </node>
   <node type="jetbrains.mps.lang.generator.structure.TemplateDeclaration:2" id="1202395635299">
-    <property name="package:2" value="Component.ComponentParts" />
     <property name="name:2" value="case_Child" />
+    <property name="virtualPackage:2" value="Component.ComponentParts" />
     <link role="applicableConcept:2" targetNodeId="1.1202387945296:1" resolveInfo="ComponentInstance" />
     <node role="contentNode:2" type="jetbrains.mps.baseLanguage.structure.ClassConcept:3" id="1202395661629">
       <property name="name:3" value="ABC" />
@@ -2364,8 +2344,8 @@
     </node>
   </node>
   <node type="jetbrains.mps.lang.generator.structure.TemplateDeclaration:2" id="1202744710722">
-    <property name="package:2" value="Component.ComponentParts" />
     <property name="name:2" value="case_ActionHandler" />
+    <property name="virtualPackage:2" value="Component.ComponentParts" />
     <link role="applicableConcept:2" targetNodeId="1.1202744043552:1" resolveInfo="ActionHandler" />
     <node role="contentNode:2" type="jetbrains.mps.baseLanguage.structure.InstanceMethodDeclaration:3" id="1210094510315">
       <property name="name:3" value="abc" />
@@ -2437,7 +2417,7 @@
   </node>
   <node type="jetbrains.mps.lang.generator.structure.TemplateDeclaration:2" id="1202746668720">
     <property name="name:2" value="reduce_AssignmentToAttribute" />
-    <property name="package:2" value="Shared" />
+    <property name="virtualPackage:2" value="Shared" />
     <link role="applicableConcept:2" targetNodeId="6.1068498886294:3" resolveInfo="AssignmentExpression" />
     <node role="contentNode:2" type="jetbrains.mps.baseLanguage.structure.InstanceMethodDeclaration:3" id="1210094419037">
       <property name="name:3" value="abc" />
@@ -2566,7 +2546,7 @@
   </node>
   <node type="jetbrains.mps.lang.generator.structure.TemplateDeclaration:2" id="1202747082569">
     <property name="name:2" value="reduce_ComponentReference_NonRoot" />
-    <property name="package:2" value="Component" />
+    <property name="virtualPackage:2" value="Component" />
     <link role="applicableConcept:2" targetNodeId="1.1202742489421:1" resolveInfo="ComponentReference" />
     <node role="contentNode:2" type="jetbrains.mps.baseLanguage.structure.ClassConcept:3" id="1202747090165">
       <property name="name:3" value="ABC" />
@@ -2627,7 +2607,7 @@
   </node>
   <node type="jetbrains.mps.lang.generator.structure.TemplateDeclaration:2" id="1202747998639">
     <property name="name:2" value="reduce_AttributeReference" />
-    <property name="package:2" value="Shared" />
+    <property name="virtualPackage:2" value="Shared" />
     <link role="applicableConcept:2" targetNodeId="1.1202478475127:1" resolveInfo="AttributeReferenceOperation" />
     <node role="contentNode:2" type="jetbrains.mps.baseLanguage.structure.ClassConcept:3" id="4021515509912875046">
       <property name="name:3" value="Enclosing" />
@@ -2680,7 +2660,7 @@
   </node>
   <node type="jetbrains.mps.lang.generator.structure.TemplateDeclaration:2" id="1202813279705">
     <property name="name:2" value="reduce_ClassifierMethodCall" />
-    <property name="package:2" value="Shared" />
+    <property name="virtualPackage:2" value="Shared" />
     <link role="applicableConcept:2" targetNodeId="22.1205769149993:0" resolveInfo="DefaultClassifierMethodCallOperation" />
     <node role="contentNode:2" type="jetbrains.mps.baseLanguage.structure.ExpressionStatement:3" id="1210095077958">
       <node role="expression:3" type="jetbrains.mps.baseLanguageInternal.structure.InternalPartialInstanceMethodCall:1" id="1210095077959">
@@ -2726,8 +2706,8 @@
     </node>
   </node>
   <node type="jetbrains.mps.lang.generator.structure.TemplateDeclaration:2" id="1203086858967">
-    <property name="package:2" value="Component.ComponentParts" />
     <property name="name:2" value="case_ListElements" />
+    <property name="virtualPackage:2" value="Component.ComponentParts" />
     <link role="applicableConcept:2" targetNodeId="1.1203084152264:1" resolveInfo="ListElements" />
     <node role="contentNode:2" type="jetbrains.mps.baseLanguage.structure.ExpressionStatement:3" id="1210094594571">
       <node role="expression:3" type="jetbrains.mps.baseLanguageInternal.structure.InternalPartialInstanceMethodCall:1" id="1210094594572">
@@ -2763,8 +2743,8 @@
     </node>
   </node>
   <node type="jetbrains.mps.lang.generator.structure.TemplateDeclaration:2" id="1203089663751">
-    <property name="package:2" value="Component.ComponentParts" />
     <property name="name:2" value="case_Scroller" />
+    <property name="virtualPackage:2" value="Component.ComponentParts" />
     <link role="applicableConcept:2" targetNodeId="1.1203089479329:1" resolveInfo="Scroller" />
     <node role="contentNode:2" type="jetbrains.mps.baseLanguage.structure.ClassConcept:3" id="1203089677378">
       <node role="method:3" type="jetbrains.mps.baseLanguage.structure.InstanceMethodDeclaration:3" id="1203089679192">
@@ -2858,7 +2838,7 @@
   </node>
   <node type="jetbrains.mps.lang.generator.structure.TemplateDeclaration:2" id="1203521109629">
     <property name="name:2" value="reduce_ComponentCreator" />
-    <property name="package:2" value="Component" />
+    <property name="virtualPackage:2" value="Component" />
     <link role="applicableConcept:2" targetNodeId="6.1145552977093:3" resolveInfo="GenericNewExpression" />
     <node role="contentNode:2" type="jetbrains.mps.baseLanguage.structure.ClassConcept:3" id="1203521154590">
       <property name="name:3" value="ABC" />
@@ -2906,7 +2886,7 @@
   </node>
   <node type="jetbrains.mps.baseLanguage.structure.ClassConcept:3" id="1207753003074">
     <property name="name:3" value="BeanClass" />
-    <property name="package:3" value="Beans" />
+    <property name="virtualPackage:3" value="Beans" />
     <node role="field:3" type="jetbrains.mps.baseLanguage.structure.FieldDeclaration:3" id="1207757126030">
       <property name="name:3" value="a" />
       <node role="visibility:3" type="jetbrains.mps.baseLanguage.structure.PrivateVisibility:3" id="1207757126031" />
@@ -3307,8 +3287,8 @@
     </node>
   </node>
   <node type="jetbrains.mps.lang.generator.structure.MappingConfiguration:2" id="1207755352380">
-    <property name="package:2" value="Beans" />
     <property name="name:2" value="beans" />
+    <property name="virtualPackage:2" value="Beans" />
     <node role="rootMappingRule:2" type="jetbrains.mps.lang.generator.structure.Root_MappingRule:2" id="1207755665710">
       <link role="applicableConcept:2" targetNodeId="1.1207748052051:1" resolveInfo="BeanDeclaration" />
       <link role="template:2" targetNodeId="1207753003074" resolveInfo="BeanClass" />
@@ -3393,7 +3373,7 @@
   </node>
   <node type="jetbrains.mps.lang.generator.structure.MappingConfiguration:2" id="1207756248842">
     <property name="name:2" value="shared" />
-    <property name="package:2" value="Shared" />
+    <property name="virtualPackage:2" value="Shared" />
     <node role="reductionMappingRule:2" type="jetbrains.mps.lang.generator.structure.Reduction_MappingRule:2" id="1207756277500">
       <link role="applicableConcept:2" targetNodeId="6.1068498886294:3" resolveInfo="AssignmentExpression" />
       <node role="ruleConsequence:2" type="jetbrains.mps.lang.generator.structure.TemplateDeclarationReference:2" id="1207756277501">
@@ -3497,7 +3477,7 @@
   </node>
   <node type="jetbrains.mps.lang.generator.structure.TemplateDeclaration:2" id="1207757201585">
     <property name="name:2" value="reduce_BeanCreator" />
-    <property name="package:2" value="Beans" />
+    <property name="virtualPackage:2" value="Beans" />
     <link role="applicableConcept:2" targetNodeId="6.1145552977093:3" resolveInfo="GenericNewExpression" />
     <node role="contentNode:2" type="jetbrains.mps.baseLanguage.structure.ExpressionStatement:3" id="1210094637892">
       <node role="expression:3" type="jetbrains.mps.baseLanguageInternal.structure.InternalNewExpression:1" id="1210094637893">
@@ -3567,8 +3547,8 @@
     </node>
   </node>
   <node type="jetbrains.mps.lang.generator.structure.MappingConfiguration:2" id="1208105628414">
-    <property name="package:2" value="Events" />
     <property name="name:2" value="Events" />
+    <property name="virtualPackage:2" value="Events" />
     <node role="weavingMappingRule:2" type="jetbrains.mps.lang.generator.structure.Weaving_MappingRule:2" id="1209660923536">
       <link role="applicableConcept:2" targetNodeId="1.1208087694312:1" resolveInfo="EventDeclaration" />
       <node role="ruleConsequence:2" type="jetbrains.mps.lang.generator.structure.TemplateDeclarationReference:2" id="1209660923537">
@@ -3717,8 +3697,8 @@
     </node>
   </node>
   <node type="jetbrains.mps.lang.generator.structure.TemplateDeclaration:2" id="1208699817754">
-    <property name="package:2" value="Events" />
     <property name="name:2" value="weave_EventAddition" />
+    <property name="virtualPackage:2" value="Events" />
     <link role="applicableConcept:2" targetNodeId="1.1208087694312:1" resolveInfo="EventDeclaration" />
     <node role="contentNode:2" type="jetbrains.mps.baseLanguage.structure.AnonymousClass:3" id="1208707305989">
       <link role="classifier:3" targetNodeId="19.~Events" resolveInfo="Events" />
@@ -3762,8 +3742,8 @@
     </node>
   </node>
   <node type="jetbrains.mps.lang.generator.structure.TemplateDeclaration:2" id="1208707492088">
-    <property name="package:2" value="Events" />
     <property name="name:2" value="reduce_RaiseOperation" />
+    <property name="virtualPackage:2" value="Events" />
     <link role="applicableConcept:2" targetNodeId="1.1208089922381:1" resolveInfo="RaiseOperation" />
     <node role="contentNode:2" type="jetbrains.mps.baseLanguage.structure.ExpressionStatement:3" id="1209824402940">
       <node role="expression:3" type="jetbrains.mps.baseLanguage.structure.DotExpression:3" id="1209824402941">
@@ -3795,8 +3775,8 @@
     </node>
   </node>
   <node type="jetbrains.mps.lang.generator.structure.TemplateDeclaration:2" id="1208707537911">
-    <property name="package:2" value="Events" />
     <property name="name:2" value="reduce_AddListenerOperation" />
+    <property name="virtualPackage:2" value="Events" />
     <link role="applicableConcept:2" targetNodeId="1.1208090496480:1" resolveInfo="AddListenerOperation" />
     <node role="contentNode:2" type="jetbrains.mps.baseLanguage.structure.ExpressionStatement:3" id="1209824360673">
       <node role="expression:3" type="jetbrains.mps.baseLanguage.structure.DotExpression:3" id="1209824360674">
@@ -4042,8 +4022,8 @@
     </node>
   </node>
   <node type="jetbrains.mps.lang.generator.structure.TemplateDeclaration:2" id="1208707545825">
-    <property name="package:2" value="Events" />
     <property name="name:2" value="reduce_RemoveListenerOperation" />
+    <property name="virtualPackage:2" value="Events" />
     <link role="applicableConcept:2" targetNodeId="1.1208090516982:1" resolveInfo="RemoveListenerOperation" />
     <node role="contentNode:2" type="jetbrains.mps.baseLanguage.structure.ExpressionStatement:3" id="1209824411047">
       <node role="expression:3" type="jetbrains.mps.baseLanguage.structure.DotExpression:3" id="1209824411048">
@@ -4107,8 +4087,8 @@
     </node>
   </node>
   <node type="jetbrains.mps.lang.generator.structure.TemplateDeclaration:2" id="1209569532312">
-    <property name="package:2" value="Events" />
     <property name="name:2" value="reduce_EventAccess" />
+    <property name="virtualPackage:2" value="Events" />
     <link role="applicableConcept:2" targetNodeId="6.1197027756228:3" resolveInfo="DotExpression" />
     <node role="contentNode:2" type="jetbrains.mps.baseLanguage.structure.DotExpression:3" id="1209569641247">
       <node role="operand:3" type="jetbrains.mps.baseLanguage.structure.DotExpression:3" id="1209569641248">
@@ -4172,8 +4152,8 @@
     </node>
   </node>
   <node type="jetbrains.mps.lang.generator.structure.TemplateDeclaration:2" id="1209657289590">
-    <property name="package:2" value="Events" />
     <property name="name:2" value="reduce_RaiseInternalStatement" />
+    <property name="virtualPackage:2" value="Events" />
     <link role="applicableConcept:2" targetNodeId="1.1209655552864:1" resolveInfo="RaiseInternalStatement" />
     <node role="contentNode:2" type="jetbrains.mps.baseLanguage.structure.BlockStatement:3" id="1209824394972">
       <node role="statements:3" type="jetbrains.mps.baseLanguage.structure.StatementList:3" id="1209824394973">
@@ -4245,8 +4225,8 @@
     </node>
   </node>
   <node type="jetbrains.mps.lang.generator.structure.TemplateDeclaration:2" id="1209659749511">
-    <property name="package:2" value="Events" />
     <property name="name:2" value="weave_EventInit" />
+    <property name="virtualPackage:2" value="Events" />
     <link role="applicableConcept:2" targetNodeId="1.1208087694312:1" resolveInfo="EventDeclaration" />
     <node role="contentNode:2" type="jetbrains.mps.baseLanguage.structure.AnonymousClass:3" id="1209661062684">
       <link role="classifier:3" targetNodeId="19.~Events" resolveInfo="Events" />
@@ -4281,8 +4261,8 @@
     </node>
   </node>
   <node type="jetbrains.mps.lang.generator.structure.TemplateDeclaration:2" id="1210179760306">
-    <property name="package:2" value="Component.ComponentParts" />
     <property name="name:2" value="case_CellRendererAttribute" />
+    <property name="virtualPackage:2" value="Component.ComponentParts" />
     <link role="applicableConcept:2" targetNodeId="1.1210179557036:1" resolveInfo="CellRendererAttribute" />
     <node role="contentNode:2" type="jetbrains.mps.baseLanguage.structure.ExpressionStatement:3" id="1210180314553">
       <node role="expression:3" type="jetbrains.mps.baseLanguage.structure.DotExpression:3" id="1210180314554">
@@ -4347,8 +4327,8 @@
     </node>
   </node>
   <node type="jetbrains.mps.lang.generator.structure.TemplateDeclaration:2" id="1210519857319">
-    <property name="package:2" value="Component.ComponentParts" />
     <property name="name:2" value="case_InlineRenderer" />
+    <property name="virtualPackage:2" value="Component.ComponentParts" />
     <link role="applicableConcept:2" targetNodeId="1.1210519144319:1" resolveInfo="InlineRenderer" />
     <node role="contentNode:2" type="jetbrains.mps.baseLanguage.structure.ExpressionStatement:3" id="1210519857320">
       <node role="expression:3" type="jetbrains.mps.baseLanguage.structure.DotExpression:3" id="1210519857321">
@@ -4587,7 +4567,7 @@
   </node>
   <node type="jetbrains.mps.lang.generator.structure.TemplateDeclaration:2" id="1210521892276">
     <property name="name:2" value="reduce_RenderingObject" />
-    <property name="package:2" value="Component" />
+    <property name="virtualPackage:2" value="Component" />
     <link role="applicableConcept:2" targetNodeId="1.1210521546663:1" resolveInfo="RenderingObject" />
     <node role="contentNode:2" type="jetbrains.mps.baseLanguage.structure.ClassConcept:3" id="1210521892277">
       <property name="name:3" value="ABC" />
@@ -4618,7 +4598,7 @@
   </node>
   <node type="jetbrains.mps.lang.generator.structure.TemplateDeclaration:2" id="1214994818444">
     <property name="name:2" value="reduce_ComponentType" />
-    <property name="package:2" value="Component" />
+    <property name="virtualPackage:2" value="Component" />
     <link role="applicableConcept:2" targetNodeId="1.1202465023198:1" resolveInfo="ComponentType" />
     <node role="contentNode:2" type="jetbrains.mps.baseLanguage.structure.ClassifierType:3" id="1214994925941">
       <link role="classifier:3" targetNodeId="2.~Object" resolveInfo="Object" />
@@ -4647,7 +4627,7 @@
   </node>
   <node type="jetbrains.mps.lang.generator.structure.TemplateDeclaration:2" id="2036480205474094306">
     <property name="name:2" value="reduce_ComponentReference_Root" />
-    <property name="package:2" value="Component" />
+    <property name="virtualPackage:2" value="Component" />
     <link role="applicableConcept:2" targetNodeId="1.1202742489421:1" resolveInfo="ComponentReference" />
     <node role="contentNode:2" type="jetbrains.mps.baseLanguage.structure.ClassConcept:3" id="2036480205474094307">
       <property name="name:3" value="ABC" />
