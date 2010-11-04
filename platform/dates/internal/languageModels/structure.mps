@@ -282,20 +282,7 @@
     </refactoringContext>
   </refactoringHistory>
   <language namespace="c72da2b9-7cce-4447-8389-f407dc1158b7(jetbrains.mps.lang.structure)" />
-  <languageAspect modelUID="r:00000000-0000-4000-0000-011c8959028c(jetbrains.mps.lang.structure.constraints)" version="11" />
-  <languageAspect modelUID="r:00000000-0000-4000-0000-011c8959032e(jetbrains.mps.baseLanguage.collections.structure)" version="1" />
-  <languageAspect modelUID="r:00000000-0000-4000-0000-011c89590301(jetbrains.mps.lang.smodel.structure)" version="1" />
-  <languageAspect modelUID="r:00000000-0000-4000-0000-011c89590338(jetbrains.mps.baseLanguage.closures.structure)" version="0" />
-  <languageAspect modelUID="r:00000000-0000-4000-0000-011c895902c1(jetbrains.mps.baseLanguage.constraints)" version="83" />
-  <languageAspect modelUID="r:00000000-0000-4000-0000-011c895902fb(jetbrains.mps.lang.smodel.constraints)" version="21" />
-  <languageAspect modelUID="r:00000000-0000-4000-0000-011c89590328(jetbrains.mps.baseLanguage.collections.constraints)" version="6" />
-  <languageAspect modelUID="r:00000000-0000-4000-0000-011c895903db(jetbrains.mps.baseLanguage.datesInternal.constraints)" version="9" />
-  <languageAspect modelUID="r:00000000-0000-4000-0000-011c89590334(jetbrains.mps.baseLanguage.closures.constraints)" version="2" />
-  <languageAspect modelUID="r:00000000-0000-4000-0000-011c89590283(jetbrains.mps.lang.core.constraints)" version="2" />
-  <languageAspect modelUID="r:00000000-0000-4000-0000-011c895903e4(jetbrains.mps.internal.collections.constraints)" version="2" />
-  <languageAspect modelUID="r:00000000-0000-4000-0000-011c895902ca(jetbrains.mps.baseLanguage.structure)" version="3" />
   <languageAspect modelUID="r:00000000-0000-4000-0000-011c895903dd(jetbrains.mps.baseLanguage.datesInternal.structure)" version="3" />
-  <languageAspect modelUID="r:00000000-0000-4000-0000-011c89590288(jetbrains.mps.lang.core.structure)" version="0" />
   <languageAspect modelUID="r:00000000-0000-4000-0000-011c89590292(jetbrains.mps.lang.structure.structure)" version="0" />
   <maxImportIndex value="4" />
   <import index="1" modelUID="r:00000000-0000-4000-0000-011c89590288(jetbrains.mps.lang.core.structure)" version="0" />
@@ -421,7 +408,7 @@
   </node>
   <node type="jetbrains.mps.lang.structure.structure.ConceptDeclaration:0" id="1173883503931">
     <property name="name:0" value="PredefinedDateFormat" />
-    <property name="package:0" value="format" />
+    <property name="virtualPackage:0" value="format" />
     <link role="extends:0" targetNodeId="1.1133920641626:0" />
     <node role="linkDeclaration:0" type="jetbrains.mps.lang.structure.structure.LinkDeclaration:0" id="1173883503932">
       <property name="sourceCardinality:0" value="1" />
@@ -439,7 +426,7 @@
   </node>
   <node type="jetbrains.mps.lang.structure.structure.InterfaceConceptDeclaration:0" id="1173884671039">
     <property name="name:0" value="IDateFormat" />
-    <property name="package:0" value="format" />
+    <property name="virtualPackage:0" value="format" />
     <node role="extends:0" type="jetbrains.mps.lang.structure.structure.InterfaceConceptReference:0" id="1173884678884">
       <link role="intfc:0" targetNodeId="1.1169194658468:0" />
     </node>
@@ -450,7 +437,7 @@
   </node>
   <node type="jetbrains.mps.lang.structure.structure.ConceptDeclaration:0" id="1173953509960">
     <property name="name:0" value="DateTimeIntPropertyFormatConfiguration" />
-    <property name="package:0" value="format.property" />
+    <property name="virtualPackage:0" value="format.property" />
     <link role="extends:0" targetNodeId="1174042847309:3" resolveInfo="DateTimePropertyConfiguration" />
     <node role="linkDeclaration:0" type="jetbrains.mps.lang.structure.structure.LinkDeclaration:0" id="1173953566745">
       <property name="sourceCardinality:0" value="1" />
@@ -464,7 +451,7 @@
   </node>
   <node type="jetbrains.mps.lang.structure.structure.ConceptDeclaration:0" id="1173953623139">
     <property name="name:0" value="DateTimePropertyFormatType" />
-    <property name="package:0" value="format.property" />
+    <property name="virtualPackage:0" value="format.property" />
     <link role="extends:0" targetNodeId="1.1133920641626:0" />
     <node role="linkDeclaration:0" type="jetbrains.mps.lang.structure.structure.LinkDeclaration:0" id="1173953763712">
       <property name="sourceCardinality:0" value="1" />
@@ -489,7 +476,7 @@
   </node>
   <node type="jetbrains.mps.lang.structure.structure.ConceptDeclaration:0" id="1173953789261">
     <property name="name:0" value="DateTimePropertyCardinality" />
-    <property name="package:0" value="format.property" />
+    <property name="virtualPackage:0" value="format.property" />
     <link role="extends:0" targetNodeId="1.1133920641626:0" />
     <node role="propertyDeclaration:0" type="jetbrains.mps.lang.structure.structure.PropertyDeclaration:0" id="1173953810654">
       <property name="name:0" value="numberOfSymbols" />
@@ -505,7 +492,7 @@
   </node>
   <node type="jetbrains.mps.lang.structure.structure.ConceptDeclaration:0" id="1174042847309">
     <property name="name:0" value="DateTimePropertyConfiguration" />
-    <property name="package:0" value="format.property" />
+    <property name="virtualPackage:0" value="format.property" />
     <link role="extends:0" targetNodeId="1.1133920641626:0" />
     <node role="linkDeclaration:0" type="jetbrains.mps.lang.structure.structure.LinkDeclaration:0" id="1174043134773">
       <property name="sourceCardinality:0" value="1..n" />
@@ -522,7 +509,7 @@
   </node>
   <node type="jetbrains.mps.lang.structure.structure.ConceptDeclaration:0" id="1174043262324">
     <property name="name:0" value="DateTimeZonePropertyFormatConfiguration" />
-    <property name="package:0" value="format.property" />
+    <property name="virtualPackage:0" value="format.property" />
     <link role="extends:0" targetNodeId="1174042847309:3" resolveInfo="DateTimePropertyConfiguration" />
     <node role="conceptProperty:0" type="jetbrains.mps.lang.structure.structure.StringConceptProperty:0" id="1174043321129">
       <property name="value:0" value="format configuration for zone" />
@@ -615,8 +602,8 @@
     </node>
   </node>
   <node type="jetbrains.mps.lang.structure.structure.InterfaceConceptDeclaration:0" id="34521615669325562">
-    <property name="package:0" value="format" />
     <property name="name:0" value="IPeriodFormat" />
+    <property name="virtualPackage:0" value="format" />
     <node role="propertyDeclaration:0" type="jetbrains.mps.lang.structure.structure.PropertyDeclaration:0" id="34521615669325564">
       <property name="name:0" value="isPublic" />
       <link role="dataType:0" targetNodeId="1.1082983657063:0" resolveInfo="boolean" />
@@ -626,8 +613,8 @@
     </node>
   </node>
   <node type="jetbrains.mps.lang.structure.structure.ConceptDeclaration:0" id="34521615669325565">
-    <property name="package:0" value="format" />
     <property name="name:0" value="PredefinedPeriodFormat" />
+    <property name="virtualPackage:0" value="format" />
     <link role="extends:0" targetNodeId="1.1133920641626:0" resolveInfo="BaseConcept" />
     <node role="linkDeclaration:0" type="jetbrains.mps.lang.structure.structure.LinkDeclaration:0" id="34521615669325568">
       <property name="metaClass:0" value="aggregation" />

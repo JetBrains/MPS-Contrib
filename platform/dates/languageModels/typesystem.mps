@@ -11,35 +11,12 @@
   <language namespace="3a13115c-633c-4c5c-bbcc-75c4219e9555(jetbrains.mps.lang.quotation)" />
   <language namespace="ceab5195-25ea-4f22-9b92-103b95ca8c0c(jetbrains.mps.lang.core)" />
   <language namespace="1991585e-225e-4371-977a-68a7888adae2(jetbrains.mps.baseLanguage.datesInternal)" />
-  <languageAspect modelUID="r:00000000-0000-4000-0000-011c895902ae(jetbrains.mps.lang.typesystem.constraints)" version="17" />
-  <languageAspect modelUID="r:00000000-0000-4000-0000-011c895902c1(jetbrains.mps.baseLanguage.constraints)" version="83" />
-  <languageAspect modelUID="r:00000000-0000-4000-0000-011c895902ca(jetbrains.mps.baseLanguage.structure)" version="3" />
-  <languageAspect modelUID="r:00000000-0000-4000-0000-011c895903cf(jetbrains.mps.baseLanguage.dates.constraints)" version="9" />
-  <languageAspect modelUID="r:00000000-0000-4000-0000-011c895902fb(jetbrains.mps.lang.smodel.constraints)" version="21" />
   <languageAspect modelUID="r:00000000-0000-4000-0000-011c89590301(jetbrains.mps.lang.smodel.structure)" version="16" />
-  <languageAspect modelUID="r:00000000-0000-4000-0000-011c895902db(jetbrains.mps.baseLanguage.blTypes.constraints)" version="0" />
-  <languageAspect modelUID="r:00000000-0000-4000-0000-011c89590328(jetbrains.mps.baseLanguage.collections.constraints)" version="6" />
-  <languageAspect modelUID="r:00000000-0000-4000-0000-011c8959032e(jetbrains.mps.baseLanguage.collections.structure)" version="7" />
-  <languageAspect modelUID="r:00000000-0000-4000-0000-011c89590340(jetbrains.mps.lang.pattern.constraints)" version="2" />
-  <languageAspect modelUID="r:00000000-0000-4000-0000-011c89590283(jetbrains.mps.lang.core.constraints)" version="2" />
-  <languageAspect modelUID="r:00000000-0000-4000-0000-011c8959030d(jetbrains.mps.lang.constraints.structure)" version="1" />
-  <languageAspect modelUID="r:00000000-0000-4000-0000-011c89590338(jetbrains.mps.baseLanguage.closures.structure)" version="3" />
-  <languageAspect modelUID="r:00000000-0000-4000-0000-011c8959028c(jetbrains.mps.lang.structure.constraints)" version="11" />
-  <languageAspect modelUID="r:00000000-0000-4000-0000-011c89590523(jetbrains.springframework.configuration.constraints)" version="6" />
-  <languageAspect modelUID="r:00000000-0000-4000-0000-011c895903db(jetbrains.mps.baseLanguage.datesInternal.constraints)" version="9" />
-  <languageAspect modelUID="r:00000000-0000-4000-0000-011c89590334(jetbrains.mps.baseLanguage.closures.constraints)" version="2" />
-  <languageAspect modelUID="r:00000000-0000-4000-0000-011c895903e4(jetbrains.mps.internal.collections.constraints)" version="2" />
-  <languageAspect modelUID="r:00000000-0000-4000-0000-011c895905a3(jetbrains.mps.xml.deprecated.structure)" version="0" />
-  <languageAspect modelUID="r:00000000-0000-4000-0000-011c895903dd(jetbrains.mps.baseLanguage.datesInternal.structure)" version="3" />
-  <languageAspect modelUID="r:00000000-0000-4000-0000-011c895903d5(jetbrains.mps.baseLanguage.dates.structure)" version="1" />
   <languageAspect modelUID="r:00000000-0000-4000-0000-011c89590288(jetbrains.mps.lang.core.structure)" version="0" />
-  <languageAspect modelUID="r:00000000-0000-4000-0000-011c89590292(jetbrains.mps.lang.structure.structure)" version="0" />
-  <languageAspect modelUID="r:00000000-0000-4000-0000-011c8959033d(jetbrains.mps.lang.annotations.structure)" version="0" />
   <languageAspect modelUID="r:00000000-0000-4000-0000-011c8959034b(jetbrains.mps.lang.quotation.structure)" version="0" />
   <languageAspect modelUID="r:00000000-0000-4000-0000-011c89590345(jetbrains.mps.lang.pattern.structure)" version="0" />
   <languageAspect modelUID="r:00000000-0000-4000-0000-011c895902b4(jetbrains.mps.lang.typesystem.structure)" version="3" />
-  <languageAspect modelUID="r:00000000-0000-4000-0000-011c895903fe(jetbrains.mps.baseLanguage.strings.constraints)" version="1" />
-  <languageAspect modelUID="r:00000000-0000-4000-0000-011c89590402(jetbrains.mps.baseLanguage.strings.structure)" version="9" />
+  <languageAspect modelUID="r:00000000-0000-4000-0000-011c895903d1(jetbrains.mps.baseLanguage.dates.typesystem)" version="-1" />
   <maxImportIndex value="15" />
   <import index="2" modelUID="r:00000000-0000-4000-0000-011c895903d5(jetbrains.mps.baseLanguage.dates.structure)" version="1" />
   <import index="3" modelUID="r:00000000-0000-4000-0000-011c895902ca(jetbrains.mps.baseLanguage.structure)" version="3" />
@@ -109,7 +86,7 @@
   </node>
   <node type="jetbrains.mps.lang.typesystem.structure.InferenceRule:3" id="1178371373937">
     <property name="name:3" value="typeof_FormatExpression" />
-    <property name="package:3" value="deprecated" />
+    <property name="virtualPackage:3" value="deprecated" />
     <node role="body:3" type="jetbrains.mps.baseLanguage.structure.StatementList:3" id="1178371373938">
       <node role="statement:3" type="jetbrains.mps.lang.typesystem.structure.CreateEquationStatement:3" id="1204416365410">
         <node role="leftExpression:3" type="jetbrains.mps.lang.typesystem.structure.NormalTypeClause:3" id="1204416365411">
@@ -178,7 +155,7 @@
   </node>
   <node type="jetbrains.mps.lang.typesystem.structure.InferenceRule:3" id="1178371373956">
     <property name="name:3" value="typeof_DateTimeCompareOperation" />
-    <property name="package:3" value="deprecated" />
+    <property name="virtualPackage:3" value="deprecated" />
     <node role="body:3" type="jetbrains.mps.baseLanguage.structure.StatementList:3" id="1178371373957">
       <node role="statement:3" type="jetbrains.mps.lang.typesystem.structure.CreateEquationStatement:3" id="1204416331816">
         <node role="leftExpression:3" type="jetbrains.mps.lang.typesystem.structure.NormalTypeClause:3" id="1204416331817">
@@ -398,7 +375,7 @@
   </node>
   <node type="jetbrains.mps.lang.typesystem.structure.InferenceRule:3" id="1209035586427">
     <property name="name:3" value="typeof_ConvertToDateTimeOperation" />
-    <property name="package:3" value="operation.convert" />
+    <property name="virtualPackage:3" value="operation.convert" />
     <node role="body:3" type="jetbrains.mps.baseLanguage.structure.StatementList:3" id="1209035586428">
       <node role="statement:3" type="jetbrains.mps.lang.typesystem.structure.CreateEquationStatement:3" id="1209035609175">
         <node role="rightExpression:3" type="jetbrains.mps.lang.typesystem.structure.NormalTypeClause:3" id="1209035610723">
@@ -422,7 +399,7 @@
   </node>
   <node type="jetbrains.mps.lang.typesystem.structure.InferenceRule:3" id="1213195050820">
     <property name="name:3" value="typeof_DateTimeMinusPeriodOperation" />
-    <property name="package:3" value="deprecated" />
+    <property name="virtualPackage:3" value="deprecated" />
     <node role="body:3" type="jetbrains.mps.baseLanguage.structure.StatementList:3" id="1213195050821">
       <node role="statement:3" type="jetbrains.mps.lang.typesystem.structure.CreateEquationStatement:3" id="1213195065950">
         <node role="rightExpression:3" type="jetbrains.mps.lang.typesystem.structure.NormalTypeClause:3" id="1213195071969">
@@ -486,7 +463,7 @@
   </node>
   <node type="jetbrains.mps.lang.typesystem.structure.InferenceRule:3" id="1213195662838">
     <property name="name:3" value="typeof_DateTimePlusPeriodOperation" />
-    <property name="package:3" value="deprecated" />
+    <property name="virtualPackage:3" value="deprecated" />
     <node role="body:3" type="jetbrains.mps.baseLanguage.structure.StatementList:3" id="1213195662839">
       <node role="statement:3" type="jetbrains.mps.lang.typesystem.structure.CreateEquationStatement:3" id="1213195666497">
         <node role="rightExpression:3" type="jetbrains.mps.lang.typesystem.structure.NormalTypeClause:3" id="1213195666498">
@@ -550,7 +527,7 @@
   </node>
   <node type="jetbrains.mps.lang.typesystem.structure.InferenceRule:3" id="1213195722620">
     <property name="name:3" value="typeof_DateTimeMinusOperation" />
-    <property name="package:3" value="deprecated" />
+    <property name="virtualPackage:3" value="deprecated" />
     <node role="body:3" type="jetbrains.mps.baseLanguage.structure.StatementList:3" id="1213195722621">
       <node role="statement:3" type="jetbrains.mps.lang.typesystem.structure.CreateEquationStatement:3" id="1213195725467">
         <node role="rightExpression:3" type="jetbrains.mps.lang.typesystem.structure.NormalTypeClause:3" id="1213195725468">
@@ -1035,7 +1012,7 @@
   </node>
   <node type="jetbrains.mps.lang.typesystem.structure.InferenceRule:3" id="1238088373181">
     <property name="name:3" value="typeof_NeverExpression" />
-    <property name="package:3" value="constant" />
+    <property name="virtualPackage:3" value="constant" />
     <node role="body:3" type="jetbrains.mps.baseLanguage.structure.StatementList:3" id="1238088373182">
       <node role="statement:3" type="jetbrains.mps.lang.typesystem.structure.CreateEquationStatement:3" id="1238088382562">
         <node role="rightExpression:3" type="jetbrains.mps.lang.typesystem.structure.NormalTypeClause:3" id="1238088386754">
@@ -1059,7 +1036,7 @@
   </node>
   <node type="jetbrains.mps.lang.typesystem.structure.InferenceRule:3" id="1238249028992">
     <property name="name:3" value="typeof_MathDateTimeOperation" />
-    <property name="package:3" value="operation.math" />
+    <property name="virtualPackage:3" value="operation.math" />
     <node role="body:3" type="jetbrains.mps.baseLanguage.structure.StatementList:3" id="1238249028993">
       <node role="statement:3" type="jetbrains.mps.lang.typesystem.structure.CreateLessThanInequationStatement:3" id="2644539331224368530">
         <node role="leftExpression:3" type="jetbrains.mps.lang.typesystem.structure.NormalTypeClause:3" id="2644539331224368531">
@@ -1163,7 +1140,7 @@
   </node>
   <node type="jetbrains.mps.lang.typesystem.structure.InferenceRule:3" id="1238513806587">
     <property name="name:3" value="typeof_TimeZoneConstant" />
-    <property name="package:3" value="constant" />
+    <property name="virtualPackage:3" value="constant" />
     <node role="body:3" type="jetbrains.mps.baseLanguage.structure.StatementList:3" id="1238513806588">
       <node role="statement:3" type="jetbrains.mps.lang.typesystem.structure.CreateEquationStatement:3" id="1238513939851">
         <node role="rightExpression:3" type="jetbrains.mps.lang.typesystem.structure.NormalTypeClause:3" id="1238513942965">
@@ -1187,7 +1164,7 @@
   </node>
   <node type="jetbrains.mps.lang.typesystem.structure.InferenceRule:3" id="1238856102342">
     <property name="name:3" value="typeof_DateTimeZoneCreator" />
-    <property name="package:3" value="deprecated" />
+    <property name="virtualPackage:3" value="deprecated" />
     <node role="body:3" type="jetbrains.mps.baseLanguage.structure.StatementList:3" id="1238856102343">
       <node role="statement:3" type="jetbrains.mps.lang.typesystem.structure.CreateEquationStatement:3" id="1238856137733">
         <node role="rightExpression:3" type="jetbrains.mps.lang.typesystem.structure.NormalTypeClause:3" id="1238856141331">
@@ -1230,7 +1207,7 @@
   </node>
   <node type="jetbrains.mps.lang.typesystem.structure.InferenceRule:3" id="1239015873752">
     <property name="name:3" value="typeof_ConstantTimeZone" />
-    <property name="package:3" value="timezone" />
+    <property name="virtualPackage:3" value="timezone" />
     <node role="body:3" type="jetbrains.mps.baseLanguage.structure.StatementList:3" id="1239015873753">
       <node role="statement:3" type="jetbrains.mps.lang.typesystem.structure.CreateEquationStatement:3" id="1239015890612">
         <node role="rightExpression:3" type="jetbrains.mps.lang.typesystem.structure.NormalTypeClause:3" id="1239015893510">
@@ -1254,7 +1231,7 @@
   </node>
   <node type="jetbrains.mps.lang.typesystem.structure.InferenceRule:3" id="1239018206164">
     <property name="name:3" value="typeof_InlineFormatExpression" />
-    <property name="package:3" value="deprecated" />
+    <property name="virtualPackage:3" value="deprecated" />
     <node role="body:3" type="jetbrains.mps.baseLanguage.structure.StatementList:3" id="1239018206165">
       <node role="statement:3" type="jetbrains.mps.lang.typesystem.structure.CreateEquationStatement:3" id="1239018223435">
         <node role="rightExpression:3" type="jetbrains.mps.lang.typesystem.structure.NormalTypeClause:3" id="1239018225314">
@@ -1297,7 +1274,7 @@
   </node>
   <node type="jetbrains.mps.lang.typesystem.structure.InferenceRule:3" id="1239019312803">
     <property name="name:3" value="typeof_TimeZoneFromString" />
-    <property name="package:3" value="timezone" />
+    <property name="virtualPackage:3" value="timezone" />
     <node role="body:3" type="jetbrains.mps.baseLanguage.structure.StatementList:3" id="1239019312804">
       <node role="statement:3" type="jetbrains.mps.lang.typesystem.structure.CreateEquationStatement:3" id="1239019330217">
         <node role="leftExpression:3" type="jetbrains.mps.lang.typesystem.structure.NormalTypeClause:3" id="1239019330220">
@@ -1342,7 +1319,7 @@
   </node>
   <node type="jetbrains.mps.lang.typesystem.structure.InferenceRule:3" id="1239808411566">
     <property name="name:3" value="typeof_PeriodInPropertyOperation" />
-    <property name="package:3" value="deprecated" />
+    <property name="virtualPackage:3" value="deprecated" />
     <node role="body:3" type="jetbrains.mps.baseLanguage.structure.StatementList:3" id="1239808411567">
       <node role="statement:3" type="jetbrains.mps.lang.typesystem.structure.CreateEquationStatement:3" id="1239808418667">
         <node role="rightExpression:3" type="jetbrains.mps.lang.typesystem.structure.NormalTypeClause:3" id="1239808420327">
@@ -1389,7 +1366,7 @@
   </node>
   <node type="jetbrains.mps.lang.typesystem.structure.InferenceRule:3" id="1239808490255">
     <property name="name:3" value="typeof_WithPropertyCompareExpression" />
-    <property name="package:3" value="operation.compare" />
+    <property name="virtualPackage:3" value="operation.compare" />
     <node role="body:3" type="jetbrains.mps.baseLanguage.structure.StatementList:3" id="1239808490256">
       <node role="statement:3" type="jetbrains.mps.lang.typesystem.structure.CreateEquationStatement:3" id="1239808508190">
         <node role="rightExpression:3" type="jetbrains.mps.lang.typesystem.structure.NormalTypeClause:3" id="1239808509709">
@@ -1465,7 +1442,7 @@
   </node>
   <node type="jetbrains.mps.lang.typesystem.structure.InferenceRule:3" id="1892577441204759551">
     <property name="name:3" value="typeof_ParseExpression" />
-    <property name="package:3" value="deprecated" />
+    <property name="virtualPackage:3" value="deprecated" />
     <node role="body:3" type="jetbrains.mps.baseLanguage.structure.StatementList:3" id="1892577441204759552">
       <node role="statement:3" type="jetbrains.mps.lang.typesystem.structure.CreateLessThanInequationStatement:3" id="1892577441204768359">
         <property name="checkOnly:3" value="true" />
@@ -1531,7 +1508,7 @@
   </node>
   <node type="jetbrains.mps.lang.typesystem.structure.InferenceRule:3" id="2639623922402551149">
     <property name="name:3" value="typeof_RoundDateTimeOperation" />
-    <property name="package:3" value="operation.round" />
+    <property name="virtualPackage:3" value="operation.round" />
     <node role="body:3" type="jetbrains.mps.baseLanguage.structure.StatementList:3" id="2639623922402551150">
       <node role="statement:3" type="jetbrains.mps.lang.typesystem.structure.CreateEquationStatement:3" id="2639623922402551156">
         <node role="rightExpression:3" type="jetbrains.mps.lang.typesystem.structure.NormalTypeClause:3" id="2639623922402551160">
@@ -1583,7 +1560,7 @@
   </node>
   <node type="jetbrains.mps.lang.typesystem.structure.InferenceRule:3" id="2639623922402698218">
     <property name="name:3" value="typeof_InTimezone" />
-    <property name="package:3" value="operation.convert" />
+    <property name="virtualPackage:3" value="operation.convert" />
     <node role="body:3" type="jetbrains.mps.baseLanguage.structure.StatementList:3" id="2639623922402698219">
       <node role="statement:3" type="jetbrains.mps.lang.typesystem.structure.CreateEquationStatement:3" id="2639623922402700252">
         <node role="rightExpression:3" type="jetbrains.mps.lang.typesystem.structure.NormalTypeClause:3" id="2639623922402700256">
@@ -1646,7 +1623,7 @@
   </node>
   <node type="jetbrains.mps.lang.typesystem.structure.InferenceRule:3" id="4389880778953638809">
     <property name="name:3" value="typeof_ParseDateTimeExpression" />
-    <property name="package:3" value="format" />
+    <property name="virtualPackage:3" value="format" />
     <node role="body:3" type="jetbrains.mps.baseLanguage.structure.StatementList:3" id="4389880778953638810">
       <node role="statement:3" type="jetbrains.mps.lang.typesystem.structure.CreateEquationStatement:3" id="4389880778953638816">
         <node role="rightExpression:3" type="jetbrains.mps.lang.typesystem.structure.NormalTypeClause:3" id="4389880778953638820">
@@ -1727,7 +1704,7 @@
   </node>
   <node type="jetbrains.mps.lang.typesystem.structure.InferenceRule:3" id="5034322243092302132">
     <property name="name:3" value="typeof_FormatDateTimeExpression" />
-    <property name="package:3" value="format" />
+    <property name="virtualPackage:3" value="format" />
     <node role="body:3" type="jetbrains.mps.baseLanguage.structure.StatementList:3" id="5034322243092302133">
       <node role="statement:3" type="jetbrains.mps.lang.typesystem.structure.CreateEquationStatement:3" id="5034322243092302139">
         <node role="rightExpression:3" type="jetbrains.mps.lang.typesystem.structure.NormalTypeClause:3" id="5034322243092302143">
@@ -1770,7 +1747,7 @@
   </node>
   <node type="jetbrains.mps.lang.typesystem.structure.InferenceRule:3" id="194163770812065853">
     <property name="name:3" value="typeof_InlineFormatDateTimeExpression" />
-    <property name="package:3" value="format" />
+    <property name="virtualPackage:3" value="format" />
     <node role="body:3" type="jetbrains.mps.baseLanguage.structure.StatementList:3" id="194163770812065854">
       <node role="statement:3" type="jetbrains.mps.lang.typesystem.structure.CreateEquationStatement:3" id="194163770812065865">
         <node role="rightExpression:3" type="jetbrains.mps.lang.typesystem.structure.NormalTypeClause:3" id="194163770812065869">
@@ -1813,7 +1790,7 @@
   </node>
   <node type="jetbrains.mps.lang.typesystem.structure.InferenceRule:3" id="670620798051999047">
     <property name="name:3" value="typeof_ConvertToJavaCalendarOperation" />
-    <property name="package:3" value="deprecated" />
+    <property name="virtualPackage:3" value="deprecated" />
     <node role="body:3" type="jetbrains.mps.baseLanguage.structure.StatementList:3" id="670620798051999048">
       <node role="statement:3" type="jetbrains.mps.lang.typesystem.structure.CreateEquationStatement:3" id="670620798051999054">
         <node role="rightExpression:3" type="jetbrains.mps.lang.typesystem.structure.NormalTypeClause:3" id="670620798051999058">
@@ -1839,7 +1816,7 @@
   </node>
   <node type="jetbrains.mps.lang.typesystem.structure.InferenceRule:3" id="670620798051999063">
     <property name="name:3" value="typeof_ConvertToJavaDateOperation" />
-    <property name="package:3" value="operation.convert" />
+    <property name="virtualPackage:3" value="operation.convert" />
     <node role="body:3" type="jetbrains.mps.baseLanguage.structure.StatementList:3" id="670620798051999064">
       <node role="statement:3" type="jetbrains.mps.lang.typesystem.structure.CreateEquationStatement:3" id="670620798051999070">
         <node role="rightExpression:3" type="jetbrains.mps.lang.typesystem.structure.NormalTypeClause:3" id="670620798051999074">
@@ -1865,7 +1842,7 @@
   </node>
   <node type="jetbrains.mps.lang.typesystem.structure.InferenceRule:3" id="670620798051999079">
     <property name="name:3" value="typeof_ConvertToJodaDateTimeOperation" />
-    <property name="package:3" value="deprecated" />
+    <property name="virtualPackage:3" value="deprecated" />
     <node role="body:3" type="jetbrains.mps.baseLanguage.structure.StatementList:3" id="670620798051999080">
       <node role="statement:3" type="jetbrains.mps.lang.typesystem.structure.CreateEquationStatement:3" id="670620798051999086">
         <node role="rightExpression:3" type="jetbrains.mps.lang.typesystem.structure.NormalTypeClause:3" id="670620798051999090">
@@ -1891,7 +1868,7 @@
   </node>
   <node type="jetbrains.mps.lang.typesystem.structure.InferenceRule:3" id="670620798051999095">
     <property name="name:3" value="typeof_DateTimePropetyReferenceOperation" />
-    <property name="package:3" value="operation.property" />
+    <property name="virtualPackage:3" value="operation.property" />
     <node role="body:3" type="jetbrains.mps.baseLanguage.structure.StatementList:3" id="670620798051999096">
       <node role="statement:3" type="jetbrains.mps.lang.typesystem.structure.CreateEquationStatement:3" id="670620798051999102">
         <node role="rightExpression:3" type="jetbrains.mps.lang.typesystem.structure.NormalTypeClause:3" id="670620798051999110">
@@ -1938,7 +1915,7 @@
   </node>
   <node type="jetbrains.mps.lang.typesystem.structure.InferenceRule:3" id="670620798051999115">
     <property name="name:3" value="typeof_NotNullOperation" />
-    <property name="package:3" value="operation.compare" />
+    <property name="virtualPackage:3" value="operation.compare" />
     <node role="body:3" type="jetbrains.mps.baseLanguage.structure.StatementList:3" id="670620798051999116">
       <node role="statement:3" type="jetbrains.mps.lang.typesystem.structure.CreateEquationStatement:3" id="670620798051999122">
         <node role="rightExpression:3" type="jetbrains.mps.lang.typesystem.structure.NormalTypeClause:3" id="670620798051999126">
@@ -1962,7 +1939,7 @@
   </node>
   <node type="jetbrains.mps.lang.typesystem.structure.InferenceRule:3" id="670620798051999130">
     <property name="name:3" value="typeof_NullOperation" />
-    <property name="package:3" value="operation.compare" />
+    <property name="virtualPackage:3" value="operation.compare" />
     <node role="body:3" type="jetbrains.mps.baseLanguage.structure.StatementList:3" id="670620798051999131">
       <node role="statement:3" type="jetbrains.mps.lang.typesystem.structure.CreateEquationStatement:3" id="670620798051999137">
         <node role="rightExpression:3" type="jetbrains.mps.lang.typesystem.structure.NormalTypeClause:3" id="670620798051999141">
@@ -2022,7 +1999,7 @@
   </node>
   <node type="jetbrains.mps.lang.typesystem.structure.InferenceRule:3" id="5372916090361181343">
     <property name="name:3" value="typeof_ConvertToDurationOperation" />
-    <property name="package:3" value="operation.convert" />
+    <property name="virtualPackage:3" value="operation.convert" />
     <node role="body:3" type="jetbrains.mps.baseLanguage.structure.StatementList:3" id="5372916090361181344">
       <node role="statement:3" type="jetbrains.mps.lang.typesystem.structure.CreateEquationStatement:3" id="5372916090361183365">
         <node role="rightExpression:3" type="jetbrains.mps.lang.typesystem.structure.NormalTypeClause:3" id="5372916090361183369">
@@ -2065,7 +2042,7 @@
   </node>
   <node type="jetbrains.mps.lang.typesystem.structure.InferenceRule:3" id="276836602888578318">
     <property name="name:3" value="typeof_PeriodInPropertyExpression" />
-    <property name="package:3" value="operation.property" />
+    <property name="virtualPackage:3" value="operation.property" />
     <node role="body:3" type="jetbrains.mps.baseLanguage.structure.StatementList:3" id="276836602888578319">
       <node role="statement:3" type="jetbrains.mps.lang.typesystem.structure.CreateEquationStatement:3" id="276836602888578323">
         <node role="rightExpression:3" type="jetbrains.mps.lang.typesystem.structure.NormalTypeClause:3" id="276836602888578324">
@@ -2112,7 +2089,7 @@
   </node>
   <node type="jetbrains.mps.lang.typesystem.structure.InferenceRule:3" id="3394771273339689749">
     <property name="name:3" value="typeof_ScheduleLiteral" />
-    <property name="package:3" value="constant.schedule" />
+    <property name="virtualPackage:3" value="constant.schedule" />
     <node role="body:3" type="jetbrains.mps.baseLanguage.structure.StatementList:3" id="3394771273339689750">
       <node role="statement:3" type="jetbrains.mps.lang.typesystem.structure.CreateEquationStatement:3" id="3394771273339689756">
         <node role="rightExpression:3" type="jetbrains.mps.lang.typesystem.structure.NormalTypeClause:3" id="3394771273339689760">
@@ -2136,7 +2113,7 @@
   </node>
   <node type="jetbrains.mps.lang.typesystem.structure.InferenceRule:3" id="779372288056193824">
     <property name="name:3" value="typeof_TimeConstant" />
-    <property name="package:3" value="constant" />
+    <property name="virtualPackage:3" value="constant" />
     <node role="body:3" type="jetbrains.mps.baseLanguage.structure.StatementList:3" id="779372288056193825">
       <node role="statement:3" type="jetbrains.mps.lang.typesystem.structure.CreateEquationStatement:3" id="779372288056195846">
         <node role="rightExpression:3" type="jetbrains.mps.lang.typesystem.structure.NormalTypeClause:3" id="779372288056195850">
@@ -2160,7 +2137,7 @@
   </node>
   <node type="jetbrains.mps.lang.typesystem.structure.InferenceRule:3" id="34521615669576830">
     <property name="name:3" value="typeof_FormatPeriodExpression" />
-    <property name="package:3" value="format" />
+    <property name="virtualPackage:3" value="format" />
     <node role="body:3" type="jetbrains.mps.baseLanguage.structure.StatementList:3" id="34521615669576831">
       <node role="statement:3" type="jetbrains.mps.lang.typesystem.structure.CreateEquationStatement:3" id="34521615669576837">
         <node role="rightExpression:3" type="jetbrains.mps.lang.typesystem.structure.NormalTypeClause:3" id="34521615669576841">
@@ -2203,7 +2180,7 @@
   </node>
   <node type="jetbrains.mps.lang.typesystem.structure.InferenceRule:3" id="5293902215864051661">
     <property name="name:3" value="typeof_TimeZoneIdOperation" />
-    <property name="package:3" value="operation.property" />
+    <property name="virtualPackage:3" value="operation.property" />
     <node role="body:3" type="jetbrains.mps.baseLanguage.structure.StatementList:3" id="5293902215864051662">
       <node role="statement:3" type="jetbrains.mps.lang.typesystem.structure.CreateEquationStatement:3" id="5293902215864053698">
         <node role="rightExpression:3" type="jetbrains.mps.lang.typesystem.structure.NormalTypeClause:3" id="5293902215864053702">
@@ -2248,7 +2225,7 @@
   </node>
   <node type="jetbrains.mps.lang.typesystem.structure.InferenceRule:3" id="5293902215864913134">
     <property name="name:3" value="typeof_TimeZoneNameOperation" />
-    <property name="package:3" value="operation.property" />
+    <property name="virtualPackage:3" value="operation.property" />
     <node role="body:3" type="jetbrains.mps.baseLanguage.structure.StatementList:3" id="5293902215864913135">
       <node role="statement:3" type="jetbrains.mps.lang.typesystem.structure.CreateEquationStatement:3" id="5293902215864921105">
         <node role="rightExpression:3" type="jetbrains.mps.lang.typesystem.structure.NormalTypeClause:3" id="5293902215864921109">
@@ -2313,7 +2290,7 @@
   </node>
   <node type="jetbrains.mps.lang.typesystem.structure.InferenceRule:3" id="5293902215865434336">
     <property name="name:3" value="typeof_AllTimeZonesConstant" />
-    <property name="package:3" value="constant" />
+    <property name="virtualPackage:3" value="constant" />
     <node role="body:3" type="jetbrains.mps.baseLanguage.structure.StatementList:3" id="5293902215865434337">
       <node role="statement:3" type="jetbrains.mps.lang.typesystem.structure.CreateEquationStatement:3" id="5293902215865434343">
         <node role="rightExpression:3" type="jetbrains.mps.lang.typesystem.structure.NormalTypeClause:3" id="5293902215865434347">

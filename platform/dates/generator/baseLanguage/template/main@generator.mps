@@ -14,42 +14,14 @@
   <language namespace="1991585e-225e-4371-977a-68a7888adae2(jetbrains.mps.baseLanguage.datesInternal)" />
   <language namespace="7a5dda62-9140-4668-ab76-d5ed1746f2b2(jetbrains.mps.lang.typesystem)" />
   <language namespace="fd392034-7849-419d-9071-12563d152375(jetbrains.mps.baseLanguage.closures)" />
-  <languageAspect modelUID="r:00000000-0000-4000-0000-011c895902e2(jetbrains.mps.lang.generator.constraints)" version="16" />
   <languageAspect modelUID="r:00000000-0000-4000-0000-011c895902e8(jetbrains.mps.lang.generator.structure)" version="2" />
-  <languageAspect modelUID="r:00000000-0000-4000-0000-011c895902c1(jetbrains.mps.baseLanguage.constraints)" version="83" />
-  <languageAspect modelUID="r:00000000-0000-4000-0000-011c895902ca(jetbrains.mps.baseLanguage.structure)" version="3" />
-  <languageAspect modelUID="r:00000000-0000-4000-0000-011c895902fb(jetbrains.mps.lang.smodel.constraints)" version="21" />
   <languageAspect modelUID="r:00000000-0000-4000-0000-011c89590301(jetbrains.mps.lang.smodel.structure)" version="16" />
-  <languageAspect modelUID="r:00000000-0000-4000-0000-011c89590328(jetbrains.mps.baseLanguage.collections.constraints)" version="6" />
   <languageAspect modelUID="r:00000000-0000-4000-0000-011c8959032e(jetbrains.mps.baseLanguage.collections.structure)" version="7" />
-  <languageAspect modelUID="r:00000000-0000-4000-0000-011c89590523(jetbrains.springframework.configuration.constraints)" version="6" />
-  <languageAspect modelUID="r:00000000-0000-4000-0000-011c89590283(jetbrains.mps.lang.core.constraints)" version="2" />
-  <languageAspect modelUID="r:00000000-0000-4000-0000-011c8959030d(jetbrains.mps.lang.constraints.structure)" version="0" />
   <languageAspect modelUID="r:00000000-0000-4000-0000-011c89590338(jetbrains.mps.baseLanguage.closures.structure)" version="3" />
-  <languageAspect modelUID="r:00000000-0000-4000-0000-011c8959028c(jetbrains.mps.lang.structure.constraints)" version="11" />
-  <languageAspect modelUID="r:00000000-0000-4000-0000-011c895902ba(jetbrains.mps.lang.sharedConcepts.constraints)" version="0" />
-  <languageAspect modelUID="r:00000000-0000-4000-0000-011c895903db(jetbrains.mps.baseLanguage.datesInternal.constraints)" version="9" />
-  <languageAspect modelUID="r:00000000-0000-4000-0000-011c895903cf(jetbrains.mps.baseLanguage.dates.constraints)" version="9" />
-  <languageAspect modelUID="r:00000000-0000-4000-0000-011c89590334(jetbrains.mps.baseLanguage.closures.constraints)" version="2" />
-  <languageAspect modelUID="r:00000000-0000-4000-0000-011c895903e4(jetbrains.mps.internal.collections.constraints)" version="2" />
-  <languageAspect modelUID="r:00000000-0000-4000-0000-011c895902db(jetbrains.mps.baseLanguage.blTypes.constraints)" version="0" />
-  <languageAspect modelUID="r:00000000-0000-4000-0000-011c895905a3(jetbrains.mps.xml.deprecated.structure)" version="0" />
-  <languageAspect modelUID="r:00000000-0000-4000-0000-011c895903dd(jetbrains.mps.baseLanguage.datesInternal.structure)" version="3" />
-  <languageAspect modelUID="r:00000000-0000-4000-0000-011c895903d5(jetbrains.mps.baseLanguage.dates.structure)" version="1" />
-  <languageAspect modelUID="r:00000000-0000-4000-0000-011c89590288(jetbrains.mps.lang.core.structure)" version="0" />
-  <languageAspect modelUID="r:00000000-0000-4000-0000-011c89590292(jetbrains.mps.lang.structure.structure)" version="0" />
-  <languageAspect modelUID="r:00000000-0000-4000-0000-011c895902bc(jetbrains.mps.lang.sharedConcepts.structure)" version="0" />
   <languageAspect modelUID="r:00000000-0000-4000-0000-011c895902f3(jetbrains.mps.lang.generator.generationContext.structure)" version="0" />
   <languageAspect modelUID="r:00000000-0000-4000-0000-011c895903ac(jetbrains.mps.baseLanguageInternal.structure)" version="1" />
-  <languageAspect modelUID="r:00000000-0000-4000-0000-011c895903fe(jetbrains.mps.baseLanguage.strings.constraints)" version="1" />
-  <languageAspect modelUID="r:00000000-0000-4000-0000-011c89590402(jetbrains.mps.baseLanguage.strings.structure)" version="9" />
-  <languageAspect modelUID="r:00000000-0000-4000-0000-011c895902a8(jetbrains.mps.lang.actions.structure)" version="23" />
-  <languageAspect modelUID="r:00000000-0000-4000-0000-011c895902a4(jetbrains.mps.lang.actions.constraints)" version="16" />
   <languageAspect modelUID="r:00000000-0000-4000-0000-011c895902b4(jetbrains.mps.lang.typesystem.structure)" version="3" />
-  <languageAspect modelUID="r:00000000-0000-4000-0000-011c895902ae(jetbrains.mps.lang.typesystem.constraints)" version="17" />
-  <languageAspect modelUID="r:00000000-0000-4000-0000-011c89590345(jetbrains.mps.lang.pattern.structure)" version="0" />
-  <languageAspect modelUID="r:00000000-0000-4000-0000-011c89590340(jetbrains.mps.lang.pattern.constraints)" version="2" />
-  <languageAspect modelUID="r:00000000-0000-4000-0000-011c8959033d(jetbrains.mps.lang.annotations.structure)" version="0" />
+  <languageAspect modelUID="r:00000000-0000-4000-0000-011c895903d7(jetbrains.mps.baseLanguage.dates.generator.baseLanguage.template.main@generator)" version="-1" />
   <maxImportIndex value="47" />
   <import index="1" modelUID="r:00000000-0000-4000-0000-011c895903d5(jetbrains.mps.baseLanguage.dates.structure)" version="1" />
   <import index="2" modelUID="r:00000000-0000-4000-0000-011c895902ca(jetbrains.mps.baseLanguage.structure)" version="3" />
@@ -178,7 +150,7 @@
       </node>
     </node>
     <node role="reductionMappingRule:2" type="jetbrains.mps.lang.generator.structure.Reduction_MappingRule:2" id="276836602888578409">
-      <property name="package:2" value="operation.property" />
+      <property name="virtualPackage:2" value="operation.property" />
       <link role="applicableConcept:2" targetNodeId="1.276836602888578296:1" resolveInfo="PeriodInPropertyExpression" />
       <node role="ruleConsequence:2" type="jetbrains.mps.lang.generator.structure.InlineSwitch_RuleConsequence:2" id="3627207017677899542">
         <node role="defaultConsequence:2" type="jetbrains.mps.lang.generator.structure.TemplateDeclarationReference:2" id="3627207017677899544">
@@ -1111,14 +1083,14 @@
       <link role="targetConcept:2" targetNodeId="2.1070462154015:3" resolveInfo="StaticFieldDeclaration" />
     </node>
     <node role="reductionMappingRule:2" type="jetbrains.mps.lang.generator.structure.Reduction_MappingRule:2" id="7517433918793153490">
-      <property name="package:2" value="operation.constant.timezone" />
+      <property name="virtualPackage:2" value="operation.constant.timezone" />
       <link role="applicableConcept:2" targetNodeId="1.4555537781927648369:1" resolveInfo="TimeZoneIDExpression" />
       <node role="ruleConsequence:2" type="jetbrains.mps.lang.generator.structure.TemplateDeclarationReference:2" id="7517433918793153491">
         <link role="template:2" targetNodeId="7517433918793153488" resolveInfo="reduce_TimeZoneIDExpression" />
       </node>
     </node>
     <node role="reductionMappingRule:2" type="jetbrains.mps.lang.generator.structure.Reduction_MappingRule:2" id="8625920436392689295">
-      <property name="package:2" value="operation.constant.timezone" />
+      <property name="virtualPackage:2" value="operation.constant.timezone" />
       <link role="applicableConcept:2" targetNodeId="1.5473692278135631085:1" resolveInfo="TimeZoneOffsetExpression" />
       <node role="ruleConsequence:2" type="jetbrains.mps.lang.generator.structure.TemplateDeclarationReference:2" id="8625920436392689296">
         <link role="template:2" targetNodeId="8625920436392689293" resolveInfo="reduce_TimeZoneOffsetExpression" />
@@ -1131,28 +1103,28 @@
       </node>
     </node>
     <node role="reductionMappingRule:2" type="jetbrains.mps.lang.generator.structure.Reduction_MappingRule:2" id="6626410111396109616">
-      <property name="package:2" value="operation.convert" />
+      <property name="virtualPackage:2" value="operation.convert" />
       <link role="applicableConcept:2" targetNodeId="1.2639623922402691276:1" resolveInfo="InTimezoneExpression" />
       <node role="ruleConsequence:2" type="jetbrains.mps.lang.generator.structure.TemplateDeclarationReference:2" id="6626410111396109618">
         <link role="template:2" targetNodeId="6626410111396109619" resolveInfo="reduce_InTimezoneExpression" />
       </node>
     </node>
     <node role="reductionMappingRule:2" type="jetbrains.mps.lang.generator.structure.Reduction_MappingRule:2" id="4389880778953638909">
-      <property name="package:2" value="format" />
+      <property name="virtualPackage:2" value="format" />
       <link role="applicableConcept:2" targetNodeId="1.4389880778953634893:1" resolveInfo="ParseDateTimeExpression" />
       <node role="ruleConsequence:2" type="jetbrains.mps.lang.generator.structure.TemplateDeclarationReference:2" id="4389880778953638911">
         <link role="template:2" targetNodeId="4389880778953638912" resolveInfo="reduce_ParseDateTimeExpression" />
       </node>
     </node>
     <node role="reductionMappingRule:2" type="jetbrains.mps.lang.generator.structure.Reduction_MappingRule:2" id="5034322243092302194">
-      <property name="package:2" value="format" />
+      <property name="virtualPackage:2" value="format" />
       <link role="applicableConcept:2" targetNodeId="1.5034322243092296606:1" resolveInfo="FormatDateTimeExpression" />
       <node role="ruleConsequence:2" type="jetbrains.mps.lang.generator.structure.TemplateDeclarationReference:2" id="5034322243092302196">
         <link role="template:2" targetNodeId="5034322243092302197" resolveInfo="reduce_FormatDateTimeExpression" />
       </node>
     </node>
     <node role="reductionMappingRule:2" type="jetbrains.mps.lang.generator.structure.Reduction_MappingRule:2" id="194163770812053446">
-      <property name="package:2" value="format" />
+      <property name="virtualPackage:2" value="format" />
       <link role="applicableConcept:2" targetNodeId="1.5034322243093083314:1" resolveInfo="InlineFormatDateTimeExpression" />
       <node role="ruleConsequence:2" type="jetbrains.mps.lang.generator.structure.TemplateDeclarationReference:2" id="194163770812053448">
         <link role="template:2" targetNodeId="194163770812053449" resolveInfo="reduce_InlineFormatDateTimeExpression" />
@@ -1165,84 +1137,84 @@
       </node>
     </node>
     <node role="reductionMappingRule:2" type="jetbrains.mps.lang.generator.structure.Reduction_MappingRule:2" id="5372916090361183391">
-      <property name="package:2" value="operation.convert" />
+      <property name="virtualPackage:2" value="operation.convert" />
       <link role="applicableConcept:2" targetNodeId="1.5372916090361181333:1" resolveInfo="ConvertToDurationOperation" />
       <node role="ruleConsequence:2" type="jetbrains.mps.lang.generator.structure.TemplateDeclarationReference:2" id="5372916090361183393">
         <link role="template:2" targetNodeId="5372916090361183394" resolveInfo="reduce_ConvertToDurationOperation" />
       </node>
     </node>
     <node role="reductionMappingRule:2" type="jetbrains.mps.lang.generator.structure.Reduction_MappingRule:2" id="3394771273339689764">
-      <property name="package:2" value="constant.schedule" />
+      <property name="virtualPackage:2" value="constant.schedule" />
       <link role="applicableConcept:2" targetNodeId="1.1194003500823:1" resolveInfo="ScheduleLiteral" />
       <node role="ruleConsequence:2" type="jetbrains.mps.lang.generator.structure.TemplateDeclarationReference:2" id="3394771273339689766">
         <link role="template:2" targetNodeId="3394771273339689767" resolveInfo="reduce_ScheduleLiteral" />
       </node>
     </node>
     <node role="reductionMappingRule:2" type="jetbrains.mps.lang.generator.structure.Reduction_MappingRule:2" id="779372288056195855">
-      <property name="package:2" value="constant" />
+      <property name="virtualPackage:2" value="constant" />
       <link role="applicableConcept:2" targetNodeId="1.779372288056193783:1" resolveInfo="TimeConstant" />
       <node role="ruleConsequence:2" type="jetbrains.mps.lang.generator.structure.TemplateDeclarationReference:2" id="779372288056195857">
         <link role="template:2" targetNodeId="779372288056195858" resolveInfo="reduce_TimeConstant" />
       </node>
     </node>
     <node role="reductionMappingRule:2" type="jetbrains.mps.lang.generator.structure.Reduction_MappingRule:2" id="34521615669576967">
-      <property name="package:2" value="format" />
+      <property name="virtualPackage:2" value="format" />
       <link role="applicableConcept:2" targetNodeId="1.34521615669572115:1" resolveInfo="FormatPeriodExpression" />
       <node role="ruleConsequence:2" type="jetbrains.mps.lang.generator.structure.TemplateDeclarationReference:2" id="34521615669576969">
         <link role="template:2" targetNodeId="34521615669576970" resolveInfo="reduce_FormatPeriodExpression" />
       </node>
     </node>
     <node role="reductionMappingRule:2" type="jetbrains.mps.lang.generator.structure.Reduction_MappingRule:2" id="48671598477581904">
-      <property name="package:2" value="format.period" />
+      <property name="virtualPackage:2" value="format.period" />
       <link role="applicableConcept:2" targetNodeId="1.48671598477581889:1" resolveInfo="PeriodLiteralFormatToken" />
       <node role="ruleConsequence:2" type="jetbrains.mps.lang.generator.structure.TemplateDeclarationReference:2" id="48671598477581906">
         <link role="template:2" targetNodeId="48671598477581907" resolveInfo="reduce_PeriodLiteralFormatToken" />
       </node>
     </node>
     <node role="reductionMappingRule:2" type="jetbrains.mps.lang.generator.structure.Reduction_MappingRule:2" id="48671598477852580">
-      <property name="package:2" value="format" />
+      <property name="virtualPackage:2" value="format" />
       <link role="applicableConcept:2" targetNodeId="1.48671598477573965:1" resolveInfo="PeriodFormat" />
       <node role="ruleConsequence:2" type="jetbrains.mps.lang.generator.structure.TemplateDeclarationReference:2" id="48671598477852582">
         <link role="template:2" targetNodeId="48671598477852583" resolveInfo="reduce_PeriodFormat" />
       </node>
     </node>
     <node role="reductionMappingRule:2" type="jetbrains.mps.lang.generator.structure.Reduction_MappingRule:2" id="7249953535157218361">
-      <property name="package:2" value="format.period" />
+      <property name="virtualPackage:2" value="format.period" />
       <link role="applicableConcept:2" targetNodeId="1.7249953535157212421:1" resolveInfo="PeriodReferenceFormatToken" />
       <node role="ruleConsequence:2" type="jetbrains.mps.lang.generator.structure.TemplateDeclarationReference:2" id="7249953535157218363">
         <link role="template:2" targetNodeId="7249953535157218364" resolveInfo="reduce_PeriodReferenceFormatToken" />
       </node>
     </node>
     <node role="reductionMappingRule:2" type="jetbrains.mps.lang.generator.structure.Reduction_MappingRule:2" id="7249953535157223312">
-      <property name="package:2" value="format.period" />
+      <property name="virtualPackage:2" value="format.period" />
       <link role="applicableConcept:2" targetNodeId="1.7249953535157196261:1" resolveInfo="PeriodPropertyFormatToken" />
       <node role="ruleConsequence:2" type="jetbrains.mps.lang.generator.structure.TemplateDeclarationReference:2" id="7249953535157223314">
         <link role="template:2" targetNodeId="7249953535157223315" resolveInfo="reduce_PeriodPropertyFormatToken" />
       </node>
     </node>
     <node role="reductionMappingRule:2" type="jetbrains.mps.lang.generator.structure.Reduction_MappingRule:2" id="5581663871702930716">
-      <property name="package:2" value="format.period" />
+      <property name="virtualPackage:2" value="format.period" />
       <link role="applicableConcept:2" targetNodeId="1.5581663871702358898:1" resolveInfo="PeriodSeparatorFormatToken" />
       <node role="ruleConsequence:2" type="jetbrains.mps.lang.generator.structure.TemplateDeclarationReference:2" id="5581663871702930718">
         <link role="template:2" targetNodeId="5581663871702930719" resolveInfo="reduce_PeriodSeparatorFormatToken" />
       </node>
     </node>
     <node role="reductionMappingRule:2" type="jetbrains.mps.lang.generator.structure.Reduction_MappingRule:2" id="5293902215864075089">
-      <property name="package:2" value="operation.property" />
+      <property name="virtualPackage:2" value="operation.property" />
       <link role="applicableConcept:2" targetNodeId="1.5293902215864051658:1" resolveInfo="TimeZoneIdOperation" />
       <node role="ruleConsequence:2" type="jetbrains.mps.lang.generator.structure.TemplateDeclarationReference:2" id="5293902215864075091">
         <link role="template:2" targetNodeId="5293902215864075092" resolveInfo="reduce_TimeZoneIdOperation" />
       </node>
     </node>
     <node role="reductionMappingRule:2" type="jetbrains.mps.lang.generator.structure.Reduction_MappingRule:2" id="5293902215864689839">
-      <property name="package:2" value="operation.property" />
+      <property name="virtualPackage:2" value="operation.property" />
       <link role="applicableConcept:2" targetNodeId="1.5293902215864689835:1" resolveInfo="TimeZoneNameOperation" />
       <node role="ruleConsequence:2" type="jetbrains.mps.lang.generator.structure.TemplateDeclarationReference:2" id="5293902215864689841">
         <link role="template:2" targetNodeId="5293902215864689842" resolveInfo="reduce_TimeZoneNameOperation" />
       </node>
     </node>
     <node role="reductionMappingRule:2" type="jetbrains.mps.lang.generator.structure.Reduction_MappingRule:2" id="5293902215865431552">
-      <property name="package:2" value="constant" />
+      <property name="virtualPackage:2" value="constant" />
       <link role="applicableConcept:2" targetNodeId="1.5293902215865424196:1" resolveInfo="AllTimeZonesConstant" />
       <node role="ruleConsequence:2" type="jetbrains.mps.lang.generator.structure.TemplateDeclarationReference:2" id="5293902215865431554">
         <link role="template:2" targetNodeId="5293902215865431555" resolveInfo="reduce_AllTimeZonesConstant" />
@@ -1251,7 +1223,7 @@
   </node>
   <node type="jetbrains.mps.baseLanguage.structure.ClassConcept:3" id="1169550327580">
     <property name="name:3" value="FormatTable" />
-    <property name="package:3" value="format" />
+    <property name="virtualPackage:3" value="format" />
     <node role="staticField:3" type="jetbrains.mps.baseLanguage.structure.StaticFieldDeclaration:3" id="1075917115050079124">
       <property name="name:3" value="INSTANCE" />
       <node role="visibility:3" type="jetbrains.mps.baseLanguage.structure.PublicVisibility:3" id="1075917115050079129" />
@@ -1342,7 +1314,7 @@
   </node>
   <node type="jetbrains.mps.lang.generator.structure.TemplateDeclaration:2" id="1169551475383">
     <property name="name:2" value="reduce_DateFormat" />
-    <property name="package:2" value="format" />
+    <property name="virtualPackage:2" value="format" />
     <link role="applicableConcept:2" targetNodeId="1.1169487448949:1" />
     <node role="contentNode:2" type="jetbrains.mps.baseLanguage.structure.ClassConcept:3" id="1169551499178">
       <property name="name:3" value="FormatTable" />
@@ -1450,7 +1422,7 @@
   </node>
   <node type="jetbrains.mps.lang.generator.structure.TemplateDeclaration:2" id="1169553961768">
     <property name="name:2" value="reduce_LiteralFormatToken" />
-    <property name="package:2" value="format.token" />
+    <property name="virtualPackage:2" value="format.token" />
     <link role="applicableConcept:2" targetNodeId="1.1169495318439:1" />
     <node role="contentNode:2" type="jetbrains.mps.baseLanguage.structure.BlockStatement:3" id="1169553982848">
       <node role="statements:3" type="jetbrains.mps.baseLanguage.structure.StatementList:3" id="1169553982849">
@@ -1495,7 +1467,7 @@
   </node>
   <node type="jetbrains.mps.lang.generator.structure.TemplateDeclaration:2" id="1169558091454">
     <property name="name:2" value="reduce_FormatExpression" />
-    <property name="package:2" value="format.deprecated" />
+    <property name="virtualPackage:2" value="format.deprecated" />
     <link role="applicableConcept:2" targetNodeId="1.1169557513226:1" />
     <node role="contentNode:2" type="jetbrains.mps.baseLanguage.structure.BlockStatement:3" id="1169558145347">
       <node role="statements:3" type="jetbrains.mps.baseLanguage.structure.StatementList:3" id="1169558145348">
@@ -1630,7 +1602,7 @@
   </node>
   <node type="jetbrains.mps.lang.generator.structure.TemplateDeclaration:2" id="1169630265920">
     <property name="name:2" value="reduce_NowExpression" />
-    <property name="package:2" value="operation.constant" />
+    <property name="virtualPackage:2" value="operation.constant" />
     <link role="applicableConcept:2" targetNodeId="1.1169630122569:1" />
     <node role="contentNode:2" type="jetbrains.mps.baseLanguage.structure.StaticMethodCall:3" id="1172145088010">
       <link role="baseMethodDeclaration:3" targetNodeId="7.~System.currentTimeMillis():long" resolveInfo="currentTimeMillis" />
@@ -1640,7 +1612,7 @@
   </node>
   <node type="jetbrains.mps.baseLanguage.structure.ClassConcept:3" id="1169638264524">
     <property name="name:3" value="ConditionalDateTimePrinterImpl" />
-    <property name="package:3" value="format.token" />
+    <property name="virtualPackage:3" value="format.token" />
     <node role="constructor:3" type="jetbrains.mps.baseLanguage.structure.ConstructorDeclaration:3" id="1169638511242">
       <node role="returnType:3" type="jetbrains.mps.baseLanguage.structure.Type:3" id="1169638511243" />
       <node role="body:3" type="jetbrains.mps.baseLanguage.structure.StatementList:3" id="1169638511244" />
@@ -2020,7 +1992,7 @@
   </node>
   <node type="jetbrains.mps.lang.generator.structure.TemplateDeclaration:2" id="1169646919575">
     <property name="name:2" value="reduce_ReferenceFormatToken" />
-    <property name="package:2" value="format.token" />
+    <property name="virtualPackage:2" value="format.token" />
     <link role="applicableConcept:2" targetNodeId="1.1169563273551:1" />
     <node role="contentNode:2" type="jetbrains.mps.baseLanguage.structure.BlockStatement:3" id="1169646993416">
       <node role="statements:3" type="jetbrains.mps.baseLanguage.structure.StatementList:3" id="1169646993417">
@@ -2065,7 +2037,7 @@
   </node>
   <node type="jetbrains.mps.lang.generator.structure.TemplateDeclaration:2" id="1169647821783">
     <property name="name:2" value="reduce_ConditionalFormatToken" />
-    <property name="package:2" value="format.token" />
+    <property name="virtualPackage:2" value="format.token" />
     <link role="applicableConcept:2" targetNodeId="1.1169562965517:1" />
     <node role="contentNode:2" type="jetbrains.mps.baseLanguage.structure.BlockStatement:3" id="1169647867072">
       <node role="statements:3" type="jetbrains.mps.baseLanguage.structure.StatementList:3" id="1169647867073">
@@ -2140,7 +2112,7 @@
   </node>
   <node type="jetbrains.mps.lang.generator.structure.TemplateDeclaration:2" id="1172145375222">
     <property name="name:2" value="reduce_DateTimeCompareOperation" />
-    <property name="package:2" value="deprecated" />
+    <property name="virtualPackage:2" value="deprecated" />
     <link role="applicableConcept:2" targetNodeId="1.1172074800504:1" />
     <node role="contentNode:2" type="jetbrains.mps.baseLanguage.structure.BlockStatement:3" id="1172145395036">
       <node role="statements:3" type="jetbrains.mps.baseLanguage.structure.StatementList:3" id="1172145395037">
@@ -2431,7 +2403,7 @@
   </node>
   <node type="jetbrains.mps.lang.generator.structure.TemplateDeclaration:2" id="1172326347243">
     <property name="name:2" value="reduce_RoundDateTimeOperation" />
-    <property name="package:2" value="operation.round" />
+    <property name="virtualPackage:2" value="operation.round" />
     <link role="applicableConcept:2" targetNodeId="1.1172324086632:1" />
     <node role="contentNode:2" type="jetbrains.mps.baseLanguage.structure.StaticMethodCall:3" id="4389880778953523254">
       <link role="classConcept:3" targetNodeId="36.~DateTimeOperations" resolveInfo="DateTimeOperations" />
@@ -2480,7 +2452,7 @@
   </node>
   <node type="jetbrains.mps.lang.generator.structure.TemplateDeclaration:2" id="1172327129404">
     <property name="name:2" value="reduce_FloorDateTimeOperation" />
-    <property name="package:2" value="operation.round" />
+    <property name="virtualPackage:2" value="operation.round" />
     <link role="applicableConcept:2" targetNodeId="1.1172325083904:1" />
     <node role="contentNode:2" type="jetbrains.mps.baseLanguage.structure.StaticMethodCall:3" id="4389880778953523201">
       <link role="baseMethodDeclaration:3" targetNodeId="36.~DateTimeOperations.roundFloor(org.joda.time.DateTime,org.joda.time.DateTimeFieldType):org.joda.time.DateTime" resolveInfo="roundFloor" />
@@ -2529,7 +2501,7 @@
   </node>
   <node type="jetbrains.mps.lang.generator.structure.TemplateDeclaration:2" id="1172327149445">
     <property name="name:2" value="reduce_CeilingDateTimeOperation" />
-    <property name="package:2" value="operation.round" />
+    <property name="virtualPackage:2" value="operation.round" />
     <link role="applicableConcept:2" targetNodeId="1.1172325617850:1" />
     <node role="contentNode:2" type="jetbrains.mps.baseLanguage.structure.StaticMethodCall:3" id="1172327149446">
       <link role="classConcept:3" targetNodeId="36.~DateTimeOperations" resolveInfo="DateTimeOperations" />
@@ -2578,7 +2550,7 @@
   </node>
   <node type="jetbrains.mps.lang.generator.structure.TemplateDeclaration:2" id="1172332406179">
     <property name="name:2" value="reduce_DateTimeWithPropertyOperation" />
-    <property name="package:2" value="operation.property" />
+    <property name="virtualPackage:2" value="operation.property" />
     <link role="applicableConcept:2" targetNodeId="1.1172331114860:1" />
     <node role="contentNode:2" type="jetbrains.mps.baseLanguage.structure.StaticMethodCall:3" id="1172332443647">
       <link role="classConcept:3" targetNodeId="36.~DateTimeOperations" resolveInfo="DateTimeOperations" />
@@ -2653,7 +2625,7 @@
   </node>
   <node type="jetbrains.mps.lang.generator.structure.TemplateDeclaration:2" id="1172492017024">
     <property name="name:2" value="reduce_PeriodConstant" />
-    <property name="package:2" value="operation.constant" />
+    <property name="virtualPackage:2" value="operation.constant" />
     <link role="applicableConcept:2" targetNodeId="1.1172489559047:1" />
     <node role="contentNode:2" type="jetbrains.mps.baseLanguage.structure.StaticMethodCall:3" id="1172493019541">
       <link role="baseMethodDeclaration:3" targetNodeId="10.~Period.millis(int):org.joda.time.Period" resolveInfo="millis" />
@@ -2699,7 +2671,7 @@
   </node>
   <node type="jetbrains.mps.lang.generator.structure.TemplateDeclaration:2" id="1172499604795">
     <property name="name:2" value="reduce_PlusExpression" />
-    <property name="package:2" value="operation.arithmetic" />
+    <property name="virtualPackage:2" value="operation.arithmetic" />
     <link role="applicableConcept:2" targetNodeId="2.1068581242875:3" />
     <node role="contentNode:2" type="jetbrains.mps.baseLanguage.structure.StaticMethodCall:3" id="5372916090360435511">
       <link role="classConcept:3" targetNodeId="36.~DateTimeArithmetics" resolveInfo="DateTimeArithmetics" />
@@ -2745,7 +2717,7 @@
   </node>
   <node type="jetbrains.mps.lang.generator.structure.TemplateDeclaration:2" id="1172501993121">
     <property name="name:2" value="reduce_MinusExpression" />
-    <property name="package:2" value="operation.arithmetic" />
+    <property name="virtualPackage:2" value="operation.arithmetic" />
     <link role="applicableConcept:2" targetNodeId="2.1068581242869:3" />
     <node role="contentNode:2" type="jetbrains.mps.baseLanguage.structure.StaticMethodCall:3" id="5372916090360435530">
       <link role="classConcept:3" targetNodeId="36.~DateTimeArithmetics" resolveInfo="DateTimeArithmetics" />
@@ -2791,7 +2763,7 @@
   </node>
   <node type="jetbrains.mps.lang.generator.structure.TemplateDeclaration:2" id="1172684437748">
     <property name="name:2" value="reduce_FixedLocaleFormatToken" />
-    <property name="package:2" value="format.token" />
+    <property name="virtualPackage:2" value="format.token" />
     <link role="applicableConcept:2" targetNodeId="1.1172679701720:1" />
     <node role="contentNode:2" type="jetbrains.mps.baseLanguage.structure.BlockStatement:3" id="1172684437749">
       <node role="statements:3" type="jetbrains.mps.baseLanguage.structure.StatementList:3" id="1172684437750">
@@ -2882,7 +2854,7 @@
   </node>
   <node type="jetbrains.mps.lang.generator.structure.TemplateSwitch:2" id="1173885209754">
     <property name="name:2" value="switch_IDateFormat_reference" />
-    <property name="package:2" value="format" />
+    <property name="virtualPackage:2" value="format" />
     <node role="reductionMappingRule:2" type="jetbrains.mps.lang.generator.structure.Reduction_MappingRule:2" id="1173885231740">
       <link role="applicableConcept:2" targetNodeId="1.1169487448949:1" />
       <node role="ruleConsequence:2" type="jetbrains.mps.lang.generator.structure.TemplateDeclarationReference:2" id="1173885357923">
@@ -2898,7 +2870,7 @@
   </node>
   <node type="jetbrains.mps.lang.generator.structure.TemplateDeclaration:2" id="1173885253101">
     <property name="name:2" value="reduce_DateFormat_IDateFormat_reference" />
-    <property name="package:2" value="format" />
+    <property name="virtualPackage:2" value="format" />
     <link role="applicableConcept:2" targetNodeId="1.1169487448949:1" />
     <node role="contentNode:2" type="jetbrains.mps.baseLanguage.structure.DotExpression:3" id="1208987574952">
       <node role="operand:3" type="jetbrains.mps.baseLanguageInternal.structure.InternalStaticFieldReference:1" id="1224666033561">
@@ -2984,7 +2956,7 @@
   </node>
   <node type="jetbrains.mps.lang.generator.structure.TemplateDeclaration:2" id="1173885363705">
     <property name="name:2" value="reduce_PredefinedDateFormat_IDateFormat_reference" />
-    <property name="package:2" value="format" />
+    <property name="virtualPackage:2" value="format" />
     <link role="applicableConcept:2" targetNodeId="29.1173883503931:3" />
     <node role="contentNode:2" type="jetbrains.mps.baseLanguage.structure.StaticMethodCall:3" id="1173885399395">
       <link role="classConcept:3" targetNodeId="4.~DateTimeFormat" resolveInfo="DateTimeFormat" />
@@ -3008,7 +2980,7 @@
   </node>
   <node type="jetbrains.mps.lang.generator.structure.TemplateDeclaration:2" id="1173967707012">
     <property name="name:2" value="reduce_DateTimePropertyFormatToken" />
-    <property name="package:2" value="format.token" />
+    <property name="virtualPackage:2" value="format.token" />
     <link role="applicableConcept:2" targetNodeId="1.1173959836330:1" />
     <node role="contentNode:2" type="jetbrains.mps.baseLanguage.structure.BlockStatement:3" id="1173967740878">
       <node role="statements:3" type="jetbrains.mps.baseLanguage.structure.StatementList:3" id="1173967740879">
@@ -3144,7 +3116,7 @@
   </node>
   <node type="jetbrains.mps.lang.generator.structure.TemplateDeclaration:2" id="1174045772633">
     <property name="name:2" value="reduce_InlineFormatExpression" />
-    <property name="package:2" value="format.deprecated" />
+    <property name="virtualPackage:2" value="format.deprecated" />
     <link role="applicableConcept:2" targetNodeId="1.1174039789930:1" />
     <node role="contentNode:2" type="jetbrains.mps.baseLanguage.structure.BlockStatement:3" id="1174046783087">
       <node role="statements:3" type="jetbrains.mps.baseLanguage.structure.StatementList:3" id="1174046783088">
@@ -3344,7 +3316,7 @@
   </node>
   <node type="jetbrains.mps.lang.generator.structure.TemplateDeclaration:2" id="1174322757200">
     <property name="name:2" value="reduce_DateTimeOffsetFormatToken" />
-    <property name="package:2" value="format.token" />
+    <property name="virtualPackage:2" value="format.token" />
     <link role="applicableConcept:2" targetNodeId="1.1174317913525:1" />
     <node role="contentNode:2" type="jetbrains.mps.baseLanguage.structure.BlockStatement:3" id="1174322808905">
       <node role="statements:3" type="jetbrains.mps.baseLanguage.structure.StatementList:3" id="1174322808906">
@@ -3414,7 +3386,7 @@
   </node>
   <node type="jetbrains.mps.lang.generator.structure.TemplateDeclaration:2" id="1174322924465">
     <property name="name:2" value="reduce_DurationTypeReference" />
-    <property name="package:2" value="format.token" />
+    <property name="virtualPackage:2" value="format.token" />
     <link role="applicableConcept:2" targetNodeId="1.1174320869813:1" />
     <node role="contentNode:2" type="jetbrains.mps.baseLanguage.structure.StaticMethodCall:3" id="1174322948530">
       <link role="classConcept:3" targetNodeId="10.~DurationFieldType" resolveInfo="DurationFieldType" />
@@ -3443,7 +3415,7 @@
   </node>
   <node type="jetbrains.mps.lang.generator.structure.TemplateDeclaration:2" id="1174385195181">
     <property name="name:2" value="reduce_DateTimeMinusOperation" />
-    <property name="package:2" value="deprecated" />
+    <property name="virtualPackage:2" value="deprecated" />
     <link role="applicableConcept:2" targetNodeId="1.1174386108135:1" />
     <node role="contentNode:2" type="jetbrains.mps.baseLanguage.structure.BlockStatement:3" id="1174388893509">
       <node role="statements:3" type="jetbrains.mps.baseLanguage.structure.StatementList:3" id="1174388893510">
@@ -3532,7 +3504,7 @@
   </node>
   <node type="jetbrains.mps.lang.generator.structure.TemplateDeclaration:2" id="1174390375904">
     <property name="name:2" value="reduce_AbsDateTimeMinusOperation" />
-    <property name="package:2" value="deprecated" />
+    <property name="virtualPackage:2" value="deprecated" />
     <link role="applicableConcept:2" targetNodeId="1.1174387394067:1" />
     <node role="contentNode:2" type="jetbrains.mps.baseLanguage.structure.BlockStatement:3" id="1174390375905">
       <node role="statements:3" type="jetbrains.mps.baseLanguage.structure.StatementList:3" id="1174390375906">
@@ -3621,7 +3593,7 @@
   </node>
   <node type="jetbrains.mps.lang.generator.structure.TemplateDeclaration:2" id="1207144894043">
     <property name="name:2" value="reduce_DateTimePlusPeriodOperation" />
-    <property name="package:2" value="deprecated" />
+    <property name="virtualPackage:2" value="deprecated" />
     <link role="applicableConcept:2" targetNodeId="1.1207143297026:1" resolveInfo="DateTimePlusPeriodOperation" />
     <node role="contentNode:2" type="jetbrains.mps.baseLanguage.structure.StaticMethodCall:3" id="1207144970599">
       <link role="classConcept:3" targetNodeId="36.~DateTimeOperations" resolveInfo="DateTimeOperations" />
@@ -3667,7 +3639,7 @@
   </node>
   <node type="jetbrains.mps.lang.generator.structure.TemplateDeclaration:2" id="1207223181393">
     <property name="name:2" value="reduce_DateTimeMinusPeriodOperation" />
-    <property name="package:2" value="deprecated" />
+    <property name="virtualPackage:2" value="deprecated" />
     <link role="applicableConcept:2" targetNodeId="1.1207222873197:1" resolveInfo="DateTimeMinusPeriodOperation" />
     <node role="contentNode:2" type="jetbrains.mps.baseLanguage.structure.StaticMethodCall:3" id="1207223181394">
       <link role="classConcept:3" targetNodeId="36.~DateTimeOperations" resolveInfo="DateTimeOperations" />
@@ -3713,7 +3685,7 @@
   </node>
   <node type="jetbrains.mps.lang.generator.structure.TemplateDeclaration:2" id="1209037407602">
     <property name="name:2" value="reduce_NullOperation" />
-    <property name="package:2" value="operation.compare" />
+    <property name="virtualPackage:2" value="operation.compare" />
     <link role="applicableConcept:2" targetNodeId="1.1209036143519:1" resolveInfo="NullOperation" />
     <node role="contentNode:2" type="jetbrains.mps.baseLanguage.structure.StaticMethodCall:3" id="1209037407603">
       <link role="classConcept:3" targetNodeId="36.~DateTimeOperations" resolveInfo="DateTimeOperations" />
@@ -3740,7 +3712,7 @@
   </node>
   <node type="jetbrains.mps.lang.generator.structure.TemplateDeclaration:2" id="1209037432960">
     <property name="name:2" value="reduce_NotNullOperation" />
-    <property name="package:2" value="operation.compare" />
+    <property name="virtualPackage:2" value="operation.compare" />
     <link role="applicableConcept:2" targetNodeId="1.1209036122468:1" resolveInfo="NotNullOperation" />
     <node role="contentNode:2" type="jetbrains.mps.baseLanguage.structure.StaticMethodCall:3" id="1209037432961">
       <link role="classConcept:3" targetNodeId="36.~DateTimeOperations" resolveInfo="DateTimeOperations" />
@@ -3767,7 +3739,7 @@
   </node>
   <node type="jetbrains.mps.lang.generator.structure.TemplateDeclaration:2" id="1209037487736">
     <property name="name:2" value="reduce_ConvertToDateTimeOperation" />
-    <property name="package:2" value="operation.convert" />
+    <property name="virtualPackage:2" value="operation.convert" />
     <link role="applicableConcept:2" targetNodeId="1.1209035204722:1" resolveInfo="ConvertToDateTimeOperation" />
     <node role="contentNode:2" type="jetbrains.mps.baseLanguage.structure.BlockStatement:3" id="1209037487737">
       <node role="statements:3" type="jetbrains.mps.baseLanguage.structure.StatementList:3" id="1209037487738">
@@ -3808,7 +3780,7 @@
   </node>
   <node type="jetbrains.mps.lang.generator.structure.TemplateDeclaration:2" id="1209037512244">
     <property name="name:2" value="reduce_ConvertToJavaCalendarOperation" />
-    <property name="package:2" value="deprecated" />
+    <property name="virtualPackage:2" value="deprecated" />
     <link role="applicableConcept:2" targetNodeId="1.1209036309347:1" resolveInfo="ConvertToJavaCalendarOperation" />
     <node role="contentNode:2" type="jetbrains.mps.baseLanguage.structure.BlockStatement:3" id="1209037512245">
       <node role="statements:3" type="jetbrains.mps.baseLanguage.structure.StatementList:3" id="1209037512246">
@@ -3856,7 +3828,7 @@
   </node>
   <node type="jetbrains.mps.lang.generator.structure.TemplateDeclaration:2" id="1209037539138">
     <property name="name:2" value="reduce_ConvertToJavaDateOperation" />
-    <property name="package:2" value="operation.convert" />
+    <property name="virtualPackage:2" value="operation.convert" />
     <link role="applicableConcept:2" targetNodeId="1.1209036325551:1" resolveInfo="ConvertToJavaDateOperation" />
     <node role="contentNode:2" type="jetbrains.mps.baseLanguage.structure.BlockStatement:3" id="1209037539139">
       <node role="statements:3" type="jetbrains.mps.baseLanguage.structure.StatementList:3" id="1209037539140">
@@ -3898,7 +3870,7 @@
   </node>
   <node type="jetbrains.mps.lang.generator.structure.TemplateDeclaration:2" id="1209037556127">
     <property name="name:2" value="reduce_ConvertToJodaDateTimeOperation" />
-    <property name="package:2" value="deprecated" />
+    <property name="virtualPackage:2" value="deprecated" />
     <link role="applicableConcept:2" targetNodeId="1.1209036336317:1" resolveInfo="ConvertToJodaDateTimeOperation" />
     <node role="contentNode:2" type="jetbrains.mps.baseLanguage.structure.BlockStatement:3" id="1209037556128">
       <node role="statements:3" type="jetbrains.mps.baseLanguage.structure.StatementList:3" id="1209037556129">
@@ -3940,7 +3912,7 @@
   </node>
   <node type="jetbrains.mps.lang.generator.structure.TemplateDeclaration:2" id="1209039909796">
     <property name="name:2" value="reduce_DateTimePropetyReferenceOperation" />
-    <property name="package:2" value="operation.property" />
+    <property name="virtualPackage:2" value="operation.property" />
     <link role="applicableConcept:2" targetNodeId="1.1209039739631:1" resolveInfo="DateTimePropetyReferenceOperation" />
     <node role="contentNode:2" type="jetbrains.mps.baseLanguage.structure.StaticMethodCall:3" id="1209039909797">
       <link role="classConcept:3" targetNodeId="36.~DateTimeOperations" resolveInfo="DateTimeOperations" />
@@ -3989,8 +3961,8 @@
     </node>
   </node>
   <node type="jetbrains.mps.lang.generator.structure.TemplateDeclaration:2" id="1238088433863">
-    <property name="package:2" value="operation.constant" />
     <property name="name:2" value="reduce_NeverExpression" />
+    <property name="virtualPackage:2" value="operation.constant" />
     <link role="applicableConcept:2" targetNodeId="1.1238088288461:1" resolveInfo="NeverExpression" />
     <node role="contentNode:2" type="jetbrains.mps.baseLanguage.structure.StaticMethodCall:3" id="4396211440736371346">
       <link role="baseMethodDeclaration:3" targetNodeId="36.~DateTimeOperations.never():java.lang.Long" resolveInfo="never" />
@@ -3999,8 +3971,8 @@
     </node>
   </node>
   <node type="jetbrains.mps.lang.generator.structure.TemplateDeclaration:2" id="1238249953442">
-    <property name="package:2" value="operation.math" />
     <property name="name:2" value="reduce_MathDateTimeOperation" />
+    <property name="virtualPackage:2" value="operation.math" />
     <link role="applicableConcept:2" targetNodeId="1.1238248029297:1" resolveInfo="MathDateTimeOperation" />
     <node role="contentNode:2" type="jetbrains.mps.baseLanguage.structure.BlockStatement:3" id="2644539331224593481">
       <node role="statements:3" type="jetbrains.mps.baseLanguage.structure.StatementList:3" id="2644539331224593482">
@@ -4075,8 +4047,8 @@
     </node>
   </node>
   <node type="jetbrains.mps.lang.generator.structure.TemplateDeclaration:2" id="1238514665489">
-    <property name="package:2" value="operation.constant" />
     <property name="name:2" value="reduce_UTCTimeZoneConstant" />
+    <property name="virtualPackage:2" value="operation.constant" />
     <link role="applicableConcept:2" targetNodeId="1.1238514476665:1" resolveInfo="UTCTimeZoneConstant" />
     <node role="contentNode:2" type="jetbrains.mps.baseLanguage.structure.StaticFieldReference:3" id="1238514695203">
       <link role="classifier:3" targetNodeId="10.~DateTimeZone" resolveInfo="DateTimeZone" />
@@ -4085,8 +4057,8 @@
     </node>
   </node>
   <node type="jetbrains.mps.lang.generator.structure.TemplateDeclaration:2" id="1238514756824">
-    <property name="package:2" value="operation.constant" />
     <property name="name:2" value="reduce_DefaultTimeZoneConstant" />
+    <property name="virtualPackage:2" value="operation.constant" />
     <link role="applicableConcept:2" targetNodeId="1.1238514419896:1" resolveInfo="DefaultTimeZoneConstant" />
     <node role="contentNode:2" type="jetbrains.mps.baseLanguage.structure.StaticMethodCall:3" id="1238514786390">
       <link role="baseMethodDeclaration:3" targetNodeId="10.~DateTimeZone.getDefault():org.joda.time.DateTimeZone" resolveInfo="getDefault" />
@@ -4096,7 +4068,7 @@
   </node>
   <node type="jetbrains.mps.lang.generator.structure.TemplateDeclaration:2" id="1238857203188">
     <property name="name:2" value="reduce_DateTimeZoneCreator" />
-    <property name="package:2" value="deprecated" />
+    <property name="virtualPackage:2" value="deprecated" />
     <link role="applicableConcept:2" targetNodeId="1.1238855581199:1" resolveInfo="DateTimeZoneCreator" />
     <node role="contentNode:2" type="jetbrains.mps.baseLanguage.structure.StaticMethodCall:3" id="1238857259572">
       <link role="baseMethodDeclaration:3" targetNodeId="10.~DateTimeZone.forID(java.lang.String):org.joda.time.DateTimeZone" resolveInfo="forID" />
@@ -4121,8 +4093,8 @@
     </node>
   </node>
   <node type="jetbrains.mps.lang.generator.structure.TemplateDeclaration:2" id="1239804357845">
-    <property name="package:2" value="operation.compare" />
     <property name="name:2" value="reduce_WithPropertyCompareExpression" />
+    <property name="virtualPackage:2" value="operation.compare" />
     <link role="applicableConcept:2" targetNodeId="1.1239193939163:1" resolveInfo="WithPropertyCompareExpression" />
     <node role="contentNode:2" type="jetbrains.mps.baseLanguage.structure.BlockStatement:3" id="1239804391088">
       <node role="statements:3" type="jetbrains.mps.baseLanguage.structure.StatementList:3" id="1239804391089">
@@ -4242,8 +4214,8 @@
     </node>
   </node>
   <node type="jetbrains.mps.lang.generator.structure.TemplateDeclaration:2" id="1239804842313">
-    <property name="package:2" value="deprecated" />
     <property name="name:2" value="reduce_PeriodInPropertyOperation" />
+    <property name="virtualPackage:2" value="deprecated" />
     <link role="applicableConcept:2" targetNodeId="1.1239036439524:1" resolveInfo="PeriodInPropertyOperation" />
     <node role="contentNode:2" type="jetbrains.mps.baseLanguage.structure.GenericNewExpression:3" id="1239804857882">
       <node role="creator:3" type="jetbrains.mps.baseLanguage.structure.ClassCreator:3" id="1239804884792">
@@ -4340,8 +4312,8 @@
     </node>
   </node>
   <node type="jetbrains.mps.lang.generator.structure.TemplateDeclaration:2" id="4396211440736525363">
-    <property name="package:2" value="operation.compare" />
     <property name="name:2" value="reduce_BinaryCompareOperation" />
+    <property name="virtualPackage:2" value="operation.compare" />
     <link role="applicableConcept:2" targetNodeId="2.1081773326031:3" resolveInfo="BinaryOperation" />
     <node role="contentNode:2" type="jetbrains.mps.baseLanguage.structure.InstanceMethodDeclaration:3" id="5969170299421642554">
       <node role="returnType:3" type="jetbrains.mps.baseLanguage.structure.VoidType:3" id="5969170299421642555" />
@@ -4430,7 +4402,7 @@
   </node>
   <node type="jetbrains.mps.lang.generator.structure.TemplateDeclaration:2" id="2583319411283203429">
     <property name="name:2" value="reduce_ParseExpression" />
-    <property name="package:2" value="deprecated" />
+    <property name="virtualPackage:2" value="deprecated" />
     <link role="applicableConcept:2" targetNodeId="1.1892577441204578414:1" resolveInfo="ParseExpression" />
     <node role="contentNode:2" type="jetbrains.mps.baseLanguage.structure.BlockStatement:3" id="2583319411283203430">
       <node role="statements:3" type="jetbrains.mps.baseLanguage.structure.StatementList:3" id="2583319411283203431">
@@ -4699,8 +4671,8 @@
     </node>
   </node>
   <node type="jetbrains.mps.lang.generator.structure.TemplateDeclaration:2" id="5969170299421360921">
-    <property name="package:2" value="operation.compare" />
     <property name="name:2" value="reduce_PeriodCompareOperation" />
+    <property name="virtualPackage:2" value="operation.compare" />
     <link role="applicableConcept:2" targetNodeId="2.1081773326031:3" resolveInfo="BinaryOperation" />
     <node role="contentNode:2" type="jetbrains.mps.baseLanguage.structure.InstanceMethodDeclaration:3" id="5969170299421363046">
       <node role="returnType:3" type="jetbrains.mps.baseLanguage.structure.VoidType:3" id="5969170299421363047" />
@@ -5226,8 +5198,8 @@
     </node>
   </node>
   <node type="jetbrains.mps.lang.generator.structure.TemplateDeclaration:2" id="8253375325060753917">
-    <property name="package:2" value="operation.compare" />
     <property name="name:2" value="reduce_DurationCompareOperation" />
+    <property name="virtualPackage:2" value="operation.compare" />
     <link role="applicableConcept:2" targetNodeId="2.1081773326031:3" resolveInfo="BinaryOperation" />
     <node role="contentNode:2" type="jetbrains.mps.baseLanguage.structure.BlockStatement:3" id="8253375325060753921">
       <node role="statements:3" type="jetbrains.mps.baseLanguage.structure.StatementList:3" id="8253375325060753926">
@@ -5388,8 +5360,8 @@
     </node>
   </node>
   <node type="jetbrains.mps.lang.generator.structure.TemplateDeclaration:2" id="1548440323223124156">
-    <property name="package:2" value="deprecated" />
     <property name="name:2" value="reduce_DurationInPropertyOperation" />
+    <property name="virtualPackage:2" value="deprecated" />
     <link role="applicableConcept:2" targetNodeId="1.1239036439524:1" resolveInfo="PeriodInPropertyOperation" />
     <node role="contentNode:2" type="jetbrains.mps.baseLanguage.structure.BlockStatement:3" id="1548440323223124158">
       <node role="statements:3" type="jetbrains.mps.baseLanguage.structure.StatementList:3" id="1548440323223124159">
@@ -5879,8 +5851,8 @@
     </node>
   </node>
   <node type="jetbrains.mps.lang.generator.structure.TemplateSwitch:2" id="1379098806890585667">
-    <property name="package:2" value="format" />
     <property name="name:2" value="switch_IPeriodFormat_reference" />
+    <property name="virtualPackage:2" value="format" />
     <node role="reductionMappingRule:2" type="jetbrains.mps.lang.generator.structure.Reduction_MappingRule:2" id="930215626860410238">
       <link role="applicableConcept:2" targetNodeId="1.48671598477573965:1" resolveInfo="PeriodFormat" />
       <node role="ruleConsequence:2" type="jetbrains.mps.lang.generator.structure.TemplateDeclarationReference:2" id="930215626860410240">
@@ -5895,8 +5867,8 @@
     </node>
   </node>
   <node type="jetbrains.mps.lang.generator.structure.TemplateDeclaration:2" id="1379098806890585748">
-    <property name="package:2" value="format" />
     <property name="name:2" value="reduce_PredefinedPeriodFormat_reference" />
+    <property name="virtualPackage:2" value="format" />
     <link role="applicableConcept:2" targetNodeId="29.34521615669325565:3" resolveInfo="PredefinedPeriodFormat" />
     <node role="contentNode:2" type="jetbrains.mps.baseLanguage.structure.BlockStatement:3" id="1379098806890585751">
       <node role="statements:3" type="jetbrains.mps.baseLanguage.structure.StatementList:3" id="1379098806890585752">
@@ -5932,7 +5904,7 @@
   </node>
   <node type="jetbrains.mps.lang.generator.structure.TemplateDeclaration:2" id="48671598477581907">
     <property name="name:2" value="reduce_PeriodLiteralFormatToken" />
-    <property name="package:2" value="format.period" />
+    <property name="virtualPackage:2" value="format.period" />
     <link role="applicableConcept:2" targetNodeId="1.48671598477581889:1" resolveInfo="PeriodLiteralFormatToken" />
     <node role="contentNode:2" type="jetbrains.mps.baseLanguage.structure.BlockStatement:3" id="48671598477581909">
       <node role="statements:3" type="jetbrains.mps.baseLanguage.structure.StatementList:3" id="48671598477581910">
@@ -5976,8 +5948,8 @@
     </node>
   </node>
   <node type="jetbrains.mps.baseLanguage.structure.ClassConcept:3" id="48671598477852545">
-    <property name="package:3" value="format" />
     <property name="name:3" value="PeriodFormatTable" />
+    <property name="virtualPackage:3" value="format" />
     <node role="staticField:3" type="jetbrains.mps.baseLanguage.structure.StaticFieldDeclaration:3" id="1075917115050192304">
       <property name="name:3" value="INSTANCE" />
       <node role="visibility:3" type="jetbrains.mps.baseLanguage.structure.PublicVisibility:3" id="4965148520114300797" />
@@ -6073,7 +6045,7 @@
   </node>
   <node type="jetbrains.mps.lang.generator.structure.TemplateDeclaration:2" id="48671598477852583">
     <property name="name:2" value="reduce_PeriodFormat" />
-    <property name="package:2" value="format.period" />
+    <property name="virtualPackage:2" value="format.period" />
     <link role="applicableConcept:2" targetNodeId="1.48671598477573965:1" resolveInfo="PeriodFormat" />
     <node role="contentNode:2" type="jetbrains.mps.baseLanguage.structure.ClassConcept:3" id="48671598477852628">
       <property name="name:3" value="PeriodFormatTable" />
@@ -6185,8 +6157,8 @@
     </node>
   </node>
   <node type="jetbrains.mps.lang.generator.structure.TemplateDeclaration:2" id="5074955036991702210">
-    <property name="package:2" value="format" />
     <property name="name:2" value="reduce_PeriodFormat_IPeriodFormat_reference" />
+    <property name="virtualPackage:2" value="format" />
     <link role="applicableConcept:2" targetNodeId="1.48671598477573965:1" resolveInfo="PeriodFormat" />
     <node role="contentNode:2" type="jetbrains.mps.baseLanguage.structure.BlockStatement:3" id="5074955036991704390">
       <node role="statements:3" type="jetbrains.mps.baseLanguage.structure.StatementList:3" id="5074955036991704391">
@@ -6286,7 +6258,7 @@
   </node>
   <node type="jetbrains.mps.lang.generator.structure.TemplateDeclaration:2" id="7249953535157218364">
     <property name="name:2" value="reduce_PeriodReferenceFormatToken" />
-    <property name="package:2" value="format.period" />
+    <property name="virtualPackage:2" value="format.period" />
     <link role="applicableConcept:2" targetNodeId="1.7249953535157212421:1" resolveInfo="PeriodReferenceFormatToken" />
     <node role="contentNode:2" type="jetbrains.mps.baseLanguage.structure.BlockStatement:3" id="7249953535157223235">
       <node role="statements:3" type="jetbrains.mps.baseLanguage.structure.StatementList:3" id="7249953535157223236">
@@ -6331,7 +6303,7 @@
   </node>
   <node type="jetbrains.mps.lang.generator.structure.TemplateDeclaration:2" id="7249953535157223315">
     <property name="name:2" value="reduce_PeriodPropertyFormatToken" />
-    <property name="package:2" value="format.period" />
+    <property name="virtualPackage:2" value="format.period" />
     <link role="applicableConcept:2" targetNodeId="1.7249953535157196261:1" resolveInfo="PeriodPropertyFormatToken" />
     <node role="contentNode:2" type="jetbrains.mps.baseLanguage.structure.BlockStatement:3" id="7249953535157223318">
       <node role="statements:3" type="jetbrains.mps.baseLanguage.structure.StatementList:3" id="7249953535157223319">
@@ -7060,7 +7032,7 @@
   </node>
   <node type="jetbrains.mps.lang.generator.structure.TemplateDeclaration:2" id="5293902215864075092">
     <property name="name:2" value="reduce_TimeZoneIdOperation" />
-    <property name="package:2" value="operation.property" />
+    <property name="virtualPackage:2" value="operation.property" />
     <link role="applicableConcept:2" targetNodeId="1.5293902215864051658:1" resolveInfo="TimeZoneIdOperation" />
     <node role="contentNode:2" type="jetbrains.mps.baseLanguage.structure.BlockStatement:3" id="5293902215864075095">
       <node role="statements:3" type="jetbrains.mps.baseLanguage.structure.StatementList:3" id="5293902215864102182">
@@ -7081,7 +7053,7 @@
   </node>
   <node type="jetbrains.mps.lang.generator.structure.TemplateDeclaration:2" id="5293902215864689842">
     <property name="name:2" value="reduce_TimeZoneNameOperation" />
-    <property name="package:2" value="operation.property" />
+    <property name="virtualPackage:2" value="operation.property" />
     <link role="applicableConcept:2" targetNodeId="1.5293902215864689835:1" resolveInfo="TimeZoneNameOperation" />
     <node role="contentNode:2" type="jetbrains.mps.baseLanguage.structure.BlockStatement:3" id="5293902215864689844">
       <node role="statements:3" type="jetbrains.mps.baseLanguage.structure.StatementList:3" id="5293902215864689845">

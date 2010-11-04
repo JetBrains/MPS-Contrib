@@ -10,29 +10,11 @@
   <language namespace="a83c3bd0-2f7e-4ba1-8373-12d49e99f57e(jetbrains.mps.gtext)" />
   <language namespace="ceab5195-25ea-4f22-9b92-103b95ca8c0c(jetbrains.mps.lang.core)" />
   <language namespace="d7706f63-9be2-479c-a3da-ae92af1e64d5(jetbrains.mps.lang.generator.generationContext)" />
-  <languageAspect modelUID="r:00000000-0000-4000-0000-011c895902e2(jetbrains.mps.lang.generator.constraints)" version="16" />
   <languageAspect modelUID="r:00000000-0000-4000-0000-011c895902e8(jetbrains.mps.lang.generator.structure)" version="2" />
-  <languageAspect modelUID="r:00000000-0000-4000-0000-011c895902c1(jetbrains.mps.baseLanguage.constraints)" version="83" />
-  <languageAspect modelUID="r:00000000-0000-4000-0000-011c895902ca(jetbrains.mps.baseLanguage.structure)" version="3" />
-  <languageAspect modelUID="r:00000000-0000-4000-0000-011c89590571(jetbrains.mps.gtext.constraints)" version="8" />
-  <languageAspect modelUID="r:00000000-0000-4000-0000-011c895902fb(jetbrains.mps.lang.smodel.constraints)" version="21" />
   <languageAspect modelUID="r:00000000-0000-4000-0000-011c89590301(jetbrains.mps.lang.smodel.structure)" version="16" />
-  <languageAspect modelUID="r:00000000-0000-4000-0000-011c895902ba(jetbrains.mps.lang.sharedConcepts.constraints)" version="0" />
-  <languageAspect modelUID="r:00000000-0000-4000-0000-011c89590283(jetbrains.mps.lang.core.constraints)" version="2" />
-  <languageAspect modelUID="r:00000000-0000-4000-0000-011c8959032e(jetbrains.mps.baseLanguage.collections.structure)" version="1" />
-  <languageAspect modelUID="r:00000000-0000-4000-0000-011c8959030d(jetbrains.mps.lang.constraints.structure)" version="0" />
-  <languageAspect modelUID="r:00000000-0000-4000-0000-011c89590338(jetbrains.mps.baseLanguage.closures.structure)" version="3" />
-  <languageAspect modelUID="r:00000000-0000-4000-0000-011c8959028c(jetbrains.mps.lang.structure.constraints)" version="11" />
-  <languageAspect modelUID="r:00000000-0000-4000-0000-011c89590334(jetbrains.mps.baseLanguage.closures.constraints)" version="2" />
-  <languageAspect modelUID="r:00000000-0000-4000-0000-011c895902db(jetbrains.mps.baseLanguage.blTypes.constraints)" version="0" />
   <languageAspect modelUID="r:00000000-0000-4000-0000-011c895903ac(jetbrains.mps.baseLanguageInternal.structure)" version="1" />
-  <languageAspect modelUID="r:00000000-0000-4000-0000-011c89590575(jetbrains.mps.gtext.structure)" version="0" />
-  <languageAspect modelUID="r:00000000-0000-4000-0000-011c89590288(jetbrains.mps.lang.core.structure)" version="0" />
-  <languageAspect modelUID="r:00000000-0000-4000-0000-011c89590292(jetbrains.mps.lang.structure.structure)" version="0" />
   <languageAspect modelUID="r:00000000-0000-4000-0000-011c895902bc(jetbrains.mps.lang.sharedConcepts.structure)" version="0" />
-  <languageAspect modelUID="r:00000000-0000-4000-0000-011c895902f3(jetbrains.mps.lang.generator.generationContext.structure)" version="0" />
-  <languageAspect modelUID="r:00000000-0000-4000-0000-011c895903fe(jetbrains.mps.baseLanguage.strings.constraints)" version="1" />
-  <languageAspect modelUID="r:00000000-0000-4000-0000-011c89590402(jetbrains.mps.baseLanguage.strings.structure)" version="9" />
+  <languageAspect modelUID="r:00000000-0000-4000-0000-011c89590576(jetbrains.mps.gtext.generator.baseLanguage.template.main@generator)" version="-1" />
   <maxImportIndex value="18" />
   <import index="4" modelUID="r:00000000-0000-4000-0000-011c895902ca(jetbrains.mps.baseLanguage.structure)" version="3" />
   <import index="8" modelUID="r:00000000-0000-4000-0000-011c89590575(jetbrains.mps.gtext.structure)" version="0" />
@@ -42,7 +24,7 @@
   <import index="18" modelUID="r:00000000-0000-4000-0000-011c89590288(jetbrains.mps.lang.core.structure)" version="0" />
   <node type="jetbrains.mps.lang.generator.structure.MappingConfiguration:2" id="1164413908130">
     <property name="name:2" value="mc_convertToBL" />
-    <property name="package:2" value="toBL" />
+    <property name="virtualPackage:2" value="toBL" />
     <node role="reductionMappingRule:2" type="jetbrains.mps.lang.generator.structure.Reduction_MappingRule:2" id="1173357916125">
       <property name="applyToConceptInheritors:2" value="true" />
       <link role="applicableConcept:2" targetNodeId="8.1181754781153:0" />
@@ -83,7 +65,7 @@
   </node>
   <node type="jetbrains.mps.lang.generator.structure.TemplateDeclaration:2" id="1164488726779">
     <property name="name:2" value="reduce_GItemStatement" />
-    <property name="package:2" value="toBL" />
+    <property name="virtualPackage:2" value="toBL" />
     <link role="applicableConcept:2" targetNodeId="8.1164488352732:0" />
     <node role="contentNode:2" type="jetbrains.mps.baseLanguage.structure.BlockStatement:3" id="4246810654489789694">
       <node role="statements:3" type="jetbrains.mps.baseLanguage.structure.StatementList:3" id="4246810654489789695">
@@ -113,7 +95,7 @@
   </node>
   <node type="jetbrains.mps.lang.generator.structure.TemplateDeclaration:2" id="1165584777191">
     <property name="name:2" value="reduce_GStatementItem" />
-    <property name="package:2" value="toBL" />
+    <property name="virtualPackage:2" value="toBL" />
     <link role="applicableConcept:2" targetNodeId="8.1165582968644:0" />
     <node role="contentNode:2" type="jetbrains.mps.baseLanguage.structure.StringLiteral:3" id="1165584814116">
       <property name="value:3" value="statementList" />
@@ -141,7 +123,7 @@
   </node>
   <node type="jetbrains.mps.lang.generator.structure.TemplateDeclaration:2" id="1166926684100">
     <property name="name:2" value="reduce_GLine" />
-    <property name="package:2" value="rewrite" />
+    <property name="virtualPackage:2" value="rewrite" />
     <link role="applicableConcept:2" targetNodeId="8.1166926309597:0" />
     <node role="contentNode:2" type="jetbrains.mps.gtext.structure.GItemList:0" id="1166926755246">
       <node role="templateFragment$attribute:0" type="jetbrains.mps.lang.generator.structure.TemplateFragment:2" id="1166926756794" />
@@ -168,7 +150,7 @@
   </node>
   <node type="jetbrains.mps.lang.generator.structure.TemplateDeclaration:2" id="1179110448984">
     <property name="name:2" value="reduce_GConditionalLine" />
-    <property name="package:2" value="rewrite" />
+    <property name="virtualPackage:2" value="rewrite" />
     <link role="applicableConcept:2" targetNodeId="8.1179109169620:0" />
     <node role="contentNode:2" type="jetbrains.mps.gtext.structure.GItemList:0" id="1179110460581">
       <node role="item:0" type="jetbrains.mps.gtext.structure.GIndent:0" id="1179110476865">
@@ -225,7 +207,7 @@
   </node>
   <node type="jetbrains.mps.lang.generator.structure.TemplateDeclaration:2" id="1195217368293">
     <property name="name:2" value="reduce_BuilderContextRef" />
-    <property name="package:2" value="toBL" />
+    <property name="virtualPackage:2" value="toBL" />
     <link role="applicableConcept:2" targetNodeId="8.1181754781153:0" resolveInfo="BuilderContextRef" />
     <node role="contentNode:2" type="jetbrains.mps.baseLanguageInternal.structure.InternalVariableReference:1" id="1195217974647">
       <property name="name:1" value="builderContext" />
@@ -239,7 +221,7 @@
     <property name="name:2" value="script_Optimization" />
     <property name="scriptKind:2" value="post_processing" />
     <property name="modifiesModel:2" value="true" />
-    <property name="package:2" value="rewrite" />
+    <property name="virtualPackage:2" value="rewrite" />
     <node role="codeBlock:2" type="jetbrains.mps.lang.generator.structure.MappingScript_CodeBlock:2" id="1196149742907">
       <node role="body:2" type="jetbrains.mps.baseLanguage.structure.StatementList:3" id="1196149742908">
         <node role="statement:3" type="jetbrains.mps.baseLanguage.structure.ExpressionStatement:3" id="1196164419159">
@@ -254,7 +236,7 @@
   </node>
   <node type="jetbrains.mps.lang.generator.structure.TemplateDeclaration:2" id="1211915472272">
     <property name="name:2" value="reduce_GSeparatorItemList" />
-    <property name="package:2" value="rewrite" />
+    <property name="virtualPackage:2" value="rewrite" />
     <link role="applicableConcept:2" targetNodeId="8.1188509198390:0" resolveInfo="GSeparatorItemList" />
     <node role="contentNode:2" type="jetbrains.mps.gtext.structure.GItemList:0" id="1211917853731">
       <node role="item:0" type="jetbrains.mps.gtext.structure.GItemList:0" id="1211917863257">
@@ -328,7 +310,7 @@
   </node>
   <node type="jetbrains.mps.lang.generator.structure.MappingConfiguration:2" id="4246810654489660286">
     <property name="name:2" value="mc_rewrite" />
-    <property name="package:2" value="rewrite" />
+    <property name="virtualPackage:2" value="rewrite" />
     <node role="reductionMappingRule:2" type="jetbrains.mps.lang.generator.structure.Reduction_MappingRule:2" id="4246810654489760986">
       <link role="applicableConcept:2" targetNodeId="8.1179109169620:0" resolveInfo="GConditionalLine" />
       <node role="ruleConsequence:2" type="jetbrains.mps.lang.generator.structure.TemplateDeclarationReference:2" id="4246810654489760987">
@@ -352,8 +334,8 @@
     </node>
   </node>
   <node type="jetbrains.mps.lang.generator.structure.TemplateSwitch:2" id="4246810654489778220">
-    <property name="package:2" value="toBL" />
     <property name="name:2" value="convertToBL" />
+    <property name="virtualPackage:2" value="toBL" />
     <node role="reductionMappingRule:2" type="jetbrains.mps.lang.generator.structure.Reduction_MappingRule:2" id="4246810654489778221">
       <link role="applicableConcept:2" targetNodeId="8.1164497519485:0" resolveInfo="GExpressionItem" />
       <node role="ruleConsequence:2" type="jetbrains.mps.lang.generator.structure.InlineTemplate_RuleConsequence:2" id="4246810654489780494">

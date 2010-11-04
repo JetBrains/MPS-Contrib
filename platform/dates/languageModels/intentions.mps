@@ -10,43 +10,14 @@
   <language namespace="cccc689c-f365-4862-a8b6-34ecddf8ee26(jetbrains.mps.baseLanguage.dates)" />
   <language namespace="ceab5195-25ea-4f22-9b92-103b95ca8c0c(jetbrains.mps.lang.core)" />
   <language namespace="83888646-71ce-4f1c-9c53-c54016f6ad4f(jetbrains.mps.baseLanguage.collections)" />
-  <languageAspect modelUID="r:00000000-0000-4000-0000-011c8959034f(jetbrains.mps.lang.intentions.constraints)" version="1" />
-  <languageAspect modelUID="r:00000000-0000-4000-0000-011c895902fb(jetbrains.mps.lang.smodel.constraints)" version="21" />
   <languageAspect modelUID="r:00000000-0000-4000-0000-011c89590301(jetbrains.mps.lang.smodel.structure)" version="16" />
-  <languageAspect modelUID="r:00000000-0000-4000-0000-011c895902c1(jetbrains.mps.baseLanguage.constraints)" version="83" />
-  <languageAspect modelUID="r:00000000-0000-4000-0000-011c895902ca(jetbrains.mps.baseLanguage.structure)" version="3" />
-  <languageAspect modelUID="r:00000000-0000-4000-0000-011c895902ae(jetbrains.mps.lang.typesystem.constraints)" version="17" />
-  <languageAspect modelUID="r:00000000-0000-4000-0000-011c895903cf(jetbrains.mps.baseLanguage.dates.constraints)" version="9" />
   <languageAspect modelUID="r:00000000-0000-4000-0000-011c8959032e(jetbrains.mps.baseLanguage.collections.structure)" version="7" />
-  <languageAspect modelUID="r:00000000-0000-4000-0000-011c89590338(jetbrains.mps.baseLanguage.closures.structure)" version="3" />
-  <languageAspect modelUID="r:00000000-0000-4000-0000-011c89590340(jetbrains.mps.lang.pattern.constraints)" version="2" />
-  <languageAspect modelUID="r:00000000-0000-4000-0000-011c8959028c(jetbrains.mps.lang.structure.constraints)" version="11" />
-  <languageAspect modelUID="r:00000000-0000-4000-0000-011c895902ba(jetbrains.mps.lang.sharedConcepts.constraints)" version="0" />
-  <languageAspect modelUID="r:00000000-0000-4000-0000-011c89590523(jetbrains.springframework.configuration.constraints)" version="6" />
-  <languageAspect modelUID="r:00000000-0000-4000-0000-011c89590328(jetbrains.mps.baseLanguage.collections.constraints)" version="6" />
-  <languageAspect modelUID="r:00000000-0000-4000-0000-011c895903db(jetbrains.mps.baseLanguage.datesInternal.constraints)" version="9" />
-  <languageAspect modelUID="r:00000000-0000-4000-0000-011c89590334(jetbrains.mps.baseLanguage.closures.constraints)" version="2" />
-  <languageAspect modelUID="r:00000000-0000-4000-0000-011c89590283(jetbrains.mps.lang.core.constraints)" version="2" />
-  <languageAspect modelUID="r:00000000-0000-4000-0000-011c895903e4(jetbrains.mps.internal.collections.constraints)" version="2" />
-  <languageAspect modelUID="r:00000000-0000-4000-0000-011c895902db(jetbrains.mps.baseLanguage.blTypes.constraints)" version="0" />
-  <languageAspect modelUID="r:00000000-0000-4000-0000-011c895903dd(jetbrains.mps.baseLanguage.datesInternal.structure)" version="3" />
-  <languageAspect modelUID="r:00000000-0000-4000-0000-011c895903d5(jetbrains.mps.baseLanguage.dates.structure)" version="1" />
   <languageAspect modelUID="r:00000000-0000-4000-0000-011c89590288(jetbrains.mps.lang.core.structure)" version="0" />
-  <languageAspect modelUID="r:00000000-0000-4000-0000-011c89590292(jetbrains.mps.lang.structure.structure)" version="0" />
   <languageAspect modelUID="r:00000000-0000-4000-0000-011c89590353(jetbrains.mps.lang.intentions.structure)" version="8" />
-  <languageAspect modelUID="r:00000000-0000-4000-0000-011c895902bc(jetbrains.mps.lang.sharedConcepts.structure)" version="0" />
-  <languageAspect modelUID="r:00000000-0000-4000-0000-011c895903fe(jetbrains.mps.baseLanguage.strings.constraints)" version="1" />
-  <languageAspect modelUID="r:00000000-0000-4000-0000-011c89590402(jetbrains.mps.baseLanguage.strings.structure)" version="9" />
   <languageAspect modelUID="r:00000000-0000-4000-0000-011c8959034b(jetbrains.mps.lang.quotation.structure)" version="0" />
-  <languageAspect modelUID="r:00000000-0000-4000-0000-011c8959033d(jetbrains.mps.lang.annotations.structure)" version="0" />
   <languageAspect modelUID="r:00000000-0000-4000-0000-011c895902b4(jetbrains.mps.lang.typesystem.structure)" version="3" />
-  <languageAspect modelUID="r:00000000-0000-4000-0000-011c8959030d(jetbrains.mps.lang.constraints.structure)" version="8" />
-  <languageAspect modelUID="r:00000000-0000-4000-0000-011c89590307(jetbrains.mps.lang.constraints.constraints)" version="9" />
-  <languageAspect modelUID="r:00000000-0000-4000-0000-011c89590345(jetbrains.mps.lang.pattern.structure)" version="0" />
-  <languageAspect modelUID="r:00000000-0000-4000-0000-011c89590373(jetbrains.mps.baseLanguage.classifiers.structure)" version="0" />
-  <languageAspect modelUID="r:00000000-0000-4000-0000-011c89590368(jetbrains.mps.lang.plugin.structure)" version="23" />
-  <languageAspect modelUID="r:00000000-0000-4000-0000-011c8959036e(jetbrains.mps.baseLanguage.classifiers.constraints)" version="7" />
-  <languageAspect modelUID="r:00000000-0000-4000-0000-011c89590361(jetbrains.mps.lang.plugin.constraints)" version="19" />
+  <languageAspect modelUID="r:00000000-0000-4000-0000-011c895903ce(jetbrains.mps.baseLanguage.dates.behavior)" version="-1" />
+  <languageAspect modelUID="r:00000000-0000-4000-0000-011c895903d2(jetbrains.mps.baseLanguage.dates.intentions)" version="-1" />
   <maxImportIndex value="6" />
   <import index="1" modelUID="r:00000000-0000-4000-0000-011c895903d5(jetbrains.mps.baseLanguage.dates.structure)" version="1" />
   <import index="2" modelUID="r:00000000-0000-4000-0000-011c895902ca(jetbrains.mps.baseLanguage.structure)" version="3" />
@@ -54,7 +25,7 @@
   <node type="jetbrains.mps.lang.intentions.structure.IntentionDeclaration:8" id="1207144041354">
     <property name="name:8" value="ConvertDateTimePlusToPlus" />
     <property name="isErrorIntention:8" value="true" />
-    <property name="package:8" value="deprecated" />
+    <property name="virtualPackage:8" value="deprecated" />
     <link role="forConcept:8" targetNodeId="1.1207143297026:1" resolveInfo="DateTimePlusPeriodOperation" />
     <node role="descriptionFunction:8" type="jetbrains.mps.lang.intentions.structure.DescriptionBlock:8" id="1207144041355">
       <node role="body:8" type="jetbrains.mps.baseLanguage.structure.StatementList:3" id="1207144041356">
@@ -132,7 +103,7 @@
   <node type="jetbrains.mps.lang.intentions.structure.IntentionDeclaration:8" id="1207223065533">
     <property name="name:8" value="ConvertDateTimeMinusToMinus" />
     <property name="isErrorIntention:8" value="true" />
-    <property name="package:8" value="deprecated" />
+    <property name="virtualPackage:8" value="deprecated" />
     <link role="forConcept:8" targetNodeId="1.1207222873197:1" resolveInfo="DateTimeMinusPeriodOperation" />
     <node role="descriptionFunction:8" type="jetbrains.mps.lang.intentions.structure.DescriptionBlock:8" id="1207223065534">
       <node role="body:8" type="jetbrains.mps.baseLanguage.structure.StatementList:3" id="1207223065535">
@@ -690,8 +661,8 @@
     </node>
   </node>
   <node type="jetbrains.mps.lang.intentions.structure.IntentionDeclaration:8" id="276836602888578344">
-    <property name="package:8" value="operation.property" />
     <property name="name:8" value="remove_PeriodInPropertyExpression" />
+    <property name="virtualPackage:8" value="operation.property" />
     <link role="forConcept:8" targetNodeId="1.276836602888578296:1" resolveInfo="PeriodInPropertyExpression" />
     <node role="descriptionFunction:8" type="jetbrains.mps.lang.intentions.structure.DescriptionBlock:8" id="276836602888578345">
       <node role="body:8" type="jetbrains.mps.baseLanguage.structure.StatementList:3" id="276836602888578346">
@@ -725,7 +696,7 @@
   </node>
   <node type="jetbrains.mps.lang.intentions.structure.IntentionDeclaration:8" id="1239209858304">
     <property name="name:8" value="RemoveDateTimePropertyFromPeriod" />
-    <property name="package:8" value="deprecated" />
+    <property name="virtualPackage:8" value="deprecated" />
     <link role="forConcept:8" targetNodeId="1.1239036439524:1" resolveInfo="PeriodInPropertyOperation" />
     <node role="descriptionFunction:8" type="jetbrains.mps.lang.intentions.structure.DescriptionBlock:8" id="1239209858305">
       <node role="body:8" type="jetbrains.mps.baseLanguage.structure.StatementList:3" id="1239209858306">
@@ -760,7 +731,7 @@
   <node type="jetbrains.mps.lang.intentions.structure.IntentionDeclaration:8" id="3986031709810363041">
     <property name="name:8" value="RoundDateTimeOperation_fixInstant" />
     <property name="isAvailableInChildNodes:8" value="true" />
-    <property name="package:8" value="deprecated" />
+    <property name="virtualPackage:8" value="deprecated" />
     <link role="forConcept:8" targetNodeId="1.1172324086632:1" resolveInfo="RoundDateTimeOperation" />
     <node role="descriptionFunction:8" type="jetbrains.mps.lang.intentions.structure.DescriptionBlock:8" id="3986031709810363042">
       <node role="body:8" type="jetbrains.mps.baseLanguage.structure.StatementList:3" id="3986031709810363043">
@@ -847,9 +818,9 @@
     </node>
   </node>
   <node type="jetbrains.mps.lang.intentions.structure.IntentionDeclaration:8" id="3986031709810986603">
-    <property name="package:8" value="deprecated" />
     <property name="name:8" value="DateTimeWithPropertyOperation_fixInstance" />
     <property name="isAvailableInChildNodes:8" value="true" />
+    <property name="virtualPackage:8" value="deprecated" />
     <link role="forConcept:8" targetNodeId="1.1172331114860:1" resolveInfo="DateTimeWithPropertyOperation" />
     <node role="descriptionFunction:8" type="jetbrains.mps.lang.intentions.structure.DescriptionBlock:8" id="3986031709810986604">
       <node role="body:8" type="jetbrains.mps.baseLanguage.structure.StatementList:3" id="3986031709810986605">
@@ -936,8 +907,8 @@
     </node>
   </node>
   <node type="jetbrains.mps.lang.intentions.structure.IntentionDeclaration:8" id="3986031709811159350">
-    <property name="package:8" value="deprecated" />
     <property name="name:8" value="ParseExpression_convert" />
+    <property name="virtualPackage:8" value="deprecated" />
     <link role="forConcept:8" targetNodeId="1.1892577441204578414:1" resolveInfo="ParseExpression" />
     <node role="descriptionFunction:8" type="jetbrains.mps.lang.intentions.structure.DescriptionBlock:8" id="3986031709811159351">
       <node role="body:8" type="jetbrains.mps.baseLanguage.structure.StatementList:3" id="3986031709811159352">
@@ -1069,9 +1040,9 @@
     </node>
   </node>
   <node type="jetbrains.mps.lang.intentions.structure.IntentionDeclaration:8" id="3986031709811198260">
-    <property name="package:8" value="deprecated" />
     <property name="name:8" value="FormatExpression_convert" />
     <property name="isAvailableInChildNodes:8" value="true" />
+    <property name="virtualPackage:8" value="deprecated" />
     <link role="forConcept:8" targetNodeId="1.1169557513226:1" resolveInfo="FormatExpression" />
     <node role="descriptionFunction:8" type="jetbrains.mps.lang.intentions.structure.DescriptionBlock:8" id="3986031709811198261">
       <node role="body:8" type="jetbrains.mps.baseLanguage.structure.StatementList:3" id="3986031709811198262">
@@ -1215,9 +1186,9 @@
     </node>
   </node>
   <node type="jetbrains.mps.lang.intentions.structure.IntentionDeclaration:8" id="2192048487562794533">
-    <property name="package:8" value="deprecated" />
     <property name="name:8" value="InlineFormatExpression_convert" />
     <property name="isAvailableInChildNodes:8" value="true" />
+    <property name="virtualPackage:8" value="deprecated" />
     <link role="forConcept:8" targetNodeId="1.1174039789930:1" resolveInfo="InlineFormatExpression" />
     <node role="descriptionFunction:8" type="jetbrains.mps.lang.intentions.structure.DescriptionBlock:8" id="2192048487562794534">
       <node role="body:8" type="jetbrains.mps.baseLanguage.structure.StatementList:3" id="2192048487562794535">

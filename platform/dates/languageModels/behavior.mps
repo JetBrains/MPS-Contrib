@@ -12,41 +12,13 @@
   <language namespace="ceab5195-25ea-4f22-9b92-103b95ca8c0c(jetbrains.mps.lang.core)" />
   <language namespace="1991585e-225e-4371-977a-68a7888adae2(jetbrains.mps.baseLanguage.datesInternal)" />
   <language namespace="b401a680-8325-4110-8fd3-84331ff25bef(jetbrains.mps.lang.generator)" />
-  <languageAspect modelUID="r:00000000-0000-4000-0000-011c89590307(jetbrains.mps.lang.constraints.constraints)" version="9" />
-  <languageAspect modelUID="r:00000000-0000-4000-0000-011c8959030d(jetbrains.mps.lang.constraints.structure)" version="8" />
-  <languageAspect modelUID="r:00000000-0000-4000-0000-011c89590328(jetbrains.mps.baseLanguage.collections.constraints)" version="6" />
   <languageAspect modelUID="r:00000000-0000-4000-0000-011c8959032e(jetbrains.mps.baseLanguage.collections.structure)" version="7" />
-  <languageAspect modelUID="r:00000000-0000-4000-0000-011c895902fb(jetbrains.mps.lang.smodel.constraints)" version="21" />
   <languageAspect modelUID="r:00000000-0000-4000-0000-011c89590301(jetbrains.mps.lang.smodel.structure)" version="16" />
-  <languageAspect modelUID="r:00000000-0000-4000-0000-011c895902c1(jetbrains.mps.baseLanguage.constraints)" version="83" />
-  <languageAspect modelUID="r:00000000-0000-4000-0000-011c895902ca(jetbrains.mps.baseLanguage.structure)" version="3" />
-  <languageAspect modelUID="r:00000000-0000-4000-0000-011c89590523(jetbrains.springframework.configuration.constraints)" version="6" />
-  <languageAspect modelUID="r:00000000-0000-4000-0000-011c895902ba(jetbrains.mps.lang.sharedConcepts.constraints)" version="0" />
-  <languageAspect modelUID="r:00000000-0000-4000-0000-011c8959028c(jetbrains.mps.lang.structure.constraints)" version="11" />
-  <languageAspect modelUID="r:00000000-0000-4000-0000-011c89590338(jetbrains.mps.baseLanguage.closures.structure)" version="3" />
-  <languageAspect modelUID="r:00000000-0000-4000-0000-011c895903db(jetbrains.mps.baseLanguage.datesInternal.constraints)" version="9" />
-  <languageAspect modelUID="r:00000000-0000-4000-0000-011c89590283(jetbrains.mps.lang.core.constraints)" version="2" />
-  <languageAspect modelUID="r:00000000-0000-4000-0000-011c89590334(jetbrains.mps.baseLanguage.closures.constraints)" version="2" />
-  <languageAspect modelUID="r:00000000-0000-4000-0000-011c895903cf(jetbrains.mps.baseLanguage.dates.constraints)" version="9" />
-  <languageAspect modelUID="r:00000000-0000-4000-0000-011c895903e4(jetbrains.mps.internal.collections.constraints)" version="2" />
-  <languageAspect modelUID="r:00000000-0000-4000-0000-011c895902db(jetbrains.mps.baseLanguage.blTypes.constraints)" version="0" />
-  <languageAspect modelUID="r:00000000-0000-4000-0000-011c895903ac(jetbrains.mps.baseLanguageInternal.structure)" version="1" />
-  <languageAspect modelUID="r:00000000-0000-4000-0000-011c895903dd(jetbrains.mps.baseLanguage.datesInternal.structure)" version="3" />
-  <languageAspect modelUID="r:00000000-0000-4000-0000-011c895903d5(jetbrains.mps.baseLanguage.dates.structure)" version="1" />
-  <languageAspect modelUID="r:00000000-0000-4000-0000-011c89590288(jetbrains.mps.lang.core.structure)" version="0" />
-  <languageAspect modelUID="r:00000000-0000-4000-0000-011c89590292(jetbrains.mps.lang.structure.structure)" version="0" />
-  <languageAspect modelUID="r:00000000-0000-4000-0000-011c895902bc(jetbrains.mps.lang.sharedConcepts.structure)" version="0" />
-  <languageAspect modelUID="r:00000000-0000-4000-0000-011c895902e2(jetbrains.mps.lang.generator.constraints)" version="16" />
-  <languageAspect modelUID="r:00000000-0000-4000-0000-011c895902e8(jetbrains.mps.lang.generator.structure)" version="2" />
-  <languageAspect modelUID="r:00000000-0000-4000-0000-011c895902f3(jetbrains.mps.lang.generator.generationContext.structure)" version="0" />
-  <languageAspect modelUID="r:00000000-0000-4000-0000-011c895903fe(jetbrains.mps.baseLanguage.strings.constraints)" version="1" />
-  <languageAspect modelUID="r:00000000-0000-4000-0000-011c89590402(jetbrains.mps.baseLanguage.strings.structure)" version="9" />
   <languageAspect modelUID="r:00000000-0000-4000-0000-011c8959034b(jetbrains.mps.lang.quotation.structure)" version="0" />
-  <languageAspect modelUID="r:00000000-0000-4000-0000-011c8959033d(jetbrains.mps.lang.annotations.structure)" version="0" />
   <languageAspect modelUID="r:00000000-0000-4000-0000-011c895902b4(jetbrains.mps.lang.typesystem.structure)" version="3" />
-  <languageAspect modelUID="r:00000000-0000-4000-0000-011c895902ae(jetbrains.mps.lang.typesystem.constraints)" version="17" />
-  <languageAspect modelUID="r:00000000-0000-4000-0000-011c89590340(jetbrains.mps.lang.pattern.constraints)" version="2" />
-  <languageAspect modelUID="r:00000000-0000-4000-0000-011c89590345(jetbrains.mps.lang.pattern.structure)" version="0" />
+  <languageAspect modelUID="r:00000000-0000-4000-0000-011c895902c0(jetbrains.mps.baseLanguage.behavior)" version="-1" />
+  <languageAspect modelUID="r:00000000-0000-4000-0000-011c895903ce(jetbrains.mps.baseLanguage.dates.behavior)" version="-1" />
+  <languageAspect modelUID="r:3270011d-8b2d-4938-8dff-d256a759e017(jetbrains.mps.lang.behavior.structure)" version="-1" />
   <maxImportIndex value="15" />
   <import index="1" modelUID="r:00000000-0000-4000-0000-011c895903d5(jetbrains.mps.baseLanguage.dates.structure)" version="1" />
   <import index="2" modelUID="f:java_stub#java.lang(java.lang@java_stub)" version="-1" />
@@ -60,14 +32,14 @@
   <import index="13" modelUID="f:java_stub#jetbrains.mps.smodel(jetbrains.mps.smodel@java_stub)" version="-1" />
   <import index="14" modelUID="r:00000000-0000-4000-0000-011c89590292(jetbrains.mps.lang.structure.structure)" version="0" />
   <node type="jetbrains.mps.lang.behavior.structure.ConceptBehavior" id="1213877259059">
-    <property name="package" value="format.date" />
+    <property name="virtualPackage" value="format.date" />
     <link role="concept" targetNodeId="1.1173959836330:1" resolveInfo="DateTimePropertyFormatToken" />
     <node role="constructor" type="jetbrains.mps.lang.behavior.structure.ConceptConstructorDeclaration" id="1213877259060">
       <node role="body" type="jetbrains.mps.baseLanguage.structure.StatementList:3" id="1213877259061" />
     </node>
   </node>
   <node type="jetbrains.mps.lang.behavior.structure.ConceptBehavior" id="1213877270116">
-    <property name="package" value="constant.schedule" />
+    <property name="virtualPackage" value="constant.schedule" />
     <link role="concept" targetNodeId="1.1194003500823:1" resolveInfo="ScheduleLiteral" />
     <node role="method" type="jetbrains.mps.lang.behavior.structure.ConceptMethodDeclaration" id="1213877270117">
       <property name="name" value="hasDay" />
@@ -504,42 +476,42 @@
     </node>
   </node>
   <node type="jetbrains.mps.lang.behavior.structure.ConceptBehavior" id="1213877283141">
-    <property name="package" value="operation" />
+    <property name="virtualPackage" value="operation" />
     <link role="concept" targetNodeId="1.1209035760903:1" resolveInfo="DateTimeOperation" />
     <node role="constructor" type="jetbrains.mps.lang.behavior.structure.ConceptConstructorDeclaration" id="1213877283142">
       <node role="body" type="jetbrains.mps.baseLanguage.structure.StatementList:3" id="1213877283143" />
     </node>
   </node>
   <node type="jetbrains.mps.lang.behavior.structure.ConceptBehavior" id="1213877297616">
-    <property name="package" value="format.date" />
+    <property name="virtualPackage" value="format.date" />
     <link role="concept" targetNodeId="1.1169563444535:1" resolveInfo="TokenConditionalPair" />
     <node role="constructor" type="jetbrains.mps.lang.behavior.structure.ConceptConstructorDeclaration" id="1213877297617">
       <node role="body" type="jetbrains.mps.baseLanguage.structure.StatementList:3" id="1213877297618" />
     </node>
   </node>
   <node type="jetbrains.mps.lang.behavior.structure.ConceptBehavior" id="1213877368222">
-    <property name="package" value="format.date" />
+    <property name="virtualPackage" value="format.date" />
     <link role="concept" targetNodeId="1.1169563273551:1" resolveInfo="ReferenceFormatToken" />
     <node role="constructor" type="jetbrains.mps.lang.behavior.structure.ConceptConstructorDeclaration" id="1213877368223">
       <node role="body" type="jetbrains.mps.baseLanguage.structure.StatementList:3" id="1213877368224" />
     </node>
   </node>
   <node type="jetbrains.mps.lang.behavior.structure.ConceptBehavior" id="1213877382786">
-    <property name="package" value="operation.convert" />
+    <property name="virtualPackage" value="operation.convert" />
     <link role="concept" targetNodeId="1.1209035204722:1" resolveInfo="ConvertToDateTimeOperation" />
     <node role="constructor" type="jetbrains.mps.lang.behavior.structure.ConceptConstructorDeclaration" id="1213877382787">
       <node role="body" type="jetbrains.mps.baseLanguage.structure.StatementList:3" id="1213877382788" />
     </node>
   </node>
   <node type="jetbrains.mps.lang.behavior.structure.ConceptBehavior" id="1213877413175">
-    <property name="package" value="format" />
+    <property name="virtualPackage" value="format" />
     <link role="concept" targetNodeId="1.1169487448949:1" resolveInfo="DateFormat" />
     <node role="constructor" type="jetbrains.mps.lang.behavior.structure.ConceptConstructorDeclaration" id="1213877413176">
       <node role="body" type="jetbrains.mps.baseLanguage.structure.StatementList:3" id="1213877413177" />
     </node>
   </node>
   <node type="jetbrains.mps.lang.behavior.structure.ConceptBehavior" id="1213877434064">
-    <property name="package" value="format.date" />
+    <property name="virtualPackage" value="format.date" />
     <link role="concept" targetNodeId="1.1172679701720:1" resolveInfo="FixedLocaleFormatToken" />
     <node role="constructor" type="jetbrains.mps.lang.behavior.structure.ConceptConstructorDeclaration" id="1213877434065">
       <node role="body" type="jetbrains.mps.baseLanguage.structure.StatementList:3" id="1213877434066" />
@@ -547,7 +519,7 @@
   </node>
   <visible index="2" modelUID="r:00000000-0000-4000-0000-011c895902c0(jetbrains.mps.baseLanguage.behavior)" />
   <node type="jetbrains.mps.lang.behavior.structure.ConceptBehavior" id="1213877472159">
-    <property name="package" value="deprecated" />
+    <property name="virtualPackage" value="deprecated" />
     <link role="concept" targetNodeId="1.1169557513226:1" resolveInfo="FormatExpression" />
     <node role="constructor" type="jetbrains.mps.lang.behavior.structure.ConceptConstructorDeclaration" id="1213877472160">
       <node role="body" type="jetbrains.mps.baseLanguage.structure.StatementList:3" id="1213877472161" />
@@ -713,7 +685,7 @@
     </node>
   </node>
   <node type="jetbrains.mps.lang.behavior.structure.ConceptBehavior" id="1213877526003">
-    <property name="package" value="deprecated" />
+    <property name="virtualPackage" value="deprecated" />
     <link role="concept" targetNodeId="1.1172074800504:1" resolveInfo="DateTimeCompareOperation" />
     <node role="method" type="jetbrains.mps.lang.behavior.structure.ConceptMethodDeclaration" id="1213877526386">
       <property name="name" value="hasMillisPrecision" />
@@ -940,7 +912,7 @@
     </node>
   </node>
   <node type="jetbrains.mps.lang.behavior.structure.ConceptBehavior" id="1224665495957">
-    <property name="package" value="format" />
+    <property name="virtualPackage" value="format" />
     <link role="concept" targetNodeId="1.1169481390637:1" resolveInfo="DateFormatsTable" />
     <node role="constructor" type="jetbrains.mps.lang.behavior.structure.ConceptConstructorDeclaration" id="1224665495958">
       <node role="body" type="jetbrains.mps.baseLanguage.structure.StatementList:3" id="1224665495959" />
@@ -989,7 +961,7 @@
     </node>
   </node>
   <node type="jetbrains.mps.lang.behavior.structure.ConceptBehavior" id="1238250703195">
-    <property name="package" value="operation.math" />
+    <property name="virtualPackage" value="operation.math" />
     <link role="concept" targetNodeId="1.1238248029297:1" resolveInfo="MathDateTimeOperation" />
     <node role="method" type="jetbrains.mps.lang.behavior.structure.ConceptMethodDeclaration" id="1238250704510">
       <property name="name" value="needLeftConvert" />
@@ -1177,7 +1149,7 @@
     </node>
   </node>
   <node type="jetbrains.mps.lang.behavior.structure.ConceptBehavior" id="1239206692654">
-    <property name="package" value="operation.compare" />
+    <property name="virtualPackage" value="operation.compare" />
     <link role="concept" targetNodeId="1.1239193939163:1" resolveInfo="WithPropertyCompareExpression" />
     <node role="method" type="jetbrains.mps.lang.behavior.structure.ConceptMethodDeclaration" id="1239206693907">
       <property name="name" value="getDatetimeProperty" />
@@ -1239,14 +1211,14 @@
     </node>
   </node>
   <node type="jetbrains.mps.lang.behavior.structure.ConceptBehavior" id="4555537781927648382">
-    <property name="package" value="timezone" />
+    <property name="virtualPackage" value="timezone" />
     <link role="concept" targetNodeId="1.4555537781927648369:1" resolveInfo="TimeZoneIDExpression" />
     <node role="constructor" type="jetbrains.mps.lang.behavior.structure.ConceptConstructorDeclaration" id="4555537781927648383">
       <node role="body" type="jetbrains.mps.baseLanguage.structure.StatementList:3" id="4555537781927648384" />
     </node>
   </node>
   <node type="jetbrains.mps.lang.behavior.structure.ConceptBehavior" id="6626410111395870950">
-    <property name="package" value="operation.convert" />
+    <property name="virtualPackage" value="operation.convert" />
     <link role="concept" targetNodeId="1.2639623922402691276:1" resolveInfo="InTimezone" />
     <node role="constructor" type="jetbrains.mps.lang.behavior.structure.ConceptConstructorDeclaration" id="6626410111395870951">
       <node role="body" type="jetbrains.mps.baseLanguage.structure.StatementList:3" id="6626410111395870952" />
@@ -1415,7 +1387,7 @@
     </node>
   </node>
   <node type="jetbrains.mps.lang.behavior.structure.ConceptBehavior" id="5034322243092301670">
-    <property name="package" value="format" />
+    <property name="virtualPackage" value="format" />
     <link role="concept" targetNodeId="1.5034322243092296606:1" resolveInfo="FormatDateTimeExpression" />
     <node role="constructor" type="jetbrains.mps.lang.behavior.structure.ConceptConstructorDeclaration" id="5034322243092301671">
       <node role="body" type="jetbrains.mps.baseLanguage.structure.StatementList:3" id="5034322243092301672" />
@@ -1540,7 +1512,7 @@
     </node>
   </node>
   <node type="jetbrains.mps.lang.behavior.structure.ConceptBehavior" id="7499037524191428321">
-    <property name="package" value="format" />
+    <property name="virtualPackage" value="format" />
     <link role="concept" targetNodeId="1.4389880778953634893:1" resolveInfo="ParseDateTimeExpression" />
     <node role="constructor" type="jetbrains.mps.lang.behavior.structure.ConceptConstructorDeclaration" id="7499037524191428322">
       <node role="body" type="jetbrains.mps.baseLanguage.structure.StatementList:3" id="7499037524191428323" />
@@ -1665,7 +1637,7 @@
     </node>
   </node>
   <node type="jetbrains.mps.lang.behavior.structure.ConceptBehavior" id="779372288056821935">
-    <property name="package" value="constant" />
+    <property name="virtualPackage" value="constant" />
     <link role="concept" targetNodeId="1.779372288056193783:1" resolveInfo="TimeConstant" />
     <node role="constructor" type="jetbrains.mps.lang.behavior.structure.ConceptConstructorDeclaration" id="779372288056821936">
       <node role="body" type="jetbrains.mps.baseLanguage.structure.StatementList:3" id="779372288056821937" />
@@ -1790,7 +1762,7 @@
     </node>
   </node>
   <node type="jetbrains.mps.lang.behavior.structure.ConceptBehavior" id="34521615669576863">
-    <property name="package" value="format" />
+    <property name="virtualPackage" value="format" />
     <link role="concept" targetNodeId="1.34521615669572115:1" resolveInfo="FormatPeriodExpression" />
     <node role="constructor" type="jetbrains.mps.lang.behavior.structure.ConceptConstructorDeclaration" id="34521615669576864">
       <node role="body" type="jetbrains.mps.baseLanguage.structure.StatementList:3" id="34521615669576865" />
@@ -1915,7 +1887,7 @@
     </node>
   </node>
   <node type="jetbrains.mps.lang.behavior.structure.ConceptBehavior" id="48671598477850432">
-    <property name="package" value="format" />
+    <property name="virtualPackage" value="format" />
     <link role="concept" targetNodeId="1.48671598477850406:1" resolveInfo="PeriodFormatsTable" />
     <node role="method" type="jetbrains.mps.lang.behavior.structure.ConceptMethodDeclaration" id="48671598477850435">
       <property name="name" value="getGeneratedConstantName" />
@@ -1941,7 +1913,7 @@
     </node>
   </node>
   <node type="jetbrains.mps.lang.behavior.structure.ConceptBehavior" id="5581663871704498938">
-    <property name="package" value="format.period" />
+    <property name="virtualPackage" value="format.period" />
     <link role="concept" targetNodeId="1.7249953535157196261:1" resolveInfo="PeriodPropertyFormatToken" />
     <node role="constructor" type="jetbrains.mps.lang.behavior.structure.ConceptConstructorDeclaration" id="5581663871704498939">
       <node role="body" type="jetbrains.mps.baseLanguage.structure.StatementList:3" id="5581663871704498940">
@@ -1962,7 +1934,7 @@
     </node>
   </node>
   <node type="jetbrains.mps.lang.behavior.structure.ConceptBehavior" id="1075917115049868776">
-    <property name="package" value="format.date" />
+    <property name="virtualPackage" value="format.date" />
     <link role="concept" targetNodeId="1.1169562965517:1" resolveInfo="ConditionalFormatToken" />
     <node role="method" type="jetbrains.mps.lang.behavior.structure.ConceptMethodDeclaration" id="1075917115049868779">
       <property name="name" value="getClassName" />
