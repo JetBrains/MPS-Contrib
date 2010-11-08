@@ -12,7 +12,6 @@ import java.util.Set;
 import java.util.HashSet;
 import jetbrains.mps.smodel.SModelUtil_new;
 import jetbrains.mps.project.GlobalScope;
-import jetbrains.mps.smodel.CopyUtil;
 import jetbrains.mps.lang.typesystem.runtime.HUtil;
 import jetbrains.mps.smodel.SReference;
 import jetbrains.mps.smodel.SModelReference;
@@ -88,7 +87,7 @@ public class AttributeBuilder_Behavior {
             quotedNode_3 = (SNode) parameter_18;
             SNode quotedNode1_12;
             if (_parameterValues_129834374.contains(quotedNode_3)) {
-              quotedNode1_12 = CopyUtil.copy(quotedNode_3);
+              quotedNode1_12 = HUtil.copyIfNecessary(quotedNode_3);
             } else {
               _parameterValues_129834374.add(quotedNode_3);
               quotedNode1_12 = quotedNode_3;
@@ -120,7 +119,7 @@ public class AttributeBuilder_Behavior {
                 quotedNode_9 = (SNode) parameter_20;
                 SNode quotedNode1_17;
                 if (_parameterValues_129834374.contains(quotedNode_9)) {
-                  quotedNode1_17 = CopyUtil.copy(quotedNode_9);
+                  quotedNode1_17 = HUtil.copyIfNecessary(quotedNode_9);
                 } else {
                   _parameterValues_129834374.add(quotedNode_9);
                   quotedNode1_17 = quotedNode_9;

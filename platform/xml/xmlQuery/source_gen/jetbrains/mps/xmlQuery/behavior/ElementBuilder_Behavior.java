@@ -15,7 +15,6 @@ import jetbrains.mps.project.GlobalScope;
 import jetbrains.mps.smodel.SReference;
 import jetbrains.mps.smodel.SModelReference;
 import jetbrains.mps.smodel.SNodeId;
-import jetbrains.mps.smodel.CopyUtil;
 import jetbrains.mps.lang.typesystem.runtime.HUtil;
 
 public class ElementBuilder_Behavior {
@@ -128,7 +127,7 @@ public class ElementBuilder_Behavior {
             quotedNode_3 = (SNode) parameter_13;
             SNode quotedNode1_10;
             if (_parameterValues_129834374.contains(quotedNode_3)) {
-              quotedNode1_10 = CopyUtil.copy(quotedNode_3);
+              quotedNode1_10 = HUtil.copyIfNecessary(quotedNode_3);
             } else {
               _parameterValues_129834374.add(quotedNode_3);
               quotedNode1_10 = quotedNode_3;
@@ -145,7 +144,7 @@ public class ElementBuilder_Behavior {
               quotedNode_6 = (SNode) parameter_14;
               SNode quotedNode1_12;
               if (_parameterValues_129834374.contains(quotedNode_6)) {
-                quotedNode1_12 = CopyUtil.copy(quotedNode_6);
+                quotedNode1_12 = HUtil.copyIfNecessary(quotedNode_6);
               } else {
                 _parameterValues_129834374.add(quotedNode_6);
                 quotedNode1_12 = quotedNode_6;

@@ -10,7 +10,6 @@ import java.util.Set;
 import java.util.HashSet;
 import jetbrains.mps.smodel.SModelUtil_new;
 import jetbrains.mps.project.GlobalScope;
-import jetbrains.mps.smodel.CopyUtil;
 import jetbrains.mps.lang.typesystem.runtime.HUtil;
 import jetbrains.mps.smodel.SReference;
 import jetbrains.mps.smodel.SModelReference;
@@ -100,7 +99,7 @@ public class TextBuilder_Behavior {
             quotedNode_3 = (SNode) parameter_12;
             SNode quotedNode1_9;
             if (_parameterValues_129834374.contains(quotedNode_3)) {
-              quotedNode1_9 = CopyUtil.copy(quotedNode_3);
+              quotedNode1_9 = HUtil.copyIfNecessary(quotedNode_3);
             } else {
               _parameterValues_129834374.add(quotedNode_3);
               quotedNode1_9 = quotedNode_3;
@@ -117,7 +116,7 @@ public class TextBuilder_Behavior {
               quotedNode_6 = (SNode) parameter_13;
               SNode quotedNode1_11;
               if (_parameterValues_129834374.contains(quotedNode_6)) {
-                quotedNode1_11 = CopyUtil.copy(quotedNode_6);
+                quotedNode1_11 = HUtil.copyIfNecessary(quotedNode_6);
               } else {
                 _parameterValues_129834374.add(quotedNode_6);
                 quotedNode1_11 = quotedNode_6;
