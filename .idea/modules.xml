@@ -28,7 +28,6 @@
       <module fileurl="file://$PROJECT_DIR$/core/languageDesign/constraints/constraints.iml" filepath="$PROJECT_DIR$/core/languageDesign/constraints/constraints.iml" group="core/languageDesign" />
       <module fileurl="file://$PROJECT_DIR$/core/baseLanguage/constructors/constructors.iml" filepath="$PROJECT_DIR$/core/baseLanguage/constructors/constructors.iml" />
       <module fileurl="file://$PROJECT_DIR$/core/languageDesign/core/core.iml" filepath="$PROJECT_DIR$/core/languageDesign/core/core.iml" group="core/languageDesign" />
-      <module fileurl="file://$PROJECT_DIR$/platform/buildlanguage/languages/custommps/customMps.iml" filepath="$PROJECT_DIR$/platform/buildlanguage/languages/custommps/customMps.iml" group="platform/build" />
       <module fileurl="file://$PROJECT_DIR$/core/languageDesign/dataFlow/dataFlow.iml" filepath="$PROJECT_DIR$/core/languageDesign/dataFlow/dataFlow.iml" group="core/languageDesign/dataFlow" />
       <module fileurl="file://$PROJECT_DIR$/core/languageDesign/dataFlow/runtime/dataFlow-runtime.iml" filepath="$PROJECT_DIR$/core/languageDesign/dataFlow/runtime/dataFlow-runtime.iml" group="core/languageDesign/dataFlow" />
       <module fileurl="file://$PROJECT_DIR$/core/debug/debug.iml" filepath="$PROJECT_DIR$/core/debug/debug.iml" group="core/debug" />
@@ -47,7 +46,6 @@
       <module fileurl="file://$PROJECT_DIR$/core/baseLanguage/javadoc/javadoc.iml" filepath="$PROJECT_DIR$/core/baseLanguage/javadoc/javadoc.iml" group="core/baseLanguage" />
       <module fileurl="file://$PROJECT_DIR$/core/kernel/kernel.iml" filepath="$PROJECT_DIR$/core/kernel/kernel.iml" group="core/kernel" />
       <module fileurl="file://$PROJECT_DIR$/core/baseLanguage/logging/logging.iml" filepath="$PROJECT_DIR$/core/baseLanguage/logging/logging.iml" group="core/baseLanguage" />
-      <module fileurl="file://$PROJECT_DIR$/core/languageDesign/mps-lite/mps-lite.iml" filepath="$PROJECT_DIR$/core/languageDesign/mps-lite/mps-lite.iml" group="core/languageDesign" />
       <module fileurl="file://$PROJECT_DIR$/core/baseLanguage/overloadedOperators/overloadedOperators.iml" filepath="$PROJECT_DIR$/core/baseLanguage/overloadedOperators/overloadedOperators.iml" />
       <module fileurl="file://$PROJECT_DIR$/platform/buildlanguage/languages/packaging/packaging.iml" filepath="$PROJECT_DIR$/platform/buildlanguage/languages/packaging/packaging.iml" group="platform/build" />
       <module fileurl="file://$PROJECT_DIR$/core/languageDesign/pattern/pattern.iml" filepath="$PROJECT_DIR$/core/languageDesign/pattern/pattern.iml" group="core/languageDesign" />
@@ -72,6 +70,7 @@
       <module fileurl="file://$PROJECT_DIR$/core/languageDesign/typesystem/typesystem.iml" filepath="$PROJECT_DIR$/core/languageDesign/typesystem/typesystem.iml" group="core/languageDesign" />
       <module fileurl="file://$PROJECT_DIR$/core/typesystemEngine/typesystemEngine.iml" filepath="$PROJECT_DIR$/core/typesystemEngine/typesystemEngine.iml" group="core/kernel" />
       <module fileurl="file://$PROJECT_DIR$/core/typesystemIntegration/typesystemIntegration.iml" filepath="$PROJECT_DIR$/core/typesystemIntegration/typesystemIntegration.iml" />
+      <module fileurl="file://$PROJECT_DIR$/workbench/typesystemUi/typesystemUi.iml" filepath="$PROJECT_DIR$/workbench/typesystemUi/typesystemUi.iml" />
       <module fileurl="file://$PROJECT_DIR$/platform/uiLanguage/uiLanguage.iml" filepath="$PROJECT_DIR$/platform/uiLanguage/uiLanguage.iml" group="platform/uiLanguage" />
       <module fileurl="file://$PROJECT_DIR$/workbench/uiTests/uiTests.iml" filepath="$PROJECT_DIR$/workbench/uiTests/uiTests.iml" />
       <module fileurl="file://$PROJECT_DIR$/core/baseLanguage/unitTest/unitTest.iml" filepath="$PROJECT_DIR$/core/baseLanguage/unitTest/unitTest.iml" group="core/baseLanguage" />
@@ -79,7 +78,6 @@
       <module fileurl="file://$PROJECT_DIR$/workbench/workbench.iml" filepath="$PROJECT_DIR$/workbench/workbench.iml" group="workbench" />
       <module fileurl="file://$PROJECT_DIR$/platform/xmlDeprecated/xmlDeprecated.iml" filepath="$PROJECT_DIR$/platform/xmlDeprecated/xmlDeprecated.iml" group="platform" />
       <module fileurl="file://$PROJECT_DIR$/core/kernel/xmlQuery/runtime/xmlQuery-runtime.iml" filepath="$PROJECT_DIR$/core/kernel/xmlQuery/runtime/xmlQuery-runtime.iml" />
-      <module fileurl="file://$PROJECT_DIR$/platform/xml/xmlSchema/xmlSchema.iml" filepath="$PROJECT_DIR$/platform/xml/xmlSchema/xmlSchema.iml" group="platform/xml" />
     </modules>
   </component>
 </project>
