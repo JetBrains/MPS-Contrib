@@ -302,6 +302,12 @@
     </node>
   </root>
   <root id="4635390255047863050">
+    <node role="linkDeclaration" roleId="yvnr.1071489727083:0" type="yvnr.LinkDeclaration" typeId="yvnr.1071489288298:0" id="2824634917103291789">
+      <property name="metaClass" nameId="yvnr.1071599937831:0" value="aggregation" />
+      <property name="role" nameId="yvnr.1071599776563:0" value="parameters" />
+      <property name="sourceCardinality" nameId="yvnr.1071599893252:0" value="0..n" />
+      <link role="target" roleId="yvnr.1071599976176:0" targetNodeId="7707758858785994411:4" resolveInfo="XMLSAXFieldDeclaration" />
+    </node>
     <node role="linkDeclaration" roleId="yvnr.1071489727083:0" type="yvnr.LinkDeclaration" typeId="yvnr.1071489288298:0" id="4635390255047981684">
       <property name="metaClass" nameId="yvnr.1071599937831:0" value="reference" />
       <property name="role" nameId="yvnr.1071599776563:0" value="root" />
@@ -457,8 +463,8 @@
     </node>
     <node role="conceptLink" roleId="yvnr.1105736949336:0" type="yvnr.AggregationConceptLink" typeId="yvnr.1105736889287:0" id="2286463592495220219">
       <link role="conceptLinkDeclaration" roleId="yvnr.1105736734721:0" targetNodeId="yvor.6204026822016975620:3" resolveInfo="conceptFunctionThrowsType" />
-      <node role="target" roleId="yvnr.1105736901241:0" type="yvor.ClassifierType" typeId="yvor.1107535904670:3" id="2286463592495220220">
-        <link role="classifier" roleId="yvor.1107535924139:3" targetNodeId="c6l4.~SAXParseException" resolveInfo="SAXParseException" />
+      <node role="target" roleId="yvnr.1105736901241:0" type="yvor.ClassifierType" typeId="yvor.1107535904670:3" id="6960946895180697813">
+        <link role="classifier" roleId="yvor.1107535924139:3" targetNodeId="c6l4.~SAXException" resolveInfo="SAXException" />
       </node>
     </node>
     <node role="conceptProperty" roleId="yvnr.1105725339613:0" type="yvnr.BooleanConceptProperty" typeId="yvnr.1105725574259:0" id="4635390255048097276">
