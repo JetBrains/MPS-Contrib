@@ -21,6 +21,7 @@
   <unitInfo fileName="XMLSAXAttributeReference.java" startLine="11" startPosition="0" endLine="35" endPosition="0" unitName="jetbrains.mps.xmlQuery.structure.XMLSAXAttributeReference" />
   <unitInfo fileName="AccessArbitraryAttributeOperation.java" startLine="11" startPosition="0" endLine="35" endPosition="0" unitName="jetbrains.mps.xmlQuery.structure.AccessArbitraryAttributeOperation" />
   <unitInfo fileName="AccessArbitraryChildrenOperation.java" startLine="11" startPosition="0" endLine="35" endPosition="0" unitName="jetbrains.mps.xmlQuery.structure.AccessArbitraryChildrenOperation" />
+  <unitInfo fileName="XMLSAXBreakStatement.java" startLine="12" startPosition="0" endLine="36" endPosition="0" unitName="jetbrains.mps.xmlQuery.structure.XMLSAXBreakStatement" />
   <unitInfo fileName="ElementBuilder.java" startLine="12" startPosition="0" endLine="36" endPosition="0" unitName="jetbrains.mps.xmlQuery.structure.ElementBuilder" />
   <unitInfo fileName="TextBuilder.java" startLine="12" startPosition="0" endLine="36" endPosition="0" unitName="jetbrains.mps.xmlQuery.structure.TextBuilder" />
   <unitInfo fileName="AttributeBuilder.java" startLine="13" startPosition="0" endLine="46" endPosition="0" unitName="jetbrains.mps.xmlQuery.structure.AttributeBuilder" />

@@ -42,6 +42,10 @@ public class TypesystemDescriptor extends BaseHelginsDescriptor {
       this.myInferenceRules.add(inferenceRule);
     }
     {
+      InferenceRule_Runtime inferenceRule = new typeof_XMLSAXBreakStatement_InferenceRule();
+      this.myInferenceRules.add(inferenceRule);
+    }
+    {
       InferenceRule_Runtime inferenceRule = new typeof_XMLSAXChildHandler_childObject_InferenceRule();
       this.myInferenceRules.add(inferenceRule);
     }

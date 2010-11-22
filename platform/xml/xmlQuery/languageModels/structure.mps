@@ -152,6 +152,11 @@
       <property name="name" nameId="yvnu.1169194664001:0" value="XMLSAXLocatorExpression" />
       <link role="extends" roleId="yvnr.1071489389519:0" targetNodeId="yvor.1068431790191:3" resolveInfo="Expression" />
     </node>
+    <node type="yvnr.ConceptDeclaration" typeId="yvnr.1071489090640:0" id="8666712036582994511">
+      <property name="virtualPackage" nameId="yvnu.1193676396447:0" value="sax" />
+      <property name="name" nameId="yvnu.1169194664001:0" value="XMLSAXBreakStatement" />
+      <link role="extends" roleId="yvnr.1071489389519:0" targetNodeId="yvor.1068580123157:3" resolveInfo="Statement" />
+    </node>
   </roots>
   <root id="4815471077468621634">
     <node role="linkDeclaration" roleId="yvnr.1071489727083:0" type="yvnr.LinkDeclaration" typeId="yvnr.1071489288298:0" id="4815471077468621635">
@@ -578,6 +583,17 @@
     <node role="conceptProperty" roleId="yvnr.1105725339613:0" type="yvnr.StringConceptProperty" typeId="yvnr.1105725638761:0" id="7459083455229571324">
       <property name="value" nameId="yvnr.1105725733873:0" value="locator" />
       <link role="conceptPropertyDeclaration" roleId="yvnr.1105725439818:0" targetNodeId="yvnu.1137473891462:0" resolveInfo="alias" />
+    </node>
+  </root>
+  <root id="8666712036582994511">
+    <node role="conceptProperty" roleId="yvnr.1105725339613:0" type="yvnr.StringConceptProperty" typeId="yvnr.1105725638761:0" id="8666712036582994514">
+      <property name="value" nameId="yvnr.1105725733873:0" value="break parser" />
+      <link role="conceptPropertyDeclaration" roleId="yvnr.1105725439818:0" targetNodeId="yvnu.1137473891462:0" resolveInfo="alias" />
+    </node>
+    <node role="linkDeclaration" roleId="yvnr.1071489727083:0" type="yvnr.LinkDeclaration" typeId="yvnr.1071489288298:0" id="8666712036582994512">
+      <property name="metaClass" nameId="yvnr.1071599937831:0" value="aggregation" />
+      <property name="role" nameId="yvnr.1071599776563:0" value="result" />
+      <link role="target" roleId="yvnr.1071599976176:0" targetNodeId="yvor.1068431790191:3" resolveInfo="Expression" />
     </node>
   </root>
 </model>

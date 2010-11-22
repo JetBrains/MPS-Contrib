@@ -131,6 +131,10 @@ public class QueriesGenerated {
     return "field" + SPropertyOperations.getString(_context.getNode(), "name");
   }
 
+  public static boolean ifMacro_Condition_8666712036583043668(final IOperationContext operationContext, final IfMacroContext _context) {
+    return (SLinkOperations.getTarget(_context.getNode(), "result", true) != null);
+  }
+
   public static boolean ifMacro_Condition_3444414697307502949(final IOperationContext operationContext, final IfMacroContext _context) {
     return (SLinkOperations.getTarget(_context.getNode(), "creator", true) != null) && (SLinkOperations.getTarget(SLinkOperations.getTarget(_context.getNode(), "creator", true), "body", true) != null) && ListSequence.fromList(SLinkOperations.getTargets(SLinkOperations.getTarget(SLinkOperations.getTarget(_context.getNode(), "creator", true), "body", true), "statement", true)).isNotEmpty();
   }
@@ -213,6 +217,10 @@ public class QueriesGenerated {
 
   public static SNode sourceNodeQuery_8118141292490758856(final IOperationContext operationContext, final SourceSubstituteMacroNodeContext _context) {
     return SLinkOperations.getTarget(_context.getNode(), "operand", true);
+  }
+
+  public static SNode sourceNodeQuery_8666712036583043684(final IOperationContext operationContext, final SourceSubstituteMacroNodeContext _context) {
+    return SLinkOperations.getTarget(_context.getNode(), "result", true);
   }
 
   public static SNode sourceNodeQuery_3444414697307455082(final IOperationContext operationContext, final SourceSubstituteMacroNodeContext _context) {

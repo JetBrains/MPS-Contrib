@@ -1,5 +1,6 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <debugInfo>
+  <unitInfo fileName="XMLSAXBreakStatement_Constraints.java" startLine="9" startPosition="0" endLine="14" endPosition="0" unitName="jetbrains.mps.xmlQuery.constraints.XMLSAXBreakStatement_Constraints" />
   <unitInfo fileName="XMLSAXLocatorExpression_Constraints.java" startLine="9" startPosition="0" endLine="14" endPosition="0" unitName="jetbrains.mps.xmlQuery.constraints.XMLSAXLocatorExpression_Constraints" />
   <unitInfo fileName="XMLSAXAttributeReference_Constraints.java" startLine="9" startPosition="0" endLine="14" endPosition="0" unitName="jetbrains.mps.xmlQuery.constraints.XMLSAXAttributeReference_Constraints" />
   <unitInfo fileName="TextBuilder_Constraints.java" startLine="10" startPosition="0" endLine="15" endPosition="0" unitName="jetbrains.mps.xmlQuery.constraints.TextBuilder_Constraints" />
@@ -314,6 +315,10 @@
     <scopeInfo nodeId="7707758858785994437" fileName="XMLSAXFieldReference_declaration_ReferentConstraint.java" startLine="28" startPosition="132" endLine="33" endPosition="16">
       <varInfo nodeId="7707758858785994450" varName="n" />
     </scopeInfo>
+  </root>
+  <root nodeId="8666712036582994524">
+    <nodeInfo nodeId="8666712036582995648" conceptFqName="jetbrains.mps.baseLanguage.structure.ReturnStatement" fileName="XMLSAXBreakStatement_Constraints.java" startLine="10" startPosition="114" endLine="11" endPosition="146" />
+    <scopeInfo nodeId="8666712036582994526" fileName="XMLSAXBreakStatement_Constraints.java" startLine="10" startPosition="114" endLine="11" endPosition="146" />
   </root>
 </debugInfo>
 

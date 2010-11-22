@@ -71,6 +71,10 @@
       <property name="virtualPackage" nameId="yvnu.1193676396447:0" value="sax" />
       <link role="concept" roleId="yvig.1213093996982:8" targetNodeId="tark.7459083455229529757:4" resolveInfo="XMLSAXLocatorExpression" />
     </node>
+    <node type="yvig.ConceptConstraints" typeId="yvig.1213093968558:8" id="8666712036582994524">
+      <property name="virtualPackage" nameId="yvnu.1193676396447:0" value="sax" />
+      <link role="concept" roleId="yvig.1213093996982:8" targetNodeId="tark.8666712036582994511:4" resolveInfo="XMLSAXBreakStatement" />
+    </node>
   </roots>
   <root id="4815471077468703816">
     <node role="referent" roleId="yvig.1213100494875:8" type="yvig.NodeReferentConstraint" typeId="yvig.1148687176410:8" id="4815471077468703817">
@@ -1591,6 +1595,28 @@
               </node>
             </node>
             <node role="operation" roleId="yvor.1197027833540:3" type="yvim.Node_IsNotNullOperation" typeId="yvim.1172008320231:16" id="7459083455229529840" />
+          </node>
+        </node>
+      </node>
+    </node>
+  </root>
+  <root id="8666712036582994524">
+    <node role="canBeChild" roleId="yvig.1213106463729:8" type="yvig.ConstraintFunction_CanBeAChild" typeId="yvig.1202989531578:8" id="8666712036582994525">
+      <node role="body" roleId="yvor.1137022507850:3" type="yvor.StatementList" typeId="yvor.1068580123136:3" id="8666712036582994526">
+        <node role="statement" roleId="yvor.1068581517665:3" type="yvor.ExpressionStatement" typeId="yvor.1068580123155:3" id="8666712036582995648">
+          <node role="expression" roleId="yvor.1068580123156:3" type="yvor.DotExpression" typeId="yvor.1197027756228:3" id="8666712036582995661">
+            <node role="operand" roleId="yvor.1197027771414:3" type="yvor.DotExpression" typeId="yvor.1197027756228:3" id="8666712036582995650">
+              <node role="operand" roleId="yvor.1197027771414:3" type="yvig.ConstraintFunctionParameter_parentNode" typeId="yvig.1202989658459:8" id="8666712036582995649" />
+              <node role="operation" roleId="yvor.1197027833540:3" type="yvim.Node_GetAncestorOperation" typeId="yvim.1171407110247:16" id="8666712036582995654">
+                <node role="parameter" roleId="yvim.1144104376918:16" type="yvim.OperationParm_Concept" typeId="yvim.1144101972840:16" id="8666712036582995655">
+                  <node role="conceptArgument" roleId="yvim.1207343664468:16" type="yvim.RefConcept_Reference" typeId="yvim.1177026924588:16" id="8666712036582995658">
+                    <link role="conceptDeclaration" roleId="yvim.1177026940964:16" targetNodeId="tark.4635390255048097274:4" resolveInfo="XMLSAXHandlerFunction" />
+                  </node>
+                </node>
+                <node role="parameter" roleId="yvim.1144104376918:16" type="yvim.OperationParm_Inclusion" typeId="yvim.1144100932627:16" id="8666712036582995660" />
+              </node>
+            </node>
+            <node role="operation" roleId="yvor.1197027833540:3" type="yvim.Node_IsNotNullOperation" typeId="yvim.1172008320231:16" id="8666712036583027234" />
           </node>
         </node>
       </node>
