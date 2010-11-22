@@ -26,4 +26,9 @@ public class Point {
     x += shiftX;
     y += shiftY;
   }
+
+  @Override
+  public String toString() {
+    return "[" + x + ", " + y + "]";
+  }
 }

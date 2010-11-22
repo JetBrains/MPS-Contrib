@@ -549,115 +549,115 @@
     <unitInfo nodeId="903391227141129818" fileName="GraphLayout.java" startLine="20" startPosition="0" endLine="158" endPosition="0" unitName="jetbrains.mps.graphLayout.graphLayout.GraphLayout" />
   </root>
   <root nodeId="903391227141130350">
-    <nodeInfo nodeId="903391227141130374" conceptFqName="jetbrains.mps.baseLanguage.structure.LocalVariableDeclarationStatement" fileName="LayoutTransform.java" startLine="18" startPosition="79" endLine="19" endPosition="73" />
-    <nodeInfo nodeId="903391227141130429" conceptFqName="jetbrains.mps.baseLanguage.structure.LocalVariableDeclarationStatement" fileName="LayoutTransform.java" startLine="19" startPosition="73" endLine="20" endPosition="62" />
-    <nodeInfo nodeId="903391227141130415" conceptFqName="jetbrains.mps.baseLanguage.structure.LocalVariableDeclarationStatement" fileName="LayoutTransform.java" startLine="21" startPosition="86" endLine="22" endPosition="65" />
-    <nodeInfo nodeId="903391227141130441" conceptFqName="jetbrains.mps.baseLanguage.structure.LocalVariableDeclarationStatement" fileName="LayoutTransform.java" startLine="22" startPosition="65" endLine="23" endPosition="33" />
-    <nodeInfo nodeId="903391227141130456" conceptFqName="jetbrains.mps.baseLanguage.structure.LocalVariableDeclarationStatement" fileName="LayoutTransform.java" startLine="23" startPosition="33" endLine="24" endPosition="33" />
-    <nodeInfo nodeId="903391227141130467" conceptFqName="jetbrains.mps.baseLanguage.structure.ExpressionStatement" fileName="LayoutTransform.java" startLine="24" startPosition="33" endLine="25" endPosition="87" />
-    <nodeInfo nodeId="903391227141130513" conceptFqName="jetbrains.mps.baseLanguage.structure.LocalVariableDeclarationStatement" fileName="LayoutTransform.java" startLine="26" startPosition="5" endLine="27" endPosition="64" />
-    <nodeInfo nodeId="903391227141130536" conceptFqName="jetbrains.mps.baseLanguage.structure.LocalVariableDeclarationStatement" fileName="LayoutTransform.java" startLine="28" startPosition="86" endLine="29" endPosition="74" />
-    <nodeInfo nodeId="903391227141130558" conceptFqName="jetbrains.mps.baseLanguage.structure.ExpressionStatement" fileName="LayoutTransform.java" startLine="30" startPosition="88" endLine="31" endPosition="89" />
-    <nodeInfo nodeId="903391227141134498" conceptFqName="jetbrains.mps.baseLanguage.structure.ExpressionStatement" fileName="LayoutTransform.java" startLine="32" startPosition="7" endLine="33" endPosition="44" />
-    <nodeInfo nodeId="8680836410351642266" conceptFqName="jetbrains.mps.baseLanguage.structure.LocalVariableDeclarationStatement" fileName="LayoutTransform.java" startLine="34" startPosition="5" endLine="35" endPosition="64" />
-    <nodeInfo nodeId="8680836410351642297" conceptFqName="jetbrains.mps.baseLanguage.structure.LocalVariableDeclarationStatement" fileName="LayoutTransform.java" startLine="36" startPosition="87" endLine="37" endPosition="66" />
-    <nodeInfo nodeId="8680836410351642303" conceptFqName="jetbrains.mps.baseLanguage.structure.LocalVariableDeclarationStatement" fileName="LayoutTransform.java" startLine="37" startPosition="66" endLine="38" endPosition="33" />
-    <nodeInfo nodeId="8680836410351642311" conceptFqName="jetbrains.mps.baseLanguage.structure.LocalVariableDeclarationStatement" fileName="LayoutTransform.java" startLine="38" startPosition="33" endLine="39" endPosition="33" />
-    <nodeInfo nodeId="8680836410351642319" conceptFqName="jetbrains.mps.baseLanguage.structure.ExpressionStatement" fileName="LayoutTransform.java" startLine="39" startPosition="33" endLine="40" endPosition="89" />
-    <nodeInfo nodeId="903391227141130388" conceptFqName="jetbrains.mps.baseLanguage.structure.ReturnStatement" fileName="LayoutTransform.java" startLine="41" startPosition="5" endLine="42" endPosition="21" />
-    <nodeInfo nodeId="903391227141134533" conceptFqName="jetbrains.mps.baseLanguage.structure.LocalVariableDeclarationStatement" fileName="LayoutTransform.java" startLine="45" startPosition="85" endLine="46" endPosition="73" />
-    <nodeInfo nodeId="903391227141134541" conceptFqName="jetbrains.mps.baseLanguage.structure.LocalVariableDeclarationStatement" fileName="LayoutTransform.java" startLine="46" startPosition="73" endLine="47" endPosition="62" />
-    <nodeInfo nodeId="903391227141134555" conceptFqName="jetbrains.mps.baseLanguage.structure.LocalVariableDeclarationStatement" fileName="LayoutTransform.java" startLine="48" startPosition="86" endLine="49" endPosition="65" />
-    <nodeInfo nodeId="903391227141134667" conceptFqName="jetbrains.mps.baseLanguage.structure.LocalVariableDeclarationStatement" fileName="LayoutTransform.java" startLine="49" startPosition="65" endLine="50" endPosition="41" />
-    <nodeInfo nodeId="903391227141134691" conceptFqName="jetbrains.mps.baseLanguage.structure.LocalVariableDeclarationStatement" fileName="LayoutTransform.java" startLine="50" startPosition="41" endLine="51" endPosition="41" />
-    <nodeInfo nodeId="903391227141134705" conceptFqName="jetbrains.mps.baseLanguage.structure.LocalVariableDeclarationStatement" fileName="LayoutTransform.java" startLine="51" startPosition="41" endLine="52" endPosition="49" />
-    <nodeInfo nodeId="903391227141134716" conceptFqName="jetbrains.mps.baseLanguage.structure.LocalVariableDeclarationStatement" fileName="LayoutTransform.java" startLine="52" startPosition="49" endLine="53" endPosition="51" />
-    <nodeInfo nodeId="903391227141134577" conceptFqName="jetbrains.mps.baseLanguage.structure.ExpressionStatement" fileName="LayoutTransform.java" startLine="53" startPosition="51" endLine="54" endPosition="83" />
-    <nodeInfo nodeId="903391227141134592" conceptFqName="jetbrains.mps.baseLanguage.structure.LocalVariableDeclarationStatement" fileName="LayoutTransform.java" startLine="55" startPosition="5" endLine="56" endPosition="64" />
-    <nodeInfo nodeId="903391227141134607" conceptFqName="jetbrains.mps.baseLanguage.structure.LocalVariableDeclarationStatement" fileName="LayoutTransform.java" startLine="57" startPosition="86" endLine="58" endPosition="74" />
-    <nodeInfo nodeId="903391227141134620" conceptFqName="jetbrains.mps.baseLanguage.structure.ExpressionStatement" fileName="LayoutTransform.java" startLine="59" startPosition="88" endLine="60" endPosition="105" />
-    <nodeInfo nodeId="903391227141134636" conceptFqName="jetbrains.mps.baseLanguage.structure.ExpressionStatement" fileName="LayoutTransform.java" startLine="61" startPosition="7" endLine="62" endPosition="44" />
-    <nodeInfo nodeId="8680836410351642684" conceptFqName="jetbrains.mps.baseLanguage.structure.LocalVariableDeclarationStatement" fileName="LayoutTransform.java" startLine="63" startPosition="5" endLine="64" endPosition="64" />
-    <nodeInfo nodeId="8680836410351642698" conceptFqName="jetbrains.mps.baseLanguage.structure.LocalVariableDeclarationStatement" fileName="LayoutTransform.java" startLine="65" startPosition="87" endLine="66" endPosition="66" />
-    <nodeInfo nodeId="8680836410351642759" conceptFqName="jetbrains.mps.baseLanguage.structure.LocalVariableDeclarationStatement" fileName="LayoutTransform.java" startLine="66" startPosition="66" endLine="67" endPosition="41" />
-    <nodeInfo nodeId="8680836410351642770" conceptFqName="jetbrains.mps.baseLanguage.structure.LocalVariableDeclarationStatement" fileName="LayoutTransform.java" startLine="67" startPosition="41" endLine="68" endPosition="41" />
-    <nodeInfo nodeId="8680836410351642781" conceptFqName="jetbrains.mps.baseLanguage.structure.LocalVariableDeclarationStatement" fileName="LayoutTransform.java" startLine="68" startPosition="41" endLine="69" endPosition="49" />
-    <nodeInfo nodeId="8680836410351642792" conceptFqName="jetbrains.mps.baseLanguage.structure.LocalVariableDeclarationStatement" fileName="LayoutTransform.java" startLine="69" startPosition="49" endLine="70" endPosition="51" />
-    <nodeInfo nodeId="8680836410351642720" conceptFqName="jetbrains.mps.baseLanguage.structure.ExpressionStatement" fileName="LayoutTransform.java" startLine="70" startPosition="51" endLine="71" endPosition="85" />
-    <nodeInfo nodeId="903391227141134642" conceptFqName="jetbrains.mps.baseLanguage.structure.ReturnStatement" fileName="LayoutTransform.java" startLine="72" startPosition="5" endLine="73" endPosition="21" />
-    <nodeInfo nodeId="903391227141130549" conceptFqName="jetbrains.mps.baseLanguage.structure.ForeachStatement" fileName="LayoutTransform.java" startLine="29" startPosition="74" endLine="32" endPosition="7" />
-    <nodeInfo nodeId="903391227141134614" conceptFqName="jetbrains.mps.baseLanguage.structure.ForeachStatement" fileName="LayoutTransform.java" startLine="58" startPosition="74" endLine="61" endPosition="7" />
-    <nodeInfo nodeId="903391227141130392" conceptFqName="jetbrains.mps.baseLanguage.structure.ForeachStatement" fileName="LayoutTransform.java" startLine="20" startPosition="62" endLine="26" endPosition="5" />
-    <nodeInfo nodeId="8680836410351642281" conceptFqName="jetbrains.mps.baseLanguage.structure.ForeachStatement" fileName="LayoutTransform.java" startLine="35" startPosition="64" endLine="41" endPosition="5" />
-    <nodeInfo nodeId="903391227141130498" conceptFqName="jetbrains.mps.baseLanguage.structure.ForeachStatement" fileName="LayoutTransform.java" startLine="27" startPosition="64" endLine="34" endPosition="5" />
-    <nodeInfo nodeId="903391227141134601" conceptFqName="jetbrains.mps.baseLanguage.structure.ForeachStatement" fileName="LayoutTransform.java" startLine="56" startPosition="64" endLine="63" endPosition="5" />
-    <nodeInfo nodeId="903391227141134549" conceptFqName="jetbrains.mps.baseLanguage.structure.ForeachStatement" fileName="LayoutTransform.java" startLine="47" startPosition="62" endLine="55" endPosition="5" />
-    <nodeInfo nodeId="8680836410351642692" conceptFqName="jetbrains.mps.baseLanguage.structure.ForeachStatement" fileName="LayoutTransform.java" startLine="64" startPosition="64" endLine="72" endPosition="5" />
-    <nodeInfo nodeId="903391227141130356" conceptFqName="jetbrains.mps.baseLanguage.structure.StaticMethodDeclaration" fileName="LayoutTransform.java" startLine="17" startPosition="30" endLine="44" endPosition="0" />
-    <nodeInfo nodeId="903391227141134508" conceptFqName="jetbrains.mps.baseLanguage.structure.StaticMethodDeclaration" fileName="LayoutTransform.java" startLine="44" startPosition="0" endLine="75" endPosition="0" />
-    <scopeInfo nodeId="903391227141130552" fileName="LayoutTransform.java" startLine="30" startPosition="88" endLine="31" endPosition="89" />
-    <scopeInfo nodeId="903391227141134619" fileName="LayoutTransform.java" startLine="59" startPosition="88" endLine="60" endPosition="105" />
-    <scopeInfo nodeId="903391227141130549" fileName="LayoutTransform.java" startLine="29" startPosition="74" endLine="32" endPosition="7" />
-    <scopeInfo nodeId="903391227141134614" fileName="LayoutTransform.java" startLine="58" startPosition="74" endLine="61" endPosition="7" />
-    <scopeInfo nodeId="903391227141130395" fileName="LayoutTransform.java" startLine="21" startPosition="86" endLine="25" endPosition="87">
+    <nodeInfo nodeId="903391227141130374" conceptFqName="jetbrains.mps.baseLanguage.structure.LocalVariableDeclarationStatement" fileName="LayoutTransform.java" startLine="19" startPosition="79" endLine="20" endPosition="65" />
+    <nodeInfo nodeId="903391227141130429" conceptFqName="jetbrains.mps.baseLanguage.structure.LocalVariableDeclarationStatement" fileName="LayoutTransform.java" startLine="20" startPosition="65" endLine="21" endPosition="92" />
+    <nodeInfo nodeId="903391227141130415" conceptFqName="jetbrains.mps.baseLanguage.structure.LocalVariableDeclarationStatement" fileName="LayoutTransform.java" startLine="22" startPosition="86" endLine="23" endPosition="65" />
+    <nodeInfo nodeId="903391227141130441" conceptFqName="jetbrains.mps.baseLanguage.structure.LocalVariableDeclarationStatement" fileName="LayoutTransform.java" startLine="23" startPosition="65" endLine="24" endPosition="33" />
+    <nodeInfo nodeId="903391227141130456" conceptFqName="jetbrains.mps.baseLanguage.structure.LocalVariableDeclarationStatement" fileName="LayoutTransform.java" startLine="24" startPosition="33" endLine="25" endPosition="33" />
+    <nodeInfo nodeId="903391227141130467" conceptFqName="jetbrains.mps.baseLanguage.structure.ExpressionStatement" fileName="LayoutTransform.java" startLine="25" startPosition="33" endLine="26" endPosition="87" />
+    <nodeInfo nodeId="903391227141130513" conceptFqName="jetbrains.mps.baseLanguage.structure.LocalVariableDeclarationStatement" fileName="LayoutTransform.java" startLine="27" startPosition="5" endLine="28" endPosition="64" />
+    <nodeInfo nodeId="903391227141130536" conceptFqName="jetbrains.mps.baseLanguage.structure.LocalVariableDeclarationStatement" fileName="LayoutTransform.java" startLine="29" startPosition="86" endLine="30" endPosition="74" />
+    <nodeInfo nodeId="903391227141130558" conceptFqName="jetbrains.mps.baseLanguage.structure.ExpressionStatement" fileName="LayoutTransform.java" startLine="31" startPosition="88" endLine="32" endPosition="89" />
+    <nodeInfo nodeId="903391227141134498" conceptFqName="jetbrains.mps.baseLanguage.structure.ExpressionStatement" fileName="LayoutTransform.java" startLine="33" startPosition="7" endLine="34" endPosition="44" />
+    <nodeInfo nodeId="8680836410351642266" conceptFqName="jetbrains.mps.baseLanguage.structure.LocalVariableDeclarationStatement" fileName="LayoutTransform.java" startLine="35" startPosition="5" endLine="36" endPosition="64" />
+    <nodeInfo nodeId="8680836410351642297" conceptFqName="jetbrains.mps.baseLanguage.structure.LocalVariableDeclarationStatement" fileName="LayoutTransform.java" startLine="37" startPosition="87" endLine="38" endPosition="66" />
+    <nodeInfo nodeId="8680836410351642303" conceptFqName="jetbrains.mps.baseLanguage.structure.LocalVariableDeclarationStatement" fileName="LayoutTransform.java" startLine="38" startPosition="66" endLine="39" endPosition="33" />
+    <nodeInfo nodeId="8680836410351642311" conceptFqName="jetbrains.mps.baseLanguage.structure.LocalVariableDeclarationStatement" fileName="LayoutTransform.java" startLine="39" startPosition="33" endLine="40" endPosition="33" />
+    <nodeInfo nodeId="8680836410351642319" conceptFqName="jetbrains.mps.baseLanguage.structure.ExpressionStatement" fileName="LayoutTransform.java" startLine="40" startPosition="33" endLine="41" endPosition="89" />
+    <nodeInfo nodeId="903391227141130388" conceptFqName="jetbrains.mps.baseLanguage.structure.ReturnStatement" fileName="LayoutTransform.java" startLine="42" startPosition="5" endLine="43" endPosition="21" />
+    <nodeInfo nodeId="903391227141134533" conceptFqName="jetbrains.mps.baseLanguage.structure.LocalVariableDeclarationStatement" fileName="LayoutTransform.java" startLine="46" startPosition="85" endLine="47" endPosition="73" />
+    <nodeInfo nodeId="903391227141134541" conceptFqName="jetbrains.mps.baseLanguage.structure.LocalVariableDeclarationStatement" fileName="LayoutTransform.java" startLine="47" startPosition="73" endLine="48" endPosition="62" />
+    <nodeInfo nodeId="903391227141134555" conceptFqName="jetbrains.mps.baseLanguage.structure.LocalVariableDeclarationStatement" fileName="LayoutTransform.java" startLine="49" startPosition="86" endLine="50" endPosition="65" />
+    <nodeInfo nodeId="903391227141134667" conceptFqName="jetbrains.mps.baseLanguage.structure.LocalVariableDeclarationStatement" fileName="LayoutTransform.java" startLine="50" startPosition="65" endLine="51" endPosition="41" />
+    <nodeInfo nodeId="903391227141134691" conceptFqName="jetbrains.mps.baseLanguage.structure.LocalVariableDeclarationStatement" fileName="LayoutTransform.java" startLine="51" startPosition="41" endLine="52" endPosition="41" />
+    <nodeInfo nodeId="903391227141134705" conceptFqName="jetbrains.mps.baseLanguage.structure.LocalVariableDeclarationStatement" fileName="LayoutTransform.java" startLine="52" startPosition="41" endLine="53" endPosition="49" />
+    <nodeInfo nodeId="903391227141134716" conceptFqName="jetbrains.mps.baseLanguage.structure.LocalVariableDeclarationStatement" fileName="LayoutTransform.java" startLine="53" startPosition="49" endLine="54" endPosition="51" />
+    <nodeInfo nodeId="903391227141134577" conceptFqName="jetbrains.mps.baseLanguage.structure.ExpressionStatement" fileName="LayoutTransform.java" startLine="54" startPosition="51" endLine="55" endPosition="83" />
+    <nodeInfo nodeId="903391227141134592" conceptFqName="jetbrains.mps.baseLanguage.structure.LocalVariableDeclarationStatement" fileName="LayoutTransform.java" startLine="56" startPosition="5" endLine="57" endPosition="64" />
+    <nodeInfo nodeId="903391227141134607" conceptFqName="jetbrains.mps.baseLanguage.structure.LocalVariableDeclarationStatement" fileName="LayoutTransform.java" startLine="58" startPosition="86" endLine="59" endPosition="74" />
+    <nodeInfo nodeId="903391227141134620" conceptFqName="jetbrains.mps.baseLanguage.structure.ExpressionStatement" fileName="LayoutTransform.java" startLine="60" startPosition="88" endLine="61" endPosition="105" />
+    <nodeInfo nodeId="903391227141134636" conceptFqName="jetbrains.mps.baseLanguage.structure.ExpressionStatement" fileName="LayoutTransform.java" startLine="62" startPosition="7" endLine="63" endPosition="44" />
+    <nodeInfo nodeId="8680836410351642684" conceptFqName="jetbrains.mps.baseLanguage.structure.LocalVariableDeclarationStatement" fileName="LayoutTransform.java" startLine="64" startPosition="5" endLine="65" endPosition="64" />
+    <nodeInfo nodeId="8680836410351642698" conceptFqName="jetbrains.mps.baseLanguage.structure.LocalVariableDeclarationStatement" fileName="LayoutTransform.java" startLine="66" startPosition="87" endLine="67" endPosition="66" />
+    <nodeInfo nodeId="8680836410351642759" conceptFqName="jetbrains.mps.baseLanguage.structure.LocalVariableDeclarationStatement" fileName="LayoutTransform.java" startLine="67" startPosition="66" endLine="68" endPosition="41" />
+    <nodeInfo nodeId="8680836410351642770" conceptFqName="jetbrains.mps.baseLanguage.structure.LocalVariableDeclarationStatement" fileName="LayoutTransform.java" startLine="68" startPosition="41" endLine="69" endPosition="41" />
+    <nodeInfo nodeId="8680836410351642781" conceptFqName="jetbrains.mps.baseLanguage.structure.LocalVariableDeclarationStatement" fileName="LayoutTransform.java" startLine="69" startPosition="41" endLine="70" endPosition="49" />
+    <nodeInfo nodeId="8680836410351642792" conceptFqName="jetbrains.mps.baseLanguage.structure.LocalVariableDeclarationStatement" fileName="LayoutTransform.java" startLine="70" startPosition="49" endLine="71" endPosition="51" />
+    <nodeInfo nodeId="8680836410351642720" conceptFqName="jetbrains.mps.baseLanguage.structure.ExpressionStatement" fileName="LayoutTransform.java" startLine="71" startPosition="51" endLine="72" endPosition="85" />
+    <nodeInfo nodeId="903391227141134642" conceptFqName="jetbrains.mps.baseLanguage.structure.ReturnStatement" fileName="LayoutTransform.java" startLine="73" startPosition="5" endLine="74" endPosition="21" />
+    <nodeInfo nodeId="903391227141130549" conceptFqName="jetbrains.mps.baseLanguage.structure.ForeachStatement" fileName="LayoutTransform.java" startLine="30" startPosition="74" endLine="33" endPosition="7" />
+    <nodeInfo nodeId="903391227141134614" conceptFqName="jetbrains.mps.baseLanguage.structure.ForeachStatement" fileName="LayoutTransform.java" startLine="59" startPosition="74" endLine="62" endPosition="7" />
+    <nodeInfo nodeId="903391227141130392" conceptFqName="jetbrains.mps.baseLanguage.structure.ForeachStatement" fileName="LayoutTransform.java" startLine="21" startPosition="92" endLine="27" endPosition="5" />
+    <nodeInfo nodeId="8680836410351642281" conceptFqName="jetbrains.mps.baseLanguage.structure.ForeachStatement" fileName="LayoutTransform.java" startLine="36" startPosition="64" endLine="42" endPosition="5" />
+    <nodeInfo nodeId="903391227141130498" conceptFqName="jetbrains.mps.baseLanguage.structure.ForeachStatement" fileName="LayoutTransform.java" startLine="28" startPosition="64" endLine="35" endPosition="5" />
+    <nodeInfo nodeId="903391227141134601" conceptFqName="jetbrains.mps.baseLanguage.structure.ForeachStatement" fileName="LayoutTransform.java" startLine="57" startPosition="64" endLine="64" endPosition="5" />
+    <nodeInfo nodeId="903391227141134549" conceptFqName="jetbrains.mps.baseLanguage.structure.ForeachStatement" fileName="LayoutTransform.java" startLine="48" startPosition="62" endLine="56" endPosition="5" />
+    <nodeInfo nodeId="8680836410351642692" conceptFqName="jetbrains.mps.baseLanguage.structure.ForeachStatement" fileName="LayoutTransform.java" startLine="65" startPosition="64" endLine="73" endPosition="5" />
+    <nodeInfo nodeId="903391227141130356" conceptFqName="jetbrains.mps.baseLanguage.structure.StaticMethodDeclaration" fileName="LayoutTransform.java" startLine="18" startPosition="30" endLine="45" endPosition="0" />
+    <nodeInfo nodeId="903391227141134508" conceptFqName="jetbrains.mps.baseLanguage.structure.StaticMethodDeclaration" fileName="LayoutTransform.java" startLine="45" startPosition="0" endLine="76" endPosition="0" />
+    <scopeInfo nodeId="903391227141130552" fileName="LayoutTransform.java" startLine="31" startPosition="88" endLine="32" endPosition="89" />
+    <scopeInfo nodeId="903391227141134619" fileName="LayoutTransform.java" startLine="60" startPosition="88" endLine="61" endPosition="105" />
+    <scopeInfo nodeId="903391227141130549" fileName="LayoutTransform.java" startLine="30" startPosition="74" endLine="33" endPosition="7" />
+    <scopeInfo nodeId="903391227141134614" fileName="LayoutTransform.java" startLine="59" startPosition="74" endLine="62" endPosition="7" />
+    <scopeInfo nodeId="903391227141130395" fileName="LayoutTransform.java" startLine="22" startPosition="86" endLine="26" endPosition="87">
       <varInfo nodeId="903391227141130442" varName="newX" />
       <varInfo nodeId="903391227141130457" varName="newY" />
       <varInfo nodeId="903391227141130416" varName="rect" />
     </scopeInfo>
-    <scopeInfo nodeId="8680836410351642284" fileName="LayoutTransform.java" startLine="36" startPosition="87" endLine="40" endPosition="89">
+    <scopeInfo nodeId="8680836410351642284" fileName="LayoutTransform.java" startLine="37" startPosition="87" endLine="41" endPosition="89">
       <varInfo nodeId="8680836410351642304" varName="newX" />
       <varInfo nodeId="8680836410351642312" varName="newY" />
       <varInfo nodeId="8680836410351642298" varName="rect" />
     </scopeInfo>
-    <scopeInfo nodeId="903391227141130501" fileName="LayoutTransform.java" startLine="28" startPosition="86" endLine="33" endPosition="44">
+    <scopeInfo nodeId="903391227141130501" fileName="LayoutTransform.java" startLine="29" startPosition="86" endLine="34" endPosition="44">
       <varInfo nodeId="903391227141130537" varName="newList" />
     </scopeInfo>
-    <scopeInfo nodeId="903391227141134606" fileName="LayoutTransform.java" startLine="57" startPosition="86" endLine="62" endPosition="44">
+    <scopeInfo nodeId="903391227141134606" fileName="LayoutTransform.java" startLine="58" startPosition="86" endLine="63" endPosition="44">
       <varInfo nodeId="903391227141134608" varName="newList" />
     </scopeInfo>
-    <scopeInfo nodeId="903391227141130392" fileName="LayoutTransform.java" startLine="20" startPosition="62" endLine="26" endPosition="5" />
-    <scopeInfo nodeId="8680836410351642281" fileName="LayoutTransform.java" startLine="35" startPosition="64" endLine="41" endPosition="5" />
-    <scopeInfo nodeId="903391227141134554" fileName="LayoutTransform.java" startLine="48" startPosition="86" endLine="54" endPosition="83">
+    <scopeInfo nodeId="903391227141130392" fileName="LayoutTransform.java" startLine="21" startPosition="92" endLine="27" endPosition="5" />
+    <scopeInfo nodeId="8680836410351642281" fileName="LayoutTransform.java" startLine="36" startPosition="64" endLine="42" endPosition="5" />
+    <scopeInfo nodeId="903391227141134554" fileName="LayoutTransform.java" startLine="49" startPosition="86" endLine="55" endPosition="83">
       <varInfo nodeId="903391227141134717" varName="newHeight" />
       <varInfo nodeId="903391227141134706" varName="newWidth" />
       <varInfo nodeId="903391227141134668" varName="newX" />
       <varInfo nodeId="903391227141134692" varName="newY" />
       <varInfo nodeId="903391227141134556" varName="rect" />
     </scopeInfo>
-    <scopeInfo nodeId="8680836410351642697" fileName="LayoutTransform.java" startLine="65" startPosition="87" endLine="71" endPosition="85">
+    <scopeInfo nodeId="8680836410351642697" fileName="LayoutTransform.java" startLine="66" startPosition="87" endLine="72" endPosition="85">
       <varInfo nodeId="8680836410351642793" varName="newHeight" />
       <varInfo nodeId="8680836410351642782" varName="newWidth" />
       <varInfo nodeId="8680836410351642760" varName="newX" />
       <varInfo nodeId="8680836410351642771" varName="newY" />
       <varInfo nodeId="8680836410351642699" varName="rect" />
     </scopeInfo>
-    <scopeInfo nodeId="903391227141130498" fileName="LayoutTransform.java" startLine="27" startPosition="64" endLine="34" endPosition="5" />
-    <scopeInfo nodeId="903391227141134601" fileName="LayoutTransform.java" startLine="56" startPosition="64" endLine="63" endPosition="5" />
-    <scopeInfo nodeId="903391227141134549" fileName="LayoutTransform.java" startLine="47" startPosition="62" endLine="55" endPosition="5" />
-    <scopeInfo nodeId="8680836410351642692" fileName="LayoutTransform.java" startLine="64" startPosition="64" endLine="72" endPosition="5" />
-    <scopeInfo nodeId="903391227141130359" fileName="LayoutTransform.java" startLine="18" startPosition="79" endLine="42" endPosition="21">
+    <scopeInfo nodeId="903391227141130498" fileName="LayoutTransform.java" startLine="28" startPosition="64" endLine="35" endPosition="5" />
+    <scopeInfo nodeId="903391227141134601" fileName="LayoutTransform.java" startLine="57" startPosition="64" endLine="64" endPosition="5" />
+    <scopeInfo nodeId="903391227141134549" fileName="LayoutTransform.java" startLine="48" startPosition="62" endLine="56" endPosition="5" />
+    <scopeInfo nodeId="8680836410351642692" fileName="LayoutTransform.java" startLine="65" startPosition="64" endLine="73" endPosition="5" />
+    <scopeInfo nodeId="903391227141130359" fileName="LayoutTransform.java" startLine="19" startPosition="79" endLine="43" endPosition="21">
       <varInfo nodeId="903391227141130375" varName="newLayout" />
       <varInfo nodeId="903391227141130430" varName="nodeLayout" />
       <varInfo nodeId="8680836410351642267" varName="labelLayout" />
       <varInfo nodeId="903391227141130514" varName="edgeLayout" />
     </scopeInfo>
-    <scopeInfo nodeId="903391227141130356" fileName="LayoutTransform.java" startLine="17" startPosition="30" endLine="44" endPosition="0">
+    <scopeInfo nodeId="903391227141130356" fileName="LayoutTransform.java" startLine="18" startPosition="30" endLine="45" endPosition="0">
       <varInfo nodeId="903391227141130368" varName="yShift" />
       <varInfo nodeId="903391227141130365" varName="xShift" />
       <varInfo nodeId="903391227141130363" varName="layout" />
     </scopeInfo>
-    <scopeInfo nodeId="903391227141134511" fileName="LayoutTransform.java" startLine="45" startPosition="85" endLine="73" endPosition="21">
+    <scopeInfo nodeId="903391227141134511" fileName="LayoutTransform.java" startLine="46" startPosition="85" endLine="74" endPosition="21">
       <varInfo nodeId="903391227141134534" varName="newLayout" />
       <varInfo nodeId="903391227141134542" varName="nodeLayout" />
       <varInfo nodeId="8680836410351642685" varName="labelLayout" />
       <varInfo nodeId="903391227141134593" varName="edgeLayout" />
     </scopeInfo>
-    <scopeInfo nodeId="903391227141134508" fileName="LayoutTransform.java" startLine="44" startPosition="0" endLine="75" endPosition="0">
+    <scopeInfo nodeId="903391227141134508" fileName="LayoutTransform.java" startLine="45" startPosition="0" endLine="76" endPosition="0">
       <varInfo nodeId="903391227141134515" varName="xScale" />
       <varInfo nodeId="903391227141134513" varName="layout" />
       <varInfo nodeId="903391227141134520" varName="yScale" />
     </scopeInfo>
-    <unitInfo nodeId="903391227141130350" fileName="LayoutTransform.java" startLine="17" startPosition="0" endLine="76" endPosition="0" unitName="jetbrains.mps.graphLayout.graphLayout.LayoutTransform" />
+    <unitInfo nodeId="903391227141130350" fileName="LayoutTransform.java" startLine="18" startPosition="0" endLine="77" endPosition="0" unitName="jetbrains.mps.graphLayout.graphLayout.LayoutTransform" />
   </root>
 </debugInfo>
 

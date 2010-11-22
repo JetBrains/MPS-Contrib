@@ -13,7 +13,7 @@ import jetbrains.mps.internal.collections.runtime.MapSequence;
 import java.util.HashMap;
 import jetbrains.mps.internal.collections.runtime.ListSequence;
 import jetbrains.mps.graphLayout.graphLayout.GraphLayout;
-import jetbrains.mps.graphLayout.flowOrthogonalLayout.OrthogonalFlowLayouterConstraints;
+import jetbrains.mps.graphLayout.internal.flowOrthogonalLayout.OrthogonalFlowLayouterConstraints;
 import java.util.LinkedHashMap;
 
 public class OrthogonalFlowLayouterConstraints_Test extends TestCase {

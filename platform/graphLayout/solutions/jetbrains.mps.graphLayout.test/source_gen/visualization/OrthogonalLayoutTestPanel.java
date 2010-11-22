@@ -10,7 +10,7 @@ import jetbrains.mps.graphLayout.graphLayout.IGraphLayout;
 import javax.swing.JTextField;
 import java.awt.GridBagLayout;
 import jetbrains.mps.graphLayout.stOrthogonalLayout.RectOrthogonalLayouter;
-import jetbrains.mps.graphLayout.flowOrthogonalLayout.CurrentOrthogonalFlowLabelLayouter;
+import jetbrains.mps.graphLayout.flowOrthogonalLayout.OrthogonalFlowLayouter;
 import java.awt.GridBagConstraints;
 import javax.swing.BorderFactory;
 import javax.swing.JButton;
@@ -30,9 +30,9 @@ import java.util.HashMap;
 import jetbrains.mps.internal.collections.runtime.IWhereFilter;
 import jetbrains.mps.graphLayout.graphLayout.LayoutInfo;
 import jetbrains.mps.internal.collections.runtime.SetSequence;
-import jetbrains.mps.graphLayout.graphLayout.LayoutTransform;
-import jetbrains.mps.graphLayout.graphLayout.GraphLayout;
 import orthogonalLayoutTest.OrthogonalLayoutChecker;
+import jetbrains.mps.graphLayout.graphLayout.GraphLayout;
+import jetbrains.mps.graphLayout.graphLayout.LayoutTransform;
 import javax.swing.JScrollPane;
 import javax.swing.JFrame;
 import javax.swing.SwingUtilities;
@@ -44,8 +44,8 @@ import java.awt.Graphics;
 public class OrthogonalLayoutTestPanel extends JPanel {
   private static Dimension FRAME_DIMENSION = new Dimension(800, 600);
   private static final int DEFAULT_NODE_SIZE = 30;
-  private static final int DEFAULT_EDGE_X_SIZE = 70;
-  private static final int DEFAULT_EDGE_Y_SIZE = 35;
+  private static final int DEFAULT_LABEL_X_SIZE = 100;
+  private static final int DEFAULT_LABEL_Y_SIZE = 25;
 
   private JTextArea myTextArea;
   private OrthogonalLayoutTestPanel.MyGraphLabel myGraphLabel;
@@ -66,7 +66,8 @@ public class OrthogonalLayoutTestPanel extends JPanel {
     /*
       myLayouter = new RectOrthogonalLayouter();
     */
-    myLayouter = new CurrentOrthogonalFlowLabelLayouter();
+    myLayouter = new OrthogonalFlowLayouter();
+    myLayouter.setAvoidLabelCrossings(true);
     /*
       myLayouter.setEdgeDistance(20);
     */
@@ -183,7 +184,7 @@ public class OrthogonalLayoutTestPanel extends JPanel {
       if (myLayoutChoice.isSetLabels()) {
         for (Edge edge : ListSequence.fromList(g.getEdges())) {
           if (!(MapSequence.fromMap(edgeDimensions).containsKey(edge))) {
-            MapSequence.fromMap(edgeDimensions).put(edge, new jetbrains.mps.graphLayout.intGeom2D.Dimension(DEFAULT_EDGE_X_SIZE, DEFAULT_EDGE_Y_SIZE));
+            MapSequence.fromMap(edgeDimensions).put(edge, new jetbrains.mps.graphLayout.intGeom2D.Dimension(DEFAULT_LABEL_X_SIZE, DEFAULT_LABEL_Y_SIZE));
           }
         }
       }
@@ -195,10 +196,8 @@ public class OrthogonalLayoutTestPanel extends JPanel {
         layoutInfo.setLabelSize(edge, MapSequence.fromMap(edgeDimensions).get(edge));
       }
       myCurrentLayout = myLayouter.doLayout(layoutInfo);
+      OrthogonalLayoutChecker.checkLayout(((GraphLayout) myCurrentLayout));
       myCurrentLayout = LayoutTransform.shift(((GraphLayout) myCurrentLayout), 20, 20);
-      /*
-        OrthogonalLayoutChecker.checkLayout(myCurrentLayout);
-      */
     }
   }
 

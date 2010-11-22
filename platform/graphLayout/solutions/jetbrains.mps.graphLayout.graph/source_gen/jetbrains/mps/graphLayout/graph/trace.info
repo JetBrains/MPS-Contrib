@@ -121,6 +121,88 @@
     </scopeInfo>
     <unitInfo nodeId="4671312709908983848" fileName="Node.java" startLine="10" startPosition="0" endLine="87" endPosition="0" unitName="jetbrains.mps.graphLayout.graph.Node" />
   </root>
+  <root nodeId="6003893670991928460">
+    <nodeInfo nodeId="6003893670991928467" conceptFqName="jetbrains.mps.baseLanguage.structure.FieldDeclaration" fileName="ClusteredGraph.java" startLine="15" startPosition="70" endLine="16" endPosition="32" />
+    <nodeInfo nodeId="6003893670991929203" conceptFqName="jetbrains.mps.baseLanguage.structure.FieldDeclaration" fileName="ClusteredGraph.java" startLine="16" startPosition="32" endLine="17" endPosition="41" />
+    <nodeInfo nodeId="6003893670991928547" conceptFqName="jetbrains.mps.baseLanguage.structure.FieldDeclaration" fileName="ClusteredGraph.java" startLine="17" startPosition="41" endLine="18" endPosition="22" />
+    <nodeInfo nodeId="6003893670991928486" conceptFqName="jetbrains.mps.baseLanguage.structure.SuperConstructorInvocation" fileName="ClusteredGraph.java" startLine="20" startPosition="27" endLine="21" endPosition="12" />
+    <nodeInfo nodeId="6003893670991928474" conceptFqName="jetbrains.mps.baseLanguage.structure.ExpressionStatement" fileName="ClusteredGraph.java" startLine="21" startPosition="12" endLine="22" endPosition="34" />
+    <nodeInfo nodeId="6003893670991929260" conceptFqName="jetbrains.mps.baseLanguage.structure.ExpressionStatement" fileName="ClusteredGraph.java" startLine="22" startPosition="34" endLine="23" endPosition="68" />
+    <nodeInfo nodeId="6003893670991928552" conceptFqName="jetbrains.mps.baseLanguage.structure.ExpressionStatement" fileName="ClusteredGraph.java" startLine="23" startPosition="68" endLine="24" endPosition="42" />
+    <nodeInfo nodeId="6003893670991929393" conceptFqName="jetbrains.mps.baseLanguage.structure.LocalVariableDeclarationStatement" fileName="ClusteredGraph.java" startLine="27" startPosition="58" endLine="28" endPosition="63" />
+    <nodeInfo nodeId="6003893670991929403" conceptFqName="jetbrains.mps.baseLanguage.structure.ExpressionStatement" fileName="ClusteredGraph.java" startLine="28" startPosition="63" endLine="29" endPosition="47" />
+    <nodeInfo nodeId="6003893670991929412" conceptFqName="jetbrains.mps.baseLanguage.structure.ReturnStatement" fileName="ClusteredGraph.java" startLine="29" startPosition="47" endLine="30" endPosition="17" />
+    <nodeInfo nodeId="6003893670991929421" conceptFqName="jetbrains.mps.baseLanguage.structure.LocalVariableDeclarationStatement" fileName="ClusteredGraph.java" startLine="34" startPosition="25" endLine="35" endPosition="32" />
+    <nodeInfo nodeId="6003893670991929437" conceptFqName="jetbrains.mps.baseLanguage.structure.LocalVariableDeclarationStatement" fileName="ClusteredGraph.java" startLine="35" startPosition="32" endLine="36" endPosition="45" />
+    <nodeInfo nodeId="6003893670991929444" conceptFqName="jetbrains.mps.baseLanguage.structure.ExpressionStatement" fileName="ClusteredGraph.java" startLine="36" startPosition="45" endLine="37" endPosition="30" />
+    <nodeInfo nodeId="6003893670991929453" conceptFqName="jetbrains.mps.baseLanguage.structure.ExpressionStatement" fileName="ClusteredGraph.java" startLine="37" startPosition="30" endLine="38" endPosition="59" />
+    <nodeInfo nodeId="6003893670991929426" conceptFqName="jetbrains.mps.baseLanguage.structure.ReturnStatement" fileName="ClusteredGraph.java" startLine="38" startPosition="59" endLine="39" endPosition="16" />
+    <nodeInfo nodeId="6003893670991929352" conceptFqName="jetbrains.mps.baseLanguage.structure.ReturnStatement" fileName="ClusteredGraph.java" startLine="44" startPosition="35" endLine="45" endPosition="30" />
+    <nodeInfo nodeId="6003893670991929330" conceptFqName="jetbrains.mps.baseLanguage.structure.ExpressionStatement" fileName="ClusteredGraph.java" startLine="48" startPosition="64" endLine="49" endPosition="43" />
+    <nodeInfo nodeId="6003893670991929364" conceptFqName="jetbrains.mps.baseLanguage.structure.LocalVariableDeclarationStatement" fileName="ClusteredGraph.java" startLine="50" startPosition="5" endLine="51" endPosition="65" />
+    <nodeInfo nodeId="6003893670991929384" conceptFqName="jetbrains.mps.baseLanguage.structure.ExpressionStatement" fileName="ClusteredGraph.java" startLine="52" startPosition="23" endLine="53" endPosition="50" />
+    <nodeInfo nodeId="6003893670991929186" conceptFqName="jetbrains.mps.baseLanguage.structure.ReturnStatement" fileName="ClusteredGraph.java" startLine="57" startPosition="26" endLine="58" endPosition="18" />
+    <nodeInfo nodeId="6003893670991929189" conceptFqName="jetbrains.mps.baseLanguage.structure.ReturnStatement" fileName="ClusteredGraph.java" startLine="61" startPosition="38" endLine="62" endPosition="16" />
+    <nodeInfo nodeId="6003893670991929192" conceptFqName="jetbrains.mps.baseLanguage.structure.ReturnStatement" fileName="ClusteredGraph.java" startLine="65" startPosition="36" endLine="66" endPosition="27" />
+    <nodeInfo nodeId="6003893670991929286" conceptFqName="jetbrains.mps.baseLanguage.structure.ForeachStatement" fileName="ClusteredGraph.java" startLine="47" startPosition="7" endLine="50" endPosition="5" />
+    <nodeInfo nodeId="6003893670991929375" conceptFqName="jetbrains.mps.baseLanguage.structure.IfStatement" fileName="ClusteredGraph.java" startLine="51" startPosition="65" endLine="54" endPosition="5" />
+    <nodeInfo nodeId="6003893670991929350" conceptFqName="jetbrains.mps.baseLanguage.structure.InstanceMethodDeclaration" fileName="ClusteredGraph.java" startLine="43" startPosition="114" endLine="47" endPosition="0" />
+    <nodeInfo nodeId="6003893670991928529" conceptFqName="jetbrains.mps.baseLanguage.structure.InstanceMethodDeclaration" fileName="ClusteredGraph.java" startLine="56" startPosition="0" endLine="60" endPosition="0" />
+    <nodeInfo nodeId="6003893670991928533" conceptFqName="jetbrains.mps.baseLanguage.structure.InstanceMethodDeclaration" fileName="ClusteredGraph.java" startLine="60" startPosition="0" endLine="64" endPosition="0" />
+    <nodeInfo nodeId="6003893670991928537" conceptFqName="jetbrains.mps.baseLanguage.structure.InstanceMethodDeclaration" fileName="ClusteredGraph.java" startLine="64" startPosition="0" endLine="68" endPosition="0" />
+    <nodeInfo nodeId="6003893670991929312" conceptFqName="jetbrains.mps.baseLanguage.structure.LocalVariableDeclarationStatement" fileName="ClusteredGraph.java" startLine="42" startPosition="65" endLine="47" endPosition="7" />
+    <nodeInfo nodeId="6003893670991928462" conceptFqName="jetbrains.mps.baseLanguage.structure.ConstructorDeclaration" fileName="ClusteredGraph.java" startLine="19" startPosition="0" endLine="25" endPosition="3" />
+    <nodeInfo nodeId="6003893670991928522" conceptFqName="jetbrains.mps.baseLanguage.structure.InstanceMethodDeclaration" fileName="ClusteredGraph.java" startLine="26" startPosition="0" endLine="32" endPosition="0" />
+    <nodeInfo nodeId="6003893670991929414" conceptFqName="jetbrains.mps.baseLanguage.structure.InstanceMethodDeclaration" fileName="ClusteredGraph.java" startLine="32" startPosition="0" endLine="41" endPosition="0" />
+    <nodeInfo nodeId="6003893670991929270" conceptFqName="jetbrains.mps.baseLanguage.structure.InstanceMethodDeclaration" fileName="ClusteredGraph.java" startLine="41" startPosition="0" endLine="56" endPosition="0" />
+    <scopeInfo nodeId="6003893670991929351" fileName="ClusteredGraph.java" startLine="44" startPosition="35" endLine="45" endPosition="30" />
+    <scopeInfo nodeId="6003893670991929289" fileName="ClusteredGraph.java" startLine="48" startPosition="64" endLine="49" endPosition="43" />
+    <scopeInfo nodeId="6003893670991929376" fileName="ClusteredGraph.java" startLine="52" startPosition="23" endLine="53" endPosition="50" />
+    <scopeInfo nodeId="6003893670991928532" fileName="ClusteredGraph.java" startLine="57" startPosition="26" endLine="58" endPosition="18" />
+    <scopeInfo nodeId="6003893670991928536" fileName="ClusteredGraph.java" startLine="61" startPosition="38" endLine="62" endPosition="16" />
+    <scopeInfo nodeId="6003893670991928540" fileName="ClusteredGraph.java" startLine="65" startPosition="36" endLine="66" endPosition="27" />
+    <scopeInfo nodeId="6003893670991928528" fileName="ClusteredGraph.java" startLine="27" startPosition="58" endLine="30" endPosition="17">
+      <varInfo nodeId="6003893670991929394" varName="nodes" />
+    </scopeInfo>
+    <scopeInfo nodeId="6003893670991929286" fileName="ClusteredGraph.java" startLine="47" startPosition="7" endLine="50" endPosition="5" />
+    <scopeInfo nodeId="6003893670991928465" fileName="ClusteredGraph.java" startLine="20" startPosition="27" endLine="24" endPosition="42" />
+    <scopeInfo nodeId="6003893670991929350" fileName="ClusteredGraph.java" startLine="43" startPosition="114" endLine="47" endPosition="0" />
+    <scopeInfo nodeId="6003893670991928529" fileName="ClusteredGraph.java" startLine="56" startPosition="0" endLine="60" endPosition="0" />
+    <scopeInfo nodeId="6003893670991928533" fileName="ClusteredGraph.java" startLine="60" startPosition="0" endLine="64" endPosition="0" />
+    <scopeInfo nodeId="6003893670991928537" fileName="ClusteredGraph.java" startLine="64" startPosition="0" endLine="68" endPosition="0" />
+    <scopeInfo nodeId="6003893670991929417" fileName="ClusteredGraph.java" startLine="34" startPosition="25" endLine="39" endPosition="16">
+      <varInfo nodeId="6003893670991929422" varName="node" />
+      <varInfo nodeId="6003893670991929438" varName="cluster" />
+    </scopeInfo>
+    <scopeInfo nodeId="6003893670991928462" fileName="ClusteredGraph.java" startLine="19" startPosition="0" endLine="25" endPosition="3" />
+    <scopeInfo nodeId="6003893670991928522" fileName="ClusteredGraph.java" startLine="26" startPosition="0" endLine="32" endPosition="0">
+      <varInfo nodeId="6003893670991928526" varName="cluster" />
+    </scopeInfo>
+    <scopeInfo nodeId="6003893670991929414" fileName="ClusteredGraph.java" startLine="32" startPosition="0" endLine="41" endPosition="0" />
+    <scopeInfo nodeId="6003893670991929273" fileName="ClusteredGraph.java" startLine="42" startPosition="65" endLine="54" endPosition="5">
+      <varInfo nodeId="6003893670991929365" varName="node" />
+      <varInfo nodeId="6003893670991929313" varName="subclusters" />
+    </scopeInfo>
+    <scopeInfo nodeId="6003893670991929270" fileName="ClusteredGraph.java" startLine="41" startPosition="0" endLine="56" endPosition="0">
+      <varInfo nodeId="6003893670991929280" varName="nodes" />
+      <varInfo nodeId="6003893670991929278" varName="cluster" />
+    </scopeInfo>
+    <unitInfo nodeId="6003893670991929350" fileName="ClusteredGraph.java" startLine="43" startPosition="89" endLine="47" endPosition="5" unitName="jetbrains.mps.graphLayout.graph.ClusteredGraph$1" />
+    <unitInfo nodeId="6003893670991928460" fileName="ClusteredGraph.java" startLine="15" startPosition="0" endLine="69" endPosition="0" unitName="jetbrains.mps.graphLayout.graph.ClusteredGraph" />
+  </root>
+  <root nodeId="6003893670991928487">
+    <nodeInfo nodeId="6003893670991928494" conceptFqName="jetbrains.mps.baseLanguage.structure.InstanceMethodDeclaration" fileName="IClusteredGraph.java" startLine="6" startPosition="49" endLine="7" endPosition="35" />
+    <nodeInfo nodeId="6003893670991928499" conceptFqName="jetbrains.mps.baseLanguage.structure.InstanceMethodDeclaration" fileName="IClusteredGraph.java" startLine="7" startPosition="35" endLine="8" endPosition="37" />
+    <nodeInfo nodeId="6003893670991928504" conceptFqName="jetbrains.mps.baseLanguage.structure.InstanceMethodDeclaration" fileName="IClusteredGraph.java" startLine="8" startPosition="37" endLine="9" endPosition="25" />
+    <nodeInfo nodeId="6003893670991928512" conceptFqName="jetbrains.mps.baseLanguage.structure.InstanceMethodDeclaration" fileName="IClusteredGraph.java" startLine="9" startPosition="25" endLine="10" endPosition="68" />
+    <scopeInfo nodeId="6003893670991928494" fileName="IClusteredGraph.java" startLine="6" startPosition="49" endLine="7" endPosition="35" />
+    <scopeInfo nodeId="6003893670991928499" fileName="IClusteredGraph.java" startLine="7" startPosition="35" endLine="8" endPosition="37" />
+    <scopeInfo nodeId="6003893670991928504" fileName="IClusteredGraph.java" startLine="8" startPosition="37" endLine="9" endPosition="25" />
+    <scopeInfo nodeId="6003893670991928512" fileName="IClusteredGraph.java" startLine="9" startPosition="25" endLine="10" endPosition="68">
+      <varInfo nodeId="6003893670991928519" varName="cluster" />
+    </scopeInfo>
+    <unitInfo nodeId="6003893670991928487" fileName="IClusteredGraph.java" startLine="6" startPosition="0" endLine="12" endPosition="0" unitName="jetbrains.mps.graphLayout.graph.IClusteredGraph" />
+  </root>
   <root nodeId="8567569493821103292">
     <nodeInfo nodeId="8567569493821107717" conceptFqName="jetbrains.mps.baseLanguage.structure.FieldDeclaration" fileName="Edge.java" startLine="9" startPosition="36" endLine="10" endPosition="24" />
     <nodeInfo nodeId="8567569493821107721" conceptFqName="jetbrains.mps.baseLanguage.structure.FieldDeclaration" fileName="Edge.java" startLine="10" startPosition="24" endLine="11" endPosition="24" />
@@ -216,8 +298,8 @@
     <nodeInfo nodeId="8567569493821110919" conceptFqName="jetbrains.mps.baseLanguage.structure.ReturnStatement" fileName="Graph.java" startLine="19" startPosition="32" endLine="20" endPosition="19" />
     <nodeInfo nodeId="2913448412765225114" conceptFqName="jetbrains.mps.baseLanguage.structure.ReturnStatement" fileName="Graph.java" startLine="23" startPosition="44" endLine="24" endPosition="56" />
     <nodeInfo nodeId="2913448412765225121" conceptFqName="jetbrains.mps.baseLanguage.structure.ReturnStatement" fileName="Graph.java" startLine="27" startPosition="44" endLine="28" endPosition="56" />
-    <nodeInfo nodeId="2913448412765225112" conceptFqName="jetbrains.mps.baseLanguage.structure.ReturnStatement" fileName="Graph.java" startLine="31" startPosition="29" endLine="32" endPosition="21" />
-    <nodeInfo nodeId="2913448412765225138" conceptFqName="jetbrains.mps.baseLanguage.structure.LocalVariableDeclarationStatement" fileName="Graph.java" startLine="35" startPosition="52" endLine="36" endPosition="36" />
+    <nodeInfo nodeId="2913448412765225112" conceptFqName="jetbrains.mps.baseLanguage.structure.ReturnStatement" fileName="Graph.java" startLine="31" startPosition="28" endLine="32" endPosition="21" />
+    <nodeInfo nodeId="2913448412765225138" conceptFqName="jetbrains.mps.baseLanguage.structure.LocalVariableDeclarationStatement" fileName="Graph.java" startLine="35" startPosition="51" endLine="36" endPosition="36" />
     <nodeInfo nodeId="2913448412765225150" conceptFqName="jetbrains.mps.baseLanguage.structure.LocalVariableDeclarationStatement" fileName="Graph.java" startLine="36" startPosition="36" endLine="37" endPosition="36" />
     <nodeInfo nodeId="2913448412765225159" conceptFqName="jetbrains.mps.baseLanguage.structure.ReturnStatement" fileName="Graph.java" startLine="37" startPosition="36" endLine="38" endPosition="44" />
     <nodeInfo nodeId="1654665216152485912" conceptFqName="jetbrains.mps.baseLanguage.structure.LocalVariableDeclarationStatement" fileName="Graph.java" startLine="41" startPosition="32" endLine="42" endPosition="71" />
@@ -265,7 +347,7 @@
     <scopeInfo nodeId="8567569493821107959" fileName="Graph.java" startLine="19" startPosition="32" endLine="20" endPosition="19" />
     <scopeInfo nodeId="2913448412765225109" fileName="Graph.java" startLine="23" startPosition="44" endLine="24" endPosition="56" />
     <scopeInfo nodeId="2913448412765225104" fileName="Graph.java" startLine="27" startPosition="44" endLine="28" endPosition="56" />
-    <scopeInfo nodeId="2913448412765225099" fileName="Graph.java" startLine="31" startPosition="29" endLine="32" endPosition="21" />
+    <scopeInfo nodeId="2913448412765225099" fileName="Graph.java" startLine="31" startPosition="28" endLine="32" endPosition="21" />
     <scopeInfo nodeId="1654665216152488881" fileName="Graph.java" startLine="43" startPosition="57" endLine="44" endPosition="93" />
     <scopeInfo nodeId="8567569493821112504" fileName="Graph.java" startLine="49" startPosition="34" endLine="50" endPosition="60" />
     <scopeInfo nodeId="8567569493821112217" fileName="Graph.java" startLine="53" startPosition="28" endLine="54" endPosition="50" />
@@ -277,7 +359,7 @@
     <scopeInfo nodeId="4519409331094617281" fileName="Graph.java" startLine="87" startPosition="67" endLine="88" endPosition="35" />
     <scopeInfo nodeId="4519409331094617304" fileName="Graph.java" startLine="92" startPosition="66" endLine="93" endPosition="35" />
     <scopeInfo nodeId="8567569493821103303" fileName="Graph.java" startLine="14" startPosition="18" endLine="16" endPosition="18" />
-    <scopeInfo nodeId="2913448412765225095" fileName="Graph.java" startLine="35" startPosition="52" endLine="38" endPosition="44">
+    <scopeInfo nodeId="2913448412765225095" fileName="Graph.java" startLine="35" startPosition="51" endLine="38" endPosition="44">
       <varInfo nodeId="2913448412765225151" varName="targetNode" />
       <varInfo nodeId="2913448412765225139" varName="sourceNode" />
     </scopeInfo>

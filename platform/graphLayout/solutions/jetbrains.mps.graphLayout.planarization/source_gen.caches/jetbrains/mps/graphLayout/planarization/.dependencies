@@ -44,23 +44,6 @@
     <classNode dependClassName="jetbrains.mps.graphLayout.graph.Graph" />
     <classNode dependClassName="jetbrains.mps.graphLayout.planarGraph.EmbeddedGraph" />
   </dependency>
-  <dependency className="jetbrains.mps.graphLayout.planarization.MultigraphEmbeddingFinder" file="MultigraphEmbeddingFinder.java">
-    <classNode dependClassName="java.util.ArrayList" />
-    <classNode dependClassName="java.util.HashMap" />
-    <classNode dependClassName="java.util.HashSet" />
-    <classNode dependClassName="java.util.Map" />
-    <classNode dependClassName="java.util.Set" />
-    <classNode dependClassName="jetbrains.mps.graphLayout.graph.Edge" />
-    <classNode dependClassName="jetbrains.mps.graphLayout.graph.Graph" />
-    <classNode dependClassName="jetbrains.mps.graphLayout.graph.Node" />
-    <classNode dependClassName="jetbrains.mps.graphLayout.planarGraph.EmbeddedGraph" />
-    <classNode dependClassName="jetbrains.mps.graphLayout.planarGraph.Face" />
-    <classNode dependClassName="jetbrains.mps.internal.collections.runtime.IWhereFilter" />
-    <classNode dependClassName="jetbrains.mps.internal.collections.runtime.ListSequence" />
-    <classNode dependClassName="jetbrains.mps.internal.collections.runtime.MapSequence" />
-    <classNode dependClassName="jetbrains.mps.internal.collections.runtime.SetSequence" />
-    <classNode extendsClassName="jetbrains.mps.graphLayout.planarization.IEmbeddingFinder" />
-  </dependency>
   <dependency className="jetbrains.mps.graphLayout.planarization.NodeWithEdgeOrder" file="NodeWithEdgeOrder.java">
     <classNode dependClassName="java.lang.Override" />
     <classNode dependClassName="java.lang.String" />
@@ -160,14 +143,6 @@
     <classNode dependClassName="jetbrains.mps.graphLayout.planarization.PQNode" />
     <classNode dependClassName="jetbrains.mps.graphLayout.planarization.QNode" />
     <classNode dependClassName="jetbrains.mps.internal.collections.runtime.ListSequence" />
-  </dependency>
-  <dependency className="jetbrains.mps.graphLayout.planarization.PlanarizationEmbeddingFinder" file="PlanarizationEmbeddingFinder.java">
-    <classNode dependClassName="jetbrains.mps.graphLayout.algorithms.GraphOrientation" />
-    <classNode dependClassName="jetbrains.mps.graphLayout.graph.Graph" />
-    <classNode dependClassName="jetbrains.mps.graphLayout.planarGraph.EmbeddedGraph" />
-    <classNode dependClassName="jetbrains.mps.graphLayout.planarization.PQPlanarityTest" />
-    <classNode dependClassName="jetbrains.mps.internal.collections.runtime.ListSequence" />
-    <classNode extendsClassName="jetbrains.mps.graphLayout.planarization.IEmbeddingFinder" />
   </dependency>
   <dependency className="jetbrains.mps.graphLayout.planarization.QNode" file="QNode.java">
     <classNode dependClassName="java.lang.Override" />

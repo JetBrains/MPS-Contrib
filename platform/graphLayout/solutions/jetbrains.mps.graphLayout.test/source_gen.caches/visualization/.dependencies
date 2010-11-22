@@ -57,7 +57,7 @@
     <classNode dependClassName="javax.swing.JTextField" />
     <classNode dependClassName="javax.swing.SwingUtilities" />
     <classNode dependClassName="jetbrains.mps.graphLayout.flowOrthogonalLayout.AbstractOrthogonalFlowLayouter" />
-    <classNode dependClassName="jetbrains.mps.graphLayout.flowOrthogonalLayout.CurrentOrthogonalFlowLabelLayouter" />
+    <classNode dependClassName="jetbrains.mps.graphLayout.flowOrthogonalLayout.OrthogonalFlowLayouter" />
     <classNode dependClassName="jetbrains.mps.graphLayout.graph.Edge" />
     <classNode dependClassName="jetbrains.mps.graphLayout.graph.Graph" />
     <classNode dependClassName="jetbrains.mps.graphLayout.graph.Node" />
@@ -147,14 +147,14 @@
     <classNode dependClassName="javax.swing.JTextArea" />
     <classNode dependClassName="javax.swing.JTextField" />
     <classNode dependClassName="javax.swing.SwingUtilities" />
-    <classNode dependClassName="jetbrains.mps.graphLayout.flowOrthogonalLayout.FlowLayoutWithNodeProcessing" />
-    <classNode dependClassName="jetbrains.mps.graphLayout.flowOrthogonalLayout.OrthogonalPointFlowLayouter" />
     <classNode dependClassName="jetbrains.mps.graphLayout.graph.Edge" />
     <classNode dependClassName="jetbrains.mps.graphLayout.graph.Graph" />
     <classNode dependClassName="jetbrains.mps.graphLayout.graph.Node" />
     <classNode dependClassName="jetbrains.mps.graphLayout.graphLayout.GraphPointLayout" />
     <classNode dependClassName="jetbrains.mps.graphLayout.graphLayout.IPointLayouter" />
     <classNode dependClassName="jetbrains.mps.graphLayout.intGeom2D.Point" />
+    <classNode dependClassName="jetbrains.mps.graphLayout.internal.flowOrthogonalLayout.FlowLayoutWithNodeProcessing" />
+    <classNode dependClassName="jetbrains.mps.graphLayout.internal.flowOrthogonalLayout.OrthogonalPointFlowLayouter" />
     <classNode dependClassName="jetbrains.mps.graphLayout.layeredLayout.BKCoordinatePlacer" />
     <classNode dependClassName="jetbrains.mps.graphLayout.layeredLayout.DFSEdgeReverter" />
     <classNode dependClassName="jetbrains.mps.graphLayout.layeredLayout.LayeredLayouter" />

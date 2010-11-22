@@ -1498,174 +1498,193 @@
     <nodeInfo nodeId="4644851485137274535" conceptFqName="jetbrains.mps.baseLanguage.structure.FieldDeclaration" fileName="PQPlanarizationFinder.java" startLine="25" startPosition="24" endLine="26" endPosition="41" />
     <nodeInfo nodeId="5488345258545679107" conceptFqName="jetbrains.mps.baseLanguage.structure.LocalVariableDeclarationStatement" fileName="PQPlanarizationFinder.java" startLine="31" startPosition="42" endLine="32" endPosition="80" />
     <nodeInfo nodeId="5488345258545679137" conceptFqName="jetbrains.mps.baseLanguage.structure.ThrowStatement" fileName="PQPlanarizationFinder.java" startLine="34" startPosition="59" endLine="35" endPosition="63" />
-    <nodeInfo nodeId="4644851485137274549" conceptFqName="jetbrains.mps.baseLanguage.structure.ExpressionStatement" fileName="PQPlanarizationFinder.java" startLine="37" startPosition="5" endLine="38" endPosition="20" />
-    <nodeInfo nodeId="4644851485137274543" conceptFqName="jetbrains.mps.baseLanguage.structure.ExpressionStatement" fileName="PQPlanarizationFinder.java" startLine="38" startPosition="20" endLine="39" endPosition="51" />
-    <nodeInfo nodeId="4644851485137260374" conceptFqName="jetbrains.mps.baseLanguage.structure.LocalVariableDeclarationStatement" fileName="PQPlanarizationFinder.java" startLine="39" startPosition="51" endLine="40" endPosition="60" />
-    <nodeInfo nodeId="4644851485137260321" conceptFqName="jetbrains.mps.baseLanguage.structure.LocalVariableDeclarationStatement" fileName="PQPlanarizationFinder.java" startLine="40" startPosition="60" endLine="41" endPosition="83" />
-    <nodeInfo nodeId="6191740939834478472" conceptFqName="jetbrains.mps.baseLanguage.structure.ExpressionStatement" fileName="PQPlanarizationFinder.java" startLine="42" startPosition="23" endLine="43" endPosition="43" />
-    <nodeInfo nodeId="6191740939834475438" conceptFqName="jetbrains.mps.baseLanguage.structure.ExpressionStatement" fileName="PQPlanarizationFinder.java" startLine="43" startPosition="43" endLine="44" endPosition="34" />
-    <nodeInfo nodeId="4644851485137260372" conceptFqName="jetbrains.mps.baseLanguage.structure.ReturnStatement" fileName="PQPlanarizationFinder.java" startLine="46" startPosition="52" endLine="47" endPosition="62" />
-    <nodeInfo nodeId="4644851485137262086" conceptFqName="jetbrains.mps.baseLanguage.structure.ExpressionStatement" fileName="PQPlanarizationFinder.java" startLine="49" startPosition="54" endLine="50" endPosition="31" />
-    <nodeInfo nodeId="4644851485137262070" conceptFqName="jetbrains.mps.baseLanguage.structure.LocalVariableDeclarationStatement" fileName="PQPlanarizationFinder.java" startLine="51" startPosition="7" endLine="52" endPosition="73" />
-    <nodeInfo nodeId="6191740939834475466" conceptFqName="jetbrains.mps.baseLanguage.structure.ExpressionStatement" fileName="PQPlanarizationFinder.java" startLine="53" startPosition="25" endLine="54" endPosition="46" />
-    <nodeInfo nodeId="4644851485137262112" conceptFqName="jetbrains.mps.baseLanguage.structure.LocalVariableDeclarationStatement" fileName="PQPlanarizationFinder.java" startLine="55" startPosition="7" endLine="56" endPosition="58" />
-    <nodeInfo nodeId="4644851485137262125" conceptFqName="jetbrains.mps.baseLanguage.structure.ExpressionStatement" fileName="PQPlanarizationFinder.java" startLine="57" startPosition="54" endLine="58" endPosition="26" />
-    <nodeInfo nodeId="4644851485137262133" conceptFqName="jetbrains.mps.baseLanguage.structure.ReturnStatement" fileName="PQPlanarizationFinder.java" startLine="59" startPosition="7" endLine="60" endPosition="27" />
-    <nodeInfo nodeId="4644851485137262150" conceptFqName="jetbrains.mps.baseLanguage.structure.LocalVariableDeclarationStatement" fileName="PQPlanarizationFinder.java" startLine="64" startPosition="73" endLine="65" endPosition="39" />
-    <nodeInfo nodeId="4644851485137262206" conceptFqName="jetbrains.mps.baseLanguage.structure.LocalVariableDeclarationStatement" fileName="PQPlanarizationFinder.java" startLine="65" startPosition="39" endLine="66" endPosition="43" />
-    <nodeInfo nodeId="4644851485137283325" conceptFqName="jetbrains.mps.baseLanguage.structure.LocalVariableDeclarationStatement" fileName="PQPlanarizationFinder.java" startLine="66" startPosition="43" endLine="67" endPosition="62" />
-    <nodeInfo nodeId="4644851485137283386" conceptFqName="jetbrains.mps.baseLanguage.structure.LocalVariableDeclarationStatement" fileName="PQPlanarizationFinder.java" startLine="67" startPosition="62" endLine="68" endPosition="71" />
-    <nodeInfo nodeId="4644851485137283329" conceptFqName="jetbrains.mps.baseLanguage.structure.LocalVariableDeclarationStatement" fileName="PQPlanarizationFinder.java" startLine="69" startPosition="28" endLine="70" endPosition="79" />
-    <nodeInfo nodeId="4644851485137283338" conceptFqName="jetbrains.mps.baseLanguage.structure.LocalVariableDeclarationStatement" fileName="PQPlanarizationFinder.java" startLine="70" startPosition="79" endLine="71" endPosition="87" />
-    <nodeInfo nodeId="4644851485137283347" conceptFqName="jetbrains.mps.baseLanguage.structure.LocalVariableDeclarationStatement" fileName="PQPlanarizationFinder.java" startLine="71" startPosition="87" endLine="72" endPosition="87" />
-    <nodeInfo nodeId="4644851485137277541" conceptFqName="jetbrains.mps.baseLanguage.structure.LocalVariableDeclarationStatement" fileName="PQPlanarizationFinder.java" startLine="73" startPosition="52" endLine="74" endPosition="54" />
-    <nodeInfo nodeId="4644851485137262180" conceptFqName="jetbrains.mps.baseLanguage.structure.ExpressionStatement" fileName="PQPlanarizationFinder.java" startLine="74" startPosition="54" endLine="75" endPosition="62" />
-    <nodeInfo nodeId="4644851485137277549" conceptFqName="jetbrains.mps.baseLanguage.structure.ExpressionStatement" fileName="PQPlanarizationFinder.java" startLine="75" startPosition="62" endLine="76" endPosition="70" />
-    <nodeInfo nodeId="4644851485137262257" conceptFqName="jetbrains.mps.baseLanguage.structure.LocalVariableDeclarationStatement" fileName="PQPlanarizationFinder.java" startLine="79" startPosition="86" endLine="80" endPosition="41" />
-    <nodeInfo nodeId="4644851485137274577" conceptFqName="jetbrains.mps.baseLanguage.structure.LocalVariableDeclarationStatement" fileName="PQPlanarizationFinder.java" startLine="81" startPosition="60" endLine="82" endPosition="118" />
-    <nodeInfo nodeId="4644851485137274589" conceptFqName="jetbrains.mps.baseLanguage.structure.ExpressionStatement" fileName="PQPlanarizationFinder.java" startLine="82" startPosition="118" endLine="83" endPosition="68" />
-    <nodeInfo nodeId="3021256511735320718" conceptFqName="jetbrains.mps.baseLanguage.structure.ExpressionStatement" fileName="PQPlanarizationFinder.java" startLine="87" startPosition="25" endLine="88" endPosition="143" />
-    <nodeInfo nodeId="3021256511735322745" conceptFqName="jetbrains.mps.baseLanguage.structure.ExpressionStatement" fileName="PQPlanarizationFinder.java" startLine="88" startPosition="143" endLine="89" endPosition="46" />
-    <nodeInfo nodeId="4644851485137274602" conceptFqName="jetbrains.mps.baseLanguage.structure.LocalVariableDeclarationStatement" fileName="PQPlanarizationFinder.java" startLine="90" startPosition="7" endLine="91" endPosition="135" />
-    <nodeInfo nodeId="4644851485137277489" conceptFqName="jetbrains.mps.baseLanguage.structure.LocalVariableDeclarationStatement" fileName="PQPlanarizationFinder.java" startLine="92" startPosition="87" endLine="93" endPosition="43" />
-    <nodeInfo nodeId="4644851485137277507" conceptFqName="jetbrains.mps.baseLanguage.structure.ExpressionStatement" fileName="PQPlanarizationFinder.java" startLine="94" startPosition="75" endLine="95" endPosition="156" />
-    <nodeInfo nodeId="4644851485137277572" conceptFqName="jetbrains.mps.baseLanguage.structure.ExpressionStatement" fileName="PQPlanarizationFinder.java" startLine="96" startPosition="9" endLine="97" endPosition="42" />
-    <nodeInfo nodeId="4644851485137277604" conceptFqName="jetbrains.mps.baseLanguage.structure.ExpressionStatement" fileName="PQPlanarizationFinder.java" startLine="98" startPosition="60" endLine="99" endPosition="49" />
-    <nodeInfo nodeId="3495542515822992500" conceptFqName="jetbrains.mps.baseLanguage.structure.LocalVariableDeclarationStatement" fileName="PQPlanarizationFinder.java" startLine="102" startPosition="12" endLine="103" endPosition="40" />
-    <nodeInfo nodeId="3495542515822992490" conceptFqName="jetbrains.mps.baseLanguage.structure.ExpressionStatement" fileName="PQPlanarizationFinder.java" startLine="103" startPosition="40" endLine="104" endPosition="39" />
-    <nodeInfo nodeId="3495542515822992510" conceptFqName="jetbrains.mps.baseLanguage.structure.ExpressionStatement" fileName="PQPlanarizationFinder.java" startLine="104" startPosition="39" endLine="105" endPosition="44" />
-    <nodeInfo nodeId="4644851485137283416" conceptFqName="jetbrains.mps.baseLanguage.structure.LocalVariableDeclarationStatement" fileName="PQPlanarizationFinder.java" startLine="107" startPosition="87" endLine="108" endPosition="60" />
-    <nodeInfo nodeId="4644851485137283421" conceptFqName="jetbrains.mps.baseLanguage.structure.LocalVariableDeclarationStatement" fileName="PQPlanarizationFinder.java" startLine="108" startPosition="60" endLine="109" endPosition="57" />
-    <nodeInfo nodeId="529057043639384932" conceptFqName="jetbrains.mps.baseLanguage.structure.LocalVariableDeclarationStatement" fileName="PQPlanarizationFinder.java" startLine="109" startPosition="57" endLine="110" endPosition="25" />
-    <nodeInfo nodeId="529057043639384948" conceptFqName="jetbrains.mps.baseLanguage.structure.ExpressionStatement" fileName="PQPlanarizationFinder.java" startLine="111" startPosition="39" endLine="112" endPosition="37" />
-    <nodeInfo nodeId="529057043639384906" conceptFqName="jetbrains.mps.baseLanguage.structure.LocalVariableDeclarationStatement" fileName="PQPlanarizationFinder.java" startLine="113" startPosition="7" endLine="114" endPosition="51" />
-    <nodeInfo nodeId="529057043639384920" conceptFqName="jetbrains.mps.baseLanguage.structure.LocalVariableDeclarationStatement" fileName="PQPlanarizationFinder.java" startLine="114" startPosition="51" endLine="115" endPosition="61" />
-    <nodeInfo nodeId="3495542515823082515" conceptFqName="jetbrains.mps.baseLanguage.structure.LocalVariableDeclarationStatement" fileName="PQPlanarizationFinder.java" startLine="115" startPosition="61" endLine="116" endPosition="26" />
-    <nodeInfo nodeId="3495542515823086566" conceptFqName="jetbrains.mps.baseLanguage.structure.ExpressionStatement" fileName="PQPlanarizationFinder.java" startLine="117" startPosition="73" endLine="118" endPosition="128" />
-    <nodeInfo nodeId="3495542515823086581" conceptFqName="jetbrains.mps.baseLanguage.structure.ExpressionStatement" fileName="PQPlanarizationFinder.java" startLine="119" startPosition="14" endLine="120" endPosition="55" />
-    <nodeInfo nodeId="3495542515822992634" conceptFqName="jetbrains.mps.baseLanguage.structure.SingleLineComment" fileName="PQPlanarizationFinder.java" startLine="122" startPosition="27" endLine="123" endPosition="38" />
-    <nodeInfo nodeId="7428187320254602890" conceptFqName="jetbrains.mps.baseLanguage.structure.ExpressionStatement" fileName="PQPlanarizationFinder.java" startLine="124" startPosition="75" endLine="125" endPosition="68" />
-    <nodeInfo nodeId="4422427343208822211" conceptFqName="jetbrains.mps.baseLanguage.structure.ExpressionStatement" fileName="PQPlanarizationFinder.java" startLine="126" startPosition="9" endLine="127" endPosition="99" />
-    <nodeInfo nodeId="4422427343208822228" conceptFqName="jetbrains.mps.baseLanguage.structure.ExpressionStatement" fileName="PQPlanarizationFinder.java" startLine="127" startPosition="99" endLine="128" endPosition="79" />
-    <nodeInfo nodeId="3495542515822992695" conceptFqName="jetbrains.mps.baseLanguage.structure.ExpressionStatement" fileName="PQPlanarizationFinder.java" startLine="130" startPosition="33" endLine="131" endPosition="40" />
-    <nodeInfo nodeId="3495542515822992699" conceptFqName="jetbrains.mps.baseLanguage.structure.ExpressionStatement" fileName="PQPlanarizationFinder.java" startLine="131" startPosition="40" endLine="132" endPosition="33" />
-    <nodeInfo nodeId="3495542515822992707" conceptFqName="jetbrains.mps.baseLanguage.structure.LocalVariableDeclarationStatement" fileName="PQPlanarizationFinder.java" startLine="133" startPosition="14" endLine="134" endPosition="118" />
-    <nodeInfo nodeId="3495542515822992717" conceptFqName="jetbrains.mps.baseLanguage.structure.LocalVariableDeclarationStatement" fileName="PQPlanarizationFinder.java" startLine="134" startPosition="118" endLine="135" endPosition="59" />
-    <nodeInfo nodeId="3495542515822992724" conceptFqName="jetbrains.mps.baseLanguage.structure.ExpressionStatement" fileName="PQPlanarizationFinder.java" startLine="135" startPosition="59" endLine="136" endPosition="40" />
-    <nodeInfo nodeId="3495542515822992729" conceptFqName="jetbrains.mps.baseLanguage.structure.ExpressionStatement" fileName="PQPlanarizationFinder.java" startLine="136" startPosition="40" endLine="137" endPosition="50" />
-    <nodeInfo nodeId="3495542515822992734" conceptFqName="jetbrains.mps.baseLanguage.structure.LocalVariableDeclarationStatement" fileName="PQPlanarizationFinder.java" startLine="137" startPosition="50" endLine="138" endPosition="41" />
-    <nodeInfo nodeId="3495542515822992748" conceptFqName="jetbrains.mps.baseLanguage.structure.ExpressionStatement" fileName="PQPlanarizationFinder.java" startLine="139" startPosition="78" endLine="140" endPosition="32" />
-    <nodeInfo nodeId="3495542515822992785" conceptFqName="jetbrains.mps.baseLanguage.structure.ExpressionStatement" fileName="PQPlanarizationFinder.java" startLine="142" startPosition="88" endLine="143" endPosition="32" />
-    <nodeInfo nodeId="3495542515822992803" conceptFqName="jetbrains.mps.baseLanguage.structure.ExpressionStatement" fileName="PQPlanarizationFinder.java" startLine="144" startPosition="9" endLine="145" endPosition="40" />
-    <nodeInfo nodeId="3495542515822992810" conceptFqName="jetbrains.mps.baseLanguage.structure.ExpressionStatement" fileName="PQPlanarizationFinder.java" startLine="146" startPosition="22" endLine="147" endPosition="47" />
-    <nodeInfo nodeId="3495542515822992822" conceptFqName="jetbrains.mps.baseLanguage.structure.ExpressionStatement" fileName="PQPlanarizationFinder.java" startLine="149" startPosition="81" endLine="150" endPosition="44" />
-    <nodeInfo nodeId="4644851485137262136" conceptFqName="jetbrains.mps.baseLanguage.structure.ReturnStatement" fileName="PQPlanarizationFinder.java" startLine="153" startPosition="5" endLine="154" endPosition="26" />
+    <nodeInfo nodeId="6172745735269715192" conceptFqName="jetbrains.mps.baseLanguage.structure.ExpressionStatement" fileName="PQPlanarizationFinder.java" startLine="37" startPosition="5" endLine="38" endPosition="20" />
+    <nodeInfo nodeId="6172745735269715179" conceptFqName="jetbrains.mps.baseLanguage.structure.LocalVariableDeclarationStatement" fileName="PQPlanarizationFinder.java" startLine="38" startPosition="20" endLine="39" endPosition="81" />
+    <nodeInfo nodeId="6172745735269715202" conceptFqName="jetbrains.mps.baseLanguage.structure.ExpressionStatement" fileName="PQPlanarizationFinder.java" startLine="40" startPosition="23" endLine="41" endPosition="54" />
+    <nodeInfo nodeId="6172745735269715212" conceptFqName="jetbrains.mps.baseLanguage.structure.ReturnStatement" fileName="PQPlanarizationFinder.java" startLine="42" startPosition="5" endLine="43" endPosition="43" />
+    <nodeInfo nodeId="6172745735269720007" conceptFqName="jetbrains.mps.baseLanguage.structure.Statement" fileName="PQPlanarizationFinder.java" startLine="44" startPosition="6" endLine="45" endPosition="0" />
+    <nodeInfo nodeId="4644851485137274543" conceptFqName="jetbrains.mps.baseLanguage.structure.ExpressionStatement" fileName="PQPlanarizationFinder.java" startLine="45" startPosition="0" endLine="46" endPosition="53" />
+    <nodeInfo nodeId="4644851485137260374" conceptFqName="jetbrains.mps.baseLanguage.structure.LocalVariableDeclarationStatement" fileName="PQPlanarizationFinder.java" startLine="46" startPosition="53" endLine="47" endPosition="62" />
+    <nodeInfo nodeId="4644851485137260321" conceptFqName="jetbrains.mps.baseLanguage.structure.LocalVariableDeclarationStatement" fileName="PQPlanarizationFinder.java" startLine="47" startPosition="62" endLine="48" endPosition="85" />
+    <nodeInfo nodeId="6191740939834478472" conceptFqName="jetbrains.mps.baseLanguage.structure.ExpressionStatement" fileName="PQPlanarizationFinder.java" startLine="49" startPosition="25" endLine="50" endPosition="45" />
+    <nodeInfo nodeId="6191740939834475438" conceptFqName="jetbrains.mps.baseLanguage.structure.ExpressionStatement" fileName="PQPlanarizationFinder.java" startLine="50" startPosition="45" endLine="51" endPosition="36" />
+    <nodeInfo nodeId="4644851485137260372" conceptFqName="jetbrains.mps.baseLanguage.structure.ReturnStatement" fileName="PQPlanarizationFinder.java" startLine="53" startPosition="54" endLine="54" endPosition="64" />
+    <nodeInfo nodeId="4644851485137262086" conceptFqName="jetbrains.mps.baseLanguage.structure.ExpressionStatement" fileName="PQPlanarizationFinder.java" startLine="56" startPosition="56" endLine="57" endPosition="33" />
+    <nodeInfo nodeId="4644851485137262070" conceptFqName="jetbrains.mps.baseLanguage.structure.LocalVariableDeclarationStatement" fileName="PQPlanarizationFinder.java" startLine="58" startPosition="9" endLine="59" endPosition="75" />
+    <nodeInfo nodeId="6191740939834475466" conceptFqName="jetbrains.mps.baseLanguage.structure.ExpressionStatement" fileName="PQPlanarizationFinder.java" startLine="60" startPosition="27" endLine="61" endPosition="48" />
+    <nodeInfo nodeId="4644851485137262112" conceptFqName="jetbrains.mps.baseLanguage.structure.LocalVariableDeclarationStatement" fileName="PQPlanarizationFinder.java" startLine="62" startPosition="9" endLine="63" endPosition="60" />
+    <nodeInfo nodeId="4644851485137262125" conceptFqName="jetbrains.mps.baseLanguage.structure.ExpressionStatement" fileName="PQPlanarizationFinder.java" startLine="64" startPosition="56" endLine="65" endPosition="28" />
+    <nodeInfo nodeId="4644851485137262133" conceptFqName="jetbrains.mps.baseLanguage.structure.ReturnStatement" fileName="PQPlanarizationFinder.java" startLine="66" startPosition="9" endLine="67" endPosition="29" />
+    <nodeInfo nodeId="4644851485137262150" conceptFqName="jetbrains.mps.baseLanguage.structure.LocalVariableDeclarationStatement" fileName="PQPlanarizationFinder.java" startLine="72" startPosition="73" endLine="73" endPosition="39" />
+    <nodeInfo nodeId="4644851485137262206" conceptFqName="jetbrains.mps.baseLanguage.structure.LocalVariableDeclarationStatement" fileName="PQPlanarizationFinder.java" startLine="73" startPosition="39" endLine="74" endPosition="43" />
+    <nodeInfo nodeId="4644851485137283325" conceptFqName="jetbrains.mps.baseLanguage.structure.LocalVariableDeclarationStatement" fileName="PQPlanarizationFinder.java" startLine="74" startPosition="43" endLine="75" endPosition="62" />
+    <nodeInfo nodeId="4644851485137283386" conceptFqName="jetbrains.mps.baseLanguage.structure.LocalVariableDeclarationStatement" fileName="PQPlanarizationFinder.java" startLine="75" startPosition="62" endLine="76" endPosition="71" />
+    <nodeInfo nodeId="4644851485137283329" conceptFqName="jetbrains.mps.baseLanguage.structure.LocalVariableDeclarationStatement" fileName="PQPlanarizationFinder.java" startLine="77" startPosition="28" endLine="78" endPosition="79" />
+    <nodeInfo nodeId="4644851485137283338" conceptFqName="jetbrains.mps.baseLanguage.structure.LocalVariableDeclarationStatement" fileName="PQPlanarizationFinder.java" startLine="78" startPosition="79" endLine="79" endPosition="87" />
+    <nodeInfo nodeId="4644851485137283347" conceptFqName="jetbrains.mps.baseLanguage.structure.LocalVariableDeclarationStatement" fileName="PQPlanarizationFinder.java" startLine="79" startPosition="87" endLine="80" endPosition="87" />
+    <nodeInfo nodeId="4644851485137277541" conceptFqName="jetbrains.mps.baseLanguage.structure.LocalVariableDeclarationStatement" fileName="PQPlanarizationFinder.java" startLine="81" startPosition="52" endLine="82" endPosition="54" />
+    <nodeInfo nodeId="4644851485137262180" conceptFqName="jetbrains.mps.baseLanguage.structure.ExpressionStatement" fileName="PQPlanarizationFinder.java" startLine="82" startPosition="54" endLine="83" endPosition="62" />
+    <nodeInfo nodeId="4644851485137277549" conceptFqName="jetbrains.mps.baseLanguage.structure.ExpressionStatement" fileName="PQPlanarizationFinder.java" startLine="83" startPosition="62" endLine="84" endPosition="70" />
+    <nodeInfo nodeId="4644851485137262257" conceptFqName="jetbrains.mps.baseLanguage.structure.LocalVariableDeclarationStatement" fileName="PQPlanarizationFinder.java" startLine="87" startPosition="86" endLine="88" endPosition="41" />
+    <nodeInfo nodeId="4644851485137274577" conceptFqName="jetbrains.mps.baseLanguage.structure.LocalVariableDeclarationStatement" fileName="PQPlanarizationFinder.java" startLine="89" startPosition="60" endLine="90" endPosition="118" />
+    <nodeInfo nodeId="4644851485137274589" conceptFqName="jetbrains.mps.baseLanguage.structure.ExpressionStatement" fileName="PQPlanarizationFinder.java" startLine="90" startPosition="118" endLine="91" endPosition="68" />
+    <nodeInfo nodeId="3021256511735320718" conceptFqName="jetbrains.mps.baseLanguage.structure.ExpressionStatement" fileName="PQPlanarizationFinder.java" startLine="95" startPosition="25" endLine="96" endPosition="143" />
+    <nodeInfo nodeId="3021256511735322745" conceptFqName="jetbrains.mps.baseLanguage.structure.ExpressionStatement" fileName="PQPlanarizationFinder.java" startLine="96" startPosition="143" endLine="97" endPosition="46" />
+    <nodeInfo nodeId="6172745735269720015" conceptFqName="jetbrains.mps.baseLanguage.structure.LocalVariableDeclarationStatement" fileName="PQPlanarizationFinder.java" startLine="98" startPosition="7" endLine="99" endPosition="62" />
+    <nodeInfo nodeId="6172745735269720022" conceptFqName="jetbrains.mps.baseLanguage.structure.LocalVariableDeclarationStatement" fileName="PQPlanarizationFinder.java" startLine="99" startPosition="62" endLine="100" endPosition="124" />
+    <nodeInfo nodeId="6172745735269720693" conceptFqName="jetbrains.mps.baseLanguage.structure.LocalVariableDeclarationStatement" fileName="PQPlanarizationFinder.java" startLine="100" startPosition="124" endLine="101" endPosition="39" />
+    <nodeInfo nodeId="6172745735269720698" conceptFqName="jetbrains.mps.baseLanguage.structure.ExpressionStatement" fileName="PQPlanarizationFinder.java" startLine="102" startPosition="54" endLine="103" endPosition="117" />
+    <nodeInfo nodeId="6172745735269720724" conceptFqName="jetbrains.mps.baseLanguage.structure.ExpressionStatement" fileName="PQPlanarizationFinder.java" startLine="105" startPosition="56" endLine="106" endPosition="33" />
+    <nodeInfo nodeId="6172745735269720711" conceptFqName="jetbrains.mps.baseLanguage.structure.LocalVariableDeclarationStatement" fileName="PQPlanarizationFinder.java" startLine="107" startPosition="9" endLine="108" endPosition="84" />
+    <nodeInfo nodeId="6172745735269720729" conceptFqName="jetbrains.mps.baseLanguage.structure.ExpressionStatement" fileName="PQPlanarizationFinder.java" startLine="108" startPosition="84" endLine="109" endPosition="51" />
+    <nodeInfo nodeId="6172745735269720742" conceptFqName="jetbrains.mps.baseLanguage.structure.ExpressionStatement" fileName="PQPlanarizationFinder.java" startLine="110" startPosition="56" endLine="111" endPosition="28" />
+    <nodeInfo nodeId="4644851485137277489" conceptFqName="jetbrains.mps.baseLanguage.structure.LocalVariableDeclarationStatement" fileName="PQPlanarizationFinder.java" startLine="114" startPosition="87" endLine="115" endPosition="43" />
+    <nodeInfo nodeId="4644851485137277507" conceptFqName="jetbrains.mps.baseLanguage.structure.ExpressionStatement" fileName="PQPlanarizationFinder.java" startLine="116" startPosition="75" endLine="117" endPosition="156" />
+    <nodeInfo nodeId="4644851485137277572" conceptFqName="jetbrains.mps.baseLanguage.structure.ExpressionStatement" fileName="PQPlanarizationFinder.java" startLine="118" startPosition="9" endLine="119" endPosition="42" />
+    <nodeInfo nodeId="4644851485137277604" conceptFqName="jetbrains.mps.baseLanguage.structure.ExpressionStatement" fileName="PQPlanarizationFinder.java" startLine="120" startPosition="60" endLine="121" endPosition="49" />
+    <nodeInfo nodeId="3495542515822992500" conceptFqName="jetbrains.mps.baseLanguage.structure.LocalVariableDeclarationStatement" fileName="PQPlanarizationFinder.java" startLine="124" startPosition="12" endLine="125" endPosition="40" />
+    <nodeInfo nodeId="3495542515822992490" conceptFqName="jetbrains.mps.baseLanguage.structure.ExpressionStatement" fileName="PQPlanarizationFinder.java" startLine="125" startPosition="40" endLine="126" endPosition="39" />
+    <nodeInfo nodeId="3495542515822992510" conceptFqName="jetbrains.mps.baseLanguage.structure.ExpressionStatement" fileName="PQPlanarizationFinder.java" startLine="126" startPosition="39" endLine="127" endPosition="44" />
+    <nodeInfo nodeId="4644851485137283416" conceptFqName="jetbrains.mps.baseLanguage.structure.LocalVariableDeclarationStatement" fileName="PQPlanarizationFinder.java" startLine="129" startPosition="87" endLine="130" endPosition="60" />
+    <nodeInfo nodeId="4644851485137283421" conceptFqName="jetbrains.mps.baseLanguage.structure.LocalVariableDeclarationStatement" fileName="PQPlanarizationFinder.java" startLine="130" startPosition="60" endLine="131" endPosition="57" />
+    <nodeInfo nodeId="529057043639384932" conceptFqName="jetbrains.mps.baseLanguage.structure.LocalVariableDeclarationStatement" fileName="PQPlanarizationFinder.java" startLine="131" startPosition="57" endLine="132" endPosition="25" />
+    <nodeInfo nodeId="529057043639384948" conceptFqName="jetbrains.mps.baseLanguage.structure.ExpressionStatement" fileName="PQPlanarizationFinder.java" startLine="133" startPosition="39" endLine="134" endPosition="37" />
+    <nodeInfo nodeId="529057043639384906" conceptFqName="jetbrains.mps.baseLanguage.structure.LocalVariableDeclarationStatement" fileName="PQPlanarizationFinder.java" startLine="135" startPosition="7" endLine="136" endPosition="51" />
+    <nodeInfo nodeId="529057043639384920" conceptFqName="jetbrains.mps.baseLanguage.structure.LocalVariableDeclarationStatement" fileName="PQPlanarizationFinder.java" startLine="136" startPosition="51" endLine="137" endPosition="61" />
+    <nodeInfo nodeId="3495542515823082515" conceptFqName="jetbrains.mps.baseLanguage.structure.LocalVariableDeclarationStatement" fileName="PQPlanarizationFinder.java" startLine="137" startPosition="61" endLine="138" endPosition="26" />
+    <nodeInfo nodeId="3495542515823086566" conceptFqName="jetbrains.mps.baseLanguage.structure.ExpressionStatement" fileName="PQPlanarizationFinder.java" startLine="139" startPosition="73" endLine="140" endPosition="128" />
+    <nodeInfo nodeId="3495542515823086581" conceptFqName="jetbrains.mps.baseLanguage.structure.ExpressionStatement" fileName="PQPlanarizationFinder.java" startLine="141" startPosition="14" endLine="142" endPosition="55" />
+    <nodeInfo nodeId="3495542515822992634" conceptFqName="jetbrains.mps.baseLanguage.structure.SingleLineComment" fileName="PQPlanarizationFinder.java" startLine="144" startPosition="27" endLine="145" endPosition="38" />
+    <nodeInfo nodeId="7428187320254602890" conceptFqName="jetbrains.mps.baseLanguage.structure.ExpressionStatement" fileName="PQPlanarizationFinder.java" startLine="146" startPosition="75" endLine="147" endPosition="68" />
+    <nodeInfo nodeId="4422427343208822211" conceptFqName="jetbrains.mps.baseLanguage.structure.ExpressionStatement" fileName="PQPlanarizationFinder.java" startLine="148" startPosition="9" endLine="149" endPosition="99" />
+    <nodeInfo nodeId="4422427343208822228" conceptFqName="jetbrains.mps.baseLanguage.structure.ExpressionStatement" fileName="PQPlanarizationFinder.java" startLine="149" startPosition="99" endLine="150" endPosition="79" />
+    <nodeInfo nodeId="3495542515822992695" conceptFqName="jetbrains.mps.baseLanguage.structure.ExpressionStatement" fileName="PQPlanarizationFinder.java" startLine="152" startPosition="33" endLine="153" endPosition="40" />
+    <nodeInfo nodeId="3495542515822992699" conceptFqName="jetbrains.mps.baseLanguage.structure.ExpressionStatement" fileName="PQPlanarizationFinder.java" startLine="153" startPosition="40" endLine="154" endPosition="33" />
+    <nodeInfo nodeId="3495542515822992707" conceptFqName="jetbrains.mps.baseLanguage.structure.LocalVariableDeclarationStatement" fileName="PQPlanarizationFinder.java" startLine="155" startPosition="14" endLine="156" endPosition="118" />
+    <nodeInfo nodeId="3495542515822992717" conceptFqName="jetbrains.mps.baseLanguage.structure.LocalVariableDeclarationStatement" fileName="PQPlanarizationFinder.java" startLine="156" startPosition="118" endLine="157" endPosition="59" />
+    <nodeInfo nodeId="3495542515822992724" conceptFqName="jetbrains.mps.baseLanguage.structure.ExpressionStatement" fileName="PQPlanarizationFinder.java" startLine="157" startPosition="59" endLine="158" endPosition="40" />
+    <nodeInfo nodeId="3495542515822992729" conceptFqName="jetbrains.mps.baseLanguage.structure.ExpressionStatement" fileName="PQPlanarizationFinder.java" startLine="158" startPosition="40" endLine="159" endPosition="50" />
+    <nodeInfo nodeId="3495542515822992734" conceptFqName="jetbrains.mps.baseLanguage.structure.LocalVariableDeclarationStatement" fileName="PQPlanarizationFinder.java" startLine="159" startPosition="50" endLine="160" endPosition="41" />
+    <nodeInfo nodeId="3495542515822992748" conceptFqName="jetbrains.mps.baseLanguage.structure.ExpressionStatement" fileName="PQPlanarizationFinder.java" startLine="161" startPosition="78" endLine="162" endPosition="32" />
+    <nodeInfo nodeId="3495542515822992785" conceptFqName="jetbrains.mps.baseLanguage.structure.ExpressionStatement" fileName="PQPlanarizationFinder.java" startLine="164" startPosition="88" endLine="165" endPosition="32" />
+    <nodeInfo nodeId="3495542515822992803" conceptFqName="jetbrains.mps.baseLanguage.structure.ExpressionStatement" fileName="PQPlanarizationFinder.java" startLine="166" startPosition="9" endLine="167" endPosition="40" />
+    <nodeInfo nodeId="3495542515822992810" conceptFqName="jetbrains.mps.baseLanguage.structure.ExpressionStatement" fileName="PQPlanarizationFinder.java" startLine="168" startPosition="22" endLine="169" endPosition="47" />
+    <nodeInfo nodeId="3495542515822992822" conceptFqName="jetbrains.mps.baseLanguage.structure.ExpressionStatement" fileName="PQPlanarizationFinder.java" startLine="171" startPosition="81" endLine="172" endPosition="44" />
+    <nodeInfo nodeId="4644851485137262136" conceptFqName="jetbrains.mps.baseLanguage.structure.ReturnStatement" fileName="PQPlanarizationFinder.java" startLine="175" startPosition="5" endLine="176" endPosition="26" />
     <nodeInfo nodeId="4644851485137260286" conceptFqName="jetbrains.mps.baseLanguage.structure.ConstructorDeclaration" fileName="PQPlanarizationFinder.java" startLine="27" startPosition="0" endLine="29" endPosition="3" />
-    <nodeInfo nodeId="3495542515823086572" conceptFqName="jetbrains.mps.baseLanguage.structure.BlockStatement" fileName="PQPlanarizationFinder.java" startLine="119" startPosition="12" endLine="121" endPosition="7" />
+    <nodeInfo nodeId="3495542515823086572" conceptFqName="jetbrains.mps.baseLanguage.structure.BlockStatement" fileName="PQPlanarizationFinder.java" startLine="141" startPosition="12" endLine="143" endPosition="7" />
     <nodeInfo nodeId="5488345258545679125" conceptFqName="jetbrains.mps.baseLanguage.structure.IfStatement" fileName="PQPlanarizationFinder.java" startLine="33" startPosition="63" endLine="36" endPosition="7" />
-    <nodeInfo nodeId="4644851485137262078" conceptFqName="jetbrains.mps.baseLanguage.structure.ForeachStatement" fileName="PQPlanarizationFinder.java" startLine="48" startPosition="12" endLine="51" endPosition="7" />
-    <nodeInfo nodeId="6191740939834475461" conceptFqName="jetbrains.mps.baseLanguage.structure.IfStatement" fileName="PQPlanarizationFinder.java" startLine="52" startPosition="73" endLine="55" endPosition="7" />
-    <nodeInfo nodeId="4644851485137262120" conceptFqName="jetbrains.mps.baseLanguage.structure.ForeachStatement" fileName="PQPlanarizationFinder.java" startLine="56" startPosition="58" endLine="59" endPosition="7" />
-    <nodeInfo nodeId="4644851485137277497" conceptFqName="jetbrains.mps.baseLanguage.structure.ForeachStatement" fileName="PQPlanarizationFinder.java" startLine="93" startPosition="43" endLine="96" endPosition="9" />
-    <nodeInfo nodeId="4644851485137277593" conceptFqName="jetbrains.mps.baseLanguage.structure.IfStatement" fileName="PQPlanarizationFinder.java" startLine="97" startPosition="42" endLine="100" endPosition="9" />
-    <nodeInfo nodeId="529057043639384939" conceptFqName="jetbrains.mps.baseLanguage.structure.IfStatement" fileName="PQPlanarizationFinder.java" startLine="110" startPosition="25" endLine="113" endPosition="7" />
-    <nodeInfo nodeId="3495542515822992615" conceptFqName="jetbrains.mps.baseLanguage.structure.IfStatement" fileName="PQPlanarizationFinder.java" startLine="123" startPosition="38" endLine="126" endPosition="9" />
-    <nodeInfo nodeId="3495542515822992740" conceptFqName="jetbrains.mps.baseLanguage.structure.ForeachStatement" fileName="PQPlanarizationFinder.java" startLine="138" startPosition="41" endLine="141" endPosition="9" />
-    <nodeInfo nodeId="3495542515822992777" conceptFqName="jetbrains.mps.baseLanguage.structure.ForeachStatement" fileName="PQPlanarizationFinder.java" startLine="141" startPosition="9" endLine="144" endPosition="9" />
-    <nodeInfo nodeId="3495542515822992808" conceptFqName="jetbrains.mps.baseLanguage.structure.IfStatement" fileName="PQPlanarizationFinder.java" startLine="145" startPosition="40" endLine="148" endPosition="9" />
-    <nodeInfo nodeId="3495542515822992816" conceptFqName="jetbrains.mps.baseLanguage.structure.ForeachStatement" fileName="PQPlanarizationFinder.java" startLine="148" startPosition="9" endLine="151" endPosition="9" />
-    <nodeInfo nodeId="6191740939834475452" conceptFqName="jetbrains.mps.baseLanguage.structure.IfStatement" fileName="PQPlanarizationFinder.java" startLine="41" startPosition="83" endLine="45" endPosition="5" />
-    <nodeInfo nodeId="4644851485137262226" conceptFqName="jetbrains.mps.baseLanguage.structure.IfStatement" fileName="PQPlanarizationFinder.java" startLine="80" startPosition="41" endLine="84" endPosition="11" />
-    <nodeInfo nodeId="3495542515823096659" conceptFqName="jetbrains.mps.baseLanguage.structure.IfStatement" fileName="PQPlanarizationFinder.java" startLine="86" startPosition="7" endLine="90" endPosition="7" />
-    <nodeInfo nodeId="3495542515822992488" conceptFqName="jetbrains.mps.baseLanguage.structure.BlockStatement" fileName="PQPlanarizationFinder.java" startLine="102" startPosition="10" endLine="106" endPosition="5" />
+    <nodeInfo nodeId="6172745735269715197" conceptFqName="jetbrains.mps.baseLanguage.structure.IfStatement" fileName="PQPlanarizationFinder.java" startLine="39" startPosition="81" endLine="42" endPosition="5" />
+    <nodeInfo nodeId="4644851485137262078" conceptFqName="jetbrains.mps.baseLanguage.structure.ForeachStatement" fileName="PQPlanarizationFinder.java" startLine="55" startPosition="14" endLine="58" endPosition="9" />
+    <nodeInfo nodeId="6191740939834475461" conceptFqName="jetbrains.mps.baseLanguage.structure.IfStatement" fileName="PQPlanarizationFinder.java" startLine="59" startPosition="75" endLine="62" endPosition="9" />
+    <nodeInfo nodeId="4644851485137262120" conceptFqName="jetbrains.mps.baseLanguage.structure.ForeachStatement" fileName="PQPlanarizationFinder.java" startLine="63" startPosition="60" endLine="66" endPosition="9" />
+    <nodeInfo nodeId="6172745735269720720" conceptFqName="jetbrains.mps.baseLanguage.structure.ForeachStatement" fileName="PQPlanarizationFinder.java" startLine="104" startPosition="14" endLine="107" endPosition="9" />
+    <nodeInfo nodeId="6172745735269720738" conceptFqName="jetbrains.mps.baseLanguage.structure.ForeachStatement" fileName="PQPlanarizationFinder.java" startLine="109" startPosition="51" endLine="112" endPosition="9" />
+    <nodeInfo nodeId="4644851485137277497" conceptFqName="jetbrains.mps.baseLanguage.structure.ForeachStatement" fileName="PQPlanarizationFinder.java" startLine="115" startPosition="43" endLine="118" endPosition="9" />
+    <nodeInfo nodeId="4644851485137277593" conceptFqName="jetbrains.mps.baseLanguage.structure.IfStatement" fileName="PQPlanarizationFinder.java" startLine="119" startPosition="42" endLine="122" endPosition="9" />
+    <nodeInfo nodeId="529057043639384939" conceptFqName="jetbrains.mps.baseLanguage.structure.IfStatement" fileName="PQPlanarizationFinder.java" startLine="132" startPosition="25" endLine="135" endPosition="7" />
+    <nodeInfo nodeId="3495542515822992615" conceptFqName="jetbrains.mps.baseLanguage.structure.IfStatement" fileName="PQPlanarizationFinder.java" startLine="145" startPosition="38" endLine="148" endPosition="9" />
+    <nodeInfo nodeId="3495542515822992740" conceptFqName="jetbrains.mps.baseLanguage.structure.ForeachStatement" fileName="PQPlanarizationFinder.java" startLine="160" startPosition="41" endLine="163" endPosition="9" />
+    <nodeInfo nodeId="3495542515822992777" conceptFqName="jetbrains.mps.baseLanguage.structure.ForeachStatement" fileName="PQPlanarizationFinder.java" startLine="163" startPosition="9" endLine="166" endPosition="9" />
+    <nodeInfo nodeId="3495542515822992808" conceptFqName="jetbrains.mps.baseLanguage.structure.IfStatement" fileName="PQPlanarizationFinder.java" startLine="167" startPosition="40" endLine="170" endPosition="9" />
+    <nodeInfo nodeId="3495542515822992816" conceptFqName="jetbrains.mps.baseLanguage.structure.ForeachStatement" fileName="PQPlanarizationFinder.java" startLine="170" startPosition="9" endLine="173" endPosition="9" />
+    <nodeInfo nodeId="6191740939834475452" conceptFqName="jetbrains.mps.baseLanguage.structure.IfStatement" fileName="PQPlanarizationFinder.java" startLine="48" startPosition="85" endLine="52" endPosition="7" />
+    <nodeInfo nodeId="4644851485137262226" conceptFqName="jetbrains.mps.baseLanguage.structure.IfStatement" fileName="PQPlanarizationFinder.java" startLine="88" startPosition="41" endLine="92" endPosition="11" />
+    <nodeInfo nodeId="3495542515823096659" conceptFqName="jetbrains.mps.baseLanguage.structure.IfStatement" fileName="PQPlanarizationFinder.java" startLine="94" startPosition="7" endLine="98" endPosition="7" />
+    <nodeInfo nodeId="3495542515822992488" conceptFqName="jetbrains.mps.baseLanguage.structure.BlockStatement" fileName="PQPlanarizationFinder.java" startLine="124" startPosition="10" endLine="128" endPosition="5" />
     <nodeInfo nodeId="5488345258545679115" conceptFqName="jetbrains.mps.baseLanguage.structure.ForeachStatement" fileName="PQPlanarizationFinder.java" startLine="32" startPosition="80" endLine="37" endPosition="5" />
-    <nodeInfo nodeId="4644851485137262170" conceptFqName="jetbrains.mps.baseLanguage.structure.ForeachStatement" fileName="PQPlanarizationFinder.java" startLine="72" startPosition="87" endLine="77" endPosition="7" />
-    <nodeInfo nodeId="3495542515823086569" conceptFqName="jetbrains.mps.baseLanguage.structure.IfStatement" fileName="PQPlanarizationFinder.java" startLine="116" startPosition="26" endLine="121" endPosition="7" />
-    <nodeInfo nodeId="4644851485137262214" conceptFqName="jetbrains.mps.baseLanguage.structure.ForeachStatement" fileName="PQPlanarizationFinder.java" startLine="78" startPosition="67" endLine="85" endPosition="9" />
-    <nodeInfo nodeId="3495542515822992540" conceptFqName="jetbrains.mps.baseLanguage.structure.IfStatement" fileName="PQPlanarizationFinder.java" startLine="121" startPosition="7" endLine="129" endPosition="7" />
-    <nodeInfo nodeId="4644851485137262196" conceptFqName="jetbrains.mps.baseLanguage.structure.ForeachStatement" fileName="PQPlanarizationFinder.java" startLine="77" startPosition="7" endLine="86" endPosition="7" />
-    <nodeInfo nodeId="4644851485137277476" conceptFqName="jetbrains.mps.baseLanguage.structure.ForeachStatement" fileName="PQPlanarizationFinder.java" startLine="91" startPosition="135" endLine="101" endPosition="7" />
-    <nodeInfo nodeId="4644851485137260391" conceptFqName="jetbrains.mps.baseLanguage.structure.BlockStatement" fileName="PQPlanarizationFinder.java" startLine="48" startPosition="10" endLine="61" endPosition="5" />
-    <nodeInfo nodeId="4644851485137260358" conceptFqName="jetbrains.mps.baseLanguage.structure.IfStatement" fileName="PQPlanarizationFinder.java" startLine="45" startPosition="5" endLine="61" endPosition="5" />
-    <nodeInfo nodeId="3495542515822992705" conceptFqName="jetbrains.mps.baseLanguage.structure.BlockStatement" fileName="PQPlanarizationFinder.java" startLine="133" startPosition="12" endLine="152" endPosition="7" />
-    <nodeInfo nodeId="3495542515822992660" conceptFqName="jetbrains.mps.baseLanguage.structure.IfStatement" fileName="PQPlanarizationFinder.java" startLine="129" startPosition="7" endLine="152" endPosition="7" />
-    <nodeInfo nodeId="4644851485137260291" conceptFqName="jetbrains.mps.baseLanguage.structure.InstanceMethodDeclaration" fileName="PQPlanarizationFinder.java" startLine="30" startPosition="0" endLine="63" endPosition="0" />
-    <nodeInfo nodeId="4644851485137283305" conceptFqName="jetbrains.mps.baseLanguage.structure.IfStatement" fileName="PQPlanarizationFinder.java" startLine="68" startPosition="71" endLine="106" endPosition="5" />
-    <nodeInfo nodeId="4644851485137277581" conceptFqName="jetbrains.mps.baseLanguage.structure.ForeachStatement" fileName="PQPlanarizationFinder.java" startLine="106" startPosition="5" endLine="153" endPosition="5" />
-    <nodeInfo nodeId="4644851485137262100" conceptFqName="jetbrains.mps.baseLanguage.structure.InstanceMethodDeclaration" fileName="PQPlanarizationFinder.java" startLine="63" startPosition="0" endLine="156" endPosition="0" />
+    <nodeInfo nodeId="4644851485137262170" conceptFqName="jetbrains.mps.baseLanguage.structure.ForeachStatement" fileName="PQPlanarizationFinder.java" startLine="80" startPosition="87" endLine="85" endPosition="7" />
+    <nodeInfo nodeId="3495542515823086569" conceptFqName="jetbrains.mps.baseLanguage.structure.IfStatement" fileName="PQPlanarizationFinder.java" startLine="138" startPosition="26" endLine="143" endPosition="7" />
+    <nodeInfo nodeId="4644851485137262214" conceptFqName="jetbrains.mps.baseLanguage.structure.ForeachStatement" fileName="PQPlanarizationFinder.java" startLine="86" startPosition="67" endLine="93" endPosition="9" />
+    <nodeInfo nodeId="3495542515822992540" conceptFqName="jetbrains.mps.baseLanguage.structure.IfStatement" fileName="PQPlanarizationFinder.java" startLine="143" startPosition="7" endLine="151" endPosition="7" />
+    <nodeInfo nodeId="4644851485137262196" conceptFqName="jetbrains.mps.baseLanguage.structure.ForeachStatement" fileName="PQPlanarizationFinder.java" startLine="85" startPosition="7" endLine="94" endPosition="7" />
+    <nodeInfo nodeId="6172745735269720707" conceptFqName="jetbrains.mps.baseLanguage.structure.BlockStatement" fileName="PQPlanarizationFinder.java" startLine="104" startPosition="12" endLine="113" endPosition="7" />
+    <nodeInfo nodeId="4644851485137277476" conceptFqName="jetbrains.mps.baseLanguage.structure.ForeachStatement" fileName="PQPlanarizationFinder.java" startLine="113" startPosition="7" endLine="123" endPosition="7" />
+    <nodeInfo nodeId="6172745735269720674" conceptFqName="jetbrains.mps.baseLanguage.structure.IfStatement" fileName="PQPlanarizationFinder.java" startLine="101" startPosition="39" endLine="113" endPosition="7" />
+    <nodeInfo nodeId="4644851485137260391" conceptFqName="jetbrains.mps.baseLanguage.structure.BlockStatement" fileName="PQPlanarizationFinder.java" startLine="55" startPosition="12" endLine="68" endPosition="7" />
+    <nodeInfo nodeId="4644851485137260358" conceptFqName="jetbrains.mps.baseLanguage.structure.IfStatement" fileName="PQPlanarizationFinder.java" startLine="52" startPosition="7" endLine="68" endPosition="7" />
+    <nodeInfo nodeId="3495542515822992705" conceptFqName="jetbrains.mps.baseLanguage.structure.BlockStatement" fileName="PQPlanarizationFinder.java" startLine="155" startPosition="12" endLine="174" endPosition="7" />
+    <nodeInfo nodeId="3495542515822992660" conceptFqName="jetbrains.mps.baseLanguage.structure.IfStatement" fileName="PQPlanarizationFinder.java" startLine="151" startPosition="7" endLine="174" endPosition="7" />
+    <nodeInfo nodeId="6172745735269720008" conceptFqName="jetbrains.mps.baseLanguage.structure.CommentedStatementsBlock" fileName="PQPlanarizationFinder.java" startLine="43" startPosition="43" endLine="69" endPosition="6" />
+    <nodeInfo nodeId="4644851485137260291" conceptFqName="jetbrains.mps.baseLanguage.structure.InstanceMethodDeclaration" fileName="PQPlanarizationFinder.java" startLine="30" startPosition="0" endLine="71" endPosition="0" />
+    <nodeInfo nodeId="4644851485137277581" conceptFqName="jetbrains.mps.baseLanguage.structure.ForeachStatement" fileName="PQPlanarizationFinder.java" startLine="128" startPosition="5" endLine="175" endPosition="5" />
+    <nodeInfo nodeId="4644851485137283305" conceptFqName="jetbrains.mps.baseLanguage.structure.IfStatement" fileName="PQPlanarizationFinder.java" startLine="76" startPosition="71" endLine="128" endPosition="5" />
+    <nodeInfo nodeId="4644851485137262100" conceptFqName="jetbrains.mps.baseLanguage.structure.InstanceMethodDeclaration" fileName="PQPlanarizationFinder.java" startLine="71" startPosition="0" endLine="178" endPosition="0" />
     <scopeInfo nodeId="4644851485137260289" fileName="PQPlanarizationFinder.java" startLine="28" startPosition="34" endLine="28" endPosition="34" />
     <scopeInfo nodeId="5488345258545679127" fileName="PQPlanarizationFinder.java" startLine="34" startPosition="59" endLine="35" endPosition="63" />
-    <scopeInfo nodeId="4644851485137260359" fileName="PQPlanarizationFinder.java" startLine="46" startPosition="52" endLine="47" endPosition="62" />
-    <scopeInfo nodeId="4644851485137262081" fileName="PQPlanarizationFinder.java" startLine="49" startPosition="54" endLine="50" endPosition="31" />
-    <scopeInfo nodeId="6191740939834475465" fileName="PQPlanarizationFinder.java" startLine="53" startPosition="25" endLine="54" endPosition="46" />
-    <scopeInfo nodeId="4644851485137262123" fileName="PQPlanarizationFinder.java" startLine="57" startPosition="54" endLine="58" endPosition="26" />
-    <scopeInfo nodeId="4644851485137277500" fileName="PQPlanarizationFinder.java" startLine="94" startPosition="75" endLine="95" endPosition="156" />
-    <scopeInfo nodeId="4644851485137277594" fileName="PQPlanarizationFinder.java" startLine="98" startPosition="60" endLine="99" endPosition="49" />
-    <scopeInfo nodeId="529057043639384940" fileName="PQPlanarizationFinder.java" startLine="111" startPosition="39" endLine="112" endPosition="37" />
-    <scopeInfo nodeId="3495542515823086571" fileName="PQPlanarizationFinder.java" startLine="117" startPosition="73" endLine="118" endPosition="128" />
-    <scopeInfo nodeId="3495542515823086573" fileName="PQPlanarizationFinder.java" startLine="119" startPosition="14" endLine="120" endPosition="55" />
-    <scopeInfo nodeId="3495542515822992617" fileName="PQPlanarizationFinder.java" startLine="124" startPosition="75" endLine="125" endPosition="68" />
-    <scopeInfo nodeId="3495542515822992747" fileName="PQPlanarizationFinder.java" startLine="139" startPosition="78" endLine="140" endPosition="32" />
-    <scopeInfo nodeId="3495542515822992784" fileName="PQPlanarizationFinder.java" startLine="142" startPosition="88" endLine="143" endPosition="32" />
-    <scopeInfo nodeId="3495542515822992809" fileName="PQPlanarizationFinder.java" startLine="146" startPosition="22" endLine="147" endPosition="47" />
-    <scopeInfo nodeId="3495542515822992821" fileName="PQPlanarizationFinder.java" startLine="149" startPosition="81" endLine="150" endPosition="44" />
+    <scopeInfo nodeId="6172745735269715201" fileName="PQPlanarizationFinder.java" startLine="40" startPosition="23" endLine="41" endPosition="54" />
+    <scopeInfo nodeId="4644851485137260359" fileName="PQPlanarizationFinder.java" startLine="53" startPosition="54" endLine="54" endPosition="64" />
+    <scopeInfo nodeId="4644851485137262081" fileName="PQPlanarizationFinder.java" startLine="56" startPosition="56" endLine="57" endPosition="33" />
+    <scopeInfo nodeId="6191740939834475465" fileName="PQPlanarizationFinder.java" startLine="60" startPosition="27" endLine="61" endPosition="48" />
+    <scopeInfo nodeId="4644851485137262123" fileName="PQPlanarizationFinder.java" startLine="64" startPosition="56" endLine="65" endPosition="28" />
+    <scopeInfo nodeId="6172745735269720675" fileName="PQPlanarizationFinder.java" startLine="102" startPosition="54" endLine="103" endPosition="117" />
+    <scopeInfo nodeId="6172745735269720723" fileName="PQPlanarizationFinder.java" startLine="105" startPosition="56" endLine="106" endPosition="33" />
+    <scopeInfo nodeId="6172745735269720741" fileName="PQPlanarizationFinder.java" startLine="110" startPosition="56" endLine="111" endPosition="28" />
+    <scopeInfo nodeId="4644851485137277500" fileName="PQPlanarizationFinder.java" startLine="116" startPosition="75" endLine="117" endPosition="156" />
+    <scopeInfo nodeId="4644851485137277594" fileName="PQPlanarizationFinder.java" startLine="120" startPosition="60" endLine="121" endPosition="49" />
+    <scopeInfo nodeId="529057043639384940" fileName="PQPlanarizationFinder.java" startLine="133" startPosition="39" endLine="134" endPosition="37" />
+    <scopeInfo nodeId="3495542515823086571" fileName="PQPlanarizationFinder.java" startLine="139" startPosition="73" endLine="140" endPosition="128" />
+    <scopeInfo nodeId="3495542515823086573" fileName="PQPlanarizationFinder.java" startLine="141" startPosition="14" endLine="142" endPosition="55" />
+    <scopeInfo nodeId="3495542515822992617" fileName="PQPlanarizationFinder.java" startLine="146" startPosition="75" endLine="147" endPosition="68" />
+    <scopeInfo nodeId="3495542515822992747" fileName="PQPlanarizationFinder.java" startLine="161" startPosition="78" endLine="162" endPosition="32" />
+    <scopeInfo nodeId="3495542515822992784" fileName="PQPlanarizationFinder.java" startLine="164" startPosition="88" endLine="165" endPosition="32" />
+    <scopeInfo nodeId="3495542515822992809" fileName="PQPlanarizationFinder.java" startLine="168" startPosition="22" endLine="169" endPosition="47" />
+    <scopeInfo nodeId="3495542515822992821" fileName="PQPlanarizationFinder.java" startLine="171" startPosition="81" endLine="172" endPosition="44" />
     <scopeInfo nodeId="4644851485137260286" fileName="PQPlanarizationFinder.java" startLine="27" startPosition="0" endLine="29" endPosition="3" />
-    <scopeInfo nodeId="6191740939834475454" fileName="PQPlanarizationFinder.java" startLine="42" startPosition="23" endLine="44" endPosition="34" />
-    <scopeInfo nodeId="4644851485137262228" fileName="PQPlanarizationFinder.java" startLine="81" startPosition="60" endLine="83" endPosition="68">
+    <scopeInfo nodeId="6191740939834475454" fileName="PQPlanarizationFinder.java" startLine="49" startPosition="25" endLine="51" endPosition="36" />
+    <scopeInfo nodeId="4644851485137262228" fileName="PQPlanarizationFinder.java" startLine="89" startPosition="60" endLine="91" endPosition="68">
       <varInfo nodeId="4644851485137274578" varName="newEdge" />
     </scopeInfo>
-    <scopeInfo nodeId="3495542515823096661" fileName="PQPlanarizationFinder.java" startLine="87" startPosition="25" endLine="89" endPosition="46" />
-    <scopeInfo nodeId="3495542515822992661" fileName="PQPlanarizationFinder.java" startLine="130" startPosition="33" endLine="132" endPosition="33" />
+    <scopeInfo nodeId="3495542515823096661" fileName="PQPlanarizationFinder.java" startLine="95" startPosition="25" endLine="97" endPosition="46" />
+    <scopeInfo nodeId="3495542515822992661" fileName="PQPlanarizationFinder.java" startLine="152" startPosition="33" endLine="154" endPosition="33" />
     <scopeInfo nodeId="5488345258545679118" fileName="PQPlanarizationFinder.java" startLine="33" startPosition="63" endLine="36" endPosition="7" />
-    <scopeInfo nodeId="4644851485137262078" fileName="PQPlanarizationFinder.java" startLine="48" startPosition="12" endLine="51" endPosition="7" />
-    <scopeInfo nodeId="4644851485137262120" fileName="PQPlanarizationFinder.java" startLine="56" startPosition="58" endLine="59" endPosition="7" />
-    <scopeInfo nodeId="4644851485137262173" fileName="PQPlanarizationFinder.java" startLine="73" startPosition="52" endLine="76" endPosition="70">
+    <scopeInfo nodeId="4644851485137262078" fileName="PQPlanarizationFinder.java" startLine="55" startPosition="14" endLine="58" endPosition="9" />
+    <scopeInfo nodeId="4644851485137262120" fileName="PQPlanarizationFinder.java" startLine="63" startPosition="60" endLine="66" endPosition="9" />
+    <scopeInfo nodeId="4644851485137262173" fileName="PQPlanarizationFinder.java" startLine="81" startPosition="52" endLine="84" endPosition="70">
       <varInfo nodeId="4644851485137277542" varName="componentNode" />
     </scopeInfo>
-    <scopeInfo nodeId="4644851485137277497" fileName="PQPlanarizationFinder.java" startLine="93" startPosition="43" endLine="96" endPosition="9" />
-    <scopeInfo nodeId="3495542515822992489" fileName="PQPlanarizationFinder.java" startLine="102" startPosition="12" endLine="105" endPosition="44">
+    <scopeInfo nodeId="6172745735269720720" fileName="PQPlanarizationFinder.java" startLine="104" startPosition="14" endLine="107" endPosition="9" />
+    <scopeInfo nodeId="6172745735269720738" fileName="PQPlanarizationFinder.java" startLine="109" startPosition="51" endLine="112" endPosition="9" />
+    <scopeInfo nodeId="4644851485137277497" fileName="PQPlanarizationFinder.java" startLine="115" startPosition="43" endLine="118" endPosition="9" />
+    <scopeInfo nodeId="3495542515822992489" fileName="PQPlanarizationFinder.java" startLine="124" startPosition="12" endLine="127" endPosition="44">
       <varInfo nodeId="3495542515822992501" varName="fakeFace" />
     </scopeInfo>
-    <scopeInfo nodeId="3495542515822992740" fileName="PQPlanarizationFinder.java" startLine="138" startPosition="41" endLine="141" endPosition="9" />
-    <scopeInfo nodeId="3495542515822992777" fileName="PQPlanarizationFinder.java" startLine="141" startPosition="9" endLine="144" endPosition="9" />
-    <scopeInfo nodeId="3495542515822992816" fileName="PQPlanarizationFinder.java" startLine="148" startPosition="9" endLine="151" endPosition="9" />
+    <scopeInfo nodeId="3495542515822992740" fileName="PQPlanarizationFinder.java" startLine="160" startPosition="41" endLine="163" endPosition="9" />
+    <scopeInfo nodeId="3495542515822992777" fileName="PQPlanarizationFinder.java" startLine="163" startPosition="9" endLine="166" endPosition="9" />
+    <scopeInfo nodeId="3495542515822992816" fileName="PQPlanarizationFinder.java" startLine="170" startPosition="9" endLine="173" endPosition="9" />
     <scopeInfo nodeId="5488345258545679115" fileName="PQPlanarizationFinder.java" startLine="32" startPosition="80" endLine="37" endPosition="5" />
-    <scopeInfo nodeId="4644851485137262170" fileName="PQPlanarizationFinder.java" startLine="72" startPosition="87" endLine="77" endPosition="7" />
-    <scopeInfo nodeId="4644851485137262217" fileName="PQPlanarizationFinder.java" startLine="79" startPosition="86" endLine="84" endPosition="11">
+    <scopeInfo nodeId="4644851485137262170" fileName="PQPlanarizationFinder.java" startLine="80" startPosition="87" endLine="85" endPosition="7" />
+    <scopeInfo nodeId="4644851485137262217" fileName="PQPlanarizationFinder.java" startLine="87" startPosition="86" endLine="92" endPosition="11">
       <varInfo nodeId="4644851485137262258" varName="target" />
     </scopeInfo>
-    <scopeInfo nodeId="3495542515822992541" fileName="PQPlanarizationFinder.java" startLine="122" startPosition="27" endLine="128" endPosition="79" />
-    <scopeInfo nodeId="4644851485137262199" fileName="PQPlanarizationFinder.java" startLine="78" startPosition="67" endLine="85" endPosition="9" />
-    <scopeInfo nodeId="4644851485137262214" fileName="PQPlanarizationFinder.java" startLine="78" startPosition="67" endLine="85" endPosition="9" />
-    <scopeInfo nodeId="4644851485137277479" fileName="PQPlanarizationFinder.java" startLine="92" startPosition="87" endLine="100" endPosition="9">
+    <scopeInfo nodeId="3495542515822992541" fileName="PQPlanarizationFinder.java" startLine="144" startPosition="27" endLine="150" endPosition="79" />
+    <scopeInfo nodeId="4644851485137262199" fileName="PQPlanarizationFinder.java" startLine="86" startPosition="67" endLine="93" endPosition="9" />
+    <scopeInfo nodeId="4644851485137262214" fileName="PQPlanarizationFinder.java" startLine="86" startPosition="67" endLine="93" endPosition="9" />
+    <scopeInfo nodeId="6172745735269720708" fileName="PQPlanarizationFinder.java" startLine="104" startPosition="14" endLine="112" endPosition="9">
+      <varInfo nodeId="6172745735269720712" varName="tree" />
+    </scopeInfo>
+    <scopeInfo nodeId="4644851485137277479" fileName="PQPlanarizationFinder.java" startLine="114" startPosition="87" endLine="122" endPosition="9">
       <varInfo nodeId="4644851485137277490" varName="graphFace" />
     </scopeInfo>
-    <scopeInfo nodeId="4644851485137262196" fileName="PQPlanarizationFinder.java" startLine="77" startPosition="7" endLine="86" endPosition="7" />
-    <scopeInfo nodeId="4644851485137277476" fileName="PQPlanarizationFinder.java" startLine="91" startPosition="135" endLine="101" endPosition="7" />
-    <scopeInfo nodeId="4644851485137260392" fileName="PQPlanarizationFinder.java" startLine="48" startPosition="12" endLine="60" endPosition="27">
+    <scopeInfo nodeId="4644851485137262196" fileName="PQPlanarizationFinder.java" startLine="85" startPosition="7" endLine="94" endPosition="7" />
+    <scopeInfo nodeId="4644851485137277476" fileName="PQPlanarizationFinder.java" startLine="113" startPosition="7" endLine="123" endPosition="7" />
+    <scopeInfo nodeId="4644851485137260392" fileName="PQPlanarizationFinder.java" startLine="55" startPosition="14" endLine="67" endPosition="29">
       <varInfo nodeId="4644851485137262071" varName="tree" />
       <varInfo nodeId="4644851485137262113" varName="embeddedGraph" />
     </scopeInfo>
-    <scopeInfo nodeId="3495542515822992706" fileName="PQPlanarizationFinder.java" startLine="133" startPosition="14" endLine="151" endPosition="9">
+    <scopeInfo nodeId="3495542515822992706" fileName="PQPlanarizationFinder.java" startLine="155" startPosition="14" endLine="173" endPosition="9">
       <varInfo nodeId="3495542515822992708" varName="face" />
       <varInfo nodeId="3495542515822992735" varName="newFace" />
       <varInfo nodeId="3495542515822992718" varName="isOuter" />
     </scopeInfo>
-    <scopeInfo nodeId="4644851485137260296" fileName="PQPlanarizationFinder.java" startLine="31" startPosition="42" endLine="61" endPosition="5">
-      <varInfo nodeId="4644851485137260375" varName="pqPlanarityTest" />
-      <varInfo nodeId="4644851485137260322" varName="removed" />
+    <scopeInfo nodeId="4644851485137260296" fileName="PQPlanarizationFinder.java" startLine="31" startPosition="42" endLine="69" endPosition="6">
+      <varInfo nodeId="6172745735269715180" varName="componentsTree" />
       <varInfo nodeId="5488345258545679108" varName="components" />
     </scopeInfo>
-    <scopeInfo nodeId="4644851485137283307" fileName="PQPlanarizationFinder.java" startLine="69" startPosition="28" endLine="101" endPosition="7">
-      <varInfo nodeId="4644851485137283348" varName="invertedEdgeMap" />
-      <varInfo nodeId="4644851485137283330" varName="nodeMap" />
-      <varInfo nodeId="4644851485137274603" varName="componentEmbedding" />
-      <varInfo nodeId="4644851485137283339" varName="invertedNodeMap" />
-    </scopeInfo>
-    <scopeInfo nodeId="4644851485137260291" fileName="PQPlanarizationFinder.java" startLine="30" startPosition="0" endLine="63" endPosition="0">
+    <scopeInfo nodeId="4644851485137260291" fileName="PQPlanarizationFinder.java" startLine="30" startPosition="0" endLine="71" endPosition="0">
       <varInfo nodeId="4644851485137260294" varName="graph" />
     </scopeInfo>
-    <scopeInfo nodeId="4644851485137277584" fileName="PQPlanarizationFinder.java" startLine="107" startPosition="87" endLine="152" endPosition="7">
+    <scopeInfo nodeId="4644851485137277584" fileName="PQPlanarizationFinder.java" startLine="129" startPosition="87" endLine="174" endPosition="7">
       <varInfo nodeId="3495542515823082516" varName="outerChildFace" />
       <varInfo nodeId="4644851485137283422" varName="connection" />
       <varInfo nodeId="529057043639384921" varName="childCutpoint" />
@@ -1673,17 +1692,25 @@
       <varInfo nodeId="529057043639384907" varName="cutpoint" />
       <varInfo nodeId="529057043639384933" varName="bridge" />
     </scopeInfo>
-    <scopeInfo nodeId="4644851485137277581" fileName="PQPlanarizationFinder.java" startLine="106" startPosition="5" endLine="153" endPosition="5" />
-    <scopeInfo nodeId="4644851485137262103" fileName="PQPlanarizationFinder.java" startLine="64" startPosition="73" endLine="154" endPosition="26">
+    <scopeInfo nodeId="4644851485137283307" fileName="PQPlanarizationFinder.java" startLine="77" startPosition="28" endLine="123" endPosition="7">
+      <varInfo nodeId="4644851485137283348" varName="invertedEdgeMap" />
+      <varInfo nodeId="6172745735269720016" varName="pqPlanarityTest" />
+      <varInfo nodeId="4644851485137283330" varName="nodeMap" />
+      <varInfo nodeId="6172745735269720023" varName="removed" />
+      <varInfo nodeId="6172745735269720694" varName="componentEmbedding" />
+      <varInfo nodeId="4644851485137283339" varName="invertedNodeMap" />
+    </scopeInfo>
+    <scopeInfo nodeId="4644851485137277581" fileName="PQPlanarizationFinder.java" startLine="128" startPosition="5" endLine="175" endPosition="5" />
+    <scopeInfo nodeId="4644851485137262103" fileName="PQPlanarizationFinder.java" startLine="72" startPosition="73" endLine="176" endPosition="26">
       <varInfo nodeId="4644851485137283326" varName="graphEmbedding" />
       <varInfo nodeId="4644851485137262207" varName="nodes" />
       <varInfo nodeId="4644851485137283387" varName="manyNodeComponent" />
       <varInfo nodeId="4644851485137262151" varName="componentGraph" />
     </scopeInfo>
-    <scopeInfo nodeId="4644851485137262100" fileName="PQPlanarizationFinder.java" startLine="63" startPosition="0" endLine="156" endPosition="0">
+    <scopeInfo nodeId="4644851485137262100" fileName="PQPlanarizationFinder.java" startLine="71" startPosition="0" endLine="178" endPosition="0">
       <varInfo nodeId="4644851485137262105" varName="component" />
     </scopeInfo>
-    <unitInfo nodeId="4644851485137260284" fileName="PQPlanarizationFinder.java" startLine="22" startPosition="0" endLine="157" endPosition="0" unitName="jetbrains.mps.graphLayout.planarization.PQPlanarizationFinder" />
+    <unitInfo nodeId="4644851485137260284" fileName="PQPlanarizationFinder.java" startLine="22" startPosition="0" endLine="179" endPosition="0" unitName="jetbrains.mps.graphLayout.planarization.PQPlanarizationFinder" />
   </root>
   <root nodeId="516638300680465086">
     <nodeInfo nodeId="5709109565604324397" conceptFqName="jetbrains.mps.baseLanguage.structure.StaticFieldDeclaration" fileName="PQPlanarityTest.java" startLine="25" startPosition="30" endLine="26" endPosition="34" />
@@ -2704,89 +2731,6 @@
       <varInfo nodeId="5709109565604299260" varName="edge" />
     </scopeInfo>
     <unitInfo nodeId="603019764244010093" fileName="EdgesOrder.java" startLine="21" startPosition="0" endLine="173" endPosition="0" unitName="jetbrains.mps.graphLayout.planarization.EdgesOrder" />
-  </root>
-  <root nodeId="860462848750178536">
-    <nodeInfo nodeId="860462848750180219" conceptFqName="jetbrains.mps.baseLanguage.structure.ReturnStatement" fileName="PlanarizationEmbeddingFinder.java" startLine="14" startPosition="42" endLine="15" endPosition="184" />
-    <nodeInfo nodeId="860462848750178538" conceptFqName="jetbrains.mps.baseLanguage.structure.ConstructorDeclaration" fileName="PlanarizationEmbeddingFinder.java" startLine="10" startPosition="71" endLine="12" endPosition="3" />
-    <nodeInfo nodeId="860462848750180210" conceptFqName="jetbrains.mps.baseLanguage.structure.InstanceMethodDeclaration" fileName="PlanarizationEmbeddingFinder.java" startLine="13" startPosition="0" endLine="17" endPosition="0" />
-    <scopeInfo nodeId="860462848750178541" fileName="PlanarizationEmbeddingFinder.java" startLine="11" startPosition="41" endLine="11" endPosition="41" />
-    <scopeInfo nodeId="860462848750180215" fileName="PlanarizationEmbeddingFinder.java" startLine="14" startPosition="42" endLine="15" endPosition="184" />
-    <scopeInfo nodeId="860462848750178538" fileName="PlanarizationEmbeddingFinder.java" startLine="10" startPosition="71" endLine="12" endPosition="3" />
-    <scopeInfo nodeId="860462848750180210" fileName="PlanarizationEmbeddingFinder.java" startLine="13" startPosition="0" endLine="17" endPosition="0">
-      <varInfo nodeId="860462848750180213" varName="graph" />
-    </scopeInfo>
-    <unitInfo nodeId="860462848750178536" fileName="PlanarizationEmbeddingFinder.java" startLine="10" startPosition="0" endLine="18" endPosition="0" unitName="jetbrains.mps.graphLayout.planarization.PlanarizationEmbeddingFinder" />
-  </root>
-  <root nodeId="9047589280051427665">
-    <nodeInfo nodeId="9047589280051427671" conceptFqName="jetbrains.mps.baseLanguage.structure.FieldDeclaration" fileName="MultigraphEmbeddingFinder.java" startLine="20" startPosition="68" endLine="21" endPosition="43" />
-    <nodeInfo nodeId="9047589280051427677" conceptFqName="jetbrains.mps.baseLanguage.structure.ExpressionStatement" fileName="MultigraphEmbeddingFinder.java" startLine="23" startPosition="68" endLine="24" endPosition="36" />
-    <nodeInfo nodeId="9047589280051427754" conceptFqName="jetbrains.mps.baseLanguage.structure.LocalVariableDeclarationStatement" fileName="MultigraphEmbeddingFinder.java" startLine="27" startPosition="42" endLine="28" endPosition="72" />
-    <nodeInfo nodeId="9047589280051432886" conceptFqName="jetbrains.mps.baseLanguage.structure.LocalVariableDeclarationStatement" fileName="MultigraphEmbeddingFinder.java" startLine="28" startPosition="72" endLine="29" endPosition="89" />
-    <nodeInfo nodeId="9047589280051432912" conceptFqName="jetbrains.mps.baseLanguage.structure.ExpressionStatement" fileName="MultigraphEmbeddingFinder.java" startLine="30" startPosition="63" endLine="31" endPosition="103" />
-    <nodeInfo nodeId="9047589280051432944" conceptFqName="jetbrains.mps.baseLanguage.structure.LocalVariableDeclarationStatement" fileName="MultigraphEmbeddingFinder.java" startLine="33" startPosition="63" endLine="34" endPosition="37" />
-    <nodeInfo nodeId="9047589280051432957" conceptFqName="jetbrains.mps.baseLanguage.structure.LocalVariableDeclarationStatement" fileName="MultigraphEmbeddingFinder.java" startLine="34" startPosition="37" endLine="35" endPosition="37" />
-    <nodeInfo nodeId="9047589280051432997" conceptFqName="jetbrains.mps.baseLanguage.structure.ExpressionStatement" fileName="MultigraphEmbeddingFinder.java" startLine="36" startPosition="29" endLine="37" endPosition="55" />
-    <nodeInfo nodeId="9047589280051435086" conceptFqName="jetbrains.mps.baseLanguage.structure.ExpressionStatement" fileName="MultigraphEmbeddingFinder.java" startLine="38" startPosition="14" endLine="39" endPosition="91" />
-    <nodeInfo nodeId="9047589280051435093" conceptFqName="jetbrains.mps.baseLanguage.structure.ExpressionStatement" fileName="MultigraphEmbeddingFinder.java" startLine="39" startPosition="91" endLine="40" endPosition="91" />
-    <nodeInfo nodeId="9047589280051435110" conceptFqName="jetbrains.mps.baseLanguage.structure.ExpressionStatement" fileName="MultigraphEmbeddingFinder.java" startLine="43" startPosition="53" endLine="44" endPosition="29" />
-    <nodeInfo nodeId="9047589280051435120" conceptFqName="jetbrains.mps.baseLanguage.structure.LocalVariableDeclarationStatement" fileName="MultigraphEmbeddingFinder.java" startLine="45" startPosition="5" endLine="46" endPosition="62" />
-    <nodeInfo nodeId="9047589280051435147" conceptFqName="jetbrains.mps.baseLanguage.structure.LocalVariableDeclarationStatement" fileName="MultigraphEmbeddingFinder.java" startLine="47" startPosition="53" endLine="48" endPosition="43" />
-    <nodeInfo nodeId="9047589280051435153" conceptFqName="jetbrains.mps.baseLanguage.structure.LocalVariableDeclarationStatement" fileName="MultigraphEmbeddingFinder.java" startLine="48" startPosition="43" endLine="49" endPosition="43" />
-    <nodeInfo nodeId="9047589280051446630" conceptFqName="jetbrains.mps.baseLanguage.structure.LocalVariableDeclarationStatement" fileName="MultigraphEmbeddingFinder.java" startLine="49" startPosition="43" endLine="50" endPosition="20" />
-    <nodeInfo nodeId="9047589280051446633" conceptFqName="jetbrains.mps.baseLanguage.structure.ExpressionStatement" fileName="MultigraphEmbeddingFinder.java" startLine="51" startPosition="29" endLine="52" endPosition="68" />
-    <nodeInfo nodeId="9047589280051446679" conceptFqName="jetbrains.mps.baseLanguage.structure.ReturnStatement" fileName="MultigraphEmbeddingFinder.java" startLine="55" startPosition="42" endLine="56" endPosition="52" />
-    <nodeInfo nodeId="9047589280051446694" conceptFqName="jetbrains.mps.baseLanguage.structure.LocalVariableDeclarationStatement" fileName="MultigraphEmbeddingFinder.java" startLine="59" startPosition="7" endLine="60" endPosition="90" />
-    <nodeInfo nodeId="9047589280051446712" conceptFqName="jetbrains.mps.baseLanguage.structure.ExpressionStatement" fileName="MultigraphEmbeddingFinder.java" startLine="60" startPosition="90" endLine="61" endPosition="112" />
-    <nodeInfo nodeId="9047589280051446742" conceptFqName="jetbrains.mps.baseLanguage.structure.ExpressionStatement" fileName="MultigraphEmbeddingFinder.java" startLine="61" startPosition="112" endLine="62" endPosition="24" />
-    <nodeInfo nodeId="9047589280051427714" conceptFqName="jetbrains.mps.baseLanguage.structure.ReturnStatement" fileName="MultigraphEmbeddingFinder.java" startLine="63" startPosition="5" endLine="64" endPosition="25" />
-    <nodeInfo nodeId="9047589280051427667" conceptFqName="jetbrains.mps.baseLanguage.structure.ConstructorDeclaration" fileName="MultigraphEmbeddingFinder.java" startLine="22" startPosition="0" endLine="25" endPosition="3" />
-    <nodeInfo nodeId="9047589280051432902" conceptFqName="jetbrains.mps.baseLanguage.structure.ForeachStatement" fileName="MultigraphEmbeddingFinder.java" startLine="29" startPosition="89" endLine="32" endPosition="5" />
-    <nodeInfo nodeId="9047589280051435084" conceptFqName="jetbrains.mps.baseLanguage.structure.BlockStatement" fileName="MultigraphEmbeddingFinder.java" startLine="38" startPosition="12" endLine="41" endPosition="7" />
-    <nodeInfo nodeId="9047589280051435101" conceptFqName="jetbrains.mps.baseLanguage.structure.ForeachStatement" fileName="MultigraphEmbeddingFinder.java" startLine="42" startPosition="5" endLine="45" endPosition="5" />
-    <nodeInfo nodeId="9047589280051446675" conceptFqName="jetbrains.mps.baseLanguage.structure.InstanceMethodDeclaration" fileName="MultigraphEmbeddingFinder.java" startLine="54" startPosition="96" endLine="58" endPosition="0" />
-    <nodeInfo nodeId="9047589280051446659" conceptFqName="jetbrains.mps.baseLanguage.structure.ExpressionStatement" fileName="MultigraphEmbeddingFinder.java" startLine="53" startPosition="14" endLine="58" endPosition="11" />
-    <nodeInfo nodeId="9047589280051432968" conceptFqName="jetbrains.mps.baseLanguage.structure.IfStatement" fileName="MultigraphEmbeddingFinder.java" startLine="35" startPosition="37" endLine="41" endPosition="7" />
-    <nodeInfo nodeId="9047589280051446657" conceptFqName="jetbrains.mps.baseLanguage.structure.BlockStatement" fileName="MultigraphEmbeddingFinder.java" startLine="53" startPosition="12" endLine="59" endPosition="7" />
-    <nodeInfo nodeId="9047589280051435138" conceptFqName="jetbrains.mps.baseLanguage.structure.IfStatement" fileName="MultigraphEmbeddingFinder.java" startLine="50" startPosition="20" endLine="59" endPosition="7" />
-    <nodeInfo nodeId="9047589280051432931" conceptFqName="jetbrains.mps.baseLanguage.structure.ForeachStatement" fileName="MultigraphEmbeddingFinder.java" startLine="32" startPosition="5" endLine="42" endPosition="5" />
-    <nodeInfo nodeId="9047589280051435132" conceptFqName="jetbrains.mps.baseLanguage.structure.ForeachStatement" fileName="MultigraphEmbeddingFinder.java" startLine="46" startPosition="62" endLine="63" endPosition="5" />
-    <nodeInfo nodeId="9047589280051427689" conceptFqName="jetbrains.mps.baseLanguage.structure.InstanceMethodDeclaration" fileName="MultigraphEmbeddingFinder.java" startLine="26" startPosition="0" endLine="66" endPosition="0" />
-    <scopeInfo nodeId="9047589280051427670" fileName="MultigraphEmbeddingFinder.java" startLine="23" startPosition="68" endLine="24" endPosition="36" />
-    <scopeInfo nodeId="9047589280051432905" fileName="MultigraphEmbeddingFinder.java" startLine="30" startPosition="63" endLine="31" endPosition="103" />
-    <scopeInfo nodeId="9047589280051432969" fileName="MultigraphEmbeddingFinder.java" startLine="36" startPosition="29" endLine="37" endPosition="55" />
-    <scopeInfo nodeId="9047589280051435104" fileName="MultigraphEmbeddingFinder.java" startLine="43" startPosition="53" endLine="44" endPosition="29" />
-    <scopeInfo nodeId="9047589280051435140" fileName="MultigraphEmbeddingFinder.java" startLine="51" startPosition="29" endLine="52" endPosition="68" />
-    <scopeInfo nodeId="9047589280051446676" fileName="MultigraphEmbeddingFinder.java" startLine="55" startPosition="42" endLine="56" endPosition="52" />
-    <scopeInfo nodeId="9047589280051435085" fileName="MultigraphEmbeddingFinder.java" startLine="38" startPosition="14" endLine="40" endPosition="91" />
-    <scopeInfo nodeId="9047589280051427667" fileName="MultigraphEmbeddingFinder.java" startLine="22" startPosition="0" endLine="25" endPosition="3">
-      <varInfo nodeId="9047589280051427675" varName="initialFinder" />
-    </scopeInfo>
-    <scopeInfo nodeId="9047589280051432902" fileName="MultigraphEmbeddingFinder.java" startLine="29" startPosition="89" endLine="32" endPosition="5" />
-    <scopeInfo nodeId="9047589280051435101" fileName="MultigraphEmbeddingFinder.java" startLine="42" startPosition="5" endLine="45" endPosition="5" />
-    <scopeInfo nodeId="9047589280051446675" fileName="MultigraphEmbeddingFinder.java" startLine="54" startPosition="96" endLine="58" endPosition="0" />
-    <scopeInfo nodeId="9047589280051446658" fileName="MultigraphEmbeddingFinder.java" startLine="53" startPosition="14" endLine="58" endPosition="11" />
-    <scopeInfo nodeId="9047589280051432941" fileName="MultigraphEmbeddingFinder.java" startLine="33" startPosition="63" endLine="41" endPosition="7">
-      <varInfo nodeId="9047589280051432945" varName="source" />
-      <varInfo nodeId="9047589280051432958" varName="target" />
-    </scopeInfo>
-    <scopeInfo nodeId="9047589280051432931" fileName="MultigraphEmbeddingFinder.java" startLine="32" startPosition="5" endLine="42" endPosition="5" />
-    <scopeInfo nodeId="9047589280051435135" fileName="MultigraphEmbeddingFinder.java" startLine="47" startPosition="53" endLine="62" endPosition="24">
-      <varInfo nodeId="9047589280051446695" varName="face" />
-      <varInfo nodeId="9047589280051435148" varName="source" />
-      <varInfo nodeId="9047589280051446631" varName="faceEdge" />
-      <varInfo nodeId="9047589280051435154" varName="target" />
-    </scopeInfo>
-    <scopeInfo nodeId="9047589280051435132" fileName="MultigraphEmbeddingFinder.java" startLine="46" startPosition="62" endLine="63" endPosition="5" />
-    <scopeInfo nodeId="9047589280051427697" fileName="MultigraphEmbeddingFinder.java" startLine="27" startPosition="42" endLine="64" endPosition="25">
-      <varInfo nodeId="9047589280051427755" varName="badEdges" />
-      <varInfo nodeId="9047589280051432887" varName="connected" />
-      <varInfo nodeId="9047589280051435121" varName="embeddedGraph" />
-    </scopeInfo>
-    <scopeInfo nodeId="9047589280051427689" fileName="MultigraphEmbeddingFinder.java" startLine="26" startPosition="0" endLine="66" endPosition="0">
-      <varInfo nodeId="9047589280051427692" varName="graph" />
-    </scopeInfo>
-    <unitInfo nodeId="9047589280051446675" fileName="MultigraphEmbeddingFinder.java" startLine="54" startPosition="74" endLine="58" endPosition="9" unitName="jetbrains.mps.graphLayout.planarization.MultigraphEmbeddingFinder$1" />
-    <unitInfo nodeId="9047589280051427665" fileName="MultigraphEmbeddingFinder.java" startLine="20" startPosition="0" endLine="67" endPosition="0" unitName="jetbrains.mps.graphLayout.planarization.MultigraphEmbeddingFinder" />
   </root>
 </debugInfo>
 

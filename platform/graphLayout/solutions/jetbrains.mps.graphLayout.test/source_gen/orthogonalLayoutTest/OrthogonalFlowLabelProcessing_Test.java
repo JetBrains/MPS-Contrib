@@ -14,7 +14,7 @@ import java.util.HashMap;
 import jetbrains.mps.internal.collections.runtime.ListSequence;
 import jetbrains.mps.graphLayout.graph.Edge;
 import jetbrains.mps.graphLayout.graphLayout.GraphLayout;
-import jetbrains.mps.graphLayout.flowOrthogonalLayout.OrthogonalFlowLabelProcessing;
+import jetbrains.mps.graphLayout.internal.flowOrthogonalLayout.OrthogonalFlowLabelProcessing;
 
 public class OrthogonalFlowLabelProcessing_Test extends TestCase {
   public void test_test1() throws Exception {

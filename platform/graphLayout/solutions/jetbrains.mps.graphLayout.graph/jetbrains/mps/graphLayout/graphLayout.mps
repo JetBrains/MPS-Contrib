@@ -1797,7 +1797,7 @@
   <root id="903391227141130350">
     <node role="staticMethod" roleId="yvor.1070462273904:3" type="yvor.StaticMethodDeclaration" typeId="yvor.1081236700938:3" id="903391227141130356">
       <property name="name" nameId="yvnu.1169194664001:0" value="shift" />
-      <node role="returnType" roleId="yvor.1068580123133:3" type="yvor.ClassifierType" typeId="yvor.1107535904670:3" id="903391227141130360">
+      <node role="returnType" roleId="yvor.1068580123133:3" type="yvor.ClassifierType" typeId="yvor.1107535904670:3" id="5626844973118487625">
         <link role="classifier" roleId="yvor.1107535924139:3" targetNodeId="903391227141129818" resolveInfo="GraphLayout" />
       </node>
       <node role="visibility" roleId="yvor.1178549979242:3" type="yvor.PublicVisibility" typeId="yvor.1146644602865:3" id="903391227141130358" />
@@ -1812,17 +1812,12 @@
               <node role="creator" roleId="yvor.1145553007750:3" type="yvor.ClassCreator" typeId="yvor.1212685548494:3" id="903391227141130380">
                 <link role="baseMethodDeclaration" roleId="yvor.1068499141037:3" targetNodeId="903391227141129820" resolveInfo="GraphLayout" />
                 <node role="actualArgument" roleId="yvor.1068499141038:3" type="yvor.ParenthesizedExpression" typeId="yvor.1079359253375:3" id="2913448412765243776">
-                  <node role="expression" roleId="yvor.1079359253376:3" type="yvor.CastExpression" typeId="yvor.1070534934090:3" id="2913448412765243777">
-                    <node role="expression" roleId="yvor.1070534934092:3" type="yvor.DotExpression" typeId="yvor.1197027756228:3" id="2913448412765243778">
-                      <node role="operand" roleId="yvor.1197027771414:3" type="yvor.ParameterReference" typeId="yvor.1068581242874:3" id="2913448412765243779">
-                        <link role="variableDeclaration" roleId="yvor.1068581517664:3" targetNodeId="903391227141130363" resolveInfo="layout" />
-                      </node>
-                      <node role="operation" roleId="yvor.1197027833540:3" type="yvor.InstanceMethodCallOperation" typeId="yvor.1202948039474:3" id="2913448412765243780">
-                        <link role="baseMethodDeclaration" roleId="yvor.1068499141037:3" targetNodeId="903391227141129946" resolveInfo="getGraph" />
-                      </node>
+                  <node role="expression" roleId="yvor.1079359253376:3" type="yvor.DotExpression" typeId="yvor.1197027756228:3" id="2913448412765243778">
+                    <node role="operand" roleId="yvor.1197027771414:3" type="yvor.ParameterReference" typeId="yvor.1068581242874:3" id="2913448412765243779">
+                      <link role="variableDeclaration" roleId="yvor.1068581517664:3" targetNodeId="903391227141130363" resolveInfo="layout" />
                     </node>
-                    <node role="type" roleId="yvor.1070534934091:3" type="yvor.ClassifierType" typeId="yvor.1107535904670:3" id="2913448412765243781">
-                      <link role="classifier" roleId="yvor.1107535924139:3" targetNodeId="aequ.8567569493821103298" resolveInfo="Graph" />
+                    <node role="operation" roleId="yvor.1197027833540:3" type="yvor.InstanceMethodCallOperation" typeId="yvor.1202948039474:3" id="2913448412765243780">
+                      <link role="baseMethodDeclaration" roleId="yvor.1068499141037:3" targetNodeId="2913448412765230862" resolveInfo="getGraph" />
                     </node>
                   </node>
                 </node>
@@ -1841,12 +1836,14 @@
                 <link role="classifier" roleId="yvor.1107535924139:3" targetNodeId="4dwg.2301768597858221518" resolveInfo="Rectangle" />
               </node>
             </node>
-            <node role="initializer" roleId="yvor.1068431790190:3" type="yvor.DotExpression" typeId="yvor.1197027756228:3" id="903391227141130434">
-              <node role="operand" roleId="yvor.1197027771414:3" type="yvor.ParameterReference" typeId="yvor.1068581242874:3" id="903391227141130435">
-                <link role="variableDeclaration" roleId="yvor.1068581517664:3" targetNodeId="903391227141130363" resolveInfo="layout" />
-              </node>
-              <node role="operation" roleId="yvor.1197027833540:3" type="yvor.InstanceMethodCallOperation" typeId="yvor.1202948039474:3" id="903391227141130436">
-                <link role="baseMethodDeclaration" roleId="yvor.1068499141037:3" targetNodeId="903391227141129846" resolveInfo="getNodeLayout" />
+            <node role="initializer" roleId="yvor.1068431790190:3" type="yvor.GenericNewExpression" typeId="yvor.1145552977093:3" id="5626844973118487628">
+              <node role="creator" roleId="yvor.1145553007750:3" type="yvix.HashMapCreator" typeId="yvix.1197686869805:7" id="5626844973118487629">
+                <node role="keyType" roleId="yvix.1197687026896:7" type="yvor.ClassifierType" typeId="yvor.1107535904670:3" id="5626844973118487630">
+                  <link role="classifier" roleId="yvor.1107535924139:3" targetNodeId="aequ.2913448412765224981" resolveInfo="INode" />
+                </node>
+                <node role="valueType" roleId="yvix.1197687035757:7" type="yvor.ClassifierType" typeId="yvor.1107535904670:3" id="5626844973118487631">
+                  <link role="classifier" roleId="yvor.1107535924139:3" targetNodeId="4dwg.2301768597858221518" resolveInfo="Rectangle" />
+                </node>
               </node>
             </node>
           </node>
@@ -2218,7 +2215,7 @@
       </node>
       <node role="parameter" roleId="yvor.1068580123134:3" type="yvor.ParameterDeclaration" typeId="yvor.1068498886292:3" id="903391227141130363">
         <property name="name" nameId="yvnu.1169194664001:0" value="layout" />
-        <node role="type" roleId="yvor.5680397130376446158:3" type="yvor.ClassifierType" typeId="yvor.1107535904670:3" id="903391227141130364">
+        <node role="type" roleId="yvor.5680397130376446158:3" type="yvor.ClassifierType" typeId="yvor.1107535904670:3" id="5626844973118487651">
           <link role="classifier" roleId="yvor.1107535924139:3" targetNodeId="903391227141129818" resolveInfo="GraphLayout" />
         </node>
       </node>

@@ -6,7 +6,7 @@ import junit.framework.TestCase;
 import jetbrains.mps.graphLayout.graph.Graph;
 import visualization.GraphIO;
 import java.util.Scanner;
-import jetbrains.mps.graphLayout.flowOrthogonalLayout.OrthogonalRectFlowLayouter;
+import jetbrains.mps.graphLayout.internal.flowOrthogonalLayout.OrthogonalRectFlowLayouter;
 import java.util.Map;
 import jetbrains.mps.graphLayout.graph.Node;
 import jetbrains.mps.graphLayout.intGeom2D.Dimension;

@@ -148,7 +148,7 @@ public class ConstraintsGraph {
         ListSequence.fromList(rotations).insertElement(0, ListSequence.fromList(rotations).removeLastElement());
         ListSequence.fromList(directions).insertElement(0, ListSequence.fromList(directions).removeLastElement());
         numShifts++;
-        if (numShifts > ListSequence.fromList(segments).count()) {
+        if (numShifts > 2 * ListSequence.fromList(segments).count()) {
           throw new RuntimeException("error in segments");
         }
       }

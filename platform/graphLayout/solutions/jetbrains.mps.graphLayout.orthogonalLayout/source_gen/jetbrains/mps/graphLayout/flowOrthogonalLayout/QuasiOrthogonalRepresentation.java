@@ -5,16 +5,18 @@ package jetbrains.mps.graphLayout.flowOrthogonalLayout;
 import jetbrains.mps.graphLayout.planarGraph.EmbeddedGraph;
 import java.util.Map;
 import jetbrains.mps.graphLayout.planarGraph.Dart;
+import jetbrains.mps.internal.collections.runtime.SetSequence;
+import java.util.HashSet;
+import jetbrains.mps.graphLayout.graph.Edge;
+import java.util.Set;
 import jetbrains.mps.graphLayout.graph.Graph;
 import jetbrains.mps.graphLayout.graph.Node;
-import jetbrains.mps.graphLayout.graph.Edge;
 import jetbrains.mps.internal.collections.runtime.MapSequence;
 import java.util.HashMap;
 import jetbrains.mps.internal.collections.runtime.ListSequence;
 import jetbrains.mps.graphLayout.planarGraph.Face;
 import java.util.List;
 import jetbrains.mps.graphLayout.algorithms.MinCostMaxFlowWithPotentials;
-import jetbrains.mps.internal.collections.runtime.SetSequence;
 import jetbrains.mps.internal.collections.runtime.Sequence;
 
 public class QuasiOrthogonalRepresentation {
@@ -25,6 +27,10 @@ public class QuasiOrthogonalRepresentation {
   }
 
   public static void getRepresentation(EmbeddedGraph embeddedGraph, Map<Dart, Integer> bends, Map<Dart, Integer> angles) {
+    getRepresentation(embeddedGraph, bends, angles, SetSequence.fromSet(new HashSet<Edge>()));
+  }
+
+  public static void getRepresentation(EmbeddedGraph embeddedGraph, Map<Dart, Integer> bends, Map<Dart, Integer> angles, Set<Edge> freeEdges) {
     Graph graph = embeddedGraph.getGraph();
     int c = 100 * graph.getNumNodes();
     Graph network = new Graph();
@@ -86,7 +92,11 @@ public class QuasiOrthogonalRepresentation {
         edge = faceNode.addEdgeTo(oppositeFaceNode);
         MapSequence.fromMap(dartBendMap).put(dart, edge);
         MapSequence.fromMap(capacity).put(edge, INF);
-        MapSequence.fromMap(cost).put(edge, 1);
+        if (SetSequence.fromSet(freeEdges).contains(dart.getEdge())) {
+          MapSequence.fromMap(cost).put(edge, 0);
+        } else {
+          MapSequence.fromMap(cost).put(edge, 1);
+        }
       }
     }
     Map<Node, Map<Face, Edge>> faceToNodeEdges = MapSequence.fromMap(new HashMap<Node, Map<Face, Edge>>());

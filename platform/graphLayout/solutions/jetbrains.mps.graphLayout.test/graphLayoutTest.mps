@@ -14,6 +14,7 @@
   <import index="26x5" modelUID="r:37c95452-cbcd-4818-9dbd-771ebb628247(graphLayoutTest)" version="-1" implicit="yes" />
   <import index="vhgx" modelUID="f:java_stub#java.lang(java.lang@java_stub)" version="-1" implicit="yes" />
   <import index="yvol" modelUID="r:00000000-0000-4000-0000-011c895902d7(jetbrains.mps.baseLanguage.unitTest.structure)" version="-1" implicit="yes" />
+  <import index="tiz1" modelUID="f:java_stub#java.io(java.io@java_stub)" version="-1" implicit="yes" />
   <roots>
     <node type="yvor.ClassConcept" typeId="yvor.1068390468198:3" id="5488345258545703426">
       <property name="name" nameId="yvnu.1169194664001:0" value="GraphPointLayoutChecker" />
@@ -1106,6 +1107,43 @@
                           <link role="variable" roleId="yvix.1153944258490:7" targetNodeId="1675865317250550837" resolveInfo="labeledEdge" />
                         </node>
                       </node>
+                    </node>
+                  </node>
+                </node>
+                <node role="statement" roleId="yvor.1068581517665:3" type="yvor.IfStatement" typeId="yvor.1068580123159:3" id="592792776163344483">
+                  <node role="ifTrue" roleId="yvor.1068580123161:3" type="yvor.StatementList" typeId="yvor.1068580123136:3" id="592792776163344484">
+                    <node role="statement" roleId="yvor.1068581517665:3" type="yvor.LocalVariableDeclarationStatement" typeId="yvor.1068581242864:3" id="592792776163344490">
+                      <node role="localVariableDeclaration" roleId="yvor.1068581242865:3" type="yvor.LocalVariableDeclaration" typeId="yvor.1068581242863:3" id="592792776163344491">
+                        <property name="name" nameId="yvnu.1169194664001:0" value="a" />
+                        <node role="type" roleId="yvor.5680397130376446158:3" type="yvor.IntegerType" typeId="yvor.1070534370425:3" id="592792776163344492" />
+                        <node role="initializer" roleId="yvor.1068431790190:3" type="yvor.IntegerConstant" typeId="yvor.1068580320020:3" id="592792776163344494">
+                          <property name="value" nameId="yvor.1068580320021:3" value="0" />
+                        </node>
+                      </node>
+                    </node>
+                    <node role="statement" roleId="yvor.1068581517665:3" type="yvor.ExpressionStatement" typeId="yvor.1068580123155:3" id="592792776163344496">
+                      <node role="expression" roleId="yvor.1068580123156:3" type="yvor.DotExpression" typeId="yvor.1197027756228:3" id="592792776163344498">
+                        <node role="operand" roleId="yvor.1197027771414:3" type="yvor.StaticFieldReference" typeId="yvor.1070533707846:3" id="592792776163344497">
+                          <link role="classifier" roleId="yvor.1144433057691:3" targetNodeId="vhgx.~System" resolveInfo="System" />
+                          <link role="variableDeclaration" roleId="yvor.1068581517664:3" targetNodeId="vhgx.~System%dout" resolveInfo="out" />
+                        </node>
+                        <node role="operation" roleId="yvor.1197027833540:3" type="yvor.InstanceMethodCallOperation" typeId="yvor.1202948039474:3" id="592792776163344502">
+                          <link role="baseMethodDeclaration" roleId="yvor.1068499141037:3" targetNodeId="tiz1.~PrintStream%dprintln(int)%cvoid" resolveInfo="println" />
+                          <node role="actualArgument" roleId="yvor.1068499141038:3" type="yvor.LocalVariableReference" typeId="yvor.1068581242866:3" id="592792776163344503">
+                            <link role="variableDeclaration" roleId="yvor.1068581517664:3" targetNodeId="592792776163344491" resolveInfo="a" />
+                          </node>
+                        </node>
+                      </node>
+                    </node>
+                  </node>
+                  <node role="condition" roleId="yvor.1068580123160:3" type="yvor.StaticMethodCall" typeId="yvor.1081236700937:3" id="592792776163344487">
+                    <link role="classConcept" roleId="yvor.1144433194310:3" targetNodeId="nz5.5639900666367221336" resolveInfo="GeomUtil" />
+                    <link role="baseMethodDeclaration" roleId="yvor.1068499141037:3" targetNodeId="nz5.8527875266531954508" resolveInfo="intersects" />
+                    <node role="actualArgument" roleId="yvor.1068499141038:3" type="yvor.LocalVariableReference" typeId="yvor.1068581242866:3" id="592792776163344488">
+                      <link role="variableDeclaration" roleId="yvor.1068581517664:3" targetNodeId="1675865317250550865" resolveInfo="rect" />
+                    </node>
+                    <node role="actualArgument" roleId="yvor.1068499141038:3" type="yvor.LocalVariableReference" typeId="yvor.1068581242866:3" id="592792776163344489">
+                      <link role="variableDeclaration" roleId="yvor.1068581517664:3" targetNodeId="1675865317250550722" resolveInfo="path" />
                     </node>
                   </node>
                 </node>

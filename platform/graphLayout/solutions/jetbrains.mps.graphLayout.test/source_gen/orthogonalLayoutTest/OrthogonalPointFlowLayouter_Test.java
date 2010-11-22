@@ -6,7 +6,7 @@ import junit.framework.TestCase;
 import jetbrains.mps.graphLayout.graph.Graph;
 import visualization.GraphIO;
 import java.util.Scanner;
-import jetbrains.mps.graphLayout.flowOrthogonalLayout.OrthogonalPointFlowLayouter;
+import jetbrains.mps.graphLayout.internal.flowOrthogonalLayout.OrthogonalPointFlowLayouter;
 import jetbrains.mps.graphLayout.graphLayout.GraphPointLayout;
 
 public class OrthogonalPointFlowLayouter_Test extends TestCase {

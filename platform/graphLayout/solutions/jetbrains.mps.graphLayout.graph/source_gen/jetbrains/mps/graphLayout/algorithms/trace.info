@@ -1346,7 +1346,7 @@
     <scopeInfo nodeId="3182425861591381228" fileName="ConnectivityComponents.java" startLine="43" startPosition="0" endLine="58" endPosition="0">
       <varInfo nodeId="3182425861591381246" varName="components" />
     </scopeInfo>
-    <unitInfo nodeId="3182425861591378998" fileName="ConnectivityComponents.java" startLine="21" startPosition="36" endLine="25" endPosition="5" unitName="jetbrains.mps.graphLayout.algorithms._FunctionTypes._return_P1_E0$anonymous" />
+    <unitInfo nodeId="3182425861591378998" fileName="ConnectivityComponents.java" startLine="21" startPosition="36" endLine="25" endPosition="5" unitName="jetbrains.mps.graphLayout.algorithms._return_P1_E0$anonymous" />
     <unitInfo nodeId="5213231752900660172" fileName="ConnectivityComponents.java" startLine="59" startPosition="0" endLine="87" endPosition="0" unitName="jetbrains.mps.graphLayout.algorithms.ConnectivityComponents$MyDfs" />
     <unitInfo nodeId="5213231752900660164" fileName="ConnectivityComponents.java" startLine="19" startPosition="0" endLine="88" endPosition="0" unitName="jetbrains.mps.graphLayout.algorithms.ConnectivityComponents" />
   </root>

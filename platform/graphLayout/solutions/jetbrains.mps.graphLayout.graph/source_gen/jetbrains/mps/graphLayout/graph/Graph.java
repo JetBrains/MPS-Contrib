@@ -28,11 +28,11 @@ public class Graph implements IGraph {
     return ListSequence.fromList(getEdges()).iterator();
   }
 
-  public INode createNode() {
+  public Node createNode() {
     return addNode();
   }
 
-  public IEdge connect(INode source, INode target) {
+  public Edge connect(INode source, INode target) {
     Node sourceNode = (Node) source;
     Node targetNode = (Node) target;
     return sourceNode.addEdgeTo(targetNode);

@@ -24,6 +24,7 @@ public class MultiTest {
     addTestCase(10, 20, 100);
     addTestCase(10, 25, 100);
     addTestCase(20, 50, 100);
+    addTestCase(30, 55, 50);
     runTests();
   }
 

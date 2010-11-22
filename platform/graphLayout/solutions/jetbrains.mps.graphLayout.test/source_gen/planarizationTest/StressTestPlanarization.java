@@ -48,7 +48,9 @@ public class StressTestPlanarization {
         System.out.println("skipped  :(");
         continue;
       }
-      BiconnectAugmentation.makeBiconnected(firstComponent);
+      /*
+        BiconnectAugmentation.makeBiconnected(firstComponent);
+      */
       PrintWriter out = new PrintWriter(fileName);
       GraphIO.writeGraph(firstComponent, out);
       out.close();

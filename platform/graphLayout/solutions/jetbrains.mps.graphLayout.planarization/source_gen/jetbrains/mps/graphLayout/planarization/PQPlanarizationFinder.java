@@ -9,11 +9,11 @@ import jetbrains.mps.graphLayout.planarGraph.EmbeddedGraph;
 import jetbrains.mps.graphLayout.algorithms.ConnectivityComponents;
 import jetbrains.mps.internal.collections.runtime.ListSequence;
 import jetbrains.mps.internal.collections.runtime.MapSequence;
+import jetbrains.mps.graphLayout.algorithms.BiconnectedComponent;
 import jetbrains.mps.graphLayout.algorithms.GraphOrientation;
 import java.util.Set;
 import jetbrains.mps.graphLayout.graph.Edge;
 import jetbrains.mps.internal.collections.runtime.SetSequence;
-import jetbrains.mps.graphLayout.algorithms.BiconnectedComponent;
 import java.util.HashMap;
 import jetbrains.mps.graphLayout.planarGraph.Face;
 import jetbrains.mps.graphLayout.planarGraph.Dart;
@@ -36,29 +36,37 @@ public class PQPlanarizationFinder implements IEmbeddingFinder {
       }
     }
     myGraph = graph;
-    myNumbering = GraphOrientation.orientST(graph);
-    PQPlanarityTest pqPlanarityTest = new PQPlanarityTest();
-    Set<Edge> removed = pqPlanarityTest.removeEdgesToPlanarity(graph, myNumbering);
+    BiconnectedComponent componentsTree = BiconnectedComponent.createTree(graph);
     if (SHOW_LOG > 0) {
-      System.out.println("removed edges:");
-      System.out.println(removed);
+      System.out.println(componentsTree.toString(""));
     }
-    if (SetSequence.fromSet(removed).count() == 0) {
-      return pqPlanarityTest.getEmbedding(graph, myNumbering);
-    } else {
-      for (Edge edge : SetSequence.fromSet(removed)) {
-        edge.removeFromGraph();
-      }
-      BiconnectedComponent tree = BiconnectedComponent.createTree(graph);
+    return createEmbedding(componentsTree);
+    /*
+
+      myNumbering = GraphOrientation.orientST(graph);
+      PQPlanarityTest pqPlanarityTest = new PQPlanarityTest();
+      Set<Edge> removed = pqPlanarityTest.removeEdgesToPlanarity(graph, myNumbering);
       if (SHOW_LOG > 0) {
-        System.out.println(tree.toString(""));
+        System.out.println("removed edges:");
+        System.out.println(removed);
       }
-      EmbeddedGraph embeddedGraph = createEmbedding(tree);
-      for (Edge edge : SetSequence.fromSet(removed)) {
-        edge.addToGraph();
+      if (SetSequence.fromSet(removed).count() == 0) {
+        return pqPlanarityTest.getEmbedding(graph, myNumbering);
+      } else {
+        for (Edge edge : SetSequence.fromSet(removed)) {
+          edge.removeFromGraph();
+        }
+        BiconnectedComponent tree = BiconnectedComponent.createTree(graph);
+        if (SHOW_LOG > 0) {
+          System.out.println(tree.toString(""));
+        }
+        EmbeddedGraph embeddedGraph = createEmbedding(tree);
+        for (Edge edge : SetSequence.fromSet(removed)) {
+          edge.addToGraph();
+        }
+        return embeddedGraph;
       }
-      return embeddedGraph;
-    }
+    */
   }
 
   private EmbeddedGraph createEmbedding(BiconnectedComponent component) {
@@ -88,7 +96,21 @@ public class PQPlanarizationFinder implements IEmbeddingFinder {
         System.out.println("COMPONENT!!! " + componentGraph.getNumNodes() + "  : " + ListSequence.fromList(componentGraph.getEdges()).count());
         System.out.println("map: " + nodeMap);
       }
-      EmbeddedGraph componentEmbedding = new PQPlanarityTest().getEmbedding(componentGraph, GraphOrientation.orientST(componentGraph));
+      PQPlanarityTest pqPlanarityTest = new PQPlanarityTest();
+      Set<Edge> removed = pqPlanarityTest.removeEdgesToPlanarity(componentGraph, GraphOrientation.orientST(componentGraph));
+      EmbeddedGraph componentEmbedding;
+      if (SetSequence.fromSet(removed).count() == 0) {
+        componentEmbedding = pqPlanarityTest.getEmbedding(componentGraph, GraphOrientation.orientST(componentGraph));
+      } else {
+        for (Edge edge : SetSequence.fromSet(removed)) {
+          edge.removeFromGraph();
+        }
+        BiconnectedComponent tree = BiconnectedComponent.createTree(componentGraph);
+        componentEmbedding = createEmbedding(tree);
+        for (Edge edge : SetSequence.fromSet(removed)) {
+          edge.addToGraph();
+        }
+      }
       for (Face componentFace : ListSequence.fromList(componentEmbedding.getFaces())) {
         Face graphFace = new Face(myGraph);
         for (Dart dart : ListSequence.fromList(componentFace.getDarts())) {

@@ -70,4 +70,9 @@ public class Rectangle {
   public int maxY() {
     return y + height;
   }
+
+  @Override
+  public String toString() {
+    return "[min: " + new Point(x, y) + " max: " + new Point(maxX(), maxY()) + "]";
+  }
 }

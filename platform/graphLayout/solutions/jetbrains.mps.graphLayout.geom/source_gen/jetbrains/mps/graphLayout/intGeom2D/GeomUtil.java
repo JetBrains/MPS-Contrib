@@ -7,7 +7,15 @@ public class GeomUtil {
   public static boolean intersects(Point p1, Point p2, Point q1, Point q2) {
     boolean sameQ = GeomUtil.isOnSameSide(p1, p2, q1, q2);
     boolean sameP = GeomUtil.isOnSameSide(q1, q2, p1, p2);
-    return !(sameP) && !(sameQ);
+    if (sameP || sameQ) {
+      return false;
+    } else {
+      return inside(p1, p2, q1) || inside(p1, p2, q2) || inside(q1, q2, p1) || inside(q1, q2, p2);
+    }
+  }
+
+  private static boolean inside(Point e1, Point e2, Point p) {
+    return scalar(p.x - e1.x, p.y - e1.y, p.x - e2.x, p.y - e2.y) <= 0;
   }
 
   public static boolean intersects(int minX, int maxX, int minY, int maxY) {
@@ -17,12 +25,16 @@ public class GeomUtil {
   private static boolean isOnSameSide(Point p1, Point p2, Point q1, Point q2) {
     int x = p1.x - p2.x;
     int y = p1.y - p2.y;
-    int c1 = intCrossproduct(x, y, q1.x - p2.x, q1.y - p2.y);
-    int c2 = intCrossproduct(x, y, q2.x - p2.x, q2.y - p1.y);
+    int c1 = crossproduct2D(x, y, q1.x - p2.x, q1.y - p2.y);
+    int c2 = crossproduct2D(x, y, q2.x - p2.x, q2.y - p2.y);
     return (c1 > 0 && c2 > 0) || (c1 < 0 && c2 < 0);
   }
 
-  private static int intCrossproduct(int x1, int y1, int x2, int y2) {
+  private static int crossproduct2D(int x1, int y1, int x2, int y2) {
     return x1 * y2 - x2 * y1;
+  }
+
+  public static int scalar(int x1, int y1, int x2, int y2) {
+    return x1 * x2 + y1 * y2;
   }
 }
