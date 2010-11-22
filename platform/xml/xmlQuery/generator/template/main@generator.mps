@@ -1380,8 +1380,30 @@
         </node>
       </node>
     </node>
-    <node role="superclass" roleId="yvor.1165602531693:3" type="yvor.ClassifierType" typeId="yvor.1107535904670:3" id="8640335038347081791">
-      <link role="classifier" roleId="yvor.1107535924139:3" targetNodeId="cbac.~DefaultHandler" resolveInfo="DefaultHandler" />
+    <node role="superclass" roleId="yvor.1165602531693:3" type="yvor.ClassifierType" typeId="yvor.1107535904670:3" id="2084096332909504025">
+      <link role="classifier" roleId="yvor.1107535924139:3" targetNodeId="no10.2084096332909492403" resolveInfo="DefaultXMLHandler" />
+      <node role="parameter" roleId="yvor.1109201940907:3" type="yvor.ClassifierType" typeId="yvor.1107535904670:3" id="2084096332909504084">
+        <link role="classifier" roleId="yvor.1107535924139:3" targetNodeId="vhgx.~Object" resolveInfo="Object" />
+        <node role="nodeMacro$attribute" type="yvp6.CopySrcNodeMacro" typeId="yvp6.1114706874351:2" id="2084096332909504086">
+          <node role="sourceNodeQuery" roleId="yvp6.1168024447342:2" type="yvp6.SourceSubstituteMacro_SourceNodeQuery" typeId="yvp6.1168024337012:2" id="2084096332909504089">
+            <node role="body" roleId="yvor.1137022507850:3" type="yvor.StatementList" typeId="yvor.1068580123136:3" id="2084096332909504090">
+              <node role="statement" roleId="yvor.1068581517665:3" type="yvor.ExpressionStatement" typeId="yvor.1068580123155:3" id="2084096332909504091">
+                <node role="expression" roleId="yvor.1068580123156:3" type="yvor.DotExpression" typeId="yvor.1197027756228:3" id="2084096332909535664">
+                  <node role="operand" roleId="yvor.1197027771414:3" type="yvor.DotExpression" typeId="yvor.1197027756228:3" id="2084096332909504092">
+                    <node role="operation" roleId="yvor.1197027833540:3" type="yvim.SLinkAccess" typeId="yvim.1138056143562:16" id="2084096332909504093">
+                      <link role="link" roleId="yvim.1138056516764:16" targetNodeId="tark.4635390255047981684:4" />
+                    </node>
+                    <node role="operand" roleId="yvor.1197027771414:3" type="yvp6.TemplateFunctionParameter_sourceNode" typeId="yvp6.1167169188348:2" id="2084096332909504094" />
+                  </node>
+                  <node role="operation" roleId="yvor.1197027833540:3" type="yvim.SLinkAccess" typeId="yvim.1138056143562:16" id="2084096332909535668">
+                    <link role="link" roleId="yvim.1138056516764:16" targetNodeId="tark.4635390255047981675:4" />
+                  </node>
+                </node>
+              </node>
+            </node>
+          </node>
+        </node>
+      </node>
     </node>
     <node role="staticField" roleId="yvor.1128555889557:3" type="yvor.StaticFieldDeclaration" typeId="yvor.1070462154015:3" id="3444414697307455387">
       <property name="name" nameId="yvnu.1169194664001:0" value="EMPTY_ARRAY" />

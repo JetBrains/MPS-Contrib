@@ -8,6 +8,9 @@ import jetbrains.mps.internal.collections.runtime.ListSequence;
 import java.util.ArrayList;
 
 public class AttributeUtils {
+  public AttributeUtils() {
+  }
+
   public static String stringWithDefault(String value, String defaultValue) {
     return (value == null ?
       defaultValue :
