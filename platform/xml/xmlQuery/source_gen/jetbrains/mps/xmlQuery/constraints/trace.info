@@ -6,10 +6,11 @@
   <unitInfo fileName="TextBuilder_Constraints.java" startLine="10" startPosition="0" endLine="15" endPosition="0" unitName="jetbrains.mps.xmlQuery.constraints.TextBuilder_Constraints" />
   <unitInfo fileName="AttributeBuilder_Constraints.java" startLine="10" startPosition="0" endLine="15" endPosition="0" unitName="jetbrains.mps.xmlQuery.constraints.AttributeBuilder_Constraints" />
   <unitInfo fileName="XMLElementOperation_Constraints.java" startLine="11" startPosition="0" endLine="16" endPosition="0" unitName="jetbrains.mps.xmlQuery.constraints.XMLElementOperation_Constraints" />
+  <unitInfo fileName="XMLSAXChildRule_rule_ReferentConstraint.java" startLine="13" startPosition="0" endLine="33" endPosition="0" unitName="jetbrains.mps.xmlQuery.constraints.XMLSAXChildRule_rule_ReferentConstraint" />
   <unitInfo fileName="AccessAttributeOperation_attributeDeclaration_ReferentConstraint.java" startLine="15" startPosition="0" endLine="35" endPosition="0" unitName="jetbrains.mps.xmlQuery.constraints.AccessAttributeOperation_attributeDeclaration_ReferentConstraint" />
   <unitInfo fileName="XMLElementType_schema_ReferentConstraint.java" startLine="12" startPosition="0" endLine="33" endPosition="0" unitName="jetbrains.mps.xmlQuery.constraints.XMLElementType_schema_ReferentConstraint" />
   <unitInfo fileName="XMLSAXFieldReference_declaration_ReferentConstraint.java" startLine="16" startPosition="0" endLine="40" endPosition="0" unitName="jetbrains.mps.xmlQuery.constraints.XMLSAXFieldReference_declaration_ReferentConstraint" />
-  <unitInfo fileName="ConstraintsDescriptor.java" startLine="11" startPosition="0" endLine="37" endPosition="0" unitName="jetbrains.mps.xmlQuery.constraints.ConstraintsDescriptor" />
+  <unitInfo fileName="ConstraintsDescriptor.java" startLine="11" startPosition="0" endLine="38" endPosition="0" unitName="jetbrains.mps.xmlQuery.constraints.ConstraintsDescriptor" />
   <unitInfo fileName="ElementBuilder_elementDeclaration_ReferentConstraint.java" startLine="20" startPosition="0" endLine="47" endPosition="0" unitName="jetbrains.mps.xmlQuery.constraints.ElementBuilder_elementDeclaration_ReferentConstraint" />
   <unitInfo fileName="XMLSAXAttributeReference_attribute_ReferentConstraint.java" startLine="20" startPosition="0" endLine="49" endPosition="0" unitName="jetbrains.mps.xmlQuery.constraints.XMLSAXAttributeReference_attribute_ReferentConstraint" />
   <unitInfo fileName="AttributeBuilder_attributeDeclaration_ReferentConstraint.java" startLine="19" startPosition="0" endLine="52" endPosition="0" unitName="jetbrains.mps.xmlQuery.constraints.AttributeBuilder_attributeDeclaration_ReferentConstraint" />
@@ -28,6 +29,10 @@
     <scopeInfo nodeId="1384720974900260389" fileName="ElementBuilder_elementDeclaration_ReferentConstraint.java" startLine="32" startPosition="132" endLine="40" endPosition="5">
       <varInfo nodeId="1384720974900260391" varName="contextBuilder" />
     </scopeInfo>
+  </root>
+  <root nodeId="1967473504308939654">
+    <nodeInfo nodeId="1967473504308941563" conceptFqName="jetbrains.mps.baseLanguage.structure.ReturnStatement" fileName="XMLSAXChildRule_rule_ReferentConstraint.java" startLine="25" startPosition="132" endLine="26" endPosition="180" />
+    <scopeInfo nodeId="1967473504308939657" fileName="XMLSAXChildRule_rule_ReferentConstraint.java" startLine="25" startPosition="132" endLine="26" endPosition="180" />
   </root>
   <root nodeId="2286463592495220223">
     <nodeInfo nodeId="2286463592495228830" conceptFqName="jetbrains.mps.baseLanguage.structure.ReturnStatement" fileName="XMLSAXAttributeReference_Constraints.java" startLine="10" startPosition="114" endLine="11" endPosition="142" />
