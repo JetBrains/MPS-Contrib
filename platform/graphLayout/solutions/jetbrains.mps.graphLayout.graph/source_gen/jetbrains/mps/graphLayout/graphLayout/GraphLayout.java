@@ -11,9 +11,9 @@ import java.util.List;
 import jetbrains.mps.graphLayout.intGeom2D.Point;
 import jetbrains.mps.internal.collections.runtime.MapSequence;
 import java.util.HashMap;
-import java.util.Iterator;
-import jetbrains.mps.internal.collections.runtime.ListSequence;
+import java.util.Set;
 import jetbrains.mps.internal.collections.runtime.SetSequence;
+import jetbrains.mps.internal.collections.runtime.ListSequence;
 import jetbrains.mps.graphLayout.util.GeomUtil;
 import jetbrains.mps.internal.collections.runtime.Sequence;
 
@@ -32,6 +32,18 @@ public class GraphLayout implements IGraphLayout {
 
   public Map<INode, Rectangle> getNodeLayout() {
     return this.myNodeLayout;
+  }
+
+  public Set<? extends INode> getLayoutedNodes() {
+    return MapSequence.fromMap(myNodeLayout).keySet();
+  }
+
+  public Set<? extends IEdge> getLayoutedEdges() {
+    return MapSequence.fromMap(myEdgeLayout).keySet();
+  }
+
+  public Set<? extends IEdge> getLayoutedLabels() {
+    return MapSequence.fromMap(myLabelLayout).keySet();
   }
 
   public void setNodeLayout(Map<INode, Rectangle> nodeLayout) {
@@ -60,10 +72,6 @@ public class GraphLayout implements IGraphLayout {
 
   public List<Point> getEdgeLayout(IEdge edge) {
     return MapSequence.fromMap(myEdgeLayout).get(edge);
-  }
-
-  public Iterator<Point> getRouteLayout(IEdge edge) {
-    return ListSequence.fromList(getEdgeLayout(edge)).iterator();
   }
 
   public void setLabelLayout(IEdge edge, Rectangle rectangle) {

@@ -15,6 +15,7 @@ import jetbrains.mps.graphLayout.graph.Node;
 import jetbrains.mps.internal.collections.runtime.IWhereFilter;
 import jetbrains.mps.internal.collections.runtime.ISelector;
 import java.util.Set;
+import jetbrains.mps.internal.collections.runtime.backports.LinkedList;
 
 public class EmbeddedGraph {
   private List<Face> myFaces;
@@ -310,6 +311,17 @@ public class EmbeddedGraph {
     return next;
   }
 
+  public List<Dart> getOrderedDarts(Node node) {
+    List<Dart> darts = getDartWithSource(node);
+    List<Dart> sortedDarts = ListSequence.fromList(new LinkedList<Dart>());
+    Dart curDart = ListSequence.fromList(darts).first();
+    while (ListSequence.fromList(sortedDarts).count() != ListSequence.fromList(darts).count()) {
+      ListSequence.fromList(sortedDarts).addElement(curDart);
+      curDart = getNextSourceDart(curDart);
+    }
+    return sortedDarts;
+  }
+
   public Graph getGraph() {
     return this.myGraph;
   }
@@ -363,6 +375,9 @@ public class EmbeddedGraph {
         cur = newEdge.getOpposite(cur);
       }
     }
+    if (!(ListSequence.fromList(ListSequence.fromList(fullHistory).first().getAdjacentNodes()).contains(edge.getSource()))) {
+      fullHistory = ListSequence.fromList(fullHistory).reversedList();
+    }
     /*
       if (history == null) {
         ListSequence.fromList(fullHistory).addElement(edge);
@@ -370,9 +385,6 @@ public class EmbeddedGraph {
         for (Edge newEdge : ListSequence.fromList(history)) {
           ListSequence.fromList(fullHistory).addSequence(ListSequence.fromList(findFullHistory(newEdge)));
         }
-      }
-      if (!(ListSequence.fromList(ListSequence.fromList(fullHistory).first().getAdjacentNodes()).contains(edge.getSource()))) {
-        fullHistory = ListSequence.fromList(fullHistory).reversedList();
       }
     */
     return fullHistory;

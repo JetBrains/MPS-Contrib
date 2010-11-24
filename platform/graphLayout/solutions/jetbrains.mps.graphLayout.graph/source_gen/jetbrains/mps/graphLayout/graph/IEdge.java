@@ -6,4 +6,5 @@ package jetbrains.mps.graphLayout.graph;
 public interface IEdge {
   public INode getSource();
   public INode getTarget();
+  public INode getOpposite(INode node);
 }

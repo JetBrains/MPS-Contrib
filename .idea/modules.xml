@@ -83,7 +83,6 @@
       <module fileurl="file://$PROJECT_DIR$/plugins/vcs/vcs.iml" filepath="$PROJECT_DIR$/plugins/vcs/vcs.iml" group="plugins" />
       <module fileurl="file://$PROJECT_DIR$/workbench/workbench.iml" filepath="$PROJECT_DIR$/workbench/workbench.iml" group="workbench" />
       <module fileurl="file://$PROJECT_DIR$/platform/xmlDeprecated/xmlDeprecated.iml" filepath="$PROJECT_DIR$/platform/xmlDeprecated/xmlDeprecated.iml" group="platform" />
-      <module fileurl="file://$PROJECT_DIR$/core/kernel/xmlQuery/runtime/xmlQuery-runtime.iml" filepath="$PROJECT_DIR$/core/kernel/xmlQuery/runtime/xmlQuery-runtime.iml" />
     </modules>
   </component>
 </project>

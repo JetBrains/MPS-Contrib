@@ -16,18 +16,24 @@ import java.util.Map;
 import jetbrains.mps.graphLayout.intGeom2D.Dimension;
 import jetbrains.mps.internal.collections.runtime.MapSequence;
 import jetbrains.mps.internal.collections.runtime.SetSequence;
+import jetbrains.mps.graphLayout.graph.ClusteredGraph;
 
 public class GraphIO {
   public static Graph scanGraph(String graphString) {
     return scanGraph(new Scanner(graphString));
   }
 
-  public static Graph scanGraph(Scanner scanner) throws IllegalArgumentException {
+  public static Graph scanGraph(Scanner scanner) {
+    Graph graph = new Graph();
+    scanGraph(scanner, graph);
+    return graph;
+  }
+
+  public static void scanGraph(Scanner scanner, Graph graph) {
     try {
-      Graph graph = new Graph();
       int numNodes = scanner.nextInt();
       for (int i = 0; i < numNodes; i++) {
-        graph.addNode();
+        graph.createNode();
       }
       int numEdges = scanner.nextInt();
       for (int i = 0; i < numEdges; i++) {
@@ -35,7 +41,6 @@ public class GraphIO {
         int target = scanner.nextInt();
         graph.getNode(source).addEdgeTo(graph.getNode(target));
       }
-      return graph;
     } catch (Exception e) {
       throw new IllegalArgumentException("invalid input", e);
     }
@@ -96,6 +101,28 @@ public class GraphIO {
     for (Edge edge : SetSequence.fromSet(MapSequence.fromMap(edgeLabelSizes).keySet())) {
       writer.println(edge.getSource().getIndex() + " " + edge.getTarget().getIndex() + " " + MapSequence.fromMap(edgeLabelSizes).get(edge).width + " " + MapSequence.fromMap(edgeLabelSizes).get(edge).height);
     }
+  }
 
+  public static ClusteredGraph scanClusteredGraph(String graphString, String treeString) {
+    return scanClusteredGraph(new Scanner(graphString), new Scanner(treeString));
+  }
+
+  public static ClusteredGraph scanClusteredGraph(Scanner graphScanner, Scanner treeScanner) {
+    try {
+      ClusteredGraph graph = new ClusteredGraph();
+      scanGraph(graphScanner, graph);
+      Graph tree = graph.getInclusionTree();
+      scanGraph(treeScanner, tree);
+      int cur = 0;
+      for (Node cluster : ListSequence.fromList(tree.getNodes())) {
+        if (ListSequence.fromList(cluster.getOutEdges()).count() == 0) {
+          graph.setNodeInCluster(cluster, graph.getNode(cur++));
+        }
+      }
+      graph.setRoot(tree.getNode(0));
+      return graph;
+    } catch (Exception e) {
+      throw new IllegalArgumentException("invalid input", e);
+    }
   }
 }

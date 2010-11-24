@@ -10,10 +10,12 @@ import jetbrains.mps.graphLayout.graph.Edge;
 import jetbrains.mps.internal.collections.runtime.ListSequence;
 import jetbrains.mps.internal.collections.runtime.MapSequence;
 import java.util.List;
-import jetbrains.mps.internal.collections.runtime.SetSequence;
 import java.util.ArrayList;
 import jetbrains.mps.internal.collections.runtime.LinkedListSequence;
 import jetbrains.mps.internal.collections.runtime.backports.LinkedList;
+import jetbrains.mps.internal.collections.runtime.SetSequence;
+import java.util.Set;
+import java.util.HashSet;
 import java.util.HashMap;
 
 public class ConnectivityComponents {
@@ -42,10 +44,7 @@ public class ConnectivityComponents {
   }
 
   public static List<List<Node>> getComponentsList(Map<Node, Integer> components) {
-    int componentsNum = 0;
-    for (Node node : SetSequence.fromSet(MapSequence.fromMap(components).keySet())) {
-      componentsNum = Math.max(componentsNum, MapSequence.fromMap(components).get(node) + 1);
-    }
+    int componentsNum = ConnectivityComponents.getComponentsNum(components);
     List<List<Node>> componentsList = ListSequence.fromList(new ArrayList<List<Node>>(componentsNum));
     for (int i = 0; i < componentsNum; i++) {
       ListSequence.fromList(componentsList).addElement(LinkedListSequence.fromLinkedList(new LinkedList<Node>()));
@@ -54,6 +53,33 @@ public class ConnectivityComponents {
       ListSequence.fromList(ListSequence.fromList(componentsList).getElement(MapSequence.fromMap(components).get(node))).addElement(node);
     }
     return componentsList;
+  }
+
+  private static int getComponentsNum(Map<Node, Integer> components) {
+    int componentsNum = 0;
+    for (Node node : SetSequence.fromSet(MapSequence.fromMap(components).keySet())) {
+      componentsNum = Math.max(componentsNum, MapSequence.fromMap(components).get(node) + 1);
+    }
+    return componentsNum;
+  }
+
+  public static Set<Edge> makeConnected(Graph graph) {
+    Set<Edge> addedEdges = SetSequence.fromSet(new HashSet<Edge>());
+    Map<Node, Integer> components = getComponents(graph);
+    int num = getComponentsNum(components);
+    Node[] nodes = new Node[num];
+    for (Node node : SetSequence.fromSet(MapSequence.fromMap(components).keySet())) {
+      nodes[MapSequence.fromMap(components).get(node)] = node;
+    }
+    Node prev = null;
+    for (Node node : nodes) {
+      if (prev != null) {
+        Edge edge = graph.connect(prev, node);
+        SetSequence.fromSet(addedEdges).addElement(edge);
+      }
+      prev = node;
+    }
+    return addedEdges;
   }
 
   private static class MyDfs extends Dfs {

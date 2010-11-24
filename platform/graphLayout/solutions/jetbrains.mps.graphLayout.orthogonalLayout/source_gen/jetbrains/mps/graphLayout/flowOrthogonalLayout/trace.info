@@ -1488,71 +1488,58 @@
     <nodeInfo nodeId="8768371262605995576" conceptFqName="jetbrains.mps.baseLanguage.structure.ExpressionStatement" fileName="QuasiRepresentationModifier.java" startLine="149" startPosition="11" endLine="150" endPosition="184" />
     <nodeInfo nodeId="5736847780448779940" conceptFqName="jetbrains.mps.baseLanguage.structure.ExpressionStatement" fileName="QuasiRepresentationModifier.java" startLine="153" startPosition="54" endLine="154" endPosition="54" />
     <nodeInfo nodeId="5736847780448779950" conceptFqName="jetbrains.mps.baseLanguage.structure.ExpressionStatement" fileName="QuasiRepresentationModifier.java" startLine="154" startPosition="54" endLine="155" endPosition="53" />
-    <nodeInfo nodeId="4526870550031607260" conceptFqName="jetbrains.mps.baseLanguage.structure.LocalVariableDeclarationStatement" fileName="QuasiRepresentationModifier.java" startLine="160" startPosition="49" endLine="161" endPosition="63" />
-    <nodeInfo nodeId="4526870550031607267" conceptFqName="jetbrains.mps.baseLanguage.structure.LocalVariableDeclarationStatement" fileName="QuasiRepresentationModifier.java" startLine="161" startPosition="63" endLine="162" endPosition="75" />
-    <nodeInfo nodeId="4526870550031607273" conceptFqName="jetbrains.mps.baseLanguage.structure.LocalVariableDeclarationStatement" fileName="QuasiRepresentationModifier.java" startLine="162" startPosition="75" endLine="163" endPosition="56" />
-    <nodeInfo nodeId="4526870550031607287" conceptFqName="jetbrains.mps.baseLanguage.structure.ExpressionStatement" fileName="QuasiRepresentationModifier.java" startLine="164" startPosition="96" endLine="165" endPosition="61" />
-    <nodeInfo nodeId="1936743448702180244" conceptFqName="jetbrains.mps.baseLanguage.structure.ExpressionStatement" fileName="QuasiRepresentationModifier.java" startLine="165" startPosition="61" endLine="166" endPosition="59" />
-    <nodeInfo nodeId="4526870550031607292" conceptFqName="jetbrains.mps.baseLanguage.structure.LocalVariableDeclarationStatement" fileName="QuasiRepresentationModifier.java" startLine="167" startPosition="8" endLine="168" endPosition="56" />
-    <nodeInfo nodeId="4526870550031607301" conceptFqName="jetbrains.mps.baseLanguage.structure.LocalVariableDeclarationStatement" fileName="QuasiRepresentationModifier.java" startLine="169" startPosition="56" endLine="170" endPosition="60" />
-    <nodeInfo nodeId="4526870550031607315" conceptFqName="jetbrains.mps.baseLanguage.structure.ExpressionStatement" fileName="QuasiRepresentationModifier.java" startLine="171" startPosition="61" endLine="172" endPosition="27" />
-    <nodeInfo nodeId="4526870550031607319" conceptFqName="jetbrains.mps.baseLanguage.structure.BreakStatement" fileName="QuasiRepresentationModifier.java" startLine="172" startPosition="27" endLine="173" endPosition="18" />
-    <nodeInfo nodeId="4526870550031607320" conceptFqName="jetbrains.mps.baseLanguage.structure.ExpressionStatement" fileName="QuasiRepresentationModifier.java" startLine="177" startPosition="5" endLine="178" endPosition="24" />
-    <nodeInfo nodeId="4526870550031607324" conceptFqName="jetbrains.mps.baseLanguage.structure.LocalVariableDeclarationStatement" fileName="QuasiRepresentationModifier.java" startLine="178" startPosition="24" endLine="179" endPosition="34" />
-    <nodeInfo nodeId="4526870550031607332" conceptFqName="jetbrains.mps.baseLanguage.structure.ExpressionStatement" fileName="QuasiRepresentationModifier.java" startLine="181" startPosition="57" endLine="182" endPosition="29" />
-    <nodeInfo nodeId="4526870550031607352" conceptFqName="jetbrains.mps.baseLanguage.structure.ExpressionStatement" fileName="QuasiRepresentationModifier.java" startLine="186" startPosition="92" endLine="187" endPosition="97" />
-    <nodeInfo nodeId="4526870550031607368" conceptFqName="jetbrains.mps.baseLanguage.structure.ExpressionStatement" fileName="QuasiRepresentationModifier.java" startLine="189" startPosition="91" endLine="190" endPosition="104" />
-    <nodeInfo nodeId="4526870550031607376" conceptFqName="jetbrains.mps.baseLanguage.structure.ReturnStatement" fileName="QuasiRepresentationModifier.java" startLine="192" startPosition="5" endLine="193" endPosition="17" />
-    <nodeInfo nodeId="8768371262605995571" conceptFqName="jetbrains.mps.baseLanguage.structure.ReturnStatement" fileName="QuasiRepresentationModifier.java" startLine="196" startPosition="76" endLine="197" endPosition="27" />
-    <nodeInfo nodeId="8768371262605995421" conceptFqName="jetbrains.mps.baseLanguage.structure.FieldDeclaration" fileName="QuasiRepresentationModifier.java" startLine="200" startPosition="29" endLine="201" endPosition="39" />
-    <nodeInfo nodeId="8768371262605995427" conceptFqName="jetbrains.mps.baseLanguage.structure.FieldDeclaration" fileName="QuasiRepresentationModifier.java" startLine="201" startPosition="39" endLine="202" endPosition="34" />
-    <nodeInfo nodeId="8768371262605995433" conceptFqName="jetbrains.mps.baseLanguage.structure.FieldDeclaration" fileName="QuasiRepresentationModifier.java" startLine="202" startPosition="34" endLine="203" endPosition="26" />
-    <nodeInfo nodeId="8768371262605995437" conceptFqName="jetbrains.mps.baseLanguage.structure.FieldDeclaration" fileName="QuasiRepresentationModifier.java" startLine="203" startPosition="26" endLine="204" endPosition="30" />
-    <nodeInfo nodeId="8768371262605995499" conceptFqName="jetbrains.mps.baseLanguage.structure.ExpressionStatement" fileName="QuasiRepresentationModifier.java" startLine="206" startPosition="102" endLine="207" endPosition="43" />
-    <nodeInfo nodeId="8768371262605995513" conceptFqName="jetbrains.mps.baseLanguage.structure.ExpressionStatement" fileName="QuasiRepresentationModifier.java" startLine="207" startPosition="43" endLine="208" endPosition="33" />
-    <nodeInfo nodeId="8768371262605995526" conceptFqName="jetbrains.mps.baseLanguage.structure.ExpressionStatement" fileName="QuasiRepresentationModifier.java" startLine="208" startPosition="33" endLine="209" endPosition="29" />
-    <nodeInfo nodeId="8768371262605995539" conceptFqName="jetbrains.mps.baseLanguage.structure.ExpressionStatement" fileName="QuasiRepresentationModifier.java" startLine="209" startPosition="29" endLine="210" endPosition="37" />
-    <nodeInfo nodeId="8768371262605995448" conceptFqName="jetbrains.mps.baseLanguage.structure.ReturnStatement" fileName="QuasiRepresentationModifier.java" startLine="213" startPosition="42" endLine="214" endPosition="29" />
-    <nodeInfo nodeId="8768371262605995455" conceptFqName="jetbrains.mps.baseLanguage.structure.ReturnStatement" fileName="QuasiRepresentationModifier.java" startLine="217" startPosition="37" endLine="218" endPosition="24" />
-    <nodeInfo nodeId="8768371262605995461" conceptFqName="jetbrains.mps.baseLanguage.structure.ReturnStatement" fileName="QuasiRepresentationModifier.java" startLine="221" startPosition="29" endLine="222" endPosition="22" />
-    <nodeInfo nodeId="8768371262605995467" conceptFqName="jetbrains.mps.baseLanguage.structure.ReturnStatement" fileName="QuasiRepresentationModifier.java" startLine="225" startPosition="33" endLine="226" endPosition="26" />
-    <nodeInfo nodeId="8768371262606021278" conceptFqName="jetbrains.mps.baseLanguage.structure.LocalVariableDeclarationStatement" fileName="QuasiRepresentationModifier.java" startLine="230" startPosition="30" endLine="231" endPosition="50" />
-    <nodeInfo nodeId="8768371262606021294" conceptFqName="jetbrains.mps.baseLanguage.structure.ExpressionStatement" fileName="QuasiRepresentationModifier.java" startLine="231" startPosition="50" endLine="232" endPosition="40" />
-    <nodeInfo nodeId="8768371262606021303" conceptFqName="jetbrains.mps.baseLanguage.structure.ExpressionStatement" fileName="QuasiRepresentationModifier.java" startLine="232" startPosition="40" endLine="233" endPosition="61" />
-    <nodeInfo nodeId="8768371262606021316" conceptFqName="jetbrains.mps.baseLanguage.structure.ExpressionStatement" fileName="QuasiRepresentationModifier.java" startLine="233" startPosition="61" endLine="234" endPosition="51" />
-    <nodeInfo nodeId="8768371262606021323" conceptFqName="jetbrains.mps.baseLanguage.structure.ExpressionStatement" fileName="QuasiRepresentationModifier.java" startLine="234" startPosition="51" endLine="235" endPosition="46" />
-    <nodeInfo nodeId="8768371262606021330" conceptFqName="jetbrains.mps.baseLanguage.structure.ExpressionStatement" fileName="QuasiRepresentationModifier.java" startLine="235" startPosition="46" endLine="236" endPosition="48" />
-    <nodeInfo nodeId="8768371262606021285" conceptFqName="jetbrains.mps.baseLanguage.structure.ReturnStatement" fileName="QuasiRepresentationModifier.java" startLine="236" startPosition="48" endLine="237" endPosition="32" />
+    <nodeInfo nodeId="4526870550031607260" conceptFqName="jetbrains.mps.baseLanguage.structure.LocalVariableDeclarationStatement" fileName="QuasiRepresentationModifier.java" startLine="160" startPosition="49" endLine="161" endPosition="61" />
+    <nodeInfo nodeId="4526870550031607324" conceptFqName="jetbrains.mps.baseLanguage.structure.LocalVariableDeclarationStatement" fileName="QuasiRepresentationModifier.java" startLine="161" startPosition="61" endLine="162" endPosition="34" />
+    <nodeInfo nodeId="4526870550031607332" conceptFqName="jetbrains.mps.baseLanguage.structure.ExpressionStatement" fileName="QuasiRepresentationModifier.java" startLine="164" startPosition="57" endLine="165" endPosition="29" />
+    <nodeInfo nodeId="4526870550031607352" conceptFqName="jetbrains.mps.baseLanguage.structure.ExpressionStatement" fileName="QuasiRepresentationModifier.java" startLine="169" startPosition="92" endLine="170" endPosition="97" />
+    <nodeInfo nodeId="4526870550031607368" conceptFqName="jetbrains.mps.baseLanguage.structure.ExpressionStatement" fileName="QuasiRepresentationModifier.java" startLine="172" startPosition="91" endLine="173" endPosition="104" />
+    <nodeInfo nodeId="4526870550031607376" conceptFqName="jetbrains.mps.baseLanguage.structure.ReturnStatement" fileName="QuasiRepresentationModifier.java" startLine="175" startPosition="5" endLine="176" endPosition="17" />
+    <nodeInfo nodeId="8768371262605995571" conceptFqName="jetbrains.mps.baseLanguage.structure.ReturnStatement" fileName="QuasiRepresentationModifier.java" startLine="179" startPosition="76" endLine="180" endPosition="27" />
+    <nodeInfo nodeId="8768371262605995421" conceptFqName="jetbrains.mps.baseLanguage.structure.FieldDeclaration" fileName="QuasiRepresentationModifier.java" startLine="183" startPosition="29" endLine="184" endPosition="39" />
+    <nodeInfo nodeId="8768371262605995427" conceptFqName="jetbrains.mps.baseLanguage.structure.FieldDeclaration" fileName="QuasiRepresentationModifier.java" startLine="184" startPosition="39" endLine="185" endPosition="34" />
+    <nodeInfo nodeId="8768371262605995433" conceptFqName="jetbrains.mps.baseLanguage.structure.FieldDeclaration" fileName="QuasiRepresentationModifier.java" startLine="185" startPosition="34" endLine="186" endPosition="26" />
+    <nodeInfo nodeId="8768371262605995437" conceptFqName="jetbrains.mps.baseLanguage.structure.FieldDeclaration" fileName="QuasiRepresentationModifier.java" startLine="186" startPosition="26" endLine="187" endPosition="30" />
+    <nodeInfo nodeId="8768371262605995499" conceptFqName="jetbrains.mps.baseLanguage.structure.ExpressionStatement" fileName="QuasiRepresentationModifier.java" startLine="189" startPosition="102" endLine="190" endPosition="43" />
+    <nodeInfo nodeId="8768371262605995513" conceptFqName="jetbrains.mps.baseLanguage.structure.ExpressionStatement" fileName="QuasiRepresentationModifier.java" startLine="190" startPosition="43" endLine="191" endPosition="33" />
+    <nodeInfo nodeId="8768371262605995526" conceptFqName="jetbrains.mps.baseLanguage.structure.ExpressionStatement" fileName="QuasiRepresentationModifier.java" startLine="191" startPosition="33" endLine="192" endPosition="29" />
+    <nodeInfo nodeId="8768371262605995539" conceptFqName="jetbrains.mps.baseLanguage.structure.ExpressionStatement" fileName="QuasiRepresentationModifier.java" startLine="192" startPosition="29" endLine="193" endPosition="37" />
+    <nodeInfo nodeId="8768371262605995448" conceptFqName="jetbrains.mps.baseLanguage.structure.ReturnStatement" fileName="QuasiRepresentationModifier.java" startLine="196" startPosition="42" endLine="197" endPosition="29" />
+    <nodeInfo nodeId="8768371262605995455" conceptFqName="jetbrains.mps.baseLanguage.structure.ReturnStatement" fileName="QuasiRepresentationModifier.java" startLine="200" startPosition="37" endLine="201" endPosition="24" />
+    <nodeInfo nodeId="8768371262605995461" conceptFqName="jetbrains.mps.baseLanguage.structure.ReturnStatement" fileName="QuasiRepresentationModifier.java" startLine="204" startPosition="29" endLine="205" endPosition="22" />
+    <nodeInfo nodeId="8768371262605995467" conceptFqName="jetbrains.mps.baseLanguage.structure.ReturnStatement" fileName="QuasiRepresentationModifier.java" startLine="208" startPosition="33" endLine="209" endPosition="26" />
+    <nodeInfo nodeId="8768371262606021278" conceptFqName="jetbrains.mps.baseLanguage.structure.LocalVariableDeclarationStatement" fileName="QuasiRepresentationModifier.java" startLine="213" startPosition="30" endLine="214" endPosition="50" />
+    <nodeInfo nodeId="8768371262606021294" conceptFqName="jetbrains.mps.baseLanguage.structure.ExpressionStatement" fileName="QuasiRepresentationModifier.java" startLine="214" startPosition="50" endLine="215" endPosition="40" />
+    <nodeInfo nodeId="8768371262606021303" conceptFqName="jetbrains.mps.baseLanguage.structure.ExpressionStatement" fileName="QuasiRepresentationModifier.java" startLine="215" startPosition="40" endLine="216" endPosition="61" />
+    <nodeInfo nodeId="8768371262606021316" conceptFqName="jetbrains.mps.baseLanguage.structure.ExpressionStatement" fileName="QuasiRepresentationModifier.java" startLine="216" startPosition="61" endLine="217" endPosition="51" />
+    <nodeInfo nodeId="8768371262606021323" conceptFqName="jetbrains.mps.baseLanguage.structure.ExpressionStatement" fileName="QuasiRepresentationModifier.java" startLine="217" startPosition="51" endLine="218" endPosition="46" />
+    <nodeInfo nodeId="8768371262606021330" conceptFqName="jetbrains.mps.baseLanguage.structure.ExpressionStatement" fileName="QuasiRepresentationModifier.java" startLine="218" startPosition="46" endLine="219" endPosition="48" />
+    <nodeInfo nodeId="8768371262606021285" conceptFqName="jetbrains.mps.baseLanguage.structure.ReturnStatement" fileName="QuasiRepresentationModifier.java" startLine="219" startPosition="48" endLine="220" endPosition="32" />
     <nodeInfo nodeId="1265453300921036190" conceptFqName="jetbrains.mps.baseLanguage.structure.IfStatement" fileName="QuasiRepresentationModifier.java" startLine="59" startPosition="39" endLine="62" endPosition="13" />
     <nodeInfo nodeId="1265453300921036227" conceptFqName="jetbrains.mps.baseLanguage.structure.IfStatement" fileName="QuasiRepresentationModifier.java" startLine="65" startPosition="40" endLine="68" endPosition="11" />
     <nodeInfo nodeId="1936743448702245852" conceptFqName="jetbrains.mps.baseLanguage.structure.CommentedStatementsBlock" fileName="QuasiRepresentationModifier.java" startLine="116" startPosition="0" endLine="119" endPosition="14" />
     <nodeInfo nodeId="1936743448702245863" conceptFqName="jetbrains.mps.baseLanguage.structure.CommentedStatementsBlock" fileName="QuasiRepresentationModifier.java" startLine="132" startPosition="0" endLine="135" endPosition="14" />
-    <nodeInfo nodeId="4526870550031607330" conceptFqName="jetbrains.mps.baseLanguage.structure.IfStatement" fileName="QuasiRepresentationModifier.java" startLine="180" startPosition="52" endLine="183" endPosition="7" />
-    <nodeInfo nodeId="4526870550031607343" conceptFqName="jetbrains.mps.baseLanguage.structure.WhileStatement" fileName="QuasiRepresentationModifier.java" startLine="185" startPosition="24" endLine="188" endPosition="7" />
-    <nodeInfo nodeId="4526870550031607359" conceptFqName="jetbrains.mps.baseLanguage.structure.WhileStatement" fileName="QuasiRepresentationModifier.java" startLine="188" startPosition="7" endLine="191" endPosition="7" />
+    <nodeInfo nodeId="4526870550031607330" conceptFqName="jetbrains.mps.baseLanguage.structure.IfStatement" fileName="QuasiRepresentationModifier.java" startLine="163" startPosition="52" endLine="166" endPosition="7" />
+    <nodeInfo nodeId="4526870550031607343" conceptFqName="jetbrains.mps.baseLanguage.structure.WhileStatement" fileName="QuasiRepresentationModifier.java" startLine="168" startPosition="24" endLine="171" endPosition="7" />
+    <nodeInfo nodeId="4526870550031607359" conceptFqName="jetbrains.mps.baseLanguage.structure.WhileStatement" fileName="QuasiRepresentationModifier.java" startLine="171" startPosition="7" endLine="174" endPosition="7" />
     <nodeInfo nodeId="4526870550031607067" conceptFqName="jetbrains.mps.baseLanguage.structure.WhileStatement" fileName="QuasiRepresentationModifier.java" startLine="52" startPosition="88" endLine="56" endPosition="11" />
     <nodeInfo nodeId="4526870550031607580" conceptFqName="jetbrains.mps.baseLanguage.structure.InstanceMethodDeclaration" fileName="QuasiRepresentationModifier.java" startLine="79" startPosition="102" endLine="83" endPosition="0" />
     <nodeInfo nodeId="4526870550031607604" conceptFqName="jetbrains.mps.baseLanguage.structure.InstanceMethodDeclaration" fileName="QuasiRepresentationModifier.java" startLine="92" startPosition="105" endLine="96" endPosition="0" />
     <nodeInfo nodeId="1265453300921036306" conceptFqName="jetbrains.mps.baseLanguage.structure.IfStatement" fileName="QuasiRepresentationModifier.java" startLine="96" startPosition="15" endLine="100" endPosition="13" />
     <nodeInfo nodeId="5736847780448779935" conceptFqName="jetbrains.mps.baseLanguage.structure.ForeachStatement" fileName="QuasiRepresentationModifier.java" startLine="152" startPosition="7" endLine="156" endPosition="7" />
-    <nodeInfo nodeId="4526870550031607307" conceptFqName="jetbrains.mps.baseLanguage.structure.IfStatement" fileName="QuasiRepresentationModifier.java" startLine="170" startPosition="60" endLine="174" endPosition="11" />
-    <nodeInfo nodeId="8768371262605995001" conceptFqName="jetbrains.mps.baseLanguage.structure.InstanceMethodDeclaration" fileName="QuasiRepresentationModifier.java" startLine="195" startPosition="0" endLine="199" endPosition="0" />
-    <nodeInfo nodeId="8768371262605995443" conceptFqName="jetbrains.mps.baseLanguage.structure.InstanceMethodDeclaration" fileName="QuasiRepresentationModifier.java" startLine="212" startPosition="0" endLine="216" endPosition="0" />
-    <nodeInfo nodeId="8768371262605995450" conceptFqName="jetbrains.mps.baseLanguage.structure.InstanceMethodDeclaration" fileName="QuasiRepresentationModifier.java" startLine="216" startPosition="0" endLine="220" endPosition="0" />
-    <nodeInfo nodeId="8768371262605995457" conceptFqName="jetbrains.mps.baseLanguage.structure.InstanceMethodDeclaration" fileName="QuasiRepresentationModifier.java" startLine="220" startPosition="0" endLine="224" endPosition="0" />
-    <nodeInfo nodeId="8768371262605995463" conceptFqName="jetbrains.mps.baseLanguage.structure.InstanceMethodDeclaration" fileName="QuasiRepresentationModifier.java" startLine="224" startPosition="0" endLine="228" endPosition="0" />
+    <nodeInfo nodeId="8768371262605995001" conceptFqName="jetbrains.mps.baseLanguage.structure.InstanceMethodDeclaration" fileName="QuasiRepresentationModifier.java" startLine="178" startPosition="0" endLine="182" endPosition="0" />
+    <nodeInfo nodeId="8768371262605995443" conceptFqName="jetbrains.mps.baseLanguage.structure.InstanceMethodDeclaration" fileName="QuasiRepresentationModifier.java" startLine="195" startPosition="0" endLine="199" endPosition="0" />
+    <nodeInfo nodeId="8768371262605995450" conceptFqName="jetbrains.mps.baseLanguage.structure.InstanceMethodDeclaration" fileName="QuasiRepresentationModifier.java" startLine="199" startPosition="0" endLine="203" endPosition="0" />
+    <nodeInfo nodeId="8768371262605995457" conceptFqName="jetbrains.mps.baseLanguage.structure.InstanceMethodDeclaration" fileName="QuasiRepresentationModifier.java" startLine="203" startPosition="0" endLine="207" endPosition="0" />
+    <nodeInfo nodeId="8768371262605995463" conceptFqName="jetbrains.mps.baseLanguage.structure.InstanceMethodDeclaration" fileName="QuasiRepresentationModifier.java" startLine="207" startPosition="0" endLine="211" endPosition="0" />
     <nodeInfo nodeId="4526870550031607574" conceptFqName="jetbrains.mps.baseLanguage.structure.LocalVariableDeclarationStatement" fileName="QuasiRepresentationModifier.java" startLine="78" startPosition="84" endLine="83" endPosition="15" />
     <nodeInfo nodeId="4526870550031607598" conceptFqName="jetbrains.mps.baseLanguage.structure.LocalVariableDeclarationStatement" fileName="QuasiRepresentationModifier.java" startLine="91" startPosition="0" endLine="96" endPosition="15" />
-    <nodeInfo nodeId="4526870550031607327" conceptFqName="jetbrains.mps.baseLanguage.structure.ForeachStatement" fileName="QuasiRepresentationModifier.java" startLine="179" startPosition="34" endLine="184" endPosition="5" />
-    <nodeInfo nodeId="8768371262605995491" conceptFqName="jetbrains.mps.baseLanguage.structure.ConstructorDeclaration" fileName="QuasiRepresentationModifier.java" startLine="205" startPosition="0" endLine="211" endPosition="5" />
+    <nodeInfo nodeId="4526870550031607327" conceptFqName="jetbrains.mps.baseLanguage.structure.ForeachStatement" fileName="QuasiRepresentationModifier.java" startLine="162" startPosition="34" endLine="167" endPosition="5" />
+    <nodeInfo nodeId="8768371262605995491" conceptFqName="jetbrains.mps.baseLanguage.structure.ConstructorDeclaration" fileName="QuasiRepresentationModifier.java" startLine="188" startPosition="0" endLine="194" endPosition="5" />
     <nodeInfo nodeId="4526870550031420091" conceptFqName="jetbrains.mps.baseLanguage.structure.ConstructorDeclaration" fileName="QuasiRepresentationModifier.java" startLine="31" startPosition="0" endLine="38" endPosition="3" />
     <nodeInfo nodeId="1265453300921036168" conceptFqName="jetbrains.mps.baseLanguage.structure.ForeachStatement" fileName="QuasiRepresentationModifier.java" startLine="57" startPosition="83" endLine="64" endPosition="11" />
-    <nodeInfo nodeId="4526870550031607298" conceptFqName="jetbrains.mps.baseLanguage.structure.ForeachStatement" fileName="QuasiRepresentationModifier.java" startLine="168" startPosition="56" endLine="175" endPosition="9" />
-    <nodeInfo nodeId="4526870550031607341" conceptFqName="jetbrains.mps.baseLanguage.structure.IfStatement" fileName="QuasiRepresentationModifier.java" startLine="184" startPosition="5" endLine="192" endPosition="5" />
-    <nodeInfo nodeId="1936743448702180242" conceptFqName="jetbrains.mps.baseLanguage.structure.CommentedStatementsBlock" fileName="QuasiRepresentationModifier.java" startLine="166" startPosition="59" endLine="176" endPosition="8" />
-    <nodeInfo nodeId="8768371262606021268" conceptFqName="jetbrains.mps.baseLanguage.structure.InstanceMethodDeclaration" fileName="QuasiRepresentationModifier.java" startLine="228" startPosition="0" endLine="239" endPosition="0" />
-    <nodeInfo nodeId="4526870550031607278" conceptFqName="jetbrains.mps.baseLanguage.structure.WhileStatement" fileName="QuasiRepresentationModifier.java" startLine="163" startPosition="56" endLine="177" endPosition="5" />
-    <nodeInfo nodeId="4526870550031607254" conceptFqName="jetbrains.mps.baseLanguage.structure.InstanceMethodDeclaration" fileName="QuasiRepresentationModifier.java" startLine="159" startPosition="0" endLine="195" endPosition="0" />
+    <nodeInfo nodeId="4526870550031607341" conceptFqName="jetbrains.mps.baseLanguage.structure.IfStatement" fileName="QuasiRepresentationModifier.java" startLine="167" startPosition="5" endLine="175" endPosition="5" />
+    <nodeInfo nodeId="8768371262606021268" conceptFqName="jetbrains.mps.baseLanguage.structure.InstanceMethodDeclaration" fileName="QuasiRepresentationModifier.java" startLine="211" startPosition="0" endLine="222" endPosition="0" />
+    <nodeInfo nodeId="4526870550031607254" conceptFqName="jetbrains.mps.baseLanguage.structure.InstanceMethodDeclaration" fileName="QuasiRepresentationModifier.java" startLine="159" startPosition="0" endLine="178" endPosition="0" />
     <nodeInfo nodeId="4526870550031607549" conceptFqName="jetbrains.mps.baseLanguage.structure.ForeachStatement" fileName="QuasiRepresentationModifier.java" startLine="72" startPosition="78" endLine="149" endPosition="11" />
     <nodeInfo nodeId="4526870550031607053" conceptFqName="jetbrains.mps.baseLanguage.structure.IfStatement" fileName="QuasiRepresentationModifier.java" startLine="50" startPosition="33" endLine="151" endPosition="9" />
     <nodeInfo nodeId="4526870550031607042" conceptFqName="jetbrains.mps.baseLanguage.structure.WhileStatement" fileName="QuasiRepresentationModifier.java" startLine="47" startPosition="67" endLine="152" endPosition="7" />
@@ -1562,38 +1549,34 @@
     <scopeInfo nodeId="1265453300921036228" fileName="QuasiRepresentationModifier.java" startLine="66" startPosition="69" endLine="67" endPosition="64" />
     <scopeInfo nodeId="4526870550031607581" fileName="QuasiRepresentationModifier.java" startLine="80" startPosition="46" endLine="81" endPosition="83" />
     <scopeInfo nodeId="4526870550031607605" fileName="QuasiRepresentationModifier.java" startLine="93" startPosition="46" endLine="94" endPosition="110" />
-    <scopeInfo nodeId="4526870550031607331" fileName="QuasiRepresentationModifier.java" startLine="181" startPosition="57" endLine="182" endPosition="29" />
-    <scopeInfo nodeId="4526870550031607351" fileName="QuasiRepresentationModifier.java" startLine="186" startPosition="92" endLine="187" endPosition="97" />
-    <scopeInfo nodeId="4526870550031607367" fileName="QuasiRepresentationModifier.java" startLine="189" startPosition="91" endLine="190" endPosition="104" />
-    <scopeInfo nodeId="8768371262605995006" fileName="QuasiRepresentationModifier.java" startLine="196" startPosition="76" endLine="197" endPosition="27" />
-    <scopeInfo nodeId="8768371262605995447" fileName="QuasiRepresentationModifier.java" startLine="213" startPosition="42" endLine="214" endPosition="29" />
-    <scopeInfo nodeId="8768371262605995454" fileName="QuasiRepresentationModifier.java" startLine="217" startPosition="37" endLine="218" endPosition="24" />
-    <scopeInfo nodeId="8768371262605995460" fileName="QuasiRepresentationModifier.java" startLine="221" startPosition="29" endLine="222" endPosition="22" />
-    <scopeInfo nodeId="8768371262605995466" fileName="QuasiRepresentationModifier.java" startLine="225" startPosition="33" endLine="226" endPosition="26" />
+    <scopeInfo nodeId="4526870550031607331" fileName="QuasiRepresentationModifier.java" startLine="164" startPosition="57" endLine="165" endPosition="29" />
+    <scopeInfo nodeId="4526870550031607351" fileName="QuasiRepresentationModifier.java" startLine="169" startPosition="92" endLine="170" endPosition="97" />
+    <scopeInfo nodeId="4526870550031607367" fileName="QuasiRepresentationModifier.java" startLine="172" startPosition="91" endLine="173" endPosition="104" />
+    <scopeInfo nodeId="8768371262605995006" fileName="QuasiRepresentationModifier.java" startLine="179" startPosition="76" endLine="180" endPosition="27" />
+    <scopeInfo nodeId="8768371262605995447" fileName="QuasiRepresentationModifier.java" startLine="196" startPosition="42" endLine="197" endPosition="29" />
+    <scopeInfo nodeId="8768371262605995454" fileName="QuasiRepresentationModifier.java" startLine="200" startPosition="37" endLine="201" endPosition="24" />
+    <scopeInfo nodeId="8768371262605995460" fileName="QuasiRepresentationModifier.java" startLine="204" startPosition="29" endLine="205" endPosition="22" />
+    <scopeInfo nodeId="8768371262605995466" fileName="QuasiRepresentationModifier.java" startLine="208" startPosition="33" endLine="209" endPosition="26" />
     <scopeInfo nodeId="4526870550031607068" fileName="QuasiRepresentationModifier.java" startLine="53" startPosition="67" endLine="55" endPosition="37" />
     <scopeInfo nodeId="1265453300921036307" fileName="QuasiRepresentationModifier.java" startLine="97" startPosition="75" endLine="99" endPosition="70" />
     <scopeInfo nodeId="5736847780448779938" fileName="QuasiRepresentationModifier.java" startLine="153" startPosition="54" endLine="155" endPosition="53" />
-    <scopeInfo nodeId="4526870550031607314" fileName="QuasiRepresentationModifier.java" startLine="171" startPosition="61" endLine="173" endPosition="18" />
-    <scopeInfo nodeId="4526870550031607329" fileName="QuasiRepresentationModifier.java" startLine="180" startPosition="52" endLine="183" endPosition="7" />
+    <scopeInfo nodeId="4526870550031607329" fileName="QuasiRepresentationModifier.java" startLine="163" startPosition="52" endLine="166" endPosition="7" />
     <scopeInfo nodeId="4526870550031607580" fileName="QuasiRepresentationModifier.java" startLine="79" startPosition="102" endLine="83" endPosition="0" />
     <scopeInfo nodeId="4526870550031607604" fileName="QuasiRepresentationModifier.java" startLine="92" startPosition="105" endLine="96" endPosition="0" />
     <scopeInfo nodeId="5736847780448779935" fileName="QuasiRepresentationModifier.java" startLine="152" startPosition="7" endLine="156" endPosition="7" />
-    <scopeInfo nodeId="8768371262605995001" fileName="QuasiRepresentationModifier.java" startLine="195" startPosition="0" endLine="199" endPosition="0" />
-    <scopeInfo nodeId="8768371262605995495" fileName="QuasiRepresentationModifier.java" startLine="206" startPosition="102" endLine="210" endPosition="37" />
-    <scopeInfo nodeId="8768371262605995443" fileName="QuasiRepresentationModifier.java" startLine="212" startPosition="0" endLine="216" endPosition="0" />
-    <scopeInfo nodeId="8768371262605995450" fileName="QuasiRepresentationModifier.java" startLine="216" startPosition="0" endLine="220" endPosition="0" />
-    <scopeInfo nodeId="8768371262605995457" fileName="QuasiRepresentationModifier.java" startLine="220" startPosition="0" endLine="224" endPosition="0" />
-    <scopeInfo nodeId="8768371262605995463" fileName="QuasiRepresentationModifier.java" startLine="224" startPosition="0" endLine="228" endPosition="0" />
+    <scopeInfo nodeId="8768371262605995001" fileName="QuasiRepresentationModifier.java" startLine="178" startPosition="0" endLine="182" endPosition="0" />
+    <scopeInfo nodeId="8768371262605995495" fileName="QuasiRepresentationModifier.java" startLine="189" startPosition="102" endLine="193" endPosition="37" />
+    <scopeInfo nodeId="8768371262605995443" fileName="QuasiRepresentationModifier.java" startLine="195" startPosition="0" endLine="199" endPosition="0" />
+    <scopeInfo nodeId="8768371262605995450" fileName="QuasiRepresentationModifier.java" startLine="199" startPosition="0" endLine="203" endPosition="0" />
+    <scopeInfo nodeId="8768371262605995457" fileName="QuasiRepresentationModifier.java" startLine="203" startPosition="0" endLine="207" endPosition="0" />
+    <scopeInfo nodeId="8768371262605995463" fileName="QuasiRepresentationModifier.java" startLine="207" startPosition="0" endLine="211" endPosition="0" />
     <scopeInfo nodeId="4526870550031420094" fileName="QuasiRepresentationModifier.java" startLine="32" startPosition="120" endLine="37" endPosition="104" />
     <scopeInfo nodeId="1265453300921036171" fileName="QuasiRepresentationModifier.java" startLine="58" startPosition="71" endLine="63" endPosition="66">
       <varInfo nodeId="1265453300921036179" varName="edge" />
     </scopeInfo>
-    <scopeInfo nodeId="4526870550031607300" fileName="QuasiRepresentationModifier.java" startLine="169" startPosition="56" endLine="174" endPosition="11">
-      <varInfo nodeId="4526870550031607250" varName="opposite" />
-    </scopeInfo>
-    <scopeInfo nodeId="4526870550031607327" fileName="QuasiRepresentationModifier.java" startLine="179" startPosition="34" endLine="184" endPosition="5" />
-    <scopeInfo nodeId="4526870550031607342" fileName="QuasiRepresentationModifier.java" startLine="185" startPosition="24" endLine="191" endPosition="7" />
-    <scopeInfo nodeId="8768371262605995491" fileName="QuasiRepresentationModifier.java" startLine="205" startPosition="0" endLine="211" endPosition="5">
+    <scopeInfo nodeId="4526870550031607327" fileName="QuasiRepresentationModifier.java" startLine="162" startPosition="34" endLine="167" endPosition="5" />
+    <scopeInfo nodeId="4526870550031607342" fileName="QuasiRepresentationModifier.java" startLine="168" startPosition="24" endLine="174" endPosition="7" />
+    <scopeInfo nodeId="8768371262605995491" fileName="QuasiRepresentationModifier.java" startLine="188" startPosition="0" endLine="194" endPosition="5">
       <varInfo nodeId="8768371262605995524" varName="source" />
       <varInfo nodeId="8768371262605995510" varName="newEdges" />
       <varInfo nodeId="8768371262605995496" varName="modifiedEdges" />
@@ -1605,19 +1588,15 @@
       <varInfo nodeId="4526870550031420103" varName="embeddedGraph" />
     </scopeInfo>
     <scopeInfo nodeId="1265453300921036168" fileName="QuasiRepresentationModifier.java" startLine="57" startPosition="83" endLine="64" endPosition="11" />
-    <scopeInfo nodeId="4526870550031607298" fileName="QuasiRepresentationModifier.java" startLine="168" startPosition="56" endLine="175" endPosition="9" />
-    <scopeInfo nodeId="8768371262606021271" fileName="QuasiRepresentationModifier.java" startLine="230" startPosition="30" endLine="237" endPosition="32">
+    <scopeInfo nodeId="8768371262606021271" fileName="QuasiRepresentationModifier.java" startLine="213" startPosition="30" endLine="220" endPosition="32">
       <varInfo nodeId="8768371262606021279" varName="builder" />
     </scopeInfo>
-    <scopeInfo nodeId="8768371262606021268" fileName="QuasiRepresentationModifier.java" startLine="228" startPosition="0" endLine="239" endPosition="0" />
-    <scopeInfo nodeId="4526870550031607286" fileName="QuasiRepresentationModifier.java" startLine="164" startPosition="96" endLine="176" endPosition="8" />
-    <scopeInfo nodeId="4526870550031607259" fileName="QuasiRepresentationModifier.java" startLine="160" startPosition="49" endLine="193" endPosition="17">
-      <varInfo nodeId="4526870550031607246" varName="sortedDarts" />
+    <scopeInfo nodeId="8768371262606021268" fileName="QuasiRepresentationModifier.java" startLine="211" startPosition="0" endLine="222" endPosition="0" />
+    <scopeInfo nodeId="4526870550031607259" fileName="QuasiRepresentationModifier.java" startLine="160" startPosition="49" endLine="176" endPosition="17">
       <varInfo nodeId="4526870550031607251" varName="hasZeroAngles" />
-      <varInfo nodeId="4526870550031607247" varName="curDart" />
       <varInfo nodeId="4526870550031607245" varName="darts" />
     </scopeInfo>
-    <scopeInfo nodeId="4526870550031607254" fileName="QuasiRepresentationModifier.java" startLine="159" startPosition="0" endLine="195" endPosition="0">
+    <scopeInfo nodeId="4526870550031607254" fileName="QuasiRepresentationModifier.java" startLine="159" startPosition="0" endLine="178" endPosition="0">
       <varInfo nodeId="4526870550031607253" varName="node" />
     </scopeInfo>
     <scopeInfo nodeId="4526870550031607552" fileName="QuasiRepresentationModifier.java" startLine="73" startPosition="86" endLine="148" endPosition="21">
@@ -1664,8 +1643,8 @@
     <scopeInfo nodeId="4526870550031598287" fileName="QuasiRepresentationModifier.java" startLine="39" startPosition="0" endLine="159" endPosition="0" />
     <unitInfo nodeId="4526870550031607580" fileName="QuasiRepresentationModifier.java" startLine="79" startPosition="80" endLine="83" endPosition="13" unitName="jetbrains.mps.graphLayout.flowOrthogonalLayout.QuasiRepresentationModifier$1" />
     <unitInfo nodeId="4526870550031607604" fileName="QuasiRepresentationModifier.java" startLine="92" startPosition="83" endLine="96" endPosition="13" unitName="jetbrains.mps.graphLayout.flowOrthogonalLayout.QuasiRepresentationModifier$2" />
-    <unitInfo nodeId="8768371262605995415" fileName="QuasiRepresentationModifier.java" startLine="200" startPosition="0" endLine="240" endPosition="0" unitName="jetbrains.mps.graphLayout.flowOrthogonalLayout.QuasiRepresentationModifier$Modification" />
-    <unitInfo nodeId="4526870550031420089" fileName="QuasiRepresentationModifier.java" startLine="25" startPosition="0" endLine="241" endPosition="0" unitName="jetbrains.mps.graphLayout.flowOrthogonalLayout.QuasiRepresentationModifier" />
+    <unitInfo nodeId="8768371262605995415" fileName="QuasiRepresentationModifier.java" startLine="183" startPosition="0" endLine="223" endPosition="0" unitName="jetbrains.mps.graphLayout.flowOrthogonalLayout.QuasiRepresentationModifier$Modification" />
+    <unitInfo nodeId="4526870550031420089" fileName="QuasiRepresentationModifier.java" startLine="25" startPosition="0" endLine="224" endPosition="0" unitName="jetbrains.mps.graphLayout.flowOrthogonalLayout.QuasiRepresentationModifier" />
   </root>
   <root nodeId="529057043639205569">
     <nodeInfo nodeId="529057043639206269" conceptFqName="jetbrains.mps.baseLanguage.structure.StaticFieldDeclaration" fileName="EdgeLengthComputer.java" startLine="19" startPosition="33" endLine="20" endPosition="35" />

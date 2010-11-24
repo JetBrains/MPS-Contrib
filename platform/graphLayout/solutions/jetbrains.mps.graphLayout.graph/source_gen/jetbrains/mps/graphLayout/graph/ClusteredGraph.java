@@ -21,7 +21,6 @@ public class ClusteredGraph extends Graph implements IClusteredGraph {
     super();
     myInclusionTree = new Graph();
     myLeafClusters = MapSequence.fromMap(new HashMap<Node, Node>());
-    myRoot = myInclusionTree.createNode();
   }
 
   public Iterable<Node> getNodesInCluster(INode cluster) {
@@ -30,13 +29,8 @@ public class ClusteredGraph extends Graph implements IClusteredGraph {
     return nodes;
   }
 
-  @Override
-  public Node addNode() {
-    Node node = super.addNode();
-    Node cluster = myInclusionTree.addNode();
-    myRoot.addEdgeTo(cluster);
+  public void setNodeInCluster(Node cluster, Node node) {
     MapSequence.fromMap(myLeafClusters).put(cluster, node);
-    return node;
   }
 
   private void getNodesInCluster(Node cluster, Set<Node> nodes) {
@@ -54,15 +48,19 @@ public class ClusteredGraph extends Graph implements IClusteredGraph {
     }
   }
 
-  public INode getRoot() {
+  public void setRoot(Node root) {
+    myRoot = root;
+  }
+
+  public Node getRoot() {
     return myRoot;
   }
 
-  public IGraph getUnderlyingGraph() {
+  public Graph getUnderlyingGraph() {
     return this;
   }
 
-  public IGraph getInclusionTree() {
+  public Graph getInclusionTree() {
     return myInclusionTree;
   }
 }

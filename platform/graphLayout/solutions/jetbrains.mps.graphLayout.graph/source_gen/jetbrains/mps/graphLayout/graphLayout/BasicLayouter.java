@@ -19,7 +19,6 @@ import jetbrains.mps.internal.collections.runtime.SetSequence;
 import jetbrains.mps.graphLayout.graph.IEdge;
 import jetbrains.mps.graphLayout.intGeom2D.Point;
 import jetbrains.mps.graphLayout.graph.IGraph;
-import java.util.Iterator;
 
 public abstract class BasicLayouter implements ILayouter {
   private static final int DEFAULT_UNIT_LENGTH = 20;
@@ -84,21 +83,19 @@ public abstract class BasicLayouter implements ILayouter {
     }
     IGraph initialGraph = layoutInfo.getGraph();
     GraphLayout initialLayout = new GraphLayout(initialGraph);
-    Iterator<? extends INode> nodesIterator = initialGraph.getNodesIterator();
-    while (nodesIterator.hasNext()) {
-      INode node = nodesIterator.next();
+    for (INode node : initialGraph.getNodes()) {
       Rectangle nodeLayout = graphLayout.getNodeLayout(patchCopier.getNodeCopy(node));
       initialLayout.setLayoutFor(node, nodeLayout);
     }
-    Iterator<? extends IEdge> edgesIterator = initialGraph.getEdgesIterator();
-    while (edgesIterator.hasNext()) {
-      IEdge edge = edgesIterator.next();
+    for (IEdge edge : initialGraph.getEdges()) {
       List<Point> edgeLayout = graphLayout.getEdgeLayout(patchCopier.getEdgeCopy(edge));
       initialLayout.setLayoutFor(edge, edgeLayout);
     }
-    for (IEdge edge : layoutInfo.getLabeledEdges()) {
+    for (IEdge edge : initialGraph.getEdges()) {
       Rectangle labelLayout = graphLayout.getLabelLayout(patchCopier.getEdgeCopy(edge));
-      initialLayout.setLabelLayout(edge, labelLayout);
+      if (labelLayout != null) {
+        initialLayout.setLabelLayout(edge, labelLayout);
+      }
     }
     return initialLayout;
   }

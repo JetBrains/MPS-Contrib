@@ -11,7 +11,6 @@ import jetbrains.mps.graphLayout.graph.IEdge;
 import jetbrains.mps.graphLayout.graph.Edge;
 import jetbrains.mps.internal.collections.runtime.MapSequence;
 import java.util.HashMap;
-import java.util.Iterator;
 import java.util.Set;
 
 public class GraphCopier {
@@ -46,16 +45,12 @@ public class GraphCopier {
   }
 
   public Graph copySubgraph(Filter<INode> nodeFilter) {
-    Iterator<? extends INode> nodesIterator = myGraph.getNodesIterator();
-    while (nodesIterator.hasNext()) {
-      INode node = nodesIterator.next();
+    for (INode node : myGraph.getNodes()) {
       if (nodeFilter.accept(node)) {
         copyNode(node);
       }
     }
-    Iterator<? extends IEdge> edgesIterator = myGraph.getEdgesIterator();
-    while (edgesIterator.hasNext()) {
-      IEdge edge = edgesIterator.next();
+    for (IEdge edge : myGraph.getEdges()) {
       if (acceptEdge(nodeFilter, edge)) {
         copyEdge(edge);
       }

@@ -8,6 +8,7 @@
     <classNode dependClassName="java.util.List" />
     <classNode dependClassName="java.util.Map" />
     <classNode dependClassName="java.util.Scanner" />
+    <classNode dependClassName="jetbrains.mps.graphLayout.graph.ClusteredGraph" />
     <classNode dependClassName="jetbrains.mps.graphLayout.graph.Edge" />
     <classNode dependClassName="jetbrains.mps.graphLayout.graph.Graph" />
     <classNode dependClassName="jetbrains.mps.graphLayout.graph.Node" />
@@ -21,13 +22,14 @@
   </dependency>
   <dependency className="visualization.LayoutPainter" file="LayoutPainter.java">
     <classNode dependClassName="java.awt.Graphics" />
-    <classNode dependClassName="java.util.Iterator" />
+    <classNode dependClassName="java.lang.Iterable" />
     <classNode dependClassName="jetbrains.mps.graphLayout.graph.IEdge" />
     <classNode dependClassName="jetbrains.mps.graphLayout.graph.IGraph" />
     <classNode dependClassName="jetbrains.mps.graphLayout.graph.INode" />
     <classNode dependClassName="jetbrains.mps.graphLayout.graphLayout.IGraphLayout" />
     <classNode dependClassName="jetbrains.mps.graphLayout.intGeom2D.Point" />
     <classNode dependClassName="jetbrains.mps.graphLayout.intGeom2D.Rectangle" />
+    <classNode dependClassName="jetbrains.mps.internal.collections.runtime.Sequence" />
   </dependency>
   <dependency className="visualization.OrthogonalLayoutTestPanel" file="OrthogonalLayoutTestPanel.java">
     <classNode dependClassName="java.awt.Dimension" />

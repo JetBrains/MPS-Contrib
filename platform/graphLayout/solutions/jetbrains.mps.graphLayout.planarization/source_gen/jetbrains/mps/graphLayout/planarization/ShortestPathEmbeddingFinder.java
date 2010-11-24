@@ -52,7 +52,7 @@ public class ShortestPathEmbeddingFinder implements IEmbeddingFinder {
     return embeddedGraph;
   }
 
-  public static void restoreEdge(EmbeddedGraph embeddedGraph, Edge removedEdge) {
+  public static List<Edge> restoreEdge(EmbeddedGraph embeddedGraph, Edge removedEdge) {
     DualGraph dualGraph = new DualGraph(embeddedGraph);
     List<Node> newNodes = ListSequence.fromList(new ArrayList<Node>());
     for (Node node : ListSequence.fromList(removedEdge.getAdjacentNodes())) {
@@ -74,7 +74,7 @@ public class ShortestPathEmbeddingFinder implements IEmbeddingFinder {
         ListSequence.fromList(facePath).addElement(curFace);
       }
     }
-    List<Edge> newEdges = ListSequence.fromList(new ArrayList<Edge>());
+    List<Edge> newEdges = ListSequence.fromList(new ArrayList<Edge>(ListSequence.fromList(nodePath).count() - 1));
     ListSequence.fromList(nodePath).addElement(ListSequence.fromList(removedEdge.getAdjacentNodes()).getElement(1));
     if (SHOW_LOG > 0) {
       System.out.println("path: ");
@@ -89,5 +89,6 @@ public class ShortestPathEmbeddingFinder implements IEmbeddingFinder {
       embeddedGraph.splitFace(ListSequence.fromList(facePath).getElement(i), tempPath, start, end);
     }
     embeddedGraph.setEdgesHistory(removedEdge, newEdges);
+    return newEdges;
   }
 }

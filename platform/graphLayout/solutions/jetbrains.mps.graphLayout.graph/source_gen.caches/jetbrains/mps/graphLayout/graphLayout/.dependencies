@@ -4,7 +4,6 @@
     <classNode dependClassName="java.lang.Integer" />
     <classNode dependClassName="java.lang.Math" />
     <classNode dependClassName="java.util.ArrayList" />
-    <classNode dependClassName="java.util.Iterator" />
     <classNode dependClassName="java.util.List" />
     <classNode dependClassName="java.util.Map" />
     <classNode dependClassName="jetbrains.mps.graphLayout.algorithms.ConnectivityComponents" />
@@ -34,9 +33,9 @@
     <classNode dependClassName="java.lang.String" />
     <classNode dependClassName="java.lang.StringBuilder" />
     <classNode dependClassName="java.util.HashMap" />
-    <classNode dependClassName="java.util.Iterator" />
     <classNode dependClassName="java.util.List" />
     <classNode dependClassName="java.util.Map" />
+    <classNode dependClassName="java.util.Set" />
     <classNode dependClassName="jetbrains.mps.graphLayout.graph.IEdge" />
     <classNode dependClassName="jetbrains.mps.graphLayout.graph.IGraph" />
     <classNode dependClassName="jetbrains.mps.graphLayout.graph.INode" />
@@ -60,7 +59,8 @@
     <classNode dependClassName="jetbrains.mps.internal.collections.runtime.MapSequence" />
   </dependency>
   <dependency className="jetbrains.mps.graphLayout.graphLayout.IGraphLayout" file="IGraphLayout.java">
-    <classNode dependClassName="java.util.Iterator" />
+    <classNode dependClassName="java.lang.Iterable" />
+    <classNode dependClassName="java.util.Set" />
     <classNode dependClassName="jetbrains.mps.graphLayout.graph.IEdge" />
     <classNode dependClassName="jetbrains.mps.graphLayout.graph.IGraph" />
     <classNode dependClassName="jetbrains.mps.graphLayout.graph.INode" />
@@ -97,18 +97,16 @@
   </dependency>
   <dependency className="jetbrains.mps.graphLayout.graphLayout.LayoutTransform" file="LayoutTransform.java">
     <classNode dependClassName="java.util.ArrayList" />
-    <classNode dependClassName="java.util.HashMap" />
     <classNode dependClassName="java.util.List" />
-    <classNode dependClassName="java.util.Map" />
     <classNode dependClassName="jetbrains.mps.graphLayout.graph.Graph" />
     <classNode dependClassName="jetbrains.mps.graphLayout.graph.IEdge" />
     <classNode dependClassName="jetbrains.mps.graphLayout.graph.INode" />
     <classNode dependClassName="jetbrains.mps.graphLayout.graphLayout.GraphLayout" />
+    <classNode dependClassName="jetbrains.mps.graphLayout.graphLayout.IGraphLayout" />
     <classNode dependClassName="jetbrains.mps.graphLayout.intGeom2D.Point" />
     <classNode dependClassName="jetbrains.mps.graphLayout.intGeom2D.Rectangle" />
     <classNode dependClassName="jetbrains.mps.internal.collections.runtime.ListSequence" />
-    <classNode dependClassName="jetbrains.mps.internal.collections.runtime.MapSequence" />
-    <classNode dependClassName="jetbrains.mps.internal.collections.runtime.SetSequence" />
+    <classNode dependClassName="jetbrains.mps.internal.collections.runtime.Sequence" />
   </dependency>
 </dependenciesRoot>
 

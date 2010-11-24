@@ -53,6 +53,10 @@
     <node type="yvol.BTestCase" typeId="yvol.1171931851043" id="4422427343208741421">
       <property name="testCaseName" nameId="yvol.1171931851045" value="AmbiguityPlanarizationFinder" />
     </node>
+    <node type="yvol.BTestCase" typeId="yvol.1171931851043" id="4998536563116627620">
+      <property name="testCaseName" nameId="yvol.1171931851045" value="ClusterEmbeddingProcessor" />
+      <property name="virtualPackage" nameId="yvnu.1193676396447:0" value="clusterGraph" />
+    </node>
   </roots>
   <root id="1646208389854262552">
     <node role="staticMethod" roleId="yvor.1070462273904:3" type="yvor.StaticMethodDeclaration" typeId="yvor.1081236700938:3" id="1646208389854262562">
@@ -3311,8 +3315,8 @@
                 <link role="classifier" roleId="yvor.1107535924139:3" targetNodeId="aequ.8567569493821103298" resolveInfo="Graph" />
               </node>
               <node role="initializer" roleId="yvor.1068431790190:3" type="yvor.StaticMethodCall" typeId="yvor.1081236700937:3" id="4644851485137285759">
-                <link role="baseMethodDeclaration" roleId="yvor.1068499141037:3" targetNodeId="jh5a.1567683135099906915" resolveInfo="scanGraph" />
                 <link role="classConcept" roleId="yvor.1144433194310:3" targetNodeId="jh5a.1567683135099906914" resolveInfo="GraphIO" />
+                <link role="baseMethodDeclaration" roleId="yvor.1068499141037:3" targetNodeId="jh5a.1567683135099906915" resolveInfo="scanGraph" />
                 <node role="actualArgument" roleId="yvor.1068499141038:3" type="yvor.GenericNewExpression" typeId="yvor.1145552977093:3" id="4644851485137285761">
                   <node role="creator" roleId="yvor.1145553007750:3" type="yvor.ClassCreator" typeId="yvor.1212685548494:3" id="4644851485137285763">
                     <link role="baseMethodDeclaration" roleId="yvor.1068499141037:3" targetNodeId="yjwb.~Scanner%d&lt;init&gt;(java%dlang%dString)" resolveInfo="Scanner" />
@@ -3355,8 +3359,8 @@
                 <link role="classifier" roleId="yvor.1107535924139:3" targetNodeId="aequ.8567569493821103298" resolveInfo="Graph" />
               </node>
               <node role="initializer" roleId="yvor.1068431790190:3" type="yvor.StaticMethodCall" typeId="yvor.1081236700937:3" id="6191740939834533174">
-                <link role="baseMethodDeclaration" roleId="yvor.1068499141037:3" targetNodeId="jh5a.1567683135099906915" resolveInfo="scanGraph" />
                 <link role="classConcept" roleId="yvor.1144433194310:3" targetNodeId="jh5a.1567683135099906914" resolveInfo="GraphIO" />
+                <link role="baseMethodDeclaration" roleId="yvor.1068499141037:3" targetNodeId="jh5a.1567683135099906915" resolveInfo="scanGraph" />
                 <node role="actualArgument" roleId="yvor.1068499141038:3" type="yvor.GenericNewExpression" typeId="yvor.1145552977093:3" id="6191740939834533175">
                   <node role="creator" roleId="yvor.1145553007750:3" type="yvor.ClassCreator" typeId="yvor.1212685548494:3" id="6191740939834533177">
                     <link role="baseMethodDeclaration" roleId="yvor.1068499141037:3" targetNodeId="yjwb.~Scanner%d&lt;init&gt;(java%dlang%dString)" resolveInfo="Scanner" />
@@ -3399,8 +3403,8 @@
                 <link role="classifier" roleId="yvor.1107535924139:3" targetNodeId="aequ.8567569493821103298" resolveInfo="Graph" />
               </node>
               <node role="initializer" roleId="yvor.1068431790190:3" type="yvor.StaticMethodCall" typeId="yvor.1081236700937:3" id="6191740939834535102">
-                <link role="baseMethodDeclaration" roleId="yvor.1068499141037:3" targetNodeId="jh5a.1567683135099906915" resolveInfo="scanGraph" />
                 <link role="classConcept" roleId="yvor.1144433194310:3" targetNodeId="jh5a.1567683135099906914" resolveInfo="GraphIO" />
+                <link role="baseMethodDeclaration" roleId="yvor.1068499141037:3" targetNodeId="jh5a.1567683135099906915" resolveInfo="scanGraph" />
                 <node role="actualArgument" roleId="yvor.1068499141038:3" type="yvor.GenericNewExpression" typeId="yvor.1145552977093:3" id="6191740939834535103">
                   <node role="creator" roleId="yvor.1145553007750:3" type="yvor.ClassCreator" typeId="yvor.1212685548494:3" id="6191740939834535104">
                     <link role="baseMethodDeclaration" roleId="yvor.1068499141037:3" targetNodeId="yjwb.~Scanner%d&lt;init&gt;(java%dlang%dString)" resolveInfo="Scanner" />
@@ -3443,8 +3447,8 @@
                 <link role="classifier" roleId="yvor.1107535924139:3" targetNodeId="aequ.8567569493821103298" resolveInfo="Graph" />
               </node>
               <node role="initializer" roleId="yvor.1068431790190:3" type="yvor.StaticMethodCall" typeId="yvor.1081236700937:3" id="8327149575965772626">
-                <link role="baseMethodDeclaration" roleId="yvor.1068499141037:3" targetNodeId="jh5a.1567683135099906915" resolveInfo="scanGraph" />
                 <link role="classConcept" roleId="yvor.1144433194310:3" targetNodeId="jh5a.1567683135099906914" resolveInfo="GraphIO" />
+                <link role="baseMethodDeclaration" roleId="yvor.1068499141037:3" targetNodeId="jh5a.1567683135099906915" resolveInfo="scanGraph" />
                 <node role="actualArgument" roleId="yvor.1068499141038:3" type="yvor.GenericNewExpression" typeId="yvor.1145552977093:3" id="8327149575965772627">
                   <node role="creator" roleId="yvor.1145553007750:3" type="yvor.ClassCreator" typeId="yvor.1212685548494:3" id="8327149575965772628">
                     <link role="baseMethodDeclaration" roleId="yvor.1068499141037:3" targetNodeId="yjwb.~Scanner%d&lt;init&gt;(java%dlang%dString)" resolveInfo="Scanner" />
@@ -3487,8 +3491,8 @@
                 <link role="classifier" roleId="yvor.1107535924139:3" targetNodeId="aequ.8567569493821103298" resolveInfo="Graph" />
               </node>
               <node role="initializer" roleId="yvor.1068431790190:3" type="yvor.StaticMethodCall" typeId="yvor.1081236700937:3" id="8327149575965775550">
-                <link role="baseMethodDeclaration" roleId="yvor.1068499141037:3" targetNodeId="jh5a.1567683135099906915" resolveInfo="scanGraph" />
                 <link role="classConcept" roleId="yvor.1144433194310:3" targetNodeId="jh5a.1567683135099906914" resolveInfo="GraphIO" />
+                <link role="baseMethodDeclaration" roleId="yvor.1068499141037:3" targetNodeId="jh5a.1567683135099906915" resolveInfo="scanGraph" />
                 <node role="actualArgument" roleId="yvor.1068499141038:3" type="yvor.GenericNewExpression" typeId="yvor.1145552977093:3" id="8327149575965775551">
                   <node role="creator" roleId="yvor.1145553007750:3" type="yvor.ClassCreator" typeId="yvor.1212685548494:3" id="8327149575965775552">
                     <link role="baseMethodDeclaration" roleId="yvor.1068499141037:3" targetNodeId="yjwb.~Scanner%d&lt;init&gt;(java%dlang%dString)" resolveInfo="Scanner" />
@@ -3531,8 +3535,8 @@
                 <link role="classifier" roleId="yvor.1107535924139:3" targetNodeId="aequ.8567569493821103298" resolveInfo="Graph" />
               </node>
               <node role="initializer" roleId="yvor.1068431790190:3" type="yvor.StaticMethodCall" typeId="yvor.1081236700937:3" id="8327149575965775558">
-                <link role="baseMethodDeclaration" roleId="yvor.1068499141037:3" targetNodeId="jh5a.1567683135099906915" resolveInfo="scanGraph" />
                 <link role="classConcept" roleId="yvor.1144433194310:3" targetNodeId="jh5a.1567683135099906914" resolveInfo="GraphIO" />
+                <link role="baseMethodDeclaration" roleId="yvor.1068499141037:3" targetNodeId="jh5a.1567683135099906915" resolveInfo="scanGraph" />
                 <node role="actualArgument" roleId="yvor.1068499141038:3" type="yvor.GenericNewExpression" typeId="yvor.1145552977093:3" id="8327149575965775559">
                   <node role="creator" roleId="yvor.1145553007750:3" type="yvor.ClassCreator" typeId="yvor.1212685548494:3" id="8327149575965775560">
                     <link role="baseMethodDeclaration" roleId="yvor.1068499141037:3" targetNodeId="yjwb.~Scanner%d&lt;init&gt;(java%dlang%dString)" resolveInfo="Scanner" />
@@ -3575,8 +3579,8 @@
                 <link role="classifier" roleId="yvor.1107535924139:3" targetNodeId="aequ.8567569493821103298" resolveInfo="Graph" />
               </node>
               <node role="initializer" roleId="yvor.1068431790190:3" type="yvor.StaticMethodCall" typeId="yvor.1081236700937:3" id="8327149575965780782">
-                <link role="baseMethodDeclaration" roleId="yvor.1068499141037:3" targetNodeId="jh5a.1567683135099906915" resolveInfo="scanGraph" />
                 <link role="classConcept" roleId="yvor.1144433194310:3" targetNodeId="jh5a.1567683135099906914" resolveInfo="GraphIO" />
+                <link role="baseMethodDeclaration" roleId="yvor.1068499141037:3" targetNodeId="jh5a.1567683135099906915" resolveInfo="scanGraph" />
                 <node role="actualArgument" roleId="yvor.1068499141038:3" type="yvor.GenericNewExpression" typeId="yvor.1145552977093:3" id="8327149575965780783">
                   <node role="creator" roleId="yvor.1145553007750:3" type="yvor.ClassCreator" typeId="yvor.1212685548494:3" id="8327149575965780784">
                     <link role="baseMethodDeclaration" roleId="yvor.1068499141037:3" targetNodeId="yjwb.~Scanner%d&lt;init&gt;(java%dlang%dString)" resolveInfo="Scanner" />
@@ -5197,6 +5201,100 @@
               <link role="baseMethodDeclaration" roleId="yvor.1068499141037:3" targetNodeId="4422427343208741428" resolveInfo="test" />
               <node role="actualArgument" roleId="yvor.1068499141038:3" type="yvor.LocalVariableReference" typeId="yvor.1068581242866:3" id="4422427343208756676">
                 <link role="variableDeclaration" roleId="yvor.1068581517664:3" targetNodeId="4422427343208756668" resolveInfo="graph" />
+              </node>
+            </node>
+          </node>
+        </node>
+      </node>
+    </node>
+  </root>
+  <root id="4998536563116627620">
+    <node role="visibility" roleId="yvor.1178549979242:3" type="yvor.PublicVisibility" typeId="yvor.1146644602865:3" id="4998536563116627621" />
+    <node role="constructor" roleId="yvor.1068390468201:3" type="yvor.ConstructorDeclaration" typeId="yvor.1068580123140:3" id="4998536563116627622">
+      <node role="returnType" roleId="yvor.1068580123133:3" type="yvor.VoidType" typeId="yvor.1068581517677:3" id="4998536563116627623" />
+      <node role="visibility" roleId="yvor.1178549979242:3" type="yvor.PublicVisibility" typeId="yvor.1146644602865:3" id="4998536563116627624" />
+      <node role="body" roleId="yvor.1068580123135:3" type="yvor.StatementList" typeId="yvor.1068580123136:3" id="4998536563116627625" />
+    </node>
+    <node role="testMethodList" roleId="yvol.1171931851044" type="yvol.TestMethodList" typeId="yvol.1171931858461" id="4998536563116627626">
+      <node role="testMethod" roleId="yvol.1171931858462" type="yvol.TestMethod" typeId="yvol.1171931690126" id="4998536563116627631">
+        <property name="methodName" nameId="yvol.1171931690128" value="sample" />
+        <node role="visibility" roleId="yvor.1178549979242:3" type="yvor.PublicVisibility" typeId="yvor.1146644602865:3" id="4998536563116627632" />
+        <node role="returnType" roleId="yvor.1068580123133:3" type="yvor.VoidType" typeId="yvor.1068581517677:3" id="4998536563116627633" />
+        <node role="body" roleId="yvor.1068580123135:3" type="yvor.StatementList" typeId="yvor.1068580123136:3" id="4998536563116627634">
+          <node role="statement" roleId="yvor.1068581517665:3" type="yvor.LocalVariableDeclarationStatement" typeId="yvor.1068581242864:3" id="4998536563116627635">
+            <node role="localVariableDeclaration" roleId="yvor.1068581242865:3" type="yvor.LocalVariableDeclaration" typeId="yvor.1068581242863:3" id="4998536563116627636">
+              <property name="name" nameId="yvnu.1169194664001:0" value="graphString" />
+              <node role="type" roleId="yvor.5680397130376446158:3" type="yvor.StringType" typeId="yvor.1225271177708:3" id="4998536563116627637" />
+              <node role="initializer" roleId="yvor.1068431790190:3" type="yvor.StringLiteral" typeId="yvor.1070475926800:3" id="4998536563116627639">
+                <property name="value" nameId="yvor.1070475926801:3" value="6 8  0 1  1 2  0 2  3 4  4 5  5 3  2 4  1 3" />
+              </node>
+            </node>
+          </node>
+          <node role="statement" roleId="yvor.1068581517665:3" type="yvor.LocalVariableDeclarationStatement" typeId="yvor.1068581242864:3" id="4998536563116677108">
+            <node role="localVariableDeclaration" roleId="yvor.1068581242865:3" type="yvor.LocalVariableDeclaration" typeId="yvor.1068581242863:3" id="4998536563116677109">
+              <property name="name" nameId="yvnu.1169194664001:0" value="treeString" />
+              <node role="type" roleId="yvor.5680397130376446158:3" type="yvor.StringType" typeId="yvor.1225271177708:3" id="4998536563116677110" />
+              <node role="initializer" roleId="yvor.1068431790190:3" type="yvor.StringLiteral" typeId="yvor.1070475926800:3" id="4998536563116677112">
+                <property name="value" nameId="yvor.1070475926801:3" value="9 8  0 1  0 2  1 3  1 4  1 5  2 6  2 7  2 8" />
+              </node>
+            </node>
+          </node>
+          <node role="statement" roleId="yvor.1068581517665:3" type="yvor.LocalVariableDeclarationStatement" typeId="yvor.1068581242864:3" id="4998536563116627643">
+            <node role="localVariableDeclaration" roleId="yvor.1068581242865:3" type="yvor.LocalVariableDeclaration" typeId="yvor.1068581242863:3" id="4998536563116627644">
+              <property name="name" nameId="yvnu.1169194664001:0" value="graph" />
+              <node role="type" roleId="yvor.5680397130376446158:3" type="yvor.ClassifierType" typeId="yvor.1107535904670:3" id="4998536563116677113">
+                <link role="classifier" roleId="yvor.1107535924139:3" targetNodeId="aequ.6003893670991928460" resolveInfo="ClusteredGraph" />
+              </node>
+              <node role="initializer" roleId="yvor.1068431790190:3" type="yvor.StaticMethodCall" typeId="yvor.1081236700937:3" id="4998536563116677114">
+                <link role="baseMethodDeclaration" roleId="yvor.1068499141037:3" targetNodeId="jh5a.4998536563116627668" resolveInfo="scanClusteredGraph" />
+                <link role="classConcept" roleId="yvor.1144433194310:3" targetNodeId="jh5a.1567683135099906914" resolveInfo="GraphIO" />
+                <node role="actualArgument" roleId="yvor.1068499141038:3" type="yvor.LocalVariableReference" typeId="yvor.1068581242866:3" id="4998536563116677115">
+                  <link role="variableDeclaration" roleId="yvor.1068581517664:3" targetNodeId="4998536563116627636" resolveInfo="graphString" />
+                </node>
+                <node role="actualArgument" roleId="yvor.1068499141038:3" type="yvor.LocalVariableReference" typeId="yvor.1068581242866:3" id="4998536563116677117">
+                  <link role="variableDeclaration" roleId="yvor.1068581517664:3" targetNodeId="4998536563116677109" resolveInfo="treeString" />
+                </node>
+              </node>
+            </node>
+          </node>
+          <node role="statement" roleId="yvor.1068581517665:3" type="yvor.LocalVariableDeclarationStatement" typeId="yvor.1068581242864:3" id="4998536563116677129">
+            <node role="localVariableDeclaration" roleId="yvor.1068581242865:3" type="yvor.LocalVariableDeclaration" typeId="yvor.1068581242863:3" id="4998536563116677130">
+              <property name="name" nameId="yvnu.1169194664001:0" value="processor" />
+              <node role="type" roleId="yvor.5680397130376446158:3" type="yvor.ClassifierType" typeId="yvor.1107535904670:3" id="4998536563116677131">
+                <link role="classifier" roleId="yvor.1107535924139:3" targetNodeId="jp4y.4998536563116557003" resolveInfo="ClusterEmbeddingProcessor" />
+              </node>
+              <node role="initializer" roleId="yvor.1068431790190:3" type="yvor.GenericNewExpression" typeId="yvor.1145552977093:3" id="4998536563116677133">
+                <node role="creator" roleId="yvor.1145553007750:3" type="yvor.ClassCreator" typeId="yvor.1212685548494:3" id="4998536563116677134">
+                  <link role="baseMethodDeclaration" roleId="yvor.1068499141037:3" targetNodeId="jp4y.4998536563116557005" resolveInfo="ClusterEmbeddingProcessor" />
+                  <node role="actualArgument" roleId="yvor.1068499141038:3" type="yvor.LocalVariableReference" typeId="yvor.1068581242866:3" id="4998536563116677135">
+                    <link role="variableDeclaration" roleId="yvor.1068581517664:3" targetNodeId="4998536563116627644" resolveInfo="graph" />
+                  </node>
+                  <node role="actualArgument" roleId="yvor.1068499141038:3" type="yvor.DotExpression" typeId="yvor.1197027756228:3" id="4998536563116677138">
+                    <node role="operand" roleId="yvor.1197027771414:3" type="yvor.LocalVariableReference" typeId="yvor.1068581242866:3" id="4998536563116677137">
+                      <link role="variableDeclaration" roleId="yvor.1068581517664:3" targetNodeId="4998536563116627644" resolveInfo="graph" />
+                    </node>
+                    <node role="operation" roleId="yvor.1197027833540:3" type="yvor.InstanceMethodCallOperation" typeId="yvor.1202948039474:3" id="4998536563116677142">
+                      <link role="baseMethodDeclaration" roleId="yvor.1068499141037:3" targetNodeId="aequ.6003893670991928529" resolveInfo="getRoot" />
+                    </node>
+                  </node>
+                </node>
+              </node>
+            </node>
+          </node>
+          <node role="statement" roleId="yvor.1068581517665:3" type="yvor.ExpressionStatement" typeId="yvor.1068580123155:3" id="4998536563116677396">
+            <node role="expression" roleId="yvor.1068580123156:3" type="yvor.DotExpression" typeId="yvor.1197027756228:3" id="4998536563116677398">
+              <node role="operand" roleId="yvor.1197027771414:3" type="yvor.LocalVariableReference" typeId="yvor.1068581242866:3" id="4998536563116677397">
+                <link role="variableDeclaration" roleId="yvor.1068581517664:3" targetNodeId="4998536563116677130" resolveInfo="processor" />
+              </node>
+              <node role="operation" roleId="yvor.1197027833540:3" type="yvor.InstanceMethodCallOperation" typeId="yvor.1202948039474:3" id="4998536563116677402">
+                <link role="baseMethodDeclaration" roleId="yvor.1068499141037:3" targetNodeId="jp4y.4998536563116557037" resolveInfo="constructEmbedding" />
+                <node role="actualArgument" roleId="yvor.1068499141038:3" type="yvor.GenericNewExpression" typeId="yvor.1145552977093:3" id="4998536563116677403">
+                  <node role="creator" roleId="yvor.1145553007750:3" type="yvix.ListCreatorWithInit" typeId="yvix.1160600644654:7" id="4998536563116677405">
+                    <node role="elementType" roleId="yvix.1237721435807:7" type="yvor.ClassifierType" typeId="yvor.1107535904670:3" id="4998536563116682887">
+                      <link role="classifier" roleId="yvor.1107535924139:3" targetNodeId="aequ.2913448412765224981" resolveInfo="INode" />
+                    </node>
+                  </node>
+                </node>
               </node>
             </node>
           </node>

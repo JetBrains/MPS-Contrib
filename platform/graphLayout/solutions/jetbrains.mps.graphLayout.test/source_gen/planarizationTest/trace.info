@@ -1,5 +1,6 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <debugInfo>
+  <unitInfo fileName="ClusterEmbeddingProcessor_Test.java" startLine="13" startPosition="0" endLine="22" endPosition="0" unitName="planarizationTest.ClusterEmbeddingProcessor_Test" />
   <unitInfo fileName="BiconnectedInitialEmbeddingFinder_Test.java" startLine="13" startPosition="0" endLine="45" endPosition="0" unitName="planarizationTest.BiconnectedInitialEmbeddingFinder_Test" />
   <unitInfo fileName="TreeEmbeddingFinder_Find_Test.java" startLine="13" startPosition="0" endLine="52" endPosition="0" unitName="planarizationTest.TreeEmbeddingFinder_Find_Test" />
   <unitInfo fileName="ShortestPathEmbeddingFinder_Test.java" startLine="15" startPosition="0" endLine="59" endPosition="0" unitName="planarizationTest.ShortestPathEmbeddingFinder_Test" />
@@ -442,6 +443,21 @@
     <scopeInfo nodeId="4644851485137285705" fileName="PQPlanarizationFinder_Test.java" startLine="60" startPosition="0" endLine="67" endPosition="0">
       <varInfo nodeId="4644851485137285709" varName="graph" />
     </scopeInfo>
+  </root>
+  <root nodeId="4998536563116627620">
+    <nodeInfo nodeId="4998536563116627635" conceptFqName="jetbrains.mps.baseLanguage.structure.LocalVariableDeclarationStatement" fileName="ClusterEmbeddingProcessor_Test.java" startLine="14" startPosition="46" endLine="15" endPosition="71" />
+    <nodeInfo nodeId="4998536563116677108" conceptFqName="jetbrains.mps.baseLanguage.structure.LocalVariableDeclarationStatement" fileName="ClusterEmbeddingProcessor_Test.java" startLine="15" startPosition="71" endLine="16" endPosition="70" />
+    <nodeInfo nodeId="4998536563116627643" conceptFqName="jetbrains.mps.baseLanguage.structure.LocalVariableDeclarationStatement" fileName="ClusterEmbeddingProcessor_Test.java" startLine="16" startPosition="70" endLine="17" endPosition="79" />
+    <nodeInfo nodeId="4998536563116677129" conceptFqName="jetbrains.mps.baseLanguage.structure.LocalVariableDeclarationStatement" fileName="ClusterEmbeddingProcessor_Test.java" startLine="17" startPosition="79" endLine="18" endPosition="96" />
+    <nodeInfo nodeId="4998536563116677396" conceptFqName="jetbrains.mps.baseLanguage.structure.ExpressionStatement" fileName="ClusterEmbeddingProcessor_Test.java" startLine="18" startPosition="96" endLine="19" endPosition="80" />
+    <nodeInfo nodeId="4998536563116627631" conceptFqName="jetbrains.mps.baseLanguage.structure.InstanceMethodDeclaration" fileName="ClusterEmbeddingProcessor_Test.java" startLine="13" startPosition="62" endLine="21" endPosition="0" />
+    <scopeInfo nodeId="4998536563116627634" fileName="ClusterEmbeddingProcessor_Test.java" startLine="14" startPosition="46" endLine="19" endPosition="80">
+      <varInfo nodeId="4998536563116627636" varName="graphString" />
+      <varInfo nodeId="4998536563116627644" varName="graph" />
+      <varInfo nodeId="4998536563116677109" varName="treeString" />
+      <varInfo nodeId="4998536563116677130" varName="processor" />
+    </scopeInfo>
+    <scopeInfo nodeId="4998536563116627631" fileName="ClusterEmbeddingProcessor_Test.java" startLine="13" startPosition="62" endLine="21" endPosition="0" />
   </root>
   <root nodeId="516638300680467095">
     <nodeInfo nodeId="516638300680467141" conceptFqName="jetbrains.mps.baseLanguage.structure.LocalVariableDeclarationStatement" fileName="PQPlanarityTest_Test.java" startLine="19" startPosition="45" endLine="20" endPosition="76" />

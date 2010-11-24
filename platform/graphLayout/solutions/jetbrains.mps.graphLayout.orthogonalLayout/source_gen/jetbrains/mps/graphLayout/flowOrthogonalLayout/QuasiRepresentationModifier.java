@@ -158,24 +158,7 @@ public class QuasiRepresentationModifier {
   }
 
   private List<Dart> getOrderedDarts(Node node) {
-    List<Dart> darts = myEmbeddedGraph.getDartWithSource(node);
-    List<Dart> sortedDarts = ListSequence.fromList(new LinkedList<Dart>());
-    Dart curDart = ListSequence.fromList(darts).first();
-    while (ListSequence.fromList(sortedDarts).count() != ListSequence.fromList(darts).count()) {
-      ListSequence.fromList(sortedDarts).addElement(curDart);
-      curDart = myEmbeddedGraph.getNextSourceDart(curDart);
-      /*
-        Face curFace = myEmbeddedGraph.getFace(curDart);
-        for (Dart dart : ListSequence.fromList(darts)) {
-          Dart opposite = myEmbeddedGraph.getOpposite(dart);
-          if (myEmbeddedGraph.getFace(opposite) == curFace) {
-            curDart = dart;
-            break;
-          }
-        }
-      */
-    }
-    darts = sortedDarts;
+    List<Dart> darts = myEmbeddedGraph.getOrderedDarts(node);
     boolean hasZeroAngles = false;
     for (Dart dart : ListSequence.fromList(darts)) {
       if (MapSequence.fromMap(myAngles).get(dart) == 0) {

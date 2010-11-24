@@ -196,7 +196,9 @@ public class OrthogonalLayoutTestPanel extends JPanel {
         layoutInfo.setLabelSize(edge, MapSequence.fromMap(edgeDimensions).get(edge));
       }
       myCurrentLayout = myLayouter.doLayout(layoutInfo);
-      OrthogonalLayoutChecker.checkLayout(((GraphLayout) myCurrentLayout));
+      /*
+        OrthogonalLayoutChecker.checkLayout(((GraphLayout) myCurrentLayout));
+      */
       myCurrentLayout = LayoutTransform.shift(((GraphLayout) myCurrentLayout), 20, 20);
     }
   }

@@ -39,7 +39,7 @@ public class Edge implements IEdge {
     return this.myTarget;
   }
 
-  public Node getOpposite(Node node) {
+  public Node getOpposite(INode node) {
     if (node == mySource) {
       return myTarget;
     }
