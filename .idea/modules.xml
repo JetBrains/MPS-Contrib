@@ -43,7 +43,7 @@
       <module fileurl="file://$PROJECT_DIR$/core/idea-patch/idea-patch.iml" filepath="$PROJECT_DIR$/core/idea-patch/idea-patch.iml" group="core/kernel" />
       <module fileurl="file://$PROJECT_DIR$/plugins/ideaIntegration/ideaIntegration.iml" filepath="$PROJECT_DIR$/plugins/ideaIntegration/ideaIntegration.iml" group="plugins" />
       <module fileurl="file://$PROJECT_DIR$/core/languageDesign/intentions/intentions.iml" filepath="$PROJECT_DIR$/core/languageDesign/intentions/intentions.iml" group="core/languageDesign" />
-      <module fileurl="file://$PROJECT_DIR$/core/javaParser/javaParser.iml" filepath="$PROJECT_DIR$/core/javaParser/javaParser.iml" group="core/kernel" />
+      <module fileurl="file://$PROJECT_DIR$/workbench/javaParser/javaParser.iml" filepath="$PROJECT_DIR$/workbench/javaParser/javaParser.iml" group="workbench" />
       <module fileurl="file://$PROJECT_DIR$/core/baseLanguage/javadoc/javadoc.iml" filepath="$PROJECT_DIR$/core/baseLanguage/javadoc/javadoc.iml" group="core/baseLanguage" />
       <module fileurl="file://$PROJECT_DIR$/core/kernel/kernel.iml" filepath="$PROJECT_DIR$/core/kernel/kernel.iml" group="core/kernel" />
       <module fileurl="file://$PROJECT_DIR$/core/baseLanguage/logging/logging.iml" filepath="$PROJECT_DIR$/core/baseLanguage/logging/logging.iml" group="core/baseLanguage" />
@@ -75,7 +75,7 @@
       <module fileurl="file://$PROJECT_DIR$/core/languageDesign/typesystem/typesystem.iml" filepath="$PROJECT_DIR$/core/languageDesign/typesystem/typesystem.iml" group="core/languageDesign" />
       <module fileurl="file://$PROJECT_DIR$/core/typesystemEngine/typesystemEngine.iml" filepath="$PROJECT_DIR$/core/typesystemEngine/typesystemEngine.iml" group="core/kernel" />
       <module fileurl="file://$PROJECT_DIR$/core/typesystemIntegration/typesystemIntegration.iml" filepath="$PROJECT_DIR$/core/typesystemIntegration/typesystemIntegration.iml" />
-      <module fileurl="file://$PROJECT_DIR$/workbench/typesystemUi/typesystemUi.iml" filepath="$PROJECT_DIR$/workbench/typesystemUi/typesystemUi.iml" />
+      <module fileurl="file://$PROJECT_DIR$/workbench/typesystemUi/typesystemUi.iml" filepath="$PROJECT_DIR$/workbench/typesystemUi/typesystemUi.iml" group="workbench" />
       <module fileurl="file://$PROJECT_DIR$/platform/uiLanguage/uiLanguage.iml" filepath="$PROJECT_DIR$/platform/uiLanguage/uiLanguage.iml" group="platform/uiLanguage" />
       <module fileurl="file://$PROJECT_DIR$/workbench/uiTests/uiTests.iml" filepath="$PROJECT_DIR$/workbench/uiTests/uiTests.iml" />
       <module fileurl="file://$PROJECT_DIR$/core/baseLanguage/unitTest/unitTest.iml" filepath="$PROJECT_DIR$/core/baseLanguage/unitTest/unitTest.iml" group="core/baseLanguage" />
