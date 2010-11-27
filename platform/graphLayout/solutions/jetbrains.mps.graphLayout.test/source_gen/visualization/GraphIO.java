@@ -39,7 +39,7 @@ public class GraphIO {
       for (int i = 0; i < numEdges; i++) {
         int source = scanner.nextInt();
         int target = scanner.nextInt();
-        graph.getNode(source).addEdgeTo(graph.getNode(target));
+        graph.connect(graph.getNode(source), graph.getNode(target));
       }
     } catch (Exception e) {
       throw new IllegalArgumentException("invalid input", e);

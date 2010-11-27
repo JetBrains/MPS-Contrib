@@ -10,7 +10,7 @@
     <nodeInfo nodeId="4998536563116676914" conceptFqName="jetbrains.mps.baseLanguage.structure.LocalVariableDeclarationStatement" fileName="GraphIO.java" startLine="37" startPosition="7" endLine="38" endPosition="39" />
     <nodeInfo nodeId="4998536563116676922" conceptFqName="jetbrains.mps.baseLanguage.structure.LocalVariableDeclarationStatement" fileName="GraphIO.java" startLine="39" startPosition="42" endLine="40" endPosition="39" />
     <nodeInfo nodeId="4998536563116676928" conceptFqName="jetbrains.mps.baseLanguage.structure.LocalVariableDeclarationStatement" fileName="GraphIO.java" startLine="40" startPosition="39" endLine="41" endPosition="39" />
-    <nodeInfo nodeId="4998536563116676934" conceptFqName="jetbrains.mps.baseLanguage.structure.ExpressionStatement" fileName="GraphIO.java" startLine="41" startPosition="39" endLine="42" endPosition="63" />
+    <nodeInfo nodeId="1763712338172437993" conceptFqName="jetbrains.mps.baseLanguage.structure.ExpressionStatement" fileName="GraphIO.java" startLine="41" startPosition="39" endLine="42" endPosition="68" />
     <nodeInfo nodeId="4998536563116676959" conceptFqName="jetbrains.mps.baseLanguage.structure.ThrowStatement" fileName="GraphIO.java" startLine="44" startPosition="27" endLine="45" endPosition="61" />
     <nodeInfo nodeId="6984255766319296600" conceptFqName="jetbrains.mps.baseLanguage.structure.LocalVariableDeclarationStatement" fileName="GraphIO.java" startLine="49" startPosition="72" endLine="50" endPosition="37" />
     <nodeInfo nodeId="6984255766319296609" conceptFqName="jetbrains.mps.baseLanguage.structure.LocalVariableDeclarationStatement" fileName="GraphIO.java" startLine="50" startPosition="37" endLine="51" endPosition="59" />
@@ -98,7 +98,7 @@
     <scopeInfo nodeId="4998536563116676900" fileName="GraphIO.java" startLine="34" startPosition="39" endLine="37" endPosition="7">
       <varInfo nodeId="4998536563116676906" varName="i" />
     </scopeInfo>
-    <scopeInfo nodeId="4998536563116676921" fileName="GraphIO.java" startLine="39" startPosition="42" endLine="42" endPosition="63">
+    <scopeInfo nodeId="4998536563116676921" fileName="GraphIO.java" startLine="39" startPosition="42" endLine="42" endPosition="68">
       <varInfo nodeId="4998536563116676923" varName="source" />
       <varInfo nodeId="4998536563116676929" varName="target" />
     </scopeInfo>
@@ -304,7 +304,6 @@
     <nodeInfo nodeId="1567683135099907274" conceptFqName="jetbrains.mps.baseLanguage.structure.ExpressionStatement" fileName="TestPanel.java" startLine="242" startPosition="68" endLine="243" endPosition="38" />
     <nodeInfo nodeId="1567683135099907279" conceptFqName="jetbrains.mps.baseLanguage.structure.ExpressionStatement" fileName="TestPanel.java" startLine="243" startPosition="38" endLine="244" endPosition="68" />
     <nodeInfo nodeId="8734440518943050067" conceptFqName="jetbrains.mps.baseLanguage.structure.ExpressionStatement" fileName="TestPanel.java" startLine="244" startPosition="68" endLine="245" endPosition="119" />
-    <nodeInfo nodeId="8431902818504360418" conceptFqName="jetbrains.mps.baseLanguage.structure.ExpressionStatement" fileName="TestPanel.java" startLine="247" startPosition="33" endLine="248" endPosition="72" />
     <nodeInfo nodeId="1567683135099907482" conceptFqName="jetbrains.mps.baseLanguage.structure.BlockStatement" fileName="TestPanel.java" startLine="110" startPosition="18" endLine="112" endPosition="13" />
     <nodeInfo nodeId="7343732392716135155" conceptFqName="jetbrains.mps.baseLanguage.structure.CommentedStatementsBlock" fileName="TestPanel.java" startLine="68" startPosition="51" endLine="71" endPosition="6" />
     <nodeInfo nodeId="529057043639210010" conceptFqName="jetbrains.mps.baseLanguage.structure.CommentedStatementsBlock" fileName="TestPanel.java" startLine="71" startPosition="6" endLine="74" endPosition="6" />
@@ -315,33 +314,31 @@
     <nodeInfo nodeId="1567683135099907823" conceptFqName="jetbrains.mps.baseLanguage.structure.CommentedStatementsBlock" fileName="TestPanel.java" startLine="190" startPosition="18" endLine="193" endPosition="6" />
     <nodeInfo nodeId="1567683135099907105" conceptFqName="jetbrains.mps.baseLanguage.structure.ConstructorDeclaration" fileName="TestPanel.java" startLine="214" startPosition="45" endLine="217" endPosition="5" />
     <nodeInfo nodeId="1567683135099907172" conceptFqName="jetbrains.mps.baseLanguage.structure.IfStatement" fileName="TestPanel.java" startLine="230" startPosition="96" endLine="233" endPosition="13" />
-    <nodeInfo nodeId="8431902818504360367" conceptFqName="jetbrains.mps.baseLanguage.structure.IfStatement" fileName="TestPanel.java" startLine="246" startPosition="12" endLine="249" endPosition="13" />
     <nodeInfo nodeId="1567683135099907950" conceptFqName="jetbrains.mps.baseLanguage.structure.InstanceMethodDeclaration" fileName="TestPanel.java" startLine="207" startPosition="47" endLine="211" endPosition="0" />
     <nodeInfo nodeId="1567683135099907471" conceptFqName="jetbrains.mps.baseLanguage.structure.IfStatement" fileName="TestPanel.java" startLine="107" startPosition="12" endLine="112" endPosition="13" />
     <nodeInfo nodeId="1567683135099907540" conceptFqName="jetbrains.mps.baseLanguage.structure.InstanceMethodDeclaration" fileName="TestPanel.java" startLine="127" startPosition="51" endLine="132" endPosition="0" />
     <nodeInfo nodeId="1567683135099907638" conceptFqName="jetbrains.mps.baseLanguage.structure.ForeachStatement" fileName="TestPanel.java" startLine="149" startPosition="67" endLine="154" endPosition="5" />
     <nodeInfo nodeId="1567683135099907681" conceptFqName="jetbrains.mps.baseLanguage.structure.TryCatchStatement" fileName="TestPanel.java" startLine="159" startPosition="19" endLine="164" endPosition="5" />
     <nodeInfo nodeId="1567683135099907944" conceptFqName="jetbrains.mps.baseLanguage.structure.ExpressionStatement" fileName="TestPanel.java" startLine="206" startPosition="42" endLine="211" endPosition="7" />
-    <nodeInfo nodeId="8734440518943050087" conceptFqName="jetbrains.mps.baseLanguage.structure.CommentedStatementsBlock" fileName="TestPanel.java" startLine="245" startPosition="119" endLine="250" endPosition="12" />
     <nodeInfo nodeId="1567683135099907532" conceptFqName="jetbrains.mps.baseLanguage.structure.ExpressionStatement" fileName="TestPanel.java" startLine="126" startPosition="52" endLine="132" endPosition="7" />
     <nodeInfo nodeId="1567683135099907166" conceptFqName="jetbrains.mps.baseLanguage.structure.ForeachStatement" fileName="TestPanel.java" startLine="229" startPosition="27" endLine="235" endPosition="11" />
     <nodeInfo nodeId="8734440518943050301" conceptFqName="jetbrains.mps.baseLanguage.structure.CommentedStatementsBlock" fileName="TestPanel.java" startLine="106" startPosition="18" endLine="113" endPosition="12" />
     <nodeInfo nodeId="1567683135099907940" conceptFqName="jetbrains.mps.baseLanguage.structure.StaticMethodDeclaration" fileName="TestPanel.java" startLine="205" startPosition="0" endLine="213" endPosition="0" />
     <nodeInfo nodeId="1567683135099907906" conceptFqName="jetbrains.mps.baseLanguage.structure.StaticMethodDeclaration" fileName="TestPanel.java" startLine="196" startPosition="0" endLine="205" endPosition="0" />
     <nodeInfo nodeId="1567683135099907156" conceptFqName="jetbrains.mps.baseLanguage.structure.ForeachStatement" fileName="TestPanel.java" startLine="227" startPosition="76" endLine="236" endPosition="9" />
+    <nodeInfo nodeId="1567683135099907213" conceptFqName="jetbrains.mps.baseLanguage.structure.ForeachStatement" fileName="TestPanel.java" startLine="236" startPosition="9" endLine="246" endPosition="9" />
     <nodeInfo nodeId="1567683135099907669" conceptFqName="jetbrains.mps.baseLanguage.structure.InstanceMethodDeclaration" fileName="TestPanel.java" startLine="156" startPosition="0" endLine="167" endPosition="0" />
     <nodeInfo nodeId="1567683135099907703" conceptFqName="jetbrains.mps.baseLanguage.structure.InstanceMethodDeclaration" fileName="TestPanel.java" startLine="167" startPosition="0" endLine="179" endPosition="0" />
     <nodeInfo nodeId="1567683135099907593" conceptFqName="jetbrains.mps.baseLanguage.structure.InstanceMethodDeclaration" fileName="TestPanel.java" startLine="141" startPosition="0" endLine="156" endPosition="0" />
-    <nodeInfo nodeId="1567683135099907213" conceptFqName="jetbrains.mps.baseLanguage.structure.ForeachStatement" fileName="TestPanel.java" startLine="236" startPosition="9" endLine="251" endPosition="9" />
     <nodeInfo nodeId="1567683135099907452" conceptFqName="jetbrains.mps.baseLanguage.structure.TryCatchStatement" fileName="TestPanel.java" startLine="102" startPosition="51" endLine="118" endPosition="9" />
     <nodeInfo nodeId="1567683135099907761" conceptFqName="jetbrains.mps.baseLanguage.structure.InstanceMethodDeclaration" fileName="TestPanel.java" startLine="179" startPosition="0" endLine="196" endPosition="0" />
     <nodeInfo nodeId="1567683135099907517" conceptFqName="jetbrains.mps.baseLanguage.structure.InstanceMethodDeclaration" fileName="TestPanel.java" startLine="123" startPosition="0" endLine="141" endPosition="0" />
     <nodeInfo nodeId="1567683135099907446" conceptFqName="jetbrains.mps.baseLanguage.structure.InstanceMethodDeclaration" fileName="TestPanel.java" startLine="101" startPosition="51" endLine="120" endPosition="0" />
     <nodeInfo nodeId="1567683135099907438" conceptFqName="jetbrains.mps.baseLanguage.structure.ExpressionStatement" fileName="TestPanel.java" startLine="100" startPosition="52" endLine="120" endPosition="7" />
     <nodeInfo nodeId="1567683135099907854" conceptFqName="jetbrains.mps.baseLanguage.structure.ConstructorDeclaration" fileName="TestPanel.java" startLine="61" startPosition="0" endLine="82" endPosition="3" />
-    <nodeInfo nodeId="1567683135099907129" conceptFqName="jetbrains.mps.baseLanguage.structure.BlockStatement" fileName="TestPanel.java" startLine="223" startPosition="12" endLine="252" endPosition="7" />
-    <nodeInfo nodeId="1567683135099907117" conceptFqName="jetbrains.mps.baseLanguage.structure.IfStatement" fileName="TestPanel.java" startLine="220" startPosition="51" endLine="252" endPosition="7" />
-    <nodeInfo nodeId="1567683135099907111" conceptFqName="jetbrains.mps.baseLanguage.structure.InstanceMethodDeclaration" fileName="TestPanel.java" startLine="218" startPosition="0" endLine="254" endPosition="0" />
+    <nodeInfo nodeId="1567683135099907129" conceptFqName="jetbrains.mps.baseLanguage.structure.BlockStatement" fileName="TestPanel.java" startLine="223" startPosition="12" endLine="247" endPosition="7" />
+    <nodeInfo nodeId="1567683135099907117" conceptFqName="jetbrains.mps.baseLanguage.structure.IfStatement" fileName="TestPanel.java" startLine="220" startPosition="51" endLine="247" endPosition="7" />
+    <nodeInfo nodeId="1567683135099907111" conceptFqName="jetbrains.mps.baseLanguage.structure.InstanceMethodDeclaration" fileName="TestPanel.java" startLine="218" startPosition="0" endLine="249" endPosition="0" />
     <nodeInfo nodeId="1567683135099907342" conceptFqName="jetbrains.mps.baseLanguage.structure.InstanceMethodDeclaration" fileName="TestPanel.java" startLine="83" startPosition="0" endLine="123" endPosition="0" />
     <scopeInfo nodeId="1567683135099907475" fileName="TestPanel.java" startLine="108" startPosition="49" endLine="109" endPosition="75" />
     <scopeInfo nodeId="1567683135099907483" fileName="TestPanel.java" startLine="110" startPosition="20" endLine="111" endPosition="80" />
@@ -360,7 +357,6 @@
     <scopeInfo nodeId="1567683135099907108" fileName="TestPanel.java" startLine="215" startPosition="27" endLine="216" endPosition="14" />
     <scopeInfo nodeId="1567683135099907118" fileName="TestPanel.java" startLine="221" startPosition="36" endLine="222" endPosition="65" />
     <scopeInfo nodeId="1567683135099907176" fileName="TestPanel.java" startLine="231" startPosition="30" endLine="232" endPosition="184" />
-    <scopeInfo nodeId="8431902818504360369" fileName="TestPanel.java" startLine="247" startPosition="33" endLine="248" endPosition="72" />
     <scopeInfo nodeId="1567683135099907545" fileName="TestPanel.java" startLine="128" startPosition="51" endLine="130" endPosition="31" />
     <scopeInfo nodeId="1567683135099907608" fileName="TestPanel.java" startLine="144" startPosition="40" endLine="147" endPosition="5" />
     <scopeInfo nodeId="1567683135099907641" fileName="TestPanel.java" startLine="150" startPosition="52" endLine="153" endPosition="7" />
@@ -387,11 +383,17 @@
     <scopeInfo nodeId="1567683135099907940" fileName="TestPanel.java" startLine="205" startPosition="0" endLine="213" endPosition="0">
       <varInfo nodeId="1567683135099907956" varName="args" />
     </scopeInfo>
+    <scopeInfo nodeId="1567683135099907218" fileName="TestPanel.java" startLine="237" startPosition="89" endLine="245" endPosition="119">
+      <varInfo nodeId="1567683135099907254" varName="oldColor" />
+      <varInfo nodeId="1567683135099907237" varName="y" />
+      <varInfo nodeId="1567683135099907220" varName="x" />
+    </scopeInfo>
     <scopeInfo nodeId="1567683135099907706" fileName="TestPanel.java" startLine="168" startPosition="34" endLine="177" endPosition="28">
       <varInfo nodeId="1567683135099907721" varName="c" />
     </scopeInfo>
     <scopeInfo nodeId="1567683135099907906" fileName="TestPanel.java" startLine="196" startPosition="0" endLine="205" endPosition="0" />
     <scopeInfo nodeId="1567683135099907156" fileName="TestPanel.java" startLine="227" startPosition="76" endLine="236" endPosition="9" />
+    <scopeInfo nodeId="1567683135099907213" fileName="TestPanel.java" startLine="236" startPosition="9" endLine="246" endPosition="9" />
     <scopeInfo nodeId="1567683135099907669" fileName="TestPanel.java" startLine="156" startPosition="0" endLine="167" endPosition="0" />
     <scopeInfo nodeId="1567683135099907453" fileName="TestPanel.java" startLine="103" startPosition="13" endLine="115" endPosition="24">
       <varInfo nodeId="1567683135099907469" varName="g" />
@@ -403,11 +405,6 @@
       <varInfo nodeId="1567683135099907602" varName="nodes" />
     </scopeInfo>
     <scopeInfo nodeId="1567683135099907703" fileName="TestPanel.java" startLine="167" startPosition="0" endLine="179" endPosition="0" />
-    <scopeInfo nodeId="1567683135099907218" fileName="TestPanel.java" startLine="237" startPosition="89" endLine="250" endPosition="12">
-      <varInfo nodeId="1567683135099907254" varName="oldColor" />
-      <varInfo nodeId="1567683135099907237" varName="y" />
-      <varInfo nodeId="1567683135099907220" varName="x" />
-    </scopeInfo>
     <scopeInfo nodeId="1567683135099907764" fileName="TestPanel.java" startLine="180" startPosition="35" endLine="194" endPosition="47">
       <varInfo nodeId="1567683135099907777" varName="c" />
     </scopeInfo>
@@ -418,7 +415,6 @@
     <scopeInfo nodeId="1567683135099907593" fileName="TestPanel.java" startLine="141" startPosition="0" endLine="156" endPosition="0">
       <varInfo nodeId="1567683135099907667" varName="graph" />
     </scopeInfo>
-    <scopeInfo nodeId="1567683135099907213" fileName="TestPanel.java" startLine="236" startPosition="9" endLine="251" endPosition="9" />
     <scopeInfo nodeId="1567683135099907451" fileName="TestPanel.java" startLine="102" startPosition="51" endLine="118" endPosition="9" />
     <scopeInfo nodeId="1567683135099907761" fileName="TestPanel.java" startLine="179" startPosition="0" endLine="196" endPosition="0" />
     <scopeInfo nodeId="1567683135099907517" fileName="TestPanel.java" startLine="123" startPosition="0" endLine="141" endPosition="0" />
@@ -427,14 +423,14 @@
       <varInfo nodeId="1567683135099907449" varName="p0" />
     </scopeInfo>
     <scopeInfo nodeId="1567683135099907854" fileName="TestPanel.java" startLine="61" startPosition="0" endLine="82" endPosition="3" />
-    <scopeInfo nodeId="1567683135099907130" fileName="TestPanel.java" startLine="223" startPosition="14" endLine="251" endPosition="9">
+    <scopeInfo nodeId="1567683135099907130" fileName="TestPanel.java" startLine="223" startPosition="14" endLine="246" endPosition="9">
       <varInfo nodeId="1567683135099907136" varName="yOffset" />
       <varInfo nodeId="1567683135099907132" varName="xOffset" />
       <varInfo nodeId="1567683135099907140" varName="nodeLayout" />
       <varInfo nodeId="1567683135099907148" varName="edgeLayout" />
     </scopeInfo>
-    <scopeInfo nodeId="1567683135099907116" fileName="TestPanel.java" startLine="220" startPosition="51" endLine="252" endPosition="7" />
-    <scopeInfo nodeId="1567683135099907111" fileName="TestPanel.java" startLine="218" startPosition="0" endLine="254" endPosition="0">
+    <scopeInfo nodeId="1567683135099907116" fileName="TestPanel.java" startLine="220" startPosition="51" endLine="247" endPosition="7" />
+    <scopeInfo nodeId="1567683135099907111" fileName="TestPanel.java" startLine="218" startPosition="0" endLine="249" endPosition="0">
       <varInfo nodeId="1567683135099907114" varName="graphics" />
     </scopeInfo>
     <scopeInfo nodeId="1567683135099907345" fileName="TestPanel.java" startLine="84" startPosition="39" endLine="121" endPosition="21">
@@ -445,8 +441,8 @@
     <unitInfo nodeId="1567683135099907948" fileName="TestPanel.java" startLine="207" startPosition="35" endLine="211" endPosition="5" unitName="visualization.TestPanel$3" />
     <unitInfo nodeId="1567683135099907538" fileName="TestPanel.java" startLine="127" startPosition="33" endLine="132" endPosition="5" unitName="visualization.TestPanel$2" />
     <unitInfo nodeId="1567683135099907444" fileName="TestPanel.java" startLine="101" startPosition="33" endLine="120" endPosition="5" unitName="visualization.TestPanel$1" />
-    <unitInfo nodeId="1567683135099907103" fileName="TestPanel.java" startLine="214" startPosition="0" endLine="255" endPosition="0" unitName="visualization.TestPanel$MyGraphLabel" />
-    <unitInfo nodeId="1567683135099907102" fileName="TestPanel.java" startLine="48" startPosition="0" endLine="256" endPosition="0" unitName="visualization.TestPanel" />
+    <unitInfo nodeId="1567683135099907103" fileName="TestPanel.java" startLine="214" startPosition="0" endLine="250" endPosition="0" unitName="visualization.TestPanel$MyGraphLabel" />
+    <unitInfo nodeId="1567683135099907102" fileName="TestPanel.java" startLine="48" startPosition="0" endLine="251" endPosition="0" unitName="visualization.TestPanel" />
   </root>
   <root nodeId="8729833695221588600">
     <nodeInfo nodeId="8729833695221589592" conceptFqName="jetbrains.mps.baseLanguage.structure.StaticFieldDeclaration" fileName="RectLayoutTestPanel.java" startLine="40" startPosition="49" endLine="41" endPosition="69" />

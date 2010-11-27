@@ -43,7 +43,7 @@ public class LayeredLayouter implements IPointLayouter {
       ListSequence.fromList(edgeLayout).addElement(MapSequence.fromMap(nodeCoordinates).get(deletedEdge.getSource()));
       for (Edge newEdge : ListSequence.fromList(MapSequence.fromMap(substituteEdgeMap).get(deletedEdge))) {
         ListSequence.fromList(edgeLayout).addElement(MapSequence.fromMap(nodeCoordinates).get(newEdge.getTarget()));
-        newEdge.removeFromGraph();
+        graph.removeEdge(newEdge);
       }
       graphLayout.setLayoutFor(deletedEdge, edgeLayout);
       graph.addEdge(deletedEdge);
@@ -79,7 +79,7 @@ public class LayeredLayouter implements IPointLayouter {
           for (int i = sourceLayer + 1; i <= targetLayer; i++) {
             Node newTarget;
             if (i < targetLayer) {
-              newTarget = graph.addDummyNode();
+              newTarget = graph.createDummyNode();
               MapSequence.fromMap(layers).put(newTarget, i);
             } else {
               newTarget = edge.getTarget();
@@ -91,7 +91,7 @@ public class LayeredLayouter implements IPointLayouter {
       }
     }
     for (Edge deletedEdge : SetSequence.fromSet(MapSequence.fromMap(substituteMap).keySet())) {
-      deletedEdge.removeFromGraph();
+      graph.removeEdge(deletedEdge);
       for (Edge newEdge : ListSequence.fromList(MapSequence.fromMap(substituteMap).get(deletedEdge))) {
         graph.addEdge(newEdge);
       }

@@ -21,6 +21,7 @@ import jetbrains.mps.graphLayout.algorithms.BiconnectAugmentation;
 import jetbrains.mps.graphLayout.planarGraph.EmbeddedGraph;
 import jetbrains.mps.graphLayout.planarization.ShortestPathEmbeddingFinder;
 import jetbrains.mps.graphLayout.planarization.BiconnectedInitialEmbeddingFinder;
+import jetbrains.mps.graphLayout.graph.EdgesHistoryManager;
 import jetbrains.mps.graphLayout.planarization.PQPlanarizationFinder;
 import java.util.Set;
 import jetbrains.mps.internal.collections.runtime.SetSequence;
@@ -69,15 +70,15 @@ public class RectOrthogonalLayouter {
     }
     for (Node node : ListSequence.fromList(graph.getNodes())) {
       Graph subgraph = ListSequence.fromList(subgraphs).getElement(MapSequence.fromMap(components).get(node));
-      Node newNode = subgraph.addNode();
+      Node newNode = subgraph.createNode();
       MapSequence.fromMap(newNodes).put(node, newNode);
       MapSequence.fromMap(nodeSubgraphs).put(node, subgraph);
       MapSequence.fromMap(MapSequence.fromMap(subNodeSizes).get(subgraph)).put(newNode, new Dimension(MapSequence.fromMap(nodeSizes).get(node).width + myEdgeDistance, MapSequence.fromMap(nodeSizes).get(node).height));
     }
     for (Edge edge : ListSequence.fromList(graph.getEdges())) {
-      Edge newEdge = MapSequence.fromMap(newNodes).get(edge.getSource()).addEdgeTo(MapSequence.fromMap(newNodes).get(edge.getTarget()));
-      MapSequence.fromMap(newEdges).put(edge, newEdge);
       Graph subgraph = MapSequence.fromMap(nodeSubgraphs).get(edge.getSource());
+      Edge newEdge = subgraph.connect(MapSequence.fromMap(newNodes).get(edge.getSource()), MapSequence.fromMap(newNodes).get(edge.getTarget()));
+      MapSequence.fromMap(newEdges).put(edge, newEdge);
       if (MapSequence.fromMap(edgeSizes).get(edge) == null) {
         MapSequence.fromMap(MapSequence.fromMap(subEdgeSizes).get(subgraph)).put(newEdge, new Dimension(myEdgeDistance, myEdgeDistance));
       } else {
@@ -125,6 +126,7 @@ public class RectOrthogonalLayouter {
     /*
       EmbeddedGraph embeddedGraph = new ShortestPathEmbeddingFinder(new BiconnectedInitialEmbeddingFinder()).find(graph);
     */
+    EdgesHistoryManager historyManager = new EdgesHistoryManager(graph);
     EmbeddedGraph embeddedGraph = new ShortestPathEmbeddingFinder(new PQPlanarizationFinder()).find(graph);
     for (Node node : ListSequence.fromList(graph.getNodes())) {
       if (!(MapSequence.fromMap(nodeSizes).containsKey(node))) {
@@ -134,7 +136,7 @@ public class RectOrthogonalLayouter {
     Map<Edge, Dimension> newEdgeSizes = MapSequence.fromMap(new HashMap<Edge, Dimension>());
     Set<Edge> hasLabel = SetSequence.fromSet(new HashSet<Edge>());
     for (Edge oldEdge : ListSequence.fromList(oldEdges)) {
-      List<Edge> history = embeddedGraph.findFullHistory(oldEdge);
+      List<Edge> history = historyManager.getHistory(oldEdge);
       Node cur = oldEdge.getSource();
       if (!(ListSequence.fromList(ListSequence.fromList(history).first().getAdjacentNodes()).contains(cur))) {
         history = ListSequence.fromList(history).reversedList();
@@ -168,7 +170,7 @@ public class RectOrthogonalLayouter {
     Map<Object, Rectangle> representation = supporter.getRepresentation(stPlanarGraph, nodeSizes, newEdgeSizes);
     GraphLayout graphLayout = this.createLayout(graph, representation, nodeSizes, newEdgeSizes, hasLabel);
     if (myLayoutLevel > 0) {
-      this.removeTempObjects(oldEdges, embeddedGraph, graphLayout, graph, addedNode);
+      this.removeTempObjects(oldEdges, graphLayout, graph, addedNode, historyManager);
     }
     if (myLayoutLevel > 1) {
       LayoutOptimizer.optimizeEdges(graphLayout);
@@ -176,10 +178,10 @@ public class RectOrthogonalLayouter {
     return graphLayout;
   }
 
-  private void removeTempObjects(List<Edge> oldEdges, EmbeddedGraph embeddedGraph, GraphLayout graphLayout, Graph graph, Node addedNode) {
+  private void removeTempObjects(List<Edge> oldEdges, GraphLayout graphLayout, Graph graph, Node addedNode, EdgesHistoryManager manager) {
     Set<Node> visited = SetSequence.fromSet(new HashSet<Node>());
     for (Edge oldEdge : ListSequence.fromList(oldEdges)) {
-      List<Edge> history = embeddedGraph.findFullHistory(oldEdge);
+      List<Edge> history = manager.getHistory(oldEdge);
       Node cur = oldEdge.getSource();
       if (ListSequence.fromList(history).count() > 1) {
         List<Point> oldEdgeLayout = ListSequence.fromList(new ArrayList<Point>());
@@ -229,7 +231,7 @@ public class RectOrthogonalLayouter {
               y = rect.y;
               SetSequence.fromSet(visited).addElement(cur);
             }
-            Point left = ListSequence.fromList(oldEdgeLayout).removeLastElement();
+            Point left = ListSequence.fromList(edgeLayout).removeLastElement();
             Point right = ListSequence.fromList(edgeLayout).removeElementAt(0);
             ListSequence.fromList(oldEdgeLayout).addElement(new Point(left.x, y));
             ListSequence.fromList(edgeLayout).insertElement(0, new Point(right.x, y));

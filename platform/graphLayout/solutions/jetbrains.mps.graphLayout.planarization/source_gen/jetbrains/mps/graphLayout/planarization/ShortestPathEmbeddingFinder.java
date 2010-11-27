@@ -14,6 +14,7 @@ import java.util.ArrayList;
 import jetbrains.mps.graphLayout.algorithms.ShortestPath;
 import jetbrains.mps.graphLayout.planarGraph.Face;
 import jetbrains.mps.internal.collections.runtime.MapSequence;
+import jetbrains.mps.graphLayout.graph.GraphModificationEvent;
 
 public class ShortestPathEmbeddingFinder implements IEmbeddingFinder {
   private static int SHOW_LOG = 0;
@@ -40,7 +41,7 @@ public class ShortestPathEmbeddingFinder implements IEmbeddingFinder {
       System.out.println(toAdd);
     }
     for (Edge edge : ListSequence.fromList(toAdd)) {
-      edge.removeFromGraph();
+      graph.removeEdge(edge);
     }
     for (Edge edge : ListSequence.fromList(toAdd)) {
       restoreEdge(embeddedGraph, edge);
@@ -83,12 +84,13 @@ public class ShortestPathEmbeddingFinder implements IEmbeddingFinder {
     for (int i = 0; i < ListSequence.fromList(nodePath).count() - 1; i++) {
       Node start = ListSequence.fromList(nodePath).getElement(i);
       Node end = ListSequence.fromList(nodePath).getElement(i + 1);
-      Edge newEdge = start.addEdgeTo(end);
+      Edge newEdge = embeddedGraph.getGraph().connect(start, end);
       ListSequence.fromList(newEdges).addElement(newEdge);
       List<Edge> tempPath = ListSequence.fromListAndArray(new ArrayList<Edge>(), newEdge);
       embeddedGraph.splitFace(ListSequence.fromList(facePath).getElement(i), tempPath, start, end);
     }
-    embeddedGraph.setEdgesHistory(removedEdge, newEdges);
+    GraphModificationEvent splitEvent = new GraphModificationEvent(GraphModificationEvent.Type.EDGE_SPLITTED, removedEdge, newEdges);
+    embeddedGraph.getGraph().getModificationProcessor().fire(splitEvent);
     return newEdges;
   }
 }

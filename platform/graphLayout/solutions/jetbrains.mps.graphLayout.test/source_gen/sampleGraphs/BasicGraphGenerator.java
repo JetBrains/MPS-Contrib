@@ -14,7 +14,7 @@ public class BasicGraphGenerator extends AbstractGraphGenerator {
   protected Graph generateGraph() {
     Graph graph = new Graph();
     for (int i = 0; i < getNumNodes(); i++) {
-      graph.addNode();
+      graph.createNode();
     }
     for (int i = 0; i < getNumEdges(); i++) {
       Edge edge = generateEdge(graph);
@@ -28,6 +28,6 @@ public class BasicGraphGenerator extends AbstractGraphGenerator {
   protected Edge generateEdge(Graph graph) {
     Node source = graph.getNode(random().nextInt(getNumNodes()));
     Node target = graph.getNode(random().nextInt(getNumNodes()));
-    return source.addEdgeTo(target);
+    return graph.connect(source, target);
   }
 }

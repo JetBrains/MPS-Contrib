@@ -31,11 +31,11 @@ public class STPlanarGraph_Test extends TestCase {
     Node node1 = graph.getNode(1);
     Node node2 = graph.getNode(2);
     Node node3 = graph.getNode(3);
-    Edge edge01 = node0.addEdgeTo(node1);
-    Edge edge13 = node1.addEdgeTo(node3);
-    Edge edge32 = node3.addEdgeTo(node2);
-    Edge edge20 = node2.addEdgeTo(node0);
-    Edge edge12 = node1.addEdgeTo(node2);
+    Edge edge01 = graph.connect(node0, node1);
+    Edge edge13 = graph.connect(node1, node3);
+    Edge edge32 = graph.connect(node3, node2);
+    Edge edge20 = graph.connect(node2, node0);
+    Edge edge12 = graph.connect(node1, node2);
     EmbeddedGraph embeddedGraph = new EmbeddedGraph(graph);
     Face face012 = new Face(graph);
     face012.addLast(new Dart(edge01, node0));

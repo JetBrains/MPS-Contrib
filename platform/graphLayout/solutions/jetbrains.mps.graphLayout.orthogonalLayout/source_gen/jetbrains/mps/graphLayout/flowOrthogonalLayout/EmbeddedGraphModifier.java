@@ -98,7 +98,7 @@ public class EmbeddedGraphModifier {
       } else {
         next = nodes[intDir + 1];
       }
-      Edge newEdge = cur.addEdgeTo(next);
+      Edge newEdge = myGraph.connect(cur, next);
       myEmbeddedGraph.splitFace(face, ListSequence.fromListAndArray(new ArrayList<Edge>(), newEdge), cur, next);
       Dart dart = myEmbeddedGraph.getSourceDart(newEdge, cur);
       MapSequence.fromMap(myDartDirections).put(dart, Direction2D.get(intDir));
@@ -200,7 +200,7 @@ public class EmbeddedGraphModifier {
     List<Direction2D> allDirections = Arrays.asList(Direction2D.values());
     List<Dart> darts = myEmbeddedGraph.getDartWithSource(node);
     Face nodeInnerFace = new Face(myGraph);
-    Node firstCornerNode = myGraph.addDummyNode();
+    Node firstCornerNode = myGraph.createDummyNode();
     Node curCornerNode = firstCornerNode;
     Map<Dart, Edge> edgesFromNode = MapSequence.fromMap(new HashMap<Dart, Edge>());
     List<Dart> nodeOuterDarts = ListSequence.fromList(new LinkedList<Dart>());
@@ -210,7 +210,7 @@ public class EmbeddedGraphModifier {
       if (dir == ListSequence.fromList(allDirections).last()) {
         nextCornerNode = firstCornerNode;
       } else {
-        nextCornerNode = myGraph.addDummyNode();
+        nextCornerNode = myGraph.createDummyNode();
       }
       Dart dirDart = ListSequence.fromList(darts).findFirst(new IWhereFilter<Dart>() {
         public boolean accept(Dart dart) {
@@ -218,12 +218,12 @@ public class EmbeddedGraphModifier {
         }
       });
       if (dirDart == null) {
-        addToNodeFace(nodeInnerFace, curCornerNode.addEdgeTo(nextCornerNode), dir, nodeOuterDarts);
+        addToNodeFace(nodeInnerFace, myGraph.connect(curCornerNode, nextCornerNode), dir, nodeOuterDarts);
       } else {
-        Node newNode = myGraph.addDummyNode();
-        MapSequence.fromMap(edgesFromNode).put(dirDart, newNode.addEdgeTo(dirDart.getTarget()));
-        addToNodeFace(nodeInnerFace, curCornerNode.addEdgeTo(newNode), dir, nodeOuterDarts);
-        addToNodeFace(nodeInnerFace, newNode.addEdgeTo(nextCornerNode), dir, nodeOuterDarts);
+        Node newNode = myGraph.createDummyNode();
+        MapSequence.fromMap(edgesFromNode).put(dirDart, myGraph.connect(newNode, dirDart.getTarget()));
+        addToNodeFace(nodeInnerFace, myGraph.connect(curCornerNode, newNode), dir, nodeOuterDarts);
+        addToNodeFace(nodeInnerFace, myGraph.connect(newNode, nextCornerNode), dir, nodeOuterDarts);
       }
       curCornerNode = nextCornerNode;
     }
@@ -280,7 +280,7 @@ public class EmbeddedGraphModifier {
     }
     MapSequence.fromMap(myNodeFaces).put(node, nodeInnerFace);
     myEmbeddedGraph.addFace(nodeInnerFace);
-    myGraph.remove(node);
+    myGraph.deleteNode(node);
   }
 
   private void addToNodeFace(Face nodeFace, Edge edge, Direction2D dir, List<Dart> outerDarts) {
@@ -314,11 +314,11 @@ public class EmbeddedGraphModifier {
         }
       });
       Dart curDart = firstDart;
-      Node firstNewNode = myGraph.addDummyNode();
+      Node firstNewNode = myGraph.createDummyNode();
       Node curNewNode = firstNewNode;
-      Edge firstNewEdge = firstNewNode.addEdgeTo(firstEdge.getOpposite(node));
+      Edge firstNewEdge = myGraph.connect(firstNewNode, firstEdge.getOpposite(node));
       if (firstEdge.getSource() == node) {
-        firstEdge.revert();
+        myGraph.removeEdge(firstEdge);
       }
       ListSequence.fromList(newNodes).addElement(firstNewNode);
       MapSequence.fromMap(edgeMap).put(firstEdge, firstNewEdge);
@@ -341,20 +341,20 @@ public class EmbeddedGraphModifier {
         if (nextDart == firstDart) {
           nextNewNode = firstNewNode;
         } else {
-          nextNewNode = myGraph.addDummyNode();
+          nextNewNode = myGraph.createDummyNode();
           ListSequence.fromList(newNodes).addElement(nextNewNode);
         }
         Edge nextNewEdge;
         if (nextDart == firstDart) {
           nextNewEdge = firstNewEdge;
         } else {
-          nextNewEdge = nextNewNode.addEdgeTo(oppositeNode);
+          nextNewEdge = myGraph.connect(nextNewNode, oppositeNode);
           if (firstEdge.getSource() == node) {
-            firstEdge.revert();
+            myGraph.removeEdge(firstEdge);
           }
           MapSequence.fromMap(edgeMap).put(nextDart.getEdge(), nextNewEdge);
         }
-        Edge edgeBetweenNewNodes = curNewNode.addEdgeTo(nextNewNode);
+        Edge edgeBetweenNewNodes = myGraph.connect(curNewNode, nextNewNode);
         SetSequence.fromSet(addedEdges).addElement(edgeBetweenNewNodes);
         newFace.addLast(new Dart(edgeBetweenNewNodes, curNewNode));
         myEmbeddedGraph.setDart(curFace, nextPos, new Dart(nextNewEdge, oppositeNode));
@@ -365,7 +365,7 @@ public class EmbeddedGraphModifier {
         curNewEdge = nextNewEdge;
       } while (curDart != firstDart);
       myEmbeddedGraph.addFace(newFace);
-      myGraph.remove(node);
+      myGraph.deleteNode(node);
     }
     // edge has been modified two times 
     for (Edge edge : SetSequence.fromSet(MapSequence.fromMap(edgeMap).keySet())) {
@@ -427,7 +427,7 @@ public class EmbeddedGraphModifier {
       MapSequence.fromMap(myDartDirections).removeKey(prev);
       MapSequence.fromMap(myDartDirections).removeKey(prevOpposite);
       Node badCorner = badDart.getTarget();
-      Edge splitEdge = badCorner.addEdgeTo(newNode);
+      Edge splitEdge = myGraph.connect(badCorner, newNode);
       List<Face> newFaces = myEmbeddedGraph.splitFace(face, ListSequence.fromListAndArray(new ArrayList<Edge>(), splitEdge), badCorner, newNode);
       for (Dart dart : ListSequence.fromList(myEmbeddedGraph.getDarts(splitEdge))) {
         if (dart.getSource() == badCorner) {
@@ -478,7 +478,7 @@ public class EmbeddedGraphModifier {
       }
       List<Edge> newEdges = ListSequence.fromList(new ArrayList<Edge>());
       Node newNode = myEmbeddedGraph.splitEdge(edgeToSplit, newEdges);
-      for (Dart dart : ListSequence.fromList(newEdges).translate(new ITranslator2<Edge, Dart>() {
+      for (Dart dart : ListSequence.fromList(newEdges).<Dart>translate(new ITranslator2<Edge, Dart>() {
         public Iterable<Dart> translate(Edge it) {
           return myEmbeddedGraph.getDarts(it);
         }
@@ -489,7 +489,7 @@ public class EmbeddedGraphModifier {
           MapSequence.fromMap(myDartDirections).put(dart, dir);
         }
       }
-      Edge splittingEdge = node.addEdgeTo(newNode);
+      Edge splittingEdge = myGraph.connect(node, newNode);
       List<Face> newFaces = myEmbeddedGraph.splitFace(face, ListSequence.fromListAndArray(new ArrayList<Edge>(), splittingEdge), node, newNode);
       for (Dart dart : ListSequence.fromList(myEmbeddedGraph.getDarts(splittingEdge))) {
         if (dart.getSource() == node) {

@@ -19,6 +19,7 @@ import jetbrains.mps.graphLayout.intGeom2D.Rectangle;
 import jetbrains.mps.graphLayout.graphLayout.LayoutTransform;
 import java.util.Set;
 import java.util.HashSet;
+import jetbrains.mps.graphLayout.graph.EdgesHistoryManager;
 import jetbrains.mps.graphLayout.algorithms.BiconnectAugmentation;
 import jetbrains.mps.graphLayout.planarGraph.EmbeddedGraph;
 import jetbrains.mps.graphLayout.planarization.ShortestPathEmbeddingFinder;
@@ -30,7 +31,6 @@ import jetbrains.mps.graphLayout.flowOrthogonalLayout.QuasiRepresentationModifie
 import jetbrains.mps.graphLayout.flowOrthogonalLayout.OrthogonalRepresentation;
 import jetbrains.mps.graphLayout.util.Direction2D;
 import jetbrains.mps.internal.collections.runtime.backports.LinkedList;
-import jetbrains.mps.graphLayout.flowOrthogonalLayout.ConstraintsGraphProcessor;
 import jetbrains.mps.graphLayout.util.GeomUtil;
 import java.util.Iterator;
 
@@ -50,12 +50,12 @@ public class OrthogonalFlowLabelProcessing {
     Map<Node, Dimension> copyNodeSizes = MapSequence.fromMap(new LinkedHashMap<Node, Dimension>(16, (float) 0.75, false));
     Map<Edge, Dimension> copyLabelSizes = MapSequence.fromMap(new HashMap<Edge, Dimension>());
     for (Node node : ListSequence.fromList(graph.getNodes())) {
-      Node copyNode = copy.addNode();
+      Node copyNode = copy.createNode();
       MapSequence.fromMap(nodeMap).put(node, copyNode);
       MapSequence.fromMap(copyNodeSizes).put(copyNode, MapSequence.fromMap(nodeSizes).get(node));
     }
     for (Edge edge : ListSequence.fromList(graph.getEdges())) {
-      Edge copyEdge = MapSequence.fromMap(nodeMap).get(edge.getSource()).addEdgeTo(MapSequence.fromMap(nodeMap).get(edge.getTarget()));
+      Edge copyEdge = copy.connect(MapSequence.fromMap(nodeMap).get(edge.getSource()), MapSequence.fromMap(nodeMap).get(edge.getTarget()));
       MapSequence.fromMap(edgeMap).put(edge, copyEdge);
     }
     for (Edge edge : SetSequence.fromSet(MapSequence.fromMap(labelSizes).keySet())) {
@@ -88,19 +88,20 @@ public class OrthogonalFlowLabelProcessing {
     SetSequence.fromSet(initialNodes).addSequence(ListSequence.fromList(graph.getNodes()));
     Set<Edge> initialEdges = SetSequence.fromSet(new HashSet<Edge>());
     SetSequence.fromSet(initialEdges).addSequence(ListSequence.fromList(graph.getEdges()));
+    EdgesHistoryManager historyManager = new EdgesHistoryManager(graph);
     BiconnectAugmentation.smartMakeBiconnected(graph);
     EmbeddedGraph embeddedGraph = new ShortestPathEmbeddingFinder(new PQPlanarizationFinder()).find(graph);
     Map<Edge, List<Edge>> history = MapSequence.fromMap(new HashMap<Edge, List<Edge>>());
     Map<Edge, Edge> labeledEdge = MapSequence.fromMap(new HashMap<Edge, Edge>());
     for (Edge edge : SetSequence.fromSet(initialEdges)) {
-      MapSequence.fromMap(history).put(edge, embeddedGraph.findFullHistory(edge));
+      MapSequence.fromMap(history).put(edge, historyManager.getHistory(edge));
       MapSequence.fromMap(labeledEdge).put(edge, getLabeledEdge(MapSequence.fromMap(history).get(edge)));
     }
     Map<Edge, Dimension> labelSizes = MapSequence.fromMap(new HashMap<Edge, Dimension>());
     for (Edge edge : SetSequence.fromSet(MapSequence.fromMap(initialLabelSizes).keySet())) {
       MapSequence.fromMap(labelSizes).put(MapSequence.fromMap(labeledEdge).get(edge), MapSequence.fromMap(initialLabelSizes).get(edge));
     }
-    GraphLayout layout = getlayoutFromEmbeddedGraph(embeddedGraph, nodeSizes, labelSizes);
+    GraphLayout layout = getlayoutFromEmbeddedGraph(embeddedGraph, nodeSizes, labelSizes, historyManager);
     GraphLayout initialLayout = new GraphLayout(graph);
     for (Node node : SetSequence.fromSet(initialNodes)) {
       initialLayout.setLayoutFor(node, layout.getNodeLayout(node));
@@ -128,7 +129,7 @@ public class OrthogonalFlowLabelProcessing {
     return ListSequence.fromList(edges).getElement(ListSequence.fromList(edges).count() / 2);
   }
 
-  public GraphLayout getlayoutFromEmbeddedGraph(EmbeddedGraph embeddedGraph, Map<Node, Dimension> nodeSizes, Map<Edge, Dimension> labelSizes) {
+  public GraphLayout getlayoutFromEmbeddedGraph(EmbeddedGraph embeddedGraph, Map<Node, Dimension> nodeSizes, Map<Edge, Dimension> labelSizes, EdgesHistoryManager historyManager) {
     if (OrthogonalFlowLabelProcessing.SHOW_INFO > 0) {
       System.out.println("initial graph: " + embeddedGraph);
     }
@@ -157,7 +158,7 @@ public class OrthogonalFlowLabelProcessing {
     Map<Edge, Node> labelNodes = MapSequence.fromMap(new HashMap<Edge, Node>());
     Map<Node, Dimension> labelNodeSizes = MapSequence.fromMap(new HashMap<Node, Dimension>());
     for (Edge edge : SetSequence.fromSet(MapSequence.fromMap(labelSizes).keySet())) {
-      Edge labeledEdge = getLabeledEdge(embeddedGraph.findFullHistory(edge));
+      Edge labeledEdge = getLabeledEdge(historyManager.getHistory(edge));
       Node node = splitEdge(labeledEdge, embeddedGraph, directions);
       MapSequence.fromMap(labelNodes).put(edge, node);
       MapSequence.fromMap(labelNodeSizes).put(node, MapSequence.fromMap(labelSizes).get(edge));
@@ -177,7 +178,7 @@ public class OrthogonalFlowLabelProcessing {
     Map<Edge, Integer> initialEdgesShifts = getEdgesShifts(quasiModifier.getModifications(), directions, nodeAndLabelDirectionSizes);
     Map<Edge, Integer> edgeShifts = MapSequence.fromMap(new HashMap<Edge, Integer>());
     for (Edge initialEdge : SetSequence.fromSet(MapSequence.fromMap(initialEdgesShifts).keySet())) {
-      Edge edge = ListSequence.fromList(embeddedGraph.findFullHistory(initialEdge)).first();
+      Edge edge = ListSequence.fromList(historyManager.getHistory(initialEdge)).first();
       MapSequence.fromMap(edgeShifts).put(edge, MapSequence.fromMap(initialEdgesShifts).get(initialEdge));
     }
     List<Node> nodesAndLabels = ListSequence.fromList(new LinkedList<Node>());
@@ -187,7 +188,7 @@ public class OrthogonalFlowLabelProcessing {
     processor.setUnitLength(myUnitLength);
     processor.modifyEmbeddedGraph(nodesAndLabels, nodeAndLabelSizes);
     processor.constructGraph();
-    Map<Node, Point> coordinates = processor.getCoordinatesInModifiedGraph(initialEdgesShifts, nodeAndLabelDirectionSizes);
+    Map<Node, Point> coordinates = processor.getCoordinatesInModifiedGraph(initialEdgesShifts, nodeAndLabelDirectionSizes, historyManager);
     GraphLayout graphLayout = new GraphLayout(graph);
     for (Node node : ListSequence.fromList(oldNodes)) {
       Rectangle rect = getRectangle(coordinates, node, nodeAndLabelDirectionSizes, nodeAndLabelSizes);
@@ -200,7 +201,7 @@ public class OrthogonalFlowLabelProcessing {
     for (Edge edge : ListSequence.fromList(oldEdges)) {
       Node source = edge.getSource();
       Node target = edge.getTarget();
-      List<Edge> history = embeddedGraph.findFullHistory(edge);
+      List<Edge> history = historyManager.getHistory(edge);
       List<Point> edgeLayout = ListSequence.fromList(new LinkedList<Point>());
       Node cur = source;
       ListSequence.fromList(edgeLayout).addElement(new Point(MapSequence.fromMap(coordinates).get(cur)));
@@ -252,7 +253,7 @@ public class OrthogonalFlowLabelProcessing {
     return node;
   }
 
-  public GraphLayout getLayoutFromEmbeddedGraph(EmbeddedGraph embeddedGraph, Map<Node, Dimension> nodeSizes, Map<Node, Map<Direction2D, Integer>> nodeDirectionSizes) {
+  public GraphLayout getLayoutFromEmbeddedGraph(EmbeddedGraph embeddedGraph, Map<Node, Dimension> nodeSizes, Map<Node, Map<Direction2D, Integer>> nodeDirectionSizes, EdgesHistoryManager historyManager) {
     if (OrthogonalFlowLabelProcessing.SHOW_INFO > 0) {
       System.out.println("initial graph: " + embeddedGraph);
     }
@@ -282,7 +283,7 @@ public class OrthogonalFlowLabelProcessing {
     processor.setUnitLength(myUnitLength);
     processor.modifyEmbeddedGraph(oldNodes, nodeSizes);
     processor.constructGraph();
-    Map<Node, Point> coordinates = processor.getCoordinatesInModifiedGraph(edgesShifts, nodeDirectionSizes);
+    Map<Node, Point> coordinates = processor.getCoordinatesInModifiedGraph(edgesShifts, nodeDirectionSizes, historyManager);
     GraphLayout graphLayout = new GraphLayout(graph);
     for (Node node : ListSequence.fromList(oldNodes)) {
       Rectangle rect = getRectangle(coordinates, node, nodeDirectionSizes, nodeSizes);
@@ -291,7 +292,7 @@ public class OrthogonalFlowLabelProcessing {
     for (Edge edge : ListSequence.fromList(oldEdges)) {
       Node source = edge.getSource();
       Node target = edge.getTarget();
-      List<Edge> history = embeddedGraph.findFullHistory(edge);
+      List<Edge> history = historyManager.getHistory(edge);
       List<Point> edgeLayout = ListSequence.fromList(new LinkedList<Point>());
       Node cur = source;
       ListSequence.fromList(edgeLayout).addElement(new Point(MapSequence.fromMap(coordinates).get(cur)));
@@ -324,7 +325,7 @@ public class OrthogonalFlowLabelProcessing {
     return graphLayout;
   }
 
-  public GraphLayout processLabels(EmbeddedGraph embeddedGraph, Map<Node, Dimension> nodeSizes, Map<Edge, Dimension> labelSizes) {
+  public GraphLayout processLabels(EmbeddedGraph embeddedGraph, Map<Node, Dimension> nodeSizes, Map<Edge, Dimension> labelSizes, EdgesHistoryManager historyManager) {
     Graph graph = embeddedGraph.getGraph();
     List<Edge> oldEdges = ListSequence.fromList(new ArrayList<Edge>());
     ListSequence.fromList(oldEdges).addSequence(ListSequence.fromList(graph.getEdges()));
@@ -347,7 +348,7 @@ public class OrthogonalFlowLabelProcessing {
       MapSequence.fromMap(labelAndNodeSizes).put(node, MapSequence.fromMap(nodeSizes).get(node));
       MapSequence.fromMap(labelAndNodeDirectionSizes).put(node, MapSequence.fromMap(nodeDirectionSizes).get(node));
     }
-    GraphLayout layout = getLayoutFromEmbeddedGraph(embeddedGraph, labelAndNodeSizes, labelAndNodeDirectionSizes);
+    GraphLayout layout = getLayoutFromEmbeddedGraph(embeddedGraph, labelAndNodeSizes, labelAndNodeDirectionSizes, historyManager);
     GraphLayout initialLayout = new GraphLayout(embeddedGraph.getGraph());
     for (Node node : ListSequence.fromList(oldNodes)) {
       initialLayout.setLayoutFor(node, layout.getNodeLayout(node));

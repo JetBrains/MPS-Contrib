@@ -16,17 +16,18 @@ import jetbrains.mps.graphLayout.intGeom2D.Point;
 import jetbrains.mps.internal.collections.runtime.SetSequence;
 import jetbrains.mps.graphLayout.intGeom2D.Rectangle;
 import jetbrains.mps.graphLayout.graphLayout.LayoutTransform;
+import jetbrains.mps.graphLayout.graph.EdgesHistoryManager;
 import java.util.LinkedHashSet;
 import java.util.Map;
 import jetbrains.mps.internal.collections.runtime.MapSequence;
 import java.util.HashMap;
 import jetbrains.mps.graphLayout.algorithms.BiconnectAugmentation;
+import jetbrains.mps.graphLayout.planarization.IEmbeddingFinder;
+import jetbrains.mps.graphLayout.planarization.EmbeddingFinderFactory;
 import jetbrains.mps.graphLayout.planarGraph.EmbeddedGraph;
-import jetbrains.mps.graphLayout.planarization.ShortestPathEmbeddingFinder;
-import jetbrains.mps.graphLayout.planarization.PQPlanarizationFinder;
 import jetbrains.mps.graphLayout.planarGraph.Face;
 import java.util.ArrayList;
-import jetbrains.mps.internal.collections.runtime.backports.LinkedList;
+import jetbrains.mps.graphLayout.planarization.ShortestPathEmbeddingFinder;
 import java.util.HashSet;
 import jetbrains.mps.graphLayout.intGeom2D.Dimension;
 import jetbrains.mps.graphLayout.util.Direction2D;
@@ -76,6 +77,7 @@ public abstract class AbstractOrthogonalFlowLayouter extends BasicLayouter {
 
   private GraphLayout getLayoutCorruptGraph(LayoutInfo layoutInfo) {
     Graph graph = layoutInfo.getGraph();
+    EdgesHistoryManager historyManager = new EdgesHistoryManager(graph);
     Set<Node> initialNodes = SetSequence.fromSet(new LinkedHashSet<Node>());
     SetSequence.fromSet(initialNodes).addSequence(ListSequence.fromList(graph.getNodes()));
     Set<Edge> initialEdges = SetSequence.fromSet(new LinkedHashSet<Edge>());
@@ -85,11 +87,12 @@ public abstract class AbstractOrthogonalFlowLayouter extends BasicLayouter {
     for (Edge edge : SetSequence.fromSet(initialEdges)) {
       if (edge.getSource() == edge.getTarget()) {
         SetSequence.fromSet(badEdges).addElement(edge);
-        edge.removeFromGraph();
+        graph.removeEdge(edge);
       }
     }
     BiconnectAugmentation.smartMakeBiconnected(graph);
-    EmbeddedGraph embeddedGraph = new ShortestPathEmbeddingFinder(new PQPlanarizationFinder()).find(graph);
+    IEmbeddingFinder embeddingFinder = EmbeddingFinderFactory.getFinder();
+    EmbeddedGraph embeddedGraph = embeddingFinder.find(graph);
     Map<Node, Face> facesMap = MapSequence.fromMap(new HashMap<Node, Face>());
     for (Edge edge : SetSequence.fromSet(badEdges)) {
       Node node = edge.getSource();
@@ -103,24 +106,20 @@ public abstract class AbstractOrthogonalFlowLayouter extends BasicLayouter {
           face = ListSequence.fromList(embeddedGraph.getAdjacentFaces(nodeEdge)).first();
         }
       }
-      Node newNode = graph.addNode();
-      List<Edge> newEdges = ListSequence.fromList(new LinkedList<Edge>());
-      ListSequence.fromList(newEdges).addElement(node.addEdgeTo(newNode));
-      ListSequence.fromList(newEdges).addElement(newNode.addEdgeTo(node));
-      embeddedGraph.setEdgesHistory(edge, newEdges);
+      List<Edge> newEdges = graph.splitEdge(edge);
       Face newFace = embeddedGraph.makeLoop(face, newEdges, node);
       MapSequence.fromMap(facesMap).put(node, newFace);
     }
     Set<Edge> newEdges = BiconnectAugmentation.smartMakeBiconnected(graph);
     for (Edge edge : SetSequence.fromSet(newEdges)) {
-      edge.removeFromGraph();
+      graph.removeEdge(edge);
     }
     for (Edge edge : SetSequence.fromSet(newEdges)) {
       ShortestPathEmbeddingFinder.restoreEdge(embeddedGraph, edge);
     }
     myRealEdges = SetSequence.fromSet(new HashSet<Edge>());
     for (Edge edge : SetSequence.fromSet(initialEdges)) {
-      MapSequence.fromMap(history).put(edge, embeddedGraph.findFullHistory(edge));
+      MapSequence.fromMap(history).put(edge, historyManager.getHistory(edge));
       SetSequence.fromSet(myRealEdges).addSequence(ListSequence.fromList(MapSequence.fromMap(history).get(edge)));
     }
     Map<Edge, Edge> labeledEdges = MapSequence.fromMap(new HashMap<Edge, Edge>());

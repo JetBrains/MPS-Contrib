@@ -20,7 +20,7 @@ public class RandomGraphGenerator {
     // Generate random directed graph with fixed number of nodes and edges. Multiedges are allowed. 
     Graph g = new Graph();
     for (int i = 0; i < numNodes; i++) {
-      g.addNode();
+      g.createNode();
     }
     for (int i = 0; i < numEdges; i++) {
       int s = 0;
@@ -29,7 +29,7 @@ public class RandomGraphGenerator {
         s = RandomGraphGenerator.rand.nextInt(numNodes);
         t = RandomGraphGenerator.rand.nextInt(numNodes);
       }
-      g.getNode(s).addEdgeTo(g.getNode(t));
+      g.addEdgeByIndex(s, t);
     }
     return g;
   }
@@ -38,7 +38,7 @@ public class RandomGraphGenerator {
     // Generate random simple directed graph with fixed number of nodes and edges. 
     Graph g = new Graph();
     for (int i = 0; i < numNodes; i++) {
-      g.addNode();
+      g.createNode();
     }
     List<Set<Integer>> connected = ListSequence.fromList(new ArrayList<Set<Integer>>());
     for (int i = 0; i < numNodes; i++) {
@@ -72,7 +72,7 @@ public class RandomGraphGenerator {
           t++;
         }
       }
-      g.getNode(s).addEdgeTo(g.getNode(t));
+      g.addEdgeByIndex(s, t);
       SetSequence.fromSet(ListSequence.fromList(connected).getElement(s)).addElement(t);
       SetSequence.fromSet(ListSequence.fromList(connected).getElement(t)).addElement(s);
     }

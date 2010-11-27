@@ -24,13 +24,13 @@ public class SimpleGraphGenerator extends BasicGraphGenerator {
       Node source = graph.getNode(random().nextInt(getNumNodes()));
       Node target = graph.getNode(random().nextInt(getNumNodes()));
       if (canConnect(source, target)) {
-        return source.addEdgeTo(target);
+        return graph.connect(source, target);
       }
     }
     for (Node source : ListSequence.fromList(graph.getNodes())) {
       for (Node target : ListSequence.fromList(graph.getNodes())) {
         if (canConnect(source, target)) {
-          return source.addEdgeTo(target);
+          return graph.connect(source, target);
         }
       }
     }

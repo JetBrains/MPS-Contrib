@@ -165,6 +165,7 @@
     <classNode dependClassName="jetbrains.mps.graphLayout.graph.Graph" />
     <classNode dependClassName="jetbrains.mps.graphLayout.planarGraph.EmbeddedGraph" />
     <classNode dependClassName="jetbrains.mps.graphLayout.planarization.TreeEmbeddingFinder" />
+    <classNode dependClassName="planarizationTest.CheckEmbeddedGraph" />
     <classNode dependClassName="sampleGraphs.SimpleDirectedGraphs" />
     <classNode dependClassName="visualization.GraphIO" />
     <classNode extendsClassName="junit.framework.TestCase" />

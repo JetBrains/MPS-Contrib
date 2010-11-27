@@ -24,12 +24,10 @@ public class EmbeddedGraph {
   private Map<Edge, List<Dart>> myEdgeDarts;
   private Graph myGraph;
   private Face myOuterFace;
-  private Map<Edge, List<Edge>> myEdgesHistory;
 
   public EmbeddedGraph(Graph graph) {
     myFaces = ListSequence.fromList(new ArrayList<Face>());
     myAdjacentFacesMap = MapSequence.fromMap(new HashMap<Edge, List<Face>>());
-    myEdgesHistory = MapSequence.fromMap(new HashMap<Edge, List<Edge>>());
     myDartsToFacesMap = MapSequence.fromMap(new HashMap<Dart, Face>());
     myEdgeDarts = MapSequence.fromMap(new LinkedHashMap<Edge, List<Dart>>(16, (float) 0.75, false));
     myGraph = graph;
@@ -83,11 +81,9 @@ public class EmbeddedGraph {
 
   public Node splitEdge(Edge edge, List<Edge> newEdges) {
     Graph originalGraph = this.getGraph();
-    Node newNode = originalGraph.addDummyNode();
-    edge.removeFromGraph();
-    ListSequence.fromList(newEdges).addElement(edge.getSource().addEdgeTo(newNode));
-    ListSequence.fromList(newEdges).addElement(newNode.addEdgeTo(edge.getTarget()));
-    MapSequence.fromMap(myEdgesHistory).put(edge, newEdges);
+    List<Edge> split = originalGraph.splitEdge(edge);
+    ListSequence.fromList(newEdges).addSequence(ListSequence.fromList(split));
+    Node newNode = ListSequence.fromList(split).getElement(0).getTarget();
     List<Face> facesToProcess = ListSequence.fromList(new ArrayList<Face>());
     ListSequence.fromList(facesToProcess).addSequence(ListSequence.fromList(getAdjacentFaces(edge)));
     for (Face face : ListSequence.fromList(facesToProcess)) {
@@ -246,7 +242,7 @@ public class EmbeddedGraph {
 
   public List<Face> getAdjacentFaces(Edge edge) {
     List<Face> faces = ListSequence.fromList(new ArrayList<Face>());
-    ListSequence.fromList(faces).addSequence(ListSequence.fromList(getDarts(edge)).select(new ISelector<Dart, Face>() {
+    ListSequence.fromList(faces).addSequence(ListSequence.fromList(getDarts(edge)).<Face>select(new ISelector<Dart, Face>() {
       public Face select(Dart dart) {
         return getFace(dart);
       }
@@ -346,47 +342,5 @@ public class EmbeddedGraph {
 
   public boolean isOuterFace(Face face) {
     return face == myOuterFace;
-  }
-
-  public Map<Edge, List<Edge>> getEdgesHistory() {
-    return myEdgesHistory;
-  }
-
-  public void setEdgesHistory(Edge edge, List<Edge> newEdges) {
-    MapSequence.fromMap(myEdgesHistory).put(edge, newEdges);
-  }
-
-  public List<Edge> findFullHistory(Edge edge) {
-    List<Edge> fullHistory = ListSequence.fromList(new ArrayList<Edge>());
-    List<Edge> history = MapSequence.fromMap(myEdgesHistory).get(edge);
-    if (history == null) {
-      ListSequence.fromList(fullHistory).addElement(edge);
-    } else {
-      Node cur = edge.getSource();
-      if (!(ListSequence.fromList(ListSequence.fromList(history).first().getAdjacentNodes()).contains(cur))) {
-        history = ListSequence.fromList(history).reversedList();
-      }
-      for (Edge newEdge : ListSequence.fromList(history)) {
-        List<Edge> newHistory = findFullHistory(newEdge);
-        if (!(ListSequence.fromList(ListSequence.fromList(newHistory).first().getAdjacentNodes()).contains(cur))) {
-          newHistory = ListSequence.fromList(newHistory).reversedList();
-        }
-        ListSequence.fromList(fullHistory).addSequence(ListSequence.fromList(newHistory));
-        cur = newEdge.getOpposite(cur);
-      }
-    }
-    if (!(ListSequence.fromList(ListSequence.fromList(fullHistory).first().getAdjacentNodes()).contains(edge.getSource()))) {
-      fullHistory = ListSequence.fromList(fullHistory).reversedList();
-    }
-    /*
-      if (history == null) {
-        ListSequence.fromList(fullHistory).addElement(edge);
-      } else {
-        for (Edge newEdge : ListSequence.fromList(history)) {
-          ListSequence.fromList(fullHistory).addSequence(ListSequence.fromList(findFullHistory(newEdge)));
-        }
-      }
-    */
-    return fullHistory;
   }
 }

@@ -27,7 +27,7 @@ public class GraphCopier {
   }
 
   public Node copyNode(INode node) {
-    Node copyNode = myCopy.addNode();
+    Node copyNode = myCopy.createNode();
     MapSequence.fromMap(myNodeMap).put(node, copyNode);
     return copyNode;
   }
@@ -35,7 +35,7 @@ public class GraphCopier {
   public Edge copyEdge(IEdge edge) {
     Node copySource = MapSequence.fromMap(myNodeMap).get(edge.getSource());
     Node copyTarget = MapSequence.fromMap(myNodeMap).get(edge.getTarget());
-    Edge copyEdge = copySource.addEdgeTo(copyTarget);
+    Edge copyEdge = myCopy.connect(copySource, copyTarget);
     MapSequence.fromMap(myEdgeMap).put(edge, copyEdge);
     return copyEdge;
   }

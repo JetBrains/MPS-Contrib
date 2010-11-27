@@ -79,7 +79,7 @@ public class PQPlanarizationFinder implements IEmbeddingFinder {
       Map<Node, Node> invertedNodeMap = MapSequence.fromMap(new HashMap<Node, Node>());
       Map<Edge, Edge> invertedEdgeMap = MapSequence.fromMap(new HashMap<Edge, Edge>());
       for (Node node : SetSequence.fromSet(nodes)) {
-        Node componentNode = componentGraph.addNode();
+        Node componentNode = componentGraph.createNode();
         MapSequence.fromMap(nodeMap).put(node, componentNode);
         MapSequence.fromMap(invertedNodeMap).put(componentNode, node);
       }
@@ -87,7 +87,7 @@ public class PQPlanarizationFinder implements IEmbeddingFinder {
         for (Edge edge : ListSequence.fromList(node.getEdges(Edge.Direction.FRONT))) {
           Node target = edge.getTarget();
           if (SetSequence.fromSet(nodes).contains(target)) {
-            Edge newEdge = MapSequence.fromMap(nodeMap).get(node).addEdgeTo(MapSequence.fromMap(nodeMap).get(target));
+            Edge newEdge = componentGraph.connect(MapSequence.fromMap(nodeMap).get(node), MapSequence.fromMap(nodeMap).get(target));
             MapSequence.fromMap(invertedEdgeMap).put(newEdge, edge);
           }
         }
@@ -103,12 +103,12 @@ public class PQPlanarizationFinder implements IEmbeddingFinder {
         componentEmbedding = pqPlanarityTest.getEmbedding(componentGraph, GraphOrientation.orientST(componentGraph));
       } else {
         for (Edge edge : SetSequence.fromSet(removed)) {
-          edge.removeFromGraph();
+          componentGraph.removeEdge(edge);
         }
         BiconnectedComponent tree = BiconnectedComponent.createTree(componentGraph);
         componentEmbedding = createEmbedding(tree);
         for (Edge edge : SetSequence.fromSet(removed)) {
-          edge.addToGraph();
+          componentGraph.addEdge(edge);
         }
       }
       for (Face componentFace : ListSequence.fromList(componentEmbedding.getFaces())) {

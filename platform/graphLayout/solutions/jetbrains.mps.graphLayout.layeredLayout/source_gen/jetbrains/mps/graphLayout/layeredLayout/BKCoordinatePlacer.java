@@ -129,11 +129,11 @@ public class BKCoordinatePlacer implements ICoordinatePlacer {
       while (nodeIterator.hasNext()) {
         Node node = nodeIterator.next();
         if (MapSequence.fromMap(roots).get(node) == node) {
-          MapSequence.fromMap(myBlocks).put(node, blockGraph.addNode());
+          MapSequence.fromMap(myBlocks).put(node, blockGraph.createNode());
         }
         Node currentBlock = MapSequence.fromMap(myBlocks).get(MapSequence.fromMap(roots).get(node));
         if (prevBlock != null) {
-          prevBlock.addEdgeTo(currentBlock);
+          blockGraph.connect(prevBlock, currentBlock);
         }
         prevBlock = currentBlock;
       }

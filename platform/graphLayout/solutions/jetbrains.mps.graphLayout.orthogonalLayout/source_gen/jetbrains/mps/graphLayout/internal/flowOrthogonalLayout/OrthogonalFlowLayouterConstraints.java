@@ -19,6 +19,7 @@ import jetbrains.mps.graphLayout.graphLayout.LayoutTransform;
 import java.util.Set;
 import jetbrains.mps.internal.collections.runtime.SetSequence;
 import java.util.HashSet;
+import jetbrains.mps.graphLayout.graph.EdgesHistoryManager;
 import jetbrains.mps.graphLayout.algorithms.BiconnectAugmentation;
 import jetbrains.mps.graphLayout.planarGraph.EmbeddedGraph;
 import jetbrains.mps.graphLayout.planarization.ShortestPathEmbeddingFinder;
@@ -29,7 +30,6 @@ import jetbrains.mps.graphLayout.flowOrthogonalLayout.QuasiOrthogonalRepresentat
 import jetbrains.mps.graphLayout.flowOrthogonalLayout.QuasiRepresentationModifier;
 import jetbrains.mps.graphLayout.flowOrthogonalLayout.OrthogonalRepresentation;
 import jetbrains.mps.graphLayout.util.Direction2D;
-import jetbrains.mps.graphLayout.flowOrthogonalLayout.ConstraintsGraphProcessor;
 import jetbrains.mps.internal.collections.runtime.backports.LinkedList;
 import jetbrains.mps.graphLayout.util.GeomUtil;
 import java.util.Iterator;
@@ -49,12 +49,12 @@ public class OrthogonalFlowLayouterConstraints {
     Map<Edge, Edge> edgeMap = MapSequence.fromMap(new HashMap<Edge, Edge>());
     Map<Node, Dimension> copySizes = MapSequence.fromMap(new LinkedHashMap<Node, Dimension>(16, (float) 0.75, false));
     for (Node node : ListSequence.fromList(graph.getNodes())) {
-      Node copyNode = copy.addNode();
+      Node copyNode = copy.createNode();
       MapSequence.fromMap(nodeMap).put(node, copyNode);
       MapSequence.fromMap(copySizes).put(copyNode, MapSequence.fromMap(nodeSizes).get(node));
     }
     for (Edge edge : ListSequence.fromList(graph.getEdges())) {
-      MapSequence.fromMap(edgeMap).put(edge, MapSequence.fromMap(nodeMap).get(edge.getSource()).addEdgeTo(MapSequence.fromMap(nodeMap).get(edge.getTarget())));
+      MapSequence.fromMap(edgeMap).put(edge, copy.connect(MapSequence.fromMap(nodeMap).get(edge.getSource()), MapSequence.fromMap(nodeMap).get(edge.getTarget())));
     }
     GraphLayout copyLayout = getLayoutCorruptGraph(copy, copySizes);
     GraphLayout layout = new GraphLayout(graph);
@@ -80,13 +80,14 @@ public class OrthogonalFlowLayouterConstraints {
     SetSequence.fromSet(initialNodes).addSequence(ListSequence.fromList(graph.getNodes()));
     Set<Edge> initialEdges = SetSequence.fromSet(new HashSet<Edge>());
     SetSequence.fromSet(initialEdges).addSequence(ListSequence.fromList(graph.getEdges()));
+    EdgesHistoryManager historyManager = new EdgesHistoryManager(graph);
     BiconnectAugmentation.smartMakeBiconnected(graph);
     EmbeddedGraph embeddedGraph = new ShortestPathEmbeddingFinder(new PQPlanarizationFinder()).find(graph);
     Map<Edge, List<Edge>> history = MapSequence.fromMap(new HashMap<Edge, List<Edge>>());
     for (Edge edge : SetSequence.fromSet(initialEdges)) {
-      MapSequence.fromMap(history).put(edge, embeddedGraph.findFullHistory(edge));
+      MapSequence.fromMap(history).put(edge, historyManager.getHistory(edge));
     }
-    GraphLayout layout = getLayoutFromEmbeddedGraph(embeddedGraph, nodeSizes);
+    GraphLayout layout = getLayoutFromEmbeddedGraph(embeddedGraph, nodeSizes, historyManager);
     GraphLayout initialLayout = new GraphLayout(graph);
     for (Node node : SetSequence.fromSet(initialNodes)) {
       initialLayout.setLayoutFor(node, layout.getNodeLayout(node));
@@ -107,7 +108,7 @@ public class OrthogonalFlowLayouterConstraints {
     return initialLayout;
   }
 
-  private GraphLayout getLayoutFromEmbeddedGraph(EmbeddedGraph embeddedGraph, Map<Node, Dimension> nodeSizes) {
+  private GraphLayout getLayoutFromEmbeddedGraph(EmbeddedGraph embeddedGraph, Map<Node, Dimension> nodeSizes, EdgesHistoryManager historyManager) {
     if (OrthogonalFlowLayouterConstraints.SHOW_INFO > 0) {
       System.out.println("initial graph: " + embeddedGraph);
     }
@@ -138,7 +139,7 @@ public class OrthogonalFlowLayouterConstraints {
     processor.setUnitLength(myUnitLength);
     processor.modifyEmbeddedGraph(oldNodes, nodeSizes);
     processor.constructGraph();
-    Map<Node, Point> coordinates = processor.getCoordinatesInModifiedGraph(edgesShifts, nodeDirectionSizes);
+    Map<Node, Point> coordinates = processor.getCoordinatesInModifiedGraph(edgesShifts, nodeDirectionSizes, historyManager);
     GraphLayout graphLayout = new GraphLayout(graph);
     for (Node node : ListSequence.fromList(oldNodes)) {
       Point center = MapSequence.fromMap(coordinates).get(node);
@@ -150,7 +151,7 @@ public class OrthogonalFlowLayouterConstraints {
     for (Edge edge : ListSequence.fromList(oldEdges)) {
       Node source = edge.getSource();
       Node target = edge.getTarget();
-      List<Edge> history = embeddedGraph.findFullHistory(edge);
+      List<Edge> history = historyManager.getHistory(edge);
       List<Point> edgeLayout = ListSequence.fromList(new LinkedList<Point>());
       Node cur = source;
       ListSequence.fromList(edgeLayout).addElement(new Point(MapSequence.fromMap(coordinates).get(cur)));

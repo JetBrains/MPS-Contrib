@@ -30,24 +30,24 @@ public class OrthogonalRepresentation {
   public static void getRepresentation(EmbeddedGraph embeddedGraph, Set<Edge> edgesToBeStraight, Map<Dart, Integer> bends, Map<Dart, Integer> angles) {
     Graph graph = embeddedGraph.getGraph();
     Graph network = new Graph();
-    Node center = network.addNode();
+    Node center = network.createNode();
     Map<Edge, Integer> low = MapSequence.fromMap(new HashMap<Edge, Integer>());
     Map<Edge, Integer> capacity = MapSequence.fromMap(new HashMap<Edge, Integer>());
     Map<Edge, Integer> cost = MapSequence.fromMap(new HashMap<Edge, Integer>());
     Map<Node, Node> nodeMap = MapSequence.fromMap(new HashMap<Node, Node>());
     for (Node node : ListSequence.fromList(graph.getNodes())) {
-      Node networkNode = network.addNode();
+      Node networkNode = network.createNode();
       MapSequence.fromMap(nodeMap).put(node, networkNode);
-      Edge edge = center.addEdgeTo(networkNode);
+      Edge edge = network.connect(center, networkNode);
       MapSequence.fromMap(low).put(edge, 4);
       MapSequence.fromMap(capacity).put(edge, MapSequence.fromMap(low).get(edge));
       MapSequence.fromMap(cost).put(edge, 0);
     }
     Map<Face, Node> faceMap = MapSequence.fromMap(new HashMap<Face, Node>());
     for (Face face : ListSequence.fromList(embeddedGraph.getFaces())) {
-      Node node = network.addNode();
+      Node node = network.createNode();
       MapSequence.fromMap(faceMap).put(face, node);
-      Edge edge = node.addEdgeTo(center);
+      Edge edge = network.connect(node, center);
       if (embeddedGraph.isOuterFace(face)) {
         MapSequence.fromMap(low).put(edge, 2 * ListSequence.fromList(face.getDarts()).count() + 4);
       } else {
@@ -61,7 +61,7 @@ public class OrthogonalRepresentation {
     for (Face face : ListSequence.fromList(embeddedGraph.getFaces())) {
       Node faceNode = MapSequence.fromMap(faceMap).get(face);
       for (Dart dart : ListSequence.fromList(face.getDarts())) {
-        Edge edge = MapSequence.fromMap(nodeMap).get(dart.getSource()).addEdgeTo(faceNode);
+        Edge edge = network.connect(MapSequence.fromMap(nodeMap).get(dart.getSource()), faceNode);
         MapSequence.fromMap(dartAngleMap).put(dart, edge);
         MapSequence.fromMap(low).put(edge, 1);
         MapSequence.fromMap(capacity).put(edge, 4);
@@ -73,7 +73,7 @@ public class OrthogonalRepresentation {
         } else {
           oppositeFaceNode = MapSequence.fromMap(faceMap).get(ListSequence.fromList(faces).getElement(0));
         }
-        edge = faceNode.addEdgeTo(oppositeFaceNode);
+        edge = network.connect(faceNode, oppositeFaceNode);
         MapSequence.fromMap(dartBendMap).put(dart, edge);
         MapSequence.fromMap(low).put(edge, 0);
         if (SetSequence.fromSet(edgesToBeStraight).contains(dart.getEdge())) {
@@ -202,7 +202,7 @@ public class OrthogonalRepresentation {
 
     @Override
     protected void preprocess(final Node node, Edge from) {
-      List<Dart> darts = ListSequence.fromList(node.getEdges()).select(new ISelector<Edge, Dart>() {
+      List<Dart> darts = ListSequence.fromList(node.getEdges()).<Dart>select(new ISelector<Edge, Dart>() {
         public Dart select(Edge edge) {
           return ListSequence.fromList(myEmbeddedGraph.getDarts(edge)).findFirst(new IWhereFilter<Dart>() {
             public boolean accept(Dart dart) {

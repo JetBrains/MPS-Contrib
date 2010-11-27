@@ -11,6 +11,7 @@ import jetbrains.mps.internal.collections.runtime.MapSequence;
 import java.util.HashMap;
 import jetbrains.mps.graphLayout.graph.Edge;
 import jetbrains.mps.internal.collections.runtime.ListSequence;
+import jetbrains.mps.graphLayout.graph.EdgesHistoryManager;
 import jetbrains.mps.graphLayout.algorithms.BiconnectAugmentation;
 import jetbrains.mps.graphLayout.planarGraph.EmbeddedGraph;
 import jetbrains.mps.graphLayout.planarization.ShortestPathEmbeddingFinder;
@@ -28,7 +29,6 @@ import jetbrains.mps.graphLayout.planarGraph.Dart;
 import jetbrains.mps.graphLayout.flowOrthogonalLayout.OrthogonalRepresentation;
 import jetbrains.mps.graphLayout.util.Direction2D;
 import jetbrains.mps.internal.collections.runtime.SetSequence;
-import jetbrains.mps.graphLayout.flowOrthogonalLayout.EdgeLengthComputer;
 import jetbrains.mps.graphLayout.util.GeomUtil;
 import jetbrains.mps.internal.collections.runtime.backports.LinkedList;
 
@@ -43,17 +43,18 @@ public class OrthogonalRectFlowLayouter {
     Map<Node, Node> nodeMap = MapSequence.fromMap(new HashMap<Node, Node>());
     Map<Edge, Edge> edgeMap = MapSequence.fromMap(new HashMap<Edge, Edge>());
     for (Node node : ListSequence.fromList(graph.getNodes())) {
-      MapSequence.fromMap(nodeMap).put(node, copy.addNode());
+      MapSequence.fromMap(nodeMap).put(node, copy.createNode());
     }
     for (Edge edge : ListSequence.fromList(graph.getEdges())) {
-      MapSequence.fromMap(edgeMap).put(edge, MapSequence.fromMap(nodeMap).get(edge.getSource()).addEdgeTo(MapSequence.fromMap(nodeMap).get(edge.getTarget())));
+      MapSequence.fromMap(edgeMap).put(edge, copy.connect(MapSequence.fromMap(nodeMap).get(edge.getSource()), MapSequence.fromMap(nodeMap).get(edge.getTarget())));
     }
+    EdgesHistoryManager historyManager = new EdgesHistoryManager(copy);
     BiconnectAugmentation.smartMakeBiconnected(copy);
     EmbeddedGraph embeddedGraph = new ShortestPathEmbeddingFinder(new PQPlanarizationFinder()).find(copy);
     Map<Edge, List<Edge>> history = MapSequence.fromMap(new HashMap<Edge, List<Edge>>());
     for (Edge edge : ListSequence.fromList(graph.getEdges())) {
       Edge copyEdge = MapSequence.fromMap(edgeMap).get(edge);
-      MapSequence.fromMap(history).put(edge, embeddedGraph.findFullHistory(copyEdge));
+      MapSequence.fromMap(history).put(edge, historyManager.getHistory(copyEdge));
       // if copyEdge has been reverted during st-numbering in planarization step 
       if (copyEdge.getSource() != MapSequence.fromMap(nodeMap).get(edge.getSource())) {
         MapSequence.fromMap(history).put(edge, ListSequence.fromList(MapSequence.fromMap(history).get(edge)).reversedList());
@@ -85,7 +86,7 @@ public class OrthogonalRectFlowLayouter {
       }
       MapSequence.fromMap(copyNodeSizes).put(copyNode, MapSequence.fromMap(nodeSizes).get(node));
     }
-    GraphLayout copyLayout = getFlowLayout(embeddedGraph, newEdges, nodesToSplit, copyNodeSizes);
+    GraphLayout copyLayout = getFlowLayout(embeddedGraph, newEdges, nodesToSplit, copyNodeSizes, historyManager);
     GraphLayout graphLayout = new GraphLayout(graph);
     for (Node node : ListSequence.fromList(graph.getNodes())) {
       Node copyNode = MapSequence.fromMap(nodeMap).get(node);
@@ -117,7 +118,7 @@ public class OrthogonalRectFlowLayouter {
     return graphLayout;
   }
 
-  public GraphLayout getFlowLayout(EmbeddedGraph embeddedGraph, Set<Edge> edgesToBeStraight, Map<Node, List<Node>> nodeMap, Map<Node, Dimension> nodeSizes) {
+  public GraphLayout getFlowLayout(EmbeddedGraph embeddedGraph, Set<Edge> edgesToBeStraight, Map<Node, List<Node>> nodeMap, Map<Node, Dimension> nodeSizes, EdgesHistoryManager historyManager) {
     EmbeddedGraphModifier modifier = new EmbeddedGraphModifier(embeddedGraph);
     Graph graph = embeddedGraph.getGraph();
     List<Edge> oldEdges = ListSequence.fromList(new ArrayList<Edge>());
@@ -162,7 +163,7 @@ public class OrthogonalRectFlowLayouter {
     }
     for (Edge edge : ListSequence.fromList(oldEdges)) {
       List<Edge> history = ListSequence.fromList(new LinkedList<Edge>());
-      for (Edge historyEdge : ListSequence.fromList(embeddedGraph.findFullHistory(edge))) {
+      for (Edge historyEdge : ListSequence.fromList(historyManager.getHistory(edge))) {
         if (MapSequence.fromMap(modifiedEdges).containsKey(historyEdge)) {
           ListSequence.fromList(history).addElement(MapSequence.fromMap(modifiedEdges).get(historyEdge));
         } else {

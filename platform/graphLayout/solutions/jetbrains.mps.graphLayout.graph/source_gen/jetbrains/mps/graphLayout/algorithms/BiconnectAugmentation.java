@@ -45,7 +45,7 @@ public class BiconnectAugmentation {
       Node prev = null;
       for (Node node : ListSequence.fromList(toConnect)) {
         if (prev != null) {
-          SetSequence.fromSet(addedEdges).addElement(prev.addEdgeTo(node));
+          SetSequence.fromSet(addedEdges).addElement(graph.connect(prev, node));
         }
         prev = node;
       }
@@ -93,7 +93,7 @@ public class BiconnectAugmentation {
       dfs(source, null);
       Set<Edge> result = SetSequence.fromSet(new LinkedHashSet<Edge>());
       for (Node node : SetSequence.fromSet(myConnectToNew)) {
-        SetSequence.fromSet(result).addElement(myNewNode.addEdgeTo(node));
+        SetSequence.fromSet(result).addElement(graph.connect(myNewNode, node));
       }
       return result;
     }
@@ -135,7 +135,7 @@ public class BiconnectAugmentation {
     }
 
     public void createNewNode() {
-      myNewNode = getGraph().addNode();
+      myNewNode = getGraph().createNode();
       MapSequence.fromMap(myNum).put(myNewNode, -1);
       SetSequence.fromSet(myConnectToNew).addElement(mySource);
     }

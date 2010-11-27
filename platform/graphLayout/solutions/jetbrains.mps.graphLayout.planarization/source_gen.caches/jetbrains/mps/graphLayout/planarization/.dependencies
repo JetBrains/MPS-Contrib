@@ -9,6 +9,7 @@
     <classNode dependClassName="jetbrains.mps.graphLayout.algorithms.ShortestPath" />
     <classNode dependClassName="jetbrains.mps.graphLayout.graph.Edge" />
     <classNode dependClassName="jetbrains.mps.graphLayout.graph.Graph" />
+    <classNode dependClassName="jetbrains.mps.graphLayout.graph.GraphModificationEvent" />
     <classNode dependClassName="jetbrains.mps.graphLayout.graph.Node" />
     <classNode dependClassName="jetbrains.mps.graphLayout.planarGraph.Dart" />
     <classNode dependClassName="jetbrains.mps.graphLayout.planarGraph.DualGraph" />
@@ -31,6 +32,7 @@
     <classNode dependClassName="jetbrains.mps.graphLayout.algorithms.ConnectivityComponents" />
     <classNode dependClassName="jetbrains.mps.graphLayout.graph.ClusteredGraph" />
     <classNode dependClassName="jetbrains.mps.graphLayout.graph.Edge" />
+    <classNode dependClassName="jetbrains.mps.graphLayout.graph.EdgesHistoryManager" />
     <classNode dependClassName="jetbrains.mps.graphLayout.graph.Graph" />
     <classNode dependClassName="jetbrains.mps.graphLayout.graph.IEdge" />
     <classNode dependClassName="jetbrains.mps.graphLayout.graph.INode" />
@@ -222,6 +224,7 @@
     <classNode dependClassName="jetbrains.mps.graphLayout.algorithms.ShortestPath" />
     <classNode dependClassName="jetbrains.mps.graphLayout.graph.Edge" />
     <classNode dependClassName="jetbrains.mps.graphLayout.graph.Graph" />
+    <classNode dependClassName="jetbrains.mps.graphLayout.graph.GraphModificationEvent" />
     <classNode dependClassName="jetbrains.mps.graphLayout.graph.Node" />
     <classNode dependClassName="jetbrains.mps.graphLayout.planarGraph.DualGraph" />
     <classNode dependClassName="jetbrains.mps.graphLayout.planarGraph.EmbeddedGraph" />

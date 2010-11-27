@@ -36,7 +36,7 @@ public class ClusteredGraphEmbeddingFinder {
   }
 
   private EmbeddedGraph find(IClusteredGraph graph, INode cluster, List<Edge> outerEdges) {
-    Iterable<INode> subclusters = Sequence.fromIterable(cluster.getOutEdges()).select(new ISelector<IEdge, INode>() {
+    Iterable<INode> subclusters = Sequence.fromIterable(cluster.getOutEdges()).<INode>select(new ISelector<IEdge, INode>() {
       public INode select(IEdge edge) {
         return edge.getTarget();
       }
@@ -67,7 +67,7 @@ public class ClusteredGraphEmbeddingFinder {
       Node prev = null;
       Face outerFace = new Face(clusterGraph);
       for (Edge edge : ListSequence.fromList(outerEdges)) {
-        Node node = clusterGraph.addNode();
+        Node node = clusterGraph.createNode();
         if (prev != null) {
           Edge newEdge = clusterGraph.connect(prev, node);
           ListSequence.fromList(circle).addElement(newEdge);
@@ -106,7 +106,7 @@ public class ClusteredGraphEmbeddingFinder {
           }
         });
         Edge edge = clusterGraph.connect(outerNode, clusterNode);
-        edge.removeFromGraph();
+        clusterGraph.removeEdge(edge);
         ShortestPathEmbeddingFinder.restoreEdge(embeddedGraph, edge);
       }
 

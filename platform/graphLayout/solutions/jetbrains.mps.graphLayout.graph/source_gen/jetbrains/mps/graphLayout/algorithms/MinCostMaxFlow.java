@@ -27,7 +27,7 @@ public class MinCostMaxFlow {
     for (Edge edge : ListSequence.fromList(graph.getEdges())) {
       MapSequence.fromMap(capacity).put(edge, MapSequence.fromMap(initialCapacity).get(edge));
       MapSequence.fromMap(flow).put(edge, 0);
-      Edge oppositeEdge = edge.getTarget().addEdgeTo(edge.getSource());
+      Edge oppositeEdge = graph.connect(edge.getTarget(), edge.getSource());
       MapSequence.fromMap(opposite).put(edge, oppositeEdge);
       MapSequence.fromMap(opposite).put(oppositeEdge, edge);
       MapSequence.fromMap(capacity).put(oppositeEdge, 0);
@@ -65,7 +65,7 @@ public class MinCostMaxFlow {
       }
     }
     for (Edge edge : SetSequence.fromSet(dummyEdges)) {
-      edge.removeFromGraph();
+      graph.removeEdge(edge);
     }
     if (SHOW_TIME > 0) {
       System.out.println("Min cost max flow algorithm on network with " + ListSequence.fromList(graph.getNodes()).count() + " nodes and " + ListSequence.fromList(graph.getEdges()).count() + " edges");

@@ -16,7 +16,7 @@ public class GraphOrientation {
       int sourceNum = MapSequence.fromMap(stNumbering).get(edge.getSource());
       int targetNum = MapSequence.fromMap(stNumbering).get(edge.getTarget());
       if (sourceNum > targetNum) {
-        edge.revert();
+        graph.revertEdge(edge);
       }
     }
     return stNumbering;

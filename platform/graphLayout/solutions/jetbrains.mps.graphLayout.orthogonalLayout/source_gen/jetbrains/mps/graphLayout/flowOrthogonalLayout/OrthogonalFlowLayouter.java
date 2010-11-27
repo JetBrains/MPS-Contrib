@@ -13,6 +13,7 @@ import java.util.LinkedHashMap;
 import jetbrains.mps.internal.collections.runtime.SetSequence;
 import jetbrains.mps.graphLayout.graph.Edge;
 import jetbrains.mps.graphLayout.graph.Graph;
+import jetbrains.mps.graphLayout.graph.EdgesHistoryManager;
 import java.util.List;
 import jetbrains.mps.internal.collections.runtime.ListSequence;
 import java.util.ArrayList;
@@ -46,6 +47,7 @@ public class OrthogonalFlowLayouter extends AbstractOrthogonalFlowLayouter {
       MapSequence.fromMap(edgeSizes).put(edge, layoutInfo.getLabelSize(edge));
     }
     Graph graph = embeddedGraph.getGraph();
+    EdgesHistoryManager historyManager = new EdgesHistoryManager(graph);
     List<Edge> initialEdges = ListSequence.fromList(new ArrayList<Edge>());
     ListSequence.fromList(initialEdges).addSequence(ListSequence.fromList(graph.getEdges()));
     List<Node> initialNodes = ListSequence.fromList(new ArrayList<Node>());
@@ -80,7 +82,7 @@ public class OrthogonalFlowLayouter extends AbstractOrthogonalFlowLayouter {
     }
     Map<Edge, Edge> labeledEdges = MapSequence.fromMap(new HashMap<Edge, Edge>());
     for (Edge edge : SetSequence.fromSet(MapSequence.fromMap(edgeSizes).keySet())) {
-      List<Edge> history = embeddedGraph.findFullHistory(edge);
+      List<Edge> history = historyManager.getHistory(edge);
       if (SetSequence.fromSet(modifiedEdges).contains(edge)) {
         for (Edge historyEdge : ListSequence.fromList(history)) {
           if (SetSequence.fromSet(newEdges).contains(historyEdge)) {
@@ -99,7 +101,7 @@ public class OrthogonalFlowLayouter extends AbstractOrthogonalFlowLayouter {
     }
     OrthogonalRepresentation.replaceBendsByNodes(embeddedGraph, bends, angles);
     for (Edge edge : SetSequence.fromSet(MapSequence.fromMap(edgeSizes).keySet())) {
-      Edge labeledEdge = getLabeledEdge(embeddedGraph.findFullHistory(MapSequence.fromMap(labeledEdges).get(edge)));
+      Edge labeledEdge = getLabeledEdge(historyManager.getHistory(MapSequence.fromMap(labeledEdges).get(edge)));
       MapSequence.fromMap(labeledEdges).put(edge, labeledEdge);
     }
     Map<Dart, Direction2D> directions = OrthogonalRepresentation.getDirections(embeddedGraph, angles);
@@ -114,7 +116,7 @@ public class OrthogonalFlowLayouter extends AbstractOrthogonalFlowLayouter {
     boxesMaker.makeBoxes(nodeSizes);
     for (Edge edge : SetSequence.fromSet(MapSequence.fromMap(edgeSizes).keySet())) {
       Edge labeledEdge = MapSequence.fromMap(labeledEdges).get(edge);
-      List<Edge> history = embeddedGraph.findFullHistory(labeledEdge);
+      List<Edge> history = historyManager.getHistory(labeledEdge);
       int pos = 0;
       if (ListSequence.fromList(initialNodes).contains(labeledEdge.getSource())) {
         pos = 1;
@@ -155,7 +157,7 @@ public class OrthogonalFlowLayouter extends AbstractOrthogonalFlowLayouter {
       }
     }
     for (Edge edge : SetSequence.fromSet(MapSequence.fromMap(edgeShifts).keySet())) {
-      Edge firstEdge = ListSequence.fromList(embeddedGraph.findFullHistory(edge)).first();
+      Edge firstEdge = ListSequence.fromList(historyManager.getHistory(edge)).first();
       if (MapSequence.fromMap(edgeLengths).containsKey(firstEdge)) {
         MapSequence.fromMap(edgeLengths).put(firstEdge, MapSequence.fromMap(edgeLengths).get(firstEdge) + MapSequence.fromMap(edgeShifts).get(edge));
       } else {
@@ -268,7 +270,7 @@ public class OrthogonalFlowLayouter extends AbstractOrthogonalFlowLayouter {
       graphLayout.setLayoutFor(node, rect);
     }
     for (Edge edge : ListSequence.fromList(initialEdges)) {
-      List<Point> edgeLayout = this.getEdgeLayout(edge, embeddedGraph, coordinates, initialNodes, directions, nodeDirectionSizes);
+      List<Point> edgeLayout = this.getEdgeLayout(edge, embeddedGraph, historyManager, coordinates, initialNodes, directions, nodeDirectionSizes);
       graphLayout.setLayoutFor(edge, edgeLayout);
     }
     for (Edge edge : SetSequence.fromSet(MapSequence.fromMap(edgeSizes).keySet())) {
@@ -295,10 +297,10 @@ public class OrthogonalFlowLayouter extends AbstractOrthogonalFlowLayouter {
     return rect;
   }
 
-  private List<Point> getEdgeLayout(Edge edge, EmbeddedGraph embeddedGraph, Map<Node, Point> coordinates, List<Node> initialNodes, Map<Dart, Direction2D> directions, Map<Node, Map<Direction2D, Integer>> nodeDirectionSizes) {
+  private List<Point> getEdgeLayout(Edge edge, EmbeddedGraph embeddedGraph, EdgesHistoryManager manager, Map<Node, Point> coordinates, List<Node> initialNodes, Map<Dart, Direction2D> directions, Map<Node, Map<Direction2D, Integer>> nodeDirectionSizes) {
     Node source = edge.getSource();
     Node target = edge.getTarget();
-    List<Edge> history = embeddedGraph.findFullHistory(edge);
+    List<Edge> history = manager.getHistory(edge);
     List<Point> edgeLayout = ListSequence.fromList(new LinkedList<Point>());
     Node cur = source;
     ListSequence.fromList(edgeLayout).addElement(new Point(MapSequence.fromMap(coordinates).get(cur)));

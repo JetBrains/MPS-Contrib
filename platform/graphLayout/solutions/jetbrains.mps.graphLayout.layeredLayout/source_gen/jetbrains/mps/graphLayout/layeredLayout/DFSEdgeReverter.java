@@ -22,8 +22,8 @@ public class DFSEdgeReverter extends Dfs implements IEdgeReverter {
     doDfs(graph);
     Set<Edge> reverted = SetSequence.fromSet(new HashSet<Edge>());
     for (Edge edge : SetSequence.fromSet(myToRevert)) {
-      edge.removeFromGraph();
-      SetSequence.fromSet(reverted).addElement(edge.getTarget().addEdgeTo(edge.getSource()));
+      graph.removeEdge(edge);
+      SetSequence.fromSet(reverted).addElement(graph.connect(edge.getTarget(), edge.getSource()));
     }
     return reverted;
   }

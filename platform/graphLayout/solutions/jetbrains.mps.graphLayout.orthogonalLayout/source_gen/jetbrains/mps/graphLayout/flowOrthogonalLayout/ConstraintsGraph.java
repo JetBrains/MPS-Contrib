@@ -164,6 +164,7 @@ public class ConstraintsGraph {
   }
 
   private void connectConstraintsNodes(final Node node1, final Node node2, Direction2D direction) {
+    Graph graph = node1.getGraph();
     Edge connectingEdge = ListSequence.fromList(node1.getEdges()).findFirst(new IWhereFilter<Edge>() {
       public boolean accept(Edge edge) {
         return edge.getOpposite(node1) == node2;
@@ -174,9 +175,9 @@ public class ConstraintsGraph {
     }
     Edge edge;
     if (direction == Direction2D.UP || direction == Direction2D.RIGHT) {
-      edge = node1.addEdgeTo(node2);
+      edge = graph.connect(node1, node2);
     } else {
-      edge = node2.addEdgeTo(node1);
+      edge = graph.connect(node2, node1);
     }
     if (ConstraintsGraph.SHOW_INFO > 0) {
       if (direction.isHorizontal()) {
@@ -239,7 +240,8 @@ public class ConstraintsGraph {
     if (dart != null) {
       Node sourceNode = MapSequence.fromMap(nodeMap).get(dart.getSource());
       Node targetNode = MapSequence.fromMap(nodeMap).get(dart.getTarget());
-      return sourceNode.addEdgeTo(targetNode);
+      Graph graph = sourceNode.getGraph();
+      return graph.connect(sourceNode, targetNode);
     }
     return null;
   }
@@ -254,7 +256,7 @@ public class ConstraintsGraph {
     List<List<Node>> componentsList = ConnectivityComponents.getComponentsList(components);
     Graph constraintsCraph = new Graph();
     for (List<Node> nodeList : ListSequence.fromList(componentsList)) {
-      Node componentNode = constraintsCraph.addNode();
+      Node componentNode = constraintsCraph.createNode();
       for (Node node : ListSequence.fromList(nodeList)) {
         MapSequence.fromMap(nodeMap).put(node, componentNode);
       }
@@ -393,6 +395,7 @@ public class ConstraintsGraph {
       source = MapSequence.fromMap(constraintsMap).get(second);
       target = MapSequence.fromMap(constraintsMap).get(first);
     }
-    return source.addEdgeTo(target);
+    Graph graph = source.getGraph();
+    return graph.connect(source, target);
   }
 }

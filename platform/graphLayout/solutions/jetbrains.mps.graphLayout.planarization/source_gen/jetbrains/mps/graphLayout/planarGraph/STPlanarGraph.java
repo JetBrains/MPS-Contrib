@@ -129,11 +129,11 @@ public class STPlanarGraph {
     for (Edge edge : ListSequence.fromList(dualGraph.getEdges())) {
       Face sourceFace = MapSequence.fromMap(dualGraph.getFacesMap()).get(edge.getSource());
       if (sourceFace != MapSequence.fromMap(myLeftFaceForEdge).get(MapSequence.fromMap(dualGraph.getEdgesMap()).get(edge))) {
-        edge.revert();
+        dualGraph.revertEdge(edge);
       }
     }
     Face outerFace = myEmbeddedGraph.getOuterFace();
-    Node rightOuterFace = dualGraph.addDummyNode();
+    Node rightOuterFace = dualGraph.createDummyNode();
     MapSequence.fromMap(dualGraph.getFacesMap()).put(rightOuterFace, outerFace);
     Node outerFaceNode = MapSequence.fromMap(dualGraph.getNodesMap()).get(outerFace);
     for (Edge edge : ListSequence.fromList(outerFaceNode.getEdges(Edge.Direction.BOTH))) {

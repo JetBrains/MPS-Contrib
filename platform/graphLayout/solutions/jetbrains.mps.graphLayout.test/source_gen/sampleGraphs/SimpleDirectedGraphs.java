@@ -11,7 +11,7 @@ public class SimpleDirectedGraphs {
   public static Graph emptyGraph(int numNodes) {
     Graph emptyGraph = new Graph();
     for (int i = 0; i < numNodes; i++) {
-      emptyGraph.addNode();
+      emptyGraph.createNode();
     }
     return emptyGraph;
   }
@@ -19,9 +19,9 @@ public class SimpleDirectedGraphs {
   public static Graph chain(int numNodes) {
     Graph chain = new Graph();
     for (int i = 0; i < numNodes; i++) {
-      Node node = chain.addNode();
+      Node node = chain.createNode();
       if (i > 0) {
-        chain.getNode(i - 1).addEdgeTo(node);
+        chain.connect(chain.getNode(i - 1), node);
       }
     }
     return chain;
@@ -29,23 +29,24 @@ public class SimpleDirectedGraphs {
 
   public static Graph triangle() {
     Graph triangle = chain(3);
-    triangle.getNode(0).addEdgeTo(triangle.getNode(2));
+    triangle.connect(triangle.getNode(0), triangle.getNode(2));
     return triangle;
   }
 
   public static Graph cycle(int numNodes) {
     Graph cycle = chain(numNodes);
-    cycle.getNode(numNodes - 1).addEdgeTo(cycle.getNode(0));
+    cycle.connect(cycle.getNode(numNodes - 1), cycle.getNode(0));
     return cycle;
   }
 
   public static Graph sandwatches() {
     Graph sandwatces = emptyGraph(6);
-    sandwatces.getNode(0).addEdgeTo(sandwatces.getNode(2));
-    sandwatces.getNode(1).addEdgeTo(sandwatces.getNode(2));
-    sandwatces.getNode(2).addEdgeTo(sandwatces.getNode(3));
-    sandwatces.getNode(3).addEdgeTo(sandwatces.getNode(4));
-    sandwatces.getNode(3).addEdgeTo(sandwatces.getNode(5));
+    sandwatces.addEdgeByIndex(0, 2);
+    sandwatces.addEdgeByIndex(1, 2);
+    sandwatces.addEdgeByIndex(2, 3);
+    sandwatces.addEdgeByIndex(3, 4);
+    sandwatces.addEdgeByIndex(3, 5);
+    sandwatces.addEdgeByIndex(0, 2);
     return sandwatces;
   }
 
@@ -58,11 +59,11 @@ public class SimpleDirectedGraphs {
       if (node == first) {
         continue;
       }
-      first.addEdgeTo(node);
+      graph.connect(first, node);
       if (prev == null) {
-        node.addEdgeTo(ListSequence.fromList(nodes).last());
+        graph.connect(node, ListSequence.fromList(nodes).last());
       } else {
-        node.addEdgeTo(prev);
+        graph.connect(node, prev);
       }
       prev = node;
     }

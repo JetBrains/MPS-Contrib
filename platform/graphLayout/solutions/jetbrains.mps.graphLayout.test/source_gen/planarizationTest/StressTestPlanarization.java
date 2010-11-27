@@ -36,12 +36,12 @@ public class StressTestPlanarization {
       Map<Node, Node> nodeMap = MapSequence.fromMap(new HashMap<Node, Node>());
       for (Node node : ListSequence.fromList(graph.getNodes())) {
         if (MapSequence.fromMap(components).get(node) == 0) {
-          MapSequence.fromMap(nodeMap).put(node, firstComponent.addNode());
+          MapSequence.fromMap(nodeMap).put(node, firstComponent.createNode());
         }
       }
       for (Edge edge : ListSequence.fromList(graph.getEdges())) {
         if (MapSequence.fromMap(components).get(edge.getSource()) == 0) {
-          MapSequence.fromMap(nodeMap).get(edge.getSource()).addEdgeTo(MapSequence.fromMap(nodeMap).get(edge.getTarget()));
+          firstComponent.connect(MapSequence.fromMap(nodeMap).get(edge.getSource()), MapSequence.fromMap(nodeMap).get(edge.getTarget()));
         }
       }
       if (firstComponent.getNumNodes() < 3) {
@@ -64,10 +64,10 @@ public class StressTestPlanarization {
         nodeMap = MapSequence.fromMap(new HashMap<Node, Node>());
         List<Node> sorting = TopologicalSorting.sort(firstComponent);
         for (Node node : ListSequence.fromList(sorting)) {
-          MapSequence.fromMap(nodeMap).put(node, orderedGraph.addNode());
+          MapSequence.fromMap(nodeMap).put(node, orderedGraph.createNode());
         }
         for (Edge edge : ListSequence.fromList(firstComponent.getEdges())) {
-          MapSequence.fromMap(nodeMap).get(edge.getSource()).addEdgeTo(MapSequence.fromMap(nodeMap).get(edge.getTarget()));
+          orderedGraph.connect(MapSequence.fromMap(nodeMap).get(edge.getSource()), MapSequence.fromMap(nodeMap).get(edge.getTarget()));
         }
         System.out.println(e);
         System.exit(1);

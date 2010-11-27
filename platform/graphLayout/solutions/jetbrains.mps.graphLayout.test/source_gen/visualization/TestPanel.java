@@ -243,11 +243,6 @@ public class TestPanel extends JPanel {
           graphics.setColor(oldColor);
           graphics.drawOval(x, y, TestPanel.NSIZE, TestPanel.NSIZE);
           graphics.drawString(Integer.toString(node.getIndex()), x + TestPanel.NSIZE / 3, y + 2 * TestPanel.NSIZE / 3);
-          /*
-            if (node.isDummy()) {
-              graphics.fillOval(x, y, TestPanel.NSIZE, TestPanel.NSIZE);
-            }
-          */
         }
       }
     }

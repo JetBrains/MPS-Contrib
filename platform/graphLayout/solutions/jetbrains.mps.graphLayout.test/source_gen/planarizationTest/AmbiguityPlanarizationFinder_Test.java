@@ -40,10 +40,10 @@ public class AmbiguityPlanarizationFinder_Test extends TestCase {
       Map<Node, Node> nodeMap = MapSequence.fromMap(new HashMap<Node, Node>());
       Map<Edge, Edge> edgeMap = MapSequence.fromMap(new HashMap<Edge, Edge>());
       for (Node node : ListSequence.fromList(graph.getNodes())) {
-        MapSequence.fromMap(nodeMap).put(node, copy.addNode());
+        MapSequence.fromMap(nodeMap).put(node, copy.createNode());
       }
       for (Edge edge : ListSequence.fromList(graph.getEdges())) {
-        MapSequence.fromMap(edgeMap).put(edge, MapSequence.fromMap(nodeMap).get(edge.getSource()).addEdgeTo(MapSequence.fromMap(nodeMap).get(edge.getTarget())));
+        MapSequence.fromMap(edgeMap).put(edge, copy.connect(MapSequence.fromMap(nodeMap).get(edge.getSource()), MapSequence.fromMap(nodeMap).get(edge.getTarget())));
       }
       BiconnectAugmentation.makeBiconnected(copy);
       EmbeddedGraph embeddedGraph;

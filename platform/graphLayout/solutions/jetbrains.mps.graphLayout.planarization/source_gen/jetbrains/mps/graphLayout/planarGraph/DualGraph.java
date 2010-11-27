@@ -8,7 +8,6 @@ import jetbrains.mps.graphLayout.graph.Node;
 import jetbrains.mps.graphLayout.graph.Edge;
 import jetbrains.mps.internal.collections.runtime.MapSequence;
 import java.util.HashMap;
-import jetbrains.mps.graphLayout.util.NodeMap;
 import jetbrains.mps.internal.collections.runtime.ListSequence;
 import jetbrains.mps.internal.collections.runtime.SetSequence;
 import java.util.List;
@@ -28,9 +27,9 @@ public class DualGraph extends Graph {
 
   private void compute() {
     myNodesMap = MapSequence.fromMap(new HashMap<Face, Node>());
-    myFacesMap = new NodeMap<Face>(this);
+    myFacesMap = MapSequence.fromMap(new HashMap<Node, Face>());
     for (Face face : ListSequence.fromList(myEmbeddedGraph.getFaces())) {
-      Node node = this.addNode();
+      Node node = createNode();
       MapSequence.fromMap(myNodesMap).put(face, node);
       MapSequence.fromMap(myFacesMap).put(node, face);
     }
@@ -38,16 +37,16 @@ public class DualGraph extends Graph {
       List<Face> faces = myEmbeddedGraph.getAdjacentFaces(edge);
       Node faceNode1 = MapSequence.fromMap(myNodesMap).get(ListSequence.fromList(faces).getElement(0));
       Node faceNode2 = MapSequence.fromMap(myNodesMap).get(ListSequence.fromList(faces).getElement(1));
-      Edge faceEdge = faceNode1.addEdgeTo(faceNode2);
+      Edge faceEdge = connect(faceNode1, faceNode2);
       MapSequence.fromMap(myEdgesMap).put(faceEdge, edge);
     }
   }
 
   public Node addRealNode(Node realNode) {
-    Node newNode = this.addDummyNode();
+    Node newNode = this.createDummyNode();
     for (Edge edge : ListSequence.fromList(realNode.getEdges())) {
       for (Face face : ListSequence.fromList(myEmbeddedGraph.getAdjacentFaces(edge))) {
-        newNode.addEdgeTo(MapSequence.fromMap(this.getNodesMap()).get(face));
+        connect(newNode, MapSequence.fromMap(getNodesMap()).get(face));
       }
     }
     return newNode;
@@ -70,12 +69,12 @@ public class DualGraph extends Graph {
   }
 
   public void removeFromGraph(Edge edge) {
-    edge.removeFromGraph();
+    removeEdge(edge);
     MapSequence.fromMap(myEdgesMap).removeKey(edge);
   }
 
   public Edge addEdge(Node source, Node target, Edge realEdge) {
-    Edge edge = source.addEdgeTo(target);
+    Edge edge = connect(source, target);
     MapSequence.fromMap(myEdgesMap).put(edge, realEdge);
     return edge;
   }

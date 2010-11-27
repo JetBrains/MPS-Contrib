@@ -53,12 +53,12 @@ public class Edge implements IEdge {
     return ListSequence.fromListAndArray(new ArrayList<Node>(), getSource(), getTarget());
   }
 
-  public void removeFromGraph() {
+  /*package*/ void removeFromGraph() {
     ListSequence.fromList(mySource.getOutEdges()).removeElement(this);
     ListSequence.fromList(myTarget.getInEdges()).removeElement(this);
   }
 
-  public void addToGraph() {
+  /*package*/ void addToGraph() {
     mySource.addOutEdge(this);
     myTarget.addInEdge(this);
   }
@@ -68,7 +68,7 @@ public class Edge implements IEdge {
     return "[" + getSource().getIndex() + " -> " + getTarget().getIndex() + "]";
   }
 
-  public void revert() {
+  /*package*/ void revert() {
     removeFromGraph();
     Node temp = mySource;
     mySource = myTarget;

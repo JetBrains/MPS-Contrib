@@ -24,7 +24,7 @@ public class MaxFlow {
     for (Edge edge : ListSequence.fromList(graph.getEdges())) {
       MapSequence.fromMap(capacity).put(edge, MapSequence.fromMap(initialCapacity).get(edge));
       MapSequence.fromMap(flow).put(edge, 0);
-      Edge oppositeEdge = edge.getTarget().addEdgeTo(edge.getSource());
+      Edge oppositeEdge = graph.connect(edge.getTarget(), edge.getSource());
       MapSequence.fromMap(opposite).put(edge, oppositeEdge);
       MapSequence.fromMap(opposite).put(oppositeEdge, edge);
       MapSequence.fromMap(capacity).put(oppositeEdge, 0);
@@ -59,7 +59,7 @@ public class MaxFlow {
       }
     }
     for (Edge edge : SetSequence.fromSet(dummyEdges)) {
-      edge.removeFromGraph();
+      graph.removeEdge(edge);
     }
     return flow;
   }

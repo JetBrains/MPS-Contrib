@@ -7,12 +7,12 @@ import jetbrains.mps.graphLayout.graph.Graph;
 public class GraphsForLayers {
   public static Graph simpleFourLayersGraph() {
     Graph graph = SimpleDirectedGraphs.emptyGraph(5);
-    graph.getNode(0).addEdgeTo(graph.getNode(1));
-    graph.getNode(1).addEdgeTo(graph.getNode(2));
-    graph.getNode(2).addEdgeTo(graph.getNode(3));
-    graph.getNode(0).addEdgeTo(graph.getNode(4));
-    graph.getNode(4).addEdgeTo(graph.getNode(3));
-    graph.getNode(4).addEdgeTo(graph.getNode(3));
+    graph.addEdgeByIndex(0, 1);
+    graph.addEdgeByIndex(1, 2);
+    graph.addEdgeByIndex(2, 3);
+    graph.addEdgeByIndex(0, 4);
+    graph.addEdgeByIndex(4, 3);
+    graph.addEdgeByIndex(4, 3);
     return graph;
   }
 }

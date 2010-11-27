@@ -15,13 +15,13 @@ public class MinCostCirculation {
 
   public static Map<Edge, Integer> getCirculation(Graph graph, Map<Edge, Integer> low, Map<Edge, Integer> initialCapacity, Map<Edge, Integer> cost) {
     Map<Edge, Integer> capacity = MapSequence.fromMap(new HashMap<Edge, Integer>());
-    Node source = graph.addDummyNode();
-    Node target = graph.addDummyNode();
+    Node source = graph.createNode();
+    Node target = graph.createNode();
     for (Edge edge : ListSequence.fromList(graph.getEdges())) {
       MapSequence.fromMap(capacity).put(edge, MapSequence.fromMap(initialCapacity).get(edge) - MapSequence.fromMap(low).get(edge));
     }
     for (Node node : ListSequence.fromList(graph.getNodes())) {
-      if (node.isDummy()) {
+      if (node == source || node == target) {
         continue;
       }
       int diff = 0;
@@ -33,10 +33,10 @@ public class MinCostCirculation {
       }
       Edge newEdge = null;
       if (diff > 0) {
-        newEdge = source.addEdgeTo(node);
+        newEdge = graph.connect(source, node);
       }
       if (diff < 0) {
-        newEdge = node.addEdgeTo(target);
+        newEdge = graph.connect(node, target);
       }
       if (newEdge != null) {
         MapSequence.fromMap(capacity).put(newEdge, Math.abs(diff));
@@ -71,8 +71,8 @@ public class MinCostCirculation {
     for (Edge edge : ListSequence.fromList(source.getEdges()).concat(ListSequence.fromList(target.getEdges()))) {
       MapSequence.fromMap(flow).removeKey(edge);
     }
-    graph.remove(source);
-    graph.remove(target);
+    graph.deleteNode(source);
+    graph.deleteNode(target);
     for (Edge edge : ListSequence.fromList(graph.getEdges())) {
       MapSequence.fromMap(flow).put(edge, MapSequence.fromMap(flow).get(edge) + MapSequence.fromMap(low).get(edge));
     }

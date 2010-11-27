@@ -16,7 +16,7 @@ import jetbrains.mps.graphLayout.flowOrthogonalLayout.QuasiOrthogonalRepresentat
 import jetbrains.mps.graphLayout.flowOrthogonalLayout.QuasiRepresentationModifier;
 import jetbrains.mps.graphLayout.flowOrthogonalLayout.OrthogonalRepresentation;
 import jetbrains.mps.graphLayout.util.Direction2D;
-import jetbrains.mps.graphLayout.flowOrthogonalLayout.ConstraintsGraphProcessor;
+import jetbrains.mps.graphLayout.internal.flowOrthogonalLayout.ConstraintsGraphProcessor;
 import java.util.List;
 import jetbrains.mps.graphLayout.graph.Node;
 import jetbrains.mps.internal.collections.runtime.ListSequence;

@@ -22,7 +22,7 @@ public class STNumbering {
       }
     }
     if (stEdge == null) {
-      stEdge = source.addEdgeTo(target);
+      stEdge = graph.connect(source, target);
       deleteAfter = true;
     }
     BiconnectedComponents biconnectedComponents = new BiconnectedComponents();
@@ -36,7 +36,7 @@ public class STNumbering {
       MapSequence.fromMap(res).put(node, curNum++);
     }
     if (deleteAfter) {
-      stEdge.removeFromGraph();
+      graph.removeEdge(stEdge);
     }
     return res;
   }

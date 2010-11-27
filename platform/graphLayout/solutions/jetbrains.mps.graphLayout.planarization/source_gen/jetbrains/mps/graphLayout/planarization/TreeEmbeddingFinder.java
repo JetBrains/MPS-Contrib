@@ -36,7 +36,7 @@ public class TreeEmbeddingFinder implements IEmbeddingFinder {
     List<Edge> removed = ListSequence.fromList(new ArrayList<Edge>());
     Face outerFace = getOuterTreeFace(graph, removed);
     for (Edge edge : ListSequence.fromList(removed)) {
-      edge.removeFromGraph();
+      graph.removeEdge(edge);
     }
     embeddedGraph.addFace(outerFace);
     embeddedGraph.setOuterFace(outerFace);
@@ -50,13 +50,14 @@ public class TreeEmbeddingFinder implements IEmbeddingFinder {
 
   private void restoreEdge(EmbeddedGraph embeddedGraph, Edge removedEdge) {
     MapSequence.fromMap(mySplittedEdges).put(removedEdge, ListSequence.fromList(new ArrayList<Edge>()));
+    Graph graph = embeddedGraph.getGraph();
     DualGraph dualGraph = new DualGraph(embeddedGraph);
     List<Node> newNodes = ListSequence.fromList(new ArrayList<Node>());
     for (Node node : ListSequence.fromList(removedEdge.getAdjacentNodes())) {
-      Node newNode = dualGraph.addDummyNode();
+      Node newNode = dualGraph.createDummyNode();
       for (Edge nodeEdge : ListSequence.fromList(node.getEdges(Edge.Direction.BOTH))) {
         for (Face face : ListSequence.fromList(embeddedGraph.getAdjacentFaces(nodeEdge))) {
-          newNode.addEdgeTo(MapSequence.fromMap(dualGraph.getNodesMap()).get(face));
+          dualGraph.connect(newNode, MapSequence.fromMap(dualGraph.getNodesMap()).get(face));
         }
       }
       ListSequence.fromList(newNodes).addElement(newNode);
@@ -80,7 +81,7 @@ public class TreeEmbeddingFinder implements IEmbeddingFinder {
     }
     ListSequence.fromList(nodePath).addElement(ListSequence.fromList(removedEdge.getAdjacentNodes()).getElement(1));
     for (int i = 0; i < ListSequence.fromList(nodePath).count() - 1; i++) {
-      Edge newEdge = ListSequence.fromList(nodePath).getElement(i).addEdgeTo(ListSequence.fromList(nodePath).getElement(i + 1));
+      Edge newEdge = graph.connect(ListSequence.fromList(nodePath).getElement(i), ListSequence.fromList(nodePath).getElement(i + 1));
       ListSequence.fromList(MapSequence.fromMap(mySplittedEdges).get(removedEdge)).addElement(newEdge);
       splitFace(embeddedGraph, ListSequence.fromList(facePath).getElement(i), newEdge);
     }
@@ -134,11 +135,11 @@ public class TreeEmbeddingFinder implements IEmbeddingFinder {
 
   public Node split(EmbeddedGraph embeddedGraph, Edge edge) {
     Graph originalGraph = embeddedGraph.getGraph();
-    Node newNode = originalGraph.addDummyNode();
-    edge.removeFromGraph();
+    Node newNode = originalGraph.createDummyNode();
+    originalGraph.removeEdge(edge);
     List<Edge> newEdges = ListSequence.fromList(new ArrayList<Edge>());
-    ListSequence.fromList(newEdges).addElement(edge.getSource().addEdgeTo(newNode));
-    ListSequence.fromList(newEdges).addElement(newNode.addEdgeTo(edge.getTarget()));
+    ListSequence.fromList(newEdges).addElement(originalGraph.connect(edge.getSource(), newNode));
+    ListSequence.fromList(newEdges).addElement(originalGraph.connect(newNode, edge.getTarget()));
     MapSequence.fromMap(mySplittedEdges).put(edge, newEdges);
     List<Face> facesToProcess = ListSequence.fromList(new ArrayList<Face>());
     ListSequence.fromList(facesToProcess).addSequence(ListSequence.fromList(embeddedGraph.getAdjacentFaces(edge)));

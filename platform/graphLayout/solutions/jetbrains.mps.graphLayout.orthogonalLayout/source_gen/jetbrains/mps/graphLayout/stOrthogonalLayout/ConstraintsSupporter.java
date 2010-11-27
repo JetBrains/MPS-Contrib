@@ -123,12 +123,12 @@ public class ConstraintsSupporter {
     myEdgesMap = MapSequence.fromMap(new HashMap<Edge, Edge>());
     Graph modifiedGraph = new Graph();
     for (Node node : ListSequence.fromList(graph.getNodes())) {
-      MapSequence.fromMap(myInNode).put(node, modifiedGraph.addNode());
-      MapSequence.fromMap(myOutNode).put(node, modifiedGraph.addNode());
-      MapSequence.fromMap(myFakeEdges).put(node, MapSequence.fromMap(myInNode).get(node).addEdgeTo(MapSequence.fromMap(myOutNode).get(node)));
+      MapSequence.fromMap(myInNode).put(node, modifiedGraph.createNode());
+      MapSequence.fromMap(myOutNode).put(node, modifiedGraph.createNode());
+      MapSequence.fromMap(myFakeEdges).put(node, modifiedGraph.connect(MapSequence.fromMap(myInNode).get(node), MapSequence.fromMap(myOutNode).get(node)));
     }
     for (Edge edge : ListSequence.fromList(graph.getEdges())) {
-      MapSequence.fromMap(myEdgesMap).put(edge, MapSequence.fromMap(myOutNode).get(edge.getSource()).addEdgeTo(MapSequence.fromMap(myInNode).get(edge.getTarget())));
+      MapSequence.fromMap(myEdgesMap).put(edge, modifiedGraph.connect(MapSequence.fromMap(myOutNode).get(edge.getSource()), MapSequence.fromMap(myInNode).get(edge.getTarget())));
     }
     return modifiedGraph;
   }

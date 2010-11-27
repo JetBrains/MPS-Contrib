@@ -95,20 +95,6 @@
     <classNode dependClassName="sampleGraphs.SimpleDirectedGraphs" />
     <classNode extendsClassName="junit.framework.TestCase" />
   </dependency>
-  <dependency className="graphTest.GraphStructure_Test" file="GraphStructure_Test.java">
-    <classNode dependClassName="java.lang.Exception" />
-    <classNode dependClassName="java.lang.Integer" />
-    <classNode dependClassName="java.util.HashSet" />
-    <classNode dependClassName="java.util.Set" />
-    <classNode dependClassName="jetbrains.mps.graphLayout.graph.Edge" />
-    <classNode dependClassName="jetbrains.mps.graphLayout.graph.Graph" />
-    <classNode dependClassName="jetbrains.mps.graphLayout.graph.Node" />
-    <classNode dependClassName="jetbrains.mps.internal.collections.runtime.ListSequence" />
-    <classNode dependClassName="jetbrains.mps.internal.collections.runtime.SetSequence" />
-    <classNode dependClassName="junit.framework.Assert" />
-    <classNode dependClassName="sampleGraphs.SimpleDirectedGraphs" />
-    <classNode extendsClassName="junit.framework.TestCase" />
-  </dependency>
   <dependency className="graphTest.MinCirculation_Test" file="MinCirculation_Test.java">
     <classNode dependClassName="graphTest.FlowChecker" />
     <classNode dependClassName="java.lang.Exception" />

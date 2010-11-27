@@ -123,9 +123,9 @@ public class NodeBoxesMaker {
         if (i == turn) {
           nextNode = pathTarget;
         } else {
-          nextNode = myGraph.addNode();
+          nextNode = myGraph.createNode();
         }
-        ListSequence.fromList(newEdges).addElement(curNode.addEdgeTo(nextNode));
+        ListSequence.fromList(newEdges).addElement(myGraph.connect(curNode, nextNode));
         curNode = nextNode;
       }
       boolean isOuter = myEmbeddedGraph.isOuterFace(face);
@@ -135,7 +135,7 @@ public class NodeBoxesMaker {
       Dart firstDart = myEmbeddedGraph.getSourceDart(firstEdge, firstEdge.getSource());
       for (Face newFace : ListSequence.fromList(newFaces)) {
         /*
-          Iterable<Node> faceNodes = ListSequence.fromList(newFace.getDarts()).select(new ISelector<Dart, Node>() {
+          Iterable<Node> faceNodes = ListSequence.fromList(newFace.getDarts()).<Node>select(new ISelector<Dart, Node>() {
             public Node select(Dart dart) {
               return dart.getSource();
             }

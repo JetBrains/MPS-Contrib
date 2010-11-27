@@ -26,7 +26,7 @@ public class MinCostMaxFlowCycleCancelling {
     Set<Edge> dummyEdges = SetSequence.fromSet(new HashSet<Edge>());
     for (Edge edge : ListSequence.fromList(graph.getEdges())) {
       MapSequence.fromMap(capacity).put(edge, MapSequence.fromMap(initialCapacity).get(edge) - MapSequence.fromMap(flow).get(edge));
-      Edge oppositeEdge = edge.getTarget().addEdgeTo(edge.getSource());
+      Edge oppositeEdge = graph.connect(edge.getTarget(), edge.getSource());
       MapSequence.fromMap(opposite).put(edge, oppositeEdge);
       MapSequence.fromMap(opposite).put(oppositeEdge, edge);
       MapSequence.fromMap(capacity).put(oppositeEdge, MapSequence.fromMap(flow).get(edge));
@@ -64,7 +64,7 @@ public class MinCostMaxFlowCycleCancelling {
       }
     }
     for (Edge edge : SetSequence.fromSet(dummyEdges)) {
-      edge.removeFromGraph();
+      graph.removeEdge(edge);
     }
     if (SHOW_TIME > 0) {
       System.out.println("Min cost max flow algorithm on network with " + ListSequence.fromList(graph.getNodes()).count() + " nodes and " + ListSequence.fromList(graph.getEdges()).count() + " edges");

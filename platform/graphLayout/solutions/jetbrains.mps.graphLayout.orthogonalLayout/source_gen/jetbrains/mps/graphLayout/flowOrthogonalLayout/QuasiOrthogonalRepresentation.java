@@ -34,21 +34,21 @@ public class QuasiOrthogonalRepresentation {
     Graph graph = embeddedGraph.getGraph();
     int c = 100 * graph.getNumNodes();
     Graph network = new Graph();
-    Node networkSource = network.addNode();
-    Node networkTarget = network.addNode();
+    Node networkSource = network.createNode();
+    Node networkTarget = network.createNode();
     Map<Edge, Integer> capacity = MapSequence.fromMap(new HashMap<Edge, Integer>());
     Map<Edge, Integer> cost = MapSequence.fromMap(new HashMap<Edge, Integer>());
     Map<Node, Node> nodeMap = MapSequence.fromMap(new HashMap<Node, Node>());
     for (Node node : ListSequence.fromList(graph.getNodes())) {
-      Node networkNode = network.addNode();
+      Node networkNode = network.createNode();
       MapSequence.fromMap(nodeMap).put(node, networkNode);
       int deg = ListSequence.fromList(node.getEdges()).count();
       Edge edge = null;
       if (deg < 4) {
-        edge = networkSource.addEdgeTo(networkNode);
+        edge = network.connect(networkSource, networkNode);
       }
       if (deg > 4) {
-        edge = networkNode.addEdgeTo(networkTarget);
+        edge = network.connect(networkNode, networkTarget);
       }
       if (edge != null) {
         MapSequence.fromMap(cost).put(edge, 0);
@@ -57,20 +57,20 @@ public class QuasiOrthogonalRepresentation {
     }
     Map<Face, Node> faceMap = MapSequence.fromMap(new HashMap<Face, Node>());
     for (Face face : ListSequence.fromList(embeddedGraph.getFaces())) {
-      Node networkNode = network.addNode();
+      Node networkNode = network.createNode();
       MapSequence.fromMap(faceMap).put(face, networkNode);
       int deg = ListSequence.fromList(face.getDarts()).count();
       if (embeddedGraph.isOuterFace(face)) {
-        Edge edge = networkNode.addEdgeTo(networkTarget);
+        Edge edge = network.connect(networkNode, networkTarget);
         MapSequence.fromMap(cost).put(edge, 0);
         MapSequence.fromMap(capacity).put(edge, deg + 4);
       } else {
         Edge edge = null;
         if (deg < 4) {
-          edge = networkSource.addEdgeTo(networkNode);
+          edge = network.connect(networkSource, networkNode);
         }
         if (deg > 4) {
-          edge = networkNode.addEdgeTo(networkTarget);
+          edge = network.connect(networkNode, networkTarget);
         }
         if (edge != null) {
           MapSequence.fromMap(cost).put(edge, 0);
@@ -83,13 +83,14 @@ public class QuasiOrthogonalRepresentation {
     for (Face face : ListSequence.fromList(embeddedGraph.getFaces())) {
       Node faceNode = MapSequence.fromMap(faceMap).get(face);
       for (Dart dart : ListSequence.fromList(face.getDarts())) {
-        Edge edge = MapSequence.fromMap(nodeMap).get(dart.getSource()).addEdgeTo(faceNode);
+        Edge edge;
+        edge = network.connect(MapSequence.fromMap(nodeMap).get(dart.getSource()), faceNode);
         MapSequence.fromMap(dartAngleMap).put(dart, edge);
         MapSequence.fromMap(capacity).put(edge, INF);
         MapSequence.fromMap(cost).put(edge, 0);
         Dart oppositeDart = embeddedGraph.getOpposite(dart);
         Node oppositeFaceNode = MapSequence.fromMap(faceMap).get(embeddedGraph.getFace(oppositeDart));
-        edge = faceNode.addEdgeTo(oppositeFaceNode);
+        edge = network.connect(faceNode, oppositeFaceNode);
         MapSequence.fromMap(dartBendMap).put(dart, edge);
         MapSequence.fromMap(capacity).put(edge, INF);
         if (SetSequence.fromSet(freeEdges).contains(dart.getEdge())) {
@@ -107,10 +108,11 @@ public class QuasiOrthogonalRepresentation {
         Map<Face, Node> faceNodes = MapSequence.fromMap(new HashMap<Face, Node>());
         Map<Face, Edge> faceEdges = MapSequence.fromMap(new HashMap<Face, Edge>());
         for (Dart dart : ListSequence.fromList(darts)) {
-          Node faceNode = network.addNode();
+          Node faceNode = network.createNode();
           Face face = embeddedGraph.getFace(dart);
           MapSequence.fromMap(faceNodes).put(face, faceNode);
-          Edge edge = faceNode.addEdgeTo(MapSequence.fromMap(nodeMap).get(node));
+          Edge edge;
+          edge = network.connect(faceNode, MapSequence.fromMap(nodeMap).get(node));
           MapSequence.fromMap(cost).put(edge, 0);
           MapSequence.fromMap(capacity).put(edge, 1);
           MapSequence.fromMap(faceEdges).put(face, edge);
@@ -118,7 +120,8 @@ public class QuasiOrthogonalRepresentation {
         for (Dart dart : ListSequence.fromList(darts)) {
           Face face = embeddedGraph.getFace(dart);
           Face leftFace = embeddedGraph.getFace(embeddedGraph.getOpposite(dart));
-          Edge edge = MapSequence.fromMap(faceMap).get(leftFace).addEdgeTo(MapSequence.fromMap(faceNodes).get(face));
+          Edge edge;
+          edge = network.connect(MapSequence.fromMap(faceMap).get(leftFace), MapSequence.fromMap(faceNodes).get(face));
           MapSequence.fromMap(cost).put(edge, 1);
           MapSequence.fromMap(capacity).put(edge, 1);
           MapSequence.fromMap(tempEdgesToDart).put(edge, dart);
@@ -132,7 +135,7 @@ public class QuasiOrthogonalRepresentation {
         Map<Face, Node> faceNodes = MapSequence.fromMap(new HashMap<Face, Node>());
         Map<Face, Edge> faceEdges = MapSequence.fromMap(new HashMap<Face, Edge>());
         for (Dart dart : ListSequence.fromList(darts)) {
-          Node faceNode = network.addNode();
+          Node faceNode = network.createNode();
           Face face = embeddedGraph.getFace(dart);
           MapSequence.fromMap(faceNodes).put(face, faceNode);
           Edge edge = faceNode.addEdgeTo(MapSequence.fromMap(nodeMap).get(node));
@@ -141,8 +144,8 @@ public class QuasiOrthogonalRepresentation {
           MapSequence.fromMap(faceEdges).put(face, edge);
         }
         for (Dart dart : ListSequence.fromList(darts)) {
-          Node left = network.addNode();
-          Node right = network.addNode();
+          Node left = network.createNode();
+          Node right = network.createNode();
           Edge edge = left.addEdgeTo(right);
           MapSequence.fromMap(capacity).put(edge, 1);
           MapSequence.fromMap(cost).put(edge, -c);

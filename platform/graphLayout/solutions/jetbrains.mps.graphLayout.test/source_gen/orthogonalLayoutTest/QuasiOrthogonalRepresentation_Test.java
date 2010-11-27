@@ -21,7 +21,6 @@ import java.util.HashSet;
 import jetbrains.mps.internal.collections.runtime.ListSequence;
 import jetbrains.mps.graphLayout.flowOrthogonalLayout.QuasiRepresentationModifier;
 import jetbrains.mps.graphLayout.graph.Node;
-import java.util.List;
 import jetbrains.mps.graphLayout.planarGraph.CheckEmbeddedGraph;
 
 public class QuasiOrthogonalRepresentation_Test extends TestCase {
@@ -91,12 +90,6 @@ public class QuasiOrthogonalRepresentation_Test extends TestCase {
       System.out.println("node " + node);
       for (Dart dart : ListSequence.fromList(embeddedGraph.getDartWithSource(node))) {
         System.out.println(dart + " angle = " + MapSequence.fromMap(angles).get(dart) + ", bends = " + MapSequence.fromMap(bends).get(dart) + ", opposite bends = " + MapSequence.fromMap(bends).get(embeddedGraph.getOpposite(dart)));
-      }
-    }
-    for (Edge edge : SetSequence.fromSet(oldEdges)) {
-      List<Edge> history = embeddedGraph.findFullHistory(edge);
-      if (ListSequence.fromList(history).count() > 1) {
-        System.out.println("edge " + edge + " -> " + history);
       }
     }
     CheckEmbeddedGraph.checkEmbeddedGraph(embeddedGraph);

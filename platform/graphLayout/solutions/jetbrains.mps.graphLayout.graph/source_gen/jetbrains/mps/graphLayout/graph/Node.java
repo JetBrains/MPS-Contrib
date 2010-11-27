@@ -9,17 +9,19 @@ import jetbrains.mps.internal.collections.runtime.backports.LinkedList;
 public class Node implements INode {
   private List<Edge> myOutEdges;
   private List<Edge> myInEdges;
-  private int myIndex;
   private boolean myIsDummy;
+  private int myIndex;
+  private Graph myGraph;
 
-  /*package*/ Node(int index, boolean isDummy) {
+  /*package*/ Node(Graph graph, int index, boolean isDummy) {
+    myGraph = graph;
     myOutEdges = ListSequence.fromList(new LinkedList<Edge>());
     myInEdges = ListSequence.fromList(new LinkedList<Edge>());
     myIndex = index;
     myIsDummy = isDummy;
   }
 
-  public Edge addEdgeTo(Node target) {
+  /*package*/ Edge addEdgeTo(Node target) {
     Edge edge = new Edge(this, target);
     this.addOutEdge(edge);
     if (target != this) {
@@ -64,6 +66,10 @@ public class Node implements INode {
 
   public boolean isDummy() {
     return myIsDummy;
+  }
+
+  public Graph getGraph() {
+    return myGraph;
   }
 
   @Override

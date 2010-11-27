@@ -44,6 +44,7 @@ public class TreeEmbeddingFinder_Find_Test extends TestCase {
   public void test(Graph graph) {
     TreeEmbeddingFinder embeddingFinder = new TreeEmbeddingFinder();
     EmbeddedGraph embeddedGraph = embeddingFinder.find(graph);
+    CheckEmbeddedGraph.checkEmbeddedGraph(embeddedGraph, true);
     /*
       System.out.println(embeddedGraph);
     */

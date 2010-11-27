@@ -18,6 +18,7 @@ import java.util.ArrayList;
 import jetbrains.mps.graphLayout.planarGraph.Face;
 import jetbrains.mps.graphLayout.planarGraph.DualGraph;
 import jetbrains.mps.internal.collections.runtime.MapSequence;
+import jetbrains.mps.graphLayout.graph.GraphModificationEvent;
 
 public class BiconnectedInitialEmbeddingFinder implements IEmbeddingFinder {
   private static int SHOW_INFO = 1;
@@ -57,7 +58,7 @@ public class BiconnectedInitialEmbeddingFinder implements IEmbeddingFinder {
       }
     }
     for (Edge edge : SetSequence.fromSet(removed)) {
-      edge.removeFromGraph();
+      embeddedGraph.getGraph().removeEdge(edge);
     }
     List<Edge> path = ShortestPath.getPath(embeddedGraph.getGraph(), toAdd, start, Edge.Direction.BOTH);
     int endIndex = 0;
@@ -68,7 +69,7 @@ public class BiconnectedInitialEmbeddingFinder implements IEmbeddingFinder {
     }
     path = ListSequence.fromList(path).subListSequence(0, endIndex);
     for (Edge edge : SetSequence.fromSet(removed)) {
-      edge.addToGraph();
+      embeddedGraph.getGraph().addEdge(edge);
     }
     ListSequence.fromList(path).insertElement(0, ListSequence.fromList(SetSequence.fromSet(removed).where(new IWhereFilter<Edge>() {
       public boolean accept(Edge it) {
@@ -126,6 +127,7 @@ public class BiconnectedInitialEmbeddingFinder implements IEmbeddingFinder {
   }
 
   public void connect(EmbeddedGraph embeddedGraph, List<Edge> path, Node start, Node end) {
+    Graph graph = embeddedGraph.getGraph();
     DualGraph dualGraph = new DualGraph(embeddedGraph);
     Node dualStart = dualGraph.addRealNode(start);
     Node dualEnd = dualGraph.addRealNode(end);
@@ -157,21 +159,24 @@ public class BiconnectedInitialEmbeddingFinder implements IEmbeddingFinder {
           ListSequence.fromList(tempPath).addSequence(ListSequence.fromList(path));
         } else {
           Edge lastEdge = ListSequence.fromList(path).removeLastElement();
-          lastEdge.removeFromGraph();
+          graph.removeEdge(lastEdge);
           deletedEdge = lastEdge;
           ListSequence.fromList(tempPath).addSequence(ListSequence.fromList(path));
-          Edge newEdge = lastEdge.getOpposite(end).addEdgeTo(curEnd);
+          Edge newEdge;
+          newEdge = graph.connect(lastEdge.getOpposite(end), curEnd);
           ListSequence.fromList(newEdges).addElement(newEdge);
           ListSequence.fromList(tempPath).addElement(newEdge);
         }
       } else {
-        Edge newEdge = curStart.addEdgeTo(curEnd);
+        Edge newEdge;
+        newEdge = graph.connect(curStart, curEnd);
         ListSequence.fromList(newEdges).addElement(newEdge);
         ListSequence.fromList(tempPath).addElement(newEdge);
       }
       embeddedGraph.splitFace(ListSequence.fromList(facePath).getElement(i), tempPath, curStart, curEnd);
       if (deletedEdge != null) {
-        embeddedGraph.setEdgesHistory(deletedEdge, newEdges);
+        GraphModificationEvent splitEvent = new GraphModificationEvent(GraphModificationEvent.Type.EDGE_SPLITTED, deletedEdge, newEdges);
+        graph.getModificationProcessor().fire(splitEvent);
       }
     }
   }

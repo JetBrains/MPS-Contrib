@@ -327,7 +327,7 @@
     <nodeInfo nodeId="4660430665333281278" conceptFqName="jetbrains.mps.baseLanguage.structure.LocalVariableDeclarationStatement" fileName="LayeredLayouter.java" startLine="41" startPosition="99" endLine="42" endPosition="77" />
     <nodeInfo nodeId="4660430665333281289" conceptFqName="jetbrains.mps.baseLanguage.structure.ExpressionStatement" fileName="LayeredLayouter.java" startLine="42" startPosition="77" endLine="43" endPosition="118" />
     <nodeInfo nodeId="4660430665333281324" conceptFqName="jetbrains.mps.baseLanguage.structure.ExpressionStatement" fileName="LayeredLayouter.java" startLine="44" startPosition="107" endLine="45" endPosition="116" />
-    <nodeInfo nodeId="4660430665333281360" conceptFqName="jetbrains.mps.baseLanguage.structure.ExpressionStatement" fileName="LayeredLayouter.java" startLine="45" startPosition="116" endLine="46" endPosition="34" />
+    <nodeInfo nodeId="1763712338172354451" conceptFqName="jetbrains.mps.baseLanguage.structure.ExpressionStatement" fileName="LayeredLayouter.java" startLine="45" startPosition="116" endLine="46" endPosition="34" />
     <nodeInfo nodeId="4660430665333281368" conceptFqName="jetbrains.mps.baseLanguage.structure.ExpressionStatement" fileName="LayeredLayouter.java" startLine="47" startPosition="7" endLine="48" endPosition="56" />
     <nodeInfo nodeId="4660430665333281381" conceptFqName="jetbrains.mps.baseLanguage.structure.ExpressionStatement" fileName="LayeredLayouter.java" startLine="48" startPosition="56" endLine="49" endPosition="33" />
     <nodeInfo nodeId="4660430665333281563" conceptFqName="jetbrains.mps.baseLanguage.structure.ReturnStatement" fileName="LayeredLayouter.java" startLine="52" startPosition="38" endLine="53" endPosition="28" />
@@ -343,12 +343,12 @@
     <nodeInfo nodeId="190081711777474385" conceptFqName="jetbrains.mps.baseLanguage.structure.ExpressionStatement" fileName="LayeredLayouter.java" startLine="76" startPosition="44" endLine="77" endPosition="101" />
     <nodeInfo nodeId="190081711777474393" conceptFqName="jetbrains.mps.baseLanguage.structure.LocalVariableDeclarationStatement" fileName="LayeredLayouter.java" startLine="77" startPosition="101" endLine="78" endPosition="38" />
     <nodeInfo nodeId="190081711777474401" conceptFqName="jetbrains.mps.baseLanguage.structure.LocalVariableDeclarationStatement" fileName="LayeredLayouter.java" startLine="79" startPosition="64" endLine="80" endPosition="27" />
-    <nodeInfo nodeId="190081711777474409" conceptFqName="jetbrains.mps.baseLanguage.structure.ExpressionStatement" fileName="LayeredLayouter.java" startLine="81" startPosition="34" endLine="82" endPosition="47" />
-    <nodeInfo nodeId="920414672219864178" conceptFqName="jetbrains.mps.baseLanguage.structure.ExpressionStatement" fileName="LayeredLayouter.java" startLine="82" startPosition="47" endLine="83" endPosition="60" />
+    <nodeInfo nodeId="190081711777474409" conceptFqName="jetbrains.mps.baseLanguage.structure.ExpressionStatement" fileName="LayeredLayouter.java" startLine="81" startPosition="34" endLine="82" endPosition="50" />
+    <nodeInfo nodeId="920414672219864178" conceptFqName="jetbrains.mps.baseLanguage.structure.ExpressionStatement" fileName="LayeredLayouter.java" startLine="82" startPosition="50" endLine="83" endPosition="60" />
     <nodeInfo nodeId="190081711777474417" conceptFqName="jetbrains.mps.baseLanguage.structure.ExpressionStatement" fileName="LayeredLayouter.java" startLine="84" startPosition="20" endLine="85" endPosition="43" />
     <nodeInfo nodeId="190081711777478243" conceptFqName="jetbrains.mps.baseLanguage.structure.ExpressionStatement" fileName="LayeredLayouter.java" startLine="86" startPosition="13" endLine="87" endPosition="117" />
     <nodeInfo nodeId="190081711777474433" conceptFqName="jetbrains.mps.baseLanguage.structure.ExpressionStatement" fileName="LayeredLayouter.java" startLine="87" startPosition="117" endLine="88" endPosition="28" />
-    <nodeInfo nodeId="190081711777479280" conceptFqName="jetbrains.mps.baseLanguage.structure.ExpressionStatement" fileName="LayeredLayouter.java" startLine="93" startPosition="95" endLine="94" endPosition="36" />
+    <nodeInfo nodeId="1763712338172354469" conceptFqName="jetbrains.mps.baseLanguage.structure.ExpressionStatement" fileName="LayeredLayouter.java" startLine="93" startPosition="95" endLine="94" endPosition="36" />
     <nodeInfo nodeId="190081711777478281" conceptFqName="jetbrains.mps.baseLanguage.structure.ExpressionStatement" fileName="LayeredLayouter.java" startLine="95" startPosition="103" endLine="96" endPosition="31" />
     <nodeInfo nodeId="4660430665333281029" conceptFqName="jetbrains.mps.baseLanguage.structure.ReturnStatement" fileName="LayeredLayouter.java" startLine="98" startPosition="5" endLine="99" endPosition="25" />
     <nodeInfo nodeId="190081711777474415" conceptFqName="jetbrains.mps.baseLanguage.structure.BlockStatement" fileName="LayeredLayouter.java" startLine="84" startPosition="18" endLine="86" endPosition="13" />
@@ -442,8 +442,8 @@
     <nodeInfo nodeId="4660430665333276901" conceptFqName="jetbrains.mps.baseLanguage.structure.ExpressionStatement" fileName="DFSEdgeReverter.java" startLine="20" startPosition="45" endLine="21" endPosition="58" />
     <nodeInfo nodeId="4660430665333279444" conceptFqName="jetbrains.mps.baseLanguage.structure.ExpressionStatement" fileName="DFSEdgeReverter.java" startLine="21" startPosition="58" endLine="22" endPosition="17" />
     <nodeInfo nodeId="4660430665333277080" conceptFqName="jetbrains.mps.baseLanguage.structure.LocalVariableDeclarationStatement" fileName="DFSEdgeReverter.java" startLine="22" startPosition="17" endLine="23" endPosition="66" />
-    <nodeInfo nodeId="4660430665333277195" conceptFqName="jetbrains.mps.baseLanguage.structure.ExpressionStatement" fileName="DFSEdgeReverter.java" startLine="24" startPosition="55" endLine="25" endPosition="29" />
-    <nodeInfo nodeId="4660430665333277241" conceptFqName="jetbrains.mps.baseLanguage.structure.ExpressionStatement" fileName="DFSEdgeReverter.java" startLine="25" startPosition="29" endLine="26" endPosition="93" />
+    <nodeInfo nodeId="1763712338172354682" conceptFqName="jetbrains.mps.baseLanguage.structure.ExpressionStatement" fileName="DFSEdgeReverter.java" startLine="24" startPosition="55" endLine="25" endPosition="29" />
+    <nodeInfo nodeId="1763712338172354691" conceptFqName="jetbrains.mps.baseLanguage.structure.ExpressionStatement" fileName="DFSEdgeReverter.java" startLine="25" startPosition="29" endLine="26" endPosition="98" />
     <nodeInfo nodeId="4660430665333276910" conceptFqName="jetbrains.mps.baseLanguage.structure.ReturnStatement" fileName="DFSEdgeReverter.java" startLine="27" startPosition="5" endLine="28" endPosition="20" />
     <nodeInfo nodeId="4660430665333279410" conceptFqName="jetbrains.mps.baseLanguage.structure.LocalVariableDeclarationStatement" fileName="DFSEdgeReverter.java" startLine="32" startPosition="54" endLine="33" endPosition="35" />
     <nodeInfo nodeId="4660430665333279416" conceptFqName="jetbrains.mps.baseLanguage.structure.LocalVariableDeclarationStatement" fileName="DFSEdgeReverter.java" startLine="33" startPosition="35" endLine="34" endPosition="63" />
@@ -456,7 +456,7 @@
     <scopeInfo nodeId="4660430665333276853" fileName="DFSEdgeReverter.java" startLine="17" startPosition="28" endLine="17" endPosition="28" />
     <scopeInfo nodeId="4660430665333279426" fileName="DFSEdgeReverter.java" startLine="35" startPosition="30" endLine="36" endPosition="55" />
     <scopeInfo nodeId="4660430665333276850" fileName="DFSEdgeReverter.java" startLine="16" startPosition="0" endLine="18" endPosition="3" />
-    <scopeInfo nodeId="4660430665333277097" fileName="DFSEdgeReverter.java" startLine="24" startPosition="55" endLine="26" endPosition="93" />
+    <scopeInfo nodeId="4660430665333277097" fileName="DFSEdgeReverter.java" startLine="24" startPosition="55" endLine="26" endPosition="98" />
     <scopeInfo nodeId="4660430665333277094" fileName="DFSEdgeReverter.java" startLine="23" startPosition="66" endLine="27" endPosition="5" />
     <scopeInfo nodeId="4660430665333279403" fileName="DFSEdgeReverter.java" startLine="32" startPosition="54" endLine="37" endPosition="5">
       <varInfo nodeId="4660430665333279417" varName="state" />
@@ -700,9 +700,9 @@
     <nodeInfo nodeId="920414672219872861" conceptFqName="jetbrains.mps.baseLanguage.structure.LocalVariableDeclarationStatement" fileName="BKCoordinatePlacer.java" startLine="126" startPosition="37" endLine="127" endPosition="28" />
     <nodeInfo nodeId="6220135881201373319" conceptFqName="jetbrains.mps.baseLanguage.structure.LocalVariableDeclarationStatement" fileName="BKCoordinatePlacer.java" startLine="127" startPosition="28" endLine="128" endPosition="90" />
     <nodeInfo nodeId="6220135881201373347" conceptFqName="jetbrains.mps.baseLanguage.structure.LocalVariableDeclarationStatement" fileName="BKCoordinatePlacer.java" startLine="129" startPosition="38" endLine="130" endPosition="40" />
-    <nodeInfo nodeId="6220135881201373361" conceptFqName="jetbrains.mps.baseLanguage.structure.ExpressionStatement" fileName="BKCoordinatePlacer.java" startLine="131" startPosition="59" endLine="132" endPosition="72" />
+    <nodeInfo nodeId="6220135881201373361" conceptFqName="jetbrains.mps.baseLanguage.structure.ExpressionStatement" fileName="BKCoordinatePlacer.java" startLine="131" startPosition="59" endLine="132" endPosition="75" />
     <nodeInfo nodeId="6220135881201373374" conceptFqName="jetbrains.mps.baseLanguage.structure.LocalVariableDeclarationStatement" fileName="BKCoordinatePlacer.java" startLine="133" startPosition="9" endLine="134" endPosition="100" />
-    <nodeInfo nodeId="6220135881201373387" conceptFqName="jetbrains.mps.baseLanguage.structure.ExpressionStatement" fileName="BKCoordinatePlacer.java" startLine="135" startPosition="32" endLine="136" endPosition="44" />
+    <nodeInfo nodeId="1763712338172354723" conceptFqName="jetbrains.mps.baseLanguage.structure.ExpressionStatement" fileName="BKCoordinatePlacer.java" startLine="135" startPosition="32" endLine="136" endPosition="54" />
     <nodeInfo nodeId="6220135881201373392" conceptFqName="jetbrains.mps.baseLanguage.structure.ExpressionStatement" fileName="BKCoordinatePlacer.java" startLine="137" startPosition="9" endLine="138" endPosition="33" />
     <nodeInfo nodeId="920414672219872826" conceptFqName="jetbrains.mps.baseLanguage.structure.ReturnStatement" fileName="BKCoordinatePlacer.java" startLine="140" startPosition="5" endLine="141" endPosition="22" />
     <nodeInfo nodeId="4519409331094704499" conceptFqName="jetbrains.mps.baseLanguage.structure.ExpressionStatement" fileName="BKCoordinatePlacer.java" startLine="144" startPosition="22" endLine="145" endPosition="49" />
@@ -847,8 +847,8 @@
     <scopeInfo nodeId="6220135881201379181" fileName="BKCoordinatePlacer.java" startLine="108" startPosition="67" endLine="109" endPosition="155" />
     <scopeInfo nodeId="6220135881201379199" fileName="BKCoordinatePlacer.java" startLine="113" startPosition="71" endLine="114" endPosition="78" />
     <scopeInfo nodeId="6220135881201379234" fileName="BKCoordinatePlacer.java" startLine="116" startPosition="67" endLine="117" endPosition="166" />
-    <scopeInfo nodeId="6220135881201373360" fileName="BKCoordinatePlacer.java" startLine="131" startPosition="59" endLine="132" endPosition="72" />
-    <scopeInfo nodeId="6220135881201373386" fileName="BKCoordinatePlacer.java" startLine="135" startPosition="32" endLine="136" endPosition="44" />
+    <scopeInfo nodeId="6220135881201373360" fileName="BKCoordinatePlacer.java" startLine="131" startPosition="59" endLine="132" endPosition="75" />
+    <scopeInfo nodeId="6220135881201373386" fileName="BKCoordinatePlacer.java" startLine="135" startPosition="32" endLine="136" endPosition="54" />
     <scopeInfo nodeId="4519409331094704553" fileName="BKCoordinatePlacer.java" startLine="155" startPosition="70" endLine="156" endPosition="115" />
     <scopeInfo nodeId="5180427534211891961" fileName="BKCoordinatePlacer.java" startLine="165" startPosition="31" endLine="166" endPosition="51" />
     <scopeInfo nodeId="5180427534211891994" fileName="BKCoordinatePlacer.java" startLine="170" startPosition="48" endLine="171" endPosition="59" />

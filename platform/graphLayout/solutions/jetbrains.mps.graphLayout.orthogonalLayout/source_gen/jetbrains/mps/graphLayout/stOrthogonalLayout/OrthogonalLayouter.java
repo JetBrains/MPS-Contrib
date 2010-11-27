@@ -41,10 +41,12 @@ public class OrthogonalLayouter implements IPointLayouter {
     }
     for (Node node : ListSequence.fromList(graph.getNodes())) {
       Graph subgraph = ListSequence.fromList(subgraphs).getElement(MapSequence.fromMap(components).get(node));
-      MapSequence.fromMap(newNodes).put(node, subgraph.addNode());
+      MapSequence.fromMap(newNodes).put(node, subgraph.createNode());
     }
     for (Edge edge : ListSequence.fromList(graph.getEdges())) {
-      MapSequence.fromMap(newNodes).get(edge.getSource()).addEdgeTo(MapSequence.fromMap(newNodes).get(edge.getTarget()));
+      Node source = MapSequence.fromMap(newNodes).get(edge.getSource());
+      Graph subgraph = source.getGraph();
+      subgraph.connect(source, MapSequence.fromMap(newNodes).get(edge.getTarget()));
     }
     /*
       for (Graph subgraph : ListSequence.fromList(subgraphs)) {
