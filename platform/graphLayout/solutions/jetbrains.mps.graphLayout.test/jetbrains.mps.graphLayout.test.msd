@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<solution name="jetbrains.mps.graphLayout.test" uuid="1cf9ab03-28e6-49cc-b765-555cd6dcfc28" extenallyVisible="true" compileInMPS="true" java-stubs-enabled="false">
+<solution name="jetbrains.mps.graphLayout.test" uuid="1cf9ab03-28e6-49cc-b765-555cd6dcfc28" compileInMPS="true" java-stubs-enabled="false">
   <models>
     <modelRoot path="${solution_descriptor}/" namespacePrefix="" />
   </models>
@@ -10,6 +10,7 @@
     <dependency reexport="false">7fd530a6-5071-4af8-8b0f-7cfb35109601(jetbrains.mps.graphLayout.planarization)</dependency>
     <dependency reexport="false">f08465e1-63a6-49b8-beae-ae52a38f3a7a(jetbrains.mps.graphLayout.orthogonalLayout)</dependency>
     <dependency reexport="false">dd0b904b-7c6b-48aa-8557-baf05cd83f66(jetbrains.mps.graphLayout.geom)</dependency>
+    <dependency reexport="false">6354ebe7-c22a-4a0f-ac54-50b52ab9b065(JDK)</dependency>
   </dependencies>
   <usedLanguages>
     <usedLanguage>f61473f9-130f-42f6-b98d-6c438812c2f6(jetbrains.mps.baseLanguage.unitTest)</usedLanguage>

@@ -106,7 +106,7 @@
     <classNode dependClassName="jetbrains.mps.graphLayout.graph.IEdge" />
     <classNode dependClassName="jetbrains.mps.graphLayout.graph.Node" />
     <classNode dependClassName="jetbrains.mps.graphLayout.graphLayout.GraphLayout" />
-    <classNode dependClassName="jetbrains.mps.graphLayout.graphLayout.LayoutTransform" />
+    <classNode dependClassName="jetbrains.mps.graphLayout.graphLayout.GraphLayoutFactory" />
     <classNode dependClassName="jetbrains.mps.graphLayout.intGeom2D.Dimension" />
     <classNode dependClassName="jetbrains.mps.graphLayout.intGeom2D.Point" />
     <classNode dependClassName="jetbrains.mps.graphLayout.intGeom2D.Rectangle" />

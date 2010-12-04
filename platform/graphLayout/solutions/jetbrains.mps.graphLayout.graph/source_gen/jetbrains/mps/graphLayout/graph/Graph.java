@@ -92,13 +92,11 @@ public class Graph implements IGraph {
   }
 
   public List<Edge> splitEdge(Edge edge) {
-    myProcessor.suspend();
     edge.removeFromGraph();
     List<Edge> newEdges = ListSequence.fromList(new ArrayList<Edge>(2));
     Node middleNode = createDummyNode();
     ListSequence.fromList(newEdges).addElement(connect(edge.getSource(), middleNode));
     ListSequence.fromList(newEdges).addElement(connect(middleNode, edge.getTarget()));
-    myProcessor.resume();
     myProcessor.fire(new GraphModificationEvent(GraphModificationEvent.Type.EDGE_SPLITTED, edge, newEdges));
     return newEdges;
   }
@@ -134,5 +132,9 @@ public class Graph implements IGraph {
 
   public GraphModificationProcessor getModificationProcessor() {
     return myProcessor;
+  }
+
+  public Graph createNew() {
+    return new Graph();
   }
 }

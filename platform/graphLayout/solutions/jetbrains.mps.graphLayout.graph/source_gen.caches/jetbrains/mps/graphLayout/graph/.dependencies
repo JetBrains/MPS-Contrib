@@ -1,18 +1,45 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <dependenciesRoot>
-  <dependency className="jetbrains.mps.graphLayout.graph.ClusteredGraph" file="ClusteredGraph.java">
-    <classNode dependClassName="java.lang.Iterable" />
+  <dependency className="jetbrains.mps.graphLayout.graph.ClusterGraphCopier" file="ClusterGraphCopier.java">
+    <classNode dependClassName="java.lang.Override" />
     <classNode dependClassName="java.util.HashMap" />
     <classNode dependClassName="java.util.HashSet" />
+    <classNode dependClassName="java.util.List" />
+    <classNode dependClassName="java.util.Map" />
+    <classNode dependClassName="java.util.Set" />
+    <classNode dependClassName="jetbrains.mps.graphLayout.graph.ClusteredGraph" />
+    <classNode dependClassName="jetbrains.mps.graphLayout.graph.Graph" />
+    <classNode dependClassName="jetbrains.mps.graphLayout.graph.INode" />
+    <classNode dependClassName="jetbrains.mps.graphLayout.graph.Node" />
+    <classNode dependClassName="jetbrains.mps.graphLayout.graph.Tree" />
+    <classNode dependClassName="jetbrains.mps.graphLayout.util.Filter" />
+    <classNode dependClassName="jetbrains.mps.internal.collections.runtime.IWhereFilter" />
+    <classNode dependClassName="jetbrains.mps.internal.collections.runtime.ListSequence" />
+    <classNode dependClassName="jetbrains.mps.internal.collections.runtime.MapSequence" />
+    <classNode dependClassName="jetbrains.mps.internal.collections.runtime.SetSequence" />
+    <classNode extendsClassName="jetbrains.mps.graphLayout.graph.GraphCopier" />
+  </dependency>
+  <dependency className="jetbrains.mps.graphLayout.graph.ClusterNodesAdditionListener" file="ClusterNodesAdditionListener.java">
+    <classNode dependClassName="jetbrains.mps.graphLayout.graph.ClusteredGraph" />
+    <classNode dependClassName="jetbrains.mps.graphLayout.graph.Graph" />
+    <classNode dependClassName="jetbrains.mps.graphLayout.graph.GraphModificationEvent" />
+    <classNode dependClassName="jetbrains.mps.graphLayout.graph.Node" />
+    <classNode extendsClassName="jetbrains.mps.graphLayout.graph.IGraphModificationListener" />
+  </dependency>
+  <dependency className="jetbrains.mps.graphLayout.graph.ClusteredGraph" file="ClusteredGraph.java">
+    <classNode dependClassName="java.lang.Override" />
+    <classNode dependClassName="java.util.HashMap" />
+    <classNode dependClassName="java.util.LinkedHashSet" />
+    <classNode dependClassName="java.util.List" />
     <classNode dependClassName="java.util.Map" />
     <classNode dependClassName="java.util.Set" />
     <classNode dependClassName="jetbrains.mps.graphLayout.graph.Edge" />
     <classNode dependClassName="jetbrains.mps.graphLayout.graph.INode" />
     <classNode dependClassName="jetbrains.mps.graphLayout.graph.Node" />
+    <classNode dependClassName="jetbrains.mps.graphLayout.graph.Tree" />
     <classNode dependClassName="jetbrains.mps.internal.collections.runtime.ISelector" />
     <classNode dependClassName="jetbrains.mps.internal.collections.runtime.ListSequence" />
     <classNode dependClassName="jetbrains.mps.internal.collections.runtime.MapSequence" />
-    <classNode dependClassName="jetbrains.mps.internal.collections.runtime.Sequence" />
     <classNode dependClassName="jetbrains.mps.internal.collections.runtime.SetSequence" />
     <classNode extendsClassName="jetbrains.mps.graphLayout.graph.Graph" />
     <classNode extendsClassName="jetbrains.mps.graphLayout.graph.IClusteredGraph" />
@@ -58,6 +85,26 @@
     <classNode dependClassName="jetbrains.mps.internal.collections.runtime.ListSequence" />
     <classNode extendsClassName="jetbrains.mps.graphLayout.graph.IGraph" />
   </dependency>
+  <dependency className="jetbrains.mps.graphLayout.graph.GraphCopier" file="GraphCopier.java">
+    <classNode dependClassName="java.util.HashMap" />
+    <classNode dependClassName="java.util.Map" />
+    <classNode dependClassName="java.util.Set" />
+    <classNode dependClassName="jetbrains.mps.graphLayout.graph.Edge" />
+    <classNode dependClassName="jetbrains.mps.graphLayout.graph.Graph" />
+    <classNode dependClassName="jetbrains.mps.graphLayout.graph.IEdge" />
+    <classNode dependClassName="jetbrains.mps.graphLayout.graph.IGraph" />
+    <classNode dependClassName="jetbrains.mps.graphLayout.graph.INode" />
+    <classNode dependClassName="jetbrains.mps.graphLayout.graph.Node" />
+    <classNode dependClassName="jetbrains.mps.graphLayout.util.DefaultFilter" />
+    <classNode dependClassName="jetbrains.mps.graphLayout.util.Filter" />
+    <classNode dependClassName="jetbrains.mps.internal.collections.runtime.MapSequence" />
+  </dependency>
+  <dependency className="jetbrains.mps.graphLayout.graph.GraphCopierFactory" file="GraphCopierFactory.java">
+    <classNode dependClassName="jetbrains.mps.graphLayout.graph.ClusterGraphCopier" />
+    <classNode dependClassName="jetbrains.mps.graphLayout.graph.ClusteredGraph" />
+    <classNode dependClassName="jetbrains.mps.graphLayout.graph.GraphCopier" />
+    <classNode dependClassName="jetbrains.mps.graphLayout.graph.IGraph" />
+  </dependency>
   <dependency className="jetbrains.mps.graphLayout.graph.GraphModificationEvent" file="GraphModificationEvent.java">
     <classNode dependClassName="java.util.List" />
     <classNode dependClassName="jetbrains.mps.graphLayout.graph.Edge" />
@@ -70,8 +117,22 @@
     <classNode dependClassName="jetbrains.mps.graphLayout.graph.IGraphModificationListener" />
     <classNode dependClassName="jetbrains.mps.internal.collections.runtime.SetSequence" />
   </dependency>
+  <dependency className="jetbrains.mps.graphLayout.graph.GroupedGraphModificationSynchronizer" file="GroupedGraphModificationSynchronizer.java">
+    <classNode dependClassName="java.lang.RuntimeException" />
+    <classNode dependClassName="java.util.ArrayList" />
+    <classNode dependClassName="java.util.HashMap" />
+    <classNode dependClassName="java.util.List" />
+    <classNode dependClassName="java.util.Map" />
+    <classNode dependClassName="jetbrains.mps.graphLayout.graph.Edge" />
+    <classNode dependClassName="jetbrains.mps.graphLayout.graph.Graph" />
+    <classNode dependClassName="jetbrains.mps.graphLayout.graph.GraphModificationEvent" />
+    <classNode dependClassName="jetbrains.mps.graphLayout.graph.Node" />
+    <classNode dependClassName="jetbrains.mps.internal.collections.runtime.ListSequence" />
+    <classNode dependClassName="jetbrains.mps.internal.collections.runtime.MapSequence" />
+    <classNode extendsClassName="jetbrains.mps.graphLayout.graph.IGraphModificationListener" />
+  </dependency>
   <dependency className="jetbrains.mps.graphLayout.graph.IClusteredGraph" file="IClusteredGraph.java">
-    <classNode dependClassName="java.lang.Iterable" />
+    <classNode dependClassName="java.util.Set" />
     <classNode dependClassName="jetbrains.mps.graphLayout.graph.INode" />
     <classNode extendsClassName="jetbrains.mps.graphLayout.graph.IGraph" />
   </dependency>
@@ -100,6 +161,15 @@
     <classNode dependClassName="jetbrains.mps.internal.collections.runtime.ListSequence" />
     <classNode dependClassName="jetbrains.mps.internal.collections.runtime.backports.LinkedList" />
     <classNode extendsClassName="jetbrains.mps.graphLayout.graph.INode" />
+  </dependency>
+  <dependency className="jetbrains.mps.graphLayout.graph.Tree" file="Tree.java">
+    <classNode dependClassName="java.lang.Override" />
+    <classNode dependClassName="java.util.List" />
+    <classNode dependClassName="jetbrains.mps.graphLayout.graph.Edge" />
+    <classNode dependClassName="jetbrains.mps.graphLayout.graph.Node" />
+    <classNode dependClassName="jetbrains.mps.internal.collections.runtime.ISelector" />
+    <classNode dependClassName="jetbrains.mps.internal.collections.runtime.ListSequence" />
+    <classNode extendsClassName="jetbrains.mps.graphLayout.graph.Graph" />
   </dependency>
 </dependenciesRoot>
 

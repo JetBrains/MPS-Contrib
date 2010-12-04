@@ -6,10 +6,9 @@ import javax.swing.JPanel;
 import java.awt.Dimension;
 import javax.swing.JTextArea;
 import jetbrains.mps.graphLayout.flowOrthogonalLayout.AbstractOrthogonalFlowLayouter;
-import jetbrains.mps.graphLayout.graphLayout.IGraphLayout;
+import jetbrains.mps.graphLayout.graphLayout.GraphLayout;
 import javax.swing.JTextField;
 import java.awt.GridBagLayout;
-import jetbrains.mps.graphLayout.stOrthogonalLayout.RectOrthogonalLayouter;
 import jetbrains.mps.graphLayout.flowOrthogonalLayout.OrthogonalFlowLayouter;
 import java.awt.GridBagConstraints;
 import javax.swing.BorderFactory;
@@ -22,17 +21,15 @@ import javax.swing.JOptionPane;
 import java.util.List;
 import jetbrains.mps.graphLayout.graph.Edge;
 import jetbrains.mps.internal.collections.runtime.ListSequence;
-import java.util.Scanner;
 import java.util.Map;
 import jetbrains.mps.graphLayout.graph.Node;
 import jetbrains.mps.internal.collections.runtime.MapSequence;
 import java.util.HashMap;
-import jetbrains.mps.internal.collections.runtime.IWhereFilter;
 import jetbrains.mps.graphLayout.graphLayout.LayoutInfo;
 import jetbrains.mps.internal.collections.runtime.SetSequence;
 import orthogonalLayoutTest.OrthogonalLayoutChecker;
-import jetbrains.mps.graphLayout.graphLayout.GraphLayout;
-import jetbrains.mps.graphLayout.graphLayout.LayoutTransform;
+import java.util.Scanner;
+import jetbrains.mps.internal.collections.runtime.IWhereFilter;
 import javax.swing.JScrollPane;
 import javax.swing.JFrame;
 import javax.swing.SwingUtilities;
@@ -49,9 +46,9 @@ public class OrthogonalLayoutTestPanel extends JPanel {
 
   private JTextArea myTextArea;
   private OrthogonalLayoutTestPanel.MyGraphLabel myGraphLabel;
-  private AbstractOrthogonalFlowLayouter myLayouter;
-  private LayoutPainter myPainter;
-  private IGraphLayout myCurrentLayout;
+  protected AbstractOrthogonalFlowLayouter myLayouter;
+  protected LayoutPainter myPainter;
+  private GraphLayout myCurrentLayout;
   private JTextField myNumEdgesField;
   private JTextField myNumNodesField;
   private OrthogonalLayoutTestPanel.MyLayoutChoice myLayoutChoice;
@@ -63,15 +60,13 @@ public class OrthogonalLayoutTestPanel extends JPanel {
     createLayoutChoiceButtons();
     createTextPanel();
     createGraphPanel();
-    /*
-      myLayouter = new RectOrthogonalLayouter();
-    */
+    initLayout();
+    myCurrentLayout = null;
+  }
+
+  protected void initLayout() {
     myLayouter = new OrthogonalFlowLayouter();
     myLayouter.setAvoidLabelCrossings(true);
-    /*
-      myLayouter.setEdgeDistance(20);
-    */
-    myCurrentLayout = null;
     myPainter = new LayoutPainter();
   }
 
@@ -144,34 +139,11 @@ public class OrthogonalLayoutTestPanel extends JPanel {
   }
 
   private void layoutGraph() {
-    /*
-      myLayouter.setLayoutLevel(myLayoutChoice.getSelectedLayoutLavel());
-    */
-    Scanner scanner = new Scanner(myTextArea.getText());
     Map<Node, jetbrains.mps.graphLayout.intGeom2D.Dimension> nodeDimensions = MapSequence.fromMap(new HashMap<Node, jetbrains.mps.graphLayout.intGeom2D.Dimension>());
     Map<Edge, jetbrains.mps.graphLayout.intGeom2D.Dimension> edgeDimensions = MapSequence.fromMap(new HashMap<Edge, jetbrains.mps.graphLayout.intGeom2D.Dimension>());
     Graph g = null;
     try {
-      g = GraphIO.scanGraph(scanner);
-      int numNodeSizes = scanner.nextInt();
-      for (int i = 0; i < numNodeSizes; i++) {
-        Node node = g.getNode(scanner.nextInt());
-        MapSequence.fromMap(nodeDimensions).put(node, new jetbrains.mps.graphLayout.intGeom2D.Dimension(scanner.nextInt(), scanner.nextInt()));
-      }
-      int edgeLabelSizes = scanner.nextInt();
-      for (int i = 0; i < edgeLabelSizes; i++) {
-        Node source = g.getNode(scanner.nextInt());
-        final Node target = g.getNode(scanner.nextInt());
-        Edge edge = ListSequence.fromList(source.getOutEdges()).where(new IWhereFilter<Edge>() {
-          public boolean accept(Edge it) {
-            return it.getTarget() == target;
-          }
-        }).first();
-        if (edge == null) {
-          throw new IllegalArgumentException("there is no edge " + source + " -> " + target);
-        }
-        MapSequence.fromMap(edgeDimensions).put(edge, new jetbrains.mps.graphLayout.intGeom2D.Dimension(scanner.nextInt(), scanner.nextInt()));
-      }
+      g = readGraph(nodeDimensions, edgeDimensions);
     } catch (IllegalArgumentException e) {
       JOptionPane.showMessageDialog(this, "something is wrong in graph notation...\n" + e);
     }
@@ -199,7 +171,41 @@ public class OrthogonalLayoutTestPanel extends JPanel {
       /*
         OrthogonalLayoutChecker.checkLayout(((GraphLayout) myCurrentLayout));
       */
-      myCurrentLayout = LayoutTransform.shift(((GraphLayout) myCurrentLayout), 20, 20);
+      myCurrentLayout = myCurrentLayout.shift(20, 20);
+    }
+  }
+
+  protected Graph readGraph(Map<Node, jetbrains.mps.graphLayout.intGeom2D.Dimension> nodeSizes, Map<Edge, jetbrains.mps.graphLayout.intGeom2D.Dimension> edgeSizes) {
+    Graph g;
+    Scanner scanner = new Scanner(myTextArea.getText());
+    g = this.readGraph(scanner);
+    this.readSizes(scanner, g, nodeSizes, edgeSizes);
+    return g;
+  }
+
+  protected Graph readGraph(Scanner scanner) {
+    return GraphIO.scanGraph(scanner);
+  }
+
+  protected void readSizes(Scanner scanner, Graph g, Map<Node, jetbrains.mps.graphLayout.intGeom2D.Dimension> nodeSizes, Map<Edge, jetbrains.mps.graphLayout.intGeom2D.Dimension> edgeSizes) {
+    int numNodeSizes = scanner.nextInt();
+    for (int i = 0; i < numNodeSizes; i++) {
+      Node node = g.getNode(scanner.nextInt());
+      MapSequence.fromMap(nodeSizes).put(node, new jetbrains.mps.graphLayout.intGeom2D.Dimension(scanner.nextInt(), scanner.nextInt()));
+    }
+    int edgeLabelSizes = scanner.nextInt();
+    for (int i = 0; i < edgeLabelSizes; i++) {
+      Node source = g.getNode(scanner.nextInt());
+      final Node target = g.getNode(scanner.nextInt());
+      Edge edge = ListSequence.fromList(source.getOutEdges()).where(new IWhereFilter<Edge>() {
+        public boolean accept(Edge it) {
+          return it.getTarget() == target;
+        }
+      }).first();
+      if (edge == null) {
+        throw new IllegalArgumentException("there is no edge " + source + " -> " + target);
+      }
+      MapSequence.fromMap(edgeSizes).put(edge, new jetbrains.mps.graphLayout.intGeom2D.Dimension(scanner.nextInt(), scanner.nextInt()));
     }
   }
 
@@ -229,11 +235,11 @@ public class OrthogonalLayoutTestPanel extends JPanel {
     this.add(new JScrollPane(myGraphLabel), c);
   }
 
-  private static void create() {
+  protected void create() {
     JFrame frame = new JFrame();
     frame.setDefaultCloseOperation(JFrame.EXIT_ON_CLOSE);
-    frame.add(new OrthogonalLayoutTestPanel());
-    frame.setMinimumSize(OrthogonalLayoutTestPanel.FRAME_DIMENSION);
+    frame.add(this);
+    frame.setMinimumSize(FRAME_DIMENSION);
     frame.pack();
     frame.setVisible(true);
   }
@@ -241,7 +247,7 @@ public class OrthogonalLayoutTestPanel extends JPanel {
   public static void main(String[] args) {
     SwingUtilities.invokeLater(new Runnable() {
       public void run() {
-        create();
+        new OrthogonalLayoutTestPanel().create();
       }
     });
   }

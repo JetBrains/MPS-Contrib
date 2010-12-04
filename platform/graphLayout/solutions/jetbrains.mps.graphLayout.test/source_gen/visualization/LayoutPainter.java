@@ -19,13 +19,7 @@ public class LayoutPainter {
     IGraph graph = layout.getGraph();
     for (IEdge edge : graph.getEdges()) {
       Iterable<Point> route = layout.getEdgeLayout(edge);
-      Point prev = null;
-      for (Point point : Sequence.fromIterable(route)) {
-        if (prev != null) {
-          g.drawLine(prev.x, prev.y, point.x, point.y);
-        }
-        prev = point;
-      }
+      this.drawPolyline(route, g);
       g.fillOval(Sequence.fromIterable(route).first().x - 2, Sequence.fromIterable(route).first().y - 2, 4, 4);
       g.fillOval(Sequence.fromIterable(route).last().x - 2, Sequence.fromIterable(route).last().y - 2, 4, 4);
     }
@@ -40,6 +34,16 @@ public class LayoutPainter {
         g.drawRect(rect.x, rect.y, rect.width, rect.height);
         g.drawString(edge.toString(), rect.x + 5, rect.y + 12);
       }
+    }
+  }
+
+  protected void drawPolyline(Iterable<Point> polyline, Graphics g) {
+    Point prev = null;
+    for (Point point : Sequence.fromIterable(polyline)) {
+      if (prev != null) {
+        g.drawLine(prev.x, prev.y, point.x, point.y);
+      }
+      prev = point;
     }
   }
 }

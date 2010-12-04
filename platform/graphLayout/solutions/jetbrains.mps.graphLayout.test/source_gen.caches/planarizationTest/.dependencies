@@ -52,14 +52,19 @@
     <classNode dependClassName="jetbrains.mps.graphLayout.planarGraph.Face" />
     <classNode dependClassName="jetbrains.mps.internal.collections.runtime.ListSequence" />
   </dependency>
-  <dependency className="planarizationTest.ClusterEmbeddingProcessor_Test" file="ClusterEmbeddingProcessor_Test.java">
+  <dependency className="planarizationTest.ClusterEmbeddingConstructor_Test" file="ClusterEmbeddingConstructor_Test.java">
     <classNode dependClassName="java.lang.Exception" />
     <classNode dependClassName="java.lang.String" />
-    <classNode dependClassName="java.util.ArrayList" />
+    <classNode dependClassName="java.lang.System" />
+    <classNode dependClassName="java.util.List" />
     <classNode dependClassName="jetbrains.mps.graphLayout.graph.ClusteredGraph" />
-    <classNode dependClassName="jetbrains.mps.graphLayout.graph.INode" />
-    <classNode dependClassName="jetbrains.mps.graphLayout.planarization.ClusterEmbeddingProcessor" />
+    <classNode dependClassName="jetbrains.mps.graphLayout.graph.Edge" />
+    <classNode dependClassName="jetbrains.mps.graphLayout.graph.EdgesHistoryManager" />
+    <classNode dependClassName="jetbrains.mps.graphLayout.graph.Node" />
+    <classNode dependClassName="jetbrains.mps.graphLayout.planarGraph.EmbeddedGraph" />
+    <classNode dependClassName="jetbrains.mps.graphLayout.planarization.ClusterEmbeddingConstructor" />
     <classNode dependClassName="jetbrains.mps.internal.collections.runtime.ListSequence" />
+    <classNode dependClassName="planarizationTest.CheckEmbeddedGraph" />
     <classNode dependClassName="visualization.GraphIO" />
     <classNode extendsClassName="junit.framework.TestCase" />
   </dependency>

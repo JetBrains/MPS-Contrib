@@ -631,10 +631,10 @@
     <nodeInfo nodeId="5639900666367311036" conceptFqName="jetbrains.mps.baseLanguage.structure.LocalVariableDeclarationStatement" fileName="RectOrthogonalLayouter.java" startLine="87" startPosition="5" endLine="88" endPosition="101" />
     <nodeInfo nodeId="5639900666367310695" conceptFqName="jetbrains.mps.baseLanguage.structure.LocalVariableDeclarationStatement" fileName="RectOrthogonalLayouter.java" startLine="88" startPosition="101" endLine="89" endPosition="19" />
     <nodeInfo nodeId="5639900666367310664" conceptFqName="jetbrains.mps.baseLanguage.structure.LocalVariableDeclarationStatement" fileName="RectOrthogonalLayouter.java" startLine="90" startPosition="61" endLine="91" endPosition="151" />
-    <nodeInfo nodeId="5639900666367310926" conceptFqName="jetbrains.mps.baseLanguage.structure.ExpressionStatement" fileName="RectOrthogonalLayouter.java" startLine="91" startPosition="151" endLine="92" endPosition="62" />
-    <nodeInfo nodeId="5639900666367310939" conceptFqName="jetbrains.mps.baseLanguage.structure.ExpressionStatement" fileName="RectOrthogonalLayouter.java" startLine="92" startPosition="62" endLine="93" endPosition="68" />
+    <nodeInfo nodeId="3805314409601883808" conceptFqName="jetbrains.mps.baseLanguage.structure.ExpressionStatement" fileName="RectOrthogonalLayouter.java" startLine="91" startPosition="151" endLine="92" endPosition="45" />
+    <nodeInfo nodeId="5639900666367310939" conceptFqName="jetbrains.mps.baseLanguage.structure.ExpressionStatement" fileName="RectOrthogonalLayouter.java" startLine="92" startPosition="45" endLine="93" endPosition="68" />
     <nodeInfo nodeId="5639900666367310950" conceptFqName="jetbrains.mps.baseLanguage.structure.ExpressionStatement" fileName="RectOrthogonalLayouter.java" startLine="93" startPosition="68" endLine="94" endPosition="100" />
-    <nodeInfo nodeId="5639900666367311022" conceptFqName="jetbrains.mps.baseLanguage.structure.LocalVariableDeclarationStatement" fileName="RectOrthogonalLayouter.java" startLine="95" startPosition="5" endLine="96" endPosition="48" />
+    <nodeInfo nodeId="5639900666367311022" conceptFqName="jetbrains.mps.baseLanguage.structure.LocalVariableDeclarationStatement" fileName="RectOrthogonalLayouter.java" startLine="95" startPosition="5" endLine="96" endPosition="69" />
     <nodeInfo nodeId="5639900666367311113" conceptFqName="jetbrains.mps.baseLanguage.structure.LocalVariableDeclarationStatement" fileName="RectOrthogonalLayouter.java" startLine="97" startPosition="63" endLine="98" endPosition="68" />
     <nodeInfo nodeId="5639900666367311123" conceptFqName="jetbrains.mps.baseLanguage.structure.ExpressionStatement" fileName="RectOrthogonalLayouter.java" startLine="98" startPosition="68" endLine="99" endPosition="139" />
     <nodeInfo nodeId="8680836410351702431" conceptFqName="jetbrains.mps.baseLanguage.structure.LocalVariableDeclarationStatement" fileName="RectOrthogonalLayouter.java" startLine="101" startPosition="63" endLine="102" endPosition="134" />
@@ -642,8 +642,8 @@
     <nodeInfo nodeId="8680836410351702422" conceptFqName="jetbrains.mps.baseLanguage.structure.ExpressionStatement" fileName="RectOrthogonalLayouter.java" startLine="104" startPosition="61" endLine="105" endPosition="148" />
     <nodeInfo nodeId="6160477238666742495" conceptFqName="jetbrains.mps.baseLanguage.structure.ReturnStatement" fileName="RectOrthogonalLayouter.java" startLine="108" startPosition="29" endLine="109" endPosition="102" />
     <nodeInfo nodeId="6160477238666742504" conceptFqName="jetbrains.mps.baseLanguage.structure.ReturnStatement" fileName="RectOrthogonalLayouter.java" startLine="110" startPosition="12" endLine="111" endPosition="20" />
-    <nodeInfo nodeId="5639900666367760117" conceptFqName="jetbrains.mps.baseLanguage.structure.LocalVariableDeclarationStatement" fileName="RectOrthogonalLayouter.java" startLine="116" startPosition="35" endLine="117" endPosition="50" />
-    <nodeInfo nodeId="5639900666367760153" conceptFqName="jetbrains.mps.baseLanguage.structure.LocalVariableDeclarationStatement" fileName="RectOrthogonalLayouter.java" startLine="117" startPosition="50" endLine="118" endPosition="35" />
+    <nodeInfo nodeId="5639900666367760117" conceptFqName="jetbrains.mps.baseLanguage.structure.LocalVariableDeclarationStatement" fileName="RectOrthogonalLayouter.java" startLine="116" startPosition="35" endLine="117" endPosition="71" />
+    <nodeInfo nodeId="5639900666367760153" conceptFqName="jetbrains.mps.baseLanguage.structure.LocalVariableDeclarationStatement" fileName="RectOrthogonalLayouter.java" startLine="117" startPosition="71" endLine="118" endPosition="35" />
     <nodeInfo nodeId="5639900666367760126" conceptFqName="jetbrains.mps.baseLanguage.structure.ExpressionStatement" fileName="RectOrthogonalLayouter.java" startLine="118" startPosition="35" endLine="119" endPosition="169" />
     <nodeInfo nodeId="5639900666367761571" conceptFqName="jetbrains.mps.baseLanguage.structure.ReturnStatement" fileName="RectOrthogonalLayouter.java" startLine="119" startPosition="169" endLine="120" endPosition="20" />
     <nodeInfo nodeId="1418350014056295374" conceptFqName="jetbrains.mps.baseLanguage.structure.LocalVariableDeclarationStatement" fileName="RectOrthogonalLayouter.java" startLine="121" startPosition="5" endLine="122" endPosition="71" />
@@ -737,7 +737,7 @@
     <nodeInfo nodeId="6494745554568974996" conceptFqName="jetbrains.mps.baseLanguage.structure.ExpressionStatement" fileName="RectOrthogonalLayouter.java" startLine="275" startPosition="24" endLine="276" endPosition="63" />
     <nodeInfo nodeId="6494745554568975004" conceptFqName="jetbrains.mps.baseLanguage.structure.ExpressionStatement" fileName="RectOrthogonalLayouter.java" startLine="277" startPosition="60" endLine="278" endPosition="71" />
     <nodeInfo nodeId="6494745554568975016" conceptFqName="jetbrains.mps.baseLanguage.structure.ExpressionStatement" fileName="RectOrthogonalLayouter.java" startLine="279" startPosition="64" endLine="280" endPosition="73" />
-    <nodeInfo nodeId="903391227141165387" conceptFqName="jetbrains.mps.baseLanguage.structure.LocalVariableDeclarationStatement" fileName="RectOrthogonalLayouter.java" startLine="285" startPosition="173" endLine="286" endPosition="48" />
+    <nodeInfo nodeId="903391227141165387" conceptFqName="jetbrains.mps.baseLanguage.structure.LocalVariableDeclarationStatement" fileName="RectOrthogonalLayouter.java" startLine="285" startPosition="173" endLine="286" endPosition="69" />
     <nodeInfo nodeId="6494745554568977342" conceptFqName="jetbrains.mps.baseLanguage.structure.LocalVariableDeclarationStatement" fileName="RectOrthogonalLayouter.java" startLine="287" startPosition="63" endLine="288" endPosition="69" />
     <nodeInfo nodeId="903391227141290934" conceptFqName="jetbrains.mps.baseLanguage.structure.LocalVariableDeclarationStatement" fileName="RectOrthogonalLayouter.java" startLine="289" startPosition="30" endLine="290" endPosition="84" />
     <nodeInfo nodeId="903391227141293487" conceptFqName="jetbrains.mps.baseLanguage.structure.LocalVariableDeclarationStatement" fileName="RectOrthogonalLayouter.java" startLine="290" startPosition="84" endLine="291" endPosition="26" />
@@ -780,8 +780,8 @@
     <nodeInfo nodeId="903391227141169106" conceptFqName="jetbrains.mps.baseLanguage.structure.ExpressionStatement" fileName="RectOrthogonalLayouter.java" startLine="351" startPosition="103" endLine="352" endPosition="52" />
     <nodeInfo nodeId="903391227141169016" conceptFqName="jetbrains.mps.baseLanguage.structure.ExpressionStatement" fileName="RectOrthogonalLayouter.java" startLine="353" startPosition="14" endLine="354" endPosition="79" />
     <nodeInfo nodeId="903391227141165467" conceptFqName="jetbrains.mps.baseLanguage.structure.ExpressionStatement" fileName="RectOrthogonalLayouter.java" startLine="355" startPosition="7" endLine="356" endPosition="38" />
-    <nodeInfo nodeId="903391227141294454" conceptFqName="jetbrains.mps.baseLanguage.structure.ExpressionStatement" fileName="RectOrthogonalLayouter.java" startLine="357" startPosition="5" endLine="358" endPosition="51" />
-    <nodeInfo nodeId="903391227141294466" conceptFqName="jetbrains.mps.baseLanguage.structure.ExpressionStatement" fileName="RectOrthogonalLayouter.java" startLine="358" startPosition="51" endLine="359" endPosition="31" />
+    <nodeInfo nodeId="3805314409601883824" conceptFqName="jetbrains.mps.baseLanguage.structure.ExpressionStatement" fileName="RectOrthogonalLayouter.java" startLine="357" startPosition="5" endLine="358" endPosition="34" />
+    <nodeInfo nodeId="903391227141294466" conceptFqName="jetbrains.mps.baseLanguage.structure.ExpressionStatement" fileName="RectOrthogonalLayouter.java" startLine="358" startPosition="34" endLine="359" endPosition="31" />
     <nodeInfo nodeId="903391227141165487" conceptFqName="jetbrains.mps.baseLanguage.structure.ReturnStatement" fileName="RectOrthogonalLayouter.java" startLine="359" startPosition="31" endLine="360" endPosition="18" />
     <nodeInfo nodeId="903391227141294478" conceptFqName="jetbrains.mps.baseLanguage.structure.LocalVariableDeclarationStatement" fileName="RectOrthogonalLayouter.java" startLine="363" startPosition="54" endLine="364" endPosition="46" />
     <nodeInfo nodeId="903391227141362179" conceptFqName="jetbrains.mps.baseLanguage.structure.ExpressionStatement" fileName="RectOrthogonalLayouter.java" startLine="365" startPosition="63" endLine="366" endPosition="76" />
@@ -845,7 +845,7 @@
     <nodeInfo nodeId="903391227141292641" conceptFqName="jetbrains.mps.baseLanguage.structure.ForeachStatement" fileName="RectOrthogonalLayouter.java" startLine="292" startPosition="43" endLine="295" endPosition="9" />
     <nodeInfo nodeId="903391227141293576" conceptFqName="jetbrains.mps.baseLanguage.structure.IfStatement" fileName="RectOrthogonalLayouter.java" startLine="297" startPosition="42" endLine="300" endPosition="9" />
     <nodeInfo nodeId="903391227141293601" conceptFqName="jetbrains.mps.baseLanguage.structure.IfStatement" fileName="RectOrthogonalLayouter.java" startLine="300" startPosition="9" endLine="303" endPosition="9" />
-    <nodeInfo nodeId="5639900666367311013" conceptFqName="jetbrains.mps.baseLanguage.structure.ForeachStatement" fileName="RectOrthogonalLayouter.java" startLine="96" startPosition="48" endLine="100" endPosition="5" />
+    <nodeInfo nodeId="5639900666367311013" conceptFqName="jetbrains.mps.baseLanguage.structure.ForeachStatement" fileName="RectOrthogonalLayouter.java" startLine="96" startPosition="69" endLine="100" endPosition="5" />
     <nodeInfo nodeId="6494745554568974988" conceptFqName="jetbrains.mps.baseLanguage.structure.InstanceMethodDeclaration" fileName="RectOrthogonalLayouter.java" startLine="271" startPosition="103" endLine="275" endPosition="0" />
     <nodeInfo nodeId="903391227141168661" conceptFqName="jetbrains.mps.baseLanguage.structure.IfStatement" fileName="RectOrthogonalLayouter.java" startLine="323" startPosition="34" endLine="327" endPosition="7" />
     <nodeInfo nodeId="903391227141168757" conceptFqName="jetbrains.mps.baseLanguage.structure.IfStatement" fileName="RectOrthogonalLayouter.java" startLine="327" startPosition="7" endLine="331" endPosition="7" />
@@ -893,7 +893,7 @@
     <nodeInfo nodeId="903391227141361957" conceptFqName="jetbrains.mps.baseLanguage.structure.ForeachStatement" fileName="RectOrthogonalLayouter.java" startLine="386" startPosition="5" endLine="397" endPosition="5" />
     <nodeInfo nodeId="1177671074986680306" conceptFqName="jetbrains.mps.baseLanguage.structure.ForeachStatement" fileName="RectOrthogonalLayouter.java" startLine="137" startPosition="66" endLine="154" endPosition="5" />
     <nodeInfo nodeId="6494745554568977326" conceptFqName="jetbrains.mps.baseLanguage.structure.IfStatement" fileName="RectOrthogonalLayouter.java" startLine="288" startPosition="69" endLine="307" endPosition="7" />
-    <nodeInfo nodeId="903391227141165392" conceptFqName="jetbrains.mps.baseLanguage.structure.ForeachStatement" fileName="RectOrthogonalLayouter.java" startLine="286" startPosition="48" endLine="308" endPosition="5" />
+    <nodeInfo nodeId="903391227141165392" conceptFqName="jetbrains.mps.baseLanguage.structure.ForeachStatement" fileName="RectOrthogonalLayouter.java" startLine="286" startPosition="69" endLine="308" endPosition="5" />
     <nodeInfo nodeId="6494745554568978654" conceptFqName="jetbrains.mps.baseLanguage.structure.IfStatement" fileName="RectOrthogonalLayouter.java" startLine="210" startPosition="18" endLine="233" endPosition="13" />
     <nodeInfo nodeId="6494745554568978512" conceptFqName="jetbrains.mps.baseLanguage.structure.IfStatement" fileName="RectOrthogonalLayouter.java" startLine="207" startPosition="11" endLine="239" endPosition="11" />
     <nodeInfo nodeId="6494745554568974928" conceptFqName="jetbrains.mps.baseLanguage.structure.ForeachStatement" fileName="RectOrthogonalLayouter.java" startLine="202" startPosition="25" endLine="242" endPosition="9" />
@@ -972,7 +972,7 @@
     <scopeInfo nodeId="5639900666367310650" fileName="RectOrthogonalLayouter.java" startLine="90" startPosition="61" endLine="94" endPosition="100">
       <varInfo nodeId="5639900666367310665" varName="curLayout" />
     </scopeInfo>
-    <scopeInfo nodeId="5639900666367311013" fileName="RectOrthogonalLayouter.java" startLine="96" startPosition="48" endLine="100" endPosition="5" />
+    <scopeInfo nodeId="5639900666367311013" fileName="RectOrthogonalLayouter.java" startLine="96" startPosition="69" endLine="100" endPosition="5" />
     <scopeInfo nodeId="5639900666367760100" fileName="RectOrthogonalLayouter.java" startLine="116" startPosition="35" endLine="120" endPosition="20">
       <varInfo nodeId="5639900666367760154" varName="node" />
       <varInfo nodeId="5639900666367760118" varName="layout" />
@@ -1072,7 +1072,7 @@
     <scopeInfo nodeId="903391227141165396" fileName="RectOrthogonalLayouter.java" startLine="287" startPosition="63" endLine="307" endPosition="7">
       <varInfo nodeId="6494745554568977343" varName="rect" />
     </scopeInfo>
-    <scopeInfo nodeId="903391227141165392" fileName="RectOrthogonalLayouter.java" startLine="286" startPosition="48" endLine="308" endPosition="5" />
+    <scopeInfo nodeId="903391227141165392" fileName="RectOrthogonalLayouter.java" startLine="286" startPosition="69" endLine="308" endPosition="5" />
     <scopeInfo nodeId="6494745554568978513" fileName="RectOrthogonalLayouter.java" startLine="208" startPosition="30" endLine="238" endPosition="24">
       <varInfo nodeId="6494745554568981106" varName="left" />
       <varInfo nodeId="6494745554568978610" varName="rect" />

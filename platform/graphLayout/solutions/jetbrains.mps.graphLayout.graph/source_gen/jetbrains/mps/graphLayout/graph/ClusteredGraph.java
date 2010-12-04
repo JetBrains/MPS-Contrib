@@ -7,26 +7,34 @@ import jetbrains.mps.internal.collections.runtime.MapSequence;
 import java.util.HashMap;
 import java.util.Set;
 import jetbrains.mps.internal.collections.runtime.SetSequence;
-import java.util.HashSet;
+import java.util.LinkedHashSet;
+import java.util.List;
 import jetbrains.mps.internal.collections.runtime.ListSequence;
 import jetbrains.mps.internal.collections.runtime.ISelector;
-import jetbrains.mps.internal.collections.runtime.Sequence;
 
 public class ClusteredGraph extends Graph implements IClusteredGraph {
-  private Graph myInclusionTree;
+  private Tree myInclusionTree;
   private Map<Node, Node> myLeafClusters;
   private Node myRoot;
 
   public ClusteredGraph() {
     super();
-    myInclusionTree = new Graph();
+    myInclusionTree = new Tree();
     myLeafClusters = MapSequence.fromMap(new HashMap<Node, Node>());
   }
 
-  public Iterable<Node> getNodesInCluster(INode cluster) {
-    Set<Node> nodes = SetSequence.fromSet(new HashSet<Node>());
+  public Set<Node> getNodesInCluster(INode cluster) {
+    Set<Node> nodes = SetSequence.fromSet(new LinkedHashSet<Node>());
     getNodesInCluster(((Node) cluster), nodes);
     return nodes;
+  }
+
+  public List<Node> getSubclusters(final Node cluster) {
+    return ListSequence.fromList(cluster.getOutEdges()).<Node>select(new ISelector<Edge, Node>() {
+      public Node select(Edge edge) {
+        return edge.getOpposite(cluster);
+      }
+    }).toListSequence();
   }
 
   public void setNodeInCluster(Node cluster, Node node) {
@@ -34,12 +42,12 @@ public class ClusteredGraph extends Graph implements IClusteredGraph {
   }
 
   private void getNodesInCluster(Node cluster, Set<Node> nodes) {
-    Iterable<Node> subclusters = ListSequence.fromList(cluster.getOutEdges()).select(new ISelector<Edge, Node>() {
+    List<Node> subclusters = ListSequence.fromList(cluster.getOutEdges()).<Node>select(new ISelector<Edge, Node>() {
       public Node select(Edge it) {
         return it.getTarget();
       }
-    });
-    for (Node subcluster : Sequence.fromIterable(subclusters)) {
+    }).toListSequence();
+    for (Node subcluster : ListSequence.fromList(subclusters)) {
       getNodesInCluster(subcluster, nodes);
     }
     Node node = MapSequence.fromMap(myLeafClusters).get(cluster);
@@ -60,7 +68,21 @@ public class ClusteredGraph extends Graph implements IClusteredGraph {
     return this;
   }
 
-  public Graph getInclusionTree() {
+  @Override
+  public Graph createNew() {
+    return new ClusteredGraph();
+  }
+
+  public Tree getInclusionTree() {
     return myInclusionTree;
+  }
+
+  /*package*/ void setInclusionTree(Tree tree, Node root) {
+    myInclusionTree = tree;
+    setRoot(root);
+  }
+
+  public boolean isLeafCluster(Node cluster) {
+    return ListSequence.fromList(cluster.getOutEdges()).count() == 0;
   }
 }

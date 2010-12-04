@@ -13,10 +13,10 @@ import java.util.HashMap;
 import java.util.LinkedHashMap;
 import jetbrains.mps.internal.collections.runtime.ListSequence;
 import jetbrains.mps.internal.collections.runtime.SetSequence;
+import jetbrains.mps.graphLayout.graphLayout.GraphLayoutFactory;
 import java.util.List;
 import jetbrains.mps.graphLayout.intGeom2D.Point;
 import jetbrains.mps.graphLayout.intGeom2D.Rectangle;
-import jetbrains.mps.graphLayout.graphLayout.LayoutTransform;
 import java.util.Set;
 import java.util.HashSet;
 import jetbrains.mps.graphLayout.graph.EdgesHistoryManager;
@@ -62,7 +62,7 @@ public class OrthogonalFlowLabelProcessing {
       MapSequence.fromMap(copyLabelSizes).put(MapSequence.fromMap(edgeMap).get(edge), MapSequence.fromMap(labelSizes).get(edge));
     }
     GraphLayout copyLayout = getLayoutCorruptGraph(copy, copyNodeSizes, copyLabelSizes);
-    GraphLayout layout = new GraphLayout(graph);
+    GraphLayout layout = GraphLayoutFactory.createGraphLayout(graph);
     for (Node node : ListSequence.fromList(graph.getNodes())) {
       layout.setLayoutFor(node, copyLayout.getNodeLayout(MapSequence.fromMap(nodeMap).get(node)));
     }
@@ -79,7 +79,7 @@ public class OrthogonalFlowLabelProcessing {
       layout.setLabelLayout(edge, copyLayout.getLabelLayout(MapSequence.fromMap(edgeMap).get(edge)));
     }
     Rectangle rect = layout.getContainingRectangle();
-    layout = LayoutTransform.shift(layout, 20 - rect.x, 20 - rect.y);
+    layout = layout.shift(20 - rect.x, 20 - rect.y);
     return layout;
   }
 
@@ -102,7 +102,7 @@ public class OrthogonalFlowLabelProcessing {
       MapSequence.fromMap(labelSizes).put(MapSequence.fromMap(labeledEdge).get(edge), MapSequence.fromMap(initialLabelSizes).get(edge));
     }
     GraphLayout layout = getlayoutFromEmbeddedGraph(embeddedGraph, nodeSizes, labelSizes, historyManager);
-    GraphLayout initialLayout = new GraphLayout(graph);
+    GraphLayout initialLayout = GraphLayoutFactory.createGraphLayout(graph);
     for (Node node : SetSequence.fromSet(initialNodes)) {
       initialLayout.setLayoutFor(node, layout.getNodeLayout(node));
     }
@@ -189,7 +189,7 @@ public class OrthogonalFlowLabelProcessing {
     processor.modifyEmbeddedGraph(nodesAndLabels, nodeAndLabelSizes);
     processor.constructGraph();
     Map<Node, Point> coordinates = processor.getCoordinatesInModifiedGraph(initialEdgesShifts, nodeAndLabelDirectionSizes, historyManager);
-    GraphLayout graphLayout = new GraphLayout(graph);
+    GraphLayout graphLayout = GraphLayoutFactory.createGraphLayout(graph);
     for (Node node : ListSequence.fromList(oldNodes)) {
       Rectangle rect = getRectangle(coordinates, node, nodeAndLabelDirectionSizes, nodeAndLabelSizes);
       graphLayout.setLayoutFor(node, rect);
@@ -284,7 +284,7 @@ public class OrthogonalFlowLabelProcessing {
     processor.modifyEmbeddedGraph(oldNodes, nodeSizes);
     processor.constructGraph();
     Map<Node, Point> coordinates = processor.getCoordinatesInModifiedGraph(edgesShifts, nodeDirectionSizes, historyManager);
-    GraphLayout graphLayout = new GraphLayout(graph);
+    GraphLayout graphLayout = GraphLayoutFactory.createGraphLayout(graph);
     for (Node node : ListSequence.fromList(oldNodes)) {
       Rectangle rect = getRectangle(coordinates, node, nodeDirectionSizes, nodeSizes);
       graphLayout.setLayoutFor(node, rect);
@@ -349,7 +349,7 @@ public class OrthogonalFlowLabelProcessing {
       MapSequence.fromMap(labelAndNodeDirectionSizes).put(node, MapSequence.fromMap(nodeDirectionSizes).get(node));
     }
     GraphLayout layout = getLayoutFromEmbeddedGraph(embeddedGraph, labelAndNodeSizes, labelAndNodeDirectionSizes, historyManager);
-    GraphLayout initialLayout = new GraphLayout(embeddedGraph.getGraph());
+    GraphLayout initialLayout = GraphLayoutFactory.createGraphLayout(graph);
     for (Node node : ListSequence.fromList(oldNodes)) {
       initialLayout.setLayoutFor(node, layout.getNodeLayout(node));
     }

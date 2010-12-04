@@ -657,7 +657,7 @@
     <nodeInfo nodeId="8527875266531974466" conceptFqName="jetbrains.mps.baseLanguage.structure.IfStatement" fileName="SimpleGraphGenerator.java" startLine="31" startPosition="67" endLine="34" endPosition="9" />
     <nodeInfo nodeId="8527875266531973951" conceptFqName="jetbrains.mps.baseLanguage.structure.IfStatement" fileName="SimpleGraphGenerator.java" startLine="55" startPosition="33" endLine="58" endPosition="5" />
     <nodeInfo nodeId="8527875266531974017" conceptFqName="jetbrains.mps.baseLanguage.structure.ForStatement" fileName="SimpleGraphGenerator.java" startLine="59" startPosition="37" endLine="62" endPosition="5" />
-    <nodeInfo nodeId="8527875266531974400" conceptFqName="jetbrains.mps.baseLanguage.structure.InstanceMethodDeclaration" fileName="SimpleGraphGenerator.java" startLine="41" startPosition="105" endLine="45" endPosition="0" />
+    <nodeInfo nodeId="8527875266531974400" conceptFqName="jetbrains.mps.baseLanguage.structure.InstanceMethodDeclaration" fileName="SimpleGraphGenerator.java" startLine="41" startPosition="111" endLine="45" endPosition="0" />
     <nodeInfo nodeId="8527875266531974456" conceptFqName="jetbrains.mps.baseLanguage.structure.ForeachStatement" fileName="SimpleGraphGenerator.java" startLine="30" startPosition="65" endLine="35" endPosition="7" />
     <nodeInfo nodeId="8527875266531974390" conceptFqName="jetbrains.mps.baseLanguage.structure.LocalVariableDeclarationStatement" fileName="SimpleGraphGenerator.java" startLine="40" startPosition="62" endLine="45" endPosition="24" />
     <nodeInfo nodeId="8527875266531974410" conceptFqName="jetbrains.mps.baseLanguage.structure.IfStatement" fileName="SimpleGraphGenerator.java" startLine="45" startPosition="24" endLine="50" endPosition="5" />
@@ -683,7 +683,7 @@
     <scopeInfo nodeId="8527875266531974017" fileName="SimpleGraphGenerator.java" startLine="59" startPosition="37" endLine="62" endPosition="5">
       <varInfo nodeId="8527875266531974020" varName="i" />
     </scopeInfo>
-    <scopeInfo nodeId="8527875266531974400" fileName="SimpleGraphGenerator.java" startLine="41" startPosition="105" endLine="45" endPosition="0" />
+    <scopeInfo nodeId="8527875266531974400" fileName="SimpleGraphGenerator.java" startLine="41" startPosition="111" endLine="45" endPosition="0" />
     <scopeInfo nodeId="8527875266531974112" fileName="SimpleGraphGenerator.java" startLine="23" startPosition="53" endLine="28" endPosition="7">
       <varInfo nodeId="8527875266531974269" varName="source" />
       <varInfo nodeId="8527875266531974279" varName="target" />
@@ -709,7 +709,7 @@
     <scopeInfo nodeId="8527875266531973891" fileName="SimpleGraphGenerator.java" startLine="20" startPosition="0" endLine="39" endPosition="0">
       <varInfo nodeId="8527875266531973894" varName="graph" />
     </scopeInfo>
-    <unitInfo nodeId="8527875266531974400" fileName="SimpleGraphGenerator.java" startLine="41" startPosition="80" endLine="45" endPosition="5" unitName="sampleGraphs.SimpleGraphGenerator$1" />
+    <unitInfo nodeId="8527875266531974400" fileName="SimpleGraphGenerator.java" startLine="41" startPosition="86" endLine="45" endPosition="5" unitName="sampleGraphs.SimpleGraphGenerator$1" />
     <unitInfo nodeId="8527875266531973857" fileName="SimpleGraphGenerator.java" startLine="12" startPosition="0" endLine="66" endPosition="0" unitName="sampleGraphs.SimpleGraphGenerator" />
   </root>
 </debugInfo>

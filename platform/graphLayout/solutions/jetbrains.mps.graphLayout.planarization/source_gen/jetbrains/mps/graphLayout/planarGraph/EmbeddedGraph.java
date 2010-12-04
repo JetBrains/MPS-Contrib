@@ -343,4 +343,25 @@ public class EmbeddedGraph {
   public boolean isOuterFace(Face face) {
     return face == myOuterFace;
   }
+
+  public void removeEdge(Edge edge) {
+    List<Dart> edgeDarts = getDarts(edge);
+    Dart first = ListSequence.fromList(edgeDarts).first();
+    Face face = getFace(first);
+    face.makeStartsWith(first);
+    removeDart(face, first);
+    Dart last = ListSequence.fromList(edgeDarts).last();
+    Face toRemove = getFace(last);
+    if (isOuterFace(toRemove)) {
+      setOuterFace(face);
+    }
+    removeFace(toRemove);
+    List<Dart> darts = toRemove.makeStartsWith(last);
+    for (Dart dart : ListSequence.fromList(darts)) {
+      if (dart == last) {
+        continue;
+      }
+      addLastDart(face, dart);
+    }
+  }
 }

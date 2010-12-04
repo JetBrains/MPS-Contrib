@@ -22,9 +22,9 @@ import jetbrains.mps.graphLayout.flowOrthogonalLayout.EmbeddedGraphModifier;
 import jetbrains.mps.internal.collections.runtime.Sequence;
 import java.util.LinkedHashMap;
 import java.util.ArrayList;
+import jetbrains.mps.graphLayout.graphLayout.GraphLayoutFactory;
 import jetbrains.mps.graphLayout.intGeom2D.Rectangle;
 import jetbrains.mps.graphLayout.intGeom2D.Point;
-import jetbrains.mps.graphLayout.graphLayout.LayoutTransform;
 import jetbrains.mps.graphLayout.planarGraph.Dart;
 import jetbrains.mps.graphLayout.flowOrthogonalLayout.OrthogonalRepresentation;
 import jetbrains.mps.graphLayout.util.Direction2D;
@@ -87,7 +87,7 @@ public class OrthogonalRectFlowLayouter {
       MapSequence.fromMap(copyNodeSizes).put(copyNode, MapSequence.fromMap(nodeSizes).get(node));
     }
     GraphLayout copyLayout = getFlowLayout(embeddedGraph, newEdges, nodesToSplit, copyNodeSizes, historyManager);
-    GraphLayout graphLayout = new GraphLayout(graph);
+    GraphLayout graphLayout = GraphLayoutFactory.createGraphLayout(graph);
     for (Node node : ListSequence.fromList(graph.getNodes())) {
       Node copyNode = MapSequence.fromMap(nodeMap).get(node);
       graphLayout.setLayoutFor(node, new Rectangle(copyLayout.getNodeLayout(copyNode)));
@@ -114,7 +114,7 @@ public class OrthogonalRectFlowLayouter {
       graphLayout.setLayoutFor(graphEdge, edgeLayout);
     }
     Rectangle containingRect = graphLayout.getContainingRectangle();
-    graphLayout = LayoutTransform.shift(graphLayout, 20 - containingRect.x, 20 - containingRect.y);
+    graphLayout = graphLayout.shift(20 - containingRect.x, 20 - containingRect.y);
     return graphLayout;
   }
 
@@ -155,7 +155,7 @@ public class OrthogonalRectFlowLayouter {
     }
     Map<Edge, Integer> lengths = new EdgeLengthComputer().compute(embeddedGraph, directions, nodeBorderLengths);
     Map<Node, Point> coordinates = new CoordinatePlacer(embeddedGraph, lengths, directions).getCoordinates();
-    GraphLayout nodesLayout = new GraphLayout(graph);
+    GraphLayout nodesLayout = GraphLayoutFactory.createGraphLayout(graph);
     for (Node node : SetSequence.fromSet(MapSequence.fromMap(nodeMap).keySet())) {
       Node[] corners = modifier.getCornerNodes(node);
       Rectangle rect = GeomUtil.getRectangle(MapSequence.fromMap(coordinates).get(corners[0]), MapSequence.fromMap(coordinates).get(corners[2]));

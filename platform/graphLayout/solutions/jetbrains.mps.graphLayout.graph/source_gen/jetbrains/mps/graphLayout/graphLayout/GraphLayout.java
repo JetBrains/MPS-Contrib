@@ -162,4 +162,26 @@ public class GraphLayout implements IGraphLayout {
     }
     return builder.toString();
   }
+
+  public GraphLayout shift(int xShift, int yShift) {
+    GraphLayout newLayout = GraphLayoutFactory.createGraphLayout(getGraph());
+    for (INode node : SetSequence.fromSet(getLayoutedNodes())) {
+      Rectangle rect = getNodeLayout(node);
+      int newX = rect.x + xShift;
+      int newY = rect.y + yShift;
+      newLayout.setLayoutFor(node, new Rectangle(newX, newY, rect.width, rect.height));
+    }
+    for (IEdge edge : SetSequence.fromSet(getLayoutedEdges())) {
+      List<Point> edgeLayout = getEdgeLayout(edge);
+      List<Point> newList = jetbrains.mps.graphLayout.intGeom2D.GeomUtil.shiftPolyline(edgeLayout, xShift, yShift);
+      newLayout.setLayoutFor(edge, newList);
+    }
+    for (IEdge edge : SetSequence.fromSet(getLayoutedLabels())) {
+      Rectangle rect = getLabelLayout(edge);
+      int newX = rect.x + xShift;
+      int newY = rect.y + yShift;
+      newLayout.setLabelLayout(edge, new Rectangle(newX, newY, rect.width, rect.height));
+    }
+    return newLayout;
+  }
 }

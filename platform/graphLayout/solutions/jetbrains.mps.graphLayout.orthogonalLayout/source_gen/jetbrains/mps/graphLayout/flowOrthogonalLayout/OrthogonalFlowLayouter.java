@@ -19,13 +19,14 @@ import jetbrains.mps.internal.collections.runtime.ListSequence;
 import java.util.ArrayList;
 import jetbrains.mps.graphLayout.planarGraph.Dart;
 import java.util.HashMap;
+import jetbrains.mps.graphLayout.planarGraph.Face;
 import java.util.Set;
 import java.util.HashSet;
-import jetbrains.mps.graphLayout.planarGraph.Face;
 import jetbrains.mps.graphLayout.util.Direction2D;
 import jetbrains.mps.graphLayout.intGeom2D.Point;
 import jetbrains.mps.graphLayout.intGeom2D.Rectangle;
 import jetbrains.mps.graphLayout.util.GeomUtil;
+import jetbrains.mps.graphLayout.graphLayout.GraphLayoutFactory;
 import jetbrains.mps.internal.collections.runtime.backports.LinkedList;
 
 public class OrthogonalFlowLayouter extends AbstractOrthogonalFlowLayouter {
@@ -54,9 +55,14 @@ public class OrthogonalFlowLayouter extends AbstractOrthogonalFlowLayouter {
     ListSequence.fromList(initialNodes).addSequence(SetSequence.fromSet(MapSequence.fromMap(nodeSizes).keySet()));
     Map<Dart, Integer> bends = MapSequence.fromMap(new HashMap<Dart, Integer>());
     Map<Dart, Integer> angles = MapSequence.fromMap(new HashMap<Dart, Integer>());
-    Set<Edge> freeEdges = SetSequence.fromSet(new HashSet<Edge>());
-    SetSequence.fromSet(freeEdges).addSequence(ListSequence.fromList(graph.getEdges()));
-    SetSequence.fromSet(freeEdges).removeSequence(SetSequence.fromSet(getRealEdges()));
+
+
+    for (Edge edge : ListSequence.fromList(graph.getEdges())) {
+      if (ListSequence.fromList(embeddedGraph.getDarts(edge)).count() != 2) {
+
+        throw new RuntimeException("botva!!!");
+      }
+    }
     QuasiOrthogonalRepresentation.getRepresentation(embeddedGraph, bends, angles);
     /*
       for (Face face : ListSequence.fromList(embeddedGraph.getFaces())) {
@@ -71,6 +77,19 @@ public class OrthogonalFlowLayouter extends AbstractOrthogonalFlowLayouter {
         }
       }
     */
+    for (Edge edge : ListSequence.fromList(graph.getEdges())) {
+      for (Dart dart : ListSequence.fromList(embeddedGraph.getDarts(edge))) {
+        /*
+          if (MapSequence.fromMap(bends).get(dart) < 0 || MapSequence.fromMap(bends).get(dart) > 4) {
+            throw new RuntimeException("botva!!!");
+          }
+        */
+        if (MapSequence.fromMap(angles).get(dart) < 0 || MapSequence.fromMap(angles).get(dart) > 3) {
+          throw new RuntimeException("botva!!!");
+        }
+      }
+    }
+
     QuasiRepresentationModifier quasiModifier = new QuasiRepresentationModifier(embeddedGraph, bends, angles);
     quasiModifier.reduceToOrthogonalRepresentation();
     List<QuasiRepresentationModifier.Modification> modifications = quasiModifier.getModifications();
@@ -264,7 +283,7 @@ public class OrthogonalFlowLayouter extends AbstractOrthogonalFlowLayouter {
     }
     coordinates = constraintsGraph.getCoordinates(edgeLengths, constraintEdgeLengths);
 
-    GraphLayout graphLayout = new GraphLayout(graph);
+    GraphLayout graphLayout = GraphLayoutFactory.createGraphLayout(graph);
     for (Node node : ListSequence.fromList(initialNodes)) {
       Rectangle rect = this.getNodeLayout(coordinates, node, nodeDirectionSizes, nodeSizes);
       graphLayout.setLayoutFor(node, rect);

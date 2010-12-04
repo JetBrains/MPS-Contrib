@@ -8,6 +8,7 @@
   <unitInfo fileName="TopologicalNumbering_Test.java" startLine="16" startPosition="0" endLine="41" endPosition="0" unitName="graphTest.TopologicalNumbering_Test" />
   <unitInfo fileName="MinCostMaxFlowWithPotentials_Test.java" startLine="18" startPosition="0" endLine="49" endPosition="0" unitName="graphTest.MinCostMaxFlowWithPotentials_Test" />
   <unitInfo fileName="BiconnectComponent_Test.java" startLine="12" startPosition="0" endLine="53" endPosition="0" unitName="graphTest.BiconnectComponent_Test" />
+  <unitInfo fileName="GroupedGraphModificationSynchronizer_Test.java" startLine="23" startPosition="0" endLine="66" endPosition="0" unitName="graphTest.GroupedGraphModificationSynchronizer_Test" />
   <unitInfo fileName="BiconnectAugmentation_Test.java" startLine="12" startPosition="0" endLine="56" endPosition="0" unitName="graphTest.BiconnectAugmentation_Test" />
   <unitInfo fileName="MinCostMaxFlow_Test.java" startLine="21" startPosition="0" endLine="87" endPosition="0" unitName="graphTest.MinCostMaxFlow_Test" />
   <unitInfo fileName="Dijkstra_Test.java" startLine="19" startPosition="0" endLine="88" endPosition="0" unitName="graphTest.Dijkstra_Test" />
@@ -361,6 +362,71 @@
       <varInfo nodeId="4179389957059012730" varName="path" />
     </scopeInfo>
     <scopeInfo nodeId="4179389957059012716" fileName="ShortestPath_Test.java" startLine="14" startPosition="49" endLine="25" endPosition="0" />
+  </root>
+  <root nodeId="4189203018295045228">
+    <nodeInfo nodeId="4189203018295045250" conceptFqName="jetbrains.mps.baseLanguage.structure.LocalVariableDeclarationStatement" fileName="GroupedGraphModificationSynchronizer_Test.java" startLine="24" startPosition="45" endLine="25" endPosition="51" />
+    <nodeInfo nodeId="4189203018295045245" conceptFqName="jetbrains.mps.baseLanguage.structure.LocalVariableDeclarationStatement" fileName="GroupedGraphModificationSynchronizer_Test.java" startLine="25" startPosition="51" endLine="26" endPosition="49" />
+    <nodeInfo nodeId="4189203018295134594" conceptFqName="jetbrains.mps.baseLanguage.structure.LocalVariableDeclarationStatement" fileName="GroupedGraphModificationSynchronizer_Test.java" startLine="26" startPosition="49" endLine="27" endPosition="67" />
+    <nodeInfo nodeId="4189203018295134604" conceptFqName="jetbrains.mps.baseLanguage.structure.ExpressionStatement" fileName="GroupedGraphModificationSynchronizer_Test.java" startLine="27" startPosition="67" endLine="28" endPosition="88" />
+    <nodeInfo nodeId="4189203018295045261" conceptFqName="jetbrains.mps.baseLanguage.structure.LocalVariableDeclarationStatement" fileName="GroupedGraphModificationSynchronizer_Test.java" startLine="28" startPosition="88" endLine="29" endPosition="37" />
+    <nodeInfo nodeId="4189203018295045269" conceptFqName="jetbrains.mps.baseLanguage.structure.ExpressionStatement" fileName="GroupedGraphModificationSynchronizer_Test.java" startLine="29" startPosition="37" endLine="30" endPosition="30" />
+    <nodeInfo nodeId="4189203018295045276" conceptFqName="jetbrains.mps.baseLanguage.structure.ExpressionStatement" fileName="GroupedGraphModificationSynchronizer_Test.java" startLine="30" startPosition="30" endLine="31" endPosition="30" />
+    <nodeInfo nodeId="4189203018295045281" conceptFqName="jetbrains.mps.baseLanguage.structure.LocalVariableDeclarationStatement" fileName="GroupedGraphModificationSynchronizer_Test.java" startLine="31" startPosition="30" endLine="32" endPosition="77" />
+    <nodeInfo nodeId="4189203018295045294" conceptFqName="jetbrains.mps.baseLanguage.structure.ExpressionStatement" fileName="GroupedGraphModificationSynchronizer_Test.java" startLine="32" startPosition="77" endLine="33" endPosition="80" />
+    <nodeInfo nodeId="4189203018295045316" conceptFqName="jetbrains.mps.baseLanguage.structure.ExpressionStatement" fileName="GroupedGraphModificationSynchronizer_Test.java" startLine="33" startPosition="80" endLine="34" endPosition="80" />
+    <nodeInfo nodeId="4189203018295045328" conceptFqName="jetbrains.mps.baseLanguage.structure.ExpressionStatement" fileName="GroupedGraphModificationSynchronizer_Test.java" startLine="34" startPosition="80" endLine="35" endPosition="80" />
+    <nodeInfo nodeId="4189203018295045340" conceptFqName="jetbrains.mps.baseLanguage.structure.ExpressionStatement" fileName="GroupedGraphModificationSynchronizer_Test.java" startLine="35" startPosition="80" endLine="36" endPosition="80" />
+    <nodeInfo nodeId="4189203018295045362" conceptFqName="jetbrains.mps.baseLanguage.structure.LocalVariableDeclarationStatement" fileName="GroupedGraphModificationSynchronizer_Test.java" startLine="36" startPosition="80" endLine="37" endPosition="80" />
+    <nodeInfo nodeId="4189203018295045391" conceptFqName="jetbrains.mps.baseLanguage.structure.LocalVariableDeclarationStatement" fileName="GroupedGraphModificationSynchronizer_Test.java" startLine="37" startPosition="80" endLine="38" endPosition="77" />
+    <nodeInfo nodeId="4189203018295045382" conceptFqName="jetbrains.mps.baseLanguage.structure.LocalVariableDeclarationStatement" fileName="GroupedGraphModificationSynchronizer_Test.java" startLine="39" startPosition="63" endLine="40" endPosition="76" />
+    <nodeInfo nodeId="4189203018295132235" conceptFqName="jetbrains.mps.baseLanguage.structure.LocalVariableDeclarationStatement" fileName="GroupedGraphModificationSynchronizer_Test.java" startLine="40" startPosition="76" endLine="41" endPosition="76" />
+    <nodeInfo nodeId="4189203018295132252" conceptFqName="jetbrains.mps.baseLanguage.structure.LocalVariableDeclarationStatement" fileName="GroupedGraphModificationSynchronizer_Test.java" startLine="41" startPosition="76" endLine="42" endPosition="70" />
+    <nodeInfo nodeId="4189203018295132267" conceptFqName="jetbrains.mps.baseLanguage.structure.ExpressionStatement" fileName="GroupedGraphModificationSynchronizer_Test.java" startLine="42" startPosition="70" endLine="43" endPosition="56" />
+    <nodeInfo nodeId="4189203018295132278" conceptFqName="jetbrains.mps.baseLanguage.structure.ExpressionStatement" fileName="GroupedGraphModificationSynchronizer_Test.java" startLine="43" startPosition="56" endLine="44" endPosition="59" />
+    <nodeInfo nodeId="4189203018295132292" conceptFqName="jetbrains.mps.baseLanguage.structure.LocalVariableDeclarationStatement" fileName="GroupedGraphModificationSynchronizer_Test.java" startLine="45" startPosition="5" endLine="46" endPosition="130" />
+    <nodeInfo nodeId="4189203018295134581" conceptFqName="jetbrains.mps.baseLanguage.structure.LocalVariableDeclarationStatement" fileName="GroupedGraphModificationSynchronizer_Test.java" startLine="46" startPosition="130" endLine="47" endPosition="65" />
+    <nodeInfo nodeId="4189203018295132309" conceptFqName="jetbrains.mps.baseLanguage.structure.LocalVariableDeclarationStatement" fileName="GroupedGraphModificationSynchronizer_Test.java" startLine="47" startPosition="65" endLine="48" endPosition="109" />
+    <nodeInfo nodeId="4189203018295135856" conceptFqName="jetbrains.mps.baseLanguage.structure.LocalVariableDeclarationStatement" fileName="GroupedGraphModificationSynchronizer_Test.java" startLine="48" startPosition="109" endLine="49" endPosition="110" />
+    <nodeInfo nodeId="4189203018295132404" conceptFqName="jetbrains.mps.baseLanguage.structure.ExpressionStatement" fileName="GroupedGraphModificationSynchronizer_Test.java" startLine="49" startPosition="110" endLine="50" endPosition="39" />
+    <nodeInfo nodeId="4189203018295132354" conceptFqName="jetbrains.mps.baseLanguage.structure.LocalVariableDeclarationStatement" fileName="GroupedGraphModificationSynchronizer_Test.java" startLine="50" startPosition="39" endLine="51" endPosition="99" />
+    <nodeInfo nodeId="4189203018295132391" conceptFqName="jetbrains.mps.baseLanguage.structure.ExpressionStatement" fileName="GroupedGraphModificationSynchronizer_Test.java" startLine="51" startPosition="99" endLine="52" endPosition="40" />
+    <nodeInfo nodeId="4189203018295132412" conceptFqName="jetbrains.mps.baseLanguage.structure.LocalVariableDeclarationStatement" fileName="GroupedGraphModificationSynchronizer_Test.java" startLine="52" startPosition="40" endLine="53" endPosition="70" />
+    <nodeInfo nodeId="4189203018295132423" conceptFqName="jetbrains.mps.baseLanguage.structure.ExpressionStatement" fileName="GroupedGraphModificationSynchronizer_Test.java" startLine="53" startPosition="70" endLine="54" endPosition="97" />
+    <nodeInfo nodeId="4189203018295132445" conceptFqName="jetbrains.mps.baseLanguage.structure.ExpressionStatement" fileName="GroupedGraphModificationSynchronizer_Test.java" startLine="54" startPosition="97" endLine="55" endPosition="97" />
+    <nodeInfo nodeId="4189203018295132465" conceptFqName="jetbrains.mps.baseLanguage.structure.ExpressionStatement" fileName="GroupedGraphModificationSynchronizer_Test.java" startLine="55" startPosition="97" endLine="56" endPosition="140" />
+    <nodeInfo nodeId="4189203018295137116" conceptFqName="jetbrains.mps.baseLanguage.structure.ExpressionStatement" fileName="GroupedGraphModificationSynchronizer_Test.java" startLine="56" startPosition="140" endLine="57" endPosition="30" />
+    <nodeInfo nodeId="4189203018295137092" conceptFqName="jetbrains.mps.baseLanguage.structure.ExpressionStatement" fileName="GroupedGraphModificationSynchronizer_Test.java" startLine="58" startPosition="70" endLine="59" endPosition="89" />
+    <nodeInfo nodeId="4189203018295134619" conceptFqName="jetbrains.mps.baseLanguage.structure.ExpressionStatement" fileName="GroupedGraphModificationSynchronizer_Test.java" startLine="61" startPosition="54" endLine="62" endPosition="70" />
+    <nodeInfo nodeId="4189203018295137082" conceptFqName="jetbrains.mps.baseLanguage.structure.ForeachStatement" fileName="GroupedGraphModificationSynchronizer_Test.java" startLine="57" startPosition="30" endLine="60" endPosition="5" />
+    <nodeInfo nodeId="4189203018295134589" conceptFqName="jetbrains.mps.baseLanguage.structure.ForeachStatement" fileName="GroupedGraphModificationSynchronizer_Test.java" startLine="60" startPosition="5" endLine="63" endPosition="5" />
+    <nodeInfo nodeId="4189203018295045370" conceptFqName="jetbrains.mps.baseLanguage.structure.ForeachStatement" fileName="GroupedGraphModificationSynchronizer_Test.java" startLine="38" startPosition="77" endLine="45" endPosition="5" />
+    <nodeInfo nodeId="4189203018295045239" conceptFqName="jetbrains.mps.baseLanguage.structure.InstanceMethodDeclaration" fileName="GroupedGraphModificationSynchronizer_Test.java" startLine="23" startPosition="73" endLine="65" endPosition="0" />
+    <scopeInfo nodeId="4189203018295137085" fileName="GroupedGraphModificationSynchronizer_Test.java" startLine="58" startPosition="70" endLine="59" endPosition="89" />
+    <scopeInfo nodeId="4189203018295134592" fileName="GroupedGraphModificationSynchronizer_Test.java" startLine="61" startPosition="54" endLine="62" endPosition="70" />
+    <scopeInfo nodeId="4189203018295137082" fileName="GroupedGraphModificationSynchronizer_Test.java" startLine="57" startPosition="30" endLine="60" endPosition="5" />
+    <scopeInfo nodeId="4189203018295134589" fileName="GroupedGraphModificationSynchronizer_Test.java" startLine="60" startPosition="5" endLine="63" endPosition="5" />
+    <scopeInfo nodeId="4189203018295045373" fileName="GroupedGraphModificationSynchronizer_Test.java" startLine="39" startPosition="63" endLine="44" endPosition="59">
+      <varInfo nodeId="4189203018295132253" varName="groupEdge" />
+      <varInfo nodeId="4189203018295045383" varName="groupSource" />
+      <varInfo nodeId="4189203018295132236" varName="groupTarget" />
+    </scopeInfo>
+    <scopeInfo nodeId="4189203018295045370" fileName="GroupedGraphModificationSynchronizer_Test.java" startLine="38" startPosition="77" endLine="45" endPosition="5" />
+    <scopeInfo nodeId="4189203018295045242" fileName="GroupedGraphModificationSynchronizer_Test.java" startLine="24" startPosition="45" endLine="63" endPosition="5">
+      <varInfo nodeId="4189203018295045262" varName="groupedGraph" />
+      <varInfo nodeId="4189203018295134582" varName="manager" />
+      <varInfo nodeId="4189203018295045282" varName="nodeMap" />
+      <varInfo nodeId="4189203018295134595" varName="initEdges" />
+      <varInfo nodeId="4189203018295045251" varName="graphString" />
+      <varInfo nodeId="4189203018295132293" varName="synchronizer" />
+      <varInfo nodeId="4189203018295132310" varName="firstEdge" />
+      <varInfo nodeId="4189203018295135857" varName="secondEdge" />
+      <varInfo nodeId="4189203018295132355" varName="node" />
+      <varInfo nodeId="4189203018295045246" varName="graph" />
+      <varInfo nodeId="4189203018295045392" varName="edgeMap" />
+      <varInfo nodeId="4189203018295045363" varName="invEdgeMap" />
+      <varInfo nodeId="4189203018295132413" varName="gSplit" />
+    </scopeInfo>
+    <scopeInfo nodeId="4189203018295045239" fileName="GroupedGraphModificationSynchronizer_Test.java" startLine="23" startPosition="73" endLine="65" endPosition="0" />
   </root>
   <root nodeId="4250605017401931158">
     <nodeInfo nodeId="4250605017401931171" conceptFqName="jetbrains.mps.baseLanguage.structure.LocalVariableDeclarationStatement" fileName="FordBellman_Test.java" startLine="17" startPosition="48" endLine="18" endPosition="50" />

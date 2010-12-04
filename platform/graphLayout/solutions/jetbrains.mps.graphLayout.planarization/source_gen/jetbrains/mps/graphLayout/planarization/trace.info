@@ -354,6 +354,420 @@
     <unitInfo nodeId="4422427343208761573" fileName="ShortestPathEmbeddingFinder.java" startLine="34" startPosition="73" endLine="38" endPosition="5" unitName="jetbrains.mps.graphLayout.planarization.ShortestPathEmbeddingFinder$1" />
     <unitInfo nodeId="1327612371813257427" fileName="ShortestPathEmbeddingFinder.java" startLine="19" startPosition="0" endLine="97" endPosition="0" unitName="jetbrains.mps.graphLayout.planarization.ShortestPathEmbeddingFinder" />
   </root>
+  <root nodeId="1532165762814136058">
+    <nodeInfo nodeId="1532165762814137361" conceptFqName="jetbrains.mps.baseLanguage.structure.StaticFieldDeclaration" fileName="ClusterEmbeddingConstructor.java" startLine="28" startPosition="42" endLine="29" endPosition="35" />
+    <nodeInfo nodeId="1532165762814137365" conceptFqName="jetbrains.mps.baseLanguage.structure.StaticFieldDeclaration" fileName="ClusterEmbeddingConstructor.java" startLine="29" startPosition="35" endLine="30" endPosition="34" />
+    <nodeInfo nodeId="1532165762814137276" conceptFqName="jetbrains.mps.baseLanguage.structure.FieldDeclaration" fileName="ClusterEmbeddingConstructor.java" startLine="31" startPosition="0" endLine="32" endPosition="33" />
+    <nodeInfo nodeId="1532165762814137279" conceptFqName="jetbrains.mps.baseLanguage.structure.FieldDeclaration" fileName="ClusterEmbeddingConstructor.java" startLine="32" startPosition="33" endLine="33" endPosition="25" />
+    <nodeInfo nodeId="1532165762814137282" conceptFqName="jetbrains.mps.baseLanguage.structure.FieldDeclaration" fileName="ClusterEmbeddingConstructor.java" startLine="33" startPosition="25" endLine="34" endPosition="35" />
+    <nodeInfo nodeId="1532165762814137286" conceptFqName="jetbrains.mps.baseLanguage.structure.FieldDeclaration" fileName="ClusterEmbeddingConstructor.java" startLine="34" startPosition="35" endLine="35" endPosition="39" />
+    <nodeInfo nodeId="1532165762814137290" conceptFqName="jetbrains.mps.baseLanguage.structure.FieldDeclaration" fileName="ClusterEmbeddingConstructor.java" startLine="35" startPosition="39" endLine="36" endPosition="35" />
+    <nodeInfo nodeId="1532165762814137293" conceptFqName="jetbrains.mps.baseLanguage.structure.FieldDeclaration" fileName="ClusterEmbeddingConstructor.java" startLine="36" startPosition="35" endLine="37" endPosition="43" />
+    <nodeInfo nodeId="1532165762814137296" conceptFqName="jetbrains.mps.baseLanguage.structure.FieldDeclaration" fileName="ClusterEmbeddingConstructor.java" startLine="37" startPosition="43" endLine="38" endPosition="44" />
+    <nodeInfo nodeId="1532165762814137301" conceptFqName="jetbrains.mps.baseLanguage.structure.FieldDeclaration" fileName="ClusterEmbeddingConstructor.java" startLine="38" startPosition="44" endLine="39" endPosition="47" />
+    <nodeInfo nodeId="1532165762814137304" conceptFqName="jetbrains.mps.baseLanguage.structure.FieldDeclaration" fileName="ClusterEmbeddingConstructor.java" startLine="39" startPosition="47" endLine="40" endPosition="37" />
+    <nodeInfo nodeId="1532165762814137308" conceptFqName="jetbrains.mps.baseLanguage.structure.FieldDeclaration" fileName="ClusterEmbeddingConstructor.java" startLine="40" startPosition="37" endLine="41" endPosition="40" />
+    <nodeInfo nodeId="1532165762814137311" conceptFqName="jetbrains.mps.baseLanguage.structure.FieldDeclaration" fileName="ClusterEmbeddingConstructor.java" startLine="41" startPosition="40" endLine="42" endPosition="36" />
+    <nodeInfo nodeId="1532165762814137316" conceptFqName="jetbrains.mps.baseLanguage.structure.FieldDeclaration" fileName="ClusterEmbeddingConstructor.java" startLine="42" startPosition="36" endLine="43" endPosition="36" />
+    <nodeInfo nodeId="3444434563276270761" conceptFqName="jetbrains.mps.baseLanguage.structure.FieldDeclaration" fileName="ClusterEmbeddingConstructor.java" startLine="43" startPosition="36" endLine="44" endPosition="58" />
+    <nodeInfo nodeId="1532165762814137329" conceptFqName="jetbrains.mps.baseLanguage.structure.ExpressionStatement" fileName="ClusterEmbeddingConstructor.java" startLine="46" startPosition="102" endLine="47" endPosition="20" />
+    <nodeInfo nodeId="1532165762814137333" conceptFqName="jetbrains.mps.baseLanguage.structure.ExpressionStatement" fileName="ClusterEmbeddingConstructor.java" startLine="47" startPosition="20" endLine="48" endPosition="24" />
+    <nodeInfo nodeId="1532165762814137337" conceptFqName="jetbrains.mps.baseLanguage.structure.ExpressionStatement" fileName="ClusterEmbeddingConstructor.java" startLine="48" startPosition="24" endLine="49" endPosition="54" />
+    <nodeInfo nodeId="1532165762814137344" conceptFqName="jetbrains.mps.baseLanguage.structure.ExpressionStatement" fileName="ClusterEmbeddingConstructor.java" startLine="49" startPosition="54" endLine="50" endPosition="40" />
+    <nodeInfo nodeId="1532165762814137348" conceptFqName="jetbrains.mps.baseLanguage.structure.ExpressionStatement" fileName="ClusterEmbeddingConstructor.java" startLine="50" startPosition="40" endLine="51" endPosition="54" />
+    <nodeInfo nodeId="1532165762814136063" conceptFqName="jetbrains.mps.baseLanguage.structure.LocalVariableDeclarationStatement" fileName="ClusterEmbeddingConstructor.java" startLine="54" startPosition="45" endLine="55" endPosition="67" />
+    <nodeInfo nodeId="1532165762814136073" conceptFqName="jetbrains.mps.baseLanguage.structure.ReturnStatement" fileName="ClusterEmbeddingConstructor.java" startLine="56" startPosition="58" endLine="57" endPosition="40" />
+    <nodeInfo nodeId="1532165762814136093" conceptFqName="jetbrains.mps.baseLanguage.structure.LocalVariableDeclarationStatement" fileName="ClusterEmbeddingConstructor.java" startLine="58" startPosition="5" endLine="59" endPosition="69" />
+    <nodeInfo nodeId="1532165762814136101" conceptFqName="jetbrains.mps.baseLanguage.structure.ExpressionStatement" fileName="ClusterEmbeddingConstructor.java" startLine="60" startPosition="51" endLine="61" endPosition="88" />
+    <nodeInfo nodeId="1532165762814136115" conceptFqName="jetbrains.mps.baseLanguage.structure.ExpressionStatement" fileName="ClusterEmbeddingConstructor.java" startLine="62" startPosition="5" endLine="63" endPosition="49" />
+    <nodeInfo nodeId="1532165762814136121" conceptFqName="jetbrains.mps.baseLanguage.structure.ExpressionStatement" fileName="ClusterEmbeddingConstructor.java" startLine="63" startPosition="49" endLine="64" endPosition="63" />
+    <nodeInfo nodeId="1532165762814136134" conceptFqName="jetbrains.mps.baseLanguage.structure.LocalVariableDeclarationStatement" fileName="ClusterEmbeddingConstructor.java" startLine="65" startPosition="76" endLine="66" endPosition="40" />
+    <nodeInfo nodeId="1532165762814136140" conceptFqName="jetbrains.mps.baseLanguage.structure.ExpressionStatement" fileName="ClusterEmbeddingConstructor.java" startLine="66" startPosition="40" endLine="67" endPosition="57" />
+    <nodeInfo nodeId="1532165762814136152" conceptFqName="jetbrains.mps.baseLanguage.structure.LocalVariableDeclarationStatement" fileName="ClusterEmbeddingConstructor.java" startLine="68" startPosition="64" endLine="69" endPosition="35" />
+    <nodeInfo nodeId="1532165762814136158" conceptFqName="jetbrains.mps.baseLanguage.structure.LocalVariableDeclarationStatement" fileName="ClusterEmbeddingConstructor.java" startLine="69" startPosition="35" endLine="70" endPosition="66" />
+    <nodeInfo nodeId="1532165762814136166" conceptFqName="jetbrains.mps.baseLanguage.structure.ThrowStatement" fileName="ClusterEmbeddingConstructor.java" startLine="71" startPosition="31" endLine="72" endPosition="69" />
+    <nodeInfo nodeId="1532165762814136173" conceptFqName="jetbrains.mps.baseLanguage.structure.LocalVariableDeclarationStatement" fileName="ClusterEmbeddingConstructor.java" startLine="73" startPosition="9" endLine="74" endPosition="39" />
+    <nodeInfo nodeId="1532165762814136179" conceptFqName="jetbrains.mps.baseLanguage.structure.LocalVariableDeclarationStatement" fileName="ClusterEmbeddingConstructor.java" startLine="74" startPosition="39" endLine="75" endPosition="24" />
+    <nodeInfo nodeId="1532165762814136184" conceptFqName="jetbrains.mps.baseLanguage.structure.ExpressionStatement" fileName="ClusterEmbeddingConstructor.java" startLine="76" startPosition="41" endLine="77" endPosition="44" />
+    <nodeInfo nodeId="1532165762814136197" conceptFqName="jetbrains.mps.baseLanguage.structure.ExpressionStatement" fileName="ClusterEmbeddingConstructor.java" startLine="78" startPosition="16" endLine="79" endPosition="44" />
+    <nodeInfo nodeId="1532165762814136203" conceptFqName="jetbrains.mps.baseLanguage.structure.ExpressionStatement" fileName="ClusterEmbeddingConstructor.java" startLine="80" startPosition="9" endLine="81" endPosition="57" />
+    <nodeInfo nodeId="1532165762814136215" conceptFqName="jetbrains.mps.baseLanguage.structure.ExpressionStatement" fileName="ClusterEmbeddingConstructor.java" startLine="84" startPosition="64" endLine="85" endPosition="54" />
+    <nodeInfo nodeId="1532165762814136225" conceptFqName="jetbrains.mps.baseLanguage.structure.LocalVariableDeclarationStatement" fileName="ClusterEmbeddingConstructor.java" startLine="87" startPosition="84" endLine="88" endPosition="63" />
+    <nodeInfo nodeId="1532165762814136231" conceptFqName="jetbrains.mps.baseLanguage.structure.ExpressionStatement" fileName="ClusterEmbeddingConstructor.java" startLine="88" startPosition="63" endLine="89" endPosition="40" />
+    <nodeInfo nodeId="1532165762814136238" conceptFqName="jetbrains.mps.baseLanguage.structure.ExpressionStatement" fileName="ClusterEmbeddingConstructor.java" startLine="90" startPosition="49" endLine="91" endPosition="47" />
+    <nodeInfo nodeId="3444434563276270802" conceptFqName="jetbrains.mps.baseLanguage.structure.ExpressionStatement" fileName="ClusterEmbeddingConstructor.java" startLine="94" startPosition="91" endLine="95" endPosition="78" />
+    <nodeInfo nodeId="1532165762814136252" conceptFqName="jetbrains.mps.baseLanguage.structure.ReturnStatement" fileName="ClusterEmbeddingConstructor.java" startLine="96" startPosition="5" endLine="97" endPosition="27" />
+    <nodeInfo nodeId="1532165762814136258" conceptFqName="jetbrains.mps.baseLanguage.structure.LocalVariableDeclarationStatement" fileName="ClusterEmbeddingConstructor.java" startLine="100" startPosition="85" endLine="101" endPosition="70" />
+    <nodeInfo nodeId="1532165762814136264" conceptFqName="jetbrains.mps.baseLanguage.structure.LocalVariableDeclarationStatement" fileName="ClusterEmbeddingConstructor.java" startLine="101" startPosition="70" endLine="102" endPosition="64" />
+    <nodeInfo nodeId="1532165762814136272" conceptFqName="jetbrains.mps.baseLanguage.structure.LocalVariableDeclarationStatement" fileName="ClusterEmbeddingConstructor.java" startLine="102" startPosition="64" endLine="103" endPosition="117" />
+    <nodeInfo nodeId="1532165762814136286" conceptFqName="jetbrains.mps.baseLanguage.structure.LocalVariableDeclarationStatement" fileName="ClusterEmbeddingConstructor.java" startLine="104" startPosition="52" endLine="105" endPosition="33" />
+    <nodeInfo nodeId="1532165762814136292" conceptFqName="jetbrains.mps.baseLanguage.structure.LocalVariableDeclarationStatement" fileName="ClusterEmbeddingConstructor.java" startLine="105" startPosition="33" endLine="106" endPosition="64" />
+    <nodeInfo nodeId="1532165762814136298" conceptFqName="jetbrains.mps.baseLanguage.structure.LocalVariableDeclarationStatement" fileName="ClusterEmbeddingConstructor.java" startLine="106" startPosition="64" endLine="107" endPosition="65" />
+    <nodeInfo nodeId="1532165762814136308" conceptFqName="jetbrains.mps.baseLanguage.structure.ExpressionStatement" fileName="ClusterEmbeddingConstructor.java" startLine="108" startPosition="37" endLine="109" endPosition="58" />
+    <nodeInfo nodeId="1532165762814136321" conceptFqName="jetbrains.mps.baseLanguage.structure.ExpressionStatement" fileName="ClusterEmbeddingConstructor.java" startLine="110" startPosition="14" endLine="111" endPosition="57" />
+    <nodeInfo nodeId="1532165762814136327" conceptFqName="jetbrains.mps.baseLanguage.structure.ExpressionStatement" fileName="ClusterEmbeddingConstructor.java" startLine="112" startPosition="7" endLine="113" endPosition="69" />
+    <nodeInfo nodeId="1532165762814136337" conceptFqName="jetbrains.mps.baseLanguage.structure.LocalVariableDeclarationStatement" fileName="ClusterEmbeddingConstructor.java" startLine="114" startPosition="5" endLine="115" endPosition="120" />
+    <nodeInfo nodeId="3444434563276270813" conceptFqName="jetbrains.mps.baseLanguage.structure.ExpressionStatement" fileName="ClusterEmbeddingConstructor.java" startLine="115" startPosition="120" endLine="116" endPosition="57" />
+    <nodeInfo nodeId="1532165762814136345" conceptFqName="jetbrains.mps.baseLanguage.structure.LocalVariableDeclarationStatement" fileName="ClusterEmbeddingConstructor.java" startLine="116" startPosition="57" endLine="117" endPosition="74" />
+    <nodeInfo nodeId="1532165762814136351" conceptFqName="jetbrains.mps.baseLanguage.structure.ExpressionStatement" fileName="ClusterEmbeddingConstructor.java" startLine="117" startPosition="74" endLine="118" endPosition="63" />
+    <nodeInfo nodeId="1532165762814136372" conceptFqName="jetbrains.mps.baseLanguage.structure.ContinueStatement" fileName="ClusterEmbeddingConstructor.java" startLine="121" startPosition="52" endLine="122" endPosition="19" />
+    <nodeInfo nodeId="1532165762814136373" conceptFqName="jetbrains.mps.baseLanguage.structure.ExpressionStatement" fileName="ClusterEmbeddingConstructor.java" startLine="123" startPosition="9" endLine="124" endPosition="38" />
+    <nodeInfo nodeId="1532165762814136381" conceptFqName="jetbrains.mps.baseLanguage.structure.LocalVariableDeclarationStatement" fileName="ClusterEmbeddingConstructor.java" startLine="125" startPosition="7" endLine="126" endPosition="68" />
+    <nodeInfo nodeId="1532165762814136390" conceptFqName="jetbrains.mps.baseLanguage.structure.LocalVariableDeclarationStatement" fileName="ClusterEmbeddingConstructor.java" startLine="127" startPosition="70" endLine="128" endPosition="80" />
+    <nodeInfo nodeId="1532165762814136396" conceptFqName="jetbrains.mps.baseLanguage.structure.LocalVariableDeclarationStatement" fileName="ClusterEmbeddingConstructor.java" startLine="128" startPosition="80" endLine="129" endPosition="81" />
+    <nodeInfo nodeId="1532165762814136402" conceptFqName="jetbrains.mps.baseLanguage.structure.LocalVariableDeclarationStatement" fileName="ClusterEmbeddingConstructor.java" startLine="129" startPosition="81" endLine="130" endPosition="25" />
+    <nodeInfo nodeId="1532165762814136410" conceptFqName="jetbrains.mps.baseLanguage.structure.ExpressionStatement" fileName="ClusterEmbeddingConstructor.java" startLine="131" startPosition="59" endLine="132" endPosition="19" />
+    <nodeInfo nodeId="1532165762814136419" conceptFqName="jetbrains.mps.baseLanguage.structure.LocalVariableDeclarationStatement" fileName="ClusterEmbeddingConstructor.java" startLine="133" startPosition="9" endLine="134" endPosition="94" />
+    <nodeInfo nodeId="1532165762814136425" conceptFqName="jetbrains.mps.baseLanguage.structure.LocalVariableDeclarationStatement" fileName="ClusterEmbeddingConstructor.java" startLine="134" startPosition="94" endLine="135" endPosition="127" />
+    <nodeInfo nodeId="1532165762814136436" conceptFqName="jetbrains.mps.baseLanguage.structure.LocalVariableDeclarationStatement" fileName="ClusterEmbeddingConstructor.java" startLine="135" startPosition="127" endLine="136" endPosition="47" />
+    <nodeInfo nodeId="1532165762814136451" conceptFqName="jetbrains.mps.baseLanguage.structure.ReturnStatement" fileName="ClusterEmbeddingConstructor.java" startLine="138" startPosition="44" endLine="139" endPosition="51" />
+    <nodeInfo nodeId="1532165762814136461" conceptFqName="jetbrains.mps.baseLanguage.structure.ThrowStatement" fileName="ClusterEmbeddingConstructor.java" startLine="142" startPosition="40" endLine="143" endPosition="85" />
+    <nodeInfo nodeId="1532165762814136468" conceptFqName="jetbrains.mps.baseLanguage.structure.ExpressionStatement" fileName="ClusterEmbeddingConstructor.java" startLine="144" startPosition="9" endLine="145" endPosition="47" />
+    <nodeInfo nodeId="1532165762814136473" conceptFqName="jetbrains.mps.baseLanguage.structure.ExpressionStatement" fileName="ClusterEmbeddingConstructor.java" startLine="145" startPosition="47" endLine="146" endPosition="60" />
+    <nodeInfo nodeId="1532165762814136477" conceptFqName="jetbrains.mps.baseLanguage.structure.ExpressionStatement" fileName="ClusterEmbeddingConstructor.java" startLine="146" startPosition="60" endLine="147" endPosition="60" />
+    <nodeInfo nodeId="1532165762814136481" conceptFqName="jetbrains.mps.baseLanguage.structure.LocalVariableDeclarationStatement" fileName="ClusterEmbeddingConstructor.java" startLine="147" startPosition="60" endLine="148" endPosition="82" />
+    <nodeInfo nodeId="1532165762814136487" conceptFqName="jetbrains.mps.baseLanguage.structure.LocalVariableDeclarationStatement" fileName="ClusterEmbeddingConstructor.java" startLine="148" startPosition="82" endLine="149" endPosition="90" />
+    <nodeInfo nodeId="1532165762814136493" conceptFqName="jetbrains.mps.baseLanguage.structure.ExpressionStatement" fileName="ClusterEmbeddingConstructor.java" startLine="149" startPosition="90" endLine="150" endPosition="106" />
+    <nodeInfo nodeId="1532165762814136503" conceptFqName="jetbrains.mps.baseLanguage.structure.ExpressionStatement" fileName="ClusterEmbeddingConstructor.java" startLine="150" startPosition="106" endLine="151" endPosition="104" />
+    <nodeInfo nodeId="1532165762814136513" conceptFqName="jetbrains.mps.baseLanguage.structure.ExpressionStatement" fileName="ClusterEmbeddingConstructor.java" startLine="151" startPosition="104" endLine="152" endPosition="140" />
+    <nodeInfo nodeId="1532165762814136556" conceptFqName="jetbrains.mps.baseLanguage.structure.ReturnStatement" fileName="ClusterEmbeddingConstructor.java" startLine="159" startPosition="40" endLine="160" endPosition="113" />
+    <nodeInfo nodeId="1532165762814136575" conceptFqName="jetbrains.mps.baseLanguage.structure.ReturnStatement" fileName="ClusterEmbeddingConstructor.java" startLine="164" startPosition="40" endLine="165" endPosition="82" />
+    <nodeInfo nodeId="1532165762814136594" conceptFqName="jetbrains.mps.baseLanguage.structure.SingleLineComment" fileName="ClusterEmbeddingConstructor.java" startLine="170" startPosition="63" endLine="171" endPosition="91" />
+    <nodeInfo nodeId="1532165762814136596" conceptFqName="jetbrains.mps.baseLanguage.structure.SingleLineComment" fileName="ClusterEmbeddingConstructor.java" startLine="171" startPosition="91" endLine="172" endPosition="37" />
+    <nodeInfo nodeId="1532165762814136598" conceptFqName="jetbrains.mps.baseLanguage.structure.ExpressionStatement" fileName="ClusterEmbeddingConstructor.java" startLine="172" startPosition="37" endLine="173" endPosition="37" />
+    <nodeInfo nodeId="1532165762814136603" conceptFqName="jetbrains.mps.baseLanguage.structure.LocalVariableDeclarationStatement" fileName="ClusterEmbeddingConstructor.java" startLine="173" startPosition="37" endLine="174" endPosition="77" />
+    <nodeInfo nodeId="1532165762814136612" conceptFqName="jetbrains.mps.baseLanguage.structure.ExpressionStatement" fileName="ClusterEmbeddingConstructor.java" startLine="174" startPosition="77" endLine="175" endPosition="71" />
+    <nodeInfo nodeId="1532165762814136619" conceptFqName="jetbrains.mps.baseLanguage.structure.LocalVariableDeclarationStatement" fileName="ClusterEmbeddingConstructor.java" startLine="175" startPosition="71" endLine="176" endPosition="63" />
+    <nodeInfo nodeId="1532165762814136631" conceptFqName="jetbrains.mps.baseLanguage.structure.LocalVariableDeclarationStatement" fileName="ClusterEmbeddingConstructor.java" startLine="177" startPosition="64" endLine="178" endPosition="57" />
+    <nodeInfo nodeId="1532165762814136641" conceptFqName="jetbrains.mps.baseLanguage.structure.ExpressionStatement" fileName="ClusterEmbeddingConstructor.java" startLine="179" startPosition="63" endLine="180" endPosition="60" />
+    <nodeInfo nodeId="1532165762814136651" conceptFqName="jetbrains.mps.baseLanguage.structure.ExpressionStatement" fileName="ClusterEmbeddingConstructor.java" startLine="181" startPosition="7" endLine="182" endPosition="73" />
+    <nodeInfo nodeId="1532165762814136657" conceptFqName="jetbrains.mps.baseLanguage.structure.LocalVariableDeclarationStatement" fileName="ClusterEmbeddingConstructor.java" startLine="183" startPosition="5" endLine="184" endPosition="80" />
+    <nodeInfo nodeId="1532165762814136674" conceptFqName="jetbrains.mps.baseLanguage.structure.LocalVariableDeclarationStatement" fileName="ClusterEmbeddingConstructor.java" startLine="186" startPosition="46" endLine="187" endPosition="39" />
+    <nodeInfo nodeId="1532165762814136682" conceptFqName="jetbrains.mps.baseLanguage.structure.LocalVariableDeclarationStatement" fileName="ClusterEmbeddingConstructor.java" startLine="188" startPosition="155" endLine="189" endPosition="136" />
+    <nodeInfo nodeId="1532165762814136694" conceptFqName="jetbrains.mps.baseLanguage.structure.ExpressionStatement" fileName="ClusterEmbeddingConstructor.java" startLine="189" startPosition="136" endLine="190" endPosition="61" />
+    <nodeInfo nodeId="1532165762814136715" conceptFqName="jetbrains.mps.baseLanguage.structure.LocalVariableDeclarationStatement" fileName="ClusterEmbeddingConstructor.java" startLine="193" startPosition="5" endLine="194" endPosition="89" />
+    <nodeInfo nodeId="1532165762814136725" conceptFqName="jetbrains.mps.baseLanguage.structure.LocalVariableDeclarationStatement" fileName="ClusterEmbeddingConstructor.java" startLine="195" startPosition="60" endLine="196" endPosition="64" />
+    <nodeInfo nodeId="1532165762814136735" conceptFqName="jetbrains.mps.baseLanguage.structure.LocalVariableDeclarationStatement" fileName="ClusterEmbeddingConstructor.java" startLine="196" startPosition="64" endLine="197" endPosition="59" />
+    <nodeInfo nodeId="1532165762814136743" conceptFqName="jetbrains.mps.baseLanguage.structure.LocalVariableDeclarationStatement" fileName="ClusterEmbeddingConstructor.java" startLine="197" startPosition="59" endLine="198" endPosition="54" />
+    <nodeInfo nodeId="1532165762814136751" conceptFqName="jetbrains.mps.baseLanguage.structure.ExpressionStatement" fileName="ClusterEmbeddingConstructor.java" startLine="198" startPosition="54" endLine="199" endPosition="58" />
+    <nodeInfo nodeId="1532165762814136757" conceptFqName="jetbrains.mps.baseLanguage.structure.LocalVariableDeclarationStatement" fileName="ClusterEmbeddingConstructor.java" startLine="200" startPosition="5" endLine="201" endPosition="138" />
+    <nodeInfo nodeId="1532165762814136765" conceptFqName="jetbrains.mps.baseLanguage.structure.ExpressionStatement" fileName="ClusterEmbeddingConstructor.java" startLine="201" startPosition="138" endLine="202" endPosition="85" />
+    <nodeInfo nodeId="1532165762814136772" conceptFqName="jetbrains.mps.baseLanguage.structure.Statement" fileName="ClusterEmbeddingConstructor.java" startLine="202" startPosition="85" endLine="203" endPosition="0" />
+    <nodeInfo nodeId="1532165762814136780" conceptFqName="jetbrains.mps.baseLanguage.structure.SingleLineComment" fileName="ClusterEmbeddingConstructor.java" startLine="204" startPosition="63" endLine="205" endPosition="99" />
+    <nodeInfo nodeId="1532165762814136782" conceptFqName="jetbrains.mps.baseLanguage.structure.SingleLineComment" fileName="ClusterEmbeddingConstructor.java" startLine="205" startPosition="99" endLine="206" endPosition="70" />
+    <nodeInfo nodeId="1532165762814136784" conceptFqName="jetbrains.mps.baseLanguage.structure.ExpressionStatement" fileName="ClusterEmbeddingConstructor.java" startLine="206" startPosition="70" endLine="207" endPosition="54" />
+    <nodeInfo nodeId="1532165762814136789" conceptFqName="jetbrains.mps.baseLanguage.structure.LocalVariableDeclarationStatement" fileName="ClusterEmbeddingConstructor.java" startLine="207" startPosition="54" endLine="208" endPosition="129" />
+    <nodeInfo nodeId="1532165762814136799" conceptFqName="jetbrains.mps.baseLanguage.structure.ExpressionStatement" fileName="ClusterEmbeddingConstructor.java" startLine="208" startPosition="129" endLine="209" endPosition="117" />
+    <nodeInfo nodeId="1532165762814136808" conceptFqName="jetbrains.mps.baseLanguage.structure.LocalVariableDeclarationStatement" fileName="ClusterEmbeddingConstructor.java" startLine="209" startPosition="117" endLine="210" endPosition="126" />
+    <nodeInfo nodeId="1532165762814136818" conceptFqName="jetbrains.mps.baseLanguage.structure.LocalVariableDeclarationStatement" fileName="ClusterEmbeddingConstructor.java" startLine="210" startPosition="126" endLine="211" endPosition="128" />
+    <nodeInfo nodeId="1532165762814136828" conceptFqName="jetbrains.mps.baseLanguage.structure.LocalVariableDeclarationStatement" fileName="ClusterEmbeddingConstructor.java" startLine="211" startPosition="128" endLine="212" endPosition="127" />
+    <nodeInfo nodeId="1532165762814136842" conceptFqName="jetbrains.mps.baseLanguage.structure.LocalVariableDeclarationStatement" fileName="ClusterEmbeddingConstructor.java" startLine="213" startPosition="71" endLine="214" endPosition="63" />
+    <nodeInfo nodeId="1532165762814136847" conceptFqName="jetbrains.mps.baseLanguage.structure.LocalVariableDeclarationStatement" fileName="ClusterEmbeddingConstructor.java" startLine="214" startPosition="63" endLine="215" endPosition="68" />
+    <nodeInfo nodeId="1532165762814136856" conceptFqName="jetbrains.mps.baseLanguage.structure.LocalVariableDeclarationStatement" fileName="ClusterEmbeddingConstructor.java" startLine="215" startPosition="68" endLine="216" endPosition="60" />
+    <nodeInfo nodeId="1532165762814136864" conceptFqName="jetbrains.mps.baseLanguage.structure.ExpressionStatement" fileName="ClusterEmbeddingConstructor.java" startLine="216" startPosition="60" endLine="217" endPosition="118" />
+    <nodeInfo nodeId="1532165762814136873" conceptFqName="jetbrains.mps.baseLanguage.structure.LocalVariableDeclarationStatement" fileName="ClusterEmbeddingConstructor.java" startLine="217" startPosition="118" endLine="218" endPosition="61" />
+    <nodeInfo nodeId="1532165762814136879" conceptFqName="jetbrains.mps.baseLanguage.structure.ExpressionStatement" fileName="ClusterEmbeddingConstructor.java" startLine="218" startPosition="61" endLine="219" endPosition="72" />
+    <nodeInfo nodeId="1532165762814136884" conceptFqName="jetbrains.mps.baseLanguage.structure.LocalVariableDeclarationStatement" fileName="ClusterEmbeddingConstructor.java" startLine="219" startPosition="72" endLine="220" endPosition="26" />
+    <nodeInfo nodeId="1532165762814136889" conceptFqName="jetbrains.mps.baseLanguage.structure.ExpressionStatement" fileName="ClusterEmbeddingConstructor.java" startLine="221" startPosition="23" endLine="222" endPosition="118" />
+    <nodeInfo nodeId="1532165762814136902" conceptFqName="jetbrains.mps.baseLanguage.structure.ExpressionStatement" fileName="ClusterEmbeddingConstructor.java" startLine="223" startPosition="16" endLine="224" endPosition="118" />
+    <nodeInfo nodeId="1532165762814136921" conceptFqName="jetbrains.mps.baseLanguage.structure.ReturnStatement" fileName="ClusterEmbeddingConstructor.java" startLine="227" startPosition="42" endLine="228" endPosition="90" />
+    <nodeInfo nodeId="1532165762814136930" conceptFqName="jetbrains.mps.baseLanguage.structure.ExpressionStatement" fileName="ClusterEmbeddingConstructor.java" startLine="230" startPosition="11" endLine="231" endPosition="73" />
+    <nodeInfo nodeId="1532165762814136942" conceptFqName="jetbrains.mps.baseLanguage.structure.ExpressionStatement" fileName="ClusterEmbeddingConstructor.java" startLine="231" startPosition="73" endLine="232" endPosition="70" />
+    <nodeInfo nodeId="1532165762814136947" conceptFqName="jetbrains.mps.baseLanguage.structure.LocalVariableDeclarationStatement" fileName="ClusterEmbeddingConstructor.java" startLine="233" startPosition="7" endLine="234" endPosition="52" />
+    <nodeInfo nodeId="1532165762814136955" conceptFqName="jetbrains.mps.baseLanguage.structure.LocalVariableDeclarationStatement" fileName="ClusterEmbeddingConstructor.java" startLine="235" startPosition="82" endLine="236" endPosition="25" />
+    <nodeInfo nodeId="1532165762814136963" conceptFqName="jetbrains.mps.baseLanguage.structure.ExpressionStatement" fileName="ClusterEmbeddingConstructor.java" startLine="237" startPosition="71" endLine="238" endPosition="19" />
+    <nodeInfo nodeId="1532165762814136973" conceptFqName="jetbrains.mps.baseLanguage.structure.LocalVariableDeclarationStatement" fileName="ClusterEmbeddingConstructor.java" startLine="239" startPosition="9" endLine="240" endPosition="157" />
+    <nodeInfo nodeId="1532165762814136985" conceptFqName="jetbrains.mps.baseLanguage.structure.ExpressionStatement" fileName="ClusterEmbeddingConstructor.java" startLine="240" startPosition="157" endLine="241" endPosition="74" />
+    <nodeInfo nodeId="1532165762814136990" conceptFqName="jetbrains.mps.baseLanguage.structure.LocalVariableDeclarationStatement" fileName="ClusterEmbeddingConstructor.java" startLine="241" startPosition="74" endLine="242" endPosition="165" />
+    <nodeInfo nodeId="1532165762814137002" conceptFqName="jetbrains.mps.baseLanguage.structure.ExpressionStatement" fileName="ClusterEmbeddingConstructor.java" startLine="242" startPosition="165" endLine="243" endPosition="74" />
+    <nodeInfo nodeId="1532165762814137013" conceptFqName="jetbrains.mps.baseLanguage.structure.ExpressionStatement" fileName="ClusterEmbeddingConstructor.java" startLine="243" startPosition="74" endLine="244" endPosition="75" />
+    <nodeInfo nodeId="1532165762814137019" conceptFqName="jetbrains.mps.baseLanguage.structure.ExpressionStatement" fileName="ClusterEmbeddingConstructor.java" startLine="244" startPosition="75" endLine="245" endPosition="107" />
+    <nodeInfo nodeId="1532165762814137039" conceptFqName="jetbrains.mps.baseLanguage.structure.Statement" fileName="ClusterEmbeddingConstructor.java" startLine="246" startPosition="7" endLine="247" endPosition="0" />
+    <nodeInfo nodeId="1532165762814137040" conceptFqName="jetbrains.mps.baseLanguage.structure.SingleLineComment" fileName="ClusterEmbeddingConstructor.java" startLine="247" startPosition="0" endLine="248" endPosition="88" />
+    <nodeInfo nodeId="3167072330486700975" conceptFqName="jetbrains.mps.baseLanguage.structure.LocalVariableDeclarationStatement" fileName="ClusterEmbeddingConstructor.java" startLine="248" startPosition="88" endLine="249" endPosition="75" />
+    <nodeInfo nodeId="3167072330486700990" conceptFqName="jetbrains.mps.baseLanguage.structure.LocalVariableDeclarationStatement" fileName="ClusterEmbeddingConstructor.java" startLine="249" startPosition="75" endLine="250" endPosition="65" />
+    <nodeInfo nodeId="3167072330486700962" conceptFqName="jetbrains.mps.baseLanguage.structure.LocalVariableDeclarationStatement" fileName="ClusterEmbeddingConstructor.java" startLine="250" startPosition="65" endLine="251" endPosition="66" />
+    <nodeInfo nodeId="1532165762814137042" conceptFqName="jetbrains.mps.baseLanguage.structure.LocalVariableDeclarationStatement" fileName="ClusterEmbeddingConstructor.java" startLine="251" startPosition="66" endLine="252" endPosition="140" />
+    <nodeInfo nodeId="3167072330486705080" conceptFqName="jetbrains.mps.baseLanguage.structure.ExpressionStatement" fileName="ClusterEmbeddingConstructor.java" startLine="252" startPosition="140" endLine="253" endPosition="54" />
+    <nodeInfo nodeId="1532165762814137086" conceptFqName="jetbrains.mps.baseLanguage.structure.LocalVariableDeclarationStatement" fileName="ClusterEmbeddingConstructor.java" startLine="253" startPosition="54" endLine="254" endPosition="51" />
+    <nodeInfo nodeId="1532165762814137092" conceptFqName="jetbrains.mps.baseLanguage.structure.ExpressionStatement" fileName="ClusterEmbeddingConstructor.java" startLine="254" startPosition="51" endLine="255" endPosition="59" />
+    <nodeInfo nodeId="1532165762814137104" conceptFqName="jetbrains.mps.baseLanguage.structure.ExpressionStatement" fileName="ClusterEmbeddingConstructor.java" startLine="256" startPosition="65" endLine="257" endPosition="59" />
+    <nodeInfo nodeId="1532165762814137114" conceptFqName="jetbrains.mps.baseLanguage.structure.ExpressionStatement" fileName="ClusterEmbeddingConstructor.java" startLine="258" startPosition="7" endLine="259" endPosition="58" />
+    <nodeInfo nodeId="1532165762814137130" conceptFqName="jetbrains.mps.baseLanguage.structure.ExpressionStatement" fileName="ClusterEmbeddingConstructor.java" startLine="260" startPosition="76" endLine="261" endPosition="31" />
+    <nodeInfo nodeId="1532165762814137135" conceptFqName="jetbrains.mps.baseLanguage.structure.ExpressionStatement" fileName="ClusterEmbeddingConstructor.java" startLine="262" startPosition="7" endLine="263" endPosition="54" />
+    <nodeInfo nodeId="1532165762814137140" conceptFqName="jetbrains.mps.baseLanguage.structure.ExpressionStatement" fileName="ClusterEmbeddingConstructor.java" startLine="263" startPosition="54" endLine="264" endPosition="43" />
+    <nodeInfo nodeId="1532165762814137145" conceptFqName="jetbrains.mps.baseLanguage.structure.ExpressionStatement" fileName="ClusterEmbeddingConstructor.java" startLine="264" startPosition="43" endLine="265" endPosition="44" />
+    <nodeInfo nodeId="1532165762814137150" conceptFqName="jetbrains.mps.baseLanguage.structure.ExpressionStatement" fileName="ClusterEmbeddingConstructor.java" startLine="265" startPosition="44" endLine="266" endPosition="49" />
+    <nodeInfo nodeId="1532165762814137157" conceptFqName="jetbrains.mps.baseLanguage.structure.ExpressionStatement" fileName="ClusterEmbeddingConstructor.java" startLine="267" startPosition="54" endLine="268" endPosition="66" />
+    <nodeInfo nodeId="1532165762814137163" conceptFqName="jetbrains.mps.baseLanguage.structure.Statement" fileName="ClusterEmbeddingConstructor.java" startLine="269" startPosition="7" endLine="270" endPosition="0" />
+    <nodeInfo nodeId="1532165762814137164" conceptFqName="jetbrains.mps.baseLanguage.structure.SingleLineComment" fileName="ClusterEmbeddingConstructor.java" startLine="270" startPosition="0" endLine="271" endPosition="33" />
+    <nodeInfo nodeId="1532165762814137166" conceptFqName="jetbrains.mps.baseLanguage.structure.ExpressionStatement" fileName="ClusterEmbeddingConstructor.java" startLine="271" startPosition="33" endLine="272" endPosition="103" />
+    <nodeInfo nodeId="3167072330486701033" conceptFqName="jetbrains.mps.baseLanguage.structure.ContinueStatement" fileName="ClusterEmbeddingConstructor.java" startLine="274" startPosition="29" endLine="275" endPosition="19" />
+    <nodeInfo nodeId="1532165762814137177" conceptFqName="jetbrains.mps.baseLanguage.structure.ExpressionStatement" fileName="ClusterEmbeddingConstructor.java" startLine="276" startPosition="9" endLine="277" endPosition="44" />
+    <nodeInfo nodeId="1532165762814137182" conceptFqName="jetbrains.mps.baseLanguage.structure.ExpressionStatement" fileName="ClusterEmbeddingConstructor.java" startLine="277" startPosition="44" endLine="278" endPosition="74" />
+    <nodeInfo nodeId="1532165762814137187" conceptFqName="jetbrains.mps.baseLanguage.structure.ExpressionStatement" fileName="ClusterEmbeddingConstructor.java" startLine="280" startPosition="5" endLine="281" endPosition="24" />
+    <nodeInfo nodeId="1532165762814137191" conceptFqName="jetbrains.mps.baseLanguage.structure.ReturnStatement" fileName="ClusterEmbeddingConstructor.java" startLine="281" startPosition="24" endLine="282" endPosition="22" />
+    <nodeInfo nodeId="1532165762814137209" conceptFqName="jetbrains.mps.baseLanguage.structure.ReturnStatement" fileName="ClusterEmbeddingConstructor.java" startLine="287" startPosition="38" endLine="288" endPosition="63" />
+    <nodeInfo nodeId="1532165762814137221" conceptFqName="jetbrains.mps.baseLanguage.structure.LocalVariableDeclarationStatement" fileName="ClusterEmbeddingConstructor.java" startLine="293" startPosition="42" endLine="294" endPosition="86" />
+    <nodeInfo nodeId="1532165762814137230" conceptFqName="jetbrains.mps.baseLanguage.structure.LocalVariableDeclarationStatement" fileName="ClusterEmbeddingConstructor.java" startLine="294" startPosition="86" endLine="295" endPosition="86" />
+    <nodeInfo nodeId="1532165762814137241" conceptFqName="jetbrains.mps.baseLanguage.structure.ThrowStatement" fileName="ClusterEmbeddingConstructor.java" startLine="296" startPosition="31" endLine="297" endPosition="87" />
+    <nodeInfo nodeId="1532165762814137256" conceptFqName="jetbrains.mps.baseLanguage.structure.ReturnStatement" fileName="ClusterEmbeddingConstructor.java" startLine="299" startPosition="19" endLine="300" endPosition="30" />
+    <nodeInfo nodeId="1532165762814137263" conceptFqName="jetbrains.mps.baseLanguage.structure.ReturnStatement" fileName="ClusterEmbeddingConstructor.java" startLine="301" startPosition="12" endLine="302" endPosition="30" />
+    <nodeInfo nodeId="1532165762814137274" conceptFqName="jetbrains.mps.baseLanguage.structure.ReturnStatement" fileName="ClusterEmbeddingConstructor.java" startLine="306" startPosition="40" endLine="307" endPosition="27" />
+    <nodeInfo nodeId="3444434563276270786" conceptFqName="jetbrains.mps.baseLanguage.structure.ExpressionStatement" fileName="ClusterEmbeddingConstructor.java" startLine="310" startPosition="75" endLine="311" endPosition="42" />
+    <nodeInfo nodeId="1532165762814136195" conceptFqName="jetbrains.mps.baseLanguage.structure.BlockStatement" fileName="ClusterEmbeddingConstructor.java" startLine="78" startPosition="14" endLine="80" endPosition="9" />
+    <nodeInfo nodeId="1532165762814136319" conceptFqName="jetbrains.mps.baseLanguage.structure.BlockStatement" fileName="ClusterEmbeddingConstructor.java" startLine="110" startPosition="12" endLine="112" endPosition="7" />
+    <nodeInfo nodeId="1532165762814136900" conceptFqName="jetbrains.mps.baseLanguage.structure.BlockStatement" fileName="ClusterEmbeddingConstructor.java" startLine="223" startPosition="14" endLine="225" endPosition="9" />
+    <nodeInfo nodeId="1532165762814137261" conceptFqName="jetbrains.mps.baseLanguage.structure.BlockStatement" fileName="ClusterEmbeddingConstructor.java" startLine="301" startPosition="10" endLine="303" endPosition="5" />
+    <nodeInfo nodeId="1532165762814136071" conceptFqName="jetbrains.mps.baseLanguage.structure.IfStatement" fileName="ClusterEmbeddingConstructor.java" startLine="55" startPosition="67" endLine="58" endPosition="5" />
+    <nodeInfo nodeId="1532165762814136099" conceptFqName="jetbrains.mps.baseLanguage.structure.IfStatement" fileName="ClusterEmbeddingConstructor.java" startLine="59" startPosition="69" endLine="62" endPosition="5" />
+    <nodeInfo nodeId="1532165762814136164" conceptFqName="jetbrains.mps.baseLanguage.structure.IfStatement" fileName="ClusterEmbeddingConstructor.java" startLine="70" startPosition="66" endLine="73" endPosition="9" />
+    <nodeInfo nodeId="1532165762814136211" conceptFqName="jetbrains.mps.baseLanguage.structure.ForeachStatement" fileName="ClusterEmbeddingConstructor.java" startLine="83" startPosition="5" endLine="86" endPosition="5" />
+    <nodeInfo nodeId="1532165762814136236" conceptFqName="jetbrains.mps.baseLanguage.structure.IfStatement" fileName="ClusterEmbeddingConstructor.java" startLine="89" startPosition="40" endLine="92" endPosition="7" />
+    <nodeInfo nodeId="3444434563276270793" conceptFqName="jetbrains.mps.baseLanguage.structure.IfStatement" fileName="ClusterEmbeddingConstructor.java" startLine="93" startPosition="5" endLine="96" endPosition="5" />
+    <nodeInfo nodeId="1532165762814136366" conceptFqName="jetbrains.mps.baseLanguage.structure.IfStatement" fileName="ClusterEmbeddingConstructor.java" startLine="120" startPosition="79" endLine="123" endPosition="9" />
+    <nodeInfo nodeId="1532165762814136408" conceptFqName="jetbrains.mps.baseLanguage.structure.IfStatement" fileName="ClusterEmbeddingConstructor.java" startLine="130" startPosition="25" endLine="133" endPosition="9" />
+    <nodeInfo nodeId="1532165762814136459" conceptFqName="jetbrains.mps.baseLanguage.structure.IfStatement" fileName="ClusterEmbeddingConstructor.java" startLine="141" startPosition="11" endLine="144" endPosition="9" />
+    <nodeInfo nodeId="1532165762814136637" conceptFqName="jetbrains.mps.baseLanguage.structure.ForeachStatement" fileName="ClusterEmbeddingConstructor.java" startLine="178" startPosition="57" endLine="181" endPosition="7" />
+    <nodeInfo nodeId="1532165762814136961" conceptFqName="jetbrains.mps.baseLanguage.structure.IfStatement" fileName="ClusterEmbeddingConstructor.java" startLine="236" startPosition="25" endLine="239" endPosition="9" />
+    <nodeInfo nodeId="1532165762814137100" conceptFqName="jetbrains.mps.baseLanguage.structure.ForeachStatement" fileName="ClusterEmbeddingConstructor.java" startLine="255" startPosition="59" endLine="258" endPosition="7" />
+    <nodeInfo nodeId="1532165762814137124" conceptFqName="jetbrains.mps.baseLanguage.structure.ForeachStatement" fileName="ClusterEmbeddingConstructor.java" startLine="259" startPosition="58" endLine="262" endPosition="7" />
+    <nodeInfo nodeId="1532165762814137155" conceptFqName="jetbrains.mps.baseLanguage.structure.IfStatement" fileName="ClusterEmbeddingConstructor.java" startLine="266" startPosition="49" endLine="269" endPosition="7" />
+    <nodeInfo nodeId="3167072330486701020" conceptFqName="jetbrains.mps.baseLanguage.structure.IfStatement" fileName="ClusterEmbeddingConstructor.java" startLine="273" startPosition="62" endLine="276" endPosition="9" />
+    <nodeInfo nodeId="1532165762814137239" conceptFqName="jetbrains.mps.baseLanguage.structure.IfStatement" fileName="ClusterEmbeddingConstructor.java" startLine="295" startPosition="86" endLine="298" endPosition="5" />
+    <nodeInfo nodeId="1532165762814136449" conceptFqName="jetbrains.mps.baseLanguage.structure.InstanceMethodDeclaration" fileName="ClusterEmbeddingConstructor.java" startLine="137" startPosition="102" endLine="141" endPosition="0" />
+    <nodeInfo nodeId="1532165762814136554" conceptFqName="jetbrains.mps.baseLanguage.structure.InstanceMethodDeclaration" fileName="ClusterEmbeddingConstructor.java" startLine="158" startPosition="115" endLine="162" endPosition="0" />
+    <nodeInfo nodeId="1532165762814136573" conceptFqName="jetbrains.mps.baseLanguage.structure.InstanceMethodDeclaration" fileName="ClusterEmbeddingConstructor.java" startLine="163" startPosition="109" endLine="167" endPosition="0" />
+    <nodeInfo nodeId="1532165762814136680" conceptFqName="jetbrains.mps.baseLanguage.structure.IfStatement" fileName="ClusterEmbeddingConstructor.java" startLine="187" startPosition="39" endLine="191" endPosition="9" />
+    <nodeInfo nodeId="1532165762814136919" conceptFqName="jetbrains.mps.baseLanguage.structure.InstanceMethodDeclaration" fileName="ClusterEmbeddingConstructor.java" startLine="226" startPosition="98" endLine="230" endPosition="0" />
+    <nodeInfo nodeId="1532165762814137207" conceptFqName="jetbrains.mps.baseLanguage.structure.InstanceMethodDeclaration" fileName="ClusterEmbeddingConstructor.java" startLine="286" startPosition="83" endLine="290" endPosition="0" />
+    <nodeInfo nodeId="1532165762814137269" conceptFqName="jetbrains.mps.baseLanguage.structure.InstanceMethodDeclaration" fileName="ClusterEmbeddingConstructor.java" startLine="305" startPosition="0" endLine="309" endPosition="0" />
+    <nodeInfo nodeId="3444434563276270774" conceptFqName="jetbrains.mps.baseLanguage.structure.InstanceMethodDeclaration" fileName="ClusterEmbeddingConstructor.java" startLine="309" startPosition="0" endLine="313" endPosition="0" />
+    <nodeInfo nodeId="1532165762814136182" conceptFqName="jetbrains.mps.baseLanguage.structure.IfStatement" fileName="ClusterEmbeddingConstructor.java" startLine="75" startPosition="24" endLine="80" endPosition="9" />
+    <nodeInfo nodeId="1532165762814136306" conceptFqName="jetbrains.mps.baseLanguage.structure.IfStatement" fileName="ClusterEmbeddingConstructor.java" startLine="107" startPosition="65" endLine="112" endPosition="7" />
+    <nodeInfo nodeId="1532165762814136443" conceptFqName="jetbrains.mps.baseLanguage.structure.LocalVariableDeclarationStatement" fileName="ClusterEmbeddingConstructor.java" startLine="136" startPosition="47" endLine="141" endPosition="11" />
+    <nodeInfo nodeId="1532165762814136546" conceptFqName="jetbrains.mps.baseLanguage.structure.LocalVariableDeclarationStatement" fileName="ClusterEmbeddingConstructor.java" startLine="157" startPosition="86" endLine="162" endPosition="7" />
+    <nodeInfo nodeId="1532165762814136566" conceptFqName="jetbrains.mps.baseLanguage.structure.ReturnStatement" fileName="ClusterEmbeddingConstructor.java" startLine="162" startPosition="7" endLine="167" endPosition="7" />
+    <nodeInfo nodeId="1532165762814136887" conceptFqName="jetbrains.mps.baseLanguage.structure.IfStatement" fileName="ClusterEmbeddingConstructor.java" startLine="220" startPosition="26" endLine="225" endPosition="9" />
+    <nodeInfo nodeId="1532165762814136913" conceptFqName="jetbrains.mps.baseLanguage.structure.LocalVariableDeclarationStatement" fileName="ClusterEmbeddingConstructor.java" startLine="225" startPosition="9" endLine="230" endPosition="11" />
+    <nodeInfo nodeId="1532165762814137203" conceptFqName="jetbrains.mps.baseLanguage.structure.ReturnStatement" fileName="ClusterEmbeddingConstructor.java" startLine="285" startPosition="79" endLine="290" endPosition="7" />
+    <nodeInfo nodeId="1532165762814137254" conceptFqName="jetbrains.mps.baseLanguage.structure.IfStatement" fileName="ClusterEmbeddingConstructor.java" startLine="298" startPosition="5" endLine="303" endPosition="5" />
+    <nodeInfo nodeId="1532165762814136363" conceptFqName="jetbrains.mps.baseLanguage.structure.ForeachStatement" fileName="ClusterEmbeddingConstructor.java" startLine="119" startPosition="76" endLine="125" endPosition="7" />
+    <nodeInfo nodeId="1532165762814136721" conceptFqName="jetbrains.mps.baseLanguage.structure.ForeachStatement" fileName="ClusterEmbeddingConstructor.java" startLine="194" startPosition="89" endLine="200" endPosition="5" />
+    <nodeInfo nodeId="1532165762814137325" conceptFqName="jetbrains.mps.baseLanguage.structure.ConstructorDeclaration" fileName="ClusterEmbeddingConstructor.java" startLine="45" startPosition="0" endLine="52" endPosition="3" />
+    <nodeInfo nodeId="1532165762814136219" conceptFqName="jetbrains.mps.baseLanguage.structure.ForeachStatement" fileName="ClusterEmbeddingConstructor.java" startLine="86" startPosition="5" endLine="93" endPosition="5" />
+    <nodeInfo nodeId="1532165762814136627" conceptFqName="jetbrains.mps.baseLanguage.structure.ForeachStatement" fileName="ClusterEmbeddingConstructor.java" startLine="176" startPosition="63" endLine="183" endPosition="5" />
+    <nodeInfo nodeId="1532165762814136670" conceptFqName="jetbrains.mps.baseLanguage.structure.ForeachStatement" fileName="ClusterEmbeddingConstructor.java" startLine="185" startPosition="61" endLine="192" endPosition="7" />
+    <nodeInfo nodeId="1532165762814137174" conceptFqName="jetbrains.mps.baseLanguage.structure.ForeachStatement" fileName="ClusterEmbeddingConstructor.java" startLine="272" startPosition="103" endLine="279" endPosition="7" />
+    <nodeInfo nodeId="1532165762814137193" conceptFqName="jetbrains.mps.baseLanguage.structure.InstanceMethodDeclaration" fileName="ClusterEmbeddingConstructor.java" startLine="284" startPosition="0" endLine="292" endPosition="0" />
+    <nodeInfo nodeId="1532165762814136666" conceptFqName="jetbrains.mps.baseLanguage.structure.ForeachStatement" fileName="ClusterEmbeddingConstructor.java" startLine="184" startPosition="80" endLine="193" endPosition="5" />
+    <nodeInfo nodeId="1532165762814136282" conceptFqName="jetbrains.mps.baseLanguage.structure.ForeachStatement" fileName="ClusterEmbeddingConstructor.java" startLine="103" startPosition="117" endLine="114" endPosition="5" />
+    <nodeInfo nodeId="1532165762814136953" conceptFqName="jetbrains.mps.baseLanguage.structure.ForStatement" fileName="ClusterEmbeddingConstructor.java" startLine="234" startPosition="52" endLine="246" endPosition="7" />
+    <nodeInfo nodeId="1532165762814136542" conceptFqName="jetbrains.mps.baseLanguage.structure.InstanceMethodDeclaration" fileName="ClusterEmbeddingConstructor.java" startLine="156" startPosition="0" endLine="169" endPosition="0" />
+    <nodeInfo nodeId="1532165762814137217" conceptFqName="jetbrains.mps.baseLanguage.structure.InstanceMethodDeclaration" fileName="ClusterEmbeddingConstructor.java" startLine="292" startPosition="0" endLine="305" endPosition="0" />
+    <nodeInfo nodeId="1532165762814136146" conceptFqName="jetbrains.mps.baseLanguage.structure.ForeachStatement" fileName="ClusterEmbeddingConstructor.java" startLine="67" startPosition="57" endLine="82" endPosition="7" />
+    <nodeInfo nodeId="1532165762814136128" conceptFqName="jetbrains.mps.baseLanguage.structure.ForeachStatement" fileName="ClusterEmbeddingConstructor.java" startLine="64" startPosition="63" endLine="83" endPosition="5" />
+    <nodeInfo nodeId="1532165762814136838" conceptFqName="jetbrains.mps.baseLanguage.structure.ForeachStatement" fileName="ClusterEmbeddingConstructor.java" startLine="212" startPosition="127" endLine="233" endPosition="7" />
+    <nodeInfo nodeId="1532165762814136388" conceptFqName="jetbrains.mps.baseLanguage.structure.ForStatement" fileName="ClusterEmbeddingConstructor.java" startLine="126" startPosition="68" endLine="153" endPosition="7" />
+    <nodeInfo nodeId="1532165762814136354" conceptFqName="jetbrains.mps.baseLanguage.structure.IfStatement" fileName="ClusterEmbeddingConstructor.java" startLine="118" startPosition="63" endLine="154" endPosition="5" />
+    <nodeInfo nodeId="1532165762814136059" conceptFqName="jetbrains.mps.baseLanguage.structure.InstanceMethodDeclaration" fileName="ClusterEmbeddingConstructor.java" startLine="53" startPosition="0" endLine="99" endPosition="0" />
+    <nodeInfo nodeId="1532165762814136254" conceptFqName="jetbrains.mps.baseLanguage.structure.InstanceMethodDeclaration" fileName="ClusterEmbeddingConstructor.java" startLine="99" startPosition="0" endLine="156" endPosition="0" />
+    <nodeInfo nodeId="1532165762814136773" conceptFqName="jetbrains.mps.baseLanguage.structure.IfStatement" fileName="ClusterEmbeddingConstructor.java" startLine="203" startPosition="0" endLine="280" endPosition="5" />
+    <nodeInfo nodeId="1532165762814136588" conceptFqName="jetbrains.mps.baseLanguage.structure.InstanceMethodDeclaration" fileName="ClusterEmbeddingConstructor.java" startLine="169" startPosition="0" endLine="284" endPosition="0" />
+    <scopeInfo nodeId="1532165762814136072" fileName="ClusterEmbeddingConstructor.java" startLine="56" startPosition="58" endLine="57" endPosition="40" />
+    <scopeInfo nodeId="1532165762814136100" fileName="ClusterEmbeddingConstructor.java" startLine="60" startPosition="51" endLine="61" endPosition="88" />
+    <scopeInfo nodeId="1532165762814136165" fileName="ClusterEmbeddingConstructor.java" startLine="71" startPosition="31" endLine="72" endPosition="69" />
+    <scopeInfo nodeId="1532165762814136183" fileName="ClusterEmbeddingConstructor.java" startLine="76" startPosition="41" endLine="77" endPosition="44" />
+    <scopeInfo nodeId="1532165762814136196" fileName="ClusterEmbeddingConstructor.java" startLine="78" startPosition="16" endLine="79" endPosition="44" />
+    <scopeInfo nodeId="1532165762814136214" fileName="ClusterEmbeddingConstructor.java" startLine="84" startPosition="64" endLine="85" endPosition="54" />
+    <scopeInfo nodeId="1532165762814136237" fileName="ClusterEmbeddingConstructor.java" startLine="90" startPosition="49" endLine="91" endPosition="47" />
+    <scopeInfo nodeId="3444434563276270794" fileName="ClusterEmbeddingConstructor.java" startLine="94" startPosition="91" endLine="95" endPosition="78" />
+    <scopeInfo nodeId="1532165762814136307" fileName="ClusterEmbeddingConstructor.java" startLine="108" startPosition="37" endLine="109" endPosition="58" />
+    <scopeInfo nodeId="1532165762814136320" fileName="ClusterEmbeddingConstructor.java" startLine="110" startPosition="14" endLine="111" endPosition="57" />
+    <scopeInfo nodeId="1532165762814136371" fileName="ClusterEmbeddingConstructor.java" startLine="121" startPosition="52" endLine="122" endPosition="19" />
+    <scopeInfo nodeId="1532165762814136409" fileName="ClusterEmbeddingConstructor.java" startLine="131" startPosition="59" endLine="132" endPosition="19" />
+    <scopeInfo nodeId="1532165762814136450" fileName="ClusterEmbeddingConstructor.java" startLine="138" startPosition="44" endLine="139" endPosition="51" />
+    <scopeInfo nodeId="1532165762814136460" fileName="ClusterEmbeddingConstructor.java" startLine="142" startPosition="40" endLine="143" endPosition="85" />
+    <scopeInfo nodeId="1532165762814136555" fileName="ClusterEmbeddingConstructor.java" startLine="159" startPosition="40" endLine="160" endPosition="113" />
+    <scopeInfo nodeId="1532165762814136574" fileName="ClusterEmbeddingConstructor.java" startLine="164" startPosition="40" endLine="165" endPosition="82" />
+    <scopeInfo nodeId="1532165762814136640" fileName="ClusterEmbeddingConstructor.java" startLine="179" startPosition="63" endLine="180" endPosition="60" />
+    <scopeInfo nodeId="1532165762814136888" fileName="ClusterEmbeddingConstructor.java" startLine="221" startPosition="23" endLine="222" endPosition="118" />
+    <scopeInfo nodeId="1532165762814136901" fileName="ClusterEmbeddingConstructor.java" startLine="223" startPosition="16" endLine="224" endPosition="118" />
+    <scopeInfo nodeId="1532165762814136920" fileName="ClusterEmbeddingConstructor.java" startLine="227" startPosition="42" endLine="228" endPosition="90" />
+    <scopeInfo nodeId="1532165762814136962" fileName="ClusterEmbeddingConstructor.java" startLine="237" startPosition="71" endLine="238" endPosition="19" />
+    <scopeInfo nodeId="1532165762814137103" fileName="ClusterEmbeddingConstructor.java" startLine="256" startPosition="65" endLine="257" endPosition="59" />
+    <scopeInfo nodeId="1532165762814137129" fileName="ClusterEmbeddingConstructor.java" startLine="260" startPosition="76" endLine="261" endPosition="31" />
+    <scopeInfo nodeId="1532165762814137156" fileName="ClusterEmbeddingConstructor.java" startLine="267" startPosition="54" endLine="268" endPosition="66" />
+    <scopeInfo nodeId="3167072330486701021" fileName="ClusterEmbeddingConstructor.java" startLine="274" startPosition="29" endLine="275" endPosition="19" />
+    <scopeInfo nodeId="1532165762814137208" fileName="ClusterEmbeddingConstructor.java" startLine="287" startPosition="38" endLine="288" endPosition="63" />
+    <scopeInfo nodeId="1532165762814137240" fileName="ClusterEmbeddingConstructor.java" startLine="296" startPosition="31" endLine="297" endPosition="87" />
+    <scopeInfo nodeId="1532165762814137255" fileName="ClusterEmbeddingConstructor.java" startLine="299" startPosition="19" endLine="300" endPosition="30" />
+    <scopeInfo nodeId="1532165762814137262" fileName="ClusterEmbeddingConstructor.java" startLine="301" startPosition="12" endLine="302" endPosition="30" />
+    <scopeInfo nodeId="1532165762814137273" fileName="ClusterEmbeddingConstructor.java" startLine="306" startPosition="40" endLine="307" endPosition="27" />
+    <scopeInfo nodeId="3444434563276270777" fileName="ClusterEmbeddingConstructor.java" startLine="310" startPosition="75" endLine="311" endPosition="42" />
+    <scopeInfo nodeId="1532165762814136681" fileName="ClusterEmbeddingConstructor.java" startLine="188" startPosition="155" endLine="190" endPosition="61">
+      <varInfo nodeId="1532165762814136683" varName="newEdge" />
+    </scopeInfo>
+    <scopeInfo nodeId="1532165762814136211" fileName="ClusterEmbeddingConstructor.java" startLine="83" startPosition="5" endLine="86" endPosition="5" />
+    <scopeInfo nodeId="1532165762814136637" fileName="ClusterEmbeddingConstructor.java" startLine="178" startPosition="57" endLine="181" endPosition="7">
+      <varInfo nodeId="1532165762814136638" varName="node" />
+    </scopeInfo>
+    <scopeInfo nodeId="1532165762814137100" fileName="ClusterEmbeddingConstructor.java" startLine="255" startPosition="59" endLine="258" endPosition="7" />
+    <scopeInfo nodeId="1532165762814137124" fileName="ClusterEmbeddingConstructor.java" startLine="259" startPosition="58" endLine="262" endPosition="7" />
+    <scopeInfo nodeId="1532165762814136365" fileName="ClusterEmbeddingConstructor.java" startLine="120" startPosition="79" endLine="124" endPosition="38" />
+    <scopeInfo nodeId="1532165762814136449" fileName="ClusterEmbeddingConstructor.java" startLine="137" startPosition="102" endLine="141" endPosition="0" />
+    <scopeInfo nodeId="1532165762814136554" fileName="ClusterEmbeddingConstructor.java" startLine="158" startPosition="115" endLine="162" endPosition="0" />
+    <scopeInfo nodeId="1532165762814136573" fileName="ClusterEmbeddingConstructor.java" startLine="163" startPosition="109" endLine="167" endPosition="0" />
+    <scopeInfo nodeId="1532165762814136724" fileName="ClusterEmbeddingConstructor.java" startLine="195" startPosition="60" endLine="199" endPosition="58">
+      <varInfo nodeId="1532165762814136726" varName="source" />
+      <varInfo nodeId="1532165762814136736" varName="target" />
+      <varInfo nodeId="1532165762814136744" varName="realEdge" />
+    </scopeInfo>
+    <scopeInfo nodeId="1532165762814136919" fileName="ClusterEmbeddingConstructor.java" startLine="226" startPosition="98" endLine="230" endPosition="0" />
+    <scopeInfo nodeId="1532165762814137207" fileName="ClusterEmbeddingConstructor.java" startLine="286" startPosition="83" endLine="290" endPosition="0" />
+    <scopeInfo nodeId="1532165762814137269" fileName="ClusterEmbeddingConstructor.java" startLine="305" startPosition="0" endLine="309" endPosition="0" />
+    <scopeInfo nodeId="3444434563276270774" fileName="ClusterEmbeddingConstructor.java" startLine="309" startPosition="0" endLine="313" endPosition="0">
+      <varInfo nodeId="3444434563276270778" varName="clusterBorderMap" />
+    </scopeInfo>
+    <scopeInfo nodeId="1532165762814137328" fileName="ClusterEmbeddingConstructor.java" startLine="46" startPosition="102" endLine="51" endPosition="54" />
+    <scopeInfo nodeId="1532165762814136224" fileName="ClusterEmbeddingConstructor.java" startLine="87" startPosition="84" endLine="92" endPosition="7">
+      <varInfo nodeId="1532165762814136226" varName="realFace" />
+    </scopeInfo>
+    <scopeInfo nodeId="1532165762814136630" fileName="ClusterEmbeddingConstructor.java" startLine="177" startPosition="64" endLine="182" endPosition="73">
+      <varInfo nodeId="1532165762814136632" varName="clusterNode" />
+    </scopeInfo>
+    <scopeInfo nodeId="1532165762814136673" fileName="ClusterEmbeddingConstructor.java" startLine="186" startPosition="46" endLine="191" endPosition="9">
+      <varInfo nodeId="1532165762814136675" varName="target" />
+    </scopeInfo>
+    <scopeInfo nodeId="1532165762814137176" fileName="ClusterEmbeddingConstructor.java" startLine="273" startPosition="62" endLine="278" endPosition="74" />
+    <scopeInfo nodeId="1532165762814137202" fileName="ClusterEmbeddingConstructor.java" startLine="285" startPosition="79" endLine="290" endPosition="7" />
+    <scopeInfo nodeId="1532165762814136363" fileName="ClusterEmbeddingConstructor.java" startLine="119" startPosition="76" endLine="125" endPosition="7" />
+    <scopeInfo nodeId="1532165762814136721" fileName="ClusterEmbeddingConstructor.java" startLine="194" startPosition="89" endLine="200" endPosition="5" />
+    <scopeInfo nodeId="1532165762814137325" fileName="ClusterEmbeddingConstructor.java" startLine="45" startPosition="0" endLine="52" endPosition="3">
+      <varInfo nodeId="1532165762814137354" varName="graph" />
+      <varInfo nodeId="1532165762814137358" varName="outerEdgesOrder" />
+      <varInfo nodeId="1532165762814137356" varName="cluster" />
+    </scopeInfo>
+    <scopeInfo nodeId="1532165762814136219" fileName="ClusterEmbeddingConstructor.java" startLine="86" startPosition="5" endLine="93" endPosition="5" />
+    <scopeInfo nodeId="1532165762814136627" fileName="ClusterEmbeddingConstructor.java" startLine="176" startPosition="63" endLine="183" endPosition="5" />
+    <scopeInfo nodeId="1532165762814136669" fileName="ClusterEmbeddingConstructor.java" startLine="185" startPosition="61" endLine="192" endPosition="7" />
+    <scopeInfo nodeId="1532165762814136670" fileName="ClusterEmbeddingConstructor.java" startLine="185" startPosition="61" endLine="192" endPosition="7">
+      <varInfo nodeId="1532165762814136671" varName="edge" />
+    </scopeInfo>
+    <scopeInfo nodeId="1532165762814137174" fileName="ClusterEmbeddingConstructor.java" startLine="272" startPosition="103" endLine="279" endPosition="7" />
+    <scopeInfo nodeId="1532165762814137193" fileName="ClusterEmbeddingConstructor.java" startLine="284" startPosition="0" endLine="292" endPosition="0">
+      <varInfo nodeId="1532165762814137198" varName="nodeMap" />
+      <varInfo nodeId="1532165762814137196" varName="subNode" />
+    </scopeInfo>
+    <scopeInfo nodeId="1532165762814136285" fileName="ClusterEmbeddingConstructor.java" startLine="104" startPosition="52" endLine="113" endPosition="69">
+      <varInfo nodeId="1532165762814136299" varName="history" />
+      <varInfo nodeId="1532165762814136287" varName="edge" />
+      <varInfo nodeId="1532165762814136293" varName="realEdge" />
+    </scopeInfo>
+    <scopeInfo nodeId="1532165762814136666" fileName="ClusterEmbeddingConstructor.java" startLine="184" startPosition="80" endLine="193" endPosition="5" />
+    <scopeInfo nodeId="1532165762814136545" fileName="ClusterEmbeddingConstructor.java" startLine="157" startPosition="86" endLine="167" endPosition="7">
+      <varInfo nodeId="1532165762814136547" varName="outerNode" />
+    </scopeInfo>
+    <scopeInfo nodeId="1532165762814136954" fileName="ClusterEmbeddingConstructor.java" startLine="235" startPosition="82" endLine="245" endPosition="107">
+      <varInfo nodeId="1532165762814136956" varName="next" />
+      <varInfo nodeId="1532165762814136991" varName="subBorderEdge" />
+      <varInfo nodeId="1532165762814136974" varName="realBorderEdge" />
+    </scopeInfo>
+    <scopeInfo nodeId="1532165762814137220" fileName="ClusterEmbeddingConstructor.java" startLine="293" startPosition="42" endLine="303" endPosition="5">
+      <varInfo nodeId="1532165762814137222" varName="isSource" />
+      <varInfo nodeId="1532165762814137231" varName="isTarget" />
+    </scopeInfo>
+    <scopeInfo nodeId="1532165762814136282" fileName="ClusterEmbeddingConstructor.java" startLine="103" startPosition="117" endLine="114" endPosition="5" />
+    <scopeInfo nodeId="1532165762814136953" fileName="ClusterEmbeddingConstructor.java" startLine="234" startPosition="52" endLine="246" endPosition="7">
+      <varInfo nodeId="1532165762814137029" varName="i" />
+    </scopeInfo>
+    <scopeInfo nodeId="1532165762814136151" fileName="ClusterEmbeddingConstructor.java" startLine="68" startPosition="64" endLine="81" endPosition="57">
+      <varInfo nodeId="1532165762814136180" varName="realSource" />
+      <varInfo nodeId="1532165762814136153" varName="edge" />
+      <varInfo nodeId="1532165762814136174" varName="source" />
+      <varInfo nodeId="1532165762814136159" varName="realEdge" />
+    </scopeInfo>
+    <scopeInfo nodeId="1532165762814136542" fileName="ClusterEmbeddingConstructor.java" startLine="156" startPosition="0" endLine="169" endPosition="0">
+      <varInfo nodeId="1532165762814136584" varName="subcluster" />
+      <varInfo nodeId="1532165762814136586" varName="outerEdge" />
+    </scopeInfo>
+    <scopeInfo nodeId="1532165762814137217" fileName="ClusterEmbeddingConstructor.java" startLine="292" startPosition="0" endLine="305" endPosition="0">
+      <varInfo nodeId="1532165762814137267" varName="edge" />
+    </scopeInfo>
+    <scopeInfo nodeId="1532165762814136146" fileName="ClusterEmbeddingConstructor.java" startLine="67" startPosition="57" endLine="82" endPosition="7" />
+    <scopeInfo nodeId="1532165762814136133" fileName="ClusterEmbeddingConstructor.java" startLine="65" startPosition="76" endLine="82" endPosition="7">
+      <varInfo nodeId="1532165762814136135" varName="realFace" />
+    </scopeInfo>
+    <scopeInfo nodeId="1532165762814136128" fileName="ClusterEmbeddingConstructor.java" startLine="64" startPosition="63" endLine="83" endPosition="5" />
+    <scopeInfo nodeId="1532165762814136841" fileName="ClusterEmbeddingConstructor.java" startLine="213" startPosition="71" endLine="232" endPosition="70">
+      <varInfo nodeId="1532165762814136857" varName="realSplit" />
+      <varInfo nodeId="1532165762814136848" varName="isSource" />
+      <varInfo nodeId="1532165762814136874" varName="subBorderNode" />
+      <varInfo nodeId="1532165762814136843" varName="realClusterNode" />
+      <varInfo nodeId="1532165762814136914" varName="realOuterEdge" />
+      <varInfo nodeId="1532165762814136885" varName="subOuterEdge" />
+    </scopeInfo>
+    <scopeInfo nodeId="1532165762814136838" fileName="ClusterEmbeddingConstructor.java" startLine="212" startPosition="127" endLine="233" endPosition="7" />
+    <scopeInfo nodeId="1532165762814136389" fileName="ClusterEmbeddingConstructor.java" startLine="127" startPosition="70" endLine="152" endPosition="140">
+      <varInfo nodeId="1532165762814136426" varName="face" />
+      <varInfo nodeId="1532165762814136437" varName="faceDarts" />
+      <varInfo nodeId="1532165762814136482" varName="curOuterEdge" />
+      <varInfo nodeId="1532165762814136444" varName="nextOuterEdgeDart" />
+      <varInfo nodeId="1532165762814136403" varName="next" />
+      <varInfo nodeId="1532165762814136420" varName="nextOuterEdge" />
+      <varInfo nodeId="1532165762814136397" varName="outerEdge" />
+      <varInfo nodeId="1532165762814136391" varName="borderEdge" />
+      <varInfo nodeId="1532165762814136488" varName="curNextOuterEdge" />
+    </scopeInfo>
+    <scopeInfo nodeId="1532165762814136388" fileName="ClusterEmbeddingConstructor.java" startLine="126" startPosition="68" endLine="153" endPosition="7">
+      <varInfo nodeId="1532165762814136526" varName="i" />
+    </scopeInfo>
+    <scopeInfo nodeId="1532165762814136362" fileName="ClusterEmbeddingConstructor.java" startLine="119" startPosition="76" endLine="153" endPosition="7">
+      <varInfo nodeId="1532165762814136382" varName="subclusterBorder" />
+    </scopeInfo>
+    <scopeInfo nodeId="1532165762814136062" fileName="ClusterEmbeddingConstructor.java" startLine="54" startPosition="45" endLine="97" endPosition="27">
+      <varInfo nodeId="1532165762814136094" varName="invEdgeMap" />
+      <varInfo nodeId="1532165762814136064" varName="subclusters" />
+    </scopeInfo>
+    <scopeInfo nodeId="1532165762814136059" fileName="ClusterEmbeddingConstructor.java" startLine="53" startPosition="0" endLine="99" endPosition="0" />
+    <scopeInfo nodeId="1532165762814136257" fileName="ClusterEmbeddingConstructor.java" startLine="100" startPosition="85" endLine="154" endPosition="5">
+      <varInfo nodeId="1532165762814136346" varName="subclusterEmbedding" />
+      <varInfo nodeId="1532165762814136259" varName="node" />
+      <varInfo nodeId="1532165762814136338" varName="subProcessor" />
+      <varInfo nodeId="1532165762814136273" varName="subOuterEdgesOrder" />
+      <varInfo nodeId="1532165762814136265" varName="darts" />
+    </scopeInfo>
+    <scopeInfo nodeId="1532165762814136254" fileName="ClusterEmbeddingConstructor.java" startLine="99" startPosition="0" endLine="156" endPosition="0">
+      <varInfo nodeId="1532165762814136538" varName="invEdgeMap" />
+      <varInfo nodeId="1532165762814136536" varName="subcluster" />
+    </scopeInfo>
+    <scopeInfo nodeId="1532165762814136779" fileName="ClusterEmbeddingConstructor.java" startLine="204" startPosition="63" endLine="279" endPosition="7">
+      <varInfo nodeId="1532165762814136819" varName="realBorderNodes" />
+      <varInfo nodeId="1532165762814136790" varName="subClusterBorder" />
+      <varInfo nodeId="3167072330486700963" varName="clusterFirstNode" />
+      <varInfo nodeId="1532165762814136829" varName="subBorderNodes" />
+      <varInfo nodeId="1532165762814136809" varName="subOuterEdges" />
+      <varInfo nodeId="1532165762814137043" varName="clusterOuterFace" />
+      <varInfo nodeId="3167072330486700991" varName="bridge" />
+      <varInfo nodeId="1532165762814136948" varName="outerFace" />
+      <varInfo nodeId="1532165762814137087" varName="ringFace" />
+      <varInfo nodeId="3167072330486700976" varName="borderFirstNode" />
+    </scopeInfo>
+    <scopeInfo nodeId="1532165762814136593" fileName="ClusterEmbeddingConstructor.java" startLine="170" startPosition="63" endLine="282" endPosition="22">
+      <varInfo nodeId="1532165762814136758" varName="synchronizer" />
+      <varInfo nodeId="1532165762814136658" varName="invEdgeMap" />
+      <varInfo nodeId="1532165762814136604" varName="nodeMap" />
+      <varInfo nodeId="1532165762814136620" varName="subclusters" />
+      <varInfo nodeId="1532165762814136716" varName="connectingEdges" />
+    </scopeInfo>
+    <scopeInfo nodeId="1532165762814136588" fileName="ClusterEmbeddingConstructor.java" startLine="169" startPosition="0" endLine="284" endPosition="0" />
+    <unitInfo nodeId="1532165762814136449" fileName="ClusterEmbeddingConstructor.java" startLine="137" startPosition="80" endLine="141" endPosition="9" unitName="jetbrains.mps.graphLayout.planarization.ClusterEmbeddingConstructor$1" />
+    <unitInfo nodeId="1532165762814136554" fileName="ClusterEmbeddingConstructor.java" startLine="158" startPosition="93" endLine="162" endPosition="5" unitName="jetbrains.mps.graphLayout.planarization.ClusterEmbeddingConstructor$2" />
+    <unitInfo nodeId="1532165762814136573" fileName="ClusterEmbeddingConstructor.java" startLine="163" startPosition="87" endLine="167" endPosition="5" unitName="jetbrains.mps.graphLayout.planarization.ClusterEmbeddingConstructor$3" />
+    <unitInfo nodeId="1532165762814136919" fileName="ClusterEmbeddingConstructor.java" startLine="226" startPosition="76" endLine="230" endPosition="9" unitName="jetbrains.mps.graphLayout.planarization.ClusterEmbeddingConstructor$4" />
+    <unitInfo nodeId="1532165762814137207" fileName="ClusterEmbeddingConstructor.java" startLine="286" startPosition="61" endLine="290" endPosition="5" unitName="jetbrains.mps.graphLayout.planarization.ClusterEmbeddingConstructor$5" />
+    <unitInfo nodeId="1532165762814136058" fileName="ClusterEmbeddingConstructor.java" startLine="28" startPosition="0" endLine="314" endPosition="0" unitName="jetbrains.mps.graphLayout.planarization.ClusterEmbeddingConstructor" />
+  </root>
   <root nodeId="2899723422951321567">
     <nodeInfo nodeId="2899723422951321569" conceptFqName="jetbrains.mps.baseLanguage.structure.InstanceMethodDeclaration" fileName="IEmbeddingFinder.java" startLine="8" startPosition="35" endLine="9" endPosition="41" />
     <scopeInfo nodeId="2899723422951321569" fileName="IEmbeddingFinder.java" startLine="8" startPosition="35" endLine="9" endPosition="41">
@@ -1724,243 +2138,6 @@
     </scopeInfo>
     <unitInfo nodeId="4644851485137260284" fileName="PQPlanarizationFinder.java" startLine="22" startPosition="0" endLine="179" endPosition="0" unitName="jetbrains.mps.graphLayout.planarization.PQPlanarizationFinder" />
   </root>
-  <root nodeId="4998536563116557003">
-    <nodeInfo nodeId="4998536563116560697" conceptFqName="jetbrains.mps.baseLanguage.structure.StaticFieldDeclaration" fileName="ClusterEmbeddingProcessor.java" startLine="29" startPosition="40" endLine="30" endPosition="35" />
-    <nodeInfo nodeId="4998536563116557014" conceptFqName="jetbrains.mps.baseLanguage.structure.FieldDeclaration" fileName="ClusterEmbeddingProcessor.java" startLine="31" startPosition="0" endLine="32" endPosition="33" />
-    <nodeInfo nodeId="4998536563116557018" conceptFqName="jetbrains.mps.baseLanguage.structure.FieldDeclaration" fileName="ClusterEmbeddingProcessor.java" startLine="32" startPosition="33" endLine="33" endPosition="26" />
-    <nodeInfo nodeId="4998536563116560674" conceptFqName="jetbrains.mps.baseLanguage.structure.FieldDeclaration" fileName="ClusterEmbeddingProcessor.java" startLine="33" startPosition="26" endLine="34" endPosition="35" />
-    <nodeInfo nodeId="4998536563116565591" conceptFqName="jetbrains.mps.baseLanguage.structure.FieldDeclaration" fileName="ClusterEmbeddingProcessor.java" startLine="34" startPosition="35" endLine="35" endPosition="43" />
-    <nodeInfo nodeId="4998536563116565569" conceptFqName="jetbrains.mps.baseLanguage.structure.FieldDeclaration" fileName="ClusterEmbeddingProcessor.java" startLine="35" startPosition="43" endLine="36" endPosition="44" />
-    <nodeInfo nodeId="4998536563116572034" conceptFqName="jetbrains.mps.baseLanguage.structure.FieldDeclaration" fileName="ClusterEmbeddingProcessor.java" startLine="36" startPosition="44" endLine="37" endPosition="54" />
-    <nodeInfo nodeId="4998536563116557024" conceptFqName="jetbrains.mps.baseLanguage.structure.ExpressionStatement" fileName="ClusterEmbeddingProcessor.java" startLine="39" startPosition="73" endLine="40" endPosition="20" />
-    <nodeInfo nodeId="4998536563116557031" conceptFqName="jetbrains.mps.baseLanguage.structure.ExpressionStatement" fileName="ClusterEmbeddingProcessor.java" startLine="40" startPosition="20" endLine="41" endPosition="24" />
-    <nodeInfo nodeId="4998536563116557090" conceptFqName="jetbrains.mps.baseLanguage.structure.ReturnStatement" fileName="ClusterEmbeddingProcessor.java" startLine="46" startPosition="39" endLine="47" endPosition="32" />
-    <nodeInfo nodeId="4998536563116557462" conceptFqName="jetbrains.mps.baseLanguage.structure.ReturnStatement" fileName="ClusterEmbeddingProcessor.java" startLine="50" startPosition="58" endLine="51" endPosition="40" />
-    <nodeInfo nodeId="4998536563116560709" conceptFqName="jetbrains.mps.baseLanguage.structure.ExpressionStatement" fileName="ClusterEmbeddingProcessor.java" startLine="52" startPosition="5" endLine="53" endPosition="60" />
-    <nodeInfo nodeId="4998536563116572026" conceptFqName="jetbrains.mps.baseLanguage.structure.ExpressionStatement" fileName="ClusterEmbeddingProcessor.java" startLine="54" startPosition="65" endLine="55" endPosition="42" />
-    <nodeInfo nodeId="4998536563116743554" conceptFqName="jetbrains.mps.baseLanguage.structure.ReturnStatement" fileName="ClusterEmbeddingProcessor.java" startLine="56" startPosition="5" endLine="57" endPosition="16" />
-    <nodeInfo nodeId="4998536563116565579" conceptFqName="jetbrains.mps.baseLanguage.structure.LocalVariableDeclarationStatement" fileName="ClusterEmbeddingProcessor.java" startLine="60" startPosition="67" endLine="61" endPosition="70" />
-    <nodeInfo nodeId="4998536563116627550" conceptFqName="jetbrains.mps.baseLanguage.structure.LocalVariableDeclarationStatement" fileName="ClusterEmbeddingProcessor.java" startLine="61" startPosition="70" endLine="62" endPosition="64" />
-    <nodeInfo nodeId="4998536563116627540" conceptFqName="jetbrains.mps.baseLanguage.structure.LocalVariableDeclarationStatement" fileName="ClusterEmbeddingProcessor.java" startLine="62" startPosition="64" endLine="63" endPosition="120" />
-    <nodeInfo nodeId="4998536563116627571" conceptFqName="jetbrains.mps.baseLanguage.structure.ExpressionStatement" fileName="ClusterEmbeddingProcessor.java" startLine="64" startPosition="52" endLine="65" endPosition="149" />
-    <nodeInfo nodeId="4998536563116627596" conceptFqName="jetbrains.mps.baseLanguage.structure.LocalVariableDeclarationStatement" fileName="ClusterEmbeddingProcessor.java" startLine="66" startPosition="5" endLine="67" endPosition="96" />
-    <nodeInfo nodeId="4998536563116743559" conceptFqName="jetbrains.mps.baseLanguage.structure.ReturnStatement" fileName="ClusterEmbeddingProcessor.java" startLine="67" startPosition="96" endLine="68" endPosition="64" />
-    <nodeInfo nodeId="4998536563116565538" conceptFqName="jetbrains.mps.baseLanguage.structure.SingleLineComment" fileName="ClusterEmbeddingProcessor.java" startLine="71" startPosition="100" endLine="72" endPosition="89" />
-    <nodeInfo nodeId="4998536563116565541" conceptFqName="jetbrains.mps.baseLanguage.structure.SingleLineComment" fileName="ClusterEmbeddingProcessor.java" startLine="72" startPosition="89" endLine="73" endPosition="37" />
-    <nodeInfo nodeId="4998536563116560680" conceptFqName="jetbrains.mps.baseLanguage.structure.ExpressionStatement" fileName="ClusterEmbeddingProcessor.java" startLine="73" startPosition="37" endLine="74" endPosition="37" />
-    <nodeInfo nodeId="389705031868651540" conceptFqName="jetbrains.mps.baseLanguage.structure.LocalVariableDeclarationStatement" fileName="ClusterEmbeddingProcessor.java" startLine="74" startPosition="37" endLine="75" endPosition="85" />
-    <nodeInfo nodeId="4998536563116560343" conceptFqName="jetbrains.mps.baseLanguage.structure.LocalVariableDeclarationStatement" fileName="ClusterEmbeddingProcessor.java" startLine="75" startPosition="85" endLine="76" endPosition="79" />
-    <nodeInfo nodeId="4998536563116723395" conceptFqName="jetbrains.mps.baseLanguage.structure.ExpressionStatement" fileName="ClusterEmbeddingProcessor.java" startLine="76" startPosition="79" endLine="77" endPosition="71" />
-    <nodeInfo nodeId="4998536563116560356" conceptFqName="jetbrains.mps.baseLanguage.structure.LocalVariableDeclarationStatement" fileName="ClusterEmbeddingProcessor.java" startLine="78" startPosition="65" endLine="79" endPosition="57" />
-    <nodeInfo nodeId="4998536563116560366" conceptFqName="jetbrains.mps.baseLanguage.structure.ExpressionStatement" fileName="ClusterEmbeddingProcessor.java" startLine="80" startPosition="64" endLine="81" endPosition="60" />
-    <nodeInfo nodeId="4998536563116723408" conceptFqName="jetbrains.mps.baseLanguage.structure.ExpressionStatement" fileName="ClusterEmbeddingProcessor.java" startLine="82" startPosition="7" endLine="83" endPosition="73" />
-    <nodeInfo nodeId="4998536563116723387" conceptFqName="jetbrains.mps.baseLanguage.structure.LocalVariableDeclarationStatement" fileName="ClusterEmbeddingProcessor.java" startLine="84" startPosition="5" endLine="85" endPosition="70" />
-    <nodeInfo nodeId="4998536563116572163" conceptFqName="jetbrains.mps.baseLanguage.structure.LocalVariableDeclarationStatement" fileName="ClusterEmbeddingProcessor.java" startLine="85" startPosition="70" endLine="86" endPosition="88" />
-    <nodeInfo nodeId="4998536563116560376" conceptFqName="jetbrains.mps.baseLanguage.structure.LocalVariableDeclarationStatement" fileName="ClusterEmbeddingProcessor.java" startLine="86" startPosition="88" endLine="87" endPosition="68" />
-    <nodeInfo nodeId="4998536563116560391" conceptFqName="jetbrains.mps.baseLanguage.structure.LocalVariableDeclarationStatement" fileName="ClusterEmbeddingProcessor.java" startLine="89" startPosition="47" endLine="90" endPosition="40" />
-    <nodeInfo nodeId="4998536563116572070" conceptFqName="jetbrains.mps.baseLanguage.structure.LocalVariableDeclarationStatement" fileName="ClusterEmbeddingProcessor.java" startLine="91" startPosition="153" endLine="92" endPosition="136" />
-    <nodeInfo nodeId="4998536563116572088" conceptFqName="jetbrains.mps.baseLanguage.structure.ExpressionStatement" fileName="ClusterEmbeddingProcessor.java" startLine="92" startPosition="136" endLine="93" endPosition="64" />
-    <nodeInfo nodeId="4998536563116572177" conceptFqName="jetbrains.mps.baseLanguage.structure.ExpressionStatement" fileName="ClusterEmbeddingProcessor.java" startLine="93" startPosition="64" endLine="94" endPosition="67" />
-    <nodeInfo nodeId="4998536563116560715" conceptFqName="jetbrains.mps.baseLanguage.structure.ExpressionStatement" fileName="ClusterEmbeddingProcessor.java" startLine="97" startPosition="5" endLine="98" endPosition="61" />
-    <nodeInfo nodeId="4998536563116565595" conceptFqName="jetbrains.mps.baseLanguage.structure.ExpressionStatement" fileName="ClusterEmbeddingProcessor.java" startLine="98" startPosition="61" endLine="99" endPosition="85" />
-    <nodeInfo nodeId="4998536563116565549" conceptFqName="jetbrains.mps.baseLanguage.structure.Statement" fileName="ClusterEmbeddingProcessor.java" startLine="99" startPosition="85" endLine="100" endPosition="0" />
-    <nodeInfo nodeId="4998536563116721089" conceptFqName="jetbrains.mps.baseLanguage.structure.SingleLineComment" fileName="ClusterEmbeddingProcessor.java" startLine="100" startPosition="0" endLine="101" endPosition="78" />
-    <nodeInfo nodeId="4998536563116721093" conceptFqName="jetbrains.mps.baseLanguage.structure.SingleLineComment" fileName="ClusterEmbeddingProcessor.java" startLine="101" startPosition="78" endLine="102" endPosition="110" />
-    <nodeInfo nodeId="4998536563116728784" conceptFqName="jetbrains.mps.baseLanguage.structure.LocalVariableDeclarationStatement" fileName="ClusterEmbeddingProcessor.java" startLine="102" startPosition="110" endLine="103" endPosition="92" />
-    <nodeInfo nodeId="4998536563116721095" conceptFqName="jetbrains.mps.baseLanguage.structure.Statement" fileName="ClusterEmbeddingProcessor.java" startLine="104" startPosition="62" endLine="105" endPosition="0" />
-    <nodeInfo nodeId="4998536563116565544" conceptFqName="jetbrains.mps.baseLanguage.structure.SingleLineComment" fileName="ClusterEmbeddingProcessor.java" startLine="105" startPosition="0" endLine="106" endPosition="63" />
-    <nodeInfo nodeId="4998536563116560429" conceptFqName="jetbrains.mps.baseLanguage.structure.LocalVariableDeclarationStatement" fileName="ClusterEmbeddingProcessor.java" startLine="106" startPosition="63" endLine="107" endPosition="118" />
-    <nodeInfo nodeId="4998536563116560439" conceptFqName="jetbrains.mps.baseLanguage.structure.LocalVariableDeclarationStatement" fileName="ClusterEmbeddingProcessor.java" startLine="107" startPosition="118" endLine="108" endPosition="23" />
-    <nodeInfo nodeId="4998536563116560443" conceptFqName="jetbrains.mps.baseLanguage.structure.LocalVariableDeclarationStatement" fileName="ClusterEmbeddingProcessor.java" startLine="108" startPosition="23" endLine="109" endPosition="52" />
-    <nodeInfo nodeId="4998536563116560453" conceptFqName="jetbrains.mps.baseLanguage.structure.LocalVariableDeclarationStatement" fileName="ClusterEmbeddingProcessor.java" startLine="110" startPosition="66" endLine="111" endPosition="58" />
-    <nodeInfo nodeId="4998536563116560461" conceptFqName="jetbrains.mps.baseLanguage.structure.LocalVariableDeclarationStatement" fileName="ClusterEmbeddingProcessor.java" startLine="112" startPosition="27" endLine="113" endPosition="70" />
-    <nodeInfo nodeId="4998536563116560469" conceptFqName="jetbrains.mps.baseLanguage.structure.ExpressionStatement" fileName="ClusterEmbeddingProcessor.java" startLine="113" startPosition="70" endLine="114" endPosition="60" />
-    <nodeInfo nodeId="4998536563116560474" conceptFqName="jetbrains.mps.baseLanguage.structure.ExpressionStatement" fileName="ClusterEmbeddingProcessor.java" startLine="114" startPosition="60" endLine="115" endPosition="59" />
-    <nodeInfo nodeId="4998536563116560485" conceptFqName="jetbrains.mps.baseLanguage.structure.ExpressionStatement" fileName="ClusterEmbeddingProcessor.java" startLine="116" startPosition="9" endLine="117" endPosition="26" />
-    <nodeInfo nodeId="4998536563116560489" conceptFqName="jetbrains.mps.baseLanguage.structure.LocalVariableDeclarationStatement" fileName="ClusterEmbeddingProcessor.java" startLine="118" startPosition="7" endLine="119" endPosition="69" />
-    <nodeInfo nodeId="4998536563116560497" conceptFqName="jetbrains.mps.baseLanguage.structure.LocalVariableDeclarationStatement" fileName="ClusterEmbeddingProcessor.java" startLine="119" startPosition="69" endLine="120" endPosition="62" />
-    <nodeInfo nodeId="4998536563116560505" conceptFqName="jetbrains.mps.baseLanguage.structure.ExpressionStatement" fileName="ClusterEmbeddingProcessor.java" startLine="120" startPosition="62" endLine="121" endPosition="57" />
-    <nodeInfo nodeId="4998536563116560510" conceptFqName="jetbrains.mps.baseLanguage.structure.ExpressionStatement" fileName="ClusterEmbeddingProcessor.java" startLine="121" startPosition="57" endLine="122" endPosition="51" />
-    <nodeInfo nodeId="4998536563116565550" conceptFqName="jetbrains.mps.baseLanguage.structure.Statement" fileName="ClusterEmbeddingProcessor.java" startLine="122" startPosition="51" endLine="123" endPosition="0" />
-    <nodeInfo nodeId="4998536563116565552" conceptFqName="jetbrains.mps.baseLanguage.structure.SingleLineComment" fileName="ClusterEmbeddingProcessor.java" startLine="123" startPosition="0" endLine="124" endPosition="87" />
-    <nodeInfo nodeId="4998536563116560518" conceptFqName="jetbrains.mps.baseLanguage.structure.LocalVariableDeclarationStatement" fileName="ClusterEmbeddingProcessor.java" startLine="124" startPosition="87" endLine="125" endPosition="64" />
-    <nodeInfo nodeId="4998536563116560524" conceptFqName="jetbrains.mps.baseLanguage.structure.LocalVariableDeclarationStatement" fileName="ClusterEmbeddingProcessor.java" startLine="125" startPosition="64" endLine="126" endPosition="101" />
-    <nodeInfo nodeId="4998536563116560534" conceptFqName="jetbrains.mps.baseLanguage.structure.LocalVariableDeclarationStatement" fileName="ClusterEmbeddingProcessor.java" startLine="126" startPosition="101" endLine="127" endPosition="72" />
-    <nodeInfo nodeId="4998536563116560542" conceptFqName="jetbrains.mps.baseLanguage.structure.LocalVariableDeclarationStatement" fileName="ClusterEmbeddingProcessor.java" startLine="127" startPosition="72" endLine="128" endPosition="51" />
-    <nodeInfo nodeId="4998536563116560548" conceptFqName="jetbrains.mps.baseLanguage.structure.ExpressionStatement" fileName="ClusterEmbeddingProcessor.java" startLine="128" startPosition="51" endLine="129" endPosition="59" />
-    <nodeInfo nodeId="4998536563116560560" conceptFqName="jetbrains.mps.baseLanguage.structure.ExpressionStatement" fileName="ClusterEmbeddingProcessor.java" startLine="130" startPosition="55" endLine="131" endPosition="59" />
-    <nodeInfo nodeId="4998536563116560570" conceptFqName="jetbrains.mps.baseLanguage.structure.ExpressionStatement" fileName="ClusterEmbeddingProcessor.java" startLine="132" startPosition="7" endLine="133" endPosition="48" />
-    <nodeInfo nodeId="4998536563116560584" conceptFqName="jetbrains.mps.baseLanguage.structure.ExpressionStatement" fileName="ClusterEmbeddingProcessor.java" startLine="134" startPosition="76" endLine="135" endPosition="31" />
-    <nodeInfo nodeId="4998536563116560589" conceptFqName="jetbrains.mps.baseLanguage.structure.ExpressionStatement" fileName="ClusterEmbeddingProcessor.java" startLine="136" startPosition="7" endLine="137" endPosition="54" />
-    <nodeInfo nodeId="4998536563116560594" conceptFqName="jetbrains.mps.baseLanguage.structure.ExpressionStatement" fileName="ClusterEmbeddingProcessor.java" startLine="137" startPosition="54" endLine="138" endPosition="43" />
-    <nodeInfo nodeId="4998536563116560599" conceptFqName="jetbrains.mps.baseLanguage.structure.ExpressionStatement" fileName="ClusterEmbeddingProcessor.java" startLine="138" startPosition="43" endLine="139" endPosition="44" />
-    <nodeInfo nodeId="4998536563116560606" conceptFqName="jetbrains.mps.baseLanguage.structure.ExpressionStatement" fileName="ClusterEmbeddingProcessor.java" startLine="140" startPosition="26" endLine="141" endPosition="66" />
-    <nodeInfo nodeId="4998536563116565554" conceptFqName="jetbrains.mps.baseLanguage.structure.Statement" fileName="ClusterEmbeddingProcessor.java" startLine="142" startPosition="7" endLine="143" endPosition="0" />
-    <nodeInfo nodeId="4998536563116565556" conceptFqName="jetbrains.mps.baseLanguage.structure.SingleLineComment" fileName="ClusterEmbeddingProcessor.java" startLine="143" startPosition="0" endLine="144" endPosition="33" />
-    <nodeInfo nodeId="4998536563116560612" conceptFqName="jetbrains.mps.baseLanguage.structure.LocalVariableDeclarationStatement" fileName="ClusterEmbeddingProcessor.java" startLine="144" startPosition="33" endLine="145" endPosition="16" />
-    <nodeInfo nodeId="4998536563116560620" conceptFqName="jetbrains.mps.baseLanguage.structure.LocalVariableDeclarationStatement" fileName="ClusterEmbeddingProcessor.java" startLine="146" startPosition="66" endLine="147" endPosition="83" />
-    <nodeInfo nodeId="4998536563116572051" conceptFqName="jetbrains.mps.baseLanguage.structure.LocalVariableDeclarationStatement" fileName="ClusterEmbeddingProcessor.java" startLine="147" startPosition="83" endLine="148" endPosition="66" />
-    <nodeInfo nodeId="4998536563116560646" conceptFqName="jetbrains.mps.baseLanguage.structure.LocalVariableDeclarationStatement" fileName="ClusterEmbeddingProcessor.java" startLine="148" startPosition="66" endLine="149" endPosition="71" />
-    <nodeInfo nodeId="4998536563116572206" conceptFqName="jetbrains.mps.baseLanguage.structure.ExpressionStatement" fileName="ClusterEmbeddingProcessor.java" startLine="149" startPosition="71" endLine="150" endPosition="66" />
-    <nodeInfo nodeId="4998536563116572098" conceptFqName="jetbrains.mps.baseLanguage.structure.ExpressionStatement" fileName="ClusterEmbeddingProcessor.java" startLine="150" startPosition="66" endLine="151" endPosition="59" />
-    <nodeInfo nodeId="1763712338172365827" conceptFqName="jetbrains.mps.baseLanguage.structure.ExpressionStatement" fileName="ClusterEmbeddingProcessor.java" startLine="151" startPosition="59" endLine="152" endPosition="44" />
-    <nodeInfo nodeId="4998536563116560658" conceptFqName="jetbrains.mps.baseLanguage.structure.ExpressionStatement" fileName="ClusterEmbeddingProcessor.java" startLine="152" startPosition="44" endLine="153" endPosition="74" />
-    <nodeInfo nodeId="4998536563116728731" conceptFqName="jetbrains.mps.baseLanguage.structure.Statement" fileName="ClusterEmbeddingProcessor.java" startLine="155" startPosition="5" endLine="156" endPosition="0" />
-    <nodeInfo nodeId="4998536563116728732" conceptFqName="jetbrains.mps.baseLanguage.structure.SingleLineComment" fileName="ClusterEmbeddingProcessor.java" startLine="156" startPosition="0" endLine="157" endPosition="99" />
-    <nodeInfo nodeId="4998536563116728734" conceptFqName="jetbrains.mps.baseLanguage.structure.ExpressionStatement" fileName="ClusterEmbeddingProcessor.java" startLine="157" startPosition="99" endLine="158" endPosition="81" />
-    <nodeInfo nodeId="4998536563116735038" conceptFqName="jetbrains.mps.baseLanguage.structure.ExpressionStatement" fileName="ClusterEmbeddingProcessor.java" startLine="159" startPosition="84" endLine="160" endPosition="102" />
-    <nodeInfo nodeId="4998536563116728745" conceptFqName="jetbrains.mps.baseLanguage.structure.LocalVariableDeclarationStatement" fileName="ClusterEmbeddingProcessor.java" startLine="162" startPosition="67" endLine="163" endPosition="69" />
-    <nodeInfo nodeId="4998536563116732691" conceptFqName="jetbrains.mps.baseLanguage.structure.LocalVariableDeclarationStatement" fileName="ClusterEmbeddingProcessor.java" startLine="163" startPosition="69" endLine="164" endPosition="45" />
-    <nodeInfo nodeId="4998536563116728753" conceptFqName="jetbrains.mps.baseLanguage.structure.ExpressionStatement" fileName="ClusterEmbeddingProcessor.java" startLine="164" startPosition="45" endLine="165" endPosition="203" />
-    <nodeInfo nodeId="4998536563116732700" conceptFqName="jetbrains.mps.baseLanguage.structure.ExpressionStatement" fileName="ClusterEmbeddingProcessor.java" startLine="165" startPosition="203" endLine="166" endPosition="40" />
-    <nodeInfo nodeId="4998536563116728768" conceptFqName="jetbrains.mps.baseLanguage.structure.ExpressionStatement" fileName="ClusterEmbeddingProcessor.java" startLine="166" startPosition="40" endLine="167" endPosition="202" />
-    <nodeInfo nodeId="4998536563116728730" conceptFqName="jetbrains.mps.baseLanguage.structure.Statement" fileName="ClusterEmbeddingProcessor.java" startLine="168" startPosition="5" endLine="169" endPosition="0" />
-    <nodeInfo nodeId="4998536563116627369" conceptFqName="jetbrains.mps.baseLanguage.structure.LocalVariableDeclarationStatement" fileName="ClusterEmbeddingProcessor.java" startLine="173" startPosition="76" endLine="174" endPosition="81" />
-    <nodeInfo nodeId="4998536563116627374" conceptFqName="jetbrains.mps.baseLanguage.structure.LocalVariableDeclarationStatement" fileName="ClusterEmbeddingProcessor.java" startLine="174" startPosition="81" endLine="175" endPosition="45" />
-    <nodeInfo nodeId="4998536563116627450" conceptFqName="jetbrains.mps.baseLanguage.structure.ReturnStatement" fileName="ClusterEmbeddingProcessor.java" startLine="176" startPosition="77" endLine="177" endPosition="25" />
-    <nodeInfo nodeId="4998536563116627470" conceptFqName="jetbrains.mps.baseLanguage.structure.ReturnStatement" fileName="ClusterEmbeddingProcessor.java" startLine="178" startPosition="14" endLine="179" endPosition="36" />
-    <nodeInfo nodeId="4998536563116627484" conceptFqName="jetbrains.mps.baseLanguage.structure.ReturnStatement" fileName="ClusterEmbeddingProcessor.java" startLine="181" startPosition="12" endLine="182" endPosition="75" />
-    <nodeInfo nodeId="4998536563116627439" conceptFqName="jetbrains.mps.baseLanguage.structure.BlockStatement" fileName="ClusterEmbeddingProcessor.java" startLine="178" startPosition="12" endLine="180" endPosition="7" />
-    <nodeInfo nodeId="4998536563116627396" conceptFqName="jetbrains.mps.baseLanguage.structure.BlockStatement" fileName="ClusterEmbeddingProcessor.java" startLine="181" startPosition="10" endLine="183" endPosition="5" />
-    <nodeInfo nodeId="4998536563116557096" conceptFqName="jetbrains.mps.baseLanguage.structure.IfStatement" fileName="ClusterEmbeddingProcessor.java" startLine="49" startPosition="7" endLine="52" endPosition="5" />
-    <nodeInfo nodeId="4998536563116572021" conceptFqName="jetbrains.mps.baseLanguage.structure.ForeachStatement" fileName="ClusterEmbeddingProcessor.java" startLine="53" startPosition="60" endLine="56" endPosition="5" />
-    <nodeInfo nodeId="4998536563116627566" conceptFqName="jetbrains.mps.baseLanguage.structure.ForeachStatement" fileName="ClusterEmbeddingProcessor.java" startLine="63" startPosition="120" endLine="66" endPosition="5" />
-    <nodeInfo nodeId="4998536563116560362" conceptFqName="jetbrains.mps.baseLanguage.structure.ForeachStatement" fileName="ClusterEmbeddingProcessor.java" startLine="79" startPosition="57" endLine="82" endPosition="7" />
-    <nodeInfo nodeId="4998536563116560556" conceptFqName="jetbrains.mps.baseLanguage.structure.ForeachStatement" fileName="ClusterEmbeddingProcessor.java" startLine="129" startPosition="59" endLine="132" endPosition="7" />
-    <nodeInfo nodeId="4998536563116560578" conceptFqName="jetbrains.mps.baseLanguage.structure.ForeachStatement" fileName="ClusterEmbeddingProcessor.java" startLine="133" startPosition="48" endLine="136" endPosition="7" />
-    <nodeInfo nodeId="4998536563116560604" conceptFqName="jetbrains.mps.baseLanguage.structure.IfStatement" fileName="ClusterEmbeddingProcessor.java" startLine="139" startPosition="44" endLine="142" endPosition="7" />
-    <nodeInfo nodeId="4998536563116735028" conceptFqName="jetbrains.mps.baseLanguage.structure.ForeachStatement" fileName="ClusterEmbeddingProcessor.java" startLine="158" startPosition="81" endLine="161" endPosition="5" />
-    <nodeInfo nodeId="4998536563116557005" conceptFqName="jetbrains.mps.baseLanguage.structure.ConstructorDeclaration" fileName="ClusterEmbeddingProcessor.java" startLine="38" startPosition="0" endLine="42" endPosition="3" />
-    <nodeInfo nodeId="4998536563116557088" conceptFqName="jetbrains.mps.baseLanguage.structure.InstanceMethodDeclaration" fileName="ClusterEmbeddingProcessor.java" startLine="45" startPosition="126" endLine="49" endPosition="0" />
-    <nodeInfo nodeId="4998536563116557079" conceptFqName="jetbrains.mps.baseLanguage.structure.LocalVariableDeclarationStatement" fileName="ClusterEmbeddingProcessor.java" startLine="44" startPosition="73" endLine="49" endPosition="7" />
-    <nodeInfo nodeId="4998536563116560397" conceptFqName="jetbrains.mps.baseLanguage.structure.IfStatement" fileName="ClusterEmbeddingProcessor.java" startLine="90" startPosition="40" endLine="95" endPosition="9" />
-    <nodeInfo nodeId="4998536563116560459" conceptFqName="jetbrains.mps.baseLanguage.structure.IfStatement" fileName="ClusterEmbeddingProcessor.java" startLine="111" startPosition="58" endLine="116" endPosition="9" />
-    <nodeInfo nodeId="4998536563116627379" conceptFqName="jetbrains.mps.baseLanguage.structure.IfStatement" fileName="ClusterEmbeddingProcessor.java" startLine="175" startPosition="45" endLine="180" endPosition="7" />
-    <nodeInfo nodeId="4998536563116560352" conceptFqName="jetbrains.mps.baseLanguage.structure.ForeachStatement" fileName="ClusterEmbeddingProcessor.java" startLine="77" startPosition="71" endLine="84" endPosition="5" />
-    <nodeInfo nodeId="4998536563116728741" conceptFqName="jetbrains.mps.baseLanguage.structure.ForeachStatement" fileName="ClusterEmbeddingProcessor.java" startLine="161" startPosition="5" endLine="168" endPosition="5" />
-    <nodeInfo nodeId="4998536563116560387" conceptFqName="jetbrains.mps.baseLanguage.structure.ForeachStatement" fileName="ClusterEmbeddingProcessor.java" startLine="88" startPosition="60" endLine="96" endPosition="7" />
-    <nodeInfo nodeId="4998536563116560449" conceptFqName="jetbrains.mps.baseLanguage.structure.ForeachStatement" fileName="ClusterEmbeddingProcessor.java" startLine="109" startPosition="52" endLine="118" endPosition="7" />
-    <nodeInfo nodeId="4998536563116560616" conceptFqName="jetbrains.mps.baseLanguage.structure.ForeachStatement" fileName="ClusterEmbeddingProcessor.java" startLine="145" startPosition="16" endLine="154" endPosition="7" />
-    <nodeInfo nodeId="4998536563116560383" conceptFqName="jetbrains.mps.baseLanguage.structure.ForeachStatement" fileName="ClusterEmbeddingProcessor.java" startLine="87" startPosition="68" endLine="97" endPosition="5" />
-    <nodeInfo nodeId="4998536563116565562" conceptFqName="jetbrains.mps.baseLanguage.structure.InstanceMethodDeclaration" fileName="ClusterEmbeddingProcessor.java" startLine="59" startPosition="0" endLine="70" endPosition="0" />
-    <nodeInfo nodeId="4998536563116627367" conceptFqName="jetbrains.mps.baseLanguage.structure.IfStatement" fileName="ClusterEmbeddingProcessor.java" startLine="172" startPosition="175" endLine="183" endPosition="5" />
-    <nodeInfo nodeId="4998536563116627351" conceptFqName="jetbrains.mps.baseLanguage.structure.InstanceMethodDeclaration" fileName="ClusterEmbeddingProcessor.java" startLine="171" startPosition="0" endLine="185" endPosition="0" />
-    <nodeInfo nodeId="4998536563116557037" conceptFqName="jetbrains.mps.baseLanguage.structure.InstanceMethodDeclaration" fileName="ClusterEmbeddingProcessor.java" startLine="43" startPosition="0" endLine="59" endPosition="0" />
-    <nodeInfo nodeId="4998536563116718784" conceptFqName="jetbrains.mps.baseLanguage.structure.IfStatement" fileName="ClusterEmbeddingProcessor.java" startLine="103" startPosition="92" endLine="155" endPosition="5" />
-    <nodeInfo nodeId="4998536563116560332" conceptFqName="jetbrains.mps.baseLanguage.structure.InstanceMethodDeclaration" fileName="ClusterEmbeddingProcessor.java" startLine="70" startPosition="0" endLine="171" endPosition="0" />
-    <scopeInfo nodeId="4998536563116557089" fileName="ClusterEmbeddingProcessor.java" startLine="46" startPosition="39" endLine="47" endPosition="32" />
-    <scopeInfo nodeId="4998536563116557097" fileName="ClusterEmbeddingProcessor.java" startLine="50" startPosition="58" endLine="51" endPosition="40" />
-    <scopeInfo nodeId="4998536563116572024" fileName="ClusterEmbeddingProcessor.java" startLine="54" startPosition="65" endLine="55" endPosition="42" />
-    <scopeInfo nodeId="4998536563116627569" fileName="ClusterEmbeddingProcessor.java" startLine="64" startPosition="52" endLine="65" endPosition="149" />
-    <scopeInfo nodeId="4998536563116560365" fileName="ClusterEmbeddingProcessor.java" startLine="80" startPosition="64" endLine="81" endPosition="60" />
-    <scopeInfo nodeId="4998536563116560559" fileName="ClusterEmbeddingProcessor.java" startLine="130" startPosition="55" endLine="131" endPosition="59" />
-    <scopeInfo nodeId="4998536563116560583" fileName="ClusterEmbeddingProcessor.java" startLine="134" startPosition="76" endLine="135" endPosition="31" />
-    <scopeInfo nodeId="4998536563116560605" fileName="ClusterEmbeddingProcessor.java" startLine="140" startPosition="26" endLine="141" endPosition="66" />
-    <scopeInfo nodeId="4998536563116735031" fileName="ClusterEmbeddingProcessor.java" startLine="159" startPosition="84" endLine="160" endPosition="102" />
-    <scopeInfo nodeId="4998536563116627380" fileName="ClusterEmbeddingProcessor.java" startLine="176" startPosition="77" endLine="177" endPosition="25" />
-    <scopeInfo nodeId="4998536563116627440" fileName="ClusterEmbeddingProcessor.java" startLine="178" startPosition="14" endLine="179" endPosition="36" />
-    <scopeInfo nodeId="4998536563116627397" fileName="ClusterEmbeddingProcessor.java" startLine="181" startPosition="12" endLine="182" endPosition="75" />
-    <scopeInfo nodeId="4998536563116557008" fileName="ClusterEmbeddingProcessor.java" startLine="39" startPosition="73" endLine="41" endPosition="24" />
-    <scopeInfo nodeId="4998536563116572021" fileName="ClusterEmbeddingProcessor.java" startLine="53" startPosition="60" endLine="56" endPosition="5" />
-    <scopeInfo nodeId="4998536563116627566" fileName="ClusterEmbeddingProcessor.java" startLine="63" startPosition="120" endLine="66" endPosition="5" />
-    <scopeInfo nodeId="4998536563116560362" fileName="ClusterEmbeddingProcessor.java" startLine="79" startPosition="57" endLine="82" endPosition="7">
-      <varInfo nodeId="4998536563116560363" varName="node" />
-    </scopeInfo>
-    <scopeInfo nodeId="4998536563116560398" fileName="ClusterEmbeddingProcessor.java" startLine="91" startPosition="153" endLine="94" endPosition="67">
-      <varInfo nodeId="4998536563116572071" varName="newEdge" />
-    </scopeInfo>
-    <scopeInfo nodeId="4998536563116560460" fileName="ClusterEmbeddingProcessor.java" startLine="112" startPosition="27" endLine="115" endPosition="59">
-      <varInfo nodeId="4998536563116560462" varName="newEdge" />
-    </scopeInfo>
-    <scopeInfo nodeId="4998536563116560556" fileName="ClusterEmbeddingProcessor.java" startLine="129" startPosition="59" endLine="132" endPosition="7" />
-    <scopeInfo nodeId="4998536563116560578" fileName="ClusterEmbeddingProcessor.java" startLine="133" startPosition="48" endLine="136" endPosition="7" />
-    <scopeInfo nodeId="4998536563116735028" fileName="ClusterEmbeddingProcessor.java" startLine="158" startPosition="81" endLine="161" endPosition="5" />
-    <scopeInfo nodeId="4998536563116557005" fileName="ClusterEmbeddingProcessor.java" startLine="38" startPosition="0" endLine="42" endPosition="3">
-      <varInfo nodeId="4998536563116557009" varName="graph" />
-      <varInfo nodeId="4998536563116557011" varName="cluster" />
-    </scopeInfo>
-    <scopeInfo nodeId="4998536563116557088" fileName="ClusterEmbeddingProcessor.java" startLine="45" startPosition="126" endLine="49" endPosition="0" />
-    <scopeInfo nodeId="4998536563116560355" fileName="ClusterEmbeddingProcessor.java" startLine="78" startPosition="65" endLine="83" endPosition="73">
-      <varInfo nodeId="4998536563116560357" varName="clusterNode" />
-    </scopeInfo>
-    <scopeInfo nodeId="4998536563116728744" fileName="ClusterEmbeddingProcessor.java" startLine="162" startPosition="67" endLine="167" endPosition="202">
-      <varInfo nodeId="4998536563116728746" varName="history" />
-      <varInfo nodeId="4998536563116732692" varName="node" />
-    </scopeInfo>
-    <scopeInfo nodeId="4998536563116560390" fileName="ClusterEmbeddingProcessor.java" startLine="89" startPosition="47" endLine="95" endPosition="9">
-      <varInfo nodeId="4998536563116560392" varName="target" />
-    </scopeInfo>
-    <scopeInfo nodeId="4998536563116560352" fileName="ClusterEmbeddingProcessor.java" startLine="77" startPosition="71" endLine="84" endPosition="5" />
-    <scopeInfo nodeId="4998536563116560452" fileName="ClusterEmbeddingProcessor.java" startLine="110" startPosition="66" endLine="117" endPosition="26">
-      <varInfo nodeId="4998536563116560454" varName="circleNode" />
-    </scopeInfo>
-    <scopeInfo nodeId="4998536563116560619" fileName="ClusterEmbeddingProcessor.java" startLine="146" startPosition="66" endLine="153" endPosition="74">
-      <varInfo nodeId="4998536563116560647" varName="edge" />
-      <varInfo nodeId="4998536563116572052" varName="clusterNode" />
-      <varInfo nodeId="4998536563116560621" varName="outerNode" />
-    </scopeInfo>
-    <scopeInfo nodeId="4998536563116728741" fileName="ClusterEmbeddingProcessor.java" startLine="161" startPosition="5" endLine="168" endPosition="5" />
-    <scopeInfo nodeId="4998536563116627368" fileName="ClusterEmbeddingProcessor.java" startLine="173" startPosition="76" endLine="180" endPosition="7">
-      <varInfo nodeId="4998536563116627344" varName="candidate" />
-      <varInfo nodeId="4998536563116627343" varName="realEdge" />
-    </scopeInfo>
-    <scopeInfo nodeId="4998536563116565565" fileName="ClusterEmbeddingProcessor.java" startLine="60" startPosition="67" endLine="68" endPosition="64">
-      <varInfo nodeId="4998536563116565580" varName="node" />
-      <varInfo nodeId="4998536563116627597" varName="subProcessor" />
-      <varInfo nodeId="4998536563116627541" varName="subOuterConnections" />
-      <varInfo nodeId="4998536563116627551" varName="darts" />
-    </scopeInfo>
-    <scopeInfo nodeId="4998536563116560386" fileName="ClusterEmbeddingProcessor.java" startLine="88" startPosition="60" endLine="96" endPosition="7" />
-    <scopeInfo nodeId="4998536563116560387" fileName="ClusterEmbeddingProcessor.java" startLine="88" startPosition="60" endLine="96" endPosition="7">
-      <varInfo nodeId="4998536563116560388" varName="edge" />
-    </scopeInfo>
-    <scopeInfo nodeId="4998536563116560449" fileName="ClusterEmbeddingProcessor.java" startLine="109" startPosition="52" endLine="118" endPosition="7" />
-    <scopeInfo nodeId="4998536563116560616" fileName="ClusterEmbeddingProcessor.java" startLine="145" startPosition="16" endLine="154" endPosition="7" />
-    <scopeInfo nodeId="4998536563116560383" fileName="ClusterEmbeddingProcessor.java" startLine="87" startPosition="68" endLine="97" endPosition="5" />
-    <scopeInfo nodeId="4998536563116565562" fileName="ClusterEmbeddingProcessor.java" startLine="59" startPosition="0" endLine="70" endPosition="0">
-      <varInfo nodeId="4998536563116565567" varName="subcluster" />
-    </scopeInfo>
-    <scopeInfo nodeId="4998536563116627366" fileName="ClusterEmbeddingProcessor.java" startLine="172" startPosition="175" endLine="183" endPosition="5" />
-    <scopeInfo nodeId="4998536563116557040" fileName="ClusterEmbeddingProcessor.java" startLine="44" startPosition="73" endLine="57" endPosition="16">
-      <varInfo nodeId="4998536563116557080" varName="subclusters" />
-    </scopeInfo>
-    <scopeInfo nodeId="4998536563116627351" fileName="ClusterEmbeddingProcessor.java" startLine="171" startPosition="0" endLine="185" endPosition="0">
-      <varInfo nodeId="4998536563116627431" varName="outerEdgeConnections" />
-      <varInfo nodeId="4998536563116627424" varName="invertedEdgesMap" />
-      <varInfo nodeId="4998536563116627416" varName="subclusterEdge" />
-      <varInfo nodeId="4998536563116627441" varName="nodeMap" />
-      <varInfo nodeId="4998536563116627421" varName="subclusterEdgeEnd" />
-    </scopeInfo>
-    <scopeInfo nodeId="4998536563116557037" fileName="ClusterEmbeddingProcessor.java" startLine="43" startPosition="0" endLine="59" endPosition="0">
-      <varInfo nodeId="4998536563116557044" varName="outerConnections" />
-    </scopeInfo>
-    <scopeInfo nodeId="4998536563116718786" fileName="ClusterEmbeddingProcessor.java" startLine="104" startPosition="62" endLine="154" endPosition="7">
-      <varInfo nodeId="4998536563116560525" varName="clusterFirstNode" />
-      <varInfo nodeId="4998536563116560498" varName="lastEdge" />
-      <varInfo nodeId="4998536563116560519" varName="clusterOuterFace" />
-      <varInfo nodeId="4998536563116560535" varName="bridge" />
-      <varInfo nodeId="4998536563116560444" varName="outerFace" />
-      <varInfo nodeId="4998536563116560430" varName="circle" />
-      <varInfo nodeId="4998536563116560543" varName="ringFace" />
-      <varInfo nodeId="4998536563116560490" varName="first" />
-      <varInfo nodeId="4998536563116560613" varName="i" />
-      <varInfo nodeId="4998536563116560440" varName="prev" />
-    </scopeInfo>
-    <scopeInfo nodeId="4998536563116560335" fileName="ClusterEmbeddingProcessor.java" startLine="71" startPosition="100" endLine="169" endPosition="0">
-      <varInfo nodeId="4998536563116728785" varName="outerEdgeConnections" />
-      <varInfo nodeId="4998536563116572164" varName="invertedEdgesMap" />
-      <varInfo nodeId="4998536563116560377" varName="clusterNodes" />
-      <varInfo nodeId="389705031868651541" varName="historyManager" />
-      <varInfo nodeId="4998536563116560344" varName="nodeMap" />
-      <varInfo nodeId="4998536563116723388" varName="initialEdges" />
-    </scopeInfo>
-    <scopeInfo nodeId="4998536563116560332" fileName="ClusterEmbeddingProcessor.java" startLine="70" startPosition="0" endLine="171" endPosition="0">
-      <varInfo nodeId="4998536563116560662" varName="outerConnections" />
-      <varInfo nodeId="4998536563116560668" varName="subclusters" />
-    </scopeInfo>
-    <unitInfo nodeId="4998536563116557088" fileName="ClusterEmbeddingProcessor.java" startLine="45" startPosition="99" endLine="49" endPosition="5" unitName="jetbrains.mps.graphLayout.planarization.ClusterEmbeddingProcessor$1" />
-    <unitInfo nodeId="4998536563116557003" fileName="ClusterEmbeddingProcessor.java" startLine="29" startPosition="0" endLine="186" endPosition="0" unitName="jetbrains.mps.graphLayout.planarization.ClusterEmbeddingProcessor" />
-  </root>
   <root nodeId="516638300680465086">
     <nodeInfo nodeId="5709109565604324397" conceptFqName="jetbrains.mps.baseLanguage.structure.StaticFieldDeclaration" fileName="PQPlanarityTest.java" startLine="25" startPosition="30" endLine="26" endPosition="34" />
     <nodeInfo nodeId="4644851485137255665" conceptFqName="jetbrains.mps.baseLanguage.structure.FieldDeclaration" fileName="PQPlanarityTest.java" startLine="27" startPosition="0" endLine="28" endPosition="24" />
@@ -2982,152 +3159,54 @@
     <unitInfo nodeId="603019764244010093" fileName="EdgesOrder.java" startLine="21" startPosition="0" endLine="173" endPosition="0" unitName="jetbrains.mps.graphLayout.planarization.EdgesOrder" />
   </root>
   <root nodeId="6172745735269727662">
-    <nodeInfo nodeId="8949260152464210985" conceptFqName="jetbrains.mps.baseLanguage.structure.StaticFieldDeclaration" fileName="ClusteredGraphEmbeddingFinder.java" startLine="28" startPosition="44" endLine="29" endPosition="31" />
-    <nodeInfo nodeId="6172745735269727676" conceptFqName="jetbrains.mps.baseLanguage.structure.ReturnStatement" fileName="ClusteredGraphEmbeddingFinder.java" startLine="34" startPosition="61" endLine="35" endPosition="64" />
-    <nodeInfo nodeId="8949260152464192166" conceptFqName="jetbrains.mps.baseLanguage.structure.ReturnStatement" fileName="ClusteredGraphEmbeddingFinder.java" startLine="40" startPosition="39" endLine="41" endPosition="32" />
-    <nodeInfo nodeId="8949260152464192183" conceptFqName="jetbrains.mps.baseLanguage.structure.SingleLineComment" fileName="ClusteredGraphEmbeddingFinder.java" startLine="44" startPosition="58" endLine="45" endPosition="21" />
-    <nodeInfo nodeId="8949260152464192194" conceptFqName="jetbrains.mps.baseLanguage.structure.LocalVariableDeclarationStatement" fileName="ClusteredGraphEmbeddingFinder.java" startLine="46" startPosition="12" endLine="47" endPosition="39" />
-    <nodeInfo nodeId="8949260152464192201" conceptFqName="jetbrains.mps.baseLanguage.structure.LocalVariableDeclarationStatement" fileName="ClusteredGraphEmbeddingFinder.java" startLine="47" startPosition="39" endLine="48" endPosition="81" />
-    <nodeInfo nodeId="8949260152464192241" conceptFqName="jetbrains.mps.baseLanguage.structure.LocalVariableDeclarationStatement" fileName="ClusteredGraphEmbeddingFinder.java" startLine="49" startPosition="67" endLine="50" endPosition="53" />
-    <nodeInfo nodeId="8949260152464196446" conceptFqName="jetbrains.mps.baseLanguage.structure.ExpressionStatement" fileName="ClusteredGraphEmbeddingFinder.java" startLine="51" startPosition="64" endLine="52" endPosition="62" />
-    <nodeInfo nodeId="8949260152464192296" conceptFqName="jetbrains.mps.baseLanguage.structure.LocalVariableDeclarationStatement" fileName="ClusteredGraphEmbeddingFinder.java" startLine="54" startPosition="7" endLine="55" endPosition="76" />
-    <nodeInfo nodeId="8949260152464192350" conceptFqName="jetbrains.mps.baseLanguage.structure.LocalVariableDeclarationStatement" fileName="ClusteredGraphEmbeddingFinder.java" startLine="57" startPosition="49" endLine="58" endPosition="42" />
-    <nodeInfo nodeId="8949260152464192365" conceptFqName="jetbrains.mps.baseLanguage.structure.ExpressionStatement" fileName="ClusteredGraphEmbeddingFinder.java" startLine="59" startPosition="67" endLine="60" endPosition="117" />
-    <nodeInfo nodeId="8949260152464210367" conceptFqName="jetbrains.mps.baseLanguage.structure.LocalVariableDeclarationStatement" fileName="ClusteredGraphEmbeddingFinder.java" startLine="63" startPosition="7" endLine="64" endPosition="80" />
-    <nodeInfo nodeId="8949260152464210376" conceptFqName="jetbrains.mps.baseLanguage.structure.LocalVariableDeclarationStatement" fileName="ClusteredGraphEmbeddingFinder.java" startLine="64" startPosition="80" endLine="65" endPosition="90" />
-    <nodeInfo nodeId="8949260152464210520" conceptFqName="jetbrains.mps.baseLanguage.structure.LocalVariableDeclarationStatement" fileName="ClusteredGraphEmbeddingFinder.java" startLine="65" startPosition="90" endLine="66" endPosition="112" />
-    <nodeInfo nodeId="8949260152464210736" conceptFqName="jetbrains.mps.baseLanguage.structure.LocalVariableDeclarationStatement" fileName="ClusteredGraphEmbeddingFinder.java" startLine="66" startPosition="112" endLine="67" endPosition="23" />
-    <nodeInfo nodeId="8949260152464210804" conceptFqName="jetbrains.mps.baseLanguage.structure.LocalVariableDeclarationStatement" fileName="ClusteredGraphEmbeddingFinder.java" startLine="67" startPosition="23" endLine="68" endPosition="46" />
-    <nodeInfo nodeId="8949260152464210750" conceptFqName="jetbrains.mps.baseLanguage.structure.LocalVariableDeclarationStatement" fileName="ClusteredGraphEmbeddingFinder.java" startLine="69" startPosition="59" endLine="70" endPosition="46" />
-    <nodeInfo nodeId="8949260152464210795" conceptFqName="jetbrains.mps.baseLanguage.structure.LocalVariableDeclarationStatement" fileName="ClusteredGraphEmbeddingFinder.java" startLine="71" startPosition="27" endLine="72" endPosition="58" />
-    <nodeInfo nodeId="8949260152464210778" conceptFqName="jetbrains.mps.baseLanguage.structure.ExpressionStatement" fileName="ClusteredGraphEmbeddingFinder.java" startLine="72" startPosition="58" endLine="73" endPosition="60" />
-    <nodeInfo nodeId="8949260152464210812" conceptFqName="jetbrains.mps.baseLanguage.structure.ExpressionStatement" fileName="ClusteredGraphEmbeddingFinder.java" startLine="73" startPosition="60" endLine="74" endPosition="53" />
-    <nodeInfo nodeId="8949260152464210761" conceptFqName="jetbrains.mps.baseLanguage.structure.ExpressionStatement" fileName="ClusteredGraphEmbeddingFinder.java" startLine="75" startPosition="9" endLine="76" endPosition="20" />
-    <nodeInfo nodeId="8949260152464210864" conceptFqName="jetbrains.mps.baseLanguage.structure.LocalVariableDeclarationStatement" fileName="ClusteredGraphEmbeddingFinder.java" startLine="77" startPosition="7" endLine="78" endPosition="69" />
-    <nodeInfo nodeId="8949260152464210873" conceptFqName="jetbrains.mps.baseLanguage.structure.LocalVariableDeclarationStatement" fileName="ClusteredGraphEmbeddingFinder.java" startLine="78" startPosition="69" endLine="79" endPosition="56" />
-    <nodeInfo nodeId="8949260152464210827" conceptFqName="jetbrains.mps.baseLanguage.structure.ExpressionStatement" fileName="ClusteredGraphEmbeddingFinder.java" startLine="79" startPosition="56" endLine="80" endPosition="57" />
-    <nodeInfo nodeId="8949260152464210883" conceptFqName="jetbrains.mps.baseLanguage.structure.ExpressionStatement" fileName="ClusteredGraphEmbeddingFinder.java" startLine="80" startPosition="57" endLine="81" endPosition="51" />
-    <nodeInfo nodeId="8949260152464210613" conceptFqName="jetbrains.mps.baseLanguage.structure.LocalVariableDeclarationStatement" fileName="ClusteredGraphEmbeddingFinder.java" startLine="81" startPosition="51" endLine="82" endPosition="59" />
-    <nodeInfo nodeId="8949260152464210629" conceptFqName="jetbrains.mps.baseLanguage.structure.LocalVariableDeclarationStatement" fileName="ClusteredGraphEmbeddingFinder.java" startLine="82" startPosition="59" endLine="83" endPosition="101" />
-    <nodeInfo nodeId="8949260152464210658" conceptFqName="jetbrains.mps.baseLanguage.structure.LocalVariableDeclarationStatement" fileName="ClusteredGraphEmbeddingFinder.java" startLine="83" startPosition="101" endLine="84" endPosition="66" />
-    <nodeInfo nodeId="8949260152464210687" conceptFqName="jetbrains.mps.baseLanguage.structure.LocalVariableDeclarationStatement" fileName="ClusteredGraphEmbeddingFinder.java" startLine="84" startPosition="66" endLine="85" endPosition="45" />
-    <nodeInfo nodeId="8949260152464210696" conceptFqName="jetbrains.mps.baseLanguage.structure.ExpressionStatement" fileName="ClusteredGraphEmbeddingFinder.java" startLine="85" startPosition="45" endLine="86" endPosition="59" />
-    <nodeInfo nodeId="8949260152464210902" conceptFqName="jetbrains.mps.baseLanguage.structure.ExpressionStatement" fileName="ClusteredGraphEmbeddingFinder.java" startLine="87" startPosition="55" endLine="88" endPosition="59" />
-    <nodeInfo nodeId="8949260152464210924" conceptFqName="jetbrains.mps.baseLanguage.structure.ExpressionStatement" fileName="ClusteredGraphEmbeddingFinder.java" startLine="89" startPosition="7" endLine="90" endPosition="48" />
-    <nodeInfo nodeId="8949260152464210944" conceptFqName="jetbrains.mps.baseLanguage.structure.ExpressionStatement" fileName="ClusteredGraphEmbeddingFinder.java" startLine="91" startPosition="76" endLine="92" endPosition="31" />
-    <nodeInfo nodeId="8949260152464210957" conceptFqName="jetbrains.mps.baseLanguage.structure.ExpressionStatement" fileName="ClusteredGraphEmbeddingFinder.java" startLine="93" startPosition="7" endLine="94" endPosition="42" />
-    <nodeInfo nodeId="8949260152464210968" conceptFqName="jetbrains.mps.baseLanguage.structure.ExpressionStatement" fileName="ClusteredGraphEmbeddingFinder.java" startLine="94" startPosition="42" endLine="95" endPosition="38" />
-    <nodeInfo nodeId="8949260152464210977" conceptFqName="jetbrains.mps.baseLanguage.structure.ExpressionStatement" fileName="ClusteredGraphEmbeddingFinder.java" startLine="95" startPosition="38" endLine="96" endPosition="39" />
-    <nodeInfo nodeId="8949260152464211011" conceptFqName="jetbrains.mps.baseLanguage.structure.ExpressionStatement" fileName="ClusteredGraphEmbeddingFinder.java" startLine="97" startPosition="22" endLine="98" endPosition="61" />
-    <nodeInfo nodeId="8949260152464211026" conceptFqName="jetbrains.mps.baseLanguage.structure.LocalVariableDeclarationStatement" fileName="ClusteredGraphEmbeddingFinder.java" startLine="99" startPosition="7" endLine="100" endPosition="16" />
-    <nodeInfo nodeId="8949260152464211038" conceptFqName="jetbrains.mps.baseLanguage.structure.LocalVariableDeclarationStatement" fileName="ClusteredGraphEmbeddingFinder.java" startLine="101" startPosition="64" endLine="102" endPosition="83" />
-    <nodeInfo nodeId="8949260152464211094" conceptFqName="jetbrains.mps.baseLanguage.structure.ReturnStatement" fileName="ClusteredGraphEmbeddingFinder.java" startLine="104" startPosition="42" endLine="105" endPosition="66" />
-    <nodeInfo nodeId="8949260152464211058" conceptFqName="jetbrains.mps.baseLanguage.structure.LocalVariableDeclarationStatement" fileName="ClusteredGraphEmbeddingFinder.java" startLine="107" startPosition="11" endLine="108" endPosition="65" />
-    <nodeInfo nodeId="1763712338172365837" conceptFqName="jetbrains.mps.baseLanguage.structure.ExpressionStatement" fileName="ClusteredGraphEmbeddingFinder.java" startLine="108" startPosition="65" endLine="109" endPosition="38" />
-    <nodeInfo nodeId="8949260152464211021" conceptFqName="jetbrains.mps.baseLanguage.structure.ExpressionStatement" fileName="ClusteredGraphEmbeddingFinder.java" startLine="109" startPosition="38" endLine="110" endPosition="69" />
-    <nodeInfo nodeId="8949260152464211114" conceptFqName="jetbrains.mps.baseLanguage.structure.Statement" fileName="ClusteredGraphEmbeddingFinder.java" startLine="111" startPosition="7" endLine="112" endPosition="0" />
-    <nodeInfo nodeId="6172745735269727971" conceptFqName="jetbrains.mps.baseLanguage.structure.ReturnStatement" fileName="ClusteredGraphEmbeddingFinder.java" startLine="113" startPosition="5" endLine="114" endPosition="16" />
-    <nodeInfo nodeId="6172745735269727664" conceptFqName="jetbrains.mps.baseLanguage.structure.ConstructorDeclaration" fileName="ClusteredGraphEmbeddingFinder.java" startLine="30" startPosition="0" endLine="32" endPosition="3" />
-    <nodeInfo nodeId="8949260152464196433" conceptFqName="jetbrains.mps.baseLanguage.structure.ForeachStatement" fileName="ClusteredGraphEmbeddingFinder.java" startLine="50" startPosition="53" endLine="53" endPosition="9" />
-    <nodeInfo nodeId="8949260152464192340" conceptFqName="jetbrains.mps.baseLanguage.structure.IfStatement" fileName="ClusteredGraphEmbeddingFinder.java" startLine="58" startPosition="42" endLine="61" endPosition="11" />
-    <nodeInfo nodeId="8949260152464210715" conceptFqName="jetbrains.mps.baseLanguage.structure.ForeachStatement" fileName="ClusteredGraphEmbeddingFinder.java" startLine="86" startPosition="59" endLine="89" endPosition="7" />
-    <nodeInfo nodeId="8949260152464210934" conceptFqName="jetbrains.mps.baseLanguage.structure.ForeachStatement" fileName="ClusteredGraphEmbeddingFinder.java" startLine="90" startPosition="48" endLine="93" endPosition="7" />
-    <nodeInfo nodeId="8949260152464211002" conceptFqName="jetbrains.mps.baseLanguage.structure.IfStatement" fileName="ClusteredGraphEmbeddingFinder.java" startLine="96" startPosition="39" endLine="99" endPosition="7" />
-    <nodeInfo nodeId="6172745735269727668" conceptFqName="jetbrains.mps.baseLanguage.structure.InstanceMethodDeclaration" fileName="ClusteredGraphEmbeddingFinder.java" startLine="33" startPosition="0" endLine="37" endPosition="0" />
-    <nodeInfo nodeId="8949260152464192162" conceptFqName="jetbrains.mps.baseLanguage.structure.InstanceMethodDeclaration" fileName="ClusteredGraphEmbeddingFinder.java" startLine="39" startPosition="124" endLine="43" endPosition="0" />
-    <nodeInfo nodeId="8949260152464211090" conceptFqName="jetbrains.mps.baseLanguage.structure.InstanceMethodDeclaration" fileName="ClusteredGraphEmbeddingFinder.java" startLine="103" startPosition="115" endLine="107" endPosition="0" />
-    <nodeInfo nodeId="8949260152464192145" conceptFqName="jetbrains.mps.baseLanguage.structure.LocalVariableDeclarationStatement" fileName="ClusteredGraphEmbeddingFinder.java" startLine="38" startPosition="91" endLine="43" endPosition="7" />
-    <nodeInfo nodeId="8949260152464210769" conceptFqName="jetbrains.mps.baseLanguage.structure.IfStatement" fileName="ClusteredGraphEmbeddingFinder.java" startLine="70" startPosition="46" endLine="75" endPosition="9" />
-    <nodeInfo nodeId="8949260152464211075" conceptFqName="jetbrains.mps.baseLanguage.structure.LocalVariableDeclarationStatement" fileName="ClusteredGraphEmbeddingFinder.java" startLine="102" startPosition="83" endLine="107" endPosition="11" />
-    <nodeInfo nodeId="8949260152464192187" conceptFqName="jetbrains.mps.baseLanguage.structure.ForeachStatement" fileName="ClusteredGraphEmbeddingFinder.java" startLine="48" startPosition="81" endLine="54" endPosition="7" />
-    <nodeInfo nodeId="8949260152464192328" conceptFqName="jetbrains.mps.baseLanguage.structure.ForeachStatement" fileName="ClusteredGraphEmbeddingFinder.java" startLine="56" startPosition="62" endLine="62" endPosition="9" />
-    <nodeInfo nodeId="8949260152464192318" conceptFqName="jetbrains.mps.baseLanguage.structure.ForeachStatement" fileName="ClusteredGraphEmbeddingFinder.java" startLine="55" startPosition="76" endLine="63" endPosition="7" />
-    <nodeInfo nodeId="8949260152464210437" conceptFqName="jetbrains.mps.baseLanguage.structure.ForeachStatement" fileName="ClusteredGraphEmbeddingFinder.java" startLine="68" startPosition="46" endLine="77" endPosition="7" />
-    <nodeInfo nodeId="8949260152464211016" conceptFqName="jetbrains.mps.baseLanguage.structure.ForeachStatement" fileName="ClusteredGraphEmbeddingFinder.java" startLine="100" startPosition="16" endLine="111" endPosition="7" />
-    <nodeInfo nodeId="8949260152464192185" conceptFqName="jetbrains.mps.baseLanguage.structure.BlockStatement" fileName="ClusteredGraphEmbeddingFinder.java" startLine="46" startPosition="10" endLine="113" endPosition="5" />
-    <nodeInfo nodeId="8949260152464192140" conceptFqName="jetbrains.mps.baseLanguage.structure.IfStatement" fileName="ClusteredGraphEmbeddingFinder.java" startLine="43" startPosition="7" endLine="113" endPosition="5" />
-    <nodeInfo nodeId="6172745735269727679" conceptFqName="jetbrains.mps.baseLanguage.structure.InstanceMethodDeclaration" fileName="ClusteredGraphEmbeddingFinder.java" startLine="37" startPosition="0" endLine="116" endPosition="0" />
-    <scopeInfo nodeId="6172745735269727667" fileName="ClusteredGraphEmbeddingFinder.java" startLine="31" startPosition="42" endLine="31" endPosition="42" />
-    <scopeInfo nodeId="6172745735269727671" fileName="ClusteredGraphEmbeddingFinder.java" startLine="34" startPosition="61" endLine="35" endPosition="64" />
-    <scopeInfo nodeId="8949260152464192163" fileName="ClusteredGraphEmbeddingFinder.java" startLine="40" startPosition="39" endLine="41" endPosition="32" />
-    <scopeInfo nodeId="8949260152464192141" fileName="ClusteredGraphEmbeddingFinder.java" startLine="44" startPosition="58" endLine="45" endPosition="21" />
-    <scopeInfo nodeId="8949260152464196435" fileName="ClusteredGraphEmbeddingFinder.java" startLine="51" startPosition="64" endLine="52" endPosition="62" />
-    <scopeInfo nodeId="8949260152464192341" fileName="ClusteredGraphEmbeddingFinder.java" startLine="59" startPosition="67" endLine="60" endPosition="117" />
-    <scopeInfo nodeId="8949260152464210718" fileName="ClusteredGraphEmbeddingFinder.java" startLine="87" startPosition="55" endLine="88" endPosition="59" />
-    <scopeInfo nodeId="8949260152464210937" fileName="ClusteredGraphEmbeddingFinder.java" startLine="91" startPosition="76" endLine="92" endPosition="31" />
-    <scopeInfo nodeId="8949260152464211003" fileName="ClusteredGraphEmbeddingFinder.java" startLine="97" startPosition="22" endLine="98" endPosition="61" />
-    <scopeInfo nodeId="8949260152464211091" fileName="ClusteredGraphEmbeddingFinder.java" startLine="104" startPosition="42" endLine="105" endPosition="66" />
-    <scopeInfo nodeId="6172745735269727664" fileName="ClusteredGraphEmbeddingFinder.java" startLine="30" startPosition="0" endLine="32" endPosition="3" />
-    <scopeInfo nodeId="8949260152464196433" fileName="ClusteredGraphEmbeddingFinder.java" startLine="50" startPosition="53" endLine="53" endPosition="9">
-      <varInfo nodeId="8949260152464196434" varName="node" />
+    <nodeInfo nodeId="3444434563276270821" conceptFqName="jetbrains.mps.baseLanguage.structure.FieldDeclaration" fileName="ClusteredGraphEmbeddingFinder.java" startLine="16" startPosition="72" endLine="17" endPosition="51" />
+    <nodeInfo nodeId="1532165762814313703" conceptFqName="jetbrains.mps.baseLanguage.structure.LocalVariableDeclarationStatement" fileName="ClusteredGraphEmbeddingFinder.java" startLine="23" startPosition="42" endLine="24" endPosition="63" />
+    <nodeInfo nodeId="1532165762814313714" conceptFqName="jetbrains.mps.baseLanguage.structure.LocalVariableDeclarationStatement" fileName="ClusteredGraphEmbeddingFinder.java" startLine="24" startPosition="63" endLine="25" endPosition="43" />
+    <nodeInfo nodeId="3444434563276270832" conceptFqName="jetbrains.mps.baseLanguage.structure.ExpressionStatement" fileName="ClusteredGraphEmbeddingFinder.java" startLine="25" startPosition="43" endLine="26" endPosition="80" />
+    <nodeInfo nodeId="1532165762814313692" conceptFqName="jetbrains.mps.baseLanguage.structure.LocalVariableDeclarationStatement" fileName="ClusteredGraphEmbeddingFinder.java" startLine="26" startPosition="80" endLine="27" endPosition="108" />
+    <nodeInfo nodeId="3444434563276270843" conceptFqName="jetbrains.mps.baseLanguage.structure.ExpressionStatement" fileName="ClusteredGraphEmbeddingFinder.java" startLine="27" startPosition="108" endLine="28" endPosition="58" />
+    <nodeInfo nodeId="3167072330486688138" conceptFqName="jetbrains.mps.baseLanguage.structure.LocalVariableDeclarationStatement" fileName="ClusteredGraphEmbeddingFinder.java" startLine="28" startPosition="58" endLine="29" endPosition="69" />
+    <nodeInfo nodeId="3167072330486688146" conceptFqName="jetbrains.mps.baseLanguage.structure.ExpressionStatement" fileName="ClusteredGraphEmbeddingFinder.java" startLine="29" startPosition="69" endLine="30" endPosition="59" />
+    <nodeInfo nodeId="1532165762814313680" conceptFqName="jetbrains.mps.baseLanguage.structure.ReturnStatement" fileName="ClusteredGraphEmbeddingFinder.java" startLine="30" startPosition="59" endLine="31" endPosition="27" />
+    <nodeInfo nodeId="3444434563276270747" conceptFqName="jetbrains.mps.baseLanguage.structure.ThrowStatement" fileName="ClusteredGraphEmbeddingFinder.java" startLine="32" startPosition="12" endLine="33" endPosition="80" />
+    <nodeInfo nodeId="3444434563276270862" conceptFqName="jetbrains.mps.baseLanguage.structure.ReturnStatement" fileName="ClusteredGraphEmbeddingFinder.java" startLine="37" startPosition="54" endLine="38" endPosition="30" />
+    <nodeInfo nodeId="6172745735269727664" conceptFqName="jetbrains.mps.baseLanguage.structure.ConstructorDeclaration" fileName="ClusteredGraphEmbeddingFinder.java" startLine="18" startPosition="0" endLine="20" endPosition="3" />
+    <nodeInfo nodeId="3444434563276270745" conceptFqName="jetbrains.mps.baseLanguage.structure.BlockStatement" fileName="ClusteredGraphEmbeddingFinder.java" startLine="32" startPosition="10" endLine="34" endPosition="5" />
+    <nodeInfo nodeId="3444434563276270851" conceptFqName="jetbrains.mps.baseLanguage.structure.InstanceMethodDeclaration" fileName="ClusteredGraphEmbeddingFinder.java" startLine="36" startPosition="0" endLine="40" endPosition="0" />
+    <nodeInfo nodeId="1532165762814313669" conceptFqName="jetbrains.mps.baseLanguage.structure.IfStatement" fileName="ClusteredGraphEmbeddingFinder.java" startLine="22" startPosition="42" endLine="34" endPosition="5" />
+    <nodeInfo nodeId="1532165762814313657" conceptFqName="jetbrains.mps.baseLanguage.structure.InstanceMethodDeclaration" fileName="ClusteredGraphEmbeddingFinder.java" startLine="21" startPosition="0" endLine="36" endPosition="0" />
+    <scopeInfo nodeId="6172745735269727667" fileName="ClusteredGraphEmbeddingFinder.java" startLine="19" startPosition="42" endLine="19" endPosition="42" />
+    <scopeInfo nodeId="3444434563276270746" fileName="ClusteredGraphEmbeddingFinder.java" startLine="32" startPosition="12" endLine="33" endPosition="80" />
+    <scopeInfo nodeId="3444434563276270854" fileName="ClusteredGraphEmbeddingFinder.java" startLine="37" startPosition="54" endLine="38" endPosition="30" />
+    <scopeInfo nodeId="6172745735269727664" fileName="ClusteredGraphEmbeddingFinder.java" startLine="18" startPosition="0" endLine="20" endPosition="3" />
+    <scopeInfo nodeId="3444434563276270851" fileName="ClusteredGraphEmbeddingFinder.java" startLine="36" startPosition="0" endLine="40" endPosition="0" />
+    <scopeInfo nodeId="1532165762814313670" fileName="ClusteredGraphEmbeddingFinder.java" startLine="23" startPosition="42" endLine="31" endPosition="27">
+      <varInfo nodeId="1532165762814313704" varName="clusteredGraph" />
+      <varInfo nodeId="1532165762814313715" varName="root" />
+      <varInfo nodeId="3167072330486688139" varName="embeddedGraph" />
+      <varInfo nodeId="1532165762814313693" varName="constructor" />
     </scopeInfo>
-    <scopeInfo nodeId="8949260152464210770" fileName="ClusteredGraphEmbeddingFinder.java" startLine="71" startPosition="27" endLine="74" endPosition="53">
-      <varInfo nodeId="8949260152464210796" varName="newEdge" />
+    <scopeInfo nodeId="1532165762814313662" fileName="ClusteredGraphEmbeddingFinder.java" startLine="22" startPosition="42" endLine="34" endPosition="5" />
+    <scopeInfo nodeId="1532165762814313657" fileName="ClusteredGraphEmbeddingFinder.java" startLine="21" startPosition="0" endLine="36" endPosition="0">
+      <varInfo nodeId="1532165762814313660" varName="graph" />
     </scopeInfo>
-    <scopeInfo nodeId="8949260152464210715" fileName="ClusteredGraphEmbeddingFinder.java" startLine="86" startPosition="59" endLine="89" endPosition="7" />
-    <scopeInfo nodeId="8949260152464210934" fileName="ClusteredGraphEmbeddingFinder.java" startLine="90" startPosition="48" endLine="93" endPosition="7" />
-    <scopeInfo nodeId="6172745735269727668" fileName="ClusteredGraphEmbeddingFinder.java" startLine="33" startPosition="0" endLine="37" endPosition="0">
-      <varInfo nodeId="6172745735269727673" varName="clusteredGraph" />
-    </scopeInfo>
-    <scopeInfo nodeId="8949260152464192162" fileName="ClusteredGraphEmbeddingFinder.java" startLine="39" startPosition="124" endLine="43" endPosition="0" />
-    <scopeInfo nodeId="8949260152464192190" fileName="ClusteredGraphEmbeddingFinder.java" startLine="49" startPosition="67" endLine="53" endPosition="9">
-      <varInfo nodeId="8949260152464192242" varName="clusterNode" />
-    </scopeInfo>
-    <scopeInfo nodeId="8949260152464192330" fileName="ClusteredGraphEmbeddingFinder.java" startLine="57" startPosition="49" endLine="61" endPosition="11">
-      <varInfo nodeId="8949260152464192351" varName="target" />
-    </scopeInfo>
-    <scopeInfo nodeId="8949260152464211090" fileName="ClusteredGraphEmbeddingFinder.java" startLine="103" startPosition="115" endLine="107" endPosition="0" />
-    <scopeInfo nodeId="8949260152464192187" fileName="ClusteredGraphEmbeddingFinder.java" startLine="48" startPosition="81" endLine="54" endPosition="7" />
-    <scopeInfo nodeId="8949260152464192321" fileName="ClusteredGraphEmbeddingFinder.java" startLine="56" startPosition="62" endLine="62" endPosition="9" />
-    <scopeInfo nodeId="8949260152464192328" fileName="ClusteredGraphEmbeddingFinder.java" startLine="56" startPosition="62" endLine="62" endPosition="9">
-      <varInfo nodeId="8949260152464192329" varName="edge" />
-    </scopeInfo>
-    <scopeInfo nodeId="8949260152464210457" fileName="ClusteredGraphEmbeddingFinder.java" startLine="69" startPosition="59" endLine="76" endPosition="20">
-      <varInfo nodeId="8949260152464210751" varName="node" />
-    </scopeInfo>
-    <scopeInfo nodeId="8949260152464192318" fileName="ClusteredGraphEmbeddingFinder.java" startLine="55" startPosition="76" endLine="63" endPosition="7" />
-    <scopeInfo nodeId="8949260152464210437" fileName="ClusteredGraphEmbeddingFinder.java" startLine="68" startPosition="46" endLine="77" endPosition="7" />
-    <scopeInfo nodeId="8949260152464211019" fileName="ClusteredGraphEmbeddingFinder.java" startLine="101" startPosition="64" endLine="110" endPosition="69">
-      <varInfo nodeId="8949260152464211059" varName="edge" />
-      <varInfo nodeId="8949260152464211076" varName="clusterNode" />
-      <varInfo nodeId="8949260152464211039" varName="outerNode" />
-    </scopeInfo>
-    <scopeInfo nodeId="8949260152464211016" fileName="ClusteredGraphEmbeddingFinder.java" startLine="100" startPosition="16" endLine="111" endPosition="7" />
-    <scopeInfo nodeId="8949260152464192186" fileName="ClusteredGraphEmbeddingFinder.java" startLine="46" startPosition="12" endLine="112" endPosition="0">
-      <varInfo nodeId="8949260152464192195" varName="clusterGraph" />
-      <varInfo nodeId="8949260152464210368" varName="addedEdges" />
-      <varInfo nodeId="8949260152464210874" varName="lastEdge" />
-      <varInfo nodeId="8949260152464210630" varName="clusterFirstNode" />
-      <varInfo nodeId="8949260152464192202" varName="nodeMap" />
-      <varInfo nodeId="8949260152464210377" varName="embeddedGraph" />
-      <varInfo nodeId="8949260152464210614" varName="clusterOuterFace" />
-      <varInfo nodeId="8949260152464210521" varName="circle" />
-      <varInfo nodeId="8949260152464210805" varName="outerFace" />
-      <varInfo nodeId="8949260152464210688" varName="ringFace" />
-      <varInfo nodeId="8949260152464211027" varName="i" />
-      <varInfo nodeId="8949260152464210737" varName="prev" />
-      <varInfo nodeId="8949260152464192297" varName="clusterNodes" />
-      <varInfo nodeId="8949260152464210659" varName="bridge" />
-      <varInfo nodeId="8949260152464210865" varName="first" />
-    </scopeInfo>
-    <scopeInfo nodeId="6172745735269727682" fileName="ClusteredGraphEmbeddingFinder.java" startLine="38" startPosition="91" endLine="114" endPosition="16">
-      <varInfo nodeId="8949260152464192146" varName="subclusters" />
-    </scopeInfo>
-    <scopeInfo nodeId="6172745735269727679" fileName="ClusteredGraphEmbeddingFinder.java" startLine="37" startPosition="0" endLine="116" endPosition="0">
-      <varInfo nodeId="6172745735269727685" varName="graph" />
-      <varInfo nodeId="8949260152464210429" varName="outerEdges" />
-      <varInfo nodeId="6172745735269727687" varName="cluster" />
-    </scopeInfo>
-    <unitInfo nodeId="8949260152464192162" fileName="ClusteredGraphEmbeddingFinder.java" startLine="39" startPosition="97" endLine="43" endPosition="5" unitName="jetbrains.mps.graphLayout.planarization.ClusteredGraphEmbeddingFinder$1" />
-    <unitInfo nodeId="8949260152464211090" fileName="ClusteredGraphEmbeddingFinder.java" startLine="103" startPosition="93" endLine="107" endPosition="9" unitName="jetbrains.mps.graphLayout.planarization.ClusteredGraphEmbeddingFinder$2" />
-    <unitInfo nodeId="6172745735269727662" fileName="ClusteredGraphEmbeddingFinder.java" startLine="28" startPosition="0" endLine="117" endPosition="0" unitName="jetbrains.mps.graphLayout.planarization.ClusteredGraphEmbeddingFinder" />
+    <unitInfo nodeId="6172745735269727662" fileName="ClusteredGraphEmbeddingFinder.java" startLine="16" startPosition="0" endLine="41" endPosition="0" unitName="jetbrains.mps.graphLayout.planarization.ClusteredGraphEmbeddingFinder" />
   </root>
   <root nodeId="8949260152464210382">
-    <nodeInfo nodeId="8949260152464210397" conceptFqName="jetbrains.mps.baseLanguage.structure.ReturnStatement" fileName="EmbeddingFinderFactory.java" startLine="7" startPosition="46" endLine="8" endPosition="72" />
-    <nodeInfo nodeId="8949260152464210392" conceptFqName="jetbrains.mps.baseLanguage.structure.StaticMethodDeclaration" fileName="EmbeddingFinderFactory.java" startLine="6" startPosition="37" endLine="10" endPosition="0" />
-    <scopeInfo nodeId="8949260152464210395" fileName="EmbeddingFinderFactory.java" startLine="7" startPosition="46" endLine="8" endPosition="72" />
-    <scopeInfo nodeId="8949260152464210392" fileName="EmbeddingFinderFactory.java" startLine="6" startPosition="37" endLine="10" endPosition="0" />
-    <unitInfo nodeId="8949260152464210382" fileName="EmbeddingFinderFactory.java" startLine="6" startPosition="0" endLine="11" endPosition="0" unitName="jetbrains.mps.graphLayout.planarization.EmbeddingFinderFactory" />
+    <nodeInfo nodeId="8949260152464210397" conceptFqName="jetbrains.mps.baseLanguage.structure.ReturnStatement" fileName="EmbeddingFinderFactory.java" startLine="9" startPosition="46" endLine="10" endPosition="72" />
+    <nodeInfo nodeId="1532165762814313647" conceptFqName="jetbrains.mps.baseLanguage.structure.ReturnStatement" fileName="EmbeddingFinderFactory.java" startLine="14" startPosition="42" endLine="15" endPosition="49" />
+    <nodeInfo nodeId="1532165762814313653" conceptFqName="jetbrains.mps.baseLanguage.structure.ReturnStatement" fileName="EmbeddingFinderFactory.java" startLine="16" startPosition="5" endLine="17" endPosition="23" />
+    <nodeInfo nodeId="1532165762814313639" conceptFqName="jetbrains.mps.baseLanguage.structure.IfStatement" fileName="EmbeddingFinderFactory.java" startLine="13" startPosition="65" endLine="16" endPosition="5" />
+    <nodeInfo nodeId="8949260152464210392" conceptFqName="jetbrains.mps.baseLanguage.structure.StaticMethodDeclaration" fileName="EmbeddingFinderFactory.java" startLine="8" startPosition="37" endLine="12" endPosition="0" />
+    <nodeInfo nodeId="1532165762814313631" conceptFqName="jetbrains.mps.baseLanguage.structure.StaticMethodDeclaration" fileName="EmbeddingFinderFactory.java" startLine="12" startPosition="0" endLine="19" endPosition="0" />
+    <scopeInfo nodeId="8949260152464210395" fileName="EmbeddingFinderFactory.java" startLine="9" startPosition="46" endLine="10" endPosition="72" />
+    <scopeInfo nodeId="1532165762814313641" fileName="EmbeddingFinderFactory.java" startLine="14" startPosition="42" endLine="15" endPosition="49" />
+    <scopeInfo nodeId="8949260152464210392" fileName="EmbeddingFinderFactory.java" startLine="8" startPosition="37" endLine="12" endPosition="0" />
+    <scopeInfo nodeId="1532165762814313634" fileName="EmbeddingFinderFactory.java" startLine="13" startPosition="65" endLine="17" endPosition="23" />
+    <scopeInfo nodeId="1532165762814313631" fileName="EmbeddingFinderFactory.java" startLine="12" startPosition="0" endLine="19" endPosition="0">
+      <varInfo nodeId="1532165762814313636" varName="graph" />
+    </scopeInfo>
+    <unitInfo nodeId="8949260152464210382" fileName="EmbeddingFinderFactory.java" startLine="8" startPosition="0" endLine="20" endPosition="0" unitName="jetbrains.mps.graphLayout.planarization.EmbeddingFinderFactory" />
   </root>
 </debugInfo>
 

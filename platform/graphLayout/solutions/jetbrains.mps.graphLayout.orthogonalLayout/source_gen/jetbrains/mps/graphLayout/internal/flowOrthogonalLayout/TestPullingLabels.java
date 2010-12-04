@@ -12,7 +12,6 @@ import jetbrains.mps.internal.collections.runtime.MapSequence;
 import java.util.HashMap;
 import jetbrains.mps.internal.collections.runtime.SetSequence;
 import jetbrains.mps.graphLayout.intGeom2D.Rectangle;
-import jetbrains.mps.graphLayout.graphLayout.LayoutTransform;
 import java.util.List;
 import jetbrains.mps.graphLayout.intGeom2D.Point;
 import jetbrains.mps.internal.collections.runtime.ListSequence;
@@ -20,6 +19,7 @@ import jetbrains.mps.graphLayout.util.Direction2D;
 import jetbrains.mps.graphLayout.util.GeomUtil;
 import jetbrains.mps.graphLayout.graph.INode;
 import jetbrains.mps.graphLayout.graph.IEdge;
+import jetbrains.mps.graphLayout.graphLayout.GraphLayoutFactory;
 import java.util.Set;
 import java.util.HashSet;
 import jetbrains.mps.internal.collections.runtime.backports.LinkedList;
@@ -39,7 +39,7 @@ public class TestPullingLabels {
       layout = addEdgeLabel(layout, edge, MapSequence.fromMap(edgeSizes).get(edge), labeledSegment);
     }
     Rectangle rect = layout.getContainingRectangle();
-    layout = LayoutTransform.shift(layout, 20 - rect.x, 20 - rect.y);
+    layout = layout.shift(20 - rect.x, 20 - rect.y);
     return layout;
   }
 
@@ -133,7 +133,7 @@ public class TestPullingLabels {
   }
 
   public GraphLayout pullGraphLayout(GraphLayout layout, Direction2D direction, int shift, Point center, Map<Edge, Integer> labeledSegments, boolean alongEdge) {
-    GraphLayout pulledLayout = new GraphLayout(layout.getGraph());
+    GraphLayout pulledLayout = GraphLayoutFactory.createGraphLayout(layout.getGraph());
     Set<Node> unpulledNodes = SetSequence.fromSet(new HashSet<Node>());
     for (INode node : SetSequence.fromSet(MapSequence.fromMap(layout.getNodeLayout()).keySet())) {
       Node myNode = ((Node) node);

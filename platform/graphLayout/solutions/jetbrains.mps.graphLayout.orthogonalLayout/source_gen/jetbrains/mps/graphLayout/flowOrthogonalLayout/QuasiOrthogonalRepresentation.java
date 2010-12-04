@@ -30,7 +30,7 @@ public class QuasiOrthogonalRepresentation {
     getRepresentation(embeddedGraph, bends, angles, SetSequence.fromSet(new HashSet<Edge>()));
   }
 
-  public static void getRepresentation(EmbeddedGraph embeddedGraph, Map<Dart, Integer> bends, Map<Dart, Integer> angles, Set<Edge> freeEdges) {
+  public static void getRepresentation(EmbeddedGraph embeddedGraph, Map<Dart, Integer> bends, Map<Dart, Integer> angles, Set<Edge> straightEdges) {
     Graph graph = embeddedGraph.getGraph();
     int c = 100 * graph.getNumNodes();
     Graph network = new Graph();
@@ -92,12 +92,12 @@ public class QuasiOrthogonalRepresentation {
         Node oppositeFaceNode = MapSequence.fromMap(faceMap).get(embeddedGraph.getFace(oppositeDart));
         edge = network.connect(faceNode, oppositeFaceNode);
         MapSequence.fromMap(dartBendMap).put(dart, edge);
-        MapSequence.fromMap(capacity).put(edge, INF);
-        if (SetSequence.fromSet(freeEdges).contains(dart.getEdge())) {
-          MapSequence.fromMap(cost).put(edge, 0);
+        if (SetSequence.fromSet(straightEdges).contains(edge)) {
+          MapSequence.fromMap(capacity).put(edge, 0);
         } else {
-          MapSequence.fromMap(cost).put(edge, 1);
+          MapSequence.fromMap(capacity).put(edge, INF);
         }
+        MapSequence.fromMap(cost).put(edge, 1);
       }
     }
     Map<Node, Map<Face, Edge>> faceToNodeEdges = MapSequence.fromMap(new HashMap<Node, Map<Face, Edge>>());

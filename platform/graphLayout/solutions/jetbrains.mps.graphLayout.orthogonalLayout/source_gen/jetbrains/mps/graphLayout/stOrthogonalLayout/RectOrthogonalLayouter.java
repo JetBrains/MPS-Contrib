@@ -15,7 +15,7 @@ import jetbrains.mps.internal.collections.runtime.ListSequence;
 import jetbrains.mps.graphLayout.util.NodeMap;
 import java.util.List;
 import java.util.ArrayList;
-import jetbrains.mps.graphLayout.graphLayout.LayoutTransform;
+import jetbrains.mps.graphLayout.graphLayout.GraphLayoutFactory;
 import jetbrains.mps.graphLayout.intGeom2D.Rectangle;
 import jetbrains.mps.graphLayout.algorithms.BiconnectAugmentation;
 import jetbrains.mps.graphLayout.planarGraph.EmbeddedGraph;
@@ -89,11 +89,11 @@ public class RectOrthogonalLayouter {
     int shiftX = 0;
     for (Graph subgraph : ListSequence.fromList(subgraphs)) {
       GraphLayout curLayout = findSTLayout(subgraph, MapSequence.fromMap(subNodeSizes).get(subgraph), MapSequence.fromMap(subEdgeSizes).get(subgraph));
-      curLayout = LayoutTransform.shift(curLayout, shiftX, 0);
+      curLayout = curLayout.shift(shiftX, 0);
       MapSequence.fromMap(subgraphLayouts).put(subgraph, curLayout);
       shiftX = curLayout.getContainingRectangle().x + curLayout.getContainingRectangle().width + 30;
     }
-    GraphLayout layout = new GraphLayout(graph);
+    GraphLayout layout = GraphLayoutFactory.createGraphLayout(graph);
     for (Node node : ListSequence.fromList(graph.getNodes())) {
       Graph subgraph = MapSequence.fromMap(nodeSubgraphs).get(node);
       layout.setLayoutFor(node, MapSequence.fromMap(subgraphLayouts).get(subgraph).getNodeLayout(MapSequence.fromMap(newNodes).get(node)));
@@ -114,7 +114,7 @@ public class RectOrthogonalLayouter {
 
   public GraphLayout findSTLayout(Graph graph, Map<Node, Dimension> nodeSizes, Map<Edge, Dimension> edgeSizes) {
     if (graph.getNumNodes() == 1) {
-      GraphLayout layout = new GraphLayout(graph);
+      GraphLayout layout = GraphLayoutFactory.createGraphLayout(graph);
       Node node = graph.getNode(0);
       layout.setLayoutFor(node, new Rectangle(20, 20, MapSequence.fromMap(nodeSizes).get(node).width - myEdgeDistance, MapSequence.fromMap(nodeSizes).get(node).height));
       return layout;
@@ -283,7 +283,7 @@ public class RectOrthogonalLayouter {
   }
 
   private GraphLayout createLayout(Graph graph, Map<Object, Rectangle> representation, Map<Node, Dimension> nodeSizes, Map<Edge, Dimension> edgeSizes, Set<Edge> hasLabels) {
-    GraphLayout layout = new GraphLayout(graph);
+    GraphLayout layout = GraphLayoutFactory.createGraphLayout(graph);
     for (Node node : ListSequence.fromList(graph.getNodes())) {
       Rectangle rect = MapSequence.fromMap(representation).get(node);
       if (!(node.isDummy())) {
@@ -355,7 +355,7 @@ public class RectOrthogonalLayouter {
       }
       layout.setLayoutFor(edge, path);
     }
-    layout = LayoutTransform.shift(layout, 20, 20);
+    layout = layout.shift(20, 20);
     correctEdgesLayout(layout);
     return layout;
   }

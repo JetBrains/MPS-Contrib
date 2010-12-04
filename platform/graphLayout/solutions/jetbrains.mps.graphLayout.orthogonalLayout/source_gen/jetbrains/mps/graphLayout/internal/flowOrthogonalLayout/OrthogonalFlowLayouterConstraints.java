@@ -12,10 +12,10 @@ import java.util.HashMap;
 import jetbrains.mps.graphLayout.graph.Edge;
 import java.util.LinkedHashMap;
 import jetbrains.mps.internal.collections.runtime.ListSequence;
+import jetbrains.mps.graphLayout.graphLayout.GraphLayoutFactory;
 import java.util.List;
 import jetbrains.mps.graphLayout.intGeom2D.Point;
 import jetbrains.mps.graphLayout.intGeom2D.Rectangle;
-import jetbrains.mps.graphLayout.graphLayout.LayoutTransform;
 import java.util.Set;
 import jetbrains.mps.internal.collections.runtime.SetSequence;
 import java.util.HashSet;
@@ -57,7 +57,7 @@ public class OrthogonalFlowLayouterConstraints {
       MapSequence.fromMap(edgeMap).put(edge, copy.connect(MapSequence.fromMap(nodeMap).get(edge.getSource()), MapSequence.fromMap(nodeMap).get(edge.getTarget())));
     }
     GraphLayout copyLayout = getLayoutCorruptGraph(copy, copySizes);
-    GraphLayout layout = new GraphLayout(graph);
+    GraphLayout layout = GraphLayoutFactory.createGraphLayout(graph);
     for (Node node : ListSequence.fromList(graph.getNodes())) {
       layout.setLayoutFor(node, copyLayout.getNodeLayout(MapSequence.fromMap(nodeMap).get(node)));
     }
@@ -71,7 +71,7 @@ public class OrthogonalFlowLayouterConstraints {
       layout.setLayoutFor(edge, copyEdgeLayout);
     }
     Rectangle rect = layout.getContainingRectangle();
-    layout = LayoutTransform.shift(layout, 20 - rect.x, 20 - rect.y);
+    layout = layout.shift(20 - rect.x, 20 - rect.y);
     return layout;
   }
 
@@ -88,7 +88,7 @@ public class OrthogonalFlowLayouterConstraints {
       MapSequence.fromMap(history).put(edge, historyManager.getHistory(edge));
     }
     GraphLayout layout = getLayoutFromEmbeddedGraph(embeddedGraph, nodeSizes, historyManager);
-    GraphLayout initialLayout = new GraphLayout(graph);
+    GraphLayout initialLayout = GraphLayoutFactory.createGraphLayout(graph);
     for (Node node : SetSequence.fromSet(initialNodes)) {
       initialLayout.setLayoutFor(node, layout.getNodeLayout(node));
     }
@@ -140,7 +140,7 @@ public class OrthogonalFlowLayouterConstraints {
     processor.modifyEmbeddedGraph(oldNodes, nodeSizes);
     processor.constructGraph();
     Map<Node, Point> coordinates = processor.getCoordinatesInModifiedGraph(edgesShifts, nodeDirectionSizes, historyManager);
-    GraphLayout graphLayout = new GraphLayout(graph);
+    GraphLayout graphLayout = GraphLayoutFactory.createGraphLayout(graph);
     for (Node node : ListSequence.fromList(oldNodes)) {
       Point center = MapSequence.fromMap(coordinates).get(node);
       Map<Direction2D, Integer> sizes = MapSequence.fromMap(nodeDirectionSizes).get(node);
