@@ -12,6 +12,9 @@
     <classNode dependClassName="jetbrains.mps.graphLayout.graph.INode" />
     <classNode dependClassName="jetbrains.mps.graphLayout.graph.Node" />
     <classNode dependClassName="jetbrains.mps.graphLayout.graph.Tree" />
+    <classNode dependClassName="jetbrains.mps.graphLayout.graphLayout.ClusteredGraphLayout" />
+    <classNode dependClassName="jetbrains.mps.graphLayout.graphLayout.GraphLayout" />
+    <classNode dependClassName="jetbrains.mps.graphLayout.intGeom2D.Point" />
     <classNode dependClassName="jetbrains.mps.graphLayout.util.Filter" />
     <classNode dependClassName="jetbrains.mps.internal.collections.runtime.IWhereFilter" />
     <classNode dependClassName="jetbrains.mps.internal.collections.runtime.ListSequence" />
@@ -87,6 +90,7 @@
   </dependency>
   <dependency className="jetbrains.mps.graphLayout.graph.GraphCopier" file="GraphCopier.java">
     <classNode dependClassName="java.util.HashMap" />
+    <classNode dependClassName="java.util.List" />
     <classNode dependClassName="java.util.Map" />
     <classNode dependClassName="java.util.Set" />
     <classNode dependClassName="jetbrains.mps.graphLayout.graph.Edge" />
@@ -95,9 +99,14 @@
     <classNode dependClassName="jetbrains.mps.graphLayout.graph.IGraph" />
     <classNode dependClassName="jetbrains.mps.graphLayout.graph.INode" />
     <classNode dependClassName="jetbrains.mps.graphLayout.graph.Node" />
+    <classNode dependClassName="jetbrains.mps.graphLayout.graphLayout.GraphLayout" />
+    <classNode dependClassName="jetbrains.mps.graphLayout.graphLayout.GraphLayoutFactory" />
+    <classNode dependClassName="jetbrains.mps.graphLayout.intGeom2D.Point" />
+    <classNode dependClassName="jetbrains.mps.graphLayout.intGeom2D.Rectangle" />
     <classNode dependClassName="jetbrains.mps.graphLayout.util.DefaultFilter" />
     <classNode dependClassName="jetbrains.mps.graphLayout.util.Filter" />
     <classNode dependClassName="jetbrains.mps.internal.collections.runtime.MapSequence" />
+    <classNode dependClassName="jetbrains.mps.internal.collections.runtime.Sequence" />
   </dependency>
   <dependency className="jetbrains.mps.graphLayout.graph.GraphCopierFactory" file="GraphCopierFactory.java">
     <classNode dependClassName="jetbrains.mps.graphLayout.graph.ClusterGraphCopier" />

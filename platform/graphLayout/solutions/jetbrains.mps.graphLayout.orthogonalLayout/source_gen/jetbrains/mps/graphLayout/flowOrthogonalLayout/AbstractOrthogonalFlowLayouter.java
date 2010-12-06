@@ -49,7 +49,7 @@ public abstract class AbstractOrthogonalFlowLayouter extends BasicLayouter {
     copier.copy();
     copyInfo = copier.getLayoutInfoCopy();
     GraphLayout copyLayout = getLayoutCorruptGraph(copyInfo);
-    GraphLayout layout = copyLayout(layoutInfo, copier, copyLayout);
+    GraphLayout layout = copier.restoreLayout(copyLayout);
     Rectangle rect = layout.getContainingRectangle();
     layout = layout.shift(-rect.x, -rect.y);
     return layout;

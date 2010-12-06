@@ -77,6 +77,10 @@ public class ClusteredGraph extends Graph implements IClusteredGraph {
     return myInclusionTree;
   }
 
+  public List<Node> getClusters() {
+    return getInclusionTree().getNodes();
+  }
+
   /*package*/ void setInclusionTree(Tree tree, Node root) {
     myInclusionTree = tree;
     setRoot(root);

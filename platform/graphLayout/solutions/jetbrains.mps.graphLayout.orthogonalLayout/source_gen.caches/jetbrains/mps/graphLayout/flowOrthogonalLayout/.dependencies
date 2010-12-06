@@ -42,7 +42,6 @@
     <classNode dependClassName="java.util.List" />
     <classNode dependClassName="java.util.Map" />
     <classNode dependClassName="java.util.Set" />
-    <classNode dependClassName="jetbrains.mps.graphLayout.graph.ClusterGraphCopier" />
     <classNode dependClassName="jetbrains.mps.graphLayout.graph.ClusteredGraph" />
     <classNode dependClassName="jetbrains.mps.graphLayout.graph.Edge" />
     <classNode dependClassName="jetbrains.mps.graphLayout.graph.EdgesHistoryManager" />
@@ -53,7 +52,6 @@
     <classNode dependClassName="jetbrains.mps.graphLayout.graphLayout.GraphLayout" />
     <classNode dependClassName="jetbrains.mps.graphLayout.graphLayout.ILayoutInfo" />
     <classNode dependClassName="jetbrains.mps.graphLayout.graphLayout.LayoutInfo" />
-    <classNode dependClassName="jetbrains.mps.graphLayout.graphLayout.LayoutInfoCopier" />
     <classNode dependClassName="jetbrains.mps.graphLayout.intGeom2D.Point" />
     <classNode dependClassName="jetbrains.mps.graphLayout.planarGraph.EmbeddedGraph" />
     <classNode dependClassName="jetbrains.mps.graphLayout.planarization.ClusteredGraphEmbeddingFinder" />

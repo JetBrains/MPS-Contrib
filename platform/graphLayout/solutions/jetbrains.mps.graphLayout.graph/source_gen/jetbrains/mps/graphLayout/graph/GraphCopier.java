@@ -8,6 +8,12 @@ import java.util.HashMap;
 import jetbrains.mps.graphLayout.util.DefaultFilter;
 import jetbrains.mps.graphLayout.util.Filter;
 import java.util.Set;
+import jetbrains.mps.graphLayout.graphLayout.GraphLayout;
+import jetbrains.mps.graphLayout.graphLayout.GraphLayoutFactory;
+import jetbrains.mps.internal.collections.runtime.Sequence;
+import jetbrains.mps.graphLayout.intGeom2D.Rectangle;
+import java.util.List;
+import jetbrains.mps.graphLayout.intGeom2D.Point;
 
 public class GraphCopier {
   private IGraph myGraph;
@@ -84,5 +90,27 @@ public class GraphCopier {
 
   public IGraph getCopiedGraph() {
     return myGraph;
+  }
+
+  public GraphLayout restoreLayout(GraphLayout copyLayout) {
+    GraphLayout layout = GraphLayoutFactory.createGraphLayout(myGraph);
+    for (INode node : Sequence.fromIterable(myGraph.getNodes())) {
+      Rectangle rectangle = copyLayout.getNodeLayout(getNodeCopy(node));
+      if (rectangle != null) {
+        layout.setLayoutFor(node, rectangle);
+      }
+    }
+    for (IEdge edge : Sequence.fromIterable(myGraph.getEdges())) {
+      Edge edgeCopy = getEdgeCopy(edge);
+      List<Point> route = copyLayout.getEdgeLayout(edgeCopy);
+      if (route != null) {
+        layout.setLayoutFor(edge, route);
+      }
+      Rectangle rect = copyLayout.getLabelLayout(edgeCopy);
+      if (rect != null) {
+        layout.setLabelLayout(edge, rect);
+      }
+    }
+    return layout;
   }
 }

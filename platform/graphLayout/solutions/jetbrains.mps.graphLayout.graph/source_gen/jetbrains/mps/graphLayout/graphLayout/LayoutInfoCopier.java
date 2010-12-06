@@ -74,4 +74,8 @@ public class LayoutInfoCopier {
   public GraphCopier getGraphCopier() {
     return myCopier;
   }
+
+  public GraphLayout restoreLayout(GraphLayout copyLayout) {
+    return myCopier.restoreLayout(copyLayout);
+  }
 }

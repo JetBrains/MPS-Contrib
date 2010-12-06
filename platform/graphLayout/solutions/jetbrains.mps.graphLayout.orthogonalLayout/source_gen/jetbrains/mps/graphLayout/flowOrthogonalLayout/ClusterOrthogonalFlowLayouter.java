@@ -11,15 +11,13 @@ import jetbrains.mps.graphLayout.graphLayout.ILayoutInfo;
 import jetbrains.mps.graphLayout.graph.IGraph;
 import jetbrains.mps.graphLayout.graph.ClusteredGraph;
 import jetbrains.mps.graphLayout.graphLayout.LayoutInfo;
-import jetbrains.mps.graphLayout.graphLayout.LayoutInfoCopier;
-import jetbrains.mps.graphLayout.graphLayout.ClusteredGraphLayout;
-import jetbrains.mps.graphLayout.graph.ClusterGraphCopier;
-import jetbrains.mps.internal.collections.runtime.ListSequence;
-import jetbrains.mps.graphLayout.intGeom2D.Point;
 import jetbrains.mps.graphLayout.graph.Graph;
 import java.util.Set;
+import jetbrains.mps.graphLayout.graphLayout.ClusteredGraphLayout;
 import jetbrains.mps.internal.collections.runtime.SetSequence;
 import jetbrains.mps.internal.collections.runtime.MapSequence;
+import jetbrains.mps.graphLayout.intGeom2D.Point;
+import jetbrains.mps.internal.collections.runtime.ListSequence;
 import jetbrains.mps.internal.collections.runtime.backports.LinkedList;
 import jetbrains.mps.graphLayout.planarGraph.EmbeddedGraph;
 import jetbrains.mps.graphLayout.graph.EdgesHistoryManager;
@@ -44,27 +42,6 @@ public class ClusterOrthogonalFlowLayouter extends OrthogonalFlowLayouter {
   @Override
   protected GraphLayout doLayoutCopy(LayoutInfo patchInfo) {
     return doLayoutConnectedGraph(patchInfo);
-  }
-
-  @Override
-  protected GraphLayout copyLayout(ILayoutInfo layoutInfo, LayoutInfoCopier infoCopier, GraphLayout copyLayout) {
-    GraphLayout graphLayout = super.copyLayout(layoutInfo, infoCopier, copyLayout);
-    if (!(graphLayout instanceof ClusteredGraphLayout)) {
-      throw new RuntimeException("can layout clustered graph only!!!");
-    }
-    ClusteredGraphLayout clusteredGraphLayout = ((ClusteredGraphLayout) graphLayout);
-    ClusteredGraphLayout clusteredCopyLayout = ((ClusteredGraphLayout) copyLayout);
-    ClusterGraphCopier graphCopier = ((ClusterGraphCopier) infoCopier.getGraphCopier());
-    ClusteredGraph clusteredGraph = ((ClusteredGraph) layoutInfo.getGraph());
-    List<Node> clusters = clusteredGraph.getInclusionTree().getNodes();
-    for (Node cluster : ListSequence.fromList(clusters)) {
-      Node clusterCopy = graphCopier.getCluserCopy(cluster);
-      List<Point> clusterLayout = clusteredCopyLayout.getClusterLayout(clusterCopy);
-      if (clusterLayout != null) {
-        clusteredGraphLayout.setClusterLayout(cluster, clusterLayout);
-      }
-    }
-    return graphLayout;
   }
 
   @Override

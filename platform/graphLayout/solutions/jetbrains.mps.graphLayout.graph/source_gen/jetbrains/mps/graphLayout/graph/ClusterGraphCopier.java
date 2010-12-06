@@ -12,6 +12,9 @@ import jetbrains.mps.graphLayout.util.Filter;
 import java.util.List;
 import jetbrains.mps.internal.collections.runtime.ListSequence;
 import jetbrains.mps.internal.collections.runtime.IWhereFilter;
+import jetbrains.mps.graphLayout.graphLayout.ClusteredGraphLayout;
+import jetbrains.mps.graphLayout.graphLayout.GraphLayout;
+import jetbrains.mps.graphLayout.intGeom2D.Point;
 
 public class ClusterGraphCopier extends GraphCopier {
   private Map<Node, Node> myClusterMap;
@@ -77,6 +80,21 @@ public class ClusterGraphCopier extends GraphCopier {
         copyCluster(child, copyChild);
       }
     }
+  }
+
+  @Override
+  public ClusteredGraphLayout restoreLayout(GraphLayout copyLayout) {
+    ClusteredGraphLayout graphLayout = ((ClusteredGraphLayout) super.restoreLayout(copyLayout));
+    if (copyLayout instanceof ClusteredGraphLayout) {
+      ClusteredGraphLayout clusteredCopyLayout = ((ClusteredGraphLayout) copyLayout);
+      for (Node cluster : ListSequence.fromList(myClusteredGraph.getClusters())) {
+        List<Point> route = clusteredCopyLayout.getClusterLayout(getCluserCopy(cluster));
+        if (route != null) {
+          graphLayout.setClusterLayout(cluster, route);
+        }
+      }
+    }
+    return graphLayout;
   }
 
   public Node getCluserCopy(Node cluster) {
