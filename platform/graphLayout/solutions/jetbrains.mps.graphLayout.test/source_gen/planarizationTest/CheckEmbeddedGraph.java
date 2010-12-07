@@ -9,7 +9,12 @@ import jetbrains.mps.internal.collections.runtime.ListSequence;
 import jetbrains.mps.graphLayout.planarGraph.Face;
 import jetbrains.mps.graphLayout.planarGraph.CheckFace;
 import jetbrains.mps.graphLayout.planarGraph.Dart;
+import java.util.List;
 import junit.framework.Assert;
+import java.util.Set;
+import jetbrains.mps.graphLayout.graph.Node;
+import java.util.HashSet;
+import jetbrains.mps.internal.collections.runtime.ISelector;
 
 public class CheckEmbeddedGraph {
   public static boolean checkAdjacentFaces(EmbeddedGraph embeddedGraph) {
@@ -33,10 +38,28 @@ public class CheckEmbeddedGraph {
         }
       }
     }
+    for (Edge edge : ListSequence.fromList(embeddedGraph.getGraph().getEdges())) {
+      List<Dart> darts = embeddedGraph.getDarts(edge);
+      if (darts != null) {
+        Assert.assertTrue(ListSequence.fromList(darts).count() == 2);
+        Set<Node> sources = SetSequence.fromSet(new HashSet<Node>());
+        SetSequence.fromSet(sources).addSequence(ListSequence.fromList(darts).<Node>select(new ISelector<Dart, Node>() {
+          public Node select(Dart it) {
+            return it.getSource();
+          }
+        }));
+        Assert.assertTrue(SetSequence.fromSet(sources).contains(edge.getSource()));
+        Assert.assertTrue(SetSequence.fromSet(sources).contains(edge.getTarget()));
+      }
+    }
   }
 
   public static void checkFull(EmbeddedGraph embeddedGraph) {
     for (Edge edge : ListSequence.fromList(embeddedGraph.getGraph().getEdges())) {
+      if (embeddedGraph.getAdjacentFaces(edge) == null) {
+        int a = 20;
+        a += 1;
+      }
       Assert.assertTrue(embeddedGraph.getAdjacentFaces(edge) != null);
     }
   }

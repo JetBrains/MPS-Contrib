@@ -7,11 +7,11 @@
   <root nodeId="1567683135099906065">
     <nodeInfo nodeId="1567683135099906076" conceptFqName="jetbrains.mps.baseLanguage.structure.LocalVariableDeclarationStatement" fileName="DFSEdgeReverter_Test.java" startLine="11" startPosition="45" endLine="12" endPosition="49" />
     <nodeInfo nodeId="4519409331094619719" conceptFqName="jetbrains.mps.baseLanguage.structure.ExpressionStatement" fileName="DFSEdgeReverter_Test.java" startLine="12" startPosition="49" endLine="13" endPosition="68" />
-    <nodeInfo nodeId="1567683135099906072" conceptFqName="jetbrains.mps.baseLanguage.structure.InstanceMethodDeclaration" fileName="DFSEdgeReverter_Test.java" startLine="10" startPosition="52" endLine="15" endPosition="0" />
+    <nodeInfo nodeId="1567683135099906072" conceptFqName="jetbrains.mps.baseLanguage.structure.InstanceMethodDeclaration" propertyString="test_cycle#()V" fileName="DFSEdgeReverter_Test.java" startLine="10" startPosition="52" endLine="15" endPosition="0" />
     <scopeInfo nodeId="1567683135099906075" fileName="DFSEdgeReverter_Test.java" startLine="11" startPosition="45" endLine="13" endPosition="68">
       <varInfo nodeId="1567683135099906077" varName="cycle" />
     </scopeInfo>
-    <scopeInfo nodeId="1567683135099906072" fileName="DFSEdgeReverter_Test.java" startLine="10" startPosition="52" endLine="15" endPosition="0" />
+    <scopeInfo nodeId="1567683135099906072" conceptFqName="jetbrains.mps.baseLanguage.structure.InstanceMethodDeclaration" propertyString="test_cycle#()V" fileName="DFSEdgeReverter_Test.java" startLine="10" startPosition="52" endLine="15" endPosition="0" />
   </root>
   <root nodeId="1567683135099906087">
     <nodeInfo nodeId="1567683135099906098" conceptFqName="jetbrains.mps.baseLanguage.structure.LocalVariableDeclarationStatement" fileName="TopologicalLayerer_Test.java" startLine="16" startPosition="46" endLine="17" endPosition="48" />
@@ -50,14 +50,14 @@
     <nodeInfo nodeId="1567683135099906413" conceptFqName="jetbrains.mps.baseLanguage.structure.ExpressionStatement" fileName="TopologicalLayerer_Test.java" startLine="70" startPosition="84" endLine="71" endPosition="84" />
     <nodeInfo nodeId="1567683135099906422" conceptFqName="jetbrains.mps.baseLanguage.structure.ExpressionStatement" fileName="TopologicalLayerer_Test.java" startLine="71" startPosition="84" endLine="72" endPosition="84" />
     <nodeInfo nodeId="1567683135099906431" conceptFqName="jetbrains.mps.baseLanguage.structure.ExpressionStatement" fileName="TopologicalLayerer_Test.java" startLine="72" startPosition="84" endLine="73" endPosition="84" />
-    <nodeInfo nodeId="1567683135099906094" conceptFqName="jetbrains.mps.baseLanguage.structure.InstanceMethodDeclaration" fileName="TopologicalLayerer_Test.java" startLine="15" startPosition="55" endLine="21" endPosition="0" />
+    <nodeInfo nodeId="1567683135099906094" conceptFqName="jetbrains.mps.baseLanguage.structure.InstanceMethodDeclaration" propertyString="test_chain1#()V" fileName="TopologicalLayerer_Test.java" startLine="15" startPosition="55" endLine="21" endPosition="0" />
     <nodeInfo nodeId="1567683135099906283" conceptFqName="jetbrains.mps.baseLanguage.structure.TryCatchStatement" fileName="TopologicalLayerer_Test.java" startLine="46" startPosition="48" endLine="52" endPosition="5" />
-    <nodeInfo nodeId="1567683135099906128" conceptFqName="jetbrains.mps.baseLanguage.structure.InstanceMethodDeclaration" fileName="TopologicalLayerer_Test.java" startLine="21" startPosition="0" endLine="28" endPosition="0" />
-    <nodeInfo nodeId="1567683135099906171" conceptFqName="jetbrains.mps.baseLanguage.structure.InstanceMethodDeclaration" fileName="TopologicalLayerer_Test.java" startLine="28" startPosition="0" endLine="36" endPosition="0" />
-    <nodeInfo nodeId="1567683135099906223" conceptFqName="jetbrains.mps.baseLanguage.structure.InstanceMethodDeclaration" fileName="TopologicalLayerer_Test.java" startLine="36" startPosition="0" endLine="44" endPosition="0" />
-    <nodeInfo nodeId="1567683135099906274" conceptFqName="jetbrains.mps.baseLanguage.structure.InstanceMethodDeclaration" fileName="TopologicalLayerer_Test.java" startLine="44" startPosition="0" endLine="54" endPosition="0" />
-    <nodeInfo nodeId="1567683135099906371" conceptFqName="jetbrains.mps.baseLanguage.structure.InstanceMethodDeclaration" fileName="TopologicalLayerer_Test.java" startLine="65" startPosition="0" endLine="75" endPosition="0" />
-    <nodeInfo nodeId="1567683135099906293" conceptFqName="jetbrains.mps.baseLanguage.structure.InstanceMethodDeclaration" fileName="TopologicalLayerer_Test.java" startLine="54" startPosition="0" endLine="65" endPosition="0" />
+    <nodeInfo nodeId="1567683135099906128" conceptFqName="jetbrains.mps.baseLanguage.structure.InstanceMethodDeclaration" propertyString="test_chain2#()V" fileName="TopologicalLayerer_Test.java" startLine="21" startPosition="0" endLine="28" endPosition="0" />
+    <nodeInfo nodeId="1567683135099906171" conceptFqName="jetbrains.mps.baseLanguage.structure.InstanceMethodDeclaration" propertyString="test_chain3#()V" fileName="TopologicalLayerer_Test.java" startLine="28" startPosition="0" endLine="36" endPosition="0" />
+    <nodeInfo nodeId="1567683135099906223" conceptFqName="jetbrains.mps.baseLanguage.structure.InstanceMethodDeclaration" propertyString="test_triangle#()V" fileName="TopologicalLayerer_Test.java" startLine="36" startPosition="0" endLine="44" endPosition="0" />
+    <nodeInfo nodeId="1567683135099906274" conceptFqName="jetbrains.mps.baseLanguage.structure.InstanceMethodDeclaration" propertyString="test_cycle#()V" fileName="TopologicalLayerer_Test.java" startLine="44" startPosition="0" endLine="54" endPosition="0" />
+    <nodeInfo nodeId="1567683135099906371" conceptFqName="jetbrains.mps.baseLanguage.structure.InstanceMethodDeclaration" propertyString="test_simpleFourLayers#()V" fileName="TopologicalLayerer_Test.java" startLine="65" startPosition="0" endLine="75" endPosition="0" />
+    <nodeInfo nodeId="1567683135099906293" conceptFqName="jetbrains.mps.baseLanguage.structure.InstanceMethodDeclaration" propertyString="test_sandwatches#()V" fileName="TopologicalLayerer_Test.java" startLine="54" startPosition="0" endLine="65" endPosition="0" />
     <scopeInfo nodeId="1567683135099906283" fileName="TopologicalLayerer_Test.java" startLine="50" startPosition="0" endLine="51" endPosition="28" />
     <scopeInfo nodeId="1567683135099906283" fileName="TopologicalLayerer_Test.java" startLine="50" startPosition="42" endLine="51" endPosition="28" />
     <scopeInfo nodeId="1567683135099906283" fileName="TopologicalLayerer_Test.java" startLine="47" startPosition="9" endLine="49" endPosition="49" />
@@ -77,8 +77,8 @@
       <varInfo nodeId="1567683135099906228" varName="triangle" />
       <varInfo nodeId="1567683135099906232" varName="layers" />
     </scopeInfo>
-    <scopeInfo nodeId="1567683135099906094" fileName="TopologicalLayerer_Test.java" startLine="15" startPosition="55" endLine="21" endPosition="0" />
-    <scopeInfo nodeId="1567683135099906128" fileName="TopologicalLayerer_Test.java" startLine="21" startPosition="0" endLine="28" endPosition="0" />
+    <scopeInfo nodeId="1567683135099906094" conceptFqName="jetbrains.mps.baseLanguage.structure.InstanceMethodDeclaration" propertyString="test_chain1#()V" fileName="TopologicalLayerer_Test.java" startLine="15" startPosition="55" endLine="21" endPosition="0" />
+    <scopeInfo nodeId="1567683135099906128" conceptFqName="jetbrains.mps.baseLanguage.structure.InstanceMethodDeclaration" propertyString="test_chain2#()V" fileName="TopologicalLayerer_Test.java" startLine="21" startPosition="0" endLine="28" endPosition="0" />
     <scopeInfo nodeId="1567683135099906277" fileName="TopologicalLayerer_Test.java" startLine="45" startPosition="45" endLine="52" endPosition="5">
       <varInfo nodeId="3263240354041154373" varName="cycle" />
     </scopeInfo>
@@ -86,15 +86,15 @@
       <varInfo nodeId="1567683135099906376" varName="simpleGraph" />
       <varInfo nodeId="1567683135099906380" varName="layers" />
     </scopeInfo>
-    <scopeInfo nodeId="1567683135099906171" fileName="TopologicalLayerer_Test.java" startLine="28" startPosition="0" endLine="36" endPosition="0" />
-    <scopeInfo nodeId="1567683135099906223" fileName="TopologicalLayerer_Test.java" startLine="36" startPosition="0" endLine="44" endPosition="0" />
+    <scopeInfo nodeId="1567683135099906171" conceptFqName="jetbrains.mps.baseLanguage.structure.InstanceMethodDeclaration" propertyString="test_chain3#()V" fileName="TopologicalLayerer_Test.java" startLine="28" startPosition="0" endLine="36" endPosition="0" />
+    <scopeInfo nodeId="1567683135099906223" conceptFqName="jetbrains.mps.baseLanguage.structure.InstanceMethodDeclaration" propertyString="test_triangle#()V" fileName="TopologicalLayerer_Test.java" startLine="36" startPosition="0" endLine="44" endPosition="0" />
     <scopeInfo nodeId="1567683135099906296" fileName="TopologicalLayerer_Test.java" startLine="55" startPosition="51" endLine="63" endPosition="84">
       <varInfo nodeId="1567683135099906298" varName="sandwatches" />
       <varInfo nodeId="1567683135099906302" varName="layers" />
     </scopeInfo>
-    <scopeInfo nodeId="1567683135099906274" fileName="TopologicalLayerer_Test.java" startLine="44" startPosition="0" endLine="54" endPosition="0" />
-    <scopeInfo nodeId="1567683135099906371" fileName="TopologicalLayerer_Test.java" startLine="65" startPosition="0" endLine="75" endPosition="0" />
-    <scopeInfo nodeId="1567683135099906293" fileName="TopologicalLayerer_Test.java" startLine="54" startPosition="0" endLine="65" endPosition="0" />
+    <scopeInfo nodeId="1567683135099906274" conceptFqName="jetbrains.mps.baseLanguage.structure.InstanceMethodDeclaration" propertyString="test_cycle#()V" fileName="TopologicalLayerer_Test.java" startLine="44" startPosition="0" endLine="54" endPosition="0" />
+    <scopeInfo nodeId="1567683135099906371" conceptFqName="jetbrains.mps.baseLanguage.structure.InstanceMethodDeclaration" propertyString="test_simpleFourLayers#()V" fileName="TopologicalLayerer_Test.java" startLine="65" startPosition="0" endLine="75" endPosition="0" />
+    <scopeInfo nodeId="1567683135099906293" conceptFqName="jetbrains.mps.baseLanguage.structure.InstanceMethodDeclaration" propertyString="test_sandwatches#()V" fileName="TopologicalLayerer_Test.java" startLine="54" startPosition="0" endLine="65" endPosition="0" />
   </root>
   <root nodeId="1567683135099906440">
     <nodeInfo nodeId="1567683135099906451" conceptFqName="jetbrains.mps.baseLanguage.structure.LocalVariableDeclarationStatement" fileName="DFSNodeSorter_Test.java" startLine="19" startPosition="45" endLine="20" endPosition="48" />
@@ -126,40 +126,40 @@
     <nodeInfo nodeId="1567683135099906694" conceptFqName="jetbrains.mps.baseLanguage.structure.ExpressionStatement" fileName="DFSNodeSorter_Test.java" startLine="48" startPosition="104" endLine="49" endPosition="104" />
     <nodeInfo nodeId="1567683135099906707" conceptFqName="jetbrains.mps.baseLanguage.structure.ExpressionStatement" fileName="DFSNodeSorter_Test.java" startLine="49" startPosition="104" endLine="50" endPosition="104" />
     <nodeInfo nodeId="1567683135099906720" conceptFqName="jetbrains.mps.baseLanguage.structure.ExpressionStatement" fileName="DFSNodeSorter_Test.java" startLine="50" startPosition="104" endLine="51" endPosition="104" />
-    <nodeInfo nodeId="1567683135099906447" conceptFqName="jetbrains.mps.baseLanguage.structure.InstanceMethodDeclaration" fileName="DFSNodeSorter_Test.java" startLine="18" startPosition="50" endLine="33" endPosition="0" />
-    <nodeInfo nodeId="1567683135099906564" conceptFqName="jetbrains.mps.baseLanguage.structure.InstanceMethodDeclaration" fileName="DFSNodeSorter_Test.java" startLine="33" startPosition="0" endLine="53" endPosition="0" />
+    <nodeInfo nodeId="1567683135099906447" conceptFqName="jetbrains.mps.baseLanguage.structure.InstanceMethodDeclaration" propertyString="test_Chain#()V" fileName="DFSNodeSorter_Test.java" startLine="18" startPosition="50" endLine="33" endPosition="0" />
+    <nodeInfo nodeId="1567683135099906564" conceptFqName="jetbrains.mps.baseLanguage.structure.InstanceMethodDeclaration" propertyString="test_simpleFourLeyers#()V" fileName="DFSNodeSorter_Test.java" startLine="33" startPosition="0" endLine="53" endPosition="0" />
     <scopeInfo nodeId="1567683135099906450" fileName="DFSNodeSorter_Test.java" startLine="19" startPosition="45" endLine="31" endPosition="98">
       <varInfo nodeId="1567683135099906490" varName="order" />
       <varInfo nodeId="1567683135099906452" varName="chain" />
       <varInfo nodeId="920414672219866064" varName="layers" />
     </scopeInfo>
-    <scopeInfo nodeId="1567683135099906447" fileName="DFSNodeSorter_Test.java" startLine="18" startPosition="50" endLine="33" endPosition="0" />
+    <scopeInfo nodeId="1567683135099906447" conceptFqName="jetbrains.mps.baseLanguage.structure.InstanceMethodDeclaration" propertyString="test_Chain#()V" fileName="DFSNodeSorter_Test.java" startLine="18" startPosition="50" endLine="33" endPosition="0" />
     <scopeInfo nodeId="1567683135099906567" fileName="DFSNodeSorter_Test.java" startLine="34" startPosition="56" endLine="51" endPosition="104">
       <varInfo nodeId="1567683135099906569" varName="simpleGraph" />
       <varInfo nodeId="1567683135099906624" varName="order" />
       <varInfo nodeId="920414672219866118" varName="layers" />
     </scopeInfo>
-    <scopeInfo nodeId="1567683135099906564" fileName="DFSNodeSorter_Test.java" startLine="33" startPosition="0" endLine="53" endPosition="0" />
+    <scopeInfo nodeId="1567683135099906564" conceptFqName="jetbrains.mps.baseLanguage.structure.InstanceMethodDeclaration" propertyString="test_simpleFourLeyers#()V" fileName="DFSNodeSorter_Test.java" startLine="33" startPosition="0" endLine="53" endPosition="0" />
   </root>
   <root nodeId="1567683135099906733">
-    <nodeInfo nodeId="1567683135099906734" conceptFqName="jetbrains.mps.baseLanguage.structure.FieldDeclaration" fileName="CheckCycles.java" startLine="11" startPosition="38" endLine="12" endPosition="28" />
+    <nodeInfo nodeId="1567683135099906734" conceptFqName="jetbrains.mps.baseLanguage.structure.FieldDeclaration" propertyString="hasCycles" fileName="CheckCycles.java" startLine="11" startPosition="38" endLine="12" endPosition="28" />
     <nodeInfo nodeId="1567683135099906741" conceptFqName="jetbrains.mps.baseLanguage.structure.ExpressionStatement" fileName="CheckCycles.java" startLine="17" startPosition="40" endLine="18" endPosition="22" />
     <nodeInfo nodeId="1567683135099906745" conceptFqName="jetbrains.mps.baseLanguage.structure.ExpressionStatement" fileName="CheckCycles.java" startLine="18" startPosition="22" endLine="19" endPosition="17" />
     <nodeInfo nodeId="1567683135099906748" conceptFqName="jetbrains.mps.baseLanguage.structure.ReturnStatement" fileName="CheckCycles.java" startLine="19" startPosition="17" endLine="20" endPosition="21" />
     <nodeInfo nodeId="1567683135099906760" conceptFqName="jetbrains.mps.baseLanguage.structure.ExpressionStatement" fileName="CheckCycles.java" startLine="25" startPosition="72" endLine="26" endPosition="24" />
-    <nodeInfo nodeId="1567683135099906773" conceptFqName="jetbrains.mps.baseLanguage.structure.ConstructorDeclaration" fileName="CheckCycles.java" startLine="13" startPosition="0" endLine="15" endPosition="3" />
+    <nodeInfo nodeId="1567683135099906773" conceptFqName="jetbrains.mps.baseLanguage.structure.ConstructorDeclaration" propertyString="CheckCycles#()V" fileName="CheckCycles.java" startLine="13" startPosition="0" endLine="15" endPosition="3" />
     <nodeInfo nodeId="1567683135099906758" conceptFqName="jetbrains.mps.baseLanguage.structure.IfStatement" fileName="CheckCycles.java" startLine="24" startPosition="54" endLine="27" endPosition="5" />
-    <nodeInfo nodeId="1567683135099906737" conceptFqName="jetbrains.mps.baseLanguage.structure.InstanceMethodDeclaration" fileName="CheckCycles.java" startLine="16" startPosition="0" endLine="22" endPosition="0" />
-    <nodeInfo nodeId="1567683135099906752" conceptFqName="jetbrains.mps.baseLanguage.structure.InstanceMethodDeclaration" fileName="CheckCycles.java" startLine="22" startPosition="0" endLine="29" endPosition="0" />
+    <nodeInfo nodeId="1567683135099906737" conceptFqName="jetbrains.mps.baseLanguage.structure.InstanceMethodDeclaration" propertyString="hasCycle#(Ljetbrains/mps/graphLayout/graph/Graph;)Z" fileName="CheckCycles.java" startLine="16" startPosition="0" endLine="22" endPosition="0" />
+    <nodeInfo nodeId="1567683135099906752" conceptFqName="jetbrains.mps.baseLanguage.structure.InstanceMethodDeclaration" propertyString="processEdge#(Ljetbrains/mps/graphLayout/graph/Edge;Ljetbrains/mps/graphLayout/graph/Node;)V" fileName="CheckCycles.java" startLine="22" startPosition="0" endLine="29" endPosition="0" />
     <scopeInfo nodeId="1567683135099906776" fileName="CheckCycles.java" startLine="14" startPosition="24" endLine="14" endPosition="24" />
     <scopeInfo nodeId="1567683135099906759" fileName="CheckCycles.java" startLine="25" startPosition="72" endLine="26" endPosition="24" />
-    <scopeInfo nodeId="1567683135099906773" fileName="CheckCycles.java" startLine="13" startPosition="0" endLine="15" endPosition="3" />
+    <scopeInfo nodeId="1567683135099906773" conceptFqName="jetbrains.mps.baseLanguage.structure.ConstructorDeclaration" propertyString="CheckCycles#()V" fileName="CheckCycles.java" startLine="13" startPosition="0" endLine="15" endPosition="3" />
     <scopeInfo nodeId="1567683135099906740" fileName="CheckCycles.java" startLine="17" startPosition="40" endLine="20" endPosition="21" />
     <scopeInfo nodeId="1567683135099906757" fileName="CheckCycles.java" startLine="24" startPosition="54" endLine="27" endPosition="5" />
-    <scopeInfo nodeId="1567683135099906737" fileName="CheckCycles.java" startLine="16" startPosition="0" endLine="22" endPosition="0">
+    <scopeInfo nodeId="1567683135099906737" conceptFqName="jetbrains.mps.baseLanguage.structure.InstanceMethodDeclaration" propertyString="hasCycle#(Ljetbrains/mps/graphLayout/graph/Graph;)Z" fileName="CheckCycles.java" startLine="16" startPosition="0" endLine="22" endPosition="0">
       <varInfo nodeId="1567683135099906750" varName="graph" />
     </scopeInfo>
-    <scopeInfo nodeId="1567683135099906752" fileName="CheckCycles.java" startLine="22" startPosition="0" endLine="29" endPosition="0">
+    <scopeInfo nodeId="1567683135099906752" conceptFqName="jetbrains.mps.baseLanguage.structure.InstanceMethodDeclaration" propertyString="processEdge#(Ljetbrains/mps/graphLayout/graph/Edge;Ljetbrains/mps/graphLayout/graph/Node;)V" fileName="CheckCycles.java" startLine="22" startPosition="0" endLine="29" endPosition="0">
       <varInfo nodeId="1567683135099906755" varName="edge" />
       <varInfo nodeId="1646208389854266714" varName="source" />
     </scopeInfo>
@@ -174,76 +174,76 @@
     <nodeInfo nodeId="1567683135099906789" conceptFqName="jetbrains.mps.baseLanguage.structure.ForeachStatement" fileName="CheckLayers.java" startLine="13" startPosition="63" endLine="18" endPosition="7" />
     <nodeInfo nodeId="1567683135099906814" conceptFqName="jetbrains.mps.baseLanguage.structure.ForeachStatement" fileName="CheckLayers.java" startLine="18" startPosition="7" endLine="23" endPosition="7" />
     <nodeInfo nodeId="1567683135099906783" conceptFqName="jetbrains.mps.baseLanguage.structure.ForeachStatement" fileName="CheckLayers.java" startLine="12" startPosition="77" endLine="24" endPosition="5" />
-    <nodeInfo nodeId="1567683135099906779" conceptFqName="jetbrains.mps.baseLanguage.structure.StaticMethodDeclaration" fileName="CheckLayers.java" startLine="11" startPosition="26" endLine="27" endPosition="0" />
+    <nodeInfo nodeId="1567683135099906779" conceptFqName="jetbrains.mps.baseLanguage.structure.StaticMethodDeclaration" propertyString="hasBadEdges#(Ljetbrains/mps/graphLayout/graph/Graph;Ljava/util/Map;)Z" fileName="CheckLayers.java" startLine="11" startPosition="26" endLine="27" endPosition="0" />
     <scopeInfo nodeId="1567683135099906811" fileName="CheckLayers.java" startLine="15" startPosition="74" endLine="16" endPosition="22" />
     <scopeInfo nodeId="1567683135099906836" fileName="CheckLayers.java" startLine="20" startPosition="74" endLine="21" endPosition="22" />
     <scopeInfo nodeId="1567683135099906794" fileName="CheckLayers.java" startLine="14" startPosition="67" endLine="17" endPosition="9" />
     <scopeInfo nodeId="1567683135099906819" fileName="CheckLayers.java" startLine="19" startPosition="66" endLine="22" endPosition="9" />
-    <scopeInfo nodeId="1567683135099906789" fileName="CheckLayers.java" startLine="13" startPosition="63" endLine="18" endPosition="7" />
-    <scopeInfo nodeId="1567683135099906814" fileName="CheckLayers.java" startLine="18" startPosition="7" endLine="23" endPosition="7" />
+    <scopeInfo nodeId="1567683135099906789" conceptFqName="jetbrains.mps.baseLanguage.structure.ForeachStatement" fileName="CheckLayers.java" startLine="13" startPosition="63" endLine="18" endPosition="7" />
+    <scopeInfo nodeId="1567683135099906814" conceptFqName="jetbrains.mps.baseLanguage.structure.ForeachStatement" fileName="CheckLayers.java" startLine="18" startPosition="7" endLine="23" endPosition="7" />
     <scopeInfo nodeId="1567683135099906788" fileName="CheckLayers.java" startLine="13" startPosition="63" endLine="23" endPosition="7" />
-    <scopeInfo nodeId="1567683135099906783" fileName="CheckLayers.java" startLine="12" startPosition="77" endLine="24" endPosition="5" />
+    <scopeInfo nodeId="1567683135099906783" conceptFqName="jetbrains.mps.baseLanguage.structure.ForeachStatement" fileName="CheckLayers.java" startLine="12" startPosition="77" endLine="24" endPosition="5" />
     <scopeInfo nodeId="1567683135099906782" fileName="CheckLayers.java" startLine="12" startPosition="77" endLine="25" endPosition="17" />
-    <scopeInfo nodeId="1567683135099906779" fileName="CheckLayers.java" startLine="11" startPosition="26" endLine="27" endPosition="0">
+    <scopeInfo nodeId="1567683135099906779" conceptFqName="jetbrains.mps.baseLanguage.structure.StaticMethodDeclaration" propertyString="hasBadEdges#(Ljetbrains/mps/graphLayout/graph/Graph;Ljava/util/Map;)Z" fileName="CheckLayers.java" startLine="11" startPosition="26" endLine="27" endPosition="0">
       <varInfo nodeId="1567683135099906841" varName="graph" />
       <varInfo nodeId="1567683135099906843" varName="layers" />
     </scopeInfo>
     <unitInfo nodeId="1567683135099906778" fileName="CheckLayers.java" startLine="11" startPosition="0" endLine="28" endPosition="0" unitName="layeredLayoutTest.CheckLayers" />
   </root>
   <root nodeId="4519409331094619347">
-    <nodeInfo nodeId="4519409331094619356" conceptFqName="jetbrains.mps.baseLanguage.structure.FieldDeclaration" fileName="EdgeReverterProxy.java" startLine="11" startPosition="57" endLine="12" endPosition="35" />
+    <nodeInfo nodeId="4519409331094619356" conceptFqName="jetbrains.mps.baseLanguage.structure.FieldDeclaration" propertyString="myReverter" fileName="EdgeReverterProxy.java" startLine="11" startPosition="57" endLine="12" endPosition="35" />
     <nodeInfo nodeId="4519409331094619360" conceptFqName="jetbrains.mps.baseLanguage.structure.ExpressionStatement" fileName="EdgeReverterProxy.java" startLine="14" startPosition="52" endLine="15" endPosition="26" />
     <nodeInfo nodeId="4519409331094619373" conceptFqName="jetbrains.mps.baseLanguage.structure.LocalVariableDeclarationStatement" fileName="EdgeReverterProxy.java" startLine="18" startPosition="41" endLine="19" endPosition="51" />
     <nodeInfo nodeId="4519409331094619392" conceptFqName="jetbrains.mps.baseLanguage.structure.ExpressionStatement" fileName="EdgeReverterProxy.java" startLine="19" startPosition="51" endLine="20" endPosition="54" />
     <nodeInfo nodeId="4519409331094619387" conceptFqName="jetbrains.mps.baseLanguage.structure.ReturnStatement" fileName="EdgeReverterProxy.java" startLine="20" startPosition="54" endLine="21" endPosition="20" />
-    <nodeInfo nodeId="4519409331094619349" conceptFqName="jetbrains.mps.baseLanguage.structure.ConstructorDeclaration" fileName="EdgeReverterProxy.java" startLine="13" startPosition="0" endLine="16" endPosition="3" />
-    <nodeInfo nodeId="4519409331094619366" conceptFqName="jetbrains.mps.baseLanguage.structure.InstanceMethodDeclaration" fileName="EdgeReverterProxy.java" startLine="17" startPosition="0" endLine="23" endPosition="0" />
+    <nodeInfo nodeId="4519409331094619349" conceptFqName="jetbrains.mps.baseLanguage.structure.ConstructorDeclaration" propertyString="EdgeReverterProxy#(Ljetbrains/mps/graphLayout/layeredLayout/IEdgeReverter;)V" fileName="EdgeReverterProxy.java" startLine="13" startPosition="0" endLine="16" endPosition="3" />
+    <nodeInfo nodeId="4519409331094619366" conceptFqName="jetbrains.mps.baseLanguage.structure.InstanceMethodDeclaration" propertyString="revertEdges#(Ljetbrains/mps/graphLayout/graph/Graph;)Ljava/util/Set;" fileName="EdgeReverterProxy.java" startLine="17" startPosition="0" endLine="23" endPosition="0" />
     <scopeInfo nodeId="4519409331094619352" fileName="EdgeReverterProxy.java" startLine="14" startPosition="52" endLine="15" endPosition="26" />
-    <scopeInfo nodeId="4519409331094619349" fileName="EdgeReverterProxy.java" startLine="13" startPosition="0" endLine="16" endPosition="3">
+    <scopeInfo nodeId="4519409331094619349" conceptFqName="jetbrains.mps.baseLanguage.structure.ConstructorDeclaration" propertyString="EdgeReverterProxy#(Ljetbrains/mps/graphLayout/layeredLayout/IEdgeReverter;)V" fileName="EdgeReverterProxy.java" startLine="13" startPosition="0" endLine="16" endPosition="3">
       <varInfo nodeId="4519409331094619354" varName="reverter" />
     </scopeInfo>
     <scopeInfo nodeId="4519409331094619372" fileName="EdgeReverterProxy.java" startLine="18" startPosition="41" endLine="21" endPosition="20">
       <varInfo nodeId="4519409331094619374" varName="reverted" />
     </scopeInfo>
-    <scopeInfo nodeId="4519409331094619366" fileName="EdgeReverterProxy.java" startLine="17" startPosition="0" endLine="23" endPosition="0">
+    <scopeInfo nodeId="4519409331094619366" conceptFqName="jetbrains.mps.baseLanguage.structure.InstanceMethodDeclaration" propertyString="revertEdges#(Ljetbrains/mps/graphLayout/graph/Graph;)Ljava/util/Set;" fileName="EdgeReverterProxy.java" startLine="17" startPosition="0" endLine="23" endPosition="0">
       <varInfo nodeId="4519409331094619370" varName="g" />
     </scopeInfo>
     <unitInfo nodeId="4519409331094619347" fileName="EdgeReverterProxy.java" startLine="11" startPosition="0" endLine="24" endPosition="0" unitName="layeredLayoutTest.EdgeReverterProxy" />
   </root>
   <root nodeId="4519409331094620043">
-    <nodeInfo nodeId="4519409331094620050" conceptFqName="jetbrains.mps.baseLanguage.structure.FieldDeclaration" fileName="LayererProxy.java" startLine="11" startPosition="47" endLine="12" endPosition="29" />
+    <nodeInfo nodeId="4519409331094620050" conceptFqName="jetbrains.mps.baseLanguage.structure.FieldDeclaration" propertyString="myLayerer" fileName="LayererProxy.java" startLine="11" startPosition="47" endLine="12" endPosition="29" />
     <nodeInfo nodeId="4519409331094620056" conceptFqName="jetbrains.mps.baseLanguage.structure.ExpressionStatement" fileName="LayererProxy.java" startLine="14" startPosition="41" endLine="15" endPosition="24" />
     <nodeInfo nodeId="4519409331094620073" conceptFqName="jetbrains.mps.baseLanguage.structure.LocalVariableDeclarationStatement" fileName="LayererProxy.java" startLine="18" startPosition="88" endLine="19" endPosition="63" />
     <nodeInfo nodeId="4519409331094620099" conceptFqName="jetbrains.mps.baseLanguage.structure.ExpressionStatement" fileName="LayererProxy.java" startLine="19" startPosition="63" endLine="20" endPosition="63" />
     <nodeInfo nodeId="4519409331094620085" conceptFqName="jetbrains.mps.baseLanguage.structure.ReturnStatement" fileName="LayererProxy.java" startLine="20" startPosition="63" endLine="21" endPosition="18" />
-    <nodeInfo nodeId="4519409331094620045" conceptFqName="jetbrains.mps.baseLanguage.structure.ConstructorDeclaration" fileName="LayererProxy.java" startLine="13" startPosition="0" endLine="16" endPosition="3" />
-    <nodeInfo nodeId="4519409331094620062" conceptFqName="jetbrains.mps.baseLanguage.structure.InstanceMethodDeclaration" fileName="LayererProxy.java" startLine="17" startPosition="0" endLine="23" endPosition="0" />
+    <nodeInfo nodeId="4519409331094620045" conceptFqName="jetbrains.mps.baseLanguage.structure.ConstructorDeclaration" propertyString="LayererProxy#(Ljetbrains/mps/graphLayout/layeredLayout/ILayerer;)V" fileName="LayererProxy.java" startLine="13" startPosition="0" endLine="16" endPosition="3" />
+    <nodeInfo nodeId="4519409331094620062" conceptFqName="jetbrains.mps.baseLanguage.structure.InstanceMethodDeclaration" propertyString="computeLayers#(Ljetbrains/mps/graphLayout/graph/Graph;)Ljava/util/Map;" fileName="LayererProxy.java" startLine="17" startPosition="0" endLine="23" endPosition="0" />
     <scopeInfo nodeId="4519409331094620048" fileName="LayererProxy.java" startLine="14" startPosition="41" endLine="15" endPosition="24" />
-    <scopeInfo nodeId="4519409331094620045" fileName="LayererProxy.java" startLine="13" startPosition="0" endLine="16" endPosition="3">
+    <scopeInfo nodeId="4519409331094620045" conceptFqName="jetbrains.mps.baseLanguage.structure.ConstructorDeclaration" propertyString="LayererProxy#(Ljetbrains/mps/graphLayout/layeredLayout/ILayerer;)V" fileName="LayererProxy.java" startLine="13" startPosition="0" endLine="16" endPosition="3">
       <varInfo nodeId="4519409331094620054" varName="layerer" />
     </scopeInfo>
     <scopeInfo nodeId="4519409331094620068" fileName="LayererProxy.java" startLine="18" startPosition="88" endLine="21" endPosition="18">
       <varInfo nodeId="4519409331094620074" varName="layers" />
     </scopeInfo>
-    <scopeInfo nodeId="4519409331094620062" fileName="LayererProxy.java" startLine="17" startPosition="0" endLine="23" endPosition="0">
+    <scopeInfo nodeId="4519409331094620062" conceptFqName="jetbrains.mps.baseLanguage.structure.InstanceMethodDeclaration" propertyString="computeLayers#(Ljetbrains/mps/graphLayout/graph/Graph;)Ljava/util/Map;" fileName="LayererProxy.java" startLine="17" startPosition="0" endLine="23" endPosition="0">
       <varInfo nodeId="4519409331094620065" varName="graph" />
     </scopeInfo>
     <unitInfo nodeId="4519409331094620043" fileName="LayererProxy.java" startLine="11" startPosition="0" endLine="24" endPosition="0" unitName="layeredLayoutTest.LayererProxy" />
   </root>
   <root nodeId="4519409331094621475">
-    <nodeInfo nodeId="4519409331094621482" conceptFqName="jetbrains.mps.baseLanguage.structure.FieldDeclaration" fileName="MedianLayerByLayerSorterProxy.java" startLine="15" startPosition="67" endLine="16" endPosition="42" />
+    <nodeInfo nodeId="4519409331094621482" conceptFqName="jetbrains.mps.baseLanguage.structure.FieldDeclaration" propertyString="mySorter" fileName="MedianLayerByLayerSorterProxy.java" startLine="15" startPosition="67" endLine="16" endPosition="42" />
     <nodeInfo nodeId="4519409331094621487" conceptFqName="jetbrains.mps.baseLanguage.structure.ExpressionStatement" fileName="MedianLayerByLayerSorterProxy.java" startLine="18" startPosition="42" endLine="19" endPosition="88" />
     <nodeInfo nodeId="4519409331094621511" conceptFqName="jetbrains.mps.baseLanguage.structure.LocalVariableDeclarationStatement" fileName="MedianLayerByLayerSorterProxy.java" startLine="22" startPosition="77" endLine="23" endPosition="63" />
     <nodeInfo nodeId="4519409331094621529" conceptFqName="jetbrains.mps.baseLanguage.structure.ExpressionStatement" fileName="MedianLayerByLayerSorterProxy.java" startLine="23" startPosition="63" endLine="24" endPosition="66" />
     <nodeInfo nodeId="4519409331094621525" conceptFqName="jetbrains.mps.baseLanguage.structure.ReturnStatement" fileName="MedianLayerByLayerSorterProxy.java" startLine="24" startPosition="66" endLine="25" endPosition="17" />
-    <nodeInfo nodeId="4519409331094621477" conceptFqName="jetbrains.mps.baseLanguage.structure.ConstructorDeclaration" fileName="MedianLayerByLayerSorterProxy.java" startLine="17" startPosition="0" endLine="20" endPosition="3" />
-    <nodeInfo nodeId="4519409331094621498" conceptFqName="jetbrains.mps.baseLanguage.structure.InstanceMethodDeclaration" fileName="MedianLayerByLayerSorterProxy.java" startLine="21" startPosition="0" endLine="27" endPosition="0" />
+    <nodeInfo nodeId="4519409331094621477" conceptFqName="jetbrains.mps.baseLanguage.structure.ConstructorDeclaration" propertyString="MedianLayerByLayerSorterProxy#()V" fileName="MedianLayerByLayerSorterProxy.java" startLine="17" startPosition="0" endLine="20" endPosition="3" />
+    <nodeInfo nodeId="4519409331094621498" conceptFqName="jetbrains.mps.baseLanguage.structure.InstanceMethodDeclaration" propertyString="sortNodes#(Ljetbrains/mps/graphLayout/graph/Graph;Ljava/util/Map;)Ljetbrains/mps/graphLayout/layeredLayout/NodeLayeredOrder;" fileName="MedianLayerByLayerSorterProxy.java" startLine="21" startPosition="0" endLine="27" endPosition="0" />
     <scopeInfo nodeId="4519409331094621480" fileName="MedianLayerByLayerSorterProxy.java" startLine="18" startPosition="42" endLine="19" endPosition="88" />
-    <scopeInfo nodeId="4519409331094621477" fileName="MedianLayerByLayerSorterProxy.java" startLine="17" startPosition="0" endLine="20" endPosition="3" />
+    <scopeInfo nodeId="4519409331094621477" conceptFqName="jetbrains.mps.baseLanguage.structure.ConstructorDeclaration" propertyString="MedianLayerByLayerSorterProxy#()V" fileName="MedianLayerByLayerSorterProxy.java" startLine="17" startPosition="0" endLine="20" endPosition="3" />
     <scopeInfo nodeId="4519409331094621505" fileName="MedianLayerByLayerSorterProxy.java" startLine="22" startPosition="77" endLine="25" endPosition="17">
       <varInfo nodeId="4519409331094621512" varName="order" />
     </scopeInfo>
-    <scopeInfo nodeId="4519409331094621498" fileName="MedianLayerByLayerSorterProxy.java" startLine="21" startPosition="0" endLine="27" endPosition="0">
+    <scopeInfo nodeId="4519409331094621498" conceptFqName="jetbrains.mps.baseLanguage.structure.InstanceMethodDeclaration" propertyString="sortNodes#(Ljetbrains/mps/graphLayout/graph/Graph;Ljava/util/Map;)Ljetbrains/mps/graphLayout/layeredLayout/NodeLayeredOrder;" fileName="MedianLayerByLayerSorterProxy.java" startLine="21" startPosition="0" endLine="27" endPosition="0">
       <varInfo nodeId="4519409331094621500" varName="graph" />
       <varInfo nodeId="4519409331094621502" varName="layers" />
     </scopeInfo>
@@ -261,10 +261,10 @@
     <nodeInfo nodeId="5180427534211903979" conceptFqName="jetbrains.mps.baseLanguage.structure.ExpressionStatement" fileName="BlockGraphProcessor_Test.java" startLine="33" startPosition="68" endLine="34" endPosition="78" />
     <nodeInfo nodeId="5180427534211904355" conceptFqName="jetbrains.mps.baseLanguage.structure.ExpressionStatement" fileName="BlockGraphProcessor_Test.java" startLine="35" startPosition="5" endLine="36" endPosition="31" />
     <nodeInfo nodeId="5180427534211903969" conceptFqName="jetbrains.mps.baseLanguage.structure.ForeachStatement" fileName="BlockGraphProcessor_Test.java" startLine="32" startPosition="78" endLine="35" endPosition="5" />
-    <nodeInfo nodeId="4519409331094801576" conceptFqName="jetbrains.mps.baseLanguage.structure.InstanceMethodDeclaration" fileName="BlockGraphProcessor_Test.java" startLine="14" startPosition="56" endLine="19" endPosition="0" />
-    <nodeInfo nodeId="5180427534211902494" conceptFqName="jetbrains.mps.baseLanguage.structure.InstanceMethodDeclaration" fileName="BlockGraphProcessor_Test.java" startLine="19" startPosition="0" endLine="24" endPosition="0" />
-    <nodeInfo nodeId="5180427534211903487" conceptFqName="jetbrains.mps.baseLanguage.structure.InstanceMethodDeclaration" fileName="BlockGraphProcessor_Test.java" startLine="24" startPosition="0" endLine="29" endPosition="0" />
-    <nodeInfo nodeId="5180427534211902517" conceptFqName="jetbrains.mps.baseLanguage.structure.InstanceMethodDeclaration" fileName="BlockGraphProcessor_Test.java" startLine="29" startPosition="0" endLine="38" endPosition="0" />
+    <nodeInfo nodeId="4519409331094801576" conceptFqName="jetbrains.mps.baseLanguage.structure.InstanceMethodDeclaration" propertyString="test_test1#()V" fileName="BlockGraphProcessor_Test.java" startLine="14" startPosition="56" endLine="19" endPosition="0" />
+    <nodeInfo nodeId="5180427534211902494" conceptFqName="jetbrains.mps.baseLanguage.structure.InstanceMethodDeclaration" propertyString="test_test2#()V" fileName="BlockGraphProcessor_Test.java" startLine="19" startPosition="0" endLine="24" endPosition="0" />
+    <nodeInfo nodeId="5180427534211903487" conceptFqName="jetbrains.mps.baseLanguage.structure.InstanceMethodDeclaration" propertyString="test_test3#()V" fileName="BlockGraphProcessor_Test.java" startLine="24" startPosition="0" endLine="29" endPosition="0" />
+    <nodeInfo nodeId="5180427534211902517" conceptFqName="jetbrains.mps.baseLanguage.structure.InstanceMethodDeclaration" propertyString="test#(Ljava/lang/String;)V" fileName="BlockGraphProcessor_Test.java" startLine="29" startPosition="0" endLine="38" endPosition="0" />
     <scopeInfo nodeId="5180427534211903972" fileName="BlockGraphProcessor_Test.java" startLine="33" startPosition="68" endLine="34" endPosition="78" />
     <scopeInfo nodeId="4519409331094801579" fileName="BlockGraphProcessor_Test.java" startLine="15" startPosition="45" endLine="17" endPosition="22">
       <varInfo nodeId="4519409331094801581" varName="graphString" />
@@ -275,15 +275,15 @@
     <scopeInfo nodeId="5180427534211903490" fileName="BlockGraphProcessor_Test.java" startLine="25" startPosition="45" endLine="27" endPosition="22">
       <varInfo nodeId="5180427534211903504" varName="graphString" />
     </scopeInfo>
-    <scopeInfo nodeId="5180427534211903969" fileName="BlockGraphProcessor_Test.java" startLine="32" startPosition="78" endLine="35" endPosition="5" />
-    <scopeInfo nodeId="4519409331094801576" fileName="BlockGraphProcessor_Test.java" startLine="14" startPosition="56" endLine="19" endPosition="0" />
-    <scopeInfo nodeId="5180427534211902494" fileName="BlockGraphProcessor_Test.java" startLine="19" startPosition="0" endLine="24" endPosition="0" />
-    <scopeInfo nodeId="5180427534211903487" fileName="BlockGraphProcessor_Test.java" startLine="24" startPosition="0" endLine="29" endPosition="0" />
+    <scopeInfo nodeId="5180427534211903969" conceptFqName="jetbrains.mps.baseLanguage.structure.ForeachStatement" fileName="BlockGraphProcessor_Test.java" startLine="32" startPosition="78" endLine="35" endPosition="5" />
+    <scopeInfo nodeId="4519409331094801576" conceptFqName="jetbrains.mps.baseLanguage.structure.InstanceMethodDeclaration" propertyString="test_test1#()V" fileName="BlockGraphProcessor_Test.java" startLine="14" startPosition="56" endLine="19" endPosition="0" />
+    <scopeInfo nodeId="5180427534211902494" conceptFqName="jetbrains.mps.baseLanguage.structure.InstanceMethodDeclaration" propertyString="test_test2#()V" fileName="BlockGraphProcessor_Test.java" startLine="19" startPosition="0" endLine="24" endPosition="0" />
+    <scopeInfo nodeId="5180427534211903487" conceptFqName="jetbrains.mps.baseLanguage.structure.InstanceMethodDeclaration" propertyString="test_test3#()V" fileName="BlockGraphProcessor_Test.java" startLine="24" startPosition="0" endLine="29" endPosition="0" />
     <scopeInfo nodeId="5180427534211902520" fileName="BlockGraphProcessor_Test.java" startLine="30" startPosition="40" endLine="36" endPosition="31">
       <varInfo nodeId="5180427534211903960" varName="layers" />
       <varInfo nodeId="5180427534211902525" varName="blockGraph" />
     </scopeInfo>
-    <scopeInfo nodeId="5180427534211902517" fileName="BlockGraphProcessor_Test.java" startLine="29" startPosition="0" endLine="38" endPosition="0">
+    <scopeInfo nodeId="5180427534211902517" conceptFqName="jetbrains.mps.baseLanguage.structure.InstanceMethodDeclaration" propertyString="test#(Ljava/lang/String;)V" fileName="BlockGraphProcessor_Test.java" startLine="29" startPosition="0" endLine="38" endPosition="0">
       <varInfo nodeId="5180427534211902521" varName="graphString" />
     </scopeInfo>
   </root>
@@ -295,16 +295,16 @@
     <nodeInfo nodeId="7033456583153162583" conceptFqName="jetbrains.mps.baseLanguage.structure.ReturnStatement" fileName="CheckDummyEdgesCrossing.java" startLine="25" startPosition="139" endLine="26" endPosition="26" />
     <nodeInfo nodeId="7033456583153162588" conceptFqName="jetbrains.mps.baseLanguage.structure.ReturnStatement" fileName="CheckDummyEdgesCrossing.java" startLine="31" startPosition="5" endLine="32" endPosition="17" />
     <nodeInfo nodeId="7033456583153162537" conceptFqName="jetbrains.mps.baseLanguage.structure.IfStatement" fileName="CheckDummyEdgesCrossing.java" startLine="24" startPosition="66" endLine="27" endPosition="13" />
-    <nodeInfo nodeId="7033456583153162489" conceptFqName="jetbrains.mps.baseLanguage.structure.InstanceMethodDeclaration" fileName="CheckDummyEdgesCrossing.java" startLine="14" startPosition="107" endLine="18" endPosition="0" />
+    <nodeInfo nodeId="7033456583153162489" conceptFqName="jetbrains.mps.baseLanguage.structure.InstanceMethodDeclaration" propertyString="accept#(Ljetbrains/mps/graphLayout/graph/Node;)Z" fileName="CheckDummyEdgesCrossing.java" startLine="14" startPosition="107" endLine="18" endPosition="0" />
     <nodeInfo nodeId="7033456583153162480" conceptFqName="jetbrains.mps.baseLanguage.structure.LocalVariableDeclarationStatement" fileName="CheckDummyEdgesCrossing.java" startLine="13" startPosition="68" endLine="18" endPosition="26" />
     <nodeInfo nodeId="4519409331094687696" conceptFqName="jetbrains.mps.baseLanguage.structure.IfStatement" fileName="CheckDummyEdgesCrossing.java" startLine="22" startPosition="146" endLine="28" endPosition="11" />
     <nodeInfo nodeId="7033456583153162499" conceptFqName="jetbrains.mps.baseLanguage.structure.ForStatement" fileName="CheckDummyEdgesCrossing.java" startLine="19" startPosition="87" endLine="29" endPosition="9" />
     <nodeInfo nodeId="7033456583153162497" conceptFqName="jetbrains.mps.baseLanguage.structure.ForStatement" fileName="CheckDummyEdgesCrossing.java" startLine="18" startPosition="26" endLine="30" endPosition="7" />
     <nodeInfo nodeId="7033456583153162475" conceptFqName="jetbrains.mps.baseLanguage.structure.ForStatement" fileName="CheckDummyEdgesCrossing.java" startLine="12" startPosition="60" endLine="31" endPosition="5" />
-    <nodeInfo nodeId="7033456583153162448" conceptFqName="jetbrains.mps.baseLanguage.structure.StaticMethodDeclaration" fileName="CheckDummyEdgesCrossing.java" startLine="11" startPosition="38" endLine="34" endPosition="0" />
+    <nodeInfo nodeId="7033456583153162448" conceptFqName="jetbrains.mps.baseLanguage.structure.StaticMethodDeclaration" propertyString="hasCrosses#(Ljetbrains/mps/graphLayout/layeredLayout/NodeLayeredOrder;)Z" fileName="CheckDummyEdgesCrossing.java" startLine="11" startPosition="38" endLine="34" endPosition="0" />
     <scopeInfo nodeId="7033456583153162490" fileName="CheckDummyEdgesCrossing.java" startLine="15" startPosition="40" endLine="16" endPosition="30" />
     <scopeInfo nodeId="7033456583153162538" fileName="CheckDummyEdgesCrossing.java" startLine="25" startPosition="139" endLine="26" endPosition="26" />
-    <scopeInfo nodeId="7033456583153162489" fileName="CheckDummyEdgesCrossing.java" startLine="14" startPosition="107" endLine="18" endPosition="0" />
+    <scopeInfo nodeId="7033456583153162489" conceptFqName="jetbrains.mps.baseLanguage.structure.InstanceMethodDeclaration" propertyString="accept#(Ljetbrains/mps/graphLayout/graph/Node;)Z" fileName="CheckDummyEdgesCrossing.java" startLine="14" startPosition="107" endLine="18" endPosition="0" />
     <scopeInfo nodeId="4519409331094687698" fileName="CheckDummyEdgesCrossing.java" startLine="23" startPosition="64" endLine="27" endPosition="13">
       <varInfo nodeId="7033456583153162528" varName="nextLayerOrder" />
     </scopeInfo>
@@ -313,42 +313,42 @@
       <varInfo nodeId="7033456583153162515" varName="secondTarget" />
     </scopeInfo>
     <scopeInfo nodeId="7033456583153162498" fileName="CheckDummyEdgesCrossing.java" startLine="19" startPosition="87" endLine="29" endPosition="9" />
-    <scopeInfo nodeId="7033456583153162499" fileName="CheckDummyEdgesCrossing.java" startLine="19" startPosition="87" endLine="29" endPosition="9">
+    <scopeInfo nodeId="7033456583153162499" conceptFqName="jetbrains.mps.baseLanguage.structure.ForStatement" fileName="CheckDummyEdgesCrossing.java" startLine="19" startPosition="87" endLine="29" endPosition="9">
       <varInfo nodeId="7033456583153162549" varName="second" />
     </scopeInfo>
-    <scopeInfo nodeId="7033456583153162497" fileName="CheckDummyEdgesCrossing.java" startLine="18" startPosition="26" endLine="30" endPosition="7">
+    <scopeInfo nodeId="7033456583153162497" conceptFqName="jetbrains.mps.baseLanguage.structure.ForStatement" fileName="CheckDummyEdgesCrossing.java" startLine="18" startPosition="26" endLine="30" endPosition="7">
       <varInfo nodeId="7033456583153162561" varName="first" />
     </scopeInfo>
     <scopeInfo nodeId="7033456583153162479" fileName="CheckDummyEdgesCrossing.java" startLine="13" startPosition="68" endLine="30" endPosition="7">
       <varInfo nodeId="7033456583153162481" varName="dummyNodes" />
     </scopeInfo>
-    <scopeInfo nodeId="7033456583153162475" fileName="CheckDummyEdgesCrossing.java" startLine="12" startPosition="60" endLine="31" endPosition="5">
+    <scopeInfo nodeId="7033456583153162475" conceptFqName="jetbrains.mps.baseLanguage.structure.ForStatement" fileName="CheckDummyEdgesCrossing.java" startLine="12" startPosition="60" endLine="31" endPosition="5">
       <varInfo nodeId="7033456583153162476" varName="layer" />
     </scopeInfo>
     <scopeInfo nodeId="7033456583153162451" fileName="CheckDummyEdgesCrossing.java" startLine="12" startPosition="60" endLine="32" endPosition="17" />
-    <scopeInfo nodeId="7033456583153162448" fileName="CheckDummyEdgesCrossing.java" startLine="11" startPosition="38" endLine="34" endPosition="0">
+    <scopeInfo nodeId="7033456583153162448" conceptFqName="jetbrains.mps.baseLanguage.structure.StaticMethodDeclaration" propertyString="hasCrosses#(Ljetbrains/mps/graphLayout/layeredLayout/NodeLayeredOrder;)Z" fileName="CheckDummyEdgesCrossing.java" startLine="11" startPosition="38" endLine="34" endPosition="0">
       <varInfo nodeId="7033456583153162458" varName="order" />
     </scopeInfo>
     <unitInfo nodeId="7033456583153162489" fileName="CheckDummyEdgesCrossing.java" startLine="14" startPosition="85" endLine="18" endPosition="7" unitName="layeredLayoutTest.CheckDummyEdgesCrossing$1" />
     <unitInfo nodeId="6088058844796081230" fileName="CheckDummyEdgesCrossing.java" startLine="11" startPosition="0" endLine="35" endPosition="0" unitName="layeredLayoutTest.CheckDummyEdgesCrossing" />
   </root>
   <root nodeId="8780938838750221986">
-    <nodeInfo nodeId="8780938838750221993" conceptFqName="jetbrains.mps.baseLanguage.structure.FieldDeclaration" fileName="RefineAdjacentNodeSorterProxy.java" startLine="14" startPosition="67" endLine="15" endPosition="42" />
+    <nodeInfo nodeId="8780938838750221993" conceptFqName="jetbrains.mps.baseLanguage.structure.FieldDeclaration" propertyString="mySorter" fileName="RefineAdjacentNodeSorterProxy.java" startLine="14" startPosition="67" endLine="15" endPosition="42" />
     <nodeInfo nodeId="8780938838750222012" conceptFqName="jetbrains.mps.baseLanguage.structure.LocalVariableDeclarationStatement" fileName="RefineAdjacentNodeSorterProxy.java" startLine="17" startPosition="42" endLine="18" endPosition="67" />
     <nodeInfo nodeId="8780938838750221997" conceptFqName="jetbrains.mps.baseLanguage.structure.ExpressionStatement" fileName="RefineAdjacentNodeSorterProxy.java" startLine="18" startPosition="67" endLine="19" endPosition="89" />
     <nodeInfo nodeId="8780938838750222033" conceptFqName="jetbrains.mps.baseLanguage.structure.LocalVariableDeclarationStatement" fileName="RefineAdjacentNodeSorterProxy.java" startLine="22" startPosition="77" endLine="23" endPosition="63" />
     <nodeInfo nodeId="8780938838750222041" conceptFqName="jetbrains.mps.baseLanguage.structure.ExpressionStatement" fileName="RefineAdjacentNodeSorterProxy.java" startLine="23" startPosition="63" endLine="24" endPosition="66" />
     <nodeInfo nodeId="8780938838750222044" conceptFqName="jetbrains.mps.baseLanguage.structure.ReturnStatement" fileName="RefineAdjacentNodeSorterProxy.java" startLine="24" startPosition="66" endLine="25" endPosition="17" />
-    <nodeInfo nodeId="8780938838750221988" conceptFqName="jetbrains.mps.baseLanguage.structure.ConstructorDeclaration" fileName="RefineAdjacentNodeSorterProxy.java" startLine="16" startPosition="0" endLine="20" endPosition="3" />
-    <nodeInfo nodeId="8780938838750222021" conceptFqName="jetbrains.mps.baseLanguage.structure.InstanceMethodDeclaration" fileName="RefineAdjacentNodeSorterProxy.java" startLine="21" startPosition="0" endLine="27" endPosition="0" />
+    <nodeInfo nodeId="8780938838750221988" conceptFqName="jetbrains.mps.baseLanguage.structure.ConstructorDeclaration" propertyString="RefineAdjacentNodeSorterProxy#()V" fileName="RefineAdjacentNodeSorterProxy.java" startLine="16" startPosition="0" endLine="20" endPosition="3" />
+    <nodeInfo nodeId="8780938838750222021" conceptFqName="jetbrains.mps.baseLanguage.structure.InstanceMethodDeclaration" propertyString="sortNodes#(Ljetbrains/mps/graphLayout/graph/Graph;Ljava/util/Map;)Ljetbrains/mps/graphLayout/layeredLayout/NodeLayeredOrder;" fileName="RefineAdjacentNodeSorterProxy.java" startLine="21" startPosition="0" endLine="27" endPosition="0" />
     <scopeInfo nodeId="8780938838750221991" fileName="RefineAdjacentNodeSorterProxy.java" startLine="17" startPosition="42" endLine="19" endPosition="89">
       <varInfo nodeId="8780938838750222013" varName="medianSorter" />
     </scopeInfo>
     <scopeInfo nodeId="8780938838750222030" fileName="RefineAdjacentNodeSorterProxy.java" startLine="22" startPosition="77" endLine="25" endPosition="17">
       <varInfo nodeId="8780938838750222034" varName="order" />
     </scopeInfo>
-    <scopeInfo nodeId="8780938838750221988" fileName="RefineAdjacentNodeSorterProxy.java" startLine="16" startPosition="0" endLine="20" endPosition="3" />
-    <scopeInfo nodeId="8780938838750222021" fileName="RefineAdjacentNodeSorterProxy.java" startLine="21" startPosition="0" endLine="27" endPosition="0">
+    <scopeInfo nodeId="8780938838750221988" conceptFqName="jetbrains.mps.baseLanguage.structure.ConstructorDeclaration" propertyString="RefineAdjacentNodeSorterProxy#()V" fileName="RefineAdjacentNodeSorterProxy.java" startLine="16" startPosition="0" endLine="20" endPosition="3" />
+    <scopeInfo nodeId="8780938838750222021" conceptFqName="jetbrains.mps.baseLanguage.structure.InstanceMethodDeclaration" propertyString="sortNodes#(Ljetbrains/mps/graphLayout/graph/Graph;Ljava/util/Map;)Ljetbrains/mps/graphLayout/layeredLayout/NodeLayeredOrder;" fileName="RefineAdjacentNodeSorterProxy.java" startLine="21" startPosition="0" endLine="27" endPosition="0">
       <varInfo nodeId="8780938838750222023" varName="graph" />
       <varInfo nodeId="8780938838750222025" varName="layers" />
     </scopeInfo>

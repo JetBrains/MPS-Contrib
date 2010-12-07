@@ -124,7 +124,7 @@ public class ClusterEmbeddingConstructorTemp {
     }
     ClusterEmbeddingConstructorTemp subProcessor = new ClusterEmbeddingConstructorTemp(myGraph, subcluster, subOuterEdgesOrder);
     EmbeddedGraph subclusterEmbedding = subProcessor.constructEmbedding();
-    CheckEmbeddedGraph.checkEmbeddedGraph(subclusterEmbedding);
+    CheckEmbeddedGraph.checkEmbeddedGraph(subclusterEmbedding, false);
     if (ListSequence.fromList(subclusterEmbedding.getFaces()).count() > 0) {
       Face outerFace = subclusterEmbedding.getOuterFace();
       for (Face face : ListSequence.fromList(subclusterEmbedding.getFaces())) {
@@ -300,7 +300,7 @@ public class ClusterEmbeddingConstructorTemp {
       mySubEmbeddedGraph.addFace(outerFace);
       mySubEmbeddedGraph.setOuterFace(outerFace);
       if (ClusterEmbeddingConstructorTemp.debugMode > 0) {
-        CheckEmbeddedGraph.checkEmbeddedGraph(mySubEmbeddedGraph);
+        CheckEmbeddedGraph.checkEmbeddedGraph(mySubEmbeddedGraph, false);
       }
 
       // Processing outer edges. 
@@ -310,7 +310,7 @@ public class ClusterEmbeddingConstructorTemp {
           continue;
         }
         mySubclustersGraph.removeEdge(edge);
-        ShortestPathEmbeddingFinder.restoreEdge(mySubEmbeddedGraph, edge);
+        ShortestPathEmbeddingFinder.restoreEdge(mySubEmbeddedGraph, edge, true);
       }
     }
     myNodeMap = nodeMap;

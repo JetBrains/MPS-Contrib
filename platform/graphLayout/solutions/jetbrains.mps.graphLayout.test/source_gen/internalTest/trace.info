@@ -36,9 +36,9 @@
     <nodeInfo nodeId="1567683135099905983" conceptFqName="jetbrains.mps.baseLanguage.structure.TryCatchStatement" fileName="TestRandomGraph_Test.java" startLine="40" startPosition="5" endLine="46" endPosition="5" />
     <nodeInfo nodeId="1567683135099905783" conceptFqName="jetbrains.mps.baseLanguage.structure.ForStatement" fileName="TestRandomGraph_Test.java" startLine="53" startPosition="16" endLine="59" endPosition="5" />
     <nodeInfo nodeId="1567683135099905927" conceptFqName="jetbrains.mps.baseLanguage.structure.ForStatement" fileName="TestRandomGraph_Test.java" startLine="26" startPosition="24" endLine="34" endPosition="5" />
-    <nodeInfo nodeId="1567683135099905826" conceptFqName="jetbrains.mps.baseLanguage.structure.InstanceMethodDeclaration" fileName="TestRandomGraph_Test.java" startLine="62" startPosition="0" endLine="70" endPosition="0" />
-    <nodeInfo nodeId="1567683135099905769" conceptFqName="jetbrains.mps.baseLanguage.structure.InstanceMethodDeclaration" fileName="TestRandomGraph_Test.java" startLine="50" startPosition="0" endLine="62" endPosition="0" />
-    <nodeInfo nodeId="1567683135099905872" conceptFqName="jetbrains.mps.baseLanguage.structure.InstanceMethodDeclaration" fileName="TestRandomGraph_Test.java" startLine="16" startPosition="52" endLine="50" endPosition="0" />
+    <nodeInfo nodeId="1567683135099905826" conceptFqName="jetbrains.mps.baseLanguage.structure.InstanceMethodDeclaration" propertyString="testEdges#(Ljetbrains/mps/graphLayout/graph/Graph;Ljava/util/Map;)V" fileName="TestRandomGraph_Test.java" startLine="62" startPosition="0" endLine="70" endPosition="0" />
+    <nodeInfo nodeId="1567683135099905769" conceptFqName="jetbrains.mps.baseLanguage.structure.InstanceMethodDeclaration" propertyString="getLayers#(Ljetbrains/mps/graphLayout/graph/Graph;[I)Ljava/util/Map;" fileName="TestRandomGraph_Test.java" startLine="50" startPosition="0" endLine="62" endPosition="0" />
+    <nodeInfo nodeId="1567683135099905872" conceptFqName="jetbrains.mps.baseLanguage.structure.InstanceMethodDeclaration" propertyString="test_threeLayersGraph#()V" fileName="TestRandomGraph_Test.java" startLine="16" startPosition="52" endLine="50" endPosition="0" />
     <scopeInfo nodeId="1567683135099905930" fileName="TestRandomGraph_Test.java" startLine="28" startPosition="18" endLine="29" endPosition="37" />
     <scopeInfo nodeId="1567683135099905941" fileName="TestRandomGraph_Test.java" startLine="31" startPosition="55" endLine="32" endPosition="50" />
     <scopeInfo nodeId="1567683135099905974" fileName="TestRandomGraph_Test.java" startLine="38" startPosition="0" endLine="39" endPosition="28" />
@@ -49,25 +49,25 @@
     <scopeInfo nodeId="1567683135099905974" fileName="TestRandomGraph_Test.java" startLine="35" startPosition="9" endLine="37" endPosition="20" />
     <scopeInfo nodeId="1567683135099905983" fileName="TestRandomGraph_Test.java" startLine="41" startPosition="9" endLine="43" endPosition="20" />
     <scopeInfo nodeId="1567683135099905786" fileName="TestRandomGraph_Test.java" startLine="55" startPosition="47" endLine="57" endPosition="14" />
-    <scopeInfo nodeId="1567683135099905940" fileName="TestRandomGraph_Test.java" startLine="30" startPosition="7" endLine="33" endPosition="7">
+    <scopeInfo nodeId="1567683135099905940" conceptFqName="jetbrains.mps.baseLanguage.structure.ForStatement" fileName="TestRandomGraph_Test.java" startLine="30" startPosition="7" endLine="33" endPosition="7">
       <varInfo nodeId="1567683135099905952" varName="j" />
     </scopeInfo>
     <scopeInfo nodeId="1567683135099905843" fileName="TestRandomGraph_Test.java" startLine="64" startPosition="59" endLine="67" endPosition="7" />
-    <scopeInfo nodeId="1567683135099905844" fileName="TestRandomGraph_Test.java" startLine="64" startPosition="59" endLine="67" endPosition="7" />
+    <scopeInfo nodeId="1567683135099905844" conceptFqName="jetbrains.mps.baseLanguage.structure.ForeachStatement" fileName="TestRandomGraph_Test.java" startLine="64" startPosition="59" endLine="67" endPosition="7" />
     <scopeInfo nodeId="1567683135099905784" fileName="TestRandomGraph_Test.java" startLine="54" startPosition="49" endLine="58" endPosition="7" />
-    <scopeInfo nodeId="1567683135099905785" fileName="TestRandomGraph_Test.java" startLine="54" startPosition="49" endLine="58" endPosition="7">
+    <scopeInfo nodeId="1567683135099905785" conceptFqName="jetbrains.mps.baseLanguage.structure.ForStatement" fileName="TestRandomGraph_Test.java" startLine="54" startPosition="49" endLine="58" endPosition="7">
       <varInfo nodeId="1567683135099905799" varName="j" />
     </scopeInfo>
     <scopeInfo nodeId="1567683135099905829" fileName="TestRandomGraph_Test.java" startLine="63" startPosition="61" endLine="68" endPosition="5" />
-    <scopeInfo nodeId="1567683135099905838" fileName="TestRandomGraph_Test.java" startLine="63" startPosition="61" endLine="68" endPosition="5" />
+    <scopeInfo nodeId="1567683135099905838" conceptFqName="jetbrains.mps.baseLanguage.structure.ForeachStatement" fileName="TestRandomGraph_Test.java" startLine="63" startPosition="61" endLine="68" endPosition="5" />
     <scopeInfo nodeId="1567683135099905928" fileName="TestRandomGraph_Test.java" startLine="27" startPosition="49" endLine="33" endPosition="7" />
-    <scopeInfo nodeId="1567683135099905783" fileName="TestRandomGraph_Test.java" startLine="53" startPosition="16" endLine="59" endPosition="5">
+    <scopeInfo nodeId="1567683135099905783" conceptFqName="jetbrains.mps.baseLanguage.structure.ForStatement" fileName="TestRandomGraph_Test.java" startLine="53" startPosition="16" endLine="59" endPosition="5">
       <varInfo nodeId="1567683135099905809" varName="i" />
     </scopeInfo>
-    <scopeInfo nodeId="1567683135099905927" fileName="TestRandomGraph_Test.java" startLine="26" startPosition="24" endLine="34" endPosition="5">
+    <scopeInfo nodeId="1567683135099905927" conceptFqName="jetbrains.mps.baseLanguage.structure.ForStatement" fileName="TestRandomGraph_Test.java" startLine="26" startPosition="24" endLine="34" endPosition="5">
       <varInfo nodeId="1567683135099905964" varName="i" />
     </scopeInfo>
-    <scopeInfo nodeId="1567683135099905826" fileName="TestRandomGraph_Test.java" startLine="62" startPosition="0" endLine="70" endPosition="0">
+    <scopeInfo nodeId="1567683135099905826" conceptFqName="jetbrains.mps.baseLanguage.structure.InstanceMethodDeclaration" propertyString="testEdges#(Ljetbrains/mps/graphLayout/graph/Graph;Ljava/util/Map;)V" fileName="TestRandomGraph_Test.java" startLine="62" startPosition="0" endLine="70" endPosition="0">
       <varInfo nodeId="1567683135099905862" varName="g" />
       <varInfo nodeId="1567683135099905864" varName="layers" />
     </scopeInfo>
@@ -75,7 +75,7 @@
       <varInfo nodeId="1567683135099905774" varName="layers" />
       <varInfo nodeId="1567683135099905780" varName="cur" />
     </scopeInfo>
-    <scopeInfo nodeId="1567683135099905769" fileName="TestRandomGraph_Test.java" startLine="50" startPosition="0" endLine="62" endPosition="0">
+    <scopeInfo nodeId="1567683135099905769" conceptFqName="jetbrains.mps.baseLanguage.structure.InstanceMethodDeclaration" propertyString="getLayers#(Ljetbrains/mps/graphLayout/graph/Graph;[I)Ljava/util/Map;" fileName="TestRandomGraph_Test.java" startLine="50" startPosition="0" endLine="62" endPosition="0">
       <varInfo nodeId="1567683135099905821" varName="g" />
       <varInfo nodeId="1567683135099905823" varName="numInLayer" />
     </scopeInfo>
@@ -85,7 +85,7 @@
       <varInfo nodeId="1567683135099905877" varName="numInLayer" />
       <varInfo nodeId="1567683135099905924" varName="minNumEdges" />
     </scopeInfo>
-    <scopeInfo nodeId="1567683135099905872" fileName="TestRandomGraph_Test.java" startLine="16" startPosition="52" endLine="50" endPosition="0" />
+    <scopeInfo nodeId="1567683135099905872" conceptFqName="jetbrains.mps.baseLanguage.structure.InstanceMethodDeclaration" propertyString="test_threeLayersGraph#()V" fileName="TestRandomGraph_Test.java" startLine="16" startPosition="52" endLine="50" endPosition="0" />
   </root>
 </debugInfo>
 

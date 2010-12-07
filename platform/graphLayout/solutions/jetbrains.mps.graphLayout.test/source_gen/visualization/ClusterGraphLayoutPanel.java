@@ -8,6 +8,9 @@ import jetbrains.mps.graphLayout.graph.ClusteredGraph;
 import jetbrains.mps.graphLayout.graph.Node;
 import jetbrains.mps.internal.collections.runtime.ListSequence;
 import jetbrains.mps.graphLayout.flowOrthogonalLayout.ClusterOrthogonalFlowLayouter;
+import sampleGraphs.AbstractGraphGenerator;
+import sampleGraphs.SimpleConnectedGraphGenerator;
+import sampleGraphs.ClusterGraphGenerator;
 import javax.swing.SwingUtilities;
 
 public class ClusterGraphLayoutPanel extends OrthogonalLayoutTestPanel {
@@ -35,6 +38,22 @@ public class ClusterGraphLayoutPanel extends OrthogonalLayoutTestPanel {
   protected void initLayout() {
     myLayouter = new ClusterOrthogonalFlowLayouter();
     myPainter = new ClusterLayoutPainter();
+  }
+
+  @Override
+  protected void writeGraph(Graph graph) {
+    super.writeGraph(graph);
+    if (graph instanceof ClusteredGraph) {
+      Graph tree = ((ClusteredGraph) graph).getInclusionTree();
+      super.writeGraph(tree);
+    }
+  }
+
+  @Override
+  protected ClusteredGraph generateGraph(int numNodes, int numEdges) {
+    AbstractGraphGenerator graphGenerator = new SimpleConnectedGraphGenerator(numNodes, numEdges, numEdges);
+    ClusterGraphGenerator generator = new ClusterGraphGenerator(graphGenerator);
+    return generator.generate();
   }
 
   public static void main(String[] args) {

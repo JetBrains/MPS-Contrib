@@ -69,7 +69,7 @@ public class EmbeddedGraphModifier_Test extends TestCase {
     /*
       System.out.println(embeddedGraph);
     */
-    CheckEmbeddedGraph.checkEmbeddedGraph(embeddedGraph);
+    CheckEmbeddedGraph.checkEmbeddedGraph(embeddedGraph, false);
     Map<Dart, Direction2D> dartDirections = modifier.getDartDirections();
     for (Edge edge : ListSequence.fromList(graph.getEdges())) {
       List<Dart> darts = embeddedGraph.getDarts(edge);

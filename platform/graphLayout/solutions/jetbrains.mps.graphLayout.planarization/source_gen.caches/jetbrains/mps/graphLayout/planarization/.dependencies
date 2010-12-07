@@ -55,6 +55,8 @@
     <classNode dependClassName="java.util.HashMap" />
     <classNode dependClassName="java.util.List" />
     <classNode dependClassName="java.util.Map" />
+    <classNode dependClassName="jetbrains.mps.graphLayout.algorithms.BiconnectAugmentation" />
+    <classNode dependClassName="jetbrains.mps.graphLayout.algorithms.ConnectivityComponents" />
     <classNode dependClassName="jetbrains.mps.graphLayout.graph.ClusteredGraph" />
     <classNode dependClassName="jetbrains.mps.graphLayout.graph.Edge" />
     <classNode dependClassName="jetbrains.mps.graphLayout.graph.Graph" />
@@ -62,7 +64,10 @@
     <classNode dependClassName="jetbrains.mps.graphLayout.planarGraph.CheckEmbeddedGraph" />
     <classNode dependClassName="jetbrains.mps.graphLayout.planarGraph.EmbeddedGraph" />
     <classNode dependClassName="jetbrains.mps.graphLayout.planarization.ClusterEmbeddingConstructor" />
+    <classNode dependClassName="jetbrains.mps.internal.collections.runtime.ListSequence" />
     <classNode dependClassName="jetbrains.mps.internal.collections.runtime.MapSequence" />
+    <classNode dependClassName="jetbrains.mps.internal.collections.runtime.SetSequence" />
+    <classNode dependClassName="jetbrains.mps.internal.collections.runtime.backports.LinkedList" />
     <classNode extendsClassName="jetbrains.mps.graphLayout.planarization.IEmbeddingFinder" />
   </dependency>
   <dependency className="jetbrains.mps.graphLayout.planarization.EdgesOrder" file="EdgesOrder.java">
@@ -213,6 +218,7 @@
     <classNode dependClassName="java.lang.System" />
     <classNode dependClassName="java.util.ArrayList" />
     <classNode dependClassName="java.util.List" />
+    <classNode dependClassName="java.util.Map" />
     <classNode dependClassName="jetbrains.mps.graphLayout.algorithms.ShortestPath" />
     <classNode dependClassName="jetbrains.mps.graphLayout.graph.Edge" />
     <classNode dependClassName="jetbrains.mps.graphLayout.graph.Graph" />

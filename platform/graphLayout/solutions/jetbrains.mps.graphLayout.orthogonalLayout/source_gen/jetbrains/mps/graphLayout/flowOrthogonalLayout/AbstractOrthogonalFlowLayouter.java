@@ -15,11 +15,11 @@ import jetbrains.mps.internal.collections.runtime.SetSequence;
 import java.util.LinkedHashSet;
 import jetbrains.mps.internal.collections.runtime.ListSequence;
 import jetbrains.mps.graphLayout.graph.Edge;
-import jetbrains.mps.graphLayout.algorithms.BiconnectAugmentation;
 import jetbrains.mps.graphLayout.planarGraph.EmbeddedGraph;
+import java.util.List;
+import jetbrains.mps.graphLayout.algorithms.BiconnectAugmentation;
 import jetbrains.mps.graphLayout.planarization.ShortestPathEmbeddingFinder;
 import java.util.Map;
-import java.util.List;
 import jetbrains.mps.internal.collections.runtime.MapSequence;
 import java.util.HashMap;
 import jetbrains.mps.graphLayout.intGeom2D.Dimension;
@@ -63,26 +63,19 @@ public abstract class AbstractOrthogonalFlowLayouter extends BasicLayouter {
     Set<Edge> initialEdges = SetSequence.fromSet(new LinkedHashSet<Edge>());
     SetSequence.fromSet(initialEdges).addSequence(ListSequence.fromList(graph.getEdges()));
     Set<Edge> loops = SetSequence.fromSet(new LinkedHashSet<Edge>());
-    for (Edge edge : SetSequence.fromSet(initialEdges)) {
-      if (edge.getSource() == edge.getTarget()) {
-        SetSequence.fromSet(loops).addElement(edge);
-        graph.removeEdge(edge);
-      }
-    }
-    /*
-      BiconnectAugmentation.smartMakeBiconnected(graph);
-    */
+    this.removeLoops(graph, loops);
     EmbeddedGraph embeddedGraph = getEmbedding(graph);
     addLoops(loops, embeddedGraph);
+    List<Edge> embeddingEdges = graph.getEdges();
     Set<Edge> newEdges = BiconnectAugmentation.smartMakeBiconnected(graph);
     for (Edge edge : SetSequence.fromSet(newEdges)) {
       graph.removeEdge(edge);
     }
     for (Edge edge : SetSequence.fromSet(newEdges)) {
-      ShortestPathEmbeddingFinder.restoreEdge(embeddedGraph, edge);
+      ShortestPathEmbeddingFinder.restoreEdge(embeddedGraph, edge, false);
     }
     Map<Edge, List<Edge>> history = MapSequence.fromMap(new HashMap<Edge, List<Edge>>());
-    for (Edge edge : SetSequence.fromSet(initialEdges)) {
+    for (Edge edge : ListSequence.fromList(embeddingEdges).concat(SetSequence.fromSet(initialEdges))) {
       MapSequence.fromMap(history).put(edge, historyManager.getHistory(edge));
     }
     Map<Edge, Edge> labeledEdges = MapSequence.fromMap(new HashMap<Edge, Edge>());
@@ -99,11 +92,20 @@ public abstract class AbstractOrthogonalFlowLayouter extends BasicLayouter {
       newInfo.setLabelSize(labeledEdge, layoutInfo.getLabelSize(edge));
     }
     GraphLayout layout = getLayoutFromEmbeddedGraph(embeddedGraph, newInfo);
-    GraphLayout initialLayout = this.refineLayout(graph, initialNodes, layout, initialEdges, history, layoutInfo, labeledEdges);
+    GraphLayout initialLayout = this.refineLayout(graph, initialNodes, layout, initialEdges, history, labeledEdges);
     return initialLayout;
   }
 
-  protected GraphLayout refineLayout(Graph graph, Set<Node> initialNodes, GraphLayout layout, Set<Edge> initialEdges, Map<Edge, List<Edge>> history, LayoutInfo layoutInfo, Map<Edge, Edge> labeledEdges) {
+  private void removeLoops(Graph graph, Set<Edge> loops) {
+    for (Edge edge : ListSequence.fromList(graph.getEdges())) {
+      if (edge.getSource() == edge.getTarget()) {
+        SetSequence.fromSet(loops).addElement(edge);
+        graph.removeEdge(edge);
+      }
+    }
+  }
+
+  protected GraphLayout refineLayout(Graph graph, Set<Node> initialNodes, GraphLayout layout, Set<Edge> initialEdges, Map<Edge, List<Edge>> history, Map<Edge, Edge> labeledEdges) {
     GraphLayout initialLayout = GraphLayoutFactory.createGraphLayout(graph);
     for (Node node : SetSequence.fromSet(initialNodes)) {
       initialLayout.setLayoutFor(node, layout.getNodeLayout(node));
@@ -121,7 +123,7 @@ public abstract class AbstractOrthogonalFlowLayouter extends BasicLayouter {
       }
       initialLayout.setLayoutFor(edge, edgeLayout);
     }
-    for (Edge edge : SetSequence.fromSet(layoutInfo.getLabeledEdges())) {
+    for (Edge edge : SetSequence.fromSet(MapSequence.fromMap(labeledEdges).keySet())) {
       initialLayout.setLabelLayout(edge, layout.getLabelLayout(MapSequence.fromMap(labeledEdges).get(edge)));
     }
     return initialLayout;

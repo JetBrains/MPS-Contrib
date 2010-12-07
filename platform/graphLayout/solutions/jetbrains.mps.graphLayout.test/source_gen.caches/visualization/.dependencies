@@ -11,6 +11,9 @@
     <classNode dependClassName="jetbrains.mps.graphLayout.graph.Graph" />
     <classNode dependClassName="jetbrains.mps.graphLayout.graph.Node" />
     <classNode dependClassName="jetbrains.mps.internal.collections.runtime.ListSequence" />
+    <classNode dependClassName="sampleGraphs.AbstractGraphGenerator" />
+    <classNode dependClassName="sampleGraphs.ClusterGraphGenerator" />
+    <classNode dependClassName="sampleGraphs.SimpleConnectedGraphGenerator" />
     <classNode dependClassName="visualization.ClusterLayoutPainter" />
     <classNode dependClassName="visualization.GraphIO" />
     <classNode extendsClassName="visualization.OrthogonalLayoutTestPanel" />

@@ -8,22 +8,18 @@ import visualization.GraphIO;
 import java.util.List;
 import jetbrains.mps.graphLayout.graph.Edge;
 import jetbrains.mps.graphLayout.graph.EdgesHistoryManager;
-import jetbrains.mps.graphLayout.planarization.ClusterEmbeddingConstructor;
 import jetbrains.mps.graphLayout.planarGraph.EmbeddedGraph;
-import jetbrains.mps.graphLayout.graph.Node;
+import jetbrains.mps.graphLayout.planarization.ClusteredGraphEmbeddingFinder;
 import jetbrains.mps.internal.collections.runtime.ListSequence;
+import java.util.Set;
+import jetbrains.mps.graphLayout.algorithms.BiconnectAugmentation;
+import jetbrains.mps.internal.collections.runtime.SetSequence;
+import jetbrains.mps.graphLayout.planarization.ShortestPathEmbeddingFinder;
 
-public class ClusterEmbeddingConstructor_Test extends TestCase {
+public class ClusterEmbeddingMakeBiconnected_Test extends TestCase {
   public void test_connectedTriagles() throws Exception {
     String graphString = "6 8  0 1  1 2  0 2  3 4  4 5  5 3  2 4  1 3";
     String treeString = "9 8  0 1  0 2  1 3  1 4  1 5  2 6  2 7  2 8";
-    ClusteredGraph graph = GraphIO.scanClusteredGraph(graphString, treeString);
-    test(graph);
-  }
-
-  public void test_manyClusters() throws Exception {
-    String graphString = "1 0";
-    String treeString = "3 2 0 1 1 2";
     ClusteredGraph graph = GraphIO.scanClusteredGraph(graphString, treeString);
     test(graph);
   }
@@ -45,16 +41,23 @@ public class ClusterEmbeddingConstructor_Test extends TestCase {
   public void test(ClusteredGraph graph) {
     List<Edge> edges = graph.getEdges();
     EdgesHistoryManager manager = new EdgesHistoryManager(graph);
-    ClusterEmbeddingConstructor processor = new ClusterEmbeddingConstructor(graph, graph.getRoot(), null);
-    EmbeddedGraph embeddedGraph = processor.constructEmbedding();
+    EmbeddedGraph embeddedGraph = new ClusteredGraphEmbeddingFinder().find(graph);
     System.out.println(graph.getEdges());
-    for (Node cluster : ListSequence.fromList(graph.getInclusionTree().getNodes())) {
-      System.out.println("cluster " + cluster + ": " + graph.getNodesInCluster(cluster));
-    }
     for (Edge edge : ListSequence.fromList(edges)) {
       System.out.println("" + edge + ": " + manager.getHistory(edge));
     }
-    System.out.println(embeddedGraph);
+    System.out.println("before: " + embeddedGraph);
     CheckEmbeddedGraph.checkEmbeddedGraph(embeddedGraph, false);
+    CheckEmbeddedGraph.checkFull(embeddedGraph);
+    Set<Edge> newEdges = BiconnectAugmentation.smartMakeBiconnected(graph);
+    for (Edge edge : SetSequence.fromSet(newEdges)) {
+      graph.removeEdge(edge);
+    }
+    for (Edge edge : SetSequence.fromSet(newEdges)) {
+      ShortestPathEmbeddingFinder.restoreEdge(embeddedGraph, edge, false);
+    }
+    System.out.println("after: " + embeddedGraph);
+    CheckEmbeddedGraph.checkEmbeddedGraph(embeddedGraph, false);
+    CheckEmbeddedGraph.checkFull(embeddedGraph);
   }
 }

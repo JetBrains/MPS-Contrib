@@ -16,8 +16,8 @@ import javax.swing.JButton;
 import java.awt.event.ActionListener;
 import java.awt.event.ActionEvent;
 import jetbrains.mps.graphLayout.graph.Graph;
-import sampleGraphs.RandomGraphGenerator;
 import javax.swing.JOptionPane;
+import sampleGraphs.RandomGraphGenerator;
 import java.util.List;
 import jetbrains.mps.graphLayout.graph.Edge;
 import jetbrains.mps.internal.collections.runtime.ListSequence;
@@ -100,14 +100,20 @@ public class OrthogonalLayoutTestPanel extends JPanel {
           int numNodes = Integer.parseInt(myNumNodesField.getText());
           int numEdges = Integer.parseInt(myNumEdgesField.getText());
           Graph g;
-          g = RandomGraphGenerator.generateSimpleConnectedGraph(numNodes, numEdges);
+          g = generateGraph(numNodes, numEdges);
+          myTextArea.setText("");
           writeGraph(g);
+          myTextArea.append("\n\n 0 \n 0 \n");
         } catch (Exception e) {
           JOptionPane.showMessageDialog(OrthogonalLayoutTestPanel.this, "enter number of nodes and edges...\n" + e.toString());
         }
       }
     });
     this.add(button);
+  }
+
+  protected Graph generateGraph(int numNodes, int numEdges) {
+    return RandomGraphGenerator.generateSimpleConnectedGraph(numNodes, numEdges);
   }
 
   private void createDoLayoutButton() {
@@ -128,14 +134,12 @@ public class OrthogonalLayoutTestPanel extends JPanel {
     this.add(button);
   }
 
-  private void writeGraph(Graph graph) {
+  protected void writeGraph(Graph graph) {
     List<Edge> edges = graph.getEdges();
-    myTextArea.setText("");
     myTextArea.append(graph.getNumNodes() + " " + ListSequence.fromList(edges).count() + "  \n");
     for (Edge edge : ListSequence.fromList(graph.getEdges())) {
       myTextArea.append(edge.getSource().getIndex() + " " + edge.getTarget().getIndex() + "  \n");
     }
-    myTextArea.append("\n\n 0 \n 0 \n");
   }
 
   private void layoutGraph() {

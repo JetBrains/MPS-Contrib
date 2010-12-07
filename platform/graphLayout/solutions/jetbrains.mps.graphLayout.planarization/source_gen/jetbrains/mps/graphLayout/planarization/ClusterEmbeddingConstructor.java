@@ -115,7 +115,7 @@ public class ClusterEmbeddingConstructor {
     ClusterEmbeddingConstructor subProcessor = new ClusterEmbeddingConstructor(myGraph, subcluster, subOuterEdgesOrder);
     subProcessor.setClusterBorderMap(myClusterBorderMap);
     EmbeddedGraph subclusterEmbedding = subProcessor.constructEmbedding();
-    CheckEmbeddedGraph.checkEmbeddedGraph(subclusterEmbedding);
+    CheckEmbeddedGraph.checkEmbeddedGraph(subclusterEmbedding, false);
     if (ListSequence.fromList(subclusterEmbedding.getFaces()).count() > 0) {
       for (Face face : ListSequence.fromList(subclusterEmbedding.getFaces())) {
         if (subclusterEmbedding.isOuterFace(face)) {
@@ -134,9 +134,15 @@ public class ClusterEmbeddingConstructor {
         final Edge nextOuterEdge = ListSequence.fromList(subOuterEdgesOrder).getElement(next);
         Face face = MapSequence.fromMap(myFaceMap).get(mySubEmbeddedGraph.getFace(ListSequence.fromList(darts).getElement(i)));
         List<Dart> faceDarts = face.getDarts();
-        Dart nextOuterEdgeDart = ListSequence.fromList(faceDarts).findFirst(new IWhereFilter<Dart>() {
+        List<Dart> nextOuterFaceDarts = ListSequence.fromList(faceDarts).where(new IWhereFilter<Dart>() {
           public boolean accept(Dart dart) {
             return dart.getEdge() == nextOuterEdge;
+          }
+        }).toListSequence();
+        final Node outerNode = getOuterNode(nextOuterEdge, subcluster);
+        Dart nextOuterEdgeDart = ListSequence.fromList(nextOuterFaceDarts).findFirst(new IWhereFilter<Dart>() {
+          public boolean accept(Dart it) {
+            return it.getSource() == outerNode;
           }
         });
         if (nextOuterEdgeDart == null) {
@@ -154,15 +160,19 @@ public class ClusterEmbeddingConstructor {
     }
   }
 
-  private Edge getOuterEdgeAfterModifications(final Node subcluster, Edge outerEdge) {
-    final Node outerNode = ListSequence.fromList(outerEdge.getAdjacentNodes()).findFirst(new IWhereFilter<Node>() {
-      public boolean accept(Node node) {
-        return MapSequence.fromMap(myNodeMap).get(node) != MapSequence.fromMap(mySubclustersMap).get(subcluster);
-      }
-    });
+  private Edge getOuterEdgeAfterModifications(Node subcluster, Edge outerEdge) {
+    final Node outerNode = this.getOuterNode(outerEdge, subcluster);
     return ListSequence.fromList(myHistoryManager.getHistory(outerEdge)).findFirst(new IWhereFilter<Edge>() {
       public boolean accept(Edge edge) {
         return ListSequence.fromList(edge.getAdjacentNodes()).contains(outerNode);
+      }
+    });
+  }
+
+  private Node getOuterNode(Edge outerEdge, final Node subcluster) {
+    return ListSequence.fromList(outerEdge.getAdjacentNodes()).findFirst(new IWhereFilter<Node>() {
+      public boolean accept(Node node) {
+        return MapSequence.fromMap(myNodeMap).get(node) != MapSequence.fromMap(mySubclustersMap).get(subcluster);
       }
     });
   }
@@ -200,11 +210,11 @@ public class ClusterEmbeddingConstructor {
     }
     GroupedGraphModificationSynchronizer synchronizer = new GroupedGraphModificationSynchronizer(mySubclustersGraph, myGraph, invEdgeMap);
     mySubEmbeddedGraph = EmbeddingFinderFactory.getFinder().find(mySubclustersGraph);
+    synchronizer.disconnect();
 
     if (ListSequence.fromList(myOuterEdgesOrder).count() > 0) {
       // Creating a special structure for processing outer edges. Syncronizer should be turned off 
       // due to this structure has no corresponding in initial graph. 
-      mySubclustersGraph.removeListener(synchronizer);
       List<Edge> subClusterBorder = ListSequence.fromList(new ArrayList<Edge>(ListSequence.fromList(myOuterEdgesOrder).count()));
       myClusterBorder = ListSequence.fromList(new ArrayList<Edge>(ListSequence.fromList(myOuterEdgesOrder).count()));
       List<Edge> subOuterEdges = ListSequence.fromList(new ArrayList<Edge>(ListSequence.fromList(myOuterEdgesOrder).count()));
@@ -242,7 +252,7 @@ public class ClusterEmbeddingConstructor {
         Edge subBorderEdge = mySubclustersGraph.connect(ListSequence.fromList(subBorderNodes).getElement(i), ListSequence.fromList(subBorderNodes).getElement(next));
         ListSequence.fromList(subClusterBorder).addElement(subBorderEdge);
         MapSequence.fromMap(invEdgeMap).put(subBorderEdge, realBorderEdge);
-        outerFace.addLast(new Dart(subBorderEdge, ListSequence.fromList(subBorderNodes).getElement(next)));
+        outerFace.addFirst(new Dart(subBorderEdge, ListSequence.fromList(subBorderNodes).getElement(next)));
       }
 
       // Including this construction into subclusters graph embedding as an outer face. 
@@ -265,7 +275,7 @@ public class ClusterEmbeddingConstructor {
       mySubEmbeddedGraph.addFace(outerFace);
       mySubEmbeddedGraph.setOuterFace(outerFace);
       if (ClusterEmbeddingConstructor.debugMode > 0) {
-        CheckEmbeddedGraph.checkEmbeddedGraph(mySubEmbeddedGraph);
+        CheckEmbeddedGraph.checkEmbeddedGraph(mySubEmbeddedGraph, false);
       }
 
       // Processing outer edges. 
@@ -275,8 +285,9 @@ public class ClusterEmbeddingConstructor {
           continue;
         }
         mySubclustersGraph.removeEdge(edge);
-        ShortestPathEmbeddingFinder.restoreEdge(mySubEmbeddedGraph, edge);
+        ShortestPathEmbeddingFinder.restoreEdge(mySubEmbeddedGraph, edge, true);
       }
+      synchronizer.disconnect();
     }
     myNodeMap = nodeMap;
     return invEdgeMap;

@@ -42,7 +42,7 @@ public class TreeEmbeddingFinder implements IEmbeddingFinder {
     embeddedGraph.setOuterFace(outerFace);
     for (Edge removedEdge : ListSequence.fromList(removed)) {
       this.restoreEdge(embeddedGraph, removedEdge);
-      CheckEmbeddedGraph.checkEmbeddedGraph(embeddedGraph);
+      CheckEmbeddedGraph.checkEmbeddedGraph(embeddedGraph, false);
     }
     mergeEdges();
     return embeddedGraph;

@@ -11,18 +11,25 @@ import jetbrains.mps.internal.collections.runtime.IWhereFilter;
 import jetbrains.mps.graphLayout.planarGraph.DualGraph;
 import jetbrains.mps.graphLayout.graph.Node;
 import java.util.ArrayList;
-import jetbrains.mps.graphLayout.algorithms.ShortestPath;
+import java.util.Map;
 import jetbrains.mps.graphLayout.planarGraph.Face;
 import jetbrains.mps.internal.collections.runtime.MapSequence;
+import jetbrains.mps.graphLayout.algorithms.ShortestPath;
 import jetbrains.mps.graphLayout.graph.GraphModificationEvent;
 
 public class ShortestPathEmbeddingFinder implements IEmbeddingFinder {
   private static int SHOW_LOG = 0;
 
   private IEmbeddingFinder myInitialFinder;
+  private boolean myForbidOuterEdgeCrossing;
 
   public ShortestPathEmbeddingFinder(IEmbeddingFinder initialFinder) {
     myInitialFinder = initialFinder;
+    myForbidOuterEdgeCrossing = false;
+  }
+
+  public void setForbidOuterFaceCrossing(boolean forbidOuterFaceCrossing) {
+    myForbidOuterEdgeCrossing = forbidOuterFaceCrossing;
   }
 
   public EmbeddedGraph find(Graph graph) {
@@ -44,7 +51,7 @@ public class ShortestPathEmbeddingFinder implements IEmbeddingFinder {
       graph.removeEdge(edge);
     }
     for (Edge edge : ListSequence.fromList(toAdd)) {
-      restoreEdge(embeddedGraph, edge);
+      restoreEdge(embeddedGraph, edge, myForbidOuterEdgeCrossing);
       if (SHOW_LOG > 0) {
         System.out.println("restored " + edge);
         System.out.println(embeddedGraph);
@@ -53,11 +60,21 @@ public class ShortestPathEmbeddingFinder implements IEmbeddingFinder {
     return embeddedGraph;
   }
 
-  public static List<Edge> restoreEdge(EmbeddedGraph embeddedGraph, Edge removedEdge) {
+  public static List<Edge> restoreEdge(EmbeddedGraph embeddedGraph, Edge removedEdge, boolean forbidOuterEdgeCrossing) {
     DualGraph dualGraph = new DualGraph(embeddedGraph);
     List<Node> newNodes = ListSequence.fromList(new ArrayList<Node>());
     for (Node node : ListSequence.fromList(removedEdge.getAdjacentNodes())) {
       ListSequence.fromList(newNodes).addElement(dualGraph.addRealNode(node));
+    }
+    if (forbidOuterEdgeCrossing) {
+      final Map<Node, Face> facesMap = dualGraph.getFacesMap();
+      final Face outerFace = embeddedGraph.getOuterFace();
+      Node outerNode = ListSequence.fromList(dualGraph.getNodes()).findFirst(new IWhereFilter<Node>() {
+        public boolean accept(Node it) {
+          return MapSequence.fromMap(facesMap).get(it) == outerFace;
+        }
+      });
+      dualGraph.deleteNode(outerNode);
     }
     List<Edge> path = ShortestPath.getPath(dualGraph, ListSequence.fromList(newNodes).getElement(0), ListSequence.fromList(newNodes).getElement(1), Edge.Direction.BOTH);
     List<Node> nodePath = ListSequence.fromList(new ArrayList<Node>());

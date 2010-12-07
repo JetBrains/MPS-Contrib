@@ -37,6 +37,9 @@ public class GraphModificationProcessor {
   }
 
   public void removeListener(IGraphModificationListener listener) {
+    if (!(SetSequence.fromSet(myListeners).contains(listener))) {
+      throw new RuntimeException("removing listener from wrong place");
+    }
     SetSequence.fromSet(myListeners).removeElement(listener);
   }
 }

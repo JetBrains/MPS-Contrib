@@ -28,30 +28,30 @@
     <nodeInfo nodeId="4624841703139859035" conceptFqName="jetbrains.mps.baseLanguage.structure.ExpressionStatement" fileName="OrthogonalFromVisibility.java" startLine="72" startPosition="88" endLine="73" endPosition="86" />
     <nodeInfo nodeId="4624841703139859045" conceptFqName="jetbrains.mps.baseLanguage.structure.ExpressionStatement" fileName="OrthogonalFromVisibility.java" startLine="73" startPosition="86" endLine="74" endPosition="40" />
     <nodeInfo nodeId="4624841703139859051" conceptFqName="jetbrains.mps.baseLanguage.structure.ReturnStatement" fileName="OrthogonalFromVisibility.java" startLine="75" startPosition="5" endLine="76" endPosition="18" />
-    <nodeInfo nodeId="1327612371813201700" conceptFqName="jetbrains.mps.baseLanguage.structure.ConstructorDeclaration" fileName="OrthogonalFromVisibility.java" startLine="26" startPosition="65" endLine="28" endPosition="3" />
+    <nodeInfo nodeId="1327612371813201700" conceptFqName="jetbrains.mps.baseLanguage.structure.ConstructorDeclaration" propertyString="OrthogonalFromVisibility#()V" fileName="OrthogonalFromVisibility.java" startLine="26" startPosition="65" endLine="28" endPosition="3" />
     <nodeInfo nodeId="6074874003310511087" conceptFqName="jetbrains.mps.baseLanguage.structure.CommentedStatementsBlock" fileName="OrthogonalFromVisibility.java" startLine="30" startPosition="49" endLine="33" endPosition="6" />
     <nodeInfo nodeId="1327612371813205143" conceptFqName="jetbrains.mps.baseLanguage.structure.ForeachStatement" fileName="OrthogonalFromVisibility.java" startLine="35" startPosition="73" endLine="38" endPosition="5" />
     <nodeInfo nodeId="903391227141019561" conceptFqName="jetbrains.mps.baseLanguage.structure.ForeachStatement" fileName="OrthogonalFromVisibility.java" startLine="52" startPosition="77" endLine="55" endPosition="7" />
     <nodeInfo nodeId="903391227141019559" conceptFqName="jetbrains.mps.baseLanguage.structure.CommentedStatementsBlock" fileName="OrthogonalFromVisibility.java" startLine="62" startPosition="98" endLine="65" endPosition="8" />
-    <nodeInfo nodeId="903391227141019621" conceptFqName="jetbrains.mps.baseLanguage.structure.InstanceMethodDeclaration" fileName="OrthogonalFromVisibility.java" startLine="56" startPosition="91" endLine="60" endPosition="0" />
+    <nodeInfo nodeId="903391227141019621" conceptFqName="jetbrains.mps.baseLanguage.structure.InstanceMethodDeclaration" propertyString="select#(Ljava/lang/Integer;)Ljava/lang/Comparable;" fileName="OrthogonalFromVisibility.java" startLine="56" startPosition="91" endLine="60" endPosition="0" />
     <nodeInfo nodeId="903391227141019596" conceptFqName="jetbrains.mps.baseLanguage.structure.ExpressionStatement" fileName="OrthogonalFromVisibility.java" startLine="55" startPosition="7" endLine="60" endPosition="32" />
     <nodeInfo nodeId="4624841703139858978" conceptFqName="jetbrains.mps.baseLanguage.structure.ForeachStatement" fileName="OrthogonalFromVisibility.java" startLine="66" startPosition="5" endLine="75" endPosition="5" />
-    <nodeInfo nodeId="1327612371813201704" conceptFqName="jetbrains.mps.baseLanguage.structure.InstanceMethodDeclaration" fileName="OrthogonalFromVisibility.java" startLine="29" startPosition="0" endLine="45" endPosition="0" />
+    <nodeInfo nodeId="1327612371813201704" conceptFqName="jetbrains.mps.baseLanguage.structure.InstanceMethodDeclaration" propertyString="doLayout#(Ljetbrains/mps/graphLayout/graph/Graph;)Ljetbrains/mps/graphLayout/graphLayout/GraphPointLayout;" fileName="OrthogonalFromVisibility.java" startLine="29" startPosition="0" endLine="45" endPosition="0" />
     <nodeInfo nodeId="4624841703139858947" conceptFqName="jetbrains.mps.baseLanguage.structure.ForeachStatement" fileName="OrthogonalFromVisibility.java" startLine="49" startPosition="58" endLine="66" endPosition="5" />
-    <nodeInfo nodeId="4624841703139858921" conceptFqName="jetbrains.mps.baseLanguage.structure.InstanceMethodDeclaration" fileName="OrthogonalFromVisibility.java" startLine="45" startPosition="0" endLine="78" endPosition="0" />
+    <nodeInfo nodeId="4624841703139858921" conceptFqName="jetbrains.mps.baseLanguage.structure.InstanceMethodDeclaration" propertyString="doLayout#(Ljetbrains/mps/graphLayout/planarGraph/STPlanarGraph;)Ljetbrains/mps/graphLayout/graphLayout/GraphPointLayout;" fileName="OrthogonalFromVisibility.java" startLine="45" startPosition="0" endLine="78" endPosition="0" />
     <scopeInfo nodeId="1327612371813201703" fileName="OrthogonalFromVisibility.java" startLine="27" startPosition="37" endLine="27" endPosition="37" />
     <scopeInfo nodeId="1327612371813205146" fileName="OrthogonalFromVisibility.java" startLine="36" startPosition="86" endLine="37" endPosition="69" />
     <scopeInfo nodeId="903391227141019564" fileName="OrthogonalFromVisibility.java" startLine="53" startPosition="64" endLine="54" endPosition="94" />
     <scopeInfo nodeId="903391227141019622" fileName="OrthogonalFromVisibility.java" startLine="57" startPosition="49" endLine="58" endPosition="20" />
-    <scopeInfo nodeId="1327612371813201700" fileName="OrthogonalFromVisibility.java" startLine="26" startPosition="65" endLine="28" endPosition="3" />
-    <scopeInfo nodeId="1327612371813205143" fileName="OrthogonalFromVisibility.java" startLine="35" startPosition="73" endLine="38" endPosition="5" />
-    <scopeInfo nodeId="903391227141019561" fileName="OrthogonalFromVisibility.java" startLine="52" startPosition="77" endLine="55" endPosition="7" />
-    <scopeInfo nodeId="903391227141019621" fileName="OrthogonalFromVisibility.java" startLine="56" startPosition="91" endLine="60" endPosition="0" />
+    <scopeInfo nodeId="1327612371813201700" conceptFqName="jetbrains.mps.baseLanguage.structure.ConstructorDeclaration" propertyString="OrthogonalFromVisibility#()V" fileName="OrthogonalFromVisibility.java" startLine="26" startPosition="65" endLine="28" endPosition="3" />
+    <scopeInfo nodeId="1327612371813205143" conceptFqName="jetbrains.mps.baseLanguage.structure.ForeachStatement" fileName="OrthogonalFromVisibility.java" startLine="35" startPosition="73" endLine="38" endPosition="5" />
+    <scopeInfo nodeId="903391227141019561" conceptFqName="jetbrains.mps.baseLanguage.structure.ForeachStatement" fileName="OrthogonalFromVisibility.java" startLine="52" startPosition="77" endLine="55" endPosition="7" />
+    <scopeInfo nodeId="903391227141019621" conceptFqName="jetbrains.mps.baseLanguage.structure.InstanceMethodDeclaration" propertyString="select#(Ljava/lang/Integer;)Ljava/lang/Comparable;" fileName="OrthogonalFromVisibility.java" startLine="56" startPosition="91" endLine="60" endPosition="0" />
     <scopeInfo nodeId="4624841703139858983" fileName="OrthogonalFromVisibility.java" startLine="67" startPosition="63" endLine="74" endPosition="40">
       <varInfo nodeId="4624841703139858991" varName="points" />
       <varInfo nodeId="4624841703139858985" varName="rect" />
     </scopeInfo>
-    <scopeInfo nodeId="4624841703139858978" fileName="OrthogonalFromVisibility.java" startLine="66" startPosition="5" endLine="75" endPosition="5" />
+    <scopeInfo nodeId="4624841703139858978" conceptFqName="jetbrains.mps.baseLanguage.structure.ForeachStatement" fileName="OrthogonalFromVisibility.java" startLine="66" startPosition="5" endLine="75" endPosition="5" />
     <scopeInfo nodeId="1327612371813201707" fileName="OrthogonalFromVisibility.java" startLine="30" startPosition="49" endLine="43" endPosition="35">
       <varInfo nodeId="1327612371813208147" varName="t" />
       <varInfo nodeId="1327612371813205176" varName="s" />
@@ -64,16 +64,16 @@
       <varInfo nodeId="903391227141019659" varName="mid" />
       <varInfo nodeId="4624841703139858954" varName="rect" />
     </scopeInfo>
-    <scopeInfo nodeId="1327612371813201704" fileName="OrthogonalFromVisibility.java" startLine="29" startPosition="0" endLine="45" endPosition="0">
+    <scopeInfo nodeId="1327612371813201704" conceptFqName="jetbrains.mps.baseLanguage.structure.InstanceMethodDeclaration" propertyString="doLayout#(Ljetbrains/mps/graphLayout/graph/Graph;)Ljetbrains/mps/graphLayout/graphLayout/GraphPointLayout;" fileName="OrthogonalFromVisibility.java" startLine="29" startPosition="0" endLine="45" endPosition="0">
       <varInfo nodeId="1327612371813205053" varName="graph" />
     </scopeInfo>
-    <scopeInfo nodeId="4624841703139858947" fileName="OrthogonalFromVisibility.java" startLine="49" startPosition="58" endLine="66" endPosition="5" />
+    <scopeInfo nodeId="4624841703139858947" conceptFqName="jetbrains.mps.baseLanguage.structure.ForeachStatement" fileName="OrthogonalFromVisibility.java" startLine="49" startPosition="58" endLine="66" endPosition="5" />
     <scopeInfo nodeId="4624841703139858924" fileName="OrthogonalFromVisibility.java" startLine="46" startPosition="65" endLine="76" endPosition="18">
       <varInfo nodeId="4624841703139859057" varName="graph" />
       <varInfo nodeId="4624841703139858935" varName="visibility" />
       <varInfo nodeId="4624841703139858942" varName="layout" />
     </scopeInfo>
-    <scopeInfo nodeId="4624841703139858921" fileName="OrthogonalFromVisibility.java" startLine="45" startPosition="0" endLine="78" endPosition="0">
+    <scopeInfo nodeId="4624841703139858921" conceptFqName="jetbrains.mps.baseLanguage.structure.InstanceMethodDeclaration" propertyString="doLayout#(Ljetbrains/mps/graphLayout/planarGraph/STPlanarGraph;)Ljetbrains/mps/graphLayout/graphLayout/GraphPointLayout;" fileName="OrthogonalFromVisibility.java" startLine="45" startPosition="0" endLine="78" endPosition="0">
       <varInfo nodeId="4624841703139858925" varName="stPlanarGraph" />
     </scopeInfo>
     <unitInfo nodeId="903391227141019621" fileName="OrthogonalFromVisibility.java" startLine="56" startPosition="54" endLine="60" endPosition="7" unitName="jetbrains.mps.graphLayout.stOrthogonalLayout.OrthogonalFromVisibility$1" />
@@ -105,41 +105,41 @@
     <nodeInfo nodeId="4624841703139867607" conceptFqName="jetbrains.mps.baseLanguage.structure.ExpressionStatement" fileName="OrthogonalLayouter.java" startLine="74" startPosition="107" endLine="75" endPosition="43" />
     <nodeInfo nodeId="4624841703139859105" conceptFqName="jetbrains.mps.baseLanguage.structure.LocalVariableDeclarationStatement" fileName="OrthogonalLayouter.java" startLine="75" startPosition="43" endLine="76" endPosition="73" />
     <nodeInfo nodeId="4624841703139842783" conceptFqName="jetbrains.mps.baseLanguage.structure.ReturnStatement" fileName="OrthogonalLayouter.java" startLine="76" startPosition="73" endLine="77" endPosition="66" />
-    <nodeInfo nodeId="5213231752900665241" conceptFqName="jetbrains.mps.baseLanguage.structure.ConstructorDeclaration" fileName="OrthogonalLayouter.java" startLine="27" startPosition="59" endLine="29" endPosition="3" />
+    <nodeInfo nodeId="5213231752900665241" conceptFqName="jetbrains.mps.baseLanguage.structure.ConstructorDeclaration" propertyString="OrthogonalLayouter#()V" fileName="OrthogonalLayouter.java" startLine="27" startPosition="59" endLine="29" endPosition="3" />
     <nodeInfo nodeId="5213231752900665493" conceptFqName="jetbrains.mps.baseLanguage.structure.ForeachStatement" fileName="OrthogonalLayouter.java" startLine="33" startPosition="25" endLine="36" endPosition="5" />
     <nodeInfo nodeId="5213231752900665517" conceptFqName="jetbrains.mps.baseLanguage.structure.ForStatement" fileName="OrthogonalLayouter.java" startLine="38" startPosition="74" endLine="41" endPosition="5" />
     <nodeInfo nodeId="5213231752900665629" conceptFqName="jetbrains.mps.baseLanguage.structure.ForeachStatement" fileName="OrthogonalLayouter.java" startLine="51" startPosition="6" endLine="54" endPosition="7" />
     <nodeInfo nodeId="6074874003310509182" conceptFqName="jetbrains.mps.baseLanguage.structure.ForeachStatement" fileName="OrthogonalLayouter.java" startLine="64" startPosition="73" endLine="67" endPosition="5" />
     <nodeInfo nodeId="5213231752900665431" conceptFqName="jetbrains.mps.baseLanguage.structure.ForeachStatement" fileName="OrthogonalLayouter.java" startLine="41" startPosition="5" endLine="45" endPosition="5" />
-    <nodeInfo nodeId="6074874003310509229" conceptFqName="jetbrains.mps.baseLanguage.structure.InstanceMethodDeclaration" fileName="OrthogonalLayouter.java" startLine="68" startPosition="83" endLine="72" endPosition="0" />
+    <nodeInfo nodeId="6074874003310509229" conceptFqName="jetbrains.mps.baseLanguage.structure.InstanceMethodDeclaration" propertyString="accept#(Ljetbrains/mps/graphLayout/graph/Node;)Z" fileName="OrthogonalLayouter.java" startLine="68" startPosition="83" endLine="72" endPosition="0" />
     <nodeInfo nodeId="5213231752900665586" conceptFqName="jetbrains.mps.baseLanguage.structure.ForeachStatement" fileName="OrthogonalLayouter.java" startLine="45" startPosition="5" endLine="50" endPosition="5" />
     <nodeInfo nodeId="4624841703139842800" conceptFqName="jetbrains.mps.baseLanguage.structure.CommentedStatementsBlock" fileName="OrthogonalLayouter.java" startLine="50" startPosition="5" endLine="55" endPosition="6" />
     <nodeInfo nodeId="6074874003310509218" conceptFqName="jetbrains.mps.baseLanguage.structure.ExpressionStatement" fileName="OrthogonalLayouter.java" startLine="67" startPosition="5" endLine="72" endPosition="24" />
-    <nodeInfo nodeId="5213231752900665640" conceptFqName="jetbrains.mps.baseLanguage.structure.InstanceMethodDeclaration" fileName="OrthogonalLayouter.java" startLine="58" startPosition="0" endLine="79" endPosition="0" />
-    <nodeInfo nodeId="5213231752900665245" conceptFqName="jetbrains.mps.baseLanguage.structure.InstanceMethodDeclaration" fileName="OrthogonalLayouter.java" startLine="30" startPosition="0" endLine="58" endPosition="0" />
+    <nodeInfo nodeId="5213231752900665640" conceptFqName="jetbrains.mps.baseLanguage.structure.InstanceMethodDeclaration" propertyString="findSTLayout#(Ljetbrains/mps/graphLayout/graph/Graph;)Ljetbrains/mps/graphLayout/graphLayout/GraphPointLayout;" fileName="OrthogonalLayouter.java" startLine="58" startPosition="0" endLine="79" endPosition="0" />
+    <nodeInfo nodeId="5213231752900665245" conceptFqName="jetbrains.mps.baseLanguage.structure.InstanceMethodDeclaration" propertyString="doLayout#(Ljetbrains/mps/graphLayout/graph/Graph;)Ljetbrains/mps/graphLayout/graphLayout/GraphPointLayout;" fileName="OrthogonalLayouter.java" startLine="30" startPosition="0" endLine="58" endPosition="0" />
     <scopeInfo nodeId="5213231752900665244" fileName="OrthogonalLayouter.java" startLine="28" startPosition="31" endLine="28" endPosition="31" />
     <scopeInfo nodeId="5213231752900665496" fileName="OrthogonalLayouter.java" startLine="34" startPosition="63" endLine="35" endPosition="87" />
     <scopeInfo nodeId="5213231752900665518" fileName="OrthogonalLayouter.java" startLine="39" startPosition="45" endLine="40" endPosition="63" />
     <scopeInfo nodeId="5213231752900665632" fileName="OrthogonalLayouter.java" startLine="52" startPosition="63" endLine="53" endPosition="28" />
     <scopeInfo nodeId="6074874003310509189" fileName="OrthogonalLayouter.java" startLine="65" startPosition="86" endLine="66" endPosition="69" />
     <scopeInfo nodeId="6074874003310509230" fileName="OrthogonalLayouter.java" startLine="69" startPosition="38" endLine="70" endPosition="40" />
-    <scopeInfo nodeId="5213231752900665241" fileName="OrthogonalLayouter.java" startLine="27" startPosition="59" endLine="29" endPosition="3" />
+    <scopeInfo nodeId="5213231752900665241" conceptFqName="jetbrains.mps.baseLanguage.structure.ConstructorDeclaration" propertyString="OrthogonalLayouter#()V" fileName="OrthogonalLayouter.java" startLine="27" startPosition="59" endLine="29" endPosition="3" />
     <scopeInfo nodeId="5213231752900665434" fileName="OrthogonalLayouter.java" startLine="42" startPosition="63" endLine="44" endPosition="69">
       <varInfo nodeId="5213231752900665553" varName="subgraph" />
     </scopeInfo>
-    <scopeInfo nodeId="5213231752900665493" fileName="OrthogonalLayouter.java" startLine="33" startPosition="25" endLine="36" endPosition="5" />
-    <scopeInfo nodeId="5213231752900665517" fileName="OrthogonalLayouter.java" startLine="38" startPosition="74" endLine="41" endPosition="5">
+    <scopeInfo nodeId="5213231752900665493" conceptFqName="jetbrains.mps.baseLanguage.structure.ForeachStatement" fileName="OrthogonalLayouter.java" startLine="33" startPosition="25" endLine="36" endPosition="5" />
+    <scopeInfo nodeId="5213231752900665517" conceptFqName="jetbrains.mps.baseLanguage.structure.ForStatement" fileName="OrthogonalLayouter.java" startLine="38" startPosition="74" endLine="41" endPosition="5">
       <varInfo nodeId="5213231752900665520" varName="i" />
     </scopeInfo>
     <scopeInfo nodeId="5213231752900665589" fileName="OrthogonalLayouter.java" startLine="46" startPosition="63" endLine="49" endPosition="84">
       <varInfo nodeId="1763712338172397423" varName="subgraph" />
       <varInfo nodeId="1763712338172397394" varName="source" />
     </scopeInfo>
-    <scopeInfo nodeId="5213231752900665629" fileName="OrthogonalLayouter.java" startLine="51" startPosition="6" endLine="54" endPosition="7" />
-    <scopeInfo nodeId="6074874003310509182" fileName="OrthogonalLayouter.java" startLine="64" startPosition="73" endLine="67" endPosition="5" />
-    <scopeInfo nodeId="5213231752900665431" fileName="OrthogonalLayouter.java" startLine="41" startPosition="5" endLine="45" endPosition="5" />
-    <scopeInfo nodeId="6074874003310509229" fileName="OrthogonalLayouter.java" startLine="68" startPosition="83" endLine="72" endPosition="0" />
-    <scopeInfo nodeId="5213231752900665586" fileName="OrthogonalLayouter.java" startLine="45" startPosition="5" endLine="50" endPosition="5" />
+    <scopeInfo nodeId="5213231752900665629" conceptFqName="jetbrains.mps.baseLanguage.structure.ForeachStatement" fileName="OrthogonalLayouter.java" startLine="51" startPosition="6" endLine="54" endPosition="7" />
+    <scopeInfo nodeId="6074874003310509182" conceptFqName="jetbrains.mps.baseLanguage.structure.ForeachStatement" fileName="OrthogonalLayouter.java" startLine="64" startPosition="73" endLine="67" endPosition="5" />
+    <scopeInfo nodeId="5213231752900665431" conceptFqName="jetbrains.mps.baseLanguage.structure.ForeachStatement" fileName="OrthogonalLayouter.java" startLine="41" startPosition="5" endLine="45" endPosition="5" />
+    <scopeInfo nodeId="6074874003310509229" conceptFqName="jetbrains.mps.baseLanguage.structure.InstanceMethodDeclaration" propertyString="accept#(Ljetbrains/mps/graphLayout/graph/Node;)Z" fileName="OrthogonalLayouter.java" startLine="68" startPosition="83" endLine="72" endPosition="0" />
+    <scopeInfo nodeId="5213231752900665586" conceptFqName="jetbrains.mps.baseLanguage.structure.ForeachStatement" fileName="OrthogonalLayouter.java" startLine="45" startPosition="5" endLine="50" endPosition="5" />
     <scopeInfo nodeId="5213231752900665643" fileName="OrthogonalLayouter.java" startLine="59" startPosition="53" endLine="77" endPosition="66">
       <varInfo nodeId="4624841703139842383" varName="embeddingFinder" />
       <varInfo nodeId="6074874003310509205" varName="t" />
@@ -149,7 +149,7 @@
       <varInfo nodeId="903391227141007422" varName="maxIndex" />
       <varInfo nodeId="6074874003310509176" varName="outerNodes" />
     </scopeInfo>
-    <scopeInfo nodeId="5213231752900665640" fileName="OrthogonalLayouter.java" startLine="58" startPosition="0" endLine="79" endPosition="0">
+    <scopeInfo nodeId="5213231752900665640" conceptFqName="jetbrains.mps.baseLanguage.structure.InstanceMethodDeclaration" propertyString="findSTLayout#(Ljetbrains/mps/graphLayout/graph/Graph;)Ljetbrains/mps/graphLayout/graphLayout/GraphPointLayout;" fileName="OrthogonalLayouter.java" startLine="58" startPosition="0" endLine="79" endPosition="0">
       <varInfo nodeId="5213231752900665644" varName="graph" />
     </scopeInfo>
     <scopeInfo nodeId="5213231752900665248" fileName="OrthogonalLayouter.java" startLine="31" startPosition="49" endLine="56" endPosition="72">
@@ -158,14 +158,14 @@
       <varInfo nodeId="5213231752900665443" varName="newNodes" />
       <varInfo nodeId="5213231752900665252" varName="components" />
     </scopeInfo>
-    <scopeInfo nodeId="5213231752900665245" fileName="OrthogonalLayouter.java" startLine="30" startPosition="0" endLine="58" endPosition="0">
+    <scopeInfo nodeId="5213231752900665245" conceptFqName="jetbrains.mps.baseLanguage.structure.InstanceMethodDeclaration" propertyString="doLayout#(Ljetbrains/mps/graphLayout/graph/Graph;)Ljetbrains/mps/graphLayout/graphLayout/GraphPointLayout;" fileName="OrthogonalLayouter.java" startLine="30" startPosition="0" endLine="58" endPosition="0">
       <varInfo nodeId="5213231752900665249" varName="graph" />
     </scopeInfo>
     <unitInfo nodeId="6074874003310509229" fileName="OrthogonalLayouter.java" startLine="68" startPosition="61" endLine="72" endPosition="5" unitName="jetbrains.mps.graphLayout.stOrthogonalLayout.OrthogonalLayouter$1" />
     <unitInfo nodeId="5213231752900665239" fileName="OrthogonalLayouter.java" startLine="27" startPosition="0" endLine="80" endPosition="0" unitName="jetbrains.mps.graphLayout.stOrthogonalLayout.OrthogonalLayouter" />
   </root>
   <root nodeId="6494745554568982379">
-    <nodeInfo nodeId="6494745554568987856" conceptFqName="jetbrains.mps.baseLanguage.structure.FieldDeclaration" fileName="LayoutOptimizer.java" startLine="20" startPosition="30" endLine="21" endPosition="31" />
+    <nodeInfo nodeId="6494745554568987856" conceptFqName="jetbrains.mps.baseLanguage.structure.FieldDeclaration" propertyString="myLayout" fileName="LayoutOptimizer.java" startLine="20" startPosition="30" endLine="21" endPosition="31" />
     <nodeInfo nodeId="6494745554568987860" conceptFqName="jetbrains.mps.baseLanguage.structure.ExpressionStatement" fileName="LayoutOptimizer.java" startLine="23" startPosition="47" endLine="24" endPosition="22" />
     <nodeInfo nodeId="6494745554568987902" conceptFqName="jetbrains.mps.baseLanguage.structure.LocalVariableDeclarationStatement" fileName="LayoutOptimizer.java" startLine="27" startPosition="27" endLine="28" endPosition="33" />
     <nodeInfo nodeId="5639900666367102561" conceptFqName="jetbrains.mps.baseLanguage.structure.ExpressionStatement" fileName="LayoutOptimizer.java" startLine="29" startPosition="27" endLine="30" endPosition="28" />
@@ -222,7 +222,7 @@
     <nodeInfo nodeId="6494745554568988184" conceptFqName="jetbrains.mps.baseLanguage.structure.ExpressionStatement" fileName="LayoutOptimizer.java" startLine="146" startPosition="56" endLine="147" endPosition="43" />
     <nodeInfo nodeId="5639900666367221448" conceptFqName="jetbrains.mps.baseLanguage.structure.BlockStatement" fileName="LayoutOptimizer.java" startLine="61" startPosition="10" endLine="63" endPosition="5" />
     <nodeInfo nodeId="5639900666367221685" conceptFqName="jetbrains.mps.baseLanguage.structure.BlockStatement" fileName="LayoutOptimizer.java" startLine="93" startPosition="10" endLine="95" endPosition="5" />
-    <nodeInfo nodeId="6494745554568987850" conceptFqName="jetbrains.mps.baseLanguage.structure.ConstructorDeclaration" fileName="LayoutOptimizer.java" startLine="22" startPosition="0" endLine="25" endPosition="3" />
+    <nodeInfo nodeId="6494745554568987850" conceptFqName="jetbrains.mps.baseLanguage.structure.ConstructorDeclaration" propertyString="LayoutOptimizer#(Ljetbrains/mps/graphLayout/graphLayout/GraphLayout;)V" fileName="LayoutOptimizer.java" startLine="22" startPosition="0" endLine="25" endPosition="3" />
     <nodeInfo nodeId="5639900666367221587" conceptFqName="jetbrains.mps.baseLanguage.structure.IfStatement" fileName="LayoutOptimizer.java" startLine="64" startPosition="16" endLine="67" endPosition="7" />
     <nodeInfo nodeId="5639900666367221788" conceptFqName="jetbrains.mps.baseLanguage.structure.IfStatement" fileName="LayoutOptimizer.java" startLine="67" startPosition="7" endLine="70" endPosition="7" />
     <nodeInfo nodeId="5639900666367283966" conceptFqName="jetbrains.mps.baseLanguage.structure.IfStatement" fileName="LayoutOptimizer.java" startLine="75" startPosition="25" endLine="78" endPosition="9" />
@@ -235,7 +235,7 @@
     <nodeInfo nodeId="6494745554568988534" conceptFqName="jetbrains.mps.baseLanguage.structure.IfStatement" fileName="LayoutOptimizer.java" startLine="121" startPosition="51" endLine="124" endPosition="9" />
     <nodeInfo nodeId="8680836410351713711" conceptFqName="jetbrains.mps.baseLanguage.structure.IfStatement" fileName="LayoutOptimizer.java" startLine="127" startPosition="112" endLine="130" endPosition="7" />
     <nodeInfo nodeId="5639900666367284010" conceptFqName="jetbrains.mps.baseLanguage.structure.BlockStatement" fileName="LayoutOptimizer.java" startLine="79" startPosition="12" endLine="83" endPosition="7" />
-    <nodeInfo nodeId="6494745554568982389" conceptFqName="jetbrains.mps.baseLanguage.structure.StaticMethodDeclaration" fileName="LayoutOptimizer.java" startLine="145" startPosition="0" endLine="149" endPosition="0" />
+    <nodeInfo nodeId="6494745554568982389" conceptFqName="jetbrains.mps.baseLanguage.structure.StaticMethodDeclaration" propertyString="optimizeEdges#(Ljetbrains/mps/graphLayout/graphLayout/GraphLayout;)V" fileName="LayoutOptimizer.java" startLine="145" startPosition="0" endLine="149" endPosition="0" />
     <nodeInfo nodeId="5639900666367221321" conceptFqName="jetbrains.mps.baseLanguage.structure.IfStatement" fileName="LayoutOptimizer.java" startLine="58" startPosition="18" endLine="63" endPosition="5" />
     <nodeInfo nodeId="5639900666367221641" conceptFqName="jetbrains.mps.baseLanguage.structure.IfStatement" fileName="LayoutOptimizer.java" startLine="90" startPosition="51" endLine="95" endPosition="5" />
     <nodeInfo nodeId="6494745554568988529" conceptFqName="jetbrains.mps.baseLanguage.structure.ForeachStatement" fileName="LayoutOptimizer.java" startLine="120" startPosition="108" endLine="125" endPosition="7" />
@@ -244,17 +244,17 @@
     <nodeInfo nodeId="6494745554568988514" conceptFqName="jetbrains.mps.baseLanguage.structure.ForeachStatement" fileName="LayoutOptimizer.java" startLine="119" startPosition="5" endLine="126" endPosition="5" />
     <nodeInfo nodeId="5639900666367102568" conceptFqName="jetbrains.mps.baseLanguage.structure.IfStatement" fileName="LayoutOptimizer.java" startLine="41" startPosition="57" endLine="50" endPosition="11" />
     <nodeInfo nodeId="5639900666367283961" conceptFqName="jetbrains.mps.baseLanguage.structure.IfStatement" fileName="LayoutOptimizer.java" startLine="74" startPosition="90" endLine="83" endPosition="7" />
-    <nodeInfo nodeId="6494745554568988305" conceptFqName="jetbrains.mps.baseLanguage.structure.InstanceMethodDeclaration" fileName="LayoutOptimizer.java" startLine="134" startPosition="0" endLine="145" endPosition="0" />
-    <nodeInfo nodeId="5639900666367221606" conceptFqName="jetbrains.mps.baseLanguage.structure.InstanceMethodDeclaration" fileName="LayoutOptimizer.java" startLine="87" startPosition="0" endLine="99" endPosition="0" />
+    <nodeInfo nodeId="6494745554568988305" conceptFqName="jetbrains.mps.baseLanguage.structure.InstanceMethodDeclaration" propertyString="isInsideAndNotACorner#(IILjetbrains/mps/graphLayout/intGeom2D/Rectangle;)Z" fileName="LayoutOptimizer.java" startLine="134" startPosition="0" endLine="145" endPosition="0" />
+    <nodeInfo nodeId="5639900666367221606" conceptFqName="jetbrains.mps.baseLanguage.structure.InstanceMethodDeclaration" propertyString="getChain#(Ljetbrains/mps/graphLayout/intGeom2D/Point;Ljetbrains/mps/graphLayout/intGeom2D/Point;Ljetbrains/mps/graphLayout/intGeom2D/Point;)Ljava/util/List;" fileName="LayoutOptimizer.java" startLine="87" startPosition="0" endLine="99" endPosition="0" />
     <nodeInfo nodeId="5639900666367283885" conceptFqName="jetbrains.mps.baseLanguage.structure.BlockStatement" fileName="LayoutOptimizer.java" startLine="71" startPosition="10" endLine="84" endPosition="5" />
     <nodeInfo nodeId="6494745554568988219" conceptFqName="jetbrains.mps.baseLanguage.structure.ForStatement" fileName="LayoutOptimizer.java" startLine="34" startPosition="56" endLine="51" endPosition="9" />
     <nodeInfo nodeId="5639900666367306617" conceptFqName="jetbrains.mps.baseLanguage.structure.ForeachStatement" fileName="LayoutOptimizer.java" startLine="100" startPosition="55" endLine="119" endPosition="5" />
     <nodeInfo nodeId="6494745554568987909" conceptFqName="jetbrains.mps.baseLanguage.structure.ForeachStatement" fileName="LayoutOptimizer.java" startLine="31" startPosition="34" endLine="52" endPosition="7" />
     <nodeInfo nodeId="5639900666367221473" conceptFqName="jetbrains.mps.baseLanguage.structure.IfStatement" fileName="LayoutOptimizer.java" startLine="63" startPosition="5" endLine="84" endPosition="5" />
     <nodeInfo nodeId="6494745554568987906" conceptFqName="jetbrains.mps.baseLanguage.structure.WhileStatement" fileName="LayoutOptimizer.java" startLine="28" startPosition="33" endLine="53" endPosition="5" />
-    <nodeInfo nodeId="6494745554568987894" conceptFqName="jetbrains.mps.baseLanguage.structure.InstanceMethodDeclaration" fileName="LayoutOptimizer.java" startLine="26" startPosition="0" endLine="55" endPosition="0" />
-    <nodeInfo nodeId="5639900666367221279" conceptFqName="jetbrains.mps.baseLanguage.structure.InstanceMethodDeclaration" fileName="LayoutOptimizer.java" startLine="55" startPosition="0" endLine="87" endPosition="0" />
-    <nodeInfo nodeId="6494745554568988275" conceptFqName="jetbrains.mps.baseLanguage.structure.InstanceMethodDeclaration" fileName="LayoutOptimizer.java" startLine="99" startPosition="0" endLine="134" endPosition="0" />
+    <nodeInfo nodeId="6494745554568987894" conceptFqName="jetbrains.mps.baseLanguage.structure.InstanceMethodDeclaration" propertyString="optimize#()V" fileName="LayoutOptimizer.java" startLine="26" startPosition="0" endLine="55" endPosition="0" />
+    <nodeInfo nodeId="5639900666367221279" conceptFqName="jetbrains.mps.baseLanguage.structure.InstanceMethodDeclaration" propertyString="tryChain#(Ljava/util/List;Ljetbrains/mps/graphLayout/graph/Edge;)Ljava/util/List;" fileName="LayoutOptimizer.java" startLine="55" startPosition="0" endLine="87" endPosition="0" />
+    <nodeInfo nodeId="6494745554568988275" conceptFqName="jetbrains.mps.baseLanguage.structure.InstanceMethodDeclaration" propertyString="testRect#(Ljetbrains/mps/graphLayout/intGeom2D/Rectangle;Ljetbrains/mps/graphLayout/graph/Edge;)Z" fileName="LayoutOptimizer.java" startLine="99" startPosition="0" endLine="134" endPosition="0" />
     <scopeInfo nodeId="6494745554568987853" fileName="LayoutOptimizer.java" startLine="23" startPosition="47" endLine="24" endPosition="22" />
     <scopeInfo nodeId="5639900666367221322" fileName="LayoutOptimizer.java" startLine="59" startPosition="17" endLine="60" endPosition="179" />
     <scopeInfo nodeId="5639900666367221449" fileName="LayoutOptimizer.java" startLine="61" startPosition="12" endLine="62" endPosition="179" />
@@ -272,7 +272,7 @@
     <scopeInfo nodeId="6494745554568988536" fileName="LayoutOptimizer.java" startLine="122" startPosition="52" endLine="123" endPosition="23" />
     <scopeInfo nodeId="8680836410351713713" fileName="LayoutOptimizer.java" startLine="128" startPosition="203" endLine="129" endPosition="21" />
     <scopeInfo nodeId="6494745554568982392" fileName="LayoutOptimizer.java" startLine="146" startPosition="56" endLine="147" endPosition="43" />
-    <scopeInfo nodeId="6494745554568987850" fileName="LayoutOptimizer.java" startLine="22" startPosition="0" endLine="25" endPosition="3">
+    <scopeInfo nodeId="6494745554568987850" conceptFqName="jetbrains.mps.baseLanguage.structure.ConstructorDeclaration" propertyString="LayoutOptimizer#(Ljetbrains/mps/graphLayout/graphLayout/GraphLayout;)V" fileName="LayoutOptimizer.java" startLine="22" startPosition="0" endLine="25" endPosition="3">
       <varInfo nodeId="6494745554568987854" varName="layout" />
     </scopeInfo>
     <scopeInfo nodeId="5639900666367283962" fileName="LayoutOptimizer.java" startLine="75" startPosition="25" endLine="78" endPosition="9" />
@@ -283,17 +283,17 @@
       <varInfo nodeId="5639900666367292208" varName="notX" />
       <varInfo nodeId="5639900666367292245" varName="notY" />
     </scopeInfo>
-    <scopeInfo nodeId="6494745554568982389" fileName="LayoutOptimizer.java" startLine="145" startPosition="0" endLine="149" endPosition="0">
+    <scopeInfo nodeId="6494745554568982389" conceptFqName="jetbrains.mps.baseLanguage.structure.StaticMethodDeclaration" propertyString="optimizeEdges#(Ljetbrains/mps/graphLayout/graphLayout/GraphLayout;)V" fileName="LayoutOptimizer.java" startLine="145" startPosition="0" endLine="149" endPosition="0">
       <varInfo nodeId="6494745554568982393" varName="layout" />
     </scopeInfo>
     <scopeInfo nodeId="6494745554568988517" fileName="LayoutOptimizer.java" startLine="120" startPosition="108" endLine="125" endPosition="7" />
-    <scopeInfo nodeId="6494745554568988529" fileName="LayoutOptimizer.java" startLine="120" startPosition="108" endLine="125" endPosition="7" />
-    <scopeInfo nodeId="8680836410351713653" fileName="LayoutOptimizer.java" startLine="126" startPosition="5" endLine="131" endPosition="5" />
+    <scopeInfo nodeId="6494745554568988529" conceptFqName="jetbrains.mps.baseLanguage.structure.ForeachStatement" fileName="LayoutOptimizer.java" startLine="120" startPosition="108" endLine="125" endPosition="7" />
+    <scopeInfo nodeId="8680836410351713653" conceptFqName="jetbrains.mps.baseLanguage.structure.ForeachStatement" fileName="LayoutOptimizer.java" startLine="126" startPosition="5" endLine="131" endPosition="5" />
     <scopeInfo nodeId="5639900666367221474" fileName="LayoutOptimizer.java" startLine="64" startPosition="16" endLine="70" endPosition="7" />
     <scopeInfo nodeId="5639900666367102569" fileName="LayoutOptimizer.java" startLine="42" startPosition="33" endLine="49" endPosition="18">
       <varInfo nodeId="5639900666367102586" varName="temp" />
     </scopeInfo>
-    <scopeInfo nodeId="6494745554568988514" fileName="LayoutOptimizer.java" startLine="119" startPosition="5" endLine="126" endPosition="5" />
+    <scopeInfo nodeId="6494745554568988514" conceptFqName="jetbrains.mps.baseLanguage.structure.ForeachStatement" fileName="LayoutOptimizer.java" startLine="119" startPosition="5" endLine="126" endPosition="5" />
     <scopeInfo nodeId="6494745554568988308" fileName="LayoutOptimizer.java" startLine="135" startPosition="71" endLine="143" endPosition="17">
       <varInfo nodeId="5639900666367292082" varName="insideX" />
       <varInfo nodeId="5639900666367292170" varName="insideY" />
@@ -301,7 +301,7 @@
     <scopeInfo nodeId="5639900666367221609" fileName="LayoutOptimizer.java" startLine="88" startPosition="66" endLine="97" endPosition="17">
       <varInfo nodeId="5639900666367221622" varName="chain" />
     </scopeInfo>
-    <scopeInfo nodeId="6494745554568988305" fileName="LayoutOptimizer.java" startLine="134" startPosition="0" endLine="145" endPosition="0">
+    <scopeInfo nodeId="6494745554568988305" conceptFqName="jetbrains.mps.baseLanguage.structure.InstanceMethodDeclaration" propertyString="isInsideAndNotACorner#(IILjetbrains/mps/graphLayout/intGeom2D/Rectangle;)Z" fileName="LayoutOptimizer.java" startLine="134" startPosition="0" endLine="145" endPosition="0">
       <varInfo nodeId="6494745554568988314" varName="rect" />
       <varInfo nodeId="6494745554568988392" varName="y" />
       <varInfo nodeId="6494745554568988312" varName="x" />
@@ -311,7 +311,7 @@
       <varInfo nodeId="5639900666367283924" varName="firstSmaller" />
       <varInfo nodeId="5639900666367283890" varName="first" />
     </scopeInfo>
-    <scopeInfo nodeId="5639900666367221606" fileName="LayoutOptimizer.java" startLine="87" startPosition="0" endLine="99" endPosition="0">
+    <scopeInfo nodeId="5639900666367221606" conceptFqName="jetbrains.mps.baseLanguage.structure.InstanceMethodDeclaration" propertyString="getChain#(Ljetbrains/mps/graphLayout/intGeom2D/Point;Ljetbrains/mps/graphLayout/intGeom2D/Point;Ljetbrains/mps/graphLayout/intGeom2D/Point;)Ljava/util/List;" fileName="LayoutOptimizer.java" startLine="87" startPosition="0" endLine="99" endPosition="0">
       <varInfo nodeId="5639900666367221615" varName="mid" />
       <varInfo nodeId="5639900666367221618" varName="end" />
       <varInfo nodeId="5639900666367221613" varName="begin" />
@@ -320,7 +320,7 @@
       <varInfo nodeId="6494745554568988225" varName="chain" />
       <varInfo nodeId="5639900666367221825" varName="newChain" />
     </scopeInfo>
-    <scopeInfo nodeId="6494745554568988219" fileName="LayoutOptimizer.java" startLine="34" startPosition="56" endLine="51" endPosition="9">
+    <scopeInfo nodeId="6494745554568988219" conceptFqName="jetbrains.mps.baseLanguage.structure.ForStatement" fileName="LayoutOptimizer.java" startLine="34" startPosition="56" endLine="51" endPosition="9">
       <varInfo nodeId="6494745554568988220" varName="i" />
     </scopeInfo>
     <scopeInfo nodeId="5639900666367306620" fileName="LayoutOptimizer.java" startLine="101" startPosition="100" endLine="118" endPosition="7">
@@ -331,23 +331,23 @@
       <varInfo nodeId="2913448412765282845" varName="myEdge" />
       <varInfo nodeId="6494745554568988206" varName="path" />
     </scopeInfo>
-    <scopeInfo nodeId="5639900666367306617" fileName="LayoutOptimizer.java" startLine="100" startPosition="55" endLine="119" endPosition="5" />
-    <scopeInfo nodeId="6494745554568987909" fileName="LayoutOptimizer.java" startLine="31" startPosition="34" endLine="52" endPosition="7" />
+    <scopeInfo nodeId="5639900666367306617" conceptFqName="jetbrains.mps.baseLanguage.structure.ForeachStatement" fileName="LayoutOptimizer.java" startLine="100" startPosition="55" endLine="119" endPosition="5" />
+    <scopeInfo nodeId="6494745554568987909" conceptFqName="jetbrains.mps.baseLanguage.structure.ForeachStatement" fileName="LayoutOptimizer.java" startLine="31" startPosition="34" endLine="52" endPosition="7" />
     <scopeInfo nodeId="6494745554568987908" fileName="LayoutOptimizer.java" startLine="29" startPosition="27" endLine="52" endPosition="7" />
     <scopeInfo nodeId="6494745554568987897" fileName="LayoutOptimizer.java" startLine="27" startPosition="27" endLine="53" endPosition="5">
       <varInfo nodeId="6494745554568987903" varName="foundOptimize" />
     </scopeInfo>
-    <scopeInfo nodeId="6494745554568987894" fileName="LayoutOptimizer.java" startLine="26" startPosition="0" endLine="55" endPosition="0" />
+    <scopeInfo nodeId="6494745554568987894" conceptFqName="jetbrains.mps.baseLanguage.structure.InstanceMethodDeclaration" propertyString="optimize#()V" fileName="LayoutOptimizer.java" startLine="26" startPosition="0" endLine="55" endPosition="0" />
     <scopeInfo nodeId="5639900666367221282" fileName="LayoutOptimizer.java" startLine="56" startPosition="62" endLine="85" endPosition="16">
       <varInfo nodeId="5639900666367221289" varName="verMid" />
       <varInfo nodeId="5639900666367221318" varName="zLike" />
     </scopeInfo>
-    <scopeInfo nodeId="5639900666367221279" fileName="LayoutOptimizer.java" startLine="55" startPosition="0" endLine="87" endPosition="0">
+    <scopeInfo nodeId="5639900666367221279" conceptFqName="jetbrains.mps.baseLanguage.structure.InstanceMethodDeclaration" propertyString="tryChain#(Ljava/util/List;Ljetbrains/mps/graphLayout/graph/Edge;)Ljava/util/List;" fileName="LayoutOptimizer.java" startLine="55" startPosition="0" endLine="87" endPosition="0">
       <varInfo nodeId="5639900666367306602" varName="edge" />
       <varInfo nodeId="5639900666367221284" varName="chain" />
     </scopeInfo>
     <scopeInfo nodeId="6494745554568988278" fileName="LayoutOptimizer.java" startLine="100" startPosition="55" endLine="132" endPosition="16" />
-    <scopeInfo nodeId="6494745554568988275" fileName="LayoutOptimizer.java" startLine="99" startPosition="0" endLine="134" endPosition="0">
+    <scopeInfo nodeId="6494745554568988275" conceptFqName="jetbrains.mps.baseLanguage.structure.InstanceMethodDeclaration" propertyString="testRect#(Ljetbrains/mps/graphLayout/intGeom2D/Rectangle;Ljetbrains/mps/graphLayout/graph/Edge;)Z" fileName="LayoutOptimizer.java" startLine="99" startPosition="0" endLine="134" endPosition="0">
       <varInfo nodeId="5639900666367306605" varName="edge" />
       <varInfo nodeId="6494745554568988283" varName="rect" />
     </scopeInfo>
@@ -382,22 +382,22 @@
     <nodeInfo nodeId="3619822174190283628" conceptFqName="jetbrains.mps.baseLanguage.structure.IfStatement" fileName="VisibilityRepresentation.java" startLine="40" startPosition="132" endLine="43" endPosition="7" />
     <nodeInfo nodeId="3619822174190283538" conceptFqName="jetbrains.mps.baseLanguage.structure.ForeachStatement" fileName="VisibilityRepresentation.java" startLine="45" startPosition="5" endLine="51" endPosition="5" />
     <nodeInfo nodeId="3619822174190283435" conceptFqName="jetbrains.mps.baseLanguage.structure.ForeachStatement" fileName="VisibilityRepresentation.java" startLine="36" startPosition="56" endLine="45" endPosition="5" />
-    <nodeInfo nodeId="6984255766319277706" conceptFqName="jetbrains.mps.baseLanguage.structure.StaticMethodDeclaration" fileName="VisibilityRepresentation.java" startLine="19" startPosition="39" endLine="54" endPosition="0" />
+    <nodeInfo nodeId="6984255766319277706" conceptFqName="jetbrains.mps.baseLanguage.structure.StaticMethodDeclaration" propertyString="getVisibilityRepresentation#(Ljetbrains/mps/graphLayout/planarGraph/STPlanarGraph;)Ljava/util/Map;" fileName="VisibilityRepresentation.java" startLine="19" startPosition="39" endLine="54" endPosition="0" />
     <scopeInfo nodeId="3619822174190283789" fileName="VisibilityRepresentation.java" startLine="32" startPosition="71" endLine="33" endPosition="134" />
     <scopeInfo nodeId="3619822174190283629" fileName="VisibilityRepresentation.java" startLine="41" startPosition="58" endLine="42" endPosition="72" />
-    <scopeInfo nodeId="3619822174190283786" fileName="VisibilityRepresentation.java" startLine="31" startPosition="39" endLine="34" endPosition="5" />
+    <scopeInfo nodeId="3619822174190283786" conceptFqName="jetbrains.mps.baseLanguage.structure.ForeachStatement" fileName="VisibilityRepresentation.java" startLine="31" startPosition="39" endLine="34" endPosition="5" />
     <scopeInfo nodeId="3619822174190283541" fileName="VisibilityRepresentation.java" startLine="46" startPosition="63" endLine="50" endPosition="92">
       <varInfo nodeId="3619822174190283595" varName="yRight" />
       <varInfo nodeId="3619822174190283578" varName="yLeft" />
       <varInfo nodeId="3619822174190283558" varName="x" />
     </scopeInfo>
-    <scopeInfo nodeId="3619822174190283538" fileName="VisibilityRepresentation.java" startLine="45" startPosition="5" endLine="51" endPosition="5" />
+    <scopeInfo nodeId="3619822174190283538" conceptFqName="jetbrains.mps.baseLanguage.structure.ForeachStatement" fileName="VisibilityRepresentation.java" startLine="45" startPosition="5" endLine="51" endPosition="5" />
     <scopeInfo nodeId="3619822174190283438" fileName="VisibilityRepresentation.java" startLine="37" startPosition="63" endLine="44" endPosition="92">
       <varInfo nodeId="3619822174190283461" varName="xLeft" />
       <varInfo nodeId="3619822174190283481" varName="xRight" />
       <varInfo nodeId="3619822174190283451" varName="y" />
     </scopeInfo>
-    <scopeInfo nodeId="3619822174190283435" fileName="VisibilityRepresentation.java" startLine="36" startPosition="56" endLine="45" endPosition="5" />
+    <scopeInfo nodeId="3619822174190283435" conceptFqName="jetbrains.mps.baseLanguage.structure.ForeachStatement" fileName="VisibilityRepresentation.java" startLine="36" startPosition="56" endLine="45" endPosition="5" />
     <scopeInfo nodeId="6984255766319277709" fileName="VisibilityRepresentation.java" startLine="20" startPosition="97" endLine="52" endPosition="22">
       <varInfo nodeId="6984255766319281790" varName="graph" />
       <varInfo nodeId="6984255766319277781" varName="dualTarget" />
@@ -410,24 +410,24 @@
       <varInfo nodeId="6984255766319277734" varName="dualSource" />
       <varInfo nodeId="6984255766319281903" varName="faceNodes" />
     </scopeInfo>
-    <scopeInfo nodeId="6984255766319277706" fileName="VisibilityRepresentation.java" startLine="19" startPosition="39" endLine="54" endPosition="0">
+    <scopeInfo nodeId="6984255766319277706" conceptFqName="jetbrains.mps.baseLanguage.structure.StaticMethodDeclaration" propertyString="getVisibilityRepresentation#(Ljetbrains/mps/graphLayout/planarGraph/STPlanarGraph;)Ljava/util/Map;" fileName="VisibilityRepresentation.java" startLine="19" startPosition="39" endLine="54" endPosition="0">
       <varInfo nodeId="6984255766319277711" varName="stPlanarGraph" />
     </scopeInfo>
     <unitInfo nodeId="6984255766319277285" fileName="VisibilityRepresentation.java" startLine="19" startPosition="0" endLine="55" endPosition="0" unitName="jetbrains.mps.graphLayout.stOrthogonalLayout.VisibilityRepresentation" />
   </root>
   <root nodeId="903391227141024519">
-    <nodeInfo nodeId="903391227141027242" conceptFqName="jetbrains.mps.baseLanguage.structure.FieldDeclaration" fileName="ConstraintsSupporter.java" startLine="20" startPosition="35" endLine="21" endPosition="40" />
-    <nodeInfo nodeId="903391227141027246" conceptFqName="jetbrains.mps.baseLanguage.structure.FieldDeclaration" fileName="ConstraintsSupporter.java" startLine="21" startPosition="40" endLine="22" endPosition="32" />
-    <nodeInfo nodeId="903391227141027250" conceptFqName="jetbrains.mps.baseLanguage.structure.FieldDeclaration" fileName="ConstraintsSupporter.java" startLine="22" startPosition="32" endLine="23" endPosition="40" />
-    <nodeInfo nodeId="903391227141025682" conceptFqName="jetbrains.mps.baseLanguage.structure.FieldDeclaration" fileName="ConstraintsSupporter.java" startLine="23" startPosition="40" endLine="24" endPosition="35" />
-    <nodeInfo nodeId="903391227141025698" conceptFqName="jetbrains.mps.baseLanguage.structure.FieldDeclaration" fileName="ConstraintsSupporter.java" startLine="24" startPosition="35" endLine="25" endPosition="36" />
-    <nodeInfo nodeId="903391227141025706" conceptFqName="jetbrains.mps.baseLanguage.structure.FieldDeclaration" fileName="ConstraintsSupporter.java" startLine="25" startPosition="36" endLine="26" endPosition="38" />
-    <nodeInfo nodeId="903391227141025712" conceptFqName="jetbrains.mps.baseLanguage.structure.FieldDeclaration" fileName="ConstraintsSupporter.java" startLine="26" startPosition="38" endLine="27" endPosition="42" />
-    <nodeInfo nodeId="903391227141025718" conceptFqName="jetbrains.mps.baseLanguage.structure.FieldDeclaration" fileName="ConstraintsSupporter.java" startLine="27" startPosition="42" endLine="28" endPosition="37" />
-    <nodeInfo nodeId="903391227141027095" conceptFqName="jetbrains.mps.baseLanguage.structure.FieldDeclaration" fileName="ConstraintsSupporter.java" startLine="28" startPosition="37" endLine="29" endPosition="44" />
-    <nodeInfo nodeId="903391227141027106" conceptFqName="jetbrains.mps.baseLanguage.structure.FieldDeclaration" fileName="ConstraintsSupporter.java" startLine="29" startPosition="44" endLine="30" endPosition="44" />
-    <nodeInfo nodeId="6494745554568955389" conceptFqName="jetbrains.mps.baseLanguage.structure.FieldDeclaration" fileName="ConstraintsSupporter.java" startLine="30" startPosition="44" endLine="31" endPosition="38" />
-    <nodeInfo nodeId="6494745554568955395" conceptFqName="jetbrains.mps.baseLanguage.structure.FieldDeclaration" fileName="ConstraintsSupporter.java" startLine="31" startPosition="38" endLine="32" endPosition="38" />
+    <nodeInfo nodeId="903391227141027242" conceptFqName="jetbrains.mps.baseLanguage.structure.FieldDeclaration" propertyString="myStPlanarGraph" fileName="ConstraintsSupporter.java" startLine="20" startPosition="35" endLine="21" endPosition="40" />
+    <nodeInfo nodeId="903391227141027246" conceptFqName="jetbrains.mps.baseLanguage.structure.FieldDeclaration" propertyString="myModifiedGraph" fileName="ConstraintsSupporter.java" startLine="21" startPosition="40" endLine="22" endPosition="32" />
+    <nodeInfo nodeId="903391227141027250" conceptFqName="jetbrains.mps.baseLanguage.structure.FieldDeclaration" propertyString="myModifiedDualGraph" fileName="ConstraintsSupporter.java" startLine="22" startPosition="32" endLine="23" endPosition="40" />
+    <nodeInfo nodeId="903391227141025682" conceptFqName="jetbrains.mps.baseLanguage.structure.FieldDeclaration" propertyString="myInNode" fileName="ConstraintsSupporter.java" startLine="23" startPosition="40" endLine="24" endPosition="35" />
+    <nodeInfo nodeId="903391227141025698" conceptFqName="jetbrains.mps.baseLanguage.structure.FieldDeclaration" propertyString="myOutNode" fileName="ConstraintsSupporter.java" startLine="24" startPosition="35" endLine="25" endPosition="36" />
+    <nodeInfo nodeId="903391227141025706" conceptFqName="jetbrains.mps.baseLanguage.structure.FieldDeclaration" propertyString="myFakeEdges" fileName="ConstraintsSupporter.java" startLine="25" startPosition="36" endLine="26" endPosition="38" />
+    <nodeInfo nodeId="903391227141025712" conceptFqName="jetbrains.mps.baseLanguage.structure.FieldDeclaration" propertyString="myFakeDualEdges" fileName="ConstraintsSupporter.java" startLine="26" startPosition="38" endLine="27" endPosition="42" />
+    <nodeInfo nodeId="903391227141025718" conceptFqName="jetbrains.mps.baseLanguage.structure.FieldDeclaration" propertyString="myEdgesMap" fileName="ConstraintsSupporter.java" startLine="27" startPosition="42" endLine="28" endPosition="37" />
+    <nodeInfo nodeId="903391227141027095" conceptFqName="jetbrains.mps.baseLanguage.structure.FieldDeclaration" propertyString="myHorNumbering" fileName="ConstraintsSupporter.java" startLine="28" startPosition="37" endLine="29" endPosition="44" />
+    <nodeInfo nodeId="903391227141027106" conceptFqName="jetbrains.mps.baseLanguage.structure.FieldDeclaration" propertyString="myVerNumbering" fileName="ConstraintsSupporter.java" startLine="29" startPosition="44" endLine="30" endPosition="44" />
+    <nodeInfo nodeId="6494745554568955389" conceptFqName="jetbrains.mps.baseLanguage.structure.FieldDeclaration" propertyString="myMinEdgeXDistance" fileName="ConstraintsSupporter.java" startLine="30" startPosition="44" endLine="31" endPosition="38" />
+    <nodeInfo nodeId="6494745554568955395" conceptFqName="jetbrains.mps.baseLanguage.structure.FieldDeclaration" propertyString="myMinEdgeYDistance" fileName="ConstraintsSupporter.java" startLine="31" startPosition="38" endLine="32" endPosition="38" />
     <nodeInfo nodeId="903391227141027255" conceptFqName="jetbrains.mps.baseLanguage.structure.ExpressionStatement" fileName="ConstraintsSupporter.java" startLine="37" startPosition="156" endLine="38" endPosition="36" />
     <nodeInfo nodeId="903391227141027263" conceptFqName="jetbrains.mps.baseLanguage.structure.LocalVariableDeclarationStatement" fileName="ConstraintsSupporter.java" startLine="38" startPosition="36" endLine="39" endPosition="45" />
     <nodeInfo nodeId="903391227141027270" conceptFqName="jetbrains.mps.baseLanguage.structure.ExpressionStatement" fileName="ConstraintsSupporter.java" startLine="39" startPosition="45" endLine="40" endPosition="40" />
@@ -486,7 +486,7 @@
     <nodeInfo nodeId="903391227141025841" conceptFqName="jetbrains.mps.baseLanguage.structure.ReturnStatement" fileName="ConstraintsSupporter.java" startLine="132" startPosition="5" endLine="133" endPosition="25" />
     <nodeInfo nodeId="6494745554568955414" conceptFqName="jetbrains.mps.baseLanguage.structure.ExpressionStatement" fileName="ConstraintsSupporter.java" startLine="136" startPosition="48" endLine="137" endPosition="27" />
     <nodeInfo nodeId="6494745554568955421" conceptFqName="jetbrains.mps.baseLanguage.structure.ExpressionStatement" fileName="ConstraintsSupporter.java" startLine="137" startPosition="27" endLine="138" endPosition="27" />
-    <nodeInfo nodeId="903391227141025439" conceptFqName="jetbrains.mps.baseLanguage.structure.ConstructorDeclaration" fileName="ConstraintsSupporter.java" startLine="33" startPosition="0" endLine="35" endPosition="3" />
+    <nodeInfo nodeId="903391227141025439" conceptFqName="jetbrains.mps.baseLanguage.structure.ConstructorDeclaration" propertyString="ConstraintsSupporter#()V" fileName="ConstraintsSupporter.java" startLine="33" startPosition="0" endLine="35" endPosition="3" />
     <nodeInfo nodeId="903391227141025941" conceptFqName="jetbrains.mps.baseLanguage.structure.BlockStatement" fileName="ConstraintsSupporter.java" startLine="104" startPosition="12" endLine="106" endPosition="7" />
     <nodeInfo nodeId="903391227141025971" conceptFqName="jetbrains.mps.baseLanguage.structure.BlockStatement" fileName="ConstraintsSupporter.java" startLine="111" startPosition="12" endLine="113" endPosition="7" />
     <nodeInfo nodeId="903391227141026132" conceptFqName="jetbrains.mps.baseLanguage.structure.ForeachStatement" fileName="ConstraintsSupporter.java" startLine="42" startPosition="87" endLine="45" endPosition="5" />
@@ -500,14 +500,14 @@
     <nodeInfo nodeId="903391227141025932" conceptFqName="jetbrains.mps.baseLanguage.structure.IfStatement" fileName="ConstraintsSupporter.java" startLine="101" startPosition="20" endLine="106" endPosition="7" />
     <nodeInfo nodeId="903391227141025962" conceptFqName="jetbrains.mps.baseLanguage.structure.IfStatement" fileName="ConstraintsSupporter.java" startLine="108" startPosition="21" endLine="113" endPosition="7" />
     <nodeInfo nodeId="903391227141025785" conceptFqName="jetbrains.mps.baseLanguage.structure.ForeachStatement" fileName="ConstraintsSupporter.java" startLine="124" startPosition="38" endLine="129" endPosition="5" />
-    <nodeInfo nodeId="6494745554568955405" conceptFqName="jetbrains.mps.baseLanguage.structure.InstanceMethodDeclaration" fileName="ConstraintsSupporter.java" startLine="135" startPosition="0" endLine="140" endPosition="0" />
+    <nodeInfo nodeId="6494745554568955405" conceptFqName="jetbrains.mps.baseLanguage.structure.InstanceMethodDeclaration" propertyString="setMinEdgeDistance#(II)V" fileName="ConstraintsSupporter.java" startLine="135" startPosition="0" endLine="140" endPosition="0" />
     <nodeInfo nodeId="903391227141026759" conceptFqName="jetbrains.mps.baseLanguage.structure.ForeachStatement" fileName="ConstraintsSupporter.java" startLine="52" startPosition="5" endLine="60" endPosition="5" />
-    <nodeInfo nodeId="903391227141027299" conceptFqName="jetbrains.mps.baseLanguage.structure.InstanceMethodDeclaration" fileName="ConstraintsSupporter.java" startLine="72" startPosition="0" endLine="81" endPosition="0" />
-    <nodeInfo nodeId="903391227141027471" conceptFqName="jetbrains.mps.baseLanguage.structure.InstanceMethodDeclaration" fileName="ConstraintsSupporter.java" startLine="81" startPosition="0" endLine="92" endPosition="0" />
+    <nodeInfo nodeId="903391227141027299" conceptFqName="jetbrains.mps.baseLanguage.structure.InstanceMethodDeclaration" propertyString="getRectangle#(Ljava/lang/Object;Ljetbrains/mps/graphLayout/graph/Edge;)Ljetbrains/mps/graphLayout/intGeom2D/Rectangle;" fileName="ConstraintsSupporter.java" startLine="72" startPosition="0" endLine="81" endPosition="0" />
+    <nodeInfo nodeId="903391227141027471" conceptFqName="jetbrains.mps.baseLanguage.structure.InstanceMethodDeclaration" propertyString="getMaxX#(Ljava/lang/Object;)I" fileName="ConstraintsSupporter.java" startLine="81" startPosition="0" endLine="92" endPosition="0" />
     <nodeInfo nodeId="903391227141025919" conceptFqName="jetbrains.mps.baseLanguage.structure.ForeachStatement" fileName="ConstraintsSupporter.java" startLine="98" startPosition="69" endLine="115" endPosition="5" />
-    <nodeInfo nodeId="903391227141025734" conceptFqName="jetbrains.mps.baseLanguage.structure.InstanceMethodDeclaration" fileName="ConstraintsSupporter.java" startLine="118" startPosition="0" endLine="135" endPosition="0" />
-    <nodeInfo nodeId="903391227141025907" conceptFqName="jetbrains.mps.baseLanguage.structure.InstanceMethodDeclaration" fileName="ConstraintsSupporter.java" startLine="92" startPosition="0" endLine="118" endPosition="0" />
-    <nodeInfo nodeId="903391227141025443" conceptFqName="jetbrains.mps.baseLanguage.structure.InstanceMethodDeclaration" fileName="ConstraintsSupporter.java" startLine="36" startPosition="0" endLine="72" endPosition="0" />
+    <nodeInfo nodeId="903391227141025734" conceptFqName="jetbrains.mps.baseLanguage.structure.InstanceMethodDeclaration" propertyString="splitNodes#(Ljetbrains/mps/graphLayout/graph/Graph;)Ljetbrains/mps/graphLayout/graph/Graph;" fileName="ConstraintsSupporter.java" startLine="118" startPosition="0" endLine="135" endPosition="0" />
+    <nodeInfo nodeId="903391227141025907" conceptFqName="jetbrains.mps.baseLanguage.structure.InstanceMethodDeclaration" propertyString="modifyDualGraph#(Ljetbrains/mps/graphLayout/planarGraph/STPlanarGraph;)Ljetbrains/mps/graphLayout/planarGraph/DualGraph;" fileName="ConstraintsSupporter.java" startLine="92" startPosition="0" endLine="118" endPosition="0" />
+    <nodeInfo nodeId="903391227141025443" conceptFqName="jetbrains.mps.baseLanguage.structure.InstanceMethodDeclaration" propertyString="getRepresentation#(Ljetbrains/mps/graphLayout/planarGraph/STPlanarGraph;Ljava/util/Map;Ljava/util/Map;)Ljava/util/Map;" fileName="ConstraintsSupporter.java" startLine="36" startPosition="0" endLine="72" endPosition="0" />
     <scopeInfo nodeId="903391227141025442" fileName="ConstraintsSupporter.java" startLine="34" startPosition="33" endLine="34" endPosition="33" />
     <scopeInfo nodeId="903391227141026135" fileName="ConstraintsSupporter.java" startLine="43" startPosition="63" endLine="44" endPosition="142" />
     <scopeInfo nodeId="903391227141026124" fileName="ConstraintsSupporter.java" startLine="46" startPosition="63" endLine="47" endPosition="141" />
@@ -521,17 +521,17 @@
     <scopeInfo nodeId="903391227141025963" fileName="ConstraintsSupporter.java" startLine="109" startPosition="35" endLine="110" endPosition="31" />
     <scopeInfo nodeId="903391227141025972" fileName="ConstraintsSupporter.java" startLine="111" startPosition="14" endLine="112" endPosition="80" />
     <scopeInfo nodeId="903391227141025823" fileName="ConstraintsSupporter.java" startLine="130" startPosition="63" endLine="131" endPosition="178" />
-    <scopeInfo nodeId="903391227141025439" fileName="ConstraintsSupporter.java" startLine="33" startPosition="0" endLine="35" endPosition="3" />
+    <scopeInfo nodeId="903391227141025439" conceptFqName="jetbrains.mps.baseLanguage.structure.ConstructorDeclaration" propertyString="ConstraintsSupporter#()V" fileName="ConstraintsSupporter.java" startLine="33" startPosition="0" endLine="35" endPosition="3" />
     <scopeInfo nodeId="6494745554568955408" fileName="ConstraintsSupporter.java" startLine="136" startPosition="48" endLine="138" endPosition="27" />
-    <scopeInfo nodeId="903391227141026132" fileName="ConstraintsSupporter.java" startLine="42" startPosition="87" endLine="45" endPosition="5" />
-    <scopeInfo nodeId="903391227141026121" fileName="ConstraintsSupporter.java" startLine="45" startPosition="5" endLine="48" endPosition="5" />
-    <scopeInfo nodeId="8680836410351582150" fileName="ConstraintsSupporter.java" startLine="49" startPosition="91" endLine="52" endPosition="5" />
-    <scopeInfo nodeId="903391227141026815" fileName="ConstraintsSupporter.java" startLine="63" startPosition="98" endLine="66" endPosition="5" />
-    <scopeInfo nodeId="903391227141026976" fileName="ConstraintsSupporter.java" startLine="66" startPosition="5" endLine="69" endPosition="5" />
+    <scopeInfo nodeId="903391227141026132" conceptFqName="jetbrains.mps.baseLanguage.structure.ForeachStatement" fileName="ConstraintsSupporter.java" startLine="42" startPosition="87" endLine="45" endPosition="5" />
+    <scopeInfo nodeId="903391227141026121" conceptFqName="jetbrains.mps.baseLanguage.structure.ForeachStatement" fileName="ConstraintsSupporter.java" startLine="45" startPosition="5" endLine="48" endPosition="5" />
+    <scopeInfo nodeId="8680836410351582150" conceptFqName="jetbrains.mps.baseLanguage.structure.ForeachStatement" fileName="ConstraintsSupporter.java" startLine="49" startPosition="91" endLine="52" endPosition="5" />
+    <scopeInfo nodeId="903391227141026815" conceptFqName="jetbrains.mps.baseLanguage.structure.ForeachStatement" fileName="ConstraintsSupporter.java" startLine="63" startPosition="98" endLine="66" endPosition="5" />
+    <scopeInfo nodeId="903391227141026976" conceptFqName="jetbrains.mps.baseLanguage.structure.ForeachStatement" fileName="ConstraintsSupporter.java" startLine="66" startPosition="5" endLine="69" endPosition="5" />
     <scopeInfo nodeId="903391227141025786" fileName="ConstraintsSupporter.java" startLine="125" startPosition="63" endLine="128" endPosition="155" />
-    <scopeInfo nodeId="903391227141025819" fileName="ConstraintsSupporter.java" startLine="129" startPosition="5" endLine="132" endPosition="5" />
-    <scopeInfo nodeId="903391227141025785" fileName="ConstraintsSupporter.java" startLine="124" startPosition="38" endLine="129" endPosition="5" />
-    <scopeInfo nodeId="6494745554568955405" fileName="ConstraintsSupporter.java" startLine="135" startPosition="0" endLine="140" endPosition="0">
+    <scopeInfo nodeId="903391227141025819" conceptFqName="jetbrains.mps.baseLanguage.structure.ForeachStatement" fileName="ConstraintsSupporter.java" startLine="129" startPosition="5" endLine="132" endPosition="5" />
+    <scopeInfo nodeId="903391227141025785" conceptFqName="jetbrains.mps.baseLanguage.structure.ForeachStatement" fileName="ConstraintsSupporter.java" startLine="124" startPosition="38" endLine="129" endPosition="5" />
+    <scopeInfo nodeId="6494745554568955405" conceptFqName="jetbrains.mps.baseLanguage.structure.InstanceMethodDeclaration" propertyString="setMinEdgeDistance#(II)V" fileName="ConstraintsSupporter.java" startLine="135" startPosition="0" endLine="140" endPosition="0">
       <varInfo nodeId="6494745554568955411" varName="y" />
       <varInfo nodeId="6494745554568955409" varName="x" />
     </scopeInfo>
@@ -546,18 +546,18 @@
       <varInfo nodeId="903391227141027291" varName="minX" />
       <varInfo nodeId="903391227141027292" varName="minY" />
     </scopeInfo>
-    <scopeInfo nodeId="903391227141026759" fileName="ConstraintsSupporter.java" startLine="52" startPosition="5" endLine="60" endPosition="5" />
+    <scopeInfo nodeId="903391227141026759" conceptFqName="jetbrains.mps.baseLanguage.structure.ForeachStatement" fileName="ConstraintsSupporter.java" startLine="52" startPosition="5" endLine="60" endPosition="5" />
     <scopeInfo nodeId="903391227141027475" fileName="ConstraintsSupporter.java" startLine="82" startPosition="43" endLine="90" endPosition="16">
       <varInfo nodeId="903391227141027467" varName="dualTarget" />
       <varInfo nodeId="903391227141027522" varName="rightFace" />
       <varInfo nodeId="903391227141027469" varName="outerFace" />
       <varInfo nodeId="903391227141027468" varName="maxX" />
     </scopeInfo>
-    <scopeInfo nodeId="903391227141027299" fileName="ConstraintsSupporter.java" startLine="72" startPosition="0" endLine="81" endPosition="0">
+    <scopeInfo nodeId="903391227141027299" conceptFqName="jetbrains.mps.baseLanguage.structure.InstanceMethodDeclaration" propertyString="getRectangle#(Ljava/lang/Object;Ljetbrains/mps/graphLayout/graph/Edge;)Ljetbrains/mps/graphLayout/intGeom2D/Rectangle;" fileName="ConstraintsSupporter.java" startLine="72" startPosition="0" endLine="81" endPosition="0">
       <varInfo nodeId="903391227141027447" varName="fakeEdge" />
       <varInfo nodeId="903391227141027295" varName="graphObject" />
     </scopeInfo>
-    <scopeInfo nodeId="903391227141027471" fileName="ConstraintsSupporter.java" startLine="81" startPosition="0" endLine="92" endPosition="0">
+    <scopeInfo nodeId="903391227141027471" conceptFqName="jetbrains.mps.baseLanguage.structure.InstanceMethodDeclaration" propertyString="getMaxX#(Ljava/lang/Object;)I" fileName="ConstraintsSupporter.java" startLine="81" startPosition="0" endLine="92" endPosition="0">
       <varInfo nodeId="903391227141027470" varName="graphObject" />
     </scopeInfo>
     <scopeInfo nodeId="903391227141025740" fileName="ConstraintsSupporter.java" startLine="119" startPosition="41" endLine="133" endPosition="25">
@@ -569,8 +569,8 @@
       <varInfo nodeId="903391227141025899" varName="rightFace" />
       <varInfo nodeId="903391227141025898" varName="dualRight" />
     </scopeInfo>
-    <scopeInfo nodeId="903391227141025919" fileName="ConstraintsSupporter.java" startLine="98" startPosition="69" endLine="115" endPosition="5" />
-    <scopeInfo nodeId="903391227141025734" fileName="ConstraintsSupporter.java" startLine="118" startPosition="0" endLine="135" endPosition="0">
+    <scopeInfo nodeId="903391227141025919" conceptFqName="jetbrains.mps.baseLanguage.structure.ForeachStatement" fileName="ConstraintsSupporter.java" startLine="98" startPosition="69" endLine="115" endPosition="5" />
+    <scopeInfo nodeId="903391227141025734" conceptFqName="jetbrains.mps.baseLanguage.structure.InstanceMethodDeclaration" propertyString="splitNodes#(Ljetbrains/mps/graphLayout/graph/Graph;)Ljetbrains/mps/graphLayout/graph/Graph;" fileName="ConstraintsSupporter.java" startLine="118" startPosition="0" endLine="135" endPosition="0">
       <varInfo nodeId="903391227141025733" varName="graph" />
     </scopeInfo>
     <scopeInfo nodeId="903391227141025916" fileName="ConstraintsSupporter.java" startLine="93" startPosition="66" endLine="116" endPosition="21">
@@ -579,7 +579,7 @@
       <varInfo nodeId="903391227141026036" varName="dualGraph" />
       <varInfo nodeId="903391227141026013" varName="dualSource" />
     </scopeInfo>
-    <scopeInfo nodeId="903391227141025907" fileName="ConstraintsSupporter.java" startLine="92" startPosition="0" endLine="118" endPosition="0">
+    <scopeInfo nodeId="903391227141025907" conceptFqName="jetbrains.mps.baseLanguage.structure.InstanceMethodDeclaration" propertyString="modifyDualGraph#(Ljetbrains/mps/graphLayout/planarGraph/STPlanarGraph;)Ljetbrains/mps/graphLayout/planarGraph/DualGraph;" fileName="ConstraintsSupporter.java" startLine="92" startPosition="0" endLine="118" endPosition="0">
       <varInfo nodeId="903391227141025902" varName="stPlanarGraph" />
     </scopeInfo>
     <scopeInfo nodeId="903391227141025446" fileName="ConstraintsSupporter.java" startLine="37" startPosition="156" endLine="70" endPosition="26">
@@ -588,7 +588,7 @@
       <varInfo nodeId="903391227141026803" varName="representation" />
       <varInfo nodeId="903391227141026106" varName="edgeWeights" />
     </scopeInfo>
-    <scopeInfo nodeId="903391227141025443" fileName="ConstraintsSupporter.java" startLine="36" startPosition="0" endLine="72" endPosition="0">
+    <scopeInfo nodeId="903391227141025443" conceptFqName="jetbrains.mps.baseLanguage.structure.InstanceMethodDeclaration" propertyString="getRepresentation#(Ljetbrains/mps/graphLayout/planarGraph/STPlanarGraph;Ljava/util/Map;Ljava/util/Map;)Ljava/util/Map;" fileName="ConstraintsSupporter.java" startLine="36" startPosition="0" endLine="72" endPosition="0">
       <varInfo nodeId="903391227141025447" varName="stPlanarGraph" />
       <varInfo nodeId="1400338595887567619" varName="nodeConstraints" />
       <varInfo nodeId="1400338595887580752" varName="edgeConstraints" />
@@ -596,12 +596,12 @@
     <unitInfo nodeId="903391227141024519" fileName="ConstraintsSupporter.java" startLine="20" startPosition="0" endLine="141" endPosition="0" unitName="jetbrains.mps.graphLayout.stOrthogonalLayout.ConstraintsSupporter" />
   </root>
   <root nodeId="903391227141136167">
-    <nodeInfo nodeId="903391227141137901" conceptFqName="jetbrains.mps.baseLanguage.structure.StaticFieldDeclaration" fileName="RectOrthogonalLayouter.java" startLine="38" startPosition="37" endLine="39" endPosition="50" />
-    <nodeInfo nodeId="903391227141163663" conceptFqName="jetbrains.mps.baseLanguage.structure.StaticFieldDeclaration" fileName="RectOrthogonalLayouter.java" startLine="39" startPosition="50" endLine="40" endPosition="54" />
-    <nodeInfo nodeId="1418350014056263349" conceptFqName="jetbrains.mps.baseLanguage.structure.FieldDeclaration" fileName="RectOrthogonalLayouter.java" startLine="41" startPosition="0" endLine="42" endPosition="25" />
-    <nodeInfo nodeId="1418350014056263356" conceptFqName="jetbrains.mps.baseLanguage.structure.FieldDeclaration" fileName="RectOrthogonalLayouter.java" startLine="42" startPosition="25" endLine="43" endPosition="29" />
-    <nodeInfo nodeId="6160477238666742391" conceptFqName="jetbrains.mps.baseLanguage.structure.FieldDeclaration" fileName="RectOrthogonalLayouter.java" startLine="43" startPosition="29" endLine="44" endPosition="28" />
-    <nodeInfo nodeId="8680836410351702381" conceptFqName="jetbrains.mps.baseLanguage.structure.FieldDeclaration" fileName="RectOrthogonalLayouter.java" startLine="44" startPosition="28" endLine="45" endPosition="40" />
+    <nodeInfo nodeId="903391227141137901" conceptFqName="jetbrains.mps.baseLanguage.structure.StaticFieldDeclaration" propertyString="DEFAULT_NODE_SIZE" fileName="RectOrthogonalLayouter.java" startLine="38" startPosition="37" endLine="39" endPosition="50" />
+    <nodeInfo nodeId="903391227141163663" conceptFqName="jetbrains.mps.baseLanguage.structure.StaticFieldDeclaration" propertyString="DEFAULT_EDGE_DISTANCE" fileName="RectOrthogonalLayouter.java" startLine="39" startPosition="50" endLine="40" endPosition="54" />
+    <nodeInfo nodeId="1418350014056263349" conceptFqName="jetbrains.mps.baseLanguage.structure.FieldDeclaration" propertyString="myNodeSize" fileName="RectOrthogonalLayouter.java" startLine="41" startPosition="0" endLine="42" endPosition="25" />
+    <nodeInfo nodeId="1418350014056263356" conceptFqName="jetbrains.mps.baseLanguage.structure.FieldDeclaration" propertyString="myEdgeDistance" fileName="RectOrthogonalLayouter.java" startLine="42" startPosition="25" endLine="43" endPosition="29" />
+    <nodeInfo nodeId="6160477238666742391" conceptFqName="jetbrains.mps.baseLanguage.structure.FieldDeclaration" propertyString="myLayoutLevel" fileName="RectOrthogonalLayouter.java" startLine="43" startPosition="29" endLine="44" endPosition="28" />
+    <nodeInfo nodeId="8680836410351702381" conceptFqName="jetbrains.mps.baseLanguage.structure.FieldDeclaration" propertyString="myMovedLabels" fileName="RectOrthogonalLayouter.java" startLine="44" startPosition="28" endLine="45" endPosition="40" />
     <nodeInfo nodeId="1418350014056263360" conceptFqName="jetbrains.mps.baseLanguage.structure.ExpressionStatement" fileName="RectOrthogonalLayouter.java" startLine="47" startPosition="35" endLine="48" endPosition="35" />
     <nodeInfo nodeId="1418350014056263367" conceptFqName="jetbrains.mps.baseLanguage.structure.ExpressionStatement" fileName="RectOrthogonalLayouter.java" startLine="48" startPosition="35" endLine="49" endPosition="43" />
     <nodeInfo nodeId="8680836410351702390" conceptFqName="jetbrains.mps.baseLanguage.structure.ExpressionStatement" fileName="RectOrthogonalLayouter.java" startLine="49" startPosition="43" endLine="50" endPosition="67" />
@@ -846,7 +846,7 @@
     <nodeInfo nodeId="903391227141293576" conceptFqName="jetbrains.mps.baseLanguage.structure.IfStatement" fileName="RectOrthogonalLayouter.java" startLine="297" startPosition="42" endLine="300" endPosition="9" />
     <nodeInfo nodeId="903391227141293601" conceptFqName="jetbrains.mps.baseLanguage.structure.IfStatement" fileName="RectOrthogonalLayouter.java" startLine="300" startPosition="9" endLine="303" endPosition="9" />
     <nodeInfo nodeId="5639900666367311013" conceptFqName="jetbrains.mps.baseLanguage.structure.ForeachStatement" fileName="RectOrthogonalLayouter.java" startLine="96" startPosition="69" endLine="100" endPosition="5" />
-    <nodeInfo nodeId="6494745554568974988" conceptFqName="jetbrains.mps.baseLanguage.structure.InstanceMethodDeclaration" fileName="RectOrthogonalLayouter.java" startLine="271" startPosition="103" endLine="275" endPosition="0" />
+    <nodeInfo nodeId="6494745554568974988" conceptFqName="jetbrains.mps.baseLanguage.structure.InstanceMethodDeclaration" propertyString="accept#(Ljetbrains/mps/graphLayout/graph/Node;)Z" fileName="RectOrthogonalLayouter.java" startLine="271" startPosition="103" endLine="275" endPosition="0" />
     <nodeInfo nodeId="903391227141168661" conceptFqName="jetbrains.mps.baseLanguage.structure.IfStatement" fileName="RectOrthogonalLayouter.java" startLine="323" startPosition="34" endLine="327" endPosition="7" />
     <nodeInfo nodeId="903391227141168757" conceptFqName="jetbrains.mps.baseLanguage.structure.IfStatement" fileName="RectOrthogonalLayouter.java" startLine="327" startPosition="7" endLine="331" endPosition="7" />
     <nodeInfo nodeId="903391227141168945" conceptFqName="jetbrains.mps.baseLanguage.structure.IfStatement" fileName="RectOrthogonalLayouter.java" startLine="341" startPosition="23" endLine="345" endPosition="7" />
@@ -854,11 +854,11 @@
     <nodeInfo nodeId="903391227141294471" conceptFqName="jetbrains.mps.baseLanguage.structure.ForeachStatement" fileName="RectOrthogonalLayouter.java" startLine="364" startPosition="46" endLine="368" endPosition="5" />
     <nodeInfo nodeId="903391227141361924" conceptFqName="jetbrains.mps.baseLanguage.structure.IfStatement" fileName="RectOrthogonalLayouter.java" startLine="380" startPosition="68" endLine="384" endPosition="9" />
     <nodeInfo nodeId="903391227141361980" conceptFqName="jetbrains.mps.baseLanguage.structure.IfStatement" fileName="RectOrthogonalLayouter.java" startLine="391" startPosition="67" endLine="395" endPosition="9" />
-    <nodeInfo nodeId="903391227141362036" conceptFqName="jetbrains.mps.baseLanguage.structure.InstanceMethodDeclaration" fileName="RectOrthogonalLayouter.java" startLine="399" startPosition="96" endLine="403" endPosition="0" />
-    <nodeInfo nodeId="903391227141362058" conceptFqName="jetbrains.mps.baseLanguage.structure.InstanceMethodDeclaration" fileName="RectOrthogonalLayouter.java" startLine="404" startPosition="96" endLine="408" endPosition="0" />
-    <nodeInfo nodeId="1418350014056263374" conceptFqName="jetbrains.mps.baseLanguage.structure.InstanceMethodDeclaration" fileName="RectOrthogonalLayouter.java" startLine="425" startPosition="0" endLine="429" endPosition="0" />
-    <nodeInfo nodeId="1418350014056263386" conceptFqName="jetbrains.mps.baseLanguage.structure.InstanceMethodDeclaration" fileName="RectOrthogonalLayouter.java" startLine="429" startPosition="0" endLine="433" endPosition="0" />
-    <nodeInfo nodeId="6160477238666742402" conceptFqName="jetbrains.mps.baseLanguage.structure.InstanceMethodDeclaration" fileName="RectOrthogonalLayouter.java" startLine="433" startPosition="0" endLine="437" endPosition="0" />
+    <nodeInfo nodeId="903391227141362036" conceptFqName="jetbrains.mps.baseLanguage.structure.InstanceMethodDeclaration" propertyString="select#(Ljetbrains/mps/graphLayout/graph/Edge;)Ljava/lang/Comparable;" fileName="RectOrthogonalLayouter.java" startLine="399" startPosition="96" endLine="403" endPosition="0" />
+    <nodeInfo nodeId="903391227141362058" conceptFqName="jetbrains.mps.baseLanguage.structure.InstanceMethodDeclaration" propertyString="select#(Ljetbrains/mps/graphLayout/graph/Edge;)Ljava/lang/Comparable;" fileName="RectOrthogonalLayouter.java" startLine="404" startPosition="96" endLine="408" endPosition="0" />
+    <nodeInfo nodeId="1418350014056263374" conceptFqName="jetbrains.mps.baseLanguage.structure.InstanceMethodDeclaration" propertyString="setNodeSize#(I)V" fileName="RectOrthogonalLayouter.java" startLine="425" startPosition="0" endLine="429" endPosition="0" />
+    <nodeInfo nodeId="1418350014056263386" conceptFqName="jetbrains.mps.baseLanguage.structure.InstanceMethodDeclaration" propertyString="setEdgeDistance#(I)V" fileName="RectOrthogonalLayouter.java" startLine="429" startPosition="0" endLine="433" endPosition="0" />
+    <nodeInfo nodeId="6160477238666742402" conceptFqName="jetbrains.mps.baseLanguage.structure.InstanceMethodDeclaration" propertyString="setLayoutLevel#(I)V" fileName="RectOrthogonalLayouter.java" startLine="433" startPosition="0" endLine="437" endPosition="0" />
     <nodeInfo nodeId="903391227141137458" conceptFqName="jetbrains.mps.baseLanguage.structure.ForStatement" fileName="RectOrthogonalLayouter.java" startLine="65" startPosition="116" endLine="70" endPosition="5" />
     <nodeInfo nodeId="8680836410351735982" conceptFqName="jetbrains.mps.baseLanguage.structure.IfStatement" fileName="RectOrthogonalLayouter.java" startLine="81" startPosition="55" endLine="86" endPosition="7" />
     <nodeInfo nodeId="6160477238666742486" conceptFqName="jetbrains.mps.baseLanguage.structure.IfStatement" fileName="RectOrthogonalLayouter.java" startLine="107" startPosition="5" endLine="112" endPosition="5" />
@@ -872,7 +872,7 @@
     <nodeInfo nodeId="903391227141168799" conceptFqName="jetbrains.mps.baseLanguage.structure.IfStatement" fileName="RectOrthogonalLayouter.java" startLine="331" startPosition="7" endLine="336" endPosition="7" />
     <nodeInfo nodeId="903391227141362030" conceptFqName="jetbrains.mps.baseLanguage.structure.ExpressionStatement" fileName="RectOrthogonalLayouter.java" startLine="398" startPosition="106" endLine="403" endPosition="31" />
     <nodeInfo nodeId="903391227141362052" conceptFqName="jetbrains.mps.baseLanguage.structure.ExpressionStatement" fileName="RectOrthogonalLayouter.java" startLine="403" startPosition="31" endLine="408" endPosition="30" />
-    <nodeInfo nodeId="903391227141136169" conceptFqName="jetbrains.mps.baseLanguage.structure.ConstructorDeclaration" fileName="RectOrthogonalLayouter.java" startLine="46" startPosition="0" endLine="52" endPosition="3" />
+    <nodeInfo nodeId="903391227141136169" conceptFqName="jetbrains.mps.baseLanguage.structure.ConstructorDeclaration" propertyString="RectOrthogonalLayouter#()V" fileName="RectOrthogonalLayouter.java" startLine="46" startPosition="0" endLine="52" endPosition="3" />
     <nodeInfo nodeId="5639900666367310647" conceptFqName="jetbrains.mps.baseLanguage.structure.ForeachStatement" fileName="RectOrthogonalLayouter.java" startLine="89" startPosition="19" endLine="95" endPosition="5" />
     <nodeInfo nodeId="5639900666367760099" conceptFqName="jetbrains.mps.baseLanguage.structure.IfStatement" fileName="RectOrthogonalLayouter.java" startLine="115" startPosition="112" endLine="121" endPosition="5" />
     <nodeInfo nodeId="8680836410351716959" conceptFqName="jetbrains.mps.baseLanguage.structure.IfStatement" fileName="RectOrthogonalLayouter.java" startLine="223" startPosition="15" endLine="229" endPosition="15" />
@@ -886,7 +886,7 @@
     <nodeInfo nodeId="903391227141361915" conceptFqName="jetbrains.mps.baseLanguage.structure.IfStatement" fileName="RectOrthogonalLayouter.java" startLine="378" startPosition="67" endLine="385" endPosition="7" />
     <nodeInfo nodeId="903391227141361973" conceptFqName="jetbrains.mps.baseLanguage.structure.IfStatement" fileName="RectOrthogonalLayouter.java" startLine="389" startPosition="53" endLine="396" endPosition="7" />
     <nodeInfo nodeId="903391227141362088" conceptFqName="jetbrains.mps.baseLanguage.structure.ForeachStatement" fileName="RectOrthogonalLayouter.java" startLine="410" startPosition="29" endLine="417" endPosition="5" />
-    <nodeInfo nodeId="903391227141294444" conceptFqName="jetbrains.mps.baseLanguage.structure.InstanceMethodDeclaration" fileName="RectOrthogonalLayouter.java" startLine="362" startPosition="0" endLine="370" endPosition="0" />
+    <nodeInfo nodeId="903391227141294444" conceptFqName="jetbrains.mps.baseLanguage.structure.InstanceMethodDeclaration" propertyString="correctEdgesLayout#(Ljetbrains/mps/graphLayout/graphLayout/GraphLayout;)V" fileName="RectOrthogonalLayouter.java" startLine="362" startPosition="0" endLine="370" endPosition="0" />
     <nodeInfo nodeId="1177671074986683355" conceptFqName="jetbrains.mps.baseLanguage.structure.ForeachStatement" fileName="RectOrthogonalLayouter.java" startLine="144" startPosition="107" endLine="153" endPosition="7" />
     <nodeInfo nodeId="903391227141137496" conceptFqName="jetbrains.mps.baseLanguage.structure.ForeachStatement" fileName="RectOrthogonalLayouter.java" startLine="77" startPosition="5" endLine="87" endPosition="5" />
     <nodeInfo nodeId="903391227141361904" conceptFqName="jetbrains.mps.baseLanguage.structure.ForeachStatement" fileName="RectOrthogonalLayouter.java" startLine="376" startPosition="86" endLine="386" endPosition="5" />
@@ -898,13 +898,13 @@
     <nodeInfo nodeId="6494745554568978512" conceptFqName="jetbrains.mps.baseLanguage.structure.IfStatement" fileName="RectOrthogonalLayouter.java" startLine="207" startPosition="11" endLine="239" endPosition="11" />
     <nodeInfo nodeId="6494745554568974928" conceptFqName="jetbrains.mps.baseLanguage.structure.ForeachStatement" fileName="RectOrthogonalLayouter.java" startLine="202" startPosition="25" endLine="242" endPosition="9" />
     <nodeInfo nodeId="903391227141165423" conceptFqName="jetbrains.mps.baseLanguage.structure.ForeachStatement" fileName="RectOrthogonalLayouter.java" startLine="308" startPosition="5" endLine="357" endPosition="5" />
-    <nodeInfo nodeId="903391227141361868" conceptFqName="jetbrains.mps.baseLanguage.structure.InstanceMethodDeclaration" fileName="RectOrthogonalLayouter.java" startLine="370" startPosition="0" endLine="425" endPosition="0" />
-    <nodeInfo nodeId="903391227141136173" conceptFqName="jetbrains.mps.baseLanguage.structure.InstanceMethodDeclaration" fileName="RectOrthogonalLayouter.java" startLine="53" startPosition="0" endLine="114" endPosition="0" />
-    <nodeInfo nodeId="903391227141137537" conceptFqName="jetbrains.mps.baseLanguage.structure.InstanceMethodDeclaration" fileName="RectOrthogonalLayouter.java" startLine="114" startPosition="0" endLine="180" endPosition="0" />
-    <nodeInfo nodeId="903391227141165379" conceptFqName="jetbrains.mps.baseLanguage.structure.InstanceMethodDeclaration" fileName="RectOrthogonalLayouter.java" startLine="284" startPosition="0" endLine="362" endPosition="0" />
+    <nodeInfo nodeId="903391227141361868" conceptFqName="jetbrains.mps.baseLanguage.structure.InstanceMethodDeclaration" propertyString="correctEdgesFromNode#(Ljetbrains/mps/graphLayout/graphLayout/GraphLayout;Ljetbrains/mps/graphLayout/graph/Node;I)V" fileName="RectOrthogonalLayouter.java" startLine="370" startPosition="0" endLine="425" endPosition="0" />
+    <nodeInfo nodeId="903391227141136173" conceptFqName="jetbrains.mps.baseLanguage.structure.InstanceMethodDeclaration" propertyString="doLayout#(Ljetbrains/mps/graphLayout/graph/Graph;Ljava/util/Map;Ljava/util/Map;)Ljetbrains/mps/graphLayout/graphLayout/GraphLayout;" fileName="RectOrthogonalLayouter.java" startLine="53" startPosition="0" endLine="114" endPosition="0" />
+    <nodeInfo nodeId="903391227141137537" conceptFqName="jetbrains.mps.baseLanguage.structure.InstanceMethodDeclaration" propertyString="findSTLayout#(Ljetbrains/mps/graphLayout/graph/Graph;Ljava/util/Map;Ljava/util/Map;)Ljetbrains/mps/graphLayout/graphLayout/GraphLayout;" fileName="RectOrthogonalLayouter.java" startLine="114" startPosition="0" endLine="180" endPosition="0" />
+    <nodeInfo nodeId="903391227141165379" conceptFqName="jetbrains.mps.baseLanguage.structure.InstanceMethodDeclaration" propertyString="createLayout#(Ljetbrains/mps/graphLayout/graph/Graph;Ljava/util/Map;Ljava/util/Map;Ljava/util/Map;Ljava/util/Set;)Ljetbrains/mps/graphLayout/graphLayout/GraphLayout;" fileName="RectOrthogonalLayouter.java" startLine="284" startPosition="0" endLine="362" endPosition="0" />
     <nodeInfo nodeId="6494745554568974915" conceptFqName="jetbrains.mps.baseLanguage.structure.IfStatement" fileName="RectOrthogonalLayouter.java" startLine="185" startPosition="37" endLine="269" endPosition="7" />
     <nodeInfo nodeId="6494745554568974884" conceptFqName="jetbrains.mps.baseLanguage.structure.ForeachStatement" fileName="RectOrthogonalLayouter.java" startLine="182" startPosition="65" endLine="270" endPosition="5" />
-    <nodeInfo nodeId="6494745554568974874" conceptFqName="jetbrains.mps.baseLanguage.structure.InstanceMethodDeclaration" fileName="RectOrthogonalLayouter.java" startLine="180" startPosition="0" endLine="284" endPosition="0" />
+    <nodeInfo nodeId="6494745554568974874" conceptFqName="jetbrains.mps.baseLanguage.structure.InstanceMethodDeclaration" propertyString="removeTempObjects#(Ljava/util/List;Ljetbrains/mps/graphLayout/graphLayout/GraphLayout;Ljetbrains/mps/graphLayout/graph/Graph;Ljetbrains/mps/graphLayout/graph/Node;Ljetbrains/mps/graphLayout/graph/EdgesHistoryManager;)V" fileName="RectOrthogonalLayouter.java" startLine="180" startPosition="0" endLine="284" endPosition="0" />
     <scopeInfo nodeId="903391227141137433" fileName="RectOrthogonalLayouter.java" startLine="57" startPosition="63" endLine="58" endPosition="87" />
     <scopeInfo nodeId="8680836410351735983" fileName="RectOrthogonalLayouter.java" startLine="82" startPosition="61" endLine="83" endPosition="137" />
     <scopeInfo nodeId="8680836410351736013" fileName="RectOrthogonalLayouter.java" startLine="84" startPosition="14" endLine="85" endPosition="236" />
@@ -956,46 +956,46 @@
     <scopeInfo nodeId="903391227141294474" fileName="RectOrthogonalLayouter.java" startLine="365" startPosition="63" endLine="367" endPosition="111" />
     <scopeInfo nodeId="903391227141361932" fileName="RectOrthogonalLayouter.java" startLine="381" startPosition="42" endLine="383" endPosition="93" />
     <scopeInfo nodeId="903391227141361988" fileName="RectOrthogonalLayouter.java" startLine="392" startPosition="42" endLine="394" endPosition="100" />
-    <scopeInfo nodeId="903391227141137428" fileName="RectOrthogonalLayouter.java" startLine="56" startPosition="25" endLine="59" endPosition="5" />
+    <scopeInfo nodeId="903391227141137428" conceptFqName="jetbrains.mps.baseLanguage.structure.ForeachStatement" fileName="RectOrthogonalLayouter.java" startLine="56" startPosition="25" endLine="59" endPosition="5" />
     <scopeInfo nodeId="903391227141137459" fileName="RectOrthogonalLayouter.java" startLine="66" startPosition="45" endLine="69" endPosition="107">
       <varInfo nodeId="903391227141137766" varName="subgraph" />
     </scopeInfo>
     <scopeInfo nodeId="903391227141137869" fileName="RectOrthogonalLayouter.java" startLine="131" startPosition="63" endLine="134" endPosition="7" />
     <scopeInfo nodeId="1177671074986683362" fileName="RectOrthogonalLayouter.java" startLine="146" startPosition="85" endLine="149" endPosition="57" />
     <scopeInfo nodeId="490728924230506890" fileName="RectOrthogonalLayouter.java" startLine="155" startPosition="63" endLine="158" endPosition="7" />
-    <scopeInfo nodeId="903391227141137572" fileName="RectOrthogonalLayouter.java" startLine="160" startPosition="73" endLine="163" endPosition="5" />
+    <scopeInfo nodeId="903391227141137572" conceptFqName="jetbrains.mps.baseLanguage.structure.ForeachStatement" fileName="RectOrthogonalLayouter.java" startLine="160" startPosition="73" endLine="163" endPosition="5" />
     <scopeInfo nodeId="6160477238666701658" fileName="RectOrthogonalLayouter.java" startLine="254" startPosition="52" endLine="257" endPosition="153" />
     <scopeInfo nodeId="6160477238666702003" fileName="RectOrthogonalLayouter.java" startLine="260" startPosition="56" endLine="263" endPosition="150" />
-    <scopeInfo nodeId="6494745554568975011" fileName="RectOrthogonalLayouter.java" startLine="278" startPosition="71" endLine="281" endPosition="7" />
-    <scopeInfo nodeId="903391227141292641" fileName="RectOrthogonalLayouter.java" startLine="292" startPosition="43" endLine="295" endPosition="9" />
+    <scopeInfo nodeId="6494745554568975011" conceptFqName="jetbrains.mps.baseLanguage.structure.ForeachStatement" fileName="RectOrthogonalLayouter.java" startLine="278" startPosition="71" endLine="281" endPosition="7" />
+    <scopeInfo nodeId="903391227141292641" conceptFqName="jetbrains.mps.baseLanguage.structure.ForeachStatement" fileName="RectOrthogonalLayouter.java" startLine="292" startPosition="43" endLine="295" endPosition="9" />
     <scopeInfo nodeId="903391227141136172" fileName="RectOrthogonalLayouter.java" startLine="47" startPosition="35" endLine="51" endPosition="22" />
     <scopeInfo nodeId="5639900666367310650" fileName="RectOrthogonalLayouter.java" startLine="90" startPosition="61" endLine="94" endPosition="100">
       <varInfo nodeId="5639900666367310665" varName="curLayout" />
     </scopeInfo>
-    <scopeInfo nodeId="5639900666367311013" fileName="RectOrthogonalLayouter.java" startLine="96" startPosition="69" endLine="100" endPosition="5" />
+    <scopeInfo nodeId="5639900666367311013" conceptFqName="jetbrains.mps.baseLanguage.structure.ForeachStatement" fileName="RectOrthogonalLayouter.java" startLine="96" startPosition="69" endLine="100" endPosition="5" />
     <scopeInfo nodeId="5639900666367760100" fileName="RectOrthogonalLayouter.java" startLine="116" startPosition="35" endLine="120" endPosition="20">
       <varInfo nodeId="5639900666367760154" varName="node" />
       <varInfo nodeId="5639900666367760118" varName="layout" />
     </scopeInfo>
     <scopeInfo nodeId="8680836410351716960" fileName="RectOrthogonalLayouter.java" startLine="224" startPosition="33" endLine="228" endPosition="17" />
-    <scopeInfo nodeId="6494745554568974988" fileName="RectOrthogonalLayouter.java" startLine="271" startPosition="103" endLine="275" endPosition="0" />
+    <scopeInfo nodeId="6494745554568974988" conceptFqName="jetbrains.mps.baseLanguage.structure.InstanceMethodDeclaration" propertyString="accept#(Ljetbrains/mps/graphLayout/graph/Node;)Z" fileName="RectOrthogonalLayouter.java" startLine="271" startPosition="103" endLine="275" endPosition="0" />
     <scopeInfo nodeId="6494745554568975003" fileName="RectOrthogonalLayouter.java" startLine="277" startPosition="60" endLine="281" endPosition="7" />
-    <scopeInfo nodeId="903391227141294471" fileName="RectOrthogonalLayouter.java" startLine="364" startPosition="46" endLine="368" endPosition="5" />
-    <scopeInfo nodeId="903391227141362036" fileName="RectOrthogonalLayouter.java" startLine="399" startPosition="96" endLine="403" endPosition="0" />
-    <scopeInfo nodeId="903391227141362058" fileName="RectOrthogonalLayouter.java" startLine="404" startPosition="96" endLine="408" endPosition="0" />
+    <scopeInfo nodeId="903391227141294471" conceptFqName="jetbrains.mps.baseLanguage.structure.ForeachStatement" fileName="RectOrthogonalLayouter.java" startLine="364" startPosition="46" endLine="368" endPosition="5" />
+    <scopeInfo nodeId="903391227141362036" conceptFqName="jetbrains.mps.baseLanguage.structure.InstanceMethodDeclaration" propertyString="select#(Ljetbrains/mps/graphLayout/graph/Edge;)Ljava/lang/Comparable;" fileName="RectOrthogonalLayouter.java" startLine="399" startPosition="96" endLine="403" endPosition="0" />
+    <scopeInfo nodeId="903391227141362058" conceptFqName="jetbrains.mps.baseLanguage.structure.InstanceMethodDeclaration" propertyString="select#(Ljetbrains/mps/graphLayout/graph/Edge;)Ljava/lang/Comparable;" fileName="RectOrthogonalLayouter.java" startLine="404" startPosition="96" endLine="408" endPosition="0" />
     <scopeInfo nodeId="903391227141362142" fileName="RectOrthogonalLayouter.java" startLine="418" startPosition="58" endLine="422" endPosition="19">
       <varInfo nodeId="903391227141361864" varName="path" />
     </scopeInfo>
-    <scopeInfo nodeId="1418350014056263374" fileName="RectOrthogonalLayouter.java" startLine="425" startPosition="0" endLine="429" endPosition="0">
+    <scopeInfo nodeId="1418350014056263374" conceptFqName="jetbrains.mps.baseLanguage.structure.InstanceMethodDeclaration" propertyString="setNodeSize#(I)V" fileName="RectOrthogonalLayouter.java" startLine="425" startPosition="0" endLine="429" endPosition="0">
       <varInfo nodeId="1418350014056263384" varName="nodeSize" />
     </scopeInfo>
-    <scopeInfo nodeId="1418350014056263386" fileName="RectOrthogonalLayouter.java" startLine="429" startPosition="0" endLine="433" endPosition="0">
+    <scopeInfo nodeId="1418350014056263386" conceptFqName="jetbrains.mps.baseLanguage.structure.InstanceMethodDeclaration" propertyString="setEdgeDistance#(I)V" fileName="RectOrthogonalLayouter.java" startLine="429" startPosition="0" endLine="433" endPosition="0">
       <varInfo nodeId="1418350014056263396" varName="edgeDistance" />
     </scopeInfo>
-    <scopeInfo nodeId="6160477238666742402" fileName="RectOrthogonalLayouter.java" startLine="433" startPosition="0" endLine="437" endPosition="0">
+    <scopeInfo nodeId="6160477238666742402" conceptFqName="jetbrains.mps.baseLanguage.structure.InstanceMethodDeclaration" propertyString="setLayoutLevel#(I)V" fileName="RectOrthogonalLayouter.java" startLine="433" startPosition="0" endLine="437" endPosition="0">
       <varInfo nodeId="6160477238666742406" varName="level" />
     </scopeInfo>
-    <scopeInfo nodeId="903391227141137458" fileName="RectOrthogonalLayouter.java" startLine="65" startPosition="116" endLine="70" endPosition="5">
+    <scopeInfo nodeId="903391227141137458" conceptFqName="jetbrains.mps.baseLanguage.structure.ForStatement" fileName="RectOrthogonalLayouter.java" startLine="65" startPosition="116" endLine="70" endPosition="5">
       <varInfo nodeId="903391227141137466" varName="i" />
     </scopeInfo>
     <scopeInfo nodeId="903391227141137479" fileName="RectOrthogonalLayouter.java" startLine="71" startPosition="63" endLine="76" endPosition="217">
@@ -1005,8 +1005,8 @@
     <scopeInfo nodeId="5639900666367311151" fileName="RectOrthogonalLayouter.java" startLine="101" startPosition="63" endLine="106" endPosition="7">
       <varInfo nodeId="8680836410351702432" varName="subgraphLayout" />
     </scopeInfo>
-    <scopeInfo nodeId="903391227141137866" fileName="RectOrthogonalLayouter.java" startLine="130" startPosition="107" endLine="135" endPosition="5" />
-    <scopeInfo nodeId="490728924230506887" fileName="RectOrthogonalLayouter.java" startLine="154" startPosition="5" endLine="159" endPosition="5" />
+    <scopeInfo nodeId="903391227141137866" conceptFqName="jetbrains.mps.baseLanguage.structure.ForeachStatement" fileName="RectOrthogonalLayouter.java" startLine="130" startPosition="107" endLine="135" endPosition="5" />
+    <scopeInfo nodeId="490728924230506887" conceptFqName="jetbrains.mps.baseLanguage.structure.ForeachStatement" fileName="RectOrthogonalLayouter.java" startLine="154" startPosition="5" endLine="159" endPosition="5" />
     <scopeInfo nodeId="8680836410351596224" fileName="RectOrthogonalLayouter.java" startLine="311" startPosition="58" endLine="316" endPosition="52">
       <varInfo nodeId="8680836410351696122" varName="height" />
       <varInfo nodeId="8680836410351596291" varName="labelRectangle" />
@@ -1026,32 +1026,32 @@
       <varInfo nodeId="903391227141361860" varName="path" />
       <varInfo nodeId="903391227141361861" varName="size" />
     </scopeInfo>
-    <scopeInfo nodeId="903391227141136169" fileName="RectOrthogonalLayouter.java" startLine="46" startPosition="0" endLine="52" endPosition="3" />
-    <scopeInfo nodeId="5639900666367310647" fileName="RectOrthogonalLayouter.java" startLine="89" startPosition="19" endLine="95" endPosition="5" />
-    <scopeInfo nodeId="6494745554568975001" fileName="RectOrthogonalLayouter.java" startLine="276" startPosition="63" endLine="282" endPosition="5" />
-    <scopeInfo nodeId="903391227141362140" fileName="RectOrthogonalLayouter.java" startLine="417" startPosition="5" endLine="423" endPosition="5" />
-    <scopeInfo nodeId="903391227141137474" fileName="RectOrthogonalLayouter.java" startLine="70" startPosition="5" endLine="77" endPosition="5" />
-    <scopeInfo nodeId="5639900666367311146" fileName="RectOrthogonalLayouter.java" startLine="100" startPosition="5" endLine="107" endPosition="5" />
+    <scopeInfo nodeId="903391227141136169" conceptFqName="jetbrains.mps.baseLanguage.structure.ConstructorDeclaration" propertyString="RectOrthogonalLayouter#()V" fileName="RectOrthogonalLayouter.java" startLine="46" startPosition="0" endLine="52" endPosition="3" />
+    <scopeInfo nodeId="5639900666367310647" conceptFqName="jetbrains.mps.baseLanguage.structure.ForeachStatement" fileName="RectOrthogonalLayouter.java" startLine="89" startPosition="19" endLine="95" endPosition="5" />
+    <scopeInfo nodeId="6494745554568975001" conceptFqName="jetbrains.mps.baseLanguage.structure.ForeachStatement" fileName="RectOrthogonalLayouter.java" startLine="276" startPosition="63" endLine="282" endPosition="5" />
+    <scopeInfo nodeId="903391227141362140" conceptFqName="jetbrains.mps.baseLanguage.structure.ForeachStatement" fileName="RectOrthogonalLayouter.java" startLine="417" startPosition="5" endLine="423" endPosition="5" />
+    <scopeInfo nodeId="903391227141137474" conceptFqName="jetbrains.mps.baseLanguage.structure.ForeachStatement" fileName="RectOrthogonalLayouter.java" startLine="70" startPosition="5" endLine="77" endPosition="5" />
+    <scopeInfo nodeId="5639900666367311146" conceptFqName="jetbrains.mps.baseLanguage.structure.ForeachStatement" fileName="RectOrthogonalLayouter.java" startLine="100" startPosition="5" endLine="107" endPosition="5" />
     <scopeInfo nodeId="1177671074986683358" fileName="RectOrthogonalLayouter.java" startLine="145" startPosition="56" endLine="152" endPosition="9" />
-    <scopeInfo nodeId="903391227141362088" fileName="RectOrthogonalLayouter.java" startLine="410" startPosition="29" endLine="417" endPosition="5" />
+    <scopeInfo nodeId="903391227141362088" conceptFqName="jetbrains.mps.baseLanguage.structure.ForeachStatement" fileName="RectOrthogonalLayouter.java" startLine="410" startPosition="29" endLine="417" endPosition="5" />
     <scopeInfo nodeId="903391227141137501" fileName="RectOrthogonalLayouter.java" startLine="78" startPosition="63" endLine="86" endPosition="7">
       <varInfo nodeId="1763712338172397490" varName="subgraph" />
       <varInfo nodeId="1400338595887581000" varName="newEdge" />
     </scopeInfo>
-    <scopeInfo nodeId="903391227141294444" fileName="RectOrthogonalLayouter.java" startLine="362" startPosition="0" endLine="370" endPosition="0">
+    <scopeInfo nodeId="903391227141294444" conceptFqName="jetbrains.mps.baseLanguage.structure.InstanceMethodDeclaration" propertyString="correctEdgesLayout#(Ljetbrains/mps/graphLayout/graphLayout/GraphLayout;)V" fileName="RectOrthogonalLayouter.java" startLine="362" startPosition="0" endLine="370" endPosition="0">
       <varInfo nodeId="903391227141294448" varName="layout" />
     </scopeInfo>
     <scopeInfo nodeId="903391227141361908" fileName="RectOrthogonalLayouter.java" startLine="377" startPosition="65" endLine="385" endPosition="7">
       <varInfo nodeId="903391227141361848" varName="path" />
     </scopeInfo>
-    <scopeInfo nodeId="1177671074986683355" fileName="RectOrthogonalLayouter.java" startLine="144" startPosition="107" endLine="153" endPosition="7" />
+    <scopeInfo nodeId="1177671074986683355" conceptFqName="jetbrains.mps.baseLanguage.structure.ForeachStatement" fileName="RectOrthogonalLayouter.java" startLine="144" startPosition="107" endLine="153" endPosition="7" />
     <scopeInfo nodeId="903391227141361961" fileName="RectOrthogonalLayouter.java" startLine="387" startPosition="64" endLine="396" endPosition="7">
       <varInfo nodeId="903391227141361851" varName="path" />
       <varInfo nodeId="903391227141361854" varName="size" />
     </scopeInfo>
-    <scopeInfo nodeId="903391227141137496" fileName="RectOrthogonalLayouter.java" startLine="77" startPosition="5" endLine="87" endPosition="5" />
-    <scopeInfo nodeId="903391227141361904" fileName="RectOrthogonalLayouter.java" startLine="376" startPosition="86" endLine="386" endPosition="5" />
-    <scopeInfo nodeId="903391227141361957" fileName="RectOrthogonalLayouter.java" startLine="386" startPosition="5" endLine="397" endPosition="5" />
+    <scopeInfo nodeId="903391227141137496" conceptFqName="jetbrains.mps.baseLanguage.structure.ForeachStatement" fileName="RectOrthogonalLayouter.java" startLine="77" startPosition="5" endLine="87" endPosition="5" />
+    <scopeInfo nodeId="903391227141361904" conceptFqName="jetbrains.mps.baseLanguage.structure.ForeachStatement" fileName="RectOrthogonalLayouter.java" startLine="376" startPosition="86" endLine="386" endPosition="5" />
+    <scopeInfo nodeId="903391227141361957" conceptFqName="jetbrains.mps.baseLanguage.structure.ForeachStatement" fileName="RectOrthogonalLayouter.java" startLine="386" startPosition="5" endLine="397" endPosition="5" />
     <scopeInfo nodeId="1177671074986680309" fileName="RectOrthogonalLayouter.java" startLine="138" startPosition="58" endLine="153" endPosition="7">
       <varInfo nodeId="1177671074986683283" varName="history" />
       <varInfo nodeId="1177671074986683333" varName="midEdge" />
@@ -1063,7 +1063,7 @@
       <varInfo nodeId="903391227141293525" varName="edges" />
       <varInfo nodeId="903391227141290935" varName="width" />
     </scopeInfo>
-    <scopeInfo nodeId="1177671074986680306" fileName="RectOrthogonalLayouter.java" startLine="137" startPosition="66" endLine="154" endPosition="5" />
+    <scopeInfo nodeId="1177671074986680306" conceptFqName="jetbrains.mps.baseLanguage.structure.ForeachStatement" fileName="RectOrthogonalLayouter.java" startLine="137" startPosition="66" endLine="154" endPosition="5" />
     <scopeInfo nodeId="6494745554568978655" fileName="RectOrthogonalLayouter.java" startLine="211" startPosition="61" endLine="229" endPosition="15">
       <varInfo nodeId="6160477238666597924" varName="last" />
       <varInfo nodeId="8680836410351712035" varName="labelRect" />
@@ -1072,7 +1072,7 @@
     <scopeInfo nodeId="903391227141165396" fileName="RectOrthogonalLayouter.java" startLine="287" startPosition="63" endLine="307" endPosition="7">
       <varInfo nodeId="6494745554568977343" varName="rect" />
     </scopeInfo>
-    <scopeInfo nodeId="903391227141165392" fileName="RectOrthogonalLayouter.java" startLine="286" startPosition="69" endLine="308" endPosition="5" />
+    <scopeInfo nodeId="903391227141165392" conceptFqName="jetbrains.mps.baseLanguage.structure.ForeachStatement" fileName="RectOrthogonalLayouter.java" startLine="286" startPosition="69" endLine="308" endPosition="5" />
     <scopeInfo nodeId="6494745554568978513" fileName="RectOrthogonalLayouter.java" startLine="208" startPosition="30" endLine="238" endPosition="24">
       <varInfo nodeId="6494745554568981106" varName="left" />
       <varInfo nodeId="6494745554568978610" varName="rect" />
@@ -1082,7 +1082,7 @@
     <scopeInfo nodeId="6494745554568974930" fileName="RectOrthogonalLayouter.java" startLine="203" startPosition="58" endLine="241" endPosition="38">
       <varInfo nodeId="6494745554568974861" varName="edgeLayout" />
     </scopeInfo>
-    <scopeInfo nodeId="6494745554568974928" fileName="RectOrthogonalLayouter.java" startLine="202" startPosition="25" endLine="242" endPosition="9" />
+    <scopeInfo nodeId="6494745554568974928" conceptFqName="jetbrains.mps.baseLanguage.structure.ForeachStatement" fileName="RectOrthogonalLayouter.java" startLine="202" startPosition="25" endLine="242" endPosition="9" />
     <scopeInfo nodeId="903391227141165427" fileName="RectOrthogonalLayouter.java" startLine="309" startPosition="63" endLine="356" endPosition="38">
       <varInfo nodeId="903391227141168725" varName="hasHorLines" />
       <varInfo nodeId="903391227141168909" varName="targetRect" />
@@ -1096,7 +1096,7 @@
       <varInfo nodeId="903391227141168667" varName="edgeX" />
       <varInfo nodeId="903391227141168633" varName="sourceMaxX" />
     </scopeInfo>
-    <scopeInfo nodeId="903391227141165423" fileName="RectOrthogonalLayouter.java" startLine="308" startPosition="5" endLine="357" endPosition="5" />
+    <scopeInfo nodeId="903391227141165423" conceptFqName="jetbrains.mps.baseLanguage.structure.ForeachStatement" fileName="RectOrthogonalLayouter.java" startLine="308" startPosition="5" endLine="357" endPosition="5" />
     <scopeInfo nodeId="903391227141361877" fileName="RectOrthogonalLayouter.java" startLine="371" startPosition="86" endLine="423" endPosition="5">
       <varInfo nodeId="903391227141361862" varName="curY" />
       <varInfo nodeId="903391227141361853" varName="targetEdges" />
@@ -1107,7 +1107,7 @@
       <varInfo nodeId="903391227141361847" varName="sourceEdges" />
       <varInfo nodeId="903391227141361858" varName="step" />
     </scopeInfo>
-    <scopeInfo nodeId="903391227141361868" fileName="RectOrthogonalLayouter.java" startLine="370" startPosition="0" endLine="425" endPosition="0">
+    <scopeInfo nodeId="903391227141361868" conceptFqName="jetbrains.mps.baseLanguage.structure.InstanceMethodDeclaration" propertyString="correctEdgesFromNode#(Ljetbrains/mps/graphLayout/graphLayout/GraphLayout;Ljetbrains/mps/graphLayout/graph/Node;I)V" fileName="RectOrthogonalLayouter.java" startLine="370" startPosition="0" endLine="425" endPosition="0">
       <varInfo nodeId="903391227141361866" varName="node" />
       <varInfo nodeId="903391227141362218" varName="xCoord" />
       <varInfo nodeId="903391227141361865" varName="layout" />
@@ -1125,7 +1125,7 @@
       <varInfo nodeId="903391227141137443" varName="newNodes" />
       <varInfo nodeId="903391227141137418" varName="components" />
     </scopeInfo>
-    <scopeInfo nodeId="903391227141136173" fileName="RectOrthogonalLayouter.java" startLine="53" startPosition="0" endLine="114" endPosition="0">
+    <scopeInfo nodeId="903391227141136173" conceptFqName="jetbrains.mps.baseLanguage.structure.InstanceMethodDeclaration" propertyString="doLayout#(Ljetbrains/mps/graphLayout/graph/Graph;Ljava/util/Map;Ljava/util/Map;)Ljetbrains/mps/graphLayout/graphLayout/GraphLayout;" fileName="RectOrthogonalLayouter.java" startLine="53" startPosition="0" endLine="114" endPosition="0">
       <varInfo nodeId="903391227141136178" varName="graph" />
       <varInfo nodeId="1400338595887580961" varName="edgeSizes" />
       <varInfo nodeId="6160477238666745712" varName="nodeSizes" />
@@ -1145,7 +1145,7 @@
       <varInfo nodeId="2593993040624455398" varName="historyManager" />
       <varInfo nodeId="903391227141137922" varName="representation" />
     </scopeInfo>
-    <scopeInfo nodeId="903391227141137537" fileName="RectOrthogonalLayouter.java" startLine="114" startPosition="0" endLine="180" endPosition="0">
+    <scopeInfo nodeId="903391227141137537" conceptFqName="jetbrains.mps.baseLanguage.structure.InstanceMethodDeclaration" propertyString="findSTLayout#(Ljetbrains/mps/graphLayout/graph/Graph;Ljava/util/Map;Ljava/util/Map;)Ljetbrains/mps/graphLayout/graphLayout/GraphLayout;" fileName="RectOrthogonalLayouter.java" startLine="114" startPosition="0" endLine="180" endPosition="0">
       <varInfo nodeId="903391227141137643" varName="graph" />
       <varInfo nodeId="1177671074986680297" varName="edgeSizes" />
       <varInfo nodeId="1400338595887567653" varName="nodeSizes" />
@@ -1153,7 +1153,7 @@
     <scopeInfo nodeId="903391227141165386" fileName="RectOrthogonalLayouter.java" startLine="285" startPosition="173" endLine="360" endPosition="18">
       <varInfo nodeId="903391227141165372" varName="layout" />
     </scopeInfo>
-    <scopeInfo nodeId="903391227141165379" fileName="RectOrthogonalLayouter.java" startLine="284" startPosition="0" endLine="362" endPosition="0">
+    <scopeInfo nodeId="903391227141165379" conceptFqName="jetbrains.mps.baseLanguage.structure.InstanceMethodDeclaration" propertyString="createLayout#(Ljetbrains/mps/graphLayout/graph/Graph;Ljava/util/Map;Ljava/util/Map;Ljava/util/Map;Ljava/util/Set;)Ljetbrains/mps/graphLayout/graphLayout/GraphLayout;" fileName="RectOrthogonalLayouter.java" startLine="284" startPosition="0" endLine="362" endPosition="0">
       <varInfo nodeId="903391227141165377" varName="graph" />
       <varInfo nodeId="903391227141165378" varName="representation" />
       <varInfo nodeId="8680836410351596217" varName="hasLabels" />
@@ -1176,12 +1176,12 @@
       <varInfo nodeId="6494745554568974857" varName="history" />
       <varInfo nodeId="6494745554568978497" varName="cur" />
     </scopeInfo>
-    <scopeInfo nodeId="6494745554568974884" fileName="RectOrthogonalLayouter.java" startLine="182" startPosition="65" endLine="270" endPosition="5" />
+    <scopeInfo nodeId="6494745554568974884" conceptFqName="jetbrains.mps.baseLanguage.structure.ForeachStatement" fileName="RectOrthogonalLayouter.java" startLine="182" startPosition="65" endLine="270" endPosition="5" />
     <scopeInfo nodeId="6494745554568974883" fileName="RectOrthogonalLayouter.java" startLine="181" startPosition="138" endLine="282" endPosition="5">
       <varInfo nodeId="6494745554568978662" varName="visited" />
       <varInfo nodeId="6494745554568974863" varName="nodesToRemove" />
     </scopeInfo>
-    <scopeInfo nodeId="6494745554568974874" fileName="RectOrthogonalLayouter.java" startLine="180" startPosition="0" endLine="284" endPosition="0">
+    <scopeInfo nodeId="6494745554568974874" conceptFqName="jetbrains.mps.baseLanguage.structure.InstanceMethodDeclaration" propertyString="removeTempObjects#(Ljava/util/List;Ljetbrains/mps/graphLayout/graphLayout/GraphLayout;Ljetbrains/mps/graphLayout/graph/Graph;Ljetbrains/mps/graphLayout/graph/Node;Ljetbrains/mps/graphLayout/graph/EdgesHistoryManager;)V" fileName="RectOrthogonalLayouter.java" startLine="180" startPosition="0" endLine="284" endPosition="0">
       <varInfo nodeId="2593993040624455417" varName="manager" />
       <varInfo nodeId="6494745554568974872" varName="graph" />
       <varInfo nodeId="6494745554568974873" varName="addedNode" />

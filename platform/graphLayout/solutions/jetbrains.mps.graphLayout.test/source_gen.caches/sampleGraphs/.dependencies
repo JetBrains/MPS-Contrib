@@ -12,6 +12,17 @@
     <classNode dependClassName="jetbrains.mps.graphLayout.graph.Node" />
     <classNode extendsClassName="sampleGraphs.AbstractGraphGenerator" />
   </dependency>
+  <dependency className="sampleGraphs.ClusterGraphGenerator" file="ClusterGraphGenerator.java">
+    <classNode dependClassName="java.lang.IllegalArgumentException" />
+    <classNode dependClassName="java.lang.Override" />
+    <classNode dependClassName="java.util.Iterator" />
+    <classNode dependClassName="jetbrains.mps.graphLayout.graph.ClusteredGraph" />
+    <classNode dependClassName="jetbrains.mps.graphLayout.graph.Edge" />
+    <classNode dependClassName="jetbrains.mps.graphLayout.graph.Graph" />
+    <classNode dependClassName="jetbrains.mps.graphLayout.graph.Node" />
+    <classNode dependClassName="jetbrains.mps.internal.collections.runtime.ListSequence" />
+    <classNode extendsClassName="sampleGraphs.AbstractGraphGenerator" />
+  </dependency>
   <dependency className="sampleGraphs.GraphsForLayers" file="GraphsForLayers.java">
     <classNode dependClassName="jetbrains.mps.graphLayout.graph.Graph" />
     <classNode dependClassName="sampleGraphs.SimpleDirectedGraphs" />

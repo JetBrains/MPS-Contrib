@@ -1,8 +1,8 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <debugInfo>
   <root nodeId="315882939481360320">
-    <nodeInfo nodeId="272112265222927590" conceptFqName="jetbrains.mps.baseLanguage.structure.FieldDeclaration" fileName="Direction2D.java" startLine="11" startPosition="0" endLine="12" endPosition="19" />
-    <nodeInfo nodeId="272112265222927594" conceptFqName="jetbrains.mps.baseLanguage.structure.FieldDeclaration" fileName="Direction2D.java" startLine="12" startPosition="19" endLine="13" endPosition="19" />
+    <nodeInfo nodeId="272112265222927590" conceptFqName="jetbrains.mps.baseLanguage.structure.FieldDeclaration" propertyString="myDx" fileName="Direction2D.java" startLine="11" startPosition="0" endLine="12" endPosition="19" />
+    <nodeInfo nodeId="272112265222927594" conceptFqName="jetbrains.mps.baseLanguage.structure.FieldDeclaration" propertyString="myDy" fileName="Direction2D.java" startLine="12" startPosition="19" endLine="13" endPosition="19" />
     <nodeInfo nodeId="272112265222927616" conceptFqName="jetbrains.mps.baseLanguage.structure.ExpressionStatement" fileName="Direction2D.java" startLine="15" startPosition="31" endLine="16" endPosition="14" />
     <nodeInfo nodeId="272112265222927623" conceptFqName="jetbrains.mps.baseLanguage.structure.ExpressionStatement" fileName="Direction2D.java" startLine="16" startPosition="14" endLine="17" endPosition="14" />
     <nodeInfo nodeId="315882939481360461" conceptFqName="jetbrains.mps.baseLanguage.structure.LocalVariableDeclarationStatement" fileName="Direction2D.java" startLine="20" startPosition="47" endLine="21" endPosition="32" />
@@ -30,18 +30,18 @@
     <nodeInfo nodeId="315882939481360539" conceptFqName="jetbrains.mps.baseLanguage.structure.IfStatement" fileName="Direction2D.java" startLine="39" startPosition="5" endLine="42" endPosition="5" />
     <nodeInfo nodeId="3403946177685372732" conceptFqName="jetbrains.mps.baseLanguage.structure.IfStatement" fileName="Direction2D.java" startLine="47" startPosition="41" endLine="50" endPosition="5" />
     <nodeInfo nodeId="1265453300920942433" conceptFqName="jetbrains.mps.baseLanguage.structure.IfStatement" fileName="Direction2D.java" startLine="75" startPosition="50" endLine="78" endPosition="7" />
-    <nodeInfo nodeId="315882939481360322" conceptFqName="jetbrains.mps.baseLanguage.structure.ConstructorDeclaration" fileName="Direction2D.java" startLine="14" startPosition="0" endLine="18" endPosition="3" />
-    <nodeInfo nodeId="315882939481360488" conceptFqName="jetbrains.mps.baseLanguage.structure.InstanceMethodDeclaration" fileName="Direction2D.java" startLine="27" startPosition="0" endLine="31" endPosition="0" />
-    <nodeInfo nodeId="102129025687872308" conceptFqName="jetbrains.mps.baseLanguage.structure.InstanceMethodDeclaration" fileName="Direction2D.java" startLine="53" startPosition="0" endLine="57" endPosition="0" />
-    <nodeInfo nodeId="3182425861591380991" conceptFqName="jetbrains.mps.baseLanguage.structure.InstanceMethodDeclaration" fileName="Direction2D.java" startLine="57" startPosition="0" endLine="61" endPosition="0" />
-    <nodeInfo nodeId="272112265222927643" conceptFqName="jetbrains.mps.baseLanguage.structure.InstanceMethodDeclaration" fileName="Direction2D.java" startLine="61" startPosition="0" endLine="65" endPosition="0" />
-    <nodeInfo nodeId="272112265222927664" conceptFqName="jetbrains.mps.baseLanguage.structure.InstanceMethodDeclaration" fileName="Direction2D.java" startLine="65" startPosition="0" endLine="69" endPosition="0" />
-    <nodeInfo nodeId="315882939481360433" conceptFqName="jetbrains.mps.baseLanguage.structure.StaticMethodDeclaration" fileName="Direction2D.java" startLine="69" startPosition="0" endLine="73" endPosition="0" />
+    <nodeInfo nodeId="315882939481360322" conceptFqName="jetbrains.mps.baseLanguage.structure.ConstructorDeclaration" propertyString="Direction2D#(II)V" fileName="Direction2D.java" startLine="14" startPosition="0" endLine="18" endPosition="3" />
+    <nodeInfo nodeId="315882939481360488" conceptFqName="jetbrains.mps.baseLanguage.structure.InstanceMethodDeclaration" propertyString="opposite#()Ljetbrains/mps/graphLayout/util/Direction2D;" fileName="Direction2D.java" startLine="27" startPosition="0" endLine="31" endPosition="0" />
+    <nodeInfo nodeId="102129025687872308" conceptFqName="jetbrains.mps.baseLanguage.structure.InstanceMethodDeclaration" propertyString="isHorizontal#()Z" fileName="Direction2D.java" startLine="53" startPosition="0" endLine="57" endPosition="0" />
+    <nodeInfo nodeId="3182425861591380991" conceptFqName="jetbrains.mps.baseLanguage.structure.InstanceMethodDeclaration" propertyString="isVertical#()Z" fileName="Direction2D.java" startLine="57" startPosition="0" endLine="61" endPosition="0" />
+    <nodeInfo nodeId="272112265222927643" conceptFqName="jetbrains.mps.baseLanguage.structure.InstanceMethodDeclaration" propertyString="dx#()I" fileName="Direction2D.java" startLine="61" startPosition="0" endLine="65" endPosition="0" />
+    <nodeInfo nodeId="272112265222927664" conceptFqName="jetbrains.mps.baseLanguage.structure.InstanceMethodDeclaration" propertyString="dy#()I" fileName="Direction2D.java" startLine="65" startPosition="0" endLine="69" endPosition="0" />
+    <nodeInfo nodeId="315882939481360433" conceptFqName="jetbrains.mps.baseLanguage.structure.StaticMethodDeclaration" propertyString="get#(I)Ljetbrains/mps/graphLayout/util/Direction2D;" fileName="Direction2D.java" startLine="69" startPosition="0" endLine="73" endPosition="0" />
     <nodeInfo nodeId="1265453300920942426" conceptFqName="jetbrains.mps.baseLanguage.structure.ForeachStatement" fileName="Direction2D.java" startLine="74" startPosition="57" endLine="79" endPosition="5" />
-    <nodeInfo nodeId="315882939481360451" conceptFqName="jetbrains.mps.baseLanguage.structure.InstanceMethodDeclaration" fileName="Direction2D.java" startLine="19" startPosition="0" endLine="27" endPosition="0" />
-    <nodeInfo nodeId="3403946177685372708" conceptFqName="jetbrains.mps.baseLanguage.structure.InstanceMethodDeclaration" fileName="Direction2D.java" startLine="45" startPosition="0" endLine="53" endPosition="0" />
-    <nodeInfo nodeId="1265453300920942416" conceptFqName="jetbrains.mps.baseLanguage.structure.StaticMethodDeclaration" fileName="Direction2D.java" startLine="73" startPosition="0" endLine="82" endPosition="0" />
-    <nodeInfo nodeId="315882939481360497" conceptFqName="jetbrains.mps.baseLanguage.structure.InstanceMethodDeclaration" fileName="Direction2D.java" startLine="31" startPosition="0" endLine="45" endPosition="0" />
+    <nodeInfo nodeId="315882939481360451" conceptFqName="jetbrains.mps.baseLanguage.structure.InstanceMethodDeclaration" propertyString="turnClockwise#(I)Ljetbrains/mps/graphLayout/util/Direction2D;" fileName="Direction2D.java" startLine="19" startPosition="0" endLine="27" endPosition="0" />
+    <nodeInfo nodeId="3403946177685372708" conceptFqName="jetbrains.mps.baseLanguage.structure.InstanceMethodDeclaration" propertyString="getClockwiseTurn#(Ljetbrains/mps/graphLayout/util/Direction2D;)I" fileName="Direction2D.java" startLine="45" startPosition="0" endLine="53" endPosition="0" />
+    <nodeInfo nodeId="1265453300920942416" conceptFqName="jetbrains.mps.baseLanguage.structure.StaticMethodDeclaration" propertyString="getByShifts#(II)Ljetbrains/mps/graphLayout/util/Direction2D;" fileName="Direction2D.java" startLine="73" startPosition="0" endLine="82" endPosition="0" />
+    <nodeInfo nodeId="315882939481360497" conceptFqName="jetbrains.mps.baseLanguage.structure.InstanceMethodDeclaration" propertyString="getTurn#(Ljetbrains/mps/graphLayout/util/Direction2D;)I" fileName="Direction2D.java" startLine="31" startPosition="0" endLine="45" endPosition="0" />
     <scopeInfo nodeId="315882939481360328" fileName="Direction2D.java" startLine="83" startPosition="10" endLine="83" endPosition="10" />
     <scopeInfo nodeId="315882939481360472" fileName="Direction2D.java" startLine="22" startPosition="18" endLine="23" endPosition="15" />
     <scopeInfo nodeId="315882939481360491" fileName="Direction2D.java" startLine="28" startPosition="33" endLine="29" endPosition="28" />
@@ -57,16 +57,16 @@
     <scopeInfo nodeId="1265453300920942435" fileName="Direction2D.java" startLine="76" startPosition="45" endLine="77" endPosition="19" />
     <scopeInfo nodeId="315882939481360325" fileName="Direction2D.java" startLine="15" startPosition="31" endLine="17" endPosition="14" />
     <scopeInfo nodeId="1265453300920942429" fileName="Direction2D.java" startLine="75" startPosition="50" endLine="78" endPosition="7" />
-    <scopeInfo nodeId="315882939481360322" fileName="Direction2D.java" startLine="14" startPosition="0" endLine="18" endPosition="3">
+    <scopeInfo nodeId="315882939481360322" conceptFqName="jetbrains.mps.baseLanguage.structure.ConstructorDeclaration" propertyString="Direction2D#(II)V" fileName="Direction2D.java" startLine="14" startPosition="0" endLine="18" endPosition="3">
       <varInfo nodeId="272112265222927598" varName="dx" />
       <varInfo nodeId="272112265222927600" varName="dy" />
     </scopeInfo>
-    <scopeInfo nodeId="315882939481360488" fileName="Direction2D.java" startLine="27" startPosition="0" endLine="31" endPosition="0" />
-    <scopeInfo nodeId="102129025687872308" fileName="Direction2D.java" startLine="53" startPosition="0" endLine="57" endPosition="0" />
-    <scopeInfo nodeId="3182425861591380991" fileName="Direction2D.java" startLine="57" startPosition="0" endLine="61" endPosition="0" />
-    <scopeInfo nodeId="272112265222927643" fileName="Direction2D.java" startLine="61" startPosition="0" endLine="65" endPosition="0" />
-    <scopeInfo nodeId="272112265222927664" fileName="Direction2D.java" startLine="65" startPosition="0" endLine="69" endPosition="0" />
-    <scopeInfo nodeId="315882939481360433" fileName="Direction2D.java" startLine="69" startPosition="0" endLine="73" endPosition="0">
+    <scopeInfo nodeId="315882939481360488" conceptFqName="jetbrains.mps.baseLanguage.structure.InstanceMethodDeclaration" propertyString="opposite#()Ljetbrains/mps/graphLayout/util/Direction2D;" fileName="Direction2D.java" startLine="27" startPosition="0" endLine="31" endPosition="0" />
+    <scopeInfo nodeId="102129025687872308" conceptFqName="jetbrains.mps.baseLanguage.structure.InstanceMethodDeclaration" propertyString="isHorizontal#()Z" fileName="Direction2D.java" startLine="53" startPosition="0" endLine="57" endPosition="0" />
+    <scopeInfo nodeId="3182425861591380991" conceptFqName="jetbrains.mps.baseLanguage.structure.InstanceMethodDeclaration" propertyString="isVertical#()Z" fileName="Direction2D.java" startLine="57" startPosition="0" endLine="61" endPosition="0" />
+    <scopeInfo nodeId="272112265222927643" conceptFqName="jetbrains.mps.baseLanguage.structure.InstanceMethodDeclaration" propertyString="dx#()I" fileName="Direction2D.java" startLine="61" startPosition="0" endLine="65" endPosition="0" />
+    <scopeInfo nodeId="272112265222927664" conceptFqName="jetbrains.mps.baseLanguage.structure.InstanceMethodDeclaration" propertyString="dy#()I" fileName="Direction2D.java" startLine="65" startPosition="0" endLine="69" endPosition="0" />
+    <scopeInfo nodeId="315882939481360433" conceptFqName="jetbrains.mps.baseLanguage.structure.StaticMethodDeclaration" propertyString="get#(I)Ljetbrains/mps/graphLayout/util/Direction2D;" fileName="Direction2D.java" startLine="69" startPosition="0" endLine="73" endPosition="0">
       <varInfo nodeId="315882939481360438" varName="intDirection" />
     </scopeInfo>
     <scopeInfo nodeId="315882939481360454" fileName="Direction2D.java" startLine="20" startPosition="47" endLine="25" endPosition="20">
@@ -75,50 +75,50 @@
     <scopeInfo nodeId="3403946177685372711" fileName="Direction2D.java" startLine="46" startPosition="48" endLine="51" endPosition="16">
       <varInfo nodeId="3403946177685372716" varName="turn" />
     </scopeInfo>
-    <scopeInfo nodeId="1265453300920942426" fileName="Direction2D.java" startLine="74" startPosition="57" endLine="79" endPosition="5">
+    <scopeInfo nodeId="1265453300920942426" conceptFqName="jetbrains.mps.baseLanguage.structure.ForeachStatement" fileName="Direction2D.java" startLine="74" startPosition="57" endLine="79" endPosition="5">
       <varInfo nodeId="1265453300920942427" varName="dir" />
     </scopeInfo>
     <scopeInfo nodeId="1265453300920942419" fileName="Direction2D.java" startLine="74" startPosition="57" endLine="80" endPosition="16" />
-    <scopeInfo nodeId="315882939481360451" fileName="Direction2D.java" startLine="19" startPosition="0" endLine="27" endPosition="0">
+    <scopeInfo nodeId="315882939481360451" conceptFqName="jetbrains.mps.baseLanguage.structure.InstanceMethodDeclaration" propertyString="turnClockwise#(I)Ljetbrains/mps/graphLayout/util/Direction2D;" fileName="Direction2D.java" startLine="19" startPosition="0" endLine="27" endPosition="0">
       <varInfo nodeId="315882939481360456" varName="angle" />
     </scopeInfo>
-    <scopeInfo nodeId="3403946177685372708" fileName="Direction2D.java" startLine="45" startPosition="0" endLine="53" endPosition="0">
+    <scopeInfo nodeId="3403946177685372708" conceptFqName="jetbrains.mps.baseLanguage.structure.InstanceMethodDeclaration" propertyString="getClockwiseTurn#(Ljetbrains/mps/graphLayout/util/Direction2D;)I" fileName="Direction2D.java" startLine="45" startPosition="0" endLine="53" endPosition="0">
       <varInfo nodeId="3403946177685372713" varName="dir" />
     </scopeInfo>
-    <scopeInfo nodeId="1265453300920942416" fileName="Direction2D.java" startLine="73" startPosition="0" endLine="82" endPosition="0">
+    <scopeInfo nodeId="1265453300920942416" conceptFqName="jetbrains.mps.baseLanguage.structure.StaticMethodDeclaration" propertyString="getByShifts#(II)Ljetbrains/mps/graphLayout/util/Direction2D;" fileName="Direction2D.java" startLine="73" startPosition="0" endLine="82" endPosition="0">
       <varInfo nodeId="1265453300920942421" varName="dx" />
       <varInfo nodeId="1265453300920942423" varName="dy" />
     </scopeInfo>
     <scopeInfo nodeId="315882939481360500" fileName="Direction2D.java" startLine="32" startPosition="39" endLine="43" endPosition="16">
       <varInfo nodeId="315882939481360504" varName="turn" />
     </scopeInfo>
-    <scopeInfo nodeId="315882939481360497" fileName="Direction2D.java" startLine="31" startPosition="0" endLine="45" endPosition="0">
+    <scopeInfo nodeId="315882939481360497" conceptFqName="jetbrains.mps.baseLanguage.structure.InstanceMethodDeclaration" propertyString="getTurn#(Ljetbrains/mps/graphLayout/util/Direction2D;)I" fileName="Direction2D.java" startLine="31" startPosition="0" endLine="45" endPosition="0">
       <varInfo nodeId="315882939481360501" varName="dir" />
     </scopeInfo>
     <unitInfo nodeId="315882939481360320" fileName="Direction2D.java" startLine="6" startPosition="0" endLine="86" endPosition="0" unitName="jetbrains.mps.graphLayout.util.Direction2D" />
   </root>
   <root nodeId="40016457508978131">
-    <nodeInfo nodeId="40016457508978132" conceptFqName="jetbrains.mps.baseLanguage.structure.InstanceMethodDeclaration" fileName="Filter.java" startLine="6" startPosition="28" endLine="7" endPosition="29" />
-    <scopeInfo nodeId="40016457508978132" fileName="Filter.java" startLine="6" startPosition="28" endLine="7" endPosition="29">
+    <nodeInfo nodeId="40016457508978132" conceptFqName="jetbrains.mps.baseLanguage.structure.InstanceMethodDeclaration" propertyString="accept#(null)Z" fileName="Filter.java" startLine="6" startPosition="28" endLine="7" endPosition="29" />
+    <scopeInfo nodeId="40016457508978132" conceptFqName="jetbrains.mps.baseLanguage.structure.InstanceMethodDeclaration" propertyString="accept#(null)Z" fileName="Filter.java" startLine="6" startPosition="28" endLine="7" endPosition="29">
       <varInfo nodeId="40016457508978136" varName="t" />
     </scopeInfo>
     <unitInfo nodeId="40016457508978131" fileName="Filter.java" startLine="6" startPosition="0" endLine="9" endPosition="0" unitName="jetbrains.mps.graphLayout.util.Filter" />
   </root>
   <root nodeId="40016457508983181">
     <nodeInfo nodeId="40016457508983198" conceptFqName="jetbrains.mps.baseLanguage.structure.ReturnStatement" fileName="DefaultFilter.java" startLine="10" startPosition="30" endLine="11" endPosition="16" />
-    <nodeInfo nodeId="40016457508983183" conceptFqName="jetbrains.mps.baseLanguage.structure.ConstructorDeclaration" fileName="DefaultFilter.java" startLine="6" startPosition="52" endLine="8" endPosition="3" />
-    <nodeInfo nodeId="40016457508983191" conceptFqName="jetbrains.mps.baseLanguage.structure.InstanceMethodDeclaration" fileName="DefaultFilter.java" startLine="9" startPosition="0" endLine="13" endPosition="0" />
+    <nodeInfo nodeId="40016457508983183" conceptFqName="jetbrains.mps.baseLanguage.structure.ConstructorDeclaration" propertyString="DefaultFilter#()V" fileName="DefaultFilter.java" startLine="6" startPosition="52" endLine="8" endPosition="3" />
+    <nodeInfo nodeId="40016457508983191" conceptFqName="jetbrains.mps.baseLanguage.structure.InstanceMethodDeclaration" propertyString="accept#(null)Z" fileName="DefaultFilter.java" startLine="9" startPosition="0" endLine="13" endPosition="0" />
     <scopeInfo nodeId="40016457508983186" fileName="DefaultFilter.java" startLine="7" startPosition="26" endLine="7" endPosition="26" />
     <scopeInfo nodeId="40016457508983194" fileName="DefaultFilter.java" startLine="10" startPosition="30" endLine="11" endPosition="16" />
-    <scopeInfo nodeId="40016457508983183" fileName="DefaultFilter.java" startLine="6" startPosition="52" endLine="8" endPosition="3" />
-    <scopeInfo nodeId="40016457508983191" fileName="DefaultFilter.java" startLine="9" startPosition="0" endLine="13" endPosition="0">
+    <scopeInfo nodeId="40016457508983183" conceptFqName="jetbrains.mps.baseLanguage.structure.ConstructorDeclaration" propertyString="DefaultFilter#()V" fileName="DefaultFilter.java" startLine="6" startPosition="52" endLine="8" endPosition="3" />
+    <scopeInfo nodeId="40016457508983191" conceptFqName="jetbrains.mps.baseLanguage.structure.InstanceMethodDeclaration" propertyString="accept#(null)Z" fileName="DefaultFilter.java" startLine="9" startPosition="0" endLine="13" endPosition="0">
       <varInfo nodeId="40016457508983196" varName="t" />
     </scopeInfo>
     <unitInfo nodeId="40016457508983181" fileName="DefaultFilter.java" startLine="6" startPosition="0" endLine="14" endPosition="0" unitName="jetbrains.mps.graphLayout.util.DefaultFilter" />
   </root>
   <root nodeId="5180427534211916789">
-    <nodeInfo nodeId="5180427534211916797" conceptFqName="jetbrains.mps.baseLanguage.structure.FieldDeclaration" fileName="NodeMap.java" startLine="14" startPosition="49" endLine="15" endPosition="29" />
-    <nodeInfo nodeId="6220135881201382331" conceptFqName="jetbrains.mps.baseLanguage.structure.FieldDeclaration" fileName="NodeMap.java" startLine="15" startPosition="29" endLine="16" endPosition="24" />
+    <nodeInfo nodeId="5180427534211916797" conceptFqName="jetbrains.mps.baseLanguage.structure.FieldDeclaration" propertyString="myMap" fileName="NodeMap.java" startLine="14" startPosition="49" endLine="15" endPosition="29" />
+    <nodeInfo nodeId="6220135881201382331" conceptFqName="jetbrains.mps.baseLanguage.structure.FieldDeclaration" propertyString="myGraph" fileName="NodeMap.java" startLine="15" startPosition="29" endLine="16" endPosition="24" />
     <nodeInfo nodeId="5180427534211916804" conceptFqName="jetbrains.mps.baseLanguage.structure.ExpressionStatement" fileName="NodeMap.java" startLine="18" startPosition="31" endLine="19" endPosition="50" />
     <nodeInfo nodeId="6220135881201382347" conceptFqName="jetbrains.mps.baseLanguage.structure.ExpressionStatement" fileName="NodeMap.java" startLine="19" startPosition="50" endLine="20" endPosition="20" />
     <nodeInfo nodeId="5180427534212020960" conceptFqName="jetbrains.mps.baseLanguage.structure.ThrowStatement" fileName="NodeMap.java" startLine="23" startPosition="45" endLine="24" endPosition="60" />
@@ -151,23 +151,23 @@
     <nodeInfo nodeId="6220135881201387309" conceptFqName="jetbrains.mps.baseLanguage.structure.ForStatement" fileName="NodeMap.java" startLine="33" startPosition="63" endLine="36" endPosition="7" />
     <nodeInfo nodeId="5180427534212036524" conceptFqName="jetbrains.mps.baseLanguage.structure.ForStatement" fileName="NodeMap.java" startLine="85" startPosition="35" endLine="88" endPosition="7" />
     <nodeInfo nodeId="5180427534212034622" conceptFqName="jetbrains.mps.baseLanguage.structure.ForStatement" fileName="NodeMap.java" startLine="95" startPosition="34" endLine="98" endPosition="5" />
-    <nodeInfo nodeId="5180427534211916791" conceptFqName="jetbrains.mps.baseLanguage.structure.ConstructorDeclaration" fileName="NodeMap.java" startLine="17" startPosition="0" endLine="21" endPosition="3" />
-    <nodeInfo nodeId="5180427534212020252" conceptFqName="jetbrains.mps.baseLanguage.structure.InstanceMethodDeclaration" fileName="NodeMap.java" startLine="22" startPosition="0" endLine="26" endPosition="0" />
-    <nodeInfo nodeId="5180427534212020259" conceptFqName="jetbrains.mps.baseLanguage.structure.InstanceMethodDeclaration" fileName="NodeMap.java" startLine="26" startPosition="0" endLine="30" endPosition="0" />
-    <nodeInfo nodeId="5180427534212020269" conceptFqName="jetbrains.mps.baseLanguage.structure.InstanceMethodDeclaration" fileName="NodeMap.java" startLine="41" startPosition="0" endLine="45" endPosition="0" />
-    <nodeInfo nodeId="5180427534212020273" conceptFqName="jetbrains.mps.baseLanguage.structure.InstanceMethodDeclaration" fileName="NodeMap.java" startLine="45" startPosition="0" endLine="49" endPosition="0" />
-    <nodeInfo nodeId="5180427534212020283" conceptFqName="jetbrains.mps.baseLanguage.structure.InstanceMethodDeclaration" fileName="NodeMap.java" startLine="49" startPosition="0" endLine="53" endPosition="0" />
-    <nodeInfo nodeId="5180427534212020303" conceptFqName="jetbrains.mps.baseLanguage.structure.InstanceMethodDeclaration" fileName="NodeMap.java" startLine="67" startPosition="0" endLine="71" endPosition="0" />
-    <nodeInfo nodeId="5180427534212020309" conceptFqName="jetbrains.mps.baseLanguage.structure.InstanceMethodDeclaration" fileName="NodeMap.java" startLine="71" startPosition="0" endLine="75" endPosition="0" />
-    <nodeInfo nodeId="5180427534212020315" conceptFqName="jetbrains.mps.baseLanguage.structure.InstanceMethodDeclaration" fileName="NodeMap.java" startLine="75" startPosition="0" endLine="79" endPosition="0" />
-    <nodeInfo nodeId="5180427534212020319" conceptFqName="jetbrains.mps.baseLanguage.structure.InstanceMethodDeclaration" fileName="NodeMap.java" startLine="79" startPosition="0" endLine="83" endPosition="0" />
+    <nodeInfo nodeId="5180427534211916791" conceptFqName="jetbrains.mps.baseLanguage.structure.ConstructorDeclaration" propertyString="NodeMap#(Ljetbrains/mps/graphLayout/graph/Graph;)V" fileName="NodeMap.java" startLine="17" startPosition="0" endLine="21" endPosition="3" />
+    <nodeInfo nodeId="5180427534212020252" conceptFqName="jetbrains.mps.baseLanguage.structure.InstanceMethodDeclaration" propertyString="entrySet#()Ljava/util/Set;" fileName="NodeMap.java" startLine="22" startPosition="0" endLine="26" endPosition="0" />
+    <nodeInfo nodeId="5180427534212020259" conceptFqName="jetbrains.mps.baseLanguage.structure.InstanceMethodDeclaration" propertyString="values#()Ljava/util/Collection;" fileName="NodeMap.java" startLine="26" startPosition="0" endLine="30" endPosition="0" />
+    <nodeInfo nodeId="5180427534212020269" conceptFqName="jetbrains.mps.baseLanguage.structure.InstanceMethodDeclaration" propertyString="clear#()V" fileName="NodeMap.java" startLine="41" startPosition="0" endLine="45" endPosition="0" />
+    <nodeInfo nodeId="5180427534212020273" conceptFqName="jetbrains.mps.baseLanguage.structure.InstanceMethodDeclaration" propertyString="putAll#(Ljava/util/Map;)V" fileName="NodeMap.java" startLine="45" startPosition="0" endLine="49" endPosition="0" />
+    <nodeInfo nodeId="5180427534212020283" conceptFqName="jetbrains.mps.baseLanguage.structure.InstanceMethodDeclaration" propertyString="remove#(Ljava/lang/Object;)null" fileName="NodeMap.java" startLine="49" startPosition="0" endLine="53" endPosition="0" />
+    <nodeInfo nodeId="5180427534212020303" conceptFqName="jetbrains.mps.baseLanguage.structure.InstanceMethodDeclaration" propertyString="containsValue#(Ljava/lang/Object;)Z" fileName="NodeMap.java" startLine="67" startPosition="0" endLine="71" endPosition="0" />
+    <nodeInfo nodeId="5180427534212020309" conceptFqName="jetbrains.mps.baseLanguage.structure.InstanceMethodDeclaration" propertyString="containsKey#(Ljava/lang/Object;)Z" fileName="NodeMap.java" startLine="71" startPosition="0" endLine="75" endPosition="0" />
+    <nodeInfo nodeId="5180427534212020315" conceptFqName="jetbrains.mps.baseLanguage.structure.InstanceMethodDeclaration" propertyString="isEmpty#()Z" fileName="NodeMap.java" startLine="75" startPosition="0" endLine="79" endPosition="0" />
+    <nodeInfo nodeId="5180427534212020319" conceptFqName="jetbrains.mps.baseLanguage.structure.InstanceMethodDeclaration" propertyString="size#()I" fileName="NodeMap.java" startLine="79" startPosition="0" endLine="83" endPosition="0" />
     <nodeInfo nodeId="5180427534212036522" conceptFqName="jetbrains.mps.baseLanguage.structure.IfStatement" fileName="NodeMap.java" startLine="84" startPosition="45" endLine="89" endPosition="5" />
     <nodeInfo nodeId="6220135881201387366" conceptFqName="jetbrains.mps.baseLanguage.structure.CommentedStatementsBlock" fileName="NodeMap.java" startLine="31" startPosition="29" endLine="38" endPosition="6" />
-    <nodeInfo nodeId="5180427534212020289" conceptFqName="jetbrains.mps.baseLanguage.structure.InstanceMethodDeclaration" fileName="NodeMap.java" startLine="53" startPosition="0" endLine="60" endPosition="0" />
-    <nodeInfo nodeId="5180427534212020297" conceptFqName="jetbrains.mps.baseLanguage.structure.InstanceMethodDeclaration" fileName="NodeMap.java" startLine="60" startPosition="0" endLine="67" endPosition="0" />
-    <nodeInfo nodeId="5180427534212036509" conceptFqName="jetbrains.mps.baseLanguage.structure.InstanceMethodDeclaration" fileName="NodeMap.java" startLine="83" startPosition="0" endLine="91" endPosition="0" />
-    <nodeInfo nodeId="5180427534212020264" conceptFqName="jetbrains.mps.baseLanguage.structure.InstanceMethodDeclaration" fileName="NodeMap.java" startLine="30" startPosition="0" endLine="41" endPosition="0" />
-    <nodeInfo nodeId="5180427534212034570" conceptFqName="jetbrains.mps.baseLanguage.structure.InstanceMethodDeclaration" fileName="NodeMap.java" startLine="91" startPosition="0" endLine="102" endPosition="0" />
+    <nodeInfo nodeId="5180427534212020289" conceptFqName="jetbrains.mps.baseLanguage.structure.InstanceMethodDeclaration" propertyString="put#(Ljetbrains/mps/graphLayout/graph/Node;null)null" fileName="NodeMap.java" startLine="53" startPosition="0" endLine="60" endPosition="0" />
+    <nodeInfo nodeId="5180427534212020297" conceptFqName="jetbrains.mps.baseLanguage.structure.InstanceMethodDeclaration" propertyString="get#(Ljava/lang/Object;)null" fileName="NodeMap.java" startLine="60" startPosition="0" endLine="67" endPosition="0" />
+    <nodeInfo nodeId="5180427534212036509" conceptFqName="jetbrains.mps.baseLanguage.structure.InstanceMethodDeclaration" propertyString="fillToPosition#(I)V" fileName="NodeMap.java" startLine="83" startPosition="0" endLine="91" endPosition="0" />
+    <nodeInfo nodeId="5180427534212020264" conceptFqName="jetbrains.mps.baseLanguage.structure.InstanceMethodDeclaration" propertyString="keySet#()Ljava/util/Set;" fileName="NodeMap.java" startLine="30" startPosition="0" endLine="41" endPosition="0" />
+    <nodeInfo nodeId="5180427534212034570" conceptFqName="jetbrains.mps.baseLanguage.structure.InstanceMethodDeclaration" propertyString="toString#()Ljava/lang/String;" fileName="NodeMap.java" startLine="91" startPosition="0" endLine="102" endPosition="0" />
     <scopeInfo nodeId="5180427534212020258" fileName="NodeMap.java" startLine="23" startPosition="45" endLine="24" endPosition="60" />
     <scopeInfo nodeId="5180427534212020263" fileName="NodeMap.java" startLine="27" startPosition="33" endLine="28" endPosition="17" />
     <scopeInfo nodeId="6220135881201387310" fileName="NodeMap.java" startLine="34" startPosition="46" endLine="35" endPosition="36" />
@@ -181,26 +181,26 @@
     <scopeInfo nodeId="5180427534212036530" fileName="NodeMap.java" startLine="86" startPosition="54" endLine="87" endPosition="24" />
     <scopeInfo nodeId="5180427534212034623" fileName="NodeMap.java" startLine="96" startPosition="44" endLine="97" endPosition="55" />
     <scopeInfo nodeId="5180427534211916794" fileName="NodeMap.java" startLine="18" startPosition="31" endLine="20" endPosition="20" />
-    <scopeInfo nodeId="6220135881201387309" fileName="NodeMap.java" startLine="33" startPosition="63" endLine="36" endPosition="7">
+    <scopeInfo nodeId="6220135881201387309" conceptFqName="jetbrains.mps.baseLanguage.structure.ForStatement" fileName="NodeMap.java" startLine="33" startPosition="63" endLine="36" endPosition="7">
       <varInfo nodeId="6220135881201387312" varName="i" />
     </scopeInfo>
     <scopeInfo nodeId="5180427534212036523" fileName="NodeMap.java" startLine="85" startPosition="35" endLine="88" endPosition="7" />
-    <scopeInfo nodeId="5180427534212036524" fileName="NodeMap.java" startLine="85" startPosition="35" endLine="88" endPosition="7">
+    <scopeInfo nodeId="5180427534212036524" conceptFqName="jetbrains.mps.baseLanguage.structure.ForStatement" fileName="NodeMap.java" startLine="85" startPosition="35" endLine="88" endPosition="7">
       <varInfo nodeId="5180427534212036525" varName="i" />
     </scopeInfo>
-    <scopeInfo nodeId="5180427534212034622" fileName="NodeMap.java" startLine="95" startPosition="34" endLine="98" endPosition="5">
+    <scopeInfo nodeId="5180427534212034622" conceptFqName="jetbrains.mps.baseLanguage.structure.ForStatement" fileName="NodeMap.java" startLine="95" startPosition="34" endLine="98" endPosition="5">
       <varInfo nodeId="5180427534212034625" varName="i" />
     </scopeInfo>
-    <scopeInfo nodeId="5180427534211916791" fileName="NodeMap.java" startLine="17" startPosition="0" endLine="21" endPosition="3">
+    <scopeInfo nodeId="5180427534211916791" conceptFqName="jetbrains.mps.baseLanguage.structure.ConstructorDeclaration" propertyString="NodeMap#(Ljetbrains/mps/graphLayout/graph/Graph;)V" fileName="NodeMap.java" startLine="17" startPosition="0" endLine="21" endPosition="3">
       <varInfo nodeId="5180427534211916795" varName="graph" />
     </scopeInfo>
-    <scopeInfo nodeId="5180427534212020252" fileName="NodeMap.java" startLine="22" startPosition="0" endLine="26" endPosition="0" />
-    <scopeInfo nodeId="5180427534212020259" fileName="NodeMap.java" startLine="26" startPosition="0" endLine="30" endPosition="0" />
-    <scopeInfo nodeId="5180427534212020269" fileName="NodeMap.java" startLine="41" startPosition="0" endLine="45" endPosition="0" />
-    <scopeInfo nodeId="5180427534212020273" fileName="NodeMap.java" startLine="45" startPosition="0" endLine="49" endPosition="0">
+    <scopeInfo nodeId="5180427534212020252" conceptFqName="jetbrains.mps.baseLanguage.structure.InstanceMethodDeclaration" propertyString="entrySet#()Ljava/util/Set;" fileName="NodeMap.java" startLine="22" startPosition="0" endLine="26" endPosition="0" />
+    <scopeInfo nodeId="5180427534212020259" conceptFqName="jetbrains.mps.baseLanguage.structure.InstanceMethodDeclaration" propertyString="values#()Ljava/util/Collection;" fileName="NodeMap.java" startLine="26" startPosition="0" endLine="30" endPosition="0" />
+    <scopeInfo nodeId="5180427534212020269" conceptFqName="jetbrains.mps.baseLanguage.structure.InstanceMethodDeclaration" propertyString="clear#()V" fileName="NodeMap.java" startLine="41" startPosition="0" endLine="45" endPosition="0" />
+    <scopeInfo nodeId="5180427534212020273" conceptFqName="jetbrains.mps.baseLanguage.structure.InstanceMethodDeclaration" propertyString="putAll#(Ljava/util/Map;)V" fileName="NodeMap.java" startLine="45" startPosition="0" endLine="49" endPosition="0">
       <varInfo nodeId="5180427534212020276" varName="map" />
     </scopeInfo>
-    <scopeInfo nodeId="5180427534212020283" fileName="NodeMap.java" startLine="49" startPosition="0" endLine="53" endPosition="0">
+    <scopeInfo nodeId="5180427534212020283" conceptFqName="jetbrains.mps.baseLanguage.structure.InstanceMethodDeclaration" propertyString="remove#(Ljava/lang/Object;)null" fileName="NodeMap.java" startLine="49" startPosition="0" endLine="53" endPosition="0">
       <varInfo nodeId="5180427534212020286" varName="object" />
     </scopeInfo>
     <scopeInfo nodeId="5180427534212020296" fileName="NodeMap.java" startLine="54" startPosition="36" endLine="58" endPosition="17">
@@ -210,31 +210,31 @@
       <varInfo nodeId="5180427534212036549" varName="index" />
       <varInfo nodeId="5180427534212020388" varName="node" />
     </scopeInfo>
-    <scopeInfo nodeId="5180427534212020303" fileName="NodeMap.java" startLine="67" startPosition="0" endLine="71" endPosition="0">
+    <scopeInfo nodeId="5180427534212020303" conceptFqName="jetbrains.mps.baseLanguage.structure.InstanceMethodDeclaration" propertyString="containsValue#(Ljava/lang/Object;)Z" fileName="NodeMap.java" startLine="67" startPosition="0" endLine="71" endPosition="0">
       <varInfo nodeId="5180427534212020306" varName="object" />
     </scopeInfo>
-    <scopeInfo nodeId="5180427534212020309" fileName="NodeMap.java" startLine="71" startPosition="0" endLine="75" endPosition="0">
+    <scopeInfo nodeId="5180427534212020309" conceptFqName="jetbrains.mps.baseLanguage.structure.InstanceMethodDeclaration" propertyString="containsKey#(Ljava/lang/Object;)Z" fileName="NodeMap.java" startLine="71" startPosition="0" endLine="75" endPosition="0">
       <varInfo nodeId="5180427534212020312" varName="object" />
     </scopeInfo>
-    <scopeInfo nodeId="5180427534212020315" fileName="NodeMap.java" startLine="75" startPosition="0" endLine="79" endPosition="0" />
-    <scopeInfo nodeId="5180427534212020319" fileName="NodeMap.java" startLine="79" startPosition="0" endLine="83" endPosition="0" />
+    <scopeInfo nodeId="5180427534212020315" conceptFqName="jetbrains.mps.baseLanguage.structure.InstanceMethodDeclaration" propertyString="isEmpty#()Z" fileName="NodeMap.java" startLine="75" startPosition="0" endLine="79" endPosition="0" />
+    <scopeInfo nodeId="5180427534212020319" conceptFqName="jetbrains.mps.baseLanguage.structure.InstanceMethodDeclaration" propertyString="size#()I" fileName="NodeMap.java" startLine="79" startPosition="0" endLine="83" endPosition="0" />
     <scopeInfo nodeId="5180427534212036512" fileName="NodeMap.java" startLine="84" startPosition="45" endLine="89" endPosition="5" />
-    <scopeInfo nodeId="5180427534212020289" fileName="NodeMap.java" startLine="53" startPosition="0" endLine="60" endPosition="0">
+    <scopeInfo nodeId="5180427534212020289" conceptFqName="jetbrains.mps.baseLanguage.structure.InstanceMethodDeclaration" propertyString="put#(Ljetbrains/mps/graphLayout/graph/Node;null)null" fileName="NodeMap.java" startLine="53" startPosition="0" endLine="60" endPosition="0">
       <varInfo nodeId="5180427534212020292" varName="node" />
       <varInfo nodeId="5180427534212020294" varName="value" />
     </scopeInfo>
-    <scopeInfo nodeId="5180427534212020297" fileName="NodeMap.java" startLine="60" startPosition="0" endLine="67" endPosition="0">
+    <scopeInfo nodeId="5180427534212020297" conceptFqName="jetbrains.mps.baseLanguage.structure.InstanceMethodDeclaration" propertyString="get#(Ljava/lang/Object;)null" fileName="NodeMap.java" startLine="60" startPosition="0" endLine="67" endPosition="0">
       <varInfo nodeId="5180427534212020300" varName="object" />
     </scopeInfo>
     <scopeInfo nodeId="5180427534212034573" fileName="NodeMap.java" startLine="93" startPosition="28" endLine="100" endPosition="30">
       <varInfo nodeId="5180427534212034586" varName="builder" />
     </scopeInfo>
     <scopeInfo nodeId="5180427534212020268" fileName="NodeMap.java" startLine="31" startPosition="29" endLine="39" endPosition="60" />
-    <scopeInfo nodeId="5180427534212036509" fileName="NodeMap.java" startLine="83" startPosition="0" endLine="91" endPosition="0">
+    <scopeInfo nodeId="5180427534212036509" conceptFqName="jetbrains.mps.baseLanguage.structure.InstanceMethodDeclaration" propertyString="fillToPosition#(I)V" fileName="NodeMap.java" startLine="83" startPosition="0" endLine="91" endPosition="0">
       <varInfo nodeId="5180427534212036514" varName="position" />
     </scopeInfo>
-    <scopeInfo nodeId="5180427534212020264" fileName="NodeMap.java" startLine="30" startPosition="0" endLine="41" endPosition="0" />
-    <scopeInfo nodeId="5180427534212034570" fileName="NodeMap.java" startLine="91" startPosition="0" endLine="102" endPosition="0" />
+    <scopeInfo nodeId="5180427534212020264" conceptFqName="jetbrains.mps.baseLanguage.structure.InstanceMethodDeclaration" propertyString="keySet#()Ljava/util/Set;" fileName="NodeMap.java" startLine="30" startPosition="0" endLine="41" endPosition="0" />
+    <scopeInfo nodeId="5180427534212034570" conceptFqName="jetbrains.mps.baseLanguage.structure.InstanceMethodDeclaration" propertyString="toString#()Ljava/lang/String;" fileName="NodeMap.java" startLine="91" startPosition="0" endLine="102" endPosition="0" />
     <unitInfo nodeId="5180427534211916789" fileName="NodeMap.java" startLine="14" startPosition="0" endLine="103" endPosition="0" unitName="jetbrains.mps.graphLayout.util.NodeMap" />
   </root>
   <root nodeId="5639900666367221336">
@@ -327,33 +327,33 @@
     <nodeInfo nodeId="5368829933099654608" conceptFqName="jetbrains.mps.baseLanguage.structure.IfStatement" fileName="GeomUtil.java" startLine="149" startPosition="5" endLine="152" endPosition="5" />
     <nodeInfo nodeId="5368829933099654617" conceptFqName="jetbrains.mps.baseLanguage.structure.IfStatement" fileName="GeomUtil.java" startLine="152" startPosition="5" endLine="155" endPosition="5" />
     <nodeInfo nodeId="8527875266531954531" conceptFqName="jetbrains.mps.baseLanguage.structure.IfStatement" fileName="GeomUtil.java" startLine="181" startPosition="55" endLine="184" endPosition="7" />
-    <nodeInfo nodeId="5639900666367221376" conceptFqName="jetbrains.mps.baseLanguage.structure.StaticMethodDeclaration" fileName="GeomUtil.java" startLine="13" startPosition="23" endLine="17" endPosition="0" />
-    <nodeInfo nodeId="5639900666367292092" conceptFqName="jetbrains.mps.baseLanguage.structure.StaticMethodDeclaration" fileName="GeomUtil.java" startLine="17" startPosition="0" endLine="21" endPosition="0" />
-    <nodeInfo nodeId="6160477238666598196" conceptFqName="jetbrains.mps.baseLanguage.structure.StaticMethodDeclaration" fileName="GeomUtil.java" startLine="52" startPosition="0" endLine="56" endPosition="0" />
+    <nodeInfo nodeId="5639900666367221376" conceptFqName="jetbrains.mps.baseLanguage.structure.StaticMethodDeclaration" propertyString="insideOpenSegment#(III)Z" fileName="GeomUtil.java" startLine="13" startPosition="23" endLine="17" endPosition="0" />
+    <nodeInfo nodeId="5639900666367292092" conceptFqName="jetbrains.mps.baseLanguage.structure.StaticMethodDeclaration" propertyString="insideClosedSegment#(III)Z" fileName="GeomUtil.java" startLine="17" startPosition="0" endLine="21" endPosition="0" />
+    <nodeInfo nodeId="6160477238666598196" conceptFqName="jetbrains.mps.baseLanguage.structure.StaticMethodDeclaration" propertyString="contains#(Ljetbrains/mps/graphLayout/intGeom2D/Rectangle;Ljetbrains/mps/graphLayout/intGeom2D/Point;)Z" fileName="GeomUtil.java" startLine="52" startPosition="0" endLine="56" endPosition="0" />
     <nodeInfo nodeId="272112265222926971" conceptFqName="jetbrains.mps.baseLanguage.structure.BlockStatement" fileName="GeomUtil.java" startLine="89" startPosition="12" endLine="93" endPosition="7" />
-    <nodeInfo nodeId="8680836410351713675" conceptFqName="jetbrains.mps.baseLanguage.structure.StaticMethodDeclaration" fileName="GeomUtil.java" startLine="97" startPosition="0" endLine="101" endPosition="0" />
-    <nodeInfo nodeId="5368829933099654684" conceptFqName="jetbrains.mps.baseLanguage.structure.StaticMethodDeclaration" fileName="GeomUtil.java" startLine="158" startPosition="0" endLine="162" endPosition="0" />
+    <nodeInfo nodeId="8680836410351713675" conceptFqName="jetbrains.mps.baseLanguage.structure.StaticMethodDeclaration" propertyString="intersects#(IIII)Z" fileName="GeomUtil.java" startLine="97" startPosition="0" endLine="101" endPosition="0" />
+    <nodeInfo nodeId="5368829933099654684" conceptFqName="jetbrains.mps.baseLanguage.structure.StaticMethodDeclaration" propertyString="maxCoord#(Ljetbrains/mps/graphLayout/intGeom2D/Rectangle;Ljetbrains/mps/graphLayout/util/Direction2D;)I" fileName="GeomUtil.java" startLine="158" startPosition="0" endLine="162" endPosition="0" />
     <nodeInfo nodeId="5368829933099812165" conceptFqName="jetbrains.mps.baseLanguage.structure.IfStatement" fileName="GeomUtil.java" startLine="163" startPosition="60" endLine="168" endPosition="5" />
     <nodeInfo nodeId="5368829933099812198" conceptFqName="jetbrains.mps.baseLanguage.structure.IfStatement" fileName="GeomUtil.java" startLine="171" startPosition="61" endLine="176" endPosition="5" />
     <nodeInfo nodeId="5327124464817432527" conceptFqName="jetbrains.mps.baseLanguage.structure.ForeachStatement" fileName="GeomUtil.java" startLine="34" startPosition="33" endLine="40" endPosition="5" />
-    <nodeInfo nodeId="1265453300920941774" conceptFqName="jetbrains.mps.baseLanguage.structure.StaticMethodDeclaration" fileName="GeomUtil.java" startLine="119" startPosition="0" endLine="125" endPosition="0" />
+    <nodeInfo nodeId="1265453300920941774" conceptFqName="jetbrains.mps.baseLanguage.structure.StaticMethodDeclaration" propertyString="getDirection#(Ljetbrains/mps/graphLayout/intGeom2D/Point;Ljetbrains/mps/graphLayout/intGeom2D/Point;)Ljetbrains/mps/graphLayout/util/Direction2D;" fileName="GeomUtil.java" startLine="119" startPosition="0" endLine="125" endPosition="0" />
     <nodeInfo nodeId="8527875266531954527" conceptFqName="jetbrains.mps.baseLanguage.structure.ForeachStatement" fileName="GeomUtil.java" startLine="180" startPosition="22" endLine="186" endPosition="5" />
-    <nodeInfo nodeId="5639900666367221478" conceptFqName="jetbrains.mps.baseLanguage.structure.StaticMethodDeclaration" fileName="GeomUtil.java" startLine="21" startPosition="0" endLine="29" endPosition="0" />
+    <nodeInfo nodeId="5639900666367221478" conceptFqName="jetbrains.mps.baseLanguage.structure.StaticMethodDeclaration" propertyString="getRectangle#(Ljetbrains/mps/graphLayout/intGeom2D/Point;Ljetbrains/mps/graphLayout/intGeom2D/Point;)Ljetbrains/mps/graphLayout/intGeom2D/Rectangle;" fileName="GeomUtil.java" startLine="21" startPosition="0" endLine="29" endPosition="0" />
     <nodeInfo nodeId="6160477238666701748" conceptFqName="jetbrains.mps.baseLanguage.structure.IfStatement" fileName="GeomUtil.java" startLine="57" startPosition="72" endLine="65" endPosition="5" />
     <nodeInfo nodeId="6160477238666701871" conceptFqName="jetbrains.mps.baseLanguage.structure.IfStatement" fileName="GeomUtil.java" startLine="65" startPosition="5" endLine="73" endPosition="5" />
-    <nodeInfo nodeId="5368829933099812155" conceptFqName="jetbrains.mps.baseLanguage.structure.StaticMethodDeclaration" fileName="GeomUtil.java" startLine="162" startPosition="0" endLine="170" endPosition="0" />
-    <nodeInfo nodeId="5368829933099812194" conceptFqName="jetbrains.mps.baseLanguage.structure.StaticMethodDeclaration" fileName="GeomUtil.java" startLine="170" startPosition="0" endLine="178" endPosition="0" />
-    <nodeInfo nodeId="6160477238666597965" conceptFqName="jetbrains.mps.baseLanguage.structure.StaticMethodDeclaration" fileName="GeomUtil.java" startLine="43" startPosition="0" endLine="52" endPosition="0" />
+    <nodeInfo nodeId="5368829933099812155" conceptFqName="jetbrains.mps.baseLanguage.structure.StaticMethodDeclaration" propertyString="width#(Ljetbrains/mps/graphLayout/intGeom2D/Rectangle;Ljetbrains/mps/graphLayout/util/Direction2D;)I" fileName="GeomUtil.java" startLine="162" startPosition="0" endLine="170" endPosition="0" />
+    <nodeInfo nodeId="5368829933099812194" conceptFqName="jetbrains.mps.baseLanguage.structure.StaticMethodDeclaration" propertyString="height#(Ljetbrains/mps/graphLayout/intGeom2D/Rectangle;Ljetbrains/mps/graphLayout/util/Direction2D;)I" fileName="GeomUtil.java" startLine="170" startPosition="0" endLine="178" endPosition="0" />
+    <nodeInfo nodeId="6160477238666597965" conceptFqName="jetbrains.mps.baseLanguage.structure.StaticMethodDeclaration" propertyString="onBorder#(Ljetbrains/mps/graphLayout/intGeom2D/Point;Ljetbrains/mps/graphLayout/intGeom2D/Rectangle;)Z" fileName="GeomUtil.java" startLine="43" startPosition="0" endLine="52" endPosition="0" />
     <nodeInfo nodeId="272112265222926937" conceptFqName="jetbrains.mps.baseLanguage.structure.IfStatement" fileName="GeomUtil.java" startLine="84" startPosition="55" endLine="93" endPosition="7" />
-    <nodeInfo nodeId="6526638447417134918" conceptFqName="jetbrains.mps.baseLanguage.structure.StaticMethodDeclaration" fileName="GeomUtil.java" startLine="136" startPosition="0" endLine="145" endPosition="0" />
+    <nodeInfo nodeId="6526638447417134918" conceptFqName="jetbrains.mps.baseLanguage.structure.StaticMethodDeclaration" propertyString="getCornerPoints#(Ljetbrains/mps/graphLayout/intGeom2D/Rectangle;)[Ljetbrains/mps/graphLayout/intGeom2D/Point;" fileName="GeomUtil.java" startLine="136" startPosition="0" endLine="145" endPosition="0" />
     <nodeInfo nodeId="272112265222926933" conceptFqName="jetbrains.mps.baseLanguage.structure.ForeachStatement" fileName="GeomUtil.java" startLine="83" startPosition="103" endLine="94" endPosition="5" />
-    <nodeInfo nodeId="1265453300920941910" conceptFqName="jetbrains.mps.baseLanguage.structure.StaticMethodDeclaration" fileName="GeomUtil.java" startLine="125" startPosition="0" endLine="136" endPosition="0" />
-    <nodeInfo nodeId="8527875266531954508" conceptFqName="jetbrains.mps.baseLanguage.structure.StaticMethodDeclaration" fileName="GeomUtil.java" startLine="178" startPosition="0" endLine="189" endPosition="0" />
-    <nodeInfo nodeId="5368829933099654579" conceptFqName="jetbrains.mps.baseLanguage.structure.StaticMethodDeclaration" fileName="GeomUtil.java" startLine="145" startPosition="0" endLine="158" endPosition="0" />
-    <nodeInfo nodeId="5327124464817432472" conceptFqName="jetbrains.mps.baseLanguage.structure.StaticMethodDeclaration" fileName="GeomUtil.java" startLine="29" startPosition="0" endLine="43" endPosition="0" />
-    <nodeInfo nodeId="272112265222956099" conceptFqName="jetbrains.mps.baseLanguage.structure.StaticMethodDeclaration" fileName="GeomUtil.java" startLine="101" startPosition="0" endLine="119" endPosition="0" />
-    <nodeInfo nodeId="6160477238666701735" conceptFqName="jetbrains.mps.baseLanguage.structure.StaticMethodDeclaration" fileName="GeomUtil.java" startLine="56" startPosition="0" endLine="76" endPosition="0" />
-    <nodeInfo nodeId="272112265222926837" conceptFqName="jetbrains.mps.baseLanguage.structure.StaticMethodDeclaration" fileName="GeomUtil.java" startLine="76" startPosition="0" endLine="97" endPosition="0" />
+    <nodeInfo nodeId="1265453300920941910" conceptFqName="jetbrains.mps.baseLanguage.structure.StaticMethodDeclaration" propertyString="getDirection#(II)I" fileName="GeomUtil.java" startLine="125" startPosition="0" endLine="136" endPosition="0" />
+    <nodeInfo nodeId="8527875266531954508" conceptFqName="jetbrains.mps.baseLanguage.structure.StaticMethodDeclaration" propertyString="intersects#(Ljetbrains/mps/graphLayout/intGeom2D/Rectangle;Ljava/util/List;)Z" fileName="GeomUtil.java" startLine="178" startPosition="0" endLine="189" endPosition="0" />
+    <nodeInfo nodeId="5368829933099654579" conceptFqName="jetbrains.mps.baseLanguage.structure.StaticMethodDeclaration" propertyString="minCoord#(Ljetbrains/mps/graphLayout/intGeom2D/Rectangle;Ljetbrains/mps/graphLayout/util/Direction2D;)I" fileName="GeomUtil.java" startLine="145" startPosition="0" endLine="158" endPosition="0" />
+    <nodeInfo nodeId="5327124464817432472" conceptFqName="jetbrains.mps.baseLanguage.structure.StaticMethodDeclaration" propertyString="getContainingRectangle#(Ljava/util/List;)Ljetbrains/mps/graphLayout/intGeom2D/Rectangle;" fileName="GeomUtil.java" startLine="29" startPosition="0" endLine="43" endPosition="0" />
+    <nodeInfo nodeId="272112265222956099" conceptFqName="jetbrains.mps.baseLanguage.structure.StaticMethodDeclaration" propertyString="pull#(Ljetbrains/mps/graphLayout/intGeom2D/Point;Ljetbrains/mps/graphLayout/intGeom2D/Point;Ljava/util/Map;)Ljetbrains/mps/graphLayout/intGeom2D/Point;" fileName="GeomUtil.java" startLine="101" startPosition="0" endLine="119" endPosition="0" />
+    <nodeInfo nodeId="6160477238666701735" conceptFqName="jetbrains.mps.baseLanguage.structure.StaticMethodDeclaration" propertyString="findOnBorder#(Ljetbrains/mps/graphLayout/intGeom2D/Rectangle;Ljetbrains/mps/graphLayout/intGeom2D/Point;Ljetbrains/mps/graphLayout/intGeom2D/Point;)Ljetbrains/mps/graphLayout/intGeom2D/Point;" fileName="GeomUtil.java" startLine="56" startPosition="0" endLine="76" endPosition="0" />
+    <nodeInfo nodeId="272112265222926837" conceptFqName="jetbrains.mps.baseLanguage.structure.StaticMethodDeclaration" propertyString="moveToBorder#(Ljetbrains/mps/graphLayout/intGeom2D/Rectangle;Ljetbrains/mps/graphLayout/intGeom2D/Point;Ljetbrains/mps/graphLayout/intGeom2D/Point;)Ljetbrains/mps/graphLayout/intGeom2D/Point;" fileName="GeomUtil.java" startLine="76" startPosition="0" endLine="97" endPosition="0" />
     <scopeInfo nodeId="5639900666367221379" fileName="GeomUtil.java" startLine="14" startPosition="72" endLine="15" endPosition="43" />
     <scopeInfo nodeId="5639900666367292095" fileName="GeomUtil.java" startLine="18" startPosition="74" endLine="19" endPosition="44" />
     <scopeInfo nodeId="6160477238666598199" fileName="GeomUtil.java" startLine="53" startPosition="59" endLine="54" endPosition="123" />
@@ -385,28 +385,28 @@
       <varInfo nodeId="1265453300920942475" varName="dx" />
       <varInfo nodeId="1265453300920942487" varName="dy" />
     </scopeInfo>
-    <scopeInfo nodeId="5639900666367221376" fileName="GeomUtil.java" startLine="13" startPosition="23" endLine="17" endPosition="0">
+    <scopeInfo nodeId="5639900666367221376" conceptFqName="jetbrains.mps.baseLanguage.structure.StaticMethodDeclaration" propertyString="insideOpenSegment#(III)Z" fileName="GeomUtil.java" startLine="13" startPosition="23" endLine="17" endPosition="0">
       <varInfo nodeId="5639900666367221382" varName="end2" />
       <varInfo nodeId="5639900666367221380" varName="end1" />
       <varInfo nodeId="5639900666367221385" varName="mid" />
     </scopeInfo>
-    <scopeInfo nodeId="5639900666367292092" fileName="GeomUtil.java" startLine="17" startPosition="0" endLine="21" endPosition="0">
+    <scopeInfo nodeId="5639900666367292092" conceptFqName="jetbrains.mps.baseLanguage.structure.StaticMethodDeclaration" propertyString="insideClosedSegment#(III)Z" fileName="GeomUtil.java" startLine="17" startPosition="0" endLine="21" endPosition="0">
       <varInfo nodeId="5639900666367292110" varName="end2" />
       <varInfo nodeId="5639900666367292108" varName="end1" />
       <varInfo nodeId="5639900666367292112" varName="mid" />
     </scopeInfo>
     <scopeInfo nodeId="5327124464817432530" fileName="GeomUtil.java" startLine="35" startPosition="55" endLine="39" endPosition="37" />
-    <scopeInfo nodeId="6160477238666598196" fileName="GeomUtil.java" startLine="52" startPosition="0" endLine="56" endPosition="0">
+    <scopeInfo nodeId="6160477238666598196" conceptFqName="jetbrains.mps.baseLanguage.structure.StaticMethodDeclaration" propertyString="contains#(Ljetbrains/mps/graphLayout/intGeom2D/Rectangle;Ljetbrains/mps/graphLayout/intGeom2D/Point;)Z" fileName="GeomUtil.java" startLine="52" startPosition="0" endLine="56" endPosition="0">
       <varInfo nodeId="6160477238666598203" varName="p" />
       <varInfo nodeId="6160477238666598201" varName="rect" />
     </scopeInfo>
-    <scopeInfo nodeId="8680836410351713675" fileName="GeomUtil.java" startLine="97" startPosition="0" endLine="101" endPosition="0">
+    <scopeInfo nodeId="8680836410351713675" conceptFqName="jetbrains.mps.baseLanguage.structure.StaticMethodDeclaration" propertyString="intersects#(IIII)Z" fileName="GeomUtil.java" startLine="97" startPosition="0" endLine="101" endPosition="0">
       <varInfo nodeId="8680836410351713688" varName="maxY" />
       <varInfo nodeId="8680836410351713682" varName="maxX" />
       <varInfo nodeId="8680836410351713680" varName="minX" />
       <varInfo nodeId="8680836410351713685" varName="minY" />
     </scopeInfo>
-    <scopeInfo nodeId="5368829933099654684" fileName="GeomUtil.java" startLine="158" startPosition="0" endLine="162" endPosition="0">
+    <scopeInfo nodeId="5368829933099654684" conceptFqName="jetbrains.mps.baseLanguage.structure.StaticMethodDeclaration" propertyString="maxCoord#(Ljetbrains/mps/graphLayout/intGeom2D/Rectangle;Ljetbrains/mps/graphLayout/util/Direction2D;)I" fileName="GeomUtil.java" startLine="158" startPosition="0" endLine="162" endPosition="0">
       <varInfo nodeId="5368829933099654691" varName="dir" />
       <varInfo nodeId="5368829933099654689" varName="rect" />
     </scopeInfo>
@@ -419,44 +419,44 @@
     </scopeInfo>
     <scopeInfo nodeId="5368829933099812158" fileName="GeomUtil.java" startLine="163" startPosition="60" endLine="168" endPosition="5" />
     <scopeInfo nodeId="5368829933099812197" fileName="GeomUtil.java" startLine="171" startPosition="61" endLine="176" endPosition="5" />
-    <scopeInfo nodeId="5327124464817432527" fileName="GeomUtil.java" startLine="34" startPosition="33" endLine="40" endPosition="5" />
+    <scopeInfo nodeId="5327124464817432527" conceptFqName="jetbrains.mps.baseLanguage.structure.ForeachStatement" fileName="GeomUtil.java" startLine="34" startPosition="33" endLine="40" endPosition="5" />
     <scopeInfo nodeId="6160477238666597968" fileName="GeomUtil.java" startLine="44" startPosition="59" endLine="50" endPosition="15">
       <varInfo nodeId="6160477238666597987" varName="res" />
     </scopeInfo>
     <scopeInfo nodeId="6160477238666701750" fileName="GeomUtil.java" startLine="58" startPosition="23" endLine="64" endPosition="7" />
     <scopeInfo nodeId="6160477238666701872" fileName="GeomUtil.java" startLine="66" startPosition="23" endLine="72" endPosition="7" />
-    <scopeInfo nodeId="1265453300920941774" fileName="GeomUtil.java" startLine="119" startPosition="0" endLine="125" endPosition="0">
+    <scopeInfo nodeId="1265453300920941774" conceptFqName="jetbrains.mps.baseLanguage.structure.StaticMethodDeclaration" propertyString="getDirection#(Ljetbrains/mps/graphLayout/intGeom2D/Point;Ljetbrains/mps/graphLayout/intGeom2D/Point;)Ljetbrains/mps/graphLayout/util/Direction2D;" fileName="GeomUtil.java" startLine="119" startPosition="0" endLine="125" endPosition="0">
       <varInfo nodeId="1265453300920941785" varName="end" />
       <varInfo nodeId="1265453300920941783" varName="begin" />
     </scopeInfo>
     <scopeInfo nodeId="6526638447417134921" fileName="GeomUtil.java" startLine="137" startPosition="57" endLine="143" endPosition="18">
       <varInfo nodeId="6526638447417134930" varName="points" />
     </scopeInfo>
-    <scopeInfo nodeId="8527875266531954527" fileName="GeomUtil.java" startLine="180" startPosition="22" endLine="186" endPosition="5" />
-    <scopeInfo nodeId="5639900666367221478" fileName="GeomUtil.java" startLine="21" startPosition="0" endLine="29" endPosition="0">
+    <scopeInfo nodeId="8527875266531954527" conceptFqName="jetbrains.mps.baseLanguage.structure.ForeachStatement" fileName="GeomUtil.java" startLine="180" startPosition="22" endLine="186" endPosition="5" />
+    <scopeInfo nodeId="5639900666367221478" conceptFqName="jetbrains.mps.baseLanguage.structure.StaticMethodDeclaration" propertyString="getRectangle#(Ljetbrains/mps/graphLayout/intGeom2D/Point;Ljetbrains/mps/graphLayout/intGeom2D/Point;)Ljetbrains/mps/graphLayout/intGeom2D/Rectangle;" fileName="GeomUtil.java" startLine="21" startPosition="0" endLine="29" endPosition="0">
       <varInfo nodeId="5639900666367221485" varName="p2" />
       <varInfo nodeId="5639900666367221483" varName="p1" />
     </scopeInfo>
     <scopeInfo nodeId="1265453300920941913" fileName="GeomUtil.java" startLine="126" startPosition="54" endLine="134" endPosition="21">
       <varInfo nodeId="1265453300920941921" varName="direction" />
     </scopeInfo>
-    <scopeInfo nodeId="5368829933099812155" fileName="GeomUtil.java" startLine="162" startPosition="0" endLine="170" endPosition="0">
+    <scopeInfo nodeId="5368829933099812155" conceptFqName="jetbrains.mps.baseLanguage.structure.StaticMethodDeclaration" propertyString="width#(Ljetbrains/mps/graphLayout/intGeom2D/Rectangle;Ljetbrains/mps/graphLayout/util/Direction2D;)I" fileName="GeomUtil.java" startLine="162" startPosition="0" endLine="170" endPosition="0">
       <varInfo nodeId="5368829933099812162" varName="dir" />
       <varInfo nodeId="5368829933099812160" varName="rect" />
     </scopeInfo>
-    <scopeInfo nodeId="5368829933099812194" fileName="GeomUtil.java" startLine="170" startPosition="0" endLine="178" endPosition="0">
+    <scopeInfo nodeId="5368829933099812194" conceptFqName="jetbrains.mps.baseLanguage.structure.StaticMethodDeclaration" propertyString="height#(Ljetbrains/mps/graphLayout/intGeom2D/Rectangle;Ljetbrains/mps/graphLayout/util/Direction2D;)I" fileName="GeomUtil.java" startLine="170" startPosition="0" endLine="178" endPosition="0">
       <varInfo nodeId="5368829933099812215" varName="dir" />
       <varInfo nodeId="5368829933099812213" varName="rect" />
     </scopeInfo>
     <scopeInfo nodeId="8527875266531954511" fileName="GeomUtil.java" startLine="179" startPosition="74" endLine="187" endPosition="17">
       <varInfo nodeId="8527875266531954524" varName="prev" />
     </scopeInfo>
-    <scopeInfo nodeId="6160477238666597965" fileName="GeomUtil.java" startLine="43" startPosition="0" endLine="52" endPosition="0">
+    <scopeInfo nodeId="6160477238666597965" conceptFqName="jetbrains.mps.baseLanguage.structure.StaticMethodDeclaration" propertyString="onBorder#(Ljetbrains/mps/graphLayout/intGeom2D/Point;Ljetbrains/mps/graphLayout/intGeom2D/Rectangle;)Z" fileName="GeomUtil.java" startLine="43" startPosition="0" endLine="52" endPosition="0">
       <varInfo nodeId="6160477238666597970" varName="p" />
       <varInfo nodeId="6160477238666597972" varName="rect" />
     </scopeInfo>
     <scopeInfo nodeId="272112265222926936" fileName="GeomUtil.java" startLine="84" startPosition="55" endLine="93" endPosition="7" />
-    <scopeInfo nodeId="6526638447417134918" fileName="GeomUtil.java" startLine="136" startPosition="0" endLine="145" endPosition="0">
+    <scopeInfo nodeId="6526638447417134918" conceptFqName="jetbrains.mps.baseLanguage.structure.StaticMethodDeclaration" propertyString="getCornerPoints#(Ljetbrains/mps/graphLayout/intGeom2D/Rectangle;)[Ljetbrains/mps/graphLayout/intGeom2D/Point;" fileName="GeomUtil.java" startLine="136" startPosition="0" endLine="145" endPosition="0">
       <varInfo nodeId="6526638447417134925" varName="rect" />
     </scopeInfo>
     <scopeInfo nodeId="5368829933099654582" fileName="GeomUtil.java" startLine="146" startPosition="63" endLine="156" endPosition="32" />
@@ -466,20 +466,20 @@
       <varInfo nodeId="5327124464817432482" varName="minX" />
       <varInfo nodeId="5327124464817432492" varName="minY" />
     </scopeInfo>
-    <scopeInfo nodeId="272112265222926933" fileName="GeomUtil.java" startLine="83" startPosition="103" endLine="94" endPosition="5" />
-    <scopeInfo nodeId="1265453300920941910" fileName="GeomUtil.java" startLine="125" startPosition="0" endLine="136" endPosition="0">
+    <scopeInfo nodeId="272112265222926933" conceptFqName="jetbrains.mps.baseLanguage.structure.ForeachStatement" fileName="GeomUtil.java" startLine="83" startPosition="103" endLine="94" endPosition="5" />
+    <scopeInfo nodeId="1265453300920941910" conceptFqName="jetbrains.mps.baseLanguage.structure.StaticMethodDeclaration" propertyString="getDirection#(II)I" fileName="GeomUtil.java" startLine="125" startPosition="0" endLine="136" endPosition="0">
       <varInfo nodeId="1265453300920941917" varName="end" />
       <varInfo nodeId="1265453300920941915" varName="begin" />
     </scopeInfo>
-    <scopeInfo nodeId="8527875266531954508" fileName="GeomUtil.java" startLine="178" startPosition="0" endLine="189" endPosition="0">
+    <scopeInfo nodeId="8527875266531954508" conceptFqName="jetbrains.mps.baseLanguage.structure.StaticMethodDeclaration" propertyString="intersects#(Ljetbrains/mps/graphLayout/intGeom2D/Rectangle;Ljava/util/List;)Z" fileName="GeomUtil.java" startLine="178" startPosition="0" endLine="189" endPosition="0">
       <varInfo nodeId="8527875266531954516" varName="polyline" />
       <varInfo nodeId="8527875266531954514" varName="rect" />
     </scopeInfo>
-    <scopeInfo nodeId="5368829933099654579" fileName="GeomUtil.java" startLine="145" startPosition="0" endLine="158" endPosition="0">
+    <scopeInfo nodeId="5368829933099654579" conceptFqName="jetbrains.mps.baseLanguage.structure.StaticMethodDeclaration" propertyString="minCoord#(Ljetbrains/mps/graphLayout/intGeom2D/Rectangle;Ljetbrains/mps/graphLayout/util/Direction2D;)I" fileName="GeomUtil.java" startLine="145" startPosition="0" endLine="158" endPosition="0">
       <varInfo nodeId="5368829933099654586" varName="dir" />
       <varInfo nodeId="5368829933099654584" varName="rect" />
     </scopeInfo>
-    <scopeInfo nodeId="5327124464817432472" fileName="GeomUtil.java" startLine="29" startPosition="0" endLine="43" endPosition="0">
+    <scopeInfo nodeId="5327124464817432472" conceptFqName="jetbrains.mps.baseLanguage.structure.StaticMethodDeclaration" propertyString="getContainingRectangle#(Ljava/util/List;)Ljetbrains/mps/graphLayout/intGeom2D/Rectangle;" fileName="GeomUtil.java" startLine="29" startPosition="0" endLine="43" endPosition="0">
       <varInfo nodeId="5327124464817432477" varName="points" />
     </scopeInfo>
     <scopeInfo nodeId="272112265222956102" fileName="GeomUtil.java" startLine="102" startPosition="88" endLine="117" endPosition="33">
@@ -491,17 +491,17 @@
       <varInfo nodeId="272112265222926853" varName="rectPoints" />
       <varInfo nodeId="272112265222926860" varName="ver" />
     </scopeInfo>
-    <scopeInfo nodeId="272112265222956099" fileName="GeomUtil.java" startLine="101" startPosition="0" endLine="119" endPosition="0">
+    <scopeInfo nodeId="272112265222956099" conceptFqName="jetbrains.mps.baseLanguage.structure.StaticMethodDeclaration" propertyString="pull#(Ljetbrains/mps/graphLayout/intGeom2D/Point;Ljetbrains/mps/graphLayout/intGeom2D/Point;Ljava/util/Map;)Ljetbrains/mps/graphLayout/intGeom2D/Point;" fileName="GeomUtil.java" startLine="101" startPosition="0" endLine="119" endPosition="0">
       <varInfo nodeId="272112265222956104" varName="center" />
       <varInfo nodeId="272112265222956106" varName="point" />
       <varInfo nodeId="272112265222956109" varName="shift" />
     </scopeInfo>
-    <scopeInfo nodeId="6160477238666701735" fileName="GeomUtil.java" startLine="56" startPosition="0" endLine="76" endPosition="0">
+    <scopeInfo nodeId="6160477238666701735" conceptFqName="jetbrains.mps.baseLanguage.structure.StaticMethodDeclaration" propertyString="findOnBorder#(Ljetbrains/mps/graphLayout/intGeom2D/Rectangle;Ljetbrains/mps/graphLayout/intGeom2D/Point;Ljetbrains/mps/graphLayout/intGeom2D/Point;)Ljetbrains/mps/graphLayout/intGeom2D/Point;" fileName="GeomUtil.java" startLine="56" startPosition="0" endLine="76" endPosition="0">
       <varInfo nodeId="6160477238666701745" varName="p2" />
       <varInfo nodeId="6160477238666701742" varName="p1" />
       <varInfo nodeId="6160477238666701740" varName="rect" />
     </scopeInfo>
-    <scopeInfo nodeId="272112265222926837" fileName="GeomUtil.java" startLine="76" startPosition="0" endLine="97" endPosition="0">
+    <scopeInfo nodeId="272112265222926837" conceptFqName="jetbrains.mps.baseLanguage.structure.StaticMethodDeclaration" propertyString="moveToBorder#(Ljetbrains/mps/graphLayout/intGeom2D/Rectangle;Ljetbrains/mps/graphLayout/intGeom2D/Point;Ljetbrains/mps/graphLayout/intGeom2D/Point;)Ljetbrains/mps/graphLayout/intGeom2D/Point;" fileName="GeomUtil.java" startLine="76" startPosition="0" endLine="97" endPosition="0">
       <varInfo nodeId="272112265222926849" varName="e" />
       <varInfo nodeId="272112265222926846" varName="b" />
       <varInfo nodeId="272112265222926844" varName="rect" />

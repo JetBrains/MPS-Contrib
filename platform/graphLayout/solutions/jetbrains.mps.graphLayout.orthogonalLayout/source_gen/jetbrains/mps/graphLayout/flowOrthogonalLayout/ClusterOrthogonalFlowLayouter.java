@@ -6,6 +6,7 @@ import java.util.Map;
 import jetbrains.mps.graphLayout.graph.Node;
 import java.util.List;
 import jetbrains.mps.graphLayout.graph.Edge;
+import jetbrains.mps.graphLayout.graph.EdgesHistoryManager;
 import jetbrains.mps.graphLayout.graphLayout.GraphLayout;
 import jetbrains.mps.graphLayout.graphLayout.ILayoutInfo;
 import jetbrains.mps.graphLayout.graph.IGraph;
@@ -20,12 +21,12 @@ import jetbrains.mps.graphLayout.intGeom2D.Point;
 import jetbrains.mps.internal.collections.runtime.ListSequence;
 import jetbrains.mps.internal.collections.runtime.backports.LinkedList;
 import jetbrains.mps.graphLayout.planarGraph.EmbeddedGraph;
-import jetbrains.mps.graphLayout.graph.EdgesHistoryManager;
 import jetbrains.mps.graphLayout.planarization.ClusteredGraphEmbeddingFinder;
 import jetbrains.mps.internal.collections.runtime.Sequence;
 
 public class ClusterOrthogonalFlowLayouter extends OrthogonalFlowLayouter {
   private Map<Node, List<Edge>> myClusterBorderMap;
+  private EdgesHistoryManager myHistoryManager;
 
   public ClusterOrthogonalFlowLayouter() {
   }
@@ -45,14 +46,17 @@ public class ClusterOrthogonalFlowLayouter extends OrthogonalFlowLayouter {
   }
 
   @Override
-  protected GraphLayout refineLayout(Graph graph, Set<Node> initialNodes, GraphLayout layout, Set<Edge> initialEdges, Map<Edge, List<Edge>> history, LayoutInfo layoutInfo, Map<Edge, Edge> labeledEdges) {
-    ClusteredGraphLayout refinedLayout = ((ClusteredGraphLayout) super.refineLayout(graph, initialNodes, layout, initialEdges, history, layoutInfo, labeledEdges));
+  protected GraphLayout refineLayout(Graph graph, Set<Node> initialNodes, GraphLayout layout, Set<Edge> initialEdges, Map<Edge, List<Edge>> history, Map<Edge, Edge> labeledEdges) {
+    ClusteredGraphLayout refinedLayout = ((ClusteredGraphLayout) super.refineLayout(graph, initialNodes, layout, initialEdges, history, labeledEdges));
     for (Node cluster : SetSequence.fromSet(MapSequence.fromMap(myClusterBorderMap).keySet())) {
       List<Edge> border = MapSequence.fromMap(myClusterBorderMap).get(cluster);
       List<Point> borderLayout = ListSequence.fromList(new LinkedList<Point>());
       for (Edge borderEdge : ListSequence.fromList(border)) {
-        List<Point> copyEdgeLayout = layout.getEdgeLayout(borderEdge);
-        ListSequence.fromList(borderLayout).addSequence(ListSequence.fromList(copyEdgeLayout));
+        List<Edge> borderEdgeHistory = MapSequence.fromMap(history).get(borderEdge);
+        for (Edge historyEdge : ListSequence.fromList(borderEdgeHistory)) {
+          List<Point> copyEdgeLayout = layout.getEdgeLayout(historyEdge);
+          ListSequence.fromList(borderLayout).addSequence(ListSequence.fromList(copyEdgeLayout));
+        }
       }
       refinedLayout.setClusterLayout(cluster, borderLayout);
     }
@@ -66,6 +70,7 @@ public class ClusterOrthogonalFlowLayouter extends OrthogonalFlowLayouter {
     EmbeddedGraph embeddedGraph = embeddingFinder.find(graph);
     myClusterBorderMap = embeddingFinder.getClusterBorderMap();
     this.checkClusterBorder(historyManager);
+    myHistoryManager = historyManager;
     return embeddedGraph;
   }
 

@@ -92,7 +92,7 @@ public class QuasiOrthogonalRepresentation_Test extends TestCase {
         System.out.println(dart + " angle = " + MapSequence.fromMap(angles).get(dart) + ", bends = " + MapSequence.fromMap(bends).get(dart) + ", opposite bends = " + MapSequence.fromMap(bends).get(embeddedGraph.getOpposite(dart)));
       }
     }
-    CheckEmbeddedGraph.checkEmbeddedGraph(embeddedGraph);
+    CheckEmbeddedGraph.checkEmbeddedGraph(embeddedGraph, false);
     OrthogonalRepresentationChecker.checkOrthogonalRepresentation(graph, bends, angles, 1);
   }
 }

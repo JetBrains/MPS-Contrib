@@ -79,29 +79,51 @@ public class EmbeddedGraph {
     return splitEdge(edge, ListSequence.fromList(new ArrayList<Edge>()));
   }
 
-  public Node splitEdge(Edge edge, List<Edge> newEdges) {
+  public Node splitEdge(final Edge edge, List<Edge> newEdges) {
     Graph originalGraph = this.getGraph();
     List<Edge> split = originalGraph.splitEdge(edge);
     ListSequence.fromList(newEdges).addSequence(ListSequence.fromList(split));
     Node newNode = ListSequence.fromList(split).getElement(0).getTarget();
     List<Face> facesToProcess = ListSequence.fromList(new ArrayList<Face>());
     ListSequence.fromList(facesToProcess).addSequence(ListSequence.fromList(getAdjacentFaces(edge)));
+    List<Edge> addOrder = null;
     for (Face face : ListSequence.fromList(facesToProcess)) {
       List<Dart> darts = face.getDarts();
-      int pos = 0;
-      while (ListSequence.fromList(darts).getElement(pos).getEdge() != edge) {
-        pos++;
-      }
-      Dart dartToReplace = ListSequence.fromList(darts).getElement(pos);
-      for (Edge newEdge : ListSequence.fromList(newEdges)) {
-        if (ListSequence.fromList(newEdge.getAdjacentNodes()).contains(dartToReplace.getSource())) {
-          this.setDart(face, pos, new Dart(newEdge, dartToReplace.getSource()));
+      int numDartsToRemove = ListSequence.fromList(darts).where(new IWhereFilter<Dart>() {
+        public boolean accept(Dart it) {
+          return it.getEdge() == edge;
         }
-      }
-      for (Edge newEdge : ListSequence.fromList(newEdges)) {
-        if (ListSequence.fromList(newEdge.getAdjacentNodes()).contains(dartToReplace.getTarget())) {
-          this.insertDart(face, pos + 1, new Dart(newEdge, newNode));
+      }).count();
+      // addOrder is added here to process case of a loop 
+      for (int dartNum = 0; dartNum < numDartsToRemove; dartNum++) {
+        int pos = 0;
+        while (ListSequence.fromList(darts).getElement(pos).getEdge() != edge) {
+          pos++;
         }
+        Dart dartToReplace = ListSequence.fromList(darts).getElement(pos);
+        if (addOrder == null) {
+          addOrder = newEdges;
+          if (dartToReplace.getSource() != edge.getSource()) {
+            addOrder = ListSequence.fromList(newEdges).reversedList();
+          }
+        } else {
+          addOrder = ListSequence.fromList(addOrder).reversedList();
+        }
+        setDart(face, pos, new Dart(ListSequence.fromList(addOrder).getElement(0), dartToReplace.getSource()));
+        insertDart(face, pos + 1, new Dart(ListSequence.fromList(addOrder).getElement(1), newNode));
+        /*
+          for (Edge newEdge : ListSequence.fromList(newEdges)) {
+            if (ListSequence.fromList(newEdge.getAdjacentNodes()).contains(dartToReplace.getSource())) {
+              this.setDart(face, pos, new Dart(newEdge, dartToReplace.getSource()));
+            }
+          }
+          for (Edge newEdge : ListSequence.fromList(newEdges)) {
+            if (ListSequence.fromList(newEdge.getAdjacentNodes()).contains(dartToReplace.getTarget())) {
+              this.insertDart(face, pos + 1, new Dart(newEdge, newNode));
+            }
+          }
+        */
+
       }
     }
     return newNode;
