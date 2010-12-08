@@ -14,6 +14,7 @@ import com.intellij.execution.configurations.GeneralCommandLine;
 import java.util.Set;
 import jetbrains.mps.internal.collections.runtime.SetSequence;
 import java.util.HashSet;
+import jetbrains.mps.vfs.IFile;
 import jetbrains.mps.project.AbstractModule;
 import jetbrains.mps.util.CollectionUtil;
 import jetbrains.mps.reloading.CommonPaths;
@@ -138,7 +139,10 @@ public abstract class BaseRunner {
 
   protected static Set<String> getModuleClasspath(IModule module, boolean withDependencies) {
     Set<String> res = SetSequence.fromSet(new HashSet<String>());
-    SetSequence.fromSet(res).addElement(module.getClassesGen().getAbsolutePath());
+    IFile classesGen = module.getClassesGen();
+    if (classesGen != null) {
+      SetSequence.fromSet(res).addElement(classesGen.getAbsolutePath());
+    }
     createModuleClasspath(module.getClassPathItem(), res);
     if (withDependencies) {
       createModuleClasspath(AbstractModule.getDependenciesClasspath(CollectionUtil.set(module), true), res);
