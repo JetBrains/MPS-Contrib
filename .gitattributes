@@ -3,9 +3,9 @@
 *.ipr text
 *.xml text
 *.java text
-*.mps text
-*.mpl text
-*.msd text
+*.mps text merge=mps
+*.mpl text merge=mps
+*.msd text merge=mps
 *.mpr text
 *.css text
 *.html text
