@@ -9,10 +9,10 @@ import jetbrains.mps.smodel.SNode;
 import jetbrains.mps.nodeEditor.cells.EditorCell_Collection;
 import jetbrains.mps.nodeEditor.cells.EditorCell_Constant;
 import jetbrains.mps.nodeEditor.cellProviders.CellProviderWithRole;
-import jetbrains.mps.lang.editor.cellProviders.PropertyCellProvider;
+import jetbrains.mps.lang.editor.cellProviders.RefCellCellProvider;
 import jetbrains.mps.smodel.IOperationContext;
 import jetbrains.mps.nodeEditor.EditorManager;
-import jetbrains.mps.lang.editor.cellProviders.RefCellCellProvider;
+import jetbrains.mps.lang.editor.cellProviders.PropertyCellProvider;
 import jetbrains.mps.nodeEditor.InlineCellProvider;
 
 public class TargetReferencePropertyValueExpression_Editor extends DefaultNodeEditor {
@@ -39,13 +39,13 @@ public class TargetReferencePropertyValueExpression_Editor extends DefaultNodeEd
     return editorCell;
   }
 
-  private EditorCell createProperty_826xl5_a(EditorContext editorContext, SNode node) {
-    CellProviderWithRole provider = new PropertyCellProvider(node, editorContext);
-    provider.setRole("fullName");
-    provider.setNoTargetText("<no fullName>");
+  private EditorCell createRefCell_826xl5_b0(EditorContext editorContext, SNode node) {
+    CellProviderWithRole provider = new RefCellCellProvider(node, editorContext);
+    provider.setRole("declaration");
+    provider.setNoTargetText("<no declaration>");
     EditorCell editorCell;
+    provider.setAuxiliaryCellProvider(new TargetReferencePropertyValueExpression_Editor._Inline_826xl5_a1a());
     editorCell = provider.createEditorCell(editorContext);
-    editorCell.setCellId("property_fullName");
     editorCell.setSubstituteInfo(provider.createDefaultSubstituteInfo());
     SNode attributeConcept = provider.getRoleAttribute();
     Class attributeKind = provider.getRoleAttributeClass();
@@ -57,13 +57,13 @@ public class TargetReferencePropertyValueExpression_Editor extends DefaultNodeEd
     return editorCell;
   }
 
-  private EditorCell createRefCell_826xl5_b0(EditorContext editorContext, SNode node) {
-    CellProviderWithRole provider = new RefCellCellProvider(node, editorContext);
-    provider.setRole("declaration");
-    provider.setNoTargetText("<no declaration>");
+  private EditorCell createProperty_826xl5_a(EditorContext editorContext, SNode node) {
+    CellProviderWithRole provider = new PropertyCellProvider(node, editorContext);
+    provider.setRole("fullName");
+    provider.setNoTargetText("<no fullName>");
     EditorCell editorCell;
-    provider.setAuxiliaryCellProvider(new TargetReferencePropertyValueExpression_Editor._Inline_826xl5_a1a());
     editorCell = provider.createEditorCell(editorContext);
+    editorCell.setCellId("property_fullName");
     editorCell.setSubstituteInfo(provider.createDefaultSubstituteInfo());
     SNode attributeConcept = provider.getRoleAttribute();
     Class attributeKind = provider.getRoleAttributeClass();
