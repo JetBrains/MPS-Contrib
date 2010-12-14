@@ -33,6 +33,9 @@ public class ShortestPathEmbeddingFinder implements IEmbeddingFinder {
   }
 
   public EmbeddedGraph find(Graph graph) {
+    if (graph.getNumNodes() < 2) {
+      return new EmbeddedGraph(graph);
+    }
     final EmbeddedGraph embeddedGraph = myInitialFinder.find(graph);
     if (SHOW_LOG > 0) {
       System.out.println("initial embedding: ");

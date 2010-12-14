@@ -10,6 +10,8 @@ import jetbrains.mps.internal.collections.runtime.ListSequence;
 import java.util.ArrayList;
 
 public class GroupedGraphModificationSynchronizer implements IGraphModificationListener {
+  private static int showInfo = 0;
+
   private Map<Edge, Edge> myEdgeMap;
   private Map<Node, Node> myNodeMap;
   private Graph myGroupedGraph;
@@ -52,15 +54,21 @@ public class GroupedGraphModificationSynchronizer implements IGraphModificationL
           Node syncTarget = MapSequence.fromMap(myNodeMap).get(target);
           Edge edge = mySynchronizedGraph.connect(syncSource, syncTarget);
           MapSequence.fromMap(myEdgeMap).put(addedEdge, edge);
-          System.out.println("added " + addedEdge + " sync = " + edge);
+          if (showInfo > 0) {
+            System.out.println("added " + addedEdge + " sync = " + edge);
+          }
         }
         break;
       case EDGE_REMOVED:
         Edge removedEdge = event.getEdge();
-        System.out.println("removed " + removedEdge + " sync = ");
+        if (showInfo > 0) {
+          System.out.println("removed " + removedEdge + " sync = ");
+        }
         if (MapSequence.fromMap(myEdgeMap).containsKey(removedEdge)) {
           mySynchronizedGraph.removeEdge(MapSequence.fromMap(myEdgeMap).get(removedEdge));
-          System.out.println(MapSequence.fromMap(myEdgeMap).get(removedEdge));
+          if (showInfo > 0) {
+            System.out.println(MapSequence.fromMap(myEdgeMap).get(removedEdge));
+          }
         }
         break;
       case EDGE_REVERTED:
@@ -105,44 +113,10 @@ public class GroupedGraphModificationSynchronizer implements IGraphModificationL
           ListSequence.fromList(syncSplit).addElement(syncSplitEdge);
         }
       }
-      System.out.println("splitted " + splittedEdge + " sync = " + syncEdge);
-      mySynchronizedGraph.getModificationProcessor().fire(new GraphModificationEvent(GraphModificationEvent.Type.EDGE_SPLITTED, syncEdge, syncSplit));
-      /*
-        if (ListSequence.fromList(split).count() == 1) {
-          Edge edge = mySynchronizedGraph.connect(syncEdge.getSource(), syncEdge.getTarget());
-          MapSequence.fromMap(myEdgeMap).put(ListSequence.fromList(split).getElement(0), edge);
-          ListSequence.fromList(syncSplit).addElement(edge);
-        } else {
-          for (Edge edge : ListSequence.fromList(split)) {
-            Edge newEdge;
-            if (edge == ListSequence.fromList(split).first()) {
-              Node source = syncEdge.getSource();
-              Node target = MapSequence.fromMap(myNodeMap).get(edge.getTarget());
-              if (target == null) {
-                throw new RuntimeException("wrong synchrozed split");
-              }
-              newEdge = mySynchronizedGraph.connect(source, target);
-              MapSequence.fromMap(myEdgeMap).put(edge, newEdge);
-            } else if (edge == ListSequence.fromList(split).last()) {
-              Node source = MapSequence.fromMap(myNodeMap).get(edge.getSource());
-              Node target = syncEdge.getTarget();
-              if (source == null) {
-                throw new RuntimeException("wrong synchrozed split");
-              }
-              newEdge = mySynchronizedGraph.connect(source, target);
-              MapSequence.fromMap(myEdgeMap).put(edge, newEdge);
-            } else {
-              newEdge = MapSequence.fromMap(myEdgeMap).get(edge);
-              if (newEdge == null) {
-                throw new RuntimeException("wrong synchrozed split");
-              }
-            }
-            ListSequence.fromList(syncSplit).addElement(newEdge);
-          }
-        }
+      if (showInfo > 0) {
         System.out.println("splitted " + splittedEdge + " sync = " + syncEdge);
-        mySynchronizedGraph.getModificationProcessor().fire(new GraphModificationEvent(GraphModificationEvent.Type.EDGE_SPLITTED, syncEdge, syncSplit));
-      */
+      }
+      mySynchronizedGraph.getModificationProcessor().fire(new GraphModificationEvent(GraphModificationEvent.Type.EDGE_SPLITTED, syncEdge, syncSplit));
     }
   }
 

@@ -129,7 +129,6 @@
     <classNode dependClassName="jetbrains.mps.internal.collections.runtime.SetSequence" />
   </dependency>
   <dependency className="jetbrains.mps.graphLayout.graph.GroupedGraphModificationSynchronizer" file="GroupedGraphModificationSynchronizer.java">
-    <classNode dependClassName="java.lang.RuntimeException" />
     <classNode dependClassName="java.lang.System" />
     <classNode dependClassName="java.util.ArrayList" />
     <classNode dependClassName="java.util.HashMap" />

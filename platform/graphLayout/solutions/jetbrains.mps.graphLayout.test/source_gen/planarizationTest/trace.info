@@ -1,5 +1,6 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <debugInfo>
+  <unitInfo fileName="SubsequenceFinder_Test.java" startLine="12" startPosition="0" endLine="34" endPosition="0" unitName="planarizationTest.SubsequenceFinder_Test" />
   <unitInfo fileName="BiconnectedInitialEmbeddingFinder_Test.java" startLine="13" startPosition="0" endLine="45" endPosition="0" unitName="planarizationTest.BiconnectedInitialEmbeddingFinder_Test" />
   <unitInfo fileName="TreeEmbeddingFinder_Find_Test.java" startLine="13" startPosition="0" endLine="53" endPosition="0" unitName="planarizationTest.TreeEmbeddingFinder_Find_Test" />
   <unitInfo fileName="ShortestPathEmbeddingFinder_Test.java" startLine="15" startPosition="0" endLine="59" endPosition="0" unitName="planarizationTest.ShortestPathEmbeddingFinder_Test" />
@@ -900,6 +901,41 @@
       <varInfo nodeId="6984255766319238878" varName="face0123" />
     </scopeInfo>
     <scopeInfo nodeId="6984255766319183454" conceptFqName="jetbrains.mps.baseLanguage.structure.InstanceMethodDeclaration" propertyString="test_test1#()V" fileName="STPlanarGraph_Test.java" startLine="27" startPosition="50" endLine="84" endPosition="0" />
+  </root>
+  <root nodeId="8383102279435103573">
+    <nodeInfo nodeId="8383102279435103612" conceptFqName="jetbrains.mps.baseLanguage.structure.LocalVariableDeclarationStatement" fileName="SubsequenceFinder_Test.java" startLine="13" startPosition="45" endLine="14" endPosition="44" />
+    <nodeInfo nodeId="8383102279435104318" conceptFqName="jetbrains.mps.baseLanguage.structure.LocalVariableDeclarationStatement" fileName="SubsequenceFinder_Test.java" startLine="14" startPosition="44" endLine="15" endPosition="47" />
+    <nodeInfo nodeId="8383102279435104347" conceptFqName="jetbrains.mps.baseLanguage.structure.LocalVariableDeclarationStatement" fileName="SubsequenceFinder_Test.java" startLine="15" startPosition="47" endLine="16" endPosition="83" />
+    <nodeInfo nodeId="8383102279435104357" conceptFqName="jetbrains.mps.baseLanguage.structure.ExpressionStatement" fileName="SubsequenceFinder_Test.java" startLine="16" startPosition="83" endLine="17" endPosition="28" />
+    <nodeInfo nodeId="8383102279435113766" conceptFqName="jetbrains.mps.baseLanguage.structure.LocalVariableDeclarationStatement" fileName="SubsequenceFinder_Test.java" startLine="20" startPosition="45" endLine="21" endPosition="44" />
+    <nodeInfo nodeId="8383102279435113777" conceptFqName="jetbrains.mps.baseLanguage.structure.LocalVariableDeclarationStatement" fileName="SubsequenceFinder_Test.java" startLine="21" startPosition="44" endLine="22" endPosition="38" />
+    <nodeInfo nodeId="8383102279435113789" conceptFqName="jetbrains.mps.baseLanguage.structure.LocalVariableDeclarationStatement" fileName="SubsequenceFinder_Test.java" startLine="22" startPosition="38" endLine="23" endPosition="83" />
+    <nodeInfo nodeId="8383102279435113798" conceptFqName="jetbrains.mps.baseLanguage.structure.ExpressionStatement" fileName="SubsequenceFinder_Test.java" startLine="23" startPosition="83" endLine="24" endPosition="28" />
+    <nodeInfo nodeId="8383102279435120082" conceptFqName="jetbrains.mps.baseLanguage.structure.LocalVariableDeclarationStatement" fileName="SubsequenceFinder_Test.java" startLine="27" startPosition="51" endLine="28" endPosition="88" />
+    <nodeInfo nodeId="8383102279435120100" conceptFqName="jetbrains.mps.baseLanguage.structure.LocalVariableDeclarationStatement" fileName="SubsequenceFinder_Test.java" startLine="28" startPosition="88" endLine="29" endPosition="91" />
+    <nodeInfo nodeId="8383102279435120064" conceptFqName="jetbrains.mps.baseLanguage.structure.LocalVariableDeclarationStatement" fileName="SubsequenceFinder_Test.java" startLine="29" startPosition="91" endLine="30" endPosition="89" />
+    <nodeInfo nodeId="8383102279435120073" conceptFqName="jetbrains.mps.baseLanguage.structure.ExpressionStatement" fileName="SubsequenceFinder_Test.java" startLine="30" startPosition="89" endLine="31" endPosition="28" />
+    <nodeInfo nodeId="8383102279435103580" conceptFqName="jetbrains.mps.baseLanguage.structure.InstanceMethodDeclaration" propertyString="test_test1#()V" fileName="SubsequenceFinder_Test.java" startLine="12" startPosition="54" endLine="19" endPosition="0" />
+    <nodeInfo nodeId="8383102279435113762" conceptFqName="jetbrains.mps.baseLanguage.structure.InstanceMethodDeclaration" propertyString="test_test2#()V" fileName="SubsequenceFinder_Test.java" startLine="19" startPosition="0" endLine="26" endPosition="0" />
+    <nodeInfo nodeId="8383102279435120037" conceptFqName="jetbrains.mps.baseLanguage.structure.InstanceMethodDeclaration" propertyString="test_testCyclic1#()V" fileName="SubsequenceFinder_Test.java" startLine="26" startPosition="0" endLine="33" endPosition="0" />
+    <scopeInfo nodeId="8383102279435103583" fileName="SubsequenceFinder_Test.java" startLine="13" startPosition="45" endLine="17" endPosition="28">
+      <varInfo nodeId="8383102279435103613" varName="s" />
+      <varInfo nodeId="8383102279435104319" varName="p" />
+      <varInfo nodeId="8383102279435104348" varName="pos" />
+    </scopeInfo>
+    <scopeInfo nodeId="8383102279435113765" fileName="SubsequenceFinder_Test.java" startLine="20" startPosition="45" endLine="24" endPosition="28">
+      <varInfo nodeId="8383102279435113767" varName="s" />
+      <varInfo nodeId="8383102279435113778" varName="p" />
+      <varInfo nodeId="8383102279435113790" varName="pos" />
+    </scopeInfo>
+    <scopeInfo nodeId="8383102279435120040" fileName="SubsequenceFinder_Test.java" startLine="27" startPosition="51" endLine="31" endPosition="28">
+      <varInfo nodeId="8383102279435120083" varName="s" />
+      <varInfo nodeId="8383102279435120101" varName="p" />
+      <varInfo nodeId="8383102279435120065" varName="pos" />
+    </scopeInfo>
+    <scopeInfo nodeId="8383102279435103580" conceptFqName="jetbrains.mps.baseLanguage.structure.InstanceMethodDeclaration" propertyString="test_test1#()V" fileName="SubsequenceFinder_Test.java" startLine="12" startPosition="54" endLine="19" endPosition="0" />
+    <scopeInfo nodeId="8383102279435113762" conceptFqName="jetbrains.mps.baseLanguage.structure.InstanceMethodDeclaration" propertyString="test_test2#()V" fileName="SubsequenceFinder_Test.java" startLine="19" startPosition="0" endLine="26" endPosition="0" />
+    <scopeInfo nodeId="8383102279435120037" conceptFqName="jetbrains.mps.baseLanguage.structure.InstanceMethodDeclaration" propertyString="test_testCyclic1#()V" fileName="SubsequenceFinder_Test.java" startLine="26" startPosition="0" endLine="33" endPosition="0" />
   </root>
 </debugInfo>
 

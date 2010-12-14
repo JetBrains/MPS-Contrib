@@ -1258,7 +1258,7 @@
     <nodeInfo nodeId="8949260152464198570" conceptFqName="jetbrains.mps.baseLanguage.structure.LocalVariableDeclarationStatement" fileName="ConnectivityComponents.java" startLine="67" startPosition="68" endLine="68" endPosition="57" />
     <nodeInfo nodeId="8949260152464198578" conceptFqName="jetbrains.mps.baseLanguage.structure.LocalVariableDeclarationStatement" fileName="ConnectivityComponents.java" startLine="68" startPosition="57" endLine="69" endPosition="43" />
     <nodeInfo nodeId="8949260152464198591" conceptFqName="jetbrains.mps.baseLanguage.structure.LocalVariableDeclarationStatement" fileName="ConnectivityComponents.java" startLine="69" startPosition="43" endLine="70" endPosition="33" />
-    <nodeInfo nodeId="8949260152464208358" conceptFqName="jetbrains.mps.baseLanguage.structure.ExpressionStatement" fileName="ConnectivityComponents.java" startLine="71" startPosition="85" endLine="72" endPosition="62" />
+    <nodeInfo nodeId="8949260152464208358" conceptFqName="jetbrains.mps.baseLanguage.structure.ExpressionStatement" fileName="ConnectivityComponents.java" startLine="71" startPosition="63" endLine="72" endPosition="62" />
     <nodeInfo nodeId="8949260152464208380" conceptFqName="jetbrains.mps.baseLanguage.structure.LocalVariableDeclarationStatement" fileName="ConnectivityComponents.java" startLine="73" startPosition="5" endLine="74" endPosition="21" />
     <nodeInfo nodeId="8949260152464208422" conceptFqName="jetbrains.mps.baseLanguage.structure.LocalVariableDeclarationStatement" fileName="ConnectivityComponents.java" startLine="76" startPosition="25" endLine="77" endPosition="46" />
     <nodeInfo nodeId="8949260152464208431" conceptFqName="jetbrains.mps.baseLanguage.structure.ExpressionStatement" fileName="ConnectivityComponents.java" startLine="77" startPosition="46" endLine="78" endPosition="57" />
@@ -1299,7 +1299,7 @@
     <scopeInfo nodeId="3182425861591381308" fileName="ConnectivityComponents.java" startLine="49" startPosition="45" endLine="50" endPosition="114" />
     <scopeInfo nodeId="3182425861591392774" fileName="ConnectivityComponents.java" startLine="52" startPosition="85" endLine="53" endPosition="138" />
     <scopeInfo nodeId="8949260152464198542" fileName="ConnectivityComponents.java" startLine="60" startPosition="85" endLine="61" endPosition="93" />
-    <scopeInfo nodeId="8949260152464208351" fileName="ConnectivityComponents.java" startLine="71" startPosition="85" endLine="72" endPosition="62" />
+    <scopeInfo nodeId="8949260152464208351" fileName="ConnectivityComponents.java" startLine="71" startPosition="63" endLine="72" endPosition="62" />
     <scopeInfo nodeId="5213231752900660241" fileName="ConnectivityComponents.java" startLine="100" startPosition="46" endLine="101" endPosition="27" />
     <scopeInfo nodeId="5213231752900660257" fileName="ConnectivityComponents.java" startLine="105" startPosition="53" endLine="106" endPosition="70" />
     <scopeInfo nodeId="5213231752900665226" fileName="ConnectivityComponents.java" startLine="109" startPosition="47" endLine="110" endPosition="31" />

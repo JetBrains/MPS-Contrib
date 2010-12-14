@@ -68,7 +68,7 @@ public class ConnectivityComponents {
     Map<Node, Integer> components = getComponents(graph);
     int num = getComponentsNum(components);
     Node[] nodes = new Node[num];
-    for (Node node : SetSequence.fromSet(MapSequence.fromMap(components).keySet())) {
+    for (Node node : ListSequence.fromList(graph.getNodes())) {
       nodes[MapSequence.fromMap(components).get(node)] = node;
     }
     Node prev = null;

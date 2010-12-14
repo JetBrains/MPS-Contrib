@@ -186,6 +186,18 @@
     <classNode dependClassName="sampleGraphs.RandomGraphGenerator" />
     <classNode dependClassName="visualization.GraphIO" />
   </dependency>
+  <dependency className="planarizationTest.SubsequenceFinder_Test" file="SubsequenceFinder_Test.java">
+    <classNode dependClassName="java.lang.Exception" />
+    <classNode dependClassName="java.lang.Integer" />
+    <classNode dependClassName="java.lang.Object" />
+    <classNode dependClassName="java.lang.System" />
+    <classNode dependClassName="java.util.ArrayList" />
+    <classNode dependClassName="java.util.List" />
+    <classNode dependClassName="jetbrains.mps.baseLanguage.tuples.runtime.Tuples" />
+    <classNode dependClassName="jetbrains.mps.graphLayout.planarization.SubsequenceFinder" />
+    <classNode dependClassName="jetbrains.mps.internal.collections.runtime.ListSequence" />
+    <classNode extendsClassName="junit.framework.TestCase" />
+  </dependency>
   <dependency className="planarizationTest.TreeEmbeddingFinder_Find_Test" file="TreeEmbeddingFinder_Find_Test.java">
     <classNode dependClassName="java.lang.Exception" />
     <classNode dependClassName="java.lang.String" />

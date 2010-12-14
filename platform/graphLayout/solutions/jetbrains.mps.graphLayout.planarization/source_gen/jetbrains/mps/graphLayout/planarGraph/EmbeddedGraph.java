@@ -386,4 +386,8 @@ public class EmbeddedGraph {
       addLastDart(face, dart);
     }
   }
+
+  public boolean isEmpty() {
+    return ListSequence.fromList(getFaces()).count() == 0;
+  }
 }
