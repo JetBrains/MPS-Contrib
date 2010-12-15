@@ -13,7 +13,6 @@
       <module fileurl="file://$PROJECT_DIR$/platform/ypath/solutions/YPath-solutions.iml" filepath="$PROJECT_DIR$/platform/ypath/solutions/YPath-solutions.iml" group="platform/YPath-Panacea" />
       <module fileurl="file://$PROJECT_DIR$/core/languageDesign/actions/actions.iml" filepath="$PROJECT_DIR$/core/languageDesign/actions/actions.iml" group="core/languageDesign" />
       <module fileurl="file://$PROJECT_DIR$/platform/analyzers/analyzers.iml" filepath="$PROJECT_DIR$/platform/analyzers/analyzers.iml" />
-      <module fileurl="file://$PROJECT_DIR$/core/languageDesign/annotations/annotations.iml" filepath="$PROJECT_DIR$/core/languageDesign/annotations/annotations.iml" group="core/languageDesign" />
       <module fileurl="file://$PROJECT_DIR$/platform/buildlanguage/ant/ant.iml" filepath="$PROJECT_DIR$/platform/buildlanguage/ant/ant.iml" group="platform/build" />
       <module fileurl="file://$PROJECT_DIR$/core/baseLanguage/baseLanguage/baseLanguage.iml" filepath="$PROJECT_DIR$/core/baseLanguage/baseLanguage/baseLanguage.iml" group="core/baseLanguage/baseLanguage" />
       <module fileurl="file://$PROJECT_DIR$/core/baseLanguage/baseLanguage/solutions/jetbrains.mps.baseLanguage.refactoringTest/baseLanguage.test.iml" filepath="$PROJECT_DIR$/core/baseLanguage/baseLanguage/solutions/jetbrains.mps.baseLanguage.refactoringTest/baseLanguage.test.iml" group="core/baseLanguage/baseLanguage" />
