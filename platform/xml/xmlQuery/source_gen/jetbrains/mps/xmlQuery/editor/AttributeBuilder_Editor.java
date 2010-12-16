@@ -9,10 +9,10 @@ import jetbrains.mps.smodel.SNode;
 import jetbrains.mps.nodeEditor.cells.EditorCell_Collection;
 import jetbrains.mps.nodeEditor.cells.EditorCell_Constant;
 import jetbrains.mps.nodeEditor.cellProviders.CellProviderWithRole;
-import jetbrains.mps.lang.editor.cellProviders.RefNodeCellProvider;
+import jetbrains.mps.lang.editor.cellProviders.RefCellCellProvider;
 import jetbrains.mps.smodel.IOperationContext;
 import jetbrains.mps.nodeEditor.EditorManager;
-import jetbrains.mps.lang.editor.cellProviders.RefCellCellProvider;
+import jetbrains.mps.lang.editor.cellProviders.RefNodeCellProvider;
 import jetbrains.mps.nodeEditor.InlineCellProvider;
 import jetbrains.mps.lang.editor.cellProviders.PropertyCellProvider;
 import jetbrains.mps.xml.editor.XmlStyle_StyleSheet;
@@ -38,11 +38,12 @@ public class AttributeBuilder_Editor extends DefaultNodeEditor {
     return editorCell;
   }
 
-  private EditorCell createRefNode_a3sco6_c0(EditorContext editorContext, SNode node) {
-    CellProviderWithRole provider = new RefNodeCellProvider(node, editorContext);
-    provider.setRole("value");
-    provider.setNoTargetText("<no value>");
+  private EditorCell createRefCell_a3sco6_a0(EditorContext editorContext, SNode node) {
+    CellProviderWithRole provider = new RefCellCellProvider(node, editorContext);
+    provider.setRole("attributeDeclaration");
+    provider.setNoTargetText("<no attributeDeclaration>");
     EditorCell editorCell;
+    provider.setAuxiliaryCellProvider(new AttributeBuilder_Editor._Inline_a3sco6_a0a());
     editorCell = provider.createEditorCell(editorContext);
     editorCell.setSubstituteInfo(provider.createDefaultSubstituteInfo());
     SNode attributeConcept = provider.getRoleAttribute();
@@ -55,12 +56,11 @@ public class AttributeBuilder_Editor extends DefaultNodeEditor {
     return editorCell;
   }
 
-  private EditorCell createRefCell_a3sco6_a0(EditorContext editorContext, SNode node) {
-    CellProviderWithRole provider = new RefCellCellProvider(node, editorContext);
-    provider.setRole("attributeDeclaration");
-    provider.setNoTargetText("<no attributeDeclaration>");
+  private EditorCell createRefNode_a3sco6_c0(EditorContext editorContext, SNode node) {
+    CellProviderWithRole provider = new RefNodeCellProvider(node, editorContext);
+    provider.setRole("value");
+    provider.setNoTargetText("<no value>");
     EditorCell editorCell;
-    provider.setAuxiliaryCellProvider(new AttributeBuilder_Editor._Inline_a3sco6_a0a());
     editorCell = provider.createEditorCell(editorContext);
     editorCell.setSubstituteInfo(provider.createDefaultSubstituteInfo());
     SNode attributeConcept = provider.getRoleAttribute();

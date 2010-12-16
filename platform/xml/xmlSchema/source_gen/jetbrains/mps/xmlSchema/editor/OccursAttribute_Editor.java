@@ -11,10 +11,10 @@ import jetbrains.mps.nodeEditor.cells.EditorCell_Constant;
 import jetbrains.mps.nodeEditor.style.Style;
 import jetbrains.mps.nodeEditor.style.StyleAttributes;
 import jetbrains.mps.nodeEditor.cellProviders.CellProviderWithRole;
-import jetbrains.mps.lang.editor.cellProviders.PropertyCellProvider;
+import jetbrains.mps.lang.editor.cellProviders.RefNodeCellProvider;
 import jetbrains.mps.smodel.IOperationContext;
 import jetbrains.mps.nodeEditor.EditorManager;
-import jetbrains.mps.lang.editor.cellProviders.RefNodeCellProvider;
+import jetbrains.mps.lang.editor.cellProviders.PropertyCellProvider;
 
 public class OccursAttribute_Editor extends DefaultNodeEditor {
   public EditorCell createEditorCell(EditorContext editorContext, SNode node) {
@@ -61,14 +61,12 @@ public class OccursAttribute_Editor extends DefaultNodeEditor {
     return editorCell;
   }
 
-  private EditorCell createProperty_cn93sb_b0(EditorContext editorContext, SNode node) {
-    CellProviderWithRole provider = new PropertyCellProvider(node, editorContext);
-    provider.setRole("minOccurs");
-    provider.setNoTargetText("<no minOccurs>");
-    provider.setAllowsEmptyTarget(true);
+  private EditorCell createRefNode_cn93sb_d0(EditorContext editorContext, SNode node) {
+    CellProviderWithRole provider = new RefNodeCellProvider(node, editorContext);
+    provider.setRole("maxOccurs");
+    provider.setNoTargetText("<no maxOccurs>");
     EditorCell editorCell;
     editorCell = provider.createEditorCell(editorContext);
-    editorCell.setCellId("property_minOccurs");
     editorCell.setSubstituteInfo(provider.createDefaultSubstituteInfo());
     SNode attributeConcept = provider.getRoleAttribute();
     Class attributeKind = provider.getRoleAttributeClass();
@@ -80,12 +78,14 @@ public class OccursAttribute_Editor extends DefaultNodeEditor {
     return editorCell;
   }
 
-  private EditorCell createRefNode_cn93sb_d0(EditorContext editorContext, SNode node) {
-    CellProviderWithRole provider = new RefNodeCellProvider(node, editorContext);
-    provider.setRole("maxOccurs");
-    provider.setNoTargetText("<no maxOccurs>");
+  private EditorCell createProperty_cn93sb_b0(EditorContext editorContext, SNode node) {
+    CellProviderWithRole provider = new PropertyCellProvider(node, editorContext);
+    provider.setRole("minOccurs");
+    provider.setNoTargetText("<no minOccurs>");
+    provider.setAllowsEmptyTarget(true);
     EditorCell editorCell;
     editorCell = provider.createEditorCell(editorContext);
+    editorCell.setCellId("property_minOccurs");
     editorCell.setSubstituteInfo(provider.createDefaultSubstituteInfo());
     SNode attributeConcept = provider.getRoleAttribute();
     Class attributeKind = provider.getRoleAttributeClass();

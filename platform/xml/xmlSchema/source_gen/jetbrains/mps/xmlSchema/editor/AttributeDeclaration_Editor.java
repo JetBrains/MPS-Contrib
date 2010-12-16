@@ -12,13 +12,13 @@ import jetbrains.mps.nodeEditor.style.Style;
 import jetbrains.mps.nodeEditor.style.StyleAttributes;
 import jetbrains.mps.nodeEditor.MPSColors;
 import jetbrains.mps.nodeEditor.cellProviders.CellProviderWithRole;
+import jetbrains.mps.lang.editor.cellProviders.RefNodeCellProvider;
+import jetbrains.mps.smodel.IOperationContext;
+import jetbrains.mps.nodeEditor.EditorManager;
 import jetbrains.mps.lang.editor.cellProviders.PropertyCellProvider;
 import jetbrains.mps.nodeEditor.MPSFonts;
 import jetbrains.mps.nodeEditor.style.AttributeCalculator;
 import java.awt.Color;
-import jetbrains.mps.smodel.IOperationContext;
-import jetbrains.mps.nodeEditor.EditorManager;
-import jetbrains.mps.lang.editor.cellProviders.RefNodeCellProvider;
 
 public class AttributeDeclaration_Editor extends DefaultNodeEditor {
   public EditorCell createEditorCell(EditorContext editorContext, SNode node) {
@@ -62,39 +62,6 @@ public class AttributeDeclaration_Editor extends DefaultNodeEditor {
     return editorCell;
   }
 
-  private EditorCell createProperty_vddsqv_b0(EditorContext editorContext, SNode node) {
-    CellProviderWithRole provider = new PropertyCellProvider(node, editorContext);
-    provider.setRole("attributeName");
-    provider.setNoTargetText("<no attributeName>");
-    EditorCell editorCell;
-    editorCell = provider.createEditorCell(editorContext);
-    editorCell.setCellId("property_attributeName");
-    {
-      Style style = editorCell.getStyle();
-      style.set(StyleAttributes.FONT_STYLE, MPSFonts.BOLD_ITALIC);
-      style.set(StyleAttributes.TEXT_COLOR, new AttributeCalculator<Color>() {
-        public Color calculate(EditorCell cell) {
-          return AttributeDeclaration_Editor._StyleParameter_QueryFunction_vddsqv_a1b0((cell == null ?
-            null :
-            cell.getSNode()
-          ), (cell == null ?
-            null :
-            cell.getEditorContext()
-          ));
-        }
-      });
-    }
-    editorCell.setSubstituteInfo(provider.createDefaultSubstituteInfo());
-    SNode attributeConcept = provider.getRoleAttribute();
-    Class attributeKind = provider.getRoleAttributeClass();
-    if (attributeConcept != null) {
-      IOperationContext opContext = editorContext.getOperationContext();
-      EditorManager manager = EditorManager.getInstanceFromContext(opContext);
-      return manager.createRoleAttributeCell(editorContext, attributeConcept, attributeKind, editorCell);
-    } else
-    return editorCell;
-  }
-
   private EditorCell createRefNode_vddsqv_c0(EditorContext editorContext, SNode node) {
     CellProviderWithRole provider = new RefNodeCellProvider(node, editorContext);
     provider.setRole("useAttribute");
@@ -118,6 +85,39 @@ public class AttributeDeclaration_Editor extends DefaultNodeEditor {
     provider.setNoTargetText("<no type>");
     EditorCell editorCell;
     editorCell = provider.createEditorCell(editorContext);
+    editorCell.setSubstituteInfo(provider.createDefaultSubstituteInfo());
+    SNode attributeConcept = provider.getRoleAttribute();
+    Class attributeKind = provider.getRoleAttributeClass();
+    if (attributeConcept != null) {
+      IOperationContext opContext = editorContext.getOperationContext();
+      EditorManager manager = EditorManager.getInstanceFromContext(opContext);
+      return manager.createRoleAttributeCell(editorContext, attributeConcept, attributeKind, editorCell);
+    } else
+    return editorCell;
+  }
+
+  private EditorCell createProperty_vddsqv_b0(EditorContext editorContext, SNode node) {
+    CellProviderWithRole provider = new PropertyCellProvider(node, editorContext);
+    provider.setRole("attributeName");
+    provider.setNoTargetText("<no attributeName>");
+    EditorCell editorCell;
+    editorCell = provider.createEditorCell(editorContext);
+    editorCell.setCellId("property_attributeName");
+    {
+      Style style = editorCell.getStyle();
+      style.set(StyleAttributes.FONT_STYLE, MPSFonts.BOLD_ITALIC);
+      style.set(StyleAttributes.TEXT_COLOR, new AttributeCalculator<Color>() {
+        public Color calculate(EditorCell cell) {
+          return AttributeDeclaration_Editor._StyleParameter_QueryFunction_vddsqv_a1b0((cell == null ?
+            null :
+            cell.getSNode()
+          ), (cell == null ?
+            null :
+            cell.getEditorContext()
+          ));
+        }
+      });
+    }
     editorCell.setSubstituteInfo(provider.createDefaultSubstituteInfo());
     SNode attributeConcept = provider.getRoleAttribute();
     Class attributeKind = provider.getRoleAttributeClass();

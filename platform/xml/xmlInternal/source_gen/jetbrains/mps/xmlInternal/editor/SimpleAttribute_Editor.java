@@ -10,14 +10,14 @@ import jetbrains.mps.nodeEditor.cells.EditorCell_Collection;
 import jetbrains.mps.nodeEditor.cells.EditorCell_Constant;
 import jetbrains.mps.xml.editor.XmlStyle_StyleSheet;
 import jetbrains.mps.nodeEditor.cellProviders.CellProviderWithRole;
-import jetbrains.mps.lang.editor.cellProviders.PropertyCellProvider;
-import jetbrains.mps.smodel.IOperationContext;
-import jetbrains.mps.nodeEditor.EditorManager;
 import jetbrains.mps.lang.editor.cellProviders.RefNodeCellProvider;
 import jetbrains.mps.nodeEditor.style.Style;
 import jetbrains.mps.nodeEditor.style.StyleAttributes;
 import jetbrains.mps.nodeEditor.style.Padding;
 import jetbrains.mps.nodeEditor.style.Measure;
+import jetbrains.mps.smodel.IOperationContext;
+import jetbrains.mps.nodeEditor.EditorManager;
+import jetbrains.mps.lang.editor.cellProviders.PropertyCellProvider;
 
 public class SimpleAttribute_Editor extends DefaultNodeEditor {
   public EditorCell createEditorCell(EditorContext editorContext, SNode node) {
@@ -59,14 +59,16 @@ public class SimpleAttribute_Editor extends DefaultNodeEditor {
     return editorCell;
   }
 
-  private EditorCell createProperty_r7gjsx_a0(EditorContext editorContext, SNode node) {
-    CellProviderWithRole provider = new PropertyCellProvider(node, editorContext);
-    provider.setRole("attributeName");
-    provider.setNoTargetText("<no attributeName>");
+  private EditorCell createRefNode_r7gjsx_d0(EditorContext editorContext, SNode node) {
+    CellProviderWithRole provider = new RefNodeCellProvider(node, editorContext);
+    provider.setRole("value");
+    provider.setNoTargetText("<no value>");
     EditorCell editorCell;
     editorCell = provider.createEditorCell(editorContext);
-    editorCell.setCellId("property_attributeName");
-    XmlStyle_StyleSheet.getXmlAttribute(editorCell).apply(editorCell);
+    {
+      Style style = editorCell.getStyle();
+      style.set(StyleAttributes.PADDING_RIGHT, new Padding(0.0, Measure.SPACES));
+    }
     editorCell.setSubstituteInfo(provider.createDefaultSubstituteInfo());
     SNode attributeConcept = provider.getRoleAttribute();
     Class attributeKind = provider.getRoleAttributeClass();
@@ -78,16 +80,14 @@ public class SimpleAttribute_Editor extends DefaultNodeEditor {
     return editorCell;
   }
 
-  private EditorCell createRefNode_r7gjsx_d0(EditorContext editorContext, SNode node) {
-    CellProviderWithRole provider = new RefNodeCellProvider(node, editorContext);
-    provider.setRole("value");
-    provider.setNoTargetText("<no value>");
+  private EditorCell createProperty_r7gjsx_a0(EditorContext editorContext, SNode node) {
+    CellProviderWithRole provider = new PropertyCellProvider(node, editorContext);
+    provider.setRole("attributeName");
+    provider.setNoTargetText("<no attributeName>");
     EditorCell editorCell;
     editorCell = provider.createEditorCell(editorContext);
-    {
-      Style style = editorCell.getStyle();
-      style.set(StyleAttributes.PADDING_RIGHT, new Padding(0.0, Measure.SPACES));
-    }
+    editorCell.setCellId("property_attributeName");
+    XmlStyle_StyleSheet.getXmlAttribute(editorCell).apply(editorCell);
     editorCell.setSubstituteInfo(provider.createDefaultSubstituteInfo());
     SNode attributeConcept = provider.getRoleAttribute();
     Class attributeKind = provider.getRoleAttributeClass();
