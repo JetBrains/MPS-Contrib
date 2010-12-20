@@ -86,7 +86,7 @@
     <scopeInfo nodeId="1197401256457" fileName="typeof_Enum_InferenceRule.java" startLine="22" startPosition="7" endLine="27" endPosition="347" />
     <scopeInfo nodeId="1197401216338" fileName="typeof_Enum_InferenceRule.java" startLine="21" startPosition="109" endLine="28" endPosition="7" />
     <scopeInfo nodeId="1197401210364" fileName="typeof_Enum_InferenceRule.java" startLine="20" startPosition="124" endLine="29" endPosition="5" />
-    <scopeInfo nodeId="1197401216335" fileName="typeof_Enum_InferenceRule.java" startLine="20" startPosition="124" endLine="29" endPosition="5" />
+    <scopeInfo nodeId="1197401216335" conceptFqName="jetbrains.mps.baseLanguage.structure.ForeachStatement" fileName="typeof_Enum_InferenceRule.java" startLine="20" startPosition="124" endLine="29" endPosition="5" />
   </root>
   <root nodeId="1199032009158">
     <nodeInfo nodeId="1199032106408" conceptFqName="jetbrains.mps.baseLanguage.structure.LocalVariableDeclarationStatement" fileName="typeof_FileName_InferenceRule.java" startLine="22" startPosition="5" endLine="23" endPosition="53" />

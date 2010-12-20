@@ -37,7 +37,7 @@
     <scopeInfo nodeId="1213877232007" fileName="TargetDeclaration_Behavior.java" startLine="22" startPosition="105" endLine="23" endPosition="27" />
     <scopeInfo nodeId="1213877232042" fileName="TargetDeclaration_Behavior.java" startLine="29" startPosition="81" endLine="30" endPosition="70" />
     <scopeInfo nodeId="1213877231991" fileName="TargetDeclaration_Behavior.java" startLine="20" startPosition="116" endLine="24" endPosition="7" />
-    <scopeInfo nodeId="1213877231990" fileName="TargetDeclaration_Behavior.java" startLine="19" startPosition="45" endLine="25" endPosition="5">
+    <scopeInfo nodeId="1213877231990" conceptFqName="jetbrains.mps.baseLanguage.structure.ForStatement" fileName="TargetDeclaration_Behavior.java" startLine="19" startPosition="45" endLine="25" endPosition="5">
       <varInfo nodeId="1213877232022" varName="i" />
     </scopeInfo>
     <scopeInfo nodeId="1213877231976" fileName="TargetDeclaration_Behavior.java" startLine="15" startPosition="79" endLine="26" endPosition="29">
@@ -117,7 +117,7 @@
     <nodeInfo nodeId="1213877351735" conceptFqName="jetbrains.mps.baseLanguage.structure.ForeachStatement" fileName="Project_Behavior.java" startLine="26" startPosition="124" endLine="29" endPosition="5" />
     <nodeInfo nodeId="1213877351762" conceptFqName="jetbrains.mps.baseLanguage.structure.IfStatement" fileName="Project_Behavior.java" startLine="34" startPosition="116" endLine="37" endPosition="7" />
     <nodeInfo nodeId="1213877351790" conceptFqName="jetbrains.mps.baseLanguage.structure.ForeachStatement" fileName="Project_Behavior.java" startLine="44" startPosition="116" endLine="47" endPosition="7" />
-    <nodeInfo nodeId="1227876791086" conceptFqName="jetbrains.mps.baseLanguage.structure.InstanceMethodDeclaration" fileName="Project_Behavior.java" startLine="64" startPosition="119" endLine="68" endPosition="0" />
+    <nodeInfo nodeId="1227876791086" conceptFqName="jetbrains.mps.baseLanguage.structure.InstanceMethodDeclaration" propertyString="visit#(Ljetbrains/mps/smodel/SNode;)V" fileName="Project_Behavior.java" startLine="64" startPosition="119" endLine="68" endPosition="0" />
     <nodeInfo nodeId="1213877351756" conceptFqName="jetbrains.mps.baseLanguage.structure.ForeachStatement" fileName="Project_Behavior.java" startLine="33" startPosition="93" endLine="38" endPosition="5" />
     <nodeInfo nodeId="1213877351784" conceptFqName="jetbrains.mps.baseLanguage.structure.ForeachStatement" fileName="Project_Behavior.java" startLine="43" startPosition="49" endLine="48" endPosition="5" />
     <nodeInfo nodeId="1213877351844" conceptFqName="jetbrains.mps.baseLanguage.structure.ExpressionStatement" fileName="Project_Behavior.java" startLine="63" startPosition="120" endLine="68" endPosition="7" />
@@ -127,13 +127,13 @@
     <scopeInfo nodeId="1213877351814" fileName="Project_Behavior.java" startLine="53" startPosition="75" endLine="54" endPosition="59" />
     <scopeInfo nodeId="1213877351821" fileName="Project_Behavior.java" startLine="57" startPosition="71" endLine="58" endPosition="82" />
     <scopeInfo nodeId="1227876791089" fileName="Project_Behavior.java" startLine="65" startPosition="35" endLine="66" endPosition="170" />
-    <scopeInfo nodeId="1213877351735" fileName="Project_Behavior.java" startLine="26" startPosition="124" endLine="29" endPosition="5" />
+    <scopeInfo nodeId="1213877351735" conceptFqName="jetbrains.mps.baseLanguage.structure.ForeachStatement" fileName="Project_Behavior.java" startLine="26" startPosition="124" endLine="29" endPosition="5" />
     <scopeInfo nodeId="1213877351761" fileName="Project_Behavior.java" startLine="34" startPosition="116" endLine="37" endPosition="7" />
     <scopeInfo nodeId="1213877351789" fileName="Project_Behavior.java" startLine="44" startPosition="116" endLine="47" endPosition="7" />
-    <scopeInfo nodeId="1213877351790" fileName="Project_Behavior.java" startLine="44" startPosition="116" endLine="47" endPosition="7" />
-    <scopeInfo nodeId="1227876791086" fileName="Project_Behavior.java" startLine="64" startPosition="119" endLine="68" endPosition="0" />
-    <scopeInfo nodeId="1213877351756" fileName="Project_Behavior.java" startLine="33" startPosition="93" endLine="38" endPosition="5" />
-    <scopeInfo nodeId="1213877351784" fileName="Project_Behavior.java" startLine="43" startPosition="49" endLine="48" endPosition="5" />
+    <scopeInfo nodeId="1213877351790" conceptFqName="jetbrains.mps.baseLanguage.structure.ForeachStatement" fileName="Project_Behavior.java" startLine="44" startPosition="116" endLine="47" endPosition="7" />
+    <scopeInfo nodeId="1227876791086" conceptFqName="jetbrains.mps.baseLanguage.structure.InstanceMethodDeclaration" propertyString="visit#(Ljetbrains/mps/smodel/SNode;)V" fileName="Project_Behavior.java" startLine="64" startPosition="119" endLine="68" endPosition="0" />
+    <scopeInfo nodeId="1213877351756" conceptFqName="jetbrains.mps.baseLanguage.structure.ForeachStatement" fileName="Project_Behavior.java" startLine="33" startPosition="93" endLine="38" endPosition="5" />
+    <scopeInfo nodeId="1213877351784" conceptFqName="jetbrains.mps.baseLanguage.structure.ForeachStatement" fileName="Project_Behavior.java" startLine="43" startPosition="49" endLine="48" endPosition="5" />
     <scopeInfo nodeId="1213877351891" fileName="Project_Behavior.java" startLine="15" startPosition="43" endLine="21" endPosition="69">
       <varInfo nodeId="1228398977654" varName="defaultRef" />
       <varInfo nodeId="1228399457692" varName="target" />
@@ -217,7 +217,7 @@
     <scopeInfo nodeId="1213877387934" fileName="PropertyReference_Behavior.java" startLine="25" startPosition="86" endLine="26" endPosition="16" />
     <scopeInfo nodeId="1213877387943" fileName="PropertyReference_Behavior.java" startLine="28" startPosition="136" endLine="29" endPosition="84" />
     <scopeInfo nodeId="1239123615245" fileName="PropertyReference_Behavior.java" startLine="36" startPosition="156" endLine="37" endPosition="138" />
-    <scopeInfo nodeId="1239123615237" fileName="PropertyReference_Behavior.java" startLine="35" startPosition="48" endLine="38" endPosition="5" />
+    <scopeInfo nodeId="1239123615237" conceptFqName="jetbrains.mps.baseLanguage.structure.ForeachStatement" fileName="PropertyReference_Behavior.java" startLine="35" startPosition="48" endLine="38" endPosition="5" />
     <scopeInfo nodeId="1213877387910" fileName="PropertyReference_Behavior.java" startLine="17" startPosition="71" endLine="21" endPosition="129" />
     <scopeInfo nodeId="1239123615230" fileName="PropertyReference_Behavior.java" startLine="34" startPosition="90" endLine="39" endPosition="18">
       <varInfo nodeId="1239123615232" varName="result" />
@@ -257,8 +257,8 @@
     <scopeInfo nodeId="1213877413984" fileName="Enum_Behavior.java" startLine="28" startPosition="165" endLine="29" endPosition="20" />
     <scopeInfo nodeId="1213877413974" fileName="Enum_Behavior.java" startLine="27" startPosition="107" endLine="30" endPosition="7" />
     <scopeInfo nodeId="1213877413911" fileName="Enum_Behavior.java" startLine="16" startPosition="118" endLine="20" endPosition="7" />
-    <scopeInfo nodeId="1213877413969" fileName="Enum_Behavior.java" startLine="26" startPosition="86" endLine="31" endPosition="5" />
-    <scopeInfo nodeId="1213877413910" fileName="Enum_Behavior.java" startLine="15" startPosition="19" endLine="21" endPosition="5">
+    <scopeInfo nodeId="1213877413969" conceptFqName="jetbrains.mps.baseLanguage.structure.ForeachStatement" fileName="Enum_Behavior.java" startLine="26" startPosition="86" endLine="31" endPosition="5" />
+    <scopeInfo nodeId="1213877413910" conceptFqName="jetbrains.mps.baseLanguage.structure.ForStatement" fileName="Enum_Behavior.java" startLine="15" startPosition="19" endLine="21" endPosition="5">
       <varInfo nodeId="1213877413940" varName="i" />
     </scopeInfo>
     <scopeInfo nodeId="1213877413968" fileName="Enum_Behavior.java" startLine="26" startPosition="86" endLine="32" endPosition="17" />
@@ -319,7 +319,7 @@
     <scopeInfo nodeId="1218551973558" fileName="MultiLineString_Behavior.java" startLine="11" startPosition="43" endLine="11" endPosition="43" />
     <scopeInfo nodeId="1218551975872" fileName="MultiLineString_Behavior.java" startLine="14" startPosition="71" endLine="15" endPosition="59" />
     <scopeInfo nodeId="1218552680080" fileName="MultiLineString_Behavior.java" startLine="20" startPosition="109" endLine="21" endPosition="88" />
-    <scopeInfo nodeId="1218552680075" fileName="MultiLineString_Behavior.java" startLine="19" startPosition="23" endLine="22" endPosition="5" />
+    <scopeInfo nodeId="1218552680075" conceptFqName="jetbrains.mps.baseLanguage.structure.ForeachStatement" fileName="MultiLineString_Behavior.java" startLine="19" startPosition="23" endLine="22" endPosition="5" />
     <scopeInfo nodeId="1218552002520" fileName="MultiLineString_Behavior.java" startLine="18" startPosition="77" endLine="26" endPosition="6">
       <varInfo nodeId="1218552680072" varName="result" />
     </scopeInfo>
@@ -354,7 +354,7 @@
     <scopeInfo nodeId="5699548131010535080" fileName="IDeclaration_Behavior.java" startLine="28" startPosition="85" endLine="29" endPosition="19" />
     <scopeInfo nodeId="5699548131010535117" fileName="IDeclaration_Behavior.java" startLine="36" startPosition="86" endLine="37" endPosition="20" />
     <scopeInfo nodeId="5699548131010535111" fileName="IDeclaration_Behavior.java" startLine="35" startPosition="57" endLine="38" endPosition="7" />
-    <scopeInfo nodeId="5699548131010535108" fileName="IDeclaration_Behavior.java" startLine="34" startPosition="99" endLine="39" endPosition="5" />
+    <scopeInfo nodeId="5699548131010535108" conceptFqName="jetbrains.mps.baseLanguage.structure.ForeachStatement" fileName="IDeclaration_Behavior.java" startLine="34" startPosition="99" endLine="39" endPosition="5" />
     <scopeInfo nodeId="5699548131010535107" fileName="IDeclaration_Behavior.java" startLine="34" startPosition="99" endLine="40" endPosition="17" />
     <scopeInfo nodeId="5699548131010535071" fileName="IDeclaration_Behavior.java" startLine="24" startPosition="100" endLine="31" endPosition="151" />
   </root>

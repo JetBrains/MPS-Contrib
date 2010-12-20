@@ -98,7 +98,7 @@
     </scopeInfo>
     <scopeInfo nodeId="115745247309507174" fileName="supertypeof_XMLElementType_SubtypingRule.java" startLine="31" startPosition="99" endLine="40" endPosition="11" />
     <scopeInfo nodeId="115745247309507162" fileName="supertypeof_XMLElementType_SubtypingRule.java" startLine="30" startPosition="211" endLine="41" endPosition="9" />
-    <scopeInfo nodeId="115745247309507159" fileName="supertypeof_XMLElementType_SubtypingRule.java" startLine="29" startPosition="12" endLine="42" endPosition="7" />
+    <scopeInfo nodeId="115745247309507159" conceptFqName="jetbrains.mps.baseLanguage.structure.ForeachStatement" fileName="supertypeof_XMLElementType_SubtypingRule.java" startLine="29" startPosition="12" endLine="42" endPosition="7" />
     <scopeInfo nodeId="115745247309506893" fileName="supertypeof_XMLElementType_SubtypingRule.java" startLine="29" startPosition="12" endLine="43" endPosition="123" />
     <scopeInfo nodeId="3865540407050958120" fileName="supertypeof_XMLElementType_SubtypingRule.java" startLine="26" startPosition="117" endLine="44" endPosition="5" />
   </root>

@@ -40,12 +40,12 @@
     <nodeInfo nodeId="2286463592495263720" conceptFqName="jetbrains.mps.baseLanguage.structure.LocalVariableDeclarationStatement" fileName="XMLSAXAttributeReference_attribute_ReferentConstraint.java" startLine="33" startPosition="144" endLine="34" endPosition="66" />
     <nodeInfo nodeId="2286463592495263829" conceptFqName="jetbrains.mps.baseLanguage.structure.ReturnStatement" fileName="XMLSAXAttributeReference_attribute_ReferentConstraint.java" startLine="37" startPosition="41" endLine="38" endPosition="66" />
     <nodeInfo nodeId="2286463592495263741" conceptFqName="jetbrains.mps.baseLanguage.structure.ReturnStatement" fileName="XMLSAXAttributeReference_attribute_ReferentConstraint.java" startLine="41" startPosition="5" endLine="42" endPosition="13" />
-    <nodeInfo nodeId="2286463592495263827" conceptFqName="jetbrains.mps.baseLanguage.structure.InstanceMethodDeclaration" fileName="XMLSAXAttributeReference_attribute_ReferentConstraint.java" startLine="36" startPosition="250" endLine="40" endPosition="0" />
+    <nodeInfo nodeId="2286463592495263827" conceptFqName="jetbrains.mps.baseLanguage.structure.InstanceMethodDeclaration" propertyString="accept#(Ljetbrains/mps/smodel/SNode;)Z" fileName="XMLSAXAttributeReference_attribute_ReferentConstraint.java" startLine="36" startPosition="250" endLine="40" endPosition="0" />
     <nodeInfo nodeId="2286463592495263776" conceptFqName="jetbrains.mps.baseLanguage.structure.ExpressionStatement" fileName="XMLSAXAttributeReference_attribute_ReferentConstraint.java" startLine="35" startPosition="147" endLine="40" endPosition="10" />
     <nodeInfo nodeId="2286463592495263748" conceptFqName="jetbrains.mps.baseLanguage.structure.IfStatement" fileName="XMLSAXAttributeReference_attribute_ReferentConstraint.java" startLine="34" startPosition="66" endLine="41" endPosition="5" />
     <scopeInfo nodeId="2286463592495220225" fileName="XMLSAXAttributeReference_Constraints.java" startLine="10" startPosition="114" endLine="11" endPosition="142" />
     <scopeInfo nodeId="2286463592495263828" fileName="XMLSAXAttributeReference_attribute_ReferentConstraint.java" startLine="37" startPosition="41" endLine="38" endPosition="66" />
-    <scopeInfo nodeId="2286463592495263827" fileName="XMLSAXAttributeReference_attribute_ReferentConstraint.java" startLine="36" startPosition="250" endLine="40" endPosition="0" />
+    <scopeInfo nodeId="2286463592495263827" conceptFqName="jetbrains.mps.baseLanguage.structure.InstanceMethodDeclaration" propertyString="accept#(Ljetbrains/mps/smodel/SNode;)Z" fileName="XMLSAXAttributeReference_attribute_ReferentConstraint.java" startLine="36" startPosition="250" endLine="40" endPosition="0" />
     <scopeInfo nodeId="2286463592495263749" fileName="XMLSAXAttributeReference_attribute_ReferentConstraint.java" startLine="35" startPosition="147" endLine="40" endPosition="10" />
     <scopeInfo nodeId="2286463592495228154" fileName="XMLSAXAttributeReference_attribute_ReferentConstraint.java" startLine="32" startPosition="132" endLine="42" endPosition="13">
       <varInfo nodeId="2286463592495263721" varName="n" />
@@ -118,17 +118,17 @@
     <nodeInfo nodeId="2341233264267552651" conceptFqName="jetbrains.mps.baseLanguage.structure.LocalVariableDeclarationStatement" fileName="SchemaUtil.java" startLine="174" startPosition="159" endLine="175" endPosition="43" />
     <nodeInfo nodeId="2341233264267552651" conceptFqName="jetbrains.mps.baseLanguage.structure.ExpressionStatement" fileName="SchemaUtil.java" startLine="175" startPosition="43" endLine="176" endPosition="31" />
     <nodeInfo nodeId="2341233264267552651" conceptFqName="jetbrains.mps.baseLanguage.structure.ReturnStatement" fileName="SchemaUtil.java" startLine="177" startPosition="7" endLine="178" endPosition="20" />
-    <nodeInfo nodeId="4168438976304833685" conceptFqName="jetbrains.mps.baseLanguage.structure.ConstructorDeclaration" fileName="SchemaUtil.java" startLine="21" startPosition="25" endLine="23" endPosition="3" />
+    <nodeInfo nodeId="4168438976304833685" conceptFqName="jetbrains.mps.baseLanguage.structure.ConstructorDeclaration" propertyString="SchemaUtil#()V" fileName="SchemaUtil.java" startLine="21" startPosition="25" endLine="23" endPosition="3" />
     <nodeInfo nodeId="4705273682234098426" conceptFqName="jetbrains.mps.baseLanguage.structure.BlockStatement" fileName="SchemaUtil.java" startLine="79" startPosition="10" endLine="81" endPosition="5" />
-    <nodeInfo nodeId="2341233264267552651" conceptFqName="jetbrains.mps.baseLanguage.structure.ConstructorDeclaration" fileName="SchemaUtil.java" startLine="114" startPosition="53" endLine="116" endPosition="5" />
-    <nodeInfo nodeId="2341233264267552651" conceptFqName="jetbrains.mps.baseLanguage.structure.ConstructorDeclaration" fileName="SchemaUtil.java" startLine="131" startPosition="54" endLine="133" endPosition="5" />
-    <nodeInfo nodeId="2341233264267552651" conceptFqName="jetbrains.mps.baseLanguage.structure.ConstructorDeclaration" fileName="SchemaUtil.java" startLine="148" startPosition="54" endLine="150" endPosition="5" />
-    <nodeInfo nodeId="2341233264267552651" conceptFqName="jetbrains.mps.baseLanguage.structure.ConstructorDeclaration" fileName="SchemaUtil.java" startLine="165" startPosition="51" endLine="167" endPosition="5" />
+    <nodeInfo nodeId="2341233264267552651" conceptFqName="jetbrains.mps.baseLanguage.structure.ConstructorDeclaration" propertyString="QuotationClass_crwl9t_a0a0b0g#()V" fileName="SchemaUtil.java" startLine="114" startPosition="53" endLine="116" endPosition="5" />
+    <nodeInfo nodeId="2341233264267552651" conceptFqName="jetbrains.mps.baseLanguage.structure.ConstructorDeclaration" propertyString="QuotationClass_crwl9t_a0a0a1a6#()V" fileName="SchemaUtil.java" startLine="131" startPosition="54" endLine="133" endPosition="5" />
+    <nodeInfo nodeId="2341233264267552651" conceptFqName="jetbrains.mps.baseLanguage.structure.ConstructorDeclaration" propertyString="QuotationClass_crwl9t_a0a0b1a6#()V" fileName="SchemaUtil.java" startLine="148" startPosition="54" endLine="150" endPosition="5" />
+    <nodeInfo nodeId="2341233264267552651" conceptFqName="jetbrains.mps.baseLanguage.structure.ConstructorDeclaration" propertyString="QuotationClass_crwl9t_a0c0g#()V" fileName="SchemaUtil.java" startLine="165" startPosition="51" endLine="167" endPosition="5" />
     <nodeInfo nodeId="5285611549890897321" conceptFqName="jetbrains.mps.baseLanguage.structure.IfStatement" fileName="SchemaUtil.java" startLine="25" startPosition="74" endLine="28" endPosition="5" />
     <nodeInfo nodeId="5285611549890897373" conceptFqName="jetbrains.mps.baseLanguage.structure.BlockStatement" fileName="SchemaUtil.java" startLine="47" startPosition="10" endLine="50" endPosition="5" />
     <nodeInfo nodeId="2341233264267552788" conceptFqName="jetbrains.mps.baseLanguage.structure.ForeachStatement" fileName="SchemaUtil.java" startLine="54" startPosition="52" endLine="57" endPosition="5" />
-    <nodeInfo nodeId="2341233264267552817" conceptFqName="jetbrains.mps.baseLanguage.structure.InstanceMethodDeclaration" fileName="SchemaUtil.java" startLine="63" startPosition="225" endLine="67" endPosition="0" />
-    <nodeInfo nodeId="2341233264267552817" conceptFqName="jetbrains.mps.baseLanguage.structure.InstanceMethodDeclaration" fileName="SchemaUtil.java" startLine="67" startPosition="45" endLine="71" endPosition="0" />
+    <nodeInfo nodeId="2341233264267552817" conceptFqName="jetbrains.mps.baseLanguage.structure.InstanceMethodDeclaration" propertyString="accept#(Ljetbrains/mps/smodel/SNode;)Z" fileName="SchemaUtil.java" startLine="63" startPosition="225" endLine="67" endPosition="0" />
+    <nodeInfo nodeId="2341233264267552817" conceptFqName="jetbrains.mps.baseLanguage.structure.InstanceMethodDeclaration" propertyString="select#(Ljetbrains/mps/smodel/SNode;)Ljetbrains/mps/smodel/SNode;" fileName="SchemaUtil.java" startLine="67" startPosition="52" endLine="71" endPosition="0" />
     <nodeInfo nodeId="1558623248073038272" conceptFqName="jetbrains.mps.baseLanguage.structure.IfStatement" fileName="SchemaUtil.java" startLine="85" startPosition="107" endLine="89" endPosition="5" />
     <nodeInfo nodeId="4705273682234098413" conceptFqName="jetbrains.mps.baseLanguage.structure.IfStatement" fileName="SchemaUtil.java" startLine="76" startPosition="77" endLine="81" endPosition="5" />
     <nodeInfo nodeId="3149278768676788019" conceptFqName="jetbrains.mps.baseLanguage.structure.IfStatement" fileName="SchemaUtil.java" startLine="93" startPosition="83" endLine="98" endPosition="5" />
@@ -137,19 +137,19 @@
     <nodeInfo nodeId="2341233264267552651" conceptFqName="jetbrains.mps.baseLanguage.structure.BlockStatement" fileName="SchemaUtil.java" startLine="155" startPosition="32" endLine="160" endPosition="7" />
     <nodeInfo nodeId="2341233264267552651" conceptFqName="jetbrains.mps.baseLanguage.structure.BlockStatement" fileName="SchemaUtil.java" startLine="172" startPosition="32" endLine="177" endPosition="7" />
     <nodeInfo nodeId="7225751495667397652" conceptFqName="jetbrains.mps.baseLanguage.structure.IfStatement" fileName="SchemaUtil.java" startLine="103" startPosition="94" endLine="110" endPosition="5" />
-    <nodeInfo nodeId="2341233264267552778" conceptFqName="jetbrains.mps.baseLanguage.structure.StaticMethodDeclaration" fileName="SchemaUtil.java" startLine="52" startPosition="0" endLine="60" endPosition="0" />
+    <nodeInfo nodeId="2341233264267552778" conceptFqName="jetbrains.mps.baseLanguage.structure.StaticMethodDeclaration" propertyString="getAvailableAttributes#(Ljava/util/List;)Ljava/util/List;" fileName="SchemaUtil.java" startLine="52" startPosition="0" endLine="60" endPosition="0" />
     <nodeInfo nodeId="2341233264267552813" conceptFqName="jetbrains.mps.baseLanguage.structure.ExpressionStatement" fileName="SchemaUtil.java" startLine="62" startPosition="50" endLine="71" endPosition="8" />
-    <nodeInfo nodeId="4705273682234098401" conceptFqName="jetbrains.mps.baseLanguage.structure.StaticMethodDeclaration" fileName="SchemaUtil.java" startLine="74" startPosition="0" endLine="83" endPosition="0" />
-    <nodeInfo nodeId="4705273682234223376" conceptFqName="jetbrains.mps.baseLanguage.structure.StaticMethodDeclaration" fileName="SchemaUtil.java" startLine="83" startPosition="0" endLine="92" endPosition="0" />
-    <nodeInfo nodeId="3149278768676787979" conceptFqName="jetbrains.mps.baseLanguage.structure.StaticMethodDeclaration" fileName="SchemaUtil.java" startLine="92" startPosition="0" endLine="101" endPosition="0" />
-    <nodeInfo nodeId="7225751495667397638" conceptFqName="jetbrains.mps.baseLanguage.structure.StaticMethodDeclaration" fileName="SchemaUtil.java" startLine="101" startPosition="0" endLine="113" endPosition="0" />
-    <nodeInfo nodeId="2341233264267552651" conceptFqName="jetbrains.mps.baseLanguage.structure.InstanceMethodDeclaration" fileName="SchemaUtil.java" startLine="117" startPosition="0" endLine="129" endPosition="0" />
-    <nodeInfo nodeId="2341233264267552651" conceptFqName="jetbrains.mps.baseLanguage.structure.InstanceMethodDeclaration" fileName="SchemaUtil.java" startLine="134" startPosition="0" endLine="146" endPosition="0" />
-    <nodeInfo nodeId="2341233264267552651" conceptFqName="jetbrains.mps.baseLanguage.structure.InstanceMethodDeclaration" fileName="SchemaUtil.java" startLine="151" startPosition="0" endLine="163" endPosition="0" />
-    <nodeInfo nodeId="2341233264267552651" conceptFqName="jetbrains.mps.baseLanguage.structure.InstanceMethodDeclaration" fileName="SchemaUtil.java" startLine="168" startPosition="0" endLine="180" endPosition="0" />
-    <nodeInfo nodeId="2341233264267552803" conceptFqName="jetbrains.mps.baseLanguage.structure.StaticMethodDeclaration" fileName="SchemaUtil.java" startLine="60" startPosition="0" endLine="74" endPosition="0" />
+    <nodeInfo nodeId="4705273682234098401" conceptFqName="jetbrains.mps.baseLanguage.structure.StaticMethodDeclaration" propertyString="complexTypePresentation#(Ljetbrains/mps/smodel/SNode;)Ljava/lang/String;" fileName="SchemaUtil.java" startLine="74" startPosition="0" endLine="83" endPosition="0" />
+    <nodeInfo nodeId="4705273682234223376" conceptFqName="jetbrains.mps.baseLanguage.structure.StaticMethodDeclaration" propertyString="constructXMLElementType#(Ljetbrains/mps/smodel/SNode;)Ljetbrains/mps/smodel/SNode;" fileName="SchemaUtil.java" startLine="83" startPosition="0" endLine="92" endPosition="0" />
+    <nodeInfo nodeId="3149278768676787979" conceptFqName="jetbrains.mps.baseLanguage.structure.StaticMethodDeclaration" propertyString="constructXMLElementTypeForElement#(Ljetbrains/mps/smodel/SNode;)Ljetbrains/mps/smodel/SNode;" fileName="SchemaUtil.java" startLine="92" startPosition="0" endLine="101" endPosition="0" />
+    <nodeInfo nodeId="7225751495667397638" conceptFqName="jetbrains.mps.baseLanguage.structure.StaticMethodDeclaration" propertyString="getAttributeType#(Ljetbrains/mps/smodel/SNode;)Ljetbrains/mps/smodel/SNode;" fileName="SchemaUtil.java" startLine="101" startPosition="0" endLine="113" endPosition="0" />
+    <nodeInfo nodeId="2341233264267552651" conceptFqName="jetbrains.mps.baseLanguage.structure.InstanceMethodDeclaration" propertyString="createNode#()Ljetbrains/mps/smodel/SNode;" fileName="SchemaUtil.java" startLine="117" startPosition="0" endLine="129" endPosition="0" />
+    <nodeInfo nodeId="2341233264267552651" conceptFqName="jetbrains.mps.baseLanguage.structure.InstanceMethodDeclaration" propertyString="createNode#()Ljetbrains/mps/smodel/SNode;" fileName="SchemaUtil.java" startLine="134" startPosition="0" endLine="146" endPosition="0" />
+    <nodeInfo nodeId="2341233264267552651" conceptFqName="jetbrains.mps.baseLanguage.structure.InstanceMethodDeclaration" propertyString="createNode#()Ljetbrains/mps/smodel/SNode;" fileName="SchemaUtil.java" startLine="151" startPosition="0" endLine="163" endPosition="0" />
+    <nodeInfo nodeId="2341233264267552651" conceptFqName="jetbrains.mps.baseLanguage.structure.InstanceMethodDeclaration" propertyString="createNode#()Ljetbrains/mps/smodel/SNode;" fileName="SchemaUtil.java" startLine="168" startPosition="0" endLine="180" endPosition="0" />
+    <nodeInfo nodeId="2341233264267552803" conceptFqName="jetbrains.mps.baseLanguage.structure.StaticMethodDeclaration" propertyString="getAvailableChildren#(Ljetbrains/mps/smodel/SNode;)Ljava/util/List;" fileName="SchemaUtil.java" startLine="60" startPosition="0" endLine="74" endPosition="0" />
     <nodeInfo nodeId="5285611549890897331" conceptFqName="jetbrains.mps.baseLanguage.structure.IfStatement" fileName="SchemaUtil.java" startLine="29" startPosition="0" endLine="50" endPosition="5" />
-    <nodeInfo nodeId="2341233264267552653" conceptFqName="jetbrains.mps.baseLanguage.structure.StaticMethodDeclaration" fileName="SchemaUtil.java" startLine="24" startPosition="0" endLine="52" endPosition="0" />
+    <nodeInfo nodeId="2341233264267552653" conceptFqName="jetbrains.mps.baseLanguage.structure.StaticMethodDeclaration" propertyString="getAvailableAttributes#(Ljetbrains/mps/smodel/SNode;)Ljava/util/List;" fileName="SchemaUtil.java" startLine="24" startPosition="0" endLine="52" endPosition="0" />
     <scopeInfo nodeId="4168438976304833688" fileName="SchemaUtil.java" startLine="22" startPosition="24" endLine="22" endPosition="24" />
     <scopeInfo nodeId="2341233264267552651" fileName="SchemaUtil.java" startLine="115" startPosition="44" endLine="115" endPosition="44" />
     <scopeInfo nodeId="2341233264267552651" fileName="SchemaUtil.java" startLine="132" startPosition="45" endLine="132" endPosition="45" />
@@ -169,23 +169,23 @@
     <scopeInfo nodeId="7225751495667397653" fileName="SchemaUtil.java" startLine="104" startPosition="147" endLine="105" endPosition="73" />
     <scopeInfo nodeId="7225751495667397674" fileName="SchemaUtil.java" startLine="106" startPosition="122" endLine="107" endPosition="74" />
     <scopeInfo nodeId="7225751495667397683" fileName="SchemaUtil.java" startLine="108" startPosition="122" endLine="109" endPosition="74" />
-    <scopeInfo nodeId="4168438976304833685" fileName="SchemaUtil.java" startLine="21" startPosition="25" endLine="23" endPosition="3" />
+    <scopeInfo nodeId="4168438976304833685" conceptFqName="jetbrains.mps.baseLanguage.structure.ConstructorDeclaration" propertyString="SchemaUtil#()V" fileName="SchemaUtil.java" startLine="21" startPosition="25" endLine="23" endPosition="3" />
     <scopeInfo nodeId="5285611549890897374" fileName="SchemaUtil.java" startLine="47" startPosition="12" endLine="49" endPosition="36" />
     <scopeInfo nodeId="1558623248073038273" fileName="SchemaUtil.java" startLine="86" startPosition="30" endLine="88" endPosition="73" />
-    <scopeInfo nodeId="2341233264267552651" fileName="SchemaUtil.java" startLine="114" startPosition="53" endLine="116" endPosition="5" />
-    <scopeInfo nodeId="2341233264267552651" fileName="SchemaUtil.java" startLine="131" startPosition="54" endLine="133" endPosition="5" />
-    <scopeInfo nodeId="2341233264267552651" fileName="SchemaUtil.java" startLine="148" startPosition="54" endLine="150" endPosition="5" />
-    <scopeInfo nodeId="2341233264267552651" fileName="SchemaUtil.java" startLine="165" startPosition="51" endLine="167" endPosition="5" />
+    <scopeInfo nodeId="2341233264267552651" conceptFqName="jetbrains.mps.baseLanguage.structure.ConstructorDeclaration" propertyString="QuotationClass_crwl9t_a0a0b0g#()V" fileName="SchemaUtil.java" startLine="114" startPosition="53" endLine="116" endPosition="5" />
+    <scopeInfo nodeId="2341233264267552651" conceptFqName="jetbrains.mps.baseLanguage.structure.ConstructorDeclaration" propertyString="QuotationClass_crwl9t_a0a0a1a6#()V" fileName="SchemaUtil.java" startLine="131" startPosition="54" endLine="133" endPosition="5" />
+    <scopeInfo nodeId="2341233264267552651" conceptFqName="jetbrains.mps.baseLanguage.structure.ConstructorDeclaration" propertyString="QuotationClass_crwl9t_a0a0b1a6#()V" fileName="SchemaUtil.java" startLine="148" startPosition="54" endLine="150" endPosition="5" />
+    <scopeInfo nodeId="2341233264267552651" conceptFqName="jetbrains.mps.baseLanguage.structure.ConstructorDeclaration" propertyString="QuotationClass_crwl9t_a0c0g#()V" fileName="SchemaUtil.java" startLine="165" startPosition="51" endLine="167" endPosition="5" />
     <scopeInfo nodeId="5285611549890897393" fileName="SchemaUtil.java" startLine="37" startPosition="120" endLine="40" endPosition="24">
       <varInfo nodeId="5285611549890897395" varName="attributes" />
     </scopeInfo>
-    <scopeInfo nodeId="2341233264267552788" fileName="SchemaUtil.java" startLine="54" startPosition="52" endLine="57" endPosition="5" />
+    <scopeInfo nodeId="2341233264267552788" conceptFqName="jetbrains.mps.baseLanguage.structure.ForeachStatement" fileName="SchemaUtil.java" startLine="54" startPosition="52" endLine="57" endPosition="5" />
     <scopeInfo nodeId="2341233264267552651" fileName="SchemaUtil.java" startLine="122" startPosition="7" endLine="125" endPosition="31" />
     <scopeInfo nodeId="2341233264267552651" fileName="SchemaUtil.java" startLine="139" startPosition="7" endLine="142" endPosition="31" />
     <scopeInfo nodeId="2341233264267552651" fileName="SchemaUtil.java" startLine="156" startPosition="7" endLine="159" endPosition="31" />
     <scopeInfo nodeId="2341233264267552651" fileName="SchemaUtil.java" startLine="173" startPosition="7" endLine="176" endPosition="31" />
-    <scopeInfo nodeId="2341233264267552817" fileName="SchemaUtil.java" startLine="63" startPosition="225" endLine="67" endPosition="0" />
-    <scopeInfo nodeId="2341233264267552817" fileName="SchemaUtil.java" startLine="67" startPosition="45" endLine="71" endPosition="0" />
+    <scopeInfo nodeId="2341233264267552817" conceptFqName="jetbrains.mps.baseLanguage.structure.InstanceMethodDeclaration" propertyString="accept#(Ljetbrains/mps/smodel/SNode;)Z" fileName="SchemaUtil.java" startLine="63" startPosition="225" endLine="67" endPosition="0" />
+    <scopeInfo nodeId="2341233264267552817" conceptFqName="jetbrains.mps.baseLanguage.structure.InstanceMethodDeclaration" propertyString="select#(Ljetbrains/mps/smodel/SNode;)Ljetbrains/mps/smodel/SNode;" fileName="SchemaUtil.java" startLine="67" startPosition="52" endLine="71" endPosition="0" />
     <scopeInfo nodeId="2341233264267552781" fileName="SchemaUtil.java" startLine="53" startPosition="81" endLine="58" endPosition="22">
       <varInfo nodeId="2341233264267552783" varName="attributes" />
     </scopeInfo>
@@ -204,16 +204,16 @@
       <varInfo nodeId="4705273682234223399" varName="type" />
     </scopeInfo>
     <scopeInfo nodeId="3149278768676787982" fileName="SchemaUtil.java" startLine="93" startPosition="83" endLine="99" endPosition="16" />
-    <scopeInfo nodeId="2341233264267552778" fileName="SchemaUtil.java" startLine="52" startPosition="0" endLine="60" endPosition="0">
+    <scopeInfo nodeId="2341233264267552778" conceptFqName="jetbrains.mps.baseLanguage.structure.StaticMethodDeclaration" propertyString="getAvailableAttributes#(Ljava/util/List;)Ljava/util/List;" fileName="SchemaUtil.java" startLine="52" startPosition="0" endLine="60" endPosition="0">
       <varInfo nodeId="2341233264267552801" varName="typeExpressions" />
     </scopeInfo>
-    <scopeInfo nodeId="4705273682234098401" fileName="SchemaUtil.java" startLine="74" startPosition="0" endLine="83" endPosition="0">
+    <scopeInfo nodeId="4705273682234098401" conceptFqName="jetbrains.mps.baseLanguage.structure.StaticMethodDeclaration" propertyString="complexTypePresentation#(Ljetbrains/mps/smodel/SNode;)Ljava/lang/String;" fileName="SchemaUtil.java" startLine="74" startPosition="0" endLine="83" endPosition="0">
       <varInfo nodeId="4705273682234098436" varName="complexType" />
     </scopeInfo>
-    <scopeInfo nodeId="4705273682234223376" fileName="SchemaUtil.java" startLine="83" startPosition="0" endLine="92" endPosition="0">
+    <scopeInfo nodeId="4705273682234223376" conceptFqName="jetbrains.mps.baseLanguage.structure.StaticMethodDeclaration" propertyString="constructXMLElementType#(Ljetbrains/mps/smodel/SNode;)Ljetbrains/mps/smodel/SNode;" fileName="SchemaUtil.java" startLine="83" startPosition="0" endLine="92" endPosition="0">
       <varInfo nodeId="4705273682234223381" varName="complexType" />
     </scopeInfo>
-    <scopeInfo nodeId="3149278768676787979" fileName="SchemaUtil.java" startLine="92" startPosition="0" endLine="101" endPosition="0">
+    <scopeInfo nodeId="3149278768676787979" conceptFqName="jetbrains.mps.baseLanguage.structure.StaticMethodDeclaration" propertyString="constructXMLElementTypeForElement#(Ljetbrains/mps/smodel/SNode;)Ljetbrains/mps/smodel/SNode;" fileName="SchemaUtil.java" startLine="92" startPosition="0" endLine="101" endPosition="0">
       <varInfo nodeId="3149278768676788012" varName="elementDeclaration" />
     </scopeInfo>
     <scopeInfo nodeId="7225751495667397641" fileName="SchemaUtil.java" startLine="102" startPosition="68" endLine="111" endPosition="69">
@@ -226,22 +226,22 @@
     <scopeInfo nodeId="2341233264267552806" fileName="SchemaUtil.java" startLine="61" startPosition="69" endLine="72" endPosition="20">
       <varInfo nodeId="2341233264267552808" varName="children" />
     </scopeInfo>
-    <scopeInfo nodeId="7225751495667397638" fileName="SchemaUtil.java" startLine="101" startPosition="0" endLine="113" endPosition="0">
+    <scopeInfo nodeId="7225751495667397638" conceptFqName="jetbrains.mps.baseLanguage.structure.StaticMethodDeclaration" propertyString="getAttributeType#(Ljetbrains/mps/smodel/SNode;)Ljetbrains/mps/smodel/SNode;" fileName="SchemaUtil.java" startLine="101" startPosition="0" endLine="113" endPosition="0">
       <varInfo nodeId="7225751495667397695" varName="attributeDeclaration" />
     </scopeInfo>
-    <scopeInfo nodeId="2341233264267552651" fileName="SchemaUtil.java" startLine="117" startPosition="0" endLine="129" endPosition="0" />
-    <scopeInfo nodeId="2341233264267552651" fileName="SchemaUtil.java" startLine="134" startPosition="0" endLine="146" endPosition="0" />
-    <scopeInfo nodeId="2341233264267552651" fileName="SchemaUtil.java" startLine="151" startPosition="0" endLine="163" endPosition="0" />
-    <scopeInfo nodeId="2341233264267552651" fileName="SchemaUtil.java" startLine="168" startPosition="0" endLine="180" endPosition="0" />
-    <scopeInfo nodeId="2341233264267552803" fileName="SchemaUtil.java" startLine="60" startPosition="0" endLine="74" endPosition="0">
+    <scopeInfo nodeId="2341233264267552651" conceptFqName="jetbrains.mps.baseLanguage.structure.InstanceMethodDeclaration" propertyString="createNode#()Ljetbrains/mps/smodel/SNode;" fileName="SchemaUtil.java" startLine="117" startPosition="0" endLine="129" endPosition="0" />
+    <scopeInfo nodeId="2341233264267552651" conceptFqName="jetbrains.mps.baseLanguage.structure.InstanceMethodDeclaration" propertyString="createNode#()Ljetbrains/mps/smodel/SNode;" fileName="SchemaUtil.java" startLine="134" startPosition="0" endLine="146" endPosition="0" />
+    <scopeInfo nodeId="2341233264267552651" conceptFqName="jetbrains.mps.baseLanguage.structure.InstanceMethodDeclaration" propertyString="createNode#()Ljetbrains/mps/smodel/SNode;" fileName="SchemaUtil.java" startLine="151" startPosition="0" endLine="163" endPosition="0" />
+    <scopeInfo nodeId="2341233264267552651" conceptFqName="jetbrains.mps.baseLanguage.structure.InstanceMethodDeclaration" propertyString="createNode#()Ljetbrains/mps/smodel/SNode;" fileName="SchemaUtil.java" startLine="168" startPosition="0" endLine="180" endPosition="0" />
+    <scopeInfo nodeId="2341233264267552803" conceptFqName="jetbrains.mps.baseLanguage.structure.StaticMethodDeclaration" propertyString="getAvailableChildren#(Ljetbrains/mps/smodel/SNode;)Ljava/util/List;" fileName="SchemaUtil.java" startLine="60" startPosition="0" endLine="74" endPosition="0">
       <varInfo nodeId="2341233264267552826" varName="complexType" />
     </scopeInfo>
     <scopeInfo nodeId="2341233264267552656" fileName="SchemaUtil.java" startLine="25" startPosition="74" endLine="50" endPosition="5" />
-    <scopeInfo nodeId="2341233264267552653" fileName="SchemaUtil.java" startLine="24" startPosition="0" endLine="52" endPosition="0">
+    <scopeInfo nodeId="2341233264267552653" conceptFqName="jetbrains.mps.baseLanguage.structure.StaticMethodDeclaration" propertyString="getAvailableAttributes#(Ljetbrains/mps/smodel/SNode;)Ljava/util/List;" fileName="SchemaUtil.java" startLine="24" startPosition="0" endLine="52" endPosition="0">
       <varInfo nodeId="2341233264267552654" varName="typeExpression" />
     </scopeInfo>
     <unitInfo nodeId="2341233264267552817" fileName="SchemaUtil.java" startLine="63" startPosition="202" endLine="67" endPosition="5" unitName="jetbrains.mps.xmlQuery.constraints.SchemaUtil$1" />
-    <unitInfo nodeId="2341233264267552817" fileName="SchemaUtil.java" startLine="67" startPosition="18" endLine="71" endPosition="5" unitName="jetbrains.mps.xmlQuery.constraints.SchemaUtil$2" />
+    <unitInfo nodeId="2341233264267552817" fileName="SchemaUtil.java" startLine="67" startPosition="25" endLine="71" endPosition="5" unitName="jetbrains.mps.xmlQuery.constraints.SchemaUtil$2" />
     <unitInfo nodeId="2341233264267552651" fileName="SchemaUtil.java" startLine="114" startPosition="0" endLine="130" endPosition="0" unitName="jetbrains.mps.xmlQuery.constraints.SchemaUtil$QuotationClass_crwl9t_a0a0b0g" />
     <unitInfo nodeId="2341233264267552651" fileName="SchemaUtil.java" startLine="131" startPosition="0" endLine="147" endPosition="0" unitName="jetbrains.mps.xmlQuery.constraints.SchemaUtil$QuotationClass_crwl9t_a0a0a1a6" />
     <unitInfo nodeId="2341233264267552651" fileName="SchemaUtil.java" startLine="148" startPosition="0" endLine="164" endPosition="0" unitName="jetbrains.mps.xmlQuery.constraints.SchemaUtil$QuotationClass_crwl9t_a0a0b1a6" />
@@ -270,12 +270,12 @@
     <nodeInfo nodeId="1211753978542125464" conceptFqName="jetbrains.mps.baseLanguage.structure.LocalVariableDeclarationStatement" fileName="AccessChildrenOperation_elementDeclaration_ReferentConstraint.java" startLine="45" startPosition="5" endLine="46" endPosition="151" />
     <nodeInfo nodeId="3850127206707162776" conceptFqName="jetbrains.mps.baseLanguage.structure.ReturnStatement" fileName="AccessChildrenOperation_elementDeclaration_ReferentConstraint.java" startLine="46" startPosition="151" endLine="47" endPosition="31" />
     <nodeInfo nodeId="2341233264267687136" conceptFqName="jetbrains.mps.baseLanguage.structure.IfStatement" fileName="AccessChildrenOperation_elementDeclaration_ReferentConstraint.java" startLine="34" startPosition="337" endLine="37" endPosition="5" />
-    <nodeInfo nodeId="3014833108615703002" conceptFqName="jetbrains.mps.baseLanguage.structure.InstanceMethodDeclaration" fileName="AccessChildrenOperation_elementDeclaration_ReferentConstraint.java" startLine="40" startPosition="294" endLine="44" endPosition="0" />
+    <nodeInfo nodeId="3014833108615703002" conceptFqName="jetbrains.mps.baseLanguage.structure.InstanceMethodDeclaration" propertyString="accept#(Ljetbrains/mps/smodel/SNode;)Z" fileName="AccessChildrenOperation_elementDeclaration_ReferentConstraint.java" startLine="40" startPosition="294" endLine="44" endPosition="0" />
     <nodeInfo nodeId="3014833108615702983" conceptFqName="jetbrains.mps.baseLanguage.structure.ExpressionStatement" fileName="AccessChildrenOperation_elementDeclaration_ReferentConstraint.java" startLine="39" startPosition="37" endLine="44" endPosition="9" />
     <nodeInfo nodeId="3014833108615681580" conceptFqName="jetbrains.mps.baseLanguage.structure.IfStatement" fileName="AccessChildrenOperation_elementDeclaration_ReferentConstraint.java" startLine="38" startPosition="142" endLine="45" endPosition="5" />
     <scopeInfo nodeId="2341233264267687137" fileName="AccessChildrenOperation_elementDeclaration_ReferentConstraint.java" startLine="35" startPosition="30" endLine="36" endPosition="36" />
     <scopeInfo nodeId="3014833108615703003" fileName="AccessChildrenOperation_elementDeclaration_ReferentConstraint.java" startLine="41" startPosition="42" endLine="42" endPosition="142" />
-    <scopeInfo nodeId="3014833108615703002" fileName="AccessChildrenOperation_elementDeclaration_ReferentConstraint.java" startLine="40" startPosition="294" endLine="44" endPosition="0" />
+    <scopeInfo nodeId="3014833108615703002" conceptFqName="jetbrains.mps.baseLanguage.structure.InstanceMethodDeclaration" propertyString="accept#(Ljetbrains/mps/smodel/SNode;)Z" fileName="AccessChildrenOperation_elementDeclaration_ReferentConstraint.java" startLine="40" startPosition="294" endLine="44" endPosition="0" />
     <scopeInfo nodeId="3014833108615681581" fileName="AccessChildrenOperation_elementDeclaration_ReferentConstraint.java" startLine="39" startPosition="37" endLine="44" endPosition="9" />
     <scopeInfo nodeId="4991903842868413104" fileName="AccessChildrenOperation_elementDeclaration_ReferentConstraint.java" startLine="33" startPosition="132" endLine="47" endPosition="31">
       <varInfo nodeId="3129600724328900185" varName="complexType" />

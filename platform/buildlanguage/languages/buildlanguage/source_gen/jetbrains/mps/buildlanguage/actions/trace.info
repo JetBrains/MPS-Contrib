@@ -78,12 +78,12 @@
     <nodeInfo nodeId="353793545803348400" conceptFqName="jetbrains.mps.baseLanguage.structure.IfStatement" fileName="Util.java" startLine="17" startPosition="10" endLine="20" endPosition="5" />
     <nodeInfo nodeId="353793545803348383" conceptFqName="jetbrains.mps.baseLanguage.structure.IfStatement" fileName="Util.java" startLine="14" startPosition="10" endLine="20" endPosition="5" />
     <nodeInfo nodeId="353793545803348368" conceptFqName="jetbrains.mps.baseLanguage.structure.IfStatement" fileName="Util.java" startLine="11" startPosition="69" endLine="20" endPosition="5" />
-    <nodeInfo nodeId="353793545803348364" conceptFqName="jetbrains.mps.baseLanguage.structure.StaticMethodDeclaration" fileName="Util.java" startLine="10" startPosition="19" endLine="23" endPosition="0" />
+    <nodeInfo nodeId="353793545803348364" conceptFqName="jetbrains.mps.baseLanguage.structure.StaticMethodDeclaration" propertyString="checkNodeType#(Ljetbrains/mps/smodel/SNode;Ljetbrains/mps/smodel/SNode;)Z" fileName="Util.java" startLine="10" startPosition="19" endLine="23" endPosition="0" />
     <scopeInfo nodeId="353793545803348369" fileName="Util.java" startLine="12" startPosition="112" endLine="13" endPosition="205" />
     <scopeInfo nodeId="353793545803348384" fileName="Util.java" startLine="15" startPosition="107" endLine="16" endPosition="267" />
     <scopeInfo nodeId="353793545803348401" fileName="Util.java" startLine="18" startPosition="118" endLine="19" endPosition="220" />
     <scopeInfo nodeId="353793545803348367" fileName="Util.java" startLine="11" startPosition="69" endLine="21" endPosition="17" />
-    <scopeInfo nodeId="353793545803348364" fileName="Util.java" startLine="10" startPosition="19" endLine="23" endPosition="0">
+    <scopeInfo nodeId="353793545803348364" conceptFqName="jetbrains.mps.baseLanguage.structure.StaticMethodDeclaration" propertyString="checkNodeType#(Ljetbrains/mps/smodel/SNode;Ljetbrains/mps/smodel/SNode;)Z" fileName="Util.java" startLine="10" startPosition="19" endLine="23" endPosition="0">
       <varInfo nodeId="353793545803348417" varName="parentNode" />
       <varInfo nodeId="353793545803348419" varName="type" />
     </scopeInfo>
