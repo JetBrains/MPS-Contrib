@@ -23,7 +23,7 @@
   <unitInfo fileName="AttributeGroupReference_Editor.java" startLine="51" startPosition="0" endLine="88" endPosition="0" unitName="jetbrains.mps.xmlSchema.editor.AttributeGroupReference_Editor$_Inline_2syzia_a0a" />
   <unitInfo fileName="DeclarationBlock_Editor.java" startLine="98" startPosition="0" endLine="135" endPosition="0" unitName="jetbrains.mps.xmlSchema.editor.DeclarationBlock_Editor$textLineListHandler_gu9gxo_a0" />
   <unitInfo fileName="DeclarationBlock_Editor.java" startLine="136" startPosition="0" endLine="173" endPosition="0" unitName="jetbrains.mps.xmlSchema.editor.DeclarationBlock_Editor$declarationListHandler_gu9gxo_b2a" />
-  <unitInfo fileName="EntitySet_Editor.java" startLine="154" startPosition="0" endLine="191" endPosition="0" unitName="jetbrains.mps.xmlSchema.editor.EntitySet_Editor$entityBlockListHandler_bj9nw6_c0" />
+  <unitInfo fileName="EntitySet_Editor.java" startLine="249" startPosition="0" endLine="286" endPosition="0" unitName="jetbrains.mps.xmlSchema.editor.EntitySet_Editor$entityBlockListHandler_bj9nw6_c0" />
   <unitInfo fileName="Schema_Editor.java" startLine="258" startPosition="0" endLine="295" endPosition="0" unitName="jetbrains.mps.xmlSchema.editor.Schema_Editor$declarationBlockListHandler_rivvfp_g0" />
   <unitInfo fileName="ComplexContent_Editor.java" startLine="19" startPosition="0" endLine="60" endPosition="0" unitName="jetbrains.mps.xmlSchema.editor.ComplexContent_Editor" />
   <unitInfo fileName="UseAttribute_Editor.java" startLine="16" startPosition="0" endLine="62" endPosition="0" unitName="jetbrains.mps.xmlSchema.editor.UseAttribute_Editor" />
@@ -55,7 +55,7 @@
   <unitInfo fileName="Sequence_Editor.java" startLine="22" startPosition="0" endLine="154" endPosition="0" unitName="jetbrains.mps.xmlSchema.editor.Sequence_Editor" />
   <unitInfo fileName="DeclarationBlock_Editor.java" startLine="22" startPosition="0" endLine="174" endPosition="0" unitName="jetbrains.mps.xmlSchema.editor.DeclarationBlock_Editor" />
   <unitInfo fileName="TypeExpressionList_Editor.java" startLine="26" startPosition="0" endLine="179" endPosition="0" unitName="jetbrains.mps.xmlSchema.editor.TypeExpressionList_Editor" />
-  <unitInfo fileName="EntitySet_Editor.java" startLine="31" startPosition="0" endLine="192" endPosition="0" unitName="jetbrains.mps.xmlSchema.editor.EntitySet_Editor" />
+  <unitInfo fileName="EntitySet_Editor.java" startLine="31" startPosition="0" endLine="287" endPosition="0" unitName="jetbrains.mps.xmlSchema.editor.EntitySet_Editor" />
   <unitInfo fileName="Schema_Editor.java" startLine="28" startPosition="0" endLine="296" endPosition="0" unitName="jetbrains.mps.xmlSchema.editor.Schema_Editor" />
   <root nodeId="1167512717589">
     <nodeInfo nodeId="1214399677788" conceptFqName="jetbrains.mps.baseLanguage.structure.ReturnStatement" fileName="ElementWithContent_Editor.java" startLine="132" startPosition="108" endLine="133" endPosition="39" />
@@ -82,10 +82,10 @@
     <scopeInfo nodeId="1214399678720" fileName="ElementWithType_Editor.java" startLine="132" startPosition="107" endLine="133" endPosition="39" />
   </root>
   <root nodeId="1172950296325">
-    <nodeInfo nodeId="1172963342489" conceptFqName="jetbrains.mps.baseLanguage.structure.ReturnStatement" fileName="EntitySet_Editor.java" startLine="146" startPosition="112" endLine="147" endPosition="62" />
-    <nodeInfo nodeId="1176495144246" conceptFqName="jetbrains.mps.baseLanguage.structure.ReturnStatement" fileName="EntitySet_Editor.java" startLine="150" startPosition="109" endLine="151" endPosition="91" />
-    <scopeInfo nodeId="1172963331696" fileName="EntitySet_Editor.java" startLine="146" startPosition="112" endLine="147" endPosition="62" />
-    <scopeInfo nodeId="1176495136464" fileName="EntitySet_Editor.java" startLine="150" startPosition="109" endLine="151" endPosition="91" />
+    <nodeInfo nodeId="1172963342489" conceptFqName="jetbrains.mps.baseLanguage.structure.ReturnStatement" fileName="EntitySet_Editor.java" startLine="241" startPosition="112" endLine="242" endPosition="62" />
+    <nodeInfo nodeId="1176495144246" conceptFqName="jetbrains.mps.baseLanguage.structure.ReturnStatement" fileName="EntitySet_Editor.java" startLine="245" startPosition="109" endLine="246" endPosition="91" />
+    <scopeInfo nodeId="1172963331696" fileName="EntitySet_Editor.java" startLine="241" startPosition="112" endLine="242" endPosition="62" />
+    <scopeInfo nodeId="1176495136464" fileName="EntitySet_Editor.java" startLine="245" startPosition="109" endLine="246" endPosition="91" />
   </root>
   <root nodeId="1178296794013">
     <nodeInfo nodeId="1178296808264" conceptFqName="jetbrains.mps.baseLanguage.structure.StaticFieldDeclaration" propertyString="XML_COLOR" fileName="XmlColorConstants.java" startLine="7" startPosition="32" endLine="8" endPosition="58" />
