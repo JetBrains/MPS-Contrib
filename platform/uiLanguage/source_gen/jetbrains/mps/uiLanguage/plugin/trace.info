@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <debugInfo>
-  <unitInfo fileName="UiLanguage_ApplicationPlugin.java" startLine="7" startPosition="0" endLine="11" endPosition="0" unitName="jetbrains.mps.uiLanguage.plugin.UiLanguage_ApplicationPlugin" />
+  <unitInfo fileName="UiLanguage_ApplicationPlugin.java" startLine="8" startPosition="0" endLine="18" endPosition="0" unitName="jetbrains.mps.uiLanguage.plugin.UiLanguage_ApplicationPlugin" />
   <unitInfo fileName="UiLanguage_ProjectPlugin.java" startLine="21" startPosition="35" endLine="36" endPosition="5" unitName="jetbrains.mps.uiLanguage.plugin.UiLanguage_ProjectPlugin$1" />
   <unitInfo fileName="UiLanguage_ProjectPlugin.java" startLine="15" startPosition="0" endLine="39" endPosition="0" unitName="jetbrains.mps.uiLanguage.plugin.UiLanguage_ProjectPlugin" />
   <unitInfo fileName="ComponentEditor_TabbedEditor.java" startLine="24" startPosition="0" endLine="49" endPosition="0" unitName="jetbrains.mps.uiLanguage.plugin.ComponentEditor_TabbedEditor$Component_Tab" />
