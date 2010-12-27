@@ -30,7 +30,6 @@
   <dependency className="jetbrains.mps.baseLanguage.dates.plugin.Dates_ApplicationPlugin" file="Dates_ApplicationPlugin.java">
     <classNode dependClassName="jetbrains.mps.baseLanguage.dates.plugin.DateLangGroup_ActionGroup" />
     <classNode dependClassName="jetbrains.mps.baseLanguage.dates.plugin.ConvertDateTimeOperations_Action" />
-    <classNode dependClassName="com.intellij.openapi.actionSystem.ActionManager" />
     <classNode dependClassName="com.intellij.openapi.extensions.PluginId" />
     <classNode dependClassName="jetbrains.mps.ide.actions.ModelActionsInternal_ActionGroup" />
     <classNode extendsClassName="jetbrains.mps.plugins.applicationplugins.BaseApplicationPlugin" />
