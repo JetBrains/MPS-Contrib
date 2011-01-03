@@ -12,7 +12,7 @@
       <module fileurl="file://$PROJECT_DIR$/platform/ypath/runtime/YPath-runtime.iml" filepath="$PROJECT_DIR$/platform/ypath/runtime/YPath-runtime.iml" group="platform/YPath-Panacea" />
       <module fileurl="file://$PROJECT_DIR$/platform/ypath/solutions/YPath-solutions.iml" filepath="$PROJECT_DIR$/platform/ypath/solutions/YPath-solutions.iml" group="platform/YPath-Panacea" />
       <module fileurl="file://$PROJECT_DIR$/core/languageDesign/actions/actions.iml" filepath="$PROJECT_DIR$/core/languageDesign/actions/actions.iml" group="core/languageDesign" />
-      <module fileurl="file://$PROJECT_DIR$/platform/analyzers/analyzers.iml" filepath="$PROJECT_DIR$/platform/analyzers/analyzers.iml" />
+      <module fileurl="file://$PROJECT_DIR$/platform/analyzers/analyzers.iml" filepath="$PROJECT_DIR$/platform/analyzers/analyzers.iml" group="platform" />
       <module fileurl="file://$PROJECT_DIR$/platform/buildlanguage/ant/ant.iml" filepath="$PROJECT_DIR$/platform/buildlanguage/ant/ant.iml" group="platform/build" />
       <module fileurl="file://$PROJECT_DIR$/core/baseLanguage/baseLanguage/baseLanguage.iml" filepath="$PROJECT_DIR$/core/baseLanguage/baseLanguage/baseLanguage.iml" group="core/baseLanguage/baseLanguage" />
       <module fileurl="file://$PROJECT_DIR$/core/baseLanguage/baseLanguage/solutions/jetbrains.mps.baseLanguage.refactoringTest/baseLanguage.test.iml" filepath="$PROJECT_DIR$/core/baseLanguage/baseLanguage/solutions/jetbrains.mps.baseLanguage.refactoringTest/baseLanguage.test.iml" group="core/baseLanguage/baseLanguage" />
@@ -20,13 +20,13 @@
       <module fileurl="file://$PROJECT_DIR$/core/languageDesign/behavior/behavior.iml" filepath="$PROJECT_DIR$/core/languageDesign/behavior/behavior.iml" group="core/languageDesign" />
       <module fileurl="file://$PROJECT_DIR$/core/baseLanguage/blTypes/blTypes.iml" filepath="$PROJECT_DIR$/core/baseLanguage/blTypes/blTypes.iml" group="core/baseLanguage" />
       <module fileurl="file://$PROJECT_DIR$/platform/buildlanguage/buildLanguage.iml" filepath="$PROJECT_DIR$/platform/buildlanguage/buildLanguage.iml" group="platform/build" />
-      <module fileurl="file://$PROJECT_DIR$/core/baseLanguage/checkDot/checkedDots.iml" filepath="$PROJECT_DIR$/core/baseLanguage/checkDot/checkedDots.iml" />
+      <module fileurl="file://$PROJECT_DIR$/core/baseLanguage/checkDot/checkedDots.iml" filepath="$PROJECT_DIR$/core/baseLanguage/checkDot/checkedDots.iml" group="core/baseLanguage" />
       <module fileurl="file://$PROJECT_DIR$/core/baseLanguage/classifiers/classifiers.iml" filepath="$PROJECT_DIR$/core/baseLanguage/classifiers/classifiers.iml" group="core/baseLanguage" />
       <module fileurl="file://$PROJECT_DIR$/core/baseLanguage/collections/collections.iml" filepath="$PROJECT_DIR$/core/baseLanguage/collections/collections.iml" group="core/baseLanguage/collections" />
       <module fileurl="file://$PROJECT_DIR$/core/baseLanguage/collections/runtime/collections-runtime.iml" filepath="$PROJECT_DIR$/core/baseLanguage/collections/runtime/collections-runtime.iml" group="core/baseLanguage/collections" />
       <module fileurl="file://$PROJECT_DIR$/core/baseLanguage/collections/languages/trove/collections-trove.iml" filepath="$PROJECT_DIR$/core/baseLanguage/collections/languages/trove/collections-trove.iml" group="core/baseLanguage/collections" />
       <module fileurl="file://$PROJECT_DIR$/core/languageDesign/constraints/constraints.iml" filepath="$PROJECT_DIR$/core/languageDesign/constraints/constraints.iml" group="core/languageDesign" />
-      <module fileurl="file://$PROJECT_DIR$/core/baseLanguage/constructors/constructors.iml" filepath="$PROJECT_DIR$/core/baseLanguage/constructors/constructors.iml" />
+      <module fileurl="file://$PROJECT_DIR$/core/baseLanguage/constructors/constructors.iml" filepath="$PROJECT_DIR$/core/baseLanguage/constructors/constructors.iml" group="core/baseLanguage" />
       <module fileurl="file://$PROJECT_DIR$/core/languageDesign/core/core.iml" filepath="$PROJECT_DIR$/core/languageDesign/core/core.iml" group="core/languageDesign" />
       <module fileurl="file://$PROJECT_DIR$/core/languageDesign/dataFlow/dataFlow.iml" filepath="$PROJECT_DIR$/core/languageDesign/dataFlow/dataFlow.iml" group="core/languageDesign/dataFlow" />
       <module fileurl="file://$PROJECT_DIR$/core/languageDesign/dataFlow/runtime/dataFlow-runtime.iml" filepath="$PROJECT_DIR$/core/languageDesign/dataFlow/runtime/dataFlow-runtime.iml" group="core/languageDesign/dataFlow" />
@@ -34,7 +34,8 @@
       <module fileurl="file://$PROJECT_DIR$/core/debug-api/debug-api.iml" filepath="$PROJECT_DIR$/core/debug-api/debug-api.iml" group="core/debug" />
       <module fileurl="file://$PROJECT_DIR$/core/debug/debugProject/solutions/jetbrains.mps.debug.tests/debugTests.iml" filepath="$PROJECT_DIR$/core/debug/debugProject/solutions/jetbrains.mps.debug.tests/debugTests.iml" group="core/debug" />
       <module fileurl="file://$PROJECT_DIR$/platform/buildlanguage/languages/distrib/distrib.iml" filepath="$PROJECT_DIR$/platform/buildlanguage/languages/distrib/distrib.iml" group="platform/build" />
-      <module fileurl="file://$PROJECT_DIR$/core/languageDesign/editor/editor.iml" filepath="$PROJECT_DIR$/core/languageDesign/editor/editor.iml" group="core/languageDesign" />
+      <module fileurl="file://$PROJECT_DIR$/core/languageDesign/editor/editor.iml" filepath="$PROJECT_DIR$/core/languageDesign/editor/editor.iml" group="core/languageDesign/editor" />
+      <module fileurl="file://$PROJECT_DIR$/core/languageDesign/editor/tests/table/editor.table.tests.iml" filepath="$PROJECT_DIR$/core/languageDesign/editor/tests/table/editor.table.tests.iml" group="core/languageDesign/editor" />
       <module fileurl="file://$PROJECT_DIR$/core/languageDesign/findUsages/findUsages.iml" filepath="$PROJECT_DIR$/core/languageDesign/findUsages/findUsages.iml" group="core/languageDesign" />
       <module fileurl="file://$PROJECT_DIR$/core/languageDesign/generator/generator.iml" filepath="$PROJECT_DIR$/core/languageDesign/generator/generator.iml" group="core/languageDesign" />
       <module fileurl="file://$PROJECT_DIR$/core/generator/generator-engine.iml" filepath="$PROJECT_DIR$/core/generator/generator-engine.iml" group="core/kernel" />
@@ -48,7 +49,7 @@
       <module fileurl="file://$PROJECT_DIR$/core/baseLanguage/logging/logging.iml" filepath="$PROJECT_DIR$/core/baseLanguage/logging/logging.iml" group="core/baseLanguage" />
       <module fileurl="file://$PROJECT_DIR$/core/languageDesign/make/make.iml" filepath="$PROJECT_DIR$/core/languageDesign/make/make.iml" group="core/languageDesign" />
       <module fileurl="file://$PROJECT_DIR$/core/make-runtime/make-runtime.iml" filepath="$PROJECT_DIR$/core/make-runtime/make-runtime.iml" group="core" />
-      <module fileurl="file://$PROJECT_DIR$/core/baseLanguage/overloadedOperators/overloadedOperators.iml" filepath="$PROJECT_DIR$/core/baseLanguage/overloadedOperators/overloadedOperators.iml" />
+      <module fileurl="file://$PROJECT_DIR$/core/baseLanguage/overloadedOperators/overloadedOperators.iml" filepath="$PROJECT_DIR$/core/baseLanguage/overloadedOperators/overloadedOperators.iml" group="core/baseLanguage" />
       <module fileurl="file://$PROJECT_DIR$/platform/buildlanguage/languages/packaging/packaging.iml" filepath="$PROJECT_DIR$/platform/buildlanguage/languages/packaging/packaging.iml" group="platform/build" />
       <module fileurl="file://$PROJECT_DIR$/core/languageDesign/pattern/pattern.iml" filepath="$PROJECT_DIR$/core/languageDesign/pattern/pattern.iml" group="core/languageDesign" />
       <module fileurl="file://$PROJECT_DIR$/core/languageDesign/plugin/plugin.iml" filepath="$PROJECT_DIR$/core/languageDesign/plugin/plugin.iml" group="core/languageDesign" />
@@ -73,7 +74,7 @@
       <module fileurl="file://$PROJECT_DIR$/core/baseLanguage/collections/languages/trove/runtime/trove.runtime.iml" filepath="$PROJECT_DIR$/core/baseLanguage/collections/languages/trove/runtime/trove.runtime.iml" group="core/baseLanguage/collections" />
       <module fileurl="file://$PROJECT_DIR$/core/languageDesign/typesystem/typesystem.iml" filepath="$PROJECT_DIR$/core/languageDesign/typesystem/typesystem.iml" group="core/languageDesign" />
       <module fileurl="file://$PROJECT_DIR$/core/typesystemEngine/typesystemEngine.iml" filepath="$PROJECT_DIR$/core/typesystemEngine/typesystemEngine.iml" group="core/kernel" />
-      <module fileurl="file://$PROJECT_DIR$/core/typesystemIntegration/typesystemIntegration.iml" filepath="$PROJECT_DIR$/core/typesystemIntegration/typesystemIntegration.iml" />
+      <module fileurl="file://$PROJECT_DIR$/core/typesystemIntegration/typesystemIntegration.iml" filepath="$PROJECT_DIR$/core/typesystemIntegration/typesystemIntegration.iml" group="workbench" />
       <module fileurl="file://$PROJECT_DIR$/workbench/typesystemUi/typesystemUi.iml" filepath="$PROJECT_DIR$/workbench/typesystemUi/typesystemUi.iml" group="workbench" />
       <module fileurl="file://$PROJECT_DIR$/platform/uiLanguage/uiLanguage.iml" filepath="$PROJECT_DIR$/platform/uiLanguage/uiLanguage.iml" group="platform/uiLanguage" />
       <module fileurl="file://$PROJECT_DIR$/workbench/uiTests/uiTests.iml" filepath="$PROJECT_DIR$/workbench/uiTests/uiTests.iml" />
