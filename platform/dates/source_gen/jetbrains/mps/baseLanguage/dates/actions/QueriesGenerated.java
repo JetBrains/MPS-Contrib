@@ -293,7 +293,7 @@ public class QueriesGenerated {
       SNode concept = SConceptOperations.findConceptDeclaration("jetbrains.mps.baseLanguage.dates.structure.FormatDateTimeExpression");
       ListSequence.fromList(result).addElement(new AbstractSideTransformHintSubstituteAction(concept, _context.getSourceNode()) {
         public SNode doSubstitute(String pattern) {
-          return SLinkOperations.setTarget(_context.getSourceNode(), "locale", SLinkOperations.getTarget(new QueriesGenerated.QuotationClass_x583g4_a0a0a0a0a0a0b0a0b0u().createNode(), "locale", false), false);
+          return SLinkOperations.setTarget(_context.getSourceNode(), "locale", SLinkOperations.getTarget(new QueriesGenerated.QuotationClass_x583g4_a0c0a0a0a0a0b0a0b0u().createNode(), "locale", false), false);
         }
 
         public String getMatchingText(String pattern) {
@@ -314,7 +314,7 @@ public class QueriesGenerated {
       SNode concept = SConceptOperations.findConceptDeclaration("jetbrains.mps.baseLanguage.dates.structure.InlineFormatDateTimeExpression");
       ListSequence.fromList(result).addElement(new AbstractSideTransformHintSubstituteAction(concept, _context.getSourceNode()) {
         public SNode doSubstitute(String pattern) {
-          return SLinkOperations.setTarget(_context.getSourceNode(), "locale", SLinkOperations.getTarget(new QueriesGenerated.QuotationClass_x583g4_a0a0a0a0a0a0b0a0b0v().createNode(), "locale", false), false);
+          return SLinkOperations.setTarget(_context.getSourceNode(), "locale", SLinkOperations.getTarget(new QueriesGenerated.QuotationClass_x583g4_a0c0a0a0a0a0b0a0b0v().createNode(), "locale", false), false);
         }
 
         public String getMatchingText(String pattern) {
@@ -335,7 +335,7 @@ public class QueriesGenerated {
       SNode concept = SConceptOperations.findConceptDeclaration("jetbrains.mps.baseLanguage.dates.structure.FormatPeriodExpression");
       ListSequence.fromList(result).addElement(new AbstractSideTransformHintSubstituteAction(concept, _context.getSourceNode()) {
         public SNode doSubstitute(String pattern) {
-          return SLinkOperations.setTarget(_context.getSourceNode(), "locale", SLinkOperations.getTarget(new QueriesGenerated.QuotationClass_x583g4_a0a0a0a0a0a0b0a0b0w().createNode(), "locale", false), false);
+          return SLinkOperations.setTarget(_context.getSourceNode(), "locale", SLinkOperations.getTarget(new QueriesGenerated.QuotationClass_x583g4_a0c0a0a0a0a0b0a0b0w().createNode(), "locale", false), false);
         }
 
         public String getMatchingText(String pattern) {
@@ -397,7 +397,7 @@ public class QueriesGenerated {
       SNode concept = SConceptOperations.findConceptDeclaration("jetbrains.mps.baseLanguage.dates.structure.ParseDateTimeExpression");
       ListSequence.fromList(result).addElement(new AbstractSideTransformHintSubstituteAction(concept, _context.getSourceNode()) {
         public SNode doSubstitute(String pattern) {
-          return SLinkOperations.setTarget(_context.getSourceNode(), "default", new QueriesGenerated.QuotationClass_x583g4_a0a0a0a0a0a1a0a1a52().createNode(), true);
+          return SLinkOperations.setTarget(_context.getSourceNode(), "default", new QueriesGenerated.QuotationClass_x583g4_a2a0a0a0a0a1a0a1a52().createNode(), true);
         }
 
         public String getMatchingText(String pattern) {
@@ -422,7 +422,7 @@ public class QueriesGenerated {
       SNode concept = SConceptOperations.findConceptDeclaration("jetbrains.mps.baseLanguage.dates.structure.ParseDateTimeExpression");
       ListSequence.fromList(result).addElement(new AbstractSideTransformHintSubstituteAction(concept, _context.getSourceNode()) {
         public SNode doSubstitute(String pattern) {
-          SLinkOperations.setTarget(_context.getSourceNode(), "locale", SLinkOperations.getTarget(new QueriesGenerated.QuotationClass_x583g4_a0a0a0a0a0a0b0a0b0ab().createNode(), "locale", false), false);
+          SLinkOperations.setTarget(_context.getSourceNode(), "locale", SLinkOperations.getTarget(new QueriesGenerated.QuotationClass_x583g4_a0c0a0a0a0a0b0a0b0ab().createNode(), "locale", false), false);
           return SNodeOperations.getNode("r:00000000-0000-4000-0000-011c895903dd(jetbrains.mps.baseLanguage.datesInternal.structure)", "1172074383898");
         }
 
@@ -759,8 +759,8 @@ public class QueriesGenerated {
     }
   }
 
-  public static class QuotationClass_x583g4_a0a0a0a0a0a0b0a0b0u {
-    public QuotationClass_x583g4_a0a0a0a0a0a0b0a0b0u() {
+  public static class QuotationClass_x583g4_a0c0a0a0a0a0b0a0b0u {
+    public QuotationClass_x583g4_a0c0a0a0a0a0b0a0b0u() {
     }
 
     public SNode createNode() {
@@ -796,8 +796,8 @@ public class QueriesGenerated {
     }
   }
 
-  public static class QuotationClass_x583g4_a0a0a0a0a0a0b0a0b0v {
-    public QuotationClass_x583g4_a0a0a0a0a0a0b0a0b0v() {
+  public static class QuotationClass_x583g4_a0c0a0a0a0a0b0a0b0v {
+    public QuotationClass_x583g4_a0c0a0a0a0a0b0a0b0v() {
     }
 
     public SNode createNode() {
@@ -833,8 +833,8 @@ public class QueriesGenerated {
     }
   }
 
-  public static class QuotationClass_x583g4_a0a0a0a0a0a0b0a0b0w {
-    public QuotationClass_x583g4_a0a0a0a0a0a0b0a0b0w() {
+  public static class QuotationClass_x583g4_a0c0a0a0a0a0b0a0b0w {
+    public QuotationClass_x583g4_a0c0a0a0a0a0b0a0b0w() {
     }
 
     public SNode createNode() {
@@ -870,8 +870,8 @@ public class QueriesGenerated {
     }
   }
 
-  public static class QuotationClass_x583g4_a0a0a0a0a0a1a0a1a52 {
-    public QuotationClass_x583g4_a0a0a0a0a0a1a0a1a52() {
+  public static class QuotationClass_x583g4_a2a0a0a0a0a1a0a1a52 {
+    public QuotationClass_x583g4_a2a0a0a0a0a1a0a1a52() {
     }
 
     public SNode createNode() {
@@ -899,8 +899,8 @@ public class QueriesGenerated {
     }
   }
 
-  public static class QuotationClass_x583g4_a0a0a0a0a0a0b0a0b0ab {
-    public QuotationClass_x583g4_a0a0a0a0a0a0b0a0b0ab() {
+  public static class QuotationClass_x583g4_a0c0a0a0a0a0b0a0b0ab {
+    public QuotationClass_x583g4_a0c0a0a0a0a0b0a0b0ab() {
     }
 
     public SNode createNode() {
