@@ -13,6 +13,7 @@ import jetbrains.mps.lang.smodel.generator.smodelAdapter.SConceptOperations;
 import jetbrains.mps.util.NameUtil;
 import jetbrains.mps.smodel.action.DefaultSimpleSubstituteAction;
 import jetbrains.mps.smodel.SModel;
+import jetbrains.mps.smodel.action.SNodeFactoryOperations;
 import jetbrains.mps.lang.smodel.generator.smodelAdapter.SPropertyOperations;
 import org.apache.commons.lang.StringUtils;
 import jetbrains.mps.smodel.action.SideTransformActionsBuilderContext;
@@ -28,7 +29,7 @@ public class QueriesGenerated {
       if (outputConcept == null || SConceptOperations.isSuperConceptOf(childConcept, NameUtil.nodeFQName(outputConcept))) {
         ListSequence.fromList(result).addElement(new DefaultSimpleSubstituteAction(outputConcept, _context.getParentNode(), _context.getCurrentTargetNode(), _context.getChildSetter(), operationContext.getScope()) {
           public SNode createChildNode(Object parameterObject, SModel model, String pattern) {
-            SNode text = SConceptOperations.createNewNode("jetbrains.mps.xml.deprecated.structure.Text", null);
+            SNode text = SNodeFactoryOperations.createNewNode("jetbrains.mps.xml.deprecated.structure.Text", null);
             SPropertyOperations.set(text, "name", pattern);
             return text;
           }
@@ -57,7 +58,7 @@ public class QueriesGenerated {
       if (outputConcept == null || SConceptOperations.isSuperConceptOf(childConcept, NameUtil.nodeFQName(outputConcept))) {
         ListSequence.fromList(result).addElement(new DefaultSimpleSubstituteAction(outputConcept, _context.getParentNode(), _context.getCurrentTargetNode(), _context.getChildSetter(), operationContext.getScope()) {
           public SNode createChildNode(Object parameterObject, SModel model, String pattern) {
-            SNode attr = SConceptOperations.createNewNode("jetbrains.mps.xml.deprecated.structure.Attribute", null);
+            SNode attr = SNodeFactoryOperations.createNewNode("jetbrains.mps.xml.deprecated.structure.Attribute", null);
             SPropertyOperations.set(attr, "name", StringUtils.trim(pattern));
             return attr;
           }
@@ -82,7 +83,7 @@ public class QueriesGenerated {
       ListSequence.fromList(result).addElement(new AbstractSideTransformHintSubstituteAction(concept, _context.getSourceNode()) {
         public SNode doSubstitute(String pattern) {
           //  add next attribute 
-          SNode nextAttr = SConceptOperations.createNewNode("jetbrains.mps.xml.deprecated.structure.Attribute", null);
+          SNode nextAttr = SNodeFactoryOperations.createNewNode("jetbrains.mps.xml.deprecated.structure.Attribute", null);
           SPropertyOperations.set(nextAttr, "name", StringUtils.trim(pattern));
           SNodeOperations.insertNextSiblingChild(_context.getSourceNode(), nextAttr);
           return nextAttr;

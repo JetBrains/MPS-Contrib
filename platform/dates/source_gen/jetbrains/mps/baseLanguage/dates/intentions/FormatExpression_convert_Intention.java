@@ -6,7 +6,7 @@ import jetbrains.mps.intentions.BaseIntention;
 import jetbrains.mps.intentions.Intention;
 import jetbrains.mps.smodel.SNode;
 import jetbrains.mps.nodeEditor.EditorContext;
-import jetbrains.mps.lang.smodel.generator.smodelAdapter.SConceptOperations;
+import jetbrains.mps.smodel.action.SNodeFactoryOperations;
 import jetbrains.mps.lang.smodel.generator.smodelAdapter.SLinkOperations;
 import jetbrains.mps.lang.smodel.generator.smodelAdapter.SNodeOperations;
 
@@ -35,10 +35,10 @@ public class FormatExpression_convert_Intention extends BaseIntention implements
   }
 
   public void execute(final SNode node, final EditorContext editorContext) {
-    SNode fdt = SConceptOperations.createNewNode("jetbrains.mps.baseLanguage.dates.structure.FormatDateTimeExpression", null);
+    SNode fdt = SNodeFactoryOperations.createNewNode("jetbrains.mps.baseLanguage.dates.structure.FormatDateTimeExpression", null);
     SLinkOperations.setTarget(fdt, "dateFormat", SLinkOperations.getTarget(node, "dateFormat", false), false);
     SLinkOperations.setTarget(fdt, "locale", SLinkOperations.getTarget(node, "locale", false), false);
-    SNode ite = SConceptOperations.createNewNode("jetbrains.mps.baseLanguage.dates.structure.InTimezoneExpression", null);
+    SNode ite = SNodeFactoryOperations.createNewNode("jetbrains.mps.baseLanguage.dates.structure.InTimezoneExpression", null);
     SLinkOperations.setTarget(ite, "datetime", SLinkOperations.getTarget(node, "dateExpression", true), true);
     SLinkOperations.setTarget(ite, "timezone", SLinkOperations.getTarget(node, "zone", true), true);
     SLinkOperations.setTarget(fdt, "datetime", ite, true);

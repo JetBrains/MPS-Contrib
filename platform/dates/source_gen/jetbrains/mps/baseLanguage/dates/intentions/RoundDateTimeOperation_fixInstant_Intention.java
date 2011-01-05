@@ -9,7 +9,7 @@ import jetbrains.mps.nodeEditor.EditorContext;
 import jetbrains.mps.typesystem.inference.TypeChecker;
 import jetbrains.mps.lang.smodel.generator.smodelAdapter.SLinkOperations;
 import jetbrains.mps.lang.typesystem.runtime.HUtil;
-import jetbrains.mps.lang.smodel.generator.smodelAdapter.SConceptOperations;
+import jetbrains.mps.smodel.action.SNodeFactoryOperations;
 
 public class RoundDateTimeOperation_fixInstant_Intention extends BaseIntention implements Intention {
   public RoundDateTimeOperation_fixInstant_Intention() {
@@ -47,7 +47,7 @@ public class RoundDateTimeOperation_fixInstant_Intention extends BaseIntention i
   }
 
   public void execute(final SNode node, final EditorContext editorContext) {
-    SNode ite = SConceptOperations.createNewNode("jetbrains.mps.baseLanguage.dates.structure.InTimezoneExpression", null);
+    SNode ite = SNodeFactoryOperations.createNewNode("jetbrains.mps.baseLanguage.dates.structure.InTimezoneExpression", null);
     SLinkOperations.setTarget(ite, "datetime", SLinkOperations.getTarget(node, "datetime", true), true);
     SLinkOperations.setTarget(node, "datetime", ite, true);
   }

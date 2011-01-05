@@ -6,7 +6,7 @@ import jetbrains.mps.intentions.BaseIntention;
 import jetbrains.mps.intentions.Intention;
 import jetbrains.mps.smodel.SNode;
 import jetbrains.mps.nodeEditor.EditorContext;
-import jetbrains.mps.lang.smodel.generator.smodelAdapter.SNodeOperations;
+import jetbrains.mps.smodel.action.SNodeFactoryOperations;
 import jetbrains.mps.lang.smodel.generator.smodelAdapter.SLinkOperations;
 
 public class ConvertDateTimePlusToPlus_Intention extends BaseIntention implements Intention {
@@ -45,7 +45,7 @@ public class ConvertDateTimePlusToPlus_Intention extends BaseIntention implement
   }
 
   public void execute(final SNode node, final EditorContext editorContext) {
-    SNode plusPeriodOperation = SNodeOperations.replaceWithNewChild(node, "jetbrains.mps.baseLanguage.structure.PlusExpression");
+    SNode plusPeriodOperation = SNodeFactoryOperations.replaceWithNewChild(node, "jetbrains.mps.baseLanguage.structure.PlusExpression");
     SLinkOperations.setTarget(plusPeriodOperation, "leftExpression", SLinkOperations.getTarget(node, "leftValue", true), true);
     SLinkOperations.setTarget(plusPeriodOperation, "rightExpression", SLinkOperations.getTarget(node, "rightValue", true), true);
   }

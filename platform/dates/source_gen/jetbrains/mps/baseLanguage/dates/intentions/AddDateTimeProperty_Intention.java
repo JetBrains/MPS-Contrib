@@ -9,7 +9,7 @@ import jetbrains.mps.nodeEditor.EditorContext;
 import jetbrains.mps.lang.smodel.generator.smodelAdapter.SNodeOperations;
 import jetbrains.mps.typesystem.inference.TypeChecker;
 import jetbrains.mps.lang.smodel.generator.smodelAdapter.SLinkOperations;
-import jetbrains.mps.lang.smodel.generator.smodelAdapter.SConceptOperations;
+import jetbrains.mps.smodel.action.SNodeFactoryOperations;
 import java.util.Set;
 import java.util.HashSet;
 import jetbrains.mps.smodel.SModelUtil_new;
@@ -51,7 +51,7 @@ public class AddDateTimeProperty_Intention extends BaseIntention implements Inte
   }
 
   public void execute(final SNode node, final EditorContext editorContext) {
-    SNode expression = SConceptOperations.createNewNode("jetbrains.mps.baseLanguage.dates.structure.WithPropertyCompareExpression", null);
+    SNode expression = SNodeFactoryOperations.createNewNode("jetbrains.mps.baseLanguage.dates.structure.WithPropertyCompareExpression", null);
     SLinkOperations.setTarget(expression, "operation", SNodeOperations.copyNode(node), true);
     SNodeOperations.replaceWithAnother(node, expression);
   }

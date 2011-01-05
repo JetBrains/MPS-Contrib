@@ -119,9 +119,9 @@
                   </node>
                   <node role="initializer" roleId="tpee.1068431790190" type="tpee.DotExpression" typeId="tpee.1197027756228" id="1204227917692">
                     <node role="operand" roleId="tpee.1197027771414" type="tpcw.ConceptFunctionParameter_model" typeId="tpcw.1161622665029" id="1177613771079" />
-                    <node role="operation" roleId="tpee.1197027833540" type="tp25.Model_CreateNewNodeOperation" typeId="tp25.1143235216708" id="1177613775488">
-                      <link role="concept" roleId="tp25.1143235391024" targetNodeId="tpjo.1167700349452" />
-                      <node role="prototypeNode" roleId="tp25.1177700677986" type="tpdg.ConceptFunctionParameter_currentTargetNode" typeId="tpdg.1177568407352" id="1201794442589" />
+                    <node role="operation" roleId="tpee.1197027833540" type="tpdg.NF_Model_CreateNewNodeOperation" typeId="tpdg.5480835971642155304" id="8427581592624635713">
+                      <link role="concept" roleId="tp25.1143235391024" targetNodeId="tpjo.1167700349452" resolveInfo="Attribute" />
+                      <node role="prototypeNode" roleId="tp25.1177700677986" type="tpdg.ConceptFunctionParameter_currentTargetNode" typeId="tpdg.1177568407352" id="8427581592624635714" />
                     </node>
                   </node>
                 </node>
@@ -151,8 +151,8 @@
                       <link role="link" roleId="tp25.1138056516764" targetNodeId="tpjo.1167703268127" />
                     </node>
                   </node>
-                  <node role="operation" roleId="tpee.1197027833540" type="tp25.Link_SetNewChildOperation" typeId="tp25.1138757581985" id="1177613858372">
-                    <link role="concept" roleId="tp25.1139880128956" targetNodeId="tpjo.1161373262136" />
+                  <node role="operation" roleId="tpee.1197027833540" type="tpdg.NF_Link_SetNewChildOperation" typeId="tpdg.767145758118872830" id="8427581592624635739">
+                    <link role="concept" roleId="tp25.1139880128956" targetNodeId="tpjo.1161373262136" resolveInfo="Text" />
                   </node>
                 </node>
               </node>
@@ -192,11 +192,11 @@
                     <link role="concept" roleId="tp25.1138405853777" targetNodeId="tpjo.1161373262136" resolveInfo="Text" />
                   </node>
                   <node role="initializer" roleId="tpee.1068431790190" type="tpee.GenericNewExpression" typeId="tpee.1145552977093" id="1201903377417">
-                    <node role="creator" roleId="tpee.1145553007750" type="tp25.SNodeCreator" typeId="tp25.1180636770613" id="1201903377418">
-                      <node role="createdType" roleId="tp25.1180636770616" type="tp25.SNodeType" typeId="tp25.1138055754698" id="1201903377419">
+                    <node role="creator" roleId="tpee.1145553007750" type="tpdg.SNodeCreatorAndInitializer" typeId="tpdg.5979988948250981289" id="8427581592624635638">
+                      <node role="createdType" roleId="tp25.1180636770616" type="tp25.SNodeType" typeId="tp25.1138055754698" id="8427581592624635639">
                         <link role="concept" roleId="tp25.1138405853777" targetNodeId="tpjo.1161373262136" resolveInfo="Text" />
                       </node>
-                      <node role="prototypeNode" roleId="tp25.1181937442359" type="tpdg.ConceptFunctionParameter_currentTargetNode" typeId="tpdg.1177568407352" id="1201903377420" />
+                      <node role="prototypeNode" roleId="tp25.1181937442359" type="tpdg.ConceptFunctionParameter_currentTargetNode" typeId="tpdg.1177568407352" id="8427581592624635640" />
                     </node>
                   </node>
                 </node>
@@ -493,9 +493,9 @@
                   </node>
                   <node role="initializer" roleId="tpee.1068431790190" type="tpee.DotExpression" typeId="tpee.1197027756228" id="1204227956947">
                     <node role="operand" roleId="tpee.1197027771414" type="tpcw.ConceptFunctionParameter_model" typeId="tpcw.1161622665029" id="1177865442381" />
-                    <node role="operation" roleId="tpee.1197027833540" type="tp25.Model_CreateNewNodeOperation" typeId="tp25.1143235216708" id="1177865446231">
-                      <link role="concept" roleId="tp25.1143235391024" targetNodeId="tpjo.1167523027466" />
-                      <node role="prototypeNode" roleId="tp25.1177700677986" type="tpee.LocalVariableReference" typeId="tpee.1068581242866" id="1204307289908">
+                    <node role="operation" roleId="tpee.1197027833540" type="tpdg.NF_Model_CreateNewNodeOperation" typeId="tpdg.5480835971642155304" id="8427581592624635716">
+                      <link role="concept" roleId="tp25.1143235391024" targetNodeId="tpjo.1167523027466" resolveInfo="Element" />
+                      <node role="prototypeNode" roleId="tp25.1177700677986" type="tpee.LocalVariableReference" typeId="tpee.1068581242866" id="8427581592624635717">
                         <link role="variableDeclaration" roleId="tpee.1068581517664" targetNodeId="1204307289905" resolveInfo="prototype" />
                       </node>
                     </node>

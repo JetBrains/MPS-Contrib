@@ -6,7 +6,7 @@ import jetbrains.mps.intentions.BaseIntention;
 import jetbrains.mps.intentions.Intention;
 import jetbrains.mps.smodel.SNode;
 import jetbrains.mps.nodeEditor.EditorContext;
-import jetbrains.mps.lang.smodel.generator.smodelAdapter.SConceptOperations;
+import jetbrains.mps.smodel.action.SNodeFactoryOperations;
 import jetbrains.mps.lang.smodel.generator.smodelAdapter.SLinkOperations;
 import jetbrains.mps.internal.collections.runtime.ListSequence;
 import jetbrains.mps.lang.smodel.generator.smodelAdapter.SNodeOperations;
@@ -36,11 +36,11 @@ public class InlineFormatExpression_convert_Intention extends BaseIntention impl
   }
 
   public void execute(final SNode node, final EditorContext editorContext) {
-    SNode ite = SConceptOperations.createNewNode("jetbrains.mps.baseLanguage.dates.structure.InTimezoneExpression", null);
+    SNode ite = SNodeFactoryOperations.createNewNode("jetbrains.mps.baseLanguage.dates.structure.InTimezoneExpression", null);
     SLinkOperations.setTarget(ite, "datetime", SLinkOperations.getTarget(node, "datetime", true), true);
     SLinkOperations.setTarget(ite, "timezone", SLinkOperations.getTarget(node, "zone", true), true);
 
-    SNode ife = SConceptOperations.createNewNode("jetbrains.mps.baseLanguage.dates.structure.InlineFormatDateTimeExpression", null);
+    SNode ife = SNodeFactoryOperations.createNewNode("jetbrains.mps.baseLanguage.dates.structure.InlineFormatDateTimeExpression", null);
     SLinkOperations.setTarget(ife, "datetime", ite, true);
     SLinkOperations.setTarget(ife, "locale", SLinkOperations.getTarget(node, "locale", false), false);
     ListSequence.fromList(SLinkOperations.getTargets(ife, "formatToken", true)).clear();

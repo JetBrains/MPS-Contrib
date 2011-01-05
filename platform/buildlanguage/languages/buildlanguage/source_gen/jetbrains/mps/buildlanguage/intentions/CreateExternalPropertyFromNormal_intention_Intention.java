@@ -7,7 +7,7 @@ import jetbrains.mps.intentions.Intention;
 import jetbrains.mps.smodel.SNode;
 import jetbrains.mps.nodeEditor.EditorContext;
 import jetbrains.mps.lang.smodel.generator.smodelAdapter.SNodeOperations;
-import jetbrains.mps.lang.smodel.generator.smodelAdapter.SConceptOperations;
+import jetbrains.mps.smodel.action.SNodeFactoryOperations;
 import jetbrains.mps.lang.smodel.generator.smodelAdapter.SLinkOperations;
 import jetbrains.mps.lang.smodel.generator.smodelAdapter.SPropertyOperations;
 
@@ -47,7 +47,7 @@ public class CreateExternalPropertyFromNormal_intention_Intention extends BaseIn
   }
 
   public void execute(final SNode node, final EditorContext editorContext) {
-    SNode externalProperty = SConceptOperations.createNewNode("jetbrains.mps.buildlanguage.structure.ExternalPropertyDeclaration", null);
+    SNode externalProperty = SNodeFactoryOperations.createNewNode("jetbrains.mps.buildlanguage.structure.ExternalPropertyDeclaration", null);
     SLinkOperations.setTarget(externalProperty, "type", SLinkOperations.getTarget(node, "type", true), true);
     SPropertyOperations.set(externalProperty, "name", SPropertyOperations.getString(node, "name"));
     SNodeOperations.replaceWithAnother(node, externalProperty);

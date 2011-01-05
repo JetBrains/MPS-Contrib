@@ -17,7 +17,7 @@ import jetbrains.mps.smodel.SNode;
 import jetbrains.mps.util.NameUtil;
 import jetbrains.mps.smodel.action.DefaultSimpleSubstituteAction;
 import jetbrains.mps.smodel.SModel;
-import jetbrains.mps.lang.smodel.generator.smodelAdapter.SModelOperations;
+import jetbrains.mps.smodel.action.SNodeFactoryOperations;
 import jetbrains.mps.smodel.action.ChildSubstituteActionsHelper;
 import jetbrains.mps.smodel.action.SideTransformActionsBuilderContext;
 import jetbrains.mps.smodel.action.AbstractSideTransformHintSubstituteAction;
@@ -47,7 +47,7 @@ public class QueriesGenerated {
       if (outputConcept == null || SConceptOperations.isSuperConceptOf(childConcept, NameUtil.nodeFQName(outputConcept))) {
         ListSequence.fromList(result).addElement(new DefaultSimpleSubstituteAction(outputConcept, _context.getParentNode(), _context.getCurrentTargetNode(), _context.getChildSetter(), operationContext.getScope()) {
           public SNode createChildNode(Object parameterObject, SModel model, String pattern) {
-            SNode result = SModelOperations.createNewNode(model, "jetbrains.mps.buildlanguage.structure.BooleanLiteral", null);
+            SNode result = SNodeFactoryOperations.createNewNode(model, "jetbrains.mps.buildlanguage.structure.BooleanLiteral", null);
             SPropertyOperations.set(result, "value", "" + (true));
             return result;
           }
@@ -72,7 +72,7 @@ public class QueriesGenerated {
       if (outputConcept == null || SConceptOperations.isSuperConceptOf(childConcept, NameUtil.nodeFQName(outputConcept))) {
         ListSequence.fromList(result).addElement(new DefaultSimpleSubstituteAction(outputConcept, _context.getParentNode(), _context.getCurrentTargetNode(), _context.getChildSetter(), operationContext.getScope()) {
           public SNode createChildNode(Object parameterObject, SModel model, String pattern) {
-            SNode result = SModelOperations.createNewNode(model, "jetbrains.mps.buildlanguage.structure.BooleanLiteral", null);
+            SNode result = SNodeFactoryOperations.createNewNode(model, "jetbrains.mps.buildlanguage.structure.BooleanLiteral", null);
             SPropertyOperations.set(result, "value", "" + (false));
             return result;
           }
@@ -102,7 +102,7 @@ public class QueriesGenerated {
       if (outputConcept == null || SConceptOperations.isSuperConceptOf(childConcept, NameUtil.nodeFQName(outputConcept))) {
         ListSequence.fromList(result).addElement(new DefaultSimpleSubstituteAction(outputConcept, _context.getParentNode(), _context.getCurrentTargetNode(), _context.getChildSetter(), operationContext.getScope()) {
           public SNode createChildNode(Object parameterObject, SModel model, String pattern) {
-            SNode newNode = SConceptOperations.createNewNode("jetbrains.mps.buildlanguage.structure.IntLiteral", null);
+            SNode newNode = SNodeFactoryOperations.createNewNode("jetbrains.mps.buildlanguage.structure.IntLiteral", null);
             SPropertyOperations.set(newNode, "value", "" + (Integer.parseInt(pattern)));
             return newNode;
           }
@@ -154,7 +154,7 @@ public class QueriesGenerated {
       SNode concept = SConceptOperations.findConceptDeclaration("jetbrains.mps.buildlanguage.structure.PlusOperation");
       ListSequence.fromList(result).addElement(new AbstractSideTransformHintSubstituteAction(concept, _context.getSourceNode()) {
         public SNode doSubstitute(String pattern) {
-          SNode newNode = SConceptOperations.createNewNode("jetbrains.mps.buildlanguage.structure.PlusOperation", null);
+          SNode newNode = SNodeFactoryOperations.createNewNode("jetbrains.mps.buildlanguage.structure.PlusOperation", null);
           SNodeOperations.replaceWithAnother(_context.getSourceNode(), newNode);
           SLinkOperations.setTarget(newNode, "left", _context.getSourceNode(), true);
           return newNode;
@@ -182,7 +182,7 @@ public class QueriesGenerated {
       SNode concept = SConceptOperations.findConceptDeclaration("jetbrains.mps.buildlanguage.structure.PlusOperation");
       ListSequence.fromList(result).addElement(new AbstractSideTransformHintSubstituteAction(concept, _context.getSourceNode()) {
         public SNode doSubstitute(String pattern) {
-          SNode newNode = SConceptOperations.createNewNode("jetbrains.mps.buildlanguage.structure.PlusOperation", null);
+          SNode newNode = SNodeFactoryOperations.createNewNode("jetbrains.mps.buildlanguage.structure.PlusOperation", null);
           SNodeOperations.replaceWithAnother(_context.getSourceNode(), newNode);
           SLinkOperations.setTarget(newNode, "right", _context.getSourceNode(), true);
           return newNode;

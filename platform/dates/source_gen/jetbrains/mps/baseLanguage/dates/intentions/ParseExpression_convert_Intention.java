@@ -6,7 +6,7 @@ import jetbrains.mps.intentions.BaseIntention;
 import jetbrains.mps.intentions.Intention;
 import jetbrains.mps.smodel.SNode;
 import jetbrains.mps.nodeEditor.EditorContext;
-import jetbrains.mps.lang.smodel.generator.smodelAdapter.SConceptOperations;
+import jetbrains.mps.smodel.action.SNodeFactoryOperations;
 import jetbrains.mps.lang.smodel.generator.smodelAdapter.SLinkOperations;
 import jetbrains.mps.lang.smodel.generator.smodelAdapter.SNodeOperations;
 
@@ -35,7 +35,7 @@ public class ParseExpression_convert_Intention extends BaseIntention implements 
   }
 
   public void execute(final SNode node, final EditorContext editorContext) {
-    SNode pde = SConceptOperations.createNewNode("jetbrains.mps.baseLanguage.dates.structure.ParseDateTimeExpression", null);
+    SNode pde = SNodeFactoryOperations.createNewNode("jetbrains.mps.baseLanguage.dates.structure.ParseDateTimeExpression", null);
     SLinkOperations.setTarget(pde, "dateFormat", SLinkOperations.getTarget(node, "dateFormat", false), false);
     SLinkOperations.setTarget(pde, "zone", SLinkOperations.getTarget(node, "zone", true), true);
     SLinkOperations.setTarget(pde, "default", SLinkOperations.getTarget(node, "default", true), true);

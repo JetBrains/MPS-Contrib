@@ -6,7 +6,7 @@ import jetbrains.mps.intentions.BaseIntention;
 import jetbrains.mps.intentions.Intention;
 import jetbrains.mps.smodel.SNode;
 import jetbrains.mps.nodeEditor.EditorContext;
-import jetbrains.mps.lang.smodel.generator.smodelAdapter.SConceptOperations;
+import jetbrains.mps.smodel.action.SNodeFactoryOperations;
 import java.util.List;
 import jetbrains.mps.internal.collections.runtime.ListSequence;
 import jetbrains.mps.lang.smodel.generator.smodelAdapter.SNodeOperations;
@@ -48,7 +48,7 @@ public class SurroundWithContentList_Intention extends BaseIntention implements 
   }
 
   public void execute(final SNode node, final EditorContext editorContext) {
-    SNode contentList = SConceptOperations.createNewNode("jetbrains.mps.xml.structure.ContentList", null);
+    SNode contentList = SNodeFactoryOperations.createNewNode("jetbrains.mps.xml.structure.ContentList", null);
     List<SNode> selectedNodes = editorContext.getNodeEditorComponent().getNodeRangeSelection().getNodes();
     if (ListSequence.fromList(selectedNodes).isEmpty()) {
       ListSequence.fromList(selectedNodes).addElement(editorContext.getSelectedNode());
@@ -58,7 +58,7 @@ public class SurroundWithContentList_Intention extends BaseIntention implements 
     for (SNode selectedNode : ListSequence.fromList(selectedNodes)) {
       ListSequence.fromList(SLinkOperations.getTargets(contentList, "content", true)).addElement(SNodeOperations.cast(selectedNode, "jetbrains.mps.xml.structure.Content"));
     }
-    SLinkOperations.addNewChild(contentList, "content", "jetbrains.mps.xml.structure.Content");
+    SNodeFactoryOperations.addNewChild(contentList, "content", "jetbrains.mps.xml.structure.Content");
   }
 
   public String getLocationString() {

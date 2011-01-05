@@ -9,7 +9,7 @@ import jetbrains.mps.nodeEditor.EditorContext;
 import jetbrains.mps.baseLanguage.dates.behavior.MathDateTimeOperation_Behavior;
 import jetbrains.mps.lang.core.behavior.BaseConcept_Behavior;
 import jetbrains.mps.lang.smodel.generator.smodelAdapter.SLinkOperations;
-import jetbrains.mps.lang.smodel.generator.smodelAdapter.SConceptOperations;
+import jetbrains.mps.smodel.action.SNodeFactoryOperations;
 import jetbrains.mps.lang.smodel.generator.smodelAdapter.SNodeOperations;
 
 public class ConvertToDateTimeInMath_Intention extends BaseIntention implements Intention {
@@ -51,8 +51,8 @@ public class ConvertToDateTimeInMath_Intention extends BaseIntention implements 
   }
 
   public void execute(final SNode node, final EditorContext editorContext) {
-    SNode dotExpression = SConceptOperations.createNewNode("jetbrains.mps.baseLanguage.structure.DotExpression", null);
-    SLinkOperations.setTarget(dotExpression, "operation", SConceptOperations.createNewNode("jetbrains.mps.baseLanguage.dates.structure.ConvertToDateTimeOperation", null), true);
+    SNode dotExpression = SNodeFactoryOperations.createNewNode("jetbrains.mps.baseLanguage.structure.DotExpression", null);
+    SLinkOperations.setTarget(dotExpression, "operation", SNodeFactoryOperations.createNewNode("jetbrains.mps.baseLanguage.dates.structure.ConvertToDateTimeOperation", null), true);
     if (MathDateTimeOperation_Behavior.call_needLeftConvert_1238250704510(node)) {
       SLinkOperations.setTarget(dotExpression, "operand", SNodeOperations.copyNode(SLinkOperations.getTarget(node, "leftExpression", true)), true);
       SLinkOperations.setTarget(node, "leftExpression", dotExpression, true);

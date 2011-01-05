@@ -7,7 +7,7 @@ import jetbrains.mps.intentions.Intention;
 import jetbrains.mps.smodel.SNode;
 import jetbrains.mps.nodeEditor.EditorContext;
 import jetbrains.mps.typesystem.inference.TypeChecker;
-import jetbrains.mps.lang.smodel.generator.smodelAdapter.SConceptOperations;
+import jetbrains.mps.smodel.action.SNodeFactoryOperations;
 import jetbrains.mps.lang.smodel.generator.smodelAdapter.SLinkOperations;
 import jetbrains.mps.lang.smodel.generator.smodelAdapter.SNodeOperations;
 import java.util.Set;
@@ -51,7 +51,7 @@ public class AddDateTimePropertyForPeriod_Intention extends BaseIntention implem
   }
 
   public void execute(final SNode node, final EditorContext editorContext) {
-    SNode expression = SConceptOperations.createNewNode("jetbrains.mps.baseLanguage.dates.structure.PeriodInPropertyExpression", null);
+    SNode expression = SNodeFactoryOperations.createNewNode("jetbrains.mps.baseLanguage.dates.structure.PeriodInPropertyExpression", null);
     SLinkOperations.setTarget(expression, "datetime", SNodeOperations.copyNode(node), true);
     SNodeOperations.replaceWithAnother(node, expression);
   }
