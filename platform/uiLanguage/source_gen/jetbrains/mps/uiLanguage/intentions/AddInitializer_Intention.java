@@ -7,7 +7,7 @@ import jetbrains.mps.intentions.Intention;
 import jetbrains.mps.smodel.SNode;
 import jetbrains.mps.nodeEditor.EditorContext;
 import jetbrains.mps.lang.smodel.generator.smodelAdapter.SLinkOperations;
-import jetbrains.mps.lang.smodel.generator.smodelAdapter.SConceptOperations;
+import jetbrains.mps.smodel.action.SNodeFactoryOperations;
 
 public class AddInitializer_Intention extends BaseIntention implements Intention {
   public AddInitializer_Intention() {
@@ -45,7 +45,7 @@ public class AddInitializer_Intention extends BaseIntention implements Intention
   }
 
   public void execute(final SNode node, final EditorContext editorContext) {
-    SNode expression = SConceptOperations.createNewNode("jetbrains.mps.baseLanguage.structure.Expression", null);
+    SNode expression = SNodeFactoryOperations.createNewNode("jetbrains.mps.baseLanguage.structure.Expression", null);
     SLinkOperations.setTarget(node, "initializer", expression, true);
     editorContext.select(expression);
   }
