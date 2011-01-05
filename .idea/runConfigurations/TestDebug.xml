@@ -1,7 +1,6 @@
 <component name="ProjectRunConfigurationManager">
   <configuration default="false" name="TestDebug" type="Application" factoryName="Application">
     <extension name="coverage" enabled="false" merge="false" sample_coverage="true" runner="emma" />
-    <extension name="snapshooter" />
     <option name="MAIN_CLASS_NAME" value="jetbrains.mps.debug.TestDebug" />
     <option name="VM_PARAMETERS" value="" />
     <option name="PROGRAM_PARAMETERS" value="" />

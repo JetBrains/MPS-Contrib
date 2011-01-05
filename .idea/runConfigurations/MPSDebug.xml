@@ -1,7 +1,6 @@
 <component name="ProjectRunConfigurationManager">
   <configuration default="false" name="MPSDebug" type="Application" factoryName="Application">
     <extension name="coverage" enabled="false" merge="false" sample_coverage="true" runner="emma" />
-    <extension name="snapshooter" />
     <option name="MAIN_CLASS_NAME" value="jetbrains.mps.Launcher" />
     <option name="VM_PARAMETERS" value="-client -ea -Xmx1500m -Xss1024k -XX:PermSize=150m -Dmps.internal=true -XX:+HeapDumpOnOutOfMemoryError  -Dcom.sun.management.jmxremote -Dapple.laf.useScreenMenuBar=true -Dcom.apple.mrj.application.apple.menu.about.name=&quot;JetBrains MPS&quot; -Xdebug -Xrunjdwp:transport=dt_socket,server=y,suspend=n,address=5005" />
     <option name="PROGRAM_PARAMETERS" value="nosplash" />
