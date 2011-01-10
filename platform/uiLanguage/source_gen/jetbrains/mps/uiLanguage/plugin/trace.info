@@ -1,31 +1,45 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <debugInfo>
   <unitInfo fileName="UiLanguage_ApplicationPlugin.java" startLine="8" startPosition="0" endLine="18" endPosition="0" unitName="jetbrains.mps.uiLanguage.plugin.UiLanguage_ApplicationPlugin" />
-  <unitInfo fileName="UiLanguage_ProjectPlugin.java" startLine="21" startPosition="35" endLine="36" endPosition="5" unitName="jetbrains.mps.uiLanguage.plugin.UiLanguage_ProjectPlugin$1" />
-  <unitInfo fileName="UiLanguage_ProjectPlugin.java" startLine="15" startPosition="0" endLine="39" endPosition="0" unitName="jetbrains.mps.uiLanguage.plugin.UiLanguage_ProjectPlugin" />
-  <unitInfo fileName="ComponentEditor_TabbedEditor.java" startLine="24" startPosition="0" endLine="49" endPosition="0" unitName="jetbrains.mps.uiLanguage.plugin.ComponentEditor_TabbedEditor$Component_Tab" />
-  <unitInfo fileName="ComponentEditor_TabbedEditor.java" startLine="50" startPosition="0" endLine="80" endPosition="0" unitName="jetbrains.mps.uiLanguage.plugin.ComponentEditor_TabbedEditor$Controller_Tab" />
-  <unitInfo fileName="ComponentEditor_TabbedEditor.java" startLine="17" startPosition="0" endLine="81" endPosition="0" unitName="jetbrains.mps.uiLanguage.plugin.ComponentEditor_TabbedEditor" />
-  <root nodeId="1207330934917">
-    <nodeInfo nodeId="1207330989724" conceptFqName="jetbrains.mps.baseLanguage.structure.ReturnStatement" fileName="UiLanguage_ProjectPlugin.java" startLine="23" startPosition="107" endLine="24" endPosition="149" />
-    <nodeInfo nodeId="1207331055454" conceptFqName="jetbrains.mps.baseLanguage.structure.ReturnStatement" fileName="UiLanguage_ProjectPlugin.java" startLine="25" startPosition="9" endLine="26" endPosition="20" />
-    <nodeInfo nodeId="1207331233001" conceptFqName="jetbrains.mps.baseLanguage.structure.ReturnStatement" fileName="ComponentEditor_TabbedEditor.java" startLine="37" startPosition="38" endLine="38" endPosition="18" />
-    <nodeInfo nodeId="1207331263223" conceptFqName="jetbrains.mps.baseLanguage.structure.ReturnStatement" fileName="ComponentEditor_TabbedEditor.java" startLine="63" startPosition="38" endLine="64" endPosition="82" />
-    <nodeInfo nodeId="1219415611989" conceptFqName="jetbrains.mps.baseLanguage.structure.LocalVariableDeclarationStatement" fileName="ComponentEditor_TabbedEditor.java" startLine="71" startPosition="47" endLine="72" endPosition="122" />
-    <nodeInfo nodeId="1219415624591" conceptFqName="jetbrains.mps.baseLanguage.structure.ExpressionStatement" fileName="ComponentEditor_TabbedEditor.java" startLine="72" startPosition="122" endLine="73" endPosition="70" />
-    <nodeInfo nodeId="1219415640590" conceptFqName="jetbrains.mps.baseLanguage.structure.ExpressionStatement" fileName="ComponentEditor_TabbedEditor.java" startLine="73" startPosition="70" endLine="74" endPosition="79" />
-    <nodeInfo nodeId="1207331574538" conceptFqName="jetbrains.mps.baseLanguage.structure.LocalVariableDeclarationStatement" fileName="ComponentEditor_TabbedEditor.java" startLine="74" startPosition="79" endLine="75" endPosition="68" />
-    <nodeInfo nodeId="1207331673454" conceptFqName="jetbrains.mps.baseLanguage.structure.ExpressionStatement" fileName="ComponentEditor_TabbedEditor.java" startLine="75" startPosition="68" endLine="76" endPosition="66" />
-    <nodeInfo nodeId="1207331691729" conceptFqName="jetbrains.mps.baseLanguage.structure.ReturnStatement" fileName="ComponentEditor_TabbedEditor.java" startLine="76" startPosition="66" endLine="77" endPosition="24" />
-    <nodeInfo nodeId="1207330974732" conceptFqName="jetbrains.mps.baseLanguage.structure.IfStatement" fileName="UiLanguage_ProjectPlugin.java" startLine="22" startPosition="71" endLine="25" endPosition="9" />
-    <scopeInfo nodeId="1207330974734" fileName="UiLanguage_ProjectPlugin.java" startLine="23" startPosition="107" endLine="24" endPosition="149" />
-    <scopeInfo nodeId="1207331143837" fileName="ComponentEditor_TabbedEditor.java" startLine="37" startPosition="38" endLine="38" endPosition="18" />
-    <scopeInfo nodeId="1207331165232" fileName="ComponentEditor_TabbedEditor.java" startLine="63" startPosition="38" endLine="64" endPosition="82" />
-    <scopeInfo nodeId="1207330934919" fileName="UiLanguage_ProjectPlugin.java" startLine="22" startPosition="71" endLine="26" endPosition="20" />
-    <scopeInfo nodeId="1207331316078" fileName="ComponentEditor_TabbedEditor.java" startLine="71" startPosition="47" endLine="77" endPosition="24">
+  <unitInfo fileName="UiLanguage_ProjectPlugin.java" startLine="11" startPosition="0" endLine="22" endPosition="0" unitName="jetbrains.mps.uiLanguage.plugin.UiLanguage_ProjectPlugin" />
+  <unitInfo fileName="Controller_Tab_Factory.java" startLine="10" startPosition="0" endLine="22" endPosition="0" unitName="jetbrains.mps.uiLanguage.plugin.Controller_Tab_Factory" />
+  <unitInfo fileName="Component_Tab_Factory.java" startLine="10" startPosition="0" endLine="22" endPosition="0" unitName="jetbrains.mps.uiLanguage.plugin.Component_Tab_Factory" />
+  <unitInfo fileName="Component_Tab.java" startLine="8" startPosition="0" endLine="37" endPosition="0" unitName="jetbrains.mps.uiLanguage.plugin.Component_Tab" />
+  <unitInfo fileName="Controller_Tab.java" startLine="14" startPosition="0" endLine="48" endPosition="0" unitName="jetbrains.mps.uiLanguage.plugin.Controller_Tab" />
+  <root nodeId="1207331143835">
+    <nodeInfo nodeId="2974336669142062691" conceptFqName="jetbrains.mps.baseLanguage.structure.ReturnStatement" fileName="Component_Tab_Factory.java" startLine="18" startPosition="67" endLine="19" endPosition="61" />
+    <nodeInfo nodeId="1207331233001" conceptFqName="jetbrains.mps.baseLanguage.structure.ReturnStatement" fileName="Component_Tab.java" startLine="29" startPosition="36" endLine="30" endPosition="16" />
+    <scopeInfo nodeId="2974336669142062690" fileName="Component_Tab_Factory.java" startLine="18" startPosition="67" endLine="19" endPosition="61" />
+    <scopeInfo nodeId="1207331143837" fileName="Component_Tab.java" startLine="29" startPosition="36" endLine="30" endPosition="16" />
+  </root>
+  <root nodeId="1207331165230">
+    <nodeInfo nodeId="2974336669142062697" conceptFqName="jetbrains.mps.baseLanguage.structure.ReturnStatement" fileName="Controller_Tab_Factory.java" startLine="18" startPosition="67" endLine="19" endPosition="61" />
+    <nodeInfo nodeId="1207331263223" conceptFqName="jetbrains.mps.baseLanguage.structure.ReturnStatement" fileName="Controller_Tab.java" startLine="35" startPosition="36" endLine="36" endPosition="80" />
+    <nodeInfo nodeId="1219415611989" conceptFqName="jetbrains.mps.baseLanguage.structure.LocalVariableDeclarationStatement" fileName="Controller_Tab.java" startLine="39" startPosition="45" endLine="40" endPosition="120" />
+    <nodeInfo nodeId="1219415624591" conceptFqName="jetbrains.mps.baseLanguage.structure.ExpressionStatement" fileName="Controller_Tab.java" startLine="40" startPosition="120" endLine="41" endPosition="68" />
+    <nodeInfo nodeId="1219415640590" conceptFqName="jetbrains.mps.baseLanguage.structure.ExpressionStatement" fileName="Controller_Tab.java" startLine="41" startPosition="68" endLine="42" endPosition="77" />
+    <nodeInfo nodeId="1207331574538" conceptFqName="jetbrains.mps.baseLanguage.structure.LocalVariableDeclarationStatement" fileName="Controller_Tab.java" startLine="42" startPosition="77" endLine="43" endPosition="66" />
+    <nodeInfo nodeId="1207331673454" conceptFqName="jetbrains.mps.baseLanguage.structure.ExpressionStatement" fileName="Controller_Tab.java" startLine="43" startPosition="66" endLine="44" endPosition="64" />
+    <nodeInfo nodeId="1207331691729" conceptFqName="jetbrains.mps.baseLanguage.structure.ReturnStatement" fileName="Controller_Tab.java" startLine="44" startPosition="64" endLine="45" endPosition="22" />
+    <scopeInfo nodeId="2974336669142062696" fileName="Controller_Tab_Factory.java" startLine="18" startPosition="67" endLine="19" endPosition="61" />
+    <scopeInfo nodeId="1207331165232" fileName="Controller_Tab.java" startLine="35" startPosition="36" endLine="36" endPosition="80" />
+    <scopeInfo nodeId="1207331316078" fileName="Controller_Tab.java" startLine="39" startPosition="45" endLine="45" endPosition="22">
       <varInfo nodeId="1207331574539" varName="virtualPackage" />
       <varInfo nodeId="1219415611990" varName="controller" />
     </scopeInfo>
+  </root>
+  <root nodeId="4639535695229333577">
+    <nodeInfo nodeId="4639535695229333592" conceptFqName="jetbrains.mps.baseLanguage.structure.ReturnStatement" fileName="ComponentEditor_Helper.java" startLine="12" startPosition="103" endLine="13" endPosition="145" />
+    <nodeInfo nodeId="4639535695229333597" conceptFqName="jetbrains.mps.baseLanguage.structure.ReturnStatement" fileName="ComponentEditor_Helper.java" startLine="14" startPosition="5" endLine="15" endPosition="16" />
+    <nodeInfo nodeId="4639535695229333586" conceptFqName="jetbrains.mps.baseLanguage.structure.IfStatement" fileName="ComponentEditor_Helper.java" startLine="11" startPosition="74" endLine="14" endPosition="5" />
+    <nodeInfo nodeId="4639535695229333578" conceptFqName="jetbrains.mps.baseLanguage.structure.StaticMethodDeclaration" propertyString="getBaseNode#(Ljetbrains/mps/smodel/SNode;Ljetbrains/mps/smodel/IOperationContext;)Ljetbrains/mps/smodel/SNode;" fileName="ComponentEditor_Helper.java" startLine="10" startPosition="42" endLine="17" endPosition="0" />
+    <scopeInfo nodeId="4639535695229333591" fileName="ComponentEditor_Helper.java" startLine="12" startPosition="103" endLine="13" endPosition="145" />
+    <scopeInfo nodeId="4639535695229333585" fileName="ComponentEditor_Helper.java" startLine="11" startPosition="74" endLine="15" endPosition="16" />
+    <scopeInfo nodeId="4639535695229333578" conceptFqName="jetbrains.mps.baseLanguage.structure.StaticMethodDeclaration" propertyString="getBaseNode#(Ljetbrains/mps/smodel/SNode;Ljetbrains/mps/smodel/IOperationContext;)Ljetbrains/mps/smodel/SNode;" fileName="ComponentEditor_Helper.java" startLine="10" startPosition="42" endLine="17" endPosition="0">
+      <varInfo nodeId="4639535695229333579" varName="node" />
+      <varInfo nodeId="4639535695229333581" varName="context" />
+    </scopeInfo>
+    <unitInfo nodeId="4639535695229333577" fileName="ComponentEditor_Helper.java" startLine="10" startPosition="0" endLine="18" endPosition="0" unitName="jetbrains.mps.uiLanguage.plugin.ComponentEditor_Helper" />
   </root>
 </debugInfo>
 
