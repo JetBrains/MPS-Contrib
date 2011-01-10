@@ -95,7 +95,7 @@
     </node>
     <node type="tpf8.TemplateDeclaration" typeId="tpf8.1092059087312" id="7840798570675188777">
       <property name="name" nameId="tpck.1169194664001" value="reduce_ProcessHandlerStatement" />
-      <property name="virtualPackage" nameId="tpck.1193676396447" value="Configuration.Execute" />
+      <property name="virtualPackage" nameId="tpck.1193676396447" value="DEPRECATED" />
       <link role="applicableConcept" roleId="tpf8.1168285871518" targetNodeId="tp4k.678887849223472893" resolveInfo="ProcessHandlerStatement" />
     </node>
     <node type="tpf8.TemplateDeclaration" typeId="tpf8.1092059087312" id="8821770403474041105">
@@ -140,7 +140,7 @@
     </node>
     <node type="tpee.ClassConcept" typeId="tpee.1068390468198" id="297139462068449337">
       <property name="name" nameId="tpck.1169194664001" value="OldConfigurationCreator" />
-      <property name="virtualPackage" nameId="tpck.1193676396447" value="Create.Creator" />
+      <property name="virtualPackage" nameId="tpck.1193676396447" value="DEPRECATED" />
     </node>
     <node type="tpf8.TemplateDeclaration" typeId="tpf8.1092059087312" id="297139462068449351">
       <property name="name" nameId="tpck.1169194664001" value="reduce_CreateRunConfigStatement" />
@@ -357,6 +357,7 @@
       </node>
     </node>
     <node role="reductionMappingRule" roleId="tpf8.1167328349397" type="tpf8.Reduction_MappingRule" typeId="tpf8.1167327847730" id="7840798570675188769">
+      <property name="virtualPackage" nameId="tpck.1193676396447" value="DEPRECATED" />
       <link role="applicableConcept" roleId="tpf8.1167169349424" targetNodeId="tp4k.678887849223472893" resolveInfo="ProcessHandlerStatement" />
       <node role="ruleConsequence" roleId="tpf8.1169672767469" type="tpf8.TemplateDeclarationReference" typeId="tpf8.1168559333462" id="7840798570675188779">
         <link role="template" roleId="tpf8.1722980698497626483" targetNodeId="7840798570675188777" resolveInfo="reduce_ProcessHandlerStatement" />
@@ -713,6 +714,7 @@
     </node>
     <node role="rootMappingRule" roleId="tpf8.1167514678247" type="tpf8.Root_MappingRule" typeId="tpf8.1167514355419" id="297139462068438644">
       <property name="applyToConceptInheritors" nameId="tpf8.1167272244852" value="true" />
+      <property name="virtualPackage" nameId="tpck.1193676396447" value="DEPRECATED" />
       <link role="applicableConcept" roleId="tpf8.1167169349424" targetNodeId="tp4k.8415911927033048374" resolveInfo="RunConfigCreator" />
       <link role="template" roleId="tpf8.1167514355421" targetNodeId="297139462068449337" resolveInfo="ConfigurationCreator" />
       <link role="labelDeclaration" roleId="tpf8.1200917515464" targetNodeId="9068086904326281919" resolveInfo="map_ConfigCreatorClass" />
