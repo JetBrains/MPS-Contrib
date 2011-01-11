@@ -33,6 +33,12 @@
     <classNode extendsClassName="jetbrains.mps.plugins.applicationplugins.BaseApplicationPlugin" />
   </dependency>
   <dependency className="jetbrains.mps.uiLanguage.plugin.UiLanguage_ProjectPlugin" file="UiLanguage_ProjectPlugin.java">
+    <classNode dependClassName="java.util.List" />
+    <classNode dependClassName="java.util.ArrayList" />
+    <classNode dependClassName="jetbrains.mps.ide.editorTabs.EditorTabDescriptor" />
+    <classNode dependClassName="jetbrains.mps.uiLanguage.plugin.Component_TabDescriptor" />
+    <classNode dependClassName="jetbrains.mps.uiLanguage.plugin.Controller_TabDescriptor" />
+    <classNode dependClassName="com.intellij.openapi.project.Project" />
     <classNode extendsClassName="jetbrains.mps.plugins.projectplugins.BaseProjectPlugin" />
   </dependency>
 </dependenciesRoot>
