@@ -6,6 +6,8 @@ import jetbrains.mps.ide.editorTabs.EditorTabDescriptor;
 import jetbrains.mps.smodel.SNode;
 import jetbrains.mps.lang.smodel.generator.smodelAdapter.SNodeOperations;
 import java.util.List;
+import jetbrains.mps.internal.collections.runtime.ListSequence;
+import java.util.ArrayList;
 
 public class Component_TabDescriptor extends EditorTabDescriptor {
   public Component_TabDescriptor() {
@@ -28,6 +30,16 @@ public class Component_TabDescriptor extends EditorTabDescriptor {
   }
 
   public List<SNode> getNodes(SNode node) {
-    throw new RuntimeException("NOT IMPLEMENTED");
+    List<SNode> list = ListSequence.fromList(new ArrayList<SNode>());
+    SNode n = getNode(node);
+    if (n == null) {
+      return list;
+    }
+    ListSequence.fromList(list).addElement(n);
+    return list;
+  }
+
+  public SNode getNode(SNode node) {
+    return node;
   }
 }
