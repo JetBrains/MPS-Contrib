@@ -33,12 +33,6 @@
         <property name="name" nameId="tpck.1169194664001" value="node" />
         <node role="type" roleId="tpee.5680397130376446158" type="tp25.SNodeType" typeId="tp25.1138055754698" id="4639535695229333580" />
       </node>
-      <node role="parameter" roleId="tpee.1068580123134" type="tpee.ParameterDeclaration" typeId="tpee.1068498886292" id="4639535695229333581">
-        <property name="name" nameId="tpck.1169194664001" value="context" />
-        <node role="type" roleId="tpee.5680397130376446158" type="tpee.ClassifierType" typeId="tpee.1107535904670" id="4639535695229333582">
-          <link role="classifier" roleId="tpee.1107535924139" targetNodeId="d8ec.~IOperationContext" />
-        </node>
-      </node>
       <node role="returnType" roleId="tpee.1068580123133" type="tp25.SNodeType" typeId="tp25.1138055754698" id="4639535695229333583" />
       <node role="visibility" roleId="tpee.1178549979242" type="tpee.PublicVisibility" typeId="tpee.1146644602865" id="4639535695229333584" />
       <node role="body" roleId="tpee.1068580123135" type="tpee.StatementList" typeId="tpee.1068580123136" id="4639535695229333585">
@@ -83,7 +77,6 @@
             <link role="classConcept" roleId="tpee.1144433194310" targetNodeId="4639535695229333577" resolveInfo="ComponentEditor_Helper" />
             <link role="baseMethodDeclaration" roleId="tpee.1068499141037" targetNodeId="4639535695229333578" resolveInfo="getBaseNode" />
             <node role="actualArgument" roleId="tpee.1068499141038" type="tp4k.ConceptFunctionParameter_node" typeId="tp4k.1203853034639" id="1626370525303619854" />
-            <node role="actualArgument" roleId="tpee.1068499141038" type="tp4k.ConceptFunctionParameter_OperationContext" typeId="tp4k.1204039194827" id="1626370525303619855" />
           </node>
         </node>
       </node>
@@ -210,7 +203,6 @@
             <link role="classConcept" roleId="tpee.1144433194310" targetNodeId="4639535695229333577" resolveInfo="ComponentEditor_Helper" />
             <link role="baseMethodDeclaration" roleId="tpee.1068499141037" targetNodeId="4639535695229333578" resolveInfo="getBaseNode" />
             <node role="actualArgument" roleId="tpee.1068499141038" type="tp4k.ConceptFunctionParameter_node" typeId="tp4k.1203853034639" id="1626370525303619870" />
-            <node role="actualArgument" roleId="tpee.1068499141038" type="tp4k.ConceptFunctionParameter_OperationContext" typeId="tp4k.1204039194827" id="1626370525303619871" />
           </node>
         </node>
       </node>
@@ -226,13 +218,6 @@
               </node>
             </node>
           </node>
-        </node>
-      </node>
-    </node>
-    <node role="nodesBlock" roleId="tp4k.3743831881070612960" type="tp4k.GetNodeBlock" typeId="tp4k.1203851983563" id="1626370525303619879">
-      <node role="body" roleId="tpee.1137022507850" type="tpee.StatementList" typeId="tpee.1068580123136" id="1207331143837">
-        <node role="statement" roleId="tpee.1068581517665" type="tpee.ExpressionStatement" typeId="tpee.1068580123155" id="1207331233001">
-          <node role="expression" roleId="tpee.1068580123156" type="tp4k.ConceptFunctionParameter_node" typeId="tp4k.1203853034639" id="1207331233002" />
         </node>
       </node>
     </node>
