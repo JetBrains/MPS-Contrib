@@ -64,7 +64,7 @@ public class SchemaUtil {
       public boolean accept(SNode it) {
         return (SLinkOperations.getTarget(it, "elementDeclaration", false) != null);
       }
-    }).select(new ISelector<SNode, SNode>() {
+    }).<SNode>select(new ISelector<SNode, SNode>() {
       public SNode select(SNode it) {
         return SLinkOperations.getTarget(it, "elementDeclaration", false);
       }

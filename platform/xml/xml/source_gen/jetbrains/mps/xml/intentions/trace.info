@@ -82,13 +82,13 @@
   <root nodeId="1195665988476">
     <nodeInfo nodeId="1195665988500" conceptFqName="jetbrains.mps.baseLanguage.structure.ReturnStatement" fileName="SurroundWithContentList_Intention.java" startLine="35" startPosition="85" endLine="36" endPosition="40" />
     <nodeInfo nodeId="1195665988520" conceptFqName="jetbrains.mps.baseLanguage.structure.ReturnStatement" fileName="SurroundWithContentList_Intention.java" startLine="46" startPosition="90" endLine="47" endPosition="16" />
-    <nodeInfo nodeId="1195665988524" conceptFqName="jetbrains.mps.baseLanguage.structure.LocalVariableDeclarationStatement" fileName="SurroundWithContentList_Intention.java" startLine="50" startPosition="76" endLine="51" endPosition="106" />
-    <nodeInfo nodeId="1195668379632" conceptFqName="jetbrains.mps.baseLanguage.structure.LocalVariableDeclarationStatement" fileName="SurroundWithContentList_Intention.java" startLine="51" startPosition="106" endLine="52" endPosition="106" />
+    <nodeInfo nodeId="1195665988524" conceptFqName="jetbrains.mps.baseLanguage.structure.LocalVariableDeclarationStatement" fileName="SurroundWithContentList_Intention.java" startLine="50" startPosition="76" endLine="51" endPosition="110" />
+    <nodeInfo nodeId="1195668379632" conceptFqName="jetbrains.mps.baseLanguage.structure.LocalVariableDeclarationStatement" fileName="SurroundWithContentList_Intention.java" startLine="51" startPosition="110" endLine="52" endPosition="106" />
     <nodeInfo nodeId="1195668492586" conceptFqName="jetbrains.mps.baseLanguage.structure.ExpressionStatement" fileName="SurroundWithContentList_Intention.java" startLine="53" startPosition="57" endLine="54" endPosition="87" />
     <nodeInfo nodeId="1195668553385" conceptFqName="jetbrains.mps.baseLanguage.structure.LocalVariableDeclarationStatement" fileName="SurroundWithContentList_Intention.java" startLine="55" startPosition="5" endLine="56" endPosition="69" />
     <nodeInfo nodeId="1195665988530" conceptFqName="jetbrains.mps.baseLanguage.structure.ExpressionStatement" fileName="SurroundWithContentList_Intention.java" startLine="56" startPosition="69" endLine="57" endPosition="63" />
     <nodeInfo nodeId="1195665988541" conceptFqName="jetbrains.mps.baseLanguage.structure.ExpressionStatement" fileName="SurroundWithContentList_Intention.java" startLine="58" startPosition="69" endLine="59" endPosition="172" />
-    <nodeInfo nodeId="1195665988549" conceptFqName="jetbrains.mps.baseLanguage.structure.ExpressionStatement" fileName="SurroundWithContentList_Intention.java" startLine="60" startPosition="5" endLine="61" endPosition="95" />
+    <nodeInfo nodeId="1195665988549" conceptFqName="jetbrains.mps.baseLanguage.structure.ExpressionStatement" fileName="SurroundWithContentList_Intention.java" startLine="60" startPosition="5" endLine="61" endPosition="102" />
     <nodeInfo nodeId="1195668466651" conceptFqName="jetbrains.mps.baseLanguage.structure.IfStatement" fileName="SurroundWithContentList_Intention.java" startLine="52" startPosition="106" endLine="55" endPosition="5" />
     <nodeInfo nodeId="1195665988537" conceptFqName="jetbrains.mps.baseLanguage.structure.ForeachStatement" fileName="SurroundWithContentList_Intention.java" startLine="57" startPosition="63" endLine="60" endPosition="5" />
     <scopeInfo nodeId="1195665988499" fileName="SurroundWithContentList_Intention.java" startLine="35" startPosition="85" endLine="36" endPosition="40" />
@@ -96,7 +96,7 @@
     <scopeInfo nodeId="1195668466652" fileName="SurroundWithContentList_Intention.java" startLine="53" startPosition="57" endLine="54" endPosition="87" />
     <scopeInfo nodeId="1195665988540" fileName="SurroundWithContentList_Intention.java" startLine="58" startPosition="69" endLine="59" endPosition="172" />
     <scopeInfo nodeId="1195665988537" conceptFqName="jetbrains.mps.baseLanguage.structure.ForeachStatement" fileName="SurroundWithContentList_Intention.java" startLine="57" startPosition="63" endLine="60" endPosition="5" />
-    <scopeInfo nodeId="1195665988523" fileName="SurroundWithContentList_Intention.java" startLine="50" startPosition="76" endLine="61" endPosition="95">
+    <scopeInfo nodeId="1195665988523" fileName="SurroundWithContentList_Intention.java" startLine="50" startPosition="76" endLine="61" endPosition="102">
       <varInfo nodeId="1195668379633" varName="selectedNodes" />
       <varInfo nodeId="1195665988525" varName="contentList" />
       <varInfo nodeId="1195668553386" varName="first" />
