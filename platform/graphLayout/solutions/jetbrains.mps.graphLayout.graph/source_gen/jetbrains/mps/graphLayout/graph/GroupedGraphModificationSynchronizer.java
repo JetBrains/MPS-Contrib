@@ -25,7 +25,7 @@ public class GroupedGraphModificationSynchronizer implements IGraphModificationL
     myNodeMap = MapSequence.fromMap(new HashMap<Node, Node>());
   }
 
-  public void get(GraphModificationEvent event) {
+  public void process(GraphModificationEvent event) {
     switch (event.getType()) {
       case NODE_CREATED:
         Node addedNode = event.getNode();

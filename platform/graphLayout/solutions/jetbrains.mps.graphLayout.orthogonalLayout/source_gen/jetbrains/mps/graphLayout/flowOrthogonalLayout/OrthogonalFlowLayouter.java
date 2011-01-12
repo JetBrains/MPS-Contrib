@@ -19,6 +19,7 @@ import jetbrains.mps.internal.collections.runtime.ListSequence;
 import java.util.ArrayList;
 import jetbrains.mps.graphLayout.planarGraph.Dart;
 import java.util.HashMap;
+import jetbrains.mps.baseLanguage.tuples.runtime.Tuples;
 import jetbrains.mps.graphLayout.planarGraph.Face;
 import java.util.Set;
 import java.util.HashSet;
@@ -55,15 +56,18 @@ public class OrthogonalFlowLayouter extends AbstractOrthogonalFlowLayouter {
     ListSequence.fromList(initialNodes).addSequence(SetSequence.fromSet(MapSequence.fromMap(nodeSizes).keySet()));
     Map<Dart, Integer> bends = MapSequence.fromMap(new HashMap<Dart, Integer>());
     Map<Dart, Integer> angles = MapSequence.fromMap(new HashMap<Dart, Integer>());
-
-
     for (Edge edge : ListSequence.fromList(graph.getEdges())) {
       if (ListSequence.fromList(embeddedGraph.getDarts(edge)).count() != 2) {
 
         throw new RuntimeException("botva!!!");
       }
     }
-    QuasiOrthogonalRepresentation.getRepresentation(embeddedGraph, bends, angles);
+    QuasiOrthogonalRepresentation orthogonalRepresentation = new QuasiOrthogonalRepresentation();
+    orthogonalRepresentation.setRealEdges(myRealEdges);
+    orthogonalRepresentation.setRealNodes(myRealNodes);
+    Tuples._2<Map<Dart, Integer>, Map<Dart, Integer>> pair = orthogonalRepresentation.getRepresentation(embeddedGraph);
+    bends = pair._0();
+    angles = pair._1();
     /*
       for (Face face : ListSequence.fromList(embeddedGraph.getFaces())) {
         System.out.println("face:");
@@ -214,9 +218,11 @@ public class OrthogonalFlowLayouter extends AbstractOrthogonalFlowLayouter {
           if (isHorizontal) {
             Edge constraintEdge = constraintsGraph.addConstraintEdge(center, node, Direction2D.UP);
             MapSequence.fromMap(constraintEdgeLengths).put(constraintEdge, rect.height);
+
           } else {
             Edge constraintEdge = constraintsGraph.addConstraintEdge(center, node, Direction2D.RIGHT);
             MapSequence.fromMap(constraintEdgeLengths).put(constraintEdge, rect.width);
+
           }
         }
       }
@@ -236,6 +242,7 @@ public class OrthogonalFlowLayouter extends AbstractOrthogonalFlowLayouter {
             if (isIntersecting && dist < rect.height) {
               Edge constraintEdge = constraintsGraph.addConstraintEdge(center, graphEdge.getSource(), Direction2D.UP);
               MapSequence.fromMap(constraintEdgeLengths).put(constraintEdge, rect.height);
+
             }
           } else {
             boolean isIntersecting = GeomUtil.insideClosedSegment(sourcePoint.y, targetPoint.y, rect.y) && GeomUtil.insideClosedSegment(sourcePoint.y, targetPoint.y, rect.y + rect.height);

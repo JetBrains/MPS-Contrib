@@ -20,7 +20,7 @@ public class GraphModificationProcessor {
       return;
     }
     for (IGraphModificationListener listener : SetSequence.fromSet(myListeners)) {
-      listener.get(event);
+      listener.process(event);
     }
   }
 

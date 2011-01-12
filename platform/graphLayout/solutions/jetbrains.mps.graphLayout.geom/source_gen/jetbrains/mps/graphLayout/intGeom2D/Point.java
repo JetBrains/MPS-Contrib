@@ -31,4 +31,21 @@ public class Point {
   public String toString() {
     return "[" + x + ", " + y + "]";
   }
+
+  @Override
+  public boolean equals(Object object) {
+    if (object instanceof Point) {
+      Point p = ((Point) object);
+      return p.x == x && p.y == y;
+    }
+    return super.equals(object);
+  }
+
+  public double distance(Point p) {
+    return Math.sqrt(1.0 * (p.x - x) * (p.x - x) + 1.0 * (p.y - y) * (p.y - y));
+  }
+
+  public int manhattanDist(Point p) {
+    return Math.abs(p.x - x) + Math.abs(p.y - y);
+  }
 }

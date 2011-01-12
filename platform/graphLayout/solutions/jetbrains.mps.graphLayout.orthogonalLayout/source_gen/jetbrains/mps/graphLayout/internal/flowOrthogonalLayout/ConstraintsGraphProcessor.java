@@ -35,7 +35,7 @@ import jetbrains.mps.graphLayout.algorithms.ShortestPath;
 import jetbrains.mps.baseLanguage.closures.runtime.Wrappers;
 
 public class ConstraintsGraphProcessor {
-  private static int SHOW_INFO = 1;
+  private static int SHOW_INFO = 0;
   private static int DEBUG = 0;
   private static int DEFAULT_UNIT_LENGTH = 20;
 

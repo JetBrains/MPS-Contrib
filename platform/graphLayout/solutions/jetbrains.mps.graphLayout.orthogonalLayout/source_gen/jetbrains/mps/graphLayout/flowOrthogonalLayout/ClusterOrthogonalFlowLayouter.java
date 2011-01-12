@@ -64,6 +64,11 @@ public class ClusterOrthogonalFlowLayouter extends OrthogonalFlowLayouter {
   }
 
   @Override
+  public Edge getLabeledEdge(List<Edge> edges) {
+    return super.getLabeledEdge(edges);
+  }
+
+  @Override
   protected EmbeddedGraph getEmbedding(Graph graph) {
     EdgesHistoryManager historyManager = new EdgesHistoryManager(graph);
     ClusteredGraphEmbeddingFinder embeddingFinder = new ClusteredGraphEmbeddingFinder();

@@ -48,4 +48,35 @@ public class GeomUtil {
     }
     return shiftedPolyline;
   }
+
+  public static Point intersectGrid(Point p1, Point q1, Point p2, Point q2) {
+    // intersects vertical and horizontal segments 
+    boolean ver1 = p1.x == q1.x;
+    boolean ver2 = p2.x == q2.x;
+    if (ver1 == ver2) {
+      return null;
+    }
+    Point res = new Point();
+    if (ver1) {
+      res.x = p1.x;
+    } else {
+      res.x = p2.x;
+    }
+    if (ver2) {
+      res.y = p1.y;
+    } else {
+      res.y = p2.y;
+    }
+    if (!(insideGrid(res, p1, q1))) {
+      return null;
+    }
+    if (!(insideGrid(res, p2, q2))) {
+      return null;
+    }
+    return res;
+  }
+
+  public static boolean insideGrid(Point res, Point p1, Point q1) {
+    return (res.x - p1.x) * (res.x - q1.x) <= 0 && (res.y - p1.y) * (res.y - q1.y) <= 0;
+  }
 }

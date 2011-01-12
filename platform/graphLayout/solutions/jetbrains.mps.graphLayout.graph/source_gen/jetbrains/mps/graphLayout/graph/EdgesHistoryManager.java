@@ -17,7 +17,7 @@ public class EdgesHistoryManager implements IGraphModificationListener {
     graph.addListener(this);
   }
 
-  public void get(GraphModificationEvent event) {
+  public void process(GraphModificationEvent event) {
     List<Edge> history;
     switch (event.getType()) {
       case EDGE_SPLITTED:

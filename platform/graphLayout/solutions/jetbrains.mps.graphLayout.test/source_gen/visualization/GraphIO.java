@@ -17,6 +17,9 @@ import jetbrains.mps.graphLayout.intGeom2D.Dimension;
 import jetbrains.mps.internal.collections.runtime.MapSequence;
 import jetbrains.mps.internal.collections.runtime.SetSequence;
 import jetbrains.mps.graphLayout.graph.ClusteredGraph;
+import jetbrains.mps.graphLayout.graph.HyperGraph;
+import java.util.Set;
+import java.util.HashSet;
 
 public class GraphIO {
   public static Graph scanGraph(String graphString) {
@@ -29,7 +32,7 @@ public class GraphIO {
     return graph;
   }
 
-  public static void scanGraph(Scanner scanner, Graph graph) {
+  private static void scanGraph(Scanner scanner, Graph graph, int nodeOffset) {
     try {
       int numNodes = scanner.nextInt();
       for (int i = 0; i < numNodes; i++) {
@@ -37,13 +40,17 @@ public class GraphIO {
       }
       int numEdges = scanner.nextInt();
       for (int i = 0; i < numEdges; i++) {
-        int source = scanner.nextInt();
-        int target = scanner.nextInt();
+        int source = scanner.nextInt() + nodeOffset;
+        int target = scanner.nextInt() + nodeOffset;
         graph.connect(graph.getNode(source), graph.getNode(target));
       }
     } catch (Exception e) {
       throw new IllegalArgumentException("invalid input", e);
     }
+  }
+
+  public static void scanGraph(Scanner scanner, Graph graph) {
+    scanGraph(scanner, graph, 0);
   }
 
   public static EmbeddedGraph scanSimpleEmbeddedGraph(Scanner scanner) {
@@ -124,5 +131,26 @@ public class GraphIO {
     } catch (Exception e) {
       throw new IllegalArgumentException("invalid input", e);
     }
+  }
+
+  public static HyperGraph scanHyperGraph(Scanner scanner) {
+    HyperGraph graph = new HyperGraph();
+    scanGraph(scanner, graph);
+    // node with index 0 was added in graph by constructor 
+    int numTreeEdges = scanner.nextInt();
+    Set<Node> notRoot = SetSequence.fromSet(new HashSet<Node>());
+    for (int i = 0; i < numTreeEdges; i++) {
+      Node parent = graph.getNode(scanner.nextInt());
+      Node child = graph.getNode(scanner.nextInt());
+      graph.setParent(child, parent);
+      SetSequence.fromSet(notRoot).addElement(child);
+    }
+    for (Node node : ListSequence.fromList(graph.getNodes())) {
+      if (SetSequence.fromSet(notRoot).contains(node)) {
+        continue;
+      }
+      graph.setParent(node, graph.getRoot());
+    }
+    return graph;
   }
 }

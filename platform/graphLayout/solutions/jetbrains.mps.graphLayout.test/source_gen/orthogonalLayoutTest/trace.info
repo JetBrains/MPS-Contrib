@@ -1,6 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <debugInfo>
   <unitInfo fileName="OrthogonalFromVisibility_Test.java" startLine="12" startPosition="0" endLine="19" endPosition="0" unitName="orthogonalLayoutTest.OrthogonalFromVisibility_Test" />
+  <unitInfo fileName="OrthogonalFlowLayouterNoLabels_Test.java" startLine="16" startPosition="0" endLine="32" endPosition="0" unitName="orthogonalLayoutTest.OrthogonalFlowLayouterNoLabels_Test" />
   <unitInfo fileName="RectOrthogonalLayouter_Test.java" startLine="19" startPosition="0" endLine="38" endPosition="0" unitName="orthogonalLayoutTest.RectOrthogonalLayouter_Test" />
   <unitInfo fileName="AmbiguityLayout_Test.java" startLine="23" startPosition="0" endLine="67" endPosition="0" unitName="orthogonalLayoutTest.AmbiguityLayout_Test" />
   <unitInfo fileName="ConstraintsSupporter_Test.java" startLine="24" startPosition="0" endLine="69" endPosition="0" unitName="orthogonalLayoutTest.ConstraintsSupporter_Test" />
@@ -285,6 +286,32 @@
     </scopeInfo>
     <scopeInfo nodeId="3263240354041071365" conceptFqName="jetbrains.mps.baseLanguage.structure.InstanceMethodDeclaration" propertyString="test_testSplitEdges#()V" fileName="OrthogonalFlowLayouterConstraints_Test.java" startLine="54" startPosition="0" endLine="66" endPosition="0" />
   </root>
+  <root nodeId="1795464432008746829">
+    <nodeInfo nodeId="1795464432008746910" conceptFqName="jetbrains.mps.baseLanguage.structure.LocalVariableDeclarationStatement" fileName="OrthogonalFlowLayouterNoLabels_Test.java" startLine="17" startPosition="45" endLine="18" endPosition="116" />
+    <nodeInfo nodeId="1795464432008746922" conceptFqName="jetbrains.mps.baseLanguage.structure.LocalVariableDeclarationStatement" fileName="OrthogonalFlowLayouterNoLabels_Test.java" startLine="18" startPosition="116" endLine="19" endPosition="49" />
+    <nodeInfo nodeId="1795464432008746930" conceptFqName="jetbrains.mps.baseLanguage.structure.ExpressionStatement" fileName="OrthogonalFlowLayouterNoLabels_Test.java" startLine="19" startPosition="49" endLine="20" endPosition="16" />
+    <nodeInfo nodeId="1795464432008746861" conceptFqName="jetbrains.mps.baseLanguage.structure.LocalVariableDeclarationStatement" fileName="OrthogonalFlowLayouterNoLabels_Test.java" startLine="23" startPosition="33" endLine="24" endPosition="50" />
+    <nodeInfo nodeId="1795464432008746879" conceptFqName="jetbrains.mps.baseLanguage.structure.ExpressionStatement" fileName="OrthogonalFlowLayouterNoLabels_Test.java" startLine="25" startPosition="63" endLine="26" endPosition="58" />
+    <nodeInfo nodeId="1795464432008746901" conceptFqName="jetbrains.mps.baseLanguage.structure.LocalVariableDeclarationStatement" fileName="OrthogonalFlowLayouterNoLabels_Test.java" startLine="27" startPosition="5" endLine="28" endPosition="80" />
+    <nodeInfo nodeId="1795464432008746898" conceptFqName="jetbrains.mps.baseLanguage.structure.ExpressionStatement" fileName="OrthogonalFlowLayouterNoLabels_Test.java" startLine="28" startPosition="80" endLine="29" endPosition="48" />
+    <nodeInfo nodeId="1795464432008746869" conceptFqName="jetbrains.mps.baseLanguage.structure.ForeachStatement" fileName="OrthogonalFlowLayouterNoLabels_Test.java" startLine="24" startPosition="50" endLine="27" endPosition="5" />
+    <nodeInfo nodeId="1795464432008746836" conceptFqName="jetbrains.mps.baseLanguage.structure.InstanceMethodDeclaration" propertyString="test_test1#()V" fileName="OrthogonalFlowLayouterNoLabels_Test.java" startLine="16" startPosition="67" endLine="22" endPosition="0" />
+    <nodeInfo nodeId="1795464432008746840" conceptFqName="jetbrains.mps.baseLanguage.structure.InstanceMethodDeclaration" propertyString="test#(Ljetbrains/mps/graphLayout/graph/Graph;)V" fileName="OrthogonalFlowLayouterNoLabels_Test.java" startLine="22" startPosition="0" endLine="31" endPosition="0" />
+    <scopeInfo nodeId="1795464432008746872" fileName="OrthogonalFlowLayouterNoLabels_Test.java" startLine="25" startPosition="63" endLine="26" endPosition="58" />
+    <scopeInfo nodeId="1795464432008746839" fileName="OrthogonalFlowLayouterNoLabels_Test.java" startLine="17" startPosition="45" endLine="20" endPosition="16">
+      <varInfo nodeId="1795464432008746911" varName="graphString" />
+      <varInfo nodeId="1795464432008746923" varName="graph" />
+    </scopeInfo>
+    <scopeInfo nodeId="1795464432008746869" conceptFqName="jetbrains.mps.baseLanguage.structure.ForeachStatement" fileName="OrthogonalFlowLayouterNoLabels_Test.java" startLine="24" startPosition="50" endLine="27" endPosition="5" />
+    <scopeInfo nodeId="1795464432008746836" conceptFqName="jetbrains.mps.baseLanguage.structure.InstanceMethodDeclaration" propertyString="test_test1#()V" fileName="OrthogonalFlowLayouterNoLabels_Test.java" startLine="16" startPosition="67" endLine="22" endPosition="0" />
+    <scopeInfo nodeId="1795464432008746843" fileName="OrthogonalFlowLayouterNoLabels_Test.java" startLine="23" startPosition="33" endLine="29" endPosition="48">
+      <varInfo nodeId="1795464432008746902" varName="graphLayout" />
+      <varInfo nodeId="1795464432008746862" varName="layoutInfo" />
+    </scopeInfo>
+    <scopeInfo nodeId="1795464432008746840" conceptFqName="jetbrains.mps.baseLanguage.structure.InstanceMethodDeclaration" propertyString="test#(Ljetbrains/mps/graphLayout/graph/Graph;)V" fileName="OrthogonalFlowLayouterNoLabels_Test.java" startLine="22" startPosition="0" endLine="31" endPosition="0">
+      <varInfo nodeId="1795464432008746856" varName="graph" />
+    </scopeInfo>
+  </root>
   <root nodeId="194249616896421866">
     <nodeInfo nodeId="194249616896421940" conceptFqName="jetbrains.mps.baseLanguage.structure.FieldDeclaration" propertyString="myNumNodes" fileName="MultiTest.java" startLine="9" startPosition="24" endLine="10" endPosition="35" />
     <nodeInfo nodeId="194249616896421946" conceptFqName="jetbrains.mps.baseLanguage.structure.FieldDeclaration" propertyString="myNumEdges" fileName="MultiTest.java" startLine="10" startPosition="35" endLine="11" endPosition="35" />
@@ -304,7 +331,7 @@
     <nodeInfo nodeId="194249616896428141" conceptFqName="jetbrains.mps.baseLanguage.structure.ExpressionStatement" fileName="MultiTest.java" startLine="33" startPosition="38" endLine="34" endPosition="84" />
     <nodeInfo nodeId="194249616896428168" conceptFqName="jetbrains.mps.baseLanguage.structure.ExpressionStatement" fileName="MultiTest.java" startLine="34" startPosition="84" endLine="35" endPosition="84" />
     <nodeInfo nodeId="194249616896428177" conceptFqName="jetbrains.mps.baseLanguage.structure.ExpressionStatement" fileName="MultiTest.java" startLine="35" startPosition="84" endLine="36" endPosition="83" />
-    <nodeInfo nodeId="194249616896428198" conceptFqName="jetbrains.mps.baseLanguage.structure.ExpressionStatement" fileName="MultiTest.java" startLine="36" startPosition="83" endLine="37" endPosition="59" />
+    <nodeInfo nodeId="194249616896428198" conceptFqName="jetbrains.mps.baseLanguage.structure.ExpressionStatement" fileName="MultiTest.java" startLine="36" startPosition="83" endLine="37" endPosition="52" />
     <nodeInfo nodeId="194249616896422001" conceptFqName="jetbrains.mps.baseLanguage.structure.ExpressionStatement" fileName="MultiTest.java" startLine="41" startPosition="69" endLine="42" endPosition="59" />
     <nodeInfo nodeId="194249616896422010" conceptFqName="jetbrains.mps.baseLanguage.structure.ExpressionStatement" fileName="MultiTest.java" startLine="42" startPosition="59" endLine="43" endPosition="59" />
     <nodeInfo nodeId="194249616896422015" conceptFqName="jetbrains.mps.baseLanguage.structure.ExpressionStatement" fileName="MultiTest.java" startLine="43" startPosition="59" endLine="44" endPosition="57" />
@@ -322,7 +349,7 @@
       <varInfo nodeId="194249616896421876" varName="args" />
     </scopeInfo>
     <scopeInfo nodeId="194249616896421868" conceptFqName="jetbrains.mps.baseLanguage.structure.ConstructorDeclaration" propertyString="MultiTest#()V" fileName="MultiTest.java" startLine="13" startPosition="0" endLine="18" endPosition="3" />
-    <scopeInfo nodeId="194249616896422068" fileName="MultiTest.java" startLine="32" startPosition="73" endLine="37" endPosition="59">
+    <scopeInfo nodeId="194249616896422068" fileName="MultiTest.java" startLine="32" startPosition="73" endLine="37" endPosition="52">
       <varInfo nodeId="194249616896428129" varName="params" />
     </scopeInfo>
     <scopeInfo nodeId="194249616896421988" conceptFqName="jetbrains.mps.baseLanguage.structure.InstanceMethodDeclaration" propertyString="addTestCase#(III)V" fileName="MultiTest.java" startLine="40" startPosition="0" endLine="46" endPosition="0">
@@ -1078,62 +1105,73 @@
     <unitInfo nodeId="7953585273260012257" fileName="QuasiOrthogonalRepresentationStressTest.java" startLine="20" startPosition="0" endLine="47" endPosition="0" unitName="orthogonalLayoutTest.QuasiOrthogonalRepresentationStressTest" />
   </root>
   <root nodeId="8527875266531958631">
-    <nodeInfo nodeId="8527875266531958640" conceptFqName="jetbrains.mps.baseLanguage.structure.LocalVariableDeclarationStatement" fileName="CurrentOrthogonalFlowLayouterStressTest.java" startLine="23" startPosition="59" endLine="24" endPosition="52" />
-    <nodeInfo nodeId="8527875266531958644" conceptFqName="jetbrains.mps.baseLanguage.structure.LocalVariableDeclarationStatement" fileName="CurrentOrthogonalFlowLayouterStressTest.java" startLine="24" startPosition="52" endLine="25" endPosition="75" />
-    <nodeInfo nodeId="8527875266531958649" conceptFqName="jetbrains.mps.baseLanguage.structure.LocalVariableDeclarationStatement" fileName="CurrentOrthogonalFlowLayouterStressTest.java" startLine="25" startPosition="75" endLine="26" endPosition="45" />
-    <nodeInfo nodeId="8527875266531958656" conceptFqName="jetbrains.mps.baseLanguage.structure.LocalVariableDeclarationStatement" fileName="CurrentOrthogonalFlowLayouterStressTest.java" startLine="26" startPosition="45" endLine="27" endPosition="45" />
-    <nodeInfo nodeId="8527875266531958663" conceptFqName="jetbrains.mps.baseLanguage.structure.LocalVariableDeclarationStatement" fileName="CurrentOrthogonalFlowLayouterStressTest.java" startLine="27" startPosition="45" endLine="28" endPosition="44" />
-    <nodeInfo nodeId="194249616896349071" conceptFqName="jetbrains.mps.baseLanguage.structure.LocalVariableDeclarationStatement" fileName="CurrentOrthogonalFlowLayouterStressTest.java" startLine="28" startPosition="44" endLine="29" endPosition="125" />
-    <nodeInfo nodeId="194249616896374495" conceptFqName="jetbrains.mps.baseLanguage.structure.ExpressionStatement" fileName="CurrentOrthogonalFlowLayouterStressTest.java" startLine="29" startPosition="125" endLine="30" endPosition="32" />
-    <nodeInfo nodeId="194249616896374505" conceptFqName="jetbrains.mps.baseLanguage.structure.ExpressionStatement" fileName="CurrentOrthogonalFlowLayouterStressTest.java" startLine="30" startPosition="32" endLine="31" endPosition="53" />
-    <nodeInfo nodeId="194249616896374520" conceptFqName="jetbrains.mps.baseLanguage.structure.ExpressionStatement" fileName="CurrentOrthogonalFlowLayouterStressTest.java" startLine="31" startPosition="53" endLine="32" endPosition="56" />
-    <nodeInfo nodeId="8527875266531958676" conceptFqName="jetbrains.mps.baseLanguage.structure.ExpressionStatement" fileName="CurrentOrthogonalFlowLayouterStressTest.java" startLine="33" startPosition="48" endLine="34" endPosition="47" />
-    <nodeInfo nodeId="194249616896374536" conceptFqName="jetbrains.mps.baseLanguage.structure.ExpressionStatement" fileName="CurrentOrthogonalFlowLayouterStressTest.java" startLine="34" startPosition="47" endLine="35" endPosition="27" />
-    <nodeInfo nodeId="8527875266531958683" conceptFqName="jetbrains.mps.baseLanguage.structure.LocalVariableDeclarationStatement" fileName="CurrentOrthogonalFlowLayouterStressTest.java" startLine="35" startPosition="27" endLine="36" endPosition="41" />
-    <nodeInfo nodeId="194249616896374551" conceptFqName="jetbrains.mps.baseLanguage.structure.LocalVariableDeclarationStatement" fileName="CurrentOrthogonalFlowLayouterStressTest.java" startLine="36" startPosition="41" endLine="37" endPosition="64" />
-    <nodeInfo nodeId="194249616896374575" conceptFqName="jetbrains.mps.baseLanguage.structure.LocalVariableDeclarationStatement" fileName="CurrentOrthogonalFlowLayouterStressTest.java" startLine="37" startPosition="64" endLine="38" endPosition="69" />
-    <nodeInfo nodeId="194249616896441094" conceptFqName="jetbrains.mps.baseLanguage.structure.LocalVariableDeclarationStatement" fileName="CurrentOrthogonalFlowLayouterStressTest.java" startLine="38" startPosition="69" endLine="39" endPosition="56" />
-    <nodeInfo nodeId="8527875266531958689" conceptFqName="jetbrains.mps.baseLanguage.structure.LocalVariableDeclarationStatement" fileName="CurrentOrthogonalFlowLayouterStressTest.java" startLine="39" startPosition="56" endLine="40" endPosition="50" />
-    <nodeInfo nodeId="8527875266531958695" conceptFqName="jetbrains.mps.baseLanguage.structure.ExpressionStatement" fileName="CurrentOrthogonalFlowLayouterStressTest.java" startLine="40" startPosition="50" endLine="41" endPosition="59" />
-    <nodeInfo nodeId="8527875266531958699" conceptFqName="jetbrains.mps.baseLanguage.structure.ExpressionStatement" fileName="CurrentOrthogonalFlowLayouterStressTest.java" startLine="41" startPosition="59" endLine="42" endPosition="18" />
-    <nodeInfo nodeId="1267439904987138759" conceptFqName="jetbrains.mps.baseLanguage.structure.ExpressionStatement" fileName="CurrentOrthogonalFlowLayouterStressTest.java" startLine="42" startPosition="18" endLine="43" endPosition="33" />
-    <nodeInfo nodeId="592792776163341715" conceptFqName="jetbrains.mps.baseLanguage.structure.ExpressionStatement" fileName="CurrentOrthogonalFlowLayouterStressTest.java" startLine="43" startPosition="33" endLine="44" endPosition="44" />
-    <nodeInfo nodeId="194249616896374606" conceptFqName="jetbrains.mps.baseLanguage.structure.LocalVariableDeclarationStatement" fileName="CurrentOrthogonalFlowLayouterStressTest.java" startLine="44" startPosition="44" endLine="45" endPosition="47" />
-    <nodeInfo nodeId="8527875266531958727" conceptFqName="jetbrains.mps.baseLanguage.structure.LocalVariableDeclarationStatement" fileName="CurrentOrthogonalFlowLayouterStressTest.java" startLine="45" startPosition="47" endLine="46" endPosition="71" />
-    <nodeInfo nodeId="8527875266531960549" conceptFqName="jetbrains.mps.baseLanguage.structure.LocalVariableDeclarationStatement" fileName="CurrentOrthogonalFlowLayouterStressTest.java" startLine="46" startPosition="71" endLine="47" endPosition="75" />
-    <nodeInfo nodeId="8527875266531960560" conceptFqName="jetbrains.mps.baseLanguage.structure.ExpressionStatement" fileName="CurrentOrthogonalFlowLayouterStressTest.java" startLine="47" startPosition="75" endLine="48" endPosition="95" />
-    <nodeInfo nodeId="8527875266531958735" conceptFqName="jetbrains.mps.baseLanguage.structure.ExpressionStatement" fileName="CurrentOrthogonalFlowLayouterStressTest.java" startLine="48" startPosition="95" endLine="49" endPosition="50" />
-    <nodeInfo nodeId="8527875266531958770" conceptFqName="jetbrains.mps.baseLanguage.structure.ExpressionStatement" fileName="CurrentOrthogonalFlowLayouterStressTest.java" startLine="50" startPosition="5" endLine="51" endPosition="31" />
-    <nodeInfo nodeId="8527875266531958633" conceptFqName="jetbrains.mps.baseLanguage.structure.ConstructorDeclaration" propertyString="CurrentOrthogonalFlowLayouterStressTest#()V" fileName="CurrentOrthogonalFlowLayouterStressTest.java" startLine="19" startPosition="54" endLine="21" endPosition="3" />
-    <nodeInfo nodeId="8527875266531958670" conceptFqName="jetbrains.mps.baseLanguage.structure.ForStatement" fileName="CurrentOrthogonalFlowLayouterStressTest.java" startLine="32" startPosition="56" endLine="50" endPosition="5" />
-    <nodeInfo nodeId="8527875266531958637" conceptFqName="jetbrains.mps.baseLanguage.structure.StaticMethodDeclaration" propertyString="main#([Ljava/lang/String;)V" fileName="CurrentOrthogonalFlowLayouterStressTest.java" startLine="22" startPosition="0" endLine="53" endPosition="0" />
-    <scopeInfo nodeId="8527875266531958636" fileName="CurrentOrthogonalFlowLayouterStressTest.java" startLine="20" startPosition="52" endLine="20" endPosition="52" />
-    <scopeInfo nodeId="8527875266531958633" conceptFqName="jetbrains.mps.baseLanguage.structure.ConstructorDeclaration" propertyString="CurrentOrthogonalFlowLayouterStressTest#()V" fileName="CurrentOrthogonalFlowLayouterStressTest.java" startLine="19" startPosition="54" endLine="21" endPosition="3" />
-    <scopeInfo nodeId="8527875266531958671" fileName="CurrentOrthogonalFlowLayouterStressTest.java" startLine="33" startPosition="48" endLine="49" endPosition="50">
+    <nodeInfo nodeId="8527875266531958640" conceptFqName="jetbrains.mps.baseLanguage.structure.LocalVariableDeclarationStatement" fileName="OrthogonalFlowLayouterStressTest.java" startLine="23" startPosition="59" endLine="24" endPosition="52" />
+    <nodeInfo nodeId="8527875266531958644" conceptFqName="jetbrains.mps.baseLanguage.structure.LocalVariableDeclarationStatement" fileName="OrthogonalFlowLayouterStressTest.java" startLine="24" startPosition="52" endLine="25" endPosition="75" />
+    <nodeInfo nodeId="8527875266531958649" conceptFqName="jetbrains.mps.baseLanguage.structure.LocalVariableDeclarationStatement" fileName="OrthogonalFlowLayouterStressTest.java" startLine="25" startPosition="75" endLine="26" endPosition="45" />
+    <nodeInfo nodeId="8527875266531958656" conceptFqName="jetbrains.mps.baseLanguage.structure.LocalVariableDeclarationStatement" fileName="OrthogonalFlowLayouterStressTest.java" startLine="26" startPosition="45" endLine="27" endPosition="45" />
+    <nodeInfo nodeId="8527875266531958663" conceptFqName="jetbrains.mps.baseLanguage.structure.LocalVariableDeclarationStatement" fileName="OrthogonalFlowLayouterStressTest.java" startLine="27" startPosition="45" endLine="28" endPosition="44" />
+    <nodeInfo nodeId="194249616896349071" conceptFqName="jetbrains.mps.baseLanguage.structure.LocalVariableDeclarationStatement" fileName="OrthogonalFlowLayouterStressTest.java" startLine="28" startPosition="44" endLine="29" endPosition="125" />
+    <nodeInfo nodeId="194249616896374495" conceptFqName="jetbrains.mps.baseLanguage.structure.ExpressionStatement" fileName="OrthogonalFlowLayouterStressTest.java" startLine="29" startPosition="125" endLine="30" endPosition="32" />
+    <nodeInfo nodeId="194249616896374505" conceptFqName="jetbrains.mps.baseLanguage.structure.ExpressionStatement" fileName="OrthogonalFlowLayouterStressTest.java" startLine="30" startPosition="32" endLine="31" endPosition="53" />
+    <nodeInfo nodeId="194249616896374520" conceptFqName="jetbrains.mps.baseLanguage.structure.ExpressionStatement" fileName="OrthogonalFlowLayouterStressTest.java" startLine="31" startPosition="53" endLine="32" endPosition="56" />
+    <nodeInfo nodeId="1795464432008744845" conceptFqName="jetbrains.mps.baseLanguage.structure.LocalVariableDeclarationStatement" fileName="OrthogonalFlowLayouterStressTest.java" startLine="32" startPosition="56" endLine="33" endPosition="27" />
+    <nodeInfo nodeId="8527875266531958676" conceptFqName="jetbrains.mps.baseLanguage.structure.ExpressionStatement" fileName="OrthogonalFlowLayouterStressTest.java" startLine="34" startPosition="61" endLine="35" endPosition="47" />
+    <nodeInfo nodeId="194249616896374536" conceptFqName="jetbrains.mps.baseLanguage.structure.ExpressionStatement" fileName="OrthogonalFlowLayouterStressTest.java" startLine="35" startPosition="47" endLine="36" endPosition="27" />
+    <nodeInfo nodeId="8527875266531958683" conceptFqName="jetbrains.mps.baseLanguage.structure.LocalVariableDeclarationStatement" fileName="OrthogonalFlowLayouterStressTest.java" startLine="36" startPosition="27" endLine="37" endPosition="41" />
+    <nodeInfo nodeId="194249616896374551" conceptFqName="jetbrains.mps.baseLanguage.structure.LocalVariableDeclarationStatement" fileName="OrthogonalFlowLayouterStressTest.java" startLine="37" startPosition="41" endLine="38" endPosition="64" />
+    <nodeInfo nodeId="194249616896374575" conceptFqName="jetbrains.mps.baseLanguage.structure.LocalVariableDeclarationStatement" fileName="OrthogonalFlowLayouterStressTest.java" startLine="38" startPosition="64" endLine="39" endPosition="69" />
+    <nodeInfo nodeId="194249616896441094" conceptFqName="jetbrains.mps.baseLanguage.structure.LocalVariableDeclarationStatement" fileName="OrthogonalFlowLayouterStressTest.java" startLine="39" startPosition="69" endLine="40" endPosition="56" />
+    <nodeInfo nodeId="8527875266531958689" conceptFqName="jetbrains.mps.baseLanguage.structure.LocalVariableDeclarationStatement" fileName="OrthogonalFlowLayouterStressTest.java" startLine="40" startPosition="56" endLine="41" endPosition="50" />
+    <nodeInfo nodeId="8527875266531958695" conceptFqName="jetbrains.mps.baseLanguage.structure.ExpressionStatement" fileName="OrthogonalFlowLayouterStressTest.java" startLine="41" startPosition="50" endLine="42" endPosition="59" />
+    <nodeInfo nodeId="8527875266531958699" conceptFqName="jetbrains.mps.baseLanguage.structure.ExpressionStatement" fileName="OrthogonalFlowLayouterStressTest.java" startLine="42" startPosition="59" endLine="43" endPosition="18" />
+    <nodeInfo nodeId="1267439904987138759" conceptFqName="jetbrains.mps.baseLanguage.structure.ExpressionStatement" fileName="OrthogonalFlowLayouterStressTest.java" startLine="43" startPosition="18" endLine="44" endPosition="33" />
+    <nodeInfo nodeId="592792776163341715" conceptFqName="jetbrains.mps.baseLanguage.structure.ExpressionStatement" fileName="OrthogonalFlowLayouterStressTest.java" startLine="44" startPosition="33" endLine="45" endPosition="44" />
+    <nodeInfo nodeId="194249616896374606" conceptFqName="jetbrains.mps.baseLanguage.structure.LocalVariableDeclarationStatement" fileName="OrthogonalFlowLayouterStressTest.java" startLine="45" startPosition="44" endLine="46" endPosition="47" />
+    <nodeInfo nodeId="1795464432008742877" conceptFqName="jetbrains.mps.baseLanguage.structure.LocalVariableDeclarationStatement" fileName="OrthogonalFlowLayouterStressTest.java" startLine="46" startPosition="47" endLine="47" endPosition="32" />
+    <nodeInfo nodeId="1795464432008742872" conceptFqName="jetbrains.mps.baseLanguage.structure.ExpressionStatement" fileName="OrthogonalFlowLayouterStressTest.java" startLine="48" startPosition="11" endLine="49" endPosition="61" />
+    <nodeInfo nodeId="1795464432008745845" conceptFqName="jetbrains.mps.baseLanguage.structure.ExpressionStatement" fileName="OrthogonalFlowLayouterStressTest.java" startLine="49" startPosition="61" endLine="50" endPosition="52" />
+    <nodeInfo nodeId="1795464432008740993" conceptFqName="jetbrains.mps.baseLanguage.structure.ExpressionStatement" fileName="OrthogonalFlowLayouterStressTest.java" startLine="51" startPosition="29" endLine="52" endPosition="28" />
+    <nodeInfo nodeId="1795464432008744857" conceptFqName="jetbrains.mps.baseLanguage.structure.ExpressionStatement" fileName="OrthogonalFlowLayouterStressTest.java" startLine="52" startPosition="28" endLine="53" endPosition="22" />
+    <nodeInfo nodeId="8527875266531960549" conceptFqName="jetbrains.mps.baseLanguage.structure.LocalVariableDeclarationStatement" fileName="OrthogonalFlowLayouterStressTest.java" startLine="54" startPosition="7" endLine="55" endPosition="75" />
+    <nodeInfo nodeId="8527875266531960560" conceptFqName="jetbrains.mps.baseLanguage.structure.ExpressionStatement" fileName="OrthogonalFlowLayouterStressTest.java" startLine="55" startPosition="75" endLine="56" endPosition="95" />
+    <nodeInfo nodeId="8527875266531958770" conceptFqName="jetbrains.mps.baseLanguage.structure.ExpressionStatement" fileName="OrthogonalFlowLayouterStressTest.java" startLine="57" startPosition="5" endLine="58" endPosition="31" />
+    <nodeInfo nodeId="8527875266531958633" conceptFqName="jetbrains.mps.baseLanguage.structure.ConstructorDeclaration" propertyString="OrthogonalFlowLayouterStressTest#()V" fileName="OrthogonalFlowLayouterStressTest.java" startLine="19" startPosition="47" endLine="21" endPosition="3" />
+    <nodeInfo nodeId="1795464432008739188" conceptFqName="jetbrains.mps.baseLanguage.structure.TryCatchStatement" fileName="OrthogonalFlowLayouterStressTest.java" startLine="47" startPosition="32" endLine="54" endPosition="7" />
+    <nodeInfo nodeId="8527875266531958670" conceptFqName="jetbrains.mps.baseLanguage.structure.ForStatement" fileName="OrthogonalFlowLayouterStressTest.java" startLine="33" startPosition="27" endLine="57" endPosition="5" />
+    <nodeInfo nodeId="8527875266531958637" conceptFqName="jetbrains.mps.baseLanguage.structure.StaticMethodDeclaration" propertyString="main#([Ljava/lang/String;)V" fileName="OrthogonalFlowLayouterStressTest.java" startLine="22" startPosition="0" endLine="60" endPosition="0" />
+    <scopeInfo nodeId="8527875266531958636" fileName="OrthogonalFlowLayouterStressTest.java" startLine="20" startPosition="45" endLine="20" endPosition="45" />
+    <scopeInfo nodeId="8527875266531958633" conceptFqName="jetbrains.mps.baseLanguage.structure.ConstructorDeclaration" propertyString="OrthogonalFlowLayouterStressTest#()V" fileName="OrthogonalFlowLayouterStressTest.java" startLine="19" startPosition="47" endLine="21" endPosition="3" />
+    <scopeInfo nodeId="1795464432008739189" fileName="OrthogonalFlowLayouterStressTest.java" startLine="48" startPosition="11" endLine="50" endPosition="52" />
+    <scopeInfo nodeId="1795464432008739190" fileName="OrthogonalFlowLayouterStressTest.java" startLine="51" startPosition="0" endLine="53" endPosition="22">
+      <varInfo nodeId="1795464432008739191" varName="e" />
+    </scopeInfo>
+    <scopeInfo nodeId="1795464432008739193" fileName="OrthogonalFlowLayouterStressTest.java" startLine="51" startPosition="29" endLine="53" endPosition="22" />
+    <scopeInfo nodeId="8527875266531958671" fileName="OrthogonalFlowLayouterStressTest.java" startLine="34" startPosition="61" endLine="56" endPosition="95">
       <varInfo nodeId="194249616896374607" varName="time" />
       <varInfo nodeId="8527875266531958684" varName="graph" />
-      <varInfo nodeId="8527875266531958728" varName="layout" />
+      <varInfo nodeId="1795464432008742878" varName="layout" />
       <varInfo nodeId="194249616896374576" varName="edgeSizes" />
       <varInfo nodeId="194249616896441095" varName="layoutInfo" />
       <varInfo nodeId="194249616896374552" varName="nodeSizes" />
       <varInfo nodeId="8527875266531960550" varName="passedTime" />
       <varInfo nodeId="8527875266531958690" varName="out" />
     </scopeInfo>
-    <scopeInfo nodeId="8527875266531958670" conceptFqName="jetbrains.mps.baseLanguage.structure.ForStatement" fileName="CurrentOrthogonalFlowLayouterStressTest.java" startLine="32" startPosition="56" endLine="50" endPosition="5">
+    <scopeInfo nodeId="8527875266531958670" conceptFqName="jetbrains.mps.baseLanguage.structure.ForStatement" fileName="OrthogonalFlowLayouterStressTest.java" startLine="33" startPosition="27" endLine="57" endPosition="5">
       <varInfo nodeId="8527875266531958762" varName="iter" />
     </scopeInfo>
-    <scopeInfo nodeId="8527875266531958639" fileName="CurrentOrthogonalFlowLayouterStressTest.java" startLine="23" startPosition="59" endLine="51" endPosition="31">
+    <scopeInfo nodeId="8527875266531958639" fileName="OrthogonalFlowLayouterStressTest.java" startLine="23" startPosition="59" endLine="58" endPosition="31">
       <varInfo nodeId="8527875266531958657" varName="numEdges" />
+      <varInfo nodeId="1795464432008744846" varName="failed" />
       <varInfo nodeId="8527875266531958650" varName="numNodes" />
       <varInfo nodeId="8527875266531958641" varName="fileName" />
       <varInfo nodeId="194249616896349072" varName="generator" />
       <varInfo nodeId="8527875266531958645" varName="layouter" />
       <varInfo nodeId="8527875266531958664" varName="numIter" />
     </scopeInfo>
-    <scopeInfo nodeId="8527875266531958637" conceptFqName="jetbrains.mps.baseLanguage.structure.StaticMethodDeclaration" propertyString="main#([Ljava/lang/String;)V" fileName="CurrentOrthogonalFlowLayouterStressTest.java" startLine="22" startPosition="0" endLine="53" endPosition="0">
+    <scopeInfo nodeId="8527875266531958637" conceptFqName="jetbrains.mps.baseLanguage.structure.StaticMethodDeclaration" propertyString="main#([Ljava/lang/String;)V" fileName="OrthogonalFlowLayouterStressTest.java" startLine="22" startPosition="0" endLine="60" endPosition="0">
       <varInfo nodeId="8527875266531958776" varName="args" />
     </scopeInfo>
-    <unitInfo nodeId="8527875266531958631" fileName="CurrentOrthogonalFlowLayouterStressTest.java" startLine="19" startPosition="0" endLine="54" endPosition="0" unitName="orthogonalLayoutTest.CurrentOrthogonalFlowLayouterStressTest" />
+    <unitInfo nodeId="8527875266531958631" fileName="OrthogonalFlowLayouterStressTest.java" startLine="19" startPosition="0" endLine="61" endPosition="0" unitName="orthogonalLayoutTest.OrthogonalFlowLayouterStressTest" />
   </root>
   <root nodeId="8734440518942960375">
     <nodeInfo nodeId="8734440518942962343" conceptFqName="jetbrains.mps.baseLanguage.structure.LocalVariableDeclarationStatement" fileName="OrthogonalPointFlowLayouter_Test.java" startLine="13" startPosition="45" endLine="14" endPosition="82" />

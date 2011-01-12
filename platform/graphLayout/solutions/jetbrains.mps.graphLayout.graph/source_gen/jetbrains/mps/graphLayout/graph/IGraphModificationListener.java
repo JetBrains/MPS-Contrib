@@ -4,5 +4,5 @@ package jetbrains.mps.graphLayout.graph;
 
 
 public interface IGraphModificationListener {
-  public void get(GraphModificationEvent event);
+  public void process(GraphModificationEvent event);
 }

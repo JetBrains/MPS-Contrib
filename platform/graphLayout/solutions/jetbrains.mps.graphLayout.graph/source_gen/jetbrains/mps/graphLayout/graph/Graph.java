@@ -31,7 +31,7 @@ public class Graph implements IGraph {
     return allEdges;
   }
 
-  private Node createNode(boolean isDummy) {
+  protected Node createNode(boolean isDummy) {
     Node node = new Node(this, myNextNum++, isDummy);
     ListSequence.fromList(myNodes).addElement(node);
     myProcessor.fire(new GraphModificationEvent(GraphModificationEvent.Type.NODE_CREATED, node));
