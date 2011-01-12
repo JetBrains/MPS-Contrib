@@ -132,7 +132,7 @@
     <nodeInfo nodeId="5266766379151917441" conceptFqName="jetbrains.mps.baseLanguage.structure.ExpressionStatement" fileName="ElementCreator.java" startLine="23" startPosition="53" endLine="24" endPosition="57" />
     <nodeInfo nodeId="5266766379151917446" conceptFqName="jetbrains.mps.baseLanguage.structure.LocalVariableDeclarationStatement" fileName="ElementCreator.java" startLine="24" startPosition="57" endLine="25" endPosition="65" />
     <nodeInfo nodeId="5266766379151917452" conceptFqName="jetbrains.mps.baseLanguage.structure.LocalVariableDeclarationStatement" fileName="ElementCreator.java" startLine="25" startPosition="65" endLine="26" endPosition="58" />
-    <nodeInfo nodeId="5266766379151917459" conceptFqName="jetbrains.mps.baseLanguage.structure.BlockStatement" fileName="ElementCreator.java" startLine="26" startPosition="58" endLine="27" endPosition="29" />
+    <nodeInfo nodeId="5266766379151917459" conceptFqName="jetbrains.mps.baseLanguage.structure.ExpressionStatement" fileName="ElementCreator.java" startLine="26" startPosition="58" endLine="27" endPosition="29" />
     <nodeInfo nodeId="5266766379151917466" conceptFqName="jetbrains.mps.baseLanguage.structure.ExpressionStatement" fileName="ElementCreator.java" startLine="28" startPosition="27" endLine="29" endPosition="48" />
     <nodeInfo nodeId="5266766379151917324" conceptFqName="jetbrains.mps.baseLanguage.structure.LocalVariableDeclarationStatement" fileName="ElementCreator.java" startLine="33" startPosition="85" endLine="34" endPosition="81" />
     <nodeInfo nodeId="5266766379151917336" conceptFqName="jetbrains.mps.baseLanguage.structure.ExpressionStatement" fileName="ElementCreator.java" startLine="36" startPosition="70" endLine="37" endPosition="129" />

@@ -23,8 +23,8 @@
   <root nodeId="1219148733937">
     <nodeInfo nodeId="1219149199582" conceptFqName="jetbrains.mps.baseLanguage.structure.ReturnStatement" fileName="CreateExternalPropertyFromNormal_intention_Intention.java" startLine="34" startPosition="85" endLine="35" endPosition="44" />
     <nodeInfo nodeId="1219149886945" conceptFqName="jetbrains.mps.baseLanguage.structure.ReturnStatement" fileName="CreateExternalPropertyFromNormal_intention_Intention.java" startLine="45" startPosition="90" endLine="46" endPosition="118" />
-    <nodeInfo nodeId="1219149141956" conceptFqName="jetbrains.mps.baseLanguage.structure.LocalVariableDeclarationStatement" fileName="CreateExternalPropertyFromNormal_intention_Intention.java" startLine="49" startPosition="76" endLine="50" endPosition="137" />
-    <nodeInfo nodeId="1219149356853" conceptFqName="jetbrains.mps.baseLanguage.structure.ExpressionStatement" fileName="CreateExternalPropertyFromNormal_intention_Intention.java" startLine="50" startPosition="137" endLine="51" endPosition="109" />
+    <nodeInfo nodeId="1219149141956" conceptFqName="jetbrains.mps.baseLanguage.structure.LocalVariableDeclarationStatement" fileName="CreateExternalPropertyFromNormal_intention_Intention.java" startLine="49" startPosition="76" endLine="50" endPosition="141" />
+    <nodeInfo nodeId="1219149356853" conceptFqName="jetbrains.mps.baseLanguage.structure.ExpressionStatement" fileName="CreateExternalPropertyFromNormal_intention_Intention.java" startLine="50" startPosition="141" endLine="51" endPosition="109" />
     <nodeInfo nodeId="1219149370702" conceptFqName="jetbrains.mps.baseLanguage.structure.ExpressionStatement" fileName="CreateExternalPropertyFromNormal_intention_Intention.java" startLine="51" startPosition="109" endLine="52" endPosition="99" />
     <nodeInfo nodeId="1219149168202" conceptFqName="jetbrains.mps.baseLanguage.structure.ExpressionStatement" fileName="CreateExternalPropertyFromNormal_intention_Intention.java" startLine="52" startPosition="99" endLine="53" endPosition="63" />
     <scopeInfo nodeId="1219148733939" fileName="CreateExternalPropertyFromNormal_intention_Intention.java" startLine="34" startPosition="85" endLine="35" endPosition="44" />
@@ -35,8 +35,8 @@
   </root>
   <root nodeId="1219149486459">
     <nodeInfo nodeId="1219149630134" conceptFqName="jetbrains.mps.baseLanguage.structure.ReturnStatement" fileName="CreateNormalPropertyFromExternal_intention_Intention.java" startLine="34" startPosition="85" endLine="35" endPosition="62" />
-    <nodeInfo nodeId="1219149662638" conceptFqName="jetbrains.mps.baseLanguage.structure.LocalVariableDeclarationStatement" fileName="CreateNormalPropertyFromExternal_intention_Intention.java" startLine="38" startPosition="76" endLine="39" endPosition="121" />
-    <nodeInfo nodeId="1219149662644" conceptFqName="jetbrains.mps.baseLanguage.structure.ExpressionStatement" fileName="CreateNormalPropertyFromExternal_intention_Intention.java" startLine="39" startPosition="121" endLine="40" endPosition="101" />
+    <nodeInfo nodeId="1219149662638" conceptFqName="jetbrains.mps.baseLanguage.structure.LocalVariableDeclarationStatement" fileName="CreateNormalPropertyFromExternal_intention_Intention.java" startLine="38" startPosition="76" endLine="39" endPosition="125" />
+    <nodeInfo nodeId="1219149662644" conceptFqName="jetbrains.mps.baseLanguage.structure.ExpressionStatement" fileName="CreateNormalPropertyFromExternal_intention_Intention.java" startLine="39" startPosition="125" endLine="40" endPosition="101" />
     <nodeInfo nodeId="1219149662652" conceptFqName="jetbrains.mps.baseLanguage.structure.ExpressionStatement" fileName="CreateNormalPropertyFromExternal_intention_Intention.java" startLine="40" startPosition="101" endLine="41" endPosition="91" />
     <nodeInfo nodeId="1219149662661" conceptFqName="jetbrains.mps.baseLanguage.structure.ExpressionStatement" fileName="CreateNormalPropertyFromExternal_intention_Intention.java" startLine="41" startPosition="91" endLine="42" endPosition="55" />
     <scopeInfo nodeId="1219149486461" fileName="CreateNormalPropertyFromExternal_intention_Intention.java" startLine="34" startPosition="85" endLine="35" endPosition="62" />

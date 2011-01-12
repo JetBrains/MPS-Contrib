@@ -1,11 +1,11 @@
 <component name="ProjectRunConfigurationManager">
-  <configuration default="false" name="BrokenReferencesTest" type="JUnit" factoryName="JUnit">
+  <configuration default="false" name="CheckProjectStructure" type="JUnit" factoryName="JUnit">
     <extension name="coverage" enabled="false" merge="false" sample_coverage="true" runner="idea" />
     <module name="testbench" />
     <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
     <option name="ALTERNATIVE_JRE_PATH" value="" />
     <option name="PACKAGE_NAME" value="" />
-    <option name="MAIN_CLASS_NAME" value="BrokenReferencesTest" />
+    <option name="MAIN_CLASS_NAME" value="CheckProjectStructure" />
     <option name="METHOD_NAME" value="" />
     <option name="TEST_OBJECT" value="class" />
     <option name="VM_PARAMETERS" value="-ea -Xss1024k -Xmx1200m -XX:MaxPermSize=128m -XX:+HeapDumpOnOutOfMemoryError -client " />
