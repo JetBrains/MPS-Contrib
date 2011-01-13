@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<debugInfo>
+  <unitInfo fileName="Deprecated_Language.java" startLine="9" startPosition="0" endLine="16" endPosition="0" unitName="jetbrains.mps.xml.deprecated.structure.Deprecated_Language" />
+  <unitInfo fileName="ExternalId.java" startLine="11" startPosition="0" endLine="26" endPosition="0" unitName="jetbrains.mps.xml.deprecated.structure.ExternalId" />
+  <unitInfo fileName="Text.java" startLine="10" startPosition="0" endLine="34" endPosition="0" unitName="jetbrains.mps.xml.deprecated.structure.Text" />
+  <unitInfo fileName="PublicId.java" startLine="10" startPosition="0" endLine="43" endPosition="0" unitName="jetbrains.mps.xml.deprecated.structure.PublicId" />
+  <unitInfo fileName="ElementPart.java" startLine="12" startPosition="0" endLine="64" endPosition="0" unitName="jetbrains.mps.xml.deprecated.structure.ElementPart" />
+  <unitInfo fileName="Element.java" startLine="12" startPosition="0" endLine="69" endPosition="0" unitName="jetbrains.mps.xml.deprecated.structure.Element" />
+  <unitInfo fileName="DocumentTypeDeclaration.java" startLine="12" startPosition="0" endLine="72" endPosition="0" unitName="jetbrains.mps.xml.deprecated.structure.DocumentTypeDeclaration" />
+  <unitInfo fileName="Attribute.java" startLine="12" startPosition="0" endLine="72" endPosition="0" unitName="jetbrains.mps.xml.deprecated.structure.Attribute" />
+  <unitInfo fileName="Document.java" startLine="12" startPosition="0" endLine="90" endPosition="0" unitName="jetbrains.mps.xml.deprecated.structure.Document" />
+</debugInfo>
+
