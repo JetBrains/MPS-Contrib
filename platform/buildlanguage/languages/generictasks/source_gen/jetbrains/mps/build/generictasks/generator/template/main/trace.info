@@ -25,7 +25,7 @@
     <scopeInfo nodeId="353793545802704425" fileName="QueriesGenerated.java" startLine="41" startPosition="90" endLine="45" endPosition="63">
       <varInfo nodeId="353793545802704427" varName="newAttr" />
     </scopeInfo>
-    <scopeInfo nodeId="353793545802704424" fileName="QueriesGenerated.java" startLine="40" startPosition="55" endLine="46" endPosition="5">
+    <scopeInfo nodeId="353793545802704424" conceptFqName="jetbrains.mps.baseLanguage.structure.ForeachStatement" fileName="QueriesGenerated.java" startLine="40" startPosition="55" endLine="46" endPosition="5">
       <varInfo nodeId="353793545802704462" varName="attr" />
     </scopeInfo>
     <scopeInfo nodeId="353793545802704417" fileName="QueriesGenerated.java" startLine="39" startPosition="154" endLine="47" endPosition="25">
