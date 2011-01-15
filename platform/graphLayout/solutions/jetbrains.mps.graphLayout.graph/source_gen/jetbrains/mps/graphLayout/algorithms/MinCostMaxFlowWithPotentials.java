@@ -16,7 +16,7 @@ import jetbrains.mps.baseLanguage.closures.runtime._FunctionTypes;
 import java.util.List;
 
 public class MinCostMaxFlowWithPotentials {
-  private static int SHOW_TIME = 1;
+  private static int SHOW_TIME = 0;
 
   public static Map<Edge, Integer> getFlow(Graph graph, Node source, Node target, Map<Edge, Integer> initialCapacity, Map<Edge, Integer> initialCost) {
     double time = System.currentTimeMillis();
@@ -78,12 +78,12 @@ public class MinCostMaxFlowWithPotentials {
         }
       }
     }
-    System.out.println("flow found in " + numIter + " iterations");
     for (Edge edge : SetSequence.fromSet(dummyEdges)) {
       graph.removeEdge(edge);
     }
     if (MinCostMaxFlowWithPotentials.SHOW_TIME > 0) {
       System.out.println("Min cost max flow algorithm on network with " + ListSequence.fromList(graph.getNodes()).count() + " nodes and " + ListSequence.fromList(graph.getEdges()).count() + " edges");
+      System.out.println("flow found in " + numIter + " iterations");
       System.out.println("working time is " + ((System.currentTimeMillis() - time) / 1000) + " seconds");
     }
     return flow;

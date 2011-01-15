@@ -6,7 +6,6 @@
     <classNode dependClassName="jetbrains.mps.generator.template.IfMacroContext" />
     <classNode dependClassName="jetbrains.mps.lang.plugin.behavior.RunConfigCreator_Behavior" />
     <classNode dependClassName="jetbrains.mps.util.Macros" />
-    <classNode dependClassName="jetbrains.mps.smodel.SModel" />
     <classNode dependClassName="jetbrains.mps.smodel.SNodeId" />
     <classNode dependClassName="jetbrains.mps.generator.template.ReferenceMacroContext" />
     <classNode dependClassName="org.apache.commons.lang.StringUtils" />

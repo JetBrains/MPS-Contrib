@@ -12,6 +12,11 @@ public class Dimension {
     this.height = height;
   }
 
+  public Dimension(Dimension dimension) {
+    width = dimension.width;
+    height = dimension.height;
+  }
+
   @Override
   public String toString() {
     return "(" + width + ", " + height + ")";

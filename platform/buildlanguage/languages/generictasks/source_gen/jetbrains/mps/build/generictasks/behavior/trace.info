@@ -17,7 +17,7 @@
     <nodeInfo nodeId="3256972444606070136" conceptFqName="jetbrains.mps.baseLanguage.structure.ReturnStatement" fileName="ITaskDeclaration_Behavior.java" startLine="52" startPosition="79" endLine="53" endPosition="122" />
     <nodeInfo nodeId="4710899751214015620" conceptFqName="jetbrains.mps.baseLanguage.structure.ReturnStatement" fileName="ITaskDeclaration_Behavior.java" startLine="56" startPosition="81" endLine="57" endPosition="17" />
     <nodeInfo nodeId="1190349257898148727" conceptFqName="jetbrains.mps.baseLanguage.structure.ReturnStatement" fileName="ITaskDeclaration_Behavior.java" startLine="60" startPosition="99" endLine="61" endPosition="72" />
-    <nodeInfo nodeId="3256972444606015201" conceptFqName="jetbrains.mps.baseLanguage.structure.InstanceMethodDeclaration" fileName="ITaskDeclaration_Behavior.java" startLine="37" startPosition="80" endLine="41" endPosition="0" />
+    <nodeInfo nodeId="3256972444606015201" conceptFqName="jetbrains.mps.baseLanguage.structure.InstanceMethodDeclaration" propertyString="accept#(Ljetbrains/mps/smodel/SNode;)Z" fileName="ITaskDeclaration_Behavior.java" startLine="37" startPosition="80" endLine="41" endPosition="0" />
     <nodeInfo nodeId="3256972444606015196" conceptFqName="jetbrains.mps.baseLanguage.structure.ReturnStatement" fileName="ITaskDeclaration_Behavior.java" startLine="36" startPosition="112" endLine="41" endPosition="7" />
     <scopeInfo nodeId="1449762848926780418" fileName="ITaskDeclaration_Behavior.java" startLine="24" startPosition="43" endLine="24" endPosition="43" />
     <scopeInfo nodeId="1449762848926780420" fileName="ITaskDeclaration_Behavior.java" startLine="27" startPosition="80" endLine="28" endPosition="64" />
@@ -28,7 +28,7 @@
     <scopeInfo nodeId="4241383766070759086" fileName="ITaskDeclaration_Behavior.java" startLine="52" startPosition="79" endLine="53" endPosition="122" />
     <scopeInfo nodeId="4710899751214010952" fileName="ITaskDeclaration_Behavior.java" startLine="56" startPosition="81" endLine="57" endPosition="17" />
     <scopeInfo nodeId="1190349257898147628" fileName="ITaskDeclaration_Behavior.java" startLine="60" startPosition="99" endLine="61" endPosition="72" />
-    <scopeInfo nodeId="3256972444606015201" fileName="ITaskDeclaration_Behavior.java" startLine="37" startPosition="80" endLine="41" endPosition="0" />
+    <scopeInfo nodeId="3256972444606015201" conceptFqName="jetbrains.mps.baseLanguage.structure.InstanceMethodDeclaration" propertyString="accept#(Ljetbrains/mps/smodel/SNode;)Z" fileName="ITaskDeclaration_Behavior.java" startLine="37" startPosition="80" endLine="41" endPosition="0" />
     <scopeInfo nodeId="1449762848926780441" fileName="ITaskDeclaration_Behavior.java" startLine="35" startPosition="128" endLine="41" endPosition="7">
       <varInfo nodeId="3256972444606015179" varName="nestedTasks" />
     </scopeInfo>
@@ -83,7 +83,7 @@
     <nodeInfo nodeId="353793545802644055" conceptFqName="jetbrains.mps.baseLanguage.structure.ReturnStatement" fileName="TaskCall_Behavior.java" startLine="57" startPosition="78" endLine="58" endPosition="186" />
     <nodeInfo nodeId="353793545802643887" conceptFqName="jetbrains.mps.baseLanguage.structure.IfStatement" fileName="TaskCall_Behavior.java" startLine="22" startPosition="83" endLine="25" endPosition="9" />
     <nodeInfo nodeId="353793545802643926" conceptFqName="jetbrains.mps.baseLanguage.structure.IfStatement" fileName="TaskCall_Behavior.java" startLine="36" startPosition="108" endLine="39" endPosition="7" />
-    <nodeInfo nodeId="5722070778270748673" conceptFqName="jetbrains.mps.baseLanguage.structure.InstanceMethodDeclaration" fileName="TaskCall_Behavior.java" startLine="46" startPosition="89" endLine="50" endPosition="0" />
+    <nodeInfo nodeId="5722070778270748673" conceptFqName="jetbrains.mps.baseLanguage.structure.InstanceMethodDeclaration" propertyString="accept#(Ljetbrains/mps/smodel/SNode;)Z" fileName="TaskCall_Behavior.java" startLine="46" startPosition="89" endLine="50" endPosition="0" />
     <nodeInfo nodeId="353793545802643881" conceptFqName="jetbrains.mps.baseLanguage.structure.IfStatement" fileName="TaskCall_Behavior.java" startLine="21" startPosition="103" endLine="26" endPosition="7" />
     <nodeInfo nodeId="353793545802643920" conceptFqName="jetbrains.mps.baseLanguage.structure.ForeachStatement" fileName="TaskCall_Behavior.java" startLine="35" startPosition="100" endLine="40" endPosition="5" />
     <nodeInfo nodeId="5722070778270748666" conceptFqName="jetbrains.mps.baseLanguage.structure.ReturnStatement" fileName="TaskCall_Behavior.java" startLine="45" startPosition="176" endLine="50" endPosition="7" />
@@ -97,14 +97,14 @@
     <scopeInfo nodeId="353793545802644054" fileName="TaskCall_Behavior.java" startLine="57" startPosition="78" endLine="58" endPosition="186" />
     <scopeInfo nodeId="353793545802643886" fileName="TaskCall_Behavior.java" startLine="22" startPosition="83" endLine="25" endPosition="9" />
     <scopeInfo nodeId="353793545802643925" fileName="TaskCall_Behavior.java" startLine="36" startPosition="108" endLine="39" endPosition="7" />
-    <scopeInfo nodeId="5722070778270748673" fileName="TaskCall_Behavior.java" startLine="46" startPosition="89" endLine="50" endPosition="0" />
+    <scopeInfo nodeId="5722070778270748673" conceptFqName="jetbrains.mps.baseLanguage.structure.InstanceMethodDeclaration" propertyString="accept#(Ljetbrains/mps/smodel/SNode;)Z" fileName="TaskCall_Behavior.java" startLine="46" startPosition="89" endLine="50" endPosition="0" />
     <scopeInfo nodeId="353793545802643880" fileName="TaskCall_Behavior.java" startLine="21" startPosition="103" endLine="26" endPosition="7" />
-    <scopeInfo nodeId="353793545802643920" fileName="TaskCall_Behavior.java" startLine="35" startPosition="100" endLine="40" endPosition="5" />
+    <scopeInfo nodeId="353793545802643920" conceptFqName="jetbrains.mps.baseLanguage.structure.ForeachStatement" fileName="TaskCall_Behavior.java" startLine="35" startPosition="100" endLine="40" endPosition="5" />
     <scopeInfo nodeId="353793545802643919" fileName="TaskCall_Behavior.java" startLine="35" startPosition="100" endLine="41" endPosition="17" />
     <scopeInfo nodeId="353793545802643945" fileName="TaskCall_Behavior.java" startLine="44" startPosition="102" endLine="50" endPosition="7">
       <varInfo nodeId="5722070778270747568" varName="attributeDeclarations" />
     </scopeInfo>
-    <scopeInfo nodeId="353793545802643875" fileName="TaskCall_Behavior.java" startLine="20" startPosition="48" endLine="27" endPosition="5" />
+    <scopeInfo nodeId="353793545802643875" conceptFqName="jetbrains.mps.baseLanguage.structure.ForeachStatement" fileName="TaskCall_Behavior.java" startLine="20" startPosition="48" endLine="27" endPosition="5" />
     <scopeInfo nodeId="353793545802643861" fileName="TaskCall_Behavior.java" startLine="18" startPosition="95" endLine="28" endPosition="16">
       <varInfo nodeId="353793545802643863" varName="node" />
     </scopeInfo>
@@ -184,17 +184,17 @@
     <scopeInfo nodeId="353793545802644119" fileName="BuiltInTaskDeclaration_Behavior.java" startLine="35" startPosition="103" endLine="37" endPosition="18" />
     <scopeInfo nodeId="353793545802644353" fileName="BuiltInTaskDeclaration_Behavior.java" startLine="95" startPosition="92" endLine="97" endPosition="19" />
     <scopeInfo nodeId="353793545802644165" fileName="BuiltInTaskDeclaration_Behavior.java" startLine="50" startPosition="100" endLine="53" endPosition="7" />
-    <scopeInfo nodeId="353793545802644166" fileName="BuiltInTaskDeclaration_Behavior.java" startLine="50" startPosition="100" endLine="53" endPosition="7" />
+    <scopeInfo nodeId="353793545802644166" conceptFqName="jetbrains.mps.baseLanguage.structure.ForeachStatement" fileName="BuiltInTaskDeclaration_Behavior.java" startLine="50" startPosition="100" endLine="53" endPosition="7" />
     <scopeInfo nodeId="353793545802644214" fileName="BuiltInTaskDeclaration_Behavior.java" startLine="63" startPosition="116" endLine="66" endPosition="7" />
     <scopeInfo nodeId="353793545802644311" fileName="BuiltInTaskDeclaration_Behavior.java" startLine="83" startPosition="120" endLine="86" endPosition="9" />
     <scopeInfo nodeId="353793545802644113" fileName="BuiltInTaskDeclaration_Behavior.java" startLine="34" startPosition="64" endLine="38" endPosition="11" />
-    <scopeInfo nodeId="353793545802644160" fileName="BuiltInTaskDeclaration_Behavior.java" startLine="49" startPosition="48" endLine="54" endPosition="5" />
-    <scopeInfo nodeId="353793545802644209" fileName="BuiltInTaskDeclaration_Behavior.java" startLine="62" startPosition="48" endLine="67" endPosition="5" />
-    <scopeInfo nodeId="353793545802644309" fileName="BuiltInTaskDeclaration_Behavior.java" startLine="82" startPosition="7" endLine="87" endPosition="7" />
-    <scopeInfo nodeId="353793545802644110" fileName="BuiltInTaskDeclaration_Behavior.java" startLine="33" startPosition="30" endLine="39" endPosition="9" />
+    <scopeInfo nodeId="353793545802644160" conceptFqName="jetbrains.mps.baseLanguage.structure.ForeachStatement" fileName="BuiltInTaskDeclaration_Behavior.java" startLine="49" startPosition="48" endLine="54" endPosition="5" />
+    <scopeInfo nodeId="353793545802644209" conceptFqName="jetbrains.mps.baseLanguage.structure.ForeachStatement" fileName="BuiltInTaskDeclaration_Behavior.java" startLine="62" startPosition="48" endLine="67" endPosition="5" />
+    <scopeInfo nodeId="353793545802644309" conceptFqName="jetbrains.mps.baseLanguage.structure.ForeachStatement" fileName="BuiltInTaskDeclaration_Behavior.java" startLine="82" startPosition="7" endLine="87" endPosition="7" />
+    <scopeInfo nodeId="353793545802644110" conceptFqName="jetbrains.mps.baseLanguage.structure.ForeachStatement" fileName="BuiltInTaskDeclaration_Behavior.java" startLine="33" startPosition="30" endLine="39" endPosition="9" />
     <scopeInfo nodeId="353793545802644351" fileName="BuiltInTaskDeclaration_Behavior.java" startLine="94" startPosition="120" endLine="101" endPosition="9" />
     <scopeInfo nodeId="353793545802644345" fileName="BuiltInTaskDeclaration_Behavior.java" startLine="93" startPosition="126" endLine="102" endPosition="7" />
-    <scopeInfo nodeId="353793545802644346" fileName="BuiltInTaskDeclaration_Behavior.java" startLine="93" startPosition="126" endLine="102" endPosition="7" />
+    <scopeInfo nodeId="353793545802644346" conceptFqName="jetbrains.mps.baseLanguage.structure.ForeachStatement" fileName="BuiltInTaskDeclaration_Behavior.java" startLine="93" startPosition="126" endLine="102" endPosition="7" />
     <scopeInfo nodeId="353793545802644105" fileName="BuiltInTaskDeclaration_Behavior.java" startLine="32" startPosition="62" endLine="42" endPosition="9">
       <varInfo nodeId="353793545802644107" varName="found" />
     </scopeInfo>
@@ -204,7 +204,7 @@
     <scopeInfo nodeId="353793545802644202" fileName="BuiltInTaskDeclaration_Behavior.java" startLine="61" startPosition="89" endLine="71" endPosition="18">
       <varInfo nodeId="353793545802644204" varName="result" />
     </scopeInfo>
-    <scopeInfo nodeId="353793545802644102" fileName="BuiltInTaskDeclaration_Behavior.java" startLine="31" startPosition="218" endLine="43" endPosition="7" />
+    <scopeInfo nodeId="353793545802644102" conceptFqName="jetbrains.mps.baseLanguage.structure.ForeachStatement" fileName="BuiltInTaskDeclaration_Behavior.java" startLine="31" startPosition="218" endLine="43" endPosition="7" />
     <scopeInfo nodeId="353793545802644088" fileName="BuiltInTaskDeclaration_Behavior.java" startLine="30" startPosition="281" endLine="43" endPosition="7">
       <varInfo nodeId="353793545802644090" varName="nodes" />
     </scopeInfo>
@@ -245,7 +245,7 @@
       <varInfo nodeId="353793545802854954" varName="ngeneric" />
     </scopeInfo>
     <scopeInfo nodeId="353793545802854946" fileName="PathReference_Behavior.java" startLine="37" startPosition="100" endLine="43" endPosition="9" />
-    <scopeInfo nodeId="353793545802854941" fileName="PathReference_Behavior.java" startLine="36" startPosition="7" endLine="44" endPosition="7" />
+    <scopeInfo nodeId="353793545802854941" conceptFqName="jetbrains.mps.baseLanguage.structure.ForeachStatement" fileName="PathReference_Behavior.java" startLine="36" startPosition="7" endLine="44" endPosition="7" />
     <scopeInfo nodeId="353793545802854923" fileName="PathReference_Behavior.java" startLine="32" startPosition="25" endLine="44" endPosition="7">
       <varInfo nodeId="353793545802854925" varName="path" />
     </scopeInfo>

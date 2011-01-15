@@ -34,7 +34,7 @@ public class MultiTest {
       params[0] = Integer.toString(ListSequence.fromList(myNumNodes).getElement(i));
       params[1] = Integer.toString(ListSequence.fromList(myNumEdges).getElement(i));
       params[2] = Integer.toString(ListSequence.fromList(myNumIter).getElement(i));
-      CurrentOrthogonalFlowLayouterStressTest.main(params);
+      OrthogonalFlowLayouterStressTest.main(params);
     }
   }
 

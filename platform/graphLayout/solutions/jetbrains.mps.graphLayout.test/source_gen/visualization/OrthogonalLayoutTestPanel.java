@@ -5,7 +5,7 @@ package visualization;
 import javax.swing.JPanel;
 import java.awt.Dimension;
 import javax.swing.JTextArea;
-import jetbrains.mps.graphLayout.flowOrthogonalLayout.AbstractOrthogonalFlowLayouter;
+import jetbrains.mps.graphLayout.graphLayout.BasicLayouter;
 import jetbrains.mps.graphLayout.graphLayout.GraphLayout;
 import javax.swing.JTextField;
 import java.awt.GridBagLayout;
@@ -44,9 +44,9 @@ public class OrthogonalLayoutTestPanel extends JPanel {
   private static final int DEFAULT_LABEL_X_SIZE = 100;
   private static final int DEFAULT_LABEL_Y_SIZE = 25;
 
-  private JTextArea myTextArea;
+  protected JTextArea myTextArea;
   private OrthogonalLayoutTestPanel.MyGraphLabel myGraphLabel;
-  protected AbstractOrthogonalFlowLayouter myLayouter;
+  protected BasicLayouter myLayouter;
   protected LayoutPainter myPainter;
   private GraphLayout myCurrentLayout;
   private JTextField myNumEdgesField;
@@ -65,8 +65,9 @@ public class OrthogonalLayoutTestPanel extends JPanel {
   }
 
   protected void initLayout() {
-    myLayouter = new OrthogonalFlowLayouter();
-    myLayouter.setAvoidLabelCrossings(true);
+    OrthogonalFlowLayouter layouter = new OrthogonalFlowLayouter();
+    layouter.setAvoidLabelCrossings(true);
+    myLayouter = layouter;
     myPainter = new LayoutPainter();
   }
 

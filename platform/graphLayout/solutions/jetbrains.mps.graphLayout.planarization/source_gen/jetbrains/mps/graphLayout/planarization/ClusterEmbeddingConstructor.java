@@ -32,8 +32,8 @@ import jetbrains.mps.baseLanguage.tuples.runtime.Tuples;
 import jetbrains.mps.baseLanguage.tuples.runtime.MultiTuple;
 
 public class ClusterEmbeddingConstructor {
-  private static int debugMode = 1;
-  private static int showInfo = 1;
+  private static int debugMode = 0;
+  private static int showInfo = 0;
   private static boolean useSlowFaceFinder = true;
 
   private ClusteredGraph myGraph;
@@ -68,7 +68,7 @@ public class ClusterEmbeddingConstructor {
       return new EmbeddedGraph(myGraph);
     }
     Map<Edge, Edge> invEdgeMap = constructSubclusterGraphEmbedding();
-    if (ClusterEmbeddingConstructor.showInfo > 0) {
+    if (showInfo > 0) {
       System.out.println("for cluster " + myCluster + " border is: " + myClusterBorder);
     }
     myEmbeddedGraph = new EmbeddedGraph(myGraph);
@@ -144,9 +144,9 @@ public class ClusterEmbeddingConstructor {
         for (Edge edge : ListSequence.fromList(subOuterEdgesOrder)) {
           System.out.println("order " + edge + ": " + myHistoryManager.getHistory(edge));
         }
-      }
-      for (Dart dart : ListSequence.fromList(darts)) {
-        System.out.println("dart " + dart + " -> " + MapSequence.fromMap(invEdgeMap).get(dart.getEdge()));
+        for (Dart dart : ListSequence.fromList(darts)) {
+          System.out.println("dart " + dart + " -> " + MapSequence.fromMap(invEdgeMap).get(dart.getEdge()));
+        }
       }
       List<Edge> subclusterBorder = subProcessor.getClusterBorder();
       for (int i = 0; i < ListSequence.fromList(darts).count(); i++) {

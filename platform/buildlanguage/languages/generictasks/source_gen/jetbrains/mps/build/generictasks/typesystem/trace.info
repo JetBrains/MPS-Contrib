@@ -68,7 +68,7 @@
     <scopeInfo nodeId="353793545802854734" fileName="checkParentsOfInterfaceAreInterfaces_NonTypesystemRule.java" startLine="26" startPosition="172" endLine="31" endPosition="9" />
     <scopeInfo nodeId="353793545802854725" fileName="checkParentsOfInterfaceAreInterfaces_NonTypesystemRule.java" startLine="25" startPosition="122" endLine="32" endPosition="7" />
     <scopeInfo nodeId="353793545802854719" fileName="checkParentsOfInterfaceAreInterfaces_NonTypesystemRule.java" startLine="24" startPosition="140" endLine="33" endPosition="5" />
-    <scopeInfo nodeId="353793545802854720" fileName="checkParentsOfInterfaceAreInterfaces_NonTypesystemRule.java" startLine="24" startPosition="140" endLine="33" endPosition="5" />
+    <scopeInfo nodeId="353793545802854720" conceptFqName="jetbrains.mps.baseLanguage.structure.ForeachStatement" fileName="checkParentsOfInterfaceAreInterfaces_NonTypesystemRule.java" startLine="24" startPosition="140" endLine="33" endPosition="5" />
   </root>
   <root nodeId="353793545802854745">
     <nodeInfo nodeId="353793545802854764" conceptFqName="jetbrains.mps.baseLanguage.structure.LocalVariableDeclarationStatement" fileName="checkAttributeValueIsInEnum_NonTypesystemRule.java" startLine="26" startPosition="9" endLine="27" endPosition="56" />
@@ -102,13 +102,13 @@
     <scopeInfo nodeId="353793545802854831" fileName="checkAllRequiredAttributesPresent_NonTypesystemRule.java" startLine="30" startPosition="174" endLine="34" endPosition="18" />
     <scopeInfo nodeId="353793545802854819" fileName="checkAllRequiredAttributesPresent_NonTypesystemRule.java" startLine="29" startPosition="114" endLine="35" endPosition="11" />
     <scopeInfo nodeId="353793545802854845" fileName="checkAllRequiredAttributesPresent_NonTypesystemRule.java" startLine="37" startPosition="23" endLine="43" endPosition="17" />
-    <scopeInfo nodeId="353793545802854814" fileName="checkAllRequiredAttributesPresent_NonTypesystemRule.java" startLine="28" startPosition="30" endLine="36" endPosition="9" />
+    <scopeInfo nodeId="353793545802854814" conceptFqName="jetbrains.mps.baseLanguage.structure.ForeachStatement" fileName="checkAllRequiredAttributesPresent_NonTypesystemRule.java" startLine="28" startPosition="30" endLine="36" endPosition="9" />
     <scopeInfo nodeId="353793545802854809" fileName="checkAllRequiredAttributesPresent_NonTypesystemRule.java" startLine="27" startPosition="87" endLine="44" endPosition="9">
       <varInfo nodeId="353793545802854811" varName="found" />
     </scopeInfo>
     <scopeInfo nodeId="353793545802854804" fileName="checkAllRequiredAttributesPresent_NonTypesystemRule.java" startLine="26" startPosition="194" endLine="45" endPosition="7" />
     <scopeInfo nodeId="353793545802854796" fileName="checkAllRequiredAttributesPresent_NonTypesystemRule.java" startLine="25" startPosition="128" endLine="46" endPosition="5" />
-    <scopeInfo nodeId="353793545802854797" fileName="checkAllRequiredAttributesPresent_NonTypesystemRule.java" startLine="25" startPosition="128" endLine="46" endPosition="5" />
+    <scopeInfo nodeId="353793545802854797" conceptFqName="jetbrains.mps.baseLanguage.structure.ForeachStatement" fileName="checkAllRequiredAttributesPresent_NonTypesystemRule.java" startLine="25" startPosition="128" endLine="46" endPosition="5" />
   </root>
 </debugInfo>
 

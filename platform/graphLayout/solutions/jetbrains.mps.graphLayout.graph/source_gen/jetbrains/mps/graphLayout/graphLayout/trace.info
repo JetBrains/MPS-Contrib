@@ -141,6 +141,229 @@
     <scopeInfo nodeId="3805314409601904086" conceptFqName="jetbrains.mps.baseLanguage.structure.InstanceMethodDeclaration" propertyString="getContainingRectangle#()Ljetbrains/mps/graphLayout/intGeom2D/Rectangle;" fileName="ClusteredGraphLayout.java" startLine="47" startPosition="0" endLine="65" endPosition="0" />
     <unitInfo nodeId="1532165762814218465" fileName="ClusteredGraphLayout.java" startLine="18" startPosition="0" endLine="66" endPosition="0" unitName="jetbrains.mps.graphLayout.graphLayout.ClusteredGraphLayout" />
   </root>
+  <root nodeId="1714301205550511226">
+    <nodeInfo nodeId="1714301205550511301" conceptFqName="jetbrains.mps.baseLanguage.structure.FieldDeclaration" propertyString="myClusterLayouter" fileName="HyperGraphLayouter.java" startLine="23" startPosition="55" endLine="24" endPosition="38" />
+    <nodeInfo nodeId="1714301205550511375" conceptFqName="jetbrains.mps.baseLanguage.structure.FieldDeclaration" propertyString="myClusterMap" fileName="HyperGraphLayouter.java" startLine="24" startPosition="38" endLine="25" endPosition="39" />
+    <nodeInfo nodeId="1714301205550511397" conceptFqName="jetbrains.mps.baseLanguage.structure.FieldDeclaration" propertyString="myNodeMap" fileName="HyperGraphLayouter.java" startLine="25" startPosition="39" endLine="26" endPosition="36" />
+    <nodeInfo nodeId="1714301205550512151" conceptFqName="jetbrains.mps.baseLanguage.structure.FieldDeclaration" propertyString="myEdgeMap" fileName="HyperGraphLayouter.java" startLine="26" startPosition="36" endLine="27" endPosition="36" />
+    <nodeInfo nodeId="1714301205550511446" conceptFqName="jetbrains.mps.baseLanguage.structure.FieldDeclaration" propertyString="myClusteredGraph" fileName="HyperGraphLayouter.java" startLine="27" startPosition="36" endLine="28" endPosition="42" />
+    <nodeInfo nodeId="1714301205550511450" conceptFqName="jetbrains.mps.baseLanguage.structure.FieldDeclaration" propertyString="myInclusionTree" fileName="HyperGraphLayouter.java" startLine="28" startPosition="42" endLine="29" endPosition="31" />
+    <nodeInfo nodeId="1714301205550511457" conceptFqName="jetbrains.mps.baseLanguage.structure.FieldDeclaration" propertyString="myGraph" fileName="HyperGraphLayouter.java" startLine="29" startPosition="31" endLine="30" endPosition="29" />
+    <nodeInfo nodeId="1714301205550511305" conceptFqName="jetbrains.mps.baseLanguage.structure.ExpressionStatement" fileName="HyperGraphLayouter.java" startLine="32" startPosition="56" endLine="33" endPosition="40" />
+    <nodeInfo nodeId="1714301205550512160" conceptFqName="jetbrains.mps.baseLanguage.structure.ExpressionStatement" fileName="HyperGraphLayouter.java" startLine="33" startPosition="40" endLine="34" endPosition="66" />
+    <nodeInfo nodeId="1714301205550512170" conceptFqName="jetbrains.mps.baseLanguage.structure.ExpressionStatement" fileName="HyperGraphLayouter.java" startLine="34" startPosition="66" endLine="35" endPosition="63" />
+    <nodeInfo nodeId="1714301205550512180" conceptFqName="jetbrains.mps.baseLanguage.structure.ExpressionStatement" fileName="HyperGraphLayouter.java" startLine="35" startPosition="63" endLine="36" endPosition="63" />
+    <nodeInfo nodeId="1714301205550511254" conceptFqName="jetbrains.mps.baseLanguage.structure.LocalVariableDeclarationStatement" fileName="HyperGraphLayouter.java" startLine="39" startPosition="55" endLine="40" endPosition="41" />
+    <nodeInfo nodeId="1714301205550511276" conceptFqName="jetbrains.mps.baseLanguage.structure.ThrowStatement" fileName="HyperGraphLayouter.java" startLine="41" startPosition="41" endLine="42" endPosition="65" />
+    <nodeInfo nodeId="1714301205550511462" conceptFqName="jetbrains.mps.baseLanguage.structure.ExpressionStatement" fileName="HyperGraphLayouter.java" startLine="43" startPosition="5" endLine="44" endPosition="35" />
+    <nodeInfo nodeId="1714301205550511543" conceptFqName="jetbrains.mps.baseLanguage.structure.ExpressionStatement" fileName="HyperGraphLayouter.java" startLine="44" startPosition="35" endLine="45" endPosition="44" />
+    <nodeInfo nodeId="1714301205550511551" conceptFqName="jetbrains.mps.baseLanguage.structure.ExpressionStatement" fileName="HyperGraphLayouter.java" startLine="45" startPosition="44" endLine="46" endPosition="58" />
+    <nodeInfo nodeId="1714301205550511579" conceptFqName="jetbrains.mps.baseLanguage.structure.LocalVariableDeclarationStatement" fileName="HyperGraphLayouter.java" startLine="46" startPosition="58" endLine="47" endPosition="34" />
+    <nodeInfo nodeId="1714301205550511559" conceptFqName="jetbrains.mps.baseLanguage.structure.ExpressionStatement" fileName="HyperGraphLayouter.java" startLine="47" startPosition="34" endLine="48" endPosition="27" />
+    <nodeInfo nodeId="1714301205550511568" conceptFqName="jetbrains.mps.baseLanguage.structure.ExpressionStatement" fileName="HyperGraphLayouter.java" startLine="48" startPosition="27" endLine="49" endPosition="74" />
+    <nodeInfo nodeId="1714301205550512237" conceptFqName="jetbrains.mps.baseLanguage.structure.ExpressionStatement" fileName="HyperGraphLayouter.java" startLine="49" startPosition="74" endLine="50" endPosition="21" />
+    <nodeInfo nodeId="1714301205550511743" conceptFqName="jetbrains.mps.baseLanguage.structure.LocalVariableDeclarationStatement" fileName="HyperGraphLayouter.java" startLine="50" startPosition="21" endLine="51" endPosition="64" />
+    <nodeInfo nodeId="1714301205550512002" conceptFqName="jetbrains.mps.baseLanguage.structure.LocalVariableDeclarationStatement" fileName="HyperGraphLayouter.java" startLine="51" startPosition="64" endLine="52" endPosition="67" />
+    <nodeInfo nodeId="1714301205550512024" conceptFqName="jetbrains.mps.baseLanguage.structure.ThrowStatement" fileName="HyperGraphLayouter.java" startLine="53" startPosition="53" endLine="54" endPosition="93" />
+    <nodeInfo nodeId="1714301205550511990" conceptFqName="jetbrains.mps.baseLanguage.structure.LocalVariableDeclarationStatement" fileName="HyperGraphLayouter.java" startLine="55" startPosition="5" endLine="56" endPosition="67" />
+    <nodeInfo nodeId="1714301205550512395" conceptFqName="jetbrains.mps.baseLanguage.structure.ReturnStatement" fileName="HyperGraphLayouter.java" startLine="56" startPosition="67" endLine="57" endPosition="38" />
+    <nodeInfo nodeId="1714301205550514239" conceptFqName="jetbrains.mps.baseLanguage.structure.ReturnStatement" fileName="HyperGraphLayouter.java" startLine="60" startPosition="68" endLine="61" endPosition="16" />
+    <nodeInfo nodeId="1714301205550512339" conceptFqName="jetbrains.mps.baseLanguage.structure.LocalVariableDeclarationStatement" fileName="HyperGraphLayouter.java" startLine="64" startPosition="66" endLine="65" endPosition="55" />
+    <nodeInfo nodeId="1714301205550512346" conceptFqName="jetbrains.mps.baseLanguage.structure.LocalVariableDeclarationStatement" fileName="HyperGraphLayouter.java" startLine="66" startPosition="65" endLine="67" endPosition="63" />
+    <nodeInfo nodeId="1714301205550512353" conceptFqName="jetbrains.mps.baseLanguage.structure.ExpressionStatement" fileName="HyperGraphLayouter.java" startLine="68" startPosition="29" endLine="69" endPosition="71" />
+    <nodeInfo nodeId="1714301205550512367" conceptFqName="jetbrains.mps.baseLanguage.structure.LocalVariableDeclarationStatement" fileName="HyperGraphLayouter.java" startLine="70" startPosition="14" endLine="71" endPosition="67" />
+    <nodeInfo nodeId="1714301205550512372" conceptFqName="jetbrains.mps.baseLanguage.structure.LocalVariableDeclarationStatement" fileName="HyperGraphLayouter.java" startLine="71" startPosition="67" endLine="72" endPosition="69" />
+    <nodeInfo nodeId="1714301205550512379" conceptFqName="jetbrains.mps.baseLanguage.structure.ExpressionStatement" fileName="HyperGraphLayouter.java" startLine="72" startPosition="69" endLine="73" endPosition="87" />
+    <nodeInfo nodeId="1714301205550512405" conceptFqName="jetbrains.mps.baseLanguage.structure.LocalVariableDeclarationStatement" fileName="HyperGraphLayouter.java" startLine="76" startPosition="65" endLine="77" endPosition="89" />
+    <nodeInfo nodeId="1714301205550513346" conceptFqName="jetbrains.mps.baseLanguage.structure.LocalVariableDeclarationStatement" fileName="HyperGraphLayouter.java" startLine="77" startPosition="89" endLine="78" endPosition="37" />
+    <nodeInfo nodeId="1714301205550513341" conceptFqName="jetbrains.mps.baseLanguage.structure.LocalVariableDeclarationStatement" fileName="HyperGraphLayouter.java" startLine="79" startPosition="66" endLine="80" endPosition="59" />
+    <nodeInfo nodeId="1714301205550513361" conceptFqName="jetbrains.mps.baseLanguage.structure.ExpressionStatement" fileName="HyperGraphLayouter.java" startLine="80" startPosition="59" endLine="81" endPosition="46" />
+    <nodeInfo nodeId="1714301205550513369" conceptFqName="jetbrains.mps.baseLanguage.structure.LocalVariableDeclarationStatement" fileName="HyperGraphLayouter.java" startLine="82" startPosition="7" endLine="83" endPosition="37" />
+    <nodeInfo nodeId="1714301205550513377" conceptFqName="jetbrains.mps.baseLanguage.structure.LocalVariableDeclarationStatement" fileName="HyperGraphLayouter.java" startLine="84" startPosition="66" endLine="85" endPosition="59" />
+    <nodeInfo nodeId="1714301205550513401" conceptFqName="jetbrains.mps.baseLanguage.structure.ExpressionStatement" fileName="HyperGraphLayouter.java" startLine="85" startPosition="59" endLine="86" endPosition="122" />
+    <nodeInfo nodeId="1714301205550513420" conceptFqName="jetbrains.mps.baseLanguage.structure.ExpressionStatement" fileName="HyperGraphLayouter.java" startLine="87" startPosition="7" endLine="88" endPosition="44" />
+    <nodeInfo nodeId="1714301205550513441" conceptFqName="jetbrains.mps.baseLanguage.structure.LocalVariableDeclarationStatement" fileName="HyperGraphLayouter.java" startLine="88" startPosition="44" endLine="89" endPosition="92" />
+    <nodeInfo nodeId="1714301205550513461" conceptFqName="jetbrains.mps.baseLanguage.structure.ExpressionStatement" fileName="HyperGraphLayouter.java" startLine="90" startPosition="30" endLine="91" endPosition="52" />
+    <nodeInfo nodeId="1714301205550512402" conceptFqName="jetbrains.mps.baseLanguage.structure.ReturnStatement" fileName="HyperGraphLayouter.java" startLine="93" startPosition="5" endLine="94" endPosition="23" />
+    <nodeInfo nodeId="1714301205550512781" conceptFqName="jetbrains.mps.baseLanguage.structure.LocalVariableDeclarationStatement" fileName="HyperGraphLayouter.java" startLine="97" startPosition="77" endLine="98" endPosition="52" />
+    <nodeInfo nodeId="1714301205550512559" conceptFqName="jetbrains.mps.baseLanguage.structure.LocalVariableDeclarationStatement" fileName="HyperGraphLayouter.java" startLine="98" startPosition="52" endLine="99" endPosition="34" />
+    <nodeInfo nodeId="1714301205550512568" conceptFqName="jetbrains.mps.baseLanguage.structure.LocalVariableDeclarationStatement" fileName="HyperGraphLayouter.java" startLine="99" startPosition="34" endLine="100" endPosition="19" />
+    <nodeInfo nodeId="1714301205550512612" conceptFqName="jetbrains.mps.baseLanguage.structure.LocalVariableDeclarationStatement" fileName="HyperGraphLayouter.java" startLine="100" startPosition="19" endLine="101" endPosition="74" />
+    <nodeInfo nodeId="1714301205550512719" conceptFqName="jetbrains.mps.baseLanguage.structure.ExpressionStatement" fileName="HyperGraphLayouter.java" startLine="103" startPosition="26" endLine="104" endPosition="54" />
+    <nodeInfo nodeId="1714301205550512756" conceptFqName="jetbrains.mps.baseLanguage.structure.ExpressionStatement" fileName="HyperGraphLayouter.java" startLine="106" startPosition="39" endLine="107" endPosition="16" />
+    <nodeInfo nodeId="1714301205550512763" conceptFqName="jetbrains.mps.baseLanguage.structure.ContinueStatement" fileName="HyperGraphLayouter.java" startLine="107" startPosition="16" endLine="108" endPosition="19" />
+    <nodeInfo nodeId="1714301205550512790" conceptFqName="jetbrains.mps.baseLanguage.structure.LocalVariableDeclarationStatement" fileName="HyperGraphLayouter.java" startLine="109" startPosition="9" endLine="110" endPosition="35" />
+    <nodeInfo nodeId="1714301205550513262" conceptFqName="jetbrains.mps.baseLanguage.structure.LocalVariableDeclarationStatement" fileName="HyperGraphLayouter.java" startLine="111" startPosition="39" endLine="112" endPosition="95" />
+    <nodeInfo nodeId="1714301205550513286" conceptFqName="jetbrains.mps.baseLanguage.structure.ExpressionStatement" fileName="HyperGraphLayouter.java" startLine="113" startPosition="28" endLine="114" endPosition="60" />
+    <nodeInfo nodeId="7996097251177422214" conceptFqName="jetbrains.mps.baseLanguage.structure.ExpressionStatement" fileName="HyperGraphLayouter.java" startLine="115" startPosition="35" endLine="116" endPosition="60" />
+    <nodeInfo nodeId="1714301205550513296" conceptFqName="jetbrains.mps.baseLanguage.structure.ExpressionStatement" fileName="HyperGraphLayouter.java" startLine="117" startPosition="13" endLine="118" endPosition="33" />
+    <nodeInfo nodeId="1714301205550513303" conceptFqName="jetbrains.mps.baseLanguage.structure.BreakStatement" fileName="HyperGraphLayouter.java" startLine="118" startPosition="33" endLine="119" endPosition="18" />
+    <nodeInfo nodeId="1714301205550513253" conceptFqName="jetbrains.mps.baseLanguage.structure.ExpressionStatement" fileName="HyperGraphLayouter.java" startLine="120" startPosition="11" endLine="121" endPosition="18" />
+    <nodeInfo nodeId="1714301205550512730" conceptFqName="jetbrains.mps.baseLanguage.structure.ExpressionStatement" fileName="HyperGraphLayouter.java" startLine="122" startPosition="9" endLine="123" endPosition="14" />
+    <nodeInfo nodeId="1714301205550513310" conceptFqName="jetbrains.mps.baseLanguage.structure.ReturnStatement" fileName="HyperGraphLayouter.java" startLine="125" startPosition="5" endLine="126" endPosition="20" />
+    <nodeInfo nodeId="1714301205550512254" conceptFqName="jetbrains.mps.baseLanguage.structure.LocalVariableDeclarationStatement" fileName="HyperGraphLayouter.java" startLine="129" startPosition="64" endLine="130" endPosition="62" />
+    <nodeInfo nodeId="1714301205550512264" conceptFqName="jetbrains.mps.baseLanguage.structure.LocalVariableDeclarationStatement" fileName="HyperGraphLayouter.java" startLine="131" startPosition="65" endLine="132" endPosition="63" />
+    <nodeInfo nodeId="1714301205550512269" conceptFqName="jetbrains.mps.baseLanguage.structure.LocalVariableDeclarationStatement" fileName="HyperGraphLayouter.java" startLine="132" startPosition="63" endLine="133" endPosition="52" />
+    <nodeInfo nodeId="1714301205550512284" conceptFqName="jetbrains.mps.baseLanguage.structure.ExpressionStatement" fileName="HyperGraphLayouter.java" startLine="134" startPosition="45" endLine="135" endPosition="63" />
+    <nodeInfo nodeId="1714301205550512297" conceptFqName="jetbrains.mps.baseLanguage.structure.LocalVariableDeclarationStatement" fileName="HyperGraphLayouter.java" startLine="138" startPosition="65" endLine="139" endPosition="66" />
+    <nodeInfo nodeId="1714301205550512302" conceptFqName="jetbrains.mps.baseLanguage.structure.LocalVariableDeclarationStatement" fileName="HyperGraphLayouter.java" startLine="139" startPosition="66" endLine="140" endPosition="53" />
+    <nodeInfo nodeId="1714301205550512310" conceptFqName="jetbrains.mps.baseLanguage.structure.ExpressionStatement" fileName="HyperGraphLayouter.java" startLine="141" startPosition="25" endLine="142" endPosition="67" />
+    <nodeInfo nodeId="1714301205550512321" conceptFqName="jetbrains.mps.baseLanguage.structure.ReturnStatement" fileName="HyperGraphLayouter.java" startLine="144" startPosition="5" endLine="145" endPosition="23" />
+    <nodeInfo nodeId="1714301205550512200" conceptFqName="jetbrains.mps.baseLanguage.structure.LocalVariableDeclarationStatement" fileName="HyperGraphLayouter.java" startLine="149" startPosition="65" endLine="150" endPosition="141" />
+    <nodeInfo nodeId="1714301205550512212" conceptFqName="jetbrains.mps.baseLanguage.structure.LocalVariableDeclarationStatement" fileName="HyperGraphLayouter.java" startLine="150" startPosition="141" endLine="151" endPosition="141" />
+    <nodeInfo nodeId="1714301205550512224" conceptFqName="jetbrains.mps.baseLanguage.structure.ExpressionStatement" fileName="HyperGraphLayouter.java" startLine="151" startPosition="141" endLine="152" endPosition="89" />
+    <nodeInfo nodeId="1714301205550511408" conceptFqName="jetbrains.mps.baseLanguage.structure.LocalVariableDeclarationStatement" fileName="HyperGraphLayouter.java" startLine="156" startPosition="44" endLine="157" endPosition="48" />
+    <nodeInfo nodeId="1714301205550511427" conceptFqName="jetbrains.mps.baseLanguage.structure.ExpressionStatement" fileName="HyperGraphLayouter.java" startLine="157" startPosition="48" endLine="158" endPosition="57" />
+    <nodeInfo nodeId="1714301205550511352" conceptFqName="jetbrains.mps.baseLanguage.structure.LocalVariableDeclarationStatement" fileName="HyperGraphLayouter.java" startLine="158" startPosition="57" endLine="159" endPosition="52" />
+    <nodeInfo nodeId="1714301205550511444" conceptFqName="jetbrains.mps.baseLanguage.structure.ExpressionStatement" fileName="HyperGraphLayouter.java" startLine="160" startPosition="56" endLine="161" endPosition="30" />
+    <nodeInfo nodeId="1714301205550511477" conceptFqName="jetbrains.mps.baseLanguage.structure.ExpressionStatement" fileName="HyperGraphLayouter.java" startLine="161" startPosition="30" endLine="162" endPosition="85" />
+    <nodeInfo nodeId="1714301205550511508" conceptFqName="jetbrains.mps.baseLanguage.structure.LocalVariableDeclarationStatement" fileName="HyperGraphLayouter.java" startLine="164" startPosition="55" endLine="165" endPosition="52" />
+    <nodeInfo nodeId="1714301205550511519" conceptFqName="jetbrains.mps.baseLanguage.structure.ExpressionStatement" fileName="HyperGraphLayouter.java" startLine="165" startPosition="52" endLine="166" endPosition="57" />
+    <nodeInfo nodeId="1714301205550511532" conceptFqName="jetbrains.mps.baseLanguage.structure.ExpressionStatement" fileName="HyperGraphLayouter.java" startLine="166" startPosition="57" endLine="167" endPosition="59" />
+    <nodeInfo nodeId="1714301205550511263" conceptFqName="jetbrains.mps.baseLanguage.structure.IfStatement" fileName="HyperGraphLayouter.java" startLine="40" startPosition="41" endLine="43" endPosition="5" />
+    <nodeInfo nodeId="1714301205550512011" conceptFqName="jetbrains.mps.baseLanguage.structure.IfStatement" fileName="HyperGraphLayouter.java" startLine="52" startPosition="67" endLine="55" endPosition="5" />
+    <nodeInfo nodeId="1714301205550513434" conceptFqName="jetbrains.mps.baseLanguage.structure.IfStatement" fileName="HyperGraphLayouter.java" startLine="89" startPosition="92" endLine="92" endPosition="7" />
+    <nodeInfo nodeId="7996097251177422198" conceptFqName="jetbrains.mps.baseLanguage.structure.IfStatement" fileName="HyperGraphLayouter.java" startLine="114" startPosition="60" endLine="117" endPosition="13" />
+    <nodeInfo nodeId="1714301205550512275" conceptFqName="jetbrains.mps.baseLanguage.structure.IfStatement" fileName="HyperGraphLayouter.java" startLine="133" startPosition="52" endLine="136" endPosition="7" />
+    <nodeInfo nodeId="1714301205550512308" conceptFqName="jetbrains.mps.baseLanguage.structure.IfStatement" fileName="HyperGraphLayouter.java" startLine="140" startPosition="53" endLine="143" endPosition="7" />
+    <nodeInfo nodeId="1714301205550514233" conceptFqName="jetbrains.mps.baseLanguage.structure.InstanceMethodDeclaration" propertyString="doLayoutConnectedGraph#(Ljetbrains/mps/graphLayout/graphLayout/LayoutInfo;)Ljetbrains/mps/graphLayout/graphLayout/GraphLayout;" fileName="HyperGraphLayouter.java" startLine="59" startPosition="0" endLine="63" endPosition="0" />
+    <nodeInfo nodeId="1714301205550512365" conceptFqName="jetbrains.mps.baseLanguage.structure.BlockStatement" fileName="HyperGraphLayouter.java" startLine="70" startPosition="12" endLine="74" endPosition="7" />
+    <nodeInfo nodeId="1714301205550513315" conceptFqName="jetbrains.mps.baseLanguage.structure.IfStatement" fileName="HyperGraphLayouter.java" startLine="78" startPosition="37" endLine="82" endPosition="7" />
+    <nodeInfo nodeId="1714301205550513375" conceptFqName="jetbrains.mps.baseLanguage.structure.IfStatement" fileName="HyperGraphLayouter.java" startLine="83" startPosition="37" endLine="87" endPosition="7" />
+    <nodeInfo nodeId="1714301205550512737" conceptFqName="jetbrains.mps.baseLanguage.structure.IfStatement" fileName="HyperGraphLayouter.java" startLine="105" startPosition="14" endLine="109" endPosition="9" />
+    <nodeInfo nodeId="1714301205550511439" conceptFqName="jetbrains.mps.baseLanguage.structure.ForeachStatement" fileName="HyperGraphLayouter.java" startLine="159" startPosition="52" endLine="163" endPosition="5" />
+    <nodeInfo nodeId="1714301205550512198" conceptFqName="jetbrains.mps.baseLanguage.structure.ForeachStatement" fileName="HyperGraphLayouter.java" startLine="148" startPosition="28" endLine="153" endPosition="5" />
+    <nodeInfo nodeId="1714301205550511492" conceptFqName="jetbrains.mps.baseLanguage.structure.IfStatement" fileName="HyperGraphLayouter.java" startLine="163" startPosition="5" endLine="168" endPosition="5" />
+    <nodeInfo nodeId="1714301205550511228" conceptFqName="jetbrains.mps.baseLanguage.structure.ConstructorDeclaration" propertyString="HyperGraphLayouter#(Ljetbrains/mps/graphLayout/graphLayout/ILayouter;)V" fileName="HyperGraphLayouter.java" startLine="31" startPosition="0" endLine="37" endPosition="3" />
+    <nodeInfo nodeId="1714301205550512351" conceptFqName="jetbrains.mps.baseLanguage.structure.IfStatement" fileName="HyperGraphLayouter.java" startLine="67" startPosition="63" endLine="74" endPosition="7" />
+    <nodeInfo nodeId="1714301205550512259" conceptFqName="jetbrains.mps.baseLanguage.structure.ForeachStatement" fileName="HyperGraphLayouter.java" startLine="130" startPosition="62" endLine="137" endPosition="5" />
+    <nodeInfo nodeId="1714301205550512292" conceptFqName="jetbrains.mps.baseLanguage.structure.ForeachStatement" fileName="HyperGraphLayouter.java" startLine="137" startPosition="5" endLine="144" endPosition="5" />
+    <nodeInfo nodeId="1714301205550513277" conceptFqName="jetbrains.mps.baseLanguage.structure.IfStatement" fileName="HyperGraphLayouter.java" startLine="112" startPosition="95" endLine="120" endPosition="11" />
+    <nodeInfo nodeId="1714301205550512194" conceptFqName="jetbrains.mps.baseLanguage.structure.InstanceMethodDeclaration" propertyString="copyEdges#()V" fileName="HyperGraphLayouter.java" startLine="147" startPosition="0" endLine="155" endPosition="0" />
+    <nodeInfo nodeId="1714301205550512344" conceptFqName="jetbrains.mps.baseLanguage.structure.ForeachStatement" fileName="HyperGraphLayouter.java" startLine="65" startPosition="55" endLine="75" endPosition="5" />
+    <nodeInfo nodeId="1714301205550512815" conceptFqName="jetbrains.mps.baseLanguage.structure.ForeachStatement" fileName="HyperGraphLayouter.java" startLine="110" startPosition="35" endLine="122" endPosition="9" />
+    <nodeInfo nodeId="1714301205550511342" conceptFqName="jetbrains.mps.baseLanguage.structure.InstanceMethodDeclaration" propertyString="makeClusterGraph#(Ljetbrains/mps/graphLayout/graph/Node;)V" fileName="HyperGraphLayouter.java" startLine="155" startPosition="0" endLine="170" endPosition="0" />
+    <nodeInfo nodeId="1714301205550512389" conceptFqName="jetbrains.mps.baseLanguage.structure.ForeachStatement" fileName="HyperGraphLayouter.java" startLine="75" startPosition="5" endLine="93" endPosition="5" />
+    <nodeInfo nodeId="1714301205550512728" conceptFqName="jetbrains.mps.baseLanguage.structure.BlockStatement" fileName="HyperGraphLayouter.java" startLine="105" startPosition="12" endLine="124" endPosition="7" />
+    <nodeInfo nodeId="1714301205550512249" conceptFqName="jetbrains.mps.baseLanguage.structure.InstanceMethodDeclaration" propertyString="createClusterInfo#(Ljetbrains/mps/graphLayout/graphLayout/ILayoutInfo;)Ljetbrains/mps/graphLayout/graphLayout/LayoutInfo;" fileName="HyperGraphLayouter.java" startLine="128" startPosition="0" endLine="147" endPosition="0" />
+    <nodeInfo nodeId="1714301205550511233" conceptFqName="jetbrains.mps.baseLanguage.structure.InstanceMethodDeclaration" propertyString="doLayout#(Ljetbrains/mps/graphLayout/graphLayout/ILayoutInfo;)Ljetbrains/mps/graphLayout/graphLayout/GraphLayout;" fileName="HyperGraphLayouter.java" startLine="38" startPosition="0" endLine="59" endPosition="0" />
+    <nodeInfo nodeId="1714301205550512710" conceptFqName="jetbrains.mps.baseLanguage.structure.IfStatement" fileName="HyperGraphLayouter.java" startLine="102" startPosition="50" endLine="124" endPosition="7" />
+    <nodeInfo nodeId="1714301205550512693" conceptFqName="jetbrains.mps.baseLanguage.structure.ForeachStatement" fileName="HyperGraphLayouter.java" startLine="101" startPosition="74" endLine="125" endPosition="5" />
+    <nodeInfo nodeId="1714301205550512522" conceptFqName="jetbrains.mps.baseLanguage.structure.InstanceMethodDeclaration" propertyString="cutRouteToBorder#(Ljava/util/List;Ljetbrains/mps/graphLayout/intGeom2D/Rectangle;)Ljava/util/List;" fileName="HyperGraphLayouter.java" startLine="96" startPosition="0" endLine="128" endPosition="0" />
+    <nodeInfo nodeId="1714301205550512334" conceptFqName="jetbrains.mps.baseLanguage.structure.InstanceMethodDeclaration" propertyString="restoreLayout#(Ljetbrains/mps/graphLayout/graphLayout/ClusteredGraphLayout;)Ljetbrains/mps/graphLayout/graphLayout/GraphLayout;" fileName="HyperGraphLayouter.java" startLine="63" startPosition="0" endLine="96" endPosition="0" />
+    <scopeInfo nodeId="1714301205550511264" fileName="HyperGraphLayouter.java" startLine="41" startPosition="41" endLine="42" endPosition="65" />
+    <scopeInfo nodeId="1714301205550512012" fileName="HyperGraphLayouter.java" startLine="53" startPosition="53" endLine="54" endPosition="93" />
+    <scopeInfo nodeId="1714301205550514238" fileName="HyperGraphLayouter.java" startLine="60" startPosition="68" endLine="61" endPosition="16" />
+    <scopeInfo nodeId="1714301205550512352" fileName="HyperGraphLayouter.java" startLine="68" startPosition="29" endLine="69" endPosition="71" />
+    <scopeInfo nodeId="1714301205550513435" fileName="HyperGraphLayouter.java" startLine="90" startPosition="30" endLine="91" endPosition="52" />
+    <scopeInfo nodeId="1714301205550512711" fileName="HyperGraphLayouter.java" startLine="103" startPosition="26" endLine="104" endPosition="54" />
+    <scopeInfo nodeId="7996097251177422199" fileName="HyperGraphLayouter.java" startLine="115" startPosition="35" endLine="116" endPosition="60" />
+    <scopeInfo nodeId="1714301205550512283" fileName="HyperGraphLayouter.java" startLine="134" startPosition="45" endLine="135" endPosition="63" />
+    <scopeInfo nodeId="1714301205550512309" fileName="HyperGraphLayouter.java" startLine="141" startPosition="25" endLine="142" endPosition="67" />
+    <scopeInfo nodeId="1714301205550513316" fileName="HyperGraphLayouter.java" startLine="79" startPosition="66" endLine="81" endPosition="46">
+      <varInfo nodeId="1714301205550513342" varName="rect" />
+    </scopeInfo>
+    <scopeInfo nodeId="1714301205550513376" fileName="HyperGraphLayouter.java" startLine="84" startPosition="66" endLine="86" endPosition="122">
+      <varInfo nodeId="1714301205550513378" varName="rect" />
+    </scopeInfo>
+    <scopeInfo nodeId="1714301205550512738" fileName="HyperGraphLayouter.java" startLine="106" startPosition="39" endLine="108" endPosition="19" />
+    <scopeInfo nodeId="1714301205550511442" fileName="HyperGraphLayouter.java" startLine="160" startPosition="56" endLine="162" endPosition="85" />
+    <scopeInfo nodeId="1714301205550512366" fileName="HyperGraphLayouter.java" startLine="70" startPosition="14" endLine="73" endPosition="87">
+      <varInfo nodeId="1714301205550512332" varName="clusterLayout" />
+      <varInfo nodeId="1714301205550512331" varName="cluster" />
+    </scopeInfo>
+    <scopeInfo nodeId="1714301205550512199" fileName="HyperGraphLayouter.java" startLine="149" startPosition="65" endLine="152" endPosition="89">
+      <varInfo nodeId="1714301205550512192" varName="source" />
+      <varInfo nodeId="1714301205550512193" varName="target" />
+    </scopeInfo>
+    <scopeInfo nodeId="1714301205550511493" fileName="HyperGraphLayouter.java" startLine="164" startPosition="55" endLine="167" endPosition="59">
+      <varInfo nodeId="1714301205550511509" varName="leafNode" />
+    </scopeInfo>
+    <scopeInfo nodeId="1714301205550511231" fileName="HyperGraphLayouter.java" startLine="32" startPosition="56" endLine="36" endPosition="63" />
+    <scopeInfo nodeId="1714301205550514233" conceptFqName="jetbrains.mps.baseLanguage.structure.InstanceMethodDeclaration" propertyString="doLayoutConnectedGraph#(Ljetbrains/mps/graphLayout/graphLayout/LayoutInfo;)Ljetbrains/mps/graphLayout/graphLayout/GraphLayout;" fileName="HyperGraphLayouter.java" startLine="59" startPosition="0" endLine="63" endPosition="0">
+      <varInfo nodeId="1714301205550514236" varName="layoutInfo" />
+    </scopeInfo>
+    <scopeInfo nodeId="1714301205550511439" conceptFqName="jetbrains.mps.baseLanguage.structure.ForeachStatement" fileName="HyperGraphLayouter.java" startLine="159" startPosition="52" endLine="163" endPosition="5" />
+    <scopeInfo nodeId="1714301205550512263" fileName="HyperGraphLayouter.java" startLine="131" startPosition="65" endLine="136" endPosition="7">
+      <varInfo nodeId="1714301205550512243" varName="leafNode" />
+      <varInfo nodeId="1714301205550512242" varName="size" />
+    </scopeInfo>
+    <scopeInfo nodeId="1714301205550512296" fileName="HyperGraphLayouter.java" startLine="138" startPosition="65" endLine="143" endPosition="7">
+      <varInfo nodeId="1714301205550512246" varName="clusterEdge" />
+      <varInfo nodeId="1714301205550512247" varName="size" />
+    </scopeInfo>
+    <scopeInfo nodeId="1714301205550512197" fileName="HyperGraphLayouter.java" startLine="148" startPosition="28" endLine="153" endPosition="5" />
+    <scopeInfo nodeId="1714301205550512198" conceptFqName="jetbrains.mps.baseLanguage.structure.ForeachStatement" fileName="HyperGraphLayouter.java" startLine="148" startPosition="28" endLine="153" endPosition="5" />
+    <scopeInfo nodeId="1714301205550511228" conceptFqName="jetbrains.mps.baseLanguage.structure.ConstructorDeclaration" propertyString="HyperGraphLayouter#(Ljetbrains/mps/graphLayout/graphLayout/ILayouter;)V" fileName="HyperGraphLayouter.java" startLine="31" startPosition="0" endLine="37" endPosition="3">
+      <varInfo nodeId="1714301205550511299" varName="clusterLayouter" />
+    </scopeInfo>
+    <scopeInfo nodeId="1714301205550513278" fileName="HyperGraphLayouter.java" startLine="113" startPosition="28" endLine="119" endPosition="18" />
+    <scopeInfo nodeId="1714301205550512259" conceptFqName="jetbrains.mps.baseLanguage.structure.ForeachStatement" fileName="HyperGraphLayouter.java" startLine="130" startPosition="62" endLine="137" endPosition="5" />
+    <scopeInfo nodeId="1714301205550512292" conceptFqName="jetbrains.mps.baseLanguage.structure.ForeachStatement" fileName="HyperGraphLayouter.java" startLine="137" startPosition="5" endLine="144" endPosition="5" />
+    <scopeInfo nodeId="1714301205550512345" fileName="HyperGraphLayouter.java" startLine="66" startPosition="65" endLine="74" endPosition="7">
+      <varInfo nodeId="1714301205550512330" varName="leafNode" />
+    </scopeInfo>
+    <scopeInfo nodeId="1714301205550512194" conceptFqName="jetbrains.mps.baseLanguage.structure.InstanceMethodDeclaration" propertyString="copyEdges#()V" fileName="HyperGraphLayouter.java" startLine="147" startPosition="0" endLine="155" endPosition="0" />
+    <scopeInfo nodeId="1714301205550512344" conceptFqName="jetbrains.mps.baseLanguage.structure.ForeachStatement" fileName="HyperGraphLayouter.java" startLine="65" startPosition="55" endLine="75" endPosition="5" />
+    <scopeInfo nodeId="1714301205550512816" fileName="HyperGraphLayouter.java" startLine="111" startPosition="39" endLine="121" endPosition="18">
+      <varInfo nodeId="1714301205550513263" varName="res" />
+    </scopeInfo>
+    <scopeInfo nodeId="1714301205550512815" conceptFqName="jetbrains.mps.baseLanguage.structure.ForeachStatement" fileName="HyperGraphLayouter.java" startLine="110" startPosition="35" endLine="122" endPosition="9">
+      <varInfo nodeId="1714301205550512818" varName="bq" />
+    </scopeInfo>
+    <scopeInfo nodeId="1714301205550511345" fileName="HyperGraphLayouter.java" startLine="156" startPosition="44" endLine="168" endPosition="5">
+      <varInfo nodeId="1714301205550511353" varName="children" />
+      <varInfo nodeId="1714301205550511409" varName="cluster" />
+    </scopeInfo>
+    <scopeInfo nodeId="1714301205550511342" conceptFqName="jetbrains.mps.baseLanguage.structure.InstanceMethodDeclaration" propertyString="makeClusterGraph#(Ljetbrains/mps/graphLayout/graph/Node;)V" fileName="HyperGraphLayouter.java" startLine="155" startPosition="0" endLine="170" endPosition="0">
+      <varInfo nodeId="1714301205550511347" varName="node" />
+    </scopeInfo>
+    <scopeInfo nodeId="1714301205550512394" fileName="HyperGraphLayouter.java" startLine="76" startPosition="65" endLine="92" endPosition="7">
+      <varInfo nodeId="1714301205550513347" varName="source" />
+      <varInfo nodeId="1714301205550512406" varName="route" />
+      <varInfo nodeId="1714301205550513442" varName="labelRect" />
+      <varInfo nodeId="1714301205550513370" varName="target" />
+    </scopeInfo>
+    <scopeInfo nodeId="1714301205550512253" fileName="HyperGraphLayouter.java" startLine="129" startPosition="64" endLine="145" endPosition="23">
+      <varInfo nodeId="1714301205550512244" varName="clusterInfo" />
+    </scopeInfo>
+    <scopeInfo nodeId="1714301205550511238" fileName="HyperGraphLayouter.java" startLine="39" startPosition="55" endLine="57" endPosition="38">
+      <varInfo nodeId="1714301205550512003" varName="ilayout" />
+      <varInfo nodeId="1714301205550511255" varName="graph" />
+      <varInfo nodeId="1714301205550511580" varName="root" />
+      <varInfo nodeId="1714301205550511991" varName="layout" />
+      <varInfo nodeId="1714301205550511744" varName="clusterInfo" />
+    </scopeInfo>
+    <scopeInfo nodeId="1714301205550512389" conceptFqName="jetbrains.mps.baseLanguage.structure.ForeachStatement" fileName="HyperGraphLayouter.java" startLine="75" startPosition="5" endLine="93" endPosition="5" />
+    <scopeInfo nodeId="1714301205550512729" fileName="HyperGraphLayouter.java" startLine="105" startPosition="14" endLine="123" endPosition="14">
+      <varInfo nodeId="1714301205550512791" varName="bp" />
+    </scopeInfo>
+    <scopeInfo nodeId="1714301205550512249" conceptFqName="jetbrains.mps.baseLanguage.structure.InstanceMethodDeclaration" propertyString="createClusterInfo#(Ljetbrains/mps/graphLayout/graphLayout/ILayoutInfo;)Ljetbrains/mps/graphLayout/graphLayout/LayoutInfo;" fileName="HyperGraphLayouter.java" startLine="128" startPosition="0" endLine="147" endPosition="0">
+      <varInfo nodeId="1714301205550512248" varName="layoutInfo" />
+    </scopeInfo>
+    <scopeInfo nodeId="1714301205550511233" conceptFqName="jetbrains.mps.baseLanguage.structure.InstanceMethodDeclaration" propertyString="doLayout#(Ljetbrains/mps/graphLayout/graphLayout/ILayoutInfo;)Ljetbrains/mps/graphLayout/graphLayout/GraphLayout;" fileName="HyperGraphLayouter.java" startLine="38" startPosition="0" endLine="59" endPosition="0">
+      <varInfo nodeId="1714301205550511236" varName="layoutInfo" />
+    </scopeInfo>
+    <scopeInfo nodeId="1714301205550512696" fileName="HyperGraphLayouter.java" startLine="102" startPosition="50" endLine="124" endPosition="7" />
+    <scopeInfo nodeId="1714301205550512693" conceptFqName="jetbrains.mps.baseLanguage.structure.ForeachStatement" fileName="HyperGraphLayouter.java" startLine="101" startPosition="74" endLine="125" endPosition="5" />
+    <scopeInfo nodeId="1714301205550512525" fileName="HyperGraphLayouter.java" startLine="97" startPosition="77" endLine="126" endPosition="20">
+      <varInfo nodeId="1714301205550512613" varName="newRoute" />
+      <varInfo nodeId="1714301205550512782" varName="cornerPoints" />
+      <varInfo nodeId="1714301205550512560" varName="foundOnBorder" />
+      <varInfo nodeId="1714301205550512569" varName="p" />
+    </scopeInfo>
+    <scopeInfo nodeId="1714301205550512338" fileName="HyperGraphLayouter.java" startLine="64" startPosition="66" endLine="94" endPosition="23">
+      <varInfo nodeId="1714301205550512329" varName="graphLayout" />
+    </scopeInfo>
+    <scopeInfo nodeId="1714301205550512522" conceptFqName="jetbrains.mps.baseLanguage.structure.InstanceMethodDeclaration" propertyString="cutRouteToBorder#(Ljava/util/List;Ljetbrains/mps/graphLayout/intGeom2D/Rectangle;)Ljava/util/List;" fileName="HyperGraphLayouter.java" startLine="96" startPosition="0" endLine="128" endPosition="0">
+      <varInfo nodeId="1714301205550512527" varName="route" />
+      <varInfo nodeId="1714301205550512531" varName="border" />
+    </scopeInfo>
+    <scopeInfo nodeId="1714301205550512334" conceptFqName="jetbrains.mps.baseLanguage.structure.InstanceMethodDeclaration" propertyString="restoreLayout#(Ljetbrains/mps/graphLayout/graphLayout/ClusteredGraphLayout;)Ljetbrains/mps/graphLayout/graphLayout/GraphLayout;" fileName="HyperGraphLayouter.java" startLine="63" startPosition="0" endLine="96" endPosition="0">
+      <varInfo nodeId="1714301205550512333" varName="layout" />
+    </scopeInfo>
+    <unitInfo nodeId="1714301205550511226" fileName="HyperGraphLayouter.java" startLine="23" startPosition="0" endLine="171" endPosition="0" unitName="jetbrains.mps.graphLayout.graphLayout.HyperGraphLayouter" />
+  </root>
   <root nodeId="194249616896430087">
     <nodeInfo nodeId="194249616896430095" conceptFqName="jetbrains.mps.baseLanguage.structure.FieldDeclaration" propertyString="myGraph" fileName="LayoutInfo.java" startLine="16" startPosition="48" endLine="17" endPosition="24" />
     <nodeInfo nodeId="194249616896430099" conceptFqName="jetbrains.mps.baseLanguage.structure.FieldDeclaration" propertyString="myNodeSizes" fileName="LayoutInfo.java" startLine="17" startPosition="24" endLine="18" endPosition="43" />

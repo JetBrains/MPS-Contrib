@@ -16,7 +16,7 @@ import jetbrains.mps.baseLanguage.closures.runtime._FunctionTypes;
 import java.util.List;
 
 public class MinCostMaxFlow {
-  private static int SHOW_TIME = 1;
+  private static int SHOW_TIME = 0;
 
   public static Map<Edge, Integer> getFlow(Graph graph, Node source, Node target, Map<Edge, Integer> initialCapacity, Map<Edge, Integer> cost) {
     double time = System.currentTimeMillis();
