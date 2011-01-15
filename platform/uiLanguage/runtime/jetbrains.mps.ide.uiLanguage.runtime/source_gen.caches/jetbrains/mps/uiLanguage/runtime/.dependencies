@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<dependenciesRoot>
+  <dependency className="jetbrains.mps.uiLanguage.runtime.FlowPanel" file="FlowPanel.java">
+    <classNode dependClassName="java.awt.FlowLayout" />
+    <classNode extendsClassName="javax.swing.JPanel" />
+  </dependency>
+  <dependency className="jetbrains.mps.uiLanguage.runtime.HBoxPanel" file="HBoxPanel.java">
+    <classNode dependClassName="javax.swing.BoxLayout" />
+    <classNode extendsClassName="javax.swing.JPanel" />
+  </dependency>
+  <dependency className="jetbrains.mps.uiLanguage.runtime.SimpleListModel" file="SimpleListModel.java">
+    <classNode dependClassName="java.lang.Iterable" />
+    <classNode dependClassName="java.lang.Object" />
+    <classNode extendsClassName="javax.swing.DefaultListModel" />
+  </dependency>
+  <dependency className="jetbrains.mps.uiLanguage.runtime.VBoxPanel" file="VBoxPanel.java">
+    <classNode dependClassName="javax.swing.BoxLayout" />
+    <classNode extendsClassName="javax.swing.JPanel" />
+  </dependency>
+  <dependency className="jetbrains.mps.uiLanguage.runtime.ValueWrapper" file="ValueWrapper.java" />
+</dependenciesRoot>
+
