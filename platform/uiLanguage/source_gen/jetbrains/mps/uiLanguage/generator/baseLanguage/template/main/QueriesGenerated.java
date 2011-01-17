@@ -8,13 +8,13 @@ import jetbrains.mps.lang.smodel.generator.smodelAdapter.SNodeOperations;
 import jetbrains.mps.baseLanguage.classifiers.behavior.ThisClassifierExpression_Behavior;
 import jetbrains.mps.lang.smodel.generator.smodelAdapter.SLinkOperations;
 import jetbrains.mps.smodel.SNode;
-import jetbrains.mps.internal.collections.runtime.ListSequence;
 import jetbrains.mps.generator.template.PropertyMacroContext;
 import jetbrains.mps.lang.smodel.generator.smodelAdapter.SPropertyOperations;
 import jetbrains.mps.util.NameUtil;
 import jetbrains.mps.uiLanguage.behavior.BindExpression_Behavior;
 import jetbrains.mps.uiLanguage.behavior.ComponentDeclaration_Behavior;
 import jetbrains.mps.uiLanguage.behavior.BeanDeclaration_Behavior;
+import jetbrains.mps.internal.collections.runtime.ListSequence;
 import jetbrains.mps.uiLanguage.behavior.StubCellRendererInfo_Behavior;
 import jetbrains.mps.uiLanguage.behavior.InlineRenderer_Behavior;
 import jetbrains.mps.generator.template.ReferenceMacroContext;
@@ -23,8 +23,10 @@ import jetbrains.mps.generator.template.IfMacroContext;
 import jetbrains.mps.uiLanguage.behavior.IComponentInstance_Behavior;
 import jetbrains.mps.generator.template.SourceSubstituteMacroNodeContext;
 import jetbrains.mps.generator.template.SourceSubstituteMacroNodesContext;
+import jetbrains.mps.lang.smodel.generator.smodelAdapter.SModelOperations;
 import jetbrains.mps.internal.collections.runtime.IWhereFilter;
-import jetbrains.mps.generator.template.WeavingMappingRuleContext;
+import jetbrains.mps.internal.collections.runtime.ITranslator2;
+import jetbrains.mps.internal.collections.runtime.Sequence;
 
 public class QueriesGenerated {
   public static boolean baseMappingRule_Condition_1210700777737(final IOperationContext operationContext, final BaseMappingRuleContext _context) {
@@ -68,10 +70,6 @@ public class QueriesGenerated {
       return false;
     }
     return true;
-  }
-
-  public static boolean baseMappingRule_Condition_1209660507860(final IOperationContext operationContext, final BaseMappingRuleContext _context) {
-    return SLinkOperations.getTarget(_context.getNode(), "initializer", true) != null && ListSequence.fromList(SLinkOperations.getTargets(SLinkOperations.getTarget(_context.getNode(), "initializer", true), "statement", true)).isNotEmpty();
   }
 
   public static boolean baseMappingRule_Condition_1209822624568(final IOperationContext operationContext, final BaseMappingRuleContext _context) {
@@ -490,6 +488,35 @@ public class QueriesGenerated {
     return ComponentDeclaration_Behavior.call_getDeclaredAttributes_1213877495390(_context.getNode());
   }
 
+  public static Iterable sourceNodesQuery_2011805327139382626(final IOperationContext operationContext, final SourceSubstituteMacroNodesContext _context) {
+    return ListSequence.fromList(SModelOperations.getRoots(_context.getInputModel(), "jetbrains.mps.uiLanguage.structure.ComponentController")).where(new IWhereFilter<SNode>() {
+      public boolean accept(SNode it) {
+        return eq_x583g4_a0a0a0a0a0a0a701(SLinkOperations.getTarget(it, "component", false), _context.getNode());
+      }
+    }).<SNode>translate(new ITranslator2<SNode, SNode>() {
+      public Iterable<SNode> translate(SNode it) {
+        return SLinkOperations.getTargets(it, "event", true);
+      }
+    });
+  }
+
+  public static Iterable sourceNodesQuery_2011805327139382743(final IOperationContext operationContext, final SourceSubstituteMacroNodesContext _context) {
+    Iterable<SNode> allEvents = ListSequence.fromList(SModelOperations.getRoots(_context.getInputModel(), "jetbrains.mps.uiLanguage.structure.ComponentController")).where(new IWhereFilter<SNode>() {
+      public boolean accept(SNode it) {
+        return eq_x583g4_a0a0a0a0a0a0a0ee(SLinkOperations.getTarget(it, "component", false), _context.getNode());
+      }
+    }).<SNode>translate(new ITranslator2<SNode, SNode>() {
+      public Iterable<SNode> translate(SNode it) {
+        return SLinkOperations.getTargets(it, "event", true);
+      }
+    });
+    return Sequence.fromIterable(allEvents).where(new IWhereFilter<SNode>() {
+      public boolean accept(SNode it) {
+        return SLinkOperations.getTarget(it, "initializer", true) != null && ListSequence.fromList(SLinkOperations.getTargets(SLinkOperations.getTarget(it, "initializer", true), "statement", true)).isNotEmpty();
+      }
+    });
+  }
+
   public static Iterable sourceNodesQuery_1202478250130(final IOperationContext operationContext, final SourceSubstituteMacroNodesContext _context) {
     return ListSequence.fromList(SNodeOperations.getDescendants(_context.getNode(), "jetbrains.mps.uiLanguage.structure.AttributeValue", true, new String[]{})).where(new IWhereFilter<SNode>() {
       public boolean accept(SNode it) {
@@ -562,11 +589,17 @@ public class QueriesGenerated {
     return SLinkOperations.getTargets(ListSequence.fromList(SLinkOperations.getTargets(StubCellRendererInfo_Behavior.call_getInterface_1213877358391(InlineRenderer_Behavior.call_getRendererInfoNode_1213877298464(_context.getNode())), "method", true)).first(), "parameter", true);
   }
 
-  public static SNode weaving_MappingRule_ContextNodeQuery_1209660923538(final IOperationContext opereationContext, final WeavingMappingRuleContext _context) {
-    return _context.getOutputNodeByInputNodeAndMappingLabel(SLinkOperations.getTarget(SNodeOperations.getAncestor(_context.getNode(), "jetbrains.mps.uiLanguage.structure.ComponentController", false, false), "component", false), "eventsInitializer");
+  private static boolean eq_x583g4_a0a0a0a0a0a0a701(Object a, Object b) {
+    return (a != null ?
+      a.equals(b) :
+      a == b
+    );
   }
 
-  public static SNode weaving_MappingRule_ContextNodeQuery_1208699801315(final IOperationContext opereationContext, final WeavingMappingRuleContext _context) {
-    return _context.getOutputNodeByInputNodeAndMappingLabel(SLinkOperations.getTarget(SNodeOperations.getAncestor(_context.getNode(), "jetbrains.mps.uiLanguage.structure.ComponentController", false, false), "component", false), "eventsConstructor");
+  private static boolean eq_x583g4_a0a0a0a0a0a0a0ee(Object a, Object b) {
+    return (a != null ?
+      a.equals(b) :
+      a == b
+    );
   }
 }
