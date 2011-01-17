@@ -3,20 +3,7 @@
   <dependency className="jetbrains.mps.graphLayout.util.DefaultFilter" file="DefaultFilter.java">
     <classNode extendsClassName="jetbrains.mps.graphLayout.util.Filter" />
   </dependency>
-  <dependency className="jetbrains.mps.graphLayout.util.Direction2D" file="Direction2D.java" />
   <dependency className="jetbrains.mps.graphLayout.util.Filter" file="Filter.java" />
-  <dependency className="jetbrains.mps.graphLayout.util.GeomUtil" file="GeomUtil.java">
-    <classNode dependClassName="jetbrains.mps.graphLayout.util.Direction2D" />
-    <classNode dependClassName="java.util.List" />
-    <classNode dependClassName="jetbrains.mps.graphLayout.intGeom2D.Point" />
-    <classNode dependClassName="jetbrains.mps.internal.collections.runtime.MapSequence" />
-    <classNode dependClassName="jetbrains.mps.graphLayout.intGeom2D.Rectangle" />
-    <classNode dependClassName="jetbrains.mps.internal.collections.runtime.ListSequence" />
-    <classNode dependClassName="java.util.Map" />
-    <classNode dependClassName="java.lang.Integer" />
-    <classNode dependClassName="java.lang.Math" />
-    <classNode dependClassName="java.util.ArrayList" />
-  </dependency>
   <dependency className="jetbrains.mps.graphLayout.util.NodeMap" file="NodeMap.java">
     <classNode dependClassName="java.lang.String" />
     <classNode dependClassName="jetbrains.mps.internal.collections.runtime.SetSequence" />

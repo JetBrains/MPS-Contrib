@@ -14,8 +14,9 @@ import java.util.HashMap;
 import java.util.Set;
 import jetbrains.mps.internal.collections.runtime.SetSequence;
 import jetbrains.mps.internal.collections.runtime.ListSequence;
-import jetbrains.mps.graphLayout.util.GeomUtil;
+import jetbrains.mps.graphLayout.intGeom2D.OrthogonalUtil;
 import jetbrains.mps.internal.collections.runtime.Sequence;
+import jetbrains.mps.graphLayout.intGeom2D.GeomUtil;
 
 public class GraphLayout implements IGraphLayout {
   private IGraph myGraph;
@@ -117,12 +118,12 @@ public class GraphLayout implements IGraphLayout {
   public void shiftEdgeLayoutAlongEndsBorder(IEdge edge) {
     Rectangle rect = MapSequence.fromMap(myNodeLayout).get(edge.getSource());
     List<Point> path = MapSequence.fromMap(myEdgeLayout).get(edge);
-    Point p = GeomUtil.moveToBorder(rect, ListSequence.fromList(path).getElement(0), ListSequence.fromList(path).getElement(1));
+    Point p = OrthogonalUtil.moveToBorder(rect, ListSequence.fromList(path).getElement(0), ListSequence.fromList(path).getElement(1));
     if (p != null) {
       ListSequence.fromList(path).setElement(0, p);
     }
     rect = MapSequence.fromMap(myNodeLayout).get(edge.getTarget());
-    p = GeomUtil.moveToBorder(rect, ListSequence.fromList(path).getElement(ListSequence.fromList(path).count() - 1), ListSequence.fromList(path).getElement(ListSequence.fromList(path).count() - 2));
+    p = OrthogonalUtil.moveToBorder(rect, ListSequence.fromList(path).getElement(ListSequence.fromList(path).count() - 1), ListSequence.fromList(path).getElement(ListSequence.fromList(path).count() - 2));
     if (p != null) {
       ListSequence.fromList(path).setElement(ListSequence.fromList(path).count() - 1, p);
     }
@@ -173,7 +174,7 @@ public class GraphLayout implements IGraphLayout {
     }
     for (IEdge edge : SetSequence.fromSet(getLayoutedEdges())) {
       List<Point> edgeLayout = getEdgeLayout(edge);
-      List<Point> newList = jetbrains.mps.graphLayout.intGeom2D.GeomUtil.shiftPolyline(edgeLayout, xShift, yShift);
+      List<Point> newList = GeomUtil.shiftPolyline(edgeLayout, xShift, yShift);
       newLayout.setLayoutFor(edge, newList);
     }
     for (IEdge edge : SetSequence.fromSet(getLayoutedLabels())) {

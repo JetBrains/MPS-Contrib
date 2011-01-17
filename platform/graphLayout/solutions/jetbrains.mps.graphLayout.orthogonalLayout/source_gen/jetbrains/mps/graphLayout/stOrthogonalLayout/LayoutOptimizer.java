@@ -11,7 +11,8 @@ import java.util.List;
 import jetbrains.mps.graphLayout.intGeom2D.Point;
 import jetbrains.mps.internal.collections.runtime.ListSequence;
 import java.util.ArrayList;
-import jetbrains.mps.graphLayout.util.GeomUtil;
+import jetbrains.mps.graphLayout.intGeom2D.Util1D;
+import jetbrains.mps.graphLayout.intGeom2D.GeomUtil;
 import jetbrains.mps.graphLayout.intGeom2D.Rectangle;
 import jetbrains.mps.graphLayout.graph.INode;
 import jetbrains.mps.graphLayout.graph.Node;
@@ -57,9 +58,9 @@ public class LayoutOptimizer {
     boolean verMid = ListSequence.fromList(chain).getElement(1).x == ListSequence.fromList(chain).getElement(2).x;
     boolean zLike;
     if (verMid) {
-      zLike = GeomUtil.insideOpenSegment(ListSequence.fromList(chain).getElement(0).x, ListSequence.fromList(chain).getElement(3).x, ListSequence.fromList(chain).getElement(1).x);
+      zLike = Util1D.insideOpenSegment(ListSequence.fromList(chain).getElement(0).x, ListSequence.fromList(chain).getElement(3).x, ListSequence.fromList(chain).getElement(1).x);
     } else {
-      zLike = GeomUtil.insideOpenSegment(ListSequence.fromList(chain).getElement(0).y, ListSequence.fromList(chain).getElement(3).y, ListSequence.fromList(chain).getElement(1).y);
+      zLike = Util1D.insideOpenSegment(ListSequence.fromList(chain).getElement(0).y, ListSequence.fromList(chain).getElement(3).y, ListSequence.fromList(chain).getElement(1).y);
     }
     if (zLike) {
       if (testRect(GeomUtil.getRectangle(ListSequence.fromList(chain).getElement(0), ListSequence.fromList(chain).getElement(2)), edge)) {
@@ -125,7 +126,7 @@ public class LayoutOptimizer {
       }
     }
     for (Rectangle labelRect : Sequence.fromIterable(MapSequence.fromMap(myLayout.getLabelLayout()).values())) {
-      if (GeomUtil.intersects(labelRect.x, labelRect.x + labelRect.width, rect.x, rect.x + rect.width) && GeomUtil.intersects(labelRect.y, labelRect.y + labelRect.height, rect.y, rect.y + rect.height)) {
+      if (Util1D.intersects(labelRect.x, labelRect.x + labelRect.width, rect.x, rect.x + rect.width) && Util1D.intersects(labelRect.y, labelRect.y + labelRect.height, rect.y, rect.y + rect.height)) {
         return false;
       }
     }
@@ -133,8 +134,8 @@ public class LayoutOptimizer {
   }
 
   private boolean isInsideAndNotACorner(int x, int y, Rectangle rect) {
-    boolean insideX = GeomUtil.insideClosedSegment(rect.x, rect.x + rect.width, x);
-    boolean insideY = GeomUtil.insideClosedSegment(rect.y, rect.y + rect.height, y);
+    boolean insideX = Util1D.insideClosedSegment(rect.x, rect.x + rect.width, x);
+    boolean insideY = Util1D.insideClosedSegment(rect.y, rect.y + rect.height, y);
     if (insideX && insideY) {
       boolean notX = x != rect.x && x != rect.x + rect.width;
       boolean notY = y != rect.y && y != rect.y + rect.height;

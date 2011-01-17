@@ -23,7 +23,10 @@ public class Rectangle {
     height = rect.height;
   }
 
-  public boolean intersectsLine(Point p1, Point p2) {
+  public boolean intersectsSegment(Point p1, Point p2) {
+    if (contains(p1) || contains(p2)) {
+      return true;
+    }
     Point[] points = getCornerPoints();
     boolean intersects = false;
     for (int i = 0; i < points.length; i++) {
@@ -69,6 +72,14 @@ public class Rectangle {
 
   public int maxY() {
     return y + height;
+  }
+
+  public int size(Direction2D dir) {
+    if (dir.isHorizontal()) {
+      return width;
+    } else {
+      return height;
+    }
   }
 
   @Override

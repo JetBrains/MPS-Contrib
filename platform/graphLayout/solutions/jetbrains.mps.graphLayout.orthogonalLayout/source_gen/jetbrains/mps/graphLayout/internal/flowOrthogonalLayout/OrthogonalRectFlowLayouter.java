@@ -27,9 +27,9 @@ import jetbrains.mps.graphLayout.intGeom2D.Rectangle;
 import jetbrains.mps.graphLayout.intGeom2D.Point;
 import jetbrains.mps.graphLayout.planarGraph.Dart;
 import jetbrains.mps.graphLayout.flowOrthogonalLayout.OrthogonalRepresentation;
-import jetbrains.mps.graphLayout.util.Direction2D;
+import jetbrains.mps.graphLayout.intGeom2D.Direction2D;
 import jetbrains.mps.internal.collections.runtime.SetSequence;
-import jetbrains.mps.graphLayout.util.GeomUtil;
+import jetbrains.mps.graphLayout.intGeom2D.GeomUtil;
 import jetbrains.mps.internal.collections.runtime.backports.LinkedList;
 
 public class OrthogonalRectFlowLayouter {

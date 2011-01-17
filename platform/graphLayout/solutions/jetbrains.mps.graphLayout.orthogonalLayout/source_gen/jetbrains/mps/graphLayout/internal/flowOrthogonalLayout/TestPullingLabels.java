@@ -15,14 +15,15 @@ import jetbrains.mps.graphLayout.intGeom2D.Rectangle;
 import java.util.List;
 import jetbrains.mps.graphLayout.intGeom2D.Point;
 import jetbrains.mps.internal.collections.runtime.ListSequence;
-import jetbrains.mps.graphLayout.util.Direction2D;
-import jetbrains.mps.graphLayout.util.GeomUtil;
+import jetbrains.mps.graphLayout.intGeom2D.Direction2D;
+import jetbrains.mps.graphLayout.intGeom2D.OrthogonalUtil;
 import jetbrains.mps.graphLayout.graph.INode;
 import jetbrains.mps.graphLayout.graph.IEdge;
 import jetbrains.mps.graphLayout.graphLayout.GraphLayoutFactory;
 import java.util.Set;
 import java.util.HashSet;
 import jetbrains.mps.internal.collections.runtime.backports.LinkedList;
+import jetbrains.mps.graphLayout.intGeom2D.Util1D;
 
 public class TestPullingLabels {
   private int myUnitLength = 20;
@@ -57,7 +58,7 @@ public class TestPullingLabels {
     Point first = ListSequence.fromList(path).getElement(middle);
     Point second = ListSequence.fromList(path).getElement(middle + 1);
     Point center = new Point((first.x + second.x) / 2, (first.y + second.y) / 2);
-    Direction2D dir = GeomUtil.getDirection(first, second);
+    Direction2D dir = OrthogonalUtil.getDirection(first, second);
     int width = labelSize.width;
     int height = labelSize.height;
     if (dir.isVertical()) {
@@ -89,7 +90,7 @@ public class TestPullingLabels {
     int minDist = Integer.MAX_VALUE;
     for (INode node : SetSequence.fromSet(MapSequence.fromMap(layout.getNodeLayout()).keySet())) {
       Rectangle nodeRect = layout.getNodeLayout(node);
-      Point[] points = GeomUtil.getCornerPoints(nodeRect);
+      Point[] points = nodeRect.getCornerPoints();
       for (Point point : points) {
         if (rect.contains(point)) {
           minDist = Math.min(minDist, getDist(rect, point, dir));
@@ -98,7 +99,7 @@ public class TestPullingLabels {
     }
     for (IEdge edge : SetSequence.fromSet(MapSequence.fromMap(layout.getLabelLayout()).keySet())) {
       Rectangle nodeRect = layout.getLabelLayout(edge);
-      Point[] points = GeomUtil.getCornerPoints(nodeRect);
+      Point[] points = nodeRect.getCornerPoints();
       for (Point point : points) {
         if (rect.contains(point)) {
           minDist = Math.min(minDist, getDist(rect, point, dir));
@@ -193,12 +194,12 @@ public class TestPullingLabels {
     int dx = direction.dx();
     int dy = direction.dy();
     if (direction.isHorizontal()) {
-      if (GeomUtil.getDirection(center.x, point.x) != dx) {
+      if (Util1D.getDirection(center.x, point.x) != dx) {
         return new Point(point);
       }
     }
     if (direction.isVertical()) {
-      if (GeomUtil.getDirection(center.y, point.y) != dy) {
+      if (Util1D.getDirection(center.y, point.y) != dy) {
         return new Point(point);
       }
     }
@@ -213,11 +214,11 @@ public class TestPullingLabels {
     boolean eq1;
     boolean eq2;
     if (direction.isHorizontal()) {
-      eq1 = GeomUtil.getDirection(center.x, rect.x) != dx;
-      eq2 = GeomUtil.getDirection(center.x, rect.x + rect.width) != dx;
+      eq1 = Util1D.getDirection(center.x, rect.x) != dx;
+      eq2 = Util1D.getDirection(center.x, rect.x + rect.width) != dx;
     } else {
-      eq1 = GeomUtil.getDirection(center.y, rect.y) != dy;
-      eq2 = GeomUtil.getDirection(center.y, rect.y + rect.height) != dy;
+      eq1 = Util1D.getDirection(center.y, rect.y) != dy;
+      eq2 = Util1D.getDirection(center.y, rect.y + rect.height) != dy;
     }
     boolean notShift;
     if (alongEdge) {
@@ -248,10 +249,10 @@ public class TestPullingLabels {
   private Direction2D getStartDirection(GraphLayout layout, Node node, Edge edge) {
     List<Point> path = layout.getEdgeLayout(edge);
     if (node == edge.getSource()) {
-      return GeomUtil.getDirection(ListSequence.fromList(path).getElement(0), ListSequence.fromList(path).getElement(1));
+      return OrthogonalUtil.getDirection(ListSequence.fromList(path).getElement(0), ListSequence.fromList(path).getElement(1));
     } else {
       int last = ListSequence.fromList(path).count() - 1;
-      return GeomUtil.getDirection(ListSequence.fromList(path).getElement(last), ListSequence.fromList(path).getElement(last - 1));
+      return OrthogonalUtil.getDirection(ListSequence.fromList(path).getElement(last), ListSequence.fromList(path).getElement(last - 1));
     }
   }
 }

@@ -23,10 +23,10 @@ import jetbrains.mps.baseLanguage.tuples.runtime.Tuples;
 import jetbrains.mps.graphLayout.planarGraph.Face;
 import java.util.Set;
 import java.util.HashSet;
-import jetbrains.mps.graphLayout.util.Direction2D;
+import jetbrains.mps.graphLayout.intGeom2D.Direction2D;
 import jetbrains.mps.graphLayout.intGeom2D.Point;
 import jetbrains.mps.graphLayout.intGeom2D.Rectangle;
-import jetbrains.mps.graphLayout.util.GeomUtil;
+import jetbrains.mps.graphLayout.intGeom2D.Util1D;
 import jetbrains.mps.graphLayout.graphLayout.GraphLayoutFactory;
 import jetbrains.mps.internal.collections.runtime.backports.LinkedList;
 
@@ -63,8 +63,11 @@ public class OrthogonalFlowLayouter extends AbstractOrthogonalFlowLayouter {
       }
     }
     QuasiOrthogonalRepresentation orthogonalRepresentation = new QuasiOrthogonalRepresentation();
-    orthogonalRepresentation.setRealEdges(myRealEdges);
-    orthogonalRepresentation.setRealNodes(myRealNodes);
+    if (getUseRepresentationOptimizations()) {
+      orthogonalRepresentation.setRealEdges(myRealEdges);
+      orthogonalRepresentation.setRealNodes(myRealNodes);
+      orthogonalRepresentation.setStraightEdges(myStraightEdges);
+    }
     Tuples._2<Map<Dart, Integer>, Map<Dart, Integer>> pair = orthogonalRepresentation.getRepresentation(embeddedGraph);
     bends = pair._0();
     angles = pair._1();
@@ -237,7 +240,7 @@ public class OrthogonalFlowLayouter extends AbstractOrthogonalFlowLayouter {
           Point sourcePoint = MapSequence.fromMap(coordinates).get(graphEdge.getSource());
           Point targetPoint = MapSequence.fromMap(coordinates).get(graphEdge.getTarget());
           if (isHorizontal) {
-            boolean isIntersecting = GeomUtil.insideClosedSegment(sourcePoint.x, targetPoint.x, rect.x) && GeomUtil.insideClosedSegment(sourcePoint.x, targetPoint.x, rect.x + rect.width);
+            boolean isIntersecting = Util1D.insideClosedSegment(sourcePoint.x, targetPoint.x, rect.x) && Util1D.insideClosedSegment(sourcePoint.x, targetPoint.x, rect.x + rect.width);
             int dist = rect.y + rect.height - sourcePoint.y;
             if (isIntersecting && dist < rect.height) {
               Edge constraintEdge = constraintsGraph.addConstraintEdge(center, graphEdge.getSource(), Direction2D.UP);
@@ -245,7 +248,7 @@ public class OrthogonalFlowLayouter extends AbstractOrthogonalFlowLayouter {
 
             }
           } else {
-            boolean isIntersecting = GeomUtil.insideClosedSegment(sourcePoint.y, targetPoint.y, rect.y) && GeomUtil.insideClosedSegment(sourcePoint.y, targetPoint.y, rect.y + rect.height);
+            boolean isIntersecting = Util1D.insideClosedSegment(sourcePoint.y, targetPoint.y, rect.y) && Util1D.insideClosedSegment(sourcePoint.y, targetPoint.y, rect.y + rect.height);
             int dist = rect.x + rect.width - sourcePoint.x;
             if (isIntersecting && dist < rect.width) {
               Edge constraintEdge = constraintsGraph.addConstraintEdge(center, graphEdge.getSource(), Direction2D.RIGHT);
@@ -271,14 +274,14 @@ public class OrthogonalFlowLayouter extends AbstractOrthogonalFlowLayouter {
         Direction2D dirJ = MapSequence.fromMap(labelDir).get(edgeJ);
         Rectangle rectJ = MapSequence.fromMap(labelRects).get(edgeJ);
         if (rectI.intersects(rectJ)) {
-          int shiftByDirI = GeomUtil.width(rectJ, dirI) + GeomUtil.width(rectI, dirI);
-          int shiftByDirJ = GeomUtil.width(rectJ, dirJ) + GeomUtil.width(rectI, dirJ);
+          int shiftByDirI = rectJ.size(dirI) + rectI.size(dirI);
+          int shiftByDirJ = rectJ.size(dirJ) + rectI.size(dirJ);
           if (shiftByDirJ < shiftByDirI) {
             Edge constraintEdge = constraintsGraph.addConstraintEdge(MapSequence.fromMap(labelCenters).get(edgeJ), MapSequence.fromMap(labelCenters).get(edgeI), dirJ);
-            MapSequence.fromMap(constraintEdgeLengths).put(constraintEdge, shiftByDirJ - GeomUtil.width(rectI, dirJ) / 2 + LABEL_DIST);
+            MapSequence.fromMap(constraintEdgeLengths).put(constraintEdge, shiftByDirJ - rectI.size(dirJ) / 2 + LABEL_DIST);
           } else {
             Edge constraintEdge = constraintsGraph.addConstraintEdge(MapSequence.fromMap(labelCenters).get(edgeI), MapSequence.fromMap(labelCenters).get(edgeJ), dirI);
-            MapSequence.fromMap(constraintEdgeLengths).put(constraintEdge, shiftByDirI - GeomUtil.width(rectJ, dirI) / 2 + LABEL_DIST);
+            MapSequence.fromMap(constraintEdgeLengths).put(constraintEdge, shiftByDirI - rectJ.size(dirI) / 2 + LABEL_DIST);
           }
         }
       }

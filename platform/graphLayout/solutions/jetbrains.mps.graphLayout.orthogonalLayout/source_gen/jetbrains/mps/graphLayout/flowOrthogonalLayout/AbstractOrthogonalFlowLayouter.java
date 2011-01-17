@@ -33,20 +33,22 @@ import java.util.ArrayList;
 import jetbrains.mps.graphLayout.planarGraph.Face;
 import jetbrains.mps.graphLayout.planarization.IEmbeddingFinder;
 import jetbrains.mps.graphLayout.planarization.EmbeddingFinderFactory;
-import jetbrains.mps.graphLayout.util.Direction2D;
+import jetbrains.mps.graphLayout.intGeom2D.Direction2D;
 import jetbrains.mps.graphLayout.planarGraph.Dart;
-import jetbrains.mps.graphLayout.util.GeomUtil;
 import java.util.Iterator;
 
 public abstract class AbstractOrthogonalFlowLayouter extends BasicLayouter {
   protected static int SHOW_INFO = 0;
 
   private boolean myAvoidLabelCrossings;
+  private boolean myUseRepresentationOptimizations;
   protected Set<Edge> myRealEdges;
   protected Set<Node> myRealNodes;
+  protected Set<Edge> myStraightEdges;
 
   public AbstractOrthogonalFlowLayouter() {
     myAvoidLabelCrossings = true;
+    myUseRepresentationOptimizations = true;
   }
 
   public GraphLayout doLayoutConnectedGraph(LayoutInfo layoutInfo) {
@@ -69,6 +71,7 @@ public abstract class AbstractOrthogonalFlowLayouter extends BasicLayouter {
   }
 
   private GraphLayout getLayoutCorruptGraph(LayoutInfo layoutInfo) {
+    myStraightEdges = null;
     Graph graph = layoutInfo.getGraph();
     if (graph.getNumNodes() == 1) {
       GraphLayout layout = this.getSingleNodeLayout(graph, layoutInfo);
@@ -247,10 +250,10 @@ public abstract class AbstractOrthogonalFlowLayouter extends BasicLayouter {
     Node node = modification.getSource();
     Direction2D dartsDir;
     if (firstEdge.getSource() == node) {
-      dartsDir = GeomUtil.getDirection(ListSequence.fromList(path).getElement(0), ListSequence.fromList(path).getElement(1));
+      dartsDir = OrthogonalUtil.getDirection(ListSequence.fromList(path).getElement(0), ListSequence.fromList(path).getElement(1));
     } else {
       int last = ListSequence.fromList(path).count() - 1;
-      dartsDir = GeomUtil.getDirection(ListSequence.fromList(path).getElement(last), ListSequence.fromList(path).getElement(last - 1));
+      dartsDir = OrthogonalUtil.getDirection(ListSequence.fromList(path).getElement(last), ListSequence.fromList(path).getElement(last - 1));
     }
     Direction2D shiftDir = dartsDir.turnClockwise(3);
     int dx = shiftDir.dx();
@@ -279,5 +282,13 @@ public abstract class AbstractOrthogonalFlowLayouter extends BasicLayouter {
 
   public void setAvoidLabelCrossings(boolean avoidLabelCrossings) {
     myAvoidLabelCrossings = avoidLabelCrossings;
+  }
+
+  public boolean getUseRepresentationOptimizations() {
+    return myUseRepresentationOptimizations;
+  }
+
+  public void setUseRepresentationOptimizations(boolean useRepresentationOptimizations) {
+    myUseRepresentationOptimizations = useRepresentationOptimizations;
   }
 }

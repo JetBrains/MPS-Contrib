@@ -30,7 +30,7 @@ import jetbrains.mps.graphLayout.planarGraph.Dart;
 import jetbrains.mps.graphLayout.algorithms.GraphOrientation;
 import jetbrains.mps.graphLayout.planarGraph.STPlanarGraph;
 import jetbrains.mps.graphLayout.intGeom2D.Point;
-import jetbrains.mps.graphLayout.util.GeomUtil;
+import jetbrains.mps.graphLayout.intGeom2D.OrthogonalUtil;
 import jetbrains.mps.internal.collections.runtime.IWhereFilter;
 import jetbrains.mps.graphLayout.graph.IEdge;
 import jetbrains.mps.internal.collections.runtime.ISelector;
@@ -242,25 +242,25 @@ public class RectOrthogonalLayouter {
         }
         // during shift edges we can disconnect edge from node 
         Rectangle sourceRect = graphLayout.getNodeLayout(oldEdge.getSource());
-        if (!(GeomUtil.contains(sourceRect, ListSequence.fromList(oldEdgeLayout).first()))) {
+        if (sourceRect.contains(ListSequence.fromList(oldEdgeLayout).first())) {
           ListSequence.fromList(oldEdgeLayout).insertElement(0, sourcePoint);
         }
         Rectangle targetRect = graphLayout.getNodeLayout(oldEdge.getTarget());
-        if (!(GeomUtil.contains(targetRect, ListSequence.fromList(oldEdgeLayout).last()))) {
+        if (targetRect.contains(ListSequence.fromList(oldEdgeLayout).last())) {
           ListSequence.fromList(oldEdgeLayout).addElement(targetPoint);
         }
         // or add point inside a node 
         Point second = ListSequence.fromList(oldEdgeLayout).getElement(1);
-        if (GeomUtil.contains(sourceRect, second)) {
+        if (sourceRect.contains(second)) {
           ListSequence.fromList(oldEdgeLayout).removeElementAt(0);
           ListSequence.fromList(oldEdgeLayout).removeElementAt(0);
-          ListSequence.fromList(oldEdgeLayout).insertElement(0, GeomUtil.findOnBorder(sourceRect, second, ListSequence.fromList(oldEdgeLayout).first()));
+          ListSequence.fromList(oldEdgeLayout).insertElement(0, OrthogonalUtil.findOnBorder(sourceRect, second, ListSequence.fromList(oldEdgeLayout).first()));
         }
         Point beforeLast = ListSequence.fromList(oldEdgeLayout).getElement(ListSequence.fromList(oldEdgeLayout).count() - 2);
-        if (GeomUtil.contains(targetRect, beforeLast)) {
+        if (targetRect.contains(beforeLast)) {
           ListSequence.fromList(oldEdgeLayout).removeLastElement();
           ListSequence.fromList(oldEdgeLayout).removeLastElement();
-          ListSequence.fromList(oldEdgeLayout).addElement(GeomUtil.findOnBorder(targetRect, beforeLast, ListSequence.fromList(oldEdgeLayout).last()));
+          ListSequence.fromList(oldEdgeLayout).addElement(OrthogonalUtil.findOnBorder(targetRect, beforeLast, ListSequence.fromList(oldEdgeLayout).last()));
         }
         graphLayout.setLayoutFor(oldEdge, oldEdgeLayout);
       } else {

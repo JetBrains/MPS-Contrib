@@ -136,7 +136,6 @@ public class GraphIO {
   public static HyperGraph scanHyperGraph(Scanner scanner) {
     HyperGraph graph = new HyperGraph();
     scanGraph(scanner, graph);
-    // node with index 0 was added in graph by constructor 
     int numTreeEdges = scanner.nextInt();
     Set<Node> notRoot = SetSequence.fromSet(new HashSet<Node>());
     for (int i = 0; i < numTreeEdges; i++) {

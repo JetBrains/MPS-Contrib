@@ -22,6 +22,7 @@ import jetbrains.mps.internal.collections.runtime.ListSequence;
 import jetbrains.mps.internal.collections.runtime.backports.LinkedList;
 import jetbrains.mps.graphLayout.planarGraph.EmbeddedGraph;
 import jetbrains.mps.graphLayout.planarization.ClusteredGraphEmbeddingFinder;
+import java.util.HashSet;
 import jetbrains.mps.internal.collections.runtime.Sequence;
 
 public class ClusterOrthogonalFlowLayouter extends OrthogonalFlowLayouter {
@@ -37,6 +38,7 @@ public class ClusterOrthogonalFlowLayouter extends OrthogonalFlowLayouter {
     if (!(graph instanceof ClusteredGraph)) {
       throw new RuntimeException("can layout clustered graph only!!!");
     }
+    setUseRepresentationOptimizations(false);
     return super.doLayout(layoutInfo);
   }
 
@@ -76,6 +78,12 @@ public class ClusterOrthogonalFlowLayouter extends OrthogonalFlowLayouter {
     myClusterBorderMap = embeddingFinder.getClusterBorderMap();
     this.checkClusterBorder(historyManager);
     myHistoryManager = historyManager;
+    /*
+      myStraightEdges = SetSequence.fromSet(new HashSet<Edge>());
+      for (List<Edge> border : Sequence.fromIterable(MapSequence.fromMap(myClusterBorderMap).values())) {
+        SetSequence.fromSet(myStraightEdges).addSequence(ListSequence.fromList(border));
+      }
+    */
     return embeddedGraph;
   }
 

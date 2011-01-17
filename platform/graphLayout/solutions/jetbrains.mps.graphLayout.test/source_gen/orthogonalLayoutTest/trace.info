@@ -286,6 +286,43 @@
     </scopeInfo>
     <scopeInfo nodeId="3263240354041071365" conceptFqName="jetbrains.mps.baseLanguage.structure.InstanceMethodDeclaration" propertyString="test_testSplitEdges#()V" fileName="OrthogonalFlowLayouterConstraints_Test.java" startLine="54" startPosition="0" endLine="66" endPosition="0" />
   </root>
+  <root nodeId="1705599667576642198">
+    <nodeInfo nodeId="1705599667576646649" conceptFqName="jetbrains.mps.baseLanguage.structure.LocalVariableDeclarationStatement" fileName="HyperGraphLayouter_Test.java" startLine="17" startPosition="45" endLine="18" endPosition="60" />
+    <nodeInfo nodeId="1705599667576646660" conceptFqName="jetbrains.mps.baseLanguage.structure.LocalVariableDeclarationStatement" fileName="HyperGraphLayouter_Test.java" startLine="18" startPosition="60" endLine="19" endPosition="72" />
+    <nodeInfo nodeId="1705599667576646671" conceptFqName="jetbrains.mps.baseLanguage.structure.ExpressionStatement" fileName="HyperGraphLayouter_Test.java" startLine="19" startPosition="72" endLine="20" endPosition="16" />
+    <nodeInfo nodeId="1705599667576656881" conceptFqName="jetbrains.mps.baseLanguage.structure.LocalVariableDeclarationStatement" fileName="HyperGraphLayouter_Test.java" startLine="23" startPosition="45" endLine="24" endPosition="50" />
+    <nodeInfo nodeId="1705599667576656885" conceptFqName="jetbrains.mps.baseLanguage.structure.LocalVariableDeclarationStatement" fileName="HyperGraphLayouter_Test.java" startLine="24" startPosition="50" endLine="25" endPosition="72" />
+    <nodeInfo nodeId="1705599667576656892" conceptFqName="jetbrains.mps.baseLanguage.structure.ExpressionStatement" fileName="HyperGraphLayouter_Test.java" startLine="25" startPosition="72" endLine="26" endPosition="16" />
+    <nodeInfo nodeId="1705599667576644017" conceptFqName="jetbrains.mps.baseLanguage.structure.LocalVariableDeclarationStatement" fileName="HyperGraphLayouter_Test.java" startLine="29" startPosition="38" endLine="30" endPosition="50" />
+    <nodeInfo nodeId="1705599667576644826" conceptFqName="jetbrains.mps.baseLanguage.structure.ExpressionStatement" fileName="HyperGraphLayouter_Test.java" startLine="32" startPosition="31" endLine="33" endPosition="60" />
+    <nodeInfo nodeId="1705599667576644843" conceptFqName="jetbrains.mps.baseLanguage.structure.LocalVariableDeclarationStatement" fileName="HyperGraphLayouter_Test.java" startLine="35" startPosition="5" endLine="36" endPosition="94" />
+    <nodeInfo nodeId="1705599667576646637" conceptFqName="jetbrains.mps.baseLanguage.structure.ExpressionStatement" fileName="HyperGraphLayouter_Test.java" startLine="36" startPosition="94" endLine="37" endPosition="34" />
+    <nodeInfo nodeId="1705599667576644035" conceptFqName="jetbrains.mps.baseLanguage.structure.IfStatement" fileName="HyperGraphLayouter_Test.java" startLine="31" startPosition="63" endLine="34" endPosition="7" />
+    <nodeInfo nodeId="1705599667576644025" conceptFqName="jetbrains.mps.baseLanguage.structure.ForeachStatement" fileName="HyperGraphLayouter_Test.java" startLine="30" startPosition="50" endLine="35" endPosition="5" />
+    <nodeInfo nodeId="1705599667576646645" conceptFqName="jetbrains.mps.baseLanguage.structure.InstanceMethodDeclaration" propertyString="test_test1#()V" fileName="HyperGraphLayouter_Test.java" startLine="16" startPosition="55" endLine="22" endPosition="0" />
+    <nodeInfo nodeId="1705599667576656877" conceptFqName="jetbrains.mps.baseLanguage.structure.InstanceMethodDeclaration" propertyString="test_test2#()V" fileName="HyperGraphLayouter_Test.java" startLine="22" startPosition="0" endLine="28" endPosition="0" />
+    <nodeInfo nodeId="1705599667576642205" conceptFqName="jetbrains.mps.baseLanguage.structure.InstanceMethodDeclaration" propertyString="test#(Ljetbrains/mps/graphLayout/graph/HyperGraph;)V" fileName="HyperGraphLayouter_Test.java" startLine="28" startPosition="0" endLine="39" endPosition="0" />
+    <scopeInfo nodeId="1705599667576644037" fileName="HyperGraphLayouter_Test.java" startLine="32" startPosition="31" endLine="33" endPosition="60" />
+    <scopeInfo nodeId="1705599667576646648" fileName="HyperGraphLayouter_Test.java" startLine="17" startPosition="45" endLine="20" endPosition="16">
+      <varInfo nodeId="1705599667576646650" varName="graphString" />
+      <varInfo nodeId="1705599667576646661" varName="graph" />
+    </scopeInfo>
+    <scopeInfo nodeId="1705599667576656880" fileName="HyperGraphLayouter_Test.java" startLine="23" startPosition="45" endLine="26" endPosition="16">
+      <varInfo nodeId="1705599667576656882" varName="graphString" />
+      <varInfo nodeId="1705599667576656886" varName="graph" />
+    </scopeInfo>
+    <scopeInfo nodeId="1705599667576644028" fileName="HyperGraphLayouter_Test.java" startLine="31" startPosition="63" endLine="34" endPosition="7" />
+    <scopeInfo nodeId="1705599667576644025" conceptFqName="jetbrains.mps.baseLanguage.structure.ForeachStatement" fileName="HyperGraphLayouter_Test.java" startLine="30" startPosition="50" endLine="35" endPosition="5" />
+    <scopeInfo nodeId="1705599667576646645" conceptFqName="jetbrains.mps.baseLanguage.structure.InstanceMethodDeclaration" propertyString="test_test1#()V" fileName="HyperGraphLayouter_Test.java" startLine="16" startPosition="55" endLine="22" endPosition="0" />
+    <scopeInfo nodeId="1705599667576656877" conceptFqName="jetbrains.mps.baseLanguage.structure.InstanceMethodDeclaration" propertyString="test_test2#()V" fileName="HyperGraphLayouter_Test.java" startLine="22" startPosition="0" endLine="28" endPosition="0" />
+    <scopeInfo nodeId="1705599667576642208" fileName="HyperGraphLayouter_Test.java" startLine="29" startPosition="38" endLine="37" endPosition="34">
+      <varInfo nodeId="1705599667576644018" varName="layoutInfo" />
+      <varInfo nodeId="1705599667576644844" varName="layouter" />
+    </scopeInfo>
+    <scopeInfo nodeId="1705599667576642205" conceptFqName="jetbrains.mps.baseLanguage.structure.InstanceMethodDeclaration" propertyString="test#(Ljetbrains/mps/graphLayout/graph/HyperGraph;)V" fileName="HyperGraphLayouter_Test.java" startLine="28" startPosition="0" endLine="39" endPosition="0">
+      <varInfo nodeId="1705599667576644007" varName="graph" />
+    </scopeInfo>
+  </root>
   <root nodeId="1795464432008746829">
     <nodeInfo nodeId="1795464432008746910" conceptFqName="jetbrains.mps.baseLanguage.structure.LocalVariableDeclarationStatement" fileName="OrthogonalFlowLayouterNoLabels_Test.java" startLine="17" startPosition="45" endLine="18" endPosition="116" />
     <nodeInfo nodeId="1795464432008746922" conceptFqName="jetbrains.mps.baseLanguage.structure.LocalVariableDeclarationStatement" fileName="OrthogonalFlowLayouterNoLabels_Test.java" startLine="18" startPosition="116" endLine="19" endPosition="49" />

@@ -20,7 +20,7 @@ import java.util.HashSet;
 import jetbrains.mps.baseLanguage.closures.runtime.Wrappers;
 import java.util.ArrayList;
 import jetbrains.mps.internal.collections.runtime.IWhereFilter;
-import jetbrains.mps.graphLayout.util.Direction2D;
+import jetbrains.mps.graphLayout.intGeom2D.Direction2D;
 import jetbrains.mps.graphLayout.algorithms.Dfs;
 import jetbrains.mps.internal.collections.runtime.ISelector;
 

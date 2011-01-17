@@ -79,4 +79,8 @@ public class HyperGraph extends Graph {
   public List<Node> getChildren(Node node) {
     return MapSequence.fromMap(myChildren).get(node);
   }
+
+  public boolean isNode(Node node) {
+    return ListSequence.fromList(MapSequence.fromMap(myChildren).get(node)).count() == 0;
+  }
 }

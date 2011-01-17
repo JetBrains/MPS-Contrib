@@ -64,11 +64,13 @@
     <nodeInfo nodeId="1714301205550416228" conceptFqName="jetbrains.mps.baseLanguage.structure.ReturnStatement" fileName="HyperGraph.java" startLine="71" startPosition="25" endLine="72" endPosition="18" />
     <nodeInfo nodeId="1714301205550416367" conceptFqName="jetbrains.mps.baseLanguage.structure.ReturnStatement" fileName="HyperGraph.java" startLine="75" startPosition="36" endLine="76" endPosition="51" />
     <nodeInfo nodeId="1714301205550416382" conceptFqName="jetbrains.mps.baseLanguage.structure.ReturnStatement" fileName="HyperGraph.java" startLine="79" startPosition="44" endLine="80" endPosition="53" />
+    <nodeInfo nodeId="1705599667576644061" conceptFqName="jetbrains.mps.baseLanguage.structure.ReturnStatement" fileName="HyperGraph.java" startLine="83" startPosition="36" endLine="84" endPosition="89" />
     <nodeInfo nodeId="1714301205550416276" conceptFqName="jetbrains.mps.baseLanguage.structure.IfStatement" fileName="HyperGraph.java" startLine="59" startPosition="61" endLine="62" endPosition="5" />
     <nodeInfo nodeId="1714301205550416316" conceptFqName="jetbrains.mps.baseLanguage.structure.InstanceMethodDeclaration" propertyString="addChild#(Ljetbrains/mps/graphLayout/graph/Node;Ljetbrains/mps/graphLayout/graph/Node;)V" fileName="HyperGraph.java" startLine="66" startPosition="0" endLine="70" endPosition="0" />
     <nodeInfo nodeId="1714301205550416223" conceptFqName="jetbrains.mps.baseLanguage.structure.InstanceMethodDeclaration" propertyString="getRoot#()Ljetbrains/mps/graphLayout/graph/Node;" fileName="HyperGraph.java" startLine="70" startPosition="0" endLine="74" endPosition="0" />
     <nodeInfo nodeId="1714301205550416360" conceptFqName="jetbrains.mps.baseLanguage.structure.InstanceMethodDeclaration" propertyString="getParent#(Ljetbrains/mps/graphLayout/graph/Node;)Ljetbrains/mps/graphLayout/graph/Node;" fileName="HyperGraph.java" startLine="74" startPosition="0" endLine="78" endPosition="0" />
     <nodeInfo nodeId="1714301205550416373" conceptFqName="jetbrains.mps.baseLanguage.structure.InstanceMethodDeclaration" propertyString="getChildren#(Ljetbrains/mps/graphLayout/graph/Node;)Ljava/util/List;" fileName="HyperGraph.java" startLine="78" startPosition="0" endLine="82" endPosition="0" />
+    <nodeInfo nodeId="1705599667576644049" conceptFqName="jetbrains.mps.baseLanguage.structure.InstanceMethodDeclaration" propertyString="isNode#(Ljetbrains/mps/graphLayout/graph/Node;)Z" fileName="HyperGraph.java" startLine="82" startPosition="0" endLine="86" endPosition="0" />
     <nodeInfo nodeId="1714301205550416097" conceptFqName="jetbrains.mps.baseLanguage.structure.InstanceMethodDeclaration" propertyString="createNew#()Ljetbrains/mps/graphLayout/graph/Graph;" fileName="HyperGraph.java" startLine="24" startPosition="0" endLine="29" endPosition="0" />
     <nodeInfo nodeId="1714301205550406761" conceptFqName="jetbrains.mps.baseLanguage.structure.ConstructorDeclaration" propertyString="HyperGraph#()V" fileName="HyperGraph.java" startLine="16" startPosition="0" endLine="23" endPosition="3" />
     <nodeInfo nodeId="1714301205550416139" conceptFqName="jetbrains.mps.baseLanguage.structure.InstanceMethodDeclaration" propertyString="createNode#(Z)Ljetbrains/mps/graphLayout/graph/Node;" fileName="HyperGraph.java" startLine="29" startPosition="0" endLine="36" endPosition="0" />
@@ -82,6 +84,7 @@
     <scopeInfo nodeId="1714301205550416226" fileName="HyperGraph.java" startLine="71" startPosition="25" endLine="72" endPosition="18" />
     <scopeInfo nodeId="1714301205550416363" fileName="HyperGraph.java" startLine="75" startPosition="36" endLine="76" endPosition="51" />
     <scopeInfo nodeId="1714301205550416376" fileName="HyperGraph.java" startLine="79" startPosition="44" endLine="80" endPosition="53" />
+    <scopeInfo nodeId="1705599667576644052" fileName="HyperGraph.java" startLine="83" startPosition="36" endLine="84" endPosition="89" />
     <scopeInfo nodeId="1714301205550416144" fileName="HyperGraph.java" startLine="31" startPosition="46" endLine="34" endPosition="16">
       <varInfo nodeId="1714301205550416150" varName="node" />
     </scopeInfo>
@@ -105,6 +108,9 @@
     <scopeInfo nodeId="1714301205550416373" conceptFqName="jetbrains.mps.baseLanguage.structure.InstanceMethodDeclaration" propertyString="getChildren#(Ljetbrains/mps/graphLayout/graph/Node;)Ljava/util/List;" fileName="HyperGraph.java" startLine="78" startPosition="0" endLine="82" endPosition="0">
       <varInfo nodeId="1714301205550416380" varName="node" />
     </scopeInfo>
+    <scopeInfo nodeId="1705599667576644049" conceptFqName="jetbrains.mps.baseLanguage.structure.InstanceMethodDeclaration" propertyString="isNode#(Ljetbrains/mps/graphLayout/graph/Node;)Z" fileName="HyperGraph.java" startLine="82" startPosition="0" endLine="86" endPosition="0">
+      <varInfo nodeId="1705599667576644059" varName="node" />
+    </scopeInfo>
     <scopeInfo nodeId="1714301205550406764" fileName="HyperGraph.java" startLine="17" startPosition="23" endLine="22" endPosition="95" />
     <scopeInfo nodeId="1714301205550416097" conceptFqName="jetbrains.mps.baseLanguage.structure.InstanceMethodDeclaration" propertyString="createNew#()Ljetbrains/mps/graphLayout/graph/Graph;" fileName="HyperGraph.java" startLine="24" startPosition="0" endLine="29" endPosition="0" />
     <scopeInfo nodeId="1714301205550416200" fileName="HyperGraph.java" startLine="58" startPosition="49" endLine="64" endPosition="88">
@@ -123,7 +129,7 @@
       <varInfo nodeId="1714301205550416201" varName="node" />
       <varInfo nodeId="1714301205550416203" varName="parent" />
     </scopeInfo>
-    <unitInfo nodeId="1714301205550406759" fileName="HyperGraph.java" startLine="12" startPosition="0" endLine="83" endPosition="0" unitName="jetbrains.mps.graphLayout.graph.HyperGraph" />
+    <unitInfo nodeId="1714301205550406759" fileName="HyperGraph.java" startLine="12" startPosition="0" endLine="87" endPosition="0" unitName="jetbrains.mps.graphLayout.graph.HyperGraph" />
   </root>
   <root nodeId="1795464432008814207">
     <nodeInfo nodeId="1795464432008814231" conceptFqName="jetbrains.mps.baseLanguage.structure.FieldDeclaration" propertyString="myStage" fileName="CreationStageManager.java" startLine="10" startPosition="73" endLine="11" endPosition="22" />

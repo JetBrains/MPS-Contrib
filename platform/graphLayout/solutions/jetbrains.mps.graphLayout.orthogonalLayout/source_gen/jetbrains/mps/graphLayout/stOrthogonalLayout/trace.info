@@ -165,193 +165,193 @@
     <unitInfo nodeId="5213231752900665239" fileName="OrthogonalLayouter.java" startLine="27" startPosition="0" endLine="80" endPosition="0" unitName="jetbrains.mps.graphLayout.stOrthogonalLayout.OrthogonalLayouter" />
   </root>
   <root nodeId="6494745554568982379">
-    <nodeInfo nodeId="6494745554568987856" conceptFqName="jetbrains.mps.baseLanguage.structure.FieldDeclaration" propertyString="myLayout" fileName="LayoutOptimizer.java" startLine="20" startPosition="30" endLine="21" endPosition="31" />
-    <nodeInfo nodeId="6494745554568987860" conceptFqName="jetbrains.mps.baseLanguage.structure.ExpressionStatement" fileName="LayoutOptimizer.java" startLine="23" startPosition="47" endLine="24" endPosition="22" />
-    <nodeInfo nodeId="6494745554568987902" conceptFqName="jetbrains.mps.baseLanguage.structure.LocalVariableDeclarationStatement" fileName="LayoutOptimizer.java" startLine="27" startPosition="27" endLine="28" endPosition="33" />
-    <nodeInfo nodeId="5639900666367102561" conceptFqName="jetbrains.mps.baseLanguage.structure.ExpressionStatement" fileName="LayoutOptimizer.java" startLine="29" startPosition="27" endLine="30" endPosition="28" />
-    <nodeInfo nodeId="5639900666367175432" conceptFqName="jetbrains.mps.baseLanguage.structure.ExpressionStatement" fileName="LayoutOptimizer.java" startLine="30" startPosition="28" endLine="31" endPosition="34" />
-    <nodeInfo nodeId="2913448412765282844" conceptFqName="jetbrains.mps.baseLanguage.structure.LocalVariableDeclarationStatement" fileName="LayoutOptimizer.java" startLine="32" startPosition="102" endLine="33" endPosition="36" />
-    <nodeInfo nodeId="6494745554568988205" conceptFqName="jetbrains.mps.baseLanguage.structure.LocalVariableDeclarationStatement" fileName="LayoutOptimizer.java" startLine="33" startPosition="36" endLine="34" endPosition="56" />
-    <nodeInfo nodeId="6494745554568988224" conceptFqName="jetbrains.mps.baseLanguage.structure.LocalVariableDeclarationStatement" fileName="LayoutOptimizer.java" startLine="35" startPosition="75" endLine="36" endPosition="76" />
-    <nodeInfo nodeId="6494745554568988231" conceptFqName="jetbrains.mps.baseLanguage.structure.ExpressionStatement" fileName="LayoutOptimizer.java" startLine="36" startPosition="76" endLine="37" endPosition="93" />
-    <nodeInfo nodeId="6494745554568988238" conceptFqName="jetbrains.mps.baseLanguage.structure.ExpressionStatement" fileName="LayoutOptimizer.java" startLine="37" startPosition="93" endLine="38" endPosition="97" />
-    <nodeInfo nodeId="6494745554568988247" conceptFqName="jetbrains.mps.baseLanguage.structure.ExpressionStatement" fileName="LayoutOptimizer.java" startLine="38" startPosition="97" endLine="39" endPosition="97" />
-    <nodeInfo nodeId="6494745554568988256" conceptFqName="jetbrains.mps.baseLanguage.structure.ExpressionStatement" fileName="LayoutOptimizer.java" startLine="39" startPosition="97" endLine="40" endPosition="97" />
-    <nodeInfo nodeId="5639900666367221824" conceptFqName="jetbrains.mps.baseLanguage.structure.LocalVariableDeclarationStatement" fileName="LayoutOptimizer.java" startLine="40" startPosition="97" endLine="41" endPosition="57" />
-    <nodeInfo nodeId="5639900666367102578" conceptFqName="jetbrains.mps.baseLanguage.structure.ExpressionStatement" fileName="LayoutOptimizer.java" startLine="42" startPosition="33" endLine="43" endPosition="33" />
-    <nodeInfo nodeId="5639900666367102585" conceptFqName="jetbrains.mps.baseLanguage.structure.LocalVariableDeclarationStatement" fileName="LayoutOptimizer.java" startLine="43" startPosition="33" endLine="44" endPosition="77" />
-    <nodeInfo nodeId="5639900666367102595" conceptFqName="jetbrains.mps.baseLanguage.structure.ExpressionStatement" fileName="LayoutOptimizer.java" startLine="44" startPosition="77" endLine="45" endPosition="103" />
-    <nodeInfo nodeId="5639900666367102616" conceptFqName="jetbrains.mps.baseLanguage.structure.ExpressionStatement" fileName="LayoutOptimizer.java" startLine="45" startPosition="103" endLine="46" endPosition="85" />
-    <nodeInfo nodeId="5639900666367102628" conceptFqName="jetbrains.mps.baseLanguage.structure.ExpressionStatement" fileName="LayoutOptimizer.java" startLine="46" startPosition="85" endLine="47" endPosition="141" />
-    <nodeInfo nodeId="5639900666367103963" conceptFqName="jetbrains.mps.baseLanguage.structure.ExpressionStatement" fileName="LayoutOptimizer.java" startLine="47" startPosition="141" endLine="48" endPosition="46" />
-    <nodeInfo nodeId="5639900666367176752" conceptFqName="jetbrains.mps.baseLanguage.structure.BreakStatement" fileName="LayoutOptimizer.java" startLine="48" startPosition="46" endLine="49" endPosition="18" />
-    <nodeInfo nodeId="5639900666367221288" conceptFqName="jetbrains.mps.baseLanguage.structure.LocalVariableDeclarationStatement" fileName="LayoutOptimizer.java" startLine="56" startPosition="62" endLine="57" endPosition="114" />
-    <nodeInfo nodeId="5639900666367221317" conceptFqName="jetbrains.mps.baseLanguage.structure.LocalVariableDeclarationStatement" fileName="LayoutOptimizer.java" startLine="57" startPosition="114" endLine="58" endPosition="18" />
-    <nodeInfo nodeId="5639900666367221326" conceptFqName="jetbrains.mps.baseLanguage.structure.ExpressionStatement" fileName="LayoutOptimizer.java" startLine="59" startPosition="17" endLine="60" endPosition="179" />
-    <nodeInfo nodeId="5639900666367221450" conceptFqName="jetbrains.mps.baseLanguage.structure.ExpressionStatement" fileName="LayoutOptimizer.java" startLine="61" startPosition="12" endLine="62" endPosition="179" />
-    <nodeInfo nodeId="5639900666367221712" conceptFqName="jetbrains.mps.baseLanguage.structure.ReturnStatement" fileName="LayoutOptimizer.java" startLine="65" startPosition="138" endLine="66" endPosition="156" />
-    <nodeInfo nodeId="5639900666367221790" conceptFqName="jetbrains.mps.baseLanguage.structure.ReturnStatement" fileName="LayoutOptimizer.java" startLine="68" startPosition="138" endLine="69" endPosition="194" />
-    <nodeInfo nodeId="5639900666367283889" conceptFqName="jetbrains.mps.baseLanguage.structure.LocalVariableDeclarationStatement" fileName="LayoutOptimizer.java" startLine="71" startPosition="12" endLine="72" endPosition="134" />
-    <nodeInfo nodeId="5639900666367283909" conceptFqName="jetbrains.mps.baseLanguage.structure.LocalVariableDeclarationStatement" fileName="LayoutOptimizer.java" startLine="72" startPosition="134" endLine="73" endPosition="135" />
-    <nodeInfo nodeId="5639900666367283923" conceptFqName="jetbrains.mps.baseLanguage.structure.LocalVariableDeclarationStatement" fileName="LayoutOptimizer.java" startLine="73" startPosition="135" endLine="74" endPosition="90" />
-    <nodeInfo nodeId="5639900666367283972" conceptFqName="jetbrains.mps.baseLanguage.structure.ReturnStatement" fileName="LayoutOptimizer.java" startLine="76" startPosition="36" endLine="77" endPosition="158" />
-    <nodeInfo nodeId="5639900666367284019" conceptFqName="jetbrains.mps.baseLanguage.structure.ReturnStatement" fileName="LayoutOptimizer.java" startLine="80" startPosition="37" endLine="81" endPosition="196" />
-    <nodeInfo nodeId="5639900666367221809" conceptFqName="jetbrains.mps.baseLanguage.structure.ReturnStatement" fileName="LayoutOptimizer.java" startLine="84" startPosition="5" endLine="85" endPosition="16" />
-    <nodeInfo nodeId="5639900666367221621" conceptFqName="jetbrains.mps.baseLanguage.structure.LocalVariableDeclarationStatement" fileName="LayoutOptimizer.java" startLine="88" startPosition="66" endLine="89" endPosition="70" />
-    <nodeInfo nodeId="5639900666367221631" conceptFqName="jetbrains.mps.baseLanguage.structure.ExpressionStatement" fileName="LayoutOptimizer.java" startLine="89" startPosition="70" endLine="90" endPosition="51" />
-    <nodeInfo nodeId="5639900666367221661" conceptFqName="jetbrains.mps.baseLanguage.structure.ExpressionStatement" fileName="LayoutOptimizer.java" startLine="91" startPosition="25" endLine="92" endPosition="73" />
-    <nodeInfo nodeId="5639900666367221687" conceptFqName="jetbrains.mps.baseLanguage.structure.ExpressionStatement" fileName="LayoutOptimizer.java" startLine="93" startPosition="12" endLine="94" endPosition="73" />
-    <nodeInfo nodeId="5639900666367221702" conceptFqName="jetbrains.mps.baseLanguage.structure.ExpressionStatement" fileName="LayoutOptimizer.java" startLine="95" startPosition="5" endLine="96" endPosition="49" />
-    <nodeInfo nodeId="5639900666367221709" conceptFqName="jetbrains.mps.baseLanguage.structure.ReturnStatement" fileName="LayoutOptimizer.java" startLine="96" startPosition="49" endLine="97" endPosition="17" />
-    <nodeInfo nodeId="2913448412765282857" conceptFqName="jetbrains.mps.baseLanguage.structure.LocalVariableDeclarationStatement" fileName="LayoutOptimizer.java" startLine="101" startPosition="100" endLine="102" endPosition="34" />
-    <nodeInfo nodeId="5639900666367306649" conceptFqName="jetbrains.mps.baseLanguage.structure.ContinueStatement" fileName="LayoutOptimizer.java" startLine="103" startPosition="76" endLine="104" endPosition="17" />
-    <nodeInfo nodeId="5639900666367306653" conceptFqName="jetbrains.mps.baseLanguage.structure.LocalVariableDeclarationStatement" fileName="LayoutOptimizer.java" startLine="105" startPosition="7" endLine="106" endPosition="56" />
-    <nodeInfo nodeId="5639900666367306676" conceptFqName="jetbrains.mps.baseLanguage.structure.ReturnStatement" fileName="LayoutOptimizer.java" startLine="107" startPosition="64" endLine="108" endPosition="21" />
-    <nodeInfo nodeId="5639900666367306692" conceptFqName="jetbrains.mps.baseLanguage.structure.ReturnStatement" fileName="LayoutOptimizer.java" startLine="110" startPosition="82" endLine="111" endPosition="21" />
-    <nodeInfo nodeId="5639900666367306708" conceptFqName="jetbrains.mps.baseLanguage.structure.ReturnStatement" fileName="LayoutOptimizer.java" startLine="113" startPosition="81" endLine="114" endPosition="21" />
-    <nodeInfo nodeId="5639900666367306728" conceptFqName="jetbrains.mps.baseLanguage.structure.ReturnStatement" fileName="LayoutOptimizer.java" startLine="116" startPosition="99" endLine="117" endPosition="21" />
-    <nodeInfo nodeId="6494745554568988553" conceptFqName="jetbrains.mps.baseLanguage.structure.ReturnStatement" fileName="LayoutOptimizer.java" startLine="122" startPosition="52" endLine="123" endPosition="23" />
-    <nodeInfo nodeId="8680836410351713791" conceptFqName="jetbrains.mps.baseLanguage.structure.ReturnStatement" fileName="LayoutOptimizer.java" startLine="128" startPosition="203" endLine="129" endPosition="21" />
-    <nodeInfo nodeId="6494745554568988280" conceptFqName="jetbrains.mps.baseLanguage.structure.ReturnStatement" fileName="LayoutOptimizer.java" startLine="131" startPosition="5" endLine="132" endPosition="16" />
-    <nodeInfo nodeId="5639900666367292081" conceptFqName="jetbrains.mps.baseLanguage.structure.LocalVariableDeclarationStatement" fileName="LayoutOptimizer.java" startLine="135" startPosition="71" endLine="136" endPosition="83" />
-    <nodeInfo nodeId="5639900666367292169" conceptFqName="jetbrains.mps.baseLanguage.structure.LocalVariableDeclarationStatement" fileName="LayoutOptimizer.java" startLine="136" startPosition="83" endLine="137" endPosition="84" />
-    <nodeInfo nodeId="5639900666367292207" conceptFqName="jetbrains.mps.baseLanguage.structure.LocalVariableDeclarationStatement" fileName="LayoutOptimizer.java" startLine="138" startPosition="29" endLine="139" endPosition="61" />
-    <nodeInfo nodeId="5639900666367292244" conceptFqName="jetbrains.mps.baseLanguage.structure.LocalVariableDeclarationStatement" fileName="LayoutOptimizer.java" startLine="139" startPosition="61" endLine="140" endPosition="62" />
-    <nodeInfo nodeId="5639900666367292277" conceptFqName="jetbrains.mps.baseLanguage.structure.ReturnStatement" fileName="LayoutOptimizer.java" startLine="140" startPosition="62" endLine="141" endPosition="26" />
-    <nodeInfo nodeId="5639900666367292202" conceptFqName="jetbrains.mps.baseLanguage.structure.ReturnStatement" fileName="LayoutOptimizer.java" startLine="142" startPosition="5" endLine="143" endPosition="17" />
-    <nodeInfo nodeId="6494745554568988184" conceptFqName="jetbrains.mps.baseLanguage.structure.ExpressionStatement" fileName="LayoutOptimizer.java" startLine="146" startPosition="56" endLine="147" endPosition="43" />
-    <nodeInfo nodeId="5639900666367221448" conceptFqName="jetbrains.mps.baseLanguage.structure.BlockStatement" fileName="LayoutOptimizer.java" startLine="61" startPosition="10" endLine="63" endPosition="5" />
-    <nodeInfo nodeId="5639900666367221685" conceptFqName="jetbrains.mps.baseLanguage.structure.BlockStatement" fileName="LayoutOptimizer.java" startLine="93" startPosition="10" endLine="95" endPosition="5" />
-    <nodeInfo nodeId="6494745554568987850" conceptFqName="jetbrains.mps.baseLanguage.structure.ConstructorDeclaration" propertyString="LayoutOptimizer#(Ljetbrains/mps/graphLayout/graphLayout/GraphLayout;)V" fileName="LayoutOptimizer.java" startLine="22" startPosition="0" endLine="25" endPosition="3" />
-    <nodeInfo nodeId="5639900666367221587" conceptFqName="jetbrains.mps.baseLanguage.structure.IfStatement" fileName="LayoutOptimizer.java" startLine="64" startPosition="16" endLine="67" endPosition="7" />
-    <nodeInfo nodeId="5639900666367221788" conceptFqName="jetbrains.mps.baseLanguage.structure.IfStatement" fileName="LayoutOptimizer.java" startLine="67" startPosition="7" endLine="70" endPosition="7" />
-    <nodeInfo nodeId="5639900666367283966" conceptFqName="jetbrains.mps.baseLanguage.structure.IfStatement" fileName="LayoutOptimizer.java" startLine="75" startPosition="25" endLine="78" endPosition="9" />
-    <nodeInfo nodeId="5639900666367284012" conceptFqName="jetbrains.mps.baseLanguage.structure.IfStatement" fileName="LayoutOptimizer.java" startLine="79" startPosition="14" endLine="82" endPosition="9" />
-    <nodeInfo nodeId="5639900666367306632" conceptFqName="jetbrains.mps.baseLanguage.structure.IfStatement" fileName="LayoutOptimizer.java" startLine="102" startPosition="34" endLine="105" endPosition="7" />
-    <nodeInfo nodeId="5639900666367306666" conceptFqName="jetbrains.mps.baseLanguage.structure.IfStatement" fileName="LayoutOptimizer.java" startLine="106" startPosition="56" endLine="109" endPosition="7" />
-    <nodeInfo nodeId="5639900666367306678" conceptFqName="jetbrains.mps.baseLanguage.structure.IfStatement" fileName="LayoutOptimizer.java" startLine="109" startPosition="7" endLine="112" endPosition="7" />
-    <nodeInfo nodeId="5639900666367306694" conceptFqName="jetbrains.mps.baseLanguage.structure.IfStatement" fileName="LayoutOptimizer.java" startLine="112" startPosition="7" endLine="115" endPosition="7" />
-    <nodeInfo nodeId="5639900666367306710" conceptFqName="jetbrains.mps.baseLanguage.structure.IfStatement" fileName="LayoutOptimizer.java" startLine="115" startPosition="7" endLine="118" endPosition="7" />
-    <nodeInfo nodeId="6494745554568988534" conceptFqName="jetbrains.mps.baseLanguage.structure.IfStatement" fileName="LayoutOptimizer.java" startLine="121" startPosition="51" endLine="124" endPosition="9" />
-    <nodeInfo nodeId="8680836410351713711" conceptFqName="jetbrains.mps.baseLanguage.structure.IfStatement" fileName="LayoutOptimizer.java" startLine="127" startPosition="112" endLine="130" endPosition="7" />
-    <nodeInfo nodeId="5639900666367284010" conceptFqName="jetbrains.mps.baseLanguage.structure.BlockStatement" fileName="LayoutOptimizer.java" startLine="79" startPosition="12" endLine="83" endPosition="7" />
-    <nodeInfo nodeId="6494745554568982389" conceptFqName="jetbrains.mps.baseLanguage.structure.StaticMethodDeclaration" propertyString="optimizeEdges#(Ljetbrains/mps/graphLayout/graphLayout/GraphLayout;)V" fileName="LayoutOptimizer.java" startLine="145" startPosition="0" endLine="149" endPosition="0" />
-    <nodeInfo nodeId="5639900666367221321" conceptFqName="jetbrains.mps.baseLanguage.structure.IfStatement" fileName="LayoutOptimizer.java" startLine="58" startPosition="18" endLine="63" endPosition="5" />
-    <nodeInfo nodeId="5639900666367221641" conceptFqName="jetbrains.mps.baseLanguage.structure.IfStatement" fileName="LayoutOptimizer.java" startLine="90" startPosition="51" endLine="95" endPosition="5" />
-    <nodeInfo nodeId="6494745554568988529" conceptFqName="jetbrains.mps.baseLanguage.structure.ForeachStatement" fileName="LayoutOptimizer.java" startLine="120" startPosition="108" endLine="125" endPosition="7" />
-    <nodeInfo nodeId="8680836410351713653" conceptFqName="jetbrains.mps.baseLanguage.structure.ForeachStatement" fileName="LayoutOptimizer.java" startLine="126" startPosition="5" endLine="131" endPosition="5" />
-    <nodeInfo nodeId="5639900666367292190" conceptFqName="jetbrains.mps.baseLanguage.structure.IfStatement" fileName="LayoutOptimizer.java" startLine="137" startPosition="84" endLine="142" endPosition="5" />
-    <nodeInfo nodeId="6494745554568988514" conceptFqName="jetbrains.mps.baseLanguage.structure.ForeachStatement" fileName="LayoutOptimizer.java" startLine="119" startPosition="5" endLine="126" endPosition="5" />
-    <nodeInfo nodeId="5639900666367102568" conceptFqName="jetbrains.mps.baseLanguage.structure.IfStatement" fileName="LayoutOptimizer.java" startLine="41" startPosition="57" endLine="50" endPosition="11" />
-    <nodeInfo nodeId="5639900666367283961" conceptFqName="jetbrains.mps.baseLanguage.structure.IfStatement" fileName="LayoutOptimizer.java" startLine="74" startPosition="90" endLine="83" endPosition="7" />
-    <nodeInfo nodeId="6494745554568988305" conceptFqName="jetbrains.mps.baseLanguage.structure.InstanceMethodDeclaration" propertyString="isInsideAndNotACorner#(IILjetbrains/mps/graphLayout/intGeom2D/Rectangle;)Z" fileName="LayoutOptimizer.java" startLine="134" startPosition="0" endLine="145" endPosition="0" />
-    <nodeInfo nodeId="5639900666367221606" conceptFqName="jetbrains.mps.baseLanguage.structure.InstanceMethodDeclaration" propertyString="getChain#(Ljetbrains/mps/graphLayout/intGeom2D/Point;Ljetbrains/mps/graphLayout/intGeom2D/Point;Ljetbrains/mps/graphLayout/intGeom2D/Point;)Ljava/util/List;" fileName="LayoutOptimizer.java" startLine="87" startPosition="0" endLine="99" endPosition="0" />
-    <nodeInfo nodeId="5639900666367283885" conceptFqName="jetbrains.mps.baseLanguage.structure.BlockStatement" fileName="LayoutOptimizer.java" startLine="71" startPosition="10" endLine="84" endPosition="5" />
-    <nodeInfo nodeId="6494745554568988219" conceptFqName="jetbrains.mps.baseLanguage.structure.ForStatement" fileName="LayoutOptimizer.java" startLine="34" startPosition="56" endLine="51" endPosition="9" />
-    <nodeInfo nodeId="5639900666367306617" conceptFqName="jetbrains.mps.baseLanguage.structure.ForeachStatement" fileName="LayoutOptimizer.java" startLine="100" startPosition="55" endLine="119" endPosition="5" />
-    <nodeInfo nodeId="6494745554568987909" conceptFqName="jetbrains.mps.baseLanguage.structure.ForeachStatement" fileName="LayoutOptimizer.java" startLine="31" startPosition="34" endLine="52" endPosition="7" />
-    <nodeInfo nodeId="5639900666367221473" conceptFqName="jetbrains.mps.baseLanguage.structure.IfStatement" fileName="LayoutOptimizer.java" startLine="63" startPosition="5" endLine="84" endPosition="5" />
-    <nodeInfo nodeId="6494745554568987906" conceptFqName="jetbrains.mps.baseLanguage.structure.WhileStatement" fileName="LayoutOptimizer.java" startLine="28" startPosition="33" endLine="53" endPosition="5" />
-    <nodeInfo nodeId="6494745554568987894" conceptFqName="jetbrains.mps.baseLanguage.structure.InstanceMethodDeclaration" propertyString="optimize#()V" fileName="LayoutOptimizer.java" startLine="26" startPosition="0" endLine="55" endPosition="0" />
-    <nodeInfo nodeId="5639900666367221279" conceptFqName="jetbrains.mps.baseLanguage.structure.InstanceMethodDeclaration" propertyString="tryChain#(Ljava/util/List;Ljetbrains/mps/graphLayout/graph/Edge;)Ljava/util/List;" fileName="LayoutOptimizer.java" startLine="55" startPosition="0" endLine="87" endPosition="0" />
-    <nodeInfo nodeId="6494745554568988275" conceptFqName="jetbrains.mps.baseLanguage.structure.InstanceMethodDeclaration" propertyString="testRect#(Ljetbrains/mps/graphLayout/intGeom2D/Rectangle;Ljetbrains/mps/graphLayout/graph/Edge;)Z" fileName="LayoutOptimizer.java" startLine="99" startPosition="0" endLine="134" endPosition="0" />
-    <scopeInfo nodeId="6494745554568987853" fileName="LayoutOptimizer.java" startLine="23" startPosition="47" endLine="24" endPosition="22" />
-    <scopeInfo nodeId="5639900666367221322" fileName="LayoutOptimizer.java" startLine="59" startPosition="17" endLine="60" endPosition="179" />
-    <scopeInfo nodeId="5639900666367221449" fileName="LayoutOptimizer.java" startLine="61" startPosition="12" endLine="62" endPosition="179" />
-    <scopeInfo nodeId="5639900666367221588" fileName="LayoutOptimizer.java" startLine="65" startPosition="138" endLine="66" endPosition="156" />
-    <scopeInfo nodeId="5639900666367221789" fileName="LayoutOptimizer.java" startLine="68" startPosition="138" endLine="69" endPosition="194" />
-    <scopeInfo nodeId="5639900666367283967" fileName="LayoutOptimizer.java" startLine="76" startPosition="36" endLine="77" endPosition="158" />
-    <scopeInfo nodeId="5639900666367284014" fileName="LayoutOptimizer.java" startLine="80" startPosition="37" endLine="81" endPosition="196" />
-    <scopeInfo nodeId="5639900666367221642" fileName="LayoutOptimizer.java" startLine="91" startPosition="25" endLine="92" endPosition="73" />
-    <scopeInfo nodeId="5639900666367221686" fileName="LayoutOptimizer.java" startLine="93" startPosition="12" endLine="94" endPosition="73" />
-    <scopeInfo nodeId="5639900666367306634" fileName="LayoutOptimizer.java" startLine="103" startPosition="76" endLine="104" endPosition="17" />
-    <scopeInfo nodeId="5639900666367306675" fileName="LayoutOptimizer.java" startLine="107" startPosition="64" endLine="108" endPosition="21" />
-    <scopeInfo nodeId="5639900666367306691" fileName="LayoutOptimizer.java" startLine="110" startPosition="82" endLine="111" endPosition="21" />
-    <scopeInfo nodeId="5639900666367306707" fileName="LayoutOptimizer.java" startLine="113" startPosition="81" endLine="114" endPosition="21" />
-    <scopeInfo nodeId="5639900666367306727" fileName="LayoutOptimizer.java" startLine="116" startPosition="99" endLine="117" endPosition="21" />
-    <scopeInfo nodeId="6494745554568988536" fileName="LayoutOptimizer.java" startLine="122" startPosition="52" endLine="123" endPosition="23" />
-    <scopeInfo nodeId="8680836410351713713" fileName="LayoutOptimizer.java" startLine="128" startPosition="203" endLine="129" endPosition="21" />
-    <scopeInfo nodeId="6494745554568982392" fileName="LayoutOptimizer.java" startLine="146" startPosition="56" endLine="147" endPosition="43" />
-    <scopeInfo nodeId="6494745554568987850" conceptFqName="jetbrains.mps.baseLanguage.structure.ConstructorDeclaration" propertyString="LayoutOptimizer#(Ljetbrains/mps/graphLayout/graphLayout/GraphLayout;)V" fileName="LayoutOptimizer.java" startLine="22" startPosition="0" endLine="25" endPosition="3">
+    <nodeInfo nodeId="6494745554568987856" conceptFqName="jetbrains.mps.baseLanguage.structure.FieldDeclaration" propertyString="myLayout" fileName="LayoutOptimizer.java" startLine="21" startPosition="30" endLine="22" endPosition="31" />
+    <nodeInfo nodeId="6494745554568987860" conceptFqName="jetbrains.mps.baseLanguage.structure.ExpressionStatement" fileName="LayoutOptimizer.java" startLine="24" startPosition="47" endLine="25" endPosition="22" />
+    <nodeInfo nodeId="6494745554568987902" conceptFqName="jetbrains.mps.baseLanguage.structure.LocalVariableDeclarationStatement" fileName="LayoutOptimizer.java" startLine="28" startPosition="27" endLine="29" endPosition="33" />
+    <nodeInfo nodeId="5639900666367102561" conceptFqName="jetbrains.mps.baseLanguage.structure.ExpressionStatement" fileName="LayoutOptimizer.java" startLine="30" startPosition="27" endLine="31" endPosition="28" />
+    <nodeInfo nodeId="5639900666367175432" conceptFqName="jetbrains.mps.baseLanguage.structure.ExpressionStatement" fileName="LayoutOptimizer.java" startLine="31" startPosition="28" endLine="32" endPosition="34" />
+    <nodeInfo nodeId="2913448412765282844" conceptFqName="jetbrains.mps.baseLanguage.structure.LocalVariableDeclarationStatement" fileName="LayoutOptimizer.java" startLine="33" startPosition="102" endLine="34" endPosition="36" />
+    <nodeInfo nodeId="6494745554568988205" conceptFqName="jetbrains.mps.baseLanguage.structure.LocalVariableDeclarationStatement" fileName="LayoutOptimizer.java" startLine="34" startPosition="36" endLine="35" endPosition="56" />
+    <nodeInfo nodeId="6494745554568988224" conceptFqName="jetbrains.mps.baseLanguage.structure.LocalVariableDeclarationStatement" fileName="LayoutOptimizer.java" startLine="36" startPosition="75" endLine="37" endPosition="76" />
+    <nodeInfo nodeId="6494745554568988231" conceptFqName="jetbrains.mps.baseLanguage.structure.ExpressionStatement" fileName="LayoutOptimizer.java" startLine="37" startPosition="76" endLine="38" endPosition="93" />
+    <nodeInfo nodeId="6494745554568988238" conceptFqName="jetbrains.mps.baseLanguage.structure.ExpressionStatement" fileName="LayoutOptimizer.java" startLine="38" startPosition="93" endLine="39" endPosition="97" />
+    <nodeInfo nodeId="6494745554568988247" conceptFqName="jetbrains.mps.baseLanguage.structure.ExpressionStatement" fileName="LayoutOptimizer.java" startLine="39" startPosition="97" endLine="40" endPosition="97" />
+    <nodeInfo nodeId="6494745554568988256" conceptFqName="jetbrains.mps.baseLanguage.structure.ExpressionStatement" fileName="LayoutOptimizer.java" startLine="40" startPosition="97" endLine="41" endPosition="97" />
+    <nodeInfo nodeId="5639900666367221824" conceptFqName="jetbrains.mps.baseLanguage.structure.LocalVariableDeclarationStatement" fileName="LayoutOptimizer.java" startLine="41" startPosition="97" endLine="42" endPosition="57" />
+    <nodeInfo nodeId="5639900666367102578" conceptFqName="jetbrains.mps.baseLanguage.structure.ExpressionStatement" fileName="LayoutOptimizer.java" startLine="43" startPosition="33" endLine="44" endPosition="33" />
+    <nodeInfo nodeId="5639900666367102585" conceptFqName="jetbrains.mps.baseLanguage.structure.LocalVariableDeclarationStatement" fileName="LayoutOptimizer.java" startLine="44" startPosition="33" endLine="45" endPosition="77" />
+    <nodeInfo nodeId="5639900666367102595" conceptFqName="jetbrains.mps.baseLanguage.structure.ExpressionStatement" fileName="LayoutOptimizer.java" startLine="45" startPosition="77" endLine="46" endPosition="103" />
+    <nodeInfo nodeId="5639900666367102616" conceptFqName="jetbrains.mps.baseLanguage.structure.ExpressionStatement" fileName="LayoutOptimizer.java" startLine="46" startPosition="103" endLine="47" endPosition="85" />
+    <nodeInfo nodeId="5639900666367102628" conceptFqName="jetbrains.mps.baseLanguage.structure.ExpressionStatement" fileName="LayoutOptimizer.java" startLine="47" startPosition="85" endLine="48" endPosition="141" />
+    <nodeInfo nodeId="5639900666367103963" conceptFqName="jetbrains.mps.baseLanguage.structure.ExpressionStatement" fileName="LayoutOptimizer.java" startLine="48" startPosition="141" endLine="49" endPosition="46" />
+    <nodeInfo nodeId="5639900666367176752" conceptFqName="jetbrains.mps.baseLanguage.structure.BreakStatement" fileName="LayoutOptimizer.java" startLine="49" startPosition="46" endLine="50" endPosition="18" />
+    <nodeInfo nodeId="5639900666367221288" conceptFqName="jetbrains.mps.baseLanguage.structure.LocalVariableDeclarationStatement" fileName="LayoutOptimizer.java" startLine="57" startPosition="62" endLine="58" endPosition="114" />
+    <nodeInfo nodeId="5639900666367221317" conceptFqName="jetbrains.mps.baseLanguage.structure.LocalVariableDeclarationStatement" fileName="LayoutOptimizer.java" startLine="58" startPosition="114" endLine="59" endPosition="18" />
+    <nodeInfo nodeId="5639900666367221326" conceptFqName="jetbrains.mps.baseLanguage.structure.ExpressionStatement" fileName="LayoutOptimizer.java" startLine="60" startPosition="17" endLine="61" endPosition="177" />
+    <nodeInfo nodeId="5639900666367221450" conceptFqName="jetbrains.mps.baseLanguage.structure.ExpressionStatement" fileName="LayoutOptimizer.java" startLine="62" startPosition="12" endLine="63" endPosition="177" />
+    <nodeInfo nodeId="5639900666367221712" conceptFqName="jetbrains.mps.baseLanguage.structure.ReturnStatement" fileName="LayoutOptimizer.java" startLine="66" startPosition="138" endLine="67" endPosition="156" />
+    <nodeInfo nodeId="5639900666367221790" conceptFqName="jetbrains.mps.baseLanguage.structure.ReturnStatement" fileName="LayoutOptimizer.java" startLine="69" startPosition="138" endLine="70" endPosition="194" />
+    <nodeInfo nodeId="5639900666367283889" conceptFqName="jetbrains.mps.baseLanguage.structure.LocalVariableDeclarationStatement" fileName="LayoutOptimizer.java" startLine="72" startPosition="12" endLine="73" endPosition="134" />
+    <nodeInfo nodeId="5639900666367283909" conceptFqName="jetbrains.mps.baseLanguage.structure.LocalVariableDeclarationStatement" fileName="LayoutOptimizer.java" startLine="73" startPosition="134" endLine="74" endPosition="135" />
+    <nodeInfo nodeId="5639900666367283923" conceptFqName="jetbrains.mps.baseLanguage.structure.LocalVariableDeclarationStatement" fileName="LayoutOptimizer.java" startLine="74" startPosition="135" endLine="75" endPosition="90" />
+    <nodeInfo nodeId="5639900666367283972" conceptFqName="jetbrains.mps.baseLanguage.structure.ReturnStatement" fileName="LayoutOptimizer.java" startLine="77" startPosition="36" endLine="78" endPosition="158" />
+    <nodeInfo nodeId="5639900666367284019" conceptFqName="jetbrains.mps.baseLanguage.structure.ReturnStatement" fileName="LayoutOptimizer.java" startLine="81" startPosition="37" endLine="82" endPosition="196" />
+    <nodeInfo nodeId="5639900666367221809" conceptFqName="jetbrains.mps.baseLanguage.structure.ReturnStatement" fileName="LayoutOptimizer.java" startLine="85" startPosition="5" endLine="86" endPosition="16" />
+    <nodeInfo nodeId="5639900666367221621" conceptFqName="jetbrains.mps.baseLanguage.structure.LocalVariableDeclarationStatement" fileName="LayoutOptimizer.java" startLine="89" startPosition="66" endLine="90" endPosition="70" />
+    <nodeInfo nodeId="5639900666367221631" conceptFqName="jetbrains.mps.baseLanguage.structure.ExpressionStatement" fileName="LayoutOptimizer.java" startLine="90" startPosition="70" endLine="91" endPosition="51" />
+    <nodeInfo nodeId="5639900666367221661" conceptFqName="jetbrains.mps.baseLanguage.structure.ExpressionStatement" fileName="LayoutOptimizer.java" startLine="92" startPosition="25" endLine="93" endPosition="73" />
+    <nodeInfo nodeId="5639900666367221687" conceptFqName="jetbrains.mps.baseLanguage.structure.ExpressionStatement" fileName="LayoutOptimizer.java" startLine="94" startPosition="12" endLine="95" endPosition="73" />
+    <nodeInfo nodeId="5639900666367221702" conceptFqName="jetbrains.mps.baseLanguage.structure.ExpressionStatement" fileName="LayoutOptimizer.java" startLine="96" startPosition="5" endLine="97" endPosition="49" />
+    <nodeInfo nodeId="5639900666367221709" conceptFqName="jetbrains.mps.baseLanguage.structure.ReturnStatement" fileName="LayoutOptimizer.java" startLine="97" startPosition="49" endLine="98" endPosition="17" />
+    <nodeInfo nodeId="2913448412765282857" conceptFqName="jetbrains.mps.baseLanguage.structure.LocalVariableDeclarationStatement" fileName="LayoutOptimizer.java" startLine="102" startPosition="100" endLine="103" endPosition="34" />
+    <nodeInfo nodeId="5639900666367306649" conceptFqName="jetbrains.mps.baseLanguage.structure.ContinueStatement" fileName="LayoutOptimizer.java" startLine="104" startPosition="76" endLine="105" endPosition="17" />
+    <nodeInfo nodeId="5639900666367306653" conceptFqName="jetbrains.mps.baseLanguage.structure.LocalVariableDeclarationStatement" fileName="LayoutOptimizer.java" startLine="106" startPosition="7" endLine="107" endPosition="56" />
+    <nodeInfo nodeId="5639900666367306676" conceptFqName="jetbrains.mps.baseLanguage.structure.ReturnStatement" fileName="LayoutOptimizer.java" startLine="108" startPosition="64" endLine="109" endPosition="21" />
+    <nodeInfo nodeId="5639900666367306692" conceptFqName="jetbrains.mps.baseLanguage.structure.ReturnStatement" fileName="LayoutOptimizer.java" startLine="111" startPosition="82" endLine="112" endPosition="21" />
+    <nodeInfo nodeId="5639900666367306708" conceptFqName="jetbrains.mps.baseLanguage.structure.ReturnStatement" fileName="LayoutOptimizer.java" startLine="114" startPosition="81" endLine="115" endPosition="21" />
+    <nodeInfo nodeId="5639900666367306728" conceptFqName="jetbrains.mps.baseLanguage.structure.ReturnStatement" fileName="LayoutOptimizer.java" startLine="117" startPosition="99" endLine="118" endPosition="21" />
+    <nodeInfo nodeId="6494745554568988553" conceptFqName="jetbrains.mps.baseLanguage.structure.ReturnStatement" fileName="LayoutOptimizer.java" startLine="123" startPosition="52" endLine="124" endPosition="23" />
+    <nodeInfo nodeId="8680836410351713791" conceptFqName="jetbrains.mps.baseLanguage.structure.ReturnStatement" fileName="LayoutOptimizer.java" startLine="129" startPosition="199" endLine="130" endPosition="21" />
+    <nodeInfo nodeId="6494745554568988280" conceptFqName="jetbrains.mps.baseLanguage.structure.ReturnStatement" fileName="LayoutOptimizer.java" startLine="132" startPosition="5" endLine="133" endPosition="16" />
+    <nodeInfo nodeId="5639900666367292081" conceptFqName="jetbrains.mps.baseLanguage.structure.LocalVariableDeclarationStatement" fileName="LayoutOptimizer.java" startLine="136" startPosition="71" endLine="137" endPosition="81" />
+    <nodeInfo nodeId="5639900666367292169" conceptFqName="jetbrains.mps.baseLanguage.structure.LocalVariableDeclarationStatement" fileName="LayoutOptimizer.java" startLine="137" startPosition="81" endLine="138" endPosition="82" />
+    <nodeInfo nodeId="5639900666367292207" conceptFqName="jetbrains.mps.baseLanguage.structure.LocalVariableDeclarationStatement" fileName="LayoutOptimizer.java" startLine="139" startPosition="29" endLine="140" endPosition="61" />
+    <nodeInfo nodeId="5639900666367292244" conceptFqName="jetbrains.mps.baseLanguage.structure.LocalVariableDeclarationStatement" fileName="LayoutOptimizer.java" startLine="140" startPosition="61" endLine="141" endPosition="62" />
+    <nodeInfo nodeId="5639900666367292277" conceptFqName="jetbrains.mps.baseLanguage.structure.ReturnStatement" fileName="LayoutOptimizer.java" startLine="141" startPosition="62" endLine="142" endPosition="26" />
+    <nodeInfo nodeId="5639900666367292202" conceptFqName="jetbrains.mps.baseLanguage.structure.ReturnStatement" fileName="LayoutOptimizer.java" startLine="143" startPosition="5" endLine="144" endPosition="17" />
+    <nodeInfo nodeId="6494745554568988184" conceptFqName="jetbrains.mps.baseLanguage.structure.ExpressionStatement" fileName="LayoutOptimizer.java" startLine="147" startPosition="56" endLine="148" endPosition="43" />
+    <nodeInfo nodeId="5639900666367221448" conceptFqName="jetbrains.mps.baseLanguage.structure.BlockStatement" fileName="LayoutOptimizer.java" startLine="62" startPosition="10" endLine="64" endPosition="5" />
+    <nodeInfo nodeId="5639900666367221685" conceptFqName="jetbrains.mps.baseLanguage.structure.BlockStatement" fileName="LayoutOptimizer.java" startLine="94" startPosition="10" endLine="96" endPosition="5" />
+    <nodeInfo nodeId="6494745554568987850" conceptFqName="jetbrains.mps.baseLanguage.structure.ConstructorDeclaration" propertyString="LayoutOptimizer#(Ljetbrains/mps/graphLayout/graphLayout/GraphLayout;)V" fileName="LayoutOptimizer.java" startLine="23" startPosition="0" endLine="26" endPosition="3" />
+    <nodeInfo nodeId="5639900666367221587" conceptFqName="jetbrains.mps.baseLanguage.structure.IfStatement" fileName="LayoutOptimizer.java" startLine="65" startPosition="16" endLine="68" endPosition="7" />
+    <nodeInfo nodeId="5639900666367221788" conceptFqName="jetbrains.mps.baseLanguage.structure.IfStatement" fileName="LayoutOptimizer.java" startLine="68" startPosition="7" endLine="71" endPosition="7" />
+    <nodeInfo nodeId="5639900666367283966" conceptFqName="jetbrains.mps.baseLanguage.structure.IfStatement" fileName="LayoutOptimizer.java" startLine="76" startPosition="25" endLine="79" endPosition="9" />
+    <nodeInfo nodeId="5639900666367284012" conceptFqName="jetbrains.mps.baseLanguage.structure.IfStatement" fileName="LayoutOptimizer.java" startLine="80" startPosition="14" endLine="83" endPosition="9" />
+    <nodeInfo nodeId="5639900666367306632" conceptFqName="jetbrains.mps.baseLanguage.structure.IfStatement" fileName="LayoutOptimizer.java" startLine="103" startPosition="34" endLine="106" endPosition="7" />
+    <nodeInfo nodeId="5639900666367306666" conceptFqName="jetbrains.mps.baseLanguage.structure.IfStatement" fileName="LayoutOptimizer.java" startLine="107" startPosition="56" endLine="110" endPosition="7" />
+    <nodeInfo nodeId="5639900666367306678" conceptFqName="jetbrains.mps.baseLanguage.structure.IfStatement" fileName="LayoutOptimizer.java" startLine="110" startPosition="7" endLine="113" endPosition="7" />
+    <nodeInfo nodeId="5639900666367306694" conceptFqName="jetbrains.mps.baseLanguage.structure.IfStatement" fileName="LayoutOptimizer.java" startLine="113" startPosition="7" endLine="116" endPosition="7" />
+    <nodeInfo nodeId="5639900666367306710" conceptFqName="jetbrains.mps.baseLanguage.structure.IfStatement" fileName="LayoutOptimizer.java" startLine="116" startPosition="7" endLine="119" endPosition="7" />
+    <nodeInfo nodeId="6494745554568988534" conceptFqName="jetbrains.mps.baseLanguage.structure.IfStatement" fileName="LayoutOptimizer.java" startLine="122" startPosition="51" endLine="125" endPosition="9" />
+    <nodeInfo nodeId="8680836410351713711" conceptFqName="jetbrains.mps.baseLanguage.structure.IfStatement" fileName="LayoutOptimizer.java" startLine="128" startPosition="112" endLine="131" endPosition="7" />
+    <nodeInfo nodeId="5639900666367284010" conceptFqName="jetbrains.mps.baseLanguage.structure.BlockStatement" fileName="LayoutOptimizer.java" startLine="80" startPosition="12" endLine="84" endPosition="7" />
+    <nodeInfo nodeId="6494745554568982389" conceptFqName="jetbrains.mps.baseLanguage.structure.StaticMethodDeclaration" propertyString="optimizeEdges#(Ljetbrains/mps/graphLayout/graphLayout/GraphLayout;)V" fileName="LayoutOptimizer.java" startLine="146" startPosition="0" endLine="150" endPosition="0" />
+    <nodeInfo nodeId="5639900666367221321" conceptFqName="jetbrains.mps.baseLanguage.structure.IfStatement" fileName="LayoutOptimizer.java" startLine="59" startPosition="18" endLine="64" endPosition="5" />
+    <nodeInfo nodeId="5639900666367221641" conceptFqName="jetbrains.mps.baseLanguage.structure.IfStatement" fileName="LayoutOptimizer.java" startLine="91" startPosition="51" endLine="96" endPosition="5" />
+    <nodeInfo nodeId="6494745554568988529" conceptFqName="jetbrains.mps.baseLanguage.structure.ForeachStatement" fileName="LayoutOptimizer.java" startLine="121" startPosition="108" endLine="126" endPosition="7" />
+    <nodeInfo nodeId="8680836410351713653" conceptFqName="jetbrains.mps.baseLanguage.structure.ForeachStatement" fileName="LayoutOptimizer.java" startLine="127" startPosition="5" endLine="132" endPosition="5" />
+    <nodeInfo nodeId="5639900666367292190" conceptFqName="jetbrains.mps.baseLanguage.structure.IfStatement" fileName="LayoutOptimizer.java" startLine="138" startPosition="82" endLine="143" endPosition="5" />
+    <nodeInfo nodeId="6494745554568988514" conceptFqName="jetbrains.mps.baseLanguage.structure.ForeachStatement" fileName="LayoutOptimizer.java" startLine="120" startPosition="5" endLine="127" endPosition="5" />
+    <nodeInfo nodeId="5639900666367102568" conceptFqName="jetbrains.mps.baseLanguage.structure.IfStatement" fileName="LayoutOptimizer.java" startLine="42" startPosition="57" endLine="51" endPosition="11" />
+    <nodeInfo nodeId="5639900666367283961" conceptFqName="jetbrains.mps.baseLanguage.structure.IfStatement" fileName="LayoutOptimizer.java" startLine="75" startPosition="90" endLine="84" endPosition="7" />
+    <nodeInfo nodeId="6494745554568988305" conceptFqName="jetbrains.mps.baseLanguage.structure.InstanceMethodDeclaration" propertyString="isInsideAndNotACorner#(IILjetbrains/mps/graphLayout/intGeom2D/Rectangle;)Z" fileName="LayoutOptimizer.java" startLine="135" startPosition="0" endLine="146" endPosition="0" />
+    <nodeInfo nodeId="5639900666367221606" conceptFqName="jetbrains.mps.baseLanguage.structure.InstanceMethodDeclaration" propertyString="getChain#(Ljetbrains/mps/graphLayout/intGeom2D/Point;Ljetbrains/mps/graphLayout/intGeom2D/Point;Ljetbrains/mps/graphLayout/intGeom2D/Point;)Ljava/util/List;" fileName="LayoutOptimizer.java" startLine="88" startPosition="0" endLine="100" endPosition="0" />
+    <nodeInfo nodeId="5639900666367283885" conceptFqName="jetbrains.mps.baseLanguage.structure.BlockStatement" fileName="LayoutOptimizer.java" startLine="72" startPosition="10" endLine="85" endPosition="5" />
+    <nodeInfo nodeId="6494745554568988219" conceptFqName="jetbrains.mps.baseLanguage.structure.ForStatement" fileName="LayoutOptimizer.java" startLine="35" startPosition="56" endLine="52" endPosition="9" />
+    <nodeInfo nodeId="5639900666367306617" conceptFqName="jetbrains.mps.baseLanguage.structure.ForeachStatement" fileName="LayoutOptimizer.java" startLine="101" startPosition="55" endLine="120" endPosition="5" />
+    <nodeInfo nodeId="6494745554568987909" conceptFqName="jetbrains.mps.baseLanguage.structure.ForeachStatement" fileName="LayoutOptimizer.java" startLine="32" startPosition="34" endLine="53" endPosition="7" />
+    <nodeInfo nodeId="5639900666367221473" conceptFqName="jetbrains.mps.baseLanguage.structure.IfStatement" fileName="LayoutOptimizer.java" startLine="64" startPosition="5" endLine="85" endPosition="5" />
+    <nodeInfo nodeId="6494745554568987906" conceptFqName="jetbrains.mps.baseLanguage.structure.WhileStatement" fileName="LayoutOptimizer.java" startLine="29" startPosition="33" endLine="54" endPosition="5" />
+    <nodeInfo nodeId="6494745554568987894" conceptFqName="jetbrains.mps.baseLanguage.structure.InstanceMethodDeclaration" propertyString="optimize#()V" fileName="LayoutOptimizer.java" startLine="27" startPosition="0" endLine="56" endPosition="0" />
+    <nodeInfo nodeId="5639900666367221279" conceptFqName="jetbrains.mps.baseLanguage.structure.InstanceMethodDeclaration" propertyString="tryChain#(Ljava/util/List;Ljetbrains/mps/graphLayout/graph/Edge;)Ljava/util/List;" fileName="LayoutOptimizer.java" startLine="56" startPosition="0" endLine="88" endPosition="0" />
+    <nodeInfo nodeId="6494745554568988275" conceptFqName="jetbrains.mps.baseLanguage.structure.InstanceMethodDeclaration" propertyString="testRect#(Ljetbrains/mps/graphLayout/intGeom2D/Rectangle;Ljetbrains/mps/graphLayout/graph/Edge;)Z" fileName="LayoutOptimizer.java" startLine="100" startPosition="0" endLine="135" endPosition="0" />
+    <scopeInfo nodeId="6494745554568987853" fileName="LayoutOptimizer.java" startLine="24" startPosition="47" endLine="25" endPosition="22" />
+    <scopeInfo nodeId="5639900666367221322" fileName="LayoutOptimizer.java" startLine="60" startPosition="17" endLine="61" endPosition="177" />
+    <scopeInfo nodeId="5639900666367221449" fileName="LayoutOptimizer.java" startLine="62" startPosition="12" endLine="63" endPosition="177" />
+    <scopeInfo nodeId="5639900666367221588" fileName="LayoutOptimizer.java" startLine="66" startPosition="138" endLine="67" endPosition="156" />
+    <scopeInfo nodeId="5639900666367221789" fileName="LayoutOptimizer.java" startLine="69" startPosition="138" endLine="70" endPosition="194" />
+    <scopeInfo nodeId="5639900666367283967" fileName="LayoutOptimizer.java" startLine="77" startPosition="36" endLine="78" endPosition="158" />
+    <scopeInfo nodeId="5639900666367284014" fileName="LayoutOptimizer.java" startLine="81" startPosition="37" endLine="82" endPosition="196" />
+    <scopeInfo nodeId="5639900666367221642" fileName="LayoutOptimizer.java" startLine="92" startPosition="25" endLine="93" endPosition="73" />
+    <scopeInfo nodeId="5639900666367221686" fileName="LayoutOptimizer.java" startLine="94" startPosition="12" endLine="95" endPosition="73" />
+    <scopeInfo nodeId="5639900666367306634" fileName="LayoutOptimizer.java" startLine="104" startPosition="76" endLine="105" endPosition="17" />
+    <scopeInfo nodeId="5639900666367306675" fileName="LayoutOptimizer.java" startLine="108" startPosition="64" endLine="109" endPosition="21" />
+    <scopeInfo nodeId="5639900666367306691" fileName="LayoutOptimizer.java" startLine="111" startPosition="82" endLine="112" endPosition="21" />
+    <scopeInfo nodeId="5639900666367306707" fileName="LayoutOptimizer.java" startLine="114" startPosition="81" endLine="115" endPosition="21" />
+    <scopeInfo nodeId="5639900666367306727" fileName="LayoutOptimizer.java" startLine="117" startPosition="99" endLine="118" endPosition="21" />
+    <scopeInfo nodeId="6494745554568988536" fileName="LayoutOptimizer.java" startLine="123" startPosition="52" endLine="124" endPosition="23" />
+    <scopeInfo nodeId="8680836410351713713" fileName="LayoutOptimizer.java" startLine="129" startPosition="199" endLine="130" endPosition="21" />
+    <scopeInfo nodeId="6494745554568982392" fileName="LayoutOptimizer.java" startLine="147" startPosition="56" endLine="148" endPosition="43" />
+    <scopeInfo nodeId="6494745554568987850" conceptFqName="jetbrains.mps.baseLanguage.structure.ConstructorDeclaration" propertyString="LayoutOptimizer#(Ljetbrains/mps/graphLayout/graphLayout/GraphLayout;)V" fileName="LayoutOptimizer.java" startLine="23" startPosition="0" endLine="26" endPosition="3">
       <varInfo nodeId="6494745554568987854" varName="layout" />
     </scopeInfo>
-    <scopeInfo nodeId="5639900666367283962" fileName="LayoutOptimizer.java" startLine="75" startPosition="25" endLine="78" endPosition="9" />
-    <scopeInfo nodeId="5639900666367284011" fileName="LayoutOptimizer.java" startLine="79" startPosition="14" endLine="82" endPosition="9" />
-    <scopeInfo nodeId="6494745554568988532" fileName="LayoutOptimizer.java" startLine="121" startPosition="51" endLine="124" endPosition="9" />
-    <scopeInfo nodeId="8680836410351713656" fileName="LayoutOptimizer.java" startLine="127" startPosition="112" endLine="130" endPosition="7" />
-    <scopeInfo nodeId="5639900666367292191" fileName="LayoutOptimizer.java" startLine="138" startPosition="29" endLine="141" endPosition="26">
+    <scopeInfo nodeId="5639900666367283962" fileName="LayoutOptimizer.java" startLine="76" startPosition="25" endLine="79" endPosition="9" />
+    <scopeInfo nodeId="5639900666367284011" fileName="LayoutOptimizer.java" startLine="80" startPosition="14" endLine="83" endPosition="9" />
+    <scopeInfo nodeId="6494745554568988532" fileName="LayoutOptimizer.java" startLine="122" startPosition="51" endLine="125" endPosition="9" />
+    <scopeInfo nodeId="8680836410351713656" fileName="LayoutOptimizer.java" startLine="128" startPosition="112" endLine="131" endPosition="7" />
+    <scopeInfo nodeId="5639900666367292191" fileName="LayoutOptimizer.java" startLine="139" startPosition="29" endLine="142" endPosition="26">
       <varInfo nodeId="5639900666367292208" varName="notX" />
       <varInfo nodeId="5639900666367292245" varName="notY" />
     </scopeInfo>
-    <scopeInfo nodeId="6494745554568982389" conceptFqName="jetbrains.mps.baseLanguage.structure.StaticMethodDeclaration" propertyString="optimizeEdges#(Ljetbrains/mps/graphLayout/graphLayout/GraphLayout;)V" fileName="LayoutOptimizer.java" startLine="145" startPosition="0" endLine="149" endPosition="0">
+    <scopeInfo nodeId="6494745554568982389" conceptFqName="jetbrains.mps.baseLanguage.structure.StaticMethodDeclaration" propertyString="optimizeEdges#(Ljetbrains/mps/graphLayout/graphLayout/GraphLayout;)V" fileName="LayoutOptimizer.java" startLine="146" startPosition="0" endLine="150" endPosition="0">
       <varInfo nodeId="6494745554568982393" varName="layout" />
     </scopeInfo>
-    <scopeInfo nodeId="6494745554568988517" fileName="LayoutOptimizer.java" startLine="120" startPosition="108" endLine="125" endPosition="7" />
-    <scopeInfo nodeId="6494745554568988529" conceptFqName="jetbrains.mps.baseLanguage.structure.ForeachStatement" fileName="LayoutOptimizer.java" startLine="120" startPosition="108" endLine="125" endPosition="7" />
-    <scopeInfo nodeId="8680836410351713653" conceptFqName="jetbrains.mps.baseLanguage.structure.ForeachStatement" fileName="LayoutOptimizer.java" startLine="126" startPosition="5" endLine="131" endPosition="5" />
-    <scopeInfo nodeId="5639900666367221474" fileName="LayoutOptimizer.java" startLine="64" startPosition="16" endLine="70" endPosition="7" />
-    <scopeInfo nodeId="5639900666367102569" fileName="LayoutOptimizer.java" startLine="42" startPosition="33" endLine="49" endPosition="18">
+    <scopeInfo nodeId="6494745554568988517" fileName="LayoutOptimizer.java" startLine="121" startPosition="108" endLine="126" endPosition="7" />
+    <scopeInfo nodeId="6494745554568988529" conceptFqName="jetbrains.mps.baseLanguage.structure.ForeachStatement" fileName="LayoutOptimizer.java" startLine="121" startPosition="108" endLine="126" endPosition="7" />
+    <scopeInfo nodeId="8680836410351713653" conceptFqName="jetbrains.mps.baseLanguage.structure.ForeachStatement" fileName="LayoutOptimizer.java" startLine="127" startPosition="5" endLine="132" endPosition="5" />
+    <scopeInfo nodeId="5639900666367221474" fileName="LayoutOptimizer.java" startLine="65" startPosition="16" endLine="71" endPosition="7" />
+    <scopeInfo nodeId="5639900666367102569" fileName="LayoutOptimizer.java" startLine="43" startPosition="33" endLine="50" endPosition="18">
       <varInfo nodeId="5639900666367102586" varName="temp" />
     </scopeInfo>
-    <scopeInfo nodeId="6494745554568988514" conceptFqName="jetbrains.mps.baseLanguage.structure.ForeachStatement" fileName="LayoutOptimizer.java" startLine="119" startPosition="5" endLine="126" endPosition="5" />
-    <scopeInfo nodeId="6494745554568988308" fileName="LayoutOptimizer.java" startLine="135" startPosition="71" endLine="143" endPosition="17">
+    <scopeInfo nodeId="6494745554568988514" conceptFqName="jetbrains.mps.baseLanguage.structure.ForeachStatement" fileName="LayoutOptimizer.java" startLine="120" startPosition="5" endLine="127" endPosition="5" />
+    <scopeInfo nodeId="6494745554568988308" fileName="LayoutOptimizer.java" startLine="136" startPosition="71" endLine="144" endPosition="17">
       <varInfo nodeId="5639900666367292082" varName="insideX" />
       <varInfo nodeId="5639900666367292170" varName="insideY" />
     </scopeInfo>
-    <scopeInfo nodeId="5639900666367221609" fileName="LayoutOptimizer.java" startLine="88" startPosition="66" endLine="97" endPosition="17">
+    <scopeInfo nodeId="5639900666367221609" fileName="LayoutOptimizer.java" startLine="89" startPosition="66" endLine="98" endPosition="17">
       <varInfo nodeId="5639900666367221622" varName="chain" />
     </scopeInfo>
-    <scopeInfo nodeId="6494745554568988305" conceptFqName="jetbrains.mps.baseLanguage.structure.InstanceMethodDeclaration" propertyString="isInsideAndNotACorner#(IILjetbrains/mps/graphLayout/intGeom2D/Rectangle;)Z" fileName="LayoutOptimizer.java" startLine="134" startPosition="0" endLine="145" endPosition="0">
+    <scopeInfo nodeId="6494745554568988305" conceptFqName="jetbrains.mps.baseLanguage.structure.InstanceMethodDeclaration" propertyString="isInsideAndNotACorner#(IILjetbrains/mps/graphLayout/intGeom2D/Rectangle;)Z" fileName="LayoutOptimizer.java" startLine="135" startPosition="0" endLine="146" endPosition="0">
       <varInfo nodeId="6494745554568988314" varName="rect" />
       <varInfo nodeId="6494745554568988392" varName="y" />
       <varInfo nodeId="6494745554568988312" varName="x" />
     </scopeInfo>
-    <scopeInfo nodeId="5639900666367283886" fileName="LayoutOptimizer.java" startLine="71" startPosition="12" endLine="83" endPosition="7">
+    <scopeInfo nodeId="5639900666367283886" fileName="LayoutOptimizer.java" startLine="72" startPosition="12" endLine="84" endPosition="7">
       <varInfo nodeId="5639900666367283910" varName="second" />
       <varInfo nodeId="5639900666367283924" varName="firstSmaller" />
       <varInfo nodeId="5639900666367283890" varName="first" />
     </scopeInfo>
-    <scopeInfo nodeId="5639900666367221606" conceptFqName="jetbrains.mps.baseLanguage.structure.InstanceMethodDeclaration" propertyString="getChain#(Ljetbrains/mps/graphLayout/intGeom2D/Point;Ljetbrains/mps/graphLayout/intGeom2D/Point;Ljetbrains/mps/graphLayout/intGeom2D/Point;)Ljava/util/List;" fileName="LayoutOptimizer.java" startLine="87" startPosition="0" endLine="99" endPosition="0">
+    <scopeInfo nodeId="5639900666367221606" conceptFqName="jetbrains.mps.baseLanguage.structure.InstanceMethodDeclaration" propertyString="getChain#(Ljetbrains/mps/graphLayout/intGeom2D/Point;Ljetbrains/mps/graphLayout/intGeom2D/Point;Ljetbrains/mps/graphLayout/intGeom2D/Point;)Ljava/util/List;" fileName="LayoutOptimizer.java" startLine="88" startPosition="0" endLine="100" endPosition="0">
       <varInfo nodeId="5639900666367221615" varName="mid" />
       <varInfo nodeId="5639900666367221618" varName="end" />
       <varInfo nodeId="5639900666367221613" varName="begin" />
     </scopeInfo>
-    <scopeInfo nodeId="6494745554568988223" fileName="LayoutOptimizer.java" startLine="35" startPosition="75" endLine="50" endPosition="11">
+    <scopeInfo nodeId="6494745554568988223" fileName="LayoutOptimizer.java" startLine="36" startPosition="75" endLine="51" endPosition="11">
       <varInfo nodeId="6494745554568988225" varName="chain" />
       <varInfo nodeId="5639900666367221825" varName="newChain" />
     </scopeInfo>
-    <scopeInfo nodeId="6494745554568988219" conceptFqName="jetbrains.mps.baseLanguage.structure.ForStatement" fileName="LayoutOptimizer.java" startLine="34" startPosition="56" endLine="51" endPosition="9">
+    <scopeInfo nodeId="6494745554568988219" conceptFqName="jetbrains.mps.baseLanguage.structure.ForStatement" fileName="LayoutOptimizer.java" startLine="35" startPosition="56" endLine="52" endPosition="9">
       <varInfo nodeId="6494745554568988220" varName="i" />
     </scopeInfo>
-    <scopeInfo nodeId="5639900666367306620" fileName="LayoutOptimizer.java" startLine="101" startPosition="100" endLine="118" endPosition="7">
+    <scopeInfo nodeId="5639900666367306620" fileName="LayoutOptimizer.java" startLine="102" startPosition="100" endLine="119" endPosition="7">
       <varInfo nodeId="2913448412765282858" varName="myNode" />
       <varInfo nodeId="5639900666367306654" varName="nodeRect" />
     </scopeInfo>
-    <scopeInfo nodeId="6494745554568987916" fileName="LayoutOptimizer.java" startLine="32" startPosition="102" endLine="51" endPosition="9">
+    <scopeInfo nodeId="6494745554568987916" fileName="LayoutOptimizer.java" startLine="33" startPosition="102" endLine="52" endPosition="9">
       <varInfo nodeId="2913448412765282845" varName="myEdge" />
       <varInfo nodeId="6494745554568988206" varName="path" />
     </scopeInfo>
-    <scopeInfo nodeId="5639900666367306617" conceptFqName="jetbrains.mps.baseLanguage.structure.ForeachStatement" fileName="LayoutOptimizer.java" startLine="100" startPosition="55" endLine="119" endPosition="5" />
-    <scopeInfo nodeId="6494745554568987909" conceptFqName="jetbrains.mps.baseLanguage.structure.ForeachStatement" fileName="LayoutOptimizer.java" startLine="31" startPosition="34" endLine="52" endPosition="7" />
-    <scopeInfo nodeId="6494745554568987908" fileName="LayoutOptimizer.java" startLine="29" startPosition="27" endLine="52" endPosition="7" />
-    <scopeInfo nodeId="6494745554568987897" fileName="LayoutOptimizer.java" startLine="27" startPosition="27" endLine="53" endPosition="5">
+    <scopeInfo nodeId="5639900666367306617" conceptFqName="jetbrains.mps.baseLanguage.structure.ForeachStatement" fileName="LayoutOptimizer.java" startLine="101" startPosition="55" endLine="120" endPosition="5" />
+    <scopeInfo nodeId="6494745554568987909" conceptFqName="jetbrains.mps.baseLanguage.structure.ForeachStatement" fileName="LayoutOptimizer.java" startLine="32" startPosition="34" endLine="53" endPosition="7" />
+    <scopeInfo nodeId="6494745554568987908" fileName="LayoutOptimizer.java" startLine="30" startPosition="27" endLine="53" endPosition="7" />
+    <scopeInfo nodeId="6494745554568987897" fileName="LayoutOptimizer.java" startLine="28" startPosition="27" endLine="54" endPosition="5">
       <varInfo nodeId="6494745554568987903" varName="foundOptimize" />
     </scopeInfo>
-    <scopeInfo nodeId="6494745554568987894" conceptFqName="jetbrains.mps.baseLanguage.structure.InstanceMethodDeclaration" propertyString="optimize#()V" fileName="LayoutOptimizer.java" startLine="26" startPosition="0" endLine="55" endPosition="0" />
-    <scopeInfo nodeId="5639900666367221282" fileName="LayoutOptimizer.java" startLine="56" startPosition="62" endLine="85" endPosition="16">
+    <scopeInfo nodeId="6494745554568987894" conceptFqName="jetbrains.mps.baseLanguage.structure.InstanceMethodDeclaration" propertyString="optimize#()V" fileName="LayoutOptimizer.java" startLine="27" startPosition="0" endLine="56" endPosition="0" />
+    <scopeInfo nodeId="5639900666367221282" fileName="LayoutOptimizer.java" startLine="57" startPosition="62" endLine="86" endPosition="16">
       <varInfo nodeId="5639900666367221289" varName="verMid" />
       <varInfo nodeId="5639900666367221318" varName="zLike" />
     </scopeInfo>
-    <scopeInfo nodeId="5639900666367221279" conceptFqName="jetbrains.mps.baseLanguage.structure.InstanceMethodDeclaration" propertyString="tryChain#(Ljava/util/List;Ljetbrains/mps/graphLayout/graph/Edge;)Ljava/util/List;" fileName="LayoutOptimizer.java" startLine="55" startPosition="0" endLine="87" endPosition="0">
+    <scopeInfo nodeId="5639900666367221279" conceptFqName="jetbrains.mps.baseLanguage.structure.InstanceMethodDeclaration" propertyString="tryChain#(Ljava/util/List;Ljetbrains/mps/graphLayout/graph/Edge;)Ljava/util/List;" fileName="LayoutOptimizer.java" startLine="56" startPosition="0" endLine="88" endPosition="0">
       <varInfo nodeId="5639900666367306602" varName="edge" />
       <varInfo nodeId="5639900666367221284" varName="chain" />
     </scopeInfo>
-    <scopeInfo nodeId="6494745554568988278" fileName="LayoutOptimizer.java" startLine="100" startPosition="55" endLine="132" endPosition="16" />
-    <scopeInfo nodeId="6494745554568988275" conceptFqName="jetbrains.mps.baseLanguage.structure.InstanceMethodDeclaration" propertyString="testRect#(Ljetbrains/mps/graphLayout/intGeom2D/Rectangle;Ljetbrains/mps/graphLayout/graph/Edge;)Z" fileName="LayoutOptimizer.java" startLine="99" startPosition="0" endLine="134" endPosition="0">
+    <scopeInfo nodeId="6494745554568988278" fileName="LayoutOptimizer.java" startLine="101" startPosition="55" endLine="133" endPosition="16" />
+    <scopeInfo nodeId="6494745554568988275" conceptFqName="jetbrains.mps.baseLanguage.structure.InstanceMethodDeclaration" propertyString="testRect#(Ljetbrains/mps/graphLayout/intGeom2D/Rectangle;Ljetbrains/mps/graphLayout/graph/Edge;)Z" fileName="LayoutOptimizer.java" startLine="100" startPosition="0" endLine="135" endPosition="0">
       <varInfo nodeId="5639900666367306605" varName="edge" />
       <varInfo nodeId="6494745554568988283" varName="rect" />
     </scopeInfo>
-    <unitInfo nodeId="6494745554568982379" fileName="LayoutOptimizer.java" startLine="20" startPosition="0" endLine="150" endPosition="0" unitName="jetbrains.mps.graphLayout.stOrthogonalLayout.LayoutOptimizer" />
+    <unitInfo nodeId="6494745554568982379" fileName="LayoutOptimizer.java" startLine="21" startPosition="0" endLine="151" endPosition="0" unitName="jetbrains.mps.graphLayout.stOrthogonalLayout.LayoutOptimizer" />
   </root>
   <root nodeId="6984255766319277285">
     <nodeInfo nodeId="6984255766319281789" conceptFqName="jetbrains.mps.baseLanguage.structure.LocalVariableDeclarationStatement" fileName="VisibilityRepresentation.java" startLine="20" startPosition="97" endLine="21" endPosition="43" />
@@ -718,18 +718,18 @@
     <nodeInfo nodeId="6494745554568974966" conceptFqName="jetbrains.mps.baseLanguage.structure.ExpressionStatement" fileName="RectOrthogonalLayouter.java" startLine="240" startPosition="94" endLine="241" endPosition="38" />
     <nodeInfo nodeId="6160477238666701639" conceptFqName="jetbrains.mps.baseLanguage.structure.SingleLineComment" fileName="RectOrthogonalLayouter.java" startLine="242" startPosition="9" endLine="243" endPosition="63" />
     <nodeInfo nodeId="6160477238666605415" conceptFqName="jetbrains.mps.baseLanguage.structure.LocalVariableDeclarationStatement" fileName="RectOrthogonalLayouter.java" startLine="243" startPosition="63" endLine="244" endPosition="78" />
-    <nodeInfo nodeId="6160477238666605432" conceptFqName="jetbrains.mps.baseLanguage.structure.ExpressionStatement" fileName="RectOrthogonalLayouter.java" startLine="245" startPosition="93" endLine="246" endPosition="77" />
+    <nodeInfo nodeId="6160477238666605432" conceptFqName="jetbrains.mps.baseLanguage.structure.ExpressionStatement" fileName="RectOrthogonalLayouter.java" startLine="245" startPosition="80" endLine="246" endPosition="77" />
     <nodeInfo nodeId="6160477238666605443" conceptFqName="jetbrains.mps.baseLanguage.structure.LocalVariableDeclarationStatement" fileName="RectOrthogonalLayouter.java" startLine="247" startPosition="9" endLine="248" endPosition="78" />
-    <nodeInfo nodeId="6160477238666605454" conceptFqName="jetbrains.mps.baseLanguage.structure.ExpressionStatement" fileName="RectOrthogonalLayouter.java" startLine="249" startPosition="92" endLine="250" endPosition="71" />
+    <nodeInfo nodeId="6160477238666605454" conceptFqName="jetbrains.mps.baseLanguage.structure.ExpressionStatement" fileName="RectOrthogonalLayouter.java" startLine="249" startPosition="79" endLine="250" endPosition="71" />
     <nodeInfo nodeId="6160477238666701641" conceptFqName="jetbrains.mps.baseLanguage.structure.SingleLineComment" fileName="RectOrthogonalLayouter.java" startLine="251" startPosition="9" endLine="252" endPosition="38" />
     <nodeInfo nodeId="6160477238666701647" conceptFqName="jetbrains.mps.baseLanguage.structure.LocalVariableDeclarationStatement" fileName="RectOrthogonalLayouter.java" startLine="252" startPosition="38" endLine="253" endPosition="74" />
-    <nodeInfo nodeId="6160477238666701698" conceptFqName="jetbrains.mps.baseLanguage.structure.ExpressionStatement" fileName="RectOrthogonalLayouter.java" startLine="254" startPosition="52" endLine="255" endPosition="66" />
+    <nodeInfo nodeId="6160477238666701698" conceptFqName="jetbrains.mps.baseLanguage.structure.ExpressionStatement" fileName="RectOrthogonalLayouter.java" startLine="254" startPosition="42" endLine="255" endPosition="66" />
     <nodeInfo nodeId="6160477238666701706" conceptFqName="jetbrains.mps.baseLanguage.structure.ExpressionStatement" fileName="RectOrthogonalLayouter.java" startLine="255" startPosition="66" endLine="256" endPosition="66" />
-    <nodeInfo nodeId="6160477238666701973" conceptFqName="jetbrains.mps.baseLanguage.structure.ExpressionStatement" fileName="RectOrthogonalLayouter.java" startLine="256" startPosition="66" endLine="257" endPosition="153" />
+    <nodeInfo nodeId="6160477238666701973" conceptFqName="jetbrains.mps.baseLanguage.structure.ExpressionStatement" fileName="RectOrthogonalLayouter.java" startLine="256" startPosition="66" endLine="257" endPosition="159" />
     <nodeInfo nodeId="6160477238666701996" conceptFqName="jetbrains.mps.baseLanguage.structure.LocalVariableDeclarationStatement" fileName="RectOrthogonalLayouter.java" startLine="258" startPosition="9" endLine="259" endPosition="125" />
-    <nodeInfo nodeId="6160477238666702004" conceptFqName="jetbrains.mps.baseLanguage.structure.ExpressionStatement" fileName="RectOrthogonalLayouter.java" startLine="260" startPosition="56" endLine="261" endPosition="67" />
+    <nodeInfo nodeId="6160477238666702004" conceptFqName="jetbrains.mps.baseLanguage.structure.ExpressionStatement" fileName="RectOrthogonalLayouter.java" startLine="260" startPosition="46" endLine="261" endPosition="67" />
     <nodeInfo nodeId="6160477238666702008" conceptFqName="jetbrains.mps.baseLanguage.structure.ExpressionStatement" fileName="RectOrthogonalLayouter.java" startLine="261" startPosition="67" endLine="262" endPosition="67" />
-    <nodeInfo nodeId="6160477238666702012" conceptFqName="jetbrains.mps.baseLanguage.structure.ExpressionStatement" fileName="RectOrthogonalLayouter.java" startLine="262" startPosition="67" endLine="263" endPosition="150" />
+    <nodeInfo nodeId="6160477238666702012" conceptFqName="jetbrains.mps.baseLanguage.structure.ExpressionStatement" fileName="RectOrthogonalLayouter.java" startLine="262" startPosition="67" endLine="263" endPosition="156" />
     <nodeInfo nodeId="6494745554568974973" conceptFqName="jetbrains.mps.baseLanguage.structure.ExpressionStatement" fileName="RectOrthogonalLayouter.java" startLine="264" startPosition="9" endLine="265" endPosition="57" />
     <nodeInfo nodeId="5639900666367677380" conceptFqName="jetbrains.mps.baseLanguage.structure.LocalVariableDeclarationStatement" fileName="RectOrthogonalLayouter.java" startLine="266" startPosition="14" endLine="267" endPosition="68" />
     <nodeInfo nodeId="5639900666367677366" conceptFqName="jetbrains.mps.baseLanguage.structure.ExpressionStatement" fileName="RectOrthogonalLayouter.java" startLine="267" startPosition="68" endLine="268" endPosition="78" />
@@ -925,8 +925,8 @@
     <scopeInfo nodeId="6494745554568978523" fileName="RectOrthogonalLayouter.java" startLine="205" startPosition="40" endLine="206" endPosition="74" />
     <scopeInfo nodeId="8680836410351711987" fileName="RectOrthogonalLayouter.java" startLine="221" startPosition="38" endLine="222" endPosition="72" />
     <scopeInfo nodeId="8680836410351716977" fileName="RectOrthogonalLayouter.java" startLine="226" startPosition="40" endLine="227" endPosition="74" />
-    <scopeInfo nodeId="6160477238666605391" fileName="RectOrthogonalLayouter.java" startLine="245" startPosition="93" endLine="246" endPosition="77" />
-    <scopeInfo nodeId="6160477238666605453" fileName="RectOrthogonalLayouter.java" startLine="249" startPosition="92" endLine="250" endPosition="71" />
+    <scopeInfo nodeId="6160477238666605391" fileName="RectOrthogonalLayouter.java" startLine="245" startPosition="80" endLine="246" endPosition="77" />
+    <scopeInfo nodeId="6160477238666605453" fileName="RectOrthogonalLayouter.java" startLine="249" startPosition="79" endLine="250" endPosition="71" />
     <scopeInfo nodeId="6494745554568974989" fileName="RectOrthogonalLayouter.java" startLine="272" startPosition="38" endLine="273" endPosition="28" />
     <scopeInfo nodeId="6494745554568975015" fileName="RectOrthogonalLayouter.java" startLine="279" startPosition="64" endLine="280" endPosition="73" />
     <scopeInfo nodeId="903391227141292644" fileName="RectOrthogonalLayouter.java" startLine="293" startPosition="56" endLine="294" endPosition="71" />
@@ -964,8 +964,8 @@
     <scopeInfo nodeId="1177671074986683362" fileName="RectOrthogonalLayouter.java" startLine="146" startPosition="85" endLine="149" endPosition="57" />
     <scopeInfo nodeId="490728924230506890" fileName="RectOrthogonalLayouter.java" startLine="155" startPosition="63" endLine="158" endPosition="7" />
     <scopeInfo nodeId="903391227141137572" conceptFqName="jetbrains.mps.baseLanguage.structure.ForeachStatement" fileName="RectOrthogonalLayouter.java" startLine="160" startPosition="73" endLine="163" endPosition="5" />
-    <scopeInfo nodeId="6160477238666701658" fileName="RectOrthogonalLayouter.java" startLine="254" startPosition="52" endLine="257" endPosition="153" />
-    <scopeInfo nodeId="6160477238666702003" fileName="RectOrthogonalLayouter.java" startLine="260" startPosition="56" endLine="263" endPosition="150" />
+    <scopeInfo nodeId="6160477238666701658" fileName="RectOrthogonalLayouter.java" startLine="254" startPosition="42" endLine="257" endPosition="159" />
+    <scopeInfo nodeId="6160477238666702003" fileName="RectOrthogonalLayouter.java" startLine="260" startPosition="46" endLine="263" endPosition="156" />
     <scopeInfo nodeId="6494745554568975011" conceptFqName="jetbrains.mps.baseLanguage.structure.ForeachStatement" fileName="RectOrthogonalLayouter.java" startLine="278" startPosition="71" endLine="281" endPosition="7" />
     <scopeInfo nodeId="903391227141292641" conceptFqName="jetbrains.mps.baseLanguage.structure.ForeachStatement" fileName="RectOrthogonalLayouter.java" startLine="292" startPosition="43" endLine="295" endPosition="9" />
     <scopeInfo nodeId="903391227141136172" fileName="RectOrthogonalLayouter.java" startLine="47" startPosition="35" endLine="51" endPosition="22" />

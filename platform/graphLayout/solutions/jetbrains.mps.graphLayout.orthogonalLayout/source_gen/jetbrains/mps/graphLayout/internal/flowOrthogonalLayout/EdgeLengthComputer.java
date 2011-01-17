@@ -6,7 +6,7 @@ import java.util.Map;
 import jetbrains.mps.graphLayout.graph.Edge;
 import jetbrains.mps.graphLayout.planarGraph.EmbeddedGraph;
 import jetbrains.mps.graphLayout.planarGraph.Dart;
-import jetbrains.mps.graphLayout.util.Direction2D;
+import jetbrains.mps.graphLayout.intGeom2D.Direction2D;
 import jetbrains.mps.internal.collections.runtime.MapSequence;
 import java.util.HashMap;
 import jetbrains.mps.internal.collections.runtime.ListSequence;

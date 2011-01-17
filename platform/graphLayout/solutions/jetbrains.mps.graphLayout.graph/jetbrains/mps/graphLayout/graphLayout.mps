@@ -1095,9 +1095,9 @@
             <node role="type" roleId="tpee.5680397130376446158" type="tpee.ClassifierType" typeId="tpee.1107535904670" id="2301768597858221736">
               <link role="classifier" roleId="tpee.1107535924139" targetNodeId="8rsx.2301768597858221425" resolveInfo="Point" />
             </node>
-            <node role="initializer" roleId="tpee.1068431790190" type="tpee.StaticMethodCall" typeId="tpee.1081236700937" id="1265453300920958934">
-              <link role="baseMethodDeclaration" roleId="tpee.1068499141037" targetNodeId="x9z7.272112265222926837" resolveInfo="moveToBorder" />
-              <link role="classConcept" roleId="tpee.1144433194310" targetNodeId="x9z7.5639900666367221336" resolveInfo="GeomUtil" />
+            <node role="initializer" roleId="tpee.1068431790190" type="tpee.StaticMethodCall" typeId="tpee.1081236700937" id="1705599667576531524">
+              <link role="baseMethodDeclaration" roleId="tpee.1068499141037" targetNodeId="8rsx.1705599667576531360" resolveInfo="moveToBorder" />
+              <link role="classConcept" roleId="tpee.1144433194310" targetNodeId="8rsx.1966465523159400126" resolveInfo="OrthogonalUtil" />
               <node role="actualArgument" roleId="tpee.1068499141038" type="tpee.LocalVariableReference" typeId="tpee.1068581242866" id="2301768597858221735">
                 <link role="variableDeclaration" roleId="tpee.1068581517664" targetNodeId="1265453300920958910" resolveInfo="rect" />
               </node>
@@ -1170,9 +1170,9 @@
             <node role="lValue" roleId="tpee.1068498886295" type="tpee.LocalVariableReference" typeId="tpee.1068581242866" id="1265453300920958963">
               <link role="variableDeclaration" roleId="tpee.1068581517664" targetNodeId="1265453300920958912" resolveInfo="p" />
             </node>
-            <node role="rValue" roleId="tpee.1068498886297" type="tpee.StaticMethodCall" typeId="tpee.1081236700937" id="1265453300920958964">
-              <link role="classConcept" roleId="tpee.1144433194310" targetNodeId="x9z7.5639900666367221336" resolveInfo="GeomUtil" />
-              <link role="baseMethodDeclaration" roleId="tpee.1068499141037" targetNodeId="x9z7.272112265222926837" resolveInfo="moveToBorder" />
+            <node role="rValue" roleId="tpee.1068498886297" type="tpee.StaticMethodCall" typeId="tpee.1081236700937" id="1705599667576531525">
+              <link role="baseMethodDeclaration" roleId="tpee.1068499141037" targetNodeId="8rsx.1705599667576531360" resolveInfo="moveToBorder" />
+              <link role="classConcept" roleId="tpee.1144433194310" targetNodeId="8rsx.1966465523159400126" resolveInfo="OrthogonalUtil" />
               <node role="actualArgument" roleId="tpee.1068499141038" type="tpee.LocalVariableReference" typeId="tpee.1068581242866" id="1265453300920958965">
                 <link role="variableDeclaration" roleId="tpee.1068581517664" targetNodeId="1265453300920958910" resolveInfo="rect" />
               </node>
@@ -5241,9 +5241,9 @@
                         <node role="actualArgument" roleId="tpee.1068499141038" type="tp2q.ForEachVariableReference" typeId="tp2q.1153944233411" id="1714301205550512383">
                           <link role="variable" roleId="tp2q.1153944258490" targetNodeId="1714301205550512328" resolveInfo="node" />
                         </node>
-                        <node role="actualArgument" roleId="tpee.1068499141038" type="tpee.StaticMethodCall" typeId="tpee.1081236700937" id="1714301205550512384">
-                          <link role="baseMethodDeclaration" roleId="tpee.1068499141037" targetNodeId="x9z7.5327124464817432472" resolveInfo="getContainingRectangle" />
-                          <link role="classConcept" roleId="tpee.1144433194310" targetNodeId="x9z7.5639900666367221336" resolveInfo="GeomUtil" />
+                        <node role="actualArgument" roleId="tpee.1068499141038" type="tpee.StaticMethodCall" typeId="tpee.1081236700937" id="2135502080755100180">
+                          <link role="baseMethodDeclaration" roleId="tpee.1068499141037" targetNodeId="8rsx.2135502080755100109" resolveInfo="getContainingRectangle" />
+                          <link role="classConcept" roleId="tpee.1144433194310" targetNodeId="8rsx.2301768597858223105" resolveInfo="GeomUtil" />
                           <node role="actualArgument" roleId="tpee.1068499141038" type="tpee.LocalVariableReference" typeId="tpee.1068581242866" id="1714301205550512385">
                             <link role="variableDeclaration" roleId="tpee.1068581517664" targetNodeId="1714301205550512332" resolveInfo="clusterLayout" />
                           </node>
@@ -5669,9 +5669,9 @@
                           <node role="type" roleId="tpee.5680397130376446158" type="tpee.ClassifierType" typeId="tpee.1107535904670" id="1714301205550513264">
                             <link role="classifier" roleId="tpee.1107535924139" targetNodeId="8rsx.2301768597858221425" resolveInfo="Point" />
                           </node>
-                          <node role="initializer" roleId="tpee.1068431790190" type="tpee.StaticMethodCall" typeId="tpee.1081236700937" id="1714301205550513267">
-                            <link role="baseMethodDeclaration" roleId="tpee.1068499141037" targetNodeId="8rsx.1714301205550512515" resolveInfo="intersectGrid" />
-                            <link role="classConcept" roleId="tpee.1144433194310" targetNodeId="8rsx.2301768597858223105" resolveInfo="GeomUtil" />
+                          <node role="initializer" roleId="tpee.1068431790190" type="tpee.StaticMethodCall" typeId="tpee.1081236700937" id="1705599667576621726">
+                            <link role="baseMethodDeclaration" roleId="tpee.1068499141037" targetNodeId="8rsx.1705599667576621618" resolveInfo="intersectGrid" />
+                            <link role="classConcept" roleId="tpee.1144433194310" targetNodeId="8rsx.1966465523159400126" resolveInfo="OrthogonalUtil" />
                             <node role="actualArgument" roleId="tpee.1068499141038" type="tpee.LocalVariableReference" typeId="tpee.1068581242866" id="1714301205550513268">
                               <link role="variableDeclaration" roleId="tpee.1068581517664" targetNodeId="1714301205550512569" resolveInfo="p" />
                             </node>

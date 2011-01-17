@@ -29,9 +29,9 @@ import jetbrains.mps.graphLayout.planarGraph.Dart;
 import jetbrains.mps.graphLayout.flowOrthogonalLayout.QuasiOrthogonalRepresentation;
 import jetbrains.mps.graphLayout.flowOrthogonalLayout.QuasiRepresentationModifier;
 import jetbrains.mps.graphLayout.flowOrthogonalLayout.OrthogonalRepresentation;
-import jetbrains.mps.graphLayout.util.Direction2D;
+import jetbrains.mps.graphLayout.intGeom2D.Direction2D;
 import jetbrains.mps.internal.collections.runtime.backports.LinkedList;
-import jetbrains.mps.graphLayout.util.GeomUtil;
+import jetbrains.mps.graphLayout.intGeom2D.OrthogonalUtil;
 import java.util.Iterator;
 
 public class OrthogonalFlowLabelProcessing {
@@ -418,10 +418,10 @@ public class OrthogonalFlowLabelProcessing {
     Node node = modification.getSource();
     Direction2D dartsDir;
     if (firstEdge.getSource() == node) {
-      dartsDir = GeomUtil.getDirection(ListSequence.fromList(path).getElement(0), ListSequence.fromList(path).getElement(1));
+      dartsDir = OrthogonalUtil.getDirection(ListSequence.fromList(path).getElement(0), ListSequence.fromList(path).getElement(1));
     } else {
       int last = ListSequence.fromList(path).count() - 1;
-      dartsDir = GeomUtil.getDirection(ListSequence.fromList(path).getElement(last), ListSequence.fromList(path).getElement(last - 1));
+      dartsDir = OrthogonalUtil.getDirection(ListSequence.fromList(path).getElement(last), ListSequence.fromList(path).getElement(last - 1));
     }
     Direction2D shiftDir = dartsDir.turnClockwise(3);
     int dx = shiftDir.dx();

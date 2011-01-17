@@ -14,9 +14,10 @@ import jetbrains.mps.graphLayout.graph.IGraph;
 import jetbrains.mps.internal.collections.runtime.ListSequence;
 import java.util.List;
 import jetbrains.mps.graphLayout.intGeom2D.Point;
-import jetbrains.mps.graphLayout.util.GeomUtil;
+import jetbrains.mps.graphLayout.intGeom2D.GeomUtil;
 import jetbrains.mps.graphLayout.intGeom2D.Rectangle;
 import jetbrains.mps.internal.collections.runtime.backports.LinkedList;
+import jetbrains.mps.graphLayout.intGeom2D.OrthogonalUtil;
 import jetbrains.mps.graphLayout.intGeom2D.Dimension;
 import jetbrains.mps.internal.collections.runtime.SetSequence;
 
@@ -109,7 +110,7 @@ public class HyperGraphLayouter extends BasicLayouter {
         }
         Point bp = cornerPoints[3];
         for (Point bq : cornerPoints) {
-          Point res = jetbrains.mps.graphLayout.intGeom2D.GeomUtil.intersectGrid(p, q, bp, bq);
+          Point res = OrthogonalUtil.intersects(p, q, bp, bq);
           if (res != null) {
             ListSequence.fromList(newRoute).addElement(res);
             if (!(res.equals(q))) {

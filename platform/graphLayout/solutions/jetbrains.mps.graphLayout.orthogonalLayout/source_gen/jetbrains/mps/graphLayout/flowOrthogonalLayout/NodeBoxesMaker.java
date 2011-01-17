@@ -6,7 +6,7 @@ import jetbrains.mps.graphLayout.graph.Graph;
 import jetbrains.mps.graphLayout.planarGraph.EmbeddedGraph;
 import java.util.Map;
 import jetbrains.mps.graphLayout.planarGraph.Dart;
-import jetbrains.mps.graphLayout.util.Direction2D;
+import jetbrains.mps.graphLayout.intGeom2D.Direction2D;
 import java.util.Set;
 import jetbrains.mps.graphLayout.planarGraph.Face;
 import jetbrains.mps.graphLayout.graph.Edge;

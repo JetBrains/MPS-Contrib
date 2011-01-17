@@ -4,6 +4,9 @@
       <root url="jar://$PROJECT_DIR$/lib/trove4j.jar!/" />
     </CLASSES>
     <JAVADOC />
-    <SOURCES />
+    <SOURCES>
+      <root url="jar://$PROJECT_DIR$/lib/trove4j_src.jar!/util/src" />
+      <root url="jar://$PROJECT_DIR$/lib/trove4j_src.jar!/src" />
+    </SOURCES>
   </library>
 </component>

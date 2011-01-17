@@ -17,7 +17,7 @@ import java.util.HashMap;
 import jetbrains.mps.graphLayout.flowOrthogonalLayout.QuasiOrthogonalRepresentation;
 import jetbrains.mps.graphLayout.flowOrthogonalLayout.QuasiRepresentationModifier;
 import jetbrains.mps.graphLayout.flowOrthogonalLayout.OrthogonalRepresentation;
-import jetbrains.mps.graphLayout.util.Direction2D;
+import jetbrains.mps.graphLayout.intGeom2D.Direction2D;
 import jetbrains.mps.graphLayout.internal.flowOrthogonalLayout.ConstraintsGraphProcessor;
 
 public class ConstraintsGraphStressTest {

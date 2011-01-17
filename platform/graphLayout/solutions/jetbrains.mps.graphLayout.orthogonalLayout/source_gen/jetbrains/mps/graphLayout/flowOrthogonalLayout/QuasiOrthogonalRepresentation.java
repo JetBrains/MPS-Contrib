@@ -274,6 +274,7 @@ public class QuasiOrthogonalRepresentation {
 
   private int getCapacity(Edge edge) {
     if (SetSequence.fromSet(myStraightEdges).contains(edge)) {
+      System.out.println("edge " + edge + " is straight");
       return 0;
     } else {
       return INF;

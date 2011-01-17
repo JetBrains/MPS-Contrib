@@ -21,7 +21,7 @@ import jetbrains.mps.graphLayout.graph.Edge;
 import java.util.HashMap;
 import jetbrains.mps.graphLayout.planarGraph.Dart;
 import jetbrains.mps.graphLayout.flowOrthogonalLayout.OrthogonalRepresentation;
-import jetbrains.mps.graphLayout.util.Direction2D;
+import jetbrains.mps.graphLayout.intGeom2D.Direction2D;
 import java.util.LinkedHashMap;
 import jetbrains.mps.graphLayout.planarGraph.CheckEmbeddedGraph;
 import junit.framework.Assert;

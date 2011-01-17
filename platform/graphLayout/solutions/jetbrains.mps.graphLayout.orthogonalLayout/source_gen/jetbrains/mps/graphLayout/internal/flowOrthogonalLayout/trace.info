@@ -72,7 +72,7 @@
     <nodeInfo nodeId="1763712338172394412" conceptFqName="jetbrains.mps.baseLanguage.structure.InstanceMethodDeclaration" propertyString="compute#(Ljetbrains/mps/graphLayout/planarGraph/EmbeddedGraph;Ljava/util/Map;Ljava/util/Map;)Ljava/util/Map;" fileName="EdgeLengthComputer.java" startLine="36" startPosition="0" endLine="57" endPosition="0" />
     <nodeInfo nodeId="1763712338172394670" conceptFqName="jetbrains.mps.baseLanguage.structure.IfStatement" fileName="EdgeLengthComputer.java" startLine="82" startPosition="9" endLine="107" endPosition="7" />
     <nodeInfo nodeId="1763712338172394645" conceptFqName="jetbrains.mps.baseLanguage.structure.ForeachStatement" fileName="EdgeLengthComputer.java" startLine="76" startPosition="47" endLine="108" endPosition="5" />
-    <nodeInfo nodeId="1763712338172394522" conceptFqName="jetbrains.mps.baseLanguage.structure.InstanceMethodDeclaration" propertyString="computeEdgeLengths#(Ljetbrains/mps/graphLayout/planarGraph/EmbeddedGraph;Ljava/util/Map;Ljetbrains/mps/graphLayout/util/Direction2D;Ljava/util/Map;)Ljava/util/Map;" fileName="EdgeLengthComputer.java" startLine="57" startPosition="0" endLine="118" endPosition="0" />
+    <nodeInfo nodeId="1763712338172394522" conceptFqName="jetbrains.mps.baseLanguage.structure.InstanceMethodDeclaration" propertyString="computeEdgeLengths#(Ljetbrains/mps/graphLayout/planarGraph/EmbeddedGraph;Ljava/util/Map;Ljetbrains/mps/graphLayout/intGeom2D/Direction2D;Ljava/util/Map;)Ljava/util/Map;" fileName="EdgeLengthComputer.java" startLine="57" startPosition="0" endLine="118" endPosition="0" />
     <scopeInfo nodeId="1763712338172394842" fileName="EdgeLengthComputer.java" startLine="25" startPosition="31" endLine="26" endPosition="50" />
     <scopeInfo nodeId="1763712338172394385" fileName="EdgeLengthComputer.java" startLine="29" startPosition="41" endLine="30" endPosition="26" />
     <scopeInfo nodeId="1763712338172394397" fileName="EdgeLengthComputer.java" startLine="33" startPosition="101" endLine="34" endPosition="97" />
@@ -142,7 +142,7 @@
       <varInfo nodeId="1763712338172394609" varName="cost" />
       <varInfo nodeId="1763712338172394535" varName="network" />
     </scopeInfo>
-    <scopeInfo nodeId="1763712338172394522" conceptFqName="jetbrains.mps.baseLanguage.structure.InstanceMethodDeclaration" propertyString="computeEdgeLengths#(Ljetbrains/mps/graphLayout/planarGraph/EmbeddedGraph;Ljava/util/Map;Ljetbrains/mps/graphLayout/util/Direction2D;Ljava/util/Map;)Ljava/util/Map;" fileName="EdgeLengthComputer.java" startLine="57" startPosition="0" endLine="118" endPosition="0">
+    <scopeInfo nodeId="1763712338172394522" conceptFqName="jetbrains.mps.baseLanguage.structure.InstanceMethodDeclaration" propertyString="computeEdgeLengths#(Ljetbrains/mps/graphLayout/planarGraph/EmbeddedGraph;Ljava/util/Map;Ljetbrains/mps/graphLayout/intGeom2D/Direction2D;Ljava/util/Map;)Ljava/util/Map;" fileName="EdgeLengthComputer.java" startLine="57" startPosition="0" endLine="118" endPosition="0">
       <varInfo nodeId="1763712338172394829" varName="directions" />
       <varInfo nodeId="1763712338172394833" varName="direction" />
       <varInfo nodeId="1763712338172394827" varName="embeddedGraph" />
@@ -433,8 +433,8 @@
     <nodeInfo nodeId="1763712338172395819" conceptFqName="jetbrains.mps.baseLanguage.structure.InstanceMethodDeclaration" propertyString="getCoordinatesInModifiedGraph#(Ljetbrains/mps/graphLayout/graph/EdgesHistoryManager;)Ljava/util/Map;" fileName="ConstraintsGraphProcessor.java" startLine="239" startPosition="0" endLine="243" endPosition="0" />
     <nodeInfo nodeId="1763712338172395890" conceptFqName="jetbrains.mps.baseLanguage.structure.ForeachStatement" fileName="ConstraintsGraphProcessor.java" startLine="255" startPosition="93" endLine="259" endPosition="7" />
     <nodeInfo nodeId="1763712338172396340" conceptFqName="jetbrains.mps.baseLanguage.structure.InstanceMethodDeclaration" propertyString="accept#(Ljetbrains/mps/graphLayout/graph/Edge;)Z" fileName="ConstraintsGraphProcessor.java" startLine="345" startPosition="102" endLine="349" endPosition="0" />
-    <nodeInfo nodeId="1763712338172396472" conceptFqName="jetbrains.mps.baseLanguage.structure.InstanceMethodDeclaration" propertyString="invoke#(Ljetbrains/mps/graphLayout/util/Direction2D;)Ljava/lang/Boolean;" fileName="ConstraintsGraphProcessor.java" startLine="375" startPosition="119" endLine="379" endPosition="0" />
-    <nodeInfo nodeId="1763712338172396494" conceptFqName="jetbrains.mps.baseLanguage.structure.InstanceMethodDeclaration" propertyString="invoke#(Ljetbrains/mps/graphLayout/util/Direction2D;)Ljava/lang/Boolean;" fileName="ConstraintsGraphProcessor.java" startLine="381" startPosition="119" endLine="385" endPosition="0" />
+    <nodeInfo nodeId="1763712338172396472" conceptFqName="jetbrains.mps.baseLanguage.structure.InstanceMethodDeclaration" propertyString="invoke#(Ljetbrains/mps/graphLayout/intGeom2D/Direction2D;)Ljava/lang/Boolean;" fileName="ConstraintsGraphProcessor.java" startLine="375" startPosition="119" endLine="379" endPosition="0" />
+    <nodeInfo nodeId="1763712338172396494" conceptFqName="jetbrains.mps.baseLanguage.structure.InstanceMethodDeclaration" propertyString="invoke#(Ljetbrains/mps/graphLayout/intGeom2D/Direction2D;)Ljava/lang/Boolean;" fileName="ConstraintsGraphProcessor.java" startLine="381" startPosition="119" endLine="385" endPosition="0" />
     <nodeInfo nodeId="1763712338172396574" conceptFqName="jetbrains.mps.baseLanguage.structure.ForeachStatement" fileName="ConstraintsGraphProcessor.java" startLine="401" startPosition="46" endLine="405" endPosition="7" />
     <nodeInfo nodeId="1763712338172396632" conceptFqName="jetbrains.mps.baseLanguage.structure.InstanceMethodDeclaration" propertyString="accept#(Ljetbrains/mps/graphLayout/planarGraph/Dart;)Z" fileName="ConstraintsGraphProcessor.java" startLine="412" startPosition="110" endLine="416" endPosition="0" />
     <nodeInfo nodeId="1763712338172396810" conceptFqName="jetbrains.mps.baseLanguage.structure.IfStatement" fileName="ConstraintsGraphProcessor.java" startLine="454" startPosition="71" endLine="458" endPosition="9" />
@@ -500,9 +500,9 @@
     <nodeInfo nodeId="1763712338172395527" conceptFqName="jetbrains.mps.baseLanguage.structure.ForeachStatement" fileName="ConstraintsGraphProcessor.java" startLine="170" startPosition="27" endLine="182" endPosition="7" />
     <nodeInfo nodeId="1763712338172395757" conceptFqName="jetbrains.mps.baseLanguage.structure.InstanceMethodDeclaration" propertyString="getCoordinates#()Ljava/util/Map;" fileName="ConstraintsGraphProcessor.java" startLine="227" startPosition="0" endLine="239" endPosition="0" />
     <nodeInfo nodeId="1763712338172395200" conceptFqName="jetbrains.mps.baseLanguage.structure.ForeachStatement" fileName="ConstraintsGraphProcessor.java" startLine="98" startPosition="24" endLine="111" endPosition="5" />
-    <nodeInfo nodeId="1763712338172396959" conceptFqName="jetbrains.mps.baseLanguage.structure.InstanceMethodDeclaration" propertyString="getSegmentEndSegments#(Ljetbrains/mps/graphLayout/graph/Node;Ljetbrains/mps/graphLayout/util/Direction2D;)[Ljetbrains/mps/graphLayout/graph/Node;" fileName="ConstraintsGraphProcessor.java" startLine="496" startPosition="0" endLine="510" endPosition="0" />
+    <nodeInfo nodeId="1763712338172396959" conceptFqName="jetbrains.mps.baseLanguage.structure.InstanceMethodDeclaration" propertyString="getSegmentEndSegments#(Ljetbrains/mps/graphLayout/graph/Node;Ljetbrains/mps/graphLayout/intGeom2D/Direction2D;)[Ljetbrains/mps/graphLayout/graph/Node;" fileName="ConstraintsGraphProcessor.java" startLine="496" startPosition="0" endLine="510" endPosition="0" />
     <nodeInfo nodeId="1763712338172395099" conceptFqName="jetbrains.mps.baseLanguage.structure.ForeachStatement" fileName="ConstraintsGraphProcessor.java" startLine="75" startPosition="74" endLine="90" endPosition="7" />
-    <nodeInfo nodeId="1763712338172396619" conceptFqName="jetbrains.mps.baseLanguage.structure.InstanceMethodDeclaration" propertyString="connect#(Ljetbrains/mps/graphLayout/graph/Edge;Ljetbrains/mps/graphLayout/util/Direction2D;Ljava/util/Map;)Ljetbrains/mps/graphLayout/graph/Edge;" fileName="ConstraintsGraphProcessor.java" startLine="410" startPosition="0" endLine="425" endPosition="0" />
+    <nodeInfo nodeId="1763712338172396619" conceptFqName="jetbrains.mps.baseLanguage.structure.InstanceMethodDeclaration" propertyString="connect#(Ljetbrains/mps/graphLayout/graph/Edge;Ljetbrains/mps/graphLayout/intGeom2D/Direction2D;Ljava/util/Map;)Ljetbrains/mps/graphLayout/graph/Edge;" fileName="ConstraintsGraphProcessor.java" startLine="410" startPosition="0" endLine="425" endPosition="0" />
     <nodeInfo nodeId="1763712338172397084" conceptFqName="jetbrains.mps.baseLanguage.structure.ForeachStatement" fileName="ConstraintsGraphProcessor.java" startLine="525" startPosition="30" endLine="540" endPosition="5" />
     <nodeInfo nodeId="1763712338172395196" conceptFqName="jetbrains.mps.baseLanguage.structure.InstanceMethodDeclaration" propertyString="print#()V" fileName="ConstraintsGraphProcessor.java" startLine="97" startPosition="0" endLine="113" endPosition="0" />
     <nodeInfo nodeId="1763712338172396048" conceptFqName="jetbrains.mps.baseLanguage.structure.ForeachStatement" fileName="ConstraintsGraphProcessor.java" startLine="281" startPosition="24" endLine="299" endPosition="5" />
@@ -515,12 +515,12 @@
     <nodeInfo nodeId="1763712338172395600" conceptFqName="jetbrains.mps.baseLanguage.structure.InstanceMethodDeclaration" propertyString="splitEdge#(Ljetbrains/mps/graphLayout/graph/Edge;)Ljetbrains/mps/graphLayout/graph/Node;" fileName="ConstraintsGraphProcessor.java" startLine="187" startPosition="0" endLine="208" endPosition="0" />
     <nodeInfo nodeId="1763712338172396762" conceptFqName="jetbrains.mps.baseLanguage.structure.ForeachStatement" fileName="ConstraintsGraphProcessor.java" startLine="444" startPosition="36" endLine="466" endPosition="5" />
     <nodeInfo nodeId="1763712338172395064" conceptFqName="jetbrains.mps.baseLanguage.structure.ForeachStatement" fileName="ConstraintsGraphProcessor.java" startLine="68" startPosition="70" endLine="91" endPosition="5" />
-    <nodeInfo nodeId="1763712338172396322" conceptFqName="jetbrains.mps.baseLanguage.structure.InstanceMethodDeclaration" propertyString="connectConstraintsNodes#(Ljetbrains/mps/graphLayout/graph/Node;Ljetbrains/mps/graphLayout/graph/Node;Ljetbrains/mps/graphLayout/util/Direction2D;)V" fileName="ConstraintsGraphProcessor.java" startLine="342" startPosition="0" endLine="367" endPosition="0" />
+    <nodeInfo nodeId="1763712338172396322" conceptFqName="jetbrains.mps.baseLanguage.structure.InstanceMethodDeclaration" propertyString="connectConstraintsNodes#(Ljetbrains/mps/graphLayout/graph/Node;Ljetbrains/mps/graphLayout/graph/Node;Ljetbrains/mps/graphLayout/intGeom2D/Direction2D;)V" fileName="ConstraintsGraphProcessor.java" startLine="342" startPosition="0" endLine="367" endPosition="0" />
     <nodeInfo nodeId="1763712338172396758" conceptFqName="jetbrains.mps.baseLanguage.structure.InstanceMethodDeclaration" propertyString="checkCompleteness#()V" fileName="ConstraintsGraphProcessor.java" startLine="443" startPosition="0" endLine="468" endPosition="0" />
     <nodeInfo nodeId="1763712338172395049" conceptFqName="jetbrains.mps.baseLanguage.structure.InstanceMethodDeclaration" propertyString="modifyEmbeddedGraph#(Ljava/lang/Iterable;Ljava/util/Map;)V" fileName="ConstraintsGraphProcessor.java" startLine="65" startPosition="0" endLine="97" endPosition="0" />
     <nodeInfo nodeId="1763712338172395829" conceptFqName="jetbrains.mps.baseLanguage.structure.InstanceMethodDeclaration" propertyString="getCoordinatesInModifiedGraph#(Ljava/util/Map;Ljava/util/Map;Ljetbrains/mps/graphLayout/graph/EdgesHistoryManager;)Ljava/util/Map;" fileName="ConstraintsGraphProcessor.java" startLine="243" startPosition="0" endLine="276" endPosition="0" />
     <nodeInfo nodeId="1763712338172396455" conceptFqName="jetbrains.mps.baseLanguage.structure.InstanceMethodDeclaration" propertyString="getShape#()V" fileName="ConstraintsGraphProcessor.java" startLine="372" startPosition="0" endLine="410" endPosition="0" />
-    <nodeInfo nodeId="1763712338172397019" conceptFqName="jetbrains.mps.baseLanguage.structure.InstanceMethodDeclaration" propertyString="getSegmentEnds#(Ljetbrains/mps/graphLayout/graph/Node;Ljetbrains/mps/graphLayout/util/Direction2D;)[Ljetbrains/mps/graphLayout/graph/Node;" fileName="ConstraintsGraphProcessor.java" startLine="510" startPosition="0" endLine="552" endPosition="0" />
+    <nodeInfo nodeId="1763712338172397019" conceptFqName="jetbrains.mps.baseLanguage.structure.InstanceMethodDeclaration" propertyString="getSegmentEnds#(Ljetbrains/mps/graphLayout/graph/Node;Ljetbrains/mps/graphLayout/intGeom2D/Direction2D;)[Ljetbrains/mps/graphLayout/graph/Node;" fileName="ConstraintsGraphProcessor.java" startLine="510" startPosition="0" endLine="552" endPosition="0" />
     <nodeInfo nodeId="1763712338172395314" conceptFqName="jetbrains.mps.baseLanguage.structure.ForStatement" fileName="ConstraintsGraphProcessor.java" startLine="121" startPosition="52" endLine="184" endPosition="5" />
     <nodeInfo nodeId="1763712338172396019" conceptFqName="jetbrains.mps.baseLanguage.structure.InstanceMethodDeclaration" propertyString="makeShapeComplete#(Ljetbrains/mps/graphLayout/planarGraph/Face;)V" fileName="ConstraintsGraphProcessor.java" startLine="276" startPosition="0" endLine="342" endPosition="0" />
     <nodeInfo nodeId="1763712338172395263" conceptFqName="jetbrains.mps.baseLanguage.structure.InstanceMethodDeclaration" propertyString="makeRectangleForNode#(Ljetbrains/mps/graphLayout/graph/Node;)Ljava/util/Map;" fileName="ConstraintsGraphProcessor.java" startLine="113" startPosition="0" endLine="187" endPosition="0" />
@@ -640,8 +640,8 @@
     <scopeInfo nodeId="1763712338172395890" conceptFqName="jetbrains.mps.baseLanguage.structure.ForeachStatement" fileName="ConstraintsGraphProcessor.java" startLine="255" startPosition="93" endLine="259" endPosition="7" />
     <scopeInfo nodeId="1763712338172396152" fileName="ConstraintsGraphProcessor.java" startLine="306" startPosition="50" endLine="310" endPosition="7" />
     <scopeInfo nodeId="1763712338172396340" conceptFqName="jetbrains.mps.baseLanguage.structure.InstanceMethodDeclaration" propertyString="accept#(Ljetbrains/mps/graphLayout/graph/Edge;)Z" fileName="ConstraintsGraphProcessor.java" startLine="345" startPosition="102" endLine="349" endPosition="0" />
-    <scopeInfo nodeId="1763712338172396472" conceptFqName="jetbrains.mps.baseLanguage.structure.InstanceMethodDeclaration" propertyString="invoke#(Ljetbrains/mps/graphLayout/util/Direction2D;)Ljava/lang/Boolean;" fileName="ConstraintsGraphProcessor.java" startLine="375" startPosition="119" endLine="379" endPosition="0" />
-    <scopeInfo nodeId="1763712338172396494" conceptFqName="jetbrains.mps.baseLanguage.structure.InstanceMethodDeclaration" propertyString="invoke#(Ljetbrains/mps/graphLayout/util/Direction2D;)Ljava/lang/Boolean;" fileName="ConstraintsGraphProcessor.java" startLine="381" startPosition="119" endLine="385" endPosition="0" />
+    <scopeInfo nodeId="1763712338172396472" conceptFqName="jetbrains.mps.baseLanguage.structure.InstanceMethodDeclaration" propertyString="invoke#(Ljetbrains/mps/graphLayout/intGeom2D/Direction2D;)Ljava/lang/Boolean;" fileName="ConstraintsGraphProcessor.java" startLine="375" startPosition="119" endLine="379" endPosition="0" />
+    <scopeInfo nodeId="1763712338172396494" conceptFqName="jetbrains.mps.baseLanguage.structure.InstanceMethodDeclaration" propertyString="invoke#(Ljetbrains/mps/graphLayout/intGeom2D/Direction2D;)Ljava/lang/Boolean;" fileName="ConstraintsGraphProcessor.java" startLine="381" startPosition="119" endLine="385" endPosition="0" />
     <scopeInfo nodeId="1763712338172396574" conceptFqName="jetbrains.mps.baseLanguage.structure.ForeachStatement" fileName="ConstraintsGraphProcessor.java" startLine="401" startPosition="46" endLine="405" endPosition="7" />
     <scopeInfo nodeId="1763712338172396632" conceptFqName="jetbrains.mps.baseLanguage.structure.InstanceMethodDeclaration" propertyString="accept#(Ljetbrains/mps/graphLayout/planarGraph/Dart;)Z" fileName="ConstraintsGraphProcessor.java" startLine="412" startPosition="110" endLine="416" endPosition="0" />
     <scopeInfo nodeId="1763712338172396643" fileName="ConstraintsGraphProcessor.java" startLine="417" startPosition="23" endLine="421" endPosition="51">
@@ -750,14 +750,14 @@
     <scopeInfo nodeId="1763712338172397087" fileName="ConstraintsGraphProcessor.java" startLine="526" startPosition="52" endLine="539" endPosition="7">
       <varInfo nodeId="1763712338172397089" varName="dart" />
     </scopeInfo>
-    <scopeInfo nodeId="1763712338172396959" conceptFqName="jetbrains.mps.baseLanguage.structure.InstanceMethodDeclaration" propertyString="getSegmentEndSegments#(Ljetbrains/mps/graphLayout/graph/Node;Ljetbrains/mps/graphLayout/util/Direction2D;)[Ljetbrains/mps/graphLayout/graph/Node;" fileName="ConstraintsGraphProcessor.java" startLine="496" startPosition="0" endLine="510" endPosition="0">
+    <scopeInfo nodeId="1763712338172396959" conceptFqName="jetbrains.mps.baseLanguage.structure.InstanceMethodDeclaration" propertyString="getSegmentEndSegments#(Ljetbrains/mps/graphLayout/graph/Node;Ljetbrains/mps/graphLayout/intGeom2D/Direction2D;)[Ljetbrains/mps/graphLayout/graph/Node;" fileName="ConstraintsGraphProcessor.java" startLine="496" startPosition="0" endLine="510" endPosition="0">
       <varInfo nodeId="1763712338172397017" varName="direction" />
       <varInfo nodeId="1763712338172397015" varName="segment" />
     </scopeInfo>
     <scopeInfo nodeId="1763712338172395099" conceptFqName="jetbrains.mps.baseLanguage.structure.ForeachStatement" fileName="ConstraintsGraphProcessor.java" startLine="75" startPosition="74" endLine="90" endPosition="7">
       <varInfo nodeId="1763712338172395100" varName="dir" />
     </scopeInfo>
-    <scopeInfo nodeId="1763712338172396619" conceptFqName="jetbrains.mps.baseLanguage.structure.InstanceMethodDeclaration" propertyString="connect#(Ljetbrains/mps/graphLayout/graph/Edge;Ljetbrains/mps/graphLayout/util/Direction2D;Ljava/util/Map;)Ljetbrains/mps/graphLayout/graph/Edge;" fileName="ConstraintsGraphProcessor.java" startLine="410" startPosition="0" endLine="425" endPosition="0">
+    <scopeInfo nodeId="1763712338172396619" conceptFqName="jetbrains.mps.baseLanguage.structure.InstanceMethodDeclaration" propertyString="connect#(Ljetbrains/mps/graphLayout/graph/Edge;Ljetbrains/mps/graphLayout/intGeom2D/Direction2D;Ljava/util/Map;)Ljetbrains/mps/graphLayout/graph/Edge;" fileName="ConstraintsGraphProcessor.java" startLine="410" startPosition="0" endLine="425" endPosition="0">
       <varInfo nodeId="1763712338172396681" varName="nodeMap" />
       <varInfo nodeId="1763712338172396679" varName="direction" />
       <varInfo nodeId="1763712338172396677" varName="realEdge" />
@@ -821,7 +821,7 @@
     <scopeInfo nodeId="1763712338172396761" fileName="ConstraintsGraphProcessor.java" startLine="444" startPosition="36" endLine="466" endPosition="5" />
     <scopeInfo nodeId="1763712338172396762" conceptFqName="jetbrains.mps.baseLanguage.structure.ForeachStatement" fileName="ConstraintsGraphProcessor.java" startLine="444" startPosition="36" endLine="466" endPosition="5" />
     <scopeInfo nodeId="1763712338172395064" conceptFqName="jetbrains.mps.baseLanguage.structure.ForeachStatement" fileName="ConstraintsGraphProcessor.java" startLine="68" startPosition="70" endLine="91" endPosition="5" />
-    <scopeInfo nodeId="1763712338172396322" conceptFqName="jetbrains.mps.baseLanguage.structure.InstanceMethodDeclaration" propertyString="connectConstraintsNodes#(Ljetbrains/mps/graphLayout/graph/Node;Ljetbrains/mps/graphLayout/graph/Node;Ljetbrains/mps/graphLayout/util/Direction2D;)V" fileName="ConstraintsGraphProcessor.java" startLine="342" startPosition="0" endLine="367" endPosition="0">
+    <scopeInfo nodeId="1763712338172396322" conceptFqName="jetbrains.mps.baseLanguage.structure.InstanceMethodDeclaration" propertyString="connectConstraintsNodes#(Ljetbrains/mps/graphLayout/graph/Node;Ljetbrains/mps/graphLayout/graph/Node;Ljetbrains/mps/graphLayout/intGeom2D/Direction2D;)V" fileName="ConstraintsGraphProcessor.java" startLine="342" startPosition="0" endLine="367" endPosition="0">
       <varInfo nodeId="1763712338172396417" varName="node1" />
       <varInfo nodeId="1763712338172396421" varName="direction" />
       <varInfo nodeId="1763712338172396419" varName="node2" />
@@ -857,7 +857,7 @@
       <varInfo nodeId="1763712338172397045" varName="nodes" />
       <varInfo nodeId="1763712338172397025" varName="nodeMap" />
     </scopeInfo>
-    <scopeInfo nodeId="1763712338172397019" conceptFqName="jetbrains.mps.baseLanguage.structure.InstanceMethodDeclaration" propertyString="getSegmentEnds#(Ljetbrains/mps/graphLayout/graph/Node;Ljetbrains/mps/graphLayout/util/Direction2D;)[Ljetbrains/mps/graphLayout/graph/Node;" fileName="ConstraintsGraphProcessor.java" startLine="510" startPosition="0" endLine="552" endPosition="0">
+    <scopeInfo nodeId="1763712338172397019" conceptFqName="jetbrains.mps.baseLanguage.structure.InstanceMethodDeclaration" propertyString="getSegmentEnds#(Ljetbrains/mps/graphLayout/graph/Node;Ljetbrains/mps/graphLayout/intGeom2D/Direction2D;)[Ljetbrains/mps/graphLayout/graph/Node;" fileName="ConstraintsGraphProcessor.java" startLine="510" startPosition="0" endLine="552" endPosition="0">
       <varInfo nodeId="1763712338172397199" varName="direction" />
       <varInfo nodeId="1763712338172397197" varName="segment" />
     </scopeInfo>
@@ -1147,9 +1147,9 @@
     <nodeInfo nodeId="5626844973118490273" conceptFqName="jetbrains.mps.baseLanguage.structure.LocalVariableDeclarationStatement" fileName="OrthogonalFlowLabelProcessing.java" startLine="416" startPosition="58" endLine="417" endPosition="55" />
     <nodeInfo nodeId="5626844973118490281" conceptFqName="jetbrains.mps.baseLanguage.structure.LocalVariableDeclarationStatement" fileName="OrthogonalFlowLabelProcessing.java" startLine="417" startPosition="55" endLine="418" endPosition="41" />
     <nodeInfo nodeId="5626844973118490287" conceptFqName="jetbrains.mps.baseLanguage.structure.LocalVariableDeclarationStatement" fileName="OrthogonalFlowLabelProcessing.java" startLine="418" startPosition="41" endLine="419" endPosition="25" />
-    <nodeInfo nodeId="5626844973118490292" conceptFqName="jetbrains.mps.baseLanguage.structure.ExpressionStatement" fileName="OrthogonalFlowLabelProcessing.java" startLine="420" startPosition="40" endLine="421" endPosition="125" />
+    <nodeInfo nodeId="5626844973118490292" conceptFqName="jetbrains.mps.baseLanguage.structure.ExpressionStatement" fileName="OrthogonalFlowLabelProcessing.java" startLine="420" startPosition="40" endLine="421" endPosition="131" />
     <nodeInfo nodeId="5626844973118490309" conceptFqName="jetbrains.mps.baseLanguage.structure.LocalVariableDeclarationStatement" fileName="OrthogonalFlowLabelProcessing.java" startLine="422" startPosition="12" endLine="423" endPosition="57" />
-    <nodeInfo nodeId="5626844973118490317" conceptFqName="jetbrains.mps.baseLanguage.structure.ExpressionStatement" fileName="OrthogonalFlowLabelProcessing.java" startLine="423" startPosition="57" endLine="424" endPosition="135" />
+    <nodeInfo nodeId="5626844973118490317" conceptFqName="jetbrains.mps.baseLanguage.structure.ExpressionStatement" fileName="OrthogonalFlowLabelProcessing.java" startLine="423" startPosition="57" endLine="424" endPosition="141" />
     <nodeInfo nodeId="5626844973118490329" conceptFqName="jetbrains.mps.baseLanguage.structure.LocalVariableDeclarationStatement" fileName="OrthogonalFlowLabelProcessing.java" startLine="425" startPosition="5" endLine="426" endPosition="53" />
     <nodeInfo nodeId="5626844973118490336" conceptFqName="jetbrains.mps.baseLanguage.structure.LocalVariableDeclarationStatement" fileName="OrthogonalFlowLabelProcessing.java" startLine="426" startPosition="53" endLine="427" endPosition="27" />
     <nodeInfo nodeId="5626844973118490342" conceptFqName="jetbrains.mps.baseLanguage.structure.LocalVariableDeclarationStatement" fileName="OrthogonalFlowLabelProcessing.java" startLine="427" startPosition="27" endLine="428" endPosition="27" />
@@ -1262,7 +1262,7 @@
     <scopeInfo nodeId="5626844973118489898" fileName="OrthogonalFlowLabelProcessing.java" startLine="353" startPosition="55" endLine="354" endPosition="67" />
     <scopeInfo nodeId="5626844973118489911" fileName="OrthogonalFlowLabelProcessing.java" startLine="356" startPosition="55" endLine="357" endPosition="106" />
     <scopeInfo nodeId="5626844973118489967" fileName="OrthogonalFlowLabelProcessing.java" startLine="365" startPosition="14" endLine="366" endPosition="69" />
-    <scopeInfo nodeId="5626844973118490291" fileName="OrthogonalFlowLabelProcessing.java" startLine="420" startPosition="40" endLine="421" endPosition="125" />
+    <scopeInfo nodeId="5626844973118490291" fileName="OrthogonalFlowLabelProcessing.java" startLine="420" startPosition="40" endLine="421" endPosition="131" />
     <scopeInfo nodeId="5626844973118490379" fileName="OrthogonalFlowLabelProcessing.java" startLine="434" startPosition="37" endLine="435" endPosition="176" />
     <scopeInfo nodeId="5626844973118490430" fileName="OrthogonalFlowLabelProcessing.java" startLine="441" startPosition="64" endLine="442" endPosition="126" />
     <scopeInfo nodeId="5626844973118490454" conceptFqName="jetbrains.mps.baseLanguage.structure.ConstructorDeclaration" propertyString="OrthogonalFlowLabelProcessing#()V" fileName="OrthogonalFlowLabelProcessing.java" startLine="42" startPosition="0" endLine="44" endPosition="3" />
@@ -1284,7 +1284,7 @@
     </scopeInfo>
     <scopeInfo nodeId="5626844973118489863" fileName="OrthogonalFlowLabelProcessing.java" startLine="347" startPosition="84" endLine="349" endPosition="115" />
     <scopeInfo nodeId="5626844973118490230" fileName="OrthogonalFlowLabelProcessing.java" startLine="406" startPosition="54" endLine="408" endPosition="30" />
-    <scopeInfo nodeId="5626844973118490308" fileName="OrthogonalFlowLabelProcessing.java" startLine="422" startPosition="12" endLine="424" endPosition="135">
+    <scopeInfo nodeId="5626844973118490308" fileName="OrthogonalFlowLabelProcessing.java" startLine="422" startPosition="12" endLine="424" endPosition="141">
       <varInfo nodeId="5626844973118490310" varName="last" />
     </scopeInfo>
     <scopeInfo nodeId="5626844973118490398" fileName="OrthogonalFlowLabelProcessing.java" startLine="436" startPosition="14" endLine="438" endPosition="186">
@@ -1699,9 +1699,9 @@
     <nodeInfo nodeId="5626844973118491510" conceptFqName="jetbrains.mps.baseLanguage.structure.LocalVariableDeclarationStatement" fileName="OrthogonalFlowLayouterConstraints.java" startLine="228" startPosition="58" endLine="229" endPosition="55" />
     <nodeInfo nodeId="5626844973118491518" conceptFqName="jetbrains.mps.baseLanguage.structure.LocalVariableDeclarationStatement" fileName="OrthogonalFlowLayouterConstraints.java" startLine="229" startPosition="55" endLine="230" endPosition="41" />
     <nodeInfo nodeId="5626844973118491524" conceptFqName="jetbrains.mps.baseLanguage.structure.LocalVariableDeclarationStatement" fileName="OrthogonalFlowLayouterConstraints.java" startLine="230" startPosition="41" endLine="231" endPosition="25" />
-    <nodeInfo nodeId="5626844973118491529" conceptFqName="jetbrains.mps.baseLanguage.structure.ExpressionStatement" fileName="OrthogonalFlowLayouterConstraints.java" startLine="232" startPosition="40" endLine="233" endPosition="125" />
+    <nodeInfo nodeId="5626844973118491529" conceptFqName="jetbrains.mps.baseLanguage.structure.ExpressionStatement" fileName="OrthogonalFlowLayouterConstraints.java" startLine="232" startPosition="40" endLine="233" endPosition="131" />
     <nodeInfo nodeId="5626844973118491546" conceptFqName="jetbrains.mps.baseLanguage.structure.LocalVariableDeclarationStatement" fileName="OrthogonalFlowLayouterConstraints.java" startLine="234" startPosition="12" endLine="235" endPosition="57" />
-    <nodeInfo nodeId="5626844973118491554" conceptFqName="jetbrains.mps.baseLanguage.structure.ExpressionStatement" fileName="OrthogonalFlowLayouterConstraints.java" startLine="235" startPosition="57" endLine="236" endPosition="135" />
+    <nodeInfo nodeId="5626844973118491554" conceptFqName="jetbrains.mps.baseLanguage.structure.ExpressionStatement" fileName="OrthogonalFlowLayouterConstraints.java" startLine="235" startPosition="57" endLine="236" endPosition="141" />
     <nodeInfo nodeId="5626844973118491566" conceptFqName="jetbrains.mps.baseLanguage.structure.LocalVariableDeclarationStatement" fileName="OrthogonalFlowLayouterConstraints.java" startLine="237" startPosition="5" endLine="238" endPosition="53" />
     <nodeInfo nodeId="5626844973118491573" conceptFqName="jetbrains.mps.baseLanguage.structure.LocalVariableDeclarationStatement" fileName="OrthogonalFlowLayouterConstraints.java" startLine="238" startPosition="53" endLine="239" endPosition="27" />
     <nodeInfo nodeId="5626844973118491579" conceptFqName="jetbrains.mps.baseLanguage.structure.LocalVariableDeclarationStatement" fileName="OrthogonalFlowLayouterConstraints.java" startLine="239" startPosition="27" endLine="240" endPosition="27" />
@@ -1719,9 +1719,9 @@
     <nodeInfo nodeId="5626844973118491707" conceptFqName="jetbrains.mps.baseLanguage.structure.LocalVariableDeclarationStatement" fileName="OrthogonalFlowLayouterConstraints.java" startLine="261" startPosition="58" endLine="262" endPosition="55" />
     <nodeInfo nodeId="5626844973118491715" conceptFqName="jetbrains.mps.baseLanguage.structure.LocalVariableDeclarationStatement" fileName="OrthogonalFlowLayouterConstraints.java" startLine="262" startPosition="55" endLine="263" endPosition="41" />
     <nodeInfo nodeId="5626844973118491721" conceptFqName="jetbrains.mps.baseLanguage.structure.LocalVariableDeclarationStatement" fileName="OrthogonalFlowLayouterConstraints.java" startLine="263" startPosition="41" endLine="264" endPosition="25" />
-    <nodeInfo nodeId="5626844973118491726" conceptFqName="jetbrains.mps.baseLanguage.structure.ExpressionStatement" fileName="OrthogonalFlowLayouterConstraints.java" startLine="265" startPosition="40" endLine="266" endPosition="125" />
+    <nodeInfo nodeId="5626844973118491726" conceptFqName="jetbrains.mps.baseLanguage.structure.ExpressionStatement" fileName="OrthogonalFlowLayouterConstraints.java" startLine="265" startPosition="40" endLine="266" endPosition="131" />
     <nodeInfo nodeId="5626844973118491743" conceptFqName="jetbrains.mps.baseLanguage.structure.LocalVariableDeclarationStatement" fileName="OrthogonalFlowLayouterConstraints.java" startLine="267" startPosition="12" endLine="268" endPosition="57" />
-    <nodeInfo nodeId="5626844973118491751" conceptFqName="jetbrains.mps.baseLanguage.structure.ExpressionStatement" fileName="OrthogonalFlowLayouterConstraints.java" startLine="268" startPosition="57" endLine="269" endPosition="135" />
+    <nodeInfo nodeId="5626844973118491751" conceptFqName="jetbrains.mps.baseLanguage.structure.ExpressionStatement" fileName="OrthogonalFlowLayouterConstraints.java" startLine="268" startPosition="57" endLine="269" endPosition="141" />
     <nodeInfo nodeId="5626844973118491763" conceptFqName="jetbrains.mps.baseLanguage.structure.LocalVariableDeclarationStatement" fileName="OrthogonalFlowLayouterConstraints.java" startLine="270" startPosition="5" endLine="271" endPosition="53" />
     <nodeInfo nodeId="5626844973118491770" conceptFqName="jetbrains.mps.baseLanguage.structure.LocalVariableDeclarationStatement" fileName="OrthogonalFlowLayouterConstraints.java" startLine="271" startPosition="53" endLine="272" endPosition="27" />
     <nodeInfo nodeId="5626844973118491776" conceptFqName="jetbrains.mps.baseLanguage.structure.LocalVariableDeclarationStatement" fileName="OrthogonalFlowLayouterConstraints.java" startLine="272" startPosition="27" endLine="273" endPosition="27" />
@@ -1801,10 +1801,10 @@
     <scopeInfo nodeId="5626844973118491261" fileName="OrthogonalFlowLayouterConstraints.java" startLine="181" startPosition="123" endLine="182" endPosition="57" />
     <scopeInfo nodeId="5626844973118491422" fileName="OrthogonalFlowLayouterConstraints.java" startLine="210" startPosition="29" endLine="211" endPosition="72" />
     <scopeInfo nodeId="5626844973118491437" fileName="OrthogonalFlowLayouterConstraints.java" startLine="212" startPosition="14" endLine="213" endPosition="73" />
-    <scopeInfo nodeId="5626844973118491528" fileName="OrthogonalFlowLayouterConstraints.java" startLine="232" startPosition="40" endLine="233" endPosition="125" />
+    <scopeInfo nodeId="5626844973118491528" fileName="OrthogonalFlowLayouterConstraints.java" startLine="232" startPosition="40" endLine="233" endPosition="131" />
     <scopeInfo nodeId="5626844973118491616" fileName="OrthogonalFlowLayouterConstraints.java" startLine="246" startPosition="37" endLine="247" endPosition="176" />
     <scopeInfo nodeId="5626844973118491667" fileName="OrthogonalFlowLayouterConstraints.java" startLine="253" startPosition="64" endLine="254" endPosition="126" />
-    <scopeInfo nodeId="5626844973118491725" fileName="OrthogonalFlowLayouterConstraints.java" startLine="265" startPosition="40" endLine="266" endPosition="125" />
+    <scopeInfo nodeId="5626844973118491725" fileName="OrthogonalFlowLayouterConstraints.java" startLine="265" startPosition="40" endLine="266" endPosition="131" />
     <scopeInfo nodeId="5626844973118491786" fileName="OrthogonalFlowLayouterConstraints.java" startLine="275" startPosition="18" endLine="276" endPosition="52" />
     <scopeInfo nodeId="5626844973118491800" fileName="OrthogonalFlowLayouterConstraints.java" startLine="277" startPosition="12" endLine="278" endPosition="53" />
     <scopeInfo nodeId="5626844973118491854" fileName="OrthogonalFlowLayouterConstraints.java" startLine="287" startPosition="39" endLine="288" endPosition="178" />
@@ -1812,13 +1812,13 @@
     <scopeInfo nodeId="5626844973118491921" fileName="OrthogonalFlowLayouterConstraints.java" startLine="301" startPosition="45" endLine="302" endPosition="30" />
     <scopeInfo nodeId="5626844973118491929" conceptFqName="jetbrains.mps.baseLanguage.structure.ConstructorDeclaration" propertyString="OrthogonalFlowLayouterConstraints#()V" fileName="OrthogonalFlowLayouterConstraints.java" startLine="42" startPosition="0" endLine="44" endPosition="3" />
     <scopeInfo nodeId="5626844973118491469" fileName="OrthogonalFlowLayouterConstraints.java" startLine="218" startPosition="54" endLine="220" endPosition="30" />
-    <scopeInfo nodeId="5626844973118491545" fileName="OrthogonalFlowLayouterConstraints.java" startLine="234" startPosition="12" endLine="236" endPosition="135">
+    <scopeInfo nodeId="5626844973118491545" fileName="OrthogonalFlowLayouterConstraints.java" startLine="234" startPosition="12" endLine="236" endPosition="141">
       <varInfo nodeId="5626844973118491547" varName="last" />
     </scopeInfo>
     <scopeInfo nodeId="5626844973118491635" fileName="OrthogonalFlowLayouterConstraints.java" startLine="248" startPosition="14" endLine="250" endPosition="186">
       <varInfo nodeId="5626844973118491637" varName="last" />
     </scopeInfo>
-    <scopeInfo nodeId="5626844973118491742" fileName="OrthogonalFlowLayouterConstraints.java" startLine="267" startPosition="12" endLine="269" endPosition="135">
+    <scopeInfo nodeId="5626844973118491742" fileName="OrthogonalFlowLayouterConstraints.java" startLine="267" startPosition="12" endLine="269" endPosition="141">
       <varInfo nodeId="5626844973118491744" varName="last" />
     </scopeInfo>
     <scopeInfo nodeId="5626844973118491873" fileName="OrthogonalFlowLayouterConstraints.java" startLine="289" startPosition="16" endLine="291" endPosition="188">
@@ -2979,344 +2979,344 @@
     <unitInfo nodeId="5626844973118494716" fileName="FlowLayoutWithNodeProcessing.java" startLine="28" startPosition="0" endLine="165" endPosition="0" unitName="jetbrains.mps.graphLayout.internal.flowOrthogonalLayout.FlowLayoutWithNodeProcessing" />
   </root>
   <root nodeId="5626844973118495568">
-    <nodeInfo nodeId="5626844973118495569" conceptFqName="jetbrains.mps.baseLanguage.structure.FieldDeclaration" propertyString="myUnitLength" fileName="TestPullingLabels.java" startLine="27" startPosition="32" endLine="28" endPosition="32" />
-    <nodeInfo nodeId="5626844973118495577" conceptFqName="jetbrains.mps.baseLanguage.structure.LocalVariableDeclarationStatement" fileName="TestPullingLabels.java" startLine="33" startPosition="108" endLine="34" endPosition="104" />
-    <nodeInfo nodeId="5626844973118495582" conceptFqName="jetbrains.mps.baseLanguage.structure.ExpressionStatement" fileName="TestPullingLabels.java" startLine="34" startPosition="104" endLine="35" endPosition="56" />
-    <nodeInfo nodeId="5626844973118495587" conceptFqName="jetbrains.mps.baseLanguage.structure.LocalVariableDeclarationStatement" fileName="TestPullingLabels.java" startLine="35" startPosition="56" endLine="36" endPosition="76" />
-    <nodeInfo nodeId="5626844973118495595" conceptFqName="jetbrains.mps.baseLanguage.structure.LocalVariableDeclarationStatement" fileName="TestPullingLabels.java" startLine="36" startPosition="76" endLine="37" endPosition="90" />
-    <nodeInfo nodeId="5626844973118495610" conceptFqName="jetbrains.mps.baseLanguage.structure.ExpressionStatement" fileName="TestPullingLabels.java" startLine="38" startPosition="84" endLine="39" endPosition="100" />
-    <nodeInfo nodeId="5626844973118495620" conceptFqName="jetbrains.mps.baseLanguage.structure.LocalVariableDeclarationStatement" fileName="TestPullingLabels.java" startLine="40" startPosition="5" endLine="41" endPosition="53" />
-    <nodeInfo nodeId="3805314409601883839" conceptFqName="jetbrains.mps.baseLanguage.structure.ExpressionStatement" fileName="TestPullingLabels.java" startLine="41" startPosition="53" endLine="42" endPosition="52" />
-    <nodeInfo nodeId="5626844973118495641" conceptFqName="jetbrains.mps.baseLanguage.structure.ReturnStatement" fileName="TestPullingLabels.java" startLine="42" startPosition="52" endLine="43" endPosition="18" />
-    <nodeInfo nodeId="5626844973118495657" conceptFqName="jetbrains.mps.baseLanguage.structure.LocalVariableDeclarationStatement" fileName="TestPullingLabels.java" startLine="46" startPosition="124" endLine="47" endPosition="50" />
-    <nodeInfo nodeId="5626844973118495665" conceptFqName="jetbrains.mps.baseLanguage.structure.LocalVariableDeclarationStatement" fileName="TestPullingLabels.java" startLine="47" startPosition="50" endLine="48" endPosition="18" />
-    <nodeInfo nodeId="5626844973118495669" conceptFqName="jetbrains.mps.baseLanguage.structure.LocalVariableDeclarationStatement" fileName="TestPullingLabels.java" startLine="48" startPosition="18" endLine="49" endPosition="54" />
-    <nodeInfo nodeId="5626844973118495679" conceptFqName="jetbrains.mps.baseLanguage.structure.ExpressionStatement" fileName="TestPullingLabels.java" startLine="50" startPosition="54" endLine="51" endPosition="14" />
-    <nodeInfo nodeId="5626844973118495690" conceptFqName="jetbrains.mps.baseLanguage.structure.ExpressionStatement" fileName="TestPullingLabels.java" startLine="53" startPosition="54" endLine="54" endPosition="12" />
-    <nodeInfo nodeId="5626844973118495699" conceptFqName="jetbrains.mps.baseLanguage.structure.LocalVariableDeclarationStatement" fileName="TestPullingLabels.java" startLine="55" startPosition="5" endLine="56" endPosition="35" />
-    <nodeInfo nodeId="5626844973118495708" conceptFqName="jetbrains.mps.baseLanguage.structure.LocalVariableDeclarationStatement" fileName="TestPullingLabels.java" startLine="56" startPosition="35" endLine="57" endPosition="65" />
-    <nodeInfo nodeId="5626844973118495714" conceptFqName="jetbrains.mps.baseLanguage.structure.LocalVariableDeclarationStatement" fileName="TestPullingLabels.java" startLine="57" startPosition="65" endLine="58" endPosition="70" />
-    <nodeInfo nodeId="5626844973118495722" conceptFqName="jetbrains.mps.baseLanguage.structure.LocalVariableDeclarationStatement" fileName="TestPullingLabels.java" startLine="58" startPosition="70" endLine="59" endPosition="81" />
-    <nodeInfo nodeId="5626844973118495747" conceptFqName="jetbrains.mps.baseLanguage.structure.LocalVariableDeclarationStatement" fileName="TestPullingLabels.java" startLine="59" startPosition="81" endLine="60" endPosition="59" />
-    <nodeInfo nodeId="5626844973118495753" conceptFqName="jetbrains.mps.baseLanguage.structure.LocalVariableDeclarationStatement" fileName="TestPullingLabels.java" startLine="60" startPosition="59" endLine="61" endPosition="32" />
-    <nodeInfo nodeId="5626844973118495759" conceptFqName="jetbrains.mps.baseLanguage.structure.LocalVariableDeclarationStatement" fileName="TestPullingLabels.java" startLine="61" startPosition="32" endLine="62" endPosition="34" />
-    <nodeInfo nodeId="5626844973118495767" conceptFqName="jetbrains.mps.baseLanguage.structure.ExpressionStatement" fileName="TestPullingLabels.java" startLine="63" startPosition="27" endLine="64" endPosition="31" />
-    <nodeInfo nodeId="5626844973118495773" conceptFqName="jetbrains.mps.baseLanguage.structure.ExpressionStatement" fileName="TestPullingLabels.java" startLine="64" startPosition="31" endLine="65" endPosition="31" />
-    <nodeInfo nodeId="5626844973118495782" conceptFqName="jetbrains.mps.baseLanguage.structure.LocalVariableDeclarationStatement" fileName="TestPullingLabels.java" startLine="66" startPosition="5" endLine="67" endPosition="77" />
-    <nodeInfo nodeId="5626844973118495804" conceptFqName="jetbrains.mps.baseLanguage.structure.LocalVariableDeclarationStatement" fileName="TestPullingLabels.java" startLine="68" startPosition="40" endLine="69" endPosition="54" />
-    <nodeInfo nodeId="5626844973118495815" conceptFqName="jetbrains.mps.baseLanguage.structure.ExpressionStatement" fileName="TestPullingLabels.java" startLine="69" startPosition="54" endLine="70" endPosition="82" />
-    <nodeInfo nodeId="5626844973118495825" conceptFqName="jetbrains.mps.baseLanguage.structure.ExpressionStatement" fileName="TestPullingLabels.java" startLine="70" startPosition="82" endLine="71" endPosition="93" />
-    <nodeInfo nodeId="5626844973118495842" conceptFqName="jetbrains.mps.baseLanguage.structure.LocalVariableDeclarationStatement" fileName="TestPullingLabels.java" startLine="72" startPosition="5" endLine="73" endPosition="58" />
-    <nodeInfo nodeId="5626844973118495849" conceptFqName="jetbrains.mps.baseLanguage.structure.LocalVariableDeclarationStatement" fileName="TestPullingLabels.java" startLine="73" startPosition="58" endLine="74" endPosition="45" />
-    <nodeInfo nodeId="5626844973118495858" conceptFqName="jetbrains.mps.baseLanguage.structure.LocalVariableDeclarationStatement" fileName="TestPullingLabels.java" startLine="75" startPosition="39" endLine="76" endPosition="47" />
-    <nodeInfo nodeId="5626844973118495864" conceptFqName="jetbrains.mps.baseLanguage.structure.ExpressionStatement" fileName="TestPullingLabels.java" startLine="77" startPosition="31" endLine="78" endPosition="34" />
-    <nodeInfo nodeId="5626844973118495871" conceptFqName="jetbrains.mps.baseLanguage.structure.LocalVariableDeclarationStatement" fileName="TestPullingLabels.java" startLine="79" startPosition="7" endLine="80" endPosition="47" />
-    <nodeInfo nodeId="5626844973118495879" conceptFqName="jetbrains.mps.baseLanguage.structure.ExpressionStatement" fileName="TestPullingLabels.java" startLine="80" startPosition="47" endLine="81" endPosition="88" />
-    <nodeInfo nodeId="5626844973118495894" conceptFqName="jetbrains.mps.baseLanguage.structure.ExpressionStatement" fileName="TestPullingLabels.java" startLine="82" startPosition="5" endLine="83" endPosition="59" />
-    <nodeInfo nodeId="5626844973118495900" conceptFqName="jetbrains.mps.baseLanguage.structure.ExpressionStatement" fileName="TestPullingLabels.java" startLine="83" startPosition="59" endLine="84" endPosition="38" />
-    <nodeInfo nodeId="5626844973118495906" conceptFqName="jetbrains.mps.baseLanguage.structure.ReturnStatement" fileName="TestPullingLabels.java" startLine="84" startPosition="38" endLine="85" endPosition="18" />
-    <nodeInfo nodeId="5626844973118495922" conceptFqName="jetbrains.mps.baseLanguage.structure.LocalVariableDeclarationStatement" fileName="TestPullingLabels.java" startLine="88" startPosition="78" endLine="89" endPosition="36" />
-    <nodeInfo nodeId="5626844973118495934" conceptFqName="jetbrains.mps.baseLanguage.structure.LocalVariableDeclarationStatement" fileName="TestPullingLabels.java" startLine="90" startPosition="98" endLine="91" endPosition="54" />
-    <nodeInfo nodeId="5626844973118495941" conceptFqName="jetbrains.mps.baseLanguage.structure.LocalVariableDeclarationStatement" fileName="TestPullingLabels.java" startLine="91" startPosition="54" endLine="92" endPosition="58" />
-    <nodeInfo nodeId="5626844973118495953" conceptFqName="jetbrains.mps.baseLanguage.structure.ExpressionStatement" fileName="TestPullingLabels.java" startLine="94" startPosition="35" endLine="95" endPosition="65" />
-    <nodeInfo nodeId="5626844973118495975" conceptFqName="jetbrains.mps.baseLanguage.structure.LocalVariableDeclarationStatement" fileName="TestPullingLabels.java" startLine="99" startPosition="99" endLine="100" endPosition="55" />
-    <nodeInfo nodeId="5626844973118495982" conceptFqName="jetbrains.mps.baseLanguage.structure.LocalVariableDeclarationStatement" fileName="TestPullingLabels.java" startLine="100" startPosition="55" endLine="101" endPosition="58" />
-    <nodeInfo nodeId="5626844973118495994" conceptFqName="jetbrains.mps.baseLanguage.structure.ExpressionStatement" fileName="TestPullingLabels.java" startLine="103" startPosition="35" endLine="104" endPosition="65" />
-    <nodeInfo nodeId="5626844973118496016" conceptFqName="jetbrains.mps.baseLanguage.structure.LocalVariableDeclarationStatement" fileName="TestPullingLabels.java" startLine="108" startPosition="98" endLine="109" endPosition="54" />
-    <nodeInfo nodeId="5626844973118496030" conceptFqName="jetbrains.mps.baseLanguage.structure.ExpressionStatement" fileName="TestPullingLabels.java" startLine="111" startPosition="35" endLine="112" endPosition="65" />
-    <nodeInfo nodeId="5626844973118496044" conceptFqName="jetbrains.mps.baseLanguage.structure.ReturnStatement" fileName="TestPullingLabels.java" startLine="115" startPosition="5" endLine="116" endPosition="19" />
-    <nodeInfo nodeId="5626844973118496061" conceptFqName="jetbrains.mps.baseLanguage.structure.ReturnStatement" fileName="TestPullingLabels.java" startLine="120" startPosition="29" endLine="121" endPosition="30" />
-    <nodeInfo nodeId="5626844973118496071" conceptFqName="jetbrains.mps.baseLanguage.structure.ReturnStatement" fileName="TestPullingLabels.java" startLine="122" startPosition="12" endLine="123" endPosition="30" />
-    <nodeInfo nodeId="5626844973118496093" conceptFqName="jetbrains.mps.baseLanguage.structure.ReturnStatement" fileName="TestPullingLabels.java" startLine="128" startPosition="27" endLine="129" endPosition="90" />
-    <nodeInfo nodeId="5626844973118496116" conceptFqName="jetbrains.mps.baseLanguage.structure.ReturnStatement" fileName="TestPullingLabels.java" startLine="130" startPosition="12" endLine="131" endPosition="89" />
-    <nodeInfo nodeId="5626844973118496148" conceptFqName="jetbrains.mps.baseLanguage.structure.LocalVariableDeclarationStatement" fileName="TestPullingLabels.java" startLine="135" startPosition="161" endLine="136" endPosition="87" />
-    <nodeInfo nodeId="5626844973118496156" conceptFqName="jetbrains.mps.baseLanguage.structure.LocalVariableDeclarationStatement" fileName="TestPullingLabels.java" startLine="136" startPosition="87" endLine="137" endPosition="71" />
-    <nodeInfo nodeId="5626844973118496171" conceptFqName="jetbrains.mps.baseLanguage.structure.LocalVariableDeclarationStatement" fileName="TestPullingLabels.java" startLine="138" startPosition="98" endLine="139" endPosition="34" />
-    <nodeInfo nodeId="5626844973118496178" conceptFqName="jetbrains.mps.baseLanguage.structure.LocalVariableDeclarationStatement" fileName="TestPullingLabels.java" startLine="139" startPosition="34" endLine="140" endPosition="56" />
-    <nodeInfo nodeId="5626844973118496185" conceptFqName="jetbrains.mps.baseLanguage.structure.LocalVariableDeclarationStatement" fileName="TestPullingLabels.java" startLine="140" startPosition="56" endLine="141" endPosition="90" />
-    <nodeInfo nodeId="5626844973118496196" conceptFqName="jetbrains.mps.baseLanguage.structure.ExpressionStatement" fileName="TestPullingLabels.java" startLine="142" startPosition="40" endLine="143" endPosition="62" />
-    <nodeInfo nodeId="5626844973118496205" conceptFqName="jetbrains.mps.baseLanguage.structure.ExpressionStatement" fileName="TestPullingLabels.java" startLine="144" startPosition="7" endLine="145" endPosition="50" />
-    <nodeInfo nodeId="5626844973118496219" conceptFqName="jetbrains.mps.baseLanguage.structure.LocalVariableDeclarationStatement" fileName="TestPullingLabels.java" startLine="147" startPosition="98" endLine="148" endPosition="34" />
-    <nodeInfo nodeId="5626844973118496226" conceptFqName="jetbrains.mps.baseLanguage.structure.LocalVariableDeclarationStatement" fileName="TestPullingLabels.java" startLine="148" startPosition="34" endLine="149" endPosition="52" />
-    <nodeInfo nodeId="5626844973118496234" conceptFqName="jetbrains.mps.baseLanguage.structure.LocalVariableDeclarationStatement" fileName="TestPullingLabels.java" startLine="149" startPosition="52" endLine="150" endPosition="78" />
-    <nodeInfo nodeId="5626844973118496241" conceptFqName="jetbrains.mps.baseLanguage.structure.LocalVariableDeclarationStatement" fileName="TestPullingLabels.java" startLine="150" startPosition="78" endLine="151" endPosition="72" />
-    <nodeInfo nodeId="5626844973118496248" conceptFqName="jetbrains.mps.baseLanguage.structure.LocalVariableDeclarationStatement" fileName="TestPullingLabels.java" startLine="151" startPosition="72" endLine="152" endPosition="20" />
-    <nodeInfo nodeId="5626844973118496269" conceptFqName="jetbrains.mps.baseLanguage.structure.LocalVariableDeclarationStatement" fileName="TestPullingLabels.java" startLine="154" startPosition="106" endLine="155" endPosition="41" />
-    <nodeInfo nodeId="5626844973118496277" conceptFqName="jetbrains.mps.baseLanguage.structure.ExpressionStatement" fileName="TestPullingLabels.java" startLine="156" startPosition="60" endLine="157" endPosition="38" />
-    <nodeInfo nodeId="5626844973118496290" conceptFqName="jetbrains.mps.baseLanguage.structure.ExpressionStatement" fileName="TestPullingLabels.java" startLine="159" startPosition="66" endLine="160" endPosition="75" />
-    <nodeInfo nodeId="5626844973118496303" conceptFqName="jetbrains.mps.baseLanguage.structure.ExpressionStatement" fileName="TestPullingLabels.java" startLine="161" startPosition="18" endLine="162" endPosition="58" />
-    <nodeInfo nodeId="5626844973118496308" conceptFqName="jetbrains.mps.baseLanguage.structure.LocalVariableDeclarationStatement" fileName="TestPullingLabels.java" startLine="162" startPosition="58" endLine="163" endPosition="44" />
-    <nodeInfo nodeId="5626844973118496316" conceptFqName="jetbrains.mps.baseLanguage.structure.LocalVariableDeclarationStatement" fileName="TestPullingLabels.java" startLine="163" startPosition="44" endLine="164" endPosition="44" />
-    <nodeInfo nodeId="5626844973118496324" conceptFqName="jetbrains.mps.baseLanguage.structure.ExpressionStatement" fileName="TestPullingLabels.java" startLine="164" startPosition="44" endLine="165" endPosition="96" />
-    <nodeInfo nodeId="5626844973118496342" conceptFqName="jetbrains.mps.baseLanguage.structure.LocalVariableDeclarationStatement" fileName="TestPullingLabels.java" startLine="167" startPosition="16" endLine="168" endPosition="70" />
-    <nodeInfo nodeId="5626844973118496352" conceptFqName="jetbrains.mps.baseLanguage.structure.ExpressionStatement" fileName="TestPullingLabels.java" startLine="169" startPosition="42" endLine="170" endPosition="58" />
-    <nodeInfo nodeId="5626844973118496362" conceptFqName="jetbrains.mps.baseLanguage.structure.ExpressionStatement" fileName="TestPullingLabels.java" startLine="171" startPosition="11" endLine="172" endPosition="65" />
-    <nodeInfo nodeId="5626844973118496367" conceptFqName="jetbrains.mps.baseLanguage.structure.ExpressionStatement" fileName="TestPullingLabels.java" startLine="173" startPosition="9" endLine="174" endPosition="16" />
-    <nodeInfo nodeId="5626844973118496372" conceptFqName="jetbrains.mps.baseLanguage.structure.LocalVariableDeclarationStatement" fileName="TestPullingLabels.java" startLine="176" startPosition="69" endLine="177" endPosition="53" />
-    <nodeInfo nodeId="5626844973118496379" conceptFqName="jetbrains.mps.baseLanguage.structure.LocalVariableDeclarationStatement" fileName="TestPullingLabels.java" startLine="177" startPosition="53" endLine="178" endPosition="67" />
-    <nodeInfo nodeId="5626844973118496387" conceptFqName="jetbrains.mps.baseLanguage.structure.LocalVariableDeclarationStatement" fileName="TestPullingLabels.java" startLine="179" startPosition="105" endLine="180" endPosition="42" />
-    <nodeInfo nodeId="5626844973118496395" conceptFqName="jetbrains.mps.baseLanguage.structure.LocalVariableDeclarationStatement" fileName="TestPullingLabels.java" startLine="180" startPosition="42" endLine="181" endPosition="42" />
-    <nodeInfo nodeId="5626844973118496403" conceptFqName="jetbrains.mps.baseLanguage.structure.ExpressionStatement" fileName="TestPullingLabels.java" startLine="181" startPosition="42" endLine="182" endPosition="112" />
-    <nodeInfo nodeId="5626844973118496439" conceptFqName="jetbrains.mps.baseLanguage.structure.ExpressionStatement" fileName="TestPullingLabels.java" startLine="183" startPosition="16" endLine="184" endPosition="67" />
-    <nodeInfo nodeId="5626844973118496451" conceptFqName="jetbrains.mps.baseLanguage.structure.ExpressionStatement" fileName="TestPullingLabels.java" startLine="186" startPosition="7" endLine="187" endPosition="50" />
-    <nodeInfo nodeId="5626844973118496457" conceptFqName="jetbrains.mps.baseLanguage.structure.ReturnStatement" fileName="TestPullingLabels.java" startLine="188" startPosition="5" endLine="189" endPosition="24" />
-    <nodeInfo nodeId="5626844973118496477" conceptFqName="jetbrains.mps.baseLanguage.structure.LocalVariableDeclarationStatement" fileName="TestPullingLabels.java" startLine="192" startPosition="87" endLine="193" endPosition="28" />
-    <nodeInfo nodeId="5626844973118496483" conceptFqName="jetbrains.mps.baseLanguage.structure.LocalVariableDeclarationStatement" fileName="TestPullingLabels.java" startLine="193" startPosition="28" endLine="194" endPosition="28" />
-    <nodeInfo nodeId="5626844973118496493" conceptFqName="jetbrains.mps.baseLanguage.structure.ReturnStatement" fileName="TestPullingLabels.java" startLine="196" startPosition="59" endLine="197" endPosition="32" />
-    <nodeInfo nodeId="5626844973118496513" conceptFqName="jetbrains.mps.baseLanguage.structure.ReturnStatement" fileName="TestPullingLabels.java" startLine="201" startPosition="59" endLine="202" endPosition="32" />
-    <nodeInfo nodeId="5626844973118496529" conceptFqName="jetbrains.mps.baseLanguage.structure.ExpressionStatement" fileName="TestPullingLabels.java" startLine="204" startPosition="5" endLine="205" endPosition="32" />
-    <nodeInfo nodeId="5626844973118496537" conceptFqName="jetbrains.mps.baseLanguage.structure.ExpressionStatement" fileName="TestPullingLabels.java" startLine="205" startPosition="32" endLine="206" endPosition="32" />
-    <nodeInfo nodeId="5626844973118496545" conceptFqName="jetbrains.mps.baseLanguage.structure.ReturnStatement" fileName="TestPullingLabels.java" startLine="206" startPosition="32" endLine="207" endPosition="49" />
-    <nodeInfo nodeId="5626844973118496570" conceptFqName="jetbrains.mps.baseLanguage.structure.LocalVariableDeclarationStatement" fileName="TestPullingLabels.java" startLine="210" startPosition="117" endLine="211" endPosition="28" />
-    <nodeInfo nodeId="5626844973118496576" conceptFqName="jetbrains.mps.baseLanguage.structure.LocalVariableDeclarationStatement" fileName="TestPullingLabels.java" startLine="211" startPosition="28" endLine="212" endPosition="28" />
-    <nodeInfo nodeId="5626844973118496582" conceptFqName="jetbrains.mps.baseLanguage.structure.LocalVariableDeclarationStatement" fileName="TestPullingLabels.java" startLine="212" startPosition="28" endLine="213" endPosition="16" />
-    <nodeInfo nodeId="5626844973118496585" conceptFqName="jetbrains.mps.baseLanguage.structure.LocalVariableDeclarationStatement" fileName="TestPullingLabels.java" startLine="213" startPosition="16" endLine="214" endPosition="16" />
-    <nodeInfo nodeId="5626844973118496593" conceptFqName="jetbrains.mps.baseLanguage.structure.ExpressionStatement" fileName="TestPullingLabels.java" startLine="215" startPosition="35" endLine="216" endPosition="58" />
-    <nodeInfo nodeId="5626844973118496605" conceptFqName="jetbrains.mps.baseLanguage.structure.ExpressionStatement" fileName="TestPullingLabels.java" startLine="216" startPosition="58" endLine="217" endPosition="71" />
-    <nodeInfo nodeId="5626844973118496623" conceptFqName="jetbrains.mps.baseLanguage.structure.ExpressionStatement" fileName="TestPullingLabels.java" startLine="218" startPosition="12" endLine="219" endPosition="58" />
-    <nodeInfo nodeId="5626844973118496635" conceptFqName="jetbrains.mps.baseLanguage.structure.ExpressionStatement" fileName="TestPullingLabels.java" startLine="219" startPosition="58" endLine="220" endPosition="72" />
-    <nodeInfo nodeId="5626844973118496651" conceptFqName="jetbrains.mps.baseLanguage.structure.LocalVariableDeclarationStatement" fileName="TestPullingLabels.java" startLine="221" startPosition="5" endLine="222" endPosition="21" />
-    <nodeInfo nodeId="5626844973118496656" conceptFqName="jetbrains.mps.baseLanguage.structure.ExpressionStatement" fileName="TestPullingLabels.java" startLine="223" startPosition="20" endLine="224" endPosition="28" />
-    <nodeInfo nodeId="5626844973118496665" conceptFqName="jetbrains.mps.baseLanguage.structure.ExpressionStatement" fileName="TestPullingLabels.java" startLine="225" startPosition="12" endLine="226" endPosition="28" />
-    <nodeInfo nodeId="5626844973118496673" conceptFqName="jetbrains.mps.baseLanguage.structure.ReturnStatement" fileName="TestPullingLabels.java" startLine="228" startPosition="19" endLine="229" endPosition="33" />
-    <nodeInfo nodeId="5626844973118496680" conceptFqName="jetbrains.mps.baseLanguage.structure.ExpressionStatement" fileName="TestPullingLabels.java" startLine="230" startPosition="12" endLine="231" endPosition="34" />
-    <nodeInfo nodeId="5626844973118496688" conceptFqName="jetbrains.mps.baseLanguage.structure.ExpressionStatement" fileName="TestPullingLabels.java" startLine="231" startPosition="34" endLine="232" endPosition="34" />
-    <nodeInfo nodeId="5626844973118496696" conceptFqName="jetbrains.mps.baseLanguage.structure.ReturnStatement" fileName="TestPullingLabels.java" startLine="232" startPosition="34" endLine="233" endPosition="78" />
-    <nodeInfo nodeId="5626844973118496735" conceptFqName="jetbrains.mps.baseLanguage.structure.LocalVariableDeclarationStatement" fileName="TestPullingLabels.java" startLine="237" startPosition="73" endLine="238" endPosition="60" />
-    <nodeInfo nodeId="5626844973118496742" conceptFqName="jetbrains.mps.baseLanguage.structure.LocalVariableDeclarationStatement" fileName="TestPullingLabels.java" startLine="238" startPosition="60" endLine="239" endPosition="32" />
-    <nodeInfo nodeId="5626844973118496764" conceptFqName="jetbrains.mps.baseLanguage.structure.ExpressionStatement" fileName="TestPullingLabels.java" startLine="241" startPosition="85" endLine="242" endPosition="27" />
-    <nodeInfo nodeId="5626844973118496768" conceptFqName="jetbrains.mps.baseLanguage.structure.ReturnStatement" fileName="TestPullingLabels.java" startLine="244" startPosition="5" endLine="245" endPosition="23" />
-    <nodeInfo nodeId="5626844973118496773" conceptFqName="jetbrains.mps.baseLanguage.structure.LocalVariableDeclarationStatement" fileName="TestPullingLabels.java" startLine="248" startPosition="83" endLine="249" endPosition="50" />
-    <nodeInfo nodeId="5626844973118496788" conceptFqName="jetbrains.mps.baseLanguage.structure.ReturnStatement" fileName="TestPullingLabels.java" startLine="250" startPosition="35" endLine="251" endPosition="121" />
-    <nodeInfo nodeId="5626844973118496798" conceptFqName="jetbrains.mps.baseLanguage.structure.LocalVariableDeclarationStatement" fileName="TestPullingLabels.java" startLine="252" startPosition="12" endLine="253" endPosition="57" />
-    <nodeInfo nodeId="5626844973118496806" conceptFqName="jetbrains.mps.baseLanguage.structure.ReturnStatement" fileName="TestPullingLabels.java" startLine="253" startPosition="57" endLine="254" endPosition="131" />
-    <nodeInfo nodeId="5626844973118496824" conceptFqName="jetbrains.mps.baseLanguage.structure.ConstructorDeclaration" propertyString="TestPullingLabels#()V" fileName="TestPullingLabels.java" startLine="29" startPosition="0" endLine="31" endPosition="3" />
-    <nodeInfo nodeId="5626844973118496069" conceptFqName="jetbrains.mps.baseLanguage.structure.BlockStatement" fileName="TestPullingLabels.java" startLine="122" startPosition="10" endLine="124" endPosition="5" />
-    <nodeInfo nodeId="5626844973118496114" conceptFqName="jetbrains.mps.baseLanguage.structure.BlockStatement" fileName="TestPullingLabels.java" startLine="130" startPosition="10" endLine="132" endPosition="5" />
-    <nodeInfo nodeId="5626844973118496437" conceptFqName="jetbrains.mps.baseLanguage.structure.BlockStatement" fileName="TestPullingLabels.java" startLine="183" startPosition="14" endLine="185" endPosition="9" />
-    <nodeInfo nodeId="5626844973118496663" conceptFqName="jetbrains.mps.baseLanguage.structure.BlockStatement" fileName="TestPullingLabels.java" startLine="225" startPosition="10" endLine="227" endPosition="5" />
-    <nodeInfo nodeId="5626844973118495604" conceptFqName="jetbrains.mps.baseLanguage.structure.ForeachStatement" fileName="TestPullingLabels.java" startLine="37" startPosition="90" endLine="40" endPosition="5" />
-    <nodeInfo nodeId="5626844973118495677" conceptFqName="jetbrains.mps.baseLanguage.structure.IfStatement" fileName="TestPullingLabels.java" startLine="49" startPosition="54" endLine="52" endPosition="5" />
-    <nodeInfo nodeId="5626844973118495688" conceptFqName="jetbrains.mps.baseLanguage.structure.IfStatement" fileName="TestPullingLabels.java" startLine="52" startPosition="5" endLine="55" endPosition="5" />
-    <nodeInfo nodeId="5626844973118495862" conceptFqName="jetbrains.mps.baseLanguage.structure.IfStatement" fileName="TestPullingLabels.java" startLine="76" startPosition="47" endLine="79" endPosition="7" />
-    <nodeInfo nodeId="5626844973118495951" conceptFqName="jetbrains.mps.baseLanguage.structure.IfStatement" fileName="TestPullingLabels.java" startLine="93" startPosition="34" endLine="96" endPosition="9" />
-    <nodeInfo nodeId="5626844973118495992" conceptFqName="jetbrains.mps.baseLanguage.structure.IfStatement" fileName="TestPullingLabels.java" startLine="102" startPosition="34" endLine="105" endPosition="9" />
-    <nodeInfo nodeId="5626844973118496028" conceptFqName="jetbrains.mps.baseLanguage.structure.IfStatement" fileName="TestPullingLabels.java" startLine="110" startPosition="34" endLine="113" endPosition="9" />
-    <nodeInfo nodeId="5626844973118496194" conceptFqName="jetbrains.mps.baseLanguage.structure.IfStatement" fileName="TestPullingLabels.java" startLine="141" startPosition="90" endLine="144" endPosition="7" />
-    <nodeInfo nodeId="5626844973118496275" conceptFqName="jetbrains.mps.baseLanguage.structure.IfStatement" fileName="TestPullingLabels.java" startLine="155" startPosition="41" endLine="158" endPosition="11" />
-    <nodeInfo nodeId="5626844973118496350" conceptFqName="jetbrains.mps.baseLanguage.structure.IfStatement" fileName="TestPullingLabels.java" startLine="168" startPosition="70" endLine="171" endPosition="11" />
-    <nodeInfo nodeId="5626844973118496491" conceptFqName="jetbrains.mps.baseLanguage.structure.IfStatement" fileName="TestPullingLabels.java" startLine="195" startPosition="35" endLine="198" endPosition="7" />
-    <nodeInfo nodeId="5626844973118496511" conceptFqName="jetbrains.mps.baseLanguage.structure.IfStatement" fileName="TestPullingLabels.java" startLine="200" startPosition="33" endLine="203" endPosition="7" />
-    <nodeInfo nodeId="5626844973118496621" conceptFqName="jetbrains.mps.baseLanguage.structure.BlockStatement" fileName="TestPullingLabels.java" startLine="218" startPosition="10" endLine="221" endPosition="5" />
-    <nodeInfo nodeId="5626844973118496752" conceptFqName="jetbrains.mps.baseLanguage.structure.IfStatement" fileName="TestPullingLabels.java" startLine="240" startPosition="68" endLine="243" endPosition="7" />
-    <nodeInfo nodeId="5626844973118496796" conceptFqName="jetbrains.mps.baseLanguage.structure.BlockStatement" fileName="TestPullingLabels.java" startLine="252" startPosition="10" endLine="255" endPosition="5" />
-    <nodeInfo nodeId="5626844973118495765" conceptFqName="jetbrains.mps.baseLanguage.structure.IfStatement" fileName="TestPullingLabels.java" startLine="62" startPosition="34" endLine="66" endPosition="5" />
-    <nodeInfo nodeId="5626844973118496678" conceptFqName="jetbrains.mps.baseLanguage.structure.BlockStatement" fileName="TestPullingLabels.java" startLine="230" startPosition="10" endLine="234" endPosition="5" />
-    <nodeInfo nodeId="5626844973118495802" conceptFqName="jetbrains.mps.baseLanguage.structure.IfStatement" fileName="TestPullingLabels.java" startLine="67" startPosition="77" endLine="72" endPosition="5" />
-    <nodeInfo nodeId="5626844973118495947" conceptFqName="jetbrains.mps.baseLanguage.structure.ForeachStatement" fileName="TestPullingLabels.java" startLine="92" startPosition="58" endLine="97" endPosition="7" />
-    <nodeInfo nodeId="5626844973118495988" conceptFqName="jetbrains.mps.baseLanguage.structure.ForeachStatement" fileName="TestPullingLabels.java" startLine="101" startPosition="58" endLine="106" endPosition="7" />
-    <nodeInfo nodeId="5626844973118496024" conceptFqName="jetbrains.mps.baseLanguage.structure.ForeachStatement" fileName="TestPullingLabels.java" startLine="109" startPosition="54" endLine="114" endPosition="7" />
-    <nodeInfo nodeId="5626844973118496056" conceptFqName="jetbrains.mps.baseLanguage.structure.IfStatement" fileName="TestPullingLabels.java" startLine="119" startPosition="68" endLine="124" endPosition="5" />
-    <nodeInfo nodeId="5626844973118496088" conceptFqName="jetbrains.mps.baseLanguage.structure.IfStatement" fileName="TestPullingLabels.java" startLine="127" startPosition="80" endLine="132" endPosition="5" />
-    <nodeInfo nodeId="5626844973118496301" conceptFqName="jetbrains.mps.baseLanguage.structure.BlockStatement" fileName="TestPullingLabels.java" startLine="161" startPosition="16" endLine="166" endPosition="11" />
-    <nodeInfo nodeId="5626844973118496489" conceptFqName="jetbrains.mps.baseLanguage.structure.IfStatement" fileName="TestPullingLabels.java" startLine="194" startPosition="28" endLine="199" endPosition="5" />
-    <nodeInfo nodeId="5626844973118496509" conceptFqName="jetbrains.mps.baseLanguage.structure.IfStatement" fileName="TestPullingLabels.java" startLine="199" startPosition="5" endLine="204" endPosition="5" />
-    <nodeInfo nodeId="5626844973118496654" conceptFqName="jetbrains.mps.baseLanguage.structure.IfStatement" fileName="TestPullingLabels.java" startLine="222" startPosition="21" endLine="227" endPosition="5" />
-    <nodeInfo nodeId="5626844973118496746" conceptFqName="jetbrains.mps.baseLanguage.structure.ForeachStatement" fileName="TestPullingLabels.java" startLine="239" startPosition="32" endLine="244" endPosition="5" />
-    <nodeInfo nodeId="5626844973118496340" conceptFqName="jetbrains.mps.baseLanguage.structure.BlockStatement" fileName="TestPullingLabels.java" startLine="167" startPosition="14" endLine="173" endPosition="9" />
-    <nodeInfo nodeId="5626844973118496781" conceptFqName="jetbrains.mps.baseLanguage.structure.IfStatement" fileName="TestPullingLabels.java" startLine="249" startPosition="50" endLine="255" endPosition="5" />
-    <nodeInfo nodeId="5626844973118496385" conceptFqName="jetbrains.mps.baseLanguage.structure.IfStatement" fileName="TestPullingLabels.java" startLine="178" startPosition="67" endLine="185" endPosition="9" />
-    <nodeInfo nodeId="5626844973118496588" conceptFqName="jetbrains.mps.baseLanguage.structure.IfStatement" fileName="TestPullingLabels.java" startLine="214" startPosition="16" endLine="221" endPosition="5" />
-    <nodeInfo nodeId="5626844973118496671" conceptFqName="jetbrains.mps.baseLanguage.structure.IfStatement" fileName="TestPullingLabels.java" startLine="227" startPosition="5" endLine="234" endPosition="5" />
-    <nodeInfo nodeId="5626844973118495856" conceptFqName="jetbrains.mps.baseLanguage.structure.IfStatement" fileName="TestPullingLabels.java" startLine="74" startPosition="45" endLine="82" endPosition="5" />
-    <nodeInfo nodeId="5626844973118496008" conceptFqName="jetbrains.mps.baseLanguage.structure.ForeachStatement" fileName="TestPullingLabels.java" startLine="107" startPosition="5" endLine="115" endPosition="5" />
-    <nodeInfo nodeId="5626844973118496052" conceptFqName="jetbrains.mps.baseLanguage.structure.InstanceMethodDeclaration" propertyString="getDist#(Ljetbrains/mps/graphLayout/intGeom2D/Rectangle;Ljetbrains/mps/graphLayout/intGeom2D/Point;Ljetbrains/mps/graphLayout/util/Direction2D;)I" fileName="TestPullingLabels.java" startLine="118" startPosition="0" endLine="126" endPosition="0" />
-    <nodeInfo nodeId="5626844973118496085" conceptFqName="jetbrains.mps.baseLanguage.structure.InstanceMethodDeclaration" propertyString="getRectangle#(Ljetbrains/mps/graphLayout/intGeom2D/Dimension;Ljetbrains/mps/graphLayout/intGeom2D/Point;Ljetbrains/mps/graphLayout/util/Direction2D;)Ljetbrains/mps/graphLayout/intGeom2D/Rectangle;" fileName="TestPullingLabels.java" startLine="126" startPosition="0" endLine="134" endPosition="0" />
-    <nodeInfo nodeId="5626844973118496288" conceptFqName="jetbrains.mps.baseLanguage.structure.IfStatement" fileName="TestPullingLabels.java" startLine="158" startPosition="11" endLine="166" endPosition="11" />
-    <nodeInfo nodeId="5626844973118495926" conceptFqName="jetbrains.mps.baseLanguage.structure.ForeachStatement" fileName="TestPullingLabels.java" startLine="89" startPosition="36" endLine="98" endPosition="5" />
-    <nodeInfo nodeId="5626844973118495967" conceptFqName="jetbrains.mps.baseLanguage.structure.ForeachStatement" fileName="TestPullingLabels.java" startLine="98" startPosition="5" endLine="107" endPosition="5" />
-    <nodeInfo nodeId="5626844973118496163" conceptFqName="jetbrains.mps.baseLanguage.structure.ForeachStatement" fileName="TestPullingLabels.java" startLine="137" startPosition="71" endLine="146" endPosition="5" />
-    <nodeInfo nodeId="5626844973118496770" conceptFqName="jetbrains.mps.baseLanguage.structure.InstanceMethodDeclaration" propertyString="getStartDirection#(Ljetbrains/mps/graphLayout/graphLayout/GraphLayout;Ljetbrains/mps/graphLayout/graph/Node;Ljetbrains/mps/graphLayout/graph/Edge;)Ljetbrains/mps/graphLayout/util/Direction2D;" fileName="TestPullingLabels.java" startLine="247" startPosition="0" endLine="257" endPosition="0" />
-    <nodeInfo nodeId="5626844973118496370" conceptFqName="jetbrains.mps.baseLanguage.structure.IfStatement" fileName="TestPullingLabels.java" startLine="175" startPosition="7" endLine="186" endPosition="7" />
-    <nodeInfo nodeId="5626844973118496725" conceptFqName="jetbrains.mps.baseLanguage.structure.InstanceMethodDeclaration" propertyString="wasSplitted#(Ljetbrains/mps/graphLayout/graphLayout/GraphLayout;Ljetbrains/mps/graphLayout/graph/Node;Ljetbrains/mps/graphLayout/graph/Edge;)Z" fileName="TestPullingLabels.java" startLine="236" startPosition="0" endLine="247" endPosition="0" />
-    <nodeInfo nodeId="5626844973118495573" conceptFqName="jetbrains.mps.baseLanguage.structure.InstanceMethodDeclaration" propertyString="doLayout#(Ljetbrains/mps/graphLayout/graph/Graph;Ljava/util/Map;Ljava/util/Map;)Ljetbrains/mps/graphLayout/graphLayout/GraphLayout;" fileName="TestPullingLabels.java" startLine="32" startPosition="0" endLine="45" endPosition="0" />
-    <nodeInfo nodeId="5626844973118496473" conceptFqName="jetbrains.mps.baseLanguage.structure.InstanceMethodDeclaration" propertyString="pullPoint#(Ljetbrains/mps/graphLayout/intGeom2D/Point;Ljetbrains/mps/graphLayout/intGeom2D/Point;Ljetbrains/mps/graphLayout/util/Direction2D;I)Ljetbrains/mps/graphLayout/intGeom2D/Point;" fileName="TestPullingLabels.java" startLine="191" startPosition="0" endLine="209" endPosition="0" />
-    <nodeInfo nodeId="5626844973118496256" conceptFqName="jetbrains.mps.baseLanguage.structure.IfStatement" fileName="TestPullingLabels.java" startLine="153" startPosition="55" endLine="173" endPosition="9" />
-    <nodeInfo nodeId="5626844973118496252" conceptFqName="jetbrains.mps.baseLanguage.structure.ForeachStatement" fileName="TestPullingLabels.java" startLine="152" startPosition="20" endLine="175" endPosition="7" />
-    <nodeInfo nodeId="5626844973118496566" conceptFqName="jetbrains.mps.baseLanguage.structure.InstanceMethodDeclaration" propertyString="pullRectangle#(Ljetbrains/mps/graphLayout/intGeom2D/Rectangle;Ljetbrains/mps/graphLayout/intGeom2D/Point;Ljetbrains/mps/graphLayout/util/Direction2D;IZ)Ljetbrains/mps/graphLayout/intGeom2D/Rectangle;" fileName="TestPullingLabels.java" startLine="209" startPosition="0" endLine="236" endPosition="0" />
-    <nodeInfo nodeId="5626844973118495918" conceptFqName="jetbrains.mps.baseLanguage.structure.InstanceMethodDeclaration" propertyString="getMinDist#(Ljetbrains/mps/graphLayout/graphLayout/GraphLayout;Ljetbrains/mps/graphLayout/intGeom2D/Rectangle;Ljetbrains/mps/graphLayout/util/Direction2D;)I" fileName="TestPullingLabels.java" startLine="87" startPosition="0" endLine="118" endPosition="0" />
-    <nodeInfo nodeId="5626844973118495653" conceptFqName="jetbrains.mps.baseLanguage.structure.InstanceMethodDeclaration" propertyString="addEdgeLabel#(Ljetbrains/mps/graphLayout/graphLayout/GraphLayout;Ljetbrains/mps/graphLayout/graph/Edge;Ljetbrains/mps/graphLayout/intGeom2D/Dimension;Ljava/util/Map;)Ljetbrains/mps/graphLayout/graphLayout/GraphLayout;" fileName="TestPullingLabels.java" startLine="45" startPosition="0" endLine="87" endPosition="0" />
-    <nodeInfo nodeId="5626844973118496211" conceptFqName="jetbrains.mps.baseLanguage.structure.ForeachStatement" fileName="TestPullingLabels.java" startLine="146" startPosition="5" endLine="188" endPosition="5" />
-    <nodeInfo nodeId="5626844973118496144" conceptFqName="jetbrains.mps.baseLanguage.structure.InstanceMethodDeclaration" propertyString="pullGraphLayout#(Ljetbrains/mps/graphLayout/graphLayout/GraphLayout;Ljetbrains/mps/graphLayout/util/Direction2D;ILjetbrains/mps/graphLayout/intGeom2D/Point;Ljava/util/Map;Z)Ljetbrains/mps/graphLayout/graphLayout/GraphLayout;" fileName="TestPullingLabels.java" startLine="134" startPosition="0" endLine="191" endPosition="0" />
-    <scopeInfo nodeId="5626844973118496827" fileName="TestPullingLabels.java" startLine="30" startPosition="30" endLine="30" endPosition="30" />
-    <scopeInfo nodeId="5626844973118495609" fileName="TestPullingLabels.java" startLine="38" startPosition="84" endLine="39" endPosition="100" />
-    <scopeInfo nodeId="5626844973118495678" fileName="TestPullingLabels.java" startLine="50" startPosition="54" endLine="51" endPosition="14" />
-    <scopeInfo nodeId="5626844973118495689" fileName="TestPullingLabels.java" startLine="53" startPosition="54" endLine="54" endPosition="12" />
-    <scopeInfo nodeId="5626844973118495863" fileName="TestPullingLabels.java" startLine="77" startPosition="31" endLine="78" endPosition="34" />
-    <scopeInfo nodeId="5626844973118495952" fileName="TestPullingLabels.java" startLine="94" startPosition="35" endLine="95" endPosition="65" />
-    <scopeInfo nodeId="5626844973118495993" fileName="TestPullingLabels.java" startLine="103" startPosition="35" endLine="104" endPosition="65" />
-    <scopeInfo nodeId="5626844973118496029" fileName="TestPullingLabels.java" startLine="111" startPosition="35" endLine="112" endPosition="65" />
-    <scopeInfo nodeId="5626844973118496060" fileName="TestPullingLabels.java" startLine="120" startPosition="29" endLine="121" endPosition="30" />
-    <scopeInfo nodeId="5626844973118496070" fileName="TestPullingLabels.java" startLine="122" startPosition="12" endLine="123" endPosition="30" />
-    <scopeInfo nodeId="5626844973118496092" fileName="TestPullingLabels.java" startLine="128" startPosition="27" endLine="129" endPosition="90" />
-    <scopeInfo nodeId="5626844973118496115" fileName="TestPullingLabels.java" startLine="130" startPosition="12" endLine="131" endPosition="89" />
-    <scopeInfo nodeId="5626844973118496195" fileName="TestPullingLabels.java" startLine="142" startPosition="40" endLine="143" endPosition="62" />
-    <scopeInfo nodeId="5626844973118496276" fileName="TestPullingLabels.java" startLine="156" startPosition="60" endLine="157" endPosition="38" />
-    <scopeInfo nodeId="5626844973118496289" fileName="TestPullingLabels.java" startLine="159" startPosition="66" endLine="160" endPosition="75" />
-    <scopeInfo nodeId="5626844973118496351" fileName="TestPullingLabels.java" startLine="169" startPosition="42" endLine="170" endPosition="58" />
-    <scopeInfo nodeId="5626844973118496438" fileName="TestPullingLabels.java" startLine="183" startPosition="16" endLine="184" endPosition="67" />
-    <scopeInfo nodeId="5626844973118496492" fileName="TestPullingLabels.java" startLine="196" startPosition="59" endLine="197" endPosition="32" />
-    <scopeInfo nodeId="5626844973118496512" fileName="TestPullingLabels.java" startLine="201" startPosition="59" endLine="202" endPosition="32" />
-    <scopeInfo nodeId="5626844973118496655" fileName="TestPullingLabels.java" startLine="223" startPosition="20" endLine="224" endPosition="28" />
-    <scopeInfo nodeId="5626844973118496664" fileName="TestPullingLabels.java" startLine="225" startPosition="12" endLine="226" endPosition="28" />
-    <scopeInfo nodeId="5626844973118496672" fileName="TestPullingLabels.java" startLine="228" startPosition="19" endLine="229" endPosition="33" />
-    <scopeInfo nodeId="5626844973118496763" fileName="TestPullingLabels.java" startLine="241" startPosition="85" endLine="242" endPosition="27" />
-    <scopeInfo nodeId="5626844973118496787" fileName="TestPullingLabels.java" startLine="250" startPosition="35" endLine="251" endPosition="121" />
-    <scopeInfo nodeId="5626844973118496824" conceptFqName="jetbrains.mps.baseLanguage.structure.ConstructorDeclaration" propertyString="TestPullingLabels#()V" fileName="TestPullingLabels.java" startLine="29" startPosition="0" endLine="31" endPosition="3" />
-    <scopeInfo nodeId="5626844973118495766" fileName="TestPullingLabels.java" startLine="63" startPosition="27" endLine="65" endPosition="31" />
-    <scopeInfo nodeId="5626844973118496592" fileName="TestPullingLabels.java" startLine="215" startPosition="35" endLine="217" endPosition="71" />
-    <scopeInfo nodeId="5626844973118496622" fileName="TestPullingLabels.java" startLine="218" startPosition="12" endLine="220" endPosition="72" />
-    <scopeInfo nodeId="5626844973118496797" fileName="TestPullingLabels.java" startLine="252" startPosition="12" endLine="254" endPosition="131">
+    <nodeInfo nodeId="5626844973118495569" conceptFqName="jetbrains.mps.baseLanguage.structure.FieldDeclaration" propertyString="myUnitLength" fileName="TestPullingLabels.java" startLine="28" startPosition="32" endLine="29" endPosition="32" />
+    <nodeInfo nodeId="5626844973118495577" conceptFqName="jetbrains.mps.baseLanguage.structure.LocalVariableDeclarationStatement" fileName="TestPullingLabels.java" startLine="34" startPosition="108" endLine="35" endPosition="104" />
+    <nodeInfo nodeId="5626844973118495582" conceptFqName="jetbrains.mps.baseLanguage.structure.ExpressionStatement" fileName="TestPullingLabels.java" startLine="35" startPosition="104" endLine="36" endPosition="56" />
+    <nodeInfo nodeId="5626844973118495587" conceptFqName="jetbrains.mps.baseLanguage.structure.LocalVariableDeclarationStatement" fileName="TestPullingLabels.java" startLine="36" startPosition="56" endLine="37" endPosition="76" />
+    <nodeInfo nodeId="5626844973118495595" conceptFqName="jetbrains.mps.baseLanguage.structure.LocalVariableDeclarationStatement" fileName="TestPullingLabels.java" startLine="37" startPosition="76" endLine="38" endPosition="90" />
+    <nodeInfo nodeId="5626844973118495610" conceptFqName="jetbrains.mps.baseLanguage.structure.ExpressionStatement" fileName="TestPullingLabels.java" startLine="39" startPosition="84" endLine="40" endPosition="100" />
+    <nodeInfo nodeId="5626844973118495620" conceptFqName="jetbrains.mps.baseLanguage.structure.LocalVariableDeclarationStatement" fileName="TestPullingLabels.java" startLine="41" startPosition="5" endLine="42" endPosition="53" />
+    <nodeInfo nodeId="3805314409601883839" conceptFqName="jetbrains.mps.baseLanguage.structure.ExpressionStatement" fileName="TestPullingLabels.java" startLine="42" startPosition="53" endLine="43" endPosition="52" />
+    <nodeInfo nodeId="5626844973118495641" conceptFqName="jetbrains.mps.baseLanguage.structure.ReturnStatement" fileName="TestPullingLabels.java" startLine="43" startPosition="52" endLine="44" endPosition="18" />
+    <nodeInfo nodeId="5626844973118495657" conceptFqName="jetbrains.mps.baseLanguage.structure.LocalVariableDeclarationStatement" fileName="TestPullingLabels.java" startLine="47" startPosition="124" endLine="48" endPosition="50" />
+    <nodeInfo nodeId="5626844973118495665" conceptFqName="jetbrains.mps.baseLanguage.structure.LocalVariableDeclarationStatement" fileName="TestPullingLabels.java" startLine="48" startPosition="50" endLine="49" endPosition="18" />
+    <nodeInfo nodeId="5626844973118495669" conceptFqName="jetbrains.mps.baseLanguage.structure.LocalVariableDeclarationStatement" fileName="TestPullingLabels.java" startLine="49" startPosition="18" endLine="50" endPosition="54" />
+    <nodeInfo nodeId="5626844973118495679" conceptFqName="jetbrains.mps.baseLanguage.structure.ExpressionStatement" fileName="TestPullingLabels.java" startLine="51" startPosition="54" endLine="52" endPosition="14" />
+    <nodeInfo nodeId="5626844973118495690" conceptFqName="jetbrains.mps.baseLanguage.structure.ExpressionStatement" fileName="TestPullingLabels.java" startLine="54" startPosition="54" endLine="55" endPosition="12" />
+    <nodeInfo nodeId="5626844973118495699" conceptFqName="jetbrains.mps.baseLanguage.structure.LocalVariableDeclarationStatement" fileName="TestPullingLabels.java" startLine="56" startPosition="5" endLine="57" endPosition="35" />
+    <nodeInfo nodeId="5626844973118495708" conceptFqName="jetbrains.mps.baseLanguage.structure.LocalVariableDeclarationStatement" fileName="TestPullingLabels.java" startLine="57" startPosition="35" endLine="58" endPosition="65" />
+    <nodeInfo nodeId="5626844973118495714" conceptFqName="jetbrains.mps.baseLanguage.structure.LocalVariableDeclarationStatement" fileName="TestPullingLabels.java" startLine="58" startPosition="65" endLine="59" endPosition="70" />
+    <nodeInfo nodeId="5626844973118495722" conceptFqName="jetbrains.mps.baseLanguage.structure.LocalVariableDeclarationStatement" fileName="TestPullingLabels.java" startLine="59" startPosition="70" endLine="60" endPosition="81" />
+    <nodeInfo nodeId="5626844973118495747" conceptFqName="jetbrains.mps.baseLanguage.structure.LocalVariableDeclarationStatement" fileName="TestPullingLabels.java" startLine="60" startPosition="81" endLine="61" endPosition="65" />
+    <nodeInfo nodeId="5626844973118495753" conceptFqName="jetbrains.mps.baseLanguage.structure.LocalVariableDeclarationStatement" fileName="TestPullingLabels.java" startLine="61" startPosition="65" endLine="62" endPosition="32" />
+    <nodeInfo nodeId="5626844973118495759" conceptFqName="jetbrains.mps.baseLanguage.structure.LocalVariableDeclarationStatement" fileName="TestPullingLabels.java" startLine="62" startPosition="32" endLine="63" endPosition="34" />
+    <nodeInfo nodeId="5626844973118495767" conceptFqName="jetbrains.mps.baseLanguage.structure.ExpressionStatement" fileName="TestPullingLabels.java" startLine="64" startPosition="27" endLine="65" endPosition="31" />
+    <nodeInfo nodeId="5626844973118495773" conceptFqName="jetbrains.mps.baseLanguage.structure.ExpressionStatement" fileName="TestPullingLabels.java" startLine="65" startPosition="31" endLine="66" endPosition="31" />
+    <nodeInfo nodeId="5626844973118495782" conceptFqName="jetbrains.mps.baseLanguage.structure.LocalVariableDeclarationStatement" fileName="TestPullingLabels.java" startLine="67" startPosition="5" endLine="68" endPosition="77" />
+    <nodeInfo nodeId="5626844973118495804" conceptFqName="jetbrains.mps.baseLanguage.structure.LocalVariableDeclarationStatement" fileName="TestPullingLabels.java" startLine="69" startPosition="40" endLine="70" endPosition="54" />
+    <nodeInfo nodeId="5626844973118495815" conceptFqName="jetbrains.mps.baseLanguage.structure.ExpressionStatement" fileName="TestPullingLabels.java" startLine="70" startPosition="54" endLine="71" endPosition="82" />
+    <nodeInfo nodeId="5626844973118495825" conceptFqName="jetbrains.mps.baseLanguage.structure.ExpressionStatement" fileName="TestPullingLabels.java" startLine="71" startPosition="82" endLine="72" endPosition="93" />
+    <nodeInfo nodeId="5626844973118495842" conceptFqName="jetbrains.mps.baseLanguage.structure.LocalVariableDeclarationStatement" fileName="TestPullingLabels.java" startLine="73" startPosition="5" endLine="74" endPosition="58" />
+    <nodeInfo nodeId="5626844973118495849" conceptFqName="jetbrains.mps.baseLanguage.structure.LocalVariableDeclarationStatement" fileName="TestPullingLabels.java" startLine="74" startPosition="58" endLine="75" endPosition="45" />
+    <nodeInfo nodeId="5626844973118495858" conceptFqName="jetbrains.mps.baseLanguage.structure.LocalVariableDeclarationStatement" fileName="TestPullingLabels.java" startLine="76" startPosition="39" endLine="77" endPosition="47" />
+    <nodeInfo nodeId="5626844973118495864" conceptFqName="jetbrains.mps.baseLanguage.structure.ExpressionStatement" fileName="TestPullingLabels.java" startLine="78" startPosition="31" endLine="79" endPosition="34" />
+    <nodeInfo nodeId="5626844973118495871" conceptFqName="jetbrains.mps.baseLanguage.structure.LocalVariableDeclarationStatement" fileName="TestPullingLabels.java" startLine="80" startPosition="7" endLine="81" endPosition="47" />
+    <nodeInfo nodeId="5626844973118495879" conceptFqName="jetbrains.mps.baseLanguage.structure.ExpressionStatement" fileName="TestPullingLabels.java" startLine="81" startPosition="47" endLine="82" endPosition="88" />
+    <nodeInfo nodeId="5626844973118495894" conceptFqName="jetbrains.mps.baseLanguage.structure.ExpressionStatement" fileName="TestPullingLabels.java" startLine="83" startPosition="5" endLine="84" endPosition="59" />
+    <nodeInfo nodeId="5626844973118495900" conceptFqName="jetbrains.mps.baseLanguage.structure.ExpressionStatement" fileName="TestPullingLabels.java" startLine="84" startPosition="59" endLine="85" endPosition="38" />
+    <nodeInfo nodeId="5626844973118495906" conceptFqName="jetbrains.mps.baseLanguage.structure.ReturnStatement" fileName="TestPullingLabels.java" startLine="85" startPosition="38" endLine="86" endPosition="18" />
+    <nodeInfo nodeId="5626844973118495922" conceptFqName="jetbrains.mps.baseLanguage.structure.LocalVariableDeclarationStatement" fileName="TestPullingLabels.java" startLine="89" startPosition="78" endLine="90" endPosition="36" />
+    <nodeInfo nodeId="5626844973118495934" conceptFqName="jetbrains.mps.baseLanguage.structure.LocalVariableDeclarationStatement" fileName="TestPullingLabels.java" startLine="91" startPosition="98" endLine="92" endPosition="54" />
+    <nodeInfo nodeId="5626844973118495941" conceptFqName="jetbrains.mps.baseLanguage.structure.LocalVariableDeclarationStatement" fileName="TestPullingLabels.java" startLine="92" startPosition="54" endLine="93" endPosition="50" />
+    <nodeInfo nodeId="5626844973118495953" conceptFqName="jetbrains.mps.baseLanguage.structure.ExpressionStatement" fileName="TestPullingLabels.java" startLine="95" startPosition="35" endLine="96" endPosition="65" />
+    <nodeInfo nodeId="5626844973118495975" conceptFqName="jetbrains.mps.baseLanguage.structure.LocalVariableDeclarationStatement" fileName="TestPullingLabels.java" startLine="100" startPosition="99" endLine="101" endPosition="55" />
+    <nodeInfo nodeId="5626844973118495982" conceptFqName="jetbrains.mps.baseLanguage.structure.LocalVariableDeclarationStatement" fileName="TestPullingLabels.java" startLine="101" startPosition="55" endLine="102" endPosition="50" />
+    <nodeInfo nodeId="5626844973118495994" conceptFqName="jetbrains.mps.baseLanguage.structure.ExpressionStatement" fileName="TestPullingLabels.java" startLine="104" startPosition="35" endLine="105" endPosition="65" />
+    <nodeInfo nodeId="5626844973118496016" conceptFqName="jetbrains.mps.baseLanguage.structure.LocalVariableDeclarationStatement" fileName="TestPullingLabels.java" startLine="109" startPosition="98" endLine="110" endPosition="54" />
+    <nodeInfo nodeId="5626844973118496030" conceptFqName="jetbrains.mps.baseLanguage.structure.ExpressionStatement" fileName="TestPullingLabels.java" startLine="112" startPosition="35" endLine="113" endPosition="65" />
+    <nodeInfo nodeId="5626844973118496044" conceptFqName="jetbrains.mps.baseLanguage.structure.ReturnStatement" fileName="TestPullingLabels.java" startLine="116" startPosition="5" endLine="117" endPosition="19" />
+    <nodeInfo nodeId="5626844973118496061" conceptFqName="jetbrains.mps.baseLanguage.structure.ReturnStatement" fileName="TestPullingLabels.java" startLine="121" startPosition="29" endLine="122" endPosition="30" />
+    <nodeInfo nodeId="5626844973118496071" conceptFqName="jetbrains.mps.baseLanguage.structure.ReturnStatement" fileName="TestPullingLabels.java" startLine="123" startPosition="12" endLine="124" endPosition="30" />
+    <nodeInfo nodeId="5626844973118496093" conceptFqName="jetbrains.mps.baseLanguage.structure.ReturnStatement" fileName="TestPullingLabels.java" startLine="129" startPosition="27" endLine="130" endPosition="90" />
+    <nodeInfo nodeId="5626844973118496116" conceptFqName="jetbrains.mps.baseLanguage.structure.ReturnStatement" fileName="TestPullingLabels.java" startLine="131" startPosition="12" endLine="132" endPosition="89" />
+    <nodeInfo nodeId="5626844973118496148" conceptFqName="jetbrains.mps.baseLanguage.structure.LocalVariableDeclarationStatement" fileName="TestPullingLabels.java" startLine="136" startPosition="161" endLine="137" endPosition="87" />
+    <nodeInfo nodeId="5626844973118496156" conceptFqName="jetbrains.mps.baseLanguage.structure.LocalVariableDeclarationStatement" fileName="TestPullingLabels.java" startLine="137" startPosition="87" endLine="138" endPosition="71" />
+    <nodeInfo nodeId="5626844973118496171" conceptFqName="jetbrains.mps.baseLanguage.structure.LocalVariableDeclarationStatement" fileName="TestPullingLabels.java" startLine="139" startPosition="98" endLine="140" endPosition="34" />
+    <nodeInfo nodeId="5626844973118496178" conceptFqName="jetbrains.mps.baseLanguage.structure.LocalVariableDeclarationStatement" fileName="TestPullingLabels.java" startLine="140" startPosition="34" endLine="141" endPosition="56" />
+    <nodeInfo nodeId="5626844973118496185" conceptFqName="jetbrains.mps.baseLanguage.structure.LocalVariableDeclarationStatement" fileName="TestPullingLabels.java" startLine="141" startPosition="56" endLine="142" endPosition="90" />
+    <nodeInfo nodeId="5626844973118496196" conceptFqName="jetbrains.mps.baseLanguage.structure.ExpressionStatement" fileName="TestPullingLabels.java" startLine="143" startPosition="40" endLine="144" endPosition="62" />
+    <nodeInfo nodeId="5626844973118496205" conceptFqName="jetbrains.mps.baseLanguage.structure.ExpressionStatement" fileName="TestPullingLabels.java" startLine="145" startPosition="7" endLine="146" endPosition="50" />
+    <nodeInfo nodeId="5626844973118496219" conceptFqName="jetbrains.mps.baseLanguage.structure.LocalVariableDeclarationStatement" fileName="TestPullingLabels.java" startLine="148" startPosition="98" endLine="149" endPosition="34" />
+    <nodeInfo nodeId="5626844973118496226" conceptFqName="jetbrains.mps.baseLanguage.structure.LocalVariableDeclarationStatement" fileName="TestPullingLabels.java" startLine="149" startPosition="34" endLine="150" endPosition="52" />
+    <nodeInfo nodeId="5626844973118496234" conceptFqName="jetbrains.mps.baseLanguage.structure.LocalVariableDeclarationStatement" fileName="TestPullingLabels.java" startLine="150" startPosition="52" endLine="151" endPosition="78" />
+    <nodeInfo nodeId="5626844973118496241" conceptFqName="jetbrains.mps.baseLanguage.structure.LocalVariableDeclarationStatement" fileName="TestPullingLabels.java" startLine="151" startPosition="78" endLine="152" endPosition="72" />
+    <nodeInfo nodeId="5626844973118496248" conceptFqName="jetbrains.mps.baseLanguage.structure.LocalVariableDeclarationStatement" fileName="TestPullingLabels.java" startLine="152" startPosition="72" endLine="153" endPosition="20" />
+    <nodeInfo nodeId="5626844973118496269" conceptFqName="jetbrains.mps.baseLanguage.structure.LocalVariableDeclarationStatement" fileName="TestPullingLabels.java" startLine="155" startPosition="106" endLine="156" endPosition="41" />
+    <nodeInfo nodeId="5626844973118496277" conceptFqName="jetbrains.mps.baseLanguage.structure.ExpressionStatement" fileName="TestPullingLabels.java" startLine="157" startPosition="60" endLine="158" endPosition="38" />
+    <nodeInfo nodeId="5626844973118496290" conceptFqName="jetbrains.mps.baseLanguage.structure.ExpressionStatement" fileName="TestPullingLabels.java" startLine="160" startPosition="66" endLine="161" endPosition="75" />
+    <nodeInfo nodeId="5626844973118496303" conceptFqName="jetbrains.mps.baseLanguage.structure.ExpressionStatement" fileName="TestPullingLabels.java" startLine="162" startPosition="18" endLine="163" endPosition="58" />
+    <nodeInfo nodeId="5626844973118496308" conceptFqName="jetbrains.mps.baseLanguage.structure.LocalVariableDeclarationStatement" fileName="TestPullingLabels.java" startLine="163" startPosition="58" endLine="164" endPosition="44" />
+    <nodeInfo nodeId="5626844973118496316" conceptFqName="jetbrains.mps.baseLanguage.structure.LocalVariableDeclarationStatement" fileName="TestPullingLabels.java" startLine="164" startPosition="44" endLine="165" endPosition="44" />
+    <nodeInfo nodeId="5626844973118496324" conceptFqName="jetbrains.mps.baseLanguage.structure.ExpressionStatement" fileName="TestPullingLabels.java" startLine="165" startPosition="44" endLine="166" endPosition="96" />
+    <nodeInfo nodeId="5626844973118496342" conceptFqName="jetbrains.mps.baseLanguage.structure.LocalVariableDeclarationStatement" fileName="TestPullingLabels.java" startLine="168" startPosition="16" endLine="169" endPosition="70" />
+    <nodeInfo nodeId="5626844973118496352" conceptFqName="jetbrains.mps.baseLanguage.structure.ExpressionStatement" fileName="TestPullingLabels.java" startLine="170" startPosition="42" endLine="171" endPosition="58" />
+    <nodeInfo nodeId="5626844973118496362" conceptFqName="jetbrains.mps.baseLanguage.structure.ExpressionStatement" fileName="TestPullingLabels.java" startLine="172" startPosition="11" endLine="173" endPosition="65" />
+    <nodeInfo nodeId="5626844973118496367" conceptFqName="jetbrains.mps.baseLanguage.structure.ExpressionStatement" fileName="TestPullingLabels.java" startLine="174" startPosition="9" endLine="175" endPosition="16" />
+    <nodeInfo nodeId="5626844973118496372" conceptFqName="jetbrains.mps.baseLanguage.structure.LocalVariableDeclarationStatement" fileName="TestPullingLabels.java" startLine="177" startPosition="69" endLine="178" endPosition="53" />
+    <nodeInfo nodeId="5626844973118496379" conceptFqName="jetbrains.mps.baseLanguage.structure.LocalVariableDeclarationStatement" fileName="TestPullingLabels.java" startLine="178" startPosition="53" endLine="179" endPosition="67" />
+    <nodeInfo nodeId="5626844973118496387" conceptFqName="jetbrains.mps.baseLanguage.structure.LocalVariableDeclarationStatement" fileName="TestPullingLabels.java" startLine="180" startPosition="105" endLine="181" endPosition="42" />
+    <nodeInfo nodeId="5626844973118496395" conceptFqName="jetbrains.mps.baseLanguage.structure.LocalVariableDeclarationStatement" fileName="TestPullingLabels.java" startLine="181" startPosition="42" endLine="182" endPosition="42" />
+    <nodeInfo nodeId="5626844973118496403" conceptFqName="jetbrains.mps.baseLanguage.structure.ExpressionStatement" fileName="TestPullingLabels.java" startLine="182" startPosition="42" endLine="183" endPosition="112" />
+    <nodeInfo nodeId="5626844973118496439" conceptFqName="jetbrains.mps.baseLanguage.structure.ExpressionStatement" fileName="TestPullingLabels.java" startLine="184" startPosition="16" endLine="185" endPosition="67" />
+    <nodeInfo nodeId="5626844973118496451" conceptFqName="jetbrains.mps.baseLanguage.structure.ExpressionStatement" fileName="TestPullingLabels.java" startLine="187" startPosition="7" endLine="188" endPosition="50" />
+    <nodeInfo nodeId="5626844973118496457" conceptFqName="jetbrains.mps.baseLanguage.structure.ReturnStatement" fileName="TestPullingLabels.java" startLine="189" startPosition="5" endLine="190" endPosition="24" />
+    <nodeInfo nodeId="5626844973118496477" conceptFqName="jetbrains.mps.baseLanguage.structure.LocalVariableDeclarationStatement" fileName="TestPullingLabels.java" startLine="193" startPosition="87" endLine="194" endPosition="28" />
+    <nodeInfo nodeId="5626844973118496483" conceptFqName="jetbrains.mps.baseLanguage.structure.LocalVariableDeclarationStatement" fileName="TestPullingLabels.java" startLine="194" startPosition="28" endLine="195" endPosition="28" />
+    <nodeInfo nodeId="5626844973118496493" conceptFqName="jetbrains.mps.baseLanguage.structure.ReturnStatement" fileName="TestPullingLabels.java" startLine="197" startPosition="57" endLine="198" endPosition="32" />
+    <nodeInfo nodeId="5626844973118496513" conceptFqName="jetbrains.mps.baseLanguage.structure.ReturnStatement" fileName="TestPullingLabels.java" startLine="202" startPosition="57" endLine="203" endPosition="32" />
+    <nodeInfo nodeId="5626844973118496529" conceptFqName="jetbrains.mps.baseLanguage.structure.ExpressionStatement" fileName="TestPullingLabels.java" startLine="205" startPosition="5" endLine="206" endPosition="32" />
+    <nodeInfo nodeId="5626844973118496537" conceptFqName="jetbrains.mps.baseLanguage.structure.ExpressionStatement" fileName="TestPullingLabels.java" startLine="206" startPosition="32" endLine="207" endPosition="32" />
+    <nodeInfo nodeId="5626844973118496545" conceptFqName="jetbrains.mps.baseLanguage.structure.ReturnStatement" fileName="TestPullingLabels.java" startLine="207" startPosition="32" endLine="208" endPosition="49" />
+    <nodeInfo nodeId="5626844973118496570" conceptFqName="jetbrains.mps.baseLanguage.structure.LocalVariableDeclarationStatement" fileName="TestPullingLabels.java" startLine="211" startPosition="117" endLine="212" endPosition="28" />
+    <nodeInfo nodeId="5626844973118496576" conceptFqName="jetbrains.mps.baseLanguage.structure.LocalVariableDeclarationStatement" fileName="TestPullingLabels.java" startLine="212" startPosition="28" endLine="213" endPosition="28" />
+    <nodeInfo nodeId="5626844973118496582" conceptFqName="jetbrains.mps.baseLanguage.structure.LocalVariableDeclarationStatement" fileName="TestPullingLabels.java" startLine="213" startPosition="28" endLine="214" endPosition="16" />
+    <nodeInfo nodeId="5626844973118496585" conceptFqName="jetbrains.mps.baseLanguage.structure.LocalVariableDeclarationStatement" fileName="TestPullingLabels.java" startLine="214" startPosition="16" endLine="215" endPosition="16" />
+    <nodeInfo nodeId="5626844973118496593" conceptFqName="jetbrains.mps.baseLanguage.structure.ExpressionStatement" fileName="TestPullingLabels.java" startLine="216" startPosition="35" endLine="217" endPosition="56" />
+    <nodeInfo nodeId="5626844973118496605" conceptFqName="jetbrains.mps.baseLanguage.structure.ExpressionStatement" fileName="TestPullingLabels.java" startLine="217" startPosition="56" endLine="218" endPosition="69" />
+    <nodeInfo nodeId="5626844973118496623" conceptFqName="jetbrains.mps.baseLanguage.structure.ExpressionStatement" fileName="TestPullingLabels.java" startLine="219" startPosition="12" endLine="220" endPosition="56" />
+    <nodeInfo nodeId="5626844973118496635" conceptFqName="jetbrains.mps.baseLanguage.structure.ExpressionStatement" fileName="TestPullingLabels.java" startLine="220" startPosition="56" endLine="221" endPosition="70" />
+    <nodeInfo nodeId="5626844973118496651" conceptFqName="jetbrains.mps.baseLanguage.structure.LocalVariableDeclarationStatement" fileName="TestPullingLabels.java" startLine="222" startPosition="5" endLine="223" endPosition="21" />
+    <nodeInfo nodeId="5626844973118496656" conceptFqName="jetbrains.mps.baseLanguage.structure.ExpressionStatement" fileName="TestPullingLabels.java" startLine="224" startPosition="20" endLine="225" endPosition="28" />
+    <nodeInfo nodeId="5626844973118496665" conceptFqName="jetbrains.mps.baseLanguage.structure.ExpressionStatement" fileName="TestPullingLabels.java" startLine="226" startPosition="12" endLine="227" endPosition="28" />
+    <nodeInfo nodeId="5626844973118496673" conceptFqName="jetbrains.mps.baseLanguage.structure.ReturnStatement" fileName="TestPullingLabels.java" startLine="229" startPosition="19" endLine="230" endPosition="33" />
+    <nodeInfo nodeId="5626844973118496680" conceptFqName="jetbrains.mps.baseLanguage.structure.ExpressionStatement" fileName="TestPullingLabels.java" startLine="231" startPosition="12" endLine="232" endPosition="34" />
+    <nodeInfo nodeId="5626844973118496688" conceptFqName="jetbrains.mps.baseLanguage.structure.ExpressionStatement" fileName="TestPullingLabels.java" startLine="232" startPosition="34" endLine="233" endPosition="34" />
+    <nodeInfo nodeId="5626844973118496696" conceptFqName="jetbrains.mps.baseLanguage.structure.ReturnStatement" fileName="TestPullingLabels.java" startLine="233" startPosition="34" endLine="234" endPosition="78" />
+    <nodeInfo nodeId="5626844973118496735" conceptFqName="jetbrains.mps.baseLanguage.structure.LocalVariableDeclarationStatement" fileName="TestPullingLabels.java" startLine="238" startPosition="73" endLine="239" endPosition="60" />
+    <nodeInfo nodeId="5626844973118496742" conceptFqName="jetbrains.mps.baseLanguage.structure.LocalVariableDeclarationStatement" fileName="TestPullingLabels.java" startLine="239" startPosition="60" endLine="240" endPosition="32" />
+    <nodeInfo nodeId="5626844973118496764" conceptFqName="jetbrains.mps.baseLanguage.structure.ExpressionStatement" fileName="TestPullingLabels.java" startLine="242" startPosition="85" endLine="243" endPosition="27" />
+    <nodeInfo nodeId="5626844973118496768" conceptFqName="jetbrains.mps.baseLanguage.structure.ReturnStatement" fileName="TestPullingLabels.java" startLine="245" startPosition="5" endLine="246" endPosition="23" />
+    <nodeInfo nodeId="5626844973118496773" conceptFqName="jetbrains.mps.baseLanguage.structure.LocalVariableDeclarationStatement" fileName="TestPullingLabels.java" startLine="249" startPosition="83" endLine="250" endPosition="50" />
+    <nodeInfo nodeId="5626844973118496788" conceptFqName="jetbrains.mps.baseLanguage.structure.ReturnStatement" fileName="TestPullingLabels.java" startLine="251" startPosition="35" endLine="252" endPosition="127" />
+    <nodeInfo nodeId="5626844973118496798" conceptFqName="jetbrains.mps.baseLanguage.structure.LocalVariableDeclarationStatement" fileName="TestPullingLabels.java" startLine="253" startPosition="12" endLine="254" endPosition="57" />
+    <nodeInfo nodeId="5626844973118496806" conceptFqName="jetbrains.mps.baseLanguage.structure.ReturnStatement" fileName="TestPullingLabels.java" startLine="254" startPosition="57" endLine="255" endPosition="137" />
+    <nodeInfo nodeId="5626844973118496824" conceptFqName="jetbrains.mps.baseLanguage.structure.ConstructorDeclaration" propertyString="TestPullingLabels#()V" fileName="TestPullingLabels.java" startLine="30" startPosition="0" endLine="32" endPosition="3" />
+    <nodeInfo nodeId="5626844973118496069" conceptFqName="jetbrains.mps.baseLanguage.structure.BlockStatement" fileName="TestPullingLabels.java" startLine="123" startPosition="10" endLine="125" endPosition="5" />
+    <nodeInfo nodeId="5626844973118496114" conceptFqName="jetbrains.mps.baseLanguage.structure.BlockStatement" fileName="TestPullingLabels.java" startLine="131" startPosition="10" endLine="133" endPosition="5" />
+    <nodeInfo nodeId="5626844973118496437" conceptFqName="jetbrains.mps.baseLanguage.structure.BlockStatement" fileName="TestPullingLabels.java" startLine="184" startPosition="14" endLine="186" endPosition="9" />
+    <nodeInfo nodeId="5626844973118496663" conceptFqName="jetbrains.mps.baseLanguage.structure.BlockStatement" fileName="TestPullingLabels.java" startLine="226" startPosition="10" endLine="228" endPosition="5" />
+    <nodeInfo nodeId="5626844973118495604" conceptFqName="jetbrains.mps.baseLanguage.structure.ForeachStatement" fileName="TestPullingLabels.java" startLine="38" startPosition="90" endLine="41" endPosition="5" />
+    <nodeInfo nodeId="5626844973118495677" conceptFqName="jetbrains.mps.baseLanguage.structure.IfStatement" fileName="TestPullingLabels.java" startLine="50" startPosition="54" endLine="53" endPosition="5" />
+    <nodeInfo nodeId="5626844973118495688" conceptFqName="jetbrains.mps.baseLanguage.structure.IfStatement" fileName="TestPullingLabels.java" startLine="53" startPosition="5" endLine="56" endPosition="5" />
+    <nodeInfo nodeId="5626844973118495862" conceptFqName="jetbrains.mps.baseLanguage.structure.IfStatement" fileName="TestPullingLabels.java" startLine="77" startPosition="47" endLine="80" endPosition="7" />
+    <nodeInfo nodeId="5626844973118495951" conceptFqName="jetbrains.mps.baseLanguage.structure.IfStatement" fileName="TestPullingLabels.java" startLine="94" startPosition="34" endLine="97" endPosition="9" />
+    <nodeInfo nodeId="5626844973118495992" conceptFqName="jetbrains.mps.baseLanguage.structure.IfStatement" fileName="TestPullingLabels.java" startLine="103" startPosition="34" endLine="106" endPosition="9" />
+    <nodeInfo nodeId="5626844973118496028" conceptFqName="jetbrains.mps.baseLanguage.structure.IfStatement" fileName="TestPullingLabels.java" startLine="111" startPosition="34" endLine="114" endPosition="9" />
+    <nodeInfo nodeId="5626844973118496194" conceptFqName="jetbrains.mps.baseLanguage.structure.IfStatement" fileName="TestPullingLabels.java" startLine="142" startPosition="90" endLine="145" endPosition="7" />
+    <nodeInfo nodeId="5626844973118496275" conceptFqName="jetbrains.mps.baseLanguage.structure.IfStatement" fileName="TestPullingLabels.java" startLine="156" startPosition="41" endLine="159" endPosition="11" />
+    <nodeInfo nodeId="5626844973118496350" conceptFqName="jetbrains.mps.baseLanguage.structure.IfStatement" fileName="TestPullingLabels.java" startLine="169" startPosition="70" endLine="172" endPosition="11" />
+    <nodeInfo nodeId="5626844973118496491" conceptFqName="jetbrains.mps.baseLanguage.structure.IfStatement" fileName="TestPullingLabels.java" startLine="196" startPosition="35" endLine="199" endPosition="7" />
+    <nodeInfo nodeId="5626844973118496511" conceptFqName="jetbrains.mps.baseLanguage.structure.IfStatement" fileName="TestPullingLabels.java" startLine="201" startPosition="33" endLine="204" endPosition="7" />
+    <nodeInfo nodeId="5626844973118496621" conceptFqName="jetbrains.mps.baseLanguage.structure.BlockStatement" fileName="TestPullingLabels.java" startLine="219" startPosition="10" endLine="222" endPosition="5" />
+    <nodeInfo nodeId="5626844973118496752" conceptFqName="jetbrains.mps.baseLanguage.structure.IfStatement" fileName="TestPullingLabels.java" startLine="241" startPosition="68" endLine="244" endPosition="7" />
+    <nodeInfo nodeId="5626844973118496796" conceptFqName="jetbrains.mps.baseLanguage.structure.BlockStatement" fileName="TestPullingLabels.java" startLine="253" startPosition="10" endLine="256" endPosition="5" />
+    <nodeInfo nodeId="5626844973118495765" conceptFqName="jetbrains.mps.baseLanguage.structure.IfStatement" fileName="TestPullingLabels.java" startLine="63" startPosition="34" endLine="67" endPosition="5" />
+    <nodeInfo nodeId="5626844973118496678" conceptFqName="jetbrains.mps.baseLanguage.structure.BlockStatement" fileName="TestPullingLabels.java" startLine="231" startPosition="10" endLine="235" endPosition="5" />
+    <nodeInfo nodeId="5626844973118495802" conceptFqName="jetbrains.mps.baseLanguage.structure.IfStatement" fileName="TestPullingLabels.java" startLine="68" startPosition="77" endLine="73" endPosition="5" />
+    <nodeInfo nodeId="5626844973118495947" conceptFqName="jetbrains.mps.baseLanguage.structure.ForeachStatement" fileName="TestPullingLabels.java" startLine="93" startPosition="50" endLine="98" endPosition="7" />
+    <nodeInfo nodeId="5626844973118495988" conceptFqName="jetbrains.mps.baseLanguage.structure.ForeachStatement" fileName="TestPullingLabels.java" startLine="102" startPosition="50" endLine="107" endPosition="7" />
+    <nodeInfo nodeId="5626844973118496024" conceptFqName="jetbrains.mps.baseLanguage.structure.ForeachStatement" fileName="TestPullingLabels.java" startLine="110" startPosition="54" endLine="115" endPosition="7" />
+    <nodeInfo nodeId="5626844973118496056" conceptFqName="jetbrains.mps.baseLanguage.structure.IfStatement" fileName="TestPullingLabels.java" startLine="120" startPosition="68" endLine="125" endPosition="5" />
+    <nodeInfo nodeId="5626844973118496088" conceptFqName="jetbrains.mps.baseLanguage.structure.IfStatement" fileName="TestPullingLabels.java" startLine="128" startPosition="80" endLine="133" endPosition="5" />
+    <nodeInfo nodeId="5626844973118496301" conceptFqName="jetbrains.mps.baseLanguage.structure.BlockStatement" fileName="TestPullingLabels.java" startLine="162" startPosition="16" endLine="167" endPosition="11" />
+    <nodeInfo nodeId="5626844973118496489" conceptFqName="jetbrains.mps.baseLanguage.structure.IfStatement" fileName="TestPullingLabels.java" startLine="195" startPosition="28" endLine="200" endPosition="5" />
+    <nodeInfo nodeId="5626844973118496509" conceptFqName="jetbrains.mps.baseLanguage.structure.IfStatement" fileName="TestPullingLabels.java" startLine="200" startPosition="5" endLine="205" endPosition="5" />
+    <nodeInfo nodeId="5626844973118496654" conceptFqName="jetbrains.mps.baseLanguage.structure.IfStatement" fileName="TestPullingLabels.java" startLine="223" startPosition="21" endLine="228" endPosition="5" />
+    <nodeInfo nodeId="5626844973118496746" conceptFqName="jetbrains.mps.baseLanguage.structure.ForeachStatement" fileName="TestPullingLabels.java" startLine="240" startPosition="32" endLine="245" endPosition="5" />
+    <nodeInfo nodeId="5626844973118496340" conceptFqName="jetbrains.mps.baseLanguage.structure.BlockStatement" fileName="TestPullingLabels.java" startLine="168" startPosition="14" endLine="174" endPosition="9" />
+    <nodeInfo nodeId="5626844973118496781" conceptFqName="jetbrains.mps.baseLanguage.structure.IfStatement" fileName="TestPullingLabels.java" startLine="250" startPosition="50" endLine="256" endPosition="5" />
+    <nodeInfo nodeId="5626844973118496385" conceptFqName="jetbrains.mps.baseLanguage.structure.IfStatement" fileName="TestPullingLabels.java" startLine="179" startPosition="67" endLine="186" endPosition="9" />
+    <nodeInfo nodeId="5626844973118496588" conceptFqName="jetbrains.mps.baseLanguage.structure.IfStatement" fileName="TestPullingLabels.java" startLine="215" startPosition="16" endLine="222" endPosition="5" />
+    <nodeInfo nodeId="5626844973118496671" conceptFqName="jetbrains.mps.baseLanguage.structure.IfStatement" fileName="TestPullingLabels.java" startLine="228" startPosition="5" endLine="235" endPosition="5" />
+    <nodeInfo nodeId="5626844973118495856" conceptFqName="jetbrains.mps.baseLanguage.structure.IfStatement" fileName="TestPullingLabels.java" startLine="75" startPosition="45" endLine="83" endPosition="5" />
+    <nodeInfo nodeId="5626844973118496008" conceptFqName="jetbrains.mps.baseLanguage.structure.ForeachStatement" fileName="TestPullingLabels.java" startLine="108" startPosition="5" endLine="116" endPosition="5" />
+    <nodeInfo nodeId="5626844973118496052" conceptFqName="jetbrains.mps.baseLanguage.structure.InstanceMethodDeclaration" propertyString="getDist#(Ljetbrains/mps/graphLayout/intGeom2D/Rectangle;Ljetbrains/mps/graphLayout/intGeom2D/Point;Ljetbrains/mps/graphLayout/intGeom2D/Direction2D;)I" fileName="TestPullingLabels.java" startLine="119" startPosition="0" endLine="127" endPosition="0" />
+    <nodeInfo nodeId="5626844973118496085" conceptFqName="jetbrains.mps.baseLanguage.structure.InstanceMethodDeclaration" propertyString="getRectangle#(Ljetbrains/mps/graphLayout/intGeom2D/Dimension;Ljetbrains/mps/graphLayout/intGeom2D/Point;Ljetbrains/mps/graphLayout/intGeom2D/Direction2D;)Ljetbrains/mps/graphLayout/intGeom2D/Rectangle;" fileName="TestPullingLabels.java" startLine="127" startPosition="0" endLine="135" endPosition="0" />
+    <nodeInfo nodeId="5626844973118496288" conceptFqName="jetbrains.mps.baseLanguage.structure.IfStatement" fileName="TestPullingLabels.java" startLine="159" startPosition="11" endLine="167" endPosition="11" />
+    <nodeInfo nodeId="5626844973118495926" conceptFqName="jetbrains.mps.baseLanguage.structure.ForeachStatement" fileName="TestPullingLabels.java" startLine="90" startPosition="36" endLine="99" endPosition="5" />
+    <nodeInfo nodeId="5626844973118495967" conceptFqName="jetbrains.mps.baseLanguage.structure.ForeachStatement" fileName="TestPullingLabels.java" startLine="99" startPosition="5" endLine="108" endPosition="5" />
+    <nodeInfo nodeId="5626844973118496163" conceptFqName="jetbrains.mps.baseLanguage.structure.ForeachStatement" fileName="TestPullingLabels.java" startLine="138" startPosition="71" endLine="147" endPosition="5" />
+    <nodeInfo nodeId="5626844973118496770" conceptFqName="jetbrains.mps.baseLanguage.structure.InstanceMethodDeclaration" propertyString="getStartDirection#(Ljetbrains/mps/graphLayout/graphLayout/GraphLayout;Ljetbrains/mps/graphLayout/graph/Node;Ljetbrains/mps/graphLayout/graph/Edge;)Ljetbrains/mps/graphLayout/intGeom2D/Direction2D;" fileName="TestPullingLabels.java" startLine="248" startPosition="0" endLine="258" endPosition="0" />
+    <nodeInfo nodeId="5626844973118496370" conceptFqName="jetbrains.mps.baseLanguage.structure.IfStatement" fileName="TestPullingLabels.java" startLine="176" startPosition="7" endLine="187" endPosition="7" />
+    <nodeInfo nodeId="5626844973118496725" conceptFqName="jetbrains.mps.baseLanguage.structure.InstanceMethodDeclaration" propertyString="wasSplitted#(Ljetbrains/mps/graphLayout/graphLayout/GraphLayout;Ljetbrains/mps/graphLayout/graph/Node;Ljetbrains/mps/graphLayout/graph/Edge;)Z" fileName="TestPullingLabels.java" startLine="237" startPosition="0" endLine="248" endPosition="0" />
+    <nodeInfo nodeId="5626844973118495573" conceptFqName="jetbrains.mps.baseLanguage.structure.InstanceMethodDeclaration" propertyString="doLayout#(Ljetbrains/mps/graphLayout/graph/Graph;Ljava/util/Map;Ljava/util/Map;)Ljetbrains/mps/graphLayout/graphLayout/GraphLayout;" fileName="TestPullingLabels.java" startLine="33" startPosition="0" endLine="46" endPosition="0" />
+    <nodeInfo nodeId="5626844973118496473" conceptFqName="jetbrains.mps.baseLanguage.structure.InstanceMethodDeclaration" propertyString="pullPoint#(Ljetbrains/mps/graphLayout/intGeom2D/Point;Ljetbrains/mps/graphLayout/intGeom2D/Point;Ljetbrains/mps/graphLayout/intGeom2D/Direction2D;I)Ljetbrains/mps/graphLayout/intGeom2D/Point;" fileName="TestPullingLabels.java" startLine="192" startPosition="0" endLine="210" endPosition="0" />
+    <nodeInfo nodeId="5626844973118496256" conceptFqName="jetbrains.mps.baseLanguage.structure.IfStatement" fileName="TestPullingLabels.java" startLine="154" startPosition="55" endLine="174" endPosition="9" />
+    <nodeInfo nodeId="5626844973118496252" conceptFqName="jetbrains.mps.baseLanguage.structure.ForeachStatement" fileName="TestPullingLabels.java" startLine="153" startPosition="20" endLine="176" endPosition="7" />
+    <nodeInfo nodeId="5626844973118496566" conceptFqName="jetbrains.mps.baseLanguage.structure.InstanceMethodDeclaration" propertyString="pullRectangle#(Ljetbrains/mps/graphLayout/intGeom2D/Rectangle;Ljetbrains/mps/graphLayout/intGeom2D/Point;Ljetbrains/mps/graphLayout/intGeom2D/Direction2D;IZ)Ljetbrains/mps/graphLayout/intGeom2D/Rectangle;" fileName="TestPullingLabels.java" startLine="210" startPosition="0" endLine="237" endPosition="0" />
+    <nodeInfo nodeId="5626844973118495918" conceptFqName="jetbrains.mps.baseLanguage.structure.InstanceMethodDeclaration" propertyString="getMinDist#(Ljetbrains/mps/graphLayout/graphLayout/GraphLayout;Ljetbrains/mps/graphLayout/intGeom2D/Rectangle;Ljetbrains/mps/graphLayout/intGeom2D/Direction2D;)I" fileName="TestPullingLabels.java" startLine="88" startPosition="0" endLine="119" endPosition="0" />
+    <nodeInfo nodeId="5626844973118495653" conceptFqName="jetbrains.mps.baseLanguage.structure.InstanceMethodDeclaration" propertyString="addEdgeLabel#(Ljetbrains/mps/graphLayout/graphLayout/GraphLayout;Ljetbrains/mps/graphLayout/graph/Edge;Ljetbrains/mps/graphLayout/intGeom2D/Dimension;Ljava/util/Map;)Ljetbrains/mps/graphLayout/graphLayout/GraphLayout;" fileName="TestPullingLabels.java" startLine="46" startPosition="0" endLine="88" endPosition="0" />
+    <nodeInfo nodeId="5626844973118496211" conceptFqName="jetbrains.mps.baseLanguage.structure.ForeachStatement" fileName="TestPullingLabels.java" startLine="147" startPosition="5" endLine="189" endPosition="5" />
+    <nodeInfo nodeId="5626844973118496144" conceptFqName="jetbrains.mps.baseLanguage.structure.InstanceMethodDeclaration" propertyString="pullGraphLayout#(Ljetbrains/mps/graphLayout/graphLayout/GraphLayout;Ljetbrains/mps/graphLayout/intGeom2D/Direction2D;ILjetbrains/mps/graphLayout/intGeom2D/Point;Ljava/util/Map;Z)Ljetbrains/mps/graphLayout/graphLayout/GraphLayout;" fileName="TestPullingLabels.java" startLine="135" startPosition="0" endLine="192" endPosition="0" />
+    <scopeInfo nodeId="5626844973118496827" fileName="TestPullingLabels.java" startLine="31" startPosition="30" endLine="31" endPosition="30" />
+    <scopeInfo nodeId="5626844973118495609" fileName="TestPullingLabels.java" startLine="39" startPosition="84" endLine="40" endPosition="100" />
+    <scopeInfo nodeId="5626844973118495678" fileName="TestPullingLabels.java" startLine="51" startPosition="54" endLine="52" endPosition="14" />
+    <scopeInfo nodeId="5626844973118495689" fileName="TestPullingLabels.java" startLine="54" startPosition="54" endLine="55" endPosition="12" />
+    <scopeInfo nodeId="5626844973118495863" fileName="TestPullingLabels.java" startLine="78" startPosition="31" endLine="79" endPosition="34" />
+    <scopeInfo nodeId="5626844973118495952" fileName="TestPullingLabels.java" startLine="95" startPosition="35" endLine="96" endPosition="65" />
+    <scopeInfo nodeId="5626844973118495993" fileName="TestPullingLabels.java" startLine="104" startPosition="35" endLine="105" endPosition="65" />
+    <scopeInfo nodeId="5626844973118496029" fileName="TestPullingLabels.java" startLine="112" startPosition="35" endLine="113" endPosition="65" />
+    <scopeInfo nodeId="5626844973118496060" fileName="TestPullingLabels.java" startLine="121" startPosition="29" endLine="122" endPosition="30" />
+    <scopeInfo nodeId="5626844973118496070" fileName="TestPullingLabels.java" startLine="123" startPosition="12" endLine="124" endPosition="30" />
+    <scopeInfo nodeId="5626844973118496092" fileName="TestPullingLabels.java" startLine="129" startPosition="27" endLine="130" endPosition="90" />
+    <scopeInfo nodeId="5626844973118496115" fileName="TestPullingLabels.java" startLine="131" startPosition="12" endLine="132" endPosition="89" />
+    <scopeInfo nodeId="5626844973118496195" fileName="TestPullingLabels.java" startLine="143" startPosition="40" endLine="144" endPosition="62" />
+    <scopeInfo nodeId="5626844973118496276" fileName="TestPullingLabels.java" startLine="157" startPosition="60" endLine="158" endPosition="38" />
+    <scopeInfo nodeId="5626844973118496289" fileName="TestPullingLabels.java" startLine="160" startPosition="66" endLine="161" endPosition="75" />
+    <scopeInfo nodeId="5626844973118496351" fileName="TestPullingLabels.java" startLine="170" startPosition="42" endLine="171" endPosition="58" />
+    <scopeInfo nodeId="5626844973118496438" fileName="TestPullingLabels.java" startLine="184" startPosition="16" endLine="185" endPosition="67" />
+    <scopeInfo nodeId="5626844973118496492" fileName="TestPullingLabels.java" startLine="197" startPosition="57" endLine="198" endPosition="32" />
+    <scopeInfo nodeId="5626844973118496512" fileName="TestPullingLabels.java" startLine="202" startPosition="57" endLine="203" endPosition="32" />
+    <scopeInfo nodeId="5626844973118496655" fileName="TestPullingLabels.java" startLine="224" startPosition="20" endLine="225" endPosition="28" />
+    <scopeInfo nodeId="5626844973118496664" fileName="TestPullingLabels.java" startLine="226" startPosition="12" endLine="227" endPosition="28" />
+    <scopeInfo nodeId="5626844973118496672" fileName="TestPullingLabels.java" startLine="229" startPosition="19" endLine="230" endPosition="33" />
+    <scopeInfo nodeId="5626844973118496763" fileName="TestPullingLabels.java" startLine="242" startPosition="85" endLine="243" endPosition="27" />
+    <scopeInfo nodeId="5626844973118496787" fileName="TestPullingLabels.java" startLine="251" startPosition="35" endLine="252" endPosition="127" />
+    <scopeInfo nodeId="5626844973118496824" conceptFqName="jetbrains.mps.baseLanguage.structure.ConstructorDeclaration" propertyString="TestPullingLabels#()V" fileName="TestPullingLabels.java" startLine="30" startPosition="0" endLine="32" endPosition="3" />
+    <scopeInfo nodeId="5626844973118495766" fileName="TestPullingLabels.java" startLine="64" startPosition="27" endLine="66" endPosition="31" />
+    <scopeInfo nodeId="5626844973118496592" fileName="TestPullingLabels.java" startLine="216" startPosition="35" endLine="218" endPosition="69" />
+    <scopeInfo nodeId="5626844973118496622" fileName="TestPullingLabels.java" startLine="219" startPosition="12" endLine="221" endPosition="70" />
+    <scopeInfo nodeId="5626844973118496797" fileName="TestPullingLabels.java" startLine="253" startPosition="12" endLine="255" endPosition="137">
       <varInfo nodeId="5626844973118496799" varName="last" />
     </scopeInfo>
-    <scopeInfo nodeId="5626844973118495604" conceptFqName="jetbrains.mps.baseLanguage.structure.ForeachStatement" fileName="TestPullingLabels.java" startLine="37" startPosition="90" endLine="40" endPosition="5" />
-    <scopeInfo nodeId="5626844973118495803" fileName="TestPullingLabels.java" startLine="68" startPosition="40" endLine="71" endPosition="93">
+    <scopeInfo nodeId="5626844973118495604" conceptFqName="jetbrains.mps.baseLanguage.structure.ForeachStatement" fileName="TestPullingLabels.java" startLine="38" startPosition="90" endLine="41" endPosition="5" />
+    <scopeInfo nodeId="5626844973118495803" fileName="TestPullingLabels.java" startLine="69" startPosition="40" endLine="72" endPosition="93">
       <varInfo nodeId="5626844973118495805" varName="shift" />
     </scopeInfo>
-    <scopeInfo nodeId="5626844973118495950" fileName="TestPullingLabels.java" startLine="93" startPosition="34" endLine="96" endPosition="9" />
-    <scopeInfo nodeId="5626844973118495991" fileName="TestPullingLabels.java" startLine="102" startPosition="34" endLine="105" endPosition="9" />
-    <scopeInfo nodeId="5626844973118496027" fileName="TestPullingLabels.java" startLine="110" startPosition="34" endLine="113" endPosition="9" />
-    <scopeInfo nodeId="5626844973118496386" fileName="TestPullingLabels.java" startLine="179" startPosition="105" endLine="182" endPosition="112">
+    <scopeInfo nodeId="5626844973118495950" fileName="TestPullingLabels.java" startLine="94" startPosition="34" endLine="97" endPosition="9" />
+    <scopeInfo nodeId="5626844973118495991" fileName="TestPullingLabels.java" startLine="103" startPosition="34" endLine="106" endPosition="9" />
+    <scopeInfo nodeId="5626844973118496027" fileName="TestPullingLabels.java" startLine="111" startPosition="34" endLine="114" endPosition="9" />
+    <scopeInfo nodeId="5626844973118496386" fileName="TestPullingLabels.java" startLine="180" startPosition="105" endLine="183" endPosition="112">
       <varInfo nodeId="5626844973118496388" varName="dx" />
       <varInfo nodeId="5626844973118496396" varName="dy" />
     </scopeInfo>
-    <scopeInfo nodeId="5626844973118496490" fileName="TestPullingLabels.java" startLine="195" startPosition="35" endLine="198" endPosition="7" />
-    <scopeInfo nodeId="5626844973118496510" fileName="TestPullingLabels.java" startLine="200" startPosition="33" endLine="203" endPosition="7" />
-    <scopeInfo nodeId="5626844973118496679" fileName="TestPullingLabels.java" startLine="230" startPosition="12" endLine="233" endPosition="78" />
-    <scopeInfo nodeId="5626844973118496751" fileName="TestPullingLabels.java" startLine="240" startPosition="68" endLine="243" endPosition="7" />
-    <scopeInfo nodeId="5626844973118496302" fileName="TestPullingLabels.java" startLine="161" startPosition="18" endLine="165" endPosition="96">
+    <scopeInfo nodeId="5626844973118496490" fileName="TestPullingLabels.java" startLine="196" startPosition="35" endLine="199" endPosition="7" />
+    <scopeInfo nodeId="5626844973118496510" fileName="TestPullingLabels.java" startLine="201" startPosition="33" endLine="204" endPosition="7" />
+    <scopeInfo nodeId="5626844973118496679" fileName="TestPullingLabels.java" startLine="231" startPosition="12" endLine="234" endPosition="78" />
+    <scopeInfo nodeId="5626844973118496751" fileName="TestPullingLabels.java" startLine="241" startPosition="68" endLine="244" endPosition="7" />
+    <scopeInfo nodeId="5626844973118496302" fileName="TestPullingLabels.java" startLine="162" startPosition="18" endLine="166" endPosition="96">
       <varInfo nodeId="5626844973118496309" varName="dx" />
       <varInfo nodeId="5626844973118496317" varName="dy" />
     </scopeInfo>
-    <scopeInfo nodeId="5626844973118495947" conceptFqName="jetbrains.mps.baseLanguage.structure.ForeachStatement" fileName="TestPullingLabels.java" startLine="92" startPosition="58" endLine="97" endPosition="7">
+    <scopeInfo nodeId="5626844973118495947" conceptFqName="jetbrains.mps.baseLanguage.structure.ForeachStatement" fileName="TestPullingLabels.java" startLine="93" startPosition="50" endLine="98" endPosition="7">
       <varInfo nodeId="5626844973118495948" varName="point" />
     </scopeInfo>
-    <scopeInfo nodeId="5626844973118495988" conceptFqName="jetbrains.mps.baseLanguage.structure.ForeachStatement" fileName="TestPullingLabels.java" startLine="101" startPosition="58" endLine="106" endPosition="7">
+    <scopeInfo nodeId="5626844973118495988" conceptFqName="jetbrains.mps.baseLanguage.structure.ForeachStatement" fileName="TestPullingLabels.java" startLine="102" startPosition="50" endLine="107" endPosition="7">
       <varInfo nodeId="5626844973118495989" varName="point" />
     </scopeInfo>
-    <scopeInfo nodeId="5626844973118496024" conceptFqName="jetbrains.mps.baseLanguage.structure.ForeachStatement" fileName="TestPullingLabels.java" startLine="109" startPosition="54" endLine="114" endPosition="7">
+    <scopeInfo nodeId="5626844973118496024" conceptFqName="jetbrains.mps.baseLanguage.structure.ForeachStatement" fileName="TestPullingLabels.java" startLine="110" startPosition="54" endLine="115" endPosition="7">
       <varInfo nodeId="5626844973118496025" varName="point" />
     </scopeInfo>
-    <scopeInfo nodeId="5626844973118496055" fileName="TestPullingLabels.java" startLine="119" startPosition="68" endLine="124" endPosition="5" />
-    <scopeInfo nodeId="5626844973118496087" fileName="TestPullingLabels.java" startLine="127" startPosition="80" endLine="132" endPosition="5" />
-    <scopeInfo nodeId="5626844973118496341" fileName="TestPullingLabels.java" startLine="167" startPosition="16" endLine="172" endPosition="65">
+    <scopeInfo nodeId="5626844973118496055" fileName="TestPullingLabels.java" startLine="120" startPosition="68" endLine="125" endPosition="5" />
+    <scopeInfo nodeId="5626844973118496087" fileName="TestPullingLabels.java" startLine="128" startPosition="80" endLine="133" endPosition="5" />
+    <scopeInfo nodeId="5626844973118496341" fileName="TestPullingLabels.java" startLine="168" startPosition="16" endLine="173" endPosition="65">
       <varInfo nodeId="5626844973118496343" varName="newPoint" />
     </scopeInfo>
-    <scopeInfo nodeId="5626844973118496746" conceptFqName="jetbrains.mps.baseLanguage.structure.ForeachStatement" fileName="TestPullingLabels.java" startLine="239" startPosition="32" endLine="244" endPosition="5" />
-    <scopeInfo nodeId="5626844973118495857" fileName="TestPullingLabels.java" startLine="75" startPosition="39" endLine="81" endPosition="88">
+    <scopeInfo nodeId="5626844973118496746" conceptFqName="jetbrains.mps.baseLanguage.structure.ForeachStatement" fileName="TestPullingLabels.java" startLine="240" startPosition="32" endLine="245" endPosition="5" />
+    <scopeInfo nodeId="5626844973118495857" fileName="TestPullingLabels.java" startLine="76" startPosition="39" endLine="82" endPosition="88">
       <varInfo nodeId="5626844973118495872" varName="shift" />
       <varInfo nodeId="5626844973118495859" varName="shiftDir" />
     </scopeInfo>
-    <scopeInfo nodeId="5626844973118496015" fileName="TestPullingLabels.java" startLine="108" startPosition="98" endLine="114" endPosition="7">
+    <scopeInfo nodeId="5626844973118496015" fileName="TestPullingLabels.java" startLine="109" startPosition="98" endLine="115" endPosition="7">
       <varInfo nodeId="5626844973118496017" varName="points" />
     </scopeInfo>
-    <scopeInfo nodeId="5626844973118495933" fileName="TestPullingLabels.java" startLine="90" startPosition="98" endLine="97" endPosition="7">
+    <scopeInfo nodeId="5626844973118495933" fileName="TestPullingLabels.java" startLine="91" startPosition="98" endLine="98" endPosition="7">
       <varInfo nodeId="5626844973118495942" varName="points" />
       <varInfo nodeId="5626844973118495935" varName="nodeRect" />
     </scopeInfo>
-    <scopeInfo nodeId="5626844973118495974" fileName="TestPullingLabels.java" startLine="99" startPosition="99" endLine="106" endPosition="7">
+    <scopeInfo nodeId="5626844973118495974" fileName="TestPullingLabels.java" startLine="100" startPosition="99" endLine="107" endPosition="7">
       <varInfo nodeId="5626844973118495983" varName="points" />
       <varInfo nodeId="5626844973118495976" varName="nodeRect" />
     </scopeInfo>
-    <scopeInfo nodeId="5626844973118496170" fileName="TestPullingLabels.java" startLine="138" startPosition="98" endLine="145" endPosition="50">
+    <scopeInfo nodeId="5626844973118496170" fileName="TestPullingLabels.java" startLine="139" startPosition="98" endLine="146" endPosition="50">
       <varInfo nodeId="5626844973118496172" varName="myNode" />
       <varInfo nodeId="5626844973118496179" varName="nodeRect" />
       <varInfo nodeId="5626844973118496186" varName="pulledRect" />
     </scopeInfo>
-    <scopeInfo nodeId="5626844973118496772" fileName="TestPullingLabels.java" startLine="248" startPosition="83" endLine="255" endPosition="5">
+    <scopeInfo nodeId="5626844973118496772" fileName="TestPullingLabels.java" startLine="249" startPosition="83" endLine="256" endPosition="5">
       <varInfo nodeId="5626844973118496774" varName="path" />
     </scopeInfo>
-    <scopeInfo nodeId="5626844973118496008" conceptFqName="jetbrains.mps.baseLanguage.structure.ForeachStatement" fileName="TestPullingLabels.java" startLine="107" startPosition="5" endLine="115" endPosition="5" />
-    <scopeInfo nodeId="5626844973118496052" conceptFqName="jetbrains.mps.baseLanguage.structure.InstanceMethodDeclaration" propertyString="getDist#(Ljetbrains/mps/graphLayout/intGeom2D/Rectangle;Ljetbrains/mps/graphLayout/intGeom2D/Point;Ljetbrains/mps/graphLayout/util/Direction2D;)I" fileName="TestPullingLabels.java" startLine="118" startPosition="0" endLine="126" endPosition="0">
+    <scopeInfo nodeId="5626844973118496008" conceptFqName="jetbrains.mps.baseLanguage.structure.ForeachStatement" fileName="TestPullingLabels.java" startLine="108" startPosition="5" endLine="116" endPosition="5" />
+    <scopeInfo nodeId="5626844973118496052" conceptFqName="jetbrains.mps.baseLanguage.structure.InstanceMethodDeclaration" propertyString="getDist#(Ljetbrains/mps/graphLayout/intGeom2D/Rectangle;Ljetbrains/mps/graphLayout/intGeom2D/Point;Ljetbrains/mps/graphLayout/intGeom2D/Direction2D;)I" fileName="TestPullingLabels.java" startLine="119" startPosition="0" endLine="127" endPosition="0">
       <varInfo nodeId="5626844973118496081" varName="point" />
       <varInfo nodeId="5626844973118496083" varName="dir" />
       <varInfo nodeId="5626844973118496079" varName="rect" />
     </scopeInfo>
-    <scopeInfo nodeId="5626844973118496085" conceptFqName="jetbrains.mps.baseLanguage.structure.InstanceMethodDeclaration" propertyString="getRectangle#(Ljetbrains/mps/graphLayout/intGeom2D/Dimension;Ljetbrains/mps/graphLayout/intGeom2D/Point;Ljetbrains/mps/graphLayout/util/Direction2D;)Ljetbrains/mps/graphLayout/intGeom2D/Rectangle;" fileName="TestPullingLabels.java" startLine="126" startPosition="0" endLine="134" endPosition="0">
+    <scopeInfo nodeId="5626844973118496085" conceptFqName="jetbrains.mps.baseLanguage.structure.InstanceMethodDeclaration" propertyString="getRectangle#(Ljetbrains/mps/graphLayout/intGeom2D/Dimension;Ljetbrains/mps/graphLayout/intGeom2D/Point;Ljetbrains/mps/graphLayout/intGeom2D/Direction2D;)Ljetbrains/mps/graphLayout/intGeom2D/Rectangle;" fileName="TestPullingLabels.java" startLine="127" startPosition="0" endLine="135" endPosition="0">
       <varInfo nodeId="5626844973118496140" varName="center" />
       <varInfo nodeId="5626844973118496142" varName="dir" />
       <varInfo nodeId="5626844973118496138" varName="size" />
     </scopeInfo>
-    <scopeInfo nodeId="5626844973118496734" fileName="TestPullingLabels.java" startLine="237" startPosition="73" endLine="245" endPosition="23">
+    <scopeInfo nodeId="5626844973118496734" fileName="TestPullingLabels.java" startLine="238" startPosition="73" endLine="246" endPosition="23">
       <varInfo nodeId="5626844973118496743" varName="wasSplitted" />
       <varInfo nodeId="5626844973118496736" varName="dir" />
     </scopeInfo>
-    <scopeInfo nodeId="5626844973118495926" conceptFqName="jetbrains.mps.baseLanguage.structure.ForeachStatement" fileName="TestPullingLabels.java" startLine="89" startPosition="36" endLine="98" endPosition="5" />
-    <scopeInfo nodeId="5626844973118495967" conceptFqName="jetbrains.mps.baseLanguage.structure.ForeachStatement" fileName="TestPullingLabels.java" startLine="98" startPosition="5" endLine="107" endPosition="5" />
-    <scopeInfo nodeId="5626844973118496163" conceptFqName="jetbrains.mps.baseLanguage.structure.ForeachStatement" fileName="TestPullingLabels.java" startLine="137" startPosition="71" endLine="146" endPosition="5" />
-    <scopeInfo nodeId="5626844973118496371" fileName="TestPullingLabels.java" startLine="176" startPosition="69" endLine="185" endPosition="9">
+    <scopeInfo nodeId="5626844973118495926" conceptFqName="jetbrains.mps.baseLanguage.structure.ForeachStatement" fileName="TestPullingLabels.java" startLine="90" startPosition="36" endLine="99" endPosition="5" />
+    <scopeInfo nodeId="5626844973118495967" conceptFqName="jetbrains.mps.baseLanguage.structure.ForeachStatement" fileName="TestPullingLabels.java" startLine="99" startPosition="5" endLine="108" endPosition="5" />
+    <scopeInfo nodeId="5626844973118496163" conceptFqName="jetbrains.mps.baseLanguage.structure.ForeachStatement" fileName="TestPullingLabels.java" startLine="138" startPosition="71" endLine="147" endPosition="5" />
+    <scopeInfo nodeId="5626844973118496371" fileName="TestPullingLabels.java" startLine="177" startPosition="69" endLine="186" endPosition="9">
       <varInfo nodeId="5626844973118496380" varName="seg" />
       <varInfo nodeId="5626844973118496373" varName="rect" />
     </scopeInfo>
-    <scopeInfo nodeId="5626844973118495576" fileName="TestPullingLabels.java" startLine="33" startPosition="108" endLine="43" endPosition="18">
+    <scopeInfo nodeId="5626844973118495576" fileName="TestPullingLabels.java" startLine="34" startPosition="108" endLine="44" endPosition="18">
       <varInfo nodeId="5626844973118495596" varName="labeledSegment" />
       <varInfo nodeId="5626844973118495578" varName="flowLayouterConstraints" />
       <varInfo nodeId="5626844973118495588" varName="layout" />
       <varInfo nodeId="5626844973118495621" varName="rect" />
     </scopeInfo>
-    <scopeInfo nodeId="5626844973118496770" conceptFqName="jetbrains.mps.baseLanguage.structure.InstanceMethodDeclaration" propertyString="getStartDirection#(Ljetbrains/mps/graphLayout/graphLayout/GraphLayout;Ljetbrains/mps/graphLayout/graph/Node;Ljetbrains/mps/graphLayout/graph/Edge;)Ljetbrains/mps/graphLayout/util/Direction2D;" fileName="TestPullingLabels.java" startLine="247" startPosition="0" endLine="257" endPosition="0">
+    <scopeInfo nodeId="5626844973118496770" conceptFqName="jetbrains.mps.baseLanguage.structure.InstanceMethodDeclaration" propertyString="getStartDirection#(Ljetbrains/mps/graphLayout/graphLayout/GraphLayout;Ljetbrains/mps/graphLayout/graph/Node;Ljetbrains/mps/graphLayout/graph/Edge;)Ljetbrains/mps/graphLayout/intGeom2D/Direction2D;" fileName="TestPullingLabels.java" startLine="248" startPosition="0" endLine="258" endPosition="0">
       <varInfo nodeId="5626844973118496818" varName="node" />
       <varInfo nodeId="5626844973118496820" varName="edge" />
       <varInfo nodeId="5626844973118496816" varName="layout" />
     </scopeInfo>
-    <scopeInfo nodeId="5626844973118496725" conceptFqName="jetbrains.mps.baseLanguage.structure.InstanceMethodDeclaration" propertyString="wasSplitted#(Ljetbrains/mps/graphLayout/graphLayout/GraphLayout;Ljetbrains/mps/graphLayout/graph/Node;Ljetbrains/mps/graphLayout/graph/Edge;)Z" fileName="TestPullingLabels.java" startLine="236" startPosition="0" endLine="247" endPosition="0">
+    <scopeInfo nodeId="5626844973118496725" conceptFqName="jetbrains.mps.baseLanguage.structure.InstanceMethodDeclaration" propertyString="wasSplitted#(Ljetbrains/mps/graphLayout/graphLayout/GraphLayout;Ljetbrains/mps/graphLayout/graph/Node;Ljetbrains/mps/graphLayout/graph/Edge;)Z" fileName="TestPullingLabels.java" startLine="237" startPosition="0" endLine="248" endPosition="0">
       <varInfo nodeId="5626844973118496730" varName="node" />
       <varInfo nodeId="5626844973118496732" varName="edge" />
       <varInfo nodeId="5626844973118496728" varName="layout" />
     </scopeInfo>
-    <scopeInfo nodeId="5626844973118496268" fileName="TestPullingLabels.java" startLine="154" startPosition="106" endLine="166" endPosition="11">
+    <scopeInfo nodeId="5626844973118496268" fileName="TestPullingLabels.java" startLine="155" startPosition="106" endLine="167" endPosition="11">
       <varInfo nodeId="5626844973118496270" varName="node" />
     </scopeInfo>
-    <scopeInfo nodeId="5626844973118495573" conceptFqName="jetbrains.mps.baseLanguage.structure.InstanceMethodDeclaration" propertyString="doLayout#(Ljetbrains/mps/graphLayout/graph/Graph;Ljava/util/Map;Ljava/util/Map;)Ljetbrains/mps/graphLayout/graphLayout/GraphLayout;" fileName="TestPullingLabels.java" startLine="32" startPosition="0" endLine="45" endPosition="0">
+    <scopeInfo nodeId="5626844973118495573" conceptFqName="jetbrains.mps.baseLanguage.structure.InstanceMethodDeclaration" propertyString="doLayout#(Ljetbrains/mps/graphLayout/graph/Graph;Ljava/util/Map;Ljava/util/Map;)Ljetbrains/mps/graphLayout/graphLayout/GraphLayout;" fileName="TestPullingLabels.java" startLine="33" startPosition="0" endLine="46" endPosition="0">
       <varInfo nodeId="5626844973118495643" varName="graph" />
       <varInfo nodeId="5626844973118495649" varName="edgeSizes" />
       <varInfo nodeId="5626844973118495645" varName="nodeSizes" />
     </scopeInfo>
-    <scopeInfo nodeId="5626844973118496476" fileName="TestPullingLabels.java" startLine="192" startPosition="87" endLine="207" endPosition="49">
+    <scopeInfo nodeId="5626844973118496476" fileName="TestPullingLabels.java" startLine="193" startPosition="87" endLine="208" endPosition="49">
       <varInfo nodeId="5626844973118496478" varName="dx" />
       <varInfo nodeId="5626844973118496484" varName="dy" />
     </scopeInfo>
-    <scopeInfo nodeId="5626844973118496473" conceptFqName="jetbrains.mps.baseLanguage.structure.InstanceMethodDeclaration" propertyString="pullPoint#(Ljetbrains/mps/graphLayout/intGeom2D/Point;Ljetbrains/mps/graphLayout/intGeom2D/Point;Ljetbrains/mps/graphLayout/util/Direction2D;I)Ljetbrains/mps/graphLayout/intGeom2D/Point;" fileName="TestPullingLabels.java" startLine="191" startPosition="0" endLine="209" endPosition="0">
+    <scopeInfo nodeId="5626844973118496473" conceptFqName="jetbrains.mps.baseLanguage.structure.InstanceMethodDeclaration" propertyString="pullPoint#(Ljetbrains/mps/graphLayout/intGeom2D/Point;Ljetbrains/mps/graphLayout/intGeom2D/Point;Ljetbrains/mps/graphLayout/intGeom2D/Direction2D;I)Ljetbrains/mps/graphLayout/intGeom2D/Point;" fileName="TestPullingLabels.java" startLine="192" startPosition="0" endLine="210" endPosition="0">
       <varInfo nodeId="5626844973118496560" varName="center" />
       <varInfo nodeId="5626844973118496558" varName="point" />
       <varInfo nodeId="5626844973118496562" varName="direction" />
       <varInfo nodeId="5626844973118496564" varName="shift" />
     </scopeInfo>
-    <scopeInfo nodeId="5626844973118496255" fileName="TestPullingLabels.java" startLine="153" startPosition="55" endLine="174" endPosition="16" />
-    <scopeInfo nodeId="5626844973118496252" conceptFqName="jetbrains.mps.baseLanguage.structure.ForeachStatement" fileName="TestPullingLabels.java" startLine="152" startPosition="20" endLine="175" endPosition="7" />
-    <scopeInfo nodeId="5626844973118496569" fileName="TestPullingLabels.java" startLine="210" startPosition="117" endLine="234" endPosition="5">
+    <scopeInfo nodeId="5626844973118496255" fileName="TestPullingLabels.java" startLine="154" startPosition="55" endLine="175" endPosition="16" />
+    <scopeInfo nodeId="5626844973118496252" conceptFqName="jetbrains.mps.baseLanguage.structure.ForeachStatement" fileName="TestPullingLabels.java" startLine="153" startPosition="20" endLine="176" endPosition="7" />
+    <scopeInfo nodeId="5626844973118496569" fileName="TestPullingLabels.java" startLine="211" startPosition="117" endLine="235" endPosition="5">
       <varInfo nodeId="5626844973118496571" varName="dx" />
       <varInfo nodeId="5626844973118496577" varName="dy" />
       <varInfo nodeId="5626844973118496652" varName="notShift" />
       <varInfo nodeId="5626844973118496586" varName="eq2" />
       <varInfo nodeId="5626844973118496583" varName="eq1" />
     </scopeInfo>
-    <scopeInfo nodeId="5626844973118496566" conceptFqName="jetbrains.mps.baseLanguage.structure.InstanceMethodDeclaration" propertyString="pullRectangle#(Ljetbrains/mps/graphLayout/intGeom2D/Rectangle;Ljetbrains/mps/graphLayout/intGeom2D/Point;Ljetbrains/mps/graphLayout/util/Direction2D;IZ)Ljetbrains/mps/graphLayout/intGeom2D/Rectangle;" fileName="TestPullingLabels.java" startLine="209" startPosition="0" endLine="236" endPosition="0">
+    <scopeInfo nodeId="5626844973118496566" conceptFqName="jetbrains.mps.baseLanguage.structure.InstanceMethodDeclaration" propertyString="pullRectangle#(Ljetbrains/mps/graphLayout/intGeom2D/Rectangle;Ljetbrains/mps/graphLayout/intGeom2D/Point;Ljetbrains/mps/graphLayout/intGeom2D/Direction2D;IZ)Ljetbrains/mps/graphLayout/intGeom2D/Rectangle;" fileName="TestPullingLabels.java" startLine="210" startPosition="0" endLine="237" endPosition="0">
       <varInfo nodeId="5626844973118496717" varName="center" />
       <varInfo nodeId="5626844973118496719" varName="direction" />
       <varInfo nodeId="5626844973118496723" varName="alongEdge" />
       <varInfo nodeId="5626844973118496715" varName="rect" />
       <varInfo nodeId="5626844973118496721" varName="shift" />
     </scopeInfo>
-    <scopeInfo nodeId="5626844973118495921" fileName="TestPullingLabels.java" startLine="88" startPosition="78" endLine="116" endPosition="19">
+    <scopeInfo nodeId="5626844973118495921" fileName="TestPullingLabels.java" startLine="89" startPosition="78" endLine="117" endPosition="19">
       <varInfo nodeId="5626844973118495923" varName="minDist" />
     </scopeInfo>
-    <scopeInfo nodeId="5626844973118495918" conceptFqName="jetbrains.mps.baseLanguage.structure.InstanceMethodDeclaration" propertyString="getMinDist#(Ljetbrains/mps/graphLayout/graphLayout/GraphLayout;Ljetbrains/mps/graphLayout/intGeom2D/Rectangle;Ljetbrains/mps/graphLayout/util/Direction2D;)I" fileName="TestPullingLabels.java" startLine="87" startPosition="0" endLine="118" endPosition="0">
+    <scopeInfo nodeId="5626844973118495918" conceptFqName="jetbrains.mps.baseLanguage.structure.InstanceMethodDeclaration" propertyString="getMinDist#(Ljetbrains/mps/graphLayout/graphLayout/GraphLayout;Ljetbrains/mps/graphLayout/intGeom2D/Rectangle;Ljetbrains/mps/graphLayout/intGeom2D/Direction2D;)I" fileName="TestPullingLabels.java" startLine="88" startPosition="0" endLine="119" endPosition="0">
       <varInfo nodeId="5626844973118496050" varName="dir" />
       <varInfo nodeId="5626844973118496046" varName="layout" />
       <varInfo nodeId="5626844973118496048" varName="rect" />
     </scopeInfo>
-    <scopeInfo nodeId="5626844973118495656" fileName="TestPullingLabels.java" startLine="46" startPosition="124" endLine="85" endPosition="18">
+    <scopeInfo nodeId="5626844973118495656" fileName="TestPullingLabels.java" startLine="47" startPosition="124" endLine="86" endPosition="18">
       <varInfo nodeId="5626844973118495715" varName="second" />
       <varInfo nodeId="5626844973118495754" varName="width" />
       <varInfo nodeId="5626844973118495843" varName="rect" />
@@ -3331,25 +3331,25 @@
       <varInfo nodeId="5626844973118495670" varName="end" />
       <varInfo nodeId="5626844973118495850" varName="dist" />
     </scopeInfo>
-    <scopeInfo nodeId="5626844973118496218" fileName="TestPullingLabels.java" startLine="147" startPosition="98" endLine="187" endPosition="50">
+    <scopeInfo nodeId="5626844973118496218" fileName="TestPullingLabels.java" startLine="148" startPosition="98" endLine="188" endPosition="50">
       <varInfo nodeId="5626844973118496249" varName="index" />
       <varInfo nodeId="5626844973118496220" varName="myEdge" />
       <varInfo nodeId="5626844973118496227" varName="path" />
       <varInfo nodeId="5626844973118496242" varName="pulled" />
       <varInfo nodeId="5626844973118496235" varName="pulledPath" />
     </scopeInfo>
-    <scopeInfo nodeId="5626844973118495653" conceptFqName="jetbrains.mps.baseLanguage.structure.InstanceMethodDeclaration" propertyString="addEdgeLabel#(Ljetbrains/mps/graphLayout/graphLayout/GraphLayout;Ljetbrains/mps/graphLayout/graph/Edge;Ljetbrains/mps/graphLayout/intGeom2D/Dimension;Ljava/util/Map;)Ljetbrains/mps/graphLayout/graphLayout/GraphLayout;" fileName="TestPullingLabels.java" startLine="45" startPosition="0" endLine="87" endPosition="0">
+    <scopeInfo nodeId="5626844973118495653" conceptFqName="jetbrains.mps.baseLanguage.structure.InstanceMethodDeclaration" propertyString="addEdgeLabel#(Ljetbrains/mps/graphLayout/graphLayout/GraphLayout;Ljetbrains/mps/graphLayout/graph/Edge;Ljetbrains/mps/graphLayout/intGeom2D/Dimension;Ljava/util/Map;)Ljetbrains/mps/graphLayout/graphLayout/GraphLayout;" fileName="TestPullingLabels.java" startLine="46" startPosition="0" endLine="88" endPosition="0">
       <varInfo nodeId="5626844973118495910" varName="edge" />
       <varInfo nodeId="5626844973118495912" varName="labelSize" />
       <varInfo nodeId="5626844973118495908" varName="layout" />
       <varInfo nodeId="5626844973118495914" varName="labeledSegments" />
     </scopeInfo>
-    <scopeInfo nodeId="5626844973118496211" conceptFqName="jetbrains.mps.baseLanguage.structure.ForeachStatement" fileName="TestPullingLabels.java" startLine="146" startPosition="5" endLine="188" endPosition="5" />
-    <scopeInfo nodeId="5626844973118496147" fileName="TestPullingLabels.java" startLine="135" startPosition="161" endLine="189" endPosition="24">
+    <scopeInfo nodeId="5626844973118496211" conceptFqName="jetbrains.mps.baseLanguage.structure.ForeachStatement" fileName="TestPullingLabels.java" startLine="147" startPosition="5" endLine="189" endPosition="5" />
+    <scopeInfo nodeId="5626844973118496147" fileName="TestPullingLabels.java" startLine="136" startPosition="161" endLine="190" endPosition="24">
       <varInfo nodeId="5626844973118496157" varName="unpulledNodes" />
       <varInfo nodeId="5626844973118496149" varName="pulledLayout" />
     </scopeInfo>
-    <scopeInfo nodeId="5626844973118496144" conceptFqName="jetbrains.mps.baseLanguage.structure.InstanceMethodDeclaration" propertyString="pullGraphLayout#(Ljetbrains/mps/graphLayout/graphLayout/GraphLayout;Ljetbrains/mps/graphLayout/util/Direction2D;ILjetbrains/mps/graphLayout/intGeom2D/Point;Ljava/util/Map;Z)Ljetbrains/mps/graphLayout/graphLayout/GraphLayout;" fileName="TestPullingLabels.java" startLine="134" startPosition="0" endLine="191" endPosition="0">
+    <scopeInfo nodeId="5626844973118496144" conceptFqName="jetbrains.mps.baseLanguage.structure.InstanceMethodDeclaration" propertyString="pullGraphLayout#(Ljetbrains/mps/graphLayout/graphLayout/GraphLayout;Ljetbrains/mps/graphLayout/intGeom2D/Direction2D;ILjetbrains/mps/graphLayout/intGeom2D/Point;Ljava/util/Map;Z)Ljetbrains/mps/graphLayout/graphLayout/GraphLayout;" fileName="TestPullingLabels.java" startLine="135" startPosition="0" endLine="192" endPosition="0">
       <varInfo nodeId="5626844973118496465" varName="center" />
       <varInfo nodeId="5626844973118496461" varName="direction" />
       <varInfo nodeId="5626844973118496459" varName="layout" />
@@ -3357,7 +3357,7 @@
       <varInfo nodeId="5626844973118496467" varName="labeledSegments" />
       <varInfo nodeId="5626844973118496463" varName="shift" />
     </scopeInfo>
-    <unitInfo nodeId="5626844973118495568" fileName="TestPullingLabels.java" startLine="27" startPosition="0" endLine="258" endPosition="0" unitName="jetbrains.mps.graphLayout.internal.flowOrthogonalLayout.TestPullingLabels" />
+    <unitInfo nodeId="5626844973118495568" fileName="TestPullingLabels.java" startLine="28" startPosition="0" endLine="259" endPosition="0" unitName="jetbrains.mps.graphLayout.internal.flowOrthogonalLayout.TestPullingLabels" />
   </root>
   <root nodeId="5626844973118496843">
     <nodeInfo nodeId="5626844973118496844" conceptFqName="jetbrains.mps.baseLanguage.structure.FieldDeclaration" propertyString="myCoordinates" fileName="CoordinatePlacer.java" startLine="18" startPosition="43" endLine="19" endPosition="41" />

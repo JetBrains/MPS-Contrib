@@ -120,16 +120,15 @@
     <nodeInfo nodeId="4998536563116676123" conceptFqName="jetbrains.mps.baseLanguage.structure.ThrowStatement" fileName="GraphIO.java" startLine="131" startPosition="27" endLine="132" endPosition="61" />
     <nodeInfo nodeId="1714301205550473121" conceptFqName="jetbrains.mps.baseLanguage.structure.LocalVariableDeclarationStatement" fileName="GraphIO.java" startLine="136" startPosition="60" endLine="137" endPosition="40" />
     <nodeInfo nodeId="1714301205550473131" conceptFqName="jetbrains.mps.baseLanguage.structure.ExpressionStatement" fileName="GraphIO.java" startLine="137" startPosition="40" endLine="138" endPosition="30" />
-    <nodeInfo nodeId="1714301205550473135" conceptFqName="jetbrains.mps.baseLanguage.structure.SingleLineComment" fileName="GraphIO.java" startLine="138" startPosition="30" endLine="139" endPosition="59" />
-    <nodeInfo nodeId="1714301205550473137" conceptFqName="jetbrains.mps.baseLanguage.structure.LocalVariableDeclarationStatement" fileName="GraphIO.java" startLine="139" startPosition="59" endLine="140" endPosition="41" />
-    <nodeInfo nodeId="1714301205550509635" conceptFqName="jetbrains.mps.baseLanguage.structure.LocalVariableDeclarationStatement" fileName="GraphIO.java" startLine="140" startPosition="41" endLine="141" endPosition="65" />
-    <nodeInfo nodeId="1714301205550473145" conceptFqName="jetbrains.mps.baseLanguage.structure.LocalVariableDeclarationStatement" fileName="GraphIO.java" startLine="142" startPosition="44" endLine="143" endPosition="53" />
-    <nodeInfo nodeId="1714301205550473154" conceptFqName="jetbrains.mps.baseLanguage.structure.LocalVariableDeclarationStatement" fileName="GraphIO.java" startLine="143" startPosition="53" endLine="144" endPosition="52" />
-    <nodeInfo nodeId="1714301205550473163" conceptFqName="jetbrains.mps.baseLanguage.structure.ExpressionStatement" fileName="GraphIO.java" startLine="144" startPosition="52" endLine="145" endPosition="37" />
-    <nodeInfo nodeId="1714301205550509645" conceptFqName="jetbrains.mps.baseLanguage.structure.ExpressionStatement" fileName="GraphIO.java" startLine="145" startPosition="37" endLine="146" endPosition="53" />
-    <nodeInfo nodeId="1714301205550509676" conceptFqName="jetbrains.mps.baseLanguage.structure.ContinueStatement" fileName="GraphIO.java" startLine="149" startPosition="56" endLine="150" endPosition="17" />
-    <nodeInfo nodeId="1714301205550509678" conceptFqName="jetbrains.mps.baseLanguage.structure.ExpressionStatement" fileName="GraphIO.java" startLine="151" startPosition="7" endLine="152" endPosition="45" />
-    <nodeInfo nodeId="1714301205550473177" conceptFqName="jetbrains.mps.baseLanguage.structure.ReturnStatement" fileName="GraphIO.java" startLine="153" startPosition="5" endLine="154" endPosition="17" />
+    <nodeInfo nodeId="1714301205550473137" conceptFqName="jetbrains.mps.baseLanguage.structure.LocalVariableDeclarationStatement" fileName="GraphIO.java" startLine="138" startPosition="30" endLine="139" endPosition="41" />
+    <nodeInfo nodeId="1714301205550509635" conceptFqName="jetbrains.mps.baseLanguage.structure.LocalVariableDeclarationStatement" fileName="GraphIO.java" startLine="139" startPosition="41" endLine="140" endPosition="65" />
+    <nodeInfo nodeId="1714301205550473145" conceptFqName="jetbrains.mps.baseLanguage.structure.LocalVariableDeclarationStatement" fileName="GraphIO.java" startLine="141" startPosition="44" endLine="142" endPosition="53" />
+    <nodeInfo nodeId="1714301205550473154" conceptFqName="jetbrains.mps.baseLanguage.structure.LocalVariableDeclarationStatement" fileName="GraphIO.java" startLine="142" startPosition="53" endLine="143" endPosition="52" />
+    <nodeInfo nodeId="1714301205550473163" conceptFqName="jetbrains.mps.baseLanguage.structure.ExpressionStatement" fileName="GraphIO.java" startLine="143" startPosition="52" endLine="144" endPosition="37" />
+    <nodeInfo nodeId="1714301205550509645" conceptFqName="jetbrains.mps.baseLanguage.structure.ExpressionStatement" fileName="GraphIO.java" startLine="144" startPosition="37" endLine="145" endPosition="53" />
+    <nodeInfo nodeId="1714301205550509676" conceptFqName="jetbrains.mps.baseLanguage.structure.ContinueStatement" fileName="GraphIO.java" startLine="148" startPosition="56" endLine="149" endPosition="17" />
+    <nodeInfo nodeId="1714301205550509678" conceptFqName="jetbrains.mps.baseLanguage.structure.ExpressionStatement" fileName="GraphIO.java" startLine="150" startPosition="7" endLine="151" endPosition="45" />
+    <nodeInfo nodeId="1714301205550473177" conceptFqName="jetbrains.mps.baseLanguage.structure.ReturnStatement" fileName="GraphIO.java" startLine="152" startPosition="5" endLine="153" endPosition="17" />
     <nodeInfo nodeId="4998536563116676900" conceptFqName="jetbrains.mps.baseLanguage.structure.ForStatement" fileName="GraphIO.java" startLine="37" startPosition="39" endLine="40" endPosition="7" />
     <nodeInfo nodeId="6984255766319299385" conceptFqName="jetbrains.mps.baseLanguage.structure.ForStatement" fileName="GraphIO.java" startLine="63" startPosition="42" endLine="66" endPosition="7" />
     <nodeInfo nodeId="6984255766319299507" conceptFqName="jetbrains.mps.baseLanguage.structure.IfStatement" fileName="GraphIO.java" startLine="73" startPosition="56" endLine="76" endPosition="11" />
@@ -139,7 +138,7 @@
     <nodeInfo nodeId="8527875266531960623" conceptFqName="jetbrains.mps.baseLanguage.structure.ForeachStatement" fileName="GraphIO.java" startLine="103" startPosition="59" endLine="106" endPosition="5" />
     <nodeInfo nodeId="8527875266531960721" conceptFqName="jetbrains.mps.baseLanguage.structure.ForeachStatement" fileName="GraphIO.java" startLine="107" startPosition="64" endLine="110" endPosition="5" />
     <nodeInfo nodeId="4998536563116677068" conceptFqName="jetbrains.mps.baseLanguage.structure.IfStatement" fileName="GraphIO.java" startLine="124" startPosition="67" endLine="127" endPosition="9" />
-    <nodeInfo nodeId="1714301205550509665" conceptFqName="jetbrains.mps.baseLanguage.structure.IfStatement" fileName="GraphIO.java" startLine="148" startPosition="63" endLine="151" endPosition="7" />
+    <nodeInfo nodeId="1714301205550509665" conceptFqName="jetbrains.mps.baseLanguage.structure.IfStatement" fileName="GraphIO.java" startLine="147" startPosition="63" endLine="150" endPosition="7" />
     <nodeInfo nodeId="7727845083901344073" conceptFqName="jetbrains.mps.baseLanguage.structure.StaticMethodDeclaration" propertyString="scanGraph#(Ljava/lang/String;)Ljetbrains/mps/graphLayout/graph/Graph;" fileName="GraphIO.java" startLine="24" startPosition="22" endLine="28" endPosition="0" />
     <nodeInfo nodeId="1714301205550474143" conceptFqName="jetbrains.mps.baseLanguage.structure.StaticMethodDeclaration" propertyString="scanGraph#(Ljava/util/Scanner;Ljetbrains/mps/graphLayout/graph/Graph;)V" fileName="GraphIO.java" startLine="51" startPosition="0" endLine="55" endPosition="0" />
     <nodeInfo nodeId="4998536563116627668" conceptFqName="jetbrains.mps.baseLanguage.structure.StaticMethodDeclaration" propertyString="scanClusteredGraph#(Ljava/lang/String;Ljava/lang/String;)Ljetbrains/mps/graphLayout/graph/ClusteredGraph;" fileName="GraphIO.java" startLine="112" startPosition="0" endLine="116" endPosition="0" />
@@ -148,8 +147,8 @@
     <nodeInfo nodeId="4998536563116677058" conceptFqName="jetbrains.mps.baseLanguage.structure.ForeachStatement" fileName="GraphIO.java" startLine="123" startPosition="18" endLine="128" endPosition="7" />
     <nodeInfo nodeId="1567683135099906915" conceptFqName="jetbrains.mps.baseLanguage.structure.StaticMethodDeclaration" propertyString="scanGraph#(Ljava/util/Scanner;)Ljetbrains/mps/graphLayout/graph/Graph;" fileName="GraphIO.java" startLine="28" startPosition="0" endLine="34" endPosition="0" />
     <nodeInfo nodeId="6984255766319299487" conceptFqName="jetbrains.mps.baseLanguage.structure.ForeachStatement" fileName="GraphIO.java" startLine="71" startPosition="28" endLine="77" endPosition="9" />
-    <nodeInfo nodeId="1714301205550473143" conceptFqName="jetbrains.mps.baseLanguage.structure.ForStatement" fileName="GraphIO.java" startLine="141" startPosition="65" endLine="147" endPosition="5" />
-    <nodeInfo nodeId="1714301205550509655" conceptFqName="jetbrains.mps.baseLanguage.structure.ForeachStatement" fileName="GraphIO.java" startLine="147" startPosition="5" endLine="153" endPosition="5" />
+    <nodeInfo nodeId="1714301205550473143" conceptFqName="jetbrains.mps.baseLanguage.structure.ForStatement" fileName="GraphIO.java" startLine="140" startPosition="65" endLine="146" endPosition="5" />
+    <nodeInfo nodeId="1714301205550509655" conceptFqName="jetbrains.mps.baseLanguage.structure.ForeachStatement" fileName="GraphIO.java" startLine="146" startPosition="5" endLine="152" endPosition="5" />
     <nodeInfo nodeId="6984255766319299435" conceptFqName="jetbrains.mps.baseLanguage.structure.ForStatement" fileName="GraphIO.java" startLine="67" startPosition="33" endLine="79" endPosition="7" />
     <nodeInfo nodeId="8527875266531960591" conceptFqName="jetbrains.mps.baseLanguage.structure.StaticMethodDeclaration" propertyString="writeGraph#(Ljetbrains/mps/graphLayout/graph/Graph;Ljava/util/Map;Ljava/util/Map;Ljava/io/PrintWriter;)V" fileName="GraphIO.java" startLine="100" startPosition="0" endLine="112" endPosition="0" />
     <nodeInfo nodeId="4519409331094617336" conceptFqName="jetbrains.mps.baseLanguage.structure.StaticMethodDeclaration" propertyString="writeGraph#(Ljetbrains/mps/graphLayout/graph/Graph;Ljava/io/PrintWriter;)V" fileName="GraphIO.java" startLine="87" startPosition="0" endLine="100" endPosition="0" />
@@ -157,7 +156,7 @@
     <nodeInfo nodeId="4998536563116676051" conceptFqName="jetbrains.mps.baseLanguage.structure.TryCatchStatement" fileName="GraphIO.java" startLine="117" startPosition="94" endLine="133" endPosition="5" />
     <nodeInfo nodeId="4998536563116676868" conceptFqName="jetbrains.mps.baseLanguage.structure.StaticMethodDeclaration" propertyString="scanGraph#(Ljava/util/Scanner;Ljetbrains/mps/graphLayout/graph/Graph;I)V" fileName="GraphIO.java" startLine="34" startPosition="0" endLine="51" endPosition="0" />
     <nodeInfo nodeId="4998536563116627662" conceptFqName="jetbrains.mps.baseLanguage.structure.StaticMethodDeclaration" propertyString="scanClusteredGraph#(Ljava/util/Scanner;Ljava/util/Scanner;)Ljetbrains/mps/graphLayout/graph/ClusteredGraph;" fileName="GraphIO.java" startLine="116" startPosition="0" endLine="135" endPosition="0" />
-    <nodeInfo nodeId="1714301205550473114" conceptFqName="jetbrains.mps.baseLanguage.structure.StaticMethodDeclaration" propertyString="scanHyperGraph#(Ljava/util/Scanner;)Ljetbrains/mps/graphLayout/graph/HyperGraph;" fileName="GraphIO.java" startLine="135" startPosition="0" endLine="156" endPosition="0" />
+    <nodeInfo nodeId="1714301205550473114" conceptFqName="jetbrains.mps.baseLanguage.structure.StaticMethodDeclaration" propertyString="scanHyperGraph#(Ljava/util/Scanner;)Ljetbrains/mps/graphLayout/graph/HyperGraph;" fileName="GraphIO.java" startLine="135" startPosition="0" endLine="155" endPosition="0" />
     <nodeInfo nodeId="6984255766319296633" conceptFqName="jetbrains.mps.baseLanguage.structure.ForStatement" fileName="GraphIO.java" startLine="59" startPosition="37" endLine="84" endPosition="5" />
     <nodeInfo nodeId="6984255766319282480" conceptFqName="jetbrains.mps.baseLanguage.structure.StaticMethodDeclaration" propertyString="scanSimpleEmbeddedGraph#(Ljava/util/Scanner;)Ljetbrains/mps/graphLayout/planarGraph/EmbeddedGraph;" fileName="GraphIO.java" startLine="55" startPosition="0" endLine="87" endPosition="0" />
     <scopeInfo nodeId="7727845083901369799" fileName="GraphIO.java" startLine="25" startPosition="53" endLine="26" endPosition="47" />
@@ -180,7 +179,7 @@
       <varInfo nodeId="4998536563116676120" varName="e" />
     </scopeInfo>
     <scopeInfo nodeId="4998536563116676122" fileName="GraphIO.java" startLine="131" startPosition="27" endLine="132" endPosition="61" />
-    <scopeInfo nodeId="1714301205550509667" fileName="GraphIO.java" startLine="149" startPosition="56" endLine="150" endPosition="17" />
+    <scopeInfo nodeId="1714301205550509667" fileName="GraphIO.java" startLine="148" startPosition="56" endLine="149" endPosition="17" />
     <scopeInfo nodeId="1567683135099906918" fileName="GraphIO.java" startLine="29" startPosition="50" endLine="32" endPosition="17">
       <varInfo nodeId="4998536563116676981" varName="graph" />
     </scopeInfo>
@@ -214,11 +213,11 @@
       <varInfo nodeId="4998536563116627673" varName="graphString" />
       <varInfo nodeId="4998536563116676136" varName="treeString" />
     </scopeInfo>
-    <scopeInfo nodeId="1714301205550473144" fileName="GraphIO.java" startLine="142" startPosition="44" endLine="146" endPosition="53">
+    <scopeInfo nodeId="1714301205550473144" fileName="GraphIO.java" startLine="141" startPosition="44" endLine="145" endPosition="53">
       <varInfo nodeId="1714301205550473155" varName="child" />
       <varInfo nodeId="1714301205550473146" varName="parent" />
     </scopeInfo>
-    <scopeInfo nodeId="1714301205550509658" fileName="GraphIO.java" startLine="148" startPosition="63" endLine="152" endPosition="45" />
+    <scopeInfo nodeId="1714301205550509658" fileName="GraphIO.java" startLine="147" startPosition="63" endLine="151" endPosition="45" />
     <scopeInfo nodeId="4998536563116676920" conceptFqName="jetbrains.mps.baseLanguage.structure.ForStatement" fileName="GraphIO.java" startLine="41" startPosition="39" endLine="46" endPosition="7">
       <varInfo nodeId="4998536563116676945" varName="i" />
     </scopeInfo>
@@ -228,10 +227,10 @@
       <varInfo nodeId="1567683135099906997" varName="scanner" />
     </scopeInfo>
     <scopeInfo nodeId="6984255766319299487" conceptFqName="jetbrains.mps.baseLanguage.structure.ForeachStatement" fileName="GraphIO.java" startLine="71" startPosition="28" endLine="77" endPosition="9" />
-    <scopeInfo nodeId="1714301205550473143" conceptFqName="jetbrains.mps.baseLanguage.structure.ForStatement" fileName="GraphIO.java" startLine="141" startPosition="65" endLine="147" endPosition="5">
+    <scopeInfo nodeId="1714301205550473143" conceptFqName="jetbrains.mps.baseLanguage.structure.ForStatement" fileName="GraphIO.java" startLine="140" startPosition="65" endLine="146" endPosition="5">
       <varInfo nodeId="1714301205550473169" varName="i" />
     </scopeInfo>
-    <scopeInfo nodeId="1714301205550509655" conceptFqName="jetbrains.mps.baseLanguage.structure.ForeachStatement" fileName="GraphIO.java" startLine="147" startPosition="5" endLine="153" endPosition="5" />
+    <scopeInfo nodeId="1714301205550509655" conceptFqName="jetbrains.mps.baseLanguage.structure.ForeachStatement" fileName="GraphIO.java" startLine="146" startPosition="5" endLine="152" endPosition="5" />
     <scopeInfo nodeId="8527875266531960594" fileName="GraphIO.java" startLine="101" startPosition="135" endLine="110" endPosition="5" />
     <scopeInfo nodeId="4998536563116676888" fileName="GraphIO.java" startLine="36" startPosition="9" endLine="46" endPosition="7">
       <varInfo nodeId="4998536563116676915" varName="numEdges" />
@@ -270,7 +269,7 @@
       <varInfo nodeId="1714301205550474152" varName="nodeOffset" />
       <varInfo nodeId="4998536563116676872" varName="scanner" />
     </scopeInfo>
-    <scopeInfo nodeId="1714301205550473117" fileName="GraphIO.java" startLine="136" startPosition="60" endLine="154" endPosition="17">
+    <scopeInfo nodeId="1714301205550473117" fileName="GraphIO.java" startLine="136" startPosition="60" endLine="153" endPosition="17">
       <varInfo nodeId="1714301205550509636" varName="notRoot" />
       <varInfo nodeId="1714301205550473122" varName="graph" />
       <varInfo nodeId="1714301205550473138" varName="numTreeEdges" />
@@ -279,7 +278,7 @@
       <varInfo nodeId="4998536563116676139" varName="treeScanner" />
       <varInfo nodeId="4998536563116627666" varName="graphScanner" />
     </scopeInfo>
-    <scopeInfo nodeId="1714301205550473114" conceptFqName="jetbrains.mps.baseLanguage.structure.StaticMethodDeclaration" propertyString="scanHyperGraph#(Ljava/util/Scanner;)Ljetbrains/mps/graphLayout/graph/HyperGraph;" fileName="GraphIO.java" startLine="135" startPosition="0" endLine="156" endPosition="0">
+    <scopeInfo nodeId="1714301205550473114" conceptFqName="jetbrains.mps.baseLanguage.structure.StaticMethodDeclaration" propertyString="scanHyperGraph#(Ljava/util/Scanner;)Ljetbrains/mps/graphLayout/graph/HyperGraph;" fileName="GraphIO.java" startLine="135" startPosition="0" endLine="155" endPosition="0">
       <varInfo nodeId="1714301205550473119" varName="scanner" />
     </scopeInfo>
     <scopeInfo nodeId="6984255766319296634" fileName="GraphIO.java" startLine="60" startPosition="58" endLine="83" endPosition="7">
@@ -298,7 +297,7 @@
     <scopeInfo nodeId="6984255766319282480" conceptFqName="jetbrains.mps.baseLanguage.structure.StaticMethodDeclaration" propertyString="scanSimpleEmbeddedGraph#(Ljava/util/Scanner;)Ljetbrains/mps/graphLayout/planarGraph/EmbeddedGraph;" fileName="GraphIO.java" startLine="55" startPosition="0" endLine="87" endPosition="0">
       <varInfo nodeId="6984255766319296596" varName="scanner" />
     </scopeInfo>
-    <unitInfo nodeId="1567683135099906914" fileName="GraphIO.java" startLine="24" startPosition="0" endLine="157" endPosition="0" unitName="visualization.GraphIO" />
+    <unitInfo nodeId="1567683135099906914" fileName="GraphIO.java" startLine="24" startPosition="0" endLine="156" endPosition="0" unitName="visualization.GraphIO" />
   </root>
   <root nodeId="1567683135099907102">
     <nodeInfo nodeId="1567683135099907838" conceptFqName="jetbrains.mps.baseLanguage.structure.StaticFieldDeclaration" propertyString="FRAME_DIMENSION" fileName="TestPanel.java" startLine="48" startPosition="39" endLine="49" endPosition="69" />
