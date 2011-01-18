@@ -3,6 +3,7 @@
   <unitInfo fileName="OrthogonalFromVisibility_Test.java" startLine="12" startPosition="0" endLine="19" endPosition="0" unitName="orthogonalLayoutTest.OrthogonalFromVisibility_Test" />
   <unitInfo fileName="OrthogonalFlowLayouterNoLabels_Test.java" startLine="16" startPosition="0" endLine="32" endPosition="0" unitName="orthogonalLayoutTest.OrthogonalFlowLayouterNoLabels_Test" />
   <unitInfo fileName="RectOrthogonalLayouter_Test.java" startLine="19" startPosition="0" endLine="38" endPosition="0" unitName="orthogonalLayoutTest.RectOrthogonalLayouter_Test" />
+  <unitInfo fileName="HyperGraphLayouter_Test.java" startLine="16" startPosition="0" endLine="40" endPosition="0" unitName="orthogonalLayoutTest.HyperGraphLayouter_Test" />
   <unitInfo fileName="AmbiguityLayout_Test.java" startLine="23" startPosition="0" endLine="67" endPosition="0" unitName="orthogonalLayoutTest.AmbiguityLayout_Test" />
   <unitInfo fileName="ConstraintsSupporter_Test.java" startLine="24" startPosition="0" endLine="69" endPosition="0" unitName="orthogonalLayoutTest.ConstraintsSupporter_Test" />
   <unitInfo fileName="OrthogonalPointFlowLayouter_Test.java" startLine="12" startPosition="0" endLine="61" endPosition="0" unitName="orthogonalLayoutTest.OrthogonalPointFlowLayouter_Test" />
