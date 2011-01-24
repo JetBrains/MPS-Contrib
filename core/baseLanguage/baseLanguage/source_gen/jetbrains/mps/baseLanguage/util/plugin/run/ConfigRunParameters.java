@@ -10,7 +10,7 @@ public class ConfigRunParameters implements Cloneable {
   private String myWorkingDir;
   private String myAlternativeJRE;
   private boolean myUseAlternativeJRE = false;
-  private boolean myMake = false;
+  private boolean myMake = true;
 
   public ConfigRunParameters() {
   }

@@ -2,6 +2,7 @@
 <project version="4">
   <component name="DependencyValidationManager">
     <scope name="source_gen" pattern="file:*/source_gen/*.java" />
+    <scope name="tests_gen" pattern="file:*/tests_gen/*.java" />
     <option name="SKIP_IMPORT_STATEMENTS" value="false" />
   </component>
   <component name="EntryPointsManager">
