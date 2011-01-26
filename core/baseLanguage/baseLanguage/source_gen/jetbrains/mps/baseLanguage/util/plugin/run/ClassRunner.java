@@ -4,6 +4,7 @@ package jetbrains.mps.baseLanguage.util.plugin.run;
 
 import jetbrains.mps.logging.Logger;
 import jetbrains.mps.smodel.SNode;
+import org.jetbrains.annotations.NotNull;
 import com.intellij.execution.process.ProcessNotCreatedException;
 import java.util.List;
 import jetbrains.mps.internal.collections.runtime.ListSequence;
@@ -22,7 +23,7 @@ public class ClassRunner extends BaseRunner {
     super(parameters);
   }
 
-  public Process run(final SNode node, final String className) throws ProcessNotCreatedException {
+  public Process run(final SNode node, @NotNull final String className) throws ProcessNotCreatedException {
     final List<String> params = ListSequence.fromList(new ArrayList<String>());
     ModelAccess.instance().runReadAction(new Runnable() {
       public void run() {
@@ -45,6 +46,10 @@ public class ClassRunner extends BaseRunner {
     } catch (IOException e) {
       LOG.error("Can't run class " + className + ": " + e.getMessage(), e);
       throw new ProcessNotCreatedException(e.getMessage(), e, this.getCommandLine());
+    } catch (NullPointerException npe) {
+      String message = "Can't run class " + className + ". One of the command line arguments is null:\n" + params;
+      LOG.error(message, npe);
+      throw new ProcessNotCreatedException(message, npe, this.getCommandLine());
     }
   }
 
