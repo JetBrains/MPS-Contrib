@@ -190,18 +190,18 @@ public class UnitTestRunner extends BaseRunner {
     return buff.toString();
   }
 
-  private static TestRunParameters check_y7hhub_a0a0a0a0a1a0e0b(ITestNodeWrapper p) {
-    if (null == p) {
-      return null;
+  private static TestRunParameters check_y7hhub_a0a0a0a0a1a0e0b(ITestNodeWrapper checkedDotOperand) {
+    if (null != checkedDotOperand) {
+      return checkedDotOperand.getTestRunParameters();
     }
-    return p.getTestRunParameters();
+    return null;
   }
 
-  private static TestRunParameters check_y7hhub_a0a0a0a0c0a4a1(ITestNodeWrapper p) {
-    if (null == p) {
-      return null;
+  private static TestRunParameters check_y7hhub_a0a0a0a0c0a4a1(ITestNodeWrapper checkedDotOperand) {
+    if (null != checkedDotOperand) {
+      return checkedDotOperand.getTestRunParameters();
     }
-    return p.getTestRunParameters();
+    return null;
   }
 
   private static boolean eq_y7hhub_a0a0a0a0a0a0b0a0a0a0e0b(Object a, Object b) {

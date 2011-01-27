@@ -124,39 +124,39 @@ public class BuiltInTaskDeclaration_Behavior {
     return eq_y5o5bz_a0a0j(check_y5o5bz_a0a0a(check_y5o5bz_a0a0a0(check_y5o5bz_a0a0a0a(operationContext))), check_y5o5bz_a0a0a_0(check_y5o5bz_a0a0a0_0(ImportAntStuffUtil.getLanguageReference())));
   }
 
-  private static ModuleId check_y5o5bz_a0a0a(ModuleReference p) {
-    if (null == p) {
-      return null;
+  private static ModuleId check_y5o5bz_a0a0a(ModuleReference checkedDotOperand) {
+    if (null != checkedDotOperand) {
+      return checkedDotOperand.getModuleId();
     }
-    return p.getModuleId();
+    return null;
   }
 
-  private static ModuleReference check_y5o5bz_a0a0a0(IModule p) {
-    if (null == p) {
-      return null;
+  private static ModuleReference check_y5o5bz_a0a0a0(IModule checkedDotOperand) {
+    if (null != checkedDotOperand) {
+      return checkedDotOperand.getModuleReference();
     }
-    return p.getModuleReference();
+    return null;
   }
 
-  private static IModule check_y5o5bz_a0a0a0a(IOperationContext p) {
-    if (null == p) {
-      return null;
+  private static IModule check_y5o5bz_a0a0a0a(IOperationContext checkedDotOperand) {
+    if (null != checkedDotOperand) {
+      return checkedDotOperand.getModule();
     }
-    return p.getModule();
+    return null;
   }
 
-  private static ModuleId check_y5o5bz_a0a0a_0(ModuleReference p) {
-    if (null == p) {
-      return null;
+  private static ModuleId check_y5o5bz_a0a0a_0(ModuleReference checkedDotOperand) {
+    if (null != checkedDotOperand) {
+      return checkedDotOperand.getModuleId();
     }
-    return p.getModuleId();
+    return null;
   }
 
-  private static ModuleReference check_y5o5bz_a0a0a0_0(Language p) {
-    if (null == p) {
-      return null;
+  private static ModuleReference check_y5o5bz_a0a0a0_0(Language checkedDotOperand) {
+    if (null != checkedDotOperand) {
+      return checkedDotOperand.getModuleReference();
     }
-    return p.getModuleReference();
+    return null;
   }
 
   private static boolean eq_y5o5bz_a0a0j(Object a, Object b) {
