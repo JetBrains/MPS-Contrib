@@ -78,15 +78,17 @@
   </dependency>
   <dependency className="jetbrains.mps.baseLanguage.datesInternal.constraints.DateTimeProperty_periodFormatMethod_ReferentConstraint" file="DateTimeProperty_periodFormatMethod_ReferentConstraint.java">
     <classNode dependClassName="jetbrains.mps.baseLanguage.search.IClassifiersSearchScope" />
-    <classNode dependClassName="jetbrains.mps.smodel.constraints.ReferentConstraintContext" />
+    <classNode dependClassName="jetbrains.mps.lang.smodel.generator.smodelAdapter.SConceptOperations" />
+    <classNode dependClassName="jetbrains.mps.lang.smodel.generator.smodelAdapter.SLinkOperations" />
+    <classNode dependClassName="jetbrains.mps.smodel.SNode" />
     <classNode dependClassName="java.lang.Object" />
-    <classNode dependClassName="jetbrains.mps.smodel.IOperationContext" />
-    <classNode dependClassName="jetbrains.mps.smodel.constraints.ModelConstraintsManager" />
-    <classNode dependClassName="jetbrains.mps.generator.JavaModelUtil_new" />
     <classNode dependClassName="jetbrains.mps.baseLanguage.search.ClassifierVisibleMembersScope" />
+    <classNode dependClassName="jetbrains.mps.smodel.constraints.ReferentConstraintContext" />
+    <classNode dependClassName="jetbrains.mps.generator.JavaModelUtil_new" />
+    <classNode dependClassName="jetbrains.mps.smodel.constraints.ModelConstraintsManager" />
     <classNode dependClassName="org.joda.time.format.PeriodFormatterBuilder" />
     <classNode dependClassName="jetbrains.mps.smodel.SNodePointer" />
-    <classNode dependClassName="jetbrains.mps.baseLanguage.structure.ClassifierType" />
+    <classNode dependClassName="jetbrains.mps.smodel.IOperationContext" />
     <classNode extendsClassName="jetbrains.mps.smodel.constraints.BaseNodeReferenceSearchScopeProvider" />
     <classNode extendsClassName="jetbrains.mps.smodel.constraints.IModelConstraints" />
   </dependency>
