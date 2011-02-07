@@ -45,7 +45,7 @@
     <node type="tpce.ConceptDeclaration" typeId="tpce.1071489090640" id="7549816165173145425">
       <property name="name" nameId="tpck.1169194664001" value="UserComponentReferenceAnnotation" />
       <property name="virtualPackage" nameId="tpck.1193676396447" value="annotations" />
-      <link role="extends" roleId="tpce.1071489389519" targetNodeId="tpck.1133920641626" resolveInfo="BaseConcept" />
+      <link role="extends" roleId="tpce.1071489389519" targetNodeId="tpck.3364660638048049748" resolveInfo="NodeAttribute" />
     </node>
     <node type="tpce.ConceptDeclaration" typeId="tpce.1071489090640" id="3607966867310075767">
       <property name="name" nameId="tpck.1169194664001" value="Node_FunctionParameter" />
@@ -73,7 +73,7 @@
     <node type="tpce.ConceptDeclaration" typeId="tpce.1071489090640" id="1566895476211680658">
       <property name="name" nameId="tpck.1169194664001" value="ComponentInsideOfChangeListenerAnnotation" />
       <property name="virtualPackage" nameId="tpck.1193676396447" value="annotations" />
-      <link role="extends" roleId="tpce.1071489389519" targetNodeId="tpck.1133920641626" resolveInfo="BaseConcept" />
+      <link role="extends" roleId="tpce.1071489389519" targetNodeId="tpck.3364660638048049748" resolveInfo="NodeAttribute" />
     </node>
     <node type="tpce.InterfaceConceptDeclaration" typeId="tpce.1169125989551" id="1566895476211680660">
       <property name="name" nameId="tpck.1169194664001" value="IOnChangeEditorBlock" />
@@ -158,6 +158,14 @@
       <property name="value" nameId="tpce.1105725733873" value="user component reference" />
       <link role="conceptPropertyDeclaration" roleId="tpce.1105725439818" targetNodeId="tpck.1137473891462" resolveInfo="alias" />
     </node>
+    <node role="conceptProperty" roleId="tpce.1105725339613" type="tpce.StringConceptProperty" typeId="tpce.1105725638761" id="5216537374825317513">
+      <property name="value" nameId="tpce.1105725733873" value="userComponentReferenceAnnotation" />
+      <link role="conceptPropertyDeclaration" roleId="tpce.1105725439818" targetNodeId="tpck.5169995583184591164" resolveInfo="role" />
+    </node>
+    <node role="conceptLink" roleId="tpce.1105736949336" type="tpce.ReferenceConceptLink" typeId="tpce.1105736778597" id="5216537374825317514">
+      <link role="conceptLinkDeclaration" roleId="tpce.1105736734721" targetNodeId="tpck.5169995583184591169" resolveInfo="attributed" />
+      <link role="target" roleId="tpce.1105736807942" targetNodeId="tp4k.3452826078638178132" resolveInfo="ComponentReference" />
+    </node>
   </root>
   <root id="3607966867310075767">
     <node role="conceptProperty" roleId="tpce.1105725339613" type="tpce.StringConceptProperty" typeId="tpce.1105725638761" id="3607966867310076241">
@@ -209,6 +217,14 @@
     <node role="conceptProperty" roleId="tpce.1105725339613" type="tpce.StringConceptProperty" typeId="tpce.1105725638761" id="1566895476211680659">
       <property name="value" nameId="tpce.1105725733873" value="component inside of change listener" />
       <link role="conceptPropertyDeclaration" roleId="tpce.1105725439818" targetNodeId="tpck.1137473891462" resolveInfo="alias" />
+    </node>
+    <node role="conceptProperty" roleId="tpce.1105725339613" type="tpce.StringConceptProperty" typeId="tpce.1105725638761" id="5216537374825317493">
+      <property name="value" nameId="tpce.1105725733873" value="componentInsideOfChangeListenerAnnotation" />
+      <link role="conceptPropertyDeclaration" roleId="tpce.1105725439818" targetNodeId="tpck.5169995583184591164" resolveInfo="role" />
+    </node>
+    <node role="conceptLink" roleId="tpce.1105736949336" type="tpce.ReferenceConceptLink" typeId="tpce.1105736778597" id="5216537374825317494">
+      <link role="conceptLinkDeclaration" roleId="tpce.1105736734721" targetNodeId="tpck.5169995583184591169" resolveInfo="attributed" />
+      <link role="target" roleId="tpce.1105736807942" targetNodeId="tp4k.3452826078638178132" resolveInfo="ComponentReference" />
     </node>
   </root>
   <root id="1566895476211680660" />
