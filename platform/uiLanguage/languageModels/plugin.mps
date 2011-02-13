@@ -23,6 +23,7 @@
     </node>
     <node type="tp4k.EditorTab" typeId="tp4k.3743831881070611759" id="2542706524531725711">
       <property name="name" nameId="tpck.1169194664001" value="Controller" />
+      <property name="commandOnCreate" nameId="tp4k.8204570419206313935" value="true" />
       <link role="baseNodeConcept" roleId="tp4k.3743831881070611760" targetNodeId="tphr.1202387718766" resolveInfo="ComponentDeclaration" />
     </node>
   </roots>
