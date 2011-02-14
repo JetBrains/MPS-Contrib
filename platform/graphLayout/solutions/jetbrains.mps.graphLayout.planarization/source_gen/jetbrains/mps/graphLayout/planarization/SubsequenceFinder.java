@@ -28,11 +28,11 @@ public class SubsequenceFinder {
         max = ListSequence.fromList(pairs).count();
         List<Tuples._2<Integer, Integer>> realPos = ListSequence.fromList(new LinkedList<Tuples._2<Integer, Integer>>());
         for (Tuples._2<Integer, Integer> pair : ListSequence.fromList(pairs)) {
-          int real = pair._1() + i;
+          int real = (int) pair._1() + i;
           if (real >= size) {
             real -= size;
           }
-          ListSequence.fromList(realPos).addElement(MultiTuple.<Integer,Integer>from(pair._0(), real));
+          ListSequence.fromList(realPos).addElement(MultiTuple.<Integer,Integer>from((int) pair._0(), real));
         }
         pos = realPos;
       }

@@ -358,12 +358,12 @@ public class ClusterEmbeddingConstructor {
     Tuples._2<Integer, Integer> prev = MultiTuple.<Integer,Integer>from(-1, -1);
     Set<Edge> addedEdges = SetSequence.fromSet(new HashSet<Edge>());
     for (Tuples._2<Integer, Integer> pos : ListSequence.fromList(positions)) {
-      if (prev._0() == -1) {
+      if ((int) prev._0() == -1) {
         prev = pos;
         continue;
       }
-      List<Dart> curDarts = dartParser.getNext(pos._1());
-      List<Edge> curEdges = edgeParser.getNext(pos._0());
+      List<Dart> curDarts = dartParser.getNext((int) pos._1());
+      List<Edge> curEdges = edgeParser.getNext((int) pos._0());
       this.addFace(subOuterEdges, prev, subBorderNodes, curEdges, pos, curDarts, addedEdges);
       prev = pos;
     }
@@ -377,50 +377,50 @@ public class ClusterEmbeddingConstructor {
 
   private void addFace(List<Edge> subOuterEdges, Tuples._2<Integer, Integer> prev, List<Node> subBorderNodes, List<Edge> curEdges, Tuples._2<Integer, Integer> pos, List<Dart> curDarts, Set<Edge> addedEdges) {
     Face face = new Face(mySubclustersGraph);
-    Edge prevEdge = ListSequence.fromList(subOuterEdges).getElement(prev._0());
-    face.addLast(new Dart(prevEdge, prevEdge.getOpposite(ListSequence.fromList(subBorderNodes).getElement(prev._0()))));
+    Edge prevEdge = ListSequence.fromList(subOuterEdges).getElement((int) prev._0());
+    face.addLast(new Dart(prevEdge, prevEdge.getOpposite(ListSequence.fromList(subBorderNodes).getElement((int) prev._0()))));
     for (Edge edge : ListSequence.fromList(curEdges)) {
       face.addLast(new Dart(edge, edge.getSource()));
     }
-    face.addLast(new Dart(ListSequence.fromList(subOuterEdges).getElement(pos._0()), ListSequence.fromList(subBorderNodes).getElement(pos._0())));
+    face.addLast(new Dart(ListSequence.fromList(subOuterEdges).getElement((int) pos._0()), ListSequence.fromList(subBorderNodes).getElement((int) pos._0())));
     for (Dart dart : ListSequence.fromList(curDarts).reversedList()) {
       face.addLast(dart);
     }
     mySubEmbeddedGraph.addFace(face);
-    SetSequence.fromSet(addedEdges).addElement(ListSequence.fromList(subOuterEdges).getElement(pos._0()));
+    SetSequence.fromSet(addedEdges).addElement(ListSequence.fromList(subOuterEdges).getElement((int) pos._0()));
   }
 
   public void checkPos(List<Tuples._2<Integer, Integer>> pos) {
     int last0 = Integer.MIN_VALUE;
     int last1 = Integer.MIN_VALUE;
     for (Tuples._2<Integer, Integer> p : ListSequence.fromList(pos)) {
-      if (p._0() <= last0) {
+      if ((int) p._0() <= last0) {
         throw new RuntimeException("fail");
       }
-      if (p._1() < last1) {
+      if ((int) p._1() < last1) {
         throw new RuntimeException("fail");
       }
-      last0 = p._0();
-      last1 = p._1();
+      last0 = (int) p._0();
+      last1 = (int) p._1();
     }
   }
 
   private List<Tuples._2<Integer, Integer>> shiftLists(List<Tuples._2<Integer, Integer>> pos, List<Dart> darts, List<Node> borderNodes, List<Edge> outerEdges, List<Edge> borderEdges) {
     Tuples._2<Integer, Integer> first = ListSequence.fromList(pos).first();
-    int firstBorderPos = first._0();
+    int firstBorderPos = (int) first._0();
     for (int i = 0; i < firstBorderPos; i++) {
       ListSequence.fromList(borderNodes).addElement(ListSequence.fromList(borderNodes).removeElementAt(0));
       ListSequence.fromList(outerEdges).addElement(ListSequence.fromList(outerEdges).removeElementAt(0));
       ListSequence.fromList(borderEdges).addElement(ListSequence.fromList(borderEdges).removeElementAt(0));
     }
-    int firstDartPos = first._1();
+    int firstDartPos = (int) first._1();
     for (int i = 0; i < firstDartPos; i++) {
       ListSequence.fromList(darts).addElement(ListSequence.fromList(darts).removeElementAt(0));
     }
     List<Tuples._2<Integer, Integer>> newPos = ListSequence.fromList(new ArrayList<Tuples._2<Integer, Integer>>(ListSequence.fromList(pos).count()));
     for (Tuples._2<Integer, Integer> p : ListSequence.fromList(pos)) {
-      int p0 = p._0() - firstBorderPos;
-      int p1 = p._1() - firstDartPos;
+      int p0 = (int) p._0() - firstBorderPos;
+      int p1 = (int) p._1() - firstDartPos;
       if (p1 < 0) {
         p1 += ListSequence.fromList(darts).count();
       }
