@@ -1,41 +1,41 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <debugInfo>
   <root nodeId="5606982432899038941">
-    <nodeInfo nodeId="5606982432899038948" conceptFqName="jetbrains.mps.baseLanguage.structure.ExpressionStatement" fileName="HBoxPanel.java" startLine="9" startPosition="22" endLine="10" endPosition="58" />
-    <nodeInfo nodeId="5606982432899038944" conceptFqName="jetbrains.mps.baseLanguage.structure.ConstructorDeclaration" propertyString="HBoxPanel#()V" fileName="HBoxPanel.java" startLine="8" startPosition="39" endLine="11" endPosition="3" />
+    <nodeInfo nodeId="5606982432899038948" fileName="HBoxPanel.java" startLine="9" startPosition="22" endLine="10" endPosition="58" conceptFqName="jetbrains.mps.baseLanguage.structure.ExpressionStatement" />
+    <nodeInfo nodeId="5606982432899038944" fileName="HBoxPanel.java" startLine="8" startPosition="39" endLine="11" endPosition="3" conceptFqName="jetbrains.mps.baseLanguage.structure.ConstructorDeclaration" propertyString="HBoxPanel#()V" />
     <scopeInfo nodeId="5606982432899038947" fileName="HBoxPanel.java" startLine="9" startPosition="22" endLine="10" endPosition="58" />
-    <scopeInfo nodeId="5606982432899038944" conceptFqName="jetbrains.mps.baseLanguage.structure.ConstructorDeclaration" propertyString="HBoxPanel#()V" fileName="HBoxPanel.java" startLine="8" startPosition="39" endLine="11" endPosition="3" />
+    <scopeInfo nodeId="5606982432899038944" fileName="HBoxPanel.java" startLine="8" startPosition="39" endLine="11" endPosition="3" />
     <unitInfo nodeId="5606982432899038941" fileName="HBoxPanel.java" startLine="8" startPosition="0" endLine="13" endPosition="0" unitName="jetbrains.mps.uiLanguage.runtime.HBoxPanel" />
   </root>
   <root nodeId="5606982432899038956">
-    <nodeInfo nodeId="5606982432899038959" conceptFqName="jetbrains.mps.baseLanguage.structure.InstanceMethodDeclaration" propertyString="value#()null" fileName="ValueWrapper.java" startLine="6" startPosition="34" endLine="7" endPosition="19" />
-    <scopeInfo nodeId="5606982432899038959" conceptFqName="jetbrains.mps.baseLanguage.structure.InstanceMethodDeclaration" propertyString="value#()null" fileName="ValueWrapper.java" startLine="6" startPosition="34" endLine="7" endPosition="19" />
+    <nodeInfo nodeId="5606982432899038959" fileName="ValueWrapper.java" startLine="6" startPosition="34" endLine="7" endPosition="19" conceptFqName="jetbrains.mps.baseLanguage.structure.InstanceMethodDeclaration" propertyString="value#()null" />
+    <scopeInfo nodeId="5606982432899038959" fileName="ValueWrapper.java" startLine="6" startPosition="34" endLine="7" endPosition="19" />
     <unitInfo nodeId="5606982432899038956" fileName="ValueWrapper.java" startLine="6" startPosition="0" endLine="9" endPosition="0" unitName="jetbrains.mps.uiLanguage.runtime.ValueWrapper" />
   </root>
   <root nodeId="5606982432899038963">
-    <nodeInfo nodeId="5606982432899038970" conceptFqName="jetbrains.mps.baseLanguage.structure.ExpressionStatement" fileName="FlowPanel.java" startLine="9" startPosition="22" endLine="10" endPosition="52" />
-    <nodeInfo nodeId="5606982432899038966" conceptFqName="jetbrains.mps.baseLanguage.structure.ConstructorDeclaration" propertyString="FlowPanel#()V" fileName="FlowPanel.java" startLine="8" startPosition="39" endLine="11" endPosition="3" />
+    <nodeInfo nodeId="5606982432899038970" fileName="FlowPanel.java" startLine="9" startPosition="22" endLine="10" endPosition="52" conceptFqName="jetbrains.mps.baseLanguage.structure.ExpressionStatement" />
+    <nodeInfo nodeId="5606982432899038966" fileName="FlowPanel.java" startLine="8" startPosition="39" endLine="11" endPosition="3" conceptFqName="jetbrains.mps.baseLanguage.structure.ConstructorDeclaration" propertyString="FlowPanel#()V" />
     <scopeInfo nodeId="5606982432899038969" fileName="FlowPanel.java" startLine="9" startPosition="22" endLine="10" endPosition="52" />
-    <scopeInfo nodeId="5606982432899038966" conceptFqName="jetbrains.mps.baseLanguage.structure.ConstructorDeclaration" propertyString="FlowPanel#()V" fileName="FlowPanel.java" startLine="8" startPosition="39" endLine="11" endPosition="3" />
+    <scopeInfo nodeId="5606982432899038966" fileName="FlowPanel.java" startLine="8" startPosition="39" endLine="11" endPosition="3" />
     <unitInfo nodeId="5606982432899038963" fileName="FlowPanel.java" startLine="8" startPosition="0" endLine="13" endPosition="0" unitName="jetbrains.mps.uiLanguage.runtime.FlowPanel" />
   </root>
   <root nodeId="5606982432899038977">
-    <nodeInfo nodeId="5606982432899038984" conceptFqName="jetbrains.mps.baseLanguage.structure.ExpressionStatement" fileName="VBoxPanel.java" startLine="9" startPosition="22" endLine="10" endPosition="58" />
-    <nodeInfo nodeId="5606982432899038980" conceptFqName="jetbrains.mps.baseLanguage.structure.ConstructorDeclaration" propertyString="VBoxPanel#()V" fileName="VBoxPanel.java" startLine="8" startPosition="39" endLine="11" endPosition="3" />
+    <nodeInfo nodeId="5606982432899038984" fileName="VBoxPanel.java" startLine="9" startPosition="22" endLine="10" endPosition="58" conceptFqName="jetbrains.mps.baseLanguage.structure.ExpressionStatement" />
+    <nodeInfo nodeId="5606982432899038980" fileName="VBoxPanel.java" startLine="8" startPosition="39" endLine="11" endPosition="3" conceptFqName="jetbrains.mps.baseLanguage.structure.ConstructorDeclaration" propertyString="VBoxPanel#()V" />
     <scopeInfo nodeId="5606982432899038983" fileName="VBoxPanel.java" startLine="9" startPosition="22" endLine="10" endPosition="58" />
-    <scopeInfo nodeId="5606982432899038980" conceptFqName="jetbrains.mps.baseLanguage.structure.ConstructorDeclaration" propertyString="VBoxPanel#()V" fileName="VBoxPanel.java" startLine="8" startPosition="39" endLine="11" endPosition="3" />
+    <scopeInfo nodeId="5606982432899038980" fileName="VBoxPanel.java" startLine="8" startPosition="39" endLine="11" endPosition="3" />
     <unitInfo nodeId="5606982432899038977" fileName="VBoxPanel.java" startLine="8" startPosition="0" endLine="13" endPosition="0" unitName="jetbrains.mps.uiLanguage.runtime.VBoxPanel" />
   </root>
   <root nodeId="5606982432899038992">
-    <nodeInfo nodeId="5606982432899039006" conceptFqName="jetbrains.mps.baseLanguage.structure.ExpressionStatement" fileName="SimpleListModel.java" startLine="9" startPosition="25" endLine="10" endPosition="25" />
-    <nodeInfo nodeId="5606982432899039001" conceptFqName="jetbrains.mps.baseLanguage.structure.ForeachStatement" fileName="SimpleListModel.java" startLine="8" startPosition="39" endLine="11" endPosition="5" />
-    <nodeInfo nodeId="5606982432899038995" conceptFqName="jetbrains.mps.baseLanguage.structure.ConstructorDeclaration" propertyString="SimpleListModel#(Ljava/lang/Iterable;)V" fileName="SimpleListModel.java" startLine="7" startPosition="55" endLine="12" endPosition="3" />
+    <nodeInfo nodeId="5606982432899039006" fileName="SimpleListModel.java" startLine="9" startPosition="25" endLine="10" endPosition="25" conceptFqName="jetbrains.mps.baseLanguage.structure.ExpressionStatement" />
+    <nodeInfo nodeId="5606982432899039001" fileName="SimpleListModel.java" startLine="8" startPosition="39" endLine="11" endPosition="5" conceptFqName="jetbrains.mps.baseLanguage.structure.ForeachStatement" />
+    <nodeInfo nodeId="5606982432899038995" fileName="SimpleListModel.java" startLine="7" startPosition="55" endLine="12" endPosition="3" conceptFqName="jetbrains.mps.baseLanguage.structure.ConstructorDeclaration" propertyString="SimpleListModel#(Ljava/lang/Iterable;)V" />
     <scopeInfo nodeId="5606982432899039005" fileName="SimpleListModel.java" startLine="9" startPosition="25" endLine="10" endPosition="25" />
     <scopeInfo nodeId="5606982432899039000" fileName="SimpleListModel.java" startLine="8" startPosition="39" endLine="11" endPosition="5" />
-    <scopeInfo nodeId="5606982432899039001" conceptFqName="jetbrains.mps.baseLanguage.structure.ForeachStatement" fileName="SimpleListModel.java" startLine="8" startPosition="39" endLine="11" endPosition="5">
+    <scopeInfo nodeId="5606982432899039001" fileName="SimpleListModel.java" startLine="8" startPosition="39" endLine="11" endPosition="5">
       <varInfo nodeId="5606982432899039003" varName="o" />
     </scopeInfo>
-    <scopeInfo nodeId="5606982432899038995" conceptFqName="jetbrains.mps.baseLanguage.structure.ConstructorDeclaration" propertyString="SimpleListModel#(Ljava/lang/Iterable;)V" fileName="SimpleListModel.java" startLine="7" startPosition="55" endLine="12" endPosition="3">
+    <scopeInfo nodeId="5606982432899038995" fileName="SimpleListModel.java" startLine="7" startPosition="55" endLine="12" endPosition="3">
       <varInfo nodeId="5606982432899038998" varName="it" />
     </scopeInfo>
     <unitInfo nodeId="5606982432899038992" fileName="SimpleListModel.java" startLine="7" startPosition="0" endLine="14" endPosition="0" unitName="jetbrains.mps.uiLanguage.runtime.SimpleListModel" />
