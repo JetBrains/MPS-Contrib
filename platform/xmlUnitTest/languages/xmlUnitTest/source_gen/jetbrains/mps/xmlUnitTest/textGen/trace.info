@@ -6,8 +6,8 @@
   <unitInfo fileName="EscapingElementCreator.java" startLine="16" startPosition="0" endLine="30" endPosition="0" unitName="jetbrains.mps.xmlUnitTest.textGen.EscapingElementCreator" />
   <unitInfo fileName="ElementCreator.java" startLine="16" startPosition="0" endLine="56" endPosition="0" unitName="jetbrains.mps.xmlUnitTest.textGen.ElementCreator" />
   <root nodeId="5211164146776719939">
-    <nodeInfo nodeId="5211164146776725750" fileName="XMLStringLiteral_TextGen.java" startLine="11" startPosition="42" endLine="12" endPosition="22" conceptFqName="jetbrains.mps.baseLanguage.structure.BlockStatement" />
-    <nodeInfo nodeId="5211164146776725757" fileName="XMLStringLiteral_TextGen.java" startLine="12" startPosition="22" endLine="13" endPosition="145" conceptFqName="jetbrains.mps.baseLanguage.structure.ExpressionStatement" />
+    <nodeInfo nodeId="5211164146776725750" fileName="XMLStringLiteral_TextGen.java" startLine="11" startPosition="42" endLine="12" endPosition="22" conceptFqName="jetbrains.mps.baseLanguage.structure.ExpressionStatement" />
+    <nodeInfo nodeId="5211164146776725757" fileName="XMLStringLiteral_TextGen.java" startLine="12" startPosition="22" endLine="13" endPosition="145" conceptFqName="jetbrains.mps.baseLanguage.structure.BlockStatement" />
     <nodeInfo nodeId="5211164146776725754" fileName="XMLStringLiteral_TextGen.java" startLine="13" startPosition="145" endLine="14" endPosition="22" conceptFqName="jetbrains.mps.baseLanguage.structure.ExpressionStatement" />
     <scopeInfo nodeId="5211164146776725750" fileName="XMLStringLiteral_TextGen.java" startLine="11" startPosition="42" endLine="12" endPosition="22" />
     <scopeInfo nodeId="5211164146776725757" fileName="XMLStringLiteral_TextGen.java" startLine="12" startPosition="22" endLine="13" endPosition="145" />
@@ -119,7 +119,7 @@
     </scopeInfo>
   </root>
   <root nodeId="5266766379151917310">
-    <nodeInfo nodeId="5266766379151917313" fileName="Document_TextGen.java" startLine="9" startPosition="42" endLine="10" endPosition="41" conceptFqName="jetbrains.mps.baseLanguage.structure.ExpressionStatement" />
+    <nodeInfo nodeId="5266766379151917313" fileName="Document_TextGen.java" startLine="9" startPosition="42" endLine="10" endPosition="41" conceptFqName="jetbrains.mps.baseLanguage.structure.BlockStatement" />
     <nodeInfo nodeId="5266766379151917318" fileName="Document_TextGen.java" startLine="13" startPosition="42" endLine="14" endPosition="17" conceptFqName="jetbrains.mps.baseLanguage.structure.ReturnStatement" />
     <scopeInfo nodeId="5266766379151917313" fileName="Document_TextGen.java" startLine="9" startPosition="42" endLine="10" endPosition="41" />
   </root>
