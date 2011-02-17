@@ -7,6 +7,7 @@
     <classNode dependClassName="jetbrains.mps.smodel.SNode" />
     <classNode dependClassName="java.util.Iterator" />
     <classNode dependClassName="jetbrains.mps.smodel.SModelUtil_new" />
+    <classNode dependClassName="jetbrains.mps.lang.core.structure.Attribute" />
     <classNode dependClassName="jetbrains.mps.project.GlobalScope" />
     <classNode dependClassName="jetbrains.mps.buildlanguage.structure.PropertyValueExpression" />
     <classNode dependClassName="jetbrains.mps.buildlanguage.structure.ICommented" />
@@ -31,10 +32,13 @@
   </dependency>
   <dependency className="jetbrains.mps.buildlanguage.structure.AbstractPropertyDeclaration" file="AbstractPropertyDeclaration.java">
     <classNode dependClassName="jetbrains.mps.buildlanguage.structure.PropertyType" />
+    <classNode dependClassName="java.util.List" />
     <classNode dependClassName="jetbrains.mps.smodel.SModel" />
     <classNode dependClassName="java.lang.String" />
+    <classNode dependClassName="java.util.Iterator" />
     <classNode dependClassName="jetbrains.mps.smodel.SModelUtil_new" />
     <classNode dependClassName="jetbrains.mps.project.GlobalScope" />
+    <classNode dependClassName="jetbrains.mps.lang.core.structure.Attribute" />
     <classNode dependClassName="jetbrains.mps.buildlanguage.structure.ICommented" />
     <classNode dependClassName="jetbrains.mps.buildlanguage.structure.IProjectComponent" />
     <classNode dependClassName="jetbrains.mps.smodel.SNode" />
@@ -182,11 +186,14 @@
   </dependency>
   <dependency className="jetbrains.mps.buildlanguage.structure.ImportPropertyNode" file="ImportPropertyNode.java">
     <classNode dependClassName="java.lang.String" />
+    <classNode dependClassName="java.util.List" />
     <classNode dependClassName="jetbrains.mps.smodel.SModel" />
-    <classNode dependClassName="jetbrains.mps.smodel.SNode" />
-    <classNode dependClassName="jetbrains.mps.build.property.structure.PropertyNode" />
-    <classNode dependClassName="jetbrains.mps.smodel.SModelUtil_new" />
     <classNode dependClassName="jetbrains.mps.project.GlobalScope" />
+    <classNode dependClassName="jetbrains.mps.smodel.SNode" />
+    <classNode dependClassName="java.util.Iterator" />
+    <classNode dependClassName="jetbrains.mps.smodel.SModelUtil_new" />
+    <classNode dependClassName="jetbrains.mps.build.property.structure.PropertyNode" />
+    <classNode dependClassName="jetbrains.mps.lang.core.structure.Attribute" />
     <classNode dependClassName="jetbrains.mps.buildlanguage.structure.AbstractImportProperties" />
     <classNode dependClassName="jetbrains.mps.buildlanguage.structure.IProjectComponent" />
     <classNode extendsClassName="jetbrains.mps.lang.core.structure.BaseConcept" />
@@ -227,6 +234,7 @@
     <classNode dependClassName="jetbrains.mps.smodel.SModelUtil_new" />
     <classNode dependClassName="jetbrains.mps.smodel.SModel" />
     <classNode dependClassName="jetbrains.mps.project.GlobalScope" />
+    <classNode dependClassName="jetbrains.mps.lang.core.structure.Attribute" />
     <classNode dependClassName="jetbrains.mps.buildlanguage.structure.PropertyValueExpression" />
     <classNode extendsClassName="jetbrains.mps.lang.core.structure.BaseConcept" />
   </dependency>
@@ -242,8 +250,9 @@
   <dependency className="jetbrains.mps.buildlanguage.structure.Project" file="Project.java">
     <classNode dependClassName="jetbrains.mps.smodel.SModel" />
     <classNode dependClassName="jetbrains.mps.smodel.SNode" />
+    <classNode dependClassName="jetbrains.mps.lang.core.structure.Attribute" />
     <classNode dependClassName="jetbrains.mps.buildlanguage.structure.AbstractPropertyDeclaration" />
-    <classNode dependClassName="jetbrains.mps.project.GlobalScope" />
+    <classNode dependClassName="jetbrains.mps.buildlanguage.structure.AbstractImportProperties" />
     <classNode dependClassName="jetbrains.mps.buildlanguage.structure.TargetReference" />
     <classNode dependClassName="jetbrains.mps.buildlanguage.structure.AbstractImportProject" />
     <classNode dependClassName="java.lang.String" />
@@ -256,7 +265,7 @@
     <classNode dependClassName="jetbrains.mps.lang.core.structure.INamedConcept" />
     <classNode dependClassName="java.util.Iterator" />
     <classNode dependClassName="jetbrains.mps.buildlanguage.structure.AbstractCall" />
-    <classNode dependClassName="jetbrains.mps.buildlanguage.structure.AbstractImportProperties" />
+    <classNode dependClassName="jetbrains.mps.project.GlobalScope" />
     <classNode extendsClassName="jetbrains.mps.lang.core.structure.BaseConcept" />
   </dependency>
   <dependency className="jetbrains.mps.buildlanguage.structure.PropertyDeclaration" file="PropertyDeclaration.java">
@@ -271,13 +280,16 @@
   </dependency>
   <dependency className="jetbrains.mps.buildlanguage.structure.PropertyReference" file="PropertyReference.java">
     <classNode dependClassName="java.lang.String" />
-    <classNode dependClassName="jetbrains.mps.buildlanguage.structure.PropertyValueExpression" />
+    <classNode dependClassName="java.util.List" />
     <classNode dependClassName="jetbrains.mps.lang.core.structure.INamedConcept" />
     <classNode dependClassName="jetbrains.mps.smodel.SNode" />
-    <classNode dependClassName="jetbrains.mps.smodel.SModel" />
+    <classNode dependClassName="java.util.Iterator" />
     <classNode dependClassName="jetbrains.mps.smodel.SModelUtil_new" />
+    <classNode dependClassName="jetbrains.mps.smodel.SModel" />
     <classNode dependClassName="jetbrains.mps.project.GlobalScope" />
+    <classNode dependClassName="jetbrains.mps.lang.core.structure.Attribute" />
     <classNode dependClassName="jetbrains.mps.buildlanguage.structure.PropertyDeclaration" />
+    <classNode dependClassName="jetbrains.mps.buildlanguage.structure.PropertyValueExpression" />
     <classNode extendsClassName="jetbrains.mps.lang.core.structure.BaseConcept" />
   </dependency>
   <dependency className="jetbrains.mps.buildlanguage.structure.PropertyType" file="PropertyType.java">
@@ -290,11 +302,14 @@
   </dependency>
   <dependency className="jetbrains.mps.buildlanguage.structure.PropertyValueExpression" file="PropertyValueExpression.java">
     <classNode dependClassName="java.lang.String" />
+    <classNode dependClassName="java.util.List" />
     <classNode dependClassName="jetbrains.mps.smodel.SModel" />
     <classNode dependClassName="jetbrains.mps.smodel.SNode" />
+    <classNode dependClassName="java.util.Iterator" />
     <classNode dependClassName="jetbrains.mps.smodel.SModelUtil_new" />
     <classNode dependClassName="jetbrains.mps.buildlanguage.structure.ISource" />
     <classNode dependClassName="jetbrains.mps.project.GlobalScope" />
+    <classNode dependClassName="jetbrains.mps.lang.core.structure.Attribute" />
     <classNode extendsClassName="jetbrains.mps.lang.core.structure.BaseConcept" />
   </dependency>
   <dependency className="jetbrains.mps.buildlanguage.structure.StringEnum" file="StringEnum.java">
@@ -308,12 +323,15 @@
   </dependency>
   <dependency className="jetbrains.mps.buildlanguage.structure.StringLiteral" file="StringLiteral.java">
     <classNode dependClassName="java.lang.String" />
-    <classNode dependClassName="jetbrains.mps.buildlanguage.structure.PropertyValueExpression" />
+    <classNode dependClassName="java.util.List" />
     <classNode dependClassName="jetbrains.mps.lang.core.structure.INamedConcept" />
     <classNode dependClassName="jetbrains.mps.smodel.SNode" />
-    <classNode dependClassName="jetbrains.mps.smodel.SModel" />
+    <classNode dependClassName="java.util.Iterator" />
     <classNode dependClassName="jetbrains.mps.smodel.SModelUtil_new" />
+    <classNode dependClassName="jetbrains.mps.smodel.SModel" />
     <classNode dependClassName="jetbrains.mps.project.GlobalScope" />
+    <classNode dependClassName="jetbrains.mps.lang.core.structure.Attribute" />
+    <classNode dependClassName="jetbrains.mps.buildlanguage.structure.PropertyValueExpression" />
     <classNode extendsClassName="jetbrains.mps.lang.core.structure.BaseConcept" />
   </dependency>
   <dependency className="jetbrains.mps.buildlanguage.structure.StringType" file="StringType.java">
@@ -326,19 +344,20 @@
     <classNode extendsClassName="jetbrains.mps.lang.core.structure.BaseConcept" />
   </dependency>
   <dependency className="jetbrains.mps.buildlanguage.structure.TargetDeclaration" file="TargetDeclaration.java">
-    <classNode dependClassName="java.lang.String" />
-    <classNode dependClassName="java.util.List" />
-    <classNode dependClassName="jetbrains.mps.buildlanguage.structure.IPropertyHolder" />
-    <classNode dependClassName="jetbrains.mps.smodel.SModel" />
-    <classNode dependClassName="jetbrains.mps.smodel.SNode" />
-    <classNode dependClassName="java.util.Iterator" />
-    <classNode dependClassName="jetbrains.mps.smodel.SModelUtil_new" />
     <classNode dependClassName="jetbrains.mps.buildlanguage.structure.AbstractCall" />
-    <classNode dependClassName="jetbrains.mps.buildlanguage.structure.TargetReference" />
-    <classNode dependClassName="jetbrains.mps.project.GlobalScope" />
+    <classNode dependClassName="jetbrains.mps.smodel.SNode" />
+    <classNode dependClassName="jetbrains.mps.lang.core.structure.Attribute" />
     <classNode dependClassName="jetbrains.mps.buildlanguage.structure.AbstractPropertyDeclaration" />
-    <classNode dependClassName="jetbrains.mps.buildlanguage.structure.ICommented" />
     <classNode dependClassName="jetbrains.mps.buildlanguage.structure.IProjectComponent" />
+    <classNode dependClassName="jetbrains.mps.buildlanguage.structure.TargetReference" />
+    <classNode dependClassName="jetbrains.mps.smodel.SModel" />
+    <classNode dependClassName="java.lang.String" />
+    <classNode dependClassName="jetbrains.mps.buildlanguage.structure.IPropertyHolder" />
+    <classNode dependClassName="java.util.List" />
+    <classNode dependClassName="jetbrains.mps.buildlanguage.structure.ICommented" />
+    <classNode dependClassName="jetbrains.mps.smodel.SModelUtil_new" />
+    <classNode dependClassName="java.util.Iterator" />
+    <classNode dependClassName="jetbrains.mps.project.GlobalScope" />
     <classNode extendsClassName="jetbrains.mps.lang.core.structure.BaseConcept" />
   </dependency>
   <dependency className="jetbrains.mps.buildlanguage.structure.TargetReference" file="TargetReference.java">
@@ -352,13 +371,16 @@
   </dependency>
   <dependency className="jetbrains.mps.buildlanguage.structure.TargetReferencePropertyValueExpression" file="TargetReferencePropertyValueExpression.java">
     <classNode dependClassName="java.lang.String" />
-    <classNode dependClassName="jetbrains.mps.buildlanguage.structure.PropertyValueExpression" />
-    <classNode dependClassName="jetbrains.mps.smodel.SModel" />
+    <classNode dependClassName="java.util.List" />
+    <classNode dependClassName="jetbrains.mps.buildlanguage.structure.ITargetReference" />
     <classNode dependClassName="jetbrains.mps.smodel.SNode" />
+    <classNode dependClassName="java.util.Iterator" />
     <classNode dependClassName="jetbrains.mps.smodel.SModelUtil_new" />
     <classNode dependClassName="jetbrains.mps.buildlanguage.structure.TargetDeclaration" />
     <classNode dependClassName="jetbrains.mps.project.GlobalScope" />
-    <classNode dependClassName="jetbrains.mps.buildlanguage.structure.ITargetReference" />
+    <classNode dependClassName="jetbrains.mps.lang.core.structure.Attribute" />
+    <classNode dependClassName="jetbrains.mps.smodel.SModel" />
+    <classNode dependClassName="jetbrains.mps.buildlanguage.structure.PropertyValueExpression" />
     <classNode extendsClassName="jetbrains.mps.lang.core.structure.BaseConcept" />
   </dependency>
 </dependenciesRoot>

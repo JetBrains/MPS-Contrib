@@ -4,11 +4,11 @@
   <unitInfo fileName="typeof_BuilderContextRef_InferenceRule.java" startLine="48" startPosition="0" endLine="78" endPosition="0" unitName="jetbrains.mps.gtext.typesystem.typeof_BuilderContextRef_InferenceRule$QuotationClass_m3afeb_a0a0a0" />
   <unitInfo fileName="typeof_BuilderContextRef_InferenceRule.java" startLine="20" startPosition="0" endLine="79" endPosition="0" unitName="jetbrains.mps.gtext.typesystem.typeof_BuilderContextRef_InferenceRule" />
   <root nodeId="1181754943395">
-    <nodeInfo nodeId="1207736329894" conceptFqName="jetbrains.mps.baseLanguage.structure.LocalVariableDeclarationStatement" fileName="typeof_BuilderContextRef_InferenceRule.java" startLine="25" startPosition="5" endLine="26" endPosition="59" />
-    <nodeInfo nodeId="1207736329894" conceptFqName="jetbrains.mps.baseLanguage.structure.LocalVariableDeclarationStatement" fileName="typeof_BuilderContextRef_InferenceRule.java" startLine="26" startPosition="59" endLine="27" endPosition="52" />
-    <nodeInfo nodeId="1207736329894" conceptFqName="jetbrains.mps.baseLanguage.structure.LocalVariableDeclarationStatement" fileName="typeof_BuilderContextRef_InferenceRule.java" startLine="27" startPosition="52" endLine="28" endPosition="203" />
-    <nodeInfo nodeId="1207736329894" conceptFqName="jetbrains.mps.baseLanguage.structure.ExpressionStatement" fileName="typeof_BuilderContextRef_InferenceRule.java" startLine="28" startPosition="203" endLine="29" endPosition="336" />
-    <nodeInfo nodeId="1207736329894" conceptFqName="jetbrains.mps.baseLanguage.structure.BlockStatement" fileName="typeof_BuilderContextRef_InferenceRule.java" startLine="24" startPosition="130" endLine="30" endPosition="5" />
+    <nodeInfo nodeId="1207736329894" fileName="typeof_BuilderContextRef_InferenceRule.java" startLine="25" startPosition="5" endLine="26" endPosition="59" conceptFqName="jetbrains.mps.baseLanguage.structure.LocalVariableDeclarationStatement" />
+    <nodeInfo nodeId="1207736329894" fileName="typeof_BuilderContextRef_InferenceRule.java" startLine="26" startPosition="59" endLine="27" endPosition="52" conceptFqName="jetbrains.mps.baseLanguage.structure.LocalVariableDeclarationStatement" />
+    <nodeInfo nodeId="1207736329894" fileName="typeof_BuilderContextRef_InferenceRule.java" startLine="27" startPosition="52" endLine="28" endPosition="203" conceptFqName="jetbrains.mps.baseLanguage.structure.LocalVariableDeclarationStatement" />
+    <nodeInfo nodeId="1207736329894" fileName="typeof_BuilderContextRef_InferenceRule.java" startLine="28" startPosition="203" endLine="29" endPosition="336" conceptFqName="jetbrains.mps.baseLanguage.structure.ExpressionStatement" />
+    <nodeInfo nodeId="1207736329894" fileName="typeof_BuilderContextRef_InferenceRule.java" startLine="24" startPosition="130" endLine="30" endPosition="5" conceptFqName="jetbrains.mps.baseLanguage.structure.BlockStatement" />
     <scopeInfo nodeId="1207736329894" fileName="typeof_BuilderContextRef_InferenceRule.java" startLine="25" startPosition="5" endLine="29" endPosition="336" />
     <scopeInfo nodeId="1181754943396" fileName="typeof_BuilderContextRef_InferenceRule.java" startLine="24" startPosition="130" endLine="30" endPosition="5" />
   </root>

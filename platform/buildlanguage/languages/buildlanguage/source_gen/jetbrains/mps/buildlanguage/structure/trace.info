@@ -30,15 +30,15 @@
   <unitInfo fileName="CallReference.java" startLine="10" startPosition="0" endLine="35" endPosition="0" unitName="jetbrains.mps.buildlanguage.structure.CallReference" />
   <unitInfo fileName="BinaryOperation.java" startLine="10" startPosition="0" endLine="44" endPosition="0" unitName="jetbrains.mps.buildlanguage.structure.BinaryOperation" />
   <unitInfo fileName="Enum.java" startLine="13" startPosition="0" endLine="50" endPosition="0" unitName="jetbrains.mps.buildlanguage.structure.Enum" />
-  <unitInfo fileName="PropertyValueExpression.java" startLine="11" startPosition="0" endLine="53" endPosition="0" unitName="jetbrains.mps.buildlanguage.structure.PropertyValueExpression" />
-  <unitInfo fileName="TargetReferencePropertyValueExpression.java" startLine="10" startPosition="0" endLine="70" endPosition="0" unitName="jetbrains.mps.buildlanguage.structure.TargetReferencePropertyValueExpression" />
-  <unitInfo fileName="AbstractPropertyDeclaration.java" startLine="11" startPosition="0" endLine="71" endPosition="0" unitName="jetbrains.mps.buildlanguage.structure.AbstractPropertyDeclaration" />
-  <unitInfo fileName="ImportPropertyNode.java" startLine="11" startPosition="0" endLine="71" endPosition="0" unitName="jetbrains.mps.buildlanguage.structure.ImportPropertyNode" />
-  <unitInfo fileName="StringLiteral.java" startLine="11" startPosition="0" endLine="71" endPosition="0" unitName="jetbrains.mps.buildlanguage.structure.StringLiteral" />
-  <unitInfo fileName="PropertyReference.java" startLine="11" startPosition="0" endLine="71" endPosition="0" unitName="jetbrains.mps.buildlanguage.structure.PropertyReference" />
-  <unitInfo fileName="MultiLineString.java" startLine="13" startPosition="0" endLine="85" endPosition="0" unitName="jetbrains.mps.buildlanguage.structure.MultiLineString" />
-  <unitInfo fileName="AbstractCall.java" startLine="13" startPosition="0" endLine="94" endPosition="0" unitName="jetbrains.mps.buildlanguage.structure.AbstractCall" />
-  <unitInfo fileName="TargetDeclaration.java" startLine="13" startPosition="0" endLine="145" endPosition="0" unitName="jetbrains.mps.buildlanguage.structure.TargetDeclaration" />
-  <unitInfo fileName="Project.java" startLine="14" startPosition="0" endLine="188" endPosition="0" unitName="jetbrains.mps.buildlanguage.structure.Project" />
+  <unitInfo fileName="PropertyValueExpression.java" startLine="14" startPosition="0" endLine="77" endPosition="0" unitName="jetbrains.mps.buildlanguage.structure.PropertyValueExpression" />
+  <unitInfo fileName="TargetReferencePropertyValueExpression.java" startLine="13" startPosition="0" endLine="94" endPosition="0" unitName="jetbrains.mps.buildlanguage.structure.TargetReferencePropertyValueExpression" />
+  <unitInfo fileName="AbstractPropertyDeclaration.java" startLine="14" startPosition="0" endLine="95" endPosition="0" unitName="jetbrains.mps.buildlanguage.structure.AbstractPropertyDeclaration" />
+  <unitInfo fileName="ImportPropertyNode.java" startLine="14" startPosition="0" endLine="95" endPosition="0" unitName="jetbrains.mps.buildlanguage.structure.ImportPropertyNode" />
+  <unitInfo fileName="StringLiteral.java" startLine="14" startPosition="0" endLine="95" endPosition="0" unitName="jetbrains.mps.buildlanguage.structure.StringLiteral" />
+  <unitInfo fileName="PropertyReference.java" startLine="14" startPosition="0" endLine="95" endPosition="0" unitName="jetbrains.mps.buildlanguage.structure.PropertyReference" />
+  <unitInfo fileName="MultiLineString.java" startLine="14" startPosition="0" endLine="107" endPosition="0" unitName="jetbrains.mps.buildlanguage.structure.MultiLineString" />
+  <unitInfo fileName="AbstractCall.java" startLine="14" startPosition="0" endLine="116" endPosition="0" unitName="jetbrains.mps.buildlanguage.structure.AbstractCall" />
+  <unitInfo fileName="TargetDeclaration.java" startLine="14" startPosition="0" endLine="167" endPosition="0" unitName="jetbrains.mps.buildlanguage.structure.TargetDeclaration" />
+  <unitInfo fileName="Project.java" startLine="15" startPosition="0" endLine="210" endPosition="0" unitName="jetbrains.mps.buildlanguage.structure.Project" />
 </debugInfo>
 

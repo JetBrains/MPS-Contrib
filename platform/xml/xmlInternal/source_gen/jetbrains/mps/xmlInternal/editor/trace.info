@@ -19,7 +19,7 @@
   <unitInfo fileName="XmlFile_Editor.java" startLine="25" startPosition="0" endLine="214" endPosition="0" unitName="jetbrains.mps.xmlInternal.editor.XmlFile_Editor" />
   <unitInfo fileName="Comment_Editor.java" startLine="28" startPosition="0" endLine="241" endPosition="0" unitName="jetbrains.mps.xmlInternal.editor.Comment_Editor" />
   <root nodeId="1174840274046">
-    <nodeInfo nodeId="1174840274055" conceptFqName="jetbrains.mps.baseLanguage.structure.ReturnStatement" fileName="Comment_Editor.java" startLine="150" startPosition="110" endLine="151" endPosition="94" />
+    <nodeInfo nodeId="1174840274055" fileName="Comment_Editor.java" startLine="150" startPosition="110" endLine="151" endPosition="94" conceptFqName="jetbrains.mps.baseLanguage.structure.ReturnStatement" />
     <scopeInfo nodeId="1174840274054" fileName="Comment_Editor.java" startLine="150" startPosition="110" endLine="151" endPosition="94" />
   </root>
 </debugInfo>

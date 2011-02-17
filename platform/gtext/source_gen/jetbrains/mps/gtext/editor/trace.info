@@ -25,7 +25,7 @@
   <unitInfo fileName="GDocument_Editor.java" startLine="26" startPosition="0" endLine="166" endPosition="0" unitName="jetbrains.mps.gtext.editor.GDocument_Editor" />
   <unitInfo fileName="GItemList_Editor.java" startLine="25" startPosition="0" endLine="185" endPosition="0" unitName="jetbrains.mps.gtext.editor.GItemList_Editor" />
   <root nodeId="1164413081741">
-    <nodeInfo nodeId="1188506191325" conceptFqName="jetbrains.mps.baseLanguage.structure.ReturnStatement" fileName="GItemList_Editor.java" startLine="105" startPosition="110" endLine="106" endPosition="61" />
+    <nodeInfo nodeId="1188506191325" fileName="GItemList_Editor.java" startLine="105" startPosition="110" endLine="106" endPosition="61" conceptFqName="jetbrains.mps.baseLanguage.structure.ReturnStatement" />
     <scopeInfo nodeId="1184872993739" fileName="GItemList_Editor.java" startLine="105" startPosition="110" endLine="106" endPosition="61" />
   </root>
 </debugInfo>
