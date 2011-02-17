@@ -185,7 +185,7 @@
           <node role="normalType" roleId="tpd4.1185788644032" type="tp3r.Quotation" typeId="tp3r.1196350785113" id="7129398160684691433">
             <node role="quotedNode" roleId="tp3r.1196350785114" type="tp2q.ListType" typeId="tp2q.1151688443754" id="7129398160684691434">
               <node role="elementType" roleId="tp2q.1151688676805" type="tpee.StringType" typeId="tpee.1225271177708" id="4705273682234223441">
-                <node role="_attr_$attribute" type="tp3r.Antiquotation" typeId="tp3r.1196350785112" id="4705273682234223442">
+                <node role="_$attribute" roleId="tpck.5169995583184591170" type="tp3r.Antiquotation" typeId="tp3r.1196350785112" id="4705273682234223442">
                   <node role="expression" roleId="tp3r.1196350785111" type="tpee.StaticMethodCall" typeId="tpee.1081236700937" id="4705273682234223445">
                     <link role="baseMethodDeclaration" roleId="tpee.1068499141037" targetNodeId="ra3l.4705273682234223376" resolveInfo="constructXMLElementType" />
                     <link role="classConcept" roleId="tpee.1144433194310" targetNodeId="ra3l.2341233264267552651" resolveInfo="SchemaUtil" />
