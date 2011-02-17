@@ -66,18 +66,18 @@
   <unitInfo fileName="ComponentController_Editor.java" startLine="30" startPosition="0" endLine="444" endPosition="0" unitName="jetbrains.mps.uiLanguage.editor.ComponentController_Editor" />
   <unitInfo fileName="ComponentDeclaration_Editor.java" startLine="24" startPosition="0" endLine="476" endPosition="0" unitName="jetbrains.mps.uiLanguage.editor.ComponentDeclaration_Editor" />
   <root nodeId="1202387802426">
-    <nodeInfo nodeId="1202393289057" conceptFqName="jetbrains.mps.baseLanguage.structure.ReturnStatement" fileName="ComponentDeclaration_Editor.java" startLine="402" startPosition="111" endLine="403" endPosition="59" />
-    <nodeInfo nodeId="1202393349817" conceptFqName="jetbrains.mps.baseLanguage.structure.ReturnStatement" fileName="ComponentDeclaration_Editor.java" startLine="406" startPosition="111" endLine="407" endPosition="56" />
+    <nodeInfo nodeId="1202393289057" fileName="ComponentDeclaration_Editor.java" startLine="402" startPosition="111" endLine="403" endPosition="59" conceptFqName="jetbrains.mps.baseLanguage.structure.ReturnStatement" />
+    <nodeInfo nodeId="1202393349817" fileName="ComponentDeclaration_Editor.java" startLine="406" startPosition="111" endLine="407" endPosition="56" conceptFqName="jetbrains.mps.baseLanguage.structure.ReturnStatement" />
     <scopeInfo nodeId="1202393286069" fileName="ComponentDeclaration_Editor.java" startLine="402" startPosition="111" endLine="403" endPosition="59" />
     <scopeInfo nodeId="1202393348518" fileName="ComponentDeclaration_Editor.java" startLine="406" startPosition="111" endLine="407" endPosition="56" />
   </root>
   <root nodeId="1202388034021">
-    <nodeInfo nodeId="1202397020442" conceptFqName="jetbrains.mps.baseLanguage.structure.ReturnStatement" fileName="ComponentInstance_Editor.java" startLine="197" startPosition="112" endLine="198" endPosition="63" />
+    <nodeInfo nodeId="1202397020442" fileName="ComponentInstance_Editor.java" startLine="197" startPosition="112" endLine="198" endPosition="63" conceptFqName="jetbrains.mps.baseLanguage.structure.ReturnStatement" />
     <scopeInfo nodeId="1202397019550" fileName="ComponentInstance_Editor.java" startLine="197" startPosition="112" endLine="198" endPosition="63" />
   </root>
   <root nodeId="1202388865572">
-    <nodeInfo nodeId="1204896138720" conceptFqName="jetbrains.mps.baseLanguage.structure.ReturnStatement" fileName="AttributeDeclaration_Editor.java" startLine="182" startPosition="112" endLine="183" endPosition="72" />
-    <nodeInfo nodeId="1203674748131" conceptFqName="jetbrains.mps.baseLanguage.structure.ReturnStatement" fileName="AttributeDeclaration_Editor.java" startLine="186" startPosition="112" endLine="187" endPosition="69" />
+    <nodeInfo nodeId="1204896138720" fileName="AttributeDeclaration_Editor.java" startLine="182" startPosition="112" endLine="183" endPosition="72" conceptFqName="jetbrains.mps.baseLanguage.structure.ReturnStatement" />
+    <nodeInfo nodeId="1203674748131" fileName="AttributeDeclaration_Editor.java" startLine="186" startPosition="112" endLine="187" endPosition="69" conceptFqName="jetbrains.mps.baseLanguage.structure.ReturnStatement" />
     <scopeInfo nodeId="1204896132109" fileName="AttributeDeclaration_Editor.java" startLine="182" startPosition="112" endLine="183" endPosition="72" />
     <scopeInfo nodeId="1203674745802" fileName="AttributeDeclaration_Editor.java" startLine="186" startPosition="112" endLine="187" endPosition="69" />
   </root>
