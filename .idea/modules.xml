@@ -33,6 +33,8 @@
       <module fileurl="file://$PROJECT_DIR$/core/debug/debug.iml" filepath="$PROJECT_DIR$/core/debug/debug.iml" group="core/debug" />
       <module fileurl="file://$PROJECT_DIR$/core/debug-api/debug-api.iml" filepath="$PROJECT_DIR$/core/debug-api/debug-api.iml" group="core/debug" />
       <module fileurl="file://$PROJECT_DIR$/core/debug/debugProject/solutions/jetbrains.mps.debug.tests/debugTests.iml" filepath="$PROJECT_DIR$/core/debug/debugProject/solutions/jetbrains.mps.debug.tests/debugTests.iml" group="core/debug" />
+      <module fileurl="file://$PROJECT_DIR$/plugins/debugger-api/debugger-api.iml" filepath="$PROJECT_DIR$/plugins/debugger-api/debugger-api.iml" group="plugins" />
+      <module fileurl="file://$PROJECT_DIR$/plugins/debugger-java/debugger-java.iml" filepath="$PROJECT_DIR$/plugins/debugger-java/debugger-java.iml" group="plugins" />
       <module fileurl="file://$PROJECT_DIR$/platform/buildlanguage/languages/distrib/distrib.iml" filepath="$PROJECT_DIR$/platform/buildlanguage/languages/distrib/distrib.iml" group="platform/build" />
       <module fileurl="file://$PROJECT_DIR$/core/languageDesign/editor/editor.iml" filepath="$PROJECT_DIR$/core/languageDesign/editor/editor.iml" group="core/languageDesign/editor" />
       <module fileurl="file://$PROJECT_DIR$/core/languageDesign/editor/tests/table/editor.table.tests.iml" filepath="$PROJECT_DIR$/core/languageDesign/editor/tests/table/editor.table.tests.iml" group="core/languageDesign/editor" />
@@ -50,6 +52,7 @@
       <module fileurl="file://$PROJECT_DIR$/core/languageDesign/make/make.iml" filepath="$PROJECT_DIR$/core/languageDesign/make/make.iml" group="core/languageDesign" />
       <module fileurl="file://$PROJECT_DIR$/core/make-runtime/make-runtime.iml" filepath="$PROJECT_DIR$/core/make-runtime/make-runtime.iml" group="core" />
       <module fileurl="file://$PROJECT_DIR$/testbench/modules/miscTests/miscTests.iml" filepath="$PROJECT_DIR$/testbench/modules/miscTests/miscTests.iml" />
+      <module fileurl="file://$PROJECT_DIR$/plugins/mpsdevkit/mpsdevkit.iml" filepath="$PROJECT_DIR$/plugins/mpsdevkit/mpsdevkit.iml" group="plugins" />
       <module fileurl="file://$PROJECT_DIR$/core/baseLanguage/overloadedOperators/overloadedOperators.iml" filepath="$PROJECT_DIR$/core/baseLanguage/overloadedOperators/overloadedOperators.iml" group="core/baseLanguage" />
       <module fileurl="file://$PROJECT_DIR$/platform/buildlanguage/languages/packaging/packaging.iml" filepath="$PROJECT_DIR$/platform/buildlanguage/languages/packaging/packaging.iml" group="platform/build" />
       <module fileurl="file://$PROJECT_DIR$/core/languageDesign/pattern/pattern.iml" filepath="$PROJECT_DIR$/core/languageDesign/pattern/pattern.iml" group="core/languageDesign" />

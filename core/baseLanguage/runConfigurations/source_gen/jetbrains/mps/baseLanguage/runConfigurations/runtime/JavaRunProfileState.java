@@ -5,13 +5,14 @@ package jetbrains.mps.baseLanguage.runConfigurations.runtime;
 import jetbrains.mps.plugins.pluginparts.runconfigs.BaseRunProfileState;
 import jetbrains.mps.debug.api.AbstractDebugSessionCreator;
 import com.intellij.openapi.project.Project;
-import jetbrains.mps.debug.runtime.VMCreator;
+import jetbrains.mps.debug.api.IDebugger;
+import jetbrains.mps.debug.api.Debuggers;
 
 public abstract class JavaRunProfileState extends BaseRunProfileState {
   public JavaRunProfileState() {
   }
 
   public AbstractDebugSessionCreator createDebugSessionCreator(Project project) {
-    return new VMCreator(project);
+    return ((IDebugger) Debuggers.getInstance().getDebuggerByName("Java")).createDebugSessionCreator(project);
   }
 }
