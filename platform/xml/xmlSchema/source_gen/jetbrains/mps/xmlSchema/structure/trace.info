@@ -37,11 +37,11 @@
   <unitInfo fileName="AttributeGroup.java" startLine="12" startPosition="0" endLine="57" endPosition="0" unitName="jetbrains.mps.xmlSchema.structure.AttributeGroup" />
   <unitInfo fileName="TypeExpressionList.java" startLine="13" startPosition="0" endLine="58" endPosition="0" unitName="jetbrains.mps.xmlSchema.structure.TypeExpressionList" />
   <unitInfo fileName="EntityBlock.java" startLine="14" startPosition="0" endLine="59" endPosition="0" unitName="jetbrains.mps.xmlSchema.structure.EntityBlock" />
-  <unitInfo fileName="Declaration.java" startLine="11" startPosition="0" endLine="62" endPosition="0" unitName="jetbrains.mps.xmlSchema.structure.Declaration" />
   <unitInfo fileName="useAttributeEnum.java" startLine="9" startPosition="0" endLine="62" endPosition="0" unitName="jetbrains.mps.xmlSchema.structure.useAttributeEnum" />
   <unitInfo fileName="DeclarationBlock.java" startLine="13" startPosition="0" endLine="70" endPosition="0" unitName="jetbrains.mps.xmlSchema.structure.DeclarationBlock" />
-  <unitInfo fileName="AttributeDeclaration.java" startLine="11" startPosition="0" endLine="89" endPosition="0" unitName="jetbrains.mps.xmlSchema.structure.AttributeDeclaration" />
-  <unitInfo fileName="EntitySet.java" startLine="14" startPosition="0" endLine="104" endPosition="0" unitName="jetbrains.mps.xmlSchema.structure.EntitySet" />
-  <unitInfo fileName="Schema.java" startLine="14" startPosition="0" endLine="131" endPosition="0" unitName="jetbrains.mps.xmlSchema.structure.Schema" />
+  <unitInfo fileName="Declaration.java" startLine="14" startPosition="0" endLine="86" endPosition="0" unitName="jetbrains.mps.xmlSchema.structure.Declaration" />
+  <unitInfo fileName="AttributeDeclaration.java" startLine="14" startPosition="0" endLine="113" endPosition="0" unitName="jetbrains.mps.xmlSchema.structure.AttributeDeclaration" />
+  <unitInfo fileName="EntitySet.java" startLine="15" startPosition="0" endLine="126" endPosition="0" unitName="jetbrains.mps.xmlSchema.structure.EntitySet" />
+  <unitInfo fileName="Schema.java" startLine="15" startPosition="0" endLine="153" endPosition="0" unitName="jetbrains.mps.xmlSchema.structure.Schema" />
 </debugInfo>
 

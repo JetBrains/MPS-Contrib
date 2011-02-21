@@ -2,7 +2,7 @@
 <debugInfo>
   <unitInfo fileName="XmlFile_Behavior.java" startLine="9" startPosition="0" endLine="17" endPosition="0" unitName="jetbrains.mps.xmlInternal.behavior.XmlFile_Behavior" />
   <root nodeId="1213877487338">
-    <nodeInfo nodeId="1213877487341" conceptFqName="jetbrains.mps.baseLanguage.structure.ReturnStatement" fileName="XmlFile_Behavior.java" startLine="13" startPosition="85" endLine="14" endPosition="64" />
+    <nodeInfo nodeId="1213877487341" fileName="XmlFile_Behavior.java" startLine="13" startPosition="85" endLine="14" endPosition="64" conceptFqName="jetbrains.mps.baseLanguage.structure.ReturnStatement" />
     <scopeInfo nodeId="1213877487349" fileName="XmlFile_Behavior.java" startLine="10" startPosition="43" endLine="10" endPosition="43" />
     <scopeInfo nodeId="1213877487340" fileName="XmlFile_Behavior.java" startLine="13" startPosition="85" endLine="14" endPosition="64" />
   </root>

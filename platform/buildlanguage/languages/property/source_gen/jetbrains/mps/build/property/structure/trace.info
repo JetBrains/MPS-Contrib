@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <debugInfo>
   <unitInfo fileName="Property_Language.java" startLine="9" startPosition="0" endLine="16" endPosition="0" unitName="jetbrains.mps.build.property.structure.Property_Language" />
-  <unitInfo fileName="PropertyNode.java" startLine="16" startPosition="0" endLine="89" endPosition="0" unitName="jetbrains.mps.build.property.structure.PropertyNode" />
+  <unitInfo fileName="PropertyNode.java" startLine="17" startPosition="0" endLine="111" endPosition="0" unitName="jetbrains.mps.build.property.structure.PropertyNode" />
 </debugInfo>
 

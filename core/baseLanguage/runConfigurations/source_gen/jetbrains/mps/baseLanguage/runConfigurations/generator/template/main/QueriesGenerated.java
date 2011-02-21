@@ -4,9 +4,11 @@ package jetbrains.mps.baseLanguage.runConfigurations.generator.template.main;
 
 import jetbrains.mps.smodel.IOperationContext;
 import jetbrains.mps.generator.template.BaseMappingRuleContext;
-import jetbrains.mps.lang.smodel.generator.smodelAdapter.SLinkOperations;
-import jetbrains.mps.smodel.AttributesRolesUtil;
+import jetbrains.mps.lang.smodel.generator.smodelAdapter.AttributeOperations;
+import jetbrains.mps.lang.smodel.generator.smodelAdapter.IAttributeDescriptor;
+import jetbrains.mps.lang.smodel.generator.smodelAdapter.SConceptOperations;
 import jetbrains.mps.lang.smodel.generator.smodelAdapter.SNodeOperations;
+import jetbrains.mps.lang.smodel.generator.smodelAdapter.SLinkOperations;
 import jetbrains.mps.generator.template.PropertyMacroContext;
 import jetbrains.mps.baseLanguage.runConfigurations.behavior.IJavaRunConfigurationParameter_Behavior;
 import jetbrains.mps.baseLanguage.runConfigurations.behavior.JavaRunConfiguration_Behavior;
@@ -33,11 +35,11 @@ import jetbrains.mps.lang.typesystem.runtime.HUtil;
 
 public class QueriesGenerated {
   public static boolean baseMappingRule_Condition_7549816165173155070(final IOperationContext operationContext, final BaseMappingRuleContext _context) {
-    return (SLinkOperations.getTarget(_context.getNode(), AttributesRolesUtil.childRoleFromAttributeRole("userComponentReferenceAnnotation"), true) != null);
+    return (AttributeOperations.getAttribute(_context.getNode(), new IAttributeDescriptor.NodeAttribute(SConceptOperations.findConceptDeclaration("jetbrains.mps.baseLanguage.runConfigurations.structure.UserComponentReferenceAnnotation"))) != null);
   }
 
   public static boolean baseMappingRule_Condition_1566895476211683172(final IOperationContext operationContext, final BaseMappingRuleContext _context) {
-    return (SLinkOperations.getTarget(_context.getNode(), AttributesRolesUtil.childRoleFromAttributeRole("componentInsideOfChangeListenerAnnotation"), true) != null);
+    return (AttributeOperations.getAttribute(_context.getNode(), new IAttributeDescriptor.NodeAttribute(SConceptOperations.findConceptDeclaration("jetbrains.mps.baseLanguage.runConfigurations.structure.ComponentInsideOfChangeListenerAnnotation"))) != null);
   }
 
   public static boolean baseMappingRule_Condition_6951161063040189470(final IOperationContext operationContext, final BaseMappingRuleContext _context) {
@@ -368,9 +370,9 @@ public class QueriesGenerated {
     for (SNode configuration : ListSequence.fromList(SModelOperations.getRoots(_context.getModel(), "jetbrains.mps.baseLanguage.runConfigurations.structure.JavaRunConfiguration"))) {
       for (SNode componentRef : ListSequence.fromList(SNodeOperations.getDescendants(configuration, "jetbrains.mps.lang.plugin.structure.ComponentReference", false, new String[]{}))) {
         if ((SNodeOperations.getAncestor(componentRef, "jetbrains.mps.lang.plugin.structure.AbstractEnhancedConceptFunction", false, false) != null)) {
-          SLinkOperations.setNewChild(componentRef, AttributesRolesUtil.childRoleFromAttributeRole("userComponentReferenceAnnotation"), "jetbrains.mps.baseLanguage.runConfigurations.structure.UserComponentReferenceAnnotation");
+          AttributeOperations.createAndSetAttrbiute(componentRef, new IAttributeDescriptor.NodeAttribute(SConceptOperations.findConceptDeclaration("jetbrains.mps.baseLanguage.runConfigurations.structure.UserComponentReferenceAnnotation")), "jetbrains.mps.baseLanguage.runConfigurations.structure.UserComponentReferenceAnnotation");
         } else if ((SNodeOperations.getAncestor(componentRef, "jetbrains.mps.baseLanguage.runConfigurations.structure.IOnChangeEditorBlock", false, false) != null)) {
-          SLinkOperations.setNewChild(componentRef, AttributesRolesUtil.childRoleFromAttributeRole("componentInsideOfChangeListenerAnnotation"), "jetbrains.mps.baseLanguage.runConfigurations.structure.ComponentInsideOfChangeListenerAnnotation");
+          AttributeOperations.createAndSetAttrbiute(componentRef, new IAttributeDescriptor.NodeAttribute(SConceptOperations.findConceptDeclaration("jetbrains.mps.baseLanguage.runConfigurations.structure.ComponentInsideOfChangeListenerAnnotation")), "jetbrains.mps.baseLanguage.runConfigurations.structure.ComponentInsideOfChangeListenerAnnotation");
         }
       }
     }

@@ -163,68 +163,68 @@
   <unitInfo fileName="ParseExpression_Editor.java" startLine="26" startPosition="0" endLine="448" endPosition="0" unitName="jetbrains.mps.baseLanguage.dates.editor.ParseExpression_Editor" />
   <unitInfo fileName="PeriodPropertyFormatToken_Editor.java" startLine="26" startPosition="0" endLine="617" endPosition="0" unitName="jetbrains.mps.baseLanguage.dates.editor.PeriodPropertyFormatToken_Editor" />
   <root nodeId="1169557727967">
-    <nodeInfo nodeId="1238684380509" conceptFqName="jetbrains.mps.baseLanguage.structure.ReturnStatement" fileName="FormatExpression_Editor.java" startLine="272" startPosition="111" endLine="273" endPosition="67" />
-    <nodeInfo nodeId="1238684467052" conceptFqName="jetbrains.mps.baseLanguage.structure.ReturnStatement" fileName="FormatExpression_Editor.java" startLine="276" startPosition="111" endLine="277" endPosition="70" />
+    <nodeInfo nodeId="1238684380509" fileName="FormatExpression_Editor.java" startLine="272" startPosition="111" endLine="273" endPosition="67" conceptFqName="jetbrains.mps.baseLanguage.structure.ReturnStatement" />
+    <nodeInfo nodeId="1238684467052" fileName="FormatExpression_Editor.java" startLine="276" startPosition="111" endLine="277" endPosition="70" conceptFqName="jetbrains.mps.baseLanguage.structure.ReturnStatement" />
     <scopeInfo nodeId="1238684371805" fileName="FormatExpression_Editor.java" startLine="272" startPosition="111" endLine="273" endPosition="67" />
     <scopeInfo nodeId="1238684465207" fileName="FormatExpression_Editor.java" startLine="276" startPosition="111" endLine="277" endPosition="70" />
   </root>
   <root nodeId="1172065403260">
-    <nodeInfo nodeId="1172065525877" conceptFqName="jetbrains.mps.baseLanguage.structure.ExpressionStatement" fileName="UnaryDateTimeOperation_ActionMap.java" startLine="33" startPosition="75" endLine="34" endPosition="98" />
+    <nodeInfo nodeId="1172065525877" fileName="UnaryDateTimeOperation_ActionMap.java" startLine="33" startPosition="75" endLine="34" endPosition="98" conceptFqName="jetbrains.mps.baseLanguage.structure.ExpressionStatement" />
     <scopeInfo nodeId="1172065438481" fileName="UnaryDateTimeOperation_ActionMap.java" startLine="33" startPosition="75" endLine="34" endPosition="98" />
   </root>
   <root nodeId="1172074935895">
-    <nodeInfo nodeId="1226062536457" conceptFqName="jetbrains.mps.baseLanguage.structure.ReturnStatement" fileName="DateTimeCompareOperation_Editor.java" startLine="100" startPosition="31" endLine="101" endPosition="133" />
-    <nodeInfo nodeId="1178372579041" conceptFqName="jetbrains.mps.baseLanguage.structure.ReturnStatement" fileName="DateTimeCompareOperation_Editor.java" startLine="201" startPosition="111" endLine="202" endPosition="80" />
+    <nodeInfo nodeId="1226062536457" fileName="DateTimeCompareOperation_Editor.java" startLine="100" startPosition="31" endLine="101" endPosition="133" conceptFqName="jetbrains.mps.baseLanguage.structure.ReturnStatement" />
+    <nodeInfo nodeId="1178372579041" fileName="DateTimeCompareOperation_Editor.java" startLine="201" startPosition="111" endLine="202" endPosition="80" conceptFqName="jetbrains.mps.baseLanguage.structure.ReturnStatement" />
     <scopeInfo nodeId="1226062536456" fileName="DateTimeCompareOperation_Editor.java" startLine="100" startPosition="31" endLine="101" endPosition="133" />
     <scopeInfo nodeId="1178372518729" fileName="DateTimeCompareOperation_Editor.java" startLine="201" startPosition="111" endLine="202" endPosition="80" />
   </root>
   <root nodeId="1172489682053">
-    <nodeInfo nodeId="1172491796293" conceptFqName="jetbrains.mps.baseLanguage.structure.LocalVariableDeclarationStatement" fileName="PeriodConstant_Editor.java" startLine="101" startPosition="111" endLine="102" endPosition="26" />
-    <nodeInfo nodeId="1172491842576" conceptFqName="jetbrains.mps.baseLanguage.structure.ReturnStatement" fileName="PeriodConstant_Editor.java" startLine="103" startPosition="143" endLine="104" endPosition="184" />
-    <nodeInfo nodeId="1172490850955" conceptFqName="jetbrains.mps.baseLanguage.structure.ReturnStatement" fileName="PeriodConstant_Editor.java" startLine="105" startPosition="5" endLine="106" endPosition="18" />
-    <nodeInfo nodeId="1172491811567" conceptFqName="jetbrains.mps.baseLanguage.structure.IfStatement" fileName="PeriodConstant_Editor.java" startLine="102" startPosition="26" endLine="105" endPosition="5" />
+    <nodeInfo nodeId="1172491796293" fileName="PeriodConstant_Editor.java" startLine="101" startPosition="111" endLine="102" endPosition="26" conceptFqName="jetbrains.mps.baseLanguage.structure.LocalVariableDeclarationStatement" />
+    <nodeInfo nodeId="1172491842576" fileName="PeriodConstant_Editor.java" startLine="103" startPosition="143" endLine="104" endPosition="184" conceptFqName="jetbrains.mps.baseLanguage.structure.ReturnStatement" />
+    <nodeInfo nodeId="1172490850955" fileName="PeriodConstant_Editor.java" startLine="105" startPosition="5" endLine="106" endPosition="18" conceptFqName="jetbrains.mps.baseLanguage.structure.ReturnStatement" />
+    <nodeInfo nodeId="1172491811567" fileName="PeriodConstant_Editor.java" startLine="102" startPosition="26" endLine="105" endPosition="5" conceptFqName="jetbrains.mps.baseLanguage.structure.IfStatement" />
     <scopeInfo nodeId="1172491811569" fileName="PeriodConstant_Editor.java" startLine="103" startPosition="143" endLine="104" endPosition="184" />
     <scopeInfo nodeId="1172490607604" fileName="PeriodConstant_Editor.java" startLine="101" startPosition="111" endLine="106" endPosition="18">
       <varInfo nodeId="1172491796294" varName="result" />
     </scopeInfo>
   </root>
   <root nodeId="1172509072796">
-    <nodeInfo nodeId="1172509099615" conceptFqName="jetbrains.mps.baseLanguage.structure.ExpressionStatement" fileName="PeriodConstant_ActionMap.java" startLine="33" startPosition="75" endLine="34" endPosition="95" />
+    <nodeInfo nodeId="1172509099615" fileName="PeriodConstant_ActionMap.java" startLine="33" startPosition="75" endLine="34" endPosition="95" conceptFqName="jetbrains.mps.baseLanguage.structure.ExpressionStatement" />
     <scopeInfo nodeId="1172509084909" fileName="PeriodConstant_ActionMap.java" startLine="33" startPosition="75" endLine="34" endPosition="95" />
   </root>
   <root nodeId="1173960048905">
-    <nodeInfo nodeId="1173966068258" conceptFqName="jetbrains.mps.baseLanguage.structure.ReturnStatement" fileName="DateTimePropertyFormatToken_Editor.java" startLine="198" startPosition="111" endLine="199" endPosition="71" />
+    <nodeInfo nodeId="1173966068258" fileName="DateTimePropertyFormatToken_Editor.java" startLine="198" startPosition="111" endLine="199" endPosition="71" conceptFqName="jetbrains.mps.baseLanguage.structure.ReturnStatement" />
     <scopeInfo nodeId="1173966009961" fileName="DateTimePropertyFormatToken_Editor.java" startLine="198" startPosition="111" endLine="199" endPosition="71" />
   </root>
   <root nodeId="1173966103686">
-    <nodeInfo nodeId="1173966231895" conceptFqName="jetbrains.mps.baseLanguage.structure.ExpressionStatement" fileName="DateTimePropertyFormatToken_ActionMap.java" startLine="34" startPosition="69" endLine="35" endPosition="83" />
-    <nodeInfo nodeId="1173966150861" conceptFqName="jetbrains.mps.baseLanguage.structure.IfStatement" fileName="DateTimePropertyFormatToken_ActionMap.java" startLine="33" startPosition="75" endLine="36" endPosition="7" />
+    <nodeInfo nodeId="1173966231895" fileName="DateTimePropertyFormatToken_ActionMap.java" startLine="34" startPosition="69" endLine="35" endPosition="83" conceptFqName="jetbrains.mps.baseLanguage.structure.ExpressionStatement" />
+    <nodeInfo nodeId="1173966150861" fileName="DateTimePropertyFormatToken_ActionMap.java" startLine="33" startPosition="75" endLine="36" endPosition="7" conceptFqName="jetbrains.mps.baseLanguage.structure.IfStatement" />
     <scopeInfo nodeId="1173966150863" fileName="DateTimePropertyFormatToken_ActionMap.java" startLine="34" startPosition="69" endLine="35" endPosition="83" />
     <scopeInfo nodeId="1173966122048" fileName="DateTimePropertyFormatToken_ActionMap.java" startLine="33" startPosition="75" endLine="36" endPosition="7" />
   </root>
   <root nodeId="1174039915744">
-    <nodeInfo nodeId="1238685938488" conceptFqName="jetbrains.mps.baseLanguage.structure.ReturnStatement" fileName="InlineFormatExpression_Editor.java" startLine="300" startPosition="111" endLine="301" endPosition="67" />
-    <nodeInfo nodeId="1174045949566" conceptFqName="jetbrains.mps.baseLanguage.structure.ReturnStatement" fileName="InlineFormatExpression_Editor.java" startLine="304" startPosition="111" endLine="305" endPosition="122" />
+    <nodeInfo nodeId="1238685938488" fileName="InlineFormatExpression_Editor.java" startLine="300" startPosition="111" endLine="301" endPosition="67" conceptFqName="jetbrains.mps.baseLanguage.structure.ReturnStatement" />
+    <nodeInfo nodeId="1174045949566" fileName="InlineFormatExpression_Editor.java" startLine="304" startPosition="111" endLine="305" endPosition="122" conceptFqName="jetbrains.mps.baseLanguage.structure.ReturnStatement" />
     <scopeInfo nodeId="1238685938487" fileName="InlineFormatExpression_Editor.java" startLine="300" startPosition="111" endLine="301" endPosition="67" />
     <scopeInfo nodeId="1174045942654" fileName="InlineFormatExpression_Editor.java" startLine="304" startPosition="111" endLine="305" endPosition="122" />
   </root>
   <root nodeId="1178373724152">
-    <nodeInfo nodeId="1178373793634" conceptFqName="jetbrains.mps.baseLanguage.structure.ExpressionStatement" fileName="DateTimeCompareOperation_leftOperand_actionMap.java" startLine="33" startPosition="75" endLine="34" endPosition="93" />
+    <nodeInfo nodeId="1178373793634" fileName="DateTimeCompareOperation_leftOperand_actionMap.java" startLine="33" startPosition="75" endLine="34" endPosition="93" conceptFqName="jetbrains.mps.baseLanguage.structure.ExpressionStatement" />
     <scopeInfo nodeId="1178373780945" fileName="DateTimeCompareOperation_leftOperand_actionMap.java" startLine="33" startPosition="75" endLine="34" endPosition="93" />
   </root>
   <root nodeId="1178373822388">
-    <nodeInfo nodeId="1178373822392" conceptFqName="jetbrains.mps.baseLanguage.structure.ExpressionStatement" fileName="DateTimeCompareOperation_rightOperand_actionMap.java" startLine="33" startPosition="75" endLine="34" endPosition="93" />
+    <nodeInfo nodeId="1178373822392" fileName="DateTimeCompareOperation_rightOperand_actionMap.java" startLine="33" startPosition="75" endLine="34" endPosition="93" conceptFqName="jetbrains.mps.baseLanguage.structure.ExpressionStatement" />
     <scopeInfo nodeId="1178373822391" fileName="DateTimeCompareOperation_rightOperand_actionMap.java" startLine="33" startPosition="75" endLine="34" endPosition="93" />
   </root>
   <root nodeId="1194007774469">
-    <nodeInfo nodeId="1194008330532" conceptFqName="jetbrains.mps.baseLanguage.structure.ReturnStatement" fileName="ScheduleLiteral_Editor.java" startLine="311" startPosition="110" endLine="312" endPosition="68" />
-    <nodeInfo nodeId="1194008385844" conceptFqName="jetbrains.mps.baseLanguage.structure.ReturnStatement" fileName="ScheduleLiteral_Editor.java" startLine="315" startPosition="111" endLine="316" endPosition="109" />
-    <nodeInfo nodeId="1194008433276" conceptFqName="jetbrains.mps.baseLanguage.structure.ReturnStatement" fileName="ScheduleLiteral_Editor.java" startLine="319" startPosition="111" endLine="320" endPosition="114" />
-    <nodeInfo nodeId="1194008450222" conceptFqName="jetbrains.mps.baseLanguage.structure.ReturnStatement" fileName="ScheduleLiteral_Editor.java" startLine="323" startPosition="111" endLine="324" endPosition="113" />
-    <nodeInfo nodeId="1194008613494" conceptFqName="jetbrains.mps.baseLanguage.structure.ReturnStatement" fileName="ScheduleLiteral_Editor.java" startLine="327" startPosition="110" endLine="328" endPosition="69" />
-    <nodeInfo nodeId="1194008667019" conceptFqName="jetbrains.mps.baseLanguage.structure.ReturnStatement" fileName="ScheduleLiteral_Editor.java" startLine="331" startPosition="111" endLine="332" endPosition="110" />
-    <nodeInfo nodeId="1194008724768" conceptFqName="jetbrains.mps.baseLanguage.structure.ReturnStatement" fileName="ScheduleLiteral_Editor.java" startLine="335" startPosition="112" endLine="336" endPosition="110" />
-    <nodeInfo nodeId="1194008747186" conceptFqName="jetbrains.mps.baseLanguage.structure.ReturnStatement" fileName="ScheduleLiteral_Editor.java" startLine="339" startPosition="113" endLine="340" endPosition="108" />
+    <nodeInfo nodeId="1194008330532" fileName="ScheduleLiteral_Editor.java" startLine="311" startPosition="110" endLine="312" endPosition="68" conceptFqName="jetbrains.mps.baseLanguage.structure.ReturnStatement" />
+    <nodeInfo nodeId="1194008385844" fileName="ScheduleLiteral_Editor.java" startLine="315" startPosition="111" endLine="316" endPosition="109" conceptFqName="jetbrains.mps.baseLanguage.structure.ReturnStatement" />
+    <nodeInfo nodeId="1194008433276" fileName="ScheduleLiteral_Editor.java" startLine="319" startPosition="111" endLine="320" endPosition="114" conceptFqName="jetbrains.mps.baseLanguage.structure.ReturnStatement" />
+    <nodeInfo nodeId="1194008450222" fileName="ScheduleLiteral_Editor.java" startLine="323" startPosition="111" endLine="324" endPosition="113" conceptFqName="jetbrains.mps.baseLanguage.structure.ReturnStatement" />
+    <nodeInfo nodeId="1194008613494" fileName="ScheduleLiteral_Editor.java" startLine="327" startPosition="110" endLine="328" endPosition="69" conceptFqName="jetbrains.mps.baseLanguage.structure.ReturnStatement" />
+    <nodeInfo nodeId="1194008667019" fileName="ScheduleLiteral_Editor.java" startLine="331" startPosition="111" endLine="332" endPosition="110" conceptFqName="jetbrains.mps.baseLanguage.structure.ReturnStatement" />
+    <nodeInfo nodeId="1194008724768" fileName="ScheduleLiteral_Editor.java" startLine="335" startPosition="112" endLine="336" endPosition="110" conceptFqName="jetbrains.mps.baseLanguage.structure.ReturnStatement" />
+    <nodeInfo nodeId="1194008747186" fileName="ScheduleLiteral_Editor.java" startLine="339" startPosition="113" endLine="340" endPosition="108" conceptFqName="jetbrains.mps.baseLanguage.structure.ReturnStatement" />
     <scopeInfo nodeId="1194008229709" fileName="ScheduleLiteral_Editor.java" startLine="311" startPosition="110" endLine="312" endPosition="68" />
     <scopeInfo nodeId="1194008383042" fileName="ScheduleLiteral_Editor.java" startLine="315" startPosition="111" endLine="316" endPosition="109" />
     <scopeInfo nodeId="1194008431768" fileName="ScheduleLiteral_Editor.java" startLine="319" startPosition="111" endLine="320" endPosition="114" />
@@ -235,61 +235,61 @@
     <scopeInfo nodeId="1194008747185" fileName="ScheduleLiteral_Editor.java" startLine="339" startPosition="113" endLine="340" endPosition="108" />
   </root>
   <root nodeId="1227029248328">
-    <nodeInfo nodeId="1227029248332" conceptFqName="jetbrains.mps.baseLanguage.structure.ExpressionStatement" fileName="AbsDateTimeMinusOperation_leftOperand_actionMap.java" startLine="33" startPosition="75" endLine="34" endPosition="100" />
+    <nodeInfo nodeId="1227029248332" fileName="AbsDateTimeMinusOperation_leftOperand_actionMap.java" startLine="33" startPosition="75" endLine="34" endPosition="100" conceptFqName="jetbrains.mps.baseLanguage.structure.ExpressionStatement" />
     <scopeInfo nodeId="1227029248331" fileName="AbsDateTimeMinusOperation_leftOperand_actionMap.java" startLine="33" startPosition="75" endLine="34" endPosition="100" />
   </root>
   <root nodeId="1227029287314">
-    <nodeInfo nodeId="1227029287318" conceptFqName="jetbrains.mps.baseLanguage.structure.ExpressionStatement" fileName="AbsDateTimeMinusOperation_rightOperand_actionMap.java" startLine="33" startPosition="75" endLine="34" endPosition="99" />
+    <nodeInfo nodeId="1227029287318" fileName="AbsDateTimeMinusOperation_rightOperand_actionMap.java" startLine="33" startPosition="75" endLine="34" endPosition="99" conceptFqName="jetbrains.mps.baseLanguage.structure.ExpressionStatement" />
     <scopeInfo nodeId="1227029287317" fileName="AbsDateTimeMinusOperation_rightOperand_actionMap.java" startLine="33" startPosition="75" endLine="34" endPosition="99" />
   </root>
   <root nodeId="1227029401641">
-    <nodeInfo nodeId="1227029401645" conceptFqName="jetbrains.mps.baseLanguage.structure.ExpressionStatement" fileName="DateTimeMinusOperation_leftOperand_actionMap.java" startLine="33" startPosition="75" endLine="34" endPosition="100" />
+    <nodeInfo nodeId="1227029401645" fileName="DateTimeMinusOperation_leftOperand_actionMap.java" startLine="33" startPosition="75" endLine="34" endPosition="100" conceptFqName="jetbrains.mps.baseLanguage.structure.ExpressionStatement" />
     <scopeInfo nodeId="1227029401644" fileName="DateTimeMinusOperation_leftOperand_actionMap.java" startLine="33" startPosition="75" endLine="34" endPosition="100" />
   </root>
   <root nodeId="1227029426951">
-    <nodeInfo nodeId="1227029426955" conceptFqName="jetbrains.mps.baseLanguage.structure.ExpressionStatement" fileName="DateTimeMinusOperation_rightOperand_actionMap.java" startLine="33" startPosition="75" endLine="34" endPosition="99" />
+    <nodeInfo nodeId="1227029426955" fileName="DateTimeMinusOperation_rightOperand_actionMap.java" startLine="33" startPosition="75" endLine="34" endPosition="99" conceptFqName="jetbrains.mps.baseLanguage.structure.ExpressionStatement" />
     <scopeInfo nodeId="1227029426954" fileName="DateTimeMinusOperation_rightOperand_actionMap.java" startLine="33" startPosition="75" endLine="34" endPosition="99" />
   </root>
   <root nodeId="1227029492599">
-    <nodeInfo nodeId="1227029492603" conceptFqName="jetbrains.mps.baseLanguage.structure.ExpressionStatement" fileName="DateTimeMinusPeriodOperation_leftOperand_actionMap.java" startLine="33" startPosition="75" endLine="34" endPosition="100" />
+    <nodeInfo nodeId="1227029492603" fileName="DateTimeMinusPeriodOperation_leftOperand_actionMap.java" startLine="33" startPosition="75" endLine="34" endPosition="100" conceptFqName="jetbrains.mps.baseLanguage.structure.ExpressionStatement" />
     <scopeInfo nodeId="1227029492602" fileName="DateTimeMinusPeriodOperation_leftOperand_actionMap.java" startLine="33" startPosition="75" endLine="34" endPosition="100" />
   </root>
   <root nodeId="1227029521931">
-    <nodeInfo nodeId="1227029521935" conceptFqName="jetbrains.mps.baseLanguage.structure.ExpressionStatement" fileName="DateTimeMinusPeriodOperation_rightOperand_actionMap.java" startLine="33" startPosition="75" endLine="34" endPosition="99" />
+    <nodeInfo nodeId="1227029521935" fileName="DateTimeMinusPeriodOperation_rightOperand_actionMap.java" startLine="33" startPosition="75" endLine="34" endPosition="99" conceptFqName="jetbrains.mps.baseLanguage.structure.ExpressionStatement" />
     <scopeInfo nodeId="1227029521934" fileName="DateTimeMinusPeriodOperation_rightOperand_actionMap.java" startLine="33" startPosition="75" endLine="34" endPosition="99" />
   </root>
   <root nodeId="1227029545984">
-    <nodeInfo nodeId="1227029545988" conceptFqName="jetbrains.mps.baseLanguage.structure.ExpressionStatement" fileName="DateTimePlusPeriodOperation_leftOperand_actionMap.java" startLine="33" startPosition="75" endLine="34" endPosition="100" />
+    <nodeInfo nodeId="1227029545988" fileName="DateTimePlusPeriodOperation_leftOperand_actionMap.java" startLine="33" startPosition="75" endLine="34" endPosition="100" conceptFqName="jetbrains.mps.baseLanguage.structure.ExpressionStatement" />
     <scopeInfo nodeId="1227029545987" fileName="DateTimePlusPeriodOperation_leftOperand_actionMap.java" startLine="33" startPosition="75" endLine="34" endPosition="100" />
   </root>
   <root nodeId="1227029576179">
-    <nodeInfo nodeId="1227029576183" conceptFqName="jetbrains.mps.baseLanguage.structure.ExpressionStatement" fileName="DateTimePlusPeriodOperation_rightOperand_actionMap.java" startLine="33" startPosition="75" endLine="34" endPosition="99" />
+    <nodeInfo nodeId="1227029576183" fileName="DateTimePlusPeriodOperation_rightOperand_actionMap.java" startLine="33" startPosition="75" endLine="34" endPosition="99" conceptFqName="jetbrains.mps.baseLanguage.structure.ExpressionStatement" />
     <scopeInfo nodeId="1227029576182" fileName="DateTimePlusPeriodOperation_rightOperand_actionMap.java" startLine="33" startPosition="75" endLine="34" endPosition="99" />
   </root>
   <root nodeId="1892577441204578967">
-    <nodeInfo nodeId="2583319411283206810" conceptFqName="jetbrains.mps.baseLanguage.structure.ReturnStatement" fileName="ParseExpression_Editor.java" startLine="336" startPosition="111" endLine="337" endPosition="70" />
-    <nodeInfo nodeId="7678715681280025584" conceptFqName="jetbrains.mps.baseLanguage.structure.ReturnStatement" fileName="ParseExpression_Editor.java" startLine="340" startPosition="111" endLine="341" endPosition="70" />
+    <nodeInfo nodeId="2583319411283206810" fileName="ParseExpression_Editor.java" startLine="336" startPosition="111" endLine="337" endPosition="70" conceptFqName="jetbrains.mps.baseLanguage.structure.ReturnStatement" />
+    <nodeInfo nodeId="7678715681280025584" fileName="ParseExpression_Editor.java" startLine="340" startPosition="111" endLine="341" endPosition="70" conceptFqName="jetbrains.mps.baseLanguage.structure.ReturnStatement" />
     <scopeInfo nodeId="2583319411283206809" fileName="ParseExpression_Editor.java" startLine="336" startPosition="111" endLine="337" endPosition="70" />
     <scopeInfo nodeId="7678715681280022254" fileName="ParseExpression_Editor.java" startLine="340" startPosition="111" endLine="341" endPosition="70" />
   </root>
   <root nodeId="34521615669572124">
-    <nodeInfo nodeId="34521615669572148" conceptFqName="jetbrains.mps.baseLanguage.structure.ReturnStatement" fileName="FormatPeriodExpression_Editor.java" startLine="188" startPosition="111" endLine="189" endPosition="70" />
+    <nodeInfo nodeId="34521615669572148" fileName="FormatPeriodExpression_Editor.java" startLine="188" startPosition="111" endLine="189" endPosition="70" conceptFqName="jetbrains.mps.baseLanguage.structure.ReturnStatement" />
     <scopeInfo nodeId="34521615669572147" fileName="FormatPeriodExpression_Editor.java" startLine="188" startPosition="111" endLine="189" endPosition="70" />
   </root>
   <root nodeId="4389880778953634899">
-    <nodeInfo nodeId="4251945201431291635" conceptFqName="jetbrains.mps.baseLanguage.structure.ReturnStatement" fileName="ParseDateTimeExpression_Editor.java" startLine="333" startPosition="111" endLine="334" endPosition="70" />
-    <nodeInfo nodeId="4251945201431291994" conceptFqName="jetbrains.mps.baseLanguage.structure.ReturnStatement" fileName="ParseDateTimeExpression_Editor.java" startLine="337" startPosition="111" endLine="338" endPosition="70" />
+    <nodeInfo nodeId="4251945201431291635" fileName="ParseDateTimeExpression_Editor.java" startLine="333" startPosition="111" endLine="334" endPosition="70" conceptFqName="jetbrains.mps.baseLanguage.structure.ReturnStatement" />
+    <nodeInfo nodeId="4251945201431291994" fileName="ParseDateTimeExpression_Editor.java" startLine="337" startPosition="111" endLine="338" endPosition="70" conceptFqName="jetbrains.mps.baseLanguage.structure.ReturnStatement" />
     <scopeInfo nodeId="4251945201431291634" fileName="ParseDateTimeExpression_Editor.java" startLine="333" startPosition="111" endLine="334" endPosition="70" />
     <scopeInfo nodeId="4251945201431291993" fileName="ParseDateTimeExpression_Editor.java" startLine="337" startPosition="111" endLine="338" endPosition="70" />
   </root>
   <root nodeId="4555537781927648372">
-    <nodeInfo nodeId="4555537781927941463" conceptFqName="jetbrains.mps.baseLanguage.structure.ExpressionStatement" fileName="TimeZoneIDExpression_Editor.java" startLine="58" startPosition="105" endLine="59" endPosition="37" />
-    <nodeInfo nodeId="4555537781927941465" conceptFqName="jetbrains.mps.baseLanguage.structure.LocalVariableDeclarationStatement" fileName="TimeZoneIDExpression_Editor.java" startLine="59" startPosition="37" endLine="60" endPosition="75" />
-    <nodeInfo nodeId="4555537781927941474" conceptFqName="jetbrains.mps.baseLanguage.structure.ExpressionStatement" fileName="TimeZoneIDExpression_Editor.java" startLine="61" startPosition="56" endLine="62" endPosition="69" />
-    <nodeInfo nodeId="4555537781927941483" conceptFqName="jetbrains.mps.baseLanguage.structure.ReturnStatement" fileName="TimeZoneIDExpression_Editor.java" startLine="63" startPosition="7" endLine="64" endPosition="20" />
-    <nodeInfo nodeId="4555537781927941472" conceptFqName="jetbrains.mps.baseLanguage.structure.ForeachStatement" fileName="TimeZoneIDExpression_Editor.java" startLine="60" startPosition="75" endLine="63" endPosition="7" />
+    <nodeInfo nodeId="4555537781927941463" fileName="TimeZoneIDExpression_Editor.java" startLine="58" startPosition="105" endLine="59" endPosition="37" conceptFqName="jetbrains.mps.baseLanguage.structure.ExpressionStatement" />
+    <nodeInfo nodeId="4555537781927941465" fileName="TimeZoneIDExpression_Editor.java" startLine="59" startPosition="37" endLine="60" endPosition="75" conceptFqName="jetbrains.mps.baseLanguage.structure.LocalVariableDeclarationStatement" />
+    <nodeInfo nodeId="4555537781927941474" fileName="TimeZoneIDExpression_Editor.java" startLine="61" startPosition="56" endLine="62" endPosition="69" conceptFqName="jetbrains.mps.baseLanguage.structure.ExpressionStatement" />
+    <nodeInfo nodeId="4555537781927941483" fileName="TimeZoneIDExpression_Editor.java" startLine="63" startPosition="7" endLine="64" endPosition="20" conceptFqName="jetbrains.mps.baseLanguage.structure.ReturnStatement" />
+    <nodeInfo nodeId="4555537781927941472" fileName="TimeZoneIDExpression_Editor.java" startLine="60" startPosition="75" endLine="63" endPosition="7" conceptFqName="jetbrains.mps.baseLanguage.structure.ForeachStatement" />
     <scopeInfo nodeId="4555537781927941473" fileName="TimeZoneIDExpression_Editor.java" startLine="61" startPosition="56" endLine="62" endPosition="69" />
-    <scopeInfo nodeId="4555537781927941472" conceptFqName="jetbrains.mps.baseLanguage.structure.ForeachStatement" fileName="TimeZoneIDExpression_Editor.java" startLine="60" startPosition="75" endLine="63" endPosition="7">
+    <scopeInfo nodeId="4555537781927941472" fileName="TimeZoneIDExpression_Editor.java" startLine="60" startPosition="75" endLine="63" endPosition="7">
       <varInfo nodeId="4555537781927941480" varName="id" />
     </scopeInfo>
     <scopeInfo nodeId="4555537781927941462" fileName="TimeZoneIDExpression_Editor.java" startLine="58" startPosition="105" endLine="64" endPosition="20">
@@ -297,36 +297,36 @@
     </scopeInfo>
   </root>
   <root nodeId="5034322243092298631">
-    <nodeInfo nodeId="5034322243092298665" conceptFqName="jetbrains.mps.baseLanguage.structure.ReturnStatement" fileName="FormatDateTimeExpression_Editor.java" startLine="193" startPosition="111" endLine="194" endPosition="70" />
+    <nodeInfo nodeId="5034322243092298665" fileName="FormatDateTimeExpression_Editor.java" startLine="193" startPosition="111" endLine="194" endPosition="70" conceptFqName="jetbrains.mps.baseLanguage.structure.ReturnStatement" />
     <scopeInfo nodeId="5034322243092298664" fileName="FormatDateTimeExpression_Editor.java" startLine="193" startPosition="111" endLine="194" endPosition="70" />
   </root>
   <root nodeId="5034322243093099639">
-    <nodeInfo nodeId="194163770812051527" conceptFqName="jetbrains.mps.baseLanguage.structure.ReturnStatement" fileName="InlineFormatDateTimeExpression_Editor.java" startLine="210" startPosition="111" endLine="211" endPosition="70" />
+    <nodeInfo nodeId="194163770812051527" fileName="InlineFormatDateTimeExpression_Editor.java" startLine="210" startPosition="111" endLine="211" endPosition="70" conceptFqName="jetbrains.mps.baseLanguage.structure.ReturnStatement" />
     <scopeInfo nodeId="194163770812051526" fileName="InlineFormatDateTimeExpression_Editor.java" startLine="210" startPosition="111" endLine="211" endPosition="70" />
   </root>
   <root nodeId="5293902215864698566">
-    <nodeInfo nodeId="5293902215864698589" conceptFqName="jetbrains.mps.baseLanguage.structure.ReturnStatement" fileName="TimeZoneNameOperation_Editor.java" startLine="266" startPosition="111" endLine="267" endPosition="70" />
-    <nodeInfo nodeId="8736588939154832752" conceptFqName="jetbrains.mps.baseLanguage.structure.LocalVariableDeclarationStatement" fileName="TimeZoneNameOperation_Editor.java" startLine="340" startPosition="105" endLine="341" endPosition="71" />
-    <nodeInfo nodeId="8736588939154856888" conceptFqName="jetbrains.mps.baseLanguage.structure.ExpressionStatement" fileName="TimeZoneNameOperation_Editor.java" startLine="341" startPosition="71" endLine="342" endPosition="50" />
-    <nodeInfo nodeId="8736588939154856906" conceptFqName="jetbrains.mps.baseLanguage.structure.ExpressionStatement" fileName="TimeZoneNameOperation_Editor.java" startLine="342" startPosition="50" endLine="343" endPosition="56" />
-    <nodeInfo nodeId="8736588939154856943" conceptFqName="jetbrains.mps.baseLanguage.structure.ReturnStatement" fileName="TimeZoneNameOperation_Editor.java" startLine="343" startPosition="56" endLine="344" endPosition="15" />
+    <nodeInfo nodeId="5293902215864698589" fileName="TimeZoneNameOperation_Editor.java" startLine="266" startPosition="111" endLine="267" endPosition="70" conceptFqName="jetbrains.mps.baseLanguage.structure.ReturnStatement" />
+    <nodeInfo nodeId="8736588939154832752" fileName="TimeZoneNameOperation_Editor.java" startLine="340" startPosition="105" endLine="341" endPosition="71" conceptFqName="jetbrains.mps.baseLanguage.structure.LocalVariableDeclarationStatement" />
+    <nodeInfo nodeId="8736588939154856888" fileName="TimeZoneNameOperation_Editor.java" startLine="341" startPosition="71" endLine="342" endPosition="50" conceptFqName="jetbrains.mps.baseLanguage.structure.ExpressionStatement" />
+    <nodeInfo nodeId="8736588939154856906" fileName="TimeZoneNameOperation_Editor.java" startLine="342" startPosition="50" endLine="343" endPosition="56" conceptFqName="jetbrains.mps.baseLanguage.structure.ExpressionStatement" />
+    <nodeInfo nodeId="8736588939154856943" fileName="TimeZoneNameOperation_Editor.java" startLine="343" startPosition="56" endLine="344" endPosition="15" conceptFqName="jetbrains.mps.baseLanguage.structure.ReturnStatement" />
     <scopeInfo nodeId="5293902215864698588" fileName="TimeZoneNameOperation_Editor.java" startLine="266" startPosition="111" endLine="267" endPosition="70" />
     <scopeInfo nodeId="8736588939154832751" fileName="TimeZoneNameOperation_Editor.java" startLine="340" startPosition="105" endLine="344" endPosition="15">
       <varInfo nodeId="8736588939154832753" varName="l" />
     </scopeInfo>
   </root>
   <root nodeId="5473692278135631089">
-    <nodeInfo nodeId="5473692278136129117" conceptFqName="jetbrains.mps.baseLanguage.structure.LocalVariableDeclarationStatement" fileName="TimeZoneOffsetExpression_Editor.java" startLine="33" startPosition="31" endLine="34" endPosition="111" />
-    <nodeInfo nodeId="5473692278136024293" conceptFqName="jetbrains.mps.baseLanguage.structure.ReturnStatement" fileName="TimeZoneOffsetExpression_Editor.java" startLine="34" startPosition="111" endLine="35" endPosition="73" />
-    <nodeInfo nodeId="5473692278135820235" conceptFqName="jetbrains.mps.baseLanguage.structure.LocalVariableDeclarationStatement" fileName="TimeZoneOffsetExpression_Editor.java" startLine="39" startPosition="13" endLine="40" endPosition="94" />
-    <nodeInfo nodeId="5473692278135820282" conceptFqName="jetbrains.mps.baseLanguage.structure.ExpressionStatement" fileName="TimeZoneOffsetExpression_Editor.java" startLine="41" startPosition="76" endLine="42" endPosition="101" />
-    <nodeInfo nodeId="5473692278135820312" conceptFqName="jetbrains.mps.baseLanguage.structure.LocalVariableDeclarationStatement" fileName="TimeZoneOffsetExpression_Editor.java" startLine="49" startPosition="13" endLine="50" endPosition="94" />
-    <nodeInfo nodeId="5473692278135820348" conceptFqName="jetbrains.mps.baseLanguage.structure.ReturnStatement" fileName="TimeZoneOffsetExpression_Editor.java" startLine="51" startPosition="76" endLine="52" endPosition="24" />
-    <nodeInfo nodeId="5473692278135820352" conceptFqName="jetbrains.mps.baseLanguage.structure.ReturnStatement" fileName="TimeZoneOffsetExpression_Editor.java" startLine="55" startPosition="9" endLine="56" endPosition="21" />
-    <nodeInfo nodeId="5473692278135820261" conceptFqName="jetbrains.mps.baseLanguage.structure.IfStatement" fileName="TimeZoneOffsetExpression_Editor.java" startLine="40" startPosition="94" endLine="43" endPosition="11" />
-    <nodeInfo nodeId="5473692278135820322" conceptFqName="jetbrains.mps.baseLanguage.structure.IfStatement" fileName="TimeZoneOffsetExpression_Editor.java" startLine="50" startPosition="94" endLine="53" endPosition="11" />
-    <nodeInfo nodeId="5473692278135820214" conceptFqName="jetbrains.mps.baseLanguage.structure.TryCatchStatement" fileName="TimeZoneOffsetExpression_Editor.java" startLine="38" startPosition="40" endLine="45" endPosition="9" />
-    <nodeInfo nodeId="5473692278135820310" conceptFqName="jetbrains.mps.baseLanguage.structure.TryCatchStatement" fileName="TimeZoneOffsetExpression_Editor.java" startLine="48" startPosition="47" endLine="55" endPosition="9" />
+    <nodeInfo nodeId="5473692278136129117" fileName="TimeZoneOffsetExpression_Editor.java" startLine="33" startPosition="31" endLine="34" endPosition="111" conceptFqName="jetbrains.mps.baseLanguage.structure.LocalVariableDeclarationStatement" />
+    <nodeInfo nodeId="5473692278136024293" fileName="TimeZoneOffsetExpression_Editor.java" startLine="34" startPosition="111" endLine="35" endPosition="73" conceptFqName="jetbrains.mps.baseLanguage.structure.ReturnStatement" />
+    <nodeInfo nodeId="5473692278135820235" fileName="TimeZoneOffsetExpression_Editor.java" startLine="39" startPosition="13" endLine="40" endPosition="94" conceptFqName="jetbrains.mps.baseLanguage.structure.LocalVariableDeclarationStatement" />
+    <nodeInfo nodeId="5473692278135820282" fileName="TimeZoneOffsetExpression_Editor.java" startLine="41" startPosition="76" endLine="42" endPosition="101" conceptFqName="jetbrains.mps.baseLanguage.structure.ExpressionStatement" />
+    <nodeInfo nodeId="5473692278135820312" fileName="TimeZoneOffsetExpression_Editor.java" startLine="49" startPosition="13" endLine="50" endPosition="94" conceptFqName="jetbrains.mps.baseLanguage.structure.LocalVariableDeclarationStatement" />
+    <nodeInfo nodeId="5473692278135820348" fileName="TimeZoneOffsetExpression_Editor.java" startLine="51" startPosition="76" endLine="52" endPosition="24" conceptFqName="jetbrains.mps.baseLanguage.structure.ReturnStatement" />
+    <nodeInfo nodeId="5473692278135820352" fileName="TimeZoneOffsetExpression_Editor.java" startLine="55" startPosition="9" endLine="56" endPosition="21" conceptFqName="jetbrains.mps.baseLanguage.structure.ReturnStatement" />
+    <nodeInfo nodeId="5473692278135820261" fileName="TimeZoneOffsetExpression_Editor.java" startLine="40" startPosition="94" endLine="43" endPosition="11" conceptFqName="jetbrains.mps.baseLanguage.structure.IfStatement" />
+    <nodeInfo nodeId="5473692278135820322" fileName="TimeZoneOffsetExpression_Editor.java" startLine="50" startPosition="94" endLine="53" endPosition="11" conceptFqName="jetbrains.mps.baseLanguage.structure.IfStatement" />
+    <nodeInfo nodeId="5473692278135820214" fileName="TimeZoneOffsetExpression_Editor.java" startLine="38" startPosition="40" endLine="45" endPosition="9" conceptFqName="jetbrains.mps.baseLanguage.structure.TryCatchStatement" />
+    <nodeInfo nodeId="5473692278135820310" fileName="TimeZoneOffsetExpression_Editor.java" startLine="48" startPosition="47" endLine="55" endPosition="9" conceptFqName="jetbrains.mps.baseLanguage.structure.TryCatchStatement" />
     <scopeInfo nodeId="5473692278135820216" fileName="TimeZoneOffsetExpression_Editor.java" startLine="44" startPosition="0" endLine="44" endPosition="44">
       <varInfo nodeId="5473692278135820217" varName="ignored" />
     </scopeInfo>
@@ -350,54 +350,54 @@
     <scopeInfo nodeId="5473692278135635849" fileName="TimeZoneOffsetExpression_Editor.java" startLine="48" startPosition="47" endLine="56" endPosition="21" />
   </root>
   <root nodeId="5581663871702358908">
-    <nodeInfo nodeId="5581663871702358925" conceptFqName="jetbrains.mps.baseLanguage.structure.ReturnStatement" fileName="PeriodSeparatorFormatToken_Editor.java" startLine="297" startPosition="111" endLine="298" endPosition="151" />
-    <nodeInfo nodeId="5581663871702930702" conceptFqName="jetbrains.mps.baseLanguage.structure.ReturnStatement" fileName="PeriodSeparatorFormatToken_Editor.java" startLine="301" startPosition="111" endLine="302" endPosition="76" />
-    <nodeInfo nodeId="5581663871703343462" conceptFqName="jetbrains.mps.baseLanguage.structure.ReturnStatement" fileName="PeriodSeparatorFormatToken_Editor.java" startLine="305" startPosition="109" endLine="306" endPosition="79" />
-    <nodeInfo nodeId="5581663871703724991" conceptFqName="jetbrains.mps.baseLanguage.structure.ReturnStatement" fileName="PeriodSeparatorFormatToken_Editor.java" startLine="309" startPosition="109" endLine="310" endPosition="80" />
+    <nodeInfo nodeId="5581663871702358925" fileName="PeriodSeparatorFormatToken_Editor.java" startLine="297" startPosition="111" endLine="298" endPosition="151" conceptFqName="jetbrains.mps.baseLanguage.structure.ReturnStatement" />
+    <nodeInfo nodeId="5581663871702930702" fileName="PeriodSeparatorFormatToken_Editor.java" startLine="301" startPosition="111" endLine="302" endPosition="76" conceptFqName="jetbrains.mps.baseLanguage.structure.ReturnStatement" />
+    <nodeInfo nodeId="5581663871703343462" fileName="PeriodSeparatorFormatToken_Editor.java" startLine="305" startPosition="109" endLine="306" endPosition="79" conceptFqName="jetbrains.mps.baseLanguage.structure.ReturnStatement" />
+    <nodeInfo nodeId="5581663871703724991" fileName="PeriodSeparatorFormatToken_Editor.java" startLine="309" startPosition="109" endLine="310" endPosition="80" conceptFqName="jetbrains.mps.baseLanguage.structure.ReturnStatement" />
     <scopeInfo nodeId="5581663871702358924" fileName="PeriodSeparatorFormatToken_Editor.java" startLine="297" startPosition="111" endLine="298" endPosition="151" />
     <scopeInfo nodeId="5581663871702930701" fileName="PeriodSeparatorFormatToken_Editor.java" startLine="301" startPosition="111" endLine="302" endPosition="76" />
     <scopeInfo nodeId="5581663871703343461" fileName="PeriodSeparatorFormatToken_Editor.java" startLine="305" startPosition="109" endLine="306" endPosition="79" />
     <scopeInfo nodeId="5581663871703724990" fileName="PeriodSeparatorFormatToken_Editor.java" startLine="309" startPosition="109" endLine="310" endPosition="80" />
   </root>
   <root nodeId="5600029375247572396">
-    <nodeInfo nodeId="5600029375247572400" conceptFqName="jetbrains.mps.baseLanguage.structure.ExpressionStatement" fileName="InTimeZoneExpression_delete.java" startLine="33" startPosition="75" endLine="34" endPosition="98" />
+    <nodeInfo nodeId="5600029375247572400" fileName="InTimeZoneExpression_delete.java" startLine="33" startPosition="75" endLine="34" endPosition="98" conceptFqName="jetbrains.mps.baseLanguage.structure.ExpressionStatement" />
     <scopeInfo nodeId="5600029375247572399" fileName="InTimeZoneExpression_delete.java" startLine="33" startPosition="75" endLine="34" endPosition="98" />
   </root>
   <root nodeId="5600029375248625372">
-    <nodeInfo nodeId="5600029375248627571" conceptFqName="jetbrains.mps.baseLanguage.structure.ExpressionStatement" fileName="WithPropertyCompareExpression_delete.java" startLine="33" startPosition="75" endLine="34" endPosition="99" />
+    <nodeInfo nodeId="5600029375248627571" fileName="WithPropertyCompareExpression_delete.java" startLine="33" startPosition="75" endLine="34" endPosition="99" conceptFqName="jetbrains.mps.baseLanguage.structure.ExpressionStatement" />
     <scopeInfo nodeId="5600029375248627570" fileName="WithPropertyCompareExpression_delete.java" startLine="33" startPosition="75" endLine="34" endPosition="99" />
   </root>
   <root nodeId="6240071430105681206">
-    <nodeInfo nodeId="2192048487563549503" conceptFqName="jetbrains.mps.baseLanguage.structure.LocalVariableDeclarationStatement" fileName="InlineFormatDateTimeExpression_delete.java" startLine="33" startPosition="75" endLine="34" endPosition="71" />
-    <nodeInfo nodeId="2192048487563549509" conceptFqName="jetbrains.mps.baseLanguage.structure.ExpressionStatement" fileName="InlineFormatDateTimeExpression_delete.java" startLine="34" startPosition="71" endLine="35" endPosition="55" />
-    <nodeInfo nodeId="2192048487563549514" conceptFqName="jetbrains.mps.baseLanguage.structure.ExpressionStatement" fileName="InlineFormatDateTimeExpression_delete.java" startLine="35" startPosition="55" endLine="36" endPosition="35" />
+    <nodeInfo nodeId="2192048487563549503" fileName="InlineFormatDateTimeExpression_delete.java" startLine="33" startPosition="75" endLine="34" endPosition="71" conceptFqName="jetbrains.mps.baseLanguage.structure.LocalVariableDeclarationStatement" />
+    <nodeInfo nodeId="2192048487563549509" fileName="InlineFormatDateTimeExpression_delete.java" startLine="34" startPosition="71" endLine="35" endPosition="55" conceptFqName="jetbrains.mps.baseLanguage.structure.ExpressionStatement" />
+    <nodeInfo nodeId="2192048487563549514" fileName="InlineFormatDateTimeExpression_delete.java" startLine="35" startPosition="55" endLine="36" endPosition="35" conceptFqName="jetbrains.mps.baseLanguage.structure.ExpressionStatement" />
     <scopeInfo nodeId="6240071430105682168" fileName="InlineFormatDateTimeExpression_delete.java" startLine="33" startPosition="75" endLine="36" endPosition="35">
       <varInfo nodeId="2192048487563549504" varName="result" />
     </scopeInfo>
   </root>
   <root nodeId="6240071430105858338">
-    <nodeInfo nodeId="6240071430105860534" conceptFqName="jetbrains.mps.baseLanguage.structure.ExpressionStatement" fileName="InlineFormatDateTimeExpression_deleteLocale.java" startLine="32" startPosition="75" endLine="33" endPosition="61" />
+    <nodeInfo nodeId="6240071430105860534" fileName="InlineFormatDateTimeExpression_deleteLocale.java" startLine="32" startPosition="75" endLine="33" endPosition="61" conceptFqName="jetbrains.mps.baseLanguage.structure.ExpressionStatement" />
     <scopeInfo nodeId="6240071430105860533" fileName="InlineFormatDateTimeExpression_deleteLocale.java" startLine="32" startPosition="75" endLine="33" endPosition="61" />
   </root>
   <root nodeId="6240071430106213339">
-    <nodeInfo nodeId="2192048487563547664" conceptFqName="jetbrains.mps.baseLanguage.structure.LocalVariableDeclarationStatement" fileName="FormatDateTimeExpression_delete.java" startLine="33" startPosition="75" endLine="34" endPosition="71" />
-    <nodeInfo nodeId="6240071430106214302" conceptFqName="jetbrains.mps.baseLanguage.structure.ExpressionStatement" fileName="FormatDateTimeExpression_delete.java" startLine="34" startPosition="71" endLine="35" endPosition="55" />
-    <nodeInfo nodeId="2192048487562972266" conceptFqName="jetbrains.mps.baseLanguage.structure.ExpressionStatement" fileName="FormatDateTimeExpression_delete.java" startLine="35" startPosition="55" endLine="36" endPosition="35" />
+    <nodeInfo nodeId="2192048487563547664" fileName="FormatDateTimeExpression_delete.java" startLine="33" startPosition="75" endLine="34" endPosition="71" conceptFqName="jetbrains.mps.baseLanguage.structure.LocalVariableDeclarationStatement" />
+    <nodeInfo nodeId="6240071430106214302" fileName="FormatDateTimeExpression_delete.java" startLine="34" startPosition="71" endLine="35" endPosition="55" conceptFqName="jetbrains.mps.baseLanguage.structure.ExpressionStatement" />
+    <nodeInfo nodeId="2192048487562972266" fileName="FormatDateTimeExpression_delete.java" startLine="35" startPosition="55" endLine="36" endPosition="35" conceptFqName="jetbrains.mps.baseLanguage.structure.ExpressionStatement" />
     <scopeInfo nodeId="6240071430106214301" fileName="FormatDateTimeExpression_delete.java" startLine="33" startPosition="75" endLine="36" endPosition="35">
       <varInfo nodeId="2192048487563547665" varName="result" />
     </scopeInfo>
   </root>
   <root nodeId="6240071430106390467">
-    <nodeInfo nodeId="6240071430106390471" conceptFqName="jetbrains.mps.baseLanguage.structure.ExpressionStatement" fileName="FormatDateTimeExpression_deleteLocale.java" startLine="32" startPosition="75" endLine="33" endPosition="61" />
+    <nodeInfo nodeId="6240071430106390471" fileName="FormatDateTimeExpression_deleteLocale.java" startLine="32" startPosition="75" endLine="33" endPosition="61" conceptFqName="jetbrains.mps.baseLanguage.structure.ExpressionStatement" />
     <scopeInfo nodeId="6240071430106390470" fileName="FormatDateTimeExpression_deleteLocale.java" startLine="32" startPosition="75" endLine="33" endPosition="61" />
   </root>
   <root nodeId="7249953535157223269">
-    <nodeInfo nodeId="5581663871703917191" conceptFqName="jetbrains.mps.baseLanguage.structure.ReturnStatement" fileName="PeriodPropertyFormatToken_Editor.java" startLine="559" startPosition="112" endLine="560" endPosition="87" />
-    <nodeInfo nodeId="5581663871703917205" conceptFqName="jetbrains.mps.baseLanguage.structure.ReturnStatement" fileName="PeriodPropertyFormatToken_Editor.java" startLine="563" startPosition="111" endLine="564" endPosition="81" />
-    <nodeInfo nodeId="1778677549314164986" conceptFqName="jetbrains.mps.baseLanguage.structure.ReturnStatement" fileName="PeriodPropertyFormatToken_Editor.java" startLine="567" startPosition="111" endLine="568" endPosition="83" />
-    <nodeInfo nodeId="5581663871703917280" conceptFqName="jetbrains.mps.baseLanguage.structure.ReturnStatement" fileName="PeriodPropertyFormatToken_Editor.java" startLine="571" startPosition="111" endLine="572" endPosition="65" />
-    <nodeInfo nodeId="5581663871703917324" conceptFqName="jetbrains.mps.baseLanguage.structure.ReturnStatement" fileName="PeriodPropertyFormatToken_Editor.java" startLine="575" startPosition="112" endLine="576" endPosition="87" />
-    <nodeInfo nodeId="5581663871703917304" conceptFqName="jetbrains.mps.baseLanguage.structure.ReturnStatement" fileName="PeriodPropertyFormatToken_Editor.java" startLine="579" startPosition="111" endLine="580" endPosition="81" />
+    <nodeInfo nodeId="5581663871703917191" fileName="PeriodPropertyFormatToken_Editor.java" startLine="559" startPosition="112" endLine="560" endPosition="87" conceptFqName="jetbrains.mps.baseLanguage.structure.ReturnStatement" />
+    <nodeInfo nodeId="5581663871703917205" fileName="PeriodPropertyFormatToken_Editor.java" startLine="563" startPosition="111" endLine="564" endPosition="81" conceptFqName="jetbrains.mps.baseLanguage.structure.ReturnStatement" />
+    <nodeInfo nodeId="1778677549314164986" fileName="PeriodPropertyFormatToken_Editor.java" startLine="567" startPosition="111" endLine="568" endPosition="83" conceptFqName="jetbrains.mps.baseLanguage.structure.ReturnStatement" />
+    <nodeInfo nodeId="5581663871703917280" fileName="PeriodPropertyFormatToken_Editor.java" startLine="571" startPosition="111" endLine="572" endPosition="65" conceptFqName="jetbrains.mps.baseLanguage.structure.ReturnStatement" />
+    <nodeInfo nodeId="5581663871703917324" fileName="PeriodPropertyFormatToken_Editor.java" startLine="575" startPosition="112" endLine="576" endPosition="87" conceptFqName="jetbrains.mps.baseLanguage.structure.ReturnStatement" />
+    <nodeInfo nodeId="5581663871703917304" fileName="PeriodPropertyFormatToken_Editor.java" startLine="579" startPosition="111" endLine="580" endPosition="81" conceptFqName="jetbrains.mps.baseLanguage.structure.ReturnStatement" />
     <scopeInfo nodeId="5581663871703912322" fileName="PeriodPropertyFormatToken_Editor.java" startLine="559" startPosition="112" endLine="560" endPosition="87" />
     <scopeInfo nodeId="5581663871703917204" fileName="PeriodPropertyFormatToken_Editor.java" startLine="563" startPosition="111" endLine="564" endPosition="81" />
     <scopeInfo nodeId="1778677549314164985" fileName="PeriodPropertyFormatToken_Editor.java" startLine="567" startPosition="111" endLine="568" endPosition="83" />
@@ -406,13 +406,13 @@
     <scopeInfo nodeId="5581663871703917303" fileName="PeriodPropertyFormatToken_Editor.java" startLine="579" startPosition="111" endLine="580" endPosition="81" />
   </root>
   <root nodeId="8875872347489702171">
-    <nodeInfo nodeId="8875872347489705687" conceptFqName="jetbrains.mps.baseLanguage.structure.ExpressionStatement" fileName="FormatPeriodExpression_deleteLocale.java" startLine="32" startPosition="75" endLine="33" endPosition="61" />
+    <nodeInfo nodeId="8875872347489705687" fileName="FormatPeriodExpression_deleteLocale.java" startLine="32" startPosition="75" endLine="33" endPosition="61" conceptFqName="jetbrains.mps.baseLanguage.structure.ExpressionStatement" />
     <scopeInfo nodeId="8875872347489702174" fileName="FormatPeriodExpression_deleteLocale.java" startLine="32" startPosition="75" endLine="33" endPosition="61" />
   </root>
   <root nodeId="8875872347489706928">
-    <nodeInfo nodeId="8875872347489706932" conceptFqName="jetbrains.mps.baseLanguage.structure.LocalVariableDeclarationStatement" fileName="FormatPeriodExpression_delete.java" startLine="33" startPosition="75" endLine="34" endPosition="69" />
-    <nodeInfo nodeId="8875872347489706944" conceptFqName="jetbrains.mps.baseLanguage.structure.ExpressionStatement" fileName="FormatPeriodExpression_delete.java" startLine="34" startPosition="69" endLine="35" endPosition="55" />
-    <nodeInfo nodeId="8875872347489706954" conceptFqName="jetbrains.mps.baseLanguage.structure.ExpressionStatement" fileName="FormatPeriodExpression_delete.java" startLine="35" startPosition="55" endLine="36" endPosition="35" />
+    <nodeInfo nodeId="8875872347489706932" fileName="FormatPeriodExpression_delete.java" startLine="33" startPosition="75" endLine="34" endPosition="69" conceptFqName="jetbrains.mps.baseLanguage.structure.LocalVariableDeclarationStatement" />
+    <nodeInfo nodeId="8875872347489706944" fileName="FormatPeriodExpression_delete.java" startLine="34" startPosition="69" endLine="35" endPosition="55" conceptFqName="jetbrains.mps.baseLanguage.structure.ExpressionStatement" />
+    <nodeInfo nodeId="8875872347489706954" fileName="FormatPeriodExpression_delete.java" startLine="35" startPosition="55" endLine="36" endPosition="35" conceptFqName="jetbrains.mps.baseLanguage.structure.ExpressionStatement" />
     <scopeInfo nodeId="8875872347489706931" fileName="FormatPeriodExpression_delete.java" startLine="33" startPosition="75" endLine="36" endPosition="35">
       <varInfo nodeId="8875872347489706933" varName="result" />
     </scopeInfo>

@@ -14,6 +14,6 @@
   <unitInfo fileName="SimpleAttribute.java" startLine="12" startPosition="0" endLine="45" endPosition="0" unitName="jetbrains.mps.xmlInternal.structure.SimpleAttribute" />
   <unitInfo fileName="Document.java" startLine="12" startPosition="0" endLine="45" endPosition="0" unitName="jetbrains.mps.xmlInternal.structure.Document" />
   <unitInfo fileName="Comment.java" startLine="14" startPosition="0" endLine="50" endPosition="0" unitName="jetbrains.mps.xmlInternal.structure.Comment" />
-  <unitInfo fileName="XmlFile.java" startLine="14" startPosition="0" endLine="101" endPosition="0" unitName="jetbrains.mps.xmlInternal.structure.XmlFile" />
+  <unitInfo fileName="XmlFile.java" startLine="17" startPosition="0" endLine="125" endPosition="0" unitName="jetbrains.mps.xmlInternal.structure.XmlFile" />
 </debugInfo>
 

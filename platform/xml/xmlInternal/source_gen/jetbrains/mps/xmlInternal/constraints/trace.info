@@ -3,7 +3,7 @@
   <unitInfo fileName="XmlFile_name_PropertyConstraint.java" startLine="12" startPosition="0" endLine="28" endPosition="0" unitName="jetbrains.mps.xmlInternal.constraints.XmlFile_name_PropertyConstraint" />
   <unitInfo fileName="ConstraintsDescriptor.java" startLine="11" startPosition="0" endLine="30" endPosition="0" unitName="jetbrains.mps.xmlInternal.constraints.ConstraintsDescriptor" />
   <root nodeId="1213104847207">
-    <nodeInfo nodeId="1213104847211" conceptFqName="jetbrains.mps.baseLanguage.structure.ReturnStatement" fileName="XmlFile_name_PropertyConstraint.java" startLine="24" startPosition="80" endLine="25" endPosition="116" />
+    <nodeInfo nodeId="1213104847211" fileName="XmlFile_name_PropertyConstraint.java" startLine="24" startPosition="80" endLine="25" endPosition="116" conceptFqName="jetbrains.mps.baseLanguage.structure.ReturnStatement" />
     <scopeInfo nodeId="1213104847210" fileName="XmlFile_name_PropertyConstraint.java" startLine="24" startPosition="80" endLine="25" endPosition="116" />
   </root>
 </debugInfo>

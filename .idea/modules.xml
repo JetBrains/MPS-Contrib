@@ -45,14 +45,16 @@
       <module fileurl="file://$PROJECT_DIR$/core/idea-patch/idea-patch.iml" filepath="$PROJECT_DIR$/core/idea-patch/idea-patch.iml" group="core/kernel" />
       <module fileurl="file://$PROJECT_DIR$/plugins/ideaIntegration/ideaIntegration.iml" filepath="$PROJECT_DIR$/plugins/ideaIntegration/ideaIntegration.iml" group="plugins" />
       <module fileurl="file://$PROJECT_DIR$/core/languageDesign/intentions/intentions.iml" filepath="$PROJECT_DIR$/core/languageDesign/intentions/intentions.iml" group="core/languageDesign" />
-      <module fileurl="file://$PROJECT_DIR$/workbench/javaParser/javaParser.iml" filepath="$PROJECT_DIR$/workbench/javaParser/javaParser.iml" group="workbench" />
       <module fileurl="file://$PROJECT_DIR$/core/baseLanguage/javadoc/javadoc.iml" filepath="$PROJECT_DIR$/core/baseLanguage/javadoc/javadoc.iml" group="core/baseLanguage" />
       <module fileurl="file://$PROJECT_DIR$/core/kernel/kernel.iml" filepath="$PROJECT_DIR$/core/kernel/kernel.iml" group="core/kernel" />
       <module fileurl="file://$PROJECT_DIR$/core/baseLanguage/logging/logging.iml" filepath="$PROJECT_DIR$/core/baseLanguage/logging/logging.iml" group="core/baseLanguage" />
       <module fileurl="file://$PROJECT_DIR$/core/languageDesign/make/make.iml" filepath="$PROJECT_DIR$/core/languageDesign/make/make.iml" group="core/languageDesign" />
       <module fileurl="file://$PROJECT_DIR$/core/make-runtime/make-runtime.iml" filepath="$PROJECT_DIR$/core/make-runtime/make-runtime.iml" group="core" />
       <module fileurl="file://$PROJECT_DIR$/testbench/modules/miscTests/miscTests.iml" filepath="$PROJECT_DIR$/testbench/modules/miscTests/miscTests.iml" />
+      <module fileurl="file://$PROJECT_DIR$/plugins/modelchecker/modelchecker.iml" filepath="$PROJECT_DIR$/plugins/modelchecker/modelchecker.iml" group="plugins" />
       <module fileurl="file://$PROJECT_DIR$/plugins/mpsdevkit/mpsdevkit.iml" filepath="$PROJECT_DIR$/plugins/mpsdevkit/mpsdevkit.iml" group="plugins" />
+      <module fileurl="file://$PROJECT_DIR$/plugins/mpsjava/mpsjava.iml" filepath="$PROJECT_DIR$/plugins/mpsjava/mpsjava.iml" group="plugins" />
+      <module fileurl="file://$PROJECT_DIR$/plugins/mpsmake/mpsmake.iml" filepath="$PROJECT_DIR$/plugins/mpsmake/mpsmake.iml" group="plugins" />
       <module fileurl="file://$PROJECT_DIR$/core/baseLanguage/overloadedOperators/overloadedOperators.iml" filepath="$PROJECT_DIR$/core/baseLanguage/overloadedOperators/overloadedOperators.iml" group="core/baseLanguage" />
       <module fileurl="file://$PROJECT_DIR$/platform/buildlanguage/languages/packaging/packaging.iml" filepath="$PROJECT_DIR$/platform/buildlanguage/languages/packaging/packaging.iml" group="platform/build" />
       <module fileurl="file://$PROJECT_DIR$/core/languageDesign/pattern/pattern.iml" filepath="$PROJECT_DIR$/core/languageDesign/pattern/pattern.iml" group="core/languageDesign" />

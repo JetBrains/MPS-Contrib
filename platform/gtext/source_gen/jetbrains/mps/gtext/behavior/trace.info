@@ -13,35 +13,35 @@
   <unitInfo fileName="GItem_Behavior.java" startLine="9" startPosition="0" endLine="27" endPosition="0" unitName="jetbrains.mps.gtext.behavior.GItem_Behavior" />
   <unitInfo fileName="GItemList_Behavior.java" startLine="11" startPosition="0" endLine="30" endPosition="0" unitName="jetbrains.mps.gtext.behavior.GItemList_Behavior" />
   <root nodeId="1213877183413">
-    <nodeInfo nodeId="1239127253994" conceptFqName="jetbrains.mps.baseLanguage.structure.ReturnStatement" fileName="GContentBlock_Behavior.java" startLine="13" startPosition="76" endLine="14" endPosition="62" />
+    <nodeInfo nodeId="1239127253994" fileName="GContentBlock_Behavior.java" startLine="13" startPosition="76" endLine="14" endPosition="62" conceptFqName="jetbrains.mps.baseLanguage.structure.ReturnStatement" />
     <scopeInfo nodeId="1213877183415" fileName="GContentBlock_Behavior.java" startLine="10" startPosition="43" endLine="10" endPosition="43" />
     <scopeInfo nodeId="1239126924999" fileName="GContentBlock_Behavior.java" startLine="13" startPosition="76" endLine="14" endPosition="62" />
   </root>
   <root nodeId="1213877245919">
-    <nodeInfo nodeId="1213877245922" conceptFqName="jetbrains.mps.baseLanguage.structure.LocalVariableDeclarationStatement" fileName="GItemList_Behavior.java" startLine="15" startPosition="73" endLine="16" endPosition="28" />
-    <nodeInfo nodeId="1213877245934" conceptFqName="jetbrains.mps.baseLanguage.structure.ExpressionStatement" fileName="GItemList_Behavior.java" startLine="18" startPosition="139" endLine="19" endPosition="23" />
-    <nodeInfo nodeId="1213877245938" conceptFqName="jetbrains.mps.baseLanguage.structure.BreakStatement" fileName="GItemList_Behavior.java" startLine="19" startPosition="23" endLine="20" endPosition="14" />
-    <nodeInfo nodeId="1213877245947" conceptFqName="jetbrains.mps.baseLanguage.structure.ReturnStatement" fileName="GItemList_Behavior.java" startLine="22" startPosition="5" endLine="23" endPosition="19" />
-    <nodeInfo nodeId="1239126812897" conceptFqName="jetbrains.mps.baseLanguage.structure.ReturnStatement" fileName="GItemList_Behavior.java" startLine="26" startPosition="76" endLine="27" endPosition="62" />
-    <nodeInfo nodeId="1213877245932" conceptFqName="jetbrains.mps.baseLanguage.structure.IfStatement" fileName="GItemList_Behavior.java" startLine="17" startPosition="98" endLine="21" endPosition="7" />
-    <nodeInfo nodeId="1213877245926" conceptFqName="jetbrains.mps.baseLanguage.structure.ForeachStatement" fileName="GItemList_Behavior.java" startLine="16" startPosition="28" endLine="22" endPosition="5" />
+    <nodeInfo nodeId="1213877245922" fileName="GItemList_Behavior.java" startLine="15" startPosition="73" endLine="16" endPosition="28" conceptFqName="jetbrains.mps.baseLanguage.structure.LocalVariableDeclarationStatement" />
+    <nodeInfo nodeId="1213877245934" fileName="GItemList_Behavior.java" startLine="18" startPosition="139" endLine="19" endPosition="23" conceptFqName="jetbrains.mps.baseLanguage.structure.ExpressionStatement" />
+    <nodeInfo nodeId="1213877245938" fileName="GItemList_Behavior.java" startLine="19" startPosition="23" endLine="20" endPosition="14" conceptFqName="jetbrains.mps.baseLanguage.structure.BreakStatement" />
+    <nodeInfo nodeId="1213877245947" fileName="GItemList_Behavior.java" startLine="22" startPosition="5" endLine="23" endPosition="19" conceptFqName="jetbrains.mps.baseLanguage.structure.ReturnStatement" />
+    <nodeInfo nodeId="1239126812897" fileName="GItemList_Behavior.java" startLine="26" startPosition="76" endLine="27" endPosition="62" conceptFqName="jetbrains.mps.baseLanguage.structure.ReturnStatement" />
+    <nodeInfo nodeId="1213877245932" fileName="GItemList_Behavior.java" startLine="17" startPosition="98" endLine="21" endPosition="7" conceptFqName="jetbrains.mps.baseLanguage.structure.IfStatement" />
+    <nodeInfo nodeId="1213877245926" fileName="GItemList_Behavior.java" startLine="16" startPosition="28" endLine="22" endPosition="5" conceptFqName="jetbrains.mps.baseLanguage.structure.ForeachStatement" />
     <scopeInfo nodeId="1213877245951" fileName="GItemList_Behavior.java" startLine="12" startPosition="43" endLine="12" endPosition="43" />
     <scopeInfo nodeId="1239126797825" fileName="GItemList_Behavior.java" startLine="26" startPosition="76" endLine="27" endPosition="62" />
     <scopeInfo nodeId="1213877245933" fileName="GItemList_Behavior.java" startLine="18" startPosition="139" endLine="20" endPosition="14" />
     <scopeInfo nodeId="1213877245931" fileName="GItemList_Behavior.java" startLine="17" startPosition="98" endLine="21" endPosition="7" />
-    <scopeInfo nodeId="1213877245926" conceptFqName="jetbrains.mps.baseLanguage.structure.ForeachStatement" fileName="GItemList_Behavior.java" startLine="16" startPosition="28" endLine="22" endPosition="5" />
+    <scopeInfo nodeId="1213877245926" fileName="GItemList_Behavior.java" startLine="16" startPosition="28" endLine="22" endPosition="5" />
     <scopeInfo nodeId="1213877245921" fileName="GItemList_Behavior.java" startLine="15" startPosition="73" endLine="23" endPosition="19">
       <varInfo nodeId="1213877245923" varName="complex" />
     </scopeInfo>
   </root>
   <root nodeId="1213877254059">
-    <nodeInfo nodeId="1213877254062" conceptFqName="jetbrains.mps.baseLanguage.structure.ReturnStatement" fileName="BuilderContextRef_Behavior.java" startLine="11" startPosition="99" endLine="12" endPosition="16" />
+    <nodeInfo nodeId="1213877254062" fileName="BuilderContextRef_Behavior.java" startLine="11" startPosition="99" endLine="12" endPosition="16" conceptFqName="jetbrains.mps.baseLanguage.structure.ReturnStatement" />
     <scopeInfo nodeId="1213877254068" fileName="BuilderContextRef_Behavior.java" startLine="8" startPosition="43" endLine="8" endPosition="43" />
     <scopeInfo nodeId="1213877254061" fileName="BuilderContextRef_Behavior.java" startLine="11" startPosition="99" endLine="12" endPosition="16" />
   </root>
   <root nodeId="1213877257058">
-    <nodeInfo nodeId="1213877257061" conceptFqName="jetbrains.mps.baseLanguage.structure.ReturnStatement" fileName="GLine_Behavior.java" startLine="13" startPosition="73" endLine="14" endPosition="16" />
-    <nodeInfo nodeId="1239126855823" conceptFqName="jetbrains.mps.baseLanguage.structure.ReturnStatement" fileName="GLine_Behavior.java" startLine="17" startPosition="76" endLine="18" endPosition="62" />
+    <nodeInfo nodeId="1213877257061" fileName="GLine_Behavior.java" startLine="13" startPosition="73" endLine="14" endPosition="16" conceptFqName="jetbrains.mps.baseLanguage.structure.ReturnStatement" />
+    <nodeInfo nodeId="1239126855823" fileName="GLine_Behavior.java" startLine="17" startPosition="76" endLine="18" endPosition="62" conceptFqName="jetbrains.mps.baseLanguage.structure.ReturnStatement" />
     <scopeInfo nodeId="1213877257065" fileName="GLine_Behavior.java" startLine="10" startPosition="43" endLine="10" endPosition="43" />
     <scopeInfo nodeId="1213877257060" fileName="GLine_Behavior.java" startLine="13" startPosition="73" endLine="14" endPosition="16" />
     <scopeInfo nodeId="1239126841760" fileName="GLine_Behavior.java" startLine="17" startPosition="76" endLine="18" endPosition="62" />
@@ -50,12 +50,12 @@
     <scopeInfo nodeId="1213877296940" fileName="GDocument_Behavior.java" startLine="8" startPosition="43" endLine="8" endPosition="43" />
   </root>
   <root nodeId="1213877298852">
-    <nodeInfo nodeId="1213877298856" conceptFqName="jetbrains.mps.baseLanguage.structure.ReturnStatement" fileName="GItem_Behavior.java" startLine="15" startPosition="73" endLine="16" endPosition="17" />
+    <nodeInfo nodeId="1213877298856" fileName="GItem_Behavior.java" startLine="15" startPosition="73" endLine="16" endPosition="17" conceptFqName="jetbrains.mps.baseLanguage.structure.ReturnStatement" />
     <scopeInfo nodeId="1213877298859" fileName="GItem_Behavior.java" startLine="12" startPosition="43" endLine="12" endPosition="43" />
     <scopeInfo nodeId="1213877298855" fileName="GItem_Behavior.java" startLine="15" startPosition="73" endLine="16" endPosition="17" />
   </root>
   <root nodeId="1213877310934">
-    <nodeInfo nodeId="1213877310938" conceptFqName="jetbrains.mps.baseLanguage.structure.ReturnStatement" fileName="GTextConcept_Behavior.java" startLine="12" startPosition="76" endLine="13" endPosition="131" />
+    <nodeInfo nodeId="1213877310938" fileName="GTextConcept_Behavior.java" startLine="12" startPosition="76" endLine="13" endPosition="131" conceptFqName="jetbrains.mps.baseLanguage.structure.ReturnStatement" />
     <scopeInfo nodeId="1213877310947" fileName="GTextConcept_Behavior.java" startLine="9" startPosition="43" endLine="9" endPosition="43" />
     <scopeInfo nodeId="1213877310937" fileName="GTextConcept_Behavior.java" startLine="12" startPosition="76" endLine="13" endPosition="131" />
   </root>
@@ -69,12 +69,12 @@
     <scopeInfo nodeId="1239125081255" fileName="GCompositeItem_Behavior.java" startLine="13" startPosition="43" endLine="13" endPosition="43" />
   </root>
   <root nodeId="1239127127721">
-    <nodeInfo nodeId="1239127152388" conceptFqName="jetbrains.mps.baseLanguage.structure.ReturnStatement" fileName="GSeparatorItemList_Behavior.java" startLine="13" startPosition="76" endLine="14" endPosition="62" />
+    <nodeInfo nodeId="1239127152388" fileName="GSeparatorItemList_Behavior.java" startLine="13" startPosition="76" endLine="14" endPosition="62" conceptFqName="jetbrains.mps.baseLanguage.structure.ReturnStatement" />
     <scopeInfo nodeId="1239127127723" fileName="GSeparatorItemList_Behavior.java" startLine="10" startPosition="43" endLine="10" endPosition="43" />
     <scopeInfo nodeId="1239127129693" fileName="GSeparatorItemList_Behavior.java" startLine="13" startPosition="76" endLine="14" endPosition="62" />
   </root>
   <root nodeId="1239127267034">
-    <nodeInfo nodeId="1239127816966" conceptFqName="jetbrains.mps.baseLanguage.structure.ReturnStatement" fileName="GConditionalLine_Behavior.java" startLine="13" startPosition="76" endLine="14" endPosition="62" />
+    <nodeInfo nodeId="1239127816966" fileName="GConditionalLine_Behavior.java" startLine="13" startPosition="76" endLine="14" endPosition="62" conceptFqName="jetbrains.mps.baseLanguage.structure.ReturnStatement" />
     <scopeInfo nodeId="1239127267036" fileName="GConditionalLine_Behavior.java" startLine="10" startPosition="43" endLine="10" endPosition="43" />
     <scopeInfo nodeId="1239127268682" fileName="GConditionalLine_Behavior.java" startLine="13" startPosition="76" endLine="14" endPosition="62" />
   </root>
