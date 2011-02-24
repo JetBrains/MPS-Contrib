@@ -6,12 +6,12 @@
   <language namespace="f61473f9-130f-42f6-b98d-6c438812c2f6(jetbrains.mps.baseLanguage.unitTest)" />
   <language namespace="fd392034-7849-419d-9071-12563d152375(jetbrains.mps.baseLanguage.closures)" />
   <import index="tp6y" modelUID="r:00000000-0000-4000-0000-011c895903d6(jetbrains.mps.baseLanguage.dates.accessories)" version="-1" />
-  <import index="mwyq" modelUID="f:java_stub#java.lang(java.lang@java_stub)" version="-1" />
-  <import index="x3rr" modelUID="f:java_stub#org.joda.time(org.joda.time@java_stub)" version="-1" />
-  <import index="jyg" modelUID="f:java_stub#org.joda.time.base(org.joda.time.base@java_stub)" version="-1" />
-  <import index="nfom" modelUID="f:java_stub#junit.framework(junit.framework@java_stub)" version="-1" />
-  <import index="t1ti" modelUID="f:java_stub#java.util(java.util@java_stub)" version="-1" />
-  <import index="b24" modelUID="f:java_stub#org.apache.log4j(org.apache.log4j@java_stub)" version="-1" />
+  <import index="ojzd" modelUID="f:java_stub#2ebbb458-8ebb-481e-a5d7-9e27903323d4#org.joda.time(jetbrains.mps.baseLanguage.dates.runtime/org.joda.time@java_stub)" version="-1" />
+  <import index="a2d2" modelUID="f:java_stub#2ebbb458-8ebb-481e-a5d7-9e27903323d4#org.joda.time.base(jetbrains.mps.baseLanguage.dates.runtime/org.joda.time.base@java_stub)" version="-1" />
+  <import index="e2lb" modelUID="f:java_stub#6354ebe7-c22a-4a0f-ac54-50b52ab9b065#java.lang(JDK/java.lang@java_stub)" version="-1" />
+  <import index="k7g3" modelUID="f:java_stub#6354ebe7-c22a-4a0f-ac54-50b52ab9b065#java.util(JDK/java.util@java_stub)" version="-1" />
+  <import index="kq5b" modelUID="f:java_stub#37a3367b-1fb2-44d8-aa6b-18075e74e003#org.apache.log4j(MPS.Classpath/org.apache.log4j@java_stub)" version="-1" />
+  <import index="pqw3" modelUID="f:java_stub#37a3367b-1fb2-44d8-aa6b-18075e74e003#junit.framework(MPS.Classpath/junit.framework@java_stub)" version="-1" />
   <import index="tpee" modelUID="r:00000000-0000-4000-0000-011c895902ca(jetbrains.mps.baseLanguage.structure)" version="3" implicit="yes" />
   <import index="tp6x" modelUID="r:00000000-0000-4000-0000-011c895903d5(jetbrains.mps.baseLanguage.dates.structure)" version="1" implicit="yes" />
   <import index="tpck" modelUID="r:00000000-0000-4000-0000-011c89590288(jetbrains.mps.lang.core.structure)" version="0" implicit="yes" />
@@ -370,11 +370,11 @@
             <node role="localVariableDeclaration" roleId="tpee.1068581242865" type="tpee.LocalVariableDeclaration" typeId="tpee.1068581242863" id="1209041659230">
               <property name="name" nameId="tpck.1169194664001" value="dt" />
               <node role="type" roleId="tpee.5680397130376446158" type="tpee.ClassifierType" typeId="tpee.1107535904670" id="1209041659231">
-                <link role="classifier" roleId="tpee.1107535924139" targetNodeId="x3rr.~DateTime" resolveInfo="DateTime" />
+                <link role="classifier" roleId="tpee.1107535924139" targetNodeId="ojzd.~DateTime" resolveInfo="DateTime" />
               </node>
               <node role="initializer" roleId="tpee.1068431790190" type="tpee.GenericNewExpression" typeId="tpee.1145552977093" id="1217888412620">
                 <node role="creator" roleId="tpee.1145553007750" type="tpee.ClassCreator" typeId="tpee.1212685548494" id="1217888412622">
-                  <link role="baseMethodDeclaration" roleId="tpee.1068499141037" targetNodeId="x3rr.~DateTime%d&lt;init&gt;()" resolveInfo="DateTime" />
+                  <link role="baseMethodDeclaration" roleId="tpee.1068499141037" targetNodeId="ojzd.~DateTime%d&lt;init&gt;()" resolveInfo="DateTime" />
                 </node>
               </node>
             </node>
@@ -385,7 +385,7 @@
                 <link role="variableDeclaration" roleId="tpee.1068581517664" targetNodeId="1209041659230" resolveInfo="dt" />
               </node>
               <node role="operation" roleId="tpee.1197027833540" type="tpee.InstanceMethodCallOperation" typeId="tpee.1202948039474" id="1208986614347">
-                <link role="baseMethodDeclaration" roleId="tpee.1068499141037" targetNodeId="jyg.~AbstractDateTime%dtoString(java%dlang%dString)%cjava%dlang%dString" resolveInfo="toString" />
+                <link role="baseMethodDeclaration" roleId="tpee.1068499141037" targetNodeId="a2d2.~AbstractDateTime%dtoString(java%dlang%dString)%cjava%dlang%dString" resolveInfo="toString" />
                 <node role="actualArgument" roleId="tpee.1068499141038" type="tpee.StringLiteral" typeId="tpee.1070475926800" id="1171979215863">
                   <property name="value" nameId="tpee.1070475926801" value="HH:mm:ss" />
                 </node>
@@ -419,11 +419,11 @@
                       <node role="operation" roleId="tpee.1197027833540" type="tp6x.ConvertToJodaDateTimeOperation" typeId="tp6x.1209036336317" id="1209039458380" />
                     </node>
                     <node role="operation" roleId="tpee.1197027833540" type="tpee.InstanceMethodCallOperation" typeId="tpee.1202948039474" id="1209039454439">
-                      <link role="baseMethodDeclaration" roleId="tpee.1068499141037" targetNodeId="x3rr.~DateTime%dtoLocalDate()%corg%djoda%dtime%dLocalDate" resolveInfo="toLocalDate" />
+                      <link role="baseMethodDeclaration" roleId="tpee.1068499141037" targetNodeId="ojzd.~DateTime%dtoLocalDate()%corg%djoda%dtime%dLocalDate" resolveInfo="toLocalDate" />
                     </node>
                   </node>
                   <node role="operation" roleId="tpee.1197027833540" type="tpee.InstanceMethodCallOperation" typeId="tpee.1202948039474" id="1209039454440">
-                    <link role="baseMethodDeclaration" roleId="tpee.1068499141037" targetNodeId="x3rr.~LocalDate%dtoDateTimeAtMidnight()%corg%djoda%dtime%dDateTime" resolveInfo="toDateTimeAtMidnight" />
+                    <link role="baseMethodDeclaration" roleId="tpee.1068499141037" targetNodeId="ojzd.~LocalDate%dtoDateTimeAtMidnight()%corg%djoda%dtime%dDateTime" resolveInfo="toDateTimeAtMidnight" />
                   </node>
                 </node>
                 <node role="operation" roleId="tpee.1197027833540" type="tp6x.ConvertToDateTimeOperation" typeId="tp6x.1209035204722" id="1209039454441" />
@@ -439,7 +439,7 @@
                 <node role="operation" roleId="tpee.1197027833540" type="tp6x.ConvertToJodaDateTimeOperation" typeId="tp6x.1209036336317" id="1227032414837" />
               </node>
               <node role="operation" roleId="tpee.1197027833540" type="tpee.InstanceMethodCallOperation" typeId="tpee.1202948039474" id="1208986614330">
-                <link role="baseMethodDeclaration" roleId="tpee.1068499141037" targetNodeId="jyg.~AbstractDateTime%dtoString(java%dlang%dString)%cjava%dlang%dString" resolveInfo="toString" />
+                <link role="baseMethodDeclaration" roleId="tpee.1068499141037" targetNodeId="a2d2.~AbstractDateTime%dtoString(java%dlang%dString)%cjava%dlang%dString" resolveInfo="toString" />
                 <node role="actualArgument" roleId="tpee.1068499141038" type="tpee.StringLiteral" typeId="tpee.1070475926800" id="1171979476482">
                   <property name="value" nameId="tpee.1070475926801" value="yyyy-MM-dd" />
                 </node>
@@ -468,7 +468,7 @@
                 <node role="dateExpression" roleId="tp6x.1169557612323" type="tp6x.NowExpression" typeId="tp6x.1169630122569" id="1171979579465" />
               </node>
               <node role="operation" roleId="tpee.1197027833540" type="tpee.InstanceMethodCallOperation" typeId="tpee.1202948039474" id="1208986614383">
-                <link role="baseMethodDeclaration" roleId="tpee.1068499141037" targetNodeId="mwyq.~String%dlength()%cint" resolveInfo="length" />
+                <link role="baseMethodDeclaration" roleId="tpee.1068499141037" targetNodeId="e2lb.~String%dlength()%cint" resolveInfo="length" />
               </node>
             </node>
           </node>
@@ -505,7 +505,7 @@
                 </node>
               </node>
               <node role="operation" roleId="tpee.1197027833540" type="tpee.InstanceMethodCallOperation" typeId="tpee.1202948039474" id="1208986614263">
-                <link role="baseMethodDeclaration" roleId="tpee.1068499141037" targetNodeId="mwyq.~String%dlength()%cint" resolveInfo="length" />
+                <link role="baseMethodDeclaration" roleId="tpee.1068499141037" targetNodeId="e2lb.~String%dlength()%cint" resolveInfo="length" />
               </node>
             </node>
           </node>
@@ -519,7 +519,7 @@
                 <node role="dateExpression" roleId="tp6x.1169557612323" type="tp6x.NowExpression" typeId="tp6x.1169630122569" id="1171979631940" />
               </node>
               <node role="operation" roleId="tpee.1197027833540" type="tpee.InstanceMethodCallOperation" typeId="tpee.1202948039474" id="1208986614246">
-                <link role="baseMethodDeclaration" roleId="tpee.1068499141037" targetNodeId="mwyq.~String%dlength()%cint" resolveInfo="length" />
+                <link role="baseMethodDeclaration" roleId="tpee.1068499141037" targetNodeId="e2lb.~String%dlength()%cint" resolveInfo="length" />
               </node>
             </node>
           </node>
@@ -538,7 +538,7 @@
               <node role="dateExpression" roleId="tp6x.1169557612323" type="tpee.CastExpression" typeId="tpee.1070534934090" id="1238420672484">
                 <node role="expression" roleId="tpee.1070534934092" type="tpee.NullLiteral" typeId="tpee.1070534058343" id="1238420672485" />
                 <node role="type" roleId="tpee.1070534934091" type="tpee.ClassifierType" typeId="tpee.1107535904670" id="1238420683971">
-                  <link role="classifier" roleId="tpee.1107535924139" targetNodeId="mwyq.~Long" resolveInfo="Long" />
+                  <link role="classifier" roleId="tpee.1107535924139" targetNodeId="e2lb.~Long" resolveInfo="Long" />
                 </node>
               </node>
             </node>
@@ -1022,8 +1022,8 @@
                 <node role="operation" roleId="tpee.1197027833540" type="tp6x.ConvertToDateTimeOperation" typeId="tp6x.1209035204722" id="7905990018466422170" />
               </node>
               <node role="zone" roleId="tp6x.1239015930559" type="tpee.StaticFieldReference" typeId="tpee.1070533707846" id="7905990018466689441">
-                <link role="classifier" roleId="tpee.1144433057691" targetNodeId="x3rr.~DateTimeZone" resolveInfo="DateTimeZone" />
-                <link role="variableDeclaration" roleId="tpee.1068581517664" targetNodeId="x3rr.~DateTimeZone%dUTC" resolveInfo="UTC" />
+                <link role="classifier" roleId="tpee.1144433057691" targetNodeId="ojzd.~DateTimeZone" resolveInfo="DateTimeZone" />
+                <link role="variableDeclaration" roleId="tpee.1068581517664" targetNodeId="ojzd.~DateTimeZone%dUTC" resolveInfo="UTC" />
               </node>
             </node>
           </node>
@@ -1143,11 +1143,11 @@
             <node role="localVariableDeclaration" roleId="tpee.1068581242865" type="tpee.LocalVariableDeclaration" typeId="tpee.1068581242863" id="1171974263050">
               <property name="name" nameId="tpck.1169194664001" value="date" />
               <node role="type" roleId="tpee.5680397130376446158" type="tpee.ClassifierType" typeId="tpee.1107535904670" id="1171974263051">
-                <link role="classifier" roleId="tpee.1107535924139" targetNodeId="t1ti.~Date" resolveInfo="Date" />
+                <link role="classifier" roleId="tpee.1107535924139" targetNodeId="k7g3.~Date" resolveInfo="Date" />
               </node>
               <node role="initializer" roleId="tpee.1068431790190" type="tpee.GenericNewExpression" typeId="tpee.1145552977093" id="1217888336973">
                 <node role="creator" roleId="tpee.1145553007750" type="tpee.ClassCreator" typeId="tpee.1212685548494" id="1217888336975">
-                  <link role="baseMethodDeclaration" roleId="tpee.1068499141037" targetNodeId="t1ti.~Date%d&lt;init&gt;()" resolveInfo="Date" />
+                  <link role="baseMethodDeclaration" roleId="tpee.1068499141037" targetNodeId="k7g3.~Date%d&lt;init&gt;()" resolveInfo="Date" />
                 </node>
               </node>
             </node>
@@ -1185,11 +1185,11 @@
             <node role="localVariableDeclaration" roleId="tpee.1068581242865" type="tpee.LocalVariableDeclaration" typeId="tpee.1068581242863" id="1172066485509">
               <property name="name" nameId="tpck.1169194664001" value="calendar" />
               <node role="type" roleId="tpee.5680397130376446158" type="tpee.ClassifierType" typeId="tpee.1107535904670" id="1172066485510">
-                <link role="classifier" roleId="tpee.1107535924139" targetNodeId="t1ti.~Calendar" resolveInfo="Calendar" />
+                <link role="classifier" roleId="tpee.1107535924139" targetNodeId="k7g3.~Calendar" resolveInfo="Calendar" />
               </node>
               <node role="initializer" roleId="tpee.1068431790190" type="tpee.StaticMethodCall" typeId="tpee.1081236700937" id="1172066495763">
-                <link role="baseMethodDeclaration" roleId="tpee.1068499141037" targetNodeId="t1ti.~Calendar%dgetInstance()%cjava%dutil%dCalendar" resolveInfo="getInstance" />
-                <link role="classConcept" roleId="tpee.1144433194310" targetNodeId="t1ti.~Calendar" resolveInfo="Calendar" />
+                <link role="baseMethodDeclaration" roleId="tpee.1068499141037" targetNodeId="k7g3.~Calendar%dgetInstance()%cjava%dutil%dCalendar" resolveInfo="getInstance" />
+                <link role="classConcept" roleId="tpee.1144433194310" targetNodeId="k7g3.~Calendar" resolveInfo="Calendar" />
               </node>
             </node>
           </node>
@@ -1226,11 +1226,11 @@
             <node role="localVariableDeclaration" roleId="tpee.1068581242865" type="tpee.LocalVariableDeclaration" typeId="tpee.1068581242863" id="1172066532471">
               <property name="name" nameId="tpck.1169194664001" value="datetime" />
               <node role="type" roleId="tpee.5680397130376446158" type="tpee.ClassifierType" typeId="tpee.1107535904670" id="1172066567859">
-                <link role="classifier" roleId="tpee.1107535924139" targetNodeId="x3rr.~DateTime" resolveInfo="DateTime" />
+                <link role="classifier" roleId="tpee.1107535924139" targetNodeId="ojzd.~DateTime" resolveInfo="DateTime" />
               </node>
               <node role="initializer" roleId="tpee.1068431790190" type="tpee.GenericNewExpression" typeId="tpee.1145552977093" id="1217888373373">
                 <node role="creator" roleId="tpee.1145553007750" type="tpee.ClassCreator" typeId="tpee.1212685548494" id="1217888373375">
-                  <link role="baseMethodDeclaration" roleId="tpee.1068499141037" targetNodeId="x3rr.~DateTime%d&lt;init&gt;()" resolveInfo="DateTime" />
+                  <link role="baseMethodDeclaration" roleId="tpee.1068499141037" targetNodeId="ojzd.~DateTime%d&lt;init&gt;()" resolveInfo="DateTime" />
                 </node>
               </node>
             </node>
@@ -2206,7 +2206,7 @@
             <node role="localVariableDeclaration" roleId="tpee.1068581242865" type="tpee.LocalVariableDeclaration" typeId="tpee.1068581242863" id="1172330495199">
               <property name="name" nameId="tpck.1169194664001" value="expected" />
               <node role="type" roleId="tpee.5680397130376446158" type="tpee.ClassifierType" typeId="tpee.1107535904670" id="1172330495200">
-                <link role="classifier" roleId="tpee.1107535924139" targetNodeId="mwyq.~Integer" resolveInfo="Integer" />
+                <link role="classifier" roleId="tpee.1107535924139" targetNodeId="e2lb.~Integer" resolveInfo="Integer" />
               </node>
               <node role="initializer" roleId="tpee.1068431790190" type="tpee.IntegerConstant" typeId="tpee.1068580320020" id="1172330505563">
                 <property name="value" nameId="tpee.1068580320021" value="0" />
@@ -3421,8 +3421,8 @@
           <node role="ifTrue" roleId="tpee.1068580123161" type="tpee.StatementList" typeId="tpee.1068580123136" id="9074471975326013025">
             <node role="statement" roleId="tpee.1068581517665" type="tpee.ExpressionStatement" typeId="tpee.1068580123155" id="5450502488469480747">
               <node role="expression" roleId="tpee.1068580123156" type="tpee.StaticMethodCall" typeId="tpee.1081236700937" id="5450502488469480749">
-                <link role="baseMethodDeclaration" roleId="tpee.1068499141037" targetNodeId="b24.~BasicConfigurator%dconfigure()%cvoid" resolveInfo="configure" />
-                <link role="classConcept" roleId="tpee.1144433194310" targetNodeId="b24.~BasicConfigurator" resolveInfo="BasicConfigurator" />
+                <link role="baseMethodDeclaration" roleId="tpee.1068499141037" targetNodeId="kq5b.~BasicConfigurator%dconfigure()%cvoid" resolveInfo="configure" />
+                <link role="classConcept" roleId="tpee.1144433194310" targetNodeId="kq5b.~BasicConfigurator" resolveInfo="BasicConfigurator" />
               </node>
             </node>
             <node role="statement" roleId="tpee.1068581517665" type="tpee.ExpressionStatement" typeId="tpee.1068580123155" id="9074471975326013032">
@@ -3445,7 +3445,7 @@
       </node>
     </node>
     <node role="superclass" roleId="tpee.1165602531693" type="tpee.ClassifierType" typeId="tpee.1107535904670" id="1173787603061">
-      <link role="classifier" roleId="tpee.1107535924139" targetNodeId="nfom.~TestCase" resolveInfo="TestCase" />
+      <link role="classifier" roleId="tpee.1107535924139" targetNodeId="pqw3.~TestCase" resolveInfo="TestCase" />
     </node>
     <node role="visibility" roleId="tpee.1178549979242" type="tpee.PublicVisibility" typeId="tpee.1146644602865" id="1209031757292" />
     <node role="constructor" roleId="tpee.1068390468201" type="tpee.ConstructorDeclaration" typeId="tpee.1068580123140" id="4352197520301895370">
@@ -3883,8 +3883,8 @@
                         <link role="dateTimePropertyFormatType" roleId="tp6x.1173959975857" targetNodeId="tp6y.1174043562059" />
                       </node>
                       <node role="zone" roleId="tp6x.1239016087043" type="tpee.StaticMethodCall" typeId="tpee.1081236700937" id="8175839345680986402">
-                        <link role="baseMethodDeclaration" roleId="tpee.1068499141037" targetNodeId="x3rr.~DateTimeZone%dforID(java%dlang%dString)%corg%djoda%dtime%dDateTimeZone" resolveInfo="forID" />
-                        <link role="classConcept" roleId="tpee.1144433194310" targetNodeId="x3rr.~DateTimeZone" resolveInfo="DateTimeZone" />
+                        <link role="baseMethodDeclaration" roleId="tpee.1068499141037" targetNodeId="ojzd.~DateTimeZone%dforID(java%dlang%dString)%corg%djoda%dtime%dDateTimeZone" resolveInfo="forID" />
+                        <link role="classConcept" roleId="tpee.1144433194310" targetNodeId="ojzd.~DateTimeZone" resolveInfo="DateTimeZone" />
                         <node role="actualArgument" roleId="tpee.1068499141038" type="tpee.StringLiteral" typeId="tpee.1070475926800" id="8175839345680986403">
                           <property name="value" nameId="tpee.1070475926801" value="Europe/Moscow" />
                         </node>
@@ -4070,7 +4070,7 @@
                 </node>
               </node>
               <node role="operation" roleId="tpee.1197027833540" type="tpee.InstanceMethodCallOperation" typeId="tpee.1202948039474" id="1238681906474">
-                <link role="baseMethodDeclaration" roleId="tpee.1068499141037" targetNodeId="mwyq.~String%dequals(java%dlang%dObject)%cboolean" resolveInfo="equals" />
+                <link role="baseMethodDeclaration" roleId="tpee.1068499141037" targetNodeId="e2lb.~String%dequals(java%dlang%dObject)%cboolean" resolveInfo="equals" />
                 <node role="actualArgument" roleId="tpee.1068499141038" type="tp6x.FormatExpression" typeId="tp6x.1169557513226" id="1238681916600">
                   <link role="locale" roleId="tp6x.1238661857677" targetNodeId="tp6y.1172681496091" resolveInfo="RU" />
                   <link role="zone" roleId="tp6x.1239015930559" targetNodeId="tp6y.1238675442422" resolveInfo="MOSCOW" />
@@ -4199,7 +4199,7 @@
                 </node>
               </node>
               <node role="operation" roleId="tpee.1197027833540" type="tpee.InstanceMethodCallOperation" typeId="tpee.1202948039474" id="1238684187653">
-                <link role="baseMethodDeclaration" roleId="tpee.1068499141037" targetNodeId="mwyq.~String%dequals(java%dlang%dObject)%cboolean" resolveInfo="equals" />
+                <link role="baseMethodDeclaration" roleId="tpee.1068499141037" targetNodeId="e2lb.~String%dequals(java%dlang%dObject)%cboolean" resolveInfo="equals" />
                 <node role="actualArgument" roleId="tpee.1068499141038" type="tp6x.FormatExpression" typeId="tp6x.1169557513226" id="1238684191436">
                   <link role="zone" roleId="tp6x.1239015930559" targetNodeId="tp6y.1238676634201" resolveInfo="BANGKOK" />
                   <link role="dateFormat" roleId="tp6x.1169557643590" targetNodeId="tp6y.1173884354722" resolveInfo="fullDate" />
@@ -4770,7 +4770,7 @@
                     <link role="variableDeclaration" roleId="tpee.1068581517664" targetNodeId="5293902215865635471" resolveInfo="id" />
                   </node>
                   <node role="operation" roleId="tpee.1197027833540" type="tpee.InstanceMethodCallOperation" typeId="tpee.1202948039474" id="5293902215865861413">
-                    <link role="baseMethodDeclaration" roleId="tpee.1068499141037" targetNodeId="mwyq.~String%dstartsWith(java%dlang%dString)%cboolean" resolveInfo="startsWith" />
+                    <link role="baseMethodDeclaration" roleId="tpee.1068499141037" targetNodeId="e2lb.~String%dstartsWith(java%dlang%dString)%cboolean" resolveInfo="startsWith" />
                     <node role="actualArgument" roleId="tpee.1068499141038" type="tpee.StringLiteral" typeId="tpee.1070475926800" id="5293902215865861414">
                       <property name="value" nameId="tpee.1070475926801" value="Europe/P" />
                     </node>
@@ -4793,7 +4793,7 @@
             <node role="condition" roleId="tpe3.1171981057159" type="tpee.DotExpression" typeId="tpee.1197027756228" id="5293902215866541074">
               <node role="operand" roleId="tpee.1197027771414" type="tp6x.AllTimeZonesConstant" typeId="tp6x.5293902215865424196" id="5293902215866541073" />
               <node role="operation" roleId="tpee.1197027833540" type="tpee.InstanceMethodCallOperation" typeId="tpee.1202948039474" id="5293902215866541078">
-                <link role="baseMethodDeclaration" roleId="tpee.1068499141037" targetNodeId="t1ti.~Set%dcontains(java%dlang%dObject)%cboolean" resolveInfo="contains" />
+                <link role="baseMethodDeclaration" roleId="tpee.1068499141037" targetNodeId="k7g3.~Set%dcontains(java%dlang%dObject)%cboolean" resolveInfo="contains" />
                 <node role="actualArgument" roleId="tpee.1068499141038" type="tpee.StringLiteral" typeId="tpee.1070475926800" id="5293902215866541079">
                   <property name="value" nameId="tpee.1070475926801" value="Europe/Moscow" />
                 </node>
@@ -4876,11 +4876,11 @@
             <node role="localVariableDeclaration" roleId="tpee.1068581242865" type="tpee.LocalVariableDeclaration" typeId="tpee.1068581242863" id="2583319411283568350">
               <property name="name" nameId="tpck.1169194664001" value="dt" />
               <node role="type" roleId="tpee.5680397130376446158" type="tpee.ClassifierType" typeId="tpee.1107535904670" id="2583319411283568351">
-                <link role="classifier" roleId="tpee.1107535924139" targetNodeId="x3rr.~DateTime" resolveInfo="DateTime" />
+                <link role="classifier" roleId="tpee.1107535924139" targetNodeId="ojzd.~DateTime" resolveInfo="DateTime" />
               </node>
               <node role="initializer" roleId="tpee.1068431790190" type="tpee.GenericNewExpression" typeId="tpee.1145552977093" id="2583319411283568352">
                 <node role="creator" roleId="tpee.1145553007750" type="tpee.ClassCreator" typeId="tpee.1212685548494" id="2583319411283568353">
-                  <link role="baseMethodDeclaration" roleId="tpee.1068499141037" targetNodeId="x3rr.~DateTime%d&lt;init&gt;()" resolveInfo="DateTime" />
+                  <link role="baseMethodDeclaration" roleId="tpee.1068499141037" targetNodeId="ojzd.~DateTime%d&lt;init&gt;()" resolveInfo="DateTime" />
                 </node>
               </node>
             </node>
@@ -4964,11 +4964,11 @@
                       <node role="operation" roleId="tpee.1197027833540" type="tp6x.ConvertToJodaDateTimeOperation" typeId="tp6x.1209036336317" id="2583319411283568374" />
                     </node>
                     <node role="operation" roleId="tpee.1197027833540" type="tpee.InstanceMethodCallOperation" typeId="tpee.1202948039474" id="2583319411283568375">
-                      <link role="baseMethodDeclaration" roleId="tpee.1068499141037" targetNodeId="x3rr.~DateTime%dtoLocalDate()%corg%djoda%dtime%dLocalDate" resolveInfo="toLocalDate" />
+                      <link role="baseMethodDeclaration" roleId="tpee.1068499141037" targetNodeId="ojzd.~DateTime%dtoLocalDate()%corg%djoda%dtime%dLocalDate" resolveInfo="toLocalDate" />
                     </node>
                   </node>
                   <node role="operation" roleId="tpee.1197027833540" type="tpee.InstanceMethodCallOperation" typeId="tpee.1202948039474" id="2583319411283568376">
-                    <link role="baseMethodDeclaration" roleId="tpee.1068499141037" targetNodeId="x3rr.~LocalDate%dtoDateTimeAtMidnight()%corg%djoda%dtime%dDateTime" resolveInfo="toDateTimeAtMidnight" />
+                    <link role="baseMethodDeclaration" roleId="tpee.1068499141037" targetNodeId="ojzd.~LocalDate%dtoDateTimeAtMidnight()%corg%djoda%dtime%dDateTime" resolveInfo="toDateTimeAtMidnight" />
                   </node>
                 </node>
                 <node role="operation" roleId="tpee.1197027833540" type="tp6x.ConvertToDateTimeOperation" typeId="tp6x.1209035204722" id="2583319411283568377" />
@@ -5112,7 +5112,7 @@
               <node role="throwable" roleId="tpee.1164903359217" type="tpee.LocalVariableDeclaration" typeId="tpee.1068581242863" id="5088260876035740505">
                 <property name="name" nameId="tpck.1169194664001" value="iae" />
                 <node role="type" roleId="tpee.5680397130376446158" type="tpee.ClassifierType" typeId="tpee.1107535904670" id="5088260876035740520">
-                  <link role="classifier" roleId="tpee.1107535924139" targetNodeId="mwyq.~IllegalArgumentException" resolveInfo="IllegalArgumentException" />
+                  <link role="classifier" roleId="tpee.1107535924139" targetNodeId="e2lb.~IllegalArgumentException" resolveInfo="IllegalArgumentException" />
                 </node>
               </node>
               <node role="catchBody" roleId="tpee.1164903359218" type="tpee.StatementList" typeId="tpee.1068580123136" id="5088260876035740507">
@@ -5202,8 +5202,8 @@
                 <property name="value" nameId="tpee.1070475926801" value="Thursday, January 15, 1970" />
               </node>
               <node role="zone" roleId="tp6x.2583319411283206775" type="tpee.StaticFieldReference" typeId="tpee.1070533707846" id="9074471975325987100">
-                <link role="classifier" roleId="tpee.1144433057691" targetNodeId="x3rr.~DateTimeZone" resolveInfo="DateTimeZone" />
-                <link role="variableDeclaration" roleId="tpee.1068581517664" targetNodeId="x3rr.~DateTimeZone%dUTC" resolveInfo="UTC" />
+                <link role="classifier" roleId="tpee.1144433057691" targetNodeId="ojzd.~DateTimeZone" resolveInfo="DateTimeZone" />
+                <link role="variableDeclaration" roleId="tpee.1068581517664" targetNodeId="ojzd.~DateTimeZone%dUTC" resolveInfo="UTC" />
               </node>
             </node>
             <node role="actual" roleId="tpe3.8427750732757990725" type="tpee.DotExpression" typeId="tpee.1197027756228" id="9074471975325896061">
@@ -5239,8 +5239,8 @@
                 <property name="value" nameId="tpee.1070475926801" value="1/11/70" />
               </node>
               <node role="zone" roleId="tp6x.2583319411283206775" type="tpee.StaticFieldReference" typeId="tpee.1070533707846" id="9074471975326045557">
-                <link role="classifier" roleId="tpee.1144433057691" targetNodeId="x3rr.~DateTimeZone" resolveInfo="DateTimeZone" />
-                <link role="variableDeclaration" roleId="tpee.1068581517664" targetNodeId="x3rr.~DateTimeZone%dUTC" resolveInfo="UTC" />
+                <link role="classifier" roleId="tpee.1144433057691" targetNodeId="ojzd.~DateTimeZone" resolveInfo="DateTimeZone" />
+                <link role="variableDeclaration" roleId="tpee.1068581517664" targetNodeId="ojzd.~DateTimeZone%dUTC" resolveInfo="UTC" />
               </node>
             </node>
             <node role="actual" roleId="tpe3.8427750732757990725" type="tpee.DotExpression" typeId="tpee.1197027756228" id="9074471975326041100">
@@ -5283,8 +5283,8 @@
                 <property name="value" nameId="tpee.1070475926801" value="3:33 AM" />
               </node>
               <node role="zone" roleId="tp6x.2583319411283206775" type="tpee.StaticFieldReference" typeId="tpee.1070533707846" id="7905990018466708147">
-                <link role="classifier" roleId="tpee.1144433057691" targetNodeId="x3rr.~DateTimeZone" resolveInfo="DateTimeZone" />
-                <link role="variableDeclaration" roleId="tpee.1068581517664" targetNodeId="x3rr.~DateTimeZone%dUTC" resolveInfo="UTC" />
+                <link role="classifier" roleId="tpee.1144433057691" targetNodeId="ojzd.~DateTimeZone" resolveInfo="DateTimeZone" />
+                <link role="variableDeclaration" roleId="tpee.1068581517664" targetNodeId="ojzd.~DateTimeZone%dUTC" resolveInfo="UTC" />
               </node>
             </node>
             <node role="actual" roleId="tpe3.8427750732757990725" type="tpee.DotExpression" typeId="tpee.1197027756228" id="7905990018466703622">
@@ -5371,8 +5371,8 @@
           </node>
           <node role="statement" roleId="tpee.1068581517665" type="tpe3.AssertEquals" typeId="tpe3.1171978097730" id="7517433918793204399">
             <node role="expected" roleId="tpe3.8427750732757990724" type="tpee.StaticMethodCall" typeId="tpee.1081236700937" id="7517433918793205146">
-              <link role="baseMethodDeclaration" roleId="tpee.1068499141037" targetNodeId="x3rr.~DateTimeZone%dforID(java%dlang%dString)%corg%djoda%dtime%dDateTimeZone" resolveInfo="forID" />
-              <link role="classConcept" roleId="tpee.1144433194310" targetNodeId="x3rr.~DateTimeZone" resolveInfo="DateTimeZone" />
+              <link role="baseMethodDeclaration" roleId="tpee.1068499141037" targetNodeId="ojzd.~DateTimeZone%dforID(java%dlang%dString)%corg%djoda%dtime%dDateTimeZone" resolveInfo="forID" />
+              <link role="classConcept" roleId="tpee.1144433194310" targetNodeId="ojzd.~DateTimeZone" resolveInfo="DateTimeZone" />
               <node role="actualArgument" roleId="tpee.1068499141038" type="tpee.StringLiteral" typeId="tpee.1070475926800" id="7517433918793205147">
                 <property name="value" nameId="tpee.1070475926801" value="Europe/Moscow" />
               </node>
@@ -5405,8 +5405,8 @@
               <link role="variableDeclaration" roleId="tpee.1068581517664" targetNodeId="1140983047399056927" resolveInfo="msk" />
             </node>
             <node role="expected" roleId="tpe3.8427750732757990724" type="tpee.StaticMethodCall" typeId="tpee.1081236700937" id="8625920436392742731">
-              <link role="baseMethodDeclaration" roleId="tpee.1068499141037" targetNodeId="x3rr.~DateTimeZone%dforOffsetMillis(int)%corg%djoda%dtime%dDateTimeZone" resolveInfo="forOffsetMillis" />
-              <link role="classConcept" roleId="tpee.1144433194310" targetNodeId="x3rr.~DateTimeZone" resolveInfo="DateTimeZone" />
+              <link role="baseMethodDeclaration" roleId="tpee.1068499141037" targetNodeId="ojzd.~DateTimeZone%dforOffsetMillis(int)%corg%djoda%dtime%dDateTimeZone" resolveInfo="forOffsetMillis" />
+              <link role="classConcept" roleId="tpee.1144433194310" targetNodeId="ojzd.~DateTimeZone" resolveInfo="DateTimeZone" />
               <node role="actualArgument" roleId="tpee.1068499141038" type="tpee.IntegerConstant" typeId="tpee.1068580320020" id="8625920436392742733">
                 <property name="value" nameId="tpee.1068580320021" value="10800000" />
               </node>

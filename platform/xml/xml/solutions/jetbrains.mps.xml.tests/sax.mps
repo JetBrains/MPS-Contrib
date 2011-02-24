@@ -4,14 +4,14 @@
   <language namespace="f61473f9-130f-42f6-b98d-6c438812c2f6(jetbrains.mps.baseLanguage.unitTest)" />
   <language namespace="a8fdde77-2e6c-41f6-ac79-8e9b6449c271(jetbrains.mps.xmlQuery)" />
   <language namespace="f3061a53-9226-4cc5-a443-f952ceaf5816(jetbrains.mps.baseLanguage)" />
-  <import index="slrh" modelUID="f:java_stub#javax.xml.parsers(javax.xml.parsers@java_stub)" version="-1" />
-  <import index="od69" modelUID="f:java_stub#org.xml.sax(org.xml.sax@java_stub)" version="-1" />
-  <import index="n1y2" modelUID="f:java_stub#java.io(java.io@java_stub)" version="-1" />
-  <import index="hle" modelUID="f:java_stub#sax(sax@java_stub)" version="-1" />
+  <import index="e2lb" modelUID="f:java_stub#6354ebe7-c22a-4a0f-ac54-50b52ab9b065#java.lang(JDK/java.lang@java_stub)" version="-1" />
+  <import index="9yi" modelUID="f:java_stub#6354ebe7-c22a-4a0f-ac54-50b52ab9b065#javax.xml.parsers(JDK/javax.xml.parsers@java_stub)" version="-1" />
+  <import index="exzn" modelUID="f:java_stub#2f499867-d42a-4e31-a93d-33e16883e187#sax(jetbrains.mps.xml.tests/sax@java_stub)" version="-1" />
+  <import index="fmpa" modelUID="f:java_stub#6354ebe7-c22a-4a0f-ac54-50b52ab9b065#org.xml.sax(JDK/org.xml.sax@java_stub)" version="-1" />
+  <import index="fxg7" modelUID="f:java_stub#6354ebe7-c22a-4a0f-ac54-50b52ab9b065#java.io(JDK/java.io@java_stub)" version="-1" />
   <import index="tpee" modelUID="r:00000000-0000-4000-0000-011c895902ca(jetbrains.mps.baseLanguage.structure)" version="3" implicit="yes" />
   <import index="tpck" modelUID="r:00000000-0000-4000-0000-011c89590288(jetbrains.mps.lang.core.structure)" version="0" implicit="yes" />
   <import index="mlj4" modelUID="r:bd6e2c7d-3a5d-4eed-9ff9-27f23ecb34e2(jetbrains.mps.xmlQuery.structure)" version="4" implicit="yes" />
-  <import index="mwyq" modelUID="f:java_stub#java.lang(java.lang@java_stub)" version="-1" implicit="yes" />
   <import index="ppyt" modelUID="r:453eba07-be06-4d79-be27-e839de91fcf2(sax)" version="-1" implicit="yes" />
   <import index="tpe3" modelUID="r:00000000-0000-4000-0000-011c895902d7(jetbrains.mps.baseLanguage.unitTest.structure)" version="-1" implicit="yes" />
   <roots>
@@ -81,7 +81,7 @@
                   <node role="actualArgument" roleId="tpee.1068499141038" type="tpee.DotExpression" typeId="tpee.1197027756228" id="2059681291147419766">
                     <node role="operand" roleId="tpee.1197027771414" type="mlj4.XMLSAXTextHandler_value" typeId="mlj4.4635390255048098132" id="2059681291147419765" />
                     <node role="operation" roleId="tpee.1197027833540" type="tpee.InstanceMethodCallOperation" typeId="tpee.1202948039474" id="2059681291147419770">
-                      <link role="baseMethodDeclaration" roleId="tpee.1068499141037" targetNodeId="mwyq.~String%dtrim()%cjava%dlang%dString" resolveInfo="trim" />
+                      <link role="baseMethodDeclaration" roleId="tpee.1068499141037" targetNodeId="e2lb.~String%dtrim()%cjava%dlang%dString" resolveInfo="trim" />
                     </node>
                   </node>
                 </node>
@@ -295,15 +295,15 @@
               <node role="localVariableDeclaration" roleId="tpee.1068581242865" type="tpee.LocalVariableDeclaration" typeId="tpee.1068581242863" id="2059681291147440601">
                 <property name="name" nameId="tpck.1169194664001" value="saxParser" />
                 <node role="type" roleId="tpee.5680397130376446158" type="tpee.ClassifierType" typeId="tpee.1107535904670" id="2059681291147440602">
-                  <link role="classifier" roleId="tpee.1107535924139" targetNodeId="slrh.~SAXParser" resolveInfo="SAXParser" />
+                  <link role="classifier" roleId="tpee.1107535924139" targetNodeId="9yi.~SAXParser" resolveInfo="SAXParser" />
                 </node>
                 <node role="initializer" roleId="tpee.1068431790190" type="tpee.DotExpression" typeId="tpee.1197027756228" id="2059681291147440603">
                   <node role="operand" roleId="tpee.1197027771414" type="tpee.StaticMethodCall" typeId="tpee.1081236700937" id="2059681291147440604">
-                    <link role="baseMethodDeclaration" roleId="tpee.1068499141037" targetNodeId="slrh.~SAXParserFactory%dnewInstance()%cjavax%dxml%dparsers%dSAXParserFactory" resolveInfo="newInstance" />
-                    <link role="classConcept" roleId="tpee.1144433194310" targetNodeId="slrh.~SAXParserFactory" resolveInfo="SAXParserFactory" />
+                    <link role="baseMethodDeclaration" roleId="tpee.1068499141037" targetNodeId="9yi.~SAXParserFactory%dnewInstance()%cjavax%dxml%dparsers%dSAXParserFactory" resolveInfo="newInstance" />
+                    <link role="classConcept" roleId="tpee.1144433194310" targetNodeId="9yi.~SAXParserFactory" resolveInfo="SAXParserFactory" />
                   </node>
                   <node role="operation" roleId="tpee.1197027833540" type="tpee.InstanceMethodCallOperation" typeId="tpee.1202948039474" id="2059681291147440605">
-                    <link role="baseMethodDeclaration" roleId="tpee.1068499141037" targetNodeId="slrh.~SAXParserFactory%dnewSAXParser()%cjavax%dxml%dparsers%dSAXParser" resolveInfo="newSAXParser" />
+                    <link role="baseMethodDeclaration" roleId="tpee.1068499141037" targetNodeId="9yi.~SAXParserFactory%dnewSAXParser()%cjavax%dxml%dparsers%dSAXParser" resolveInfo="newSAXParser" />
                   </node>
                 </node>
               </node>
@@ -312,11 +312,11 @@
               <node role="localVariableDeclaration" roleId="tpee.1068581242865" type="tpee.LocalVariableDeclaration" typeId="tpee.1068581242863" id="2059681291147443381">
                 <property name="name" nameId="tpck.1169194664001" value="handler" />
                 <node role="type" roleId="tpee.5680397130376446158" type="tpee.ClassifierType" typeId="tpee.1107535904670" id="2059681291147443382">
-                  <link role="classifier" roleId="tpee.1107535924139" targetNodeId="hle.~TestParserHandler" resolveInfo="TestParserHandler" />
+                  <link role="classifier" roleId="tpee.1107535924139" targetNodeId="exzn.~TestParserHandler" resolveInfo="TestParserHandler" />
                 </node>
                 <node role="initializer" roleId="tpee.1068431790190" type="tpee.GenericNewExpression" typeId="tpee.1145552977093" id="2059681291147443383">
                   <node role="creator" roleId="tpee.1145553007750" type="tpee.ClassCreator" typeId="tpee.1212685548494" id="2059681291147443384">
-                    <link role="baseMethodDeclaration" roleId="tpee.1068499141037" targetNodeId="hle.~TestParserHandler%d&lt;init&gt;()" resolveInfo="TestParserHandler" />
+                    <link role="baseMethodDeclaration" roleId="tpee.1068499141037" targetNodeId="exzn.~TestParserHandler%d&lt;init&gt;()" resolveInfo="TestParserHandler" />
                   </node>
                 </node>
               </node>
@@ -327,19 +327,19 @@
                   <link role="variableDeclaration" roleId="tpee.1068581517664" targetNodeId="2059681291147440601" resolveInfo="saxParser" />
                 </node>
                 <node role="operation" roleId="tpee.1197027833540" type="tpee.InstanceMethodCallOperation" typeId="tpee.1202948039474" id="2059681291147440609">
-                  <link role="baseMethodDeclaration" roleId="tpee.1068499141037" targetNodeId="slrh.~SAXParser%dparse(org%dxml%dsax%dInputSource,org%dxml%dsax%dhelpers%dDefaultHandler)%cvoid" resolveInfo="parse" />
+                  <link role="baseMethodDeclaration" roleId="tpee.1068499141037" targetNodeId="9yi.~SAXParser%dparse(org%dxml%dsax%dInputSource,org%dxml%dsax%dhelpers%dDefaultHandler)%cvoid" resolveInfo="parse" />
                   <node role="actualArgument" roleId="tpee.1068499141038" type="tpee.GenericNewExpression" typeId="tpee.1145552977093" id="2059681291147450812">
                     <node role="creator" roleId="tpee.1145553007750" type="tpee.ClassCreator" typeId="tpee.1212685548494" id="2059681291147450814">
-                      <link role="baseMethodDeclaration" roleId="tpee.1068499141037" targetNodeId="od69.~InputSource%d&lt;init&gt;(java%dio%dReader)" resolveInfo="InputSource" />
+                      <link role="baseMethodDeclaration" roleId="tpee.1068499141037" targetNodeId="fmpa.~InputSource%d&lt;init&gt;(java%dio%dReader)" resolveInfo="InputSource" />
                       <node role="actualArgument" roleId="tpee.1068499141038" type="tpee.GenericNewExpression" typeId="tpee.1145552977093" id="2059681291147450815">
                         <node role="creator" roleId="tpee.1145553007750" type="tpee.ClassCreator" typeId="tpee.1212685548494" id="2059681291147450816">
-                          <link role="baseMethodDeclaration" roleId="tpee.1068499141037" targetNodeId="n1y2.~CharArrayReader%d&lt;init&gt;(char[])" resolveInfo="CharArrayReader" />
+                          <link role="baseMethodDeclaration" roleId="tpee.1068499141037" targetNodeId="fxg7.~CharArrayReader%d&lt;init&gt;(char[])" resolveInfo="CharArrayReader" />
                           <node role="actualArgument" roleId="tpee.1068499141038" type="tpee.DotExpression" typeId="tpee.1197027756228" id="2059681291147450817">
                             <node role="operand" roleId="tpee.1197027771414" type="tpee.ParameterReference" typeId="tpee.1068581242874" id="2059681291147450818">
                               <link role="variableDeclaration" roleId="tpee.1068581517664" targetNodeId="2059681291147436050" resolveInfo="text" />
                             </node>
                             <node role="operation" roleId="tpee.1197027833540" type="tpee.InstanceMethodCallOperation" typeId="tpee.1202948039474" id="2059681291147450819">
-                              <link role="baseMethodDeclaration" roleId="tpee.1068499141037" targetNodeId="mwyq.~String%dtoCharArray()%cchar[]" resolveInfo="toCharArray" />
+                              <link role="baseMethodDeclaration" roleId="tpee.1068499141037" targetNodeId="e2lb.~String%dtoCharArray()%cchar[]" resolveInfo="toCharArray" />
                             </node>
                           </node>
                         </node>
@@ -362,7 +362,7 @@
                     <link role="variableDeclaration" roleId="tpee.1068581517664" targetNodeId="2059681291147443381" resolveInfo="handler" />
                   </node>
                   <node role="operation" roleId="tpee.1197027833540" type="tpee.InstanceMethodCallOperation" typeId="tpee.1202948039474" id="2059681291147443391">
-                    <link role="baseMethodDeclaration" roleId="tpee.1068499141037" targetNodeId="hle.~TestParserHandler%dgetResult()%csax%dAstRoot" resolveInfo="getResult" />
+                    <link role="baseMethodDeclaration" roleId="tpee.1068499141037" targetNodeId="exzn.~TestParserHandler%dgetResult()%csax%dAstRoot" resolveInfo="getResult" />
                   </node>
                 </node>
               </node>
@@ -372,7 +372,7 @@
             <node role="throwable" roleId="tpee.1164903359217" type="tpee.LocalVariableDeclaration" typeId="tpee.1068581242863" id="2059681291147440595">
               <property name="name" nameId="tpck.1169194664001" value="ex" />
               <node role="type" roleId="tpee.5680397130376446158" type="tpee.ClassifierType" typeId="tpee.1107535904670" id="2059681291147440598">
-                <link role="classifier" roleId="tpee.1107535924139" targetNodeId="n1y2.~IOException" resolveInfo="IOException" />
+                <link role="classifier" roleId="tpee.1107535924139" targetNodeId="fxg7.~IOException" resolveInfo="IOException" />
               </node>
             </node>
             <node role="catchBody" roleId="tpee.1164903359218" type="tpee.StatementList" typeId="tpee.1068580123136" id="2059681291147440597">
@@ -387,7 +387,7 @@
                         <link role="variableDeclaration" roleId="tpee.1068581517664" targetNodeId="2059681291147440595" resolveInfo="ex" />
                       </node>
                       <node role="operation" roleId="tpee.1197027833540" type="tpee.InstanceMethodCallOperation" typeId="tpee.1202948039474" id="2059681291147440626">
-                        <link role="baseMethodDeclaration" roleId="tpee.1068499141037" targetNodeId="mwyq.~Throwable%dgetMessage()%cjava%dlang%dString" resolveInfo="getMessage" />
+                        <link role="baseMethodDeclaration" roleId="tpee.1068499141037" targetNodeId="e2lb.~Throwable%dgetMessage()%cjava%dlang%dString" resolveInfo="getMessage" />
                       </node>
                     </node>
                   </node>
@@ -402,7 +402,7 @@
             <node role="throwable" roleId="tpee.1164903359217" type="tpee.LocalVariableDeclaration" typeId="tpee.1068581242863" id="2059681291147440632">
               <property name="name" nameId="tpck.1169194664001" value="ex" />
               <node role="type" roleId="tpee.5680397130376446158" type="tpee.ClassifierType" typeId="tpee.1107535904670" id="2059681291147440635">
-                <link role="classifier" roleId="tpee.1107535924139" targetNodeId="slrh.~ParserConfigurationException" resolveInfo="ParserConfigurationException" />
+                <link role="classifier" roleId="tpee.1107535924139" targetNodeId="9yi.~ParserConfigurationException" resolveInfo="ParserConfigurationException" />
               </node>
             </node>
             <node role="catchBody" roleId="tpee.1164903359218" type="tpee.StatementList" typeId="tpee.1068580123136" id="2059681291147440634">
@@ -417,7 +417,7 @@
                         <link role="variableDeclaration" roleId="tpee.1068581517664" targetNodeId="2059681291147440632" resolveInfo="ex" />
                       </node>
                       <node role="operation" roleId="tpee.1197027833540" type="tpee.InstanceMethodCallOperation" typeId="tpee.1202948039474" id="2059681291147440642">
-                        <link role="baseMethodDeclaration" roleId="tpee.1068499141037" targetNodeId="mwyq.~Throwable%dgetMessage()%cjava%dlang%dString" resolveInfo="getMessage" />
+                        <link role="baseMethodDeclaration" roleId="tpee.1068499141037" targetNodeId="e2lb.~Throwable%dgetMessage()%cjava%dlang%dString" resolveInfo="getMessage" />
                       </node>
                     </node>
                   </node>
@@ -435,7 +435,7 @@
         <node role="type" roleId="tpee.5680397130376446158" type="tpee.StringType" typeId="tpee.1225271177708" id="2059681291147436051" />
       </node>
       <node role="throwsItem" roleId="tpee.1164879685961" type="tpee.ClassifierType" typeId="tpee.1107535904670" id="2059681291147440581">
-        <link role="classifier" roleId="tpee.1107535924139" targetNodeId="od69.~SAXException" resolveInfo="SAXException" />
+        <link role="classifier" roleId="tpee.1107535924139" targetNodeId="fmpa.~SAXException" resolveInfo="SAXException" />
       </node>
     </node>
     <node role="visibility" roleId="tpee.1178549979242" type="tpee.PublicVisibility" typeId="tpee.1146644602865" id="2059681291147434339" />
@@ -478,7 +478,7 @@
               <node role="throwable" roleId="tpee.1164903359217" type="tpee.LocalVariableDeclaration" typeId="tpee.1068581242863" id="2059681291147444055">
                 <property name="name" nameId="tpck.1169194664001" value="ex" />
                 <node role="type" roleId="tpee.5680397130376446158" type="tpee.ClassifierType" typeId="tpee.1107535904670" id="2059681291147444063">
-                  <link role="classifier" roleId="tpee.1107535924139" targetNodeId="od69.~SAXException" resolveInfo="SAXException" />
+                  <link role="classifier" roleId="tpee.1107535924139" targetNodeId="fmpa.~SAXException" resolveInfo="SAXException" />
                 </node>
               </node>
               <node role="catchBody" roleId="tpee.1164903359218" type="tpee.StatementList" typeId="tpee.1068580123136" id="2059681291147444057">
@@ -491,7 +491,7 @@
                       <link role="variableDeclaration" roleId="tpee.1068581517664" targetNodeId="2059681291147444055" resolveInfo="ex" />
                     </node>
                     <node role="operation" roleId="tpee.1197027833540" type="tpee.InstanceMethodCallOperation" typeId="tpee.1202948039474" id="2059681291147451478">
-                      <link role="baseMethodDeclaration" roleId="tpee.1068499141037" targetNodeId="od69.~SAXException%dgetMessage()%cjava%dlang%dString" resolveInfo="getMessage" />
+                      <link role="baseMethodDeclaration" roleId="tpee.1068499141037" targetNodeId="fmpa.~SAXException%dgetMessage()%cjava%dlang%dString" resolveInfo="getMessage" />
                     </node>
                   </node>
                 </node>

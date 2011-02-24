@@ -3,10 +3,10 @@
   <persistence version="7" />
   <language namespace="f3061a53-9226-4cc5-a443-f952ceaf5816(jetbrains.mps.baseLanguage)" />
   <language namespace="83888646-71ce-4f1c-9c53-c54016f6ad4f(jetbrains.mps.baseLanguage.collections)" />
-  <import index="gfj4" modelUID="f:java_stub#java.awt.geom(java.awt.geom@java_stub)" version="-1" />
   <import index="8rsx" modelUID="r:5498b4d6-623f-4d7c-a07f-396c96e14007(jetbrains.mps.graphLayout.intGeom2D)" version="-1" />
+  <import index="ar19" modelUID="f:java_stub#6354ebe7-c22a-4a0f-ac54-50b52ab9b065#java.awt.geom(JDK/java.awt.geom@java_stub)" version="-1" />
+  <import index="e2lb" modelUID="f:java_stub#6354ebe7-c22a-4a0f-ac54-50b52ab9b065#java.lang(JDK/java.lang@java_stub)" version="-1" />
   <import index="tpck" modelUID="r:00000000-0000-4000-0000-011c89590288(jetbrains.mps.lang.core.structure)" version="0" implicit="yes" />
-  <import index="mwyq" modelUID="f:java_stub#java.lang(java.lang@java_stub)" version="-1" implicit="yes" />
   <import index="tpee" modelUID="r:00000000-0000-4000-0000-011c895902ca(jetbrains.mps.baseLanguage.structure)" version="3" implicit="yes" />
   <import index="79ac" modelUID="r:d538b070-e076-4f76-8498-456a2fd4cda8(jetbrains.mps.graphLayout.outputUtil)" version="-1" implicit="yes" />
   <import index="tp2q" modelUID="r:00000000-0000-4000-0000-011c8959032e(jetbrains.mps.baseLanguage.collections.structure)" version="7" implicit="yes" />
@@ -19,7 +19,7 @@
     <node role="staticMethod" roleId="tpee.1070462273904" type="tpee.StaticMethodDeclaration" typeId="tpee.1081236700938" id="8653275637018833067">
       <property name="name" nameId="tpck.1169194664001" value="getPointPosAlongRectBorder" />
       <node role="returnType" roleId="tpee.1068580123133" type="tpee.ClassifierType" typeId="tpee.1107535904670" id="8653275637018837861">
-        <link role="classifier" roleId="tpee.1107535924139" targetNodeId="gfj4.~Point2D" resolveInfo="Point2D" />
+        <link role="classifier" roleId="tpee.1107535924139" targetNodeId="ar19.~Point2D" resolveInfo="Point2D" />
       </node>
       <node role="visibility" roleId="tpee.1178549979242" type="tpee.PublicVisibility" typeId="tpee.1146644602865" id="8653275637018833069" />
       <node role="body" roleId="tpee.1068580123135" type="tpee.StatementList" typeId="tpee.1068580123136" id="8653275637018833070">
@@ -194,7 +194,7 @@
             <node role="statement" roleId="tpee.1068581517665" type="tpee.ThrowStatement" typeId="tpee.1164991038168" id="8653275637018837939">
               <node role="throwable" roleId="tpee.1164991057263" type="tpee.GenericNewExpression" typeId="tpee.1145552977093" id="8653275637018837940">
                 <node role="creator" roleId="tpee.1145553007750" type="tpee.ClassCreator" typeId="tpee.1212685548494" id="8653275637018837941">
-                  <link role="baseMethodDeclaration" roleId="tpee.1068499141037" targetNodeId="mwyq.~RuntimeException%d&lt;init&gt;(java%dlang%dString)" resolveInfo="RuntimeException" />
+                  <link role="baseMethodDeclaration" roleId="tpee.1068499141037" targetNodeId="e2lb.~RuntimeException%d&lt;init&gt;(java%dlang%dString)" resolveInfo="RuntimeException" />
                   <node role="actualArgument" roleId="tpee.1068499141038" type="tpee.PlusExpression" typeId="tpee.1068581242875" id="8653275637018837942">
                     <node role="leftExpression" roleId="tpee.1081773367580" type="tpee.PlusExpression" typeId="tpee.1068581242875" id="8653275637018837943">
                       <node role="leftExpression" roleId="tpee.1081773367580" type="tpee.PlusExpression" typeId="tpee.1068581242875" id="8653275637018837944">
@@ -348,11 +348,11 @@
           <node role="localVariableDeclaration" roleId="tpee.1068581242865" type="tpee.LocalVariableDeclaration" typeId="tpee.1068581242863" id="8653275637018845970">
             <property name="name" nameId="tpck.1169194664001" value="res" />
             <node role="type" roleId="tpee.5680397130376446158" type="tpee.ClassifierType" typeId="tpee.1107535904670" id="8653275637018845981">
-              <link role="classifier" roleId="tpee.1107535924139" targetNodeId="gfj4.~Point2D$Double" resolveInfo="Point2D.Double" />
+              <link role="classifier" roleId="tpee.1107535924139" targetNodeId="ar19.~Point2D$Double" resolveInfo="Point2D.Double" />
             </node>
             <node role="initializer" roleId="tpee.1068431790190" type="tpee.GenericNewExpression" typeId="tpee.1145552977093" id="8653275637018845983">
               <node role="creator" roleId="tpee.1145553007750" type="tpee.ClassCreator" typeId="tpee.1212685548494" id="8653275637018845984">
-                <link role="baseMethodDeclaration" roleId="tpee.1068499141037" targetNodeId="gfj4.~Point2D$Double%d&lt;init&gt;(double,double)" resolveInfo="Double" />
+                <link role="baseMethodDeclaration" roleId="tpee.1068499141037" targetNodeId="ar19.~Point2D$Double%d&lt;init&gt;(double,double)" resolveInfo="Double" />
                 <node role="actualArgument" roleId="tpee.1068499141038" type="tpee.LocalVariableReference" typeId="tpee.1068581242866" id="8653275637018845985">
                   <link role="variableDeclaration" roleId="tpee.1068581517664" targetNodeId="8653275637018837870" resolveInfo="x" />
                 </node>
@@ -385,7 +385,7 @@
     <node role="staticMethod" roleId="tpee.1070462273904" type="tpee.StaticMethodDeclaration" typeId="tpee.1081236700938" id="8653275637018845998">
       <property name="name" nameId="tpck.1169194664001" value="getRectPosAlongPolyline" />
       <node role="returnType" roleId="tpee.1068580123133" type="tpee.ClassifierType" typeId="tpee.1107535904670" id="8653275637018846002">
-        <link role="classifier" roleId="tpee.1107535924139" targetNodeId="gfj4.~Point2D" resolveInfo="Point2D" />
+        <link role="classifier" roleId="tpee.1107535924139" targetNodeId="ar19.~Point2D" resolveInfo="Point2D" />
       </node>
       <node role="visibility" roleId="tpee.1178549979242" type="tpee.PublicVisibility" typeId="tpee.1146644602865" id="8653275637018846000" />
       <node role="body" roleId="tpee.1068580123135" type="tpee.StatementList" typeId="tpee.1068580123136" id="8653275637018846001">
@@ -593,8 +593,8 @@
                                 <link role="variableDeclaration" roleId="tpee.1068581517664" targetNodeId="8653275637018846053" resolveInfo="len" />
                               </node>
                               <node role="rightExpression" roleId="tpee.1081773367579" type="tpee.StaticMethodCall" typeId="tpee.1081236700937" id="8653275637018846148">
-                                <link role="baseMethodDeclaration" roleId="tpee.1068499141037" targetNodeId="mwyq.~Math%dabs(int)%cint" resolveInfo="abs" />
-                                <link role="classConcept" roleId="tpee.1144433194310" targetNodeId="mwyq.~Math" resolveInfo="Math" />
+                                <link role="baseMethodDeclaration" roleId="tpee.1068499141037" targetNodeId="e2lb.~Math%dabs(int)%cint" resolveInfo="abs" />
+                                <link role="classConcept" roleId="tpee.1144433194310" targetNodeId="e2lb.~Math" resolveInfo="Math" />
                                 <node role="actualArgument" roleId="tpee.1068499141038" type="tpee.MinusExpression" typeId="tpee.1068581242869" id="8653275637018846149">
                                   <node role="rightExpression" roleId="tpee.1081773367579" type="tpee.DotExpression" typeId="tpee.1197027756228" id="8653275637018846150">
                                     <node role="operand" roleId="tpee.1197027771414" type="tpee.LocalVariableReference" typeId="tpee.1068581242866" id="8653275637018846151">
@@ -786,8 +786,8 @@
                                 <link role="variableDeclaration" roleId="tpee.1068581517664" targetNodeId="8653275637018846053" resolveInfo="len" />
                               </node>
                               <node role="rightExpression" roleId="tpee.1081773367579" type="tpee.StaticMethodCall" typeId="tpee.1081236700937" id="8653275637018846251">
-                                <link role="classConcept" roleId="tpee.1144433194310" targetNodeId="mwyq.~Math" resolveInfo="Math" />
-                                <link role="baseMethodDeclaration" roleId="tpee.1068499141037" targetNodeId="mwyq.~Math%dabs(int)%cint" resolveInfo="abs" />
+                                <link role="classConcept" roleId="tpee.1144433194310" targetNodeId="e2lb.~Math" resolveInfo="Math" />
+                                <link role="baseMethodDeclaration" roleId="tpee.1068499141037" targetNodeId="e2lb.~Math%dabs(int)%cint" resolveInfo="abs" />
                                 <node role="actualArgument" roleId="tpee.1068499141038" type="tpee.MinusExpression" typeId="tpee.1068581242869" id="8653275637018846252">
                                   <node role="rightExpression" roleId="tpee.1081773367579" type="tpee.DotExpression" typeId="tpee.1197027756228" id="8653275637018846253">
                                     <node role="operand" roleId="tpee.1197027771414" type="tpee.LocalVariableReference" typeId="tpee.1068581242866" id="8653275637018846254">
@@ -957,8 +957,8 @@
                   <property name="value" nameId="tpee.1113006610751" value="1.0" />
                 </node>
                 <node role="rightExpression" roleId="tpee.1081773367579" type="tpee.StaticMethodCall" typeId="tpee.1081236700937" id="8653275637018846320">
-                  <link role="classConcept" roleId="tpee.1144433194310" targetNodeId="mwyq.~Math" resolveInfo="Math" />
-                  <link role="baseMethodDeclaration" roleId="tpee.1068499141037" targetNodeId="mwyq.~Math%dabs(int)%cint" resolveInfo="abs" />
+                  <link role="classConcept" roleId="tpee.1144433194310" targetNodeId="e2lb.~Math" resolveInfo="Math" />
+                  <link role="baseMethodDeclaration" roleId="tpee.1068499141037" targetNodeId="e2lb.~Math%dabs(int)%cint" resolveInfo="abs" />
                   <node role="actualArgument" roleId="tpee.1068499141038" type="tpee.MinusExpression" typeId="tpee.1068581242869" id="8653275637018846321">
                     <node role="rightExpression" roleId="tpee.1081773367579" type="tpee.LocalVariableReference" typeId="tpee.1068581242866" id="8653275637018846322">
                       <link role="variableDeclaration" roleId="tpee.1068581517664" targetNodeId="8653275637018846308" resolveInfo="l" />
@@ -1010,11 +1010,11 @@
           <node role="localVariableDeclaration" roleId="tpee.1068581242865" type="tpee.LocalVariableDeclaration" typeId="tpee.1068581242863" id="8653275637018846343">
             <property name="name" nameId="tpck.1169194664001" value="point" />
             <node role="type" roleId="tpee.5680397130376446158" type="tpee.ClassifierType" typeId="tpee.1107535904670" id="8653275637018846344">
-              <link role="classifier" roleId="tpee.1107535924139" targetNodeId="gfj4.~Point2D$Double" resolveInfo="Point2D.Double" />
+              <link role="classifier" roleId="tpee.1107535924139" targetNodeId="ar19.~Point2D$Double" resolveInfo="Point2D.Double" />
             </node>
             <node role="initializer" roleId="tpee.1068431790190" type="tpee.GenericNewExpression" typeId="tpee.1145552977093" id="8653275637018846347">
               <node role="creator" roleId="tpee.1145553007750" type="tpee.ClassCreator" typeId="tpee.1212685548494" id="8653275637018846348">
-                <link role="baseMethodDeclaration" roleId="tpee.1068499141037" targetNodeId="gfj4.~Point2D$Double%d&lt;init&gt;(double,double)" resolveInfo="Double" />
+                <link role="baseMethodDeclaration" roleId="tpee.1068499141037" targetNodeId="ar19.~Point2D$Double%d&lt;init&gt;(double,double)" resolveInfo="Double" />
                 <node role="actualArgument" roleId="tpee.1068499141038" type="tpee.LocalVariableReference" typeId="tpee.1068581242866" id="8653275637018846349">
                   <link role="variableDeclaration" roleId="tpee.1068581517664" targetNodeId="8653275637018846314" resolveInfo="relX" />
                 </node>
