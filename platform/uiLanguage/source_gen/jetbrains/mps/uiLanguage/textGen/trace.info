@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<debugInfo>
+  <unitInfo fileName="PngIcon_TextGen.java" startLine="10" startPosition="0" endLine="20" endPosition="0" unitName="jetbrains.mps.uiLanguage.textGen.PngIcon_TextGen" />
+  <root nodeId="6242401288845940755">
+    <nodeInfo nodeId="6242401288845941926" fileName="PngIcon_TextGen.java" startLine="12" startPosition="72" endLine="13" endPosition="65" conceptFqName="jetbrains.mps.baseLanguage.structure.BlockStatement" />
+    <nodeInfo nodeId="6242401288845941922" fileName="PngIcon_TextGen.java" startLine="16" startPosition="42" endLine="17" endPosition="17" conceptFqName="jetbrains.mps.baseLanguage.structure.ReturnStatement" />
+    <scopeInfo nodeId="6242401288845941926" fileName="PngIcon_TextGen.java" startLine="12" startPosition="72" endLine="13" endPosition="65" />
+  </root>
+</debugInfo>
+

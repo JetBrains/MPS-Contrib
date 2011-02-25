@@ -126,6 +126,9 @@
   <dependency className="jetbrains.mps.uiLanguage.behavior.ListElements_Behavior" file="ListElements_Behavior.java">
     <classNode dependClassName="jetbrains.mps.smodel.SNode" />
   </dependency>
+  <dependency className="jetbrains.mps.uiLanguage.behavior.PngIcon_Behavior" file="PngIcon_Behavior.java">
+    <classNode dependClassName="jetbrains.mps.smodel.SNode" />
+  </dependency>
   <dependency className="jetbrains.mps.uiLanguage.behavior.RaiseInternalStatement_Behavior" file="RaiseInternalStatement_Behavior.java">
     <classNode dependClassName="jetbrains.mps.smodel.SNode" />
   </dependency>

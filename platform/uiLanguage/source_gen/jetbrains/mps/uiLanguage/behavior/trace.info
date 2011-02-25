@@ -1,5 +1,6 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <debugInfo>
+  <unitInfo fileName="PngIcon_Behavior.java" startLine="7" startPosition="0" endLine="11" endPosition="0" unitName="jetbrains.mps.uiLanguage.behavior.PngIcon_Behavior" />
   <unitInfo fileName="RenderingObject_Behavior.java" startLine="7" startPosition="0" endLine="11" endPosition="0" unitName="jetbrains.mps.uiLanguage.behavior.RenderingObject_Behavior" />
   <unitInfo fileName="RaiseOperation_Behavior.java" startLine="7" startPosition="0" endLine="11" endPosition="0" unitName="jetbrains.mps.uiLanguage.behavior.RaiseOperation_Behavior" />
   <unitInfo fileName="AddListenerOperation_Behavior.java" startLine="7" startPosition="0" endLine="11" endPosition="0" unitName="jetbrains.mps.uiLanguage.behavior.AddListenerOperation_Behavior" />
@@ -316,6 +317,9 @@
     <scopeInfo nodeId="1227876805211" fileName="IComponentInstance_Behavior.java" startLine="19" startPosition="142" endLine="23" endPosition="0" />
     <scopeInfo nodeId="1213877498062" fileName="IComponentInstance_Behavior.java" startLine="18" startPosition="78" endLine="23" endPosition="71" />
     <unitInfo nodeId="1227876805211" fileName="IComponentInstance_Behavior.java" startLine="19" startPosition="119" endLine="23" endPosition="5" unitName="jetbrains.mps.uiLanguage.behavior.IComponentInstance_Behavior$1" />
+  </root>
+  <root nodeId="6242401288845940752">
+    <scopeInfo nodeId="6242401288845940754" fileName="PngIcon_Behavior.java" startLine="8" startPosition="43" endLine="8" endPosition="43" />
   </root>
 </debugInfo>
 

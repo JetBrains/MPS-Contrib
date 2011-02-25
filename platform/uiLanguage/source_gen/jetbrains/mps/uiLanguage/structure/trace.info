@@ -28,6 +28,7 @@
   <unitInfo fileName="RaiseOperation.java" startLine="16" startPosition="0" endLine="88" endPosition="0" unitName="jetbrains.mps.uiLanguage.structure.RaiseOperation" />
   <unitInfo fileName="EventAccessOperation.java" startLine="16" startPosition="0" endLine="96" endPosition="0" unitName="jetbrains.mps.uiLanguage.structure.EventAccessOperation" />
   <unitInfo fileName="AttributeReferenceOperation.java" startLine="16" startPosition="0" endLine="96" endPosition="0" unitName="jetbrains.mps.uiLanguage.structure.AttributeReferenceOperation" />
+  <unitInfo fileName="PngIcon.java" startLine="15" startPosition="0" endLine="96" endPosition="0" unitName="jetbrains.mps.uiLanguage.structure.PngIcon" />
   <unitInfo fileName="InlineEventHandler.java" startLine="15" startPosition="0" endLine="96" endPosition="0" unitName="jetbrains.mps.uiLanguage.structure.InlineEventHandler" />
   <unitInfo fileName="AttributeValue.java" startLine="15" startPosition="0" endLine="96" endPosition="0" unitName="jetbrains.mps.uiLanguage.structure.AttributeValue" />
   <unitInfo fileName="Scroller.java" startLine="14" startPosition="0" endLine="98" endPosition="0" unitName="jetbrains.mps.uiLanguage.structure.Scroller" />
