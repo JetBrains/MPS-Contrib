@@ -9,6 +9,7 @@
 *.mpr text
 *.css text
 *.html text
+*.dtd text
 *.sh text
 .debug text
 .dependencies text

@@ -2868,7 +2868,7 @@
         </node>
       </node>
     </node>
-    <node role="classifierDocComment$attribute" type="m373.ClassifierDocComment" typeId="m373.2068944020170241612" id="1705599667576612229">
+    <node role="_$attribute" roleId="tpck.5169995583184591170" type="m373.ClassifierDocComment" typeId="m373.2068944020170241612" id="1705599667576612229">
       <node role="body" roleId="m373.8465538089690331502" type="m373.CommentLine" typeId="m373.8465538089690331500" id="1705599667576612230">
         <node role="part" roleId="m373.8970989240999019149" type="m373.TextCommentLinePart" typeId="m373.8970989240999019143" id="1705599667576612231">
           <property name="text" nameId="m373.8970989240999019144" value="Contains utility methods for integer two-dimensional geometry." />
@@ -3086,7 +3086,7 @@
           </node>
         </node>
       </node>
-      <node role="methodDocComment$attribute" type="m373.MethodDocComment" typeId="m373.5349172909345532724" id="1705599667576612248">
+      <node role="_$attribute" roleId="tpck.5169995583184591170" type="m373.MethodDocComment" typeId="m373.5349172909345532724" id="1705599667576612248">
         <node role="body" roleId="m373.8465538089690331502" type="m373.CommentLine" typeId="m373.8465538089690331500" id="1705599667576612249">
           <node role="part" roleId="m373.8970989240999019149" type="m373.TextCommentLinePart" typeId="m373.8970989240999019143" id="1705599667576612254">
             <property name="text" nameId="m373.8970989240999019144" value="Removes some points from sequence in such a way that segments formed from successive" />
@@ -3892,7 +3892,7 @@
         <link role="classifier" roleId="tpee.1107535924139" targetNodeId="2135502080755099705" resolveInfo="Direction2D" />
       </node>
     </node>
-    <node role="classifierDocComment$attribute" type="m373.ClassifierDocComment" typeId="m373.2068944020170241612" id="1705599667576612232">
+    <node role="_$attribute" roleId="tpck.5169995583184591170" type="m373.ClassifierDocComment" typeId="m373.2068944020170241612" id="1705599667576612232">
       <node role="body" roleId="m373.8465538089690331502" type="m373.CommentLine" typeId="m373.8465538089690331500" id="1705599667576612233">
         <node role="part" roleId="m373.8970989240999019149" type="m373.TextCommentLinePart" typeId="m373.8970989240999019143" id="1705599667576612235">
           <property name="text" nameId="m373.8970989240999019144" value="Contains utility methods for integer two-dimensional geometry in assumption " />
@@ -4254,7 +4254,7 @@
           <link role="classifier" roleId="tpee.1107535924139" targetNodeId="2301768597858221425" resolveInfo="Point" />
         </node>
       </node>
-      <node role="methodDocComment$attribute" type="m373.MethodDocComment" typeId="m373.5349172909345532724" id="1705599667576630518">
+      <node role="_$attribute" roleId="tpck.5169995583184591170" type="m373.MethodDocComment" typeId="m373.5349172909345532724" id="1705599667576630518">
         <node role="body" roleId="m373.8465538089690331502" type="m373.CommentLine" typeId="m373.8465538089690331500" id="1705599667576630519">
           <node role="part" roleId="m373.8970989240999019149" type="m373.TextCommentLinePart" typeId="m373.8970989240999019143" id="1705599667576630520">
             <property name="text" nameId="m373.8970989240999019144" value="Intersects two segments. If they have no intersection, returns null." />
@@ -4938,7 +4938,7 @@
   </root>
   <root id="2135502080755099904">
     <node role="visibility" roleId="tpee.1178549979242" type="tpee.PublicVisibility" typeId="tpee.1146644602865" id="2135502080755099905" />
-    <node role="classifierDocComment$attribute" type="m373.ClassifierDocComment" typeId="m373.2068944020170241612" id="2135502080755099910">
+    <node role="_$attribute" roleId="tpck.5169995583184591170" type="m373.ClassifierDocComment" typeId="m373.2068944020170241612" id="2135502080755099910">
       <node role="body" roleId="m373.8465538089690331502" type="m373.CommentLine" typeId="m373.8465538089690331500" id="2135502080755099911">
         <node role="part" roleId="m373.8970989240999019149" type="m373.TextCommentLinePart" typeId="m373.8970989240999019143" id="2135502080755099912">
           <property name="text" nameId="m373.8970989240999019144" value="Contains utility methods for integer one-dimensional geometry." />
