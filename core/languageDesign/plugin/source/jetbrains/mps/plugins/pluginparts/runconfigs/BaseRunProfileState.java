@@ -8,6 +8,7 @@ import com.intellij.openapi.util.Key;
 import jetbrains.mps.debug.api.AbstractDebugSessionCreator;
 import jetbrains.mps.debug.api.DefaultDebugger;
 import jetbrains.mps.debug.api.IDebugger;
+import jetbrains.mps.debug.api.ToRemove;
 import jetbrains.mps.debug.api.run.DebuggerRunProfileState;
 import jetbrains.mps.project.IModule;
 import jetbrains.mps.runConfigurations.runtime.BaseMpsRunProfileState;
@@ -17,6 +18,8 @@ import org.jetbrains.annotations.Nullable;
 import java.util.HashMap;
 import java.util.Map;
 
+@Deprecated
+@ToRemove(version = 2.0)
 public abstract class BaseRunProfileState extends DebuggerRunProfileState {
   private final Map<Key, Object> myUserData = new HashMap<Key, Object>();
 
