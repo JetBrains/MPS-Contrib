@@ -1,7 +1,6 @@
 package jetbrains.mps.plugins.pluginparts.runconfigs;
 
 import com.intellij.execution.Executor;
-import com.intellij.execution.configurations.RunProfileState;
 import com.intellij.execution.runners.ProgramRunner;
 import com.intellij.openapi.project.Project;
 import com.intellij.openapi.util.Key;
@@ -10,8 +9,6 @@ import jetbrains.mps.debug.api.DefaultDebugger;
 import jetbrains.mps.debug.api.IDebugger;
 import jetbrains.mps.debug.api.ToRemove;
 import jetbrains.mps.debug.api.run.DebuggerRunProfileState;
-import jetbrains.mps.project.IModule;
-import jetbrains.mps.runConfigurations.runtime.BaseMpsRunProfileState;
 import org.jetbrains.annotations.NotNull;
 import org.jetbrains.annotations.Nullable;
 

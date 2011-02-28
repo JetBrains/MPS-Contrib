@@ -15,12 +15,16 @@
  */
 package jetbrains.mps.plugins.pluginparts.runconfigs;
 
-import com.intellij.execution.configurations.RunConfigurationBase;
 import com.intellij.execution.configurations.LocatableConfiguration;
 import com.intellij.execution.configurations.ConfigurationFactory;
+import com.intellij.execution.executors.DefaultRunExecutor;
 import com.intellij.openapi.project.Project;
+import jetbrains.mps.debug.api.ToRemove;
+import jetbrains.mps.runConfigurations.runtime.BaseMpsRunConfiguration;
 
-public abstract class BaseRunConfig extends RunConfigurationBase implements LocatableConfiguration {
+@Deprecated
+@ToRemove(version = 2.0)
+public abstract class BaseRunConfig extends BaseMpsRunConfiguration implements LocatableConfiguration {
   protected BaseRunConfig(Project project, ConfigurationFactory factory, String name) {
     super(project, factory, name);
   }
@@ -35,5 +39,10 @@ public abstract class BaseRunConfig extends RunConfigurationBase implements Loca
 
   public boolean isDebuggable() {
     return false;  
+  }
+
+  @Override
+  public boolean canExecute(String executorId) {
+    return executorId.equals(DefaultRunExecutor.EXECUTOR_ID) || isDebuggable();
   }
 }
