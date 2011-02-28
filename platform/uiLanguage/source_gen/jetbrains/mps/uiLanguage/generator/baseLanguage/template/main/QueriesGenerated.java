@@ -9,10 +9,10 @@ import jetbrains.mps.baseLanguage.classifiers.behavior.ThisClassifierExpression_
 import jetbrains.mps.lang.smodel.generator.smodelAdapter.SLinkOperations;
 import jetbrains.mps.smodel.SNode;
 import jetbrains.mps.generator.template.PropertyMacroContext;
+import jetbrains.mps.uiLanguage.behavior.ComponentDeclaration_Behavior;
 import jetbrains.mps.lang.smodel.generator.smodelAdapter.SPropertyOperations;
 import jetbrains.mps.util.NameUtil;
 import jetbrains.mps.uiLanguage.behavior.BindExpression_Behavior;
-import jetbrains.mps.uiLanguage.behavior.ComponentDeclaration_Behavior;
 import jetbrains.mps.uiLanguage.behavior.BeanDeclaration_Behavior;
 import jetbrains.mps.internal.collections.runtime.ListSequence;
 import jetbrains.mps.uiLanguage.behavior.StubCellRendererInfo_Behavior;
@@ -76,6 +76,10 @@ public class QueriesGenerated {
     return SNodeOperations.isInstanceOf(SLinkOperations.getTarget(_context.getNode(), "operation", true), "jetbrains.mps.uiLanguage.structure.EventAccessOperation");
   }
 
+  public static Object propertyMacro_GetPropertyValue_4926525333478212636(final IOperationContext operationContext, final PropertyMacroContext _context) {
+    return ComponentDeclaration_Behavior.call_getComponentClassName_1213877495512(SLinkOperations.getTarget(_context.getNode(), "component", false));
+  }
+
   public static Object propertyMacro_GetPropertyValue_4021515509913114684(final IOperationContext operationContext, final PropertyMacroContext _context) {
     String baseName;
     if (SPropertyOperations.getString(_context.getNode(), "name") != null) {
@@ -84,6 +88,10 @@ public class QueriesGenerated {
       baseName = "myComponent";
     }
     return _context.createUniqueName(baseName, null);
+  }
+
+  public static Object propertyMacro_GetPropertyValue_4926525333478198585(final IOperationContext operationContext, final PropertyMacroContext _context) {
+    return ComponentDeclaration_Behavior.call_getComponentClassName_1213877495512(SLinkOperations.getTarget(_context.getNode(), "componentDeclaration", false));
   }
 
   public static Object propertyMacro_GetPropertyValue_1202466134243(final IOperationContext operationContext, final PropertyMacroContext _context) {
@@ -228,24 +236,6 @@ public class QueriesGenerated {
 
   public static Object referenceMacro_GetReferent_5360151489983400327(final IOperationContext operationContext, final ReferenceMacroContext _context) {
     return _context.getOutputNodeByInputNodeAndMappingLabel(SNodeOperations.cast(ThisClassifierExpression_Behavior.call_getClassifier_1213877512819(_context.getNode()), "jetbrains.mps.uiLanguage.structure.ComponentDeclaration"), "componentClass");
-  }
-
-  public static Object referenceMacro_GetReferent_4021515509912964687(final IOperationContext operationContext, final ReferenceMacroContext _context) {
-    String fqname = ComponentDeclaration_Behavior.call_getComponentClassName_1213877495512(SLinkOperations.getTarget(_context.getNode(), "component", false));
-    int lastDot = fqname.lastIndexOf(".");
-    if (lastDot >= 0) {
-      return "[" + fqname.substring(0, lastDot) + "]" + fqname.substring(lastDot + 1);
-    }
-    return fqname;
-  }
-
-  public static Object referenceMacro_GetReferent_4021515509913114471(final IOperationContext operationContext, final ReferenceMacroContext _context) {
-    String fqname = ComponentDeclaration_Behavior.call_getComponentClassName_1213877495512(SLinkOperations.getTarget(_context.getNode(), "componentDeclaration", false));
-    int lastDot = fqname.lastIndexOf(".");
-    if (lastDot >= 0) {
-      return "[" + fqname.substring(0, lastDot) + "]" + fqname.substring(lastDot + 1);
-    }
-    return fqname;
   }
 
   public static Object referenceMacro_GetReferent_1202732045058(final IOperationContext operationContext, final ReferenceMacroContext _context) {
