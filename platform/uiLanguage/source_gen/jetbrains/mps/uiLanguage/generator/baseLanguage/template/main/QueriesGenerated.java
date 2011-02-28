@@ -18,8 +18,6 @@ import jetbrains.mps.internal.collections.runtime.ListSequence;
 import jetbrains.mps.uiLanguage.behavior.StubCellRendererInfo_Behavior;
 import jetbrains.mps.uiLanguage.behavior.InlineRenderer_Behavior;
 import jetbrains.mps.generator.template.ReferenceMacroContext;
-import jetbrains.mps.project.IModule;
-import jetbrains.mps.uiLanguage.generator.baseLanguage.template.util.Util;
 import jetbrains.mps.uiLanguage.behavior.Scroller_Behavior;
 import jetbrains.mps.generator.template.IfMacroContext;
 import jetbrains.mps.uiLanguage.behavior.IComponentInstance_Behavior;
@@ -234,14 +232,20 @@ public class QueriesGenerated {
 
   public static Object referenceMacro_GetReferent_4021515509912964687(final IOperationContext operationContext, final ReferenceMacroContext _context) {
     String fqname = ComponentDeclaration_Behavior.call_getComponentClassName_1213877495512(SLinkOperations.getTarget(_context.getNode(), "component", false));
-    IModule module = _context.getOriginalInputModel().getModelDescriptor().getModule();
-    return Util.getClassByName(module, fqname, SNodeOperations.getModel(_context.getNode()));
+    int lastDot = fqname.lastIndexOf(".");
+    if (lastDot >= 0) {
+      return "[" + fqname.substring(0, lastDot) + "]" + fqname.substring(lastDot + 1);
+    }
+    return fqname;
   }
 
   public static Object referenceMacro_GetReferent_4021515509913114471(final IOperationContext operationContext, final ReferenceMacroContext _context) {
     String fqname = ComponentDeclaration_Behavior.call_getComponentClassName_1213877495512(SLinkOperations.getTarget(_context.getNode(), "componentDeclaration", false));
-    IModule module = _context.getOriginalInputModel().getModelDescriptor().getModule();
-    return Util.getClassByName(module, fqname, SNodeOperations.getModel(_context.getNode()));
+    int lastDot = fqname.lastIndexOf(".");
+    if (lastDot >= 0) {
+      return "[" + fqname.substring(0, lastDot) + "]" + fqname.substring(lastDot + 1);
+    }
+    return fqname;
   }
 
   public static Object referenceMacro_GetReferent_1202732045058(final IOperationContext operationContext, final ReferenceMacroContext _context) {
