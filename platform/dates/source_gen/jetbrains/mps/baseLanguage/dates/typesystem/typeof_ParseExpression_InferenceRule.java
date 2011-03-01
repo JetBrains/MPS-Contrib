@@ -24,14 +24,12 @@ public class typeof_ParseExpression_InferenceRule extends AbstractInferenceRule_
       SNode _nodeToCheck_1029348928467 = SLinkOperations.getTarget(pe, "source", true);
       BaseQuickFixProvider intentionProvider = null;
       EquationInfo _info_12389875345 = new EquationInfo(_nodeToCheck_1029348928467, null, "r:00000000-0000-4000-0000-011c895903d1(jetbrains.mps.baseLanguage.dates.typesystem)", "1892577441204768359", 0, intentionProvider);
-      _info_12389875345.setInequationGroup("");
       typeCheckingContext.createLessThanInequation((SNode) typeCheckingContext.typeOf(_nodeToCheck_1029348928467, "r:00000000-0000-4000-0000-011c895903d1(jetbrains.mps.baseLanguage.dates.typesystem)", "1892577441204767239", true), (SNode) new typeof_ParseExpression_InferenceRule.QuotationClass_ypl97d_a0a0a0().createNode(typeCheckingContext), true, _info_12389875345);
     }
     {
       SNode _nodeToCheck_1029348928467 = SLinkOperations.getTarget(pe, "default", true);
       BaseQuickFixProvider intentionProvider = null;
       EquationInfo _info_12389875345 = new EquationInfo(_nodeToCheck_1029348928467, null, "r:00000000-0000-4000-0000-011c895903d1(jetbrains.mps.baseLanguage.dates.typesystem)", "7678715681280022236", 0, intentionProvider);
-      _info_12389875345.setInequationGroup("");
       typeCheckingContext.createLessThanInequation((SNode) typeCheckingContext.typeOf(_nodeToCheck_1029348928467, "r:00000000-0000-4000-0000-011c895903d1(jetbrains.mps.baseLanguage.dates.typesystem)", "7678715681280021116", true), (SNode) new typeof_ParseExpression_InferenceRule.QuotationClass_ypl97d_a0a1a0().createNode(typeCheckingContext), true, _info_12389875345);
     }
     {
