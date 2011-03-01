@@ -22,7 +22,7 @@ public class typeof_RaiseInternalStatement_InferenceRule extends AbstractInferen
       SNode _nodeToCheck_1029348928467 = SLinkOperations.getTarget(statement, "argument", true);
       BaseQuickFixProvider intentionProvider = null;
       EquationInfo _info_12389875345 = new EquationInfo(_nodeToCheck_1029348928467, null, "r:00000000-0000-4000-0000-011c89590550(jetbrains.mps.uiLanguage.typesystem)", "1209655719223", 0, intentionProvider);
-      _info_12389875345.setInequationGroup("default");
+      _info_12389875345.setInequationGroup("");
       typeCheckingContext.createLessThanInequationStrong((SNode) typeCheckingContext.typeOf(_nodeToCheck_1029348928467, "r:00000000-0000-4000-0000-011c89590550(jetbrains.mps.uiLanguage.typesystem)", "1209655701497", true), (SNode) SLinkOperations.getTarget(SLinkOperations.getTarget(SNodeOperations.getAncestor(statement, "jetbrains.mps.uiLanguage.structure.EventDeclaration", false, false), "parameter", true), "type", true), true, _info_12389875345);
     }
   }
