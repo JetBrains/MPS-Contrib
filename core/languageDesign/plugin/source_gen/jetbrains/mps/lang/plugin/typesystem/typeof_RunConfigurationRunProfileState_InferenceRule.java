@@ -33,7 +33,6 @@ public class typeof_RunConfigurationRunProfileState_InferenceRule extends Abstra
           SNode _nodeToCheck_1029348928467 = runConfigurationDeclaration;
           BaseQuickFixProvider intentionProvider = null;
           EquationInfo _info_12389875345 = new EquationInfo(_nodeToCheck_1029348928467, null, "r:00000000-0000-4000-0000-011c89590364(jetbrains.mps.lang.plugin.typesystem)", "8255351389868900310", 0, intentionProvider);
-          _info_12389875345.setInequationGroup("");
           typeCheckingContext.createLessThanInequationStrong((SNode) stateType, (SNode) new typeof_RunConfigurationRunProfileState_InferenceRule.QuotationClass_xq134o_a0a0a2a0a0().createNode(typeCheckingContext), false, _info_12389875345);
         }
       } else {
@@ -41,7 +40,6 @@ public class typeof_RunConfigurationRunProfileState_InferenceRule extends Abstra
           SNode _nodeToCheck_1029348928467 = runConfigurationDeclaration;
           BaseQuickFixProvider intentionProvider = null;
           EquationInfo _info_12389875345 = new EquationInfo(_nodeToCheck_1029348928467, null, "r:00000000-0000-4000-0000-011c89590364(jetbrains.mps.lang.plugin.typesystem)", "8255351389868900319", 0, intentionProvider);
-          _info_12389875345.setInequationGroup("");
           typeCheckingContext.createLessThanInequationStrong((SNode) stateType, (SNode) new typeof_RunConfigurationRunProfileState_InferenceRule.QuotationClass_xq134o_a0a0a0c0a0a().createNode(typeCheckingContext), false, _info_12389875345);
         }
       }
