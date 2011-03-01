@@ -30,7 +30,7 @@ public class typeof_TimeZoneIdOperation_InferenceRule extends AbstractInferenceR
       SNode _nodeToCheck_1029348928467 = IOperation_Behavior.call_getOperand_1213877410070(operation);
       BaseQuickFixProvider intentionProvider = null;
       EquationInfo _info_12389875345 = new EquationInfo(_nodeToCheck_1029348928467, null, "r:00000000-0000-4000-0000-011c895903d1(jetbrains.mps.baseLanguage.dates.typesystem)", "5293902215864075068", 0, intentionProvider);
-      _info_12389875345.setInequationGroup("default");
+      _info_12389875345.setInequationGroup("");
       typeCheckingContext.createLessThanInequation((SNode) typeCheckingContext.typeOf(_nodeToCheck_1029348928467, "r:00000000-0000-4000-0000-011c895903d1(jetbrains.mps.baseLanguage.dates.typesystem)", "5293902215864053708", true), (SNode) new typeof_TimeZoneIdOperation_InferenceRule.QuotationClass_985ot9_a0a1a0().createNode(typeCheckingContext), false, _info_12389875345);
     }
   }

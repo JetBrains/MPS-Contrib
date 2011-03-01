@@ -27,7 +27,7 @@ public class typeof_ConfigurationEditorDeclaration_InferenceRule extends Abstrac
       SNode _nodeToCheck_1029348928467 = SLinkOperations.getTarget(editor, "editor", true);
       BaseQuickFixProvider intentionProvider = null;
       EquationInfo _info_12389875345 = new EquationInfo(_nodeToCheck_1029348928467, null, "r:00000000-0000-4000-0000-011c89590364(jetbrains.mps.lang.plugin.typesystem)", "162872405267677886", 0, intentionProvider);
-      _info_12389875345.setInequationGroup("default");
+      _info_12389875345.setInequationGroup("");
       typeCheckingContext.createLessThanInequationStrong((SNode) typeCheckingContext.typeOf(SLinkOperations.getTarget(editor, "editor", true), "r:00000000-0000-4000-0000-011c89590364(jetbrains.mps.lang.plugin.typesystem)", "162872405267677878", true), (SNode) new typeof_ConfigurationEditorDeclaration_InferenceRule.QuotationClass_7janal_a0a0a0().createNode(typeCheckingContext), true, _info_12389875345);
     }
   }

@@ -1,12 +1,12 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<dependencies version="2" modelHash="-ba7rgysn80iegk1e9s50w3pchvqmla4">
+<dependencies version="2" modelHash="fjp48wknjmh7jyhnrrkqfyzyanco11">
   <dep model="f:java_stub#37a3367b-1fb2-44d8-aa6b-18075e74e003#jetbrains.mps.lang.typesystem.runtime(MPS.Classpath/jetbrains.mps.lang.typesystem.runtime@java_stub)" />
   <dep model="f:java_stub#37a3367b-1fb2-44d8-aa6b-18075e74e003#jetbrains.mps.smodel(MPS.Classpath/jetbrains.mps.smodel@java_stub)" />
   <dep model="f:java_stub#6354ebe7-c22a-4a0f-ac54-50b52ab9b065#java.lang(JDK/java.lang@java_stub)" />
   <dep model="r:00000000-0000-4000-0000-011c89590288(jetbrains.mps.lang.core.structure)" hash="2p780og5m0gbxc8o1jqevoem9o3jenx" />
   <dep model="r:00000000-0000-4000-0000-011c895902b4(jetbrains.mps.lang.typesystem.structure)" hash="6jb4j1mludaocxcfp538gfde95bew63" />
-  <dep model="r:00000000-0000-4000-0000-011c895902b7(jetbrains.mps.lang.typesystem.generator.baseLanguage.template.main@generator)" hash="-8tjbljvq75bzhpd2fz5k1nqy3yecns2" />
-  <dep model="r:00000000-0000-4000-0000-011c895902c0(jetbrains.mps.baseLanguage.behavior)" hash="-7elxdax1gs2u07jxr3w3fy2sccui8n" />
+  <dep model="r:00000000-0000-4000-0000-011c895902b7(jetbrains.mps.lang.typesystem.generator.baseLanguage.template.main@generator)" hash="2onmk1ink21s4o3ptjloar5cs44fy25" />
+  <dep model="r:00000000-0000-4000-0000-011c895902c0(jetbrains.mps.baseLanguage.behavior)" hash="3f9ecke5f5qx6jk30o8m9ijgeo2fqgw" />
   <dep model="r:00000000-0000-4000-0000-011c895902ca(jetbrains.mps.baseLanguage.structure)" hash="7j7f23wpy27xm5qbrp0hshvy38yttz0" />
   <dep model="r:00000000-0000-4000-0000-011c895902cb(jetbrains.mps.baseLanguage.generator.java.closures@generator)" hash="-c5nb0tgn5x3ik166qlbxe33p18qx8iz" />
   <dep model="r:00000000-0000-4000-0000-011c895902cd(jetbrains.mps.baseLanguage.generator.java.main@generator)" hash="8piw64nlwt97de6k6fho9w6eaml5xak" />
@@ -23,7 +23,7 @@
   <dep model="r:00000000-0000-4000-0000-011c895903d7(jetbrains.mps.baseLanguage.dates.generator.baseLanguage.template.main@generator)" hash="-av9utv1bo8rygrbtd7y597bcka67pvp" />
   <dep model="r:b4d7d620-6723-4aa2-856b-118497e84e9e(jetbrains.mps.baseLanguage.generator.java.strings@generator)" hash="d5ax0i0w21fsp3r2lvns9jctqjjbwsh" />
   <dep model="r:f04c1476-2f91-4f59-be13-c8e009abebee(jetbrains.mps.baseLanguageInternal.generator.template.main@generator)" hash="36l17jjlzwkvt9mm38z504bro2ysrw9" />
-  <common hash="-dxw3erblne9vwumces4bgc6k9yj5qgx">
+  <common hash="758i5k7z31x7qvmzchewwihjoa8c054">
     <dep root="1178371373855" />
     <dep root="1178371373914" />
     <dep root="1178371373937" />
@@ -102,7 +102,7 @@
     <dep model="r:f04c1476-2f91-4f59-be13-c8e009abebee(jetbrains.mps.baseLanguageInternal.generator.template.main@generator)" />
     <file name="typeof_NowExpression_InferenceRule.java" />
   </source>
-  <source id="1178371373914" name="typeof_UnaryDateTimeOperation" hash="4dxwb3vvth5r5k2ihrs8wfvmvi4hnqq">
+  <source id="1178371373914" name="typeof_UnaryDateTimeOperation" hash="-biew8hrok4u0vl51s8fwwbqg8dxk38a">
     <dep model="f:java_stub#37a3367b-1fb2-44d8-aa6b-18075e74e003#jetbrains.mps.lang.typesystem.runtime(MPS.Classpath/jetbrains.mps.lang.typesystem.runtime@java_stub)" />
     <dep model="r:00000000-0000-4000-0000-011c895902b4(jetbrains.mps.lang.typesystem.structure)" />
     <dep model="r:00000000-0000-4000-0000-011c895902b7(jetbrains.mps.lang.typesystem.generator.baseLanguage.template.main@generator)" />
@@ -121,7 +121,7 @@
     <dep model="r:f04c1476-2f91-4f59-be13-c8e009abebee(jetbrains.mps.baseLanguageInternal.generator.template.main@generator)" />
     <file name="typeof_UnaryDateTimeOperation_InferenceRule.java" />
   </source>
-  <source id="1178371373937" name="typeof_FormatExpression" hash="des35oce5ms3m6jk4z97thtvfcxpwer">
+  <source id="1178371373937" name="typeof_FormatExpression" hash="8jbunihyoxh3i4vjahw3gfpx1r3ype">
     <dep model="f:java_stub#37a3367b-1fb2-44d8-aa6b-18075e74e003#jetbrains.mps.lang.typesystem.runtime(MPS.Classpath/jetbrains.mps.lang.typesystem.runtime@java_stub)" />
     <dep model="r:00000000-0000-4000-0000-011c895902b4(jetbrains.mps.lang.typesystem.structure)" />
     <dep model="r:00000000-0000-4000-0000-011c895902b7(jetbrains.mps.lang.typesystem.generator.baseLanguage.template.main@generator)" />
@@ -140,7 +140,7 @@
     <dep model="r:f04c1476-2f91-4f59-be13-c8e009abebee(jetbrains.mps.baseLanguageInternal.generator.template.main@generator)" />
     <file name="typeof_FormatExpression_InferenceRule.java" />
   </source>
-  <source id="1178371373956" name="typeof_DateTimeCompareOperation" hash="-a8yo38m02gdrzvalbumtqne111xodu2">
+  <source id="1178371373956" name="typeof_DateTimeCompareOperation" hash="-9qvhewrronue25avxkxc474nqu9gbfz">
     <dep model="f:java_stub#37a3367b-1fb2-44d8-aa6b-18075e74e003#jetbrains.mps.lang.typesystem.runtime(MPS.Classpath/jetbrains.mps.lang.typesystem.runtime@java_stub)" />
     <dep model="r:00000000-0000-4000-0000-011c895902b4(jetbrains.mps.lang.typesystem.structure)" />
     <dep model="r:00000000-0000-4000-0000-011c895902b7(jetbrains.mps.lang.typesystem.generator.baseLanguage.template.main@generator)" />
@@ -159,7 +159,7 @@
     <dep model="r:f04c1476-2f91-4f59-be13-c8e009abebee(jetbrains.mps.baseLanguageInternal.generator.template.main@generator)" />
     <file name="typeof_DateTimeCompareOperation_InferenceRule.java" />
   </source>
-  <source id="1178371373988" name="typeof_DateTimeWithPropertyOperation" hash="dwhzq4zrddih9xjltmpukl4emyqc5sj">
+  <source id="1178371373988" name="typeof_DateTimeWithPropertyOperation" hash="57bkt937txrlvnqnrfi9llxxwf9ocfl">
     <dep model="f:java_stub#37a3367b-1fb2-44d8-aa6b-18075e74e003#jetbrains.mps.lang.typesystem.runtime(MPS.Classpath/jetbrains.mps.lang.typesystem.runtime@java_stub)" />
     <dep model="r:00000000-0000-4000-0000-011c895902b4(jetbrains.mps.lang.typesystem.structure)" />
     <dep model="r:00000000-0000-4000-0000-011c895902b7(jetbrains.mps.lang.typesystem.generator.baseLanguage.template.main@generator)" />
@@ -178,7 +178,7 @@
     <dep model="r:f04c1476-2f91-4f59-be13-c8e009abebee(jetbrains.mps.baseLanguageInternal.generator.template.main@generator)" />
     <file name="typeof_DateTimeWithPropertyOperation_InferenceRule.java" />
   </source>
-  <source id="1178371374002" name="typeof_PeriodConstant" hash="-50s2yfxklww2tv7rarumvocu0flh1fl">
+  <source id="1178371374002" name="typeof_PeriodConstant" hash="dy5vwi7st0qw0ktehkeoojbfh2jkkso">
     <dep model="f:java_stub#37a3367b-1fb2-44d8-aa6b-18075e74e003#jetbrains.mps.lang.typesystem.runtime(MPS.Classpath/jetbrains.mps.lang.typesystem.runtime@java_stub)" />
     <dep model="r:00000000-0000-4000-0000-011c895902b4(jetbrains.mps.lang.typesystem.structure)" />
     <dep model="r:00000000-0000-4000-0000-011c895902b7(jetbrains.mps.lang.typesystem.generator.baseLanguage.template.main@generator)" />
@@ -263,7 +263,7 @@
     <dep model="r:f04c1476-2f91-4f59-be13-c8e009abebee(jetbrains.mps.baseLanguageInternal.generator.template.main@generator)" />
     <file name="typeof_ConvertToDateTimeOperation_InferenceRule.java" />
   </source>
-  <source id="1213195050820" name="typeof_DateTimeMinusPeriodOperation" hash="-2otjjwnafhrqtytjqm2g6hipkw72qhz">
+  <source id="1213195050820" name="typeof_DateTimeMinusPeriodOperation" hash="-1mibw20w4u9wom5os0xwph26rdy1kcc">
     <dep model="f:java_stub#37a3367b-1fb2-44d8-aa6b-18075e74e003#jetbrains.mps.lang.typesystem.runtime(MPS.Classpath/jetbrains.mps.lang.typesystem.runtime@java_stub)" />
     <dep model="r:00000000-0000-4000-0000-011c895902b4(jetbrains.mps.lang.typesystem.structure)" />
     <dep model="r:00000000-0000-4000-0000-011c895902b7(jetbrains.mps.lang.typesystem.generator.baseLanguage.template.main@generator)" />
@@ -282,7 +282,7 @@
     <dep model="r:f04c1476-2f91-4f59-be13-c8e009abebee(jetbrains.mps.baseLanguageInternal.generator.template.main@generator)" />
     <file name="typeof_DateTimeMinusPeriodOperation_InferenceRule.java" />
   </source>
-  <source id="1213195662838" name="typeof_DateTimePlusPeriodOperation" hash="-964ohc2gh4s5jc8r0wyl4pbjjyw39sc">
+  <source id="1213195662838" name="typeof_DateTimePlusPeriodOperation" hash="exiqae5iwn5dpi28438ufc3nn12ayfo">
     <dep model="f:java_stub#37a3367b-1fb2-44d8-aa6b-18075e74e003#jetbrains.mps.lang.typesystem.runtime(MPS.Classpath/jetbrains.mps.lang.typesystem.runtime@java_stub)" />
     <dep model="r:00000000-0000-4000-0000-011c895902b4(jetbrains.mps.lang.typesystem.structure)" />
     <dep model="r:00000000-0000-4000-0000-011c895902b7(jetbrains.mps.lang.typesystem.generator.baseLanguage.template.main@generator)" />
@@ -301,7 +301,7 @@
     <dep model="r:f04c1476-2f91-4f59-be13-c8e009abebee(jetbrains.mps.baseLanguageInternal.generator.template.main@generator)" />
     <file name="typeof_DateTimePlusPeriodOperation_InferenceRule.java" />
   </source>
-  <source id="1213195722620" name="typeof_DateTimeMinusOperation" hash="-3xev02cxzyktafiw7sljvikjw3m73td">
+  <source id="1213195722620" name="typeof_DateTimeMinusOperation" hash="-czvbrkbe522o3qw6hpm34p4yj2a54mx">
     <dep model="f:java_stub#37a3367b-1fb2-44d8-aa6b-18075e74e003#jetbrains.mps.lang.typesystem.runtime(MPS.Classpath/jetbrains.mps.lang.typesystem.runtime@java_stub)" />
     <dep model="r:00000000-0000-4000-0000-011c895902b4(jetbrains.mps.lang.typesystem.structure)" />
     <dep model="r:00000000-0000-4000-0000-011c895902b7(jetbrains.mps.lang.typesystem.generator.baseLanguage.template.main@generator)" />
@@ -342,7 +342,7 @@
     <dep model="r:f04c1476-2f91-4f59-be13-c8e009abebee(jetbrains.mps.baseLanguageInternal.generator.template.main@generator)" />
     <file name="typeof_NeverExpression_InferenceRule.java" />
   </source>
-  <source id="1238249028992" name="typeof_MathDateTimeOperation" hash="8nge24fxmrrmxazigo1e7kk3osfypjt">
+  <source id="1238249028992" name="typeof_MathDateTimeOperation" hash="b2vpmpp61vqp5b7uvbakziqnvliig4q">
     <dep model="f:java_stub#37a3367b-1fb2-44d8-aa6b-18075e74e003#jetbrains.mps.lang.typesystem.runtime(MPS.Classpath/jetbrains.mps.lang.typesystem.runtime@java_stub)" />
     <dep model="r:00000000-0000-4000-0000-011c895902b4(jetbrains.mps.lang.typesystem.structure)" />
     <dep model="r:00000000-0000-4000-0000-011c895902b7(jetbrains.mps.lang.typesystem.generator.baseLanguage.template.main@generator)" />
@@ -437,7 +437,7 @@
     <dep model="r:f04c1476-2f91-4f59-be13-c8e009abebee(jetbrains.mps.baseLanguageInternal.generator.template.main@generator)" />
     <file name="typeof_InlineFormatExpression_InferenceRule.java" />
   </source>
-  <source id="1239019312803" name="typeof_TimeZoneFromString" hash="-9fmxd09ivor2bhl2ozg87z65c4h0o54">
+  <source id="1239019312803" name="typeof_TimeZoneFromString" hash="5xz3wfbqabgtibnqi8kjdln8dz9rbdn">
     <dep model="f:java_stub#37a3367b-1fb2-44d8-aa6b-18075e74e003#jetbrains.mps.lang.typesystem.runtime(MPS.Classpath/jetbrains.mps.lang.typesystem.runtime@java_stub)" />
     <dep model="r:00000000-0000-4000-0000-011c895902b4(jetbrains.mps.lang.typesystem.structure)" />
     <dep model="r:00000000-0000-4000-0000-011c895902b7(jetbrains.mps.lang.typesystem.generator.baseLanguage.template.main@generator)" />
@@ -456,7 +456,7 @@
     <dep model="r:f04c1476-2f91-4f59-be13-c8e009abebee(jetbrains.mps.baseLanguageInternal.generator.template.main@generator)" />
     <file name="typeof_TimeZoneFromString_InferenceRule.java" />
   </source>
-  <source id="1239808411566" name="typeof_PeriodInPropertyOperation" hash="alfudch4cjb48sv3l62mcuufdehzt88">
+  <source id="1239808411566" name="typeof_PeriodInPropertyOperation" hash="9gw3wlm3hqpfnotl1r4u4t5ng6fl1px">
     <dep model="f:java_stub#37a3367b-1fb2-44d8-aa6b-18075e74e003#jetbrains.mps.lang.typesystem.runtime(MPS.Classpath/jetbrains.mps.lang.typesystem.runtime@java_stub)" />
     <dep model="r:00000000-0000-4000-0000-011c895902b4(jetbrains.mps.lang.typesystem.structure)" />
     <dep model="r:00000000-0000-4000-0000-011c895902b7(jetbrains.mps.lang.typesystem.generator.baseLanguage.template.main@generator)" />
@@ -475,7 +475,7 @@
     <dep model="r:f04c1476-2f91-4f59-be13-c8e009abebee(jetbrains.mps.baseLanguageInternal.generator.template.main@generator)" />
     <file name="typeof_PeriodInPropertyOperation_InferenceRule.java" />
   </source>
-  <source id="1239808490255" name="typeof_WithPropertyCompareExpression" hash="-9huf1tk4iwk1ab66nv6p39700oss773">
+  <source id="1239808490255" name="typeof_WithPropertyCompareExpression" hash="a4ck6fr19sl7j53qo6befmovp25zph9">
     <dep model="f:java_stub#37a3367b-1fb2-44d8-aa6b-18075e74e003#jetbrains.mps.lang.typesystem.runtime(MPS.Classpath/jetbrains.mps.lang.typesystem.runtime@java_stub)" />
     <dep model="r:00000000-0000-4000-0000-011c895902b4(jetbrains.mps.lang.typesystem.structure)" />
     <dep model="r:00000000-0000-4000-0000-011c895902b7(jetbrains.mps.lang.typesystem.generator.baseLanguage.template.main@generator)" />
@@ -494,7 +494,7 @@
     <dep model="r:f04c1476-2f91-4f59-be13-c8e009abebee(jetbrains.mps.baseLanguageInternal.generator.template.main@generator)" />
     <file name="typeof_WithPropertyCompareExpression_InferenceRule.java" />
   </source>
-  <source id="1892577441204759551" name="typeof_ParseExpression" hash="-7zi74pkyz4urv52zx576sq1uhuomkhf">
+  <source id="1892577441204759551" name="typeof_ParseExpression" hash="6iclw03apf9ls6acxtnzjg1jl78pif4">
     <dep model="f:java_stub#37a3367b-1fb2-44d8-aa6b-18075e74e003#jetbrains.mps.lang.typesystem.runtime(MPS.Classpath/jetbrains.mps.lang.typesystem.runtime@java_stub)" />
     <dep model="r:00000000-0000-4000-0000-011c895902b4(jetbrains.mps.lang.typesystem.structure)" />
     <dep model="r:00000000-0000-4000-0000-011c895902b7(jetbrains.mps.lang.typesystem.generator.baseLanguage.template.main@generator)" />
@@ -513,7 +513,7 @@
     <dep model="r:f04c1476-2f91-4f59-be13-c8e009abebee(jetbrains.mps.baseLanguageInternal.generator.template.main@generator)" />
     <file name="typeof_ParseExpression_InferenceRule.java" />
   </source>
-  <source id="2639623922402551149" name="typeof_RoundDateTimeOperation" hash="1q9n6j7137ms020h0c9gryxlg07goao">
+  <source id="2639623922402551149" name="typeof_RoundDateTimeOperation" hash="-9tkczra555l11ds9o569cz0rxlmhb86">
     <dep model="f:java_stub#37a3367b-1fb2-44d8-aa6b-18075e74e003#jetbrains.mps.lang.typesystem.runtime(MPS.Classpath/jetbrains.mps.lang.typesystem.runtime@java_stub)" />
     <dep model="r:00000000-0000-4000-0000-011c895902b4(jetbrains.mps.lang.typesystem.structure)" />
     <dep model="r:00000000-0000-4000-0000-011c895902b7(jetbrains.mps.lang.typesystem.generator.baseLanguage.template.main@generator)" />
@@ -532,7 +532,7 @@
     <dep model="r:f04c1476-2f91-4f59-be13-c8e009abebee(jetbrains.mps.baseLanguageInternal.generator.template.main@generator)" />
     <file name="typeof_RoundDateTimeOperation_InferenceRule.java" />
   </source>
-  <source id="2639623922402698218" name="typeof_InTimezone" hash="bt8dor3ff22ulh1e16he9hl7v03wi5t">
+  <source id="2639623922402698218" name="typeof_InTimezone" hash="7l9lfvzs0n7dae1f65bnehtw792qdul">
     <dep model="f:java_stub#37a3367b-1fb2-44d8-aa6b-18075e74e003#jetbrains.mps.lang.typesystem.runtime(MPS.Classpath/jetbrains.mps.lang.typesystem.runtime@java_stub)" />
     <dep model="r:00000000-0000-4000-0000-011c895902b4(jetbrains.mps.lang.typesystem.structure)" />
     <dep model="r:00000000-0000-4000-0000-011c895902b7(jetbrains.mps.lang.typesystem.generator.baseLanguage.template.main@generator)" />
@@ -668,7 +668,7 @@
     <dep model="r:f04c1476-2f91-4f59-be13-c8e009abebee(jetbrains.mps.baseLanguageInternal.generator.template.main@generator)" />
     <file name="typeof_ConvertToJodaDateTimeOperation_InferenceRule.java" />
   </source>
-  <source id="670620798051999095" name="typeof_DateTimePropetyReferenceOperation" hash="2bef3bqorjk1irnlzxgt2elt5w3dp6q">
+  <source id="670620798051999095" name="typeof_DateTimePropetyReferenceOperation" hash="-3dfams3zow1x7spp3qa5vngffwqsu0s">
     <dep model="f:java_stub#37a3367b-1fb2-44d8-aa6b-18075e74e003#jetbrains.mps.lang.typesystem.runtime(MPS.Classpath/jetbrains.mps.lang.typesystem.runtime@java_stub)" />
     <dep model="r:00000000-0000-4000-0000-011c89590288(jetbrains.mps.lang.core.structure)" />
     <dep model="r:00000000-0000-4000-0000-011c895902b4(jetbrains.mps.lang.typesystem.structure)" />
@@ -794,7 +794,7 @@
     <dep model="r:f04c1476-2f91-4f59-be13-c8e009abebee(jetbrains.mps.baseLanguageInternal.generator.template.main@generator)" />
     <file name="typeof_ConvertToDurationOperation_InferenceRule.java" />
   </source>
-  <source id="276836602888578318" name="typeof_PeriodInPropertyExpression" hash="eb94k7bghoij09yj6919kj317ecypg2">
+  <source id="276836602888578318" name="typeof_PeriodInPropertyExpression" hash="evjgkt0c3nyeptn9tlok0pueyi9dhtn">
     <dep model="f:java_stub#37a3367b-1fb2-44d8-aa6b-18075e74e003#jetbrains.mps.lang.typesystem.runtime(MPS.Classpath/jetbrains.mps.lang.typesystem.runtime@java_stub)" />
     <dep model="r:00000000-0000-4000-0000-011c895902b4(jetbrains.mps.lang.typesystem.structure)" />
     <dep model="r:00000000-0000-4000-0000-011c895902b7(jetbrains.mps.lang.typesystem.generator.baseLanguage.template.main@generator)" />
@@ -870,7 +870,7 @@
     <dep model="r:f04c1476-2f91-4f59-be13-c8e009abebee(jetbrains.mps.baseLanguageInternal.generator.template.main@generator)" />
     <file name="typeof_FormatPeriodExpression_InferenceRule.java" />
   </source>
-  <source id="5293902215864051661" name="typeof_TimeZoneIdOperation" hash="bvisoymz68s7v0os7bstq023z4nwdou">
+  <source id="5293902215864051661" name="typeof_TimeZoneIdOperation" hash="-1aqsz59x0hi6xlu8589ttf5lzrx2qgv">
     <dep model="f:java_stub#37a3367b-1fb2-44d8-aa6b-18075e74e003#jetbrains.mps.lang.typesystem.runtime(MPS.Classpath/jetbrains.mps.lang.typesystem.runtime@java_stub)" />
     <dep model="r:00000000-0000-4000-0000-011c895902b4(jetbrains.mps.lang.typesystem.structure)" />
     <dep model="r:00000000-0000-4000-0000-011c895902b7(jetbrains.mps.lang.typesystem.generator.baseLanguage.template.main@generator)" />
@@ -890,7 +890,7 @@
     <dep model="r:f04c1476-2f91-4f59-be13-c8e009abebee(jetbrains.mps.baseLanguageInternal.generator.template.main@generator)" />
     <file name="typeof_TimeZoneIdOperation_InferenceRule.java" />
   </source>
-  <source id="5293902215864913134" name="typeof_TimeZoneNameOperation" hash="12lmi5ank8nhp75w164nvryibtkl5q2">
+  <source id="5293902215864913134" name="typeof_TimeZoneNameOperation" hash="-9ne4vswt2olsmrl1c5x26gic7o7bdlr">
     <dep model="f:java_stub#37a3367b-1fb2-44d8-aa6b-18075e74e003#jetbrains.mps.lang.typesystem.runtime(MPS.Classpath/jetbrains.mps.lang.typesystem.runtime@java_stub)" />
     <dep model="r:00000000-0000-4000-0000-011c895902b4(jetbrains.mps.lang.typesystem.structure)" />
     <dep model="r:00000000-0000-4000-0000-011c895902b7(jetbrains.mps.lang.typesystem.generator.baseLanguage.template.main@generator)" />

@@ -30,7 +30,7 @@ public class typeof_FormatExpression_InferenceRule extends AbstractInferenceRule
       SNode _nodeToCheck_1029348928467 = SLinkOperations.getTarget(formatExpression, "dateExpression", true);
       BaseQuickFixProvider intentionProvider = null;
       EquationInfo _info_12389875345 = new EquationInfo(_nodeToCheck_1029348928467, "datetime was expected", "r:00000000-0000-4000-0000-011c895903d1(jetbrains.mps.baseLanguage.dates.typesystem)", "1186143081061", 0, intentionProvider);
-      _info_12389875345.setInequationGroup("default");
+      _info_12389875345.setInequationGroup("");
       typeCheckingContext.createLessThanInequation((SNode) typeCheckingContext.typeOf(_nodeToCheck_1029348928467, "r:00000000-0000-4000-0000-011c895903d1(jetbrains.mps.baseLanguage.dates.typesystem)", "1186143074652", true), (SNode) new typeof_FormatExpression_InferenceRule.QuotationClass_vpbend_a0a1a0().createNode(typeCheckingContext), false, _info_12389875345);
     }
     {
