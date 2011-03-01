@@ -32,7 +32,7 @@
       <module fileurl="file://$PROJECT_DIR$/core/languageDesign/dataFlow/runtime/dataFlow-runtime.iml" filepath="$PROJECT_DIR$/core/languageDesign/dataFlow/runtime/dataFlow-runtime.iml" group="core/languageDesign/dataFlow" />
       <module fileurl="file://$PROJECT_DIR$/core/debug/debug.iml" filepath="$PROJECT_DIR$/core/debug/debug.iml" group="core/debug" />
       <module fileurl="file://$PROJECT_DIR$/core/debug-api/debug-api.iml" filepath="$PROJECT_DIR$/core/debug-api/debug-api.iml" group="core/debug" />
-      <module fileurl="file://$PROJECT_DIR$/core/debug/debugProject/solutions/jetbrains.mps.debug.tests/debugTests.iml" filepath="$PROJECT_DIR$/core/debug/debugProject/solutions/jetbrains.mps.debug.tests/debugTests.iml" group="core/debug" />
+      <module fileurl="file://$PROJECT_DIR$/core/debug/solutions/jetbrains.mps.debug.tests/debugTests.iml" filepath="$PROJECT_DIR$/core/debug/solutions/jetbrains.mps.debug.tests/debugTests.iml" group="core/debug" />
       <module fileurl="file://$PROJECT_DIR$/plugins/debugger-api/debugger-api.iml" filepath="$PROJECT_DIR$/plugins/debugger-api/debugger-api.iml" group="plugins" />
       <module fileurl="file://$PROJECT_DIR$/plugins/debugger-java/debugger-java.iml" filepath="$PROJECT_DIR$/plugins/debugger-java/debugger-java.iml" group="plugins" />
       <module fileurl="file://$PROJECT_DIR$/platform/buildlanguage/languages/distrib/distrib.iml" filepath="$PROJECT_DIR$/platform/buildlanguage/languages/distrib/distrib.iml" group="platform/build" />
