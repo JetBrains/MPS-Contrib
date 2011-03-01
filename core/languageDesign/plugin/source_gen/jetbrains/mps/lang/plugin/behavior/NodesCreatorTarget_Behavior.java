@@ -10,6 +10,6 @@ public class NodesCreatorTarget_Behavior {
   }
 
   public static SNode virtual_getParameter_7559322914920378168(SNode thisNode) {
-    return SNodeOperations.getNode("f:java_stub#jetbrains.mps.smodel(jetbrains.mps.smodel@java_stub)", "~SNode");
+    return SNodeOperations.getNode("f:java_stub#37a3367b-1fb2-44d8-aa6b-18075e74e003#jetbrains.mps.smodel(MPS.Classpath/jetbrains.mps.smodel@java_stub)", "~SNode");
   }
 }

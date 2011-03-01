@@ -5,7 +5,6 @@
   </models>
   <sourcePath />
   <dependencies>
-    <dependency reexport="false">9b80526e-f0bf-4992-bdf5-cee39c1833f3(collections.runtime)</dependency>
     <dependency reexport="false">dd0b904b-7c6b-48aa-8557-baf05cd83f66(jetbrains.mps.graphLayout.geom)</dependency>
   </dependencies>
   <usedLanguages>
