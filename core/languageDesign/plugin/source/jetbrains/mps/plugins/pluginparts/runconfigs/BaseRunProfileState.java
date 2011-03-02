@@ -4,11 +4,11 @@ import com.intellij.execution.Executor;
 import com.intellij.execution.runners.ProgramRunner;
 import com.intellij.openapi.project.Project;
 import com.intellij.openapi.util.Key;
-import jetbrains.mps.debug.api.AbstractDebugSessionCreator;
-import jetbrains.mps.debug.api.DefaultDebugger;
-import jetbrains.mps.debug.api.IDebugger;
-import jetbrains.mps.debug.api.ToRemove;
+import jetbrains.mps.debug.DebuggerKeys;
+import jetbrains.mps.debug.api.*;
 import jetbrains.mps.debug.api.run.DebuggerRunProfileState;
+import jetbrains.mps.debug.runtime.settings.DebugConnectionSettings;
+import jetbrains.mps.debug.runtime.settings.LocalConnectionSettings;
 import org.jetbrains.annotations.NotNull;
 import org.jetbrains.annotations.Nullable;
 
@@ -35,6 +35,17 @@ public abstract class BaseRunProfileState extends DebuggerRunProfileState {
   @Nullable
   public Object prepare(final Executor executor, @NotNull ProgramRunner runner) {
     return null;
+  }
+
+  @Override
+  protected void updateDebuggerSettings() {
+    super.updateDebuggerSettings();
+    putUserData(DebuggerKeys.CONNECTION_SETTINGS, myDebuggerSettings.getCommandLine(true));
+  }
+
+  @Override
+  public IDebuggerSettings createDebuggerSettings() {
+    return new LocalConnectionSettings(true);
   }
 
   @Override
