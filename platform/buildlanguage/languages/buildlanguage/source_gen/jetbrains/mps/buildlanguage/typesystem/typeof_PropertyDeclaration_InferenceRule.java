@@ -21,7 +21,6 @@ public class typeof_PropertyDeclaration_InferenceRule extends AbstractInferenceR
       SNode _nodeToCheck_1029348928467 = SLinkOperations.getTarget(nodeToCheck, "propertyValue", true);
       BaseQuickFixProvider intentionProvider = null;
       EquationInfo _info_12389875345 = new EquationInfo(_nodeToCheck_1029348928467, null, "r:00000000-0000-4000-0000-011c895904c4(jetbrains.mps.buildlanguage.typesystem)", "1196871226604", 0, intentionProvider);
-      _info_12389875345.setInequationGroup("");
       typeCheckingContext.createLessThanInequation((SNode) typeCheckingContext.typeOf(_nodeToCheck_1029348928467, "r:00000000-0000-4000-0000-011c895904c4(jetbrains.mps.buildlanguage.typesystem)", "1196871226606", true), (SNode) SLinkOperations.getTarget(nodeToCheck, "type", true), false, _info_12389875345);
     }
     {
