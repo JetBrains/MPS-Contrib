@@ -51,6 +51,7 @@
       <module fileurl="file://$PROJECT_DIR$/core/baseLanguage/logging/logging.iml" filepath="$PROJECT_DIR$/core/baseLanguage/logging/logging.iml" group="core/baseLanguage" />
       <module fileurl="file://$PROJECT_DIR$/core/languageDesign/make/make.iml" filepath="$PROJECT_DIR$/core/languageDesign/make/make.iml" group="core/languageDesign" />
       <module fileurl="file://$PROJECT_DIR$/core/make-runtime/make-runtime.iml" filepath="$PROJECT_DIR$/core/make-runtime/make-runtime.iml" group="core" />
+      <module fileurl="file://$PROJECT_DIR$/plugins/migration/migration.iml" filepath="$PROJECT_DIR$/plugins/migration/migration.iml" group="plugins" />
       <module fileurl="file://$PROJECT_DIR$/testbench/modules/miscTests/miscTests.iml" filepath="$PROJECT_DIR$/testbench/modules/miscTests/miscTests.iml" />
       <module fileurl="file://$PROJECT_DIR$/plugins/modelchecker/modelchecker.iml" filepath="$PROJECT_DIR$/plugins/modelchecker/modelchecker.iml" group="plugins" />
       <module fileurl="file://$PROJECT_DIR$/plugins/mpsdevkit/mpsdevkit.iml" filepath="$PROJECT_DIR$/plugins/mpsdevkit/mpsdevkit.iml" group="plugins" />

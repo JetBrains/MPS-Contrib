@@ -30,7 +30,6 @@ public class typeof_PeriodInPropertyOperation_InferenceRule extends AbstractInfe
       SNode _nodeToCheck_1029348928467 = SLinkOperations.getTarget(operation, "datetime", true);
       BaseQuickFixProvider intentionProvider = null;
       EquationInfo _info_12389875345 = new EquationInfo(_nodeToCheck_1029348928467, null, "r:00000000-0000-4000-0000-011c895903d1(jetbrains.mps.baseLanguage.dates.typesystem)", "1548440323223477055", 0, intentionProvider);
-      _info_12389875345.setInequationGroup("default");
       typeCheckingContext.createLessThanInequation((SNode) typeCheckingContext.typeOf(_nodeToCheck_1029348928467, "r:00000000-0000-4000-0000-011c895903d1(jetbrains.mps.baseLanguage.dates.typesystem)", "1548440323223477057", true), (SNode) new typeof_PeriodInPropertyOperation_InferenceRule.QuotationClass_43til6_a0a1a0().createNode(typeCheckingContext), false, _info_12389875345);
     }
   }

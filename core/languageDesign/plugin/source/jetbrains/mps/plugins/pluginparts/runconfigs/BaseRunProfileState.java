@@ -7,8 +7,8 @@ import com.intellij.openapi.util.Key;
 import jetbrains.mps.debug.DebuggerKeys;
 import jetbrains.mps.debug.api.*;
 import jetbrains.mps.debug.api.run.DebuggerRunProfileState;
-import jetbrains.mps.debug.runtime.settings.DebugConnectionSettings;
 import jetbrains.mps.debug.runtime.settings.LocalConnectionSettings;
+import jetbrains.mps.util.annotation.ToRemove;
 import org.jetbrains.annotations.NotNull;
 import org.jetbrains.annotations.Nullable;
 

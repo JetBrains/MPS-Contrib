@@ -22,7 +22,6 @@ public class typeof_XMLAttributeBuilder_InferenceRule extends AbstractInferenceR
       SNode _nodeToCheck_1029348928467 = SLinkOperations.getTarget(builder, "value", true);
       BaseQuickFixProvider intentionProvider = null;
       EquationInfo _info_12389875345 = new EquationInfo(_nodeToCheck_1029348928467, null, "r:d89ddc4c-de44-408f-97b1-095c4af64bfb(jetbrains.mps.xmlQuery.typesystem)", "10026583185000617", 0, intentionProvider);
-      _info_12389875345.setInequationGroup("default");
       typeCheckingContext.createLessThanInequation((SNode) typeCheckingContext.typeOf(_nodeToCheck_1029348928467, "r:d89ddc4c-de44-408f-97b1-095c4af64bfb(jetbrains.mps.xmlQuery.typesystem)", "10026583185000630", true), (SNode) SchemaUtil.getAttributeType(SLinkOperations.getTarget(builder, "attributeDeclaration", false)), false, _info_12389875345);
     }
   }

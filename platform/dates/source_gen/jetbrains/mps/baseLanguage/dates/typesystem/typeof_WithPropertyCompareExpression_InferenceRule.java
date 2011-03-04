@@ -30,14 +30,12 @@ public class typeof_WithPropertyCompareExpression_InferenceRule extends Abstract
       SNode _nodeToCheck_1029348928467 = SLinkOperations.getTarget(SLinkOperations.getTarget(expression, "operation", true), "leftExpression", true);
       BaseQuickFixProvider intentionProvider = null;
       EquationInfo _info_12389875345 = new EquationInfo(_nodeToCheck_1029348928467, null, "r:00000000-0000-4000-0000-011c895903d1(jetbrains.mps.baseLanguage.dates.typesystem)", "5600029375248457527", 0, intentionProvider);
-      _info_12389875345.setInequationGroup("default");
       typeCheckingContext.createLessThanInequation((SNode) typeCheckingContext.typeOf(_nodeToCheck_1029348928467, "r:00000000-0000-4000-0000-011c895903d1(jetbrains.mps.baseLanguage.dates.typesystem)", "5600029375248457529", true), (SNode) new typeof_WithPropertyCompareExpression_InferenceRule.QuotationClass_gmcmj9_a0a1a0().createNode(typeCheckingContext), true, _info_12389875345);
     }
     {
       SNode _nodeToCheck_1029348928467 = SLinkOperations.getTarget(SLinkOperations.getTarget(expression, "operation", true), "rightExpression", true);
       BaseQuickFixProvider intentionProvider = null;
       EquationInfo _info_12389875345 = new EquationInfo(_nodeToCheck_1029348928467, null, "r:00000000-0000-4000-0000-011c895903d1(jetbrains.mps.baseLanguage.dates.typesystem)", "5600029375248457538", 0, intentionProvider);
-      _info_12389875345.setInequationGroup("default");
       typeCheckingContext.createLessThanInequation((SNode) typeCheckingContext.typeOf(_nodeToCheck_1029348928467, "r:00000000-0000-4000-0000-011c895903d1(jetbrains.mps.baseLanguage.dates.typesystem)", "5600029375248457540", true), (SNode) new typeof_WithPropertyCompareExpression_InferenceRule.QuotationClass_gmcmj9_a0a2a0().createNode(typeCheckingContext), true, _info_12389875345);
     }
   }
