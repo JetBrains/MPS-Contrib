@@ -92,6 +92,24 @@
     <classNode extendsClassName="jetbrains.mps.intentions.BaseIntention" />
     <classNode extendsClassName="jetbrains.mps.intentions.Intention" />
   </dependency>
+  <dependency className="jetbrains.mps.baseLanguage.dates.intentions.IntentionsDescriptor" file="IntentionsDescriptor.java">
+    <classNode dependClassName="jetbrains.mps.project.structure.modules.ModuleReference" />
+    <classNode dependClassName="jetbrains.mps.baseLanguage.dates.intentions.AddDateTimePropertyForPeriod_Intention" />
+    <classNode dependClassName="jetbrains.mps.baseLanguage.dates.intentions.remove_PeriodInPropertyExpression_Intention" />
+    <classNode dependClassName="jetbrains.mps.baseLanguage.dates.intentions.RoundDateTimeOperation_fixInstant_Intention" />
+    <classNode dependClassName="jetbrains.mps.baseLanguage.dates.intentions.AddDateTimeProperty_Intention" />
+    <classNode dependClassName="jetbrains.mps.baseLanguage.dates.intentions.RemoveDateTimePropertyFromPeriod_Intention" />
+    <classNode dependClassName="jetbrains.mps.baseLanguage.dates.intentions.InlineFormatExpression_convert_Intention" />
+    <classNode dependClassName="jetbrains.mps.baseLanguage.dates.intentions.ConvertDateTimeMinusToMinus_Intention" />
+    <classNode dependClassName="jetbrains.mps.baseLanguage.dates.intentions.ConvertDateTimePlusToPlus_Intention" />
+    <classNode dependClassName="jetbrains.mps.smodel.SModelReference" />
+    <classNode dependClassName="jetbrains.mps.baseLanguage.dates.intentions.ParseExpression_convert_Intention" />
+    <classNode dependClassName="jetbrains.mps.baseLanguage.dates.intentions.FormatExpression_convert_Intention" />
+    <classNode dependClassName="jetbrains.mps.baseLanguage.dates.intentions.RemoveDateTimeProperty_Intention" />
+    <classNode dependClassName="jetbrains.mps.baseLanguage.dates.intentions.DateTimeWithPropertyOperation_fixInstance_Intention" />
+    <classNode dependClassName="jetbrains.mps.baseLanguage.dates.intentions.ConvertToDateTimeInMath_Intention" />
+    <classNode extendsClassName="jetbrains.mps.intentions.BaseIntentionsDescriptor" />
+  </dependency>
   <dependency className="jetbrains.mps.baseLanguage.dates.intentions.ParseExpression_convert_Intention" file="ParseExpression_convert_Intention.java">
     <classNode dependClassName="jetbrains.mps.lang.smodel.generator.smodelAdapter.SNodeOperations" />
     <classNode dependClassName="jetbrains.mps.lang.smodel.generator.smodelAdapter.SLinkOperations" />

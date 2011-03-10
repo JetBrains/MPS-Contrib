@@ -1,5 +1,18 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <dependenciesRoot>
+  <dependency className="jetbrains.mps.xml.intentions.IntentionsDescriptor" file="IntentionsDescriptor.java">
+    <classNode dependClassName="jetbrains.mps.xml.intentions.SurroundWithContentList_Intention" />
+    <classNode dependClassName="jetbrains.mps.project.structure.modules.ModuleReference" />
+    <classNode dependClassName="jetbrains.mps.xml.intentions.ReplaceNodeWithItsContent_Intention" />
+    <classNode dependClassName="jetbrains.mps.xml.intentions.MakeElementVertical_Intention" />
+    <classNode dependClassName="jetbrains.mps.smodel.SModelReference" />
+    <classNode dependClassName="jetbrains.mps.xml.intentions.MakeElementNotEmpty_Intention" />
+    <classNode dependClassName="jetbrains.mps.xml.intentions.MakeElementEmpty_Intention" />
+    <classNode dependClassName="jetbrains.mps.xml.intentions.MakeElementHorizontal_Intention" />
+    <classNode dependClassName="jetbrains.mps.xml.intentions.MakeContentListVertical_Intention" />
+    <classNode dependClassName="jetbrains.mps.xml.intentions.MakeContentListHorizontal_Intention" />
+    <classNode extendsClassName="jetbrains.mps.intentions.BaseIntentionsDescriptor" />
+  </dependency>
   <dependency className="jetbrains.mps.xml.intentions.MakeContentListHorizontal_Intention" file="MakeContentListHorizontal_Intention.java">
     <classNode dependClassName="jetbrains.mps.smodel.SNode" />
     <classNode dependClassName="jetbrains.mps.lang.smodel.generator.smodelAdapter.SPropertyOperations" />

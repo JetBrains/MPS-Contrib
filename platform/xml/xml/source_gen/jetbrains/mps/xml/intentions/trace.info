@@ -1,5 +1,6 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <debugInfo>
+  <unitInfo fileName="IntentionsDescriptor.java" startLine="9" startPosition="0" endLine="25" endPosition="0" unitName="jetbrains.mps.xml.intentions.IntentionsDescriptor" />
   <unitInfo fileName="MakeElementNotEmpty_Intention.java" startLine="11" startPosition="0" endLine="54" endPosition="0" unitName="jetbrains.mps.xml.intentions.MakeElementNotEmpty_Intention" />
   <unitInfo fileName="MakeContentListVertical_Intention.java" startLine="12" startPosition="0" endLine="55" endPosition="0" unitName="jetbrains.mps.xml.intentions.MakeContentListVertical_Intention" />
   <unitInfo fileName="MakeContentListHorizontal_Intention.java" startLine="12" startPosition="0" endLine="55" endPosition="0" unitName="jetbrains.mps.xml.intentions.MakeContentListHorizontal_Intention" />
