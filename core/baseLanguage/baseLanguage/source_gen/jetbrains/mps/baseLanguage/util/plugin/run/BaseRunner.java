@@ -17,13 +17,10 @@ import java.util.Set;
 import jetbrains.mps.internal.collections.runtime.SetSequence;
 import java.util.HashSet;
 import jetbrains.mps.vfs.IFile;
+import jetbrains.mps.reloading.ClasspathStringCollector;
 import jetbrains.mps.project.AbstractModule;
 import jetbrains.mps.util.CollectionUtil;
 import jetbrains.mps.reloading.CommonPaths;
-import jetbrains.mps.reloading.IClassPathItem;
-import jetbrains.mps.reloading.EachClassPathItemVisitor;
-import jetbrains.mps.reloading.FileClassPathItem;
-import jetbrains.mps.reloading.JarFileClassPathItem;
 import org.jetbrains.annotations.NotNull;
 import jetbrains.mps.internal.collections.runtime.backports.LinkedList;
 import java.io.File;
@@ -146,38 +143,27 @@ public abstract class BaseRunner {
   }
 
   protected static Set<String> getModuleClasspath(IModule module, boolean withDependencies) {
-    Set<String> res = SetSequence.fromSet(new HashSet<String>());
+    Set<String> result = SetSequence.fromSet(new HashSet<String>());
     IFile classesGen = module.getClassesGen();
     if (classesGen != null) {
-      SetSequence.fromSet(res).addElement(classesGen.getAbsolutePath());
+      SetSequence.fromSet(result).addElement(classesGen.getAbsolutePath());
     }
-    createModuleClasspath(module.getClassPathItem(), res);
+
+    ClasspathStringCollector collector = new ClasspathStringCollector();
+    module.getClassPathItem().accept(collector);
     if (withDependencies) {
-      createModuleClasspath(AbstractModule.getDependenciesClasspath(CollectionUtil.set(module), true), res);
+      AbstractModule.getDependenciesClasspath(CollectionUtil.set(module), true).accept(collector);
     }
 
     Set<String> delete = SetSequence.fromSet(new HashSet<String>());
     List<String> jdkPath = CommonPaths.getJDKPath();
-    for (String cpItem : SetSequence.fromSet(res)) {
-      if (jdkPath.contains(cpItem)) {
-        SetSequence.fromSet(delete).addElement(cpItem);
+    List<String> cpList = collector.getResultAndReInit();
+    for (String cpItem : ListSequence.fromList(cpList)) {
+      if (!(jdkPath.contains(cpItem))) {
+        SetSequence.fromSet(result).addElement(cpItem);
       }
     }
-
-    SetSequence.fromSet(res).removeSequence(SetSequence.fromSet(delete));
-    return res;
-  }
-
-  private static void createModuleClasspath(IClassPathItem cp, final Set<String> res) {
-    cp.accept(new EachClassPathItemVisitor() {
-      public void visit(FileClassPathItem p0) {
-        SetSequence.fromSet(res).addElement(p0.getClassPath());
-      }
-
-      public void visit(JarFileClassPathItem p0) {
-        SetSequence.fromSet(res).addElement(p0.getFile().getAbsolutePath());
-      }
-    });
+    return result;
   }
 
   @NotNull
