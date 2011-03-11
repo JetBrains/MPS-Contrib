@@ -16,14 +16,8 @@ import com.intellij.execution.configurations.GeneralCommandLine;
 import java.util.Set;
 import jetbrains.mps.internal.collections.runtime.SetSequence;
 import java.util.HashSet;
-import jetbrains.mps.vfs.IFile;
-import jetbrains.mps.reloading.ClasspathStringCollector;
-import jetbrains.mps.project.AbstractModule;
-import jetbrains.mps.util.CollectionUtil;
-import jetbrains.mps.reloading.CommonPaths;
+import jetbrains.mps.runConfigurations.utils.Java_Command;
 import org.jetbrains.annotations.NotNull;
-import jetbrains.mps.internal.collections.runtime.backports.LinkedList;
-import java.io.File;
 
 public abstract class BaseRunner {
   private String myJavaHome = System.getProperty("java.home");
@@ -143,76 +137,19 @@ public abstract class BaseRunner {
   }
 
   protected static Set<String> getModuleClasspath(IModule module, boolean withDependencies) {
-    Set<String> result = SetSequence.fromSet(new HashSet<String>());
-    IFile classesGen = module.getClassesGen();
-    if (classesGen != null) {
-      SetSequence.fromSet(result).addElement(classesGen.getAbsolutePath());
-    }
-
-    ClasspathStringCollector collector = new ClasspathStringCollector();
-    module.getClassPathItem().accept(collector);
-    if (withDependencies) {
-      AbstractModule.getDependenciesClasspath(CollectionUtil.set(module), true).accept(collector);
-    }
-
-    Set<String> delete = SetSequence.fromSet(new HashSet<String>());
-    List<String> jdkPath = CommonPaths.getJDKPath();
-    List<String> cpList = collector.getResultAndReInit();
-    for (String cpItem : ListSequence.fromList(cpList)) {
-      if (!(jdkPath.contains(cpItem))) {
-        SetSequence.fromSet(result).addElement(cpItem);
-      }
-    }
-    return result;
+    return SetSequence.fromSetWithValues(new HashSet<String>(), Java_Command.getClasspath(module, withDependencies));
   }
 
   @NotNull
   public static String getJavaCommand(String javaHome) {
-    String result = javaHome + fs() + "bin" + fs();
-    String osName = System.getProperty("os.name");
-    if (osName.startsWith("Mac OS")) {
-      return result + "java";
-    } else
-    if (osName.startsWith("Windows")) {
-      return result + "java.exe";
-    } else {
-      return result + "java";
-    }
+    return Java_Command.getJavaCommand(javaHome);
   }
 
   public static List<String> getJavaHomes() {
-    String systemJavaHome = System.getProperty("java.home");
-    List<String> homes = ListSequence.fromList(new LinkedList<String>());
-    String systemJdkHome = systemJavaHome.substring(0, systemJavaHome.length() - "/jre".length());
-    if (systemJavaHome.endsWith("jre") && new File(systemJdkHome + File.separator + "bin").exists()) {
-      ListSequence.fromList(homes).addElement(systemJdkHome);
-    }
-    if (StringUtils.isNotEmpty(System.getenv("JAVA_HOME"))) {
-      ListSequence.fromList(homes).addElement(System.getenv("JAVA_HOME"));
-    }
-    ListSequence.fromList(homes).addElement(systemJavaHome);
-    return homes;
+    return Java_Command.getJavaHomes();
   }
 
   public static String getJdkHome() {
-    for (String javaHome : ListSequence.fromList(BaseRunner.getJavaHomes())) {
-      String javaBinHome = javaHome + File.separator + "bin" + File.separator;
-      String osName = System.getProperty("os.name");
-      if (osName.startsWith("Mac OS")) {
-        if (new File(javaBinHome + "java").exists()) {
-          return javaHome;
-        }
-      } else
-      if (osName.startsWith("Windows")) {
-        if (new File(javaBinHome + "java.exe").exists()) {
-          return javaHome;
-        }
-      } else {
-        if (new File(javaBinHome + "java").exists()) {
-          return javaHome;
-        }
-      }
-    }
-    return ListSequence.fromList(BaseRunner.getJavaHomes()).first();
+    return Java_Command.getJdkHome();
   }
 }
