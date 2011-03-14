@@ -28,6 +28,7 @@ import jetbrains.mps.internal.collections.runtime.SetSequence;
 import java.util.HashSet;
 import jetbrains.mps.lang.smodel.generator.smodelAdapter.SNodeOperations;
 import java.util.LinkedHashSet;
+import jetbrains.mps.runConfigurations.utils.Java_Command;
 
 public class UnitTestRunner extends BaseRunner {
   private static final int MAX_COMMAND_LINE = 16384;
@@ -179,13 +180,13 @@ public class UnitTestRunner extends BaseRunner {
     }
     Set<String> classpath = SetSequence.fromSet(new LinkedHashSet<String>());
     for (IModule module : uniqueModules) {
-      SetSequence.fromSet(classpath).addSequence(SetSequence.fromSet(BaseRunner.getModuleClasspath(module, true)));
+      SetSequence.fromSet(classpath).addSequence(ListSequence.fromList(Java_Command.getClasspath(module, true)));
     }
     ListSequence.fromList(additionalClassPath).addSequence(SetSequence.fromSet(classpath));
 
     StringBuffer buff = new StringBuffer();
     for (String path : additionalClassPath) {
-      buff.append(path).append(BaseRunner.ps());
+      buff.append(path).append(Java_Command.ps());
     }
     return buff.toString();
   }
