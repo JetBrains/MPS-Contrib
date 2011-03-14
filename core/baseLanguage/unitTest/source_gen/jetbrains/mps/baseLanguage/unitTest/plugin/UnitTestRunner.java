@@ -18,6 +18,7 @@ import jetbrains.mps.internal.collections.runtime.IVisitor;
 import org.apache.commons.lang.StringUtils;
 import jetbrains.mps.internal.collections.runtime.Sequence;
 import jetbrains.mps.internal.collections.runtime.ILeftCombinator;
+import jetbrains.mps.runConfigurations.utils.ClassRunner;
 import java.io.File;
 import jetbrains.mps.util.FileUtil;
 import java.io.PrintWriter;
@@ -102,8 +103,6 @@ public class UnitTestRunner extends BaseRunner {
         classpathString.value = UnitTestRunner.this.getClasspathString(tests, parameters.getClassPath());
         UnitTestRunner.this.addClassPath(params, classpathString.value);
 
-        ListSequence.fromList(params).addElement(parameters.getTestRunner());
-
         testsCommandLine.value = ListSequence.fromList(new ArrayList<String>(ListSequence.fromList(tests).count()));
         for (ITestNodeWrapper test : ListSequence.fromList(tests)) {
           List<String> parametersPart = ListSequence.fromListAndArray(new ArrayList<String>(), (test.isTestCase() ?
@@ -124,8 +123,12 @@ public class UnitTestRunner extends BaseRunner {
     // according to http://blogs.msdn.com/b/oldnewthing/archive/2003/12/10/56028.aspx 
     // so I use nice and round number 16384=2**14-1 as an upper bound 
     if (classpathString.value.length() + testCommandLineLength.value < MAX_COMMAND_LINE) {
+      ListSequence.fromList(params).addElement(parameters.getTestRunner());
       ListSequence.fromList(params).addSequence(ListSequence.fromList(testsCommandLine.value));
     } else {
+      ListSequence.fromList(params).addElement(ClassRunner.class.getName());
+      ListSequence.fromList(params).addElement("-c");
+      ListSequence.fromList(params).addElement(parameters.getTestRunner());
       // if we are to long, we have to write everything into the tmp file 
       File tmpFile = FileUtil.createTmpFile();
       // we want to be sure that file is deleted, even when process is not started 
