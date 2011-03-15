@@ -18,7 +18,7 @@ import jetbrains.mps.internal.collections.runtime.IVisitor;
 import org.apache.commons.lang.StringUtils;
 import jetbrains.mps.internal.collections.runtime.Sequence;
 import jetbrains.mps.internal.collections.runtime.ILeftCombinator;
-import jetbrains.mps.runConfigurations.utils.ClassRunner;
+import jetbrains.mps.runConfigurations.lib.ClassRunner;
 import java.io.File;
 import jetbrains.mps.util.FileUtil;
 import java.io.PrintWriter;
@@ -29,7 +29,7 @@ import jetbrains.mps.internal.collections.runtime.SetSequence;
 import java.util.HashSet;
 import jetbrains.mps.lang.smodel.generator.smodelAdapter.SNodeOperations;
 import java.util.LinkedHashSet;
-import jetbrains.mps.runConfigurations.utils.Java_Command;
+import jetbrains.mps.runConfigurations.lib.Java_Command;
 
 public class UnitTestRunner extends BaseRunner {
   private static final int MAX_COMMAND_LINE = 16384;

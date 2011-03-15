@@ -17,7 +17,7 @@ import com.intellij.execution.configurations.GeneralCommandLine;
 import java.util.Set;
 import jetbrains.mps.internal.collections.runtime.SetSequence;
 import java.util.HashSet;
-import jetbrains.mps.runConfigurations.utils.Java_Command;
+import jetbrains.mps.runConfigurations.lib.Java_Command;
 import org.jetbrains.annotations.NotNull;
 
 @Deprecated
