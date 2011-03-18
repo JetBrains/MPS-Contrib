@@ -54,6 +54,10 @@ public class QueriesGenerated {
     return (SNodeOperations.getAncestor(_context.getNode(), "jetbrains.mps.lang.plugin.structure.ConfigurationEditorDeclaration", false, false) != null) && (SNodeOperations.getAncestor(_context.getNode(), "jetbrains.mps.baseLanguage.runConfigurations.structure.IOnChangeEditorBlock", false, false) == null);
   }
 
+  public static boolean baseMappingRule_Condition_1769265426473564960(final IOperationContext operationContext, final BaseMappingRuleContext _context) {
+    return (SNodeOperations.getAncestor(_context.getNode(), "jetbrains.mps.lang.plugin.structure.MakeConfigBlock", false, false) != null);
+  }
+
   public static Object propertyMacro_GetPropertyValue_1810772216404819116(final IOperationContext operationContext, final PropertyMacroContext _context) {
     return IJavaRunConfigurationParameter_Behavior.call_getVariableForExecuteBlockName_1810772216404807669(_context.getNode());
   }
@@ -162,10 +166,6 @@ public class QueriesGenerated {
     return (SLinkOperations.getTarget(_context.getNode(), "editor", true) != null);
   }
 
-  public static boolean ifMacro_Condition_3592413331517069553(final IOperationContext operationContext, final IfMacroContext _context) {
-    return SPropertyOperations.getBoolean(_context.getNode(), "generate");
-  }
-
   public static boolean ifMacro_Condition_4462513030604266151(final IOperationContext operationContext, final IfMacroContext _context) {
     return (SLinkOperations.getTarget(_context.getNode(), "isApplicableBlock", true) != null);
   }
@@ -210,6 +210,10 @@ public class QueriesGenerated {
     return SLinkOperations.getTarget(_context.getNode(), "prepareBlock", true);
   }
 
+  public static SNode sourceNodeQuery_1769265426473444142(final IOperationContext operationContext, final SourceSubstituteMacroNodeContext _context) {
+    return SLinkOperations.getTarget(_context.getNode(), "makeBlock", true);
+  }
+
   public static SNode sourceNodeQuery_7549816165173598500(final IOperationContext operationContext, final SourceSubstituteMacroNodeContext _context) {
     return TypeChecker.getInstance().getTypeOf(SLinkOperations.getTarget(SLinkOperations.getTarget(_context.getNode(), "editor", true), "editor", true));
   }
@@ -247,10 +251,6 @@ public class QueriesGenerated {
   }
 
   public static SNode sourceNodeQuery_1633282062187628598(final IOperationContext operationContext, final SourceSubstituteMacroNodeContext _context) {
-    return Node_FunctionParameter_Behavior.getParameterType_5147346160405686358(_context.getNode());
-  }
-
-  public static SNode sourceNodeQuery_1633282062187628611(final IOperationContext operationContext, final SourceSubstituteMacroNodeContext _context) {
     return Node_FunctionParameter_Behavior.getParameterType_5147346160405686358(_context.getNode());
   }
 

@@ -57,6 +57,8 @@ public class RunConfigurationBody extends AbstractCellProvider {
     }
     editorCell.addEditorCell(this.createConstant_mrxxs6_j0(editorContext, node));
     editorCell.addEditorCell(this.createRefNode_mrxxs6_k0(editorContext, node));
+    editorCell.addEditorCell(this.createConstant_mrxxs6_l0(editorContext, node));
+    editorCell.addEditorCell(this.createRefNode_mrxxs6_m0(editorContext, node));
     return editorCell;
   }
 
@@ -166,6 +168,17 @@ public class RunConfigurationBody extends AbstractCellProvider {
     return editorCell;
   }
 
+  private EditorCell createConstant_mrxxs6_l0(EditorContext editorContext, SNode node) {
+    EditorCell_Constant editorCell = new EditorCell_Constant(editorContext, node, "");
+    editorCell.setCellId("Constant_mrxxs6_l0");
+    {
+      Style style = editorCell.getStyle();
+      style.set(StyleAttributes.SELECTABLE, false);
+    }
+    editorCell.setDefaultText("");
+    return editorCell;
+  }
+
   private EditorCell createRefNodeList_mrxxs6_a0(EditorContext editorContext, SNode node) {
     AbstractCellListHandler handler = new RunConfigurationBody.propertyListHandler_mrxxs6_a0(node, "property", editorContext);
     EditorCell_Collection editorCell = handler.createCells(editorContext, new CellLayout_Vertical(), false);
@@ -259,6 +272,23 @@ public class RunConfigurationBody extends AbstractCellProvider {
     CellProviderWithRole provider = new RefNodeCellProvider(node, editorContext);
     provider.setRole("executeBlock");
     provider.setNoTargetText("execute block");
+    EditorCell editorCell;
+    editorCell = provider.createEditorCell(editorContext);
+    editorCell.setSubstituteInfo(provider.createDefaultSubstituteInfo());
+    SNode attributeConcept = provider.getRoleAttribute();
+    Class attributeKind = provider.getRoleAttributeClass();
+    if (attributeConcept != null) {
+      IOperationContext opContext = editorContext.getOperationContext();
+      EditorManager manager = EditorManager.getInstanceFromContext(opContext);
+      return manager.createRoleAttributeCell(editorContext, attributeConcept, attributeKind, editorCell);
+    } else
+    return editorCell;
+  }
+
+  private EditorCell createRefNode_mrxxs6_m0(EditorContext editorContext, SNode node) {
+    CellProviderWithRole provider = new RefNodeCellProvider(node, editorContext);
+    provider.setRole("makeBlock");
+    provider.setNoTargetText("<no makeBlock>");
     EditorCell editorCell;
     editorCell = provider.createEditorCell(editorContext);
     editorCell.setSubstituteInfo(provider.createDefaultSubstituteInfo());
