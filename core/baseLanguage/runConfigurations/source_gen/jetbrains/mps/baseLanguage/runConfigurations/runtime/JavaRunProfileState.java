@@ -8,7 +8,9 @@ import com.intellij.openapi.project.Project;
 import jetbrains.mps.debug.api.IDebugger;
 import jetbrains.mps.debug.api.Debuggers;
 
+@Deprecated
 public abstract class JavaRunProfileState extends BaseRunProfileState {
+  @Deprecated
   public JavaRunProfileState() {
   }
 

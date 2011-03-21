@@ -9,6 +9,7 @@ import java.util.ArrayList;
 import jetbrains.mps.smodel.ModelAccess;
 import com.intellij.execution.process.ProcessHandler;
 import com.intellij.execution.ExecutionException;
+import jetbrains.mps.runConfigurations.runtime.DefaultProcessHandler;
 import jetbrains.mps.baseLanguage.closures.runtime._FunctionTypes;
 
 public class UnitTestExecutionController {
@@ -21,16 +22,16 @@ public class UnitTestExecutionController {
   public UnitTestExecutionController(final List<ITestNodeWrapper> whatToTest, ConfigRunParameters configurationRunParameters) {
     ModelAccess.instance().runReadAction(new Runnable() {
       public void run() {
-        ListSequence.fromList(UnitTestExecutionController.this.myWhatToTest).addSequence(ListSequence.fromList(whatToTest));
+        ListSequence.fromList(myWhatToTest).addSequence(ListSequence.fromList(whatToTest));
       }
     });
-    this.myState = new TestRunState(myWhatToTest);
-    this.myDispatcher = new TestEventsDispatcher(this.myState);
-    this.myConfigurationRunParameters = configurationRunParameters;
+    myState = new TestRunState(myWhatToTest);
+    myDispatcher = new TestEventsDispatcher(myState);
+    myConfigurationRunParameters = configurationRunParameters;
   }
 
   public TestRunState getState() {
-    return this.myState;
+    return myState;
   }
 
   public ProcessHandler execute() throws ExecutionException {
@@ -40,16 +41,17 @@ public class UnitTestExecutionController {
 
     UnitTestRunner testRunner = null;
     try {
-      testRunner = new UnitTestRunner(this.myWhatToTest, this.myConfigurationRunParameters);
+      testRunner = new UnitTestRunner(myWhatToTest, myConfigurationRunParameters);
     } catch (NullPointerException npe) {
       npe.printStackTrace();
     }
-    this.myCurrentProcess = testRunner.run();
-    if (this.myCurrentProcess == null) {
-      this.myState.terminate();
+    myCurrentProcess = testRunner.run();
+    if (myCurrentProcess == null) {
+      myState.terminate();
       return null;
     }
-    return new UnitTestProcessHandler(this.myDispatcher, this.myCurrentProcess, testRunner.getCommandString());
+
+    return new DefaultProcessHandler(this.myCurrentProcess, testRunner.getCommandString(), new UnitTestProcessListener(myDispatcher));
   }
 
   public _FunctionTypes._void_P0_E0 getCloseListener() {
