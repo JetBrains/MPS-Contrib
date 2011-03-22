@@ -10,7 +10,6 @@ import jetbrains.mps.lang.typesystem.runtime.IsApplicableStatus;
 import jetbrains.mps.lang.smodel.generator.smodelAdapter.SLinkOperations;
 import jetbrains.mps.lang.smodel.generator.smodelAdapter.SConceptOperations;
 import jetbrains.mps.lang.smodel.generator.smodelAdapter.SPropertyOperations;
-import jetbrains.mps.errors.BaseQuickFixProvider;
 import jetbrains.mps.typesystem.inference.EquationInfo;
 import jetbrains.mps.smodel.SModelUtil_new;
 import java.util.Set;
@@ -31,15 +30,13 @@ public class typeof_RunConfigurationRunProfileState_InferenceRule extends Abstra
       if (SPropertyOperations.getBoolean(runConfigurationDeclaration, "isDebuggable")) {
         {
           SNode _nodeToCheck_1029348928467 = runConfigurationDeclaration;
-          BaseQuickFixProvider intentionProvider = null;
-          EquationInfo _info_12389875345 = new EquationInfo(_nodeToCheck_1029348928467, null, "r:00000000-0000-4000-0000-011c89590364(jetbrains.mps.lang.plugin.typesystem)", "8255351389868900310", 0, intentionProvider);
+          EquationInfo _info_12389875345 = new EquationInfo(_nodeToCheck_1029348928467, null, "r:00000000-0000-4000-0000-011c89590364(jetbrains.mps.lang.plugin.typesystem)", "8255351389868900310", 0, null);
           typeCheckingContext.createLessThanInequationStrong((SNode) stateType, (SNode) new typeof_RunConfigurationRunProfileState_InferenceRule.QuotationClass_xq134o_a0a0a2a0a0().createNode(typeCheckingContext), false, _info_12389875345);
         }
       } else {
         {
           SNode _nodeToCheck_1029348928467 = runConfigurationDeclaration;
-          BaseQuickFixProvider intentionProvider = null;
-          EquationInfo _info_12389875345 = new EquationInfo(_nodeToCheck_1029348928467, null, "r:00000000-0000-4000-0000-011c89590364(jetbrains.mps.lang.plugin.typesystem)", "8255351389868900319", 0, intentionProvider);
+          EquationInfo _info_12389875345 = new EquationInfo(_nodeToCheck_1029348928467, null, "r:00000000-0000-4000-0000-011c89590364(jetbrains.mps.lang.plugin.typesystem)", "8255351389868900319", 0, null);
           typeCheckingContext.createLessThanInequationStrong((SNode) stateType, (SNode) new typeof_RunConfigurationRunProfileState_InferenceRule.QuotationClass_xq134o_a0a0a0c0a0a().createNode(typeCheckingContext), false, _info_12389875345);
         }
       }

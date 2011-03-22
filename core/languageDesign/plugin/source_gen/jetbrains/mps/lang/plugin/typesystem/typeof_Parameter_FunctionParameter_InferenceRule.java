@@ -9,7 +9,6 @@ import jetbrains.mps.typesystem.inference.TypeCheckingContext;
 import jetbrains.mps.lang.typesystem.runtime.IsApplicableStatus;
 import jetbrains.mps.lang.smodel.generator.smodelAdapter.SNodeOperations;
 import jetbrains.mps.lang.smodel.generator.smodelAdapter.SLinkOperations;
-import jetbrains.mps.errors.BaseQuickFixProvider;
 import jetbrains.mps.typesystem.inference.EquationInfo;
 import jetbrains.mps.smodel.SModelUtil_new;
 import java.util.Set;
@@ -28,22 +27,19 @@ public class typeof_Parameter_FunctionParameter_InferenceRule extends AbstractIn
     if ((parametrizedExecuteBlock != null) && (SLinkOperations.getTarget(SLinkOperations.getTarget(parametrizedExecuteBlock, "executeParameterQuery", true), "parameterType", true) != null)) {
       {
         SNode _nodeToCheck_1029348928467 = parameter;
-        BaseQuickFixProvider intentionProvider = null;
-        EquationInfo _info_12389875345 = new EquationInfo(_nodeToCheck_1029348928467, null, "r:00000000-0000-4000-0000-011c89590364(jetbrains.mps.lang.plugin.typesystem)", "3193296763328075347", 0, intentionProvider);
+        EquationInfo _info_12389875345 = new EquationInfo(_nodeToCheck_1029348928467, null, "r:00000000-0000-4000-0000-011c89590364(jetbrains.mps.lang.plugin.typesystem)", "3193296763328075347", 0, null);
         typeCheckingContext.createEquation((SNode) typeCheckingContext.typeOf(_nodeToCheck_1029348928467, "r:00000000-0000-4000-0000-011c89590364(jetbrains.mps.lang.plugin.typesystem)", "3193296763328075344", true), (SNode) SLinkOperations.getTarget(SLinkOperations.getTarget(parametrizedExecuteBlock, "executeParameterQuery", true), "parameterType", true), _info_12389875345);
       }
     } else if ((SLinkOperations.getTarget(parameter, "userSpecifiedParameterType", true) != null)) {
       {
         SNode _nodeToCheck_1029348928467 = parameter;
-        BaseQuickFixProvider intentionProvider = null;
-        EquationInfo _info_12389875345 = new EquationInfo(_nodeToCheck_1029348928467, null, "r:00000000-0000-4000-0000-011c89590364(jetbrains.mps.lang.plugin.typesystem)", "1403054519076822722", 0, intentionProvider);
+        EquationInfo _info_12389875345 = new EquationInfo(_nodeToCheck_1029348928467, null, "r:00000000-0000-4000-0000-011c89590364(jetbrains.mps.lang.plugin.typesystem)", "1403054519076822722", 0, null);
         typeCheckingContext.createEquation((SNode) typeCheckingContext.typeOf(_nodeToCheck_1029348928467, "r:00000000-0000-4000-0000-011c89590364(jetbrains.mps.lang.plugin.typesystem)", "1403054519076822719", true), (SNode) SLinkOperations.getTarget(parameter, "userSpecifiedParameterType", true), _info_12389875345);
       }
     } else {
       {
         SNode _nodeToCheck_1029348928467 = parameter;
-        BaseQuickFixProvider intentionProvider = null;
-        EquationInfo _info_12389875345 = new EquationInfo(_nodeToCheck_1029348928467, null, "r:00000000-0000-4000-0000-011c89590364(jetbrains.mps.lang.plugin.typesystem)", "1403054519076820639", 0, intentionProvider);
+        EquationInfo _info_12389875345 = new EquationInfo(_nodeToCheck_1029348928467, null, "r:00000000-0000-4000-0000-011c89590364(jetbrains.mps.lang.plugin.typesystem)", "1403054519076820639", 0, null);
         typeCheckingContext.createEquation((SNode) typeCheckingContext.typeOf(_nodeToCheck_1029348928467, "r:00000000-0000-4000-0000-011c89590364(jetbrains.mps.lang.plugin.typesystem)", "1403054519076820644", true), (SNode) new typeof_Parameter_FunctionParameter_InferenceRule.QuotationClass_1mxvlt_a0a0a0b0a().createNode(typeCheckingContext), _info_12389875345);
       }
     }
