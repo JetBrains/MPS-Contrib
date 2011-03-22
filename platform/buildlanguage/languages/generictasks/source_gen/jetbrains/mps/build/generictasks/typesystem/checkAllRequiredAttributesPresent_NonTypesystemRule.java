@@ -12,7 +12,6 @@ import jetbrains.mps.build.generictasks.behavior.ITaskDeclaration_Behavior;
 import jetbrains.mps.lang.smodel.generator.smodelAdapter.SLinkOperations;
 import jetbrains.mps.build.generictasks.behavior.AttributeDeclaration_Behavior;
 import jetbrains.mps.lang.smodel.generator.smodelAdapter.SPropertyOperations;
-import jetbrains.mps.errors.BaseQuickFixProvider;
 import jetbrains.mps.errors.messageTargets.MessageTarget;
 import jetbrains.mps.errors.messageTargets.NodeMessageTarget;
 import jetbrains.mps.errors.IErrorReporter;
@@ -36,9 +35,8 @@ public class checkAllRequiredAttributesPresent_NonTypesystemRule extends Abstrac
         }
         if (!(found)) {
           {
-            BaseQuickFixProvider intentionProvider = null;
             MessageTarget errorTarget = new NodeMessageTarget();
-            IErrorReporter _reporter_2309309498 = typeCheckingContext.reportTypeError(genericTaskCall, "Required attribute " + SPropertyOperations.getString(attrDecl, "name") + " is undefined.", "r:eac20369-5993-49cc-a9ac-fbeb7a91d81f(jetbrains.mps.build.generictasks.typesystem)", "353793545802854846", intentionProvider, errorTarget);
+            IErrorReporter _reporter_2309309498 = typeCheckingContext.reportTypeError(genericTaskCall, "Required attribute " + SPropertyOperations.getString(attrDecl, "name") + " is undefined.", "r:eac20369-5993-49cc-a9ac-fbeb7a91d81f(jetbrains.mps.build.generictasks.typesystem)", "353793545802854846", null, errorTarget);
           }
           return;
         }
