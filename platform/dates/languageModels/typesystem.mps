@@ -16,6 +16,7 @@
   <import index="e2lb" modelUID="f:java_stub#6354ebe7-c22a-4a0f-ac54-50b52ab9b065#java.lang(java.lang@java_stub)" version="-1" />
   <import index="k7g3" modelUID="f:java_stub#6354ebe7-c22a-4a0f-ac54-50b52ab9b065#java.util(java.util@java_stub)" version="-1" />
   <import index="ojzd" modelUID="f:java_stub#2ebbb458-8ebb-481e-a5d7-9e27903323d4#org.joda.time(org.joda.time@java_stub)" version="-1" />
+  <import index="tp6p" modelUID="r:00000000-0000-4000-0000-011c895903dd(jetbrains.mps.baseLanguage.datesInternal.structure)" version="3" />
   <import index="tp25" modelUID="r:00000000-0000-4000-0000-011c89590301(jetbrains.mps.lang.smodel.structure)" version="16" implicit="yes" />
   <import index="tpck" modelUID="r:00000000-0000-4000-0000-011c89590288(jetbrains.mps.lang.core.structure)" version="0" implicit="yes" />
   <import index="tp3r" modelUID="r:00000000-0000-4000-0000-011c8959034b(jetbrains.mps.lang.quotation.structure)" version="0" implicit="yes" />
@@ -193,6 +194,10 @@
     <node type="tpd4.InferenceRule" typeId="tpd4.1174643105530" id="5293902215865434336">
       <property name="name" nameId="tpck.1169194664001" value="typeof_AllTimeZonesConstant" />
       <property name="virtualPackage" nameId="tpck.1193676396447" value="constant" />
+    </node>
+    <node type="tpd4.NonTypesystemRule" typeId="tpd4.1195214364922" id="1015544890586322297">
+      <property name="name" nameId="tpck.1169194664001" value="check_ScheduleLiteral" />
+      <property name="virtualPackage" nameId="tpck.1193676396447" value="constant.schedule" />
     </node>
   </roots>
   <root id="1178371373855">
@@ -2401,6 +2406,249 @@
     <node role="applicableNode" roleId="tpd4.1174648101952" type="tpd4.ConceptReference" typeId="tpd4.1174642788531" id="5293902215865434338">
       <property name="name" nameId="tpck.1169194664001" value="constant" />
       <link role="concept" roleId="tpd4.1174642800329" targetNodeId="tp6x.5293902215865424196" resolveInfo="AllTimeZonesConstant" />
+    </node>
+  </root>
+  <root id="1015544890586322297">
+    <node role="body" roleId="tpd4.1195213635060" type="tpee.StatementList" typeId="tpee.1068580123136" id="1015544890586322298">
+      <node role="statement" roleId="tpee.1068581517665" type="tpee.LocalVariableDeclarationStatement" typeId="tpee.1068581242864" id="1015544890586322308">
+        <node role="localVariableDeclaration" roleId="tpee.1068581242865" type="tpee.LocalVariableDeclaration" typeId="tpee.1068581242863" id="1015544890586322309">
+          <property name="name" nameId="tpck.1169194664001" value="period" />
+          <node role="type" roleId="tpee.5680397130376446158" type="tp25.SNodeType" typeId="tp25.1138055754698" id="1015544890586322310">
+            <link role="concept" roleId="tp25.1138405853777" targetNodeId="tp6p.1194006427224" resolveInfo="SchedulePeriod" />
+          </node>
+          <node role="initializer" roleId="tpee.1068431790190" type="tpee.DotExpression" typeId="tpee.1197027756228" id="1015544890586322311">
+            <node role="operand" roleId="tpee.1197027771414" type="tpd4.ApplicableNodeReference" typeId="tpd4.1174650418652" id="1015544890586322312">
+              <link role="applicableNode" roleId="tpd4.1174650432090" targetNodeId="1015544890586322299" resolveInfo="literal" />
+            </node>
+            <node role="operation" roleId="tpee.1197027833540" type="tp25.SLinkAccess" typeId="tp25.1138056143562" id="1015544890586322313">
+              <link role="link" roleId="tp25.1138056516764" targetNodeId="tp6x.1194007702067" />
+            </node>
+          </node>
+        </node>
+      </node>
+      <node role="statement" roleId="tpee.1068581517665" type="tpee.IfStatement" typeId="tpee.1068580123159" id="1015544890586322315">
+        <node role="ifTrue" roleId="tpee.1068580123161" type="tpee.StatementList" typeId="tpee.1068580123136" id="1015544890586322316">
+          <node role="statement" roleId="tpee.1068581517665" type="tpd4.ReportErrorStatement" typeId="tpd4.1175517767210" id="1015544890586322325">
+            <node role="errorString" roleId="tpd4.1175517851849" type="tpee.StringLiteral" typeId="tpee.1070475926800" id="1015544890586322329">
+              <property name="value" nameId="tpee.1070475926801" value="Scheduling period is not defined " />
+            </node>
+            <node role="nodeToReport" roleId="tpd4.1227096802790" type="tpd4.ApplicableNodeReference" typeId="tpd4.1174650418652" id="1015544890586322328">
+              <link role="applicableNode" roleId="tpd4.1174650432090" targetNodeId="1015544890586322299" resolveInfo="literal" />
+            </node>
+          </node>
+          <node role="statement" roleId="tpee.1068581517665" type="tpee.ReturnStatement" typeId="tpee.1068581242878" id="1015544890586322332" />
+        </node>
+        <node role="condition" roleId="tpee.1068580123160" type="tpee.DotExpression" typeId="tpee.1197027756228" id="1015544890586322320">
+          <node role="operand" roleId="tpee.1197027771414" type="tpee.LocalVariableReference" typeId="tpee.1068581242866" id="1015544890586322319">
+            <link role="variableDeclaration" roleId="tpee.1068581517664" targetNodeId="1015544890586322309" resolveInfo="period" />
+          </node>
+          <node role="operation" roleId="tpee.1197027833540" type="tp25.Node_IsNullOperation" typeId="tp25.1171999116870" id="1015544890586322324" />
+        </node>
+      </node>
+      <node role="statement" roleId="tpee.1068581517665" type="tpee.Statement" typeId="tpee.1068580123157" id="1015544890586322333" />
+      <node role="statement" roleId="tpee.1068581517665" type="tpee.IfStatement" typeId="tpee.1068580123159" id="1015544890586322335">
+        <node role="ifTrue" roleId="tpee.1068580123161" type="tpee.StatementList" typeId="tpee.1068580123136" id="1015544890586322336">
+          <node role="statement" roleId="tpee.1068581517665" type="tpd4.ReportErrorStatement" typeId="tpd4.1175517767210" id="1015544890586322359">
+            <node role="errorString" roleId="tpd4.1175517851849" type="tpee.StringLiteral" typeId="tpee.1070475926800" id="1015544890586322362">
+              <property name="value" nameId="tpee.1070475926801" value="Month is not specified" />
+            </node>
+            <node role="nodeToReport" roleId="tpd4.1227096802790" type="tpd4.ApplicableNodeReference" typeId="tpd4.1174650418652" id="1015544890586322363">
+              <link role="applicableNode" roleId="tpd4.1174650432090" targetNodeId="1015544890586322299" resolveInfo="literal" />
+            </node>
+          </node>
+        </node>
+        <node role="condition" roleId="tpee.1068580123160" type="tpee.AndExpression" typeId="tpee.1080120340718" id="1015544890586322345">
+          <node role="rightExpression" roleId="tpee.1081773367579" type="tpee.DotExpression" typeId="tpee.1197027756228" id="1015544890586322354">
+            <node role="operand" roleId="tpee.1197027771414" type="tpee.DotExpression" typeId="tpee.1197027756228" id="1015544890586322349">
+              <node role="operand" roleId="tpee.1197027771414" type="tpd4.ApplicableNodeReference" typeId="tpd4.1174650418652" id="1015544890586322348">
+                <link role="applicableNode" roleId="tpd4.1174650432090" targetNodeId="1015544890586322299" resolveInfo="literal" />
+              </node>
+              <node role="operation" roleId="tpee.1197027833540" type="tp25.SLinkAccess" typeId="tp25.1138056143562" id="1015544890586322353">
+                <link role="link" roleId="tp25.1138056516764" targetNodeId="tp6x.1194007893424" />
+              </node>
+            </node>
+            <node role="operation" roleId="tpee.1197027833540" type="tp25.Node_IsNullOperation" typeId="tp25.1171999116870" id="1015544890586322358" />
+          </node>
+          <node role="leftExpression" roleId="tpee.1081773367580" type="tpee.DotExpression" typeId="tpee.1197027756228" id="1015544890586322340">
+            <node role="operand" roleId="tpee.1197027771414" type="tpee.LocalVariableReference" typeId="tpee.1068581242866" id="1015544890586322339">
+              <link role="variableDeclaration" roleId="tpee.1068581517664" targetNodeId="1015544890586322309" resolveInfo="period" />
+            </node>
+            <node role="operation" roleId="tpee.1197027833540" type="tp25.SPropertyAccess" typeId="tp25.1138056022639" id="1015544890586322344">
+              <link role="property" roleId="tp25.1138056395725" targetNodeId="tp6p.1194006543511" resolveInfo="month" />
+            </node>
+          </node>
+        </node>
+      </node>
+      <node role="statement" roleId="tpee.1068581517665" type="tpee.IfStatement" typeId="tpee.1068580123159" id="1015544890586322365">
+        <node role="ifTrue" roleId="tpee.1068580123161" type="tpee.StatementList" typeId="tpee.1068580123136" id="1015544890586322366">
+          <node role="statement" roleId="tpee.1068581517665" type="tpd4.ReportErrorStatement" typeId="tpd4.1175517767210" id="1015544890586322367">
+            <node role="errorString" roleId="tpd4.1175517851849" type="tpee.StringLiteral" typeId="tpee.1070475926800" id="1015544890586322368">
+              <property name="value" nameId="tpee.1070475926801" value="Day of month is not specified" />
+            </node>
+            <node role="nodeToReport" roleId="tpd4.1227096802790" type="tpd4.ApplicableNodeReference" typeId="tpd4.1174650418652" id="1015544890586322369">
+              <link role="applicableNode" roleId="tpd4.1174650432090" targetNodeId="1015544890586322299" resolveInfo="literal" />
+            </node>
+          </node>
+        </node>
+        <node role="condition" roleId="tpee.1068580123160" type="tpee.AndExpression" typeId="tpee.1080120340718" id="1015544890586322370">
+          <node role="rightExpression" roleId="tpee.1081773367579" type="tpee.DotExpression" typeId="tpee.1197027756228" id="1015544890586322371">
+            <node role="operand" roleId="tpee.1197027771414" type="tpee.DotExpression" typeId="tpee.1197027756228" id="1015544890586322372">
+              <node role="operand" roleId="tpee.1197027771414" type="tpd4.ApplicableNodeReference" typeId="tpd4.1174650418652" id="1015544890586322373">
+                <link role="applicableNode" roleId="tpd4.1174650432090" targetNodeId="1015544890586322299" resolveInfo="literal" />
+              </node>
+              <node role="operation" roleId="tpee.1197027833540" type="tp25.SPropertyAccess" typeId="tp25.1138056022639" id="1015544890586322380">
+                <link role="property" roleId="tp25.1138056395725" targetNodeId="tp6x.1194007870973" resolveInfo="dayOfMonth" />
+              </node>
+            </node>
+            <node role="operation" roleId="tpee.1197027833540" type="tpee.IsEmptyOperation" typeId="tpee.1225271369338" id="1015544890586323056" />
+          </node>
+          <node role="leftExpression" roleId="tpee.1081773367580" type="tpee.DotExpression" typeId="tpee.1197027756228" id="1015544890586322376">
+            <node role="operand" roleId="tpee.1197027771414" type="tpee.LocalVariableReference" typeId="tpee.1068581242866" id="1015544890586322377">
+              <link role="variableDeclaration" roleId="tpee.1068581517664" targetNodeId="1015544890586322309" resolveInfo="period" />
+            </node>
+            <node role="operation" roleId="tpee.1197027833540" type="tp25.SPropertyAccess" typeId="tp25.1138056022639" id="1015544890586322379">
+              <link role="property" roleId="tp25.1138056395725" targetNodeId="tp6p.1194006539888" resolveInfo="dayOfMonth" />
+            </node>
+          </node>
+        </node>
+      </node>
+      <node role="statement" roleId="tpee.1068581517665" type="tpee.IfStatement" typeId="tpee.1068580123159" id="1015544890586323057">
+        <node role="ifTrue" roleId="tpee.1068580123161" type="tpee.StatementList" typeId="tpee.1068580123136" id="1015544890586323058">
+          <node role="statement" roleId="tpee.1068581517665" type="tpd4.ReportErrorStatement" typeId="tpd4.1175517767210" id="1015544890586323059">
+            <node role="errorString" roleId="tpd4.1175517851849" type="tpee.StringLiteral" typeId="tpee.1070475926800" id="1015544890586323060">
+              <property name="value" nameId="tpee.1070475926801" value="Day of week is not specified" />
+            </node>
+            <node role="nodeToReport" roleId="tpd4.1227096802790" type="tpd4.ApplicableNodeReference" typeId="tpd4.1174650418652" id="1015544890586323061">
+              <link role="applicableNode" roleId="tpd4.1174650432090" targetNodeId="1015544890586322299" resolveInfo="literal" />
+            </node>
+          </node>
+        </node>
+        <node role="condition" roleId="tpee.1068580123160" type="tpee.AndExpression" typeId="tpee.1080120340718" id="1015544890586323062">
+          <node role="rightExpression" roleId="tpee.1081773367579" type="tpee.DotExpression" typeId="tpee.1197027756228" id="1015544890586323063">
+            <node role="operand" roleId="tpee.1197027771414" type="tpee.DotExpression" typeId="tpee.1197027756228" id="1015544890586323064">
+              <node role="operand" roleId="tpee.1197027771414" type="tpd4.ApplicableNodeReference" typeId="tpd4.1174650418652" id="1015544890586323065">
+                <link role="applicableNode" roleId="tpd4.1174650432090" targetNodeId="1015544890586322299" resolveInfo="literal" />
+              </node>
+              <node role="operation" roleId="tpee.1197027833540" type="tp25.SPropertyAccess" typeId="tp25.1138056022639" id="1015544890586323114">
+                <link role="property" roleId="tp25.1138056395725" targetNodeId="tp6x.1194007857175" resolveInfo="dayOfWeek" />
+              </node>
+            </node>
+            <node role="operation" roleId="tpee.1197027833540" type="tpee.IsEmptyOperation" typeId="tpee.1225271369338" id="1015544890586323067" />
+          </node>
+          <node role="leftExpression" roleId="tpee.1081773367580" type="tpee.DotExpression" typeId="tpee.1197027756228" id="1015544890586323068">
+            <node role="operand" roleId="tpee.1197027771414" type="tpee.LocalVariableReference" typeId="tpee.1068581242866" id="1015544890586323069">
+              <link role="variableDeclaration" roleId="tpee.1068581517664" targetNodeId="1015544890586322309" resolveInfo="period" />
+            </node>
+            <node role="operation" roleId="tpee.1197027833540" type="tp25.SPropertyAccess" typeId="tp25.1138056022639" id="1015544890586323113">
+              <link role="property" roleId="tp25.1138056395725" targetNodeId="tp6p.1194006517951" resolveInfo="dayOfWeek" />
+            </node>
+          </node>
+        </node>
+      </node>
+      <node role="statement" roleId="tpee.1068581517665" type="tpee.IfStatement" typeId="tpee.1068580123159" id="1015544890586323071">
+        <node role="ifTrue" roleId="tpee.1068580123161" type="tpee.StatementList" typeId="tpee.1068580123136" id="1015544890586323072">
+          <node role="statement" roleId="tpee.1068581517665" type="tpd4.ReportErrorStatement" typeId="tpd4.1175517767210" id="1015544890586323073">
+            <node role="errorString" roleId="tpd4.1175517851849" type="tpee.StringLiteral" typeId="tpee.1070475926800" id="1015544890586323074">
+              <property name="value" nameId="tpee.1070475926801" value="Hour is not specified" />
+            </node>
+            <node role="nodeToReport" roleId="tpd4.1227096802790" type="tpd4.ApplicableNodeReference" typeId="tpd4.1174650418652" id="1015544890586323075">
+              <link role="applicableNode" roleId="tpd4.1174650432090" targetNodeId="1015544890586322299" resolveInfo="literal" />
+            </node>
+          </node>
+        </node>
+        <node role="condition" roleId="tpee.1068580123160" type="tpee.AndExpression" typeId="tpee.1080120340718" id="1015544890586323076">
+          <node role="rightExpression" roleId="tpee.1081773367579" type="tpee.DotExpression" typeId="tpee.1197027756228" id="1015544890586323077">
+            <node role="operand" roleId="tpee.1197027771414" type="tpee.DotExpression" typeId="tpee.1197027756228" id="1015544890586323078">
+              <node role="operand" roleId="tpee.1197027771414" type="tpd4.ApplicableNodeReference" typeId="tpd4.1174650418652" id="1015544890586323079">
+                <link role="applicableNode" roleId="tpd4.1174650432090" targetNodeId="1015544890586322299" resolveInfo="literal" />
+              </node>
+              <node role="operation" roleId="tpee.1197027833540" type="tp25.SPropertyAccess" typeId="tp25.1138056022639" id="1015544890586323116">
+                <link role="property" roleId="tp25.1138056395725" targetNodeId="tp6x.1194007847131" resolveInfo="hour" />
+              </node>
+            </node>
+            <node role="operation" roleId="tpee.1197027833540" type="tpee.IsEmptyOperation" typeId="tpee.1225271369338" id="1015544890586323081" />
+          </node>
+          <node role="leftExpression" roleId="tpee.1081773367580" type="tpee.DotExpression" typeId="tpee.1197027756228" id="1015544890586323082">
+            <node role="operand" roleId="tpee.1197027771414" type="tpee.LocalVariableReference" typeId="tpee.1068581242866" id="1015544890586323083">
+              <link role="variableDeclaration" roleId="tpee.1068581517664" targetNodeId="1015544890586322309" resolveInfo="period" />
+            </node>
+            <node role="operation" roleId="tpee.1197027833540" type="tp25.SPropertyAccess" typeId="tp25.1138056022639" id="1015544890586323115">
+              <link role="property" roleId="tp25.1138056395725" targetNodeId="tp6p.1194006512400" resolveInfo="hour" />
+            </node>
+          </node>
+        </node>
+      </node>
+      <node role="statement" roleId="tpee.1068581517665" type="tpee.IfStatement" typeId="tpee.1068580123159" id="1015544890586323085">
+        <node role="ifTrue" roleId="tpee.1068580123161" type="tpee.StatementList" typeId="tpee.1068580123136" id="1015544890586323086">
+          <node role="statement" roleId="tpee.1068581517665" type="tpd4.ReportErrorStatement" typeId="tpd4.1175517767210" id="1015544890586323087">
+            <node role="errorString" roleId="tpd4.1175517851849" type="tpee.StringLiteral" typeId="tpee.1070475926800" id="1015544890586323088">
+              <property name="value" nameId="tpee.1070475926801" value="Minute is not specified" />
+            </node>
+            <node role="nodeToReport" roleId="tpd4.1227096802790" type="tpd4.ApplicableNodeReference" typeId="tpd4.1174650418652" id="1015544890586323089">
+              <link role="applicableNode" roleId="tpd4.1174650432090" targetNodeId="1015544890586322299" resolveInfo="literal" />
+            </node>
+          </node>
+        </node>
+        <node role="condition" roleId="tpee.1068580123160" type="tpee.AndExpression" typeId="tpee.1080120340718" id="1015544890586323090">
+          <node role="rightExpression" roleId="tpee.1081773367579" type="tpee.DotExpression" typeId="tpee.1197027756228" id="1015544890586323091">
+            <node role="operand" roleId="tpee.1197027771414" type="tpee.DotExpression" typeId="tpee.1197027756228" id="1015544890586323092">
+              <node role="operand" roleId="tpee.1197027771414" type="tpd4.ApplicableNodeReference" typeId="tpd4.1174650418652" id="1015544890586323093">
+                <link role="applicableNode" roleId="tpd4.1174650432090" targetNodeId="1015544890586322299" resolveInfo="literal" />
+              </node>
+              <node role="operation" roleId="tpee.1197027833540" type="tp25.SPropertyAccess" typeId="tp25.1138056022639" id="1015544890586323118">
+                <link role="property" roleId="tp25.1138056395725" targetNodeId="tp6x.1194007839276" resolveInfo="minute" />
+              </node>
+            </node>
+            <node role="operation" roleId="tpee.1197027833540" type="tpee.IsEmptyOperation" typeId="tpee.1225271369338" id="1015544890586323095" />
+          </node>
+          <node role="leftExpression" roleId="tpee.1081773367580" type="tpee.DotExpression" typeId="tpee.1197027756228" id="1015544890586323096">
+            <node role="operand" roleId="tpee.1197027771414" type="tpee.LocalVariableReference" typeId="tpee.1068581242866" id="1015544890586323097">
+              <link role="variableDeclaration" roleId="tpee.1068581517664" targetNodeId="1015544890586322309" resolveInfo="period" />
+            </node>
+            <node role="operation" roleId="tpee.1197027833540" type="tp25.SPropertyAccess" typeId="tp25.1138056022639" id="1015544890586323117">
+              <link role="property" roleId="tp25.1138056395725" targetNodeId="tp6p.1194006507227" resolveInfo="minute" />
+            </node>
+          </node>
+        </node>
+      </node>
+      <node role="statement" roleId="tpee.1068581517665" type="tpee.IfStatement" typeId="tpee.1068580123159" id="1015544890586323099">
+        <node role="ifTrue" roleId="tpee.1068580123161" type="tpee.StatementList" typeId="tpee.1068580123136" id="1015544890586323100">
+          <node role="statement" roleId="tpee.1068581517665" type="tpd4.ReportErrorStatement" typeId="tpd4.1175517767210" id="1015544890586323101">
+            <node role="errorString" roleId="tpd4.1175517851849" type="tpee.StringLiteral" typeId="tpee.1070475926800" id="1015544890586323102">
+              <property name="value" nameId="tpee.1070475926801" value="Second is not specified" />
+            </node>
+            <node role="nodeToReport" roleId="tpd4.1227096802790" type="tpd4.ApplicableNodeReference" typeId="tpd4.1174650418652" id="1015544890586323103">
+              <link role="applicableNode" roleId="tpd4.1174650432090" targetNodeId="1015544890586322299" resolveInfo="literal" />
+            </node>
+          </node>
+        </node>
+        <node role="condition" roleId="tpee.1068580123160" type="tpee.AndExpression" typeId="tpee.1080120340718" id="1015544890586323104">
+          <node role="rightExpression" roleId="tpee.1081773367579" type="tpee.DotExpression" typeId="tpee.1197027756228" id="1015544890586323105">
+            <node role="operand" roleId="tpee.1197027771414" type="tpee.DotExpression" typeId="tpee.1197027756228" id="1015544890586323106">
+              <node role="operand" roleId="tpee.1197027771414" type="tpd4.ApplicableNodeReference" typeId="tpd4.1174650418652" id="1015544890586323107">
+                <link role="applicableNode" roleId="tpd4.1174650432090" targetNodeId="1015544890586322299" resolveInfo="literal" />
+              </node>
+              <node role="operation" roleId="tpee.1197027833540" type="tp25.SPropertyAccess" typeId="tp25.1138056022639" id="1015544890586323120">
+                <link role="property" roleId="tp25.1138056395725" targetNodeId="tp6x.1194007836084" resolveInfo="second" />
+              </node>
+            </node>
+            <node role="operation" roleId="tpee.1197027833540" type="tpee.IsEmptyOperation" typeId="tpee.1225271369338" id="1015544890586323109" />
+          </node>
+          <node role="leftExpression" roleId="tpee.1081773367580" type="tpee.DotExpression" typeId="tpee.1197027756228" id="1015544890586323110">
+            <node role="operand" roleId="tpee.1197027771414" type="tpee.LocalVariableReference" typeId="tpee.1068581242866" id="1015544890586323111">
+              <link role="variableDeclaration" roleId="tpee.1068581517664" targetNodeId="1015544890586322309" resolveInfo="period" />
+            </node>
+            <node role="operation" roleId="tpee.1197027833540" type="tp25.SPropertyAccess" typeId="tp25.1138056022639" id="1015544890586323119">
+              <link role="property" roleId="tp25.1138056395725" targetNodeId="tp6p.1194006461854" resolveInfo="second" />
+            </node>
+          </node>
+        </node>
+      </node>
+      <node role="statement" roleId="tpee.1068581517665" type="tpee.Statement" typeId="tpee.1068580123157" id="1015544890586322364" />
+    </node>
+    <node role="applicableNode" roleId="tpd4.1174648101952" type="tpd4.ConceptReference" typeId="tpd4.1174642788531" id="1015544890586322299">
+      <property name="name" nameId="tpck.1169194664001" value="literal" />
+      <link role="concept" roleId="tpd4.1174642800329" targetNodeId="tp6x.1194003500823" resolveInfo="ScheduleLiteral" />
     </node>
   </root>
 </model>

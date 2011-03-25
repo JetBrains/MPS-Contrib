@@ -34,6 +34,8 @@
   <unitInfo fileName="MathDateTimeOperation_Behavior.java" startLine="40" startPosition="0" endLine="57" endPosition="0" unitName="jetbrains.mps.baseLanguage.dates.behavior.MathDateTimeOperation_Behavior$QuotationClass_26vghy_a1a0a2a3" />
   <unitInfo fileName="MathDateTimeOperation_Behavior.java" startLine="58" startPosition="0" endLine="75" endPosition="0" unitName="jetbrains.mps.baseLanguage.dates.behavior.MathDateTimeOperation_Behavior$QuotationClass_26vghy_a1a0a0d0d" />
   <unitInfo fileName="MathDateTimeOperation_Behavior.java" startLine="76" startPosition="0" endLine="93" endPosition="0" unitName="jetbrains.mps.baseLanguage.dates.behavior.MathDateTimeOperation_Behavior$QuotationClass_26vghy_a1a0a0e0d" />
+  <unitInfo fileName="NotNullOperation_Behavior.java" startLine="9" startPosition="0" endLine="27" endPosition="0" unitName="jetbrains.mps.baseLanguage.dates.behavior.NotNullOperation_Behavior" />
+  <unitInfo fileName="NullOperation_Behavior.java" startLine="9" startPosition="0" endLine="27" endPosition="0" unitName="jetbrains.mps.baseLanguage.dates.behavior.NullOperation_Behavior" />
   <unitInfo fileName="DateTimeType_Behavior.java" startLine="14" startPosition="0" endLine="40" endPosition="0" unitName="jetbrains.mps.baseLanguage.dates.behavior.DateTimeType_Behavior" />
   <unitInfo fileName="DateTimeCompareOperation_Behavior.java" startLine="10" startPosition="0" endLine="50" endPosition="0" unitName="jetbrains.mps.baseLanguage.dates.behavior.DateTimeCompareOperation_Behavior" />
   <unitInfo fileName="ScheduleLiteral_Behavior.java" startLine="9" startPosition="0" endLine="60" endPosition="0" unitName="jetbrains.mps.baseLanguage.dates.behavior.ScheduleLiteral_Behavior" />
@@ -44,6 +46,16 @@
   <unitInfo fileName="FormatExpression_Behavior.java" startLine="13" startPosition="0" endLine="106" endPosition="0" unitName="jetbrains.mps.baseLanguage.dates.behavior.FormatExpression_Behavior" />
   <unitInfo fileName="MathDateTimeOperation_Behavior.java" startLine="17" startPosition="0" endLine="111" endPosition="0" unitName="jetbrains.mps.baseLanguage.dates.behavior.MathDateTimeOperation_Behavior" />
   <unitInfo fileName="InTimezoneExpression_Behavior.java" startLine="15" startPosition="0" endLine="129" endPosition="0" unitName="jetbrains.mps.baseLanguage.dates.behavior.InTimezoneExpression_Behavior" />
+  <root nodeId="1015544890586258578">
+    <nodeInfo nodeId="1015544890586290195" fileName="NullOperation_Behavior.java" startLine="15" startPosition="85" endLine="16" endPosition="16" conceptFqName="jetbrains.mps.baseLanguage.structure.ReturnStatement" />
+    <scopeInfo nodeId="1015544890586258580" fileName="NullOperation_Behavior.java" startLine="12" startPosition="43" endLine="12" endPosition="43" />
+    <scopeInfo nodeId="1015544890586290193" fileName="NullOperation_Behavior.java" startLine="15" startPosition="85" endLine="16" endPosition="16" />
+  </root>
+  <root nodeId="1015544890586293378">
+    <nodeInfo nodeId="1015544890586293385" fileName="NotNullOperation_Behavior.java" startLine="15" startPosition="85" endLine="16" endPosition="16" conceptFqName="jetbrains.mps.baseLanguage.structure.ReturnStatement" />
+    <scopeInfo nodeId="1015544890586293380" fileName="NotNullOperation_Behavior.java" startLine="12" startPosition="43" endLine="12" endPosition="43" />
+    <scopeInfo nodeId="1015544890586293383" fileName="NotNullOperation_Behavior.java" startLine="15" startPosition="85" endLine="16" endPosition="16" />
+  </root>
   <root nodeId="1075917115049868776">
     <nodeInfo nodeId="1075917115049868784" fileName="ConditionalFormatToken_Behavior.java" startLine="13" startPosition="78" endLine="17" endPosition="7" conceptFqName="jetbrains.mps.baseLanguage.structure.ReturnStatement" />
     <scopeInfo nodeId="1075917115049868778" fileName="ConditionalFormatToken_Behavior.java" startLine="10" startPosition="43" endLine="10" endPosition="43" />

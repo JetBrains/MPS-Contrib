@@ -3980,7 +3980,7 @@
   <root id="1209037407602">
     <node role="contentNode" roleId="tpf8.1092060348987" type="tpee.StaticMethodCall" typeId="tpee.1081236700937" id="1209037407603">
       <link role="classConcept" roleId="tpee.1144433194310" targetNodeId="v52.~DateTimeOperations" resolveInfo="DateTimeOperations" />
-      <link role="baseMethodDeclaration" roleId="tpee.1068499141037" targetNodeId="v52.~DateTimeOperations%disNull(java%dlang%dLong)%cboolean" resolveInfo="isNull" />
+      <link role="baseMethodDeclaration" roleId="tpee.1068499141037" targetNodeId="v52.~DateTimeOperations%disNull(long)%cboolean" resolveInfo="isNull" />
       <node role="actualArgument" roleId="tpee.1068499141038" type="tpee.IntegerConstant" typeId="tpee.1068580320020" id="1209037407604">
         <property name="value" nameId="tpee.1068580320021" value="0" />
         <node role="_$attribute" roleId="tpck.5169995583184591170" type="tpf8.CopySrcNodeMacro" typeId="tpf8.1114706874351" id="1209037407605">

@@ -84,18 +84,19 @@
     <classNode dependClassName="jetbrains.mps.baseLanguage.dates.typesystem.typeof_UnaryDateTimeOperation_InferenceRule" />
     <classNode dependClassName="jetbrains.mps.project.GlobalScope" />
     <classNode dependClassName="java.util.Set" />
-    <classNode dependClassName="jetbrains.mps.smodel.SNode" />
+    <classNode dependClassName="jetbrains.mps.lang.typesystem.runtime.InferenceRule_Runtime" />
     <classNode dependClassName="jetbrains.mps.baseLanguage.dates.typesystem.typeof_TimeZoneNameOperation_InferenceRule" />
     <classNode dependClassName="jetbrains.mps.baseLanguage.dates.typesystem.typeof_ParseExpression_InferenceRule" />
     <classNode dependClassName="java.util.HashSet" />
     <classNode dependClassName="jetbrains.mps.baseLanguage.dates.typesystem.typeof_DateTimeZoneCreator_InferenceRule" />
     <classNode dependClassName="jetbrains.mps.baseLanguage.dates.typesystem.typeof_InTimezone_InferenceRule" />
+    <classNode dependClassName="jetbrains.mps.lang.typesystem.runtime.NonTypesystemRule_Runtime" />
     <classNode dependClassName="jetbrains.mps.baseLanguage.dates.typesystem.DurationType_unboxing_SubtypingRule" />
     <classNode dependClassName="jetbrains.mps.baseLanguage.dates.typesystem.typeof_DateTimePlusPeriodOperation_InferenceRule" />
     <classNode dependClassName="jetbrains.mps.baseLanguage.dates.typesystem.typeof_ScheduleLiteral_InferenceRule" />
     <classNode dependClassName="jetbrains.mps.baseLanguage.dates.typesystem.typeof_RoundDateTimeOperation_InferenceRule" />
-    <classNode dependClassName="jetbrains.mps.lang.typesystem.runtime.InferenceRule_Runtime" />
     <classNode dependClassName="jetbrains.mps.baseLanguage.dates.typesystem.typeof_InlineFormatExpression_InferenceRule" />
+    <classNode dependClassName="jetbrains.mps.baseLanguage.dates.typesystem.check_ScheduleLiteral_NonTypesystemRule" />
     <classNode dependClassName="jetbrains.mps.baseLanguage.dates.typesystem.typeof_ConstantTimeZone_InferenceRule" />
     <classNode dependClassName="jetbrains.mps.baseLanguage.dates.typesystem.typeof_TimeZoneFromString_InferenceRule" />
     <classNode dependClassName="jetbrains.mps.baseLanguage.dates.typesystem.typeof_FormatPeriodExpression_InferenceRule" />
@@ -108,6 +109,7 @@
     <classNode dependClassName="jetbrains.mps.baseLanguage.dates.typesystem.typeof_NullOperation_InferenceRule" />
     <classNode dependClassName="jetbrains.mps.baseLanguage.dates.typesystem.typeof_FormatExpression_InferenceRule" />
     <classNode dependClassName="jetbrains.mps.baseLanguage.dates.typesystem.typeof_PeriodInPropertyOperation_InferenceRule" />
+    <classNode dependClassName="jetbrains.mps.smodel.SNode" />
     <classNode dependClassName="jetbrains.mps.baseLanguage.dates.typesystem.typeof_FormatDateTimeExpression_InferenceRule" />
     <classNode dependClassName="jetbrains.mps.lang.typesystem.runtime.SubtypingRule_Runtime" />
     <classNode dependClassName="jetbrains.mps.baseLanguage.dates.typesystem.typeof_ConvertToJavaCalendarOperation_InferenceRule" />
@@ -118,6 +120,21 @@
     <classNode dependClassName="java.lang.String" />
     <classNode extendsClassName="jetbrains.mps.lang.typesystem.runtime.OverloadedOperationsTypesProvider" />
     <classNode extendsClassName="jetbrains.mps.lang.typesystem.runtime.BaseHelginsDescriptor" />
+  </dependency>
+  <dependency className="jetbrains.mps.baseLanguage.dates.typesystem.check_ScheduleLiteral_NonTypesystemRule" file="check_ScheduleLiteral_NonTypesystemRule.java">
+    <classNode dependClassName="java.lang.String" />
+    <classNode dependClassName="org.apache.commons.lang.StringUtils" />
+    <classNode dependClassName="jetbrains.mps.smodel.SModelUtil_new" />
+    <classNode dependClassName="jetbrains.mps.lang.smodel.generator.smodelAdapter.SLinkOperations" />
+    <classNode dependClassName="jetbrains.mps.errors.IErrorReporter" />
+    <classNode dependClassName="jetbrains.mps.lang.smodel.generator.smodelAdapter.SPropertyOperations" />
+    <classNode dependClassName="jetbrains.mps.lang.typesystem.runtime.IsApplicableStatus" />
+    <classNode dependClassName="jetbrains.mps.errors.messageTargets.NodeMessageTarget" />
+    <classNode dependClassName="jetbrains.mps.smodel.SNode" />
+    <classNode dependClassName="jetbrains.mps.typesystem.inference.TypeCheckingContext" />
+    <classNode dependClassName="jetbrains.mps.errors.messageTargets.MessageTarget" />
+    <classNode extendsClassName="jetbrains.mps.lang.typesystem.runtime.AbstractNonTypesystemRule_Runtime" />
+    <classNode extendsClassName="jetbrains.mps.lang.typesystem.runtime.NonTypesystemRule_Runtime" />
   </dependency>
   <dependency className="jetbrains.mps.baseLanguage.dates.typesystem.typeof_AllTimeZonesConstant_InferenceRule" file="typeof_AllTimeZonesConstant_InferenceRule.java">
     <classNode dependClassName="java.lang.String" />
