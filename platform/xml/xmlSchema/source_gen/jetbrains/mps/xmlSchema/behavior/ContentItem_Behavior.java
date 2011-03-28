@@ -9,8 +9,8 @@ import jetbrains.mps.smodel.behaviour.BehaviorManager;
 import jetbrains.mps.lang.smodel.generator.smodelAdapter.SNodeOperations;
 
 public class ContentItem_Behavior {
-  private static Class[] PARAMETERS_1213877413538 = {SNode.class ,List.class};
-  private static Class[] PARAMETERS_1213877413543 = {SNode.class ,Set.class};
+  private static Class[] PARAMETERS_1213877413538 = {SNode.class, List.class};
+  private static Class[] PARAMETERS_1213877413543 = {SNode.class, Set.class};
   private static Class[] PARAMETERS_1213877413548 = {SNode.class};
 
   public static void init(SNode thisNode) {

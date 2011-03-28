@@ -7,7 +7,7 @@ import jetbrains.mps.smodel.behaviour.BehaviorManager;
 import jetbrains.mps.lang.smodel.generator.smodelAdapter.SNodeOperations;
 
 public class BinaryOperation_Behavior {
-  private static Class[] PARAMETERS_1213877398951 = {SNode.class ,SNode.class ,SNode.class};
+  private static Class[] PARAMETERS_1213877398951 = {SNode.class, SNode.class, SNode.class};
 
   public static void init(SNode thisNode) {
   }

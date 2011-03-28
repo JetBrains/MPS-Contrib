@@ -13,8 +13,8 @@ import jetbrains.mps.smodel.SModelUtil_new;
 import jetbrains.mps.project.GlobalScope;
 
 public class FormatDateTimeExpression_Behavior {
-  private static Class[] PARAMETERS_5034322243092301679 = {SNode.class ,SNode.class};
-  private static Class[] PARAMETERS_5034322243092301788 = {SNode.class ,SNode.class ,SNode.class};
+  private static Class[] PARAMETERS_5034322243092301679 = {SNode.class, SNode.class};
+  private static Class[] PARAMETERS_5034322243092301788 = {SNode.class, SNode.class, SNode.class};
 
   public static void init(SNode thisNode) {
   }

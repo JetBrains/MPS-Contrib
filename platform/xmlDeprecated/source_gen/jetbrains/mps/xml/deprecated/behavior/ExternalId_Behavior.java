@@ -8,7 +8,7 @@ import jetbrains.mps.smodel.behaviour.BehaviorManager;
 import jetbrains.mps.lang.smodel.generator.smodelAdapter.SNodeOperations;
 
 public class ExternalId_Behavior {
-  private static Class[] PARAMETERS_1234406619968 = {SNode.class ,DocType.class};
+  private static Class[] PARAMETERS_1234406619968 = {SNode.class, DocType.class};
 
   public static void init(SNode thisNode) {
   }

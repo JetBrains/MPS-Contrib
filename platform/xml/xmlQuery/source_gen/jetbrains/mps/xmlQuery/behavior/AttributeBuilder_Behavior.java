@@ -19,8 +19,8 @@ import jetbrains.mps.smodel.SNodeId;
 
 public class AttributeBuilder_Behavior {
   private static Class[] PARAMETERS_7225751495667376241 = {SNode.class};
-  private static Class[] PARAMETERS_7225751495667376245 = {SNode.class ,SNode.class};
-  private static Class[] PARAMETERS_608266221866981658 = {SNode.class ,SNode.class ,SNode.class ,SNode.class};
+  private static Class[] PARAMETERS_7225751495667376245 = {SNode.class, SNode.class};
+  private static Class[] PARAMETERS_608266221866981658 = {SNode.class, SNode.class, SNode.class, SNode.class};
 
   public static void init(SNode thisNode) {
   }
@@ -99,7 +99,7 @@ public class AttributeBuilder_Behavior {
           {
             quotedNode_4 = SModelUtil_new.instantiateConceptDeclaration("jetbrains.mps.baseLanguage.structure.InstanceMethodCallOperation", null, GlobalScope.getInstance(), false);
             SNode quotedNode1_13 = quotedNode_4;
-            quotedNode1_13.addReference(SReference.create("baseMethodDeclaration", quotedNode1_13, SModelReference.fromString("f:java_stub#37a3367b-1fb2-44d8-aa6b-18075e74e003#org.jdom(org.jdom@java_stub)"), SNodeId.fromString("~Element.setAttribute(java.lang.String,java.lang.String):org.jdom.Element")));
+            quotedNode1_13.addReference(SReference.create("baseMethodDeclaration", quotedNode1_13, SModelReference.fromString("f:java_stub#37a3367b-1fb2-44d8-aa6b-18075e74e003#org.jdom(MPS.Classpath/org.jdom@java_stub)"), SNodeId.fromString("~Element.setAttribute(java.lang.String,java.lang.String):org.jdom.Element")));
             {
               quotedNode_6 = SModelUtil_new.instantiateConceptDeclaration("jetbrains.mps.baseLanguage.structure.StringLiteral", null, GlobalScope.getInstance(), false);
               SNode quotedNode1_14 = quotedNode_6;

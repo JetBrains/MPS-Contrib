@@ -8,7 +8,7 @@ import jetbrains.mps.smodel.behaviour.BehaviorManager;
 import jetbrains.mps.lang.smodel.generator.smodelAdapter.SNodeOperations;
 
 public class XmlRoot_Behavior {
-  private static Class[] PARAMETERS_1213877420378 = {SNode.class ,IScope.class};
+  private static Class[] PARAMETERS_1213877420378 = {SNode.class, IScope.class};
 
   public static void init(SNode thisNode) {
   }

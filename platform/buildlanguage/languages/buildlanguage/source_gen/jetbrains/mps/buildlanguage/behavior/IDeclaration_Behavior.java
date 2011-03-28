@@ -11,8 +11,8 @@ import jetbrains.mps.lang.smodel.generator.smodelAdapter.SNodeOperations;
 public class IDeclaration_Behavior {
   private static Class[] PARAMETERS_5699548131010533031 = {SNode.class};
   private static Class[] PARAMETERS_5699548131010535048 = {SNode.class};
-  private static Class[] PARAMETERS_5699548131010535069 = {SNode.class ,SNode.class};
-  private static Class[] PARAMETERS_5699548131010535105 = {SNode.class ,List.class};
+  private static Class[] PARAMETERS_5699548131010535069 = {SNode.class, SNode.class};
+  private static Class[] PARAMETERS_5699548131010535105 = {SNode.class, List.class};
 
   public static void init(SNode thisNode) {
   }

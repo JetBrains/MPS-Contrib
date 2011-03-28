@@ -13,8 +13,8 @@ import jetbrains.mps.smodel.SModelUtil_new;
 import jetbrains.mps.project.GlobalScope;
 
 public class InTimezoneExpression_Behavior {
-  private static Class[] PARAMETERS_6626410111395872158 = {SNode.class ,SNode.class};
-  private static Class[] PARAMETERS_2890840340813585276 = {SNode.class ,SNode.class ,SNode.class};
+  private static Class[] PARAMETERS_6626410111395872158 = {SNode.class, SNode.class};
+  private static Class[] PARAMETERS_2890840340813585276 = {SNode.class, SNode.class, SNode.class};
 
   public static void init(SNode thisNode) {
   }

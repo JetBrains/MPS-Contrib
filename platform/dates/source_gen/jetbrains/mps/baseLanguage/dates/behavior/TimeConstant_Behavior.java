@@ -13,8 +13,8 @@ import jetbrains.mps.smodel.SModelUtil_new;
 import jetbrains.mps.project.GlobalScope;
 
 public class TimeConstant_Behavior {
-  private static Class[] PARAMETERS_779372288056823164 = {SNode.class ,SNode.class};
-  private static Class[] PARAMETERS_779372288056825341 = {SNode.class ,SNode.class ,SNode.class};
+  private static Class[] PARAMETERS_779372288056823164 = {SNode.class, SNode.class};
+  private static Class[] PARAMETERS_779372288056825341 = {SNode.class, SNode.class, SNode.class};
 
   public static void init(SNode thisNode) {
   }

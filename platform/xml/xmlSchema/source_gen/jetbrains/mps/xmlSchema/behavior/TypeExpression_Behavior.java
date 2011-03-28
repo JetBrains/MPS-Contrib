@@ -9,8 +9,8 @@ import jetbrains.mps.smodel.behaviour.BehaviorManager;
 import jetbrains.mps.lang.smodel.generator.smodelAdapter.SNodeOperations;
 
 public class TypeExpression_Behavior {
-  private static Class[] PARAMETERS_1213877382373 = {SNode.class ,List.class};
-  private static Class[] PARAMETERS_1213877382378 = {SNode.class ,Set.class};
+  private static Class[] PARAMETERS_1213877382373 = {SNode.class, List.class};
+  private static Class[] PARAMETERS_1213877382378 = {SNode.class, Set.class};
   private static Class[] PARAMETERS_1213877382383 = {SNode.class};
   private static Class[] PARAMETERS_1213877382388 = {SNode.class};
 
