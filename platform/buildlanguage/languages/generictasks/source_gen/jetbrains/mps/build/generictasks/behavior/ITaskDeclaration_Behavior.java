@@ -14,8 +14,8 @@ import jetbrains.mps.lang.smodel.generator.smodelAdapter.SNodeOperations;
 
 public class ITaskDeclaration_Behavior {
   private static Class[] PARAMETERS_1449762848926780427 = {SNode.class};
-  private static Class[] PARAMETERS_1449762848926780436 = {SNode.class ,List.class};
-  private static Class[] PARAMETERS_1648602681640249389 = {SNode.class ,SNode.class ,List.class};
+  private static Class[] PARAMETERS_1449762848926780436 = {SNode.class, List.class};
+  private static Class[] PARAMETERS_1648602681640249389 = {SNode.class, SNode.class, List.class};
   private static Class[] PARAMETERS_4241383766070759083 = {SNode.class};
   private static Class[] PARAMETERS_4241383766070831847 = {SNode.class};
   private static Class[] PARAMETERS_4710899751214010949 = {SNode.class};
