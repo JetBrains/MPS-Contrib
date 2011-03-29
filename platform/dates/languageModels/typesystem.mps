@@ -22,7 +22,6 @@
   <import index="tp3t" modelUID="r:00000000-0000-4000-0000-011c89590345(jetbrains.mps.lang.pattern.structure)" version="0" implicit="yes" />
   <import index="tpd4" modelUID="r:00000000-0000-4000-0000-011c895902b4(jetbrains.mps.lang.typesystem.structure)" version="3" implicit="yes" />
   <import index="tp71" modelUID="r:00000000-0000-4000-0000-011c895903d1(jetbrains.mps.baseLanguage.dates.typesystem)" version="-1" implicit="yes" />
-  <import index="oe5h" modelUID="r:a2f19e10-2813-4139-a451-ab70035813fc(jetbrains.mps.baseLanguage.behavior)" version="-1" implicit="yes" />
   <roots>
     <node type="tpd4.InferenceRule" typeId="tpd4.1174643105530" id="1178371373855">
       <property name="name" nameId="tpck.1169194664001" value="typeof_NowExpression" />
@@ -2014,7 +2013,7 @@
                 <link role="applicableNode" roleId="tpd4.1174650432090" targetNodeId="670620798051999097" resolveInfo="operation" />
               </node>
               <node role="operation" roleId="tpee.1197027833540" type="tp25.Node_ConceptMethodCall" typeId="tp25.1179409122411" id="4858741172755310219">
-                <link role="baseMethodDeclaration" roleId="tpee.1068499141037" targetNodeId="oe5h.1213877410070" resolveInfo="getOperand" />
+                <link role="baseMethodDeclaration" roleId="tpee.1068499141037" targetNodeId="tpek.1213877410070" resolveInfo="getOperand" />
               </node>
             </node>
           </node>
@@ -2131,7 +2130,7 @@
                 <link role="applicableNode" roleId="tpd4.1174650432090" targetNodeId="5372916090361181345" resolveInfo="operation" />
               </node>
               <node role="operation" roleId="tpee.1197027833540" type="tp25.Node_ConceptMethodCall" typeId="tp25.1179409122411" id="5372916090361183382">
-                <link role="baseMethodDeclaration" roleId="tpee.1068499141037" targetNodeId="oe5h.1213877410070" resolveInfo="getOperand" />
+                <link role="baseMethodDeclaration" roleId="tpee.1068499141037" targetNodeId="tpek.1213877410070" resolveInfo="getOperand" />
               </node>
             </node>
           </node>
@@ -2304,7 +2303,7 @@
                 <link role="applicableNode" roleId="tpd4.1174650432090" targetNodeId="5293902215864051663" resolveInfo="operation" />
               </node>
               <node role="operation" roleId="tpee.1197027833540" type="tp25.Node_ConceptMethodCall" typeId="tp25.1179409122411" id="5293902215864075067">
-                <link role="baseMethodDeclaration" roleId="tpee.1068499141037" targetNodeId="oe5h.1213877410070" resolveInfo="getOperand" />
+                <link role="baseMethodDeclaration" roleId="tpee.1068499141037" targetNodeId="tpek.1213877410070" resolveInfo="getOperand" />
               </node>
             </node>
           </node>
@@ -2347,7 +2346,7 @@
                 <link role="applicableNode" roleId="tpd4.1174650432090" targetNodeId="5293902215864913136" resolveInfo="operation" />
               </node>
               <node role="operation" roleId="tpee.1197027833540" type="tp25.Node_ConceptMethodCall" typeId="tp25.1179409122411" id="5293902215864942474">
-                <link role="baseMethodDeclaration" roleId="tpee.1068499141037" targetNodeId="oe5h.1213877410070" resolveInfo="getOperand" />
+                <link role="baseMethodDeclaration" roleId="tpee.1068499141037" targetNodeId="tpek.1213877410070" resolveInfo="getOperand" />
               </node>
             </node>
           </node>

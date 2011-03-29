@@ -50,7 +50,7 @@ public class QueriesGenerated {
 
   public static boolean nodeSubstituteActionsBuilder_Precondition_Expression_4555537781927653007(final IOperationContext operationContext, final NodeSubstitutePreconditionContext _context) {
     SNode td = SNodeOperations.getAncestor(_context.getParentNode(), "jetbrains.mps.baseLanguage.structure.TypeDerivable", true, false);
-    return (td != null) && TypeChecker.getInstance().getSubtypingManager().isSubtype(TypeDerivable_Behavior.call_deriveType_4555537781928374706(td, _context.getCurrentTargetNode(), _context.getLink()), new QueriesGenerated.QuotationClass_x583g4_a1a0a1a0().createNode());
+    return (td != null) && TypeChecker.getInstance().getSubtypingManager().isSubtype(TypeDerivable_Behavior.call_deriveType_1213877435747(td, _context.getCurrentTargetNode(), _context.getLink()), new QueriesGenerated.QuotationClass_x583g4_a1a0a1a0().createNode());
   }
 
   public static boolean nodeSubstituteActionsBuilder_Precondition_TimeZoneNameOperation_1064517862347161195(final IOperationContext operationContext, final NodeSubstitutePreconditionContext _context) {

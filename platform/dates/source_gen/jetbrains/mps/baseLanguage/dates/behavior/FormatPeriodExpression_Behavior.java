@@ -29,7 +29,7 @@ public class FormatPeriodExpression_Behavior {
     return null;
   }
 
-  public static SNode virtual_deriveType_4555537781928374706(SNode thisNode, SNode expression, SNode link) {
+  public static SNode virtual_deriveType_1213877435747(SNode thisNode, SNode expression, SNode link) {
     if (SLinkOperations.findLinkDeclaration("jetbrains.mps.baseLanguage.dates.structure.FormatPeriodExpression", "period") == link) {
       return new FormatPeriodExpression_Behavior.QuotationClass_tjsbw0_a0a0a0c().createNode();
     }
@@ -41,7 +41,7 @@ public class FormatPeriodExpression_Behavior {
   }
 
   public static SNode call_deriveType_34521615669576905(SNode thisNode, SNode expression, SNode link) {
-    return (SNode) BehaviorManager.getInstance().invoke(Object.class, SNodeOperations.cast(thisNode, "jetbrains.mps.baseLanguage.dates.structure.FormatPeriodExpression"), "virtual_deriveType_4555537781928374706", PARAMETERS_34521615669576905, expression, link);
+    return (SNode) BehaviorManager.getInstance().invoke(Object.class, SNodeOperations.cast(thisNode, "jetbrains.mps.baseLanguage.dates.structure.FormatPeriodExpression"), "virtual_deriveType_1213877435747", PARAMETERS_34521615669576905, expression, link);
   }
 
   public static SNode callSuper_deriveType_34521615669576867(SNode thisNode, String callerConceptFqName, SNode expression) {
@@ -49,7 +49,7 @@ public class FormatPeriodExpression_Behavior {
   }
 
   public static SNode callSuper_deriveType_34521615669576905(SNode thisNode, String callerConceptFqName, SNode expression, SNode link) {
-    return (SNode) BehaviorManager.getInstance().invokeSuper(Object.class, SNodeOperations.cast(thisNode, "jetbrains.mps.baseLanguage.dates.structure.FormatPeriodExpression"), callerConceptFqName, "virtual_deriveType_4555537781928374706", PARAMETERS_34521615669576905, expression, link);
+    return (SNode) BehaviorManager.getInstance().invokeSuper(Object.class, SNodeOperations.cast(thisNode, "jetbrains.mps.baseLanguage.dates.structure.FormatPeriodExpression"), callerConceptFqName, "virtual_deriveType_1213877435747", PARAMETERS_34521615669576905, expression, link);
   }
 
   public static class QuotationClass_tjsbw0_a0a0b0a0b {

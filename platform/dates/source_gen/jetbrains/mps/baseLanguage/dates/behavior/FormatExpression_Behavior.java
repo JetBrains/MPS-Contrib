@@ -26,7 +26,7 @@ public class FormatExpression_Behavior {
     return null;
   }
 
-  public static SNode virtual_deriveType_4555537781928374706(SNode thisNode, SNode expression, SNode link) {
+  public static SNode virtual_deriveType_1213877435747(SNode thisNode, SNode expression, SNode link) {
     if (SLinkOperations.findLinkDeclaration("jetbrains.mps.baseLanguage.dates.structure.FormatExpression", "dateExpression") == link) {
       return new FormatExpression_Behavior.QuotationClass_w5avkh_a0a0a0c().createNode();
     } else if (SLinkOperations.findLinkDeclaration("jetbrains.mps.baseLanguage.dates.structure.FormatExpression", "zone") == link) {

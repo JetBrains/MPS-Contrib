@@ -49,8 +49,8 @@
     </scopeInfo>
     <scopeInfo nodeId="1219152731277" fileName="QueriesGenerated.java" startLine="143" startPosition="149" endLine="156" endPosition="51">
       <varInfo nodeId="1219153292099" varName="references" />
-      <varInfo nodeId="1219153267727" varName="decls" />
       <varInfo nodeId="1219153306994" varName="externalReferences" />
+      <varInfo nodeId="1219153267727" varName="decls" />
     </scopeInfo>
     <unitInfo nodeId="1227876775006" fileName="QueriesGenerated.java" startLine="151" startPosition="88" endLine="155" endPosition="5" unitName="jetbrains.mps.buildlanguage.generator.xml.template.main.QueriesGenerated$2" />
     <unitInfo nodeId="1227876784743" fileName="QueriesGenerated.java" startLine="145" startPosition="85" endLine="150" endPosition="5" unitName="jetbrains.mps.buildlanguage.generator.xml.template.main.QueriesGenerated$1" />

@@ -39,7 +39,6 @@
   <import index="tpib" modelUID="r:00000000-0000-4000-0000-011c8959057f(jetbrains.mps.baseLanguage.logging.structure)" version="0" implicit="yes" />
   <import index="tpfp" modelUID="r:00000000-0000-4000-0000-011c89590519(jetbrains.mps.baseLanguage.regexp.jetbrains.mps.regexp.accessory)" version="-1" implicit="yes" />
   <import index="tp75" modelUID="r:00000000-0000-4000-0000-011c895903cd(jetbrains.mps.baseLanguage.dates.actions)" version="-1" implicit="yes" />
-  <import index="oe5h" modelUID="r:a2f19e10-2813-4139-a451-ab70035813fc(jetbrains.mps.baseLanguage.behavior)" version="-1" implicit="yes" />
   <roots>
     <node type="tpee.ClassConcept" typeId="tpee.1068390468198" id="1171978333109">
       <property name="name" nameId="tpck.1169194664001" value="DateTypeUtil" />
@@ -1349,7 +1348,7 @@
                     <link role="variableDeclaration" roleId="tpee.1068581517664" targetNodeId="4555537781927653086" resolveInfo="td" />
                   </node>
                   <node role="operation" roleId="tpee.1197027833540" type="tp25.Node_ConceptMethodCall" typeId="tp25.1179409122411" id="4555537781927653134">
-                    <link role="baseMethodDeclaration" roleId="tpee.1068499141037" targetNodeId="oe5h.4555537781928374706" resolveInfo="deriveType" />
+                    <link role="baseMethodDeclaration" roleId="tpee.1068499141037" targetNodeId="tpek.1213877435747" resolveInfo="deriveType" />
                     <node role="actualArgument" roleId="tpee.1068499141038" type="tpdg.ConceptFunctionParameter_currentTargetNode" typeId="tpdg.1177568407352" id="4555537781927653136" />
                     <node role="actualArgument" roleId="tpee.1068499141038" type="tpdg.ConceptFunctionParameter_link" typeId="tpdg.1221634900557" id="4555537781928387881" />
                   </node>

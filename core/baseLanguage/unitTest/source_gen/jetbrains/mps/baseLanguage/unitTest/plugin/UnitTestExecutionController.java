@@ -6,10 +6,12 @@ import jetbrains.mps.baseLanguage.util.plugin.run.ConfigRunParameters;
 import java.util.List;
 import jetbrains.mps.internal.collections.runtime.ListSequence;
 import java.util.ArrayList;
-import jetbrains.mps.smodel.ModelAccess;
 import com.intellij.execution.process.ProcessHandler;
+import jetbrains.mps.smodel.ModelAccess;
 import com.intellij.execution.ExecutionException;
-import jetbrains.mps.runConfigurations.runtime.DefaultProcessHandler;
+import jetbrains.mps.runConfigurations.runtime.OutputRedirector;
+import org.apache.commons.lang.StringUtils;
+import java.io.File;
 import jetbrains.mps.baseLanguage.closures.runtime._FunctionTypes;
 
 public class UnitTestExecutionController {
@@ -17,7 +19,7 @@ public class UnitTestExecutionController {
   private final TestEventsDispatcher myDispatcher;
   private final ConfigRunParameters myConfigurationRunParameters;
   private final List<ITestNodeWrapper> myWhatToTest = ListSequence.fromList(new ArrayList<ITestNodeWrapper>());
-  private Process myCurrentProcess;
+  private ProcessHandler myCurrentProcess;
 
   public UnitTestExecutionController(final List<ITestNodeWrapper> whatToTest, ConfigRunParameters configurationRunParameters) {
     ModelAccess.instance().runReadAction(new Runnable() {
@@ -39,27 +41,26 @@ public class UnitTestExecutionController {
       throw new ExecutionException("Nothing to test.");
     }
 
-    UnitTestRunner testRunner = null;
-    try {
-      testRunner = new UnitTestRunner(myWhatToTest, myConfigurationRunParameters);
-    } catch (NullPointerException npe) {
-      npe.printStackTrace();
-    }
-    myCurrentProcess = testRunner.run();
+    String workingDir = myConfigurationRunParameters.getWorkingDirectory();
+    myCurrentProcess = OutputRedirector.redirect(new Junit_Command().setJrePath(myConfigurationRunParameters.getAlternativeJRE()).setVirtualMachineParameter(myConfigurationRunParameters.getVMParameters()).setWorkingDirectory((StringUtils.isNotEmpty(workingDir) ?
+      new File(workingDir) :
+      null
+    )).setTests(myWhatToTest).createProcess(), new UnitTestProcessListener(myDispatcher));
+
     if (myCurrentProcess == null) {
       myState.terminate();
       return null;
     }
 
-    return new DefaultProcessHandler(this.myCurrentProcess, testRunner.getCommandString(), new UnitTestProcessListener(myDispatcher));
+    return myCurrentProcess;
   }
 
   public _FunctionTypes._void_P0_E0 getCloseListener() {
-    final Process process = this.myCurrentProcess;
+    final ProcessHandler process = this.myCurrentProcess;
     return new _FunctionTypes._void_P0_E0() {
       public void invoke() {
         if (process != null) {
-          process.destroy();
+          process.destroyProcess();
         }
       }
     };

@@ -38,7 +38,6 @@
   <import index="tp68" modelUID="r:00000000-0000-4000-0000-011c895903ac(jetbrains.mps.baseLanguageInternal.structure)" version="1" implicit="yes" />
   <import index="tpd4" modelUID="r:00000000-0000-4000-0000-011c895902b4(jetbrains.mps.lang.typesystem.structure)" version="3" implicit="yes" />
   <import index="tp6z" modelUID="r:00000000-0000-4000-0000-011c895903d7(jetbrains.mps.baseLanguage.dates.generator.baseLanguage.template.main@generator)" version="-1" implicit="yes" />
-  <import index="oe5h" modelUID="r:a2f19e10-2813-4139-a451-ab70035813fc(jetbrains.mps.baseLanguage.behavior)" version="-1" implicit="yes" />
   <roots>
     <node type="tpf8.MappingConfiguration" typeId="tpf8.1095416546421" id="1169550125892">
       <property name="name" nameId="tpck.1169194664001" value="main" />
@@ -3981,7 +3980,7 @@
   <root id="1209037407602">
     <node role="contentNode" roleId="tpf8.1092060348987" type="tpee.StaticMethodCall" typeId="tpee.1081236700937" id="1209037407603">
       <link role="classConcept" roleId="tpee.1144433194310" targetNodeId="v52.~DateTimeOperations" resolveInfo="DateTimeOperations" />
-      <link role="baseMethodDeclaration" roleId="tpee.1068499141037" targetNodeId="v52.~DateTimeOperations%disNull(java%dlang%dLong)%cboolean" resolveInfo="isNull" />
+      <link role="baseMethodDeclaration" roleId="tpee.1068499141037" targetNodeId="v52.~DateTimeOperations%disNull(long)%cboolean" resolveInfo="isNull" />
       <node role="actualArgument" roleId="tpee.1068499141038" type="tpee.IntegerConstant" typeId="tpee.1068580320020" id="1209037407604">
         <property name="value" nameId="tpee.1068580320021" value="0" />
         <node role="_$attribute" roleId="tpck.5169995583184591170" type="tpf8.CopySrcNodeMacro" typeId="tpf8.1114706874351" id="1209037407605">
@@ -3991,7 +3990,7 @@
                 <node role="expression" roleId="tpee.1068580123156" type="tpee.DotExpression" typeId="tpee.1197027756228" id="1209037422526">
                   <node role="operand" roleId="tpee.1197027771414" type="tpf8.TemplateFunctionParameter_sourceNode" typeId="tpf8.1167169188348" id="1209037407610" />
                   <node role="operation" roleId="tpee.1197027833540" type="tp25.Node_ConceptMethodCall" typeId="tp25.1179409122411" id="1209037425119">
-                    <link role="baseMethodDeclaration" roleId="tpee.1068499141037" targetNodeId="oe5h.1213877410070" resolveInfo="getOperand" />
+                    <link role="baseMethodDeclaration" roleId="tpee.1068499141037" targetNodeId="tpek.1213877410070" resolveInfo="getOperand" />
                   </node>
                 </node>
               </node>
@@ -4015,7 +4014,7 @@
                 <node role="expression" roleId="tpee.1068580123156" type="tpee.DotExpression" typeId="tpee.1197027756228" id="1209037432967">
                   <node role="operand" roleId="tpee.1197027771414" type="tpf8.TemplateFunctionParameter_sourceNode" typeId="tpf8.1167169188348" id="1209037432968" />
                   <node role="operation" roleId="tpee.1197027833540" type="tp25.Node_ConceptMethodCall" typeId="tp25.1179409122411" id="1209037445107">
-                    <link role="baseMethodDeclaration" roleId="tpee.1068499141037" targetNodeId="oe5h.1213877410070" resolveInfo="getOperand" />
+                    <link role="baseMethodDeclaration" roleId="tpee.1068499141037" targetNodeId="tpek.1213877410070" resolveInfo="getOperand" />
                   </node>
                 </node>
               </node>
@@ -4050,7 +4049,7 @@
                       <node role="expression" roleId="tpee.1068580123156" type="tpee.DotExpression" typeId="tpee.1197027756228" id="1209037487749">
                         <node role="operand" roleId="tpee.1197027771414" type="tpf8.TemplateFunctionParameter_sourceNode" typeId="tpf8.1167169188348" id="1209037487750" />
                         <node role="operation" roleId="tpee.1197027833540" type="tp25.Node_ConceptMethodCall" typeId="tp25.1179409122411" id="1209037505395">
-                          <link role="baseMethodDeclaration" roleId="tpee.1068499141037" targetNodeId="oe5h.1213877410070" resolveInfo="getOperand" />
+                          <link role="baseMethodDeclaration" roleId="tpee.1068499141037" targetNodeId="tpek.1213877410070" resolveInfo="getOperand" />
                         </node>
                       </node>
                     </node>
@@ -4089,7 +4088,7 @@
                           <node role="expression" roleId="tpee.1068580123156" type="tpee.DotExpression" typeId="tpee.1197027756228" id="1209037512258">
                             <node role="operand" roleId="tpee.1197027771414" type="tpf8.TemplateFunctionParameter_sourceNode" typeId="tpf8.1167169188348" id="1209037512259" />
                             <node role="operation" roleId="tpee.1197027833540" type="tp25.Node_ConceptMethodCall" typeId="tp25.1179409122411" id="1209037532731">
-                              <link role="baseMethodDeclaration" roleId="tpee.1068499141037" targetNodeId="oe5h.1213877410070" resolveInfo="getOperand" />
+                              <link role="baseMethodDeclaration" roleId="tpee.1068499141037" targetNodeId="tpek.1213877410070" resolveInfo="getOperand" />
                             </node>
                           </node>
                         </node>
@@ -4134,7 +4133,7 @@
                         <node role="expression" roleId="tpee.1068580123156" type="tpee.DotExpression" typeId="tpee.1197027756228" id="1209037539152">
                           <node role="operand" roleId="tpee.1197027771414" type="tpf8.TemplateFunctionParameter_sourceNode" typeId="tpf8.1167169188348" id="1209037539153" />
                           <node role="operation" roleId="tpee.1197027833540" type="tp25.Node_ConceptMethodCall" typeId="tp25.1179409122411" id="1209037552742">
-                            <link role="baseMethodDeclaration" roleId="tpee.1068499141037" targetNodeId="oe5h.1213877410070" resolveInfo="getOperand" />
+                            <link role="baseMethodDeclaration" roleId="tpee.1068499141037" targetNodeId="tpek.1213877410070" resolveInfo="getOperand" />
                           </node>
                         </node>
                       </node>
@@ -4173,7 +4172,7 @@
                         <node role="expression" roleId="tpee.1068580123156" type="tpee.DotExpression" typeId="tpee.1197027756228" id="1209037556140">
                           <node role="operand" roleId="tpee.1197027771414" type="tpf8.TemplateFunctionParameter_sourceNode" typeId="tpf8.1167169188348" id="1209037556141" />
                           <node role="operation" roleId="tpee.1197027833540" type="tp25.Node_ConceptMethodCall" typeId="tp25.1179409122411" id="1209037568170">
-                            <link role="baseMethodDeclaration" roleId="tpee.1068499141037" targetNodeId="oe5h.1213877410070" resolveInfo="getOperand" />
+                            <link role="baseMethodDeclaration" roleId="tpee.1068499141037" targetNodeId="tpek.1213877410070" resolveInfo="getOperand" />
                           </node>
                         </node>
                       </node>
@@ -4200,7 +4199,7 @@
                 <node role="expression" roleId="tpee.1068580123156" type="tpee.DotExpression" typeId="tpee.1197027756228" id="1209039909803">
                   <node role="operand" roleId="tpee.1197027771414" type="tpf8.TemplateFunctionParameter_sourceNode" typeId="tpf8.1167169188348" id="1209039909804" />
                   <node role="operation" roleId="tpee.1197027833540" type="tp25.Node_ConceptMethodCall" typeId="tp25.1179409122411" id="1209039922276">
-                    <link role="baseMethodDeclaration" roleId="tpee.1068499141037" targetNodeId="oe5h.1213877410070" resolveInfo="getOperand" />
+                    <link role="baseMethodDeclaration" roleId="tpee.1068499141037" targetNodeId="tpek.1213877410070" resolveInfo="getOperand" />
                   </node>
                 </node>
               </node>
@@ -5416,7 +5415,7 @@
                       <node role="expression" roleId="tpee.1068580123156" type="tpee.DotExpression" typeId="tpee.1197027756228" id="8253375325060141202">
                         <node role="operand" roleId="tpee.1197027771414" type="tpf8.TemplateFunctionParameter_sourceNode" typeId="tpf8.1167169188348" id="8253375325060141201" />
                         <node role="operation" roleId="tpee.1197027833540" type="tp25.Node_ConceptMethodCall" typeId="tp25.1179409122411" id="8253375325060141206">
-                          <link role="baseMethodDeclaration" roleId="tpee.1068499141037" targetNodeId="oe5h.1213877410070" resolveInfo="getOperand" />
+                          <link role="baseMethodDeclaration" roleId="tpee.1068499141037" targetNodeId="tpek.1213877410070" resolveInfo="getOperand" />
                         </node>
                       </node>
                     </node>

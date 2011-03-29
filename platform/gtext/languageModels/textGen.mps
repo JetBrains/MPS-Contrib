@@ -14,7 +14,6 @@
   <import index="tp2q" modelUID="r:00000000-0000-4000-0000-011c8959032e(jetbrains.mps.baseLanguage.collections.structure)" version="7" implicit="yes" />
   <import index="2omo" modelUID="r:de0d3c0c-d049-41cf-bbf9-a920ba513cd3(jetbrains.mps.lang.textGen.structure)" version="11" implicit="yes" />
   <import index="yzu9" modelUID="r:e40d20f2-e58e-407b-ac00-b1e03796df98(jetbrains.mps.gtext.textGen)" version="-1" implicit="yes" />
-  <import index="oe5h" modelUID="r:a2f19e10-2813-4139-a451-ab70035813fc(jetbrains.mps.baseLanguage.behavior)" version="-1" implicit="yes" />
   <roots>
     <node type="2omo.ConceptTextGenDeclaration" typeId="2omo.1233670071145" id="1234548035318">
       <link role="conceptDeclaration" roleId="2omo.1233670257997" targetNodeId="tpih.1179109169620" resolveInfo="GConditionalLine" />
@@ -132,7 +131,7 @@
                     </node>
                   </node>
                   <node role="operation" roleId="tpee.1197027833540" type="tp25.Node_ConceptMethodCall" typeId="tp25.1179409122411" id="1237567399080">
-                    <link role="baseMethodDeclaration" roleId="tpee.1068499141037" targetNodeId="oe5h.1213877519769" resolveInfo="eval" />
+                    <link role="baseMethodDeclaration" roleId="tpee.1068499141037" targetNodeId="tpek.1213877519769" resolveInfo="eval" />
                     <node role="actualArgument" roleId="tpee.1068499141038" type="tpee.DotExpression" typeId="tpee.1197027756228" id="1237567399081">
                       <node role="operand" roleId="tpee.1197027771414" type="2omo.ContextParameter" typeId="2omo.1234279682891" id="1237567399082" />
                       <node role="operation" roleId="tpee.1197027833540" type="tpee.InstanceMethodCallOperation" typeId="tpee.1202948039474" id="1237567399083">

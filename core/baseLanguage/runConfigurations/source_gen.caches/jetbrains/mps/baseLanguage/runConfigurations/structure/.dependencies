@@ -2,16 +2,16 @@
 <dependenciesRoot>
   <dependency className="jetbrains.mps.baseLanguage.runConfigurations.structure.ComponentInsideOfChangeListenerAnnotation" file="ComponentInsideOfChangeListenerAnnotation.java">
     <classNode dependClassName="java.lang.String" />
-    <classNode dependClassName="jetbrains.mps.smodel.SModelUtil_new" />
-    <classNode dependClassName="jetbrains.mps.smodel.SNode" />
     <classNode dependClassName="jetbrains.mps.smodel.SModel" />
+    <classNode dependClassName="jetbrains.mps.smodel.SNode" />
+    <classNode dependClassName="jetbrains.mps.smodel.SModelUtil_new" />
     <classNode dependClassName="jetbrains.mps.lang.core.structure.NodeAttribute" />
     <classNode dependClassName="jetbrains.mps.project.GlobalScope" />
     <classNode extendsClassName="jetbrains.mps.lang.core.structure.BaseConcept" />
   </dependency>
   <dependency className="jetbrains.mps.baseLanguage.runConfigurations.structure.ComponentInsideOfChangeListenerAnnotation_AnnotationLink" file="ComponentInsideOfChangeListenerAnnotation_AnnotationLink.java">
-    <classNode dependClassName="jetbrains.mps.baseLanguage.runConfigurations.structure.ComponentInsideOfChangeListenerAnnotation" />
     <classNode dependClassName="jetbrains.mps.lang.plugin.structure.ComponentReference" />
+    <classNode dependClassName="jetbrains.mps.baseLanguage.runConfigurations.structure.ComponentInsideOfChangeListenerAnnotation" />
     <classNode dependClassName="java.lang.String" />
   </dependency>
   <dependency className="jetbrains.mps.baseLanguage.runConfigurations.structure.IJavaRunConfigurationParameter" file="IJavaRunConfigurationParameter.java">
@@ -33,9 +33,9 @@
   </dependency>
   <dependency className="jetbrains.mps.baseLanguage.runConfigurations.structure.JavaCheckBlock" file="JavaCheckBlock.java">
     <classNode dependClassName="java.lang.String" />
-    <classNode dependClassName="jetbrains.mps.smodel.SModelUtil_new" />
-    <classNode dependClassName="jetbrains.mps.smodel.SNode" />
     <classNode dependClassName="jetbrains.mps.smodel.SModel" />
+    <classNode dependClassName="jetbrains.mps.smodel.SNode" />
+    <classNode dependClassName="jetbrains.mps.smodel.SModelUtil_new" />
     <classNode dependClassName="jetbrains.mps.project.GlobalScope" />
     <classNode dependClassName="jetbrains.mps.lang.plugin.structure.AbstractCheckConfigBlock" />
     <classNode extendsClassName="jetbrains.mps.lang.core.structure.BaseConcept" />
@@ -45,21 +45,21 @@
     <classNode dependClassName="java.util.List" />
     <classNode dependClassName="jetbrains.mps.smodel.SModel" />
     <classNode dependClassName="jetbrains.mps.baseLanguage.runConfigurations.structure.IJavaRunConfigurationParameter" />
-    <classNode dependClassName="jetbrains.mps.project.GlobalScope" />
+    <classNode dependClassName="jetbrains.mps.smodel.SNode" />
     <classNode dependClassName="java.util.Iterator" />
     <classNode dependClassName="jetbrains.mps.smodel.SModelUtil_new" />
-    <classNode dependClassName="jetbrains.mps.baseLanguage.structure.ConceptFunctionParameter" />
+    <classNode dependClassName="jetbrains.mps.project.GlobalScope" />
     <classNode dependClassName="jetbrains.mps.lang.core.structure.Attribute" />
-    <classNode dependClassName="jetbrains.mps.smodel.SNode" />
+    <classNode dependClassName="jetbrains.mps.baseLanguage.structure.ConceptFunctionParameter" />
     <classNode extendsClassName="jetbrains.mps.lang.core.structure.BaseConcept" />
   </dependency>
   <dependency className="jetbrains.mps.baseLanguage.runConfigurations.structure.JavaNodeConfigurationEditorDeclaration" file="JavaNodeConfigurationEditorDeclaration.java">
     <classNode dependClassName="java.lang.String" />
     <classNode dependClassName="jetbrains.mps.smodel.SModelUtil_new" />
-    <classNode dependClassName="jetbrains.mps.project.GlobalScope" />
+    <classNode dependClassName="jetbrains.mps.baseLanguage.runConfigurations.structure.OnChangeNodeBlock" />
     <classNode dependClassName="jetbrains.mps.smodel.SNode" />
     <classNode dependClassName="jetbrains.mps.smodel.SModel" />
-    <classNode dependClassName="jetbrains.mps.baseLanguage.runConfigurations.structure.OnChangeNodeBlock" />
+    <classNode dependClassName="jetbrains.mps.project.GlobalScope" />
     <classNode dependClassName="jetbrains.mps.lang.plugin.structure.ConfigurationEditorDeclaration" />
     <classNode extendsClassName="jetbrains.mps.lang.core.structure.BaseConcept" />
   </dependency>
@@ -105,12 +105,12 @@
     <classNode dependClassName="java.util.List" />
     <classNode dependClassName="jetbrains.mps.smodel.SModel" />
     <classNode dependClassName="jetbrains.mps.baseLanguage.runConfigurations.structure.IJavaRunConfigurationParameter" />
-    <classNode dependClassName="jetbrains.mps.project.GlobalScope" />
+    <classNode dependClassName="jetbrains.mps.smodel.SNode" />
     <classNode dependClassName="java.util.Iterator" />
     <classNode dependClassName="jetbrains.mps.smodel.SModelUtil_new" />
-    <classNode dependClassName="jetbrains.mps.baseLanguage.structure.ConceptFunctionParameter" />
+    <classNode dependClassName="jetbrains.mps.project.GlobalScope" />
     <classNode dependClassName="jetbrains.mps.lang.core.structure.Attribute" />
-    <classNode dependClassName="jetbrains.mps.smodel.SNode" />
+    <classNode dependClassName="jetbrains.mps.baseLanguage.structure.ConceptFunctionParameter" />
     <classNode extendsClassName="jetbrains.mps.lang.core.structure.BaseConcept" />
   </dependency>
   <dependency className="jetbrains.mps.baseLanguage.runConfigurations.structure.OnChangeNodeBlock" file="OnChangeNodeBlock.java">
@@ -133,9 +133,9 @@
   </dependency>
   <dependency className="jetbrains.mps.baseLanguage.runConfigurations.structure.UserComponentReferenceAnnotation" file="UserComponentReferenceAnnotation.java">
     <classNode dependClassName="java.lang.String" />
-    <classNode dependClassName="jetbrains.mps.smodel.SModelUtil_new" />
-    <classNode dependClassName="jetbrains.mps.smodel.SNode" />
     <classNode dependClassName="jetbrains.mps.smodel.SModel" />
+    <classNode dependClassName="jetbrains.mps.smodel.SNode" />
+    <classNode dependClassName="jetbrains.mps.smodel.SModelUtil_new" />
     <classNode dependClassName="jetbrains.mps.lang.core.structure.NodeAttribute" />
     <classNode dependClassName="jetbrains.mps.project.GlobalScope" />
     <classNode extendsClassName="jetbrains.mps.lang.core.structure.BaseConcept" />
