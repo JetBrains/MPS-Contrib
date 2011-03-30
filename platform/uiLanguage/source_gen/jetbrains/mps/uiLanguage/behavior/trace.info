@@ -25,8 +25,8 @@
   <unitInfo fileName="GridRow_Behavior.java" startLine="33" startPosition="0" endLine="50" endPosition="0" unitName="jetbrains.mps.uiLanguage.behavior.GridRow_Behavior$QuotationClass_cglpzy_a0a0a0d0b" />
   <unitInfo fileName="EventDeclaration_Behavior.java" startLine="10" startPosition="0" endLine="28" endPosition="0" unitName="jetbrains.mps.uiLanguage.behavior.EventDeclaration_Behavior" />
   <unitInfo fileName="BeanDeclaration_Behavior.java" startLine="13" startPosition="0" endLine="31" endPosition="0" unitName="jetbrains.mps.uiLanguage.behavior.BeanDeclaration_Behavior" />
-  <unitInfo fileName="IComponentInstance_Behavior.java" startLine="12" startPosition="0" endLine="38" endPosition="0" unitName="jetbrains.mps.uiLanguage.behavior.IComponentInstance_Behavior" />
   <unitInfo fileName="StandardDialog_Behavior.java" startLine="15" startPosition="0" endLine="41" endPosition="0" unitName="jetbrains.mps.uiLanguage.behavior.StandardDialog_Behavior" />
+  <unitInfo fileName="IComponentInstance_Behavior.java" startLine="14" startPosition="0" endLine="41" endPosition="0" unitName="jetbrains.mps.uiLanguage.behavior.IComponentInstance_Behavior" />
   <unitInfo fileName="GridRow_Behavior.java" startLine="19" startPosition="0" endLine="51" endPosition="0" unitName="jetbrains.mps.uiLanguage.behavior.GridRow_Behavior" />
   <unitInfo fileName="BindExpression_Behavior.java" startLine="10" startPosition="0" endLine="46" endPosition="0" unitName="jetbrains.mps.uiLanguage.behavior.BindExpression_Behavior" />
   <unitInfo fileName="ComponentDeclaration_Behavior.java" startLine="19" startPosition="0" endLine="124" endPosition="0" unitName="jetbrains.mps.uiLanguage.behavior.ComponentDeclaration_Behavior" />
@@ -307,16 +307,16 @@
     <unitInfo nodeId="1227876799307" fileName="ComponentDeclaration_Behavior.java" startLine="39" startPosition="164" endLine="43" endPosition="5" unitName="jetbrains.mps.uiLanguage.behavior.ComponentDeclaration_Behavior$1" />
   </root>
   <root nodeId="1213877498059">
-    <nodeInfo nodeId="1227876805215" fileName="IComponentInstance_Behavior.java" startLine="20" startPosition="39" endLine="21" endPosition="103" conceptFqName="jetbrains.mps.baseLanguage.structure.ReturnStatement" />
-    <nodeInfo nodeId="1213877498083" fileName="IComponentInstance_Behavior.java" startLine="26" startPosition="82" endLine="27" endPosition="16" conceptFqName="jetbrains.mps.baseLanguage.structure.ReturnStatement" />
-    <nodeInfo nodeId="1227876805211" fileName="IComponentInstance_Behavior.java" startLine="19" startPosition="142" endLine="23" endPosition="0" conceptFqName="jetbrains.mps.baseLanguage.structure.InstanceMethodDeclaration" propertyString="accept#(Ljetbrains/mps/smodel/SNode;)Z" />
-    <nodeInfo nodeId="1213877498063" fileName="IComponentInstance_Behavior.java" startLine="18" startPosition="78" endLine="23" endPosition="71" conceptFqName="jetbrains.mps.baseLanguage.structure.ReturnStatement" />
-    <scopeInfo nodeId="1213877498086" fileName="IComponentInstance_Behavior.java" startLine="15" startPosition="43" endLine="15" endPosition="43" />
-    <scopeInfo nodeId="1227876805214" fileName="IComponentInstance_Behavior.java" startLine="20" startPosition="39" endLine="21" endPosition="103" />
-    <scopeInfo nodeId="1213877498082" fileName="IComponentInstance_Behavior.java" startLine="26" startPosition="82" endLine="27" endPosition="16" />
-    <scopeInfo nodeId="1227876805211" fileName="IComponentInstance_Behavior.java" startLine="19" startPosition="142" endLine="23" endPosition="0" />
-    <scopeInfo nodeId="1213877498062" fileName="IComponentInstance_Behavior.java" startLine="18" startPosition="78" endLine="23" endPosition="71" />
-    <unitInfo nodeId="1227876805211" fileName="IComponentInstance_Behavior.java" startLine="19" startPosition="119" endLine="23" endPosition="5" unitName="jetbrains.mps.uiLanguage.behavior.IComponentInstance_Behavior$1" />
+    <nodeInfo nodeId="1227876805215" fileName="IComponentInstance_Behavior.java" startLine="22" startPosition="39" endLine="23" endPosition="103" conceptFqName="jetbrains.mps.baseLanguage.structure.ReturnStatement" />
+    <nodeInfo nodeId="1213877498083" fileName="IComponentInstance_Behavior.java" startLine="28" startPosition="82" endLine="29" endPosition="16" conceptFqName="jetbrains.mps.baseLanguage.structure.ReturnStatement" />
+    <nodeInfo nodeId="1227876805211" fileName="IComponentInstance_Behavior.java" startLine="21" startPosition="142" endLine="25" endPosition="0" conceptFqName="jetbrains.mps.baseLanguage.structure.InstanceMethodDeclaration" propertyString="accept#(Ljetbrains/mps/smodel/SNode;)Z" />
+    <nodeInfo nodeId="1213877498063" fileName="IComponentInstance_Behavior.java" startLine="20" startPosition="78" endLine="25" endPosition="71" conceptFqName="jetbrains.mps.baseLanguage.structure.ReturnStatement" />
+    <scopeInfo nodeId="1213877498086" fileName="IComponentInstance_Behavior.java" startLine="17" startPosition="43" endLine="17" endPosition="43" />
+    <scopeInfo nodeId="1227876805214" fileName="IComponentInstance_Behavior.java" startLine="22" startPosition="39" endLine="23" endPosition="103" />
+    <scopeInfo nodeId="1213877498082" fileName="IComponentInstance_Behavior.java" startLine="28" startPosition="82" endLine="29" endPosition="16" />
+    <scopeInfo nodeId="1227876805211" fileName="IComponentInstance_Behavior.java" startLine="21" startPosition="142" endLine="25" endPosition="0" />
+    <scopeInfo nodeId="1213877498062" fileName="IComponentInstance_Behavior.java" startLine="20" startPosition="78" endLine="25" endPosition="71" />
+    <unitInfo nodeId="1227876805211" fileName="IComponentInstance_Behavior.java" startLine="21" startPosition="119" endLine="25" endPosition="5" unitName="jetbrains.mps.uiLanguage.behavior.IComponentInstance_Behavior$1" />
   </root>
   <root nodeId="6242401288845940752">
     <scopeInfo nodeId="6242401288845940754" fileName="PngIcon_Behavior.java" startLine="8" startPosition="43" endLine="8" endPosition="43" />

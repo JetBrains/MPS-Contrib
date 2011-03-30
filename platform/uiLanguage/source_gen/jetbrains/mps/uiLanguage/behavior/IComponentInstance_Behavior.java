@@ -7,6 +7,8 @@ import jetbrains.mps.lang.smodel.generator.smodelAdapter.SNodeOperations;
 import jetbrains.mps.internal.collections.runtime.ListSequence;
 import jetbrains.mps.lang.smodel.generator.smodelAdapter.SLinkOperations;
 import jetbrains.mps.internal.collections.runtime.IWhereFilter;
+import jetbrains.mps.smodel.structure.BehaviorDescriptor;
+import jetbrains.mps.smodel.structure.ConceptRegistry;
 import jetbrains.mps.smodel.behaviour.BehaviorManager;
 
 public class IComponentInstance_Behavior {
@@ -28,7 +30,8 @@ public class IComponentInstance_Behavior {
   }
 
   public static SNode call_getExtendedComponent_1213877498080(SNode thisNode) {
-    return (SNode) BehaviorManager.getInstance().invoke(Object.class, SNodeOperations.cast(thisNode, "jetbrains.mps.uiLanguage.structure.IComponentInstance"), "virtual_getExtendedComponent_1213877498080", PARAMETERS_1213877498080);
+    BehaviorDescriptor descriptor = ConceptRegistry.getInstance().getConceptDescriptorForInstanceNode(thisNode).behavior();
+    return (SNode) descriptor.invoke(Object.class, SNodeOperations.cast(thisNode, "jetbrains.mps.uiLanguage.structure.IComponentInstance"), "virtual_getExtendedComponent_1213877498080", PARAMETERS_1213877498080);
   }
 
   public static SNode callSuper_getExtendedComponent_1213877498080(SNode thisNode, String callerConceptFqName) {
