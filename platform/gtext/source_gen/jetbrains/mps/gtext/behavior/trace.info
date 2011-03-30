@@ -9,8 +9,8 @@
   <unitInfo fileName="GSeparatorItemList_Behavior.java" startLine="9" startPosition="0" endLine="17" endPosition="0" unitName="jetbrains.mps.gtext.behavior.GSeparatorItemList_Behavior" />
   <unitInfo fileName="GContentBlock_Behavior.java" startLine="9" startPosition="0" endLine="17" endPosition="0" unitName="jetbrains.mps.gtext.behavior.GContentBlock_Behavior" />
   <unitInfo fileName="GLine_Behavior.java" startLine="9" startPosition="0" endLine="21" endPosition="0" unitName="jetbrains.mps.gtext.behavior.GLine_Behavior" />
-  <unitInfo fileName="GCompositeItem_Behavior.java" startLine="10" startPosition="0" endLine="24" endPosition="0" unitName="jetbrains.mps.gtext.behavior.GCompositeItem_Behavior" />
-  <unitInfo fileName="GItem_Behavior.java" startLine="9" startPosition="0" endLine="27" endPosition="0" unitName="jetbrains.mps.gtext.behavior.GItem_Behavior" />
+  <unitInfo fileName="GCompositeItem_Behavior.java" startLine="12" startPosition="0" endLine="27" endPosition="0" unitName="jetbrains.mps.gtext.behavior.GCompositeItem_Behavior" />
+  <unitInfo fileName="GItem_Behavior.java" startLine="11" startPosition="0" endLine="30" endPosition="0" unitName="jetbrains.mps.gtext.behavior.GItem_Behavior" />
   <unitInfo fileName="GItemList_Behavior.java" startLine="11" startPosition="0" endLine="30" endPosition="0" unitName="jetbrains.mps.gtext.behavior.GItemList_Behavior" />
   <root nodeId="1213877183413">
     <nodeInfo nodeId="1239127253994" fileName="GContentBlock_Behavior.java" startLine="13" startPosition="76" endLine="14" endPosition="62" conceptFqName="jetbrains.mps.baseLanguage.structure.ReturnStatement" />
@@ -50,9 +50,9 @@
     <scopeInfo nodeId="1213877296940" fileName="GDocument_Behavior.java" startLine="8" startPosition="43" endLine="8" endPosition="43" />
   </root>
   <root nodeId="1213877298852">
-    <nodeInfo nodeId="1213877298856" fileName="GItem_Behavior.java" startLine="15" startPosition="73" endLine="16" endPosition="17" conceptFqName="jetbrains.mps.baseLanguage.structure.ReturnStatement" />
-    <scopeInfo nodeId="1213877298859" fileName="GItem_Behavior.java" startLine="12" startPosition="43" endLine="12" endPosition="43" />
-    <scopeInfo nodeId="1213877298855" fileName="GItem_Behavior.java" startLine="15" startPosition="73" endLine="16" endPosition="17" />
+    <nodeInfo nodeId="1213877298856" fileName="GItem_Behavior.java" startLine="17" startPosition="73" endLine="18" endPosition="17" conceptFqName="jetbrains.mps.baseLanguage.structure.ReturnStatement" />
+    <scopeInfo nodeId="1213877298859" fileName="GItem_Behavior.java" startLine="14" startPosition="43" endLine="14" endPosition="43" />
+    <scopeInfo nodeId="1213877298855" fileName="GItem_Behavior.java" startLine="17" startPosition="73" endLine="18" endPosition="17" />
   </root>
   <root nodeId="1213877310934">
     <nodeInfo nodeId="1213877310938" fileName="GTextConcept_Behavior.java" startLine="12" startPosition="76" endLine="13" endPosition="131" conceptFqName="jetbrains.mps.baseLanguage.structure.ReturnStatement" />
@@ -66,7 +66,7 @@
     <scopeInfo nodeId="1213877432358" fileName="GContentPlaceholder_Behavior.java" startLine="8" startPosition="43" endLine="8" endPosition="43" />
   </root>
   <root nodeId="1239125081253">
-    <scopeInfo nodeId="1239125081255" fileName="GCompositeItem_Behavior.java" startLine="13" startPosition="43" endLine="13" endPosition="43" />
+    <scopeInfo nodeId="1239125081255" fileName="GCompositeItem_Behavior.java" startLine="15" startPosition="43" endLine="15" endPosition="43" />
   </root>
   <root nodeId="1239127127721">
     <nodeInfo nodeId="1239127152388" fileName="GSeparatorItemList_Behavior.java" startLine="13" startPosition="76" endLine="14" endPosition="62" conceptFqName="jetbrains.mps.baseLanguage.structure.ReturnStatement" />

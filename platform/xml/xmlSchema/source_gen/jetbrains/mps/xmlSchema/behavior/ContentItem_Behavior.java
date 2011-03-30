@@ -5,8 +5,10 @@ package jetbrains.mps.xmlSchema.behavior;
 import jetbrains.mps.smodel.SNode;
 import java.util.List;
 import java.util.Set;
-import jetbrains.mps.smodel.behaviour.BehaviorManager;
+import jetbrains.mps.smodel.structure.BehaviorDescriptor;
+import jetbrains.mps.smodel.structure.ConceptRegistry;
 import jetbrains.mps.lang.smodel.generator.smodelAdapter.SNodeOperations;
+import jetbrains.mps.smodel.behaviour.BehaviorManager;
 
 public class ContentItem_Behavior {
   private static Class[] PARAMETERS_1213877413538 = {SNode.class, List.class};
@@ -17,15 +19,18 @@ public class ContentItem_Behavior {
   }
 
   public static void call_checkAttributes_1213877413538(SNode thisNode, List<SNode> attributeDeclarations) {
-    BehaviorManager.getInstance().invoke(Object.class, SNodeOperations.cast(thisNode, "jetbrains.mps.xmlSchema.structure.ContentItem"), "virtual_checkAttributes_1213877413538", PARAMETERS_1213877413538, attributeDeclarations);
+    BehaviorDescriptor descriptor = ConceptRegistry.getInstance().getConceptDescriptorForInstanceNode(thisNode).behavior();
+    descriptor.invoke(Object.class, SNodeOperations.cast(thisNode, "jetbrains.mps.xmlSchema.structure.ContentItem"), "virtual_checkAttributes_1213877413538", PARAMETERS_1213877413538, attributeDeclarations);
   }
 
   public static void call_checkElements_1213877413543(SNode thisNode, Set<SNode> elementDeclarations) {
-    BehaviorManager.getInstance().invoke(Object.class, SNodeOperations.cast(thisNode, "jetbrains.mps.xmlSchema.structure.ContentItem"), "virtual_checkElements_1213877413543", PARAMETERS_1213877413543, elementDeclarations);
+    BehaviorDescriptor descriptor = ConceptRegistry.getInstance().getConceptDescriptorForInstanceNode(thisNode).behavior();
+    descriptor.invoke(Object.class, SNodeOperations.cast(thisNode, "jetbrains.mps.xmlSchema.structure.ContentItem"), "virtual_checkElements_1213877413543", PARAMETERS_1213877413543, elementDeclarations);
   }
 
   public static boolean call_isMixed_1213877413548(SNode thisNode) {
-    return (Boolean) BehaviorManager.getInstance().invoke(Boolean.class, SNodeOperations.cast(thisNode, "jetbrains.mps.xmlSchema.structure.ContentItem"), "virtual_isMixed_1213877413548", PARAMETERS_1213877413548);
+    BehaviorDescriptor descriptor = ConceptRegistry.getInstance().getConceptDescriptorForInstanceNode(thisNode).behavior();
+    return (Boolean) descriptor.invoke(Boolean.class, SNodeOperations.cast(thisNode, "jetbrains.mps.xmlSchema.structure.ContentItem"), "virtual_isMixed_1213877413548", PARAMETERS_1213877413548);
   }
 
   public static void callSuper_checkAttributes_1213877413538(SNode thisNode, String callerConceptFqName, List<SNode> attributeDeclarations) {

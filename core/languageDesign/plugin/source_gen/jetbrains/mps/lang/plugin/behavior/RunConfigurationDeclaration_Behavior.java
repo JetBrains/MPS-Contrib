@@ -15,6 +15,8 @@ import jetbrains.mps.baseLanguage.classifiers.behavior.IMember_Behavior;
 import jetbrains.mps.lang.smodel.generator.smodelAdapter.SLinkOperations;
 import jetbrains.mps.lang.smodel.generator.smodelAdapter.SConceptOperations;
 import jetbrains.mps.lang.smodel.generator.smodelAdapter.SModelOperations;
+import jetbrains.mps.smodel.structure.BehaviorDescriptor;
+import jetbrains.mps.smodel.structure.ConceptRegistry;
 import jetbrains.mps.smodel.behaviour.BehaviorManager;
 import java.util.Set;
 import java.util.HashSet;
@@ -84,7 +86,8 @@ public class RunConfigurationDeclaration_Behavior {
   }
 
   public static SNode call_getStateType_9017024590936598176(SNode thisNode) {
-    return (SNode) BehaviorManager.getInstance().invoke(Object.class, SNodeOperations.cast(thisNode, "jetbrains.mps.lang.plugin.structure.RunConfigurationDeclaration"), "virtual_getStateType_9017024590936598176", PARAMETERS_9017024590936598176);
+    BehaviorDescriptor descriptor = ConceptRegistry.getInstance().getConceptDescriptorForInstanceNode(thisNode).behavior();
+    return (SNode) descriptor.invoke(Object.class, SNodeOperations.cast(thisNode, "jetbrains.mps.lang.plugin.structure.RunConfigurationDeclaration"), "virtual_getStateType_9017024590936598176", PARAMETERS_9017024590936598176);
   }
 
   public static SNode callSuper_getStateType_9017024590936598176(SNode thisNode, String callerConceptFqName) {

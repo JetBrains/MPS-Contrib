@@ -7,6 +7,8 @@ import jetbrains.mps.lang.smodel.generator.smodelAdapter.SLinkOperations;
 import jetbrains.mps.lang.smodel.generator.smodelAdapter.SPropertyOperations;
 import org.apache.commons.lang.StringUtils;
 import jetbrains.mps.lang.smodel.generator.smodelAdapter.SNodeOperations;
+import jetbrains.mps.smodel.structure.BehaviorDescriptor;
+import jetbrains.mps.smodel.structure.ConceptRegistry;
 import jetbrains.mps.smodel.behaviour.BehaviorManager;
 
 public class XMLElementType_Behavior {
@@ -33,7 +35,8 @@ public class XMLElementType_Behavior {
   }
 
   public static String call_getPresentation_7129398160685021502(SNode thisNode) {
-    return (String) BehaviorManager.getInstance().invoke(Object.class, SNodeOperations.cast(thisNode, "jetbrains.mps.xmlQuery.structure.XMLElementType"), "virtual_getPresentation_1213877396640", PARAMETERS_7129398160685021502);
+    BehaviorDescriptor descriptor = ConceptRegistry.getInstance().getConceptDescriptorForInstanceNode(thisNode).behavior();
+    return (String) descriptor.invoke(Object.class, SNodeOperations.cast(thisNode, "jetbrains.mps.xmlQuery.structure.XMLElementType"), "virtual_getPresentation_1213877396640", PARAMETERS_7129398160685021502);
   }
 
   public static String callSuper_getPresentation_7129398160685021502(SNode thisNode, String callerConceptFqName) {

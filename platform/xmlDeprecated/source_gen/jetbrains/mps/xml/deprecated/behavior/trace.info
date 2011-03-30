@@ -2,9 +2,9 @@
 <debugInfo>
   <unitInfo fileName="Document_Behavior.java" startLine="8" startPosition="0" endLine="13" endPosition="0" unitName="jetbrains.mps.xml.deprecated.behavior.Document_Behavior" />
   <unitInfo fileName="PublicId_Behavior.java" startLine="9" startPosition="0" endLine="18" endPosition="0" unitName="jetbrains.mps.xml.deprecated.behavior.PublicId_Behavior" />
-  <unitInfo fileName="ExternalId_Behavior.java" startLine="10" startPosition="0" endLine="24" endPosition="0" unitName="jetbrains.mps.xml.deprecated.behavior.ExternalId_Behavior" />
+  <unitInfo fileName="ExternalId_Behavior.java" startLine="12" startPosition="0" endLine="27" endPosition="0" unitName="jetbrains.mps.xml.deprecated.behavior.ExternalId_Behavior" />
   <root nodeId="1234406616484">
-    <scopeInfo nodeId="1234406616486" fileName="ExternalId_Behavior.java" startLine="13" startPosition="43" endLine="13" endPosition="43" />
+    <scopeInfo nodeId="1234406616486" fileName="ExternalId_Behavior.java" startLine="15" startPosition="43" endLine="15" endPosition="43" />
   </root>
   <root nodeId="1234406711692">
     <nodeInfo nodeId="1234406741388" fileName="PublicId_Behavior.java" startLine="13" startPosition="86" endLine="14" endPosition="77" conceptFqName="jetbrains.mps.baseLanguage.structure.ExpressionStatement" />
