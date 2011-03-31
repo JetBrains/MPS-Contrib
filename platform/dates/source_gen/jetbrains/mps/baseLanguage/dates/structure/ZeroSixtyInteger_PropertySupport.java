@@ -12,6 +12,6 @@ public class ZeroSixtyInteger_PropertySupport extends PropertySupport {
     } else {
       testValue = value;
     }
-    return testValue.matches("[012345]\\d");
+    return testValue.matches("[012345]\\d|[0-9]");
   }
 }

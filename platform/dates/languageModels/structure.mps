@@ -160,12 +160,12 @@
     </node>
     <node type="tpce.ConstrainedDataTypeDeclaration" typeId="tpce.1082978499127" id="1194004752522">
       <property name="name" nameId="tpck.1169194664001" value="ZeroSixtyInteger" />
-      <property name="constraint" nameId="tpce.1083066089218" value="[012345]\\d" />
+      <property name="constraint" nameId="tpce.1083066089218" value="[012345]\\d|[0-9]" />
       <property name="virtualPackage" nameId="tpck.1193676396447" value="constant.schedule" />
     </node>
     <node type="tpce.ConstrainedDataTypeDeclaration" typeId="tpce.1082978499127" id="1194004947075">
       <property name="name" nameId="tpck.1169194664001" value="ZeroTwentyFourInteger" />
-      <property name="constraint" nameId="tpce.1083066089218" value="([01]\\d)|(2[0-3])" />
+      <property name="constraint" nameId="tpce.1083066089218" value="([01]\\d)|(2[0-3])|[0-9]" />
       <property name="virtualPackage" nameId="tpck.1193676396447" value="constant.schedule" />
     </node>
     <node type="tpce.EnumerationDataTypeDeclaration" typeId="tpce.1082978164219" id="1194005227362">
