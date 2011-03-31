@@ -5,10 +5,10 @@ package jetbrains.mps.buildlanguage.behavior;
 import jetbrains.mps.smodel.SNode;
 import jetbrains.mps.lang.smodel.generator.smodelAdapter.SLinkOperations;
 import jetbrains.mps.lang.smodel.generator.smodelAdapter.SPropertyOperations;
+import jetbrains.mps.lang.smodel.generator.smodelAdapter.SNodeOperations;
 import java.util.List;
 import java.util.ArrayList;
 import jetbrains.mps.internal.collections.runtime.ListSequence;
-import jetbrains.mps.lang.smodel.generator.smodelAdapter.SNodeOperations;
 
 public class PropertyReference_Behavior {
   public static void init(SNode thisNode) {
@@ -25,10 +25,14 @@ public class PropertyReference_Behavior {
     if ((SLinkOperations.getTarget(thisNode, "propertyDeclaration", false) == null)) {
       return "";
     }
-    if ((SLinkOperations.getTarget(SLinkOperations.getTarget(thisNode, "propertyDeclaration", false), "propertyValue", true) == null)) {
+    SNode propertyDeclaration = SLinkOperations.getTarget(thisNode, "propertyDeclaration", false);
+    if (!(SNodeOperations.isInstanceOf(propertyDeclaration, "jetbrains.mps.buildlanguage.structure.PropertyDeclaration"))) {
+      return "";
+    }
+    if ((SLinkOperations.getTarget(SNodeOperations.cast(propertyDeclaration, "jetbrains.mps.buildlanguage.structure.PropertyDeclaration"), "propertyValue", true) == null)) {
       return PropertyValueExpression_Behavior.call_toString_1213877472569(thisNode);
     }
-    return PropertyValueExpression_Behavior.call_getActualValue_1213877472572(SLinkOperations.getTarget(SLinkOperations.getTarget(thisNode, "propertyDeclaration", false), "propertyValue", true));
+    return PropertyValueExpression_Behavior.call_getActualValue_1213877472572(SLinkOperations.getTarget(SNodeOperations.cast(SLinkOperations.getTarget(thisNode, "propertyDeclaration", false), "jetbrains.mps.buildlanguage.structure.PropertyDeclaration"), "propertyValue", true));
   }
 
   public static List<SNode> getAllVisibleDeclarations_1239123615225(SNode enclosingNode) {

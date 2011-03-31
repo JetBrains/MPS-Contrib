@@ -56,7 +56,7 @@
         </node>
       </node>
       <node role="returnType" roleId="tpee.1068580123133" type="tp25.SNodeListType" typeId="tp25.1145383075378" id="1213877341774">
-        <link role="elementConcept" roleId="tp25.1145383142433" targetNodeId="tpsk.1196851107341" resolveInfo="PropertyDeclaration" />
+        <link role="elementConcept" roleId="tp25.1145383142433" targetNodeId="tpsk.1463999527524104369" resolveInfo="AbstractPropertyDeclaration" />
       </node>
       <node role="visibility" roleId="tpee.1178549979242" type="tpee.PublicVisibility" typeId="tpee.1146644602865" id="1219155724331" />
     </node>

@@ -16,11 +16,11 @@
   <unitInfo fileName="TargetDeclaration_Behavior.java" startLine="11" startPosition="0" endLine="33" endPosition="0" unitName="jetbrains.mps.buildlanguage.behavior.TargetDeclaration_Behavior" />
   <unitInfo fileName="TargetReferencePropertyValueExpression_Behavior.java" startLine="10" startPosition="0" endLine="33" endPosition="0" unitName="jetbrains.mps.buildlanguage.behavior.TargetReferencePropertyValueExpression_Behavior" />
   <unitInfo fileName="Enum_Behavior.java" startLine="9" startPosition="0" endLine="35" endPosition="0" unitName="jetbrains.mps.buildlanguage.behavior.Enum_Behavior" />
-  <unitInfo fileName="PropertyReference_Behavior.java" startLine="13" startPosition="0" endLine="42" endPosition="0" unitName="jetbrains.mps.buildlanguage.behavior.PropertyReference_Behavior" />
   <unitInfo fileName="PropertyValueExpression_Behavior.java" startLine="14" startPosition="0" endLine="44" endPosition="0" unitName="jetbrains.mps.buildlanguage.behavior.PropertyValueExpression_Behavior" />
+  <unitInfo fileName="PropertyReference_Behavior.java" startLine="13" startPosition="0" endLine="46" endPosition="0" unitName="jetbrains.mps.buildlanguage.behavior.PropertyReference_Behavior" />
   <unitInfo fileName="FileName_Behavior.java" startLine="11" startPosition="0" endLine="45" endPosition="0" unitName="jetbrains.mps.buildlanguage.behavior.FileName_Behavior" />
   <unitInfo fileName="PlusOperation_Behavior.java" startLine="9" startPosition="0" endLine="49" endPosition="0" unitName="jetbrains.mps.buildlanguage.behavior.PlusOperation_Behavior" />
-  <unitInfo fileName="Project_Behavior.java" startLine="14" startPosition="0" endLine="72" endPosition="0" unitName="jetbrains.mps.buildlanguage.behavior.Project_Behavior" />
+  <unitInfo fileName="Project_Behavior.java" startLine="15" startPosition="0" endLine="73" endPosition="0" unitName="jetbrains.mps.buildlanguage.behavior.Project_Behavior" />
   <unitInfo fileName="IDeclaration_Behavior.java" startLine="13" startPosition="0" endLine="81" endPosition="0" unitName="jetbrains.mps.buildlanguage.behavior.IDeclaration_Behavior" />
   <root nodeId="1213877231973">
     <nodeInfo nodeId="1213877231979" fileName="TargetDeclaration_Behavior.java" startLine="16" startPosition="97" endLine="17" endPosition="16" conceptFqName="jetbrains.mps.baseLanguage.structure.ReturnStatement" />
@@ -92,63 +92,63 @@
     </scopeInfo>
   </root>
   <root nodeId="1213877351719">
-    <nodeInfo nodeId="1228399457691" fileName="Project_Behavior.java" startLine="15" startPosition="43" endLine="16" endPosition="117" conceptFqName="jetbrains.mps.baseLanguage.structure.LocalVariableDeclarationStatement" />
-    <nodeInfo nodeId="1228399468923" fileName="Project_Behavior.java" startLine="16" startPosition="117" endLine="17" endPosition="99" conceptFqName="jetbrains.mps.baseLanguage.structure.ExpressionStatement" />
-    <nodeInfo nodeId="1228399270088" fileName="Project_Behavior.java" startLine="17" startPosition="99" endLine="18" endPosition="132" conceptFqName="jetbrains.mps.baseLanguage.structure.ExpressionStatement" />
-    <nodeInfo nodeId="1228398977653" fileName="Project_Behavior.java" startLine="18" startPosition="132" endLine="19" endPosition="119" conceptFqName="jetbrains.mps.baseLanguage.structure.LocalVariableDeclarationStatement" />
-    <nodeInfo nodeId="1228398996548" fileName="Project_Behavior.java" startLine="19" startPosition="119" endLine="20" endPosition="155" conceptFqName="jetbrains.mps.baseLanguage.structure.ExpressionStatement" />
-    <nodeInfo nodeId="1228398983782" fileName="Project_Behavior.java" startLine="20" startPosition="155" endLine="21" endPosition="69" conceptFqName="jetbrains.mps.baseLanguage.structure.ExpressionStatement" />
-    <nodeInfo nodeId="1213877351722" fileName="Project_Behavior.java" startLine="24" startPosition="81" endLine="25" endPosition="47" conceptFqName="jetbrains.mps.baseLanguage.structure.LocalVariableDeclarationStatement" />
-    <nodeInfo nodeId="1213877351728" fileName="Project_Behavior.java" startLine="25" startPosition="47" endLine="26" endPosition="124" conceptFqName="jetbrains.mps.baseLanguage.structure.ExpressionStatement" />
-    <nodeInfo nodeId="1213877351741" fileName="Project_Behavior.java" startLine="27" startPosition="113" endLine="28" endPosition="157" conceptFqName="jetbrains.mps.baseLanguage.structure.ExpressionStatement" />
-    <nodeInfo nodeId="1213877351750" fileName="Project_Behavior.java" startLine="29" startPosition="5" endLine="30" endPosition="17" conceptFqName="jetbrains.mps.baseLanguage.structure.ReturnStatement" />
-    <nodeInfo nodeId="1213877351769" fileName="Project_Behavior.java" startLine="35" startPosition="82" endLine="36" endPosition="20" conceptFqName="jetbrains.mps.baseLanguage.structure.ReturnStatement" />
-    <nodeInfo nodeId="1213877351771" fileName="Project_Behavior.java" startLine="38" startPosition="5" endLine="39" endPosition="17" conceptFqName="jetbrains.mps.baseLanguage.structure.ReturnStatement" />
-    <nodeInfo nodeId="1213877351778" fileName="Project_Behavior.java" startLine="42" startPosition="82" endLine="43" endPosition="49" conceptFqName="jetbrains.mps.baseLanguage.structure.LocalVariableDeclarationStatement" />
-    <nodeInfo nodeId="1213877351798" fileName="Project_Behavior.java" startLine="45" startPosition="154" endLine="46" endPosition="58" conceptFqName="jetbrains.mps.baseLanguage.structure.ExpressionStatement" />
-    <nodeInfo nodeId="1213877351803" fileName="Project_Behavior.java" startLine="48" startPosition="5" endLine="49" endPosition="124" conceptFqName="jetbrains.mps.baseLanguage.structure.ExpressionStatement" />
-    <nodeInfo nodeId="1213877351810" fileName="Project_Behavior.java" startLine="49" startPosition="124" endLine="50" endPosition="19" conceptFqName="jetbrains.mps.baseLanguage.structure.ReturnStatement" />
-    <nodeInfo nodeId="1213877351815" fileName="Project_Behavior.java" startLine="53" startPosition="75" endLine="54" endPosition="59" conceptFqName="jetbrains.mps.baseLanguage.structure.ReturnStatement" />
-    <nodeInfo nodeId="1213877351822" fileName="Project_Behavior.java" startLine="57" startPosition="71" endLine="58" endPosition="82" conceptFqName="jetbrains.mps.baseLanguage.structure.ReturnStatement" />
-    <nodeInfo nodeId="1213877351831" fileName="Project_Behavior.java" startLine="61" startPosition="78" endLine="62" endPosition="51" conceptFqName="jetbrains.mps.baseLanguage.structure.LocalVariableDeclarationStatement" />
-    <nodeInfo nodeId="1213877351837" fileName="Project_Behavior.java" startLine="62" startPosition="51" endLine="63" endPosition="120" conceptFqName="jetbrains.mps.baseLanguage.structure.ExpressionStatement" />
-    <nodeInfo nodeId="1227876791090" fileName="Project_Behavior.java" startLine="65" startPosition="35" endLine="66" endPosition="170" conceptFqName="jetbrains.mps.baseLanguage.structure.ExpressionStatement" />
-    <nodeInfo nodeId="1213877351862" fileName="Project_Behavior.java" startLine="68" startPosition="7" endLine="69" endPosition="15" conceptFqName="jetbrains.mps.baseLanguage.structure.ReturnStatement" />
-    <nodeInfo nodeId="1213877351735" fileName="Project_Behavior.java" startLine="26" startPosition="124" endLine="29" endPosition="5" conceptFqName="jetbrains.mps.baseLanguage.structure.ForeachStatement" />
-    <nodeInfo nodeId="1213877351762" fileName="Project_Behavior.java" startLine="34" startPosition="116" endLine="37" endPosition="7" conceptFqName="jetbrains.mps.baseLanguage.structure.IfStatement" />
-    <nodeInfo nodeId="1213877351790" fileName="Project_Behavior.java" startLine="44" startPosition="116" endLine="47" endPosition="7" conceptFqName="jetbrains.mps.baseLanguage.structure.ForeachStatement" />
-    <nodeInfo nodeId="1227876791086" fileName="Project_Behavior.java" startLine="64" startPosition="119" endLine="68" endPosition="0" conceptFqName="jetbrains.mps.baseLanguage.structure.InstanceMethodDeclaration" propertyString="visit#(Ljetbrains/mps/smodel/SNode;)V" />
-    <nodeInfo nodeId="1213877351756" fileName="Project_Behavior.java" startLine="33" startPosition="93" endLine="38" endPosition="5" conceptFqName="jetbrains.mps.baseLanguage.structure.ForeachStatement" />
-    <nodeInfo nodeId="1213877351784" fileName="Project_Behavior.java" startLine="43" startPosition="49" endLine="48" endPosition="5" conceptFqName="jetbrains.mps.baseLanguage.structure.ForeachStatement" />
-    <nodeInfo nodeId="1213877351844" fileName="Project_Behavior.java" startLine="63" startPosition="120" endLine="68" endPosition="7" conceptFqName="jetbrains.mps.baseLanguage.structure.ExpressionStatement" />
-    <scopeInfo nodeId="1213877351740" fileName="Project_Behavior.java" startLine="27" startPosition="113" endLine="28" endPosition="157" />
-    <scopeInfo nodeId="1213877351768" fileName="Project_Behavior.java" startLine="35" startPosition="82" endLine="36" endPosition="20" />
-    <scopeInfo nodeId="1213877351797" fileName="Project_Behavior.java" startLine="45" startPosition="154" endLine="46" endPosition="58" />
-    <scopeInfo nodeId="1213877351814" fileName="Project_Behavior.java" startLine="53" startPosition="75" endLine="54" endPosition="59" />
-    <scopeInfo nodeId="1213877351821" fileName="Project_Behavior.java" startLine="57" startPosition="71" endLine="58" endPosition="82" />
-    <scopeInfo nodeId="1227876791089" fileName="Project_Behavior.java" startLine="65" startPosition="35" endLine="66" endPosition="170" />
-    <scopeInfo nodeId="1213877351735" fileName="Project_Behavior.java" startLine="26" startPosition="124" endLine="29" endPosition="5" />
-    <scopeInfo nodeId="1213877351761" fileName="Project_Behavior.java" startLine="34" startPosition="116" endLine="37" endPosition="7" />
-    <scopeInfo nodeId="1213877351789" fileName="Project_Behavior.java" startLine="44" startPosition="116" endLine="47" endPosition="7" />
-    <scopeInfo nodeId="1213877351790" fileName="Project_Behavior.java" startLine="44" startPosition="116" endLine="47" endPosition="7" />
-    <scopeInfo nodeId="1227876791086" fileName="Project_Behavior.java" startLine="64" startPosition="119" endLine="68" endPosition="0" />
-    <scopeInfo nodeId="1213877351756" fileName="Project_Behavior.java" startLine="33" startPosition="93" endLine="38" endPosition="5" />
-    <scopeInfo nodeId="1213877351784" fileName="Project_Behavior.java" startLine="43" startPosition="49" endLine="48" endPosition="5" />
-    <scopeInfo nodeId="1213877351891" fileName="Project_Behavior.java" startLine="15" startPosition="43" endLine="21" endPosition="69">
+    <nodeInfo nodeId="1228399457691" fileName="Project_Behavior.java" startLine="16" startPosition="43" endLine="17" endPosition="117" conceptFqName="jetbrains.mps.baseLanguage.structure.LocalVariableDeclarationStatement" />
+    <nodeInfo nodeId="1228399468923" fileName="Project_Behavior.java" startLine="17" startPosition="117" endLine="18" endPosition="99" conceptFqName="jetbrains.mps.baseLanguage.structure.ExpressionStatement" />
+    <nodeInfo nodeId="1228399270088" fileName="Project_Behavior.java" startLine="18" startPosition="99" endLine="19" endPosition="132" conceptFqName="jetbrains.mps.baseLanguage.structure.ExpressionStatement" />
+    <nodeInfo nodeId="1228398977653" fileName="Project_Behavior.java" startLine="19" startPosition="132" endLine="20" endPosition="119" conceptFqName="jetbrains.mps.baseLanguage.structure.LocalVariableDeclarationStatement" />
+    <nodeInfo nodeId="1228398996548" fileName="Project_Behavior.java" startLine="20" startPosition="119" endLine="21" endPosition="155" conceptFqName="jetbrains.mps.baseLanguage.structure.ExpressionStatement" />
+    <nodeInfo nodeId="1228398983782" fileName="Project_Behavior.java" startLine="21" startPosition="155" endLine="22" endPosition="69" conceptFqName="jetbrains.mps.baseLanguage.structure.ExpressionStatement" />
+    <nodeInfo nodeId="1213877351722" fileName="Project_Behavior.java" startLine="25" startPosition="81" endLine="26" endPosition="47" conceptFqName="jetbrains.mps.baseLanguage.structure.LocalVariableDeclarationStatement" />
+    <nodeInfo nodeId="1213877351728" fileName="Project_Behavior.java" startLine="26" startPosition="47" endLine="27" endPosition="124" conceptFqName="jetbrains.mps.baseLanguage.structure.ExpressionStatement" />
+    <nodeInfo nodeId="1213877351741" fileName="Project_Behavior.java" startLine="28" startPosition="113" endLine="29" endPosition="157" conceptFqName="jetbrains.mps.baseLanguage.structure.ExpressionStatement" />
+    <nodeInfo nodeId="1213877351750" fileName="Project_Behavior.java" startLine="30" startPosition="5" endLine="31" endPosition="17" conceptFqName="jetbrains.mps.baseLanguage.structure.ReturnStatement" />
+    <nodeInfo nodeId="1213877351769" fileName="Project_Behavior.java" startLine="36" startPosition="159" endLine="37" endPosition="20" conceptFqName="jetbrains.mps.baseLanguage.structure.ReturnStatement" />
+    <nodeInfo nodeId="1213877351771" fileName="Project_Behavior.java" startLine="39" startPosition="5" endLine="40" endPosition="17" conceptFqName="jetbrains.mps.baseLanguage.structure.ReturnStatement" />
+    <nodeInfo nodeId="1213877351778" fileName="Project_Behavior.java" startLine="43" startPosition="82" endLine="44" endPosition="49" conceptFqName="jetbrains.mps.baseLanguage.structure.LocalVariableDeclarationStatement" />
+    <nodeInfo nodeId="1213877351798" fileName="Project_Behavior.java" startLine="46" startPosition="231" endLine="47" endPosition="58" conceptFqName="jetbrains.mps.baseLanguage.structure.ExpressionStatement" />
+    <nodeInfo nodeId="1213877351803" fileName="Project_Behavior.java" startLine="49" startPosition="5" endLine="50" endPosition="124" conceptFqName="jetbrains.mps.baseLanguage.structure.ExpressionStatement" />
+    <nodeInfo nodeId="1213877351810" fileName="Project_Behavior.java" startLine="50" startPosition="124" endLine="51" endPosition="19" conceptFqName="jetbrains.mps.baseLanguage.structure.ReturnStatement" />
+    <nodeInfo nodeId="1213877351815" fileName="Project_Behavior.java" startLine="54" startPosition="75" endLine="55" endPosition="59" conceptFqName="jetbrains.mps.baseLanguage.structure.ReturnStatement" />
+    <nodeInfo nodeId="1213877351822" fileName="Project_Behavior.java" startLine="58" startPosition="71" endLine="59" endPosition="82" conceptFqName="jetbrains.mps.baseLanguage.structure.ReturnStatement" />
+    <nodeInfo nodeId="1213877351831" fileName="Project_Behavior.java" startLine="62" startPosition="78" endLine="63" endPosition="51" conceptFqName="jetbrains.mps.baseLanguage.structure.LocalVariableDeclarationStatement" />
+    <nodeInfo nodeId="1213877351837" fileName="Project_Behavior.java" startLine="63" startPosition="51" endLine="64" endPosition="120" conceptFqName="jetbrains.mps.baseLanguage.structure.ExpressionStatement" />
+    <nodeInfo nodeId="1227876791090" fileName="Project_Behavior.java" startLine="66" startPosition="35" endLine="67" endPosition="247" conceptFqName="jetbrains.mps.baseLanguage.structure.ExpressionStatement" />
+    <nodeInfo nodeId="1213877351862" fileName="Project_Behavior.java" startLine="69" startPosition="7" endLine="70" endPosition="15" conceptFqName="jetbrains.mps.baseLanguage.structure.ReturnStatement" />
+    <nodeInfo nodeId="1213877351735" fileName="Project_Behavior.java" startLine="27" startPosition="124" endLine="30" endPosition="5" conceptFqName="jetbrains.mps.baseLanguage.structure.ForeachStatement" />
+    <nodeInfo nodeId="1213877351762" fileName="Project_Behavior.java" startLine="35" startPosition="116" endLine="38" endPosition="7" conceptFqName="jetbrains.mps.baseLanguage.structure.IfStatement" />
+    <nodeInfo nodeId="1213877351790" fileName="Project_Behavior.java" startLine="45" startPosition="116" endLine="48" endPosition="7" conceptFqName="jetbrains.mps.baseLanguage.structure.ForeachStatement" />
+    <nodeInfo nodeId="1227876791086" fileName="Project_Behavior.java" startLine="65" startPosition="119" endLine="69" endPosition="0" conceptFqName="jetbrains.mps.baseLanguage.structure.InstanceMethodDeclaration" propertyString="visit#(Ljetbrains/mps/smodel/SNode;)V" />
+    <nodeInfo nodeId="1213877351756" fileName="Project_Behavior.java" startLine="34" startPosition="93" endLine="39" endPosition="5" conceptFqName="jetbrains.mps.baseLanguage.structure.ForeachStatement" />
+    <nodeInfo nodeId="1213877351784" fileName="Project_Behavior.java" startLine="44" startPosition="49" endLine="49" endPosition="5" conceptFqName="jetbrains.mps.baseLanguage.structure.ForeachStatement" />
+    <nodeInfo nodeId="1213877351844" fileName="Project_Behavior.java" startLine="64" startPosition="120" endLine="69" endPosition="7" conceptFqName="jetbrains.mps.baseLanguage.structure.ExpressionStatement" />
+    <scopeInfo nodeId="1213877351740" fileName="Project_Behavior.java" startLine="28" startPosition="113" endLine="29" endPosition="157" />
+    <scopeInfo nodeId="1213877351768" fileName="Project_Behavior.java" startLine="36" startPosition="159" endLine="37" endPosition="20" />
+    <scopeInfo nodeId="1213877351797" fileName="Project_Behavior.java" startLine="46" startPosition="231" endLine="47" endPosition="58" />
+    <scopeInfo nodeId="1213877351814" fileName="Project_Behavior.java" startLine="54" startPosition="75" endLine="55" endPosition="59" />
+    <scopeInfo nodeId="1213877351821" fileName="Project_Behavior.java" startLine="58" startPosition="71" endLine="59" endPosition="82" />
+    <scopeInfo nodeId="1227876791089" fileName="Project_Behavior.java" startLine="66" startPosition="35" endLine="67" endPosition="247" />
+    <scopeInfo nodeId="1213877351735" fileName="Project_Behavior.java" startLine="27" startPosition="124" endLine="30" endPosition="5" />
+    <scopeInfo nodeId="1213877351761" fileName="Project_Behavior.java" startLine="35" startPosition="116" endLine="38" endPosition="7" />
+    <scopeInfo nodeId="1213877351789" fileName="Project_Behavior.java" startLine="45" startPosition="116" endLine="48" endPosition="7" />
+    <scopeInfo nodeId="1213877351790" fileName="Project_Behavior.java" startLine="45" startPosition="116" endLine="48" endPosition="7" />
+    <scopeInfo nodeId="1227876791086" fileName="Project_Behavior.java" startLine="65" startPosition="119" endLine="69" endPosition="0" />
+    <scopeInfo nodeId="1213877351756" fileName="Project_Behavior.java" startLine="34" startPosition="93" endLine="39" endPosition="5" />
+    <scopeInfo nodeId="1213877351784" fileName="Project_Behavior.java" startLine="44" startPosition="49" endLine="49" endPosition="5" />
+    <scopeInfo nodeId="1213877351891" fileName="Project_Behavior.java" startLine="16" startPosition="43" endLine="22" endPosition="69">
       <varInfo nodeId="1228398977654" varName="defaultRef" />
       <varInfo nodeId="1228399457692" varName="target" />
     </scopeInfo>
-    <scopeInfo nodeId="1213877351721" fileName="Project_Behavior.java" startLine="24" startPosition="81" endLine="30" endPosition="17">
+    <scopeInfo nodeId="1213877351721" fileName="Project_Behavior.java" startLine="25" startPosition="81" endLine="31" endPosition="17">
       <varInfo nodeId="1213877351723" varName="decls" />
     </scopeInfo>
-    <scopeInfo nodeId="1213877351755" fileName="Project_Behavior.java" startLine="33" startPosition="93" endLine="39" endPosition="17" />
-    <scopeInfo nodeId="1213877351777" fileName="Project_Behavior.java" startLine="42" startPosition="82" endLine="50" endPosition="19">
+    <scopeInfo nodeId="1213877351755" fileName="Project_Behavior.java" startLine="34" startPosition="93" endLine="40" endPosition="17" />
+    <scopeInfo nodeId="1213877351777" fileName="Project_Behavior.java" startLine="43" startPosition="82" endLine="51" endPosition="19">
       <varInfo nodeId="1213877351779" varName="visible" />
     </scopeInfo>
-    <scopeInfo nodeId="1213877351830" fileName="Project_Behavior.java" startLine="61" startPosition="78" endLine="69" endPosition="15">
+    <scopeInfo nodeId="1213877351830" fileName="Project_Behavior.java" startLine="62" startPosition="78" endLine="70" endPosition="15">
       <varInfo nodeId="1213877351832" varName="res" />
     </scopeInfo>
-    <unitInfo nodeId="1227876791086" fileName="Project_Behavior.java" startLine="64" startPosition="100" endLine="68" endPosition="5" unitName="jetbrains.mps.buildlanguage.behavior.Project_Behavior$1" />
+    <unitInfo nodeId="1227876791086" fileName="Project_Behavior.java" startLine="65" startPosition="100" endLine="69" endPosition="5" unitName="jetbrains.mps.buildlanguage.behavior.Project_Behavior$1" />
   </root>
   <root nodeId="1213877353434">
     <nodeInfo nodeId="1213877353437" fileName="PlusOperation_Behavior.java" startLine="13" startPosition="71" endLine="14" endPosition="16" conceptFqName="jetbrains.mps.baseLanguage.structure.LocalVariableDeclarationStatement" />
@@ -203,26 +203,32 @@
     <nodeInfo nodeId="1213877387913" fileName="PropertyReference_Behavior.java" startLine="18" startPosition="86" endLine="19" endPosition="16" conceptFqName="jetbrains.mps.baseLanguage.structure.ReturnStatement" />
     <nodeInfo nodeId="1213877387920" fileName="PropertyReference_Behavior.java" startLine="20" startPosition="5" endLine="21" endPosition="129" conceptFqName="jetbrains.mps.baseLanguage.structure.ReturnStatement" />
     <nodeInfo nodeId="1213877387935" fileName="PropertyReference_Behavior.java" startLine="25" startPosition="86" endLine="26" endPosition="16" conceptFqName="jetbrains.mps.baseLanguage.structure.ReturnStatement" />
-    <nodeInfo nodeId="1213877387944" fileName="PropertyReference_Behavior.java" startLine="28" startPosition="136" endLine="29" endPosition="84" conceptFqName="jetbrains.mps.baseLanguage.structure.ReturnStatement" />
-    <nodeInfo nodeId="1213877387955" fileName="PropertyReference_Behavior.java" startLine="30" startPosition="5" endLine="31" endPosition="195" conceptFqName="jetbrains.mps.baseLanguage.structure.ReturnStatement" />
-    <nodeInfo nodeId="1239123615231" fileName="PropertyReference_Behavior.java" startLine="34" startPosition="90" endLine="35" endPosition="48" conceptFqName="jetbrains.mps.baseLanguage.structure.LocalVariableDeclarationStatement" />
-    <nodeInfo nodeId="1239123615246" fileName="PropertyReference_Behavior.java" startLine="36" startPosition="156" endLine="37" endPosition="138" conceptFqName="jetbrains.mps.baseLanguage.structure.ExpressionStatement" />
-    <nodeInfo nodeId="1239123615253" fileName="PropertyReference_Behavior.java" startLine="38" startPosition="5" endLine="39" endPosition="18" conceptFqName="jetbrains.mps.baseLanguage.structure.ReturnStatement" />
+    <nodeInfo nodeId="2339938892738227208" fileName="PropertyReference_Behavior.java" startLine="27" startPosition="5" endLine="28" endPosition="98" conceptFqName="jetbrains.mps.baseLanguage.structure.LocalVariableDeclarationStatement" />
+    <nodeInfo nodeId="2339938892738258840" fileName="PropertyReference_Behavior.java" startLine="29" startPosition="124" endLine="30" endPosition="16" conceptFqName="jetbrains.mps.baseLanguage.structure.ReturnStatement" />
+    <nodeInfo nodeId="1213877387944" fileName="PropertyReference_Behavior.java" startLine="32" startPosition="173" endLine="33" endPosition="84" conceptFqName="jetbrains.mps.baseLanguage.structure.ReturnStatement" />
+    <nodeInfo nodeId="1213877387955" fileName="PropertyReference_Behavior.java" startLine="34" startPosition="5" endLine="35" endPosition="278" conceptFqName="jetbrains.mps.baseLanguage.structure.ReturnStatement" />
+    <nodeInfo nodeId="1239123615231" fileName="PropertyReference_Behavior.java" startLine="38" startPosition="90" endLine="39" endPosition="48" conceptFqName="jetbrains.mps.baseLanguage.structure.LocalVariableDeclarationStatement" />
+    <nodeInfo nodeId="1239123615246" fileName="PropertyReference_Behavior.java" startLine="40" startPosition="156" endLine="41" endPosition="138" conceptFqName="jetbrains.mps.baseLanguage.structure.ExpressionStatement" />
+    <nodeInfo nodeId="1239123615253" fileName="PropertyReference_Behavior.java" startLine="42" startPosition="5" endLine="43" endPosition="18" conceptFqName="jetbrains.mps.baseLanguage.structure.ReturnStatement" />
     <nodeInfo nodeId="1213877387911" fileName="PropertyReference_Behavior.java" startLine="17" startPosition="71" endLine="20" endPosition="5" conceptFqName="jetbrains.mps.baseLanguage.structure.IfStatement" />
     <nodeInfo nodeId="1213877387933" fileName="PropertyReference_Behavior.java" startLine="24" startPosition="77" endLine="27" endPosition="5" conceptFqName="jetbrains.mps.baseLanguage.structure.IfStatement" />
-    <nodeInfo nodeId="1213877387942" fileName="PropertyReference_Behavior.java" startLine="27" startPosition="5" endLine="30" endPosition="5" conceptFqName="jetbrains.mps.baseLanguage.structure.IfStatement" />
-    <nodeInfo nodeId="1239123615237" fileName="PropertyReference_Behavior.java" startLine="35" startPosition="48" endLine="38" endPosition="5" conceptFqName="jetbrains.mps.baseLanguage.structure.ForeachStatement" />
+    <nodeInfo nodeId="2339938892738258826" fileName="PropertyReference_Behavior.java" startLine="28" startPosition="98" endLine="31" endPosition="5" conceptFqName="jetbrains.mps.baseLanguage.structure.IfStatement" />
+    <nodeInfo nodeId="1213877387942" fileName="PropertyReference_Behavior.java" startLine="31" startPosition="5" endLine="34" endPosition="5" conceptFqName="jetbrains.mps.baseLanguage.structure.IfStatement" />
+    <nodeInfo nodeId="1239123615237" fileName="PropertyReference_Behavior.java" startLine="39" startPosition="48" endLine="42" endPosition="5" conceptFqName="jetbrains.mps.baseLanguage.structure.ForeachStatement" />
     <scopeInfo nodeId="1213877387965" fileName="PropertyReference_Behavior.java" startLine="14" startPosition="43" endLine="14" endPosition="43" />
     <scopeInfo nodeId="1213877387912" fileName="PropertyReference_Behavior.java" startLine="18" startPosition="86" endLine="19" endPosition="16" />
     <scopeInfo nodeId="1213877387934" fileName="PropertyReference_Behavior.java" startLine="25" startPosition="86" endLine="26" endPosition="16" />
-    <scopeInfo nodeId="1213877387943" fileName="PropertyReference_Behavior.java" startLine="28" startPosition="136" endLine="29" endPosition="84" />
-    <scopeInfo nodeId="1239123615245" fileName="PropertyReference_Behavior.java" startLine="36" startPosition="156" endLine="37" endPosition="138" />
-    <scopeInfo nodeId="1239123615237" fileName="PropertyReference_Behavior.java" startLine="35" startPosition="48" endLine="38" endPosition="5" />
+    <scopeInfo nodeId="2339938892738258827" fileName="PropertyReference_Behavior.java" startLine="29" startPosition="124" endLine="30" endPosition="16" />
+    <scopeInfo nodeId="1213877387943" fileName="PropertyReference_Behavior.java" startLine="32" startPosition="173" endLine="33" endPosition="84" />
+    <scopeInfo nodeId="1239123615245" fileName="PropertyReference_Behavior.java" startLine="40" startPosition="156" endLine="41" endPosition="138" />
+    <scopeInfo nodeId="1239123615237" fileName="PropertyReference_Behavior.java" startLine="39" startPosition="48" endLine="42" endPosition="5" />
     <scopeInfo nodeId="1213877387910" fileName="PropertyReference_Behavior.java" startLine="17" startPosition="71" endLine="21" endPosition="129" />
-    <scopeInfo nodeId="1239123615230" fileName="PropertyReference_Behavior.java" startLine="34" startPosition="90" endLine="39" endPosition="18">
+    <scopeInfo nodeId="1239123615230" fileName="PropertyReference_Behavior.java" startLine="38" startPosition="90" endLine="43" endPosition="18">
       <varInfo nodeId="1239123615232" varName="result" />
     </scopeInfo>
-    <scopeInfo nodeId="1213877387932" fileName="PropertyReference_Behavior.java" startLine="24" startPosition="77" endLine="31" endPosition="195" />
+    <scopeInfo nodeId="1213877387932" fileName="PropertyReference_Behavior.java" startLine="24" startPosition="77" endLine="35" endPosition="278">
+      <varInfo nodeId="2339938892738227209" varName="propertyDeclaration" />
+    </scopeInfo>
   </root>
   <root nodeId="1213877398950">
     <nodeInfo nodeId="1213877398954" fileName="BinaryOperation_Behavior.java" startLine="17" startPosition="89" endLine="18" endPosition="14" conceptFqName="jetbrains.mps.baseLanguage.structure.ReturnStatement" />

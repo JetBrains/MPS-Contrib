@@ -9,6 +9,7 @@ import jetbrains.mps.lang.smodel.generator.smodelAdapter.SLinkOperations;
 import jetbrains.mps.lang.smodel.generator.smodelAdapter.SPropertyOperations;
 import java.util.List;
 import java.util.ArrayList;
+import jetbrains.mps.lang.smodel.generator.smodelAdapter.SNodeOperations;
 import jetbrains.mps.internal.collections.runtime.IVisitor;
 
 public class Project_Behavior {
@@ -32,7 +33,7 @@ public class Project_Behavior {
 
   public static boolean call_isProjectImported_1213877351753(SNode thisNode, SNode project) {
     for (SNode importProject : ListSequence.fromList(SLinkOperations.getTargets(thisNode, "importProject", true))) {
-      if (SLinkOperations.getTarget(importProject, "project", false) == project) {
+      if (SLinkOperations.getTarget(SNodeOperations.cast(importProject, "jetbrains.mps.buildlanguage.structure.ImportProject"), "project", false) == project) {
         return true;
       }
     }
@@ -42,7 +43,7 @@ public class Project_Behavior {
   public static List<SNode> call_getVisibleTargets_1213877351775(SNode thisNode) {
     List<SNode> visible = new ArrayList<SNode>();
     for (SNode importProject : ListSequence.fromList(SLinkOperations.getTargets(thisNode, "importProject", true))) {
-      for (SNode target : ListSequence.fromList(SLinkOperations.getTargets(SLinkOperations.getTarget(importProject, "project", false), "target", true))) {
+      for (SNode target : ListSequence.fromList(SLinkOperations.getTargets(SLinkOperations.getTarget(SNodeOperations.cast(importProject, "jetbrains.mps.buildlanguage.structure.ImportProject"), "project", false), "target", true))) {
         ListSequence.fromList(visible).addElement(target);
       }
     }
@@ -63,7 +64,7 @@ public class Project_Behavior {
     ListSequence.fromList(res).addSequence(ListSequence.fromList(SLinkOperations.getTargets(thisNode, "target", true)));
     ListSequence.fromList(SLinkOperations.getTargets(thisNode, "importProject", true)).visitAll(new IVisitor<SNode>() {
       public void visit(SNode it) {
-        ListSequence.fromList(res).addSequence(ListSequence.fromList(Project_Behavior.call_getAllTargets_1213877351828(SLinkOperations.getTarget(it, "project", false))));
+        ListSequence.fromList(res).addSequence(ListSequence.fromList(Project_Behavior.call_getAllTargets_1213877351828(SLinkOperations.getTarget(SNodeOperations.cast(it, "jetbrains.mps.buildlanguage.structure.ImportProject"), "project", false))));
       }
     });
     return res;
