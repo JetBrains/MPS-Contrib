@@ -7,7 +7,6 @@
   <import index="tpjh" modelUID="r:00000000-0000-4000-0000-011c89590591(jetbrains.mps.xmlInternal.structure)" version="2" implicit="yes" />
   <import index="tpjo" modelUID="r:00000000-0000-4000-0000-011c89590588(jetbrains.mps.xml.structure)" version="0" implicit="yes" />
   <import index="tpj8" modelUID="r:00000000-0000-4000-0000-011c89590598(jetbrains.mps.xmlSchema.structure)" version="3" implicit="yes" />
-  <import index="tpjk" modelUID="r:00000000-0000-4000-0000-011c8959058c(jetbrains.mps.webr.xml.sandbox)" version="-1" implicit="yes" />
   <roots>
     <node type="tpjh.XmlFile" typeId="tpjh.1166472279594" id="1221255820526">
       <property name="fileName" nameId="tpjh.1167755304238" value="a" />
