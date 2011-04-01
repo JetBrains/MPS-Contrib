@@ -4,12 +4,13 @@ package jetbrains.mps.baseLanguage.unitTest.plugin;
 
 import jetbrains.mps.baseLanguage.util.plugin.run.ConfigRunParameters;
 import java.util.List;
+
+import jetbrains.mps.execution.runtime.OutputRedirector;
 import jetbrains.mps.internal.collections.runtime.ListSequence;
 import java.util.ArrayList;
 import com.intellij.execution.process.ProcessHandler;
 import jetbrains.mps.smodel.ModelAccess;
 import com.intellij.execution.ExecutionException;
-import jetbrains.mps.runConfigurations.runtime.OutputRedirector;
 import org.apache.commons.lang.StringUtils;
 import java.io.File;
 import jetbrains.mps.baseLanguage.closures.runtime._FunctionTypes;
