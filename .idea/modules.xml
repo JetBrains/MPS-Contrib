@@ -8,9 +8,6 @@
       <module fileurl="file://$PROJECT_DIR$/MPSPlugin/MPSSupport.iml" filepath="$PROJECT_DIR$/MPSPlugin/MPSSupport.iml" />
       <module fileurl="file://$PROJECT_DIR$/core/baseLanguage/tuples/Tuples.iml" filepath="$PROJECT_DIR$/core/baseLanguage/tuples/Tuples.iml" group="core/baseLanguage/tuples" />
       <module fileurl="file://$PROJECT_DIR$/core/baseLanguage/tuples/runtime/Tuples-runtime.iml" filepath="$PROJECT_DIR$/core/baseLanguage/tuples/runtime/Tuples-runtime.iml" group="core/baseLanguage/tuples" />
-      <module fileurl="file://$PROJECT_DIR$/platform/ypath/YPath.iml" filepath="$PROJECT_DIR$/platform/ypath/YPath.iml" group="platform/YPath-Panacea" />
-      <module fileurl="file://$PROJECT_DIR$/platform/ypath/runtime/YPath-runtime.iml" filepath="$PROJECT_DIR$/platform/ypath/runtime/YPath-runtime.iml" group="platform/YPath-Panacea" />
-      <module fileurl="file://$PROJECT_DIR$/platform/ypath/solutions/YPath-solutions.iml" filepath="$PROJECT_DIR$/platform/ypath/solutions/YPath-solutions.iml" group="platform/YPath-Panacea" />
       <module fileurl="file://$PROJECT_DIR$/core/languageDesign/actions/actions.iml" filepath="$PROJECT_DIR$/core/languageDesign/actions/actions.iml" group="core/languageDesign" />
       <module fileurl="file://$PROJECT_DIR$/platform/analyzers/analyzers.iml" filepath="$PROJECT_DIR$/platform/analyzers/analyzers.iml" group="platform" />
       <module fileurl="file://$PROJECT_DIR$/platform/buildlanguage/ant/ant.iml" filepath="$PROJECT_DIR$/platform/buildlanguage/ant/ant.iml" group="platform/build" />
@@ -20,7 +17,6 @@
       <module fileurl="file://$PROJECT_DIR$/core/languageDesign/behavior/behavior.iml" filepath="$PROJECT_DIR$/core/languageDesign/behavior/behavior.iml" group="core/languageDesign" />
       <module fileurl="file://$PROJECT_DIR$/core/baseLanguage/blTypes/blTypes.iml" filepath="$PROJECT_DIR$/core/baseLanguage/blTypes/blTypes.iml" group="core/baseLanguage" />
       <module fileurl="file://$PROJECT_DIR$/platform/buildlanguage/buildLanguage.iml" filepath="$PROJECT_DIR$/platform/buildlanguage/buildLanguage.iml" group="platform/build" />
-      <module fileurl="file://$PROJECT_DIR$/core/baseLanguage/checkDot/checkedDots.iml" filepath="$PROJECT_DIR$/core/baseLanguage/checkDot/checkedDots.iml" group="core/baseLanguage" />
       <module fileurl="file://$PROJECT_DIR$/core/baseLanguage/classifiers/classifiers.iml" filepath="$PROJECT_DIR$/core/baseLanguage/classifiers/classifiers.iml" group="core/baseLanguage" />
       <module fileurl="file://$PROJECT_DIR$/core/baseLanguage/collections/collections.iml" filepath="$PROJECT_DIR$/core/baseLanguage/collections/collections.iml" group="core/baseLanguage/collections" />
       <module fileurl="file://$PROJECT_DIR$/core/baseLanguage/collections/runtime/collections-runtime.iml" filepath="$PROJECT_DIR$/core/baseLanguage/collections/runtime/collections-runtime.iml" group="core/baseLanguage/collections" />

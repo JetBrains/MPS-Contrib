@@ -20,32 +20,32 @@ import org.joda.time.format.DateTimeFormatterBuilder;
 public class Format_Test extends BaseTestCase {
   public void test_timeFormat() throws Exception {
     DateTime dt = new DateTime();
-    Assert.assertEquals(dt.toString("HH:mm:ss"), DateTimeOperations.print(DateTimeOperations.convert(dt), MainFormatTable.INSTANCE.getFormatter("time"), null, null));
+    Assert.assertEquals(dt.toString("HH:mm:ss"), DateTimeOperations.print(DateTimeOperations.convert(dt), (MainFormatTable.INSTANCE).getFormatter("time"), null, null));
   }
 
   public void test_jodaDateTime() throws Exception {
     Long today = DateTimeOperations.convert(new DateTime(System.currentTimeMillis()).toLocalDate().toDateTimeAtMidnight());
-    Assert.assertEquals(new DateTime(today).toString("yyyy-MM-dd"), DateTimeOperations.print(today, MainFormatTable.INSTANCE.getFormatter("date"), null, null));
+    Assert.assertEquals(new DateTime(today).toString("yyyy-MM-dd"), DateTimeOperations.print(today, (MainFormatTable.INSTANCE).getFormatter("date"), null, null));
   }
 
   public void test_nowOptionalDate() throws Exception {
-    Assert.assertEquals(19, DateTimeOperations.print(System.currentTimeMillis(), MainFormatTable.INSTANCE.getFormatter("date/time"), null, null).length());
+    Assert.assertEquals(19, DateTimeOperations.print(System.currentTimeMillis(), (MainFormatTable.INSTANCE).getFormatter("date/time"), null, null).length());
   }
 
   public void test_yesterdayOptionalDate() throws Exception {
     Long yesterday = DateTimeArithmetics.minus(System.currentTimeMillis(), Period.days(1));
-    Assert.assertEquals(19, DateTimeOperations.print(yesterday, MainFormatTable.INSTANCE.getFormatter("optionalDate"), null, null).length());
-    Assert.assertEquals(8, DateTimeOperations.print(System.currentTimeMillis(), MainFormatTable.INSTANCE.getFormatter("optionalDate"), null, null).length());
+    Assert.assertEquals(19, DateTimeOperations.print(yesterday, (MainFormatTable.INSTANCE).getFormatter("optionalDate"), null, null).length());
+    Assert.assertEquals(8, DateTimeOperations.print(System.currentTimeMillis(), (MainFormatTable.INSTANCE).getFormatter("optionalDate"), null, null).length());
   }
 
   public void test_nullOptionalDate() throws Exception {
-    Assert.assertEquals("-", DateTimeOperations.print((Long) null, MainFormatTable.INSTANCE.getFormatter("optionalDate"), null, null));
+    Assert.assertEquals("-", DateTimeOperations.print((Long) null, (MainFormatTable.INSTANCE).getFormatter("optionalDate"), null, null));
   }
 
   public void test_usDayOfWeek() throws Exception {
     Long monday = DateTimeOperations.roundFloor(System.currentTimeMillis(), DateTimeFieldType.weekOfWeekyear());
     String expected = "Monday";
-    Assert.assertEquals(expected, DateTimeOperations.print(monday, MainFormatTable.INSTANCE.getFormatter("usDayOfWeek"), null, null));
+    Assert.assertEquals(expected, DateTimeOperations.print(monday, (MainFormatTable.INSTANCE).getFormatter("usDayOfWeek"), null, null));
   }
 
   public void test_predefined() throws Exception {
@@ -54,7 +54,7 @@ public class Format_Test extends BaseTestCase {
 
   public void test_minutesAgo() throws Exception {
     Long dt = DateTimeArithmetics.minus(System.currentTimeMillis(), Period.minutes(27));
-    String actual = DateTimeOperations.print(dt, MainFormatTable.INSTANCE.getFormatter("offset"), null, null);
+    String actual = DateTimeOperations.print(dt, (MainFormatTable.INSTANCE).getFormatter("offset"), null, null);
     if ((DateTimeOperations.compare(dt, CompareType.EQ, System.currentTimeMillis(), DateTimeFieldType.hourOfDay())) && (DateTimeOperations.compare(new Period((DateTimeArithmetics.minus(System.currentTimeMillis(), dt)).getMillis(), PeriodType.minutes()), CompareType.EQ, Period.minutes(27)))) {
       Assert.assertEquals("27 minutes ago", actual);
     }
@@ -62,7 +62,7 @@ public class Format_Test extends BaseTestCase {
 
   public void test_minutesAfter() throws Exception {
     Long dt = DateTimeArithmetics.plus(System.currentTimeMillis(), Period.minutes(27));
-    String actual = DateTimeOperations.print(dt, MainFormatTable.INSTANCE.getFormatter("offset"), null, null);
+    String actual = DateTimeOperations.print(dt, (MainFormatTable.INSTANCE).getFormatter("offset"), null, null);
     if (DateTimeOperations.compare(dt, CompareType.EQ, System.currentTimeMillis(), DateTimeFieldType.hourOfDay()) && (DateTimeOperations.compare(Period.minutes(27), CompareType.EQ, new Period((DateTimeArithmetics.minus(dt, System.currentTimeMillis())).getMillis(), PeriodType.minutes())))) {
       Assert.assertEquals("in 27 minutes", actual);
     }
@@ -70,7 +70,7 @@ public class Format_Test extends BaseTestCase {
 
   public void test_hoursMinutesAgo() throws Exception {
     Long dt = DateTimeArithmetics.minus((DateTimeArithmetics.minus(System.currentTimeMillis(), Period.hours(2))), Period.minutes(27));
-    String actual = DateTimeOperations.print(dt, MainFormatTable.INSTANCE.getFormatter("offset"), null, null);
+    String actual = DateTimeOperations.print(dt, (MainFormatTable.INSTANCE).getFormatter("offset"), null, null);
     if (DateTimeOperations.compare(dt, CompareType.EQ, System.currentTimeMillis(), DateTimeFieldType.dayOfMonth()) && DateTimeOperations.compare(DateTimeArithmetics.plus(DateTimeArithmetics.plus(dt, Period.hours(2)), Period.minutes(27)), CompareType.EQ, System.currentTimeMillis(), DateTimeFieldType.minuteOfHour())) {
       Assert.assertEquals("2 hours and 27 minutes ago", actual);
     }
@@ -80,7 +80,7 @@ public class Format_Test extends BaseTestCase {
     Period p = Period.days(20);
     Long d = DateTimeOperations.convert(p);
     Assert.assertEquals(DateTimeOperations.print(p, DateTimeFormat.shortDate(), null, null), DateTimeOperations.print(d, DateTimeFormat.shortDate(), null, null));
-    Assert.assertEquals(DateTimeOperations.print(DateTimeOperations.convert(p), MainFormatTable.INSTANCE.getFormatter("time"), null, null), DateTimeOperations.print(d, MainFormatTable.INSTANCE.getFormatter("time"), null, null));
+    Assert.assertEquals(DateTimeOperations.print(DateTimeOperations.convert(p), (MainFormatTable.INSTANCE).getFormatter("time"), null, null), DateTimeOperations.print(d, (MainFormatTable.INSTANCE).getFormatter("time"), null, null));
   }
 
   public void test_fullDateForPeriod() throws Exception {
@@ -95,11 +95,11 @@ public class Format_Test extends BaseTestCase {
 
   public void test_ampm() throws Exception {
     Period p = DateTimeArithmetics.plus(Period.hours(3), Period.minutes(33));
-    Assert.assertEquals("3:33 AM", DateTimeOperations.print(DateTimeOperations.convert(p), MainFormatTable.INSTANCE.getFormatter("am-pm"), null, DateTimeZone.UTC));
+    Assert.assertEquals("3:33 AM", DateTimeOperations.print(DateTimeOperations.convert(p), (MainFormatTable.INSTANCE).getFormatter("am-pm"), null, DateTimeZone.UTC));
   }
 
   public void test_formatInLocale() throws Exception {
-    Assert.assertEquals("4:01 PM", DateTimeOperations.print(DateTimeOperations.convert(DateTimeOperations.with(DateTimeOperations.with(System.currentTimeMillis(), DateTimeFieldType.hourOfDay(), 16), DateTimeFieldType.minuteOfHour(), 1), DateTimeZone.getDefault()), MainFormatTable.INSTANCE.getFormatter("am-pm"), Locale.FRANCE));
+    Assert.assertEquals("4:01 PM", DateTimeOperations.print(DateTimeOperations.convert(DateTimeOperations.with(DateTimeOperations.with(System.currentTimeMillis(), DateTimeFieldType.hourOfDay(), 16), DateTimeFieldType.minuteOfHour(), 1), DateTimeZone.getDefault()), (MainFormatTable.INSTANCE).getFormatter("am-pm"), Locale.FRANCE));
   }
 
   public void test_testLocale() throws Exception {
@@ -107,7 +107,7 @@ public class Format_Test extends BaseTestCase {
     Assert.assertEquals("in 1 hour and 19 minutes" + "(" + (DateTimeOperations.print(dt, DateTimeFormat.fullDateTime(), Locale.GERMAN)) + ")", DateTimeOperations.print(dt, (new InlineDateFormatter() {
       public DateTimeFormatter createFormatter() {
         DateTimeFormatterBuilder builder = new DateTimeFormatterBuilder();
-        builder.append(MainFormat2.INSTANCE.getFormatter("hoursBeforeFixed"));
+        builder.append((MainFormat2.INSTANCE).getFormatter("hoursBeforeFixed"));
         builder.appendLiteral("(");
         builder.append(DateTimeFormat.fullDateTime());
         builder.appendLiteral(")");

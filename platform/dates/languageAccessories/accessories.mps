@@ -6,9 +6,9 @@
   <language namespace="cccc689c-f365-4862-a8b6-34ecddf8ee26(jetbrains.mps.baseLanguage.dates)" />
   <language namespace="fd392034-7849-419d-9071-12563d152375(jetbrains.mps.baseLanguage.closures)" />
   <import index="d0m4" modelUID="f:java_stub#2ebbb458-8ebb-481e-a5d7-9e27903323d4#org.joda.time.format(jetbrains.mps.baseLanguage.dates.runtime/org.joda.time.format@java_stub)" version="-1" />
-  <import index="v52" modelUID="f:java_stub#2ebbb458-8ebb-481e-a5d7-9e27903323d4#jetbrains.mps.baseLanguage.dates.runtime(jetbrains.mps.baseLanguage.dates.runtime/jetbrains.mps.baseLanguage.dates.runtime@java_stub)" version="-1" />
   <import index="ojzd" modelUID="f:java_stub#2ebbb458-8ebb-481e-a5d7-9e27903323d4#org.joda.time(jetbrains.mps.baseLanguage.dates.runtime/org.joda.time@java_stub)" version="-1" />
   <import index="k7g3" modelUID="f:java_stub#6354ebe7-c22a-4a0f-ac54-50b52ab9b065#java.util(JDK/java.util@java_stub)" version="-1" />
+  <import index="eg7s" modelUID="r:dbe7fdbb-7a29-48a8-a58a-3fa318d60c28(jetbrains.mps.baseLanguage.dates.runtime)" version="-1" />
   <import index="tpee" modelUID="r:00000000-0000-4000-0000-011c895902ca(jetbrains.mps.baseLanguage.structure)" version="3" implicit="yes" />
   <import index="tp6p" modelUID="r:00000000-0000-4000-0000-011c895903dd(jetbrains.mps.baseLanguage.datesInternal.structure)" version="3" implicit="yes" />
   <import index="tp6x" modelUID="r:00000000-0000-4000-0000-011c895903d5(jetbrains.mps.baseLanguage.dates.structure)" version="1" implicit="yes" />
@@ -429,14 +429,14 @@
     </node>
     <node role="predefinedDateFormat" roleId="tp6p.1173884012349" type="tp6p.PredefinedDateFormat" typeId="tp6p.1173883503931" id="1174102040370">
       <node role="formatter" roleId="tp6p.1173883503932" type="tpee.StaticMethodCall" typeId="tpee.1081236700937" id="1174102040371">
-        <link role="classConcept" roleId="tpee.1144433194310" targetNodeId="v52.~PredefinedFormats" resolveInfo="PredefinedFormats" />
-        <link role="baseMethodDeclaration" roleId="tpee.1068499141037" targetNodeId="v52.~PredefinedFormats%drssDate()%corg%djoda%dtime%dformat%dDateTimeFormatter" resolveInfo="rssDate" />
+        <link role="classConcept" roleId="tpee.1144433194310" targetNodeId="eg7s.734650238126520716" resolveInfo="PredefinedFormats" />
+        <link role="baseMethodDeclaration" roleId="tpee.1068499141037" targetNodeId="eg7s.734650238126520730" resolveInfo="rssDate" />
       </node>
     </node>
     <node role="predefinedDateFormat" roleId="tp6p.1173884012349" type="tp6p.PredefinedDateFormat" typeId="tp6p.1173883503931" id="1177068304373">
       <node role="formatter" roleId="tp6p.1173883503932" type="tpee.StaticMethodCall" typeId="tpee.1081236700937" id="1177068304374">
-        <link role="classConcept" roleId="tpee.1144433194310" targetNodeId="v52.~PredefinedFormats" resolveInfo="PredefinedFormats" />
-        <link role="baseMethodDeclaration" roleId="tpee.1068499141037" targetNodeId="v52.~PredefinedFormats%ddefaultFormat()%corg%djoda%dtime%dformat%dDateTimeFormatter" resolveInfo="defaultFormat" />
+        <link role="classConcept" roleId="tpee.1144433194310" targetNodeId="eg7s.734650238126520716" resolveInfo="PredefinedFormats" />
+        <link role="baseMethodDeclaration" roleId="tpee.1068499141037" targetNodeId="eg7s.734650238126520736" resolveInfo="defaultFormat" />
       </node>
     </node>
     <node role="predefinedPeriodFormat" roleId="tp6p.34521615669406427" type="tp6p.PredefinedPeriodFormat" typeId="tp6p.34521615669325565" id="34521615669461598">
@@ -1017,8 +1017,8 @@
               <link role="classifier" roleId="tpee.1107535924139" targetNodeId="ojzd.~DateTimeZone" resolveInfo="DateTimeZone" />
             </node>
             <node role="initializer" roleId="tpee.1068431790190" type="tpee.StaticMethodCall" typeId="tpee.1081236700937" id="462678460625566096">
-              <link role="baseMethodDeclaration" roleId="tpee.1068499141037" targetNodeId="v52.~DateTimeOperations%dgetCurrentTimeZone()%corg%djoda%dtime%dDateTimeZone" resolveInfo="getCurrentTimeZone" />
-              <link role="classConcept" roleId="tpee.1144433194310" targetNodeId="v52.~DateTimeOperations" resolveInfo="DateTimeOperations" />
+              <link role="classConcept" roleId="tpee.1144433194310" targetNodeId="eg7s.734650238126517500" resolveInfo="DateTimeOperations" />
+              <link role="baseMethodDeclaration" roleId="tpee.1068499141037" targetNodeId="eg7s.734650238126519296" resolveInfo="getCurrentTimeZone" />
             </node>
           </node>
         </node>
@@ -1026,8 +1026,8 @@
           <node role="body" roleId="tpee.1153952416686" type="tpee.StatementList" typeId="tpee.1068580123136" id="3544298728206258599">
             <node role="statement" roleId="tpee.1068581517665" type="tpee.ExpressionStatement" typeId="tpee.1068580123155" id="462678460625566101">
               <node role="expression" roleId="tpee.1068580123156" type="tpee.StaticMethodCall" typeId="tpee.1081236700937" id="462678460625566103">
-                <link role="baseMethodDeclaration" roleId="tpee.1068499141037" targetNodeId="v52.~DateTimeOperations%dwithTimeZone(org%djoda%dtime%dDateTimeZone)%cvoid" resolveInfo="withTimeZone" />
-                <link role="classConcept" roleId="tpee.1144433194310" targetNodeId="v52.~DateTimeOperations" resolveInfo="DateTimeOperations" />
+                <link role="classConcept" roleId="tpee.1144433194310" targetNodeId="eg7s.734650238126517500" resolveInfo="DateTimeOperations" />
+                <link role="baseMethodDeclaration" roleId="tpee.1068499141037" targetNodeId="eg7s.734650238126519284" resolveInfo="withTimeZone" />
                 <node role="actualArgument" roleId="tpee.1068499141038" type="tpee.ParameterReference" typeId="tpee.1068581242874" id="462678460625566104">
                   <link role="variableDeclaration" roleId="tpee.1068581517664" targetNodeId="3544298728206258589" resolveInfo="tz" />
                 </node>
@@ -1045,8 +1045,8 @@
           <node role="finallyBody" roleId="tpee.1153952429843" type="tpee.StatementList" typeId="tpee.1068580123136" id="3544298728206258600">
             <node role="statement" roleId="tpee.1068581517665" type="tpee.ExpressionStatement" typeId="tpee.1068580123155" id="462678460625637424">
               <node role="expression" roleId="tpee.1068580123156" type="tpee.StaticMethodCall" typeId="tpee.1081236700937" id="462678460625637426">
-                <link role="baseMethodDeclaration" roleId="tpee.1068499141037" targetNodeId="v52.~DateTimeOperations%dwithTimeZone(org%djoda%dtime%dDateTimeZone)%cvoid" resolveInfo="withTimeZone" />
-                <link role="classConcept" roleId="tpee.1144433194310" targetNodeId="v52.~DateTimeOperations" resolveInfo="DateTimeOperations" />
+                <link role="classConcept" roleId="tpee.1144433194310" targetNodeId="eg7s.734650238126517500" resolveInfo="DateTimeOperations" />
+                <link role="baseMethodDeclaration" roleId="tpee.1068499141037" targetNodeId="eg7s.734650238126519284" resolveInfo="withTimeZone" />
                 <node role="actualArgument" roleId="tpee.1068499141038" type="tpee.LocalVariableReference" typeId="tpee.1068581242866" id="462678460625637427">
                   <link role="variableDeclaration" roleId="tpee.1068581517664" targetNodeId="462678460625566094" resolveInfo="currenttz" />
                 </node>

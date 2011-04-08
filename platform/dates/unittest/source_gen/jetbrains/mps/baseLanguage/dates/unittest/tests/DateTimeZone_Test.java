@@ -36,12 +36,12 @@ public class DateTimeZone_Test extends BaseTestCase {
   public void test_timeZoneFromVariable() throws Exception {
     String zone = "Europe/Berlin";
     Long thisMoment = System.currentTimeMillis();
-    Assert.assertEquals(DateTimeOperations.print(thisMoment, MainFormatTable.INSTANCE.getFormatter("date/time"), null, DateTimeZone.forID(zone)), DateTimeOperations.print(thisMoment, MainFormatTable.INSTANCE.getFormatter("date/time"), null, DateTimeZone.forID("Europe/Berlin")));
+    Assert.assertEquals(DateTimeOperations.print(thisMoment, (MainFormatTable.INSTANCE).getFormatter("date/time"), null, DateTimeZone.forID(zone)), DateTimeOperations.print(thisMoment, (MainFormatTable.INSTANCE).getFormatter("date/time"), null, DateTimeZone.forID("Europe/Berlin")));
   }
 
   public void test_timeZoneFromStringLiteral() throws Exception {
     Long thisMoment = System.currentTimeMillis();
-    Assert.assertEquals(DateTimeOperations.print(thisMoment, MainFormatTable.INSTANCE.getFormatter("date/time"), null, DateTimeZone.forID("Europe/Moscow")), DateTimeOperations.print(thisMoment, MainFormatTable.INSTANCE.getFormatter("date/time"), null, DateTimeZone.forID("Europe/Moscow")));
+    Assert.assertEquals(DateTimeOperations.print(thisMoment, (MainFormatTable.INSTANCE).getFormatter("date/time"), null, DateTimeZone.forID("Europe/Moscow")), DateTimeOperations.print(thisMoment, (MainFormatTable.INSTANCE).getFormatter("date/time"), null, DateTimeZone.forID("Europe/Moscow")));
   }
 
   public void test_timeZoneFromString() throws Exception {

@@ -149,13 +149,18 @@ public class QueriesGenerated {
     return result;
   }
 
-  public static Object propertyMacro_GetPropertyValue_1224666133131(final IOperationContext operationContext, final PropertyMacroContext _context) {
+  public static Object propertyMacro_GetPropertyValue_4220022565493817644(final IOperationContext operationContext, final PropertyMacroContext _context) {
+    return SPropertyOperations.getString(_context.getNode(), "name");
+  }
+
+  public static Object propertyMacro_GetPropertyValue_4220022565493817654(final IOperationContext operationContext, final PropertyMacroContext _context) {
     SNode table = SNodeOperations.getAncestor(_context.getNode(), "jetbrains.mps.baseLanguage.dates.structure.DateFormatsTable", false, false);
     return SNodeOperations.getModel(table).getLongName() + "." + SPropertyOperations.getString(table, "name");
   }
 
-  public static Object propertyMacro_GetPropertyValue_1173885304926(final IOperationContext operationContext, final PropertyMacroContext _context) {
-    return SPropertyOperations.getString(_context.getNode(), "name");
+  public static Object propertyMacro_GetPropertyValue_4220022565493817678(final IOperationContext operationContext, final PropertyMacroContext _context) {
+    SNode table = SNodeOperations.getAncestor(_context.getNode(), "jetbrains.mps.baseLanguage.dates.structure.DateFormatsTable", false, false);
+    return SNodeOperations.getModel(table).getLongName() + "." + SPropertyOperations.getString(table, "name");
   }
 
   public static Object propertyMacro_GetPropertyValue_1173967740888(final IOperationContext operationContext, final PropertyMacroContext _context) {
@@ -216,11 +221,11 @@ public class QueriesGenerated {
     return SPropertyOperations.getString(_context.getNode(), "name");
   }
 
-  public static Object propertyMacro_GetPropertyValue_930215626859988901(final IOperationContext operationContext, final PropertyMacroContext _context) {
+  public static Object propertyMacro_GetPropertyValue_4220022565493817797(final IOperationContext operationContext, final PropertyMacroContext _context) {
     return SPropertyOperations.getString(_context.getNode(), "name");
   }
 
-  public static Object propertyMacro_GetPropertyValue_930215626859988864(final IOperationContext operationContext, final PropertyMacroContext _context) {
+  public static Object propertyMacro_GetPropertyValue_4220022565493817806(final IOperationContext operationContext, final PropertyMacroContext _context) {
     SNode table = SNodeOperations.getAncestor(_context.getNode(), "jetbrains.mps.baseLanguage.dates.structure.PeriodFormatsTable", false, false);
     return SNodeOperations.getModel(table).getLongName() + "." + SPropertyOperations.getString(table, "name");
   }

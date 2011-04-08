@@ -70,8 +70,8 @@ public class Compare_Test extends TestCase {
     Long nowx = System.currentTimeMillis();
     Assert.assertTrue(DateTimeOperations.compare((DateTimeArithmetics.max(DateTimeOperations.convert(nowx, DateTimeZone.forID("Africa/Accra")), DateTimeOperations.convert(nowx, DateTimeZone.getDefault()))), CompareType.EQ, DateTimeOperations.convert(nowx, DateTimeZone.getDefault()), DateTimeFieldType.millisOfSecond()));
 
-    DateTime dt1 = DateTimeOperations.parseDateTime("1970-03-03", MainFormatTable.INSTANCE.getFormatter("date"), DateTimeZone.UTC, null, null);
-    DateTime dt2 = DateTimeOperations.parseDateTime("1970-03-04", MainFormatTable.INSTANCE.getFormatter("date"), DateTimeZone.UTC, null, null);
+    DateTime dt1 = DateTimeOperations.parseDateTime("1970-03-03", (MainFormatTable.INSTANCE).getFormatter("date"), DateTimeZone.UTC, null, null);
+    DateTime dt2 = DateTimeOperations.parseDateTime("1970-03-04", (MainFormatTable.INSTANCE).getFormatter("date"), DateTimeZone.UTC, null, null);
     Assert.assertTrue(DateTimeOperations.compare((DateTimeArithmetics.max(dt1, dt2)), CompareType.EQ, dt2, DateTimeFieldType.millisOfSecond()));
     Assert.assertTrue(DateTimeOperations.compare((DateTimeArithmetics.min(dt1, dt2)), CompareType.EQ, dt1, DateTimeFieldType.millisOfSecond()));
     Assert.assertFalse(DateTimeOperations.compare(dt1, CompareType.EQ, dt2, DateTimeFieldType.millisOfSecond()));
