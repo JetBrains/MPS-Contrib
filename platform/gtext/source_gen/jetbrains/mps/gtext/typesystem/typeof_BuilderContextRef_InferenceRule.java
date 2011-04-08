@@ -54,7 +54,7 @@ public class typeof_BuilderContextRef_InferenceRule extends AbstractInferenceRul
       {
         quotedNode_1 = SModelUtil_new.instantiateConceptDeclaration("jetbrains.mps.baseLanguage.structure.ClassifierType", null, GlobalScope.getInstance(), false);
         SNode quotedNode1_2 = quotedNode_1;
-        quotedNode1_2.addReference(SReference.create("classifier", quotedNode1_2, SModelReference.fromString("f:java_stub#34f23130-e35c-4795-a45a-85d828b16016#jetbrains.mps.gtext.runtime(jetbrains.mps.gtext.runtime/jetbrains.mps.gtext.runtime@java_stub)"), SNodeId.fromString("~TBaseBuilderContext")));
+        quotedNode1_2.addReference(SReference.create("classifier", quotedNode1_2, SModelReference.fromString("r:1773d365-6692-4940-84a5-a678462b1f6f(jetbrains.mps.gtext.runtime)"), SNodeId.fromString("7733366827988671037")));
         result = quotedNode1_2;
       }
       return result;
@@ -67,7 +67,7 @@ public class typeof_BuilderContextRef_InferenceRule extends AbstractInferenceRul
       {
         quotedNode_1 = SModelUtil_new.instantiateConceptDeclaration("jetbrains.mps.baseLanguage.structure.ClassifierType", null, GlobalScope.getInstance(), false);
         SNode quotedNode1_2 = quotedNode_1;
-        quotedNode1_2.addReference(SReference.create("classifier", quotedNode1_2, SModelReference.fromString("f:java_stub#34f23130-e35c-4795-a45a-85d828b16016#jetbrains.mps.gtext.runtime(jetbrains.mps.gtext.runtime/jetbrains.mps.gtext.runtime@java_stub)"), SNodeId.fromString("~TBaseBuilderContext")));
+        quotedNode1_2.addReference(SReference.create("classifier", quotedNode1_2, SModelReference.fromString("r:1773d365-6692-4940-84a5-a678462b1f6f(jetbrains.mps.gtext.runtime)"), SNodeId.fromString("7733366827988671037")));
         result = quotedNode1_2;
       }
       return result;

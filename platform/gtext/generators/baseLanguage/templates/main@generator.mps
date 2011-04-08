@@ -15,6 +15,7 @@
   <import index="tpik" modelUID="r:00000000-0000-4000-0000-011c89590570(jetbrains.mps.gtext.behavior)" version="-1" />
   <import index="tpck" modelUID="r:00000000-0000-4000-0000-011c89590288(jetbrains.mps.lang.core.structure)" version="0" />
   <import index="mcby" modelUID="f:java_stub#34f23130-e35c-4795-a45a-85d828b16016#jetbrains.mps.gtext.runtime(jetbrains.mps.gtext.runtime/jetbrains.mps.gtext.runtime@java_stub)" version="-1" />
+  <import index="7diq" modelUID="r:1773d365-6692-4940-84a5-a678462b1f6f(jetbrains.mps.gtext.runtime)" version="-1" />
   <import index="tpf8" modelUID="r:00000000-0000-4000-0000-011c895902e8(jetbrains.mps.lang.generator.structure)" version="2" implicit="yes" />
   <import index="tp25" modelUID="r:00000000-0000-4000-0000-011c89590301(jetbrains.mps.lang.smodel.structure)" version="16" implicit="yes" />
   <import index="tp68" modelUID="r:00000000-0000-4000-0000-011c895903ac(jetbrains.mps.baseLanguageInternal.structure)" version="1" implicit="yes" />
@@ -241,8 +242,8 @@
   <root id="1195217368293">
     <node role="contentNode" roleId="tpf8.1092060348987" type="tp68.InternalVariableReference" typeId="tp68.1176743162354" id="1195217974647">
       <property name="name" nameId="tp68.1176743296073" value="builderContext" />
-      <node role="type" roleId="tp68.1176743202636" type="tpee.ClassifierType" typeId="tpee.1107535904670" id="1207733994541">
-        <link role="classifier" roleId="tpee.1107535924139" targetNodeId="mcby.~TBaseBuilderContext" resolveInfo="TBaseBuilderContext" />
+      <node role="type" roleId="tp68.1176743202636" type="tpee.ClassifierType" typeId="tpee.1107535904670" id="6173975699045839568">
+        <link role="classifier" roleId="tpee.1107535924139" targetNodeId="7diq.7733366827988671037" resolveInfo="TBaseBuilderContext" />
       </node>
       <node role="_$attribute" roleId="tpck.5169995583184591170" type="tpf8.TemplateFragment" typeId="tpf8.1095672379244" id="1195217985710" />
     </node>
@@ -362,7 +363,7 @@
           <node role="expression" roleId="tpee.1068580123156" type="tpee.DotExpression" typeId="tpee.1197027756228" id="4246810654489780497">
             <node role="operand" roleId="tpee.1197027771414" type="tpih.BuilderContextRef" typeId="tpih.1181754781153" id="4246810654489780498" />
             <node role="operation" roleId="tpee.1197027833540" type="tpee.InstanceMethodCallOperation" typeId="tpee.1202948039474" id="4246810654489780499">
-              <link role="baseMethodDeclaration" roleId="tpee.1068499141037" targetNodeId="mcby.~TBaseBuilderContext%dappend(java%dlang%dString)%cvoid" resolveInfo="append" />
+              <link role="baseMethodDeclaration" roleId="tpee.1068499141037" targetNodeId="7diq.7733366827988671248" resolveInfo="append" />
               <node role="actualArgument" roleId="tpee.1068499141038" type="tpee.StringLiteral" typeId="tpee.1070475926800" id="4246810654489780500">
                 <property name="value" nameId="tpee.1070475926801" value="expression" />
                 <node role="_$attribute" roleId="tpck.5169995583184591170" type="tpf8.CopySrcNodeMacro" typeId="tpf8.1114706874351" id="4246810654489780501">
@@ -392,7 +393,7 @@
           <node role="expression" roleId="tpee.1068580123156" type="tpee.DotExpression" typeId="tpee.1197027756228" id="4246810654489780515">
             <node role="operand" roleId="tpee.1197027771414" type="tpih.BuilderContextRef" typeId="tpih.1181754781153" id="4246810654489780516" />
             <node role="operation" roleId="tpee.1197027833540" type="tpee.InstanceMethodCallOperation" typeId="tpee.1202948039474" id="4246810654489780517">
-              <link role="baseMethodDeclaration" roleId="tpee.1068499141037" targetNodeId="mcby.~TBaseBuilderContext%dappendIndent()%cvoid" resolveInfo="appendIndent" />
+              <link role="baseMethodDeclaration" roleId="tpee.1068499141037" targetNodeId="7diq.7733366827988671259" resolveInfo="appendIndent" />
             </node>
           </node>
         </node>
@@ -405,7 +406,7 @@
           <node role="expression" roleId="tpee.1068580123156" type="tpee.DotExpression" typeId="tpee.1197027756228" id="4246810654489789610">
             <node role="operand" roleId="tpee.1197027771414" type="tpih.BuilderContextRef" typeId="tpih.1181754781153" id="4246810654489789611" />
             <node role="operation" roleId="tpee.1197027833540" type="tpee.InstanceMethodCallOperation" typeId="tpee.1202948039474" id="4246810654489789612">
-              <link role="baseMethodDeclaration" roleId="tpee.1068499141037" targetNodeId="mcby.~TBaseBuilderContext%dappendNewLine()%cvoid" resolveInfo="appendNewLine" />
+              <link role="baseMethodDeclaration" roleId="tpee.1068499141037" targetNodeId="7diq.7733366827988671267" resolveInfo="appendNewLine" />
             </node>
           </node>
         </node>
@@ -418,7 +419,7 @@
           <node role="expression" roleId="tpee.1068580123156" type="tpee.DotExpression" typeId="tpee.1197027756228" id="4246810654489789618">
             <node role="operand" roleId="tpee.1197027771414" type="tpih.BuilderContextRef" typeId="tpih.1181754781153" id="4246810654489789619" />
             <node role="operation" roleId="tpee.1197027833540" type="tpee.InstanceMethodCallOperation" typeId="tpee.1202948039474" id="4246810654489789620">
-              <link role="baseMethodDeclaration" roleId="tpee.1068499141037" targetNodeId="mcby.~TBaseBuilderContext%dappend(java%dlang%dString)%cvoid" resolveInfo="append" />
+              <link role="baseMethodDeclaration" roleId="tpee.1068499141037" targetNodeId="7diq.7733366827988671248" resolveInfo="append" />
               <node role="actualArgument" roleId="tpee.1068499141038" type="tpee.StringLiteral" typeId="tpee.1070475926800" id="4246810654489789621">
                 <property name="value" nameId="tpee.1070475926801" value="text" />
                 <node role="_$attribute" roleId="tpck.5169995583184591170" type="tpf8.PropertyMacro" typeId="tpf8.1087833241328" id="4246810654489789622">
@@ -478,7 +479,7 @@
           <node role="expression" roleId="tpee.1068580123156" type="tpee.DotExpression" typeId="tpee.1197027756228" id="4246810654489789635">
             <node role="operand" roleId="tpee.1197027771414" type="tpih.BuilderContextRef" typeId="tpih.1181754781153" id="4246810654489789636" />
             <node role="operation" roleId="tpee.1197027833540" type="tpee.InstanceMethodCallOperation" typeId="tpee.1202948039474" id="4246810654489789637">
-              <link role="baseMethodDeclaration" roleId="tpee.1068499141037" targetNodeId="mcby.~TBaseBuilderContext%daddContentPlaceholder(java%dlang%dString)%cvoid" resolveInfo="addContentPlaceholder" />
+              <link role="baseMethodDeclaration" roleId="tpee.1068499141037" targetNodeId="7diq.7733366827988671342" resolveInfo="addContentPlaceholder" />
               <node role="actualArgument" roleId="tpee.1068499141038" type="tpee.StringLiteral" typeId="tpee.1070475926800" id="4246810654489789638">
                 <property name="value" nameId="tpee.1070475926801" value="name" />
                 <node role="_$attribute" roleId="tpck.5169995583184591170" type="tpf8.PropertyMacro" typeId="tpf8.1087833241328" id="4246810654489789639">
@@ -511,7 +512,7 @@
               <node role="expression" roleId="tpee.1068580123156" type="tpee.DotExpression" typeId="tpee.1197027756228" id="4246810654489780525">
                 <node role="operand" roleId="tpee.1197027771414" type="tpih.BuilderContextRef" typeId="tpih.1181754781153" id="4246810654489780526" />
                 <node role="operation" roleId="tpee.1197027833540" type="tpee.InstanceMethodCallOperation" typeId="tpee.1202948039474" id="4246810654489780527">
-                  <link role="baseMethodDeclaration" roleId="tpee.1068499141037" targetNodeId="mcby.~TBaseBuilderContext%dincreaseIndent()%cvoid" resolveInfo="increaseIndent" />
+                  <link role="baseMethodDeclaration" roleId="tpee.1068499141037" targetNodeId="7diq.7733366827988671275" resolveInfo="increaseIndent" />
                 </node>
               </node>
             </node>
@@ -539,7 +540,7 @@
               <node role="expression" roleId="tpee.1068580123156" type="tpee.DotExpression" typeId="tpee.1197027756228" id="4246810654489780538">
                 <node role="operand" roleId="tpee.1197027771414" type="tpih.BuilderContextRef" typeId="tpih.1181754781153" id="4246810654489780539" />
                 <node role="operation" roleId="tpee.1197027833540" type="tpee.InstanceMethodCallOperation" typeId="tpee.1202948039474" id="4246810654489780540">
-                  <link role="baseMethodDeclaration" roleId="tpee.1068499141037" targetNodeId="mcby.~TBaseBuilderContext%ddecreaseIndent()%cvoid" resolveInfo="decreaseIndent" />
+                  <link role="baseMethodDeclaration" roleId="tpee.1068499141037" targetNodeId="7diq.7733366827988671283" resolveInfo="decreaseIndent" />
                 </node>
               </node>
             </node>
@@ -556,7 +557,7 @@
               <node role="expression" roleId="tpee.1068580123156" type="tpee.DotExpression" typeId="tpee.1197027756228" id="4246810654489789654">
                 <node role="operand" roleId="tpee.1197027771414" type="tpih.BuilderContextRef" typeId="tpih.1181754781153" id="4246810654489789655" />
                 <node role="operation" roleId="tpee.1197027833540" type="tpee.InstanceMethodCallOperation" typeId="tpee.1202948039474" id="4246810654489789656">
-                  <link role="baseMethodDeclaration" roleId="tpee.1068499141037" targetNodeId="mcby.~TBaseBuilderContext%dstartContentBlock(java%dlang%dString)%cvoid" resolveInfo="startContentBlock" />
+                  <link role="baseMethodDeclaration" roleId="tpee.1068499141037" targetNodeId="7diq.7733366827988671358" resolveInfo="startContentBlock" />
                   <node role="actualArgument" roleId="tpee.1068499141038" type="tpee.StringLiteral" typeId="tpee.1070475926800" id="4246810654489789657">
                     <property name="value" nameId="tpee.1070475926801" value="name" />
                     <node role="_$attribute" roleId="tpck.5169995583184591170" type="tpf8.PropertyMacro" typeId="tpf8.1087833241328" id="4246810654489789658">
@@ -602,7 +603,7 @@
               <node role="expression" roleId="tpee.1068580123156" type="tpee.DotExpression" typeId="tpee.1197027756228" id="4246810654489789675">
                 <node role="operand" roleId="tpee.1197027771414" type="tpih.BuilderContextRef" typeId="tpih.1181754781153" id="4246810654489789676" />
                 <node role="operation" roleId="tpee.1197027833540" type="tpee.InstanceMethodCallOperation" typeId="tpee.1202948039474" id="4246810654489789677">
-                  <link role="baseMethodDeclaration" roleId="tpee.1068499141037" targetNodeId="mcby.~TBaseBuilderContext%dendContentBlock()%cvoid" resolveInfo="endContentBlock" />
+                  <link role="baseMethodDeclaration" roleId="tpee.1068499141037" targetNodeId="7diq.7733366827988671414" resolveInfo="endContentBlock" />
                 </node>
               </node>
             </node>
