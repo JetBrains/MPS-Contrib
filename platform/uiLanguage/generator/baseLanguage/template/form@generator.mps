@@ -10,8 +10,8 @@
   <import index="tphr" modelUID="r:00000000-0000-4000-0000-011c89590553(jetbrains.mps.uiLanguage.structure)" version="1" />
   <import index="tpht" modelUID="r:00000000-0000-4000-0000-011c8959054d(jetbrains.mps.uiLanguage.components)" version="-1" />
   <import index="1t7x" modelUID="f:java_stub#6354ebe7-c22a-4a0f-ac54-50b52ab9b065#java.awt(JDK/java.awt@java_stub)" version="-1" />
-  <import index="bz7e" modelUID="f:java_stub#5d6bee4c-f891-4a93-a0c9-e2268726ae47#jetbrains.mps.uiLanguage.runtime(jetbrains.mps.uiLanguage/jetbrains.mps.uiLanguage.runtime@java_stub)" version="-1" />
   <import index="e2lb" modelUID="f:java_stub#6354ebe7-c22a-4a0f-ac54-50b52ab9b065#java.lang(JDK/java.lang@java_stub)" version="-1" />
+  <import index="vpl2" modelUID="r:00067a2f-ff21-4151-9184-3308b3d1f130(jetbrains.mps.uiLanguage.runtime)" version="-1" />
   <import index="tpee" modelUID="r:00000000-0000-4000-0000-011c895902ca(jetbrains.mps.baseLanguage.structure)" version="3" implicit="yes" />
   <import index="tp25" modelUID="r:00000000-0000-4000-0000-011c89590301(jetbrains.mps.lang.smodel.structure)" version="16" implicit="yes" />
   <import index="tpf8" modelUID="r:00000000-0000-4000-0000-011c895902e8(jetbrains.mps.lang.generator.structure)" version="2" implicit="yes" />
@@ -111,8 +111,8 @@
                 <node role="operand" roleId="tpee.1197027771414" type="tpee.GenericNewExpression" typeId="tpee.1145552977093" id="1202822127805">
                   <node role="creator" roleId="tpee.1145553007750" type="tpee.AnonymousClassCreator" typeId="tpee.1182160077978" id="1202822127806">
                     <node role="cls" roleId="tpee.1182160096073" type="tpee.AnonymousClass" typeId="tpee.1170345865475" id="1202822127807">
-                      <link role="classifier" roleId="tpee.1170346070688" targetNodeId="bz7e.~ValueWrapper" resolveInfo="ValueWrapper" />
                       <link role="baseMethodDeclaration" roleId="tpee.1068499141037" targetNodeId="e2lb.~Object%d&lt;init&gt;()" resolveInfo="Object" />
+                      <link role="classifier" roleId="tpee.1170346070688" targetNodeId="vpl2.5606982432899038956" resolveInfo="ValueWrapper" />
                       <node role="method" roleId="tpee.1107880067339" type="tpee.InstanceMethodDeclaration" typeId="tpee.1068580123165" id="1202822133999">
                         <property name="name" nameId="tpck.1169194664001" value="value" />
                         <node role="visibility" roleId="tpee.1178549979242" type="tpee.PublicVisibility" typeId="tpee.1146644602865" id="1202822134000" />
@@ -231,7 +231,7 @@
                   </node>
                 </node>
                 <node role="operation" roleId="tpee.1197027833540" type="tpee.InstanceMethodCallOperation" typeId="tpee.1202948039474" id="1217628906148">
-                  <link role="baseMethodDeclaration" roleId="tpee.1068499141037" targetNodeId="bz7e.~ValueWrapper%dvalue()%cjava%dlang%dObject" resolveInfo="value" />
+                  <link role="baseMethodDeclaration" roleId="tpee.1068499141037" targetNodeId="1202822133999" resolveInfo="value" />
                 </node>
               </node>
             </node>
@@ -289,8 +289,8 @@
                 <node role="operand" roleId="tpee.1197027771414" type="tpee.GenericNewExpression" typeId="tpee.1145552977093" id="1202822099774">
                   <node role="creator" roleId="tpee.1145553007750" type="tpee.AnonymousClassCreator" typeId="tpee.1182160077978" id="1202822099775">
                     <node role="cls" roleId="tpee.1182160096073" type="tpee.AnonymousClass" typeId="tpee.1170345865475" id="1202822099776">
-                      <link role="classifier" roleId="tpee.1170346070688" targetNodeId="bz7e.~ValueWrapper" resolveInfo="ValueWrapper" />
                       <link role="baseMethodDeclaration" roleId="tpee.1068499141037" targetNodeId="e2lb.~Object%d&lt;init&gt;()" resolveInfo="Object" />
+                      <link role="classifier" roleId="tpee.1170346070688" targetNodeId="vpl2.5606982432899038956" resolveInfo="ValueWrapper" />
                       <node role="visibility" roleId="tpee.1178549979242" type="tpee.PublicVisibility" typeId="tpee.1146644602865" id="1202822099777" />
                       <node role="method" roleId="tpee.1107880067339" type="tpee.InstanceMethodDeclaration" typeId="tpee.1068580123165" id="1202822099778">
                         <property name="name" nameId="tpck.1169194664001" value="value" />
@@ -404,7 +404,7 @@
                   </node>
                 </node>
                 <node role="operation" roleId="tpee.1197027833540" type="tpee.InstanceMethodCallOperation" typeId="tpee.1202948039474" id="1217628872662">
-                  <link role="baseMethodDeclaration" roleId="tpee.1068499141037" targetNodeId="bz7e.~ValueWrapper%dvalue()%cjava%dlang%dObject" resolveInfo="value" />
+                  <link role="baseMethodDeclaration" roleId="tpee.1068499141037" targetNodeId="1202822099778" resolveInfo="value" />
                 </node>
               </node>
             </node>
@@ -449,8 +449,8 @@
             <node role="operand" roleId="tpee.1197027771414" type="tpee.GenericNewExpression" typeId="tpee.1145552977093" id="1202822227325">
               <node role="creator" roleId="tpee.1145553007750" type="tpee.AnonymousClassCreator" typeId="tpee.1182160077978" id="1202822227326">
                 <node role="cls" roleId="tpee.1182160096073" type="tpee.AnonymousClass" typeId="tpee.1170345865475" id="1202822227327">
-                  <link role="classifier" roleId="tpee.1170346070688" targetNodeId="bz7e.~ValueWrapper" resolveInfo="ValueWrapper" />
                   <link role="baseMethodDeclaration" roleId="tpee.1068499141037" targetNodeId="e2lb.~Object%d&lt;init&gt;()" resolveInfo="Object" />
+                  <link role="classifier" roleId="tpee.1170346070688" targetNodeId="vpl2.5606982432899038956" resolveInfo="ValueWrapper" />
                   <node role="method" roleId="tpee.1107880067339" type="tpee.InstanceMethodDeclaration" typeId="tpee.1068580123165" id="1202822227328">
                     <property name="name" nameId="tpck.1169194664001" value="value" />
                     <node role="visibility" roleId="tpee.1178549979242" type="tpee.PublicVisibility" typeId="tpee.1146644602865" id="1202822227329" />
@@ -584,7 +584,7 @@
               </node>
             </node>
             <node role="operation" roleId="tpee.1197027833540" type="tpee.InstanceMethodCallOperation" typeId="tpee.1202948039474" id="1217628916030">
-              <link role="baseMethodDeclaration" roleId="tpee.1068499141037" targetNodeId="bz7e.~ValueWrapper%dvalue()%cjava%dlang%dObject" resolveInfo="value" />
+              <link role="baseMethodDeclaration" roleId="tpee.1068499141037" targetNodeId="1202822227328" resolveInfo="value" />
             </node>
           </node>
         </node>

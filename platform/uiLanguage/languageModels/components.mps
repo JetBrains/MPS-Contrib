@@ -6,9 +6,9 @@
   <import index="dbrf" modelUID="f:java_stub#6354ebe7-c22a-4a0f-ac54-50b52ab9b065#javax.swing(JDK/javax.swing@java_stub)" version="-1" />
   <import index="1t7x" modelUID="f:java_stub#6354ebe7-c22a-4a0f-ac54-50b52ab9b065#java.awt(JDK/java.awt@java_stub)" version="-1" />
   <import index="f0dr" modelUID="f:java_stub#6354ebe7-c22a-4a0f-ac54-50b52ab9b065#javax.swing.border(JDK/javax.swing.border@java_stub)" version="-1" />
-  <import index="bz7e" modelUID="f:java_stub#5d6bee4c-f891-4a93-a0c9-e2268726ae47#jetbrains.mps.uiLanguage.runtime(jetbrains.mps.uiLanguage/jetbrains.mps.uiLanguage.runtime@java_stub)" version="-1" />
   <import index="e2lb" modelUID="f:java_stub#6354ebe7-c22a-4a0f-ac54-50b52ab9b065#java.lang(JDK/java.lang@java_stub)" version="-1" />
   <import index="mxdz" modelUID="f:java_stub#37a3367b-1fb2-44d8-aa6b-18075e74e003#jetbrains.mps.uiLanguage.runtime(MPS.Classpath/jetbrains.mps.uiLanguage.runtime@java_stub)" version="-1" />
+  <import index="vpl2" modelUID="r:00067a2f-ff21-4151-9184-3308b3d1f130(jetbrains.mps.uiLanguage.runtime)" version="-1" />
   <import index="tphr" modelUID="r:00000000-0000-4000-0000-011c89590553(jetbrains.mps.uiLanguage.structure)" version="1" implicit="yes" />
   <import index="tpee" modelUID="r:00000000-0000-4000-0000-011c895902ca(jetbrains.mps.baseLanguage.structure)" version="3" implicit="yes" />
   <import index="tpck" modelUID="r:00000000-0000-4000-0000-011c89590288(jetbrains.mps.lang.core.structure)" version="0" implicit="yes" />
@@ -60,13 +60,13 @@
       <property name="name" nameId="tpck.1169194664001" value="VBox" />
       <property name="stub" nameId="tphr.1202393242164" value="true" />
       <link role="extendedComponent" roleId="tphr.1202393246965" targetNodeId="1202816402995" resolveInfo="Panel" />
-      <link role="mapTo" roleId="tphr.1202393168541" targetNodeId="bz7e.~VBoxPanel" resolveInfo="VBoxPanel" />
+      <link role="mapTo" roleId="tphr.1202393168541" targetNodeId="vpl2.5606982432899038977" resolveInfo="VBoxPanel" />
     </node>
     <node type="tphr.ComponentDeclaration" typeId="tphr.1202387718766" id="1202738350852">
       <property name="name" nameId="tpck.1169194664001" value="HBox" />
       <property name="stub" nameId="tphr.1202393242164" value="true" />
-      <link role="mapTo" roleId="tphr.1202393168541" targetNodeId="bz7e.~HBoxPanel" resolveInfo="HBoxPanel" />
       <link role="extendedComponent" roleId="tphr.1202393246965" targetNodeId="1202816402995" resolveInfo="Panel" />
+      <link role="mapTo" roleId="tphr.1202393168541" targetNodeId="vpl2.5606982432899038941" resolveInfo="HBoxPanel" />
     </node>
     <node type="tphr.ComponentDeclaration" typeId="tphr.1202387718766" id="1202815836444">
       <property name="name" nameId="tpck.1169194664001" value="CheckBox" />
@@ -88,7 +88,7 @@
       <property name="name" nameId="tpck.1169194664001" value="FlowPanel" />
       <property name="stub" nameId="tphr.1202393242164" value="true" />
       <link role="extendedComponent" roleId="tphr.1202393246965" targetNodeId="1202816402995" resolveInfo="Panel" />
-      <link role="mapTo" roleId="tphr.1202393168541" targetNodeId="bz7e.~FlowPanel" resolveInfo="FlowPanel" />
+      <link role="mapTo" roleId="tphr.1202393168541" targetNodeId="vpl2.5606982432899038963" resolveInfo="FlowPanel" />
     </node>
     <node type="tphr.ComponentDeclaration" typeId="tphr.1202387718766" id="1202828480666">
       <property name="name" nameId="tpck.1169194664001" value="Dialog" />
