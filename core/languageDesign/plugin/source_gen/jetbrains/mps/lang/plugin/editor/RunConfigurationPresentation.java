@@ -21,7 +21,7 @@ import jetbrains.mps.smodel.IOperationContext;
 import jetbrains.mps.nodeEditor.EditorManager;
 import jetbrains.mps.smodel.IScope;
 import jetbrains.mps.project.IModule;
-import jetbrains.mps.lang.structure.editor.EditorUtil;
+import jetbrains.mps.ide.EditorUtil;
 import jetbrains.mps.plugins.MacrosUtil;
 import jetbrains.mps.vfs.FileSystem;
 import javax.swing.JComponent;
