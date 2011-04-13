@@ -65,7 +65,6 @@
       <module fileurl="file://$PROJECT_DIR$/core/languageDesign/smodel/smodel.iml" filepath="$PROJECT_DIR$/core/languageDesign/smodel/smodel.iml" group="core/languageDesign" />
       <module fileurl="file://$PROJECT_DIR$/startup/startup.iml" filepath="$PROJECT_DIR$/startup/startup.iml" />
       <module fileurl="file://$PROJECT_DIR$/core/languageDesign/structure/structure.iml" filepath="$PROJECT_DIR$/core/languageDesign/structure/structure.iml" group="core/languageDesign" />
-      <module fileurl="file://$PROJECT_DIR$/core/languageDesign/stubs/stubs.iml" filepath="$PROJECT_DIR$/core/languageDesign/stubs/stubs.iml" group="core/languageDesign" />
       <module fileurl="file://$PROJECT_DIR$/core/languageDesign/test/test.iml" filepath="$PROJECT_DIR$/core/languageDesign/test/test.iml" group="core/languageDesign" />
       <module fileurl="file://$PROJECT_DIR$/testbench/testbench.iml" filepath="$PROJECT_DIR$/testbench/testbench.iml" />
       <module fileurl="file://$PROJECT_DIR$/core/languageDesign/textGen/textgen.iml" filepath="$PROJECT_DIR$/core/languageDesign/textGen/textgen.iml" group="core/languageDesign" />
