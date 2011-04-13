@@ -462,7 +462,7 @@
     <nodeInfo nodeId="2644539331224421752" fileName="typeof_MathDateTimeOperation_InferenceRule.java" startLine="29" startPosition="209" endLine="30" endPosition="376" conceptFqName="jetbrains.mps.baseLanguage.structure.ExpressionStatement" />
     <nodeInfo nodeId="2644539331224424992" fileName="typeof_MathDateTimeOperation_InferenceRule.java" startLine="32" startPosition="5" endLine="33" endPosition="106" conceptFqName="jetbrains.mps.baseLanguage.structure.LocalVariableDeclarationStatement" />
     <nodeInfo nodeId="2644539331224424992" fileName="typeof_MathDateTimeOperation_InferenceRule.java" startLine="33" startPosition="106" endLine="34" endPosition="209" conceptFqName="jetbrains.mps.baseLanguage.structure.LocalVariableDeclarationStatement" />
-    <nodeInfo nodeId="2644539331224424992" fileName="typeof_MathDateTimeOperation_InferenceRule.java" startLine="34" startPosition="209" endLine="35" endPosition="459" conceptFqName="jetbrains.mps.baseLanguage.structure.ExpressionStatement" />
+    <nodeInfo nodeId="2644539331224424992" fileName="typeof_MathDateTimeOperation_InferenceRule.java" startLine="34" startPosition="209" endLine="35" endPosition="465" conceptFqName="jetbrains.mps.baseLanguage.structure.ExpressionStatement" />
     <nodeInfo nodeId="1238249548697" fileName="typeof_MathDateTimeOperation_InferenceRule.java" startLine="37" startPosition="5" endLine="38" endPosition="55" conceptFqName="jetbrains.mps.baseLanguage.structure.LocalVariableDeclarationStatement" />
     <nodeInfo nodeId="1238249548697" fileName="typeof_MathDateTimeOperation_InferenceRule.java" startLine="38" startPosition="55" endLine="39" endPosition="203" conceptFqName="jetbrains.mps.baseLanguage.structure.LocalVariableDeclarationStatement" />
     <nodeInfo nodeId="1238249548697" fileName="typeof_MathDateTimeOperation_InferenceRule.java" startLine="39" startPosition="203" endLine="40" endPosition="452" conceptFqName="jetbrains.mps.baseLanguage.structure.ExpressionStatement" />
@@ -472,7 +472,7 @@
     <nodeInfo nodeId="1238249548697" fileName="typeof_MathDateTimeOperation_InferenceRule.java" startLine="36" startPosition="5" endLine="41" endPosition="5" conceptFqName="jetbrains.mps.baseLanguage.structure.BlockStatement" />
     <scopeInfo nodeId="2644539331224368530" fileName="typeof_MathDateTimeOperation_InferenceRule.java" startLine="22" startPosition="5" endLine="25" endPosition="376" />
     <scopeInfo nodeId="2644539331224421752" fileName="typeof_MathDateTimeOperation_InferenceRule.java" startLine="27" startPosition="5" endLine="30" endPosition="376" />
-    <scopeInfo nodeId="2644539331224424992" fileName="typeof_MathDateTimeOperation_InferenceRule.java" startLine="32" startPosition="5" endLine="35" endPosition="459" />
+    <scopeInfo nodeId="2644539331224424992" fileName="typeof_MathDateTimeOperation_InferenceRule.java" startLine="32" startPosition="5" endLine="35" endPosition="465" />
     <scopeInfo nodeId="1238249548697" fileName="typeof_MathDateTimeOperation_InferenceRule.java" startLine="37" startPosition="5" endLine="40" endPosition="452" />
     <scopeInfo nodeId="1238249028993" fileName="typeof_MathDateTimeOperation_InferenceRule.java" startLine="21" startPosition="126" endLine="41" endPosition="5" />
   </root>
