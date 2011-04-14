@@ -69,6 +69,7 @@
       <module fileurl="file://$PROJECT_DIR$/core/typesystemEngine/typesystemEngine.iml" filepath="$PROJECT_DIR$/core/typesystemEngine/typesystemEngine.iml" group="core/kernel" />
       <module fileurl="file://$PROJECT_DIR$/core/typesystemIntegration/typesystemIntegration.iml" filepath="$PROJECT_DIR$/core/typesystemIntegration/typesystemIntegration.iml" group="workbench" />
       <module fileurl="file://$PROJECT_DIR$/workbench/typesystemUi/typesystemUi.iml" filepath="$PROJECT_DIR$/workbench/typesystemUi/typesystemUi.iml" group="workbench" />
+      <module fileurl="file://$PROJECT_DIR$/platform/uiLanguage/runtime/uiLanguage-runtime.iml" filepath="$PROJECT_DIR$/platform/uiLanguage/runtime/uiLanguage-runtime.iml" group="platform" />
       <module fileurl="file://$PROJECT_DIR$/workbench/uiTests/uiTests.iml" filepath="$PROJECT_DIR$/workbench/uiTests/uiTests.iml" />
       <module fileurl="file://$PROJECT_DIR$/core/baseLanguage/unitTest/unitTest.iml" filepath="$PROJECT_DIR$/core/baseLanguage/unitTest/unitTest.iml" group="core/baseLanguage" />
       <module fileurl="file://$PROJECT_DIR$/core/baseLanguage/unitTest/solutions/runtime/unitTest-runtime.iml" filepath="$PROJECT_DIR$/core/baseLanguage/unitTest/solutions/runtime/unitTest-runtime.iml" group="core/baseLanguage" />
