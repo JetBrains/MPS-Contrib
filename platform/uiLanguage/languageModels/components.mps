@@ -7,7 +7,6 @@
   <import index="1t7x" modelUID="f:java_stub#6354ebe7-c22a-4a0f-ac54-50b52ab9b065#java.awt(JDK/java.awt@java_stub)" version="-1" />
   <import index="f0dr" modelUID="f:java_stub#6354ebe7-c22a-4a0f-ac54-50b52ab9b065#javax.swing.border(JDK/javax.swing.border@java_stub)" version="-1" />
   <import index="e2lb" modelUID="f:java_stub#6354ebe7-c22a-4a0f-ac54-50b52ab9b065#java.lang(JDK/java.lang@java_stub)" version="-1" />
-  <import index="mxdz" modelUID="f:java_stub#37a3367b-1fb2-44d8-aa6b-18075e74e003#jetbrains.mps.uiLanguage.runtime(MPS.Classpath/jetbrains.mps.uiLanguage.runtime@java_stub)" version="-1" />
   <import index="vpl2" modelUID="r:00067a2f-ff21-4151-9184-3308b3d1f130(jetbrains.mps.uiLanguage.runtime)" version="-1" />
   <import index="tphr" modelUID="r:00000000-0000-4000-0000-011c89590553(jetbrains.mps.uiLanguage.structure)" version="1" implicit="yes" />
   <import index="tpee" modelUID="r:00000000-0000-4000-0000-011c895902ca(jetbrains.mps.baseLanguage.structure)" version="3" implicit="yes" />
@@ -113,7 +112,7 @@
       <property name="stub" nameId="tphr.1202393242164" value="true" />
       <property name="actionComponent" nameId="tphr.1202744343014" value="true" />
       <link role="extendedComponent" roleId="tphr.1202393246965" targetNodeId="1202393560969" resolveInfo="Button" />
-      <link role="mapTo" roleId="tphr.1202393168541" targetNodeId="mxdz.~JbRadioButton" resolveInfo="JbRadioButton" />
+      <link role="mapTo" roleId="tphr.1202393168541" targetNodeId="vpl2.3987693689859617965" resolveInfo="JbRadioButton" />
     </node>
     <node type="tphr.ComponentController" typeId="tphr.1202388384249" id="1204287125444">
       <link role="component" roleId="tphr.1202388401455" targetNodeId="1204287075288" resolveInfo="RadioButton" />
