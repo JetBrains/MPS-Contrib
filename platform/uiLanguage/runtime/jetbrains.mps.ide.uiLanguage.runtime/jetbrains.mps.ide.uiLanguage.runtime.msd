@@ -1,11 +1,10 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<solution name="jetbrains.mps.ide.uiLanguage.runtime" uuid="ceb47609-02c2-4927-bb6d-d58368388a62" compileInMPS="true" java-stubs-enabled="false">
+<solution name="jetbrains.mps.ide.uiLanguage.runtime" uuid="ceb47609-02c2-4927-bb6d-d58368388a62" compileInMPS="true" java-stubs-enabled="true">
   <models>
     <modelRoot path="${solution_descriptor}/" namespacePrefix="" />
   </models>
   <sourcePath />
   <dependencies>
-    <dependency reexport="false">6354ebe7-c22a-4a0f-ac54-50b52ab9b065(JDK)</dependency>
     <dependency reexport="false">6354ebe7-c22a-4a0f-ac54-50b52ab9b065(JDK)</dependency>
   </dependencies>
   <usedLanguages>
