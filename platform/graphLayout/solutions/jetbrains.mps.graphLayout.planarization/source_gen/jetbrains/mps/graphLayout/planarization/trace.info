@@ -199,16 +199,16 @@
       <varInfo nodeId="1327612371813218903" varName="graph" />
       <varInfo nodeId="1327612371813217601" varName="innerFace" />
       <varInfo nodeId="1327612371813217600" varName="path" />
-      <varInfo nodeId="1327612371813217595" varName="cur" />
       <varInfo nodeId="1327612371813217598" varName="inCycle" />
+      <varInfo nodeId="1327612371813217595" varName="cur" />
       <varInfo nodeId="1327612371813217603" varName="outerFace" />
       <varInfo nodeId="1327612371813217596" varName="darts" />
       <varInfo nodeId="1327612371813255660" varName="prevEdge" />
     </scopeInfo>
     <scopeInfo nodeId="1327612371813218301" fileName="BiconnectedInitialEmbeddingFinder.java" startLine="50" startPosition="110" endLine="87" endPosition="45">
       <varInfo nodeId="1327612371813218368" varName="path" />
-      <varInfo nodeId="1327612371813218303" varName="removed" />
       <varInfo nodeId="1327612371813218440" varName="cur" />
+      <varInfo nodeId="1327612371813218303" varName="removed" />
       <varInfo nodeId="1327612371813218426" varName="endIndex" />
     </scopeInfo>
     <scopeInfo nodeId="1327612371813217607" fileName="BiconnectedInitialEmbeddingFinder.java" startLine="89" startPosition="0" endLine="128" endPosition="0">
@@ -227,10 +227,10 @@
       <varInfo nodeId="1327612371813262473" varName="dualPath" />
       <varInfo nodeId="1418350014056300003" varName="deletedEdge" />
       <varInfo nodeId="1327612371813262509" varName="cur" />
-      <varInfo nodeId="1327612371813262392" varName="dualGraph" />
       <varInfo nodeId="1418350014056300009" varName="newEdges" />
-      <varInfo nodeId="1327612371813262715" varName="dualEnd" />
+      <varInfo nodeId="1327612371813262392" varName="dualGraph" />
       <varInfo nodeId="1327612371813262493" varName="facePath" />
+      <varInfo nodeId="1327612371813262715" varName="dualEnd" />
     </scopeInfo>
     <scopeInfo nodeId="1327612371813262387" fileName="BiconnectedInitialEmbeddingFinder.java" startLine="128" startPosition="0" endLine="183" endPosition="0">
       <varInfo nodeId="1327612371813262633" varName="start" />
@@ -364,18 +364,18 @@
     </scopeInfo>
     <scopeInfo nodeId="7133435336869263732" fileName="ShortestPathEmbeddingFinder.java" startLine="66" startPosition="120" endLine="114" endPosition="20">
       <varInfo nodeId="7133435336869263795" varName="nodePath" />
-      <varInfo nodeId="7133435336869263782" varName="path" />
       <varInfo nodeId="5181634970276421526" varName="splitEvent" />
+      <varInfo nodeId="7133435336869263782" varName="path" />
       <varInfo nodeId="7133435336869263818" varName="cur" />
-      <varInfo nodeId="7133435336869263755" varName="dualGraph" />
-      <varInfo nodeId="7133435336869263761" varName="newNodes" />
       <varInfo nodeId="7133435336869263881" varName="newEdges" />
+      <varInfo nodeId="7133435336869263761" varName="newNodes" />
+      <varInfo nodeId="7133435336869263755" varName="dualGraph" />
       <varInfo nodeId="7133435336869263802" varName="facePath" />
     </scopeInfo>
     <scopeInfo nodeId="7133435336869263729" fileName="ShortestPathEmbeddingFinder.java" startLine="65" startPosition="0" endLine="116" endPosition="0">
       <varInfo nodeId="4136567681074274518" varName="forbidOuterEdgeCrossing" />
-      <varInfo nodeId="7133435336869263733" varName="embeddedGraph" />
       <varInfo nodeId="7133435336869263735" varName="removedEdge" />
+      <varInfo nodeId="7133435336869263733" varName="embeddedGraph" />
     </scopeInfo>
     <unitInfo nodeId="4422427343208761573" fileName="ShortestPathEmbeddingFinder.java" startLine="44" startPosition="73" endLine="48" endPosition="5" unitName="jetbrains.mps.graphLayout.planarization.ShortestPathEmbeddingFinder$2" />
     <unitInfo nodeId="4136567681074274573" fileName="ShortestPathEmbeddingFinder.java" startLine="75" startPosition="81" endLine="79" endPosition="7" unitName="jetbrains.mps.graphLayout.planarization.ShortestPathEmbeddingFinder$1" />
@@ -978,8 +978,8 @@
       <varInfo nodeId="7172696272957567978" varName="last1" />
     </scopeInfo>
     <scopeInfo nodeId="1532165762814136151" fileName="ClusterEmbeddingConstructor.java" startLine="79" startPosition="64" endLine="92" endPosition="57">
-      <varInfo nodeId="1532165762814136153" varName="edge" />
       <varInfo nodeId="1532165762814136180" varName="realSource" />
+      <varInfo nodeId="1532165762814136153" varName="edge" />
       <varInfo nodeId="1532165762814136174" varName="source" />
       <varInfo nodeId="1532165762814136159" varName="realEdge" />
     </scopeInfo>
@@ -991,11 +991,11 @@
     <scopeInfo nodeId="7172696272957568619" fileName="ClusterEmbeddingConstructor.java" startLine="377" startPosition="0" endLine="392" endPosition="0">
       <varInfo nodeId="7172696272957568618" varName="addedEdges" />
       <varInfo nodeId="7172696272957568614" varName="subBorderNodes" />
-      <varInfo nodeId="7172696272957568613" varName="subOuterEdges" />
       <varInfo nodeId="7172696272957568617" varName="curDarts" />
-      <varInfo nodeId="7172696272957568612" varName="prev" />
-      <varInfo nodeId="7172696272957568615" varName="curEdges" />
+      <varInfo nodeId="7172696272957568613" varName="subOuterEdges" />
       <varInfo nodeId="7172696272957568616" varName="pos" />
+      <varInfo nodeId="7172696272957568615" varName="curEdges" />
+      <varInfo nodeId="7172696272957568612" varName="prev" />
     </scopeInfo>
     <scopeInfo nodeId="7172696272957567953" fileName="ClusterEmbeddingConstructor.java" startLine="392" startPosition="0" endLine="407" endPosition="0">
       <varInfo nodeId="7172696272957567957" varName="pos" />
@@ -1019,8 +1019,8 @@
     </scopeInfo>
     <scopeInfo nodeId="1532165762814136128" fileName="ClusterEmbeddingConstructor.java" startLine="75" startPosition="92" endLine="94" endPosition="5" />
     <scopeInfo nodeId="1532165762814136841" fileName="ClusterEmbeddingConstructor.java" startLine="263" startPosition="71" endLine="282" endPosition="70">
-      <varInfo nodeId="1532165762814136848" varName="isSource" />
       <varInfo nodeId="1532165762814136857" varName="realSplit" />
+      <varInfo nodeId="1532165762814136848" varName="isSource" />
       <varInfo nodeId="1532165762814136874" varName="subBorderNode" />
       <varInfo nodeId="1532165762814136843" varName="realClusterNode" />
       <varInfo nodeId="1532165762814136914" varName="realOuterEdge" />
@@ -1040,27 +1040,27 @@
     <scopeInfo nodeId="7172696272957567648" fileName="ClusterEmbeddingConstructor.java" startLine="408" startPosition="184" endLine="429" endPosition="18">
       <varInfo nodeId="7172696272957567757" varName="firstDartPos" />
       <varInfo nodeId="7172696272957567802" varName="newPos" />
-      <varInfo nodeId="7172696272957567738" varName="first" />
       <varInfo nodeId="7172696272957567696" varName="firstBorderPos" />
+      <varInfo nodeId="7172696272957567738" varName="first" />
     </scopeInfo>
     <scopeInfo nodeId="7277772612861282714" fileName="ClusterEmbeddingConstructor.java" startLine="431" startPosition="0" endLine="454" endPosition="0" />
     <scopeInfo nodeId="7172696272957567645" fileName="ClusterEmbeddingConstructor.java" startLine="407" startPosition="0" endLine="431" endPosition="0">
       <varInfo nodeId="7172696272957567679" varName="outerEdges" />
-      <varInfo nodeId="7172696272957567669" varName="darts" />
       <varInfo nodeId="7172696272957567674" varName="borderNodes" />
+      <varInfo nodeId="7172696272957567669" varName="darts" />
       <varInfo nodeId="7172696272957567684" varName="borderEdges" />
       <varInfo nodeId="7172696272957567662" varName="pos" />
     </scopeInfo>
     <scopeInfo nodeId="1532165762814136389" fileName="ClusterEmbeddingConstructor.java" startLine="152" startPosition="70" endLine="183" endPosition="140">
       <varInfo nodeId="1532165762814136426" varName="face" />
       <varInfo nodeId="1532165762814136437" varName="faceDarts" />
-      <varInfo nodeId="1532165762814136444" varName="nextOuterEdgeDart" />
       <varInfo nodeId="1532165762814136482" varName="curOuterEdge" />
+      <varInfo nodeId="1532165762814136444" varName="nextOuterEdgeDart" />
       <varInfo nodeId="1532165762814136403" varName="next" />
       <varInfo nodeId="5668095147007552334" varName="nextOuterFaceDarts" />
       <varInfo nodeId="1532165762814136420" varName="nextOuterEdge" />
-      <varInfo nodeId="1532165762814136391" varName="borderEdge" />
       <varInfo nodeId="1532165762814136397" varName="outerEdge" />
+      <varInfo nodeId="1532165762814136391" varName="borderEdge" />
       <varInfo nodeId="1532165762814136488" varName="curNextOuterEdge" />
       <varInfo nodeId="5668095147007563873" varName="outerNode" />
     </scopeInfo>
@@ -1076,14 +1076,14 @@
       <varInfo nodeId="7277772612861282844" varName="positions" />
       <varInfo nodeId="7172696272957568448" varName="addedEdges" />
       <varInfo nodeId="7172696272957568128" varName="dartParser" />
-      <varInfo nodeId="7277772612861282822" varName="bestFaceInfo" />
       <varInfo nodeId="7172696272957568476" varName="curDarts" />
+      <varInfo nodeId="7277772612861282822" varName="bestFaceInfo" />
       <varInfo nodeId="7277772612861282834" varName="bestFace" />
       <varInfo nodeId="7172696272957568151" varName="edgeParser" />
       <varInfo nodeId="7172696272957568138" varName="darts" />
-      <varInfo nodeId="7172696272957568168" varName="prev" />
-      <varInfo nodeId="7172696272957568486" varName="curEdges" />
       <varInfo nodeId="7172696272957568598" varName="pos" />
+      <varInfo nodeId="7172696272957568486" varName="curEdges" />
+      <varInfo nodeId="7172696272957568168" varName="prev" />
     </scopeInfo>
     <scopeInfo nodeId="1532165762814136362" fileName="ClusterEmbeddingConstructor.java" startLine="136" startPosition="76" endLine="184" endPosition="7">
       <varInfo nodeId="1532165762814136382" varName="subclusterBorder" />
@@ -1094,8 +1094,8 @@
       <varInfo nodeId="7277772612861282863" varName="subOuterEdges" />
     </scopeInfo>
     <scopeInfo nodeId="1532165762814136257" fileName="ClusterEmbeddingConstructor.java" startLine="111" startPosition="85" endLine="185" endPosition="5">
-      <varInfo nodeId="1532165762814136259" varName="node" />
       <varInfo nodeId="1532165762814136346" varName="subclusterEmbedding" />
+      <varInfo nodeId="1532165762814136259" varName="node" />
       <varInfo nodeId="1532165762814136338" varName="subProcessor" />
       <varInfo nodeId="1532165762814136273" varName="subOuterEdgesOrder" />
       <varInfo nodeId="1532165762814136265" varName="darts" />
@@ -1384,8 +1384,8 @@
       <varInfo nodeId="4624841703139841494" varName="splittedEdge" />
     </scopeInfo>
     <scopeInfo nodeId="2899723422951325353" fileName="TreeEmbeddingFinder.java" startLine="33" startPosition="42" endLine="48" endPosition="25">
-      <varInfo nodeId="2899723422951325357" varName="embeddedGraph" />
       <varInfo nodeId="4179389957059014102" varName="removed" />
+      <varInfo nodeId="2899723422951325357" varName="embeddedGraph" />
       <varInfo nodeId="4179389957059014078" varName="outerFace" />
     </scopeInfo>
     <scopeInfo nodeId="4624841703139841398" fileName="TreeEmbeddingFinder.java" startLine="174" startPosition="0" endLine="189" endPosition="0" />
@@ -1413,23 +1413,23 @@
       <varInfo nodeId="1123934034178614749" varName="nodePath" />
       <varInfo nodeId="1123934034178614750" varName="path" />
       <varInfo nodeId="1123934034178614752" varName="cur" />
-      <varInfo nodeId="1123934034178614742" varName="dualGraph" />
       <varInfo nodeId="1123934034178614748" varName="newNodes" />
+      <varInfo nodeId="1123934034178614742" varName="dualGraph" />
       <varInfo nodeId="1123934034178614754" varName="facePath" />
     </scopeInfo>
     <scopeInfo nodeId="4179389957059016443" fileName="TreeEmbeddingFinder.java" startLine="93" startPosition="79" endLine="133" endPosition="5">
       <varInfo nodeId="4624841703139840674" varName="nodes" />
-      <varInfo nodeId="4179389957059016795" varName="newFaces" />
       <varInfo nodeId="1123934034178607245" varName="cur" />
-      <varInfo nodeId="4179389957059016616" varName="originalGraph" />
+      <varInfo nodeId="4179389957059016795" varName="newFaces" />
       <varInfo nodeId="1123934034178607221" varName="dartItr" />
-      <varInfo nodeId="1123934034178607289" varName="first" />
+      <varInfo nodeId="4179389957059016616" varName="originalGraph" />
       <varInfo nodeId="1123934034178618039" varName="toFind" />
+      <varInfo nodeId="1123934034178607289" varName="first" />
       <varInfo nodeId="1123934034178618026" varName="found" />
     </scopeInfo>
     <scopeInfo nodeId="1123934034178614758" fileName="TreeEmbeddingFinder.java" startLine="50" startPosition="0" endLine="92" endPosition="0">
-      <varInfo nodeId="1123934034178614756" varName="embeddedGraph" />
       <varInfo nodeId="1123934034178614757" varName="removedEdge" />
+      <varInfo nodeId="1123934034178614756" varName="embeddedGraph" />
     </scopeInfo>
     <scopeInfo nodeId="4179389957059016440" fileName="TreeEmbeddingFinder.java" startLine="92" startPosition="0" endLine="135" endPosition="0">
       <varInfo nodeId="4179389957059016457" varName="face" />
@@ -1633,8 +1633,8 @@
       <varInfo nodeId="5639575219014579364" varName="modifiedChildren" />
     </scopeInfo>
     <scopeInfo nodeId="344116171239987228" fileName="PQTree.java" startLine="96" startPosition="12" endLine="134" endPosition="7">
-      <varInfo nodeId="603019764244036267" varName="pertinentRootCandidate" />
       <varInfo nodeId="603019764244036354" varName="numPartialChildren" />
+      <varInfo nodeId="603019764244036267" varName="pertinentRootCandidate" />
       <varInfo nodeId="603019764244036303" varName="numEmptyChildren" />
       <varInfo nodeId="603019764244036285" varName="numFullChildren" />
       <varInfo nodeId="603019764244036532" varName="numFullLeaves" />
@@ -2268,13 +2268,13 @@
     <scopeInfo nodeId="5442489283395819220" fileName="QNode.java" startLine="200" startPosition="0" endLine="235" endPosition="0" />
     <scopeInfo nodeId="5442489283395819227" fileName="QNode.java" startLine="128" startPosition="31" endLine="198" endPosition="5">
       <varInfo nodeId="5442489283395831045" varName="valueFromA" />
-      <varInfo nodeId="5442489283395831131" varName="insideHSegment" />
       <varInfo nodeId="5442489283395869240" varName="last" />
-      <varInfo nodeId="5442489283395831117" varName="curFirst" />
+      <varInfo nodeId="5442489283395831131" varName="insideHSegment" />
       <varInfo nodeId="5442489283395831137" varName="numFullLeavesInSegment" />
+      <varInfo nodeId="5442489283395831117" varName="curFirst" />
       <varInfo nodeId="5442489283395831095" varName="firstChild" />
-      <varInfo nodeId="5442489283395831049" varName="aChild" />
       <varInfo nodeId="5442489283395831087" varName="valueFromH" />
+      <varInfo nodeId="5442489283395831049" varName="aChild" />
       <varInfo nodeId="5442489283395831103" varName="lastChild" />
     </scopeInfo>
     <scopeInfo nodeId="5442489283395819224" fileName="QNode.java" startLine="127" startPosition="0" endLine="200" endPosition="0" />
@@ -2490,8 +2490,8 @@
     </scopeInfo>
     <scopeInfo nodeId="4644851485137277581" fileName="PQPlanarizationFinder.java" startLine="128" startPosition="5" endLine="175" endPosition="5" />
     <scopeInfo nodeId="4644851485137262103" fileName="PQPlanarizationFinder.java" startLine="72" startPosition="73" endLine="176" endPosition="26">
-      <varInfo nodeId="4644851485137262207" varName="nodes" />
       <varInfo nodeId="4644851485137283326" varName="graphEmbedding" />
+      <varInfo nodeId="4644851485137262207" varName="nodes" />
       <varInfo nodeId="4644851485137283387" varName="manyNodeComponent" />
       <varInfo nodeId="4644851485137262151" varName="componentGraph" />
     </scopeInfo>
@@ -2710,8 +2710,8 @@
     </scopeInfo>
     <scopeInfo nodeId="516638300680465095" fileName="PQPlanarityTest.java" startLine="90" startPosition="82" endLine="111" endPosition="25">
       <varInfo nodeId="4644851485137255703" varName="nodeOrder" />
-      <varInfo nodeId="3021256511735305025" varName="edges" />
       <varInfo nodeId="4644851485137255685" varName="order" />
+      <varInfo nodeId="3021256511735305025" varName="edges" />
       <varInfo nodeId="5709109565604328096" varName="embeddedGraph" />
     </scopeInfo>
     <scopeInfo nodeId="4644851485137255355" fileName="PQPlanarityTest.java" startLine="48" startPosition="52" endLine="70" endPosition="80">
@@ -2748,11 +2748,11 @@
       <varInfo nodeId="4644851485137255273" varName="stNumbering" />
     </scopeInfo>
     <scopeInfo nodeId="8327149575965781998" fileName="PQPlanarityTest.java" startLine="133" startPosition="90" endLine="208" endPosition="25">
-      <varInfo nodeId="3021256511735168066" varName="addedEdges" />
       <varInfo nodeId="3021256511735167895" varName="last" />
+      <varInfo nodeId="3021256511735168066" varName="addedEdges" />
       <varInfo nodeId="3021256511735235131" varName="innerFace" />
-      <varInfo nodeId="3021256511735167849" varName="embeddedGraph" />
       <varInfo nodeId="3021256511735167908" varName="cur" />
+      <varInfo nodeId="3021256511735167849" varName="embeddedGraph" />
       <varInfo nodeId="3021256511735167859" varName="outerFace" />
       <varInfo nodeId="3021256511735167882" varName="first" />
       <varInfo nodeId="3021256511735167866" varName="addedNodes" />
@@ -3241,8 +3241,8 @@
     <scopeInfo nodeId="603019764244030359" fileName="PNode.java" startLine="167" startPosition="60" endLine="194" endPosition="5">
       <varInfo nodeId="603019764244030427" varName="replacement" />
       <varInfo nodeId="603019764244030365" varName="numPartial" />
-      <varInfo nodeId="603019764244030361" varName="numFull" />
       <varInfo nodeId="603019764244030369" varName="numChildren" />
+      <varInfo nodeId="603019764244030361" varName="numFull" />
     </scopeInfo>
     <scopeInfo nodeId="5442489283395815124" fileName="PNode.java" startLine="341" startPosition="31" endLine="368" endPosition="5" />
     <scopeInfo nodeId="5639575219014570775" fileName="PNode.java" startLine="63" startPosition="34" endLine="93" endPosition="7">
@@ -3261,9 +3261,9 @@
       <varInfo nodeId="5442489283395818433" varName="valueFromA" />
       <varInfo nodeId="5442489283395818560" varName="partialChildren" />
       <varInfo nodeId="5442489283395818739" varName="numPartialFullLeaves" />
-      <varInfo nodeId="5442489283395818437" varName="aChild" />
-      <varInfo nodeId="5442489283395818672" varName="firstHChild" />
       <varInfo nodeId="5442489283395818734" varName="valueFromH" />
+      <varInfo nodeId="5442489283395818672" varName="firstHChild" />
+      <varInfo nodeId="5442489283395818437" varName="aChild" />
       <varInfo nodeId="5442489283395818678" varName="secondHChild" />
       <varInfo nodeId="5442489283395818631" varName="secondHMax" />
       <varInfo nodeId="5442489283395818625" varName="firstHMax" />
@@ -3505,8 +3505,8 @@
     </scopeInfo>
     <scopeInfo nodeId="5709109565604293652" fileName="EdgesOrder.java" startLine="95" startPosition="0" endLine="114" endPosition="0">
       <varInfo nodeId="5709109565604293657" varName="node" />
-      <varInfo nodeId="5709109565604293675" varName="graph" />
       <varInfo nodeId="5709109565604293659" varName="edge" />
+      <varInfo nodeId="5709109565604293675" varName="graph" />
       <varInfo nodeId="5709109565604304415" varName="clockwise" />
     </scopeInfo>
     <scopeInfo nodeId="5709109565604299190" fileName="EdgesOrder.java" startLine="135" startPosition="109" endLine="170" endPosition="63">
@@ -3687,9 +3687,9 @@
     <scopeInfo nodeId="8383102279435117074" fileName="SubsequenceFinder.java" startLine="17" startPosition="114" endLine="41" endPosition="15">
       <varInfo nodeId="8383102279435117235" varName="max" />
       <varInfo nodeId="8383102279435117163" varName="s" />
-      <varInfo nodeId="8383102279435117114" varName="copy" />
-      <varInfo nodeId="8383102279435117139" varName="size" />
       <varInfo nodeId="8383102279435117224" varName="pos" />
+      <varInfo nodeId="8383102279435117139" varName="size" />
+      <varInfo nodeId="8383102279435117114" varName="copy" />
     </scopeInfo>
     <scopeInfo nodeId="8383102279435117071" fileName="SubsequenceFinder.java" startLine="16" startPosition="0" endLine="43" endPosition="0">
       <varInfo nodeId="8383102279435117094" varName="cyclic" />
