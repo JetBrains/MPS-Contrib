@@ -508,7 +508,7 @@
             </node>
             <node role="initializer" roleId="tpee.1068431790190" type="tpee.StaticMethodCall" typeId="tpee.1081236700937" id="1462969652806434255">
               <link role="classConcept" roleId="tpee.1144433194310" targetNodeId="1kav.~StringLiteral" resolveInfo="StringLiteral" />
-              <link role="baseMethodDeclaration" roleId="tpee.1068499141037" targetNodeId="1kav.~StringLiteral%dnewInstance(jetbrains%dmps%dsmodel%dSModel,boolean)%cjetbrains%dmps%dbuildlanguage%dstructure%dPropertyValueExpression" resolveInfo="newInstance" />
+              <link role="baseMethodDeclaration" roleId="tpee.1068499141037" targetNodeId="1kav.~StringLiteral%dnewInstance(jetbrains%dmps%dsmodel%dSModel,boolean)%cjetbrains%dmps%dbuildlanguage%dstructure%dStringLiteral" resolveInfo="newInstance" />
               <node role="actualArgument" roleId="tpee.1068499141038" type="tpee.ParameterReference" typeId="tpee.1068581242874" id="1462969652806434256">
                 <link role="variableDeclaration" roleId="tpee.1068581517664" targetNodeId="1462969652806434247" resolveInfo="model" />
               </node>
@@ -571,7 +571,7 @@
             </node>
             <node role="initializer" roleId="tpee.1068431790190" type="tpee.StaticMethodCall" typeId="tpee.1081236700937" id="1462969652806434278">
               <link role="classConcept" roleId="tpee.1144433194310" targetNodeId="l72m.~AttributeDeclaration" resolveInfo="AttributeDeclaration" />
-              <link role="baseMethodDeclaration" roleId="tpee.1068499141037" targetNodeId="l72m.~AttributeDeclaration%dnewInstance(jetbrains%dmps%dsmodel%dSModel,boolean)%cjetbrains%dmps%dbuild%dgenerictasks%dstructure%dAttributeDeclaration" resolveInfo="newInstance" />
+              <link role="baseMethodDeclaration" roleId="tpee.1068499141037" targetNodeId="l72m.~AttributeDeclaration%dnewInstance(jetbrains%dmps%dsmodel%dSModel,boolean)%cjetbrains%dmps%dlang%dcore%dstructure%dBaseConcept" resolveInfo="newInstance" />
               <node role="actualArgument" roleId="tpee.1068499141038" type="tpee.ParameterReference" typeId="tpee.1068581242874" id="1462969652806434279">
                 <link role="variableDeclaration" roleId="tpee.1068581517664" targetNodeId="1462969652806434268" resolveInfo="model" />
               </node>
@@ -641,7 +641,7 @@
             </node>
             <node role="initializer" roleId="tpee.1068431790190" type="tpee.StaticMethodCall" typeId="tpee.1081236700937" id="1462969652806434304">
               <link role="classConcept" roleId="tpee.1144433194310" targetNodeId="l72m.~NestedDeclaration" resolveInfo="NestedDeclaration" />
-              <link role="baseMethodDeclaration" roleId="tpee.1068499141037" targetNodeId="l72m.~NestedDeclaration%dnewInstance(jetbrains%dmps%dsmodel%dSModel,boolean)%cjetbrains%dmps%dbuild%dgenerictasks%dstructure%dTaskReference" resolveInfo="newInstance" />
+              <link role="baseMethodDeclaration" roleId="tpee.1068499141037" targetNodeId="l72m.~NestedDeclaration%dnewInstance(jetbrains%dmps%dsmodel%dSModel,boolean)%cjetbrains%dmps%dbuild%dgenerictasks%dstructure%dNestedDeclaration" resolveInfo="newInstance" />
               <node role="actualArgument" roleId="tpee.1068499141038" type="tpee.ParameterReference" typeId="tpee.1068581242874" id="1462969652806434305">
                 <link role="variableDeclaration" roleId="tpee.1068581517664" targetNodeId="1462969652806434296" resolveInfo="model" />
               </node>
