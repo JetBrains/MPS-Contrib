@@ -8,7 +8,6 @@ import jetbrains.mps.baseLanguage.dates.runtime.DateTimeOperations;
 import jetbrains.mps.baseLanguage.closures.runtime.Result;
 
 public class DateTimeUtil {
-
   public DateTimeUtil() {
   }
 
@@ -16,24 +15,23 @@ public class DateTimeUtil {
     DateTimeZone currenttz = DateTimeOperations.getCurrentTimeZone();
     try {
       DateTimeOperations.withTimeZone(tz);
-      for(Result<?, ?> __result__ = block.invokeUnrestricted() ;  ; ) {
+      {
+        Result<?, ?> __result__ = block.invokeUnrestricted();
         switch (__result__.getOutcome()) {
           case RETURN_VALUE:
-            //  fall through
+            //  fall through 
           case RETURN_VOID:
-            //  fall through
-          case BREAK:
             return;
+          case BREAK:
+            break;
           case TERMINATE_VOID:
             break;
           default:
             break;
         }
-        break;
       }
     } finally {
       DateTimeOperations.withTimeZone(currenttz);
     }
   }
-
 }
