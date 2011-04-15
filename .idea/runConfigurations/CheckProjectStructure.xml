@@ -31,7 +31,7 @@
     <ConfigurationWrapper RunnerId="Profile " />
     <ConfigurationWrapper RunnerId="Run" />
     <method>
-      <option name="AntTarget" enabled="false" antfile="file://$PROJECT_DIR$/testbench/make_all_modules.xml" target="make" />
+      <option name="AntTarget" enabled="true" antfile="file://$PROJECT_DIR$/testbench/cleanup.xml" target="cleanup" />
     </method>
   </configuration>
 </component>

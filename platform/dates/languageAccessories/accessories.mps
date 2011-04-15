@@ -624,7 +624,6 @@
     </node>
     <node role="locale" roleId="tp6p.1172681020957" type="tp6p.Locale" typeId="tp6p.1172680728258" id="1172681308861">
       <property name="name" nameId="tpck.1169194664001" value="ENGLISH" />
-      <property name="country" value="en" />
       <node role="javaLocale" roleId="tp6p.1172681540798" type="tpee.StaticFieldReference" typeId="tpee.1070533707846" id="1172681673803">
         <link role="classifier" roleId="tpee.1144433057691" targetNodeId="k7g3.~Locale" resolveInfo="Locale" />
         <link role="variableDeclaration" roleId="tpee.1068581517664" targetNodeId="k7g3.~Locale%dENGLISH" resolveInfo="ENGLISH" />
@@ -937,58 +936,37 @@
       <link role="jodaDateTimeFieldType" roleId="tp6p.1172155646667" targetNodeId="ojzd.~DateTimeFieldType%dera()%corg%djoda%dtime%dDateTimeFieldType" resolveInfo="era" />
     </node>
     <node role="zone" roleId="tp6p.1238668248086" type="tp6p.DateTimeZone" typeId="tp6p.1238668259228" id="1238676062546">
-      <property name="hour" value="05" />
-      <property name="sign" value="-" />
       <property name="name" nameId="tpck.1169194664001" value="NEWYORK" />
-      <property name="minute" value="00" />
       <property name="continentOfCountry" nameId="tp6p.1239366855147" value="America" />
       <property name="country" nameId="tp6p.1239362712519" value="New_York" />
     </node>
     <node role="zone" roleId="tp6p.1238668248086" type="tp6p.DateTimeZone" typeId="tp6p.1238668259228" id="1238676299018">
       <property name="name" nameId="tpck.1169194664001" value="LONDON" />
-      <property name="hour" value="00" />
-      <property name="minute" value="00" />
-      <property name="sign" value="+" />
       <property name="continentOfCountry" nameId="tp6p.1239366855147" value="Europe" />
       <property name="country" nameId="tp6p.1239362712519" value="London" />
     </node>
     <node role="zone" roleId="tp6p.1238668248086" type="tp6p.DateTimeZone" typeId="tp6p.1238668259228" id="1238676329036">
       <property name="name" nameId="tpck.1169194664001" value="BERLIN" />
-      <property name="hour" value="01" />
-      <property name="minute" value="00" />
-      <property name="sign" value="+" />
       <property name="continentOfCountry" nameId="tp6p.1239366855147" value="Europe" />
       <property name="country" nameId="tp6p.1239362712519" value="Berlin" />
     </node>
     <node role="zone" roleId="tp6p.1238668248086" type="tp6p.DateTimeZone" typeId="tp6p.1238668259228" id="1238675442422">
-      <property name="hour" value="03" />
-      <property name="minute" value="00" />
-      <property name="sign" value="+" />
       <property name="name" nameId="tpck.1169194664001" value="MOSCOW" />
       <property name="continentOfCountry" nameId="tp6p.1239366855147" value="Europe" />
       <property name="country" nameId="tp6p.1239362712519" value="Moscow" />
     </node>
     <node role="zone" roleId="tp6p.1238668248086" type="tp6p.DateTimeZone" typeId="tp6p.1238668259228" id="1238676634201">
       <property name="name" nameId="tpck.1169194664001" value="BANGKOK" />
-      <property name="hour" value="07" />
-      <property name="minute" value="00" />
-      <property name="sign" value="+" />
       <property name="continentOfCountry" nameId="tp6p.1239366855147" value="Asia" />
       <property name="country" nameId="tp6p.1239362712519" value="Bangkok" />
     </node>
     <node role="zone" roleId="tp6p.1238668248086" type="tp6p.DateTimeZone" typeId="tp6p.1238668259228" id="1238676682406">
       <property name="name" nameId="tpck.1169194664001" value="TOKYO" />
-      <property name="hour" value="09" />
-      <property name="sign" value="+" />
-      <property name="minute" value="00" />
       <property name="continentOfCountry" nameId="tp6p.1239366855147" value="Asia" />
       <property name="country" nameId="tp6p.1239362712519" value="Tokyo" />
     </node>
     <node role="zone" roleId="tp6p.1238668248086" type="tp6p.DateTimeZone" typeId="tp6p.1238668259228" id="1238676740784">
       <property name="name" nameId="tpck.1169194664001" value="SYDNEY" />
-      <property name="sign" value="+" />
-      <property name="hour" value="10" />
-      <property name="minute" value="00" />
       <property name="continentOfCountry" nameId="tp6p.1239366855147" value="Australia" />
       <property name="country" nameId="tp6p.1239362712519" value="Sydney" />
     </node>

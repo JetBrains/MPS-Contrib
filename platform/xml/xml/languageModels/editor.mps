@@ -133,7 +133,6 @@
             <node role="childCellModel" roleId="tpc2.1073389446424" type="tpc2.CellModel_Indent" typeId="tpc2.1198256887712" id="1216813379742" />
             <node role="childCellModel" roleId="tpc2.1073389446424" type="tpc2.CellModel_RefNodeList" typeId="tpc2.1073390211982" id="1166304045428">
               <property name="vertical" nameId="tpc2.1140524450554" value="true" />
-              <property name="name" value="ver1" />
               <link role="relationDeclaration" roleId="tpc2.1140103550593" targetNodeId="tpjo.1163629255661" />
               <node role="emptyCellModel" roleId="tpc2.1140524464359" type="tpc2.CellModel_Constant" typeId="tpc2.1073389577006" id="1166304045429">
                 <node role="styleItem" roleId="tpc2.1219418656006" type="tpc2.EditableStyleClassItem" typeId="tpc2.1186414860679" id="1214398031987">
@@ -158,7 +157,6 @@
         </node>
         <node role="ifFalseCellModel" roleId="tpc2.1088612973955" type="tpc2.CellModel_RefNodeList" typeId="tpc2.1073390211982" id="1166304051499">
           <property name="vertical" nameId="tpc2.1140524450554" value="true" />
-          <property name="name" value="ver2" />
           <link role="relationDeclaration" roleId="tpc2.1140103550593" targetNodeId="tpjo.1163629255661" />
           <node role="emptyCellModel" roleId="tpc2.1140524464359" type="tpc2.CellModel_Constant" typeId="tpc2.1073389577006" id="1166304051500">
             <node role="styleItem" roleId="tpc2.1219418656006" type="tpc2.EditableStyleClassItem" typeId="tpc2.1186414860679" id="1214398032175">
@@ -196,7 +194,6 @@
             <link role="styleClass" roleId="tpc2.1186406756722" targetNodeId="1216823047834" resolveInfo="XmlCLOpenParen" />
           </node>
           <node role="childCellModel" roleId="tpc2.1073389446424" type="tpc2.CellModel_RefNodeList" typeId="tpc2.1073390211982" id="1166316633199">
-            <property name="name" value="hor2" />
             <link role="relationDeclaration" roleId="tpc2.1140103550593" targetNodeId="tpjo.1163629255661" />
             <node role="emptyCellModel" roleId="tpc2.1140524464359" type="tpc2.CellModel_Constant" typeId="tpc2.1073389577006" id="1166316633200">
               <node role="styleItem" roleId="tpc2.1219418656006" type="tpc2.EditableStyleClassItem" typeId="tpc2.1186414860679" id="1214398031966">
@@ -215,7 +212,6 @@
           <node role="cellLayout" roleId="tpc2.1106270802874" type="tpc2.CellLayout_Horizontal" typeId="tpc2.1106270549637" id="1239884288307" />
         </node>
         <node role="ifTrueCellModel" roleId="tpc2.1088612958265" type="tpc2.CellModel_RefNodeList" typeId="tpc2.1073390211982" id="1166316671278">
-          <property name="name" value="hor1" />
           <link role="relationDeclaration" roleId="tpc2.1140103550593" targetNodeId="tpjo.1163629255661" />
           <node role="emptyCellModel" roleId="tpc2.1140524464359" type="tpc2.CellModel_Constant" typeId="tpc2.1073389577006" id="1166316671279">
             <property name="attractsFocus" nameId="tpc2.1130859485024" value="1" />
@@ -477,17 +473,6 @@
                   </node>
                 </node>
               </node>
-            </node>
-          </node>
-          <node role="modelAcessor" type="tpc2.ModelAccessor" typeId="tpc2.1176717996748" id="1226062530902">
-            <node role="getter" roleId="tpc2.1176718001874" type="tpc2.QueryFunction_ModelAccess_Getter" typeId="tpc2.1176717841777" id="1226062530903">
-              <node role="body" roleId="tpee.1137022507850" type="tpee.StatementList" typeId="tpee.1068580123136" id="1226062530904" />
-            </node>
-            <node role="setter" roleId="tpc2.1176718007938" type="tpc2.QueryFunction_ModelAccess_Setter" typeId="tpc2.1176717871254" id="1226062530905">
-              <node role="body" roleId="tpee.1137022507850" type="tpee.StatementList" typeId="tpee.1068580123136" id="1226062530906" />
-            </node>
-            <node role="validator" roleId="tpc2.1176718014393" type="tpc2.QueryFunction_ModelAccess_Validator" typeId="tpc2.1176717888428" id="1226062530907">
-              <node role="body" roleId="tpee.1137022507850" type="tpee.StatementList" typeId="tpee.1068580123136" id="1226062530908" />
             </node>
           </node>
         </node>

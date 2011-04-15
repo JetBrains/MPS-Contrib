@@ -6035,7 +6035,6 @@
   <root id="353793545802812981">
     <node role="attributesDecl" roleId="ddum.7699562953468509840" type="ddum.AttributeDeclaration" typeId="ddum.353793545802643469" id="353793545802812982">
       <property name="name" nameId="tpck.1169194664001" value="command" />
-      <property name="comment" value="command c" />
       <property name="shortDescription" nameId="tpck.1156234966388" value="command line arguments" />
       <property name="required" nameId="ddum.353793545802643476" value="false" />
       <property name="deprecated" nameId="ddum.353793545802643475" value="false" />

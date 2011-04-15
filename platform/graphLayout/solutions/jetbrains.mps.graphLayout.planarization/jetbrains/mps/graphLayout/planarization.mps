@@ -16173,7 +16173,6 @@
                       </node>
                     </node>
                     <node role="rightExpression" roleId="tpee.1081773367579" type="tp2q.ForEachVariableReference" typeId="tp2q.1153944233411" id="5709109565604241163">
-                      <property name="right_transfrom_hint" value="true" />
                       <link role="variable" roleId="tp2q.1153944258490" targetNodeId="5709109565604240243" resolveInfo="node" />
                     </node>
                   </node>

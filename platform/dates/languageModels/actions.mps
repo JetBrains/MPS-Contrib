@@ -1816,7 +1816,6 @@
               </node>
               <node role="statement" roleId="tpee.1068581517665" type="tpee.ExpressionStatement" typeId="tpee.1068580123155" id="2644539331223446089">
                 <node role="expression" roleId="tpee.1068580123156" type="tp25.NodeRefExpression" typeId="tp25.1219352745532" id="2644539331223446090">
-                  <property name="right_transfrom_hint" value="true" />
                   <link role="referentNode" roleId="tp25.1219352800908" targetNodeId="tp6p.1172074383898" resolveInfo="DateTimePropertySettings" />
                 </node>
               </node>

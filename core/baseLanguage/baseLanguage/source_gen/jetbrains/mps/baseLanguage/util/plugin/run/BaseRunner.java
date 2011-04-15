@@ -149,7 +149,7 @@ public abstract class BaseRunner {
     Set<String> res = SetSequence.fromSet(new HashSet<String>());
     IFile classesGen = module.getClassesGen();
     if (classesGen != null) {
-      SetSequence.fromSet(res).addElement(classesGen.getAbsolutePath());
+      SetSequence.fromSet(res).addElement(classesGen.getPath());
     }
     createModuleClasspath(module.getClassPathItem(), res);
     if (withDependencies) {
