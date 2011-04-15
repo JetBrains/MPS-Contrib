@@ -267,9 +267,7 @@ public class FormatTokenSettings_Editor extends DefaultNodeEditor {
     public void installElementCellActions(SNode listOwner, SNode elementNode, EditorCell elementCell, EditorContext editorContext) {
       if (elementCell.getUserObject(AbstractCellListHandler.ELEMENT_CELL_ACTIONS_SET) == null) {
         elementCell.putUserObject(AbstractCellListHandler.ELEMENT_CELL_ACTIONS_SET, AbstractCellListHandler.ELEMENT_CELL_ACTIONS_SET);
-        SNode substituteInfoNode = listOwner;
         if (elementNode != null) {
-          substituteInfoNode = elementNode;
           elementCell.setAction(CellActionType.DELETE, new CellAction_DeleteNode(elementNode));
         }
         if (elementCell.getSubstituteInfo() == null || elementCell.getSubstituteInfo() instanceof DefaultReferenceSubstituteInfo) {
@@ -320,9 +318,7 @@ public class FormatTokenSettings_Editor extends DefaultNodeEditor {
     public void installElementCellActions(SNode listOwner, SNode elementNode, EditorCell elementCell, EditorContext editorContext) {
       if (elementCell.getUserObject(AbstractCellListHandler.ELEMENT_CELL_ACTIONS_SET) == null) {
         elementCell.putUserObject(AbstractCellListHandler.ELEMENT_CELL_ACTIONS_SET, AbstractCellListHandler.ELEMENT_CELL_ACTIONS_SET);
-        SNode substituteInfoNode = listOwner;
         if (elementNode != null) {
-          substituteInfoNode = elementNode;
           elementCell.setAction(CellActionType.DELETE, new CellAction_DeleteNode(elementNode));
         }
         if (elementCell.getSubstituteInfo() == null || elementCell.getSubstituteInfo() instanceof DefaultReferenceSubstituteInfo) {
@@ -373,9 +369,7 @@ public class FormatTokenSettings_Editor extends DefaultNodeEditor {
     public void installElementCellActions(SNode listOwner, SNode elementNode, EditorCell elementCell, EditorContext editorContext) {
       if (elementCell.getUserObject(AbstractCellListHandler.ELEMENT_CELL_ACTIONS_SET) == null) {
         elementCell.putUserObject(AbstractCellListHandler.ELEMENT_CELL_ACTIONS_SET, AbstractCellListHandler.ELEMENT_CELL_ACTIONS_SET);
-        SNode substituteInfoNode = listOwner;
         if (elementNode != null) {
-          substituteInfoNode = elementNode;
           elementCell.setAction(CellActionType.DELETE, new CellAction_DeleteNode(elementNode));
         }
         if (elementCell.getSubstituteInfo() == null || elementCell.getSubstituteInfo() instanceof DefaultReferenceSubstituteInfo) {
@@ -426,9 +420,7 @@ public class FormatTokenSettings_Editor extends DefaultNodeEditor {
     public void installElementCellActions(SNode listOwner, SNode elementNode, EditorCell elementCell, EditorContext editorContext) {
       if (elementCell.getUserObject(AbstractCellListHandler.ELEMENT_CELL_ACTIONS_SET) == null) {
         elementCell.putUserObject(AbstractCellListHandler.ELEMENT_CELL_ACTIONS_SET, AbstractCellListHandler.ELEMENT_CELL_ACTIONS_SET);
-        SNode substituteInfoNode = listOwner;
         if (elementNode != null) {
-          substituteInfoNode = elementNode;
           elementCell.setAction(CellActionType.DELETE, new CellAction_DeleteNode(elementNode));
         }
         if (elementCell.getSubstituteInfo() == null || elementCell.getSubstituteInfo() instanceof DefaultReferenceSubstituteInfo) {

@@ -13,21 +13,21 @@
   <unitInfo fileName="Element_elementDeclaration.java" startLine="60" startPosition="0" endLine="91" endPosition="0" unitName="jetbrains.mps.xml.editor.Element_elementDeclaration$_Inline_vbcaz4_a0a" />
   <unitInfo fileName="EntityReference_Editor.java" startLine="72" startPosition="0" endLine="105" endPosition="0" unitName="jetbrains.mps.xml.editor.EntityReference_Editor$_Inline_jj82vm_a1a" />
   <unitInfo fileName="Attribute_Editor.java" startLine="102" startPosition="0" endLine="135" endPosition="0" unitName="jetbrains.mps.xml.editor.Attribute_Editor$_Inline_mc4j88_a0a" />
-  <unitInfo fileName="ComplexText_Editor.java" startLine="58" startPosition="0" endLine="95" endPosition="0" unitName="jetbrains.mps.xml.editor.ComplexText_Editor$textListHandler_ohdes7_b0" />
+  <unitInfo fileName="ComplexText_Editor.java" startLine="58" startPosition="0" endLine="93" endPosition="0" unitName="jetbrains.mps.xml.editor.ComplexText_Editor$textListHandler_ohdes7_b0" />
   <unitInfo fileName="CDATA_Editor.java" startLine="16" startPosition="0" endLine="61" endPosition="0" unitName="jetbrains.mps.xml.editor.CDATA_Editor" />
-  <unitInfo fileName="ContentList_Editor.java" startLine="204" startPosition="0" endLine="256" endPosition="0" unitName="jetbrains.mps.xml.editor.ContentList_Editor$contentListHandler_bs144a_b1a0a" />
-  <unitInfo fileName="ContentList_Editor.java" startLine="257" startPosition="0" endLine="309" endPosition="0" unitName="jetbrains.mps.xml.editor.ContentList_Editor$contentListHandler_bs144a_a0a" />
-  <unitInfo fileName="ContentList_Editor.java" startLine="310" startPosition="0" endLine="362" endPosition="0" unitName="jetbrains.mps.xml.editor.ContentList_Editor$contentListHandler_bs144a_b0a0" />
-  <unitInfo fileName="ContentList_Editor.java" startLine="363" startPosition="0" endLine="418" endPosition="0" unitName="jetbrains.mps.xml.editor.ContentList_Editor$contentListHandler_bs144a_a0a_0" />
-  <unitInfo fileName="BaseElement_attributeList.java" startLine="50" startPosition="0" endLine="109" endPosition="0" unitName="jetbrains.mps.xml.editor.BaseElement_attributeList$attributeListHandler_usj5o3_a0" />
+  <unitInfo fileName="ContentList_Editor.java" startLine="204" startPosition="0" endLine="254" endPosition="0" unitName="jetbrains.mps.xml.editor.ContentList_Editor$contentListHandler_bs144a_b1a0a" />
+  <unitInfo fileName="ContentList_Editor.java" startLine="255" startPosition="0" endLine="305" endPosition="0" unitName="jetbrains.mps.xml.editor.ContentList_Editor$contentListHandler_bs144a_a0a" />
+  <unitInfo fileName="ContentList_Editor.java" startLine="306" startPosition="0" endLine="356" endPosition="0" unitName="jetbrains.mps.xml.editor.ContentList_Editor$contentListHandler_bs144a_b0a0" />
+  <unitInfo fileName="ContentList_Editor.java" startLine="357" startPosition="0" endLine="410" endPosition="0" unitName="jetbrains.mps.xml.editor.ContentList_Editor$contentListHandler_bs144a_a0a_0" />
+  <unitInfo fileName="BaseElement_attributeList.java" startLine="50" startPosition="0" endLine="107" endPosition="0" unitName="jetbrains.mps.xml.editor.BaseElement_attributeList$attributeListHandler_usj5o3_a0" />
   <unitInfo fileName="Element_elementDeclaration.java" startLine="22" startPosition="0" endLine="92" endPosition="0" unitName="jetbrains.mps.xml.editor.Element_elementDeclaration" />
-  <unitInfo fileName="ComplexText_Editor.java" startLine="20" startPosition="0" endLine="96" endPosition="0" unitName="jetbrains.mps.xml.editor.ComplexText_Editor" />
+  <unitInfo fileName="ComplexText_Editor.java" startLine="20" startPosition="0" endLine="94" endPosition="0" unitName="jetbrains.mps.xml.editor.ComplexText_Editor" />
   <unitInfo fileName="EntityReference_Editor.java" startLine="20" startPosition="0" endLine="106" endPosition="0" unitName="jetbrains.mps.xml.editor.EntityReference_Editor" />
-  <unitInfo fileName="BaseElement_attributeList.java" startLine="22" startPosition="0" endLine="110" endPosition="0" unitName="jetbrains.mps.xml.editor.BaseElement_attributeList" />
+  <unitInfo fileName="BaseElement_attributeList.java" startLine="22" startPosition="0" endLine="108" endPosition="0" unitName="jetbrains.mps.xml.editor.BaseElement_attributeList" />
   <unitInfo fileName="Attribute_Editor.java" startLine="23" startPosition="0" endLine="136" endPosition="0" unitName="jetbrains.mps.xml.editor.Attribute_Editor" />
   <unitInfo fileName="XmlStyle_StyleSheet.java" startLine="18" startPosition="0" endLine="203" endPosition="0" unitName="jetbrains.mps.xml.editor.XmlStyle_StyleSheet" />
   <unitInfo fileName="Element_Editor.java" startLine="25" startPosition="0" endLine="312" endPosition="0" unitName="jetbrains.mps.xml.editor.Element_Editor" />
-  <unitInfo fileName="ContentList_Editor.java" startLine="31" startPosition="0" endLine="419" endPosition="0" unitName="jetbrains.mps.xml.editor.ContentList_Editor" />
+  <unitInfo fileName="ContentList_Editor.java" startLine="31" startPosition="0" endLine="411" endPosition="0" unitName="jetbrains.mps.xml.editor.ContentList_Editor" />
   <root nodeId="1163629288709">
     <nodeInfo nodeId="1175117827937" fileName="ContentList_Editor.java" startLine="192" startPosition="110" endLine="193" endPosition="70" conceptFqName="jetbrains.mps.baseLanguage.structure.ReturnStatement" />
     <nodeInfo nodeId="1175117855146" fileName="ContentList_Editor.java" startLine="196" startPosition="111" endLine="197" endPosition="116" conceptFqName="jetbrains.mps.baseLanguage.structure.ReturnStatement" />

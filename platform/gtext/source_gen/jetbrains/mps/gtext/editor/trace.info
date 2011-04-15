@@ -5,25 +5,25 @@
   <unitInfo fileName="GNewLine_Editor.java" startLine="14" startPosition="0" endLine="30" endPosition="0" unitName="jetbrains.mps.gtext.editor.GNewLine_Editor" />
   <unitInfo fileName="BuilderContextRef_Editor.java" startLine="15" startPosition="0" endLine="39" endPosition="0" unitName="jetbrains.mps.gtext.editor.BuilderContextRef_Editor" />
   <unitInfo fileName="GText_Editor.java" startLine="18" startPosition="0" endLine="46" endPosition="0" unitName="jetbrains.mps.gtext.editor.GText_Editor" />
-  <unitInfo fileName="GItemStatement_Editor.java" startLine="59" startPosition="0" endLine="96" endPosition="0" unitName="jetbrains.mps.gtext.editor.GItemStatement_Editor$itemListHandler_u1g6d7_b0" />
-  <unitInfo fileName="GConditionalLine_Editor.java" startLine="79" startPosition="0" endLine="116" endPosition="0" unitName="jetbrains.mps.gtext.editor.GConditionalLine_Editor$itemListHandler_mvxs3g_d0" />
-  <unitInfo fileName="GSeparatorItemList_Editor.java" startLine="82" startPosition="0" endLine="119" endPosition="0" unitName="jetbrains.mps.gtext.editor.GSeparatorItemList_Editor$itemListHandler_d3654u_c0" />
-  <unitInfo fileName="GItemList_Editor.java" startLine="109" startPosition="0" endLine="146" endPosition="0" unitName="jetbrains.mps.gtext.editor.GItemList_Editor$itemListHandler_39hcsa_b0a" />
-  <unitInfo fileName="GContentBlock_Editor.java" startLine="114" startPosition="0" endLine="151" endPosition="0" unitName="jetbrains.mps.gtext.editor.GContentBlock_Editor$itemListHandler_c0p948_d0" />
-  <unitInfo fileName="GDocument_Editor.java" startLine="128" startPosition="0" endLine="165" endPosition="0" unitName="jetbrains.mps.gtext.editor.GDocument_Editor$itemListHandler_rt0po5_f0" />
-  <unitInfo fileName="GItemList_Editor.java" startLine="147" startPosition="0" endLine="184" endPosition="0" unitName="jetbrains.mps.gtext.editor.GItemList_Editor$itemListHandler_39hcsa_b0a_0" />
+  <unitInfo fileName="GItemStatement_Editor.java" startLine="59" startPosition="0" endLine="94" endPosition="0" unitName="jetbrains.mps.gtext.editor.GItemStatement_Editor$itemListHandler_u1g6d7_b0" />
+  <unitInfo fileName="GConditionalLine_Editor.java" startLine="79" startPosition="0" endLine="114" endPosition="0" unitName="jetbrains.mps.gtext.editor.GConditionalLine_Editor$itemListHandler_mvxs3g_d0" />
+  <unitInfo fileName="GSeparatorItemList_Editor.java" startLine="82" startPosition="0" endLine="117" endPosition="0" unitName="jetbrains.mps.gtext.editor.GSeparatorItemList_Editor$itemListHandler_d3654u_c0" />
+  <unitInfo fileName="GItemList_Editor.java" startLine="109" startPosition="0" endLine="144" endPosition="0" unitName="jetbrains.mps.gtext.editor.GItemList_Editor$itemListHandler_39hcsa_b0a" />
+  <unitInfo fileName="GContentBlock_Editor.java" startLine="114" startPosition="0" endLine="149" endPosition="0" unitName="jetbrains.mps.gtext.editor.GContentBlock_Editor$itemListHandler_c0p948_d0" />
+  <unitInfo fileName="GDocument_Editor.java" startLine="128" startPosition="0" endLine="163" endPosition="0" unitName="jetbrains.mps.gtext.editor.GDocument_Editor$itemListHandler_rt0po5_f0" />
+  <unitInfo fileName="GItemList_Editor.java" startLine="145" startPosition="0" endLine="180" endPosition="0" unitName="jetbrains.mps.gtext.editor.GItemList_Editor$itemListHandler_39hcsa_b0a_0" />
   <unitInfo fileName="GExpressionItem_Editor.java" startLine="19" startPosition="0" endLine="60" endPosition="0" unitName="jetbrains.mps.gtext.editor.GExpressionItem_Editor" />
   <unitInfo fileName="GStatementItem_Editor.java" startLine="19" startPosition="0" endLine="66" endPosition="0" unitName="jetbrains.mps.gtext.editor.GStatementItem_Editor" />
   <unitInfo fileName="GIndentBlock_Editor.java" startLine="19" startPosition="0" endLine="66" endPosition="0" unitName="jetbrains.mps.gtext.editor.GIndentBlock_Editor" />
   <unitInfo fileName="GContentPlaceholder_Editor.java" startLine="16" startPosition="0" endLine="65" endPosition="0" unitName="jetbrains.mps.gtext.editor.GContentPlaceholder_Editor" />
-  <unitInfo fileName="GLine_Editor.java" startLine="55" startPosition="0" endLine="108" endPosition="0" unitName="jetbrains.mps.gtext.editor.GLine_Editor$itemListHandler_bzk4hk_b0" />
-  <unitInfo fileName="GItemStatement_Editor.java" startLine="22" startPosition="0" endLine="97" endPosition="0" unitName="jetbrains.mps.gtext.editor.GItemStatement_Editor" />
-  <unitInfo fileName="GLine_Editor.java" startLine="23" startPosition="0" endLine="109" endPosition="0" unitName="jetbrains.mps.gtext.editor.GLine_Editor" />
-  <unitInfo fileName="GConditionalLine_Editor.java" startLine="24" startPosition="0" endLine="117" endPosition="0" unitName="jetbrains.mps.gtext.editor.GConditionalLine_Editor" />
-  <unitInfo fileName="GSeparatorItemList_Editor.java" startLine="24" startPosition="0" endLine="120" endPosition="0" unitName="jetbrains.mps.gtext.editor.GSeparatorItemList_Editor" />
-  <unitInfo fileName="GContentBlock_Editor.java" startLine="27" startPosition="0" endLine="152" endPosition="0" unitName="jetbrains.mps.gtext.editor.GContentBlock_Editor" />
-  <unitInfo fileName="GDocument_Editor.java" startLine="26" startPosition="0" endLine="166" endPosition="0" unitName="jetbrains.mps.gtext.editor.GDocument_Editor" />
-  <unitInfo fileName="GItemList_Editor.java" startLine="25" startPosition="0" endLine="185" endPosition="0" unitName="jetbrains.mps.gtext.editor.GItemList_Editor" />
+  <unitInfo fileName="GLine_Editor.java" startLine="55" startPosition="0" endLine="106" endPosition="0" unitName="jetbrains.mps.gtext.editor.GLine_Editor$itemListHandler_bzk4hk_b0" />
+  <unitInfo fileName="GItemStatement_Editor.java" startLine="22" startPosition="0" endLine="95" endPosition="0" unitName="jetbrains.mps.gtext.editor.GItemStatement_Editor" />
+  <unitInfo fileName="GLine_Editor.java" startLine="23" startPosition="0" endLine="107" endPosition="0" unitName="jetbrains.mps.gtext.editor.GLine_Editor" />
+  <unitInfo fileName="GConditionalLine_Editor.java" startLine="24" startPosition="0" endLine="115" endPosition="0" unitName="jetbrains.mps.gtext.editor.GConditionalLine_Editor" />
+  <unitInfo fileName="GSeparatorItemList_Editor.java" startLine="24" startPosition="0" endLine="118" endPosition="0" unitName="jetbrains.mps.gtext.editor.GSeparatorItemList_Editor" />
+  <unitInfo fileName="GContentBlock_Editor.java" startLine="27" startPosition="0" endLine="150" endPosition="0" unitName="jetbrains.mps.gtext.editor.GContentBlock_Editor" />
+  <unitInfo fileName="GDocument_Editor.java" startLine="26" startPosition="0" endLine="164" endPosition="0" unitName="jetbrains.mps.gtext.editor.GDocument_Editor" />
+  <unitInfo fileName="GItemList_Editor.java" startLine="25" startPosition="0" endLine="181" endPosition="0" unitName="jetbrains.mps.gtext.editor.GItemList_Editor" />
   <root nodeId="1164413081741">
     <nodeInfo nodeId="1188506191325" fileName="GItemList_Editor.java" startLine="105" startPosition="110" endLine="106" endPosition="61" conceptFqName="jetbrains.mps.baseLanguage.structure.ReturnStatement" />
     <scopeInfo nodeId="1184872993739" fileName="GItemList_Editor.java" startLine="105" startPosition="110" endLine="106" endPosition="61" />

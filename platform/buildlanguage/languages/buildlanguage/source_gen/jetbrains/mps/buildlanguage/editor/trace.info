@@ -16,20 +16,20 @@
   <unitInfo fileName="ImportProject_Editor.java" startLine="68" startPosition="0" endLine="100" endPosition="0" unitName="jetbrains.mps.buildlanguage.editor.ImportProject_Editor$_Inline_fpr8ek_a1a" />
   <unitInfo fileName="ImportPropertyNode_Editor.java" startLine="68" startPosition="0" endLine="100" endPosition="0" unitName="jetbrains.mps.buildlanguage.editor.ImportPropertyNode_Editor$_Inline_un6x7s_a1a" />
   <unitInfo fileName="TargetReferencePropertyValueExpression_Editor.java" startLine="78" startPosition="0" endLine="110" endPosition="0" unitName="jetbrains.mps.buildlanguage.editor.TargetReferencePropertyValueExpression_Editor$_Inline_826xl5_a1a" />
+  <unitInfo fileName="MultiLineString_Editor.java" startLine="39" startPosition="0" endLine="74" endPosition="0" unitName="jetbrains.mps.buildlanguage.editor.MultiLineString_Editor$stringExpressionListHandler_v49u5j_a0" />
   <unitInfo fileName="PropertyReference_Editor.java" startLine="52" startPosition="0" endLine="88" endPosition="0" unitName="jetbrains.mps.buildlanguage.editor.PropertyReference_Editor$_Inline_5yutfv_a0a" />
   <unitInfo fileName="TargetReference_Editor.java" startLine="52" startPosition="0" endLine="88" endPosition="0" unitName="jetbrains.mps.buildlanguage.editor.TargetReference_Editor$_Inline_a1n9ex_a0a" />
-  <unitInfo fileName="MultiLineString_Editor.java" startLine="39" startPosition="0" endLine="76" endPosition="0" unitName="jetbrains.mps.buildlanguage.editor.MultiLineString_Editor$stringExpressionListHandler_v49u5j_a0" />
-  <unitInfo fileName="TargetDeclaration_EditorComponent.java" startLine="82" startPosition="0" endLine="129" endPosition="0" unitName="jetbrains.mps.buildlanguage.editor.TargetDeclaration_EditorComponent$dependsListHandler_8asdb1_c0a" />
-  <unitInfo fileName="Project_Editor.java" startLine="384" startPosition="0" endLine="433" endPosition="0" unitName="jetbrains.mps.buildlanguage.editor.Project_Editor$propertyListHandler_o8np3d_b1b0" />
-  <unitInfo fileName="Project_Editor.java" startLine="434" startPosition="0" endLine="483" endPosition="0" unitName="jetbrains.mps.buildlanguage.editor.Project_Editor$importPropertiesListHandler_o8np3d_d1b0" />
-  <unitInfo fileName="Project_Editor.java" startLine="484" startPosition="0" endLine="533" endPosition="0" unitName="jetbrains.mps.buildlanguage.editor.Project_Editor$pathsListHandler_o8np3d_f1b0" />
-  <unitInfo fileName="TargetDeclaration_Editor.java" startLine="485" startPosition="0" endLine="534" endPosition="0" unitName="jetbrains.mps.buildlanguage.editor.TargetDeclaration_Editor$propertyListListHandler_xfdsch_b2a" />
-  <unitInfo fileName="Project_Editor.java" startLine="534" startPosition="0" endLine="583" endPosition="0" unitName="jetbrains.mps.buildlanguage.editor.Project_Editor$importProjectListHandler_o8np3d_h1b0" />
-  <unitInfo fileName="TargetDeclaration_Editor.java" startLine="535" startPosition="0" endLine="584" endPosition="0" unitName="jetbrains.mps.buildlanguage.editor.TargetDeclaration_Editor$taskCallListHandler_xfdsch_b3a" />
-  <unitInfo fileName="Project_Editor.java" startLine="584" startPosition="0" endLine="633" endPosition="0" unitName="jetbrains.mps.buildlanguage.editor.Project_Editor$targetListHandler_o8np3d_j1b0" />
+  <unitInfo fileName="TargetDeclaration_EditorComponent.java" startLine="82" startPosition="0" endLine="127" endPosition="0" unitName="jetbrains.mps.buildlanguage.editor.TargetDeclaration_EditorComponent$dependsListHandler_8asdb1_c0a" />
+  <unitInfo fileName="Project_Editor.java" startLine="384" startPosition="0" endLine="431" endPosition="0" unitName="jetbrains.mps.buildlanguage.editor.Project_Editor$propertyListHandler_o8np3d_b1b0" />
+  <unitInfo fileName="Project_Editor.java" startLine="432" startPosition="0" endLine="479" endPosition="0" unitName="jetbrains.mps.buildlanguage.editor.Project_Editor$importPropertiesListHandler_o8np3d_d1b0" />
+  <unitInfo fileName="Project_Editor.java" startLine="480" startPosition="0" endLine="527" endPosition="0" unitName="jetbrains.mps.buildlanguage.editor.Project_Editor$pathsListHandler_o8np3d_f1b0" />
+  <unitInfo fileName="TargetDeclaration_Editor.java" startLine="485" startPosition="0" endLine="532" endPosition="0" unitName="jetbrains.mps.buildlanguage.editor.TargetDeclaration_Editor$propertyListListHandler_xfdsch_b2a" />
+  <unitInfo fileName="Project_Editor.java" startLine="528" startPosition="0" endLine="575" endPosition="0" unitName="jetbrains.mps.buildlanguage.editor.Project_Editor$importProjectListHandler_o8np3d_h1b0" />
+  <unitInfo fileName="TargetDeclaration_Editor.java" startLine="533" startPosition="0" endLine="580" endPosition="0" unitName="jetbrains.mps.buildlanguage.editor.TargetDeclaration_Editor$taskCallListHandler_xfdsch_b3a" />
+  <unitInfo fileName="Project_Editor.java" startLine="576" startPosition="0" endLine="623" endPosition="0" unitName="jetbrains.mps.buildlanguage.editor.Project_Editor$targetListHandler_o8np3d_j1b0" />
   <unitInfo fileName="ImportPropertiesFromFile_Editor.java" startLine="17" startPosition="0" endLine="69" endPosition="0" unitName="jetbrains.mps.buildlanguage.editor.ImportPropertiesFromFile_Editor" />
-  <unitInfo fileName="MultiLineString_Editor.java" startLine="19" startPosition="0" endLine="77" endPosition="0" unitName="jetbrains.mps.buildlanguage.editor.MultiLineString_Editor" />
-  <unitInfo fileName="Enum_Editor.java" startLine="63" startPosition="0" endLine="122" endPosition="0" unitName="jetbrains.mps.buildlanguage.editor.Enum_Editor$constantsListHandler_78un91_b0" />
+  <unitInfo fileName="MultiLineString_Editor.java" startLine="19" startPosition="0" endLine="75" endPosition="0" unitName="jetbrains.mps.buildlanguage.editor.MultiLineString_Editor" />
+  <unitInfo fileName="Enum_Editor.java" startLine="63" startPosition="0" endLine="120" endPosition="0" unitName="jetbrains.mps.buildlanguage.editor.Enum_Editor$constantsListHandler_78un91_b0" />
   <unitInfo fileName="CallReference_Editor.java" startLine="17" startPosition="0" endLine="80" endPosition="0" unitName="jetbrains.mps.buildlanguage.editor.CallReference_Editor" />
   <unitInfo fileName="StringLiteral_Editor.java" startLine="20" startPosition="0" endLine="84" endPosition="0" unitName="jetbrains.mps.buildlanguage.editor.StringLiteral_Editor" />
   <unitInfo fileName="PropertyReference_Editor.java" startLine="21" startPosition="0" endLine="89" endPosition="0" unitName="jetbrains.mps.buildlanguage.editor.PropertyReference_Editor" />
@@ -41,12 +41,12 @@
   <unitInfo fileName="ImportProject_Editor.java" startLine="18" startPosition="0" endLine="101" endPosition="0" unitName="jetbrains.mps.buildlanguage.editor.ImportProject_Editor" />
   <unitInfo fileName="ImportPropertyNode_Editor.java" startLine="18" startPosition="0" endLine="101" endPosition="0" unitName="jetbrains.mps.buildlanguage.editor.ImportPropertyNode_Editor" />
   <unitInfo fileName="TargetReferencePropertyValueExpression_Editor.java" startLine="18" startPosition="0" endLine="111" endPosition="0" unitName="jetbrains.mps.buildlanguage.editor.TargetReferencePropertyValueExpression_Editor" />
-  <unitInfo fileName="Enum_Editor.java" startLine="23" startPosition="0" endLine="123" endPosition="0" unitName="jetbrains.mps.buildlanguage.editor.Enum_Editor" />
-  <unitInfo fileName="TargetDeclaration_EditorComponent.java" startLine="25" startPosition="0" endLine="130" endPosition="0" unitName="jetbrains.mps.buildlanguage.editor.TargetDeclaration_EditorComponent" />
+  <unitInfo fileName="Enum_Editor.java" startLine="23" startPosition="0" endLine="121" endPosition="0" unitName="jetbrains.mps.buildlanguage.editor.Enum_Editor" />
+  <unitInfo fileName="TargetDeclaration_EditorComponent.java" startLine="25" startPosition="0" endLine="128" endPosition="0" unitName="jetbrains.mps.buildlanguage.editor.TargetDeclaration_EditorComponent" />
   <unitInfo fileName="PropertyDeclaration_Editor.java" startLine="27" startPosition="0" endLine="198" endPosition="0" unitName="jetbrains.mps.buildlanguage.editor.PropertyDeclaration_Editor" />
   <unitInfo fileName="ExternalPropertyDeclaration_Editor.java" startLine="28" startPosition="0" endLine="248" endPosition="0" unitName="jetbrains.mps.buildlanguage.editor.ExternalPropertyDeclaration_Editor" />
-  <unitInfo fileName="TargetDeclaration_Editor.java" startLine="37" startPosition="0" endLine="585" endPosition="0" unitName="jetbrains.mps.buildlanguage.editor.TargetDeclaration_Editor" />
-  <unitInfo fileName="Project_Editor.java" startLine="30" startPosition="0" endLine="634" endPosition="0" unitName="jetbrains.mps.buildlanguage.editor.Project_Editor" />
+  <unitInfo fileName="TargetDeclaration_Editor.java" startLine="37" startPosition="0" endLine="581" endPosition="0" unitName="jetbrains.mps.buildlanguage.editor.TargetDeclaration_Editor" />
+  <unitInfo fileName="Project_Editor.java" startLine="30" startPosition="0" endLine="624" endPosition="0" unitName="jetbrains.mps.buildlanguage.editor.Project_Editor" />
   <root nodeId="1196853805142">
     <nodeInfo nodeId="1201260045446" fileName="TargetDeclaration_Editor.java" startLine="461" startPosition="111" endLine="462" endPosition="75" conceptFqName="jetbrains.mps.baseLanguage.structure.ReturnStatement" />
     <nodeInfo nodeId="1229183939682" fileName="TargetDeclaration_Editor.java" startLine="465" startPosition="112" endLine="466" endPosition="77" conceptFqName="jetbrains.mps.baseLanguage.structure.ReturnStatement" />

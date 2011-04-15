@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <debugInfo>
-  <unitInfo fileName="PropertyNode_Editor.java" startLine="114" startPosition="0" endLine="163" endPosition="0" unitName="jetbrains.mps.build.property.editor.PropertyNode_Editor$declarationListHandler_i7uzyy_c0" />
-  <unitInfo fileName="PropertyNode_Editor.java" startLine="28" startPosition="0" endLine="164" endPosition="0" unitName="jetbrains.mps.build.property.editor.PropertyNode_Editor" />
+  <unitInfo fileName="PropertyNode_Editor.java" startLine="114" startPosition="0" endLine="161" endPosition="0" unitName="jetbrains.mps.build.property.editor.PropertyNode_Editor$declarationListHandler_i7uzyy_c0" />
+  <unitInfo fileName="PropertyNode_Editor.java" startLine="28" startPosition="0" endLine="162" endPosition="0" unitName="jetbrains.mps.build.property.editor.PropertyNode_Editor" />
 </debugInfo>
 

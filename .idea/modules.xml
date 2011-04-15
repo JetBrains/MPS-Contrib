@@ -32,6 +32,7 @@
       <module fileurl="file://$PROJECT_DIR$/core/languageDesign/editor/tests/table/editor.table.tests.iml" filepath="$PROJECT_DIR$/core/languageDesign/editor/tests/table/editor.table.tests.iml" group="core/languageDesign/editor" />
       <module fileurl="file://$PROJECT_DIR$/core/languageDesign/editor/tests/jetbrains.mps.lang.editor.tests/editor.tests.iml" filepath="$PROJECT_DIR$/core/languageDesign/editor/tests/jetbrains.mps.lang.editor.tests/editor.tests.iml" group="core/languageDesign/editor" />
       <module fileurl="file://$PROJECT_DIR$/core/languageDesign/findUsages/findUsages.iml" filepath="$PROJECT_DIR$/core/languageDesign/findUsages/findUsages.iml" group="core/languageDesign" />
+      <module fileurl="file://$PROJECT_DIR$/core/findUsages-runtime/findUsages-runtime.iml" filepath="$PROJECT_DIR$/core/findUsages-runtime/findUsages-runtime.iml" />
       <module fileurl="file://$PROJECT_DIR$/core/generator/generator-engine.iml" filepath="$PROJECT_DIR$/core/generator/generator-engine.iml" group="core/kernel" />
       <module fileurl="file://$PROJECT_DIR$/workbench/ideUiLanguage/ideUiLanguage.iml" filepath="$PROJECT_DIR$/workbench/ideUiLanguage/ideUiLanguage.iml" group="workbench" />
       <module fileurl="file://$PROJECT_DIR$/core/idea-patch/idea-patch.iml" filepath="$PROJECT_DIR$/core/idea-patch/idea-patch.iml" group="core/kernel" />

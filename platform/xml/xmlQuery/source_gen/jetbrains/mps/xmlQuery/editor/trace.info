@@ -12,34 +12,34 @@
   <unitInfo fileName="AccessChildrenOperation_Editor.java" startLine="48" startPosition="0" endLine="81" endPosition="0" unitName="jetbrains.mps.xmlQuery.editor.AccessChildrenOperation_Editor$_Inline_td7a8k_a0a" />
   <unitInfo fileName="ElementBuilder_Editor.java" startLine="49" startPosition="0" endLine="82" endPosition="0" unitName="jetbrains.mps.xmlQuery.editor.ElementBuilder_Editor$_Inline_wmom6u_a0a" />
   <unitInfo fileName="AttributeBuilder_Editor.java" startLine="76" startPosition="0" endLine="109" endPosition="0" unitName="jetbrains.mps.xmlQuery.editor.AttributeBuilder_Editor$_Inline_a3sco6_a0a" />
+  <unitInfo fileName="XMLSAXParser_Editor.java" startLine="307" startPosition="0" endLine="342" endPosition="0" unitName="jetbrains.mps.xmlQuery.editor.XMLSAXParser_Editor$parametersListHandler_pkrqbh_e0" />
+  <unitInfo fileName="XMLSAXParser_Editor.java" startLine="343" startPosition="0" endLine="378" endPosition="0" unitName="jetbrains.mps.xmlQuery.editor.XMLSAXParser_Editor$fieldsListHandler_pkrqbh_g0" />
   <unitInfo fileName="XMLSAXFieldReference_Editor.java" startLine="51" startPosition="0" endLine="88" endPosition="0" unitName="jetbrains.mps.xmlQuery.editor.XMLSAXFieldReference_Editor$_Inline_obyras_a0a" />
   <unitInfo fileName="XMLSAXAttributeReference_Editor.java" startLine="51" startPosition="0" endLine="88" endPosition="0" unitName="jetbrains.mps.xmlQuery.editor.XMLSAXAttributeReference_Editor$_Inline_air6th_a0a" />
   <unitInfo fileName="XMLSAXChildRule_Editor.java" startLine="245" startPosition="0" endLine="282" endPosition="0" unitName="jetbrains.mps.xmlQuery.editor.XMLSAXChildRule_Editor$_Inline_wbyfib_a2a" />
   <unitInfo fileName="XMLSAXParser_Editor.java" startLine="269" startPosition="0" endLine="306" endPosition="0" unitName="jetbrains.mps.xmlQuery.editor.XMLSAXParser_Editor$_Inline_pkrqbh_a9a" />
-  <unitInfo fileName="XMLSAXParser_Editor.java" startLine="307" startPosition="0" endLine="344" endPosition="0" unitName="jetbrains.mps.xmlQuery.editor.XMLSAXParser_Editor$parametersListHandler_pkrqbh_e0" />
-  <unitInfo fileName="XMLSAXParser_Editor.java" startLine="345" startPosition="0" endLine="382" endPosition="0" unitName="jetbrains.mps.xmlQuery.editor.XMLSAXParser_Editor$fieldsListHandler_pkrqbh_g0" />
   <unitInfo fileName="XMLSAXBreakReturn.java" startLine="23" startPosition="0" endLine="66" endPosition="0" unitName="jetbrains.mps.xmlQuery.editor.XMLSAXBreakReturn$XMLSAXBreakReturn_Action0" />
   <unitInfo fileName="TextBuilder_Editor.java" startLine="16" startPosition="0" endLine="61" endPosition="0" unitName="jetbrains.mps.xmlQuery.editor.TextBuilder_Editor" />
   <unitInfo fileName="XMLSAXTextRule_Editor.java" startLine="18" startPosition="0" endLine="63" endPosition="0" unitName="jetbrains.mps.xmlQuery.editor.XMLSAXTextRule_Editor" />
+  <unitInfo fileName="XMLSAXParser_Editor.java" startLine="379" startPosition="0" endLine="430" endPosition="0" unitName="jetbrains.mps.xmlQuery.editor.XMLSAXParser_Editor$nodesListHandler_pkrqbh_l0" />
   <unitInfo fileName="XMLSAXBreakReturn.java" startLine="15" startPosition="0" endLine="67" endPosition="0" unitName="jetbrains.mps.xmlQuery.editor.XMLSAXBreakReturn" />
-  <unitInfo fileName="XMLSAXParser_Editor.java" startLine="383" startPosition="0" endLine="436" endPosition="0" unitName="jetbrains.mps.xmlQuery.editor.XMLSAXParser_Editor$nodesListHandler_pkrqbh_l0" />
   <unitInfo fileName="AccessArbitraryAttributeOperation_Editor.java" startLine="17" startPosition="0" endLine="72" endPosition="0" unitName="jetbrains.mps.xmlQuery.editor.AccessArbitraryAttributeOperation_Editor" />
   <unitInfo fileName="AccessArbitraryChildrenOperation_Editor.java" startLine="17" startPosition="0" endLine="72" endPosition="0" unitName="jetbrains.mps.xmlQuery.editor.AccessArbitraryChildrenOperation_Editor" />
   <unitInfo fileName="AccessAttributeOperation_Editor.java" startLine="18" startPosition="0" endLine="82" endPosition="0" unitName="jetbrains.mps.xmlQuery.editor.AccessAttributeOperation_Editor" />
   <unitInfo fileName="AccessChildrenOperation_Editor.java" startLine="18" startPosition="0" endLine="82" endPosition="0" unitName="jetbrains.mps.xmlQuery.editor.AccessChildrenOperation_Editor" />
   <unitInfo fileName="ElementBuilder_Editor.java" startLine="18" startPosition="0" endLine="83" endPosition="0" unitName="jetbrains.mps.xmlQuery.editor.ElementBuilder_Editor" />
   <unitInfo fileName="XMLSAXFieldDeclaration_Editor.java" startLine="21" startPosition="0" endLine="86" endPosition="0" unitName="jetbrains.mps.xmlQuery.editor.XMLSAXFieldDeclaration_Editor" />
+  <unitInfo fileName="XMLSAXNodeRule_Editor.java" startLine="465" startPosition="0" endLine="531" endPosition="0" unitName="jetbrains.mps.xmlQuery.editor.XMLSAXNodeRule_Editor$attrsListHandler_b42orx_k0" />
+  <unitInfo fileName="XMLSAXNodeRule_Editor.java" startLine="532" startPosition="0" endLine="598" endPosition="0" unitName="jetbrains.mps.xmlQuery.editor.XMLSAXNodeRule_Editor$childrenListHandler_b42orx_m0" />
   <unitInfo fileName="XMLSAXFieldReference_Editor.java" startLine="21" startPosition="0" endLine="89" endPosition="0" unitName="jetbrains.mps.xmlQuery.editor.XMLSAXFieldReference_Editor" />
   <unitInfo fileName="XMLSAXAttributeReference_Editor.java" startLine="21" startPosition="0" endLine="89" endPosition="0" unitName="jetbrains.mps.xmlQuery.editor.XMLSAXAttributeReference_Editor" />
-  <unitInfo fileName="XMLSAXNodeRule_Editor.java" startLine="465" startPosition="0" endLine="533" endPosition="0" unitName="jetbrains.mps.xmlQuery.editor.XMLSAXNodeRule_Editor$attrsListHandler_b42orx_k0" />
-  <unitInfo fileName="XMLSAXNodeRule_Editor.java" startLine="534" startPosition="0" endLine="602" endPosition="0" unitName="jetbrains.mps.xmlQuery.editor.XMLSAXNodeRule_Editor$childrenListHandler_b42orx_m0" />
   <unitInfo fileName="XMLSAXBreakStatement_Editor.java" startLine="21" startPosition="0" endLine="103" endPosition="0" unitName="jetbrains.mps.xmlQuery.editor.XMLSAXBreakStatement_Editor" />
   <unitInfo fileName="AttributeBuilder_Editor.java" startLine="20" startPosition="0" endLine="110" endPosition="0" unitName="jetbrains.mps.xmlQuery.editor.AttributeBuilder_Editor" />
   <unitInfo fileName="XMLSAXAttributeRule_Editor.java" startLine="24" startPosition="0" endLine="158" endPosition="0" unitName="jetbrains.mps.xmlQuery.editor.XMLSAXAttributeRule_Editor" />
   <unitInfo fileName="XMLElementType_Editor.java" startLine="24" startPosition="0" endLine="175" endPosition="0" unitName="jetbrains.mps.xmlQuery.editor.XMLElementType_Editor" />
   <unitInfo fileName="XMLSAXChildRule_Editor.java" startLine="27" startPosition="0" endLine="283" endPosition="0" unitName="jetbrains.mps.xmlQuery.editor.XMLSAXChildRule_Editor" />
-  <unitInfo fileName="XMLSAXParser_Editor.java" startLine="32" startPosition="0" endLine="437" endPosition="0" unitName="jetbrains.mps.xmlQuery.editor.XMLSAXParser_Editor" />
-  <unitInfo fileName="XMLSAXNodeRule_Editor.java" startLine="35" startPosition="0" endLine="603" endPosition="0" unitName="jetbrains.mps.xmlQuery.editor.XMLSAXNodeRule_Editor" />
+  <unitInfo fileName="XMLSAXParser_Editor.java" startLine="32" startPosition="0" endLine="431" endPosition="0" unitName="jetbrains.mps.xmlQuery.editor.XMLSAXParser_Editor" />
+  <unitInfo fileName="XMLSAXNodeRule_Editor.java" startLine="35" startPosition="0" endLine="599" endPosition="0" unitName="jetbrains.mps.xmlQuery.editor.XMLSAXNodeRule_Editor" />
   <root nodeId="2286463592495373153">
     <nodeInfo nodeId="2286463592495373157" fileName="delete_CompactKW.java" startLine="32" startPosition="75" endLine="33" endPosition="61" conceptFqName="jetbrains.mps.baseLanguage.structure.ExpressionStatement" />
     <scopeInfo nodeId="2286463592495373156" fileName="delete_CompactKW.java" startLine="32" startPosition="75" endLine="33" endPosition="61" />

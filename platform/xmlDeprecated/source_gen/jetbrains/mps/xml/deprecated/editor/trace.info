@@ -3,12 +3,12 @@
   <unitInfo fileName="ElementPart_Editor.java" startLine="11" startPosition="0" endLine="22" endPosition="0" unitName="jetbrains.mps.xml.deprecated.editor.ElementPart_Editor" />
   <unitInfo fileName="Text_Editor.java" startLine="14" startPosition="0" endLine="38" endPosition="0" unitName="jetbrains.mps.xml.deprecated.editor.Text_Editor" />
   <unitInfo fileName="XMLDeprecatedStyles_StyleSheet.java" startLine="11" startPosition="0" endLine="40" endPosition="0" unitName="jetbrains.mps.xml.deprecated.editor.XMLDeprecatedStyles_StyleSheet" />
-  <unitInfo fileName="Element_Editor.java" startLine="191" startPosition="0" endLine="243" endPosition="0" unitName="jetbrains.mps.xml.deprecated.editor.Element_Editor$attributeListHandler_76r4mg_c0a" />
-  <unitInfo fileName="Element_Editor.java" startLine="244" startPosition="0" endLine="296" endPosition="0" unitName="jetbrains.mps.xml.deprecated.editor.Element_Editor$contentListHandler_76r4mg_b1a" />
+  <unitInfo fileName="Element_Editor.java" startLine="191" startPosition="0" endLine="241" endPosition="0" unitName="jetbrains.mps.xml.deprecated.editor.Element_Editor$attributeListHandler_76r4mg_c0a" />
+  <unitInfo fileName="Element_Editor.java" startLine="242" startPosition="0" endLine="292" endPosition="0" unitName="jetbrains.mps.xml.deprecated.editor.Element_Editor$contentListHandler_76r4mg_b1a" />
   <unitInfo fileName="Attribute_Editor.java" startLine="17" startPosition="0" endLine="97" endPosition="0" unitName="jetbrains.mps.xml.deprecated.editor.Attribute_Editor" />
   <unitInfo fileName="DocumentTypeDeclaration_Editor.java" startLine="19" startPosition="0" endLine="104" endPosition="0" unitName="jetbrains.mps.xml.deprecated.editor.DocumentTypeDeclaration_Editor" />
   <unitInfo fileName="PublicId_Editor.java" startLine="16" startPosition="0" endLine="120" endPosition="0" unitName="jetbrains.mps.xml.deprecated.editor.PublicId_Editor" />
   <unitInfo fileName="Document_Editor.java" startLine="19" startPosition="0" endLine="153" endPosition="0" unitName="jetbrains.mps.xml.deprecated.editor.Document_Editor" />
-  <unitInfo fileName="Element_Editor.java" startLine="30" startPosition="0" endLine="297" endPosition="0" unitName="jetbrains.mps.xml.deprecated.editor.Element_Editor" />
+  <unitInfo fileName="Element_Editor.java" startLine="30" startPosition="0" endLine="293" endPosition="0" unitName="jetbrains.mps.xml.deprecated.editor.Element_Editor" />
 </debugInfo>
 
