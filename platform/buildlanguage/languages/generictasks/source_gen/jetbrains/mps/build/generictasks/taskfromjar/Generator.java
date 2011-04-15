@@ -6,28 +6,28 @@ import jetbrains.mps.logging.Logger;
 import jetbrains.mps.util.PathManager;
 import jetbrains.mps.smodel.SModel;
 import java.util.List;
-import jetbrains.mps.build.generictasks.structure.BuiltInTaskDeclaration;
+import jetbrains.mps.smodel.SNode;
 import java.io.IOException;
 import java.util.Map;
 import java.util.LinkedHashMap;
+import jetbrains.mps.lang.smodel.generator.smodelAdapter.SModelOperations;
+import jetbrains.mps.lang.smodel.generator.smodelAdapter.SPropertyOperations;
 import java.util.Set;
-import jetbrains.mps.build.generictasks.structure.NestedDeclaration;
+import jetbrains.mps.internal.collections.runtime.SetSequence;
 import java.util.HashSet;
-import jetbrains.mps.build.generictasks.structure.TaskReference;
-import jetbrains.mps.build.generictasks.structure.AttributeDeclaration;
-import jetbrains.mps.buildlanguage.structure.Enum;
-import jetbrains.mps.buildlanguage.structure.StringEnum;
-import jetbrains.mps.buildlanguage.structure.PropertyValueExpression;
-import jetbrains.mps.buildlanguage.structure.StringLiteral;
-import jetbrains.mps.build.generictasks.structure.TaskInterfaceDeclaration;
-import jetbrains.mps.buildlanguage.structure.PropertyType;
-import jetbrains.mps.buildlanguage.structure.IntegerType;
-import jetbrains.mps.buildlanguage.structure.BooleanType;
+import jetbrains.mps.lang.smodel.generator.smodelAdapter.SLinkOperations;
+import jetbrains.mps.internal.collections.runtime.IVisitor;
+import jetbrains.mps.internal.collections.runtime.ListSequence;
+import jetbrains.mps.lang.smodel.generator.smodelAdapter.SNodeOperations;
+import jetbrains.mps.internal.collections.runtime.IWhereFilter;
+import jetbrains.mps.internal.collections.runtime.ISelector;
+import jetbrains.mps.build.generictasks.behavior.AttributeDeclaration_Behavior;
+import jetbrains.mps.buildlanguage.behavior.PropertyValueExpression_Behavior;
+import org.apache.commons.lang.StringUtils;
 import java.io.File;
-import jetbrains.mps.buildlanguage.structure.FileType;
 import org.apache.tools.ant.types.Reference;
-import jetbrains.mps.buildlanguage.structure.CallReferenceType;
-import jetbrains.mps.buildlanguage.structure.StringType;
+import jetbrains.mps.smodel.SModelUtil_new;
+import jetbrains.mps.project.GlobalScope;
 
 public class Generator {
   private static final Logger LOG = Logger.getLogger(Generator.class);
@@ -56,7 +56,7 @@ public class Generator {
       List<ClassInfo> toImport = scanner.scan();
       Importer.IClassInfoProvider provider = scanner.createClassInfoProvider();
       NamesMap namesMap = scanner.getNamesMap();
-      Importer<BuiltInTaskDeclaration> importer = new Importer<BuiltInTaskDeclaration>(toImport, this.getExistingDeclarations(allModels), provider);
+      Importer<SNode> importer = new Importer<SNode>(toImport, this.getExistingDeclarations(allModels), provider);
       Generator.Builder builder = new Generator.Builder(model, namesMap);
       for (ClassInfo cl : scanner.getRoots()) {
         importer.createDeclaration(builder, cl);
@@ -69,62 +69,100 @@ public class Generator {
     }
   }
 
-  private Map<String, BuiltInTaskDeclaration> getExistingDeclarations(SModel[] models) {
-    Map<String, BuiltInTaskDeclaration> declarations = new LinkedHashMap<String, BuiltInTaskDeclaration>();
+  private Map<String, SNode> getExistingDeclarations(SModel[] models) {
+    Map<String, SNode> declarations = new LinkedHashMap<String, SNode>();
     for (SModel model : models) {
-      List<BuiltInTaskDeclaration> roots = model.getRootsAdapters(BuiltInTaskDeclaration.class);
-      for (BuiltInTaskDeclaration decl : roots) {
+      List<SNode> roots = SModelOperations.getRoots(model, "jetbrains.mps.build.generictasks.structure.BuiltInTaskDeclaration");
+      for (SNode decl : roots) {
         this.cleanDeclaration(decl);
-        declarations.put(decl.getClassname(), decl);
+        declarations.put(SPropertyOperations.getString(decl, "classname"), decl);
       }
     }
     return declarations;
   }
 
-  private void cleanDeclaration(BuiltInTaskDeclaration decl) {
-    Set<NestedDeclaration> toRemoveNestedReference = new HashSet<NestedDeclaration>();
-    for (NestedDeclaration nref : decl.getNesteds()) {
-      for (NestedDeclaration ref : decl.getNesteds()) {
-        if (ref.equals(nref)) {
+  private void cleanDeclaration(final SNode decl) {
+    Set<SNode> toRemoveNestedReference = SetSequence.fromSet(new HashSet());
+    for (SNode nref : SLinkOperations.getTargets(decl, "nested", true)) {
+      for (SNode ref : SLinkOperations.getTargets(decl, "nested", true)) {
+        if (eq_ixz87t_a0a0a0b0d(ref, nref)) {
           continue;
         }
-        if (ref.getDeclaration().getClassname().equals(nref.getDeclaration().getClassname())) {
-          toRemoveNestedReference.add(ref);
+        if (eq_ixz87t_a0b0a0b0d(SPropertyOperations.getString(SLinkOperations.getTarget(ref, "declaration", false), "classname"), SPropertyOperations.getString(SLinkOperations.getTarget(nref, "declaration", false), "classname"))) {
+          SetSequence.fromSet(toRemoveNestedReference).addElement(ref);
         }
       }
     }
-    for (NestedDeclaration nref : toRemoveNestedReference) {
-      decl.removeChild(nref);
-      for (TaskReference roleRef : nref.getRoles()) {
-        if (((BuiltInTaskDeclaration) roleRef.getDeclaration()).getFake()) {
-          decl.removeChild(roleRef.getDeclaration());
-        }
+    SetSequence.fromSet(toRemoveNestedReference).visitAll(new IVisitor<SNode>() {
+      public void visit(SNode it) {
+        ListSequence.fromList(SNodeOperations.getChildren(decl)).removeElement(it);
+        ListSequence.fromList(SLinkOperations.getTargets(it, "role", true)).where(new IWhereFilter<SNode>() {
+          public boolean accept(SNode roleRef) {
+            return SPropertyOperations.getBoolean(SNodeOperations.cast(SLinkOperations.getTarget(roleRef, "declaration", false), "jetbrains.mps.build.generictasks.structure.BuiltInTaskDeclaration"), "fake");
+          }
+        }).visitAll(new IVisitor<SNode>() {
+          public void visit(SNode child) {
+            ListSequence.fromList(SNodeOperations.getChildren(decl)).removeElement(SLinkOperations.getTarget(child, "declaration", false));
+          }
+        });
       }
-    }
-    for (BuiltInTaskDeclaration fakedecl : decl.getFakeDeclarations()) {
-      fakedecl.setFake(true);
-    }
-    Set<BuiltInTaskDeclaration> toRemoveFakeDeclaration = new HashSet<BuiltInTaskDeclaration>();
-    toRemoveFakeDeclaration.addAll(decl.getFakeDeclarations());
-    for (NestedDeclaration nref : decl.getNesteds()) {
-      for (TaskReference roleRef : nref.getRoles()) {
-        if (((BuiltInTaskDeclaration) roleRef.getDeclaration()).getFake()) {
-          toRemoveFakeDeclaration.remove(roleRef.getDeclaration());
-        }
+    });
+    ListSequence.fromList(SLinkOperations.getTargets(decl, "fakeDeclaration", true)).visitAll(new IVisitor<SNode>() {
+      public void visit(SNode it) {
+        SPropertyOperations.set(it, "fake", "" + true);
       }
-    }
-    for (BuiltInTaskDeclaration fakedecl : toRemoveFakeDeclaration) {
-      decl.removeChild(fakedecl);
-    }
-    for (NestedDeclaration nref : decl.getNesteds()) {
-      for (TaskReference roleRef : nref.getRoles()) {
-        if (((BuiltInTaskDeclaration) roleRef.getDeclaration()).getFake() && roleRef.getDeclaration().getName().equals(nref.getDeclaration().getName())) {
-          nref.removeChild(roleRef);
-          decl.removeChild(roleRef.getDeclaration());
-          break;
+    });
+
+    Set<SNode> toRemoveFakeDeclaration = SetSequence.fromSet(new HashSet());
+    SetSequence.fromSet(toRemoveFakeDeclaration).addSequence(ListSequence.fromList(SLinkOperations.getTargets(decl, "fakeDeclaration", true)));
+    for (SNode nref : SLinkOperations.getTargets(decl, "nested", true)) {
+      List<SNode> notRemove = ListSequence.fromList(SLinkOperations.getTargets(nref, "role", true)).<SNode>select(new ISelector<SNode, SNode>() {
+        public SNode select(SNode it) {
+          return SNodeOperations.cast(SLinkOperations.getTarget(it, "declaration", false), "jetbrains.mps.build.generictasks.structure.BuiltInTaskDeclaration");
         }
-      }
+      }).where(new IWhereFilter<SNode>() {
+        public boolean accept(SNode it) {
+          return SPropertyOperations.getBoolean(it, "fake");
+        }
+      }).toListSequence();
+      SetSequence.fromSet(toRemoveFakeDeclaration).removeSequence(ListSequence.fromList(notRemove));
     }
+    SetSequence.fromSet(toRemoveFakeDeclaration).visitAll(new IVisitor<SNode>() {
+      public void visit(SNode it) {
+        ListSequence.fromList(SNodeOperations.getChildren(decl)).removeElement(it);
+      }
+    });
+    for (final SNode nref : SLinkOperations.getTargets(decl, "nested", true)) {
+      SNode node = ListSequence.fromList(SLinkOperations.getTargets(nref, "role", true)).where(new IWhereFilter<SNode>() {
+        public boolean accept(SNode it) {
+          SNode biDecl = SNodeOperations.cast(SLinkOperations.getTarget(it, "declaration", false), "jetbrains.mps.build.generictasks.structure.BuiltInTaskDeclaration");
+          return SPropertyOperations.getBoolean(biDecl, "fake") && eq_ixz87t_a0a1a0a0a0a0a0a9a3(SPropertyOperations.getString(biDecl, "name"), SPropertyOperations.getString(SLinkOperations.getTarget(nref, "declaration", false), "name"));
+        }
+      }).first();
+      ListSequence.fromList(SNodeOperations.getChildren(nref)).removeElement(node);
+      ListSequence.fromList(SNodeOperations.getChildren(decl)).removeElement(SLinkOperations.getTarget(node, "declaration", false));
+    }
+  }
+
+  private static boolean eq_ixz87t_a0a0a0b0d(Object a, Object b) {
+    return (a != null ?
+      a.equals(b) :
+      a == b
+    );
+  }
+
+  private static boolean eq_ixz87t_a0b0a0b0d(Object a, Object b) {
+    return (a != null ?
+      a.equals(b) :
+      a == b
+    );
+  }
+
+  private static boolean eq_ixz87t_a0a1a0a0a0a0a0a9a3(Object a, Object b) {
+    return (a != null ?
+      a.equals(b) :
+      a == b
+    );
   }
 
   public static   enum Modes {
@@ -136,7 +174,7 @@ public class Generator {
     }
   }
 
-  public static class Builder implements Importer.IBuilder<BuiltInTaskDeclaration> {
+  public static class Builder implements Importer.IBuilder<SNode> {
     protected final SModel myModel;
     private final NamesMap myNamesMap;
 
@@ -145,172 +183,366 @@ public class Generator {
       this.myNamesMap = namesMap;
     }
 
-    public BuiltInTaskDeclaration createDeclaration(ClassInfo ci) {
+    public SNode createDeclaration(ClassInfo ci) {
       String classname = ci.getDeclarationClass().getName();
       String name = this.myNamesMap.getNameForClass(ci.getDeclarationClass());
       if (ci.isInterface()) {
-        return Generator.GENERATOR.createInterfaceDeclaration(this.myModel, name, classname, ci.isDeprecated(), true);
+        SNode decl = Generator.GENERATOR.createInterfaceDeclaration(name, classname, ci.isDeprecated());
+        myModel.addRoot(decl);
+        return decl;
       }
-      return Generator.GENERATOR.createDeclaration(this.myModel, name, classname, ci.isAbstract(), ci.canHaveInternalText(), ci.isDeprecated(), true);
+      SNode decl = Generator.GENERATOR.createDeclaration(name, classname, ci.isAbstract(), ci.canHaveInternalText(), ci.isDeprecated());
+      myModel.addRoot(decl);
+      return decl;
     }
 
-    public void addParent(BuiltInTaskDeclaration declaration, BuiltInTaskDeclaration parent) {
-      TaskReference ref = Generator.GENERATOR.createDeclarationReference(this.myModel, parent);
-      declaration.setParentRef(ref);
+    public void addParent(SNode declaration, SNode parent) {
+      SLinkOperations.setTarget(declaration, "parentRef", Generator.GENERATOR.createDeclarationReference(parent), true);
     }
 
-    public void addInterface(BuiltInTaskDeclaration declaration, BuiltInTaskDeclaration interfaceDeclaration) {
-      List<TaskReference> interfaces = declaration.getInterfaceses();
-      for (TaskReference in : interfaces) {
-        if (in.getDeclaration().getName().equals(interfaceDeclaration.getName())) {
+    public void addInterface(SNode declaration, SNode interfaceDeclaration) {
+      for (SNode in : SLinkOperations.getTargets(declaration, "interfaces", true)) {
+        if (eq_ixz87t_a0a0a0c1(SPropertyOperations.getString(SLinkOperations.getTarget(in, "declaration", false), "name"), SPropertyOperations.getString(interfaceDeclaration, "name"))) {
           return;
         }
       }
-      TaskReference ref = Generator.GENERATOR.createDeclarationReference(this.myModel, interfaceDeclaration);
-      declaration.addInterfaces(ref);
+      SNode ref = Generator.GENERATOR.createDeclarationReference(interfaceDeclaration);
+      ListSequence.fromList(SLinkOperations.getTargets(declaration, "interfaces", true)).addElement(ref);
     }
 
-    public void addAttribute(BuiltInTaskDeclaration declaration, ClassInfo.MyAttribute attribute) {
-      List<AttributeDeclaration> attrDecls = declaration.getAttributesDecls();
-      for (AttributeDeclaration attributeDeclaration : attrDecls) {
-        if (attributeDeclaration.getName().equals(attribute.getName())) {
-          if (ImportOptions.getInstance().isNeedUpdateAttributes()) {
-            this.updateAttribute(attributeDeclaration, attribute);
-          } else {
-          }
-          return;
+    public void addAttribute(SNode declaration, final ClassInfo.MyAttribute attribute) {
+      SNode node = ListSequence.fromList(SLinkOperations.getTargets(declaration, "attributesDecl", true)).where(new IWhereFilter<SNode>() {
+        public boolean accept(SNode it) {
+          return eq_ixz87t_a0a0a0a0a0a0a0d1(SPropertyOperations.getString(it, "name"), attribute.getName());
         }
+      }).first();
+      if ((node == null)) {
+        createAttribute(declaration, attribute);
+      } else if (ImportOptions.getInstance().isNeedUpdateAttributes()) {
+        this.updateAttribute(node, attribute);
       }
-      this.createAttribute(declaration, attribute);
     }
 
-    private void updateAttribute(AttributeDeclaration attributeDeclaration, ClassInfo.MyAttribute attribute) {
-      attributeDeclaration.setAttributeType(Generator.Builder.getType(attribute.getType(), this.myModel));
-      if (attribute.getEnumValues() != null) {
-        Enum anEnum = attributeDeclaration.getEnum();
-        if ((anEnum != null) && (anEnum instanceof StringEnum)) {
-          this.updateEnum((StringEnum) anEnum, attribute.getEnumValues());
+    private void updateAttribute(SNode ad, ClassInfo.MyAttribute att) {
+      SLinkOperations.setTarget(ad, "attributeType", Generator.Builder.getType(att.getType()), true);
+      if (att.getEnumValues() != null) {
+        SNode anEnum = SLinkOperations.getTarget(ad, "enum", true);
+        if ((anEnum != null) && (SNodeOperations.isInstanceOf(anEnum, "jetbrains.mps.buildlanguage.structure.StringEnum"))) {
+          this.updateEnum(SNodeOperations.cast(anEnum, "jetbrains.mps.buildlanguage.structure.StringEnum"), att.getEnumValues());
         } else {
-          this.addEnum(attributeDeclaration, attribute.getEnumValues());
+          this.addEnum(ad, att.getEnumValues());
         }
       }
-      if (!(attributeDeclaration.getDeprecated()) && attribute.isDeprecated()) {
-        attributeDeclaration.setDeprecated(attribute.isDeprecated());
+      if (!(AttributeDeclaration_Behavior.call_isDeprecated_353793545802643819(ad)) && att.isDeprecated()) {
+        SPropertyOperations.set(ad, "deprecated", "" + att.isDeprecated());
       }
     }
 
-    private void createAttribute(BuiltInTaskDeclaration decl, ClassInfo.MyAttribute attribute) {
-      AttributeDeclaration attrDecl = Generator.GENERATOR.createAttributeDeclaration(this.myModel, attribute.getName(), Generator.Builder.getType(attribute.getType(), this.myModel));
-      attrDecl.setDeprecated(attribute.isDeprecated());
-      this.addEnum(attrDecl, attribute.getEnumValues());
-      decl.addAttributesDecl(attrDecl);
+    private void createAttribute(SNode decl, ClassInfo.MyAttribute att) {
+      SNode attrDecl = Generator.GENERATOR.createAttributeDeclaration(att.getName(), Generator.Builder.getType(att.getType()));
+      SPropertyOperations.set(attrDecl, "deprecated", "" + att.isDeprecated());
+      this.addEnum(attrDecl, att.getEnumValues());
+      ListSequence.fromList(SLinkOperations.getTargets(decl, "attributesDecl", true)).addElement(attrDecl);
     }
 
-    private void addEnum(AttributeDeclaration attrDecl, String[] enumValues) {
+    private void addEnum(SNode attrDecl, String[] enumValues) {
       if (enumValues == null) {
         return;
       }
-      StringEnum stringEnum = StringEnum.newInstance(this.myModel, true);
-      this.updateEnum(stringEnum, enumValues);
-      attrDecl.setEnum(stringEnum);
+      SNode senum = new Generator.Builder.QuotationClass_ixz87t_a0a1a6b().createNode();
+      this.updateEnum(senum, enumValues);
+      SLinkOperations.setTarget(attrDecl, "enum", senum, true);
     }
 
-    private void updateEnum(StringEnum stringEnum, String[] enumValues) {
-      Set<String> set = new HashSet<String>();
-      for (PropertyValueExpression lit : stringEnum.getConstantses()) {
-        set.add(lit.toString());
-      }
+    private void updateEnum(SNode sEnum, String[] enumValues) {
+      Set<String> set = SetSequence.fromSetWithValues(new HashSet(), ListSequence.fromList(SLinkOperations.getTargets(sEnum, "constants", true)).<String>select(new ISelector<SNode, String>() {
+        public String select(SNode it) {
+          return PropertyValueExpression_Behavior.call_toString_1213877472569(it);
+        }
+      }));
       for (String str : enumValues) {
-        if (set.contains(str)) {
+        if (SetSequence.fromSet(set).contains(str)) {
           continue;
         }
-        StringLiteral literal = Generator.GENERATOR.createStringLiteral(this.myModel, str);
-        stringEnum.addConstants(literal);
+        ListSequence.fromList(SLinkOperations.getTargets(sEnum, "constants", true)).addElement(new Generator.Builder.QuotationClass_ixz87t_a0a0b0b0h1().createNode(str));
       }
     }
 
-    public void addNested(BuiltInTaskDeclaration declaration, BuiltInTaskDeclaration nestedDeclaration, ClassInfo.Nested nested) {
-      for (NestedDeclaration nref : declaration.getNesteds()) {
-        if (nref.getDeclaration().equals(nestedDeclaration)) {
-          for (String name : nested.getNames()) {
-            this.addNestedName(declaration, nref, name);
-          }
-          return;
+    public void addNested(SNode decl, final SNode nestedDecl, ClassInfo.Nested nested) {
+      SNode node = ListSequence.fromList(SLinkOperations.getTargets(decl, "nested", true)).where(new IWhereFilter<SNode>() {
+        public boolean accept(SNode it) {
+          return eq_ixz87t_a0a0a0a0a0a0a0i1(SLinkOperations.getTarget(it, "declaration", false), nestedDecl);
         }
-      }
-      NestedDeclaration nref = Generator.GENERATOR.createNestedReference(this.myModel, nestedDeclaration);
-      if (nref.getDeclaration().equals(nestedDeclaration)) {
+      }).first();
+      if ((node != null)) {
         for (String name : nested.getNames()) {
-          this.addNestedName(declaration, nref, name);
+          this.addNestedName(decl, node, name);
         }
-      }
-      declaration.addNested(nref);
-    }
-
-    private void addNestedName(BuiltInTaskDeclaration declaration, NestedDeclaration nref, String name) {
-      for (TaskReference reference : nref.getRoles()) {
-        if (reference.getDeclaration().getName().equals(name)) {
-          return;
-        }
-      }
-      if (name.equals(nref.getDeclaration().getName())) {
-        nref.addRole(Generator.GENERATOR.createDeclarationReference(this.myModel, ((BuiltInTaskDeclaration) nref.getDeclaration())));
         return;
       }
-      BuiltInTaskDeclaration parentDeclaration = ((BuiltInTaskDeclaration) nref.getDeclaration());
-      TaskReference parentRef = Generator.GENERATOR.createDeclarationReference(this.myModel, parentDeclaration);
-      BuiltInTaskDeclaration fake;
-      if (parentDeclaration instanceof TaskInterfaceDeclaration) {
-        fake = Generator.GENERATOR.createInterfaceDeclaration(this.myModel, name, parentDeclaration.getClassname(), parentDeclaration.getDepracated(), false);
-        fake.addInterfaces(parentRef);
-      } else {
-        fake = Generator.GENERATOR.createDeclaration(this.myModel, name, parentDeclaration.getClassname(), parentDeclaration.getAbstract(), parentDeclaration.getCanHaveInternalText(), parentDeclaration.getDepracated(), false);
-        fake.setParentRef(parentRef);
+
+      SNode nref = new Generator.Builder.QuotationClass_ixz87t_a0a3a8b().createNode(nestedDecl);
+      if (eq_ixz87t_a0e0i1(SLinkOperations.getTarget(nref, "declaration", false), nestedDecl)) {
+        for (String name : nested.getNames()) {
+          this.addNestedName(decl, nref, name);
+        }
       }
-      fake.setFake(true);
-      nref.addRole(Generator.GENERATOR.createDeclarationReference(this.myModel, fake));
-      declaration.addFakeDeclaration(fake);
+      ListSequence.fromList(SLinkOperations.getTargets(decl, "nested", true)).addElement(nref);
     }
 
-    public void updateDeclaration(BuiltInTaskDeclaration declaration, ClassInfo ci) {
+    private void addNestedName(SNode declaration, SNode nref, String name) {
+      for (SNode ref : SLinkOperations.getTargets(nref, "role", true)) {
+        if (eq_ixz87t_a0a0a0j1(SPropertyOperations.getString(SLinkOperations.getTarget(ref, "declaration", false), "name"), name)) {
+          return;
+        }
+      }
+
+      if (eq_ixz87t_a0c0j1(SPropertyOperations.getString(SLinkOperations.getTarget(nref, "declaration", false), "name"), name)) {
+        ListSequence.fromList(SLinkOperations.getTargets(nref, "role", true)).addElement(Generator.GENERATOR.createDeclarationReference(SNodeOperations.cast(SLinkOperations.getTarget(nref, "declaration", false), "jetbrains.mps.build.generictasks.structure.BuiltInTaskDeclaration")));
+        return;
+      }
+
+      SNode parentDeclaration = SNodeOperations.cast(SLinkOperations.getTarget(nref, "declaration", false), "jetbrains.mps.build.generictasks.structure.BuiltInTaskDeclaration");
+      SNode parentRef = Generator.GENERATOR.createDeclarationReference(parentDeclaration);
+      SNode fake;
+      if (SNodeOperations.isInstanceOf(parentDeclaration, "jetbrains.mps.build.generictasks.structure.TaskInterfaceDeclaration")) {
+        fake = Generator.GENERATOR.createInterfaceDeclaration(name, SPropertyOperations.getString(parentDeclaration, "classname"), SPropertyOperations.getBoolean(parentDeclaration, "depracated"));
+        ListSequence.fromList(SLinkOperations.getTargets(fake, "interfaces", true)).addElement(parentRef);
+      } else {
+        fake = Generator.GENERATOR.createDeclaration(name, SPropertyOperations.getString(parentDeclaration, "classname"), SPropertyOperations.getBoolean(parentDeclaration, "abstract"), SPropertyOperations.getBoolean(parentDeclaration, "canHaveInternalText"), SPropertyOperations.getBoolean(parentDeclaration, "depracated"));
+        SLinkOperations.setTarget(fake, "parentRef", parentRef, true);
+      }
+      SPropertyOperations.set(fake, "fake", "" + true);
+      ListSequence.fromList(SLinkOperations.getTargets(nref, "role", true)).addElement(Generator.GENERATOR.createDeclarationReference(fake));
+      ListSequence.fromList(SLinkOperations.getTargets(declaration, "fakeDeclaration", true)).addElement(fake);
+    }
+
+    public void updateDeclaration(SNode decl, ClassInfo ci) {
       if (ImportOptions.getInstance().isNeedUpdateDeclarations()) {
         String name = this.myNamesMap.getNameForClass(ci.getDeclarationClass());
-        if ((declaration.getName() == null) || !(declaration.getName().equals(name))) {
-          declaration.setName(name);
+        if ((StringUtils.isEmpty(SPropertyOperations.getString(decl, "name"))) || neq_ixz87t_a0a1a0a01b(SPropertyOperations.getString(decl, "name"), name)) {
+          SPropertyOperations.set(decl, "name", name);
           System.out.format("Declaration %s name has been set to %s.\n", ci.getDeclarationClass().getName(), name);
         }
-        if (declaration.getClassname() == null) {
-          declaration.setClassname(ci.getDeclarationClass().getName());
+        if (StringUtils.isEmpty(SPropertyOperations.getString(decl, "classname"))) {
+          SPropertyOperations.set(decl, "classname", ci.getDeclarationClass().getName());
         }
-        if (declaration.getAbstract() != ci.isAbstract()) {
+        if (SPropertyOperations.getBoolean(decl, "abstract") != ci.isAbstract()) {
           System.out.format("Declaration %s abstract proprety has been set to %b.\n", ci.getDeclarationClass().getName(), ci.isAbstract());
-          declaration.setAbstract(ci.isAbstract());
+          SPropertyOperations.set(decl, "abstract", "" + ci.isAbstract());
         }
-        if (declaration.getCanHaveInternalText() != ci.canHaveInternalText()) {
+        if (SPropertyOperations.getBoolean(decl, "canHaveInternalText") != ci.canHaveInternalText()) {
           System.out.format("Declaration %s can have internal name proprety has been set to %b.\n", ci.getDeclarationClass().getName(), ci.canHaveInternalText());
-          declaration.setCanHaveInternalText(ci.canHaveInternalText());
+          SPropertyOperations.set(decl, "canHaveInternalText", "" + ci.canHaveInternalText());
         }
-        if (!(declaration.getDepracated()) && ci.isDeprecated()) {
-          declaration.setDepracated(ci.isDeprecated());
+        if (!(SPropertyOperations.getBoolean(decl, "depracated")) && ci.isDeprecated()) {
+          SPropertyOperations.set(decl, "depracated", "" + ci.isDeprecated());
           System.out.format("Declaration %s has been set deprecated.\n", ci.getDeclarationClass().getName());
         }
       }
     }
 
-    private static PropertyType getType(Class<?> clazz, SModel model) {
+    private static SNode getType(Class<?> clazz) {
       if (clazz.equals(int.class)) {
-        return IntegerType.newInstance(model, true);
+        return new Generator.Builder.QuotationClass_ixz87t_a0a0a0a1().createNode();
       } else
       if (clazz.equals(boolean.class)) {
-        return BooleanType.newInstance(model, true);
+        return new Generator.Builder.QuotationClass_ixz87t_a0a0a0a0b().createNode();
       } else
       if (clazz.equals(File.class)) {
-        return FileType.newInstance(model, true);
+        return new Generator.Builder.QuotationClass_ixz87t_a0a0a0a0a1().createNode();
       } else
       if (clazz.getName().equals(Reference.class.getName())) {
-        return CallReferenceType.newInstance(model, true);
+        return new Generator.Builder.QuotationClass_ixz87t_a0a0a0a0a0b().createNode();
       } else {
-        return StringType.newInstance(model, true);
+        return new Generator.Builder.QuotationClass_ixz87t_a0a0a0a0a0a1().createNode();
+      }
+    }
+
+    private static boolean eq_ixz87t_a0a0a0c1(Object a, Object b) {
+      return (a != null ?
+        a.equals(b) :
+        a == b
+      );
+    }
+
+    private static boolean eq_ixz87t_a0a0a0a0a0a0a0d1(Object a, Object b) {
+      return (a != null ?
+        a.equals(b) :
+        a == b
+      );
+    }
+
+    private static boolean eq_ixz87t_a0a0a0a0a0a0a0i1(Object a, Object b) {
+      return (a != null ?
+        a.equals(b) :
+        a == b
+      );
+    }
+
+    private static boolean eq_ixz87t_a0e0i1(Object a, Object b) {
+      return (a != null ?
+        a.equals(b) :
+        a == b
+      );
+    }
+
+    private static boolean eq_ixz87t_a0a0a0j1(Object a, Object b) {
+      return (a != null ?
+        a.equals(b) :
+        a == b
+      );
+    }
+
+    private static boolean eq_ixz87t_a0c0j1(Object a, Object b) {
+      return (a != null ?
+        a.equals(b) :
+        a == b
+      );
+    }
+
+    private static boolean neq_ixz87t_a0a1a0a01b(Object a, Object b) {
+      return !((a != null ?
+        a.equals(b) :
+        a == b
+      ));
+    }
+
+    public static class QuotationClass_ixz87t_a0a1a6b {
+      public QuotationClass_ixz87t_a0a1a6b() {
+      }
+
+      public SNode createNode() {
+        SNode result = null;
+        Set<SNode> _parameterValues_129834374 = new HashSet<SNode>();
+        SNode quotedNode_1 = null;
+        {
+          quotedNode_1 = SModelUtil_new.instantiateConceptDeclaration("jetbrains.mps.buildlanguage.structure.StringEnum", null, GlobalScope.getInstance(), false);
+          SNode quotedNode1_2 = quotedNode_1;
+          result = quotedNode1_2;
+        }
+        return result;
+      }
+    }
+
+    public static class QuotationClass_ixz87t_a0a0b0b0h1 {
+      public QuotationClass_ixz87t_a0a0b0b0h1() {
+      }
+
+      public SNode createNode(Object parameter_3) {
+        SNode result = null;
+        Set<SNode> _parameterValues_129834374 = new HashSet<SNode>();
+        SNode quotedNode_1 = null;
+        {
+          quotedNode_1 = SModelUtil_new.instantiateConceptDeclaration("jetbrains.mps.buildlanguage.structure.StringLiteral", null, GlobalScope.getInstance(), false);
+          SNode quotedNode1_2 = quotedNode_1;
+          quotedNode1_2.setProperty("value", (String) parameter_3);
+          result = quotedNode1_2;
+        }
+        return result;
+      }
+    }
+
+    public static class QuotationClass_ixz87t_a0a3a8b {
+      public QuotationClass_ixz87t_a0a3a8b() {
+      }
+
+      public SNode createNode(Object parameter_3) {
+        SNode result = null;
+        Set<SNode> _parameterValues_129834374 = new HashSet<SNode>();
+        SNode quotedNode_1 = null;
+        {
+          quotedNode_1 = SModelUtil_new.instantiateConceptDeclaration("jetbrains.mps.build.generictasks.structure.NestedDeclaration", null, GlobalScope.getInstance(), false);
+          SNode quotedNode1_2 = quotedNode_1;
+          quotedNode1_2.setReferent("declaration", (SNode) parameter_3);
+          result = quotedNode1_2;
+        }
+        return result;
+      }
+    }
+
+    public static class QuotationClass_ixz87t_a0a0a0a0a0a1 {
+      public QuotationClass_ixz87t_a0a0a0a0a0a1() {
+      }
+
+      public SNode createNode() {
+        SNode result = null;
+        Set<SNode> _parameterValues_129834374 = new HashSet<SNode>();
+        SNode quotedNode_1 = null;
+        {
+          quotedNode_1 = SModelUtil_new.instantiateConceptDeclaration("jetbrains.mps.buildlanguage.structure.StringType", null, GlobalScope.getInstance(), false);
+          SNode quotedNode1_2 = quotedNode_1;
+          result = quotedNode1_2;
+        }
+        return result;
+      }
+    }
+
+    public static class QuotationClass_ixz87t_a0a0a0a0a0b {
+      public QuotationClass_ixz87t_a0a0a0a0a0b() {
+      }
+
+      public SNode createNode() {
+        SNode result = null;
+        Set<SNode> _parameterValues_129834374 = new HashSet<SNode>();
+        SNode quotedNode_1 = null;
+        {
+          quotedNode_1 = SModelUtil_new.instantiateConceptDeclaration("jetbrains.mps.buildlanguage.structure.CallReferenceType", null, GlobalScope.getInstance(), false);
+          SNode quotedNode1_2 = quotedNode_1;
+          result = quotedNode1_2;
+        }
+        return result;
+      }
+    }
+
+    public static class QuotationClass_ixz87t_a0a0a0a0a1 {
+      public QuotationClass_ixz87t_a0a0a0a0a1() {
+      }
+
+      public SNode createNode() {
+        SNode result = null;
+        Set<SNode> _parameterValues_129834374 = new HashSet<SNode>();
+        SNode quotedNode_1 = null;
+        {
+          quotedNode_1 = SModelUtil_new.instantiateConceptDeclaration("jetbrains.mps.buildlanguage.structure.FileType", null, GlobalScope.getInstance(), false);
+          SNode quotedNode1_2 = quotedNode_1;
+          result = quotedNode1_2;
+        }
+        return result;
+      }
+    }
+
+    public static class QuotationClass_ixz87t_a0a0a0a0b {
+      public QuotationClass_ixz87t_a0a0a0a0b() {
+      }
+
+      public SNode createNode() {
+        SNode result = null;
+        Set<SNode> _parameterValues_129834374 = new HashSet<SNode>();
+        SNode quotedNode_1 = null;
+        {
+          quotedNode_1 = SModelUtil_new.instantiateConceptDeclaration("jetbrains.mps.buildlanguage.structure.BooleanType", null, GlobalScope.getInstance(), false);
+          SNode quotedNode1_2 = quotedNode_1;
+          result = quotedNode1_2;
+        }
+        return result;
+      }
+    }
+
+    public static class QuotationClass_ixz87t_a0a0a0a1 {
+      public QuotationClass_ixz87t_a0a0a0a1() {
+      }
+
+      public SNode createNode() {
+        SNode result = null;
+        Set<SNode> _parameterValues_129834374 = new HashSet<SNode>();
+        SNode quotedNode_1 = null;
+        {
+          quotedNode_1 = SModelUtil_new.instantiateConceptDeclaration("jetbrains.mps.buildlanguage.structure.IntegerType", null, GlobalScope.getInstance(), false);
+          SNode quotedNode1_2 = quotedNode_1;
+          result = quotedNode1_2;
+        }
+        return result;
       }
     }
   }

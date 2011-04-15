@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<language namespace="jetbrains.mps.build.generictasks" uuid="fba399db-f591-45dc-a279-e2a2a986e262" java-stubs-enabled="true" compileInMPS="true" doNotGenerateAdapters="false">
+<language namespace="jetbrains.mps.build.generictasks" uuid="fba399db-f591-45dc-a279-e2a2a986e262" java-stubs-enabled="false" compileInMPS="true" doNotGenerateAdapters="false">
   <models>
     <modelRoot path="${language_descriptor}/languageAccessories" namespacePrefix="jetbrains.mps.build.generictasks" />
     <modelRoot path="${language_descriptor}/languageModels" namespacePrefix="jetbrains.mps.build.generictasks" />
@@ -66,6 +66,7 @@
     <usedLanguage>af65afd8-f0dd-4942-87d9-63a55f2a9db1(jetbrains.mps.lang.behavior)</usedLanguage>
     <usedLanguage>7a5dda62-9140-4668-ab76-d5ed1746f2b2(jetbrains.mps.lang.typesystem)</usedLanguage>
     <usedLanguage>823d79c6-2e26-4b0e-92a0-e1884a10bba9(jetbrains.mps.xml.deprecated)</usedLanguage>
+    <usedLanguage>0b608d44-1308-418d-8715-22d040c3b3cc(jetbrains.mps.buildlanguage)</usedLanguage>
   </usedLanguages>
   <usedDevKits>
     <usedDevKit>2677cb18-f558-4e33-bc38-a5139cee06dc(jetbrains.mps.devkit.language-design)</usedDevKit>
