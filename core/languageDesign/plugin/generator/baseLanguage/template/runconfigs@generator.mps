@@ -25,7 +25,6 @@
   <import index="g1dt" modelUID="f:java_stub#37a3367b-1fb2-44d8-aa6b-18075e74e003#com.intellij.openapi.extensions(MPS.Classpath/com.intellij.openapi.extensions@java_stub)" version="-1" />
   <import index="dbrf" modelUID="f:java_stub#6354ebe7-c22a-4a0f-ac54-50b52ab9b065#javax.swing(JDK/javax.swing@java_stub)" version="-1" />
   <import index="205" modelUID="f:java_stub#37a3367b-1fb2-44d8-aa6b-18075e74e003#jetbrains.mps.ide.icons(MPS.Classpath/jetbrains.mps.ide.icons@java_stub)" version="-1" />
-  <import index="ws6q" modelUID="f:java_stub#1d6e05d7-9de9-40a7-9dad-7b8444280942#jetbrains.mps.plugins(jetbrains.mps.lang.plugin#1203080439937/jetbrains.mps.plugins@java_stub)" version="-1" />
   <import index="e2lb" modelUID="f:java_stub#6354ebe7-c22a-4a0f-ac54-50b52ab9b065#java.lang(JDK/java.lang@java_stub)" version="-1" />
   <import index="30pf" modelUID="f:java_stub#37a3367b-1fb2-44d8-aa6b-18075e74e003#jetbrains.mps.util(MPS.Classpath/jetbrains.mps.util@java_stub)" version="-1" />
   <import index="afxk" modelUID="f:java_stub#37a3367b-1fb2-44d8-aa6b-18075e74e003#jetbrains.mps.project(MPS.Classpath/jetbrains.mps.project@java_stub)" version="-1" />
@@ -41,7 +40,6 @@
   <import index="l649" modelUID="f:java_stub#37a3367b-1fb2-44d8-aa6b-18075e74e003#com.intellij.execution.ui(MPS.Classpath/com.intellij.execution.ui@java_stub)" version="-1" />
   <import index="1hm1" modelUID="f:java_stub#37a3367b-1fb2-44d8-aa6b-18075e74e003#com.intellij.execution(MPS.Classpath/com.intellij.execution@java_stub)" version="-1" />
   <import index="v5em" modelUID="f:java_stub#37a3367b-1fb2-44d8-aa6b-18075e74e003#com.intellij.util.xmlb.annotations(MPS.Classpath/com.intellij.util.xmlb.annotations@java_stub)" version="-1" />
-  <import index="yypv" modelUID="f:java_stub#1d6e05d7-9de9-40a7-9dad-7b8444280942#jetbrains.mps.plugins.pluginparts.runconfigs(jetbrains.mps.lang.plugin#1203080439937/jetbrains.mps.plugins.pluginparts.runconfigs@java_stub)" version="-1" />
   <import index="1frp" modelUID="f:java_stub#1d6e05d7-9de9-40a7-9dad-7b8444280942#jetbrains.mps.lang.plugin.generator.baseLanguage.template.util(jetbrains.mps.lang.plugin#1203080439937/jetbrains.mps.lang.plugin.generator.baseLanguage.template.util@java_stub)" version="-1" />
   <import index="s7ni" modelUID="f:java_stub#37a3367b-1fb2-44d8-aa6b-18075e74e003#com.intellij.execution.runners(MPS.Classpath/com.intellij.execution.runners@java_stub)" version="-1" />
   <import index="u5xh" modelUID="f:java_stub#37a3367b-1fb2-44d8-aa6b-18075e74e003#com.intellij.execution.impl(MPS.Classpath/com.intellij.execution.impl@java_stub)" version="-1" />
@@ -54,6 +52,8 @@
   <import index="k7g3" modelUID="f:java_stub#6354ebe7-c22a-4a0f-ac54-50b52ab9b065#java.util(JDK/java.util@java_stub)" version="-1" />
   <import index="sill" modelUID="f:java_stub#37a3367b-1fb2-44d8-aa6b-18075e74e003#com.intellij.execution.junit(MPS.Classpath/com.intellij.execution.junit@java_stub)" version="-1" />
   <import index="w6m0" modelUID="f:java_stub#37a3367b-1fb2-44d8-aa6b-18075e74e003#com.intellij.execution.actions(MPS.Classpath/com.intellij.execution.actions@java_stub)" version="-1" />
+  <import index="9ne7" modelUID="f:java_stub#37a3367b-1fb2-44d8-aa6b-18075e74e003#jetbrains.mps.plugins(MPS.Classpath/jetbrains.mps.plugins@java_stub)" version="-1" />
+  <import index="uqw6" modelUID="f:java_stub#37a3367b-1fb2-44d8-aa6b-18075e74e003#jetbrains.mps.plugins.pluginparts.runconfigs(MPS.Classpath/jetbrains.mps.plugins.pluginparts.runconfigs@java_stub)" version="-1" />
   <import index="tpck" modelUID="r:00000000-0000-4000-0000-011c89590288(jetbrains.mps.lang.core.structure)" version="0" implicit="yes" />
   <import index="tpf3" modelUID="r:00000000-0000-4000-0000-011c895902f3(jetbrains.mps.lang.generator.generationContext.structure)" version="0" implicit="yes" />
   <import index="tp25" modelUID="r:00000000-0000-4000-0000-011c89590301(jetbrains.mps.lang.smodel.structure)" version="16" implicit="yes" />
@@ -900,8 +900,8 @@
         <link role="baseMethodDeclaration" roleId="tpee.1068499141037" targetNodeId="205.~IconManager%dloadIcon(java%dlang%dString,boolean)%cjavax%dswing%dIcon" resolveInfo="loadIcon" />
         <link role="classConcept" roleId="tpee.1144433194310" targetNodeId="205.~IconManager" resolveInfo="IconManager" />
         <node role="actualArgument" roleId="tpee.1068499141038" type="tpee.StaticMethodCall" typeId="tpee.1081236700937" id="7840798570674908487">
-          <link role="classConcept" roleId="tpee.1144433194310" targetNodeId="ws6q.~MacrosUtil" resolveInfo="MacrosUtil" />
-          <link role="baseMethodDeclaration" roleId="tpee.1068499141037" targetNodeId="ws6q.~MacrosUtil%dexpandPath(java%dlang%dString,java%dlang%dString)%cjava%dlang%dString" resolveInfo="expandPath" />
+          <link role="classConcept" roleId="tpee.1144433194310" targetNodeId="9ne7.~MacrosUtil" resolveInfo="MacrosUtil" />
+          <link role="baseMethodDeclaration" roleId="tpee.1068499141037" targetNodeId="9ne7.~MacrosUtil%dexpandPath(java%dlang%dString,java%dlang%dString)%cjava%dlang%dString" resolveInfo="expandPath" />
           <node role="actualArgument" roleId="tpee.1068499141038" type="tpee.StringLiteral" typeId="tpee.1070475926800" id="7840798570674908488">
             <property name="value" nameId="tpee.1070475926801" value="" />
             <node role="_$attribute" roleId="tpck.5169995583184591170" type="tpf8.PropertyMacro" typeId="tpf8.1087833241328" id="7840798570674908489">
@@ -1051,8 +1051,8 @@
               <link role="baseMethodDeclaration" roleId="tpee.1068499141037" targetNodeId="205.~IconManager%dloadIcon(java%dlang%dString,boolean)%cjavax%dswing%dIcon" resolveInfo="loadIcon" />
               <link role="classConcept" roleId="tpee.1144433194310" targetNodeId="205.~IconManager" resolveInfo="IconManager" />
               <node role="actualArgument" roleId="tpee.1068499141038" type="tpee.StaticMethodCall" typeId="tpee.1081236700937" id="8354753220769473702">
-                <link role="baseMethodDeclaration" roleId="tpee.1068499141037" targetNodeId="ws6q.~MacrosUtil%dexpandPath(java%dlang%dString,java%dlang%dString)%cjava%dlang%dString" resolveInfo="expandPath" />
-                <link role="classConcept" roleId="tpee.1144433194310" targetNodeId="ws6q.~MacrosUtil" resolveInfo="MacrosUtil" />
+                <link role="baseMethodDeclaration" roleId="tpee.1068499141037" targetNodeId="9ne7.~MacrosUtil%dexpandPath(java%dlang%dString,java%dlang%dString)%cjava%dlang%dString" resolveInfo="expandPath" />
+                <link role="classConcept" roleId="tpee.1144433194310" targetNodeId="9ne7.~MacrosUtil" resolveInfo="MacrosUtil" />
                 <node role="actualArgument" roleId="tpee.1068499141038" type="tpee.StringLiteral" typeId="tpee.1070475926800" id="8354753220769480838">
                   <property name="value" nameId="tpee.1070475926801" value="${language_descriptor}/icons/runApp.png" />
                 </node>
@@ -2562,7 +2562,7 @@
       <node role="visibility" roleId="tpee.1178549979242" type="tpee.PublicVisibility" typeId="tpee.1146644602865" id="7840798570674823472" />
       <node role="body" roleId="tpee.1068580123135" type="tpee.StatementList" typeId="tpee.1068580123136" id="7840798570674823473">
         <node role="statement" roleId="tpee.1068581517665" type="tpee.SuperConstructorInvocation" typeId="tpee.1070475587102" id="7840798570674956096">
-          <link role="baseMethodDeclaration" roleId="tpee.1068499141037" targetNodeId="yypv.~BaseRunConfig%d&lt;init&gt;(com%dintellij%dopenapi%dproject%dProject,com%dintellij%dexecution%dconfigurations%dConfigurationFactory,java%dlang%dString)" resolveInfo="BaseRunConfig" />
+          <link role="baseMethodDeclaration" roleId="tpee.1068499141037" targetNodeId="uqw6.~BaseRunConfig%d&lt;init&gt;(com%dintellij%dopenapi%dproject%dProject,com%dintellij%dexecution%dconfigurations%dConfigurationFactory,java%dlang%dString)" resolveInfo="BaseRunConfig" />
           <node role="actualArgument" roleId="tpee.1068499141038" type="tpee.ParameterReference" typeId="tpee.1068581242874" id="7840798570674956097">
             <link role="variableDeclaration" roleId="tpee.1068581517664" targetNodeId="7840798570674952535" resolveInfo="p" />
           </node>
@@ -2598,7 +2598,7 @@
       <link role="applicableConcept" roleId="tpf8.1168619429071" targetNodeId="tp4k.7035278950562851062" resolveInfo="ConfigurationDeclaration" />
     </node>
     <node role="superclass" roleId="tpee.1165602531693" type="tpee.ClassifierType" typeId="tpee.1107535904670" id="389161834875353146">
-      <link role="classifier" roleId="tpee.1107535924139" targetNodeId="yypv.~BaseRunConfig" resolveInfo="BaseRunConfig" />
+      <link role="classifier" roleId="tpee.1107535924139" targetNodeId="uqw6.~BaseRunConfig" resolveInfo="BaseRunConfig" />
     </node>
     <node role="_$attribute" roleId="tpck.5169995583184591170" type="tpf8.PropertyMacro" typeId="tpf8.1087833241328" id="7840798570674954472">
       <property name="propertyName" nameId="tpck.1757699476691236117" value="name" />
@@ -4686,7 +4686,7 @@
       <node role="visibility" roleId="tpee.1178549979242" type="tpee.PublicVisibility" typeId="tpee.1146644602865" id="297139462068449341" />
       <node role="body" roleId="tpee.1068580123135" type="tpee.StatementList" typeId="tpee.1068580123136" id="297139462068449342">
         <node role="statement" roleId="tpee.1068581517665" type="tpee.SuperConstructorInvocation" typeId="tpee.1070475587102" id="9068086904326211444">
-          <link role="baseMethodDeclaration" roleId="tpee.1068499141037" targetNodeId="yypv.~BaseConfigCreator%d&lt;init&gt;(com%dintellij%dexecution%dconfigurations%dConfigurationType)" resolveInfo="BaseConfigCreator" />
+          <link role="baseMethodDeclaration" roleId="tpee.1068499141037" targetNodeId="uqw6.~BaseConfigCreator%d&lt;init&gt;(com%dintellij%dexecution%dconfigurations%dConfigurationType)" resolveInfo="BaseConfigCreator" />
           <node role="actualArgument" roleId="tpee.1068499141038" type="tpee.StaticMethodCall" typeId="tpee.1081236700937" id="122179271028792840">
             <link role="classConcept" roleId="tpee.1144433194310" targetNodeId="bswf.~ContainerUtil" resolveInfo="ContainerUtil" />
             <link role="baseMethodDeclaration" roleId="tpee.1068499141037" targetNodeId="bswf.~ContainerUtil%dfindInstance(java%dlang%dIterable,java%dlang%dClass)%cjava%dlang%dObject" resolveInfo="findInstance" />
@@ -4730,7 +4730,7 @@
       <link role="applicableConcept" roleId="tpf8.1168619429071" targetNodeId="tp4k.8415911927033048374" resolveInfo="RunConfigCreator" />
     </node>
     <node role="superclass" roleId="tpee.1165602531693" type="tpee.ClassifierType" typeId="tpee.1107535904670" id="224701533041624271">
-      <link role="classifier" roleId="tpee.1107535924139" targetNodeId="yypv.~BaseConfigCreator" resolveInfo="BaseConfigCreator" />
+      <link role="classifier" roleId="tpee.1107535924139" targetNodeId="uqw6.~BaseConfigCreator" resolveInfo="BaseConfigCreator" />
       <node role="parameter" roleId="tpee.1109201940907" type="tpee.ClassifierType" typeId="tpee.1107535904670" id="224701533041624273">
         <link role="classifier" roleId="tpee.1107535924139" targetNodeId="lkfb.~SNode" resolveInfo="SNode" />
         <node role="_$attribute" roleId="tpck.5169995583184591170" type="tpf8.ReferenceMacro" typeId="tpf8.1088761943574" id="5528847031674334454">
@@ -4980,7 +4980,7 @@
       </node>
       <node role="visibility" roleId="tpee.1178549979242" type="tpee.PublicVisibility" typeId="tpee.1146644602865" id="9068086904326285384" />
       <node role="superclass" roleId="tpee.1165602531693" type="tpee.ClassifierType" typeId="tpee.1107535904670" id="9068086904326285412">
-        <link role="classifier" roleId="tpee.1107535924139" targetNodeId="yypv.~BaseConfigCreator" resolveInfo="BaseConfigCreator" />
+        <link role="classifier" roleId="tpee.1107535924139" targetNodeId="uqw6.~BaseConfigCreator" resolveInfo="BaseConfigCreator" />
       </node>
       <node role="method" roleId="tpee.1107880067339" type="tpee.InstanceMethodDeclaration" typeId="tpee.1068580123165" id="9068086904326285413">
         <property name="name" nameId="tpck.1169194664001" value="doCreateConfiguration" />
@@ -5260,7 +5260,7 @@
                         <node role="actualArgument" roleId="tpee.1068499141038" type="tpee.DotExpression" typeId="tpee.1197027756228" id="5447563960349298709">
                           <node role="operand" roleId="tpee.1197027771414" type="tpee.DotExpression" typeId="tpee.1197027756228" id="5447563960349298710">
                             <node role="operation" roleId="tpee.1197027833540" type="tpee.InstanceMethodCallOperation" typeId="tpee.1202948039474" id="5447563960349298711">
-                              <link role="baseMethodDeclaration" roleId="tpee.1068499141037" targetNodeId="yypv.~BaseConfigCreator%dgetContext()%ccom%dintellij%dexecution%dactions%dConfigurationContext" resolveInfo="getContext" />
+                              <link role="baseMethodDeclaration" roleId="tpee.1068499141037" targetNodeId="uqw6.~BaseConfigCreator%dgetContext()%ccom%dintellij%dexecution%dactions%dConfigurationContext" resolveInfo="getContext" />
                             </node>
                             <node role="operand" roleId="tpee.1197027771414" type="tpee.ThisExpression" typeId="tpee.1070475354124" id="5447563960349298712">
                               <link role="classConcept" roleId="tpee.1182955020723" targetNodeId="9068086904326285383" resolveInfo="ConfigurationCreator" />
@@ -5630,7 +5630,7 @@
       <property name="name" nameId="tpck.1169194664001" value="ConfigurationCreator" />
       <node role="visibility" roleId="tpee.1178549979242" type="tpee.PublicVisibility" typeId="tpee.1146644602865" id="9068086904326275892" />
       <node role="superclass" roleId="tpee.1165602531693" type="tpee.ClassifierType" typeId="tpee.1107535904670" id="9068086904326275920">
-        <link role="classifier" roleId="tpee.1107535924139" targetNodeId="yypv.~BaseConfigCreator" resolveInfo="BaseConfigCreator" />
+        <link role="classifier" roleId="tpee.1107535924139" targetNodeId="uqw6.~BaseConfigCreator" resolveInfo="BaseConfigCreator" />
       </node>
       <node role="method" roleId="tpee.1107880067339" type="tpee.InstanceMethodDeclaration" typeId="tpee.1068580123165" id="9068086904326275921">
         <property name="name" nameId="tpck.1169194664001" value="doCreateConfiguration" />
@@ -5639,10 +5639,10 @@
           <node role="statement" roleId="tpee.1068581517665" type="tpee.ExpressionStatement" typeId="tpee.1068580123155" id="9068086904326279115">
             <node role="expression" roleId="tpee.1068580123156" type="tpee.DotExpression" typeId="tpee.1197027756228" id="9068086904326279116">
               <node role="operation" roleId="tpee.1197027833540" type="tpee.InstanceMethodCallOperation" typeId="tpee.1202948039474" id="9068086904326279117">
-                <link role="baseMethodDeclaration" roleId="tpee.1068499141037" targetNodeId="yypv.~BaseConfigCreator%dsetSourceElement(com%dintellij%dpsi%dPsiElement)%cvoid" resolveInfo="setSourceElement" />
+                <link role="baseMethodDeclaration" roleId="tpee.1068499141037" targetNodeId="uqw6.~BaseConfigCreator%dsetSourceElement(com%dintellij%dpsi%dPsiElement)%cvoid" resolveInfo="setSourceElement" />
                 <node role="actualArgument" roleId="tpee.1068499141038" type="tpee.GenericNewExpression" typeId="tpee.1145552977093" id="5015922156501763903">
                   <node role="creator" roleId="tpee.1145553007750" type="tpee.ClassCreator" typeId="tpee.1212685548494" id="5015922156501763990">
-                    <link role="baseMethodDeclaration" roleId="tpee.1068499141037" targetNodeId="yypv.~MPSPsiElement%d&lt;init&gt;(jetbrains%dmps%dproject%dMPSProject)" resolveInfo="MPSPsiElement" />
+                    <link role="baseMethodDeclaration" roleId="tpee.1068499141037" targetNodeId="uqw6.~MPSPsiElement%d&lt;init&gt;(jetbrains%dmps%dproject%dMPSProject)" resolveInfo="MPSPsiElement" />
                     <node role="actualArgument" roleId="tpee.1068499141038" type="tpee.NullLiteral" typeId="tpee.1070534058343" id="5015922156501763991">
                       <node role="_$attribute" roleId="tpck.5169995583184591170" type="tpf8.CopySrcNodeMacro" typeId="tpf8.1114706874351" id="5015922156501763992">
                         <node role="sourceNodeQuery" roleId="tpf8.1168024447342" type="tpf8.SourceSubstituteMacro_SourceNodeQuery" typeId="tpf8.1168024337012" id="5015922156501763993">
@@ -6013,7 +6013,7 @@
       <node role="visibility" roleId="tpee.1178549979242" type="tpee.PublicVisibility" typeId="tpee.1146644602865" id="446387597135526736" />
       <node role="body" roleId="tpee.1068580123135" type="tpee.StatementList" typeId="tpee.1068580123136" id="446387597135526737">
         <node role="statement" roleId="tpee.1068581517665" type="tpee.SuperConstructorInvocation" typeId="tpee.1070475587102" id="3413190069412536762">
-          <link role="baseMethodDeclaration" roleId="tpee.1068499141037" targetNodeId="yypv.~BaseConfigCreator%d&lt;init&gt;(com%dintellij%dexecution%dconfigurations%dConfigurationFactory)" resolveInfo="BaseConfigCreator" />
+          <link role="baseMethodDeclaration" roleId="tpee.1068499141037" targetNodeId="uqw6.~BaseConfigCreator%d&lt;init&gt;(com%dintellij%dexecution%dconfigurations%dConfigurationFactory)" resolveInfo="BaseConfigCreator" />
           <node role="actualArgument" roleId="tpee.1068499141038" type="tpee.LocalStaticMethodCall" typeId="tpee.1172058436953" id="3413190069412536763">
             <link role="baseMethodDeclaration" roleId="tpee.1068499141037" targetNodeId="5637516084253067524" resolveInfo="findFactoryImpl" />
             <node role="actualArgument" roleId="tpee.1068499141038" type="tpee.StaticMethodCall" typeId="tpee.1081236700937" id="3413190069412536765">
@@ -6255,7 +6255,7 @@
       <link role="applicableConcept" roleId="tpf8.1168619429071" targetNodeId="tp4k.3856910426407528287" resolveInfo="UniversalRunConfigCreator" />
     </node>
     <node role="superclass" roleId="tpee.1165602531693" type="tpee.ClassifierType" typeId="tpee.1107535904670" id="446387597135526754">
-      <link role="classifier" roleId="tpee.1107535924139" targetNodeId="yypv.~BaseConfigCreator" resolveInfo="BaseConfigCreator" />
+      <link role="classifier" roleId="tpee.1107535924139" targetNodeId="uqw6.~BaseConfigCreator" resolveInfo="BaseConfigCreator" />
       <node role="parameter" roleId="tpee.1109201940907" type="tpee.ClassifierType" typeId="tpee.1107535904670" id="446387597135526755">
         <link role="classifier" roleId="tpee.1107535924139" targetNodeId="lkfb.~SNode" resolveInfo="SNode" />
         <node role="_$attribute" roleId="tpck.5169995583184591170" type="tpf8.ReferenceMacro" typeId="tpf8.1088761943574" id="446387597135526756">
@@ -6909,7 +6909,7 @@
             <node role="expression" roleId="tpee.1068580123156" type="tpee.DotExpression" typeId="tpee.1197027756228" id="4593326532895577377">
               <node role="operand" roleId="tpee.1197027771414" type="tpee.ThisExpression" typeId="tpee.1070475354124" id="4593326532895577376" />
               <node role="operation" roleId="tpee.1197027833540" type="tpee.InstanceMethodCallOperation" typeId="tpee.1202948039474" id="4593326532895577382">
-                <link role="baseMethodDeclaration" roleId="tpee.1068499141037" targetNodeId="yypv.~BaseRunProfileState%dgetUserData(com%dintellij%dopenapi%dutil%dKey)%cjava%dlang%dObject" resolveInfo="getUserData" />
+                <link role="baseMethodDeclaration" roleId="tpee.1068499141037" targetNodeId="uqw6.~BaseRunProfileState%dgetUserData(com%dintellij%dopenapi%dutil%dKey)%cjava%dlang%dObject" resolveInfo="getUserData" />
                 <node role="actualArgument" roleId="tpee.1068499141038" type="tpee.NullLiteral" typeId="tpee.1070534058343" id="4593326532895577383">
                   <node role="_$attribute" roleId="tpck.5169995583184591170" type="tpf8.CopySrcNodeMacro" typeId="tpf8.1114706874351" id="4593326532895577391">
                     <node role="sourceNodeQuery" roleId="tpf8.1168024447342" type="tpf8.SourceSubstituteMacro_SourceNodeQuery" typeId="tpf8.1168024337012" id="4593326532895577392">
@@ -6933,7 +6933,7 @@
         </node>
       </node>
       <node role="superclass" roleId="tpee.1165602531693" type="tpee.ClassifierType" typeId="tpee.1107535904670" id="4593326532895577381">
-        <link role="classifier" roleId="tpee.1107535924139" targetNodeId="yypv.~BaseRunProfileState" resolveInfo="BaseRunProfileState" />
+        <link role="classifier" roleId="tpee.1107535924139" targetNodeId="uqw6.~BaseRunProfileState" resolveInfo="BaseRunProfileState" />
       </node>
     </node>
   </root>
