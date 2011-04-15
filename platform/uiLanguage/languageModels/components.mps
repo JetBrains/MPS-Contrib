@@ -104,7 +104,6 @@
       <property name="stub" nameId="tphr.1202393242164" value="true" />
       <link role="mapTo" roleId="tphr.1202393168541" targetNodeId="dbrf.~JList" resolveInfo="JList" />
       <link role="extendedComponent" roleId="tphr.1202393246965" targetNodeId="1202393472906" resolveInfo="BaseComponent" />
-      <link role="cellRendererSetter" targetNodeId="dbrf.~JList%dsetCellRenderer(javax%dswing%dListCellRenderer)%cvoid" resolveInfo="setCellRenderer" />
     </node>
     <node type="tphr.ComponentController" typeId="tphr.1202388384249" id="1203082521713">
       <link role="component" roleId="tphr.1202388401455" targetNodeId="1203082515478" resolveInfo="List" />
@@ -248,7 +247,6 @@
   <root id="1203082515478">
     <node role="rendererInfo" roleId="tphr.1210174600177" type="tphr.StubCellRendererInfo" typeId="tphr.1210173918195" id="1210175735011">
       <link role="cellRendererSetter" roleId="tphr.1210173949336" targetNodeId="dbrf.~JList%dsetCellRenderer(javax%dswing%dListCellRenderer)%cvoid" resolveInfo="setCellRenderer" />
-      <link role="interface" targetNodeId="dbrf.~ListCellRenderer" resolveInfo="ListCellRenderer" />
     </node>
   </root>
   <root id="1203082521713">
