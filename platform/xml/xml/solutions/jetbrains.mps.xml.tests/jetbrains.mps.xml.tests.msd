@@ -1,8 +1,13 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<solution name="jetbrains.mps.xml.tests" uuid="2f499867-d42a-4e31-a93d-33e16883e187" compileInMPS="true" java-stubs-enabled="true" generatorOutputPath="${solution_descriptor}/source_gen">
+<solution name="jetbrains.mps.xml.tests" uuid="2f499867-d42a-4e31-a93d-33e16883e187" compileInMPS="true" java-stubs-enabled="false" generatorOutputPath="${solution_descriptor}/source_gen">
   <models>
     <modelRoot path="${solution_descriptor}/" namespacePrefix="" />
   </models>
+  <stubModelEntries>
+    <stubModelEntry path="${solution_descriptor}/classes_gen" include="false">
+      <manager moduleId="f3061a53-9226-4cc5-a443-f952ceaf5816" className="jetbrains.mps.baseLanguage.stubs.JavaStubs" />
+    </stubModelEntry>
+  </stubModelEntries>
   <sourcePath />
   <usedLanguages>
     <usedLanguage>f61473f9-130f-42f6-b98d-6c438812c2f6(jetbrains.mps.baseLanguage.unitTest)</usedLanguage>
