@@ -1,32 +1,32 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <debugInfo>
-  <unitInfo fileName="FlowPanel.java" startLine="15" startPosition="32" endLine="21" endPosition="3" unitName="jetbrains.mps.uiLanguage.components.FlowPanel$1" />
-  <unitInfo fileName="HBox.java" startLine="15" startPosition="32" endLine="21" endPosition="3" unitName="jetbrains.mps.uiLanguage.components.HBox$1" />
   <unitInfo fileName="VBox.java" startLine="15" startPosition="32" endLine="21" endPosition="3" unitName="jetbrains.mps.uiLanguage.components.VBox$1" />
-  <unitInfo fileName="Separator.java" startLine="16" startPosition="32" endLine="22" endPosition="3" unitName="jetbrains.mps.uiLanguage.components.Separator$1" />
-  <unitInfo fileName="List.java" startLine="16" startPosition="32" endLine="22" endPosition="3" unitName="jetbrains.mps.uiLanguage.components.List$1" />
-  <unitInfo fileName="Dialog.java" startLine="16" startPosition="32" endLine="22" endPosition="3" unitName="jetbrains.mps.uiLanguage.components.Dialog$1" />
-  <unitInfo fileName="Panel.java" startLine="16" startPosition="32" endLine="22" endPosition="3" unitName="jetbrains.mps.uiLanguage.components.Panel$1" />
-  <unitInfo fileName="CheckBox.java" startLine="16" startPosition="32" endLine="22" endPosition="3" unitName="jetbrains.mps.uiLanguage.components.CheckBox$1" />
+  <unitInfo fileName="HBox.java" startLine="15" startPosition="32" endLine="21" endPosition="3" unitName="jetbrains.mps.uiLanguage.components.HBox$1" />
+  <unitInfo fileName="FlowPanel.java" startLine="15" startPosition="32" endLine="21" endPosition="3" unitName="jetbrains.mps.uiLanguage.components.FlowPanel$1" />
   <unitInfo fileName="Button.java" startLine="16" startPosition="32" endLine="22" endPosition="3" unitName="jetbrains.mps.uiLanguage.components.Button$1" />
+  <unitInfo fileName="CheckBox.java" startLine="16" startPosition="32" endLine="22" endPosition="3" unitName="jetbrains.mps.uiLanguage.components.CheckBox$1" />
+  <unitInfo fileName="Panel.java" startLine="16" startPosition="32" endLine="22" endPosition="3" unitName="jetbrains.mps.uiLanguage.components.Panel$1" />
+  <unitInfo fileName="Dialog.java" startLine="16" startPosition="32" endLine="22" endPosition="3" unitName="jetbrains.mps.uiLanguage.components.Dialog$1" />
+  <unitInfo fileName="List.java" startLine="16" startPosition="32" endLine="22" endPosition="3" unitName="jetbrains.mps.uiLanguage.components.List$1" />
+  <unitInfo fileName="Separator.java" startLine="16" startPosition="32" endLine="22" endPosition="3" unitName="jetbrains.mps.uiLanguage.components.Separator$1" />
   <unitInfo fileName="RadioButton.java" startLine="18" startPosition="32" endLine="24" endPosition="3" unitName="jetbrains.mps.uiLanguage.components.RadioButton$1" />
   <unitInfo fileName="BaseComponent.java" startLine="19" startPosition="32" endLine="25" endPosition="3" unitName="jetbrains.mps.uiLanguage.components.BaseComponent$1" />
-  <unitInfo fileName="TextField.java" startLine="20" startPosition="32" endLine="26" endPosition="3" unitName="jetbrains.mps.uiLanguage.components.TextField$1" />
   <unitInfo fileName="Frame.java" startLine="20" startPosition="32" endLine="26" endPosition="3" unitName="jetbrains.mps.uiLanguage.components.Frame$1" />
+  <unitInfo fileName="TextField.java" startLine="20" startPosition="32" endLine="26" endPosition="3" unitName="jetbrains.mps.uiLanguage.components.TextField$1" />
   <unitInfo fileName="Label.java" startLine="23" startPosition="32" endLine="29" endPosition="3" unitName="jetbrains.mps.uiLanguage.components.Label$1" />
-  <unitInfo fileName="FlowPanel.java" startLine="12" startPosition="0" endLine="54" endPosition="0" unitName="jetbrains.mps.uiLanguage.components.FlowPanel" />
-  <unitInfo fileName="HBox.java" startLine="12" startPosition="0" endLine="54" endPosition="0" unitName="jetbrains.mps.uiLanguage.components.HBox" />
   <unitInfo fileName="VBox.java" startLine="12" startPosition="0" endLine="54" endPosition="0" unitName="jetbrains.mps.uiLanguage.components.VBox" />
-  <unitInfo fileName="Separator.java" startLine="12" startPosition="0" endLine="65" endPosition="0" unitName="jetbrains.mps.uiLanguage.components.Separator" />
-  <unitInfo fileName="Dialog.java" startLine="12" startPosition="0" endLine="65" endPosition="0" unitName="jetbrains.mps.uiLanguage.components.Dialog" />
-  <unitInfo fileName="Panel.java" startLine="12" startPosition="0" endLine="65" endPosition="0" unitName="jetbrains.mps.uiLanguage.components.Panel" />
-  <unitInfo fileName="CheckBox.java" startLine="12" startPosition="0" endLine="65" endPosition="0" unitName="jetbrains.mps.uiLanguage.components.CheckBox" />
+  <unitInfo fileName="HBox.java" startLine="12" startPosition="0" endLine="54" endPosition="0" unitName="jetbrains.mps.uiLanguage.components.HBox" />
+  <unitInfo fileName="FlowPanel.java" startLine="12" startPosition="0" endLine="54" endPosition="0" unitName="jetbrains.mps.uiLanguage.components.FlowPanel" />
   <unitInfo fileName="Button.java" startLine="12" startPosition="0" endLine="65" endPosition="0" unitName="jetbrains.mps.uiLanguage.components.Button" />
+  <unitInfo fileName="CheckBox.java" startLine="12" startPosition="0" endLine="65" endPosition="0" unitName="jetbrains.mps.uiLanguage.components.CheckBox" />
+  <unitInfo fileName="Panel.java" startLine="12" startPosition="0" endLine="65" endPosition="0" unitName="jetbrains.mps.uiLanguage.components.Panel" />
+  <unitInfo fileName="Dialog.java" startLine="12" startPosition="0" endLine="65" endPosition="0" unitName="jetbrains.mps.uiLanguage.components.Dialog" />
+  <unitInfo fileName="Separator.java" startLine="12" startPosition="0" endLine="65" endPosition="0" unitName="jetbrains.mps.uiLanguage.components.Separator" />
   <unitInfo fileName="List.java" startLine="11" startPosition="0" endLine="75" endPosition="0" unitName="jetbrains.mps.uiLanguage.components.List" />
   <unitInfo fileName="RadioButton.java" startLine="13" startPosition="0" endLine="77" endPosition="0" unitName="jetbrains.mps.uiLanguage.components.RadioButton" />
   <unitInfo fileName="BaseComponent.java" startLine="14" startPosition="0" endLine="78" endPosition="0" unitName="jetbrains.mps.uiLanguage.components.BaseComponent" />
-  <unitInfo fileName="TextField.java" startLine="13" startPosition="0" endLine="99" endPosition="0" unitName="jetbrains.mps.uiLanguage.components.TextField" />
   <unitInfo fileName="Frame.java" startLine="13" startPosition="0" endLine="99" endPosition="0" unitName="jetbrains.mps.uiLanguage.components.Frame" />
+  <unitInfo fileName="TextField.java" startLine="13" startPosition="0" endLine="99" endPosition="0" unitName="jetbrains.mps.uiLanguage.components.TextField" />
   <unitInfo fileName="Label.java" startLine="15" startPosition="0" endLine="112" endPosition="0" unitName="jetbrains.mps.uiLanguage.components.Label" />
 </debugInfo>
 
