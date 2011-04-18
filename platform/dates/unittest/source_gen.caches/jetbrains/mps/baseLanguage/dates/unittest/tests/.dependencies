@@ -119,6 +119,7 @@
     <classNode dependClassName="jetbrains.mps.baseLanguage.closures.runtime.Result" />
     <classNode dependClassName="jetbrains.mps.baseLanguage.dates.runtime.DateTimeOperations" />
     <classNode dependClassName="jetbrains.mps.baseLanguage.closures.runtime._UnrestrictedFunctionTypes" />
+    <classNode dependClassName="jetbrains.mps.baseLanguage.dates.runtime.InlineDateFormatter" />
     <classNode dependClassName="java.lang.Object" />
     <classNode dependClassName="jetbrains.mps.baseLanguage.dates.unittest.tests.MainFormatTable" />
     <classNode dependClassName="java.lang.String" />
@@ -128,13 +129,12 @@
     <classNode dependClassName="org.joda.time.format.DateTimeFormatterBuilder" />
     <classNode dependClassName="jetbrains.mps.baseLanguage.dates.runtime.DateTimeArithmetics" />
     <classNode dependClassName="org.joda.time.format.DateTimeFormatter" />
-    <classNode dependClassName="jetbrains.mps.baseLanguage.dates.accessories.DateTimeUtil" />
     <classNode dependClassName="org.joda.time.DateTimeFieldType" />
     <classNode dependClassName="java.lang.System" />
     <classNode dependClassName="jetbrains.mps.baseLanguage.closures.runtime._UnrestrictedClosures" />
     <classNode dependClassName="org.joda.time.DateTimeZone" />
     <classNode dependClassName="java.lang.Long" />
-    <classNode dependClassName="jetbrains.mps.baseLanguage.dates.runtime.InlineDateFormatter" />
+    <classNode dependClassName="jetbrains.mps.baseLanguage.dates.runtime.DateTimeUtil" />
     <classNode extendsClassName="jetbrains.mps.baseLanguage.dates.unittest.tests.BaseTestCase" />
   </dependency>
   <dependency className="jetbrains.mps.baseLanguage.dates.unittest.tests.IsNull_Test" file="IsNull_Test.java">

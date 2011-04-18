@@ -58,6 +58,12 @@
     <classNode dependClassName="java.lang.IllegalArgumentException" />
     <classNode dependClassName="java.lang.InheritableThreadLocal" />
   </dependency>
+  <dependency className="jetbrains.mps.baseLanguage.dates.runtime.DateTimeUtil" file="DateTimeUtil.java">
+    <classNode dependClassName="jetbrains.mps.baseLanguage.dates.runtime.DateTimeOperations" />
+    <classNode dependClassName="jetbrains.mps.baseLanguage.closures.runtime.Result" />
+    <classNode dependClassName="jetbrains.mps.baseLanguage.closures.runtime._UnrestrictedFunctionTypes" />
+    <classNode dependClassName="org.joda.time.DateTimeZone" />
+  </dependency>
   <dependency className="jetbrains.mps.baseLanguage.dates.runtime.FixedLocaleDateTimeFormatter" file="FixedLocaleDateTimeFormatter.java">
     <classNode dependClassName="java.lang.Integer" />
     <classNode dependClassName="java.lang.Object" />

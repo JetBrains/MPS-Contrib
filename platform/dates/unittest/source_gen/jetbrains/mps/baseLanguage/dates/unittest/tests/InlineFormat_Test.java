@@ -13,7 +13,7 @@ import org.joda.time.format.DateTimeFormatter;
 import org.joda.time.format.DateTimeFormatterBuilder;
 import java.util.Locale;
 import junit.framework.Assert;
-import jetbrains.mps.baseLanguage.dates.accessories.DateTimeUtil;
+import jetbrains.mps.baseLanguage.dates.runtime.DateTimeUtil;
 import jetbrains.mps.baseLanguage.dates.runtime.DateTimeArithmetics;
 import org.joda.time.Period;
 
@@ -21,6 +21,7 @@ public class InlineFormat_Test extends BaseTestCase {
   public void test_inlineFormat() throws Exception {
     //  some tests rely on MSK time zone 
     DateTimeZone msk = DateTimeZone.forID("Europe/Moscow");
+
     {
       _UnrestrictedClosures._void_void_P0_E0 __closure__ = new _UnrestrictedClosures._void_void_P0_E0(new _UnrestrictedFunctionTypes._void_void_P0_E0() {
         public Result<Object, Object> invokeUnrestricted() {
