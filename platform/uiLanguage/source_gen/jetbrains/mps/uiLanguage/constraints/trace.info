@@ -13,7 +13,7 @@
   <unitInfo fileName="ListElements_Constraints.java" startLine="26" startPosition="0" endLine="43" endPosition="0" unitName="jetbrains.mps.uiLanguage.constraints.ListElements_Constraints$QuotationClass_fpzj2u_a0a0a0a0a" />
   <unitInfo fileName="AddListenerOperation_Constraints.java" startLine="10" startPosition="0" endLine="28" endPosition="0" unitName="jetbrains.mps.uiLanguage.constraints.AddListenerOperation_Constraints" />
   <unitInfo fileName="RemoveListenerOperation_Constraints.java" startLine="10" startPosition="0" endLine="28" endPosition="0" unitName="jetbrains.mps.uiLanguage.constraints.RemoveListenerOperation_Constraints" />
-  <unitInfo fileName="StubCellRendererInfo_cellRendererSetter_ReferentConstraint.java" startLine="17" startPosition="0" endLine="37" endPosition="0" unitName="jetbrains.mps.uiLanguage.constraints.StubCellRendererInfo_cellRendererSetter_ReferentConstraint" />
+  <unitInfo fileName="StubCellRendererInfo_cellRendererSetter_ReferentConstraint.java" startLine="16" startPosition="0" endLine="36" endPosition="0" unitName="jetbrains.mps.uiLanguage.constraints.StubCellRendererInfo_cellRendererSetter_ReferentConstraint" />
   <unitInfo fileName="ConstraintsDescriptor.java" startLine="11" startPosition="0" endLine="34" endPosition="0" unitName="jetbrains.mps.uiLanguage.constraints.ConstraintsDescriptor" />
   <unitInfo fileName="AttributeValue_attribute_ReferentConstraint.java" startLine="19" startPosition="0" endLine="44" endPosition="0" unitName="jetbrains.mps.uiLanguage.constraints.AttributeValue_attribute_ReferentConstraint" />
   <unitInfo fileName="ListElements_Constraints.java" startLine="18" startPosition="0" endLine="44" endPosition="0" unitName="jetbrains.mps.uiLanguage.constraints.ListElements_Constraints" />
@@ -74,8 +74,8 @@
     </scopeInfo>
   </root>
   <root nodeId="1213104847124">
-    <nodeInfo nodeId="1213104847144" fileName="StubCellRendererInfo_cellRendererSetter_ReferentConstraint.java" startLine="29" startPosition="132" endLine="30" endPosition="316" conceptFqName="jetbrains.mps.baseLanguage.structure.ReturnStatement" />
-    <scopeInfo nodeId="1213104847143" fileName="StubCellRendererInfo_cellRendererSetter_ReferentConstraint.java" startLine="29" startPosition="132" endLine="30" endPosition="316" />
+    <nodeInfo nodeId="1213104847144" fileName="StubCellRendererInfo_cellRendererSetter_ReferentConstraint.java" startLine="28" startPosition="132" endLine="29" endPosition="271" conceptFqName="jetbrains.mps.baseLanguage.structure.ReturnStatement" />
+    <scopeInfo nodeId="1213104847143" fileName="StubCellRendererInfo_cellRendererSetter_ReferentConstraint.java" startLine="28" startPosition="132" endLine="29" endPosition="271" />
   </root>
   <root nodeId="1213107435785">
     <nodeInfo nodeId="1213107435788" fileName="EventHandlerReference_Constraints.java" startLine="10" startPosition="114" endLine="11" endPosition="245" conceptFqName="jetbrains.mps.baseLanguage.structure.ReturnStatement" />
