@@ -38,6 +38,7 @@
       <module fileurl="file://$PROJECT_DIR$/plugins/ideaIntegration/ideaIntegration.iml" filepath="$PROJECT_DIR$/plugins/ideaIntegration/ideaIntegration.iml" group="plugins" />
       <module fileurl="file://$PROJECT_DIR$/core/languageDesign/intentions/intentions.iml" filepath="$PROJECT_DIR$/core/languageDesign/intentions/intentions.iml" group="core/languageDesign" />
       <module fileurl="file://$PROJECT_DIR$/core/intentions-runtime/intentions-runtime.iml" filepath="$PROJECT_DIR$/core/intentions-runtime/intentions-runtime.iml" group="core" />
+      <module fileurl="file://$PROJECT_DIR$/core/baseLanguage/runConfigurations/javaRunConfigurations.iml" filepath="$PROJECT_DIR$/core/baseLanguage/runConfigurations/javaRunConfigurations.iml" group="core/baseLanguage" />
       <module fileurl="file://$PROJECT_DIR$/core/kernel/kernel.iml" filepath="$PROJECT_DIR$/core/kernel/kernel.iml" group="core/kernel" />
       <module fileurl="file://$PROJECT_DIR$/core/languageDesign/make/make.iml" filepath="$PROJECT_DIR$/core/languageDesign/make/make.iml" group="core/languageDesign" />
       <module fileurl="file://$PROJECT_DIR$/core/make-runtime/make-runtime.iml" filepath="$PROJECT_DIR$/core/make-runtime/make-runtime.iml" group="core/kernel" />
@@ -56,7 +57,7 @@
       <module fileurl="file://$PROJECT_DIR$/core/languageDesign/refactoring/refactoring.iml" filepath="$PROJECT_DIR$/core/languageDesign/refactoring/refactoring.iml" group="core/languageDesign" />
       <module fileurl="file://$PROJECT_DIR$/core/refactoring-runtime/refactoring-runtime.iml" filepath="$PROJECT_DIR$/core/refactoring-runtime/refactoring-runtime.iml" />
       <module fileurl="file://$PROJECT_DIR$/resources/resources.iml" filepath="$PROJECT_DIR$/resources/resources.iml" group="workbench" />
-      <module fileurl="file://$PROJECT_DIR$/core/baseLanguage/runConfigurations/runConfigurations.iml" filepath="$PROJECT_DIR$/core/baseLanguage/runConfigurations/runConfigurations.iml" group="core/baseLanguage" />
+      <module fileurl="file://$PROJECT_DIR$/workbench/runConfigurations/runConfigurations.iml" filepath="$PROJECT_DIR$/workbench/runConfigurations/runConfigurations.iml" group="workbench" />
       <module fileurl="file://$PROJECT_DIR$/core/runtime/runtime.iml" filepath="$PROJECT_DIR$/core/runtime/runtime.iml" group="core/kernel" />
       <module fileurl="file://$PROJECT_DIR$/plugins/samples/samples.iml" filepath="$PROJECT_DIR$/plugins/samples/samples.iml" group="plugins" />
       <module fileurl="file://$PROJECT_DIR$/core/languageDesign/sharedConcepts/sharedConcepts.iml" filepath="$PROJECT_DIR$/core/languageDesign/sharedConcepts/sharedConcepts.iml" group="core/languageDesign" />
