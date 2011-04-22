@@ -186,10 +186,6 @@ public class QueriesGenerated {
     return IJavaRunConfigurationParameter_Behavior.call_getParameterType_1810772216404820824(_context.getNode());
   }
 
-  public static SNode sourceNodeQuery_1769265426473444142(final IOperationContext operationContext, final SourceSubstituteMacroNodeContext _context) {
-    return SLinkOperations.getTarget(_context.getNode(), "makeBlock", true);
-  }
-
   public static SNode sourceNodeQuery_3251065477411867966(final IOperationContext operationContext, final SourceSubstituteMacroNodeContext _context) {
     return SLinkOperations.getTarget(SLinkOperations.getTarget(SLinkOperations.getTarget(_context.getNode(), "editor", true), "applyBlock", true), "body", true);
   }
@@ -212,6 +208,10 @@ public class QueriesGenerated {
 
   public static SNode sourceNodeQuery_5025216477741577132(final IOperationContext operationContext, final SourceSubstituteMacroNodeContext _context) {
     return SLinkOperations.getTarget(_context.getNode(), "prepareBlock", true);
+  }
+
+  public static SNode sourceNodeQuery_1769265426473444142(final IOperationContext operationContext, final SourceSubstituteMacroNodeContext _context) {
+    return SLinkOperations.getTarget(_context.getNode(), "makeBlock", true);
   }
 
   public static SNode sourceNodeQuery_7549816165173598500(final IOperationContext operationContext, final SourceSubstituteMacroNodeContext _context) {
