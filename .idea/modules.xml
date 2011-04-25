@@ -5,6 +5,7 @@
       <module fileurl="file://$PROJECT_DIR$/core/baseLanguage/closures/Closures.iml" filepath="$PROJECT_DIR$/core/baseLanguage/closures/Closures.iml" group="core/baseLanguage/closures" />
       <module fileurl="file://$PROJECT_DIR$/core/baseLanguage/closures/runtime/Closures-runtime.iml" filepath="$PROJECT_DIR$/core/baseLanguage/closures/runtime/Closures-runtime.iml" group="core/baseLanguage/closures" />
       <module fileurl="file://$PROJECT_DIR$/MPS.iml" filepath="$PROJECT_DIR$/MPS.iml" />
+      <module fileurl="file://$PROJECT_DIR$//MPS-platform.iml" filepath="$PROJECT_DIR$//MPS-platform.iml" />
       <module fileurl="file://$PROJECT_DIR$/MPSPlugin/MPSSupport.iml" filepath="$PROJECT_DIR$/MPSPlugin/MPSSupport.iml" />
       <module fileurl="file://$PROJECT_DIR$/core/baseLanguage/tuples/Tuples.iml" filepath="$PROJECT_DIR$/core/baseLanguage/tuples/Tuples.iml" group="core/baseLanguage/tuples" />
       <module fileurl="file://$PROJECT_DIR$/core/baseLanguage/tuples/runtime/Tuples-runtime.iml" filepath="$PROJECT_DIR$/core/baseLanguage/tuples/runtime/Tuples-runtime.iml" group="core/baseLanguage/tuples" />
@@ -33,10 +34,8 @@
       <module fileurl="file://$PROJECT_DIR$/core/languageDesign/findUsages/findUsages.iml" filepath="$PROJECT_DIR$/core/languageDesign/findUsages/findUsages.iml" group="core/languageDesign" />
       <module fileurl="file://$PROJECT_DIR$/core/findUsages-runtime/findUsages-runtime.iml" filepath="$PROJECT_DIR$/core/findUsages-runtime/findUsages-runtime.iml" />
       <module fileurl="file://$PROJECT_DIR$/core/generator/generator-engine.iml" filepath="$PROJECT_DIR$/core/generator/generator-engine.iml" group="core/kernel" />
-      <module fileurl="file://$PROJECT_DIR$/workbench/ideUiLanguage/ideUiLanguage.iml" filepath="$PROJECT_DIR$/workbench/ideUiLanguage/ideUiLanguage.iml" group="workbench" />
       <module fileurl="file://$PROJECT_DIR$/core/idea-patch/idea-patch.iml" filepath="$PROJECT_DIR$/core/idea-patch/idea-patch.iml" group="core/kernel" />
       <module fileurl="file://$PROJECT_DIR$/plugins/ideaIntegration/ideaIntegration.iml" filepath="$PROJECT_DIR$/plugins/ideaIntegration/ideaIntegration.iml" group="plugins" />
-      <module fileurl="file://$PROJECT_DIR$/core/languageDesign/intentions/intentions.iml" filepath="$PROJECT_DIR$/core/languageDesign/intentions/intentions.iml" group="core/languageDesign" />
       <module fileurl="file://$PROJECT_DIR$/core/intentions-runtime/intentions-runtime.iml" filepath="$PROJECT_DIR$/core/intentions-runtime/intentions-runtime.iml" group="core" />
       <module fileurl="file://$PROJECT_DIR$/core/baseLanguage/runConfigurations/javaRunConfigurations.iml" filepath="$PROJECT_DIR$/core/baseLanguage/runConfigurations/javaRunConfigurations.iml" group="core/baseLanguage" />
       <module fileurl="file://$PROJECT_DIR$/core/kernel/kernel.iml" filepath="$PROJECT_DIR$/core/kernel/kernel.iml" group="core/kernel" />
@@ -74,7 +73,6 @@
       <module fileurl="file://$PROJECT_DIR$/workbench/typesystemUi/typesystemUi.iml" filepath="$PROJECT_DIR$/workbench/typesystemUi/typesystemUi.iml" group="workbench" />
       <module fileurl="file://$PROJECT_DIR$/platform/uiLanguage/runtime/uiLanguage-runtime.iml" filepath="$PROJECT_DIR$/platform/uiLanguage/runtime/uiLanguage-runtime.iml" group="platform" />
       <module fileurl="file://$PROJECT_DIR$/workbench/uiTests/uiTests.iml" filepath="$PROJECT_DIR$/workbench/uiTests/uiTests.iml" />
-      <module fileurl="file://$PROJECT_DIR$/core/baseLanguage/unitTest/unitTest.iml" filepath="$PROJECT_DIR$/core/baseLanguage/unitTest/unitTest.iml" group="core/baseLanguage" />
       <module fileurl="file://$PROJECT_DIR$/core/baseLanguage/unitTest/solutions/runtime/unitTest-runtime.iml" filepath="$PROJECT_DIR$/core/baseLanguage/unitTest/solutions/runtime/unitTest-runtime.iml" group="core/baseLanguage" />
       <module fileurl="file://$PROJECT_DIR$/plugins/vcs/vcs.iml" filepath="$PROJECT_DIR$/plugins/vcs/vcs.iml" group="plugins" />
       <module fileurl="file://$PROJECT_DIR$/workbench/workbench.iml" filepath="$PROJECT_DIR$/workbench/workbench.iml" group="workbench" />

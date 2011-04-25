@@ -39,7 +39,6 @@
   <import index="l649" modelUID="f:java_stub#37a3367b-1fb2-44d8-aa6b-18075e74e003#com.intellij.execution.ui(MPS.Classpath/com.intellij.execution.ui@java_stub)" version="-1" />
   <import index="1hm1" modelUID="f:java_stub#37a3367b-1fb2-44d8-aa6b-18075e74e003#com.intellij.execution(MPS.Classpath/com.intellij.execution@java_stub)" version="-1" />
   <import index="v5em" modelUID="f:java_stub#37a3367b-1fb2-44d8-aa6b-18075e74e003#com.intellij.util.xmlb.annotations(MPS.Classpath/com.intellij.util.xmlb.annotations@java_stub)" version="-1" />
-  <import index="1frp" modelUID="f:java_stub#1d6e05d7-9de9-40a7-9dad-7b8444280942#jetbrains.mps.lang.plugin.generator.baseLanguage.template.util(jetbrains.mps.lang.plugin#1203080439937/jetbrains.mps.lang.plugin.generator.baseLanguage.template.util@java_stub)" version="-1" />
   <import index="s7ni" modelUID="f:java_stub#37a3367b-1fb2-44d8-aa6b-18075e74e003#com.intellij.execution.runners(MPS.Classpath/com.intellij.execution.runners@java_stub)" version="-1" />
   <import index="u5xh" modelUID="f:java_stub#37a3367b-1fb2-44d8-aa6b-18075e74e003#com.intellij.execution.impl(MPS.Classpath/com.intellij.execution.impl@java_stub)" version="-1" />
   <import index="wzsw" modelUID="f:java_stub#37a3367b-1fb2-44d8-aa6b-18075e74e003#jetbrains.mps.ide.common(MPS.Classpath/jetbrains.mps.ide.common@java_stub)" version="-1" />
@@ -53,6 +52,7 @@
   <import index="w6m0" modelUID="f:java_stub#37a3367b-1fb2-44d8-aa6b-18075e74e003#com.intellij.execution.actions(MPS.Classpath/com.intellij.execution.actions@java_stub)" version="-1" />
   <import index="9ne7" modelUID="f:java_stub#37a3367b-1fb2-44d8-aa6b-18075e74e003#jetbrains.mps.plugins(MPS.Classpath/jetbrains.mps.plugins@java_stub)" version="-1" />
   <import index="uqw6" modelUID="f:java_stub#37a3367b-1fb2-44d8-aa6b-18075e74e003#jetbrains.mps.plugins.pluginparts.runconfigs(MPS.Classpath/jetbrains.mps.plugins.pluginparts.runconfigs@java_stub)" version="-1" />
+  <import index="tp4m" modelUID="r:00000000-0000-4000-0000-011c8959036a(jetbrains.mps.lang.plugin.generator.baseLanguage.template.util)" version="-1" />
   <import index="tpck" modelUID="r:00000000-0000-4000-0000-011c89590288(jetbrains.mps.lang.core.structure)" version="0" implicit="yes" />
   <import index="tpf3" modelUID="r:00000000-0000-4000-0000-011c895902f3(jetbrains.mps.lang.generator.generationContext.structure)" version="0" implicit="yes" />
   <import index="tp25" modelUID="r:00000000-0000-4000-0000-011c89590301(jetbrains.mps.lang.smodel.structure)" version="16" implicit="yes" />
@@ -2718,10 +2718,10 @@
               <node role="propertyValueFunction" roleId="tpf8.1167756362303" type="tpf8.PropertyMacro_GetPropertyValue" typeId="tpf8.1167756080639" id="6513845774252634918">
                 <node role="body" roleId="tpee.1137022507850" type="tpee.StatementList" typeId="tpee.1068580123136" id="6513845774252634919">
                   <node role="statement" roleId="tpee.1068581517665" type="tpee.ExpressionStatement" typeId="tpee.1068580123155" id="6513845774252638572">
-                    <node role="expression" roleId="tpee.1068580123156" type="tpee.StaticMethodCall" typeId="tpee.1081236700937" id="6513845774252638574">
-                      <link role="classConcept" roleId="tpee.1144433194310" targetNodeId="1frp.~VariableNameUtil" resolveInfo="VariableNameUtil" />
-                      <link role="baseMethodDeclaration" roleId="tpee.1068499141037" targetNodeId="1frp.~VariableNameUtil%dcreateComplicatedNameSuffix(java%dlang%dString)%cjava%dlang%dString" resolveInfo="createComplicatedNameSuffix" />
-                      <node role="actualArgument" roleId="tpee.1068499141038" type="tpf8.TemplateFunctionParameter_templatePropertyValue" typeId="tpf8.1167756221419" id="6513845774252638576" />
+                    <node role="expression" roleId="tpee.1068580123156" type="tpee.StaticMethodCall" typeId="tpee.1081236700937" id="7116407498331261404">
+                      <link role="baseMethodDeclaration" roleId="tpee.1068499141037" targetNodeId="tp4m.5527296032509892705" resolveInfo="createComplicatedNameSuffix" />
+                      <link role="classConcept" roleId="tpee.1144433194310" targetNodeId="tp4m.5527296032509892699" resolveInfo="VariableNameUtil" />
+                      <node role="actualArgument" roleId="tpee.1068499141038" type="tpf8.TemplateFunctionParameter_templatePropertyValue" typeId="tpf8.1167756221419" id="7116407498331261405" />
                     </node>
                   </node>
                 </node>
@@ -2762,10 +2762,10 @@
                     <node role="propertyValueFunction" roleId="tpf8.1167756362303" type="tpf8.PropertyMacro_GetPropertyValue" typeId="tpf8.1167756080639" id="6513845774253039979">
                       <node role="body" roleId="tpee.1137022507850" type="tpee.StatementList" typeId="tpee.1068580123136" id="6513845774253039980">
                         <node role="statement" roleId="tpee.1068581517665" type="tpee.ExpressionStatement" typeId="tpee.1068580123155" id="6513845774253051060">
-                          <node role="expression" roleId="tpee.1068580123156" type="tpee.StaticMethodCall" typeId="tpee.1081236700937" id="6513845774253051062">
-                            <link role="classConcept" roleId="tpee.1144433194310" targetNodeId="1frp.~VariableNameUtil" resolveInfo="VariableNameUtil" />
-                            <link role="baseMethodDeclaration" roleId="tpee.1068499141037" targetNodeId="1frp.~VariableNameUtil%dcreateComplicatedNameSuffix(java%dlang%dString)%cjava%dlang%dString" resolveInfo="createComplicatedNameSuffix" />
-                            <node role="actualArgument" roleId="tpee.1068499141038" type="tpf8.TemplateFunctionParameter_templatePropertyValue" typeId="tpf8.1167756221419" id="6513845774253051063" />
+                          <node role="expression" roleId="tpee.1068580123156" type="tpee.StaticMethodCall" typeId="tpee.1081236700937" id="7116407498331261408">
+                            <link role="baseMethodDeclaration" roleId="tpee.1068499141037" targetNodeId="tp4m.5527296032509892705" resolveInfo="createComplicatedNameSuffix" />
+                            <link role="classConcept" roleId="tpee.1144433194310" targetNodeId="tp4m.5527296032509892699" resolveInfo="VariableNameUtil" />
+                            <node role="actualArgument" roleId="tpee.1068499141038" type="tpf8.TemplateFunctionParameter_templatePropertyValue" typeId="tpf8.1167756221419" id="7116407498331261409" />
                           </node>
                         </node>
                       </node>
@@ -2989,10 +2989,10 @@
                           <node role="propertyValueFunction" roleId="tpf8.1167756362303" type="tpf8.PropertyMacro_GetPropertyValue" typeId="tpf8.1167756080639" id="5527296032509875346">
                             <node role="body" roleId="tpee.1137022507850" type="tpee.StatementList" typeId="tpee.1068580123136" id="5527296032509875347">
                               <node role="statement" roleId="tpee.1068581517665" type="tpee.ExpressionStatement" typeId="tpee.1068580123155" id="5527296032510069925">
-                                <node role="expression" roleId="tpee.1068580123156" type="tpee.StaticMethodCall" typeId="tpee.1081236700937" id="5527296032510069927">
-                                  <link role="classConcept" roleId="tpee.1144433194310" targetNodeId="1frp.~VariableNameUtil" resolveInfo="VariableNameUtil" />
-                                  <link role="baseMethodDeclaration" roleId="tpee.1068499141037" targetNodeId="1frp.~VariableNameUtil%dcreateComplicatedNameSuffix(java%dlang%dString)%cjava%dlang%dString" resolveInfo="createComplicatedNameSuffix" />
-                                  <node role="actualArgument" roleId="tpee.1068499141038" type="tpf8.TemplateFunctionParameter_templatePropertyValue" typeId="tpf8.1167756221419" id="5527296032510071467" />
+                                <node role="expression" roleId="tpee.1068580123156" type="tpee.StaticMethodCall" typeId="tpee.1081236700937" id="7116407498331261412">
+                                  <link role="baseMethodDeclaration" roleId="tpee.1068499141037" targetNodeId="tp4m.5527296032509892705" resolveInfo="createComplicatedNameSuffix" />
+                                  <link role="classConcept" roleId="tpee.1144433194310" targetNodeId="tp4m.5527296032509892699" resolveInfo="VariableNameUtil" />
+                                  <node role="actualArgument" roleId="tpee.1068499141038" type="tpf8.TemplateFunctionParameter_templatePropertyValue" typeId="tpf8.1167756221419" id="7116407498331261413" />
                                 </node>
                               </node>
                             </node>
@@ -3012,10 +3012,10 @@
                           <node role="propertyValueFunction" roleId="tpf8.1167756362303" type="tpf8.PropertyMacro_GetPropertyValue" typeId="tpf8.1167756080639" id="5527296032510086894">
                             <node role="body" roleId="tpee.1137022507850" type="tpee.StatementList" typeId="tpee.1068580123136" id="5527296032510086895">
                               <node role="statement" roleId="tpee.1068581517665" type="tpee.ExpressionStatement" typeId="tpee.1068580123155" id="5527296032510086896">
-                                <node role="expression" roleId="tpee.1068580123156" type="tpee.StaticMethodCall" typeId="tpee.1081236700937" id="5527296032510086897">
-                                  <link role="classConcept" roleId="tpee.1144433194310" targetNodeId="1frp.~VariableNameUtil" resolveInfo="VariableNameUtil" />
-                                  <link role="baseMethodDeclaration" roleId="tpee.1068499141037" targetNodeId="1frp.~VariableNameUtil%dcreateComplicatedNameSuffix(java%dlang%dString)%cjava%dlang%dString" resolveInfo="createComplicatedNameSuffix" />
-                                  <node role="actualArgument" roleId="tpee.1068499141038" type="tpf8.TemplateFunctionParameter_templatePropertyValue" typeId="tpf8.1167756221419" id="5527296032510086898" />
+                                <node role="expression" roleId="tpee.1068580123156" type="tpee.StaticMethodCall" typeId="tpee.1081236700937" id="7116407498331261416">
+                                  <link role="baseMethodDeclaration" roleId="tpee.1068499141037" targetNodeId="tp4m.5527296032509892705" resolveInfo="createComplicatedNameSuffix" />
+                                  <link role="classConcept" roleId="tpee.1144433194310" targetNodeId="tp4m.5527296032509892699" resolveInfo="VariableNameUtil" />
+                                  <node role="actualArgument" roleId="tpee.1068499141038" type="tpf8.TemplateFunctionParameter_templatePropertyValue" typeId="tpf8.1167756221419" id="7116407498331261417" />
                                 </node>
                               </node>
                             </node>
@@ -3036,10 +3036,10 @@
                           <node role="propertyValueFunction" roleId="tpf8.1167756362303" type="tpf8.PropertyMacro_GetPropertyValue" typeId="tpf8.1167756080639" id="5527296032510086900">
                             <node role="body" roleId="tpee.1137022507850" type="tpee.StatementList" typeId="tpee.1068580123136" id="5527296032510086901">
                               <node role="statement" roleId="tpee.1068581517665" type="tpee.ExpressionStatement" typeId="tpee.1068580123155" id="5527296032510086902">
-                                <node role="expression" roleId="tpee.1068580123156" type="tpee.StaticMethodCall" typeId="tpee.1081236700937" id="5527296032510086903">
-                                  <link role="classConcept" roleId="tpee.1144433194310" targetNodeId="1frp.~VariableNameUtil" resolveInfo="VariableNameUtil" />
-                                  <link role="baseMethodDeclaration" roleId="tpee.1068499141037" targetNodeId="1frp.~VariableNameUtil%dcreateComplicatedNameSuffix(java%dlang%dString)%cjava%dlang%dString" resolveInfo="createComplicatedNameSuffix" />
-                                  <node role="actualArgument" roleId="tpee.1068499141038" type="tpf8.TemplateFunctionParameter_templatePropertyValue" typeId="tpf8.1167756221419" id="5527296032510086904" />
+                                <node role="expression" roleId="tpee.1068580123156" type="tpee.StaticMethodCall" typeId="tpee.1081236700937" id="7116407498331261420">
+                                  <link role="baseMethodDeclaration" roleId="tpee.1068499141037" targetNodeId="tp4m.5527296032509892705" resolveInfo="createComplicatedNameSuffix" />
+                                  <link role="classConcept" roleId="tpee.1144433194310" targetNodeId="tp4m.5527296032509892699" resolveInfo="VariableNameUtil" />
+                                  <node role="actualArgument" roleId="tpee.1068499141038" type="tpf8.TemplateFunctionParameter_templatePropertyValue" typeId="tpf8.1167756221419" id="7116407498331261421" />
                                 </node>
                               </node>
                             </node>
@@ -3068,10 +3068,10 @@
                           <node role="propertyValueFunction" roleId="tpf8.1167756362303" type="tpf8.PropertyMacro_GetPropertyValue" typeId="tpf8.1167756080639" id="5527296032510086906">
                             <node role="body" roleId="tpee.1137022507850" type="tpee.StatementList" typeId="tpee.1068580123136" id="5527296032510086907">
                               <node role="statement" roleId="tpee.1068581517665" type="tpee.ExpressionStatement" typeId="tpee.1068580123155" id="5527296032510086908">
-                                <node role="expression" roleId="tpee.1068580123156" type="tpee.StaticMethodCall" typeId="tpee.1081236700937" id="5527296032510086909">
-                                  <link role="classConcept" roleId="tpee.1144433194310" targetNodeId="1frp.~VariableNameUtil" resolveInfo="VariableNameUtil" />
-                                  <link role="baseMethodDeclaration" roleId="tpee.1068499141037" targetNodeId="1frp.~VariableNameUtil%dcreateComplicatedNameSuffix(java%dlang%dString)%cjava%dlang%dString" resolveInfo="createComplicatedNameSuffix" />
-                                  <node role="actualArgument" roleId="tpee.1068499141038" type="tpf8.TemplateFunctionParameter_templatePropertyValue" typeId="tpf8.1167756221419" id="5527296032510086910" />
+                                <node role="expression" roleId="tpee.1068580123156" type="tpee.StaticMethodCall" typeId="tpee.1081236700937" id="7116407498331261424">
+                                  <link role="baseMethodDeclaration" roleId="tpee.1068499141037" targetNodeId="tp4m.5527296032509892705" resolveInfo="createComplicatedNameSuffix" />
+                                  <link role="classConcept" roleId="tpee.1144433194310" targetNodeId="tp4m.5527296032509892699" resolveInfo="VariableNameUtil" />
+                                  <node role="actualArgument" roleId="tpee.1068499141038" type="tpf8.TemplateFunctionParameter_templatePropertyValue" typeId="tpf8.1167756221419" id="7116407498331261425" />
                                 </node>
                               </node>
                             </node>
@@ -3092,10 +3092,10 @@
                           <node role="propertyValueFunction" roleId="tpf8.1167756362303" type="tpf8.PropertyMacro_GetPropertyValue" typeId="tpf8.1167756080639" id="5527296032510086912">
                             <node role="body" roleId="tpee.1137022507850" type="tpee.StatementList" typeId="tpee.1068580123136" id="5527296032510086913">
                               <node role="statement" roleId="tpee.1068581517665" type="tpee.ExpressionStatement" typeId="tpee.1068580123155" id="5527296032510086914">
-                                <node role="expression" roleId="tpee.1068580123156" type="tpee.StaticMethodCall" typeId="tpee.1081236700937" id="5527296032510086915">
-                                  <link role="classConcept" roleId="tpee.1144433194310" targetNodeId="1frp.~VariableNameUtil" resolveInfo="VariableNameUtil" />
-                                  <link role="baseMethodDeclaration" roleId="tpee.1068499141037" targetNodeId="1frp.~VariableNameUtil%dcreateComplicatedNameSuffix(java%dlang%dString)%cjava%dlang%dString" resolveInfo="createComplicatedNameSuffix" />
-                                  <node role="actualArgument" roleId="tpee.1068499141038" type="tpf8.TemplateFunctionParameter_templatePropertyValue" typeId="tpf8.1167756221419" id="5527296032510086916" />
+                                <node role="expression" roleId="tpee.1068580123156" type="tpee.StaticMethodCall" typeId="tpee.1081236700937" id="7116407498331261428">
+                                  <link role="baseMethodDeclaration" roleId="tpee.1068499141037" targetNodeId="tp4m.5527296032509892705" resolveInfo="createComplicatedNameSuffix" />
+                                  <link role="classConcept" roleId="tpee.1144433194310" targetNodeId="tp4m.5527296032509892699" resolveInfo="VariableNameUtil" />
+                                  <node role="actualArgument" roleId="tpee.1068499141038" type="tpf8.TemplateFunctionParameter_templatePropertyValue" typeId="tpf8.1167756221419" id="7116407498331261429" />
                                 </node>
                               </node>
                             </node>
@@ -3199,10 +3199,10 @@
                           <node role="propertyValueFunction" roleId="tpf8.1167756362303" type="tpf8.PropertyMacro_GetPropertyValue" typeId="tpf8.1167756080639" id="3680762252128110853">
                             <node role="body" roleId="tpee.1137022507850" type="tpee.StatementList" typeId="tpee.1068580123136" id="3680762252128110854">
                               <node role="statement" roleId="tpee.1068581517665" type="tpee.ExpressionStatement" typeId="tpee.1068580123155" id="3680762252128110855">
-                                <node role="expression" roleId="tpee.1068580123156" type="tpee.StaticMethodCall" typeId="tpee.1081236700937" id="3680762252128110857">
-                                  <link role="classConcept" roleId="tpee.1144433194310" targetNodeId="1frp.~VariableNameUtil" resolveInfo="VariableNameUtil" />
-                                  <link role="baseMethodDeclaration" roleId="tpee.1068499141037" targetNodeId="1frp.~VariableNameUtil%dcreateComplicatedNameSuffix(java%dlang%dString)%cjava%dlang%dString" resolveInfo="createComplicatedNameSuffix" />
-                                  <node role="actualArgument" roleId="tpee.1068499141038" type="tpf8.TemplateFunctionParameter_templatePropertyValue" typeId="tpf8.1167756221419" id="3680762252128110858" />
+                                <node role="expression" roleId="tpee.1068580123156" type="tpee.StaticMethodCall" typeId="tpee.1081236700937" id="7116407498331261432">
+                                  <link role="baseMethodDeclaration" roleId="tpee.1068499141037" targetNodeId="tp4m.5527296032509892705" resolveInfo="createComplicatedNameSuffix" />
+                                  <link role="classConcept" roleId="tpee.1144433194310" targetNodeId="tp4m.5527296032509892699" resolveInfo="VariableNameUtil" />
+                                  <node role="actualArgument" roleId="tpee.1068499141038" type="tpf8.TemplateFunctionParameter_templatePropertyValue" typeId="tpf8.1167756221419" id="7116407498331261433" />
                                 </node>
                               </node>
                             </node>
@@ -3885,10 +3885,10 @@
                     <node role="propertyValueFunction" roleId="tpf8.1167756362303" type="tpf8.PropertyMacro_GetPropertyValue" typeId="tpf8.1167756080639" id="5527296032510112954">
                       <node role="body" roleId="tpee.1137022507850" type="tpee.StatementList" typeId="tpee.1068580123136" id="5527296032510112955">
                         <node role="statement" roleId="tpee.1068581517665" type="tpee.ExpressionStatement" typeId="tpee.1068580123155" id="5527296032510112956">
-                          <node role="expression" roleId="tpee.1068580123156" type="tpee.StaticMethodCall" typeId="tpee.1081236700937" id="5527296032510112957">
-                            <link role="classConcept" roleId="tpee.1144433194310" targetNodeId="1frp.~VariableNameUtil" resolveInfo="VariableNameUtil" />
-                            <link role="baseMethodDeclaration" roleId="tpee.1068499141037" targetNodeId="1frp.~VariableNameUtil%dcreateComplicatedNameSuffix(java%dlang%dString)%cjava%dlang%dString" resolveInfo="createComplicatedNameSuffix" />
-                            <node role="actualArgument" roleId="tpee.1068499141038" type="tpf8.TemplateFunctionParameter_templatePropertyValue" typeId="tpf8.1167756221419" id="5527296032510112958" />
+                          <node role="expression" roleId="tpee.1068580123156" type="tpee.StaticMethodCall" typeId="tpee.1081236700937" id="7116407498331261443">
+                            <link role="baseMethodDeclaration" roleId="tpee.1068499141037" targetNodeId="tp4m.5527296032509892705" resolveInfo="createComplicatedNameSuffix" />
+                            <link role="classConcept" roleId="tpee.1144433194310" targetNodeId="tp4m.5527296032509892699" resolveInfo="VariableNameUtil" />
+                            <node role="actualArgument" roleId="tpee.1068499141038" type="tpf8.TemplateFunctionParameter_templatePropertyValue" typeId="tpf8.1167756221419" id="7116407498331261444" />
                           </node>
                         </node>
                       </node>
@@ -4058,10 +4058,10 @@
                     <node role="propertyValueFunction" roleId="tpf8.1167756362303" type="tpf8.PropertyMacro_GetPropertyValue" typeId="tpf8.1167756080639" id="5527296032510112980">
                       <node role="body" roleId="tpee.1137022507850" type="tpee.StatementList" typeId="tpee.1068580123136" id="5527296032510112981">
                         <node role="statement" roleId="tpee.1068581517665" type="tpee.ExpressionStatement" typeId="tpee.1068580123155" id="5527296032510112982">
-                          <node role="expression" roleId="tpee.1068580123156" type="tpee.StaticMethodCall" typeId="tpee.1081236700937" id="5527296032510112983">
-                            <link role="classConcept" roleId="tpee.1144433194310" targetNodeId="1frp.~VariableNameUtil" resolveInfo="VariableNameUtil" />
-                            <link role="baseMethodDeclaration" roleId="tpee.1068499141037" targetNodeId="1frp.~VariableNameUtil%dcreateComplicatedNameSuffix(java%dlang%dString)%cjava%dlang%dString" resolveInfo="createComplicatedNameSuffix" />
-                            <node role="actualArgument" roleId="tpee.1068499141038" type="tpf8.TemplateFunctionParameter_templatePropertyValue" typeId="tpf8.1167756221419" id="5527296032510112984" />
+                          <node role="expression" roleId="tpee.1068580123156" type="tpee.StaticMethodCall" typeId="tpee.1081236700937" id="7116407498331261447">
+                            <link role="baseMethodDeclaration" roleId="tpee.1068499141037" targetNodeId="tp4m.5527296032509892705" resolveInfo="createComplicatedNameSuffix" />
+                            <link role="classConcept" roleId="tpee.1144433194310" targetNodeId="tp4m.5527296032509892699" resolveInfo="VariableNameUtil" />
+                            <node role="actualArgument" roleId="tpee.1068499141038" type="tpf8.TemplateFunctionParameter_templatePropertyValue" typeId="tpf8.1167756221419" id="7116407498331261448" />
                           </node>
                         </node>
                       </node>
@@ -4114,10 +4114,10 @@
                     <node role="propertyValueFunction" roleId="tpf8.1167756362303" type="tpf8.PropertyMacro_GetPropertyValue" typeId="tpf8.1167756080639" id="5527296032510112989">
                       <node role="body" roleId="tpee.1137022507850" type="tpee.StatementList" typeId="tpee.1068580123136" id="5527296032510112990">
                         <node role="statement" roleId="tpee.1068581517665" type="tpee.ExpressionStatement" typeId="tpee.1068580123155" id="5527296032510112991">
-                          <node role="expression" roleId="tpee.1068580123156" type="tpee.StaticMethodCall" typeId="tpee.1081236700937" id="5527296032510112992">
-                            <link role="classConcept" roleId="tpee.1144433194310" targetNodeId="1frp.~VariableNameUtil" resolveInfo="VariableNameUtil" />
-                            <link role="baseMethodDeclaration" roleId="tpee.1068499141037" targetNodeId="1frp.~VariableNameUtil%dcreateComplicatedNameSuffix(java%dlang%dString)%cjava%dlang%dString" resolveInfo="createComplicatedNameSuffix" />
-                            <node role="actualArgument" roleId="tpee.1068499141038" type="tpf8.TemplateFunctionParameter_templatePropertyValue" typeId="tpf8.1167756221419" id="5527296032510112993" />
+                          <node role="expression" roleId="tpee.1068580123156" type="tpee.StaticMethodCall" typeId="tpee.1081236700937" id="7116407498331261449">
+                            <link role="baseMethodDeclaration" roleId="tpee.1068499141037" targetNodeId="tp4m.5527296032509892705" resolveInfo="createComplicatedNameSuffix" />
+                            <link role="classConcept" roleId="tpee.1144433194310" targetNodeId="tp4m.5527296032509892699" resolveInfo="VariableNameUtil" />
+                            <node role="actualArgument" roleId="tpee.1068499141038" type="tpf8.TemplateFunctionParameter_templatePropertyValue" typeId="tpf8.1167756221419" id="7116407498331261450" />
                           </node>
                         </node>
                       </node>
@@ -4163,10 +4163,10 @@
                 <node role="propertyValueFunction" roleId="tpf8.1167756362303" type="tpf8.PropertyMacro_GetPropertyValue" typeId="tpf8.1167756080639" id="5527296032510113020">
                   <node role="body" roleId="tpee.1137022507850" type="tpee.StatementList" typeId="tpee.1068580123136" id="5527296032510113021">
                     <node role="statement" roleId="tpee.1068581517665" type="tpee.ExpressionStatement" typeId="tpee.1068580123155" id="5527296032510113022">
-                      <node role="expression" roleId="tpee.1068580123156" type="tpee.StaticMethodCall" typeId="tpee.1081236700937" id="5527296032510113023">
-                        <link role="classConcept" roleId="tpee.1144433194310" targetNodeId="1frp.~VariableNameUtil" resolveInfo="VariableNameUtil" />
-                        <link role="baseMethodDeclaration" roleId="tpee.1068499141037" targetNodeId="1frp.~VariableNameUtil%dcreateComplicatedNameSuffix(java%dlang%dString)%cjava%dlang%dString" resolveInfo="createComplicatedNameSuffix" />
-                        <node role="actualArgument" roleId="tpee.1068499141038" type="tpf8.TemplateFunctionParameter_templatePropertyValue" typeId="tpf8.1167756221419" id="5527296032510113024" />
+                      <node role="expression" roleId="tpee.1068580123156" type="tpee.StaticMethodCall" typeId="tpee.1081236700937" id="7116407498331261451">
+                        <link role="baseMethodDeclaration" roleId="tpee.1068499141037" targetNodeId="tp4m.5527296032509892705" resolveInfo="createComplicatedNameSuffix" />
+                        <link role="classConcept" roleId="tpee.1144433194310" targetNodeId="tp4m.5527296032509892699" resolveInfo="VariableNameUtil" />
+                        <node role="actualArgument" roleId="tpee.1068499141038" type="tpf8.TemplateFunctionParameter_templatePropertyValue" typeId="tpf8.1167756221419" id="7116407498331261452" />
                       </node>
                     </node>
                   </node>
@@ -4210,10 +4210,10 @@
                 <node role="propertyValueFunction" roleId="tpf8.1167756362303" type="tpf8.PropertyMacro_GetPropertyValue" typeId="tpf8.1167756080639" id="5527296032510113041">
                   <node role="body" roleId="tpee.1137022507850" type="tpee.StatementList" typeId="tpee.1068580123136" id="5527296032510113042">
                     <node role="statement" roleId="tpee.1068581517665" type="tpee.ExpressionStatement" typeId="tpee.1068580123155" id="5527296032510113043">
-                      <node role="expression" roleId="tpee.1068580123156" type="tpee.StaticMethodCall" typeId="tpee.1081236700937" id="5527296032510113044">
-                        <link role="classConcept" roleId="tpee.1144433194310" targetNodeId="1frp.~VariableNameUtil" resolveInfo="VariableNameUtil" />
-                        <link role="baseMethodDeclaration" roleId="tpee.1068499141037" targetNodeId="1frp.~VariableNameUtil%dcreateComplicatedNameSuffix(java%dlang%dString)%cjava%dlang%dString" resolveInfo="createComplicatedNameSuffix" />
-                        <node role="actualArgument" roleId="tpee.1068499141038" type="tpf8.TemplateFunctionParameter_templatePropertyValue" typeId="tpf8.1167756221419" id="5527296032510113045" />
+                      <node role="expression" roleId="tpee.1068580123156" type="tpee.StaticMethodCall" typeId="tpee.1081236700937" id="7116407498331261571">
+                        <link role="baseMethodDeclaration" roleId="tpee.1068499141037" targetNodeId="tp4m.5527296032509892705" resolveInfo="createComplicatedNameSuffix" />
+                        <link role="classConcept" roleId="tpee.1144433194310" targetNodeId="tp4m.5527296032509892699" resolveInfo="VariableNameUtil" />
+                        <node role="actualArgument" roleId="tpee.1068499141038" type="tpf8.TemplateFunctionParameter_templatePropertyValue" typeId="tpf8.1167756221419" id="7116407498331261572" />
                       </node>
                     </node>
                   </node>
@@ -4637,10 +4637,10 @@
                 <node role="propertyValueFunction" roleId="tpf8.1167756362303" type="tpf8.PropertyMacro_GetPropertyValue" typeId="tpf8.1167756080639" id="5527296032510112971">
                   <node role="body" roleId="tpee.1137022507850" type="tpee.StatementList" typeId="tpee.1068580123136" id="5527296032510112972">
                     <node role="statement" roleId="tpee.1068581517665" type="tpee.ExpressionStatement" typeId="tpee.1068580123155" id="5527296032510112973">
-                      <node role="expression" roleId="tpee.1068580123156" type="tpee.StaticMethodCall" typeId="tpee.1081236700937" id="5527296032510112974">
-                        <link role="classConcept" roleId="tpee.1144433194310" targetNodeId="1frp.~VariableNameUtil" resolveInfo="VariableNameUtil" />
-                        <link role="baseMethodDeclaration" roleId="tpee.1068499141037" targetNodeId="1frp.~VariableNameUtil%dcreateComplicatedNameSuffix(java%dlang%dString)%cjava%dlang%dString" resolveInfo="createComplicatedNameSuffix" />
-                        <node role="actualArgument" roleId="tpee.1068499141038" type="tpf8.TemplateFunctionParameter_templatePropertyValue" typeId="tpf8.1167756221419" id="5527296032510112975" />
+                      <node role="expression" roleId="tpee.1068580123156" type="tpee.StaticMethodCall" typeId="tpee.1081236700937" id="7116407498331261435">
+                        <link role="baseMethodDeclaration" roleId="tpee.1068499141037" targetNodeId="tp4m.5527296032509892705" resolveInfo="createComplicatedNameSuffix" />
+                        <link role="classConcept" roleId="tpee.1144433194310" targetNodeId="tp4m.5527296032509892699" resolveInfo="VariableNameUtil" />
+                        <node role="actualArgument" roleId="tpee.1068499141038" type="tpf8.TemplateFunctionParameter_templatePropertyValue" typeId="tpf8.1167756221419" id="7116407498331261436" />
                       </node>
                     </node>
                   </node>
@@ -5805,10 +5805,10 @@
                 <node role="propertyValueFunction" roleId="tpf8.1167756362303" type="tpf8.PropertyMacro_GetPropertyValue" typeId="tpf8.1167756080639" id="5527296032510113010">
                   <node role="body" roleId="tpee.1137022507850" type="tpee.StatementList" typeId="tpee.1068580123136" id="5527296032510113011">
                     <node role="statement" roleId="tpee.1068581517665" type="tpee.ExpressionStatement" typeId="tpee.1068580123155" id="5527296032510113012">
-                      <node role="expression" roleId="tpee.1068580123156" type="tpee.StaticMethodCall" typeId="tpee.1081236700937" id="5527296032510113013">
-                        <link role="classConcept" roleId="tpee.1144433194310" targetNodeId="1frp.~VariableNameUtil" resolveInfo="VariableNameUtil" />
-                        <link role="baseMethodDeclaration" roleId="tpee.1068499141037" targetNodeId="1frp.~VariableNameUtil%dcreateComplicatedNameSuffix(java%dlang%dString)%cjava%dlang%dString" resolveInfo="createComplicatedNameSuffix" />
-                        <node role="actualArgument" roleId="tpee.1068499141038" type="tpf8.TemplateFunctionParameter_templatePropertyValue" typeId="tpf8.1167756221419" id="5527296032510113014" />
+                      <node role="expression" roleId="tpee.1068580123156" type="tpee.StaticMethodCall" typeId="tpee.1081236700937" id="7116407498331261567">
+                        <link role="baseMethodDeclaration" roleId="tpee.1068499141037" targetNodeId="tp4m.5527296032509892705" resolveInfo="createComplicatedNameSuffix" />
+                        <link role="classConcept" roleId="tpee.1144433194310" targetNodeId="tp4m.5527296032509892699" resolveInfo="VariableNameUtil" />
+                        <node role="actualArgument" roleId="tpee.1068499141038" type="tpf8.TemplateFunctionParameter_templatePropertyValue" typeId="tpf8.1167756221419" id="7116407498331261568" />
                       </node>
                     </node>
                   </node>
@@ -5844,10 +5844,10 @@
               <node role="propertyValueFunction" roleId="tpf8.1167756362303" type="tpf8.PropertyMacro_GetPropertyValue" typeId="tpf8.1167756080639" id="5527296032510113625">
                 <node role="body" roleId="tpee.1137022507850" type="tpee.StatementList" typeId="tpee.1068580123136" id="5527296032510113626">
                   <node role="statement" roleId="tpee.1068581517665" type="tpee.ExpressionStatement" typeId="tpee.1068580123155" id="5527296032510113627">
-                    <node role="expression" roleId="tpee.1068580123156" type="tpee.StaticMethodCall" typeId="tpee.1081236700937" id="5527296032510113628">
-                      <link role="classConcept" roleId="tpee.1144433194310" targetNodeId="1frp.~VariableNameUtil" resolveInfo="VariableNameUtil" />
-                      <link role="baseMethodDeclaration" roleId="tpee.1068499141037" targetNodeId="1frp.~VariableNameUtil%dcreateComplicatedNameSuffix(java%dlang%dString)%cjava%dlang%dString" resolveInfo="createComplicatedNameSuffix" />
-                      <node role="actualArgument" roleId="tpee.1068499141038" type="tpf8.TemplateFunctionParameter_templatePropertyValue" typeId="tpf8.1167756221419" id="5527296032510113629" />
+                    <node role="expression" roleId="tpee.1068580123156" type="tpee.StaticMethodCall" typeId="tpee.1081236700937" id="7116407498331261445">
+                      <link role="baseMethodDeclaration" roleId="tpee.1068499141037" targetNodeId="tp4m.5527296032509892705" resolveInfo="createComplicatedNameSuffix" />
+                      <link role="classConcept" roleId="tpee.1144433194310" targetNodeId="tp4m.5527296032509892699" resolveInfo="VariableNameUtil" />
+                      <node role="actualArgument" roleId="tpee.1068499141038" type="tpf8.TemplateFunctionParameter_templatePropertyValue" typeId="tpf8.1167756221419" id="7116407498331261446" />
                     </node>
                   </node>
                 </node>
@@ -7789,10 +7789,10 @@
         <node role="propertyValueFunction" roleId="tpf8.1167756362303" type="tpf8.PropertyMacro_GetPropertyValue" typeId="tpf8.1167756080639" id="3680762252127977718">
           <node role="body" roleId="tpee.1137022507850" type="tpee.StatementList" typeId="tpee.1068580123136" id="3680762252127977719">
             <node role="statement" roleId="tpee.1068581517665" type="tpee.ExpressionStatement" typeId="tpee.1068580123155" id="3680762252127977720">
-              <node role="expression" roleId="tpee.1068580123156" type="tpee.StaticMethodCall" typeId="tpee.1081236700937" id="3680762252127977721">
-                <link role="classConcept" roleId="tpee.1144433194310" targetNodeId="1frp.~VariableNameUtil" resolveInfo="VariableNameUtil" />
-                <link role="baseMethodDeclaration" roleId="tpee.1068499141037" targetNodeId="1frp.~VariableNameUtil%dcreateComplicatedNameSuffix(java%dlang%dString)%cjava%dlang%dString" resolveInfo="createComplicatedNameSuffix" />
-                <node role="actualArgument" roleId="tpee.1068499141038" type="tpf8.TemplateFunctionParameter_templatePropertyValue" typeId="tpf8.1167756221419" id="3680762252127977722" />
+              <node role="expression" roleId="tpee.1068580123156" type="tpee.StaticMethodCall" typeId="tpee.1081236700937" id="7116407498331261569">
+                <link role="baseMethodDeclaration" roleId="tpee.1068499141037" targetNodeId="tp4m.5527296032509892705" resolveInfo="createComplicatedNameSuffix" />
+                <link role="classConcept" roleId="tpee.1144433194310" targetNodeId="tp4m.5527296032509892699" resolveInfo="VariableNameUtil" />
+                <node role="actualArgument" roleId="tpee.1068499141038" type="tpf8.TemplateFunctionParameter_templatePropertyValue" typeId="tpf8.1167756221419" id="7116407498331261570" />
               </node>
             </node>
           </node>
