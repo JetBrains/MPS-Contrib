@@ -1,20 +1,10 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <dependenciesRoot>
-  <dependency className="jetbrains.mps.gtext.Generator" file="Generator.java">
-    <classNode dependClassName="jetbrains.mps.generator.runtime.TemplateModel" />
-    <classNode dependClassName="java.util.Collection" />
-    <classNode dependClassName="jetbrains.mps.project.structure.modules.ModuleReference" />
-    <classNode dependClassName="java.lang.String" />
-    <classNode dependClassName="jetbrains.mps.generator.runtime.TemplateMappingPriorityRule" />
-    <classNode dependClassName="jetbrains.mps.generator.runtime.TemplateUtil" />
-    <classNode extendsClassName="jetbrains.mps.generator.runtime.TemplateModule" />
-  </dependency>
   <dependency className="jetbrains.mps.gtext.Language" file="Language.java">
-    <classNode dependClassName="java.lang.String" />
-    <classNode dependClassName="java.util.Collection" />
-    <classNode dependClassName="jetbrains.mps.gtext.Generator" />
     <classNode dependClassName="jetbrains.mps.project.structure.modules.ModuleReference" />
     <classNode dependClassName="jetbrains.mps.generator.runtime.TemplateUtil" />
+    <classNode dependClassName="java.util.Collection" />
+    <classNode dependClassName="java.lang.String" />
     <classNode dependClassName="jetbrains.mps.generator.runtime.TemplateModule" />
     <classNode extendsClassName="jetbrains.mps.smodel.language.LanguageRuntime" />
   </dependency>
