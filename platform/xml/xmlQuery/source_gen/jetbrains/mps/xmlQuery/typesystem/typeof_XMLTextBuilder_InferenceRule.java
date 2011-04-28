@@ -22,7 +22,7 @@ public class typeof_XMLTextBuilder_InferenceRule extends AbstractInferenceRule_R
     {
       SNode _nodeToCheck_1029348928467 = SLinkOperations.getTarget(builder, "value", true);
       EquationInfo _info_12389875345 = new EquationInfo(_nodeToCheck_1029348928467, null, "r:d89ddc4c-de44-408f-97b1-095c4af64bfb(jetbrains.mps.xmlQuery.typesystem)", "10026583185478632", 0, null);
-      typeCheckingContext.createLessThanInequation((SNode) typeCheckingContext.typeOf(_nodeToCheck_1029348928467, "r:d89ddc4c-de44-408f-97b1-095c4af64bfb(jetbrains.mps.xmlQuery.typesystem)", "10026583185478640", true), (SNode) new typeof_XMLTextBuilder_InferenceRule.QuotationClass_7u9a9p_a0a0a0().createNode(typeCheckingContext), false, _info_12389875345);
+      typeCheckingContext.createLessThanInequality((SNode) typeCheckingContext.typeOf(_nodeToCheck_1029348928467, "r:d89ddc4c-de44-408f-97b1-095c4af64bfb(jetbrains.mps.xmlQuery.typesystem)", "10026583185478640", true), (SNode) new typeof_XMLTextBuilder_InferenceRule.QuotationClass_7u9a9p_a0a0a0().createNode(typeCheckingContext), false, true, _info_12389875345);
     }
   }
 

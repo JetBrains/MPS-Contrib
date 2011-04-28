@@ -22,7 +22,7 @@ public class typeof_ReportErrorStatement_InferenceRule extends AbstractInference
     {
       SNode _nodeToCheck_1029348928467 = SLinkOperations.getTarget(statement, "error", true);
       EquationInfo _info_12389875345 = new EquationInfo(_nodeToCheck_1029348928467, null, "r:00000000-0000-4000-0000-011c89590364(jetbrains.mps.lang.plugin.typesystem)", "8821770403474038527", 0, null);
-      typeCheckingContext.createLessThanInequationStrong((SNode) typeCheckingContext.typeOf(SLinkOperations.getTarget(statement, "error", true), "r:00000000-0000-4000-0000-011c89590364(jetbrains.mps.lang.plugin.typesystem)", "8821770403474038519", true), (SNode) new typeof_ReportErrorStatement_InferenceRule.QuotationClass_8ar3un_a0a0a0().createNode(typeCheckingContext), true, _info_12389875345);
+      typeCheckingContext.createLessThanInequality((SNode) typeCheckingContext.typeOf(SLinkOperations.getTarget(statement, "error", true), "r:00000000-0000-4000-0000-011c89590364(jetbrains.mps.lang.plugin.typesystem)", "8821770403474038519", true), (SNode) new typeof_ReportErrorStatement_InferenceRule.QuotationClass_8ar3un_a0a0a0().createNode(typeCheckingContext), true, false, _info_12389875345);
     }
   }
 

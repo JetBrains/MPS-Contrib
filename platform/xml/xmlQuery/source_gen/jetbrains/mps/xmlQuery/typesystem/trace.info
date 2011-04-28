@@ -32,17 +32,17 @@
   <root nodeId="10026583185000614">
     <nodeInfo nodeId="10026583185000617" fileName="typeof_XMLAttributeBuilder_InferenceRule.java" startLine="20" startPosition="5" endLine="21" endPosition="91" conceptFqName="jetbrains.mps.baseLanguage.structure.LocalVariableDeclarationStatement" />
     <nodeInfo nodeId="10026583185000617" fileName="typeof_XMLAttributeBuilder_InferenceRule.java" startLine="21" startPosition="91" endLine="22" endPosition="197" conceptFqName="jetbrains.mps.baseLanguage.structure.LocalVariableDeclarationStatement" />
-    <nodeInfo nodeId="10026583185000617" fileName="typeof_XMLAttributeBuilder_InferenceRule.java" startLine="22" startPosition="197" endLine="23" endPosition="349" conceptFqName="jetbrains.mps.baseLanguage.structure.ExpressionStatement" />
+    <nodeInfo nodeId="10026583185000617" fileName="typeof_XMLAttributeBuilder_InferenceRule.java" startLine="22" startPosition="197" endLine="23" endPosition="355" conceptFqName="jetbrains.mps.baseLanguage.structure.ExpressionStatement" />
     <nodeInfo nodeId="10026583185000617" fileName="typeof_XMLAttributeBuilder_InferenceRule.java" startLine="19" startPosition="120" endLine="24" endPosition="5" conceptFqName="jetbrains.mps.baseLanguage.structure.BlockStatement" />
-    <scopeInfo nodeId="10026583185000617" fileName="typeof_XMLAttributeBuilder_InferenceRule.java" startLine="20" startPosition="5" endLine="23" endPosition="349" />
+    <scopeInfo nodeId="10026583185000617" fileName="typeof_XMLAttributeBuilder_InferenceRule.java" startLine="20" startPosition="5" endLine="23" endPosition="355" />
     <scopeInfo nodeId="10026583185000615" fileName="typeof_XMLAttributeBuilder_InferenceRule.java" startLine="19" startPosition="120" endLine="24" endPosition="5" />
   </root>
   <root nodeId="10026583185478629">
     <nodeInfo nodeId="10026583185478632" fileName="typeof_XMLTextBuilder_InferenceRule.java" startLine="22" startPosition="5" endLine="23" endPosition="91" conceptFqName="jetbrains.mps.baseLanguage.structure.LocalVariableDeclarationStatement" />
     <nodeInfo nodeId="10026583185478632" fileName="typeof_XMLTextBuilder_InferenceRule.java" startLine="23" startPosition="91" endLine="24" endPosition="197" conceptFqName="jetbrains.mps.baseLanguage.structure.LocalVariableDeclarationStatement" />
-    <nodeInfo nodeId="10026583185478632" fileName="typeof_XMLTextBuilder_InferenceRule.java" startLine="24" startPosition="197" endLine="25" endPosition="357" conceptFqName="jetbrains.mps.baseLanguage.structure.ExpressionStatement" />
+    <nodeInfo nodeId="10026583185478632" fileName="typeof_XMLTextBuilder_InferenceRule.java" startLine="24" startPosition="197" endLine="25" endPosition="363" conceptFqName="jetbrains.mps.baseLanguage.structure.ExpressionStatement" />
     <nodeInfo nodeId="10026583185478632" fileName="typeof_XMLTextBuilder_InferenceRule.java" startLine="21" startPosition="120" endLine="26" endPosition="5" conceptFqName="jetbrains.mps.baseLanguage.structure.BlockStatement" />
-    <scopeInfo nodeId="10026583185478632" fileName="typeof_XMLTextBuilder_InferenceRule.java" startLine="22" startPosition="5" endLine="25" endPosition="357" />
+    <scopeInfo nodeId="10026583185478632" fileName="typeof_XMLTextBuilder_InferenceRule.java" startLine="22" startPosition="5" endLine="25" endPosition="363" />
     <scopeInfo nodeId="10026583185478630" fileName="typeof_XMLTextBuilder_InferenceRule.java" startLine="21" startPosition="120" endLine="26" endPosition="5" />
   </root>
   <root nodeId="115745247309398848">
@@ -160,11 +160,11 @@
     <nodeInfo nodeId="4203809819610648546" fileName="typeof_AccessArbitraryChildrenOperation_InferenceRule.java" startLine="24" startPosition="199" endLine="25" endPosition="360" conceptFqName="jetbrains.mps.baseLanguage.structure.ExpressionStatement" />
     <nodeInfo nodeId="4203809819610648568" fileName="typeof_AccessArbitraryChildrenOperation_InferenceRule.java" startLine="27" startPosition="5" endLine="28" endPosition="107" conceptFqName="jetbrains.mps.baseLanguage.structure.LocalVariableDeclarationStatement" />
     <nodeInfo nodeId="4203809819610648568" fileName="typeof_AccessArbitraryChildrenOperation_InferenceRule.java" startLine="28" startPosition="107" endLine="29" endPosition="199" conceptFqName="jetbrains.mps.baseLanguage.structure.LocalVariableDeclarationStatement" />
-    <nodeInfo nodeId="4203809819610648568" fileName="typeof_AccessArbitraryChildrenOperation_InferenceRule.java" startLine="29" startPosition="199" endLine="30" endPosition="377" conceptFqName="jetbrains.mps.baseLanguage.structure.ExpressionStatement" />
+    <nodeInfo nodeId="4203809819610648568" fileName="typeof_AccessArbitraryChildrenOperation_InferenceRule.java" startLine="29" startPosition="199" endLine="30" endPosition="383" conceptFqName="jetbrains.mps.baseLanguage.structure.ExpressionStatement" />
     <nodeInfo nodeId="4203809819610648546" fileName="typeof_AccessArbitraryChildrenOperation_InferenceRule.java" startLine="21" startPosition="122" endLine="26" endPosition="5" conceptFqName="jetbrains.mps.baseLanguage.structure.BlockStatement" />
     <nodeInfo nodeId="4203809819610648568" fileName="typeof_AccessArbitraryChildrenOperation_InferenceRule.java" startLine="26" startPosition="5" endLine="31" endPosition="5" conceptFqName="jetbrains.mps.baseLanguage.structure.BlockStatement" />
     <scopeInfo nodeId="4203809819610648546" fileName="typeof_AccessArbitraryChildrenOperation_InferenceRule.java" startLine="22" startPosition="5" endLine="25" endPosition="360" />
-    <scopeInfo nodeId="4203809819610648568" fileName="typeof_AccessArbitraryChildrenOperation_InferenceRule.java" startLine="27" startPosition="5" endLine="30" endPosition="377" />
+    <scopeInfo nodeId="4203809819610648568" fileName="typeof_AccessArbitraryChildrenOperation_InferenceRule.java" startLine="27" startPosition="5" endLine="30" endPosition="383" />
     <scopeInfo nodeId="634907465121461836" fileName="typeof_AccessArbitraryChildrenOperation_InferenceRule.java" startLine="21" startPosition="122" endLine="31" endPosition="5" />
   </root>
   <root nodeId="634907465121486818">
@@ -173,11 +173,11 @@
     <nodeInfo nodeId="634907465121486825" fileName="typeof_AccessArbitraryAttributeOperation_InferenceRule.java" startLine="24" startPosition="198" endLine="25" endPosition="360" conceptFqName="jetbrains.mps.baseLanguage.structure.ExpressionStatement" />
     <nodeInfo nodeId="4203809819610648514" fileName="typeof_AccessArbitraryAttributeOperation_InferenceRule.java" startLine="27" startPosition="5" endLine="28" endPosition="111" conceptFqName="jetbrains.mps.baseLanguage.structure.LocalVariableDeclarationStatement" />
     <nodeInfo nodeId="4203809819610648514" fileName="typeof_AccessArbitraryAttributeOperation_InferenceRule.java" startLine="28" startPosition="111" endLine="29" endPosition="199" conceptFqName="jetbrains.mps.baseLanguage.structure.LocalVariableDeclarationStatement" />
-    <nodeInfo nodeId="4203809819610648514" fileName="typeof_AccessArbitraryAttributeOperation_InferenceRule.java" startLine="29" startPosition="199" endLine="30" endPosition="378" conceptFqName="jetbrains.mps.baseLanguage.structure.ExpressionStatement" />
+    <nodeInfo nodeId="4203809819610648514" fileName="typeof_AccessArbitraryAttributeOperation_InferenceRule.java" startLine="29" startPosition="199" endLine="30" endPosition="384" conceptFqName="jetbrains.mps.baseLanguage.structure.ExpressionStatement" />
     <nodeInfo nodeId="634907465121486825" fileName="typeof_AccessArbitraryAttributeOperation_InferenceRule.java" startLine="21" startPosition="122" endLine="26" endPosition="5" conceptFqName="jetbrains.mps.baseLanguage.structure.BlockStatement" />
     <nodeInfo nodeId="4203809819610648514" fileName="typeof_AccessArbitraryAttributeOperation_InferenceRule.java" startLine="26" startPosition="5" endLine="31" endPosition="5" conceptFqName="jetbrains.mps.baseLanguage.structure.BlockStatement" />
     <scopeInfo nodeId="634907465121486825" fileName="typeof_AccessArbitraryAttributeOperation_InferenceRule.java" startLine="22" startPosition="5" endLine="25" endPosition="360" />
-    <scopeInfo nodeId="4203809819610648514" fileName="typeof_AccessArbitraryAttributeOperation_InferenceRule.java" startLine="27" startPosition="5" endLine="30" endPosition="378" />
+    <scopeInfo nodeId="4203809819610648514" fileName="typeof_AccessArbitraryAttributeOperation_InferenceRule.java" startLine="27" startPosition="5" endLine="30" endPosition="384" />
     <scopeInfo nodeId="634907465121486819" fileName="typeof_AccessArbitraryAttributeOperation_InferenceRule.java" startLine="21" startPosition="122" endLine="31" endPosition="5" />
   </root>
   <root nodeId="7129398160684499233">
@@ -218,10 +218,10 @@
   <root nodeId="8666712036583043693">
     <nodeInfo nodeId="8666712036583043747" fileName="typeof_XMLSAXBreakStatement_InferenceRule.java" startLine="21" startPosition="7" endLine="22" endPosition="91" conceptFqName="jetbrains.mps.baseLanguage.structure.LocalVariableDeclarationStatement" />
     <nodeInfo nodeId="8666712036583043747" fileName="typeof_XMLSAXBreakStatement_InferenceRule.java" startLine="22" startPosition="91" endLine="23" endPosition="201" conceptFqName="jetbrains.mps.baseLanguage.structure.LocalVariableDeclarationStatement" />
-    <nodeInfo nodeId="8666712036583043747" fileName="typeof_XMLSAXBreakStatement_InferenceRule.java" startLine="23" startPosition="201" endLine="24" endPosition="437" conceptFqName="jetbrains.mps.baseLanguage.structure.ExpressionStatement" />
+    <nodeInfo nodeId="8666712036583043747" fileName="typeof_XMLSAXBreakStatement_InferenceRule.java" startLine="23" startPosition="201" endLine="24" endPosition="443" conceptFqName="jetbrains.mps.baseLanguage.structure.ExpressionStatement" />
     <nodeInfo nodeId="8666712036583043747" fileName="typeof_XMLSAXBreakStatement_InferenceRule.java" startLine="20" startPosition="68" endLine="25" endPosition="7" conceptFqName="jetbrains.mps.baseLanguage.structure.BlockStatement" />
     <nodeInfo nodeId="8666712036583043723" fileName="typeof_XMLSAXBreakStatement_InferenceRule.java" startLine="19" startPosition="117" endLine="26" endPosition="5" conceptFqName="jetbrains.mps.baseLanguage.structure.IfStatement" />
-    <scopeInfo nodeId="8666712036583043747" fileName="typeof_XMLSAXBreakStatement_InferenceRule.java" startLine="21" startPosition="7" endLine="24" endPosition="437" />
+    <scopeInfo nodeId="8666712036583043747" fileName="typeof_XMLSAXBreakStatement_InferenceRule.java" startLine="21" startPosition="7" endLine="24" endPosition="443" />
     <scopeInfo nodeId="8666712036583043724" fileName="typeof_XMLSAXBreakStatement_InferenceRule.java" startLine="20" startPosition="68" endLine="25" endPosition="7" />
     <scopeInfo nodeId="8666712036583043694" fileName="typeof_XMLSAXBreakStatement_InferenceRule.java" startLine="19" startPosition="117" endLine="26" endPosition="5" />
   </root>

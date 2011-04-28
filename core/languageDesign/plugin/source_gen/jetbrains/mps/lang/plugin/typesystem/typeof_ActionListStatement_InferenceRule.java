@@ -25,7 +25,7 @@ public class typeof_ActionListStatement_InferenceRule extends AbstractInferenceR
     {
       SNode _nodeToCheck_1029348928467 = SLinkOperations.getTarget(statement, "actions", true);
       EquationInfo _info_12389875345 = new EquationInfo(_nodeToCheck_1029348928467, null, "r:00000000-0000-4000-0000-011c89590364(jetbrains.mps.lang.plugin.typesystem)", "6586153900349329842", 0, null);
-      typeCheckingContext.createLessThanInequation((SNode) typeCheckingContext.typeOf(_nodeToCheck_1029348928467, "r:00000000-0000-4000-0000-011c89590364(jetbrains.mps.lang.plugin.typesystem)", "6586153900349329844", true), (SNode) new typeof_ActionListStatement_InferenceRule.QuotationClass_aab8tt_a0a0a0().createNode(typeCheckingContext), false, _info_12389875345);
+      typeCheckingContext.createLessThanInequality((SNode) typeCheckingContext.typeOf(_nodeToCheck_1029348928467, "r:00000000-0000-4000-0000-011c89590364(jetbrains.mps.lang.plugin.typesystem)", "6586153900349329844", true), (SNode) new typeof_ActionListStatement_InferenceRule.QuotationClass_aab8tt_a0a0a0().createNode(typeCheckingContext), false, true, _info_12389875345);
     }
   }
 

@@ -19,7 +19,7 @@ public class typeof_RunConfigPropertyInstance_InferenceRule extends AbstractInfe
     {
       SNode _nodeToCheck_1029348928467 = SLinkOperations.getTarget(runConfigPropertyInstance, "propertyValue", true);
       EquationInfo _info_12389875345 = new EquationInfo(_nodeToCheck_1029348928467, null, "r:00000000-0000-4000-0000-011c89590364(jetbrains.mps.lang.plugin.typesystem)", "3361586479360958949", 0, null);
-      typeCheckingContext.createLessThanInequationStrong((SNode) typeCheckingContext.typeOf(_nodeToCheck_1029348928467, "r:00000000-0000-4000-0000-011c89590364(jetbrains.mps.lang.plugin.typesystem)", "3361586479360958940", true), (SNode) SLinkOperations.getTarget(SLinkOperations.getTarget(runConfigPropertyInstance, "property", false), "type", true), false, _info_12389875345);
+      typeCheckingContext.createLessThanInequality((SNode) typeCheckingContext.typeOf(_nodeToCheck_1029348928467, "r:00000000-0000-4000-0000-011c89590364(jetbrains.mps.lang.plugin.typesystem)", "3361586479360958940", true), (SNode) SLinkOperations.getTarget(SLinkOperations.getTarget(runConfigPropertyInstance, "property", false), "type", true), false, false, _info_12389875345);
     }
   }
 

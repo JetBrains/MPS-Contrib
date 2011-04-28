@@ -21,7 +21,7 @@ public class typeof_Enum_InferenceRule extends AbstractInferenceRule_Runtime imp
       {
         SNode _nodeToCheck_1029348928467 = element;
         EquationInfo _info_12389875345 = new EquationInfo(_nodeToCheck_1029348928467, null, "r:00000000-0000-4000-0000-011c895904c4(jetbrains.mps.buildlanguage.typesystem)", "1197401256457", 0, null);
-        typeCheckingContext.createLessThanInequation((SNode) typeCheckingContext.typeOf(_nodeToCheck_1029348928467, "r:00000000-0000-4000-0000-011c895904c4(jetbrains.mps.buildlanguage.typesystem)", "1197401239298", true), (SNode) ListSequence.fromList(SLinkOperations.getConceptLinkTargets(nodeToCheck, "type")).first(), false, _info_12389875345);
+        typeCheckingContext.createLessThanInequality((SNode) typeCheckingContext.typeOf(_nodeToCheck_1029348928467, "r:00000000-0000-4000-0000-011c895904c4(jetbrains.mps.buildlanguage.typesystem)", "1197401239298", true), (SNode) ListSequence.fromList(SLinkOperations.getConceptLinkTargets(nodeToCheck, "type")).first(), false, true, _info_12389875345);
       }
     }
   }
