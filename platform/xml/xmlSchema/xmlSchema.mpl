@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<language namespace="jetbrains.mps.xmlSchema" uuid="b51b9e02-45dc-4b48-b300-cf49360a8d1f" java-stubs-enabled="false" compileInMPS="true" doNotGenerateAdapters="false">
+<language namespace="jetbrains.mps.xmlSchema" uuid="b51b9e02-45dc-4b48-b300-cf49360a8d1f" compileInMPS="true" doNotGenerateAdapters="false">
   <models>
     <modelRoot path="${language_descriptor}/languageModels" namespacePrefix="jetbrains.mps.xmlSchema" />
   </models>
