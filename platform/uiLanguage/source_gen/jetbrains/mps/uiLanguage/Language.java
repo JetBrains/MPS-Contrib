@@ -7,6 +7,8 @@ import jetbrains.mps.project.structure.modules.ModuleReference;
 import java.util.Collection;
 import jetbrains.mps.generator.runtime.TemplateModule;
 import jetbrains.mps.generator.runtime.TemplateUtil;
+import jetbrains.mps.lang.typesystem.runtime.IHelginsDescriptor;
+import jetbrains.mps.uiLanguage.typesystem.TypesystemDescriptor;
 
 public class Language extends LanguageRuntime {
   public static ModuleReference MODULE_REFERENCE = ModuleReference.fromString("5d6bee4c-f891-4a93-a0c9-e2268726ae47(jetbrains.mps.uiLanguage)");
@@ -19,6 +21,11 @@ public class Language extends LanguageRuntime {
 
   public String getNamespace() {
     return "jetbrains.mps.uiLanguage";
+  }
+
+  @Override
+  public IHelginsDescriptor getTypesystem() {
+    return new TypesystemDescriptor();
   }
 
   public Collection<TemplateModule> getGenerators() {
