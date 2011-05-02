@@ -7,6 +7,7 @@ import jetbrains.mps.project.structure.modules.ModuleReference;
 import java.util.Collection;
 import jetbrains.mps.generator.runtime.TemplateModule;
 import jetbrains.mps.generator.runtime.TemplateUtil;
+import jetbrains.mps.lang.typesystem.runtime.IHelginsDescriptor;
 
 public class Language extends LanguageRuntime {
   public static ModuleReference MODULE_REFERENCE = ModuleReference.fromString("64f62b28-36e3-4052-9f72-f616211ae615(jetbrains.mps.xmlInternal)");
@@ -19,6 +20,11 @@ public class Language extends LanguageRuntime {
 
   public String getNamespace() {
     return "jetbrains.mps.xmlInternal";
+  }
+
+  @Override
+  public IHelginsDescriptor getTypesystem() {
+    return null;
   }
 
   public Collection<TemplateModule> getGenerators() {

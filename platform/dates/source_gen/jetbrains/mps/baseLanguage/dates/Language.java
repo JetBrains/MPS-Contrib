@@ -7,6 +7,8 @@ import jetbrains.mps.project.structure.modules.ModuleReference;
 import java.util.Collection;
 import jetbrains.mps.generator.runtime.TemplateModule;
 import jetbrains.mps.generator.runtime.TemplateUtil;
+import jetbrains.mps.lang.typesystem.runtime.IHelginsDescriptor;
+import jetbrains.mps.baseLanguage.dates.typesystem.TypesystemDescriptor;
 
 public class Language extends LanguageRuntime {
   public static ModuleReference MODULE_REFERENCE = ModuleReference.fromString("cccc689c-f365-4862-a8b6-34ecddf8ee26(jetbrains.mps.baseLanguage.dates)");
@@ -19,6 +21,11 @@ public class Language extends LanguageRuntime {
 
   public String getNamespace() {
     return "jetbrains.mps.baseLanguage.dates";
+  }
+
+  @Override
+  public IHelginsDescriptor getTypesystem() {
+    return new TypesystemDescriptor();
   }
 
   public Collection<TemplateModule> getGenerators() {
