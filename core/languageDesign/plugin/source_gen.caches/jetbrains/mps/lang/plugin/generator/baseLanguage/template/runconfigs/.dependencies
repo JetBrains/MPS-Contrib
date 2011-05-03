@@ -12,7 +12,6 @@
     <classNode dependClassName="jetbrains.mps.lang.plugin.behavior.RunConfigurationTypeDeclaration_Behavior" />
     <classNode dependClassName="jetbrains.mps.lang.plugin.behavior.ActionDeclaration_Behavior" />
     <classNode dependClassName="jetbrains.mps.smodel.IOperationContext" />
-    <classNode dependClassName="java.util.List" />
     <classNode dependClassName="jetbrains.mps.lang.smodel.generator.smodelAdapter.SConceptPropertyOperations" />
     <classNode dependClassName="java.util.Set" />
     <classNode dependClassName="jetbrains.mps.generator.template.SourceSubstituteMacroNodesContext" />
