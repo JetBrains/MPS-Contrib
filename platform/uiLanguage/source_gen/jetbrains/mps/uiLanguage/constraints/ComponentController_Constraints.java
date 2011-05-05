@@ -4,23 +4,20 @@ package jetbrains.mps.uiLanguage.constraints;
 
 import jetbrains.mps.smodel.structure.ConstraintsDataHolder;
 import jetbrains.mps.smodel.SNode;
-import org.jetbrains.annotations.Nullable;
-import jetbrains.mps.smodel.structure.CanBeASomethingMethod;
-import jetbrains.mps.smodel.constraints.CanBeAChildContext;
-import jetbrains.mps.smodel.SNodePointer;
-import jetbrains.mps.smodel.IOperationContext;
-import jetbrains.mps.smodel.structure.CheckingNodeContext;
 import java.util.Map;
 import jetbrains.mps.smodel.constraints.INodePropertyGetter;
 import java.util.HashMap;
+import jetbrains.mps.smodel.constraints.BaseNodePropertyGetter;
+import jetbrains.mps.smodel.IScope;
+import jetbrains.mps.lang.smodel.generator.smodelAdapter.SPropertyOperations;
+import jetbrains.mps.lang.smodel.generator.smodelAdapter.SLinkOperations;
 import jetbrains.mps.smodel.constraints.INodePropertySetter;
 import jetbrains.mps.smodel.constraints.INodePropertyValidator;
 import jetbrains.mps.smodel.constraints.INodeReferentSetEventHandler;
 import jetbrains.mps.smodel.constraints.INodeReferentSearchScopeProvider;
-import jetbrains.mps.lang.smodel.generator.smodelAdapter.SNodeOperations;
 
-public class StandardDialog_Constraints extends ConstraintsDataHolder {
-  public StandardDialog_Constraints() {
+public class ComponentController_Constraints extends ConstraintsDataHolder {
+  public ComponentController_Constraints() {
   }
 
   public String getAlternativeIcon(SNode node) {
@@ -32,31 +29,20 @@ public class StandardDialog_Constraints extends ConstraintsDataHolder {
   }
 
   public String getConceptFqName() {
-    return "jetbrains.mps.uiLanguage.structure.StandardDialog";
+    return "jetbrains.mps.uiLanguage.structure.ComponentController";
   }
 
   public String getDefaultConcreteConceptFqName() {
-    return "jetbrains.mps.uiLanguage.structure.StandardDialog";
-  }
-
-  @Override
-  @Nullable
-  public CanBeASomethingMethod<CanBeAChildContext> getCanBeAChildMethod() {
-    return new CanBeASomethingMethod<CanBeAChildContext>() {
-      private SNodePointer breakingNode = new SNodePointer("r:fa076d39-0453-4fa7-91d1-765a2fb21a0b(jetbrains.mps.uiLanguage.constraints@2_0)", "1213107436302");
-
-      public boolean canBe(IOperationContext operationContext, CanBeAChildContext _context, @Nullable CheckingNodeContext checkingNodeContext) {
-        boolean result = canBeAChild(operationContext, _context);
-        if (!(result) && checkingNodeContext != null) {
-          checkingNodeContext.breakingNodePointer = breakingNode;
-        }
-        return result;
-      }
-    };
+    return "jetbrains.mps.uiLanguage.structure.ComponentController";
   }
 
   public Map<String, INodePropertyGetter> getNodePropertyGetters() {
     HashMap<String, INodePropertyGetter> result = new HashMap<String, INodePropertyGetter>();
+    result.put("name", new BaseNodePropertyGetter() {
+      public Object execPropertyGet(SNode node, String propertyName, IScope scope) {
+        return SPropertyOperations.getString(SLinkOperations.getTarget(node, "component", false), "name") + "_Controller";
+      }
+    });
     return result;
   }
 
@@ -78,9 +64,5 @@ public class StandardDialog_Constraints extends ConstraintsDataHolder {
   public Map<String, INodeReferentSearchScopeProvider> getNodeNonDefaultSearchScopeProviders() {
     HashMap<String, INodeReferentSearchScopeProvider> result = new HashMap<String, INodeReferentSearchScopeProvider>();
     return result;
-  }
-
-  public static boolean canBeAChild(final IOperationContext operationContext, final CanBeAChildContext _context) {
-    return SNodeOperations.isInstanceOf(_context.getParentNode(), "jetbrains.mps.uiLanguage.structure.ComponentDeclaration");
   }
 }

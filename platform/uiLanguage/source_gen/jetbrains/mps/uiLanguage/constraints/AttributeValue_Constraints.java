@@ -4,12 +4,6 @@ package jetbrains.mps.uiLanguage.constraints;
 
 import jetbrains.mps.smodel.structure.ConstraintsDataHolder;
 import jetbrains.mps.smodel.SNode;
-import org.jetbrains.annotations.Nullable;
-import jetbrains.mps.smodel.structure.CanBeASomethingMethod;
-import jetbrains.mps.smodel.constraints.CanBeAChildContext;
-import jetbrains.mps.smodel.SNodePointer;
-import jetbrains.mps.smodel.IOperationContext;
-import jetbrains.mps.smodel.structure.CheckingNodeContext;
 import java.util.Map;
 import jetbrains.mps.smodel.constraints.INodePropertyGetter;
 import java.util.HashMap;
@@ -17,12 +11,20 @@ import jetbrains.mps.smodel.constraints.INodePropertySetter;
 import jetbrains.mps.smodel.constraints.INodePropertyValidator;
 import jetbrains.mps.smodel.constraints.INodeReferentSetEventHandler;
 import jetbrains.mps.smodel.constraints.INodeReferentSearchScopeProvider;
+import jetbrains.mps.smodel.constraints.BaseNodeReferenceSearchScopeProvider;
+import jetbrains.mps.smodel.constraints.ModelConstraintsManager;
+import jetbrains.mps.smodel.IOperationContext;
+import jetbrains.mps.smodel.constraints.ReferentConstraintContext;
 import jetbrains.mps.lang.smodel.generator.smodelAdapter.SNodeOperations;
+import java.util.List;
+import java.util.ArrayList;
+import jetbrains.mps.internal.collections.runtime.ListSequence;
 import jetbrains.mps.uiLanguage.behavior.ComponentDeclaration_Behavior;
 import jetbrains.mps.lang.smodel.generator.smodelAdapter.SLinkOperations;
+import jetbrains.mps.smodel.SNodePointer;
 
-public class InlineRenderer_Constraints extends ConstraintsDataHolder {
-  public InlineRenderer_Constraints() {
+public class AttributeValue_Constraints extends ConstraintsDataHolder {
+  public AttributeValue_Constraints() {
   }
 
   public String getAlternativeIcon(SNode node) {
@@ -34,27 +36,11 @@ public class InlineRenderer_Constraints extends ConstraintsDataHolder {
   }
 
   public String getConceptFqName() {
-    return "jetbrains.mps.uiLanguage.structure.InlineRenderer";
+    return "jetbrains.mps.uiLanguage.structure.AttributeValue";
   }
 
   public String getDefaultConcreteConceptFqName() {
-    return "jetbrains.mps.uiLanguage.structure.InlineRenderer";
-  }
-
-  @Override
-  @Nullable
-  public CanBeASomethingMethod<CanBeAChildContext> getCanBeAChildMethod() {
-    return new CanBeASomethingMethod<CanBeAChildContext>() {
-      private SNodePointer breakingNode = new SNodePointer("r:fa076d39-0453-4fa7-91d1-765a2fb21a0b(jetbrains.mps.uiLanguage.constraints@2_0)", "1213107436134");
-
-      public boolean canBe(IOperationContext operationContext, CanBeAChildContext _context, @Nullable CheckingNodeContext checkingNodeContext) {
-        boolean result = canBeAChild(operationContext, _context);
-        if (!(result) && checkingNodeContext != null) {
-          checkingNodeContext.breakingNodePointer = breakingNode;
-        }
-        return result;
-      }
-    };
+    return "jetbrains.mps.uiLanguage.structure.AttributeValue";
   }
 
   public Map<String, INodePropertyGetter> getNodePropertyGetters() {
@@ -79,14 +65,26 @@ public class InlineRenderer_Constraints extends ConstraintsDataHolder {
 
   public Map<String, INodeReferentSearchScopeProvider> getNodeNonDefaultSearchScopeProviders() {
     HashMap<String, INodeReferentSearchScopeProvider> result = new HashMap<String, INodeReferentSearchScopeProvider>();
-    return result;
-  }
+    result.put("attribute", new BaseNodeReferenceSearchScopeProvider() {
+      public void registerSelf(ModelConstraintsManager manager) {
+      }
 
-  public static boolean canBeAChild(final IOperationContext operationContext, final CanBeAChildContext _context) {
-    if (!(SNodeOperations.isInstanceOf(_context.getParentNode(), "jetbrains.mps.uiLanguage.structure.ComponentInstance"))) {
-      return false;
-    }
-    SNode instance = SNodeOperations.cast(_context.getParentNode(), "jetbrains.mps.uiLanguage.structure.ComponentInstance");
-    return ComponentDeclaration_Behavior.call_hasCellRenderer_1213877495562(SLinkOperations.getTarget(instance, "componentDeclaration", false));
+      public void unRegisterSelf(ModelConstraintsManager manager) {
+      }
+
+      public Object createSearchScopeOrListOfNodes(final IOperationContext operationContext, final ReferentConstraintContext _context) {
+        SNode instance = SNodeOperations.getAncestor(_context.getEnclosingNode(), "jetbrains.mps.uiLanguage.structure.ComponentInstance", true, false);
+        List<SNode> result = new ArrayList<SNode>();
+        if (instance != null) {
+          ListSequence.fromList(result).addSequence(ListSequence.fromList(ComponentDeclaration_Behavior.call_getAttributes_1213877495417(SLinkOperations.getTarget(instance, "componentDeclaration", false))));
+        }
+        return result;
+      }
+
+      public SNodePointer getSearchScopeValidatorNodePointer() {
+        return new SNodePointer("r:00000000-0000-4000-0000-011c8959054e(jetbrains.mps.uiLanguage.constraints)", "1213104846880");
+      }
+    });
+    return result;
   }
 }
