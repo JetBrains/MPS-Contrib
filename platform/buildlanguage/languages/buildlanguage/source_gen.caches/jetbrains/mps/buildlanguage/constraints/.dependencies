@@ -1,93 +1,137 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <dependenciesRoot>
-  <dependency className="jetbrains.mps.buildlanguage.constraints.CallReference_call_ReferentConstraint" file="CallReference_call_ReferentConstraint.java">
-    <classNode dependClassName="java.lang.String" />
-    <classNode dependClassName="jetbrains.mps.smodel.constraints.ReferentConstraintContext" />
-    <classNode dependClassName="jetbrains.mps.smodel.SNode" />
-    <classNode dependClassName="java.lang.Object" />
-    <classNode dependClassName="jetbrains.mps.lang.smodel.generator.smodelAdapter.SPropertyOperations" />
-    <classNode dependClassName="jetbrains.mps.internal.collections.runtime.ListSequence" />
-    <classNode dependClassName="jetbrains.mps.internal.collections.runtime.IWhereFilter" />
-    <classNode dependClassName="org.apache.commons.lang.StringUtils" />
-    <classNode dependClassName="jetbrains.mps.smodel.constraints.ModelConstraintsManager" />
+  <dependency className="jetbrains.mps.buildlanguage.constraints.CallReference_Constraints" file="CallReference_Constraints.java">
+    <classNode dependClassName="jetbrains.mps.smodel.constraints.INodeReferentSetEventHandler" />
     <classNode dependClassName="jetbrains.mps.lang.smodel.generator.smodelAdapter.SNodeOperations" />
-    <classNode dependClassName="jetbrains.mps.smodel.SNodePointer" />
-    <classNode dependClassName="jetbrains.mps.smodel.IOperationContext" />
-    <classNode extendsClassName="jetbrains.mps.smodel.constraints.BaseNodeReferenceSearchScopeProvider" />
-    <classNode extendsClassName="jetbrains.mps.smodel.constraints.IModelConstraints" />
-  </dependency>
-  <dependency className="jetbrains.mps.buildlanguage.constraints.ConstraintsDescriptor" file="ConstraintsDescriptor.java">
-    <classNode dependClassName="jetbrains.mps.buildlanguage.constraints.TargetReference_targetDeclaration_ReferentConstraint" />
-    <classNode dependClassName="java.util.List" />
-    <classNode dependClassName="jetbrains.mps.buildlanguage.constraints.PropertyReference_propertyDeclaration_ReferentConstraint" />
-    <classNode dependClassName="jetbrains.mps.buildlanguage.constraints.StringLiteral_name_PropertyConstraint" />
-    <classNode dependClassName="jetbrains.mps.buildlanguage.constraints.TargetReferencePropertyValueExpression_fullName_PropertyConstraint" />
+    <classNode dependClassName="jetbrains.mps.smodel.constraints.INodePropertySetter" />
+    <classNode dependClassName="jetbrains.mps.smodel.SNode" />
     <classNode dependClassName="jetbrains.mps.internal.collections.runtime.ListSequence" />
-    <classNode dependClassName="jetbrains.mps.buildlanguage.constraints.CallReference_call_ReferentConstraint" />
-    <classNode dependClassName="jetbrains.mps.buildlanguage.constraints.MultiLineString_name_PropertyConstraint" />
+    <classNode dependClassName="org.apache.commons.lang.StringUtils" />
+    <classNode dependClassName="java.util.HashMap" />
+    <classNode dependClassName="java.lang.Object" />
+    <classNode dependClassName="java.lang.String" />
+    <classNode dependClassName="jetbrains.mps.lang.smodel.generator.smodelAdapter.SPropertyOperations" />
+    <classNode dependClassName="jetbrains.mps.smodel.constraints.INodePropertyValidator" />
     <classNode dependClassName="jetbrains.mps.smodel.constraints.ModelConstraintsManager" />
-    <classNode dependClassName="java.util.ArrayList" />
-    <classNode extendsClassName="jetbrains.mps.smodel.constraints.IModelConstraints" />
+    <classNode dependClassName="jetbrains.mps.smodel.constraints.BaseNodeReferenceSearchScopeProvider" />
+    <classNode dependClassName="jetbrains.mps.smodel.IOperationContext" />
+    <classNode dependClassName="java.util.Map" />
+    <classNode dependClassName="jetbrains.mps.smodel.constraints.INodeReferentSearchScopeProvider" />
+    <classNode dependClassName="jetbrains.mps.smodel.SNodePointer" />
+    <classNode dependClassName="jetbrains.mps.internal.collections.runtime.IWhereFilter" />
+    <classNode dependClassName="jetbrains.mps.smodel.constraints.ReferentConstraintContext" />
+    <classNode dependClassName="jetbrains.mps.smodel.constraints.INodePropertyGetter" />
+    <classNode extendsClassName="jetbrains.mps.smodel.structure.ConstraintsDataHolder" />
   </dependency>
   <dependency className="jetbrains.mps.buildlanguage.constraints.ExternalPropertyDeclaration_Constraints" file="ExternalPropertyDeclaration_Constraints.java">
-    <classNode dependClassName="jetbrains.mps.smodel.IOperationContext" />
-    <classNode dependClassName="jetbrains.mps.smodel.constraints.CanBeAChildContext" />
+    <classNode dependClassName="jetbrains.mps.smodel.constraints.INodeReferentSetEventHandler" />
+    <classNode dependClassName="jetbrains.mps.smodel.constraints.INodePropertySetter" />
+    <classNode dependClassName="jetbrains.mps.smodel.SNode" />
     <classNode dependClassName="jetbrains.mps.lang.smodel.generator.smodelAdapter.SNodeOperations" />
+    <classNode dependClassName="jetbrains.mps.smodel.constraints.CanBeAChildContext" />
+    <classNode dependClassName="java.util.HashMap" />
+    <classNode dependClassName="java.lang.String" />
+    <classNode dependClassName="org.jetbrains.annotations.Nullable" />
+    <classNode dependClassName="jetbrains.mps.smodel.constraints.INodePropertyValidator" />
+    <classNode dependClassName="jetbrains.mps.smodel.IOperationContext" />
+    <classNode dependClassName="java.util.Map" />
+    <classNode dependClassName="java.lang.Override" />
+    <classNode dependClassName="jetbrains.mps.smodel.constraints.INodeReferentSearchScopeProvider" />
+    <classNode dependClassName="jetbrains.mps.smodel.structure.CheckingNodeContext" />
+    <classNode dependClassName="jetbrains.mps.smodel.structure.CanBeASomethingMethod" />
+    <classNode dependClassName="jetbrains.mps.smodel.SNodePointer" />
+    <classNode dependClassName="jetbrains.mps.smodel.constraints.INodePropertyGetter" />
+    <classNode extendsClassName="jetbrains.mps.smodel.structure.ConstraintsDataHolder" />
   </dependency>
-  <dependency className="jetbrains.mps.buildlanguage.constraints.MultiLineString_name_PropertyConstraint" file="MultiLineString_name_PropertyConstraint.java">
+  <dependency className="jetbrains.mps.buildlanguage.constraints.MultiLineString_Constraints" file="MultiLineString_Constraints.java">
+    <classNode dependClassName="jetbrains.mps.smodel.constraints.INodeReferentSetEventHandler" />
+    <classNode dependClassName="jetbrains.mps.buildlanguage.behavior.PropertyValueExpression_Behavior" />
+    <classNode dependClassName="jetbrains.mps.smodel.constraints.INodePropertySetter" />
+    <classNode dependClassName="jetbrains.mps.smodel.SNode" />
+    <classNode dependClassName="jetbrains.mps.internal.collections.runtime.ListSequence" />
+    <classNode dependClassName="jetbrains.mps.smodel.constraints.BaseNodePropertyGetter" />
+    <classNode dependClassName="java.lang.Object" />
     <classNode dependClassName="java.lang.String" />
     <classNode dependClassName="jetbrains.mps.lang.smodel.generator.smodelAdapter.SLinkOperations" />
-    <classNode dependClassName="jetbrains.mps.smodel.SNode" />
-    <classNode dependClassName="java.lang.Object" />
-    <classNode dependClassName="jetbrains.mps.buildlanguage.behavior.PropertyValueExpression_Behavior" />
-    <classNode dependClassName="jetbrains.mps.internal.collections.runtime.ListSequence" />
+    <classNode dependClassName="jetbrains.mps.smodel.constraints.INodePropertyValidator" />
+    <classNode dependClassName="java.util.Map" />
+    <classNode dependClassName="java.util.HashMap" />
+    <classNode dependClassName="jetbrains.mps.smodel.constraints.INodeReferentSearchScopeProvider" />
     <classNode dependClassName="jetbrains.mps.smodel.IScope" />
-    <classNode dependClassName="jetbrains.mps.smodel.constraints.ModelConstraintsManager" />
-    <classNode extendsClassName="jetbrains.mps.smodel.constraints.IModelConstraints" />
-    <classNode extendsClassName="jetbrains.mps.smodel.constraints.INodePropertyGetter" />
+    <classNode dependClassName="jetbrains.mps.smodel.constraints.INodePropertyGetter" />
+    <classNode extendsClassName="jetbrains.mps.smodel.structure.ConstraintsDataHolder" />
   </dependency>
-  <dependency className="jetbrains.mps.buildlanguage.constraints.PropertyReference_propertyDeclaration_ReferentConstraint" file="PropertyReference_propertyDeclaration_ReferentConstraint.java">
-    <classNode dependClassName="jetbrains.mps.smodel.constraints.ReferentConstraintContext" />
+  <dependency className="jetbrains.mps.buildlanguage.constraints.PropertyReference_Constraints" file="PropertyReference_Constraints.java">
+    <classNode dependClassName="jetbrains.mps.smodel.constraints.INodeReferentSetEventHandler" />
+    <classNode dependClassName="jetbrains.mps.smodel.constraints.INodePropertySetter" />
+    <classNode dependClassName="jetbrains.mps.smodel.SNode" />
+    <classNode dependClassName="jetbrains.mps.smodel.constraints.INodePropertyGetter" />
+    <classNode dependClassName="java.util.HashMap" />
     <classNode dependClassName="java.lang.Object" />
-    <classNode dependClassName="jetbrains.mps.smodel.IOperationContext" />
-    <classNode dependClassName="jetbrains.mps.smodel.constraints.ModelConstraintsManager" />
-    <classNode dependClassName="jetbrains.mps.smodel.SNodePointer" />
-    <classNode dependClassName="jetbrains.mps.buildlanguage.behavior.PropertyReference_Behavior" />
-    <classNode extendsClassName="jetbrains.mps.smodel.constraints.BaseNodeReferenceSearchScopeProvider" />
-    <classNode extendsClassName="jetbrains.mps.smodel.constraints.IModelConstraints" />
-  </dependency>
-  <dependency className="jetbrains.mps.buildlanguage.constraints.StringLiteral_name_PropertyConstraint" file="StringLiteral_name_PropertyConstraint.java">
     <classNode dependClassName="java.lang.String" />
+    <classNode dependClassName="jetbrains.mps.smodel.constraints.INodePropertyValidator" />
+    <classNode dependClassName="jetbrains.mps.smodel.constraints.ModelConstraintsManager" />
+    <classNode dependClassName="jetbrains.mps.smodel.constraints.BaseNodeReferenceSearchScopeProvider" />
+    <classNode dependClassName="jetbrains.mps.smodel.IOperationContext" />
+    <classNode dependClassName="java.util.Map" />
+    <classNode dependClassName="jetbrains.mps.buildlanguage.behavior.PropertyReference_Behavior" />
+    <classNode dependClassName="jetbrains.mps.smodel.constraints.INodeReferentSearchScopeProvider" />
+    <classNode dependClassName="jetbrains.mps.smodel.SNodePointer" />
+    <classNode dependClassName="jetbrains.mps.smodel.constraints.ReferentConstraintContext" />
+    <classNode extendsClassName="jetbrains.mps.smodel.structure.ConstraintsDataHolder" />
+  </dependency>
+  <dependency className="jetbrains.mps.buildlanguage.constraints.StringLiteral_Constraints" file="StringLiteral_Constraints.java">
+    <classNode dependClassName="java.lang.String" />
+    <classNode dependClassName="jetbrains.mps.smodel.constraints.INodeReferentSetEventHandler" />
+    <classNode dependClassName="jetbrains.mps.smodel.constraints.INodePropertySetter" />
+    <classNode dependClassName="jetbrains.mps.smodel.constraints.BaseNodePropertyGetter" />
     <classNode dependClassName="jetbrains.mps.smodel.SNode" />
     <classNode dependClassName="java.lang.Object" />
     <classNode dependClassName="jetbrains.mps.lang.smodel.generator.smodelAdapter.SPropertyOperations" />
+    <classNode dependClassName="java.util.Map" />
     <classNode dependClassName="jetbrains.mps.smodel.IScope" />
-    <classNode dependClassName="jetbrains.mps.smodel.constraints.ModelConstraintsManager" />
-    <classNode extendsClassName="jetbrains.mps.smodel.constraints.IModelConstraints" />
-    <classNode extendsClassName="jetbrains.mps.smodel.constraints.INodePropertyGetter" />
+    <classNode dependClassName="jetbrains.mps.smodel.constraints.INodePropertyGetter" />
+    <classNode dependClassName="jetbrains.mps.smodel.constraints.INodeReferentSearchScopeProvider" />
+    <classNode dependClassName="jetbrains.mps.smodel.constraints.INodePropertyValidator" />
+    <classNode dependClassName="java.util.HashMap" />
+    <classNode extendsClassName="jetbrains.mps.smodel.structure.ConstraintsDataHolder" />
   </dependency>
-  <dependency className="jetbrains.mps.buildlanguage.constraints.TargetReferencePropertyValueExpression_fullName_PropertyConstraint" file="TargetReferencePropertyValueExpression_fullName_PropertyConstraint.java">
-    <classNode dependClassName="jetbrains.mps.lang.smodel.generator.smodelAdapter.SNodeOperations" />
-    <classNode dependClassName="jetbrains.mps.lang.smodel.generator.smodelAdapter.SLinkOperations" />
+  <dependency className="jetbrains.mps.buildlanguage.constraints.TargetReferencePropertyValueExpression_Constraints" file="TargetReferencePropertyValueExpression_Constraints.java">
+    <classNode dependClassName="jetbrains.mps.smodel.constraints.INodeReferentSetEventHandler" />
+    <classNode dependClassName="jetbrains.mps.smodel.constraints.INodePropertySetter" />
     <classNode dependClassName="jetbrains.mps.smodel.SNode" />
+    <classNode dependClassName="jetbrains.mps.lang.smodel.generator.smodelAdapter.SNodeOperations" />
+    <classNode dependClassName="jetbrains.mps.smodel.constraints.BaseNodePropertyGetter" />
     <classNode dependClassName="java.lang.Object" />
     <classNode dependClassName="java.lang.String" />
+    <classNode dependClassName="jetbrains.mps.lang.smodel.generator.smodelAdapter.SLinkOperations" />
+    <classNode dependClassName="jetbrains.mps.smodel.constraints.INodePropertyValidator" />
+    <classNode dependClassName="java.util.Map" />
+    <classNode dependClassName="java.util.HashMap" />
+    <classNode dependClassName="jetbrains.mps.smodel.constraints.INodeReferentSearchScopeProvider" />
     <classNode dependClassName="jetbrains.mps.smodel.IScope" />
-    <classNode dependClassName="jetbrains.mps.smodel.constraints.ModelConstraintsManager" />
-    <classNode extendsClassName="jetbrains.mps.smodel.constraints.IModelConstraints" />
-    <classNode extendsClassName="jetbrains.mps.smodel.constraints.INodePropertyGetter" />
+    <classNode dependClassName="jetbrains.mps.smodel.constraints.INodePropertyGetter" />
+    <classNode extendsClassName="jetbrains.mps.smodel.structure.ConstraintsDataHolder" />
   </dependency>
-  <dependency className="jetbrains.mps.buildlanguage.constraints.TargetReference_targetDeclaration_ReferentConstraint" file="TargetReference_targetDeclaration_ReferentConstraint.java">
+  <dependency className="jetbrains.mps.buildlanguage.constraints.TargetReference_Constraints" file="TargetReference_Constraints.java">
+    <classNode dependClassName="jetbrains.mps.smodel.constraints.INodeReferentSetEventHandler" />
+    <classNode dependClassName="jetbrains.mps.smodel.constraints.INodePropertySetter" />
+    <classNode dependClassName="jetbrains.mps.smodel.constraints.INodeReferentSearchScopeProvider" />
+    <classNode dependClassName="jetbrains.mps.lang.smodel.generator.smodelAdapter.SNodeOperations" />
+    <classNode dependClassName="java.util.HashMap" />
+    <classNode dependClassName="java.lang.Object" />
+    <classNode dependClassName="java.lang.String" />
+    <classNode dependClassName="jetbrains.mps.smodel.constraints.INodePropertyValidator" />
+    <classNode dependClassName="jetbrains.mps.smodel.constraints.BaseNodeReferenceSearchScopeProvider" />
+    <classNode dependClassName="jetbrains.mps.smodel.IOperationContext" />
+    <classNode dependClassName="java.util.Map" />
+    <classNode dependClassName="jetbrains.mps.smodel.constraints.ModelConstraintsManager" />
     <classNode dependClassName="jetbrains.mps.buildlanguage.behavior.Project_Behavior" />
+    <classNode dependClassName="jetbrains.mps.smodel.SNodePointer" />
     <classNode dependClassName="jetbrains.mps.smodel.constraints.ReferentConstraintContext" />
     <classNode dependClassName="jetbrains.mps.smodel.SNode" />
-    <classNode dependClassName="java.lang.Object" />
-    <classNode dependClassName="jetbrains.mps.smodel.IOperationContext" />
-    <classNode dependClassName="jetbrains.mps.lang.smodel.generator.smodelAdapter.SNodeOperations" />
-    <classNode dependClassName="jetbrains.mps.smodel.constraints.ModelConstraintsManager" />
-    <classNode dependClassName="jetbrains.mps.smodel.SNodePointer" />
-    <classNode extendsClassName="jetbrains.mps.smodel.constraints.BaseNodeReferenceSearchScopeProvider" />
-    <classNode extendsClassName="jetbrains.mps.smodel.constraints.IModelConstraints" />
+    <classNode dependClassName="jetbrains.mps.smodel.constraints.INodePropertyGetter" />
+    <classNode extendsClassName="jetbrains.mps.smodel.structure.ConstraintsDataHolder" />
   </dependency>
 </dependenciesRoot>
 

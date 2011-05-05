@@ -1,18 +1,20 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <debugInfo>
-  <unitInfo fileName="GContentPlaceholder_Constraints.java" startLine="9" startPosition="0" endLine="15" endPosition="0" unitName="jetbrains.mps.gtext.constraints.GContentPlaceholder_Constraints" />
-  <unitInfo fileName="ConstraintsDescriptor.java" startLine="11" startPosition="0" endLine="30" endPosition="0" unitName="jetbrains.mps.gtext.constraints.ConstraintsDescriptor" />
-  <unitInfo fileName="GDocument_name_PropertyConstraint.java" startLine="13" startPosition="0" endLine="35" endPosition="0" unitName="jetbrains.mps.gtext.constraints.GDocument_name_PropertyConstraint" />
+  <unitInfo fileName="GDocument_Constraints.java" startLine="41" startPosition="27" endLine="45" endPosition="5" unitName="jetbrains.mps.gtext.constraints.GDocument_Constraints$1" />
+  <unitInfo fileName="GDocument_Constraints.java" startLine="51" startPosition="27" endLine="55" endPosition="5" unitName="jetbrains.mps.gtext.constraints.GDocument_Constraints$2" />
+  <unitInfo fileName="GContentPlaceholder_Constraints.java" startLine="45" startPosition="15" endLine="55" endPosition="5" unitName="jetbrains.mps.gtext.constraints.GContentPlaceholder_Constraints$1" />
+  <unitInfo fileName="GDocument_Constraints.java" startLine="19" startPosition="0" endLine="74" endPosition="0" unitName="jetbrains.mps.gtext.constraints.GDocument_Constraints" />
+  <unitInfo fileName="GContentPlaceholder_Constraints.java" startLine="22" startPosition="0" endLine="88" endPosition="0" unitName="jetbrains.mps.gtext.constraints.GContentPlaceholder_Constraints" />
   <root nodeId="1213104844571">
-    <nodeInfo nodeId="1213104844575" fileName="GDocument_name_PropertyConstraint.java" startLine="27" startPosition="80" endLine="28" endPosition="63" conceptFqName="jetbrains.mps.baseLanguage.structure.ReturnStatement" />
-    <nodeInfo nodeId="7376433222636453717" fileName="GDocument_name_PropertyConstraint.java" startLine="31" startPosition="124" endLine="32" endPosition="11" conceptFqName="jetbrains.mps.baseLanguage.structure.SingleLineComment" />
-    <scopeInfo nodeId="1213104844574" fileName="GDocument_name_PropertyConstraint.java" startLine="27" startPosition="80" endLine="28" endPosition="63" />
-    <scopeInfo nodeId="2560685941238418435" fileName="GDocument_name_PropertyConstraint.java" startLine="31" startPosition="124" endLine="32" endPosition="11" />
+    <nodeInfo nodeId="1213104844575" fileName="GDocument_Constraints.java" startLine="42" startPosition="84" endLine="43" endPosition="67" conceptFqName="jetbrains.mps.baseLanguage.structure.ReturnStatement" />
+    <nodeInfo nodeId="7376433222636453717" fileName="GDocument_Constraints.java" startLine="52" startPosition="128" endLine="53" endPosition="15" conceptFqName="jetbrains.mps.baseLanguage.structure.SingleLineComment" />
+    <scopeInfo nodeId="1213104844574" fileName="GDocument_Constraints.java" startLine="42" startPosition="84" endLine="43" endPosition="67" />
+    <scopeInfo nodeId="2560685941238418435" fileName="GDocument_Constraints.java" startLine="52" startPosition="128" endLine="53" endPosition="15" />
   </root>
   <root nodeId="1213107436024">
-    <nodeInfo nodeId="7376433222636454045" fileName="GContentPlaceholder_Constraints.java" startLine="10" startPosition="114" endLine="11" endPosition="34" conceptFqName="jetbrains.mps.baseLanguage.structure.SingleLineComment" />
-    <nodeInfo nodeId="1213107436028" fileName="GContentPlaceholder_Constraints.java" startLine="11" startPosition="34" endLine="12" endPosition="135" conceptFqName="jetbrains.mps.baseLanguage.structure.ReturnStatement" />
-    <scopeInfo nodeId="1213107436026" fileName="GContentPlaceholder_Constraints.java" startLine="10" startPosition="114" endLine="12" endPosition="135" />
+    <nodeInfo nodeId="7376433222636454045" fileName="GContentPlaceholder_Constraints.java" startLine="83" startPosition="114" endLine="84" endPosition="34" conceptFqName="jetbrains.mps.baseLanguage.structure.SingleLineComment" />
+    <nodeInfo nodeId="1213107436028" fileName="GContentPlaceholder_Constraints.java" startLine="84" startPosition="34" endLine="85" endPosition="135" conceptFqName="jetbrains.mps.baseLanguage.structure.ReturnStatement" />
+    <scopeInfo nodeId="1213107436026" fileName="GContentPlaceholder_Constraints.java" startLine="83" startPosition="114" endLine="85" endPosition="135" />
   </root>
 </debugInfo>
 
