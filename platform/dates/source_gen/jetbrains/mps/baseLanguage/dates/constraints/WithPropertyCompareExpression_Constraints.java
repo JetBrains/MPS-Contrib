@@ -44,7 +44,7 @@ public class WithPropertyCompareExpression_Constraints extends ConstraintsDataHo
   @Override
   public CanBeASomethingMethod<CanBeAParentContext> getCanBeAParentMethod() {
     return new CanBeASomethingMethod<CanBeAParentContext>() {
-      private SNodePointer breakingNode = new SNodePointer("r:8f5f59a7-012d-467f-aac4-daf1e7f4bfa0(jetbrains.mps.baseLanguage.dates.constraints@2_0)", "8931998598488287817");
+      private SNodePointer breakingNode = new SNodePointer("r:00000000-0000-4000-0000-011c895903cf(jetbrains.mps.baseLanguage.dates.constraints)", "8931998598488287817");
 
       public boolean canBe(IOperationContext operationContext, CanBeAParentContext _context, @Nullable CheckingNodeContext checkingNodeContext) {
         boolean result = canBeAParent(operationContext, _context);

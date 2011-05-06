@@ -49,7 +49,7 @@ public class TimeZoneNameOperation_Constraints extends ConstraintsDataHolder {
   @Nullable
   public CanBeASomethingMethod<CanBeAChildContext> getCanBeAChildMethod() {
     return new CanBeASomethingMethod<CanBeAChildContext>() {
-      private SNodePointer breakingNode = new SNodePointer("r:8f5f59a7-012d-467f-aac4-daf1e7f4bfa0(jetbrains.mps.baseLanguage.dates.constraints@2_0)", "5293902215866131466");
+      private SNodePointer breakingNode = new SNodePointer("r:00000000-0000-4000-0000-011c895903cf(jetbrains.mps.baseLanguage.dates.constraints)", "5293902215866131466");
 
       public boolean canBe(IOperationContext operationContext, CanBeAChildContext _context, @Nullable CheckingNodeContext checkingNodeContext) {
         boolean result = canBeAChild(operationContext, _context);
