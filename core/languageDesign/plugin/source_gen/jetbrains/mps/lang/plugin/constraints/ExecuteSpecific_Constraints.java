@@ -43,7 +43,7 @@ public class ExecuteSpecific_Constraints extends ConstraintsDataHolder {
   @Nullable
   public CanBeASomethingMethod<CanBeAChildContext> getCanBeAChildMethod() {
     return new CanBeASomethingMethod<CanBeAChildContext>() {
-      private SNodePointer breakingNode = new SNodePointer("r:221b624d-4e65-4533-a19d-c8f562e9936e(jetbrains.mps.lang.plugin.constraints@2_0)", "678887849223527752");
+      private SNodePointer breakingNode = new SNodePointer("r:00000000-0000-4000-0000-011c89590361(jetbrains.mps.lang.plugin.constraints)", "678887849223527752");
 
       public boolean canBe(IOperationContext operationContext, CanBeAChildContext _context, @Nullable CheckingNodeContext checkingNodeContext) {
         boolean result = canBeAChild(operationContext, _context);

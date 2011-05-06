@@ -44,7 +44,7 @@ public class TextBuilder_Constraints extends ConstraintsDataHolder {
   @Nullable
   public CanBeASomethingMethod<CanBeAChildContext> getCanBeAChildMethod() {
     return new CanBeASomethingMethod<CanBeAChildContext>() {
-      private SNodePointer breakingNode = new SNodePointer("r:bf7ab09a-f315-4058-aafb-9122a200106a(jetbrains.mps.xmlQuery.constraints@2_0)", "7567280977594965152");
+      private SNodePointer breakingNode = new SNodePointer("r:e79b58b4-ea58-4c9d-b43b-c3a260addf6a(jetbrains.mps.xmlQuery.constraints)", "7567280977594965152");
 
       public boolean canBe(IOperationContext operationContext, CanBeAChildContext _context, @Nullable CheckingNodeContext checkingNodeContext) {
         boolean result = canBeAChild(operationContext, _context);
