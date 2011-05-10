@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<model modelUID="r:7a6a35c6-e369-4565-b91b-c7c8dfa2c8d7(jetbrains.mps.build.generictasks.generated)">
+<model modelUID="r:7a6a35c6-e369-4565-b91b-c7c8dfa2c8d7(jetbrains.mps.build.generictasks.generated)" doNotGenerate="true">
   <persistence version="7" />
   <language namespace="0b608d44-1308-418d-8715-22d040c3b3cc(jetbrains.mps.buildlanguage)" />
   <language namespace="fba399db-f591-45dc-a279-e2a2a986e262(jetbrains.mps.build.generictasks)" />
@@ -8094,9 +8094,6 @@
       <property name="name" nameId="tpck.1169194664001" value="fork" />
       <property name="required" nameId="ddum.353793545802643476" value="false" />
       <property name="deprecated" nameId="ddum.353793545802643475" value="false" />
-      <node role="default" roleId="ddum.353793545802643472" type="tpsk.BooleanLiteral" typeId="tpsk.1196865966685" id="353793545802813688">
-        <property name="value" nameId="tpsk.1196866040780" value="false" />
-      </node>
       <node role="attributeType" roleId="ddum.353793545802643473" type="tpsk.BooleanType" typeId="tpsk.1196870363565" id="353793545802813689" />
     </node>
     <node role="attributesDecl" roleId="ddum.7699562953468509840" type="ddum.AttributeDeclaration" typeId="ddum.353793545802643469" id="353793545802813690">
