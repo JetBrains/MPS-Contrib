@@ -15,7 +15,7 @@
   <unitInfo fileName="typeof_XMLSAXLocatorExpression_InferenceRule.java" startLine="46" startPosition="0" endLine="76" endPosition="0" unitName="jetbrains.mps.xmlQuery.typesystem.typeof_XMLSAXLocatorExpression_InferenceRule$QuotationClass_kp63mp_a0a0a0" />
   <unitInfo fileName="typeof_XMLSAXChildHandler_childObject_InferenceRule.java" startLine="52" startPosition="0" endLine="82" endPosition="0" unitName="jetbrains.mps.xmlQuery.typesystem.typeof_XMLSAXChildHandler_childObject_InferenceRule$QuotationClass_4xzpao_a0a0b0a" />
   <unitInfo fileName="supertypeof_XMLElementType_SubtypingRule.java" startLine="62" startPosition="0" endLine="92" endPosition="0" unitName="jetbrains.mps.xmlQuery.typesystem.supertypeof_XMLElementType_SubtypingRule$QuotationClass_vusj77_a0a0a0a" />
-  <unitInfo fileName="check_XMLElementType_references_NonTypesystemRule.java" startLine="17" startPosition="0" endLine="52" endPosition="0" unitName="jetbrains.mps.xmlQuery.typesystem.check_XMLElementType_references_NonTypesystemRule" />
+  <unitInfo fileName="check_XMLElementType_references_CheckingRule.java" startLine="17" startPosition="0" endLine="52" endPosition="0" unitName="jetbrains.mps.xmlQuery.typesystem.check_XMLElementType_references_CheckingRule" />
   <unitInfo fileName="typeof_XMLSAXHandler_resultObject_InferenceRule.java" startLine="15" startPosition="0" endLine="52" endPosition="0" unitName="jetbrains.mps.xmlQuery.typesystem.typeof_XMLSAXHandler_resultObject_InferenceRule" />
   <unitInfo fileName="typeof_AccessArbitraryChildrenOperation_InferenceRule.java" startLine="49" startPosition="0" endLine="89" endPosition="0" unitName="jetbrains.mps.xmlQuery.typesystem.typeof_AccessArbitraryChildrenOperation_InferenceRule$QuotationClass_qfhubj_a0a0a0" />
   <unitInfo fileName="typeof_XMLSAXAttributeReference_InferenceRule.java" startLine="16" startPosition="0" endLine="72" endPosition="0" unitName="jetbrains.mps.xmlQuery.typesystem.typeof_XMLSAXAttributeReference_InferenceRule" />
@@ -24,7 +24,7 @@
   <unitInfo fileName="typeof_AccessChildrenOperation_InferenceRule.java" startLine="55" startPosition="0" endLine="111" endPosition="0" unitName="jetbrains.mps.xmlQuery.typesystem.typeof_AccessChildrenOperation_InferenceRule$QuotationClass_h6cywm_a0a4a0" />
   <unitInfo fileName="typeof_XMLSAXLocatorExpression_InferenceRule.java" startLine="19" startPosition="0" endLine="77" endPosition="0" unitName="jetbrains.mps.xmlQuery.typesystem.typeof_XMLSAXLocatorExpression_InferenceRule" />
   <unitInfo fileName="typeof_XMLSAXChildHandler_childObject_InferenceRule.java" startLine="21" startPosition="0" endLine="83" endPosition="0" unitName="jetbrains.mps.xmlQuery.typesystem.typeof_XMLSAXChildHandler_childObject_InferenceRule" />
-  <unitInfo fileName="TypesystemDescriptor.java" startLine="10" startPosition="0" endLine="78" endPosition="0" unitName="jetbrains.mps.xmlQuery.typesystem.TypesystemDescriptor" />
+  <unitInfo fileName="TypesystemDescriptor.java" startLine="9" startPosition="0" endLine="73" endPosition="0" unitName="jetbrains.mps.xmlQuery.typesystem.TypesystemDescriptor" />
   <unitInfo fileName="typeof_AccessArbitraryAttributeOperation_InferenceRule.java" startLine="17" startPosition="0" endLine="107" endPosition="0" unitName="jetbrains.mps.xmlQuery.typesystem.typeof_AccessArbitraryAttributeOperation_InferenceRule" />
   <unitInfo fileName="typeof_AccessChildrenOperation_InferenceRule.java" startLine="20" startPosition="0" endLine="112" endPosition="0" unitName="jetbrains.mps.xmlQuery.typesystem.typeof_AccessChildrenOperation_InferenceRule" />
   <unitInfo fileName="supertypeof_XMLElementType_SubtypingRule.java" startLine="22" startPosition="0" endLine="122" endPosition="0" unitName="jetbrains.mps.xmlQuery.typesystem.supertypeof_XMLElementType_SubtypingRule" />
@@ -181,20 +181,20 @@
     <scopeInfo nodeId="634907465121486819" fileName="typeof_AccessArbitraryAttributeOperation_InferenceRule.java" startLine="21" startPosition="122" endLine="31" endPosition="5" />
   </root>
   <root nodeId="7129398160684499233">
-    <nodeInfo nodeId="7129398160684613517" fileName="check_XMLElementType_references_NonTypesystemRule.java" startLine="24" startPosition="9" endLine="25" endPosition="62" conceptFqName="jetbrains.mps.baseLanguage.structure.LocalVariableDeclarationStatement" />
-    <nodeInfo nodeId="7129398160684613517" fileName="check_XMLElementType_references_NonTypesystemRule.java" startLine="25" startPosition="62" endLine="26" endPosition="249" conceptFqName="jetbrains.mps.baseLanguage.structure.LocalVariableDeclarationStatement" />
-    <nodeInfo nodeId="7129398160684613527" fileName="check_XMLElementType_references_NonTypesystemRule.java" startLine="29" startPosition="9" endLine="30" endPosition="62" conceptFqName="jetbrains.mps.baseLanguage.structure.LocalVariableDeclarationStatement" />
-    <nodeInfo nodeId="7129398160684613527" fileName="check_XMLElementType_references_NonTypesystemRule.java" startLine="30" startPosition="62" endLine="31" endPosition="257" conceptFqName="jetbrains.mps.baseLanguage.structure.LocalVariableDeclarationStatement" />
-    <nodeInfo nodeId="7129398160684613517" fileName="check_XMLElementType_references_NonTypesystemRule.java" startLine="23" startPosition="83" endLine="27" endPosition="9" conceptFqName="jetbrains.mps.baseLanguage.structure.BlockStatement" />
-    <nodeInfo nodeId="7129398160684613527" fileName="check_XMLElementType_references_NonTypesystemRule.java" startLine="28" startPosition="226" endLine="32" endPosition="9" conceptFqName="jetbrains.mps.baseLanguage.structure.BlockStatement" />
-    <nodeInfo nodeId="7129398160684613515" fileName="check_XMLElementType_references_NonTypesystemRule.java" startLine="22" startPosition="76" endLine="33" endPosition="7" conceptFqName="jetbrains.mps.baseLanguage.structure.IfStatement" />
-    <nodeInfo nodeId="7129398160684613500" fileName="check_XMLElementType_references_NonTypesystemRule.java" startLine="21" startPosition="124" endLine="34" endPosition="5" conceptFqName="jetbrains.mps.baseLanguage.structure.IfStatement" />
-    <scopeInfo nodeId="7129398160684613517" fileName="check_XMLElementType_references_NonTypesystemRule.java" startLine="24" startPosition="9" endLine="26" endPosition="249" />
-    <scopeInfo nodeId="7129398160684613527" fileName="check_XMLElementType_references_NonTypesystemRule.java" startLine="29" startPosition="9" endLine="31" endPosition="257" />
-    <scopeInfo nodeId="7129398160684613516" fileName="check_XMLElementType_references_NonTypesystemRule.java" startLine="23" startPosition="83" endLine="27" endPosition="9" />
-    <scopeInfo nodeId="7129398160684613526" fileName="check_XMLElementType_references_NonTypesystemRule.java" startLine="28" startPosition="226" endLine="32" endPosition="9" />
-    <scopeInfo nodeId="7129398160684613501" fileName="check_XMLElementType_references_NonTypesystemRule.java" startLine="22" startPosition="76" endLine="33" endPosition="7" />
-    <scopeInfo nodeId="7129398160684499234" fileName="check_XMLElementType_references_NonTypesystemRule.java" startLine="21" startPosition="124" endLine="34" endPosition="5" />
+    <nodeInfo nodeId="7129398160684613517" fileName="check_XMLElementType_references_CheckingRule.java" startLine="24" startPosition="9" endLine="25" endPosition="62" conceptFqName="jetbrains.mps.baseLanguage.structure.LocalVariableDeclarationStatement" />
+    <nodeInfo nodeId="7129398160684613517" fileName="check_XMLElementType_references_CheckingRule.java" startLine="25" startPosition="62" endLine="26" endPosition="249" conceptFqName="jetbrains.mps.baseLanguage.structure.LocalVariableDeclarationStatement" />
+    <nodeInfo nodeId="7129398160684613527" fileName="check_XMLElementType_references_CheckingRule.java" startLine="29" startPosition="9" endLine="30" endPosition="62" conceptFqName="jetbrains.mps.baseLanguage.structure.LocalVariableDeclarationStatement" />
+    <nodeInfo nodeId="7129398160684613527" fileName="check_XMLElementType_references_CheckingRule.java" startLine="30" startPosition="62" endLine="31" endPosition="257" conceptFqName="jetbrains.mps.baseLanguage.structure.LocalVariableDeclarationStatement" />
+    <nodeInfo nodeId="7129398160684613517" fileName="check_XMLElementType_references_CheckingRule.java" startLine="23" startPosition="83" endLine="27" endPosition="9" conceptFqName="jetbrains.mps.baseLanguage.structure.BlockStatement" />
+    <nodeInfo nodeId="7129398160684613527" fileName="check_XMLElementType_references_CheckingRule.java" startLine="28" startPosition="226" endLine="32" endPosition="9" conceptFqName="jetbrains.mps.baseLanguage.structure.BlockStatement" />
+    <nodeInfo nodeId="7129398160684613515" fileName="check_XMLElementType_references_CheckingRule.java" startLine="22" startPosition="76" endLine="33" endPosition="7" conceptFqName="jetbrains.mps.baseLanguage.structure.IfStatement" />
+    <nodeInfo nodeId="7129398160684613500" fileName="check_XMLElementType_references_CheckingRule.java" startLine="21" startPosition="124" endLine="34" endPosition="5" conceptFqName="jetbrains.mps.baseLanguage.structure.IfStatement" />
+    <scopeInfo nodeId="7129398160684613517" fileName="check_XMLElementType_references_CheckingRule.java" startLine="24" startPosition="9" endLine="26" endPosition="249" />
+    <scopeInfo nodeId="7129398160684613527" fileName="check_XMLElementType_references_CheckingRule.java" startLine="29" startPosition="9" endLine="31" endPosition="257" />
+    <scopeInfo nodeId="7129398160684613516" fileName="check_XMLElementType_references_CheckingRule.java" startLine="23" startPosition="83" endLine="27" endPosition="9" />
+    <scopeInfo nodeId="7129398160684613526" fileName="check_XMLElementType_references_CheckingRule.java" startLine="28" startPosition="226" endLine="32" endPosition="9" />
+    <scopeInfo nodeId="7129398160684613501" fileName="check_XMLElementType_references_CheckingRule.java" startLine="22" startPosition="76" endLine="33" endPosition="7" />
+    <scopeInfo nodeId="7129398160684499234" fileName="check_XMLElementType_references_CheckingRule.java" startLine="21" startPosition="124" endLine="34" endPosition="5" />
   </root>
   <root nodeId="7459083455229529841">
     <nodeInfo nodeId="7459083455229529848" fileName="typeof_XMLSAXLocatorExpression_InferenceRule.java" startLine="24" startPosition="5" endLine="25" endPosition="59" conceptFqName="jetbrains.mps.baseLanguage.structure.LocalVariableDeclarationStatement" />

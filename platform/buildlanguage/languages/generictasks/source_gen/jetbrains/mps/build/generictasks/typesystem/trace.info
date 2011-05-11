@@ -1,12 +1,12 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <debugInfo>
+  <unitInfo fileName="TypesystemDescriptor.java" startLine="8" startPosition="0" endLine="20" endPosition="0" unitName="jetbrains.mps.build.generictasks.typesystem.TypesystemDescriptor" />
   <unitInfo fileName="typeof_Attribute_InferenceRule.java" startLine="14" startPosition="0" endLine="41" endPosition="0" unitName="jetbrains.mps.build.generictasks.typesystem.typeof_Attribute_InferenceRule" />
-  <unitInfo fileName="TypesystemDescriptor.java" startLine="9" startPosition="0" endLine="37" endPosition="0" unitName="jetbrains.mps.build.generictasks.typesystem.TypesystemDescriptor" />
-  <unitInfo fileName="checkAttributeValueIsInEnum_NonTypesystemRule.java" startLine="18" startPosition="0" endLine="48" endPosition="0" unitName="jetbrains.mps.build.generictasks.typesystem.checkAttributeValueIsInEnum_NonTypesystemRule" />
-  <unitInfo fileName="checkParentsOfInterfaceAreInterfaces_NonTypesystemRule.java" startLine="19" startPosition="0" endLine="49" endPosition="0" unitName="jetbrains.mps.build.generictasks.typesystem.checkParentsOfInterfaceAreInterfaces_NonTypesystemRule" />
+  <unitInfo fileName="checkAttributeValueIsInEnum_CheckingRule.java" startLine="18" startPosition="0" endLine="48" endPosition="0" unitName="jetbrains.mps.build.generictasks.typesystem.checkAttributeValueIsInEnum_CheckingRule" />
+  <unitInfo fileName="checkParentsOfInterfaceAreInterfaces_CheckingRule.java" startLine="19" startPosition="0" endLine="49" endPosition="0" unitName="jetbrains.mps.build.generictasks.typesystem.checkParentsOfInterfaceAreInterfaces_CheckingRule" />
   <unitInfo fileName="typeof_GenericAttributeDeclaration_InferenceRule.java" startLine="15" startPosition="0" endLine="51" endPosition="0" unitName="jetbrains.mps.build.generictasks.typesystem.typeof_GenericAttributeDeclaration_InferenceRule" />
-  <unitInfo fileName="checkAttributeDeclarationDefaultValueIsInEnum_NonTypesystemRule.java" startLine="18" startPosition="0" endLine="54" endPosition="0" unitName="jetbrains.mps.build.generictasks.typesystem.checkAttributeDeclarationDefaultValueIsInEnum_NonTypesystemRule" />
-  <unitInfo fileName="checkAllRequiredAttributesPresent_NonTypesystemRule.java" startLine="20" startPosition="0" endLine="62" endPosition="0" unitName="jetbrains.mps.build.generictasks.typesystem.checkAllRequiredAttributesPresent_NonTypesystemRule" />
+  <unitInfo fileName="checkAttributeDeclarationDefaultValueIsInEnum_CheckingRule.java" startLine="18" startPosition="0" endLine="54" endPosition="0" unitName="jetbrains.mps.build.generictasks.typesystem.checkAttributeDeclarationDefaultValueIsInEnum_CheckingRule" />
+  <unitInfo fileName="checkAllRequiredAttributesPresent_CheckingRule.java" startLine="20" startPosition="0" endLine="62" endPosition="0" unitName="jetbrains.mps.build.generictasks.typesystem.checkAllRequiredAttributesPresent_CheckingRule" />
   <root nodeId="353793545802854604">
     <nodeInfo nodeId="353793545802854606" fileName="typeof_Attribute_InferenceRule.java" startLine="19" startPosition="5" endLine="20" endPosition="95" conceptFqName="jetbrains.mps.baseLanguage.structure.LocalVariableDeclarationStatement" />
     <nodeInfo nodeId="353793545802854606" fileName="typeof_Attribute_InferenceRule.java" startLine="20" startPosition="95" endLine="21" endPosition="208" conceptFqName="jetbrains.mps.baseLanguage.structure.LocalVariableDeclarationStatement" />
@@ -16,21 +16,21 @@
     <scopeInfo nodeId="353793545802854605" fileName="typeof_Attribute_InferenceRule.java" startLine="18" startPosition="124" endLine="23" endPosition="5" />
   </root>
   <root nodeId="353793545802854619">
-    <nodeInfo nodeId="353793545802854645" fileName="checkAttributeDeclarationDefaultValueIsInEnum_NonTypesystemRule.java" startLine="25" startPosition="9" endLine="26" endPosition="62" conceptFqName="jetbrains.mps.baseLanguage.structure.LocalVariableDeclarationStatement" />
-    <nodeInfo nodeId="353793545802854645" fileName="checkAttributeDeclarationDefaultValueIsInEnum_NonTypesystemRule.java" startLine="26" startPosition="62" endLine="27" endPosition="476" conceptFqName="jetbrains.mps.baseLanguage.structure.LocalVariableDeclarationStatement" />
-    <nodeInfo nodeId="353793545802854662" fileName="checkAttributeDeclarationDefaultValueIsInEnum_NonTypesystemRule.java" startLine="32" startPosition="7" endLine="33" endPosition="60" conceptFqName="jetbrains.mps.baseLanguage.structure.LocalVariableDeclarationStatement" />
-    <nodeInfo nodeId="353793545802854662" fileName="checkAttributeDeclarationDefaultValueIsInEnum_NonTypesystemRule.java" startLine="33" startPosition="60" endLine="34" endPosition="279" conceptFqName="jetbrains.mps.baseLanguage.structure.LocalVariableDeclarationStatement" />
-    <nodeInfo nodeId="353793545802854645" fileName="checkAttributeDeclarationDefaultValueIsInEnum_NonTypesystemRule.java" startLine="24" startPosition="198" endLine="28" endPosition="9" conceptFqName="jetbrains.mps.baseLanguage.structure.BlockStatement" />
-    <nodeInfo nodeId="353793545802854662" fileName="checkAttributeDeclarationDefaultValueIsInEnum_NonTypesystemRule.java" startLine="31" startPosition="169" endLine="35" endPosition="7" conceptFqName="jetbrains.mps.baseLanguage.structure.BlockStatement" />
-    <nodeInfo nodeId="353793545802854634" fileName="checkAttributeDeclarationDefaultValueIsInEnum_NonTypesystemRule.java" startLine="23" startPosition="174" endLine="29" endPosition="7" conceptFqName="jetbrains.mps.baseLanguage.structure.IfStatement" />
-    <nodeInfo nodeId="353793545802854660" fileName="checkAttributeDeclarationDefaultValueIsInEnum_NonTypesystemRule.java" startLine="30" startPosition="5" endLine="36" endPosition="5" conceptFqName="jetbrains.mps.baseLanguage.structure.IfStatement" />
-    <nodeInfo nodeId="353793545802854621" fileName="checkAttributeDeclarationDefaultValueIsInEnum_NonTypesystemRule.java" startLine="22" startPosition="140" endLine="30" endPosition="5" conceptFqName="jetbrains.mps.baseLanguage.structure.IfStatement" />
-    <scopeInfo nodeId="353793545802854645" fileName="checkAttributeDeclarationDefaultValueIsInEnum_NonTypesystemRule.java" startLine="25" startPosition="9" endLine="27" endPosition="476" />
-    <scopeInfo nodeId="353793545802854662" fileName="checkAttributeDeclarationDefaultValueIsInEnum_NonTypesystemRule.java" startLine="32" startPosition="7" endLine="34" endPosition="279" />
-    <scopeInfo nodeId="353793545802854644" fileName="checkAttributeDeclarationDefaultValueIsInEnum_NonTypesystemRule.java" startLine="24" startPosition="198" endLine="28" endPosition="9" />
-    <scopeInfo nodeId="353793545802854661" fileName="checkAttributeDeclarationDefaultValueIsInEnum_NonTypesystemRule.java" startLine="31" startPosition="169" endLine="35" endPosition="7" />
-    <scopeInfo nodeId="353793545802854633" fileName="checkAttributeDeclarationDefaultValueIsInEnum_NonTypesystemRule.java" startLine="23" startPosition="174" endLine="29" endPosition="7" />
-    <scopeInfo nodeId="353793545802854620" fileName="checkAttributeDeclarationDefaultValueIsInEnum_NonTypesystemRule.java" startLine="22" startPosition="140" endLine="36" endPosition="5" />
+    <nodeInfo nodeId="353793545802854645" fileName="checkAttributeDeclarationDefaultValueIsInEnum_CheckingRule.java" startLine="25" startPosition="9" endLine="26" endPosition="62" conceptFqName="jetbrains.mps.baseLanguage.structure.LocalVariableDeclarationStatement" />
+    <nodeInfo nodeId="353793545802854645" fileName="checkAttributeDeclarationDefaultValueIsInEnum_CheckingRule.java" startLine="26" startPosition="62" endLine="27" endPosition="476" conceptFqName="jetbrains.mps.baseLanguage.structure.LocalVariableDeclarationStatement" />
+    <nodeInfo nodeId="353793545802854662" fileName="checkAttributeDeclarationDefaultValueIsInEnum_CheckingRule.java" startLine="32" startPosition="7" endLine="33" endPosition="60" conceptFqName="jetbrains.mps.baseLanguage.structure.LocalVariableDeclarationStatement" />
+    <nodeInfo nodeId="353793545802854662" fileName="checkAttributeDeclarationDefaultValueIsInEnum_CheckingRule.java" startLine="33" startPosition="60" endLine="34" endPosition="279" conceptFqName="jetbrains.mps.baseLanguage.structure.LocalVariableDeclarationStatement" />
+    <nodeInfo nodeId="353793545802854645" fileName="checkAttributeDeclarationDefaultValueIsInEnum_CheckingRule.java" startLine="24" startPosition="198" endLine="28" endPosition="9" conceptFqName="jetbrains.mps.baseLanguage.structure.BlockStatement" />
+    <nodeInfo nodeId="353793545802854662" fileName="checkAttributeDeclarationDefaultValueIsInEnum_CheckingRule.java" startLine="31" startPosition="169" endLine="35" endPosition="7" conceptFqName="jetbrains.mps.baseLanguage.structure.BlockStatement" />
+    <nodeInfo nodeId="353793545802854634" fileName="checkAttributeDeclarationDefaultValueIsInEnum_CheckingRule.java" startLine="23" startPosition="174" endLine="29" endPosition="7" conceptFqName="jetbrains.mps.baseLanguage.structure.IfStatement" />
+    <nodeInfo nodeId="353793545802854660" fileName="checkAttributeDeclarationDefaultValueIsInEnum_CheckingRule.java" startLine="30" startPosition="5" endLine="36" endPosition="5" conceptFqName="jetbrains.mps.baseLanguage.structure.IfStatement" />
+    <nodeInfo nodeId="353793545802854621" fileName="checkAttributeDeclarationDefaultValueIsInEnum_CheckingRule.java" startLine="22" startPosition="140" endLine="30" endPosition="5" conceptFqName="jetbrains.mps.baseLanguage.structure.IfStatement" />
+    <scopeInfo nodeId="353793545802854645" fileName="checkAttributeDeclarationDefaultValueIsInEnum_CheckingRule.java" startLine="25" startPosition="9" endLine="27" endPosition="476" />
+    <scopeInfo nodeId="353793545802854662" fileName="checkAttributeDeclarationDefaultValueIsInEnum_CheckingRule.java" startLine="32" startPosition="7" endLine="34" endPosition="279" />
+    <scopeInfo nodeId="353793545802854644" fileName="checkAttributeDeclarationDefaultValueIsInEnum_CheckingRule.java" startLine="24" startPosition="198" endLine="28" endPosition="9" />
+    <scopeInfo nodeId="353793545802854661" fileName="checkAttributeDeclarationDefaultValueIsInEnum_CheckingRule.java" startLine="31" startPosition="169" endLine="35" endPosition="7" />
+    <scopeInfo nodeId="353793545802854633" fileName="checkAttributeDeclarationDefaultValueIsInEnum_CheckingRule.java" startLine="23" startPosition="174" endLine="29" endPosition="7" />
+    <scopeInfo nodeId="353793545802854620" fileName="checkAttributeDeclarationDefaultValueIsInEnum_CheckingRule.java" startLine="22" startPosition="140" endLine="36" endPosition="5" />
   </root>
   <root nodeId="353793545802854672">
     <nodeInfo nodeId="353793545802854687" fileName="typeof_GenericAttributeDeclaration_InferenceRule.java" startLine="21" startPosition="7" endLine="22" endPosition="99" conceptFqName="jetbrains.mps.baseLanguage.structure.LocalVariableDeclarationStatement" />
@@ -50,54 +50,54 @@
     <scopeInfo nodeId="353793545802854673" fileName="typeof_GenericAttributeDeclaration_InferenceRule.java" startLine="19" startPosition="124" endLine="33" endPosition="5" />
   </root>
   <root nodeId="353793545802854718">
-    <nodeInfo nodeId="353793545802854735" fileName="checkParentsOfInterfaceAreInterfaces_NonTypesystemRule.java" startLine="26" startPosition="9" endLine="27" endPosition="62" conceptFqName="jetbrains.mps.baseLanguage.structure.LocalVariableDeclarationStatement" />
-    <nodeInfo nodeId="353793545802854735" fileName="checkParentsOfInterfaceAreInterfaces_NonTypesystemRule.java" startLine="27" startPosition="62" endLine="28" endPosition="342" conceptFqName="jetbrains.mps.baseLanguage.structure.LocalVariableDeclarationStatement" />
-    <nodeInfo nodeId="353793545802854735" fileName="checkParentsOfInterfaceAreInterfaces_NonTypesystemRule.java" startLine="25" startPosition="172" endLine="29" endPosition="9" conceptFqName="jetbrains.mps.baseLanguage.structure.BlockStatement" />
-    <nodeInfo nodeId="353793545802854726" fileName="checkParentsOfInterfaceAreInterfaces_NonTypesystemRule.java" startLine="24" startPosition="122" endLine="30" endPosition="7" conceptFqName="jetbrains.mps.baseLanguage.structure.IfStatement" />
-    <nodeInfo nodeId="353793545802854720" fileName="checkParentsOfInterfaceAreInterfaces_NonTypesystemRule.java" startLine="23" startPosition="140" endLine="31" endPosition="5" conceptFqName="jetbrains.mps.baseLanguage.structure.ForeachStatement" />
-    <scopeInfo nodeId="353793545802854735" fileName="checkParentsOfInterfaceAreInterfaces_NonTypesystemRule.java" startLine="26" startPosition="9" endLine="28" endPosition="342" />
-    <scopeInfo nodeId="353793545802854734" fileName="checkParentsOfInterfaceAreInterfaces_NonTypesystemRule.java" startLine="25" startPosition="172" endLine="29" endPosition="9" />
-    <scopeInfo nodeId="353793545802854725" fileName="checkParentsOfInterfaceAreInterfaces_NonTypesystemRule.java" startLine="24" startPosition="122" endLine="30" endPosition="7" />
-    <scopeInfo nodeId="353793545802854719" fileName="checkParentsOfInterfaceAreInterfaces_NonTypesystemRule.java" startLine="23" startPosition="140" endLine="31" endPosition="5" />
-    <scopeInfo nodeId="353793545802854720" fileName="checkParentsOfInterfaceAreInterfaces_NonTypesystemRule.java" startLine="23" startPosition="140" endLine="31" endPosition="5" />
+    <nodeInfo nodeId="353793545802854735" fileName="checkParentsOfInterfaceAreInterfaces_CheckingRule.java" startLine="26" startPosition="9" endLine="27" endPosition="62" conceptFqName="jetbrains.mps.baseLanguage.structure.LocalVariableDeclarationStatement" />
+    <nodeInfo nodeId="353793545802854735" fileName="checkParentsOfInterfaceAreInterfaces_CheckingRule.java" startLine="27" startPosition="62" endLine="28" endPosition="342" conceptFqName="jetbrains.mps.baseLanguage.structure.LocalVariableDeclarationStatement" />
+    <nodeInfo nodeId="353793545802854735" fileName="checkParentsOfInterfaceAreInterfaces_CheckingRule.java" startLine="25" startPosition="172" endLine="29" endPosition="9" conceptFqName="jetbrains.mps.baseLanguage.structure.BlockStatement" />
+    <nodeInfo nodeId="353793545802854726" fileName="checkParentsOfInterfaceAreInterfaces_CheckingRule.java" startLine="24" startPosition="122" endLine="30" endPosition="7" conceptFqName="jetbrains.mps.baseLanguage.structure.IfStatement" />
+    <nodeInfo nodeId="353793545802854720" fileName="checkParentsOfInterfaceAreInterfaces_CheckingRule.java" startLine="23" startPosition="140" endLine="31" endPosition="5" conceptFqName="jetbrains.mps.baseLanguage.structure.ForeachStatement" />
+    <scopeInfo nodeId="353793545802854735" fileName="checkParentsOfInterfaceAreInterfaces_CheckingRule.java" startLine="26" startPosition="9" endLine="28" endPosition="342" />
+    <scopeInfo nodeId="353793545802854734" fileName="checkParentsOfInterfaceAreInterfaces_CheckingRule.java" startLine="25" startPosition="172" endLine="29" endPosition="9" />
+    <scopeInfo nodeId="353793545802854725" fileName="checkParentsOfInterfaceAreInterfaces_CheckingRule.java" startLine="24" startPosition="122" endLine="30" endPosition="7" />
+    <scopeInfo nodeId="353793545802854719" fileName="checkParentsOfInterfaceAreInterfaces_CheckingRule.java" startLine="23" startPosition="140" endLine="31" endPosition="5" />
+    <scopeInfo nodeId="353793545802854720" fileName="checkParentsOfInterfaceAreInterfaces_CheckingRule.java" startLine="23" startPosition="140" endLine="31" endPosition="5" />
   </root>
   <root nodeId="353793545802854745">
-    <nodeInfo nodeId="353793545802854764" fileName="checkAttributeValueIsInEnum_NonTypesystemRule.java" startLine="25" startPosition="9" endLine="26" endPosition="62" conceptFqName="jetbrains.mps.baseLanguage.structure.LocalVariableDeclarationStatement" />
-    <nodeInfo nodeId="353793545802854764" fileName="checkAttributeValueIsInEnum_NonTypesystemRule.java" startLine="26" startPosition="62" endLine="27" endPosition="550" conceptFqName="jetbrains.mps.baseLanguage.structure.LocalVariableDeclarationStatement" />
-    <nodeInfo nodeId="353793545802854764" fileName="checkAttributeValueIsInEnum_NonTypesystemRule.java" startLine="24" startPosition="232" endLine="28" endPosition="9" conceptFqName="jetbrains.mps.baseLanguage.structure.BlockStatement" />
-    <nodeInfo nodeId="353793545802854762" fileName="checkAttributeValueIsInEnum_NonTypesystemRule.java" startLine="23" startPosition="208" endLine="29" endPosition="7" conceptFqName="jetbrains.mps.baseLanguage.structure.IfStatement" />
-    <nodeInfo nodeId="353793545802854747" fileName="checkAttributeValueIsInEnum_NonTypesystemRule.java" startLine="22" startPosition="129" endLine="30" endPosition="5" conceptFqName="jetbrains.mps.baseLanguage.structure.IfStatement" />
-    <scopeInfo nodeId="353793545802854764" fileName="checkAttributeValueIsInEnum_NonTypesystemRule.java" startLine="25" startPosition="9" endLine="27" endPosition="550" />
-    <scopeInfo nodeId="353793545802854763" fileName="checkAttributeValueIsInEnum_NonTypesystemRule.java" startLine="24" startPosition="232" endLine="28" endPosition="9" />
-    <scopeInfo nodeId="353793545802854761" fileName="checkAttributeValueIsInEnum_NonTypesystemRule.java" startLine="23" startPosition="208" endLine="29" endPosition="7" />
-    <scopeInfo nodeId="353793545802854746" fileName="checkAttributeValueIsInEnum_NonTypesystemRule.java" startLine="22" startPosition="129" endLine="30" endPosition="5" />
+    <nodeInfo nodeId="353793545802854764" fileName="checkAttributeValueIsInEnum_CheckingRule.java" startLine="25" startPosition="9" endLine="26" endPosition="62" conceptFqName="jetbrains.mps.baseLanguage.structure.LocalVariableDeclarationStatement" />
+    <nodeInfo nodeId="353793545802854764" fileName="checkAttributeValueIsInEnum_CheckingRule.java" startLine="26" startPosition="62" endLine="27" endPosition="550" conceptFqName="jetbrains.mps.baseLanguage.structure.LocalVariableDeclarationStatement" />
+    <nodeInfo nodeId="353793545802854764" fileName="checkAttributeValueIsInEnum_CheckingRule.java" startLine="24" startPosition="232" endLine="28" endPosition="9" conceptFqName="jetbrains.mps.baseLanguage.structure.BlockStatement" />
+    <nodeInfo nodeId="353793545802854762" fileName="checkAttributeValueIsInEnum_CheckingRule.java" startLine="23" startPosition="208" endLine="29" endPosition="7" conceptFqName="jetbrains.mps.baseLanguage.structure.IfStatement" />
+    <nodeInfo nodeId="353793545802854747" fileName="checkAttributeValueIsInEnum_CheckingRule.java" startLine="22" startPosition="129" endLine="30" endPosition="5" conceptFqName="jetbrains.mps.baseLanguage.structure.IfStatement" />
+    <scopeInfo nodeId="353793545802854764" fileName="checkAttributeValueIsInEnum_CheckingRule.java" startLine="25" startPosition="9" endLine="27" endPosition="550" />
+    <scopeInfo nodeId="353793545802854763" fileName="checkAttributeValueIsInEnum_CheckingRule.java" startLine="24" startPosition="232" endLine="28" endPosition="9" />
+    <scopeInfo nodeId="353793545802854761" fileName="checkAttributeValueIsInEnum_CheckingRule.java" startLine="23" startPosition="208" endLine="29" endPosition="7" />
+    <scopeInfo nodeId="353793545802854746" fileName="checkAttributeValueIsInEnum_CheckingRule.java" startLine="22" startPosition="129" endLine="30" endPosition="5" />
   </root>
   <root nodeId="353793545802854795">
-    <nodeInfo nodeId="353793545802854810" fileName="checkAllRequiredAttributesPresent_NonTypesystemRule.java" startLine="26" startPosition="87" endLine="27" endPosition="30" conceptFqName="jetbrains.mps.baseLanguage.structure.LocalVariableDeclarationStatement" />
-    <nodeInfo nodeId="353793545802854839" fileName="checkAllRequiredAttributesPresent_NonTypesystemRule.java" startLine="30" startPosition="75" endLine="31" endPosition="27" conceptFqName="jetbrains.mps.baseLanguage.structure.ExpressionStatement" />
-    <nodeInfo nodeId="353793545802854843" fileName="checkAllRequiredAttributesPresent_NonTypesystemRule.java" startLine="32" startPosition="13" endLine="33" endPosition="18" conceptFqName="jetbrains.mps.baseLanguage.structure.BreakStatement" />
-    <nodeInfo nodeId="353793545802854846" fileName="checkAllRequiredAttributesPresent_NonTypesystemRule.java" startLine="37" startPosition="11" endLine="38" endPosition="64" conceptFqName="jetbrains.mps.baseLanguage.structure.LocalVariableDeclarationStatement" />
-    <nodeInfo nodeId="353793545802854846" fileName="checkAllRequiredAttributesPresent_NonTypesystemRule.java" startLine="38" startPosition="64" endLine="39" endPosition="323" conceptFqName="jetbrains.mps.baseLanguage.structure.LocalVariableDeclarationStatement" />
-    <nodeInfo nodeId="353793545802854855" fileName="checkAllRequiredAttributesPresent_NonTypesystemRule.java" startLine="40" startPosition="11" endLine="41" endPosition="17" conceptFqName="jetbrains.mps.baseLanguage.structure.ReturnStatement" />
-    <nodeInfo nodeId="353793545802854832" fileName="checkAllRequiredAttributesPresent_NonTypesystemRule.java" startLine="29" startPosition="174" endLine="32" endPosition="13" conceptFqName="jetbrains.mps.baseLanguage.structure.IfStatement" />
-    <nodeInfo nodeId="353793545802854846" fileName="checkAllRequiredAttributesPresent_NonTypesystemRule.java" startLine="36" startPosition="23" endLine="40" endPosition="11" conceptFqName="jetbrains.mps.baseLanguage.structure.BlockStatement" />
-    <nodeInfo nodeId="353793545802854820" fileName="checkAllRequiredAttributesPresent_NonTypesystemRule.java" startLine="28" startPosition="114" endLine="34" endPosition="11" conceptFqName="jetbrains.mps.baseLanguage.structure.IfStatement" />
-    <nodeInfo nodeId="353793545802854844" fileName="checkAllRequiredAttributesPresent_NonTypesystemRule.java" startLine="35" startPosition="9" endLine="42" endPosition="9" conceptFqName="jetbrains.mps.baseLanguage.structure.IfStatement" />
-    <nodeInfo nodeId="353793545802854814" fileName="checkAllRequiredAttributesPresent_NonTypesystemRule.java" startLine="27" startPosition="30" endLine="35" endPosition="9" conceptFqName="jetbrains.mps.baseLanguage.structure.ForeachStatement" />
-    <nodeInfo nodeId="353793545802854805" fileName="checkAllRequiredAttributesPresent_NonTypesystemRule.java" startLine="25" startPosition="194" endLine="43" endPosition="7" conceptFqName="jetbrains.mps.baseLanguage.structure.IfStatement" />
-    <nodeInfo nodeId="353793545802854797" fileName="checkAllRequiredAttributesPresent_NonTypesystemRule.java" startLine="24" startPosition="128" endLine="44" endPosition="5" conceptFqName="jetbrains.mps.baseLanguage.structure.ForeachStatement" />
-    <scopeInfo nodeId="353793545802854838" fileName="checkAllRequiredAttributesPresent_NonTypesystemRule.java" startLine="30" startPosition="75" endLine="31" endPosition="27" />
-    <scopeInfo nodeId="353793545802854846" fileName="checkAllRequiredAttributesPresent_NonTypesystemRule.java" startLine="37" startPosition="11" endLine="39" endPosition="323" />
-    <scopeInfo nodeId="353793545802854831" fileName="checkAllRequiredAttributesPresent_NonTypesystemRule.java" startLine="29" startPosition="174" endLine="33" endPosition="18" />
-    <scopeInfo nodeId="353793545802854845" fileName="checkAllRequiredAttributesPresent_NonTypesystemRule.java" startLine="36" startPosition="23" endLine="41" endPosition="17" />
-    <scopeInfo nodeId="353793545802854819" fileName="checkAllRequiredAttributesPresent_NonTypesystemRule.java" startLine="28" startPosition="114" endLine="34" endPosition="11" />
-    <scopeInfo nodeId="353793545802854814" fileName="checkAllRequiredAttributesPresent_NonTypesystemRule.java" startLine="27" startPosition="30" endLine="35" endPosition="9" />
-    <scopeInfo nodeId="353793545802854809" fileName="checkAllRequiredAttributesPresent_NonTypesystemRule.java" startLine="26" startPosition="87" endLine="42" endPosition="9">
+    <nodeInfo nodeId="353793545802854810" fileName="checkAllRequiredAttributesPresent_CheckingRule.java" startLine="26" startPosition="87" endLine="27" endPosition="30" conceptFqName="jetbrains.mps.baseLanguage.structure.LocalVariableDeclarationStatement" />
+    <nodeInfo nodeId="353793545802854839" fileName="checkAllRequiredAttributesPresent_CheckingRule.java" startLine="30" startPosition="75" endLine="31" endPosition="27" conceptFqName="jetbrains.mps.baseLanguage.structure.ExpressionStatement" />
+    <nodeInfo nodeId="353793545802854843" fileName="checkAllRequiredAttributesPresent_CheckingRule.java" startLine="32" startPosition="13" endLine="33" endPosition="18" conceptFqName="jetbrains.mps.baseLanguage.structure.BreakStatement" />
+    <nodeInfo nodeId="353793545802854846" fileName="checkAllRequiredAttributesPresent_CheckingRule.java" startLine="37" startPosition="11" endLine="38" endPosition="64" conceptFqName="jetbrains.mps.baseLanguage.structure.LocalVariableDeclarationStatement" />
+    <nodeInfo nodeId="353793545802854846" fileName="checkAllRequiredAttributesPresent_CheckingRule.java" startLine="38" startPosition="64" endLine="39" endPosition="323" conceptFqName="jetbrains.mps.baseLanguage.structure.LocalVariableDeclarationStatement" />
+    <nodeInfo nodeId="353793545802854855" fileName="checkAllRequiredAttributesPresent_CheckingRule.java" startLine="40" startPosition="11" endLine="41" endPosition="17" conceptFqName="jetbrains.mps.baseLanguage.structure.ReturnStatement" />
+    <nodeInfo nodeId="353793545802854832" fileName="checkAllRequiredAttributesPresent_CheckingRule.java" startLine="29" startPosition="174" endLine="32" endPosition="13" conceptFqName="jetbrains.mps.baseLanguage.structure.IfStatement" />
+    <nodeInfo nodeId="353793545802854846" fileName="checkAllRequiredAttributesPresent_CheckingRule.java" startLine="36" startPosition="23" endLine="40" endPosition="11" conceptFqName="jetbrains.mps.baseLanguage.structure.BlockStatement" />
+    <nodeInfo nodeId="353793545802854820" fileName="checkAllRequiredAttributesPresent_CheckingRule.java" startLine="28" startPosition="114" endLine="34" endPosition="11" conceptFqName="jetbrains.mps.baseLanguage.structure.IfStatement" />
+    <nodeInfo nodeId="353793545802854844" fileName="checkAllRequiredAttributesPresent_CheckingRule.java" startLine="35" startPosition="9" endLine="42" endPosition="9" conceptFqName="jetbrains.mps.baseLanguage.structure.IfStatement" />
+    <nodeInfo nodeId="353793545802854814" fileName="checkAllRequiredAttributesPresent_CheckingRule.java" startLine="27" startPosition="30" endLine="35" endPosition="9" conceptFqName="jetbrains.mps.baseLanguage.structure.ForeachStatement" />
+    <nodeInfo nodeId="353793545802854805" fileName="checkAllRequiredAttributesPresent_CheckingRule.java" startLine="25" startPosition="194" endLine="43" endPosition="7" conceptFqName="jetbrains.mps.baseLanguage.structure.IfStatement" />
+    <nodeInfo nodeId="353793545802854797" fileName="checkAllRequiredAttributesPresent_CheckingRule.java" startLine="24" startPosition="128" endLine="44" endPosition="5" conceptFqName="jetbrains.mps.baseLanguage.structure.ForeachStatement" />
+    <scopeInfo nodeId="353793545802854838" fileName="checkAllRequiredAttributesPresent_CheckingRule.java" startLine="30" startPosition="75" endLine="31" endPosition="27" />
+    <scopeInfo nodeId="353793545802854846" fileName="checkAllRequiredAttributesPresent_CheckingRule.java" startLine="37" startPosition="11" endLine="39" endPosition="323" />
+    <scopeInfo nodeId="353793545802854831" fileName="checkAllRequiredAttributesPresent_CheckingRule.java" startLine="29" startPosition="174" endLine="33" endPosition="18" />
+    <scopeInfo nodeId="353793545802854845" fileName="checkAllRequiredAttributesPresent_CheckingRule.java" startLine="36" startPosition="23" endLine="41" endPosition="17" />
+    <scopeInfo nodeId="353793545802854819" fileName="checkAllRequiredAttributesPresent_CheckingRule.java" startLine="28" startPosition="114" endLine="34" endPosition="11" />
+    <scopeInfo nodeId="353793545802854814" fileName="checkAllRequiredAttributesPresent_CheckingRule.java" startLine="27" startPosition="30" endLine="35" endPosition="9" />
+    <scopeInfo nodeId="353793545802854809" fileName="checkAllRequiredAttributesPresent_CheckingRule.java" startLine="26" startPosition="87" endLine="42" endPosition="9">
       <varInfo nodeId="353793545802854811" varName="found" />
     </scopeInfo>
-    <scopeInfo nodeId="353793545802854804" fileName="checkAllRequiredAttributesPresent_NonTypesystemRule.java" startLine="25" startPosition="194" endLine="43" endPosition="7" />
-    <scopeInfo nodeId="353793545802854796" fileName="checkAllRequiredAttributesPresent_NonTypesystemRule.java" startLine="24" startPosition="128" endLine="44" endPosition="5" />
-    <scopeInfo nodeId="353793545802854797" fileName="checkAllRequiredAttributesPresent_NonTypesystemRule.java" startLine="24" startPosition="128" endLine="44" endPosition="5" />
+    <scopeInfo nodeId="353793545802854804" fileName="checkAllRequiredAttributesPresent_CheckingRule.java" startLine="25" startPosition="194" endLine="43" endPosition="7" />
+    <scopeInfo nodeId="353793545802854796" fileName="checkAllRequiredAttributesPresent_CheckingRule.java" startLine="24" startPosition="128" endLine="44" endPosition="5" />
+    <scopeInfo nodeId="353793545802854797" fileName="checkAllRequiredAttributesPresent_CheckingRule.java" startLine="24" startPosition="128" endLine="44" endPosition="5" />
   </root>
 </debugInfo>
 
