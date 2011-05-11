@@ -6,7 +6,7 @@ import jetbrains.mps.util.annotation.ToRemove;
 import com.intellij.execution.process.DefaultJavaProcessHandler;
 import com.intellij.execution.ui.ConsoleView;
 import java.nio.charset.Charset;
-import jetbrains.mps.execution.configurations.runtime.ConsoleProcessListener;
+import jetbrains.mps.execution.api.configurations.ConsoleProcessListener;
 import com.intellij.execution.process.ProcessTerminatedListener;
 
 @Deprecated
