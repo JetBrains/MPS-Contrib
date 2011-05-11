@@ -19,7 +19,7 @@ import com.intellij.execution.configurations.LocatableConfiguration;
 import com.intellij.execution.configurations.ConfigurationFactory;
 import com.intellij.execution.executors.DefaultRunExecutor;
 import com.intellij.openapi.project.Project;
-import jetbrains.mps.execution.configurations.runtime.BaseMpsRunConfiguration;
+import jetbrains.mps.execution.api.configurations.BaseMpsRunConfiguration;
 import jetbrains.mps.util.annotation.ToRemove;
 
 @Deprecated
