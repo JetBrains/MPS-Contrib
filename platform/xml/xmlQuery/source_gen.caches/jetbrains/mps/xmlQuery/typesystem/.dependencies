@@ -6,6 +6,7 @@
     <classNode dependClassName="jetbrains.mps.xmlQuery.typesystem.typeof_XMLAttributeBuilder_InferenceRule" />
     <classNode dependClassName="jetbrains.mps.xmlQuery.typesystem.typeof_XMLSAXAttributeReference_InferenceRule" />
     <classNode dependClassName="jetbrains.mps.xmlQuery.typesystem.typeof_XMLSAXBreakStatement_InferenceRule" />
+    <classNode dependClassName="jetbrains.mps.lang.typesystem.runtime.NonTypesystemRule_Runtime" />
     <classNode dependClassName="jetbrains.mps.xmlQuery.typesystem.typeof_XMLTextBuilder_InferenceRule" />
     <classNode dependClassName="jetbrains.mps.xmlQuery.typesystem.typeof_XMLSAXHandler_resultObject_InferenceRule" />
     <classNode dependClassName="jetbrains.mps.xmlQuery.typesystem.typeof_XMLSAXChildHandler_childObject_InferenceRule" />
@@ -13,6 +14,7 @@
     <classNode dependClassName="jetbrains.mps.xmlQuery.typesystem.supertypeof_XMLElementType_SubtypingRule" />
     <classNode dependClassName="jetbrains.mps.xmlQuery.typesystem.typeof_AccessTextOperation_InferenceRule" />
     <classNode dependClassName="jetbrains.mps.xmlQuery.typesystem.typeof_XMLElementCreator_InferenceRule" />
+    <classNode dependClassName="jetbrains.mps.xmlQuery.typesystem.check_XMLElementType_references_NonTypesystemRule" />
     <classNode dependClassName="jetbrains.mps.xmlQuery.typesystem.typeof_AccessArbitraryChildrenOperation_InferenceRule" />
     <classNode dependClassName="jetbrains.mps.xmlQuery.typesystem.typeof_XMLSAXLocatorExpression_InferenceRule" />
     <classNode dependClassName="jetbrains.mps.xmlQuery.typesystem.typeof_AccessChildrenOperation_InferenceRule" />
@@ -20,7 +22,7 @@
     <classNode dependClassName="jetbrains.mps.xmlQuery.typesystem.typeof_XMLSAXFieldReference_InferenceRule" />
     <classNode extendsClassName="jetbrains.mps.lang.typesystem.runtime.BaseHelginsDescriptor" />
   </dependency>
-  <dependency className="jetbrains.mps.xmlQuery.typesystem.check_XMLElementType_references_CheckingRule" file="check_XMLElementType_references_CheckingRule.java">
+  <dependency className="jetbrains.mps.xmlQuery.typesystem.check_XMLElementType_references_NonTypesystemRule" file="check_XMLElementType_references_NonTypesystemRule.java">
     <classNode dependClassName="java.lang.String" />
     <classNode dependClassName="jetbrains.mps.smodel.SModelUtil_new" />
     <classNode dependClassName="jetbrains.mps.lang.smodel.generator.smodelAdapter.SLinkOperations" />
@@ -32,7 +34,7 @@
     <classNode dependClassName="jetbrains.mps.typesystem.inference.TypeCheckingContext" />
     <classNode dependClassName="jetbrains.mps.errors.messageTargets.MessageTarget" />
     <classNode extendsClassName="jetbrains.mps.lang.typesystem.runtime.AbstractNonTypesystemRule_Runtime" />
-    <classNode extendsClassName="jetbrains.mps.lang.typesystem.runtime.Rule_Runtime" />
+    <classNode extendsClassName="jetbrains.mps.lang.typesystem.runtime.NonTypesystemRule_Runtime" />
   </dependency>
   <dependency className="jetbrains.mps.xmlQuery.typesystem.supertypeof_XMLElementType_SubtypingRule" file="supertypeof_XMLElementType_SubtypingRule.java">
     <classNode dependClassName="jetbrains.mps.smodel.SNode" />
