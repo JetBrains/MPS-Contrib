@@ -194,7 +194,7 @@
       <property name="name" nameId="tpck.1169194664001" value="typeof_AllTimeZonesConstant" />
       <property name="virtualPackage" nameId="tpck.1193676396447" value="constant" />
     </node>
-    <node type="tpd4.CheckingRule" typeId="tpd4.1195214364922" id="1015544890586322297">
+    <node type="tpd4.NonTypesystemRule" typeId="tpd4.1195214364922" id="1015544890586322297">
       <property name="name" nameId="tpck.1169194664001" value="check_ScheduleLiteral" />
       <property name="virtualPackage" nameId="tpck.1193676396447" value="constant.schedule" />
     </node>

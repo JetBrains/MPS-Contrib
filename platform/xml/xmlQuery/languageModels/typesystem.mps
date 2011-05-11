@@ -37,7 +37,7 @@
       <property name="name" nameId="tpck.1169194664001" value="typeof_AccessArbitraryAttributeOperation" />
       <property name="virtualPackage" nameId="tpck.1193676396447" value="operations" />
     </node>
-    <node type="tpd4.CheckingRule" typeId="tpd4.1195214364922" id="7129398160684499233">
+    <node type="tpd4.NonTypesystemRule" typeId="tpd4.1195214364922" id="7129398160684499233">
       <property name="name" nameId="tpck.1169194664001" value="check_XMLElementType_references" />
     </node>
     <node type="tpd4.SubtypingRule" typeId="tpd4.1175147670730" id="3865540407050958119">

@@ -41,7 +41,7 @@
       <property name="name" nameId="tpck.1169194664001" value="typeof_FileName" />
       <property name="virtualPackage" nameId="tpck.1193676396447" value="Expressions" />
     </node>
-    <node type="tpd4.CheckingRule" typeId="tpd4.1195214364922" id="1199032114399">
+    <node type="tpd4.NonTypesystemRule" typeId="tpd4.1195214364922" id="1199032114399">
       <property name="name" nameId="tpck.1169194664001" value="checkFileExistance" />
       <property name="virtualPackage" nameId="tpck.1193676396447" value="Expressions" />
     </node>
