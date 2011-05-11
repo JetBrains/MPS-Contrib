@@ -22,12 +22,12 @@
       <property name="overrides" nameId="tpd4.1195213689297" value="true" />
       <property name="virtualPackage" nameId="tpck.1193676396447" value="node" />
     </node>
-    <node type="tpd4.NonTypesystemRule" typeId="tpd4.1195214364922" id="7976893777486251143">
+    <node type="tpd4.CheckingRule" typeId="tpd4.1195214364922" id="7976893777486251143">
       <property name="name" nameId="tpck.1169194664001" value="check_IsApplicableBlock" />
       <property name="overrides" nameId="tpd4.1195213689297" value="true" />
       <property name="virtualPackage" nameId="tpck.1193676396447" value="node" />
     </node>
-    <node type="tpd4.NonTypesystemRule" typeId="tpd4.1195214364922" id="8255351389870630288">
+    <node type="tpd4.CheckingRule" typeId="tpd4.1195214364922" id="8255351389870630288">
       <property name="name" nameId="tpck.1169194664001" value="check_RunConfigurationCreatesDebugSession" />
       <property name="overrides" nameId="tpd4.1195213689297" value="true" />
     </node>

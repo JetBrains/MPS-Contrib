@@ -21,7 +21,7 @@
     <node type="tpd4.InferenceRule" typeId="tpd4.1174643105530" id="353793545802854604">
       <property name="name" nameId="tpck.1169194664001" value="typeof_Attribute" />
     </node>
-    <node type="tpd4.NonTypesystemRule" typeId="tpd4.1195214364922" id="353793545802854619">
+    <node type="tpd4.CheckingRule" typeId="tpd4.1195214364922" id="353793545802854619">
       <property name="name" nameId="tpck.1169194664001" value="checkAttributeDeclarationDefaultValueIsInEnum" />
       <property name="virtualPackage" nameId="tpck.1193676396447" value="Declarations" />
     </node>
@@ -29,14 +29,14 @@
       <property name="name" nameId="tpck.1169194664001" value="typeof_GenericAttributeDeclaration" />
       <property name="virtualPackage" nameId="tpck.1193676396447" value="Declarations" />
     </node>
-    <node type="tpd4.NonTypesystemRule" typeId="tpd4.1195214364922" id="353793545802854718">
+    <node type="tpd4.CheckingRule" typeId="tpd4.1195214364922" id="353793545802854718">
       <property name="name" nameId="tpck.1169194664001" value="checkParentsOfInterfaceAreInterfaces" />
       <property name="virtualPackage" nameId="tpck.1193676396447" value="Declarations" />
     </node>
-    <node type="tpd4.NonTypesystemRule" typeId="tpd4.1195214364922" id="353793545802854745">
+    <node type="tpd4.CheckingRule" typeId="tpd4.1195214364922" id="353793545802854745">
       <property name="name" nameId="tpck.1169194664001" value="checkAttributeValueIsInEnum" />
     </node>
-    <node type="tpd4.NonTypesystemRule" typeId="tpd4.1195214364922" id="353793545802854795">
+    <node type="tpd4.CheckingRule" typeId="tpd4.1195214364922" id="353793545802854795">
       <property name="name" nameId="tpck.1169194664001" value="checkAllRequiredAttributesPresent" />
     </node>
   </roots>
