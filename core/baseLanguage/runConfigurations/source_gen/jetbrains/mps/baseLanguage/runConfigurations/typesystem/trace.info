@@ -1,9 +1,9 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <debugInfo>
-  <unitInfo fileName="TypesystemDescriptor.java" startLine="9" startPosition="0" endLine="25" endPosition="0" unitName="jetbrains.mps.baseLanguage.runConfigurations.typesystem.TypesystemDescriptor" />
-  <unitInfo fileName="check_RunConfigurationCreatesDebugSession_NonTypesystemRule.java" startLine="12" startPosition="0" endLine="34" endPosition="0" unitName="jetbrains.mps.baseLanguage.runConfigurations.typesystem.check_RunConfigurationCreatesDebugSession_NonTypesystemRule" />
+  <unitInfo fileName="TypesystemDescriptor.java" startLine="8" startPosition="0" endLine="16" endPosition="0" unitName="jetbrains.mps.baseLanguage.runConfigurations.typesystem.TypesystemDescriptor" />
+  <unitInfo fileName="check_RunConfigurationCreatesDebugSession_CheckingRule.java" startLine="12" startPosition="0" endLine="34" endPosition="0" unitName="jetbrains.mps.baseLanguage.runConfigurations.typesystem.check_RunConfigurationCreatesDebugSession_CheckingRule" />
   <unitInfo fileName="typeof_Node_FunctionParameter_InferenceRule.java" startLine="14" startPosition="0" endLine="41" endPosition="0" unitName="jetbrains.mps.baseLanguage.runConfigurations.typesystem.typeof_Node_FunctionParameter_InferenceRule" />
-  <unitInfo fileName="check_IsApplicableBlock_NonTypesystemRule.java" startLine="17" startPosition="0" endLine="45" endPosition="0" unitName="jetbrains.mps.baseLanguage.runConfigurations.typesystem.check_IsApplicableBlock_NonTypesystemRule" />
+  <unitInfo fileName="check_IsApplicableBlock_CheckingRule.java" startLine="17" startPosition="0" endLine="45" endPosition="0" unitName="jetbrains.mps.baseLanguage.runConfigurations.typesystem.check_IsApplicableBlock_CheckingRule" />
   <root nodeId="2486271045794916148">
     <nodeInfo nodeId="1810772216404834554" fileName="typeof_Node_FunctionParameter_InferenceRule.java" startLine="19" startPosition="5" endLine="20" endPosition="64" conceptFqName="jetbrains.mps.baseLanguage.structure.LocalVariableDeclarationStatement" />
     <nodeInfo nodeId="1810772216404834554" fileName="typeof_Node_FunctionParameter_InferenceRule.java" startLine="20" startPosition="64" endLine="21" endPosition="221" conceptFqName="jetbrains.mps.baseLanguage.structure.LocalVariableDeclarationStatement" />
@@ -13,17 +13,17 @@
     <scopeInfo nodeId="2486271045794916149" fileName="typeof_Node_FunctionParameter_InferenceRule.java" startLine="18" startPosition="135" endLine="23" endPosition="5" />
   </root>
   <root nodeId="7976893777486251143">
-    <nodeInfo nodeId="7976893777486251164" fileName="check_IsApplicableBlock_NonTypesystemRule.java" startLine="23" startPosition="7" endLine="24" endPosition="60" conceptFqName="jetbrains.mps.baseLanguage.structure.LocalVariableDeclarationStatement" />
-    <nodeInfo nodeId="7976893777486251164" fileName="check_IsApplicableBlock_NonTypesystemRule.java" startLine="24" startPosition="60" endLine="25" endPosition="280" conceptFqName="jetbrains.mps.baseLanguage.structure.LocalVariableDeclarationStatement" />
-    <nodeInfo nodeId="7976893777486251164" fileName="check_IsApplicableBlock_NonTypesystemRule.java" startLine="22" startPosition="173" endLine="26" endPosition="7" conceptFqName="jetbrains.mps.baseLanguage.structure.BlockStatement" />
-    <nodeInfo nodeId="7976893777486251146" fileName="check_IsApplicableBlock_NonTypesystemRule.java" startLine="21" startPosition="130" endLine="27" endPosition="5" conceptFqName="jetbrains.mps.baseLanguage.structure.ForeachStatement" />
-    <scopeInfo nodeId="7976893777486251164" fileName="check_IsApplicableBlock_NonTypesystemRule.java" startLine="23" startPosition="7" endLine="25" endPosition="280" />
-    <scopeInfo nodeId="7976893777486251149" fileName="check_IsApplicableBlock_NonTypesystemRule.java" startLine="22" startPosition="173" endLine="26" endPosition="7" />
-    <scopeInfo nodeId="7976893777486251144" fileName="check_IsApplicableBlock_NonTypesystemRule.java" startLine="21" startPosition="130" endLine="27" endPosition="5" />
-    <scopeInfo nodeId="7976893777486251146" fileName="check_IsApplicableBlock_NonTypesystemRule.java" startLine="21" startPosition="130" endLine="27" endPosition="5" />
+    <nodeInfo nodeId="7976893777486251164" fileName="check_IsApplicableBlock_CheckingRule.java" startLine="23" startPosition="7" endLine="24" endPosition="60" conceptFqName="jetbrains.mps.baseLanguage.structure.LocalVariableDeclarationStatement" />
+    <nodeInfo nodeId="7976893777486251164" fileName="check_IsApplicableBlock_CheckingRule.java" startLine="24" startPosition="60" endLine="25" endPosition="280" conceptFqName="jetbrains.mps.baseLanguage.structure.LocalVariableDeclarationStatement" />
+    <nodeInfo nodeId="7976893777486251164" fileName="check_IsApplicableBlock_CheckingRule.java" startLine="22" startPosition="173" endLine="26" endPosition="7" conceptFqName="jetbrains.mps.baseLanguage.structure.BlockStatement" />
+    <nodeInfo nodeId="7976893777486251146" fileName="check_IsApplicableBlock_CheckingRule.java" startLine="21" startPosition="130" endLine="27" endPosition="5" conceptFqName="jetbrains.mps.baseLanguage.structure.ForeachStatement" />
+    <scopeInfo nodeId="7976893777486251164" fileName="check_IsApplicableBlock_CheckingRule.java" startLine="23" startPosition="7" endLine="25" endPosition="280" />
+    <scopeInfo nodeId="7976893777486251149" fileName="check_IsApplicableBlock_CheckingRule.java" startLine="22" startPosition="173" endLine="26" endPosition="7" />
+    <scopeInfo nodeId="7976893777486251144" fileName="check_IsApplicableBlock_CheckingRule.java" startLine="21" startPosition="130" endLine="27" endPosition="5" />
+    <scopeInfo nodeId="7976893777486251146" fileName="check_IsApplicableBlock_CheckingRule.java" startLine="21" startPosition="130" endLine="27" endPosition="5" />
   </root>
   <root nodeId="8255351389870630288">
-    <scopeInfo nodeId="8255351389870630289" fileName="check_RunConfigurationCreatesDebugSession_NonTypesystemRule.java" startLine="16" startPosition="133" endLine="16" endPosition="133" />
+    <scopeInfo nodeId="8255351389870630289" fileName="check_RunConfigurationCreatesDebugSession_CheckingRule.java" startLine="16" startPosition="133" endLine="16" endPosition="133" />
   </root>
 </debugInfo>
 

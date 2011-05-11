@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <debugInfo>
-  <unitInfo fileName="checkFileExistance_NonTypesystemRule.java" startLine="12" startPosition="0" endLine="34" endPosition="0" unitName="jetbrains.mps.buildlanguage.typesystem.checkFileExistance_NonTypesystemRule" />
+  <unitInfo fileName="checkFileExistance_CheckingRule.java" startLine="12" startPosition="0" endLine="34" endPosition="0" unitName="jetbrains.mps.buildlanguage.typesystem.checkFileExistance_CheckingRule" />
   <unitInfo fileName="typeof_PropertyReference_InferenceRule.java" startLine="14" startPosition="0" endLine="41" endPosition="0" unitName="jetbrains.mps.buildlanguage.typesystem.typeof_PropertyReference_InferenceRule" />
   <unitInfo fileName="FileIsSubtipeOfString_SubtypingRule.java" startLine="38" startPosition="0" endLine="66" endPosition="0" unitName="jetbrains.mps.buildlanguage.typesystem.FileIsSubtipeOfString_SubtypingRule$QuotationClass_3xtvj4_a0a0a" />
   <unitInfo fileName="typeof_MultiLineString_InferenceRule.java" startLine="43" startPosition="0" endLine="71" endPosition="0" unitName="jetbrains.mps.buildlanguage.typesystem.typeof_MultiLineString_InferenceRule$QuotationClass_anewhv_a0a0a0" />
@@ -13,8 +13,8 @@
   <unitInfo fileName="typeof_BooleanLiteral_InferenceRule.java" startLine="43" startPosition="0" endLine="71" endPosition="0" unitName="jetbrains.mps.buildlanguage.typesystem.typeof_BooleanLiteral_InferenceRule$QuotationClass_twkkmd_a0a0a0" />
   <unitInfo fileName="typeof_Enum_InferenceRule.java" startLine="15" startPosition="0" endLine="44" endPosition="0" unitName="jetbrains.mps.buildlanguage.typesystem.typeof_Enum_InferenceRule" />
   <unitInfo fileName="typeof_PropertyDeclaration_InferenceRule.java" startLine="14" startPosition="0" endLine="46" endPosition="0" unitName="jetbrains.mps.buildlanguage.typesystem.typeof_PropertyDeclaration_InferenceRule" />
+  <unitInfo fileName="TypesystemDescriptor.java" startLine="9" startPosition="0" endLine="61" endPosition="0" unitName="jetbrains.mps.buildlanguage.typesystem.TypesystemDescriptor" />
   <unitInfo fileName="FileIsSubtipeOfString_SubtypingRule.java" startLine="15" startPosition="0" endLine="67" endPosition="0" unitName="jetbrains.mps.buildlanguage.typesystem.FileIsSubtipeOfString_SubtypingRule" />
-  <unitInfo fileName="TypesystemDescriptor.java" startLine="10" startPosition="0" endLine="66" endPosition="0" unitName="jetbrains.mps.buildlanguage.typesystem.TypesystemDescriptor" />
   <unitInfo fileName="typeof_MultiLineString_InferenceRule.java" startLine="16" startPosition="0" endLine="72" endPosition="0" unitName="jetbrains.mps.buildlanguage.typesystem.typeof_MultiLineString_InferenceRule" />
   <unitInfo fileName="typeof_PlusOperation_InferenceRule.java" startLine="16" startPosition="0" endLine="72" endPosition="0" unitName="jetbrains.mps.buildlanguage.typesystem.typeof_PlusOperation_InferenceRule" />
   <unitInfo fileName="typeof_TagetReferencePropertyValueExpression_InferenceRule.java" startLine="16" startPosition="0" endLine="72" endPosition="0" unitName="jetbrains.mps.buildlanguage.typesystem.typeof_TagetReferencePropertyValueExpression_InferenceRule" />
@@ -88,7 +88,7 @@
     <scopeInfo nodeId="1199032009159" fileName="typeof_FileName_InferenceRule.java" startLine="20" startPosition="124" endLine="25" endPosition="5" />
   </root>
   <root nodeId="1199032114399">
-    <scopeInfo nodeId="1199032114400" fileName="checkFileExistance_NonTypesystemRule.java" startLine="16" startPosition="121" endLine="16" endPosition="121" />
+    <scopeInfo nodeId="1199032114400" fileName="checkFileExistance_CheckingRule.java" startLine="16" startPosition="121" endLine="16" endPosition="121" />
   </root>
   <root nodeId="1200511992931">
     <nodeInfo nodeId="1200512038892" fileName="typeof_CallReference_InferenceRule.java" startLine="21" startPosition="5" endLine="22" endPosition="53" conceptFqName="jetbrains.mps.baseLanguage.structure.LocalVariableDeclarationStatement" />
