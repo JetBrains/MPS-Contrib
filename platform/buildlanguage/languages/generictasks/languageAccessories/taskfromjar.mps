@@ -329,7 +329,7 @@
         <node role="statement" roleId="tpee.1068581517665" type="tpee.ExpressionStatement" typeId="tpee.1068580123155" id="1277897048695363687">
           <node role="expression" roleId="tpee.1068580123156" type="tp3r.Quotation" typeId="tp3r.1196350785113" id="1277897048695363688">
             <node role="quotedNode" roleId="tp3r.1196350785114" type="ddum.TaskReference" typeId="ddum.3037831562615764081" id="1277897048695363690">
-              <node role="_$attribute" roleId="tpck.5169995583184591170" type="tp3r.ReferenceAntiquotation" typeId="tp3r.1196350785117" id="1277897048695363691">
+              <node role="smodelAttribute" roleId="tpck.5169995583184591170" type="tp3r.ReferenceAntiquotation" typeId="tp3r.1196350785117" id="1277897048695363691">
                 <property name="linkRole" nameId="tpck.1757699476691236116" value="declaration" />
                 <property name="label" nameId="tp3r.6489343236075007666" value="TaskReference" />
                 <node role="expression" roleId="tp3r.1196350785111" type="tpee.ParameterReference" typeId="tpee.1068581242874" id="1277897048695363694">
@@ -4929,7 +4929,7 @@
                     <node role="argument" roleId="tp2q.1160612519549" type="tp3r.Quotation" typeId="tp3r.1196350785113" id="3101124883008938102">
                       <node role="quotedNode" roleId="tp3r.1196350785114" type="tpsk.StringLiteral" typeId="tpsk.1196861005114" id="3101124883008938103">
                         <property name="value" nameId="tpsk.1196861024475" value="" />
-                        <node role="_$attribute" roleId="tpck.5169995583184591170" type="tp3r.PropertyAntiquotation" typeId="tp3r.1196866233735" id="3101124883008938104">
+                        <node role="smodelAttribute" roleId="tpck.5169995583184591170" type="tp3r.PropertyAntiquotation" typeId="tp3r.1196866233735" id="3101124883008938104">
                           <property name="propertyName" nameId="tpck.1757699476691236117" value="value" />
                           <node role="expression" roleId="tp3r.1196350785111" type="tpee.LocalVariableReference" typeId="tpee.1068581242866" id="3101124883008938105">
                             <link role="variableDeclaration" roleId="tpee.1068581517664" targetNodeId="1462969652806436230" resolveInfo="str" />
@@ -5068,7 +5068,7 @@
               </node>
               <node role="initializer" roleId="tpee.1068431790190" type="tp3r.Quotation" typeId="tp3r.1196350785113" id="8826918594705147260">
                 <node role="quotedNode" roleId="tp3r.1196350785114" type="ddum.NestedDeclaration" typeId="ddum.353793545802643498" id="8826918594705147261">
-                  <node role="_$attribute" roleId="tpck.5169995583184591170" type="tp3r.ReferenceAntiquotation" typeId="tp3r.1196350785117" id="8826918594705147262">
+                  <node role="smodelAttribute" roleId="tpck.5169995583184591170" type="tp3r.ReferenceAntiquotation" typeId="tp3r.1196350785117" id="8826918594705147262">
                     <property name="linkRole" nameId="tpck.1757699476691236116" value="declaration" />
                     <node role="expression" roleId="tp3r.1196350785111" type="tpee.ParameterReference" typeId="tpee.1068581242874" id="8826918594705147263">
                       <link role="variableDeclaration" roleId="tpee.1068581517664" targetNodeId="1462969652806436260" resolveInfo="nestedDecl" />
