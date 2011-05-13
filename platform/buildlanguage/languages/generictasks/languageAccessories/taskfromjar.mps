@@ -3920,10 +3920,6 @@
         <property name="name" nameId="tpck.1169194664001" value="CORE" />
         <link role="baseMethodDeclaration" roleId="tpee.1068499141037" targetNodeId="1462969652806435822" resolveInfo="Generator.Modes" />
       </node>
-      <node role="enumConstant" roleId="tpee.1083245396908" type="tpee.EnumConstantDeclaration" typeId="tpee.1083245299891" id="1462969652806435820">
-        <property name="name" nameId="tpck.1169194664001" value="NODEPS" />
-        <link role="baseMethodDeclaration" roleId="tpee.1068499141037" targetNodeId="1462969652806435822" resolveInfo="Generator.Modes" />
-      </node>
       <node role="enumConstant" roleId="tpee.1083245396908" type="tpee.EnumConstantDeclaration" typeId="tpee.1083245299891" id="1462969652806435821">
         <property name="name" nameId="tpck.1169194664001" value="JUNIT" />
         <link role="baseMethodDeclaration" roleId="tpee.1068499141037" targetNodeId="1462969652806435822" resolveInfo="Generator.Modes" />
@@ -6059,7 +6055,7 @@
           <link role="baseMethodDeclaration" roleId="tpee.1068499141037" targetNodeId="30pf.~PathManager%dgetHomePath()%cjava%dlang%dString" resolveInfo="getHomePath" />
         </node>
         <node role="rightExpression" roleId="tpee.1081773367579" type="tpee.StringLiteral" typeId="tpee.1070475926800" id="1462969652806436714">
-          <property name="value" nameId="tpee.1070475926801" value="/lib/ant-1.7.0" />
+          <property name="value" nameId="tpee.1070475926801" value="/lib/ant" />
         </node>
       </node>
     </node>
@@ -6111,26 +6107,6 @@
                   </node>
                   <node role="rightExpression" roleId="tpee.1081773367579" type="tpee.StaticFieldReference" typeId="tpee.1070533707846" id="1462969652806436737">
                     <link role="variableDeclaration" roleId="tpee.1068581517664" targetNodeId="1462969652806437769" resolveInfo="LIB_ANT_JAR" />
-                    <link role="classifier" roleId="tpee.1144433057691" targetNodeId="1462969652806437758" resolveInfo="Scanner" />
-                  </node>
-                </node>
-              </node>
-            </node>
-          </node>
-          <node role="case" roleId="tpee.1163670772911" type="tpee.SwitchCase" typeId="tpee.1163670641947" id="1462969652806436738">
-            <node role="expression" roleId="tpee.1163670677455" type="tpee.EnumConstantReference" typeId="tpee.1083260308424" id="1462969652806436739">
-              <link role="enumConstantDeclaration" roleId="tpee.1083260308426" targetNodeId="1462969652806435820" resolveInfo="NODEPS" />
-              <link role="enumClass" roleId="tpee.1144432896254" targetNodeId="1462969652806435817" resolveInfo="Generator.Modes" />
-            </node>
-            <node role="body" roleId="tpee.1163670683720" type="tpee.StatementList" typeId="tpee.1068580123136" id="1462969652806436740">
-              <node role="statement" roleId="tpee.1068581517665" type="tpee.ReturnStatement" typeId="tpee.1068581242878" id="1462969652806436741">
-                <node role="expression" roleId="tpee.1068581517676" type="tpee.PlusExpression" typeId="tpee.1068581242875" id="1462969652806436742">
-                  <node role="leftExpression" roleId="tpee.1081773367580" type="tpee.StaticFieldReference" typeId="tpee.1070533707846" id="1462969652806436743">
-                    <link role="classifier" roleId="tpee.1144433057691" targetNodeId="1462969652806435815" resolveInfo="Generator" />
-                    <link role="variableDeclaration" roleId="tpee.1068581517664" targetNodeId="1462969652806436710" resolveInfo="ANT_PATH" />
-                  </node>
-                  <node role="rightExpression" roleId="tpee.1081773367579" type="tpee.StaticFieldReference" typeId="tpee.1070533707846" id="1462969652806436744">
-                    <link role="variableDeclaration" roleId="tpee.1068581517664" targetNodeId="1462969652806437773" resolveInfo="LIB_NODEPS_JAR" />
                     <link role="classifier" roleId="tpee.1144433057691" targetNodeId="1462969652806437758" resolveInfo="Scanner" />
                   </node>
                 </node>
@@ -8709,17 +8685,6 @@
         <property name="value" nameId="tpee.1070475926801" value="/lib/ant.jar" />
       </node>
     </node>
-    <node role="staticField" roleId="tpee.1128555889557" type="tpee.StaticFieldDeclaration" typeId="tpee.1070462154015" id="1462969652806437773">
-      <property name="isFinal" nameId="tpee.1176718929932" value="true" />
-      <property name="name" nameId="tpck.1169194664001" value="LIB_NODEPS_JAR" />
-      <node role="type" roleId="tpee.5680397130376446158" type="tpee.ClassifierType" typeId="tpee.1107535904670" id="1462969652806437774">
-        <link role="classifier" roleId="tpee.1107535924139" targetNodeId="e2lb.~String" resolveInfo="String" />
-      </node>
-      <node role="visibility" roleId="tpee.1178549979242" type="tpee.PublicVisibility" typeId="tpee.1146644602865" id="1462969652806437775" />
-      <node role="initializer" roleId="tpee.1068431790190" type="tpee.StringLiteral" typeId="tpee.1070475926800" id="1462969652806437776">
-        <property name="value" nameId="tpee.1070475926801" value="/lib/ant-nodeps.jar" />
-      </node>
-    </node>
     <node role="staticField" roleId="tpee.1128555889557" type="tpee.StaticFieldDeclaration" typeId="tpee.1070462154015" id="1462969652806437777">
       <property name="isFinal" nameId="tpee.1176718929932" value="true" />
       <property name="name" nameId="tpck.1169194664001" value="LIB_ANT_JUNIT_JAR" />
@@ -10416,7 +10381,7 @@
                 </node>
                 <node role="initializer" roleId="tpee.1068431790190" type="tpee.StaticMethodCall" typeId="tpee.1081236700937" id="1462969652806438453">
                   <link role="classConcept" roleId="tpee.1144433194310" targetNodeId="1462969652806437758" resolveInfo="Scanner" />
-                  <link role="baseMethodDeclaration" roleId="tpee.1068499141037" targetNodeId="1462969652806438437" resolveInfo="getClassInfo" />
+                  <link role="baseMethodDeclaration" roleId="tpee.1068499141037" targetNodeId="1462969652806438467" resolveInfo="getClassInfo" />
                   <node role="actualArgument" roleId="tpee.1068499141038" type="tpee.ParameterReference" typeId="tpee.1068581242874" id="1462969652806438454">
                     <link role="variableDeclaration" roleId="tpee.1068581517664" targetNodeId="1462969652806438439" resolveInfo="clazz" />
                   </node>

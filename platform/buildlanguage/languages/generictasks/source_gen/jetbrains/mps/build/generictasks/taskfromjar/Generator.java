@@ -31,7 +31,7 @@ import jetbrains.mps.project.GlobalScope;
 
 public class Generator {
   private static final Logger LOG = Logger.getLogger(Generator.class);
-  /*package*/ static final String ANT_PATH = PathManager.getHomePath() + "/lib/ant-1.7.0";
+  /*package*/ static final String ANT_PATH = PathManager.getHomePath() + "/lib/ant";
   private static final BuildLanguageGenerator GENERATOR = BuildLanguageGenerator.getInstance();
 
   public Generator() {
@@ -41,8 +41,6 @@ public class Generator {
     switch (m) {
       case CORE:
         return Generator.ANT_PATH + Scanner.LIB_ANT_JAR;
-      case NODEPS:
-        return Generator.ANT_PATH + Scanner.LIB_NODEPS_JAR;
       case JUNIT:
         return Generator.ANT_PATH + Scanner.LIB_ANT_JUNIT_JAR;
       default:
@@ -167,7 +165,6 @@ public class Generator {
 
   public static   enum Modes {
     CORE(),
-    NODEPS(),
     JUNIT();
 
     Modes() {

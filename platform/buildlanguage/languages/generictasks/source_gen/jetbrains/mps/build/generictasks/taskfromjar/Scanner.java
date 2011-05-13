@@ -29,7 +29,6 @@ public class Scanner {
   private static final Logger LOG = Logger.getLogger(Scanner.class);
   private static final String CLASSFILE_EXT = ".class";
   public static final String LIB_ANT_JAR = "/lib/ant.jar";
-  public static final String LIB_NODEPS_JAR = "/lib/ant-nodeps.jar";
   public static final String LIB_ANT_JUNIT_JAR = "/lib/ant-junit.jar";
   private static final String PROPERTY_EXT = "org/apache/tools/ant/taskdefs/defaults.properties";
 

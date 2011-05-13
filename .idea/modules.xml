@@ -52,6 +52,7 @@
       <module fileurl="file://$PROJECT_DIR$/workbench/uiTests/uiTests.iml" filepath="$PROJECT_DIR$/workbench/uiTests/uiTests.iml" />
       <module fileurl="file://$PROJECT_DIR$/core/baseLanguage/unitTest/solutions/runtime/unitTest-runtime.iml" filepath="$PROJECT_DIR$/core/baseLanguage/unitTest/solutions/runtime/unitTest-runtime.iml" group="core/baseLanguage" />
       <module fileurl="file://$PROJECT_DIR$/plugins/vcs/vcs.iml" filepath="$PROJECT_DIR$/plugins/vcs/vcs.iml" group="plugins" />
+      <module fileurl="file://$PROJECT_DIR$/mergedriver/vcs-mergedriver.iml" filepath="$PROJECT_DIR$/mergedriver/vcs-mergedriver.iml" group="plugins" />
       <module fileurl="file://$PROJECT_DIR$/workbench/workbench.iml" filepath="$PROJECT_DIR$/workbench/workbench.iml" group="workbench" />
     </modules>
   </component>
