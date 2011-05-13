@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<dependencies version="2" modelHash="1lm79u0avvlw4jw3896hzfar48va0tj">
+<dependencies version="2" modelHash="8q2x6k2rpl3ggf13ksgczfjoocw91ee">
   <dep model="f:java_stub#37a3367b-1fb2-44d8-aa6b-18075e74e003#jetbrains.mps.lang.smodel.generator.smodelAdapter(MPS.Classpath/jetbrains.mps.lang.smodel.generator.smodelAdapter@java_stub)" />
   <dep model="f:java_stub#37a3367b-1fb2-44d8-aa6b-18075e74e003#jetbrains.mps.nodeEditor.cellLayout(MPS.Classpath/jetbrains.mps.nodeEditor.cellLayout@java_stub)" />
   <dep model="f:java_stub#37a3367b-1fb2-44d8-aa6b-18075e74e003#jetbrains.mps.nodeEditor.cellProviders(MPS.Classpath/jetbrains.mps.nodeEditor.cellProviders@java_stub)" />
@@ -124,7 +124,7 @@
     <dep model="r:f04c1476-2f91-4f59-be13-c8e009abebee(jetbrains.mps.baseLanguageInternal.generator.template.main@generator)" />
     <file name="TaskInterfaceDeclaration_Editor.java" />
   </source>
-  <source id="353793545802643642" name="BuiltInTaskDeclaration_Editor" hash="4q4o4fsubcta2snpdlnew4xpabjroq7">
+  <source id="353793545802643642" name="BuiltInTaskDeclaration_Editor" hash="xvx63d49ap3m9gudlikbcl5ona6rie">
     <dep root="8233904257587923431" />
     <dep root="8233904257587923457" />
     <dep root="8241842287689220298" />

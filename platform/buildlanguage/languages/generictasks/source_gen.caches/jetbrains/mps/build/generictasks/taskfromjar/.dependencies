@@ -143,6 +143,7 @@
     <classNode dependClassName="java.io.File" />
     <classNode dependClassName="org.apache.tools.ant.types.DataType" />
     <classNode dependClassName="java.lang.ClassCastException" />
+    <classNode dependClassName="org.apache.tools.ant.taskdefs.EchoXML" />
     <classNode dependClassName="java.net.URLClassLoader" />
     <classNode dependClassName="jetbrains.mps.build.generictasks.taskfromjar.Importer" />
     <classNode dependClassName="java.util.Enumeration" />

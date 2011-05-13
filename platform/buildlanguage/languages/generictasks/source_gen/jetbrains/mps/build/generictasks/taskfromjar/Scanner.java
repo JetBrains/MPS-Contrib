@@ -14,6 +14,7 @@ import org.apache.tools.ant.Task;
 import org.apache.tools.ant.types.DataType;
 import java.util.LinkedList;
 import org.apache.tools.ant.taskdefs.ConditionTask;
+import org.apache.tools.ant.taskdefs.EchoXML;
 import java.util.Enumeration;
 import java.util.jar.JarEntry;
 import java.util.Collections;
@@ -60,8 +61,9 @@ public class Scanner {
     List<ClassInfo> toImport = new LinkedList<ClassInfo>();
     for (JarFile srcJar : this.myJarFiles) {
       Set<ClassInfo<? extends Task>> taskClasses = Scanner.getTaskClasses(srcJar, this.myClassLoader, taskClass);
-      if (antJar.equals(srcJar)) {
+      if (antJar.getName().equals(srcJar.getName())) {
         taskClasses.add(new ClassInfo(this.myClassLoader.loadClass(ConditionTask.class.getName())));
+        taskClasses.add(new ClassInfo(this.myClassLoader.loadClass(EchoXML.class.getName())));
       }
       Set<ClassInfo<? extends DataType>> datatypeClasses = Scanner.getTaskClasses(srcJar, this.myClassLoader, datatypeClass);
       toImport.addAll(taskClasses);
