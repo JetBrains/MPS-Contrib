@@ -142,7 +142,6 @@
     <classNode dependClassName="jetbrains.mps.graphLayout.planarGraph.EmbeddedGraph" />
     <classNode dependClassName="java.util.Map" />
     <classNode dependClassName="jetbrains.mps.graphLayout.graph.Graph" />
-    <classNode dependClassName="java.lang.System" />
     <classNode dependClassName="jetbrains.mps.graphLayout.intGeom2D.Rectangle" />
   </dependency>
 </dependenciesRoot>

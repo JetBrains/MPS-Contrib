@@ -21,7 +21,7 @@ import jetbrains.mps.internal.collections.runtime.MapSequence;
 import jetbrains.mps.graphLayout.graph.GraphModificationEvent;
 
 public class BiconnectedInitialEmbeddingFinder implements IEmbeddingFinder {
-  private static int SHOW_INFO = 1;
+  private static int SHOW_LOG = 0;
 
   public BiconnectedInitialEmbeddingFinder() {
   }
@@ -48,7 +48,7 @@ public class BiconnectedInitialEmbeddingFinder implements IEmbeddingFinder {
   }
 
   private void addPath(EmbeddedGraph embeddedGraph, final Node start, final Node toAdd, Set<Node> toBeAdded) {
-    if (SHOW_INFO > 0) {
+    if (SHOW_LOG > 0) {
       System.out.println("before: \n" + embeddedGraph);
     }
     Set<Edge> removed = SetSequence.fromSet(new HashSet<Edge>());
@@ -81,7 +81,7 @@ public class BiconnectedInitialEmbeddingFinder implements IEmbeddingFinder {
         SetSequence.fromSet(toBeAdded).removeElement(node);
       }
     }
-    if (SHOW_INFO > 0) {
+    if (SHOW_LOG > 0) {
       System.out.println("find path: " + path);
     }
     connect(embeddedGraph, path, start, cur);

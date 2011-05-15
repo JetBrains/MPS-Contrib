@@ -62,7 +62,6 @@ public class TreeEmbeddingFinder implements IEmbeddingFinder {
       }
       ListSequence.fromList(newNodes).addElement(newNode);
     }
-    System.out.println("adding " + removedEdge);
     List<Edge> path = ShortestPath.getPath(dualGraph, ListSequence.fromList(newNodes).getElement(0), ListSequence.fromList(newNodes).getElement(1), Edge.Direction.BOTH);
     List<Node> nodePath = ListSequence.fromList(new ArrayList<Node>());
     List<Face> facePath = ListSequence.fromList(new ArrayList<Face>());
@@ -85,9 +84,6 @@ public class TreeEmbeddingFinder implements IEmbeddingFinder {
       ListSequence.fromList(MapSequence.fromMap(mySplittedEdges).get(removedEdge)).addElement(newEdge);
       splitFace(embeddedGraph, ListSequence.fromList(facePath).getElement(i), newEdge);
     }
-    /*
-      System.out.println("after: " + embeddedGraph);
-    */
   }
 
   public void splitFace(EmbeddedGraph embeddedGraph, Face face, Edge newEdge) {

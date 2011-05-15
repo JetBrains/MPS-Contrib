@@ -10,8 +10,6 @@ import jetbrains.mps.graphLayout.graph.Edge;
 import jetbrains.mps.graphLayout.graph.EdgesHistoryManager;
 import jetbrains.mps.graphLayout.planarization.ClusterEmbeddingConstructor;
 import jetbrains.mps.graphLayout.planarGraph.EmbeddedGraph;
-import jetbrains.mps.graphLayout.graph.Node;
-import jetbrains.mps.internal.collections.runtime.ListSequence;
 
 public class ClusterEmbeddingConstructor_Test extends TestCase {
   public void test_connectedTriagles() throws Exception {
@@ -47,14 +45,6 @@ public class ClusterEmbeddingConstructor_Test extends TestCase {
     EdgesHistoryManager manager = new EdgesHistoryManager(graph);
     ClusterEmbeddingConstructor processor = new ClusterEmbeddingConstructor(graph, graph.getRoot(), null);
     EmbeddedGraph embeddedGraph = processor.constructEmbedding();
-    System.out.println(graph.getEdges());
-    for (Node cluster : ListSequence.fromList(graph.getInclusionTree().getNodes())) {
-      System.out.println("cluster " + cluster + ": " + graph.getNodesInCluster(cluster));
-    }
-    for (Edge edge : ListSequence.fromList(edges)) {
-      System.out.println("" + edge + ": " + manager.getHistory(edge));
-    }
-    System.out.println(embeddedGraph);
     CheckEmbeddedGraph.checkEmbeddedGraph(embeddedGraph, false);
   }
 }

@@ -364,41 +364,36 @@
     <nodeInfo nodeId="6984255766319277826" fileName="VisibilityRepresentation.java" startLine="27" startPosition="69" endLine="28" endPosition="16" conceptFqName="jetbrains.mps.baseLanguage.structure.SingleLineComment" />
     <nodeInfo nodeId="6984255766319277829" fileName="VisibilityRepresentation.java" startLine="28" startPosition="16" endLine="29" endPosition="75" conceptFqName="jetbrains.mps.baseLanguage.structure.LocalVariableDeclarationStatement" />
     <nodeInfo nodeId="6984255766319277859" fileName="VisibilityRepresentation.java" startLine="29" startPosition="75" endLine="30" endPosition="78" conceptFqName="jetbrains.mps.baseLanguage.structure.LocalVariableDeclarationStatement" />
-    <nodeInfo nodeId="3619822174190283520" fileName="VisibilityRepresentation.java" startLine="30" startPosition="78" endLine="31" endPosition="39" conceptFqName="jetbrains.mps.baseLanguage.structure.ExpressionStatement" />
-    <nodeInfo nodeId="3619822174190283796" fileName="VisibilityRepresentation.java" startLine="32" startPosition="71" endLine="33" endPosition="134" conceptFqName="jetbrains.mps.baseLanguage.structure.ExpressionStatement" />
-    <nodeInfo nodeId="6984255766319281829" fileName="VisibilityRepresentation.java" startLine="34" startPosition="5" endLine="35" endPosition="94" conceptFqName="jetbrains.mps.baseLanguage.structure.LocalVariableDeclarationStatement" />
-    <nodeInfo nodeId="6984255766319281902" fileName="VisibilityRepresentation.java" startLine="35" startPosition="94" endLine="36" endPosition="56" conceptFqName="jetbrains.mps.baseLanguage.structure.LocalVariableDeclarationStatement" />
-    <nodeInfo nodeId="3619822174190283450" fileName="VisibilityRepresentation.java" startLine="37" startPosition="63" endLine="38" endPosition="60" conceptFqName="jetbrains.mps.baseLanguage.structure.LocalVariableDeclarationStatement" />
-    <nodeInfo nodeId="3619822174190283460" fileName="VisibilityRepresentation.java" startLine="38" startPosition="60" endLine="39" endPosition="126" conceptFqName="jetbrains.mps.baseLanguage.structure.LocalVariableDeclarationStatement" />
-    <nodeInfo nodeId="3619822174190283480" fileName="VisibilityRepresentation.java" startLine="39" startPosition="126" endLine="40" endPosition="132" conceptFqName="jetbrains.mps.baseLanguage.structure.LocalVariableDeclarationStatement" />
-    <nodeInfo nodeId="3619822174190283641" fileName="VisibilityRepresentation.java" startLine="41" startPosition="58" endLine="42" endPosition="72" conceptFqName="jetbrains.mps.baseLanguage.structure.ExpressionStatement" />
-    <nodeInfo nodeId="3619822174190283496" fileName="VisibilityRepresentation.java" startLine="43" startPosition="7" endLine="44" endPosition="92" conceptFqName="jetbrains.mps.baseLanguage.structure.ExpressionStatement" />
-    <nodeInfo nodeId="3619822174190283557" fileName="VisibilityRepresentation.java" startLine="46" startPosition="63" endLine="47" endPosition="122" conceptFqName="jetbrains.mps.baseLanguage.structure.LocalVariableDeclarationStatement" />
-    <nodeInfo nodeId="3619822174190283577" fileName="VisibilityRepresentation.java" startLine="47" startPosition="122" endLine="48" endPosition="91" conceptFqName="jetbrains.mps.baseLanguage.structure.LocalVariableDeclarationStatement" />
-    <nodeInfo nodeId="3619822174190283594" fileName="VisibilityRepresentation.java" startLine="48" startPosition="91" endLine="49" endPosition="92" conceptFqName="jetbrains.mps.baseLanguage.structure.LocalVariableDeclarationStatement" />
-    <nodeInfo nodeId="3619822174190283604" fileName="VisibilityRepresentation.java" startLine="49" startPosition="92" endLine="50" endPosition="92" conceptFqName="jetbrains.mps.baseLanguage.structure.ExpressionStatement" />
-    <nodeInfo nodeId="6984255766319277774" fileName="VisibilityRepresentation.java" startLine="51" startPosition="5" endLine="52" endPosition="22" conceptFqName="jetbrains.mps.baseLanguage.structure.ReturnStatement" />
-    <nodeInfo nodeId="3619822174190283786" fileName="VisibilityRepresentation.java" startLine="31" startPosition="39" endLine="34" endPosition="5" conceptFqName="jetbrains.mps.baseLanguage.structure.ForeachStatement" />
-    <nodeInfo nodeId="3619822174190283628" fileName="VisibilityRepresentation.java" startLine="40" startPosition="132" endLine="43" endPosition="7" conceptFqName="jetbrains.mps.baseLanguage.structure.IfStatement" />
-    <nodeInfo nodeId="3619822174190283538" fileName="VisibilityRepresentation.java" startLine="45" startPosition="5" endLine="51" endPosition="5" conceptFqName="jetbrains.mps.baseLanguage.structure.ForeachStatement" />
-    <nodeInfo nodeId="3619822174190283435" fileName="VisibilityRepresentation.java" startLine="36" startPosition="56" endLine="45" endPosition="5" conceptFqName="jetbrains.mps.baseLanguage.structure.ForeachStatement" />
-    <nodeInfo nodeId="6984255766319277706" fileName="VisibilityRepresentation.java" startLine="19" startPosition="39" endLine="54" endPosition="0" conceptFqName="jetbrains.mps.baseLanguage.structure.StaticMethodDeclaration" propertyString="getVisibilityRepresentation#(Ljetbrains/mps/graphLayout/planarGraph/STPlanarGraph;)Ljava/util/Map;" />
-    <scopeInfo nodeId="3619822174190283789" fileName="VisibilityRepresentation.java" startLine="32" startPosition="71" endLine="33" endPosition="134" />
-    <scopeInfo nodeId="3619822174190283629" fileName="VisibilityRepresentation.java" startLine="41" startPosition="58" endLine="42" endPosition="72" />
-    <scopeInfo nodeId="3619822174190283786" fileName="VisibilityRepresentation.java" startLine="31" startPosition="39" endLine="34" endPosition="5" />
-    <scopeInfo nodeId="3619822174190283541" fileName="VisibilityRepresentation.java" startLine="46" startPosition="63" endLine="50" endPosition="92">
+    <nodeInfo nodeId="6984255766319281829" fileName="VisibilityRepresentation.java" startLine="30" startPosition="78" endLine="31" endPosition="94" conceptFqName="jetbrains.mps.baseLanguage.structure.LocalVariableDeclarationStatement" />
+    <nodeInfo nodeId="6984255766319281902" fileName="VisibilityRepresentation.java" startLine="31" startPosition="94" endLine="32" endPosition="56" conceptFqName="jetbrains.mps.baseLanguage.structure.LocalVariableDeclarationStatement" />
+    <nodeInfo nodeId="3619822174190283450" fileName="VisibilityRepresentation.java" startLine="33" startPosition="63" endLine="34" endPosition="60" conceptFqName="jetbrains.mps.baseLanguage.structure.LocalVariableDeclarationStatement" />
+    <nodeInfo nodeId="3619822174190283460" fileName="VisibilityRepresentation.java" startLine="34" startPosition="60" endLine="35" endPosition="126" conceptFqName="jetbrains.mps.baseLanguage.structure.LocalVariableDeclarationStatement" />
+    <nodeInfo nodeId="3619822174190283480" fileName="VisibilityRepresentation.java" startLine="35" startPosition="126" endLine="36" endPosition="132" conceptFqName="jetbrains.mps.baseLanguage.structure.LocalVariableDeclarationStatement" />
+    <nodeInfo nodeId="3619822174190283641" fileName="VisibilityRepresentation.java" startLine="37" startPosition="58" endLine="38" endPosition="72" conceptFqName="jetbrains.mps.baseLanguage.structure.ExpressionStatement" />
+    <nodeInfo nodeId="3619822174190283496" fileName="VisibilityRepresentation.java" startLine="39" startPosition="7" endLine="40" endPosition="92" conceptFqName="jetbrains.mps.baseLanguage.structure.ExpressionStatement" />
+    <nodeInfo nodeId="3619822174190283557" fileName="VisibilityRepresentation.java" startLine="42" startPosition="63" endLine="43" endPosition="122" conceptFqName="jetbrains.mps.baseLanguage.structure.LocalVariableDeclarationStatement" />
+    <nodeInfo nodeId="3619822174190283577" fileName="VisibilityRepresentation.java" startLine="43" startPosition="122" endLine="44" endPosition="91" conceptFqName="jetbrains.mps.baseLanguage.structure.LocalVariableDeclarationStatement" />
+    <nodeInfo nodeId="3619822174190283594" fileName="VisibilityRepresentation.java" startLine="44" startPosition="91" endLine="45" endPosition="92" conceptFqName="jetbrains.mps.baseLanguage.structure.LocalVariableDeclarationStatement" />
+    <nodeInfo nodeId="3619822174190283604" fileName="VisibilityRepresentation.java" startLine="45" startPosition="92" endLine="46" endPosition="92" conceptFqName="jetbrains.mps.baseLanguage.structure.ExpressionStatement" />
+    <nodeInfo nodeId="6984255766319277774" fileName="VisibilityRepresentation.java" startLine="47" startPosition="5" endLine="48" endPosition="22" conceptFqName="jetbrains.mps.baseLanguage.structure.ReturnStatement" />
+    <nodeInfo nodeId="3619822174190283628" fileName="VisibilityRepresentation.java" startLine="36" startPosition="132" endLine="39" endPosition="7" conceptFqName="jetbrains.mps.baseLanguage.structure.IfStatement" />
+    <nodeInfo nodeId="3619822174190283538" fileName="VisibilityRepresentation.java" startLine="41" startPosition="5" endLine="47" endPosition="5" conceptFqName="jetbrains.mps.baseLanguage.structure.ForeachStatement" />
+    <nodeInfo nodeId="3619822174190283435" fileName="VisibilityRepresentation.java" startLine="32" startPosition="56" endLine="41" endPosition="5" conceptFqName="jetbrains.mps.baseLanguage.structure.ForeachStatement" />
+    <nodeInfo nodeId="6984255766319277706" fileName="VisibilityRepresentation.java" startLine="19" startPosition="39" endLine="50" endPosition="0" conceptFqName="jetbrains.mps.baseLanguage.structure.StaticMethodDeclaration" propertyString="getVisibilityRepresentation#(Ljetbrains/mps/graphLayout/planarGraph/STPlanarGraph;)Ljava/util/Map;" />
+    <scopeInfo nodeId="3619822174190283629" fileName="VisibilityRepresentation.java" startLine="37" startPosition="58" endLine="38" endPosition="72" />
+    <scopeInfo nodeId="3619822174190283541" fileName="VisibilityRepresentation.java" startLine="42" startPosition="63" endLine="46" endPosition="92">
       <varInfo nodeId="3619822174190283595" varName="yRight" />
       <varInfo nodeId="3619822174190283578" varName="yLeft" />
       <varInfo nodeId="3619822174190283558" varName="x" />
     </scopeInfo>
-    <scopeInfo nodeId="3619822174190283538" fileName="VisibilityRepresentation.java" startLine="45" startPosition="5" endLine="51" endPosition="5" />
-    <scopeInfo nodeId="3619822174190283438" fileName="VisibilityRepresentation.java" startLine="37" startPosition="63" endLine="44" endPosition="92">
+    <scopeInfo nodeId="3619822174190283538" fileName="VisibilityRepresentation.java" startLine="41" startPosition="5" endLine="47" endPosition="5" />
+    <scopeInfo nodeId="3619822174190283438" fileName="VisibilityRepresentation.java" startLine="33" startPosition="63" endLine="40" endPosition="92">
       <varInfo nodeId="3619822174190283461" varName="xLeft" />
       <varInfo nodeId="3619822174190283481" varName="xRight" />
       <varInfo nodeId="3619822174190283451" varName="y" />
     </scopeInfo>
-    <scopeInfo nodeId="3619822174190283435" fileName="VisibilityRepresentation.java" startLine="36" startPosition="56" endLine="45" endPosition="5" />
-    <scopeInfo nodeId="6984255766319277709" fileName="VisibilityRepresentation.java" startLine="20" startPosition="97" endLine="52" endPosition="22">
+    <scopeInfo nodeId="3619822174190283435" fileName="VisibilityRepresentation.java" startLine="32" startPosition="56" endLine="41" endPosition="5" />
+    <scopeInfo nodeId="6984255766319277709" fileName="VisibilityRepresentation.java" startLine="20" startPosition="97" endLine="48" endPosition="22">
       <varInfo nodeId="6984255766319281790" varName="graph" />
       <varInfo nodeId="6984255766319277781" varName="dualTarget" />
       <varInfo nodeId="6984255766319277830" varName="graphNumbering" />
@@ -410,10 +405,10 @@
       <varInfo nodeId="6984255766319277734" varName="dualSource" />
       <varInfo nodeId="6984255766319281903" varName="faceNodes" />
     </scopeInfo>
-    <scopeInfo nodeId="6984255766319277706" fileName="VisibilityRepresentation.java" startLine="19" startPosition="39" endLine="54" endPosition="0">
+    <scopeInfo nodeId="6984255766319277706" fileName="VisibilityRepresentation.java" startLine="19" startPosition="39" endLine="50" endPosition="0">
       <varInfo nodeId="6984255766319277711" varName="stPlanarGraph" />
     </scopeInfo>
-    <unitInfo nodeId="6984255766319277285" fileName="VisibilityRepresentation.java" startLine="19" startPosition="0" endLine="55" endPosition="0" unitName="jetbrains.mps.graphLayout.stOrthogonalLayout.VisibilityRepresentation" />
+    <unitInfo nodeId="6984255766319277285" fileName="VisibilityRepresentation.java" startLine="19" startPosition="0" endLine="51" endPosition="0" unitName="jetbrains.mps.graphLayout.stOrthogonalLayout.VisibilityRepresentation" />
   </root>
   <root nodeId="903391227141024519">
     <nodeInfo nodeId="903391227141027242" fileName="ConstraintsSupporter.java" startLine="20" startPosition="35" endLine="21" endPosition="40" conceptFqName="jetbrains.mps.baseLanguage.structure.FieldDeclaration" propertyString="myStPlanarGraph" />

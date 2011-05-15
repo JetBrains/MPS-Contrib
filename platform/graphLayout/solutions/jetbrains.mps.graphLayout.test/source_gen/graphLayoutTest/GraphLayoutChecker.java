@@ -94,10 +94,6 @@ public class GraphLayoutChecker {
           continue;
         }
         Rectangle rect = layout.getLabelLayout(labeledEdge);
-        if (GeomUtil.intersects(rect, path)) {
-          int a = 0;
-          System.out.println(a);
-        }
         Assert.assertFalse(GeomUtil.intersects(rect, path));
       }
     }

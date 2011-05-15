@@ -19,7 +19,6 @@ import java.util.HashMap;
 import jetbrains.mps.graphLayout.graph.Edge;
 import jetbrains.mps.graphLayout.intGeom2D.Rectangle;
 import jetbrains.mps.graphLayout.stOrthogonalLayout.ConstraintsSupporter;
-import jetbrains.mps.internal.collections.runtime.SetSequence;
 
 public class ConstraintsSupporter_Test extends TestCase {
   public void test_test1() throws Exception {
@@ -34,18 +33,10 @@ public class ConstraintsSupporter_Test extends TestCase {
 
   public void test(Graph graph) {
     EmbeddedGraph embeddedGraph = new TreeEmbeddingFinder().find(graph);
-    System.out.println(embeddedGraph);
     Node s = ListSequence.fromList(embeddedGraph.getOuterFace().getDarts()).getElement(0).getSource();
     Node t = ListSequence.fromList(embeddedGraph.getOuterFace().getDarts()).getElement(0).getTarget();
     GraphOrientation.orientST(graph, s, t);
-    System.out.println(graph);
     STPlanarGraph stPlanarGraph = new STPlanarGraph(embeddedGraph, s, t);
-    for (Node node : ListSequence.fromList(graph.getNodes())) {
-      System.out.println("node " + node + " left " + stPlanarGraph.getLeftFace(node));
-    }
-    for (Node node : ListSequence.fromList(graph.getNodes())) {
-      System.out.println("node " + node + " right " + stPlanarGraph.getRightFace(node));
-    }
     Map<Node, Dimension> sizes = MapSequence.fromMap(new HashMap<Node, Dimension>());
     Map<Edge, Dimension> edgeSizes = MapSequence.fromMap(new HashMap<Edge, Dimension>());
     for (Node node : ListSequence.fromList(graph.getNodes())) {
@@ -59,10 +50,6 @@ public class ConstraintsSupporter_Test extends TestCase {
       MapSequence.fromMap(edgeSizes).put(edge, new Dimension(5, 5));
     }
     Map<Object, Rectangle> rep = new ConstraintsSupporter().getRepresentation(stPlanarGraph, sizes, edgeSizes);
-    for (Object object : SetSequence.fromSet(MapSequence.fromMap(rep).keySet())) {
-      System.out.println("!!!" + object);
-      System.out.println(MapSequence.fromMap(rep).get(object));
-    }
     ConstraintsChecker.check(graph, rep, sizes);
   }
 }

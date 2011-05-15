@@ -2,11 +2,9 @@
 <dependenciesRoot>
   <dependency className="layeredLayoutTest.BlockGraphProcessor_Test" file="BlockGraphProcessor_Test.java">
     <classNode dependClassName="java.lang.String" />
-    <classNode dependClassName="java.lang.System" />
     <classNode dependClassName="jetbrains.mps.graphLayout.graph.Graph" />
     <classNode dependClassName="java.lang.Exception" />
     <classNode dependClassName="java.util.Scanner" />
-    <classNode dependClassName="jetbrains.mps.internal.collections.runtime.ListSequence" />
     <classNode dependClassName="java.util.Map" />
     <classNode dependClassName="java.lang.Integer" />
     <classNode dependClassName="jetbrains.mps.graphLayout.layeredLayout.BlockGraphProcessor" />

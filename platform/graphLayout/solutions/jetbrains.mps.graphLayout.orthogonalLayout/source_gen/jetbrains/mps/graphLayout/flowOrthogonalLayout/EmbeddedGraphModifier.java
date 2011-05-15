@@ -27,7 +27,7 @@ import java.util.HashSet;
 import jetbrains.mps.internal.collections.runtime.ITranslator2;
 
 public class EmbeddedGraphModifier {
-  private static int SHOW_INFO = 1;
+  private static int SHOW_LOG = 0;
 
   private Graph myGraph;
   private EmbeddedGraph myEmbeddedGraph;
@@ -51,7 +51,7 @@ public class EmbeddedGraphModifier {
     for (Node node : Sequence.fromIterable(nodesToProcess)) {
       MapSequence.fromMap(myCornerNodes).put(node, new Node[4]);
       makeRectangleForSingleNode(node, modifiedEdges);
-      if (SHOW_INFO > 0) {
+      if (SHOW_LOG > 0) {
         System.out.println("corner nodes for node " + node + ":");
         for (Direction2D dir : Direction2D.values()) {
           System.out.println(dir + " = " + MapSequence.fromMap(myCornerNodes).get(node)[dir.ordinal()]);
@@ -71,7 +71,7 @@ public class EmbeddedGraphModifier {
       } else {
         makeRectangleForSplittedNode(node, MapSequence.fromMap(nodesToProcess).get(node));
       }
-      if (SHOW_INFO > 0) {
+      if (SHOW_LOG > 0) {
         System.out.println("corner nodes for node " + node + ":");
         for (Direction2D dir : Direction2D.values()) {
           System.out.println(dir + " = " + MapSequence.fromMap(myCornerNodes).get(node)[dir.ordinal()]);

@@ -9,7 +9,6 @@ import java.util.Scanner;
 import java.util.Map;
 import jetbrains.mps.graphLayout.graph.Node;
 import jetbrains.mps.graphLayout.layeredLayout.BlockGraphProcessor;
-import jetbrains.mps.internal.collections.runtime.ListSequence;
 
 public class BlockGraphProcessor_Test extends TestCase {
   public void test_test1() throws Exception {
@@ -30,9 +29,5 @@ public class BlockGraphProcessor_Test extends TestCase {
   public void test(String graphString) {
     Graph blockGraph = GraphIO.scanGraph(new Scanner(graphString));
     Map<Node, Integer> layers = new BlockGraphProcessor().process(blockGraph);
-    for (Node node : ListSequence.fromList(blockGraph.getNodes())) {
-      System.out.println("node " + node.getIndex() + ": " + layers.get(node));
-    }
-    System.out.println("----");
   }
 }

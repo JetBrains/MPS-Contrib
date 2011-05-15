@@ -6013,11 +6013,11 @@
       </node>
     </node>
     <node role="staticField" roleId="tpee.1128555889557" type="tpee.StaticFieldDeclaration" typeId="tpee.1070462154015" id="5626844973118490467">
-      <property name="name" nameId="tpck.1169194664001" value="SHOW_INFO" />
+      <property name="name" nameId="tpck.1169194664001" value="SHOW_LOG" />
       <node role="visibility" roleId="tpee.1178549979242" type="tpee.PrivateVisibility" typeId="tpee.1146644623116" id="5626844973118490468" />
       <node role="type" roleId="tpee.5680397130376446158" type="tpee.IntegerType" typeId="tpee.1070534370425" id="5626844973118490469" />
       <node role="initializer" roleId="tpee.1068431790190" type="tpee.IntegerConstant" typeId="tpee.1068580320020" id="5626844973118490470">
-        <property name="value" nameId="tpee.1068580320021" value="1" />
+        <property name="value" nameId="tpee.1068580320021" value="0" />
       </node>
     </node>
     <node role="method" roleId="tpee.1107880067339" type="tpee.InstanceMethodDeclaration" typeId="tpee.1068580123165" id="5626844973118490471">

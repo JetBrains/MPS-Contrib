@@ -53,7 +53,6 @@
     <classNode dependClassName="jetbrains.mps.internal.collections.runtime.SortedSetSequence" />
     <classNode dependClassName="java.util.ArrayList" />
     <classNode dependClassName="jetbrains.mps.graphLayout.graph.Graph" />
-    <classNode dependClassName="java.lang.System" />
     <classNode dependClassName="java.util.TreeSet" />
     <classNode dependClassName="jetbrains.mps.graphLayout.algorithms.ConnectivityComponents" />
     <classNode dependClassName="java.lang.IllegalArgumentException" />

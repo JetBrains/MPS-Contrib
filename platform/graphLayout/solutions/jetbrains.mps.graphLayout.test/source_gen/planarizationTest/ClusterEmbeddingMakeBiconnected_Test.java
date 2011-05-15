@@ -10,7 +10,6 @@ import jetbrains.mps.graphLayout.graph.Edge;
 import jetbrains.mps.graphLayout.graph.EdgesHistoryManager;
 import jetbrains.mps.graphLayout.planarGraph.EmbeddedGraph;
 import jetbrains.mps.graphLayout.planarization.ClusteredGraphEmbeddingFinder;
-import jetbrains.mps.internal.collections.runtime.ListSequence;
 import java.util.Set;
 import jetbrains.mps.graphLayout.algorithms.BiconnectAugmentation;
 import jetbrains.mps.internal.collections.runtime.SetSequence;
@@ -42,11 +41,6 @@ public class ClusterEmbeddingMakeBiconnected_Test extends TestCase {
     List<Edge> edges = graph.getEdges();
     EdgesHistoryManager manager = new EdgesHistoryManager(graph);
     EmbeddedGraph embeddedGraph = new ClusteredGraphEmbeddingFinder().find(graph);
-    System.out.println(graph.getEdges());
-    for (Edge edge : ListSequence.fromList(edges)) {
-      System.out.println("" + edge + ": " + manager.getHistory(edge));
-    }
-    System.out.println("before: " + embeddedGraph);
     CheckEmbeddedGraph.checkEmbeddedGraph(embeddedGraph, false);
     CheckEmbeddedGraph.checkFull(embeddedGraph);
     Set<Edge> newEdges = BiconnectAugmentation.smartMakeBiconnected(graph);
@@ -56,7 +50,6 @@ public class ClusterEmbeddingMakeBiconnected_Test extends TestCase {
     for (Edge edge : SetSequence.fromSet(newEdges)) {
       ShortestPathEmbeddingFinder.restoreEdge(embeddedGraph, edge, false);
     }
-    System.out.println("after: " + embeddedGraph);
     CheckEmbeddedGraph.checkEmbeddedGraph(embeddedGraph, false);
     CheckEmbeddedGraph.checkFull(embeddedGraph);
   }

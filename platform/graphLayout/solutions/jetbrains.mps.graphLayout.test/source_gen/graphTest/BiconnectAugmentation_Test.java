@@ -49,7 +49,6 @@ public class BiconnectAugmentation_Test extends TestCase {
   public void testSmart(String graphString) {
     Graph graph = GraphIO.scanGraph(new Scanner(graphString));
     BiconnectAugmentation.smartMakeBiconnected(graph);
-    System.out.println(graph);
     BiconnectivityChecker.check(graph);
   }
 }

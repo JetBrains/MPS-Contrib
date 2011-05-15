@@ -23,15 +23,14 @@
   </dependency>
   <dependency className="planarizationTest.BiconnectedInitialEmbeddingFinder_Test" file="BiconnectedInitialEmbeddingFinder_Test.java">
     <classNode dependClassName="java.lang.String" />
-    <classNode dependClassName="java.lang.System" />
     <classNode dependClassName="jetbrains.mps.graphLayout.graph.Graph" />
     <classNode dependClassName="java.lang.Exception" />
-    <classNode dependClassName="java.util.Scanner" />
+    <classNode dependClassName="jetbrains.mps.graphLayout.planarization.BiconnectedInitialEmbeddingFinder" />
     <classNode dependClassName="jetbrains.mps.graphLayout.planarGraph.EmbeddedGraph" />
     <classNode dependClassName="sampleGraphs.SimpleDirectedGraphs" />
     <classNode dependClassName="planarizationTest.CheckEmbeddedGraph" />
+    <classNode dependClassName="java.util.Scanner" />
     <classNode dependClassName="visualization.GraphIO" />
-    <classNode dependClassName="jetbrains.mps.graphLayout.planarization.BiconnectedInitialEmbeddingFinder" />
     <classNode extendsClassName="junit.framework.TestCase" />
   </dependency>
   <dependency className="planarizationTest.CheckEmbeddedGraph" file="CheckEmbeddedGraph.java">
@@ -63,20 +62,15 @@
     <classNode dependClassName="jetbrains.mps.graphLayout.planarization.ClusterEmbeddingConstructor" />
     <classNode dependClassName="jetbrains.mps.graphLayout.graph.ClusteredGraph" />
     <classNode dependClassName="java.lang.Exception" />
-    <classNode dependClassName="java.lang.System" />
     <classNode dependClassName="jetbrains.mps.graphLayout.graph.EdgesHistoryManager" />
     <classNode dependClassName="jetbrains.mps.graphLayout.planarGraph.EmbeddedGraph" />
-    <classNode dependClassName="jetbrains.mps.internal.collections.runtime.ListSequence" />
     <classNode dependClassName="planarizationTest.CheckEmbeddedGraph" />
     <classNode dependClassName="visualization.GraphIO" />
-    <classNode dependClassName="jetbrains.mps.graphLayout.graph.Node" />
     <classNode dependClassName="jetbrains.mps.graphLayout.graph.Edge" />
     <classNode extendsClassName="junit.framework.TestCase" />
   </dependency>
   <dependency className="planarizationTest.ClusterEmbeddingMakeBiconnected_Test" file="ClusterEmbeddingMakeBiconnected_Test.java">
-    <classNode dependClassName="jetbrains.mps.graphLayout.graph.ClusteredGraph" />
     <classNode dependClassName="jetbrains.mps.internal.collections.runtime.SetSequence" />
-    <classNode dependClassName="jetbrains.mps.internal.collections.runtime.ListSequence" />
     <classNode dependClassName="planarizationTest.CheckEmbeddedGraph" />
     <classNode dependClassName="jetbrains.mps.graphLayout.graph.Edge" />
     <classNode dependClassName="jetbrains.mps.graphLayout.planarization.ClusteredGraphEmbeddingFinder" />
@@ -84,9 +78,9 @@
     <classNode dependClassName="java.lang.String" />
     <classNode dependClassName="java.lang.Exception" />
     <classNode dependClassName="java.util.List" />
+    <classNode dependClassName="jetbrains.mps.graphLayout.graph.ClusteredGraph" />
     <classNode dependClassName="jetbrains.mps.graphLayout.planarGraph.EmbeddedGraph" />
     <classNode dependClassName="visualization.GraphIO" />
-    <classNode dependClassName="java.lang.System" />
     <classNode dependClassName="jetbrains.mps.graphLayout.algorithms.BiconnectAugmentation" />
     <classNode dependClassName="jetbrains.mps.graphLayout.graph.EdgesHistoryManager" />
     <classNode dependClassName="jetbrains.mps.graphLayout.planarization.ShortestPathEmbeddingFinder" />
@@ -113,7 +107,6 @@
   </dependency>
   <dependency className="planarizationTest.PQPlanarizationFinder_Test" file="PQPlanarizationFinder_Test.java">
     <classNode dependClassName="java.lang.String" />
-    <classNode dependClassName="java.lang.System" />
     <classNode dependClassName="jetbrains.mps.graphLayout.graph.Graph" />
     <classNode dependClassName="java.lang.Exception" />
     <classNode dependClassName="java.util.Scanner" />
@@ -130,7 +123,6 @@
     <classNode dependClassName="jetbrains.mps.graphLayout.planarization.TreeEmbeddingFinder" />
     <classNode dependClassName="jetbrains.mps.graphLayout.graph.Edge" />
     <classNode dependClassName="java.util.Scanner" />
-    <classNode dependClassName="sampleGraphs.SimpleDirectedGraphs" />
     <classNode dependClassName="jetbrains.mps.graphLayout.algorithms.GraphOrientation" />
     <classNode dependClassName="java.lang.String" />
     <classNode dependClassName="java.lang.Exception" />
@@ -142,7 +134,7 @@
     <classNode dependClassName="java.util.ArrayList" />
     <classNode dependClassName="jetbrains.mps.graphLayout.graph.Graph" />
     <classNode dependClassName="visualization.GraphIO" />
-    <classNode dependClassName="java.lang.System" />
+    <classNode dependClassName="sampleGraphs.SimpleDirectedGraphs" />
     <classNode dependClassName="jetbrains.mps.graphLayout.planarGraph.Dart" />
     <classNode dependClassName="jetbrains.mps.internal.collections.runtime.ListSequence" />
     <classNode dependClassName="jetbrains.mps.graphLayout.planarization.BiconnectedInitialEmbeddingFinder" />
@@ -187,7 +179,6 @@
     <classNode dependClassName="jetbrains.mps.graphLayout.algorithms.TopologicalSorting" />
   </dependency>
   <dependency className="planarizationTest.SubsequenceFinder_Test" file="SubsequenceFinder_Test.java">
-    <classNode dependClassName="java.lang.System" />
     <classNode dependClassName="java.util.List" />
     <classNode dependClassName="jetbrains.mps.graphLayout.planarization.SubsequenceFinder" />
     <classNode dependClassName="java.lang.Object" />
@@ -200,7 +191,6 @@
   </dependency>
   <dependency className="planarizationTest.TreeEmbeddingFinder_Find_Test" file="TreeEmbeddingFinder_Find_Test.java">
     <classNode dependClassName="java.lang.String" />
-    <classNode dependClassName="java.lang.System" />
     <classNode dependClassName="jetbrains.mps.graphLayout.graph.Graph" />
     <classNode dependClassName="java.lang.Exception" />
     <classNode dependClassName="java.util.Scanner" />

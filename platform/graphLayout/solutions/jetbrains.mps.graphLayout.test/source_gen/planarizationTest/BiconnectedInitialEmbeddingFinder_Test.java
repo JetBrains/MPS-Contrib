@@ -39,6 +39,5 @@ public class BiconnectedInitialEmbeddingFinder_Test extends TestCase {
   public void test(Graph graph) {
     EmbeddedGraph embeddedGraph = new BiconnectedInitialEmbeddingFinder().find(graph);
     CheckEmbeddedGraph.checkEmbeddedGraph(embeddedGraph, true);
-    System.out.println(embeddedGraph);
   }
 }

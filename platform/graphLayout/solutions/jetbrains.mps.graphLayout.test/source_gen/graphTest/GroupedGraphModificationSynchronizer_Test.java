@@ -54,12 +54,5 @@ public class GroupedGraphModificationSynchronizer_Test extends TestCase {
     ListSequence.fromList(gSplit).addElement(groupedGraph.connect(secondEdge.getSource(), node));
     ListSequence.fromList(gSplit).addElement(groupedGraph.connect(node, secondEdge.getTarget()));
     groupedGraph.getModificationProcessor().fire(new GraphModificationEvent(GraphModificationEvent.Type.EDGE_SPLITTED, secondEdge, gSplit));
-    System.out.println(graph);
-    for (Edge edge : ListSequence.fromList(groupedGraph.getEdges())) {
-      System.out.println("" + edge + " -> " + MapSequence.fromMap(invEdgeMap).get(edge));
-    }
-    for (Edge edge : SetSequence.fromSet(initEdges)) {
-      System.out.println("" + edge + ": " + manager.getHistory(edge));
-    }
   }
 }

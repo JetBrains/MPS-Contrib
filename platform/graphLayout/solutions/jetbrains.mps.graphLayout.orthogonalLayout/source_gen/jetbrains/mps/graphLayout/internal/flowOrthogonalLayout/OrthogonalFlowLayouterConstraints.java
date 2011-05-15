@@ -36,7 +36,7 @@ import java.util.Iterator;
 
 public class OrthogonalFlowLayouterConstraints {
   private static int DEFAULT_UNIT_LENGTH = 20;
-  private static int SHOW_INFO = 1;
+  private static int SHOW_LOG = 0;
 
   private int myUnitLength = OrthogonalFlowLayouterConstraints.DEFAULT_UNIT_LENGTH;
 
@@ -109,7 +109,7 @@ public class OrthogonalFlowLayouterConstraints {
   }
 
   private GraphLayout getLayoutFromEmbeddedGraph(EmbeddedGraph embeddedGraph, Map<Node, Dimension> nodeSizes, EdgesHistoryManager historyManager) {
-    if (OrthogonalFlowLayouterConstraints.SHOW_INFO > 0) {
+    if (OrthogonalFlowLayouterConstraints.SHOW_LOG > 0) {
       System.out.println("initial graph: " + embeddedGraph);
     }
     Graph graph = embeddedGraph.getGraph();
@@ -122,7 +122,7 @@ public class OrthogonalFlowLayouterConstraints {
     QuasiOrthogonalRepresentation.getRepresentation(embeddedGraph, bends, angles);
     QuasiRepresentationModifier quasiModifier = new QuasiRepresentationModifier(embeddedGraph, bends, angles);
     quasiModifier.reduceToOrthogonalRepresentation();
-    if (OrthogonalFlowLayouterConstraints.SHOW_INFO > 0) {
+    if (OrthogonalFlowLayouterConstraints.SHOW_LOG > 0) {
       System.out.println("modifications: ");
       for (QuasiRepresentationModifier.Modification modification : ListSequence.fromList(quasiModifier.getModifications())) {
         System.out.println(modification);
@@ -130,7 +130,7 @@ public class OrthogonalFlowLayouterConstraints {
     }
     OrthogonalRepresentation.replaceBendsByNodes(embeddedGraph, bends, angles);
     Map<Dart, Direction2D> directions = OrthogonalRepresentation.getDirections(embeddedGraph, angles);
-    if (OrthogonalFlowLayouterConstraints.SHOW_INFO > 0) {
+    if (OrthogonalFlowLayouterConstraints.SHOW_LOG > 0) {
       System.out.println("modified graph: " + embeddedGraph);
     }
     Map<Node, Map<Direction2D, Integer>> nodeDirectionSizes = this.getNodeDirectionSizes(oldNodes, nodeSizes);

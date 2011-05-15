@@ -12,8 +12,8 @@ import jetbrains.mps.graphLayout.planarGraph.Face;
 import jetbrains.mps.graphLayout.graph.Node;
 import jetbrains.mps.internal.collections.runtime.MapSequence;
 import jetbrains.mps.graphLayout.algorithms.TopologicalNumbering;
-import jetbrains.mps.internal.collections.runtime.ListSequence;
 import java.util.HashMap;
+import jetbrains.mps.internal.collections.runtime.ListSequence;
 import jetbrains.mps.graphLayout.graph.Edge;
 
 public class VisibilityRepresentation {
@@ -28,10 +28,6 @@ public class VisibilityRepresentation {
     // end hack 
     Map<Node, Integer> graphNumbering = TopologicalNumbering.number(graph);
     Map<Node, Integer> dualNumbering = TopologicalNumbering.number(dualGraph);
-    System.out.println(graphNumbering);
-    for (Face face : ListSequence.fromList(embeddedGraph.getFaces())) {
-      System.out.println(face + " " + MapSequence.fromMap(dualNumbering).get(MapSequence.fromMap(dualGraph.getNodesMap()).get(face)));
-    }
     Map<Object, Rectangle> rectangles = MapSequence.fromMap(new HashMap<Object, Rectangle>());
     Map<Face, Node> faceNodes = dualGraph.getNodesMap();
     for (Node node : ListSequence.fromList(graph.getNodes())) {

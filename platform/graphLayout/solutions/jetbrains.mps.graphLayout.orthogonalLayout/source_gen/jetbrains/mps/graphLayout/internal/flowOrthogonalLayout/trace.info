@@ -1576,7 +1576,7 @@
   </root>
   <root nodeId="5626844973118490458">
     <nodeInfo nodeId="5626844973118490463" fileName="OrthogonalFlowLayouterConstraints.java" startLine="37" startPosition="48" endLine="38" endPosition="46" conceptFqName="jetbrains.mps.baseLanguage.structure.StaticFieldDeclaration" propertyString="DEFAULT_UNIT_LENGTH" />
-    <nodeInfo nodeId="5626844973118490467" fileName="OrthogonalFlowLayouterConstraints.java" startLine="38" startPosition="46" endLine="39" endPosition="35" conceptFqName="jetbrains.mps.baseLanguage.structure.StaticFieldDeclaration" propertyString="SHOW_INFO" />
+    <nodeInfo nodeId="5626844973118490467" fileName="OrthogonalFlowLayouterConstraints.java" startLine="38" startPosition="46" endLine="39" endPosition="34" conceptFqName="jetbrains.mps.baseLanguage.structure.StaticFieldDeclaration" propertyString="SHOW_LOG" />
     <nodeInfo nodeId="5626844973118490459" fileName="OrthogonalFlowLayouterConstraints.java" startLine="40" startPosition="0" endLine="41" endPosition="83" conceptFqName="jetbrains.mps.baseLanguage.structure.FieldDeclaration" propertyString="myUnitLength" />
     <nodeInfo nodeId="5626844973118490481" fileName="OrthogonalFlowLayouterConstraints.java" startLine="46" startPosition="76" endLine="47" endPosition="29" conceptFqName="jetbrains.mps.baseLanguage.structure.LocalVariableDeclarationStatement" />
     <nodeInfo nodeId="5626844973118490486" fileName="OrthogonalFlowLayouterConstraints.java" startLine="47" startPosition="29" endLine="48" endPosition="77" conceptFqName="jetbrains.mps.baseLanguage.structure.LocalVariableDeclarationStatement" />
@@ -1617,7 +1617,7 @@
     <nodeInfo nodeId="5626844973118490802" fileName="OrthogonalFlowLayouterConstraints.java" startLine="103" startPosition="92" endLine="104" endPosition="43" conceptFqName="jetbrains.mps.baseLanguage.structure.ExpressionStatement" />
     <nodeInfo nodeId="5626844973118490809" fileName="OrthogonalFlowLayouterConstraints.java" startLine="105" startPosition="7" endLine="106" endPosition="51" conceptFqName="jetbrains.mps.baseLanguage.structure.ExpressionStatement" />
     <nodeInfo nodeId="5626844973118490815" fileName="OrthogonalFlowLayouterConstraints.java" startLine="107" startPosition="5" endLine="108" endPosition="25" conceptFqName="jetbrains.mps.baseLanguage.structure.ReturnStatement" />
-    <nodeInfo nodeId="5626844973118490829" fileName="OrthogonalFlowLayouterConstraints.java" startLine="112" startPosition="58" endLine="113" endPosition="60" conceptFqName="jetbrains.mps.baseLanguage.structure.ExpressionStatement" />
+    <nodeInfo nodeId="5626844973118490829" fileName="OrthogonalFlowLayouterConstraints.java" startLine="112" startPosition="57" endLine="113" endPosition="60" conceptFqName="jetbrains.mps.baseLanguage.structure.ExpressionStatement" />
     <nodeInfo nodeId="5626844973118490839" fileName="OrthogonalFlowLayouterConstraints.java" startLine="114" startPosition="5" endLine="115" endPosition="43" conceptFqName="jetbrains.mps.baseLanguage.structure.LocalVariableDeclarationStatement" />
     <nodeInfo nodeId="5626844973118490845" fileName="OrthogonalFlowLayouterConstraints.java" startLine="115" startPosition="43" endLine="116" endPosition="71" conceptFqName="jetbrains.mps.baseLanguage.structure.LocalVariableDeclarationStatement" />
     <nodeInfo nodeId="5626844973118490852" fileName="OrthogonalFlowLayouterConstraints.java" startLine="116" startPosition="71" endLine="117" endPosition="89" conceptFqName="jetbrains.mps.baseLanguage.structure.ExpressionStatement" />
@@ -1628,11 +1628,11 @@
     <nodeInfo nodeId="5626844973118490891" fileName="OrthogonalFlowLayouterConstraints.java" startLine="121" startPosition="82" endLine="122" endPosition="82" conceptFqName="jetbrains.mps.baseLanguage.structure.ExpressionStatement" />
     <nodeInfo nodeId="5626844973118490896" fileName="OrthogonalFlowLayouterConstraints.java" startLine="122" startPosition="82" endLine="123" endPosition="110" conceptFqName="jetbrains.mps.baseLanguage.structure.LocalVariableDeclarationStatement" />
     <nodeInfo nodeId="5626844973118490904" fileName="OrthogonalFlowLayouterConstraints.java" startLine="123" startPosition="110" endLine="124" endPosition="53" conceptFqName="jetbrains.mps.baseLanguage.structure.ExpressionStatement" />
-    <nodeInfo nodeId="5626844973118490913" fileName="OrthogonalFlowLayouterConstraints.java" startLine="125" startPosition="58" endLine="126" endPosition="44" conceptFqName="jetbrains.mps.baseLanguage.structure.ExpressionStatement" />
+    <nodeInfo nodeId="5626844973118490913" fileName="OrthogonalFlowLayouterConstraints.java" startLine="125" startPosition="57" endLine="126" endPosition="44" conceptFqName="jetbrains.mps.baseLanguage.structure.ExpressionStatement" />
     <nodeInfo nodeId="5626844973118490924" fileName="OrthogonalFlowLayouterConstraints.java" startLine="127" startPosition="125" endLine="128" endPosition="41" conceptFqName="jetbrains.mps.baseLanguage.structure.ExpressionStatement" />
     <nodeInfo nodeId="5626844973118490929" fileName="OrthogonalFlowLayouterConstraints.java" startLine="130" startPosition="5" endLine="131" endPosition="79" conceptFqName="jetbrains.mps.baseLanguage.structure.ExpressionStatement" />
     <nodeInfo nodeId="5626844973118490934" fileName="OrthogonalFlowLayouterConstraints.java" startLine="131" startPosition="79" endLine="132" endPosition="102" conceptFqName="jetbrains.mps.baseLanguage.structure.LocalVariableDeclarationStatement" />
-    <nodeInfo nodeId="5626844973118490944" fileName="OrthogonalFlowLayouterConstraints.java" startLine="133" startPosition="58" endLine="134" endPosition="61" conceptFqName="jetbrains.mps.baseLanguage.structure.ExpressionStatement" />
+    <nodeInfo nodeId="5626844973118490944" fileName="OrthogonalFlowLayouterConstraints.java" startLine="133" startPosition="57" endLine="134" endPosition="61" conceptFqName="jetbrains.mps.baseLanguage.structure.ExpressionStatement" />
     <nodeInfo nodeId="5626844973118490954" fileName="OrthogonalFlowLayouterConstraints.java" startLine="135" startPosition="5" endLine="136" endPosition="110" conceptFqName="jetbrains.mps.baseLanguage.structure.LocalVariableDeclarationStatement" />
     <nodeInfo nodeId="5626844973118490966" fileName="OrthogonalFlowLayouterConstraints.java" startLine="136" startPosition="110" endLine="137" endPosition="109" conceptFqName="jetbrains.mps.baseLanguage.structure.LocalVariableDeclarationStatement" />
     <nodeInfo nodeId="5626844973118490977" fileName="OrthogonalFlowLayouterConstraints.java" startLine="137" startPosition="109" endLine="138" endPosition="99" conceptFqName="jetbrains.mps.baseLanguage.structure.LocalVariableDeclarationStatement" />
@@ -1795,9 +1795,9 @@
     <scopeInfo nodeId="5626844973118490718" fileName="OrthogonalFlowLayouterConstraints.java" startLine="87" startPosition="57" endLine="88" endPosition="78" />
     <scopeInfo nodeId="5626844973118490743" fileName="OrthogonalFlowLayouterConstraints.java" startLine="92" startPosition="57" endLine="93" endPosition="67" />
     <scopeInfo nodeId="5626844973118490785" fileName="OrthogonalFlowLayouterConstraints.java" startLine="100" startPosition="45" endLine="101" endPosition="78" />
-    <scopeInfo nodeId="5626844973118490828" fileName="OrthogonalFlowLayouterConstraints.java" startLine="112" startPosition="58" endLine="113" endPosition="60" />
+    <scopeInfo nodeId="5626844973118490828" fileName="OrthogonalFlowLayouterConstraints.java" startLine="112" startPosition="57" endLine="113" endPosition="60" />
     <scopeInfo nodeId="5626844973118490923" fileName="OrthogonalFlowLayouterConstraints.java" startLine="127" startPosition="125" endLine="128" endPosition="41" />
-    <scopeInfo nodeId="5626844973118490943" fileName="OrthogonalFlowLayouterConstraints.java" startLine="133" startPosition="58" endLine="134" endPosition="61" />
+    <scopeInfo nodeId="5626844973118490943" fileName="OrthogonalFlowLayouterConstraints.java" startLine="133" startPosition="57" endLine="134" endPosition="61" />
     <scopeInfo nodeId="5626844973118491261" fileName="OrthogonalFlowLayouterConstraints.java" startLine="181" startPosition="123" endLine="182" endPosition="57" />
     <scopeInfo nodeId="5626844973118491422" fileName="OrthogonalFlowLayouterConstraints.java" startLine="210" startPosition="29" endLine="211" endPosition="72" />
     <scopeInfo nodeId="5626844973118491437" fileName="OrthogonalFlowLayouterConstraints.java" startLine="212" startPosition="14" endLine="213" endPosition="73" />
@@ -1838,7 +1838,7 @@
     <scopeInfo nodeId="5626844973118491256" fileName="OrthogonalFlowLayouterConstraints.java" startLine="180" startPosition="5" endLine="183" endPosition="5" />
     <scopeInfo nodeId="5626844973118491664" fileName="OrthogonalFlowLayouterConstraints.java" startLine="252" startPosition="39" endLine="255" endPosition="7" />
     <scopeInfo nodeId="5626844973118491896" fileName="OrthogonalFlowLayouterConstraints.java" startLine="292" startPosition="9" endLine="295" endPosition="9" />
-    <scopeInfo nodeId="5626844973118490912" fileName="OrthogonalFlowLayouterConstraints.java" startLine="125" startPosition="58" endLine="129" endPosition="7" />
+    <scopeInfo nodeId="5626844973118490912" fileName="OrthogonalFlowLayouterConstraints.java" startLine="125" startPosition="57" endLine="129" endPosition="7" />
     <scopeInfo nodeId="5626844973118491466" fileName="OrthogonalFlowLayouterConstraints.java" startLine="217" startPosition="23" endLine="221" endPosition="7" />
     <scopeInfo nodeId="5626844973118491918" fileName="OrthogonalFlowLayouterConstraints.java" startLine="300" startPosition="0" endLine="304" endPosition="0">
       <varInfo nodeId="5626844973118491926" varName="unitLength" />

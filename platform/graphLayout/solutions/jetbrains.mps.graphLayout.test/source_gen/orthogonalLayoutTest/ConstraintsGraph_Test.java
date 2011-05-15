@@ -53,8 +53,6 @@ public class ConstraintsGraph_Test extends TestCase {
     quasiModifier.reduceToOrthogonalRepresentation();
     OrthogonalRepresentation.replaceBendsByNodes(embeddedGraph, bends, angles);
     Map<Dart, Direction2D> directions = OrthogonalRepresentation.getDirections(embeddedGraph, angles);
-    System.out.println(embeddedGraph);
-    System.out.println(directions);
     ConstraintsGraphProcessor processor = new ConstraintsGraphProcessor(embeddedGraph, directions);
     List<Node> nodes = ListSequence.fromList(new ArrayList<Node>());
     ListSequence.fromList(nodes).addSequence(ListSequence.fromList(graph.getNodes()));
@@ -73,7 +71,6 @@ public class ConstraintsGraph_Test extends TestCase {
     QuasiRepresentationModifier quasiModifier = new QuasiRepresentationModifier(embeddedGraph, bends, angles);
     quasiModifier.reduceToOrthogonalRepresentation();
     OrthogonalRepresentation.replaceBendsByNodes(embeddedGraph, bends, angles);
-    System.out.println(embeddedGraph);
     Map<Dart, Direction2D> directions = OrthogonalRepresentation.getDirections(embeddedGraph, angles);
     ConstraintsGraphProcessor processor = new ConstraintsGraphProcessor(embeddedGraph, directions);
     List<Node> nodes = ListSequence.fromList(new ArrayList<Node>());

@@ -76,7 +76,6 @@ public class RandomGraphGenerator {
       SetSequence.fromSet(ListSequence.fromList(connected).getElement(s)).addElement(t);
       SetSequence.fromSet(ListSequence.fromList(connected).getElement(t)).addElement(s);
     }
-    System.out.println("random failed " + countBad + " times!");
     return g;
   }
 
@@ -151,7 +150,6 @@ public class RandomGraphGenerator {
       SetSequence.fromSet(ListSequence.fromList(connected).getElement(s)).addElement(t);
       SetSequence.fromSet(ListSequence.fromList(connected).getElement(t)).addElement(s);
     }
-    System.out.println("random failed " + countBad + " times!");
     return g;
   }
 

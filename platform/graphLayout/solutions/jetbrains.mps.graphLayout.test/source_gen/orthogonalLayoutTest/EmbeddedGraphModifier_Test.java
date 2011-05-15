@@ -49,9 +49,6 @@ public class EmbeddedGraphModifier_Test extends TestCase {
     EmbeddedGraph embeddedGraph = new ShortestPathEmbeddingFinder(new PQPlanarizationFinder()).find(graph);
     EmbeddedGraphModifier modifier = new EmbeddedGraphModifier(embeddedGraph);
     Set<Edge> edges = modifier.reduceNodesDegree(nodeMap, MapSequence.fromMap(new HashMap<Edge, Edge>()));
-    /*
-      System.out.println(embeddedGraph);
-    */
     Map<Dart, Integer> bends = MapSequence.fromMap(new HashMap<Dart, Integer>());
     Map<Dart, Integer> angles = MapSequence.fromMap(new HashMap<Dart, Integer>());
     OrthogonalRepresentation.getRepresentation(embeddedGraph, edges, bends, angles);
@@ -66,9 +63,6 @@ public class EmbeddedGraphModifier_Test extends TestCase {
     EmbeddedGraphModifier modifier = prepare(graph, nodeMap);
     modifier.makeRectanglesForNodes(nodeMap);
     EmbeddedGraph embeddedGraph = modifier.getEmbeddedGraph();
-    /*
-      System.out.println(embeddedGraph);
-    */
     CheckEmbeddedGraph.checkEmbeddedGraph(embeddedGraph, false);
     Map<Dart, Direction2D> dartDirections = modifier.getDartDirections();
     for (Edge edge : ListSequence.fromList(graph.getEdges())) {

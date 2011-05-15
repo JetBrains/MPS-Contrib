@@ -47,6 +47,5 @@ public class BiconnectComponent_Test extends TestCase {
 
   public void test(Graph graph) {
     BiconnectedComponent tree = BiconnectedComponent.createTree(graph);
-    System.out.println(tree.toString(""));
   }
 }

@@ -20,7 +20,6 @@ import jetbrains.mps.internal.collections.runtime.SetSequence;
 import java.util.HashSet;
 import jetbrains.mps.internal.collections.runtime.ListSequence;
 import jetbrains.mps.graphLayout.flowOrthogonalLayout.QuasiRepresentationModifier;
-import jetbrains.mps.graphLayout.graph.Node;
 import jetbrains.mps.graphLayout.planarGraph.CheckEmbeddedGraph;
 
 public class QuasiOrthogonalRepresentation_Test extends TestCase {
@@ -77,7 +76,6 @@ public class QuasiOrthogonalRepresentation_Test extends TestCase {
 
   public void testPlanarBiconnectedGraph(Graph graph) {
     EmbeddedGraph embeddedGraph = new PQPlanarizationFinder().find(graph);
-    System.out.println(embeddedGraph);
     Map<Dart, Integer> bends = MapSequence.fromMap(new HashMap<Dart, Integer>());
     Map<Dart, Integer> angles = MapSequence.fromMap(new HashMap<Dart, Integer>());
     QuasiOrthogonalRepresentation.getRepresentation(embeddedGraph, bends, angles);
@@ -85,13 +83,6 @@ public class QuasiOrthogonalRepresentation_Test extends TestCase {
     SetSequence.fromSet(oldEdges).addSequence(ListSequence.fromList(graph.getEdges()));
     OrthogonalRepresentationChecker.checkOrthogonalRepresentation(graph, bends, angles, 0);
     new QuasiRepresentationModifier(embeddedGraph, bends, angles).reduceToOrthogonalRepresentation();
-    System.out.println(embeddedGraph);
-    for (Node node : ListSequence.fromList(graph.getNodes())) {
-      System.out.println("node " + node);
-      for (Dart dart : ListSequence.fromList(embeddedGraph.getDartWithSource(node))) {
-        System.out.println(dart + " angle = " + MapSequence.fromMap(angles).get(dart) + ", bends = " + MapSequence.fromMap(bends).get(dart) + ", opposite bends = " + MapSequence.fromMap(bends).get(embeddedGraph.getOpposite(dart)));
-      }
-    }
     CheckEmbeddedGraph.checkEmbeddedGraph(embeddedGraph, false);
     OrthogonalRepresentationChecker.checkOrthogonalRepresentation(graph, bends, angles, 1);
   }

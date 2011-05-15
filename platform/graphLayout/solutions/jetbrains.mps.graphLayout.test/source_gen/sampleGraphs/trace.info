@@ -290,160 +290,158 @@
     <nodeInfo nodeId="1763712338172454249" fileName="RandomGraphGenerator.java" startLine="74" startPosition="7" endLine="75" endPosition="29" conceptFqName="jetbrains.mps.baseLanguage.structure.ExpressionStatement" />
     <nodeInfo nodeId="3437556975695846878" fileName="RandomGraphGenerator.java" startLine="75" startPosition="29" endLine="76" endPosition="88" conceptFqName="jetbrains.mps.baseLanguage.structure.ExpressionStatement" />
     <nodeInfo nodeId="3437556975695846885" fileName="RandomGraphGenerator.java" startLine="76" startPosition="88" endLine="77" endPosition="88" conceptFqName="jetbrains.mps.baseLanguage.structure.ExpressionStatement" />
-    <nodeInfo nodeId="3437556975695846900" fileName="RandomGraphGenerator.java" startLine="78" startPosition="5" endLine="79" endPosition="64" conceptFqName="jetbrains.mps.baseLanguage.structure.ExpressionStatement" />
-    <nodeInfo nodeId="3437556975695846909" fileName="RandomGraphGenerator.java" startLine="79" startPosition="64" endLine="80" endPosition="13" conceptFqName="jetbrains.mps.baseLanguage.structure.ReturnStatement" />
-    <nodeInfo nodeId="3437556975695846920" fileName="RandomGraphGenerator.java" startLine="83" startPosition="110" endLine="84" endPosition="108" conceptFqName="jetbrains.mps.baseLanguage.structure.SingleLineComment" />
-    <nodeInfo nodeId="3437556975695846922" fileName="RandomGraphGenerator.java" startLine="84" startPosition="108" endLine="85" endPosition="14" conceptFqName="jetbrains.mps.baseLanguage.structure.LocalVariableDeclarationStatement" />
-    <nodeInfo nodeId="3437556975695846926" fileName="RandomGraphGenerator.java" startLine="85" startPosition="14" endLine="86" endPosition="56" conceptFqName="jetbrains.mps.baseLanguage.structure.LocalVariableDeclarationStatement" />
-    <nodeInfo nodeId="3437556975695846941" fileName="RandomGraphGenerator.java" startLine="87" startPosition="49" endLine="88" endPosition="26" conceptFqName="jetbrains.mps.baseLanguage.structure.ExpressionStatement" />
-    <nodeInfo nodeId="3437556975695846947" fileName="RandomGraphGenerator.java" startLine="88" startPosition="26" endLine="89" endPosition="25" conceptFqName="jetbrains.mps.baseLanguage.structure.ExpressionStatement" />
-    <nodeInfo nodeId="3437556975695846963" fileName="RandomGraphGenerator.java" startLine="90" startPosition="5" endLine="91" endPosition="40" conceptFqName="jetbrains.mps.baseLanguage.structure.ExpressionStatement" />
-    <nodeInfo nodeId="3437556975695846971" fileName="RandomGraphGenerator.java" startLine="91" startPosition="40" endLine="92" endPosition="30" conceptFqName="jetbrains.mps.baseLanguage.structure.LocalVariableDeclarationStatement" />
-    <nodeInfo nodeId="3437556975695846984" fileName="RandomGraphGenerator.java" startLine="94" startPosition="67" endLine="95" endPosition="22" conceptFqName="jetbrains.mps.baseLanguage.structure.ExpressionStatement" />
-    <nodeInfo nodeId="3437556975695847014" fileName="RandomGraphGenerator.java" startLine="97" startPosition="5" endLine="98" endPosition="49" conceptFqName="jetbrains.mps.baseLanguage.structure.LocalVariableDeclarationStatement" />
-    <nodeInfo nodeId="3437556975695847019" fileName="RandomGraphGenerator.java" startLine="98" startPosition="49" endLine="99" endPosition="88" conceptFqName="jetbrains.mps.baseLanguage.structure.LocalVariableDeclarationStatement" />
-    <nodeInfo nodeId="3437556975695847030" fileName="RandomGraphGenerator.java" startLine="100" startPosition="33" endLine="101" endPosition="101" conceptFqName="jetbrains.mps.baseLanguage.structure.ExpressionStatement" />
-    <nodeInfo nodeId="3437556975695847037" fileName="RandomGraphGenerator.java" startLine="101" startPosition="101" endLine="102" endPosition="88" conceptFqName="jetbrains.mps.baseLanguage.structure.ExpressionStatement" />
-    <nodeInfo nodeId="3437556975695847054" fileName="RandomGraphGenerator.java" startLine="104" startPosition="33" endLine="105" endPosition="15" conceptFqName="jetbrains.mps.baseLanguage.structure.ReturnStatement" />
-    <nodeInfo nodeId="3437556975695847061" fileName="RandomGraphGenerator.java" startLine="106" startPosition="5" endLine="107" endPosition="26" conceptFqName="jetbrains.mps.baseLanguage.structure.LocalVariableDeclarationStatement" />
-    <nodeInfo nodeId="3437556975695847067" fileName="RandomGraphGenerator.java" startLine="108" startPosition="47" endLine="109" endPosition="110" conceptFqName="jetbrains.mps.baseLanguage.structure.LocalVariableDeclarationStatement" />
-    <nodeInfo nodeId="3437556975695847088" fileName="RandomGraphGenerator.java" startLine="109" startPosition="110" endLine="110" endPosition="34" conceptFqName="jetbrains.mps.baseLanguage.structure.ExpressionStatement" />
-    <nodeInfo nodeId="3437556975695847094" fileName="RandomGraphGenerator.java" startLine="110" startPosition="34" endLine="111" endPosition="93" conceptFqName="jetbrains.mps.baseLanguage.structure.ExpressionStatement" />
-    <nodeInfo nodeId="3437556975695847101" fileName="RandomGraphGenerator.java" startLine="111" startPosition="93" endLine="112" endPosition="93" conceptFqName="jetbrains.mps.baseLanguage.structure.ExpressionStatement" />
-    <nodeInfo nodeId="3437556975695847108" fileName="RandomGraphGenerator.java" startLine="112" startPosition="93" endLine="113" endPosition="22" conceptFqName="jetbrains.mps.baseLanguage.structure.ExpressionStatement" />
-    <nodeInfo nodeId="3437556975695847123" fileName="RandomGraphGenerator.java" startLine="115" startPosition="35" endLine="116" endPosition="63" conceptFqName="jetbrains.mps.baseLanguage.structure.ThrowStatement" />
-    <nodeInfo nodeId="3437556975695847130" fileName="RandomGraphGenerator.java" startLine="117" startPosition="5" endLine="118" endPosition="23" conceptFqName="jetbrains.mps.baseLanguage.structure.LocalVariableDeclarationStatement" />
-    <nodeInfo nodeId="3437556975695847134" fileName="RandomGraphGenerator.java" startLine="118" startPosition="23" endLine="119" endPosition="21" conceptFqName="jetbrains.mps.baseLanguage.structure.LocalVariableDeclarationStatement" />
-    <nodeInfo nodeId="3437556975695847140" fileName="RandomGraphGenerator.java" startLine="120" startPosition="52" endLine="121" endPosition="16" conceptFqName="jetbrains.mps.baseLanguage.structure.LocalVariableDeclarationStatement" />
-    <nodeInfo nodeId="3437556975695847144" fileName="RandomGraphGenerator.java" startLine="121" startPosition="16" endLine="122" endPosition="16" conceptFqName="jetbrains.mps.baseLanguage.structure.LocalVariableDeclarationStatement" />
-    <nodeInfo nodeId="3437556975695847148" fileName="RandomGraphGenerator.java" startLine="122" startPosition="16" endLine="123" endPosition="19" conceptFqName="jetbrains.mps.baseLanguage.structure.LocalVariableDeclarationStatement" />
-    <nodeInfo nodeId="3437556975695847154" fileName="RandomGraphGenerator.java" startLine="124" startPosition="38" endLine="125" endPosition="53" conceptFqName="jetbrains.mps.baseLanguage.structure.LocalVariableDeclarationStatement" />
-    <nodeInfo nodeId="3437556975695847161" fileName="RandomGraphGenerator.java" startLine="125" startPosition="53" endLine="126" endPosition="53" conceptFqName="jetbrains.mps.baseLanguage.structure.LocalVariableDeclarationStatement" />
-    <nodeInfo nodeId="3437556975695847168" fileName="RandomGraphGenerator.java" startLine="126" startPosition="53" endLine="127" endPosition="27" conceptFqName="jetbrains.mps.baseLanguage.structure.ExpressionStatement" />
-    <nodeInfo nodeId="3437556975695847174" fileName="RandomGraphGenerator.java" startLine="127" startPosition="27" endLine="128" endPosition="27" conceptFqName="jetbrains.mps.baseLanguage.structure.ExpressionStatement" />
-    <nodeInfo nodeId="3437556975695847182" fileName="RandomGraphGenerator.java" startLine="129" startPosition="123" endLine="130" endPosition="16" conceptFqName="jetbrains.mps.baseLanguage.structure.BreakStatement" />
-    <nodeInfo nodeId="3437556975695847205" fileName="RandomGraphGenerator.java" startLine="133" startPosition="28" endLine="134" endPosition="19" conceptFqName="jetbrains.mps.baseLanguage.structure.ExpressionStatement" />
-    <nodeInfo nodeId="3437556975695847208" fileName="RandomGraphGenerator.java" startLine="134" startPosition="19" endLine="135" endPosition="14" conceptFqName="jetbrains.mps.baseLanguage.structure.ExpressionStatement" />
-    <nodeInfo nodeId="3437556975695847225" fileName="RandomGraphGenerator.java" startLine="136" startPosition="107" endLine="137" endPosition="14" conceptFqName="jetbrains.mps.baseLanguage.structure.ExpressionStatement" />
-    <nodeInfo nodeId="3437556975695847230" fileName="RandomGraphGenerator.java" startLine="139" startPosition="21" endLine="140" endPosition="64" conceptFqName="jetbrains.mps.baseLanguage.structure.ThrowStatement" />
-    <nodeInfo nodeId="3437556975695847237" fileName="RandomGraphGenerator.java" startLine="141" startPosition="9" endLine="142" endPosition="14" conceptFqName="jetbrains.mps.baseLanguage.structure.ExpressionStatement" />
-    <nodeInfo nodeId="3437556975695847262" fileName="RandomGraphGenerator.java" startLine="143" startPosition="134" endLine="144" endPosition="14" conceptFqName="jetbrains.mps.baseLanguage.structure.ExpressionStatement" />
-    <nodeInfo nodeId="3437556975695847267" fileName="RandomGraphGenerator.java" startLine="146" startPosition="21" endLine="147" endPosition="64" conceptFqName="jetbrains.mps.baseLanguage.structure.ThrowStatement" />
-    <nodeInfo nodeId="3437556975695847277" fileName="RandomGraphGenerator.java" startLine="149" startPosition="7" endLine="150" endPosition="29" conceptFqName="jetbrains.mps.baseLanguage.structure.ExpressionStatement" />
-    <nodeInfo nodeId="3437556975695847283" fileName="RandomGraphGenerator.java" startLine="150" startPosition="29" endLine="151" endPosition="88" conceptFqName="jetbrains.mps.baseLanguage.structure.ExpressionStatement" />
-    <nodeInfo nodeId="3437556975695847290" fileName="RandomGraphGenerator.java" startLine="151" startPosition="88" endLine="152" endPosition="88" conceptFqName="jetbrains.mps.baseLanguage.structure.ExpressionStatement" />
-    <nodeInfo nodeId="3437556975695847305" fileName="RandomGraphGenerator.java" startLine="153" startPosition="5" endLine="154" endPosition="64" conceptFqName="jetbrains.mps.baseLanguage.structure.ExpressionStatement" />
-    <nodeInfo nodeId="3437556975695847314" fileName="RandomGraphGenerator.java" startLine="154" startPosition="64" endLine="155" endPosition="13" conceptFqName="jetbrains.mps.baseLanguage.structure.ReturnStatement" />
-    <nodeInfo nodeId="3437556975695847636" fileName="RandomGraphGenerator.java" startLine="158" startPosition="104" endLine="159" endPosition="125" conceptFqName="jetbrains.mps.baseLanguage.structure.SingleLineComment" />
-    <nodeInfo nodeId="3437556975695847326" fileName="RandomGraphGenerator.java" startLine="159" startPosition="125" endLine="160" endPosition="68" conceptFqName="jetbrains.mps.baseLanguage.structure.LocalVariableDeclarationStatement" />
-    <nodeInfo nodeId="3437556975695847335" fileName="RandomGraphGenerator.java" startLine="160" startPosition="68" endLine="161" endPosition="42" conceptFqName="jetbrains.mps.baseLanguage.structure.LocalVariableDeclarationStatement" />
-    <nodeInfo nodeId="3437556975695847344" fileName="RandomGraphGenerator.java" startLine="161" startPosition="42" endLine="162" endPosition="16" conceptFqName="jetbrains.mps.baseLanguage.structure.LocalVariableDeclarationStatement" />
-    <nodeInfo nodeId="3437556975695847350" fileName="RandomGraphGenerator.java" startLine="163" startPosition="41" endLine="164" endPosition="70" conceptFqName="jetbrains.mps.baseLanguage.structure.ExpressionStatement" />
-    <nodeInfo nodeId="3437556975695847361" fileName="RandomGraphGenerator.java" startLine="164" startPosition="70" endLine="165" endPosition="27" conceptFqName="jetbrains.mps.baseLanguage.structure.ExpressionStatement" />
-    <nodeInfo nodeId="3437556975695847375" fileName="RandomGraphGenerator.java" startLine="166" startPosition="5" endLine="167" endPosition="36" conceptFqName="jetbrains.mps.baseLanguage.structure.LocalVariableDeclarationStatement" />
-    <nodeInfo nodeId="3437556975695847381" fileName="RandomGraphGenerator.java" startLine="167" startPosition="36" endLine="168" endPosition="23" conceptFqName="jetbrains.mps.baseLanguage.structure.LocalVariableDeclarationStatement" />
-    <nodeInfo nodeId="3437556975695847387" fileName="RandomGraphGenerator.java" startLine="169" startPosition="41" endLine="170" endPosition="55" conceptFqName="jetbrains.mps.baseLanguage.structure.ExpressionStatement" />
-    <nodeInfo nodeId="3437556975695847402" fileName="RandomGraphGenerator.java" startLine="170" startPosition="55" endLine="171" endPosition="27" conceptFqName="jetbrains.mps.baseLanguage.structure.ExpressionStatement" />
-    <nodeInfo nodeId="3437556975695847416" fileName="RandomGraphGenerator.java" startLine="172" startPosition="5" endLine="173" endPosition="61" conceptFqName="jetbrains.mps.baseLanguage.structure.SingleLineComment" />
-    <nodeInfo nodeId="3437556975695847420" fileName="RandomGraphGenerator.java" startLine="174" startPosition="35" endLine="175" endPosition="22" conceptFqName="jetbrains.mps.baseLanguage.structure.ExpressionStatement" />
-    <nodeInfo nodeId="3437556975695847433" fileName="RandomGraphGenerator.java" startLine="176" startPosition="5" endLine="177" endPosition="56" conceptFqName="jetbrains.mps.baseLanguage.structure.ReturnStatement" />
-    <nodeInfo nodeId="7953585273260012407" fileName="RandomGraphGenerator.java" startLine="180" startPosition="80" endLine="181" endPosition="23" conceptFqName="jetbrains.mps.baseLanguage.structure.LocalVariableDeclarationStatement" />
-    <nodeInfo nodeId="7953585273260012417" fileName="RandomGraphGenerator.java" startLine="182" startPosition="27" endLine="183" endPosition="49" conceptFqName="jetbrains.mps.baseLanguage.structure.ExpressionStatement" />
-    <nodeInfo nodeId="7953585273260012529" fileName="RandomGraphGenerator.java" startLine="184" startPosition="57" endLine="185" endPosition="21" conceptFqName="jetbrains.mps.baseLanguage.structure.ExpressionStatement" />
-    <nodeInfo nodeId="7953585273260012429" fileName="RandomGraphGenerator.java" startLine="187" startPosition="5" endLine="188" endPosition="17" conceptFqName="jetbrains.mps.baseLanguage.structure.ReturnStatement" />
+    <nodeInfo nodeId="3437556975695846909" fileName="RandomGraphGenerator.java" startLine="78" startPosition="5" endLine="79" endPosition="13" conceptFqName="jetbrains.mps.baseLanguage.structure.ReturnStatement" />
+    <nodeInfo nodeId="3437556975695846920" fileName="RandomGraphGenerator.java" startLine="82" startPosition="110" endLine="83" endPosition="108" conceptFqName="jetbrains.mps.baseLanguage.structure.SingleLineComment" />
+    <nodeInfo nodeId="3437556975695846922" fileName="RandomGraphGenerator.java" startLine="83" startPosition="108" endLine="84" endPosition="14" conceptFqName="jetbrains.mps.baseLanguage.structure.LocalVariableDeclarationStatement" />
+    <nodeInfo nodeId="3437556975695846926" fileName="RandomGraphGenerator.java" startLine="84" startPosition="14" endLine="85" endPosition="56" conceptFqName="jetbrains.mps.baseLanguage.structure.LocalVariableDeclarationStatement" />
+    <nodeInfo nodeId="3437556975695846941" fileName="RandomGraphGenerator.java" startLine="86" startPosition="49" endLine="87" endPosition="26" conceptFqName="jetbrains.mps.baseLanguage.structure.ExpressionStatement" />
+    <nodeInfo nodeId="3437556975695846947" fileName="RandomGraphGenerator.java" startLine="87" startPosition="26" endLine="88" endPosition="25" conceptFqName="jetbrains.mps.baseLanguage.structure.ExpressionStatement" />
+    <nodeInfo nodeId="3437556975695846963" fileName="RandomGraphGenerator.java" startLine="89" startPosition="5" endLine="90" endPosition="40" conceptFqName="jetbrains.mps.baseLanguage.structure.ExpressionStatement" />
+    <nodeInfo nodeId="3437556975695846971" fileName="RandomGraphGenerator.java" startLine="90" startPosition="40" endLine="91" endPosition="30" conceptFqName="jetbrains.mps.baseLanguage.structure.LocalVariableDeclarationStatement" />
+    <nodeInfo nodeId="3437556975695846984" fileName="RandomGraphGenerator.java" startLine="93" startPosition="67" endLine="94" endPosition="22" conceptFqName="jetbrains.mps.baseLanguage.structure.ExpressionStatement" />
+    <nodeInfo nodeId="3437556975695847014" fileName="RandomGraphGenerator.java" startLine="96" startPosition="5" endLine="97" endPosition="49" conceptFqName="jetbrains.mps.baseLanguage.structure.LocalVariableDeclarationStatement" />
+    <nodeInfo nodeId="3437556975695847019" fileName="RandomGraphGenerator.java" startLine="97" startPosition="49" endLine="98" endPosition="88" conceptFqName="jetbrains.mps.baseLanguage.structure.LocalVariableDeclarationStatement" />
+    <nodeInfo nodeId="3437556975695847030" fileName="RandomGraphGenerator.java" startLine="99" startPosition="33" endLine="100" endPosition="101" conceptFqName="jetbrains.mps.baseLanguage.structure.ExpressionStatement" />
+    <nodeInfo nodeId="3437556975695847037" fileName="RandomGraphGenerator.java" startLine="100" startPosition="101" endLine="101" endPosition="88" conceptFqName="jetbrains.mps.baseLanguage.structure.ExpressionStatement" />
+    <nodeInfo nodeId="3437556975695847054" fileName="RandomGraphGenerator.java" startLine="103" startPosition="33" endLine="104" endPosition="15" conceptFqName="jetbrains.mps.baseLanguage.structure.ReturnStatement" />
+    <nodeInfo nodeId="3437556975695847061" fileName="RandomGraphGenerator.java" startLine="105" startPosition="5" endLine="106" endPosition="26" conceptFqName="jetbrains.mps.baseLanguage.structure.LocalVariableDeclarationStatement" />
+    <nodeInfo nodeId="3437556975695847067" fileName="RandomGraphGenerator.java" startLine="107" startPosition="47" endLine="108" endPosition="110" conceptFqName="jetbrains.mps.baseLanguage.structure.LocalVariableDeclarationStatement" />
+    <nodeInfo nodeId="3437556975695847088" fileName="RandomGraphGenerator.java" startLine="108" startPosition="110" endLine="109" endPosition="34" conceptFqName="jetbrains.mps.baseLanguage.structure.ExpressionStatement" />
+    <nodeInfo nodeId="3437556975695847094" fileName="RandomGraphGenerator.java" startLine="109" startPosition="34" endLine="110" endPosition="93" conceptFqName="jetbrains.mps.baseLanguage.structure.ExpressionStatement" />
+    <nodeInfo nodeId="3437556975695847101" fileName="RandomGraphGenerator.java" startLine="110" startPosition="93" endLine="111" endPosition="93" conceptFqName="jetbrains.mps.baseLanguage.structure.ExpressionStatement" />
+    <nodeInfo nodeId="3437556975695847108" fileName="RandomGraphGenerator.java" startLine="111" startPosition="93" endLine="112" endPosition="22" conceptFqName="jetbrains.mps.baseLanguage.structure.ExpressionStatement" />
+    <nodeInfo nodeId="3437556975695847123" fileName="RandomGraphGenerator.java" startLine="114" startPosition="35" endLine="115" endPosition="63" conceptFqName="jetbrains.mps.baseLanguage.structure.ThrowStatement" />
+    <nodeInfo nodeId="3437556975695847130" fileName="RandomGraphGenerator.java" startLine="116" startPosition="5" endLine="117" endPosition="23" conceptFqName="jetbrains.mps.baseLanguage.structure.LocalVariableDeclarationStatement" />
+    <nodeInfo nodeId="3437556975695847134" fileName="RandomGraphGenerator.java" startLine="117" startPosition="23" endLine="118" endPosition="21" conceptFqName="jetbrains.mps.baseLanguage.structure.LocalVariableDeclarationStatement" />
+    <nodeInfo nodeId="3437556975695847140" fileName="RandomGraphGenerator.java" startLine="119" startPosition="52" endLine="120" endPosition="16" conceptFqName="jetbrains.mps.baseLanguage.structure.LocalVariableDeclarationStatement" />
+    <nodeInfo nodeId="3437556975695847144" fileName="RandomGraphGenerator.java" startLine="120" startPosition="16" endLine="121" endPosition="16" conceptFqName="jetbrains.mps.baseLanguage.structure.LocalVariableDeclarationStatement" />
+    <nodeInfo nodeId="3437556975695847148" fileName="RandomGraphGenerator.java" startLine="121" startPosition="16" endLine="122" endPosition="19" conceptFqName="jetbrains.mps.baseLanguage.structure.LocalVariableDeclarationStatement" />
+    <nodeInfo nodeId="3437556975695847154" fileName="RandomGraphGenerator.java" startLine="123" startPosition="38" endLine="124" endPosition="53" conceptFqName="jetbrains.mps.baseLanguage.structure.LocalVariableDeclarationStatement" />
+    <nodeInfo nodeId="3437556975695847161" fileName="RandomGraphGenerator.java" startLine="124" startPosition="53" endLine="125" endPosition="53" conceptFqName="jetbrains.mps.baseLanguage.structure.LocalVariableDeclarationStatement" />
+    <nodeInfo nodeId="3437556975695847168" fileName="RandomGraphGenerator.java" startLine="125" startPosition="53" endLine="126" endPosition="27" conceptFqName="jetbrains.mps.baseLanguage.structure.ExpressionStatement" />
+    <nodeInfo nodeId="3437556975695847174" fileName="RandomGraphGenerator.java" startLine="126" startPosition="27" endLine="127" endPosition="27" conceptFqName="jetbrains.mps.baseLanguage.structure.ExpressionStatement" />
+    <nodeInfo nodeId="3437556975695847182" fileName="RandomGraphGenerator.java" startLine="128" startPosition="123" endLine="129" endPosition="16" conceptFqName="jetbrains.mps.baseLanguage.structure.BreakStatement" />
+    <nodeInfo nodeId="3437556975695847205" fileName="RandomGraphGenerator.java" startLine="132" startPosition="28" endLine="133" endPosition="19" conceptFqName="jetbrains.mps.baseLanguage.structure.ExpressionStatement" />
+    <nodeInfo nodeId="3437556975695847208" fileName="RandomGraphGenerator.java" startLine="133" startPosition="19" endLine="134" endPosition="14" conceptFqName="jetbrains.mps.baseLanguage.structure.ExpressionStatement" />
+    <nodeInfo nodeId="3437556975695847225" fileName="RandomGraphGenerator.java" startLine="135" startPosition="107" endLine="136" endPosition="14" conceptFqName="jetbrains.mps.baseLanguage.structure.ExpressionStatement" />
+    <nodeInfo nodeId="3437556975695847230" fileName="RandomGraphGenerator.java" startLine="138" startPosition="21" endLine="139" endPosition="64" conceptFqName="jetbrains.mps.baseLanguage.structure.ThrowStatement" />
+    <nodeInfo nodeId="3437556975695847237" fileName="RandomGraphGenerator.java" startLine="140" startPosition="9" endLine="141" endPosition="14" conceptFqName="jetbrains.mps.baseLanguage.structure.ExpressionStatement" />
+    <nodeInfo nodeId="3437556975695847262" fileName="RandomGraphGenerator.java" startLine="142" startPosition="134" endLine="143" endPosition="14" conceptFqName="jetbrains.mps.baseLanguage.structure.ExpressionStatement" />
+    <nodeInfo nodeId="3437556975695847267" fileName="RandomGraphGenerator.java" startLine="145" startPosition="21" endLine="146" endPosition="64" conceptFqName="jetbrains.mps.baseLanguage.structure.ThrowStatement" />
+    <nodeInfo nodeId="3437556975695847277" fileName="RandomGraphGenerator.java" startLine="148" startPosition="7" endLine="149" endPosition="29" conceptFqName="jetbrains.mps.baseLanguage.structure.ExpressionStatement" />
+    <nodeInfo nodeId="3437556975695847283" fileName="RandomGraphGenerator.java" startLine="149" startPosition="29" endLine="150" endPosition="88" conceptFqName="jetbrains.mps.baseLanguage.structure.ExpressionStatement" />
+    <nodeInfo nodeId="3437556975695847290" fileName="RandomGraphGenerator.java" startLine="150" startPosition="88" endLine="151" endPosition="88" conceptFqName="jetbrains.mps.baseLanguage.structure.ExpressionStatement" />
+    <nodeInfo nodeId="3437556975695847314" fileName="RandomGraphGenerator.java" startLine="152" startPosition="5" endLine="153" endPosition="13" conceptFqName="jetbrains.mps.baseLanguage.structure.ReturnStatement" />
+    <nodeInfo nodeId="3437556975695847636" fileName="RandomGraphGenerator.java" startLine="156" startPosition="104" endLine="157" endPosition="125" conceptFqName="jetbrains.mps.baseLanguage.structure.SingleLineComment" />
+    <nodeInfo nodeId="3437556975695847326" fileName="RandomGraphGenerator.java" startLine="157" startPosition="125" endLine="158" endPosition="68" conceptFqName="jetbrains.mps.baseLanguage.structure.LocalVariableDeclarationStatement" />
+    <nodeInfo nodeId="3437556975695847335" fileName="RandomGraphGenerator.java" startLine="158" startPosition="68" endLine="159" endPosition="42" conceptFqName="jetbrains.mps.baseLanguage.structure.LocalVariableDeclarationStatement" />
+    <nodeInfo nodeId="3437556975695847344" fileName="RandomGraphGenerator.java" startLine="159" startPosition="42" endLine="160" endPosition="16" conceptFqName="jetbrains.mps.baseLanguage.structure.LocalVariableDeclarationStatement" />
+    <nodeInfo nodeId="3437556975695847350" fileName="RandomGraphGenerator.java" startLine="161" startPosition="41" endLine="162" endPosition="70" conceptFqName="jetbrains.mps.baseLanguage.structure.ExpressionStatement" />
+    <nodeInfo nodeId="3437556975695847361" fileName="RandomGraphGenerator.java" startLine="162" startPosition="70" endLine="163" endPosition="27" conceptFqName="jetbrains.mps.baseLanguage.structure.ExpressionStatement" />
+    <nodeInfo nodeId="3437556975695847375" fileName="RandomGraphGenerator.java" startLine="164" startPosition="5" endLine="165" endPosition="36" conceptFqName="jetbrains.mps.baseLanguage.structure.LocalVariableDeclarationStatement" />
+    <nodeInfo nodeId="3437556975695847381" fileName="RandomGraphGenerator.java" startLine="165" startPosition="36" endLine="166" endPosition="23" conceptFqName="jetbrains.mps.baseLanguage.structure.LocalVariableDeclarationStatement" />
+    <nodeInfo nodeId="3437556975695847387" fileName="RandomGraphGenerator.java" startLine="167" startPosition="41" endLine="168" endPosition="55" conceptFqName="jetbrains.mps.baseLanguage.structure.ExpressionStatement" />
+    <nodeInfo nodeId="3437556975695847402" fileName="RandomGraphGenerator.java" startLine="168" startPosition="55" endLine="169" endPosition="27" conceptFqName="jetbrains.mps.baseLanguage.structure.ExpressionStatement" />
+    <nodeInfo nodeId="3437556975695847416" fileName="RandomGraphGenerator.java" startLine="170" startPosition="5" endLine="171" endPosition="61" conceptFqName="jetbrains.mps.baseLanguage.structure.SingleLineComment" />
+    <nodeInfo nodeId="3437556975695847420" fileName="RandomGraphGenerator.java" startLine="172" startPosition="35" endLine="173" endPosition="22" conceptFqName="jetbrains.mps.baseLanguage.structure.ExpressionStatement" />
+    <nodeInfo nodeId="3437556975695847433" fileName="RandomGraphGenerator.java" startLine="174" startPosition="5" endLine="175" endPosition="56" conceptFqName="jetbrains.mps.baseLanguage.structure.ReturnStatement" />
+    <nodeInfo nodeId="7953585273260012407" fileName="RandomGraphGenerator.java" startLine="178" startPosition="80" endLine="179" endPosition="23" conceptFqName="jetbrains.mps.baseLanguage.structure.LocalVariableDeclarationStatement" />
+    <nodeInfo nodeId="7953585273260012417" fileName="RandomGraphGenerator.java" startLine="180" startPosition="27" endLine="181" endPosition="49" conceptFqName="jetbrains.mps.baseLanguage.structure.ExpressionStatement" />
+    <nodeInfo nodeId="7953585273260012529" fileName="RandomGraphGenerator.java" startLine="182" startPosition="57" endLine="183" endPosition="21" conceptFqName="jetbrains.mps.baseLanguage.structure.ExpressionStatement" />
+    <nodeInfo nodeId="7953585273260012429" fileName="RandomGraphGenerator.java" startLine="185" startPosition="5" endLine="186" endPosition="17" conceptFqName="jetbrains.mps.baseLanguage.structure.ReturnStatement" />
     <nodeInfo nodeId="3437556975695846636" fileName="RandomGraphGenerator.java" startLine="21" startPosition="26" endLine="24" endPosition="5" conceptFqName="jetbrains.mps.baseLanguage.structure.ForStatement" />
     <nodeInfo nodeId="3437556975695846715" fileName="RandomGraphGenerator.java" startLine="39" startPosition="26" endLine="42" endPosition="5" conceptFqName="jetbrains.mps.baseLanguage.structure.ForStatement" />
     <nodeInfo nodeId="3437556975695846800" fileName="RandomGraphGenerator.java" startLine="56" startPosition="56" endLine="59" endPosition="9" conceptFqName="jetbrains.mps.baseLanguage.structure.IfStatement" />
     <nodeInfo nodeId="3437556975695846824" fileName="RandomGraphGenerator.java" startLine="63" startPosition="14" endLine="66" endPosition="9" conceptFqName="jetbrains.mps.baseLanguage.structure.WhileStatement" />
     <nodeInfo nodeId="3437556975695846840" fileName="RandomGraphGenerator.java" startLine="66" startPosition="9" endLine="69" endPosition="9" conceptFqName="jetbrains.mps.baseLanguage.structure.IfStatement" />
     <nodeInfo nodeId="3437556975695846853" fileName="RandomGraphGenerator.java" startLine="70" startPosition="14" endLine="73" endPosition="9" conceptFqName="jetbrains.mps.baseLanguage.structure.WhileStatement" />
-    <nodeInfo nodeId="3437556975695846982" fileName="RandomGraphGenerator.java" startLine="93" startPosition="49" endLine="96" endPosition="7" conceptFqName="jetbrains.mps.baseLanguage.structure.ForStatement" />
-    <nodeInfo nodeId="3437556975695847052" fileName="RandomGraphGenerator.java" startLine="103" startPosition="5" endLine="106" endPosition="5" conceptFqName="jetbrains.mps.baseLanguage.structure.IfStatement" />
-    <nodeInfo nodeId="3437556975695847121" fileName="RandomGraphGenerator.java" startLine="114" startPosition="5" endLine="117" endPosition="5" conceptFqName="jetbrains.mps.baseLanguage.structure.IfStatement" />
-    <nodeInfo nodeId="3437556975695847180" fileName="RandomGraphGenerator.java" startLine="128" startPosition="27" endLine="131" endPosition="9" conceptFqName="jetbrains.mps.baseLanguage.structure.IfStatement" />
-    <nodeInfo nodeId="3437556975695847212" fileName="RandomGraphGenerator.java" startLine="135" startPosition="14" endLine="138" endPosition="9" conceptFqName="jetbrains.mps.baseLanguage.structure.WhileStatement" />
-    <nodeInfo nodeId="3437556975695847228" fileName="RandomGraphGenerator.java" startLine="138" startPosition="9" endLine="141" endPosition="9" conceptFqName="jetbrains.mps.baseLanguage.structure.IfStatement" />
-    <nodeInfo nodeId="3437556975695847241" fileName="RandomGraphGenerator.java" startLine="142" startPosition="14" endLine="145" endPosition="9" conceptFqName="jetbrains.mps.baseLanguage.structure.WhileStatement" />
-    <nodeInfo nodeId="3437556975695847265" fileName="RandomGraphGenerator.java" startLine="145" startPosition="9" endLine="148" endPosition="9" conceptFqName="jetbrains.mps.baseLanguage.structure.IfStatement" />
-    <nodeInfo nodeId="3437556975695847418" fileName="RandomGraphGenerator.java" startLine="173" startPosition="61" endLine="176" endPosition="5" conceptFqName="jetbrains.mps.baseLanguage.structure.ForStatement" />
-    <nodeInfo nodeId="7953585273260012515" fileName="RandomGraphGenerator.java" startLine="183" startPosition="49" endLine="186" endPosition="7" conceptFqName="jetbrains.mps.baseLanguage.structure.IfStatement" />
+    <nodeInfo nodeId="3437556975695846982" fileName="RandomGraphGenerator.java" startLine="92" startPosition="49" endLine="95" endPosition="7" conceptFqName="jetbrains.mps.baseLanguage.structure.ForStatement" />
+    <nodeInfo nodeId="3437556975695847052" fileName="RandomGraphGenerator.java" startLine="102" startPosition="5" endLine="105" endPosition="5" conceptFqName="jetbrains.mps.baseLanguage.structure.IfStatement" />
+    <nodeInfo nodeId="3437556975695847121" fileName="RandomGraphGenerator.java" startLine="113" startPosition="5" endLine="116" endPosition="5" conceptFqName="jetbrains.mps.baseLanguage.structure.IfStatement" />
+    <nodeInfo nodeId="3437556975695847180" fileName="RandomGraphGenerator.java" startLine="127" startPosition="27" endLine="130" endPosition="9" conceptFqName="jetbrains.mps.baseLanguage.structure.IfStatement" />
+    <nodeInfo nodeId="3437556975695847212" fileName="RandomGraphGenerator.java" startLine="134" startPosition="14" endLine="137" endPosition="9" conceptFqName="jetbrains.mps.baseLanguage.structure.WhileStatement" />
+    <nodeInfo nodeId="3437556975695847228" fileName="RandomGraphGenerator.java" startLine="137" startPosition="9" endLine="140" endPosition="9" conceptFqName="jetbrains.mps.baseLanguage.structure.IfStatement" />
+    <nodeInfo nodeId="3437556975695847241" fileName="RandomGraphGenerator.java" startLine="141" startPosition="14" endLine="144" endPosition="9" conceptFqName="jetbrains.mps.baseLanguage.structure.WhileStatement" />
+    <nodeInfo nodeId="3437556975695847265" fileName="RandomGraphGenerator.java" startLine="144" startPosition="9" endLine="147" endPosition="9" conceptFqName="jetbrains.mps.baseLanguage.structure.IfStatement" />
+    <nodeInfo nodeId="3437556975695847418" fileName="RandomGraphGenerator.java" startLine="171" startPosition="61" endLine="174" endPosition="5" conceptFqName="jetbrains.mps.baseLanguage.structure.ForStatement" />
+    <nodeInfo nodeId="7953585273260012515" fileName="RandomGraphGenerator.java" startLine="181" startPosition="49" endLine="184" endPosition="7" conceptFqName="jetbrains.mps.baseLanguage.structure.IfStatement" />
     <nodeInfo nodeId="3437556975695846660" fileName="RandomGraphGenerator.java" startLine="27" startPosition="16" endLine="31" endPosition="7" conceptFqName="jetbrains.mps.baseLanguage.structure.WhileStatement" />
     <nodeInfo nodeId="3437556975695846738" fileName="RandomGraphGenerator.java" startLine="43" startPosition="88" endLine="47" endPosition="5" conceptFqName="jetbrains.mps.baseLanguage.structure.ForStatement" />
-    <nodeInfo nodeId="3437556975695846939" fileName="RandomGraphGenerator.java" startLine="86" startPosition="56" endLine="90" endPosition="5" conceptFqName="jetbrains.mps.baseLanguage.structure.ForStatement" />
-    <nodeInfo nodeId="3437556975695847028" fileName="RandomGraphGenerator.java" startLine="99" startPosition="88" endLine="103" endPosition="5" conceptFqName="jetbrains.mps.baseLanguage.structure.ForStatement" />
-    <nodeInfo nodeId="3437556975695847348" fileName="RandomGraphGenerator.java" startLine="162" startPosition="16" endLine="166" endPosition="5" conceptFqName="jetbrains.mps.baseLanguage.structure.ForStatement" />
-    <nodeInfo nodeId="3437556975695847385" fileName="RandomGraphGenerator.java" startLine="168" startPosition="23" endLine="172" endPosition="5" conceptFqName="jetbrains.mps.baseLanguage.structure.ForStatement" />
-    <nodeInfo nodeId="3437556975695846980" fileName="RandomGraphGenerator.java" startLine="92" startPosition="30" endLine="97" endPosition="5" conceptFqName="jetbrains.mps.baseLanguage.structure.ForStatement" />
-    <nodeInfo nodeId="7953585273260012401" fileName="RandomGraphGenerator.java" startLine="181" startPosition="23" endLine="187" endPosition="5" conceptFqName="jetbrains.mps.baseLanguage.structure.WhileStatement" />
+    <nodeInfo nodeId="3437556975695846939" fileName="RandomGraphGenerator.java" startLine="85" startPosition="56" endLine="89" endPosition="5" conceptFqName="jetbrains.mps.baseLanguage.structure.ForStatement" />
+    <nodeInfo nodeId="3437556975695847028" fileName="RandomGraphGenerator.java" startLine="98" startPosition="88" endLine="102" endPosition="5" conceptFqName="jetbrains.mps.baseLanguage.structure.ForStatement" />
+    <nodeInfo nodeId="3437556975695847348" fileName="RandomGraphGenerator.java" startLine="160" startPosition="16" endLine="164" endPosition="5" conceptFqName="jetbrains.mps.baseLanguage.structure.ForStatement" />
+    <nodeInfo nodeId="3437556975695847385" fileName="RandomGraphGenerator.java" startLine="166" startPosition="23" endLine="170" endPosition="5" conceptFqName="jetbrains.mps.baseLanguage.structure.ForStatement" />
+    <nodeInfo nodeId="3437556975695846980" fileName="RandomGraphGenerator.java" startLine="91" startPosition="30" endLine="96" endPosition="5" conceptFqName="jetbrains.mps.baseLanguage.structure.ForStatement" />
+    <nodeInfo nodeId="7953585273260012401" fileName="RandomGraphGenerator.java" startLine="179" startPosition="23" endLine="185" endPosition="5" conceptFqName="jetbrains.mps.baseLanguage.structure.WhileStatement" />
     <nodeInfo nodeId="3437556975695846784" fileName="RandomGraphGenerator.java" startLine="53" startPosition="19" endLine="60" endPosition="7" conceptFqName="jetbrains.mps.baseLanguage.structure.ForStatement" />
-    <nodeInfo nodeId="3437556975695847065" fileName="RandomGraphGenerator.java" startLine="107" startPosition="26" endLine="114" endPosition="5" conceptFqName="jetbrains.mps.baseLanguage.structure.ForStatement" />
+    <nodeInfo nodeId="3437556975695847065" fileName="RandomGraphGenerator.java" startLine="106" startPosition="26" endLine="113" endPosition="5" conceptFqName="jetbrains.mps.baseLanguage.structure.ForStatement" />
     <nodeInfo nodeId="3437556975695846650" fileName="RandomGraphGenerator.java" startLine="24" startPosition="5" endLine="33" endPosition="5" conceptFqName="jetbrains.mps.baseLanguage.structure.ForStatement" />
-    <nodeInfo nodeId="3437556975695847152" fileName="RandomGraphGenerator.java" startLine="123" startPosition="19" endLine="132" endPosition="7" conceptFqName="jetbrains.mps.baseLanguage.structure.ForStatement" />
-    <nodeInfo nodeId="7953585273260012391" fileName="RandomGraphGenerator.java" startLine="179" startPosition="0" endLine="190" endPosition="0" conceptFqName="jetbrains.mps.baseLanguage.structure.StaticMethodDeclaration" propertyString="generateSimpleConnectedGraph#(II)Ljetbrains/mps/graphLayout/graph/Graph;" />
+    <nodeInfo nodeId="3437556975695847152" fileName="RandomGraphGenerator.java" startLine="122" startPosition="19" endLine="131" endPosition="7" conceptFqName="jetbrains.mps.baseLanguage.structure.ForStatement" />
+    <nodeInfo nodeId="7953585273260012391" fileName="RandomGraphGenerator.java" startLine="177" startPosition="0" endLine="188" endPosition="0" conceptFqName="jetbrains.mps.baseLanguage.structure.StaticMethodDeclaration" propertyString="generateSimpleConnectedGraph#(II)Ljetbrains/mps/graphLayout/graph/Graph;" />
     <nodeInfo nodeId="3437556975695846815" fileName="RandomGraphGenerator.java" startLine="60" startPosition="7" endLine="74" endPosition="7" conceptFqName="jetbrains.mps.baseLanguage.structure.IfStatement" />
-    <nodeInfo nodeId="3437556975695847203" fileName="RandomGraphGenerator.java" startLine="132" startPosition="7" endLine="149" endPosition="7" conceptFqName="jetbrains.mps.baseLanguage.structure.IfStatement" />
+    <nodeInfo nodeId="3437556975695847203" fileName="RandomGraphGenerator.java" startLine="131" startPosition="7" endLine="148" endPosition="7" conceptFqName="jetbrains.mps.baseLanguage.structure.IfStatement" />
     <nodeInfo nodeId="3437556975695846625" fileName="RandomGraphGenerator.java" startLine="18" startPosition="0" endLine="36" endPosition="0" conceptFqName="jetbrains.mps.baseLanguage.structure.StaticMethodDeclaration" propertyString="generateNoLoops#(II)Ljetbrains/mps/graphLayout/graph/Graph;" />
-    <nodeInfo nodeId="3437556975695847322" fileName="RandomGraphGenerator.java" startLine="157" startPosition="0" endLine="179" endPosition="0" conceptFqName="jetbrains.mps.baseLanguage.structure.StaticMethodDeclaration" propertyString="generateLayeredGraph#(II)Ljetbrains/mps/graphLayout/graph/Graph;" />
+    <nodeInfo nodeId="3437556975695847322" fileName="RandomGraphGenerator.java" startLine="155" startPosition="0" endLine="177" endPosition="0" conceptFqName="jetbrains.mps.baseLanguage.structure.StaticMethodDeclaration" propertyString="generateLayeredGraph#(II)Ljetbrains/mps/graphLayout/graph/Graph;" />
     <nodeInfo nodeId="3437556975695846770" fileName="RandomGraphGenerator.java" startLine="49" startPosition="21" endLine="78" endPosition="5" conceptFqName="jetbrains.mps.baseLanguage.structure.ForStatement" />
-    <nodeInfo nodeId="3437556975695847138" fileName="RandomGraphGenerator.java" startLine="119" startPosition="21" endLine="153" endPosition="5" conceptFqName="jetbrains.mps.baseLanguage.structure.ForStatement" />
-    <nodeInfo nodeId="3437556975695846704" fileName="RandomGraphGenerator.java" startLine="36" startPosition="0" endLine="82" endPosition="0" conceptFqName="jetbrains.mps.baseLanguage.structure.StaticMethodDeclaration" propertyString="generateSimple#(II)Ljetbrains/mps/graphLayout/graph/Graph;" />
-    <nodeInfo nodeId="3437556975695846916" fileName="RandomGraphGenerator.java" startLine="82" startPosition="0" endLine="157" endPosition="0" conceptFqName="jetbrains.mps.baseLanguage.structure.StaticMethodDeclaration" propertyString="generateFixedNumLayers#([II)Ljetbrains/mps/graphLayout/graph/Graph;" />
+    <nodeInfo nodeId="3437556975695847138" fileName="RandomGraphGenerator.java" startLine="118" startPosition="21" endLine="152" endPosition="5" conceptFqName="jetbrains.mps.baseLanguage.structure.ForStatement" />
+    <nodeInfo nodeId="3437556975695846704" fileName="RandomGraphGenerator.java" startLine="36" startPosition="0" endLine="81" endPosition="0" conceptFqName="jetbrains.mps.baseLanguage.structure.StaticMethodDeclaration" propertyString="generateSimple#(II)Ljetbrains/mps/graphLayout/graph/Graph;" />
+    <nodeInfo nodeId="3437556975695846916" fileName="RandomGraphGenerator.java" startLine="81" startPosition="0" endLine="155" endPosition="0" conceptFqName="jetbrains.mps.baseLanguage.structure.StaticMethodDeclaration" propertyString="generateFixedNumLayers#([II)Ljetbrains/mps/graphLayout/graph/Graph;" />
     <scopeInfo nodeId="3437556975695846637" fileName="RandomGraphGenerator.java" startLine="22" startPosition="40" endLine="23" endPosition="21" />
     <scopeInfo nodeId="3437556975695846716" fileName="RandomGraphGenerator.java" startLine="40" startPosition="40" endLine="41" endPosition="21" />
     <scopeInfo nodeId="3437556975695846801" fileName="RandomGraphGenerator.java" startLine="57" startPosition="97" endLine="58" endPosition="16" />
     <scopeInfo nodeId="3437556975695846836" fileName="RandomGraphGenerator.java" startLine="64" startPosition="121" endLine="65" endPosition="14" />
     <scopeInfo nodeId="3437556975695846841" fileName="RandomGraphGenerator.java" startLine="67" startPosition="28" endLine="68" endPosition="64" />
     <scopeInfo nodeId="3437556975695846860" fileName="RandomGraphGenerator.java" startLine="71" startPosition="97" endLine="72" endPosition="14" />
-    <scopeInfo nodeId="3437556975695846983" fileName="RandomGraphGenerator.java" startLine="94" startPosition="67" endLine="95" endPosition="22" />
-    <scopeInfo nodeId="3437556975695847053" fileName="RandomGraphGenerator.java" startLine="104" startPosition="33" endLine="105" endPosition="15" />
-    <scopeInfo nodeId="3437556975695847122" fileName="RandomGraphGenerator.java" startLine="115" startPosition="35" endLine="116" endPosition="63" />
-    <scopeInfo nodeId="3437556975695847181" fileName="RandomGraphGenerator.java" startLine="129" startPosition="123" endLine="130" endPosition="16" />
-    <scopeInfo nodeId="3437556975695847224" fileName="RandomGraphGenerator.java" startLine="136" startPosition="107" endLine="137" endPosition="14" />
-    <scopeInfo nodeId="3437556975695847229" fileName="RandomGraphGenerator.java" startLine="139" startPosition="21" endLine="140" endPosition="64" />
-    <scopeInfo nodeId="3437556975695847261" fileName="RandomGraphGenerator.java" startLine="143" startPosition="134" endLine="144" endPosition="14" />
-    <scopeInfo nodeId="3437556975695847266" fileName="RandomGraphGenerator.java" startLine="146" startPosition="21" endLine="147" endPosition="64" />
-    <scopeInfo nodeId="3437556975695847419" fileName="RandomGraphGenerator.java" startLine="174" startPosition="35" endLine="175" endPosition="22" />
-    <scopeInfo nodeId="7953585273260012516" fileName="RandomGraphGenerator.java" startLine="184" startPosition="57" endLine="185" endPosition="21" />
+    <scopeInfo nodeId="3437556975695846983" fileName="RandomGraphGenerator.java" startLine="93" startPosition="67" endLine="94" endPosition="22" />
+    <scopeInfo nodeId="3437556975695847053" fileName="RandomGraphGenerator.java" startLine="103" startPosition="33" endLine="104" endPosition="15" />
+    <scopeInfo nodeId="3437556975695847122" fileName="RandomGraphGenerator.java" startLine="114" startPosition="35" endLine="115" endPosition="63" />
+    <scopeInfo nodeId="3437556975695847181" fileName="RandomGraphGenerator.java" startLine="128" startPosition="123" endLine="129" endPosition="16" />
+    <scopeInfo nodeId="3437556975695847224" fileName="RandomGraphGenerator.java" startLine="135" startPosition="107" endLine="136" endPosition="14" />
+    <scopeInfo nodeId="3437556975695847229" fileName="RandomGraphGenerator.java" startLine="138" startPosition="21" endLine="139" endPosition="64" />
+    <scopeInfo nodeId="3437556975695847261" fileName="RandomGraphGenerator.java" startLine="142" startPosition="134" endLine="143" endPosition="14" />
+    <scopeInfo nodeId="3437556975695847266" fileName="RandomGraphGenerator.java" startLine="145" startPosition="21" endLine="146" endPosition="64" />
+    <scopeInfo nodeId="3437556975695847419" fileName="RandomGraphGenerator.java" startLine="172" startPosition="35" endLine="173" endPosition="22" />
+    <scopeInfo nodeId="7953585273260012516" fileName="RandomGraphGenerator.java" startLine="182" startPosition="57" endLine="183" endPosition="21" />
     <scopeInfo nodeId="3437556975695846664" fileName="RandomGraphGenerator.java" startLine="28" startPosition="22" endLine="30" endPosition="56" />
     <scopeInfo nodeId="3437556975695846739" fileName="RandomGraphGenerator.java" startLine="44" startPosition="40" endLine="46" endPosition="88" />
-    <scopeInfo nodeId="3437556975695846940" fileName="RandomGraphGenerator.java" startLine="87" startPosition="49" endLine="89" endPosition="25" />
-    <scopeInfo nodeId="3437556975695847029" fileName="RandomGraphGenerator.java" startLine="100" startPosition="33" endLine="102" endPosition="88" />
-    <scopeInfo nodeId="3437556975695847349" fileName="RandomGraphGenerator.java" startLine="163" startPosition="41" endLine="165" endPosition="27" />
-    <scopeInfo nodeId="3437556975695847386" fileName="RandomGraphGenerator.java" startLine="169" startPosition="41" endLine="171" endPosition="27" />
+    <scopeInfo nodeId="3437556975695846940" fileName="RandomGraphGenerator.java" startLine="86" startPosition="49" endLine="88" endPosition="25" />
+    <scopeInfo nodeId="3437556975695847029" fileName="RandomGraphGenerator.java" startLine="99" startPosition="33" endLine="101" endPosition="88" />
+    <scopeInfo nodeId="3437556975695847349" fileName="RandomGraphGenerator.java" startLine="161" startPosition="41" endLine="163" endPosition="27" />
+    <scopeInfo nodeId="3437556975695847386" fileName="RandomGraphGenerator.java" startLine="167" startPosition="41" endLine="169" endPosition="27" />
     <scopeInfo nodeId="3437556975695846636" fileName="RandomGraphGenerator.java" startLine="21" startPosition="26" endLine="24" endPosition="5">
       <varInfo nodeId="3437556975695846642" varName="i" />
     </scopeInfo>
     <scopeInfo nodeId="3437556975695846715" fileName="RandomGraphGenerator.java" startLine="39" startPosition="26" endLine="42" endPosition="5">
       <varInfo nodeId="3437556975695846721" varName="i" />
     </scopeInfo>
-    <scopeInfo nodeId="3437556975695846981" fileName="RandomGraphGenerator.java" startLine="93" startPosition="49" endLine="96" endPosition="7" />
-    <scopeInfo nodeId="3437556975695846982" fileName="RandomGraphGenerator.java" startLine="93" startPosition="49" endLine="96" endPosition="7">
+    <scopeInfo nodeId="3437556975695846981" fileName="RandomGraphGenerator.java" startLine="92" startPosition="49" endLine="95" endPosition="7" />
+    <scopeInfo nodeId="3437556975695846982" fileName="RandomGraphGenerator.java" startLine="92" startPosition="49" endLine="95" endPosition="7">
       <varInfo nodeId="3437556975695846990" varName="j" />
     </scopeInfo>
-    <scopeInfo nodeId="3437556975695847418" fileName="RandomGraphGenerator.java" startLine="173" startPosition="61" endLine="176" endPosition="5">
+    <scopeInfo nodeId="3437556975695847418" fileName="RandomGraphGenerator.java" startLine="171" startPosition="61" endLine="174" endPosition="5">
       <varInfo nodeId="3437556975695847425" varName="i" />
     </scopeInfo>
     <scopeInfo nodeId="3437556975695846738" fileName="RandomGraphGenerator.java" startLine="43" startPosition="88" endLine="47" endPosition="5">
       <varInfo nodeId="3437556975695846754" varName="i" />
     </scopeInfo>
-    <scopeInfo nodeId="3437556975695846939" fileName="RandomGraphGenerator.java" startLine="86" startPosition="56" endLine="90" endPosition="5">
+    <scopeInfo nodeId="3437556975695846939" fileName="RandomGraphGenerator.java" startLine="85" startPosition="56" endLine="89" endPosition="5">
       <varInfo nodeId="3437556975695846953" varName="i" />
     </scopeInfo>
-    <scopeInfo nodeId="3437556975695847028" fileName="RandomGraphGenerator.java" startLine="99" startPosition="88" endLine="103" endPosition="5">
+    <scopeInfo nodeId="3437556975695847028" fileName="RandomGraphGenerator.java" startLine="98" startPosition="88" endLine="102" endPosition="5">
       <varInfo nodeId="3437556975695847044" varName="i" />
     </scopeInfo>
-    <scopeInfo nodeId="3437556975695847348" fileName="RandomGraphGenerator.java" startLine="162" startPosition="16" endLine="166" endPosition="5">
+    <scopeInfo nodeId="3437556975695847348" fileName="RandomGraphGenerator.java" startLine="160" startPosition="16" endLine="164" endPosition="5">
       <varInfo nodeId="3437556975695847367" varName="i" />
     </scopeInfo>
-    <scopeInfo nodeId="3437556975695847385" fileName="RandomGraphGenerator.java" startLine="168" startPosition="23" endLine="172" endPosition="5">
+    <scopeInfo nodeId="3437556975695847385" fileName="RandomGraphGenerator.java" startLine="166" startPosition="23" endLine="170" endPosition="5">
       <varInfo nodeId="3437556975695847408" varName="i" />
     </scopeInfo>
-    <scopeInfo nodeId="7953585273260012403" fileName="RandomGraphGenerator.java" startLine="182" startPosition="27" endLine="186" endPosition="7" />
+    <scopeInfo nodeId="7953585273260012403" fileName="RandomGraphGenerator.java" startLine="180" startPosition="27" endLine="184" endPosition="7" />
     <scopeInfo nodeId="3437556975695846785" fileName="RandomGraphGenerator.java" startLine="54" startPosition="38" endLine="59" endPosition="9" />
-    <scopeInfo nodeId="3437556975695846980" fileName="RandomGraphGenerator.java" startLine="92" startPosition="30" endLine="97" endPosition="5">
+    <scopeInfo nodeId="3437556975695846980" fileName="RandomGraphGenerator.java" startLine="91" startPosition="30" endLine="96" endPosition="5">
       <varInfo nodeId="3437556975695847004" varName="i" />
     </scopeInfo>
-    <scopeInfo nodeId="3437556975695847066" fileName="RandomGraphGenerator.java" startLine="108" startPosition="47" endLine="113" endPosition="22">
+    <scopeInfo nodeId="3437556975695847066" fileName="RandomGraphGenerator.java" startLine="107" startPosition="47" endLine="112" endPosition="22">
       <varInfo nodeId="3437556975695847068" varName="source" />
     </scopeInfo>
     <scopeInfo nodeId="3437556975695846651" fileName="RandomGraphGenerator.java" startLine="25" startPosition="40" endLine="32" endPosition="29">
@@ -451,21 +449,21 @@
       <varInfo nodeId="3437556975695846653" varName="s" />
     </scopeInfo>
     <scopeInfo nodeId="3437556975695846784" fileName="RandomGraphGenerator.java" startLine="53" startPosition="19" endLine="60" endPosition="7" />
-    <scopeInfo nodeId="3437556975695847065" fileName="RandomGraphGenerator.java" startLine="107" startPosition="26" endLine="114" endPosition="5">
+    <scopeInfo nodeId="3437556975695847065" fileName="RandomGraphGenerator.java" startLine="106" startPosition="26" endLine="113" endPosition="5">
       <varInfo nodeId="3437556975695847111" varName="i" />
     </scopeInfo>
-    <scopeInfo nodeId="3437556975695847153" fileName="RandomGraphGenerator.java" startLine="124" startPosition="38" endLine="131" endPosition="9">
+    <scopeInfo nodeId="3437556975695847153" fileName="RandomGraphGenerator.java" startLine="123" startPosition="38" endLine="130" endPosition="9">
       <varInfo nodeId="3437556975695847162" varName="b" />
       <varInfo nodeId="3437556975695847155" varName="a" />
     </scopeInfo>
-    <scopeInfo nodeId="7953585273260012394" fileName="RandomGraphGenerator.java" startLine="180" startPosition="80" endLine="188" endPosition="17">
+    <scopeInfo nodeId="7953585273260012394" fileName="RandomGraphGenerator.java" startLine="178" startPosition="80" endLine="186" endPosition="17">
       <varInfo nodeId="7953585273260012408" varName="graph" />
     </scopeInfo>
     <scopeInfo nodeId="3437556975695846650" fileName="RandomGraphGenerator.java" startLine="24" startPosition="5" endLine="33" endPosition="5">
       <varInfo nodeId="3437556975695846690" varName="i" />
     </scopeInfo>
-    <scopeInfo nodeId="3437556975695847152" fileName="RandomGraphGenerator.java" startLine="123" startPosition="19" endLine="132" endPosition="7" />
-    <scopeInfo nodeId="7953585273260012391" fileName="RandomGraphGenerator.java" startLine="179" startPosition="0" endLine="190" endPosition="0">
+    <scopeInfo nodeId="3437556975695847152" fileName="RandomGraphGenerator.java" startLine="122" startPosition="19" endLine="131" endPosition="7" />
+    <scopeInfo nodeId="7953585273260012391" fileName="RandomGraphGenerator.java" startLine="177" startPosition="0" endLine="188" endPosition="0">
       <varInfo nodeId="7953585273260012398" varName="numEdges" />
       <varInfo nodeId="7953585273260012396" varName="numNodes" />
     </scopeInfo>
@@ -473,19 +471,19 @@
     <scopeInfo nodeId="3437556975695846628" fileName="RandomGraphGenerator.java" startLine="19" startPosition="67" endLine="34" endPosition="13">
       <varInfo nodeId="3437556975695846632" varName="g" />
     </scopeInfo>
-    <scopeInfo nodeId="3437556975695847204" fileName="RandomGraphGenerator.java" startLine="133" startPosition="28" endLine="148" endPosition="9" />
+    <scopeInfo nodeId="3437556975695847204" fileName="RandomGraphGenerator.java" startLine="132" startPosition="28" endLine="147" endPosition="9" />
     <scopeInfo nodeId="3437556975695846625" fileName="RandomGraphGenerator.java" startLine="18" startPosition="0" endLine="36" endPosition="0">
       <varInfo nodeId="3437556975695846702" varName="numEdges" />
       <varInfo nodeId="3437556975695846700" varName="numNodes" />
     </scopeInfo>
-    <scopeInfo nodeId="3437556975695847325" fileName="RandomGraphGenerator.java" startLine="158" startPosition="104" endLine="177" endPosition="56">
+    <scopeInfo nodeId="3437556975695847325" fileName="RandomGraphGenerator.java" startLine="156" startPosition="104" endLine="175" endPosition="56">
       <varInfo nodeId="3437556975695847327" varName="numLayers" />
       <varInfo nodeId="3437556975695847382" varName="cur" />
       <varInfo nodeId="3437556975695847345" varName="sum" />
       <varInfo nodeId="3437556975695847336" varName="numInLayer" />
       <varInfo nodeId="3437556975695847376" varName="rest" />
     </scopeInfo>
-    <scopeInfo nodeId="3437556975695847322" fileName="RandomGraphGenerator.java" startLine="157" startPosition="0" endLine="179" endPosition="0">
+    <scopeInfo nodeId="3437556975695847322" fileName="RandomGraphGenerator.java" startLine="155" startPosition="0" endLine="177" endPosition="0">
       <varInfo nodeId="3437556975695847439" varName="numEdges" />
       <varInfo nodeId="3437556975695847437" varName="numNodes" />
     </scopeInfo>
@@ -497,25 +495,25 @@
     <scopeInfo nodeId="3437556975695846770" fileName="RandomGraphGenerator.java" startLine="49" startPosition="21" endLine="78" endPosition="5">
       <varInfo nodeId="3437556975695846892" varName="i" />
     </scopeInfo>
-    <scopeInfo nodeId="3437556975695847139" fileName="RandomGraphGenerator.java" startLine="120" startPosition="52" endLine="152" endPosition="88">
+    <scopeInfo nodeId="3437556975695847139" fileName="RandomGraphGenerator.java" startLine="119" startPosition="52" endLine="151" endPosition="88">
       <varInfo nodeId="3437556975695847145" varName="t" />
       <varInfo nodeId="3437556975695847141" varName="s" />
       <varInfo nodeId="3437556975695847149" varName="iter" />
     </scopeInfo>
-    <scopeInfo nodeId="3437556975695847138" fileName="RandomGraphGenerator.java" startLine="119" startPosition="21" endLine="153" endPosition="5">
+    <scopeInfo nodeId="3437556975695847138" fileName="RandomGraphGenerator.java" startLine="118" startPosition="21" endLine="152" endPosition="5">
       <varInfo nodeId="3437556975695847297" varName="i" />
     </scopeInfo>
-    <scopeInfo nodeId="3437556975695846707" fileName="RandomGraphGenerator.java" startLine="37" startPosition="98" endLine="80" endPosition="13">
+    <scopeInfo nodeId="3437556975695846707" fileName="RandomGraphGenerator.java" startLine="37" startPosition="98" endLine="79" endPosition="13">
       <varInfo nodeId="3437556975695846711" varName="g" />
       <varInfo nodeId="3437556975695846767" varName="countBad" />
       <varInfo nodeId="3437556975695846763" varName="maxIter" />
       <varInfo nodeId="3437556975695846730" varName="connected" />
     </scopeInfo>
-    <scopeInfo nodeId="3437556975695846704" fileName="RandomGraphGenerator.java" startLine="36" startPosition="0" endLine="82" endPosition="0">
+    <scopeInfo nodeId="3437556975695846704" fileName="RandomGraphGenerator.java" startLine="36" startPosition="0" endLine="81" endPosition="0">
       <varInfo nodeId="3437556975695846913" varName="numEdges" />
       <varInfo nodeId="3437556975695846911" varName="numNodes" />
     </scopeInfo>
-    <scopeInfo nodeId="3437556975695846919" fileName="RandomGraphGenerator.java" startLine="83" startPosition="110" endLine="155" endPosition="13">
+    <scopeInfo nodeId="3437556975695846919" fileName="RandomGraphGenerator.java" startLine="82" startPosition="110" endLine="153" endPosition="13">
       <varInfo nodeId="3437556975695847015" varName="g" />
       <varInfo nodeId="3437556975695847135" varName="countBad" />
       <varInfo nodeId="3437556975695847131" varName="maxIter" />
@@ -525,11 +523,11 @@
       <varInfo nodeId="3437556975695846927" varName="firstVertice" />
       <varInfo nodeId="3437556975695847062" varName="numAddedEdges" />
     </scopeInfo>
-    <scopeInfo nodeId="3437556975695846916" fileName="RandomGraphGenerator.java" startLine="82" startPosition="0" endLine="157" endPosition="0">
+    <scopeInfo nodeId="3437556975695846916" fileName="RandomGraphGenerator.java" startLine="81" startPosition="0" endLine="155" endPosition="0">
       <varInfo nodeId="3437556975695847319" varName="numEdges" />
       <varInfo nodeId="3437556975695847316" varName="numInLayer" />
     </scopeInfo>
-    <unitInfo nodeId="3437556975695846619" fileName="RandomGraphGenerator.java" startLine="16" startPosition="0" endLine="191" endPosition="0" unitName="sampleGraphs.RandomGraphGenerator" />
+    <unitInfo nodeId="3437556975695846619" fileName="RandomGraphGenerator.java" startLine="16" startPosition="0" endLine="189" endPosition="0" unitName="sampleGraphs.RandomGraphGenerator" />
   </root>
   <root nodeId="3437556975695847443">
     <nodeInfo nodeId="3437556975695847448" fileName="SimpleDirectedGraphs.java" startLine="11" startPosition="48" endLine="12" endPosition="35" conceptFqName="jetbrains.mps.baseLanguage.structure.LocalVariableDeclarationStatement" />

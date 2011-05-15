@@ -254,21 +254,20 @@
   </dependency>
   <dependency className="jetbrains.mps.graphLayout.planarization.TreeEmbeddingFinder" file="TreeEmbeddingFinder.java">
     <classNode dependClassName="jetbrains.mps.internal.collections.runtime.SetSequence" />
+    <classNode dependClassName="java.util.ArrayList" />
     <classNode dependClassName="jetbrains.mps.graphLayout.graph.Node" />
     <classNode dependClassName="jetbrains.mps.graphLayout.graph.Edge" />
     <classNode dependClassName="java.util.HashMap" />
     <classNode dependClassName="java.util.Set" />
-    <classNode dependClassName="java.util.Map" />
     <classNode dependClassName="jetbrains.mps.internal.collections.runtime.MapSequence" />
     <classNode dependClassName="jetbrains.mps.graphLayout.planarGraph.Face" />
     <classNode dependClassName="jetbrains.mps.graphLayout.planarGraph.DualGraph" />
     <classNode dependClassName="java.util.LinkedHashSet" />
     <classNode dependClassName="java.util.List" />
     <classNode dependClassName="jetbrains.mps.graphLayout.planarGraph.EmbeddedGraph" />
-    <classNode dependClassName="java.util.ArrayList" />
+    <classNode dependClassName="java.util.Map" />
     <classNode dependClassName="java.lang.Override" />
     <classNode dependClassName="jetbrains.mps.graphLayout.graph.Graph" />
-    <classNode dependClassName="java.lang.System" />
     <classNode dependClassName="jetbrains.mps.graphLayout.algorithms.ShortestPath" />
     <classNode dependClassName="java.util.Iterator" />
     <classNode dependClassName="jetbrains.mps.internal.collections.runtime.ListSequence" />

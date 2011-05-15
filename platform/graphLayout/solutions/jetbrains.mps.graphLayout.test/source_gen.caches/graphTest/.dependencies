@@ -19,25 +19,23 @@
   </dependency>
   <dependency className="graphTest.BiconnectAugmentation_Test" file="BiconnectAugmentation_Test.java">
     <classNode dependClassName="java.lang.String" />
-    <classNode dependClassName="jetbrains.mps.graphLayout.algorithms.BiconnectAugmentation" />
     <classNode dependClassName="graphTest.BiconnectivityChecker" />
     <classNode dependClassName="jetbrains.mps.graphLayout.graph.Graph" />
     <classNode dependClassName="java.lang.Exception" />
-    <classNode dependClassName="java.util.Scanner" />
-    <classNode dependClassName="java.lang.System" />
+    <classNode dependClassName="jetbrains.mps.graphLayout.algorithms.BiconnectAugmentation" />
     <classNode dependClassName="visualization.GraphIO" />
     <classNode dependClassName="sampleGraphs.SimpleDirectedGraphs" />
+    <classNode dependClassName="java.util.Scanner" />
     <classNode extendsClassName="junit.framework.TestCase" />
   </dependency>
   <dependency className="graphTest.BiconnectComponent_Test" file="BiconnectComponent_Test.java">
     <classNode dependClassName="java.lang.String" />
-    <classNode dependClassName="java.lang.System" />
-    <classNode dependClassName="jetbrains.mps.graphLayout.graph.Graph" />
+    <classNode dependClassName="sampleGraphs.SimpleDirectedGraphs" />
     <classNode dependClassName="java.lang.Exception" />
     <classNode dependClassName="java.util.Scanner" />
     <classNode dependClassName="jetbrains.mps.graphLayout.algorithms.BiconnectedComponent" />
-    <classNode dependClassName="sampleGraphs.SimpleDirectedGraphs" />
     <classNode dependClassName="visualization.GraphIO" />
+    <classNode dependClassName="jetbrains.mps.graphLayout.graph.Graph" />
     <classNode extendsClassName="junit.framework.TestCase" />
   </dependency>
   <dependency className="graphTest.BiconnectivityChecker" file="BiconnectivityChecker.java">
@@ -119,7 +117,7 @@
   <dependency className="graphTest.GroupedGraphModificationSynchronizer_Test" file="GroupedGraphModificationSynchronizer_Test.java">
     <classNode dependClassName="jetbrains.mps.internal.collections.runtime.SetSequence" />
     <classNode dependClassName="jetbrains.mps.internal.collections.runtime.backports.LinkedList" />
-    <classNode dependClassName="jetbrains.mps.graphLayout.graph.Node" />
+    <classNode dependClassName="jetbrains.mps.internal.collections.runtime.ListSequence" />
     <classNode dependClassName="jetbrains.mps.graphLayout.graph.Edge" />
     <classNode dependClassName="java.util.HashMap" />
     <classNode dependClassName="java.util.Set" />
@@ -131,9 +129,8 @@
     <classNode dependClassName="jetbrains.mps.graphLayout.graph.GraphModificationEvent" />
     <classNode dependClassName="jetbrains.mps.graphLayout.graph.Graph" />
     <classNode dependClassName="visualization.GraphIO" />
-    <classNode dependClassName="java.lang.System" />
+    <classNode dependClassName="jetbrains.mps.graphLayout.graph.Node" />
     <classNode dependClassName="jetbrains.mps.graphLayout.graph.GroupedGraphModificationSynchronizer" />
-    <classNode dependClassName="jetbrains.mps.internal.collections.runtime.ListSequence" />
     <classNode dependClassName="java.util.HashSet" />
     <classNode dependClassName="jetbrains.mps.graphLayout.graph.EdgesHistoryManager" />
     <classNode extendsClassName="junit.framework.TestCase" />
@@ -142,7 +139,7 @@
     <classNode dependClassName="junit.framework.Assert" />
     <classNode dependClassName="jetbrains.mps.internal.collections.runtime.SetSequence" />
     <classNode dependClassName="java.util.ArrayList" />
-    <classNode dependClassName="jetbrains.mps.graphLayout.graph.Node" />
+    <classNode dependClassName="jetbrains.mps.internal.collections.runtime.ListSequence" />
     <classNode dependClassName="jetbrains.mps.graphLayout.graph.Edge" />
     <classNode dependClassName="java.lang.Integer" />
     <classNode dependClassName="java.util.Scanner" />
@@ -155,9 +152,8 @@
     <classNode dependClassName="java.util.Map" />
     <classNode dependClassName="jetbrains.mps.graphLayout.graph.Graph" />
     <classNode dependClassName="visualization.GraphIO" />
-    <classNode dependClassName="java.lang.System" />
+    <classNode dependClassName="jetbrains.mps.graphLayout.graph.Node" />
     <classNode dependClassName="jetbrains.mps.graphLayout.algorithms.MinCostCirculation" />
-    <classNode dependClassName="jetbrains.mps.internal.collections.runtime.ListSequence" />
     <classNode extendsClassName="junit.framework.TestCase" />
   </dependency>
   <dependency className="graphTest.MinCostMaxFlowWithPotentials_Test" file="MinCostMaxFlowWithPotentials_Test.java">
@@ -175,14 +171,13 @@
     <classNode dependClassName="jetbrains.mps.graphLayout.graph.Graph" />
     <classNode dependClassName="visualization.GraphIO" />
     <classNode dependClassName="jetbrains.mps.graphLayout.graph.Node" />
-    <classNode dependClassName="java.lang.System" />
     <classNode extendsClassName="junit.framework.TestCase" />
   </dependency>
   <dependency className="graphTest.MinCostMaxFlow_Test" file="MinCostMaxFlow_Test.java">
     <classNode dependClassName="junit.framework.Assert" />
     <classNode dependClassName="jetbrains.mps.internal.collections.runtime.SetSequence" />
     <classNode dependClassName="java.util.ArrayList" />
-    <classNode dependClassName="jetbrains.mps.graphLayout.graph.Node" />
+    <classNode dependClassName="jetbrains.mps.internal.collections.runtime.ListSequence" />
     <classNode dependClassName="jetbrains.mps.graphLayout.graph.Edge" />
     <classNode dependClassName="java.lang.Integer" />
     <classNode dependClassName="java.util.Scanner" />
@@ -193,10 +188,9 @@
     <classNode dependClassName="java.util.HashMap" />
     <classNode dependClassName="java.util.List" />
     <classNode dependClassName="java.util.Map" />
-    <classNode dependClassName="jetbrains.mps.internal.collections.runtime.ListSequence" />
     <classNode dependClassName="jetbrains.mps.graphLayout.graph.Graph" />
     <classNode dependClassName="visualization.GraphIO" />
-    <classNode dependClassName="java.lang.System" />
+    <classNode dependClassName="jetbrains.mps.graphLayout.graph.Node" />
     <classNode dependClassName="jetbrains.mps.graphLayout.algorithms.MinCostMaxFlow" />
     <classNode extendsClassName="junit.framework.TestCase" />
   </dependency>

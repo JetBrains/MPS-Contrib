@@ -65,6 +65,5 @@ public class RectOrthogonalFlowLayouter_Test extends TestCase {
       MapSequence.fromMap(nodeSizes).put(node, new Dimension(10, 10));
     }
     GraphLayout layout = layouter.doLayout(graph, nodeSizes);
-    System.out.println(layout);
   }
 }

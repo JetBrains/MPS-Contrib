@@ -60,7 +60,6 @@ public class OrthogonalFlowLayouterConstraints_Test extends TestCase {
     }
     MapSequence.fromMap(nodeSizes).put(graph.getNode(2), new Dimension(100, 100));
     GraphLayout graphLayout = new OrthogonalFlowLayouterConstraints().doLayout(graph, nodeSizes);
-    System.out.println(graphLayout);
     OrthogonalLayoutChecker.checkLayout(graphLayout);
   }
 
@@ -70,7 +69,6 @@ public class OrthogonalFlowLayouterConstraints_Test extends TestCase {
       MapSequence.fromMap(nodeSizes).put(node, new Dimension(30, 30));
     }
     GraphLayout graphLayout = new OrthogonalFlowLayouterConstraints().doLayout(graph, nodeSizes);
-    System.out.println(graphLayout);
     OrthogonalLayoutChecker.checkLayout(graphLayout);
   }
 }

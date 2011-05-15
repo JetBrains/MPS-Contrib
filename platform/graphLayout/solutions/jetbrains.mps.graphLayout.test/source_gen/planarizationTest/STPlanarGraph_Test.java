@@ -115,6 +115,5 @@ public class STPlanarGraph_Test extends TestCase {
     Node t = ListSequence.fromList(outerNodes).getElement((ListSequence.fromList(outerNodes).count()) / 2);
     STPlanarGraph stPlanarGraph = new STPlanarGraph(embeddedGraph, s, t);
     DualGraph dualGraph = stPlanarGraph.getModifiedDualGraph();
-    System.out.println(dualGraph);
   }
 }

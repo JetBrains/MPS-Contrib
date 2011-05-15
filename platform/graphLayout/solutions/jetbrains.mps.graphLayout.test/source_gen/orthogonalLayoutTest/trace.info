@@ -4,120 +4,110 @@
   <unitInfo fileName="OrthogonalFlowLayouterNoLabels_Test.java" startLine="16" startPosition="0" endLine="32" endPosition="0" unitName="orthogonalLayoutTest.OrthogonalFlowLayouterNoLabels_Test" />
   <unitInfo fileName="RectOrthogonalLayouter_Test.java" startLine="19" startPosition="0" endLine="38" endPosition="0" unitName="orthogonalLayoutTest.RectOrthogonalLayouter_Test" />
   <unitInfo fileName="HyperGraphLayouter_Test.java" startLine="16" startPosition="0" endLine="40" endPosition="0" unitName="orthogonalLayoutTest.HyperGraphLayouter_Test" />
+  <unitInfo fileName="VisibilityRepresentation_Test.java" startLine="21" startPosition="0" endLine="53" endPosition="0" unitName="orthogonalLayoutTest.VisibilityRepresentation_Test" />
+  <unitInfo fileName="ConstraintsSupporter_Test.java" startLine="23" startPosition="0" endLine="56" endPosition="0" unitName="orthogonalLayoutTest.ConstraintsSupporter_Test" />
   <unitInfo fileName="AmbiguityLayout_Test.java" startLine="23" startPosition="0" endLine="67" endPosition="0" unitName="orthogonalLayoutTest.AmbiguityLayout_Test" />
-  <unitInfo fileName="ConstraintsSupporter_Test.java" startLine="24" startPosition="0" endLine="69" endPosition="0" unitName="orthogonalLayoutTest.ConstraintsSupporter_Test" />
+  <unitInfo fileName="OrthogonalFlowLabelProcessing_Test.java" startLine="19" startPosition="0" endLine="66" endPosition="0" unitName="orthogonalLayoutTest.OrthogonalFlowLabelProcessing_Test" />
+  <unitInfo fileName="EmbeddedGraphModifier_Test.java" startLine="30" startPosition="0" endLine="78" endPosition="0" unitName="orthogonalLayoutTest.EmbeddedGraphModifier_Test" />
   <unitInfo fileName="OrthogonalPointFlowLayouter_Test.java" startLine="12" startPosition="0" endLine="61" endPosition="0" unitName="orthogonalLayoutTest.OrthogonalPointFlowLayouter_Test" />
-  <unitInfo fileName="OrthogonalFlowLabelProcessing_Test.java" startLine="19" startPosition="0" endLine="68" endPosition="0" unitName="orthogonalLayoutTest.OrthogonalFlowLabelProcessing_Test" />
-  <unitInfo fileName="VisibilityRepresentation_Test.java" startLine="23" startPosition="0" endLine="73" endPosition="0" unitName="orthogonalLayoutTest.VisibilityRepresentation_Test" />
-  <unitInfo fileName="RectOrthogonalFlowLayouter_Test.java" startLine="18" startPosition="0" endLine="71" endPosition="0" unitName="orthogonalLayoutTest.RectOrthogonalFlowLayouter_Test" />
-  <unitInfo fileName="EmbeddedGraphModifier_Test.java" startLine="30" startPosition="0" endLine="84" endPosition="0" unitName="orthogonalLayoutTest.EmbeddedGraphModifier_Test" />
-  <unitInfo fileName="OrthogonalFlowLayouterConstraints_Test.java" startLine="19" startPosition="0" endLine="77" endPosition="0" unitName="orthogonalLayoutTest.OrthogonalFlowLayouterConstraints_Test" />
-  <unitInfo fileName="ConstraintsGraph_Test.java" startLine="26" startPosition="0" endLine="89" endPosition="0" unitName="orthogonalLayoutTest.ConstraintsGraph_Test" />
-  <unitInfo fileName="QuasiOrthogonalRepresentation_Test.java" startLine="26" startPosition="0" endLine="99" endPosition="0" unitName="orthogonalLayoutTest.QuasiOrthogonalRepresentation_Test" />
+  <unitInfo fileName="RectOrthogonalFlowLayouter_Test.java" startLine="18" startPosition="0" endLine="70" endPosition="0" unitName="orthogonalLayoutTest.RectOrthogonalFlowLayouter_Test" />
+  <unitInfo fileName="OrthogonalFlowLayouterConstraints_Test.java" startLine="19" startPosition="0" endLine="75" endPosition="0" unitName="orthogonalLayoutTest.OrthogonalFlowLayouterConstraints_Test" />
+  <unitInfo fileName="ConstraintsGraph_Test.java" startLine="26" startPosition="0" endLine="86" endPosition="0" unitName="orthogonalLayoutTest.ConstraintsGraph_Test" />
+  <unitInfo fileName="QuasiOrthogonalRepresentation_Test.java" startLine="25" startPosition="0" endLine="90" endPosition="0" unitName="orthogonalLayoutTest.QuasiOrthogonalRepresentation_Test" />
   <root nodeId="100801320082832729">
-    <nodeInfo nodeId="100801320082837162" fileName="QuasiOrthogonalRepresentation_Test.java" startLine="27" startPosition="45" endLine="28" endPosition="51" conceptFqName="jetbrains.mps.baseLanguage.structure.LocalVariableDeclarationStatement" />
-    <nodeInfo nodeId="100801320082837170" fileName="QuasiOrthogonalRepresentation_Test.java" startLine="28" startPosition="51" endLine="29" endPosition="62" conceptFqName="jetbrains.mps.baseLanguage.structure.LocalVariableDeclarationStatement" />
-    <nodeInfo nodeId="100801320082839169" fileName="QuasiOrthogonalRepresentation_Test.java" startLine="29" startPosition="62" endLine="30" endPosition="38" conceptFqName="jetbrains.mps.baseLanguage.structure.ExpressionStatement" />
-    <nodeInfo nodeId="100801320082882966" fileName="QuasiOrthogonalRepresentation_Test.java" startLine="33" startPosition="45" endLine="34" endPosition="66" conceptFqName="jetbrains.mps.baseLanguage.structure.LocalVariableDeclarationStatement" />
-    <nodeInfo nodeId="100801320082882970" fileName="QuasiOrthogonalRepresentation_Test.java" startLine="34" startPosition="66" endLine="35" endPosition="62" conceptFqName="jetbrains.mps.baseLanguage.structure.LocalVariableDeclarationStatement" />
-    <nodeInfo nodeId="100801320082882977" fileName="QuasiOrthogonalRepresentation_Test.java" startLine="35" startPosition="62" endLine="36" endPosition="38" conceptFqName="jetbrains.mps.baseLanguage.structure.ExpressionStatement" />
-    <nodeInfo nodeId="100801320082883675" fileName="QuasiOrthogonalRepresentation_Test.java" startLine="39" startPosition="45" endLine="40" endPosition="46" conceptFqName="jetbrains.mps.baseLanguage.structure.LocalVariableDeclarationStatement" />
-    <nodeInfo nodeId="100801320082883679" fileName="QuasiOrthogonalRepresentation_Test.java" startLine="40" startPosition="46" endLine="41" endPosition="62" conceptFqName="jetbrains.mps.baseLanguage.structure.LocalVariableDeclarationStatement" />
-    <nodeInfo nodeId="100801320082883686" fileName="QuasiOrthogonalRepresentation_Test.java" startLine="41" startPosition="62" endLine="42" endPosition="38" conceptFqName="jetbrains.mps.baseLanguage.structure.ExpressionStatement" />
-    <nodeInfo nodeId="7953585273259939517" fileName="QuasiOrthogonalRepresentation_Test.java" startLine="45" startPosition="45" endLine="46" endPosition="47" conceptFqName="jetbrains.mps.baseLanguage.structure.LocalVariableDeclarationStatement" />
-    <nodeInfo nodeId="7953585273259939524" fileName="QuasiOrthogonalRepresentation_Test.java" startLine="46" startPosition="47" endLine="47" endPosition="38" conceptFqName="jetbrains.mps.baseLanguage.structure.ExpressionStatement" />
-    <nodeInfo nodeId="7953585273260040026" fileName="QuasiOrthogonalRepresentation_Test.java" startLine="50" startPosition="45" endLine="51" endPosition="48" conceptFqName="jetbrains.mps.baseLanguage.structure.LocalVariableDeclarationStatement" />
-    <nodeInfo nodeId="7953585273260040033" fileName="QuasiOrthogonalRepresentation_Test.java" startLine="51" startPosition="48" endLine="52" endPosition="38" conceptFqName="jetbrains.mps.baseLanguage.structure.ExpressionStatement" />
-    <nodeInfo nodeId="7953585273260121772" fileName="QuasiOrthogonalRepresentation_Test.java" startLine="55" startPosition="42" endLine="56" endPosition="61" conceptFqName="jetbrains.mps.baseLanguage.structure.LocalVariableDeclarationStatement" />
-    <nodeInfo nodeId="7953585273260121776" fileName="QuasiOrthogonalRepresentation_Test.java" startLine="56" startPosition="61" endLine="57" endPosition="62" conceptFqName="jetbrains.mps.baseLanguage.structure.LocalVariableDeclarationStatement" />
-    <nodeInfo nodeId="7953585273260121783" fileName="QuasiOrthogonalRepresentation_Test.java" startLine="57" startPosition="62" endLine="58" endPosition="38" conceptFqName="jetbrains.mps.baseLanguage.structure.ExpressionStatement" />
-    <nodeInfo nodeId="2173844983035672489" fileName="QuasiOrthogonalRepresentation_Test.java" startLine="61" startPosition="45" endLine="62" endPosition="109" conceptFqName="jetbrains.mps.baseLanguage.structure.LocalVariableDeclarationStatement" />
-    <nodeInfo nodeId="2173844983035672493" fileName="QuasiOrthogonalRepresentation_Test.java" startLine="62" startPosition="109" endLine="63" endPosition="62" conceptFqName="jetbrains.mps.baseLanguage.structure.LocalVariableDeclarationStatement" />
-    <nodeInfo nodeId="2173844983035672500" fileName="QuasiOrthogonalRepresentation_Test.java" startLine="63" startPosition="62" endLine="64" endPosition="38" conceptFqName="jetbrains.mps.baseLanguage.structure.ExpressionStatement" />
-    <nodeInfo nodeId="2173844983035729266" fileName="QuasiOrthogonalRepresentation_Test.java" startLine="67" startPosition="45" endLine="68" endPosition="76" conceptFqName="jetbrains.mps.baseLanguage.structure.LocalVariableDeclarationStatement" />
-    <nodeInfo nodeId="2173844983035729270" fileName="QuasiOrthogonalRepresentation_Test.java" startLine="68" startPosition="76" endLine="69" endPosition="62" conceptFqName="jetbrains.mps.baseLanguage.structure.LocalVariableDeclarationStatement" />
-    <nodeInfo nodeId="2173844983035729277" fileName="QuasiOrthogonalRepresentation_Test.java" startLine="69" startPosition="62" endLine="70" endPosition="38" conceptFqName="jetbrains.mps.baseLanguage.structure.ExpressionStatement" />
-    <nodeInfo nodeId="4526870550031606017" fileName="QuasiOrthogonalRepresentation_Test.java" startLine="73" startPosition="45" endLine="74" endPosition="128" conceptFqName="jetbrains.mps.baseLanguage.structure.LocalVariableDeclarationStatement" />
-    <nodeInfo nodeId="4526870550031606025" fileName="QuasiOrthogonalRepresentation_Test.java" startLine="74" startPosition="128" endLine="75" endPosition="38" conceptFqName="jetbrains.mps.baseLanguage.structure.ExpressionStatement" />
-    <nodeInfo nodeId="100801320082837132" fileName="QuasiOrthogonalRepresentation_Test.java" startLine="78" startPosition="55" endLine="79" endPosition="74" conceptFqName="jetbrains.mps.baseLanguage.structure.LocalVariableDeclarationStatement" />
-    <nodeInfo nodeId="100801320082840778" fileName="QuasiOrthogonalRepresentation_Test.java" startLine="79" startPosition="74" endLine="80" endPosition="38" conceptFqName="jetbrains.mps.baseLanguage.structure.ExpressionStatement" />
-    <nodeInfo nodeId="2173844983035648959" fileName="QuasiOrthogonalRepresentation_Test.java" startLine="80" startPosition="38" endLine="81" endPosition="81" conceptFqName="jetbrains.mps.baseLanguage.structure.LocalVariableDeclarationStatement" />
-    <nodeInfo nodeId="2173844983035648972" fileName="QuasiOrthogonalRepresentation_Test.java" startLine="81" startPosition="81" endLine="82" endPosition="82" conceptFqName="jetbrains.mps.baseLanguage.structure.LocalVariableDeclarationStatement" />
-    <nodeInfo nodeId="100801320082837154" fileName="QuasiOrthogonalRepresentation_Test.java" startLine="82" startPosition="82" endLine="83" endPosition="82" conceptFqName="jetbrains.mps.baseLanguage.structure.ExpressionStatement" />
-    <nodeInfo nodeId="6370402596948407045" fileName="QuasiOrthogonalRepresentation_Test.java" startLine="83" startPosition="82" endLine="84" endPosition="66" conceptFqName="jetbrains.mps.baseLanguage.structure.LocalVariableDeclarationStatement" />
-    <nodeInfo nodeId="6370402596948407052" fileName="QuasiOrthogonalRepresentation_Test.java" startLine="84" startPosition="66" endLine="85" endPosition="87" conceptFqName="jetbrains.mps.baseLanguage.structure.ExpressionStatement" />
-    <nodeInfo nodeId="5736847780448778924" fileName="QuasiOrthogonalRepresentation_Test.java" startLine="85" startPosition="87" endLine="86" endPosition="91" conceptFqName="jetbrains.mps.baseLanguage.structure.ExpressionStatement" />
-    <nodeInfo nodeId="4526870550031613110" fileName="QuasiOrthogonalRepresentation_Test.java" startLine="86" startPosition="91" endLine="87" endPosition="101" conceptFqName="jetbrains.mps.baseLanguage.structure.ExpressionStatement" />
-    <nodeInfo nodeId="5736847780448733383" fileName="QuasiOrthogonalRepresentation_Test.java" startLine="87" startPosition="101" endLine="88" endPosition="38" conceptFqName="jetbrains.mps.baseLanguage.structure.ExpressionStatement" />
-    <nodeInfo nodeId="5736847780448772967" fileName="QuasiOrthogonalRepresentation_Test.java" startLine="89" startPosition="63" endLine="90" endPosition="41" conceptFqName="jetbrains.mps.baseLanguage.structure.ExpressionStatement" />
-    <nodeInfo nodeId="5736847780448772981" fileName="QuasiOrthogonalRepresentation_Test.java" startLine="91" startPosition="86" endLine="92" endPosition="231" conceptFqName="jetbrains.mps.baseLanguage.structure.ExpressionStatement" />
-    <nodeInfo nodeId="5736847780448733393" fileName="QuasiOrthogonalRepresentation_Test.java" startLine="94" startPosition="5" endLine="95" endPosition="64" conceptFqName="jetbrains.mps.baseLanguage.structure.ExpressionStatement" />
-    <nodeInfo nodeId="5736847780448778913" fileName="QuasiOrthogonalRepresentation_Test.java" startLine="95" startPosition="64" endLine="96" endPosition="91" conceptFqName="jetbrains.mps.baseLanguage.structure.ExpressionStatement" />
-    <nodeInfo nodeId="5736847780448772974" fileName="QuasiOrthogonalRepresentation_Test.java" startLine="90" startPosition="41" endLine="93" endPosition="7" conceptFqName="jetbrains.mps.baseLanguage.structure.ForeachStatement" />
-    <nodeInfo nodeId="7953585273259939509" fileName="QuasiOrthogonalRepresentation_Test.java" startLine="44" startPosition="0" endLine="49" endPosition="0" conceptFqName="jetbrains.mps.baseLanguage.structure.InstanceMethodDeclaration" propertyString="test_test4#()V" />
-    <nodeInfo nodeId="7953585273260040018" fileName="QuasiOrthogonalRepresentation_Test.java" startLine="49" startPosition="0" endLine="54" endPosition="0" conceptFqName="jetbrains.mps.baseLanguage.structure.InstanceMethodDeclaration" propertyString="test_test5#()V" />
-    <nodeInfo nodeId="4526870550031606011" fileName="QuasiOrthogonalRepresentation_Test.java" startLine="72" startPosition="0" endLine="77" endPosition="0" conceptFqName="jetbrains.mps.baseLanguage.structure.InstanceMethodDeclaration" propertyString="test_test8#()V" />
-    <nodeInfo nodeId="100801320082837158" fileName="QuasiOrthogonalRepresentation_Test.java" startLine="26" startPosition="66" endLine="32" endPosition="0" conceptFqName="jetbrains.mps.baseLanguage.structure.InstanceMethodDeclaration" propertyString="test_test1#()V" />
-    <nodeInfo nodeId="100801320082882962" fileName="QuasiOrthogonalRepresentation_Test.java" startLine="32" startPosition="0" endLine="38" endPosition="0" conceptFqName="jetbrains.mps.baseLanguage.structure.InstanceMethodDeclaration" propertyString="test_test2#()V" />
-    <nodeInfo nodeId="100801320082883671" fileName="QuasiOrthogonalRepresentation_Test.java" startLine="38" startPosition="0" endLine="44" endPosition="0" conceptFqName="jetbrains.mps.baseLanguage.structure.InstanceMethodDeclaration" propertyString="test_test3#()V" />
-    <nodeInfo nodeId="7953585273260121768" fileName="QuasiOrthogonalRepresentation_Test.java" startLine="54" startPosition="0" endLine="60" endPosition="0" conceptFqName="jetbrains.mps.baseLanguage.structure.InstanceMethodDeclaration" propertyString="test_K4#()V" />
-    <nodeInfo nodeId="2173844983035672485" fileName="QuasiOrthogonalRepresentation_Test.java" startLine="60" startPosition="0" endLine="66" endPosition="0" conceptFqName="jetbrains.mps.baseLanguage.structure.InstanceMethodDeclaration" propertyString="test_test6#()V" />
-    <nodeInfo nodeId="2173844983035729262" fileName="QuasiOrthogonalRepresentation_Test.java" startLine="66" startPosition="0" endLine="72" endPosition="0" conceptFqName="jetbrains.mps.baseLanguage.structure.InstanceMethodDeclaration" propertyString="test_test7#()V" />
-    <nodeInfo nodeId="5736847780448772961" fileName="QuasiOrthogonalRepresentation_Test.java" startLine="88" startPosition="38" endLine="94" endPosition="5" conceptFqName="jetbrains.mps.baseLanguage.structure.ForeachStatement" />
-    <nodeInfo nodeId="100801320082832736" fileName="QuasiOrthogonalRepresentation_Test.java" startLine="77" startPosition="0" endLine="98" endPosition="0" conceptFqName="jetbrains.mps.baseLanguage.structure.InstanceMethodDeclaration" propertyString="testPlanarBiconnectedGraph#(Ljetbrains/mps/graphLayout/graph/Graph;)V" />
-    <scopeInfo nodeId="5736847780448772980" fileName="QuasiOrthogonalRepresentation_Test.java" startLine="91" startPosition="86" endLine="92" endPosition="231" />
-    <scopeInfo nodeId="7953585273259939512" fileName="QuasiOrthogonalRepresentation_Test.java" startLine="45" startPosition="45" endLine="47" endPosition="38">
+    <nodeInfo nodeId="100801320082837162" fileName="QuasiOrthogonalRepresentation_Test.java" startLine="26" startPosition="45" endLine="27" endPosition="51" conceptFqName="jetbrains.mps.baseLanguage.structure.LocalVariableDeclarationStatement" />
+    <nodeInfo nodeId="100801320082837170" fileName="QuasiOrthogonalRepresentation_Test.java" startLine="27" startPosition="51" endLine="28" endPosition="62" conceptFqName="jetbrains.mps.baseLanguage.structure.LocalVariableDeclarationStatement" />
+    <nodeInfo nodeId="100801320082839169" fileName="QuasiOrthogonalRepresentation_Test.java" startLine="28" startPosition="62" endLine="29" endPosition="38" conceptFqName="jetbrains.mps.baseLanguage.structure.ExpressionStatement" />
+    <nodeInfo nodeId="100801320082882966" fileName="QuasiOrthogonalRepresentation_Test.java" startLine="32" startPosition="45" endLine="33" endPosition="66" conceptFqName="jetbrains.mps.baseLanguage.structure.LocalVariableDeclarationStatement" />
+    <nodeInfo nodeId="100801320082882970" fileName="QuasiOrthogonalRepresentation_Test.java" startLine="33" startPosition="66" endLine="34" endPosition="62" conceptFqName="jetbrains.mps.baseLanguage.structure.LocalVariableDeclarationStatement" />
+    <nodeInfo nodeId="100801320082882977" fileName="QuasiOrthogonalRepresentation_Test.java" startLine="34" startPosition="62" endLine="35" endPosition="38" conceptFqName="jetbrains.mps.baseLanguage.structure.ExpressionStatement" />
+    <nodeInfo nodeId="100801320082883675" fileName="QuasiOrthogonalRepresentation_Test.java" startLine="38" startPosition="45" endLine="39" endPosition="46" conceptFqName="jetbrains.mps.baseLanguage.structure.LocalVariableDeclarationStatement" />
+    <nodeInfo nodeId="100801320082883679" fileName="QuasiOrthogonalRepresentation_Test.java" startLine="39" startPosition="46" endLine="40" endPosition="62" conceptFqName="jetbrains.mps.baseLanguage.structure.LocalVariableDeclarationStatement" />
+    <nodeInfo nodeId="100801320082883686" fileName="QuasiOrthogonalRepresentation_Test.java" startLine="40" startPosition="62" endLine="41" endPosition="38" conceptFqName="jetbrains.mps.baseLanguage.structure.ExpressionStatement" />
+    <nodeInfo nodeId="7953585273259939517" fileName="QuasiOrthogonalRepresentation_Test.java" startLine="44" startPosition="45" endLine="45" endPosition="47" conceptFqName="jetbrains.mps.baseLanguage.structure.LocalVariableDeclarationStatement" />
+    <nodeInfo nodeId="7953585273259939524" fileName="QuasiOrthogonalRepresentation_Test.java" startLine="45" startPosition="47" endLine="46" endPosition="38" conceptFqName="jetbrains.mps.baseLanguage.structure.ExpressionStatement" />
+    <nodeInfo nodeId="7953585273260040026" fileName="QuasiOrthogonalRepresentation_Test.java" startLine="49" startPosition="45" endLine="50" endPosition="48" conceptFqName="jetbrains.mps.baseLanguage.structure.LocalVariableDeclarationStatement" />
+    <nodeInfo nodeId="7953585273260040033" fileName="QuasiOrthogonalRepresentation_Test.java" startLine="50" startPosition="48" endLine="51" endPosition="38" conceptFqName="jetbrains.mps.baseLanguage.structure.ExpressionStatement" />
+    <nodeInfo nodeId="7953585273260121772" fileName="QuasiOrthogonalRepresentation_Test.java" startLine="54" startPosition="42" endLine="55" endPosition="61" conceptFqName="jetbrains.mps.baseLanguage.structure.LocalVariableDeclarationStatement" />
+    <nodeInfo nodeId="7953585273260121776" fileName="QuasiOrthogonalRepresentation_Test.java" startLine="55" startPosition="61" endLine="56" endPosition="62" conceptFqName="jetbrains.mps.baseLanguage.structure.LocalVariableDeclarationStatement" />
+    <nodeInfo nodeId="7953585273260121783" fileName="QuasiOrthogonalRepresentation_Test.java" startLine="56" startPosition="62" endLine="57" endPosition="38" conceptFqName="jetbrains.mps.baseLanguage.structure.ExpressionStatement" />
+    <nodeInfo nodeId="2173844983035672489" fileName="QuasiOrthogonalRepresentation_Test.java" startLine="60" startPosition="45" endLine="61" endPosition="109" conceptFqName="jetbrains.mps.baseLanguage.structure.LocalVariableDeclarationStatement" />
+    <nodeInfo nodeId="2173844983035672493" fileName="QuasiOrthogonalRepresentation_Test.java" startLine="61" startPosition="109" endLine="62" endPosition="62" conceptFqName="jetbrains.mps.baseLanguage.structure.LocalVariableDeclarationStatement" />
+    <nodeInfo nodeId="2173844983035672500" fileName="QuasiOrthogonalRepresentation_Test.java" startLine="62" startPosition="62" endLine="63" endPosition="38" conceptFqName="jetbrains.mps.baseLanguage.structure.ExpressionStatement" />
+    <nodeInfo nodeId="2173844983035729266" fileName="QuasiOrthogonalRepresentation_Test.java" startLine="66" startPosition="45" endLine="67" endPosition="76" conceptFqName="jetbrains.mps.baseLanguage.structure.LocalVariableDeclarationStatement" />
+    <nodeInfo nodeId="2173844983035729270" fileName="QuasiOrthogonalRepresentation_Test.java" startLine="67" startPosition="76" endLine="68" endPosition="62" conceptFqName="jetbrains.mps.baseLanguage.structure.LocalVariableDeclarationStatement" />
+    <nodeInfo nodeId="2173844983035729277" fileName="QuasiOrthogonalRepresentation_Test.java" startLine="68" startPosition="62" endLine="69" endPosition="38" conceptFqName="jetbrains.mps.baseLanguage.structure.ExpressionStatement" />
+    <nodeInfo nodeId="4526870550031606017" fileName="QuasiOrthogonalRepresentation_Test.java" startLine="72" startPosition="45" endLine="73" endPosition="128" conceptFqName="jetbrains.mps.baseLanguage.structure.LocalVariableDeclarationStatement" />
+    <nodeInfo nodeId="4526870550031606025" fileName="QuasiOrthogonalRepresentation_Test.java" startLine="73" startPosition="128" endLine="74" endPosition="38" conceptFqName="jetbrains.mps.baseLanguage.structure.ExpressionStatement" />
+    <nodeInfo nodeId="100801320082837132" fileName="QuasiOrthogonalRepresentation_Test.java" startLine="77" startPosition="55" endLine="78" endPosition="74" conceptFqName="jetbrains.mps.baseLanguage.structure.LocalVariableDeclarationStatement" />
+    <nodeInfo nodeId="2173844983035648959" fileName="QuasiOrthogonalRepresentation_Test.java" startLine="78" startPosition="74" endLine="79" endPosition="81" conceptFqName="jetbrains.mps.baseLanguage.structure.LocalVariableDeclarationStatement" />
+    <nodeInfo nodeId="2173844983035648972" fileName="QuasiOrthogonalRepresentation_Test.java" startLine="79" startPosition="81" endLine="80" endPosition="82" conceptFqName="jetbrains.mps.baseLanguage.structure.LocalVariableDeclarationStatement" />
+    <nodeInfo nodeId="100801320082837154" fileName="QuasiOrthogonalRepresentation_Test.java" startLine="80" startPosition="82" endLine="81" endPosition="82" conceptFqName="jetbrains.mps.baseLanguage.structure.ExpressionStatement" />
+    <nodeInfo nodeId="6370402596948407045" fileName="QuasiOrthogonalRepresentation_Test.java" startLine="81" startPosition="82" endLine="82" endPosition="66" conceptFqName="jetbrains.mps.baseLanguage.structure.LocalVariableDeclarationStatement" />
+    <nodeInfo nodeId="6370402596948407052" fileName="QuasiOrthogonalRepresentation_Test.java" startLine="82" startPosition="66" endLine="83" endPosition="87" conceptFqName="jetbrains.mps.baseLanguage.structure.ExpressionStatement" />
+    <nodeInfo nodeId="5736847780448778924" fileName="QuasiOrthogonalRepresentation_Test.java" startLine="83" startPosition="87" endLine="84" endPosition="91" conceptFqName="jetbrains.mps.baseLanguage.structure.ExpressionStatement" />
+    <nodeInfo nodeId="4526870550031613110" fileName="QuasiOrthogonalRepresentation_Test.java" startLine="84" startPosition="91" endLine="85" endPosition="101" conceptFqName="jetbrains.mps.baseLanguage.structure.ExpressionStatement" />
+    <nodeInfo nodeId="5736847780448733393" fileName="QuasiOrthogonalRepresentation_Test.java" startLine="85" startPosition="101" endLine="86" endPosition="64" conceptFqName="jetbrains.mps.baseLanguage.structure.ExpressionStatement" />
+    <nodeInfo nodeId="5736847780448778913" fileName="QuasiOrthogonalRepresentation_Test.java" startLine="86" startPosition="64" endLine="87" endPosition="91" conceptFqName="jetbrains.mps.baseLanguage.structure.ExpressionStatement" />
+    <nodeInfo nodeId="7953585273259939509" fileName="QuasiOrthogonalRepresentation_Test.java" startLine="43" startPosition="0" endLine="48" endPosition="0" conceptFqName="jetbrains.mps.baseLanguage.structure.InstanceMethodDeclaration" propertyString="test_test4#()V" />
+    <nodeInfo nodeId="7953585273260040018" fileName="QuasiOrthogonalRepresentation_Test.java" startLine="48" startPosition="0" endLine="53" endPosition="0" conceptFqName="jetbrains.mps.baseLanguage.structure.InstanceMethodDeclaration" propertyString="test_test5#()V" />
+    <nodeInfo nodeId="4526870550031606011" fileName="QuasiOrthogonalRepresentation_Test.java" startLine="71" startPosition="0" endLine="76" endPosition="0" conceptFqName="jetbrains.mps.baseLanguage.structure.InstanceMethodDeclaration" propertyString="test_test8#()V" />
+    <nodeInfo nodeId="100801320082837158" fileName="QuasiOrthogonalRepresentation_Test.java" startLine="25" startPosition="66" endLine="31" endPosition="0" conceptFqName="jetbrains.mps.baseLanguage.structure.InstanceMethodDeclaration" propertyString="test_test1#()V" />
+    <nodeInfo nodeId="100801320082882962" fileName="QuasiOrthogonalRepresentation_Test.java" startLine="31" startPosition="0" endLine="37" endPosition="0" conceptFqName="jetbrains.mps.baseLanguage.structure.InstanceMethodDeclaration" propertyString="test_test2#()V" />
+    <nodeInfo nodeId="100801320082883671" fileName="QuasiOrthogonalRepresentation_Test.java" startLine="37" startPosition="0" endLine="43" endPosition="0" conceptFqName="jetbrains.mps.baseLanguage.structure.InstanceMethodDeclaration" propertyString="test_test3#()V" />
+    <nodeInfo nodeId="7953585273260121768" fileName="QuasiOrthogonalRepresentation_Test.java" startLine="53" startPosition="0" endLine="59" endPosition="0" conceptFqName="jetbrains.mps.baseLanguage.structure.InstanceMethodDeclaration" propertyString="test_K4#()V" />
+    <nodeInfo nodeId="2173844983035672485" fileName="QuasiOrthogonalRepresentation_Test.java" startLine="59" startPosition="0" endLine="65" endPosition="0" conceptFqName="jetbrains.mps.baseLanguage.structure.InstanceMethodDeclaration" propertyString="test_test6#()V" />
+    <nodeInfo nodeId="2173844983035729262" fileName="QuasiOrthogonalRepresentation_Test.java" startLine="65" startPosition="0" endLine="71" endPosition="0" conceptFqName="jetbrains.mps.baseLanguage.structure.InstanceMethodDeclaration" propertyString="test_test7#()V" />
+    <nodeInfo nodeId="100801320082832736" fileName="QuasiOrthogonalRepresentation_Test.java" startLine="76" startPosition="0" endLine="89" endPosition="0" conceptFqName="jetbrains.mps.baseLanguage.structure.InstanceMethodDeclaration" propertyString="testPlanarBiconnectedGraph#(Ljetbrains/mps/graphLayout/graph/Graph;)V" />
+    <scopeInfo nodeId="7953585273259939512" fileName="QuasiOrthogonalRepresentation_Test.java" startLine="44" startPosition="45" endLine="46" endPosition="38">
       <varInfo nodeId="7953585273259939518" varName="graph" />
     </scopeInfo>
-    <scopeInfo nodeId="7953585273260040021" fileName="QuasiOrthogonalRepresentation_Test.java" startLine="50" startPosition="45" endLine="52" endPosition="38">
+    <scopeInfo nodeId="7953585273260040021" fileName="QuasiOrthogonalRepresentation_Test.java" startLine="49" startPosition="45" endLine="51" endPosition="38">
       <varInfo nodeId="7953585273260040027" varName="graph" />
     </scopeInfo>
-    <scopeInfo nodeId="4526870550031606014" fileName="QuasiOrthogonalRepresentation_Test.java" startLine="73" startPosition="45" endLine="75" endPosition="38">
+    <scopeInfo nodeId="4526870550031606014" fileName="QuasiOrthogonalRepresentation_Test.java" startLine="72" startPosition="45" endLine="74" endPosition="38">
       <varInfo nodeId="4526870550031606018" varName="graph" />
     </scopeInfo>
-    <scopeInfo nodeId="100801320082837161" fileName="QuasiOrthogonalRepresentation_Test.java" startLine="27" startPosition="45" endLine="30" endPosition="38">
+    <scopeInfo nodeId="100801320082837161" fileName="QuasiOrthogonalRepresentation_Test.java" startLine="26" startPosition="45" endLine="29" endPosition="38">
       <varInfo nodeId="100801320082837163" varName="graphString" />
       <varInfo nodeId="100801320082837171" varName="graph" />
     </scopeInfo>
-    <scopeInfo nodeId="100801320082882965" fileName="QuasiOrthogonalRepresentation_Test.java" startLine="33" startPosition="45" endLine="36" endPosition="38">
+    <scopeInfo nodeId="100801320082882965" fileName="QuasiOrthogonalRepresentation_Test.java" startLine="32" startPosition="45" endLine="35" endPosition="38">
       <varInfo nodeId="100801320082882967" varName="graphString" />
       <varInfo nodeId="100801320082882971" varName="graph" />
     </scopeInfo>
-    <scopeInfo nodeId="100801320082883674" fileName="QuasiOrthogonalRepresentation_Test.java" startLine="39" startPosition="45" endLine="42" endPosition="38">
+    <scopeInfo nodeId="100801320082883674" fileName="QuasiOrthogonalRepresentation_Test.java" startLine="38" startPosition="45" endLine="41" endPosition="38">
       <varInfo nodeId="100801320082883676" varName="graphString" />
       <varInfo nodeId="100801320082883680" varName="graph" />
     </scopeInfo>
-    <scopeInfo nodeId="7953585273260121771" fileName="QuasiOrthogonalRepresentation_Test.java" startLine="55" startPosition="42" endLine="58" endPosition="38">
+    <scopeInfo nodeId="7953585273260121771" fileName="QuasiOrthogonalRepresentation_Test.java" startLine="54" startPosition="42" endLine="57" endPosition="38">
       <varInfo nodeId="7953585273260121773" varName="graphString" />
       <varInfo nodeId="7953585273260121777" varName="graph" />
     </scopeInfo>
-    <scopeInfo nodeId="2173844983035672488" fileName="QuasiOrthogonalRepresentation_Test.java" startLine="61" startPosition="45" endLine="64" endPosition="38">
+    <scopeInfo nodeId="2173844983035672488" fileName="QuasiOrthogonalRepresentation_Test.java" startLine="60" startPosition="45" endLine="63" endPosition="38">
       <varInfo nodeId="2173844983035672490" varName="graphString" />
       <varInfo nodeId="2173844983035672494" varName="graph" />
     </scopeInfo>
-    <scopeInfo nodeId="2173844983035729265" fileName="QuasiOrthogonalRepresentation_Test.java" startLine="67" startPosition="45" endLine="70" endPosition="38">
+    <scopeInfo nodeId="2173844983035729265" fileName="QuasiOrthogonalRepresentation_Test.java" startLine="66" startPosition="45" endLine="69" endPosition="38">
       <varInfo nodeId="2173844983035729267" varName="graphString" />
       <varInfo nodeId="2173844983035729271" varName="graph" />
     </scopeInfo>
-    <scopeInfo nodeId="5736847780448772974" fileName="QuasiOrthogonalRepresentation_Test.java" startLine="90" startPosition="41" endLine="93" endPosition="7" />
-    <scopeInfo nodeId="5736847780448772966" fileName="QuasiOrthogonalRepresentation_Test.java" startLine="89" startPosition="63" endLine="93" endPosition="7" />
-    <scopeInfo nodeId="7953585273259939509" fileName="QuasiOrthogonalRepresentation_Test.java" startLine="44" startPosition="0" endLine="49" endPosition="0" />
-    <scopeInfo nodeId="7953585273260040018" fileName="QuasiOrthogonalRepresentation_Test.java" startLine="49" startPosition="0" endLine="54" endPosition="0" />
-    <scopeInfo nodeId="4526870550031606011" fileName="QuasiOrthogonalRepresentation_Test.java" startLine="72" startPosition="0" endLine="77" endPosition="0" />
-    <scopeInfo nodeId="100801320082837158" fileName="QuasiOrthogonalRepresentation_Test.java" startLine="26" startPosition="66" endLine="32" endPosition="0" />
-    <scopeInfo nodeId="100801320082882962" fileName="QuasiOrthogonalRepresentation_Test.java" startLine="32" startPosition="0" endLine="38" endPosition="0" />
-    <scopeInfo nodeId="100801320082883671" fileName="QuasiOrthogonalRepresentation_Test.java" startLine="38" startPosition="0" endLine="44" endPosition="0" />
-    <scopeInfo nodeId="7953585273260121768" fileName="QuasiOrthogonalRepresentation_Test.java" startLine="54" startPosition="0" endLine="60" endPosition="0" />
-    <scopeInfo nodeId="2173844983035672485" fileName="QuasiOrthogonalRepresentation_Test.java" startLine="60" startPosition="0" endLine="66" endPosition="0" />
-    <scopeInfo nodeId="2173844983035729262" fileName="QuasiOrthogonalRepresentation_Test.java" startLine="66" startPosition="0" endLine="72" endPosition="0" />
-    <scopeInfo nodeId="5736847780448772961" fileName="QuasiOrthogonalRepresentation_Test.java" startLine="88" startPosition="38" endLine="94" endPosition="5" />
-    <scopeInfo nodeId="100801320082832739" fileName="QuasiOrthogonalRepresentation_Test.java" startLine="78" startPosition="55" endLine="96" endPosition="91">
+    <scopeInfo nodeId="7953585273259939509" fileName="QuasiOrthogonalRepresentation_Test.java" startLine="43" startPosition="0" endLine="48" endPosition="0" />
+    <scopeInfo nodeId="7953585273260040018" fileName="QuasiOrthogonalRepresentation_Test.java" startLine="48" startPosition="0" endLine="53" endPosition="0" />
+    <scopeInfo nodeId="4526870550031606011" fileName="QuasiOrthogonalRepresentation_Test.java" startLine="71" startPosition="0" endLine="76" endPosition="0" />
+    <scopeInfo nodeId="100801320082837158" fileName="QuasiOrthogonalRepresentation_Test.java" startLine="25" startPosition="66" endLine="31" endPosition="0" />
+    <scopeInfo nodeId="100801320082882962" fileName="QuasiOrthogonalRepresentation_Test.java" startLine="31" startPosition="0" endLine="37" endPosition="0" />
+    <scopeInfo nodeId="100801320082883671" fileName="QuasiOrthogonalRepresentation_Test.java" startLine="37" startPosition="0" endLine="43" endPosition="0" />
+    <scopeInfo nodeId="7953585273260121768" fileName="QuasiOrthogonalRepresentation_Test.java" startLine="53" startPosition="0" endLine="59" endPosition="0" />
+    <scopeInfo nodeId="2173844983035672485" fileName="QuasiOrthogonalRepresentation_Test.java" startLine="59" startPosition="0" endLine="65" endPosition="0" />
+    <scopeInfo nodeId="2173844983035729262" fileName="QuasiOrthogonalRepresentation_Test.java" startLine="65" startPosition="0" endLine="71" endPosition="0" />
+    <scopeInfo nodeId="100801320082832739" fileName="QuasiOrthogonalRepresentation_Test.java" startLine="77" startPosition="55" endLine="87" endPosition="91">
       <varInfo nodeId="2173844983035648973" varName="angles" />
       <varInfo nodeId="6370402596948407046" varName="oldEdges" />
       <varInfo nodeId="2173844983035648960" varName="bends" />
       <varInfo nodeId="100801320082837133" varName="embeddedGraph" />
     </scopeInfo>
-    <scopeInfo nodeId="100801320082832736" fileName="QuasiOrthogonalRepresentation_Test.java" startLine="77" startPosition="0" endLine="98" endPosition="0">
+    <scopeInfo nodeId="100801320082832736" fileName="QuasiOrthogonalRepresentation_Test.java" startLine="76" startPosition="0" endLine="89" endPosition="0">
       <varInfo nodeId="100801320082837128" varName="graph" />
     </scopeInfo>
   </root>
@@ -147,7 +137,6 @@
     <nodeInfo nodeId="3698135283642018484" fileName="RectOrthogonalFlowLayouter_Test.java" startLine="62" startPosition="75" endLine="63" endPosition="89" conceptFqName="jetbrains.mps.baseLanguage.structure.LocalVariableDeclarationStatement" />
     <nodeInfo nodeId="3698135283642018502" fileName="RectOrthogonalFlowLayouter_Test.java" startLine="64" startPosition="63" endLine="65" endPosition="70" conceptFqName="jetbrains.mps.baseLanguage.structure.ExpressionStatement" />
     <nodeInfo nodeId="102129025687875560" fileName="RectOrthogonalFlowLayouter_Test.java" startLine="66" startPosition="5" endLine="67" endPosition="61" conceptFqName="jetbrains.mps.baseLanguage.structure.LocalVariableDeclarationStatement" />
-    <nodeInfo nodeId="3698135283642018520" fileName="RectOrthogonalFlowLayouter_Test.java" startLine="67" startPosition="61" endLine="68" endPosition="31" conceptFqName="jetbrains.mps.baseLanguage.structure.ExpressionStatement" />
     <nodeInfo nodeId="3698135283642018479" fileName="RectOrthogonalFlowLayouter_Test.java" startLine="63" startPosition="89" endLine="66" endPosition="5" conceptFqName="jetbrains.mps.baseLanguage.structure.ForeachStatement" />
     <nodeInfo nodeId="102129025687875578" fileName="RectOrthogonalFlowLayouter_Test.java" startLine="18" startPosition="63" endLine="24" endPosition="0" conceptFqName="jetbrains.mps.baseLanguage.structure.InstanceMethodDeclaration" propertyString="test_test1#()V" />
     <nodeInfo nodeId="102129025687875596" fileName="RectOrthogonalFlowLayouter_Test.java" startLine="24" startPosition="0" endLine="30" endPosition="0" conceptFqName="jetbrains.mps.baseLanguage.structure.InstanceMethodDeclaration" propertyString="test_test2#()V" />
@@ -156,7 +145,7 @@
     <nodeInfo nodeId="102129025687875650" fileName="RectOrthogonalFlowLayouter_Test.java" startLine="42" startPosition="0" endLine="48" endPosition="0" conceptFqName="jetbrains.mps.baseLanguage.structure.InstanceMethodDeclaration" propertyString="test_test5#()V" />
     <nodeInfo nodeId="102129025687875668" fileName="RectOrthogonalFlowLayouter_Test.java" startLine="48" startPosition="0" endLine="54" endPosition="0" conceptFqName="jetbrains.mps.baseLanguage.structure.InstanceMethodDeclaration" propertyString="test_test6#()V" />
     <nodeInfo nodeId="102129025687875686" fileName="RectOrthogonalFlowLayouter_Test.java" startLine="54" startPosition="0" endLine="60" endPosition="0" conceptFqName="jetbrains.mps.baseLanguage.structure.InstanceMethodDeclaration" propertyString="test_test7#()V" />
-    <nodeInfo nodeId="102129025687875551" fileName="RectOrthogonalFlowLayouter_Test.java" startLine="60" startPosition="0" endLine="70" endPosition="0" conceptFqName="jetbrains.mps.baseLanguage.structure.InstanceMethodDeclaration" propertyString="test#(Ljetbrains/mps/graphLayout/graph/Graph;)V" />
+    <nodeInfo nodeId="102129025687875551" fileName="RectOrthogonalFlowLayouter_Test.java" startLine="60" startPosition="0" endLine="69" endPosition="0" conceptFqName="jetbrains.mps.baseLanguage.structure.InstanceMethodDeclaration" propertyString="test#(Ljetbrains/mps/graphLayout/graph/Graph;)V" />
     <scopeInfo nodeId="3698135283642018482" fileName="RectOrthogonalFlowLayouter_Test.java" startLine="64" startPosition="63" endLine="65" endPosition="70" />
     <scopeInfo nodeId="102129025687875581" fileName="RectOrthogonalFlowLayouter_Test.java" startLine="19" startPosition="45" endLine="22" endPosition="16">
       <varInfo nodeId="102129025687875583" varName="graphString" />
@@ -194,12 +183,12 @@
     <scopeInfo nodeId="102129025687875650" fileName="RectOrthogonalFlowLayouter_Test.java" startLine="42" startPosition="0" endLine="48" endPosition="0" />
     <scopeInfo nodeId="102129025687875668" fileName="RectOrthogonalFlowLayouter_Test.java" startLine="48" startPosition="0" endLine="54" endPosition="0" />
     <scopeInfo nodeId="102129025687875686" fileName="RectOrthogonalFlowLayouter_Test.java" startLine="54" startPosition="0" endLine="60" endPosition="0" />
-    <scopeInfo nodeId="102129025687875554" fileName="RectOrthogonalFlowLayouter_Test.java" startLine="61" startPosition="33" endLine="68" endPosition="31">
+    <scopeInfo nodeId="102129025687875554" fileName="RectOrthogonalFlowLayouter_Test.java" startLine="61" startPosition="33" endLine="67" endPosition="61">
       <varInfo nodeId="102129025687875561" varName="layout" />
       <varInfo nodeId="102129025687875556" varName="layouter" />
       <varInfo nodeId="3698135283642018485" varName="nodeSizes" />
     </scopeInfo>
-    <scopeInfo nodeId="102129025687875551" fileName="RectOrthogonalFlowLayouter_Test.java" startLine="60" startPosition="0" endLine="70" endPosition="0">
+    <scopeInfo nodeId="102129025687875551" fileName="RectOrthogonalFlowLayouter_Test.java" startLine="60" startPosition="0" endLine="69" endPosition="0">
       <varInfo nodeId="102129025687875570" varName="graph" />
     </scopeInfo>
   </root>
@@ -223,15 +212,13 @@
     <nodeInfo nodeId="3263240354041071396" fileName="OrthogonalFlowLayouterConstraints_Test.java" startLine="58" startPosition="63" endLine="59" endPosition="70" conceptFqName="jetbrains.mps.baseLanguage.structure.ExpressionStatement" />
     <nodeInfo nodeId="3263240354041071425" fileName="OrthogonalFlowLayouterConstraints_Test.java" startLine="60" startPosition="5" endLine="61" endPosition="82" conceptFqName="jetbrains.mps.baseLanguage.structure.ExpressionStatement" />
     <nodeInfo nodeId="3263240354041071405" fileName="OrthogonalFlowLayouterConstraints_Test.java" startLine="61" startPosition="82" endLine="62" endPosition="97" conceptFqName="jetbrains.mps.baseLanguage.structure.LocalVariableDeclarationStatement" />
-    <nodeInfo nodeId="3263240354041071414" fileName="OrthogonalFlowLayouterConstraints_Test.java" startLine="62" startPosition="97" endLine="63" endPosition="36" conceptFqName="jetbrains.mps.baseLanguage.structure.ExpressionStatement" />
-    <nodeInfo nodeId="3263240354041071419" fileName="OrthogonalFlowLayouterConstraints_Test.java" startLine="63" startPosition="36" endLine="64" endPosition="53" conceptFqName="jetbrains.mps.baseLanguage.structure.ExpressionStatement" />
-    <nodeInfo nodeId="1465095823296810327" fileName="OrthogonalFlowLayouterConstraints_Test.java" startLine="67" startPosition="33" endLine="68" endPosition="118" conceptFqName="jetbrains.mps.baseLanguage.structure.LocalVariableDeclarationStatement" />
-    <nodeInfo nodeId="1465095823296810342" fileName="OrthogonalFlowLayouterConstraints_Test.java" startLine="69" startPosition="63" endLine="70" endPosition="70" conceptFqName="jetbrains.mps.baseLanguage.structure.ExpressionStatement" />
-    <nodeInfo nodeId="1465095823296810351" fileName="OrthogonalFlowLayouterConstraints_Test.java" startLine="71" startPosition="5" endLine="72" endPosition="97" conceptFqName="jetbrains.mps.baseLanguage.structure.LocalVariableDeclarationStatement" />
-    <nodeInfo nodeId="1465095823296810360" fileName="OrthogonalFlowLayouterConstraints_Test.java" startLine="72" startPosition="97" endLine="73" endPosition="36" conceptFqName="jetbrains.mps.baseLanguage.structure.ExpressionStatement" />
-    <nodeInfo nodeId="1465095823296810365" fileName="OrthogonalFlowLayouterConstraints_Test.java" startLine="73" startPosition="36" endLine="74" endPosition="53" conceptFqName="jetbrains.mps.baseLanguage.structure.ExpressionStatement" />
+    <nodeInfo nodeId="3263240354041071419" fileName="OrthogonalFlowLayouterConstraints_Test.java" startLine="62" startPosition="97" endLine="63" endPosition="53" conceptFqName="jetbrains.mps.baseLanguage.structure.ExpressionStatement" />
+    <nodeInfo nodeId="1465095823296810327" fileName="OrthogonalFlowLayouterConstraints_Test.java" startLine="66" startPosition="33" endLine="67" endPosition="118" conceptFqName="jetbrains.mps.baseLanguage.structure.LocalVariableDeclarationStatement" />
+    <nodeInfo nodeId="1465095823296810342" fileName="OrthogonalFlowLayouterConstraints_Test.java" startLine="68" startPosition="63" endLine="69" endPosition="70" conceptFqName="jetbrains.mps.baseLanguage.structure.ExpressionStatement" />
+    <nodeInfo nodeId="1465095823296810351" fileName="OrthogonalFlowLayouterConstraints_Test.java" startLine="70" startPosition="5" endLine="71" endPosition="97" conceptFqName="jetbrains.mps.baseLanguage.structure.LocalVariableDeclarationStatement" />
+    <nodeInfo nodeId="1465095823296810365" fileName="OrthogonalFlowLayouterConstraints_Test.java" startLine="71" startPosition="97" endLine="72" endPosition="53" conceptFqName="jetbrains.mps.baseLanguage.structure.ExpressionStatement" />
     <nodeInfo nodeId="3263240354041071390" fileName="OrthogonalFlowLayouterConstraints_Test.java" startLine="57" startPosition="89" endLine="60" endPosition="5" conceptFqName="jetbrains.mps.baseLanguage.structure.ForeachStatement" />
-    <nodeInfo nodeId="1465095823296810336" fileName="OrthogonalFlowLayouterConstraints_Test.java" startLine="68" startPosition="118" endLine="71" endPosition="5" conceptFqName="jetbrains.mps.baseLanguage.structure.ForeachStatement" />
+    <nodeInfo nodeId="1465095823296810336" fileName="OrthogonalFlowLayouterConstraints_Test.java" startLine="67" startPosition="118" endLine="70" endPosition="5" conceptFqName="jetbrains.mps.baseLanguage.structure.ForeachStatement" />
     <nodeInfo nodeId="1465095823296810376" fileName="OrthogonalFlowLayouterConstraints_Test.java" startLine="19" startPosition="70" endLine="24" endPosition="0" conceptFqName="jetbrains.mps.baseLanguage.structure.InstanceMethodDeclaration" propertyString="test_test1#()V" />
     <nodeInfo nodeId="1465095823296810388" fileName="OrthogonalFlowLayouterConstraints_Test.java" startLine="24" startPosition="0" endLine="29" endPosition="0" conceptFqName="jetbrains.mps.baseLanguage.structure.InstanceMethodDeclaration" propertyString="test_test2#()V" />
     <nodeInfo nodeId="1465095823296810400" fileName="OrthogonalFlowLayouterConstraints_Test.java" startLine="29" startPosition="0" endLine="34" endPosition="0" conceptFqName="jetbrains.mps.baseLanguage.structure.InstanceMethodDeclaration" propertyString="test_test3#()V" />
@@ -239,10 +226,10 @@
     <nodeInfo nodeId="1465095823296810424" fileName="OrthogonalFlowLayouterConstraints_Test.java" startLine="39" startPosition="0" endLine="44" endPosition="0" conceptFqName="jetbrains.mps.baseLanguage.structure.InstanceMethodDeclaration" propertyString="test_test5#()V" />
     <nodeInfo nodeId="8045396427555554991" fileName="OrthogonalFlowLayouterConstraints_Test.java" startLine="44" startPosition="0" endLine="49" endPosition="0" conceptFqName="jetbrains.mps.baseLanguage.structure.InstanceMethodDeclaration" propertyString="test_test6#()V" />
     <nodeInfo nodeId="4319509563683730185" fileName="OrthogonalFlowLayouterConstraints_Test.java" startLine="49" startPosition="0" endLine="54" endPosition="0" conceptFqName="jetbrains.mps.baseLanguage.structure.InstanceMethodDeclaration" propertyString="test_test7#()V" />
-    <nodeInfo nodeId="1465095823296810323" fileName="OrthogonalFlowLayouterConstraints_Test.java" startLine="66" startPosition="0" endLine="76" endPosition="0" conceptFqName="jetbrains.mps.baseLanguage.structure.InstanceMethodDeclaration" propertyString="test#(Ljetbrains/mps/graphLayout/graph/Graph;)V" />
-    <nodeInfo nodeId="3263240354041071365" fileName="OrthogonalFlowLayouterConstraints_Test.java" startLine="54" startPosition="0" endLine="66" endPosition="0" conceptFqName="jetbrains.mps.baseLanguage.structure.InstanceMethodDeclaration" propertyString="test_testSplitEdges#()V" />
+    <nodeInfo nodeId="1465095823296810323" fileName="OrthogonalFlowLayouterConstraints_Test.java" startLine="65" startPosition="0" endLine="74" endPosition="0" conceptFqName="jetbrains.mps.baseLanguage.structure.InstanceMethodDeclaration" propertyString="test#(Ljetbrains/mps/graphLayout/graph/Graph;)V" />
+    <nodeInfo nodeId="3263240354041071365" fileName="OrthogonalFlowLayouterConstraints_Test.java" startLine="54" startPosition="0" endLine="65" endPosition="0" conceptFqName="jetbrains.mps.baseLanguage.structure.InstanceMethodDeclaration" propertyString="test_testSplitEdges#()V" />
     <scopeInfo nodeId="3263240354041071395" fileName="OrthogonalFlowLayouterConstraints_Test.java" startLine="58" startPosition="63" endLine="59" endPosition="70" />
-    <scopeInfo nodeId="1465095823296810341" fileName="OrthogonalFlowLayouterConstraints_Test.java" startLine="69" startPosition="63" endLine="70" endPosition="70" />
+    <scopeInfo nodeId="1465095823296810341" fileName="OrthogonalFlowLayouterConstraints_Test.java" startLine="68" startPosition="63" endLine="69" endPosition="70" />
     <scopeInfo nodeId="1465095823296810379" fileName="OrthogonalFlowLayouterConstraints_Test.java" startLine="20" startPosition="45" endLine="22" endPosition="16">
       <varInfo nodeId="1465095823296810381" varName="graph" />
     </scopeInfo>
@@ -265,7 +252,7 @@
       <varInfo nodeId="4319509563683730190" varName="graph" />
     </scopeInfo>
     <scopeInfo nodeId="3263240354041071390" fileName="OrthogonalFlowLayouterConstraints_Test.java" startLine="57" startPosition="89" endLine="60" endPosition="5" />
-    <scopeInfo nodeId="1465095823296810336" fileName="OrthogonalFlowLayouterConstraints_Test.java" startLine="68" startPosition="118" endLine="71" endPosition="5" />
+    <scopeInfo nodeId="1465095823296810336" fileName="OrthogonalFlowLayouterConstraints_Test.java" startLine="67" startPosition="118" endLine="70" endPosition="5" />
     <scopeInfo nodeId="1465095823296810376" fileName="OrthogonalFlowLayouterConstraints_Test.java" startLine="19" startPosition="70" endLine="24" endPosition="0" />
     <scopeInfo nodeId="1465095823296810388" fileName="OrthogonalFlowLayouterConstraints_Test.java" startLine="24" startPosition="0" endLine="29" endPosition="0" />
     <scopeInfo nodeId="1465095823296810400" fileName="OrthogonalFlowLayouterConstraints_Test.java" startLine="29" startPosition="0" endLine="34" endPosition="0" />
@@ -273,19 +260,19 @@
     <scopeInfo nodeId="1465095823296810424" fileName="OrthogonalFlowLayouterConstraints_Test.java" startLine="39" startPosition="0" endLine="44" endPosition="0" />
     <scopeInfo nodeId="8045396427555554991" fileName="OrthogonalFlowLayouterConstraints_Test.java" startLine="44" startPosition="0" endLine="49" endPosition="0" />
     <scopeInfo nodeId="4319509563683730185" fileName="OrthogonalFlowLayouterConstraints_Test.java" startLine="49" startPosition="0" endLine="54" endPosition="0" />
-    <scopeInfo nodeId="1465095823296810326" fileName="OrthogonalFlowLayouterConstraints_Test.java" startLine="67" startPosition="33" endLine="74" endPosition="53">
+    <scopeInfo nodeId="1465095823296810326" fileName="OrthogonalFlowLayouterConstraints_Test.java" startLine="66" startPosition="33" endLine="72" endPosition="53">
       <varInfo nodeId="1465095823296810352" varName="graphLayout" />
       <varInfo nodeId="1465095823296810328" varName="nodeSizes" />
     </scopeInfo>
-    <scopeInfo nodeId="3263240354041071368" fileName="OrthogonalFlowLayouterConstraints_Test.java" startLine="55" startPosition="54" endLine="64" endPosition="53">
+    <scopeInfo nodeId="3263240354041071368" fileName="OrthogonalFlowLayouterConstraints_Test.java" startLine="55" startPosition="54" endLine="63" endPosition="53">
       <varInfo nodeId="3263240354041071371" varName="graph" />
       <varInfo nodeId="3263240354041071406" varName="graphLayout" />
       <varInfo nodeId="3263240354041071382" varName="nodeSizes" />
     </scopeInfo>
-    <scopeInfo nodeId="1465095823296810323" fileName="OrthogonalFlowLayouterConstraints_Test.java" startLine="66" startPosition="0" endLine="76" endPosition="0">
+    <scopeInfo nodeId="1465095823296810323" fileName="OrthogonalFlowLayouterConstraints_Test.java" startLine="65" startPosition="0" endLine="74" endPosition="0">
       <varInfo nodeId="1465095823296810368" varName="graph" />
     </scopeInfo>
-    <scopeInfo nodeId="3263240354041071365" fileName="OrthogonalFlowLayouterConstraints_Test.java" startLine="54" startPosition="0" endLine="66" endPosition="0" />
+    <scopeInfo nodeId="3263240354041071365" fileName="OrthogonalFlowLayouterConstraints_Test.java" startLine="54" startPosition="0" endLine="65" endPosition="0" />
   </root>
   <root nodeId="1705599667576642198">
     <nodeInfo nodeId="1705599667576646649" fileName="HyperGraphLayouter_Test.java" startLine="17" startPosition="45" endLine="18" endPosition="60" conceptFqName="jetbrains.mps.baseLanguage.structure.LocalVariableDeclarationStatement" />
@@ -468,24 +455,22 @@
     <nodeInfo nodeId="2344624500434354796" fileName="OrthogonalFlowLabelProcessing_Test.java" startLine="50" startPosition="5" endLine="51" endPosition="89" conceptFqName="jetbrains.mps.baseLanguage.structure.LocalVariableDeclarationStatement" />
     <nodeInfo nodeId="2344624500434354807" fileName="OrthogonalFlowLabelProcessing_Test.java" startLine="51" startPosition="89" endLine="52" endPosition="111" conceptFqName="jetbrains.mps.baseLanguage.structure.ExpressionStatement" />
     <nodeInfo nodeId="2344624500434354773" fileName="OrthogonalFlowLabelProcessing_Test.java" startLine="52" startPosition="111" endLine="53" endPosition="104" conceptFqName="jetbrains.mps.baseLanguage.structure.LocalVariableDeclarationStatement" />
-    <nodeInfo nodeId="2344624500434354786" fileName="OrthogonalFlowLabelProcessing_Test.java" startLine="53" startPosition="104" endLine="54" endPosition="36" conceptFqName="jetbrains.mps.baseLanguage.structure.ExpressionStatement" />
-    <nodeInfo nodeId="2344624500434354791" fileName="OrthogonalFlowLabelProcessing_Test.java" startLine="54" startPosition="36" endLine="55" endPosition="53" conceptFqName="jetbrains.mps.baseLanguage.structure.ExpressionStatement" />
-    <nodeInfo nodeId="2344624500434352555" fileName="OrthogonalFlowLabelProcessing_Test.java" startLine="58" startPosition="33" endLine="59" endPosition="89" conceptFqName="jetbrains.mps.baseLanguage.structure.LocalVariableDeclarationStatement" />
-    <nodeInfo nodeId="2344624500434352570" fileName="OrthogonalFlowLabelProcessing_Test.java" startLine="60" startPosition="63" endLine="61" endPosition="70" conceptFqName="jetbrains.mps.baseLanguage.structure.ExpressionStatement" />
-    <nodeInfo nodeId="2344624500434352579" fileName="OrthogonalFlowLabelProcessing_Test.java" startLine="62" startPosition="5" endLine="63" endPosition="146" conceptFqName="jetbrains.mps.baseLanguage.structure.LocalVariableDeclarationStatement" />
-    <nodeInfo nodeId="2344624500434352588" fileName="OrthogonalFlowLabelProcessing_Test.java" startLine="63" startPosition="146" endLine="64" endPosition="36" conceptFqName="jetbrains.mps.baseLanguage.structure.ExpressionStatement" />
-    <nodeInfo nodeId="2344624500434352593" fileName="OrthogonalFlowLabelProcessing_Test.java" startLine="64" startPosition="36" endLine="65" endPosition="53" conceptFqName="jetbrains.mps.baseLanguage.structure.ExpressionStatement" />
+    <nodeInfo nodeId="2344624500434354791" fileName="OrthogonalFlowLabelProcessing_Test.java" startLine="53" startPosition="104" endLine="54" endPosition="53" conceptFqName="jetbrains.mps.baseLanguage.structure.ExpressionStatement" />
+    <nodeInfo nodeId="2344624500434352555" fileName="OrthogonalFlowLabelProcessing_Test.java" startLine="57" startPosition="33" endLine="58" endPosition="89" conceptFqName="jetbrains.mps.baseLanguage.structure.LocalVariableDeclarationStatement" />
+    <nodeInfo nodeId="2344624500434352570" fileName="OrthogonalFlowLabelProcessing_Test.java" startLine="59" startPosition="63" endLine="60" endPosition="70" conceptFqName="jetbrains.mps.baseLanguage.structure.ExpressionStatement" />
+    <nodeInfo nodeId="2344624500434352579" fileName="OrthogonalFlowLabelProcessing_Test.java" startLine="61" startPosition="5" endLine="62" endPosition="146" conceptFqName="jetbrains.mps.baseLanguage.structure.LocalVariableDeclarationStatement" />
+    <nodeInfo nodeId="2344624500434352593" fileName="OrthogonalFlowLabelProcessing_Test.java" startLine="62" startPosition="146" endLine="63" endPosition="53" conceptFqName="jetbrains.mps.baseLanguage.structure.ExpressionStatement" />
     <nodeInfo nodeId="2344624500434354758" fileName="OrthogonalFlowLabelProcessing_Test.java" startLine="47" startPosition="89" endLine="50" endPosition="5" conceptFqName="jetbrains.mps.baseLanguage.structure.ForeachStatement" />
-    <nodeInfo nodeId="2344624500434352564" fileName="OrthogonalFlowLabelProcessing_Test.java" startLine="59" startPosition="89" endLine="62" endPosition="5" conceptFqName="jetbrains.mps.baseLanguage.structure.ForeachStatement" />
+    <nodeInfo nodeId="2344624500434352564" fileName="OrthogonalFlowLabelProcessing_Test.java" startLine="58" startPosition="89" endLine="61" endPosition="5" conceptFqName="jetbrains.mps.baseLanguage.structure.ForeachStatement" />
     <nodeInfo nodeId="2344624500434352604" fileName="OrthogonalFlowLabelProcessing_Test.java" startLine="19" startPosition="66" endLine="24" endPosition="0" conceptFqName="jetbrains.mps.baseLanguage.structure.InstanceMethodDeclaration" propertyString="test_test1#()V" />
     <nodeInfo nodeId="2344624500434352616" fileName="OrthogonalFlowLabelProcessing_Test.java" startLine="24" startPosition="0" endLine="29" endPosition="0" conceptFqName="jetbrains.mps.baseLanguage.structure.InstanceMethodDeclaration" propertyString="test_test2#()V" />
     <nodeInfo nodeId="2344624500434352628" fileName="OrthogonalFlowLabelProcessing_Test.java" startLine="29" startPosition="0" endLine="34" endPosition="0" conceptFqName="jetbrains.mps.baseLanguage.structure.InstanceMethodDeclaration" propertyString="test_test3#()V" />
     <nodeInfo nodeId="2344624500434352640" fileName="OrthogonalFlowLabelProcessing_Test.java" startLine="34" startPosition="0" endLine="39" endPosition="0" conceptFqName="jetbrains.mps.baseLanguage.structure.InstanceMethodDeclaration" propertyString="test_test4#()V" />
     <nodeInfo nodeId="2344624500434352652" fileName="OrthogonalFlowLabelProcessing_Test.java" startLine="39" startPosition="0" endLine="44" endPosition="0" conceptFqName="jetbrains.mps.baseLanguage.structure.InstanceMethodDeclaration" propertyString="test_test5#()V" />
-    <nodeInfo nodeId="2344624500434352551" fileName="OrthogonalFlowLabelProcessing_Test.java" startLine="57" startPosition="0" endLine="67" endPosition="0" conceptFqName="jetbrains.mps.baseLanguage.structure.InstanceMethodDeclaration" propertyString="test#(Ljetbrains/mps/graphLayout/graph/Graph;)V" />
-    <nodeInfo nodeId="2344624500434352664" fileName="OrthogonalFlowLabelProcessing_Test.java" startLine="44" startPosition="0" endLine="57" endPosition="0" conceptFqName="jetbrains.mps.baseLanguage.structure.InstanceMethodDeclaration" propertyString="test_testLabel#()V" />
+    <nodeInfo nodeId="2344624500434352551" fileName="OrthogonalFlowLabelProcessing_Test.java" startLine="56" startPosition="0" endLine="65" endPosition="0" conceptFqName="jetbrains.mps.baseLanguage.structure.InstanceMethodDeclaration" propertyString="test#(Ljetbrains/mps/graphLayout/graph/Graph;)V" />
+    <nodeInfo nodeId="2344624500434352664" fileName="OrthogonalFlowLabelProcessing_Test.java" startLine="44" startPosition="0" endLine="56" endPosition="0" conceptFqName="jetbrains.mps.baseLanguage.structure.InstanceMethodDeclaration" propertyString="test_testLabel#()V" />
     <scopeInfo nodeId="2344624500434354763" fileName="OrthogonalFlowLabelProcessing_Test.java" startLine="48" startPosition="63" endLine="49" endPosition="70" />
-    <scopeInfo nodeId="2344624500434352569" fileName="OrthogonalFlowLabelProcessing_Test.java" startLine="60" startPosition="63" endLine="61" endPosition="70" />
+    <scopeInfo nodeId="2344624500434352569" fileName="OrthogonalFlowLabelProcessing_Test.java" startLine="59" startPosition="63" endLine="60" endPosition="70" />
     <scopeInfo nodeId="2344624500434352607" fileName="OrthogonalFlowLabelProcessing_Test.java" startLine="20" startPosition="45" endLine="22" endPosition="16">
       <varInfo nodeId="2344624500434352609" varName="graph" />
     </scopeInfo>
@@ -502,26 +487,26 @@
       <varInfo nodeId="2344624500434352657" varName="graph" />
     </scopeInfo>
     <scopeInfo nodeId="2344624500434354758" fileName="OrthogonalFlowLabelProcessing_Test.java" startLine="47" startPosition="89" endLine="50" endPosition="5" />
-    <scopeInfo nodeId="2344624500434352564" fileName="OrthogonalFlowLabelProcessing_Test.java" startLine="59" startPosition="89" endLine="62" endPosition="5" />
+    <scopeInfo nodeId="2344624500434352564" fileName="OrthogonalFlowLabelProcessing_Test.java" startLine="58" startPosition="89" endLine="61" endPosition="5" />
     <scopeInfo nodeId="2344624500434352604" fileName="OrthogonalFlowLabelProcessing_Test.java" startLine="19" startPosition="66" endLine="24" endPosition="0" />
     <scopeInfo nodeId="2344624500434352616" fileName="OrthogonalFlowLabelProcessing_Test.java" startLine="24" startPosition="0" endLine="29" endPosition="0" />
     <scopeInfo nodeId="2344624500434352628" fileName="OrthogonalFlowLabelProcessing_Test.java" startLine="29" startPosition="0" endLine="34" endPosition="0" />
     <scopeInfo nodeId="2344624500434352640" fileName="OrthogonalFlowLabelProcessing_Test.java" startLine="34" startPosition="0" endLine="39" endPosition="0" />
     <scopeInfo nodeId="2344624500434352652" fileName="OrthogonalFlowLabelProcessing_Test.java" startLine="39" startPosition="0" endLine="44" endPosition="0" />
-    <scopeInfo nodeId="2344624500434352554" fileName="OrthogonalFlowLabelProcessing_Test.java" startLine="58" startPosition="33" endLine="65" endPosition="53">
+    <scopeInfo nodeId="2344624500434352554" fileName="OrthogonalFlowLabelProcessing_Test.java" startLine="57" startPosition="33" endLine="63" endPosition="53">
       <varInfo nodeId="2344624500434352580" varName="graphLayout" />
       <varInfo nodeId="2344624500434352556" varName="nodeSizes" />
     </scopeInfo>
-    <scopeInfo nodeId="2344624500434352667" fileName="OrthogonalFlowLabelProcessing_Test.java" startLine="45" startPosition="49" endLine="55" endPosition="53">
+    <scopeInfo nodeId="2344624500434352667" fileName="OrthogonalFlowLabelProcessing_Test.java" startLine="45" startPosition="49" endLine="54" endPosition="53">
       <varInfo nodeId="2344624500434352669" varName="graph" />
       <varInfo nodeId="2344624500434354774" varName="graphLayout" />
       <varInfo nodeId="2344624500434354797" varName="edgeSizes" />
       <varInfo nodeId="2344624500434354750" varName="nodeSizes" />
     </scopeInfo>
-    <scopeInfo nodeId="2344624500434352551" fileName="OrthogonalFlowLabelProcessing_Test.java" startLine="57" startPosition="0" endLine="67" endPosition="0">
+    <scopeInfo nodeId="2344624500434352551" fileName="OrthogonalFlowLabelProcessing_Test.java" startLine="56" startPosition="0" endLine="65" endPosition="0">
       <varInfo nodeId="2344624500434352596" varName="graph" />
     </scopeInfo>
-    <scopeInfo nodeId="2344624500434352664" fileName="OrthogonalFlowLabelProcessing_Test.java" startLine="44" startPosition="0" endLine="57" endPosition="0" />
+    <scopeInfo nodeId="2344624500434352664" fileName="OrthogonalFlowLabelProcessing_Test.java" startLine="44" startPosition="0" endLine="56" endPosition="0" />
   </root>
   <root nodeId="3263240354041096163">
     <nodeInfo nodeId="3263240354041096172" fileName="OrthogonalFlowLayouterConstraintsStressTest.java" startLine="22" startPosition="59" endLine="23" endPosition="60" conceptFqName="jetbrains.mps.baseLanguage.structure.LocalVariableDeclarationStatement" />
@@ -792,63 +777,39 @@
     <unitInfo nodeId="5728232039832716812" fileName="ConstraintsGraphStressTest.java" startLine="23" startPosition="0" endLine="58" endPosition="0" unitName="orthogonalLayoutTest.ConstraintsGraphStressTest" />
   </root>
   <root nodeId="6984255766319282469">
-    <nodeInfo nodeId="3619822174190268963" fileName="VisibilityRepresentation_Test.java" startLine="24" startPosition="45" endLine="25" endPosition="263" conceptFqName="jetbrains.mps.baseLanguage.structure.LocalVariableDeclarationStatement" />
-    <nodeInfo nodeId="508819492464319394" fileName="VisibilityRepresentation_Test.java" startLine="25" startPosition="263" endLine="26" endPosition="92" conceptFqName="jetbrains.mps.baseLanguage.structure.LocalVariableDeclarationStatement" />
-    <nodeInfo nodeId="508819492464319401" fileName="VisibilityRepresentation_Test.java" startLine="26" startPosition="92" endLine="27" endPosition="43" conceptFqName="jetbrains.mps.baseLanguage.structure.LocalVariableDeclarationStatement" />
-    <nodeInfo nodeId="1418350014056254765" fileName="VisibilityRepresentation_Test.java" startLine="27" startPosition="43" endLine="28" endPosition="73" conceptFqName="jetbrains.mps.baseLanguage.structure.ExpressionStatement" />
-    <nodeInfo nodeId="508819492464319407" fileName="VisibilityRepresentation_Test.java" startLine="28" startPosition="73" endLine="29" endPosition="103" conceptFqName="jetbrains.mps.baseLanguage.structure.LocalVariableDeclarationStatement" />
-    <nodeInfo nodeId="508819492464319421" fileName="VisibilityRepresentation_Test.java" startLine="29" startPosition="103" endLine="30" endPosition="108" conceptFqName="jetbrains.mps.baseLanguage.structure.LocalVariableDeclarationStatement" />
-    <nodeInfo nodeId="508819492464319434" fileName="VisibilityRepresentation_Test.java" startLine="31" startPosition="63" endLine="32" endPosition="82" conceptFqName="jetbrains.mps.baseLanguage.structure.ExpressionStatement" />
-    <nodeInfo nodeId="508819492464319451" fileName="VisibilityRepresentation_Test.java" startLine="34" startPosition="63" endLine="35" endPosition="82" conceptFqName="jetbrains.mps.baseLanguage.structure.ExpressionStatement" />
-    <nodeInfo nodeId="508819492464319474" fileName="VisibilityRepresentation_Test.java" startLine="39" startPosition="49" endLine="40" endPosition="137" conceptFqName="jetbrains.mps.baseLanguage.structure.LocalVariableDeclarationStatement" />
-    <nodeInfo nodeId="508819492464319487" fileName="VisibilityRepresentation_Test.java" startLine="40" startPosition="137" endLine="41" endPosition="62" conceptFqName="jetbrains.mps.baseLanguage.structure.LocalVariableDeclarationStatement" />
-    <nodeInfo nodeId="508819492464319520" fileName="VisibilityRepresentation_Test.java" startLine="41" startPosition="62" endLine="42" endPosition="119" conceptFqName="jetbrains.mps.baseLanguage.structure.LocalVariableDeclarationStatement" />
-    <nodeInfo nodeId="508819492464323345" fileName="VisibilityRepresentation_Test.java" startLine="42" startPosition="119" endLine="43" endPosition="102" conceptFqName="jetbrains.mps.baseLanguage.structure.LocalVariableDeclarationStatement" />
-    <nodeInfo nodeId="508819492464323370" fileName="VisibilityRepresentation_Test.java" startLine="43" startPosition="102" endLine="44" endPosition="102" conceptFqName="jetbrains.mps.baseLanguage.structure.LocalVariableDeclarationStatement" />
-    <nodeInfo nodeId="1418350014056254756" fileName="VisibilityRepresentation_Test.java" startLine="44" startPosition="102" endLine="45" endPosition="43" conceptFqName="jetbrains.mps.baseLanguage.structure.ExpressionStatement" />
-    <nodeInfo nodeId="508819492464319498" fileName="VisibilityRepresentation_Test.java" startLine="45" startPosition="43" endLine="46" endPosition="73" conceptFqName="jetbrains.mps.baseLanguage.structure.LocalVariableDeclarationStatement" />
-    <nodeInfo nodeId="508819492464323390" fileName="VisibilityRepresentation_Test.java" startLine="46" startPosition="73" endLine="47" endPosition="108" conceptFqName="jetbrains.mps.baseLanguage.structure.LocalVariableDeclarationStatement" />
-    <nodeInfo nodeId="508819492464323484" fileName="VisibilityRepresentation_Test.java" startLine="48" startPosition="63" endLine="49" endPosition="82" conceptFqName="jetbrains.mps.baseLanguage.structure.ExpressionStatement" />
-    <nodeInfo nodeId="508819492464323501" fileName="VisibilityRepresentation_Test.java" startLine="51" startPosition="63" endLine="52" endPosition="82" conceptFqName="jetbrains.mps.baseLanguage.structure.ExpressionStatement" />
-    <nodeInfo nodeId="3619822174190284697" fileName="VisibilityRepresentation_Test.java" startLine="56" startPosition="42" endLine="57" endPosition="82" conceptFqName="jetbrains.mps.baseLanguage.structure.LocalVariableDeclarationStatement" />
-    <nodeInfo nodeId="3619822174190284812" fileName="VisibilityRepresentation_Test.java" startLine="57" startPosition="82" endLine="58" endPosition="62" conceptFqName="jetbrains.mps.baseLanguage.structure.LocalVariableDeclarationStatement" />
-    <nodeInfo nodeId="3619822174190284825" fileName="VisibilityRepresentation_Test.java" startLine="58" startPosition="62" endLine="59" endPosition="72" conceptFqName="jetbrains.mps.baseLanguage.structure.LocalVariableDeclarationStatement" />
-    <nodeInfo nodeId="3619822174190284992" fileName="VisibilityRepresentation_Test.java" startLine="59" startPosition="72" endLine="60" endPosition="102" conceptFqName="jetbrains.mps.baseLanguage.structure.LocalVariableDeclarationStatement" />
-    <nodeInfo nodeId="3619822174190285004" fileName="VisibilityRepresentation_Test.java" startLine="60" startPosition="102" endLine="61" endPosition="102" conceptFqName="jetbrains.mps.baseLanguage.structure.LocalVariableDeclarationStatement" />
-    <nodeInfo nodeId="1418350014056255587" fileName="VisibilityRepresentation_Test.java" startLine="61" startPosition="102" endLine="62" endPosition="43" conceptFqName="jetbrains.mps.baseLanguage.structure.ExpressionStatement" />
-    <nodeInfo nodeId="3619822174190284754" fileName="VisibilityRepresentation_Test.java" startLine="62" startPosition="43" endLine="63" endPosition="73" conceptFqName="jetbrains.mps.baseLanguage.structure.LocalVariableDeclarationStatement" />
-    <nodeInfo nodeId="3619822174190284768" fileName="VisibilityRepresentation_Test.java" startLine="63" startPosition="73" endLine="64" endPosition="108" conceptFqName="jetbrains.mps.baseLanguage.structure.LocalVariableDeclarationStatement" />
-    <nodeInfo nodeId="3619822174190284781" fileName="VisibilityRepresentation_Test.java" startLine="65" startPosition="63" endLine="66" endPosition="82" conceptFqName="jetbrains.mps.baseLanguage.structure.ExpressionStatement" />
-    <nodeInfo nodeId="3619822174190284798" fileName="VisibilityRepresentation_Test.java" startLine="68" startPosition="63" endLine="69" endPosition="82" conceptFqName="jetbrains.mps.baseLanguage.structure.ExpressionStatement" />
-    <nodeInfo nodeId="508819492464319428" fileName="VisibilityRepresentation_Test.java" startLine="30" startPosition="108" endLine="33" endPosition="5" conceptFqName="jetbrains.mps.baseLanguage.structure.ForeachStatement" />
-    <nodeInfo nodeId="508819492464319445" fileName="VisibilityRepresentation_Test.java" startLine="33" startPosition="5" endLine="36" endPosition="5" conceptFqName="jetbrains.mps.baseLanguage.structure.ForeachStatement" />
-    <nodeInfo nodeId="508819492464323478" fileName="VisibilityRepresentation_Test.java" startLine="47" startPosition="108" endLine="50" endPosition="5" conceptFqName="jetbrains.mps.baseLanguage.structure.ForeachStatement" />
-    <nodeInfo nodeId="508819492464323495" fileName="VisibilityRepresentation_Test.java" startLine="50" startPosition="5" endLine="53" endPosition="5" conceptFqName="jetbrains.mps.baseLanguage.structure.ForeachStatement" />
-    <nodeInfo nodeId="3619822174190284775" fileName="VisibilityRepresentation_Test.java" startLine="64" startPosition="108" endLine="67" endPosition="5" conceptFqName="jetbrains.mps.baseLanguage.structure.ForeachStatement" />
-    <nodeInfo nodeId="3619822174190284792" fileName="VisibilityRepresentation_Test.java" startLine="67" startPosition="5" endLine="70" endPosition="5" conceptFqName="jetbrains.mps.baseLanguage.structure.ForeachStatement" />
-    <nodeInfo nodeId="6984255766319282476" fileName="VisibilityRepresentation_Test.java" startLine="23" startPosition="61" endLine="38" endPosition="0" conceptFqName="jetbrains.mps.baseLanguage.structure.InstanceMethodDeclaration" propertyString="test_test1#()V" />
-    <nodeInfo nodeId="508819492464319469" fileName="VisibilityRepresentation_Test.java" startLine="38" startPosition="0" endLine="55" endPosition="0" conceptFqName="jetbrains.mps.baseLanguage.structure.InstanceMethodDeclaration" propertyString="test_BookGraph#()V" />
-    <nodeInfo nodeId="3619822174190284693" fileName="VisibilityRepresentation_Test.java" startLine="55" startPosition="0" endLine="72" endPosition="0" conceptFqName="jetbrains.mps.baseLanguage.structure.InstanceMethodDeclaration" propertyString="test_K5#()V" />
-    <scopeInfo nodeId="508819492464319433" fileName="VisibilityRepresentation_Test.java" startLine="31" startPosition="63" endLine="32" endPosition="82" />
-    <scopeInfo nodeId="508819492464319450" fileName="VisibilityRepresentation_Test.java" startLine="34" startPosition="63" endLine="35" endPosition="82" />
-    <scopeInfo nodeId="508819492464323483" fileName="VisibilityRepresentation_Test.java" startLine="48" startPosition="63" endLine="49" endPosition="82" />
-    <scopeInfo nodeId="508819492464323500" fileName="VisibilityRepresentation_Test.java" startLine="51" startPosition="63" endLine="52" endPosition="82" />
-    <scopeInfo nodeId="3619822174190284780" fileName="VisibilityRepresentation_Test.java" startLine="65" startPosition="63" endLine="66" endPosition="82" />
-    <scopeInfo nodeId="3619822174190284797" fileName="VisibilityRepresentation_Test.java" startLine="68" startPosition="63" endLine="69" endPosition="82" />
-    <scopeInfo nodeId="508819492464319428" fileName="VisibilityRepresentation_Test.java" startLine="30" startPosition="108" endLine="33" endPosition="5" />
-    <scopeInfo nodeId="508819492464319445" fileName="VisibilityRepresentation_Test.java" startLine="33" startPosition="5" endLine="36" endPosition="5" />
-    <scopeInfo nodeId="508819492464323478" fileName="VisibilityRepresentation_Test.java" startLine="47" startPosition="108" endLine="50" endPosition="5" />
-    <scopeInfo nodeId="508819492464323495" fileName="VisibilityRepresentation_Test.java" startLine="50" startPosition="5" endLine="53" endPosition="5" />
-    <scopeInfo nodeId="3619822174190284775" fileName="VisibilityRepresentation_Test.java" startLine="64" startPosition="108" endLine="67" endPosition="5" />
-    <scopeInfo nodeId="3619822174190284792" fileName="VisibilityRepresentation_Test.java" startLine="67" startPosition="5" endLine="70" endPosition="5" />
-    <scopeInfo nodeId="6984255766319282479" fileName="VisibilityRepresentation_Test.java" startLine="24" startPosition="45" endLine="36" endPosition="5">
+    <nodeInfo nodeId="3619822174190268963" fileName="VisibilityRepresentation_Test.java" startLine="22" startPosition="45" endLine="23" endPosition="263" conceptFqName="jetbrains.mps.baseLanguage.structure.LocalVariableDeclarationStatement" />
+    <nodeInfo nodeId="508819492464319394" fileName="VisibilityRepresentation_Test.java" startLine="23" startPosition="263" endLine="24" endPosition="92" conceptFqName="jetbrains.mps.baseLanguage.structure.LocalVariableDeclarationStatement" />
+    <nodeInfo nodeId="508819492464319401" fileName="VisibilityRepresentation_Test.java" startLine="24" startPosition="92" endLine="25" endPosition="43" conceptFqName="jetbrains.mps.baseLanguage.structure.LocalVariableDeclarationStatement" />
+    <nodeInfo nodeId="1418350014056254765" fileName="VisibilityRepresentation_Test.java" startLine="25" startPosition="43" endLine="26" endPosition="73" conceptFqName="jetbrains.mps.baseLanguage.structure.ExpressionStatement" />
+    <nodeInfo nodeId="508819492464319407" fileName="VisibilityRepresentation_Test.java" startLine="26" startPosition="73" endLine="27" endPosition="103" conceptFqName="jetbrains.mps.baseLanguage.structure.LocalVariableDeclarationStatement" />
+    <nodeInfo nodeId="508819492464319421" fileName="VisibilityRepresentation_Test.java" startLine="27" startPosition="103" endLine="28" endPosition="108" conceptFqName="jetbrains.mps.baseLanguage.structure.LocalVariableDeclarationStatement" />
+    <nodeInfo nodeId="508819492464319474" fileName="VisibilityRepresentation_Test.java" startLine="31" startPosition="49" endLine="32" endPosition="137" conceptFqName="jetbrains.mps.baseLanguage.structure.LocalVariableDeclarationStatement" />
+    <nodeInfo nodeId="508819492464319487" fileName="VisibilityRepresentation_Test.java" startLine="32" startPosition="137" endLine="33" endPosition="62" conceptFqName="jetbrains.mps.baseLanguage.structure.LocalVariableDeclarationStatement" />
+    <nodeInfo nodeId="508819492464319520" fileName="VisibilityRepresentation_Test.java" startLine="33" startPosition="62" endLine="34" endPosition="119" conceptFqName="jetbrains.mps.baseLanguage.structure.LocalVariableDeclarationStatement" />
+    <nodeInfo nodeId="508819492464323345" fileName="VisibilityRepresentation_Test.java" startLine="34" startPosition="119" endLine="35" endPosition="102" conceptFqName="jetbrains.mps.baseLanguage.structure.LocalVariableDeclarationStatement" />
+    <nodeInfo nodeId="508819492464323370" fileName="VisibilityRepresentation_Test.java" startLine="35" startPosition="102" endLine="36" endPosition="102" conceptFqName="jetbrains.mps.baseLanguage.structure.LocalVariableDeclarationStatement" />
+    <nodeInfo nodeId="1418350014056254756" fileName="VisibilityRepresentation_Test.java" startLine="36" startPosition="102" endLine="37" endPosition="43" conceptFqName="jetbrains.mps.baseLanguage.structure.ExpressionStatement" />
+    <nodeInfo nodeId="508819492464319498" fileName="VisibilityRepresentation_Test.java" startLine="37" startPosition="43" endLine="38" endPosition="73" conceptFqName="jetbrains.mps.baseLanguage.structure.LocalVariableDeclarationStatement" />
+    <nodeInfo nodeId="508819492464323390" fileName="VisibilityRepresentation_Test.java" startLine="38" startPosition="73" endLine="39" endPosition="108" conceptFqName="jetbrains.mps.baseLanguage.structure.LocalVariableDeclarationStatement" />
+    <nodeInfo nodeId="3619822174190284697" fileName="VisibilityRepresentation_Test.java" startLine="42" startPosition="42" endLine="43" endPosition="82" conceptFqName="jetbrains.mps.baseLanguage.structure.LocalVariableDeclarationStatement" />
+    <nodeInfo nodeId="3619822174190284812" fileName="VisibilityRepresentation_Test.java" startLine="43" startPosition="82" endLine="44" endPosition="62" conceptFqName="jetbrains.mps.baseLanguage.structure.LocalVariableDeclarationStatement" />
+    <nodeInfo nodeId="3619822174190284825" fileName="VisibilityRepresentation_Test.java" startLine="44" startPosition="62" endLine="45" endPosition="72" conceptFqName="jetbrains.mps.baseLanguage.structure.LocalVariableDeclarationStatement" />
+    <nodeInfo nodeId="3619822174190284992" fileName="VisibilityRepresentation_Test.java" startLine="45" startPosition="72" endLine="46" endPosition="102" conceptFqName="jetbrains.mps.baseLanguage.structure.LocalVariableDeclarationStatement" />
+    <nodeInfo nodeId="3619822174190285004" fileName="VisibilityRepresentation_Test.java" startLine="46" startPosition="102" endLine="47" endPosition="102" conceptFqName="jetbrains.mps.baseLanguage.structure.LocalVariableDeclarationStatement" />
+    <nodeInfo nodeId="1418350014056255587" fileName="VisibilityRepresentation_Test.java" startLine="47" startPosition="102" endLine="48" endPosition="43" conceptFqName="jetbrains.mps.baseLanguage.structure.ExpressionStatement" />
+    <nodeInfo nodeId="3619822174190284754" fileName="VisibilityRepresentation_Test.java" startLine="48" startPosition="43" endLine="49" endPosition="73" conceptFqName="jetbrains.mps.baseLanguage.structure.LocalVariableDeclarationStatement" />
+    <nodeInfo nodeId="3619822174190284768" fileName="VisibilityRepresentation_Test.java" startLine="49" startPosition="73" endLine="50" endPosition="108" conceptFqName="jetbrains.mps.baseLanguage.structure.LocalVariableDeclarationStatement" />
+    <nodeInfo nodeId="6984255766319282476" fileName="VisibilityRepresentation_Test.java" startLine="21" startPosition="61" endLine="30" endPosition="0" conceptFqName="jetbrains.mps.baseLanguage.structure.InstanceMethodDeclaration" propertyString="test_test1#()V" />
+    <nodeInfo nodeId="508819492464319469" fileName="VisibilityRepresentation_Test.java" startLine="30" startPosition="0" endLine="41" endPosition="0" conceptFqName="jetbrains.mps.baseLanguage.structure.InstanceMethodDeclaration" propertyString="test_BookGraph#()V" />
+    <nodeInfo nodeId="3619822174190284693" fileName="VisibilityRepresentation_Test.java" startLine="41" startPosition="0" endLine="52" endPosition="0" conceptFqName="jetbrains.mps.baseLanguage.structure.InstanceMethodDeclaration" propertyString="test_K5#()V" />
+    <scopeInfo nodeId="6984255766319282479" fileName="VisibilityRepresentation_Test.java" startLine="22" startPosition="45" endLine="28" endPosition="108">
       <varInfo nodeId="3619822174190268964" varName="graphString" />
       <varInfo nodeId="508819492464319402" varName="graph" />
       <varInfo nodeId="508819492464319422" varName="visibility" />
       <varInfo nodeId="508819492464319408" varName="stPlanarGraph" />
       <varInfo nodeId="508819492464319395" varName="embeddedGraph" />
     </scopeInfo>
-    <scopeInfo nodeId="508819492464319472" fileName="VisibilityRepresentation_Test.java" startLine="39" startPosition="49" endLine="53" endPosition="5">
+    <scopeInfo nodeId="508819492464319472" fileName="VisibilityRepresentation_Test.java" startLine="31" startPosition="49" endLine="39" endPosition="108">
       <varInfo nodeId="508819492464319475" varName="graphString" />
       <varInfo nodeId="508819492464323371" varName="t" />
       <varInfo nodeId="508819492464319488" varName="graph" />
@@ -857,7 +818,7 @@
       <varInfo nodeId="508819492464319499" varName="stPlanarGraph" />
       <varInfo nodeId="508819492464319521" varName="embeddedGraph" />
     </scopeInfo>
-    <scopeInfo nodeId="3619822174190284696" fileName="VisibilityRepresentation_Test.java" startLine="56" startPosition="42" endLine="70" endPosition="5">
+    <scopeInfo nodeId="3619822174190284696" fileName="VisibilityRepresentation_Test.java" startLine="42" startPosition="42" endLine="50" endPosition="108">
       <varInfo nodeId="3619822174190284698" varName="graphString" />
       <varInfo nodeId="3619822174190285005" varName="t" />
       <varInfo nodeId="3619822174190284813" varName="graph" />
@@ -866,9 +827,9 @@
       <varInfo nodeId="3619822174190284755" varName="stPlanarGraph" />
       <varInfo nodeId="3619822174190284826" varName="embeddedGraph" />
     </scopeInfo>
-    <scopeInfo nodeId="6984255766319282476" fileName="VisibilityRepresentation_Test.java" startLine="23" startPosition="61" endLine="38" endPosition="0" />
-    <scopeInfo nodeId="508819492464319469" fileName="VisibilityRepresentation_Test.java" startLine="38" startPosition="0" endLine="55" endPosition="0" />
-    <scopeInfo nodeId="3619822174190284693" fileName="VisibilityRepresentation_Test.java" startLine="55" startPosition="0" endLine="72" endPosition="0" />
+    <scopeInfo nodeId="6984255766319282476" fileName="VisibilityRepresentation_Test.java" startLine="21" startPosition="61" endLine="30" endPosition="0" />
+    <scopeInfo nodeId="508819492464319469" fileName="VisibilityRepresentation_Test.java" startLine="30" startPosition="0" endLine="41" endPosition="0" />
+    <scopeInfo nodeId="3619822174190284693" fileName="VisibilityRepresentation_Test.java" startLine="41" startPosition="0" endLine="52" endPosition="0" />
   </root>
   <root nodeId="7371029937982882760">
     <nodeInfo nodeId="7371029937982882770" fileName="RectOrthogonalLayouterStressTest.java" startLine="22" startPosition="59" endLine="23" endPosition="50" conceptFqName="jetbrains.mps.baseLanguage.structure.LocalVariableDeclarationStatement" />
@@ -932,36 +893,32 @@
     <nodeInfo nodeId="4655725461921804622" fileName="EmbeddedGraphModifier_Test.java" startLine="48" startPosition="5" endLine="49" endPosition="107" conceptFqName="jetbrains.mps.baseLanguage.structure.LocalVariableDeclarationStatement" />
     <nodeInfo nodeId="4655725461921804632" fileName="EmbeddedGraphModifier_Test.java" startLine="49" startPosition="107" endLine="50" endPosition="78" conceptFqName="jetbrains.mps.baseLanguage.structure.LocalVariableDeclarationStatement" />
     <nodeInfo nodeId="4655725461921831491" fileName="EmbeddedGraphModifier_Test.java" startLine="50" startPosition="78" endLine="51" endPosition="106" conceptFqName="jetbrains.mps.baseLanguage.structure.LocalVariableDeclarationStatement" />
-    <nodeInfo nodeId="5750894051601368170" fileName="EmbeddedGraphModifier_Test.java" startLine="52" startPosition="6" endLine="53" endPosition="40" conceptFqName="jetbrains.mps.baseLanguage.structure.ExpressionStatement" />
-    <nodeInfo nodeId="4655725461921804647" fileName="EmbeddedGraphModifier_Test.java" startLine="54" startPosition="6" endLine="55" endPosition="81" conceptFqName="jetbrains.mps.baseLanguage.structure.LocalVariableDeclarationStatement" />
-    <nodeInfo nodeId="4655725461921804656" fileName="EmbeddedGraphModifier_Test.java" startLine="55" startPosition="81" endLine="56" endPosition="82" conceptFqName="jetbrains.mps.baseLanguage.structure.LocalVariableDeclarationStatement" />
-    <nodeInfo nodeId="4655725461921804665" fileName="EmbeddedGraphModifier_Test.java" startLine="56" startPosition="82" endLine="57" endPosition="84" conceptFqName="jetbrains.mps.baseLanguage.structure.ExpressionStatement" />
-    <nodeInfo nodeId="4655725461921804670" fileName="EmbeddedGraphModifier_Test.java" startLine="57" startPosition="84" endLine="58" endPosition="79" conceptFqName="jetbrains.mps.baseLanguage.structure.ExpressionStatement" />
-    <nodeInfo nodeId="4655725461921804675" fileName="EmbeddedGraphModifier_Test.java" startLine="58" startPosition="79" endLine="59" endPosition="102" conceptFqName="jetbrains.mps.baseLanguage.structure.LocalVariableDeclarationStatement" />
-    <nodeInfo nodeId="4655725461921804683" fileName="EmbeddedGraphModifier_Test.java" startLine="59" startPosition="102" endLine="60" endPosition="43" conceptFqName="jetbrains.mps.baseLanguage.structure.ExpressionStatement" />
-    <nodeInfo nodeId="4655725461921804689" fileName="EmbeddedGraphModifier_Test.java" startLine="60" startPosition="43" endLine="61" endPosition="20" conceptFqName="jetbrains.mps.baseLanguage.structure.ReturnStatement" />
-    <nodeInfo nodeId="4655725461921804704" fileName="EmbeddedGraphModifier_Test.java" startLine="64" startPosition="33" endLine="65" endPosition="118" conceptFqName="jetbrains.mps.baseLanguage.structure.LocalVariableDeclarationStatement" />
-    <nodeInfo nodeId="4655725461921804732" fileName="EmbeddedGraphModifier_Test.java" startLine="65" startPosition="118" endLine="66" endPosition="61" conceptFqName="jetbrains.mps.baseLanguage.structure.LocalVariableDeclarationStatement" />
-    <nodeInfo nodeId="4655725461921700549" fileName="EmbeddedGraphModifier_Test.java" startLine="66" startPosition="61" endLine="67" endPosition="45" conceptFqName="jetbrains.mps.baseLanguage.structure.ExpressionStatement" />
-    <nodeInfo nodeId="4655725461921804741" fileName="EmbeddedGraphModifier_Test.java" startLine="67" startPosition="45" endLine="68" endPosition="62" conceptFqName="jetbrains.mps.baseLanguage.structure.LocalVariableDeclarationStatement" />
-    <nodeInfo nodeId="4655725461921803952" fileName="EmbeddedGraphModifier_Test.java" startLine="69" startPosition="6" endLine="70" endPosition="40" conceptFqName="jetbrains.mps.baseLanguage.structure.ExpressionStatement" />
-    <nodeInfo nodeId="7428187320254617023" fileName="EmbeddedGraphModifier_Test.java" startLine="71" startPosition="6" endLine="72" endPosition="64" conceptFqName="jetbrains.mps.baseLanguage.structure.ExpressionStatement" />
-    <nodeInfo nodeId="5750894051601401259" fileName="EmbeddedGraphModifier_Test.java" startLine="72" startPosition="64" endLine="73" endPosition="73" conceptFqName="jetbrains.mps.baseLanguage.structure.LocalVariableDeclarationStatement" />
-    <nodeInfo nodeId="5750894051601401281" fileName="EmbeddedGraphModifier_Test.java" startLine="74" startPosition="63" endLine="75" endPosition="54" conceptFqName="jetbrains.mps.baseLanguage.structure.LocalVariableDeclarationStatement" />
-    <nodeInfo nodeId="5750894051601401290" fileName="EmbeddedGraphModifier_Test.java" startLine="75" startPosition="54" endLine="76" endPosition="67" conceptFqName="jetbrains.mps.baseLanguage.structure.ExpressionStatement" />
-    <nodeInfo nodeId="5750894051601401329" fileName="EmbeddedGraphModifier_Test.java" startLine="77" startPosition="54" endLine="78" endPosition="81" conceptFqName="jetbrains.mps.baseLanguage.structure.ExpressionStatement" />
-    <nodeInfo nodeId="5750894051601401340" fileName="EmbeddedGraphModifier_Test.java" startLine="80" startPosition="5" endLine="81" endPosition="152" conceptFqName="jetbrains.mps.baseLanguage.structure.ExpressionStatement" />
+    <nodeInfo nodeId="4655725461921804647" fileName="EmbeddedGraphModifier_Test.java" startLine="51" startPosition="106" endLine="52" endPosition="81" conceptFqName="jetbrains.mps.baseLanguage.structure.LocalVariableDeclarationStatement" />
+    <nodeInfo nodeId="4655725461921804656" fileName="EmbeddedGraphModifier_Test.java" startLine="52" startPosition="81" endLine="53" endPosition="82" conceptFqName="jetbrains.mps.baseLanguage.structure.LocalVariableDeclarationStatement" />
+    <nodeInfo nodeId="4655725461921804665" fileName="EmbeddedGraphModifier_Test.java" startLine="53" startPosition="82" endLine="54" endPosition="84" conceptFqName="jetbrains.mps.baseLanguage.structure.ExpressionStatement" />
+    <nodeInfo nodeId="4655725461921804670" fileName="EmbeddedGraphModifier_Test.java" startLine="54" startPosition="84" endLine="55" endPosition="79" conceptFqName="jetbrains.mps.baseLanguage.structure.ExpressionStatement" />
+    <nodeInfo nodeId="4655725461921804675" fileName="EmbeddedGraphModifier_Test.java" startLine="55" startPosition="79" endLine="56" endPosition="102" conceptFqName="jetbrains.mps.baseLanguage.structure.LocalVariableDeclarationStatement" />
+    <nodeInfo nodeId="4655725461921804683" fileName="EmbeddedGraphModifier_Test.java" startLine="56" startPosition="102" endLine="57" endPosition="43" conceptFqName="jetbrains.mps.baseLanguage.structure.ExpressionStatement" />
+    <nodeInfo nodeId="4655725461921804689" fileName="EmbeddedGraphModifier_Test.java" startLine="57" startPosition="43" endLine="58" endPosition="20" conceptFqName="jetbrains.mps.baseLanguage.structure.ReturnStatement" />
+    <nodeInfo nodeId="4655725461921804704" fileName="EmbeddedGraphModifier_Test.java" startLine="61" startPosition="33" endLine="62" endPosition="118" conceptFqName="jetbrains.mps.baseLanguage.structure.LocalVariableDeclarationStatement" />
+    <nodeInfo nodeId="4655725461921804732" fileName="EmbeddedGraphModifier_Test.java" startLine="62" startPosition="118" endLine="63" endPosition="61" conceptFqName="jetbrains.mps.baseLanguage.structure.LocalVariableDeclarationStatement" />
+    <nodeInfo nodeId="4655725461921700549" fileName="EmbeddedGraphModifier_Test.java" startLine="63" startPosition="61" endLine="64" endPosition="45" conceptFqName="jetbrains.mps.baseLanguage.structure.ExpressionStatement" />
+    <nodeInfo nodeId="4655725461921804741" fileName="EmbeddedGraphModifier_Test.java" startLine="64" startPosition="45" endLine="65" endPosition="62" conceptFqName="jetbrains.mps.baseLanguage.structure.LocalVariableDeclarationStatement" />
+    <nodeInfo nodeId="7428187320254617023" fileName="EmbeddedGraphModifier_Test.java" startLine="65" startPosition="62" endLine="66" endPosition="64" conceptFqName="jetbrains.mps.baseLanguage.structure.ExpressionStatement" />
+    <nodeInfo nodeId="5750894051601401259" fileName="EmbeddedGraphModifier_Test.java" startLine="66" startPosition="64" endLine="67" endPosition="73" conceptFqName="jetbrains.mps.baseLanguage.structure.LocalVariableDeclarationStatement" />
+    <nodeInfo nodeId="5750894051601401281" fileName="EmbeddedGraphModifier_Test.java" startLine="68" startPosition="63" endLine="69" endPosition="54" conceptFqName="jetbrains.mps.baseLanguage.structure.LocalVariableDeclarationStatement" />
+    <nodeInfo nodeId="5750894051601401290" fileName="EmbeddedGraphModifier_Test.java" startLine="69" startPosition="54" endLine="70" endPosition="67" conceptFqName="jetbrains.mps.baseLanguage.structure.ExpressionStatement" />
+    <nodeInfo nodeId="5750894051601401329" fileName="EmbeddedGraphModifier_Test.java" startLine="71" startPosition="54" endLine="72" endPosition="81" conceptFqName="jetbrains.mps.baseLanguage.structure.ExpressionStatement" />
+    <nodeInfo nodeId="5750894051601401340" fileName="EmbeddedGraphModifier_Test.java" startLine="74" startPosition="5" endLine="75" endPosition="152" conceptFqName="jetbrains.mps.baseLanguage.structure.ExpressionStatement" />
     <nodeInfo nodeId="4655725461921804610" fileName="EmbeddedGraphModifier_Test.java" startLine="45" startPosition="86" endLine="48" endPosition="5" conceptFqName="jetbrains.mps.baseLanguage.structure.ForeachStatement" />
-    <nodeInfo nodeId="4915750462377024148" fileName="EmbeddedGraphModifier_Test.java" startLine="51" startPosition="106" endLine="54" endPosition="6" conceptFqName="jetbrains.mps.baseLanguage.structure.CommentedStatementsBlock" />
-    <nodeInfo nodeId="4915750462377024149" fileName="EmbeddedGraphModifier_Test.java" startLine="68" startPosition="62" endLine="71" endPosition="6" conceptFqName="jetbrains.mps.baseLanguage.structure.CommentedStatementsBlock" />
-    <nodeInfo nodeId="5750894051601401324" fileName="EmbeddedGraphModifier_Test.java" startLine="76" startPosition="67" endLine="79" endPosition="7" conceptFqName="jetbrains.mps.baseLanguage.structure.ForeachStatement" />
+    <nodeInfo nodeId="5750894051601401324" fileName="EmbeddedGraphModifier_Test.java" startLine="70" startPosition="67" endLine="73" endPosition="7" conceptFqName="jetbrains.mps.baseLanguage.structure.ForeachStatement" />
     <nodeInfo nodeId="7428187320254617036" fileName="EmbeddedGraphModifier_Test.java" startLine="30" startPosition="58" endLine="36" endPosition="0" conceptFqName="jetbrains.mps.baseLanguage.structure.InstanceMethodDeclaration" propertyString="test_test1#()V" />
     <nodeInfo nodeId="4655725461921807320" fileName="EmbeddedGraphModifier_Test.java" startLine="36" startPosition="0" endLine="42" endPosition="0" conceptFqName="jetbrains.mps.baseLanguage.structure.InstanceMethodDeclaration" propertyString="test_test2#()V" />
-    <nodeInfo nodeId="5750894051601401246" fileName="EmbeddedGraphModifier_Test.java" startLine="73" startPosition="73" endLine="80" endPosition="5" conceptFqName="jetbrains.mps.baseLanguage.structure.ForeachStatement" />
-    <nodeInfo nodeId="7428187320254612438" fileName="EmbeddedGraphModifier_Test.java" startLine="63" startPosition="0" endLine="83" endPosition="0" conceptFqName="jetbrains.mps.baseLanguage.structure.InstanceMethodDeclaration" propertyString="test#(Ljetbrains/mps/graphLayout/graph/Graph;)V" />
-    <nodeInfo nodeId="4655725461921804570" fileName="EmbeddedGraphModifier_Test.java" startLine="42" startPosition="0" endLine="63" endPosition="0" conceptFqName="jetbrains.mps.baseLanguage.structure.InstanceMethodDeclaration" propertyString="prepare#(Ljetbrains/mps/graphLayout/graph/Graph;Ljava/util/Map;)Ljetbrains/mps/graphLayout/flowOrthogonalLayout/EmbeddedGraphModifier;" />
+    <nodeInfo nodeId="5750894051601401246" fileName="EmbeddedGraphModifier_Test.java" startLine="67" startPosition="73" endLine="74" endPosition="5" conceptFqName="jetbrains.mps.baseLanguage.structure.ForeachStatement" />
+    <nodeInfo nodeId="7428187320254612438" fileName="EmbeddedGraphModifier_Test.java" startLine="60" startPosition="0" endLine="77" endPosition="0" conceptFqName="jetbrains.mps.baseLanguage.structure.InstanceMethodDeclaration" propertyString="test#(Ljetbrains/mps/graphLayout/graph/Graph;)V" />
+    <nodeInfo nodeId="4655725461921804570" fileName="EmbeddedGraphModifier_Test.java" startLine="42" startPosition="0" endLine="60" endPosition="0" conceptFqName="jetbrains.mps.baseLanguage.structure.InstanceMethodDeclaration" propertyString="prepare#(Ljetbrains/mps/graphLayout/graph/Graph;Ljava/util/Map;)Ljetbrains/mps/graphLayout/flowOrthogonalLayout/EmbeddedGraphModifier;" />
     <scopeInfo nodeId="4655725461921804613" fileName="EmbeddedGraphModifier_Test.java" startLine="46" startPosition="52" endLine="47" endPosition="91" />
-    <scopeInfo nodeId="5750894051601401327" fileName="EmbeddedGraphModifier_Test.java" startLine="77" startPosition="54" endLine="78" endPosition="81" />
+    <scopeInfo nodeId="5750894051601401327" fileName="EmbeddedGraphModifier_Test.java" startLine="71" startPosition="54" endLine="72" endPosition="81" />
     <scopeInfo nodeId="7428187320254617039" fileName="EmbeddedGraphModifier_Test.java" startLine="31" startPosition="45" endLine="34" endPosition="16">
       <varInfo nodeId="7428187320254617041" varName="graphString" />
       <varInfo nodeId="7428187320254617049" varName="graph" />
@@ -971,20 +928,20 @@
       <varInfo nodeId="4655725461921807332" varName="graph" />
     </scopeInfo>
     <scopeInfo nodeId="4655725461921804610" fileName="EmbeddedGraphModifier_Test.java" startLine="45" startPosition="86" endLine="48" endPosition="5" />
-    <scopeInfo nodeId="5750894051601401324" fileName="EmbeddedGraphModifier_Test.java" startLine="76" startPosition="67" endLine="79" endPosition="7" />
-    <scopeInfo nodeId="5750894051601401249" fileName="EmbeddedGraphModifier_Test.java" startLine="74" startPosition="63" endLine="79" endPosition="7">
+    <scopeInfo nodeId="5750894051601401324" fileName="EmbeddedGraphModifier_Test.java" startLine="70" startPosition="67" endLine="73" endPosition="7" />
+    <scopeInfo nodeId="5750894051601401249" fileName="EmbeddedGraphModifier_Test.java" startLine="68" startPosition="63" endLine="73" endPosition="7">
       <varInfo nodeId="5750894051601401282" varName="darts" />
     </scopeInfo>
     <scopeInfo nodeId="7428187320254617036" fileName="EmbeddedGraphModifier_Test.java" startLine="30" startPosition="58" endLine="36" endPosition="0" />
     <scopeInfo nodeId="4655725461921807320" fileName="EmbeddedGraphModifier_Test.java" startLine="36" startPosition="0" endLine="42" endPosition="0" />
-    <scopeInfo nodeId="5750894051601401246" fileName="EmbeddedGraphModifier_Test.java" startLine="73" startPosition="73" endLine="80" endPosition="5" />
-    <scopeInfo nodeId="7428187320254612441" fileName="EmbeddedGraphModifier_Test.java" startLine="64" startPosition="33" endLine="81" endPosition="152">
+    <scopeInfo nodeId="5750894051601401246" fileName="EmbeddedGraphModifier_Test.java" startLine="67" startPosition="73" endLine="74" endPosition="5" />
+    <scopeInfo nodeId="7428187320254612441" fileName="EmbeddedGraphModifier_Test.java" startLine="61" startPosition="33" endLine="75" endPosition="152">
       <varInfo nodeId="5750894051601401260" varName="dartDirections" />
       <varInfo nodeId="4655725461921804733" varName="modifier" />
       <varInfo nodeId="4655725461921804705" varName="nodeMap" />
       <varInfo nodeId="4655725461921804742" varName="embeddedGraph" />
     </scopeInfo>
-    <scopeInfo nodeId="4655725461921804573" fileName="EmbeddedGraphModifier_Test.java" startLine="43" startPosition="84" endLine="61" endPosition="20">
+    <scopeInfo nodeId="4655725461921804573" fileName="EmbeddedGraphModifier_Test.java" startLine="43" startPosition="84" endLine="58" endPosition="20">
       <varInfo nodeId="4655725461921804676" varName="directions" />
       <varInfo nodeId="4655725461921804657" varName="angles" />
       <varInfo nodeId="4655725461921804633" varName="modifier" />
@@ -993,10 +950,10 @@
       <varInfo nodeId="4655725461921804648" varName="bends" />
       <varInfo nodeId="4655725461921804623" varName="embeddedGraph" />
     </scopeInfo>
-    <scopeInfo nodeId="7428187320254612438" fileName="EmbeddedGraphModifier_Test.java" startLine="63" startPosition="0" endLine="83" endPosition="0">
+    <scopeInfo nodeId="7428187320254612438" fileName="EmbeddedGraphModifier_Test.java" startLine="60" startPosition="0" endLine="77" endPosition="0">
       <varInfo nodeId="7428187320254616830" varName="graph" />
     </scopeInfo>
-    <scopeInfo nodeId="4655725461921804570" fileName="EmbeddedGraphModifier_Test.java" startLine="42" startPosition="0" endLine="63" endPosition="0">
+    <scopeInfo nodeId="4655725461921804570" fileName="EmbeddedGraphModifier_Test.java" startLine="42" startPosition="0" endLine="60" endPosition="0">
       <varInfo nodeId="4655725461921804574" varName="graph" />
       <varInfo nodeId="4655725461921804692" varName="nodeMap" />
     </scopeInfo>
@@ -1018,40 +975,37 @@
     <nodeInfo nodeId="3403946177685386653" fileName="ConstraintsGraph_Test.java" startLine="52" startPosition="110" endLine="53" endPosition="53" conceptFqName="jetbrains.mps.baseLanguage.structure.ExpressionStatement" />
     <nodeInfo nodeId="3403946177685386657" fileName="ConstraintsGraph_Test.java" startLine="53" startPosition="53" endLine="54" endPosition="79" conceptFqName="jetbrains.mps.baseLanguage.structure.ExpressionStatement" />
     <nodeInfo nodeId="3403946177685386669" fileName="ConstraintsGraph_Test.java" startLine="54" startPosition="79" endLine="55" endPosition="102" conceptFqName="jetbrains.mps.baseLanguage.structure.LocalVariableDeclarationStatement" />
-    <nodeInfo nodeId="3403946177685421981" fileName="ConstraintsGraph_Test.java" startLine="55" startPosition="102" endLine="56" endPosition="38" conceptFqName="jetbrains.mps.baseLanguage.structure.ExpressionStatement" />
-    <nodeInfo nodeId="3403946177685421986" fileName="ConstraintsGraph_Test.java" startLine="56" startPosition="38" endLine="57" endPosition="35" conceptFqName="jetbrains.mps.baseLanguage.structure.ExpressionStatement" />
-    <nodeInfo nodeId="3403946177685386677" fileName="ConstraintsGraph_Test.java" startLine="57" startPosition="35" endLine="58" endPosition="99" conceptFqName="jetbrains.mps.baseLanguage.structure.LocalVariableDeclarationStatement" />
-    <nodeInfo nodeId="3403946177685413004" fileName="ConstraintsGraph_Test.java" startLine="58" startPosition="99" endLine="59" endPosition="68" conceptFqName="jetbrains.mps.baseLanguage.structure.LocalVariableDeclarationStatement" />
-    <nodeInfo nodeId="3403946177685413013" fileName="ConstraintsGraph_Test.java" startLine="59" startPosition="68" endLine="60" endPosition="86" conceptFqName="jetbrains.mps.baseLanguage.structure.ExpressionStatement" />
-    <nodeInfo nodeId="3403946177685440127" fileName="ConstraintsGraph_Test.java" startLine="60" startPosition="86" endLine="61" endPosition="89" conceptFqName="jetbrains.mps.baseLanguage.structure.LocalVariableDeclarationStatement" />
-    <nodeInfo nodeId="3403946177685440145" fileName="ConstraintsGraph_Test.java" startLine="62" startPosition="52" endLine="63" endPosition="70" conceptFqName="jetbrains.mps.baseLanguage.structure.ExpressionStatement" />
-    <nodeInfo nodeId="3403946177685386684" fileName="ConstraintsGraph_Test.java" startLine="64" startPosition="5" endLine="65" endPosition="52" conceptFqName="jetbrains.mps.baseLanguage.structure.ExpressionStatement" />
-    <nodeInfo nodeId="5274739094344230343" fileName="ConstraintsGraph_Test.java" startLine="68" startPosition="33" endLine="69" endPosition="107" conceptFqName="jetbrains.mps.baseLanguage.structure.LocalVariableDeclarationStatement" />
-    <nodeInfo nodeId="5274739094344230353" fileName="ConstraintsGraph_Test.java" startLine="69" startPosition="107" endLine="70" endPosition="81" conceptFqName="jetbrains.mps.baseLanguage.structure.LocalVariableDeclarationStatement" />
-    <nodeInfo nodeId="5274739094344230362" fileName="ConstraintsGraph_Test.java" startLine="70" startPosition="81" endLine="71" endPosition="82" conceptFqName="jetbrains.mps.baseLanguage.structure.LocalVariableDeclarationStatement" />
-    <nodeInfo nodeId="5274739094344230371" fileName="ConstraintsGraph_Test.java" startLine="71" startPosition="82" endLine="72" endPosition="82" conceptFqName="jetbrains.mps.baseLanguage.structure.ExpressionStatement" />
-    <nodeInfo nodeId="5274739094344230376" fileName="ConstraintsGraph_Test.java" startLine="72" startPosition="82" endLine="73" endPosition="110" conceptFqName="jetbrains.mps.baseLanguage.structure.LocalVariableDeclarationStatement" />
-    <nodeInfo nodeId="5274739094344230384" fileName="ConstraintsGraph_Test.java" startLine="73" startPosition="110" endLine="74" endPosition="53" conceptFqName="jetbrains.mps.baseLanguage.structure.ExpressionStatement" />
-    <nodeInfo nodeId="5274739094344230388" fileName="ConstraintsGraph_Test.java" startLine="74" startPosition="53" endLine="75" endPosition="79" conceptFqName="jetbrains.mps.baseLanguage.structure.ExpressionStatement" />
-    <nodeInfo nodeId="5274739094344236565" fileName="ConstraintsGraph_Test.java" startLine="75" startPosition="79" endLine="76" endPosition="38" conceptFqName="jetbrains.mps.baseLanguage.structure.ExpressionStatement" />
-    <nodeInfo nodeId="5274739094344230393" fileName="ConstraintsGraph_Test.java" startLine="76" startPosition="38" endLine="77" endPosition="102" conceptFqName="jetbrains.mps.baseLanguage.structure.LocalVariableDeclarationStatement" />
-    <nodeInfo nodeId="5274739094344230401" fileName="ConstraintsGraph_Test.java" startLine="77" startPosition="102" endLine="78" endPosition="99" conceptFqName="jetbrains.mps.baseLanguage.structure.LocalVariableDeclarationStatement" />
-    <nodeInfo nodeId="3403946177685462599" fileName="ConstraintsGraph_Test.java" startLine="78" startPosition="99" endLine="79" endPosition="68" conceptFqName="jetbrains.mps.baseLanguage.structure.LocalVariableDeclarationStatement" />
-    <nodeInfo nodeId="3403946177685462606" fileName="ConstraintsGraph_Test.java" startLine="79" startPosition="68" endLine="80" endPosition="86" conceptFqName="jetbrains.mps.baseLanguage.structure.ExpressionStatement" />
-    <nodeInfo nodeId="3403946177685462613" fileName="ConstraintsGraph_Test.java" startLine="80" startPosition="86" endLine="81" endPosition="89" conceptFqName="jetbrains.mps.baseLanguage.structure.LocalVariableDeclarationStatement" />
-    <nodeInfo nodeId="3403946177685462625" fileName="ConstraintsGraph_Test.java" startLine="82" startPosition="52" endLine="83" endPosition="70" conceptFqName="jetbrains.mps.baseLanguage.structure.ExpressionStatement" />
-    <nodeInfo nodeId="3403946177685462635" fileName="ConstraintsGraph_Test.java" startLine="84" startPosition="5" endLine="85" endPosition="52" conceptFqName="jetbrains.mps.baseLanguage.structure.ExpressionStatement" />
-    <nodeInfo nodeId="5274739094344230408" fileName="ConstraintsGraph_Test.java" startLine="85" startPosition="52" endLine="86" endPosition="31" conceptFqName="jetbrains.mps.baseLanguage.structure.ExpressionStatement" />
-    <nodeInfo nodeId="3403946177685440140" fileName="ConstraintsGraph_Test.java" startLine="61" startPosition="89" endLine="64" endPosition="5" conceptFqName="jetbrains.mps.baseLanguage.structure.ForeachStatement" />
-    <nodeInfo nodeId="3403946177685462622" fileName="ConstraintsGraph_Test.java" startLine="81" startPosition="89" endLine="84" endPosition="5" conceptFqName="jetbrains.mps.baseLanguage.structure.ForeachStatement" />
+    <nodeInfo nodeId="3403946177685386677" fileName="ConstraintsGraph_Test.java" startLine="55" startPosition="102" endLine="56" endPosition="99" conceptFqName="jetbrains.mps.baseLanguage.structure.LocalVariableDeclarationStatement" />
+    <nodeInfo nodeId="3403946177685413004" fileName="ConstraintsGraph_Test.java" startLine="56" startPosition="99" endLine="57" endPosition="68" conceptFqName="jetbrains.mps.baseLanguage.structure.LocalVariableDeclarationStatement" />
+    <nodeInfo nodeId="3403946177685413013" fileName="ConstraintsGraph_Test.java" startLine="57" startPosition="68" endLine="58" endPosition="86" conceptFqName="jetbrains.mps.baseLanguage.structure.ExpressionStatement" />
+    <nodeInfo nodeId="3403946177685440127" fileName="ConstraintsGraph_Test.java" startLine="58" startPosition="86" endLine="59" endPosition="89" conceptFqName="jetbrains.mps.baseLanguage.structure.LocalVariableDeclarationStatement" />
+    <nodeInfo nodeId="3403946177685440145" fileName="ConstraintsGraph_Test.java" startLine="60" startPosition="52" endLine="61" endPosition="70" conceptFqName="jetbrains.mps.baseLanguage.structure.ExpressionStatement" />
+    <nodeInfo nodeId="3403946177685386684" fileName="ConstraintsGraph_Test.java" startLine="62" startPosition="5" endLine="63" endPosition="52" conceptFqName="jetbrains.mps.baseLanguage.structure.ExpressionStatement" />
+    <nodeInfo nodeId="5274739094344230343" fileName="ConstraintsGraph_Test.java" startLine="66" startPosition="33" endLine="67" endPosition="107" conceptFqName="jetbrains.mps.baseLanguage.structure.LocalVariableDeclarationStatement" />
+    <nodeInfo nodeId="5274739094344230353" fileName="ConstraintsGraph_Test.java" startLine="67" startPosition="107" endLine="68" endPosition="81" conceptFqName="jetbrains.mps.baseLanguage.structure.LocalVariableDeclarationStatement" />
+    <nodeInfo nodeId="5274739094344230362" fileName="ConstraintsGraph_Test.java" startLine="68" startPosition="81" endLine="69" endPosition="82" conceptFqName="jetbrains.mps.baseLanguage.structure.LocalVariableDeclarationStatement" />
+    <nodeInfo nodeId="5274739094344230371" fileName="ConstraintsGraph_Test.java" startLine="69" startPosition="82" endLine="70" endPosition="82" conceptFqName="jetbrains.mps.baseLanguage.structure.ExpressionStatement" />
+    <nodeInfo nodeId="5274739094344230376" fileName="ConstraintsGraph_Test.java" startLine="70" startPosition="82" endLine="71" endPosition="110" conceptFqName="jetbrains.mps.baseLanguage.structure.LocalVariableDeclarationStatement" />
+    <nodeInfo nodeId="5274739094344230384" fileName="ConstraintsGraph_Test.java" startLine="71" startPosition="110" endLine="72" endPosition="53" conceptFqName="jetbrains.mps.baseLanguage.structure.ExpressionStatement" />
+    <nodeInfo nodeId="5274739094344230388" fileName="ConstraintsGraph_Test.java" startLine="72" startPosition="53" endLine="73" endPosition="79" conceptFqName="jetbrains.mps.baseLanguage.structure.ExpressionStatement" />
+    <nodeInfo nodeId="5274739094344230393" fileName="ConstraintsGraph_Test.java" startLine="73" startPosition="79" endLine="74" endPosition="102" conceptFqName="jetbrains.mps.baseLanguage.structure.LocalVariableDeclarationStatement" />
+    <nodeInfo nodeId="5274739094344230401" fileName="ConstraintsGraph_Test.java" startLine="74" startPosition="102" endLine="75" endPosition="99" conceptFqName="jetbrains.mps.baseLanguage.structure.LocalVariableDeclarationStatement" />
+    <nodeInfo nodeId="3403946177685462599" fileName="ConstraintsGraph_Test.java" startLine="75" startPosition="99" endLine="76" endPosition="68" conceptFqName="jetbrains.mps.baseLanguage.structure.LocalVariableDeclarationStatement" />
+    <nodeInfo nodeId="3403946177685462606" fileName="ConstraintsGraph_Test.java" startLine="76" startPosition="68" endLine="77" endPosition="86" conceptFqName="jetbrains.mps.baseLanguage.structure.ExpressionStatement" />
+    <nodeInfo nodeId="3403946177685462613" fileName="ConstraintsGraph_Test.java" startLine="77" startPosition="86" endLine="78" endPosition="89" conceptFqName="jetbrains.mps.baseLanguage.structure.LocalVariableDeclarationStatement" />
+    <nodeInfo nodeId="3403946177685462625" fileName="ConstraintsGraph_Test.java" startLine="79" startPosition="52" endLine="80" endPosition="70" conceptFqName="jetbrains.mps.baseLanguage.structure.ExpressionStatement" />
+    <nodeInfo nodeId="3403946177685462635" fileName="ConstraintsGraph_Test.java" startLine="81" startPosition="5" endLine="82" endPosition="52" conceptFqName="jetbrains.mps.baseLanguage.structure.ExpressionStatement" />
+    <nodeInfo nodeId="5274739094344230408" fileName="ConstraintsGraph_Test.java" startLine="82" startPosition="52" endLine="83" endPosition="31" conceptFqName="jetbrains.mps.baseLanguage.structure.ExpressionStatement" />
+    <nodeInfo nodeId="3403946177685440140" fileName="ConstraintsGraph_Test.java" startLine="59" startPosition="89" endLine="62" endPosition="5" conceptFqName="jetbrains.mps.baseLanguage.structure.ForeachStatement" />
+    <nodeInfo nodeId="3403946177685462622" fileName="ConstraintsGraph_Test.java" startLine="78" startPosition="89" endLine="81" endPosition="5" conceptFqName="jetbrains.mps.baseLanguage.structure.ForeachStatement" />
     <nodeInfo nodeId="7861048744530908425" fileName="ConstraintsGraph_Test.java" startLine="26" startPosition="53" endLine="31" endPosition="0" conceptFqName="jetbrains.mps.baseLanguage.structure.InstanceMethodDeclaration" propertyString="test_test1#()V" />
     <nodeInfo nodeId="5728232039832668437" fileName="ConstraintsGraph_Test.java" startLine="31" startPosition="0" endLine="36" endPosition="0" conceptFqName="jetbrains.mps.baseLanguage.structure.InstanceMethodDeclaration" propertyString="test_test2#()V" />
     <nodeInfo nodeId="5728232039832729386" fileName="ConstraintsGraph_Test.java" startLine="36" startPosition="0" endLine="41" endPosition="0" conceptFqName="jetbrains.mps.baseLanguage.structure.InstanceMethodDeclaration" propertyString="test_test3#()V" />
     <nodeInfo nodeId="3403946177685386697" fileName="ConstraintsGraph_Test.java" startLine="41" startPosition="0" endLine="46" endPosition="0" conceptFqName="jetbrains.mps.baseLanguage.structure.InstanceMethodDeclaration" propertyString="test_testModification1#()V" />
-    <nodeInfo nodeId="3403946177685386602" fileName="ConstraintsGraph_Test.java" startLine="46" startPosition="0" endLine="67" endPosition="0" conceptFqName="jetbrains.mps.baseLanguage.structure.InstanceMethodDeclaration" propertyString="testModification#(Ljetbrains/mps/graphLayout/graph/Graph;)V" />
-    <nodeInfo nodeId="7861048744530895416" fileName="ConstraintsGraph_Test.java" startLine="67" startPosition="0" endLine="88" endPosition="0" conceptFqName="jetbrains.mps.baseLanguage.structure.InstanceMethodDeclaration" propertyString="test#(Ljetbrains/mps/graphLayout/graph/Graph;)V" />
-    <scopeInfo nodeId="3403946177685440143" fileName="ConstraintsGraph_Test.java" startLine="62" startPosition="52" endLine="63" endPosition="70" />
-    <scopeInfo nodeId="3403946177685462624" fileName="ConstraintsGraph_Test.java" startLine="82" startPosition="52" endLine="83" endPosition="70" />
+    <nodeInfo nodeId="3403946177685386602" fileName="ConstraintsGraph_Test.java" startLine="46" startPosition="0" endLine="65" endPosition="0" conceptFqName="jetbrains.mps.baseLanguage.structure.InstanceMethodDeclaration" propertyString="testModification#(Ljetbrains/mps/graphLayout/graph/Graph;)V" />
+    <nodeInfo nodeId="7861048744530895416" fileName="ConstraintsGraph_Test.java" startLine="65" startPosition="0" endLine="85" endPosition="0" conceptFqName="jetbrains.mps.baseLanguage.structure.InstanceMethodDeclaration" propertyString="test#(Ljetbrains/mps/graphLayout/graph/Graph;)V" />
+    <scopeInfo nodeId="3403946177685440143" fileName="ConstraintsGraph_Test.java" startLine="60" startPosition="52" endLine="61" endPosition="70" />
+    <scopeInfo nodeId="3403946177685462624" fileName="ConstraintsGraph_Test.java" startLine="79" startPosition="52" endLine="80" endPosition="70" />
     <scopeInfo nodeId="7861048744530908428" fileName="ConstraintsGraph_Test.java" startLine="27" startPosition="45" endLine="29" endPosition="16">
       <varInfo nodeId="7861048744530908432" varName="graph" />
     </scopeInfo>
@@ -1064,13 +1018,13 @@
     <scopeInfo nodeId="3403946177685386700" fileName="ConstraintsGraph_Test.java" startLine="42" startPosition="57" endLine="44" endPosition="28">
       <varInfo nodeId="3403946177685386703" varName="graph" />
     </scopeInfo>
-    <scopeInfo nodeId="3403946177685440140" fileName="ConstraintsGraph_Test.java" startLine="61" startPosition="89" endLine="64" endPosition="5" />
-    <scopeInfo nodeId="3403946177685462622" fileName="ConstraintsGraph_Test.java" startLine="81" startPosition="89" endLine="84" endPosition="5" />
+    <scopeInfo nodeId="3403946177685440140" fileName="ConstraintsGraph_Test.java" startLine="59" startPosition="89" endLine="62" endPosition="5" />
+    <scopeInfo nodeId="3403946177685462622" fileName="ConstraintsGraph_Test.java" startLine="78" startPosition="89" endLine="81" endPosition="5" />
     <scopeInfo nodeId="7861048744530908425" fileName="ConstraintsGraph_Test.java" startLine="26" startPosition="53" endLine="31" endPosition="0" />
     <scopeInfo nodeId="5728232039832668437" fileName="ConstraintsGraph_Test.java" startLine="31" startPosition="0" endLine="36" endPosition="0" />
     <scopeInfo nodeId="5728232039832729386" fileName="ConstraintsGraph_Test.java" startLine="36" startPosition="0" endLine="41" endPosition="0" />
     <scopeInfo nodeId="3403946177685386697" fileName="ConstraintsGraph_Test.java" startLine="41" startPosition="0" endLine="46" endPosition="0" />
-    <scopeInfo nodeId="3403946177685386605" fileName="ConstraintsGraph_Test.java" startLine="47" startPosition="45" endLine="65" endPosition="52">
+    <scopeInfo nodeId="3403946177685386605" fileName="ConstraintsGraph_Test.java" startLine="47" startPosition="45" endLine="63" endPosition="52">
       <varInfo nodeId="3403946177685386670" varName="directions" />
       <varInfo nodeId="3403946177685386646" varName="quasiModifier" />
       <varInfo nodeId="3403946177685386632" varName="angles" />
@@ -1080,7 +1034,7 @@
       <varInfo nodeId="3403946177685386678" varName="processor" />
       <varInfo nodeId="3403946177685440128" varName="nodeSizes" />
     </scopeInfo>
-    <scopeInfo nodeId="7861048744530895419" fileName="ConstraintsGraph_Test.java" startLine="68" startPosition="33" endLine="86" endPosition="31">
+    <scopeInfo nodeId="7861048744530895419" fileName="ConstraintsGraph_Test.java" startLine="66" startPosition="33" endLine="83" endPosition="31">
       <varInfo nodeId="5274739094344230394" varName="directions" />
       <varInfo nodeId="5274739094344230377" varName="quasiModifier" />
       <varInfo nodeId="5274739094344230363" varName="angles" />
@@ -1090,10 +1044,10 @@
       <varInfo nodeId="5274739094344230402" varName="processor" />
       <varInfo nodeId="3403946177685462614" varName="nodeSizes" />
     </scopeInfo>
-    <scopeInfo nodeId="3403946177685386602" fileName="ConstraintsGraph_Test.java" startLine="46" startPosition="0" endLine="67" endPosition="0">
+    <scopeInfo nodeId="3403946177685386602" fileName="ConstraintsGraph_Test.java" startLine="46" startPosition="0" endLine="65" endPosition="0">
       <varInfo nodeId="3403946177685386606" varName="graph" />
     </scopeInfo>
-    <scopeInfo nodeId="7861048744530895416" fileName="ConstraintsGraph_Test.java" startLine="67" startPosition="0" endLine="88" endPosition="0">
+    <scopeInfo nodeId="7861048744530895416" fileName="ConstraintsGraph_Test.java" startLine="65" startPosition="0" endLine="85" endPosition="0">
       <varInfo nodeId="7861048744530895582" varName="graph" />
     </scopeInfo>
   </root>
@@ -1343,59 +1297,44 @@
     <unitInfo nodeId="8734440518943050540" fileName="OrthogonalPointFlowLayouterStressTest.java" startLine="18" startPosition="0" endLine="51" endPosition="0" unitName="orthogonalLayoutTest.OrthogonalPointFlowLayouterStressTest" />
   </root>
   <root nodeId="903391227141028133">
-    <nodeInfo nodeId="903391227141029780" fileName="ConstraintsSupporter_Test.java" startLine="25" startPosition="45" endLine="26" endPosition="51" conceptFqName="jetbrains.mps.baseLanguage.structure.LocalVariableDeclarationStatement" />
-    <nodeInfo nodeId="903391227141029797" fileName="ConstraintsSupporter_Test.java" startLine="26" startPosition="51" endLine="27" endPosition="54" conceptFqName="jetbrains.mps.baseLanguage.structure.ExpressionStatement" />
-    <nodeInfo nodeId="903391227141105441" fileName="ConstraintsSupporter_Test.java" startLine="30" startPosition="42" endLine="31" endPosition="78" conceptFqName="jetbrains.mps.baseLanguage.structure.LocalVariableDeclarationStatement" />
-    <nodeInfo nodeId="903391227141105447" fileName="ConstraintsSupporter_Test.java" startLine="31" startPosition="78" endLine="32" endPosition="50" conceptFqName="jetbrains.mps.baseLanguage.structure.ExpressionStatement" />
-    <nodeInfo nodeId="903391227141028148" fileName="ConstraintsSupporter_Test.java" startLine="35" startPosition="33" endLine="36" endPosition="72" conceptFqName="jetbrains.mps.baseLanguage.structure.LocalVariableDeclarationStatement" />
-    <nodeInfo nodeId="903391227141032588" fileName="ConstraintsSupporter_Test.java" startLine="36" startPosition="72" endLine="37" endPosition="38" conceptFqName="jetbrains.mps.baseLanguage.structure.ExpressionStatement" />
-    <nodeInfo nodeId="903391227141028539" fileName="ConstraintsSupporter_Test.java" startLine="37" startPosition="38" endLine="38" endPosition="102" conceptFqName="jetbrains.mps.baseLanguage.structure.LocalVariableDeclarationStatement" />
-    <nodeInfo nodeId="903391227141028551" fileName="ConstraintsSupporter_Test.java" startLine="38" startPosition="102" endLine="39" endPosition="102" conceptFqName="jetbrains.mps.baseLanguage.structure.LocalVariableDeclarationStatement" />
-    <nodeInfo nodeId="903391227141029786" fileName="ConstraintsSupporter_Test.java" startLine="39" startPosition="102" endLine="40" endPosition="43" conceptFqName="jetbrains.mps.baseLanguage.structure.ExpressionStatement" />
-    <nodeInfo nodeId="903391227141032594" fileName="ConstraintsSupporter_Test.java" startLine="40" startPosition="43" endLine="41" endPosition="30" conceptFqName="jetbrains.mps.baseLanguage.structure.ExpressionStatement" />
-    <nodeInfo nodeId="903391227141028563" fileName="ConstraintsSupporter_Test.java" startLine="41" startPosition="30" endLine="42" endPosition="73" conceptFqName="jetbrains.mps.baseLanguage.structure.LocalVariableDeclarationStatement" />
-    <nodeInfo nodeId="903391227141056863" fileName="ConstraintsSupporter_Test.java" startLine="43" startPosition="63" endLine="44" endPosition="86" conceptFqName="jetbrains.mps.baseLanguage.structure.ExpressionStatement" />
-    <nodeInfo nodeId="903391227141088285" fileName="ConstraintsSupporter_Test.java" startLine="46" startPosition="63" endLine="47" endPosition="88" conceptFqName="jetbrains.mps.baseLanguage.structure.ExpressionStatement" />
-    <nodeInfo nodeId="1400338595887571426" fileName="ConstraintsSupporter_Test.java" startLine="48" startPosition="5" endLine="49" endPosition="85" conceptFqName="jetbrains.mps.baseLanguage.structure.LocalVariableDeclarationStatement" />
-    <nodeInfo nodeId="490728924230505856" fileName="ConstraintsSupporter_Test.java" startLine="49" startPosition="85" endLine="50" endPosition="89" conceptFqName="jetbrains.mps.baseLanguage.structure.LocalVariableDeclarationStatement" />
-    <nodeInfo nodeId="903391227141028645" fileName="ConstraintsSupporter_Test.java" startLine="52" startPosition="27" endLine="53" endPosition="66" conceptFqName="jetbrains.mps.baseLanguage.structure.ExpressionStatement" />
-    <nodeInfo nodeId="1400338595887571445" fileName="ConstraintsSupporter_Test.java" startLine="54" startPosition="14" endLine="55" endPosition="66" conceptFqName="jetbrains.mps.baseLanguage.structure.ExpressionStatement" />
-    <nodeInfo nodeId="490728924230505880" fileName="ConstraintsSupporter_Test.java" startLine="58" startPosition="63" endLine="59" endPosition="68" conceptFqName="jetbrains.mps.baseLanguage.structure.ExpressionStatement" />
-    <nodeInfo nodeId="903391227141029548" fileName="ConstraintsSupporter_Test.java" startLine="60" startPosition="5" endLine="61" endPosition="111" conceptFqName="jetbrains.mps.baseLanguage.structure.LocalVariableDeclarationStatement" />
-    <nodeInfo nodeId="903391227141030736" fileName="ConstraintsSupporter_Test.java" startLine="62" startPosition="82" endLine="63" endPosition="41" conceptFqName="jetbrains.mps.baseLanguage.structure.ExpressionStatement" />
-    <nodeInfo nodeId="903391227141030743" fileName="ConstraintsSupporter_Test.java" startLine="63" startPosition="41" endLine="64" endPosition="63" conceptFqName="jetbrains.mps.baseLanguage.structure.ExpressionStatement" />
-    <nodeInfo nodeId="903391227141029561" fileName="ConstraintsSupporter_Test.java" startLine="65" startPosition="5" endLine="66" endPosition="48" conceptFqName="jetbrains.mps.baseLanguage.structure.ExpressionStatement" />
-    <nodeInfo nodeId="903391227141028669" fileName="ConstraintsSupporter_Test.java" startLine="54" startPosition="12" endLine="56" endPosition="7" conceptFqName="jetbrains.mps.baseLanguage.structure.BlockStatement" />
-    <nodeInfo nodeId="903391227141056853" fileName="ConstraintsSupporter_Test.java" startLine="42" startPosition="73" endLine="45" endPosition="5" conceptFqName="jetbrains.mps.baseLanguage.structure.ForeachStatement" />
-    <nodeInfo nodeId="903391227141088279" fileName="ConstraintsSupporter_Test.java" startLine="45" startPosition="5" endLine="48" endPosition="5" conceptFqName="jetbrains.mps.baseLanguage.structure.ForeachStatement" />
-    <nodeInfo nodeId="490728924230505870" fileName="ConstraintsSupporter_Test.java" startLine="57" startPosition="5" endLine="60" endPosition="5" conceptFqName="jetbrains.mps.baseLanguage.structure.ForeachStatement" />
-    <nodeInfo nodeId="903391227141030730" fileName="ConstraintsSupporter_Test.java" startLine="61" startPosition="111" endLine="65" endPosition="5" conceptFqName="jetbrains.mps.baseLanguage.structure.ForeachStatement" />
-    <nodeInfo nodeId="903391227141029776" fileName="ConstraintsSupporter_Test.java" startLine="24" startPosition="57" endLine="29" endPosition="0" conceptFqName="jetbrains.mps.baseLanguage.structure.InstanceMethodDeclaration" propertyString="test_test1#()V" />
-    <nodeInfo nodeId="903391227141105437" fileName="ConstraintsSupporter_Test.java" startLine="29" startPosition="0" endLine="34" endPosition="0" conceptFqName="jetbrains.mps.baseLanguage.structure.InstanceMethodDeclaration" propertyString="test_K5#()V" />
-    <nodeInfo nodeId="903391227141028636" fileName="ConstraintsSupporter_Test.java" startLine="51" startPosition="63" endLine="56" endPosition="7" conceptFqName="jetbrains.mps.baseLanguage.structure.IfStatement" />
-    <nodeInfo nodeId="903391227141028626" fileName="ConstraintsSupporter_Test.java" startLine="50" startPosition="89" endLine="57" endPosition="5" conceptFqName="jetbrains.mps.baseLanguage.structure.ForeachStatement" />
-    <nodeInfo nodeId="903391227141028140" fileName="ConstraintsSupporter_Test.java" startLine="34" startPosition="0" endLine="68" endPosition="0" conceptFqName="jetbrains.mps.baseLanguage.structure.InstanceMethodDeclaration" propertyString="test#(Ljetbrains/mps/graphLayout/graph/Graph;)V" />
-    <scopeInfo nodeId="903391227141056856" fileName="ConstraintsSupporter_Test.java" startLine="43" startPosition="63" endLine="44" endPosition="86" />
-    <scopeInfo nodeId="903391227141088284" fileName="ConstraintsSupporter_Test.java" startLine="46" startPosition="63" endLine="47" endPosition="88" />
-    <scopeInfo nodeId="903391227141028638" fileName="ConstraintsSupporter_Test.java" startLine="52" startPosition="27" endLine="53" endPosition="66" />
-    <scopeInfo nodeId="903391227141028670" fileName="ConstraintsSupporter_Test.java" startLine="54" startPosition="14" endLine="55" endPosition="66" />
-    <scopeInfo nodeId="490728924230505873" fileName="ConstraintsSupporter_Test.java" startLine="58" startPosition="63" endLine="59" endPosition="68" />
-    <scopeInfo nodeId="903391227141029779" fileName="ConstraintsSupporter_Test.java" startLine="25" startPosition="45" endLine="27" endPosition="54">
+    <nodeInfo nodeId="903391227141029780" fileName="ConstraintsSupporter_Test.java" startLine="24" startPosition="45" endLine="25" endPosition="51" conceptFqName="jetbrains.mps.baseLanguage.structure.LocalVariableDeclarationStatement" />
+    <nodeInfo nodeId="903391227141029797" fileName="ConstraintsSupporter_Test.java" startLine="25" startPosition="51" endLine="26" endPosition="54" conceptFqName="jetbrains.mps.baseLanguage.structure.ExpressionStatement" />
+    <nodeInfo nodeId="903391227141105441" fileName="ConstraintsSupporter_Test.java" startLine="29" startPosition="42" endLine="30" endPosition="78" conceptFqName="jetbrains.mps.baseLanguage.structure.LocalVariableDeclarationStatement" />
+    <nodeInfo nodeId="903391227141105447" fileName="ConstraintsSupporter_Test.java" startLine="30" startPosition="78" endLine="31" endPosition="50" conceptFqName="jetbrains.mps.baseLanguage.structure.ExpressionStatement" />
+    <nodeInfo nodeId="903391227141028148" fileName="ConstraintsSupporter_Test.java" startLine="34" startPosition="33" endLine="35" endPosition="72" conceptFqName="jetbrains.mps.baseLanguage.structure.LocalVariableDeclarationStatement" />
+    <nodeInfo nodeId="903391227141028539" fileName="ConstraintsSupporter_Test.java" startLine="35" startPosition="72" endLine="36" endPosition="102" conceptFqName="jetbrains.mps.baseLanguage.structure.LocalVariableDeclarationStatement" />
+    <nodeInfo nodeId="903391227141028551" fileName="ConstraintsSupporter_Test.java" startLine="36" startPosition="102" endLine="37" endPosition="102" conceptFqName="jetbrains.mps.baseLanguage.structure.LocalVariableDeclarationStatement" />
+    <nodeInfo nodeId="903391227141029786" fileName="ConstraintsSupporter_Test.java" startLine="37" startPosition="102" endLine="38" endPosition="43" conceptFqName="jetbrains.mps.baseLanguage.structure.ExpressionStatement" />
+    <nodeInfo nodeId="903391227141028563" fileName="ConstraintsSupporter_Test.java" startLine="38" startPosition="43" endLine="39" endPosition="73" conceptFqName="jetbrains.mps.baseLanguage.structure.LocalVariableDeclarationStatement" />
+    <nodeInfo nodeId="1400338595887571426" fileName="ConstraintsSupporter_Test.java" startLine="39" startPosition="73" endLine="40" endPosition="85" conceptFqName="jetbrains.mps.baseLanguage.structure.LocalVariableDeclarationStatement" />
+    <nodeInfo nodeId="490728924230505856" fileName="ConstraintsSupporter_Test.java" startLine="40" startPosition="85" endLine="41" endPosition="89" conceptFqName="jetbrains.mps.baseLanguage.structure.LocalVariableDeclarationStatement" />
+    <nodeInfo nodeId="903391227141028645" fileName="ConstraintsSupporter_Test.java" startLine="43" startPosition="27" endLine="44" endPosition="66" conceptFqName="jetbrains.mps.baseLanguage.structure.ExpressionStatement" />
+    <nodeInfo nodeId="1400338595887571445" fileName="ConstraintsSupporter_Test.java" startLine="45" startPosition="14" endLine="46" endPosition="66" conceptFqName="jetbrains.mps.baseLanguage.structure.ExpressionStatement" />
+    <nodeInfo nodeId="490728924230505880" fileName="ConstraintsSupporter_Test.java" startLine="49" startPosition="63" endLine="50" endPosition="68" conceptFqName="jetbrains.mps.baseLanguage.structure.ExpressionStatement" />
+    <nodeInfo nodeId="903391227141029548" fileName="ConstraintsSupporter_Test.java" startLine="51" startPosition="5" endLine="52" endPosition="111" conceptFqName="jetbrains.mps.baseLanguage.structure.LocalVariableDeclarationStatement" />
+    <nodeInfo nodeId="903391227141029561" fileName="ConstraintsSupporter_Test.java" startLine="52" startPosition="111" endLine="53" endPosition="48" conceptFqName="jetbrains.mps.baseLanguage.structure.ExpressionStatement" />
+    <nodeInfo nodeId="903391227141028669" fileName="ConstraintsSupporter_Test.java" startLine="45" startPosition="12" endLine="47" endPosition="7" conceptFqName="jetbrains.mps.baseLanguage.structure.BlockStatement" />
+    <nodeInfo nodeId="490728924230505870" fileName="ConstraintsSupporter_Test.java" startLine="48" startPosition="5" endLine="51" endPosition="5" conceptFqName="jetbrains.mps.baseLanguage.structure.ForeachStatement" />
+    <nodeInfo nodeId="903391227141029776" fileName="ConstraintsSupporter_Test.java" startLine="23" startPosition="57" endLine="28" endPosition="0" conceptFqName="jetbrains.mps.baseLanguage.structure.InstanceMethodDeclaration" propertyString="test_test1#()V" />
+    <nodeInfo nodeId="903391227141105437" fileName="ConstraintsSupporter_Test.java" startLine="28" startPosition="0" endLine="33" endPosition="0" conceptFqName="jetbrains.mps.baseLanguage.structure.InstanceMethodDeclaration" propertyString="test_K5#()V" />
+    <nodeInfo nodeId="903391227141028636" fileName="ConstraintsSupporter_Test.java" startLine="42" startPosition="63" endLine="47" endPosition="7" conceptFqName="jetbrains.mps.baseLanguage.structure.IfStatement" />
+    <nodeInfo nodeId="903391227141028626" fileName="ConstraintsSupporter_Test.java" startLine="41" startPosition="89" endLine="48" endPosition="5" conceptFqName="jetbrains.mps.baseLanguage.structure.ForeachStatement" />
+    <nodeInfo nodeId="903391227141028140" fileName="ConstraintsSupporter_Test.java" startLine="33" startPosition="0" endLine="55" endPosition="0" conceptFqName="jetbrains.mps.baseLanguage.structure.InstanceMethodDeclaration" propertyString="test#(Ljetbrains/mps/graphLayout/graph/Graph;)V" />
+    <scopeInfo nodeId="903391227141028638" fileName="ConstraintsSupporter_Test.java" startLine="43" startPosition="27" endLine="44" endPosition="66" />
+    <scopeInfo nodeId="903391227141028670" fileName="ConstraintsSupporter_Test.java" startLine="45" startPosition="14" endLine="46" endPosition="66" />
+    <scopeInfo nodeId="490728924230505873" fileName="ConstraintsSupporter_Test.java" startLine="49" startPosition="63" endLine="50" endPosition="68" />
+    <scopeInfo nodeId="903391227141029779" fileName="ConstraintsSupporter_Test.java" startLine="24" startPosition="45" endLine="26" endPosition="54">
       <varInfo nodeId="903391227141029781" varName="graphString" />
     </scopeInfo>
-    <scopeInfo nodeId="903391227141105440" fileName="ConstraintsSupporter_Test.java" startLine="30" startPosition="42" endLine="32" endPosition="50">
+    <scopeInfo nodeId="903391227141105440" fileName="ConstraintsSupporter_Test.java" startLine="29" startPosition="42" endLine="31" endPosition="50">
       <varInfo nodeId="903391227141105442" varName="gString" />
     </scopeInfo>
-    <scopeInfo nodeId="903391227141030735" fileName="ConstraintsSupporter_Test.java" startLine="62" startPosition="82" endLine="64" endPosition="63" />
-    <scopeInfo nodeId="903391227141056853" fileName="ConstraintsSupporter_Test.java" startLine="42" startPosition="73" endLine="45" endPosition="5" />
-    <scopeInfo nodeId="903391227141088279" fileName="ConstraintsSupporter_Test.java" startLine="45" startPosition="5" endLine="48" endPosition="5" />
-    <scopeInfo nodeId="490728924230505870" fileName="ConstraintsSupporter_Test.java" startLine="57" startPosition="5" endLine="60" endPosition="5" />
-    <scopeInfo nodeId="903391227141030730" fileName="ConstraintsSupporter_Test.java" startLine="61" startPosition="111" endLine="65" endPosition="5" />
-    <scopeInfo nodeId="903391227141029776" fileName="ConstraintsSupporter_Test.java" startLine="24" startPosition="57" endLine="29" endPosition="0" />
-    <scopeInfo nodeId="903391227141105437" fileName="ConstraintsSupporter_Test.java" startLine="29" startPosition="0" endLine="34" endPosition="0" />
-    <scopeInfo nodeId="903391227141028629" fileName="ConstraintsSupporter_Test.java" startLine="51" startPosition="63" endLine="56" endPosition="7" />
-    <scopeInfo nodeId="903391227141028626" fileName="ConstraintsSupporter_Test.java" startLine="50" startPosition="89" endLine="57" endPosition="5" />
-    <scopeInfo nodeId="903391227141028143" fileName="ConstraintsSupporter_Test.java" startLine="35" startPosition="33" endLine="66" endPosition="48">
+    <scopeInfo nodeId="490728924230505870" fileName="ConstraintsSupporter_Test.java" startLine="48" startPosition="5" endLine="51" endPosition="5" />
+    <scopeInfo nodeId="903391227141029776" fileName="ConstraintsSupporter_Test.java" startLine="23" startPosition="57" endLine="28" endPosition="0" />
+    <scopeInfo nodeId="903391227141105437" fileName="ConstraintsSupporter_Test.java" startLine="28" startPosition="0" endLine="33" endPosition="0" />
+    <scopeInfo nodeId="903391227141028629" fileName="ConstraintsSupporter_Test.java" startLine="42" startPosition="63" endLine="47" endPosition="7" />
+    <scopeInfo nodeId="903391227141028626" fileName="ConstraintsSupporter_Test.java" startLine="41" startPosition="89" endLine="48" endPosition="5" />
+    <scopeInfo nodeId="903391227141028143" fileName="ConstraintsSupporter_Test.java" startLine="34" startPosition="33" endLine="53" endPosition="48">
       <varInfo nodeId="1400338595887571427" varName="sizes" />
       <varInfo nodeId="903391227141028552" varName="t" />
       <varInfo nodeId="903391227141028540" varName="s" />
@@ -1404,7 +1343,7 @@
       <varInfo nodeId="903391227141028149" varName="embeddedGraph" />
       <varInfo nodeId="903391227141029549" varName="rep" />
     </scopeInfo>
-    <scopeInfo nodeId="903391227141028140" fileName="ConstraintsSupporter_Test.java" startLine="34" startPosition="0" endLine="68" endPosition="0">
+    <scopeInfo nodeId="903391227141028140" fileName="ConstraintsSupporter_Test.java" startLine="33" startPosition="0" endLine="55" endPosition="0">
       <varInfo nodeId="903391227141028144" varName="graph" />
     </scopeInfo>
   </root>

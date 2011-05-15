@@ -12,12 +12,10 @@ import jetbrains.mps.graphLayout.planarGraph.STPlanarGraph;
 import java.util.Map;
 import jetbrains.mps.graphLayout.intGeom2D.Rectangle;
 import jetbrains.mps.graphLayout.stOrthogonalLayout.VisibilityRepresentation;
-import jetbrains.mps.graphLayout.graph.Node;
-import jetbrains.mps.internal.collections.runtime.ListSequence;
-import jetbrains.mps.internal.collections.runtime.MapSequence;
-import jetbrains.mps.graphLayout.graph.Edge;
 import jetbrains.mps.graphLayout.planarization.ShortestPathEmbeddingFinder;
 import jetbrains.mps.graphLayout.planarization.BiconnectedInitialEmbeddingFinder;
+import jetbrains.mps.graphLayout.graph.Node;
+import jetbrains.mps.internal.collections.runtime.ListSequence;
 import jetbrains.mps.graphLayout.planarization.TreeEmbeddingFinder;
 
 public class VisibilityRepresentation_Test extends TestCase {
@@ -28,12 +26,6 @@ public class VisibilityRepresentation_Test extends TestCase {
     GraphOrientation.orientST(graph, graph.getNode(0), graph.getNode(8));
     STPlanarGraph stPlanarGraph = new STPlanarGraph(embeddedGraph, graph.getNode(0), graph.getNode(8));
     Map<Object, Rectangle> visibility = VisibilityRepresentation.getVisibilityRepresentation(stPlanarGraph);
-    for (Node node : ListSequence.fromList(graph.getNodes())) {
-      System.out.println(node + ": " + MapSequence.fromMap(visibility).get(node));
-    }
-    for (Edge edge : ListSequence.fromList(graph.getEdges())) {
-      System.out.println(edge + ": " + MapSequence.fromMap(visibility).get(edge));
-    }
   }
 
   public void test_BookGraph() throws Exception {
@@ -45,12 +37,6 @@ public class VisibilityRepresentation_Test extends TestCase {
     GraphOrientation.orientST(graph, s, t);
     STPlanarGraph stPlanarGraph = new STPlanarGraph(embeddedGraph, s, t);
     Map<Object, Rectangle> visibility = VisibilityRepresentation.getVisibilityRepresentation(stPlanarGraph);
-    for (Node node : ListSequence.fromList(graph.getNodes())) {
-      System.out.println(node + ": " + MapSequence.fromMap(visibility).get(node));
-    }
-    for (Edge edge : ListSequence.fromList(graph.getEdges())) {
-      System.out.println(edge + ": " + MapSequence.fromMap(visibility).get(edge));
-    }
   }
 
   public void test_K5() throws Exception {
@@ -62,11 +48,5 @@ public class VisibilityRepresentation_Test extends TestCase {
     GraphOrientation.orientST(graph, s, t);
     STPlanarGraph stPlanarGraph = new STPlanarGraph(embeddedGraph, s, t);
     Map<Object, Rectangle> visibility = VisibilityRepresentation.getVisibilityRepresentation(stPlanarGraph);
-    for (Node node : ListSequence.fromList(graph.getNodes())) {
-      System.out.println(node + ": " + MapSequence.fromMap(visibility).get(node));
-    }
-    for (Edge edge : ListSequence.fromList(graph.getEdges())) {
-      System.out.println(edge + ": " + MapSequence.fromMap(visibility).get(edge));
-    }
   }
 }

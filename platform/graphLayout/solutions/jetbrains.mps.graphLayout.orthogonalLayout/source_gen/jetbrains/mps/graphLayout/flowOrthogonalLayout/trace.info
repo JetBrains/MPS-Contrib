@@ -3145,7 +3145,7 @@
     <unitInfo nodeId="7021611379030098031" fileName="NodeBoxesMaker.java" startLine="26" startPosition="0" endLine="202" endPosition="0" unitName="jetbrains.mps.graphLayout.flowOrthogonalLayout.NodeBoxesMaker" />
   </root>
   <root nodeId="7428187320254594689">
-    <nodeInfo nodeId="102129025687804748" fileName="EmbeddedGraphModifier.java" startLine="29" startPosition="36" endLine="30" endPosition="35" conceptFqName="jetbrains.mps.baseLanguage.structure.StaticFieldDeclaration" propertyString="SHOW_INFO" />
+    <nodeInfo nodeId="102129025687804748" fileName="EmbeddedGraphModifier.java" startLine="29" startPosition="36" endLine="30" endPosition="34" conceptFqName="jetbrains.mps.baseLanguage.structure.StaticFieldDeclaration" propertyString="SHOW_LOG" />
     <nodeInfo nodeId="7428187320254595078" fileName="EmbeddedGraphModifier.java" startLine="31" startPosition="0" endLine="32" endPosition="24" conceptFqName="jetbrains.mps.baseLanguage.structure.FieldDeclaration" propertyString="myGraph" />
     <nodeInfo nodeId="7428187320254595083" fileName="EmbeddedGraphModifier.java" startLine="32" startPosition="24" endLine="33" endPosition="40" conceptFqName="jetbrains.mps.baseLanguage.structure.FieldDeclaration" propertyString="myEmbeddedGraph" />
     <nodeInfo nodeId="7428187320254595087" fileName="EmbeddedGraphModifier.java" startLine="33" startPosition="40" endLine="34" endPosition="50" conceptFqName="jetbrains.mps.baseLanguage.structure.FieldDeclaration" propertyString="myDartDirections" />
@@ -3159,7 +3159,7 @@
     <nodeInfo nodeId="272112265222983351" fileName="EmbeddedGraphModifier.java" startLine="49" startPosition="80" endLine="50" endPosition="83" conceptFqName="jetbrains.mps.baseLanguage.structure.LocalVariableDeclarationStatement" />
     <nodeInfo nodeId="272112265222983366" fileName="EmbeddedGraphModifier.java" startLine="51" startPosition="61" endLine="52" endPosition="64" conceptFqName="jetbrains.mps.baseLanguage.structure.ExpressionStatement" />
     <nodeInfo nodeId="272112265222983440" fileName="EmbeddedGraphModifier.java" startLine="52" startPosition="64" endLine="53" endPosition="54" conceptFqName="jetbrains.mps.baseLanguage.structure.ExpressionStatement" />
-    <nodeInfo nodeId="272112265222983407" fileName="EmbeddedGraphModifier.java" startLine="54" startPosition="26" endLine="55" endPosition="66" conceptFqName="jetbrains.mps.baseLanguage.structure.ExpressionStatement" />
+    <nodeInfo nodeId="272112265222983407" fileName="EmbeddedGraphModifier.java" startLine="54" startPosition="25" endLine="55" endPosition="66" conceptFqName="jetbrains.mps.baseLanguage.structure.ExpressionStatement" />
     <nodeInfo nodeId="272112265222983420" fileName="EmbeddedGraphModifier.java" startLine="56" startPosition="54" endLine="57" endPosition="104" conceptFqName="jetbrains.mps.baseLanguage.structure.ExpressionStatement" />
     <nodeInfo nodeId="272112265222983437" fileName="EmbeddedGraphModifier.java" startLine="60" startPosition="5" endLine="61" endPosition="25" conceptFqName="jetbrains.mps.baseLanguage.structure.ReturnStatement" />
     <nodeInfo nodeId="102129025687872805" fileName="EmbeddedGraphModifier.java" startLine="64" startPosition="87" endLine="65" endPosition="83" conceptFqName="jetbrains.mps.baseLanguage.structure.LocalVariableDeclarationStatement" />
@@ -3167,7 +3167,7 @@
     <nodeInfo nodeId="7428187320254594739" fileName="EmbeddedGraphModifier.java" startLine="67" startPosition="64" endLine="68" endPosition="71" conceptFqName="jetbrains.mps.baseLanguage.structure.LocalVariableDeclarationStatement" />
     <nodeInfo nodeId="4655725461921796700" fileName="EmbeddedGraphModifier.java" startLine="69" startPosition="54" endLine="70" endPosition="56" conceptFqName="jetbrains.mps.baseLanguage.structure.ExpressionStatement" />
     <nodeInfo nodeId="4655725461921796693" fileName="EmbeddedGraphModifier.java" startLine="71" startPosition="14" endLine="72" endPosition="90" conceptFqName="jetbrains.mps.baseLanguage.structure.ExpressionStatement" />
-    <nodeInfo nodeId="102129025687802714" fileName="EmbeddedGraphModifier.java" startLine="74" startPosition="26" endLine="75" endPosition="66" conceptFqName="jetbrains.mps.baseLanguage.structure.ExpressionStatement" />
+    <nodeInfo nodeId="102129025687802714" fileName="EmbeddedGraphModifier.java" startLine="74" startPosition="25" endLine="75" endPosition="66" conceptFqName="jetbrains.mps.baseLanguage.structure.ExpressionStatement" />
     <nodeInfo nodeId="102129025687802757" fileName="EmbeddedGraphModifier.java" startLine="76" startPosition="54" endLine="77" endPosition="104" conceptFqName="jetbrains.mps.baseLanguage.structure.ExpressionStatement" />
     <nodeInfo nodeId="102129025687872836" fileName="EmbeddedGraphModifier.java" startLine="80" startPosition="5" endLine="81" endPosition="25" conceptFqName="jetbrains.mps.baseLanguage.structure.ReturnStatement" />
     <nodeInfo nodeId="3698135283642049997" fileName="EmbeddedGraphModifier.java" startLine="85" startPosition="88" endLine="86" endPosition="26" conceptFqName="jetbrains.mps.baseLanguage.structure.ExpressionStatement" />
@@ -3612,8 +3612,8 @@
     <scopeInfo nodeId="7428187320254595119" fileName="EmbeddedGraphModifier.java" startLine="44" startPosition="0" endLine="48" endPosition="0">
       <varInfo nodeId="7428187320254595123" varName="dartDirections" />
     </scopeInfo>
-    <scopeInfo nodeId="272112265222983406" fileName="EmbeddedGraphModifier.java" startLine="54" startPosition="26" endLine="58" endPosition="9" />
-    <scopeInfo nodeId="102129025687804756" fileName="EmbeddedGraphModifier.java" startLine="74" startPosition="26" endLine="78" endPosition="9" />
+    <scopeInfo nodeId="272112265222983406" fileName="EmbeddedGraphModifier.java" startLine="54" startPosition="25" endLine="58" endPosition="9" />
+    <scopeInfo nodeId="102129025687804756" fileName="EmbeddedGraphModifier.java" startLine="74" startPosition="25" endLine="78" endPosition="9" />
     <scopeInfo nodeId="4655725461921797111" fileName="EmbeddedGraphModifier.java" startLine="114" startPosition="106" endLine="118" endPosition="0" />
     <scopeInfo nodeId="4655725461921797136" fileName="EmbeddedGraphModifier.java" startLine="121" startPosition="107" endLine="125" endPosition="0" />
     <scopeInfo nodeId="4655725461921797259" fileName="EmbeddedGraphModifier.java" startLine="134" startPosition="107" endLine="138" endPosition="0" />

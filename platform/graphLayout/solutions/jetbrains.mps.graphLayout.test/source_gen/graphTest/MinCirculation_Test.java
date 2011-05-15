@@ -63,7 +63,6 @@ public class MinCirculation_Test extends TestCase {
     setEdgesMap(cost, graph.getNode(2), ListSequence.fromListAndArray(new ArrayList<Integer>(), 1));
     setEdgesMap(cost, graph.getNode(3), ListSequence.fromListAndArray(new ArrayList<Integer>(), 1));
     Map<Edge, Integer> circulation = test(graph, low, capacity, cost);
-    System.out.println(circulation);
     Assert.assertTrue(getFlowCost(circulation, cost) == 8);
     for (Edge edge : ListSequence.fromList(graph.getEdges())) {
       Assert.assertTrue(MapSequence.fromMap(circulation).get(edge) == 2);
