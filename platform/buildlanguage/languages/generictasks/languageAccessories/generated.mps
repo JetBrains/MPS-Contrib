@@ -9742,9 +9742,6 @@
       <property name="name" nameId="tpck.1169194664001" value="includeantruntime" />
       <property name="required" nameId="ddum.353793545802643476" value="false" />
       <property name="deprecated" nameId="ddum.353793545802643475" value="false" />
-      <node role="default" roleId="ddum.353793545802643472" type="tpsk.BooleanLiteral" typeId="tpsk.1196865966685" id="353793545802813691">
-        <property name="value" nameId="tpsk.1196866040780" value="true" />
-      </node>
       <node role="attributeType" roleId="ddum.353793545802643473" type="tpsk.BooleanType" typeId="tpsk.1196870363565" id="1378549049868669233" />
     </node>
     <node role="attributesDecl" roleId="ddum.7699562953468509840" type="ddum.AttributeDeclaration" typeId="ddum.353793545802643469" id="353793545802813693">
