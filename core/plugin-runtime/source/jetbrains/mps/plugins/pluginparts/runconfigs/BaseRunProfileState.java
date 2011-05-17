@@ -5,8 +5,12 @@ import com.intellij.execution.runners.ProgramRunner;
 import com.intellij.openapi.project.Project;
 import com.intellij.openapi.util.Key;
 import jetbrains.mps.debug.DebuggerKeys;
-import jetbrains.mps.debug.api.*;
+import jetbrains.mps.debug.api.AbstractDebugSessionCreator;
+import jetbrains.mps.debug.api.DefaultDebugger;
+import jetbrains.mps.debug.api.IDebugger;
+import jetbrains.mps.debug.api.IDebuggerSettings;
 import jetbrains.mps.debug.api.run.DebuggerRunProfileState;
+import jetbrains.mps.debug.api.run.IDebuggerConfiguration;
 import jetbrains.mps.debug.runtime.settings.LocalConnectionSettings;
 import jetbrains.mps.util.annotation.ToRemove;
 import org.jetbrains.annotations.NotNull;
@@ -43,18 +47,24 @@ public abstract class BaseRunProfileState extends DebuggerRunProfileState {
     putUserData(DebuggerKeys.CONNECTION_SETTINGS, myDebuggerSettings.getCommandLine(true));
   }
 
+  @NotNull
   @Override
-  public IDebuggerSettings createDebuggerSettings() {
-    return new LocalConnectionSettings(true);
-  }
-
-  @Override
-  public IDebugger getDebugger() {
-    return new DefaultDebugger() {
-      @NotNull
+  public IDebuggerConfiguration getDebuggerConfiguration() {
+    return new IDebuggerConfiguration() {
       @Override
-      public AbstractDebugSessionCreator createDebugSessionCreator(@NotNull Project project) {
-        return BaseRunProfileState.this.createDebugSessionCreator(project);
+      public IDebuggerSettings createDebuggerSettings() {
+        return new LocalConnectionSettings(true);
+      }
+
+      @Override
+      public IDebugger getDebugger() {
+        return new DefaultDebugger() {
+          @NotNull
+          @Override
+          public AbstractDebugSessionCreator createDebugSessionCreator(@NotNull Project project) {
+            return BaseRunProfileState.this.createDebugSessionCreator(project);
+          }
+        };
       }
     };
   }
