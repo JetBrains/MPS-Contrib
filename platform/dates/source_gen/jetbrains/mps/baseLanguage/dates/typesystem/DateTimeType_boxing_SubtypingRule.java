@@ -80,14 +80,14 @@ public class DateTimeType_boxing_SubtypingRule extends SubtypingRule_Runtime imp
 
     public boolean match(SNode nodeToMatch) {
       {
-        SNode nodeToMatch_u5vsb4_a0a;
-        nodeToMatch_u5vsb4_a0a = nodeToMatch;
-        if (!("jetbrains.mps.baseLanguage.structure.ClassifierType".equals(nodeToMatch_u5vsb4_a0a.getConceptFqName()))) {
+        SNode nodeToMatch_1179578430451;
+        nodeToMatch_1179578430451 = nodeToMatch;
+        if (!("jetbrains.mps.baseLanguage.structure.ClassifierType".equals(nodeToMatch_1179578430451.getConceptFqName()))) {
           return false;
         }
         {
           SNodePointer pointer = SNODE_POINTER_enqoju_a0a0a0a0b0c0a0a0a0a0a0c;
-          if (!(PatternUtil.matchReferentWithNode(pointer, nodeToMatch_u5vsb4_a0a.getReferent("classifier")))) {
+          if (!(PatternUtil.matchReferentWithNode(pointer, nodeToMatch_1179578430451.getReferent("classifier")))) {
             return false;
           }
         }
