@@ -63,6 +63,7 @@
   </runtime>
   <extendedLanguages>
     <extendedLanguage>28f9e497-3b42-4291-aeba-0a1039153ab1(jetbrains.mps.lang.plugin)</extendedLanguage>
+    <extendedLanguage>b83431fe-5c8f-40bc-8a36-65e25f4dd253(jetbrains.mps.lang.textGen)</extendedLanguage>
   </extendedLanguages>
 </language>
 

@@ -8,6 +8,7 @@
   <unitInfo fileName="JavaRunConfiguration_Behavior.java" startLine="59" startPosition="0" endLine="76" endPosition="0" unitName="jetbrains.mps.baseLanguage.runConfigurations.behavior.JavaRunConfiguration_Behavior$QuotationClass_r2ediq_a0b0d" />
   <unitInfo fileName="IsApplicableBlock_Behavior.java" startLine="11" startPosition="0" endLine="36" endPosition="0" unitName="jetbrains.mps.baseLanguage.runConfigurations.behavior.IsApplicableBlock_Behavior" />
   <unitInfo fileName="IJavaRunConfigurationParameter_Behavior.java" startLine="11" startPosition="0" endLine="36" endPosition="0" unitName="jetbrains.mps.baseLanguage.runConfigurations.behavior.IJavaRunConfigurationParameter_Behavior" />
+  <unitInfo fileName="IMainClass_Behavior.java" startLine="14" startPosition="0" endLine="39" endPosition="0" unitName="jetbrains.mps.baseLanguage.runConfigurations.behavior.IMainClass_Behavior" />
   <unitInfo fileName="JavaConfigurationRunParameters_FunctionParameter_Behavior.java" startLine="14" startPosition="0" endLine="48" endPosition="0" unitName="jetbrains.mps.baseLanguage.runConfigurations.behavior.JavaConfigurationRunParameters_FunctionParameter_Behavior" />
   <unitInfo fileName="Node_FunctionParameter_Behavior.java" startLine="14" startPosition="0" endLine="57" endPosition="0" unitName="jetbrains.mps.baseLanguage.runConfigurations.behavior.Node_FunctionParameter_Behavior" />
   <unitInfo fileName="JavaRunConfiguration_Behavior.java" startLine="19" startPosition="0" endLine="77" endPosition="0" unitName="jetbrains.mps.baseLanguage.runConfigurations.behavior.JavaRunConfiguration_Behavior" />
@@ -56,6 +57,20 @@
       <varInfo nodeId="4964800443628319891" varName="parameters" />
     </scopeInfo>
     <scopeInfo nodeId="9017024590936608811" fileName="JavaRunConfiguration_Behavior.java" startLine="34" startPosition="80" endLine="38" endPosition="88" />
+  </root>
+  <root nodeId="5039796819214415808">
+    <nodeInfo nodeId="4482685194810365948" fileName="IMainClass_Behavior.java" startLine="20" startPosition="86" endLine="21" endPosition="67" conceptFqName="jetbrains.mps.baseLanguage.structure.LocalVariableDeclarationStatement" />
+    <nodeInfo nodeId="4482685194810365954" fileName="IMainClass_Behavior.java" startLine="23" startPosition="25" endLine="24" endPosition="61" conceptFqName="jetbrains.mps.baseLanguage.structure.ExpressionStatement" />
+    <nodeInfo nodeId="4482685194810366171" fileName="IMainClass_Behavior.java" startLine="26" startPosition="7" endLine="27" endPosition="26" conceptFqName="jetbrains.mps.baseLanguage.structure.ReturnStatement" />
+    <nodeInfo nodeId="4482685194810365952" fileName="IMainClass_Behavior.java" startLine="22" startPosition="57" endLine="26" endPosition="0" conceptFqName="jetbrains.mps.baseLanguage.structure.InstanceMethodDeclaration" propertyString="run#()V" />
+    <nodeInfo nodeId="4482685194810365951" fileName="IMainClass_Behavior.java" startLine="21" startPosition="67" endLine="26" endPosition="7" conceptFqName="jetbrains.mps.baseLanguage.structure.ExpressionStatement" />
+    <scopeInfo nodeId="5039796819214415810" fileName="IMainClass_Behavior.java" startLine="17" startPosition="43" endLine="17" endPosition="43" />
+    <scopeInfo nodeId="4482685194810365953" fileName="IMainClass_Behavior.java" startLine="23" startPosition="25" endLine="24" endPosition="61" />
+    <scopeInfo nodeId="4482685194810365952" fileName="IMainClass_Behavior.java" startLine="22" startPosition="57" endLine="26" endPosition="0" />
+    <scopeInfo nodeId="4482685194810363972" fileName="IMainClass_Behavior.java" startLine="20" startPosition="86" endLine="27" endPosition="26">
+      <varInfo nodeId="4482685194810365949" varName="unitName" />
+    </scopeInfo>
+    <unitInfo nodeId="4482685194810365952" fileName="IMainClass_Behavior.java" startLine="22" startPosition="45" endLine="26" endPosition="5" unitName="jetbrains.mps.baseLanguage.runConfigurations.behavior.IMainClass_Behavior$1" />
   </root>
   <root nodeId="6629582826328967165">
     <nodeInfo nodeId="3592413331517228993" fileName="JavaNodeRunConfiguration_Behavior.java" startLine="13" startPosition="43" endLine="14" endPosition="63" conceptFqName="jetbrains.mps.baseLanguage.structure.ExpressionStatement" />
