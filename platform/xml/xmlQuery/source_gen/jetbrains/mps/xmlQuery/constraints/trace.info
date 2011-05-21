@@ -28,6 +28,7 @@
   <unitInfo fileName="AccessChildrenOperation_Constraints.java" startLine="28" startPosition="0" endLine="101" endPosition="0" unitName="jetbrains.mps.xmlQuery.constraints.AccessChildrenOperation_Constraints" />
   <unitInfo fileName="XMLSAXAttributeReference_Constraints.java" startLine="31" startPosition="0" endLine="120" endPosition="0" unitName="jetbrains.mps.xmlQuery.constraints.XMLSAXAttributeReference_Constraints" />
   <unitInfo fileName="AttributeBuilder_Constraints.java" startLine="30" startPosition="0" endLine="123" endPosition="0" unitName="jetbrains.mps.xmlQuery.constraints.AttributeBuilder_Constraints" />
+  <unitInfo fileName="ConstraintsAspectDescriptor.java" startLine="10" startPosition="0" endLine="112" endPosition="0" unitName="jetbrains.mps.xmlQuery.constraints.ConstraintsAspectDescriptor" />
   <unitInfo fileName="XMLElementType_Constraints.java" startLine="25" startPosition="0" endLine="130" endPosition="0" unitName="jetbrains.mps.xmlQuery.constraints.XMLElementType_Constraints" />
   <root nodeId="1384720974900260384">
     <nodeInfo nodeId="1384720974900260390" fileName="ElementBuilder_Constraints.java" startLine="76" startPosition="136" endLine="77" endPosition="115" conceptFqName="jetbrains.mps.baseLanguage.structure.LocalVariableDeclarationStatement" />

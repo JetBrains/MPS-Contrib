@@ -23,6 +23,7 @@
   <unitInfo fileName="DateTimeIntPropertyFormatConfiguration_Constraints.java" startLine="19" startPosition="0" endLine="69" endPosition="0" unitName="jetbrains.mps.baseLanguage.datesInternal.constraints.DateTimeIntPropertyFormatConfiguration_Constraints" />
   <unitInfo fileName="DurationType_Constraints.java" startLine="19" startPosition="0" endLine="69" endPosition="0" unitName="jetbrains.mps.baseLanguage.datesInternal.constraints.DurationType_Constraints" />
   <unitInfo fileName="PredefinedDateFormat_Constraints.java" startLine="19" startPosition="0" endLine="74" endPosition="0" unitName="jetbrains.mps.baseLanguage.datesInternal.constraints.PredefinedDateFormat_Constraints" />
+  <unitInfo fileName="ConstraintsAspectDescriptor.java" startLine="10" startPosition="0" endLine="70" endPosition="0" unitName="jetbrains.mps.baseLanguage.datesInternal.constraints.ConstraintsAspectDescriptor" />
   <unitInfo fileName="DateTimeProperty_Constraints.java" startLine="29" startPosition="0" endLine="121" endPosition="0" unitName="jetbrains.mps.baseLanguage.datesInternal.constraints.DateTimeProperty_Constraints" />
   <root nodeId="1213104844878">
     <nodeInfo nodeId="1213104844882" fileName="DurationType_Constraints.java" startLine="42" startPosition="84" endLine="43" endPosition="176" conceptFqName="jetbrains.mps.baseLanguage.structure.ReturnStatement" />

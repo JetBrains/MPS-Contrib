@@ -46,6 +46,7 @@
   <unitInfo fileName="PeriodPropertyFormatToken_Constraints.java" startLine="25" startPosition="0" endLine="105" endPosition="0" unitName="jetbrains.mps.baseLanguage.dates.constraints.PeriodPropertyFormatToken_Constraints" />
   <unitInfo fileName="DateTimePropertyFormatToken_Constraints.java" startLine="23" startPosition="0" endLine="107" endPosition="0" unitName="jetbrains.mps.baseLanguage.dates.constraints.DateTimePropertyFormatToken_Constraints" />
   <unitInfo fileName="ConvertToDateTimeOperation_Constraints.java" startLine="31" startPosition="0" endLine="211" endPosition="0" unitName="jetbrains.mps.baseLanguage.dates.constraints.ConvertToDateTimeOperation_Constraints" />
+  <unitInfo fileName="ConstraintsAspectDescriptor.java" startLine="10" startPosition="0" endLine="241" endPosition="0" unitName="jetbrains.mps.baseLanguage.dates.constraints.ConstraintsAspectDescriptor" />
   <root nodeId="1173960152516">
     <nodeInfo nodeId="1173960841268" fileName="DateTimePropertFormatTokenUtil.java" startLine="10" startPosition="58" endLine="11" endPosition="193" conceptFqName="jetbrains.mps.baseLanguage.structure.ReturnStatement" />
     <nodeInfo nodeId="1173960767209" fileName="DateTimePropertFormatTokenUtil.java" startLine="14" startPosition="57" endLine="15" endPosition="24" conceptFqName="jetbrains.mps.baseLanguage.structure.LocalVariableDeclarationStatement" />

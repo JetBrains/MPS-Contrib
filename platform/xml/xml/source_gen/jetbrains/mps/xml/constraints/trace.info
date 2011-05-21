@@ -3,6 +3,7 @@
   <unitInfo fileName="Element_Constraints.java" startLine="53" startPosition="28" endLine="57" endPosition="5" unitName="jetbrains.mps.xml.constraints.Element_Constraints$1" />
   <unitInfo fileName="Attribute_Constraints.java" startLine="68" startPosition="43" endLine="89" endPosition="5" unitName="jetbrains.mps.xml.constraints.Attribute_Constraints$1" />
   <unitInfo fileName="Element_Constraints.java" startLine="78" startPosition="41" endLine="100" endPosition="5" unitName="jetbrains.mps.xml.constraints.Element_Constraints$2" />
+  <unitInfo fileName="ConstraintsAspectDescriptor.java" startLine="10" startPosition="0" endLine="55" endPosition="0" unitName="jetbrains.mps.xml.constraints.ConstraintsAspectDescriptor" />
   <unitInfo fileName="Content_Constraints.java" startLine="15" startPosition="0" endLine="60" endPosition="0" unitName="jetbrains.mps.xml.constraints.Content_Constraints" />
   <unitInfo fileName="BaseText_Constraints.java" startLine="15" startPosition="0" endLine="60" endPosition="0" unitName="jetbrains.mps.xml.constraints.BaseText_Constraints" />
   <unitInfo fileName="Attribute_Constraints.java" startLine="26" startPosition="0" endLine="93" endPosition="0" unitName="jetbrains.mps.xml.constraints.Attribute_Constraints" />
