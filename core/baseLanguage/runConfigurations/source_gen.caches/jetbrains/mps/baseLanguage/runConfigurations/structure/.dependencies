@@ -135,6 +135,17 @@
     <classNode dependClassName="jetbrains.mps.smodel.Language" />
     <classNode dependClassName="jetbrains.mps.smodel.MPSModuleRepository" />
   </dependency>
+  <dependency className="jetbrains.mps.baseLanguage.runConfigurations.structure.StructureAspectDescriptor" file="StructureAspectDescriptor.java">
+    <classNode dependClassName="com.google.common.collect.ImmutableList" />
+    <classNode dependClassName="com.google.common.collect.ImmutableSet" />
+    <classNode dependClassName="java.lang.String" />
+    <classNode dependClassName="java.util.ArrayList" />
+    <classNode dependClassName="java.util.List" />
+    <classNode dependClassName="java.util.Set" />
+    <classNode dependClassName="jetbrains.mps.smodel.structure.ConceptRegistry" />
+    <classNode extendsClassName="jetbrains.mps.smodel.structure.DescriptorProvider" />
+    <classNode extendsClassName="jetbrains.mps.smodel.structure.StructureDescriptor" />
+  </dependency>
   <dependency className="jetbrains.mps.baseLanguage.runConfigurations.structure.UserComponentReferenceAnnotation" file="UserComponentReferenceAnnotation.java">
     <classNode dependClassName="java.lang.String" />
     <classNode dependClassName="jetbrains.mps.lang.core.structure.NodeAttribute" />

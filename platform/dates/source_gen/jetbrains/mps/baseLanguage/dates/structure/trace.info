@@ -42,6 +42,7 @@
   <unitInfo fileName="ConstantTimeZoneRef.java" startLine="12" startPosition="0" endLine="36" endPosition="0" unitName="jetbrains.mps.baseLanguage.dates.structure.ConstantTimeZoneRef" />
   <unitInfo fileName="DateTimeZoneCreator.java" startLine="12" startPosition="0" endLine="36" endPosition="0" unitName="jetbrains.mps.baseLanguage.dates.structure.DateTimeZoneCreator" />
   <unitInfo fileName="DurationTypeReference.java" startLine="12" startPosition="0" endLine="36" endPosition="0" unitName="jetbrains.mps.baseLanguage.dates.structure.DurationTypeReference" />
+  <unitInfo fileName="StructureAspectDescriptor.java" startLine="245" startPosition="0" endLine="277" endPosition="0" unitName="jetbrains.mps.baseLanguage.dates.structure.StructureAspectDescriptor$DataBasedStructureDescriptor" />
   <unitInfo fileName="MathDateTimeOperation.java" startLine="11" startPosition="0" endLine="44" endPosition="0" unitName="jetbrains.mps.baseLanguage.dates.structure.MathDateTimeOperation" />
   <unitInfo fileName="DateTimeMinusPeriodOperation.java" startLine="11" startPosition="0" endLine="44" endPosition="0" unitName="jetbrains.mps.baseLanguage.dates.structure.DateTimeMinusPeriodOperation" />
   <unitInfo fileName="DateTimePlusPeriodOperation.java" startLine="11" startPosition="0" endLine="44" endPosition="0" unitName="jetbrains.mps.baseLanguage.dates.structure.DateTimePlusPeriodOperation" />
@@ -88,5 +89,6 @@
   <unitInfo fileName="PeriodFormat.java" startLine="15" startPosition="0" endLine="127" endPosition="0" unitName="jetbrains.mps.baseLanguage.dates.structure.PeriodFormat" />
   <unitInfo fileName="DateFormat.java" startLine="15" startPosition="0" endLine="127" endPosition="0" unitName="jetbrains.mps.baseLanguage.dates.structure.DateFormat" />
   <unitInfo fileName="TimeConstant.java" startLine="16" startPosition="0" endLine="142" endPosition="0" unitName="jetbrains.mps.baseLanguage.dates.structure.TimeConstant" />
+  <unitInfo fileName="StructureAspectDescriptor.java" startLine="14" startPosition="0" endLine="278" endPosition="0" unitName="jetbrains.mps.baseLanguage.dates.structure.StructureAspectDescriptor" />
 </debugInfo>
 

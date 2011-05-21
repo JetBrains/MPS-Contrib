@@ -26,6 +26,7 @@
   <unitInfo fileName="ComplexTypeReference.java" startLine="11" startPosition="0" endLine="35" endPosition="0" unitName="jetbrains.mps.xmlSchema.structure.ComplexTypeReference" />
   <unitInfo fileName="TextLine.java" startLine="11" startPosition="0" endLine="35" endPosition="0" unitName="jetbrains.mps.xmlSchema.structure.TextLine" />
   <unitInfo fileName="UseAttribute.java" startLine="11" startPosition="0" endLine="36" endPosition="0" unitName="jetbrains.mps.xmlSchema.structure.UseAttribute" />
+  <unitInfo fileName="StructureAspectDescriptor.java" startLine="143" startPosition="0" endLine="175" endPosition="0" unitName="jetbrains.mps.xmlSchema.structure.StructureAspectDescriptor$DataBasedStructureDescriptor" />
   <unitInfo fileName="ElementWithType.java" startLine="10" startPosition="0" endLine="43" endPosition="0" unitName="jetbrains.mps.xmlSchema.structure.ElementWithType" />
   <unitInfo fileName="Choice.java" startLine="10" startPosition="0" endLine="43" endPosition="0" unitName="jetbrains.mps.xmlSchema.structure.Choice" />
   <unitInfo fileName="GroupDeclaration.java" startLine="10" startPosition="0" endLine="43" endPosition="0" unitName="jetbrains.mps.xmlSchema.structure.GroupDeclaration" />
@@ -43,5 +44,6 @@
   <unitInfo fileName="AttributeDeclaration.java" startLine="14" startPosition="0" endLine="113" endPosition="0" unitName="jetbrains.mps.xmlSchema.structure.AttributeDeclaration" />
   <unitInfo fileName="EntitySet.java" startLine="15" startPosition="0" endLine="126" endPosition="0" unitName="jetbrains.mps.xmlSchema.structure.EntitySet" />
   <unitInfo fileName="Schema.java" startLine="15" startPosition="0" endLine="153" endPosition="0" unitName="jetbrains.mps.xmlSchema.structure.Schema" />
+  <unitInfo fileName="StructureAspectDescriptor.java" startLine="14" startPosition="0" endLine="176" endPosition="0" unitName="jetbrains.mps.xmlSchema.structure.StructureAspectDescriptor" />
 </debugInfo>
 
