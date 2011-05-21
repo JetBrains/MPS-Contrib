@@ -16,6 +16,7 @@
   <unitInfo fileName="RaiseInternalStatement.java" startLine="12" startPosition="0" endLine="36" endPosition="0" unitName="jetbrains.mps.uiLanguage.structure.RaiseInternalStatement" />
   <unitInfo fileName="EventHandlerReference.java" startLine="12" startPosition="0" endLine="36" endPosition="0" unitName="jetbrains.mps.uiLanguage.structure.EventHandlerReference" />
   <unitInfo fileName="AfterConstructionBlock.java" startLine="12" startPosition="0" endLine="36" endPosition="0" unitName="jetbrains.mps.uiLanguage.structure.AfterConstructionBlock" />
+  <unitInfo fileName="StructureAspectDescriptor.java" startLine="143" startPosition="0" endLine="175" endPosition="0" unitName="jetbrains.mps.uiLanguage.structure.StructureAspectDescriptor$DataBasedStructureDescriptor" />
   <unitInfo fileName="FormPart.java" startLine="11" startPosition="0" endLine="44" endPosition="0" unitName="jetbrains.mps.uiLanguage.structure.FormPart" />
   <unitInfo fileName="GridRow.java" startLine="13" startPosition="0" endLine="49" endPosition="0" unitName="jetbrains.mps.uiLanguage.structure.GridRow" />
   <unitInfo fileName="StandardDialogButton.java" startLine="12" startPosition="0" endLine="54" endPosition="0" unitName="jetbrains.mps.uiLanguage.structure.StandardDialogButton" />
@@ -40,6 +41,7 @@
   <unitInfo fileName="StandardDialog.java" startLine="14" startPosition="0" endLine="128" endPosition="0" unitName="jetbrains.mps.uiLanguage.structure.StandardDialog" />
   <unitInfo fileName="ComponentDeclaration.java" startLine="16" startPosition="0" endLine="151" endPosition="0" unitName="jetbrains.mps.uiLanguage.structure.ComponentDeclaration" />
   <unitInfo fileName="BeanDeclaration.java" startLine="18" startPosition="0" endLine="153" endPosition="0" unitName="jetbrains.mps.uiLanguage.structure.BeanDeclaration" />
+  <unitInfo fileName="StructureAspectDescriptor.java" startLine="14" startPosition="0" endLine="176" endPosition="0" unitName="jetbrains.mps.uiLanguage.structure.StructureAspectDescriptor" />
   <unitInfo fileName="ComponentController.java" startLine="17" startPosition="0" endLine="179" endPosition="0" unitName="jetbrains.mps.uiLanguage.structure.ComponentController" />
 </debugInfo>
 
