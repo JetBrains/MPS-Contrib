@@ -35,6 +35,7 @@
   <unitInfo fileName="AddListenerOperation_Constraints.java" startLine="23" startPosition="0" endLine="101" endPosition="0" unitName="jetbrains.mps.uiLanguage.constraints.AddListenerOperation_Constraints" />
   <unitInfo fileName="RemoveListenerOperation_Constraints.java" startLine="23" startPosition="0" endLine="101" endPosition="0" unitName="jetbrains.mps.uiLanguage.constraints.RemoveListenerOperation_Constraints" />
   <unitInfo fileName="ListElements_Constraints.java" startLine="30" startPosition="0" endLine="116" endPosition="0" unitName="jetbrains.mps.uiLanguage.constraints.ListElements_Constraints" />
+  <unitInfo fileName="ConstraintsAspectDescriptor.java" startLine="10" startPosition="0" endLine="139" endPosition="0" unitName="jetbrains.mps.uiLanguage.constraints.ConstraintsAspectDescriptor" />
   <root nodeId="1213104840187">
     <nodeInfo nodeId="1213104840191" fileName="ComponentReference_Constraints.java" startLine="76" startPosition="136" endLine="77" endPosition="245" conceptFqName="jetbrains.mps.baseLanguage.structure.LocalVariableDeclarationStatement" />
     <nodeInfo nodeId="1213104840201" fileName="ComponentReference_Constraints.java" startLine="77" startPosition="245" endLine="78" endPosition="42" conceptFqName="jetbrains.mps.baseLanguage.structure.LocalVariableDeclarationStatement" />
