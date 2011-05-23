@@ -20,9 +20,9 @@ public class StructureAspectDescriptor extends DescriptorProvider<StructureDescr
       case -1742027599:
         return new StructureAspectDescriptor.DataBasedStructureDescriptor("jetbrains.mps.xml.structure.Content", new String[]{"jetbrains.mps.lang.core.structure.BaseConcept"}, new String[]{}, new String[]{"jetbrains.mps.lang.core.structure.BaseConcept"});
       case -900767755:
-        return new StructureAspectDescriptor.DataBasedStructureDescriptor("jetbrains.mps.xml.structure.Text", new String[]{"jetbrains.mps.xml.structure.BaseText"}, new String[]{"jetbrains.mps.xml.structure.Content", "jetbrains.mps.xml.structure.BaseText"}, new String[]{"jetbrains.mps.lang.core.structure.BaseConcept"});
+        return new StructureAspectDescriptor.DataBasedStructureDescriptor("jetbrains.mps.xml.structure.Text", new String[]{"jetbrains.mps.xml.structure.BaseText"}, new String[]{"jetbrains.mps.xml.structure.BaseText", "jetbrains.mps.xml.structure.Content"}, new String[]{"jetbrains.mps.lang.core.structure.BaseConcept"});
       case 1986918965:
-        return new StructureAspectDescriptor.DataBasedStructureDescriptor("jetbrains.mps.xml.structure.ComplexText", new String[]{"jetbrains.mps.xml.structure.BaseText"}, new String[]{"jetbrains.mps.xml.structure.Content", "jetbrains.mps.xml.structure.BaseText"}, new String[]{"jetbrains.mps.lang.core.structure.BaseConcept"});
+        return new StructureAspectDescriptor.DataBasedStructureDescriptor("jetbrains.mps.xml.structure.ComplexText", new String[]{"jetbrains.mps.xml.structure.BaseText"}, new String[]{"jetbrains.mps.xml.structure.BaseText", "jetbrains.mps.xml.structure.Content"}, new String[]{"jetbrains.mps.lang.core.structure.BaseConcept"});
       case 677537382:
         return new StructureAspectDescriptor.DataBasedStructureDescriptor("jetbrains.mps.xml.structure.BaseText", new String[]{"jetbrains.mps.xml.structure.Content"}, new String[]{"jetbrains.mps.xml.structure.Content"}, new String[]{"jetbrains.mps.lang.core.structure.BaseConcept"});
       case 1191913711:
@@ -34,7 +34,7 @@ public class StructureAspectDescriptor extends DescriptorProvider<StructureDescr
       case 1368919252:
         return new StructureAspectDescriptor.DataBasedStructureDescriptor("jetbrains.mps.xml.structure.Attribute", new String[]{"jetbrains.mps.xml.structure.BaseAttribute"}, new String[]{"jetbrains.mps.xml.structure.BaseAttribute"}, new String[]{"jetbrains.mps.lang.core.structure.BaseConcept"});
       case 345637600:
-        return new StructureAspectDescriptor.DataBasedStructureDescriptor("jetbrains.mps.xml.structure.EntityReference", new String[]{"jetbrains.mps.xml.structure.BaseText"}, new String[]{"jetbrains.mps.xml.structure.Content", "jetbrains.mps.xml.structure.BaseText"}, new String[]{"jetbrains.mps.lang.core.structure.BaseConcept"});
+        return new StructureAspectDescriptor.DataBasedStructureDescriptor("jetbrains.mps.xml.structure.EntityReference", new String[]{"jetbrains.mps.xml.structure.BaseText"}, new String[]{"jetbrains.mps.xml.structure.BaseText", "jetbrains.mps.xml.structure.Content"}, new String[]{"jetbrains.mps.lang.core.structure.BaseConcept"});
       case -2075048157:
         return new StructureAspectDescriptor.DataBasedStructureDescriptor("jetbrains.mps.xml.structure.BaseElement", new String[]{"jetbrains.mps.xml.structure.Content"}, new String[]{"jetbrains.mps.xml.structure.Content"}, new String[]{"jetbrains.mps.lang.core.structure.BaseConcept"});
       case 2124233925:
