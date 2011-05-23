@@ -12,127 +12,89 @@ public class ConstraintsAspectDescriptor extends DescriptorProvider<ConstraintsD
   }
 
   public ConstraintsDescriptor getDescriptor(String fqName) {
-    if ("jetbrains.mps.xmlSchema.structure.ElementWithContent".equals(fqName)) {
-      return new DataHolderConstraintsDescriptor(new EmptyConstraintsDataHolder("jetbrains.mps.xmlSchema.structure.ElementWithContent"));
+    switch ((fqName).hashCode()) {
+      case -498905186:
+        return new DataHolderConstraintsDescriptor(new EmptyConstraintsDataHolder("jetbrains.mps.xmlSchema.structure.ElementWithContent"));
+      case 244564872:
+        return new DataHolderConstraintsDescriptor(new Schema_Constraints());
+      case -2027651085:
+        return new DataHolderConstraintsDescriptor(new Declaration_Constraints());
+      case 850864104:
+        return new DataHolderConstraintsDescriptor(new EmptyConstraintsDataHolder("jetbrains.mps.xmlSchema.structure.Sequence"));
+      case 1700459734:
+        return new DataHolderConstraintsDescriptor(new EmptyConstraintsDataHolder("jetbrains.mps.xmlSchema.structure.ElementReference"));
+      case 700675161:
+        return new DataHolderConstraintsDescriptor(new EmptyConstraintsDataHolder("jetbrains.mps.xmlSchema.structure.TypeExpression"));
+      case 724320200:
+        return new DataHolderConstraintsDescriptor(new EmptyConstraintsDataHolder("jetbrains.mps.xmlSchema.structure.MixedAttribute"));
+      case -575731038:
+        return new DataHolderConstraintsDescriptor(new GroupDeclaration_Constraints());
+      case -1610041232:
+        return new DataHolderConstraintsDescriptor(new EmptyConstraintsDataHolder("jetbrains.mps.xmlSchema.structure.GroupExpression"));
+      case -208671864:
+        return new DataHolderConstraintsDescriptor(new EmptyConstraintsDataHolder("jetbrains.mps.xmlSchema.structure.Choice"));
+      case -2027553165:
+        return new DataHolderConstraintsDescriptor(new EmptyConstraintsDataHolder("jetbrains.mps.xmlSchema.structure.GroupReference"));
+      case 1475640910:
+        return new DataHolderConstraintsDescriptor(new EmptyConstraintsDataHolder("jetbrains.mps.xmlSchema.structure.OccursAttribute"));
+      case 1381482236:
+        return new DataHolderConstraintsDescriptor(new EmptyConstraintsDataHolder("jetbrains.mps.xmlSchema.structure.MaxOccursExpression"));
+      case -1505576266:
+        return new DataHolderConstraintsDescriptor(new EmptyConstraintsDataHolder("jetbrains.mps.xmlSchema.structure.UnboundExpression"));
+      case 406493827:
+        return new DataHolderConstraintsDescriptor(new ComplexType_Constraints());
+      case 1108111608:
+        return new DataHolderConstraintsDescriptor(new EmptyConstraintsDataHolder("jetbrains.mps.xmlSchema.structure.Extension"));
+      case -1454287782:
+        return new DataHolderConstraintsDescriptor(new EmptyConstraintsDataHolder("jetbrains.mps.xmlSchema.structure.DeclarationBlock"));
+      case -1502561560:
+        return new DataHolderConstraintsDescriptor(new EmptyConstraintsDataHolder("jetbrains.mps.xmlSchema.structure.TextLine"));
+      case 857777893:
+        return new DataHolderConstraintsDescriptor(new AttributeDeclaration_Constraints());
+      case 2002408490:
+        return new DataHolderConstraintsDescriptor(new AttributeGroup_Constraints());
+      case -39778355:
+        return new DataHolderConstraintsDescriptor(new EmptyConstraintsDataHolder("jetbrains.mps.xmlSchema.structure.AttributeExpression"));
+      case -1688331711:
+        return new DataHolderConstraintsDescriptor(new EmptyConstraintsDataHolder("jetbrains.mps.xmlSchema.structure.AttributeGroupReference"));
+      case -118167544:
+        return new DataHolderConstraintsDescriptor(new ComplexTypeReference_Constraints());
+      case -145459056:
+        return new DataHolderConstraintsDescriptor(new EmptyConstraintsDataHolder("jetbrains.mps.xmlSchema.structure.ComplexContent"));
+      case -388609627:
+        return new DataHolderConstraintsDescriptor(new EmptyConstraintsDataHolder("jetbrains.mps.xmlSchema.structure.ContentItem"));
+      case -135019369:
+        return new DataHolderConstraintsDescriptor(new EmptyConstraintsDataHolder("jetbrains.mps.xmlSchema.structure.TypeExpressionList"));
+      case -405537120:
+        return new DataHolderConstraintsDescriptor(new EmptyConstraintsDataHolder("jetbrains.mps.xmlSchema.structure.SimpleContent"));
+      case 41940037:
+        return new DataHolderConstraintsDescriptor(new ElementDeclaration_Constraints());
+      case -1825845707:
+        return new DataHolderConstraintsDescriptor(new EmptyConstraintsDataHolder("jetbrains.mps.xmlSchema.structure.ElementWithType"));
+      case 1102352764:
+        return new DataHolderConstraintsDescriptor(new EmptyConstraintsDataHolder("jetbrains.mps.xmlSchema.structure.UseAttribute"));
+      case 980092472:
+        return new DataHolderConstraintsDescriptor(new EntitySet_Constraints());
+      case -1118009008:
+        return new DataHolderConstraintsDescriptor(new EntityDeclaration_Constraints());
+      case 1255534819:
+        return new DataHolderConstraintsDescriptor(new EmptyConstraintsDataHolder("jetbrains.mps.xmlSchema.structure.EntityBlock"));
+      case 317890782:
+        return new DataHolderConstraintsDescriptor(new EmptyConstraintsDataHolder("jetbrains.mps.xmlSchema.structure.EntityLine"));
+      case 2009145030:
+        return new DataHolderConstraintsDescriptor(new EmptyConstraintsDataHolder("jetbrains.mps.xmlSchema.structure.NamespaceDeclaration"));
+      case -437898093:
+        return new DataHolderConstraintsDescriptor(new EmptyConstraintsDataHolder("jetbrains.mps.xmlSchema.structure.StringSchemaType"));
+      case 1352581858:
+        return new DataHolderConstraintsDescriptor(new EmptyConstraintsDataHolder("jetbrains.mps.xmlSchema.structure.SchemaType"));
+      case -2123336686:
+        return new DataHolderConstraintsDescriptor(new EmptyConstraintsDataHolder("jetbrains.mps.xmlSchema.structure.IntegerSchemaType"));
+      case 1254441596:
+        return new DataHolderConstraintsDescriptor(new EmptyConstraintsDataHolder("jetbrains.mps.xmlSchema.structure.BooleanSchemaType"));
+      case -1616607057:
+        return new DataHolderConstraintsDescriptor(new BoundExpression_Constraints());
+      default:
+        return null;
     }
-    if ("jetbrains.mps.xmlSchema.structure.Schema".equals(fqName)) {
-      return new DataHolderConstraintsDescriptor(new Schema_Constraints());
-    }
-    if ("jetbrains.mps.xmlSchema.structure.Declaration".equals(fqName)) {
-      return new DataHolderConstraintsDescriptor(new Declaration_Constraints());
-    }
-    if ("jetbrains.mps.xmlSchema.structure.Sequence".equals(fqName)) {
-      return new DataHolderConstraintsDescriptor(new EmptyConstraintsDataHolder("jetbrains.mps.xmlSchema.structure.Sequence"));
-    }
-    if ("jetbrains.mps.xmlSchema.structure.ElementReference".equals(fqName)) {
-      return new DataHolderConstraintsDescriptor(new EmptyConstraintsDataHolder("jetbrains.mps.xmlSchema.structure.ElementReference"));
-    }
-    if ("jetbrains.mps.xmlSchema.structure.TypeExpression".equals(fqName)) {
-      return new DataHolderConstraintsDescriptor(new EmptyConstraintsDataHolder("jetbrains.mps.xmlSchema.structure.TypeExpression"));
-    }
-    if ("jetbrains.mps.xmlSchema.structure.MixedAttribute".equals(fqName)) {
-      return new DataHolderConstraintsDescriptor(new EmptyConstraintsDataHolder("jetbrains.mps.xmlSchema.structure.MixedAttribute"));
-    }
-    if ("jetbrains.mps.xmlSchema.structure.GroupDeclaration".equals(fqName)) {
-      return new DataHolderConstraintsDescriptor(new GroupDeclaration_Constraints());
-    }
-    if ("jetbrains.mps.xmlSchema.structure.GroupExpression".equals(fqName)) {
-      return new DataHolderConstraintsDescriptor(new EmptyConstraintsDataHolder("jetbrains.mps.xmlSchema.structure.GroupExpression"));
-    }
-    if ("jetbrains.mps.xmlSchema.structure.Choice".equals(fqName)) {
-      return new DataHolderConstraintsDescriptor(new EmptyConstraintsDataHolder("jetbrains.mps.xmlSchema.structure.Choice"));
-    }
-    if ("jetbrains.mps.xmlSchema.structure.GroupReference".equals(fqName)) {
-      return new DataHolderConstraintsDescriptor(new EmptyConstraintsDataHolder("jetbrains.mps.xmlSchema.structure.GroupReference"));
-    }
-    if ("jetbrains.mps.xmlSchema.structure.OccursAttribute".equals(fqName)) {
-      return new DataHolderConstraintsDescriptor(new EmptyConstraintsDataHolder("jetbrains.mps.xmlSchema.structure.OccursAttribute"));
-    }
-    if ("jetbrains.mps.xmlSchema.structure.MaxOccursExpression".equals(fqName)) {
-      return new DataHolderConstraintsDescriptor(new EmptyConstraintsDataHolder("jetbrains.mps.xmlSchema.structure.MaxOccursExpression"));
-    }
-    if ("jetbrains.mps.xmlSchema.structure.UnboundExpression".equals(fqName)) {
-      return new DataHolderConstraintsDescriptor(new EmptyConstraintsDataHolder("jetbrains.mps.xmlSchema.structure.UnboundExpression"));
-    }
-    if ("jetbrains.mps.xmlSchema.structure.ComplexType".equals(fqName)) {
-      return new DataHolderConstraintsDescriptor(new ComplexType_Constraints());
-    }
-    if ("jetbrains.mps.xmlSchema.structure.Extension".equals(fqName)) {
-      return new DataHolderConstraintsDescriptor(new EmptyConstraintsDataHolder("jetbrains.mps.xmlSchema.structure.Extension"));
-    }
-    if ("jetbrains.mps.xmlSchema.structure.DeclarationBlock".equals(fqName)) {
-      return new DataHolderConstraintsDescriptor(new EmptyConstraintsDataHolder("jetbrains.mps.xmlSchema.structure.DeclarationBlock"));
-    }
-    if ("jetbrains.mps.xmlSchema.structure.TextLine".equals(fqName)) {
-      return new DataHolderConstraintsDescriptor(new EmptyConstraintsDataHolder("jetbrains.mps.xmlSchema.structure.TextLine"));
-    }
-    if ("jetbrains.mps.xmlSchema.structure.AttributeDeclaration".equals(fqName)) {
-      return new DataHolderConstraintsDescriptor(new AttributeDeclaration_Constraints());
-    }
-    if ("jetbrains.mps.xmlSchema.structure.AttributeGroup".equals(fqName)) {
-      return new DataHolderConstraintsDescriptor(new AttributeGroup_Constraints());
-    }
-    if ("jetbrains.mps.xmlSchema.structure.AttributeExpression".equals(fqName)) {
-      return new DataHolderConstraintsDescriptor(new EmptyConstraintsDataHolder("jetbrains.mps.xmlSchema.structure.AttributeExpression"));
-    }
-    if ("jetbrains.mps.xmlSchema.structure.AttributeGroupReference".equals(fqName)) {
-      return new DataHolderConstraintsDescriptor(new EmptyConstraintsDataHolder("jetbrains.mps.xmlSchema.structure.AttributeGroupReference"));
-    }
-    if ("jetbrains.mps.xmlSchema.structure.ComplexTypeReference".equals(fqName)) {
-      return new DataHolderConstraintsDescriptor(new ComplexTypeReference_Constraints());
-    }
-    if ("jetbrains.mps.xmlSchema.structure.ComplexContent".equals(fqName)) {
-      return new DataHolderConstraintsDescriptor(new EmptyConstraintsDataHolder("jetbrains.mps.xmlSchema.structure.ComplexContent"));
-    }
-    if ("jetbrains.mps.xmlSchema.structure.ContentItem".equals(fqName)) {
-      return new DataHolderConstraintsDescriptor(new EmptyConstraintsDataHolder("jetbrains.mps.xmlSchema.structure.ContentItem"));
-    }
-    if ("jetbrains.mps.xmlSchema.structure.TypeExpressionList".equals(fqName)) {
-      return new DataHolderConstraintsDescriptor(new EmptyConstraintsDataHolder("jetbrains.mps.xmlSchema.structure.TypeExpressionList"));
-    }
-    if ("jetbrains.mps.xmlSchema.structure.SimpleContent".equals(fqName)) {
-      return new DataHolderConstraintsDescriptor(new EmptyConstraintsDataHolder("jetbrains.mps.xmlSchema.structure.SimpleContent"));
-    }
-    if ("jetbrains.mps.xmlSchema.structure.ElementDeclaration".equals(fqName)) {
-      return new DataHolderConstraintsDescriptor(new ElementDeclaration_Constraints());
-    }
-    if ("jetbrains.mps.xmlSchema.structure.ElementWithType".equals(fqName)) {
-      return new DataHolderConstraintsDescriptor(new EmptyConstraintsDataHolder("jetbrains.mps.xmlSchema.structure.ElementWithType"));
-    }
-    if ("jetbrains.mps.xmlSchema.structure.UseAttribute".equals(fqName)) {
-      return new DataHolderConstraintsDescriptor(new EmptyConstraintsDataHolder("jetbrains.mps.xmlSchema.structure.UseAttribute"));
-    }
-    if ("jetbrains.mps.xmlSchema.structure.EntitySet".equals(fqName)) {
-      return new DataHolderConstraintsDescriptor(new EntitySet_Constraints());
-    }
-    if ("jetbrains.mps.xmlSchema.structure.EntityDeclaration".equals(fqName)) {
-      return new DataHolderConstraintsDescriptor(new EntityDeclaration_Constraints());
-    }
-    if ("jetbrains.mps.xmlSchema.structure.EntityBlock".equals(fqName)) {
-      return new DataHolderConstraintsDescriptor(new EmptyConstraintsDataHolder("jetbrains.mps.xmlSchema.structure.EntityBlock"));
-    }
-    if ("jetbrains.mps.xmlSchema.structure.EntityLine".equals(fqName)) {
-      return new DataHolderConstraintsDescriptor(new EmptyConstraintsDataHolder("jetbrains.mps.xmlSchema.structure.EntityLine"));
-    }
-    if ("jetbrains.mps.xmlSchema.structure.NamespaceDeclaration".equals(fqName)) {
-      return new DataHolderConstraintsDescriptor(new EmptyConstraintsDataHolder("jetbrains.mps.xmlSchema.structure.NamespaceDeclaration"));
-    }
-    if ("jetbrains.mps.xmlSchema.structure.StringSchemaType".equals(fqName)) {
-      return new DataHolderConstraintsDescriptor(new EmptyConstraintsDataHolder("jetbrains.mps.xmlSchema.structure.StringSchemaType"));
-    }
-    if ("jetbrains.mps.xmlSchema.structure.SchemaType".equals(fqName)) {
-      return new DataHolderConstraintsDescriptor(new EmptyConstraintsDataHolder("jetbrains.mps.xmlSchema.structure.SchemaType"));
-    }
-    if ("jetbrains.mps.xmlSchema.structure.IntegerSchemaType".equals(fqName)) {
-      return new DataHolderConstraintsDescriptor(new EmptyConstraintsDataHolder("jetbrains.mps.xmlSchema.structure.IntegerSchemaType"));
-    }
-    if ("jetbrains.mps.xmlSchema.structure.BooleanSchemaType".equals(fqName)) {
-      return new DataHolderConstraintsDescriptor(new EmptyConstraintsDataHolder("jetbrains.mps.xmlSchema.structure.BooleanSchemaType"));
-    }
-    if ("jetbrains.mps.xmlSchema.structure.BoundExpression".equals(fqName)) {
-      return new DataHolderConstraintsDescriptor(new BoundExpression_Constraints());
-    }
-
-    return null;
   }
 }

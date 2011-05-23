@@ -12,58 +12,43 @@ public class ConstraintsAspectDescriptor extends DescriptorProvider<ConstraintsD
   }
 
   public ConstraintsDescriptor getDescriptor(String fqName) {
-    if ("jetbrains.mps.baseLanguage.datesInternal.structure.FormatTokenSettings".equals(fqName)) {
-      return new DataHolderConstraintsDescriptor(new EmptyConstraintsDataHolder("jetbrains.mps.baseLanguage.datesInternal.structure.FormatTokenSettings"));
+    switch ((fqName).hashCode()) {
+      case -359065713:
+        return new DataHolderConstraintsDescriptor(new EmptyConstraintsDataHolder("jetbrains.mps.baseLanguage.datesInternal.structure.FormatTokenSettings"));
+      case -511529530:
+        return new DataHolderConstraintsDescriptor(new DateTimeProperty_Constraints());
+      case -2066700279:
+        return new DataHolderConstraintsDescriptor(new EmptyConstraintsDataHolder("jetbrains.mps.baseLanguage.datesInternal.structure.DateTimePropertySettings"));
+      case -183205616:
+        return new DataHolderConstraintsDescriptor(new EmptyConstraintsDataHolder("jetbrains.mps.baseLanguage.datesInternal.structure.Locale"));
+      case 882827297:
+        return new DataHolderConstraintsDescriptor(new PredefinedDateFormat_Constraints());
+      case 2032850328:
+        return new DataHolderConstraintsDescriptor(new EmptyConstraintsDataHolder("jetbrains.mps.baseLanguage.datesInternal.structure.IDateFormat"));
+      case 417621484:
+        return new DataHolderConstraintsDescriptor(new DateTimeIntPropertyFormatConfiguration_Constraints());
+      case -1496337865:
+        return new DataHolderConstraintsDescriptor(new DateTimePropertyFormatType_Constraints());
+      case 254783464:
+        return new DataHolderConstraintsDescriptor(new DateTimePropertyCardinality_Constraints());
+      case 1465583824:
+        return new DataHolderConstraintsDescriptor(new DateTimePropertyConfiguration_Constraints());
+      case 2132371405:
+        return new DataHolderConstraintsDescriptor(new DateTimeZonePropertyFormatConfiguration_Constraints());
+      case -1900906204:
+        return new DataHolderConstraintsDescriptor(new DurationType_Constraints());
+      case -1251901174:
+        return new DataHolderConstraintsDescriptor(new Month_Constraints());
+      case -1134967826:
+        return new DataHolderConstraintsDescriptor(new SchedulePeriod_Constraints());
+      case 644715549:
+        return new DataHolderConstraintsDescriptor(new EmptyConstraintsDataHolder("jetbrains.mps.baseLanguage.datesInternal.structure.DateTimeZone"));
+      case 74152107:
+        return new DataHolderConstraintsDescriptor(new EmptyConstraintsDataHolder("jetbrains.mps.baseLanguage.datesInternal.structure.IPeriodFormat"));
+      case -1291385612:
+        return new DataHolderConstraintsDescriptor(new PredefinedPeriodFormat_Constraints());
+      default:
+        return null;
     }
-    if ("jetbrains.mps.baseLanguage.datesInternal.structure.DateTimeProperty".equals(fqName)) {
-      return new DataHolderConstraintsDescriptor(new DateTimeProperty_Constraints());
-    }
-    if ("jetbrains.mps.baseLanguage.datesInternal.structure.DateTimePropertySettings".equals(fqName)) {
-      return new DataHolderConstraintsDescriptor(new EmptyConstraintsDataHolder("jetbrains.mps.baseLanguage.datesInternal.structure.DateTimePropertySettings"));
-    }
-    if ("jetbrains.mps.baseLanguage.datesInternal.structure.Locale".equals(fqName)) {
-      return new DataHolderConstraintsDescriptor(new EmptyConstraintsDataHolder("jetbrains.mps.baseLanguage.datesInternal.structure.Locale"));
-    }
-    if ("jetbrains.mps.baseLanguage.datesInternal.structure.PredefinedDateFormat".equals(fqName)) {
-      return new DataHolderConstraintsDescriptor(new PredefinedDateFormat_Constraints());
-    }
-    if ("jetbrains.mps.baseLanguage.datesInternal.structure.IDateFormat".equals(fqName)) {
-      return new DataHolderConstraintsDescriptor(new EmptyConstraintsDataHolder("jetbrains.mps.baseLanguage.datesInternal.structure.IDateFormat"));
-    }
-    if ("jetbrains.mps.baseLanguage.datesInternal.structure.DateTimeIntPropertyFormatConfiguration".equals(fqName)) {
-      return new DataHolderConstraintsDescriptor(new DateTimeIntPropertyFormatConfiguration_Constraints());
-    }
-    if ("jetbrains.mps.baseLanguage.datesInternal.structure.DateTimePropertyFormatType".equals(fqName)) {
-      return new DataHolderConstraintsDescriptor(new DateTimePropertyFormatType_Constraints());
-    }
-    if ("jetbrains.mps.baseLanguage.datesInternal.structure.DateTimePropertyCardinality".equals(fqName)) {
-      return new DataHolderConstraintsDescriptor(new DateTimePropertyCardinality_Constraints());
-    }
-    if ("jetbrains.mps.baseLanguage.datesInternal.structure.DateTimePropertyConfiguration".equals(fqName)) {
-      return new DataHolderConstraintsDescriptor(new DateTimePropertyConfiguration_Constraints());
-    }
-    if ("jetbrains.mps.baseLanguage.datesInternal.structure.DateTimeZonePropertyFormatConfiguration".equals(fqName)) {
-      return new DataHolderConstraintsDescriptor(new DateTimeZonePropertyFormatConfiguration_Constraints());
-    }
-    if ("jetbrains.mps.baseLanguage.datesInternal.structure.DurationType".equals(fqName)) {
-      return new DataHolderConstraintsDescriptor(new DurationType_Constraints());
-    }
-    if ("jetbrains.mps.baseLanguage.datesInternal.structure.Month".equals(fqName)) {
-      return new DataHolderConstraintsDescriptor(new Month_Constraints());
-    }
-    if ("jetbrains.mps.baseLanguage.datesInternal.structure.SchedulePeriod".equals(fqName)) {
-      return new DataHolderConstraintsDescriptor(new SchedulePeriod_Constraints());
-    }
-    if ("jetbrains.mps.baseLanguage.datesInternal.structure.DateTimeZone".equals(fqName)) {
-      return new DataHolderConstraintsDescriptor(new EmptyConstraintsDataHolder("jetbrains.mps.baseLanguage.datesInternal.structure.DateTimeZone"));
-    }
-    if ("jetbrains.mps.baseLanguage.datesInternal.structure.IPeriodFormat".equals(fqName)) {
-      return new DataHolderConstraintsDescriptor(new EmptyConstraintsDataHolder("jetbrains.mps.baseLanguage.datesInternal.structure.IPeriodFormat"));
-    }
-    if ("jetbrains.mps.baseLanguage.datesInternal.structure.PredefinedPeriodFormat".equals(fqName)) {
-      return new DataHolderConstraintsDescriptor(new PredefinedPeriodFormat_Constraints());
-    }
-
-    return null;
   }
 }

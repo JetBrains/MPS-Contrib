@@ -12,34 +12,27 @@ public class ConstraintsAspectDescriptor extends DescriptorProvider<ConstraintsD
   }
 
   public ConstraintsDescriptor getDescriptor(String fqName) {
-    if ("jetbrains.mps.build.generictasks.structure.Attribute".equals(fqName)) {
-      return new DataHolderConstraintsDescriptor(new Attribute_Constraints());
+    switch ((fqName).hashCode()) {
+      case -1625726912:
+        return new DataHolderConstraintsDescriptor(new Attribute_Constraints());
+      case -1674242790:
+        return new DataHolderConstraintsDescriptor(new EmptyConstraintsDataHolder("jetbrains.mps.build.generictasks.structure.AttributeDeclaration"));
+      case -1156260001:
+        return new DataHolderConstraintsDescriptor(new TaskCall_Constraints());
+      case -813062782:
+        return new DataHolderConstraintsDescriptor(new TaskInterfaceDeclaration_Constraints());
+      case -869603122:
+        return new DataHolderConstraintsDescriptor(new BuiltInTaskDeclaration_Constraints());
+      case 2127895975:
+        return new DataHolderConstraintsDescriptor(new NestedDeclaration_Constraints());
+      case 1188894794:
+        return new DataHolderConstraintsDescriptor(new PathReference_Constraints());
+      case 1222693610:
+        return new DataHolderConstraintsDescriptor(new TaskReference_Constraints());
+      case 1912788200:
+        return new DataHolderConstraintsDescriptor(new EmptyConstraintsDataHolder("jetbrains.mps.build.generictasks.structure.ITaskDeclaration"));
+      default:
+        return null;
     }
-    if ("jetbrains.mps.build.generictasks.structure.AttributeDeclaration".equals(fqName)) {
-      return new DataHolderConstraintsDescriptor(new EmptyConstraintsDataHolder("jetbrains.mps.build.generictasks.structure.AttributeDeclaration"));
-    }
-    if ("jetbrains.mps.build.generictasks.structure.TaskCall".equals(fqName)) {
-      return new DataHolderConstraintsDescriptor(new TaskCall_Constraints());
-    }
-    if ("jetbrains.mps.build.generictasks.structure.TaskInterfaceDeclaration".equals(fqName)) {
-      return new DataHolderConstraintsDescriptor(new TaskInterfaceDeclaration_Constraints());
-    }
-    if ("jetbrains.mps.build.generictasks.structure.BuiltInTaskDeclaration".equals(fqName)) {
-      return new DataHolderConstraintsDescriptor(new BuiltInTaskDeclaration_Constraints());
-    }
-    if ("jetbrains.mps.build.generictasks.structure.NestedDeclaration".equals(fqName)) {
-      return new DataHolderConstraintsDescriptor(new NestedDeclaration_Constraints());
-    }
-    if ("jetbrains.mps.build.generictasks.structure.PathReference".equals(fqName)) {
-      return new DataHolderConstraintsDescriptor(new PathReference_Constraints());
-    }
-    if ("jetbrains.mps.build.generictasks.structure.TaskReference".equals(fqName)) {
-      return new DataHolderConstraintsDescriptor(new TaskReference_Constraints());
-    }
-    if ("jetbrains.mps.build.generictasks.structure.ITaskDeclaration".equals(fqName)) {
-      return new DataHolderConstraintsDescriptor(new EmptyConstraintsDataHolder("jetbrains.mps.build.generictasks.structure.ITaskDeclaration"));
-    }
-
-    return null;
   }
 }

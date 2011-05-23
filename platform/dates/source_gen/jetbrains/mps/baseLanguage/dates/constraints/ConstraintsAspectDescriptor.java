@@ -12,229 +12,157 @@ public class ConstraintsAspectDescriptor extends DescriptorProvider<ConstraintsD
   }
 
   public ConstraintsDescriptor getDescriptor(String fqName) {
-    if ("jetbrains.mps.baseLanguage.dates.structure.DateFormatsTable".equals(fqName)) {
-      return new DataHolderConstraintsDescriptor(new EmptyConstraintsDataHolder("jetbrains.mps.baseLanguage.dates.structure.DateFormatsTable"));
+    switch ((fqName).hashCode()) {
+      case -1493783853:
+        return new DataHolderConstraintsDescriptor(new EmptyConstraintsDataHolder("jetbrains.mps.baseLanguage.dates.structure.DateFormatsTable"));
+      case -2059388488:
+        return new DataHolderConstraintsDescriptor(new DateFormat_Constraints());
+      case -346684026:
+        return new DataHolderConstraintsDescriptor(new EmptyConstraintsDataHolder("jetbrains.mps.baseLanguage.dates.structure.LiteralFormatToken"));
+      case 1514136111:
+        return new DataHolderConstraintsDescriptor(new EmptyConstraintsDataHolder("jetbrains.mps.baseLanguage.dates.structure.FormatToken"));
+      case -1057940446:
+        return new DataHolderConstraintsDescriptor(new FormatExpression_Constraints());
+      case 609442255:
+        return new DataHolderConstraintsDescriptor(new EmptyConstraintsDataHolder("jetbrains.mps.baseLanguage.dates.structure.ConditionalFormatToken"));
+      case -775725910:
+        return new DataHolderConstraintsDescriptor(new ReferenceFormatToken_Constraints());
+      case 1870732282:
+        return new DataHolderConstraintsDescriptor(new TokenConditionalPair_Constraints());
+      case -806818629:
+        return new DataHolderConstraintsDescriptor(new EmptyConstraintsDataHolder("jetbrains.mps.baseLanguage.dates.structure.NowExpression"));
+      case -1474827755:
+        return new DataHolderConstraintsDescriptor(new EmptyConstraintsDataHolder("jetbrains.mps.baseLanguage.dates.structure.TokenCondition"));
+      case 1070965719:
+        return new DataHolderConstraintsDescriptor(new EmptyConstraintsDataHolder("jetbrains.mps.baseLanguage.dates.structure.TokenCondition_datetimeToFormat"));
+      case -1643840216:
+        return new DataHolderConstraintsDescriptor(new EmptyConstraintsDataHolder("jetbrains.mps.baseLanguage.dates.structure.DateTimeType"));
+      case -1445258608:
+        return new DataHolderConstraintsDescriptor(new EmptyConstraintsDataHolder("jetbrains.mps.baseLanguage.dates.structure.UnaryDateTimeOperation"));
+      case 173957872:
+        return new DataHolderConstraintsDescriptor(new EmptyConstraintsDataHolder("jetbrains.mps.baseLanguage.dates.structure.DateTimeCompareOperation"));
+      case -454652911:
+        return new DataHolderConstraintsDescriptor(new EmptyConstraintsDataHolder("jetbrains.mps.baseLanguage.dates.structure.RoundDateTimeOperation"));
+      case -1867471533:
+        return new DataHolderConstraintsDescriptor(new EmptyConstraintsDataHolder("jetbrains.mps.baseLanguage.dates.structure.FloorDateTimeOperation"));
+      case 722484226:
+        return new DataHolderConstraintsDescriptor(new EmptyConstraintsDataHolder("jetbrains.mps.baseLanguage.dates.structure.CeilingDateTimeOperation"));
+      case 2092152510:
+        return new DataHolderConstraintsDescriptor(new EmptyConstraintsDataHolder("jetbrains.mps.baseLanguage.dates.structure.DateTimeWithPropertyOperation"));
+      case -1830285042:
+        return new DataHolderConstraintsDescriptor(new EmptyConstraintsDataHolder("jetbrains.mps.baseLanguage.dates.structure.PeriodType"));
+      case -706978952:
+        return new DataHolderConstraintsDescriptor(new EmptyConstraintsDataHolder("jetbrains.mps.baseLanguage.dates.structure.PeriodConstant"));
+      case 2039229543:
+        return new DataHolderConstraintsDescriptor(new FixedLocaleFormatToken_Constraints());
+      case -1025003649:
+        return new DataHolderConstraintsDescriptor(new DateTimePropertyFormatToken_Constraints());
+      case -460587365:
+        return new DataHolderConstraintsDescriptor(new EmptyConstraintsDataHolder("jetbrains.mps.baseLanguage.dates.structure.InlineFormatExpression"));
+      case -1715662207:
+        return new DataHolderConstraintsDescriptor(new EmptyConstraintsDataHolder("jetbrains.mps.baseLanguage.dates.structure.DateTimeOffsetFormatToken"));
+      case 198561194:
+        return new DataHolderConstraintsDescriptor(new EmptyConstraintsDataHolder("jetbrains.mps.baseLanguage.dates.structure.DurationTypeReference"));
+      case -224762043:
+        return new DataHolderConstraintsDescriptor(new EmptyConstraintsDataHolder("jetbrains.mps.baseLanguage.dates.structure.DateTimeMinusOperation"));
+      case 1981860241:
+        return new DataHolderConstraintsDescriptor(new EmptyConstraintsDataHolder("jetbrains.mps.baseLanguage.dates.structure.AbsDateTimeMinusOperation"));
+      case 724913541:
+        return new DataHolderConstraintsDescriptor(new EmptyConstraintsDataHolder("jetbrains.mps.baseLanguage.dates.structure.ScheduleLiteral"));
+      case -1653365762:
+        return new DataHolderConstraintsDescriptor(new EmptyConstraintsDataHolder("jetbrains.mps.baseLanguage.dates.structure.DateTimePlusPeriodOperation"));
+      case -1668178940:
+        return new DataHolderConstraintsDescriptor(new EmptyConstraintsDataHolder("jetbrains.mps.baseLanguage.dates.structure.DateTimeMinusPeriodOperation"));
+      case 830686353:
+        return new DataHolderConstraintsDescriptor(new ConvertToDateTimeOperation_Constraints());
+      case -865473479:
+        return new DataHolderConstraintsDescriptor(new DateTimeOperation_Constraints());
+      case 2144627136:
+        return new DataHolderConstraintsDescriptor(new EmptyConstraintsDataHolder("jetbrains.mps.baseLanguage.dates.structure.NotNullOperation"));
+      case 1979342413:
+        return new DataHolderConstraintsDescriptor(new EmptyConstraintsDataHolder("jetbrains.mps.baseLanguage.dates.structure.NullOperation"));
+      case -405474356:
+        return new DataHolderConstraintsDescriptor(new EmptyConstraintsDataHolder("jetbrains.mps.baseLanguage.dates.structure.ConvertToJavaCalendarOperation"));
+      case 776042204:
+        return new DataHolderConstraintsDescriptor(new EmptyConstraintsDataHolder("jetbrains.mps.baseLanguage.dates.structure.ConvertToJavaDateOperation"));
+      case -1134546513:
+        return new DataHolderConstraintsDescriptor(new EmptyConstraintsDataHolder("jetbrains.mps.baseLanguage.dates.structure.ConvertToJodaDateTimeOperation"));
+      case -789035787:
+        return new DataHolderConstraintsDescriptor(new EmptyConstraintsDataHolder("jetbrains.mps.baseLanguage.dates.structure.DateTimePropetyReferenceOperation"));
+      case -859674191:
+        return new DataHolderConstraintsDescriptor(new EmptyConstraintsDataHolder("jetbrains.mps.baseLanguage.dates.structure.NeverExpression"));
+      case 1685010321:
+        return new DataHolderConstraintsDescriptor(new EmptyConstraintsDataHolder("jetbrains.mps.baseLanguage.dates.structure.MathDateTimeOperation"));
+      case -1517315955:
+        return new DataHolderConstraintsDescriptor(new EmptyConstraintsDataHolder("jetbrains.mps.baseLanguage.dates.structure.MinDateTimeOperation"));
+      case -437297221:
+        return new DataHolderConstraintsDescriptor(new EmptyConstraintsDataHolder("jetbrains.mps.baseLanguage.dates.structure.MaxDateTimeOperation"));
+      case 1182349300:
+        return new DataHolderConstraintsDescriptor(new EmptyConstraintsDataHolder("jetbrains.mps.baseLanguage.dates.structure.DateTimeZoneType"));
+      case 1288296720:
+        return new DataHolderConstraintsDescriptor(new EmptyConstraintsDataHolder("jetbrains.mps.baseLanguage.dates.structure.TimeZoneConstant"));
+      case -309230165:
+        return new DataHolderConstraintsDescriptor(new EmptyConstraintsDataHolder("jetbrains.mps.baseLanguage.dates.structure.DefaultTimeZoneConstant"));
+      case 900106638:
+        return new DataHolderConstraintsDescriptor(new EmptyConstraintsDataHolder("jetbrains.mps.baseLanguage.dates.structure.UTCTimeZoneConstant"));
+      case -2072025806:
+        return new DataHolderConstraintsDescriptor(new EmptyConstraintsDataHolder("jetbrains.mps.baseLanguage.dates.structure.DateTimeZoneCreator"));
+      case 1743824995:
+        return new DataHolderConstraintsDescriptor(new EmptyConstraintsDataHolder("jetbrains.mps.baseLanguage.dates.structure.ConstantTimeZoneRef"));
+      case -828717369:
+        return new DataHolderConstraintsDescriptor(new EmptyConstraintsDataHolder("jetbrains.mps.baseLanguage.dates.structure.TimeZoneFromString"));
+      case 1933603865:
+        return new DataHolderConstraintsDescriptor(new EmptyConstraintsDataHolder("jetbrains.mps.baseLanguage.dates.structure.PeriodInPropertyOperation"));
+      case -101867889:
+        return new DataHolderConstraintsDescriptor(new WithPropertyCompareExpression_Constraints());
+      case 454030616:
+        return new DataHolderConstraintsDescriptor(new EmptyConstraintsDataHolder("jetbrains.mps.baseLanguage.dates.structure.ParseExpression"));
+      case 2029722975:
+        return new DataHolderConstraintsDescriptor(new TimeZoneIDExpression_Constraints());
+      case -1809432329:
+        return new DataHolderConstraintsDescriptor(new EmptyConstraintsDataHolder("jetbrains.mps.baseLanguage.dates.structure.TimeZoneOffsetExpression"));
+      case 1120707220:
+        return new DataHolderConstraintsDescriptor(new EmptyConstraintsDataHolder("jetbrains.mps.baseLanguage.dates.structure.DateTimeWithTZType"));
+      case 179317289:
+        return new DataHolderConstraintsDescriptor(new EmptyConstraintsDataHolder("jetbrains.mps.baseLanguage.dates.structure.InTimezoneExpression"));
+      case -1963197677:
+        return new DataHolderConstraintsDescriptor(new EmptyConstraintsDataHolder("jetbrains.mps.baseLanguage.dates.structure.ParseDateTimeExpression"));
+      case -143493091:
+        return new DataHolderConstraintsDescriptor(new FormatDateTimeExpression_Constraints());
+      case 1600377238:
+        return new DataHolderConstraintsDescriptor(new EmptyConstraintsDataHolder("jetbrains.mps.baseLanguage.dates.structure.InlineFormatDateTimeExpression"));
+      case 105674401:
+        return new DataHolderConstraintsDescriptor(new EmptyConstraintsDataHolder("jetbrains.mps.baseLanguage.dates.structure.DurationType"));
+      case 645516984:
+        return new DataHolderConstraintsDescriptor(new ConvertToDurationOperation_Constraints());
+      case -1987458522:
+        return new DataHolderConstraintsDescriptor(new EmptyConstraintsDataHolder("jetbrains.mps.baseLanguage.dates.structure.PeriodInPropertyExpression"));
+      case 1815907652:
+        return new DataHolderConstraintsDescriptor(new EmptyConstraintsDataHolder("jetbrains.mps.baseLanguage.dates.structure.TimeConstant"));
+      case 1897144643:
+        return new DataHolderConstraintsDescriptor(new FormatPeriodExpression_Constraints());
+      case 1622693067:
+        return new DataHolderConstraintsDescriptor(new PeriodFormat_Constraints());
+      case 144161774:
+        return new DataHolderConstraintsDescriptor(new EmptyConstraintsDataHolder("jetbrains.mps.baseLanguage.dates.structure.PeriodFormatToken"));
+      case 489195239:
+        return new DataHolderConstraintsDescriptor(new EmptyConstraintsDataHolder("jetbrains.mps.baseLanguage.dates.structure.PeriodLiteralFormatToken"));
+      case 1036315558:
+        return new DataHolderConstraintsDescriptor(new EmptyConstraintsDataHolder("jetbrains.mps.baseLanguage.dates.structure.PeriodFormatsTable"));
+      case -2010541351:
+        return new DataHolderConstraintsDescriptor(new PeriodPropertyFormatToken_Constraints());
+      case -654636597:
+        return new DataHolderConstraintsDescriptor(new PeriodReferenceFormatToken_Constraints());
+      case -1583939087:
+        return new DataHolderConstraintsDescriptor(new EmptyConstraintsDataHolder("jetbrains.mps.baseLanguage.dates.structure.PeriodSeparatorFormatToken"));
+      case -900105824:
+        return new DataHolderConstraintsDescriptor(new TimeZoneIdOperation_Constraints());
+      case 1629336880:
+        return new DataHolderConstraintsDescriptor(new TimeZoneNameOperation_Constraints());
+      case 1213578832:
+        return new DataHolderConstraintsDescriptor(new EmptyConstraintsDataHolder("jetbrains.mps.baseLanguage.dates.structure.AllTimeZonesConstant"));
+      default:
+        return null;
     }
-    if ("jetbrains.mps.baseLanguage.dates.structure.DateFormat".equals(fqName)) {
-      return new DataHolderConstraintsDescriptor(new DateFormat_Constraints());
-    }
-    if ("jetbrains.mps.baseLanguage.dates.structure.LiteralFormatToken".equals(fqName)) {
-      return new DataHolderConstraintsDescriptor(new EmptyConstraintsDataHolder("jetbrains.mps.baseLanguage.dates.structure.LiteralFormatToken"));
-    }
-    if ("jetbrains.mps.baseLanguage.dates.structure.FormatToken".equals(fqName)) {
-      return new DataHolderConstraintsDescriptor(new EmptyConstraintsDataHolder("jetbrains.mps.baseLanguage.dates.structure.FormatToken"));
-    }
-    if ("jetbrains.mps.baseLanguage.dates.structure.FormatExpression".equals(fqName)) {
-      return new DataHolderConstraintsDescriptor(new FormatExpression_Constraints());
-    }
-    if ("jetbrains.mps.baseLanguage.dates.structure.ConditionalFormatToken".equals(fqName)) {
-      return new DataHolderConstraintsDescriptor(new EmptyConstraintsDataHolder("jetbrains.mps.baseLanguage.dates.structure.ConditionalFormatToken"));
-    }
-    if ("jetbrains.mps.baseLanguage.dates.structure.ReferenceFormatToken".equals(fqName)) {
-      return new DataHolderConstraintsDescriptor(new ReferenceFormatToken_Constraints());
-    }
-    if ("jetbrains.mps.baseLanguage.dates.structure.TokenConditionalPair".equals(fqName)) {
-      return new DataHolderConstraintsDescriptor(new TokenConditionalPair_Constraints());
-    }
-    if ("jetbrains.mps.baseLanguage.dates.structure.NowExpression".equals(fqName)) {
-      return new DataHolderConstraintsDescriptor(new EmptyConstraintsDataHolder("jetbrains.mps.baseLanguage.dates.structure.NowExpression"));
-    }
-    if ("jetbrains.mps.baseLanguage.dates.structure.TokenCondition".equals(fqName)) {
-      return new DataHolderConstraintsDescriptor(new EmptyConstraintsDataHolder("jetbrains.mps.baseLanguage.dates.structure.TokenCondition"));
-    }
-    if ("jetbrains.mps.baseLanguage.dates.structure.TokenCondition_datetimeToFormat".equals(fqName)) {
-      return new DataHolderConstraintsDescriptor(new EmptyConstraintsDataHolder("jetbrains.mps.baseLanguage.dates.structure.TokenCondition_datetimeToFormat"));
-    }
-    if ("jetbrains.mps.baseLanguage.dates.structure.DateTimeType".equals(fqName)) {
-      return new DataHolderConstraintsDescriptor(new EmptyConstraintsDataHolder("jetbrains.mps.baseLanguage.dates.structure.DateTimeType"));
-    }
-    if ("jetbrains.mps.baseLanguage.dates.structure.UnaryDateTimeOperation".equals(fqName)) {
-      return new DataHolderConstraintsDescriptor(new EmptyConstraintsDataHolder("jetbrains.mps.baseLanguage.dates.structure.UnaryDateTimeOperation"));
-    }
-    if ("jetbrains.mps.baseLanguage.dates.structure.DateTimeCompareOperation".equals(fqName)) {
-      return new DataHolderConstraintsDescriptor(new EmptyConstraintsDataHolder("jetbrains.mps.baseLanguage.dates.structure.DateTimeCompareOperation"));
-    }
-    if ("jetbrains.mps.baseLanguage.dates.structure.RoundDateTimeOperation".equals(fqName)) {
-      return new DataHolderConstraintsDescriptor(new EmptyConstraintsDataHolder("jetbrains.mps.baseLanguage.dates.structure.RoundDateTimeOperation"));
-    }
-    if ("jetbrains.mps.baseLanguage.dates.structure.FloorDateTimeOperation".equals(fqName)) {
-      return new DataHolderConstraintsDescriptor(new EmptyConstraintsDataHolder("jetbrains.mps.baseLanguage.dates.structure.FloorDateTimeOperation"));
-    }
-    if ("jetbrains.mps.baseLanguage.dates.structure.CeilingDateTimeOperation".equals(fqName)) {
-      return new DataHolderConstraintsDescriptor(new EmptyConstraintsDataHolder("jetbrains.mps.baseLanguage.dates.structure.CeilingDateTimeOperation"));
-    }
-    if ("jetbrains.mps.baseLanguage.dates.structure.DateTimeWithPropertyOperation".equals(fqName)) {
-      return new DataHolderConstraintsDescriptor(new EmptyConstraintsDataHolder("jetbrains.mps.baseLanguage.dates.structure.DateTimeWithPropertyOperation"));
-    }
-    if ("jetbrains.mps.baseLanguage.dates.structure.PeriodType".equals(fqName)) {
-      return new DataHolderConstraintsDescriptor(new EmptyConstraintsDataHolder("jetbrains.mps.baseLanguage.dates.structure.PeriodType"));
-    }
-    if ("jetbrains.mps.baseLanguage.dates.structure.PeriodConstant".equals(fqName)) {
-      return new DataHolderConstraintsDescriptor(new EmptyConstraintsDataHolder("jetbrains.mps.baseLanguage.dates.structure.PeriodConstant"));
-    }
-    if ("jetbrains.mps.baseLanguage.dates.structure.FixedLocaleFormatToken".equals(fqName)) {
-      return new DataHolderConstraintsDescriptor(new FixedLocaleFormatToken_Constraints());
-    }
-    if ("jetbrains.mps.baseLanguage.dates.structure.DateTimePropertyFormatToken".equals(fqName)) {
-      return new DataHolderConstraintsDescriptor(new DateTimePropertyFormatToken_Constraints());
-    }
-    if ("jetbrains.mps.baseLanguage.dates.structure.InlineFormatExpression".equals(fqName)) {
-      return new DataHolderConstraintsDescriptor(new EmptyConstraintsDataHolder("jetbrains.mps.baseLanguage.dates.structure.InlineFormatExpression"));
-    }
-    if ("jetbrains.mps.baseLanguage.dates.structure.DateTimeOffsetFormatToken".equals(fqName)) {
-      return new DataHolderConstraintsDescriptor(new EmptyConstraintsDataHolder("jetbrains.mps.baseLanguage.dates.structure.DateTimeOffsetFormatToken"));
-    }
-    if ("jetbrains.mps.baseLanguage.dates.structure.DurationTypeReference".equals(fqName)) {
-      return new DataHolderConstraintsDescriptor(new EmptyConstraintsDataHolder("jetbrains.mps.baseLanguage.dates.structure.DurationTypeReference"));
-    }
-    if ("jetbrains.mps.baseLanguage.dates.structure.DateTimeMinusOperation".equals(fqName)) {
-      return new DataHolderConstraintsDescriptor(new EmptyConstraintsDataHolder("jetbrains.mps.baseLanguage.dates.structure.DateTimeMinusOperation"));
-    }
-    if ("jetbrains.mps.baseLanguage.dates.structure.AbsDateTimeMinusOperation".equals(fqName)) {
-      return new DataHolderConstraintsDescriptor(new EmptyConstraintsDataHolder("jetbrains.mps.baseLanguage.dates.structure.AbsDateTimeMinusOperation"));
-    }
-    if ("jetbrains.mps.baseLanguage.dates.structure.ScheduleLiteral".equals(fqName)) {
-      return new DataHolderConstraintsDescriptor(new EmptyConstraintsDataHolder("jetbrains.mps.baseLanguage.dates.structure.ScheduleLiteral"));
-    }
-    if ("jetbrains.mps.baseLanguage.dates.structure.DateTimePlusPeriodOperation".equals(fqName)) {
-      return new DataHolderConstraintsDescriptor(new EmptyConstraintsDataHolder("jetbrains.mps.baseLanguage.dates.structure.DateTimePlusPeriodOperation"));
-    }
-    if ("jetbrains.mps.baseLanguage.dates.structure.DateTimeMinusPeriodOperation".equals(fqName)) {
-      return new DataHolderConstraintsDescriptor(new EmptyConstraintsDataHolder("jetbrains.mps.baseLanguage.dates.structure.DateTimeMinusPeriodOperation"));
-    }
-    if ("jetbrains.mps.baseLanguage.dates.structure.ConvertToDateTimeOperation".equals(fqName)) {
-      return new DataHolderConstraintsDescriptor(new ConvertToDateTimeOperation_Constraints());
-    }
-    if ("jetbrains.mps.baseLanguage.dates.structure.DateTimeOperation".equals(fqName)) {
-      return new DataHolderConstraintsDescriptor(new DateTimeOperation_Constraints());
-    }
-    if ("jetbrains.mps.baseLanguage.dates.structure.NotNullOperation".equals(fqName)) {
-      return new DataHolderConstraintsDescriptor(new EmptyConstraintsDataHolder("jetbrains.mps.baseLanguage.dates.structure.NotNullOperation"));
-    }
-    if ("jetbrains.mps.baseLanguage.dates.structure.NullOperation".equals(fqName)) {
-      return new DataHolderConstraintsDescriptor(new EmptyConstraintsDataHolder("jetbrains.mps.baseLanguage.dates.structure.NullOperation"));
-    }
-    if ("jetbrains.mps.baseLanguage.dates.structure.ConvertToJavaCalendarOperation".equals(fqName)) {
-      return new DataHolderConstraintsDescriptor(new EmptyConstraintsDataHolder("jetbrains.mps.baseLanguage.dates.structure.ConvertToJavaCalendarOperation"));
-    }
-    if ("jetbrains.mps.baseLanguage.dates.structure.ConvertToJavaDateOperation".equals(fqName)) {
-      return new DataHolderConstraintsDescriptor(new EmptyConstraintsDataHolder("jetbrains.mps.baseLanguage.dates.structure.ConvertToJavaDateOperation"));
-    }
-    if ("jetbrains.mps.baseLanguage.dates.structure.ConvertToJodaDateTimeOperation".equals(fqName)) {
-      return new DataHolderConstraintsDescriptor(new EmptyConstraintsDataHolder("jetbrains.mps.baseLanguage.dates.structure.ConvertToJodaDateTimeOperation"));
-    }
-    if ("jetbrains.mps.baseLanguage.dates.structure.DateTimePropetyReferenceOperation".equals(fqName)) {
-      return new DataHolderConstraintsDescriptor(new EmptyConstraintsDataHolder("jetbrains.mps.baseLanguage.dates.structure.DateTimePropetyReferenceOperation"));
-    }
-    if ("jetbrains.mps.baseLanguage.dates.structure.NeverExpression".equals(fqName)) {
-      return new DataHolderConstraintsDescriptor(new EmptyConstraintsDataHolder("jetbrains.mps.baseLanguage.dates.structure.NeverExpression"));
-    }
-    if ("jetbrains.mps.baseLanguage.dates.structure.MathDateTimeOperation".equals(fqName)) {
-      return new DataHolderConstraintsDescriptor(new EmptyConstraintsDataHolder("jetbrains.mps.baseLanguage.dates.structure.MathDateTimeOperation"));
-    }
-    if ("jetbrains.mps.baseLanguage.dates.structure.MinDateTimeOperation".equals(fqName)) {
-      return new DataHolderConstraintsDescriptor(new EmptyConstraintsDataHolder("jetbrains.mps.baseLanguage.dates.structure.MinDateTimeOperation"));
-    }
-    if ("jetbrains.mps.baseLanguage.dates.structure.MaxDateTimeOperation".equals(fqName)) {
-      return new DataHolderConstraintsDescriptor(new EmptyConstraintsDataHolder("jetbrains.mps.baseLanguage.dates.structure.MaxDateTimeOperation"));
-    }
-    if ("jetbrains.mps.baseLanguage.dates.structure.DateTimeZoneType".equals(fqName)) {
-      return new DataHolderConstraintsDescriptor(new EmptyConstraintsDataHolder("jetbrains.mps.baseLanguage.dates.structure.DateTimeZoneType"));
-    }
-    if ("jetbrains.mps.baseLanguage.dates.structure.TimeZoneConstant".equals(fqName)) {
-      return new DataHolderConstraintsDescriptor(new EmptyConstraintsDataHolder("jetbrains.mps.baseLanguage.dates.structure.TimeZoneConstant"));
-    }
-    if ("jetbrains.mps.baseLanguage.dates.structure.DefaultTimeZoneConstant".equals(fqName)) {
-      return new DataHolderConstraintsDescriptor(new EmptyConstraintsDataHolder("jetbrains.mps.baseLanguage.dates.structure.DefaultTimeZoneConstant"));
-    }
-    if ("jetbrains.mps.baseLanguage.dates.structure.UTCTimeZoneConstant".equals(fqName)) {
-      return new DataHolderConstraintsDescriptor(new EmptyConstraintsDataHolder("jetbrains.mps.baseLanguage.dates.structure.UTCTimeZoneConstant"));
-    }
-    if ("jetbrains.mps.baseLanguage.dates.structure.DateTimeZoneCreator".equals(fqName)) {
-      return new DataHolderConstraintsDescriptor(new EmptyConstraintsDataHolder("jetbrains.mps.baseLanguage.dates.structure.DateTimeZoneCreator"));
-    }
-    if ("jetbrains.mps.baseLanguage.dates.structure.ConstantTimeZoneRef".equals(fqName)) {
-      return new DataHolderConstraintsDescriptor(new EmptyConstraintsDataHolder("jetbrains.mps.baseLanguage.dates.structure.ConstantTimeZoneRef"));
-    }
-    if ("jetbrains.mps.baseLanguage.dates.structure.TimeZoneFromString".equals(fqName)) {
-      return new DataHolderConstraintsDescriptor(new EmptyConstraintsDataHolder("jetbrains.mps.baseLanguage.dates.structure.TimeZoneFromString"));
-    }
-    if ("jetbrains.mps.baseLanguage.dates.structure.PeriodInPropertyOperation".equals(fqName)) {
-      return new DataHolderConstraintsDescriptor(new EmptyConstraintsDataHolder("jetbrains.mps.baseLanguage.dates.structure.PeriodInPropertyOperation"));
-    }
-    if ("jetbrains.mps.baseLanguage.dates.structure.WithPropertyCompareExpression".equals(fqName)) {
-      return new DataHolderConstraintsDescriptor(new WithPropertyCompareExpression_Constraints());
-    }
-    if ("jetbrains.mps.baseLanguage.dates.structure.ParseExpression".equals(fqName)) {
-      return new DataHolderConstraintsDescriptor(new EmptyConstraintsDataHolder("jetbrains.mps.baseLanguage.dates.structure.ParseExpression"));
-    }
-    if ("jetbrains.mps.baseLanguage.dates.structure.TimeZoneIDExpression".equals(fqName)) {
-      return new DataHolderConstraintsDescriptor(new TimeZoneIDExpression_Constraints());
-    }
-    if ("jetbrains.mps.baseLanguage.dates.structure.TimeZoneOffsetExpression".equals(fqName)) {
-      return new DataHolderConstraintsDescriptor(new EmptyConstraintsDataHolder("jetbrains.mps.baseLanguage.dates.structure.TimeZoneOffsetExpression"));
-    }
-    if ("jetbrains.mps.baseLanguage.dates.structure.DateTimeWithTZType".equals(fqName)) {
-      return new DataHolderConstraintsDescriptor(new EmptyConstraintsDataHolder("jetbrains.mps.baseLanguage.dates.structure.DateTimeWithTZType"));
-    }
-    if ("jetbrains.mps.baseLanguage.dates.structure.InTimezoneExpression".equals(fqName)) {
-      return new DataHolderConstraintsDescriptor(new EmptyConstraintsDataHolder("jetbrains.mps.baseLanguage.dates.structure.InTimezoneExpression"));
-    }
-    if ("jetbrains.mps.baseLanguage.dates.structure.ParseDateTimeExpression".equals(fqName)) {
-      return new DataHolderConstraintsDescriptor(new EmptyConstraintsDataHolder("jetbrains.mps.baseLanguage.dates.structure.ParseDateTimeExpression"));
-    }
-    if ("jetbrains.mps.baseLanguage.dates.structure.FormatDateTimeExpression".equals(fqName)) {
-      return new DataHolderConstraintsDescriptor(new FormatDateTimeExpression_Constraints());
-    }
-    if ("jetbrains.mps.baseLanguage.dates.structure.InlineFormatDateTimeExpression".equals(fqName)) {
-      return new DataHolderConstraintsDescriptor(new EmptyConstraintsDataHolder("jetbrains.mps.baseLanguage.dates.structure.InlineFormatDateTimeExpression"));
-    }
-    if ("jetbrains.mps.baseLanguage.dates.structure.DurationType".equals(fqName)) {
-      return new DataHolderConstraintsDescriptor(new EmptyConstraintsDataHolder("jetbrains.mps.baseLanguage.dates.structure.DurationType"));
-    }
-    if ("jetbrains.mps.baseLanguage.dates.structure.ConvertToDurationOperation".equals(fqName)) {
-      return new DataHolderConstraintsDescriptor(new ConvertToDurationOperation_Constraints());
-    }
-    if ("jetbrains.mps.baseLanguage.dates.structure.PeriodInPropertyExpression".equals(fqName)) {
-      return new DataHolderConstraintsDescriptor(new EmptyConstraintsDataHolder("jetbrains.mps.baseLanguage.dates.structure.PeriodInPropertyExpression"));
-    }
-    if ("jetbrains.mps.baseLanguage.dates.structure.TimeConstant".equals(fqName)) {
-      return new DataHolderConstraintsDescriptor(new EmptyConstraintsDataHolder("jetbrains.mps.baseLanguage.dates.structure.TimeConstant"));
-    }
-    if ("jetbrains.mps.baseLanguage.dates.structure.FormatPeriodExpression".equals(fqName)) {
-      return new DataHolderConstraintsDescriptor(new FormatPeriodExpression_Constraints());
-    }
-    if ("jetbrains.mps.baseLanguage.dates.structure.PeriodFormat".equals(fqName)) {
-      return new DataHolderConstraintsDescriptor(new PeriodFormat_Constraints());
-    }
-    if ("jetbrains.mps.baseLanguage.dates.structure.PeriodFormatToken".equals(fqName)) {
-      return new DataHolderConstraintsDescriptor(new EmptyConstraintsDataHolder("jetbrains.mps.baseLanguage.dates.structure.PeriodFormatToken"));
-    }
-    if ("jetbrains.mps.baseLanguage.dates.structure.PeriodLiteralFormatToken".equals(fqName)) {
-      return new DataHolderConstraintsDescriptor(new EmptyConstraintsDataHolder("jetbrains.mps.baseLanguage.dates.structure.PeriodLiteralFormatToken"));
-    }
-    if ("jetbrains.mps.baseLanguage.dates.structure.PeriodFormatsTable".equals(fqName)) {
-      return new DataHolderConstraintsDescriptor(new EmptyConstraintsDataHolder("jetbrains.mps.baseLanguage.dates.structure.PeriodFormatsTable"));
-    }
-    if ("jetbrains.mps.baseLanguage.dates.structure.PeriodPropertyFormatToken".equals(fqName)) {
-      return new DataHolderConstraintsDescriptor(new PeriodPropertyFormatToken_Constraints());
-    }
-    if ("jetbrains.mps.baseLanguage.dates.structure.PeriodReferenceFormatToken".equals(fqName)) {
-      return new DataHolderConstraintsDescriptor(new PeriodReferenceFormatToken_Constraints());
-    }
-    if ("jetbrains.mps.baseLanguage.dates.structure.PeriodSeparatorFormatToken".equals(fqName)) {
-      return new DataHolderConstraintsDescriptor(new EmptyConstraintsDataHolder("jetbrains.mps.baseLanguage.dates.structure.PeriodSeparatorFormatToken"));
-    }
-    if ("jetbrains.mps.baseLanguage.dates.structure.TimeZoneIdOperation".equals(fqName)) {
-      return new DataHolderConstraintsDescriptor(new TimeZoneIdOperation_Constraints());
-    }
-    if ("jetbrains.mps.baseLanguage.dates.structure.TimeZoneNameOperation".equals(fqName)) {
-      return new DataHolderConstraintsDescriptor(new TimeZoneNameOperation_Constraints());
-    }
-    if ("jetbrains.mps.baseLanguage.dates.structure.AllTimeZonesConstant".equals(fqName)) {
-      return new DataHolderConstraintsDescriptor(new EmptyConstraintsDataHolder("jetbrains.mps.baseLanguage.dates.structure.AllTimeZonesConstant"));
-    }
-
-    return null;
   }
 }

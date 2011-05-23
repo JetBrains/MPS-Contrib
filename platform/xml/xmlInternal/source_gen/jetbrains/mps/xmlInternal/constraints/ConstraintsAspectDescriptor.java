@@ -12,49 +12,37 @@ public class ConstraintsAspectDescriptor extends DescriptorProvider<ConstraintsD
   }
 
   public ConstraintsDescriptor getDescriptor(String fqName) {
-    if ("jetbrains.mps.xmlInternal.structure.StatementElement".equals(fqName)) {
-      return new DataHolderConstraintsDescriptor(new EmptyConstraintsDataHolder("jetbrains.mps.xmlInternal.structure.StatementElement"));
+    switch ((fqName).hashCode()) {
+      case 459650392:
+        return new DataHolderConstraintsDescriptor(new EmptyConstraintsDataHolder("jetbrains.mps.xmlInternal.structure.StatementElement"));
+      case -770580543:
+        return new DataHolderConstraintsDescriptor(new EmptyConstraintsDataHolder("jetbrains.mps.xmlInternal.structure.ContentStatement"));
+      case -1907285240:
+        return new DataHolderConstraintsDescriptor(new XmlFile_Constraints());
+      case 2068094694:
+        return new DataHolderConstraintsDescriptor(new EmptyConstraintsDataHolder("jetbrains.mps.xmlInternal.structure.Document"));
+      case 989313844:
+        return new DataHolderConstraintsDescriptor(new EmptyConstraintsDataHolder("jetbrains.mps.xmlInternal.structure.Comment"));
+      case -1171124951:
+        return new DataHolderConstraintsDescriptor(new EmptyConstraintsDataHolder("jetbrains.mps.xmlInternal.structure.DocumentStatement"));
+      case -1809835518:
+        return new DataHolderConstraintsDescriptor(new EmptyConstraintsDataHolder("jetbrains.mps.xmlInternal.structure.Prolog"));
+      case 1324766746:
+        return new DataHolderConstraintsDescriptor(new EmptyConstraintsDataHolder("jetbrains.mps.xmlInternal.structure.DocumentTypeDeclaration"));
+      case -2015679151:
+        return new DataHolderConstraintsDescriptor(new EmptyConstraintsDataHolder("jetbrains.mps.xmlInternal.structure.ExternalId"));
+      case 1965348954:
+        return new DataHolderConstraintsDescriptor(new EmptyConstraintsDataHolder("jetbrains.mps.xmlInternal.structure.PublicExternalId"));
+      case 221375876:
+        return new DataHolderConstraintsDescriptor(new EmptyConstraintsDataHolder("jetbrains.mps.xmlInternal.structure.Literal"));
+      case -681332225:
+        return new DataHolderConstraintsDescriptor(new EmptyConstraintsDataHolder("jetbrains.mps.xmlInternal.structure.SimpleElement"));
+      case -1653634849:
+        return new DataHolderConstraintsDescriptor(new EmptyConstraintsDataHolder("jetbrains.mps.xmlInternal.structure.SimpleAttribute"));
+      case -1253664884:
+        return new DataHolderConstraintsDescriptor(new EmptyConstraintsDataHolder("jetbrains.mps.xmlInternal.structure.NamespaceAttribute"));
+      default:
+        return null;
     }
-    if ("jetbrains.mps.xmlInternal.structure.ContentStatement".equals(fqName)) {
-      return new DataHolderConstraintsDescriptor(new EmptyConstraintsDataHolder("jetbrains.mps.xmlInternal.structure.ContentStatement"));
-    }
-    if ("jetbrains.mps.xmlInternal.structure.XmlFile".equals(fqName)) {
-      return new DataHolderConstraintsDescriptor(new XmlFile_Constraints());
-    }
-    if ("jetbrains.mps.xmlInternal.structure.Document".equals(fqName)) {
-      return new DataHolderConstraintsDescriptor(new EmptyConstraintsDataHolder("jetbrains.mps.xmlInternal.structure.Document"));
-    }
-    if ("jetbrains.mps.xmlInternal.structure.Comment".equals(fqName)) {
-      return new DataHolderConstraintsDescriptor(new EmptyConstraintsDataHolder("jetbrains.mps.xmlInternal.structure.Comment"));
-    }
-    if ("jetbrains.mps.xmlInternal.structure.DocumentStatement".equals(fqName)) {
-      return new DataHolderConstraintsDescriptor(new EmptyConstraintsDataHolder("jetbrains.mps.xmlInternal.structure.DocumentStatement"));
-    }
-    if ("jetbrains.mps.xmlInternal.structure.Prolog".equals(fqName)) {
-      return new DataHolderConstraintsDescriptor(new EmptyConstraintsDataHolder("jetbrains.mps.xmlInternal.structure.Prolog"));
-    }
-    if ("jetbrains.mps.xmlInternal.structure.DocumentTypeDeclaration".equals(fqName)) {
-      return new DataHolderConstraintsDescriptor(new EmptyConstraintsDataHolder("jetbrains.mps.xmlInternal.structure.DocumentTypeDeclaration"));
-    }
-    if ("jetbrains.mps.xmlInternal.structure.ExternalId".equals(fqName)) {
-      return new DataHolderConstraintsDescriptor(new EmptyConstraintsDataHolder("jetbrains.mps.xmlInternal.structure.ExternalId"));
-    }
-    if ("jetbrains.mps.xmlInternal.structure.PublicExternalId".equals(fqName)) {
-      return new DataHolderConstraintsDescriptor(new EmptyConstraintsDataHolder("jetbrains.mps.xmlInternal.structure.PublicExternalId"));
-    }
-    if ("jetbrains.mps.xmlInternal.structure.Literal".equals(fqName)) {
-      return new DataHolderConstraintsDescriptor(new EmptyConstraintsDataHolder("jetbrains.mps.xmlInternal.structure.Literal"));
-    }
-    if ("jetbrains.mps.xmlInternal.structure.SimpleElement".equals(fqName)) {
-      return new DataHolderConstraintsDescriptor(new EmptyConstraintsDataHolder("jetbrains.mps.xmlInternal.structure.SimpleElement"));
-    }
-    if ("jetbrains.mps.xmlInternal.structure.SimpleAttribute".equals(fqName)) {
-      return new DataHolderConstraintsDescriptor(new EmptyConstraintsDataHolder("jetbrains.mps.xmlInternal.structure.SimpleAttribute"));
-    }
-    if ("jetbrains.mps.xmlInternal.structure.NamespaceAttribute".equals(fqName)) {
-      return new DataHolderConstraintsDescriptor(new EmptyConstraintsDataHolder("jetbrains.mps.xmlInternal.structure.NamespaceAttribute"));
-    }
-
-    return null;
   }
 }

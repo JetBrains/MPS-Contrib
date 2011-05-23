@@ -28,8 +28,8 @@
   <unitInfo fileName="PropertyDeclaration.java" startLine="10" startPosition="0" endLine="34" endPosition="0" unitName="jetbrains.mps.buildlanguage.structure.PropertyDeclaration" />
   <unitInfo fileName="TargetReference.java" startLine="11" startPosition="0" endLine="35" endPosition="0" unitName="jetbrains.mps.buildlanguage.structure.TargetReference" />
   <unitInfo fileName="CallReference.java" startLine="10" startPosition="0" endLine="35" endPosition="0" unitName="jetbrains.mps.buildlanguage.structure.CallReference" />
-  <unitInfo fileName="StructureAspectDescriptor.java" startLine="140" startPosition="0" endLine="172" endPosition="0" unitName="jetbrains.mps.buildlanguage.structure.StructureAspectDescriptor$DataBasedStructureDescriptor" />
   <unitInfo fileName="BinaryOperation.java" startLine="10" startPosition="0" endLine="44" endPosition="0" unitName="jetbrains.mps.buildlanguage.structure.BinaryOperation" />
+  <unitInfo fileName="StructureAspectDescriptor.java" startLine="103" startPosition="0" endLine="139" endPosition="0" unitName="jetbrains.mps.buildlanguage.structure.StructureAspectDescriptor$DataBasedStructureDescriptor" />
   <unitInfo fileName="Enum.java" startLine="13" startPosition="0" endLine="50" endPosition="0" unitName="jetbrains.mps.buildlanguage.structure.Enum" />
   <unitInfo fileName="PropertyValueExpression.java" startLine="14" startPosition="0" endLine="77" endPosition="0" unitName="jetbrains.mps.buildlanguage.structure.PropertyValueExpression" />
   <unitInfo fileName="TargetReferencePropertyValueExpression.java" startLine="13" startPosition="0" endLine="94" endPosition="0" unitName="jetbrains.mps.buildlanguage.structure.TargetReferencePropertyValueExpression" />
@@ -39,8 +39,8 @@
   <unitInfo fileName="PropertyReference.java" startLine="14" startPosition="0" endLine="95" endPosition="0" unitName="jetbrains.mps.buildlanguage.structure.PropertyReference" />
   <unitInfo fileName="MultiLineString.java" startLine="14" startPosition="0" endLine="107" endPosition="0" unitName="jetbrains.mps.buildlanguage.structure.MultiLineString" />
   <unitInfo fileName="AbstractCall.java" startLine="14" startPosition="0" endLine="116" endPosition="0" unitName="jetbrains.mps.buildlanguage.structure.AbstractCall" />
+  <unitInfo fileName="StructureAspectDescriptor.java" startLine="14" startPosition="0" endLine="140" endPosition="0" unitName="jetbrains.mps.buildlanguage.structure.StructureAspectDescriptor" />
   <unitInfo fileName="TargetDeclaration.java" startLine="14" startPosition="0" endLine="167" endPosition="0" unitName="jetbrains.mps.buildlanguage.structure.TargetDeclaration" />
-  <unitInfo fileName="StructureAspectDescriptor.java" startLine="14" startPosition="0" endLine="173" endPosition="0" unitName="jetbrains.mps.buildlanguage.structure.StructureAspectDescriptor" />
   <unitInfo fileName="Project.java" startLine="15" startPosition="0" endLine="210" endPosition="0" unitName="jetbrains.mps.buildlanguage.structure.Project" />
 </debugInfo>
 

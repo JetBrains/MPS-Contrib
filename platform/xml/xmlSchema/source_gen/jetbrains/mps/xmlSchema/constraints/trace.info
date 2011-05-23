@@ -23,7 +23,7 @@
   <unitInfo fileName="AttributeDeclaration_Constraints.java" startLine="18" startPosition="0" endLine="68" endPosition="0" unitName="jetbrains.mps.xmlSchema.constraints.AttributeDeclaration_Constraints" />
   <unitInfo fileName="ComplexTypeReference_Constraints.java" startLine="21" startPosition="0" endLine="81" endPosition="0" unitName="jetbrains.mps.xmlSchema.constraints.ComplexTypeReference_Constraints" />
   <unitInfo fileName="Declaration_Constraints.java" startLine="25" startPosition="0" endLine="95" endPosition="0" unitName="jetbrains.mps.xmlSchema.constraints.Declaration_Constraints" />
-  <unitInfo fileName="ConstraintsAspectDescriptor.java" startLine="10" startPosition="0" endLine="139" endPosition="0" unitName="jetbrains.mps.xmlSchema.constraints.ConstraintsAspectDescriptor" />
+  <unitInfo fileName="ConstraintsAspectDescriptor.java" startLine="10" startPosition="0" endLine="101" endPosition="0" unitName="jetbrains.mps.xmlSchema.constraints.ConstraintsAspectDescriptor" />
   <root nodeId="115745247309443795">
     <nodeInfo nodeId="115745247309443799" fileName="ComplexTypeReference_Constraints.java" startLine="70" startPosition="136" endLine="71" endPosition="104" conceptFqName="jetbrains.mps.baseLanguage.structure.ReturnStatement" />
     <scopeInfo nodeId="115745247309443798" fileName="ComplexTypeReference_Constraints.java" startLine="70" startPosition="136" endLine="71" endPosition="104" />

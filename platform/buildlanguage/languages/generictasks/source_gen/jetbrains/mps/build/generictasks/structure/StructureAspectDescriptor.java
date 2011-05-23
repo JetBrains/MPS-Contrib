@@ -16,44 +16,37 @@ public class StructureAspectDescriptor extends DescriptorProvider<StructureDescr
   }
 
   public StructureDescriptor getDescriptor(String conceptFqName) {
-    int hash = conceptFqName.hashCode();
-    if (hash == -1625726912) {
-      return new StructureAspectDescriptor.DataBasedStructureDescriptor("jetbrains.mps.build.generictasks.structure.Attribute", "jetbrains.mps.lang.core.structure.BaseConcept");
+    switch ((conceptFqName).hashCode()) {
+      case -1625726912:
+        return new StructureAspectDescriptor.DataBasedStructureDescriptor("jetbrains.mps.build.generictasks.structure.Attribute", new String[]{"jetbrains.mps.lang.core.structure.BaseConcept"}, new String[]{}, new String[]{"jetbrains.mps.lang.core.structure.BaseConcept"});
+      case -1674242790:
+        return new StructureAspectDescriptor.DataBasedStructureDescriptor("jetbrains.mps.build.generictasks.structure.AttributeDeclaration", new String[]{"jetbrains.mps.lang.core.structure.BaseConcept", "jetbrains.mps.lang.core.structure.INamedConcept", "jetbrains.mps.baseLanguage.classifiers.structure.IMember"}, new String[]{}, new String[]{"jetbrains.mps.lang.core.structure.BaseConcept", "jetbrains.mps.lang.core.structure.INamedConcept", "jetbrains.mps.baseLanguage.classifiers.structure.IMember"});
+      case -1156260001:
+        return new StructureAspectDescriptor.DataBasedStructureDescriptor("jetbrains.mps.build.generictasks.structure.TaskCall", new String[]{"jetbrains.mps.buildlanguage.structure.AbstractCall", "jetbrains.mps.lang.core.structure.INamedConcept"}, new String[]{}, new String[]{"jetbrains.mps.lang.core.structure.INamedConcept", "jetbrains.mps.buildlanguage.structure.AbstractCall"});
+      case -813062782:
+        return new StructureAspectDescriptor.DataBasedStructureDescriptor("jetbrains.mps.build.generictasks.structure.TaskInterfaceDeclaration", new String[]{"jetbrains.mps.build.generictasks.structure.BuiltInTaskDeclaration"}, new String[]{"jetbrains.mps.build.generictasks.structure.BuiltInTaskDeclaration", "jetbrains.mps.build.generictasks.structure.ITaskDeclaration"}, new String[]{"jetbrains.mps.buildlanguage.structure.IDeclaration", "jetbrains.mps.baseLanguage.classifiers.structure.IClassifier"});
+      case -869603122:
+        return new StructureAspectDescriptor.DataBasedStructureDescriptor("jetbrains.mps.build.generictasks.structure.BuiltInTaskDeclaration", new String[]{"jetbrains.mps.build.generictasks.structure.ITaskDeclaration"}, new String[]{"jetbrains.mps.build.generictasks.structure.ITaskDeclaration"}, new String[]{"jetbrains.mps.buildlanguage.structure.IDeclaration", "jetbrains.mps.baseLanguage.classifiers.structure.IClassifier"});
+      case 2127895975:
+        return new StructureAspectDescriptor.DataBasedStructureDescriptor("jetbrains.mps.build.generictasks.structure.NestedDeclaration", new String[]{"jetbrains.mps.build.generictasks.structure.TaskReference"}, new String[]{"jetbrains.mps.build.generictasks.structure.TaskReference"}, new String[]{"jetbrains.mps.lang.core.structure.BaseConcept"});
+      case 1188894794:
+        return new StructureAspectDescriptor.DataBasedStructureDescriptor("jetbrains.mps.build.generictasks.structure.PathReference", new String[]{"jetbrains.mps.buildlanguage.structure.CallReference"}, new String[]{}, new String[]{"jetbrains.mps.buildlanguage.structure.CallReference"});
+      case 1222693610:
+        return new StructureAspectDescriptor.DataBasedStructureDescriptor("jetbrains.mps.build.generictasks.structure.TaskReference", new String[]{"jetbrains.mps.lang.core.structure.BaseConcept"}, new String[]{}, new String[]{"jetbrains.mps.lang.core.structure.BaseConcept"});
+      case 1912788200:
+        return new StructureAspectDescriptor.DataBasedStructureDescriptor("jetbrains.mps.build.generictasks.structure.ITaskDeclaration", new String[]{"jetbrains.mps.buildlanguage.structure.IDeclaration", "jetbrains.mps.baseLanguage.classifiers.structure.IClassifier"}, new String[]{}, new String[]{"jetbrains.mps.buildlanguage.structure.IDeclaration", "jetbrains.mps.baseLanguage.classifiers.structure.IClassifier"});
+      default:
+        return null;
     }
-    if (hash == -1674242790) {
-      return new StructureAspectDescriptor.DataBasedStructureDescriptor("jetbrains.mps.build.generictasks.structure.AttributeDeclaration", "jetbrains.mps.lang.core.structure.BaseConcept", "jetbrains.mps.lang.core.structure.INamedConcept", "jetbrains.mps.baseLanguage.classifiers.structure.IMember");
-    }
-    if (hash == -1156260001) {
-      return new StructureAspectDescriptor.DataBasedStructureDescriptor("jetbrains.mps.build.generictasks.structure.TaskCall", "jetbrains.mps.buildlanguage.structure.AbstractCall", "jetbrains.mps.lang.core.structure.INamedConcept");
-    }
-    if (hash == -813062782) {
-      return new StructureAspectDescriptor.DataBasedStructureDescriptor("jetbrains.mps.build.generictasks.structure.TaskInterfaceDeclaration", "jetbrains.mps.build.generictasks.structure.BuiltInTaskDeclaration");
-    }
-    if (hash == -869603122) {
-      return new StructureAspectDescriptor.DataBasedStructureDescriptor("jetbrains.mps.build.generictasks.structure.BuiltInTaskDeclaration", "jetbrains.mps.build.generictasks.structure.ITaskDeclaration");
-    }
-    if (hash == 2127895975) {
-      return new StructureAspectDescriptor.DataBasedStructureDescriptor("jetbrains.mps.build.generictasks.structure.NestedDeclaration", "jetbrains.mps.build.generictasks.structure.TaskReference");
-    }
-    if (hash == 1188894794) {
-      return new StructureAspectDescriptor.DataBasedStructureDescriptor("jetbrains.mps.build.generictasks.structure.PathReference", "jetbrains.mps.buildlanguage.structure.CallReference");
-    }
-    if (hash == 1222693610) {
-      return new StructureAspectDescriptor.DataBasedStructureDescriptor("jetbrains.mps.build.generictasks.structure.TaskReference", "jetbrains.mps.lang.core.structure.BaseConcept");
-    }
-    if (hash == 1912788200) {
-      return new StructureAspectDescriptor.DataBasedStructureDescriptor("jetbrains.mps.build.generictasks.structure.ITaskDeclaration", "jetbrains.mps.buildlanguage.structure.IDeclaration", "jetbrains.mps.baseLanguage.classifiers.structure.IClassifier");
-    }
-    return null;
   }
 
   public static class DataBasedStructureDescriptor extends StructureDescriptor {
     private ImmutableList<String> parents;
     private ImmutableSet<String> ancestors;
 
-    public DataBasedStructureDescriptor(String fqName, String... parents) {
+    public DataBasedStructureDescriptor(String fqName, String[] parents, String[] ancestorsInLanguage, String[] ancestorsNotInLanguage) {
       this.parents = ImmutableList.copyOf(parents);
-      this.ancestors = getAncestors(fqName, parents);
+      this.ancestors = getAncestors(fqName, ancestorsInLanguage, ancestorsNotInLanguage);
     }
 
     public Set<String> getAncestorsNames() {
@@ -68,12 +61,16 @@ public class StructureAspectDescriptor extends DescriptorProvider<StructureDescr
       return parents;
     }
 
-    private static ImmutableSet<String> getAncestors(String conceptFqName, String... parents) {
-      List<String> result = new ArrayList();
+    private static ImmutableSet<String> getAncestors(String conceptFqName, String[] ancestorsInLanguage, String[] ancestorsNotInLanguage) {
+      ArrayList<String> result = new ArrayList(ancestorsInLanguage.length + 1);
+
+      for (String ancestor : ancestorsInLanguage) {
+        result.add(ancestor);
+      }
 
       result.add(conceptFqName);
       ConceptRegistry registry = ConceptRegistry.getInstance();
-      for (String parent : parents) {
+      for (String parent : ancestorsNotInLanguage) {
         result.addAll(registry.getStructureDescriptor(parent).getAncestorsNames());
       }
       return ImmutableSet.copyOf(result);

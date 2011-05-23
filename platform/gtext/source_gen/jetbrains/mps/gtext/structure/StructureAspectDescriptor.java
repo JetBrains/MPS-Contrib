@@ -16,71 +16,55 @@ public class StructureAspectDescriptor extends DescriptorProvider<StructureDescr
   }
 
   public StructureDescriptor getDescriptor(String conceptFqName) {
-    int hash = conceptFqName.hashCode();
-    if (hash == 1210042857) {
-      return new StructureAspectDescriptor.DataBasedStructureDescriptor("jetbrains.mps.gtext.structure.GText", "jetbrains.mps.gtext.structure.GItem");
+    switch ((conceptFqName).hashCode()) {
+      case 1210042857:
+        return new StructureAspectDescriptor.DataBasedStructureDescriptor("jetbrains.mps.gtext.structure.GText", new String[]{"jetbrains.mps.gtext.structure.GItem"}, new String[]{"jetbrains.mps.gtext.structure.GItem", "jetbrains.mps.gtext.structure.GTextConcept"}, new String[]{"jetbrains.mps.lang.core.structure.BaseConcept"});
+      case 1209728975:
+        return new StructureAspectDescriptor.DataBasedStructureDescriptor("jetbrains.mps.gtext.structure.GItem", new String[]{"jetbrains.mps.lang.core.structure.BaseConcept", "jetbrains.mps.gtext.structure.GTextConcept"}, new String[]{"jetbrains.mps.gtext.structure.GTextConcept"}, new String[]{"jetbrains.mps.lang.core.structure.BaseConcept"});
+      case -1072913139:
+        return new StructureAspectDescriptor.DataBasedStructureDescriptor("jetbrains.mps.gtext.structure.GItemList", new String[]{"jetbrains.mps.gtext.structure.GItem", "jetbrains.mps.gtext.structure.GCompositeItem"}, new String[]{"jetbrains.mps.gtext.structure.GItem", "jetbrains.mps.gtext.structure.GCompositeItem", "jetbrains.mps.gtext.structure.GTextConcept"}, new String[]{"jetbrains.mps.lang.core.structure.BaseConcept"});
+      case -305827976:
+        return new StructureAspectDescriptor.DataBasedStructureDescriptor("jetbrains.mps.gtext.structure.GNewLine", new String[]{"jetbrains.mps.gtext.structure.GItem"}, new String[]{"jetbrains.mps.gtext.structure.GItem", "jetbrains.mps.gtext.structure.GTextConcept"}, new String[]{"jetbrains.mps.lang.core.structure.BaseConcept"});
+      case -1392167320:
+        return new StructureAspectDescriptor.DataBasedStructureDescriptor("jetbrains.mps.gtext.structure.GIndent", new String[]{"jetbrains.mps.gtext.structure.GItem"}, new String[]{"jetbrains.mps.gtext.structure.GItem", "jetbrains.mps.gtext.structure.GTextConcept"}, new String[]{"jetbrains.mps.lang.core.structure.BaseConcept"});
+      case -1994825979:
+        return new StructureAspectDescriptor.DataBasedStructureDescriptor("jetbrains.mps.gtext.structure.GIndentBlock", new String[]{"jetbrains.mps.gtext.structure.GItem"}, new String[]{"jetbrains.mps.gtext.structure.GItem", "jetbrains.mps.gtext.structure.GTextConcept"}, new String[]{"jetbrains.mps.lang.core.structure.BaseConcept"});
+      case -547380640:
+        return new StructureAspectDescriptor.DataBasedStructureDescriptor("jetbrains.mps.gtext.structure.GItemStatement", new String[]{"jetbrains.mps.baseLanguage.structure.Statement"}, new String[]{}, new String[]{"jetbrains.mps.baseLanguage.structure.Statement"});
+      case 774586247:
+        return new StructureAspectDescriptor.DataBasedStructureDescriptor("jetbrains.mps.gtext.structure.GExpressionItem", new String[]{"jetbrains.mps.gtext.structure.GItem"}, new String[]{"jetbrains.mps.gtext.structure.GItem", "jetbrains.mps.gtext.structure.GTextConcept"}, new String[]{"jetbrains.mps.lang.core.structure.BaseConcept"});
+      case -357312538:
+        return new StructureAspectDescriptor.DataBasedStructureDescriptor("jetbrains.mps.gtext.structure.GStatementItem", new String[]{"jetbrains.mps.gtext.structure.GItem"}, new String[]{"jetbrains.mps.gtext.structure.GItem", "jetbrains.mps.gtext.structure.GTextConcept"}, new String[]{"jetbrains.mps.lang.core.structure.BaseConcept"});
+      case 1209808048:
+        return new StructureAspectDescriptor.DataBasedStructureDescriptor("jetbrains.mps.gtext.structure.GLine", new String[]{"jetbrains.mps.gtext.structure.GItem", "jetbrains.mps.gtext.structure.GCompositeItem"}, new String[]{"jetbrains.mps.gtext.structure.GItem", "jetbrains.mps.gtext.structure.GCompositeItem", "jetbrains.mps.gtext.structure.GTextConcept"}, new String[]{"jetbrains.mps.lang.core.structure.BaseConcept"});
+      case 1295613278:
+        return new StructureAspectDescriptor.DataBasedStructureDescriptor("jetbrains.mps.gtext.structure.GConditionalLine", new String[]{"jetbrains.mps.gtext.structure.GItem", "jetbrains.mps.gtext.structure.GCompositeItem"}, new String[]{"jetbrains.mps.gtext.structure.GItem", "jetbrains.mps.gtext.structure.GCompositeItem", "jetbrains.mps.gtext.structure.GTextConcept"}, new String[]{"jetbrains.mps.lang.core.structure.BaseConcept"});
+      case 1314943636:
+        return new StructureAspectDescriptor.DataBasedStructureDescriptor("jetbrains.mps.gtext.structure.BuilderContextRef", new String[]{"jetbrains.mps.baseLanguage.structure.Expression", "jetbrains.mps.gtext.structure.GTextConcept"}, new String[]{"jetbrains.mps.gtext.structure.GTextConcept"}, new String[]{"jetbrains.mps.baseLanguage.structure.Expression"});
+      case -1388472361:
+        return new StructureAspectDescriptor.DataBasedStructureDescriptor("jetbrains.mps.gtext.structure.GDocument", new String[]{"jetbrains.mps.lang.core.structure.BaseConcept", "jetbrains.mps.lang.core.structure.INamedConcept"}, new String[]{}, new String[]{"jetbrains.mps.lang.core.structure.BaseConcept", "jetbrains.mps.lang.core.structure.INamedConcept"});
+      case 454426687:
+        return new StructureAspectDescriptor.DataBasedStructureDescriptor("jetbrains.mps.gtext.structure.GTextConcept", new String[]{}, new String[]{}, new String[]{});
+      case -904823526:
+        return new StructureAspectDescriptor.DataBasedStructureDescriptor("jetbrains.mps.gtext.structure.GSeparatorItemList", new String[]{"jetbrains.mps.gtext.structure.GItem", "jetbrains.mps.gtext.structure.GCompositeItem"}, new String[]{"jetbrains.mps.gtext.structure.GItem", "jetbrains.mps.gtext.structure.GCompositeItem", "jetbrains.mps.gtext.structure.GTextConcept"}, new String[]{"jetbrains.mps.lang.core.structure.BaseConcept"});
+      case 446574326:
+        return new StructureAspectDescriptor.DataBasedStructureDescriptor("jetbrains.mps.gtext.structure.GContentPlaceholder", new String[]{"jetbrains.mps.gtext.structure.GItem", "jetbrains.mps.lang.core.structure.INamedConcept"}, new String[]{"jetbrains.mps.gtext.structure.GItem", "jetbrains.mps.gtext.structure.GTextConcept"}, new String[]{"jetbrains.mps.lang.core.structure.BaseConcept", "jetbrains.mps.lang.core.structure.INamedConcept"});
+      case -1436578736:
+        return new StructureAspectDescriptor.DataBasedStructureDescriptor("jetbrains.mps.gtext.structure.GContentBlock", new String[]{"jetbrains.mps.gtext.structure.GItem", "jetbrains.mps.lang.core.structure.INamedConcept", "jetbrains.mps.gtext.structure.GCompositeItem"}, new String[]{"jetbrains.mps.gtext.structure.GItem", "jetbrains.mps.gtext.structure.GCompositeItem", "jetbrains.mps.gtext.structure.GTextConcept"}, new String[]{"jetbrains.mps.lang.core.structure.BaseConcept", "jetbrains.mps.lang.core.structure.INamedConcept"});
+      case 479450366:
+        return new StructureAspectDescriptor.DataBasedStructureDescriptor("jetbrains.mps.gtext.structure.GCompositeItem", new String[]{}, new String[]{}, new String[]{});
+      default:
+        return null;
     }
-    if (hash == 1209728975) {
-      return new StructureAspectDescriptor.DataBasedStructureDescriptor("jetbrains.mps.gtext.structure.GItem", "jetbrains.mps.lang.core.structure.BaseConcept", "jetbrains.mps.gtext.structure.GTextConcept");
-    }
-    if (hash == -1072913139) {
-      return new StructureAspectDescriptor.DataBasedStructureDescriptor("jetbrains.mps.gtext.structure.GItemList", "jetbrains.mps.gtext.structure.GItem", "jetbrains.mps.gtext.structure.GCompositeItem");
-    }
-    if (hash == -305827976) {
-      return new StructureAspectDescriptor.DataBasedStructureDescriptor("jetbrains.mps.gtext.structure.GNewLine", "jetbrains.mps.gtext.structure.GItem");
-    }
-    if (hash == -1392167320) {
-      return new StructureAspectDescriptor.DataBasedStructureDescriptor("jetbrains.mps.gtext.structure.GIndent", "jetbrains.mps.gtext.structure.GItem");
-    }
-    if (hash == -1994825979) {
-      return new StructureAspectDescriptor.DataBasedStructureDescriptor("jetbrains.mps.gtext.structure.GIndentBlock", "jetbrains.mps.gtext.structure.GItem");
-    }
-    if (hash == -547380640) {
-      return new StructureAspectDescriptor.DataBasedStructureDescriptor("jetbrains.mps.gtext.structure.GItemStatement", "jetbrains.mps.baseLanguage.structure.Statement");
-    }
-    if (hash == 774586247) {
-      return new StructureAspectDescriptor.DataBasedStructureDescriptor("jetbrains.mps.gtext.structure.GExpressionItem", "jetbrains.mps.gtext.structure.GItem");
-    }
-    if (hash == -357312538) {
-      return new StructureAspectDescriptor.DataBasedStructureDescriptor("jetbrains.mps.gtext.structure.GStatementItem", "jetbrains.mps.gtext.structure.GItem");
-    }
-    if (hash == 1209808048) {
-      return new StructureAspectDescriptor.DataBasedStructureDescriptor("jetbrains.mps.gtext.structure.GLine", "jetbrains.mps.gtext.structure.GItem", "jetbrains.mps.gtext.structure.GCompositeItem");
-    }
-    if (hash == 1295613278) {
-      return new StructureAspectDescriptor.DataBasedStructureDescriptor("jetbrains.mps.gtext.structure.GConditionalLine", "jetbrains.mps.gtext.structure.GItem", "jetbrains.mps.gtext.structure.GCompositeItem");
-    }
-    if (hash == 1314943636) {
-      return new StructureAspectDescriptor.DataBasedStructureDescriptor("jetbrains.mps.gtext.structure.BuilderContextRef", "jetbrains.mps.baseLanguage.structure.Expression", "jetbrains.mps.gtext.structure.GTextConcept");
-    }
-    if (hash == -1388472361) {
-      return new StructureAspectDescriptor.DataBasedStructureDescriptor("jetbrains.mps.gtext.structure.GDocument", "jetbrains.mps.lang.core.structure.BaseConcept", "jetbrains.mps.lang.core.structure.INamedConcept");
-    }
-    if (hash == 454426687) {
-      return new StructureAspectDescriptor.DataBasedStructureDescriptor("jetbrains.mps.gtext.structure.GTextConcept");
-    }
-    if (hash == -904823526) {
-      return new StructureAspectDescriptor.DataBasedStructureDescriptor("jetbrains.mps.gtext.structure.GSeparatorItemList", "jetbrains.mps.gtext.structure.GItem", "jetbrains.mps.gtext.structure.GCompositeItem");
-    }
-    if (hash == 446574326) {
-      return new StructureAspectDescriptor.DataBasedStructureDescriptor("jetbrains.mps.gtext.structure.GContentPlaceholder", "jetbrains.mps.gtext.structure.GItem", "jetbrains.mps.lang.core.structure.INamedConcept");
-    }
-    if (hash == -1436578736) {
-      return new StructureAspectDescriptor.DataBasedStructureDescriptor("jetbrains.mps.gtext.structure.GContentBlock", "jetbrains.mps.gtext.structure.GItem", "jetbrains.mps.lang.core.structure.INamedConcept", "jetbrains.mps.gtext.structure.GCompositeItem");
-    }
-    if (hash == 479450366) {
-      return new StructureAspectDescriptor.DataBasedStructureDescriptor("jetbrains.mps.gtext.structure.GCompositeItem");
-    }
-    return null;
   }
 
   public static class DataBasedStructureDescriptor extends StructureDescriptor {
     private ImmutableList<String> parents;
     private ImmutableSet<String> ancestors;
 
-    public DataBasedStructureDescriptor(String fqName, String... parents) {
+    public DataBasedStructureDescriptor(String fqName, String[] parents, String[] ancestorsInLanguage, String[] ancestorsNotInLanguage) {
       this.parents = ImmutableList.copyOf(parents);
-      this.ancestors = getAncestors(fqName, parents);
+      this.ancestors = getAncestors(fqName, ancestorsInLanguage, ancestorsNotInLanguage);
     }
 
     public Set<String> getAncestorsNames() {
@@ -95,12 +79,16 @@ public class StructureAspectDescriptor extends DescriptorProvider<StructureDescr
       return parents;
     }
 
-    private static ImmutableSet<String> getAncestors(String conceptFqName, String... parents) {
-      List<String> result = new ArrayList();
+    private static ImmutableSet<String> getAncestors(String conceptFqName, String[] ancestorsInLanguage, String[] ancestorsNotInLanguage) {
+      ArrayList<String> result = new ArrayList(ancestorsInLanguage.length + 1);
+
+      for (String ancestor : ancestorsInLanguage) {
+        result.add(ancestor);
+      }
 
       result.add(conceptFqName);
       ConceptRegistry registry = ConceptRegistry.getInstance();
-      for (String parent : parents) {
+      for (String parent : ancestorsNotInLanguage) {
         result.addAll(registry.getStructureDescriptor(parent).getAncestorsNames());
       }
       return ImmutableSet.copyOf(result);

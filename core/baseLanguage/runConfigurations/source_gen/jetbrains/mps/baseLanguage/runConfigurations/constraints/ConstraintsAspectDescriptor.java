@@ -12,49 +12,37 @@ public class ConstraintsAspectDescriptor extends DescriptorProvider<ConstraintsD
   }
 
   public ConstraintsDescriptor getDescriptor(String fqName) {
-    if ("jetbrains.mps.baseLanguage.runConfigurations.structure.JavaNodeRunConfiguration".equals(fqName)) {
-      return new DataHolderConstraintsDescriptor(new JavaNodeRunConfiguration_Constraints());
+    switch ((fqName).hashCode()) {
+      case 638382655:
+        return new DataHolderConstraintsDescriptor(new JavaNodeRunConfiguration_Constraints());
+      case 1255693015:
+        return new DataHolderConstraintsDescriptor(new JavaCheckBlock_Constraints());
+      case 176098589:
+        return new DataHolderConstraintsDescriptor(new EmptyConstraintsDataHolder("jetbrains.mps.baseLanguage.runConfigurations.structure.JavaRunConfiguration"));
+      case -1616976445:
+        return new DataHolderConstraintsDescriptor(new EmptyConstraintsDataHolder("jetbrains.mps.baseLanguage.runConfigurations.structure.JavaConfigurationRunParameters_FunctionParameter"));
+      case -1580346184:
+        return new DataHolderConstraintsDescriptor(new EmptyConstraintsDataHolder("jetbrains.mps.baseLanguage.runConfigurations.structure.UserComponentReferenceAnnotation"));
+      case -535338940:
+        return new DataHolderConstraintsDescriptor(new EmptyConstraintsDataHolder("jetbrains.mps.baseLanguage.runConfigurations.structure.Node_FunctionParameter"));
+      case -1776949629:
+        return new DataHolderConstraintsDescriptor(new EmptyConstraintsDataHolder("jetbrains.mps.baseLanguage.runConfigurations.structure.IJavaRunConfigurationParameter"));
+      case 616231109:
+        return new DataHolderConstraintsDescriptor(new NodeRunConfigPropertyInstance_Constraints());
+      case 1341486731:
+        return new DataHolderConstraintsDescriptor(new EmptyConstraintsDataHolder("jetbrains.mps.baseLanguage.runConfigurations.structure.JavaNodeConfigurationEditorDeclaration"));
+      case 237705548:
+        return new DataHolderConstraintsDescriptor(new EmptyConstraintsDataHolder("jetbrains.mps.baseLanguage.runConfigurations.structure.OnChangeNodeBlock"));
+      case -1711177389:
+        return new DataHolderConstraintsDescriptor(new EmptyConstraintsDataHolder("jetbrains.mps.baseLanguage.runConfigurations.structure.ComponentInsideOfChangeListenerAnnotation"));
+      case -177572680:
+        return new DataHolderConstraintsDescriptor(new EmptyConstraintsDataHolder("jetbrains.mps.baseLanguage.runConfigurations.structure.IOnChangeEditorBlock"));
+      case 2056789236:
+        return new DataHolderConstraintsDescriptor(new EmptyConstraintsDataHolder("jetbrains.mps.baseLanguage.runConfigurations.structure.IsApplicableBlock"));
+      case -583237754:
+        return new DataHolderConstraintsDescriptor(new EmptyConstraintsDataHolder("jetbrains.mps.baseLanguage.runConfigurations.structure.IMainClass"));
+      default:
+        return null;
     }
-    if ("jetbrains.mps.baseLanguage.runConfigurations.structure.JavaCheckBlock".equals(fqName)) {
-      return new DataHolderConstraintsDescriptor(new JavaCheckBlock_Constraints());
-    }
-    if ("jetbrains.mps.baseLanguage.runConfigurations.structure.JavaRunConfiguration".equals(fqName)) {
-      return new DataHolderConstraintsDescriptor(new EmptyConstraintsDataHolder("jetbrains.mps.baseLanguage.runConfigurations.structure.JavaRunConfiguration"));
-    }
-    if ("jetbrains.mps.baseLanguage.runConfigurations.structure.JavaConfigurationRunParameters_FunctionParameter".equals(fqName)) {
-      return new DataHolderConstraintsDescriptor(new EmptyConstraintsDataHolder("jetbrains.mps.baseLanguage.runConfigurations.structure.JavaConfigurationRunParameters_FunctionParameter"));
-    }
-    if ("jetbrains.mps.baseLanguage.runConfigurations.structure.UserComponentReferenceAnnotation".equals(fqName)) {
-      return new DataHolderConstraintsDescriptor(new EmptyConstraintsDataHolder("jetbrains.mps.baseLanguage.runConfigurations.structure.UserComponentReferenceAnnotation"));
-    }
-    if ("jetbrains.mps.baseLanguage.runConfigurations.structure.Node_FunctionParameter".equals(fqName)) {
-      return new DataHolderConstraintsDescriptor(new EmptyConstraintsDataHolder("jetbrains.mps.baseLanguage.runConfigurations.structure.Node_FunctionParameter"));
-    }
-    if ("jetbrains.mps.baseLanguage.runConfigurations.structure.IJavaRunConfigurationParameter".equals(fqName)) {
-      return new DataHolderConstraintsDescriptor(new EmptyConstraintsDataHolder("jetbrains.mps.baseLanguage.runConfigurations.structure.IJavaRunConfigurationParameter"));
-    }
-    if ("jetbrains.mps.baseLanguage.runConfigurations.structure.NodeRunConfigPropertyInstance".equals(fqName)) {
-      return new DataHolderConstraintsDescriptor(new NodeRunConfigPropertyInstance_Constraints());
-    }
-    if ("jetbrains.mps.baseLanguage.runConfigurations.structure.JavaNodeConfigurationEditorDeclaration".equals(fqName)) {
-      return new DataHolderConstraintsDescriptor(new EmptyConstraintsDataHolder("jetbrains.mps.baseLanguage.runConfigurations.structure.JavaNodeConfigurationEditorDeclaration"));
-    }
-    if ("jetbrains.mps.baseLanguage.runConfigurations.structure.OnChangeNodeBlock".equals(fqName)) {
-      return new DataHolderConstraintsDescriptor(new EmptyConstraintsDataHolder("jetbrains.mps.baseLanguage.runConfigurations.structure.OnChangeNodeBlock"));
-    }
-    if ("jetbrains.mps.baseLanguage.runConfigurations.structure.ComponentInsideOfChangeListenerAnnotation".equals(fqName)) {
-      return new DataHolderConstraintsDescriptor(new EmptyConstraintsDataHolder("jetbrains.mps.baseLanguage.runConfigurations.structure.ComponentInsideOfChangeListenerAnnotation"));
-    }
-    if ("jetbrains.mps.baseLanguage.runConfigurations.structure.IOnChangeEditorBlock".equals(fqName)) {
-      return new DataHolderConstraintsDescriptor(new EmptyConstraintsDataHolder("jetbrains.mps.baseLanguage.runConfigurations.structure.IOnChangeEditorBlock"));
-    }
-    if ("jetbrains.mps.baseLanguage.runConfigurations.structure.IsApplicableBlock".equals(fqName)) {
-      return new DataHolderConstraintsDescriptor(new EmptyConstraintsDataHolder("jetbrains.mps.baseLanguage.runConfigurations.structure.IsApplicableBlock"));
-    }
-    if ("jetbrains.mps.baseLanguage.runConfigurations.structure.IMainClass".equals(fqName)) {
-      return new DataHolderConstraintsDescriptor(new EmptyConstraintsDataHolder("jetbrains.mps.baseLanguage.runConfigurations.structure.IMainClass"));
-    }
-
-    return null;
   }
 }

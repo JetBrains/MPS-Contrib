@@ -3,8 +3,8 @@
   <unitInfo fileName="NodeRunConfigPropertyInstance_Constraints.java" startLine="63" startPosition="27" endLine="67" endPosition="5" unitName="jetbrains.mps.baseLanguage.runConfigurations.constraints.NodeRunConfigPropertyInstance_Constraints$2" />
   <unitInfo fileName="JavaCheckBlock_Constraints.java" startLine="45" startPosition="15" endLine="55" endPosition="5" unitName="jetbrains.mps.baseLanguage.runConfigurations.constraints.JavaCheckBlock_Constraints$1" />
   <unitInfo fileName="NodeRunConfigPropertyInstance_Constraints.java" startLine="48" startPosition="15" endLine="58" endPosition="5" unitName="jetbrains.mps.baseLanguage.runConfigurations.constraints.NodeRunConfigPropertyInstance_Constraints$1" />
+  <unitInfo fileName="ConstraintsAspectDescriptor.java" startLine="10" startPosition="0" endLine="49" endPosition="0" unitName="jetbrains.mps.baseLanguage.runConfigurations.constraints.ConstraintsAspectDescriptor" />
   <unitInfo fileName="JavaNodeRunConfiguration_Constraints.java" startLine="15" startPosition="0" endLine="60" endPosition="0" unitName="jetbrains.mps.baseLanguage.runConfigurations.constraints.JavaNodeRunConfiguration_Constraints" />
-  <unitInfo fileName="ConstraintsAspectDescriptor.java" startLine="10" startPosition="0" endLine="61" endPosition="0" unitName="jetbrains.mps.baseLanguage.runConfigurations.constraints.ConstraintsAspectDescriptor" />
   <unitInfo fileName="JavaCheckBlock_Constraints.java" startLine="22" startPosition="0" endLine="87" endPosition="0" unitName="jetbrains.mps.baseLanguage.runConfigurations.constraints.JavaCheckBlock_Constraints" />
   <unitInfo fileName="NodeRunConfigPropertyInstance_Constraints.java" startLine="25" startPosition="0" endLine="98" endPosition="0" unitName="jetbrains.mps.baseLanguage.runConfigurations.constraints.NodeRunConfigPropertyInstance_Constraints" />
   <root nodeId="3361586479360707234">

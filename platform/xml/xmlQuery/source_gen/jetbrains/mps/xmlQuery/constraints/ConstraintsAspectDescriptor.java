@@ -12,100 +12,71 @@ public class ConstraintsAspectDescriptor extends DescriptorProvider<ConstraintsD
   }
 
   public ConstraintsDescriptor getDescriptor(String fqName) {
-    if ("jetbrains.mps.xmlQuery.structure.AccessChildrenOperation".equals(fqName)) {
-      return new DataHolderConstraintsDescriptor(new AccessChildrenOperation_Constraints());
+    switch ((fqName).hashCode()) {
+      case -1560244190:
+        return new DataHolderConstraintsDescriptor(new AccessChildrenOperation_Constraints());
+      case 491215617:
+        return new DataHolderConstraintsDescriptor(new XMLElementType_Constraints());
+      case -1419424256:
+        return new DataHolderConstraintsDescriptor(new XMLElementOperation_Constraints());
+      case 106762097:
+        return new DataHolderConstraintsDescriptor(new AccessAttributeOperation_Constraints());
+      case -1950944868:
+        return new DataHolderConstraintsDescriptor(new EmptyConstraintsDataHolder("jetbrains.mps.xmlQuery.structure.AccessArbitraryChildrenOperation"));
+      case 879942967:
+        return new DataHolderConstraintsDescriptor(new EmptyConstraintsDataHolder("jetbrains.mps.xmlQuery.structure.AccessArbitraryAttributeOperation"));
+      case -597497420:
+        return new DataHolderConstraintsDescriptor(new EmptyConstraintsDataHolder("jetbrains.mps.xmlQuery.structure.AccessTextOperation"));
+      case -1562359035:
+        return new DataHolderConstraintsDescriptor(new EmptyConstraintsDataHolder("jetbrains.mps.xmlQuery.structure.XMLElementCreator"));
+      case 1156844577:
+        return new DataHolderConstraintsDescriptor(new AttributeBuilder_Constraints());
+      case 1288813996:
+        return new DataHolderConstraintsDescriptor(new TextBuilder_Constraints());
+      case 1866052673:
+        return new DataHolderConstraintsDescriptor(new ElementBuilder_Constraints());
+      case -870937068:
+        return new DataHolderConstraintsDescriptor(new EmptyConstraintsDataHolder("jetbrains.mps.xmlQuery.structure.XMLSAXParser"));
+      case 483299539:
+        return new DataHolderConstraintsDescriptor(new EmptyConstraintsDataHolder("jetbrains.mps.xmlQuery.structure.XMLSAXNodeRule"));
+      case 763856931:
+        return new DataHolderConstraintsDescriptor(new EmptyConstraintsDataHolder("jetbrains.mps.xmlQuery.structure.XMLSAXAttributeRule"));
+      case 469336259:
+        return new DataHolderConstraintsDescriptor(new EmptyConstraintsDataHolder("jetbrains.mps.xmlQuery.structure.XMLSAXAttributeHandler"));
+      case -1895721227:
+        return new DataHolderConstraintsDescriptor(new EmptyConstraintsDataHolder("jetbrains.mps.xmlQuery.structure.XMLSAXAttributeHandler_value"));
+      case -1643406722:
+        return new DataHolderConstraintsDescriptor(new EmptyConstraintsDataHolder("jetbrains.mps.xmlQuery.structure.XMLSAXTextRule"));
+      case -1253208952:
+        return new DataHolderConstraintsDescriptor(new EmptyConstraintsDataHolder("jetbrains.mps.xmlQuery.structure.XMLSAXTextHandler"));
+      case 1930230522:
+        return new DataHolderConstraintsDescriptor(new EmptyConstraintsDataHolder("jetbrains.mps.xmlQuery.structure.XMLSAXTextHandler_value"));
+      case 1241470701:
+        return new DataHolderConstraintsDescriptor(new EmptyConstraintsDataHolder("jetbrains.mps.xmlQuery.structure.XMLSAXHandlerFunction"));
+      case 1408108998:
+        return new DataHolderConstraintsDescriptor(new EmptyConstraintsDataHolder("jetbrains.mps.xmlQuery.structure.XMLSAXHandler_resultObject"));
+      case 1548320803:
+        return new DataHolderConstraintsDescriptor(new XMLSAXChildRule_Constraints());
+      case 1515489475:
+        return new DataHolderConstraintsDescriptor(new EmptyConstraintsDataHolder("jetbrains.mps.xmlQuery.structure.XMLSAXChildHandler"));
+      case 1278155263:
+        return new DataHolderConstraintsDescriptor(new EmptyConstraintsDataHolder("jetbrains.mps.xmlQuery.structure.XMLSAXChildHandler_childObject"));
+      case 726180597:
+        return new DataHolderConstraintsDescriptor(new EmptyConstraintsDataHolder("jetbrains.mps.xmlQuery.structure.XMLSAXNodeCreator"));
+      case 366387163:
+        return new DataHolderConstraintsDescriptor(new EmptyConstraintsDataHolder("jetbrains.mps.xmlQuery.structure.XMLSAXNodeValidator"));
+      case -928715132:
+        return new DataHolderConstraintsDescriptor(new XMLSAXAttributeReference_Constraints());
+      case 1004740565:
+        return new DataHolderConstraintsDescriptor(new EmptyConstraintsDataHolder("jetbrains.mps.xmlQuery.structure.XMLSAXFieldDeclaration"));
+      case 1370735718:
+        return new DataHolderConstraintsDescriptor(new XMLSAXFieldReference_Constraints());
+      case 937581241:
+        return new DataHolderConstraintsDescriptor(new XMLSAXLocatorExpression_Constraints());
+      case 803351589:
+        return new DataHolderConstraintsDescriptor(new XMLSAXBreakStatement_Constraints());
+      default:
+        return null;
     }
-    if ("jetbrains.mps.xmlQuery.structure.XMLElementType".equals(fqName)) {
-      return new DataHolderConstraintsDescriptor(new XMLElementType_Constraints());
-    }
-    if ("jetbrains.mps.xmlQuery.structure.XMLElementOperation".equals(fqName)) {
-      return new DataHolderConstraintsDescriptor(new XMLElementOperation_Constraints());
-    }
-    if ("jetbrains.mps.xmlQuery.structure.AccessAttributeOperation".equals(fqName)) {
-      return new DataHolderConstraintsDescriptor(new AccessAttributeOperation_Constraints());
-    }
-    if ("jetbrains.mps.xmlQuery.structure.AccessArbitraryChildrenOperation".equals(fqName)) {
-      return new DataHolderConstraintsDescriptor(new EmptyConstraintsDataHolder("jetbrains.mps.xmlQuery.structure.AccessArbitraryChildrenOperation"));
-    }
-    if ("jetbrains.mps.xmlQuery.structure.AccessArbitraryAttributeOperation".equals(fqName)) {
-      return new DataHolderConstraintsDescriptor(new EmptyConstraintsDataHolder("jetbrains.mps.xmlQuery.structure.AccessArbitraryAttributeOperation"));
-    }
-    if ("jetbrains.mps.xmlQuery.structure.AccessTextOperation".equals(fqName)) {
-      return new DataHolderConstraintsDescriptor(new EmptyConstraintsDataHolder("jetbrains.mps.xmlQuery.structure.AccessTextOperation"));
-    }
-    if ("jetbrains.mps.xmlQuery.structure.XMLElementCreator".equals(fqName)) {
-      return new DataHolderConstraintsDescriptor(new EmptyConstraintsDataHolder("jetbrains.mps.xmlQuery.structure.XMLElementCreator"));
-    }
-    if ("jetbrains.mps.xmlQuery.structure.AttributeBuilder".equals(fqName)) {
-      return new DataHolderConstraintsDescriptor(new AttributeBuilder_Constraints());
-    }
-    if ("jetbrains.mps.xmlQuery.structure.TextBuilder".equals(fqName)) {
-      return new DataHolderConstraintsDescriptor(new TextBuilder_Constraints());
-    }
-    if ("jetbrains.mps.xmlQuery.structure.ElementBuilder".equals(fqName)) {
-      return new DataHolderConstraintsDescriptor(new ElementBuilder_Constraints());
-    }
-    if ("jetbrains.mps.xmlQuery.structure.XMLSAXParser".equals(fqName)) {
-      return new DataHolderConstraintsDescriptor(new EmptyConstraintsDataHolder("jetbrains.mps.xmlQuery.structure.XMLSAXParser"));
-    }
-    if ("jetbrains.mps.xmlQuery.structure.XMLSAXNodeRule".equals(fqName)) {
-      return new DataHolderConstraintsDescriptor(new EmptyConstraintsDataHolder("jetbrains.mps.xmlQuery.structure.XMLSAXNodeRule"));
-    }
-    if ("jetbrains.mps.xmlQuery.structure.XMLSAXAttributeRule".equals(fqName)) {
-      return new DataHolderConstraintsDescriptor(new EmptyConstraintsDataHolder("jetbrains.mps.xmlQuery.structure.XMLSAXAttributeRule"));
-    }
-    if ("jetbrains.mps.xmlQuery.structure.XMLSAXAttributeHandler".equals(fqName)) {
-      return new DataHolderConstraintsDescriptor(new EmptyConstraintsDataHolder("jetbrains.mps.xmlQuery.structure.XMLSAXAttributeHandler"));
-    }
-    if ("jetbrains.mps.xmlQuery.structure.XMLSAXAttributeHandler_value".equals(fqName)) {
-      return new DataHolderConstraintsDescriptor(new EmptyConstraintsDataHolder("jetbrains.mps.xmlQuery.structure.XMLSAXAttributeHandler_value"));
-    }
-    if ("jetbrains.mps.xmlQuery.structure.XMLSAXTextRule".equals(fqName)) {
-      return new DataHolderConstraintsDescriptor(new EmptyConstraintsDataHolder("jetbrains.mps.xmlQuery.structure.XMLSAXTextRule"));
-    }
-    if ("jetbrains.mps.xmlQuery.structure.XMLSAXTextHandler".equals(fqName)) {
-      return new DataHolderConstraintsDescriptor(new EmptyConstraintsDataHolder("jetbrains.mps.xmlQuery.structure.XMLSAXTextHandler"));
-    }
-    if ("jetbrains.mps.xmlQuery.structure.XMLSAXTextHandler_value".equals(fqName)) {
-      return new DataHolderConstraintsDescriptor(new EmptyConstraintsDataHolder("jetbrains.mps.xmlQuery.structure.XMLSAXTextHandler_value"));
-    }
-    if ("jetbrains.mps.xmlQuery.structure.XMLSAXHandlerFunction".equals(fqName)) {
-      return new DataHolderConstraintsDescriptor(new EmptyConstraintsDataHolder("jetbrains.mps.xmlQuery.structure.XMLSAXHandlerFunction"));
-    }
-    if ("jetbrains.mps.xmlQuery.structure.XMLSAXHandler_resultObject".equals(fqName)) {
-      return new DataHolderConstraintsDescriptor(new EmptyConstraintsDataHolder("jetbrains.mps.xmlQuery.structure.XMLSAXHandler_resultObject"));
-    }
-    if ("jetbrains.mps.xmlQuery.structure.XMLSAXChildRule".equals(fqName)) {
-      return new DataHolderConstraintsDescriptor(new XMLSAXChildRule_Constraints());
-    }
-    if ("jetbrains.mps.xmlQuery.structure.XMLSAXChildHandler".equals(fqName)) {
-      return new DataHolderConstraintsDescriptor(new EmptyConstraintsDataHolder("jetbrains.mps.xmlQuery.structure.XMLSAXChildHandler"));
-    }
-    if ("jetbrains.mps.xmlQuery.structure.XMLSAXChildHandler_childObject".equals(fqName)) {
-      return new DataHolderConstraintsDescriptor(new EmptyConstraintsDataHolder("jetbrains.mps.xmlQuery.structure.XMLSAXChildHandler_childObject"));
-    }
-    if ("jetbrains.mps.xmlQuery.structure.XMLSAXNodeCreator".equals(fqName)) {
-      return new DataHolderConstraintsDescriptor(new EmptyConstraintsDataHolder("jetbrains.mps.xmlQuery.structure.XMLSAXNodeCreator"));
-    }
-    if ("jetbrains.mps.xmlQuery.structure.XMLSAXNodeValidator".equals(fqName)) {
-      return new DataHolderConstraintsDescriptor(new EmptyConstraintsDataHolder("jetbrains.mps.xmlQuery.structure.XMLSAXNodeValidator"));
-    }
-    if ("jetbrains.mps.xmlQuery.structure.XMLSAXAttributeReference".equals(fqName)) {
-      return new DataHolderConstraintsDescriptor(new XMLSAXAttributeReference_Constraints());
-    }
-    if ("jetbrains.mps.xmlQuery.structure.XMLSAXFieldDeclaration".equals(fqName)) {
-      return new DataHolderConstraintsDescriptor(new EmptyConstraintsDataHolder("jetbrains.mps.xmlQuery.structure.XMLSAXFieldDeclaration"));
-    }
-    if ("jetbrains.mps.xmlQuery.structure.XMLSAXFieldReference".equals(fqName)) {
-      return new DataHolderConstraintsDescriptor(new XMLSAXFieldReference_Constraints());
-    }
-    if ("jetbrains.mps.xmlQuery.structure.XMLSAXLocatorExpression".equals(fqName)) {
-      return new DataHolderConstraintsDescriptor(new XMLSAXLocatorExpression_Constraints());
-    }
-    if ("jetbrains.mps.xmlQuery.structure.XMLSAXBreakStatement".equals(fqName)) {
-      return new DataHolderConstraintsDescriptor(new XMLSAXBreakStatement_Constraints());
-    }
-
-    return null;
   }
 }

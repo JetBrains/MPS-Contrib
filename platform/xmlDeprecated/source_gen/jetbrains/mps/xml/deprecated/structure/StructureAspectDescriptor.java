@@ -16,41 +16,35 @@ public class StructureAspectDescriptor extends DescriptorProvider<StructureDescr
   }
 
   public StructureDescriptor getDescriptor(String conceptFqName) {
-    int hash = conceptFqName.hashCode();
-    if (hash == 842980371) {
-      return new StructureAspectDescriptor.DataBasedStructureDescriptor("jetbrains.mps.xml.deprecated.structure.Attribute", "jetbrains.mps.lang.core.structure.BaseConcept", "jetbrains.mps.lang.core.structure.INamedConcept");
+    switch ((conceptFqName).hashCode()) {
+      case 842980371:
+        return new StructureAspectDescriptor.DataBasedStructureDescriptor("jetbrains.mps.xml.deprecated.structure.Attribute", new String[]{"jetbrains.mps.lang.core.structure.BaseConcept", "jetbrains.mps.lang.core.structure.INamedConcept"}, new String[]{}, new String[]{"jetbrains.mps.lang.core.structure.BaseConcept", "jetbrains.mps.lang.core.structure.INamedConcept"});
+      case -661010234:
+        return new StructureAspectDescriptor.DataBasedStructureDescriptor("jetbrains.mps.xml.deprecated.structure.ElementPart", new String[]{"jetbrains.mps.lang.core.structure.BaseConcept", "jetbrains.mps.lang.core.structure.INamedConcept"}, new String[]{}, new String[]{"jetbrains.mps.lang.core.structure.BaseConcept", "jetbrains.mps.lang.core.structure.INamedConcept"});
+      case 1855341107:
+        return new StructureAspectDescriptor.DataBasedStructureDescriptor("jetbrains.mps.xml.deprecated.structure.Element", new String[]{"jetbrains.mps.xml.deprecated.structure.ElementPart"}, new String[]{"jetbrains.mps.xml.deprecated.structure.ElementPart"}, new String[]{"jetbrains.mps.lang.core.structure.BaseConcept", "jetbrains.mps.lang.core.structure.INamedConcept"});
+      case 107332950:
+        return new StructureAspectDescriptor.DataBasedStructureDescriptor("jetbrains.mps.xml.deprecated.structure.Text", new String[]{"jetbrains.mps.xml.deprecated.structure.ElementPart"}, new String[]{"jetbrains.mps.xml.deprecated.structure.ElementPart"}, new String[]{"jetbrains.mps.lang.core.structure.BaseConcept", "jetbrains.mps.lang.core.structure.INamedConcept"});
+      case -1743907644:
+        return new StructureAspectDescriptor.DataBasedStructureDescriptor("jetbrains.mps.xml.deprecated.structure.Document", new String[]{"jetbrains.mps.lang.core.structure.BaseConcept", "jetbrains.mps.lang.core.structure.INamedConcept"}, new String[]{}, new String[]{"jetbrains.mps.lang.core.structure.BaseConcept", "jetbrains.mps.lang.core.structure.INamedConcept"});
+      case 770877564:
+        return new StructureAspectDescriptor.DataBasedStructureDescriptor("jetbrains.mps.xml.deprecated.structure.DocumentTypeDeclaration", new String[]{"jetbrains.mps.lang.core.structure.BaseConcept", "jetbrains.mps.lang.core.structure.INamedConcept"}, new String[]{}, new String[]{"jetbrains.mps.lang.core.structure.BaseConcept", "jetbrains.mps.lang.core.structure.INamedConcept"});
+      case -1742822481:
+        return new StructureAspectDescriptor.DataBasedStructureDescriptor("jetbrains.mps.xml.deprecated.structure.ExternalId", new String[]{"jetbrains.mps.lang.core.structure.BaseConcept"}, new String[]{}, new String[]{"jetbrains.mps.lang.core.structure.BaseConcept"});
+      case -1312028403:
+        return new StructureAspectDescriptor.DataBasedStructureDescriptor("jetbrains.mps.xml.deprecated.structure.PublicId", new String[]{"jetbrains.mps.xml.deprecated.structure.ExternalId"}, new String[]{"jetbrains.mps.xml.deprecated.structure.ExternalId"}, new String[]{"jetbrains.mps.lang.core.structure.BaseConcept"});
+      default:
+        return null;
     }
-    if (hash == -661010234) {
-      return new StructureAspectDescriptor.DataBasedStructureDescriptor("jetbrains.mps.xml.deprecated.structure.ElementPart", "jetbrains.mps.lang.core.structure.BaseConcept", "jetbrains.mps.lang.core.structure.INamedConcept");
-    }
-    if (hash == 1855341107) {
-      return new StructureAspectDescriptor.DataBasedStructureDescriptor("jetbrains.mps.xml.deprecated.structure.Element", "jetbrains.mps.xml.deprecated.structure.ElementPart");
-    }
-    if (hash == 107332950) {
-      return new StructureAspectDescriptor.DataBasedStructureDescriptor("jetbrains.mps.xml.deprecated.structure.Text", "jetbrains.mps.xml.deprecated.structure.ElementPart");
-    }
-    if (hash == -1743907644) {
-      return new StructureAspectDescriptor.DataBasedStructureDescriptor("jetbrains.mps.xml.deprecated.structure.Document", "jetbrains.mps.lang.core.structure.BaseConcept", "jetbrains.mps.lang.core.structure.INamedConcept");
-    }
-    if (hash == 770877564) {
-      return new StructureAspectDescriptor.DataBasedStructureDescriptor("jetbrains.mps.xml.deprecated.structure.DocumentTypeDeclaration", "jetbrains.mps.lang.core.structure.BaseConcept", "jetbrains.mps.lang.core.structure.INamedConcept");
-    }
-    if (hash == -1742822481) {
-      return new StructureAspectDescriptor.DataBasedStructureDescriptor("jetbrains.mps.xml.deprecated.structure.ExternalId", "jetbrains.mps.lang.core.structure.BaseConcept");
-    }
-    if (hash == -1312028403) {
-      return new StructureAspectDescriptor.DataBasedStructureDescriptor("jetbrains.mps.xml.deprecated.structure.PublicId", "jetbrains.mps.xml.deprecated.structure.ExternalId");
-    }
-    return null;
   }
 
   public static class DataBasedStructureDescriptor extends StructureDescriptor {
     private ImmutableList<String> parents;
     private ImmutableSet<String> ancestors;
 
-    public DataBasedStructureDescriptor(String fqName, String... parents) {
+    public DataBasedStructureDescriptor(String fqName, String[] parents, String[] ancestorsInLanguage, String[] ancestorsNotInLanguage) {
       this.parents = ImmutableList.copyOf(parents);
-      this.ancestors = getAncestors(fqName, parents);
+      this.ancestors = getAncestors(fqName, ancestorsInLanguage, ancestorsNotInLanguage);
     }
 
     public Set<String> getAncestorsNames() {
@@ -65,12 +59,16 @@ public class StructureAspectDescriptor extends DescriptorProvider<StructureDescr
       return parents;
     }
 
-    private static ImmutableSet<String> getAncestors(String conceptFqName, String... parents) {
-      List<String> result = new ArrayList();
+    private static ImmutableSet<String> getAncestors(String conceptFqName, String[] ancestorsInLanguage, String[] ancestorsNotInLanguage) {
+      ArrayList<String> result = new ArrayList(ancestorsInLanguage.length + 1);
+
+      for (String ancestor : ancestorsInLanguage) {
+        result.add(ancestor);
+      }
 
       result.add(conceptFqName);
       ConceptRegistry registry = ConceptRegistry.getInstance();
-      for (String parent : parents) {
+      for (String parent : ancestorsNotInLanguage) {
         result.addAll(registry.getStructureDescriptor(parent).getAncestorsNames());
       }
       return ImmutableSet.copyOf(result);

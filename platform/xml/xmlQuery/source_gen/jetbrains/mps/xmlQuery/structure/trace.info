@@ -24,14 +24,14 @@
   <unitInfo fileName="XMLSAXBreakStatement.java" startLine="12" startPosition="0" endLine="36" endPosition="0" unitName="jetbrains.mps.xmlQuery.structure.XMLSAXBreakStatement" />
   <unitInfo fileName="ElementBuilder.java" startLine="12" startPosition="0" endLine="36" endPosition="0" unitName="jetbrains.mps.xmlQuery.structure.ElementBuilder" />
   <unitInfo fileName="TextBuilder.java" startLine="12" startPosition="0" endLine="36" endPosition="0" unitName="jetbrains.mps.xmlQuery.structure.TextBuilder" />
-  <unitInfo fileName="StructureAspectDescriptor.java" startLine="116" startPosition="0" endLine="148" endPosition="0" unitName="jetbrains.mps.xmlQuery.structure.StructureAspectDescriptor$DataBasedStructureDescriptor" />
   <unitInfo fileName="AttributeBuilder.java" startLine="13" startPosition="0" endLine="46" endPosition="0" unitName="jetbrains.mps.xmlQuery.structure.AttributeBuilder" />
   <unitInfo fileName="XMLElementType.java" startLine="13" startPosition="0" endLine="46" endPosition="0" unitName="jetbrains.mps.xmlQuery.structure.XMLElementType" />
+  <unitInfo fileName="StructureAspectDescriptor.java" startLine="87" startPosition="0" endLine="123" endPosition="0" unitName="jetbrains.mps.xmlQuery.structure.StructureAspectDescriptor$DataBasedStructureDescriptor" />
   <unitInfo fileName="XMLSAXChildRule.java" startLine="11" startPosition="0" endLine="62" endPosition="0" unitName="jetbrains.mps.xmlQuery.structure.XMLSAXChildRule" />
   <unitInfo fileName="XMLElementOperation.java" startLine="15" startPosition="0" endLine="78" endPosition="0" unitName="jetbrains.mps.xmlQuery.structure.XMLElementOperation" />
   <unitInfo fileName="XMLSAXFieldDeclaration.java" startLine="16" startPosition="0" endLine="97" endPosition="0" unitName="jetbrains.mps.xmlQuery.structure.XMLSAXFieldDeclaration" />
   <unitInfo fileName="XMLSAXAttributeRule.java" startLine="15" startPosition="0" endLine="105" endPosition="0" unitName="jetbrains.mps.xmlQuery.structure.XMLSAXAttributeRule" />
-  <unitInfo fileName="StructureAspectDescriptor.java" startLine="14" startPosition="0" endLine="149" endPosition="0" unitName="jetbrains.mps.xmlQuery.structure.StructureAspectDescriptor" />
+  <unitInfo fileName="StructureAspectDescriptor.java" startLine="14" startPosition="0" endLine="124" endPosition="0" unitName="jetbrains.mps.xmlQuery.structure.StructureAspectDescriptor" />
   <unitInfo fileName="XMLSAXParser.java" startLine="15" startPosition="0" endLine="168" endPosition="0" unitName="jetbrains.mps.xmlQuery.structure.XMLSAXParser" />
   <unitInfo fileName="XMLSAXNodeRule.java" startLine="16" startPosition="0" endLine="184" endPosition="0" unitName="jetbrains.mps.xmlQuery.structure.XMLSAXNodeRule" />
 </debugInfo>

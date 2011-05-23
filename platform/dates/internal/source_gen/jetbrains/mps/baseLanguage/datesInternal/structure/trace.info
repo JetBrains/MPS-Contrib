@@ -5,14 +5,14 @@
   <unitInfo fileName="DatesInternal_Language.java" startLine="9" startPosition="0" endLine="16" endPosition="0" unitName="jetbrains.mps.baseLanguage.datesInternal.structure.DatesInternal_Language" />
   <unitInfo fileName="DateTimeZonePropertyFormatConfiguration.java" startLine="10" startPosition="0" endLine="25" endPosition="0" unitName="jetbrains.mps.baseLanguage.datesInternal.structure.DateTimeZonePropertyFormatConfiguration" />
   <unitInfo fileName="DateTimeIntPropertyFormatConfiguration.java" startLine="10" startPosition="0" endLine="34" endPosition="0" unitName="jetbrains.mps.baseLanguage.datesInternal.structure.DateTimeIntPropertyFormatConfiguration" />
-  <unitInfo fileName="StructureAspectDescriptor.java" startLine="74" startPosition="0" endLine="106" endPosition="0" unitName="jetbrains.mps.baseLanguage.datesInternal.structure.StructureAspectDescriptor$DataBasedStructureDescriptor" />
+  <unitInfo fileName="StructureAspectDescriptor.java" startLine="59" startPosition="0" endLine="95" endPosition="0" unitName="jetbrains.mps.baseLanguage.datesInternal.structure.StructureAspectDescriptor$DataBasedStructureDescriptor" />
   <unitInfo fileName="DurationType.java" startLine="16" startPosition="0" endLine="97" endPosition="0" unitName="jetbrains.mps.baseLanguage.datesInternal.structure.DurationType" />
   <unitInfo fileName="Locale.java" startLine="16" startPosition="0" endLine="97" endPosition="0" unitName="jetbrains.mps.baseLanguage.datesInternal.structure.Locale" />
+  <unitInfo fileName="StructureAspectDescriptor.java" startLine="14" startPosition="0" endLine="96" endPosition="0" unitName="jetbrains.mps.baseLanguage.datesInternal.structure.StructureAspectDescriptor" />
   <unitInfo fileName="PredefinedPeriodFormat.java" startLine="15" startPosition="0" endLine="105" endPosition="0" unitName="jetbrains.mps.baseLanguage.datesInternal.structure.PredefinedPeriodFormat" />
   <unitInfo fileName="DateTimeZone.java" startLine="15" startPosition="0" endLine="105" endPosition="0" unitName="jetbrains.mps.baseLanguage.datesInternal.structure.DateTimeZone" />
   <unitInfo fileName="DateTimePropertyCardinality.java" startLine="15" startPosition="0" endLine="105" endPosition="0" unitName="jetbrains.mps.baseLanguage.datesInternal.structure.DateTimePropertyCardinality" />
   <unitInfo fileName="PredefinedDateFormat.java" startLine="15" startPosition="0" endLine="105" endPosition="0" unitName="jetbrains.mps.baseLanguage.datesInternal.structure.PredefinedDateFormat" />
-  <unitInfo fileName="StructureAspectDescriptor.java" startLine="14" startPosition="0" endLine="107" endPosition="0" unitName="jetbrains.mps.baseLanguage.datesInternal.structure.StructureAspectDescriptor" />
   <unitInfo fileName="DateTimePropertyConfiguration.java" startLine="15" startPosition="0" endLine="108" endPosition="0" unitName="jetbrains.mps.baseLanguage.datesInternal.structure.DateTimePropertyConfiguration" />
   <unitInfo fileName="FormatTokenSettings.java" startLine="13" startPosition="0" endLine="112" endPosition="0" unitName="jetbrains.mps.baseLanguage.datesInternal.structure.FormatTokenSettings" />
   <unitInfo fileName="Month.java" startLine="15" startPosition="0" endLine="114" endPosition="0" unitName="jetbrains.mps.baseLanguage.datesInternal.structure.Month" />

@@ -12,61 +12,45 @@ public class ConstraintsAspectDescriptor extends DescriptorProvider<ConstraintsD
   }
 
   public ConstraintsDescriptor getDescriptor(String fqName) {
-    if ("jetbrains.mps.gtext.structure.GText".equals(fqName)) {
-      return new DataHolderConstraintsDescriptor(new EmptyConstraintsDataHolder("jetbrains.mps.gtext.structure.GText"));
+    switch ((fqName).hashCode()) {
+      case 1210042857:
+        return new DataHolderConstraintsDescriptor(new EmptyConstraintsDataHolder("jetbrains.mps.gtext.structure.GText"));
+      case 1209728975:
+        return new DataHolderConstraintsDescriptor(new EmptyConstraintsDataHolder("jetbrains.mps.gtext.structure.GItem"));
+      case -1072913139:
+        return new DataHolderConstraintsDescriptor(new EmptyConstraintsDataHolder("jetbrains.mps.gtext.structure.GItemList"));
+      case -305827976:
+        return new DataHolderConstraintsDescriptor(new EmptyConstraintsDataHolder("jetbrains.mps.gtext.structure.GNewLine"));
+      case -1392167320:
+        return new DataHolderConstraintsDescriptor(new EmptyConstraintsDataHolder("jetbrains.mps.gtext.structure.GIndent"));
+      case -1994825979:
+        return new DataHolderConstraintsDescriptor(new EmptyConstraintsDataHolder("jetbrains.mps.gtext.structure.GIndentBlock"));
+      case -547380640:
+        return new DataHolderConstraintsDescriptor(new EmptyConstraintsDataHolder("jetbrains.mps.gtext.structure.GItemStatement"));
+      case 774586247:
+        return new DataHolderConstraintsDescriptor(new EmptyConstraintsDataHolder("jetbrains.mps.gtext.structure.GExpressionItem"));
+      case -357312538:
+        return new DataHolderConstraintsDescriptor(new EmptyConstraintsDataHolder("jetbrains.mps.gtext.structure.GStatementItem"));
+      case 1209808048:
+        return new DataHolderConstraintsDescriptor(new EmptyConstraintsDataHolder("jetbrains.mps.gtext.structure.GLine"));
+      case 1295613278:
+        return new DataHolderConstraintsDescriptor(new EmptyConstraintsDataHolder("jetbrains.mps.gtext.structure.GConditionalLine"));
+      case 1314943636:
+        return new DataHolderConstraintsDescriptor(new EmptyConstraintsDataHolder("jetbrains.mps.gtext.structure.BuilderContextRef"));
+      case -1388472361:
+        return new DataHolderConstraintsDescriptor(new GDocument_Constraints());
+      case 454426687:
+        return new DataHolderConstraintsDescriptor(new EmptyConstraintsDataHolder("jetbrains.mps.gtext.structure.GTextConcept"));
+      case -904823526:
+        return new DataHolderConstraintsDescriptor(new EmptyConstraintsDataHolder("jetbrains.mps.gtext.structure.GSeparatorItemList"));
+      case 446574326:
+        return new DataHolderConstraintsDescriptor(new GContentPlaceholder_Constraints());
+      case -1436578736:
+        return new DataHolderConstraintsDescriptor(new EmptyConstraintsDataHolder("jetbrains.mps.gtext.structure.GContentBlock"));
+      case 479450366:
+        return new DataHolderConstraintsDescriptor(new EmptyConstraintsDataHolder("jetbrains.mps.gtext.structure.GCompositeItem"));
+      default:
+        return null;
     }
-    if ("jetbrains.mps.gtext.structure.GItem".equals(fqName)) {
-      return new DataHolderConstraintsDescriptor(new EmptyConstraintsDataHolder("jetbrains.mps.gtext.structure.GItem"));
-    }
-    if ("jetbrains.mps.gtext.structure.GItemList".equals(fqName)) {
-      return new DataHolderConstraintsDescriptor(new EmptyConstraintsDataHolder("jetbrains.mps.gtext.structure.GItemList"));
-    }
-    if ("jetbrains.mps.gtext.structure.GNewLine".equals(fqName)) {
-      return new DataHolderConstraintsDescriptor(new EmptyConstraintsDataHolder("jetbrains.mps.gtext.structure.GNewLine"));
-    }
-    if ("jetbrains.mps.gtext.structure.GIndent".equals(fqName)) {
-      return new DataHolderConstraintsDescriptor(new EmptyConstraintsDataHolder("jetbrains.mps.gtext.structure.GIndent"));
-    }
-    if ("jetbrains.mps.gtext.structure.GIndentBlock".equals(fqName)) {
-      return new DataHolderConstraintsDescriptor(new EmptyConstraintsDataHolder("jetbrains.mps.gtext.structure.GIndentBlock"));
-    }
-    if ("jetbrains.mps.gtext.structure.GItemStatement".equals(fqName)) {
-      return new DataHolderConstraintsDescriptor(new EmptyConstraintsDataHolder("jetbrains.mps.gtext.structure.GItemStatement"));
-    }
-    if ("jetbrains.mps.gtext.structure.GExpressionItem".equals(fqName)) {
-      return new DataHolderConstraintsDescriptor(new EmptyConstraintsDataHolder("jetbrains.mps.gtext.structure.GExpressionItem"));
-    }
-    if ("jetbrains.mps.gtext.structure.GStatementItem".equals(fqName)) {
-      return new DataHolderConstraintsDescriptor(new EmptyConstraintsDataHolder("jetbrains.mps.gtext.structure.GStatementItem"));
-    }
-    if ("jetbrains.mps.gtext.structure.GLine".equals(fqName)) {
-      return new DataHolderConstraintsDescriptor(new EmptyConstraintsDataHolder("jetbrains.mps.gtext.structure.GLine"));
-    }
-    if ("jetbrains.mps.gtext.structure.GConditionalLine".equals(fqName)) {
-      return new DataHolderConstraintsDescriptor(new EmptyConstraintsDataHolder("jetbrains.mps.gtext.structure.GConditionalLine"));
-    }
-    if ("jetbrains.mps.gtext.structure.BuilderContextRef".equals(fqName)) {
-      return new DataHolderConstraintsDescriptor(new EmptyConstraintsDataHolder("jetbrains.mps.gtext.structure.BuilderContextRef"));
-    }
-    if ("jetbrains.mps.gtext.structure.GDocument".equals(fqName)) {
-      return new DataHolderConstraintsDescriptor(new GDocument_Constraints());
-    }
-    if ("jetbrains.mps.gtext.structure.GTextConcept".equals(fqName)) {
-      return new DataHolderConstraintsDescriptor(new EmptyConstraintsDataHolder("jetbrains.mps.gtext.structure.GTextConcept"));
-    }
-    if ("jetbrains.mps.gtext.structure.GSeparatorItemList".equals(fqName)) {
-      return new DataHolderConstraintsDescriptor(new EmptyConstraintsDataHolder("jetbrains.mps.gtext.structure.GSeparatorItemList"));
-    }
-    if ("jetbrains.mps.gtext.structure.GContentPlaceholder".equals(fqName)) {
-      return new DataHolderConstraintsDescriptor(new GContentPlaceholder_Constraints());
-    }
-    if ("jetbrains.mps.gtext.structure.GContentBlock".equals(fqName)) {
-      return new DataHolderConstraintsDescriptor(new EmptyConstraintsDataHolder("jetbrains.mps.gtext.structure.GContentBlock"));
-    }
-    if ("jetbrains.mps.gtext.structure.GCompositeItem".equals(fqName)) {
-      return new DataHolderConstraintsDescriptor(new EmptyConstraintsDataHolder("jetbrains.mps.gtext.structure.GCompositeItem"));
-    }
-
-    return null;
   }
 }

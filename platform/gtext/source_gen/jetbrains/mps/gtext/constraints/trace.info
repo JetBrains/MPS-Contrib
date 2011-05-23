@@ -3,8 +3,8 @@
   <unitInfo fileName="GDocument_Constraints.java" startLine="41" startPosition="27" endLine="45" endPosition="5" unitName="jetbrains.mps.gtext.constraints.GDocument_Constraints$1" />
   <unitInfo fileName="GDocument_Constraints.java" startLine="51" startPosition="27" endLine="55" endPosition="5" unitName="jetbrains.mps.gtext.constraints.GDocument_Constraints$2" />
   <unitInfo fileName="GContentPlaceholder_Constraints.java" startLine="45" startPosition="15" endLine="55" endPosition="5" unitName="jetbrains.mps.gtext.constraints.GContentPlaceholder_Constraints$1" />
+  <unitInfo fileName="ConstraintsAspectDescriptor.java" startLine="10" startPosition="0" endLine="57" endPosition="0" unitName="jetbrains.mps.gtext.constraints.ConstraintsAspectDescriptor" />
   <unitInfo fileName="GDocument_Constraints.java" startLine="19" startPosition="0" endLine="74" endPosition="0" unitName="jetbrains.mps.gtext.constraints.GDocument_Constraints" />
-  <unitInfo fileName="ConstraintsAspectDescriptor.java" startLine="10" startPosition="0" endLine="73" endPosition="0" unitName="jetbrains.mps.gtext.constraints.ConstraintsAspectDescriptor" />
   <unitInfo fileName="GContentPlaceholder_Constraints.java" startLine="22" startPosition="0" endLine="88" endPosition="0" unitName="jetbrains.mps.gtext.constraints.GContentPlaceholder_Constraints" />
   <root nodeId="1213104844571">
     <nodeInfo nodeId="1213104844575" fileName="GDocument_Constraints.java" startLine="42" startPosition="84" endLine="43" endPosition="67" conceptFqName="jetbrains.mps.baseLanguage.structure.ReturnStatement" />
