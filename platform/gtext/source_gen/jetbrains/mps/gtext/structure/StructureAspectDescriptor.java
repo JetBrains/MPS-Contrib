@@ -5,11 +5,11 @@ package jetbrains.mps.gtext.structure;
 import jetbrains.mps.smodel.structure.DescriptorProvider;
 import jetbrains.mps.smodel.structure.StructureDescriptor;
 import com.google.common.collect.ImmutableList;
-import com.google.common.collect.ImmutableSet;
 import java.util.Set;
 import java.util.List;
-import java.util.ArrayList;
+import java.util.HashSet;
 import jetbrains.mps.smodel.structure.ConceptRegistry;
+import java.util.Collections;
 
 public class StructureAspectDescriptor extends DescriptorProvider<StructureDescriptor> {
   public StructureAspectDescriptor() {
@@ -60,7 +60,7 @@ public class StructureAspectDescriptor extends DescriptorProvider<StructureDescr
 
   public static class DataBasedStructureDescriptor extends StructureDescriptor {
     private ImmutableList<String> parents;
-    private ImmutableSet<String> ancestors;
+    private Set<String> ancestors;
 
     public DataBasedStructureDescriptor(String fqName, String[] parents, String[] ancestorsInLanguage, String[] ancestorsNotInLanguage) {
       this.parents = ImmutableList.copyOf(parents);
@@ -79,19 +79,22 @@ public class StructureAspectDescriptor extends DescriptorProvider<StructureDescr
       return parents;
     }
 
-    private static ImmutableSet<String> getAncestors(String conceptFqName, String[] ancestorsInLanguage, String[] ancestorsNotInLanguage) {
-      ArrayList<String> result = new ArrayList(ancestorsInLanguage.length + 1);
+    private static Set<String> getAncestors(String conceptFqName, String[] ancestorsInLanguage, String[] ancestorsNotInLanguage) {
+      Set<String> result = new HashSet(ancestorsInLanguage.length + 1);
 
+      result.add(conceptFqName);
       for (String ancestor : ancestorsInLanguage) {
         result.add(ancestor);
       }
 
-      result.add(conceptFqName);
       ConceptRegistry registry = ConceptRegistry.getInstance();
       for (String parent : ancestorsNotInLanguage) {
-        result.addAll(registry.getStructureDescriptor(parent).getAncestorsNames());
+        if (!(result.contains(parent))) {
+          result.addAll(registry.getStructureDescriptor(parent).getAncestorsNames());
+        }
       }
-      return ImmutableSet.copyOf(result);
+
+      return Collections.unmodifiableSet(result);
     }
   }
 }

@@ -1,79 +1,79 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <debugInfo>
-  <unitInfo fileName="DateTimeZonePropertyFormatConfiguration_Constraints.java" startLine="39" startPosition="27" endLine="43" endPosition="5" unitName="jetbrains.mps.baseLanguage.datesInternal.constraints.DateTimeZonePropertyFormatConfiguration_Constraints$1" />
-  <unitInfo fileName="PredefinedPeriodFormat_Constraints.java" startLine="39" startPosition="31" endLine="43" endPosition="5" unitName="jetbrains.mps.baseLanguage.datesInternal.constraints.PredefinedPeriodFormat_Constraints$1" />
-  <unitInfo fileName="DateTimePropertyConfiguration_Constraints.java" startLine="39" startPosition="39" endLine="43" endPosition="5" unitName="jetbrains.mps.baseLanguage.datesInternal.constraints.DateTimePropertyConfiguration_Constraints$1" />
-  <unitInfo fileName="DateTimePropertyFormatType_Constraints.java" startLine="40" startPosition="27" endLine="44" endPosition="5" unitName="jetbrains.mps.baseLanguage.datesInternal.constraints.DateTimePropertyFormatType_Constraints$1" />
-  <unitInfo fileName="Month_Constraints.java" startLine="40" startPosition="28" endLine="44" endPosition="5" unitName="jetbrains.mps.baseLanguage.datesInternal.constraints.Month_Constraints$1" />
-  <unitInfo fileName="SchedulePeriod_Constraints.java" startLine="40" startPosition="28" endLine="44" endPosition="5" unitName="jetbrains.mps.baseLanguage.datesInternal.constraints.SchedulePeriod_Constraints$1" />
-  <unitInfo fileName="DateTimeIntPropertyFormatConfiguration_Constraints.java" startLine="41" startPosition="27" endLine="45" endPosition="5" unitName="jetbrains.mps.baseLanguage.datesInternal.constraints.DateTimeIntPropertyFormatConfiguration_Constraints$1" />
-  <unitInfo fileName="DurationType_Constraints.java" startLine="41" startPosition="27" endLine="45" endPosition="5" unitName="jetbrains.mps.baseLanguage.datesInternal.constraints.DurationType_Constraints$1" />
-  <unitInfo fileName="PredefinedDateFormat_Constraints.java" startLine="41" startPosition="31" endLine="45" endPosition="5" unitName="jetbrains.mps.baseLanguage.datesInternal.constraints.PredefinedDateFormat_Constraints$1" />
-  <unitInfo fileName="PredefinedDateFormat_Constraints.java" startLine="46" startPosition="27" endLine="50" endPosition="5" unitName="jetbrains.mps.baseLanguage.datesInternal.constraints.PredefinedDateFormat_Constraints$2" />
-  <unitInfo fileName="DateTimeProperty_Constraints.java" startLine="71" startPosition="37" endLine="85" endPosition="5" unitName="jetbrains.mps.baseLanguage.datesInternal.constraints.DateTimeProperty_Constraints$1" />
-  <unitInfo fileName="DateTimeProperty_Constraints.java" startLine="86" startPosition="44" endLine="100" endPosition="5" unitName="jetbrains.mps.baseLanguage.datesInternal.constraints.DateTimeProperty_Constraints$2" />
-  <unitInfo fileName="DateTimeProperty_Constraints.java" startLine="101" startPosition="41" endLine="117" endPosition="5" unitName="jetbrains.mps.baseLanguage.datesInternal.constraints.DateTimeProperty_Constraints$3" />
+  <unitInfo fileName="DateTimeZonePropertyFormatConfiguration_Constraints.java" startLine="23" startPosition="27" endLine="27" endPosition="5" unitName="jetbrains.mps.baseLanguage.datesInternal.constraints.DateTimeZonePropertyFormatConfiguration_Constraints$1" />
+  <unitInfo fileName="PredefinedPeriodFormat_Constraints.java" startLine="23" startPosition="31" endLine="27" endPosition="5" unitName="jetbrains.mps.baseLanguage.datesInternal.constraints.PredefinedPeriodFormat_Constraints$1" />
+  <unitInfo fileName="DateTimePropertyConfiguration_Constraints.java" startLine="23" startPosition="39" endLine="27" endPosition="5" unitName="jetbrains.mps.baseLanguage.datesInternal.constraints.DateTimePropertyConfiguration_Constraints$1" />
+  <unitInfo fileName="DateTimePropertyFormatType_Constraints.java" startLine="24" startPosition="27" endLine="28" endPosition="5" unitName="jetbrains.mps.baseLanguage.datesInternal.constraints.DateTimePropertyFormatType_Constraints$1" />
+  <unitInfo fileName="Month_Constraints.java" startLine="24" startPosition="28" endLine="28" endPosition="5" unitName="jetbrains.mps.baseLanguage.datesInternal.constraints.Month_Constraints$1" />
+  <unitInfo fileName="SchedulePeriod_Constraints.java" startLine="24" startPosition="28" endLine="28" endPosition="5" unitName="jetbrains.mps.baseLanguage.datesInternal.constraints.SchedulePeriod_Constraints$1" />
+  <unitInfo fileName="DateTimeIntPropertyFormatConfiguration_Constraints.java" startLine="25" startPosition="27" endLine="29" endPosition="5" unitName="jetbrains.mps.baseLanguage.datesInternal.constraints.DateTimeIntPropertyFormatConfiguration_Constraints$1" />
+  <unitInfo fileName="DurationType_Constraints.java" startLine="25" startPosition="27" endLine="29" endPosition="5" unitName="jetbrains.mps.baseLanguage.datesInternal.constraints.DurationType_Constraints$1" />
+  <unitInfo fileName="PredefinedDateFormat_Constraints.java" startLine="25" startPosition="31" endLine="29" endPosition="5" unitName="jetbrains.mps.baseLanguage.datesInternal.constraints.PredefinedDateFormat_Constraints$1" />
+  <unitInfo fileName="PredefinedDateFormat_Constraints.java" startLine="30" startPosition="27" endLine="34" endPosition="5" unitName="jetbrains.mps.baseLanguage.datesInternal.constraints.PredefinedDateFormat_Constraints$2" />
+  <unitInfo fileName="DateTimePropertyCardinality_Constraints.java" startLine="7" startPosition="0" endLine="15" endPosition="0" unitName="jetbrains.mps.baseLanguage.datesInternal.constraints.DateTimePropertyCardinality_Constraints" />
+  <unitInfo fileName="DateTimeProperty_Constraints.java" startLine="35" startPosition="37" endLine="49" endPosition="5" unitName="jetbrains.mps.baseLanguage.datesInternal.constraints.DateTimeProperty_Constraints$1" />
+  <unitInfo fileName="DateTimeProperty_Constraints.java" startLine="50" startPosition="44" endLine="64" endPosition="5" unitName="jetbrains.mps.baseLanguage.datesInternal.constraints.DateTimeProperty_Constraints$2" />
+  <unitInfo fileName="DateTimeProperty_Constraints.java" startLine="65" startPosition="41" endLine="81" endPosition="5" unitName="jetbrains.mps.baseLanguage.datesInternal.constraints.DateTimeProperty_Constraints$3" />
+  <unitInfo fileName="PredefinedPeriodFormat_Constraints.java" startLine="13" startPosition="0" endLine="31" endPosition="0" unitName="jetbrains.mps.baseLanguage.datesInternal.constraints.PredefinedPeriodFormat_Constraints" />
+  <unitInfo fileName="DateTimePropertyConfiguration_Constraints.java" startLine="13" startPosition="0" endLine="31" endPosition="0" unitName="jetbrains.mps.baseLanguage.datesInternal.constraints.DateTimePropertyConfiguration_Constraints" />
+  <unitInfo fileName="DateTimeZonePropertyFormatConfiguration_Constraints.java" startLine="13" startPosition="0" endLine="31" endPosition="0" unitName="jetbrains.mps.baseLanguage.datesInternal.constraints.DateTimeZonePropertyFormatConfiguration_Constraints" />
+  <unitInfo fileName="DateTimePropertyFormatType_Constraints.java" startLine="14" startPosition="0" endLine="32" endPosition="0" unitName="jetbrains.mps.baseLanguage.datesInternal.constraints.DateTimePropertyFormatType_Constraints" />
+  <unitInfo fileName="Month_Constraints.java" startLine="14" startPosition="0" endLine="32" endPosition="0" unitName="jetbrains.mps.baseLanguage.datesInternal.constraints.Month_Constraints" />
+  <unitInfo fileName="SchedulePeriod_Constraints.java" startLine="14" startPosition="0" endLine="32" endPosition="0" unitName="jetbrains.mps.baseLanguage.datesInternal.constraints.SchedulePeriod_Constraints" />
+  <unitInfo fileName="DateTimeIntPropertyFormatConfiguration_Constraints.java" startLine="15" startPosition="0" endLine="33" endPosition="0" unitName="jetbrains.mps.baseLanguage.datesInternal.constraints.DateTimeIntPropertyFormatConfiguration_Constraints" />
+  <unitInfo fileName="DurationType_Constraints.java" startLine="15" startPosition="0" endLine="33" endPosition="0" unitName="jetbrains.mps.baseLanguage.datesInternal.constraints.DurationType_Constraints" />
+  <unitInfo fileName="PredefinedDateFormat_Constraints.java" startLine="15" startPosition="0" endLine="38" endPosition="0" unitName="jetbrains.mps.baseLanguage.datesInternal.constraints.PredefinedDateFormat_Constraints" />
   <unitInfo fileName="ConstraintsAspectDescriptor.java" startLine="10" startPosition="0" endLine="55" endPosition="0" unitName="jetbrains.mps.baseLanguage.datesInternal.constraints.ConstraintsAspectDescriptor" />
-  <unitInfo fileName="DateTimePropertyCardinality_Constraints.java" startLine="15" startPosition="0" endLine="60" endPosition="0" unitName="jetbrains.mps.baseLanguage.datesInternal.constraints.DateTimePropertyCardinality_Constraints" />
-  <unitInfo fileName="PredefinedPeriodFormat_Constraints.java" startLine="17" startPosition="0" endLine="67" endPosition="0" unitName="jetbrains.mps.baseLanguage.datesInternal.constraints.PredefinedPeriodFormat_Constraints" />
-  <unitInfo fileName="DateTimePropertyConfiguration_Constraints.java" startLine="17" startPosition="0" endLine="67" endPosition="0" unitName="jetbrains.mps.baseLanguage.datesInternal.constraints.DateTimePropertyConfiguration_Constraints" />
-  <unitInfo fileName="DateTimeZonePropertyFormatConfiguration_Constraints.java" startLine="17" startPosition="0" endLine="67" endPosition="0" unitName="jetbrains.mps.baseLanguage.datesInternal.constraints.DateTimeZonePropertyFormatConfiguration_Constraints" />
-  <unitInfo fileName="DateTimePropertyFormatType_Constraints.java" startLine="18" startPosition="0" endLine="68" endPosition="0" unitName="jetbrains.mps.baseLanguage.datesInternal.constraints.DateTimePropertyFormatType_Constraints" />
-  <unitInfo fileName="Month_Constraints.java" startLine="18" startPosition="0" endLine="68" endPosition="0" unitName="jetbrains.mps.baseLanguage.datesInternal.constraints.Month_Constraints" />
-  <unitInfo fileName="SchedulePeriod_Constraints.java" startLine="18" startPosition="0" endLine="68" endPosition="0" unitName="jetbrains.mps.baseLanguage.datesInternal.constraints.SchedulePeriod_Constraints" />
-  <unitInfo fileName="DateTimeIntPropertyFormatConfiguration_Constraints.java" startLine="19" startPosition="0" endLine="69" endPosition="0" unitName="jetbrains.mps.baseLanguage.datesInternal.constraints.DateTimeIntPropertyFormatConfiguration_Constraints" />
-  <unitInfo fileName="DurationType_Constraints.java" startLine="19" startPosition="0" endLine="69" endPosition="0" unitName="jetbrains.mps.baseLanguage.datesInternal.constraints.DurationType_Constraints" />
-  <unitInfo fileName="PredefinedDateFormat_Constraints.java" startLine="19" startPosition="0" endLine="74" endPosition="0" unitName="jetbrains.mps.baseLanguage.datesInternal.constraints.PredefinedDateFormat_Constraints" />
-  <unitInfo fileName="DateTimeProperty_Constraints.java" startLine="29" startPosition="0" endLine="121" endPosition="0" unitName="jetbrains.mps.baseLanguage.datesInternal.constraints.DateTimeProperty_Constraints" />
+  <unitInfo fileName="DateTimeProperty_Constraints.java" startLine="25" startPosition="0" endLine="85" endPosition="0" unitName="jetbrains.mps.baseLanguage.datesInternal.constraints.DateTimeProperty_Constraints" />
   <root nodeId="1213104844878">
-    <nodeInfo nodeId="1213104844882" fileName="DurationType_Constraints.java" startLine="42" startPosition="84" endLine="43" endPosition="176" conceptFqName="jetbrains.mps.baseLanguage.structure.ReturnStatement" />
-    <scopeInfo nodeId="1213104844881" fileName="DurationType_Constraints.java" startLine="42" startPosition="84" endLine="43" endPosition="176" />
+    <nodeInfo nodeId="1213104844882" fileName="DurationType_Constraints.java" startLine="26" startPosition="84" endLine="27" endPosition="176" conceptFqName="jetbrains.mps.baseLanguage.structure.ReturnStatement" />
+    <scopeInfo nodeId="1213104844881" fileName="DurationType_Constraints.java" startLine="26" startPosition="84" endLine="27" endPosition="176" />
   </root>
   <root nodeId="1213104846007">
-    <nodeInfo nodeId="1213104846011" fileName="SchedulePeriod_Constraints.java" startLine="41" startPosition="84" endLine="42" endPosition="59" conceptFqName="jetbrains.mps.baseLanguage.structure.ReturnStatement" />
-    <scopeInfo nodeId="1213104846010" fileName="SchedulePeriod_Constraints.java" startLine="41" startPosition="84" endLine="42" endPosition="59" />
+    <nodeInfo nodeId="1213104846011" fileName="SchedulePeriod_Constraints.java" startLine="25" startPosition="84" endLine="26" endPosition="59" conceptFqName="jetbrains.mps.baseLanguage.structure.ReturnStatement" />
+    <scopeInfo nodeId="1213104846010" fileName="SchedulePeriod_Constraints.java" startLine="25" startPosition="84" endLine="26" endPosition="59" />
   </root>
   <root nodeId="1213104847902">
-    <nodeInfo nodeId="1213104855650" fileName="DateTimeProperty_Constraints.java" startLine="78" startPosition="136" endLine="79" endPosition="171" conceptFqName="jetbrains.mps.baseLanguage.structure.ReturnStatement" />
-    <nodeInfo nodeId="1213104855663" fileName="DateTimeProperty_Constraints.java" startLine="93" startPosition="136" endLine="94" endPosition="182" conceptFqName="jetbrains.mps.baseLanguage.structure.ReturnStatement" />
-    <nodeInfo nodeId="6481709978082949295" fileName="DateTimeProperty_Constraints.java" startLine="108" startPosition="136" endLine="109" endPosition="113" conceptFqName="jetbrains.mps.baseLanguage.structure.LocalVariableDeclarationStatement" />
-    <nodeInfo nodeId="6481709978082961851" fileName="DateTimeProperty_Constraints.java" startLine="109" startPosition="113" endLine="110" endPosition="131" conceptFqName="jetbrains.mps.baseLanguage.structure.ExpressionStatement" />
-    <nodeInfo nodeId="48671598476606848" fileName="DateTimeProperty_Constraints.java" startLine="110" startPosition="131" endLine="111" endPosition="123" conceptFqName="jetbrains.mps.baseLanguage.structure.ReturnStatement" />
-    <scopeInfo nodeId="1213104855644" fileName="DateTimeProperty_Constraints.java" startLine="78" startPosition="136" endLine="79" endPosition="171" />
-    <scopeInfo nodeId="1213104855657" fileName="DateTimeProperty_Constraints.java" startLine="93" startPosition="136" endLine="94" endPosition="182" />
-    <scopeInfo nodeId="48671598476606831" fileName="DateTimeProperty_Constraints.java" startLine="108" startPosition="136" endLine="111" endPosition="123">
+    <nodeInfo nodeId="1213104855650" fileName="DateTimeProperty_Constraints.java" startLine="42" startPosition="136" endLine="43" endPosition="171" conceptFqName="jetbrains.mps.baseLanguage.structure.ReturnStatement" />
+    <nodeInfo nodeId="1213104855663" fileName="DateTimeProperty_Constraints.java" startLine="57" startPosition="136" endLine="58" endPosition="182" conceptFqName="jetbrains.mps.baseLanguage.structure.ReturnStatement" />
+    <nodeInfo nodeId="6481709978082949295" fileName="DateTimeProperty_Constraints.java" startLine="72" startPosition="136" endLine="73" endPosition="113" conceptFqName="jetbrains.mps.baseLanguage.structure.LocalVariableDeclarationStatement" />
+    <nodeInfo nodeId="6481709978082961851" fileName="DateTimeProperty_Constraints.java" startLine="73" startPosition="113" endLine="74" endPosition="131" conceptFqName="jetbrains.mps.baseLanguage.structure.ExpressionStatement" />
+    <nodeInfo nodeId="48671598476606848" fileName="DateTimeProperty_Constraints.java" startLine="74" startPosition="131" endLine="75" endPosition="123" conceptFqName="jetbrains.mps.baseLanguage.structure.ReturnStatement" />
+    <scopeInfo nodeId="1213104855644" fileName="DateTimeProperty_Constraints.java" startLine="42" startPosition="136" endLine="43" endPosition="171" />
+    <scopeInfo nodeId="1213104855657" fileName="DateTimeProperty_Constraints.java" startLine="57" startPosition="136" endLine="58" endPosition="182" />
+    <scopeInfo nodeId="48671598476606831" fileName="DateTimeProperty_Constraints.java" startLine="72" startPosition="136" endLine="75" endPosition="123">
       <varInfo nodeId="6481709978082949296" varName="ct" />
     </scopeInfo>
   </root>
   <root nodeId="1213104856101">
-    <nodeInfo nodeId="1213104856105" fileName="DateTimeZonePropertyFormatConfiguration_Constraints.java" startLine="40" startPosition="84" endLine="41" endPosition="22" conceptFqName="jetbrains.mps.baseLanguage.structure.ReturnStatement" />
-    <scopeInfo nodeId="1213104856104" fileName="DateTimeZonePropertyFormatConfiguration_Constraints.java" startLine="40" startPosition="84" endLine="41" endPosition="22" />
+    <nodeInfo nodeId="1213104856105" fileName="DateTimeZonePropertyFormatConfiguration_Constraints.java" startLine="24" startPosition="84" endLine="25" endPosition="22" conceptFqName="jetbrains.mps.baseLanguage.structure.ReturnStatement" />
+    <scopeInfo nodeId="1213104856104" fileName="DateTimeZonePropertyFormatConfiguration_Constraints.java" startLine="24" startPosition="84" endLine="25" endPosition="22" />
   </root>
   <root nodeId="1213104856107">
-    <nodeInfo nodeId="1227024496208" fileName="PredefinedDateFormat_Constraints.java" startLine="42" startPosition="84" endLine="43" endPosition="20" conceptFqName="jetbrains.mps.baseLanguage.structure.ReturnStatement" />
-    <nodeInfo nodeId="1227024517668" fileName="PredefinedDateFormat_Constraints.java" startLine="47" startPosition="84" endLine="48" endPosition="164" conceptFqName="jetbrains.mps.baseLanguage.structure.ReturnStatement" />
-    <scopeInfo nodeId="1213104856110" fileName="PredefinedDateFormat_Constraints.java" startLine="42" startPosition="84" endLine="43" endPosition="20" />
-    <scopeInfo nodeId="1227024506178" fileName="PredefinedDateFormat_Constraints.java" startLine="47" startPosition="84" endLine="48" endPosition="164" />
+    <nodeInfo nodeId="1227024496208" fileName="PredefinedDateFormat_Constraints.java" startLine="26" startPosition="84" endLine="27" endPosition="20" conceptFqName="jetbrains.mps.baseLanguage.structure.ReturnStatement" />
+    <nodeInfo nodeId="1227024517668" fileName="PredefinedDateFormat_Constraints.java" startLine="31" startPosition="84" endLine="32" endPosition="164" conceptFqName="jetbrains.mps.baseLanguage.structure.ReturnStatement" />
+    <scopeInfo nodeId="1213104856110" fileName="PredefinedDateFormat_Constraints.java" startLine="26" startPosition="84" endLine="27" endPosition="20" />
+    <scopeInfo nodeId="1227024506178" fileName="PredefinedDateFormat_Constraints.java" startLine="31" startPosition="84" endLine="32" endPosition="164" />
   </root>
   <root nodeId="1213104856614">
-    <nodeInfo nodeId="1213104856618" fileName="Month_Constraints.java" startLine="41" startPosition="84" endLine="42" endPosition="59" conceptFqName="jetbrains.mps.baseLanguage.structure.ReturnStatement" />
-    <scopeInfo nodeId="1213104856617" fileName="Month_Constraints.java" startLine="41" startPosition="84" endLine="42" endPosition="59" />
+    <nodeInfo nodeId="1213104856618" fileName="Month_Constraints.java" startLine="25" startPosition="84" endLine="26" endPosition="59" conceptFqName="jetbrains.mps.baseLanguage.structure.ReturnStatement" />
+    <scopeInfo nodeId="1213104856617" fileName="Month_Constraints.java" startLine="25" startPosition="84" endLine="26" endPosition="59" />
   </root>
   <root nodeId="1213104859192">
-    <nodeInfo nodeId="1213104859196" fileName="DateTimePropertyConfiguration_Constraints.java" startLine="40" startPosition="84" endLine="41" endPosition="35" conceptFqName="jetbrains.mps.baseLanguage.structure.ReturnStatement" />
-    <scopeInfo nodeId="1213104859195" fileName="DateTimePropertyConfiguration_Constraints.java" startLine="40" startPosition="84" endLine="41" endPosition="35" />
+    <nodeInfo nodeId="1213104859196" fileName="DateTimePropertyConfiguration_Constraints.java" startLine="24" startPosition="84" endLine="25" endPosition="35" conceptFqName="jetbrains.mps.baseLanguage.structure.ReturnStatement" />
+    <scopeInfo nodeId="1213104859195" fileName="DateTimePropertyConfiguration_Constraints.java" startLine="24" startPosition="84" endLine="25" endPosition="35" />
   </root>
   <root nodeId="1213104859390">
-    <nodeInfo nodeId="1213104859394" fileName="DateTimeIntPropertyFormatConfiguration_Constraints.java" startLine="42" startPosition="84" endLine="43" endPosition="113" conceptFqName="jetbrains.mps.baseLanguage.structure.ReturnStatement" />
-    <scopeInfo nodeId="1213104859393" fileName="DateTimeIntPropertyFormatConfiguration_Constraints.java" startLine="42" startPosition="84" endLine="43" endPosition="113" />
+    <nodeInfo nodeId="1213104859394" fileName="DateTimeIntPropertyFormatConfiguration_Constraints.java" startLine="26" startPosition="84" endLine="27" endPosition="113" conceptFqName="jetbrains.mps.baseLanguage.structure.ReturnStatement" />
+    <scopeInfo nodeId="1213104859393" fileName="DateTimeIntPropertyFormatConfiguration_Constraints.java" startLine="26" startPosition="84" endLine="27" endPosition="113" />
   </root>
   <root nodeId="1213104860458">
-    <nodeInfo nodeId="1213104860462" fileName="DateTimePropertyFormatType_Constraints.java" startLine="41" startPosition="84" endLine="42" endPosition="62" conceptFqName="jetbrains.mps.baseLanguage.structure.ReturnStatement" />
-    <scopeInfo nodeId="1213104860461" fileName="DateTimePropertyFormatType_Constraints.java" startLine="41" startPosition="84" endLine="42" endPosition="62" />
+    <nodeInfo nodeId="1213104860462" fileName="DateTimePropertyFormatType_Constraints.java" startLine="25" startPosition="84" endLine="26" endPosition="62" conceptFqName="jetbrains.mps.baseLanguage.structure.ReturnStatement" />
+    <scopeInfo nodeId="1213104860461" fileName="DateTimePropertyFormatType_Constraints.java" startLine="25" startPosition="84" endLine="26" endPosition="62" />
   </root>
   <root nodeId="1379098806889929547">
-    <nodeInfo nodeId="1379098806889929551" fileName="PredefinedPeriodFormat_Constraints.java" startLine="40" startPosition="84" endLine="41" endPosition="20" conceptFqName="jetbrains.mps.baseLanguage.structure.ReturnStatement" />
-    <scopeInfo nodeId="1379098806889929550" fileName="PredefinedPeriodFormat_Constraints.java" startLine="40" startPosition="84" endLine="41" endPosition="20" />
+    <nodeInfo nodeId="1379098806889929551" fileName="PredefinedPeriodFormat_Constraints.java" startLine="24" startPosition="84" endLine="25" endPosition="20" conceptFqName="jetbrains.mps.baseLanguage.structure.ReturnStatement" />
+    <scopeInfo nodeId="1379098806889929550" fileName="PredefinedPeriodFormat_Constraints.java" startLine="24" startPosition="84" endLine="25" endPosition="20" />
   </root>
 </debugInfo>
 

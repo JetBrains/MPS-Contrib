@@ -86,9 +86,9 @@
   </dependency>
   <dependency className="jetbrains.mps.xml.deprecated.structure.StructureAspectDescriptor" file="StructureAspectDescriptor.java">
     <classNode dependClassName="com.google.common.collect.ImmutableList" />
-    <classNode dependClassName="com.google.common.collect.ImmutableSet" />
     <classNode dependClassName="java.lang.String" />
-    <classNode dependClassName="java.util.ArrayList" />
+    <classNode dependClassName="java.util.Collections" />
+    <classNode dependClassName="java.util.HashSet" />
     <classNode dependClassName="java.util.List" />
     <classNode dependClassName="java.util.Set" />
     <classNode dependClassName="jetbrains.mps.smodel.structure.ConceptRegistry" />

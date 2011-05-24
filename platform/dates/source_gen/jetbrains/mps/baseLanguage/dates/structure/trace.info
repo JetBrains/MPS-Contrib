@@ -52,12 +52,12 @@
   <unitInfo fileName="DateTimeWithPropertyOperation.java" startLine="12" startPosition="0" endLine="45" endPosition="0" unitName="jetbrains.mps.baseLanguage.dates.structure.DateTimeWithPropertyOperation" />
   <unitInfo fileName="TokenConditionalPair.java" startLine="12" startPosition="0" endLine="45" endPosition="0" unitName="jetbrains.mps.baseLanguage.dates.structure.TokenConditionalPair" />
   <unitInfo fileName="WithPropertyCompareExpression.java" startLine="13" startPosition="0" endLine="47" endPosition="0" unitName="jetbrains.mps.baseLanguage.dates.structure.WithPropertyCompareExpression" />
-  <unitInfo fileName="StructureAspectDescriptor.java" startLine="173" startPosition="0" endLine="209" endPosition="0" unitName="jetbrains.mps.baseLanguage.dates.structure.StructureAspectDescriptor$DataBasedStructureDescriptor" />
   <unitInfo fileName="PeriodZeroHandlingKind_PropertySupport.java" startLine="9" startPosition="0" endLine="46" endPosition="0" unitName="jetbrains.mps.baseLanguage.dates.structure.PeriodZeroHandlingKind_PropertySupport" />
   <unitInfo fileName="PeriodSeparatorKind_PropertySupport.java" startLine="9" startPosition="0" endLine="46" endPosition="0" unitName="jetbrains.mps.baseLanguage.dates.structure.PeriodSeparatorKind_PropertySupport" />
   <unitInfo fileName="DayOfWeek_PropertySupport.java" startLine="9" startPosition="0" endLine="46" endPosition="0" unitName="jetbrains.mps.baseLanguage.dates.structure.DayOfWeek_PropertySupport" />
   <unitInfo fileName="DateFormatVisibility_PropertySupport.java" startLine="9" startPosition="0" endLine="46" endPosition="0" unitName="jetbrains.mps.baseLanguage.dates.structure.DateFormatVisibility_PropertySupport" />
   <unitInfo fileName="CompareType_PropertySupport.java" startLine="9" startPosition="0" endLine="46" endPosition="0" unitName="jetbrains.mps.baseLanguage.dates.structure.CompareType_PropertySupport" />
+  <unitInfo fileName="StructureAspectDescriptor.java" startLine="173" startPosition="0" endLine="212" endPosition="0" unitName="jetbrains.mps.baseLanguage.dates.structure.StructureAspectDescriptor$DataBasedStructureDescriptor" />
   <unitInfo fileName="PeriodInPropertyOperation.java" startLine="12" startPosition="0" endLine="54" endPosition="0" unitName="jetbrains.mps.baseLanguage.dates.structure.PeriodInPropertyOperation" />
   <unitInfo fileName="DateTimeMinusOperation.java" startLine="12" startPosition="0" endLine="54" endPosition="0" unitName="jetbrains.mps.baseLanguage.dates.structure.DateTimeMinusOperation" />
   <unitInfo fileName="PeriodSeparatorFormatToken.java" startLine="10" startPosition="0" endLine="53" endPosition="0" unitName="jetbrains.mps.baseLanguage.dates.structure.PeriodSeparatorFormatToken" />
@@ -89,6 +89,6 @@
   <unitInfo fileName="PeriodFormat.java" startLine="15" startPosition="0" endLine="127" endPosition="0" unitName="jetbrains.mps.baseLanguage.dates.structure.PeriodFormat" />
   <unitInfo fileName="DateFormat.java" startLine="15" startPosition="0" endLine="127" endPosition="0" unitName="jetbrains.mps.baseLanguage.dates.structure.DateFormat" />
   <unitInfo fileName="TimeConstant.java" startLine="16" startPosition="0" endLine="142" endPosition="0" unitName="jetbrains.mps.baseLanguage.dates.structure.TimeConstant" />
-  <unitInfo fileName="StructureAspectDescriptor.java" startLine="14" startPosition="0" endLine="210" endPosition="0" unitName="jetbrains.mps.baseLanguage.dates.structure.StructureAspectDescriptor" />
+  <unitInfo fileName="StructureAspectDescriptor.java" startLine="14" startPosition="0" endLine="213" endPosition="0" unitName="jetbrains.mps.baseLanguage.dates.structure.StructureAspectDescriptor" />
 </debugInfo>
 

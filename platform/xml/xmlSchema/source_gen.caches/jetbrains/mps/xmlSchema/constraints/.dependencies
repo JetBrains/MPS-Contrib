@@ -10,10 +10,6 @@
     <classNode dependClassName="jetbrains.mps.smodel.SNode" />
     <classNode dependClassName="jetbrains.mps.smodel.constraints.BaseNodePropertyGetter" />
     <classNode dependClassName="jetbrains.mps.smodel.constraints.INodePropertyGetter" />
-    <classNode dependClassName="jetbrains.mps.smodel.constraints.INodePropertySetter" />
-    <classNode dependClassName="jetbrains.mps.smodel.constraints.INodePropertyValidator" />
-    <classNode dependClassName="jetbrains.mps.smodel.constraints.INodeReferentSearchScopeProvider" />
-    <classNode dependClassName="jetbrains.mps.smodel.constraints.INodeReferentSetEventHandler" />
     <classNode extendsClassName="jetbrains.mps.smodel.structure.ConstraintsDataHolder" />
   </dependency>
   <dependency className="jetbrains.mps.xmlSchema.constraints.AttributeGroup_Constraints" file="AttributeGroup_Constraints.java">
@@ -26,10 +22,6 @@
     <classNode dependClassName="jetbrains.mps.smodel.SNode" />
     <classNode dependClassName="jetbrains.mps.smodel.constraints.BaseNodePropertyGetter" />
     <classNode dependClassName="jetbrains.mps.smodel.constraints.INodePropertyGetter" />
-    <classNode dependClassName="jetbrains.mps.smodel.constraints.INodePropertySetter" />
-    <classNode dependClassName="jetbrains.mps.smodel.constraints.INodePropertyValidator" />
-    <classNode dependClassName="jetbrains.mps.smodel.constraints.INodeReferentSearchScopeProvider" />
-    <classNode dependClassName="jetbrains.mps.smodel.constraints.INodeReferentSetEventHandler" />
     <classNode extendsClassName="jetbrains.mps.smodel.structure.ConstraintsDataHolder" />
   </dependency>
   <dependency className="jetbrains.mps.xmlSchema.constraints.BoundExpression_Constraints" file="BoundExpression_Constraints.java">
@@ -40,11 +32,7 @@
     <classNode dependClassName="jetbrains.mps.smodel.IScope" />
     <classNode dependClassName="jetbrains.mps.smodel.SNode" />
     <classNode dependClassName="jetbrains.mps.smodel.constraints.BaseNodePropertyValidator" />
-    <classNode dependClassName="jetbrains.mps.smodel.constraints.INodePropertyGetter" />
-    <classNode dependClassName="jetbrains.mps.smodel.constraints.INodePropertySetter" />
     <classNode dependClassName="jetbrains.mps.smodel.constraints.INodePropertyValidator" />
-    <classNode dependClassName="jetbrains.mps.smodel.constraints.INodeReferentSearchScopeProvider" />
-    <classNode dependClassName="jetbrains.mps.smodel.constraints.INodeReferentSetEventHandler" />
     <classNode extendsClassName="jetbrains.mps.smodel.structure.ConstraintsDataHolder" />
   </dependency>
   <dependency className="jetbrains.mps.xmlSchema.constraints.ComplexTypeReference_Constraints" file="ComplexTypeReference_Constraints.java">
@@ -53,14 +41,9 @@
     <classNode dependClassName="java.util.HashMap" />
     <classNode dependClassName="java.util.Map" />
     <classNode dependClassName="jetbrains.mps.smodel.IOperationContext" />
-    <classNode dependClassName="jetbrains.mps.smodel.SNode" />
     <classNode dependClassName="jetbrains.mps.smodel.SNodePointer" />
     <classNode dependClassName="jetbrains.mps.smodel.constraints.BaseNodeReferenceSearchScopeProvider" />
-    <classNode dependClassName="jetbrains.mps.smodel.constraints.INodePropertyGetter" />
-    <classNode dependClassName="jetbrains.mps.smodel.constraints.INodePropertySetter" />
-    <classNode dependClassName="jetbrains.mps.smodel.constraints.INodePropertyValidator" />
     <classNode dependClassName="jetbrains.mps.smodel.constraints.INodeReferentSearchScopeProvider" />
-    <classNode dependClassName="jetbrains.mps.smodel.constraints.INodeReferentSetEventHandler" />
     <classNode dependClassName="jetbrains.mps.smodel.constraints.ModelConstraintsManager" />
     <classNode dependClassName="jetbrains.mps.smodel.constraints.ReferentConstraintContext" />
     <classNode dependClassName="jetbrains.mps.smodel.search.ModelAndImportedModelsScope" />
@@ -76,10 +59,6 @@
     <classNode dependClassName="jetbrains.mps.smodel.SNode" />
     <classNode dependClassName="jetbrains.mps.smodel.constraints.BaseNodePropertyGetter" />
     <classNode dependClassName="jetbrains.mps.smodel.constraints.INodePropertyGetter" />
-    <classNode dependClassName="jetbrains.mps.smodel.constraints.INodePropertySetter" />
-    <classNode dependClassName="jetbrains.mps.smodel.constraints.INodePropertyValidator" />
-    <classNode dependClassName="jetbrains.mps.smodel.constraints.INodeReferentSearchScopeProvider" />
-    <classNode dependClassName="jetbrains.mps.smodel.constraints.INodeReferentSetEventHandler" />
     <classNode extendsClassName="jetbrains.mps.smodel.structure.ConstraintsDataHolder" />
   </dependency>
   <dependency className="jetbrains.mps.xmlSchema.constraints.ConstraintsAspectDescriptor" file="ConstraintsAspectDescriptor.java">
@@ -115,10 +94,7 @@
     <classNode dependClassName="jetbrains.mps.smodel.constraints.BaseNodePropertyGetter" />
     <classNode dependClassName="jetbrains.mps.smodel.constraints.BaseNodeReferenceSearchScopeProvider" />
     <classNode dependClassName="jetbrains.mps.smodel.constraints.INodePropertyGetter" />
-    <classNode dependClassName="jetbrains.mps.smodel.constraints.INodePropertySetter" />
-    <classNode dependClassName="jetbrains.mps.smodel.constraints.INodePropertyValidator" />
     <classNode dependClassName="jetbrains.mps.smodel.constraints.INodeReferentSearchScopeProvider" />
-    <classNode dependClassName="jetbrains.mps.smodel.constraints.INodeReferentSetEventHandler" />
     <classNode dependClassName="jetbrains.mps.smodel.constraints.ModelConstraintsManager" />
     <classNode dependClassName="jetbrains.mps.smodel.constraints.ReferentConstraintContext" />
     <classNode dependClassName="jetbrains.mps.smodel.search.SubnodesSearchScope" />
@@ -134,10 +110,6 @@
     <classNode dependClassName="jetbrains.mps.smodel.SNode" />
     <classNode dependClassName="jetbrains.mps.smodel.constraints.BaseNodePropertyGetter" />
     <classNode dependClassName="jetbrains.mps.smodel.constraints.INodePropertyGetter" />
-    <classNode dependClassName="jetbrains.mps.smodel.constraints.INodePropertySetter" />
-    <classNode dependClassName="jetbrains.mps.smodel.constraints.INodePropertyValidator" />
-    <classNode dependClassName="jetbrains.mps.smodel.constraints.INodeReferentSearchScopeProvider" />
-    <classNode dependClassName="jetbrains.mps.smodel.constraints.INodeReferentSetEventHandler" />
     <classNode extendsClassName="jetbrains.mps.smodel.structure.ConstraintsDataHolder" />
   </dependency>
   <dependency className="jetbrains.mps.xmlSchema.constraints.EntityDeclaration_Constraints" file="EntityDeclaration_Constraints.java">
@@ -150,10 +122,6 @@
     <classNode dependClassName="jetbrains.mps.smodel.SNode" />
     <classNode dependClassName="jetbrains.mps.smodel.constraints.BaseNodePropertyGetter" />
     <classNode dependClassName="jetbrains.mps.smodel.constraints.INodePropertyGetter" />
-    <classNode dependClassName="jetbrains.mps.smodel.constraints.INodePropertySetter" />
-    <classNode dependClassName="jetbrains.mps.smodel.constraints.INodePropertyValidator" />
-    <classNode dependClassName="jetbrains.mps.smodel.constraints.INodeReferentSearchScopeProvider" />
-    <classNode dependClassName="jetbrains.mps.smodel.constraints.INodeReferentSetEventHandler" />
     <classNode extendsClassName="jetbrains.mps.smodel.structure.ConstraintsDataHolder" />
   </dependency>
   <dependency className="jetbrains.mps.xmlSchema.constraints.EntitySet_Constraints" file="EntitySet_Constraints.java">
@@ -166,10 +134,6 @@
     <classNode dependClassName="jetbrains.mps.smodel.SNode" />
     <classNode dependClassName="jetbrains.mps.smodel.constraints.BaseNodePropertyGetter" />
     <classNode dependClassName="jetbrains.mps.smodel.constraints.INodePropertyGetter" />
-    <classNode dependClassName="jetbrains.mps.smodel.constraints.INodePropertySetter" />
-    <classNode dependClassName="jetbrains.mps.smodel.constraints.INodePropertyValidator" />
-    <classNode dependClassName="jetbrains.mps.smodel.constraints.INodeReferentSearchScopeProvider" />
-    <classNode dependClassName="jetbrains.mps.smodel.constraints.INodeReferentSetEventHandler" />
     <classNode extendsClassName="jetbrains.mps.smodel.structure.ConstraintsDataHolder" />
   </dependency>
   <dependency className="jetbrains.mps.xmlSchema.constraints.GroupDeclaration_Constraints" file="GroupDeclaration_Constraints.java">
@@ -182,10 +146,6 @@
     <classNode dependClassName="jetbrains.mps.smodel.SNode" />
     <classNode dependClassName="jetbrains.mps.smodel.constraints.BaseNodePropertyGetter" />
     <classNode dependClassName="jetbrains.mps.smodel.constraints.INodePropertyGetter" />
-    <classNode dependClassName="jetbrains.mps.smodel.constraints.INodePropertySetter" />
-    <classNode dependClassName="jetbrains.mps.smodel.constraints.INodePropertyValidator" />
-    <classNode dependClassName="jetbrains.mps.smodel.constraints.INodeReferentSearchScopeProvider" />
-    <classNode dependClassName="jetbrains.mps.smodel.constraints.INodeReferentSetEventHandler" />
     <classNode extendsClassName="jetbrains.mps.smodel.structure.ConstraintsDataHolder" />
   </dependency>
   <dependency className="jetbrains.mps.xmlSchema.constraints.Schema_Constraints" file="Schema_Constraints.java">
@@ -198,10 +158,6 @@
     <classNode dependClassName="jetbrains.mps.smodel.SNode" />
     <classNode dependClassName="jetbrains.mps.smodel.constraints.BaseNodePropertyGetter" />
     <classNode dependClassName="jetbrains.mps.smodel.constraints.INodePropertyGetter" />
-    <classNode dependClassName="jetbrains.mps.smodel.constraints.INodePropertySetter" />
-    <classNode dependClassName="jetbrains.mps.smodel.constraints.INodePropertyValidator" />
-    <classNode dependClassName="jetbrains.mps.smodel.constraints.INodeReferentSearchScopeProvider" />
-    <classNode dependClassName="jetbrains.mps.smodel.constraints.INodeReferentSetEventHandler" />
     <classNode extendsClassName="jetbrains.mps.smodel.structure.ConstraintsDataHolder" />
   </dependency>
 </dependenciesRoot>

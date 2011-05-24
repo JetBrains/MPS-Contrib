@@ -1,24 +1,24 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <debugInfo>
-  <unitInfo fileName="NodeRunConfigPropertyInstance_Constraints.java" startLine="63" startPosition="27" endLine="67" endPosition="5" unitName="jetbrains.mps.baseLanguage.runConfigurations.constraints.NodeRunConfigPropertyInstance_Constraints$2" />
-  <unitInfo fileName="JavaCheckBlock_Constraints.java" startLine="45" startPosition="15" endLine="55" endPosition="5" unitName="jetbrains.mps.baseLanguage.runConfigurations.constraints.JavaCheckBlock_Constraints$1" />
-  <unitInfo fileName="NodeRunConfigPropertyInstance_Constraints.java" startLine="48" startPosition="15" endLine="58" endPosition="5" unitName="jetbrains.mps.baseLanguage.runConfigurations.constraints.NodeRunConfigPropertyInstance_Constraints$1" />
+  <unitInfo fileName="NodeRunConfigPropertyInstance_Constraints.java" startLine="47" startPosition="27" endLine="51" endPosition="5" unitName="jetbrains.mps.baseLanguage.runConfigurations.constraints.NodeRunConfigPropertyInstance_Constraints$2" />
+  <unitInfo fileName="JavaNodeRunConfiguration_Constraints.java" startLine="7" startPosition="0" endLine="15" endPosition="0" unitName="jetbrains.mps.baseLanguage.runConfigurations.constraints.JavaNodeRunConfiguration_Constraints" />
+  <unitInfo fileName="JavaCheckBlock_Constraints.java" startLine="25" startPosition="15" endLine="35" endPosition="5" unitName="jetbrains.mps.baseLanguage.runConfigurations.constraints.JavaCheckBlock_Constraints$1" />
+  <unitInfo fileName="NodeRunConfigPropertyInstance_Constraints.java" startLine="32" startPosition="15" endLine="42" endPosition="5" unitName="jetbrains.mps.baseLanguage.runConfigurations.constraints.NodeRunConfigPropertyInstance_Constraints$1" />
+  <unitInfo fileName="JavaCheckBlock_Constraints.java" startLine="14" startPosition="0" endLine="42" endPosition="0" unitName="jetbrains.mps.baseLanguage.runConfigurations.constraints.JavaCheckBlock_Constraints" />
   <unitInfo fileName="ConstraintsAspectDescriptor.java" startLine="10" startPosition="0" endLine="49" endPosition="0" unitName="jetbrains.mps.baseLanguage.runConfigurations.constraints.ConstraintsAspectDescriptor" />
-  <unitInfo fileName="JavaNodeRunConfiguration_Constraints.java" startLine="15" startPosition="0" endLine="60" endPosition="0" unitName="jetbrains.mps.baseLanguage.runConfigurations.constraints.JavaNodeRunConfiguration_Constraints" />
-  <unitInfo fileName="JavaCheckBlock_Constraints.java" startLine="22" startPosition="0" endLine="87" endPosition="0" unitName="jetbrains.mps.baseLanguage.runConfigurations.constraints.JavaCheckBlock_Constraints" />
-  <unitInfo fileName="NodeRunConfigPropertyInstance_Constraints.java" startLine="25" startPosition="0" endLine="98" endPosition="0" unitName="jetbrains.mps.baseLanguage.runConfigurations.constraints.NodeRunConfigPropertyInstance_Constraints" />
+  <unitInfo fileName="NodeRunConfigPropertyInstance_Constraints.java" startLine="21" startPosition="0" endLine="62" endPosition="0" unitName="jetbrains.mps.baseLanguage.runConfigurations.constraints.NodeRunConfigPropertyInstance_Constraints" />
   <root nodeId="3361586479360707234">
-    <nodeInfo nodeId="3361586479360712799" fileName="NodeRunConfigPropertyInstance_Constraints.java" startLine="64" startPosition="84" endLine="65" endPosition="22" conceptFqName="jetbrains.mps.baseLanguage.structure.ReturnStatement" />
-    <nodeInfo nodeId="3361586479360712822" fileName="NodeRunConfigPropertyInstance_Constraints.java" startLine="92" startPosition="132" endLine="93" endPosition="19" conceptFqName="jetbrains.mps.baseLanguage.structure.ReturnStatement" />
-    <nodeInfo nodeId="3361586479360712826" fileName="NodeRunConfigPropertyInstance_Constraints.java" startLine="94" startPosition="5" endLine="95" endPosition="282" conceptFqName="jetbrains.mps.baseLanguage.structure.ReturnStatement" />
-    <nodeInfo nodeId="3361586479360712813" fileName="NodeRunConfigPropertyInstance_Constraints.java" startLine="91" startPosition="114" endLine="94" endPosition="5" conceptFqName="jetbrains.mps.baseLanguage.structure.IfStatement" />
-    <scopeInfo nodeId="3361586479360707237" fileName="NodeRunConfigPropertyInstance_Constraints.java" startLine="64" startPosition="84" endLine="65" endPosition="22" />
-    <scopeInfo nodeId="3361586479360712815" fileName="NodeRunConfigPropertyInstance_Constraints.java" startLine="92" startPosition="132" endLine="93" endPosition="19" />
-    <scopeInfo nodeId="3361586479360712803" fileName="NodeRunConfigPropertyInstance_Constraints.java" startLine="91" startPosition="114" endLine="95" endPosition="282" />
+    <nodeInfo nodeId="3361586479360712799" fileName="NodeRunConfigPropertyInstance_Constraints.java" startLine="48" startPosition="84" endLine="49" endPosition="22" conceptFqName="jetbrains.mps.baseLanguage.structure.ReturnStatement" />
+    <nodeInfo nodeId="3361586479360712822" fileName="NodeRunConfigPropertyInstance_Constraints.java" startLine="56" startPosition="132" endLine="57" endPosition="19" conceptFqName="jetbrains.mps.baseLanguage.structure.ReturnStatement" />
+    <nodeInfo nodeId="3361586479360712826" fileName="NodeRunConfigPropertyInstance_Constraints.java" startLine="58" startPosition="5" endLine="59" endPosition="282" conceptFqName="jetbrains.mps.baseLanguage.structure.ReturnStatement" />
+    <nodeInfo nodeId="3361586479360712813" fileName="NodeRunConfigPropertyInstance_Constraints.java" startLine="55" startPosition="114" endLine="58" endPosition="5" conceptFqName="jetbrains.mps.baseLanguage.structure.IfStatement" />
+    <scopeInfo nodeId="3361586479360707237" fileName="NodeRunConfigPropertyInstance_Constraints.java" startLine="48" startPosition="84" endLine="49" endPosition="22" />
+    <scopeInfo nodeId="3361586479360712815" fileName="NodeRunConfigPropertyInstance_Constraints.java" startLine="56" startPosition="132" endLine="57" endPosition="19" />
+    <scopeInfo nodeId="3361586479360712803" fileName="NodeRunConfigPropertyInstance_Constraints.java" startLine="55" startPosition="114" endLine="59" endPosition="282" />
   </root>
   <root nodeId="8126994885492054823">
-    <nodeInfo nodeId="8126994885492054826" fileName="JavaCheckBlock_Constraints.java" startLine="83" startPosition="114" endLine="84" endPosition="171" conceptFqName="jetbrains.mps.baseLanguage.structure.ReturnStatement" />
-    <scopeInfo nodeId="8126994885492054825" fileName="JavaCheckBlock_Constraints.java" startLine="83" startPosition="114" endLine="84" endPosition="171" />
+    <nodeInfo nodeId="8126994885492054826" fileName="JavaCheckBlock_Constraints.java" startLine="38" startPosition="114" endLine="39" endPosition="171" conceptFqName="jetbrains.mps.baseLanguage.structure.ReturnStatement" />
+    <scopeInfo nodeId="8126994885492054825" fileName="JavaCheckBlock_Constraints.java" startLine="38" startPosition="114" endLine="39" endPosition="171" />
   </root>
 </debugInfo>
 
