@@ -5690,7 +5690,7 @@
                 <link role="baseMethodDeclaration" roleId="tpee.1068499141037" targetNodeId="uqw6.~BaseConfigCreator%dsetSourceElement(com%dintellij%dpsi%dPsiElement)%cvoid" resolveInfo="setSourceElement" />
                 <node role="actualArgument" roleId="tpee.1068499141038" type="tpee.GenericNewExpression" typeId="tpee.1145552977093" id="5015922156501763903">
                   <node role="creator" roleId="tpee.1145553007750" type="tpee.ClassCreator" typeId="tpee.1212685548494" id="5015922156501763990">
-                    <link role="baseMethodDeclaration" roleId="tpee.1068499141037" targetNodeId="uqw6.~MPSPsiElement%d&lt;init&gt;(jetbrains%dmps%dsmodel%dSNode)" resolveInfo="MPSPsiElement" />
+                    <link role="baseMethodDeclaration" roleId="tpee.1068499141037" targetNodeId="uqw6.~MPSPsiElement%d&lt;init&gt;(jetbrains%dmps%dsmodel%dSModel)" resolveInfo="MPSPsiElement" />
                     <node role="actualArgument" roleId="tpee.1068499141038" type="tpee.NullLiteral" typeId="tpee.1070534058343" id="5015922156501763991">
                       <node role="smodelAttribute" roleId="tpck.5169995583184591170" type="tpf8.CopySrcNodeMacro" typeId="tpf8.1114706874351" id="5015922156501763992">
                         <node role="sourceNodeQuery" roleId="tpf8.1168024447342" type="tpf8.SourceSubstituteMacro_SourceNodeQuery" typeId="tpf8.1168024337012" id="5015922156501763993">
