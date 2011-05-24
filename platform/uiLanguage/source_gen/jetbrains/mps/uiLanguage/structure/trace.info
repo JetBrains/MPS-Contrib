@@ -18,7 +18,7 @@
   <unitInfo fileName="AfterConstructionBlock.java" startLine="12" startPosition="0" endLine="36" endPosition="0" unitName="jetbrains.mps.uiLanguage.structure.AfterConstructionBlock" />
   <unitInfo fileName="FormPart.java" startLine="11" startPosition="0" endLine="44" endPosition="0" unitName="jetbrains.mps.uiLanguage.structure.FormPart" />
   <unitInfo fileName="GridRow.java" startLine="13" startPosition="0" endLine="49" endPosition="0" unitName="jetbrains.mps.uiLanguage.structure.GridRow" />
-  <unitInfo fileName="StructureAspectDescriptor.java" startLine="105" startPosition="0" endLine="141" endPosition="0" unitName="jetbrains.mps.uiLanguage.structure.StructureAspectDescriptor$DataBasedStructureDescriptor" />
+  <unitInfo fileName="StructureAspectDescriptor.java" startLine="105" startPosition="0" endLine="144" endPosition="0" unitName="jetbrains.mps.uiLanguage.structure.StructureAspectDescriptor$DataBasedStructureDescriptor" />
   <unitInfo fileName="StandardDialogButton.java" startLine="12" startPosition="0" endLine="54" endPosition="0" unitName="jetbrains.mps.uiLanguage.structure.StandardDialogButton" />
   <unitInfo fileName="BeanCreator.java" startLine="15" startPosition="0" endLine="60" endPosition="0" unitName="jetbrains.mps.uiLanguage.structure.BeanCreator" />
   <unitInfo fileName="InlineRenderer.java" startLine="14" startPosition="0" endLine="86" endPosition="0" unitName="jetbrains.mps.uiLanguage.structure.InlineRenderer" />
@@ -39,7 +39,7 @@
   <unitInfo fileName="Grid.java" startLine="14" startPosition="0" endLine="119" endPosition="0" unitName="jetbrains.mps.uiLanguage.structure.Grid" />
   <unitInfo fileName="Form.java" startLine="14" startPosition="0" endLine="119" endPosition="0" unitName="jetbrains.mps.uiLanguage.structure.Form" />
   <unitInfo fileName="StandardDialog.java" startLine="14" startPosition="0" endLine="128" endPosition="0" unitName="jetbrains.mps.uiLanguage.structure.StandardDialog" />
-  <unitInfo fileName="StructureAspectDescriptor.java" startLine="14" startPosition="0" endLine="142" endPosition="0" unitName="jetbrains.mps.uiLanguage.structure.StructureAspectDescriptor" />
+  <unitInfo fileName="StructureAspectDescriptor.java" startLine="14" startPosition="0" endLine="145" endPosition="0" unitName="jetbrains.mps.uiLanguage.structure.StructureAspectDescriptor" />
   <unitInfo fileName="ComponentDeclaration.java" startLine="16" startPosition="0" endLine="151" endPosition="0" unitName="jetbrains.mps.uiLanguage.structure.ComponentDeclaration" />
   <unitInfo fileName="BeanDeclaration.java" startLine="18" startPosition="0" endLine="153" endPosition="0" unitName="jetbrains.mps.uiLanguage.structure.BeanDeclaration" />
   <unitInfo fileName="ComponentController.java" startLine="17" startPosition="0" endLine="179" endPosition="0" unitName="jetbrains.mps.uiLanguage.structure.ComponentController" />
