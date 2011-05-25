@@ -86,7 +86,7 @@ public class RunConfigurationDeclaration_Behavior {
   }
 
   public static SNode call_getStateType_9017024590936598176(SNode thisNode) {
-    BehaviorDescriptor descriptor = ConceptRegistry.getInstance().getConceptDescriptorForInstanceNode(thisNode).behavior();
+    BehaviorDescriptor descriptor = ConceptRegistry.getInstance().getBehaviorDescriptorForInstanceNode(thisNode);
     return (SNode) descriptor.invoke(Object.class, SNodeOperations.cast(thisNode, "jetbrains.mps.lang.plugin.structure.RunConfigurationDeclaration"), "virtual_getStateType_9017024590936598176", PARAMETERS_9017024590936598176);
   }
 

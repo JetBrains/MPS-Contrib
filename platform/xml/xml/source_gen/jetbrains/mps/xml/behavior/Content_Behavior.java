@@ -35,7 +35,7 @@ public class Content_Behavior {
   }
 
   public static List<SNode> call_getSubcontents_1213877224308(SNode thisNode) {
-    BehaviorDescriptor descriptor = ConceptRegistry.getInstance().getConceptDescriptorForInstanceNode(thisNode).behavior();
+    BehaviorDescriptor descriptor = ConceptRegistry.getInstance().getBehaviorDescriptorForInstanceNode(thisNode);
     return (List<SNode>) descriptor.invoke(Object.class, SNodeOperations.cast(thisNode, "jetbrains.mps.xml.structure.Content"), "virtual_getSubcontents_1213877224308", PARAMETERS_1213877224308);
   }
 

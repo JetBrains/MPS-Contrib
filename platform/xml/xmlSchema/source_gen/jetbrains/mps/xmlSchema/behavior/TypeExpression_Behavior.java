@@ -34,22 +34,22 @@ public class TypeExpression_Behavior {
   }
 
   public static void call_checkAttributes_1213877382373(SNode thisNode, List<SNode> attributeDeclarations) {
-    BehaviorDescriptor descriptor = ConceptRegistry.getInstance().getConceptDescriptorForInstanceNode(thisNode).behavior();
+    BehaviorDescriptor descriptor = ConceptRegistry.getInstance().getBehaviorDescriptorForInstanceNode(thisNode);
     descriptor.invoke(Object.class, SNodeOperations.cast(thisNode, "jetbrains.mps.xmlSchema.structure.TypeExpression"), "virtual_checkAttributes_1213877382373", PARAMETERS_1213877382373, attributeDeclarations);
   }
 
   public static void call_checkElements_1213877382378(SNode thisNode, Set<SNode> elementDeclarations) {
-    BehaviorDescriptor descriptor = ConceptRegistry.getInstance().getConceptDescriptorForInstanceNode(thisNode).behavior();
+    BehaviorDescriptor descriptor = ConceptRegistry.getInstance().getBehaviorDescriptorForInstanceNode(thisNode);
     descriptor.invoke(Object.class, SNodeOperations.cast(thisNode, "jetbrains.mps.xmlSchema.structure.TypeExpression"), "virtual_checkElements_1213877382378", PARAMETERS_1213877382378, elementDeclarations);
   }
 
   public static boolean call_hasElementReferences_1213877382383(SNode thisNode) {
-    BehaviorDescriptor descriptor = ConceptRegistry.getInstance().getConceptDescriptorForInstanceNode(thisNode).behavior();
+    BehaviorDescriptor descriptor = ConceptRegistry.getInstance().getBehaviorDescriptorForInstanceNode(thisNode);
     return (Boolean) descriptor.invoke(Boolean.class, SNodeOperations.cast(thisNode, "jetbrains.mps.xmlSchema.structure.TypeExpression"), "virtual_hasElementReferences_1213877382383", PARAMETERS_1213877382383);
   }
 
   public static boolean call_isMixed_1213877382388(SNode thisNode) {
-    BehaviorDescriptor descriptor = ConceptRegistry.getInstance().getConceptDescriptorForInstanceNode(thisNode).behavior();
+    BehaviorDescriptor descriptor = ConceptRegistry.getInstance().getBehaviorDescriptorForInstanceNode(thisNode);
     return (Boolean) descriptor.invoke(Boolean.class, SNodeOperations.cast(thisNode, "jetbrains.mps.xmlSchema.structure.TypeExpression"), "virtual_isMixed_1213877382388", PARAMETERS_1213877382388);
   }
 

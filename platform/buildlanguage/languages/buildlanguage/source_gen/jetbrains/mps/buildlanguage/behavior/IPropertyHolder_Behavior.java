@@ -16,7 +16,7 @@ public class IPropertyHolder_Behavior {
   }
 
   public static List<SNode> call_getProperties_1213877375726(SNode thisNode) {
-    BehaviorDescriptor descriptor = ConceptRegistry.getInstance().getConceptDescriptorForInstanceNode(thisNode).behavior();
+    BehaviorDescriptor descriptor = ConceptRegistry.getInstance().getBehaviorDescriptorForInstanceNode(thisNode);
     return (List<SNode>) descriptor.invoke(Object.class, SNodeOperations.cast(thisNode, "jetbrains.mps.buildlanguage.structure.IPropertyHolder"), "virtual_getProperties_1213877375726", PARAMETERS_1213877375726);
   }
 

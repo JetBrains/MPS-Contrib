@@ -24,12 +24,12 @@ public class PropertyValueExpression_Behavior {
   }
 
   public static String call_toString_1213877472569(SNode thisNode) {
-    BehaviorDescriptor descriptor = ConceptRegistry.getInstance().getConceptDescriptorForInstanceNode(thisNode).behavior();
+    BehaviorDescriptor descriptor = ConceptRegistry.getInstance().getBehaviorDescriptorForInstanceNode(thisNode);
     return (String) descriptor.invoke(Object.class, SNodeOperations.cast(thisNode, "jetbrains.mps.buildlanguage.structure.PropertyValueExpression"), "virtual_toString_1213877472569", PARAMETERS_1213877472569);
   }
 
   public static String call_getActualValue_1213877472572(SNode thisNode) {
-    BehaviorDescriptor descriptor = ConceptRegistry.getInstance().getConceptDescriptorForInstanceNode(thisNode).behavior();
+    BehaviorDescriptor descriptor = ConceptRegistry.getInstance().getBehaviorDescriptorForInstanceNode(thisNode);
     return (String) descriptor.invoke(Object.class, SNodeOperations.cast(thisNode, "jetbrains.mps.buildlanguage.structure.PropertyValueExpression"), "virtual_getActualValue_1213877472572", PARAMETERS_1213877472572);
   }
 

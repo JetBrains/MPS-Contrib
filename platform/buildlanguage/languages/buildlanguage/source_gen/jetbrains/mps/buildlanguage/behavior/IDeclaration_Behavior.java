@@ -43,22 +43,22 @@ public class IDeclaration_Behavior {
   }
 
   public static boolean call_isAbstract_5699548131010533031(SNode thisNode) {
-    BehaviorDescriptor descriptor = ConceptRegistry.getInstance().getConceptDescriptorForInstanceNode(thisNode).behavior();
+    BehaviorDescriptor descriptor = ConceptRegistry.getInstance().getBehaviorDescriptorForInstanceNode(thisNode);
     return (Boolean) descriptor.invoke(Boolean.class, SNodeOperations.cast(thisNode, "jetbrains.mps.buildlanguage.structure.IDeclaration"), "virtual_isAbstract_5699548131010533031", PARAMETERS_5699548131010533031);
   }
 
   public static SNode call_getParent_5699548131010535048(SNode thisNode) {
-    BehaviorDescriptor descriptor = ConceptRegistry.getInstance().getConceptDescriptorForInstanceNode(thisNode).behavior();
+    BehaviorDescriptor descriptor = ConceptRegistry.getInstance().getBehaviorDescriptorForInstanceNode(thisNode);
     return (SNode) descriptor.invoke(Object.class, SNodeOperations.cast(thisNode, "jetbrains.mps.buildlanguage.structure.IDeclaration"), "virtual_getParent_5699548131010535048", PARAMETERS_5699548131010535048);
   }
 
   public static boolean call_isHeirOf_5699548131010535069(SNode thisNode, SNode probableParent) {
-    BehaviorDescriptor descriptor = ConceptRegistry.getInstance().getConceptDescriptorForInstanceNode(thisNode).behavior();
+    BehaviorDescriptor descriptor = ConceptRegistry.getInstance().getBehaviorDescriptorForInstanceNode(thisNode);
     return (Boolean) descriptor.invoke(Boolean.class, SNodeOperations.cast(thisNode, "jetbrains.mps.buildlanguage.structure.IDeclaration"), "virtual_isHeirOf_5699548131010535069", PARAMETERS_5699548131010535069, probableParent);
   }
 
   public static boolean call_isHeirOf_5699548131010535105(SNode thisNode, List<SNode> parents) {
-    BehaviorDescriptor descriptor = ConceptRegistry.getInstance().getConceptDescriptorForInstanceNode(thisNode).behavior();
+    BehaviorDescriptor descriptor = ConceptRegistry.getInstance().getBehaviorDescriptorForInstanceNode(thisNode);
     return (Boolean) descriptor.invoke(Boolean.class, SNodeOperations.cast(thisNode, "jetbrains.mps.buildlanguage.structure.IDeclaration"), "virtual_isHeirOf_5699548131010535105", PARAMETERS_5699548131010535105, parents);
   }
 

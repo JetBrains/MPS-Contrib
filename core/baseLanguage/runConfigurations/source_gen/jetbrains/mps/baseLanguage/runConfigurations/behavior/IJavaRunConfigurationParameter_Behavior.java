@@ -16,12 +16,12 @@ public class IJavaRunConfigurationParameter_Behavior {
   }
 
   public static String call_getVariableForExecuteBlockName_1810772216404807669(SNode thisNode) {
-    BehaviorDescriptor descriptor = ConceptRegistry.getInstance().getConceptDescriptorForInstanceNode(thisNode).behavior();
+    BehaviorDescriptor descriptor = ConceptRegistry.getInstance().getBehaviorDescriptorForInstanceNode(thisNode);
     return (String) descriptor.invoke(Object.class, SNodeOperations.cast(thisNode, "jetbrains.mps.baseLanguage.runConfigurations.structure.IJavaRunConfigurationParameter"), "virtual_getVariableForExecuteBlockName_1810772216404807669", PARAMETERS_1810772216404807669);
   }
 
   public static SNode call_getParameterType_1810772216404820824(SNode thisNode) {
-    BehaviorDescriptor descriptor = ConceptRegistry.getInstance().getConceptDescriptorForInstanceNode(thisNode).behavior();
+    BehaviorDescriptor descriptor = ConceptRegistry.getInstance().getBehaviorDescriptorForInstanceNode(thisNode);
     return (SNode) descriptor.invoke(Object.class, SNodeOperations.cast(thisNode, "jetbrains.mps.baseLanguage.runConfigurations.structure.IJavaRunConfigurationParameter"), "virtual_getParameterType_1810772216404820824", PARAMETERS_1810772216404820824);
   }
 

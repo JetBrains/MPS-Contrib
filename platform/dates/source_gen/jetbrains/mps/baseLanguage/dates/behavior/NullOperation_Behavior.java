@@ -19,7 +19,7 @@ public class NullOperation_Behavior {
   }
 
   public static boolean call_operandCanBeNull_1015544890586290191(SNode thisNode) {
-    BehaviorDescriptor descriptor = ConceptRegistry.getInstance().getConceptDescriptorForInstanceNode(thisNode).behavior();
+    BehaviorDescriptor descriptor = ConceptRegistry.getInstance().getBehaviorDescriptorForInstanceNode(thisNode);
     return (Boolean) descriptor.invoke(Boolean.class, SNodeOperations.cast(thisNode, "jetbrains.mps.baseLanguage.dates.structure.NullOperation"), "virtual_operandCanBeNull_323410281720656291", PARAMETERS_1015544890586290191);
   }
 

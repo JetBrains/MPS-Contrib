@@ -35,7 +35,7 @@ public class XMLElementType_Behavior {
   }
 
   public static String call_getPresentation_7129398160685021502(SNode thisNode) {
-    BehaviorDescriptor descriptor = ConceptRegistry.getInstance().getConceptDescriptorForInstanceNode(thisNode).behavior();
+    BehaviorDescriptor descriptor = ConceptRegistry.getInstance().getBehaviorDescriptorForInstanceNode(thisNode);
     return (String) descriptor.invoke(Object.class, SNodeOperations.cast(thisNode, "jetbrains.mps.xmlQuery.structure.XMLElementType"), "virtual_getPresentation_1213877396640", PARAMETERS_7129398160685021502);
   }
 

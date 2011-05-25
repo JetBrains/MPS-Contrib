@@ -19,7 +19,7 @@ public class BinaryOperation_Behavior {
   }
 
   public static SNode call_getType_1213877398951(SNode thisNode, SNode s1, SNode s2) {
-    BehaviorDescriptor descriptor = ConceptRegistry.getInstance().getConceptDescriptorForInstanceNode(thisNode).behavior();
+    BehaviorDescriptor descriptor = ConceptRegistry.getInstance().getBehaviorDescriptorForInstanceNode(thisNode);
     return (SNode) descriptor.invoke(Object.class, SNodeOperations.cast(thisNode, "jetbrains.mps.buildlanguage.structure.BinaryOperation"), "virtual_getType_1213877398951", PARAMETERS_1213877398951, s1, s2);
   }
 

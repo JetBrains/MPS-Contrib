@@ -16,7 +16,7 @@ public class XmlRoot_Behavior {
   }
 
   public static SNode call_getSchema_1213877420378(SNode thisNode, IScope scope) {
-    BehaviorDescriptor descriptor = ConceptRegistry.getInstance().getConceptDescriptorForInstanceNode(thisNode).behavior();
+    BehaviorDescriptor descriptor = ConceptRegistry.getInstance().getBehaviorDescriptorForInstanceNode(thisNode);
     return (SNode) descriptor.invoke(Object.class, SNodeOperations.cast(thisNode, "jetbrains.mps.xml.structure.XmlRoot"), "virtual_getSchema_1213877420378", PARAMETERS_1213877420378, scope);
   }
 

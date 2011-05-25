@@ -19,17 +19,17 @@ public class ContentItem_Behavior {
   }
 
   public static void call_checkAttributes_1213877413538(SNode thisNode, List<SNode> attributeDeclarations) {
-    BehaviorDescriptor descriptor = ConceptRegistry.getInstance().getConceptDescriptorForInstanceNode(thisNode).behavior();
+    BehaviorDescriptor descriptor = ConceptRegistry.getInstance().getBehaviorDescriptorForInstanceNode(thisNode);
     descriptor.invoke(Object.class, SNodeOperations.cast(thisNode, "jetbrains.mps.xmlSchema.structure.ContentItem"), "virtual_checkAttributes_1213877413538", PARAMETERS_1213877413538, attributeDeclarations);
   }
 
   public static void call_checkElements_1213877413543(SNode thisNode, Set<SNode> elementDeclarations) {
-    BehaviorDescriptor descriptor = ConceptRegistry.getInstance().getConceptDescriptorForInstanceNode(thisNode).behavior();
+    BehaviorDescriptor descriptor = ConceptRegistry.getInstance().getBehaviorDescriptorForInstanceNode(thisNode);
     descriptor.invoke(Object.class, SNodeOperations.cast(thisNode, "jetbrains.mps.xmlSchema.structure.ContentItem"), "virtual_checkElements_1213877413543", PARAMETERS_1213877413543, elementDeclarations);
   }
 
   public static boolean call_isMixed_1213877413548(SNode thisNode) {
-    BehaviorDescriptor descriptor = ConceptRegistry.getInstance().getConceptDescriptorForInstanceNode(thisNode).behavior();
+    BehaviorDescriptor descriptor = ConceptRegistry.getInstance().getBehaviorDescriptorForInstanceNode(thisNode);
     return (Boolean) descriptor.invoke(Boolean.class, SNodeOperations.cast(thisNode, "jetbrains.mps.xmlSchema.structure.ContentItem"), "virtual_isMixed_1213877413548", PARAMETERS_1213877413548);
   }
 

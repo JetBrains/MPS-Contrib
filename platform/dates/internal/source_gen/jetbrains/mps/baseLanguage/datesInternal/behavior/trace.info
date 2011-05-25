@@ -1,5 +1,11 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <debugInfo>
+  <unitInfo fileName="IPeriodFormat_BehaviorDescriptor.java" startLine="7" startPosition="0" endLine="9" endPosition="0" unitName="jetbrains.mps.baseLanguage.datesInternal.behavior.IPeriodFormat_BehaviorDescriptor" />
+  <unitInfo fileName="IDateFormat_BehaviorDescriptor.java" startLine="7" startPosition="0" endLine="9" endPosition="0" unitName="jetbrains.mps.baseLanguage.datesInternal.behavior.IDateFormat_BehaviorDescriptor" />
+  <unitInfo fileName="DateTimeZonePropertyFormatConfiguration_BehaviorDescriptor.java" startLine="6" startPosition="0" endLine="10" endPosition="0" unitName="jetbrains.mps.baseLanguage.datesInternal.behavior.DateTimeZonePropertyFormatConfiguration_BehaviorDescriptor" />
+  <unitInfo fileName="DateTimeIntPropertyFormatConfiguration_BehaviorDescriptor.java" startLine="6" startPosition="0" endLine="10" endPosition="0" unitName="jetbrains.mps.baseLanguage.datesInternal.behavior.DateTimeIntPropertyFormatConfiguration_BehaviorDescriptor" />
+  <unitInfo fileName="DateTimePropertySettings_BehaviorDescriptor.java" startLine="7" startPosition="0" endLine="11" endPosition="0" unitName="jetbrains.mps.baseLanguage.datesInternal.behavior.DateTimePropertySettings_BehaviorDescriptor" />
+  <unitInfo fileName="FormatTokenSettings_BehaviorDescriptor.java" startLine="7" startPosition="0" endLine="11" endPosition="0" unitName="jetbrains.mps.baseLanguage.datesInternal.behavior.FormatTokenSettings_BehaviorDescriptor" />
   <unitInfo fileName="DateTimePropertyFormatType_Behavior.java" startLine="7" startPosition="0" endLine="11" endPosition="0" unitName="jetbrains.mps.baseLanguage.datesInternal.behavior.DateTimePropertyFormatType_Behavior" />
   <unitInfo fileName="DateTimeIntPropertyFormatConfiguration_Behavior.java" startLine="7" startPosition="0" endLine="11" endPosition="0" unitName="jetbrains.mps.baseLanguage.datesInternal.behavior.DateTimeIntPropertyFormatConfiguration_Behavior" />
   <unitInfo fileName="DateTimePropertyConfiguration_Behavior.java" startLine="7" startPosition="0" endLine="11" endPosition="0" unitName="jetbrains.mps.baseLanguage.datesInternal.behavior.DateTimePropertyConfiguration_Behavior" />
@@ -9,8 +15,20 @@
   <unitInfo fileName="SchedulePeriod_Behavior.java" startLine="7" startPosition="0" endLine="11" endPosition="0" unitName="jetbrains.mps.baseLanguage.datesInternal.behavior.SchedulePeriod_Behavior" />
   <unitInfo fileName="DateTimeZonePropertyFormatConfiguration_Behavior.java" startLine="7" startPosition="0" endLine="11" endPosition="0" unitName="jetbrains.mps.baseLanguage.datesInternal.behavior.DateTimeZonePropertyFormatConfiguration_Behavior" />
   <unitInfo fileName="DateTimePropertyCardinality_Behavior.java" startLine="8" startPosition="0" endLine="16" endPosition="0" unitName="jetbrains.mps.baseLanguage.datesInternal.behavior.DateTimePropertyCardinality_Behavior" />
+  <unitInfo fileName="PredefinedPeriodFormat_BehaviorDescriptor.java" startLine="9" startPosition="0" endLine="17" endPosition="0" unitName="jetbrains.mps.baseLanguage.datesInternal.behavior.PredefinedPeriodFormat_BehaviorDescriptor" />
   <unitInfo fileName="PredefinedDateFormat_Behavior.java" startLine="9" startPosition="0" endLine="17" endPosition="0" unitName="jetbrains.mps.baseLanguage.datesInternal.behavior.PredefinedDateFormat_Behavior" />
+  <unitInfo fileName="DateTimeZone_BehaviorDescriptor.java" startLine="10" startPosition="0" endLine="18" endPosition="0" unitName="jetbrains.mps.baseLanguage.datesInternal.behavior.DateTimeZone_BehaviorDescriptor" />
+  <unitInfo fileName="SchedulePeriod_BehaviorDescriptor.java" startLine="10" startPosition="0" endLine="18" endPosition="0" unitName="jetbrains.mps.baseLanguage.datesInternal.behavior.SchedulePeriod_BehaviorDescriptor" />
+  <unitInfo fileName="Month_BehaviorDescriptor.java" startLine="10" startPosition="0" endLine="18" endPosition="0" unitName="jetbrains.mps.baseLanguage.datesInternal.behavior.Month_BehaviorDescriptor" />
+  <unitInfo fileName="DurationType_BehaviorDescriptor.java" startLine="10" startPosition="0" endLine="18" endPosition="0" unitName="jetbrains.mps.baseLanguage.datesInternal.behavior.DurationType_BehaviorDescriptor" />
+  <unitInfo fileName="DateTimePropertyConfiguration_BehaviorDescriptor.java" startLine="10" startPosition="0" endLine="18" endPosition="0" unitName="jetbrains.mps.baseLanguage.datesInternal.behavior.DateTimePropertyConfiguration_BehaviorDescriptor" />
+  <unitInfo fileName="DateTimePropertyFormatType_BehaviorDescriptor.java" startLine="10" startPosition="0" endLine="18" endPosition="0" unitName="jetbrains.mps.baseLanguage.datesInternal.behavior.DateTimePropertyFormatType_BehaviorDescriptor" />
+  <unitInfo fileName="Locale_BehaviorDescriptor.java" startLine="10" startPosition="0" endLine="18" endPosition="0" unitName="jetbrains.mps.baseLanguage.datesInternal.behavior.Locale_BehaviorDescriptor" />
+  <unitInfo fileName="DateTimeProperty_BehaviorDescriptor.java" startLine="10" startPosition="0" endLine="18" endPosition="0" unitName="jetbrains.mps.baseLanguage.datesInternal.behavior.DateTimeProperty_BehaviorDescriptor" />
   <unitInfo fileName="DateTimeZone_Behavior.java" startLine="8" startPosition="0" endLine="19" endPosition="0" unitName="jetbrains.mps.baseLanguage.datesInternal.behavior.DateTimeZone_Behavior" />
+  <unitInfo fileName="PredefinedDateFormat_BehaviorDescriptor.java" startLine="9" startPosition="0" endLine="21" endPosition="0" unitName="jetbrains.mps.baseLanguage.datesInternal.behavior.PredefinedDateFormat_BehaviorDescriptor" />
+  <unitInfo fileName="DateTimePropertyCardinality_BehaviorDescriptor.java" startLine="10" startPosition="0" endLine="22" endPosition="0" unitName="jetbrains.mps.baseLanguage.datesInternal.behavior.DateTimePropertyCardinality_BehaviorDescriptor" />
+  <unitInfo fileName="BehaviorAspectDescriptor.java" startLine="8" startPosition="0" endLine="56" endPosition="0" unitName="jetbrains.mps.baseLanguage.datesInternal.behavior.BehaviorAspectDescriptor" />
   <root nodeId="1213877257790">
     <scopeInfo nodeId="1213877257792" fileName="DateTimeZonePropertyFormatConfiguration_Behavior.java" startLine="8" startPosition="43" endLine="8" endPosition="43" />
   </root>

@@ -16,7 +16,7 @@ public class ISource_Behavior {
   }
 
   public static List<String> call_getPaths_1213877276955(SNode thisNode) {
-    BehaviorDescriptor descriptor = ConceptRegistry.getInstance().getConceptDescriptorForInstanceNode(thisNode).behavior();
+    BehaviorDescriptor descriptor = ConceptRegistry.getInstance().getBehaviorDescriptorForInstanceNode(thisNode);
     return (List<String>) descriptor.invoke(Object.class, SNodeOperations.cast(thisNode, "jetbrains.mps.buildlanguage.structure.ISource"), "virtual_getPaths_1213877276955", PARAMETERS_1213877276955);
   }
 

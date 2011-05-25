@@ -15,7 +15,7 @@ public class ITargetReference_Behavior {
   }
 
   public static String call_getProjectFileName_1230222765831(SNode thisNode) {
-    BehaviorDescriptor descriptor = ConceptRegistry.getInstance().getConceptDescriptorForInstanceNode(thisNode).behavior();
+    BehaviorDescriptor descriptor = ConceptRegistry.getInstance().getBehaviorDescriptorForInstanceNode(thisNode);
     return (String) descriptor.invoke(Object.class, SNodeOperations.cast(thisNode, "jetbrains.mps.buildlanguage.structure.ITargetReference"), "virtual_getProjectFileName_1230222765831", PARAMETERS_1230222765831);
   }
 
