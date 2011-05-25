@@ -30,7 +30,7 @@ public class IComponentInstance_Behavior {
   }
 
   public static SNode call_getExtendedComponent_1213877498080(SNode thisNode) {
-    BehaviorDescriptor descriptor = ConceptRegistry.getInstance().getConceptDescriptorForInstanceNode(thisNode).behavior();
+    BehaviorDescriptor descriptor = ConceptRegistry.getInstance().getBehaviorDescriptorForInstanceNode(thisNode);
     return (SNode) descriptor.invoke(Object.class, SNodeOperations.cast(thisNode, "jetbrains.mps.uiLanguage.structure.IComponentInstance"), "virtual_getExtendedComponent_1213877498080", PARAMETERS_1213877498080);
   }
 

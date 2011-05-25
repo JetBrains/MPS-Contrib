@@ -1,5 +1,29 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <debugInfo>
+  <unitInfo fileName="IComponentPart_BehaviorDescriptor.java" startLine="6" startPosition="0" endLine="8" endPosition="0" unitName="jetbrains.mps.uiLanguage.behavior.IComponentPart_BehaviorDescriptor" />
+  <unitInfo fileName="IComponentInstance_BehaviorDescriptor.java" startLine="7" startPosition="0" endLine="10" endPosition="0" unitName="jetbrains.mps.uiLanguage.behavior.IComponentInstance_BehaviorDescriptor" />
+  <unitInfo fileName="BeforeConstructionBlock_BehaviorDescriptor.java" startLine="7" startPosition="0" endLine="11" endPosition="0" unitName="jetbrains.mps.uiLanguage.behavior.BeforeConstructionBlock_BehaviorDescriptor" />
+  <unitInfo fileName="RenderingObject_BehaviorDescriptor.java" startLine="7" startPosition="0" endLine="11" endPosition="0" unitName="jetbrains.mps.uiLanguage.behavior.RenderingObject_BehaviorDescriptor" />
+  <unitInfo fileName="InlineRenderer_BehaviorDescriptor.java" startLine="7" startPosition="0" endLine="11" endPosition="0" unitName="jetbrains.mps.uiLanguage.behavior.InlineRenderer_BehaviorDescriptor" />
+  <unitInfo fileName="CellRendererAttribute_BehaviorDescriptor.java" startLine="7" startPosition="0" endLine="11" endPosition="0" unitName="jetbrains.mps.uiLanguage.behavior.CellRendererAttribute_BehaviorDescriptor" />
+  <unitInfo fileName="StubCellRendererInfo_BehaviorDescriptor.java" startLine="7" startPosition="0" endLine="11" endPosition="0" unitName="jetbrains.mps.uiLanguage.behavior.StubCellRendererInfo_BehaviorDescriptor" />
+  <unitInfo fileName="RaiseInternalStatement_BehaviorDescriptor.java" startLine="7" startPosition="0" endLine="11" endPosition="0" unitName="jetbrains.mps.uiLanguage.behavior.RaiseInternalStatement_BehaviorDescriptor" />
+  <unitInfo fileName="EventHandlerReference_BehaviorDescriptor.java" startLine="7" startPosition="0" endLine="11" endPosition="0" unitName="jetbrains.mps.uiLanguage.behavior.EventHandlerReference_BehaviorDescriptor" />
+  <unitInfo fileName="InlineEventHandler_BehaviorDescriptor.java" startLine="7" startPosition="0" endLine="11" endPosition="0" unitName="jetbrains.mps.uiLanguage.behavior.InlineEventHandler_BehaviorDescriptor" />
+  <unitInfo fileName="RemoveListenerOperation_BehaviorDescriptor.java" startLine="7" startPosition="0" endLine="11" endPosition="0" unitName="jetbrains.mps.uiLanguage.behavior.RemoveListenerOperation_BehaviorDescriptor" />
+  <unitInfo fileName="AddListenerOperation_BehaviorDescriptor.java" startLine="7" startPosition="0" endLine="11" endPosition="0" unitName="jetbrains.mps.uiLanguage.behavior.AddListenerOperation_BehaviorDescriptor" />
+  <unitInfo fileName="BeanCreator_BehaviorDescriptor.java" startLine="7" startPosition="0" endLine="11" endPosition="0" unitName="jetbrains.mps.uiLanguage.behavior.BeanCreator_BehaviorDescriptor" />
+  <unitInfo fileName="ComponentCreator_BehaviorDescriptor.java" startLine="7" startPosition="0" endLine="11" endPosition="0" unitName="jetbrains.mps.uiLanguage.behavior.ComponentCreator_BehaviorDescriptor" />
+  <unitInfo fileName="ListElements_BehaviorDescriptor.java" startLine="7" startPosition="0" endLine="11" endPosition="0" unitName="jetbrains.mps.uiLanguage.behavior.ListElements_BehaviorDescriptor" />
+  <unitInfo fileName="AfterConstructionBlock_BehaviorDescriptor.java" startLine="7" startPosition="0" endLine="11" endPosition="0" unitName="jetbrains.mps.uiLanguage.behavior.AfterConstructionBlock_BehaviorDescriptor" />
+  <unitInfo fileName="StandardDialogButton_BehaviorDescriptor.java" startLine="7" startPosition="0" endLine="11" endPosition="0" unitName="jetbrains.mps.uiLanguage.behavior.StandardDialogButton_BehaviorDescriptor" />
+  <unitInfo fileName="GridRow_BehaviorDescriptor.java" startLine="7" startPosition="0" endLine="11" endPosition="0" unitName="jetbrains.mps.uiLanguage.behavior.GridRow_BehaviorDescriptor" />
+  <unitInfo fileName="FormPart_BehaviorDescriptor.java" startLine="7" startPosition="0" endLine="11" endPosition="0" unitName="jetbrains.mps.uiLanguage.behavior.FormPart_BehaviorDescriptor" />
+  <unitInfo fileName="ActionHandler_BehaviorDescriptor.java" startLine="7" startPosition="0" endLine="11" endPosition="0" unitName="jetbrains.mps.uiLanguage.behavior.ActionHandler_BehaviorDescriptor" />
+  <unitInfo fileName="ComponentReference_BehaviorDescriptor.java" startLine="7" startPosition="0" endLine="11" endPosition="0" unitName="jetbrains.mps.uiLanguage.behavior.ComponentReference_BehaviorDescriptor" />
+  <unitInfo fileName="LayoutConstraint_BehaviorDescriptor.java" startLine="7" startPosition="0" endLine="11" endPosition="0" unitName="jetbrains.mps.uiLanguage.behavior.LayoutConstraint_BehaviorDescriptor" />
+  <unitInfo fileName="BindExpression_BehaviorDescriptor.java" startLine="7" startPosition="0" endLine="11" endPosition="0" unitName="jetbrains.mps.uiLanguage.behavior.BindExpression_BehaviorDescriptor" />
+  <unitInfo fileName="AttributeValue_BehaviorDescriptor.java" startLine="7" startPosition="0" endLine="11" endPosition="0" unitName="jetbrains.mps.uiLanguage.behavior.AttributeValue_BehaviorDescriptor" />
   <unitInfo fileName="PngIcon_Behavior.java" startLine="7" startPosition="0" endLine="11" endPosition="0" unitName="jetbrains.mps.uiLanguage.behavior.PngIcon_Behavior" />
   <unitInfo fileName="RenderingObject_Behavior.java" startLine="7" startPosition="0" endLine="11" endPosition="0" unitName="jetbrains.mps.uiLanguage.behavior.RenderingObject_Behavior" />
   <unitInfo fileName="RaiseOperation_Behavior.java" startLine="7" startPosition="0" endLine="11" endPosition="0" unitName="jetbrains.mps.uiLanguage.behavior.RaiseOperation_Behavior" />
@@ -12,23 +36,40 @@
   <unitInfo fileName="RemoveListenerOperation_Behavior.java" startLine="7" startPosition="0" endLine="11" endPosition="0" unitName="jetbrains.mps.uiLanguage.behavior.RemoveListenerOperation_Behavior" />
   <unitInfo fileName="ComponentReference_Behavior.java" startLine="7" startPosition="0" endLine="11" endPosition="0" unitName="jetbrains.mps.uiLanguage.behavior.ComponentReference_Behavior" />
   <unitInfo fileName="EventHandlerReference_Behavior.java" startLine="7" startPosition="0" endLine="12" endPosition="0" unitName="jetbrains.mps.uiLanguage.behavior.EventHandlerReference_Behavior" />
+  <unitInfo fileName="Scroller_BehaviorDescriptor.java" startLine="8" startPosition="0" endLine="16" endPosition="0" unitName="jetbrains.mps.uiLanguage.behavior.Scroller_BehaviorDescriptor" />
+  <unitInfo fileName="StandardDialog_BehaviorDescriptor.java" startLine="8" startPosition="0" endLine="16" endPosition="0" unitName="jetbrains.mps.uiLanguage.behavior.StandardDialog_BehaviorDescriptor" />
+  <unitInfo fileName="Grid_BehaviorDescriptor.java" startLine="8" startPosition="0" endLine="16" endPosition="0" unitName="jetbrains.mps.uiLanguage.behavior.Grid_BehaviorDescriptor" />
+  <unitInfo fileName="Form_BehaviorDescriptor.java" startLine="8" startPosition="0" endLine="16" endPosition="0" unitName="jetbrains.mps.uiLanguage.behavior.Form_BehaviorDescriptor" />
   <unitInfo fileName="ComponentInstance_Behavior.java" startLine="8" startPosition="0" endLine="16" endPosition="0" unitName="jetbrains.mps.uiLanguage.behavior.ComponentInstance_Behavior" />
   <unitInfo fileName="ComponentController_Behavior.java" startLine="8" startPosition="0" endLine="16" endPosition="0" unitName="jetbrains.mps.uiLanguage.behavior.ComponentController_Behavior" />
+  <unitInfo fileName="BeanType_BehaviorDescriptor.java" startLine="9" startPosition="0" endLine="17" endPosition="0" unitName="jetbrains.mps.uiLanguage.behavior.BeanType_BehaviorDescriptor" />
+  <unitInfo fileName="ComponentType_BehaviorDescriptor.java" startLine="9" startPosition="0" endLine="17" endPosition="0" unitName="jetbrains.mps.uiLanguage.behavior.ComponentType_BehaviorDescriptor" />
   <unitInfo fileName="CellRendererAttribute_Behavior.java" startLine="9" startPosition="0" endLine="17" endPosition="0" unitName="jetbrains.mps.uiLanguage.behavior.CellRendererAttribute_Behavior" />
   <unitInfo fileName="InlineRenderer_Behavior.java" startLine="9" startPosition="0" endLine="17" endPosition="0" unitName="jetbrains.mps.uiLanguage.behavior.InlineRenderer_Behavior" />
+  <unitInfo fileName="PngIcon_BehaviorDescriptor.java" startLine="10" startPosition="0" endLine="18" endPosition="0" unitName="jetbrains.mps.uiLanguage.behavior.PngIcon_BehaviorDescriptor" />
   <unitInfo fileName="BeanType_Behavior.java" startLine="10" startPosition="0" endLine="18" endPosition="0" unitName="jetbrains.mps.uiLanguage.behavior.BeanType_Behavior" />
   <unitInfo fileName="ComponentType_Behavior.java" startLine="10" startPosition="0" endLine="18" endPosition="0" unitName="jetbrains.mps.uiLanguage.behavior.ComponentType_Behavior" />
   <unitInfo fileName="StubCellRendererInfo_Behavior.java" startLine="10" startPosition="0" endLine="18" endPosition="0" unitName="jetbrains.mps.uiLanguage.behavior.StubCellRendererInfo_Behavior" />
+  <unitInfo fileName="ComponentInstance_BehaviorDescriptor.java" startLine="10" startPosition="0" endLine="22" endPosition="0" unitName="jetbrains.mps.uiLanguage.behavior.ComponentInstance_BehaviorDescriptor" />
+  <unitInfo fileName="ComponentController_BehaviorDescriptor.java" startLine="11" startPosition="0" endLine="23" endPosition="0" unitName="jetbrains.mps.uiLanguage.behavior.ComponentController_BehaviorDescriptor" />
   <unitInfo fileName="Scroller_Behavior.java" startLine="11" startPosition="0" endLine="23" endPosition="0" unitName="jetbrains.mps.uiLanguage.behavior.Scroller_Behavior" />
   <unitInfo fileName="Grid_Behavior.java" startLine="9" startPosition="0" endLine="25" endPosition="0" unitName="jetbrains.mps.uiLanguage.behavior.Grid_Behavior" />
   <unitInfo fileName="StandardDialog_Behavior.java" startLine="23" startPosition="0" endLine="40" endPosition="0" unitName="jetbrains.mps.uiLanguage.behavior.StandardDialog_Behavior$QuotationClass_isnud2_a0a0a1" />
   <unitInfo fileName="GridRow_Behavior.java" startLine="33" startPosition="0" endLine="50" endPosition="0" unitName="jetbrains.mps.uiLanguage.behavior.GridRow_Behavior$QuotationClass_cglpzy_a0a0a0d0b" />
   <unitInfo fileName="EventDeclaration_Behavior.java" startLine="10" startPosition="0" endLine="28" endPosition="0" unitName="jetbrains.mps.uiLanguage.behavior.EventDeclaration_Behavior" />
   <unitInfo fileName="BeanDeclaration_Behavior.java" startLine="13" startPosition="0" endLine="31" endPosition="0" unitName="jetbrains.mps.uiLanguage.behavior.BeanDeclaration_Behavior" />
+  <unitInfo fileName="RaiseOperation_BehaviorDescriptor.java" startLine="10" startPosition="0" endLine="30" endPosition="0" unitName="jetbrains.mps.uiLanguage.behavior.RaiseOperation_BehaviorDescriptor" />
+  <unitInfo fileName="EventAccessOperation_BehaviorDescriptor.java" startLine="10" startPosition="0" endLine="30" endPosition="0" unitName="jetbrains.mps.uiLanguage.behavior.EventAccessOperation_BehaviorDescriptor" />
+  <unitInfo fileName="AttributeReferenceOperation_BehaviorDescriptor.java" startLine="10" startPosition="0" endLine="30" endPosition="0" unitName="jetbrains.mps.uiLanguage.behavior.AttributeReferenceOperation_BehaviorDescriptor" />
   <unitInfo fileName="StandardDialog_Behavior.java" startLine="15" startPosition="0" endLine="41" endPosition="0" unitName="jetbrains.mps.uiLanguage.behavior.StandardDialog_Behavior" />
   <unitInfo fileName="IComponentInstance_Behavior.java" startLine="14" startPosition="0" endLine="41" endPosition="0" unitName="jetbrains.mps.uiLanguage.behavior.IComponentInstance_Behavior" />
+  <unitInfo fileName="EventDeclaration_BehaviorDescriptor.java" startLine="11" startPosition="0" endLine="39" endPosition="0" unitName="jetbrains.mps.uiLanguage.behavior.EventDeclaration_BehaviorDescriptor" />
+  <unitInfo fileName="AttributeDeclaration_BehaviorDescriptor.java" startLine="11" startPosition="0" endLine="39" endPosition="0" unitName="jetbrains.mps.uiLanguage.behavior.AttributeDeclaration_BehaviorDescriptor" />
+  <unitInfo fileName="ComponentDeclaration_BehaviorDescriptor.java" startLine="13" startPosition="0" endLine="45" endPosition="0" unitName="jetbrains.mps.uiLanguage.behavior.ComponentDeclaration_BehaviorDescriptor" />
+  <unitInfo fileName="BeanDeclaration_BehaviorDescriptor.java" startLine="14" startPosition="0" endLine="46" endPosition="0" unitName="jetbrains.mps.uiLanguage.behavior.BeanDeclaration_BehaviorDescriptor" />
   <unitInfo fileName="GridRow_Behavior.java" startLine="19" startPosition="0" endLine="51" endPosition="0" unitName="jetbrains.mps.uiLanguage.behavior.GridRow_Behavior" />
   <unitInfo fileName="BindExpression_Behavior.java" startLine="10" startPosition="0" endLine="46" endPosition="0" unitName="jetbrains.mps.uiLanguage.behavior.BindExpression_Behavior" />
+  <unitInfo fileName="BehaviorAspectDescriptor.java" startLine="8" startPosition="0" endLine="101" endPosition="0" unitName="jetbrains.mps.uiLanguage.behavior.BehaviorAspectDescriptor" />
   <unitInfo fileName="ComponentDeclaration_Behavior.java" startLine="19" startPosition="0" endLine="124" endPosition="0" unitName="jetbrains.mps.uiLanguage.behavior.ComponentDeclaration_Behavior" />
   <root nodeId="1213877184373">
     <nodeInfo nodeId="1213877184376" fileName="ComponentController_Behavior.java" startLine="12" startPosition="79" endLine="13" endPosition="67" conceptFqName="jetbrains.mps.baseLanguage.structure.ReturnStatement" />
