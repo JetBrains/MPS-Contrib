@@ -9,13 +9,11 @@
     <classNode dependClassName="jetbrains.mps.ide.findusages.BaseFindUsagesDescriptor" />
     <classNode dependClassName="jetbrains.mps.lang.typesystem.runtime.IHelginsDescriptor" />
     <classNode dependClassName="jetbrains.mps.project.structure.modules.ModuleReference" />
+    <classNode dependClassName="jetbrains.mps.smodel.language.LanguageRuntimeInterpreted" />
     <classNode dependClassName="jetbrains.mps.smodel.structure.BehaviorDescriptor" />
     <classNode dependClassName="jetbrains.mps.smodel.structure.ConstraintsDescriptor" />
     <classNode dependClassName="jetbrains.mps.smodel.structure.DescriptorProvider" />
     <classNode dependClassName="jetbrains.mps.smodel.structure.StructureDescriptor" />
-    <classNode dependClassName="jetbrains.mps.uiLanguage.behavior.BehaviorAspectDescriptor" />
-    <classNode dependClassName="jetbrains.mps.uiLanguage.constraints.ConstraintsAspectDescriptor" />
-    <classNode dependClassName="jetbrains.mps.uiLanguage.structure.StructureAspectDescriptor" />
     <classNode dependClassName="jetbrains.mps.uiLanguage.typesystem.TypesystemDescriptor" />
     <classNode extendsClassName="jetbrains.mps.smodel.language.LanguageRuntime" />
   </dependency>
