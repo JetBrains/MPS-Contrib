@@ -4,26 +4,40 @@ package jetbrains.mps.xmlSchema;
 
 import jetbrains.mps.smodel.language.LanguageRuntime;
 import jetbrains.mps.project.structure.modules.ModuleReference;
+import jetbrains.mps.smodel.structure.DescriptorProvider;
+import jetbrains.mps.smodel.structure.StructureDescriptor;
+import jetbrains.mps.smodel.structure.BehaviorDescriptor;
+import jetbrains.mps.smodel.structure.ConstraintsDescriptor;
 import java.util.Collection;
 import jetbrains.mps.generator.runtime.TemplateModule;
 import jetbrains.mps.generator.runtime.TemplateUtil;
+import jetbrains.mps.smodel.language.LanguageRuntimeInterpreted;
 import jetbrains.mps.lang.typesystem.runtime.IHelginsDescriptor;
 import jetbrains.mps.ide.findusages.BaseFindUsagesDescriptor;
-import jetbrains.mps.smodel.structure.DescriptorProvider;
-import jetbrains.mps.smodel.structure.ConstraintsDescriptor;
-import jetbrains.mps.xmlSchema.constraints.ConstraintsAspectDescriptor;
-import jetbrains.mps.smodel.structure.StructureDescriptor;
-import jetbrains.mps.xmlSchema.structure.StructureAspectDescriptor;
-import jetbrains.mps.smodel.structure.BehaviorDescriptor;
-import jetbrains.mps.xmlSchema.behavior.BehaviorAspectDescriptor;
 
 public class Language extends LanguageRuntime {
   public static ModuleReference MODULE_REFERENCE = ModuleReference.fromString("b51b9e02-45dc-4b48-b300-cf49360a8d1f(jetbrains.mps.xmlSchema)");
 
+  private DescriptorProvider<StructureDescriptor> structureAspect;
+  private DescriptorProvider<BehaviorDescriptor> behaviorAspect;
+  private DescriptorProvider<ConstraintsDescriptor> constraintsAspect;
   private final Collection<TemplateModule> generators;
 
   public Language() {
     generators = TemplateUtil.<TemplateModule>asCollection(TemplateUtil.createInterpretedGenerator(this, "c202c4d8-8ec4-4178-8398-99beed04ee2c(jetbrains.mps.xmlSchema#2709156219364519555)"));
+    structureAspect = getAspectDescriptorByClassName("jetbrains.mps.xmlSchema.structure.StructureAspectDescriptor");
+    behaviorAspect = getAspectDescriptorByClassName("jetbrains.mps.xmlSchema.behavior.BehaviorAspectDescriptor");
+    constraintsAspect = getAspectDescriptorByClassName("jetbrains.mps.xmlSchema.constraints.ConstraintsAspectDescriptor");
+
+    if (structureAspect == null) {
+      structureAspect = LanguageRuntimeInterpreted.STRUCTURE_PROVIDER;
+    }
+    if (behaviorAspect == null) {
+      behaviorAspect = LanguageRuntimeInterpreted.BEHAVIOR_PROVIDER;
+    }
+    if (constraintsAspect == null) {
+      constraintsAspect = LanguageRuntimeInterpreted.CONSTRAINTS_PROVIDER;
+    }
   }
 
   public String getNamespace() {
@@ -46,16 +60,16 @@ public class Language extends LanguageRuntime {
 
   @Override
   public DescriptorProvider<ConstraintsDescriptor> getConstraintsAspect() {
-    return new ConstraintsAspectDescriptor();
+    return constraintsAspect;
   }
 
   @Override
   public DescriptorProvider<StructureDescriptor> getStructureAspect() {
-    return new StructureAspectDescriptor();
+    return structureAspect;
   }
 
   @Override
   public DescriptorProvider<BehaviorDescriptor> getBehaviorAspect() {
-    return new BehaviorAspectDescriptor();
+    return behaviorAspect;
   }
 }
