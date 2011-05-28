@@ -4,8 +4,9 @@ package jetbrains.mps.execution.impl.configurations.runners;
 
 import jetbrains.mps.util.annotation.ToRemove;
 import com.intellij.execution.BeforeRunTaskProvider;
-import jetbrains.mps.logging.Logger;
 import com.intellij.openapi.util.Key;
+import org.apache.commons.logging.Log;
+import org.apache.commons.logging.LogFactory;
 import com.intellij.execution.configurations.RunConfiguration;
 import com.intellij.openapi.actionSystem.DataContext;
 import java.lang.reflect.Method;
@@ -17,12 +18,11 @@ import com.intellij.execution.BeforeRunTask;
 @Deprecated
 @ToRemove(version = 2.0)
 public class LegacyBeforeTaskProvider extends BeforeRunTaskProvider<LegacyBeforeTaskProvider.MakeTask> {
-  private static final Logger LOG = Logger.getLogger(LegacyBeforeTaskProvider.class);
   private static final Key<LegacyBeforeTaskProvider.MakeTask> KEY = Key.create("Legacy");
+  protected static Log log = LogFactory.getLog(LegacyBeforeTaskProvider.class);
 
   @Deprecated
   public LegacyBeforeTaskProvider() {
-    // Fixes MPS-11832 for old mps run configurations. 
   }
 
   @Override
@@ -72,13 +72,21 @@ public class LegacyBeforeTaskProvider extends BeforeRunTaskProvider<LegacyBefore
       }
       return (Boolean) make.invoke(configuration, PlatformDataKeys.PROJECT.getData(context));
     } catch (NoSuchMethodException e) {
-      LOG.error(e);
+      if (log.isErrorEnabled()) {
+        log.error("", e);
+      }
     } catch (InvocationTargetException e) {
-      LOG.error(e);
+      if (log.isErrorEnabled()) {
+        log.error("", e);
+      }
     } catch (IllegalAccessException e) {
-      LOG.error(e);
+      if (log.isErrorEnabled()) {
+        log.error("", e);
+      }
     } catch (ClassCastException e) {
-      LOG.error(e);
+      if (log.isErrorEnabled()) {
+        log.error("", e);
+      }
     }
     return false;
   }
