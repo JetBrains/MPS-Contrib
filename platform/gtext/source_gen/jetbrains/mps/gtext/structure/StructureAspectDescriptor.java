@@ -4,6 +4,7 @@ package jetbrains.mps.gtext.structure;
 
 import jetbrains.mps.smodel.structure.DescriptorProvider;
 import jetbrains.mps.smodel.structure.StructureDescriptor;
+import java.util.Arrays;
 import com.google.common.collect.ImmutableList;
 import java.util.Set;
 import java.util.List;
@@ -12,47 +13,49 @@ import jetbrains.mps.smodel.structure.ConceptRegistry;
 import java.util.Collections;
 
 public class StructureAspectDescriptor extends DescriptorProvider<StructureDescriptor> {
+  private static String[] stringSwitchCases_1htk8d_a0a0a = new String[]{"jetbrains.mps.gtext.structure.BuilderContextRef", "jetbrains.mps.gtext.structure.GCompositeItem", "jetbrains.mps.gtext.structure.GConditionalLine", "jetbrains.mps.gtext.structure.GContentBlock", "jetbrains.mps.gtext.structure.GContentPlaceholder", "jetbrains.mps.gtext.structure.GDocument", "jetbrains.mps.gtext.structure.GExpressionItem", "jetbrains.mps.gtext.structure.GIndent", "jetbrains.mps.gtext.structure.GIndentBlock", "jetbrains.mps.gtext.structure.GItem", "jetbrains.mps.gtext.structure.GItemList", "jetbrains.mps.gtext.structure.GItemStatement", "jetbrains.mps.gtext.structure.GLine", "jetbrains.mps.gtext.structure.GNewLine", "jetbrains.mps.gtext.structure.GSeparatorItemList", "jetbrains.mps.gtext.structure.GStatementItem", "jetbrains.mps.gtext.structure.GText", "jetbrains.mps.gtext.structure.GTextConcept"};
+
   public StructureAspectDescriptor() {
   }
 
   public StructureDescriptor getDescriptor(String conceptFqName) {
-    switch ((conceptFqName).hashCode()) {
-      case 1210042857:
-        return new StructureAspectDescriptor.DataBasedStructureDescriptor("jetbrains.mps.gtext.structure.GText", new String[]{"jetbrains.mps.gtext.structure.GItem"}, new String[]{"jetbrains.mps.gtext.structure.GItem", "jetbrains.mps.gtext.structure.GTextConcept"}, new String[]{"jetbrains.mps.lang.core.structure.BaseConcept"});
-      case 1209728975:
-        return new StructureAspectDescriptor.DataBasedStructureDescriptor("jetbrains.mps.gtext.structure.GItem", new String[]{"jetbrains.mps.lang.core.structure.BaseConcept", "jetbrains.mps.gtext.structure.GTextConcept"}, new String[]{"jetbrains.mps.gtext.structure.GTextConcept"}, new String[]{"jetbrains.mps.lang.core.structure.BaseConcept"});
-      case -1072913139:
-        return new StructureAspectDescriptor.DataBasedStructureDescriptor("jetbrains.mps.gtext.structure.GItemList", new String[]{"jetbrains.mps.gtext.structure.GItem", "jetbrains.mps.gtext.structure.GCompositeItem"}, new String[]{"jetbrains.mps.gtext.structure.GCompositeItem", "jetbrains.mps.gtext.structure.GItem", "jetbrains.mps.gtext.structure.GTextConcept"}, new String[]{"jetbrains.mps.lang.core.structure.BaseConcept"});
-      case -305827976:
-        return new StructureAspectDescriptor.DataBasedStructureDescriptor("jetbrains.mps.gtext.structure.GNewLine", new String[]{"jetbrains.mps.gtext.structure.GItem"}, new String[]{"jetbrains.mps.gtext.structure.GItem", "jetbrains.mps.gtext.structure.GTextConcept"}, new String[]{"jetbrains.mps.lang.core.structure.BaseConcept"});
-      case -1392167320:
-        return new StructureAspectDescriptor.DataBasedStructureDescriptor("jetbrains.mps.gtext.structure.GIndent", new String[]{"jetbrains.mps.gtext.structure.GItem"}, new String[]{"jetbrains.mps.gtext.structure.GItem", "jetbrains.mps.gtext.structure.GTextConcept"}, new String[]{"jetbrains.mps.lang.core.structure.BaseConcept"});
-      case -1994825979:
-        return new StructureAspectDescriptor.DataBasedStructureDescriptor("jetbrains.mps.gtext.structure.GIndentBlock", new String[]{"jetbrains.mps.gtext.structure.GItem"}, new String[]{"jetbrains.mps.gtext.structure.GItem", "jetbrains.mps.gtext.structure.GTextConcept"}, new String[]{"jetbrains.mps.lang.core.structure.BaseConcept"});
-      case -547380640:
-        return new StructureAspectDescriptor.DataBasedStructureDescriptor("jetbrains.mps.gtext.structure.GItemStatement", new String[]{"jetbrains.mps.baseLanguage.structure.Statement"}, new String[]{}, new String[]{"jetbrains.mps.baseLanguage.structure.Statement"});
-      case 774586247:
-        return new StructureAspectDescriptor.DataBasedStructureDescriptor("jetbrains.mps.gtext.structure.GExpressionItem", new String[]{"jetbrains.mps.gtext.structure.GItem"}, new String[]{"jetbrains.mps.gtext.structure.GItem", "jetbrains.mps.gtext.structure.GTextConcept"}, new String[]{"jetbrains.mps.lang.core.structure.BaseConcept"});
-      case -357312538:
-        return new StructureAspectDescriptor.DataBasedStructureDescriptor("jetbrains.mps.gtext.structure.GStatementItem", new String[]{"jetbrains.mps.gtext.structure.GItem"}, new String[]{"jetbrains.mps.gtext.structure.GItem", "jetbrains.mps.gtext.structure.GTextConcept"}, new String[]{"jetbrains.mps.lang.core.structure.BaseConcept"});
-      case 1209808048:
-        return new StructureAspectDescriptor.DataBasedStructureDescriptor("jetbrains.mps.gtext.structure.GLine", new String[]{"jetbrains.mps.gtext.structure.GItem", "jetbrains.mps.gtext.structure.GCompositeItem"}, new String[]{"jetbrains.mps.gtext.structure.GCompositeItem", "jetbrains.mps.gtext.structure.GItem", "jetbrains.mps.gtext.structure.GTextConcept"}, new String[]{"jetbrains.mps.lang.core.structure.BaseConcept"});
-      case 1295613278:
-        return new StructureAspectDescriptor.DataBasedStructureDescriptor("jetbrains.mps.gtext.structure.GConditionalLine", new String[]{"jetbrains.mps.gtext.structure.GItem", "jetbrains.mps.gtext.structure.GCompositeItem"}, new String[]{"jetbrains.mps.gtext.structure.GCompositeItem", "jetbrains.mps.gtext.structure.GItem", "jetbrains.mps.gtext.structure.GTextConcept"}, new String[]{"jetbrains.mps.lang.core.structure.BaseConcept"});
-      case 1314943636:
+    switch (Arrays.binarySearch(stringSwitchCases_1htk8d_a0a0a, conceptFqName)) {
+      case 0:
         return new StructureAspectDescriptor.DataBasedStructureDescriptor("jetbrains.mps.gtext.structure.BuilderContextRef", new String[]{"jetbrains.mps.baseLanguage.structure.Expression", "jetbrains.mps.gtext.structure.GTextConcept"}, new String[]{"jetbrains.mps.gtext.structure.GTextConcept"}, new String[]{"jetbrains.mps.baseLanguage.structure.Expression"});
-      case -1388472361:
-        return new StructureAspectDescriptor.DataBasedStructureDescriptor("jetbrains.mps.gtext.structure.GDocument", new String[]{"jetbrains.mps.lang.core.structure.BaseConcept", "jetbrains.mps.lang.core.structure.INamedConcept"}, new String[]{}, new String[]{"jetbrains.mps.lang.core.structure.BaseConcept", "jetbrains.mps.lang.core.structure.INamedConcept"});
-      case 454426687:
-        return new StructureAspectDescriptor.DataBasedStructureDescriptor("jetbrains.mps.gtext.structure.GTextConcept", new String[]{}, new String[]{}, new String[]{});
-      case -904823526:
-        return new StructureAspectDescriptor.DataBasedStructureDescriptor("jetbrains.mps.gtext.structure.GSeparatorItemList", new String[]{"jetbrains.mps.gtext.structure.GItem", "jetbrains.mps.gtext.structure.GCompositeItem"}, new String[]{"jetbrains.mps.gtext.structure.GCompositeItem", "jetbrains.mps.gtext.structure.GItem", "jetbrains.mps.gtext.structure.GTextConcept"}, new String[]{"jetbrains.mps.lang.core.structure.BaseConcept"});
-      case 446574326:
-        return new StructureAspectDescriptor.DataBasedStructureDescriptor("jetbrains.mps.gtext.structure.GContentPlaceholder", new String[]{"jetbrains.mps.gtext.structure.GItem", "jetbrains.mps.lang.core.structure.INamedConcept"}, new String[]{"jetbrains.mps.gtext.structure.GItem", "jetbrains.mps.gtext.structure.GTextConcept"}, new String[]{"jetbrains.mps.lang.core.structure.BaseConcept", "jetbrains.mps.lang.core.structure.INamedConcept"});
-      case -1436578736:
-        return new StructureAspectDescriptor.DataBasedStructureDescriptor("jetbrains.mps.gtext.structure.GContentBlock", new String[]{"jetbrains.mps.gtext.structure.GItem", "jetbrains.mps.lang.core.structure.INamedConcept", "jetbrains.mps.gtext.structure.GCompositeItem"}, new String[]{"jetbrains.mps.gtext.structure.GCompositeItem", "jetbrains.mps.gtext.structure.GItem", "jetbrains.mps.gtext.structure.GTextConcept"}, new String[]{"jetbrains.mps.lang.core.structure.BaseConcept", "jetbrains.mps.lang.core.structure.INamedConcept"});
-      case 479450366:
+      case 1:
         return new StructureAspectDescriptor.DataBasedStructureDescriptor("jetbrains.mps.gtext.structure.GCompositeItem", new String[]{}, new String[]{}, new String[]{});
+      case 2:
+        return new StructureAspectDescriptor.DataBasedStructureDescriptor("jetbrains.mps.gtext.structure.GConditionalLine", new String[]{"jetbrains.mps.gtext.structure.GItem", "jetbrains.mps.gtext.structure.GCompositeItem"}, new String[]{"jetbrains.mps.gtext.structure.GCompositeItem", "jetbrains.mps.gtext.structure.GItem", "jetbrains.mps.gtext.structure.GTextConcept"}, new String[]{"jetbrains.mps.lang.core.structure.BaseConcept"});
+      case 3:
+        return new StructureAspectDescriptor.DataBasedStructureDescriptor("jetbrains.mps.gtext.structure.GContentBlock", new String[]{"jetbrains.mps.gtext.structure.GItem", "jetbrains.mps.lang.core.structure.INamedConcept", "jetbrains.mps.gtext.structure.GCompositeItem"}, new String[]{"jetbrains.mps.gtext.structure.GCompositeItem", "jetbrains.mps.gtext.structure.GItem", "jetbrains.mps.gtext.structure.GTextConcept"}, new String[]{"jetbrains.mps.lang.core.structure.BaseConcept", "jetbrains.mps.lang.core.structure.INamedConcept"});
+      case 4:
+        return new StructureAspectDescriptor.DataBasedStructureDescriptor("jetbrains.mps.gtext.structure.GContentPlaceholder", new String[]{"jetbrains.mps.gtext.structure.GItem", "jetbrains.mps.lang.core.structure.INamedConcept"}, new String[]{"jetbrains.mps.gtext.structure.GItem", "jetbrains.mps.gtext.structure.GTextConcept"}, new String[]{"jetbrains.mps.lang.core.structure.BaseConcept", "jetbrains.mps.lang.core.structure.INamedConcept"});
+      case 5:
+        return new StructureAspectDescriptor.DataBasedStructureDescriptor("jetbrains.mps.gtext.structure.GDocument", new String[]{"jetbrains.mps.lang.core.structure.BaseConcept", "jetbrains.mps.lang.core.structure.INamedConcept"}, new String[]{}, new String[]{"jetbrains.mps.lang.core.structure.BaseConcept", "jetbrains.mps.lang.core.structure.INamedConcept"});
+      case 6:
+        return new StructureAspectDescriptor.DataBasedStructureDescriptor("jetbrains.mps.gtext.structure.GExpressionItem", new String[]{"jetbrains.mps.gtext.structure.GItem"}, new String[]{"jetbrains.mps.gtext.structure.GItem", "jetbrains.mps.gtext.structure.GTextConcept"}, new String[]{"jetbrains.mps.lang.core.structure.BaseConcept"});
+      case 7:
+        return new StructureAspectDescriptor.DataBasedStructureDescriptor("jetbrains.mps.gtext.structure.GIndent", new String[]{"jetbrains.mps.gtext.structure.GItem"}, new String[]{"jetbrains.mps.gtext.structure.GItem", "jetbrains.mps.gtext.structure.GTextConcept"}, new String[]{"jetbrains.mps.lang.core.structure.BaseConcept"});
+      case 8:
+        return new StructureAspectDescriptor.DataBasedStructureDescriptor("jetbrains.mps.gtext.structure.GIndentBlock", new String[]{"jetbrains.mps.gtext.structure.GItem"}, new String[]{"jetbrains.mps.gtext.structure.GItem", "jetbrains.mps.gtext.structure.GTextConcept"}, new String[]{"jetbrains.mps.lang.core.structure.BaseConcept"});
+      case 9:
+        return new StructureAspectDescriptor.DataBasedStructureDescriptor("jetbrains.mps.gtext.structure.GItem", new String[]{"jetbrains.mps.lang.core.structure.BaseConcept", "jetbrains.mps.gtext.structure.GTextConcept"}, new String[]{"jetbrains.mps.gtext.structure.GTextConcept"}, new String[]{"jetbrains.mps.lang.core.structure.BaseConcept"});
+      case 10:
+        return new StructureAspectDescriptor.DataBasedStructureDescriptor("jetbrains.mps.gtext.structure.GItemList", new String[]{"jetbrains.mps.gtext.structure.GItem", "jetbrains.mps.gtext.structure.GCompositeItem"}, new String[]{"jetbrains.mps.gtext.structure.GCompositeItem", "jetbrains.mps.gtext.structure.GItem", "jetbrains.mps.gtext.structure.GTextConcept"}, new String[]{"jetbrains.mps.lang.core.structure.BaseConcept"});
+      case 11:
+        return new StructureAspectDescriptor.DataBasedStructureDescriptor("jetbrains.mps.gtext.structure.GItemStatement", new String[]{"jetbrains.mps.baseLanguage.structure.Statement"}, new String[]{}, new String[]{"jetbrains.mps.baseLanguage.structure.Statement"});
+      case 12:
+        return new StructureAspectDescriptor.DataBasedStructureDescriptor("jetbrains.mps.gtext.structure.GLine", new String[]{"jetbrains.mps.gtext.structure.GItem", "jetbrains.mps.gtext.structure.GCompositeItem"}, new String[]{"jetbrains.mps.gtext.structure.GCompositeItem", "jetbrains.mps.gtext.structure.GItem", "jetbrains.mps.gtext.structure.GTextConcept"}, new String[]{"jetbrains.mps.lang.core.structure.BaseConcept"});
+      case 13:
+        return new StructureAspectDescriptor.DataBasedStructureDescriptor("jetbrains.mps.gtext.structure.GNewLine", new String[]{"jetbrains.mps.gtext.structure.GItem"}, new String[]{"jetbrains.mps.gtext.structure.GItem", "jetbrains.mps.gtext.structure.GTextConcept"}, new String[]{"jetbrains.mps.lang.core.structure.BaseConcept"});
+      case 14:
+        return new StructureAspectDescriptor.DataBasedStructureDescriptor("jetbrains.mps.gtext.structure.GSeparatorItemList", new String[]{"jetbrains.mps.gtext.structure.GItem", "jetbrains.mps.gtext.structure.GCompositeItem"}, new String[]{"jetbrains.mps.gtext.structure.GCompositeItem", "jetbrains.mps.gtext.structure.GItem", "jetbrains.mps.gtext.structure.GTextConcept"}, new String[]{"jetbrains.mps.lang.core.structure.BaseConcept"});
+      case 15:
+        return new StructureAspectDescriptor.DataBasedStructureDescriptor("jetbrains.mps.gtext.structure.GStatementItem", new String[]{"jetbrains.mps.gtext.structure.GItem"}, new String[]{"jetbrains.mps.gtext.structure.GItem", "jetbrains.mps.gtext.structure.GTextConcept"}, new String[]{"jetbrains.mps.lang.core.structure.BaseConcept"});
+      case 16:
+        return new StructureAspectDescriptor.DataBasedStructureDescriptor("jetbrains.mps.gtext.structure.GText", new String[]{"jetbrains.mps.gtext.structure.GItem"}, new String[]{"jetbrains.mps.gtext.structure.GItem", "jetbrains.mps.gtext.structure.GTextConcept"}, new String[]{"jetbrains.mps.lang.core.structure.BaseConcept"});
+      case 17:
+        return new StructureAspectDescriptor.DataBasedStructureDescriptor("jetbrains.mps.gtext.structure.GTextConcept", new String[]{}, new String[]{}, new String[]{});
       default:
         return null;
     }

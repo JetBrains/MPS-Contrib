@@ -4,6 +4,7 @@ package jetbrains.mps.build.generictasks.structure;
 
 import jetbrains.mps.smodel.structure.DescriptorProvider;
 import jetbrains.mps.smodel.structure.StructureDescriptor;
+import java.util.Arrays;
 import com.google.common.collect.ImmutableList;
 import java.util.Set;
 import java.util.List;
@@ -12,29 +13,31 @@ import jetbrains.mps.smodel.structure.ConceptRegistry;
 import java.util.Collections;
 
 public class StructureAspectDescriptor extends DescriptorProvider<StructureDescriptor> {
+  private static String[] stringSwitchCases_1htk8d_a0a0a = new String[]{"jetbrains.mps.build.generictasks.structure.Attribute", "jetbrains.mps.build.generictasks.structure.AttributeDeclaration", "jetbrains.mps.build.generictasks.structure.BuiltInTaskDeclaration", "jetbrains.mps.build.generictasks.structure.ITaskDeclaration", "jetbrains.mps.build.generictasks.structure.NestedDeclaration", "jetbrains.mps.build.generictasks.structure.PathReference", "jetbrains.mps.build.generictasks.structure.TaskCall", "jetbrains.mps.build.generictasks.structure.TaskInterfaceDeclaration", "jetbrains.mps.build.generictasks.structure.TaskReference"};
+
   public StructureAspectDescriptor() {
   }
 
   public StructureDescriptor getDescriptor(String conceptFqName) {
-    switch ((conceptFqName).hashCode()) {
-      case -1625726912:
+    switch (Arrays.binarySearch(stringSwitchCases_1htk8d_a0a0a, conceptFqName)) {
+      case 0:
         return new StructureAspectDescriptor.DataBasedStructureDescriptor("jetbrains.mps.build.generictasks.structure.Attribute", new String[]{"jetbrains.mps.lang.core.structure.BaseConcept"}, new String[]{}, new String[]{"jetbrains.mps.lang.core.structure.BaseConcept"});
-      case -1674242790:
+      case 1:
         return new StructureAspectDescriptor.DataBasedStructureDescriptor("jetbrains.mps.build.generictasks.structure.AttributeDeclaration", new String[]{"jetbrains.mps.lang.core.structure.BaseConcept", "jetbrains.mps.lang.core.structure.INamedConcept", "jetbrains.mps.baseLanguage.classifiers.structure.IMember"}, new String[]{}, new String[]{"jetbrains.mps.baseLanguage.classifiers.structure.IMember", "jetbrains.mps.lang.core.structure.BaseConcept", "jetbrains.mps.lang.core.structure.INamedConcept"});
-      case -1156260001:
-        return new StructureAspectDescriptor.DataBasedStructureDescriptor("jetbrains.mps.build.generictasks.structure.TaskCall", new String[]{"jetbrains.mps.buildlanguage.structure.AbstractCall", "jetbrains.mps.lang.core.structure.INamedConcept"}, new String[]{}, new String[]{"jetbrains.mps.buildlanguage.structure.AbstractCall", "jetbrains.mps.lang.core.structure.INamedConcept"});
-      case -813062782:
-        return new StructureAspectDescriptor.DataBasedStructureDescriptor("jetbrains.mps.build.generictasks.structure.TaskInterfaceDeclaration", new String[]{"jetbrains.mps.build.generictasks.structure.BuiltInTaskDeclaration"}, new String[]{"jetbrains.mps.build.generictasks.structure.BuiltInTaskDeclaration", "jetbrains.mps.build.generictasks.structure.ITaskDeclaration"}, new String[]{"jetbrains.mps.baseLanguage.classifiers.structure.IClassifier", "jetbrains.mps.buildlanguage.structure.IDeclaration"});
-      case -869603122:
+      case 2:
         return new StructureAspectDescriptor.DataBasedStructureDescriptor("jetbrains.mps.build.generictasks.structure.BuiltInTaskDeclaration", new String[]{"jetbrains.mps.build.generictasks.structure.ITaskDeclaration"}, new String[]{"jetbrains.mps.build.generictasks.structure.ITaskDeclaration"}, new String[]{"jetbrains.mps.baseLanguage.classifiers.structure.IClassifier", "jetbrains.mps.buildlanguage.structure.IDeclaration"});
-      case 2127895975:
-        return new StructureAspectDescriptor.DataBasedStructureDescriptor("jetbrains.mps.build.generictasks.structure.NestedDeclaration", new String[]{"jetbrains.mps.build.generictasks.structure.TaskReference"}, new String[]{"jetbrains.mps.build.generictasks.structure.TaskReference"}, new String[]{"jetbrains.mps.lang.core.structure.BaseConcept"});
-      case 1188894794:
-        return new StructureAspectDescriptor.DataBasedStructureDescriptor("jetbrains.mps.build.generictasks.structure.PathReference", new String[]{"jetbrains.mps.buildlanguage.structure.CallReference"}, new String[]{}, new String[]{"jetbrains.mps.buildlanguage.structure.CallReference"});
-      case 1222693610:
-        return new StructureAspectDescriptor.DataBasedStructureDescriptor("jetbrains.mps.build.generictasks.structure.TaskReference", new String[]{"jetbrains.mps.lang.core.structure.BaseConcept"}, new String[]{}, new String[]{"jetbrains.mps.lang.core.structure.BaseConcept"});
-      case 1912788200:
+      case 3:
         return new StructureAspectDescriptor.DataBasedStructureDescriptor("jetbrains.mps.build.generictasks.structure.ITaskDeclaration", new String[]{"jetbrains.mps.buildlanguage.structure.IDeclaration", "jetbrains.mps.baseLanguage.classifiers.structure.IClassifier"}, new String[]{}, new String[]{"jetbrains.mps.baseLanguage.classifiers.structure.IClassifier", "jetbrains.mps.buildlanguage.structure.IDeclaration"});
+      case 4:
+        return new StructureAspectDescriptor.DataBasedStructureDescriptor("jetbrains.mps.build.generictasks.structure.NestedDeclaration", new String[]{"jetbrains.mps.build.generictasks.structure.TaskReference"}, new String[]{"jetbrains.mps.build.generictasks.structure.TaskReference"}, new String[]{"jetbrains.mps.lang.core.structure.BaseConcept"});
+      case 5:
+        return new StructureAspectDescriptor.DataBasedStructureDescriptor("jetbrains.mps.build.generictasks.structure.PathReference", new String[]{"jetbrains.mps.buildlanguage.structure.CallReference"}, new String[]{}, new String[]{"jetbrains.mps.buildlanguage.structure.CallReference"});
+      case 6:
+        return new StructureAspectDescriptor.DataBasedStructureDescriptor("jetbrains.mps.build.generictasks.structure.TaskCall", new String[]{"jetbrains.mps.buildlanguage.structure.AbstractCall", "jetbrains.mps.lang.core.structure.INamedConcept"}, new String[]{}, new String[]{"jetbrains.mps.buildlanguage.structure.AbstractCall", "jetbrains.mps.lang.core.structure.INamedConcept"});
+      case 7:
+        return new StructureAspectDescriptor.DataBasedStructureDescriptor("jetbrains.mps.build.generictasks.structure.TaskInterfaceDeclaration", new String[]{"jetbrains.mps.build.generictasks.structure.BuiltInTaskDeclaration"}, new String[]{"jetbrains.mps.build.generictasks.structure.BuiltInTaskDeclaration", "jetbrains.mps.build.generictasks.structure.ITaskDeclaration"}, new String[]{"jetbrains.mps.baseLanguage.classifiers.structure.IClassifier", "jetbrains.mps.buildlanguage.structure.IDeclaration"});
+      case 8:
+        return new StructureAspectDescriptor.DataBasedStructureDescriptor("jetbrains.mps.build.generictasks.structure.TaskReference", new String[]{"jetbrains.mps.lang.core.structure.BaseConcept"}, new String[]{}, new String[]{"jetbrains.mps.lang.core.structure.BaseConcept"});
       default:
         return null;
     }

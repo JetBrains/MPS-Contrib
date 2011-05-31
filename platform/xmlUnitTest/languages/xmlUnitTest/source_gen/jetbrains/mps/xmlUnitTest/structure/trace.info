@@ -4,9 +4,9 @@
   <unitInfo fileName="Text.java" startLine="10" startPosition="0" endLine="34" endPosition="0" unitName="jetbrains.mps.xmlUnitTest.structure.Text" />
   <unitInfo fileName="XMLStringLiteral.java" startLine="11" startPosition="0" endLine="35" endPosition="0" unitName="jetbrains.mps.xmlUnitTest.structure.XMLStringLiteral" />
   <unitInfo fileName="XMLLiteral.java" startLine="11" startPosition="0" endLine="35" endPosition="0" unitName="jetbrains.mps.xmlUnitTest.structure.XMLLiteral" />
-  <unitInfo fileName="StructureAspectDescriptor.java" startLine="41" startPosition="0" endLine="80" endPosition="0" unitName="jetbrains.mps.xmlUnitTest.structure.StructureAspectDescriptor$DataBasedStructureDescriptor" />
+  <unitInfo fileName="StructureAspectDescriptor.java" startLine="44" startPosition="0" endLine="83" endPosition="0" unitName="jetbrains.mps.xmlUnitTest.structure.StructureAspectDescriptor$DataBasedStructureDescriptor" />
   <unitInfo fileName="Element.java" startLine="12" startPosition="0" endLine="69" endPosition="0" unitName="jetbrains.mps.xmlUnitTest.structure.Element" />
-  <unitInfo fileName="StructureAspectDescriptor.java" startLine="14" startPosition="0" endLine="81" endPosition="0" unitName="jetbrains.mps.xmlUnitTest.structure.StructureAspectDescriptor" />
+  <unitInfo fileName="StructureAspectDescriptor.java" startLine="15" startPosition="0" endLine="84" endPosition="0" unitName="jetbrains.mps.xmlUnitTest.structure.StructureAspectDescriptor" />
   <unitInfo fileName="ElementPart.java" startLine="15" startPosition="0" endLine="87" endPosition="0" unitName="jetbrains.mps.xmlUnitTest.structure.ElementPart" />
   <unitInfo fileName="Attribute.java" startLine="14" startPosition="0" endLine="95" endPosition="0" unitName="jetbrains.mps.xmlUnitTest.structure.Attribute" />
   <unitInfo fileName="Document.java" startLine="15" startPosition="0" endLine="96" endPosition="0" unitName="jetbrains.mps.xmlUnitTest.structure.Document" />

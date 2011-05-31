@@ -22,6 +22,7 @@
   <dependency className="jetbrains.mps.build.property.structure.StructureAspectDescriptor" file="StructureAspectDescriptor.java">
     <classNode dependClassName="com.google.common.collect.ImmutableList" />
     <classNode dependClassName="java.lang.String" />
+    <classNode dependClassName="java.util.Arrays" />
     <classNode dependClassName="java.util.Collections" />
     <classNode dependClassName="java.util.HashSet" />
     <classNode dependClassName="java.util.List" />

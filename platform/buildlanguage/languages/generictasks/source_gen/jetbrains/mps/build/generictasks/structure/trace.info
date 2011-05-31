@@ -7,8 +7,8 @@
   <unitInfo fileName="Attribute.java" startLine="12" startPosition="0" endLine="45" endPosition="0" unitName="jetbrains.mps.build.generictasks.structure.Attribute" />
   <unitInfo fileName="NestedDeclaration.java" startLine="12" startPosition="0" endLine="48" endPosition="0" unitName="jetbrains.mps.build.generictasks.structure.NestedDeclaration" />
   <unitInfo fileName="TaskInterfaceDeclaration.java" startLine="12" startPosition="0" endLine="48" endPosition="0" unitName="jetbrains.mps.build.generictasks.structure.TaskInterfaceDeclaration" />
-  <unitInfo fileName="StructureAspectDescriptor.java" startLine="43" startPosition="0" endLine="82" endPosition="0" unitName="jetbrains.mps.build.generictasks.structure.StructureAspectDescriptor$DataBasedStructureDescriptor" />
-  <unitInfo fileName="StructureAspectDescriptor.java" startLine="14" startPosition="0" endLine="83" endPosition="0" unitName="jetbrains.mps.build.generictasks.structure.StructureAspectDescriptor" />
+  <unitInfo fileName="StructureAspectDescriptor.java" startLine="46" startPosition="0" endLine="85" endPosition="0" unitName="jetbrains.mps.build.generictasks.structure.StructureAspectDescriptor$DataBasedStructureDescriptor" />
+  <unitInfo fileName="StructureAspectDescriptor.java" startLine="15" startPosition="0" endLine="86" endPosition="0" unitName="jetbrains.mps.build.generictasks.structure.StructureAspectDescriptor" />
   <unitInfo fileName="TaskCall.java" startLine="14" startPosition="0" endLine="125" endPosition="0" unitName="jetbrains.mps.build.generictasks.structure.TaskCall" />
   <unitInfo fileName="AttributeDeclaration.java" startLine="19" startPosition="0" endLine="136" endPosition="0" unitName="jetbrains.mps.build.generictasks.structure.AttributeDeclaration" />
   <unitInfo fileName="BuiltInTaskDeclaration.java" startLine="14" startPosition="0" endLine="224" endPosition="0" unitName="jetbrains.mps.build.generictasks.structure.BuiltInTaskDeclaration" />

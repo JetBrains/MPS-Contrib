@@ -4,9 +4,9 @@
   <unitInfo fileName="ExternalId.java" startLine="11" startPosition="0" endLine="26" endPosition="0" unitName="jetbrains.mps.xml.deprecated.structure.ExternalId" />
   <unitInfo fileName="Text.java" startLine="10" startPosition="0" endLine="34" endPosition="0" unitName="jetbrains.mps.xml.deprecated.structure.Text" />
   <unitInfo fileName="PublicId.java" startLine="10" startPosition="0" endLine="43" endPosition="0" unitName="jetbrains.mps.xml.deprecated.structure.PublicId" />
-  <unitInfo fileName="StructureAspectDescriptor.java" startLine="41" startPosition="0" endLine="80" endPosition="0" unitName="jetbrains.mps.xml.deprecated.structure.StructureAspectDescriptor$DataBasedStructureDescriptor" />
+  <unitInfo fileName="StructureAspectDescriptor.java" startLine="44" startPosition="0" endLine="83" endPosition="0" unitName="jetbrains.mps.xml.deprecated.structure.StructureAspectDescriptor$DataBasedStructureDescriptor" />
   <unitInfo fileName="Element.java" startLine="12" startPosition="0" endLine="69" endPosition="0" unitName="jetbrains.mps.xml.deprecated.structure.Element" />
-  <unitInfo fileName="StructureAspectDescriptor.java" startLine="14" startPosition="0" endLine="81" endPosition="0" unitName="jetbrains.mps.xml.deprecated.structure.StructureAspectDescriptor" />
+  <unitInfo fileName="StructureAspectDescriptor.java" startLine="15" startPosition="0" endLine="84" endPosition="0" unitName="jetbrains.mps.xml.deprecated.structure.StructureAspectDescriptor" />
   <unitInfo fileName="ElementPart.java" startLine="15" startPosition="0" endLine="88" endPosition="0" unitName="jetbrains.mps.xml.deprecated.structure.ElementPart" />
   <unitInfo fileName="Attribute.java" startLine="14" startPosition="0" endLine="95" endPosition="0" unitName="jetbrains.mps.xml.deprecated.structure.Attribute" />
   <unitInfo fileName="DocumentTypeDeclaration.java" startLine="15" startPosition="0" endLine="96" endPosition="0" unitName="jetbrains.mps.xml.deprecated.structure.DocumentTypeDeclaration" />

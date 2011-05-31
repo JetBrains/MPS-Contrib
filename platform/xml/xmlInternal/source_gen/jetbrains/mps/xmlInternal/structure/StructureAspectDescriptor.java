@@ -4,6 +4,7 @@ package jetbrains.mps.xmlInternal.structure;
 
 import jetbrains.mps.smodel.structure.DescriptorProvider;
 import jetbrains.mps.smodel.structure.StructureDescriptor;
+import java.util.Arrays;
 import com.google.common.collect.ImmutableList;
 import java.util.Set;
 import java.util.List;
@@ -12,39 +13,41 @@ import jetbrains.mps.smodel.structure.ConceptRegistry;
 import java.util.Collections;
 
 public class StructureAspectDescriptor extends DescriptorProvider<StructureDescriptor> {
+  private static String[] stringSwitchCases_1htk8d_a0a0a = new String[]{"jetbrains.mps.xmlInternal.structure.Comment", "jetbrains.mps.xmlInternal.structure.ContentStatement", "jetbrains.mps.xmlInternal.structure.Document", "jetbrains.mps.xmlInternal.structure.DocumentStatement", "jetbrains.mps.xmlInternal.structure.DocumentTypeDeclaration", "jetbrains.mps.xmlInternal.structure.ExternalId", "jetbrains.mps.xmlInternal.structure.Literal", "jetbrains.mps.xmlInternal.structure.NamespaceAttribute", "jetbrains.mps.xmlInternal.structure.Prolog", "jetbrains.mps.xmlInternal.structure.PublicExternalId", "jetbrains.mps.xmlInternal.structure.SimpleAttribute", "jetbrains.mps.xmlInternal.structure.SimpleElement", "jetbrains.mps.xmlInternal.structure.StatementElement", "jetbrains.mps.xmlInternal.structure.XmlFile"};
+
   public StructureAspectDescriptor() {
   }
 
   public StructureDescriptor getDescriptor(String conceptFqName) {
-    switch ((conceptFqName).hashCode()) {
-      case 459650392:
-        return new StructureAspectDescriptor.DataBasedStructureDescriptor("jetbrains.mps.xmlInternal.structure.StatementElement", new String[]{"jetbrains.mps.xml.structure.Content"}, new String[]{}, new String[]{"jetbrains.mps.xml.structure.Content"});
-      case -770580543:
-        return new StructureAspectDescriptor.DataBasedStructureDescriptor("jetbrains.mps.xmlInternal.structure.ContentStatement", new String[]{"jetbrains.mps.baseLanguage.structure.Statement"}, new String[]{}, new String[]{"jetbrains.mps.baseLanguage.structure.Statement"});
-      case -1907285240:
-        return new StructureAspectDescriptor.DataBasedStructureDescriptor("jetbrains.mps.xmlInternal.structure.XmlFile", new String[]{"jetbrains.mps.lang.core.structure.BaseConcept", "jetbrains.mps.lang.core.structure.INamedConcept", "jetbrains.mps.xml.structure.XmlRoot"}, new String[]{}, new String[]{"jetbrains.mps.lang.core.structure.BaseConcept", "jetbrains.mps.lang.core.structure.INamedConcept", "jetbrains.mps.xml.structure.XmlRoot"});
-      case 2068094694:
-        return new StructureAspectDescriptor.DataBasedStructureDescriptor("jetbrains.mps.xmlInternal.structure.Document", new String[]{"jetbrains.mps.lang.core.structure.BaseConcept"}, new String[]{}, new String[]{"jetbrains.mps.lang.core.structure.BaseConcept"});
-      case 989313844:
+    switch (Arrays.binarySearch(stringSwitchCases_1htk8d_a0a0a, conceptFqName)) {
+      case 0:
         return new StructureAspectDescriptor.DataBasedStructureDescriptor("jetbrains.mps.xmlInternal.structure.Comment", new String[]{"jetbrains.mps.xml.structure.Content"}, new String[]{}, new String[]{"jetbrains.mps.xml.structure.Content"});
-      case -1171124951:
+      case 1:
+        return new StructureAspectDescriptor.DataBasedStructureDescriptor("jetbrains.mps.xmlInternal.structure.ContentStatement", new String[]{"jetbrains.mps.baseLanguage.structure.Statement"}, new String[]{}, new String[]{"jetbrains.mps.baseLanguage.structure.Statement"});
+      case 2:
+        return new StructureAspectDescriptor.DataBasedStructureDescriptor("jetbrains.mps.xmlInternal.structure.Document", new String[]{"jetbrains.mps.lang.core.structure.BaseConcept"}, new String[]{}, new String[]{"jetbrains.mps.lang.core.structure.BaseConcept"});
+      case 3:
         return new StructureAspectDescriptor.DataBasedStructureDescriptor("jetbrains.mps.xmlInternal.structure.DocumentStatement", new String[]{"jetbrains.mps.baseLanguage.structure.Statement"}, new String[]{}, new String[]{"jetbrains.mps.baseLanguage.structure.Statement"});
-      case -1809835518:
-        return new StructureAspectDescriptor.DataBasedStructureDescriptor("jetbrains.mps.xmlInternal.structure.Prolog", new String[]{"jetbrains.mps.lang.core.structure.BaseConcept"}, new String[]{}, new String[]{"jetbrains.mps.lang.core.structure.BaseConcept"});
-      case 1324766746:
+      case 4:
         return new StructureAspectDescriptor.DataBasedStructureDescriptor("jetbrains.mps.xmlInternal.structure.DocumentTypeDeclaration", new String[]{"jetbrains.mps.lang.core.structure.BaseConcept"}, new String[]{}, new String[]{"jetbrains.mps.lang.core.structure.BaseConcept"});
-      case -2015679151:
+      case 5:
         return new StructureAspectDescriptor.DataBasedStructureDescriptor("jetbrains.mps.xmlInternal.structure.ExternalId", new String[]{"jetbrains.mps.lang.core.structure.BaseConcept"}, new String[]{}, new String[]{"jetbrains.mps.lang.core.structure.BaseConcept"});
-      case 1965348954:
-        return new StructureAspectDescriptor.DataBasedStructureDescriptor("jetbrains.mps.xmlInternal.structure.PublicExternalId", new String[]{"jetbrains.mps.xmlInternal.structure.ExternalId"}, new String[]{"jetbrains.mps.xmlInternal.structure.ExternalId"}, new String[]{"jetbrains.mps.lang.core.structure.BaseConcept"});
-      case 221375876:
+      case 6:
         return new StructureAspectDescriptor.DataBasedStructureDescriptor("jetbrains.mps.xmlInternal.structure.Literal", new String[]{"jetbrains.mps.lang.core.structure.BaseConcept"}, new String[]{}, new String[]{"jetbrains.mps.lang.core.structure.BaseConcept"});
-      case -681332225:
-        return new StructureAspectDescriptor.DataBasedStructureDescriptor("jetbrains.mps.xmlInternal.structure.SimpleElement", new String[]{"jetbrains.mps.xml.structure.BaseElement"}, new String[]{}, new String[]{"jetbrains.mps.xml.structure.BaseElement"});
-      case -1653634849:
-        return new StructureAspectDescriptor.DataBasedStructureDescriptor("jetbrains.mps.xmlInternal.structure.SimpleAttribute", new String[]{"jetbrains.mps.xml.structure.BaseAttribute"}, new String[]{}, new String[]{"jetbrains.mps.xml.structure.BaseAttribute"});
-      case -1253664884:
+      case 7:
         return new StructureAspectDescriptor.DataBasedStructureDescriptor("jetbrains.mps.xmlInternal.structure.NamespaceAttribute", new String[]{"jetbrains.mps.xml.structure.BaseAttribute"}, new String[]{}, new String[]{"jetbrains.mps.xml.structure.BaseAttribute"});
+      case 8:
+        return new StructureAspectDescriptor.DataBasedStructureDescriptor("jetbrains.mps.xmlInternal.structure.Prolog", new String[]{"jetbrains.mps.lang.core.structure.BaseConcept"}, new String[]{}, new String[]{"jetbrains.mps.lang.core.structure.BaseConcept"});
+      case 9:
+        return new StructureAspectDescriptor.DataBasedStructureDescriptor("jetbrains.mps.xmlInternal.structure.PublicExternalId", new String[]{"jetbrains.mps.xmlInternal.structure.ExternalId"}, new String[]{"jetbrains.mps.xmlInternal.structure.ExternalId"}, new String[]{"jetbrains.mps.lang.core.structure.BaseConcept"});
+      case 10:
+        return new StructureAspectDescriptor.DataBasedStructureDescriptor("jetbrains.mps.xmlInternal.structure.SimpleAttribute", new String[]{"jetbrains.mps.xml.structure.BaseAttribute"}, new String[]{}, new String[]{"jetbrains.mps.xml.structure.BaseAttribute"});
+      case 11:
+        return new StructureAspectDescriptor.DataBasedStructureDescriptor("jetbrains.mps.xmlInternal.structure.SimpleElement", new String[]{"jetbrains.mps.xml.structure.BaseElement"}, new String[]{}, new String[]{"jetbrains.mps.xml.structure.BaseElement"});
+      case 12:
+        return new StructureAspectDescriptor.DataBasedStructureDescriptor("jetbrains.mps.xmlInternal.structure.StatementElement", new String[]{"jetbrains.mps.xml.structure.Content"}, new String[]{}, new String[]{"jetbrains.mps.xml.structure.Content"});
+      case 13:
+        return new StructureAspectDescriptor.DataBasedStructureDescriptor("jetbrains.mps.xmlInternal.structure.XmlFile", new String[]{"jetbrains.mps.lang.core.structure.BaseConcept", "jetbrains.mps.lang.core.structure.INamedConcept", "jetbrains.mps.xml.structure.XmlRoot"}, new String[]{}, new String[]{"jetbrains.mps.lang.core.structure.BaseConcept", "jetbrains.mps.lang.core.structure.INamedConcept", "jetbrains.mps.xml.structure.XmlRoot"});
       default:
         return null;
     }
