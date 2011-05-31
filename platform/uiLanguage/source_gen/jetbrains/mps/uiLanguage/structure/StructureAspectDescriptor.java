@@ -4,6 +4,7 @@ package jetbrains.mps.uiLanguage.structure;
 
 import jetbrains.mps.smodel.structure.DescriptorProvider;
 import jetbrains.mps.smodel.structure.StructureDescriptor;
+import java.util.Arrays;
 import com.google.common.collect.ImmutableList;
 import java.util.Set;
 import java.util.List;
@@ -12,91 +13,93 @@ import jetbrains.mps.smodel.structure.ConceptRegistry;
 import java.util.Collections;
 
 public class StructureAspectDescriptor extends DescriptorProvider<StructureDescriptor> {
+  private static String[] stringSwitchCases_1htk8d_a0a0a = new String[]{"jetbrains.mps.uiLanguage.structure.ActionHandler", "jetbrains.mps.uiLanguage.structure.AddListenerOperation", "jetbrains.mps.uiLanguage.structure.AfterConstructionBlock", "jetbrains.mps.uiLanguage.structure.AttributeDeclaration", "jetbrains.mps.uiLanguage.structure.AttributeReferenceOperation", "jetbrains.mps.uiLanguage.structure.AttributeValue", "jetbrains.mps.uiLanguage.structure.BeanCreator", "jetbrains.mps.uiLanguage.structure.BeanDeclaration", "jetbrains.mps.uiLanguage.structure.BeanType", "jetbrains.mps.uiLanguage.structure.BeforeConstructionBlock", "jetbrains.mps.uiLanguage.structure.BindExpression", "jetbrains.mps.uiLanguage.structure.CellRendererAttribute", "jetbrains.mps.uiLanguage.structure.ComponentController", "jetbrains.mps.uiLanguage.structure.ComponentCreator", "jetbrains.mps.uiLanguage.structure.ComponentDeclaration", "jetbrains.mps.uiLanguage.structure.ComponentInstance", "jetbrains.mps.uiLanguage.structure.ComponentReference", "jetbrains.mps.uiLanguage.structure.ComponentType", "jetbrains.mps.uiLanguage.structure.EventAccessOperation", "jetbrains.mps.uiLanguage.structure.EventDeclaration", "jetbrains.mps.uiLanguage.structure.EventHandlerReference", "jetbrains.mps.uiLanguage.structure.Form", "jetbrains.mps.uiLanguage.structure.FormPart", "jetbrains.mps.uiLanguage.structure.Grid", "jetbrains.mps.uiLanguage.structure.GridRow", "jetbrains.mps.uiLanguage.structure.IComponentInstance", "jetbrains.mps.uiLanguage.structure.IComponentPart", "jetbrains.mps.uiLanguage.structure.InlineEventHandler", "jetbrains.mps.uiLanguage.structure.InlineRenderer", "jetbrains.mps.uiLanguage.structure.LayoutConstraint", "jetbrains.mps.uiLanguage.structure.ListElements", "jetbrains.mps.uiLanguage.structure.PngIcon", "jetbrains.mps.uiLanguage.structure.RaiseInternalStatement", "jetbrains.mps.uiLanguage.structure.RaiseOperation", "jetbrains.mps.uiLanguage.structure.RemoveListenerOperation", "jetbrains.mps.uiLanguage.structure.RenderingObject", "jetbrains.mps.uiLanguage.structure.Scroller", "jetbrains.mps.uiLanguage.structure.StandardDialog", "jetbrains.mps.uiLanguage.structure.StandardDialogButton", "jetbrains.mps.uiLanguage.structure.StubCellRendererInfo"};
+
   public StructureAspectDescriptor() {
   }
 
   public StructureDescriptor getDescriptor(String conceptFqName) {
-    switch ((conceptFqName).hashCode()) {
-      case -1810030930:
-        return new StructureAspectDescriptor.DataBasedStructureDescriptor("jetbrains.mps.uiLanguage.structure.IComponentPart", new String[]{}, new String[]{}, new String[]{});
-      case -1198249653:
-        return new StructureAspectDescriptor.DataBasedStructureDescriptor("jetbrains.mps.uiLanguage.structure.ComponentInstance", new String[]{"jetbrains.mps.lang.core.structure.BaseConcept", "jetbrains.mps.uiLanguage.structure.IComponentPart", "jetbrains.mps.uiLanguage.structure.IComponentInstance", "jetbrains.mps.lang.core.structure.INamedConcept"}, new String[]{"jetbrains.mps.uiLanguage.structure.IComponentInstance", "jetbrains.mps.uiLanguage.structure.IComponentPart"}, new String[]{"jetbrains.mps.lang.core.structure.BaseConcept", "jetbrains.mps.lang.core.structure.INamedConcept"});
-      case -1508631292:
-        return new StructureAspectDescriptor.DataBasedStructureDescriptor("jetbrains.mps.uiLanguage.structure.ComponentDeclaration", new String[]{"jetbrains.mps.lang.core.structure.BaseConcept", "jetbrains.mps.baseLanguage.classifiers.structure.IClassifier"}, new String[]{}, new String[]{"jetbrains.mps.baseLanguage.classifiers.structure.IClassifier", "jetbrains.mps.lang.core.structure.BaseConcept"});
-      case -731274542:
-        return new StructureAspectDescriptor.DataBasedStructureDescriptor("jetbrains.mps.uiLanguage.structure.ComponentController", new String[]{"jetbrains.mps.lang.core.structure.BaseConcept", "jetbrains.mps.lang.core.structure.INamedConcept", "jetbrains.mps.baseLanguage.classifiers.structure.IClassifierPart"}, new String[]{}, new String[]{"jetbrains.mps.baseLanguage.classifiers.structure.IClassifierPart", "jetbrains.mps.lang.core.structure.BaseConcept", "jetbrains.mps.lang.core.structure.INamedConcept"});
-      case -446544324:
-        return new StructureAspectDescriptor.DataBasedStructureDescriptor("jetbrains.mps.uiLanguage.structure.AttributeValue", new String[]{"jetbrains.mps.lang.core.structure.BaseConcept", "jetbrains.mps.uiLanguage.structure.IComponentPart"}, new String[]{"jetbrains.mps.uiLanguage.structure.IComponentPart"}, new String[]{"jetbrains.mps.lang.core.structure.BaseConcept"});
-      case -1639504379:
-        return new StructureAspectDescriptor.DataBasedStructureDescriptor("jetbrains.mps.uiLanguage.structure.AttributeDeclaration", new String[]{"jetbrains.mps.lang.core.structure.BaseConcept", "jetbrains.mps.baseLanguage.classifiers.structure.IMember"}, new String[]{}, new String[]{"jetbrains.mps.baseLanguage.classifiers.structure.IMember", "jetbrains.mps.lang.core.structure.BaseConcept"});
-      case 686766268:
-        return new StructureAspectDescriptor.DataBasedStructureDescriptor("jetbrains.mps.uiLanguage.structure.BindExpression", new String[]{"jetbrains.mps.baseLanguage.structure.Expression"}, new String[]{}, new String[]{"jetbrains.mps.baseLanguage.structure.Expression"});
-      case -1292439824:
-        return new StructureAspectDescriptor.DataBasedStructureDescriptor("jetbrains.mps.uiLanguage.structure.ComponentType", new String[]{"jetbrains.mps.baseLanguage.classifiers.structure.BaseClassifierType"}, new String[]{}, new String[]{"jetbrains.mps.baseLanguage.classifiers.structure.BaseClassifierType"});
-      case -126195855:
-        return new StructureAspectDescriptor.DataBasedStructureDescriptor("jetbrains.mps.uiLanguage.structure.AttributeReferenceOperation", new String[]{"jetbrains.mps.lang.core.structure.BaseConcept", "jetbrains.mps.baseLanguage.classifiers.structure.IMemberOperation"}, new String[]{}, new String[]{"jetbrains.mps.baseLanguage.classifiers.structure.IMemberOperation", "jetbrains.mps.lang.core.structure.BaseConcept"});
-      case -1205720850:
-        return new StructureAspectDescriptor.DataBasedStructureDescriptor("jetbrains.mps.uiLanguage.structure.LayoutConstraint", new String[]{"jetbrains.mps.lang.core.structure.BaseConcept", "jetbrains.mps.uiLanguage.structure.IComponentPart"}, new String[]{"jetbrains.mps.uiLanguage.structure.IComponentPart"}, new String[]{"jetbrains.mps.lang.core.structure.BaseConcept"});
-      case 554713429:
-        return new StructureAspectDescriptor.DataBasedStructureDescriptor("jetbrains.mps.uiLanguage.structure.ComponentReference", new String[]{"jetbrains.mps.baseLanguage.structure.Expression"}, new String[]{}, new String[]{"jetbrains.mps.baseLanguage.structure.Expression"});
-      case -917848755:
+    switch (Arrays.binarySearch(stringSwitchCases_1htk8d_a0a0a, conceptFqName)) {
+      case 0:
         return new StructureAspectDescriptor.DataBasedStructureDescriptor("jetbrains.mps.uiLanguage.structure.ActionHandler", new String[]{"jetbrains.mps.lang.core.structure.BaseConcept", "jetbrains.mps.uiLanguage.structure.IComponentPart"}, new String[]{"jetbrains.mps.uiLanguage.structure.IComponentPart"}, new String[]{"jetbrains.mps.lang.core.structure.BaseConcept"});
-      case -2123126901:
-        return new StructureAspectDescriptor.DataBasedStructureDescriptor("jetbrains.mps.uiLanguage.structure.Form", new String[]{"jetbrains.mps.lang.core.structure.BaseConcept", "jetbrains.mps.uiLanguage.structure.IComponentPart", "jetbrains.mps.uiLanguage.structure.IComponentInstance"}, new String[]{"jetbrains.mps.uiLanguage.structure.IComponentInstance", "jetbrains.mps.uiLanguage.structure.IComponentPart"}, new String[]{"jetbrains.mps.lang.core.structure.BaseConcept"});
-      case -921386466:
-        return new StructureAspectDescriptor.DataBasedStructureDescriptor("jetbrains.mps.uiLanguage.structure.FormPart", new String[]{"jetbrains.mps.lang.core.structure.BaseConcept"}, new String[]{}, new String[]{"jetbrains.mps.lang.core.structure.BaseConcept"});
-      case -933398064:
-        return new StructureAspectDescriptor.DataBasedStructureDescriptor("jetbrains.mps.uiLanguage.structure.IComponentInstance", new String[]{"jetbrains.mps.uiLanguage.structure.IComponentPart"}, new String[]{"jetbrains.mps.uiLanguage.structure.IComponentPart"}, new String[]{});
-      case -2123094515:
-        return new StructureAspectDescriptor.DataBasedStructureDescriptor("jetbrains.mps.uiLanguage.structure.Grid", new String[]{"jetbrains.mps.lang.core.structure.BaseConcept", "jetbrains.mps.uiLanguage.structure.IComponentInstance"}, new String[]{"jetbrains.mps.uiLanguage.structure.IComponentInstance", "jetbrains.mps.uiLanguage.structure.IComponentPart"}, new String[]{"jetbrains.mps.lang.core.structure.BaseConcept"});
-      case -1420213107:
-        return new StructureAspectDescriptor.DataBasedStructureDescriptor("jetbrains.mps.uiLanguage.structure.GridRow", new String[]{"jetbrains.mps.lang.core.structure.BaseConcept"}, new String[]{}, new String[]{"jetbrains.mps.lang.core.structure.BaseConcept"});
-      case -902212500:
-        return new StructureAspectDescriptor.DataBasedStructureDescriptor("jetbrains.mps.uiLanguage.structure.StandardDialog", new String[]{"jetbrains.mps.lang.core.structure.BaseConcept", "jetbrains.mps.uiLanguage.structure.IComponentInstance"}, new String[]{"jetbrains.mps.uiLanguage.structure.IComponentInstance", "jetbrains.mps.uiLanguage.structure.IComponentPart"}, new String[]{"jetbrains.mps.lang.core.structure.BaseConcept"});
-      case -816683330:
-        return new StructureAspectDescriptor.DataBasedStructureDescriptor("jetbrains.mps.uiLanguage.structure.StandardDialogButton", new String[]{"jetbrains.mps.lang.core.structure.BaseConcept"}, new String[]{}, new String[]{"jetbrains.mps.lang.core.structure.BaseConcept"});
-      case 1369760455:
-        return new StructureAspectDescriptor.DataBasedStructureDescriptor("jetbrains.mps.uiLanguage.structure.AfterConstructionBlock", new String[]{"jetbrains.mps.lang.core.structure.BaseConcept"}, new String[]{}, new String[]{"jetbrains.mps.lang.core.structure.BaseConcept"});
-      case 978729852:
-        return new StructureAspectDescriptor.DataBasedStructureDescriptor("jetbrains.mps.uiLanguage.structure.ListElements", new String[]{"jetbrains.mps.lang.core.structure.BaseConcept", "jetbrains.mps.uiLanguage.structure.IComponentPart"}, new String[]{"jetbrains.mps.uiLanguage.structure.IComponentPart"}, new String[]{"jetbrains.mps.lang.core.structure.BaseConcept"});
-      case -1797106815:
-        return new StructureAspectDescriptor.DataBasedStructureDescriptor("jetbrains.mps.uiLanguage.structure.Scroller", new String[]{"jetbrains.mps.lang.core.structure.BaseConcept", "jetbrains.mps.uiLanguage.structure.IComponentInstance"}, new String[]{"jetbrains.mps.uiLanguage.structure.IComponentInstance", "jetbrains.mps.uiLanguage.structure.IComponentPart"}, new String[]{"jetbrains.mps.lang.core.structure.BaseConcept"});
-      case -1106215754:
-        return new StructureAspectDescriptor.DataBasedStructureDescriptor("jetbrains.mps.uiLanguage.structure.ComponentCreator", new String[]{"jetbrains.mps.baseLanguage.structure.AbstractCreator"}, new String[]{}, new String[]{"jetbrains.mps.baseLanguage.structure.AbstractCreator"});
-      case 443190915:
-        return new StructureAspectDescriptor.DataBasedStructureDescriptor("jetbrains.mps.uiLanguage.structure.BeanDeclaration", new String[]{"jetbrains.mps.lang.core.structure.BaseConcept", "jetbrains.mps.baseLanguage.classifiers.structure.IClassifier", "jetbrains.mps.lang.core.structure.INamedConcept"}, new String[]{}, new String[]{"jetbrains.mps.baseLanguage.classifiers.structure.IClassifier", "jetbrains.mps.lang.core.structure.BaseConcept", "jetbrains.mps.lang.core.structure.INamedConcept"});
-      case -73425327:
-        return new StructureAspectDescriptor.DataBasedStructureDescriptor("jetbrains.mps.uiLanguage.structure.BeanType", new String[]{"jetbrains.mps.baseLanguage.classifiers.structure.BaseClassifierType"}, new String[]{}, new String[]{"jetbrains.mps.baseLanguage.classifiers.structure.BaseClassifierType"});
-      case 606176693:
-        return new StructureAspectDescriptor.DataBasedStructureDescriptor("jetbrains.mps.uiLanguage.structure.BeanCreator", new String[]{"jetbrains.mps.baseLanguage.structure.AbstractCreator"}, new String[]{}, new String[]{"jetbrains.mps.baseLanguage.structure.AbstractCreator"});
-      case 1476628167:
-        return new StructureAspectDescriptor.DataBasedStructureDescriptor("jetbrains.mps.uiLanguage.structure.EventDeclaration", new String[]{"jetbrains.mps.lang.core.structure.BaseConcept", "jetbrains.mps.baseLanguage.classifiers.structure.IMember"}, new String[]{}, new String[]{"jetbrains.mps.baseLanguage.classifiers.structure.IMember", "jetbrains.mps.lang.core.structure.BaseConcept"});
-      case 73775920:
-        return new StructureAspectDescriptor.DataBasedStructureDescriptor("jetbrains.mps.uiLanguage.structure.EventAccessOperation", new String[]{"jetbrains.mps.lang.core.structure.BaseConcept", "jetbrains.mps.baseLanguage.classifiers.structure.IMemberOperation"}, new String[]{}, new String[]{"jetbrains.mps.baseLanguage.classifiers.structure.IMemberOperation", "jetbrains.mps.lang.core.structure.BaseConcept"});
-      case -1789197086:
-        return new StructureAspectDescriptor.DataBasedStructureDescriptor("jetbrains.mps.uiLanguage.structure.RaiseOperation", new String[]{"jetbrains.mps.lang.core.structure.BaseConcept", "jetbrains.mps.baseLanguage.structure.IOperation"}, new String[]{}, new String[]{"jetbrains.mps.baseLanguage.structure.IOperation", "jetbrains.mps.lang.core.structure.BaseConcept"});
-      case 1502373177:
+      case 1:
         return new StructureAspectDescriptor.DataBasedStructureDescriptor("jetbrains.mps.uiLanguage.structure.AddListenerOperation", new String[]{"jetbrains.mps.baseLanguage.structure.BinaryOperation"}, new String[]{}, new String[]{"jetbrains.mps.baseLanguage.structure.BinaryOperation"});
-      case -1649351480:
-        return new StructureAspectDescriptor.DataBasedStructureDescriptor("jetbrains.mps.uiLanguage.structure.RemoveListenerOperation", new String[]{"jetbrains.mps.baseLanguage.structure.BinaryOperation"}, new String[]{}, new String[]{"jetbrains.mps.baseLanguage.structure.BinaryOperation"});
-      case 1158727440:
-        return new StructureAspectDescriptor.DataBasedStructureDescriptor("jetbrains.mps.uiLanguage.structure.InlineEventHandler", new String[]{"jetbrains.mps.lang.core.structure.BaseConcept", "jetbrains.mps.uiLanguage.structure.IComponentPart"}, new String[]{"jetbrains.mps.uiLanguage.structure.IComponentPart"}, new String[]{"jetbrains.mps.lang.core.structure.BaseConcept"});
-      case -47232524:
-        return new StructureAspectDescriptor.DataBasedStructureDescriptor("jetbrains.mps.uiLanguage.structure.EventHandlerReference", new String[]{"jetbrains.mps.baseLanguage.structure.Expression"}, new String[]{}, new String[]{"jetbrains.mps.baseLanguage.structure.Expression"});
-      case -1891415123:
-        return new StructureAspectDescriptor.DataBasedStructureDescriptor("jetbrains.mps.uiLanguage.structure.RaiseInternalStatement", new String[]{"jetbrains.mps.baseLanguage.structure.Statement"}, new String[]{}, new String[]{"jetbrains.mps.baseLanguage.structure.Statement"});
-      case 798439464:
-        return new StructureAspectDescriptor.DataBasedStructureDescriptor("jetbrains.mps.uiLanguage.structure.StubCellRendererInfo", new String[]{"jetbrains.mps.lang.core.structure.BaseConcept"}, new String[]{}, new String[]{"jetbrains.mps.lang.core.structure.BaseConcept"});
-      case -2117236752:
-        return new StructureAspectDescriptor.DataBasedStructureDescriptor("jetbrains.mps.uiLanguage.structure.CellRendererAttribute", new String[]{"jetbrains.mps.lang.core.structure.BaseConcept", "jetbrains.mps.uiLanguage.structure.IComponentPart"}, new String[]{"jetbrains.mps.uiLanguage.structure.IComponentPart"}, new String[]{"jetbrains.mps.lang.core.structure.BaseConcept"});
-      case 683650179:
-        return new StructureAspectDescriptor.DataBasedStructureDescriptor("jetbrains.mps.uiLanguage.structure.InlineRenderer", new String[]{"jetbrains.mps.lang.core.structure.BaseConcept", "jetbrains.mps.uiLanguage.structure.IComponentPart"}, new String[]{"jetbrains.mps.uiLanguage.structure.IComponentPart"}, new String[]{"jetbrains.mps.lang.core.structure.BaseConcept"});
-      case 1814040516:
-        return new StructureAspectDescriptor.DataBasedStructureDescriptor("jetbrains.mps.uiLanguage.structure.RenderingObject", new String[]{"jetbrains.mps.baseLanguage.structure.Expression"}, new String[]{}, new String[]{"jetbrains.mps.baseLanguage.structure.Expression"});
-      case -240486826:
+      case 2:
+        return new StructureAspectDescriptor.DataBasedStructureDescriptor("jetbrains.mps.uiLanguage.structure.AfterConstructionBlock", new String[]{"jetbrains.mps.lang.core.structure.BaseConcept"}, new String[]{}, new String[]{"jetbrains.mps.lang.core.structure.BaseConcept"});
+      case 3:
+        return new StructureAspectDescriptor.DataBasedStructureDescriptor("jetbrains.mps.uiLanguage.structure.AttributeDeclaration", new String[]{"jetbrains.mps.lang.core.structure.BaseConcept", "jetbrains.mps.baseLanguage.classifiers.structure.IMember"}, new String[]{}, new String[]{"jetbrains.mps.baseLanguage.classifiers.structure.IMember", "jetbrains.mps.lang.core.structure.BaseConcept"});
+      case 4:
+        return new StructureAspectDescriptor.DataBasedStructureDescriptor("jetbrains.mps.uiLanguage.structure.AttributeReferenceOperation", new String[]{"jetbrains.mps.lang.core.structure.BaseConcept", "jetbrains.mps.baseLanguage.classifiers.structure.IMemberOperation"}, new String[]{}, new String[]{"jetbrains.mps.baseLanguage.classifiers.structure.IMemberOperation", "jetbrains.mps.lang.core.structure.BaseConcept"});
+      case 5:
+        return new StructureAspectDescriptor.DataBasedStructureDescriptor("jetbrains.mps.uiLanguage.structure.AttributeValue", new String[]{"jetbrains.mps.lang.core.structure.BaseConcept", "jetbrains.mps.uiLanguage.structure.IComponentPart"}, new String[]{"jetbrains.mps.uiLanguage.structure.IComponentPart"}, new String[]{"jetbrains.mps.lang.core.structure.BaseConcept"});
+      case 6:
+        return new StructureAspectDescriptor.DataBasedStructureDescriptor("jetbrains.mps.uiLanguage.structure.BeanCreator", new String[]{"jetbrains.mps.baseLanguage.structure.AbstractCreator"}, new String[]{}, new String[]{"jetbrains.mps.baseLanguage.structure.AbstractCreator"});
+      case 7:
+        return new StructureAspectDescriptor.DataBasedStructureDescriptor("jetbrains.mps.uiLanguage.structure.BeanDeclaration", new String[]{"jetbrains.mps.lang.core.structure.BaseConcept", "jetbrains.mps.baseLanguage.classifiers.structure.IClassifier", "jetbrains.mps.lang.core.structure.INamedConcept"}, new String[]{}, new String[]{"jetbrains.mps.baseLanguage.classifiers.structure.IClassifier", "jetbrains.mps.lang.core.structure.BaseConcept", "jetbrains.mps.lang.core.structure.INamedConcept"});
+      case 8:
+        return new StructureAspectDescriptor.DataBasedStructureDescriptor("jetbrains.mps.uiLanguage.structure.BeanType", new String[]{"jetbrains.mps.baseLanguage.classifiers.structure.BaseClassifierType"}, new String[]{}, new String[]{"jetbrains.mps.baseLanguage.classifiers.structure.BaseClassifierType"});
+      case 9:
         return new StructureAspectDescriptor.DataBasedStructureDescriptor("jetbrains.mps.uiLanguage.structure.BeforeConstructionBlock", new String[]{"jetbrains.mps.lang.core.structure.BaseConcept"}, new String[]{}, new String[]{"jetbrains.mps.lang.core.structure.BaseConcept"});
-      case -2139766245:
+      case 10:
+        return new StructureAspectDescriptor.DataBasedStructureDescriptor("jetbrains.mps.uiLanguage.structure.BindExpression", new String[]{"jetbrains.mps.baseLanguage.structure.Expression"}, new String[]{}, new String[]{"jetbrains.mps.baseLanguage.structure.Expression"});
+      case 11:
+        return new StructureAspectDescriptor.DataBasedStructureDescriptor("jetbrains.mps.uiLanguage.structure.CellRendererAttribute", new String[]{"jetbrains.mps.lang.core.structure.BaseConcept", "jetbrains.mps.uiLanguage.structure.IComponentPart"}, new String[]{"jetbrains.mps.uiLanguage.structure.IComponentPart"}, new String[]{"jetbrains.mps.lang.core.structure.BaseConcept"});
+      case 12:
+        return new StructureAspectDescriptor.DataBasedStructureDescriptor("jetbrains.mps.uiLanguage.structure.ComponentController", new String[]{"jetbrains.mps.lang.core.structure.BaseConcept", "jetbrains.mps.lang.core.structure.INamedConcept", "jetbrains.mps.baseLanguage.classifiers.structure.IClassifierPart"}, new String[]{}, new String[]{"jetbrains.mps.baseLanguage.classifiers.structure.IClassifierPart", "jetbrains.mps.lang.core.structure.BaseConcept", "jetbrains.mps.lang.core.structure.INamedConcept"});
+      case 13:
+        return new StructureAspectDescriptor.DataBasedStructureDescriptor("jetbrains.mps.uiLanguage.structure.ComponentCreator", new String[]{"jetbrains.mps.baseLanguage.structure.AbstractCreator"}, new String[]{}, new String[]{"jetbrains.mps.baseLanguage.structure.AbstractCreator"});
+      case 14:
+        return new StructureAspectDescriptor.DataBasedStructureDescriptor("jetbrains.mps.uiLanguage.structure.ComponentDeclaration", new String[]{"jetbrains.mps.lang.core.structure.BaseConcept", "jetbrains.mps.baseLanguage.classifiers.structure.IClassifier"}, new String[]{}, new String[]{"jetbrains.mps.baseLanguage.classifiers.structure.IClassifier", "jetbrains.mps.lang.core.structure.BaseConcept"});
+      case 15:
+        return new StructureAspectDescriptor.DataBasedStructureDescriptor("jetbrains.mps.uiLanguage.structure.ComponentInstance", new String[]{"jetbrains.mps.lang.core.structure.BaseConcept", "jetbrains.mps.uiLanguage.structure.IComponentPart", "jetbrains.mps.uiLanguage.structure.IComponentInstance", "jetbrains.mps.lang.core.structure.INamedConcept"}, new String[]{"jetbrains.mps.uiLanguage.structure.IComponentInstance", "jetbrains.mps.uiLanguage.structure.IComponentPart"}, new String[]{"jetbrains.mps.lang.core.structure.BaseConcept", "jetbrains.mps.lang.core.structure.INamedConcept"});
+      case 16:
+        return new StructureAspectDescriptor.DataBasedStructureDescriptor("jetbrains.mps.uiLanguage.structure.ComponentReference", new String[]{"jetbrains.mps.baseLanguage.structure.Expression"}, new String[]{}, new String[]{"jetbrains.mps.baseLanguage.structure.Expression"});
+      case 17:
+        return new StructureAspectDescriptor.DataBasedStructureDescriptor("jetbrains.mps.uiLanguage.structure.ComponentType", new String[]{"jetbrains.mps.baseLanguage.classifiers.structure.BaseClassifierType"}, new String[]{}, new String[]{"jetbrains.mps.baseLanguage.classifiers.structure.BaseClassifierType"});
+      case 18:
+        return new StructureAspectDescriptor.DataBasedStructureDescriptor("jetbrains.mps.uiLanguage.structure.EventAccessOperation", new String[]{"jetbrains.mps.lang.core.structure.BaseConcept", "jetbrains.mps.baseLanguage.classifiers.structure.IMemberOperation"}, new String[]{}, new String[]{"jetbrains.mps.baseLanguage.classifiers.structure.IMemberOperation", "jetbrains.mps.lang.core.structure.BaseConcept"});
+      case 19:
+        return new StructureAspectDescriptor.DataBasedStructureDescriptor("jetbrains.mps.uiLanguage.structure.EventDeclaration", new String[]{"jetbrains.mps.lang.core.structure.BaseConcept", "jetbrains.mps.baseLanguage.classifiers.structure.IMember"}, new String[]{}, new String[]{"jetbrains.mps.baseLanguage.classifiers.structure.IMember", "jetbrains.mps.lang.core.structure.BaseConcept"});
+      case 20:
+        return new StructureAspectDescriptor.DataBasedStructureDescriptor("jetbrains.mps.uiLanguage.structure.EventHandlerReference", new String[]{"jetbrains.mps.baseLanguage.structure.Expression"}, new String[]{}, new String[]{"jetbrains.mps.baseLanguage.structure.Expression"});
+      case 21:
+        return new StructureAspectDescriptor.DataBasedStructureDescriptor("jetbrains.mps.uiLanguage.structure.Form", new String[]{"jetbrains.mps.lang.core.structure.BaseConcept", "jetbrains.mps.uiLanguage.structure.IComponentPart", "jetbrains.mps.uiLanguage.structure.IComponentInstance"}, new String[]{"jetbrains.mps.uiLanguage.structure.IComponentInstance", "jetbrains.mps.uiLanguage.structure.IComponentPart"}, new String[]{"jetbrains.mps.lang.core.structure.BaseConcept"});
+      case 22:
+        return new StructureAspectDescriptor.DataBasedStructureDescriptor("jetbrains.mps.uiLanguage.structure.FormPart", new String[]{"jetbrains.mps.lang.core.structure.BaseConcept"}, new String[]{}, new String[]{"jetbrains.mps.lang.core.structure.BaseConcept"});
+      case 23:
+        return new StructureAspectDescriptor.DataBasedStructureDescriptor("jetbrains.mps.uiLanguage.structure.Grid", new String[]{"jetbrains.mps.lang.core.structure.BaseConcept", "jetbrains.mps.uiLanguage.structure.IComponentInstance"}, new String[]{"jetbrains.mps.uiLanguage.structure.IComponentInstance", "jetbrains.mps.uiLanguage.structure.IComponentPart"}, new String[]{"jetbrains.mps.lang.core.structure.BaseConcept"});
+      case 24:
+        return new StructureAspectDescriptor.DataBasedStructureDescriptor("jetbrains.mps.uiLanguage.structure.GridRow", new String[]{"jetbrains.mps.lang.core.structure.BaseConcept"}, new String[]{}, new String[]{"jetbrains.mps.lang.core.structure.BaseConcept"});
+      case 25:
+        return new StructureAspectDescriptor.DataBasedStructureDescriptor("jetbrains.mps.uiLanguage.structure.IComponentInstance", new String[]{"jetbrains.mps.uiLanguage.structure.IComponentPart"}, new String[]{"jetbrains.mps.uiLanguage.structure.IComponentPart"}, new String[]{});
+      case 26:
+        return new StructureAspectDescriptor.DataBasedStructureDescriptor("jetbrains.mps.uiLanguage.structure.IComponentPart", new String[]{}, new String[]{}, new String[]{});
+      case 27:
+        return new StructureAspectDescriptor.DataBasedStructureDescriptor("jetbrains.mps.uiLanguage.structure.InlineEventHandler", new String[]{"jetbrains.mps.lang.core.structure.BaseConcept", "jetbrains.mps.uiLanguage.structure.IComponentPart"}, new String[]{"jetbrains.mps.uiLanguage.structure.IComponentPart"}, new String[]{"jetbrains.mps.lang.core.structure.BaseConcept"});
+      case 28:
+        return new StructureAspectDescriptor.DataBasedStructureDescriptor("jetbrains.mps.uiLanguage.structure.InlineRenderer", new String[]{"jetbrains.mps.lang.core.structure.BaseConcept", "jetbrains.mps.uiLanguage.structure.IComponentPart"}, new String[]{"jetbrains.mps.uiLanguage.structure.IComponentPart"}, new String[]{"jetbrains.mps.lang.core.structure.BaseConcept"});
+      case 29:
+        return new StructureAspectDescriptor.DataBasedStructureDescriptor("jetbrains.mps.uiLanguage.structure.LayoutConstraint", new String[]{"jetbrains.mps.lang.core.structure.BaseConcept", "jetbrains.mps.uiLanguage.structure.IComponentPart"}, new String[]{"jetbrains.mps.uiLanguage.structure.IComponentPart"}, new String[]{"jetbrains.mps.lang.core.structure.BaseConcept"});
+      case 30:
+        return new StructureAspectDescriptor.DataBasedStructureDescriptor("jetbrains.mps.uiLanguage.structure.ListElements", new String[]{"jetbrains.mps.lang.core.structure.BaseConcept", "jetbrains.mps.uiLanguage.structure.IComponentPart"}, new String[]{"jetbrains.mps.uiLanguage.structure.IComponentPart"}, new String[]{"jetbrains.mps.lang.core.structure.BaseConcept"});
+      case 31:
         return new StructureAspectDescriptor.DataBasedStructureDescriptor("jetbrains.mps.uiLanguage.structure.PngIcon", new String[]{"jetbrains.mps.lang.core.structure.BaseConcept", "jetbrains.mps.lang.core.structure.INamedConcept"}, new String[]{}, new String[]{"jetbrains.mps.lang.core.structure.BaseConcept", "jetbrains.mps.lang.core.structure.INamedConcept"});
+      case 32:
+        return new StructureAspectDescriptor.DataBasedStructureDescriptor("jetbrains.mps.uiLanguage.structure.RaiseInternalStatement", new String[]{"jetbrains.mps.baseLanguage.structure.Statement"}, new String[]{}, new String[]{"jetbrains.mps.baseLanguage.structure.Statement"});
+      case 33:
+        return new StructureAspectDescriptor.DataBasedStructureDescriptor("jetbrains.mps.uiLanguage.structure.RaiseOperation", new String[]{"jetbrains.mps.lang.core.structure.BaseConcept", "jetbrains.mps.baseLanguage.structure.IOperation"}, new String[]{}, new String[]{"jetbrains.mps.baseLanguage.structure.IOperation", "jetbrains.mps.lang.core.structure.BaseConcept"});
+      case 34:
+        return new StructureAspectDescriptor.DataBasedStructureDescriptor("jetbrains.mps.uiLanguage.structure.RemoveListenerOperation", new String[]{"jetbrains.mps.baseLanguage.structure.BinaryOperation"}, new String[]{}, new String[]{"jetbrains.mps.baseLanguage.structure.BinaryOperation"});
+      case 35:
+        return new StructureAspectDescriptor.DataBasedStructureDescriptor("jetbrains.mps.uiLanguage.structure.RenderingObject", new String[]{"jetbrains.mps.baseLanguage.structure.Expression"}, new String[]{}, new String[]{"jetbrains.mps.baseLanguage.structure.Expression"});
+      case 36:
+        return new StructureAspectDescriptor.DataBasedStructureDescriptor("jetbrains.mps.uiLanguage.structure.Scroller", new String[]{"jetbrains.mps.lang.core.structure.BaseConcept", "jetbrains.mps.uiLanguage.structure.IComponentInstance"}, new String[]{"jetbrains.mps.uiLanguage.structure.IComponentInstance", "jetbrains.mps.uiLanguage.structure.IComponentPart"}, new String[]{"jetbrains.mps.lang.core.structure.BaseConcept"});
+      case 37:
+        return new StructureAspectDescriptor.DataBasedStructureDescriptor("jetbrains.mps.uiLanguage.structure.StandardDialog", new String[]{"jetbrains.mps.lang.core.structure.BaseConcept", "jetbrains.mps.uiLanguage.structure.IComponentInstance"}, new String[]{"jetbrains.mps.uiLanguage.structure.IComponentInstance", "jetbrains.mps.uiLanguage.structure.IComponentPart"}, new String[]{"jetbrains.mps.lang.core.structure.BaseConcept"});
+      case 38:
+        return new StructureAspectDescriptor.DataBasedStructureDescriptor("jetbrains.mps.uiLanguage.structure.StandardDialogButton", new String[]{"jetbrains.mps.lang.core.structure.BaseConcept"}, new String[]{}, new String[]{"jetbrains.mps.lang.core.structure.BaseConcept"});
+      case 39:
+        return new StructureAspectDescriptor.DataBasedStructureDescriptor("jetbrains.mps.uiLanguage.structure.StubCellRendererInfo", new String[]{"jetbrains.mps.lang.core.structure.BaseConcept"}, new String[]{}, new String[]{"jetbrains.mps.lang.core.structure.BaseConcept"});
       default:
         return null;
     }
