@@ -4,94 +4,97 @@ package jetbrains.mps.uiLanguage.constraints;
 
 import jetbrains.mps.smodel.structure.DescriptorProvider;
 import jetbrains.mps.smodel.structure.ConstraintsDescriptor;
+import java.util.Arrays;
 import jetbrains.mps.smodel.structure.DataHolderConstraintsDescriptor;
 import jetbrains.mps.smodel.structure.EmptyConstraintsDataHolder;
 
 public class ConstraintsAspectDescriptor extends DescriptorProvider<ConstraintsDescriptor> {
+  private static String[] stringSwitchCases_2qnle6_a0a0a = new String[]{"jetbrains.mps.uiLanguage.structure.ActionHandler", "jetbrains.mps.uiLanguage.structure.AddListenerOperation", "jetbrains.mps.uiLanguage.structure.AfterConstructionBlock", "jetbrains.mps.uiLanguage.structure.AttributeDeclaration", "jetbrains.mps.uiLanguage.structure.AttributeReferenceOperation", "jetbrains.mps.uiLanguage.structure.AttributeValue", "jetbrains.mps.uiLanguage.structure.BeanCreator", "jetbrains.mps.uiLanguage.structure.BeanDeclaration", "jetbrains.mps.uiLanguage.structure.BeanType", "jetbrains.mps.uiLanguage.structure.BeforeConstructionBlock", "jetbrains.mps.uiLanguage.structure.BindExpression", "jetbrains.mps.uiLanguage.structure.CellRendererAttribute", "jetbrains.mps.uiLanguage.structure.ComponentController", "jetbrains.mps.uiLanguage.structure.ComponentCreator", "jetbrains.mps.uiLanguage.structure.ComponentDeclaration", "jetbrains.mps.uiLanguage.structure.ComponentInstance", "jetbrains.mps.uiLanguage.structure.ComponentReference", "jetbrains.mps.uiLanguage.structure.ComponentType", "jetbrains.mps.uiLanguage.structure.EventAccessOperation", "jetbrains.mps.uiLanguage.structure.EventDeclaration", "jetbrains.mps.uiLanguage.structure.EventHandlerReference", "jetbrains.mps.uiLanguage.structure.Form", "jetbrains.mps.uiLanguage.structure.FormPart", "jetbrains.mps.uiLanguage.structure.Grid", "jetbrains.mps.uiLanguage.structure.GridRow", "jetbrains.mps.uiLanguage.structure.IComponentInstance", "jetbrains.mps.uiLanguage.structure.IComponentPart", "jetbrains.mps.uiLanguage.structure.InlineEventHandler", "jetbrains.mps.uiLanguage.structure.InlineRenderer", "jetbrains.mps.uiLanguage.structure.LayoutConstraint", "jetbrains.mps.uiLanguage.structure.ListElements", "jetbrains.mps.uiLanguage.structure.PngIcon", "jetbrains.mps.uiLanguage.structure.RaiseInternalStatement", "jetbrains.mps.uiLanguage.structure.RaiseOperation", "jetbrains.mps.uiLanguage.structure.RemoveListenerOperation", "jetbrains.mps.uiLanguage.structure.RenderingObject", "jetbrains.mps.uiLanguage.structure.Scroller", "jetbrains.mps.uiLanguage.structure.StandardDialog", "jetbrains.mps.uiLanguage.structure.StandardDialogButton", "jetbrains.mps.uiLanguage.structure.StubCellRendererInfo"};
+
   public ConstraintsAspectDescriptor() {
   }
 
   public ConstraintsDescriptor getDescriptor(String fqName) {
-    switch ((fqName).hashCode()) {
-      case -1810030930:
+    switch (Arrays.binarySearch(stringSwitchCases_2qnle6_a0a0a, fqName)) {
+      case 26:
         return new DataHolderConstraintsDescriptor(new EmptyConstraintsDataHolder("jetbrains.mps.uiLanguage.structure.IComponentPart"));
-      case -1198249653:
+      case 15:
         return new DataHolderConstraintsDescriptor(new ComponentInstance_Constraints());
-      case -1508631292:
+      case 14:
         return new DataHolderConstraintsDescriptor(new EmptyConstraintsDataHolder("jetbrains.mps.uiLanguage.structure.ComponentDeclaration"));
-      case -731274542:
+      case 12:
         return new DataHolderConstraintsDescriptor(new ComponentController_Constraints());
-      case -446544324:
+      case 5:
         return new DataHolderConstraintsDescriptor(new AttributeValue_Constraints());
-      case -1639504379:
+      case 3:
         return new DataHolderConstraintsDescriptor(new EmptyConstraintsDataHolder("jetbrains.mps.uiLanguage.structure.AttributeDeclaration"));
-      case 686766268:
+      case 10:
         return new DataHolderConstraintsDescriptor(new BindExpression_Constraints());
-      case -1292439824:
+      case 17:
         return new DataHolderConstraintsDescriptor(new EmptyConstraintsDataHolder("jetbrains.mps.uiLanguage.structure.ComponentType"));
-      case -126195855:
+      case 4:
         return new DataHolderConstraintsDescriptor(new EmptyConstraintsDataHolder("jetbrains.mps.uiLanguage.structure.AttributeReferenceOperation"));
-      case -1205720850:
+      case 29:
         return new DataHolderConstraintsDescriptor(new EmptyConstraintsDataHolder("jetbrains.mps.uiLanguage.structure.LayoutConstraint"));
-      case 554713429:
+      case 16:
         return new DataHolderConstraintsDescriptor(new ComponentReference_Constraints());
-      case -917848755:
+      case 0:
         return new DataHolderConstraintsDescriptor(new ActionHandler_Constraints());
-      case -2123126901:
+      case 21:
         return new DataHolderConstraintsDescriptor(new EmptyConstraintsDataHolder("jetbrains.mps.uiLanguage.structure.Form"));
-      case -921386466:
+      case 22:
         return new DataHolderConstraintsDescriptor(new EmptyConstraintsDataHolder("jetbrains.mps.uiLanguage.structure.FormPart"));
-      case -933398064:
+      case 25:
         return new DataHolderConstraintsDescriptor(new EmptyConstraintsDataHolder("jetbrains.mps.uiLanguage.structure.IComponentInstance"));
-      case -2123094515:
+      case 23:
         return new DataHolderConstraintsDescriptor(new EmptyConstraintsDataHolder("jetbrains.mps.uiLanguage.structure.Grid"));
-      case -1420213107:
+      case 24:
         return new DataHolderConstraintsDescriptor(new EmptyConstraintsDataHolder("jetbrains.mps.uiLanguage.structure.GridRow"));
-      case -902212500:
+      case 37:
         return new DataHolderConstraintsDescriptor(new StandardDialog_Constraints());
-      case -816683330:
+      case 38:
         return new DataHolderConstraintsDescriptor(new EmptyConstraintsDataHolder("jetbrains.mps.uiLanguage.structure.StandardDialogButton"));
-      case 1369760455:
+      case 2:
         return new DataHolderConstraintsDescriptor(new EmptyConstraintsDataHolder("jetbrains.mps.uiLanguage.structure.AfterConstructionBlock"));
-      case 978729852:
+      case 30:
         return new DataHolderConstraintsDescriptor(new ListElements_Constraints());
-      case -1797106815:
+      case 36:
         return new DataHolderConstraintsDescriptor(new EmptyConstraintsDataHolder("jetbrains.mps.uiLanguage.structure.Scroller"));
-      case -1106215754:
+      case 13:
         return new DataHolderConstraintsDescriptor(new EmptyConstraintsDataHolder("jetbrains.mps.uiLanguage.structure.ComponentCreator"));
-      case 443190915:
+      case 7:
         return new DataHolderConstraintsDescriptor(new EmptyConstraintsDataHolder("jetbrains.mps.uiLanguage.structure.BeanDeclaration"));
-      case -73425327:
+      case 8:
         return new DataHolderConstraintsDescriptor(new EmptyConstraintsDataHolder("jetbrains.mps.uiLanguage.structure.BeanType"));
-      case 606176693:
+      case 6:
         return new DataHolderConstraintsDescriptor(new EmptyConstraintsDataHolder("jetbrains.mps.uiLanguage.structure.BeanCreator"));
-      case 1476628167:
+      case 19:
         return new DataHolderConstraintsDescriptor(new EmptyConstraintsDataHolder("jetbrains.mps.uiLanguage.structure.EventDeclaration"));
-      case 73775920:
+      case 18:
         return new DataHolderConstraintsDescriptor(new EmptyConstraintsDataHolder("jetbrains.mps.uiLanguage.structure.EventAccessOperation"));
-      case -1789197086:
+      case 33:
         return new DataHolderConstraintsDescriptor(new RaiseOperation_Constraints());
-      case 1502373177:
+      case 1:
         return new DataHolderConstraintsDescriptor(new AddListenerOperation_Constraints());
-      case -1649351480:
+      case 34:
         return new DataHolderConstraintsDescriptor(new RemoveListenerOperation_Constraints());
-      case 1158727440:
+      case 27:
         return new DataHolderConstraintsDescriptor(new EmptyConstraintsDataHolder("jetbrains.mps.uiLanguage.structure.InlineEventHandler"));
-      case -47232524:
+      case 20:
         return new DataHolderConstraintsDescriptor(new EventHandlerReference_Constraints());
-      case -1891415123:
+      case 32:
         return new DataHolderConstraintsDescriptor(new RaiseInternalStatement_Constraints());
-      case 798439464:
+      case 39:
         return new DataHolderConstraintsDescriptor(new StubCellRendererInfo_Constraints());
-      case -2117236752:
+      case 11:
         return new DataHolderConstraintsDescriptor(new CellRendererAttribute_Constraints());
-      case 683650179:
+      case 28:
         return new DataHolderConstraintsDescriptor(new InlineRenderer_Constraints());
-      case 1814040516:
+      case 35:
         return new DataHolderConstraintsDescriptor(new RenderingObject_Constraints());
-      case -240486826:
+      case 9:
         return new DataHolderConstraintsDescriptor(new EmptyConstraintsDataHolder("jetbrains.mps.uiLanguage.structure.BeforeConstructionBlock"));
-      case -2139766245:
+      case 31:
         return new DataHolderConstraintsDescriptor(new EmptyConstraintsDataHolder("jetbrains.mps.uiLanguage.structure.PngIcon"));
       default:
         return null;
