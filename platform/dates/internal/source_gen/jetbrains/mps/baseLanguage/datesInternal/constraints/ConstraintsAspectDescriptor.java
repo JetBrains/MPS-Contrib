@@ -4,48 +4,51 @@ package jetbrains.mps.baseLanguage.datesInternal.constraints;
 
 import jetbrains.mps.smodel.structure.DescriptorProvider;
 import jetbrains.mps.smodel.structure.ConstraintsDescriptor;
+import java.util.Arrays;
 import jetbrains.mps.smodel.structure.DataHolderConstraintsDescriptor;
 import jetbrains.mps.smodel.structure.EmptyConstraintsDataHolder;
 
 public class ConstraintsAspectDescriptor extends DescriptorProvider<ConstraintsDescriptor> {
+  private static String[] stringSwitchCases_2qnle6_a0a0a = new String[]{"jetbrains.mps.baseLanguage.datesInternal.structure.DateTimeIntPropertyFormatConfiguration", "jetbrains.mps.baseLanguage.datesInternal.structure.DateTimeProperty", "jetbrains.mps.baseLanguage.datesInternal.structure.DateTimePropertyCardinality", "jetbrains.mps.baseLanguage.datesInternal.structure.DateTimePropertyConfiguration", "jetbrains.mps.baseLanguage.datesInternal.structure.DateTimePropertyFormatType", "jetbrains.mps.baseLanguage.datesInternal.structure.DateTimePropertySettings", "jetbrains.mps.baseLanguage.datesInternal.structure.DateTimeZone", "jetbrains.mps.baseLanguage.datesInternal.structure.DateTimeZonePropertyFormatConfiguration", "jetbrains.mps.baseLanguage.datesInternal.structure.DurationType", "jetbrains.mps.baseLanguage.datesInternal.structure.FormatTokenSettings", "jetbrains.mps.baseLanguage.datesInternal.structure.IDateFormat", "jetbrains.mps.baseLanguage.datesInternal.structure.IPeriodFormat", "jetbrains.mps.baseLanguage.datesInternal.structure.Locale", "jetbrains.mps.baseLanguage.datesInternal.structure.Month", "jetbrains.mps.baseLanguage.datesInternal.structure.PredefinedDateFormat", "jetbrains.mps.baseLanguage.datesInternal.structure.PredefinedPeriodFormat", "jetbrains.mps.baseLanguage.datesInternal.structure.SchedulePeriod"};
+
   public ConstraintsAspectDescriptor() {
   }
 
   public ConstraintsDescriptor getDescriptor(String fqName) {
-    switch ((fqName).hashCode()) {
-      case -359065713:
+    switch (Arrays.binarySearch(stringSwitchCases_2qnle6_a0a0a, fqName)) {
+      case 9:
         return new DataHolderConstraintsDescriptor(new EmptyConstraintsDataHolder("jetbrains.mps.baseLanguage.datesInternal.structure.FormatTokenSettings"));
-      case -511529530:
+      case 1:
         return new DataHolderConstraintsDescriptor(new DateTimeProperty_Constraints());
-      case -2066700279:
+      case 5:
         return new DataHolderConstraintsDescriptor(new EmptyConstraintsDataHolder("jetbrains.mps.baseLanguage.datesInternal.structure.DateTimePropertySettings"));
-      case -183205616:
+      case 12:
         return new DataHolderConstraintsDescriptor(new EmptyConstraintsDataHolder("jetbrains.mps.baseLanguage.datesInternal.structure.Locale"));
-      case 882827297:
+      case 14:
         return new DataHolderConstraintsDescriptor(new PredefinedDateFormat_Constraints());
-      case 2032850328:
+      case 10:
         return new DataHolderConstraintsDescriptor(new EmptyConstraintsDataHolder("jetbrains.mps.baseLanguage.datesInternal.structure.IDateFormat"));
-      case 417621484:
+      case 0:
         return new DataHolderConstraintsDescriptor(new DateTimeIntPropertyFormatConfiguration_Constraints());
-      case -1496337865:
+      case 4:
         return new DataHolderConstraintsDescriptor(new DateTimePropertyFormatType_Constraints());
-      case 254783464:
+      case 2:
         return new DataHolderConstraintsDescriptor(new DateTimePropertyCardinality_Constraints());
-      case 1465583824:
+      case 3:
         return new DataHolderConstraintsDescriptor(new DateTimePropertyConfiguration_Constraints());
-      case 2132371405:
+      case 7:
         return new DataHolderConstraintsDescriptor(new DateTimeZonePropertyFormatConfiguration_Constraints());
-      case -1900906204:
+      case 8:
         return new DataHolderConstraintsDescriptor(new DurationType_Constraints());
-      case -1251901174:
+      case 13:
         return new DataHolderConstraintsDescriptor(new Month_Constraints());
-      case -1134967826:
+      case 16:
         return new DataHolderConstraintsDescriptor(new SchedulePeriod_Constraints());
-      case 644715549:
+      case 6:
         return new DataHolderConstraintsDescriptor(new EmptyConstraintsDataHolder("jetbrains.mps.baseLanguage.datesInternal.structure.DateTimeZone"));
-      case 74152107:
+      case 11:
         return new DataHolderConstraintsDescriptor(new EmptyConstraintsDataHolder("jetbrains.mps.baseLanguage.datesInternal.structure.IPeriodFormat"));
-      case -1291385612:
+      case 15:
         return new DataHolderConstraintsDescriptor(new PredefinedPeriodFormat_Constraints());
       default:
         return null;

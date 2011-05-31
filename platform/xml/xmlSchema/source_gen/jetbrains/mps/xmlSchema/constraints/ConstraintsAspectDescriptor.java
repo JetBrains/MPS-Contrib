@@ -4,94 +4,97 @@ package jetbrains.mps.xmlSchema.constraints;
 
 import jetbrains.mps.smodel.structure.DescriptorProvider;
 import jetbrains.mps.smodel.structure.ConstraintsDescriptor;
+import java.util.Arrays;
 import jetbrains.mps.smodel.structure.DataHolderConstraintsDescriptor;
 import jetbrains.mps.smodel.structure.EmptyConstraintsDataHolder;
 
 public class ConstraintsAspectDescriptor extends DescriptorProvider<ConstraintsDescriptor> {
+  private static String[] stringSwitchCases_2qnle6_a0a0a = new String[]{"jetbrains.mps.xmlSchema.structure.AttributeDeclaration", "jetbrains.mps.xmlSchema.structure.AttributeExpression", "jetbrains.mps.xmlSchema.structure.AttributeGroup", "jetbrains.mps.xmlSchema.structure.AttributeGroupReference", "jetbrains.mps.xmlSchema.structure.BooleanSchemaType", "jetbrains.mps.xmlSchema.structure.BoundExpression", "jetbrains.mps.xmlSchema.structure.Choice", "jetbrains.mps.xmlSchema.structure.ComplexContent", "jetbrains.mps.xmlSchema.structure.ComplexType", "jetbrains.mps.xmlSchema.structure.ComplexTypeReference", "jetbrains.mps.xmlSchema.structure.ContentItem", "jetbrains.mps.xmlSchema.structure.Declaration", "jetbrains.mps.xmlSchema.structure.DeclarationBlock", "jetbrains.mps.xmlSchema.structure.ElementDeclaration", "jetbrains.mps.xmlSchema.structure.ElementReference", "jetbrains.mps.xmlSchema.structure.ElementWithContent", "jetbrains.mps.xmlSchema.structure.ElementWithType", "jetbrains.mps.xmlSchema.structure.EntityBlock", "jetbrains.mps.xmlSchema.structure.EntityDeclaration", "jetbrains.mps.xmlSchema.structure.EntityLine", "jetbrains.mps.xmlSchema.structure.EntitySet", "jetbrains.mps.xmlSchema.structure.Extension", "jetbrains.mps.xmlSchema.structure.GroupDeclaration", "jetbrains.mps.xmlSchema.structure.GroupExpression", "jetbrains.mps.xmlSchema.structure.GroupReference", "jetbrains.mps.xmlSchema.structure.IntegerSchemaType", "jetbrains.mps.xmlSchema.structure.MaxOccursExpression", "jetbrains.mps.xmlSchema.structure.MixedAttribute", "jetbrains.mps.xmlSchema.structure.NamespaceDeclaration", "jetbrains.mps.xmlSchema.structure.OccursAttribute", "jetbrains.mps.xmlSchema.structure.Schema", "jetbrains.mps.xmlSchema.structure.SchemaType", "jetbrains.mps.xmlSchema.structure.Sequence", "jetbrains.mps.xmlSchema.structure.SimpleContent", "jetbrains.mps.xmlSchema.structure.StringSchemaType", "jetbrains.mps.xmlSchema.structure.TextLine", "jetbrains.mps.xmlSchema.structure.TypeExpression", "jetbrains.mps.xmlSchema.structure.TypeExpressionList", "jetbrains.mps.xmlSchema.structure.UnboundExpression", "jetbrains.mps.xmlSchema.structure.UseAttribute"};
+
   public ConstraintsAspectDescriptor() {
   }
 
   public ConstraintsDescriptor getDescriptor(String fqName) {
-    switch ((fqName).hashCode()) {
-      case -498905186:
+    switch (Arrays.binarySearch(stringSwitchCases_2qnle6_a0a0a, fqName)) {
+      case 15:
         return new DataHolderConstraintsDescriptor(new EmptyConstraintsDataHolder("jetbrains.mps.xmlSchema.structure.ElementWithContent"));
-      case 244564872:
+      case 30:
         return new DataHolderConstraintsDescriptor(new Schema_Constraints());
-      case -2027651085:
+      case 11:
         return new DataHolderConstraintsDescriptor(new Declaration_Constraints());
-      case 850864104:
+      case 32:
         return new DataHolderConstraintsDescriptor(new EmptyConstraintsDataHolder("jetbrains.mps.xmlSchema.structure.Sequence"));
-      case 1700459734:
+      case 14:
         return new DataHolderConstraintsDescriptor(new EmptyConstraintsDataHolder("jetbrains.mps.xmlSchema.structure.ElementReference"));
-      case 700675161:
+      case 36:
         return new DataHolderConstraintsDescriptor(new EmptyConstraintsDataHolder("jetbrains.mps.xmlSchema.structure.TypeExpression"));
-      case 724320200:
+      case 27:
         return new DataHolderConstraintsDescriptor(new EmptyConstraintsDataHolder("jetbrains.mps.xmlSchema.structure.MixedAttribute"));
-      case -575731038:
+      case 22:
         return new DataHolderConstraintsDescriptor(new GroupDeclaration_Constraints());
-      case -1610041232:
+      case 23:
         return new DataHolderConstraintsDescriptor(new EmptyConstraintsDataHolder("jetbrains.mps.xmlSchema.structure.GroupExpression"));
-      case -208671864:
+      case 6:
         return new DataHolderConstraintsDescriptor(new EmptyConstraintsDataHolder("jetbrains.mps.xmlSchema.structure.Choice"));
-      case -2027553165:
+      case 24:
         return new DataHolderConstraintsDescriptor(new EmptyConstraintsDataHolder("jetbrains.mps.xmlSchema.structure.GroupReference"));
-      case 1475640910:
+      case 29:
         return new DataHolderConstraintsDescriptor(new EmptyConstraintsDataHolder("jetbrains.mps.xmlSchema.structure.OccursAttribute"));
-      case 1381482236:
+      case 26:
         return new DataHolderConstraintsDescriptor(new EmptyConstraintsDataHolder("jetbrains.mps.xmlSchema.structure.MaxOccursExpression"));
-      case -1505576266:
+      case 38:
         return new DataHolderConstraintsDescriptor(new EmptyConstraintsDataHolder("jetbrains.mps.xmlSchema.structure.UnboundExpression"));
-      case 406493827:
+      case 8:
         return new DataHolderConstraintsDescriptor(new ComplexType_Constraints());
-      case 1108111608:
+      case 21:
         return new DataHolderConstraintsDescriptor(new EmptyConstraintsDataHolder("jetbrains.mps.xmlSchema.structure.Extension"));
-      case -1454287782:
+      case 12:
         return new DataHolderConstraintsDescriptor(new EmptyConstraintsDataHolder("jetbrains.mps.xmlSchema.structure.DeclarationBlock"));
-      case -1502561560:
+      case 35:
         return new DataHolderConstraintsDescriptor(new EmptyConstraintsDataHolder("jetbrains.mps.xmlSchema.structure.TextLine"));
-      case 857777893:
+      case 0:
         return new DataHolderConstraintsDescriptor(new AttributeDeclaration_Constraints());
-      case 2002408490:
+      case 2:
         return new DataHolderConstraintsDescriptor(new AttributeGroup_Constraints());
-      case -39778355:
+      case 1:
         return new DataHolderConstraintsDescriptor(new EmptyConstraintsDataHolder("jetbrains.mps.xmlSchema.structure.AttributeExpression"));
-      case -1688331711:
+      case 3:
         return new DataHolderConstraintsDescriptor(new EmptyConstraintsDataHolder("jetbrains.mps.xmlSchema.structure.AttributeGroupReference"));
-      case -118167544:
+      case 9:
         return new DataHolderConstraintsDescriptor(new ComplexTypeReference_Constraints());
-      case -145459056:
+      case 7:
         return new DataHolderConstraintsDescriptor(new EmptyConstraintsDataHolder("jetbrains.mps.xmlSchema.structure.ComplexContent"));
-      case -388609627:
+      case 10:
         return new DataHolderConstraintsDescriptor(new EmptyConstraintsDataHolder("jetbrains.mps.xmlSchema.structure.ContentItem"));
-      case -135019369:
+      case 37:
         return new DataHolderConstraintsDescriptor(new EmptyConstraintsDataHolder("jetbrains.mps.xmlSchema.structure.TypeExpressionList"));
-      case -405537120:
+      case 33:
         return new DataHolderConstraintsDescriptor(new EmptyConstraintsDataHolder("jetbrains.mps.xmlSchema.structure.SimpleContent"));
-      case 41940037:
+      case 13:
         return new DataHolderConstraintsDescriptor(new ElementDeclaration_Constraints());
-      case -1825845707:
+      case 16:
         return new DataHolderConstraintsDescriptor(new EmptyConstraintsDataHolder("jetbrains.mps.xmlSchema.structure.ElementWithType"));
-      case 1102352764:
+      case 39:
         return new DataHolderConstraintsDescriptor(new EmptyConstraintsDataHolder("jetbrains.mps.xmlSchema.structure.UseAttribute"));
-      case 980092472:
+      case 20:
         return new DataHolderConstraintsDescriptor(new EntitySet_Constraints());
-      case -1118009008:
+      case 18:
         return new DataHolderConstraintsDescriptor(new EntityDeclaration_Constraints());
-      case 1255534819:
+      case 17:
         return new DataHolderConstraintsDescriptor(new EmptyConstraintsDataHolder("jetbrains.mps.xmlSchema.structure.EntityBlock"));
-      case 317890782:
+      case 19:
         return new DataHolderConstraintsDescriptor(new EmptyConstraintsDataHolder("jetbrains.mps.xmlSchema.structure.EntityLine"));
-      case 2009145030:
+      case 28:
         return new DataHolderConstraintsDescriptor(new EmptyConstraintsDataHolder("jetbrains.mps.xmlSchema.structure.NamespaceDeclaration"));
-      case -437898093:
+      case 34:
         return new DataHolderConstraintsDescriptor(new EmptyConstraintsDataHolder("jetbrains.mps.xmlSchema.structure.StringSchemaType"));
-      case 1352581858:
+      case 31:
         return new DataHolderConstraintsDescriptor(new EmptyConstraintsDataHolder("jetbrains.mps.xmlSchema.structure.SchemaType"));
-      case -2123336686:
+      case 25:
         return new DataHolderConstraintsDescriptor(new EmptyConstraintsDataHolder("jetbrains.mps.xmlSchema.structure.IntegerSchemaType"));
-      case 1254441596:
+      case 4:
         return new DataHolderConstraintsDescriptor(new EmptyConstraintsDataHolder("jetbrains.mps.xmlSchema.structure.BooleanSchemaType"));
-      case -1616607057:
+      case 5:
         return new DataHolderConstraintsDescriptor(new BoundExpression_Constraints());
       default:
         return null;

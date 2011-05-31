@@ -4,162 +4,165 @@ package jetbrains.mps.baseLanguage.dates.constraints;
 
 import jetbrains.mps.smodel.structure.DescriptorProvider;
 import jetbrains.mps.smodel.structure.ConstraintsDescriptor;
+import java.util.Arrays;
 import jetbrains.mps.smodel.structure.DataHolderConstraintsDescriptor;
 import jetbrains.mps.smodel.structure.EmptyConstraintsDataHolder;
 
 public class ConstraintsAspectDescriptor extends DescriptorProvider<ConstraintsDescriptor> {
+  private static String[] stringSwitchCases_2qnle6_a0a0a = new String[]{"jetbrains.mps.baseLanguage.dates.structure.AbsDateTimeMinusOperation", "jetbrains.mps.baseLanguage.dates.structure.AllTimeZonesConstant", "jetbrains.mps.baseLanguage.dates.structure.CeilingDateTimeOperation", "jetbrains.mps.baseLanguage.dates.structure.ConditionalFormatToken", "jetbrains.mps.baseLanguage.dates.structure.ConstantTimeZoneRef", "jetbrains.mps.baseLanguage.dates.structure.ConvertToDateTimeOperation", "jetbrains.mps.baseLanguage.dates.structure.ConvertToDurationOperation", "jetbrains.mps.baseLanguage.dates.structure.ConvertToJavaCalendarOperation", "jetbrains.mps.baseLanguage.dates.structure.ConvertToJavaDateOperation", "jetbrains.mps.baseLanguage.dates.structure.ConvertToJodaDateTimeOperation", "jetbrains.mps.baseLanguage.dates.structure.DateFormat", "jetbrains.mps.baseLanguage.dates.structure.DateFormatsTable", "jetbrains.mps.baseLanguage.dates.structure.DateTimeCompareOperation", "jetbrains.mps.baseLanguage.dates.structure.DateTimeMinusOperation", "jetbrains.mps.baseLanguage.dates.structure.DateTimeMinusPeriodOperation", "jetbrains.mps.baseLanguage.dates.structure.DateTimeOffsetFormatToken", "jetbrains.mps.baseLanguage.dates.structure.DateTimeOperation", "jetbrains.mps.baseLanguage.dates.structure.DateTimePlusPeriodOperation", "jetbrains.mps.baseLanguage.dates.structure.DateTimePropertyFormatToken", "jetbrains.mps.baseLanguage.dates.structure.DateTimePropetyReferenceOperation", "jetbrains.mps.baseLanguage.dates.structure.DateTimeType", "jetbrains.mps.baseLanguage.dates.structure.DateTimeWithPropertyOperation", "jetbrains.mps.baseLanguage.dates.structure.DateTimeWithTZType", "jetbrains.mps.baseLanguage.dates.structure.DateTimeZoneCreator", "jetbrains.mps.baseLanguage.dates.structure.DateTimeZoneType", "jetbrains.mps.baseLanguage.dates.structure.DefaultTimeZoneConstant", "jetbrains.mps.baseLanguage.dates.structure.DurationType", "jetbrains.mps.baseLanguage.dates.structure.DurationTypeReference", "jetbrains.mps.baseLanguage.dates.structure.FixedLocaleFormatToken", "jetbrains.mps.baseLanguage.dates.structure.FloorDateTimeOperation", "jetbrains.mps.baseLanguage.dates.structure.FormatDateTimeExpression", "jetbrains.mps.baseLanguage.dates.structure.FormatExpression", "jetbrains.mps.baseLanguage.dates.structure.FormatPeriodExpression", "jetbrains.mps.baseLanguage.dates.structure.FormatToken", "jetbrains.mps.baseLanguage.dates.structure.InTimezoneExpression", "jetbrains.mps.baseLanguage.dates.structure.InlineFormatDateTimeExpression", "jetbrains.mps.baseLanguage.dates.structure.InlineFormatExpression", "jetbrains.mps.baseLanguage.dates.structure.LiteralFormatToken", "jetbrains.mps.baseLanguage.dates.structure.MathDateTimeOperation", "jetbrains.mps.baseLanguage.dates.structure.MaxDateTimeOperation", "jetbrains.mps.baseLanguage.dates.structure.MinDateTimeOperation", "jetbrains.mps.baseLanguage.dates.structure.NeverExpression", "jetbrains.mps.baseLanguage.dates.structure.NotNullOperation", "jetbrains.mps.baseLanguage.dates.structure.NowExpression", "jetbrains.mps.baseLanguage.dates.structure.NullOperation", "jetbrains.mps.baseLanguage.dates.structure.ParseDateTimeExpression", "jetbrains.mps.baseLanguage.dates.structure.ParseExpression", "jetbrains.mps.baseLanguage.dates.structure.PeriodConstant", "jetbrains.mps.baseLanguage.dates.structure.PeriodFormat", "jetbrains.mps.baseLanguage.dates.structure.PeriodFormatToken", "jetbrains.mps.baseLanguage.dates.structure.PeriodFormatsTable", "jetbrains.mps.baseLanguage.dates.structure.PeriodInPropertyExpression", "jetbrains.mps.baseLanguage.dates.structure.PeriodInPropertyOperation", "jetbrains.mps.baseLanguage.dates.structure.PeriodLiteralFormatToken", "jetbrains.mps.baseLanguage.dates.structure.PeriodPropertyFormatToken", "jetbrains.mps.baseLanguage.dates.structure.PeriodReferenceFormatToken", "jetbrains.mps.baseLanguage.dates.structure.PeriodSeparatorFormatToken", "jetbrains.mps.baseLanguage.dates.structure.PeriodType", "jetbrains.mps.baseLanguage.dates.structure.ReferenceFormatToken", "jetbrains.mps.baseLanguage.dates.structure.RoundDateTimeOperation", "jetbrains.mps.baseLanguage.dates.structure.ScheduleLiteral", "jetbrains.mps.baseLanguage.dates.structure.TimeConstant", "jetbrains.mps.baseLanguage.dates.structure.TimeZoneConstant", "jetbrains.mps.baseLanguage.dates.structure.TimeZoneFromString", "jetbrains.mps.baseLanguage.dates.structure.TimeZoneIDExpression", "jetbrains.mps.baseLanguage.dates.structure.TimeZoneIdOperation", "jetbrains.mps.baseLanguage.dates.structure.TimeZoneNameOperation", "jetbrains.mps.baseLanguage.dates.structure.TimeZoneOffsetExpression", "jetbrains.mps.baseLanguage.dates.structure.TokenCondition", "jetbrains.mps.baseLanguage.dates.structure.TokenCondition_datetimeToFormat", "jetbrains.mps.baseLanguage.dates.structure.TokenConditionalPair", "jetbrains.mps.baseLanguage.dates.structure.UTCTimeZoneConstant", "jetbrains.mps.baseLanguage.dates.structure.UnaryDateTimeOperation", "jetbrains.mps.baseLanguage.dates.structure.WithPropertyCompareExpression"};
+
   public ConstraintsAspectDescriptor() {
   }
 
   public ConstraintsDescriptor getDescriptor(String fqName) {
-    switch ((fqName).hashCode()) {
-      case -1493783853:
+    switch (Arrays.binarySearch(stringSwitchCases_2qnle6_a0a0a, fqName)) {
+      case 11:
         return new DataHolderConstraintsDescriptor(new EmptyConstraintsDataHolder("jetbrains.mps.baseLanguage.dates.structure.DateFormatsTable"));
-      case -2059388488:
+      case 10:
         return new DataHolderConstraintsDescriptor(new DateFormat_Constraints());
-      case -346684026:
+      case 37:
         return new DataHolderConstraintsDescriptor(new EmptyConstraintsDataHolder("jetbrains.mps.baseLanguage.dates.structure.LiteralFormatToken"));
-      case 1514136111:
+      case 33:
         return new DataHolderConstraintsDescriptor(new EmptyConstraintsDataHolder("jetbrains.mps.baseLanguage.dates.structure.FormatToken"));
-      case -1057940446:
+      case 31:
         return new DataHolderConstraintsDescriptor(new FormatExpression_Constraints());
-      case 609442255:
+      case 3:
         return new DataHolderConstraintsDescriptor(new EmptyConstraintsDataHolder("jetbrains.mps.baseLanguage.dates.structure.ConditionalFormatToken"));
-      case -775725910:
+      case 58:
         return new DataHolderConstraintsDescriptor(new ReferenceFormatToken_Constraints());
-      case 1870732282:
+      case 70:
         return new DataHolderConstraintsDescriptor(new TokenConditionalPair_Constraints());
-      case -806818629:
+      case 43:
         return new DataHolderConstraintsDescriptor(new EmptyConstraintsDataHolder("jetbrains.mps.baseLanguage.dates.structure.NowExpression"));
-      case -1474827755:
+      case 68:
         return new DataHolderConstraintsDescriptor(new EmptyConstraintsDataHolder("jetbrains.mps.baseLanguage.dates.structure.TokenCondition"));
-      case 1070965719:
+      case 69:
         return new DataHolderConstraintsDescriptor(new EmptyConstraintsDataHolder("jetbrains.mps.baseLanguage.dates.structure.TokenCondition_datetimeToFormat"));
-      case -1643840216:
+      case 20:
         return new DataHolderConstraintsDescriptor(new EmptyConstraintsDataHolder("jetbrains.mps.baseLanguage.dates.structure.DateTimeType"));
-      case -1445258608:
+      case 72:
         return new DataHolderConstraintsDescriptor(new EmptyConstraintsDataHolder("jetbrains.mps.baseLanguage.dates.structure.UnaryDateTimeOperation"));
-      case 173957872:
+      case 12:
         return new DataHolderConstraintsDescriptor(new EmptyConstraintsDataHolder("jetbrains.mps.baseLanguage.dates.structure.DateTimeCompareOperation"));
-      case -454652911:
+      case 59:
         return new DataHolderConstraintsDescriptor(new EmptyConstraintsDataHolder("jetbrains.mps.baseLanguage.dates.structure.RoundDateTimeOperation"));
-      case -1867471533:
+      case 29:
         return new DataHolderConstraintsDescriptor(new EmptyConstraintsDataHolder("jetbrains.mps.baseLanguage.dates.structure.FloorDateTimeOperation"));
-      case 722484226:
+      case 2:
         return new DataHolderConstraintsDescriptor(new EmptyConstraintsDataHolder("jetbrains.mps.baseLanguage.dates.structure.CeilingDateTimeOperation"));
-      case 2092152510:
+      case 21:
         return new DataHolderConstraintsDescriptor(new EmptyConstraintsDataHolder("jetbrains.mps.baseLanguage.dates.structure.DateTimeWithPropertyOperation"));
-      case -1830285042:
+      case 57:
         return new DataHolderConstraintsDescriptor(new EmptyConstraintsDataHolder("jetbrains.mps.baseLanguage.dates.structure.PeriodType"));
-      case -706978952:
+      case 47:
         return new DataHolderConstraintsDescriptor(new EmptyConstraintsDataHolder("jetbrains.mps.baseLanguage.dates.structure.PeriodConstant"));
-      case 2039229543:
+      case 28:
         return new DataHolderConstraintsDescriptor(new FixedLocaleFormatToken_Constraints());
-      case -1025003649:
+      case 18:
         return new DataHolderConstraintsDescriptor(new DateTimePropertyFormatToken_Constraints());
-      case -460587365:
+      case 36:
         return new DataHolderConstraintsDescriptor(new EmptyConstraintsDataHolder("jetbrains.mps.baseLanguage.dates.structure.InlineFormatExpression"));
-      case -1715662207:
+      case 15:
         return new DataHolderConstraintsDescriptor(new EmptyConstraintsDataHolder("jetbrains.mps.baseLanguage.dates.structure.DateTimeOffsetFormatToken"));
-      case 198561194:
+      case 27:
         return new DataHolderConstraintsDescriptor(new EmptyConstraintsDataHolder("jetbrains.mps.baseLanguage.dates.structure.DurationTypeReference"));
-      case -224762043:
+      case 13:
         return new DataHolderConstraintsDescriptor(new EmptyConstraintsDataHolder("jetbrains.mps.baseLanguage.dates.structure.DateTimeMinusOperation"));
-      case 1981860241:
+      case 0:
         return new DataHolderConstraintsDescriptor(new EmptyConstraintsDataHolder("jetbrains.mps.baseLanguage.dates.structure.AbsDateTimeMinusOperation"));
-      case 724913541:
+      case 60:
         return new DataHolderConstraintsDescriptor(new EmptyConstraintsDataHolder("jetbrains.mps.baseLanguage.dates.structure.ScheduleLiteral"));
-      case -1653365762:
+      case 17:
         return new DataHolderConstraintsDescriptor(new EmptyConstraintsDataHolder("jetbrains.mps.baseLanguage.dates.structure.DateTimePlusPeriodOperation"));
-      case -1668178940:
+      case 14:
         return new DataHolderConstraintsDescriptor(new EmptyConstraintsDataHolder("jetbrains.mps.baseLanguage.dates.structure.DateTimeMinusPeriodOperation"));
-      case 830686353:
+      case 5:
         return new DataHolderConstraintsDescriptor(new ConvertToDateTimeOperation_Constraints());
-      case -865473479:
+      case 16:
         return new DataHolderConstraintsDescriptor(new DateTimeOperation_Constraints());
-      case 2144627136:
+      case 42:
         return new DataHolderConstraintsDescriptor(new EmptyConstraintsDataHolder("jetbrains.mps.baseLanguage.dates.structure.NotNullOperation"));
-      case 1979342413:
+      case 44:
         return new DataHolderConstraintsDescriptor(new EmptyConstraintsDataHolder("jetbrains.mps.baseLanguage.dates.structure.NullOperation"));
-      case -405474356:
+      case 7:
         return new DataHolderConstraintsDescriptor(new EmptyConstraintsDataHolder("jetbrains.mps.baseLanguage.dates.structure.ConvertToJavaCalendarOperation"));
-      case 776042204:
+      case 8:
         return new DataHolderConstraintsDescriptor(new EmptyConstraintsDataHolder("jetbrains.mps.baseLanguage.dates.structure.ConvertToJavaDateOperation"));
-      case -1134546513:
+      case 9:
         return new DataHolderConstraintsDescriptor(new EmptyConstraintsDataHolder("jetbrains.mps.baseLanguage.dates.structure.ConvertToJodaDateTimeOperation"));
-      case -789035787:
+      case 19:
         return new DataHolderConstraintsDescriptor(new EmptyConstraintsDataHolder("jetbrains.mps.baseLanguage.dates.structure.DateTimePropetyReferenceOperation"));
-      case -859674191:
+      case 41:
         return new DataHolderConstraintsDescriptor(new EmptyConstraintsDataHolder("jetbrains.mps.baseLanguage.dates.structure.NeverExpression"));
-      case 1685010321:
+      case 38:
         return new DataHolderConstraintsDescriptor(new EmptyConstraintsDataHolder("jetbrains.mps.baseLanguage.dates.structure.MathDateTimeOperation"));
-      case -1517315955:
+      case 40:
         return new DataHolderConstraintsDescriptor(new EmptyConstraintsDataHolder("jetbrains.mps.baseLanguage.dates.structure.MinDateTimeOperation"));
-      case -437297221:
+      case 39:
         return new DataHolderConstraintsDescriptor(new EmptyConstraintsDataHolder("jetbrains.mps.baseLanguage.dates.structure.MaxDateTimeOperation"));
-      case 1182349300:
+      case 24:
         return new DataHolderConstraintsDescriptor(new EmptyConstraintsDataHolder("jetbrains.mps.baseLanguage.dates.structure.DateTimeZoneType"));
-      case 1288296720:
+      case 62:
         return new DataHolderConstraintsDescriptor(new EmptyConstraintsDataHolder("jetbrains.mps.baseLanguage.dates.structure.TimeZoneConstant"));
-      case -309230165:
+      case 25:
         return new DataHolderConstraintsDescriptor(new EmptyConstraintsDataHolder("jetbrains.mps.baseLanguage.dates.structure.DefaultTimeZoneConstant"));
-      case 900106638:
+      case 71:
         return new DataHolderConstraintsDescriptor(new EmptyConstraintsDataHolder("jetbrains.mps.baseLanguage.dates.structure.UTCTimeZoneConstant"));
-      case -2072025806:
+      case 23:
         return new DataHolderConstraintsDescriptor(new EmptyConstraintsDataHolder("jetbrains.mps.baseLanguage.dates.structure.DateTimeZoneCreator"));
-      case 1743824995:
+      case 4:
         return new DataHolderConstraintsDescriptor(new EmptyConstraintsDataHolder("jetbrains.mps.baseLanguage.dates.structure.ConstantTimeZoneRef"));
-      case -828717369:
+      case 63:
         return new DataHolderConstraintsDescriptor(new EmptyConstraintsDataHolder("jetbrains.mps.baseLanguage.dates.structure.TimeZoneFromString"));
-      case 1933603865:
+      case 52:
         return new DataHolderConstraintsDescriptor(new EmptyConstraintsDataHolder("jetbrains.mps.baseLanguage.dates.structure.PeriodInPropertyOperation"));
-      case -101867889:
+      case 73:
         return new DataHolderConstraintsDescriptor(new WithPropertyCompareExpression_Constraints());
-      case 454030616:
+      case 46:
         return new DataHolderConstraintsDescriptor(new EmptyConstraintsDataHolder("jetbrains.mps.baseLanguage.dates.structure.ParseExpression"));
-      case 2029722975:
+      case 64:
         return new DataHolderConstraintsDescriptor(new TimeZoneIDExpression_Constraints());
-      case -1809432329:
+      case 67:
         return new DataHolderConstraintsDescriptor(new EmptyConstraintsDataHolder("jetbrains.mps.baseLanguage.dates.structure.TimeZoneOffsetExpression"));
-      case 1120707220:
+      case 22:
         return new DataHolderConstraintsDescriptor(new EmptyConstraintsDataHolder("jetbrains.mps.baseLanguage.dates.structure.DateTimeWithTZType"));
-      case 179317289:
+      case 34:
         return new DataHolderConstraintsDescriptor(new EmptyConstraintsDataHolder("jetbrains.mps.baseLanguage.dates.structure.InTimezoneExpression"));
-      case -1963197677:
+      case 45:
         return new DataHolderConstraintsDescriptor(new EmptyConstraintsDataHolder("jetbrains.mps.baseLanguage.dates.structure.ParseDateTimeExpression"));
-      case -143493091:
+      case 30:
         return new DataHolderConstraintsDescriptor(new FormatDateTimeExpression_Constraints());
-      case 1600377238:
+      case 35:
         return new DataHolderConstraintsDescriptor(new EmptyConstraintsDataHolder("jetbrains.mps.baseLanguage.dates.structure.InlineFormatDateTimeExpression"));
-      case 105674401:
+      case 26:
         return new DataHolderConstraintsDescriptor(new EmptyConstraintsDataHolder("jetbrains.mps.baseLanguage.dates.structure.DurationType"));
-      case 645516984:
+      case 6:
         return new DataHolderConstraintsDescriptor(new ConvertToDurationOperation_Constraints());
-      case -1987458522:
+      case 51:
         return new DataHolderConstraintsDescriptor(new EmptyConstraintsDataHolder("jetbrains.mps.baseLanguage.dates.structure.PeriodInPropertyExpression"));
-      case 1815907652:
+      case 61:
         return new DataHolderConstraintsDescriptor(new EmptyConstraintsDataHolder("jetbrains.mps.baseLanguage.dates.structure.TimeConstant"));
-      case 1897144643:
+      case 32:
         return new DataHolderConstraintsDescriptor(new FormatPeriodExpression_Constraints());
-      case 1622693067:
+      case 48:
         return new DataHolderConstraintsDescriptor(new PeriodFormat_Constraints());
-      case 144161774:
+      case 49:
         return new DataHolderConstraintsDescriptor(new EmptyConstraintsDataHolder("jetbrains.mps.baseLanguage.dates.structure.PeriodFormatToken"));
-      case 489195239:
+      case 53:
         return new DataHolderConstraintsDescriptor(new EmptyConstraintsDataHolder("jetbrains.mps.baseLanguage.dates.structure.PeriodLiteralFormatToken"));
-      case 1036315558:
+      case 50:
         return new DataHolderConstraintsDescriptor(new EmptyConstraintsDataHolder("jetbrains.mps.baseLanguage.dates.structure.PeriodFormatsTable"));
-      case -2010541351:
+      case 54:
         return new DataHolderConstraintsDescriptor(new PeriodPropertyFormatToken_Constraints());
-      case -654636597:
+      case 55:
         return new DataHolderConstraintsDescriptor(new PeriodReferenceFormatToken_Constraints());
-      case -1583939087:
+      case 56:
         return new DataHolderConstraintsDescriptor(new EmptyConstraintsDataHolder("jetbrains.mps.baseLanguage.dates.structure.PeriodSeparatorFormatToken"));
-      case -900105824:
+      case 65:
         return new DataHolderConstraintsDescriptor(new TimeZoneIdOperation_Constraints());
-      case 1629336880:
+      case 66:
         return new DataHolderConstraintsDescriptor(new TimeZoneNameOperation_Constraints());
-      case 1213578832:
+      case 1:
         return new DataHolderConstraintsDescriptor(new EmptyConstraintsDataHolder("jetbrains.mps.baseLanguage.dates.structure.AllTimeZonesConstant"));
       default:
         return null;

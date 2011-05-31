@@ -4,42 +4,45 @@ package jetbrains.mps.xmlInternal.constraints;
 
 import jetbrains.mps.smodel.structure.DescriptorProvider;
 import jetbrains.mps.smodel.structure.ConstraintsDescriptor;
+import java.util.Arrays;
 import jetbrains.mps.smodel.structure.DataHolderConstraintsDescriptor;
 import jetbrains.mps.smodel.structure.EmptyConstraintsDataHolder;
 
 public class ConstraintsAspectDescriptor extends DescriptorProvider<ConstraintsDescriptor> {
+  private static String[] stringSwitchCases_2qnle6_a0a0a = new String[]{"jetbrains.mps.xmlInternal.structure.Comment", "jetbrains.mps.xmlInternal.structure.ContentStatement", "jetbrains.mps.xmlInternal.structure.Document", "jetbrains.mps.xmlInternal.structure.DocumentStatement", "jetbrains.mps.xmlInternal.structure.DocumentTypeDeclaration", "jetbrains.mps.xmlInternal.structure.ExternalId", "jetbrains.mps.xmlInternal.structure.Literal", "jetbrains.mps.xmlInternal.structure.NamespaceAttribute", "jetbrains.mps.xmlInternal.structure.Prolog", "jetbrains.mps.xmlInternal.structure.PublicExternalId", "jetbrains.mps.xmlInternal.structure.SimpleAttribute", "jetbrains.mps.xmlInternal.structure.SimpleElement", "jetbrains.mps.xmlInternal.structure.StatementElement", "jetbrains.mps.xmlInternal.structure.XmlFile"};
+
   public ConstraintsAspectDescriptor() {
   }
 
   public ConstraintsDescriptor getDescriptor(String fqName) {
-    switch ((fqName).hashCode()) {
-      case 459650392:
+    switch (Arrays.binarySearch(stringSwitchCases_2qnle6_a0a0a, fqName)) {
+      case 12:
         return new DataHolderConstraintsDescriptor(new EmptyConstraintsDataHolder("jetbrains.mps.xmlInternal.structure.StatementElement"));
-      case -770580543:
+      case 1:
         return new DataHolderConstraintsDescriptor(new EmptyConstraintsDataHolder("jetbrains.mps.xmlInternal.structure.ContentStatement"));
-      case -1907285240:
+      case 13:
         return new DataHolderConstraintsDescriptor(new XmlFile_Constraints());
-      case 2068094694:
+      case 2:
         return new DataHolderConstraintsDescriptor(new EmptyConstraintsDataHolder("jetbrains.mps.xmlInternal.structure.Document"));
-      case 989313844:
+      case 0:
         return new DataHolderConstraintsDescriptor(new EmptyConstraintsDataHolder("jetbrains.mps.xmlInternal.structure.Comment"));
-      case -1171124951:
+      case 3:
         return new DataHolderConstraintsDescriptor(new EmptyConstraintsDataHolder("jetbrains.mps.xmlInternal.structure.DocumentStatement"));
-      case -1809835518:
+      case 8:
         return new DataHolderConstraintsDescriptor(new EmptyConstraintsDataHolder("jetbrains.mps.xmlInternal.structure.Prolog"));
-      case 1324766746:
+      case 4:
         return new DataHolderConstraintsDescriptor(new EmptyConstraintsDataHolder("jetbrains.mps.xmlInternal.structure.DocumentTypeDeclaration"));
-      case -2015679151:
+      case 5:
         return new DataHolderConstraintsDescriptor(new EmptyConstraintsDataHolder("jetbrains.mps.xmlInternal.structure.ExternalId"));
-      case 1965348954:
+      case 9:
         return new DataHolderConstraintsDescriptor(new EmptyConstraintsDataHolder("jetbrains.mps.xmlInternal.structure.PublicExternalId"));
-      case 221375876:
+      case 6:
         return new DataHolderConstraintsDescriptor(new EmptyConstraintsDataHolder("jetbrains.mps.xmlInternal.structure.Literal"));
-      case -681332225:
+      case 11:
         return new DataHolderConstraintsDescriptor(new EmptyConstraintsDataHolder("jetbrains.mps.xmlInternal.structure.SimpleElement"));
-      case -1653634849:
+      case 10:
         return new DataHolderConstraintsDescriptor(new EmptyConstraintsDataHolder("jetbrains.mps.xmlInternal.structure.SimpleAttribute"));
-      case -1253664884:
+      case 7:
         return new DataHolderConstraintsDescriptor(new EmptyConstraintsDataHolder("jetbrains.mps.xmlInternal.structure.NamespaceAttribute"));
       default:
         return null;

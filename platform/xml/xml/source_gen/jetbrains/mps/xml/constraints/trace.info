@@ -5,8 +5,8 @@
   <unitInfo fileName="BaseText_Constraints.java" startLine="7" startPosition="0" endLine="19" endPosition="0" unitName="jetbrains.mps.xml.constraints.BaseText_Constraints" />
   <unitInfo fileName="Attribute_Constraints.java" startLine="32" startPosition="43" endLine="53" endPosition="5" unitName="jetbrains.mps.xml.constraints.Attribute_Constraints$1" />
   <unitInfo fileName="Element_Constraints.java" startLine="48" startPosition="41" endLine="70" endPosition="5" unitName="jetbrains.mps.xml.constraints.Element_Constraints$2" />
-  <unitInfo fileName="ConstraintsAspectDescriptor.java" startLine="10" startPosition="0" endLine="45" endPosition="0" unitName="jetbrains.mps.xml.constraints.ConstraintsAspectDescriptor" />
   <unitInfo fileName="Attribute_Constraints.java" startLine="22" startPosition="0" endLine="57" endPosition="0" unitName="jetbrains.mps.xml.constraints.Attribute_Constraints" />
+  <unitInfo fileName="ConstraintsAspectDescriptor.java" startLine="11" startPosition="0" endLine="48" endPosition="0" unitName="jetbrains.mps.xml.constraints.ConstraintsAspectDescriptor" />
   <unitInfo fileName="Element_Constraints.java" startLine="28" startPosition="0" endLine="74" endPosition="0" unitName="jetbrains.mps.xml.constraints.Element_Constraints" />
   <root nodeId="1213104840321">
     <nodeInfo nodeId="1213104840325" fileName="Element_Constraints.java" startLine="39" startPosition="84" endLine="40" endPosition="122" conceptFqName="jetbrains.mps.baseLanguage.structure.ReturnStatement" />

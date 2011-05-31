@@ -2,6 +2,7 @@
 <dependenciesRoot>
   <dependency className="jetbrains.mps.xmlInternal.constraints.ConstraintsAspectDescriptor" file="ConstraintsAspectDescriptor.java">
     <classNode dependClassName="java.lang.String" />
+    <classNode dependClassName="java.util.Arrays" />
     <classNode dependClassName="jetbrains.mps.smodel.structure.ConstraintsDescriptor" />
     <classNode dependClassName="jetbrains.mps.smodel.structure.DataHolderConstraintsDescriptor" />
     <classNode dependClassName="jetbrains.mps.smodel.structure.EmptyConstraintsDataHolder" />

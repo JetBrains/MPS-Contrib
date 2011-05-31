@@ -4,38 +4,41 @@ package jetbrains.mps.xml.constraints;
 
 import jetbrains.mps.smodel.structure.DescriptorProvider;
 import jetbrains.mps.smodel.structure.ConstraintsDescriptor;
+import java.util.Arrays;
 import jetbrains.mps.smodel.structure.DataHolderConstraintsDescriptor;
 import jetbrains.mps.smodel.structure.EmptyConstraintsDataHolder;
 
 public class ConstraintsAspectDescriptor extends DescriptorProvider<ConstraintsDescriptor> {
+  private static String[] stringSwitchCases_2qnle6_a0a0a = new String[]{"jetbrains.mps.xml.structure.Attribute", "jetbrains.mps.xml.structure.BaseAttribute", "jetbrains.mps.xml.structure.BaseElement", "jetbrains.mps.xml.structure.BaseText", "jetbrains.mps.xml.structure.CDATA", "jetbrains.mps.xml.structure.ComplexText", "jetbrains.mps.xml.structure.Content", "jetbrains.mps.xml.structure.ContentList", "jetbrains.mps.xml.structure.Element", "jetbrains.mps.xml.structure.EntityReference", "jetbrains.mps.xml.structure.Text", "jetbrains.mps.xml.structure.XmlRoot"};
+
   public ConstraintsAspectDescriptor() {
   }
 
   public ConstraintsDescriptor getDescriptor(String fqName) {
-    switch ((fqName).hashCode()) {
-      case -1742027599:
+    switch (Arrays.binarySearch(stringSwitchCases_2qnle6_a0a0a, fqName)) {
+      case 6:
         return new DataHolderConstraintsDescriptor(new Content_Constraints());
-      case -900767755:
+      case 10:
         return new DataHolderConstraintsDescriptor(new EmptyConstraintsDataHolder("jetbrains.mps.xml.structure.Text"));
-      case 1986918965:
+      case 5:
         return new DataHolderConstraintsDescriptor(new EmptyConstraintsDataHolder("jetbrains.mps.xml.structure.ComplexText"));
-      case 677537382:
+      case 3:
         return new DataHolderConstraintsDescriptor(new BaseText_Constraints());
-      case 1191913711:
+      case 7:
         return new DataHolderConstraintsDescriptor(new EmptyConstraintsDataHolder("jetbrains.mps.xml.structure.ContentList"));
-      case -984849149:
+      case 1:
         return new DataHolderConstraintsDescriptor(new EmptyConstraintsDataHolder("jetbrains.mps.xml.structure.BaseAttribute"));
-      case -61427916:
+      case 8:
         return new DataHolderConstraintsDescriptor(new Element_Constraints());
-      case 1368919252:
+      case 0:
         return new DataHolderConstraintsDescriptor(new Attribute_Constraints());
-      case 345637600:
+      case 9:
         return new DataHolderConstraintsDescriptor(new EmptyConstraintsDataHolder("jetbrains.mps.xml.structure.EntityReference"));
-      case -2075048157:
+      case 2:
         return new DataHolderConstraintsDescriptor(new EmptyConstraintsDataHolder("jetbrains.mps.xml.structure.BaseElement"));
-      case 2124233925:
+      case 4:
         return new DataHolderConstraintsDescriptor(new EmptyConstraintsDataHolder("jetbrains.mps.xml.structure.CDATA"));
-      case -344428079:
+      case 11:
         return new DataHolderConstraintsDescriptor(new EmptyConstraintsDataHolder("jetbrains.mps.xml.structure.XmlRoot"));
       default:
         return null;

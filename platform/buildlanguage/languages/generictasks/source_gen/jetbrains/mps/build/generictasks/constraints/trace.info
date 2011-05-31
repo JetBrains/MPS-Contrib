@@ -12,7 +12,7 @@
   <unitInfo fileName="BuiltInTaskDeclaration_Constraints.java" startLine="14" startPosition="0" endLine="42" endPosition="0" unitName="jetbrains.mps.build.generictasks.constraints.BuiltInTaskDeclaration_Constraints" />
   <unitInfo fileName="NestedDeclaration_Constraints.java" startLine="14" startPosition="0" endLine="42" endPosition="0" unitName="jetbrains.mps.build.generictasks.constraints.NestedDeclaration_Constraints" />
   <unitInfo fileName="TaskInterfaceDeclaration_Constraints.java" startLine="14" startPosition="0" endLine="42" endPosition="0" unitName="jetbrains.mps.build.generictasks.constraints.TaskInterfaceDeclaration_Constraints" />
-  <unitInfo fileName="ConstraintsAspectDescriptor.java" startLine="10" startPosition="0" endLine="39" endPosition="0" unitName="jetbrains.mps.build.generictasks.constraints.ConstraintsAspectDescriptor" />
+  <unitInfo fileName="ConstraintsAspectDescriptor.java" startLine="11" startPosition="0" endLine="42" endPosition="0" unitName="jetbrains.mps.build.generictasks.constraints.ConstraintsAspectDescriptor" />
   <unitInfo fileName="TaskReference_Constraints.java" startLine="32" startPosition="34" endLine="65" endPosition="5" unitName="jetbrains.mps.build.generictasks.constraints.TaskReference_Constraints$1" />
   <unitInfo fileName="TaskCall_Constraints.java" startLine="104" startPosition="34" endLine="137" endPosition="5" unitName="jetbrains.mps.build.generictasks.constraints.TaskCall_Constraints$4" />
   <unitInfo fileName="PathReference_Constraints.java" startLine="22" startPosition="0" endLine="58" endPosition="0" unitName="jetbrains.mps.build.generictasks.constraints.PathReference_Constraints" />
