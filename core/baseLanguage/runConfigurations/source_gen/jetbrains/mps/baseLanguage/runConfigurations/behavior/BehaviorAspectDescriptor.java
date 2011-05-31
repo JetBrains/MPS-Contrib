@@ -4,42 +4,45 @@ package jetbrains.mps.baseLanguage.runConfigurations.behavior;
 
 import jetbrains.mps.smodel.structure.DescriptorProvider;
 import jetbrains.mps.smodel.structure.BehaviorDescriptor;
+import java.util.Arrays;
 
 public class BehaviorAspectDescriptor extends DescriptorProvider<BehaviorDescriptor> {
+  private static String[] stringSwitchCases_846f5o_a0a0a = new String[]{"jetbrains.mps.baseLanguage.runConfigurations.structure.ComponentInsideOfChangeListenerAnnotation", "jetbrains.mps.baseLanguage.runConfigurations.structure.IJavaRunConfigurationParameter", "jetbrains.mps.baseLanguage.runConfigurations.structure.IMainClass", "jetbrains.mps.baseLanguage.runConfigurations.structure.IOnChangeEditorBlock", "jetbrains.mps.baseLanguage.runConfigurations.structure.IsApplicableBlock", "jetbrains.mps.baseLanguage.runConfigurations.structure.JavaCheckBlock", "jetbrains.mps.baseLanguage.runConfigurations.structure.JavaConfigurationRunParameters_FunctionParameter", "jetbrains.mps.baseLanguage.runConfigurations.structure.JavaNodeConfigurationEditorDeclaration", "jetbrains.mps.baseLanguage.runConfigurations.structure.JavaNodeRunConfiguration", "jetbrains.mps.baseLanguage.runConfigurations.structure.JavaRunConfiguration", "jetbrains.mps.baseLanguage.runConfigurations.structure.NodeRunConfigPropertyInstance", "jetbrains.mps.baseLanguage.runConfigurations.structure.Node_FunctionParameter", "jetbrains.mps.baseLanguage.runConfigurations.structure.OnChangeNodeBlock", "jetbrains.mps.baseLanguage.runConfigurations.structure.UserComponentReferenceAnnotation"};
+
   public BehaviorAspectDescriptor() {
   }
 
   public BehaviorDescriptor getDescriptor(String fqName) {
-    switch ((fqName).hashCode()) {
-      case 638382655:
+    switch (Arrays.binarySearch(stringSwitchCases_846f5o_a0a0a, fqName)) {
+      case 8:
         return new JavaNodeRunConfiguration_BehaviorDescriptor();
-      case 1255693015:
+      case 5:
         return new JavaCheckBlock_BehaviorDescriptor();
-      case 176098589:
+      case 9:
         return new JavaRunConfiguration_BehaviorDescriptor();
-      case -1616976445:
+      case 6:
         return new JavaConfigurationRunParameters_FunctionParameter_BehaviorDescriptor();
-      case -1580346184:
+      case 13:
         return new UserComponentReferenceAnnotation_BehaviorDescriptor();
-      case -535338940:
+      case 11:
         return new Node_FunctionParameter_BehaviorDescriptor();
-      case -1776949629:
+      case 1:
         // interface or abstract concept behavior jetbrains.mps.baseLanguage.runConfigurations.structure.IJavaRunConfigurationParameter 
         return null;
-      case 616231109:
+      case 10:
         return new NodeRunConfigPropertyInstance_BehaviorDescriptor();
-      case 1341486731:
+      case 7:
         return new JavaNodeConfigurationEditorDeclaration_BehaviorDescriptor();
-      case 237705548:
+      case 12:
         return new OnChangeNodeBlock_BehaviorDescriptor();
-      case -1711177389:
+      case 0:
         return new ComponentInsideOfChangeListenerAnnotation_BehaviorDescriptor();
-      case -177572680:
+      case 3:
         // interface or abstract concept behavior jetbrains.mps.baseLanguage.runConfigurations.structure.IOnChangeEditorBlock 
         return null;
-      case 2056789236:
+      case 4:
         return new IsApplicableBlock_BehaviorDescriptor();
-      case -583237754:
+      case 2:
         // interface or abstract concept behavior jetbrains.mps.baseLanguage.runConfigurations.structure.IMainClass 
         return null;
       default:
