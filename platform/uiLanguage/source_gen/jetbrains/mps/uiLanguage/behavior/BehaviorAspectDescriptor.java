@@ -4,94 +4,97 @@ package jetbrains.mps.uiLanguage.behavior;
 
 import jetbrains.mps.smodel.structure.DescriptorProvider;
 import jetbrains.mps.smodel.structure.BehaviorDescriptor;
+import java.util.Arrays;
 
 public class BehaviorAspectDescriptor extends DescriptorProvider<BehaviorDescriptor> {
+  private static String[] stringSwitchCases_846f5o_a0a0a = new String[]{"jetbrains.mps.uiLanguage.structure.ActionHandler", "jetbrains.mps.uiLanguage.structure.AddListenerOperation", "jetbrains.mps.uiLanguage.structure.AfterConstructionBlock", "jetbrains.mps.uiLanguage.structure.AttributeDeclaration", "jetbrains.mps.uiLanguage.structure.AttributeReferenceOperation", "jetbrains.mps.uiLanguage.structure.AttributeValue", "jetbrains.mps.uiLanguage.structure.BeanCreator", "jetbrains.mps.uiLanguage.structure.BeanDeclaration", "jetbrains.mps.uiLanguage.structure.BeanType", "jetbrains.mps.uiLanguage.structure.BeforeConstructionBlock", "jetbrains.mps.uiLanguage.structure.BindExpression", "jetbrains.mps.uiLanguage.structure.CellRendererAttribute", "jetbrains.mps.uiLanguage.structure.ComponentController", "jetbrains.mps.uiLanguage.structure.ComponentCreator", "jetbrains.mps.uiLanguage.structure.ComponentDeclaration", "jetbrains.mps.uiLanguage.structure.ComponentInstance", "jetbrains.mps.uiLanguage.structure.ComponentReference", "jetbrains.mps.uiLanguage.structure.ComponentType", "jetbrains.mps.uiLanguage.structure.EventAccessOperation", "jetbrains.mps.uiLanguage.structure.EventDeclaration", "jetbrains.mps.uiLanguage.structure.EventHandlerReference", "jetbrains.mps.uiLanguage.structure.Form", "jetbrains.mps.uiLanguage.structure.FormPart", "jetbrains.mps.uiLanguage.structure.Grid", "jetbrains.mps.uiLanguage.structure.GridRow", "jetbrains.mps.uiLanguage.structure.IComponentInstance", "jetbrains.mps.uiLanguage.structure.IComponentPart", "jetbrains.mps.uiLanguage.structure.InlineEventHandler", "jetbrains.mps.uiLanguage.structure.InlineRenderer", "jetbrains.mps.uiLanguage.structure.LayoutConstraint", "jetbrains.mps.uiLanguage.structure.ListElements", "jetbrains.mps.uiLanguage.structure.PngIcon", "jetbrains.mps.uiLanguage.structure.RaiseInternalStatement", "jetbrains.mps.uiLanguage.structure.RaiseOperation", "jetbrains.mps.uiLanguage.structure.RemoveListenerOperation", "jetbrains.mps.uiLanguage.structure.RenderingObject", "jetbrains.mps.uiLanguage.structure.Scroller", "jetbrains.mps.uiLanguage.structure.StandardDialog", "jetbrains.mps.uiLanguage.structure.StandardDialogButton", "jetbrains.mps.uiLanguage.structure.StubCellRendererInfo"};
+
   public BehaviorAspectDescriptor() {
   }
 
   public BehaviorDescriptor getDescriptor(String fqName) {
-    switch ((fqName).hashCode()) {
-      case -1810030930:
+    switch (Arrays.binarySearch(stringSwitchCases_846f5o_a0a0a, fqName)) {
+      case 26:
         // interface or abstract concept behavior jetbrains.mps.uiLanguage.structure.IComponentPart 
         return null;
-      case -1198249653:
+      case 15:
         return new ComponentInstance_BehaviorDescriptor();
-      case -1508631292:
+      case 14:
         return new ComponentDeclaration_BehaviorDescriptor();
-      case -731274542:
+      case 12:
         return new ComponentController_BehaviorDescriptor();
-      case -446544324:
+      case 5:
         return new AttributeValue_BehaviorDescriptor();
-      case -1639504379:
+      case 3:
         return new AttributeDeclaration_BehaviorDescriptor();
-      case 686766268:
+      case 10:
         return new BindExpression_BehaviorDescriptor();
-      case -1292439824:
+      case 17:
         return new ComponentType_BehaviorDescriptor();
-      case -126195855:
+      case 4:
         return new AttributeReferenceOperation_BehaviorDescriptor();
-      case -1205720850:
+      case 29:
         return new LayoutConstraint_BehaviorDescriptor();
-      case 554713429:
+      case 16:
         return new ComponentReference_BehaviorDescriptor();
-      case -917848755:
+      case 0:
         return new ActionHandler_BehaviorDescriptor();
-      case -2123126901:
+      case 21:
         return new Form_BehaviorDescriptor();
-      case -921386466:
+      case 22:
         return new FormPart_BehaviorDescriptor();
-      case -933398064:
+      case 25:
         // interface or abstract concept behavior jetbrains.mps.uiLanguage.structure.IComponentInstance 
         return null;
-      case -2123094515:
+      case 23:
         return new Grid_BehaviorDescriptor();
-      case -1420213107:
+      case 24:
         return new GridRow_BehaviorDescriptor();
-      case -902212500:
+      case 37:
         return new StandardDialog_BehaviorDescriptor();
-      case -816683330:
+      case 38:
         return new StandardDialogButton_BehaviorDescriptor();
-      case 1369760455:
+      case 2:
         return new AfterConstructionBlock_BehaviorDescriptor();
-      case 978729852:
+      case 30:
         return new ListElements_BehaviorDescriptor();
-      case -1797106815:
+      case 36:
         return new Scroller_BehaviorDescriptor();
-      case -1106215754:
+      case 13:
         return new ComponentCreator_BehaviorDescriptor();
-      case 443190915:
+      case 7:
         return new BeanDeclaration_BehaviorDescriptor();
-      case -73425327:
+      case 8:
         return new BeanType_BehaviorDescriptor();
-      case 606176693:
+      case 6:
         return new BeanCreator_BehaviorDescriptor();
-      case 1476628167:
+      case 19:
         return new EventDeclaration_BehaviorDescriptor();
-      case 73775920:
+      case 18:
         return new EventAccessOperation_BehaviorDescriptor();
-      case -1789197086:
+      case 33:
         return new RaiseOperation_BehaviorDescriptor();
-      case 1502373177:
+      case 1:
         return new AddListenerOperation_BehaviorDescriptor();
-      case -1649351480:
+      case 34:
         return new RemoveListenerOperation_BehaviorDescriptor();
-      case 1158727440:
+      case 27:
         return new InlineEventHandler_BehaviorDescriptor();
-      case -47232524:
+      case 20:
         return new EventHandlerReference_BehaviorDescriptor();
-      case -1891415123:
+      case 32:
         return new RaiseInternalStatement_BehaviorDescriptor();
-      case 798439464:
+      case 39:
         return new StubCellRendererInfo_BehaviorDescriptor();
-      case -2117236752:
+      case 11:
         return new CellRendererAttribute_BehaviorDescriptor();
-      case 683650179:
+      case 28:
         return new InlineRenderer_BehaviorDescriptor();
-      case 1814040516:
+      case 35:
         return new RenderingObject_BehaviorDescriptor();
-      case -240486826:
+      case 9:
         return new BeforeConstructionBlock_BehaviorDescriptor();
-      case -2139766245:
+      case 31:
         return new PngIcon_BehaviorDescriptor();
       default:
         return null;

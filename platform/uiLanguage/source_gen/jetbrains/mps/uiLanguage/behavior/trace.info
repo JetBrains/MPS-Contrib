@@ -69,7 +69,7 @@
   <unitInfo fileName="BeanDeclaration_BehaviorDescriptor.java" startLine="14" startPosition="0" endLine="46" endPosition="0" unitName="jetbrains.mps.uiLanguage.behavior.BeanDeclaration_BehaviorDescriptor" />
   <unitInfo fileName="GridRow_Behavior.java" startLine="19" startPosition="0" endLine="51" endPosition="0" unitName="jetbrains.mps.uiLanguage.behavior.GridRow_Behavior" />
   <unitInfo fileName="BindExpression_Behavior.java" startLine="10" startPosition="0" endLine="46" endPosition="0" unitName="jetbrains.mps.uiLanguage.behavior.BindExpression_Behavior" />
-  <unitInfo fileName="BehaviorAspectDescriptor.java" startLine="8" startPosition="0" endLine="101" endPosition="0" unitName="jetbrains.mps.uiLanguage.behavior.BehaviorAspectDescriptor" />
+  <unitInfo fileName="BehaviorAspectDescriptor.java" startLine="9" startPosition="0" endLine="104" endPosition="0" unitName="jetbrains.mps.uiLanguage.behavior.BehaviorAspectDescriptor" />
   <unitInfo fileName="ComponentDeclaration_Behavior.java" startLine="19" startPosition="0" endLine="124" endPosition="0" unitName="jetbrains.mps.uiLanguage.behavior.ComponentDeclaration_Behavior" />
   <root nodeId="1213877184373">
     <nodeInfo nodeId="1213877184376" fileName="ComponentController_Behavior.java" startLine="12" startPosition="79" endLine="13" endPosition="67" conceptFqName="jetbrains.mps.baseLanguage.structure.ReturnStatement" />
