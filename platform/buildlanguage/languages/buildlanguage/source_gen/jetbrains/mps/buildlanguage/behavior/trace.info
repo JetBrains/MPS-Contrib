@@ -61,7 +61,7 @@
   <unitInfo fileName="PlusOperation_Behavior.java" startLine="9" startPosition="0" endLine="49" endPosition="0" unitName="jetbrains.mps.buildlanguage.behavior.PlusOperation_Behavior" />
   <unitInfo fileName="Project_Behavior.java" startLine="15" startPosition="0" endLine="73" endPosition="0" unitName="jetbrains.mps.buildlanguage.behavior.Project_Behavior" />
   <unitInfo fileName="IDeclaration_Behavior.java" startLine="13" startPosition="0" endLine="81" endPosition="0" unitName="jetbrains.mps.buildlanguage.behavior.IDeclaration_Behavior" />
-  <unitInfo fileName="BehaviorAspectDescriptor.java" startLine="8" startPosition="0" endLine="112" endPosition="0" unitName="jetbrains.mps.buildlanguage.behavior.BehaviorAspectDescriptor" />
+  <unitInfo fileName="BehaviorAspectDescriptor.java" startLine="9" startPosition="0" endLine="115" endPosition="0" unitName="jetbrains.mps.buildlanguage.behavior.BehaviorAspectDescriptor" />
   <root nodeId="1213877231973">
     <nodeInfo nodeId="1213877231979" fileName="TargetDeclaration_Behavior.java" startLine="16" startPosition="97" endLine="17" endPosition="16" conceptFqName="jetbrains.mps.baseLanguage.structure.ReturnStatement" />
     <nodeInfo nodeId="1213877231986" fileName="TargetDeclaration_Behavior.java" startLine="18" startPosition="5" endLine="19" endPosition="45" conceptFqName="jetbrains.mps.baseLanguage.structure.LocalVariableDeclarationStatement" />

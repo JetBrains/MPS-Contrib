@@ -4,41 +4,44 @@ package jetbrains.mps.xmlInternal.behavior;
 
 import jetbrains.mps.smodel.structure.DescriptorProvider;
 import jetbrains.mps.smodel.structure.BehaviorDescriptor;
+import java.util.Arrays;
 
 public class BehaviorAspectDescriptor extends DescriptorProvider<BehaviorDescriptor> {
+  private static String[] stringSwitchCases_846f5o_a0a0a = new String[]{"jetbrains.mps.xmlInternal.structure.Comment", "jetbrains.mps.xmlInternal.structure.ContentStatement", "jetbrains.mps.xmlInternal.structure.Document", "jetbrains.mps.xmlInternal.structure.DocumentStatement", "jetbrains.mps.xmlInternal.structure.DocumentTypeDeclaration", "jetbrains.mps.xmlInternal.structure.ExternalId", "jetbrains.mps.xmlInternal.structure.Literal", "jetbrains.mps.xmlInternal.structure.NamespaceAttribute", "jetbrains.mps.xmlInternal.structure.Prolog", "jetbrains.mps.xmlInternal.structure.PublicExternalId", "jetbrains.mps.xmlInternal.structure.SimpleAttribute", "jetbrains.mps.xmlInternal.structure.SimpleElement", "jetbrains.mps.xmlInternal.structure.StatementElement", "jetbrains.mps.xmlInternal.structure.XmlFile"};
+
   public BehaviorAspectDescriptor() {
   }
 
   public BehaviorDescriptor getDescriptor(String fqName) {
-    switch ((fqName).hashCode()) {
-      case 459650392:
+    switch (Arrays.binarySearch(stringSwitchCases_846f5o_a0a0a, fqName)) {
+      case 12:
         return new StatementElement_BehaviorDescriptor();
-      case -770580543:
+      case 1:
         return new ContentStatement_BehaviorDescriptor();
-      case -1907285240:
+      case 13:
         return new XmlFile_BehaviorDescriptor();
-      case 2068094694:
+      case 2:
         return new Document_BehaviorDescriptor();
-      case 989313844:
+      case 0:
         return new Comment_BehaviorDescriptor();
-      case -1171124951:
+      case 3:
         return new DocumentStatement_BehaviorDescriptor();
-      case -1809835518:
+      case 8:
         return new Prolog_BehaviorDescriptor();
-      case 1324766746:
+      case 4:
         return new DocumentTypeDeclaration_BehaviorDescriptor();
-      case -2015679151:
+      case 5:
         // interface or abstract concept behavior jetbrains.mps.xmlInternal.structure.ExternalId 
         return null;
-      case 1965348954:
+      case 9:
         return new PublicExternalId_BehaviorDescriptor();
-      case 221375876:
+      case 6:
         return new Literal_BehaviorDescriptor();
-      case -681332225:
+      case 11:
         return new SimpleElement_BehaviorDescriptor();
-      case -1653634849:
+      case 10:
         return new SimpleAttribute_BehaviorDescriptor();
-      case -1253664884:
+      case 7:
         return new NamespaceAttribute_BehaviorDescriptor();
       default:
         return null;

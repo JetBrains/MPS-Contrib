@@ -4,100 +4,103 @@ package jetbrains.mps.xmlSchema.behavior;
 
 import jetbrains.mps.smodel.structure.DescriptorProvider;
 import jetbrains.mps.smodel.structure.BehaviorDescriptor;
+import java.util.Arrays;
 
 public class BehaviorAspectDescriptor extends DescriptorProvider<BehaviorDescriptor> {
+  private static String[] stringSwitchCases_846f5o_a0a0a = new String[]{"jetbrains.mps.xmlSchema.structure.AttributeDeclaration", "jetbrains.mps.xmlSchema.structure.AttributeExpression", "jetbrains.mps.xmlSchema.structure.AttributeGroup", "jetbrains.mps.xmlSchema.structure.AttributeGroupReference", "jetbrains.mps.xmlSchema.structure.BooleanSchemaType", "jetbrains.mps.xmlSchema.structure.BoundExpression", "jetbrains.mps.xmlSchema.structure.Choice", "jetbrains.mps.xmlSchema.structure.ComplexContent", "jetbrains.mps.xmlSchema.structure.ComplexType", "jetbrains.mps.xmlSchema.structure.ComplexTypeReference", "jetbrains.mps.xmlSchema.structure.ContentItem", "jetbrains.mps.xmlSchema.structure.Declaration", "jetbrains.mps.xmlSchema.structure.DeclarationBlock", "jetbrains.mps.xmlSchema.structure.ElementDeclaration", "jetbrains.mps.xmlSchema.structure.ElementReference", "jetbrains.mps.xmlSchema.structure.ElementWithContent", "jetbrains.mps.xmlSchema.structure.ElementWithType", "jetbrains.mps.xmlSchema.structure.EntityBlock", "jetbrains.mps.xmlSchema.structure.EntityDeclaration", "jetbrains.mps.xmlSchema.structure.EntityLine", "jetbrains.mps.xmlSchema.structure.EntitySet", "jetbrains.mps.xmlSchema.structure.Extension", "jetbrains.mps.xmlSchema.structure.GroupDeclaration", "jetbrains.mps.xmlSchema.structure.GroupExpression", "jetbrains.mps.xmlSchema.structure.GroupReference", "jetbrains.mps.xmlSchema.structure.IntegerSchemaType", "jetbrains.mps.xmlSchema.structure.MaxOccursExpression", "jetbrains.mps.xmlSchema.structure.MixedAttribute", "jetbrains.mps.xmlSchema.structure.NamespaceDeclaration", "jetbrains.mps.xmlSchema.structure.OccursAttribute", "jetbrains.mps.xmlSchema.structure.Schema", "jetbrains.mps.xmlSchema.structure.SchemaType", "jetbrains.mps.xmlSchema.structure.Sequence", "jetbrains.mps.xmlSchema.structure.SimpleContent", "jetbrains.mps.xmlSchema.structure.StringSchemaType", "jetbrains.mps.xmlSchema.structure.TextLine", "jetbrains.mps.xmlSchema.structure.TypeExpression", "jetbrains.mps.xmlSchema.structure.TypeExpressionList", "jetbrains.mps.xmlSchema.structure.UnboundExpression", "jetbrains.mps.xmlSchema.structure.UseAttribute"};
+
   public BehaviorAspectDescriptor() {
   }
 
   public BehaviorDescriptor getDescriptor(String fqName) {
-    switch ((fqName).hashCode()) {
-      case -498905186:
+    switch (Arrays.binarySearch(stringSwitchCases_846f5o_a0a0a, fqName)) {
+      case 15:
         return new ElementWithContent_BehaviorDescriptor();
-      case 244564872:
+      case 30:
         return new Schema_BehaviorDescriptor();
-      case -2027651085:
+      case 11:
         // interface or abstract concept behavior jetbrains.mps.xmlSchema.structure.Declaration 
         return null;
-      case 850864104:
+      case 32:
         return new Sequence_BehaviorDescriptor();
-      case 1700459734:
+      case 14:
         return new ElementReference_BehaviorDescriptor();
-      case 700675161:
+      case 36:
         // interface or abstract concept behavior jetbrains.mps.xmlSchema.structure.TypeExpression 
         return null;
-      case 724320200:
+      case 27:
         return new MixedAttribute_BehaviorDescriptor();
-      case -575731038:
+      case 22:
         return new GroupDeclaration_BehaviorDescriptor();
-      case -1610041232:
+      case 23:
         // interface or abstract concept behavior jetbrains.mps.xmlSchema.structure.GroupExpression 
         return null;
-      case -208671864:
+      case 6:
         return new Choice_BehaviorDescriptor();
-      case -2027553165:
+      case 24:
         return new GroupReference_BehaviorDescriptor();
-      case 1475640910:
+      case 29:
         return new OccursAttribute_BehaviorDescriptor();
-      case 1381482236:
+      case 26:
         // interface or abstract concept behavior jetbrains.mps.xmlSchema.structure.MaxOccursExpression 
         return null;
-      case -1505576266:
+      case 38:
         return new UnboundExpression_BehaviorDescriptor();
-      case 406493827:
+      case 8:
         return new ComplexType_BehaviorDescriptor();
-      case 1108111608:
+      case 21:
         return new Extension_BehaviorDescriptor();
-      case -1454287782:
+      case 12:
         return new DeclarationBlock_BehaviorDescriptor();
-      case -1502561560:
+      case 35:
         return new TextLine_BehaviorDescriptor();
-      case 857777893:
+      case 0:
         return new AttributeDeclaration_BehaviorDescriptor();
-      case 2002408490:
+      case 2:
         return new AttributeGroup_BehaviorDescriptor();
-      case -39778355:
+      case 1:
         // interface or abstract concept behavior jetbrains.mps.xmlSchema.structure.AttributeExpression 
         return null;
-      case -1688331711:
+      case 3:
         return new AttributeGroupReference_BehaviorDescriptor();
-      case -118167544:
+      case 9:
         return new ComplexTypeReference_BehaviorDescriptor();
-      case -145459056:
+      case 7:
         return new ComplexContent_BehaviorDescriptor();
-      case -388609627:
+      case 10:
         // interface or abstract concept behavior jetbrains.mps.xmlSchema.structure.ContentItem 
         return null;
-      case -135019369:
+      case 37:
         return new TypeExpressionList_BehaviorDescriptor();
-      case -405537120:
+      case 33:
         return new SimpleContent_BehaviorDescriptor();
-      case 41940037:
+      case 13:
         // interface or abstract concept behavior jetbrains.mps.xmlSchema.structure.ElementDeclaration 
         return null;
-      case -1825845707:
+      case 16:
         return new ElementWithType_BehaviorDescriptor();
-      case 1102352764:
+      case 39:
         return new UseAttribute_BehaviorDescriptor();
-      case 980092472:
+      case 20:
         return new EntitySet_BehaviorDescriptor();
-      case -1118009008:
+      case 18:
         return new EntityDeclaration_BehaviorDescriptor();
-      case 1255534819:
+      case 17:
         return new EntityBlock_BehaviorDescriptor();
-      case 317890782:
+      case 19:
         return new EntityLine_BehaviorDescriptor();
-      case 2009145030:
+      case 28:
         return new NamespaceDeclaration_BehaviorDescriptor();
-      case -437898093:
+      case 34:
         return new StringSchemaType_BehaviorDescriptor();
-      case 1352581858:
+      case 31:
         // interface or abstract concept behavior jetbrains.mps.xmlSchema.structure.SchemaType 
         return null;
-      case -2123336686:
+      case 25:
         return new IntegerSchemaType_BehaviorDescriptor();
-      case 1254441596:
+      case 4:
         return new BooleanSchemaType_BehaviorDescriptor();
-      case -1616607057:
+      case 5:
         return new BoundExpression_BehaviorDescriptor();
       default:
         return null;

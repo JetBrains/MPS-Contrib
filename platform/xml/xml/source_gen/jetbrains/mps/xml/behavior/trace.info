@@ -19,7 +19,7 @@
   <unitInfo fileName="XmlRoot_Behavior.java" startLine="12" startPosition="0" endLine="27" endPosition="0" unitName="jetbrains.mps.xml.behavior.XmlRoot_Behavior" />
   <unitInfo fileName="ContentList_Behavior.java" startLine="13" startPosition="0" endLine="46" endPosition="0" unitName="jetbrains.mps.xml.behavior.ContentList_Behavior" />
   <unitInfo fileName="Content_Behavior.java" startLine="13" startPosition="0" endLine="46" endPosition="0" unitName="jetbrains.mps.xml.behavior.Content_Behavior" />
-  <unitInfo fileName="BehaviorAspectDescriptor.java" startLine="8" startPosition="0" endLine="48" endPosition="0" unitName="jetbrains.mps.xml.behavior.BehaviorAspectDescriptor" />
+  <unitInfo fileName="BehaviorAspectDescriptor.java" startLine="9" startPosition="0" endLine="51" endPosition="0" unitName="jetbrains.mps.xml.behavior.BehaviorAspectDescriptor" />
   <root nodeId="1213877224265">
     <nodeInfo nodeId="1213877224269" fileName="Content_Behavior.java" startLine="19" startPosition="71" endLine="20" endPosition="55" conceptFqName="jetbrains.mps.baseLanguage.structure.LocalVariableDeclarationStatement" />
     <nodeInfo nodeId="1213877224288" fileName="Content_Behavior.java" startLine="22" startPosition="141" endLine="23" endPosition="20" conceptFqName="jetbrains.mps.baseLanguage.structure.ReturnStatement" />

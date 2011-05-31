@@ -11,7 +11,7 @@
   <unitInfo fileName="Attribute_BehaviorDescriptor.java" startLine="10" startPosition="0" endLine="18" endPosition="0" unitName="jetbrains.mps.xml.deprecated.behavior.Attribute_BehaviorDescriptor" />
   <unitInfo fileName="PublicId_Behavior.java" startLine="9" startPosition="0" endLine="18" endPosition="0" unitName="jetbrains.mps.xml.deprecated.behavior.PublicId_Behavior" />
   <unitInfo fileName="ExternalId_Behavior.java" startLine="12" startPosition="0" endLine="27" endPosition="0" unitName="jetbrains.mps.xml.deprecated.behavior.ExternalId_Behavior" />
-  <unitInfo fileName="BehaviorAspectDescriptor.java" startLine="8" startPosition="0" endLine="37" endPosition="0" unitName="jetbrains.mps.xml.deprecated.behavior.BehaviorAspectDescriptor" />
+  <unitInfo fileName="BehaviorAspectDescriptor.java" startLine="9" startPosition="0" endLine="40" endPosition="0" unitName="jetbrains.mps.xml.deprecated.behavior.BehaviorAspectDescriptor" />
   <root nodeId="1234406616484">
     <scopeInfo nodeId="1234406616486" fileName="ExternalId_Behavior.java" startLine="15" startPosition="43" endLine="15" endPosition="43" />
   </root>

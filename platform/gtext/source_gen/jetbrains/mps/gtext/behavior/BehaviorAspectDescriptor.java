@@ -4,50 +4,53 @@ package jetbrains.mps.gtext.behavior;
 
 import jetbrains.mps.smodel.structure.DescriptorProvider;
 import jetbrains.mps.smodel.structure.BehaviorDescriptor;
+import java.util.Arrays;
 
 public class BehaviorAspectDescriptor extends DescriptorProvider<BehaviorDescriptor> {
+  private static String[] stringSwitchCases_846f5o_a0a0a = new String[]{"jetbrains.mps.gtext.structure.BuilderContextRef", "jetbrains.mps.gtext.structure.GCompositeItem", "jetbrains.mps.gtext.structure.GConditionalLine", "jetbrains.mps.gtext.structure.GContentBlock", "jetbrains.mps.gtext.structure.GContentPlaceholder", "jetbrains.mps.gtext.structure.GDocument", "jetbrains.mps.gtext.structure.GExpressionItem", "jetbrains.mps.gtext.structure.GIndent", "jetbrains.mps.gtext.structure.GIndentBlock", "jetbrains.mps.gtext.structure.GItem", "jetbrains.mps.gtext.structure.GItemList", "jetbrains.mps.gtext.structure.GItemStatement", "jetbrains.mps.gtext.structure.GLine", "jetbrains.mps.gtext.structure.GNewLine", "jetbrains.mps.gtext.structure.GSeparatorItemList", "jetbrains.mps.gtext.structure.GStatementItem", "jetbrains.mps.gtext.structure.GText", "jetbrains.mps.gtext.structure.GTextConcept"};
+
   public BehaviorAspectDescriptor() {
   }
 
   public BehaviorDescriptor getDescriptor(String fqName) {
-    switch ((fqName).hashCode()) {
-      case 1210042857:
+    switch (Arrays.binarySearch(stringSwitchCases_846f5o_a0a0a, fqName)) {
+      case 16:
         return new GText_BehaviorDescriptor();
-      case 1209728975:
+      case 9:
         // interface or abstract concept behavior jetbrains.mps.gtext.structure.GItem 
         return null;
-      case -1072913139:
+      case 10:
         return new GItemList_BehaviorDescriptor();
-      case -305827976:
+      case 13:
         return new GNewLine_BehaviorDescriptor();
-      case -1392167320:
+      case 7:
         return new GIndent_BehaviorDescriptor();
-      case -1994825979:
+      case 8:
         return new GIndentBlock_BehaviorDescriptor();
-      case -547380640:
+      case 11:
         return new GItemStatement_BehaviorDescriptor();
-      case 774586247:
+      case 6:
         return new GExpressionItem_BehaviorDescriptor();
-      case -357312538:
+      case 15:
         return new GStatementItem_BehaviorDescriptor();
-      case 1209808048:
+      case 12:
         return new GLine_BehaviorDescriptor();
-      case 1295613278:
+      case 2:
         return new GConditionalLine_BehaviorDescriptor();
-      case 1314943636:
+      case 0:
         return new BuilderContextRef_BehaviorDescriptor();
-      case -1388472361:
+      case 5:
         return new GDocument_BehaviorDescriptor();
-      case 454426687:
+      case 17:
         // interface or abstract concept behavior jetbrains.mps.gtext.structure.GTextConcept 
         return null;
-      case -904823526:
+      case 14:
         return new GSeparatorItemList_BehaviorDescriptor();
-      case 446574326:
+      case 4:
         return new GContentPlaceholder_BehaviorDescriptor();
-      case -1436578736:
+      case 3:
         return new GContentBlock_BehaviorDescriptor();
-      case 479450366:
+      case 1:
         // interface or abstract concept behavior jetbrains.mps.gtext.structure.GCompositeItem 
         return null;
       default:

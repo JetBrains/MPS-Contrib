@@ -4,29 +4,32 @@ package jetbrains.mps.xmlUnitTest.behavior;
 
 import jetbrains.mps.smodel.structure.DescriptorProvider;
 import jetbrains.mps.smodel.structure.BehaviorDescriptor;
+import java.util.Arrays;
 
 public class BehaviorAspectDescriptor extends DescriptorProvider<BehaviorDescriptor> {
+  private static String[] stringSwitchCases_846f5o_a0a0a = new String[]{"jetbrains.mps.xmlUnitTest.structure.AssertXMLEquals", "jetbrains.mps.xmlUnitTest.structure.Attribute", "jetbrains.mps.xmlUnitTest.structure.Document", "jetbrains.mps.xmlUnitTest.structure.Element", "jetbrains.mps.xmlUnitTest.structure.ElementPart", "jetbrains.mps.xmlUnitTest.structure.Text", "jetbrains.mps.xmlUnitTest.structure.XMLLiteral", "jetbrains.mps.xmlUnitTest.structure.XMLStringLiteral"};
+
   public BehaviorAspectDescriptor() {
   }
 
   public BehaviorDescriptor getDescriptor(String fqName) {
-    switch ((fqName).hashCode()) {
-      case -200120374:
+    switch (Arrays.binarySearch(stringSwitchCases_846f5o_a0a0a, fqName)) {
+      case 6:
         return new XMLLiteral_BehaviorDescriptor();
-      case 987011641:
+      case 7:
         return new XMLStringLiteral_BehaviorDescriptor();
-      case -1953381858:
+      case 0:
         return new AssertXMLEquals_BehaviorDescriptor();
-      case 1617266986:
+      case 1:
         return new Attribute_BehaviorDescriptor();
-      case -194910003:
+      case 2:
         return new Document_BehaviorDescriptor();
-      case -1142732534:
+      case 3:
         return new Element_BehaviorDescriptor();
-      case 399084573:
+      case 4:
         // interface or abstract concept behavior jetbrains.mps.xmlUnitTest.structure.ElementPart 
         return null;
-      case -1311832609:
+      case 5:
         return new Text_BehaviorDescriptor();
       default:
         return null;

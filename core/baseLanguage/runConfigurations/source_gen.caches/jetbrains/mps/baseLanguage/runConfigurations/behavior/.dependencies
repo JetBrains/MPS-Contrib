@@ -2,6 +2,7 @@
 <dependenciesRoot>
   <dependency className="jetbrains.mps.baseLanguage.runConfigurations.behavior.BehaviorAspectDescriptor" file="BehaviorAspectDescriptor.java">
     <classNode dependClassName="java.lang.String" />
+    <classNode dependClassName="java.util.Arrays" />
     <classNode dependClassName="jetbrains.mps.baseLanguage.runConfigurations.behavior.ComponentInsideOfChangeListenerAnnotation_BehaviorDescriptor" />
     <classNode dependClassName="jetbrains.mps.baseLanguage.runConfigurations.behavior.IsApplicableBlock_BehaviorDescriptor" />
     <classNode dependClassName="jetbrains.mps.baseLanguage.runConfigurations.behavior.JavaCheckBlock_BehaviorDescriptor" />

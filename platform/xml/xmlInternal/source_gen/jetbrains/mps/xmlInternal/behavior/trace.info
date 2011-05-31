@@ -15,7 +15,7 @@
   <unitInfo fileName="StatementElement_BehaviorDescriptor.java" startLine="7" startPosition="0" endLine="11" endPosition="0" unitName="jetbrains.mps.xmlInternal.behavior.StatementElement_BehaviorDescriptor" />
   <unitInfo fileName="XmlFile_Behavior.java" startLine="9" startPosition="0" endLine="17" endPosition="0" unitName="jetbrains.mps.xmlInternal.behavior.XmlFile_Behavior" />
   <unitInfo fileName="XmlFile_BehaviorDescriptor.java" startLine="12" startPosition="0" endLine="24" endPosition="0" unitName="jetbrains.mps.xmlInternal.behavior.XmlFile_BehaviorDescriptor" />
-  <unitInfo fileName="BehaviorAspectDescriptor.java" startLine="8" startPosition="0" endLine="48" endPosition="0" unitName="jetbrains.mps.xmlInternal.behavior.BehaviorAspectDescriptor" />
+  <unitInfo fileName="BehaviorAspectDescriptor.java" startLine="9" startPosition="0" endLine="51" endPosition="0" unitName="jetbrains.mps.xmlInternal.behavior.BehaviorAspectDescriptor" />
   <root nodeId="1213877487338">
     <nodeInfo nodeId="1213877487341" fileName="XmlFile_Behavior.java" startLine="13" startPosition="85" endLine="14" endPosition="64" conceptFqName="jetbrains.mps.baseLanguage.structure.ReturnStatement" />
     <scopeInfo nodeId="1213877487349" fileName="XmlFile_Behavior.java" startLine="10" startPosition="43" endLine="10" endPosition="43" />

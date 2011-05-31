@@ -4,76 +4,79 @@ package jetbrains.mps.xmlQuery.behavior;
 
 import jetbrains.mps.smodel.structure.DescriptorProvider;
 import jetbrains.mps.smodel.structure.BehaviorDescriptor;
+import java.util.Arrays;
 
 public class BehaviorAspectDescriptor extends DescriptorProvider<BehaviorDescriptor> {
+  private static String[] stringSwitchCases_846f5o_a0a0a = new String[]{"jetbrains.mps.xmlQuery.structure.AccessArbitraryAttributeOperation", "jetbrains.mps.xmlQuery.structure.AccessArbitraryChildrenOperation", "jetbrains.mps.xmlQuery.structure.AccessAttributeOperation", "jetbrains.mps.xmlQuery.structure.AccessChildrenOperation", "jetbrains.mps.xmlQuery.structure.AccessTextOperation", "jetbrains.mps.xmlQuery.structure.AttributeBuilder", "jetbrains.mps.xmlQuery.structure.ElementBuilder", "jetbrains.mps.xmlQuery.structure.TextBuilder", "jetbrains.mps.xmlQuery.structure.XMLElementCreator", "jetbrains.mps.xmlQuery.structure.XMLElementOperation", "jetbrains.mps.xmlQuery.structure.XMLElementType", "jetbrains.mps.xmlQuery.structure.XMLSAXAttributeHandler", "jetbrains.mps.xmlQuery.structure.XMLSAXAttributeHandler_value", "jetbrains.mps.xmlQuery.structure.XMLSAXAttributeReference", "jetbrains.mps.xmlQuery.structure.XMLSAXAttributeRule", "jetbrains.mps.xmlQuery.structure.XMLSAXBreakStatement", "jetbrains.mps.xmlQuery.structure.XMLSAXChildHandler", "jetbrains.mps.xmlQuery.structure.XMLSAXChildHandler_childObject", "jetbrains.mps.xmlQuery.structure.XMLSAXChildRule", "jetbrains.mps.xmlQuery.structure.XMLSAXFieldDeclaration", "jetbrains.mps.xmlQuery.structure.XMLSAXFieldReference", "jetbrains.mps.xmlQuery.structure.XMLSAXHandlerFunction", "jetbrains.mps.xmlQuery.structure.XMLSAXHandler_resultObject", "jetbrains.mps.xmlQuery.structure.XMLSAXLocatorExpression", "jetbrains.mps.xmlQuery.structure.XMLSAXNodeCreator", "jetbrains.mps.xmlQuery.structure.XMLSAXNodeRule", "jetbrains.mps.xmlQuery.structure.XMLSAXNodeValidator", "jetbrains.mps.xmlQuery.structure.XMLSAXParser", "jetbrains.mps.xmlQuery.structure.XMLSAXTextHandler", "jetbrains.mps.xmlQuery.structure.XMLSAXTextHandler_value", "jetbrains.mps.xmlQuery.structure.XMLSAXTextRule"};
+
   public BehaviorAspectDescriptor() {
   }
 
   public BehaviorDescriptor getDescriptor(String fqName) {
-    switch ((fqName).hashCode()) {
-      case -1560244190:
+    switch (Arrays.binarySearch(stringSwitchCases_846f5o_a0a0a, fqName)) {
+      case 3:
         return new AccessChildrenOperation_BehaviorDescriptor();
-      case 491215617:
+      case 10:
         return new XMLElementType_BehaviorDescriptor();
-      case -1419424256:
+      case 9:
         // interface or abstract concept behavior jetbrains.mps.xmlQuery.structure.XMLElementOperation 
         return null;
-      case 106762097:
+      case 2:
         return new AccessAttributeOperation_BehaviorDescriptor();
-      case -1950944868:
+      case 1:
         return new AccessArbitraryChildrenOperation_BehaviorDescriptor();
-      case 879942967:
+      case 0:
         return new AccessArbitraryAttributeOperation_BehaviorDescriptor();
-      case -597497420:
+      case 4:
         return new AccessTextOperation_BehaviorDescriptor();
-      case -1562359035:
+      case 8:
         return new XMLElementCreator_BehaviorDescriptor();
-      case 1156844577:
+      case 5:
         return new AttributeBuilder_BehaviorDescriptor();
-      case 1288813996:
+      case 7:
         return new TextBuilder_BehaviorDescriptor();
-      case 1866052673:
+      case 6:
         return new ElementBuilder_BehaviorDescriptor();
-      case -870937068:
+      case 27:
         return new XMLSAXParser_BehaviorDescriptor();
-      case 483299539:
+      case 25:
         return new XMLSAXNodeRule_BehaviorDescriptor();
-      case 763856931:
+      case 14:
         return new XMLSAXAttributeRule_BehaviorDescriptor();
-      case 469336259:
+      case 11:
         return new XMLSAXAttributeHandler_BehaviorDescriptor();
-      case -1895721227:
+      case 12:
         return new XMLSAXAttributeHandler_value_BehaviorDescriptor();
-      case -1643406722:
+      case 30:
         return new XMLSAXTextRule_BehaviorDescriptor();
-      case -1253208952:
+      case 28:
         return new XMLSAXTextHandler_BehaviorDescriptor();
-      case 1930230522:
+      case 29:
         return new XMLSAXTextHandler_value_BehaviorDescriptor();
-      case 1241470701:
+      case 21:
         // interface or abstract concept behavior jetbrains.mps.xmlQuery.structure.XMLSAXHandlerFunction 
         return null;
-      case 1408108998:
+      case 22:
         return new XMLSAXHandler_resultObject_BehaviorDescriptor();
-      case 1548320803:
+      case 18:
         return new XMLSAXChildRule_BehaviorDescriptor();
-      case 1515489475:
+      case 16:
         return new XMLSAXChildHandler_BehaviorDescriptor();
-      case 1278155263:
+      case 17:
         return new XMLSAXChildHandler_childObject_BehaviorDescriptor();
-      case 726180597:
+      case 24:
         return new XMLSAXNodeCreator_BehaviorDescriptor();
-      case 366387163:
+      case 26:
         return new XMLSAXNodeValidator_BehaviorDescriptor();
-      case -928715132:
+      case 13:
         return new XMLSAXAttributeReference_BehaviorDescriptor();
-      case 1004740565:
+      case 19:
         return new XMLSAXFieldDeclaration_BehaviorDescriptor();
-      case 1370735718:
+      case 20:
         return new XMLSAXFieldReference_BehaviorDescriptor();
-      case 937581241:
+      case 23:
         return new XMLSAXLocatorExpression_BehaviorDescriptor();
-      case 803351589:
+      case 15:
         return new XMLSAXBreakStatement_BehaviorDescriptor();
       default:
         return null;

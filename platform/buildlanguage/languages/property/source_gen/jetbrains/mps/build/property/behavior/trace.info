@@ -2,7 +2,7 @@
 <debugInfo>
   <unitInfo fileName="PropertyNode_Behavior.java" startLine="11" startPosition="0" endLine="23" endPosition="0" unitName="jetbrains.mps.build.property.behavior.PropertyNode_Behavior" />
   <unitInfo fileName="PropertyNode_BehaviorDescriptor.java" startLine="12" startPosition="0" endLine="24" endPosition="0" unitName="jetbrains.mps.build.property.behavior.PropertyNode_BehaviorDescriptor" />
-  <unitInfo fileName="BehaviorAspectDescriptor.java" startLine="8" startPosition="0" endLine="21" endPosition="0" unitName="jetbrains.mps.build.property.behavior.BehaviorAspectDescriptor" />
+  <unitInfo fileName="BehaviorAspectDescriptor.java" startLine="9" startPosition="0" endLine="24" endPosition="0" unitName="jetbrains.mps.build.property.behavior.BehaviorAspectDescriptor" />
   <root nodeId="1213877341756">
     <nodeInfo nodeId="1213877341760" fileName="PropertyNode_Behavior.java" startLine="15" startPosition="71" endLine="16" endPosition="121" conceptFqName="jetbrains.mps.baseLanguage.structure.ReturnStatement" />
     <nodeInfo nodeId="1213877341770" fileName="PropertyNode_Behavior.java" startLine="19" startPosition="81" endLine="20" endPosition="69" conceptFqName="jetbrains.mps.baseLanguage.structure.ReturnStatement" />

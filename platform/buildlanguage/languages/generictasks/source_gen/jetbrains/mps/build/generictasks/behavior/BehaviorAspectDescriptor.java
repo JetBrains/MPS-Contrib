@@ -4,30 +4,33 @@ package jetbrains.mps.build.generictasks.behavior;
 
 import jetbrains.mps.smodel.structure.DescriptorProvider;
 import jetbrains.mps.smodel.structure.BehaviorDescriptor;
+import java.util.Arrays;
 
 public class BehaviorAspectDescriptor extends DescriptorProvider<BehaviorDescriptor> {
+  private static String[] stringSwitchCases_846f5o_a0a0a = new String[]{"jetbrains.mps.build.generictasks.structure.Attribute", "jetbrains.mps.build.generictasks.structure.AttributeDeclaration", "jetbrains.mps.build.generictasks.structure.BuiltInTaskDeclaration", "jetbrains.mps.build.generictasks.structure.ITaskDeclaration", "jetbrains.mps.build.generictasks.structure.NestedDeclaration", "jetbrains.mps.build.generictasks.structure.PathReference", "jetbrains.mps.build.generictasks.structure.TaskCall", "jetbrains.mps.build.generictasks.structure.TaskInterfaceDeclaration", "jetbrains.mps.build.generictasks.structure.TaskReference"};
+
   public BehaviorAspectDescriptor() {
   }
 
   public BehaviorDescriptor getDescriptor(String fqName) {
-    switch ((fqName).hashCode()) {
-      case -1625726912:
+    switch (Arrays.binarySearch(stringSwitchCases_846f5o_a0a0a, fqName)) {
+      case 0:
         return new Attribute_BehaviorDescriptor();
-      case -1674242790:
+      case 1:
         return new AttributeDeclaration_BehaviorDescriptor();
-      case -1156260001:
+      case 6:
         return new TaskCall_BehaviorDescriptor();
-      case -813062782:
+      case 7:
         return new TaskInterfaceDeclaration_BehaviorDescriptor();
-      case -869603122:
+      case 2:
         return new BuiltInTaskDeclaration_BehaviorDescriptor();
-      case 2127895975:
+      case 4:
         return new NestedDeclaration_BehaviorDescriptor();
-      case 1188894794:
+      case 5:
         return new PathReference_BehaviorDescriptor();
-      case 1222693610:
+      case 8:
         return new TaskReference_BehaviorDescriptor();
-      case 1912788200:
+      case 3:
         // interface or abstract concept behavior jetbrains.mps.build.generictasks.structure.ITaskDeclaration 
         return null;
       default:

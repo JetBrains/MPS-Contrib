@@ -4,30 +4,33 @@ package jetbrains.mps.xml.deprecated.behavior;
 
 import jetbrains.mps.smodel.structure.DescriptorProvider;
 import jetbrains.mps.smodel.structure.BehaviorDescriptor;
+import java.util.Arrays;
 
 public class BehaviorAspectDescriptor extends DescriptorProvider<BehaviorDescriptor> {
+  private static String[] stringSwitchCases_846f5o_a0a0a = new String[]{"jetbrains.mps.xml.deprecated.structure.Attribute", "jetbrains.mps.xml.deprecated.structure.Document", "jetbrains.mps.xml.deprecated.structure.DocumentTypeDeclaration", "jetbrains.mps.xml.deprecated.structure.Element", "jetbrains.mps.xml.deprecated.structure.ElementPart", "jetbrains.mps.xml.deprecated.structure.ExternalId", "jetbrains.mps.xml.deprecated.structure.PublicId", "jetbrains.mps.xml.deprecated.structure.Text"};
+
   public BehaviorAspectDescriptor() {
   }
 
   public BehaviorDescriptor getDescriptor(String fqName) {
-    switch ((fqName).hashCode()) {
-      case 842980371:
+    switch (Arrays.binarySearch(stringSwitchCases_846f5o_a0a0a, fqName)) {
+      case 0:
         return new Attribute_BehaviorDescriptor();
-      case -661010234:
+      case 4:
         // interface or abstract concept behavior jetbrains.mps.xml.deprecated.structure.ElementPart 
         return null;
-      case 1855341107:
+      case 3:
         return new Element_BehaviorDescriptor();
-      case 107332950:
+      case 7:
         return new Text_BehaviorDescriptor();
-      case -1743907644:
+      case 1:
         return new Document_BehaviorDescriptor();
-      case 770877564:
+      case 2:
         return new DocumentTypeDeclaration_BehaviorDescriptor();
-      case -1742822481:
+      case 5:
         // interface or abstract concept behavior jetbrains.mps.xml.deprecated.structure.ExternalId 
         return null;
-      case -1312028403:
+      case 6:
         return new PublicId_BehaviorDescriptor();
       default:
         return null;

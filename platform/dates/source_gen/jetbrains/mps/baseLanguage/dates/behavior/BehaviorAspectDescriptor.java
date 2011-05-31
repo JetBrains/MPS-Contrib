@@ -4,166 +4,169 @@ package jetbrains.mps.baseLanguage.dates.behavior;
 
 import jetbrains.mps.smodel.structure.DescriptorProvider;
 import jetbrains.mps.smodel.structure.BehaviorDescriptor;
+import java.util.Arrays;
 
 public class BehaviorAspectDescriptor extends DescriptorProvider<BehaviorDescriptor> {
+  private static String[] stringSwitchCases_846f5o_a0a0a = new String[]{"jetbrains.mps.baseLanguage.dates.structure.AbsDateTimeMinusOperation", "jetbrains.mps.baseLanguage.dates.structure.AllTimeZonesConstant", "jetbrains.mps.baseLanguage.dates.structure.CeilingDateTimeOperation", "jetbrains.mps.baseLanguage.dates.structure.ConditionalFormatToken", "jetbrains.mps.baseLanguage.dates.structure.ConstantTimeZoneRef", "jetbrains.mps.baseLanguage.dates.structure.ConvertToDateTimeOperation", "jetbrains.mps.baseLanguage.dates.structure.ConvertToDurationOperation", "jetbrains.mps.baseLanguage.dates.structure.ConvertToJavaCalendarOperation", "jetbrains.mps.baseLanguage.dates.structure.ConvertToJavaDateOperation", "jetbrains.mps.baseLanguage.dates.structure.ConvertToJodaDateTimeOperation", "jetbrains.mps.baseLanguage.dates.structure.DateFormat", "jetbrains.mps.baseLanguage.dates.structure.DateFormatsTable", "jetbrains.mps.baseLanguage.dates.structure.DateTimeCompareOperation", "jetbrains.mps.baseLanguage.dates.structure.DateTimeMinusOperation", "jetbrains.mps.baseLanguage.dates.structure.DateTimeMinusPeriodOperation", "jetbrains.mps.baseLanguage.dates.structure.DateTimeOffsetFormatToken", "jetbrains.mps.baseLanguage.dates.structure.DateTimeOperation", "jetbrains.mps.baseLanguage.dates.structure.DateTimePlusPeriodOperation", "jetbrains.mps.baseLanguage.dates.structure.DateTimePropertyFormatToken", "jetbrains.mps.baseLanguage.dates.structure.DateTimePropetyReferenceOperation", "jetbrains.mps.baseLanguage.dates.structure.DateTimeType", "jetbrains.mps.baseLanguage.dates.structure.DateTimeWithPropertyOperation", "jetbrains.mps.baseLanguage.dates.structure.DateTimeWithTZType", "jetbrains.mps.baseLanguage.dates.structure.DateTimeZoneCreator", "jetbrains.mps.baseLanguage.dates.structure.DateTimeZoneType", "jetbrains.mps.baseLanguage.dates.structure.DefaultTimeZoneConstant", "jetbrains.mps.baseLanguage.dates.structure.DurationType", "jetbrains.mps.baseLanguage.dates.structure.DurationTypeReference", "jetbrains.mps.baseLanguage.dates.structure.FixedLocaleFormatToken", "jetbrains.mps.baseLanguage.dates.structure.FloorDateTimeOperation", "jetbrains.mps.baseLanguage.dates.structure.FormatDateTimeExpression", "jetbrains.mps.baseLanguage.dates.structure.FormatExpression", "jetbrains.mps.baseLanguage.dates.structure.FormatPeriodExpression", "jetbrains.mps.baseLanguage.dates.structure.FormatToken", "jetbrains.mps.baseLanguage.dates.structure.InTimezoneExpression", "jetbrains.mps.baseLanguage.dates.structure.InlineFormatDateTimeExpression", "jetbrains.mps.baseLanguage.dates.structure.InlineFormatExpression", "jetbrains.mps.baseLanguage.dates.structure.LiteralFormatToken", "jetbrains.mps.baseLanguage.dates.structure.MathDateTimeOperation", "jetbrains.mps.baseLanguage.dates.structure.MaxDateTimeOperation", "jetbrains.mps.baseLanguage.dates.structure.MinDateTimeOperation", "jetbrains.mps.baseLanguage.dates.structure.NeverExpression", "jetbrains.mps.baseLanguage.dates.structure.NotNullOperation", "jetbrains.mps.baseLanguage.dates.structure.NowExpression", "jetbrains.mps.baseLanguage.dates.structure.NullOperation", "jetbrains.mps.baseLanguage.dates.structure.ParseDateTimeExpression", "jetbrains.mps.baseLanguage.dates.structure.ParseExpression", "jetbrains.mps.baseLanguage.dates.structure.PeriodConstant", "jetbrains.mps.baseLanguage.dates.structure.PeriodFormat", "jetbrains.mps.baseLanguage.dates.structure.PeriodFormatToken", "jetbrains.mps.baseLanguage.dates.structure.PeriodFormatsTable", "jetbrains.mps.baseLanguage.dates.structure.PeriodInPropertyExpression", "jetbrains.mps.baseLanguage.dates.structure.PeriodInPropertyOperation", "jetbrains.mps.baseLanguage.dates.structure.PeriodLiteralFormatToken", "jetbrains.mps.baseLanguage.dates.structure.PeriodPropertyFormatToken", "jetbrains.mps.baseLanguage.dates.structure.PeriodReferenceFormatToken", "jetbrains.mps.baseLanguage.dates.structure.PeriodSeparatorFormatToken", "jetbrains.mps.baseLanguage.dates.structure.PeriodType", "jetbrains.mps.baseLanguage.dates.structure.ReferenceFormatToken", "jetbrains.mps.baseLanguage.dates.structure.RoundDateTimeOperation", "jetbrains.mps.baseLanguage.dates.structure.ScheduleLiteral", "jetbrains.mps.baseLanguage.dates.structure.TimeConstant", "jetbrains.mps.baseLanguage.dates.structure.TimeZoneConstant", "jetbrains.mps.baseLanguage.dates.structure.TimeZoneFromString", "jetbrains.mps.baseLanguage.dates.structure.TimeZoneIDExpression", "jetbrains.mps.baseLanguage.dates.structure.TimeZoneIdOperation", "jetbrains.mps.baseLanguage.dates.structure.TimeZoneNameOperation", "jetbrains.mps.baseLanguage.dates.structure.TimeZoneOffsetExpression", "jetbrains.mps.baseLanguage.dates.structure.TokenCondition", "jetbrains.mps.baseLanguage.dates.structure.TokenCondition_datetimeToFormat", "jetbrains.mps.baseLanguage.dates.structure.TokenConditionalPair", "jetbrains.mps.baseLanguage.dates.structure.UTCTimeZoneConstant", "jetbrains.mps.baseLanguage.dates.structure.UnaryDateTimeOperation", "jetbrains.mps.baseLanguage.dates.structure.WithPropertyCompareExpression"};
+
   public BehaviorAspectDescriptor() {
   }
 
   public BehaviorDescriptor getDescriptor(String fqName) {
-    switch ((fqName).hashCode()) {
-      case -1493783853:
+    switch (Arrays.binarySearch(stringSwitchCases_846f5o_a0a0a, fqName)) {
+      case 11:
         return new DateFormatsTable_BehaviorDescriptor();
-      case -2059388488:
+      case 10:
         return new DateFormat_BehaviorDescriptor();
-      case -346684026:
+      case 37:
         return new LiteralFormatToken_BehaviorDescriptor();
-      case 1514136111:
+      case 33:
         // interface or abstract concept behavior jetbrains.mps.baseLanguage.dates.structure.FormatToken 
         return null;
-      case -1057940446:
+      case 31:
         return new FormatExpression_BehaviorDescriptor();
-      case 609442255:
+      case 3:
         return new ConditionalFormatToken_BehaviorDescriptor();
-      case -775725910:
+      case 58:
         return new ReferenceFormatToken_BehaviorDescriptor();
-      case 1870732282:
+      case 70:
         return new TokenConditionalPair_BehaviorDescriptor();
-      case -806818629:
+      case 43:
         return new NowExpression_BehaviorDescriptor();
-      case -1474827755:
+      case 68:
         return new TokenCondition_BehaviorDescriptor();
-      case 1070965719:
+      case 69:
         return new TokenCondition_datetimeToFormat_BehaviorDescriptor();
-      case -1643840216:
+      case 20:
         return new DateTimeType_BehaviorDescriptor();
-      case -1445258608:
+      case 72:
         // interface or abstract concept behavior jetbrains.mps.baseLanguage.dates.structure.UnaryDateTimeOperation 
         return null;
-      case 173957872:
+      case 12:
         return new DateTimeCompareOperation_BehaviorDescriptor();
-      case -454652911:
+      case 59:
         return new RoundDateTimeOperation_BehaviorDescriptor();
-      case -1867471533:
+      case 29:
         return new FloorDateTimeOperation_BehaviorDescriptor();
-      case 722484226:
+      case 2:
         return new CeilingDateTimeOperation_BehaviorDescriptor();
-      case 2092152510:
+      case 21:
         return new DateTimeWithPropertyOperation_BehaviorDescriptor();
-      case -1830285042:
+      case 57:
         return new PeriodType_BehaviorDescriptor();
-      case -706978952:
+      case 47:
         return new PeriodConstant_BehaviorDescriptor();
-      case 2039229543:
+      case 28:
         return new FixedLocaleFormatToken_BehaviorDescriptor();
-      case -1025003649:
+      case 18:
         return new DateTimePropertyFormatToken_BehaviorDescriptor();
-      case -460587365:
+      case 36:
         return new InlineFormatExpression_BehaviorDescriptor();
-      case -1715662207:
+      case 15:
         return new DateTimeOffsetFormatToken_BehaviorDescriptor();
-      case 198561194:
+      case 27:
         return new DurationTypeReference_BehaviorDescriptor();
-      case -224762043:
+      case 13:
         return new DateTimeMinusOperation_BehaviorDescriptor();
-      case 1981860241:
+      case 0:
         return new AbsDateTimeMinusOperation_BehaviorDescriptor();
-      case 724913541:
+      case 60:
         return new ScheduleLiteral_BehaviorDescriptor();
-      case -1653365762:
+      case 17:
         return new DateTimePlusPeriodOperation_BehaviorDescriptor();
-      case -1668178940:
+      case 14:
         return new DateTimeMinusPeriodOperation_BehaviorDescriptor();
-      case 830686353:
+      case 5:
         return new ConvertToDateTimeOperation_BehaviorDescriptor();
-      case -865473479:
+      case 16:
         // interface or abstract concept behavior jetbrains.mps.baseLanguage.dates.structure.DateTimeOperation 
         return null;
-      case 2144627136:
+      case 42:
         return new NotNullOperation_BehaviorDescriptor();
-      case 1979342413:
+      case 44:
         return new NullOperation_BehaviorDescriptor();
-      case -405474356:
+      case 7:
         return new ConvertToJavaCalendarOperation_BehaviorDescriptor();
-      case 776042204:
+      case 8:
         return new ConvertToJavaDateOperation_BehaviorDescriptor();
-      case -1134546513:
+      case 9:
         return new ConvertToJodaDateTimeOperation_BehaviorDescriptor();
-      case -789035787:
+      case 19:
         return new DateTimePropetyReferenceOperation_BehaviorDescriptor();
-      case -859674191:
+      case 41:
         return new NeverExpression_BehaviorDescriptor();
-      case 1685010321:
+      case 38:
         // interface or abstract concept behavior jetbrains.mps.baseLanguage.dates.structure.MathDateTimeOperation 
         return null;
-      case -1517315955:
+      case 40:
         return new MinDateTimeOperation_BehaviorDescriptor();
-      case -437297221:
+      case 39:
         return new MaxDateTimeOperation_BehaviorDescriptor();
-      case 1182349300:
+      case 24:
         return new DateTimeZoneType_BehaviorDescriptor();
-      case 1288296720:
+      case 62:
         // interface or abstract concept behavior jetbrains.mps.baseLanguage.dates.structure.TimeZoneConstant 
         return null;
-      case -309230165:
+      case 25:
         return new DefaultTimeZoneConstant_BehaviorDescriptor();
-      case 900106638:
+      case 71:
         return new UTCTimeZoneConstant_BehaviorDescriptor();
-      case -2072025806:
+      case 23:
         return new DateTimeZoneCreator_BehaviorDescriptor();
-      case 1743824995:
+      case 4:
         return new ConstantTimeZoneRef_BehaviorDescriptor();
-      case -828717369:
+      case 63:
         return new TimeZoneFromString_BehaviorDescriptor();
-      case 1933603865:
+      case 52:
         return new PeriodInPropertyOperation_BehaviorDescriptor();
-      case -101867889:
+      case 73:
         return new WithPropertyCompareExpression_BehaviorDescriptor();
-      case 454030616:
+      case 46:
         return new ParseExpression_BehaviorDescriptor();
-      case 2029722975:
+      case 64:
         return new TimeZoneIDExpression_BehaviorDescriptor();
-      case -1809432329:
+      case 67:
         return new TimeZoneOffsetExpression_BehaviorDescriptor();
-      case 1120707220:
+      case 22:
         return new DateTimeWithTZType_BehaviorDescriptor();
-      case 179317289:
+      case 34:
         return new InTimezoneExpression_BehaviorDescriptor();
-      case -1963197677:
+      case 45:
         return new ParseDateTimeExpression_BehaviorDescriptor();
-      case -143493091:
+      case 30:
         return new FormatDateTimeExpression_BehaviorDescriptor();
-      case 1600377238:
+      case 35:
         return new InlineFormatDateTimeExpression_BehaviorDescriptor();
-      case 105674401:
+      case 26:
         return new DurationType_BehaviorDescriptor();
-      case 645516984:
+      case 6:
         return new ConvertToDurationOperation_BehaviorDescriptor();
-      case -1987458522:
+      case 51:
         return new PeriodInPropertyExpression_BehaviorDescriptor();
-      case 1815907652:
+      case 61:
         return new TimeConstant_BehaviorDescriptor();
-      case 1897144643:
+      case 32:
         return new FormatPeriodExpression_BehaviorDescriptor();
-      case 1622693067:
+      case 48:
         return new PeriodFormat_BehaviorDescriptor();
-      case 144161774:
+      case 49:
         // interface or abstract concept behavior jetbrains.mps.baseLanguage.dates.structure.PeriodFormatToken 
         return null;
-      case 489195239:
+      case 53:
         return new PeriodLiteralFormatToken_BehaviorDescriptor();
-      case 1036315558:
+      case 50:
         return new PeriodFormatsTable_BehaviorDescriptor();
-      case -2010541351:
+      case 54:
         return new PeriodPropertyFormatToken_BehaviorDescriptor();
-      case -654636597:
+      case 55:
         return new PeriodReferenceFormatToken_BehaviorDescriptor();
-      case -1583939087:
+      case 56:
         return new PeriodSeparatorFormatToken_BehaviorDescriptor();
-      case -900105824:
+      case 65:
         return new TimeZoneIdOperation_BehaviorDescriptor();
-      case 1629336880:
+      case 66:
         return new TimeZoneNameOperation_BehaviorDescriptor();
-      case 1213578832:
+      case 1:
         return new AllTimeZonesConstant_BehaviorDescriptor();
       default:
         return null;

@@ -4,40 +4,43 @@ package jetbrains.mps.xml.behavior;
 
 import jetbrains.mps.smodel.structure.DescriptorProvider;
 import jetbrains.mps.smodel.structure.BehaviorDescriptor;
+import java.util.Arrays;
 
 public class BehaviorAspectDescriptor extends DescriptorProvider<BehaviorDescriptor> {
+  private static String[] stringSwitchCases_846f5o_a0a0a = new String[]{"jetbrains.mps.xml.structure.Attribute", "jetbrains.mps.xml.structure.BaseAttribute", "jetbrains.mps.xml.structure.BaseElement", "jetbrains.mps.xml.structure.BaseText", "jetbrains.mps.xml.structure.CDATA", "jetbrains.mps.xml.structure.ComplexText", "jetbrains.mps.xml.structure.Content", "jetbrains.mps.xml.structure.ContentList", "jetbrains.mps.xml.structure.Element", "jetbrains.mps.xml.structure.EntityReference", "jetbrains.mps.xml.structure.Text", "jetbrains.mps.xml.structure.XmlRoot"};
+
   public BehaviorAspectDescriptor() {
   }
 
   public BehaviorDescriptor getDescriptor(String fqName) {
-    switch ((fqName).hashCode()) {
-      case -1742027599:
+    switch (Arrays.binarySearch(stringSwitchCases_846f5o_a0a0a, fqName)) {
+      case 6:
         // interface or abstract concept behavior jetbrains.mps.xml.structure.Content 
         return null;
-      case -900767755:
+      case 10:
         return new Text_BehaviorDescriptor();
-      case 1986918965:
+      case 5:
         return new ComplexText_BehaviorDescriptor();
-      case 677537382:
+      case 3:
         // interface or abstract concept behavior jetbrains.mps.xml.structure.BaseText 
         return null;
-      case 1191913711:
+      case 7:
         return new ContentList_BehaviorDescriptor();
-      case -984849149:
+      case 1:
         // interface or abstract concept behavior jetbrains.mps.xml.structure.BaseAttribute 
         return null;
-      case -61427916:
+      case 8:
         return new Element_BehaviorDescriptor();
-      case 1368919252:
+      case 0:
         return new Attribute_BehaviorDescriptor();
-      case 345637600:
+      case 9:
         return new EntityReference_BehaviorDescriptor();
-      case -2075048157:
+      case 2:
         // interface or abstract concept behavior jetbrains.mps.xml.structure.BaseElement 
         return null;
-      case 2124233925:
+      case 4:
         return new CDATA_BehaviorDescriptor();
-      case -344428079:
+      case 11:
         // interface or abstract concept behavior jetbrains.mps.xml.structure.XmlRoot 
         return null;
       default:

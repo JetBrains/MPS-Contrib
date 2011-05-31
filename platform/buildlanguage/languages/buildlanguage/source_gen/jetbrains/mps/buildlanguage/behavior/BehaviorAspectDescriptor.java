@@ -4,104 +4,107 @@ package jetbrains.mps.buildlanguage.behavior;
 
 import jetbrains.mps.smodel.structure.DescriptorProvider;
 import jetbrains.mps.smodel.structure.BehaviorDescriptor;
+import java.util.Arrays;
 
 public class BehaviorAspectDescriptor extends DescriptorProvider<BehaviorDescriptor> {
+  private static String[] stringSwitchCases_846f5o_a0a0a = new String[]{"jetbrains.mps.buildlanguage.structure.AbstractCall", "jetbrains.mps.buildlanguage.structure.AbstractImportProject", "jetbrains.mps.buildlanguage.structure.AbstractImportProperties", "jetbrains.mps.buildlanguage.structure.AbstractPropertyDeclaration", "jetbrains.mps.buildlanguage.structure.BinaryOperation", "jetbrains.mps.buildlanguage.structure.BooleanLiteral", "jetbrains.mps.buildlanguage.structure.BooleanType", "jetbrains.mps.buildlanguage.structure.CallReference", "jetbrains.mps.buildlanguage.structure.CallReferenceType", "jetbrains.mps.buildlanguage.structure.Enum", "jetbrains.mps.buildlanguage.structure.ExternalPropertyDeclaration", "jetbrains.mps.buildlanguage.structure.FileName", "jetbrains.mps.buildlanguage.structure.FileType", "jetbrains.mps.buildlanguage.structure.IAntScript", "jetbrains.mps.buildlanguage.structure.ICommented", "jetbrains.mps.buildlanguage.structure.IDeclaration", "jetbrains.mps.buildlanguage.structure.IProjectComponent", "jetbrains.mps.buildlanguage.structure.IPropertyHolder", "jetbrains.mps.buildlanguage.structure.ISource", "jetbrains.mps.buildlanguage.structure.ITargetReference", "jetbrains.mps.buildlanguage.structure.ImportProject", "jetbrains.mps.buildlanguage.structure.ImportPropertiesFromFile", "jetbrains.mps.buildlanguage.structure.ImportPropertyNode", "jetbrains.mps.buildlanguage.structure.IntLiteral", "jetbrains.mps.buildlanguage.structure.IntegerEnum", "jetbrains.mps.buildlanguage.structure.IntegerType", "jetbrains.mps.buildlanguage.structure.MultiLineString", "jetbrains.mps.buildlanguage.structure.PlusOperation", "jetbrains.mps.buildlanguage.structure.Project", "jetbrains.mps.buildlanguage.structure.PropertyDeclaration", "jetbrains.mps.buildlanguage.structure.PropertyReference", "jetbrains.mps.buildlanguage.structure.PropertyType", "jetbrains.mps.buildlanguage.structure.PropertyValueExpression", "jetbrains.mps.buildlanguage.structure.StringEnum", "jetbrains.mps.buildlanguage.structure.StringLiteral", "jetbrains.mps.buildlanguage.structure.StringType", "jetbrains.mps.buildlanguage.structure.TargetDeclaration", "jetbrains.mps.buildlanguage.structure.TargetReference", "jetbrains.mps.buildlanguage.structure.TargetReferencePropertyValueExpression"};
+
   public BehaviorAspectDescriptor() {
   }
 
   public BehaviorDescriptor getDescriptor(String fqName) {
-    switch ((fqName).hashCode()) {
-      case -1437741888:
+    switch (Arrays.binarySearch(stringSwitchCases_846f5o_a0a0a, fqName)) {
+      case 28:
         return new Project_BehaviorDescriptor();
-      case -1034589095:
+      case 0:
         // interface or abstract concept behavior jetbrains.mps.buildlanguage.structure.AbstractCall 
         return null;
-      case 2107741200:
+      case 36:
         return new TargetDeclaration_BehaviorDescriptor();
-      case -48040052:
+      case 29:
         return new PropertyDeclaration_BehaviorDescriptor();
-      case -1893478405:
+      case 32:
         // interface or abstract concept behavior jetbrains.mps.buildlanguage.structure.PropertyValueExpression 
         return null;
-      case 795347809:
+      case 37:
         return new TargetReference_BehaviorDescriptor();
-      case 1302601181:
+      case 30:
         return new PropertyReference_BehaviorDescriptor();
-      case 292862917:
+      case 34:
         return new StringLiteral_BehaviorDescriptor();
-      case 8744785:
+      case 17:
         // interface or abstract concept behavior jetbrains.mps.buildlanguage.structure.IPropertyHolder 
         return null;
-      case -937528352:
+      case 5:
         return new BooleanLiteral_BehaviorDescriptor();
-      case 1354428089:
+      case 23:
         return new IntLiteral_BehaviorDescriptor();
-      case -874024535:
+      case 6:
         return new BooleanType_BehaviorDescriptor();
-      case -1957708828:
+      case 35:
         return new StringType_BehaviorDescriptor();
-      case 1759841215:
+      case 25:
         return new IntegerType_BehaviorDescriptor();
-      case -1141023384:
+      case 31:
         // interface or abstract concept behavior jetbrains.mps.buildlanguage.structure.PropertyType 
         return null;
-      case -201407219:
+      case 4:
         // interface or abstract concept behavior jetbrains.mps.buildlanguage.structure.BinaryOperation 
         return null;
-      case 1029602644:
+      case 27:
         return new PlusOperation_BehaviorDescriptor();
-      case 1030147258:
+      case 9:
         // interface or abstract concept behavior jetbrains.mps.buildlanguage.structure.Enum 
         return null;
-      case -1958166101:
+      case 33:
         return new StringEnum_BehaviorDescriptor();
-      case 1759383942:
+      case 24:
         return new IntegerEnum_BehaviorDescriptor();
-      case -1357350560:
+      case 11:
         return new FileName_BehaviorDescriptor();
-      case -1357148657:
+      case 12:
         return new FileType_BehaviorDescriptor();
-      case -822964908:
+      case 16:
         // interface or abstract concept behavior jetbrains.mps.buildlanguage.structure.IProjectComponent 
         return null;
-      case -2133047883:
+      case 22:
         return new ImportPropertyNode_BehaviorDescriptor();
-      case 2128904270:
+      case 8:
         return new CallReferenceType_BehaviorDescriptor();
-      case 1204360948:
+      case 7:
         return new CallReference_BehaviorDescriptor();
-      case 52503435:
+      case 18:
         // interface or abstract concept behavior jetbrains.mps.buildlanguage.structure.ISource 
         return null;
-      case 965225934:
+      case 14:
         // interface or abstract concept behavior jetbrains.mps.buildlanguage.structure.ICommented 
         return null;
-      case -136836173:
+      case 38:
         return new TargetReferencePropertyValueExpression_BehaviorDescriptor();
-      case -1801755621:
+      case 20:
         return new ImportProject_BehaviorDescriptor();
-      case -94544411:
+      case 26:
         return new MultiLineString_BehaviorDescriptor();
-      case -1950915903:
+      case 10:
         return new ExternalPropertyDeclaration_BehaviorDescriptor();
-      case -2085874663:
+      case 1:
         // interface or abstract concept behavior jetbrains.mps.buildlanguage.structure.AbstractImportProject 
         return null;
-      case 977945418:
+      case 19:
         // interface or abstract concept behavior jetbrains.mps.buildlanguage.structure.ITargetReference 
         return null;
-      case 338764851:
+      case 2:
         // interface or abstract concept behavior jetbrains.mps.buildlanguage.structure.AbstractImportProperties 
         return null;
-      case 483736663:
+      case 21:
         return new ImportPropertiesFromFile_BehaviorDescriptor();
-      case -286180318:
+      case 13:
         // interface or abstract concept behavior jetbrains.mps.buildlanguage.structure.IAntScript 
         return null;
-      case 31612938:
+      case 15:
         // interface or abstract concept behavior jetbrains.mps.buildlanguage.structure.IDeclaration 
         return null;
-      case 1059270922:
+      case 3:
         // interface or abstract concept behavior jetbrains.mps.buildlanguage.structure.AbstractPropertyDeclaration 
         return null;
       default:
