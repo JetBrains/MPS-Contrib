@@ -1,18 +1,18 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <dependenciesRoot>
   <dependency className="internalTest.TestRandomGraph_Test" file="TestRandomGraph_Test.java">
-    <classNode dependClassName="jetbrains.mps.internal.collections.runtime.MapSequence" />
-    <classNode dependClassName="jetbrains.mps.graphLayout.graph.Graph" />
     <classNode dependClassName="java.lang.Exception" />
-    <classNode dependClassName="sampleGraphs.RandomGraphGenerator" />
     <classNode dependClassName="java.lang.IllegalArgumentException" />
-    <classNode dependClassName="java.util.Map" />
-    <classNode dependClassName="jetbrains.mps.graphLayout.util.NodeMap" />
     <classNode dependClassName="java.lang.Integer" />
-    <classNode dependClassName="jetbrains.mps.internal.collections.runtime.ListSequence" />
-    <classNode dependClassName="jetbrains.mps.graphLayout.graph.Node" />
+    <classNode dependClassName="java.util.Map" />
     <classNode dependClassName="jetbrains.mps.graphLayout.graph.Edge" />
+    <classNode dependClassName="jetbrains.mps.graphLayout.graph.Graph" />
+    <classNode dependClassName="jetbrains.mps.graphLayout.graph.Node" />
+    <classNode dependClassName="jetbrains.mps.graphLayout.util.NodeMap" />
+    <classNode dependClassName="jetbrains.mps.internal.collections.runtime.ListSequence" />
+    <classNode dependClassName="jetbrains.mps.internal.collections.runtime.MapSequence" />
     <classNode dependClassName="junit.framework.Assert" />
+    <classNode dependClassName="sampleGraphs.RandomGraphGenerator" />
     <classNode extendsClassName="junit.framework.TestCase" />
   </dependency>
 </dependenciesRoot>

@@ -6,13 +6,13 @@
   <unitInfo fileName="WeightedTopologicalNumbering_Test.java" startLine="18" startPosition="0" endLine="32" endPosition="0" unitName="graphTest.WeightedTopologicalNumbering_Test" />
   <unitInfo fileName="STNumbering_Test.java" startLine="13" startPosition="0" endLine="35" endPosition="0" unitName="graphTest.STNumbering_Test" />
   <unitInfo fileName="TopologicalNumbering_Test.java" startLine="16" startPosition="0" endLine="41" endPosition="0" unitName="graphTest.TopologicalNumbering_Test" />
-  <unitInfo fileName="MinCostMaxFlowWithPotentials_Test.java" startLine="18" startPosition="0" endLine="49" endPosition="0" unitName="graphTest.MinCostMaxFlowWithPotentials_Test" />
-  <unitInfo fileName="BiconnectComponent_Test.java" startLine="12" startPosition="0" endLine="53" endPosition="0" unitName="graphTest.BiconnectComponent_Test" />
+  <unitInfo fileName="MinCostMaxFlowWithPotentials_Test.java" startLine="18" startPosition="0" endLine="45" endPosition="0" unitName="graphTest.MinCostMaxFlowWithPotentials_Test" />
+  <unitInfo fileName="GroupedGraphModificationSynchronizer_Test.java" startLine="23" startPosition="0" endLine="59" endPosition="0" unitName="graphTest.GroupedGraphModificationSynchronizer_Test" />
+  <unitInfo fileName="BiconnectComponent_Test.java" startLine="12" startPosition="0" endLine="52" endPosition="0" unitName="graphTest.BiconnectComponent_Test" />
   <unitInfo fileName="BiconnectAugmentation_Test.java" startLine="12" startPosition="0" endLine="55" endPosition="0" unitName="graphTest.BiconnectAugmentation_Test" />
-  <unitInfo fileName="GroupedGraphModificationSynchronizer_Test.java" startLine="23" startPosition="0" endLine="66" endPosition="0" unitName="graphTest.GroupedGraphModificationSynchronizer_Test" />
-  <unitInfo fileName="MinCostMaxFlow_Test.java" startLine="21" startPosition="0" endLine="87" endPosition="0" unitName="graphTest.MinCostMaxFlow_Test" />
+  <unitInfo fileName="MinCostMaxFlow_Test.java" startLine="21" startPosition="0" endLine="86" endPosition="0" unitName="graphTest.MinCostMaxFlow_Test" />
   <unitInfo fileName="Dijkstra_Test.java" startLine="19" startPosition="0" endLine="88" endPosition="0" unitName="graphTest.Dijkstra_Test" />
-  <unitInfo fileName="MinCirculation_Test.java" startLine="21" startPosition="0" endLine="98" endPosition="0" unitName="graphTest.MinCirculation_Test" />
+  <unitInfo fileName="MinCirculation_Test.java" startLine="21" startPosition="0" endLine="97" endPosition="0" unitName="graphTest.MinCirculation_Test" />
   <root nodeId="1654665216152489675">
     <nodeInfo nodeId="1654665216152489686" fileName="STNumbering_Test.java" startLine="14" startPosition="45" endLine="15" endPosition="51" conceptFqName="jetbrains.mps.baseLanguage.structure.LocalVariableDeclarationStatement" />
     <nodeInfo nodeId="1654665216152489695" fileName="STNumbering_Test.java" startLine="15" startPosition="51" endLine="16" endPosition="62" conceptFqName="jetbrains.mps.baseLanguage.structure.LocalVariableDeclarationStatement" />
@@ -109,29 +109,29 @@
     <scopeInfo nodeId="1953828525454983908" fileName="Dijkstra_Test.java" startLine="82" startPosition="51" endLine="83" endPosition="55" />
     <scopeInfo nodeId="1953828525454983905" fileName="Dijkstra_Test.java" startLine="81" startPosition="19" endLine="84" endPosition="5" />
     <scopeInfo nodeId="1953828525454983822" fileName="Dijkstra_Test.java" startLine="77" startPosition="107" endLine="85" endPosition="48">
-      <varInfo nodeId="1953828525454983891" varName="path" />
       <varInfo nodeId="1953828525454983900" varName="length" />
+      <varInfo nodeId="1953828525454983891" varName="path" />
       <varInfo nodeId="1953828525454983843" varName="finder" />
     </scopeInfo>
     <scopeInfo nodeId="1953828525455054826" fileName="Dijkstra_Test.java" startLine="35" startPosition="45" endLine="45" endPosition="44">
       <varInfo nodeId="1953828525455054834" varName="graphString" />
       <varInfo nodeId="1953828525455054838" varName="graph" />
-      <varInfo nodeId="1953828525455054845" varName="source" />
       <varInfo nodeId="1953828525455054870" varName="edges" />
+      <varInfo nodeId="1953828525455054845" varName="source" />
       <varInfo nodeId="1953828525455054861" varName="weights" />
       <varInfo nodeId="1953828525455054853" varName="target" />
     </scopeInfo>
     <scopeInfo nodeId="7727845083901381789" fileName="Dijkstra_Test.java" startLine="48" startPosition="45" endLine="59" endPosition="44">
       <varInfo nodeId="7727845083901381791" varName="graphString" />
       <varInfo nodeId="7727845083901381795" varName="graph" />
-      <varInfo nodeId="7727845083901381802" varName="source" />
       <varInfo nodeId="7727845083901381827" varName="edges" />
+      <varInfo nodeId="7727845083901381802" varName="source" />
       <varInfo nodeId="7727845083901381818" varName="weights" />
       <varInfo nodeId="7727845083901381810" varName="target" />
     </scopeInfo>
     <scopeInfo nodeId="1953828525454983819" fileName="Dijkstra_Test.java" startLine="76" startPosition="0" endLine="87" endPosition="0">
-      <varInfo nodeId="1953828525454983823" varName="graph" />
       <varInfo nodeId="1953828525454983838" varName="expectedLength" />
+      <varInfo nodeId="1953828525454983823" varName="graph" />
       <varInfo nodeId="1953828525454983832" varName="source" />
       <varInfo nodeId="1953828525454983825" varName="weights" />
       <varInfo nodeId="1953828525454983835" varName="target" />
@@ -139,16 +139,16 @@
     <scopeInfo nodeId="1953828525454982004" fileName="Dijkstra_Test.java" startLine="20" startPosition="48" endLine="32" endPosition="44">
       <varInfo nodeId="1953828525454983932" varName="graphString" />
       <varInfo nodeId="1953828525454983940" varName="graph" />
-      <varInfo nodeId="1953828525454986004" varName="source" />
       <varInfo nodeId="1953828525454985957" varName="edges" />
+      <varInfo nodeId="1953828525454986004" varName="source" />
       <varInfo nodeId="1953828525454985940" varName="weights" />
       <varInfo nodeId="1953828525454986019" varName="target" />
     </scopeInfo>
     <scopeInfo nodeId="7727845083901385071" fileName="Dijkstra_Test.java" startLine="62" startPosition="45" endLine="74" endPosition="44">
       <varInfo nodeId="7727845083901385073" varName="graphString" />
       <varInfo nodeId="7727845083901385077" varName="graph" />
-      <varInfo nodeId="7727845083901385084" varName="source" />
       <varInfo nodeId="7727845083901385109" varName="edges" />
+      <varInfo nodeId="7727845083901385084" varName="source" />
       <varInfo nodeId="7727845083901385100" varName="weights" />
       <varInfo nodeId="7727845083901385092" varName="target" />
     </scopeInfo>
@@ -356,8 +356,8 @@
     <nodeInfo nodeId="4179389957059013640" fileName="ShortestPath_Test.java" startLine="22" startPosition="96" endLine="23" endPosition="36" conceptFqName="jetbrains.mps.baseLanguage.structure.ExpressionStatement" />
     <nodeInfo nodeId="4179389957059012716" fileName="ShortestPath_Test.java" startLine="14" startPosition="49" endLine="25" endPosition="0" conceptFqName="jetbrains.mps.baseLanguage.structure.InstanceMethodDeclaration" propertyString="test_triangle#()V" />
     <scopeInfo nodeId="4179389957059012719" fileName="ShortestPath_Test.java" startLine="15" startPosition="48" endLine="23" endPosition="36">
-      <varInfo nodeId="4179389957059012723" varName="graph" />
       <varInfo nodeId="4179389957059013577" varName="edge" />
+      <varInfo nodeId="4179389957059012723" varName="graph" />
       <varInfo nodeId="4179389957059012730" varName="path" />
     </scopeInfo>
     <scopeInfo nodeId="4179389957059012716" fileName="ShortestPath_Test.java" startLine="14" startPosition="49" endLine="25" endPosition="0" />
