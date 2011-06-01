@@ -2,9 +2,9 @@
 <dependenciesRoot>
   <dependency className="jetbrains.mps.uiLanguage.runtime.BaseBean" file="BaseBean.java">
     <classNode dependClassName="java.beans.PropertyChangeListener" />
-    <classNode dependClassName="java.lang.String" />
-    <classNode dependClassName="java.lang.Object" />
     <classNode dependClassName="java.beans.PropertyChangeSupport" />
+    <classNode dependClassName="java.lang.Object" />
+    <classNode dependClassName="java.lang.String" />
   </dependency>
   <dependency className="jetbrains.mps.uiLanguage.runtime.FlowPanel" file="FlowPanel.java">
     <classNode dependClassName="java.awt.FlowLayout" />
