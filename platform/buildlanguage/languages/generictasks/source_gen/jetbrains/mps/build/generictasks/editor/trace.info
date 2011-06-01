@@ -10,7 +10,8 @@
   <unitInfo fileName="Attribute_EditorComponent.java" startLine="120" startPosition="0" endLine="153" endPosition="0" unitName="jetbrains.mps.build.generictasks.editor.Attribute_EditorComponent$_Inline_y32exi_a0a" />
   <unitInfo fileName="TaskDeclarationAttributes_EditorComponent.java" startLine="93" startPosition="0" endLine="128" endPosition="0" unitName="jetbrains.mps.build.generictasks.editor.TaskDeclarationAttributes_EditorComponent$attributesDeclListHandler_p33j5q_b1a" />
   <unitInfo fileName="NestedDeclaration_Editor.java" startLine="112" startPosition="0" endLine="147" endPosition="0" unitName="jetbrains.mps.build.generictasks.editor.NestedDeclaration_Editor$roleListHandler_hxwqt0_c0" />
-  <unitInfo fileName="BuiltInTaskDeclaration_Editor.java" startLine="151" startPosition="0" endLine="186" endPosition="0" unitName="jetbrains.mps.build.generictasks.editor.BuiltInTaskDeclaration_Editor$nestedListHandler_5jjl7x_b1b2a" />
+  <unitInfo fileName="BuiltInTaskDeclaration_Editor.java" startLine="205" startPosition="0" endLine="240" endPosition="0" unitName="jetbrains.mps.build.generictasks.editor.BuiltInTaskDeclaration_Editor$nestedListHandler_5jjl7x_b1b2a" />
+  <unitInfo fileName="BuiltInTaskDeclaration_Editor.java" startLine="241" startPosition="0" endLine="276" endPosition="0" unitName="jetbrains.mps.build.generictasks.editor.BuiltInTaskDeclaration_Editor$fakeDeclarationListHandler_5jjl7x_b2a" />
   <unitInfo fileName="TaskCall_Editor.java" startLine="373" startPosition="0" endLine="420" endPosition="0" unitName="jetbrains.mps.build.generictasks.editor.TaskCall_Editor$atributesListHandler_fr7f84_e1a" />
   <unitInfo fileName="TaskCall_Editor.java" startLine="421" startPosition="0" endLine="468" endPosition="0" unitName="jetbrains.mps.build.generictasks.editor.TaskCall_Editor$nestedListHandler_fr7f84_b3a" />
   <unitInfo fileName="TaskCall_Editor.java" startLine="469" startPosition="0" endLine="516" endPosition="0" unitName="jetbrains.mps.build.generictasks.editor.TaskCall_Editor$atributesListHandler_fr7f84_a0" />
@@ -23,11 +24,11 @@
   <unitInfo fileName="TaskReference_Editor.java" startLine="18" startPosition="0" endLine="82" endPosition="0" unitName="jetbrains.mps.build.generictasks.editor.TaskReference_Editor" />
   <unitInfo fileName="TaskDeclarationAttributes_EditorComponent.java" startLine="24" startPosition="0" endLine="129" endPosition="0" unitName="jetbrains.mps.build.generictasks.editor.TaskDeclarationAttributes_EditorComponent" />
   <unitInfo fileName="NestedDeclaration_Editor.java" startLine="28" startPosition="0" endLine="148" endPosition="0" unitName="jetbrains.mps.build.generictasks.editor.NestedDeclaration_Editor" />
-  <unitInfo fileName="BuiltInTaskDeclaration_Editor.java" startLine="25" startPosition="0" endLine="187" endPosition="0" unitName="jetbrains.mps.build.generictasks.editor.BuiltInTaskDeclaration_Editor" />
   <unitInfo fileName="Attribute_EditorComponent.java" startLine="23" startPosition="0" endLine="187" endPosition="0" unitName="jetbrains.mps.build.generictasks.editor.Attribute_EditorComponent" />
   <unitInfo fileName="GenericAttributeDeclaration_EditorComponent.java" startLine="23" startPosition="0" endLine="193" endPosition="0" unitName="jetbrains.mps.build.generictasks.editor.GenericAttributeDeclaration_EditorComponent" />
   <unitInfo fileName="AttributeDeclaration_Editor.java" startLine="21" startPosition="0" endLine="226" endPosition="0" unitName="jetbrains.mps.build.generictasks.editor.AttributeDeclaration_Editor" />
   <unitInfo fileName="TaskInterfaceDeclaration_Editor.java" startLine="32" startPosition="0" endLine="282" endPosition="0" unitName="jetbrains.mps.build.generictasks.editor.TaskInterfaceDeclaration_Editor" />
+  <unitInfo fileName="BuiltInTaskDeclaration_Editor.java" startLine="25" startPosition="0" endLine="277" endPosition="0" unitName="jetbrains.mps.build.generictasks.editor.BuiltInTaskDeclaration_Editor" />
   <unitInfo fileName="TaskDeclarationHeader_EditorComponent.java" startLine="35" startPosition="0" endLine="350" endPosition="0" unitName="jetbrains.mps.build.generictasks.editor.TaskDeclarationHeader_EditorComponent" />
   <unitInfo fileName="TaskDeclarationInspector_EditorComponent.java" startLine="29" startPosition="0" endLine="367" endPosition="0" unitName="jetbrains.mps.build.generictasks.editor.TaskDeclarationInspector_EditorComponent" />
   <unitInfo fileName="TaskCall_Editor.java" startLine="36" startPosition="0" endLine="517" endPosition="0" unitName="jetbrains.mps.build.generictasks.editor.TaskCall_Editor" />
