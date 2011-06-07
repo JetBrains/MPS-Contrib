@@ -10,7 +10,7 @@
       <maximumStackSize value="32" />
       <properties />
     </buildFile>
-    <buildFile url="file://$PROJECT_DIR$/platform/buildlanguage/ant/tests/jetbrains/mps/build/ant/test.generate.task.xml">
+    <buildFile url="file://$PROJECT_DIR$/languages/util/buildlanguage/ant/tests/jetbrains/mps/build/ant/test.generate.task.xml">
       <additionalClassPath />
       <antReference projectDefault="true" />
       <customJdkName value="" />
