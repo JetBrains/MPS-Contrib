@@ -18,10 +18,6 @@
     <classNode dependClassName="java.lang.String" />
     <classNode extendsClassName="jetbrains.mps.smodel.INodeAdapter" />
   </dependency>
-  <dependency className="jetbrains.mps.baseLanguage.runConfigurations.structure.IMainClass" file="IMainClass.java">
-    <classNode dependClassName="java.lang.String" />
-    <classNode extendsClassName="jetbrains.mps.smodel.INodeAdapter" />
-  </dependency>
   <dependency className="jetbrains.mps.baseLanguage.runConfigurations.structure.IOnChangeEditorBlock" file="IOnChangeEditorBlock.java">
     <classNode dependClassName="java.lang.String" />
     <classNode extendsClassName="jetbrains.mps.smodel.INodeAdapter" />

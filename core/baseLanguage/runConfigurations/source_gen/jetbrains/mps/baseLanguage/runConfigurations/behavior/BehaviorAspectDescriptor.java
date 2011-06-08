@@ -7,44 +7,41 @@ import jetbrains.mps.smodel.structure.BehaviorDescriptor;
 import java.util.Arrays;
 
 public class BehaviorAspectDescriptor extends DescriptorProvider<BehaviorDescriptor> {
-  private static String[] stringSwitchCases_846f5o_a0a0a = new String[]{"jetbrains.mps.baseLanguage.runConfigurations.structure.ComponentInsideOfChangeListenerAnnotation", "jetbrains.mps.baseLanguage.runConfigurations.structure.IJavaRunConfigurationParameter", "jetbrains.mps.baseLanguage.runConfigurations.structure.IMainClass", "jetbrains.mps.baseLanguage.runConfigurations.structure.IOnChangeEditorBlock", "jetbrains.mps.baseLanguage.runConfigurations.structure.IsApplicableBlock", "jetbrains.mps.baseLanguage.runConfigurations.structure.JavaCheckBlock", "jetbrains.mps.baseLanguage.runConfigurations.structure.JavaConfigurationRunParameters_FunctionParameter", "jetbrains.mps.baseLanguage.runConfigurations.structure.JavaNodeConfigurationEditorDeclaration", "jetbrains.mps.baseLanguage.runConfigurations.structure.JavaNodeRunConfiguration", "jetbrains.mps.baseLanguage.runConfigurations.structure.JavaRunConfiguration", "jetbrains.mps.baseLanguage.runConfigurations.structure.NodeRunConfigPropertyInstance", "jetbrains.mps.baseLanguage.runConfigurations.structure.Node_FunctionParameter", "jetbrains.mps.baseLanguage.runConfigurations.structure.OnChangeNodeBlock", "jetbrains.mps.baseLanguage.runConfigurations.structure.UserComponentReferenceAnnotation"};
+  private static String[] stringSwitchCases_846f5o_a0a0a = new String[]{"jetbrains.mps.baseLanguage.runConfigurations.structure.ComponentInsideOfChangeListenerAnnotation", "jetbrains.mps.baseLanguage.runConfigurations.structure.IJavaRunConfigurationParameter", "jetbrains.mps.baseLanguage.runConfigurations.structure.IOnChangeEditorBlock", "jetbrains.mps.baseLanguage.runConfigurations.structure.IsApplicableBlock", "jetbrains.mps.baseLanguage.runConfigurations.structure.JavaCheckBlock", "jetbrains.mps.baseLanguage.runConfigurations.structure.JavaConfigurationRunParameters_FunctionParameter", "jetbrains.mps.baseLanguage.runConfigurations.structure.JavaNodeConfigurationEditorDeclaration", "jetbrains.mps.baseLanguage.runConfigurations.structure.JavaNodeRunConfiguration", "jetbrains.mps.baseLanguage.runConfigurations.structure.JavaRunConfiguration", "jetbrains.mps.baseLanguage.runConfigurations.structure.NodeRunConfigPropertyInstance", "jetbrains.mps.baseLanguage.runConfigurations.structure.Node_FunctionParameter", "jetbrains.mps.baseLanguage.runConfigurations.structure.OnChangeNodeBlock", "jetbrains.mps.baseLanguage.runConfigurations.structure.UserComponentReferenceAnnotation"};
 
   public BehaviorAspectDescriptor() {
   }
 
   public BehaviorDescriptor getDescriptor(String fqName) {
     switch (Arrays.binarySearch(stringSwitchCases_846f5o_a0a0a, fqName)) {
-      case 8:
+      case 7:
         return new JavaNodeRunConfiguration_BehaviorDescriptor();
-      case 5:
+      case 4:
         return new JavaCheckBlock_BehaviorDescriptor();
-      case 9:
+      case 8:
         return new JavaRunConfiguration_BehaviorDescriptor();
-      case 6:
+      case 5:
         return new JavaConfigurationRunParameters_FunctionParameter_BehaviorDescriptor();
-      case 13:
+      case 12:
         return new UserComponentReferenceAnnotation_BehaviorDescriptor();
-      case 11:
+      case 10:
         return new Node_FunctionParameter_BehaviorDescriptor();
       case 1:
         // interface or abstract concept behavior jetbrains.mps.baseLanguage.runConfigurations.structure.IJavaRunConfigurationParameter 
         return null;
-      case 10:
+      case 9:
         return new NodeRunConfigPropertyInstance_BehaviorDescriptor();
-      case 7:
+      case 6:
         return new JavaNodeConfigurationEditorDeclaration_BehaviorDescriptor();
-      case 12:
+      case 11:
         return new OnChangeNodeBlock_BehaviorDescriptor();
       case 0:
         return new ComponentInsideOfChangeListenerAnnotation_BehaviorDescriptor();
-      case 3:
+      case 2:
         // interface or abstract concept behavior jetbrains.mps.baseLanguage.runConfigurations.structure.IOnChangeEditorBlock 
         return null;
-      case 4:
+      case 3:
         return new IsApplicableBlock_BehaviorDescriptor();
-      case 2:
-        // interface or abstract concept behavior jetbrains.mps.baseLanguage.runConfigurations.structure.IMainClass 
-        return null;
       default:
         return null;
     }
