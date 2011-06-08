@@ -44,6 +44,10 @@ public class Controller_TabDescriptor extends EditorTabDescriptor {
     return list;
   }
 
+  public boolean isSingle() {
+    return true;
+  }
+
   public SNode getNode(SNode node) {
     return ComponentDeclaration_Behavior.call_getController_1213877495364(node);
   }

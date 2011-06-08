@@ -39,6 +39,10 @@ public class Component_TabDescriptor extends EditorTabDescriptor {
     return list;
   }
 
+  public boolean isSingle() {
+    return true;
+  }
+
   public SNode getNode(SNode node) {
     return node;
   }
