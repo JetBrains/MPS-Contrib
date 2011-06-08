@@ -136,6 +136,10 @@ public class QueriesGenerated {
     return _context.getNode();
   }
 
+  public static SNode sourceNodeQuery_3749843785778050921(final IOperationContext operationContext, final SourceSubstituteMacroNodeContext _context) {
+    return SLinkOperations.getTarget(_context.getNode(), "xml", true);
+  }
+
   public static Iterable sourceNodesQuery_1197045140155(final IOperationContext operationContext, final SourceSubstituteMacroNodesContext _context) {
     return SLinkOperations.getTargets(_context.getNode(), "propertyList", true);
   }

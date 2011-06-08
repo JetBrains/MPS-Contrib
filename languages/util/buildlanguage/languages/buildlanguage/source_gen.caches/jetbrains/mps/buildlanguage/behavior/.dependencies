@@ -70,6 +70,7 @@
     <classNode dependClassName="jetbrains.mps.buildlanguage.behavior.TargetDeclaration_BehaviorDescriptor" />
     <classNode dependClassName="jetbrains.mps.buildlanguage.behavior.TargetReferencePropertyValueExpression_BehaviorDescriptor" />
     <classNode dependClassName="jetbrains.mps.buildlanguage.behavior.TargetReference_BehaviorDescriptor" />
+    <classNode dependClassName="jetbrains.mps.buildlanguage.behavior.XmlStringLiteral_BehaviorDescriptor" />
     <classNode dependClassName="jetbrains.mps.smodel.structure.BehaviorDescriptor" />
     <classNode extendsClassName="jetbrains.mps.smodel.structure.DescriptorProvider" />
   </dependency>
@@ -460,6 +461,18 @@
   </dependency>
   <dependency className="jetbrains.mps.buildlanguage.behavior.TargetReference_BehaviorDescriptor" file="TargetReference_BehaviorDescriptor.java">
     <classNode dependClassName="jetbrains.mps.lang.core.behavior.BaseConcept_BehaviorDescriptor" />
+    <classNode extendsClassName="jetbrains.mps.smodel.structure.BehaviorDescriptor" />
+  </dependency>
+  <dependency className="jetbrains.mps.buildlanguage.behavior.XmlStringLiteral_Behavior" file="XmlStringLiteral_Behavior.java">
+    <classNode dependClassName="java.lang.String" />
+    <classNode dependClassName="jetbrains.mps.buildlanguage.behavior.PropertyValueExpression_Behavior" />
+    <classNode dependClassName="jetbrains.mps.smodel.SNode" />
+  </dependency>
+  <dependency className="jetbrains.mps.buildlanguage.behavior.XmlStringLiteral_BehaviorDescriptor" file="XmlStringLiteral_BehaviorDescriptor.java">
+    <classNode dependClassName="java.lang.String" />
+    <classNode dependClassName="jetbrains.mps.buildlanguage.behavior.PropertyValueExpression_BehaviorDescriptor" />
+    <classNode dependClassName="jetbrains.mps.buildlanguage.behavior.XmlStringLiteral_Behavior" />
+    <classNode dependClassName="jetbrains.mps.smodel.SNode" />
     <classNode extendsClassName="jetbrains.mps.smodel.structure.BehaviorDescriptor" />
   </dependency>
 </dependenciesRoot>

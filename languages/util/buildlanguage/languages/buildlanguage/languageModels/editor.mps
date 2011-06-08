@@ -18,7 +18,7 @@
       <link role="conceptDeclaration" roleId="tpc2.1166049300910" targetNodeId="tpsk.1196851066733" resolveInfo="Project" />
     </node>
     <node type="tpc2.ConceptEditorDeclaration" typeId="tpc2.1071666914219" id="1196853044151">
-      <link role="conceptDeclaration" roleId="tpc2.1166049300910" targetNodeId="tpsk.1196852921336" resolveInfo="Target" />
+      <link role="conceptDeclaration" roleId="tpc2.1166049300910" targetNodeId="tpsk.1196852921336" resolveInfo="TargetReference" />
     </node>
     <node type="tpc2.ConceptEditorDeclaration" typeId="tpc2.1071666914219" id="1196853805142">
       <property name="virtualPackage" nameId="tpck.1193676396447" value="Declarations" />
@@ -49,7 +49,7 @@
     </node>
     <node type="tpc2.ConceptEditorDeclaration" typeId="tpc2.1071666914219" id="1196870839372">
       <property name="virtualPackage" nameId="tpck.1193676396447" value="Types" />
-      <link role="conceptDeclaration" roleId="tpc2.1166049300910" targetNodeId="tpsk.1196870830058" resolveInfo="Type" />
+      <link role="conceptDeclaration" roleId="tpc2.1166049300910" targetNodeId="tpsk.1196870830058" resolveInfo="PropertyType" />
     </node>
     <node type="tpc2.EditorComponentDeclaration" typeId="tpc2.1078938745671" id="1197034159089">
       <property name="name" nameId="tpck.1169194664001" value="TargetDeclaration_EditorComponent" />
@@ -78,7 +78,7 @@
       <link role="conceptDeclaration" roleId="tpc2.1166049300910" targetNodeId="tpsk.1199031681512" resolveInfo="FileName" />
     </node>
     <node type="tpc2.ConceptEditorDeclaration" typeId="tpc2.1071666914219" id="1200420323624">
-      <link role="conceptDeclaration" roleId="tpc2.1166049300910" targetNodeId="tpsk.1200418817047" resolveInfo="ImportProperties" />
+      <link role="conceptDeclaration" roleId="tpc2.1166049300910" targetNodeId="tpsk.1200418817047" resolveInfo="ImportPropertyNode" />
     </node>
     <node type="tpc2.ConceptEditorDeclaration" typeId="tpc2.1071666914219" id="1200511742260">
       <property name="virtualPackage" nameId="tpck.1193676396447" value="Types" />
@@ -90,7 +90,7 @@
     </node>
     <node type="tpc2.ConceptEditorDeclaration" typeId="tpc2.1071666914219" id="1201701730194">
       <property name="virtualPackage" nameId="tpck.1193676396447" value="Expressions" />
-      <link role="conceptDeclaration" roleId="tpc2.1166049300910" targetNodeId="tpsk.1201701678947" resolveInfo="TagetReferencePropertyValueExpression" />
+      <link role="conceptDeclaration" roleId="tpc2.1166049300910" targetNodeId="tpsk.1201701678947" resolveInfo="TargetReferencePropertyValueExpression" />
     </node>
     <node type="tpc2.ConceptEditorDeclaration" typeId="tpc2.1071666914219" id="1201702710512">
       <link role="conceptDeclaration" roleId="tpc2.1166049300910" targetNodeId="tpsk.1201702638416" resolveInfo="ImportProject" />
@@ -101,7 +101,7 @@
     </node>
     <node type="tpc2.ConceptEditorDeclaration" typeId="tpc2.1071666914219" id="1219147880893">
       <property name="virtualPackage" nameId="tpck.1193676396447" value="Declarations" />
-      <link role="conceptDeclaration" roleId="tpc2.1166049300910" targetNodeId="tpsk.1219147669362" resolveInfo="InputProperty" />
+      <link role="conceptDeclaration" roleId="tpc2.1166049300910" targetNodeId="tpsk.1219147669362" resolveInfo="ExternalPropertyDeclaration" />
     </node>
     <node type="tpc2.ConceptEditorDeclaration" typeId="tpc2.1071666914219" id="1225394782513">
       <property name="virtualPackage" nameId="tpck.1193676396447" value="Operations" />
@@ -109,6 +109,10 @@
     </node>
     <node type="tpc2.ConceptEditorDeclaration" typeId="tpc2.1071666914219" id="1240398843278">
       <link role="conceptDeclaration" roleId="tpc2.1166049300910" targetNodeId="tpsk.1240398708423" resolveInfo="ImportPropertiesFromFile" />
+    </node>
+    <node type="tpc2.ConceptEditorDeclaration" typeId="tpc2.1071666914219" id="3749843785778050902">
+      <property name="virtualPackage" nameId="tpck.1193676396447" value="Expressions" />
+      <link role="conceptDeclaration" roleId="tpc2.1166049300910" targetNodeId="tpsk.3749843785777956745" resolveInfo="XmlStringLiteral" />
     </node>
   </roots>
   <root id="1196852366761">
@@ -123,7 +127,7 @@
         <node role="childCellModel" roleId="tpc2.1073389446424" type="tpc2.CellModel_Property" typeId="tpc2.1073389658414" id="1196852473889">
           <property name="attractsFocus" nameId="tpc2.1130859485024" value="2" />
           <link role="relationDeclaration" roleId="tpc2.1140103550593" targetNodeId="tpck.1169194664001" resolveInfo="name" />
-          <link role="styleClass" roleId="tpc2.1186406756722" targetNodeId="1197150425926" resolveInfo="taskTarget" />
+          <link role="styleClass" roleId="tpc2.1186406756722" targetNodeId="1197150425926" resolveInfo="target" />
         </node>
         <node role="childCellModel" roleId="tpc2.1073389446424" type="tpc2.CellModel_Constant" typeId="tpc2.1073389577006" id="1196852519515">
           <property name="text" nameId="tpc2.1073389577007" value="[" />
@@ -307,7 +311,7 @@
   <root id="1196853044151">
     <node role="cellModel" roleId="tpc2.1080736633877" type="tpc2.CellModel_RefCell" typeId="tpc2.1088013125922" id="1196853047793">
       <link role="relationDeclaration" roleId="tpc2.1140103550593" targetNodeId="tpsk.1196852953065" />
-      <link role="styleClass" roleId="tpc2.1186406756722" targetNodeId="1197150425926" resolveInfo="taskTarget" />
+      <link role="styleClass" roleId="tpc2.1186406756722" targetNodeId="1197150425926" resolveInfo="target" />
       <node role="editorComponent" roleId="tpc2.1088186146602" type="tpc2.InlineEditorComponent" typeId="tpc2.1088185857835" id="1196853047794">
         <node role="cellModel" roleId="tpc2.1080736633877" type="tpc2.CellModel_Property" typeId="tpc2.1073389658414" id="1196853085105">
           <property name="readOnly" nameId="tpc2.1140017977771" value="true" />
@@ -365,7 +369,7 @@
         <node role="childCellModel" roleId="tpc2.1073389446424" type="tpc2.CellModel_Property" typeId="tpc2.1073389658414" id="1196855783095">
           <property name="attractsFocus" nameId="tpc2.1130859485024" value="1" />
           <link role="relationDeclaration" roleId="tpc2.1140103550593" targetNodeId="tpck.1169194664001" resolveInfo="name" />
-          <link role="styleClass" roleId="tpc2.1186406756722" targetNodeId="1197150425926" resolveInfo="taskTarget" />
+          <link role="styleClass" roleId="tpc2.1186406756722" targetNodeId="1197150425926" resolveInfo="target" />
         </node>
         <node role="childCellModel" roleId="tpc2.1073389446424" type="tpc2.CellModel_Collection" typeId="tpc2.1073389446423" id="1229183869234">
           <property name="vertical" nameId="tpc2.1073389446425" value="false" />
@@ -1253,6 +1257,17 @@
         <property name="attractsFocus" nameId="tpc2.1130859485024" value="2" />
         <link role="relationDeclaration" roleId="tpc2.1140103550593" targetNodeId="tpsk.1240398738487" />
       </node>
+    </node>
+  </root>
+  <root id="3749843785778050902">
+    <node role="cellModel" roleId="tpc2.1080736633877" type="tpc2.CellModel_Collection" typeId="tpc2.1073389446423" id="3749843785778050904">
+      <node role="childCellModel" roleId="tpc2.1073389446424" type="tpc2.CellModel_Constant" typeId="tpc2.1073389577006" id="3749843785778050910">
+        <property name="text" nameId="tpc2.1073389577007" value="xml:" />
+      </node>
+      <node role="childCellModel" roleId="tpc2.1073389446424" type="tpc2.CellModel_RefNode" typeId="tpc2.1073389882823" id="3749843785778050911">
+        <link role="relationDeclaration" roleId="tpc2.1140103550593" targetNodeId="tpsk.3749843785777956746" />
+      </node>
+      <node role="cellLayout" roleId="tpc2.1106270802874" type="tpc2.CellLayout_Horizontal" typeId="tpc2.1106270549637" id="3749843785778050906" />
     </node>
   </root>
 </model>

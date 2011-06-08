@@ -4,21 +4,22 @@
   <unitInfo fileName="PlusOperation_Editor.java" startLine="96" startPosition="0" endLine="104" endPosition="0" unitName="jetbrains.mps.buildlanguage.editor.PlusOperation_Editor$ReplaceWith_BinaryOperation_cellMenu_a0b0_0" />
   <unitInfo fileName="PropertyDeclaration_Editor.java" startLine="185" startPosition="0" endLine="197" endPosition="0" unitName="jetbrains.mps.buildlanguage.editor.PropertyDeclaration_Editor$PropertyDeclaration_generic_cellMenu_a0b0" />
   <unitInfo fileName="ExternalPropertyDeclaration_Editor.java" startLine="235" startPosition="0" endLine="247" endPosition="0" unitName="jetbrains.mps.buildlanguage.editor.ExternalPropertyDeclaration_Editor$ExternalPropertyDeclaration_generic_cellMenu_a0b0" />
-  <unitInfo fileName="BinaryOperation_LeftArgument_Actions.java" startLine="18" startPosition="0" endLine="37" endPosition="0" unitName="jetbrains.mps.buildlanguage.editor.BinaryOperation_LeftArgument_Actions$BinaryOperation_LeftArgument_Actions_DELETE" />
   <unitInfo fileName="BinaryOperation_RightArgument_Actions.java" startLine="18" startPosition="0" endLine="37" endPosition="0" unitName="jetbrains.mps.buildlanguage.editor.BinaryOperation_RightArgument_Actions$BinaryOperation_RightArgument_Actions_DELETE" />
-  <unitInfo fileName="CallReferenceType_Editor.java" startLine="14" startPosition="0" endLine="37" endPosition="0" unitName="jetbrains.mps.buildlanguage.editor.CallReferenceType_Editor" />
+  <unitInfo fileName="BinaryOperation_LeftArgument_Actions.java" startLine="18" startPosition="0" endLine="37" endPosition="0" unitName="jetbrains.mps.buildlanguage.editor.BinaryOperation_LeftArgument_Actions$BinaryOperation_LeftArgument_Actions_DELETE" />
   <unitInfo fileName="PropertyType_Editor.java" startLine="14" startPosition="0" endLine="37" endPosition="0" unitName="jetbrains.mps.buildlanguage.editor.PropertyType_Editor" />
-  <unitInfo fileName="IntLiteral_Editor.java" startLine="14" startPosition="0" endLine="38" endPosition="0" unitName="jetbrains.mps.buildlanguage.editor.IntLiteral_Editor" />
+  <unitInfo fileName="CallReferenceType_Editor.java" startLine="14" startPosition="0" endLine="37" endPosition="0" unitName="jetbrains.mps.buildlanguage.editor.CallReferenceType_Editor" />
   <unitInfo fileName="BooleanLiteral_Editor.java" startLine="14" startPosition="0" endLine="38" endPosition="0" unitName="jetbrains.mps.buildlanguage.editor.BooleanLiteral_Editor" />
-  <unitInfo fileName="BinaryOperation_LeftArgument_Actions.java" startLine="13" startPosition="0" endLine="38" endPosition="0" unitName="jetbrains.mps.buildlanguage.editor.BinaryOperation_LeftArgument_Actions" />
+  <unitInfo fileName="IntLiteral_Editor.java" startLine="14" startPosition="0" endLine="38" endPosition="0" unitName="jetbrains.mps.buildlanguage.editor.IntLiteral_Editor" />
   <unitInfo fileName="BinaryOperation_RightArgument_Actions.java" startLine="13" startPosition="0" endLine="38" endPosition="0" unitName="jetbrains.mps.buildlanguage.editor.BinaryOperation_RightArgument_Actions" />
+  <unitInfo fileName="BinaryOperation_LeftArgument_Actions.java" startLine="13" startPosition="0" endLine="38" endPosition="0" unitName="jetbrains.mps.buildlanguage.editor.BinaryOperation_LeftArgument_Actions" />
   <unitInfo fileName="CallReference_Editor.java" startLine="47" startPosition="0" endLine="79" endPosition="0" unitName="jetbrains.mps.buildlanguage.editor.CallReference_Editor$_Inline_v5h80f_a0a" />
-  <unitInfo fileName="ImportProject_Editor.java" startLine="68" startPosition="0" endLine="100" endPosition="0" unitName="jetbrains.mps.buildlanguage.editor.ImportProject_Editor$_Inline_fpr8ek_a1a" />
   <unitInfo fileName="ImportPropertyNode_Editor.java" startLine="68" startPosition="0" endLine="100" endPosition="0" unitName="jetbrains.mps.buildlanguage.editor.ImportPropertyNode_Editor$_Inline_un6x7s_a1a" />
+  <unitInfo fileName="ImportProject_Editor.java" startLine="68" startPosition="0" endLine="100" endPosition="0" unitName="jetbrains.mps.buildlanguage.editor.ImportProject_Editor$_Inline_fpr8ek_a1a" />
   <unitInfo fileName="TargetReferencePropertyValueExpression_Editor.java" startLine="78" startPosition="0" endLine="110" endPosition="0" unitName="jetbrains.mps.buildlanguage.editor.TargetReferencePropertyValueExpression_Editor$_Inline_826xl5_a1a" />
   <unitInfo fileName="MultiLineString_Editor.java" startLine="39" startPosition="0" endLine="74" endPosition="0" unitName="jetbrains.mps.buildlanguage.editor.MultiLineString_Editor$stringExpressionListHandler_v49u5j_a0" />
-  <unitInfo fileName="PropertyReference_Editor.java" startLine="52" startPosition="0" endLine="88" endPosition="0" unitName="jetbrains.mps.buildlanguage.editor.PropertyReference_Editor$_Inline_5yutfv_a0a" />
   <unitInfo fileName="TargetReference_Editor.java" startLine="52" startPosition="0" endLine="88" endPosition="0" unitName="jetbrains.mps.buildlanguage.editor.TargetReference_Editor$_Inline_a1n9ex_a0a" />
+  <unitInfo fileName="PropertyReference_Editor.java" startLine="52" startPosition="0" endLine="88" endPosition="0" unitName="jetbrains.mps.buildlanguage.editor.PropertyReference_Editor$_Inline_5yutfv_a0a" />
+  <unitInfo fileName="XmlStringLiteral_Editor.java" startLine="16" startPosition="0" endLine="53" endPosition="0" unitName="jetbrains.mps.buildlanguage.editor.XmlStringLiteral_Editor" />
   <unitInfo fileName="TargetDeclaration_EditorComponent.java" startLine="82" startPosition="0" endLine="127" endPosition="0" unitName="jetbrains.mps.buildlanguage.editor.TargetDeclaration_EditorComponent$dependsListHandler_8asdb1_c0a" />
   <unitInfo fileName="Project_Editor.java" startLine="384" startPosition="0" endLine="431" endPosition="0" unitName="jetbrains.mps.buildlanguage.editor.Project_Editor$propertyListHandler_o8np3d_b1b0" />
   <unitInfo fileName="Project_Editor.java" startLine="432" startPosition="0" endLine="479" endPosition="0" unitName="jetbrains.mps.buildlanguage.editor.Project_Editor$importPropertiesListHandler_o8np3d_d1b0" />
@@ -32,14 +33,14 @@
   <unitInfo fileName="Enum_Editor.java" startLine="63" startPosition="0" endLine="120" endPosition="0" unitName="jetbrains.mps.buildlanguage.editor.Enum_Editor$constantsListHandler_78un91_b0" />
   <unitInfo fileName="CallReference_Editor.java" startLine="17" startPosition="0" endLine="80" endPosition="0" unitName="jetbrains.mps.buildlanguage.editor.CallReference_Editor" />
   <unitInfo fileName="StringLiteral_Editor.java" startLine="20" startPosition="0" endLine="84" endPosition="0" unitName="jetbrains.mps.buildlanguage.editor.StringLiteral_Editor" />
-  <unitInfo fileName="PropertyReference_Editor.java" startLine="21" startPosition="0" endLine="89" endPosition="0" unitName="jetbrains.mps.buildlanguage.editor.PropertyReference_Editor" />
   <unitInfo fileName="TargetReference_Editor.java" startLine="21" startPosition="0" endLine="89" endPosition="0" unitName="jetbrains.mps.buildlanguage.editor.TargetReference_Editor" />
+  <unitInfo fileName="PropertyReference_Editor.java" startLine="21" startPosition="0" endLine="89" endPosition="0" unitName="jetbrains.mps.buildlanguage.editor.PropertyReference_Editor" />
   <unitInfo fileName="BuildLanguageStyle_StyleSheet.java" startLine="11" startPosition="0" endLine="80" endPosition="0" unitName="jetbrains.mps.buildlanguage.editor.BuildLanguageStyle_StyleSheet" />
   <unitInfo fileName="FileName_Editor.java" startLine="20" startPosition="0" endLine="92" endPosition="0" unitName="jetbrains.mps.buildlanguage.editor.FileName_Editor" />
   <unitInfo fileName="BinaryOperation_Editor.java" startLine="19" startPosition="0" endLine="96" endPosition="0" unitName="jetbrains.mps.buildlanguage.editor.BinaryOperation_Editor" />
   <unitInfo fileName="PlusOperation_Editor.java" startLine="23" startPosition="0" endLine="105" endPosition="0" unitName="jetbrains.mps.buildlanguage.editor.PlusOperation_Editor" />
-  <unitInfo fileName="ImportProject_Editor.java" startLine="18" startPosition="0" endLine="101" endPosition="0" unitName="jetbrains.mps.buildlanguage.editor.ImportProject_Editor" />
   <unitInfo fileName="ImportPropertyNode_Editor.java" startLine="18" startPosition="0" endLine="101" endPosition="0" unitName="jetbrains.mps.buildlanguage.editor.ImportPropertyNode_Editor" />
+  <unitInfo fileName="ImportProject_Editor.java" startLine="18" startPosition="0" endLine="101" endPosition="0" unitName="jetbrains.mps.buildlanguage.editor.ImportProject_Editor" />
   <unitInfo fileName="TargetReferencePropertyValueExpression_Editor.java" startLine="18" startPosition="0" endLine="111" endPosition="0" unitName="jetbrains.mps.buildlanguage.editor.TargetReferencePropertyValueExpression_Editor" />
   <unitInfo fileName="Enum_Editor.java" startLine="23" startPosition="0" endLine="121" endPosition="0" unitName="jetbrains.mps.buildlanguage.editor.Enum_Editor" />
   <unitInfo fileName="TargetDeclaration_EditorComponent.java" startLine="25" startPosition="0" endLine="128" endPosition="0" unitName="jetbrains.mps.buildlanguage.editor.TargetDeclaration_EditorComponent" />

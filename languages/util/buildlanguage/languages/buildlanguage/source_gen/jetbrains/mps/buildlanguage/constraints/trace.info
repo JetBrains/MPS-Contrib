@@ -14,7 +14,7 @@
   <unitInfo fileName="PropertyReference_Constraints.java" startLine="16" startPosition="0" endLine="44" endPosition="0" unitName="jetbrains.mps.buildlanguage.constraints.PropertyReference_Constraints" />
   <unitInfo fileName="TargetReference_Constraints.java" startLine="18" startPosition="0" endLine="47" endPosition="0" unitName="jetbrains.mps.buildlanguage.constraints.TargetReference_Constraints" />
   <unitInfo fileName="CallReference_Constraints.java" startLine="21" startPosition="0" endLine="53" endPosition="0" unitName="jetbrains.mps.buildlanguage.constraints.CallReference_Constraints" />
-  <unitInfo fileName="ConstraintsAspectDescriptor.java" startLine="11" startPosition="0" endLine="102" endPosition="0" unitName="jetbrains.mps.buildlanguage.constraints.ConstraintsAspectDescriptor" />
+  <unitInfo fileName="ConstraintsAspectDescriptor.java" startLine="11" startPosition="0" endLine="104" endPosition="0" unitName="jetbrains.mps.buildlanguage.constraints.ConstraintsAspectDescriptor" />
   <root nodeId="1213104847182">
     <nodeInfo nodeId="1213104847186" fileName="TargetReference_Constraints.java" startLine="35" startPosition="136" endLine="36" endPosition="143" conceptFqName="jetbrains.mps.baseLanguage.structure.LocalVariableDeclarationStatement" />
     <nodeInfo nodeId="1213104847195" fileName="TargetReference_Constraints.java" startLine="36" startPosition="143" endLine="37" endPosition="74" conceptFqName="jetbrains.mps.baseLanguage.structure.ReturnStatement" />
