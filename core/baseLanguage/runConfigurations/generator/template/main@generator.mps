@@ -796,7 +796,7 @@
               <node role="operand" roleId="tpee.1197027771414" type="tpee.DotExpression" typeId="tpee.1197027756228" id="5892046807761613361">
                 <node role="operand" roleId="tpee.1197027771414" type="tp4f.ThisClassifierExpression" typeId="tp4f.1205752633985" id="5892046807761613362" />
                 <node role="operation" roleId="tpee.1197027833540" type="tp4k.PersistentPropertyReference" typeId="tp4k.1210180874794" id="5892046807761613363">
-                  <link role="member" roleId="tp4f.1205756909548" targetNodeId="8126994885493673896" resolveInfo="javaRunParameters" />
+                  <link role="member" roleId="tp4f.1205756909548" targetNodeId="8126994885493673896" resolveInfo="myJavaRunParameters" />
                 </node>
               </node>
               <node role="operation" roleId="tpee.1197027833540" type="tpee.InstanceMethodCallOperation" typeId="tpee.1202948039474" id="5892046807761613364">
@@ -998,7 +998,7 @@
         </node>
       </node>
       <node role="ruleConsequence" roleId="tpf8.1169570368028" type="tpf8.TemplateDeclarationReference" typeId="tpf8.1168559333462" id="5147346160405481764">
-        <link role="template" roleId="tpf8.1722980698497626483" targetNodeId="5147346160405481762" resolveInfo="weave_JavaNodeRunConfiguration" />
+        <link role="template" roleId="tpf8.1722980698497626483" targetNodeId="5147346160405481762" resolveInfo="weave_JavaNodeRunConfigurationExecute" />
       </node>
     </node>
     <node role="weavingMappingRule" roleId="tpf8.1167172143858" type="tpf8.Weaving_MappingRule" typeId="tpf8.1167171569011" id="664608570000513783">
@@ -1046,7 +1046,7 @@
         </node>
       </node>
       <node role="ruleConsequence" roleId="tpf8.1169570368028" type="tpf8.TemplateDeclarationReference" typeId="tpf8.1168559333462" id="1614521997361898034">
-        <link role="template" roleId="tpf8.1722980698497626483" targetNodeId="1614521997361898028" resolveInfo="weave_JavaRunConfiguration" />
+        <link role="template" roleId="tpf8.1722980698497626483" targetNodeId="1614521997361898028" resolveInfo="weave_JavaNodeRunConfigurationCheck" />
       </node>
     </node>
     <node role="weavingMappingRule" roleId="tpf8.1167172143858" type="tpf8.Weaving_MappingRule" typeId="tpf8.1167171569011" id="1491021298367441724">
@@ -1131,7 +1131,7 @@
         </node>
       </node>
       <node role="ruleConsequence" roleId="tpf8.1169570368028" type="tpf8.TemplateDeclarationReference" typeId="tpf8.1168559333462" id="1633282062187307830">
-        <link role="template" roleId="tpf8.1722980698497626483" targetNodeId="1633282062187307822" resolveInfo="weave_JavaNodeRunConfiguration" />
+        <link role="template" roleId="tpf8.1722980698497626483" targetNodeId="1633282062187307822" resolveInfo="weave_JavaNodeRunConfigurationEditor_FieldDeclaration" />
       </node>
     </node>
     <node role="weavingMappingRule" roleId="tpf8.1167172143858" type="tpf8.Weaving_MappingRule" typeId="tpf8.1167171569011" id="6784027201969596647">
@@ -1163,7 +1163,7 @@
         </node>
       </node>
       <node role="ruleConsequence" roleId="tpf8.1169570368028" type="tpf8.TemplateDeclarationReference" typeId="tpf8.1168559333462" id="6784027201969600148">
-        <link role="template" roleId="tpf8.1722980698497626483" targetNodeId="6784027201969600140" resolveInfo="weave_JavaNodeRunConfiguration" />
+        <link role="template" roleId="tpf8.1722980698497626483" targetNodeId="6784027201969600140" resolveInfo="weave_JavaNodeRunConfigurationEditor_ComponentAddition" />
       </node>
     </node>
     <node role="weavingMappingRule" roleId="tpf8.1167172143858" type="tpf8.Weaving_MappingRule" typeId="tpf8.1167171569011" id="8755168384250985146">
@@ -1222,7 +1222,7 @@
         </node>
       </node>
       <node role="ruleConsequence" roleId="tpf8.1169570368028" type="tpf8.TemplateDeclarationReference" typeId="tpf8.1168559333462" id="8755168384251012600">
-        <link role="template" roleId="tpf8.1722980698497626483" targetNodeId="8755168384251012597" resolveInfo="weave_JavaNodeRunConfiguration" />
+        <link role="template" roleId="tpf8.1722980698497626483" targetNodeId="8755168384251012597" resolveInfo="weave_JavaNodeRunConfigurationEditor_Apply" />
       </node>
     </node>
     <node role="weavingMappingRule" roleId="tpf8.1167172143858" type="tpf8.Weaving_MappingRule" typeId="tpf8.1167171569011" id="8755168384251798501">
@@ -1281,14 +1281,14 @@
         </node>
       </node>
       <node role="ruleConsequence" roleId="tpf8.1169570368028" type="tpf8.TemplateDeclarationReference" typeId="tpf8.1168559333462" id="8755168384251798563">
-        <link role="template" roleId="tpf8.1722980698497626483" targetNodeId="8755168384251798560" resolveInfo="weave_JavaNodeRunConfiguration" />
+        <link role="template" roleId="tpf8.1722980698497626483" targetNodeId="8755168384251798560" resolveInfo="weave_JavaNodeRunConfigurationEditor_Reset" />
       </node>
     </node>
     <node role="preMappingScript" roleId="tpf8.1195502100749" type="tpf8.MappingScriptReference" typeId="tpf8.1195502151594" id="7549816165173155069">
       <link role="mappingScript" roleId="tpf8.1195502167610" targetNodeId="7549816165173146546" resolveInfo="setComponentAnnotations" />
     </node>
     <node role="preMappingScript" roleId="tpf8.1195502100749" type="tpf8.MappingScriptReference" typeId="tpf8.1195502151594" id="9192672578696349735">
-      <link role="mappingScript" roleId="tpf8.1195502167610" targetNodeId="9192672578696349736" resolveInfo="script" />
+      <link role="mappingScript" roleId="tpf8.1195502167610" targetNodeId="9192672578696349736" resolveInfo="addRetrunStatementToIsApplicable" />
     </node>
     <node role="mappingLabel" roleId="tpf8.1200911492601" type="tpf8.MappingLabelDeclaration" typeId="tpf8.1200911316486" id="1905391470717050199">
       <property name="name" nameId="tpck.1169194664001" value="map_JavaRunConfigurationToRunConfiguration" />
@@ -1326,7 +1326,7 @@
         </node>
       </node>
       <node role="ruleConsequence" roleId="tpf8.1169672767469" type="tpf8.TemplateDeclarationReference" typeId="tpf8.1168559333462" id="7549816165173155088">
-        <link role="template" roleId="tpf8.1722980698497626483" targetNodeId="7549816165173155086" resolveInfo="reduce_ComponentReference" />
+        <link role="template" roleId="tpf8.1722980698497626483" targetNodeId="7549816165173155086" resolveInfo="reduce_UserComponentReference" />
       </node>
     </node>
     <node role="reductionMappingRule" roleId="tpf8.1167328349397" type="tpf8.Reduction_MappingRule" typeId="tpf8.1167327847730" id="1566895476211683144">
@@ -1349,7 +1349,7 @@
         </node>
       </node>
       <node role="ruleConsequence" roleId="tpf8.1169672767469" type="tpf8.TemplateDeclarationReference" typeId="tpf8.1168559333462" id="1566895476211683268">
-        <link role="template" roleId="tpf8.1722980698497626483" targetNodeId="1566895476211683266" resolveInfo="reduce_ComponentReference" />
+        <link role="template" roleId="tpf8.1722980698497626483" targetNodeId="1566895476211683266" resolveInfo="reduce_ComponentReferenceInsideOfOnChangeBlock" />
       </node>
     </node>
     <node role="reductionMappingRule" roleId="tpf8.1167328349397" type="tpf8.Reduction_MappingRule" typeId="tpf8.1167327847730" id="6951161063040186331">
@@ -1476,13 +1476,13 @@
     <node role="rootMappingRule" roleId="tpf8.1167514678247" type="tpf8.Root_MappingRule" typeId="tpf8.1167514355419" id="8126994885493665467">
       <property name="applyToConceptInheritors" nameId="tpf8.1167272244852" value="true" />
       <link role="applicableConcept" roleId="tpf8.1167169349424" targetNodeId="11eb.655818460756091959" resolveInfo="JavaRunConfiguration" />
-      <link role="template" roleId="tpf8.1167514355421" targetNodeId="8126994885493665468" resolveInfo="map_JavaRunConfiguration" />
-      <link role="labelDeclaration" roleId="tpf8.1200917515464" targetNodeId="1905391470717050199" resolveInfo="map_JavaRunConfigurationtoRunConfiguration" />
+      <link role="template" roleId="tpf8.1167514355421" targetNodeId="8126994885493665468" resolveInfo="JavaRunConfiguration" />
+      <link role="labelDeclaration" roleId="tpf8.1200917515464" targetNodeId="1905391470717050199" resolveInfo="map_JavaRunConfigurationToRunConfiguration" />
     </node>
     <node role="rootMappingRule" roleId="tpf8.1167514678247" type="tpf8.Root_MappingRule" typeId="tpf8.1167514355419" id="3251065477410581226">
       <property name="applyToConceptInheritors" nameId="tpf8.1167272244852" value="true" />
       <link role="applicableConcept" roleId="tpf8.1167169349424" targetNodeId="11eb.655818460756091959" resolveInfo="JavaRunConfiguration" />
-      <link role="template" roleId="tpf8.1167514355421" targetNodeId="3251065477410581227" resolveInfo="map_JavaRunConfiguration" />
+      <link role="template" roleId="tpf8.1167514355421" targetNodeId="3251065477410581227" resolveInfo="JavaEditorComponent" />
       <link role="labelDeclaration" roleId="tpf8.1200917515464" targetNodeId="3251065477410858820" resolveInfo="map_JavaRunConfigurationToEditorComponent" />
     </node>
   </root>
@@ -1592,7 +1592,7 @@
                   <link role="variableDeclaration" roleId="tpee.1068581517664" targetNodeId="3251065477411291361" resolveInfo="configuration" />
                 </node>
                 <node role="operation" roleId="tpee.1197027833540" type="tp4k.PersistentPropertyReference" typeId="tp4k.1210180874794" id="3251065477411318148">
-                  <link role="member" roleId="tp4f.1205756909548" targetNodeId="8126994885493673896" resolveInfo="javaRunParameters" />
+                  <link role="member" roleId="tp4f.1205756909548" targetNodeId="8126994885493673896" resolveInfo="myJavaRunParameters" />
                 </node>
               </node>
             </node>
@@ -1632,7 +1632,7 @@
                   <link role="variableDeclaration" roleId="tpee.1068581517664" targetNodeId="3251065477411291363" resolveInfo="configuration" />
                 </node>
                 <node role="operation" roleId="tpee.1197027833540" type="tp4k.PersistentPropertyReference" typeId="tp4k.1210180874794" id="3251065477411318167">
-                  <link role="member" roleId="tp4f.1205756909548" targetNodeId="8126994885493673896" resolveInfo="javaRunParameters" />
+                  <link role="member" roleId="tp4f.1205756909548" targetNodeId="8126994885493673896" resolveInfo="myJavaRunParameters" />
                 </node>
               </node>
             </node>
@@ -3350,7 +3350,7 @@
                       <link role="variableDeclaration" roleId="tpee.1068581517664" targetNodeId="8755168384251363820" resolveInfo="mainClassField" />
                     </node>
                     <node role="operation" roleId="tpee.1197027833540" type="tpee.InstanceMethodCallOperation" typeId="tpee.1202948039474" id="8755168384251363832">
-                      <link role="baseMethodDeclaration" roleId="tpee.1068499141037" targetNodeId="fmpm.6937689104170748805" resolveInfo="getNode" />
+                      <link role="baseMethodDeclaration" roleId="tpee.1068499141037" targetNodeId="fmpm.747009152929061287" resolveInfo="getNode" />
                     </node>
                   </node>
                   <node role="returnType" roleId="tp68.1174313653259" type="tpee.Type" typeId="tpee.1068431790189" id="8755168384251363833" />
@@ -3389,7 +3389,7 @@
               </node>
             </node>
             <node role="operation" roleId="tpee.1197027833540" type="tpee.InstanceMethodCallOperation" typeId="tpee.1202948039474" id="8755168384251863766">
-              <link role="baseMethodDeclaration" roleId="tpee.1068499141037" targetNodeId="fmpm.6937689104170748813" resolveInfo="setNode" />
+              <link role="baseMethodDeclaration" roleId="tpee.1068499141037" targetNodeId="fmpm.747009152929061295" resolveInfo="setNode" />
               <node role="actualArgument" roleId="tpee.1068499141038" type="tpee.DotExpression" typeId="tpee.1197027756228" id="8755168384252118250">
                 <node role="operand" roleId="tpee.1197027771414" type="tpee.ParameterReference" typeId="tpee.1068581242874" id="8755168384252118249">
                   <link role="variableDeclaration" roleId="tpee.1068581517664" targetNodeId="8755168384251836995" resolveInfo="configuration" />

@@ -9,41 +9,39 @@ import jetbrains.mps.smodel.structure.DataHolderConstraintsDescriptor;
 import jetbrains.mps.smodel.structure.EmptyConstraintsDataHolder;
 
 public class ConstraintsAspectDescriptor extends DescriptorProvider<ConstraintsDescriptor> {
-  private static String[] stringSwitchCases_2qnle6_a0a0a = new String[]{"jetbrains.mps.baseLanguage.runConfigurations.structure.ComponentInsideOfChangeListenerAnnotation", "jetbrains.mps.baseLanguage.runConfigurations.structure.IJavaRunConfigurationParameter", "jetbrains.mps.baseLanguage.runConfigurations.structure.IMainClass", "jetbrains.mps.baseLanguage.runConfigurations.structure.IOnChangeEditorBlock", "jetbrains.mps.baseLanguage.runConfigurations.structure.IsApplicableBlock", "jetbrains.mps.baseLanguage.runConfigurations.structure.JavaCheckBlock", "jetbrains.mps.baseLanguage.runConfigurations.structure.JavaConfigurationRunParameters_FunctionParameter", "jetbrains.mps.baseLanguage.runConfigurations.structure.JavaNodeConfigurationEditorDeclaration", "jetbrains.mps.baseLanguage.runConfigurations.structure.JavaNodeRunConfiguration", "jetbrains.mps.baseLanguage.runConfigurations.structure.JavaRunConfiguration", "jetbrains.mps.baseLanguage.runConfigurations.structure.NodeRunConfigPropertyInstance", "jetbrains.mps.baseLanguage.runConfigurations.structure.Node_FunctionParameter", "jetbrains.mps.baseLanguage.runConfigurations.structure.OnChangeNodeBlock", "jetbrains.mps.baseLanguage.runConfigurations.structure.UserComponentReferenceAnnotation"};
+  private static String[] stringSwitchCases_2qnle6_a0a0a = new String[]{"jetbrains.mps.baseLanguage.runConfigurations.structure.ComponentInsideOfChangeListenerAnnotation", "jetbrains.mps.baseLanguage.runConfigurations.structure.IJavaRunConfigurationParameter", "jetbrains.mps.baseLanguage.runConfigurations.structure.IOnChangeEditorBlock", "jetbrains.mps.baseLanguage.runConfigurations.structure.IsApplicableBlock", "jetbrains.mps.baseLanguage.runConfigurations.structure.JavaCheckBlock", "jetbrains.mps.baseLanguage.runConfigurations.structure.JavaConfigurationRunParameters_FunctionParameter", "jetbrains.mps.baseLanguage.runConfigurations.structure.JavaNodeConfigurationEditorDeclaration", "jetbrains.mps.baseLanguage.runConfigurations.structure.JavaNodeRunConfiguration", "jetbrains.mps.baseLanguage.runConfigurations.structure.JavaRunConfiguration", "jetbrains.mps.baseLanguage.runConfigurations.structure.NodeRunConfigPropertyInstance", "jetbrains.mps.baseLanguage.runConfigurations.structure.Node_FunctionParameter", "jetbrains.mps.baseLanguage.runConfigurations.structure.OnChangeNodeBlock", "jetbrains.mps.baseLanguage.runConfigurations.structure.UserComponentReferenceAnnotation"};
 
   public ConstraintsAspectDescriptor() {
   }
 
   public ConstraintsDescriptor getDescriptor(String fqName) {
     switch (Arrays.binarySearch(stringSwitchCases_2qnle6_a0a0a, fqName)) {
-      case 8:
+      case 7:
         return new DataHolderConstraintsDescriptor(new JavaNodeRunConfiguration_Constraints());
-      case 5:
+      case 4:
         return new DataHolderConstraintsDescriptor(new JavaCheckBlock_Constraints());
-      case 9:
+      case 8:
         return new DataHolderConstraintsDescriptor(new EmptyConstraintsDataHolder("jetbrains.mps.baseLanguage.runConfigurations.structure.JavaRunConfiguration"));
-      case 6:
+      case 5:
         return new DataHolderConstraintsDescriptor(new EmptyConstraintsDataHolder("jetbrains.mps.baseLanguage.runConfigurations.structure.JavaConfigurationRunParameters_FunctionParameter"));
-      case 13:
+      case 12:
         return new DataHolderConstraintsDescriptor(new EmptyConstraintsDataHolder("jetbrains.mps.baseLanguage.runConfigurations.structure.UserComponentReferenceAnnotation"));
-      case 11:
+      case 10:
         return new DataHolderConstraintsDescriptor(new EmptyConstraintsDataHolder("jetbrains.mps.baseLanguage.runConfigurations.structure.Node_FunctionParameter"));
       case 1:
         return new DataHolderConstraintsDescriptor(new EmptyConstraintsDataHolder("jetbrains.mps.baseLanguage.runConfigurations.structure.IJavaRunConfigurationParameter"));
-      case 10:
+      case 9:
         return new DataHolderConstraintsDescriptor(new NodeRunConfigPropertyInstance_Constraints());
-      case 7:
+      case 6:
         return new DataHolderConstraintsDescriptor(new EmptyConstraintsDataHolder("jetbrains.mps.baseLanguage.runConfigurations.structure.JavaNodeConfigurationEditorDeclaration"));
-      case 12:
+      case 11:
         return new DataHolderConstraintsDescriptor(new EmptyConstraintsDataHolder("jetbrains.mps.baseLanguage.runConfigurations.structure.OnChangeNodeBlock"));
       case 0:
         return new DataHolderConstraintsDescriptor(new EmptyConstraintsDataHolder("jetbrains.mps.baseLanguage.runConfigurations.structure.ComponentInsideOfChangeListenerAnnotation"));
-      case 3:
-        return new DataHolderConstraintsDescriptor(new EmptyConstraintsDataHolder("jetbrains.mps.baseLanguage.runConfigurations.structure.IOnChangeEditorBlock"));
-      case 4:
-        return new DataHolderConstraintsDescriptor(new EmptyConstraintsDataHolder("jetbrains.mps.baseLanguage.runConfigurations.structure.IsApplicableBlock"));
       case 2:
-        return new DataHolderConstraintsDescriptor(new EmptyConstraintsDataHolder("jetbrains.mps.baseLanguage.runConfigurations.structure.IMainClass"));
+        return new DataHolderConstraintsDescriptor(new EmptyConstraintsDataHolder("jetbrains.mps.baseLanguage.runConfigurations.structure.IOnChangeEditorBlock"));
+      case 3:
+        return new DataHolderConstraintsDescriptor(new EmptyConstraintsDataHolder("jetbrains.mps.baseLanguage.runConfigurations.structure.IsApplicableBlock"));
       default:
         return null;
     }

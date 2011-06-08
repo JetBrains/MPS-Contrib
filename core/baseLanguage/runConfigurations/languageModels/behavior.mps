@@ -21,15 +21,15 @@
   <import index="vfxe" modelUID="f:java_stub#37a3367b-1fb2-44d8-aa6b-18075e74e003#com.intellij.execution.configurations(com.intellij.execution.configurations@java_stub)" version="-1" />
   <import index="swvc" modelUID="f:java_stub#37a3367b-1fb2-44d8-aa6b-18075e74e003#jetbrains.mps.baseLanguage.util.plugin.run(MPS.Classpath/jetbrains.mps.baseLanguage.util.plugin.run@java_stub)" version="-1" />
   <import index="p4g7" modelUID="f:java_stub#37a3367b-1fb2-44d8-aa6b-18075e74e003#jetbrains.mps.generator.traceInfo(MPS.Classpath/jetbrains.mps.generator.traceInfo@java_stub)" version="-1" />
+  <import index="uhxm" modelUID="r:f3383ae6-205a-4e7c-8dd9-c29966e29e49(jetbrains.mps.execution.configurations.structure)" version="-1" />
   <import index="tpck" modelUID="r:00000000-0000-4000-0000-011c89590288(jetbrains.mps.lang.core.structure)" version="0" implicit="yes" />
   <import index="tp3r" modelUID="r:00000000-0000-4000-0000-011c8959034b(jetbrains.mps.lang.quotation.structure)" version="0" implicit="yes" />
   <import index="tp2q" modelUID="r:00000000-0000-4000-0000-011c8959032e(jetbrains.mps.baseLanguage.collections.structure)" version="7" implicit="yes" />
   <import index="1i04" modelUID="r:3270011d-8b2d-4938-8dff-d256a759e017(jetbrains.mps.lang.behavior.structure)" version="-1" implicit="yes" />
-  <import index="tp2c" modelUID="r:00000000-0000-4000-0000-011c89590338(jetbrains.mps.baseLanguage.closures.structure)" version="3" implicit="yes" />
   <roots>
     <node type="1i04.ConceptBehavior" typeId="1i04.1225194240794" id="6629582826328967165">
       <property name="virtualPackage" nameId="tpck.1193676396447" value="node" />
-      <link role="concept" roleId="1i04.1225194240799" targetNodeId="11eb.8456022385895583119" resolveInfo="JavaRunConfiguration" />
+      <link role="concept" roleId="1i04.1225194240799" targetNodeId="11eb.8456022385895583119" resolveInfo="JavaNodeRunConfiguration" />
     </node>
     <node type="1i04.ConceptBehavior" typeId="1i04.1225194240794" id="4964800443628310125">
       <property name="virtualPackage" nameId="tpck.1193676396447" value="java" />
@@ -49,9 +49,6 @@
     <node type="1i04.ConceptBehavior" typeId="1i04.1225194240794" id="4462513030604244387">
       <property name="virtualPackage" nameId="tpck.1193676396447" value="node" />
       <link role="concept" roleId="1i04.1225194240799" targetNodeId="11eb.4462513030604064303" resolveInfo="IsApplicableBlock" />
-    </node>
-    <node type="1i04.ConceptBehavior" typeId="1i04.1225194240794" id="5039796819214415808">
-      <link role="concept" roleId="1i04.1225194240799" targetNodeId="11eb.5039796819214415807" resolveInfo="IMainClass" />
     </node>
   </roots>
   <root id="6629582826328967165">
@@ -82,7 +79,7 @@
             </node>
             <node role="operation" roleId="tpee.1197027833540" type="tp2q.AddElementOperation" typeId="tp2q.1160612413312" id="3607966867310086848">
               <node role="argument" roleId="tp2q.1160612519549" type="tp25.ConceptRefExpression" typeId="tp25.1172424058054" id="3607966867310086849">
-                <link role="conceptDeclaration" roleId="tp25.1172424100906" targetNodeId="11eb.3607966867310075767" resolveInfo="JavaConfigurationNode_FunctionParameter" />
+                <link role="conceptDeclaration" roleId="tp25.1172424100906" targetNodeId="11eb.3607966867310075767" resolveInfo="Node_FunctionParameter" />
               </node>
             </node>
           </node>
@@ -135,7 +132,7 @@
             </node>
             <node role="initializer" roleId="tpee.1068431790190" type="tpee.DotExpression" typeId="tpee.1197027756228" id="4964800443628319894">
               <node role="operand" roleId="tpee.1197027771414" type="1i04.SuperNodeExpression" typeId="1i04.1225194628440" id="4964800443628319895">
-                <link role="superConcept" roleId="1i04.5299096511375896640" targetNodeId="tp4k.3636700473138841144" resolveInfo="IEnchancedRunConfiguration" />
+                <link role="superConcept" roleId="1i04.5299096511375896640" targetNodeId="tp4k.3636700473138841144" resolveInfo="IEnhancedRunConfiguration" />
               </node>
               <node role="operation" roleId="tpee.1197027833540" type="tp25.Node_ConceptMethodCall" typeId="tp25.1179409122411" id="4964800443628319896">
                 <link role="baseMethodDeclaration" roleId="tpee.1068499141037" targetNodeId="tp4s.3636700473138841189" resolveInfo="getAdditionalParameters" />
@@ -397,7 +394,7 @@
         <node role="statement" roleId="tpee.1068581517665" type="tpee.ReturnStatement" typeId="tpee.1068581242878" id="1810772216404831580">
           <node role="expression" roleId="tpee.1068581517676" type="tp25.StaticConceptMethodCall" typeId="tp25.1206019730951" id="281656731534946410">
             <link role="concept" roleId="tp25.1206019820684" targetNodeId="11eb.3607966867310075767" resolveInfo="Node_FunctionParameter" />
-            <link role="baseMethodDeclaration" roleId="tpee.1068499141037" targetNodeId="281656731534771380" resolveInfo="getVariableForExecuteBlockName" />
+            <link role="baseMethodDeclaration" roleId="tpee.1068499141037" targetNodeId="281656731534771380" resolveInfo="getVariableForExecuteBlockNameStatic" />
           </node>
         </node>
       </node>
@@ -447,49 +444,6 @@
     </node>
     <node role="constructor" roleId="1i04.1225194240801" type="1i04.ConceptConstructorDeclaration" typeId="1i04.1225194413805" id="4462513030604244388">
       <node role="body" roleId="tpee.1137022507850" type="tpee.StatementList" typeId="tpee.1068580123136" id="4462513030604244389" />
-    </node>
-  </root>
-  <root id="5039796819214415808">
-    <node role="method" roleId="1i04.1225194240805" type="1i04.ConceptMethodDeclaration" typeId="1i04.1225194472830" id="4482685194810363969">
-      <property name="isAbstract" nameId="1i04.1225194472834" value="false" />
-      <property name="isVirtual" nameId="1i04.1225194472832" value="true" />
-      <property name="name" nameId="tpck.1169194664001" value="getUnitName" />
-      <node role="visibility" roleId="tpee.1178549979242" type="tpee.PublicVisibility" typeId="tpee.1146644602865" id="4482685194810363970" />
-      <node role="returnType" roleId="tpee.1068580123133" type="tpee.StringType" typeId="tpee.1225271177708" id="4482685194810365946" />
-      <node role="body" roleId="tpee.1068580123135" type="tpee.StatementList" typeId="tpee.1068580123136" id="4482685194810363972">
-        <node role="statement" roleId="tpee.1068581517665" type="tpee.LocalVariableDeclarationStatement" typeId="tpee.1068581242864" id="4482685194810365948">
-          <node role="localVariableDeclaration" roleId="tpee.1068581242865" type="tpee.LocalVariableDeclaration" typeId="tpee.1068581242863" id="4482685194810365949">
-            <property name="name" nameId="tpck.1169194664001" value="unitName" />
-            <node role="type" roleId="tpee.5680397130376446158" type="tpee.StringType" typeId="tpee.1225271177708" id="4482685194810365950" />
-          </node>
-        </node>
-        <node role="statement" roleId="tpee.1068581517665" type="tp4k.ExecuteLightweightCommandStatement" typeId="tp4k.1225441341971" id="4482685194810365951">
-          <node role="commandClosureLiteral" roleId="tp4k.1225441160167" type="tp4k.CommandClosureLiteral" typeId="tp4k.1225441216717" id="4482685194810365952">
-            <node role="body" roleId="tp2c.1199569916463" type="tpee.StatementList" typeId="tpee.1068580123136" id="4482685194810365953">
-              <node role="statement" roleId="tpee.1068581517665" type="tpee.ExpressionStatement" typeId="tpee.1068580123155" id="4482685194810365954">
-                <node role="expression" roleId="tpee.1068580123156" type="tpee.AssignmentExpression" typeId="tpee.1068498886294" id="4482685194810365955">
-                  <node role="rValue" roleId="tpee.1068498886297" type="tpee.StaticMethodCall" typeId="tpee.1081236700937" id="4482685194810366167">
-                    <link role="baseMethodDeclaration" roleId="tpee.1068499141037" targetNodeId="p4g7.~TraceInfoUtil%dgetUnitName(jetbrains%dmps%dsmodel%dSNode)%cjava%dlang%dString" resolveInfo="getUnitName" />
-                    <link role="classConcept" roleId="tpee.1144433194310" targetNodeId="p4g7.~TraceInfoUtil" resolveInfo="TraceInfoUtil" />
-                    <node role="actualArgument" roleId="tpee.1068499141038" type="1i04.ThisNodeExpression" typeId="1i04.1225194691553" id="4482685194810366169" />
-                  </node>
-                  <node role="lValue" roleId="tpee.1068498886295" type="tpee.LocalVariableReference" typeId="tpee.1068581242866" id="4482685194810365959">
-                    <link role="variableDeclaration" roleId="tpee.1068581517664" targetNodeId="4482685194810365949" resolveInfo="className" />
-                  </node>
-                </node>
-              </node>
-            </node>
-          </node>
-        </node>
-        <node role="statement" roleId="tpee.1068581517665" type="tpee.ReturnStatement" typeId="tpee.1068581242878" id="4482685194810366171">
-          <node role="expression" roleId="tpee.1068581517676" type="tpee.LocalVariableReference" typeId="tpee.1068581242866" id="4482685194810366173">
-            <link role="variableDeclaration" roleId="tpee.1068581517664" targetNodeId="4482685194810365949" resolveInfo="className" />
-          </node>
-        </node>
-      </node>
-    </node>
-    <node role="constructor" roleId="1i04.1225194240801" type="1i04.ConceptConstructorDeclaration" typeId="1i04.1225194413805" id="5039796819214415809">
-      <node role="body" roleId="tpee.1137022507850" type="tpee.StatementList" typeId="tpee.1068580123136" id="5039796819214415810" />
     </node>
   </root>
 </model>
