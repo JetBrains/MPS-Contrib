@@ -4,19 +4,16 @@ package jetbrains.mps.xmlInternal;
 
 import jetbrains.mps.smodel.language.LanguageRuntime;
 import jetbrains.mps.project.structure.modules.ModuleReference;
+import jetbrains.mps.lang.typesystem.runtime.IHelginsDescriptor;
+import jetbrains.mps.ide.findusages.BaseFindUsagesDescriptor;
 import java.util.Collection;
 import jetbrains.mps.generator.runtime.TemplateModule;
 import jetbrains.mps.generator.runtime.TemplateUtil;
-import jetbrains.mps.lang.typesystem.runtime.IHelginsDescriptor;
-import jetbrains.mps.ide.findusages.BaseFindUsagesDescriptor;
 
 public class Language extends LanguageRuntime {
   public static ModuleReference MODULE_REFERENCE = ModuleReference.fromString("64f62b28-36e3-4052-9f72-f616211ae615(jetbrains.mps.xmlInternal)");
 
-  private final Collection<TemplateModule> generators;
-
   public Language() {
-    generators = TemplateUtil.<TemplateModule>asCollection(TemplateUtil.createInterpretedGenerator(this, "54e8601c-dee3-4b7a-94f7-5ee53b3f2dcb(jetbrains.mps.xmlInternal#1165632612566)"));
 
   }
 
@@ -35,6 +32,6 @@ public class Language extends LanguageRuntime {
   }
 
   public Collection<TemplateModule> getGenerators() {
-    return generators;
+    return TemplateUtil.<TemplateModule>asCollection(TemplateUtil.createInterpretedGenerator(this, "54e8601c-dee3-4b7a-94f7-5ee53b3f2dcb(jetbrains.mps.xmlInternal#1165632612566)"));
   }
 }
