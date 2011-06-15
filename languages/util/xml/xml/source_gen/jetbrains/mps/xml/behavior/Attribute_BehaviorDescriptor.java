@@ -6,4 +6,9 @@ package jetbrains.mps.xml.behavior;
 public class Attribute_BehaviorDescriptor extends BaseAttribute_BehaviorDescriptor {
   public Attribute_BehaviorDescriptor() {
   }
+
+  @Override
+  public String getConceptFqName() {
+    return "jetbrains.mps.xml.structure.Attribute";
+  }
 }

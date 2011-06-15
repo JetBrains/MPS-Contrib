@@ -6,4 +6,9 @@ package jetbrains.mps.baseLanguage.dates.behavior;
 public class DefaultTimeZoneConstant_BehaviorDescriptor extends TimeZoneConstant_BehaviorDescriptor {
   public DefaultTimeZoneConstant_BehaviorDescriptor() {
   }
+
+  @Override
+  public String getConceptFqName() {
+    return "jetbrains.mps.baseLanguage.dates.structure.DefaultTimeZoneConstant";
+  }
 }

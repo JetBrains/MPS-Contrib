@@ -7,4 +7,9 @@ import jetbrains.mps.baseLanguage.behavior.Statement_BehaviorDescriptor;
 public class ProcessStatement_BehaviorDescriptor extends Statement_BehaviorDescriptor implements ExecuteSpecific_BehaviorDescriptor {
   public ProcessStatement_BehaviorDescriptor() {
   }
+
+  @Override
+  public String getConceptFqName() {
+    return "jetbrains.mps.lang.plugin.structure.ProcessStatement";
+  }
 }

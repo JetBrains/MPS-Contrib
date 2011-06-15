@@ -6,4 +6,9 @@ package jetbrains.mps.gtext.behavior;
 public class GIndentBlock_BehaviorDescriptor extends GItem_BehaviorDescriptor {
   public GIndentBlock_BehaviorDescriptor() {
   }
+
+  @Override
+  public String getConceptFqName() {
+    return "jetbrains.mps.gtext.structure.GIndentBlock";
+  }
 }

@@ -7,4 +7,9 @@ import jetbrains.mps.baseLanguage.behavior.ConceptFunction_BehaviorDescriptor;
 public class OnChangeNodeBlock_BehaviorDescriptor extends ConceptFunction_BehaviorDescriptor implements IOnChangeEditorBlock_BehaviorDescriptor {
   public OnChangeNodeBlock_BehaviorDescriptor() {
   }
+
+  @Override
+  public String getConceptFqName() {
+    return "jetbrains.mps.baseLanguage.runConfigurations.structure.OnChangeNodeBlock";
+  }
 }

@@ -13,4 +13,9 @@ public abstract class AbstractImportProperties_BehaviorDescriptor extends BaseCo
   public List<SNode> virtual_getPropertyDeclarations_1240397763706(SNode thisNode) {
     return AbstractImportProperties_Behavior.virtual_getPropertyDeclarations_1240397763706(thisNode);
   }
+
+  @Override
+  public String getConceptFqName() {
+    return "jetbrains.mps.buildlanguage.structure.AbstractImportProperties";
+  }
 }

@@ -6,4 +6,9 @@ package jetbrains.mps.baseLanguage.dates.behavior;
 public class PeriodLiteralFormatToken_BehaviorDescriptor extends PeriodFormatToken_BehaviorDescriptor {
   public PeriodLiteralFormatToken_BehaviorDescriptor() {
   }
+
+  @Override
+  public String getConceptFqName() {
+    return "jetbrains.mps.baseLanguage.dates.structure.PeriodLiteralFormatToken";
+  }
 }

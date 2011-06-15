@@ -7,4 +7,9 @@ import jetbrains.mps.baseLanguage.behavior.ConceptFunction_BehaviorDescriptor;
 public class TokenCondition_BehaviorDescriptor extends ConceptFunction_BehaviorDescriptor {
   public TokenCondition_BehaviorDescriptor() {
   }
+
+  @Override
+  public String getConceptFqName() {
+    return "jetbrains.mps.baseLanguage.dates.structure.TokenCondition";
+  }
 }

@@ -6,4 +6,9 @@ package jetbrains.mps.lang.plugin.behavior;
 public class CheckConfigurationBlock_BehaviorDescriptor extends AbstractCheckConfigBlock_BehaviorDescriptor {
   public CheckConfigurationBlock_BehaviorDescriptor() {
   }
+
+  @Override
+  public String getConceptFqName() {
+    return "jetbrains.mps.lang.plugin.structure.CheckConfigurationBlock";
+  }
 }

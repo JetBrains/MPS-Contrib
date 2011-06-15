@@ -6,4 +6,9 @@ package jetbrains.mps.gtext.behavior;
 public class GText_BehaviorDescriptor extends GItem_BehaviorDescriptor {
   public GText_BehaviorDescriptor() {
   }
+
+  @Override
+  public String getConceptFqName() {
+    return "jetbrains.mps.gtext.structure.GText";
+  }
 }

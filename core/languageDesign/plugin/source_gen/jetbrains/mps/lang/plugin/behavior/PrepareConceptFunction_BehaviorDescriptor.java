@@ -12,4 +12,9 @@ public class PrepareConceptFunction_BehaviorDescriptor extends ConceptFunction_B
   public SNode virtual_getExpectedReturnType_1213877374441(SNode thisNode) {
     return PrepareConceptFunction_Behavior.virtual_getExpectedReturnType_1213877374441(thisNode);
   }
+
+  @Override
+  public String getConceptFqName() {
+    return "jetbrains.mps.lang.plugin.structure.PrepareConceptFunction";
+  }
 }

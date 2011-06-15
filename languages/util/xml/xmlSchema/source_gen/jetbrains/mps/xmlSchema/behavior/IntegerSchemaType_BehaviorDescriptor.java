@@ -6,4 +6,9 @@ package jetbrains.mps.xmlSchema.behavior;
 public class IntegerSchemaType_BehaviorDescriptor extends SchemaType_BehaviorDescriptor {
   public IntegerSchemaType_BehaviorDescriptor() {
   }
+
+  @Override
+  public String getConceptFqName() {
+    return "jetbrains.mps.xmlSchema.structure.IntegerSchemaType";
+  }
 }

@@ -11,6 +11,11 @@ public abstract class ContentItem_BehaviorDescriptor extends BaseConcept_Behavio
   public ContentItem_BehaviorDescriptor() {
   }
 
+  @Override
+  public String getConceptFqName() {
+    return "jetbrains.mps.xmlSchema.structure.ContentItem";
+  }
+
   public abstract void virtual_checkAttributes_1213877413538(SNode thisNode, List<SNode> attributeDeclarations);
 
   public abstract void virtual_checkElements_1213877413543(SNode thisNode, Set<SNode> elementDeclarations);

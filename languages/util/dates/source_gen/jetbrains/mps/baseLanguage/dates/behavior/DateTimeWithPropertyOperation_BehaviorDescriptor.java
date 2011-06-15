@@ -6,4 +6,9 @@ package jetbrains.mps.baseLanguage.dates.behavior;
 public class DateTimeWithPropertyOperation_BehaviorDescriptor extends UnaryDateTimeOperation_BehaviorDescriptor {
   public DateTimeWithPropertyOperation_BehaviorDescriptor() {
   }
+
+  @Override
+  public String getConceptFqName() {
+    return "jetbrains.mps.baseLanguage.dates.structure.DateTimeWithPropertyOperation";
+  }
 }

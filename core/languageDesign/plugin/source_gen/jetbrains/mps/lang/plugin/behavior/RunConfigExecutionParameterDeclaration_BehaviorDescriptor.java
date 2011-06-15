@@ -15,4 +15,9 @@ public class RunConfigExecutionParameterDeclaration_BehaviorDescriptor extends A
   public boolean virtual_canOperationBeChild_4593153787954614840(SNode thisNode, SNode parentNode) {
     return RunConfigExecutionParameterDeclaration_Behavior.virtual_canOperationBeChild_4593153787954614840(thisNode, parentNode);
   }
+
+  @Override
+  public String getConceptFqName() {
+    return "jetbrains.mps.lang.plugin.structure.RunConfigExecutionParameterDeclaration";
+  }
 }

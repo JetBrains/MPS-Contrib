@@ -17,4 +17,9 @@ public class TimeConstant_BehaviorDescriptor extends Expression_BehaviorDescript
   public SNode virtual_deriveType_1213877435747(SNode thisNode, SNode expression) {
     return TimeConstant_Behavior.virtual_deriveType_1213877435747(thisNode, expression);
   }
+
+  @Override
+  public String getConceptFqName() {
+    return "jetbrains.mps.baseLanguage.dates.structure.TimeConstant";
+  }
 }

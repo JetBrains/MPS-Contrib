@@ -12,4 +12,9 @@ public class GroupReference_BehaviorDescriptor extends TypeExpression_BehaviorDe
   public void virtual_checkElements_1213877382378(SNode thisNode, Set<SNode> elementDeclarations) {
     GroupReference_Behavior.virtual_checkElements_1213877382378(thisNode, elementDeclarations);
   }
+
+  @Override
+  public String getConceptFqName() {
+    return "jetbrains.mps.xmlSchema.structure.GroupReference";
+  }
 }

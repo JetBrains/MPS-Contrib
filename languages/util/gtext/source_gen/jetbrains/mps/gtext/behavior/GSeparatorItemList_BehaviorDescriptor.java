@@ -12,4 +12,9 @@ public class GSeparatorItemList_BehaviorDescriptor extends GItem_BehaviorDescrip
   public List<SNode> virtual_getItems_1239125087745(SNode thisNode) {
     return GSeparatorItemList_Behavior.virtual_getItems_1239125087745(thisNode);
   }
+
+  @Override
+  public String getConceptFqName() {
+    return "jetbrains.mps.gtext.structure.GSeparatorItemList";
+  }
 }

@@ -12,4 +12,9 @@ public class DateTimeType_BehaviorDescriptor extends Type_BehaviorDescriptor {
   public SNode virtual_getJavaType_1213877337345(SNode thisNode) {
     return DateTimeType_Behavior.virtual_getJavaType_1213877337345(thisNode);
   }
+
+  @Override
+  public String getConceptFqName() {
+    return "jetbrains.mps.baseLanguage.dates.structure.DateTimeType";
+  }
 }

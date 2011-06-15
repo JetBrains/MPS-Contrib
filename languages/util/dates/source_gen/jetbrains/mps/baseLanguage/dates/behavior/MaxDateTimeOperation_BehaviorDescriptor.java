@@ -6,4 +6,9 @@ package jetbrains.mps.baseLanguage.dates.behavior;
 public class MaxDateTimeOperation_BehaviorDescriptor extends MathDateTimeOperation_BehaviorDescriptor {
   public MaxDateTimeOperation_BehaviorDescriptor() {
   }
+
+  @Override
+  public String getConceptFqName() {
+    return "jetbrains.mps.baseLanguage.dates.structure.MaxDateTimeOperation";
+  }
 }

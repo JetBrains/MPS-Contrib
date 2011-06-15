@@ -7,4 +7,9 @@ import jetbrains.mps.baseLanguage.behavior.Statement_BehaviorDescriptor;
 public class CreateRunConfigStatement_BehaviorDescriptor extends Statement_BehaviorDescriptor {
   public CreateRunConfigStatement_BehaviorDescriptor() {
   }
+
+  @Override
+  public String getConceptFqName() {
+    return "jetbrains.mps.lang.plugin.structure.CreateRunConfigStatement";
+  }
 }

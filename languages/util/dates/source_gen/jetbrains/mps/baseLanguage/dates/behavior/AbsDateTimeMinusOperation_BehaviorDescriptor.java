@@ -6,4 +6,9 @@ package jetbrains.mps.baseLanguage.dates.behavior;
 public class AbsDateTimeMinusOperation_BehaviorDescriptor extends DateTimeMinusOperation_BehaviorDescriptor {
   public AbsDateTimeMinusOperation_BehaviorDescriptor() {
   }
+
+  @Override
+  public String getConceptFqName() {
+    return "jetbrains.mps.baseLanguage.dates.structure.AbsDateTimeMinusOperation";
+  }
 }

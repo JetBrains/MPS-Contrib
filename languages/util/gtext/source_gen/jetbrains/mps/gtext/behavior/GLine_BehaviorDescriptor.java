@@ -16,4 +16,9 @@ public class GLine_BehaviorDescriptor extends GItem_BehaviorDescriptor implement
   public List<SNode> virtual_getItems_1239125087745(SNode thisNode) {
     return GLine_Behavior.virtual_getItems_1239125087745(thisNode);
   }
+
+  @Override
+  public String getConceptFqName() {
+    return "jetbrains.mps.gtext.structure.GLine";
+  }
 }

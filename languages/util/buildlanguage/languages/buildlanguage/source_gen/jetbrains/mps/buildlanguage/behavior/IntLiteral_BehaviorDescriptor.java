@@ -15,4 +15,9 @@ public class IntLiteral_BehaviorDescriptor extends PropertyValueExpression_Behav
   public String virtual_toString_1213877472569(SNode thisNode) {
     return IntLiteral_Behavior.virtual_toString_1213877472569(thisNode);
   }
+
+  @Override
+  public String getConceptFqName() {
+    return "jetbrains.mps.buildlanguage.structure.IntLiteral";
+  }
 }

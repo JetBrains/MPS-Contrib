@@ -21,4 +21,9 @@ public class ComplexType_BehaviorDescriptor extends Declaration_BehaviorDescript
   public void virtual_checkAttributes_1213877382373(SNode thisNode, List<SNode> attributeDeclarations) {
     ComplexType_Behavior.virtual_checkAttributes_1213877382373(thisNode, attributeDeclarations);
   }
+
+  @Override
+  public String getConceptFqName() {
+    return "jetbrains.mps.xmlSchema.structure.ComplexType";
+  }
 }

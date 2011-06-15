@@ -18,4 +18,9 @@ public class JavaRunConfiguration_BehaviorDescriptor extends RunConfigurationDec
   public List<SNode> virtual_getAdditionalParameters_3636700473138841189(SNode thisNode) {
     return JavaRunConfiguration_Behavior.virtual_getAdditionalParameters_3636700473138841189(thisNode);
   }
+
+  @Override
+  public String getConceptFqName() {
+    return "jetbrains.mps.baseLanguage.runConfigurations.structure.JavaRunConfiguration";
+  }
 }

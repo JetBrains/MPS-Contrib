@@ -7,4 +7,9 @@ import jetbrains.mps.baseLanguage.behavior.Expression_BehaviorDescriptor;
 public class NeverExpression_BehaviorDescriptor extends Expression_BehaviorDescriptor {
   public NeverExpression_BehaviorDescriptor() {
   }
+
+  @Override
+  public String getConceptFqName() {
+    return "jetbrains.mps.baseLanguage.dates.structure.NeverExpression";
+  }
 }

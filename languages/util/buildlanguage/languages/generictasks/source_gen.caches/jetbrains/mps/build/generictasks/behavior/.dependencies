@@ -12,6 +12,7 @@
     <classNode dependClassName="jetbrains.mps.smodel.SNode" />
   </dependency>
   <dependency className="jetbrains.mps.build.generictasks.behavior.AttributeDeclaration_BehaviorDescriptor" file="AttributeDeclaration_BehaviorDescriptor.java">
+    <classNode dependClassName="java.lang.Override" />
     <classNode dependClassName="java.lang.String" />
     <classNode dependClassName="jetbrains.mps.baseLanguage.classifiers.behavior.IMember_Behavior" />
     <classNode dependClassName="jetbrains.mps.baseLanguage.classifiers.behavior.IMember_BehaviorDescriptor" />
@@ -20,7 +21,7 @@
     <classNode dependClassName="jetbrains.mps.lang.core.behavior.INamedConcept_BehaviorDescriptor" />
     <classNode dependClassName="jetbrains.mps.smodel.SNode" />
     <classNode extendsClassName="java.lang.Cloneable" />
-    <classNode extendsClassName="jetbrains.mps.smodel.structure.BehaviorDescriptor" />
+    <classNode extendsClassName="jetbrains.mps.smodel.runtime.impl.CompiledBehaviorDescriptor" />
   </dependency>
   <dependency className="jetbrains.mps.build.generictasks.behavior.Attribute_Behavior" file="Attribute_Behavior.java">
     <classNode dependClassName="jetbrains.mps.build.generictasks.behavior.AttributeDeclaration_Behavior" />
@@ -28,8 +29,10 @@
     <classNode dependClassName="jetbrains.mps.smodel.SNode" />
   </dependency>
   <dependency className="jetbrains.mps.build.generictasks.behavior.Attribute_BehaviorDescriptor" file="Attribute_BehaviorDescriptor.java">
+    <classNode dependClassName="java.lang.Override" />
+    <classNode dependClassName="java.lang.String" />
     <classNode dependClassName="jetbrains.mps.lang.core.behavior.BaseConcept_BehaviorDescriptor" />
-    <classNode extendsClassName="jetbrains.mps.smodel.structure.BehaviorDescriptor" />
+    <classNode extendsClassName="jetbrains.mps.smodel.runtime.impl.CompiledBehaviorDescriptor" />
   </dependency>
   <dependency className="jetbrains.mps.build.generictasks.behavior.BehaviorAspectDescriptor" file="BehaviorAspectDescriptor.java">
     <classNode dependClassName="java.lang.String" />
@@ -42,8 +45,9 @@
     <classNode dependClassName="jetbrains.mps.build.generictasks.behavior.TaskCall_BehaviorDescriptor" />
     <classNode dependClassName="jetbrains.mps.build.generictasks.behavior.TaskInterfaceDeclaration_BehaviorDescriptor" />
     <classNode dependClassName="jetbrains.mps.build.generictasks.behavior.TaskReference_BehaviorDescriptor" />
-    <classNode dependClassName="jetbrains.mps.smodel.structure.BehaviorDescriptor" />
-    <classNode extendsClassName="jetbrains.mps.smodel.structure.DescriptorProvider" />
+    <classNode dependClassName="jetbrains.mps.smodel.runtime.BehaviorDescriptor" />
+    <classNode dependClassName="jetbrains.mps.smodel.runtime.interpreted.BehaviorAspectInterpreted" />
+    <classNode extendsClassName="jetbrains.mps.smodel.runtime.BehaviorAspectDescriptor" />
   </dependency>
   <dependency className="jetbrains.mps.build.generictasks.behavior.BuiltInTaskDeclaration_Behavior" file="BuiltInTaskDeclaration_Behavior.java">
     <classNode dependClassName="java.lang.Iterable" />
@@ -69,6 +73,7 @@
   </dependency>
   <dependency className="jetbrains.mps.build.generictasks.behavior.BuiltInTaskDeclaration_BehaviorDescriptor" file="BuiltInTaskDeclaration_BehaviorDescriptor.java">
     <classNode dependClassName="java.lang.Iterable" />
+    <classNode dependClassName="java.lang.Override" />
     <classNode dependClassName="java.lang.String" />
     <classNode dependClassName="java.util.List" />
     <classNode dependClassName="jetbrains.mps.baseLanguage.behavior.AbstractExtractMethodRefactoringProcessor" />
@@ -81,7 +86,7 @@
     <classNode dependClassName="jetbrains.mps.lang.core.behavior.INamedConcept_Behavior" />
     <classNode dependClassName="jetbrains.mps.smodel.SNode" />
     <classNode extendsClassName="java.lang.Cloneable" />
-    <classNode extendsClassName="jetbrains.mps.smodel.structure.BehaviorDescriptor" />
+    <classNode extendsClassName="jetbrains.mps.smodel.runtime.impl.CompiledBehaviorDescriptor" />
   </dependency>
   <dependency className="jetbrains.mps.build.generictasks.behavior.ITaskDeclaration_Behavior" file="ITaskDeclaration_Behavior.java">
     <classNode dependClassName="java.lang.Boolean" />
@@ -110,8 +115,10 @@
     <classNode extendsClassName="java.lang.Cloneable" />
   </dependency>
   <dependency className="jetbrains.mps.build.generictasks.behavior.NestedDeclaration_BehaviorDescriptor" file="NestedDeclaration_BehaviorDescriptor.java">
+    <classNode dependClassName="java.lang.Override" />
+    <classNode dependClassName="java.lang.String" />
     <classNode dependClassName="jetbrains.mps.build.generictasks.behavior.TaskReference_BehaviorDescriptor" />
-    <classNode extendsClassName="jetbrains.mps.smodel.structure.BehaviorDescriptor" />
+    <classNode extendsClassName="jetbrains.mps.smodel.runtime.impl.CompiledBehaviorDescriptor" />
   </dependency>
   <dependency className="jetbrains.mps.build.generictasks.behavior.PathReference_Behavior" file="PathReference_Behavior.java">
     <classNode dependClassName="java.lang.String" />
@@ -126,12 +133,13 @@
     <classNode dependClassName="jetbrains.mps.smodel.SNode" />
   </dependency>
   <dependency className="jetbrains.mps.build.generictasks.behavior.PathReference_BehaviorDescriptor" file="PathReference_BehaviorDescriptor.java">
+    <classNode dependClassName="java.lang.Override" />
     <classNode dependClassName="java.lang.String" />
     <classNode dependClassName="java.util.List" />
     <classNode dependClassName="jetbrains.mps.build.generictasks.behavior.PathReference_Behavior" />
     <classNode dependClassName="jetbrains.mps.buildlanguage.behavior.CallReference_BehaviorDescriptor" />
     <classNode dependClassName="jetbrains.mps.smodel.SNode" />
-    <classNode extendsClassName="jetbrains.mps.smodel.structure.BehaviorDescriptor" />
+    <classNode extendsClassName="jetbrains.mps.smodel.runtime.impl.CompiledBehaviorDescriptor" />
   </dependency>
   <dependency className="jetbrains.mps.build.generictasks.behavior.TaskCall_Behavior" file="TaskCall_Behavior.java">
     <classNode dependClassName="java.lang.Iterable" />
@@ -148,21 +156,27 @@
     <classNode dependClassName="jetbrains.mps.smodel.SNode" />
   </dependency>
   <dependency className="jetbrains.mps.build.generictasks.behavior.TaskCall_BehaviorDescriptor" file="TaskCall_BehaviorDescriptor.java">
+    <classNode dependClassName="java.lang.Override" />
+    <classNode dependClassName="java.lang.String" />
     <classNode dependClassName="jetbrains.mps.buildlanguage.behavior.AbstractCall_BehaviorDescriptor" />
     <classNode dependClassName="jetbrains.mps.lang.core.behavior.INamedConcept_BehaviorDescriptor" />
     <classNode extendsClassName="java.lang.Cloneable" />
-    <classNode extendsClassName="jetbrains.mps.smodel.structure.BehaviorDescriptor" />
+    <classNode extendsClassName="jetbrains.mps.smodel.runtime.impl.CompiledBehaviorDescriptor" />
   </dependency>
   <dependency className="jetbrains.mps.build.generictasks.behavior.TaskInterfaceDeclaration_BehaviorDescriptor" file="TaskInterfaceDeclaration_BehaviorDescriptor.java">
+    <classNode dependClassName="java.lang.Override" />
+    <classNode dependClassName="java.lang.String" />
     <classNode dependClassName="jetbrains.mps.build.generictasks.behavior.BuiltInTaskDeclaration_BehaviorDescriptor" />
-    <classNode extendsClassName="jetbrains.mps.smodel.structure.BehaviorDescriptor" />
+    <classNode extendsClassName="jetbrains.mps.smodel.runtime.impl.CompiledBehaviorDescriptor" />
   </dependency>
   <dependency className="jetbrains.mps.build.generictasks.behavior.TaskReference_Behavior" file="TaskReference_Behavior.java">
     <classNode dependClassName="jetbrains.mps.smodel.SNode" />
   </dependency>
   <dependency className="jetbrains.mps.build.generictasks.behavior.TaskReference_BehaviorDescriptor" file="TaskReference_BehaviorDescriptor.java">
+    <classNode dependClassName="java.lang.Override" />
+    <classNode dependClassName="java.lang.String" />
     <classNode dependClassName="jetbrains.mps.lang.core.behavior.BaseConcept_BehaviorDescriptor" />
-    <classNode extendsClassName="jetbrains.mps.smodel.structure.BehaviorDescriptor" />
+    <classNode extendsClassName="jetbrains.mps.smodel.runtime.impl.CompiledBehaviorDescriptor" />
   </dependency>
 </dependenciesRoot>
 

@@ -12,4 +12,9 @@ public class BuilderContextRef_BehaviorDescriptor extends Expression_BehaviorDes
   public Object virtual_eval_1213877519769(SNode thisNode, ClassLoader contextClassLoader) {
     return BuilderContextRef_Behavior.virtual_eval_1213877519769(thisNode, contextClassLoader);
   }
+
+  @Override
+  public String getConceptFqName() {
+    return "jetbrains.mps.gtext.structure.BuilderContextRef";
+  }
 }

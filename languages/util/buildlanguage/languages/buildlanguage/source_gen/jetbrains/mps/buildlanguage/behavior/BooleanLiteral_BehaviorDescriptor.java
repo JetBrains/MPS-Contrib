@@ -15,4 +15,9 @@ public class BooleanLiteral_BehaviorDescriptor extends PropertyValueExpression_B
   public String virtual_toString_1213877472569(SNode thisNode) {
     return BooleanLiteral_Behavior.virtual_toString_1213877472569(thisNode);
   }
+
+  @Override
+  public String getConceptFqName() {
+    return "jetbrains.mps.buildlanguage.structure.BooleanLiteral";
+  }
 }

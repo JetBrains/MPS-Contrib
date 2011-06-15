@@ -15,4 +15,9 @@ public class SimpleContent_BehaviorDescriptor extends TypeExpression_BehaviorDes
   public boolean virtual_hasElementReferences_1213877382383(SNode thisNode) {
     return SimpleContent_Behavior.virtual_hasElementReferences_1213877382383(thisNode);
   }
+
+  @Override
+  public String getConceptFqName() {
+    return "jetbrains.mps.xmlSchema.structure.SimpleContent";
+  }
 }

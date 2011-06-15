@@ -22,5 +22,10 @@ public abstract class ElementDeclaration_BehaviorDescriptor extends Declaration_
     ElementDeclaration_Behavior.virtual_checkAttributes_1213877382373(thisNode, attributeDeclarations);
   }
 
+  @Override
+  public String getConceptFqName() {
+    return "jetbrains.mps.xmlSchema.structure.ElementDeclaration";
+  }
+
   public abstract SNode virtual_getComplexType_1213877429806(SNode thisNode);
 }

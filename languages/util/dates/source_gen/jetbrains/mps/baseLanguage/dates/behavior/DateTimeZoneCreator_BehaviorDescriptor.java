@@ -7,4 +7,9 @@ import jetbrains.mps.baseLanguage.behavior.AbstractCreator_BehaviorDescriptor;
 public class DateTimeZoneCreator_BehaviorDescriptor extends AbstractCreator_BehaviorDescriptor {
   public DateTimeZoneCreator_BehaviorDescriptor() {
   }
+
+  @Override
+  public String getConceptFqName() {
+    return "jetbrains.mps.baseLanguage.dates.structure.DateTimeZoneCreator";
+  }
 }

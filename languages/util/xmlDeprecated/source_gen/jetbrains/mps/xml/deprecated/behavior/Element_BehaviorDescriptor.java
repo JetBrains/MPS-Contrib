@@ -6,4 +6,9 @@ package jetbrains.mps.xml.deprecated.behavior;
 public class Element_BehaviorDescriptor extends ElementPart_BehaviorDescriptor {
   public Element_BehaviorDescriptor() {
   }
+
+  @Override
+  public String getConceptFqName() {
+    return "jetbrains.mps.xml.deprecated.structure.Element";
+  }
 }

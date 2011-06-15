@@ -10,5 +10,10 @@ public abstract class ExternalId_BehaviorDescriptor extends BaseConcept_Behavior
   public ExternalId_BehaviorDescriptor() {
   }
 
+  @Override
+  public String getConceptFqName() {
+    return "jetbrains.mps.xml.deprecated.structure.ExternalId";
+  }
+
   public abstract void virtual_createID_1234406619968(SNode thisNode, DocType doctype);
 }

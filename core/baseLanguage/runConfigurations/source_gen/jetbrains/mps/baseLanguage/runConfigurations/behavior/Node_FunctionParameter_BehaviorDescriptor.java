@@ -16,4 +16,9 @@ public class Node_FunctionParameter_BehaviorDescriptor extends ConceptFunctionPa
   public SNode virtual_getParameterType_1810772216404820824(SNode thisNode) {
     return Node_FunctionParameter_Behavior.virtual_getParameterType_1810772216404820824(thisNode);
   }
+
+  @Override
+  public String getConceptFqName() {
+    return "jetbrains.mps.baseLanguage.runConfigurations.structure.Node_FunctionParameter";
+  }
 }

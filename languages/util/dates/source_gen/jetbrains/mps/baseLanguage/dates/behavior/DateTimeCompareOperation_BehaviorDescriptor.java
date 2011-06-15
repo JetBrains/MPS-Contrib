@@ -7,4 +7,9 @@ import jetbrains.mps.baseLanguage.behavior.Expression_BehaviorDescriptor;
 public class DateTimeCompareOperation_BehaviorDescriptor extends Expression_BehaviorDescriptor {
   public DateTimeCompareOperation_BehaviorDescriptor() {
   }
+
+  @Override
+  public String getConceptFqName() {
+    return "jetbrains.mps.baseLanguage.dates.structure.DateTimeCompareOperation";
+  }
 }

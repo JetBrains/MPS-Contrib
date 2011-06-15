@@ -20,4 +20,9 @@ public class AttributeBuilder_BehaviorDescriptor extends Builder_BehaviorDescrip
   public SNode virtual_getCreatorExpression_7057666463730727863(SNode thisNode, SNode parentRef) {
     return AttributeBuilder_Behavior.virtual_getCreatorExpression_7057666463730727863(thisNode, parentRef);
   }
+
+  @Override
+  public String getConceptFqName() {
+    return "jetbrains.mps.xmlQuery.structure.AttributeBuilder";
+  }
 }

@@ -6,4 +6,9 @@ package jetbrains.mps.xmlSchema.behavior;
 public abstract class GroupExpression_BehaviorDescriptor extends TypeExpression_BehaviorDescriptor {
   public GroupExpression_BehaviorDescriptor() {
   }
+
+  @Override
+  public String getConceptFqName() {
+    return "jetbrains.mps.xmlSchema.structure.GroupExpression";
+  }
 }

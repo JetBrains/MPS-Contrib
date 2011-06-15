@@ -6,4 +6,9 @@ package jetbrains.mps.xmlQuery.behavior;
 public class AccessTextOperation_BehaviorDescriptor extends XMLElementOperation_BehaviorDescriptor {
   public AccessTextOperation_BehaviorDescriptor() {
   }
+
+  @Override
+  public String getConceptFqName() {
+    return "jetbrains.mps.xmlQuery.structure.AccessTextOperation";
+  }
 }

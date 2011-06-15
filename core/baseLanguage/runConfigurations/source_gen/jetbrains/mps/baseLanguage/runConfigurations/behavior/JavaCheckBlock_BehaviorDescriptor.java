@@ -7,4 +7,9 @@ import jetbrains.mps.lang.plugin.behavior.AbstractCheckConfigBlock_BehaviorDescr
 public class JavaCheckBlock_BehaviorDescriptor extends AbstractCheckConfigBlock_BehaviorDescriptor {
   public JavaCheckBlock_BehaviorDescriptor() {
   }
+
+  @Override
+  public String getConceptFqName() {
+    return "jetbrains.mps.baseLanguage.runConfigurations.structure.JavaCheckBlock";
+  }
 }

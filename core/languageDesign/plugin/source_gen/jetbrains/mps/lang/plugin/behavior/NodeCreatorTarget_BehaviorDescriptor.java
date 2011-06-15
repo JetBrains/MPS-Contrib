@@ -6,4 +6,9 @@ package jetbrains.mps.lang.plugin.behavior;
 public class NodeCreatorTarget_BehaviorDescriptor extends BaseCreatorTarget_BehaviorDescriptor {
   public NodeCreatorTarget_BehaviorDescriptor() {
   }
+
+  @Override
+  public String getConceptFqName() {
+    return "jetbrains.mps.lang.plugin.structure.NodeCreatorTarget";
+  }
 }

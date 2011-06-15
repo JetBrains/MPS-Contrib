@@ -6,4 +6,9 @@ package jetbrains.mps.baseLanguage.dates.behavior;
 public class FloorDateTimeOperation_BehaviorDescriptor extends RoundDateTimeOperation_BehaviorDescriptor {
   public FloorDateTimeOperation_BehaviorDescriptor() {
   }
+
+  @Override
+  public String getConceptFqName() {
+    return "jetbrains.mps.baseLanguage.dates.structure.FloorDateTimeOperation";
+  }
 }

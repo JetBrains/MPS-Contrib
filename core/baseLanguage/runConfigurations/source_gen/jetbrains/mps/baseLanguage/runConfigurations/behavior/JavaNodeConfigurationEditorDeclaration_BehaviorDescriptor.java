@@ -7,4 +7,9 @@ import jetbrains.mps.lang.plugin.behavior.ConfigurationEditorDeclaration_Behavio
 public class JavaNodeConfigurationEditorDeclaration_BehaviorDescriptor extends ConfigurationEditorDeclaration_BehaviorDescriptor {
   public JavaNodeConfigurationEditorDeclaration_BehaviorDescriptor() {
   }
+
+  @Override
+  public String getConceptFqName() {
+    return "jetbrains.mps.baseLanguage.runConfigurations.structure.JavaNodeConfigurationEditorDeclaration";
+  }
 }

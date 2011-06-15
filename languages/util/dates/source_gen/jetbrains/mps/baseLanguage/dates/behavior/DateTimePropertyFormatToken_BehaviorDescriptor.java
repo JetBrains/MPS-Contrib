@@ -6,4 +6,9 @@ package jetbrains.mps.baseLanguage.dates.behavior;
 public class DateTimePropertyFormatToken_BehaviorDescriptor extends FormatToken_BehaviorDescriptor {
   public DateTimePropertyFormatToken_BehaviorDescriptor() {
   }
+
+  @Override
+  public String getConceptFqName() {
+    return "jetbrains.mps.baseLanguage.dates.structure.DateTimePropertyFormatToken";
+  }
 }

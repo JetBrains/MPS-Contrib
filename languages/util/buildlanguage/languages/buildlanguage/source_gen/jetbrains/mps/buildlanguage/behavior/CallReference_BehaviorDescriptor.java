@@ -15,4 +15,9 @@ public class CallReference_BehaviorDescriptor extends PropertyValueExpression_Be
   public String virtual_toString_1213877472569(SNode thisNode) {
     return CallReference_Behavior.virtual_toString_1213877472569(thisNode);
   }
+
+  @Override
+  public String getConceptFqName() {
+    return "jetbrains.mps.buildlanguage.structure.CallReference";
+  }
 }

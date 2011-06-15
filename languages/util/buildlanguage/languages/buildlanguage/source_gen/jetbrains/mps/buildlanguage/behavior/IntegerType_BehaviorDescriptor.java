@@ -6,4 +6,9 @@ package jetbrains.mps.buildlanguage.behavior;
 public class IntegerType_BehaviorDescriptor extends PropertyType_BehaviorDescriptor {
   public IntegerType_BehaviorDescriptor() {
   }
+
+  @Override
+  public String getConceptFqName() {
+    return "jetbrains.mps.buildlanguage.structure.IntegerType";
+  }
 }

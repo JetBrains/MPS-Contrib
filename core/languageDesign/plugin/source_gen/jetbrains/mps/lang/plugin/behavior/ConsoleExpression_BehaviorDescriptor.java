@@ -7,4 +7,9 @@ import jetbrains.mps.baseLanguage.behavior.Expression_BehaviorDescriptor;
 public class ConsoleExpression_BehaviorDescriptor extends Expression_BehaviorDescriptor implements ExecuteSpecific_BehaviorDescriptor {
   public ConsoleExpression_BehaviorDescriptor() {
   }
+
+  @Override
+  public String getConceptFqName() {
+    return "jetbrains.mps.lang.plugin.structure.ConsoleExpression";
+  }
 }

@@ -14,12 +14,15 @@
     <classNode dependClassName="jetbrains.mps.baseLanguage.runConfigurations.behavior.Node_FunctionParameter_BehaviorDescriptor" />
     <classNode dependClassName="jetbrains.mps.baseLanguage.runConfigurations.behavior.OnChangeNodeBlock_BehaviorDescriptor" />
     <classNode dependClassName="jetbrains.mps.baseLanguage.runConfigurations.behavior.UserComponentReferenceAnnotation_BehaviorDescriptor" />
-    <classNode dependClassName="jetbrains.mps.smodel.structure.BehaviorDescriptor" />
-    <classNode extendsClassName="jetbrains.mps.smodel.structure.DescriptorProvider" />
+    <classNode dependClassName="jetbrains.mps.smodel.runtime.BehaviorDescriptor" />
+    <classNode dependClassName="jetbrains.mps.smodel.runtime.interpreted.BehaviorAspectInterpreted" />
+    <classNode extendsClassName="jetbrains.mps.smodel.runtime.BehaviorAspectDescriptor" />
   </dependency>
   <dependency className="jetbrains.mps.baseLanguage.runConfigurations.behavior.ComponentInsideOfChangeListenerAnnotation_BehaviorDescriptor" file="ComponentInsideOfChangeListenerAnnotation_BehaviorDescriptor.java">
+    <classNode dependClassName="java.lang.Override" />
+    <classNode dependClassName="java.lang.String" />
     <classNode dependClassName="jetbrains.mps.lang.core.behavior.NodeAttribute_BehaviorDescriptor" />
-    <classNode extendsClassName="jetbrains.mps.smodel.structure.BehaviorDescriptor" />
+    <classNode extendsClassName="jetbrains.mps.smodel.runtime.impl.CompiledBehaviorDescriptor" />
   </dependency>
   <dependency className="jetbrains.mps.baseLanguage.runConfigurations.behavior.IJavaRunConfigurationParameter_Behavior" file="IJavaRunConfigurationParameter_Behavior.java">
     <classNode dependClassName="java.lang.Class" />
@@ -62,14 +65,18 @@
     <classNode dependClassName="jetbrains.mps.smodel.SNode" />
   </dependency>
   <dependency className="jetbrains.mps.baseLanguage.runConfigurations.behavior.IsApplicableBlock_BehaviorDescriptor" file="IsApplicableBlock_BehaviorDescriptor.java">
+    <classNode dependClassName="java.lang.Override" />
+    <classNode dependClassName="java.lang.String" />
     <classNode dependClassName="jetbrains.mps.baseLanguage.behavior.ConceptFunction_BehaviorDescriptor" />
     <classNode dependClassName="jetbrains.mps.baseLanguage.runConfigurations.behavior.IsApplicableBlock_Behavior" />
     <classNode dependClassName="jetbrains.mps.smodel.SNode" />
-    <classNode extendsClassName="jetbrains.mps.smodel.structure.BehaviorDescriptor" />
+    <classNode extendsClassName="jetbrains.mps.smodel.runtime.impl.CompiledBehaviorDescriptor" />
   </dependency>
   <dependency className="jetbrains.mps.baseLanguage.runConfigurations.behavior.JavaCheckBlock_BehaviorDescriptor" file="JavaCheckBlock_BehaviorDescriptor.java">
+    <classNode dependClassName="java.lang.Override" />
+    <classNode dependClassName="java.lang.String" />
     <classNode dependClassName="jetbrains.mps.lang.plugin.behavior.AbstractCheckConfigBlock_BehaviorDescriptor" />
-    <classNode extendsClassName="jetbrains.mps.smodel.structure.BehaviorDescriptor" />
+    <classNode extendsClassName="jetbrains.mps.smodel.runtime.impl.CompiledBehaviorDescriptor" />
   </dependency>
   <dependency className="jetbrains.mps.baseLanguage.runConfigurations.behavior.JavaConfigurationRunParameters_FunctionParameter_Behavior" file="JavaConfigurationRunParameters_FunctionParameter_Behavior.java">
     <classNode dependClassName="java.lang.String" />
@@ -83,17 +90,20 @@
     <classNode dependClassName="jetbrains.mps.smodel.SReference" />
   </dependency>
   <dependency className="jetbrains.mps.baseLanguage.runConfigurations.behavior.JavaConfigurationRunParameters_FunctionParameter_BehaviorDescriptor" file="JavaConfigurationRunParameters_FunctionParameter_BehaviorDescriptor.java">
+    <classNode dependClassName="java.lang.Override" />
     <classNode dependClassName="java.lang.String" />
     <classNode dependClassName="jetbrains.mps.baseLanguage.behavior.ConceptFunctionParameter_BehaviorDescriptor" />
     <classNode dependClassName="jetbrains.mps.baseLanguage.runConfigurations.behavior.IJavaRunConfigurationParameter_BehaviorDescriptor" />
     <classNode dependClassName="jetbrains.mps.baseLanguage.runConfigurations.behavior.JavaConfigurationRunParameters_FunctionParameter_Behavior" />
     <classNode dependClassName="jetbrains.mps.smodel.SNode" />
     <classNode extendsClassName="java.lang.Cloneable" />
-    <classNode extendsClassName="jetbrains.mps.smodel.structure.BehaviorDescriptor" />
+    <classNode extendsClassName="jetbrains.mps.smodel.runtime.impl.CompiledBehaviorDescriptor" />
   </dependency>
   <dependency className="jetbrains.mps.baseLanguage.runConfigurations.behavior.JavaNodeConfigurationEditorDeclaration_BehaviorDescriptor" file="JavaNodeConfigurationEditorDeclaration_BehaviorDescriptor.java">
+    <classNode dependClassName="java.lang.Override" />
+    <classNode dependClassName="java.lang.String" />
     <classNode dependClassName="jetbrains.mps.lang.plugin.behavior.ConfigurationEditorDeclaration_BehaviorDescriptor" />
-    <classNode extendsClassName="jetbrains.mps.smodel.structure.BehaviorDescriptor" />
+    <classNode extendsClassName="jetbrains.mps.smodel.runtime.impl.CompiledBehaviorDescriptor" />
   </dependency>
   <dependency className="jetbrains.mps.baseLanguage.runConfigurations.behavior.JavaNodeRunConfiguration_Behavior" file="JavaNodeRunConfiguration_Behavior.java">
     <classNode dependClassName="java.util.List" />
@@ -104,11 +114,13 @@
     <classNode dependClassName="jetbrains.mps.smodel.SNode" />
   </dependency>
   <dependency className="jetbrains.mps.baseLanguage.runConfigurations.behavior.JavaNodeRunConfiguration_BehaviorDescriptor" file="JavaNodeRunConfiguration_BehaviorDescriptor.java">
+    <classNode dependClassName="java.lang.Override" />
+    <classNode dependClassName="java.lang.String" />
     <classNode dependClassName="java.util.List" />
     <classNode dependClassName="jetbrains.mps.baseLanguage.runConfigurations.behavior.JavaNodeRunConfiguration_Behavior" />
     <classNode dependClassName="jetbrains.mps.baseLanguage.runConfigurations.behavior.JavaRunConfiguration_BehaviorDescriptor" />
     <classNode dependClassName="jetbrains.mps.smodel.SNode" />
-    <classNode extendsClassName="jetbrains.mps.smodel.structure.BehaviorDescriptor" />
+    <classNode extendsClassName="jetbrains.mps.smodel.runtime.impl.CompiledBehaviorDescriptor" />
   </dependency>
   <dependency className="jetbrains.mps.baseLanguage.runConfigurations.behavior.JavaRunConfiguration_Behavior" file="JavaRunConfiguration_Behavior.java">
     <classNode dependClassName="java.lang.String" />
@@ -128,22 +140,25 @@
     <classNode dependClassName="jetbrains.mps.smodel.SReference" />
   </dependency>
   <dependency className="jetbrains.mps.baseLanguage.runConfigurations.behavior.JavaRunConfiguration_BehaviorDescriptor" file="JavaRunConfiguration_BehaviorDescriptor.java">
+    <classNode dependClassName="java.lang.Override" />
+    <classNode dependClassName="java.lang.String" />
     <classNode dependClassName="java.util.List" />
     <classNode dependClassName="jetbrains.mps.baseLanguage.runConfigurations.behavior.JavaRunConfiguration_Behavior" />
     <classNode dependClassName="jetbrains.mps.lang.plugin.behavior.IEnhancedRunConfiguration_BehaviorDescriptor" />
     <classNode dependClassName="jetbrains.mps.lang.plugin.behavior.RunConfigurationDeclaration_BehaviorDescriptor" />
     <classNode dependClassName="jetbrains.mps.smodel.SNode" />
     <classNode extendsClassName="java.lang.Cloneable" />
-    <classNode extendsClassName="jetbrains.mps.smodel.structure.BehaviorDescriptor" />
+    <classNode extendsClassName="jetbrains.mps.smodel.runtime.impl.CompiledBehaviorDescriptor" />
   </dependency>
   <dependency className="jetbrains.mps.baseLanguage.runConfigurations.behavior.NodeRunConfigPropertyInstance_BehaviorDescriptor" file="NodeRunConfigPropertyInstance_BehaviorDescriptor.java">
+    <classNode dependClassName="java.lang.Override" />
     <classNode dependClassName="java.lang.String" />
     <classNode dependClassName="jetbrains.mps.lang.core.behavior.BaseConcept_BehaviorDescriptor" />
     <classNode dependClassName="jetbrains.mps.lang.core.behavior.INamedConcept_Behavior" />
     <classNode dependClassName="jetbrains.mps.lang.plugin.behavior.IRunConfigPropertyInstance_BehaviorDescriptor" />
     <classNode dependClassName="jetbrains.mps.smodel.SNode" />
     <classNode extendsClassName="java.lang.Cloneable" />
-    <classNode extendsClassName="jetbrains.mps.smodel.structure.BehaviorDescriptor" />
+    <classNode extendsClassName="jetbrains.mps.smodel.runtime.impl.CompiledBehaviorDescriptor" />
   </dependency>
   <dependency className="jetbrains.mps.baseLanguage.runConfigurations.behavior.Node_FunctionParameter_Behavior" file="Node_FunctionParameter_Behavior.java">
     <classNode dependClassName="java.lang.String" />
@@ -157,23 +172,28 @@
     <classNode dependClassName="jetbrains.mps.smodel.SNode" />
   </dependency>
   <dependency className="jetbrains.mps.baseLanguage.runConfigurations.behavior.Node_FunctionParameter_BehaviorDescriptor" file="Node_FunctionParameter_BehaviorDescriptor.java">
+    <classNode dependClassName="java.lang.Override" />
     <classNode dependClassName="java.lang.String" />
     <classNode dependClassName="jetbrains.mps.baseLanguage.behavior.ConceptFunctionParameter_BehaviorDescriptor" />
     <classNode dependClassName="jetbrains.mps.baseLanguage.runConfigurations.behavior.IJavaRunConfigurationParameter_BehaviorDescriptor" />
     <classNode dependClassName="jetbrains.mps.baseLanguage.runConfigurations.behavior.Node_FunctionParameter_Behavior" />
     <classNode dependClassName="jetbrains.mps.smodel.SNode" />
     <classNode extendsClassName="java.lang.Cloneable" />
-    <classNode extendsClassName="jetbrains.mps.smodel.structure.BehaviorDescriptor" />
+    <classNode extendsClassName="jetbrains.mps.smodel.runtime.impl.CompiledBehaviorDescriptor" />
   </dependency>
   <dependency className="jetbrains.mps.baseLanguage.runConfigurations.behavior.OnChangeNodeBlock_BehaviorDescriptor" file="OnChangeNodeBlock_BehaviorDescriptor.java">
+    <classNode dependClassName="java.lang.Override" />
+    <classNode dependClassName="java.lang.String" />
     <classNode dependClassName="jetbrains.mps.baseLanguage.behavior.ConceptFunction_BehaviorDescriptor" />
     <classNode dependClassName="jetbrains.mps.baseLanguage.runConfigurations.behavior.IOnChangeEditorBlock_BehaviorDescriptor" />
     <classNode extendsClassName="java.lang.Cloneable" />
-    <classNode extendsClassName="jetbrains.mps.smodel.structure.BehaviorDescriptor" />
+    <classNode extendsClassName="jetbrains.mps.smodel.runtime.impl.CompiledBehaviorDescriptor" />
   </dependency>
   <dependency className="jetbrains.mps.baseLanguage.runConfigurations.behavior.UserComponentReferenceAnnotation_BehaviorDescriptor" file="UserComponentReferenceAnnotation_BehaviorDescriptor.java">
+    <classNode dependClassName="java.lang.Override" />
+    <classNode dependClassName="java.lang.String" />
     <classNode dependClassName="jetbrains.mps.lang.core.behavior.NodeAttribute_BehaviorDescriptor" />
-    <classNode extendsClassName="jetbrains.mps.smodel.structure.BehaviorDescriptor" />
+    <classNode extendsClassName="jetbrains.mps.smodel.runtime.impl.CompiledBehaviorDescriptor" />
   </dependency>
 </dependenciesRoot>
 

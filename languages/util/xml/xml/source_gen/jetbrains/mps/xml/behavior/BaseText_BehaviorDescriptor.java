@@ -6,4 +6,9 @@ package jetbrains.mps.xml.behavior;
 public abstract class BaseText_BehaviorDescriptor extends Content_BehaviorDescriptor {
   public BaseText_BehaviorDescriptor() {
   }
+
+  @Override
+  public String getConceptFqName() {
+    return "jetbrains.mps.xml.structure.BaseText";
+  }
 }
