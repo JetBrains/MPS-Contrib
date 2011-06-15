@@ -41,4 +41,9 @@ public class ComponentDeclaration_BehaviorDescriptor extends BaseConcept_Behavio
   public String virtual_getFqName_1213877404258(SNode thisNode) {
     return INamedConcept_Behavior.virtual_getFqName_1213877404258(thisNode);
   }
+
+  @Override
+  public String getConceptFqName() {
+    return "jetbrains.mps.uiLanguage.structure.ComponentDeclaration";
+  }
 }

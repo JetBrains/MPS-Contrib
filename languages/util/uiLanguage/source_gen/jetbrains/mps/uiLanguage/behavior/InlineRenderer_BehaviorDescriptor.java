@@ -7,4 +7,9 @@ import jetbrains.mps.lang.core.behavior.BaseConcept_BehaviorDescriptor;
 public class InlineRenderer_BehaviorDescriptor extends BaseConcept_BehaviorDescriptor implements IComponentPart_BehaviorDescriptor {
   public InlineRenderer_BehaviorDescriptor() {
   }
+
+  @Override
+  public String getConceptFqName() {
+    return "jetbrains.mps.uiLanguage.structure.InlineRenderer";
+  }
 }

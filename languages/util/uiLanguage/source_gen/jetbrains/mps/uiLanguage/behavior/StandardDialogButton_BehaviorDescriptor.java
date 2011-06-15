@@ -7,4 +7,9 @@ import jetbrains.mps.lang.core.behavior.BaseConcept_BehaviorDescriptor;
 public class StandardDialogButton_BehaviorDescriptor extends BaseConcept_BehaviorDescriptor {
   public StandardDialogButton_BehaviorDescriptor() {
   }
+
+  @Override
+  public String getConceptFqName() {
+    return "jetbrains.mps.uiLanguage.structure.StandardDialogButton";
+  }
 }

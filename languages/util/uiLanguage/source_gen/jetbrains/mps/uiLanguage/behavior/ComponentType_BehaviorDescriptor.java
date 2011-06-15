@@ -13,4 +13,9 @@ public class ComponentType_BehaviorDescriptor extends BaseClassifierType_Behavio
   public List<SNode> virtual_getMembers_1213877402148(SNode thisNode, SNode contextNode) {
     return ComponentType_Behavior.virtual_getMembers_1213877402148(thisNode, contextNode);
   }
+
+  @Override
+  public String getConceptFqName() {
+    return "jetbrains.mps.uiLanguage.structure.ComponentType";
+  }
 }
