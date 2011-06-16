@@ -1,11 +1,11 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <debugInfo>
-  <unitInfo fileName="XmlFile_Constraints.java" startLine="24" startPosition="27" endLine="28" endPosition="5" unitName="jetbrains.mps.xmlInternal.constraints.XmlFile_Constraints$1" />
-  <unitInfo fileName="XmlFile_Constraints.java" startLine="14" startPosition="0" endLine="32" endPosition="0" unitName="jetbrains.mps.xmlInternal.constraints.XmlFile_Constraints" />
-  <unitInfo fileName="ConstraintsAspectDescriptor.java" startLine="11" startPosition="0" endLine="52" endPosition="0" unitName="jetbrains.mps.xmlInternal.constraints.ConstraintsAspectDescriptor" />
+  <unitInfo fileName="XmlFile_Constraints.java" startLine="22" startPosition="31" endLine="33" endPosition="5" unitName="jetbrains.mps.xmlInternal.constraints.XmlFile_Constraints$1" />
+  <unitInfo fileName="ConstraintsAspectDescriptor.java" startLine="9" startPosition="0" endLine="25" endPosition="0" unitName="jetbrains.mps.xmlInternal.constraints.ConstraintsAspectDescriptor" />
+  <unitInfo fileName="XmlFile_Constraints.java" startLine="14" startPosition="0" endLine="37" endPosition="0" unitName="jetbrains.mps.xmlInternal.constraints.XmlFile_Constraints" />
   <root nodeId="1213104847207">
-    <nodeInfo nodeId="1213104847211" fileName="XmlFile_Constraints.java" startLine="25" startPosition="84" endLine="26" endPosition="120" conceptFqName="jetbrains.mps.baseLanguage.structure.ReturnStatement" />
-    <scopeInfo nodeId="1213104847210" fileName="XmlFile_Constraints.java" startLine="25" startPosition="84" endLine="26" endPosition="120" />
+    <nodeInfo nodeId="1213104847211" fileName="XmlFile_Constraints.java" startLine="30" startPosition="37" endLine="31" endPosition="120" conceptFqName="jetbrains.mps.baseLanguage.structure.ReturnStatement" />
+    <scopeInfo nodeId="1213104847210" fileName="XmlFile_Constraints.java" startLine="30" startPosition="37" endLine="31" endPosition="120" />
   </root>
 </debugInfo>
 
