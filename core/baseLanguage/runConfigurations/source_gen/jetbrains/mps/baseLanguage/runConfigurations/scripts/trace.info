@@ -1,10 +1,10 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <debugInfo>
-  <unitInfo fileName="FixReferencesToDeletedModels_MigrationScript.java" startLine="89" startPosition="0" endLine="106" endPosition="0" unitName="jetbrains.mps.baseLanguage.runConfigurations.scripts.FixReferencesToDeletedModels_MigrationScript$QuotationClass_2995rm_a0a0a2a0a4a0a0a1a0" />
-  <unitInfo fileName="FixReferencesToDeletedModels_MigrationScript.java" startLine="107" startPosition="0" endLine="124" endPosition="0" unitName="jetbrains.mps.baseLanguage.runConfigurations.scripts.FixReferencesToDeletedModels_MigrationScript$QuotationClass_2995rm_a0a0a2a0a4a0a0a2a0" />
-  <unitInfo fileName="FixReferencesToDeletedModels_MigrationScript.java" startLine="26" startPosition="28" endLine="51" endPosition="5" unitName="jetbrains.mps.baseLanguage.runConfigurations.scripts.FixReferencesToDeletedModels_MigrationScript$1" />
-  <unitInfo fileName="FixReferencesToDeletedModels_MigrationScript.java" startLine="52" startPosition="28" endLine="86" endPosition="5" unitName="jetbrains.mps.baseLanguage.runConfigurations.scripts.FixReferencesToDeletedModels_MigrationScript$2" />
-  <unitInfo fileName="FixReferencesToDeletedModels_MigrationScript.java" startLine="23" startPosition="0" endLine="125" endPosition="0" unitName="jetbrains.mps.baseLanguage.runConfigurations.scripts.FixReferencesToDeletedModels_MigrationScript" />
+  <unitInfo fileName="FixReferencesToDeletedRunModels_MigrationScript.java" startLine="89" startPosition="0" endLine="106" endPosition="0" unitName="jetbrains.mps.baseLanguage.runConfigurations.scripts.FixReferencesToDeletedRunModels_MigrationScript$QuotationClass_s5mt6f_a0a0a2a0a4a0a0a1a0" />
+  <unitInfo fileName="FixReferencesToDeletedRunModels_MigrationScript.java" startLine="107" startPosition="0" endLine="124" endPosition="0" unitName="jetbrains.mps.baseLanguage.runConfigurations.scripts.FixReferencesToDeletedRunModels_MigrationScript$QuotationClass_s5mt6f_a0a0a2a0a4a0a0a2a0" />
+  <unitInfo fileName="FixReferencesToDeletedRunModels_MigrationScript.java" startLine="26" startPosition="28" endLine="51" endPosition="5" unitName="jetbrains.mps.baseLanguage.runConfigurations.scripts.FixReferencesToDeletedRunModels_MigrationScript$1" />
+  <unitInfo fileName="FixReferencesToDeletedRunModels_MigrationScript.java" startLine="52" startPosition="28" endLine="86" endPosition="5" unitName="jetbrains.mps.baseLanguage.runConfigurations.scripts.FixReferencesToDeletedRunModels_MigrationScript$2" />
+  <unitInfo fileName="FixReferencesToDeletedRunModels_MigrationScript.java" startLine="23" startPosition="0" endLine="125" endPosition="0" unitName="jetbrains.mps.baseLanguage.runConfigurations.scripts.FixReferencesToDeletedRunModels_MigrationScript" />
   <root nodeId="2581841087371073721">
     <nodeInfo nodeId="2581841087371092284" fileName="ScriptsUtil.java" startLine="23" startPosition="56" endLine="24" endPosition="38" conceptFqName="jetbrains.mps.baseLanguage.structure.ReturnStatement" />
     <nodeInfo nodeId="2581841087371092293" fileName="ScriptsUtil.java" startLine="27" startPosition="54" endLine="28" endPosition="69" conceptFqName="jetbrains.mps.baseLanguage.structure.ReturnStatement" />
@@ -59,29 +59,29 @@
     <unitInfo nodeId="2581841087371073721" fileName="ScriptsUtil.java" startLine="17" startPosition="0" endLine="52" endPosition="0" unitName="jetbrains.mps.baseLanguage.runConfigurations.scripts.ScriptsUtil" />
   </root>
   <root nodeId="4283697670712794863">
-    <nodeInfo nodeId="5749510889459685989" fileName="FixReferencesToDeletedModels_MigrationScript.java" startLine="39" startPosition="59" endLine="40" endPosition="27" conceptFqName="jetbrains.mps.baseLanguage.structure.SingleLineComment" />
-    <nodeInfo nodeId="5749510889459685969" fileName="FixReferencesToDeletedModels_MigrationScript.java" startLine="40" startPosition="27" endLine="41" endPosition="169" conceptFqName="jetbrains.mps.baseLanguage.structure.ReturnStatement" />
-    <nodeInfo nodeId="2581841087371093191" fileName="FixReferencesToDeletedModels_MigrationScript.java" startLine="44" startPosition="52" endLine="45" endPosition="284" conceptFqName="jetbrains.mps.baseLanguage.structure.ExpressionStatement" />
-    <nodeInfo nodeId="5749510889459694418" fileName="FixReferencesToDeletedModels_MigrationScript.java" startLine="65" startPosition="59" endLine="66" endPosition="27" conceptFqName="jetbrains.mps.baseLanguage.structure.SingleLineComment" />
-    <nodeInfo nodeId="5749510889459694420" fileName="FixReferencesToDeletedModels_MigrationScript.java" startLine="66" startPosition="27" endLine="67" endPosition="60" conceptFqName="jetbrains.mps.baseLanguage.structure.LocalVariableDeclarationStatement" />
-    <nodeInfo nodeId="5749510889459694440" fileName="FixReferencesToDeletedModels_MigrationScript.java" startLine="69" startPosition="60" endLine="70" endPosition="42" conceptFqName="jetbrains.mps.baseLanguage.structure.ReturnStatement" />
-    <nodeInfo nodeId="5749510889459694449" fileName="FixReferencesToDeletedModels_MigrationScript.java" startLine="73" startPosition="58" endLine="74" endPosition="96" conceptFqName="jetbrains.mps.baseLanguage.structure.ReturnStatement" />
-    <nodeInfo nodeId="2581841087371093207" fileName="FixReferencesToDeletedModels_MigrationScript.java" startLine="79" startPosition="52" endLine="80" endPosition="271" conceptFqName="jetbrains.mps.baseLanguage.structure.ExpressionStatement" />
-    <nodeInfo nodeId="5749510889459694438" fileName="FixReferencesToDeletedModels_MigrationScript.java" startLine="68" startPosition="121" endLine="72" endPosition="0" conceptFqName="jetbrains.mps.baseLanguage.structure.InstanceMethodDeclaration" propertyString="iterable#()Ljava/lang/Iterable;" />
-    <nodeInfo nodeId="5749510889459694447" fileName="FixReferencesToDeletedModels_MigrationScript.java" startLine="72" startPosition="60" endLine="76" endPosition="0" conceptFqName="jetbrains.mps.baseLanguage.structure.InstanceMethodDeclaration" propertyString="accept#(Ljetbrains/mps/smodel/SModel/ImportElement;)Z" />
-    <nodeInfo nodeId="5749510889459694426" fileName="FixReferencesToDeletedModels_MigrationScript.java" startLine="67" startPosition="60" endLine="76" endPosition="24" conceptFqName="jetbrains.mps.baseLanguage.structure.ReturnStatement" />
-    <scopeInfo nodeId="4283697670712794866" fileName="FixReferencesToDeletedModels_MigrationScript.java" startLine="44" startPosition="52" endLine="45" endPosition="284" />
-    <scopeInfo nodeId="5749510889459694439" fileName="FixReferencesToDeletedModels_MigrationScript.java" startLine="69" startPosition="60" endLine="70" endPosition="42" />
-    <scopeInfo nodeId="5749510889459694448" fileName="FixReferencesToDeletedModels_MigrationScript.java" startLine="73" startPosition="58" endLine="74" endPosition="96" />
-    <scopeInfo nodeId="4283697670712797152" fileName="FixReferencesToDeletedModels_MigrationScript.java" startLine="79" startPosition="52" endLine="80" endPosition="271" />
-    <scopeInfo nodeId="5749510889459661571" fileName="FixReferencesToDeletedModels_MigrationScript.java" startLine="39" startPosition="59" endLine="41" endPosition="169" />
-    <scopeInfo nodeId="5749510889459694438" fileName="FixReferencesToDeletedModels_MigrationScript.java" startLine="68" startPosition="121" endLine="72" endPosition="0" />
-    <scopeInfo nodeId="5749510889459694447" fileName="FixReferencesToDeletedModels_MigrationScript.java" startLine="72" startPosition="60" endLine="76" endPosition="0" />
-    <scopeInfo nodeId="5749510889459694415" fileName="FixReferencesToDeletedModels_MigrationScript.java" startLine="65" startPosition="59" endLine="76" endPosition="24">
+    <nodeInfo nodeId="5749510889459685989" fileName="FixReferencesToDeletedRunModels_MigrationScript.java" startLine="39" startPosition="59" endLine="40" endPosition="27" conceptFqName="jetbrains.mps.baseLanguage.structure.SingleLineComment" />
+    <nodeInfo nodeId="5749510889459685969" fileName="FixReferencesToDeletedRunModels_MigrationScript.java" startLine="40" startPosition="27" endLine="41" endPosition="169" conceptFqName="jetbrains.mps.baseLanguage.structure.ReturnStatement" />
+    <nodeInfo nodeId="2581841087371093191" fileName="FixReferencesToDeletedRunModels_MigrationScript.java" startLine="44" startPosition="52" endLine="45" endPosition="287" conceptFqName="jetbrains.mps.baseLanguage.structure.ExpressionStatement" />
+    <nodeInfo nodeId="5749510889459694418" fileName="FixReferencesToDeletedRunModels_MigrationScript.java" startLine="65" startPosition="59" endLine="66" endPosition="27" conceptFqName="jetbrains.mps.baseLanguage.structure.SingleLineComment" />
+    <nodeInfo nodeId="5749510889459694420" fileName="FixReferencesToDeletedRunModels_MigrationScript.java" startLine="66" startPosition="27" endLine="67" endPosition="60" conceptFqName="jetbrains.mps.baseLanguage.structure.LocalVariableDeclarationStatement" />
+    <nodeInfo nodeId="5749510889459694440" fileName="FixReferencesToDeletedRunModels_MigrationScript.java" startLine="69" startPosition="60" endLine="70" endPosition="42" conceptFqName="jetbrains.mps.baseLanguage.structure.ReturnStatement" />
+    <nodeInfo nodeId="5749510889459694449" fileName="FixReferencesToDeletedRunModels_MigrationScript.java" startLine="73" startPosition="58" endLine="74" endPosition="96" conceptFqName="jetbrains.mps.baseLanguage.structure.ReturnStatement" />
+    <nodeInfo nodeId="2581841087371093207" fileName="FixReferencesToDeletedRunModels_MigrationScript.java" startLine="79" startPosition="52" endLine="80" endPosition="274" conceptFqName="jetbrains.mps.baseLanguage.structure.ExpressionStatement" />
+    <nodeInfo nodeId="5749510889459694438" fileName="FixReferencesToDeletedRunModels_MigrationScript.java" startLine="68" startPosition="121" endLine="72" endPosition="0" conceptFqName="jetbrains.mps.baseLanguage.structure.InstanceMethodDeclaration" propertyString="iterable#()Ljava/lang/Iterable;" />
+    <nodeInfo nodeId="5749510889459694447" fileName="FixReferencesToDeletedRunModels_MigrationScript.java" startLine="72" startPosition="60" endLine="76" endPosition="0" conceptFqName="jetbrains.mps.baseLanguage.structure.InstanceMethodDeclaration" propertyString="accept#(Ljetbrains/mps/smodel/SModel/ImportElement;)Z" />
+    <nodeInfo nodeId="5749510889459694426" fileName="FixReferencesToDeletedRunModels_MigrationScript.java" startLine="67" startPosition="60" endLine="76" endPosition="24" conceptFqName="jetbrains.mps.baseLanguage.structure.ReturnStatement" />
+    <scopeInfo nodeId="4283697670712794866" fileName="FixReferencesToDeletedRunModels_MigrationScript.java" startLine="44" startPosition="52" endLine="45" endPosition="287" />
+    <scopeInfo nodeId="5749510889459694439" fileName="FixReferencesToDeletedRunModels_MigrationScript.java" startLine="69" startPosition="60" endLine="70" endPosition="42" />
+    <scopeInfo nodeId="5749510889459694448" fileName="FixReferencesToDeletedRunModels_MigrationScript.java" startLine="73" startPosition="58" endLine="74" endPosition="96" />
+    <scopeInfo nodeId="4283697670712797152" fileName="FixReferencesToDeletedRunModels_MigrationScript.java" startLine="79" startPosition="52" endLine="80" endPosition="274" />
+    <scopeInfo nodeId="5749510889459661571" fileName="FixReferencesToDeletedRunModels_MigrationScript.java" startLine="39" startPosition="59" endLine="41" endPosition="169" />
+    <scopeInfo nodeId="5749510889459694438" fileName="FixReferencesToDeletedRunModels_MigrationScript.java" startLine="68" startPosition="121" endLine="72" endPosition="0" />
+    <scopeInfo nodeId="5749510889459694447" fileName="FixReferencesToDeletedRunModels_MigrationScript.java" startLine="72" startPosition="60" endLine="76" endPosition="0" />
+    <scopeInfo nodeId="5749510889459694415" fileName="FixReferencesToDeletedRunModels_MigrationScript.java" startLine="65" startPosition="59" endLine="76" endPosition="24">
       <varInfo nodeId="5749510889459694421" varName="model" />
     </scopeInfo>
-    <unitInfo nodeId="5749510889459694438" fileName="FixReferencesToDeletedModels_MigrationScript.java" startLine="68" startPosition="79" endLine="72" endPosition="9" unitName="jetbrains.mps.baseLanguage.runConfigurations.scripts.FixReferencesToDeletedModels_MigrationScript$3" />
-    <unitInfo nodeId="5749510889459694447" fileName="FixReferencesToDeletedModels_MigrationScript.java" startLine="72" startPosition="22" endLine="76" endPosition="9" unitName="jetbrains.mps.baseLanguage.runConfigurations.scripts.FixReferencesToDeletedModels_MigrationScript$3" />
+    <unitInfo nodeId="5749510889459694438" fileName="FixReferencesToDeletedRunModels_MigrationScript.java" startLine="68" startPosition="79" endLine="72" endPosition="9" unitName="jetbrains.mps.baseLanguage.runConfigurations.scripts.FixReferencesToDeletedRunModels_MigrationScript$3" />
+    <unitInfo nodeId="5749510889459694447" fileName="FixReferencesToDeletedRunModels_MigrationScript.java" startLine="72" startPosition="22" endLine="76" endPosition="9" unitName="jetbrains.mps.baseLanguage.runConfigurations.scripts.FixReferencesToDeletedRunModels_MigrationScript$3" />
   </root>
 </debugInfo>
 

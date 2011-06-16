@@ -20,9 +20,9 @@ import jetbrains.mps.smodel.SReference;
 import jetbrains.mps.smodel.SModelReference;
 import jetbrains.mps.smodel.SNodeId;
 
-public class FixReferencesToDeletedModels_MigrationScript extends BaseMigrationScript {
-  public FixReferencesToDeletedModels_MigrationScript(IOperationContext operationContext) {
-    super("Fix References To Deleted Run Models");
+public class FixReferencesToDeletedRunModels_MigrationScript extends BaseMigrationScript {
+  public FixReferencesToDeletedRunModels_MigrationScript(IOperationContext operationContext) {
+    super("Fix References to Deleted Run Models");
     this.addRefactoring(new AbstractMigrationRefactoring(operationContext) {
       public String getName() {
         return "Fix References To Deleted BaseLanguage Run Model";
@@ -42,7 +42,7 @@ public class FixReferencesToDeletedModels_MigrationScript extends BaseMigrationS
       }
 
       public void doUpdateInstanceNode(SNode node) {
-        ScriptsUtil.updateNode(node, "jetbrains.mps.baseLanguage.util.plugin.run", SNodeOperations.getModel(SLinkOperations.getTarget(new FixReferencesToDeletedModels_MigrationScript.QuotationClass_2995rm_a0a0a2a0a4a0a0a1a0().createNode(), "classifier", false)).getSModelReference());
+        ScriptsUtil.updateNode(node, "jetbrains.mps.baseLanguage.util.plugin.run", SNodeOperations.getModel(SLinkOperations.getTarget(new FixReferencesToDeletedRunModels_MigrationScript.QuotationClass_s5mt6f_a0a0a2a0a4a0a0a1a0().createNode(), "classifier", false)).getSModelReference());
       }
 
       public boolean isShowAsIntention() {
@@ -77,7 +77,7 @@ public class FixReferencesToDeletedModels_MigrationScript extends BaseMigrationS
       }
 
       public void doUpdateInstanceNode(SNode node) {
-        ScriptsUtil.updateNode(node, "jetbrains.mps.lang.plugin.run", SNodeOperations.getModel(SLinkOperations.getTarget(new FixReferencesToDeletedModels_MigrationScript.QuotationClass_2995rm_a0a0a2a0a4a0a0a2a0().createNode(), "classifier", false)).getSModelReference());
+        ScriptsUtil.updateNode(node, "jetbrains.mps.lang.plugin.run", SNodeOperations.getModel(SLinkOperations.getTarget(new FixReferencesToDeletedRunModels_MigrationScript.QuotationClass_s5mt6f_a0a0a2a0a4a0a0a2a0().createNode(), "classifier", false)).getSModelReference());
       }
 
       public boolean isShowAsIntention() {
@@ -86,8 +86,8 @@ public class FixReferencesToDeletedModels_MigrationScript extends BaseMigrationS
     });
   }
 
-  public static class QuotationClass_2995rm_a0a0a2a0a4a0a0a1a0 {
-    public QuotationClass_2995rm_a0a0a2a0a4a0a0a1a0() {
+  public static class QuotationClass_s5mt6f_a0a0a2a0a4a0a0a1a0 {
+    public QuotationClass_s5mt6f_a0a0a2a0a4a0a0a1a0() {
     }
 
     public SNode createNode() {
@@ -104,8 +104,8 @@ public class FixReferencesToDeletedModels_MigrationScript extends BaseMigrationS
     }
   }
 
-  public static class QuotationClass_2995rm_a0a0a2a0a4a0a0a2a0 {
-    public QuotationClass_2995rm_a0a0a2a0a4a0a0a2a0() {
+  public static class QuotationClass_s5mt6f_a0a0a2a0a4a0a0a2a0 {
+    public QuotationClass_s5mt6f_a0a0a2a0a4a0a0a2a0() {
     }
 
     public SNode createNode() {

@@ -21,8 +21,10 @@
   <roots>
     <node type="tp33.MigrationScript" typeId="tp33.1177457067821" id="4283697670712794863">
       <property name="migrationFromBuild" nameId="tp33.1206123256132" value="1193" />
-      <property name="name" nameId="tpck.1169194664001" value="FixReferencesToDeletedModels" />
-      <property name="title" nameId="tp33.1177457669450" value="Fix References To Deleted Run Models" />
+      <property name="name" nameId="tpck.1169194664001" value="FixReferencesToDeletedRunModels" />
+      <property name="title" nameId="tp33.1177457669450" value="Fix References to Deleted Run Models" />
+      <property name="type" nameId="tp33.5299416737274925395" value="migration" />
+      <property name="toBuild" nameId="tp33.5299416737274925397" value="MPS 2.0" />
     </node>
     <node type="tpee.ClassConcept" typeId="tpee.1068390468198" id="2581841087371073721">
       <property name="name" nameId="tpck.1169194664001" value="ScriptsUtil" />
@@ -179,7 +181,7 @@
                         </node>
                       </node>
                       <node role="elementType" roleId="tp2q.1224414456414" type="tpee.ClassifierType" typeId="tpee.1107535904670" id="5749510889459694445">
-                        <link role="classifier" roleId="tpee.1107535924139" targetNodeId="lkfb.~SModel$ImportElement" resolveInfo="ImportElement" />
+                        <link role="classifier" roleId="tpee.1107535924139" targetNodeId="lkfb.~SModel$ImportElement" resolveInfo="SModel.ImportElement" />
                       </node>
                     </node>
                   </node>
@@ -264,7 +266,7 @@
                   </node>
                 </node>
                 <node role="elementType" roleId="tp2q.1224414456414" type="tpee.ClassifierType" typeId="tpee.1107535904670" id="2581841087371092289">
-                  <link role="classifier" roleId="tpee.1107535924139" targetNodeId="lkfb.~SModel$ImportElement" resolveInfo="ImportElement" />
+                  <link role="classifier" roleId="tpee.1107535924139" targetNodeId="lkfb.~SModel$ImportElement" resolveInfo="SModel.ImportElement" />
                 </node>
               </node>
             </node>
@@ -323,7 +325,7 @@
             <property name="name" nameId="tpck.1169194664001" value="imports" />
             <node role="type" roleId="tpee.5680397130376446158" type="tp2q.ListType" typeId="tp2q.1151688443754" id="2581841087371093103">
               <node role="elementType" roleId="tp2q.1151688676805" type="tpee.ClassifierType" typeId="tpee.1107535904670" id="2581841087371093104">
-                <link role="classifier" roleId="tpee.1107535924139" targetNodeId="lkfb.~SModel$ImportElement" resolveInfo="ImportElement" />
+                <link role="classifier" roleId="tpee.1107535924139" targetNodeId="lkfb.~SModel$ImportElement" resolveInfo="SModel.ImportElement" />
               </node>
             </node>
             <node role="initializer" roleId="tpee.1068431790190" type="tpee.DotExpression" typeId="tpee.1197027756228" id="2581841087371093105">
