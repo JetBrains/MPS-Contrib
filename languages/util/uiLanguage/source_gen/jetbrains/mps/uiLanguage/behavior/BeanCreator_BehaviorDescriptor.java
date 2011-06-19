@@ -7,4 +7,9 @@ import jetbrains.mps.baseLanguage.behavior.AbstractCreator_BehaviorDescriptor;
 public class BeanCreator_BehaviorDescriptor extends AbstractCreator_BehaviorDescriptor {
   public BeanCreator_BehaviorDescriptor() {
   }
+
+  @Override
+  public String getConceptFqName() {
+    return "jetbrains.mps.uiLanguage.structure.BeanCreator";
+  }
 }

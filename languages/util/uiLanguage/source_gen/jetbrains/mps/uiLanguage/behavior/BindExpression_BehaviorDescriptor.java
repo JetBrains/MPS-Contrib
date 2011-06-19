@@ -7,4 +7,9 @@ import jetbrains.mps.baseLanguage.behavior.Expression_BehaviorDescriptor;
 public class BindExpression_BehaviorDescriptor extends Expression_BehaviorDescriptor {
   public BindExpression_BehaviorDescriptor() {
   }
+
+  @Override
+  public String getConceptFqName() {
+    return "jetbrains.mps.uiLanguage.structure.BindExpression";
+  }
 }

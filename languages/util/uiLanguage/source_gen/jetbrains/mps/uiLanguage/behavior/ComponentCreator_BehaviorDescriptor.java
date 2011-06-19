@@ -7,4 +7,9 @@ import jetbrains.mps.baseLanguage.behavior.AbstractCreator_BehaviorDescriptor;
 public class ComponentCreator_BehaviorDescriptor extends AbstractCreator_BehaviorDescriptor {
   public ComponentCreator_BehaviorDescriptor() {
   }
+
+  @Override
+  public String getConceptFqName() {
+    return "jetbrains.mps.uiLanguage.structure.ComponentCreator";
+  }
 }
