@@ -16,4 +16,9 @@ public class Sequence_BehaviorDescriptor extends GroupExpression_BehaviorDescrip
   public boolean virtual_hasElementReferences_1213877382383(SNode thisNode) {
     return Sequence_Behavior.virtual_hasElementReferences_1213877382383(thisNode);
   }
+
+  @Override
+  public String getConceptFqName() {
+    return "jetbrains.mps.xmlSchema.structure.Sequence";
+  }
 }

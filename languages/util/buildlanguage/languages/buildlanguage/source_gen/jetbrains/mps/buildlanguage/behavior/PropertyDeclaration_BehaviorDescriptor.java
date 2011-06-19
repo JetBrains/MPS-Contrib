@@ -6,4 +6,9 @@ package jetbrains.mps.buildlanguage.behavior;
 public class PropertyDeclaration_BehaviorDescriptor extends AbstractPropertyDeclaration_BehaviorDescriptor {
   public PropertyDeclaration_BehaviorDescriptor() {
   }
+
+  @Override
+  public String getConceptFqName() {
+    return "jetbrains.mps.buildlanguage.structure.PropertyDeclaration";
+  }
 }

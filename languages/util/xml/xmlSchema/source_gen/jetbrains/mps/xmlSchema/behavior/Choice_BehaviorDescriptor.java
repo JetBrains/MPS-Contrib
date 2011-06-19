@@ -16,4 +16,9 @@ public class Choice_BehaviorDescriptor extends GroupExpression_BehaviorDescripto
   public boolean virtual_hasElementReferences_1213877382383(SNode thisNode) {
     return Choice_Behavior.virtual_hasElementReferences_1213877382383(thisNode);
   }
+
+  @Override
+  public String getConceptFqName() {
+    return "jetbrains.mps.xmlSchema.structure.Choice";
+  }
 }

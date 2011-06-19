@@ -6,4 +6,9 @@ package jetbrains.mps.buildlanguage.behavior;
 public class IntegerEnum_BehaviorDescriptor extends Enum_BehaviorDescriptor {
   public IntegerEnum_BehaviorDescriptor() {
   }
+
+  @Override
+  public String getConceptFqName() {
+    return "jetbrains.mps.buildlanguage.structure.IntegerEnum";
+  }
 }

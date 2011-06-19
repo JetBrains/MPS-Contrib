@@ -1,17 +1,17 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <debugInfo>
-  <unitInfo fileName="Text_BehaviorDescriptor.java" startLine="6" startPosition="0" endLine="10" endPosition="0" unitName="jetbrains.mps.xml.deprecated.behavior.Text_BehaviorDescriptor" />
-  <unitInfo fileName="Element_BehaviorDescriptor.java" startLine="6" startPosition="0" endLine="10" endPosition="0" unitName="jetbrains.mps.xml.deprecated.behavior.Element_BehaviorDescriptor" />
   <unitInfo fileName="Document_Behavior.java" startLine="8" startPosition="0" endLine="13" endPosition="0" unitName="jetbrains.mps.xml.deprecated.behavior.Document_Behavior" />
-  <unitInfo fileName="ExternalId_BehaviorDescriptor.java" startLine="9" startPosition="0" endLine="15" endPosition="0" unitName="jetbrains.mps.xml.deprecated.behavior.ExternalId_BehaviorDescriptor" />
-  <unitInfo fileName="PublicId_BehaviorDescriptor.java" startLine="8" startPosition="0" endLine="16" endPosition="0" unitName="jetbrains.mps.xml.deprecated.behavior.PublicId_BehaviorDescriptor" />
-  <unitInfo fileName="DocumentTypeDeclaration_BehaviorDescriptor.java" startLine="10" startPosition="0" endLine="18" endPosition="0" unitName="jetbrains.mps.xml.deprecated.behavior.DocumentTypeDeclaration_BehaviorDescriptor" />
-  <unitInfo fileName="Document_BehaviorDescriptor.java" startLine="10" startPosition="0" endLine="18" endPosition="0" unitName="jetbrains.mps.xml.deprecated.behavior.Document_BehaviorDescriptor" />
-  <unitInfo fileName="ElementPart_BehaviorDescriptor.java" startLine="10" startPosition="0" endLine="18" endPosition="0" unitName="jetbrains.mps.xml.deprecated.behavior.ElementPart_BehaviorDescriptor" />
-  <unitInfo fileName="Attribute_BehaviorDescriptor.java" startLine="10" startPosition="0" endLine="18" endPosition="0" unitName="jetbrains.mps.xml.deprecated.behavior.Attribute_BehaviorDescriptor" />
+  <unitInfo fileName="Text_BehaviorDescriptor.java" startLine="6" startPosition="0" endLine="15" endPosition="0" unitName="jetbrains.mps.xml.deprecated.behavior.Text_BehaviorDescriptor" />
+  <unitInfo fileName="Element_BehaviorDescriptor.java" startLine="6" startPosition="0" endLine="15" endPosition="0" unitName="jetbrains.mps.xml.deprecated.behavior.Element_BehaviorDescriptor" />
   <unitInfo fileName="PublicId_Behavior.java" startLine="9" startPosition="0" endLine="18" endPosition="0" unitName="jetbrains.mps.xml.deprecated.behavior.PublicId_Behavior" />
+  <unitInfo fileName="ExternalId_BehaviorDescriptor.java" startLine="9" startPosition="0" endLine="20" endPosition="0" unitName="jetbrains.mps.xml.deprecated.behavior.ExternalId_BehaviorDescriptor" />
+  <unitInfo fileName="PublicId_BehaviorDescriptor.java" startLine="8" startPosition="0" endLine="21" endPosition="0" unitName="jetbrains.mps.xml.deprecated.behavior.PublicId_BehaviorDescriptor" />
+  <unitInfo fileName="DocumentTypeDeclaration_BehaviorDescriptor.java" startLine="10" startPosition="0" endLine="23" endPosition="0" unitName="jetbrains.mps.xml.deprecated.behavior.DocumentTypeDeclaration_BehaviorDescriptor" />
+  <unitInfo fileName="Document_BehaviorDescriptor.java" startLine="10" startPosition="0" endLine="23" endPosition="0" unitName="jetbrains.mps.xml.deprecated.behavior.Document_BehaviorDescriptor" />
+  <unitInfo fileName="ElementPart_BehaviorDescriptor.java" startLine="10" startPosition="0" endLine="23" endPosition="0" unitName="jetbrains.mps.xml.deprecated.behavior.ElementPart_BehaviorDescriptor" />
+  <unitInfo fileName="Attribute_BehaviorDescriptor.java" startLine="10" startPosition="0" endLine="23" endPosition="0" unitName="jetbrains.mps.xml.deprecated.behavior.Attribute_BehaviorDescriptor" />
   <unitInfo fileName="ExternalId_Behavior.java" startLine="12" startPosition="0" endLine="27" endPosition="0" unitName="jetbrains.mps.xml.deprecated.behavior.ExternalId_Behavior" />
-  <unitInfo fileName="BehaviorAspectDescriptor.java" startLine="9" startPosition="0" endLine="40" endPosition="0" unitName="jetbrains.mps.xml.deprecated.behavior.BehaviorAspectDescriptor" />
+  <unitInfo fileName="BehaviorAspectDescriptor.java" startLine="9" startPosition="0" endLine="34" endPosition="0" unitName="jetbrains.mps.xml.deprecated.behavior.BehaviorAspectDescriptor" />
   <root nodeId="1234406616484">
     <scopeInfo nodeId="1234406616486" fileName="ExternalId_Behavior.java" startLine="15" startPosition="43" endLine="15" endPosition="43" />
   </root>

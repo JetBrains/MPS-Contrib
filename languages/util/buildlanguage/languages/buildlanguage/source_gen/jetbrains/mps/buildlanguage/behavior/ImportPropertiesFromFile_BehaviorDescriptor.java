@@ -6,4 +6,9 @@ package jetbrains.mps.buildlanguage.behavior;
 public class ImportPropertiesFromFile_BehaviorDescriptor extends AbstractImportProperties_BehaviorDescriptor {
   public ImportPropertiesFromFile_BehaviorDescriptor() {
   }
+
+  @Override
+  public String getConceptFqName() {
+    return "jetbrains.mps.buildlanguage.structure.ImportPropertiesFromFile";
+  }
 }

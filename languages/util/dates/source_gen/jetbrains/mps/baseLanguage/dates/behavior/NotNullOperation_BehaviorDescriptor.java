@@ -11,4 +11,9 @@ public class NotNullOperation_BehaviorDescriptor extends DateTimeOperation_Behav
   public boolean virtual_operandCanBeNull_323410281720656291(SNode thisNode) {
     return NotNullOperation_Behavior.virtual_operandCanBeNull_323410281720656291(thisNode);
   }
+
+  @Override
+  public String getConceptFqName() {
+    return "jetbrains.mps.baseLanguage.dates.structure.NotNullOperation";
+  }
 }

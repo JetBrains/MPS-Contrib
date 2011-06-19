@@ -16,4 +16,9 @@ public class GItemList_BehaviorDescriptor extends GItem_BehaviorDescriptor imple
   public List<SNode> virtual_getItems_1239125087745(SNode thisNode) {
     return GItemList_Behavior.virtual_getItems_1239125087745(thisNode);
   }
+
+  @Override
+  public String getConceptFqName() {
+    return "jetbrains.mps.gtext.structure.GItemList";
+  }
 }

@@ -8,4 +8,9 @@ import jetbrains.mps.lang.core.behavior.INamedConcept_BehaviorDescriptor;
 public class TaskCall_BehaviorDescriptor extends AbstractCall_BehaviorDescriptor implements INamedConcept_BehaviorDescriptor {
   public TaskCall_BehaviorDescriptor() {
   }
+
+  @Override
+  public String getConceptFqName() {
+    return "jetbrains.mps.build.generictasks.structure.TaskCall";
+  }
 }

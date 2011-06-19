@@ -7,4 +7,9 @@ import jetbrains.mps.baseLanguage.behavior.Statement_BehaviorDescriptor;
 public class ContentStatement_BehaviorDescriptor extends Statement_BehaviorDescriptor {
   public ContentStatement_BehaviorDescriptor() {
   }
+
+  @Override
+  public String getConceptFqName() {
+    return "jetbrains.mps.xmlInternal.structure.ContentStatement";
+  }
 }

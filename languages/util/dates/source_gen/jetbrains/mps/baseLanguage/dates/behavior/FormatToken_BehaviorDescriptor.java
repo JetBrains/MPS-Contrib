@@ -7,4 +7,9 @@ import jetbrains.mps.lang.core.behavior.BaseConcept_BehaviorDescriptor;
 public abstract class FormatToken_BehaviorDescriptor extends BaseConcept_BehaviorDescriptor {
   public FormatToken_BehaviorDescriptor() {
   }
+
+  @Override
+  public String getConceptFqName() {
+    return "jetbrains.mps.baseLanguage.dates.structure.FormatToken";
+  }
 }

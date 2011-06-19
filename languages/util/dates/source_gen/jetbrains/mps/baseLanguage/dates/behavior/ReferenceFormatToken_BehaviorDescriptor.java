@@ -6,4 +6,9 @@ package jetbrains.mps.baseLanguage.dates.behavior;
 public class ReferenceFormatToken_BehaviorDescriptor extends FormatToken_BehaviorDescriptor {
   public ReferenceFormatToken_BehaviorDescriptor() {
   }
+
+  @Override
+  public String getConceptFqName() {
+    return "jetbrains.mps.baseLanguage.dates.structure.ReferenceFormatToken";
+  }
 }

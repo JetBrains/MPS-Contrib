@@ -11,4 +11,9 @@ public class ElementWithType_BehaviorDescriptor extends ElementDeclaration_Behav
   public SNode virtual_getComplexType_1213877429806(SNode thisNode) {
     return ElementWithType_Behavior.virtual_getComplexType_1213877429806(thisNode);
   }
+
+  @Override
+  public String getConceptFqName() {
+    return "jetbrains.mps.xmlSchema.structure.ElementWithType";
+  }
 }

@@ -26,4 +26,9 @@ public abstract class TypeExpression_BehaviorDescriptor extends BaseConcept_Beha
   public boolean virtual_hasElementReferences_1213877382383(SNode thisNode) {
     return TypeExpression_Behavior.virtual_hasElementReferences_1213877382383(thisNode);
   }
+
+  @Override
+  public String getConceptFqName() {
+    return "jetbrains.mps.xmlSchema.structure.TypeExpression";
+  }
 }

@@ -12,4 +12,9 @@ public abstract class GItem_BehaviorDescriptor extends BaseConcept_BehaviorDescr
   public boolean virtual_isComplex_1213877298853(SNode thisNode) {
     return GItem_Behavior.virtual_isComplex_1213877298853(thisNode);
   }
+
+  @Override
+  public String getConceptFqName() {
+    return "jetbrains.mps.gtext.structure.GItem";
+  }
 }

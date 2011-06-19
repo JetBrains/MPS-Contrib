@@ -21,4 +21,9 @@ public class PathReference_BehaviorDescriptor extends CallReference_BehaviorDesc
   public String virtual_toString_1213877472569(SNode thisNode) {
     return PathReference_Behavior.virtual_toString_1213877472569(thisNode);
   }
+
+  @Override
+  public String getConceptFqName() {
+    return "jetbrains.mps.build.generictasks.structure.PathReference";
+  }
 }

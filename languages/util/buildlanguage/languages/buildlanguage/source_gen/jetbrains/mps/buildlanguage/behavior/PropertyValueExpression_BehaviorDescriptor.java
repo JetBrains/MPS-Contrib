@@ -14,6 +14,11 @@ public abstract class PropertyValueExpression_BehaviorDescriptor extends BaseCon
     return PropertyValueExpression_Behavior.virtual_getPaths_1213877276955(thisNode);
   }
 
+  @Override
+  public String getConceptFqName() {
+    return "jetbrains.mps.buildlanguage.structure.PropertyValueExpression";
+  }
+
   public abstract String virtual_toString_1213877472569(SNode thisNode);
 
   public abstract String virtual_getActualValue_1213877472572(SNode thisNode);

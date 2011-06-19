@@ -7,4 +7,9 @@ import jetbrains.mps.baseLanguage.behavior.AbstractCreator_BehaviorDescriptor;
 public class XMLElementCreator_BehaviorDescriptor extends AbstractCreator_BehaviorDescriptor {
   public XMLElementCreator_BehaviorDescriptor() {
   }
+
+  @Override
+  public String getConceptFqName() {
+    return "jetbrains.mps.xmlQuery.structure.XMLElementCreator";
+  }
 }

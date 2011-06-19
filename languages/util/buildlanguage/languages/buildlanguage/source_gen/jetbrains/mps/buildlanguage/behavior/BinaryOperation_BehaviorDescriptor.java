@@ -11,4 +11,9 @@ public abstract class BinaryOperation_BehaviorDescriptor extends PropertyValueEx
   public SNode virtual_getType_1213877398951(SNode thisNode, SNode s1, SNode s2) {
     return BinaryOperation_Behavior.virtual_getType_1213877398951(thisNode, s1, s2);
   }
+
+  @Override
+  public String getConceptFqName() {
+    return "jetbrains.mps.buildlanguage.structure.BinaryOperation";
+  }
 }

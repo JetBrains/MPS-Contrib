@@ -7,4 +7,9 @@ import jetbrains.mps.baseLanguage.behavior.ConceptFunction_BehaviorDescriptor;
 public class ExecuteConfigBlock_BehaviorDescriptor extends ConceptFunction_BehaviorDescriptor implements IExecuteConfigBlock_BehaviorDescriptor {
   public ExecuteConfigBlock_BehaviorDescriptor() {
   }
+
+  @Override
+  public String getConceptFqName() {
+    return "jetbrains.mps.lang.plugin.structure.ExecuteConfigBlock";
+  }
 }

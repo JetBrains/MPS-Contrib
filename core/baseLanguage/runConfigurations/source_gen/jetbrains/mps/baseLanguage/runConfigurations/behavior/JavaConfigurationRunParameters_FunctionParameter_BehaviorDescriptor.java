@@ -16,4 +16,9 @@ public class JavaConfigurationRunParameters_FunctionParameter_BehaviorDescriptor
   public SNode virtual_getParameterType_1810772216404820824(SNode thisNode) {
     return JavaConfigurationRunParameters_FunctionParameter_Behavior.virtual_getParameterType_1810772216404820824(thisNode);
   }
+
+  @Override
+  public String getConceptFqName() {
+    return "jetbrains.mps.baseLanguage.runConfigurations.structure.JavaConfigurationRunParameters_FunctionParameter";
+  }
 }

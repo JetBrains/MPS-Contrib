@@ -6,4 +6,9 @@ package jetbrains.mps.baseLanguage.dates.behavior;
 public class RoundDateTimeOperation_BehaviorDescriptor extends UnaryDateTimeOperation_BehaviorDescriptor {
   public RoundDateTimeOperation_BehaviorDescriptor() {
   }
+
+  @Override
+  public String getConceptFqName() {
+    return "jetbrains.mps.baseLanguage.dates.structure.RoundDateTimeOperation";
+  }
 }

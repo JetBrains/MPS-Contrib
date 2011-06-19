@@ -26,4 +26,9 @@ public class TimeZoneNameOperation_BehaviorDescriptor extends BaseConcept_Behavi
   public boolean virtual_isLValue_1213877410080(SNode thisNode) {
     return IOperation_Behavior.virtual_isLValue_1213877410080(thisNode);
   }
+
+  @Override
+  public String getConceptFqName() {
+    return "jetbrains.mps.baseLanguage.dates.structure.TimeZoneNameOperation";
+  }
 }

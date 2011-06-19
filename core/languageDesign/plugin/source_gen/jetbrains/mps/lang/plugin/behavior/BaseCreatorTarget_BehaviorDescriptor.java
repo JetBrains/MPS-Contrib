@@ -12,4 +12,9 @@ public abstract class BaseCreatorTarget_BehaviorDescriptor extends BaseConcept_B
   public SNode virtual_getParameter_7559322914920378168(SNode thisNode) {
     return BaseCreatorTarget_Behavior.virtual_getParameter_7559322914920378168(thisNode);
   }
+
+  @Override
+  public String getConceptFqName() {
+    return "jetbrains.mps.lang.plugin.structure.BaseCreatorTarget";
+  }
 }

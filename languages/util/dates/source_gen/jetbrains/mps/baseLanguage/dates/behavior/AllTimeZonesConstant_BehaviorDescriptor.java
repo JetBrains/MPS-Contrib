@@ -7,4 +7,9 @@ import jetbrains.mps.baseLanguage.behavior.Expression_BehaviorDescriptor;
 public class AllTimeZonesConstant_BehaviorDescriptor extends Expression_BehaviorDescriptor {
   public AllTimeZonesConstant_BehaviorDescriptor() {
   }
+
+  @Override
+  public String getConceptFqName() {
+    return "jetbrains.mps.baseLanguage.dates.structure.AllTimeZonesConstant";
+  }
 }

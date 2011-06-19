@@ -6,4 +6,9 @@ package jetbrains.mps.buildlanguage.behavior;
 public class FileType_BehaviorDescriptor extends PropertyType_BehaviorDescriptor {
   public FileType_BehaviorDescriptor() {
   }
+
+  @Override
+  public String getConceptFqName() {
+    return "jetbrains.mps.buildlanguage.structure.FileType";
+  }
 }

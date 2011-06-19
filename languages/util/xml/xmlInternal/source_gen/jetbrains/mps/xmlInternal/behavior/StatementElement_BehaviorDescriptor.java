@@ -7,4 +7,9 @@ import jetbrains.mps.xml.behavior.Content_BehaviorDescriptor;
 public class StatementElement_BehaviorDescriptor extends Content_BehaviorDescriptor {
   public StatementElement_BehaviorDescriptor() {
   }
+
+  @Override
+  public String getConceptFqName() {
+    return "jetbrains.mps.xmlInternal.structure.StatementElement";
+  }
 }

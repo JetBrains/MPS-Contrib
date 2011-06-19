@@ -6,4 +6,9 @@ package jetbrains.mps.xmlQuery.behavior;
 public class AccessArbitraryChildrenOperation_BehaviorDescriptor extends XMLElementOperation_BehaviorDescriptor {
   public AccessArbitraryChildrenOperation_BehaviorDescriptor() {
   }
+
+  @Override
+  public String getConceptFqName() {
+    return "jetbrains.mps.xmlQuery.structure.AccessArbitraryChildrenOperation";
+  }
 }

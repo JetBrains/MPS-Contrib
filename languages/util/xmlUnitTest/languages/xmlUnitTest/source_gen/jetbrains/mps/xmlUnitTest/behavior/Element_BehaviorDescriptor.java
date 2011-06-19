@@ -6,4 +6,9 @@ package jetbrains.mps.xmlUnitTest.behavior;
 public class Element_BehaviorDescriptor extends ElementPart_BehaviorDescriptor {
   public Element_BehaviorDescriptor() {
   }
+
+  @Override
+  public String getConceptFqName() {
+    return "jetbrains.mps.xmlUnitTest.structure.Element";
+  }
 }

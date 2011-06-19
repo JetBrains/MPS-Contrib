@@ -6,4 +6,9 @@ package jetbrains.mps.xmlSchema.behavior;
 public class UnboundExpression_BehaviorDescriptor extends MaxOccursExpression_BehaviorDescriptor {
   public UnboundExpression_BehaviorDescriptor() {
   }
+
+  @Override
+  public String getConceptFqName() {
+    return "jetbrains.mps.xmlSchema.structure.UnboundExpression";
+  }
 }

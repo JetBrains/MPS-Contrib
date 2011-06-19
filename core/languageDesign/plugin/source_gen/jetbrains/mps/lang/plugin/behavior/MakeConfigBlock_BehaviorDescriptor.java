@@ -6,4 +6,9 @@ package jetbrains.mps.lang.plugin.behavior;
 public class MakeConfigBlock_BehaviorDescriptor extends AbstractEnhancedConceptFunction_BehaviorDescriptor {
   public MakeConfigBlock_BehaviorDescriptor() {
   }
+
+  @Override
+  public String getConceptFqName() {
+    return "jetbrains.mps.lang.plugin.structure.MakeConfigBlock";
+  }
 }

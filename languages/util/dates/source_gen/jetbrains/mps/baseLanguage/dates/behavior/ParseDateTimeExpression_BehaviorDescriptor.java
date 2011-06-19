@@ -17,4 +17,9 @@ public class ParseDateTimeExpression_BehaviorDescriptor extends Expression_Behav
   public SNode virtual_deriveType_1213877435747(SNode thisNode, SNode expression) {
     return ParseDateTimeExpression_Behavior.virtual_deriveType_1213877435747(thisNode, expression);
   }
+
+  @Override
+  public String getConceptFqName() {
+    return "jetbrains.mps.baseLanguage.dates.structure.ParseDateTimeExpression";
+  }
 }

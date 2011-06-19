@@ -6,4 +6,9 @@ package jetbrains.mps.baseLanguage.dates.behavior;
 public class MinDateTimeOperation_BehaviorDescriptor extends MathDateTimeOperation_BehaviorDescriptor {
   public MinDateTimeOperation_BehaviorDescriptor() {
   }
+
+  @Override
+  public String getConceptFqName() {
+    return "jetbrains.mps.baseLanguage.dates.structure.MinDateTimeOperation";
+  }
 }

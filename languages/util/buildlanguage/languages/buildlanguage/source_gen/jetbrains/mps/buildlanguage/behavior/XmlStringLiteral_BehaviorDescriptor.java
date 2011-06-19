@@ -15,4 +15,9 @@ public class XmlStringLiteral_BehaviorDescriptor extends PropertyValueExpression
   public String virtual_toString_1213877472569(SNode thisNode) {
     return XmlStringLiteral_Behavior.virtual_toString_1213877472569(thisNode);
   }
+
+  @Override
+  public String getConceptFqName() {
+    return "jetbrains.mps.buildlanguage.structure.XmlStringLiteral";
+  }
 }

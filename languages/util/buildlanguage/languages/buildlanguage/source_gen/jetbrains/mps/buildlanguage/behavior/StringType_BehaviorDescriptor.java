@@ -6,4 +6,9 @@ package jetbrains.mps.buildlanguage.behavior;
 public class StringType_BehaviorDescriptor extends PropertyType_BehaviorDescriptor {
   public StringType_BehaviorDescriptor() {
   }
+
+  @Override
+  public String getConceptFqName() {
+    return "jetbrains.mps.buildlanguage.structure.StringType";
+  }
 }

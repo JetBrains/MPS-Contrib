@@ -6,4 +6,9 @@ package jetbrains.mps.gtext.behavior;
 public class GNewLine_BehaviorDescriptor extends GItem_BehaviorDescriptor {
   public GNewLine_BehaviorDescriptor() {
   }
+
+  @Override
+  public String getConceptFqName() {
+    return "jetbrains.mps.gtext.structure.GNewLine";
+  }
 }

@@ -12,4 +12,9 @@ public abstract class BaseElement_BehaviorDescriptor extends Content_BehaviorDes
   public List<SNode> virtual_getSubcontents_1213877224308(SNode thisNode) {
     return BaseElement_Behavior.virtual_getSubcontents_1213877224308(thisNode);
   }
+
+  @Override
+  public String getConceptFqName() {
+    return "jetbrains.mps.xml.structure.BaseElement";
+  }
 }

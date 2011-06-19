@@ -7,4 +7,9 @@ import jetbrains.mps.baseLanguage.behavior.ConceptFunction_BehaviorDescriptor;
 public class DisposeEditorBlock_BehaviorDescriptor extends ConceptFunction_BehaviorDescriptor {
   public DisposeEditorBlock_BehaviorDescriptor() {
   }
+
+  @Override
+  public String getConceptFqName() {
+    return "jetbrains.mps.lang.plugin.structure.DisposeEditorBlock";
+  }
 }

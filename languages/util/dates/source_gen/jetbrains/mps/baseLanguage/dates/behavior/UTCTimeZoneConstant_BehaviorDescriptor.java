@@ -6,4 +6,9 @@ package jetbrains.mps.baseLanguage.dates.behavior;
 public class UTCTimeZoneConstant_BehaviorDescriptor extends TimeZoneConstant_BehaviorDescriptor {
   public UTCTimeZoneConstant_BehaviorDescriptor() {
   }
+
+  @Override
+  public String getConceptFqName() {
+    return "jetbrains.mps.baseLanguage.dates.structure.UTCTimeZoneConstant";
+  }
 }

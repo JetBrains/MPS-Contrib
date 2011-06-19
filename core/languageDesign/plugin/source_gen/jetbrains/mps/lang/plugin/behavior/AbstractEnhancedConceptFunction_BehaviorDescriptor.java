@@ -13,4 +13,9 @@ public abstract class AbstractEnhancedConceptFunction_BehaviorDescriptor extends
   public List<SNode> virtual_getParameters_1213877374450(SNode thisNode) {
     return AbstractEnhancedConceptFunction_Behavior.virtual_getParameters_1213877374450(thisNode);
   }
+
+  @Override
+  public String getConceptFqName() {
+    return "jetbrains.mps.lang.plugin.structure.AbstractEnhancedConceptFunction";
+  }
 }

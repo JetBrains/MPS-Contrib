@@ -6,4 +6,9 @@ package jetbrains.mps.xmlSchema.behavior;
 public class GroupDeclaration_BehaviorDescriptor extends Declaration_BehaviorDescriptor {
   public GroupDeclaration_BehaviorDescriptor() {
   }
+
+  @Override
+  public String getConceptFqName() {
+    return "jetbrains.mps.xmlSchema.structure.GroupDeclaration";
+  }
 }

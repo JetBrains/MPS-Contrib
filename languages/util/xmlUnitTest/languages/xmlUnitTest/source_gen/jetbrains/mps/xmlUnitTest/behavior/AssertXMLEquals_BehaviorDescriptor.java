@@ -8,4 +8,9 @@ import jetbrains.mps.baseLanguage.unitTest.behavior.MessageHolder_BehaviorDescri
 public class AssertXMLEquals_BehaviorDescriptor extends Statement_BehaviorDescriptor implements MessageHolder_BehaviorDescriptor {
   public AssertXMLEquals_BehaviorDescriptor() {
   }
+
+  @Override
+  public String getConceptFqName() {
+    return "jetbrains.mps.xmlUnitTest.structure.AssertXMLEquals";
+  }
 }

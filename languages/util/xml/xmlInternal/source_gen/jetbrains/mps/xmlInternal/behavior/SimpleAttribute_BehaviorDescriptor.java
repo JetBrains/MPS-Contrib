@@ -7,4 +7,9 @@ import jetbrains.mps.xml.behavior.BaseAttribute_BehaviorDescriptor;
 public class SimpleAttribute_BehaviorDescriptor extends BaseAttribute_BehaviorDescriptor {
   public SimpleAttribute_BehaviorDescriptor() {
   }
+
+  @Override
+  public String getConceptFqName() {
+    return "jetbrains.mps.xmlInternal.structure.SimpleAttribute";
+  }
 }

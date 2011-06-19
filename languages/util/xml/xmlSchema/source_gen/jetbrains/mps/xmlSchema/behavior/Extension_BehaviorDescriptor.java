@@ -21,4 +21,9 @@ public class Extension_BehaviorDescriptor extends ContentItem_BehaviorDescriptor
   public void virtual_checkElements_1213877413543(SNode thisNode, Set<SNode> elementDeclarations) {
     Extension_Behavior.virtual_checkElements_1213877413543(thisNode, elementDeclarations);
   }
+
+  @Override
+  public String getConceptFqName() {
+    return "jetbrains.mps.xmlSchema.structure.Extension";
+  }
 }

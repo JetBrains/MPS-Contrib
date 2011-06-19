@@ -21,4 +21,9 @@ public class StringLiteral_BehaviorDescriptor extends PropertyValueExpression_Be
   public String virtual_getFqName_1213877404258(SNode thisNode) {
     return INamedConcept_Behavior.virtual_getFqName_1213877404258(thisNode);
   }
+
+  @Override
+  public String getConceptFqName() {
+    return "jetbrains.mps.buildlanguage.structure.StringLiteral";
+  }
 }

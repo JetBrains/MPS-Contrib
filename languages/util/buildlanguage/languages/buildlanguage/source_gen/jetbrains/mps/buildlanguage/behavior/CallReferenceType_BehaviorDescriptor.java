@@ -6,4 +6,9 @@ package jetbrains.mps.buildlanguage.behavior;
 public class CallReferenceType_BehaviorDescriptor extends PropertyType_BehaviorDescriptor {
   public CallReferenceType_BehaviorDescriptor() {
   }
+
+  @Override
+  public String getConceptFqName() {
+    return "jetbrains.mps.buildlanguage.structure.CallReferenceType";
+  }
 }

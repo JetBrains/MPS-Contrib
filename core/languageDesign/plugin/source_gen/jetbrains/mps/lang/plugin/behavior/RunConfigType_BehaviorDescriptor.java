@@ -17,4 +17,9 @@ public class RunConfigType_BehaviorDescriptor extends BaseClassifierType_Behavio
   public SNode virtual_getClassExpression_1213877337357(SNode thisNode) {
     return RunConfigType_Behavior.virtual_getClassExpression_1213877337357(thisNode);
   }
+
+  @Override
+  public String getConceptFqName() {
+    return "jetbrains.mps.lang.plugin.structure.RunConfigType";
+  }
 }

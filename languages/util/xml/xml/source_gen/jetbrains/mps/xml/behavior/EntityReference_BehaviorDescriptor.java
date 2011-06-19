@@ -6,4 +6,9 @@ package jetbrains.mps.xml.behavior;
 public class EntityReference_BehaviorDescriptor extends BaseText_BehaviorDescriptor {
   public EntityReference_BehaviorDescriptor() {
   }
+
+  @Override
+  public String getConceptFqName() {
+    return "jetbrains.mps.xml.structure.EntityReference";
+  }
 }

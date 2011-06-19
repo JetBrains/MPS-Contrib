@@ -12,4 +12,9 @@ public class PublicId_BehaviorDescriptor extends ExternalId_BehaviorDescriptor {
   public void virtual_createID_1234406619968(SNode thisNode, DocType doctype) {
     PublicId_Behavior.virtual_createID_1234406619968(thisNode, doctype);
   }
+
+  @Override
+  public String getConceptFqName() {
+    return "jetbrains.mps.xml.deprecated.structure.PublicId";
+  }
 }

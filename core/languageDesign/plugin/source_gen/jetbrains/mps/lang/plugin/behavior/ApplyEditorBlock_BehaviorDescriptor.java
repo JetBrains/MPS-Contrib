@@ -6,4 +6,9 @@ package jetbrains.mps.lang.plugin.behavior;
 public class ApplyEditorBlock_BehaviorDescriptor extends AbstractEnhancedConceptFunction_BehaviorDescriptor {
   public ApplyEditorBlock_BehaviorDescriptor() {
   }
+
+  @Override
+  public String getConceptFqName() {
+    return "jetbrains.mps.lang.plugin.structure.ApplyEditorBlock";
+  }
 }
