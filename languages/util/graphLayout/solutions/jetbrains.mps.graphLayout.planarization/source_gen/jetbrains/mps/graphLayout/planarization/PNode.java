@@ -10,6 +10,13 @@ import jetbrains.mps.internal.collections.runtime.IWhereFilter;
 import java.util.ArrayList;
 import java.util.Iterator;
 
+
+/**
+ * Implements p-node from pq-tree for graph planarization. Usually there are
+ * six patterns for reduction of p-node. In this case we perform a special
+ * procedure with the pertinent root, so patterns for the pertinent root are
+ * omitted here. 
+ */
 public class PNode extends PQNode {
   private Node myGraphNode;
   private Edge myGraphEdge;

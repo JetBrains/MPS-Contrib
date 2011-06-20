@@ -7,6 +7,10 @@ import jetbrains.mps.internal.collections.runtime.ListSequence;
 import jetbrains.mps.internal.collections.runtime.backports.LinkedList;
 import java.util.ArrayList;
 
+
+/**
+ * Contains utility methods for integer two-dimensional geometry.
+ */
 public class GeomUtil {
   public static boolean intersects(Point p1, Point p2, Point q1, Point q2) {
     boolean interInEnd = false;

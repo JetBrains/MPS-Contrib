@@ -7,12 +7,18 @@ import jetbrains.mps.internal.collections.runtime.ListSequence;
 import jetbrains.mps.internal.collections.runtime.backports.LinkedList;
 import java.util.ArrayList;
 
+
+/**
+ * Contains utility methods for integer two-dimensional geometry in assumption 
+ * that segments can be horizontal or vertical only.
+ */
 public class OrthogonalUtil {
   /**
    * Removes some points from sequence in such a way that segments formed from successive
    * points of refined sequence alternate horisontal and vertical direction.
    * 
    * @param polyline sequence of points
+   * @throws refined sequence of points
    */
   public static List<Point> refinePolyline(List<Point> polyline) {
     List<Point> refined = ListSequence.fromList(new LinkedList<Point>());
@@ -94,6 +100,7 @@ public class OrthogonalUtil {
    * @param q1 another end of first segment
    * @param p2 one end of second segment
    * @param q2 another end of second segment
+   * @throws intersection of segments
    */
   public static Point intersects(Point p1, Point q1, Point p2, Point q2) {
     // intersects vertical and horizontal segments 
