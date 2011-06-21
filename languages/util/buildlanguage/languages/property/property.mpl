@@ -44,6 +44,7 @@
   </usedDevKits>
   <extendedLanguages>
     <extendedLanguage>0b608d44-1308-418d-8715-22d040c3b3cc(jetbrains.mps.buildlanguage)</extendedLanguage>
+    <extendedLanguage>a83c3bd0-2f7e-4ba1-8373-12d49e99f57e(jetbrains.mps.gtext)</extendedLanguage>
   </extendedLanguages>
 </language>
 
