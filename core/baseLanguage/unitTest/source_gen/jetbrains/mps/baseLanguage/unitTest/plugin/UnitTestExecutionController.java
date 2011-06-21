@@ -45,7 +45,7 @@ public class UnitTestExecutionController {
     myCurrentProcess = OutputRedirector.redirect(new Junit_Command().setJrePath(myConfigurationRunParameters.getAlternativeJRE()).setVirtualMachineParameter(myConfigurationRunParameters.getVMParameters()).setWorkingDirectory((StringUtils.isNotEmpty(workingDir) ?
       new File(workingDir) :
       null
-    )).setTests(myWhatToTest).createProcess(), new UnitTestProcessListener(myDispatcher));
+    )).createProcess(myWhatToTest), new UnitTestProcessListener(myDispatcher));
 
     if (myCurrentProcess == null) {
       myState.terminate();
