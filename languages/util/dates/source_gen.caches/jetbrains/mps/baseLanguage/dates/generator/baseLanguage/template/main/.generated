@@ -1,13 +1,13 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<dependencies version="2" modelHash="7akbqsnfrppnlmwqjks7z1hzrzkrsdk">
+<dependencies version="2" modelHash="-al5b70tvtl2hmbserbu55mvmlu2xpn3">
   <dep model="f:java_stub#37a3367b-1fb2-44d8-aa6b-18075e74e003#jetbrains.mps.lang.smodel.generator.smodelAdapter(MPS.Classpath/jetbrains.mps.lang.smodel.generator.smodelAdapter@java_stub)" />
   <dep model="f:java_stub#37a3367b-1fb2-44d8-aa6b-18075e74e003#jetbrains.mps.smodel(MPS.Classpath/jetbrains.mps.smodel@java_stub)" />
   <dep model="f:java_stub#6354ebe7-c22a-4a0f-ac54-50b52ab9b065#java.lang(JDK/java.lang@java_stub)" />
   <dep model="f:java_stub#6354ebe7-c22a-4a0f-ac54-50b52ab9b065#java.util(JDK/java.util@java_stub)" />
   <dep model="r:00000000-0000-4000-0000-011c89590288(jetbrains.mps.lang.core.structure)" hash="-3y2r6y3czb0h44qur9lgd1udqb2qdek" />
-  <dep model="r:00000000-0000-4000-0000-011c895902b7(jetbrains.mps.lang.typesystem.generator.baseLanguage.template.main@generator)" hash="e34h2q8cf9c4x7pcw2dkx0hbik02nr5" />
-  <dep model="r:00000000-0000-4000-0000-011c895902c0(jetbrains.mps.baseLanguage.behavior)" hash="2pnhmop05pqgituvz4rfz4m8k1nk7tu" />
-  <dep model="r:00000000-0000-4000-0000-011c895902ca(jetbrains.mps.baseLanguage.structure)" hash="6a6zpdzd0uayt755yuizj6hqmo45nke" />
+  <dep model="r:00000000-0000-4000-0000-011c895902b7(jetbrains.mps.lang.typesystem.generator.baseLanguage.template.main@generator)" hash="ajqxg84rvxtjl40hseo2xqdtzq31j0f" />
+  <dep model="r:00000000-0000-4000-0000-011c895902c0(jetbrains.mps.baseLanguage.behavior)" hash="991jjmr7t4elavvb5f14fakqlj06pug" />
+  <dep model="r:00000000-0000-4000-0000-011c895902ca(jetbrains.mps.baseLanguage.structure)" hash="wv54fkjqtg2fcevxjnkhw77g5repzk" />
   <dep model="r:00000000-0000-4000-0000-011c895902cb(jetbrains.mps.baseLanguage.generator.java.closures@generator)" hash="cbxbas4wcql77jgbid2dra89g3u345r" />
   <dep model="r:00000000-0000-4000-0000-011c895902cc(jetbrains.mps.baseLanguage.generator.java.conceptFunctionDefaults@generator)" hash="-cdzfn4p1jcvpfs9gteqku1nwd21geb4" />
   <dep model="r:00000000-0000-4000-0000-011c895902cd(jetbrains.mps.baseLanguage.generator.java.main@generator)" hash="-6r5i332c87x8xyc3ivazsp5i0nmdz40" />
@@ -17,15 +17,13 @@
   <dep model="r:00000000-0000-4000-0000-011c89590301(jetbrains.mps.lang.smodel.structure)" hash="bwtu02qh5xy02b00eqp28yt4mumjvr5" />
   <dep model="r:00000000-0000-4000-0000-011c89590303(jetbrains.mps.lang.smodel.generator.baseLanguage.template.main@generator)" hash="80f2szvitjqussva2lo45hvlmm831p" />
   <dep model="r:00000000-0000-4000-0000-011c8959032f(jetbrains.mps.baseLanguage.collections.generator.baseLanguage.template.main@generator)" hash="-5g8163zp0j3pctdgbcilsfbj6z1v6tf" />
-  <dep model="r:00000000-0000-4000-0000-011c89590338(jetbrains.mps.baseLanguage.closures.structure)" hash="-1nd6uy0e8gxev0yzcrmonka8fmr2chr" />
   <dep model="r:00000000-0000-4000-0000-011c8959033a(jetbrains.mps.baseLanguage.closures.generator.baseLanguage.template.main@generator)" hash="-19pllpp1flqcw10ar7lq7ibhgril3uw" />
-  <dep model="r:00000000-0000-4000-0000-011c895903ac(jetbrains.mps.baseLanguageInternal.structure)" hash="-3xupx7hyzpnshlcxg8l0jxlmp5npf6n" />
+  <dep model="r:00000000-0000-4000-0000-011c895903ac(jetbrains.mps.baseLanguageInternal.structure)" hash="bs12zx6bureypbcmufkaon2v0z94d94" />
   <dep model="r:00000000-0000-4000-0000-011c895903ce(jetbrains.mps.baseLanguage.dates.behavior)" hash="-ek3j0pb0k7t76eocyw26sp4s4zalxya" />
   <dep model="r:00000000-0000-4000-0000-011c895903d5(jetbrains.mps.baseLanguage.dates.structure)" hash="djoq2bqjwaiqyity4220166nd6rn1g5" />
   <dep model="r:00000000-0000-4000-0000-011c895903da(jetbrains.mps.baseLanguage.datesInternal.behavior)" hash="ap79hv9lff8apbh3n6yjc02v1vfcpw2" />
   <dep model="r:00000000-0000-4000-0000-011c895903dd(jetbrains.mps.baseLanguage.datesInternal.structure)" hash="ev6v3cpqxzixevpck24577h20pnhq05" />
   <dep model="r:b4d7d620-6723-4aa2-856b-118497e84e9e(jetbrains.mps.baseLanguage.generator.java.strings@generator)" hash="cenf4n6cafns3rh67gtc531ejx8bg4m" />
-  <dep model="r:c3548bac-30eb-4a2a-937c-0111d5697309(jetbrains.mps.lang.smodel.generator.smodelAdapter)" hash="-43wh01onabvwy9s5tyv4yxofdjxsmwy" />
   <dep model="r:f04c1476-2f91-4f59-be13-c8e009abebee(jetbrains.mps.baseLanguageInternal.generator.template.main@generator)" hash="9gsrblz09ks4c4fg3fgyn64pi8f1wd1" />
   <dep model="r:fc76aa36-3cff-41c7-b94b-eee0e8341932(jetbrains.mps.internal.collections.runtime)" hash="-c8o7egrhhlddj60rzgg330ecnpq5k8d" />
   <common hash="-6nn93l8r7gdd4fhkyosew35j63hpam5" dependsOnNodes="true">
@@ -110,7 +108,6 @@
     <dep model="r:00000000-0000-4000-0000-011c89590301(jetbrains.mps.lang.smodel.structure)" />
     <dep model="r:00000000-0000-4000-0000-011c89590303(jetbrains.mps.lang.smodel.generator.baseLanguage.template.main@generator)" />
     <dep model="r:00000000-0000-4000-0000-011c8959032f(jetbrains.mps.baseLanguage.collections.generator.baseLanguage.template.main@generator)" />
-    <dep model="r:00000000-0000-4000-0000-011c89590338(jetbrains.mps.baseLanguage.closures.structure)" />
     <dep model="r:00000000-0000-4000-0000-011c8959033a(jetbrains.mps.baseLanguage.closures.generator.baseLanguage.template.main@generator)" />
     <dep model="r:00000000-0000-4000-0000-011c895903ac(jetbrains.mps.baseLanguageInternal.structure)" />
     <dep model="r:00000000-0000-4000-0000-011c895903ce(jetbrains.mps.baseLanguage.dates.behavior)" />
@@ -118,96 +115,95 @@
     <dep model="r:00000000-0000-4000-0000-011c895903da(jetbrains.mps.baseLanguage.datesInternal.behavior)" />
     <dep model="r:00000000-0000-4000-0000-011c895903dd(jetbrains.mps.baseLanguage.datesInternal.structure)" />
     <dep model="r:b4d7d620-6723-4aa2-856b-118497e84e9e(jetbrains.mps.baseLanguage.generator.java.strings@generator)" />
-    <dep model="r:c3548bac-30eb-4a2a-937c-0111d5697309(jetbrains.mps.lang.smodel.generator.smodelAdapter)" />
     <dep model="r:f04c1476-2f91-4f59-be13-c8e009abebee(jetbrains.mps.baseLanguageInternal.generator.template.main@generator)" />
     <dep model="r:fc76aa36-3cff-41c7-b94b-eee0e8341932(jetbrains.mps.internal.collections.runtime)" />
     <file name="QueriesGenerated.java" />
   </common>
-  <source id="1169550125892" name="main" hash="at1y3sx70i2jbmic9348jgwfspc7xd1">
+  <source id="1169550125892" name="main" hash="d3wfzfekpoy9snmgvc46c8jiovv7a1s">
     <dep model="r:00000000-0000-4000-0000-011c895902e9(jetbrains.mps.lang.generator.generator.baseLanguage.template.main@generator)" />
   </source>
-  <source id="1169550327580" name="FormatTable" hash="-bia0ix70qyyjfuhyvluih2r5slsmqgl">
+  <source id="1169550327580" name="FormatTable" hash="7qvmzwfy91cx31h0izf6zx2awknkbci">
     <dep model="r:00000000-0000-4000-0000-011c895902e9(jetbrains.mps.lang.generator.generator.baseLanguage.template.main@generator)" />
   </source>
-  <source id="1169551475383" name="reduce_DateFormat" hash="5uekyhe4kjtbgb881273y571p2cxy58">
+  <source id="1169551475383" name="reduce_DateFormat" hash="6ww14iinkno7kba164n84ld2z5n75se">
     <dep model="r:00000000-0000-4000-0000-011c895902e9(jetbrains.mps.lang.generator.generator.baseLanguage.template.main@generator)" />
   </source>
-  <source id="1169553961768" name="reduce_LiteralFormatToken" hash="-ayo4qfezzfh28yhvba5bf8th92pywpy">
+  <source id="1169553961768" name="reduce_LiteralFormatToken" hash="-etq27hfhzggrsj2a0u7cxyovwodbmit">
     <dep model="r:00000000-0000-4000-0000-011c895902e9(jetbrains.mps.lang.generator.generator.baseLanguage.template.main@generator)" />
   </source>
-  <source id="1169558091454" name="reduce_FormatExpression" hash="-5bmqs4sepo2p9h69ahq6tj7y8bvnbf5">
+  <source id="1169558091454" name="reduce_FormatExpression" hash="9v57gvt996a5alz18qm7jdrr9d35epp">
     <dep model="r:00000000-0000-4000-0000-011c895902e9(jetbrains.mps.lang.generator.generator.baseLanguage.template.main@generator)" />
   </source>
-  <source id="1169630265920" name="reduce_NowExpression" hash="-7jo53e9vru77w5hkanqn7a9n7cot89o">
+  <source id="1169630265920" name="reduce_NowExpression" hash="2ypm1g5ir8j0mb54vzbyj7t0h9xb4n6">
     <dep model="r:00000000-0000-4000-0000-011c895902e9(jetbrains.mps.lang.generator.generator.baseLanguage.template.main@generator)" />
   </source>
-  <source id="1169638264524" name="ConditionalDateTimePrinterImpl" hash="cu96realpd0ckfyh5sfxmu96qhht4vj">
+  <source id="1169638264524" name="ConditionalDateTimePrinterImpl" hash="1bg0ewaqy48bo7qh9lamby2be1riemy">
     <dep model="r:00000000-0000-4000-0000-011c895902e9(jetbrains.mps.lang.generator.generator.baseLanguage.template.main@generator)" />
   </source>
-  <source id="1169646919575" name="reduce_ReferenceFormatToken" hash="8gn3ohb3ict2ml23jy3puw6eiv8e6w0">
+  <source id="1169646919575" name="reduce_ReferenceFormatToken" hash="-dw7w51vbyqfqkttpts4q8mcddgymaif">
     <dep model="r:00000000-0000-4000-0000-011c895902e9(jetbrains.mps.lang.generator.generator.baseLanguage.template.main@generator)" />
   </source>
-  <source id="1169647821783" name="reduce_ConditionalFormatToken" hash="4dc58k1bm2gicecmefptf9nyfgckvq1">
+  <source id="1169647821783" name="reduce_ConditionalFormatToken" hash="-e1os2g9jcw2g3f3byazgnj9hmcf33ei">
     <dep model="r:00000000-0000-4000-0000-011c895902e9(jetbrains.mps.lang.generator.generator.baseLanguage.template.main@generator)" />
   </source>
-  <source id="1172068095799" name="reduce_DateTimeType" hash="-95uio9wm5i6onvsce0m4kh5r31zb6af">
+  <source id="1172068095799" name="reduce_DateTimeType" hash="-134lj6ytau7e2bf9dh08u1to4b6n1ry">
     <dep model="r:00000000-0000-4000-0000-011c895902e9(jetbrains.mps.lang.generator.generator.baseLanguage.template.main@generator)" />
   </source>
-  <source id="1172145375222" name="reduce_DateTimeCompareOperation" hash="d33qpgtm7api9qjsd8acf1d8bylwzrh">
+  <source id="1172145375222" name="reduce_DateTimeCompareOperation" hash="brnp9ncc2vqiskn1icjzdtdc9lh3el9">
     <dep model="r:00000000-0000-4000-0000-011c895902e9(jetbrains.mps.lang.generator.generator.baseLanguage.template.main@generator)" />
   </source>
-  <source id="1172326347243" name="reduce_RoundDateTimeOperation" hash="2rh8fvlqdfj7kze5st7g0xp4porw08z">
+  <source id="1172326347243" name="reduce_RoundDateTimeOperation" hash="8pdf4klllcxfpxxms1vpbinr9b4548u">
     <dep model="r:00000000-0000-4000-0000-011c895902e9(jetbrains.mps.lang.generator.generator.baseLanguage.template.main@generator)" />
   </source>
-  <source id="1172327129404" name="reduce_FloorDateTimeOperation" hash="-6msbwmgzhjsol52tqck04cqsamdf238">
+  <source id="1172327129404" name="reduce_FloorDateTimeOperation" hash="-6qvz5akggftmefljg26s7pibeqjd31o">
     <dep model="r:00000000-0000-4000-0000-011c895902e9(jetbrains.mps.lang.generator.generator.baseLanguage.template.main@generator)" />
   </source>
-  <source id="1172327149445" name="reduce_CeilingDateTimeOperation" hash="-9hlgvcpuc64phan4or3pnm5zt3skwyv">
+  <source id="1172327149445" name="reduce_CeilingDateTimeOperation" hash="d2w87h02yi60yzfp51d7ib176tvl9wp">
     <dep model="r:00000000-0000-4000-0000-011c895902e9(jetbrains.mps.lang.generator.generator.baseLanguage.template.main@generator)" />
   </source>
-  <source id="1172332406179" name="reduce_DateTimeWithPropertyOperation" hash="9ddlw270ums1l5mjkme7ludni6selfv">
+  <source id="1172332406179" name="reduce_DateTimeWithPropertyOperation" hash="-aj6r0sx1cjhl2xt6e78yu6iod59vacc">
     <dep model="r:00000000-0000-4000-0000-011c895902e9(jetbrains.mps.lang.generator.generator.baseLanguage.template.main@generator)" />
   </source>
-  <source id="1172489369985" name="reduce_PeriodType" hash="-cbqpx95rx4vm9hz1iyay9f4c5ti14y0">
+  <source id="1172489369985" name="reduce_PeriodType" hash="9acmyep95bsoy0r42bmnlz0o25q1elm">
     <dep model="r:00000000-0000-4000-0000-011c895902e9(jetbrains.mps.lang.generator.generator.baseLanguage.template.main@generator)" />
   </source>
-  <source id="1172492017024" name="reduce_PeriodConstant" hash="-4z8tupqwartown8fnvn55mwlmekiyic">
+  <source id="1172492017024" name="reduce_PeriodConstant" hash="6wwlkf8no0f5uuj6zhdf121jphwmpw1">
     <dep model="r:00000000-0000-4000-0000-011c895902e9(jetbrains.mps.lang.generator.generator.baseLanguage.template.main@generator)" />
   </source>
-  <source id="1172499604795" name="reduce_PlusExpression" hash="7rjhaqj8jzc0xqld9yk381tqz5binm9">
+  <source id="1172499604795" name="reduce_PlusExpression" hash="-69vhzc9c6v9rqo5nziwyi3gag3jtn6z">
     <dep model="r:00000000-0000-4000-0000-011c895902e9(jetbrains.mps.lang.generator.generator.baseLanguage.template.main@generator)" />
   </source>
-  <source id="1172501993121" name="reduce_MinusExpression" hash="-ag853812mdmuieo93a4sna19gvthhy3">
+  <source id="1172501993121" name="reduce_MinusExpression" hash="1bikwy7blvbrwu5zrtgazli5yc9e5s3">
     <dep model="r:00000000-0000-4000-0000-011c895902e9(jetbrains.mps.lang.generator.generator.baseLanguage.template.main@generator)" />
   </source>
-  <source id="1172684437748" name="reduce_FixedLocaleFormatToken" hash="-1b53vsz8f5rlewskzvib4szpsg9ox35">
+  <source id="1172684437748" name="reduce_FixedLocaleFormatToken" hash="c0qzwtrc3zw0xljrj0m59ti7k8sad7c">
     <dep model="r:00000000-0000-4000-0000-011c895902e9(jetbrains.mps.lang.generator.generator.baseLanguage.template.main@generator)" />
   </source>
-  <source id="1173885209754" name="switch_IDateFormat_reference" hash="-d7j67yq8qd10jypw2w8h58izcugs22e">
+  <source id="1173885209754" name="switch_IDateFormat_reference" hash="2pm6tn16n4hgrrpvo847mbjz6dwi9ex">
     <dep model="r:00000000-0000-4000-0000-011c895902e9(jetbrains.mps.lang.generator.generator.baseLanguage.template.main@generator)" />
   </source>
-  <source id="1173885253101" name="reduce_DateFormat_IDateFormat_reference" hash="14hsnud5fm91ay98ay4zvktbiwfn4jh">
+  <source id="1173885253101" name="reduce_DateFormat_IDateFormat_reference" hash="-bejo6n9xn2yjyqxs2lrugti241u5o4i">
     <dep model="r:00000000-0000-4000-0000-011c895902e9(jetbrains.mps.lang.generator.generator.baseLanguage.template.main@generator)" />
   </source>
-  <source id="1173885363705" name="reduce_PredefinedDateFormat_IDateFormat_reference" hash="-7fgk7uphtscp4m1u1z35pn5ki3a8jze">
+  <source id="1173885363705" name="reduce_PredefinedDateFormat_IDateFormat_reference" hash="gz63eqffx948r5no1xxgdqxt69pwu5">
     <dep model="r:00000000-0000-4000-0000-011c895902e9(jetbrains.mps.lang.generator.generator.baseLanguage.template.main@generator)" />
   </source>
-  <source id="1173967707012" name="reduce_DateTimePropertyFormatToken" hash="-1gzzwcespgff39hp4slfemylsbb0dhc">
+  <source id="1173967707012" name="reduce_DateTimePropertyFormatToken" hash="emi7n72606bc6322bol46ta83wve0fc">
     <dep model="r:00000000-0000-4000-0000-011c895902e9(jetbrains.mps.lang.generator.generator.baseLanguage.template.main@generator)" />
   </source>
-  <source id="1174045772633" name="reduce_InlineFormatExpression" hash="8mwfmpddstgocun2ju4ogli99yug8sn">
+  <source id="1174045772633" name="reduce_InlineFormatExpression" hash="cqrpptq19adm3wvwzbl1xpk85vbv5g6">
     <dep model="r:00000000-0000-4000-0000-011c895902e9(jetbrains.mps.lang.generator.generator.baseLanguage.template.main@generator)" />
   </source>
-  <source id="1174322757200" name="reduce_DateTimeOffsetFormatToken" hash="-7ra9zgooj85hnv0617rr83iukvvxxne">
+  <source id="1174322757200" name="reduce_DateTimeOffsetFormatToken" hash="zia3ei0536gsofq8xksgancn7i5n1m">
     <dep model="r:00000000-0000-4000-0000-011c895902e9(jetbrains.mps.lang.generator.generator.baseLanguage.template.main@generator)" />
   </source>
-  <source id="1174322924465" name="reduce_DurationTypeReference" hash="-1cm2qk3sozeki6m2y9vjlvwec018hho">
+  <source id="1174322924465" name="reduce_DurationTypeReference" hash="urk0jj09e69onr9x4ml4j0bwdac6tv">
     <dep model="r:00000000-0000-4000-0000-011c895902e9(jetbrains.mps.lang.generator.generator.baseLanguage.template.main@generator)" />
   </source>
-  <source id="1174385195181" name="reduce_DateTimeMinusOperation" hash="-6kipd7mx28i2gyjrgbos0nbbu9ivy03">
+  <source id="1174385195181" name="reduce_DateTimeMinusOperation" hash="47fgct7eo4whxsazn92ieidjy02hupu">
     <dep model="r:00000000-0000-4000-0000-011c895902e9(jetbrains.mps.lang.generator.generator.baseLanguage.template.main@generator)" />
   </source>
-  <source id="1174390375904" name="reduce_AbsDateTimeMinusOperation" hash="dcxyy7eijfbzh2aikyf6imqcne88a9k">
+  <source id="1174390375904" name="reduce_AbsDateTimeMinusOperation" hash="-dep8xlsepk7ig3wm24u95y4c8cmdwll">
     <dep model="r:00000000-0000-4000-0000-011c895902e9(jetbrains.mps.lang.generator.generator.baseLanguage.template.main@generator)" />
   </source>
   <source id="1207144894043" name="reduce_DateTimePlusPeriodOperation" hash="6a7p3miinaeeh19pms5sbw5m3d5rjps">
@@ -222,7 +218,7 @@
   <source id="1209037432960" name="reduce_NotNullOperation" hash="9jiqs6uv42hx8opuxf95fcr9ah4haqm">
     <dep model="r:00000000-0000-4000-0000-011c895902e9(jetbrains.mps.lang.generator.generator.baseLanguage.template.main@generator)" />
   </source>
-  <source id="1209037487736" name="reduce_ConvertToDateTimeOperation" hash="-9gm56k6461es9i6xqledh60pw89mapb">
+  <source id="1209037487736" name="reduce_ConvertToDateTimeOperation" hash="-16wurl96c4ftez0f7698nkqh3butupd">
     <dep model="r:00000000-0000-4000-0000-011c895902e9(jetbrains.mps.lang.generator.generator.baseLanguage.template.main@generator)" />
   </source>
   <source id="1209037512244" name="reduce_ConvertToJavaCalendarOperation" hash="-4dqtyc2bcmyijofgbouqk8d566oe0d4">
@@ -240,10 +236,10 @@
   <source id="1238088433863" name="reduce_NeverExpression" hash="cg3bx4a3eb7ck71dp0wbkly4cyy3fo1">
     <dep model="r:00000000-0000-4000-0000-011c895902e9(jetbrains.mps.lang.generator.generator.baseLanguage.template.main@generator)" />
   </source>
-  <source id="1238249953442" name="reduce_MathDateTimeOperation" hash="-33wobcv85vb8kvtsm4pic9oc3ox35q1">
+  <source id="1238249953442" name="reduce_MathDateTimeOperation" hash="-cy25juom7thk7rxoqivghoh22lnl22b">
     <dep model="r:00000000-0000-4000-0000-011c895902e9(jetbrains.mps.lang.generator.generator.baseLanguage.template.main@generator)" />
   </source>
-  <source id="1238513572309" name="reduce_TimeZoneType" hash="4hkodqzcnnp7i2enwnjbns7ibyaz2ww">
+  <source id="1238513572309" name="reduce_TimeZoneType" hash="47q5bfttzmdwszzc9lydvucii9gmiwp">
     <dep model="r:00000000-0000-4000-0000-011c895902e9(jetbrains.mps.lang.generator.generator.baseLanguage.template.main@generator)" />
   </source>
   <source id="1238514665489" name="reduce_UTCTimeZoneConstant" hash="8d7jkazoikk2i8nkz1ey4r3do20myt7">
@@ -279,16 +275,16 @@
   <source id="6626410111396109619" name="reduce_InTimezoneExpression" hash="c5rgdpc45cwjxeoppsqlum55clzbmw4">
     <dep model="r:00000000-0000-4000-0000-011c895902e9(jetbrains.mps.lang.generator.generator.baseLanguage.template.main@generator)" />
   </source>
-  <source id="5969170299421360921" name="reduce_PeriodCompareOperation" hash="-eqguipxzw1yxcoe6zaia3yuab2hhw3f">
+  <source id="5969170299421360921" name="reduce_PeriodCompareOperation" hash="-38wzacpi51z53vbc2fjq762njnfjb3">
     <dep model="r:00000000-0000-4000-0000-011c895902e9(jetbrains.mps.lang.generator.generator.baseLanguage.template.main@generator)" />
   </source>
   <source id="4389880778953638912" name="reduce_ParseDateTimeExpression" hash="7yxkz4n6n8cmxmyf008a7k703qntoun">
     <dep model="r:00000000-0000-4000-0000-011c895902e9(jetbrains.mps.lang.generator.generator.baseLanguage.template.main@generator)" />
   </source>
-  <source id="5034322243092302197" name="reduce_FormatDateTimeExpression" hash="2pbu0959h6u5sb2rxdtv90z1cd14wim">
+  <source id="5034322243092302197" name="reduce_FormatDateTimeExpression" hash="2fj94ixat7i9roe8rnsuqqjewjlhple">
     <dep model="r:00000000-0000-4000-0000-011c895902e9(jetbrains.mps.lang.generator.generator.baseLanguage.template.main@generator)" />
   </source>
-  <source id="194163770812053449" name="reduce_InlineFormatDateTimeExpression" hash="-3o9nnibxa0u3caojdwqfe3ufh2dd5o3">
+  <source id="194163770812053449" name="reduce_InlineFormatDateTimeExpression" hash="-dq2xami5m5vdgd3ym1bp4d8xwz9dquu">
     <dep model="r:00000000-0000-4000-0000-011c895902e9(jetbrains.mps.lang.generator.generator.baseLanguage.template.main@generator)" />
   </source>
   <source id="3931616304474644672" name="reduce_DurationType" hash="-sx4p7u4pk7pzxhr5g5enm87n3i4dp1">
@@ -297,7 +293,7 @@
   <source id="5372916090361183394" name="reduce_ConvertToDurationOperation" hash="9wz0t7jt1f4l0zo5aqa5ulw659unjn1">
     <dep model="r:00000000-0000-4000-0000-011c895902e9(jetbrains.mps.lang.generator.generator.baseLanguage.template.main@generator)" />
   </source>
-  <source id="8253375325060753917" name="reduce_DurationCompareOperation" hash="-u9yzeh62fznbsu849u3xho7tonjsr9">
+  <source id="8253375325060753917" name="reduce_DurationCompareOperation" hash="85i8i3q0rsy6s1xfb23a26lur82atj2">
     <dep model="r:00000000-0000-4000-0000-011c895902e9(jetbrains.mps.lang.generator.generator.baseLanguage.template.main@generator)" />
   </source>
   <source id="276836602888578412" name="reduce_PeriodInPropertyExpression" hash="2x4n7ydqa91ekrxnmh3y2uyfsrg7g1g">
@@ -315,7 +311,7 @@
   <source id="779372288056195858" name="reduce_TimeConstant" hash="-62shn07sqlpeqgrngbjb5sqqasoc1w9">
     <dep model="r:00000000-0000-4000-0000-011c895902e9(jetbrains.mps.lang.generator.generator.baseLanguage.template.main@generator)" />
   </source>
-  <source id="34521615669576970" name="reduce_FormatPeriodExpression" hash="-bczw1855kj3saqu6d4ppkvubmn2z7wy">
+  <source id="34521615669576970" name="reduce_FormatPeriodExpression" hash="-6ncbq98qsl3gykv4boigo2bhi3c9b8y">
     <dep model="r:00000000-0000-4000-0000-011c895902e9(jetbrains.mps.lang.generator.generator.baseLanguage.template.main@generator)" />
   </source>
   <source id="1379098806890585667" name="switch_IPeriodFormat_reference" hash="-72q5vy0xlp6ib7yayafvwwvbjxfhx5e">
@@ -348,7 +344,7 @@
   <source id="5293902215864075092" name="reduce_TimeZoneIdOperation" hash="6ph8jvd2rvhzmdxzfisl85cf2g8jk28">
     <dep model="r:00000000-0000-4000-0000-011c895902e9(jetbrains.mps.lang.generator.generator.baseLanguage.template.main@generator)" />
   </source>
-  <source id="5293902215864689842" name="reduce_TimeZoneNameOperation" hash="8bh9e9huvtgwlod7y2h705ebf1gjb9a">
+  <source id="5293902215864689842" name="reduce_TimeZoneNameOperation" hash="-efk7edlx4diks2fn6je6uqfqpe7dx8w">
     <dep model="r:00000000-0000-4000-0000-011c895902e9(jetbrains.mps.lang.generator.generator.baseLanguage.template.main@generator)" />
   </source>
   <source id="5293902215865431555" name="reduce_AllTimeZonesConstant" hash="-87fgz70n18vv50hkcohlnd09ghm1n00">

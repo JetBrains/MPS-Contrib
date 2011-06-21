@@ -48,22 +48,22 @@
     <node type="tpf8.TemplateDeclaration" typeId="tpf8.1092059087312" id="1169551475383">
       <property name="name" nameId="tpck.1169194664001" value="reduce_DateFormat" />
       <property name="virtualPackage" nameId="tpck.1193676396447" value="format" />
-      <link role="applicableConcept" roleId="tpf8.1168285871518" targetNodeId="tp6x.1169487448949" />
+      <link role="applicableConcept" roleId="tpf8.1168285871518" targetNodeId="tp6x.1169487448949" resolveInfo="DateFormat" />
     </node>
     <node type="tpf8.TemplateDeclaration" typeId="tpf8.1092059087312" id="1169553961768">
       <property name="name" nameId="tpck.1169194664001" value="reduce_LiteralFormatToken" />
       <property name="virtualPackage" nameId="tpck.1193676396447" value="format.token" />
-      <link role="applicableConcept" roleId="tpf8.1168285871518" targetNodeId="tp6x.1169495318439" />
+      <link role="applicableConcept" roleId="tpf8.1168285871518" targetNodeId="tp6x.1169495318439" resolveInfo="LiteralFormatToken" />
     </node>
     <node type="tpf8.TemplateDeclaration" typeId="tpf8.1092059087312" id="1169558091454">
       <property name="name" nameId="tpck.1169194664001" value="reduce_FormatExpression" />
       <property name="virtualPackage" nameId="tpck.1193676396447" value="format.deprecated" />
-      <link role="applicableConcept" roleId="tpf8.1168285871518" targetNodeId="tp6x.1169557513226" />
+      <link role="applicableConcept" roleId="tpf8.1168285871518" targetNodeId="tp6x.1169557513226" resolveInfo="FormatExpression" />
     </node>
     <node type="tpf8.TemplateDeclaration" typeId="tpf8.1092059087312" id="1169630265920">
       <property name="name" nameId="tpck.1169194664001" value="reduce_NowExpression" />
       <property name="virtualPackage" nameId="tpck.1193676396447" value="operation.constant" />
-      <link role="applicableConcept" roleId="tpf8.1168285871518" targetNodeId="tp6x.1169630122569" />
+      <link role="applicableConcept" roleId="tpf8.1168285871518" targetNodeId="tp6x.1169630122569" resolveInfo="NowExpression" />
     </node>
     <node type="tpee.ClassConcept" typeId="tpee.1068390468198" id="1169638264524">
       <property name="name" nameId="tpck.1169194664001" value="ConditionalDateTimePrinterImpl" />
@@ -72,65 +72,65 @@
     <node type="tpf8.TemplateDeclaration" typeId="tpf8.1092059087312" id="1169646919575">
       <property name="name" nameId="tpck.1169194664001" value="reduce_ReferenceFormatToken" />
       <property name="virtualPackage" nameId="tpck.1193676396447" value="format.token" />
-      <link role="applicableConcept" roleId="tpf8.1168285871518" targetNodeId="tp6x.1169563273551" />
+      <link role="applicableConcept" roleId="tpf8.1168285871518" targetNodeId="tp6x.1169563273551" resolveInfo="ReferenceFormatToken" />
     </node>
     <node type="tpf8.TemplateDeclaration" typeId="tpf8.1092059087312" id="1169647821783">
       <property name="name" nameId="tpck.1169194664001" value="reduce_ConditionalFormatToken" />
       <property name="virtualPackage" nameId="tpck.1193676396447" value="format.token" />
-      <link role="applicableConcept" roleId="tpf8.1168285871518" targetNodeId="tp6x.1169562965517" />
+      <link role="applicableConcept" roleId="tpf8.1168285871518" targetNodeId="tp6x.1169562965517" resolveInfo="ConditionalFormatToken" />
     </node>
     <node type="tpf8.TemplateDeclaration" typeId="tpf8.1092059087312" id="1172068095799">
       <property name="name" nameId="tpck.1169194664001" value="reduce_DateTimeType" />
-      <link role="applicableConcept" roleId="tpf8.1168285871518" targetNodeId="tp6x.1171902375079" />
+      <link role="applicableConcept" roleId="tpf8.1168285871518" targetNodeId="tp6x.1171902375079" resolveInfo="DateTimeType" />
     </node>
     <node type="tpf8.TemplateDeclaration" typeId="tpf8.1092059087312" id="1172145375222">
       <property name="name" nameId="tpck.1169194664001" value="reduce_DateTimeCompareOperation" />
       <property name="virtualPackage" nameId="tpck.1193676396447" value="deprecated" />
-      <link role="applicableConcept" roleId="tpf8.1168285871518" targetNodeId="tp6x.1172074800504" />
+      <link role="applicableConcept" roleId="tpf8.1168285871518" targetNodeId="tp6x.1172074800504" resolveInfo="DateTimeCompareOperation" />
     </node>
     <node type="tpf8.TemplateDeclaration" typeId="tpf8.1092059087312" id="1172326347243">
       <property name="name" nameId="tpck.1169194664001" value="reduce_RoundDateTimeOperation" />
       <property name="virtualPackage" nameId="tpck.1193676396447" value="operation.round" />
-      <link role="applicableConcept" roleId="tpf8.1168285871518" targetNodeId="tp6x.1172324086632" />
+      <link role="applicableConcept" roleId="tpf8.1168285871518" targetNodeId="tp6x.1172324086632" resolveInfo="RoundDateTimeOperation" />
     </node>
     <node type="tpf8.TemplateDeclaration" typeId="tpf8.1092059087312" id="1172327129404">
       <property name="name" nameId="tpck.1169194664001" value="reduce_FloorDateTimeOperation" />
       <property name="virtualPackage" nameId="tpck.1193676396447" value="operation.round" />
-      <link role="applicableConcept" roleId="tpf8.1168285871518" targetNodeId="tp6x.1172325083904" />
+      <link role="applicableConcept" roleId="tpf8.1168285871518" targetNodeId="tp6x.1172325083904" resolveInfo="FloorDateTimeOperation" />
     </node>
     <node type="tpf8.TemplateDeclaration" typeId="tpf8.1092059087312" id="1172327149445">
       <property name="name" nameId="tpck.1169194664001" value="reduce_CeilingDateTimeOperation" />
       <property name="virtualPackage" nameId="tpck.1193676396447" value="operation.round" />
-      <link role="applicableConcept" roleId="tpf8.1168285871518" targetNodeId="tp6x.1172325617850" />
+      <link role="applicableConcept" roleId="tpf8.1168285871518" targetNodeId="tp6x.1172325617850" resolveInfo="CeilingDateTimeOperation" />
     </node>
     <node type="tpf8.TemplateDeclaration" typeId="tpf8.1092059087312" id="1172332406179">
       <property name="name" nameId="tpck.1169194664001" value="reduce_DateTimeWithPropertyOperation" />
       <property name="virtualPackage" nameId="tpck.1193676396447" value="operation.property" />
-      <link role="applicableConcept" roleId="tpf8.1168285871518" targetNodeId="tp6x.1172331114860" />
+      <link role="applicableConcept" roleId="tpf8.1168285871518" targetNodeId="tp6x.1172331114860" resolveInfo="DateTimeWithPropertyOperation" />
     </node>
     <node type="tpf8.TemplateDeclaration" typeId="tpf8.1092059087312" id="1172489369985">
       <property name="name" nameId="tpck.1169194664001" value="reduce_PeriodType" />
-      <link role="applicableConcept" roleId="tpf8.1168285871518" targetNodeId="tp6x.1172487727591" />
+      <link role="applicableConcept" roleId="tpf8.1168285871518" targetNodeId="tp6x.1172487727591" resolveInfo="PeriodType" />
     </node>
     <node type="tpf8.TemplateDeclaration" typeId="tpf8.1092059087312" id="1172492017024">
       <property name="name" nameId="tpck.1169194664001" value="reduce_PeriodConstant" />
       <property name="virtualPackage" nameId="tpck.1193676396447" value="operation.constant" />
-      <link role="applicableConcept" roleId="tpf8.1168285871518" targetNodeId="tp6x.1172489559047" />
+      <link role="applicableConcept" roleId="tpf8.1168285871518" targetNodeId="tp6x.1172489559047" resolveInfo="PeriodConstant" />
     </node>
     <node type="tpf8.TemplateDeclaration" typeId="tpf8.1092059087312" id="1172499604795">
       <property name="name" nameId="tpck.1169194664001" value="reduce_PlusExpression" />
       <property name="virtualPackage" nameId="tpck.1193676396447" value="operation.arithmetic" />
-      <link role="applicableConcept" roleId="tpf8.1168285871518" targetNodeId="tpee.1068581242875" />
+      <link role="applicableConcept" roleId="tpf8.1168285871518" targetNodeId="tpee.1068581242875" resolveInfo="PlusExpression" />
     </node>
     <node type="tpf8.TemplateDeclaration" typeId="tpf8.1092059087312" id="1172501993121">
       <property name="name" nameId="tpck.1169194664001" value="reduce_MinusExpression" />
       <property name="virtualPackage" nameId="tpck.1193676396447" value="operation.arithmetic" />
-      <link role="applicableConcept" roleId="tpf8.1168285871518" targetNodeId="tpee.1068581242869" />
+      <link role="applicableConcept" roleId="tpf8.1168285871518" targetNodeId="tpee.1068581242869" resolveInfo="MinusExpression" />
     </node>
     <node type="tpf8.TemplateDeclaration" typeId="tpf8.1092059087312" id="1172684437748">
       <property name="name" nameId="tpck.1169194664001" value="reduce_FixedLocaleFormatToken" />
       <property name="virtualPackage" nameId="tpck.1193676396447" value="format.token" />
-      <link role="applicableConcept" roleId="tpf8.1168285871518" targetNodeId="tp6x.1172679701720" />
+      <link role="applicableConcept" roleId="tpf8.1168285871518" targetNodeId="tp6x.1172679701720" resolveInfo="FixedLocaleFormatToken" />
     </node>
     <node type="tpf8.TemplateSwitch" typeId="tpf8.1112730859144" id="1173885209754">
       <property name="name" nameId="tpck.1169194664001" value="switch_IDateFormat_reference" />
@@ -139,42 +139,42 @@
     <node type="tpf8.TemplateDeclaration" typeId="tpf8.1092059087312" id="1173885253101">
       <property name="name" nameId="tpck.1169194664001" value="reduce_DateFormat_IDateFormat_reference" />
       <property name="virtualPackage" nameId="tpck.1193676396447" value="format" />
-      <link role="applicableConcept" roleId="tpf8.1168285871518" targetNodeId="tp6x.1169487448949" />
+      <link role="applicableConcept" roleId="tpf8.1168285871518" targetNodeId="tp6x.1169487448949" resolveInfo="DateFormat" />
     </node>
     <node type="tpf8.TemplateDeclaration" typeId="tpf8.1092059087312" id="1173885363705">
       <property name="name" nameId="tpck.1169194664001" value="reduce_PredefinedDateFormat_IDateFormat_reference" />
       <property name="virtualPackage" nameId="tpck.1193676396447" value="format" />
-      <link role="applicableConcept" roleId="tpf8.1168285871518" targetNodeId="tp6p.1173883503931" />
+      <link role="applicableConcept" roleId="tpf8.1168285871518" targetNodeId="tp6p.1173883503931" resolveInfo="PredefinedDateFormat" />
     </node>
     <node type="tpf8.TemplateDeclaration" typeId="tpf8.1092059087312" id="1173967707012">
       <property name="name" nameId="tpck.1169194664001" value="reduce_DateTimePropertyFormatToken" />
       <property name="virtualPackage" nameId="tpck.1193676396447" value="format.token" />
-      <link role="applicableConcept" roleId="tpf8.1168285871518" targetNodeId="tp6x.1173959836330" />
+      <link role="applicableConcept" roleId="tpf8.1168285871518" targetNodeId="tp6x.1173959836330" resolveInfo="DateTimePropertyFormatToken" />
     </node>
     <node type="tpf8.TemplateDeclaration" typeId="tpf8.1092059087312" id="1174045772633">
       <property name="name" nameId="tpck.1169194664001" value="reduce_InlineFormatExpression" />
       <property name="virtualPackage" nameId="tpck.1193676396447" value="format.deprecated" />
-      <link role="applicableConcept" roleId="tpf8.1168285871518" targetNodeId="tp6x.1174039789930" />
+      <link role="applicableConcept" roleId="tpf8.1168285871518" targetNodeId="tp6x.1174039789930" resolveInfo="InlineFormatExpression" />
     </node>
     <node type="tpf8.TemplateDeclaration" typeId="tpf8.1092059087312" id="1174322757200">
       <property name="name" nameId="tpck.1169194664001" value="reduce_DateTimeOffsetFormatToken" />
       <property name="virtualPackage" nameId="tpck.1193676396447" value="format.token" />
-      <link role="applicableConcept" roleId="tpf8.1168285871518" targetNodeId="tp6x.1174317913525" />
+      <link role="applicableConcept" roleId="tpf8.1168285871518" targetNodeId="tp6x.1174317913525" resolveInfo="DateTimeOffsetFormatToken" />
     </node>
     <node type="tpf8.TemplateDeclaration" typeId="tpf8.1092059087312" id="1174322924465">
       <property name="name" nameId="tpck.1169194664001" value="reduce_DurationTypeReference" />
       <property name="virtualPackage" nameId="tpck.1193676396447" value="format.token" />
-      <link role="applicableConcept" roleId="tpf8.1168285871518" targetNodeId="tp6x.1174320869813" />
+      <link role="applicableConcept" roleId="tpf8.1168285871518" targetNodeId="tp6x.1174320869813" resolveInfo="DurationTypeReference" />
     </node>
     <node type="tpf8.TemplateDeclaration" typeId="tpf8.1092059087312" id="1174385195181">
       <property name="name" nameId="tpck.1169194664001" value="reduce_DateTimeMinusOperation" />
       <property name="virtualPackage" nameId="tpck.1193676396447" value="deprecated" />
-      <link role="applicableConcept" roleId="tpf8.1168285871518" targetNodeId="tp6x.1174386108135" />
+      <link role="applicableConcept" roleId="tpf8.1168285871518" targetNodeId="tp6x.1174386108135" resolveInfo="DateTimeMinusOperation" />
     </node>
     <node type="tpf8.TemplateDeclaration" typeId="tpf8.1092059087312" id="1174390375904">
       <property name="name" nameId="tpck.1169194664001" value="reduce_AbsDateTimeMinusOperation" />
       <property name="virtualPackage" nameId="tpck.1193676396447" value="deprecated" />
-      <link role="applicableConcept" roleId="tpf8.1168285871518" targetNodeId="tp6x.1174387394067" />
+      <link role="applicableConcept" roleId="tpf8.1168285871518" targetNodeId="tp6x.1174387394067" resolveInfo="AbsDateTimeMinusOperation" />
     </node>
     <node type="tpf8.TemplateDeclaration" typeId="tpf8.1092059087312" id="1207144894043">
       <property name="name" nameId="tpck.1169194664001" value="reduce_DateTimePlusPeriodOperation" />
@@ -233,7 +233,7 @@
     </node>
     <node type="tpf8.TemplateDeclaration" typeId="tpf8.1092059087312" id="1238513572309">
       <property name="name" nameId="tpck.1169194664001" value="reduce_TimeZoneType" />
-      <link role="applicableConcept" roleId="tpf8.1168285871518" targetNodeId="tp6x.1238513516532" resolveInfo="TimeZoneType" />
+      <link role="applicableConcept" roleId="tpf8.1168285871518" targetNodeId="tp6x.1238513516532" resolveInfo="DateTimeZoneType" />
     </node>
     <node type="tpf8.TemplateDeclaration" typeId="tpf8.1092059087312" id="1238514665489">
       <property name="name" nameId="tpck.1169194664001" value="reduce_UTCTimeZoneConstant" />
@@ -400,7 +400,7 @@
   </roots>
   <root id="1169550125892">
     <node role="rootMappingRule" roleId="tpf8.1167514678247" type="tpf8.Root_MappingRule" typeId="tpf8.1167514355419" id="1169550186237">
-      <link role="applicableConcept" roleId="tpf8.1167169349424" targetNodeId="tp6x.1169481390637" />
+      <link role="applicableConcept" roleId="tpf8.1167169349424" targetNodeId="tp6x.1169481390637" resolveInfo="DateFormatsTable" />
       <link role="template" roleId="tpf8.1167514355421" targetNodeId="1169550327580" resolveInfo="FormatTable" />
       <link role="labelDeclaration" roleId="tpf8.1200917515464" targetNodeId="1215475877847" resolveInfo="FormatTableClass" />
     </node>
@@ -410,55 +410,55 @@
       <link role="labelDeclaration" roleId="tpf8.1200917515464" targetNodeId="48671598477864249" resolveInfo="PeriodFormatTableClass" />
     </node>
     <node role="rootMappingRule" roleId="tpf8.1167514678247" type="tpf8.Root_MappingRule" typeId="tpf8.1167514355419" id="1169638626487">
-      <link role="applicableConcept" roleId="tpf8.1167169349424" targetNodeId="tp6x.1169562965517" />
+      <link role="applicableConcept" roleId="tpf8.1167169349424" targetNodeId="tp6x.1169562965517" resolveInfo="ConditionalFormatToken" />
       <link role="template" roleId="tpf8.1167514355421" targetNodeId="1169638264524" resolveInfo="ConditionalDateTimePrinterImpl" />
       <link role="labelDeclaration" roleId="tpf8.1200917515464" targetNodeId="1215475953144" resolveInfo="ConditionalDateTimePrinterImpl" />
     </node>
     <node role="reductionMappingRule" roleId="tpf8.1167328349397" type="tpf8.Reduction_MappingRule" typeId="tpf8.1167327847730" id="1174390403741">
-      <link role="applicableConcept" roleId="tpf8.1167169349424" targetNodeId="tp6x.1174387394067" />
+      <link role="applicableConcept" roleId="tpf8.1167169349424" targetNodeId="tp6x.1174387394067" resolveInfo="AbsDateTimeMinusOperation" />
       <node role="ruleConsequence" roleId="tpf8.1169672767469" type="tpf8.TemplateDeclarationReference" typeId="tpf8.1168559333462" id="1174390411618">
         <link role="template" roleId="tpf8.1722980698497626483" targetNodeId="1174390375904" resolveInfo="reduce_AbsDateTimeMinusOperation" />
       </node>
     </node>
     <node role="reductionMappingRule" roleId="tpf8.1167328349397" type="tpf8.Reduction_MappingRule" typeId="tpf8.1167327847730" id="1172327176299">
-      <link role="applicableConcept" roleId="tpf8.1167169349424" targetNodeId="tp6x.1172325617850" />
+      <link role="applicableConcept" roleId="tpf8.1167169349424" targetNodeId="tp6x.1172325617850" resolveInfo="CeilingDateTimeOperation" />
       <node role="ruleConsequence" roleId="tpf8.1169672767469" type="tpf8.TemplateDeclarationReference" typeId="tpf8.1168559333462" id="1172327185506">
         <link role="template" roleId="tpf8.1722980698497626483" targetNodeId="1172327149445" resolveInfo="reduce_CeilingDateTimeOperation" />
       </node>
     </node>
     <node role="reductionMappingRule" roleId="tpf8.1167328349397" type="tpf8.Reduction_MappingRule" typeId="tpf8.1167327847730" id="1169648032397">
-      <link role="applicableConcept" roleId="tpf8.1167169349424" targetNodeId="tp6x.1169562965517" />
+      <link role="applicableConcept" roleId="tpf8.1167169349424" targetNodeId="tp6x.1169562965517" resolveInfo="ConditionalFormatToken" />
       <node role="ruleConsequence" roleId="tpf8.1169672767469" type="tpf8.TemplateDeclarationReference" typeId="tpf8.1168559333462" id="1169834193303">
         <link role="template" roleId="tpf8.1722980698497626483" targetNodeId="1169647821783" resolveInfo="reduce_ConditionalFormatToken" />
       </node>
     </node>
     <node role="reductionMappingRule" roleId="tpf8.1167328349397" type="tpf8.Reduction_MappingRule" typeId="tpf8.1167327847730" id="1169553931860">
       <property name="applyToConceptInheritors" nameId="tpf8.1167272244852" value="true" />
-      <link role="applicableConcept" roleId="tpf8.1167169349424" targetNodeId="tp6x.1169487448949" />
+      <link role="applicableConcept" roleId="tpf8.1167169349424" targetNodeId="tp6x.1169487448949" resolveInfo="DateFormat" />
       <node role="ruleConsequence" roleId="tpf8.1169672767469" type="tpf8.TemplateDeclarationReference" typeId="tpf8.1168559333462" id="1169834193304">
         <link role="template" roleId="tpf8.1722980698497626483" targetNodeId="1169551475383" resolveInfo="reduce_DateFormat" />
       </node>
     </node>
     <node role="reductionMappingRule" roleId="tpf8.1167328349397" type="tpf8.Reduction_MappingRule" typeId="tpf8.1167327847730" id="1172157950348">
-      <link role="applicableConcept" roleId="tpf8.1167169349424" targetNodeId="tp6x.1172074800504" />
+      <link role="applicableConcept" roleId="tpf8.1167169349424" targetNodeId="tp6x.1172074800504" resolveInfo="DateTimeCompareOperation" />
       <node role="ruleConsequence" roleId="tpf8.1169672767469" type="tpf8.TemplateDeclarationReference" typeId="tpf8.1168559333462" id="1172157960381">
         <link role="template" roleId="tpf8.1722980698497626483" targetNodeId="1172145375222" resolveInfo="reduce_DateTimeCompareOperation" />
       </node>
     </node>
     <node role="reductionMappingRule" roleId="tpf8.1167328349397" type="tpf8.Reduction_MappingRule" typeId="tpf8.1167327847730" id="1174390416713">
-      <link role="applicableConcept" roleId="tpf8.1167169349424" targetNodeId="tp6x.1174386108135" />
+      <link role="applicableConcept" roleId="tpf8.1167169349424" targetNodeId="tp6x.1174386108135" resolveInfo="DateTimeMinusOperation" />
       <node role="ruleConsequence" roleId="tpf8.1169672767469" type="tpf8.TemplateDeclarationReference" typeId="tpf8.1168559333462" id="1174390435637">
         <link role="template" roleId="tpf8.1722980698497626483" targetNodeId="1174385195181" resolveInfo="reduce_DateTimeMinusOperation" />
       </node>
     </node>
     <node role="reductionMappingRule" roleId="tpf8.1167328349397" type="tpf8.Reduction_MappingRule" typeId="tpf8.1167327847730" id="1174323011326">
-      <link role="applicableConcept" roleId="tpf8.1167169349424" targetNodeId="tp6x.1174317913525" />
+      <link role="applicableConcept" roleId="tpf8.1167169349424" targetNodeId="tp6x.1174317913525" resolveInfo="DateTimeOffsetFormatToken" />
       <node role="ruleConsequence" roleId="tpf8.1169672767469" type="tpf8.TemplateDeclarationReference" typeId="tpf8.1168559333462" id="1174323027703">
         <link role="template" roleId="tpf8.1722980698497626483" targetNodeId="1174322757200" resolveInfo="reduce_DateTimeOffsetFormatToken" />
       </node>
     </node>
     <node role="reductionMappingRule" roleId="tpf8.1167328349397" type="tpf8.Reduction_MappingRule" typeId="tpf8.1167327847730" id="1173968024159">
-      <link role="applicableConcept" roleId="tpf8.1167169349424" targetNodeId="tp6x.1173959836330" />
+      <link role="applicableConcept" roleId="tpf8.1167169349424" targetNodeId="tp6x.1173959836330" resolveInfo="DateTimePropertyFormatToken" />
       <node role="ruleConsequence" roleId="tpf8.1169672767469" type="tpf8.TemplateDeclarationReference" typeId="tpf8.1168559333462" id="1173968036489">
         <link role="template" roleId="tpf8.1722980698497626483" targetNodeId="1173967707012" resolveInfo="reduce_DateTimePropertyFormatToken" />
       </node>
@@ -551,7 +551,7 @@
       </node>
     </node>
     <node role="reductionMappingRule" roleId="tpf8.1167328349397" type="tpf8.Reduction_MappingRule" typeId="tpf8.1167327847730" id="1172332503768">
-      <link role="applicableConcept" roleId="tpf8.1167169349424" targetNodeId="tp6x.1172331114860" />
+      <link role="applicableConcept" roleId="tpf8.1167169349424" targetNodeId="tp6x.1172331114860" resolveInfo="DateTimeWithPropertyOperation" />
       <node role="ruleConsequence" roleId="tpf8.1169672767469" type="tpf8.TemplateDeclarationReference" typeId="tpf8.1168559333462" id="1172332516222">
         <link role="template" roleId="tpf8.1722980698497626483" targetNodeId="1172332406179" resolveInfo="reduce_DateTimeWithPropertyOperation" />
       </node>
@@ -689,19 +689,19 @@
       </node>
     </node>
     <node role="reductionMappingRule" roleId="tpf8.1167328349397" type="tpf8.Reduction_MappingRule" typeId="tpf8.1167327847730" id="1174322992557">
-      <link role="applicableConcept" roleId="tpf8.1167169349424" targetNodeId="tp6x.1174320869813" />
+      <link role="applicableConcept" roleId="tpf8.1167169349424" targetNodeId="tp6x.1174320869813" resolveInfo="DurationTypeReference" />
       <node role="ruleConsequence" roleId="tpf8.1169672767469" type="tpf8.TemplateDeclarationReference" typeId="tpf8.1168559333462" id="1174323001622">
         <link role="template" roleId="tpf8.1722980698497626483" targetNodeId="1174322924465" resolveInfo="reduce_DurationTypeReference" />
       </node>
     </node>
     <node role="reductionMappingRule" roleId="tpf8.1167328349397" type="tpf8.Reduction_MappingRule" typeId="tpf8.1167327847730" id="1172684687695">
-      <link role="applicableConcept" roleId="tpf8.1167169349424" targetNodeId="tp6x.1172679701720" />
+      <link role="applicableConcept" roleId="tpf8.1167169349424" targetNodeId="tp6x.1172679701720" resolveInfo="FixedLocaleFormatToken" />
       <node role="ruleConsequence" roleId="tpf8.1169672767469" type="tpf8.TemplateDeclarationReference" typeId="tpf8.1168559333462" id="1172684696275">
         <link role="template" roleId="tpf8.1722980698497626483" targetNodeId="1172684437748" resolveInfo="reduce_FixedLocaleFormatToken" />
       </node>
     </node>
     <node role="reductionMappingRule" roleId="tpf8.1167328349397" type="tpf8.Reduction_MappingRule" typeId="tpf8.1167327847730" id="1174047532748">
-      <link role="applicableConcept" roleId="tpf8.1167169349424" targetNodeId="tp6x.1174039789930" />
+      <link role="applicableConcept" roleId="tpf8.1167169349424" targetNodeId="tp6x.1174039789930" resolveInfo="InlineFormatExpression" />
       <node role="ruleConsequence" roleId="tpf8.1169672767469" type="tpf8.TemplateDeclarationReference" typeId="tpf8.1168559333462" id="1174047541327">
         <link role="template" roleId="tpf8.1722980698497626483" targetNodeId="1174045772633" resolveInfo="reduce_InlineFormatExpression" />
       </node>
@@ -915,8 +915,8 @@
         <node role="body" roleId="tpee.1137022507850" type="tpee.StatementList" typeId="tpee.1068580123136" id="1172503862973">
           <node role="statement" roleId="tpee.1068581517665" type="tpee.ExpressionStatement" typeId="tpee.1068580123155" id="1175770353881">
             <node role="expression" roleId="tpee.1068580123156" type="tpee.StaticMethodCall" typeId="tpee.1081236700937" id="1172503862975">
-              <link role="classConcept" roleId="tpee.1144433194310" targetNodeId="tp75.1171978333109" />
-              <link role="baseMethodDeclaration" roleId="tpee.1068499141037" targetNodeId="tp75.1175770638027" />
+              <link role="classConcept" roleId="tpee.1144433194310" targetNodeId="tp75.1171978333109" resolveInfo="DateTypeUtil" />
+              <link role="baseMethodDeclaration" roleId="tpee.1068499141037" targetNodeId="tp75.1175770638027" resolveInfo="isInstanceOfPeriodCompare" />
               <node role="actualArgument" roleId="tpee.1068499141038" type="tpf8.TemplateFunctionParameter_sourceNode" typeId="tpf8.1167169188348" id="1172503862977" />
             </node>
           </node>
@@ -924,7 +924,7 @@
       </node>
     </node>
     <node role="reductionMappingRule" roleId="tpf8.1167328349397" type="tpf8.Reduction_MappingRule" typeId="tpf8.1167327847730" id="1172503849917">
-      <link role="applicableConcept" roleId="tpf8.1167169349424" targetNodeId="tpee.1073239437375" />
+      <link role="applicableConcept" roleId="tpf8.1167169349424" targetNodeId="tpee.1073239437375" resolveInfo="NotEqualsExpression" />
       <node role="ruleConsequence" roleId="tpf8.1169672767469" type="tpf8.TemplateDeclarationReference" typeId="tpf8.1168559333462" id="5969170299421364322">
         <link role="template" roleId="tpf8.1722980698497626483" targetNodeId="5969170299421360921" resolveInfo="reduce_PeriodCompareOperation" />
       </node>
@@ -932,8 +932,8 @@
         <node role="body" roleId="tpee.1137022507850" type="tpee.StatementList" typeId="tpee.1068580123136" id="1172503849920">
           <node role="statement" roleId="tpee.1068581517665" type="tpee.ExpressionStatement" typeId="tpee.1068580123155" id="1175770350364">
             <node role="expression" roleId="tpee.1068580123156" type="tpee.StaticMethodCall" typeId="tpee.1081236700937" id="1172503849922">
-              <link role="classConcept" roleId="tpee.1144433194310" targetNodeId="tp75.1171978333109" />
-              <link role="baseMethodDeclaration" roleId="tpee.1068499141037" targetNodeId="tp75.1175770638027" />
+              <link role="classConcept" roleId="tpee.1144433194310" targetNodeId="tp75.1171978333109" resolveInfo="DateTypeUtil" />
+              <link role="baseMethodDeclaration" roleId="tpee.1068499141037" targetNodeId="tp75.1175770638027" resolveInfo="isInstanceOfPeriodCompare" />
               <node role="actualArgument" roleId="tpee.1068499141038" type="tpf8.TemplateFunctionParameter_sourceNode" typeId="tpf8.1167169188348" id="1175770770140" />
             </node>
           </node>
@@ -941,7 +941,7 @@
       </node>
     </node>
     <node role="reductionMappingRule" roleId="tpf8.1167328349397" type="tpf8.Reduction_MappingRule" typeId="tpf8.1167327847730" id="1172503772650">
-      <link role="applicableConcept" roleId="tpf8.1167169349424" targetNodeId="tpee.1068580123152" />
+      <link role="applicableConcept" roleId="tpf8.1167169349424" targetNodeId="tpee.1068580123152" resolveInfo="EqualsExpression" />
       <node role="ruleConsequence" roleId="tpf8.1169672767469" type="tpf8.TemplateDeclarationReference" typeId="tpf8.1168559333462" id="5969170299421364321">
         <link role="template" roleId="tpf8.1722980698497626483" targetNodeId="5969170299421360921" resolveInfo="reduce_PeriodCompareOperation" />
       </node>
@@ -949,8 +949,8 @@
         <node role="body" roleId="tpee.1137022507850" type="tpee.StatementList" typeId="tpee.1068580123136" id="1172503815483">
           <node role="statement" roleId="tpee.1068581517665" type="tpee.ExpressionStatement" typeId="tpee.1068580123155" id="1175770345018">
             <node role="expression" roleId="tpee.1068580123156" type="tpee.StaticMethodCall" typeId="tpee.1081236700937" id="1172503838940">
-              <link role="classConcept" roleId="tpee.1144433194310" targetNodeId="tp75.1171978333109" />
-              <link role="baseMethodDeclaration" roleId="tpee.1068499141037" targetNodeId="tp75.1175770638027" />
+              <link role="classConcept" roleId="tpee.1144433194310" targetNodeId="tp75.1171978333109" resolveInfo="DateTypeUtil" />
+              <link role="baseMethodDeclaration" roleId="tpee.1068499141037" targetNodeId="tp75.1175770638027" resolveInfo="isInstanceOfPeriodCompare" />
               <node role="actualArgument" roleId="tpee.1068499141038" type="tpf8.TemplateFunctionParameter_sourceNode" typeId="tpf8.1167169188348" id="1172503841769" />
             </node>
           </node>
@@ -1009,13 +1009,13 @@
       </node>
     </node>
     <node role="reductionMappingRule" roleId="tpf8.1167328349397" type="tpf8.Reduction_MappingRule" typeId="tpf8.1167327847730" id="1172327191540">
-      <link role="applicableConcept" roleId="tpf8.1167169349424" targetNodeId="tp6x.1172325083904" />
+      <link role="applicableConcept" roleId="tpf8.1167169349424" targetNodeId="tp6x.1172325083904" resolveInfo="FloorDateTimeOperation" />
       <node role="ruleConsequence" roleId="tpf8.1169672767469" type="tpf8.TemplateDeclarationReference" typeId="tpf8.1168559333462" id="1172327199809">
         <link role="template" roleId="tpf8.1722980698497626483" targetNodeId="1172327129404" resolveInfo="reduce_FloorDateTimeOperation" />
       </node>
     </node>
     <node role="reductionMappingRule" roleId="tpf8.1167328349397" type="tpf8.Reduction_MappingRule" typeId="tpf8.1167327847730" id="1169558634212">
-      <link role="applicableConcept" roleId="tpf8.1167169349424" targetNodeId="tp6x.1169557513226" />
+      <link role="applicableConcept" roleId="tpf8.1167169349424" targetNodeId="tp6x.1169557513226" resolveInfo="FormatExpression" />
       <node role="ruleConsequence" roleId="tpf8.1169672767469" type="tpf8.TemplateDeclarationReference" typeId="tpf8.1168559333462" id="1169834193305">
         <link role="template" roleId="tpf8.1722980698497626483" targetNodeId="1169558091454" resolveInfo="reduce_FormatExpression" />
       </node>
@@ -1027,19 +1027,19 @@
       </node>
     </node>
     <node role="reductionMappingRule" roleId="tpf8.1167328349397" type="tpf8.Reduction_MappingRule" typeId="tpf8.1167327847730" id="1169554290182">
-      <link role="applicableConcept" roleId="tpf8.1167169349424" targetNodeId="tp6x.1169495318439" />
+      <link role="applicableConcept" roleId="tpf8.1167169349424" targetNodeId="tp6x.1169495318439" resolveInfo="LiteralFormatToken" />
       <node role="ruleConsequence" roleId="tpf8.1169672767469" type="tpf8.TemplateDeclarationReference" typeId="tpf8.1168559333462" id="1169834193307">
         <link role="template" roleId="tpf8.1722980698497626483" targetNodeId="1169553961768" resolveInfo="reduce_LiteralFormatToken" />
       </node>
     </node>
     <node role="reductionMappingRule" roleId="tpf8.1167328349397" type="tpf8.Reduction_MappingRule" typeId="tpf8.1167327847730" id="1172068221448">
-      <link role="applicableConcept" roleId="tpf8.1167169349424" targetNodeId="tp6x.1171902375079" />
+      <link role="applicableConcept" roleId="tpf8.1167169349424" targetNodeId="tp6x.1171902375079" resolveInfo="DateTimeType" />
       <node role="ruleConsequence" roleId="tpf8.1169672767469" type="tpf8.TemplateDeclarationReference" typeId="tpf8.1168559333462" id="1172068234715">
         <link role="template" roleId="tpf8.1722980698497626483" targetNodeId="1172068095799" resolveInfo="reduce_DateTimeType" />
       </node>
     </node>
     <node role="reductionMappingRule" roleId="tpf8.1167328349397" type="tpf8.Reduction_MappingRule" typeId="tpf8.1167327847730" id="1238513646678">
-      <link role="applicableConcept" roleId="tpf8.1167169349424" targetNodeId="tp6x.1238513516532" resolveInfo="TimeZoneType" />
+      <link role="applicableConcept" roleId="tpf8.1167169349424" targetNodeId="tp6x.1238513516532" resolveInfo="DateTimeZoneType" />
       <node role="ruleConsequence" roleId="tpf8.1169672767469" type="tpf8.TemplateDeclarationReference" typeId="tpf8.1168559333462" id="1238513655445">
         <link role="template" roleId="tpf8.1722980698497626483" targetNodeId="1238513572309" resolveInfo="reduce_TimeZoneType" />
       </node>
@@ -1108,9 +1108,9 @@
       </node>
     </node>
     <node role="reductionMappingRule" roleId="tpf8.1167328349397" type="tpf8.Reduction_MappingRule" typeId="tpf8.1167327847730" id="1172502148294">
-      <link role="applicableConcept" roleId="tpf8.1167169349424" targetNodeId="tpee.1068581242869" />
+      <link role="applicableConcept" roleId="tpf8.1167169349424" targetNodeId="tpee.1068581242869" resolveInfo="MinusExpression" />
       <node role="ruleConsequence" roleId="tpf8.1169672767469" type="tpf8.TemplateDeclarationReference" typeId="tpf8.1168559333462" id="1241180849295">
-        <link role="template" roleId="tpf8.1722980698497626483" targetNodeId="1172501993121" resolveInfo="reduce_MinusPeriodExpression" />
+        <link role="template" roleId="tpf8.1722980698497626483" targetNodeId="1172501993121" resolveInfo="reduce_MinusExpression" />
       </node>
       <node role="conditionFunction" roleId="tpf8.1167169362365" type="tpf8.BaseMappingRule_Condition" typeId="tpf8.1167168920554" id="1172502299366">
         <node role="body" roleId="tpee.1137022507850" type="tpee.StatementList" typeId="tpee.1068580123136" id="1172502299367">
@@ -1237,7 +1237,7 @@
       </node>
     </node>
     <node role="reductionMappingRule" roleId="tpf8.1167328349397" type="tpf8.Reduction_MappingRule" typeId="tpf8.1167327847730" id="1169630301108">
-      <link role="applicableConcept" roleId="tpf8.1167169349424" targetNodeId="tp6x.1169630122569" />
+      <link role="applicableConcept" roleId="tpf8.1167169349424" targetNodeId="tp6x.1169630122569" resolveInfo="NowExpression" />
       <node role="ruleConsequence" roleId="tpf8.1169672767469" type="tpf8.TemplateDeclarationReference" typeId="tpf8.1168559333462" id="1169834193308">
         <link role="template" roleId="tpf8.1722980698497626483" targetNodeId="1169630265920" resolveInfo="reduce_NowExpression" />
       </node>
@@ -1261,27 +1261,27 @@
       </node>
     </node>
     <node role="reductionMappingRule" roleId="tpf8.1167328349397" type="tpf8.Reduction_MappingRule" typeId="tpf8.1167327847730" id="1172493734522">
-      <link role="applicableConcept" roleId="tpf8.1167169349424" targetNodeId="tp6x.1172489559047" />
+      <link role="applicableConcept" roleId="tpf8.1167169349424" targetNodeId="tp6x.1172489559047" resolveInfo="PeriodConstant" />
       <node role="ruleConsequence" roleId="tpf8.1169672767469" type="tpf8.TemplateDeclarationReference" typeId="tpf8.1168559333462" id="1172493747175">
         <link role="template" roleId="tpf8.1722980698497626483" targetNodeId="1172492017024" resolveInfo="reduce_PeriodConstant" />
       </node>
     </node>
     <node role="reductionMappingRule" roleId="tpf8.1167328349397" type="tpf8.Reduction_MappingRule" typeId="tpf8.1167327847730" id="1172489440635">
-      <link role="applicableConcept" roleId="tpf8.1167169349424" targetNodeId="tp6x.1172487727591" />
+      <link role="applicableConcept" roleId="tpf8.1167169349424" targetNodeId="tp6x.1172487727591" resolveInfo="PeriodType" />
       <node role="ruleConsequence" roleId="tpf8.1169672767469" type="tpf8.TemplateDeclarationReference" typeId="tpf8.1168559333462" id="1172489449137">
         <link role="template" roleId="tpf8.1722980698497626483" targetNodeId="1172489369985" resolveInfo="reduce_PeriodType" />
       </node>
     </node>
     <node role="reductionMappingRule" roleId="tpf8.1167328349397" type="tpf8.Reduction_MappingRule" typeId="tpf8.1167327847730" id="1169647534451">
-      <link role="applicableConcept" roleId="tpf8.1167169349424" targetNodeId="tp6x.1169563273551" />
+      <link role="applicableConcept" roleId="tpf8.1167169349424" targetNodeId="tp6x.1169563273551" resolveInfo="ReferenceFormatToken" />
       <node role="ruleConsequence" roleId="tpf8.1169672767469" type="tpf8.TemplateDeclarationReference" typeId="tpf8.1168559333462" id="1169834193309">
         <link role="template" roleId="tpf8.1722980698497626483" targetNodeId="1169646919575" resolveInfo="reduce_ReferenceFormatToken" />
       </node>
     </node>
     <node role="reductionMappingRule" roleId="tpf8.1167328349397" type="tpf8.Reduction_MappingRule" typeId="tpf8.1167327847730" id="1172502056591">
-      <link role="applicableConcept" roleId="tpf8.1167169349424" targetNodeId="tpee.1068581242875" />
+      <link role="applicableConcept" roleId="tpf8.1167169349424" targetNodeId="tpee.1068581242875" resolveInfo="PlusExpression" />
       <node role="ruleConsequence" roleId="tpf8.1169672767469" type="tpf8.TemplateDeclarationReference" typeId="tpf8.1168559333462" id="1172502068251">
-        <link role="template" roleId="tpf8.1722980698497626483" targetNodeId="1172499604795" resolveInfo="reduce_PlusPeriodExpression" />
+        <link role="template" roleId="tpf8.1722980698497626483" targetNodeId="1172499604795" resolveInfo="reduce_PlusExpression" />
       </node>
       <node role="conditionFunction" roleId="tpf8.1167169362365" type="tpf8.BaseMappingRule_Condition" typeId="tpf8.1167168920554" id="1172502062514">
         <node role="body" roleId="tpee.1137022507850" type="tpee.StatementList" typeId="tpee.1068580123136" id="1172502062515">
@@ -1393,7 +1393,7 @@
       </node>
     </node>
     <node role="reductionMappingRule" roleId="tpf8.1167328349397" type="tpf8.Reduction_MappingRule" typeId="tpf8.1167327847730" id="1172327205796">
-      <link role="applicableConcept" roleId="tpf8.1167169349424" targetNodeId="tp6x.1172324086632" />
+      <link role="applicableConcept" roleId="tpf8.1167169349424" targetNodeId="tp6x.1172324086632" resolveInfo="RoundDateTimeOperation" />
       <node role="ruleConsequence" roleId="tpf8.1169672767469" type="tpf8.TemplateDeclarationReference" typeId="tpf8.1168559333462" id="1172327218300">
         <link role="template" roleId="tpf8.1722980698497626483" targetNodeId="1172326347243" resolveInfo="reduce_RoundDateTimeOperation" />
       </node>
@@ -1643,7 +1643,7 @@
       <node role="visibility" roleId="tpee.1178549979242" type="tpee.PublicVisibility" typeId="tpee.1146644602865" id="1178546169698" />
     </node>
     <node role="smodelAttribute" roleId="tpck.5169995583184591170" type="tpf8.RootTemplateAnnotation" typeId="tpf8.1168619357332" id="1169550327612">
-      <link role="applicableConcept" roleId="tpf8.1168619429071" targetNodeId="tp6x.1169481390637" />
+      <link role="applicableConcept" roleId="tpf8.1168619429071" targetNodeId="tp6x.1169481390637" resolveInfo="DateFormatsTable" />
     </node>
     <node role="smodelAttribute" roleId="tpck.5169995583184591170" type="tpf8.PropertyMacro" typeId="tpf8.1087833241328" id="1169551307708">
       <property name="propertyName" nameId="tpck.1757699476691236117" value="name" />
@@ -1653,7 +1653,7 @@
             <node role="expression" roleId="tpee.1068581517676" type="tpee.DotExpression" typeId="tpee.1197027756228" id="1204227943428">
               <node role="operand" roleId="tpee.1197027771414" type="tpf8.TemplateFunctionParameter_sourceNode" typeId="tpf8.1167169188348" id="1169551315094" />
               <node role="operation" roleId="tpee.1197027833540" type="tp25.SPropertyAccess" typeId="tp25.1138056022639" id="1169551389871">
-                <link role="property" roleId="tp25.1138056395725" targetNodeId="tpck.1169194664001" />
+                <link role="property" roleId="tp25.1138056395725" targetNodeId="tpck.1169194664001" resolveInfo="name" />
               </node>
             </node>
           </node>
@@ -1743,7 +1743,7 @@
                         <node role="expression" roleId="tpee.1068580123156" type="tpee.DotExpression" typeId="tpee.1197027756228" id="1204227912769">
                           <node role="operand" roleId="tpee.1197027771414" type="tpf8.TemplateFunctionParameter_sourceNode" typeId="tpf8.1167169188348" id="1173784640385" />
                           <node role="operation" roleId="tpee.1197027833540" type="tp25.SPropertyAccess" typeId="tp25.1138056022639" id="1173784640386">
-                            <link role="property" roleId="tp25.1138056395725" targetNodeId="tpck.1169194664001" />
+                            <link role="property" roleId="tp25.1138056395725" targetNodeId="tpck.1169194664001" resolveInfo="name" />
                           </node>
                         </node>
                       </node>
@@ -1804,7 +1804,7 @@
                         <node role="expression" roleId="tpee.1068581517676" type="tpee.DotExpression" typeId="tpee.1197027756228" id="1204227928840">
                           <node role="operand" roleId="tpee.1197027771414" type="tpf8.TemplateFunctionParameter_sourceNode" typeId="tpf8.1167169188348" id="1169554053122" />
                           <node role="operation" roleId="tpee.1197027833540" type="tp25.SPropertyAccess" typeId="tp25.1138056022639" id="1169554057718">
-                            <link role="property" roleId="tp25.1138056395725" targetNodeId="tp6x.1169495350409" />
+                            <link role="property" roleId="tp25.1138056395725" targetNodeId="tp6x.1169495350409" resolveInfo="value" />
                           </node>
                         </node>
                       </node>
@@ -1971,7 +1971,7 @@
           <node role="statements" roleId="tpee.1082485599096" type="tpee.StatementList" typeId="tpee.1068580123136" id="1169641764873">
             <node role="statement" roleId="tpee.1068581517665" type="tpee.ExpressionStatement" typeId="tpee.1068580123155" id="1169643611354">
               <node role="expression" roleId="tpee.1068580123156" type="tpee.ParameterReference" typeId="tpee.1068581242874" id="1169643611355">
-                <link role="variableDeclaration" roleId="tpee.1068581517664" targetNodeId="1169640039186" resolveInfo="dateTime" />
+                <link role="variableDeclaration" roleId="tpee.1068581517664" targetNodeId="1169640039186" resolveInfo="datetimeToFormat" />
               </node>
               <node role="smodelAttribute" roleId="tpck.5169995583184591170" type="tpf8.CopySrcListMacro" typeId="tpf8.1114729360583" id="1169643618263">
                 <node role="sourceNodesQuery" roleId="tpf8.1168278589236" type="tpf8.SourceSubstituteMacro_SourceNodesQuery" typeId="tpf8.1167951910403" id="1169643618264">
@@ -1980,7 +1980,7 @@
                       <node role="localVariableDeclaration" roleId="tpee.1068581242865" type="tpee.LocalVariableDeclaration" typeId="tpee.1068581242863" id="1169643622551">
                         <property name="name" nameId="tpck.1169194664001" value="statements" />
                         <node role="type" roleId="tpee.5680397130376446158" type="tp25.SNodeListType" typeId="tp25.1145383075378" id="1169643622552">
-                          <link role="elementConcept" roleId="tp25.1145383142433" targetNodeId="tpee.1068580123157" />
+                          <link role="elementConcept" roleId="tp25.1145383142433" targetNodeId="tpee.1068580123157" resolveInfo="Statement" />
                         </node>
                         <node role="initializer" roleId="tpee.1068431790190" type="tpee.DotExpression" typeId="tpee.1197027756228" id="1204227848726">
                           <node role="operand" roleId="tpee.1197027771414" type="tpee.DotExpression" typeId="tpee.1197027756228" id="1204227939342">
@@ -2004,12 +2004,12 @@
                       <node role="localVariableDeclaration" roleId="tpee.1068581242865" type="tpee.LocalVariableDeclaration" typeId="tpee.1068581242863" id="1169643622561">
                         <property name="name" nameId="tpck.1169194664001" value="s" />
                         <node role="type" roleId="tpee.5680397130376446158" type="tp25.SNodeListType" typeId="tp25.1145383075378" id="1169643622562">
-                          <link role="elementConcept" roleId="tp25.1145383142433" targetNodeId="tpee.1068580123157" />
+                          <link role="elementConcept" roleId="tp25.1145383142433" targetNodeId="tpee.1068580123157" resolveInfo="Statement" />
                         </node>
                         <node role="initializer" roleId="tpee.1068431790190" type="tpee.GenericNewExpression" typeId="tpee.1145552977093" id="1169643622563">
                           <node role="creator" roleId="tpee.1145553007750" type="tp25.SNodeListCreator" typeId="tp25.1145567426890" id="1169643622564">
                             <node role="createdType" roleId="tp25.1145567471833" type="tp25.SNodeListType" typeId="tp25.1145383075378" id="1169643622565">
-                              <link role="elementConcept" roleId="tp25.1145383142433" targetNodeId="tpee.1068580123157" />
+                              <link role="elementConcept" roleId="tp25.1145383142433" targetNodeId="tpee.1068580123157" resolveInfo="Statement" />
                             </node>
                           </node>
                         </node>
@@ -2073,7 +2073,7 @@
                         <node role="localVariableDeclaration" roleId="tpee.1068581242865" type="tpee.LocalVariableDeclaration" typeId="tpee.1068581242863" id="1169644696162">
                           <property name="name" nameId="tpck.1169194664001" value="statements" />
                           <node role="type" roleId="tpee.5680397130376446158" type="tp25.SNodeListType" typeId="tp25.1145383075378" id="1169644696164">
-                            <link role="elementConcept" roleId="tp25.1145383142433" targetNodeId="tpee.1068580123157" />
+                            <link role="elementConcept" roleId="tp25.1145383142433" targetNodeId="tpee.1068580123157" resolveInfo="Statement" />
                           </node>
                           <node role="initializer" roleId="tpee.1068431790190" type="tpee.DotExpression" typeId="tpee.1197027756228" id="1204227924821">
                             <node role="operand" roleId="tpee.1197027771414" type="tpee.DotExpression" typeId="tpee.1197027756228" id="1204227888032">
@@ -2097,7 +2097,7 @@
                         <node role="localVariableDeclaration" roleId="tpee.1068581242865" type="tpee.LocalVariableDeclaration" typeId="tpee.1068581242863" id="1169644620949">
                           <property name="name" nameId="tpck.1169194664001" value="e" />
                           <node role="type" roleId="tpee.5680397130376446158" type="tp25.SNodeType" typeId="tp25.1138055754698" id="1169644620950">
-                            <link role="concept" roleId="tp25.1138405853777" targetNodeId="tpee.1068431790191" />
+                            <link role="concept" roleId="tp25.1138405853777" targetNodeId="tpee.1068431790191" resolveInfo="Expression" />
                           </node>
                           <node role="initializer" roleId="tpee.1068431790190" type="tpee.NullLiteral" typeId="tpee.1070534058343" id="1169644709325" />
                         </node>
@@ -2119,7 +2119,7 @@
                               </node>
                               <node role="rValue" roleId="tpee.1068498886297" type="tpee.DotExpression" typeId="tpee.1197027756228" id="1204227849968">
                                 <node role="operand" roleId="tpee.1197027771414" type="tp25.SNodeTypeCastExpression" typeId="tp25.1140137987495" id="1169644745865">
-                                  <link role="concept" roleId="tp25.1140138128738" targetNodeId="tpee.1068580123155" />
+                                  <link role="concept" roleId="tp25.1140138128738" targetNodeId="tpee.1068580123155" resolveInfo="ExpressionStatement" />
                                   <node role="leftExpression" roleId="tp25.1140138123956" type="tpee.DotExpression" typeId="tpee.1197027756228" id="1208987579606">
                                     <node role="operand" roleId="tpee.1197027771414" type="tpee.LocalVariableReference" typeId="tpee.1068581242866" id="1169644742580">
                                       <link role="variableDeclaration" roleId="tpee.1068581517664" targetNodeId="1169644696162" resolveInfo="statements" />
@@ -2317,7 +2317,7 @@
       <node role="visibility" roleId="tpee.1178549979242" type="tpee.ProtectedVisibility" typeId="tpee.1146644641414" id="1204411865139" />
     </node>
     <node role="smodelAttribute" roleId="tpck.5169995583184591170" type="tpf8.RootTemplateAnnotation" typeId="tpf8.1168619357332" id="1169638277572">
-      <link role="applicableConcept" roleId="tpf8.1168619429071" targetNodeId="tp6x.1169562965517" />
+      <link role="applicableConcept" roleId="tpf8.1168619429071" targetNodeId="tp6x.1169562965517" resolveInfo="ConditionalFormatToken" />
     </node>
     <node role="superclass" roleId="tpee.1165602531693" type="tpee.ClassifierType" typeId="tpee.1107535904670" id="1223457800485">
       <link role="classifier" roleId="tpee.1107535924139" targetNodeId="eg7s.734650238126519447" resolveInfo="ConditionalDateTimePrinter" />
@@ -2410,7 +2410,7 @@
                           <node role="localVariableDeclaration" roleId="tpee.1068581242865" type="tpee.LocalVariableDeclaration" typeId="tpee.1068581242863" id="1169648096421">
                             <property name="name" nameId="tpck.1169194664001" value="cc" />
                             <node role="type" roleId="tpee.5680397130376446158" type="tp25.SNodeType" typeId="tp25.1138055754698" id="1169648096422">
-                              <link role="concept" roleId="tp25.1138405853777" targetNodeId="tpee.1068390468198" />
+                              <link role="concept" roleId="tp25.1138405853777" targetNodeId="tpee.1068390468198" resolveInfo="ClassConcept" />
                             </node>
                             <node role="initializer" roleId="tpee.1068431790190" type="tpee.DotExpression" typeId="tpee.1197027756228" id="1216847348289">
                               <node role="operand" roleId="tpee.1197027771414" type="tpf3.TemplateFunctionParameter_generationContext" typeId="tpf3.1216860049635" id="1216867024218" />
@@ -2724,7 +2724,7 @@
                         <node role="operand" roleId="tpee.1197027771414" type="tpee.DotExpression" typeId="tpee.1197027756228" id="1204227935316">
                           <node role="operand" roleId="tpee.1197027771414" type="tpf8.TemplateFunctionParameter_sourceNode" typeId="tpf8.1167169188348" id="1172157852298" />
                           <node role="operation" roleId="tpee.1197027833540" type="tp25.Node_ConceptMethodCall" typeId="tp25.1179409122411" id="1179419284219">
-                            <link role="baseMethodDeclaration" roleId="tpee.1068499141037" targetNodeId="tp76.1213877526399" />
+                            <link role="baseMethodDeclaration" roleId="tpee.1068499141037" targetNodeId="tp76.1213877526399" resolveInfo="getDatetimeProperty" />
                           </node>
                         </node>
                         <node role="operation" roleId="tpee.1197027833540" type="tp25.SLinkAccess" typeId="tp25.1138056143562" id="1178373093052">
@@ -2745,7 +2745,7 @@
   <root id="1172326347243">
     <node role="contentNode" roleId="tpf8.1092060348987" type="tpee.StaticMethodCall" typeId="tpee.1081236700937" id="4389880778953523254">
       <link role="classConcept" roleId="tpee.1144433194310" targetNodeId="eg7s.734650238126517500" resolveInfo="DateTimeOperations" />
-      <link role="baseMethodDeclaration" roleId="tpee.1068499141037" targetNodeId="eg7s.734650238126518260" resolveInfo="round" />
+      <link role="baseMethodDeclaration" roleId="tpee.1068499141037" targetNodeId="eg7s.734650238126518288" resolveInfo="round" />
       <node role="actualArgument" roleId="tpee.1068499141038" type="tpee.NullLiteral" typeId="tpee.1070534058343" id="4389880778953523255">
         <node role="smodelAttribute" roleId="tpck.5169995583184591170" type="tpf8.CopySrcNodeMacro" typeId="tpf8.1114706874351" id="4389880778953523256">
           <node role="sourceNodeQuery" roleId="tpf8.1168024447342" type="tpf8.SourceSubstituteMacro_SourceNodeQuery" typeId="tpf8.1168024337012" id="4389880778953523257">
@@ -3001,7 +3001,7 @@
   <root id="1172499604795">
     <node role="contentNode" roleId="tpf8.1092060348987" type="tpee.StaticMethodCall" typeId="tpee.1081236700937" id="5372916090360435511">
       <link role="classConcept" roleId="tpee.1144433194310" targetNodeId="eg7s.734650238126520198" resolveInfo="DateTimeArithmetics" />
-      <link role="baseMethodDeclaration" roleId="tpee.1068499141037" targetNodeId="eg7s.734650238126520423" resolveInfo="plus" />
+      <link role="baseMethodDeclaration" roleId="tpee.1068499141037" targetNodeId="eg7s.734650238126520494" resolveInfo="plus" />
       <node role="actualArgument" roleId="tpee.1068499141038" type="tpee.IntegerConstant" typeId="tpee.1068580320020" id="5372916090360435512">
         <property name="value" nameId="tpee.1068580320021" value="0" />
         <node role="smodelAttribute" roleId="tpck.5169995583184591170" type="tpf8.CopySrcNodeMacro" typeId="tpf8.1114706874351" id="5372916090360435513">
@@ -3044,7 +3044,7 @@
   <root id="1172501993121">
     <node role="contentNode" roleId="tpf8.1092060348987" type="tpee.StaticMethodCall" typeId="tpee.1081236700937" id="5372916090360435530">
       <link role="classConcept" roleId="tpee.1144433194310" targetNodeId="eg7s.734650238126520198" resolveInfo="DateTimeArithmetics" />
-      <link role="baseMethodDeclaration" roleId="tpee.1068499141037" targetNodeId="eg7s.734650238126520204" resolveInfo="minus" />
+      <link role="baseMethodDeclaration" roleId="tpee.1068499141037" targetNodeId="eg7s.734650238126520348" resolveInfo="minus" />
       <node role="actualArgument" roleId="tpee.1068499141038" type="tpee.IntegerConstant" typeId="tpee.1068580320020" id="5372916090360435531">
         <property name="value" nameId="tpee.1068580320021" value="0" />
         <node role="smodelAttribute" roleId="tpck.5169995583184591170" type="tpf8.CopySrcNodeMacro" typeId="tpf8.1114706874351" id="5372916090360435532">
@@ -3174,13 +3174,13 @@
   </root>
   <root id="1173885209754">
     <node role="reductionMappingRule" roleId="tpf8.1167340453568" type="tpf8.Reduction_MappingRule" typeId="tpf8.1167327847730" id="1173885231740">
-      <link role="applicableConcept" roleId="tpf8.1167169349424" targetNodeId="tp6x.1169487448949" />
+      <link role="applicableConcept" roleId="tpf8.1167169349424" targetNodeId="tp6x.1169487448949" resolveInfo="DateFormat" />
       <node role="ruleConsequence" roleId="tpf8.1169672767469" type="tpf8.TemplateDeclarationReference" typeId="tpf8.1168559333462" id="1173885357923">
         <link role="template" roleId="tpf8.1722980698497626483" targetNodeId="1173885253101" resolveInfo="reduce_DateFormat_IDateFormat_reference" />
       </node>
     </node>
     <node role="reductionMappingRule" roleId="tpf8.1167340453568" type="tpf8.Reduction_MappingRule" typeId="tpf8.1167327847730" id="1173885242365">
-      <link role="applicableConcept" roleId="tpf8.1167169349424" targetNodeId="tp6p.1173883503931" />
+      <link role="applicableConcept" roleId="tpf8.1167169349424" targetNodeId="tp6p.1173883503931" resolveInfo="PredefinedDateFormat" />
       <node role="ruleConsequence" roleId="tpf8.1169672767469" type="tpf8.TemplateDeclarationReference" typeId="tpf8.1168559333462" id="1173885438422">
         <link role="template" roleId="tpf8.1722980698497626483" targetNodeId="1173885363705" resolveInfo="reduce_PredefinedDateFormat_IDateFormat_reference" />
       </node>
@@ -3402,7 +3402,7 @@
                               </node>
                             </node>
                             <node role="operation" roleId="tpee.1197027833540" type="tp25.SPropertyAccess" typeId="tp25.1138056022639" id="1173967867014">
-                              <link role="property" roleId="tp25.1138056395725" targetNodeId="tp6p.1173953810654" />
+                              <link role="property" roleId="tp25.1138056395725" targetNodeId="tp6p.1173953810654" resolveInfo="numberOfSymbols" />
                             </node>
                           </node>
                         </node>
@@ -3419,7 +3419,7 @@
                               </node>
                             </node>
                             <node role="operation" roleId="tpee.1197027833540" type="tp25.SPropertyAccess" typeId="tp25.1138056022639" id="1173967983307">
-                              <link role="property" roleId="tp25.1138056395725" targetNodeId="tp6p.1173953689128" />
+                              <link role="property" roleId="tp25.1138056395725" targetNodeId="tp6p.1173953689128" resolveInfo="letter" />
                             </node>
                           </node>
                         </node>
@@ -4094,7 +4094,7 @@
         <node role="statement" roleId="tpee.1068581517665" type="tpee.ExpressionStatement" typeId="tpee.1068580123155" id="1209037487742">
           <node role="expression" roleId="tpee.1068580123156" type="tpee.StaticMethodCall" typeId="tpee.1081236700937" id="1209037487743">
             <link role="classConcept" roleId="tpee.1144433194310" targetNodeId="eg7s.734650238126517500" resolveInfo="DateTimeOperations" />
-            <link role="baseMethodDeclaration" roleId="tpee.1068499141037" targetNodeId="eg7s.734650238126517711" resolveInfo="convert" />
+            <link role="baseMethodDeclaration" roleId="tpee.1068499141037" targetNodeId="eg7s.734650238126517759" resolveInfo="convert" />
             <node role="actualArgument" roleId="tpee.1068499141038" type="tpee.LocalVariableReference" typeId="tpee.1068581242866" id="1209037487744">
               <link role="variableDeclaration" roleId="tpee.1068581517664" targetNodeId="1209037487740" resolveInfo="c" />
               <node role="smodelAttribute" roleId="tpck.5169995583184591170" type="tpf8.CopySrcNodeMacro" typeId="tpf8.1114706874351" id="1209037487745">
@@ -4302,7 +4302,7 @@
         <node role="statement" roleId="tpee.1068581517665" type="tpee.ExpressionStatement" typeId="tpee.1068580123155" id="8678577827671008618">
           <node role="expression" roleId="tpee.1068580123156" type="tpee.StaticMethodCall" typeId="tpee.1081236700937" id="3627207017676753916">
             <link role="classConcept" roleId="tpee.1144433194310" targetNodeId="eg7s.734650238126520198" resolveInfo="DateTimeArithmetics" />
-            <link role="baseMethodDeclaration" roleId="tpee.1068499141037" targetNodeId="eg7s.734650238126520620" resolveInfo="max" />
+            <link role="baseMethodDeclaration" roleId="tpee.1068499141037" targetNodeId="eg7s.734650238126520677" resolveInfo="max" />
             <node role="actualArgument" roleId="tpee.1068499141038" type="tpee.GenericNewExpression" typeId="tpee.1145552977093" id="3627207017676753917">
               <node role="creator" roleId="tpee.1145553007750" type="tpee.ClassCreator" typeId="tpee.1212685548494" id="3627207017676753918">
                 <link role="baseMethodDeclaration" roleId="tpee.1068499141037" targetNodeId="ojzd.~DateTime%d&lt;init&gt;()" resolveInfo="DateTime" />
@@ -4994,7 +4994,7 @@
         <node role="statement" roleId="tpee.1068581517665" type="tpee.ExpressionStatement" typeId="tpee.1068580123155" id="5969170299421533097">
           <node role="expression" roleId="tpee.1068580123156" type="tpee.StaticMethodCall" typeId="tpee.1081236700937" id="5969170299421533098">
             <link role="classConcept" roleId="tpee.1144433194310" targetNodeId="eg7s.734650238126517500" resolveInfo="DateTimeOperations" />
-            <link role="baseMethodDeclaration" roleId="tpee.1068499141037" targetNodeId="eg7s.734650238126518055" resolveInfo="compare" />
+            <link role="baseMethodDeclaration" roleId="tpee.1068499141037" targetNodeId="eg7s.734650238126518936" resolveInfo="compare" />
             <node role="actualArgument" roleId="tpee.1068499141038" type="tpee.LocalVariableReference" typeId="tpee.1068581242866" id="5969170299421533099">
               <link role="variableDeclaration" roleId="tpee.1068581517664" targetNodeId="5969170299421363051" resolveInfo="op1" />
               <node role="smodelAttribute" roleId="tpck.5169995583184591170" type="tpf8.CopySrcNodeMacro" typeId="tpf8.1114706874351" id="5969170299421533100">
@@ -5204,7 +5204,7 @@
         <node role="statement" roleId="tpee.1068581517665" type="tpee.ExpressionStatement" typeId="tpee.1068580123155" id="5034322243092304324">
           <node role="expression" roleId="tpee.1068580123156" type="tpee.StaticMethodCall" typeId="tpee.1081236700937" id="5034322243092304326">
             <link role="classConcept" roleId="tpee.1144433194310" targetNodeId="eg7s.734650238126517500" resolveInfo="DateTimeOperations" />
-            <link role="baseMethodDeclaration" roleId="tpee.1068499141037" targetNodeId="eg7s.734650238126517518" resolveInfo="print" />
+            <link role="baseMethodDeclaration" roleId="tpee.1068499141037" targetNodeId="eg7s.734650238126517616" resolveInfo="print" />
             <node role="actualArgument" roleId="tpee.1068499141038" type="tpee.GenericNewExpression" typeId="tpee.1145552977093" id="5034322243092304327">
               <node role="creator" roleId="tpee.1145553007750" type="tpee.ClassCreator" typeId="tpee.1212685548494" id="5034322243092314708">
                 <link role="baseMethodDeclaration" roleId="tpee.1068499141037" targetNodeId="ojzd.~DateTime%d&lt;init&gt;()" resolveInfo="DateTime" />
@@ -5301,7 +5301,7 @@
         <node role="statement" roleId="tpee.1068581517665" type="tpee.ExpressionStatement" typeId="tpee.1068580123155" id="194163770812055576">
           <node role="expression" roleId="tpee.1068580123156" type="tpee.StaticMethodCall" typeId="tpee.1081236700937" id="194163770812055578">
             <link role="classConcept" roleId="tpee.1144433194310" targetNodeId="eg7s.734650238126517500" resolveInfo="DateTimeOperations" />
-            <link role="baseMethodDeclaration" roleId="tpee.1068499141037" targetNodeId="eg7s.734650238126517518" resolveInfo="print" />
+            <link role="baseMethodDeclaration" roleId="tpee.1068499141037" targetNodeId="eg7s.734650238126517616" resolveInfo="print" />
             <node role="actualArgument" roleId="tpee.1068499141038" type="tpee.GenericNewExpression" typeId="tpee.1145552977093" id="194163770812055579">
               <node role="creator" roleId="tpee.1145553007750" type="tpee.ClassCreator" typeId="tpee.1212685548494" id="194163770812065569">
                 <link role="baseMethodDeclaration" roleId="tpee.1068499141037" targetNodeId="ojzd.~DateTime%d&lt;init&gt;()" resolveInfo="DateTime" />
@@ -5490,7 +5490,7 @@
         <node role="statement" roleId="tpee.1068581517665" type="tpee.ExpressionStatement" typeId="tpee.1068580123155" id="8253375325060753927">
           <node role="expression" roleId="tpee.1068580123156" type="tpee.StaticMethodCall" typeId="tpee.1081236700937" id="8253375325060753929">
             <link role="classConcept" roleId="tpee.1144433194310" targetNodeId="eg7s.734650238126517500" resolveInfo="DateTimeOperations" />
-            <link role="baseMethodDeclaration" roleId="tpee.1068499141037" targetNodeId="eg7s.734650238126518055" resolveInfo="compare" />
+            <link role="baseMethodDeclaration" roleId="tpee.1068499141037" targetNodeId="eg7s.734650238126518996" resolveInfo="compare" />
             <node role="actualArgument" roleId="tpee.1068499141038" type="tpee.GenericNewExpression" typeId="tpee.1145552977093" id="8253375325060753931">
               <node role="creator" roleId="tpee.1145553007750" type="tpee.ClassCreator" typeId="tpee.1212685548494" id="8253375325060766931">
                 <link role="baseMethodDeclaration" roleId="tpee.1068499141037" targetNodeId="ojzd.~Duration%d&lt;init&gt;(long)" resolveInfo="Duration" />
@@ -6048,7 +6048,7 @@
         <node role="statement" roleId="tpee.1068581517665" type="tpee.ExpressionStatement" typeId="tpee.1068580123155" id="1379098806889710405">
           <node role="expression" roleId="tpee.1068580123156" type="tpee.StaticMethodCall" typeId="tpee.1081236700937" id="1379098806889710407">
             <link role="classConcept" roleId="tpee.1144433194310" targetNodeId="eg7s.734650238126517500" resolveInfo="DateTimeOperations" />
-            <link role="baseMethodDeclaration" roleId="tpee.1068499141037" targetNodeId="eg7s.734650238126517518" resolveInfo="print" />
+            <link role="baseMethodDeclaration" roleId="tpee.1068499141037" targetNodeId="eg7s.734650238126517654" resolveInfo="print" />
             <node role="actualArgument" roleId="tpee.1068499141038" type="tpee.GenericNewExpression" typeId="tpee.1145552977093" id="1379098806889710408">
               <node role="creator" roleId="tpee.1145553007750" type="tpee.ClassCreator" typeId="tpee.1212685548494" id="1379098806889724495">
                 <link role="baseMethodDeclaration" roleId="tpee.1068499141037" targetNodeId="ojzd.~Period%d&lt;init&gt;()" resolveInfo="Period" />
@@ -7391,7 +7391,7 @@
                           <node role="operand" roleId="tpee.1197027771414" type="tpee.DotExpression" typeId="tpee.1197027756228" id="5293902215864743810">
                             <node role="operand" roleId="tpee.1197027771414" type="tpf8.TemplateFunctionParameter_sourceNode" typeId="tpf8.1167169188348" id="5293902215864743809" />
                             <node role="operation" roleId="tpee.1197027833540" type="tp25.SPropertyAccess" typeId="tp25.1138056022639" id="5293902215864743814">
-                              <link role="property" roleId="tp25.1138056395725" targetNodeId="tp6x.5293902215864689837" resolveInfo="isShort" />
+                              <link role="property" roleId="tp25.1138056395725" targetNodeId="tp6x.5293902215864689837" resolveInfo="property" />
                             </node>
                           </node>
                           <node role="operation" roleId="tpee.1197027833540" type="tpee.InstanceMethodCallOperation" typeId="tpee.1202948039474" id="8736588939155081544">
