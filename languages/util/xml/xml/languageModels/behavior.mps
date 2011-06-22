@@ -20,17 +20,8 @@
     <node type="1i04.ConceptBehavior" typeId="1i04.1225194240794" id="1213877224265">
       <link role="concept" roleId="1i04.1225194240799" targetNodeId="tpjo.1161371727643" resolveInfo="Content" />
     </node>
-    <node type="1i04.ConceptBehavior" typeId="1i04.1225194240794" id="1213877302207">
-      <link role="concept" roleId="1i04.1225194240799" targetNodeId="tpjo.1167700349452" resolveInfo="Attribute" />
-    </node>
     <node type="1i04.ConceptBehavior" typeId="1i04.1225194240794" id="1213877331918">
       <link role="concept" roleId="1i04.1225194240799" targetNodeId="tpjo.1163629230879" resolveInfo="ContentList" />
-    </node>
-    <node type="1i04.ConceptBehavior" typeId="1i04.1225194240794" id="1213877344721">
-      <link role="concept" roleId="1i04.1225194240799" targetNodeId="tpjo.1167523027466" resolveInfo="Element" />
-    </node>
-    <node type="1i04.ConceptBehavior" typeId="1i04.1225194240794" id="1213877385684">
-      <link role="concept" roleId="1i04.1225194240799" targetNodeId="tpjo.1163340203555" resolveInfo="BaseText" />
     </node>
     <node type="1i04.ConceptBehavior" typeId="1i04.1225194240794" id="1213877420377">
       <link role="concept" roleId="1i04.1225194240799" targetNodeId="tpjo.1198862578220" resolveInfo="XmlRoot" />
@@ -160,11 +151,6 @@
     </node>
     <node role="constructor" roleId="1i04.1225194240801" type="1i04.ConceptConstructorDeclaration" typeId="1i04.1225194413805" id="1213877224315">
       <node role="body" roleId="tpee.1137022507850" type="tpee.StatementList" typeId="tpee.1068580123136" id="1213877224316" />
-    </node>
-  </root>
-  <root id="1213877302207">
-    <node role="constructor" roleId="1i04.1225194240801" type="1i04.ConceptConstructorDeclaration" typeId="1i04.1225194413805" id="1213877302208">
-      <node role="body" roleId="tpee.1137022507850" type="tpee.StatementList" typeId="tpee.1068580123136" id="1213877302209" />
     </node>
   </root>
   <root id="1213877331918">
@@ -369,16 +355,6 @@
           <node role="expression" roleId="tpee.1068580123156" type="tpee.BooleanConstant" typeId="tpee.1068580123137" id="1221256566693" />
         </node>
       </node>
-    </node>
-  </root>
-  <root id="1213877344721">
-    <node role="constructor" roleId="1i04.1225194240801" type="1i04.ConceptConstructorDeclaration" typeId="1i04.1225194413805" id="1213877344722">
-      <node role="body" roleId="tpee.1137022507850" type="tpee.StatementList" typeId="tpee.1068580123136" id="1213877344723" />
-    </node>
-  </root>
-  <root id="1213877385684">
-    <node role="constructor" roleId="1i04.1225194240801" type="1i04.ConceptConstructorDeclaration" typeId="1i04.1225194413805" id="1213877385685">
-      <node role="body" roleId="tpee.1137022507850" type="tpee.StatementList" typeId="tpee.1068580123136" id="1213877385686" />
     </node>
   </root>
   <root id="1213877420377">

@@ -1,9 +1,6 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <debugInfo>
   <unitInfo fileName="XmlRoot_BehaviorDescriptor.java" startLine="8" startPosition="0" endLine="11" endPosition="0" unitName="jetbrains.mps.xml.behavior.XmlRoot_BehaviorDescriptor" />
-  <unitInfo fileName="BaseText_Behavior.java" startLine="7" startPosition="0" endLine="11" endPosition="0" unitName="jetbrains.mps.xml.behavior.BaseText_Behavior" />
-  <unitInfo fileName="Element_Behavior.java" startLine="7" startPosition="0" endLine="11" endPosition="0" unitName="jetbrains.mps.xml.behavior.Element_Behavior" />
-  <unitInfo fileName="Attribute_Behavior.java" startLine="7" startPosition="0" endLine="11" endPosition="0" unitName="jetbrains.mps.xml.behavior.Attribute_Behavior" />
   <unitInfo fileName="BaseElement_Behavior.java" startLine="9" startPosition="0" endLine="17" endPosition="0" unitName="jetbrains.mps.xml.behavior.BaseElement_Behavior" />
   <unitInfo fileName="CDATA_BehaviorDescriptor.java" startLine="6" startPosition="0" endLine="15" endPosition="0" unitName="jetbrains.mps.xml.behavior.CDATA_BehaviorDescriptor" />
   <unitInfo fileName="EntityReference_BehaviorDescriptor.java" startLine="6" startPosition="0" endLine="15" endPosition="0" unitName="jetbrains.mps.xml.behavior.EntityReference_BehaviorDescriptor" />
@@ -36,9 +33,6 @@
     <scopeInfo nodeId="1213877224268" fileName="Content_Behavior.java" startLine="19" startPosition="71" endLine="26" endPosition="123">
       <varInfo nodeId="1213877224270" varName="parent" />
     </scopeInfo>
-  </root>
-  <root nodeId="1213877302207">
-    <scopeInfo nodeId="1213877302209" fileName="Attribute_Behavior.java" startLine="8" startPosition="43" endLine="8" endPosition="43" />
   </root>
   <root nodeId="1213877331918">
     <nodeInfo nodeId="1213877331923" fileName="ContentList_Behavior.java" startLine="17" startPosition="82" endLine="18" endPosition="65" conceptFqName="jetbrains.mps.baseLanguage.structure.ReturnStatement" />
@@ -73,12 +67,6 @@
       <varInfo nodeId="1221256566630" varName="contents" />
       <varInfo nodeId="1221256566676" varName="parentContentList" />
     </scopeInfo>
-  </root>
-  <root nodeId="1213877344721">
-    <scopeInfo nodeId="1213877344723" fileName="Element_Behavior.java" startLine="8" startPosition="43" endLine="8" endPosition="43" />
-  </root>
-  <root nodeId="1213877385684">
-    <scopeInfo nodeId="1213877385686" fileName="BaseText_Behavior.java" startLine="8" startPosition="43" endLine="8" endPosition="43" />
   </root>
   <root nodeId="1213877420377">
     <scopeInfo nodeId="1213877420384" fileName="XmlRoot_Behavior.java" startLine="15" startPosition="43" endLine="15" endPosition="43" />
