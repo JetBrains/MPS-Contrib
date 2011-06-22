@@ -21,6 +21,7 @@
   <unitInfo fileName="ElementReference.java" startLine="10" startPosition="0" endLine="34" endPosition="0" unitName="jetbrains.mps.xmlSchema.structure.ElementReference" />
   <unitInfo fileName="Sequence.java" startLine="10" startPosition="0" endLine="34" endPosition="0" unitName="jetbrains.mps.xmlSchema.structure.Sequence" />
   <unitInfo fileName="ElementWithContent.java" startLine="10" startPosition="0" endLine="34" endPosition="0" unitName="jetbrains.mps.xmlSchema.structure.ElementWithContent" />
+  <unitInfo fileName="EntityLine.java" startLine="11" startPosition="0" endLine="35" endPosition="0" unitName="jetbrains.mps.xmlSchema.structure.EntityLine" />
   <unitInfo fileName="EntityDeclaration.java" startLine="11" startPosition="0" endLine="35" endPosition="0" unitName="jetbrains.mps.xmlSchema.structure.EntityDeclaration" />
   <unitInfo fileName="ContentItem.java" startLine="11" startPosition="0" endLine="35" endPosition="0" unitName="jetbrains.mps.xmlSchema.structure.ContentItem" />
   <unitInfo fileName="ComplexTypeReference.java" startLine="11" startPosition="0" endLine="35" endPosition="0" unitName="jetbrains.mps.xmlSchema.structure.ComplexTypeReference" />
@@ -31,13 +32,12 @@
   <unitInfo fileName="GroupDeclaration.java" startLine="10" startPosition="0" endLine="43" endPosition="0" unitName="jetbrains.mps.xmlSchema.structure.GroupDeclaration" />
   <unitInfo fileName="NamespaceDeclaration.java" startLine="11" startPosition="0" endLine="44" endPosition="0" unitName="jetbrains.mps.xmlSchema.structure.NamespaceDeclaration" />
   <unitInfo fileName="OccursAttribute.java" startLine="11" startPosition="0" endLine="44" endPosition="0" unitName="jetbrains.mps.xmlSchema.structure.OccursAttribute" />
-  <unitInfo fileName="EntityLine.java" startLine="12" startPosition="0" endLine="45" endPosition="0" unitName="jetbrains.mps.xmlSchema.structure.EntityLine" />
+  <unitInfo fileName="EntityBlock.java" startLine="13" startPosition="0" endLine="49" endPosition="0" unitName="jetbrains.mps.xmlSchema.structure.EntityBlock" />
   <unitInfo fileName="useAttributeEnum_PropertySupport.java" startLine="9" startPosition="0" endLine="46" endPosition="0" unitName="jetbrains.mps.xmlSchema.structure.useAttributeEnum_PropertySupport" />
   <unitInfo fileName="StructureAspectDescriptor.java" startLine="108" startPosition="0" endLine="147" endPosition="0" unitName="jetbrains.mps.xmlSchema.structure.StructureAspectDescriptor$DataBasedStructureDescriptor" />
   <unitInfo fileName="ComplexType.java" startLine="10" startPosition="0" endLine="52" endPosition="0" unitName="jetbrains.mps.xmlSchema.structure.ComplexType" />
   <unitInfo fileName="AttributeGroup.java" startLine="12" startPosition="0" endLine="57" endPosition="0" unitName="jetbrains.mps.xmlSchema.structure.AttributeGroup" />
   <unitInfo fileName="TypeExpressionList.java" startLine="13" startPosition="0" endLine="58" endPosition="0" unitName="jetbrains.mps.xmlSchema.structure.TypeExpressionList" />
-  <unitInfo fileName="EntityBlock.java" startLine="14" startPosition="0" endLine="59" endPosition="0" unitName="jetbrains.mps.xmlSchema.structure.EntityBlock" />
   <unitInfo fileName="useAttributeEnum.java" startLine="9" startPosition="0" endLine="62" endPosition="0" unitName="jetbrains.mps.xmlSchema.structure.useAttributeEnum" />
   <unitInfo fileName="DeclarationBlock.java" startLine="13" startPosition="0" endLine="70" endPosition="0" unitName="jetbrains.mps.xmlSchema.structure.DeclarationBlock" />
   <unitInfo fileName="Declaration.java" startLine="14" startPosition="0" endLine="86" endPosition="0" unitName="jetbrains.mps.xmlSchema.structure.Declaration" />
