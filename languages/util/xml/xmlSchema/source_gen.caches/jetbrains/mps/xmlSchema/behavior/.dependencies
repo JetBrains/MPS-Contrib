@@ -77,6 +77,7 @@
     <classNode dependClassName="jetbrains.mps.xmlSchema.behavior.MixedAttribute_BehaviorDescriptor" />
     <classNode dependClassName="jetbrains.mps.xmlSchema.behavior.NamespaceDeclaration_BehaviorDescriptor" />
     <classNode dependClassName="jetbrains.mps.xmlSchema.behavior.OccursAttribute_BehaviorDescriptor" />
+    <classNode dependClassName="jetbrains.mps.xmlSchema.behavior.SchemaComment_BehaviorDescriptor" />
     <classNode dependClassName="jetbrains.mps.xmlSchema.behavior.Schema_BehaviorDescriptor" />
     <classNode dependClassName="jetbrains.mps.xmlSchema.behavior.Sequence_BehaviorDescriptor" />
     <classNode dependClassName="jetbrains.mps.xmlSchema.behavior.SimpleContent_BehaviorDescriptor" />
@@ -266,6 +267,8 @@
     <classNode dependClassName="java.lang.Override" />
     <classNode dependClassName="java.lang.String" />
     <classNode dependClassName="jetbrains.mps.lang.core.behavior.BaseConcept_BehaviorDescriptor" />
+    <classNode dependClassName="jetbrains.mps.xmlSchema.behavior.SchemaCommentable_BehaviorDescriptor" />
+    <classNode extendsClassName="java.lang.Cloneable" />
     <classNode extendsClassName="jetbrains.mps.smodel.runtime.impl.CompiledBehaviorDescriptor" />
   </dependency>
   <dependency className="jetbrains.mps.xmlSchema.behavior.EntityDeclaration_Behavior" file="EntityDeclaration_Behavior.java">
@@ -285,6 +288,8 @@
     <classNode dependClassName="java.lang.Override" />
     <classNode dependClassName="java.lang.String" />
     <classNode dependClassName="jetbrains.mps.lang.core.behavior.BaseConcept_BehaviorDescriptor" />
+    <classNode dependClassName="jetbrains.mps.xmlSchema.behavior.SchemaCommentable_BehaviorDescriptor" />
+    <classNode extendsClassName="java.lang.Cloneable" />
     <classNode extendsClassName="jetbrains.mps.smodel.runtime.impl.CompiledBehaviorDescriptor" />
   </dependency>
   <dependency className="jetbrains.mps.xmlSchema.behavior.EntitySet_Behavior" file="EntitySet_Behavior.java">
@@ -378,6 +383,13 @@
     <classNode dependClassName="jetbrains.mps.lang.core.behavior.BaseConcept_BehaviorDescriptor" />
     <classNode extendsClassName="jetbrains.mps.smodel.runtime.impl.CompiledBehaviorDescriptor" />
   </dependency>
+  <dependency className="jetbrains.mps.xmlSchema.behavior.SchemaComment_BehaviorDescriptor" file="SchemaComment_BehaviorDescriptor.java">
+    <classNode dependClassName="java.lang.Override" />
+    <classNode dependClassName="java.lang.String" />
+    <classNode dependClassName="jetbrains.mps.lang.core.behavior.BaseConcept_BehaviorDescriptor" />
+    <classNode extendsClassName="jetbrains.mps.smodel.runtime.impl.CompiledBehaviorDescriptor" />
+  </dependency>
+  <dependency className="jetbrains.mps.xmlSchema.behavior.SchemaCommentable_BehaviorDescriptor" file="SchemaCommentable_BehaviorDescriptor.java" />
   <dependency className="jetbrains.mps.xmlSchema.behavior.SchemaType_BehaviorDescriptor" file="SchemaType_BehaviorDescriptor.java">
     <classNode dependClassName="java.lang.Override" />
     <classNode dependClassName="java.lang.String" />

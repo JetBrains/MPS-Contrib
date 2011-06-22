@@ -174,6 +174,13 @@
       <property name="name" nameId="tpck.1169194664001" value="BoundExpression" />
       <link role="extends" roleId="tpce.1071489389519" targetNodeId="1167614628572" resolveInfo="MaxOccursExpression" />
     </node>
+    <node type="tpce.ConceptDeclaration" typeId="tpce.1071489090640" id="8298759866585064455">
+      <property name="name" nameId="tpck.1169194664001" value="SchemaComment" />
+      <link role="extends" roleId="tpce.1071489389519" targetNodeId="tpck.1133920641626" resolveInfo="BaseConcept" />
+    </node>
+    <node type="tpce.InterfaceConceptDeclaration" typeId="tpce.1169125989551" id="8227085049521404894">
+      <property name="name" nameId="tpck.1169194664001" value="SchemaCommentable" />
+    </node>
   </roots>
   <root id="1167512696010">
     <node role="linkDeclaration" roleId="tpce.1071489727083" type="tpce.LinkDeclaration" typeId="tpce.1071489288298" id="1167842409344">
@@ -563,6 +570,9 @@
       <property name="sourceCardinality" nameId="tpce.1071599893252" value="0..n" />
       <link role="target" roleId="tpce.1071599976176" targetNodeId="1172959389104" resolveInfo="EntityLine" />
     </node>
+    <node role="implements" roleId="tpce.1169129564478" type="tpce.InterfaceConceptReference" typeId="tpce.1169127622168" id="8227085049521404897">
+      <link role="intfc" roleId="tpce.1169127628841" targetNodeId="8227085049521404894" resolveInfo="SchemaCommentable" />
+    </node>
   </root>
   <root id="1172959389104">
     <node role="linkDeclaration" roleId="tpce.1071489727083" type="tpce.LinkDeclaration" typeId="tpce.1071489288298" id="1172959536138">
@@ -570,6 +580,9 @@
       <property name="role" nameId="tpce.1071599776563" value="entityDeclaration" />
       <property name="sourceCardinality" nameId="tpce.1071599893252" value="1" />
       <link role="target" roleId="tpce.1071599976176" targetNodeId="1172950047361" resolveInfo="EntityDeclaration" />
+    </node>
+    <node role="implements" roleId="tpce.1169129564478" type="tpce.InterfaceConceptReference" typeId="tpce.1169127622168" id="8227085049521404896">
+      <link role="intfc" roleId="tpce.1169127628841" targetNodeId="8227085049521404894" resolveInfo="SchemaCommentable" />
     </node>
   </root>
   <root id="1189887674514">
@@ -625,6 +638,21 @@
     <node role="conceptProperty" roleId="tpce.1105725339613" type="tpce.StringConceptProperty" typeId="tpce.1105725638761" id="6992757512063653198">
       <property name="value" nameId="tpce.1105725733873" value="bound" />
       <link role="conceptPropertyDeclaration" roleId="tpce.1105725439818" targetNodeId="tpck.1137473891462" resolveInfo="alias" />
+    </node>
+  </root>
+  <root id="8298759866585064455">
+    <node role="linkDeclaration" roleId="tpce.1071489727083" type="tpce.LinkDeclaration" typeId="tpce.1071489288298" id="8298759866585064457">
+      <property name="metaClass" nameId="tpce.1071599937831" value="aggregation" />
+      <property name="sourceCardinality" nameId="tpce.1071599893252" value="0..n" />
+      <property name="role" nameId="tpce.1071599776563" value="text" />
+      <link role="target" roleId="tpce.1071599976176" targetNodeId="1167620778127" resolveInfo="TextLine" />
+    </node>
+  </root>
+  <root id="8227085049521404894">
+    <node role="linkDeclaration" roleId="tpce.1071489727083" type="tpce.LinkDeclaration" typeId="tpce.1071489288298" id="8227085049521404895">
+      <property name="metaClass" nameId="tpce.1071599937831" value="aggregation" />
+      <property name="role" nameId="tpce.1071599776563" value="sComment" />
+      <link role="target" roleId="tpce.1071599976176" targetNodeId="8298759866585064455" resolveInfo="SchemaComment" />
     </node>
   </root>
 </model>

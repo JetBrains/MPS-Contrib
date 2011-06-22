@@ -7,7 +7,7 @@ import java.util.Arrays;
 import jetbrains.mps.smodel.runtime.interpreted.BehaviorAspectInterpreted;
 
 public class BehaviorAspectDescriptor implements jetbrains.mps.smodel.runtime.BehaviorAspectDescriptor {
-  private static String[] stringSwitchCases_846f5o_a0a0a = new String[]{"jetbrains.mps.xmlSchema.structure.AttributeDeclaration", "jetbrains.mps.xmlSchema.structure.AttributeGroup", "jetbrains.mps.xmlSchema.structure.AttributeGroupReference", "jetbrains.mps.xmlSchema.structure.BooleanSchemaType", "jetbrains.mps.xmlSchema.structure.BoundExpression", "jetbrains.mps.xmlSchema.structure.Choice", "jetbrains.mps.xmlSchema.structure.ComplexContent", "jetbrains.mps.xmlSchema.structure.ComplexType", "jetbrains.mps.xmlSchema.structure.ComplexTypeReference", "jetbrains.mps.xmlSchema.structure.DeclarationBlock", "jetbrains.mps.xmlSchema.structure.ElementReference", "jetbrains.mps.xmlSchema.structure.ElementWithContent", "jetbrains.mps.xmlSchema.structure.ElementWithType", "jetbrains.mps.xmlSchema.structure.EntityBlock", "jetbrains.mps.xmlSchema.structure.EntityDeclaration", "jetbrains.mps.xmlSchema.structure.EntityLine", "jetbrains.mps.xmlSchema.structure.EntitySet", "jetbrains.mps.xmlSchema.structure.Extension", "jetbrains.mps.xmlSchema.structure.GroupDeclaration", "jetbrains.mps.xmlSchema.structure.GroupReference", "jetbrains.mps.xmlSchema.structure.IntegerSchemaType", "jetbrains.mps.xmlSchema.structure.MixedAttribute", "jetbrains.mps.xmlSchema.structure.NamespaceDeclaration", "jetbrains.mps.xmlSchema.structure.OccursAttribute", "jetbrains.mps.xmlSchema.structure.Schema", "jetbrains.mps.xmlSchema.structure.Sequence", "jetbrains.mps.xmlSchema.structure.SimpleContent", "jetbrains.mps.xmlSchema.structure.StringSchemaType", "jetbrains.mps.xmlSchema.structure.TextLine", "jetbrains.mps.xmlSchema.structure.TypeExpressionList", "jetbrains.mps.xmlSchema.structure.UnboundExpression", "jetbrains.mps.xmlSchema.structure.UseAttribute"};
+  private static String[] stringSwitchCases_846f5o_a0a0a = new String[]{"jetbrains.mps.xmlSchema.structure.AttributeDeclaration", "jetbrains.mps.xmlSchema.structure.AttributeGroup", "jetbrains.mps.xmlSchema.structure.AttributeGroupReference", "jetbrains.mps.xmlSchema.structure.BooleanSchemaType", "jetbrains.mps.xmlSchema.structure.BoundExpression", "jetbrains.mps.xmlSchema.structure.Choice", "jetbrains.mps.xmlSchema.structure.ComplexContent", "jetbrains.mps.xmlSchema.structure.ComplexType", "jetbrains.mps.xmlSchema.structure.ComplexTypeReference", "jetbrains.mps.xmlSchema.structure.DeclarationBlock", "jetbrains.mps.xmlSchema.structure.ElementReference", "jetbrains.mps.xmlSchema.structure.ElementWithContent", "jetbrains.mps.xmlSchema.structure.ElementWithType", "jetbrains.mps.xmlSchema.structure.EntityBlock", "jetbrains.mps.xmlSchema.structure.EntityDeclaration", "jetbrains.mps.xmlSchema.structure.EntityLine", "jetbrains.mps.xmlSchema.structure.EntitySet", "jetbrains.mps.xmlSchema.structure.Extension", "jetbrains.mps.xmlSchema.structure.GroupDeclaration", "jetbrains.mps.xmlSchema.structure.GroupReference", "jetbrains.mps.xmlSchema.structure.IntegerSchemaType", "jetbrains.mps.xmlSchema.structure.MixedAttribute", "jetbrains.mps.xmlSchema.structure.NamespaceDeclaration", "jetbrains.mps.xmlSchema.structure.OccursAttribute", "jetbrains.mps.xmlSchema.structure.Schema", "jetbrains.mps.xmlSchema.structure.SchemaComment", "jetbrains.mps.xmlSchema.structure.Sequence", "jetbrains.mps.xmlSchema.structure.SimpleContent", "jetbrains.mps.xmlSchema.structure.StringSchemaType", "jetbrains.mps.xmlSchema.structure.TextLine", "jetbrains.mps.xmlSchema.structure.TypeExpressionList", "jetbrains.mps.xmlSchema.structure.UnboundExpression", "jetbrains.mps.xmlSchema.structure.UseAttribute"};
 
   public BehaviorAspectDescriptor() {
   }
@@ -18,7 +18,7 @@ public class BehaviorAspectDescriptor implements jetbrains.mps.smodel.runtime.Be
         return new ElementWithContent_BehaviorDescriptor();
       case 24:
         return new Schema_BehaviorDescriptor();
-      case 25:
+      case 26:
         return new Sequence_BehaviorDescriptor();
       case 10:
         return new ElementReference_BehaviorDescriptor();
@@ -32,7 +32,7 @@ public class BehaviorAspectDescriptor implements jetbrains.mps.smodel.runtime.Be
         return new GroupReference_BehaviorDescriptor();
       case 23:
         return new OccursAttribute_BehaviorDescriptor();
-      case 30:
+      case 31:
         return new UnboundExpression_BehaviorDescriptor();
       case 7:
         return new ComplexType_BehaviorDescriptor();
@@ -40,7 +40,7 @@ public class BehaviorAspectDescriptor implements jetbrains.mps.smodel.runtime.Be
         return new Extension_BehaviorDescriptor();
       case 9:
         return new DeclarationBlock_BehaviorDescriptor();
-      case 28:
+      case 29:
         return new TextLine_BehaviorDescriptor();
       case 0:
         return new AttributeDeclaration_BehaviorDescriptor();
@@ -52,13 +52,13 @@ public class BehaviorAspectDescriptor implements jetbrains.mps.smodel.runtime.Be
         return new ComplexTypeReference_BehaviorDescriptor();
       case 6:
         return new ComplexContent_BehaviorDescriptor();
-      case 29:
+      case 30:
         return new TypeExpressionList_BehaviorDescriptor();
-      case 26:
+      case 27:
         return new SimpleContent_BehaviorDescriptor();
       case 12:
         return new ElementWithType_BehaviorDescriptor();
-      case 31:
+      case 32:
         return new UseAttribute_BehaviorDescriptor();
       case 16:
         return new EntitySet_BehaviorDescriptor();
@@ -70,7 +70,7 @@ public class BehaviorAspectDescriptor implements jetbrains.mps.smodel.runtime.Be
         return new EntityLine_BehaviorDescriptor();
       case 22:
         return new NamespaceDeclaration_BehaviorDescriptor();
-      case 27:
+      case 28:
         return new StringSchemaType_BehaviorDescriptor();
       case 20:
         return new IntegerSchemaType_BehaviorDescriptor();
@@ -78,6 +78,8 @@ public class BehaviorAspectDescriptor implements jetbrains.mps.smodel.runtime.Be
         return new BooleanSchemaType_BehaviorDescriptor();
       case 4:
         return new BoundExpression_BehaviorDescriptor();
+      case 25:
+        return new SchemaComment_BehaviorDescriptor();
       default:
         return BehaviorAspectInterpreted.getInstance().getDescriptor(fqName);
     }

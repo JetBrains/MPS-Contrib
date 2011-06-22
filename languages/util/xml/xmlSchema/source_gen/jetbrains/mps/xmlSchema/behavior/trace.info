@@ -1,5 +1,6 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <debugInfo>
+  <unitInfo fileName="SchemaCommentable_BehaviorDescriptor.java" startLine="6" startPosition="0" endLine="8" endPosition="0" unitName="jetbrains.mps.xmlSchema.behavior.SchemaCommentable_BehaviorDescriptor" />
   <unitInfo fileName="GroupDeclaration_Behavior.java" startLine="7" startPosition="0" endLine="11" endPosition="0" unitName="jetbrains.mps.xmlSchema.behavior.GroupDeclaration_Behavior" />
   <unitInfo fileName="EntitySet_Behavior.java" startLine="7" startPosition="0" endLine="11" endPosition="0" unitName="jetbrains.mps.xmlSchema.behavior.EntitySet_Behavior" />
   <unitInfo fileName="AttributeGroup_Behavior.java" startLine="7" startPosition="0" endLine="11" endPosition="0" unitName="jetbrains.mps.xmlSchema.behavior.AttributeGroup_Behavior" />
@@ -20,6 +21,7 @@
   <unitInfo fileName="UnboundExpression_BehaviorDescriptor.java" startLine="6" startPosition="0" endLine="15" endPosition="0" unitName="jetbrains.mps.xmlSchema.behavior.UnboundExpression_BehaviorDescriptor" />
   <unitInfo fileName="GroupExpression_BehaviorDescriptor.java" startLine="6" startPosition="0" endLine="15" endPosition="0" unitName="jetbrains.mps.xmlSchema.behavior.GroupExpression_BehaviorDescriptor" />
   <unitInfo fileName="GroupDeclaration_BehaviorDescriptor.java" startLine="6" startPosition="0" endLine="15" endPosition="0" unitName="jetbrains.mps.xmlSchema.behavior.GroupDeclaration_BehaviorDescriptor" />
+  <unitInfo fileName="SchemaComment_BehaviorDescriptor.java" startLine="7" startPosition="0" endLine="16" endPosition="0" unitName="jetbrains.mps.xmlSchema.behavior.SchemaComment_BehaviorDescriptor" />
   <unitInfo fileName="SchemaType_BehaviorDescriptor.java" startLine="7" startPosition="0" endLine="16" endPosition="0" unitName="jetbrains.mps.xmlSchema.behavior.SchemaType_BehaviorDescriptor" />
   <unitInfo fileName="NamespaceDeclaration_BehaviorDescriptor.java" startLine="7" startPosition="0" endLine="16" endPosition="0" unitName="jetbrains.mps.xmlSchema.behavior.NamespaceDeclaration_BehaviorDescriptor" />
   <unitInfo fileName="EntityLine_BehaviorDescriptor.java" startLine="7" startPosition="0" endLine="16" endPosition="0" unitName="jetbrains.mps.xmlSchema.behavior.EntityLine_BehaviorDescriptor" />
@@ -62,7 +64,7 @@
   <unitInfo fileName="TypeExpressionList_Behavior.java" startLine="11" startPosition="0" endLine="53" endPosition="0" unitName="jetbrains.mps.xmlSchema.behavior.TypeExpressionList_Behavior" />
   <unitInfo fileName="TypeExpression_Behavior.java" startLine="13" startPosition="0" endLine="72" endPosition="0" unitName="jetbrains.mps.xmlSchema.behavior.TypeExpression_Behavior" />
   <unitInfo fileName="ElementDeclaration_Behavior.java" startLine="17" startPosition="0" endLine="80" endPosition="0" unitName="jetbrains.mps.xmlSchema.behavior.ElementDeclaration_Behavior" />
-  <unitInfo fileName="BehaviorAspectDescriptor.java" startLine="9" startPosition="0" endLine="86" endPosition="0" unitName="jetbrains.mps.xmlSchema.behavior.BehaviorAspectDescriptor" />
+  <unitInfo fileName="BehaviorAspectDescriptor.java" startLine="9" startPosition="0" endLine="88" endPosition="0" unitName="jetbrains.mps.xmlSchema.behavior.BehaviorAspectDescriptor" />
   <root nodeId="1213877199073">
     <nodeInfo nodeId="1213877199076" fileName="TypeExpressionList_Behavior.java" startLine="15" startPosition="108" endLine="16" endPosition="95" conceptFqName="jetbrains.mps.baseLanguage.structure.LocalVariableDeclarationStatement" />
     <nodeInfo nodeId="1213877199086" fileName="TypeExpressionList_Behavior.java" startLine="17" startPosition="73" endLine="18" endPosition="104" conceptFqName="jetbrains.mps.baseLanguage.structure.ExpressionStatement" />

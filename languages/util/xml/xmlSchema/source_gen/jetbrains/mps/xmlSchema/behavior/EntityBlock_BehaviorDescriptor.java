@@ -4,7 +4,7 @@ package jetbrains.mps.xmlSchema.behavior;
 
 import jetbrains.mps.lang.core.behavior.BaseConcept_BehaviorDescriptor;
 
-public class EntityBlock_BehaviorDescriptor extends BaseConcept_BehaviorDescriptor {
+public class EntityBlock_BehaviorDescriptor extends BaseConcept_BehaviorDescriptor implements SchemaCommentable_BehaviorDescriptor {
   public EntityBlock_BehaviorDescriptor() {
   }
 

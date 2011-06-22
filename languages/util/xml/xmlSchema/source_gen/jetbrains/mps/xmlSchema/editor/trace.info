@@ -16,9 +16,9 @@
   <unitInfo fileName="MixedAttribute_Editor.java" startLine="14" startPosition="0" endLine="30" endPosition="0" unitName="jetbrains.mps.xmlSchema.editor.MixedAttribute_Editor" />
   <unitInfo fileName="XmlSchema_StyleSheet.java" startLine="14" startPosition="0" endLine="36" endPosition="0" unitName="jetbrains.mps.xmlSchema.editor.XmlSchema_StyleSheet" />
   <unitInfo fileName="TextLine_Editor.java" startLine="18" startPosition="0" endLine="46" endPosition="0" unitName="jetbrains.mps.xmlSchema.editor.TextLine_Editor" />
-  <unitInfo fileName="EntityLine_Editor.java" startLine="15" startPosition="0" endLine="44" endPosition="0" unitName="jetbrains.mps.xmlSchema.editor.EntityLine_Editor" />
   <unitInfo fileName="BoundExpression_Editor.java" startLine="15" startPosition="0" endLine="45" endPosition="0" unitName="jetbrains.mps.xmlSchema.editor.BoundExpression_Editor" />
   <unitInfo fileName="SchemaType_Editor.java" startLine="18" startPosition="0" endLine="52" endPosition="0" unitName="jetbrains.mps.xmlSchema.editor.SchemaType_Editor" />
+  <unitInfo fileName="SchemaComment_Editor.java" startLine="39" startPosition="0" endLine="74" endPosition="0" unitName="jetbrains.mps.xmlSchema.editor.SchemaComment_Editor$textListHandler_v7znpj_a0" />
   <unitInfo fileName="DeclarationBlock_Editor.java" startLine="98" startPosition="0" endLine="133" endPosition="0" unitName="jetbrains.mps.xmlSchema.editor.DeclarationBlock_Editor$textLineListHandler_gu9gxo_a0" />
   <unitInfo fileName="DeclarationBlock_Editor.java" startLine="134" startPosition="0" endLine="169" endPosition="0" unitName="jetbrains.mps.xmlSchema.editor.DeclarationBlock_Editor$declarationListHandler_gu9gxo_b2a" />
   <unitInfo fileName="EntitySet_Editor.java" startLine="249" startPosition="0" endLine="284" endPosition="0" unitName="jetbrains.mps.xmlSchema.editor.EntitySet_Editor$entityBlockListHandler_bj9nw6_c0" />
@@ -28,10 +28,12 @@
   <unitInfo fileName="AttributeGroupReference_Editor.java" startLine="51" startPosition="0" endLine="88" endPosition="0" unitName="jetbrains.mps.xmlSchema.editor.AttributeGroupReference_Editor$_Inline_2syzia_a0a" />
   <unitInfo fileName="ComplexContent_Editor.java" startLine="19" startPosition="0" endLine="60" endPosition="0" unitName="jetbrains.mps.xmlSchema.editor.ComplexContent_Editor" />
   <unitInfo fileName="UseAttribute_Editor.java" startLine="16" startPosition="0" endLine="62" endPosition="0" unitName="jetbrains.mps.xmlSchema.editor.UseAttribute_Editor" />
-  <unitInfo fileName="EntityBlock_Editor.java" startLine="54" startPosition="0" endLine="100" endPosition="0" unitName="jetbrains.mps.xmlSchema.editor.EntityBlock_Editor$entityLineListHandler_ddir2p_a0" />
+  <unitInfo fileName="EntityBlock_Editor.java" startLine="76" startPosition="0" endLine="122" endPosition="0" unitName="jetbrains.mps.xmlSchema.editor.EntityBlock_Editor$entityLineListHandler_ddir2p_b0" />
+  <unitInfo fileName="EntityLine_Editor.java" startLine="15" startPosition="0" endLine="62" endPosition="0" unitName="jetbrains.mps.xmlSchema.editor.EntityLine_Editor" />
   <unitInfo fileName="TypeExpressionList_Editor.java" startLine="124" startPosition="0" endLine="174" endPosition="0" unitName="jetbrains.mps.xmlSchema.editor.TypeExpressionList_Editor$typeExpressionListHandler_kgtkmm_a0_0" />
   <unitInfo fileName="ElementReference_Editor.java" startLine="52" startPosition="0" endLine="103" endPosition="0" unitName="jetbrains.mps.xmlSchema.editor.ElementReference_Editor$_Inline_uugm4e_a0a" />
   <unitInfo fileName="EntityDeclaration_Editor.java" startLine="16" startPosition="0" endLine="70" endPosition="0" unitName="jetbrains.mps.xmlSchema.editor.EntityDeclaration_Editor" />
+  <unitInfo fileName="SchemaComment_Editor.java" startLine="19" startPosition="0" endLine="75" endPosition="0" unitName="jetbrains.mps.xmlSchema.editor.SchemaComment_Editor" />
   <unitInfo fileName="AttributeGroup_Editor.java" startLine="93" startPosition="0" endLine="149" endPosition="0" unitName="jetbrains.mps.xmlSchema.editor.AttributeGroup_Editor$attributeExpressionListHandler_iaz9pw_d0" />
   <unitInfo fileName="TypeExpressionList_Editor.java" startLine="63" startPosition="0" endLine="123" endPosition="0" unitName="jetbrains.mps.xmlSchema.editor.TypeExpressionList_Editor$typeExpressionListHandler_kgtkmm_a0" />
   <unitInfo fileName="IntegerSchemaType_Editor.java" startLine="20" startPosition="0" endLine="81" endPosition="0" unitName="jetbrains.mps.xmlSchema.editor.IntegerSchemaType_Editor" />
@@ -40,13 +42,13 @@
   <unitInfo fileName="GroupReference_Editor.java" startLine="20" startPosition="0" endLine="87" endPosition="0" unitName="jetbrains.mps.xmlSchema.editor.GroupReference_Editor" />
   <unitInfo fileName="AttributeGroupReference_Editor.java" startLine="21" startPosition="0" endLine="89" endPosition="0" unitName="jetbrains.mps.xmlSchema.editor.AttributeGroupReference_Editor" />
   <unitInfo fileName="GroupDeclaration_Editor.java" startLine="20" startPosition="0" endLine="92" endPosition="0" unitName="jetbrains.mps.xmlSchema.editor.GroupDeclaration_Editor" />
-  <unitInfo fileName="EntityBlock_Editor.java" startLine="22" startPosition="0" endLine="101" endPosition="0" unitName="jetbrains.mps.xmlSchema.editor.EntityBlock_Editor" />
   <unitInfo fileName="NamespaceDeclaration_Editor.java" startLine="16" startPosition="0" endLine="97" endPosition="0" unitName="jetbrains.mps.xmlSchema.editor.NamespaceDeclaration_Editor" />
   <unitInfo fileName="OccursAttribute_Editor.java" startLine="19" startPosition="0" endLine="100" endPosition="0" unitName="jetbrains.mps.xmlSchema.editor.OccursAttribute_Editor" />
   <unitInfo fileName="ElementReference_Editor.java" startLine="22" startPosition="0" endLine="104" endPosition="0" unitName="jetbrains.mps.xmlSchema.editor.ElementReference_Editor" />
   <unitInfo fileName="Extension_Editor.java" startLine="19" startPosition="0" endLine="102" endPosition="0" unitName="jetbrains.mps.xmlSchema.editor.Extension_Editor" />
   <unitInfo fileName="Choice_Editor.java" startLine="19" startPosition="0" endLine="102" endPosition="0" unitName="jetbrains.mps.xmlSchema.editor.Choice_Editor" />
   <unitInfo fileName="StringSchemaType_Editor.java" startLine="21" startPosition="0" endLine="116" endPosition="0" unitName="jetbrains.mps.xmlSchema.editor.StringSchemaType_Editor" />
+  <unitInfo fileName="EntityBlock_Editor.java" startLine="26" startPosition="0" endLine="123" endPosition="0" unitName="jetbrains.mps.xmlSchema.editor.EntityBlock_Editor" />
   <unitInfo fileName="ElementWithType_Editor.java" startLine="23" startPosition="0" endLine="136" endPosition="0" unitName="jetbrains.mps.xmlSchema.editor.ElementWithType_Editor" />
   <unitInfo fileName="AttributeDeclaration_Editor.java" startLine="23" startPosition="0" endLine="136" endPosition="0" unitName="jetbrains.mps.xmlSchema.editor.AttributeDeclaration_Editor" />
   <unitInfo fileName="ElementWithContent_Editor.java" startLine="23" startPosition="0" endLine="136" endPosition="0" unitName="jetbrains.mps.xmlSchema.editor.ElementWithContent_Editor" />
