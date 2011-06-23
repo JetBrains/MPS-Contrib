@@ -4,9 +4,9 @@
   <unitInfo fileName="TaskCall_Constraints.java" startLine="47" startPosition="15" endLine="64" endPosition="5" unitName="jetbrains.mps.build.generictasks.constraints.TaskCall_Constraints$1" />
   <unitInfo fileName="PathReference_Constraints.java" startLine="43" startPosition="19" endLine="61" endPosition="9" unitName="jetbrains.mps.build.generictasks.constraints.PathReference_Constraints$2" />
   <unitInfo fileName="Attribute_Constraints.java" startLine="58" startPosition="19" endLine="77" endPosition="9" unitName="jetbrains.mps.build.generictasks.constraints.Attribute_Constraints$2" />
+  <unitInfo fileName="BuiltInTaskDeclaration_Constraints.java" startLine="14" startPosition="0" endLine="41" endPosition="0" unitName="jetbrains.mps.build.generictasks.constraints.BuiltInTaskDeclaration_Constraints" />
   <unitInfo fileName="NestedDeclaration_Constraints.java" startLine="14" startPosition="0" endLine="41" endPosition="0" unitName="jetbrains.mps.build.generictasks.constraints.NestedDeclaration_Constraints" />
   <unitInfo fileName="TaskInterfaceDeclaration_Constraints.java" startLine="14" startPosition="0" endLine="41" endPosition="0" unitName="jetbrains.mps.build.generictasks.constraints.TaskInterfaceDeclaration_Constraints" />
-  <unitInfo fileName="BuiltInTaskDeclaration_Constraints.java" startLine="14" startPosition="0" endLine="41" endPosition="0" unitName="jetbrains.mps.build.generictasks.constraints.BuiltInTaskDeclaration_Constraints" />
   <unitInfo fileName="ConstraintsAspectDescriptor.java" startLine="9" startPosition="0" endLine="37" endPosition="0" unitName="jetbrains.mps.build.generictasks.constraints.ConstraintsAspectDescriptor" />
   <unitInfo fileName="PathReference_Constraints.java" startLine="34" startPosition="31" endLine="63" endPosition="5" unitName="jetbrains.mps.build.generictasks.constraints.PathReference_Constraints$1" />
   <unitInfo fileName="TaskReference_Constraints.java" startLine="43" startPosition="19" endLine="72" endPosition="9" unitName="jetbrains.mps.build.generictasks.constraints.TaskReference_Constraints$2" />
