@@ -5,8 +5,8 @@
   <unitInfo fileName="GContentPlaceholder_Behavior.java" startLine="7" startPosition="0" endLine="11" endPosition="0" unitName="jetbrains.mps.gtext.behavior.GContentPlaceholder_Behavior" />
   <unitInfo fileName="GText_Behavior.java" startLine="7" startPosition="0" endLine="11" endPosition="0" unitName="jetbrains.mps.gtext.behavior.GText_Behavior" />
   <unitInfo fileName="GDocument_Behavior.java" startLine="7" startPosition="0" endLine="11" endPosition="0" unitName="jetbrains.mps.gtext.behavior.GDocument_Behavior" />
-  <unitInfo fileName="BuilderContextRef_Behavior.java" startLine="7" startPosition="0" endLine="15" endPosition="0" unitName="jetbrains.mps.gtext.behavior.BuilderContextRef_Behavior" />
   <unitInfo fileName="GTextConcept_Behavior.java" startLine="8" startPosition="0" endLine="16" endPosition="0" unitName="jetbrains.mps.gtext.behavior.GTextConcept_Behavior" />
+  <unitInfo fileName="BuilderContextRef_Behavior.java" startLine="8" startPosition="0" endLine="16" endPosition="0" unitName="jetbrains.mps.gtext.behavior.BuilderContextRef_Behavior" />
   <unitInfo fileName="GConditionalLine_Behavior.java" startLine="9" startPosition="0" endLine="17" endPosition="0" unitName="jetbrains.mps.gtext.behavior.GConditionalLine_Behavior" />
   <unitInfo fileName="GSeparatorItemList_Behavior.java" startLine="9" startPosition="0" endLine="17" endPosition="0" unitName="jetbrains.mps.gtext.behavior.GSeparatorItemList_Behavior" />
   <unitInfo fileName="GContentBlock_Behavior.java" startLine="9" startPosition="0" endLine="17" endPosition="0" unitName="jetbrains.mps.gtext.behavior.GContentBlock_Behavior" />
@@ -19,10 +19,10 @@
   <unitInfo fileName="GItemStatement_BehaviorDescriptor.java" startLine="7" startPosition="0" endLine="16" endPosition="0" unitName="jetbrains.mps.gtext.behavior.GItemStatement_BehaviorDescriptor" />
   <unitInfo fileName="GLine_Behavior.java" startLine="9" startPosition="0" endLine="21" endPosition="0" unitName="jetbrains.mps.gtext.behavior.GLine_Behavior" />
   <unitInfo fileName="GSeparatorItemList_BehaviorDescriptor.java" startLine="8" startPosition="0" endLine="21" endPosition="0" unitName="jetbrains.mps.gtext.behavior.GSeparatorItemList_BehaviorDescriptor" />
-  <unitInfo fileName="BuilderContextRef_BehaviorDescriptor.java" startLine="8" startPosition="0" endLine="21" endPosition="0" unitName="jetbrains.mps.gtext.behavior.BuilderContextRef_BehaviorDescriptor" />
   <unitInfo fileName="GConditionalLine_BehaviorDescriptor.java" startLine="8" startPosition="0" endLine="21" endPosition="0" unitName="jetbrains.mps.gtext.behavior.GConditionalLine_BehaviorDescriptor" />
   <unitInfo fileName="GItem_BehaviorDescriptor.java" startLine="8" startPosition="0" endLine="21" endPosition="0" unitName="jetbrains.mps.gtext.behavior.GItem_BehaviorDescriptor" />
   <unitInfo fileName="GContentPlaceholder_BehaviorDescriptor.java" startLine="9" startPosition="0" endLine="22" endPosition="0" unitName="jetbrains.mps.gtext.behavior.GContentPlaceholder_BehaviorDescriptor" />
+  <unitInfo fileName="BuilderContextRef_BehaviorDescriptor.java" startLine="9" startPosition="0" endLine="22" endPosition="0" unitName="jetbrains.mps.gtext.behavior.BuilderContextRef_BehaviorDescriptor" />
   <unitInfo fileName="GDocument_BehaviorDescriptor.java" startLine="10" startPosition="0" endLine="23" endPosition="0" unitName="jetbrains.mps.gtext.behavior.GDocument_BehaviorDescriptor" />
   <unitInfo fileName="GCompositeItem_Behavior.java" startLine="12" startPosition="0" endLine="27" endPosition="0" unitName="jetbrains.mps.gtext.behavior.GCompositeItem_Behavior" />
   <unitInfo fileName="GLine_BehaviorDescriptor.java" startLine="8" startPosition="0" endLine="25" endPosition="0" unitName="jetbrains.mps.gtext.behavior.GLine_BehaviorDescriptor" />
@@ -54,9 +54,9 @@
     </scopeInfo>
   </root>
   <root nodeId="1213877254059">
-    <nodeInfo nodeId="1213877254062" fileName="BuilderContextRef_Behavior.java" startLine="11" startPosition="99" endLine="12" endPosition="16" conceptFqName="jetbrains.mps.baseLanguage.structure.ReturnStatement" />
-    <scopeInfo nodeId="1213877254068" fileName="BuilderContextRef_Behavior.java" startLine="8" startPosition="43" endLine="8" endPosition="43" />
-    <scopeInfo nodeId="1213877254061" fileName="BuilderContextRef_Behavior.java" startLine="11" startPosition="99" endLine="12" endPosition="16" />
+    <nodeInfo nodeId="3288512235108370150" fileName="BuilderContextRef_Behavior.java" startLine="12" startPosition="83" endLine="13" endPosition="16" conceptFqName="jetbrains.mps.baseLanguage.structure.ReturnStatement" />
+    <scopeInfo nodeId="1213877254068" fileName="BuilderContextRef_Behavior.java" startLine="9" startPosition="43" endLine="9" endPosition="43" />
+    <scopeInfo nodeId="3288512235108370140" fileName="BuilderContextRef_Behavior.java" startLine="12" startPosition="83" endLine="13" endPosition="16" />
   </root>
   <root nodeId="1213877257058">
     <nodeInfo nodeId="1213877257061" fileName="GLine_Behavior.java" startLine="13" startPosition="73" endLine="14" endPosition="16" conceptFqName="jetbrains.mps.baseLanguage.structure.ReturnStatement" />

@@ -61,6 +61,19 @@
       <maximumStackSize value="2" />
       <properties />
     </buildFile>
+    <buildFile url="file://$PROJECT_DIR$/build/test.xml">
+      <additionalClassPath>
+        <entry path="file://$USER_HOME$/devel/mps/lib/junit-4.8.2.jar" />
+      </additionalClassPath>
+      <antReference projectDefault="true" />
+      <customJdkName value="" />
+      <maximumHeapSize value="128" />
+      <maximumStackSize value="2" />
+      <properties>
+        <property name="deploy.dir" value="$PROJECT_DIR$/../MPS.artifacts" />
+        <property name="build.number" value="20.7385" />
+      </properties>
+    </buildFile>
   </component>
 </project>
 
