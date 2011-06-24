@@ -91,9 +91,6 @@
       <property name="virtualPackage" nameId="tpck.1193676396447" value="node" />
       <link role="extends" roleId="tpce.1071489389519" targetNodeId="tpee.1137021947720" resolveInfo="ConceptFunction" />
     </node>
-    <node type="tpce.InterfaceConceptDeclaration" typeId="tpce.1169125989551" id="5039796819214415807">
-      <property name="name" nameId="tpck.1169194664001" value="IMainClass" />
-    </node>
   </roots>
   <root id="8456022385895583119">
     <node role="propertyDeclaration" roleId="tpce.1071489727084" type="tpce.PropertyDeclaration" typeId="tpce.1071489288299" id="3592413331516836478">
@@ -116,13 +113,14 @@
       <property name="metaClass" nameId="tpce.1071599937831" value="aggregation" />
       <property name="role" nameId="tpce.1071599776563" value="editor" />
       <link role="specializedLink" roleId="tpce.1071599698500" targetNodeId="tp4k.162872405267681133" />
-      <link role="target" roleId="tpce.1071599976176" targetNodeId="2178855608170754068" resolveInfo="JavaConfigurationEditorDeclaration" />
+      <link role="target" roleId="tpce.1071599976176" targetNodeId="2178855608170754068" resolveInfo="JavaNodeConfigurationEditorDeclaration" />
     </node>
     <node role="linkDeclaration" roleId="tpce.1071489727083" type="tpce.LinkDeclaration" typeId="tpce.1071489288298" id="4462513030604064304">
       <property name="metaClass" nameId="tpce.1071599937831" value="aggregation" />
       <property name="role" nameId="tpce.1071599776563" value="isApplicableBlock" />
       <link role="target" roleId="tpce.1071599976176" targetNodeId="4462513030604064303" resolveInfo="IsApplicableBlock" />
     </node>
+    <node role="smodelAttribute" roleId="tpck.5169995583184591170" type="tpce.DeprecatedNodeAnnotation" typeId="tpce.1224240836180" id="8294204555084781727" />
   </root>
   <root id="8456022385895584871">
     <node role="conceptLink" roleId="tpce.1105736949336" type="tpce.ReferenceConceptLink" typeId="tpce.1105736778597" id="668913963929392860">
@@ -139,8 +137,9 @@
   </root>
   <root id="655818460756091959">
     <node role="implements" roleId="tpce.1169129564478" type="tpce.InterfaceConceptReference" typeId="tpce.1169127622168" id="655818460756092288">
-      <link role="intfc" roleId="tpce.1169127628841" targetNodeId="tp4k.3636700473138841144" resolveInfo="IEnchancedRunConfiguration" />
+      <link role="intfc" roleId="tpce.1169127628841" targetNodeId="tp4k.3636700473138841144" resolveInfo="IEnhancedRunConfiguration" />
     </node>
+    <node role="smodelAttribute" roleId="tpck.5169995583184591170" type="tpce.DeprecatedNodeAnnotation" typeId="tpce.1224240836180" id="8294204555084781728" />
   </root>
   <root id="4964800443628314809">
     <node role="conceptLink" roleId="tpce.1105736949336" type="tpce.AggregationConceptLink" typeId="tpce.1105736889287" id="4964800443628314814">
@@ -199,7 +198,7 @@
     <node role="linkDeclaration" roleId="tpce.1071489727083" type="tpce.LinkDeclaration" typeId="tpce.1071489288298" id="2178855608170754524">
       <property name="metaClass" nameId="tpce.1071599937831" value="aggregation" />
       <property name="role" nameId="tpce.1071599776563" value="onChangeNodeBlock" />
-      <link role="target" roleId="tpce.1071599976176" targetNodeId="2178855608170754525" resolveInfo="OnChangeEditorBlock" />
+      <link role="target" roleId="tpce.1071599976176" targetNodeId="2178855608170754525" resolveInfo="OnChangeNodeBlock" />
     </node>
   </root>
   <root id="2178855608170754525">
@@ -247,6 +246,5 @@
       <link role="conceptPropertyDeclaration" roleId="tpce.1105725439818" targetNodeId="tpck.1137473891462" resolveInfo="alias" />
     </node>
   </root>
-  <root id="5039796819214415807" />
 </model>
 

@@ -33,7 +33,6 @@
       <module fileurl="file://$PROJECT_DIR$/plugins/mpseditor/mpseditor.iml" filepath="$PROJECT_DIR$/plugins/mpseditor/mpseditor.iml" group="plugins" />
       <module fileurl="file://$PROJECT_DIR$/plugins/mpsjava/mpsjava.iml" filepath="$PROJECT_DIR$/plugins/mpsjava/mpsjava.iml" group="plugins" />
       <module fileurl="file://$PROJECT_DIR$/plugins/mpsmake/mpsmake.iml" filepath="$PROJECT_DIR$/plugins/mpsmake/mpsmake.iml" group="plugins" />
-      <module fileurl="file://$PROJECT_DIR$/languages/util/buildlanguage/languages/packaging/packaging.iml" filepath="$PROJECT_DIR$/languages/util/buildlanguage/languages/packaging/packaging.iml" group="platform/build" />
       <module fileurl="file://$PROJECT_DIR$/core/plugin-runtime/plugin-runtime.iml" filepath="$PROJECT_DIR$/core/plugin-runtime/plugin-runtime.iml" group="core" />
       <module fileurl="file://$PROJECT_DIR$/core/refactoring-runtime/refactoring-runtime.iml" filepath="$PROJECT_DIR$/core/refactoring-runtime/refactoring-runtime.iml" group="core" />
       <module fileurl="file://$PROJECT_DIR$/resources/resources.iml" filepath="$PROJECT_DIR$/resources/resources.iml" group="workbench" />
