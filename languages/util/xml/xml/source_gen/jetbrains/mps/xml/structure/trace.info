@@ -11,9 +11,8 @@
   <unitInfo fileName="Attribute.java" startLine="11" startPosition="0" endLine="44" endPosition="0" unitName="jetbrains.mps.xml.structure.Attribute" />
   <unitInfo fileName="Element.java" startLine="11" startPosition="0" endLine="44" endPosition="0" unitName="jetbrains.mps.xml.structure.Element" />
   <unitInfo fileName="ComplexText.java" startLine="12" startPosition="0" endLine="48" endPosition="0" unitName="jetbrains.mps.xml.structure.ComplexText" />
-  <unitInfo fileName="StructureAspectDescriptor.java" startLine="52" startPosition="0" endLine="91" endPosition="0" unitName="jetbrains.mps.xml.structure.StructureAspectDescriptor$DataBasedStructureDescriptor" />
+  <unitInfo fileName="StructureAspectDescriptor.java" startLine="10" startPosition="0" endLine="47" endPosition="0" unitName="jetbrains.mps.xml.structure.StructureAspectDescriptor" />
   <unitInfo fileName="BaseElement.java" startLine="12" startPosition="0" endLine="57" endPosition="0" unitName="jetbrains.mps.xml.structure.BaseElement" />
   <unitInfo fileName="ContentList.java" startLine="12" startPosition="0" endLine="57" endPosition="0" unitName="jetbrains.mps.xml.structure.ContentList" />
-  <unitInfo fileName="StructureAspectDescriptor.java" startLine="15" startPosition="0" endLine="92" endPosition="0" unitName="jetbrains.mps.xml.structure.StructureAspectDescriptor" />
 </debugInfo>
 
