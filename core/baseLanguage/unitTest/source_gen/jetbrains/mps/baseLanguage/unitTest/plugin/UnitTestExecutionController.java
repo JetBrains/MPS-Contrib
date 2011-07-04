@@ -14,6 +14,7 @@ import org.apache.commons.lang.StringUtils;
 import java.io.File;
 import jetbrains.mps.baseLanguage.closures.runtime._FunctionTypes;
 
+@Deprecated
 public class UnitTestExecutionController {
   private final TestRunState myState;
   private final TestEventsDispatcher myDispatcher;
@@ -21,6 +22,7 @@ public class UnitTestExecutionController {
   private final List<ITestNodeWrapper> myWhatToTest = ListSequence.fromList(new ArrayList<ITestNodeWrapper>());
   private ProcessHandler myCurrentProcess;
 
+  @Deprecated
   public UnitTestExecutionController(final List<ITestNodeWrapper> whatToTest, ConfigRunParameters configurationRunParameters) {
     ModelAccess.instance().runReadAction(new Runnable() {
       public void run() {
