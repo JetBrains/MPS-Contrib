@@ -15,6 +15,10 @@ import java.lang.reflect.InvocationTargetException;
 import com.intellij.openapi.project.Project;
 import com.intellij.execution.BeforeRunTask;
 
+
+/**
+ * Fixes MPS-11832 for old mps run configurations.
+ */
 @Deprecated
 @ToRemove(version = 2.0)
 public class LegacyBeforeTaskProvider extends BeforeRunTaskProvider<LegacyBeforeTaskProvider.MakeTask> {
