@@ -150,6 +150,7 @@
         <node role="childCellModel" roleId="tpc2.1073389446424" type="tpc2.CellModel_Indent" typeId="tpc2.1198256887712" id="1220990112773" />
         <node role="childCellModel" roleId="tpc2.1073389446424" type="tpc2.CellModel_RefNodeList" typeId="tpc2.1073390211982" id="1107867522565">
           <property name="vertical" nameId="tpc2.1140524450554" value="true" />
+          <property name="usesFolding" nameId="tpc2.1160590307797" value="true" />
           <link role="relationDeclaration" roleId="tpc2.1140103550593" targetNodeId="tpkv.1107866800972" />
           <node role="emptyCellModel" roleId="tpc2.1140524464359" type="tpc2.CellModel_Constant" typeId="tpc2.1073389577006" id="1107867877449">
             <property name="nullText" nameId="tpc2.1082639509531" value="..." />

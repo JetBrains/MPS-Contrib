@@ -191,6 +191,7 @@ public class Element_Editor extends DefaultNodeEditor {
     AbstractCellListHandler handler = new Element_Editor.contentListHandler_76r4mg_b1a(node, "content", editorContext);
     EditorCell_Collection editorCell = handler.createCells(editorContext, new CellLayout_Vertical(), false);
     editorCell.setCellId("refNodeList_content");
+    editorCell.setCanBeFolded(true);
     editorCell.setRole(handler.getElementRole());
     return editorCell;
   }
