@@ -22,7 +22,7 @@ public class StructureAspectDescriptor implements jetbrains.mps.smodel.runtime.S
       case 2:
         return new CompiledConceptDescriptor("jetbrains.mps.xml.deprecated.structure.DocumentTypeDeclaration", "jetbrains.mps.lang.core.structure.BaseConcept", false, new String[]{"jetbrains.mps.lang.core.structure.BaseConcept", "jetbrains.mps.lang.core.structure.INamedConcept"}, new String[]{}, new String[]{});
       case 3:
-        return new CompiledConceptDescriptor("jetbrains.mps.xml.deprecated.structure.Element", "jetbrains.mps.xml.deprecated.structure.ElementPart", false, new String[]{"jetbrains.mps.xml.deprecated.structure.ElementPart"}, new String[]{}, new String[]{});
+        return new CompiledConceptDescriptor("jetbrains.mps.xml.deprecated.structure.Element", "jetbrains.mps.xml.deprecated.structure.ElementPart", false, new String[]{"jetbrains.mps.xml.deprecated.structure.ElementPart"}, new String[]{"collapse"}, new String[]{});
       case 4:
         return new CompiledConceptDescriptor("jetbrains.mps.xml.deprecated.structure.ElementPart", "jetbrains.mps.lang.core.structure.BaseConcept", false, new String[]{"jetbrains.mps.lang.core.structure.BaseConcept", "jetbrains.mps.lang.core.structure.INamedConcept"}, new String[]{}, new String[]{});
       case 5:
