@@ -21,12 +21,12 @@
     </envs>
     <patterns />
     <RunnerSettings RunnerId="Profile ">
-      <option name="myExternalizedOptions" value="&#10;additional-options=&#10;snapshots-dir=&#10;" />
+      <option name="myExternalizedOptions" value="&#10;additional-options2=onexit\=snapshot&#10;" />
     </RunnerSettings>
     <RunnerSettings RunnerId="Run" />
     <ConfigurationWrapper RunnerId="Run" />
     <method>
-      <option name="AntTarget" enabled="false" antfile="file://$PROJECT_DIR$/testbench/make_all_modules.xml" target="make" />
+      <option name="AntTarget" enabled="true" antfile="file://$PROJECT_DIR$/testbench/cleanup.xml" target="cleanup" />
     </method>
   </configuration>
 </component>
