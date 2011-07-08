@@ -3397,7 +3397,6 @@
   <root id="3361586479361545629">
     <node role="contentNode" roleId="tpf8.1092060348987" type="tp4k.UniversalRunConfigCreator" typeId="tp4k.3856910426407528287" id="7589249354677727653">
       <property name="name" nameId="tpck.1169194664001" value="Creator" />
-      <link role="rcType" roleId="tp4k.3856910426407528296" targetNodeId="tpec.4434783588132660334" resolveInfo="JavaApplication" />
       <node role="target" roleId="tp4k.3856910426407529532" type="tp4k.NodeCreatorTarget" typeId="tp4k.3856910426407529501" id="7589249354677766605" />
       <node role="createBlock" roleId="tp4k.3856910426407529582" type="tp4k.CreateRunConfigBlock" typeId="tp4k.3856910426407529578" id="7589249354677727655">
         <node role="body" roleId="tpee.1137022507850" type="tpee.StatementList" typeId="tpee.1068580123136" id="7589249354677727656">
