@@ -22,40 +22,40 @@
     </node>
     <node type="tpc2.ConceptEditorDeclaration" typeId="tpc2.1071666914219" id="353793545802643503">
       <property name="virtualPackage" nameId="tpck.1193676396447" value="Declarations" />
-      <link role="conceptDeclaration" roleId="tpc2.1166049300910" targetNodeId="ddum.353793545802643469" resolveInfo="Attribute" />
+      <link role="conceptDeclaration" roleId="tpc2.1166049300910" targetNodeId="ddum.353793545802643469" resolveInfo="AttributeDeclaration" />
     </node>
     <node type="tpc2.ConceptEditorDeclaration" typeId="tpc2.1071666914219" id="353793545802643529">
-      <link role="conceptDeclaration" roleId="tpc2.1166049300910" targetNodeId="ddum.353793545802643477" resolveInfo="LibTaskCall" />
+      <link role="conceptDeclaration" roleId="tpc2.1166049300910" targetNodeId="ddum.353793545802643477" resolveInfo="TaskCall" />
     </node>
     <node type="tpc2.ConceptEditorDeclaration" typeId="tpc2.1071666914219" id="353793545802643609">
       <property name="virtualPackage" nameId="tpck.1193676396447" value="Declarations" />
-      <link role="conceptDeclaration" roleId="tpc2.1166049300910" targetNodeId="ddum.353793545802643483" resolveInfo="GenericInterfaceDeclaration" />
+      <link role="conceptDeclaration" roleId="tpc2.1166049300910" targetNodeId="ddum.353793545802643483" resolveInfo="TaskInterfaceDeclaration" />
     </node>
     <node type="tpc2.ConceptEditorDeclaration" typeId="tpc2.1071666914219" id="353793545802643642">
       <property name="virtualPackage" nameId="tpck.1193676396447" value="Declarations" />
-      <link role="conceptDeclaration" roleId="tpc2.1166049300910" targetNodeId="ddum.353793545802643486" resolveInfo="TaskDeclaration" />
+      <link role="conceptDeclaration" roleId="tpc2.1166049300910" targetNodeId="ddum.353793545802643486" resolveInfo="BuiltInTaskDeclaration" />
     </node>
     <node type="tpc2.ConceptEditorDeclaration" typeId="tpc2.1071666914219" id="353793545802643775">
       <property name="virtualPackage" nameId="tpck.1193676396447" value="Declarations" />
-      <link role="conceptDeclaration" roleId="tpc2.1166049300910" targetNodeId="ddum.353793545802643498" resolveInfo="NestedReference" />
+      <link role="conceptDeclaration" roleId="tpc2.1166049300910" targetNodeId="ddum.353793545802643498" resolveInfo="NestedDeclaration" />
     </node>
     <node type="tpc2.EditorComponentDeclaration" typeId="tpc2.1078938745671" id="353793545802854498">
       <property name="name" nameId="tpck.1169194664001" value="Attribute_EditorComponent" />
-      <link role="conceptDeclaration" roleId="tpc2.1166049300910" targetNodeId="ddum.353793545802643466" resolveInfo="GenericAttribute" />
+      <link role="conceptDeclaration" roleId="tpc2.1166049300910" targetNodeId="ddum.353793545802643466" resolveInfo="Attribute" />
     </node>
     <node type="tpc2.EditorComponentDeclaration" typeId="tpc2.1078938745671" id="353793545802854526">
       <property name="name" nameId="tpck.1169194664001" value="GenericAttributeDeclarationInEnum_EditorComponent" />
-      <link role="conceptDeclaration" roleId="tpc2.1166049300910" targetNodeId="ddum.353793545802643469" resolveInfo="GenericAttributeDeclaration" />
+      <link role="conceptDeclaration" roleId="tpc2.1166049300910" targetNodeId="ddum.353793545802643469" resolveInfo="AttributeDeclaration" />
     </node>
     <node type="tpc2.EditorComponentDeclaration" typeId="tpc2.1078938745671" id="353793545802854555">
       <property name="name" nameId="tpck.1169194664001" value="GenericAttributeDeclaration_EditorComponent" />
-      <link role="conceptDeclaration" roleId="tpc2.1166049300910" targetNodeId="ddum.353793545802643469" resolveInfo="GenericAttributeDeclaration" />
+      <link role="conceptDeclaration" roleId="tpc2.1166049300910" targetNodeId="ddum.353793545802643469" resolveInfo="AttributeDeclaration" />
     </node>
     <node type="tpc2.ConceptEditorDeclaration" typeId="tpc2.1071666914219" id="353793545802854873">
       <link role="conceptDeclaration" roleId="tpc2.1166049300910" targetNodeId="ddum.353793545802854870" resolveInfo="PathReference" />
     </node>
     <node type="tpc2.ConceptEditorDeclaration" typeId="tpc2.1071666914219" id="3037831562615764083">
-      <link role="conceptDeclaration" roleId="tpc2.1166049300910" targetNodeId="ddum.3037831562615764081" resolveInfo="Reference" />
+      <link role="conceptDeclaration" roleId="tpc2.1166049300910" targetNodeId="ddum.3037831562615764081" resolveInfo="TaskReference" />
     </node>
     <node type="tpc2.EditorComponentDeclaration" typeId="tpc2.1078938745671" id="8241842287689220298">
       <property name="name" nameId="tpck.1169194664001" value="TaskDeclarationHeader_EditorComponent" />

@@ -22,13 +22,13 @@
     </node>
     <node type="tpce.ConceptDeclaration" typeId="tpce.1071489090640" id="353793545802643477">
       <property name="name" nameId="tpck.1169194664001" value="TaskCall" />
-      <link role="extends" roleId="tpce.1071489389519" targetNodeId="tpsk.1196851087779" resolveInfo="Call" />
+      <link role="extends" roleId="tpce.1071489389519" targetNodeId="tpsk.1196851087779" resolveInfo="AbstractCall" />
     </node>
     <node type="tpce.ConceptDeclaration" typeId="tpce.1071489090640" id="353793545802643483">
       <property name="name" nameId="tpck.1169194664001" value="TaskInterfaceDeclaration" />
       <property name="rootable" nameId="tpce.1096454100552" value="true" />
       <property name="virtualPackage" nameId="tpck.1193676396447" value="Declarations" />
-      <link role="extends" roleId="tpce.1071489389519" targetNodeId="353793545802643486" resolveInfo="GenericTaskDeclaration" />
+      <link role="extends" roleId="tpce.1071489389519" targetNodeId="353793545802643486" resolveInfo="BuiltInTaskDeclaration" />
     </node>
     <node type="tpce.ConceptDeclaration" typeId="tpce.1071489090640" id="353793545802643486">
       <property name="name" nameId="tpck.1169194664001" value="BuiltInTaskDeclaration" />
@@ -38,7 +38,7 @@
     <node type="tpce.ConceptDeclaration" typeId="tpce.1071489090640" id="353793545802643498">
       <property name="name" nameId="tpck.1169194664001" value="NestedDeclaration" />
       <property name="virtualPackage" nameId="tpck.1193676396447" value="Declarations" />
-      <link role="extends" roleId="tpce.1071489389519" targetNodeId="3037831562615764081" resolveInfo="Reference" />
+      <link role="extends" roleId="tpce.1071489389519" targetNodeId="3037831562615764081" resolveInfo="TaskReference" />
     </node>
     <node type="tpce.ConceptDeclaration" typeId="tpce.1071489090640" id="353793545802854870">
       <property name="name" nameId="tpck.1169194664001" value="PathReference" />
@@ -57,7 +57,7 @@
     <node role="linkDeclaration" roleId="tpce.1071489727083" type="tpce.LinkDeclaration" typeId="tpce.1071489288298" id="353793545802643467">
       <property name="role" nameId="tpce.1071599776563" value="attributeDeclaration" />
       <property name="sourceCardinality" nameId="tpce.1071599893252" value="1" />
-      <link role="target" roleId="tpce.1071599976176" targetNodeId="353793545802643469" resolveInfo="GenericAttributeDeclaration" />
+      <link role="target" roleId="tpce.1071599976176" targetNodeId="353793545802643469" resolveInfo="AttributeDeclaration" />
     </node>
     <node role="linkDeclaration" roleId="tpce.1071489727083" type="tpce.LinkDeclaration" typeId="tpce.1071489288298" id="353793545802643468">
       <property name="metaClass" nameId="tpce.1071599937831" value="aggregation" />
@@ -112,7 +112,7 @@
       <property name="metaClass" nameId="tpce.1071599937831" value="aggregation" />
       <property name="role" nameId="tpce.1071599776563" value="atributes" />
       <property name="sourceCardinality" nameId="tpce.1071599893252" value="0..n" />
-      <link role="target" roleId="tpce.1071599976176" targetNodeId="353793545802643466" resolveInfo="GenericAttribute" />
+      <link role="target" roleId="tpce.1071599976176" targetNodeId="353793545802643466" resolveInfo="Attribute" />
     </node>
     <node role="implements" roleId="tpce.1169129564478" type="tpce.InterfaceConceptReference" typeId="tpce.1169127622168" id="353793545802643480">
       <link role="intfc" roleId="tpce.1169127628841" targetNodeId="tpck.1169194658468" resolveInfo="INamedConcept" />
@@ -131,7 +131,7 @@
       <property name="metaClass" nameId="tpce.1071599937831" value="aggregation" />
       <property name="sourceCardinality" nameId="tpce.1071599893252" value="0..n" />
       <property name="role" nameId="tpce.1071599776563" value="parents" />
-      <link role="target" roleId="tpce.1071599976176" targetNodeId="3037831562615764081" resolveInfo="Reference" />
+      <link role="target" roleId="tpce.1071599976176" targetNodeId="3037831562615764081" resolveInfo="TaskReference" />
     </node>
     <node role="conceptProperty" roleId="tpce.1105725339613" type="tpce.StringConceptProperty" typeId="tpce.1105725638761" id="353793545802643485">
       <property name="value" nameId="tpce.1105725733873" value="generic interface declaration" />
@@ -143,13 +143,13 @@
       <property name="metaClass" nameId="tpce.1071599937831" value="aggregation" />
       <property name="role" nameId="tpce.1071599776563" value="nested" />
       <property name="sourceCardinality" nameId="tpce.1071599893252" value="0..n" />
-      <link role="target" roleId="tpce.1071599976176" targetNodeId="353793545802643498" resolveInfo="NestedReference" />
+      <link role="target" roleId="tpce.1071599976176" targetNodeId="353793545802643498" resolveInfo="NestedDeclaration" />
     </node>
     <node role="linkDeclaration" roleId="tpce.1071489727083" type="tpce.LinkDeclaration" typeId="tpce.1071489288298" id="353793545802643491">
       <property name="metaClass" nameId="tpce.1071599937831" value="aggregation" />
       <property name="role" nameId="tpce.1071599776563" value="fakeDeclaration" />
       <property name="sourceCardinality" nameId="tpce.1071599893252" value="0..n" />
-      <link role="target" roleId="tpce.1071599976176" targetNodeId="353793545802643486" resolveInfo="GenericTaskDeclaration" />
+      <link role="target" roleId="tpce.1071599976176" targetNodeId="353793545802643486" resolveInfo="BuiltInTaskDeclaration" />
     </node>
     <node role="propertyDeclaration" roleId="tpce.1071489727084" type="tpce.PropertyDeclaration" typeId="tpce.1071489288299" id="353793545802643496">
       <property name="name" nameId="tpck.1169194664001" value="fake" />
@@ -168,7 +168,7 @@
       <property name="metaClass" nameId="tpce.1071599937831" value="aggregation" />
       <property name="role" nameId="tpce.1071599776563" value="role" />
       <property name="sourceCardinality" nameId="tpce.1071599893252" value="0..n" />
-      <link role="target" roleId="tpce.1071599976176" targetNodeId="3037831562615764081" resolveInfo="Reference" />
+      <link role="target" roleId="tpce.1071599976176" targetNodeId="3037831562615764081" resolveInfo="TaskReference" />
     </node>
   </root>
   <root id="353793545802854870">

@@ -76,7 +76,7 @@
     </node>
     <node role="applicableNode" roleId="tpd4.1174648101952" type="tpd4.ConceptReference" typeId="tpd4.1174642788531" id="353793545802854618">
       <property name="name" nameId="tpck.1169194664001" value="nodeToCheck" />
-      <link role="concept" roleId="tpd4.1174642800329" targetNodeId="ddum.353793545802643466" resolveInfo="GenericAttribute" />
+      <link role="concept" roleId="tpd4.1174642800329" targetNodeId="ddum.353793545802643466" resolveInfo="Attribute" />
     </node>
   </root>
   <root id="353793545802854619">
@@ -218,7 +218,7 @@
     </node>
     <node role="applicableNode" roleId="tpd4.1174648101952" type="tpd4.ConceptReference" typeId="tpd4.1174642788531" id="353793545802854671">
       <property name="name" nameId="tpck.1169194664001" value="genericAttributeDeclaration" />
-      <link role="concept" roleId="tpd4.1174642800329" targetNodeId="ddum.353793545802643469" resolveInfo="GenericAttributeDeclaration" />
+      <link role="concept" roleId="tpd4.1174642800329" targetNodeId="ddum.353793545802643469" resolveInfo="AttributeDeclaration" />
     </node>
   </root>
   <root id="353793545802854672">
@@ -325,7 +325,7 @@
     </node>
     <node role="applicableNode" roleId="tpd4.1174648101952" type="tpd4.ConceptReference" typeId="tpd4.1174642788531" id="353793545802854717">
       <property name="name" nameId="tpck.1169194664001" value="nodeToCheck" />
-      <link role="concept" roleId="tpd4.1174642800329" targetNodeId="ddum.353793545802643469" resolveInfo="GenericAttributeDeclaration" />
+      <link role="concept" roleId="tpd4.1174642800329" targetNodeId="ddum.353793545802643469" resolveInfo="AttributeDeclaration" />
     </node>
   </root>
   <root id="353793545802854718">
@@ -356,7 +356,7 @@
                 </node>
                 <node role="operation" roleId="tpee.1197027833540" type="tp25.Node_IsInstanceOfOperation" typeId="tp25.1139621453865" id="353793545802854732">
                   <node role="conceptArgument" roleId="tp25.1177027386292" type="tp25.RefConcept_Reference" typeId="tp25.1177026924588" id="353793545802854733">
-                    <link role="conceptDeclaration" roleId="tp25.1177026940964" targetNodeId="ddum.353793545802643483" resolveInfo="GenericInterfaceDeclaration" />
+                    <link role="conceptDeclaration" roleId="tp25.1177026940964" targetNodeId="ddum.353793545802643483" resolveInfo="TaskInterfaceDeclaration" />
                   </node>
                 </node>
               </node>
@@ -392,7 +392,7 @@
     </node>
     <node role="applicableNode" roleId="tpd4.1174648101952" type="tpd4.ConceptReference" typeId="tpd4.1174642788531" id="353793545802854744">
       <property name="name" nameId="tpck.1169194664001" value="genericInterfaceDeclaration" />
-      <link role="concept" roleId="tpd4.1174642800329" targetNodeId="ddum.353793545802643483" resolveInfo="GenericInterfaceDeclaration" />
+      <link role="concept" roleId="tpd4.1174642800329" targetNodeId="ddum.353793545802643483" resolveInfo="TaskInterfaceDeclaration" />
     </node>
   </root>
   <root id="353793545802854745">
@@ -513,7 +513,7 @@
     </node>
     <node role="applicableNode" roleId="tpd4.1174648101952" type="tpd4.ConceptReference" typeId="tpd4.1174642788531" id="353793545802854794">
       <property name="name" nameId="tpck.1169194664001" value="genericAttribute" />
-      <link role="concept" roleId="tpd4.1174642800329" targetNodeId="ddum.353793545802643466" resolveInfo="GenericAttribute" />
+      <link role="concept" roleId="tpd4.1174642800329" targetNodeId="ddum.353793545802643466" resolveInfo="Attribute" />
     </node>
   </root>
   <root id="353793545802854795">
@@ -666,7 +666,7 @@
     </node>
     <node role="applicableNode" roleId="tpd4.1174648101952" type="tpd4.ConceptReference" typeId="tpd4.1174642788531" id="353793545802854858">
       <property name="name" nameId="tpck.1169194664001" value="genericTaskCall" />
-      <link role="concept" roleId="tpd4.1174642800329" targetNodeId="ddum.353793545802643477" resolveInfo="GenericCall" />
+      <link role="concept" roleId="tpd4.1174642800329" targetNodeId="ddum.353793545802643477" resolveInfo="TaskCall" />
     </node>
   </root>
 </model>

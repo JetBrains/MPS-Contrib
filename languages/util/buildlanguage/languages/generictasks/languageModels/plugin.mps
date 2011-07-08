@@ -134,7 +134,7 @@
                 </node>
               </node>
               <node role="actualArgument" roleId="tp4f.1205770614681" type="tpee.EnumConstantReference" typeId="tpee.1083260308424" id="353793545803155625">
-                <link role="enumClass" roleId="tpee.1144432896254" targetNodeId="bqrc.1462969652806435817" resolveInfo="Modes" />
+                <link role="enumClass" roleId="tpee.1144432896254" targetNodeId="bqrc.1462969652806435817" resolveInfo="Generator.Modes" />
                 <link role="enumConstantDeclaration" roleId="tpee.1083260308426" targetNodeId="bqrc.1462969652806435819" resolveInfo="CORE" />
               </node>
             </node>
@@ -156,7 +156,7 @@
                 </node>
               </node>
               <node role="actualArgument" roleId="tp4f.1205770614681" type="tpee.EnumConstantReference" typeId="tpee.1083260308424" id="353793545803155641">
-                <link role="enumClass" roleId="tpee.1144432896254" targetNodeId="bqrc.1462969652806435817" resolveInfo="Modes" />
+                <link role="enumClass" roleId="tpee.1144432896254" targetNodeId="bqrc.1462969652806435817" resolveInfo="Generator.Modes" />
                 <link role="enumConstantDeclaration" roleId="tpee.1083260308426" targetNodeId="bqrc.1462969652806435821" resolveInfo="JUNIT" />
               </node>
             </node>
@@ -266,7 +266,7 @@
                   <link role="variableDeclaration" roleId="tpee.1068581517664" targetNodeId="353793545803155658" resolveInfo="GENERATED_MODEL_SUFFIX" />
                 </node>
                 <node role="leftExpression" roleId="tpee.1081773367580" type="tpee.LocalStaticFieldReference" typeId="tpee.1172008963197" id="353793545803155676">
-                  <link role="variableDeclaration" roleId="tpee.1068581517664" targetNodeId="353793545803155654" resolveInfo="BUILDLANGUAGE_NAMESPACE" />
+                  <link role="variableDeclaration" roleId="tpee.1068581517664" targetNodeId="353793545803155654" resolveInfo="LANGUAGE_NAMESPACE" />
                 </node>
               </node>
             </node>
@@ -319,7 +319,7 @@
                   <link role="variableDeclaration" roleId="tpee.1068581517664" targetNodeId="353793545803155662" resolveInfo="OPTIONAL_MODEL_SUFFIX" />
                 </node>
                 <node role="leftExpression" roleId="tpee.1081773367580" type="tpee.LocalStaticFieldReference" typeId="tpee.1172008963197" id="353793545803155696">
-                  <link role="variableDeclaration" roleId="tpee.1068581517664" targetNodeId="353793545803155654" resolveInfo="BUILDLANGUAGE_NAMESPACE" />
+                  <link role="variableDeclaration" roleId="tpee.1068581517664" targetNodeId="353793545803155654" resolveInfo="LANGUAGE_NAMESPACE" />
                 </node>
               </node>
             </node>
