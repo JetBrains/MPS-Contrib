@@ -456,7 +456,7 @@
         </node>
       </node>
       <node role="part" roleId="tpdg.1177324142645" type="tpdg.ConceptSubstitutePart" typeId="tpdg.1180134965967" id="1201708904383">
-        <link role="concept" roleId="tpdg.1180135092669" targetNodeId="tpsk.1201701678947" resolveInfo="TagetReferencePropertyValueExpression" />
+        <link role="concept" roleId="tpdg.1180135092669" targetNodeId="tpsk.1201701678947" resolveInfo="TargetReferencePropertyValueExpression" />
       </node>
       <node role="part" roleId="tpdg.1177324142645" type="tpdg.ConceptSubstitutePart" typeId="tpdg.1180134965967" id="1201708912246">
         <link role="concept" roleId="tpdg.1180135092669" targetNodeId="tpsk.1200511852076" resolveInfo="CallReference" />
@@ -515,7 +515,7 @@
                   <node role="operand" roleId="tpee.1197027771414" type="tpee.DotExpression" typeId="tpee.1197027756228" id="353793545803348387">
                     <node role="operand" roleId="tpee.1197027771414" type="tpee.DotExpression" typeId="tpee.1197027756228" id="353793545803348388">
                       <node role="operand" roleId="tpee.1197027771414" type="tp25.SNodeTypeCastExpression" typeId="tp25.1140137987495" id="353793545803348389">
-                        <link role="concept" roleId="tp25.1140138128738" targetNodeId="ddum.353793545802643466" resolveInfo="GenericAttribute" />
+                        <link role="concept" roleId="tp25.1140138128738" targetNodeId="ddum.353793545802643466" resolveInfo="Attribute" />
                         <node role="leftExpression" roleId="tp25.1140138123956" type="tpee.ParameterReference" typeId="tpee.1068581242874" id="353793545803348390">
                           <link role="variableDeclaration" roleId="tpee.1068581517664" targetNodeId="353793545803348417" resolveInfo="parentNode" />
                         </node>
@@ -544,7 +544,7 @@
               </node>
               <node role="operation" roleId="tpee.1197027833540" type="tp25.Node_IsInstanceOfOperation" typeId="tp25.1139621453865" id="353793545803348398">
                 <node role="conceptArgument" roleId="tp25.1177027386292" type="tp25.RefConcept_Reference" typeId="tp25.1177026924588" id="353793545803348399">
-                  <link role="conceptDeclaration" roleId="tp25.1177026940964" targetNodeId="ddum.353793545802643466" resolveInfo="GenericAttribute" />
+                  <link role="conceptDeclaration" roleId="tp25.1177026940964" targetNodeId="ddum.353793545802643466" resolveInfo="Attribute" />
                 </node>
               </node>
             </node>
@@ -554,7 +554,7 @@
                   <node role="expression" roleId="tpee.1068581517676" type="tpee.DotExpression" typeId="tpee.1197027756228" id="353793545803348403">
                     <node role="operand" roleId="tpee.1197027771414" type="tpee.DotExpression" typeId="tpee.1197027756228" id="353793545803348404">
                       <node role="operand" roleId="tpee.1197027771414" type="tp25.SNodeTypeCastExpression" typeId="tp25.1140137987495" id="353793545803348405">
-                        <link role="concept" roleId="tp25.1140138128738" targetNodeId="ddum.353793545802643469" resolveInfo="GenericAttributeDeclaration" />
+                        <link role="concept" roleId="tp25.1140138128738" targetNodeId="ddum.353793545802643469" resolveInfo="AttributeDeclaration" />
                         <node role="leftExpression" roleId="tp25.1140138123956" type="tpee.ParameterReference" typeId="tpee.1068581242874" id="353793545803348406">
                           <link role="variableDeclaration" roleId="tpee.1068581517664" targetNodeId="353793545803348417" resolveInfo="parentNode" />
                         </node>
@@ -579,7 +579,7 @@
                 </node>
                 <node role="operation" roleId="tpee.1197027833540" type="tp25.Node_IsInstanceOfOperation" typeId="tp25.1139621453865" id="353793545803348413">
                   <node role="conceptArgument" roleId="tp25.1177027386292" type="tp25.RefConcept_Reference" typeId="tp25.1177026924588" id="353793545803348414">
-                    <link role="conceptDeclaration" roleId="tp25.1177026940964" targetNodeId="ddum.353793545802643469" resolveInfo="GenericAttributeDeclaration" />
+                    <link role="conceptDeclaration" roleId="tp25.1177026940964" targetNodeId="ddum.353793545802643469" resolveInfo="AttributeDeclaration" />
                   </node>
                 </node>
               </node>

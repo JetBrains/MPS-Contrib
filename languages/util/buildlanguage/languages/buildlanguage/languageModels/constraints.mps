@@ -22,7 +22,7 @@
       <link role="concept" roleId="tp1t.1213093996982" targetNodeId="tpsk.1196852921336" resolveInfo="TargetReference" />
     </node>
     <node type="tp1t.ConceptConstraints" typeId="tp1t.1213093968558" id="1213104856811">
-      <link role="concept" roleId="tp1t.1213093996982" targetNodeId="tpsk.1201701678947" resolveInfo="TagetReferencePropertyValueExpression" />
+      <link role="concept" roleId="tp1t.1213093996982" targetNodeId="tpsk.1201701678947" resolveInfo="TargetReferencePropertyValueExpression" />
     </node>
     <node type="tp1t.ConceptConstraints" typeId="tp1t.1213093968558" id="1213104860240">
       <link role="concept" roleId="tp1t.1213093996982" targetNodeId="tpsk.1196853662806" resolveInfo="PropertyReference" />
@@ -36,7 +36,7 @@
     </node>
     <node type="tp1t.ConceptConstraints" typeId="tp1t.1213093968558" id="1219148065336">
       <property name="virtualPackage" nameId="tpck.1193676396447" value="Expressions" />
-      <link role="concept" roleId="tp1t.1213093996982" targetNodeId="tpsk.1219147669362" resolveInfo="InputProperty" />
+      <link role="concept" roleId="tp1t.1213093996982" targetNodeId="tpsk.1219147669362" resolveInfo="ExternalPropertyDeclaration" />
     </node>
     <node type="tp1t.ConceptConstraints" typeId="tp1t.1213093968558" id="4710899751214243183">
       <property name="virtualPackage" nameId="tpck.1193676396447" value="Expressions" />

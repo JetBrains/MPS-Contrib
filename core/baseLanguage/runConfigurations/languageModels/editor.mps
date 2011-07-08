@@ -12,7 +12,7 @@
   <roots>
     <node type="tpc2.ConceptEditorDeclaration" typeId="tpc2.1071666914219" id="6629582826328966249">
       <property name="virtualPackage" nameId="tpck.1193676396447" value="node" />
-      <link role="conceptDeclaration" roleId="tpc2.1166049300910" targetNodeId="11eb.8456022385895583119" resolveInfo="JavaRunConfiguration" />
+      <link role="conceptDeclaration" roleId="tpc2.1166049300910" targetNodeId="11eb.8456022385895583119" resolveInfo="JavaNodeRunConfiguration" />
     </node>
     <node type="tpc2.ConceptEditorDeclaration" typeId="tpc2.1071666914219" id="3405970486215434351">
       <property name="virtualPackage" nameId="tpck.1193676396447" value="java" />
@@ -20,7 +20,7 @@
     </node>
     <node type="tpc2.ConceptEditorDeclaration" typeId="tpc2.1071666914219" id="2178855608170754548">
       <property name="virtualPackage" nameId="tpck.1193676396447" value="node" />
-      <link role="conceptDeclaration" roleId="tpc2.1166049300910" targetNodeId="11eb.2178855608170754068" resolveInfo="JavaConfigurationEditorDeclaration" />
+      <link role="conceptDeclaration" roleId="tpc2.1166049300910" targetNodeId="11eb.2178855608170754068" resolveInfo="JavaNodeConfigurationEditorDeclaration" />
     </node>
   </roots>
   <root id="6629582826328966249">

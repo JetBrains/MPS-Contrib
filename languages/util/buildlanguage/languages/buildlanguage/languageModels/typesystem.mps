@@ -328,7 +328,7 @@
     </node>
     <node role="applicableNode" roleId="tpd4.1174648101952" type="tpd4.ConceptReference" typeId="tpd4.1174642788531" id="1201702257494">
       <property name="name" nameId="tpck.1169194664001" value="nodeToCheck" />
-      <link role="concept" roleId="tpd4.1174642800329" targetNodeId="tpsk.1201701678947" resolveInfo="TagetReferencePropertyValueExpression" />
+      <link role="concept" roleId="tpd4.1174642800329" targetNodeId="tpsk.1201701678947" resolveInfo="TargetReferencePropertyValueExpression" />
     </node>
   </root>
   <root id="1203432744195">

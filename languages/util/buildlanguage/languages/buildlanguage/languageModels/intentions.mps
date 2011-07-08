@@ -369,7 +369,7 @@
           <node role="expression" roleId="tpee.1068580123156" type="tpee.AssignmentExpression" typeId="tpee.1068498886294" id="1219149662645">
             <node role="lValue" roleId="tpee.1068498886295" type="tpee.DotExpression" typeId="tpee.1197027756228" id="1219149662646">
               <node role="operand" roleId="tpee.1197027771414" type="tpee.LocalVariableReference" typeId="tpee.1068581242866" id="1219149662647">
-                <link role="variableDeclaration" roleId="tpee.1068581517664" targetNodeId="1219149662639" resolveInfo="externalProperty" />
+                <link role="variableDeclaration" roleId="tpee.1068581517664" targetNodeId="1219149662639" resolveInfo="property" />
               </node>
               <node role="operation" roleId="tpee.1197027833540" type="tp25.SLinkAccess" typeId="tp25.1138056143562" id="1219149662648">
                 <link role="link" roleId="tp25.1138056516764" targetNodeId="tpsk.1196870993204" />
@@ -387,7 +387,7 @@
           <node role="expression" roleId="tpee.1068580123156" type="tpee.AssignmentExpression" typeId="tpee.1068498886294" id="1219149662653">
             <node role="lValue" roleId="tpee.1068498886295" type="tpee.DotExpression" typeId="tpee.1197027756228" id="1219149662654">
               <node role="operand" roleId="tpee.1197027771414" type="tpee.LocalVariableReference" typeId="tpee.1068581242866" id="1219149662655">
-                <link role="variableDeclaration" roleId="tpee.1068581517664" targetNodeId="1219149662639" resolveInfo="externalProperty" />
+                <link role="variableDeclaration" roleId="tpee.1068581517664" targetNodeId="1219149662639" resolveInfo="property" />
               </node>
               <node role="operation" roleId="tpee.1197027833540" type="tp25.SPropertyAccess" typeId="tp25.1138056022639" id="1219149662656">
                 <link role="property" roleId="tp25.1138056395725" targetNodeId="tpck.1169194664001" resolveInfo="name" />
@@ -406,7 +406,7 @@
             <node role="operand" roleId="tpee.1197027771414" type="tp3j.ConceptFunctionParameter_node" typeId="tp3j.1192796902958" id="1219149662663" />
             <node role="operation" roleId="tpee.1197027833540" type="tp25.Node_ReplaceWithAnotherOperation" typeId="tp25.1140131837776" id="1219149662664">
               <node role="replacementNode" roleId="tp25.1140131861877" type="tpee.LocalVariableReference" typeId="tpee.1068581242866" id="1219149662665">
-                <link role="variableDeclaration" roleId="tpee.1068581517664" targetNodeId="1219149662639" resolveInfo="externalProperty" />
+                <link role="variableDeclaration" roleId="tpee.1068581517664" targetNodeId="1219149662639" resolveInfo="property" />
               </node>
             </node>
           </node>

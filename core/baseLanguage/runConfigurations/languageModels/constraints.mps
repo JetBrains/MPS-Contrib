@@ -15,7 +15,7 @@
   <roots>
     <node type="tp1t.ConceptConstraints" typeId="tp1t.1213093968558" id="6629582826328966593">
       <property name="virtualPackage" nameId="tpck.1193676396447" value="node" />
-      <link role="concept" roleId="tp1t.1213093996982" targetNodeId="11eb.8456022385895583119" resolveInfo="JavaRunConfiguration" />
+      <link role="concept" roleId="tp1t.1213093996982" targetNodeId="11eb.8456022385895583119" resolveInfo="JavaNodeRunConfiguration" />
     </node>
     <node type="tp1t.ConceptConstraints" typeId="tp1t.1213093968558" id="8126994885492054823">
       <property name="virtualPackage" nameId="tpck.1193676396447" value="node" />
