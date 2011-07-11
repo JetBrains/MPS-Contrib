@@ -13,7 +13,6 @@
   <import index="x9z7" modelUID="r:8254b240-abed-4f97-a7cd-2eef733ec7fb(jetbrains.mps.graphLayout.util)" version="0" />
   <import index="e2lb" modelUID="f:java_stub#6354ebe7-c22a-4a0f-ac54-50b52ab9b065#java.lang(JDK/java.lang@java_stub)" version="-1" />
   <import index="k7g3" modelUID="f:java_stub#6354ebe7-c22a-4a0f-ac54-50b52ab9b065#java.util(JDK/java.util@java_stub)" version="-1" />
-  <import index="fxg7" modelUID="f:java_stub#6354ebe7-c22a-4a0f-ac54-50b52ab9b065#java.io(JDK/java.io@java_stub)" version="-1" />
   <import index="tpee" modelUID="r:00000000-0000-4000-0000-011c895902ca(jetbrains.mps.baseLanguage.structure)" version="3" implicit="yes" />
   <import index="tpck" modelUID="r:00000000-0000-4000-0000-011c89590288(jetbrains.mps.lang.core.structure)" version="0" implicit="yes" />
   <import index="tp2q" modelUID="r:00000000-0000-4000-0000-011c8959032e(jetbrains.mps.baseLanguage.collections.structure)" version="7" implicit="yes" />
@@ -164,7 +163,7 @@
                     <link role="baseMethodDeclaration" roleId="tpee.1068499141037" targetNodeId="4519409331094620045" resolveInfo="LayererProxy" />
                     <node role="actualArgument" roleId="tpee.1068499141038" type="tpee.GenericNewExpression" typeId="tpee.1145552977093" id="4519409331094620108">
                       <node role="creator" roleId="tpee.1145553007750" type="tpee.ClassCreator" typeId="tpee.1212685548494" id="4519409331094620109">
-                        <link role="baseMethodDeclaration" roleId="tpee.1068499141037" targetNodeId="jh8m.5180427534212021893" resolveInfo="BFSLayerer" />
+                        <link role="baseMethodDeclaration" roleId="tpee.1068499141037" targetNodeId="jh8m.5180427534212021893" resolveInfo="TopologicalLayerer" />
                       </node>
                     </node>
                   </node>
@@ -232,7 +231,7 @@
                     <link role="baseMethodDeclaration" roleId="tpee.1068499141037" targetNodeId="4519409331094620045" resolveInfo="LayererProxy" />
                     <node role="actualArgument" roleId="tpee.1068499141038" type="tpee.GenericNewExpression" typeId="tpee.1145552977093" id="4519409331094620115">
                       <node role="creator" roleId="tpee.1145553007750" type="tpee.ClassCreator" typeId="tpee.1212685548494" id="4519409331094620116">
-                        <link role="baseMethodDeclaration" roleId="tpee.1068499141037" targetNodeId="jh8m.5180427534212021893" resolveInfo="BFSLayerer" />
+                        <link role="baseMethodDeclaration" roleId="tpee.1068499141037" targetNodeId="jh8m.5180427534212021893" resolveInfo="TopologicalLayerer" />
                       </node>
                     </node>
                   </node>
@@ -331,7 +330,7 @@
                     <link role="baseMethodDeclaration" roleId="tpee.1068499141037" targetNodeId="4519409331094620045" resolveInfo="LayererProxy" />
                     <node role="actualArgument" roleId="tpee.1068499141038" type="tpee.GenericNewExpression" typeId="tpee.1145552977093" id="4519409331094620122">
                       <node role="creator" roleId="tpee.1145553007750" type="tpee.ClassCreator" typeId="tpee.1212685548494" id="4519409331094620123">
-                        <link role="baseMethodDeclaration" roleId="tpee.1068499141037" targetNodeId="jh8m.5180427534212021893" resolveInfo="BFSLayerer" />
+                        <link role="baseMethodDeclaration" roleId="tpee.1068499141037" targetNodeId="jh8m.5180427534212021893" resolveInfo="TopologicalLayerer" />
                       </node>
                     </node>
                   </node>
@@ -450,7 +449,7 @@
                     <link role="baseMethodDeclaration" roleId="tpee.1068499141037" targetNodeId="4519409331094620045" resolveInfo="LayererProxy" />
                     <node role="actualArgument" roleId="tpee.1068499141038" type="tpee.GenericNewExpression" typeId="tpee.1145552977093" id="4519409331094620129">
                       <node role="creator" roleId="tpee.1145553007750" type="tpee.ClassCreator" typeId="tpee.1212685548494" id="4519409331094620130">
-                        <link role="baseMethodDeclaration" roleId="tpee.1068499141037" targetNodeId="jh8m.5180427534212021893" resolveInfo="BFSLayerer" />
+                        <link role="baseMethodDeclaration" roleId="tpee.1068499141037" targetNodeId="jh8m.5180427534212021893" resolveInfo="TopologicalLayerer" />
                       </node>
                     </node>
                   </node>
@@ -579,7 +578,7 @@
                     <link role="baseMethodDeclaration" roleId="tpee.1068499141037" targetNodeId="4519409331094620045" resolveInfo="LayererProxy" />
                     <node role="actualArgument" roleId="tpee.1068499141038" type="tpee.GenericNewExpression" typeId="tpee.1145552977093" id="4519409331094620136">
                       <node role="creator" roleId="tpee.1145553007750" type="tpee.ClassCreator" typeId="tpee.1212685548494" id="4519409331094620137">
-                        <link role="baseMethodDeclaration" roleId="tpee.1068499141037" targetNodeId="jh8m.5180427534212021893" resolveInfo="BFSLayerer" />
+                        <link role="baseMethodDeclaration" roleId="tpee.1068499141037" targetNodeId="jh8m.5180427534212021893" resolveInfo="TopologicalLayerer" />
                       </node>
                     </node>
                   </node>
@@ -621,7 +620,7 @@
                     <link role="baseMethodDeclaration" roleId="tpee.1068499141037" targetNodeId="4519409331094620045" resolveInfo="LayererProxy" />
                     <node role="actualArgument" roleId="tpee.1068499141038" type="tpee.GenericNewExpression" typeId="tpee.1145552977093" id="4519409331094620143">
                       <node role="creator" roleId="tpee.1145553007750" type="tpee.ClassCreator" typeId="tpee.1212685548494" id="4519409331094620144">
-                        <link role="baseMethodDeclaration" roleId="tpee.1068499141037" targetNodeId="jh8m.5180427534212021893" resolveInfo="BFSLayerer" />
+                        <link role="baseMethodDeclaration" roleId="tpee.1068499141037" targetNodeId="jh8m.5180427534212021893" resolveInfo="TopologicalLayerer" />
                       </node>
                     </node>
                   </node>
@@ -800,7 +799,7 @@
               <node role="initializer" roleId="tpee.1068431790190" type="tpee.DotExpression" typeId="tpee.1197027756228" id="1567683135099906382">
                 <node role="operand" roleId="tpee.1197027771414" type="tpee.GenericNewExpression" typeId="tpee.1145552977093" id="1567683135099906383">
                   <node role="creator" roleId="tpee.1145553007750" type="tpee.ClassCreator" typeId="tpee.1212685548494" id="1567683135099906384">
-                    <link role="baseMethodDeclaration" roleId="tpee.1068499141037" targetNodeId="jh8m.5180427534212021893" resolveInfo="BFSLayerer" />
+                    <link role="baseMethodDeclaration" roleId="tpee.1068499141037" targetNodeId="jh8m.5180427534212021893" resolveInfo="TopologicalLayerer" />
                   </node>
                 </node>
                 <node role="operation" roleId="tpee.1197027833540" type="tpee.InstanceMethodCallOperation" typeId="tpee.1202948039474" id="1567683135099906385">
@@ -2227,7 +2226,7 @@
                   <link role="variableDeclaration" roleId="tpee.1068581517664" targetNodeId="7033456583153162458" resolveInfo="order" />
                 </node>
                 <node role="operation" roleId="tpee.1197027833540" type="tpee.InstanceMethodCallOperation" typeId="tpee.1202948039474" id="7033456583153162576">
-                  <link role="baseMethodDeclaration" roleId="tpee.1068499141037" targetNodeId="jh8m.4660430665333276421" resolveInfo="getMaxLayer" />
+                  <link role="baseMethodDeclaration" roleId="tpee.1068499141037" targetNodeId="jh8m.4660430665333276421" resolveInfo="getNumLayers" />
                 </node>
               </node>
             </node>

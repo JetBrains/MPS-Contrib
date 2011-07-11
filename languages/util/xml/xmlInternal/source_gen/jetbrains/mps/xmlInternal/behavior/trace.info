@@ -1,6 +1,5 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <debugInfo>
-  <unitInfo fileName="XmlFile_Behavior.java" startLine="9" startPosition="0" endLine="17" endPosition="0" unitName="jetbrains.mps.xmlInternal.behavior.XmlFile_Behavior" />
   <unitInfo fileName="PublicExternalId_BehaviorDescriptor.java" startLine="6" startPosition="0" endLine="15" endPosition="0" unitName="jetbrains.mps.xmlInternal.behavior.PublicExternalId_BehaviorDescriptor" />
   <unitInfo fileName="NamespaceAttribute_BehaviorDescriptor.java" startLine="7" startPosition="0" endLine="16" endPosition="0" unitName="jetbrains.mps.xmlInternal.behavior.NamespaceAttribute_BehaviorDescriptor" />
   <unitInfo fileName="SimpleAttribute_BehaviorDescriptor.java" startLine="7" startPosition="0" endLine="16" endPosition="0" unitName="jetbrains.mps.xmlInternal.behavior.SimpleAttribute_BehaviorDescriptor" />
@@ -18,8 +17,15 @@
   <unitInfo fileName="BehaviorAspectDescriptor.java" startLine="9" startPosition="0" endLine="48" endPosition="0" unitName="jetbrains.mps.xmlInternal.behavior.BehaviorAspectDescriptor" />
   <root nodeId="1213877487338">
     <nodeInfo nodeId="1213877487341" fileName="XmlFile_Behavior.java" startLine="13" startPosition="85" endLine="14" endPosition="64" conceptFqName="jetbrains.mps.baseLanguage.structure.ReturnStatement" />
+    <nodeInfo nodeId="1213877487338" fileName="XmlFile_Behavior.java" startLine="9" startPosition="31" endLine="12" endPosition="0" conceptFqName="jetbrains.mps.baseLanguage.structure.StaticMethodDeclaration" propertyString="init#(Ljetbrains/mps/smodel/SNode;)V" />
+    <nodeInfo nodeId="1213877487338" fileName="XmlFile_Behavior.java" startLine="12" startPosition="0" endLine="16" endPosition="0" conceptFqName="jetbrains.mps.baseLanguage.structure.StaticMethodDeclaration" propertyString="virtual_getSchema_1213877420378#(Ljetbrains/mps/smodel/SNode;Ljetbrains/mps/smodel/IScope;)Ljetbrains/mps/smodel/SNode;" />
     <scopeInfo nodeId="1213877487349" fileName="XmlFile_Behavior.java" startLine="10" startPosition="43" endLine="10" endPosition="43" />
     <scopeInfo nodeId="1213877487340" fileName="XmlFile_Behavior.java" startLine="13" startPosition="85" endLine="14" endPosition="64" />
+    <scopeInfo nodeId="1213877487338" fileName="XmlFile_Behavior.java" startLine="9" startPosition="31" endLine="12" endPosition="0" />
+    <scopeInfo nodeId="1213877487338" fileName="XmlFile_Behavior.java" startLine="12" startPosition="0" endLine="16" endPosition="0">
+      <varInfo nodeId="1213877487345" varName="scope" />
+    </scopeInfo>
+    <unitInfo nodeId="1213877487338" fileName="XmlFile_Behavior.java" startLine="9" startPosition="0" endLine="17" endPosition="0" unitName="jetbrains.mps.xmlInternal.behavior.XmlFile_Behavior" />
   </root>
 </debugInfo>
 

@@ -51,7 +51,7 @@
     </generator>
   </generators>
   <runtimeStubModels>
-    <stubModelEntry path="${language_descriptor}/lib/xmlunit-1.3.jar" include="false">
+    <stubModelEntry path="${language_descriptor}/lib/xmlunit-1.3.jar">
       <manager moduleId="f3061a53-9226-4cc5-a443-f952ceaf5816" className="jetbrains.mps.baseLanguage.stubs.JavaStubs" />
     </stubModelEntry>
   </runtimeStubModels>

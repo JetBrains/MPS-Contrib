@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<solution name="jetbrains.mps.graphLayout.layeredLayout" uuid="5465d6e5-a895-46c0-8462-dad85a03ee2a" compileInMPS="true" java-stubs-enabled="false">
+<solution name="jetbrains.mps.graphLayout.layeredLayout" uuid="5465d6e5-a895-46c0-8462-dad85a03ee2a" compileInMPS="true">
   <models>
     <modelRoot path="${solution_descriptor}/" namespacePrefix="" />
   </models>
