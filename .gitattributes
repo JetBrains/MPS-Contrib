@@ -9,7 +9,7 @@
 *.html text
 *.dtd text
 *.sh text
-.dependencies merge=mps
-.generated text
+dependencies merge=mps
+generated text
 *.mps merge=mps
 trace.info merge=mps
