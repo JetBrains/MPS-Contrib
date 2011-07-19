@@ -736,254 +736,257 @@
   </root>
   <root nodeId="228830736476027579">
     <nodeInfo nodeId="228830736476041433" fileName="OrthogonalRepresentation.java" startLine="27" startPosition="39" endLine="28" endPosition="35" conceptFqName="jetbrains.mps.baseLanguage.structure.StaticFieldDeclaration" propertyString="SHOW_INFO" />
-    <nodeInfo nodeId="529057043639389028" fileName="OrthogonalRepresentation.java" startLine="30" startPosition="151" endLine="31" endPosition="43" conceptFqName="jetbrains.mps.baseLanguage.structure.LocalVariableDeclarationStatement" />
-    <nodeInfo nodeId="529057043639389034" fileName="OrthogonalRepresentation.java" startLine="31" startPosition="43" endLine="32" endPosition="32" conceptFqName="jetbrains.mps.baseLanguage.structure.LocalVariableDeclarationStatement" />
-    <nodeInfo nodeId="529057043639389039" fileName="OrthogonalRepresentation.java" startLine="32" startPosition="32" endLine="33" endPosition="39" conceptFqName="jetbrains.mps.baseLanguage.structure.LocalVariableDeclarationStatement" />
-    <nodeInfo nodeId="529057043639389045" fileName="OrthogonalRepresentation.java" startLine="33" startPosition="39" endLine="34" endPosition="79" conceptFqName="jetbrains.mps.baseLanguage.structure.LocalVariableDeclarationStatement" />
-    <nodeInfo nodeId="529057043639389054" fileName="OrthogonalRepresentation.java" startLine="34" startPosition="79" endLine="35" endPosition="84" conceptFqName="jetbrains.mps.baseLanguage.structure.LocalVariableDeclarationStatement" />
-    <nodeInfo nodeId="529057043639389063" fileName="OrthogonalRepresentation.java" startLine="35" startPosition="84" endLine="36" endPosition="80" conceptFqName="jetbrains.mps.baseLanguage.structure.LocalVariableDeclarationStatement" />
-    <nodeInfo nodeId="529057043639389072" fileName="OrthogonalRepresentation.java" startLine="36" startPosition="80" endLine="37" endPosition="77" conceptFqName="jetbrains.mps.baseLanguage.structure.LocalVariableDeclarationStatement" />
-    <nodeInfo nodeId="529057043639389087" fileName="OrthogonalRepresentation.java" startLine="38" startPosition="63" endLine="39" endPosition="46" conceptFqName="jetbrains.mps.baseLanguage.structure.LocalVariableDeclarationStatement" />
-    <nodeInfo nodeId="529057043639389093" fileName="OrthogonalRepresentation.java" startLine="39" startPosition="46" endLine="40" endPosition="58" conceptFqName="jetbrains.mps.baseLanguage.structure.ExpressionStatement" />
-    <nodeInfo nodeId="529057043639389099" fileName="OrthogonalRepresentation.java" startLine="40" startPosition="58" endLine="41" endPosition="55" conceptFqName="jetbrains.mps.baseLanguage.structure.LocalVariableDeclarationStatement" />
-    <nodeInfo nodeId="529057043639389106" fileName="OrthogonalRepresentation.java" startLine="41" startPosition="55" endLine="42" endPosition="44" conceptFqName="jetbrains.mps.baseLanguage.structure.ExpressionStatement" />
-    <nodeInfo nodeId="529057043639389112" fileName="OrthogonalRepresentation.java" startLine="42" startPosition="44" endLine="43" endPosition="82" conceptFqName="jetbrains.mps.baseLanguage.structure.ExpressionStatement" />
-    <nodeInfo nodeId="529057043639389120" fileName="OrthogonalRepresentation.java" startLine="43" startPosition="82" endLine="44" endPosition="45" conceptFqName="jetbrains.mps.baseLanguage.structure.ExpressionStatement" />
-    <nodeInfo nodeId="529057043639389126" fileName="OrthogonalRepresentation.java" startLine="45" startPosition="5" endLine="46" endPosition="77" conceptFqName="jetbrains.mps.baseLanguage.structure.LocalVariableDeclarationStatement" />
-    <nodeInfo nodeId="529057043639389141" fileName="OrthogonalRepresentation.java" startLine="47" startPosition="71" endLine="48" endPosition="39" conceptFqName="jetbrains.mps.baseLanguage.structure.LocalVariableDeclarationStatement" />
-    <nodeInfo nodeId="529057043639389147" fileName="OrthogonalRepresentation.java" startLine="48" startPosition="39" endLine="49" endPosition="51" conceptFqName="jetbrains.mps.baseLanguage.structure.ExpressionStatement" />
-    <nodeInfo nodeId="529057043639389153" fileName="OrthogonalRepresentation.java" startLine="49" startPosition="51" endLine="50" endPosition="48" conceptFqName="jetbrains.mps.baseLanguage.structure.LocalVariableDeclarationStatement" />
-    <nodeInfo nodeId="529057043639389166" fileName="OrthogonalRepresentation.java" startLine="51" startPosition="44" endLine="52" endPosition="99" conceptFqName="jetbrains.mps.baseLanguage.structure.ExpressionStatement" />
-    <nodeInfo nodeId="529057043639389182" fileName="OrthogonalRepresentation.java" startLine="53" startPosition="14" endLine="54" endPosition="99" conceptFqName="jetbrains.mps.baseLanguage.structure.ExpressionStatement" />
-    <nodeInfo nodeId="529057043639389196" fileName="OrthogonalRepresentation.java" startLine="55" startPosition="7" endLine="56" endPosition="82" conceptFqName="jetbrains.mps.baseLanguage.structure.ExpressionStatement" />
-    <nodeInfo nodeId="529057043639389204" fileName="OrthogonalRepresentation.java" startLine="56" startPosition="82" endLine="57" endPosition="45" conceptFqName="jetbrains.mps.baseLanguage.structure.ExpressionStatement" />
-    <nodeInfo nodeId="529057043639389210" fileName="OrthogonalRepresentation.java" startLine="58" startPosition="5" endLine="59" endPosition="81" conceptFqName="jetbrains.mps.baseLanguage.structure.LocalVariableDeclarationStatement" />
-    <nodeInfo nodeId="529057043639389219" fileName="OrthogonalRepresentation.java" startLine="59" startPosition="81" endLine="60" endPosition="82" conceptFqName="jetbrains.mps.baseLanguage.structure.LocalVariableDeclarationStatement" />
-    <nodeInfo nodeId="529057043639389234" fileName="OrthogonalRepresentation.java" startLine="61" startPosition="71" endLine="62" endPosition="61" conceptFqName="jetbrains.mps.baseLanguage.structure.LocalVariableDeclarationStatement" />
-    <nodeInfo nodeId="529057043639389246" fileName="OrthogonalRepresentation.java" startLine="63" startPosition="64" endLine="64" endPosition="98" conceptFqName="jetbrains.mps.baseLanguage.structure.LocalVariableDeclarationStatement" />
-    <nodeInfo nodeId="529057043639389257" fileName="OrthogonalRepresentation.java" startLine="64" startPosition="98" endLine="65" endPosition="58" conceptFqName="jetbrains.mps.baseLanguage.structure.ExpressionStatement" />
-    <nodeInfo nodeId="529057043639389263" fileName="OrthogonalRepresentation.java" startLine="65" startPosition="58" endLine="66" endPosition="46" conceptFqName="jetbrains.mps.baseLanguage.structure.ExpressionStatement" />
-    <nodeInfo nodeId="529057043639389269" fileName="OrthogonalRepresentation.java" startLine="66" startPosition="46" endLine="67" endPosition="51" conceptFqName="jetbrains.mps.baseLanguage.structure.ExpressionStatement" />
-    <nodeInfo nodeId="529057043639389275" fileName="OrthogonalRepresentation.java" startLine="67" startPosition="51" endLine="68" endPosition="47" conceptFqName="jetbrains.mps.baseLanguage.structure.ExpressionStatement" />
-    <nodeInfo nodeId="529057043639389281" fileName="OrthogonalRepresentation.java" startLine="68" startPosition="47" endLine="69" endPosition="74" conceptFqName="jetbrains.mps.baseLanguage.structure.LocalVariableDeclarationStatement" />
-    <nodeInfo nodeId="529057043639389292" fileName="OrthogonalRepresentation.java" startLine="69" startPosition="74" endLine="70" endPosition="30" conceptFqName="jetbrains.mps.baseLanguage.structure.LocalVariableDeclarationStatement" />
-    <nodeInfo nodeId="529057043639389297" fileName="OrthogonalRepresentation.java" startLine="71" startPosition="65" endLine="72" endPosition="106" conceptFqName="jetbrains.mps.baseLanguage.structure.ExpressionStatement" />
-    <nodeInfo nodeId="529057043639389312" fileName="OrthogonalRepresentation.java" startLine="73" startPosition="16" endLine="74" endPosition="106" conceptFqName="jetbrains.mps.baseLanguage.structure.ExpressionStatement" />
-    <nodeInfo nodeId="529057043639389320" fileName="OrthogonalRepresentation.java" startLine="75" startPosition="9" endLine="76" endPosition="59" conceptFqName="jetbrains.mps.baseLanguage.structure.ExpressionStatement" />
-    <nodeInfo nodeId="529057043639389327" fileName="OrthogonalRepresentation.java" startLine="76" startPosition="59" endLine="77" endPosition="57" conceptFqName="jetbrains.mps.baseLanguage.structure.ExpressionStatement" />
-    <nodeInfo nodeId="529057043639389333" fileName="OrthogonalRepresentation.java" startLine="77" startPosition="57" endLine="78" endPosition="46" conceptFqName="jetbrains.mps.baseLanguage.structure.ExpressionStatement" />
-    <nodeInfo nodeId="529057043639389520" fileName="OrthogonalRepresentation.java" startLine="79" startPosition="78" endLine="80" endPosition="53" conceptFqName="jetbrains.mps.baseLanguage.structure.ExpressionStatement" />
-    <nodeInfo nodeId="529057043639389530" fileName="OrthogonalRepresentation.java" startLine="81" startPosition="16" endLine="82" endPosition="73" conceptFqName="jetbrains.mps.baseLanguage.structure.ExpressionStatement" />
-    <nodeInfo nodeId="529057043639389349" fileName="OrthogonalRepresentation.java" startLine="83" startPosition="9" endLine="84" endPosition="47" conceptFqName="jetbrains.mps.baseLanguage.structure.ExpressionStatement" />
-    <nodeInfo nodeId="529057043639389357" fileName="OrthogonalRepresentation.java" startLine="87" startPosition="24" endLine="88" endPosition="49" conceptFqName="jetbrains.mps.baseLanguage.structure.ExpressionStatement" />
-    <nodeInfo nodeId="529057043639389368" fileName="OrthogonalRepresentation.java" startLine="89" startPosition="65" endLine="90" endPosition="95" conceptFqName="jetbrains.mps.baseLanguage.structure.ExpressionStatement" />
-    <nodeInfo nodeId="529057043639389387" fileName="OrthogonalRepresentation.java" startLine="92" startPosition="73" endLine="93" endPosition="95" conceptFqName="jetbrains.mps.baseLanguage.structure.ExpressionStatement" />
-    <nodeInfo nodeId="529057043639389406" fileName="OrthogonalRepresentation.java" startLine="95" startPosition="67" endLine="96" endPosition="200" conceptFqName="jetbrains.mps.baseLanguage.structure.ExpressionStatement" />
-    <nodeInfo nodeId="529057043639389435" fileName="OrthogonalRepresentation.java" startLine="98" startPosition="5" endLine="99" endPosition="101" conceptFqName="jetbrains.mps.baseLanguage.structure.LocalVariableDeclarationStatement" />
-    <nodeInfo nodeId="529057043639389451" fileName="OrthogonalRepresentation.java" startLine="100" startPosition="86" endLine="101" endPosition="125" conceptFqName="jetbrains.mps.baseLanguage.structure.ExpressionStatement" />
-    <nodeInfo nodeId="529057043639389461" fileName="OrthogonalRepresentation.java" startLine="101" startPosition="125" endLine="102" endPosition="127" conceptFqName="jetbrains.mps.baseLanguage.structure.ExpressionStatement" />
-    <nodeInfo nodeId="7343732392716215992" fileName="OrthogonalRepresentation.java" startLine="104" startPosition="24" endLine="105" endPosition="44" conceptFqName="jetbrains.mps.baseLanguage.structure.ExpressionStatement" />
-    <nodeInfo nodeId="7343732392716216005" fileName="OrthogonalRepresentation.java" startLine="105" startPosition="44" endLine="106" endPosition="46" conceptFqName="jetbrains.mps.baseLanguage.structure.ExpressionStatement" />
-    <nodeInfo nodeId="529057043639389471" fileName="OrthogonalRepresentation.java" startLine="110" startPosition="122" endLine="111" endPosition="94" conceptFqName="jetbrains.mps.baseLanguage.structure.ExpressionStatement" />
-    <nodeInfo nodeId="529057043639056500" fileName="OrthogonalRepresentation.java" startLine="115" startPosition="82" endLine="116" endPosition="54" conceptFqName="jetbrains.mps.baseLanguage.structure.LocalVariableDeclarationStatement" />
-    <nodeInfo nodeId="529057043639056516" fileName="OrthogonalRepresentation.java" startLine="116" startPosition="54" endLine="117" endPosition="72" conceptFqName="jetbrains.mps.baseLanguage.structure.LocalVariableDeclarationStatement" />
-    <nodeInfo nodeId="529057043639056529" fileName="OrthogonalRepresentation.java" startLine="117" startPosition="72" endLine="118" endPosition="27" conceptFqName="jetbrains.mps.baseLanguage.structure.LocalVariableDeclarationStatement" />
-    <nodeInfo nodeId="529057043639056562" fileName="OrthogonalRepresentation.java" startLine="119" startPosition="91" endLine="120" endPosition="71" conceptFqName="jetbrains.mps.baseLanguage.structure.ExpressionStatement" />
-    <nodeInfo nodeId="529057043639056574" fileName="OrthogonalRepresentation.java" startLine="120" startPosition="71" endLine="121" endPosition="62" conceptFqName="jetbrains.mps.baseLanguage.structure.ExpressionStatement" />
-    <nodeInfo nodeId="529057043639056586" fileName="OrthogonalRepresentation.java" startLine="123" startPosition="91" endLine="124" endPosition="71" conceptFqName="jetbrains.mps.baseLanguage.structure.ExpressionStatement" />
-    <nodeInfo nodeId="529057043639056592" fileName="OrthogonalRepresentation.java" startLine="124" startPosition="71" endLine="125" endPosition="62" conceptFqName="jetbrains.mps.baseLanguage.structure.ExpressionStatement" />
-    <nodeInfo nodeId="529057043639056641" fileName="OrthogonalRepresentation.java" startLine="128" startPosition="71" endLine="129" endPosition="77" conceptFqName="jetbrains.mps.baseLanguage.structure.LocalVariableDeclarationStatement" />
-    <nodeInfo nodeId="529057043639056648" fileName="OrthogonalRepresentation.java" startLine="129" startPosition="77" endLine="130" endPosition="96" conceptFqName="jetbrains.mps.baseLanguage.structure.LocalVariableDeclarationStatement" />
-    <nodeInfo nodeId="529057043639056666" fileName="OrthogonalRepresentation.java" startLine="132" startPosition="44" endLine="133" endPosition="80" conceptFqName="jetbrains.mps.baseLanguage.structure.ReturnStatement" />
-    <nodeInfo nodeId="529057043639056685" fileName="OrthogonalRepresentation.java" startLine="137" startPosition="44" endLine="138" endPosition="80" conceptFqName="jetbrains.mps.baseLanguage.structure.ReturnStatement" />
-    <nodeInfo nodeId="529057043639056703" fileName="OrthogonalRepresentation.java" startLine="141" startPosition="87" endLine="142" endPosition="57" conceptFqName="jetbrains.mps.baseLanguage.structure.ExpressionStatement" />
-    <nodeInfo nodeId="529057043639056716" fileName="OrthogonalRepresentation.java" startLine="143" startPosition="53" endLine="144" endPosition="60" conceptFqName="jetbrains.mps.baseLanguage.structure.ExpressionStatement" />
-    <nodeInfo nodeId="529057043639056724" fileName="OrthogonalRepresentation.java" startLine="145" startPosition="20" endLine="146" endPosition="109" conceptFqName="jetbrains.mps.baseLanguage.structure.ExpressionStatement" />
-    <nodeInfo nodeId="529057043639056732" fileName="OrthogonalRepresentation.java" startLine="148" startPosition="11" endLine="149" endPosition="34" conceptFqName="jetbrains.mps.baseLanguage.structure.LocalVariableDeclarationStatement" />
-    <nodeInfo nodeId="529057043639056790" fileName="OrthogonalRepresentation.java" startLine="149" startPosition="34" endLine="150" endPosition="35" conceptFqName="jetbrains.mps.baseLanguage.structure.LocalVariableDeclarationStatement" />
-    <nodeInfo nodeId="529057043639056750" fileName="OrthogonalRepresentation.java" startLine="152" startPosition="54" endLine="153" endPosition="39" conceptFqName="jetbrains.mps.baseLanguage.structure.ExpressionStatement" />
-    <nodeInfo nodeId="529057043639056754" fileName="OrthogonalRepresentation.java" startLine="153" startPosition="39" endLine="154" endPosition="112" conceptFqName="jetbrains.mps.baseLanguage.structure.ExpressionStatement" />
-    <nodeInfo nodeId="529057043639056764" fileName="OrthogonalRepresentation.java" startLine="154" startPosition="112" endLine="155" endPosition="61" conceptFqName="jetbrains.mps.baseLanguage.structure.ExpressionStatement" />
-    <nodeInfo nodeId="529057043639056796" fileName="OrthogonalRepresentation.java" startLine="156" startPosition="20" endLine="157" endPosition="40" conceptFqName="jetbrains.mps.baseLanguage.structure.ExpressionStatement" />
-    <nodeInfo nodeId="529057043639056772" fileName="OrthogonalRepresentation.java" startLine="157" startPosition="40" endLine="158" endPosition="60" conceptFqName="jetbrains.mps.baseLanguage.structure.ExpressionStatement" />
-    <nodeInfo nodeId="529057043639056807" fileName="OrthogonalRepresentation.java" startLine="158" startPosition="60" endLine="159" endPosition="101" conceptFqName="jetbrains.mps.baseLanguage.structure.ExpressionStatement" />
-    <nodeInfo nodeId="529057043639056822" fileName="OrthogonalRepresentation.java" startLine="161" startPosition="11" endLine="162" endPosition="66" conceptFqName="jetbrains.mps.baseLanguage.structure.ExpressionStatement" />
-    <nodeInfo nodeId="529057043639056832" fileName="OrthogonalRepresentation.java" startLine="162" startPosition="66" endLine="163" endPosition="67" conceptFqName="jetbrains.mps.baseLanguage.structure.ExpressionStatement" />
-    <nodeInfo nodeId="529057043639056842" fileName="OrthogonalRepresentation.java" startLine="163" startPosition="67" endLine="164" endPosition="57" conceptFqName="jetbrains.mps.baseLanguage.structure.ExpressionStatement" />
-    <nodeInfo nodeId="529057043639056847" fileName="OrthogonalRepresentation.java" startLine="164" startPosition="57" endLine="165" endPosition="58" conceptFqName="jetbrains.mps.baseLanguage.structure.ExpressionStatement" />
-    <nodeInfo nodeId="529057043639056854" fileName="OrthogonalRepresentation.java" startLine="165" startPosition="58" endLine="166" endPosition="42" conceptFqName="jetbrains.mps.baseLanguage.structure.ExpressionStatement" />
-    <nodeInfo nodeId="529057043639056861" fileName="OrthogonalRepresentation.java" startLine="166" startPosition="42" endLine="167" endPosition="34" conceptFqName="jetbrains.mps.baseLanguage.structure.ExpressionStatement" />
-    <nodeInfo nodeId="529057043639077460" fileName="OrthogonalRepresentation.java" startLine="173" startPosition="110" endLine="174" endPosition="121" conceptFqName="jetbrains.mps.baseLanguage.structure.LocalVariableDeclarationStatement" />
-    <nodeInfo nodeId="529057043639077470" fileName="OrthogonalRepresentation.java" startLine="174" startPosition="121" endLine="175" endPosition="61" conceptFqName="jetbrains.mps.baseLanguage.structure.ExpressionStatement" />
-    <nodeInfo nodeId="529057043639077487" fileName="OrthogonalRepresentation.java" startLine="175" startPosition="61" endLine="176" endPosition="31" conceptFqName="jetbrains.mps.baseLanguage.structure.ReturnStatement" />
-    <nodeInfo nodeId="529057043639072381" fileName="OrthogonalRepresentation.java" startLine="179" startPosition="53" endLine="180" endPosition="48" conceptFqName="jetbrains.mps.baseLanguage.structure.FieldDeclaration" propertyString="myDirections" />
-    <nodeInfo nodeId="529057043639072416" fileName="OrthogonalRepresentation.java" startLine="180" startPosition="48" endLine="181" endPosition="42" conceptFqName="jetbrains.mps.baseLanguage.structure.FieldDeclaration" propertyString="myEmbeddedGraph" />
-    <nodeInfo nodeId="529057043639072399" fileName="OrthogonalRepresentation.java" startLine="181" startPosition="42" endLine="182" endPosition="40" conceptFqName="jetbrains.mps.baseLanguage.structure.FieldDeclaration" propertyString="myAngles" />
-    <nodeInfo nodeId="529057043639072376" fileName="OrthogonalRepresentation.java" startLine="184" startPosition="85" endLine="185" endPosition="14" conceptFqName="jetbrains.mps.baseLanguage.structure.SuperConstructorInvocation" />
-    <nodeInfo nodeId="529057043639072421" fileName="OrthogonalRepresentation.java" startLine="185" startPosition="14" endLine="186" endPosition="38" conceptFqName="jetbrains.mps.baseLanguage.structure.ExpressionStatement" />
-    <nodeInfo nodeId="529057043639072428" fileName="OrthogonalRepresentation.java" startLine="186" startPosition="38" endLine="187" endPosition="24" conceptFqName="jetbrains.mps.baseLanguage.structure.ExpressionStatement" />
-    <nodeInfo nodeId="529057043639072390" fileName="OrthogonalRepresentation.java" startLine="187" startPosition="24" endLine="188" endPosition="75" conceptFqName="jetbrains.mps.baseLanguage.structure.ExpressionStatement" />
-    <nodeInfo nodeId="529057043639072490" fileName="OrthogonalRepresentation.java" startLine="192" startPosition="52" endLine="193" endPosition="65" conceptFqName="jetbrains.mps.baseLanguage.structure.LocalVariableDeclarationStatement" />
-    <nodeInfo nodeId="529057043639072539" fileName="OrthogonalRepresentation.java" startLine="195" startPosition="40" endLine="196" endPosition="40" conceptFqName="jetbrains.mps.baseLanguage.structure.ReturnStatement" />
-    <nodeInfo nodeId="529057043639072457" fileName="OrthogonalRepresentation.java" startLine="198" startPosition="9" endLine="199" endPosition="69" conceptFqName="jetbrains.mps.baseLanguage.structure.ExpressionStatement" />
-    <nodeInfo nodeId="529057043639204993" fileName="OrthogonalRepresentation.java" startLine="199" startPosition="69" endLine="200" endPosition="135" conceptFqName="jetbrains.mps.baseLanguage.structure.ExpressionStatement" />
-    <nodeInfo nodeId="529057043639077191" fileName="OrthogonalRepresentation.java" startLine="208" startPosition="46" endLine="209" endPosition="46" conceptFqName="jetbrains.mps.baseLanguage.structure.ReturnStatement" />
-    <nodeInfo nodeId="529057043639077231" fileName="OrthogonalRepresentation.java" startLine="215" startPosition="42" endLine="216" endPosition="69" conceptFqName="jetbrains.mps.baseLanguage.structure.ReturnStatement" />
-    <nodeInfo nodeId="529057043639077241" fileName="OrthogonalRepresentation.java" startLine="218" startPosition="9" endLine="219" endPosition="77" conceptFqName="jetbrains.mps.baseLanguage.structure.LocalVariableDeclarationStatement" />
-    <nodeInfo nodeId="529057043639077251" fileName="OrthogonalRepresentation.java" startLine="219" startPosition="77" endLine="220" endPosition="60" conceptFqName="jetbrains.mps.baseLanguage.structure.ExpressionStatement" />
-    <nodeInfo nodeId="529057043639077271" fileName="OrthogonalRepresentation.java" startLine="220" startPosition="60" endLine="221" endPosition="23" conceptFqName="jetbrains.mps.baseLanguage.structure.LocalVariableDeclarationStatement" />
-    <nodeInfo nodeId="529057043639077364" fileName="OrthogonalRepresentation.java" startLine="222" startPosition="10" endLine="223" endPosition="59" conceptFqName="jetbrains.mps.baseLanguage.structure.LocalVariableDeclarationStatement" />
-    <nodeInfo nodeId="529057043639077407" fileName="OrthogonalRepresentation.java" startLine="223" startPosition="59" endLine="224" endPosition="150" conceptFqName="jetbrains.mps.baseLanguage.structure.ExpressionStatement" />
-    <nodeInfo nodeId="529057043639204958" fileName="OrthogonalRepresentation.java" startLine="224" startPosition="150" endLine="225" endPosition="137" conceptFqName="jetbrains.mps.baseLanguage.structure.ExpressionStatement" />
-    <nodeInfo nodeId="529057043639077436" fileName="OrthogonalRepresentation.java" startLine="225" startPosition="137" endLine="226" endPosition="19" conceptFqName="jetbrains.mps.baseLanguage.structure.ExpressionStatement" />
-    <nodeInfo nodeId="529057043639077452" fileName="OrthogonalRepresentation.java" startLine="230" startPosition="51" endLine="231" endPosition="26" conceptFqName="jetbrains.mps.baseLanguage.structure.ReturnStatement" />
-    <nodeInfo nodeId="529057043639389180" fileName="OrthogonalRepresentation.java" startLine="53" startPosition="12" endLine="55" endPosition="7" conceptFqName="jetbrains.mps.baseLanguage.structure.BlockStatement" />
-    <nodeInfo nodeId="529057043639389310" fileName="OrthogonalRepresentation.java" startLine="73" startPosition="14" endLine="75" endPosition="9" conceptFqName="jetbrains.mps.baseLanguage.structure.BlockStatement" />
-    <nodeInfo nodeId="529057043639389528" fileName="OrthogonalRepresentation.java" startLine="81" startPosition="14" endLine="83" endPosition="9" conceptFqName="jetbrains.mps.baseLanguage.structure.BlockStatement" />
-    <nodeInfo nodeId="529057043639056722" fileName="OrthogonalRepresentation.java" startLine="145" startPosition="18" endLine="147" endPosition="13" conceptFqName="jetbrains.mps.baseLanguage.structure.BlockStatement" />
-    <nodeInfo nodeId="529057043639389362" fileName="OrthogonalRepresentation.java" startLine="88" startPosition="49" endLine="91" endPosition="7" conceptFqName="jetbrains.mps.baseLanguage.structure.ForeachStatement" />
-    <nodeInfo nodeId="529057043639389381" fileName="OrthogonalRepresentation.java" startLine="91" startPosition="7" endLine="94" endPosition="7" conceptFqName="jetbrains.mps.baseLanguage.structure.ForeachStatement" />
-    <nodeInfo nodeId="529057043639389400" fileName="OrthogonalRepresentation.java" startLine="94" startPosition="7" endLine="97" endPosition="7" conceptFqName="jetbrains.mps.baseLanguage.structure.ForeachStatement" />
-    <nodeInfo nodeId="529057043639389445" fileName="OrthogonalRepresentation.java" startLine="99" startPosition="101" endLine="103" endPosition="5" conceptFqName="jetbrains.mps.baseLanguage.structure.ForeachStatement" />
-    <nodeInfo nodeId="7343732392716215983" fileName="OrthogonalRepresentation.java" startLine="103" startPosition="5" endLine="107" endPosition="5" conceptFqName="jetbrains.mps.baseLanguage.structure.IfStatement" />
-    <nodeInfo nodeId="228830736476027589" fileName="OrthogonalRepresentation.java" startLine="109" startPosition="0" endLine="113" endPosition="0" conceptFqName="jetbrains.mps.baseLanguage.structure.StaticMethodDeclaration" propertyString="getRepresentation#(Ljetbrains/mps/graphLayout/planarGraph/EmbeddedGraph;Ljava/util/Map;Ljava/util/Map;)V" />
-    <nodeInfo nodeId="529057043639056535" fileName="OrthogonalRepresentation.java" startLine="118" startPosition="27" endLine="122" endPosition="7" conceptFqName="jetbrains.mps.baseLanguage.structure.IfStatement" />
-    <nodeInfo nodeId="529057043639056584" fileName="OrthogonalRepresentation.java" startLine="122" startPosition="7" endLine="126" endPosition="7" conceptFqName="jetbrains.mps.baseLanguage.structure.IfStatement" />
-    <nodeInfo nodeId="529057043639056664" fileName="OrthogonalRepresentation.java" startLine="131" startPosition="91" endLine="135" endPosition="0" conceptFqName="jetbrains.mps.baseLanguage.structure.InstanceMethodDeclaration" propertyString="accept#(Ljetbrains/mps/graphLayout/graph/Edge;)Z" />
-    <nodeInfo nodeId="529057043639056683" fileName="OrthogonalRepresentation.java" startLine="136" startPosition="92" endLine="140" endPosition="0" conceptFqName="jetbrains.mps.baseLanguage.structure.InstanceMethodDeclaration" propertyString="accept#(Ljetbrains/mps/graphLayout/graph/Edge;)Z" />
-    <nodeInfo nodeId="529057043639056770" fileName="OrthogonalRepresentation.java" startLine="156" startPosition="18" endLine="160" endPosition="13" conceptFqName="jetbrains.mps.baseLanguage.structure.BlockStatement" />
-    <nodeInfo nodeId="529057043639072535" fileName="OrthogonalRepresentation.java" startLine="194" startPosition="108" endLine="198" endPosition="0" conceptFqName="jetbrains.mps.baseLanguage.structure.InstanceMethodDeclaration" propertyString="accept#(Ljetbrains/mps/graphLayout/planarGraph/Dart;)Z" />
-    <nodeInfo nodeId="529057043639077187" fileName="OrthogonalRepresentation.java" startLine="207" startPosition="107" endLine="211" endPosition="0" conceptFqName="jetbrains.mps.baseLanguage.structure.InstanceMethodDeclaration" propertyString="accept#(Ljetbrains/mps/graphLayout/planarGraph/Dart;)Z" />
-    <nodeInfo nodeId="529057043639077227" fileName="OrthogonalRepresentation.java" startLine="214" startPosition="84" endLine="218" endPosition="0" conceptFqName="jetbrains.mps.baseLanguage.structure.InstanceMethodDeclaration" propertyString="accept#(Ljetbrains/mps/graphLayout/planarGraph/Dart;)Z" />
-    <nodeInfo nodeId="529057043639077442" fileName="OrthogonalRepresentation.java" startLine="229" startPosition="0" endLine="233" endPosition="0" conceptFqName="jetbrains.mps.baseLanguage.structure.InstanceMethodDeclaration" propertyString="getDirections#()Ljava/util/Map;" />
-    <nodeInfo nodeId="529057043639389160" fileName="OrthogonalRepresentation.java" startLine="50" startPosition="48" endLine="55" endPosition="7" conceptFqName="jetbrains.mps.baseLanguage.structure.IfStatement" />
-    <nodeInfo nodeId="529057043639389295" fileName="OrthogonalRepresentation.java" startLine="70" startPosition="30" endLine="75" endPosition="9" conceptFqName="jetbrains.mps.baseLanguage.structure.IfStatement" />
-    <nodeInfo nodeId="529057043639389503" fileName="OrthogonalRepresentation.java" startLine="78" startPosition="46" endLine="83" endPosition="9" conceptFqName="jetbrains.mps.baseLanguage.structure.IfStatement" />
-    <nodeInfo nodeId="529057043639056658" fileName="OrthogonalRepresentation.java" startLine="130" startPosition="96" endLine="135" endPosition="13" conceptFqName="jetbrains.mps.baseLanguage.structure.LocalVariableDeclarationStatement" />
-    <nodeInfo nodeId="529057043639056677" fileName="OrthogonalRepresentation.java" startLine="135" startPosition="13" endLine="140" endPosition="13" conceptFqName="jetbrains.mps.baseLanguage.structure.LocalVariableDeclarationStatement" />
-    <nodeInfo nodeId="529057043639056709" fileName="OrthogonalRepresentation.java" startLine="142" startPosition="57" endLine="147" endPosition="13" conceptFqName="jetbrains.mps.baseLanguage.structure.IfStatement" />
-    <nodeInfo nodeId="529057043639072502" fileName="OrthogonalRepresentation.java" startLine="193" startPosition="65" endLine="198" endPosition="9" conceptFqName="jetbrains.mps.baseLanguage.structure.LocalVariableDeclarationStatement" />
-    <nodeInfo nodeId="529057043639077174" fileName="OrthogonalRepresentation.java" startLine="206" startPosition="39" endLine="211" endPosition="13" conceptFqName="jetbrains.mps.baseLanguage.structure.ReturnStatement" />
-    <nodeInfo nodeId="529057043639077217" fileName="OrthogonalRepresentation.java" startLine="213" startPosition="26" endLine="218" endPosition="9" conceptFqName="jetbrains.mps.baseLanguage.structure.LocalVariableDeclarationStatement" />
-    <nodeInfo nodeId="529057043639072213" fileName="OrthogonalRepresentation.java" startLine="172" startPosition="0" endLine="178" endPosition="0" conceptFqName="jetbrains.mps.baseLanguage.structure.StaticMethodDeclaration" propertyString="getDirections#(Ljetbrains/mps/graphLayout/planarGraph/EmbeddedGraph;Ljava/util/Map;)Ljava/util/Map;" />
-    <nodeInfo nodeId="529057043639072368" fileName="OrthogonalRepresentation.java" startLine="183" startPosition="0" endLine="189" endPosition="5" conceptFqName="jetbrains.mps.baseLanguage.structure.ConstructorDeclaration" propertyString="GetDirectionsDfs#(Ljetbrains/mps/graphLayout/planarGraph/EmbeddedGraph;Ljava/util/Map;)V" />
-    <nodeInfo nodeId="529057043639077265" fileName="OrthogonalRepresentation.java" startLine="221" startPosition="23" endLine="227" endPosition="29" conceptFqName="jetbrains.mps.baseLanguage.structure.DoWhileStatement" />
-    <nodeInfo nodeId="529057043639389081" fileName="OrthogonalRepresentation.java" startLine="37" startPosition="77" endLine="45" endPosition="5" conceptFqName="jetbrains.mps.baseLanguage.structure.ForeachStatement" />
-    <nodeInfo nodeId="529057043639056696" fileName="OrthogonalRepresentation.java" startLine="140" startPosition="13" endLine="148" endPosition="11" conceptFqName="jetbrains.mps.baseLanguage.structure.ForeachStatement" />
-    <nodeInfo nodeId="529057043639077170" fileName="OrthogonalRepresentation.java" startLine="205" startPosition="106" endLine="213" endPosition="0" conceptFqName="jetbrains.mps.baseLanguage.structure.InstanceMethodDeclaration" propertyString="select#(Ljetbrains/mps/graphLayout/graph/Edge;)Ljetbrains/mps/graphLayout/planarGraph/Dart;" />
-    <nodeInfo nodeId="529057043639056743" fileName="OrthogonalRepresentation.java" startLine="151" startPosition="89" endLine="160" endPosition="13" conceptFqName="jetbrains.mps.baseLanguage.structure.IfStatement" />
-    <nodeInfo nodeId="529057043639077153" fileName="OrthogonalRepresentation.java" startLine="204" startPosition="59" endLine="213" endPosition="26" conceptFqName="jetbrains.mps.baseLanguage.structure.LocalVariableDeclarationStatement" />
-    <nodeInfo nodeId="529057043639056736" fileName="OrthogonalRepresentation.java" startLine="150" startPosition="35" endLine="161" endPosition="11" conceptFqName="jetbrains.mps.baseLanguage.structure.ForeachStatement" />
-    <nodeInfo nodeId="529057043639389135" fileName="OrthogonalRepresentation.java" startLine="46" startPosition="77" endLine="58" endPosition="5" conceptFqName="jetbrains.mps.baseLanguage.structure.ForeachStatement" />
-    <nodeInfo nodeId="529057043639389355" fileName="OrthogonalRepresentation.java" startLine="86" startPosition="5" endLine="98" endPosition="5" conceptFqName="jetbrains.mps.baseLanguage.structure.IfStatement" />
-    <nodeInfo nodeId="529057043639072434" fileName="OrthogonalRepresentation.java" startLine="190" startPosition="0" endLine="202" endPosition="0" conceptFqName="jetbrains.mps.baseLanguage.structure.InstanceMethodDeclaration" propertyString="preprocessRoot#(Ljetbrains/mps/graphLayout/graph/Node;)V" />
-    <nodeInfo nodeId="529057043639389240" fileName="OrthogonalRepresentation.java" startLine="62" startPosition="61" endLine="85" endPosition="7" conceptFqName="jetbrains.mps.baseLanguage.structure.ForeachStatement" />
-    <nodeInfo nodeId="529057043639389228" fileName="OrthogonalRepresentation.java" startLine="60" startPosition="82" endLine="86" endPosition="5" conceptFqName="jetbrains.mps.baseLanguage.structure.ForeachStatement" />
-    <nodeInfo nodeId="529057043639072551" fileName="OrthogonalRepresentation.java" startLine="202" startPosition="0" endLine="229" endPosition="0" conceptFqName="jetbrains.mps.baseLanguage.structure.InstanceMethodDeclaration" propertyString="preprocess#(Ljetbrains/mps/graphLayout/graph/Node;Ljetbrains/mps/graphLayout/graph/Edge;)V" />
-    <nodeInfo nodeId="529057043639056618" fileName="OrthogonalRepresentation.java" startLine="127" startPosition="38" endLine="168" endPosition="9" conceptFqName="jetbrains.mps.baseLanguage.structure.WhileStatement" />
-    <nodeInfo nodeId="529057043639056609" fileName="OrthogonalRepresentation.java" startLine="126" startPosition="7" endLine="169" endPosition="7" conceptFqName="jetbrains.mps.baseLanguage.structure.IfStatement" />
-    <nodeInfo nodeId="529057043639039940" fileName="OrthogonalRepresentation.java" startLine="114" startPosition="124" endLine="170" endPosition="5" conceptFqName="jetbrains.mps.baseLanguage.structure.ForeachStatement" />
-    <nodeInfo nodeId="228830736476056025" fileName="OrthogonalRepresentation.java" startLine="113" startPosition="0" endLine="172" endPosition="0" conceptFqName="jetbrains.mps.baseLanguage.structure.StaticMethodDeclaration" propertyString="replaceBendsByNodes#(Ljetbrains/mps/graphLayout/planarGraph/EmbeddedGraph;Ljava/util/Map;Ljava/util/Map;)V" />
-    <nodeInfo nodeId="529057043639388977" fileName="OrthogonalRepresentation.java" startLine="29" startPosition="0" endLine="109" endPosition="0" conceptFqName="jetbrains.mps.baseLanguage.structure.StaticMethodDeclaration" propertyString="getRepresentation#(Ljetbrains/mps/graphLayout/planarGraph/EmbeddedGraph;Ljava/util/Set;Ljava/util/Map;Ljava/util/Map;)V" />
-    <scopeInfo nodeId="529057043639389165" fileName="OrthogonalRepresentation.java" startLine="51" startPosition="44" endLine="52" endPosition="99" />
-    <scopeInfo nodeId="529057043639389181" fileName="OrthogonalRepresentation.java" startLine="53" startPosition="14" endLine="54" endPosition="99" />
-    <scopeInfo nodeId="529057043639389296" fileName="OrthogonalRepresentation.java" startLine="71" startPosition="65" endLine="72" endPosition="106" />
-    <scopeInfo nodeId="529057043639389311" fileName="OrthogonalRepresentation.java" startLine="73" startPosition="16" endLine="74" endPosition="106" />
-    <scopeInfo nodeId="529057043639389504" fileName="OrthogonalRepresentation.java" startLine="79" startPosition="78" endLine="80" endPosition="53" />
-    <scopeInfo nodeId="529057043639389529" fileName="OrthogonalRepresentation.java" startLine="81" startPosition="16" endLine="82" endPosition="73" />
-    <scopeInfo nodeId="529057043639389367" fileName="OrthogonalRepresentation.java" startLine="89" startPosition="65" endLine="90" endPosition="95" />
-    <scopeInfo nodeId="529057043639389386" fileName="OrthogonalRepresentation.java" startLine="92" startPosition="73" endLine="93" endPosition="95" />
-    <scopeInfo nodeId="529057043639389405" fileName="OrthogonalRepresentation.java" startLine="95" startPosition="67" endLine="96" endPosition="200" />
-    <scopeInfo nodeId="228830736476027592" fileName="OrthogonalRepresentation.java" startLine="110" startPosition="122" endLine="111" endPosition="94" />
-    <scopeInfo nodeId="529057043639056665" fileName="OrthogonalRepresentation.java" startLine="132" startPosition="44" endLine="133" endPosition="80" />
-    <scopeInfo nodeId="529057043639056684" fileName="OrthogonalRepresentation.java" startLine="137" startPosition="44" endLine="138" endPosition="80" />
-    <scopeInfo nodeId="529057043639056715" fileName="OrthogonalRepresentation.java" startLine="143" startPosition="53" endLine="144" endPosition="60" />
-    <scopeInfo nodeId="529057043639056723" fileName="OrthogonalRepresentation.java" startLine="145" startPosition="20" endLine="146" endPosition="109" />
-    <scopeInfo nodeId="529057043639072536" fileName="OrthogonalRepresentation.java" startLine="195" startPosition="40" endLine="196" endPosition="40" />
-    <scopeInfo nodeId="529057043639077188" fileName="OrthogonalRepresentation.java" startLine="208" startPosition="46" endLine="209" endPosition="46" />
-    <scopeInfo nodeId="529057043639077228" fileName="OrthogonalRepresentation.java" startLine="215" startPosition="42" endLine="216" endPosition="69" />
-    <scopeInfo nodeId="529057043639077445" fileName="OrthogonalRepresentation.java" startLine="230" startPosition="51" endLine="231" endPosition="26" />
-    <scopeInfo nodeId="529057043639389450" fileName="OrthogonalRepresentation.java" startLine="100" startPosition="86" endLine="102" endPosition="127" />
-    <scopeInfo nodeId="7343732392716215984" fileName="OrthogonalRepresentation.java" startLine="104" startPosition="24" endLine="106" endPosition="46" />
-    <scopeInfo nodeId="529057043639056536" fileName="OrthogonalRepresentation.java" startLine="119" startPosition="91" endLine="121" endPosition="62" />
-    <scopeInfo nodeId="529057043639056585" fileName="OrthogonalRepresentation.java" startLine="123" startPosition="91" endLine="125" endPosition="62" />
-    <scopeInfo nodeId="529057043639389362" fileName="OrthogonalRepresentation.java" startLine="88" startPosition="49" endLine="91" endPosition="7" />
-    <scopeInfo nodeId="529057043639389381" fileName="OrthogonalRepresentation.java" startLine="91" startPosition="7" endLine="94" endPosition="7" />
-    <scopeInfo nodeId="529057043639389400" fileName="OrthogonalRepresentation.java" startLine="94" startPosition="7" endLine="97" endPosition="7" />
-    <scopeInfo nodeId="529057043639056749" fileName="OrthogonalRepresentation.java" startLine="152" startPosition="54" endLine="155" endPosition="61" />
-    <scopeInfo nodeId="529057043639056771" fileName="OrthogonalRepresentation.java" startLine="156" startPosition="20" endLine="159" endPosition="101" />
-    <scopeInfo nodeId="529057043639072216" fileName="OrthogonalRepresentation.java" startLine="173" startPosition="110" endLine="176" endPosition="31">
+    <nodeInfo nodeId="529057043639389028" fileName="OrthogonalRepresentation.java" startLine="33" startPosition="151" endLine="34" endPosition="43" conceptFqName="jetbrains.mps.baseLanguage.structure.LocalVariableDeclarationStatement" />
+    <nodeInfo nodeId="529057043639389034" fileName="OrthogonalRepresentation.java" startLine="34" startPosition="43" endLine="35" endPosition="32" conceptFqName="jetbrains.mps.baseLanguage.structure.LocalVariableDeclarationStatement" />
+    <nodeInfo nodeId="529057043639389039" fileName="OrthogonalRepresentation.java" startLine="35" startPosition="32" endLine="36" endPosition="39" conceptFqName="jetbrains.mps.baseLanguage.structure.LocalVariableDeclarationStatement" />
+    <nodeInfo nodeId="529057043639389045" fileName="OrthogonalRepresentation.java" startLine="36" startPosition="39" endLine="37" endPosition="79" conceptFqName="jetbrains.mps.baseLanguage.structure.LocalVariableDeclarationStatement" />
+    <nodeInfo nodeId="529057043639389054" fileName="OrthogonalRepresentation.java" startLine="37" startPosition="79" endLine="38" endPosition="84" conceptFqName="jetbrains.mps.baseLanguage.structure.LocalVariableDeclarationStatement" />
+    <nodeInfo nodeId="529057043639389063" fileName="OrthogonalRepresentation.java" startLine="38" startPosition="84" endLine="39" endPosition="80" conceptFqName="jetbrains.mps.baseLanguage.structure.LocalVariableDeclarationStatement" />
+    <nodeInfo nodeId="529057043639389072" fileName="OrthogonalRepresentation.java" startLine="39" startPosition="80" endLine="40" endPosition="77" conceptFqName="jetbrains.mps.baseLanguage.structure.LocalVariableDeclarationStatement" />
+    <nodeInfo nodeId="529057043639389087" fileName="OrthogonalRepresentation.java" startLine="41" startPosition="63" endLine="42" endPosition="46" conceptFqName="jetbrains.mps.baseLanguage.structure.LocalVariableDeclarationStatement" />
+    <nodeInfo nodeId="529057043639389093" fileName="OrthogonalRepresentation.java" startLine="42" startPosition="46" endLine="43" endPosition="58" conceptFqName="jetbrains.mps.baseLanguage.structure.ExpressionStatement" />
+    <nodeInfo nodeId="529057043639389099" fileName="OrthogonalRepresentation.java" startLine="43" startPosition="58" endLine="44" endPosition="55" conceptFqName="jetbrains.mps.baseLanguage.structure.LocalVariableDeclarationStatement" />
+    <nodeInfo nodeId="529057043639389106" fileName="OrthogonalRepresentation.java" startLine="44" startPosition="55" endLine="45" endPosition="44" conceptFqName="jetbrains.mps.baseLanguage.structure.ExpressionStatement" />
+    <nodeInfo nodeId="529057043639389112" fileName="OrthogonalRepresentation.java" startLine="45" startPosition="44" endLine="46" endPosition="82" conceptFqName="jetbrains.mps.baseLanguage.structure.ExpressionStatement" />
+    <nodeInfo nodeId="529057043639389120" fileName="OrthogonalRepresentation.java" startLine="46" startPosition="82" endLine="47" endPosition="45" conceptFqName="jetbrains.mps.baseLanguage.structure.ExpressionStatement" />
+    <nodeInfo nodeId="529057043639389126" fileName="OrthogonalRepresentation.java" startLine="48" startPosition="5" endLine="49" endPosition="77" conceptFqName="jetbrains.mps.baseLanguage.structure.LocalVariableDeclarationStatement" />
+    <nodeInfo nodeId="529057043639389141" fileName="OrthogonalRepresentation.java" startLine="50" startPosition="71" endLine="51" endPosition="39" conceptFqName="jetbrains.mps.baseLanguage.structure.LocalVariableDeclarationStatement" />
+    <nodeInfo nodeId="529057043639389147" fileName="OrthogonalRepresentation.java" startLine="51" startPosition="39" endLine="52" endPosition="51" conceptFqName="jetbrains.mps.baseLanguage.structure.ExpressionStatement" />
+    <nodeInfo nodeId="529057043639389153" fileName="OrthogonalRepresentation.java" startLine="52" startPosition="51" endLine="53" endPosition="48" conceptFqName="jetbrains.mps.baseLanguage.structure.LocalVariableDeclarationStatement" />
+    <nodeInfo nodeId="529057043639389166" fileName="OrthogonalRepresentation.java" startLine="54" startPosition="44" endLine="55" endPosition="99" conceptFqName="jetbrains.mps.baseLanguage.structure.ExpressionStatement" />
+    <nodeInfo nodeId="529057043639389182" fileName="OrthogonalRepresentation.java" startLine="56" startPosition="14" endLine="57" endPosition="99" conceptFqName="jetbrains.mps.baseLanguage.structure.ExpressionStatement" />
+    <nodeInfo nodeId="529057043639389196" fileName="OrthogonalRepresentation.java" startLine="58" startPosition="7" endLine="59" endPosition="82" conceptFqName="jetbrains.mps.baseLanguage.structure.ExpressionStatement" />
+    <nodeInfo nodeId="529057043639389204" fileName="OrthogonalRepresentation.java" startLine="59" startPosition="82" endLine="60" endPosition="45" conceptFqName="jetbrains.mps.baseLanguage.structure.ExpressionStatement" />
+    <nodeInfo nodeId="529057043639389210" fileName="OrthogonalRepresentation.java" startLine="61" startPosition="5" endLine="62" endPosition="81" conceptFqName="jetbrains.mps.baseLanguage.structure.LocalVariableDeclarationStatement" />
+    <nodeInfo nodeId="529057043639389219" fileName="OrthogonalRepresentation.java" startLine="62" startPosition="81" endLine="63" endPosition="82" conceptFqName="jetbrains.mps.baseLanguage.structure.LocalVariableDeclarationStatement" />
+    <nodeInfo nodeId="529057043639389234" fileName="OrthogonalRepresentation.java" startLine="64" startPosition="71" endLine="65" endPosition="61" conceptFqName="jetbrains.mps.baseLanguage.structure.LocalVariableDeclarationStatement" />
+    <nodeInfo nodeId="529057043639389246" fileName="OrthogonalRepresentation.java" startLine="66" startPosition="64" endLine="67" endPosition="98" conceptFqName="jetbrains.mps.baseLanguage.structure.LocalVariableDeclarationStatement" />
+    <nodeInfo nodeId="529057043639389257" fileName="OrthogonalRepresentation.java" startLine="67" startPosition="98" endLine="68" endPosition="58" conceptFqName="jetbrains.mps.baseLanguage.structure.ExpressionStatement" />
+    <nodeInfo nodeId="529057043639389263" fileName="OrthogonalRepresentation.java" startLine="68" startPosition="58" endLine="69" endPosition="46" conceptFqName="jetbrains.mps.baseLanguage.structure.ExpressionStatement" />
+    <nodeInfo nodeId="529057043639389269" fileName="OrthogonalRepresentation.java" startLine="69" startPosition="46" endLine="70" endPosition="51" conceptFqName="jetbrains.mps.baseLanguage.structure.ExpressionStatement" />
+    <nodeInfo nodeId="529057043639389275" fileName="OrthogonalRepresentation.java" startLine="70" startPosition="51" endLine="71" endPosition="47" conceptFqName="jetbrains.mps.baseLanguage.structure.ExpressionStatement" />
+    <nodeInfo nodeId="529057043639389281" fileName="OrthogonalRepresentation.java" startLine="71" startPosition="47" endLine="72" endPosition="74" conceptFqName="jetbrains.mps.baseLanguage.structure.LocalVariableDeclarationStatement" />
+    <nodeInfo nodeId="529057043639389292" fileName="OrthogonalRepresentation.java" startLine="72" startPosition="74" endLine="73" endPosition="30" conceptFqName="jetbrains.mps.baseLanguage.structure.LocalVariableDeclarationStatement" />
+    <nodeInfo nodeId="529057043639389297" fileName="OrthogonalRepresentation.java" startLine="74" startPosition="65" endLine="75" endPosition="106" conceptFqName="jetbrains.mps.baseLanguage.structure.ExpressionStatement" />
+    <nodeInfo nodeId="529057043639389312" fileName="OrthogonalRepresentation.java" startLine="76" startPosition="16" endLine="77" endPosition="106" conceptFqName="jetbrains.mps.baseLanguage.structure.ExpressionStatement" />
+    <nodeInfo nodeId="529057043639389320" fileName="OrthogonalRepresentation.java" startLine="78" startPosition="9" endLine="79" endPosition="59" conceptFqName="jetbrains.mps.baseLanguage.structure.ExpressionStatement" />
+    <nodeInfo nodeId="529057043639389327" fileName="OrthogonalRepresentation.java" startLine="79" startPosition="59" endLine="80" endPosition="57" conceptFqName="jetbrains.mps.baseLanguage.structure.ExpressionStatement" />
+    <nodeInfo nodeId="529057043639389333" fileName="OrthogonalRepresentation.java" startLine="80" startPosition="57" endLine="81" endPosition="46" conceptFqName="jetbrains.mps.baseLanguage.structure.ExpressionStatement" />
+    <nodeInfo nodeId="529057043639389520" fileName="OrthogonalRepresentation.java" startLine="82" startPosition="78" endLine="83" endPosition="53" conceptFqName="jetbrains.mps.baseLanguage.structure.ExpressionStatement" />
+    <nodeInfo nodeId="529057043639389530" fileName="OrthogonalRepresentation.java" startLine="84" startPosition="16" endLine="85" endPosition="73" conceptFqName="jetbrains.mps.baseLanguage.structure.ExpressionStatement" />
+    <nodeInfo nodeId="529057043639389349" fileName="OrthogonalRepresentation.java" startLine="86" startPosition="9" endLine="87" endPosition="47" conceptFqName="jetbrains.mps.baseLanguage.structure.ExpressionStatement" />
+    <nodeInfo nodeId="529057043639389357" fileName="OrthogonalRepresentation.java" startLine="90" startPosition="24" endLine="91" endPosition="49" conceptFqName="jetbrains.mps.baseLanguage.structure.ExpressionStatement" />
+    <nodeInfo nodeId="529057043639389368" fileName="OrthogonalRepresentation.java" startLine="92" startPosition="65" endLine="93" endPosition="95" conceptFqName="jetbrains.mps.baseLanguage.structure.ExpressionStatement" />
+    <nodeInfo nodeId="529057043639389387" fileName="OrthogonalRepresentation.java" startLine="95" startPosition="73" endLine="96" endPosition="95" conceptFqName="jetbrains.mps.baseLanguage.structure.ExpressionStatement" />
+    <nodeInfo nodeId="529057043639389406" fileName="OrthogonalRepresentation.java" startLine="98" startPosition="67" endLine="99" endPosition="200" conceptFqName="jetbrains.mps.baseLanguage.structure.ExpressionStatement" />
+    <nodeInfo nodeId="529057043639389435" fileName="OrthogonalRepresentation.java" startLine="101" startPosition="5" endLine="102" endPosition="101" conceptFqName="jetbrains.mps.baseLanguage.structure.LocalVariableDeclarationStatement" />
+    <nodeInfo nodeId="529057043639389451" fileName="OrthogonalRepresentation.java" startLine="103" startPosition="86" endLine="104" endPosition="125" conceptFqName="jetbrains.mps.baseLanguage.structure.ExpressionStatement" />
+    <nodeInfo nodeId="529057043639389461" fileName="OrthogonalRepresentation.java" startLine="104" startPosition="125" endLine="105" endPosition="127" conceptFqName="jetbrains.mps.baseLanguage.structure.ExpressionStatement" />
+    <nodeInfo nodeId="7343732392716215992" fileName="OrthogonalRepresentation.java" startLine="107" startPosition="24" endLine="108" endPosition="44" conceptFqName="jetbrains.mps.baseLanguage.structure.ExpressionStatement" />
+    <nodeInfo nodeId="7343732392716216005" fileName="OrthogonalRepresentation.java" startLine="108" startPosition="44" endLine="109" endPosition="46" conceptFqName="jetbrains.mps.baseLanguage.structure.ExpressionStatement" />
+    <nodeInfo nodeId="529057043639389471" fileName="OrthogonalRepresentation.java" startLine="113" startPosition="122" endLine="114" endPosition="94" conceptFqName="jetbrains.mps.baseLanguage.structure.ExpressionStatement" />
+    <nodeInfo nodeId="529057043639056500" fileName="OrthogonalRepresentation.java" startLine="118" startPosition="82" endLine="119" endPosition="54" conceptFqName="jetbrains.mps.baseLanguage.structure.LocalVariableDeclarationStatement" />
+    <nodeInfo nodeId="529057043639056516" fileName="OrthogonalRepresentation.java" startLine="119" startPosition="54" endLine="120" endPosition="72" conceptFqName="jetbrains.mps.baseLanguage.structure.LocalVariableDeclarationStatement" />
+    <nodeInfo nodeId="529057043639056529" fileName="OrthogonalRepresentation.java" startLine="120" startPosition="72" endLine="121" endPosition="27" conceptFqName="jetbrains.mps.baseLanguage.structure.LocalVariableDeclarationStatement" />
+    <nodeInfo nodeId="529057043639056562" fileName="OrthogonalRepresentation.java" startLine="122" startPosition="91" endLine="123" endPosition="71" conceptFqName="jetbrains.mps.baseLanguage.structure.ExpressionStatement" />
+    <nodeInfo nodeId="529057043639056574" fileName="OrthogonalRepresentation.java" startLine="123" startPosition="71" endLine="124" endPosition="62" conceptFqName="jetbrains.mps.baseLanguage.structure.ExpressionStatement" />
+    <nodeInfo nodeId="529057043639056586" fileName="OrthogonalRepresentation.java" startLine="126" startPosition="91" endLine="127" endPosition="71" conceptFqName="jetbrains.mps.baseLanguage.structure.ExpressionStatement" />
+    <nodeInfo nodeId="529057043639056592" fileName="OrthogonalRepresentation.java" startLine="127" startPosition="71" endLine="128" endPosition="62" conceptFqName="jetbrains.mps.baseLanguage.structure.ExpressionStatement" />
+    <nodeInfo nodeId="529057043639056641" fileName="OrthogonalRepresentation.java" startLine="131" startPosition="71" endLine="132" endPosition="77" conceptFqName="jetbrains.mps.baseLanguage.structure.LocalVariableDeclarationStatement" />
+    <nodeInfo nodeId="529057043639056648" fileName="OrthogonalRepresentation.java" startLine="132" startPosition="77" endLine="133" endPosition="96" conceptFqName="jetbrains.mps.baseLanguage.structure.LocalVariableDeclarationStatement" />
+    <nodeInfo nodeId="529057043639056666" fileName="OrthogonalRepresentation.java" startLine="135" startPosition="44" endLine="136" endPosition="80" conceptFqName="jetbrains.mps.baseLanguage.structure.ReturnStatement" />
+    <nodeInfo nodeId="529057043639056685" fileName="OrthogonalRepresentation.java" startLine="140" startPosition="44" endLine="141" endPosition="80" conceptFqName="jetbrains.mps.baseLanguage.structure.ReturnStatement" />
+    <nodeInfo nodeId="529057043639056703" fileName="OrthogonalRepresentation.java" startLine="144" startPosition="87" endLine="145" endPosition="57" conceptFqName="jetbrains.mps.baseLanguage.structure.ExpressionStatement" />
+    <nodeInfo nodeId="529057043639056716" fileName="OrthogonalRepresentation.java" startLine="146" startPosition="53" endLine="147" endPosition="60" conceptFqName="jetbrains.mps.baseLanguage.structure.ExpressionStatement" />
+    <nodeInfo nodeId="529057043639056724" fileName="OrthogonalRepresentation.java" startLine="148" startPosition="20" endLine="149" endPosition="109" conceptFqName="jetbrains.mps.baseLanguage.structure.ExpressionStatement" />
+    <nodeInfo nodeId="529057043639056732" fileName="OrthogonalRepresentation.java" startLine="151" startPosition="11" endLine="152" endPosition="34" conceptFqName="jetbrains.mps.baseLanguage.structure.LocalVariableDeclarationStatement" />
+    <nodeInfo nodeId="529057043639056790" fileName="OrthogonalRepresentation.java" startLine="152" startPosition="34" endLine="153" endPosition="35" conceptFqName="jetbrains.mps.baseLanguage.structure.LocalVariableDeclarationStatement" />
+    <nodeInfo nodeId="529057043639056750" fileName="OrthogonalRepresentation.java" startLine="155" startPosition="54" endLine="156" endPosition="39" conceptFqName="jetbrains.mps.baseLanguage.structure.ExpressionStatement" />
+    <nodeInfo nodeId="529057043639056754" fileName="OrthogonalRepresentation.java" startLine="156" startPosition="39" endLine="157" endPosition="112" conceptFqName="jetbrains.mps.baseLanguage.structure.ExpressionStatement" />
+    <nodeInfo nodeId="529057043639056764" fileName="OrthogonalRepresentation.java" startLine="157" startPosition="112" endLine="158" endPosition="61" conceptFqName="jetbrains.mps.baseLanguage.structure.ExpressionStatement" />
+    <nodeInfo nodeId="529057043639056796" fileName="OrthogonalRepresentation.java" startLine="159" startPosition="20" endLine="160" endPosition="40" conceptFqName="jetbrains.mps.baseLanguage.structure.ExpressionStatement" />
+    <nodeInfo nodeId="529057043639056772" fileName="OrthogonalRepresentation.java" startLine="160" startPosition="40" endLine="161" endPosition="60" conceptFqName="jetbrains.mps.baseLanguage.structure.ExpressionStatement" />
+    <nodeInfo nodeId="529057043639056807" fileName="OrthogonalRepresentation.java" startLine="161" startPosition="60" endLine="162" endPosition="101" conceptFqName="jetbrains.mps.baseLanguage.structure.ExpressionStatement" />
+    <nodeInfo nodeId="529057043639056822" fileName="OrthogonalRepresentation.java" startLine="164" startPosition="11" endLine="165" endPosition="66" conceptFqName="jetbrains.mps.baseLanguage.structure.ExpressionStatement" />
+    <nodeInfo nodeId="529057043639056832" fileName="OrthogonalRepresentation.java" startLine="165" startPosition="66" endLine="166" endPosition="67" conceptFqName="jetbrains.mps.baseLanguage.structure.ExpressionStatement" />
+    <nodeInfo nodeId="529057043639056842" fileName="OrthogonalRepresentation.java" startLine="166" startPosition="67" endLine="167" endPosition="57" conceptFqName="jetbrains.mps.baseLanguage.structure.ExpressionStatement" />
+    <nodeInfo nodeId="529057043639056847" fileName="OrthogonalRepresentation.java" startLine="167" startPosition="57" endLine="168" endPosition="58" conceptFqName="jetbrains.mps.baseLanguage.structure.ExpressionStatement" />
+    <nodeInfo nodeId="529057043639056854" fileName="OrthogonalRepresentation.java" startLine="168" startPosition="58" endLine="169" endPosition="42" conceptFqName="jetbrains.mps.baseLanguage.structure.ExpressionStatement" />
+    <nodeInfo nodeId="529057043639056861" fileName="OrthogonalRepresentation.java" startLine="169" startPosition="42" endLine="170" endPosition="34" conceptFqName="jetbrains.mps.baseLanguage.structure.ExpressionStatement" />
+    <nodeInfo nodeId="529057043639077460" fileName="OrthogonalRepresentation.java" startLine="176" startPosition="110" endLine="177" endPosition="121" conceptFqName="jetbrains.mps.baseLanguage.structure.LocalVariableDeclarationStatement" />
+    <nodeInfo nodeId="529057043639077470" fileName="OrthogonalRepresentation.java" startLine="177" startPosition="121" endLine="178" endPosition="61" conceptFqName="jetbrains.mps.baseLanguage.structure.ExpressionStatement" />
+    <nodeInfo nodeId="529057043639077487" fileName="OrthogonalRepresentation.java" startLine="178" startPosition="61" endLine="179" endPosition="31" conceptFqName="jetbrains.mps.baseLanguage.structure.ReturnStatement" />
+    <nodeInfo nodeId="529057043639072381" fileName="OrthogonalRepresentation.java" startLine="182" startPosition="53" endLine="183" endPosition="48" conceptFqName="jetbrains.mps.baseLanguage.structure.FieldDeclaration" propertyString="myDirections" />
+    <nodeInfo nodeId="529057043639072416" fileName="OrthogonalRepresentation.java" startLine="183" startPosition="48" endLine="184" endPosition="42" conceptFqName="jetbrains.mps.baseLanguage.structure.FieldDeclaration" propertyString="myEmbeddedGraph" />
+    <nodeInfo nodeId="529057043639072399" fileName="OrthogonalRepresentation.java" startLine="184" startPosition="42" endLine="185" endPosition="40" conceptFqName="jetbrains.mps.baseLanguage.structure.FieldDeclaration" propertyString="myAngles" />
+    <nodeInfo nodeId="529057043639072376" fileName="OrthogonalRepresentation.java" startLine="187" startPosition="85" endLine="188" endPosition="14" conceptFqName="jetbrains.mps.baseLanguage.structure.SuperConstructorInvocation" />
+    <nodeInfo nodeId="529057043639072421" fileName="OrthogonalRepresentation.java" startLine="188" startPosition="14" endLine="189" endPosition="38" conceptFqName="jetbrains.mps.baseLanguage.structure.ExpressionStatement" />
+    <nodeInfo nodeId="529057043639072428" fileName="OrthogonalRepresentation.java" startLine="189" startPosition="38" endLine="190" endPosition="24" conceptFqName="jetbrains.mps.baseLanguage.structure.ExpressionStatement" />
+    <nodeInfo nodeId="529057043639072390" fileName="OrthogonalRepresentation.java" startLine="190" startPosition="24" endLine="191" endPosition="75" conceptFqName="jetbrains.mps.baseLanguage.structure.ExpressionStatement" />
+    <nodeInfo nodeId="529057043639072490" fileName="OrthogonalRepresentation.java" startLine="195" startPosition="52" endLine="196" endPosition="65" conceptFqName="jetbrains.mps.baseLanguage.structure.LocalVariableDeclarationStatement" />
+    <nodeInfo nodeId="529057043639072539" fileName="OrthogonalRepresentation.java" startLine="198" startPosition="40" endLine="199" endPosition="40" conceptFqName="jetbrains.mps.baseLanguage.structure.ReturnStatement" />
+    <nodeInfo nodeId="529057043639072457" fileName="OrthogonalRepresentation.java" startLine="201" startPosition="9" endLine="202" endPosition="69" conceptFqName="jetbrains.mps.baseLanguage.structure.ExpressionStatement" />
+    <nodeInfo nodeId="529057043639204993" fileName="OrthogonalRepresentation.java" startLine="202" startPosition="69" endLine="203" endPosition="135" conceptFqName="jetbrains.mps.baseLanguage.structure.ExpressionStatement" />
+    <nodeInfo nodeId="529057043639077191" fileName="OrthogonalRepresentation.java" startLine="211" startPosition="46" endLine="212" endPosition="46" conceptFqName="jetbrains.mps.baseLanguage.structure.ReturnStatement" />
+    <nodeInfo nodeId="529057043639077231" fileName="OrthogonalRepresentation.java" startLine="218" startPosition="42" endLine="219" endPosition="69" conceptFqName="jetbrains.mps.baseLanguage.structure.ReturnStatement" />
+    <nodeInfo nodeId="529057043639077241" fileName="OrthogonalRepresentation.java" startLine="221" startPosition="9" endLine="222" endPosition="77" conceptFqName="jetbrains.mps.baseLanguage.structure.LocalVariableDeclarationStatement" />
+    <nodeInfo nodeId="529057043639077251" fileName="OrthogonalRepresentation.java" startLine="222" startPosition="77" endLine="223" endPosition="60" conceptFqName="jetbrains.mps.baseLanguage.structure.ExpressionStatement" />
+    <nodeInfo nodeId="529057043639077271" fileName="OrthogonalRepresentation.java" startLine="223" startPosition="60" endLine="224" endPosition="23" conceptFqName="jetbrains.mps.baseLanguage.structure.LocalVariableDeclarationStatement" />
+    <nodeInfo nodeId="529057043639077364" fileName="OrthogonalRepresentation.java" startLine="225" startPosition="10" endLine="226" endPosition="59" conceptFqName="jetbrains.mps.baseLanguage.structure.LocalVariableDeclarationStatement" />
+    <nodeInfo nodeId="529057043639077407" fileName="OrthogonalRepresentation.java" startLine="226" startPosition="59" endLine="227" endPosition="150" conceptFqName="jetbrains.mps.baseLanguage.structure.ExpressionStatement" />
+    <nodeInfo nodeId="529057043639204958" fileName="OrthogonalRepresentation.java" startLine="227" startPosition="150" endLine="228" endPosition="137" conceptFqName="jetbrains.mps.baseLanguage.structure.ExpressionStatement" />
+    <nodeInfo nodeId="529057043639077436" fileName="OrthogonalRepresentation.java" startLine="228" startPosition="137" endLine="229" endPosition="19" conceptFqName="jetbrains.mps.baseLanguage.structure.ExpressionStatement" />
+    <nodeInfo nodeId="529057043639077452" fileName="OrthogonalRepresentation.java" startLine="233" startPosition="51" endLine="234" endPosition="26" conceptFqName="jetbrains.mps.baseLanguage.structure.ReturnStatement" />
+    <nodeInfo nodeId="7365360912573040526" fileName="OrthogonalRepresentation.java" startLine="29" startPosition="0" endLine="31" endPosition="3" conceptFqName="jetbrains.mps.baseLanguage.structure.ConstructorDeclaration" propertyString="OrthogonalRepresentation#()V" />
+    <nodeInfo nodeId="529057043639389180" fileName="OrthogonalRepresentation.java" startLine="56" startPosition="12" endLine="58" endPosition="7" conceptFqName="jetbrains.mps.baseLanguage.structure.BlockStatement" />
+    <nodeInfo nodeId="529057043639389310" fileName="OrthogonalRepresentation.java" startLine="76" startPosition="14" endLine="78" endPosition="9" conceptFqName="jetbrains.mps.baseLanguage.structure.BlockStatement" />
+    <nodeInfo nodeId="529057043639389528" fileName="OrthogonalRepresentation.java" startLine="84" startPosition="14" endLine="86" endPosition="9" conceptFqName="jetbrains.mps.baseLanguage.structure.BlockStatement" />
+    <nodeInfo nodeId="529057043639056722" fileName="OrthogonalRepresentation.java" startLine="148" startPosition="18" endLine="150" endPosition="13" conceptFqName="jetbrains.mps.baseLanguage.structure.BlockStatement" />
+    <nodeInfo nodeId="529057043639389362" fileName="OrthogonalRepresentation.java" startLine="91" startPosition="49" endLine="94" endPosition="7" conceptFqName="jetbrains.mps.baseLanguage.structure.ForeachStatement" />
+    <nodeInfo nodeId="529057043639389381" fileName="OrthogonalRepresentation.java" startLine="94" startPosition="7" endLine="97" endPosition="7" conceptFqName="jetbrains.mps.baseLanguage.structure.ForeachStatement" />
+    <nodeInfo nodeId="529057043639389400" fileName="OrthogonalRepresentation.java" startLine="97" startPosition="7" endLine="100" endPosition="7" conceptFqName="jetbrains.mps.baseLanguage.structure.ForeachStatement" />
+    <nodeInfo nodeId="529057043639389445" fileName="OrthogonalRepresentation.java" startLine="102" startPosition="101" endLine="106" endPosition="5" conceptFqName="jetbrains.mps.baseLanguage.structure.ForeachStatement" />
+    <nodeInfo nodeId="7343732392716215983" fileName="OrthogonalRepresentation.java" startLine="106" startPosition="5" endLine="110" endPosition="5" conceptFqName="jetbrains.mps.baseLanguage.structure.IfStatement" />
+    <nodeInfo nodeId="228830736476027589" fileName="OrthogonalRepresentation.java" startLine="112" startPosition="0" endLine="116" endPosition="0" conceptFqName="jetbrains.mps.baseLanguage.structure.StaticMethodDeclaration" propertyString="getRepresentation#(Ljetbrains/mps/graphLayout/planarGraph/EmbeddedGraph;Ljava/util/Map;Ljava/util/Map;)V" />
+    <nodeInfo nodeId="529057043639056535" fileName="OrthogonalRepresentation.java" startLine="121" startPosition="27" endLine="125" endPosition="7" conceptFqName="jetbrains.mps.baseLanguage.structure.IfStatement" />
+    <nodeInfo nodeId="529057043639056584" fileName="OrthogonalRepresentation.java" startLine="125" startPosition="7" endLine="129" endPosition="7" conceptFqName="jetbrains.mps.baseLanguage.structure.IfStatement" />
+    <nodeInfo nodeId="529057043639056664" fileName="OrthogonalRepresentation.java" startLine="134" startPosition="91" endLine="138" endPosition="0" conceptFqName="jetbrains.mps.baseLanguage.structure.InstanceMethodDeclaration" propertyString="accept#(Ljetbrains/mps/graphLayout/graph/Edge;)Z" />
+    <nodeInfo nodeId="529057043639056683" fileName="OrthogonalRepresentation.java" startLine="139" startPosition="92" endLine="143" endPosition="0" conceptFqName="jetbrains.mps.baseLanguage.structure.InstanceMethodDeclaration" propertyString="accept#(Ljetbrains/mps/graphLayout/graph/Edge;)Z" />
+    <nodeInfo nodeId="529057043639056770" fileName="OrthogonalRepresentation.java" startLine="159" startPosition="18" endLine="163" endPosition="13" conceptFqName="jetbrains.mps.baseLanguage.structure.BlockStatement" />
+    <nodeInfo nodeId="529057043639072535" fileName="OrthogonalRepresentation.java" startLine="197" startPosition="108" endLine="201" endPosition="0" conceptFqName="jetbrains.mps.baseLanguage.structure.InstanceMethodDeclaration" propertyString="accept#(Ljetbrains/mps/graphLayout/planarGraph/Dart;)Z" />
+    <nodeInfo nodeId="529057043639077187" fileName="OrthogonalRepresentation.java" startLine="210" startPosition="107" endLine="214" endPosition="0" conceptFqName="jetbrains.mps.baseLanguage.structure.InstanceMethodDeclaration" propertyString="accept#(Ljetbrains/mps/graphLayout/planarGraph/Dart;)Z" />
+    <nodeInfo nodeId="529057043639077227" fileName="OrthogonalRepresentation.java" startLine="217" startPosition="84" endLine="221" endPosition="0" conceptFqName="jetbrains.mps.baseLanguage.structure.InstanceMethodDeclaration" propertyString="accept#(Ljetbrains/mps/graphLayout/planarGraph/Dart;)Z" />
+    <nodeInfo nodeId="529057043639077442" fileName="OrthogonalRepresentation.java" startLine="232" startPosition="0" endLine="236" endPosition="0" conceptFqName="jetbrains.mps.baseLanguage.structure.InstanceMethodDeclaration" propertyString="getDirections#()Ljava/util/Map;" />
+    <nodeInfo nodeId="529057043639389160" fileName="OrthogonalRepresentation.java" startLine="53" startPosition="48" endLine="58" endPosition="7" conceptFqName="jetbrains.mps.baseLanguage.structure.IfStatement" />
+    <nodeInfo nodeId="529057043639389295" fileName="OrthogonalRepresentation.java" startLine="73" startPosition="30" endLine="78" endPosition="9" conceptFqName="jetbrains.mps.baseLanguage.structure.IfStatement" />
+    <nodeInfo nodeId="529057043639389503" fileName="OrthogonalRepresentation.java" startLine="81" startPosition="46" endLine="86" endPosition="9" conceptFqName="jetbrains.mps.baseLanguage.structure.IfStatement" />
+    <nodeInfo nodeId="529057043639056658" fileName="OrthogonalRepresentation.java" startLine="133" startPosition="96" endLine="138" endPosition="13" conceptFqName="jetbrains.mps.baseLanguage.structure.LocalVariableDeclarationStatement" />
+    <nodeInfo nodeId="529057043639056677" fileName="OrthogonalRepresentation.java" startLine="138" startPosition="13" endLine="143" endPosition="13" conceptFqName="jetbrains.mps.baseLanguage.structure.LocalVariableDeclarationStatement" />
+    <nodeInfo nodeId="529057043639056709" fileName="OrthogonalRepresentation.java" startLine="145" startPosition="57" endLine="150" endPosition="13" conceptFqName="jetbrains.mps.baseLanguage.structure.IfStatement" />
+    <nodeInfo nodeId="529057043639072502" fileName="OrthogonalRepresentation.java" startLine="196" startPosition="65" endLine="201" endPosition="9" conceptFqName="jetbrains.mps.baseLanguage.structure.LocalVariableDeclarationStatement" />
+    <nodeInfo nodeId="529057043639077174" fileName="OrthogonalRepresentation.java" startLine="209" startPosition="39" endLine="214" endPosition="13" conceptFqName="jetbrains.mps.baseLanguage.structure.ReturnStatement" />
+    <nodeInfo nodeId="529057043639077217" fileName="OrthogonalRepresentation.java" startLine="216" startPosition="26" endLine="221" endPosition="9" conceptFqName="jetbrains.mps.baseLanguage.structure.LocalVariableDeclarationStatement" />
+    <nodeInfo nodeId="529057043639072213" fileName="OrthogonalRepresentation.java" startLine="175" startPosition="0" endLine="181" endPosition="0" conceptFqName="jetbrains.mps.baseLanguage.structure.StaticMethodDeclaration" propertyString="getDirections#(Ljetbrains/mps/graphLayout/planarGraph/EmbeddedGraph;Ljava/util/Map;)Ljava/util/Map;" />
+    <nodeInfo nodeId="529057043639072368" fileName="OrthogonalRepresentation.java" startLine="186" startPosition="0" endLine="192" endPosition="5" conceptFqName="jetbrains.mps.baseLanguage.structure.ConstructorDeclaration" propertyString="GetDirectionsDfs#(Ljetbrains/mps/graphLayout/planarGraph/EmbeddedGraph;Ljava/util/Map;)V" />
+    <nodeInfo nodeId="529057043639077265" fileName="OrthogonalRepresentation.java" startLine="224" startPosition="23" endLine="230" endPosition="29" conceptFqName="jetbrains.mps.baseLanguage.structure.DoWhileStatement" />
+    <nodeInfo nodeId="529057043639389081" fileName="OrthogonalRepresentation.java" startLine="40" startPosition="77" endLine="48" endPosition="5" conceptFqName="jetbrains.mps.baseLanguage.structure.ForeachStatement" />
+    <nodeInfo nodeId="529057043639056696" fileName="OrthogonalRepresentation.java" startLine="143" startPosition="13" endLine="151" endPosition="11" conceptFqName="jetbrains.mps.baseLanguage.structure.ForeachStatement" />
+    <nodeInfo nodeId="529057043639077170" fileName="OrthogonalRepresentation.java" startLine="208" startPosition="106" endLine="216" endPosition="0" conceptFqName="jetbrains.mps.baseLanguage.structure.InstanceMethodDeclaration" propertyString="select#(Ljetbrains/mps/graphLayout/graph/Edge;)Ljetbrains/mps/graphLayout/planarGraph/Dart;" />
+    <nodeInfo nodeId="529057043639056743" fileName="OrthogonalRepresentation.java" startLine="154" startPosition="89" endLine="163" endPosition="13" conceptFqName="jetbrains.mps.baseLanguage.structure.IfStatement" />
+    <nodeInfo nodeId="529057043639077153" fileName="OrthogonalRepresentation.java" startLine="207" startPosition="59" endLine="216" endPosition="26" conceptFqName="jetbrains.mps.baseLanguage.structure.LocalVariableDeclarationStatement" />
+    <nodeInfo nodeId="529057043639056736" fileName="OrthogonalRepresentation.java" startLine="153" startPosition="35" endLine="164" endPosition="11" conceptFqName="jetbrains.mps.baseLanguage.structure.ForeachStatement" />
+    <nodeInfo nodeId="529057043639389135" fileName="OrthogonalRepresentation.java" startLine="49" startPosition="77" endLine="61" endPosition="5" conceptFqName="jetbrains.mps.baseLanguage.structure.ForeachStatement" />
+    <nodeInfo nodeId="529057043639389355" fileName="OrthogonalRepresentation.java" startLine="89" startPosition="5" endLine="101" endPosition="5" conceptFqName="jetbrains.mps.baseLanguage.structure.IfStatement" />
+    <nodeInfo nodeId="529057043639072434" fileName="OrthogonalRepresentation.java" startLine="193" startPosition="0" endLine="205" endPosition="0" conceptFqName="jetbrains.mps.baseLanguage.structure.InstanceMethodDeclaration" propertyString="preprocessRoot#(Ljetbrains/mps/graphLayout/graph/Node;)V" />
+    <nodeInfo nodeId="529057043639389240" fileName="OrthogonalRepresentation.java" startLine="65" startPosition="61" endLine="88" endPosition="7" conceptFqName="jetbrains.mps.baseLanguage.structure.ForeachStatement" />
+    <nodeInfo nodeId="529057043639389228" fileName="OrthogonalRepresentation.java" startLine="63" startPosition="82" endLine="89" endPosition="5" conceptFqName="jetbrains.mps.baseLanguage.structure.ForeachStatement" />
+    <nodeInfo nodeId="529057043639072551" fileName="OrthogonalRepresentation.java" startLine="205" startPosition="0" endLine="232" endPosition="0" conceptFqName="jetbrains.mps.baseLanguage.structure.InstanceMethodDeclaration" propertyString="preprocess#(Ljetbrains/mps/graphLayout/graph/Node;Ljetbrains/mps/graphLayout/graph/Edge;)V" />
+    <nodeInfo nodeId="529057043639056618" fileName="OrthogonalRepresentation.java" startLine="130" startPosition="38" endLine="171" endPosition="9" conceptFqName="jetbrains.mps.baseLanguage.structure.WhileStatement" />
+    <nodeInfo nodeId="529057043639056609" fileName="OrthogonalRepresentation.java" startLine="129" startPosition="7" endLine="172" endPosition="7" conceptFqName="jetbrains.mps.baseLanguage.structure.IfStatement" />
+    <nodeInfo nodeId="529057043639039940" fileName="OrthogonalRepresentation.java" startLine="117" startPosition="124" endLine="173" endPosition="5" conceptFqName="jetbrains.mps.baseLanguage.structure.ForeachStatement" />
+    <nodeInfo nodeId="228830736476056025" fileName="OrthogonalRepresentation.java" startLine="116" startPosition="0" endLine="175" endPosition="0" conceptFqName="jetbrains.mps.baseLanguage.structure.StaticMethodDeclaration" propertyString="replaceBendsByNodes#(Ljetbrains/mps/graphLayout/planarGraph/EmbeddedGraph;Ljava/util/Map;Ljava/util/Map;)V" />
+    <nodeInfo nodeId="529057043639388977" fileName="OrthogonalRepresentation.java" startLine="32" startPosition="0" endLine="112" endPosition="0" conceptFqName="jetbrains.mps.baseLanguage.structure.StaticMethodDeclaration" propertyString="getRepresentation#(Ljetbrains/mps/graphLayout/planarGraph/EmbeddedGraph;Ljava/util/Set;Ljava/util/Map;Ljava/util/Map;)V" />
+    <scopeInfo nodeId="7365360912573040528" fileName="OrthogonalRepresentation.java" startLine="30" startPosition="37" endLine="30" endPosition="37" />
+    <scopeInfo nodeId="529057043639389165" fileName="OrthogonalRepresentation.java" startLine="54" startPosition="44" endLine="55" endPosition="99" />
+    <scopeInfo nodeId="529057043639389181" fileName="OrthogonalRepresentation.java" startLine="56" startPosition="14" endLine="57" endPosition="99" />
+    <scopeInfo nodeId="529057043639389296" fileName="OrthogonalRepresentation.java" startLine="74" startPosition="65" endLine="75" endPosition="106" />
+    <scopeInfo nodeId="529057043639389311" fileName="OrthogonalRepresentation.java" startLine="76" startPosition="16" endLine="77" endPosition="106" />
+    <scopeInfo nodeId="529057043639389504" fileName="OrthogonalRepresentation.java" startLine="82" startPosition="78" endLine="83" endPosition="53" />
+    <scopeInfo nodeId="529057043639389529" fileName="OrthogonalRepresentation.java" startLine="84" startPosition="16" endLine="85" endPosition="73" />
+    <scopeInfo nodeId="529057043639389367" fileName="OrthogonalRepresentation.java" startLine="92" startPosition="65" endLine="93" endPosition="95" />
+    <scopeInfo nodeId="529057043639389386" fileName="OrthogonalRepresentation.java" startLine="95" startPosition="73" endLine="96" endPosition="95" />
+    <scopeInfo nodeId="529057043639389405" fileName="OrthogonalRepresentation.java" startLine="98" startPosition="67" endLine="99" endPosition="200" />
+    <scopeInfo nodeId="228830736476027592" fileName="OrthogonalRepresentation.java" startLine="113" startPosition="122" endLine="114" endPosition="94" />
+    <scopeInfo nodeId="529057043639056665" fileName="OrthogonalRepresentation.java" startLine="135" startPosition="44" endLine="136" endPosition="80" />
+    <scopeInfo nodeId="529057043639056684" fileName="OrthogonalRepresentation.java" startLine="140" startPosition="44" endLine="141" endPosition="80" />
+    <scopeInfo nodeId="529057043639056715" fileName="OrthogonalRepresentation.java" startLine="146" startPosition="53" endLine="147" endPosition="60" />
+    <scopeInfo nodeId="529057043639056723" fileName="OrthogonalRepresentation.java" startLine="148" startPosition="20" endLine="149" endPosition="109" />
+    <scopeInfo nodeId="529057043639072536" fileName="OrthogonalRepresentation.java" startLine="198" startPosition="40" endLine="199" endPosition="40" />
+    <scopeInfo nodeId="529057043639077188" fileName="OrthogonalRepresentation.java" startLine="211" startPosition="46" endLine="212" endPosition="46" />
+    <scopeInfo nodeId="529057043639077228" fileName="OrthogonalRepresentation.java" startLine="218" startPosition="42" endLine="219" endPosition="69" />
+    <scopeInfo nodeId="529057043639077445" fileName="OrthogonalRepresentation.java" startLine="233" startPosition="51" endLine="234" endPosition="26" />
+    <scopeInfo nodeId="7365360912573040526" fileName="OrthogonalRepresentation.java" startLine="29" startPosition="0" endLine="31" endPosition="3" />
+    <scopeInfo nodeId="529057043639389450" fileName="OrthogonalRepresentation.java" startLine="103" startPosition="86" endLine="105" endPosition="127" />
+    <scopeInfo nodeId="7343732392716215984" fileName="OrthogonalRepresentation.java" startLine="107" startPosition="24" endLine="109" endPosition="46" />
+    <scopeInfo nodeId="529057043639056536" fileName="OrthogonalRepresentation.java" startLine="122" startPosition="91" endLine="124" endPosition="62" />
+    <scopeInfo nodeId="529057043639056585" fileName="OrthogonalRepresentation.java" startLine="126" startPosition="91" endLine="128" endPosition="62" />
+    <scopeInfo nodeId="529057043639389362" fileName="OrthogonalRepresentation.java" startLine="91" startPosition="49" endLine="94" endPosition="7" />
+    <scopeInfo nodeId="529057043639389381" fileName="OrthogonalRepresentation.java" startLine="94" startPosition="7" endLine="97" endPosition="7" />
+    <scopeInfo nodeId="529057043639389400" fileName="OrthogonalRepresentation.java" startLine="97" startPosition="7" endLine="100" endPosition="7" />
+    <scopeInfo nodeId="529057043639056749" fileName="OrthogonalRepresentation.java" startLine="155" startPosition="54" endLine="158" endPosition="61" />
+    <scopeInfo nodeId="529057043639056771" fileName="OrthogonalRepresentation.java" startLine="159" startPosition="20" endLine="162" endPosition="101" />
+    <scopeInfo nodeId="529057043639072216" fileName="OrthogonalRepresentation.java" startLine="176" startPosition="110" endLine="179" endPosition="31">
       <varInfo nodeId="529057043639077461" varName="dfs" />
     </scopeInfo>
-    <scopeInfo nodeId="529057043639389445" fileName="OrthogonalRepresentation.java" startLine="99" startPosition="101" endLine="103" endPosition="5" />
-    <scopeInfo nodeId="228830736476027589" fileName="OrthogonalRepresentation.java" startLine="109" startPosition="0" endLine="113" endPosition="0">
+    <scopeInfo nodeId="529057043639389445" fileName="OrthogonalRepresentation.java" startLine="102" startPosition="101" endLine="106" endPosition="5" />
+    <scopeInfo nodeId="228830736476027589" fileName="OrthogonalRepresentation.java" startLine="112" startPosition="0" endLine="116" endPosition="0">
       <varInfo nodeId="228830736476042303" varName="angles" />
       <varInfo nodeId="228830736476042296" varName="bends" />
       <varInfo nodeId="228830736476027593" varName="embeddedGraph" />
     </scopeInfo>
-    <scopeInfo nodeId="529057043639056664" fileName="OrthogonalRepresentation.java" startLine="131" startPosition="91" endLine="135" endPosition="0" />
-    <scopeInfo nodeId="529057043639056683" fileName="OrthogonalRepresentation.java" startLine="136" startPosition="92" endLine="140" endPosition="0" />
-    <scopeInfo nodeId="529057043639072371" fileName="OrthogonalRepresentation.java" startLine="184" startPosition="85" endLine="188" endPosition="75" />
-    <scopeInfo nodeId="529057043639072535" fileName="OrthogonalRepresentation.java" startLine="194" startPosition="108" endLine="198" endPosition="0" />
-    <scopeInfo nodeId="529057043639077187" fileName="OrthogonalRepresentation.java" startLine="207" startPosition="107" endLine="211" endPosition="0" />
-    <scopeInfo nodeId="529057043639077227" fileName="OrthogonalRepresentation.java" startLine="214" startPosition="84" endLine="218" endPosition="0" />
-    <scopeInfo nodeId="529057043639077267" fileName="OrthogonalRepresentation.java" startLine="222" startPosition="10" endLine="226" endPosition="19">
+    <scopeInfo nodeId="529057043639056664" fileName="OrthogonalRepresentation.java" startLine="134" startPosition="91" endLine="138" endPosition="0" />
+    <scopeInfo nodeId="529057043639056683" fileName="OrthogonalRepresentation.java" startLine="139" startPosition="92" endLine="143" endPosition="0" />
+    <scopeInfo nodeId="529057043639072371" fileName="OrthogonalRepresentation.java" startLine="187" startPosition="85" endLine="191" endPosition="75" />
+    <scopeInfo nodeId="529057043639072535" fileName="OrthogonalRepresentation.java" startLine="197" startPosition="108" endLine="201" endPosition="0" />
+    <scopeInfo nodeId="529057043639077187" fileName="OrthogonalRepresentation.java" startLine="210" startPosition="107" endLine="214" endPosition="0" />
+    <scopeInfo nodeId="529057043639077227" fileName="OrthogonalRepresentation.java" startLine="217" startPosition="84" endLine="221" endPosition="0" />
+    <scopeInfo nodeId="529057043639077267" fileName="OrthogonalRepresentation.java" startLine="225" startPosition="10" endLine="229" endPosition="19">
       <varInfo nodeId="529057043639077365" varName="next" />
     </scopeInfo>
-    <scopeInfo nodeId="529057043639077442" fileName="OrthogonalRepresentation.java" startLine="229" startPosition="0" endLine="233" endPosition="0" />
-    <scopeInfo nodeId="529057043639077171" fileName="OrthogonalRepresentation.java" startLine="206" startPosition="39" endLine="211" endPosition="13" />
-    <scopeInfo nodeId="529057043639389086" fileName="OrthogonalRepresentation.java" startLine="38" startPosition="63" endLine="44" endPosition="45">
+    <scopeInfo nodeId="529057043639077442" fileName="OrthogonalRepresentation.java" startLine="232" startPosition="0" endLine="236" endPosition="0" />
+    <scopeInfo nodeId="529057043639077171" fileName="OrthogonalRepresentation.java" startLine="209" startPosition="39" endLine="214" endPosition="13" />
+    <scopeInfo nodeId="529057043639389086" fileName="OrthogonalRepresentation.java" startLine="41" startPosition="63" endLine="47" endPosition="45">
       <varInfo nodeId="529057043639389100" varName="edge" />
       <varInfo nodeId="529057043639389088" varName="networkNode" />
     </scopeInfo>
-    <scopeInfo nodeId="529057043639056702" fileName="OrthogonalRepresentation.java" startLine="141" startPosition="87" endLine="147" endPosition="13" />
-    <scopeInfo nodeId="529057043639072213" fileName="OrthogonalRepresentation.java" startLine="172" startPosition="0" endLine="178" endPosition="0">
+    <scopeInfo nodeId="529057043639056702" fileName="OrthogonalRepresentation.java" startLine="144" startPosition="87" endLine="150" endPosition="13" />
+    <scopeInfo nodeId="529057043639072213" fileName="OrthogonalRepresentation.java" startLine="175" startPosition="0" endLine="181" endPosition="0">
       <varInfo nodeId="529057043639072246" varName="angles" />
       <varInfo nodeId="529057043639072244" varName="embeddedGraph" />
     </scopeInfo>
-    <scopeInfo nodeId="529057043639072368" fileName="OrthogonalRepresentation.java" startLine="183" startPosition="0" endLine="189" endPosition="5">
+    <scopeInfo nodeId="529057043639072368" fileName="OrthogonalRepresentation.java" startLine="186" startPosition="0" endLine="192" endPosition="5">
       <varInfo nodeId="529057043639072409" varName="angles" />
       <varInfo nodeId="529057043639072407" varName="embeddedGraph" />
     </scopeInfo>
-    <scopeInfo nodeId="529057043639389081" fileName="OrthogonalRepresentation.java" startLine="37" startPosition="77" endLine="45" endPosition="5" />
-    <scopeInfo nodeId="529057043639056696" fileName="OrthogonalRepresentation.java" startLine="140" startPosition="13" endLine="148" endPosition="11" />
-    <scopeInfo nodeId="529057043639072437" fileName="OrthogonalRepresentation.java" startLine="192" startPosition="52" endLine="200" endPosition="135">
+    <scopeInfo nodeId="529057043639389081" fileName="OrthogonalRepresentation.java" startLine="40" startPosition="77" endLine="48" endPosition="5" />
+    <scopeInfo nodeId="529057043639056696" fileName="OrthogonalRepresentation.java" startLine="143" startPosition="13" endLine="151" endPosition="11" />
+    <scopeInfo nodeId="529057043639072437" fileName="OrthogonalRepresentation.java" startLine="195" startPosition="52" endLine="203" endPosition="135">
       <varInfo nodeId="529057043639072503" varName="dart" />
       <varInfo nodeId="529057043639072491" varName="edge" />
     </scopeInfo>
-    <scopeInfo nodeId="529057043639077170" fileName="OrthogonalRepresentation.java" startLine="205" startPosition="106" endLine="213" endPosition="0" />
-    <scopeInfo nodeId="529057043639056742" fileName="OrthogonalRepresentation.java" startLine="151" startPosition="89" endLine="160" endPosition="13" />
-    <scopeInfo nodeId="529057043639389140" fileName="OrthogonalRepresentation.java" startLine="47" startPosition="71" endLine="57" endPosition="45">
+    <scopeInfo nodeId="529057043639077170" fileName="OrthogonalRepresentation.java" startLine="208" startPosition="106" endLine="216" endPosition="0" />
+    <scopeInfo nodeId="529057043639056742" fileName="OrthogonalRepresentation.java" startLine="154" startPosition="89" endLine="163" endPosition="13" />
+    <scopeInfo nodeId="529057043639389140" fileName="OrthogonalRepresentation.java" startLine="50" startPosition="71" endLine="60" endPosition="45">
       <varInfo nodeId="529057043639389142" varName="node" />
       <varInfo nodeId="529057043639389154" varName="edge" />
     </scopeInfo>
-    <scopeInfo nodeId="529057043639389356" fileName="OrthogonalRepresentation.java" startLine="87" startPosition="24" endLine="97" endPosition="7" />
-    <scopeInfo nodeId="529057043639056736" fileName="OrthogonalRepresentation.java" startLine="150" startPosition="35" endLine="161" endPosition="11" />
-    <scopeInfo nodeId="529057043639389135" fileName="OrthogonalRepresentation.java" startLine="46" startPosition="77" endLine="58" endPosition="5" />
-    <scopeInfo nodeId="529057043639072434" fileName="OrthogonalRepresentation.java" startLine="190" startPosition="0" endLine="202" endPosition="0">
+    <scopeInfo nodeId="529057043639389356" fileName="OrthogonalRepresentation.java" startLine="90" startPosition="24" endLine="100" endPosition="7" />
+    <scopeInfo nodeId="529057043639056736" fileName="OrthogonalRepresentation.java" startLine="153" startPosition="35" endLine="164" endPosition="11" />
+    <scopeInfo nodeId="529057043639389135" fileName="OrthogonalRepresentation.java" startLine="49" startPosition="77" endLine="61" endPosition="5" />
+    <scopeInfo nodeId="529057043639072434" fileName="OrthogonalRepresentation.java" startLine="193" startPosition="0" endLine="205" endPosition="0">
       <varInfo nodeId="529057043639072447" varName="root" />
     </scopeInfo>
-    <scopeInfo nodeId="529057043639389245" fileName="OrthogonalRepresentation.java" startLine="63" startPosition="64" endLine="84" endPosition="47">
+    <scopeInfo nodeId="529057043639389245" fileName="OrthogonalRepresentation.java" startLine="66" startPosition="64" endLine="87" endPosition="47">
       <varInfo nodeId="529057043639389282" varName="faces" />
       <varInfo nodeId="529057043639389247" varName="edge" />
       <varInfo nodeId="529057043639389293" varName="oppositeFaceNode" />
     </scopeInfo>
-    <scopeInfo nodeId="529057043639389240" fileName="OrthogonalRepresentation.java" startLine="62" startPosition="61" endLine="85" endPosition="7" />
-    <scopeInfo nodeId="529057043639077152" fileName="OrthogonalRepresentation.java" startLine="204" startPosition="59" endLine="227" endPosition="29">
+    <scopeInfo nodeId="529057043639389240" fileName="OrthogonalRepresentation.java" startLine="65" startPosition="61" endLine="88" endPosition="7" />
+    <scopeInfo nodeId="529057043639077152" fileName="OrthogonalRepresentation.java" startLine="207" startPosition="59" endLine="230" endPosition="29">
       <varInfo nodeId="529057043639077242" varName="orderedDarts" />
       <varInfo nodeId="529057043639077272" varName="cur" />
       <varInfo nodeId="529057043639077218" varName="first" />
       <varInfo nodeId="529057043639077154" varName="darts" />
     </scopeInfo>
-    <scopeInfo nodeId="529057043639389233" fileName="OrthogonalRepresentation.java" startLine="61" startPosition="71" endLine="85" endPosition="7">
+    <scopeInfo nodeId="529057043639389233" fileName="OrthogonalRepresentation.java" startLine="64" startPosition="71" endLine="88" endPosition="7">
       <varInfo nodeId="529057043639389235" varName="faceNode" />
     </scopeInfo>
-    <scopeInfo nodeId="529057043639389228" fileName="OrthogonalRepresentation.java" startLine="60" startPosition="82" endLine="86" endPosition="5" />
-    <scopeInfo nodeId="529057043639072551" fileName="OrthogonalRepresentation.java" startLine="202" startPosition="0" endLine="229" endPosition="0">
+    <scopeInfo nodeId="529057043639389228" fileName="OrthogonalRepresentation.java" startLine="63" startPosition="82" endLine="89" endPosition="5" />
+    <scopeInfo nodeId="529057043639072551" fileName="OrthogonalRepresentation.java" startLine="205" startPosition="0" endLine="232" endPosition="0">
       <varInfo nodeId="529057043639072554" varName="node" />
       <varInfo nodeId="529057043639072556" varName="from" />
     </scopeInfo>
-    <scopeInfo nodeId="529057043639056620" fileName="OrthogonalRepresentation.java" startLine="128" startPosition="71" endLine="167" endPosition="34">
+    <scopeInfo nodeId="529057043639056620" fileName="OrthogonalRepresentation.java" startLine="131" startPosition="71" endLine="170" endPosition="34">
       <varInfo nodeId="529057043639056791" varName="nextOpposite" />
       <varInfo nodeId="529057043639056678" varName="second" />
       <varInfo nodeId="529057043639056733" varName="nextToSplit" />
@@ -991,20 +994,20 @@
       <varInfo nodeId="529057043639056642" varName="newEdges" />
       <varInfo nodeId="529057043639056659" varName="first" />
     </scopeInfo>
-    <scopeInfo nodeId="529057043639056610" fileName="OrthogonalRepresentation.java" startLine="127" startPosition="38" endLine="168" endPosition="9" />
-    <scopeInfo nodeId="529057043639039943" fileName="OrthogonalRepresentation.java" startLine="115" startPosition="82" endLine="169" endPosition="7">
+    <scopeInfo nodeId="529057043639056610" fileName="OrthogonalRepresentation.java" startLine="130" startPosition="38" endLine="171" endPosition="9" />
+    <scopeInfo nodeId="529057043639039943" fileName="OrthogonalRepresentation.java" startLine="118" startPosition="82" endLine="172" endPosition="7">
       <varInfo nodeId="529057043639056530" varName="opposite" />
       <varInfo nodeId="529057043639056517" varName="dartToSplit" />
       <varInfo nodeId="529057043639056501" varName="darts" />
     </scopeInfo>
-    <scopeInfo nodeId="228830736476056028" fileName="OrthogonalRepresentation.java" startLine="114" startPosition="124" endLine="170" endPosition="5" />
-    <scopeInfo nodeId="529057043639039940" fileName="OrthogonalRepresentation.java" startLine="114" startPosition="124" endLine="170" endPosition="5" />
-    <scopeInfo nodeId="228830736476056025" fileName="OrthogonalRepresentation.java" startLine="113" startPosition="0" endLine="172" endPosition="0">
+    <scopeInfo nodeId="228830736476056028" fileName="OrthogonalRepresentation.java" startLine="117" startPosition="124" endLine="173" endPosition="5" />
+    <scopeInfo nodeId="529057043639039940" fileName="OrthogonalRepresentation.java" startLine="117" startPosition="124" endLine="173" endPosition="5" />
+    <scopeInfo nodeId="228830736476056025" fileName="OrthogonalRepresentation.java" startLine="116" startPosition="0" endLine="175" endPosition="0">
       <varInfo nodeId="228830736476056038" varName="angles" />
       <varInfo nodeId="228830736476056031" varName="bends" />
       <varInfo nodeId="228830736476056029" varName="embeddedGraph" />
     </scopeInfo>
-    <scopeInfo nodeId="529057043639388980" fileName="OrthogonalRepresentation.java" startLine="30" startPosition="151" endLine="107" endPosition="5">
+    <scopeInfo nodeId="529057043639388980" fileName="OrthogonalRepresentation.java" startLine="33" startPosition="151" endLine="110" endPosition="5">
       <varInfo nodeId="529057043639389040" varName="center" />
       <varInfo nodeId="529057043639389029" varName="graph" />
       <varInfo nodeId="529057043639389436" varName="circulation" />
@@ -1017,20 +1020,20 @@
       <varInfo nodeId="529057043639389064" varName="cost" />
       <varInfo nodeId="529057043639389035" varName="network" />
     </scopeInfo>
-    <scopeInfo nodeId="529057043639388977" fileName="OrthogonalRepresentation.java" startLine="29" startPosition="0" endLine="109" endPosition="0">
+    <scopeInfo nodeId="529057043639388977" fileName="OrthogonalRepresentation.java" startLine="32" startPosition="0" endLine="112" endPosition="0">
       <varInfo nodeId="529057043639388997" varName="angles" />
       <varInfo nodeId="529057043639388988" varName="bends" />
       <varInfo nodeId="529057043639388983" varName="edgesToBeStraight" />
       <varInfo nodeId="529057043639388981" varName="embeddedGraph" />
     </scopeInfo>
-    <unitInfo nodeId="529057043639056664" fileName="OrthogonalRepresentation.java" startLine="131" startPosition="69" endLine="135" endPosition="11" unitName="jetbrains.mps.graphLayout.flowOrthogonalLayout.OrthogonalRepresentation$1" />
-    <unitInfo nodeId="529057043639056683" fileName="OrthogonalRepresentation.java" startLine="136" startPosition="70" endLine="140" endPosition="11" unitName="jetbrains.mps.graphLayout.flowOrthogonalLayout.OrthogonalRepresentation$2" />
-    <unitInfo nodeId="529057043639072535" fileName="OrthogonalRepresentation.java" startLine="194" startPosition="86" endLine="198" endPosition="7" unitName="jetbrains.mps.graphLayout.flowOrthogonalLayout.OrthogonalRepresentation$1" />
-    <unitInfo nodeId="529057043639077187" fileName="OrthogonalRepresentation.java" startLine="207" startPosition="85" endLine="211" endPosition="11" unitName="jetbrains.mps.graphLayout.flowOrthogonalLayout.OrthogonalRepresentation$3" />
-    <unitInfo nodeId="529057043639077227" fileName="OrthogonalRepresentation.java" startLine="214" startPosition="62" endLine="218" endPosition="7" unitName="jetbrains.mps.graphLayout.flowOrthogonalLayout.OrthogonalRepresentation$3" />
-    <unitInfo nodeId="529057043639077170" fileName="OrthogonalRepresentation.java" startLine="205" startPosition="81" endLine="213" endPosition="7" unitName="jetbrains.mps.graphLayout.flowOrthogonalLayout.OrthogonalRepresentation$2" />
-    <unitInfo nodeId="529057043639072366" fileName="OrthogonalRepresentation.java" startLine="179" startPosition="0" endLine="234" endPosition="0" unitName="jetbrains.mps.graphLayout.flowOrthogonalLayout.OrthogonalRepresentation$GetDirectionsDfs" />
-    <unitInfo nodeId="228830736476027579" fileName="OrthogonalRepresentation.java" startLine="27" startPosition="0" endLine="235" endPosition="0" unitName="jetbrains.mps.graphLayout.flowOrthogonalLayout.OrthogonalRepresentation" />
+    <unitInfo nodeId="529057043639056664" fileName="OrthogonalRepresentation.java" startLine="134" startPosition="69" endLine="138" endPosition="11" unitName="jetbrains.mps.graphLayout.flowOrthogonalLayout.OrthogonalRepresentation$1" />
+    <unitInfo nodeId="529057043639056683" fileName="OrthogonalRepresentation.java" startLine="139" startPosition="70" endLine="143" endPosition="11" unitName="jetbrains.mps.graphLayout.flowOrthogonalLayout.OrthogonalRepresentation$2" />
+    <unitInfo nodeId="529057043639072535" fileName="OrthogonalRepresentation.java" startLine="197" startPosition="86" endLine="201" endPosition="7" unitName="jetbrains.mps.graphLayout.flowOrthogonalLayout.OrthogonalRepresentation$1" />
+    <unitInfo nodeId="529057043639077187" fileName="OrthogonalRepresentation.java" startLine="210" startPosition="85" endLine="214" endPosition="11" unitName="jetbrains.mps.graphLayout.flowOrthogonalLayout.OrthogonalRepresentation$3" />
+    <unitInfo nodeId="529057043639077227" fileName="OrthogonalRepresentation.java" startLine="217" startPosition="62" endLine="221" endPosition="7" unitName="jetbrains.mps.graphLayout.flowOrthogonalLayout.OrthogonalRepresentation$3" />
+    <unitInfo nodeId="529057043639077170" fileName="OrthogonalRepresentation.java" startLine="208" startPosition="81" endLine="216" endPosition="7" unitName="jetbrains.mps.graphLayout.flowOrthogonalLayout.OrthogonalRepresentation$2" />
+    <unitInfo nodeId="529057043639072366" fileName="OrthogonalRepresentation.java" startLine="182" startPosition="0" endLine="237" endPosition="0" unitName="jetbrains.mps.graphLayout.flowOrthogonalLayout.OrthogonalRepresentation$GetDirectionsDfs" />
+    <unitInfo nodeId="228830736476027579" fileName="OrthogonalRepresentation.java" startLine="27" startPosition="0" endLine="238" endPosition="0" unitName="jetbrains.mps.graphLayout.flowOrthogonalLayout.OrthogonalRepresentation" />
   </root>
   <root nodeId="3444434563276229798">
     <nodeInfo nodeId="3444434563276270864" fileName="ClusterOrthogonalFlowLayouter.java" startLine="28" startPosition="75" endLine="29" endPosition="51" conceptFqName="jetbrains.mps.baseLanguage.structure.FieldDeclaration" propertyString="myClusterBorderMap" />
