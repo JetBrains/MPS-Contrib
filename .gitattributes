@@ -10,6 +10,6 @@
 *.dtd text
 *.sh text
 dependencies merge=mps
-generated text
+generated merge=mps
 *.mps merge=mps
 trace.info merge=mps
