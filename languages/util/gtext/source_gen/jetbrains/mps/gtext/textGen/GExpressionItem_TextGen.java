@@ -6,9 +6,10 @@ import jetbrains.mps.textGen.SNodeTextGen;
 import jetbrains.mps.smodel.SNode;
 import jetbrains.mps.baseLanguage.behavior.Expression_Behavior;
 import jetbrains.mps.lang.smodel.generator.smodelAdapter.SLinkOperations;
+import jetbrains.mps.lang.smodel.generator.smodelAdapter.SNodeOperations;
 
 public class GExpressionItem_TextGen extends SNodeTextGen {
   public void doGenerateText(SNode node) {
-    this.append(((String) Expression_Behavior.call_eval_1213877519769(SLinkOperations.getTarget(node, "expression", true), this.getContext().getModule())));
+    this.append(((String) Expression_Behavior.call_eval_1213877519769(SLinkOperations.getTarget(node, "expression", true), SNodeOperations.getModel(node).getModelDescriptor().getModule())));
   }
 }
