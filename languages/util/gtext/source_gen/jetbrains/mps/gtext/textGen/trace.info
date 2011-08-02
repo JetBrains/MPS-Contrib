@@ -39,13 +39,13 @@
     <unitInfo nodeId="1234548158731" fileName="GDocument_TextGen.java" startLine="12" startPosition="0" endLine="25" endPosition="0" unitName="jetbrains.mps.gtext.textGen.GDocument_TextGen" />
   </root>
   <root nodeId="1234795388634">
-    <nodeInfo nodeId="1237463993104" fileName="GExpressionItem_TextGen.java" startLine="11" startPosition="42" endLine="12" endPosition="156" conceptFqName="jetbrains.mps.baseLanguage.structure.BlockStatement" />
-    <nodeInfo nodeId="1237463993104" fileName="GExpressionItem_TextGen.java" startLine="11" startPosition="42" endLine="12" endPosition="156" conceptFqName="jetbrains.mps.baseLanguage.structure.ExpressionStatement" />
-    <nodeInfo nodeId="1234795388634" fileName="GExpressionItem_TextGen.java" startLine="10" startPosition="59" endLine="14" endPosition="0" conceptFqName="jetbrains.mps.baseLanguage.structure.InstanceMethodDeclaration" propertyString="doGenerateText#(Ljetbrains/mps/smodel/SNode;)V" />
-    <scopeInfo nodeId="1234795388634" fileName="GExpressionItem_TextGen.java" startLine="11" startPosition="42" endLine="12" endPosition="156" />
-    <scopeInfo nodeId="1237463993104" fileName="GExpressionItem_TextGen.java" startLine="11" startPosition="42" endLine="12" endPosition="156" />
-    <scopeInfo nodeId="1234795388634" fileName="GExpressionItem_TextGen.java" startLine="10" startPosition="59" endLine="14" endPosition="0" />
-    <unitInfo nodeId="1234795388634" fileName="GExpressionItem_TextGen.java" startLine="10" startPosition="0" endLine="15" endPosition="0" unitName="jetbrains.mps.gtext.textGen.GExpressionItem_TextGen" />
+    <nodeInfo nodeId="1237463993104" fileName="GExpressionItem_TextGen.java" startLine="12" startPosition="42" endLine="13" endPosition="190" conceptFqName="jetbrains.mps.baseLanguage.structure.BlockStatement" />
+    <nodeInfo nodeId="1237463993104" fileName="GExpressionItem_TextGen.java" startLine="12" startPosition="42" endLine="13" endPosition="190" conceptFqName="jetbrains.mps.baseLanguage.structure.ExpressionStatement" />
+    <nodeInfo nodeId="1234795388634" fileName="GExpressionItem_TextGen.java" startLine="11" startPosition="59" endLine="15" endPosition="0" conceptFqName="jetbrains.mps.baseLanguage.structure.InstanceMethodDeclaration" propertyString="doGenerateText#(Ljetbrains/mps/smodel/SNode;)V" />
+    <scopeInfo nodeId="1234795388634" fileName="GExpressionItem_TextGen.java" startLine="12" startPosition="42" endLine="13" endPosition="190" />
+    <scopeInfo nodeId="1237463993104" fileName="GExpressionItem_TextGen.java" startLine="12" startPosition="42" endLine="13" endPosition="190" />
+    <scopeInfo nodeId="1234795388634" fileName="GExpressionItem_TextGen.java" startLine="11" startPosition="59" endLine="15" endPosition="0" />
+    <unitInfo nodeId="1234795388634" fileName="GExpressionItem_TextGen.java" startLine="11" startPosition="0" endLine="16" endPosition="0" unitName="jetbrains.mps.gtext.textGen.GExpressionItem_TextGen" />
   </root>
   <root nodeId="1234795590692">
     <nodeInfo nodeId="1234795617949" fileName="GIndent_TextGen.java" startLine="9" startPosition="42" endLine="10" endPosition="24" conceptFqName="jetbrains.mps.baseLanguage.structure.ExpressionStatement" />
