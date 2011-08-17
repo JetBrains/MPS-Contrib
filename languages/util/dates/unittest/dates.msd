@@ -3,6 +3,7 @@
   <models>
     <modelRoot path="${solution_descriptor}/" namespacePrefix="jetbrains.mps.baseLanguage.dates.unittest" />
   </models>
+  <sourcePath />
   <dependencies>
     <dependency reexport="false">cccc689c-f365-4862-a8b6-34ecddf8ee26(jetbrains.mps.baseLanguage.dates)</dependency>
     <dependency reexport="false">2ebbb458-8ebb-481e-a5d7-9e27903323d4(jetbrains.mps.baseLanguage.dates.runtime)</dependency>
