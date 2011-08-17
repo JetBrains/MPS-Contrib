@@ -31,7 +31,6 @@
       </mapping-priorities>
     </generator>
   </generators>
-  <sourcePath />
   <dependencies>
     <dependency reexport="true">34f23130-e35c-4795-a45a-85d828b16016(jetbrains.mps.gtext.runtime)</dependency>
   </dependencies>

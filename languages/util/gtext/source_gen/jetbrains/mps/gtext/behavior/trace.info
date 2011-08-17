@@ -2,21 +2,21 @@
 <debugInfo>
   <unitInfo fileName="GTextConcept_BehaviorDescriptor.java" startLine="6" startPosition="0" endLine="8" endPosition="0" unitName="jetbrains.mps.gtext.behavior.GTextConcept_BehaviorDescriptor" />
   <unitInfo fileName="GCompositeItem_BehaviorDescriptor.java" startLine="8" startPosition="0" endLine="11" endPosition="0" unitName="jetbrains.mps.gtext.behavior.GCompositeItem_BehaviorDescriptor" />
-  <unitInfo fileName="GText_BehaviorDescriptor.java" startLine="6" startPosition="0" endLine="15" endPosition="0" unitName="jetbrains.mps.gtext.behavior.GText_BehaviorDescriptor" />
-  <unitInfo fileName="GNewLine_BehaviorDescriptor.java" startLine="6" startPosition="0" endLine="15" endPosition="0" unitName="jetbrains.mps.gtext.behavior.GNewLine_BehaviorDescriptor" />
-  <unitInfo fileName="GIndent_BehaviorDescriptor.java" startLine="6" startPosition="0" endLine="15" endPosition="0" unitName="jetbrains.mps.gtext.behavior.GIndent_BehaviorDescriptor" />
-  <unitInfo fileName="GIndentBlock_BehaviorDescriptor.java" startLine="6" startPosition="0" endLine="15" endPosition="0" unitName="jetbrains.mps.gtext.behavior.GIndentBlock_BehaviorDescriptor" />
-  <unitInfo fileName="GExpressionItem_BehaviorDescriptor.java" startLine="6" startPosition="0" endLine="15" endPosition="0" unitName="jetbrains.mps.gtext.behavior.GExpressionItem_BehaviorDescriptor" />
   <unitInfo fileName="GStatementItem_BehaviorDescriptor.java" startLine="6" startPosition="0" endLine="15" endPosition="0" unitName="jetbrains.mps.gtext.behavior.GStatementItem_BehaviorDescriptor" />
+  <unitInfo fileName="GExpressionItem_BehaviorDescriptor.java" startLine="6" startPosition="0" endLine="15" endPosition="0" unitName="jetbrains.mps.gtext.behavior.GExpressionItem_BehaviorDescriptor" />
+  <unitInfo fileName="GIndentBlock_BehaviorDescriptor.java" startLine="6" startPosition="0" endLine="15" endPosition="0" unitName="jetbrains.mps.gtext.behavior.GIndentBlock_BehaviorDescriptor" />
+  <unitInfo fileName="GIndent_BehaviorDescriptor.java" startLine="6" startPosition="0" endLine="15" endPosition="0" unitName="jetbrains.mps.gtext.behavior.GIndent_BehaviorDescriptor" />
+  <unitInfo fileName="GNewLine_BehaviorDescriptor.java" startLine="6" startPosition="0" endLine="15" endPosition="0" unitName="jetbrains.mps.gtext.behavior.GNewLine_BehaviorDescriptor" />
+  <unitInfo fileName="GText_BehaviorDescriptor.java" startLine="6" startPosition="0" endLine="15" endPosition="0" unitName="jetbrains.mps.gtext.behavior.GText_BehaviorDescriptor" />
   <unitInfo fileName="GItemStatement_BehaviorDescriptor.java" startLine="7" startPosition="0" endLine="16" endPosition="0" unitName="jetbrains.mps.gtext.behavior.GItemStatement_BehaviorDescriptor" />
-  <unitInfo fileName="GItem_BehaviorDescriptor.java" startLine="8" startPosition="0" endLine="21" endPosition="0" unitName="jetbrains.mps.gtext.behavior.GItem_BehaviorDescriptor" />
-  <unitInfo fileName="GConditionalLine_BehaviorDescriptor.java" startLine="8" startPosition="0" endLine="21" endPosition="0" unitName="jetbrains.mps.gtext.behavior.GConditionalLine_BehaviorDescriptor" />
   <unitInfo fileName="GSeparatorItemList_BehaviorDescriptor.java" startLine="8" startPosition="0" endLine="21" endPosition="0" unitName="jetbrains.mps.gtext.behavior.GSeparatorItemList_BehaviorDescriptor" />
-  <unitInfo fileName="BuilderContextRef_BehaviorDescriptor.java" startLine="9" startPosition="0" endLine="22" endPosition="0" unitName="jetbrains.mps.gtext.behavior.BuilderContextRef_BehaviorDescriptor" />
+  <unitInfo fileName="GConditionalLine_BehaviorDescriptor.java" startLine="8" startPosition="0" endLine="21" endPosition="0" unitName="jetbrains.mps.gtext.behavior.GConditionalLine_BehaviorDescriptor" />
+  <unitInfo fileName="GItem_BehaviorDescriptor.java" startLine="8" startPosition="0" endLine="21" endPosition="0" unitName="jetbrains.mps.gtext.behavior.GItem_BehaviorDescriptor" />
   <unitInfo fileName="GContentPlaceholder_BehaviorDescriptor.java" startLine="9" startPosition="0" endLine="22" endPosition="0" unitName="jetbrains.mps.gtext.behavior.GContentPlaceholder_BehaviorDescriptor" />
+  <unitInfo fileName="BuilderContextRef_BehaviorDescriptor.java" startLine="9" startPosition="0" endLine="22" endPosition="0" unitName="jetbrains.mps.gtext.behavior.BuilderContextRef_BehaviorDescriptor" />
   <unitInfo fileName="GDocument_BehaviorDescriptor.java" startLine="10" startPosition="0" endLine="23" endPosition="0" unitName="jetbrains.mps.gtext.behavior.GDocument_BehaviorDescriptor" />
-  <unitInfo fileName="GItemList_BehaviorDescriptor.java" startLine="8" startPosition="0" endLine="25" endPosition="0" unitName="jetbrains.mps.gtext.behavior.GItemList_BehaviorDescriptor" />
   <unitInfo fileName="GLine_BehaviorDescriptor.java" startLine="8" startPosition="0" endLine="25" endPosition="0" unitName="jetbrains.mps.gtext.behavior.GLine_BehaviorDescriptor" />
+  <unitInfo fileName="GItemList_BehaviorDescriptor.java" startLine="8" startPosition="0" endLine="25" endPosition="0" unitName="jetbrains.mps.gtext.behavior.GItemList_BehaviorDescriptor" />
   <unitInfo fileName="GContentBlock_BehaviorDescriptor.java" startLine="10" startPosition="0" endLine="27" endPosition="0" unitName="jetbrains.mps.gtext.behavior.GContentBlock_BehaviorDescriptor" />
   <unitInfo fileName="BehaviorAspectDescriptor.java" startLine="9" startPosition="0" endLine="52" endPosition="0" unitName="jetbrains.mps.gtext.behavior.BehaviorAspectDescriptor" />
   <root nodeId="1213877183413">
