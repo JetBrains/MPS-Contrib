@@ -162,7 +162,7 @@ public class HyperGraphLayouter extends BasicLayouter {
       makeClusterGraph(child);
       myInclusionTree.connect(cluster, MapSequence.fromMap(myClusterMap).get(child));
     }
-    if (ListSequence.fromList(children).count() == 0) {
+    if ((int) ListSequence.fromList(children).count() == 0) {
       Node leafNode = myClusteredGraph.createNode();
       MapSequence.fromMap(myNodeMap).put(node, leafNode);
       myClusteredGraph.setNodeInCluster(cluster, leafNode);

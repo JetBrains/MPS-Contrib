@@ -87,6 +87,6 @@ public class ClusteredGraph extends Graph implements IClusteredGraph {
   }
 
   public boolean isLeafCluster(Node cluster) {
-    return ListSequence.fromList(cluster.getOutEdges()).count() == 0;
+    return (int) ListSequence.fromList(cluster.getOutEdges()).count() == 0;
   }
 }

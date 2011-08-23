@@ -42,7 +42,7 @@ public class Dijkstra {
     init();
     while (mySet.size() > 0) {
       Node first = mySet.first();
-      if (MapSequence.fromMap(myDist).get(first) == ShortestPath.INF) {
+      if ((Integer) MapSequence.fromMap(myDist).get(first) == ShortestPath.INF) {
         break;
       }
       mySet.remove(first);
@@ -81,7 +81,7 @@ public class Dijkstra {
 
   public List<Edge> getShortestPath(Node target) {
     List<Edge> path = ListSequence.fromList(new LinkedList<Edge>());
-    if (MapSequence.fromMap(myDist).get(target) == ShortestPath.INF) {
+    if ((Integer) MapSequence.fromMap(myDist).get(target) == ShortestPath.INF) {
       return null;
     }
     Node cur = target;

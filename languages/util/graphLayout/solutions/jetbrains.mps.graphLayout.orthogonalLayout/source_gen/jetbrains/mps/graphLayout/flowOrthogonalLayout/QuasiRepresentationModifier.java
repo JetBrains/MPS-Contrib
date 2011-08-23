@@ -50,9 +50,9 @@ public class QuasiRepresentationModifier {
       while (dartItr.hasNext()) {
         Dart curDart;
         curDart = dartItr.next();
-        if (MapSequence.fromMap(myAngles).get(curDart) == 0) {
+        if ((Integer) MapSequence.fromMap(myAngles).get(curDart) == 0) {
           List<Dart> sameDirectionDarts = ListSequence.fromList(new LinkedList<Dart>());
-          while (MapSequence.fromMap(myAngles).get(curDart) == 0) {
+          while ((Integer) MapSequence.fromMap(myAngles).get(curDart) == 0) {
             ListSequence.fromList(sameDirectionDarts).addElement(curDart);
             curDart = dartItr.next();
           }
@@ -163,7 +163,7 @@ public class QuasiRepresentationModifier {
     List<Dart> darts = myEmbeddedGraph.getOrderedDarts(node);
     boolean hasZeroAngles = false;
     for (Dart dart : ListSequence.fromList(darts)) {
-      if (MapSequence.fromMap(myAngles).get(dart) == 0) {
+      if ((Integer) MapSequence.fromMap(myAngles).get(dart) == 0) {
         hasZeroAngles = true;
       }
     }
@@ -171,7 +171,7 @@ public class QuasiRepresentationModifier {
       while (MapSequence.fromMap(myAngles).get(ListSequence.fromList(darts).first()) != 0) {
         ListSequence.fromList(darts).addElement(ListSequence.fromList(darts).removeElementAt(0));
       }
-      while (MapSequence.fromMap(myAngles).get(ListSequence.fromList(darts).last()) == 0) {
+      while ((Integer) MapSequence.fromMap(myAngles).get(ListSequence.fromList(darts).last()) == 0) {
         ListSequence.fromList(darts).insertElement(0, ListSequence.fromList(darts).removeLastElement());
       }
     }

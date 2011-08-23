@@ -39,7 +39,7 @@ public class TopologicalSorting extends Dfs {
 
   @Override
   protected void processEdge(Edge edge, Node source) {
-    if (MapSequence.fromMap(getDfsState()).get(edge.getTarget()) == Dfs.DURING) {
+    if ((Integer) MapSequence.fromMap(getDfsState()).get(edge.getTarget()) == Dfs.DURING) {
       myHasCycles = true;
     }
   }

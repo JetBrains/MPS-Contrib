@@ -129,14 +129,14 @@ public abstract class PQNode {
   }
 
   public boolean isLeaf() {
-    return ListSequence.fromList(getChildren()).count() == 0;
+    return (int) ListSequence.fromList(getChildren()).count() == 0;
   }
 
   protected PQNode makeEmpty() {
     if (getState() == PQNode.State.EMPTY) {
       return this;
     }
-    if (ListSequence.fromList(getChildren()).count() == 0) {
+    if ((int) ListSequence.fromList(getChildren()).count() == 0) {
       if (getState() == PQNode.State.FULL) {
         return null;
       } else {
@@ -150,7 +150,7 @@ public abstract class PQNode {
         }
       }
       setState(PQNode.State.EMPTY);
-      if (ListSequence.fromList(getChildren()).count() == 0) {
+      if ((int) ListSequence.fromList(getChildren()).count() == 0) {
         return null;
       } else {
         return this;

@@ -68,7 +68,7 @@ public class MinCostMaxFlowWithPotentials {
         }
         Map<Node, Integer> distance = shortestPathFinder.getDistance();
         for (Edge edge : ListSequence.fromList(graph.getEdges())) {
-          if (MapSequence.fromMap(distance).get(edge.getSource()) == ShortestPath.INF) {
+          if ((Integer) MapSequence.fromMap(distance).get(edge.getSource()) == ShortestPath.INF) {
             continue;
           }
           MapSequence.fromMap(cost).put(edge, MapSequence.fromMap(cost).get(edge) + MapSequence.fromMap(distance).get(edge.getSource()) - MapSequence.fromMap(distance).get(edge.getTarget()));

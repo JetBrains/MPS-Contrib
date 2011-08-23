@@ -45,7 +45,7 @@ public class BiconnectivityChecker extends Dfs {
   @Override
   protected void processEdge(Edge edge, Node source) {
     Node next = edge.getOpposite(source);
-    if (MapSequence.fromMap(getDfsState()).get(next) == DURING) {
+    if ((Integer) MapSequence.fromMap(getDfsState()).get(next) == DURING) {
       changeLow(source, next);
     }
   }

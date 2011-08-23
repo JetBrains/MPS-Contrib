@@ -406,7 +406,7 @@
     <nodeInfo nodeId="1532165762814137348" fileName="ClusterEmbeddingConstructor.java" startLine="58" startPosition="97" endLine="59" endPosition="54" conceptFqName="jetbrains.mps.baseLanguage.structure.ExpressionStatement" />
     <nodeInfo nodeId="2615992436839782552" fileName="ClusterEmbeddingConstructor.java" startLine="60" startPosition="23" endLine="61" endPosition="86" conceptFqName="jetbrains.mps.baseLanguage.structure.ExpressionStatement" />
     <nodeInfo nodeId="1532165762814136063" fileName="ClusterEmbeddingConstructor.java" startLine="65" startPosition="45" endLine="66" endPosition="67" conceptFqName="jetbrains.mps.baseLanguage.structure.LocalVariableDeclarationStatement" />
-    <nodeInfo nodeId="1532165762814136073" fileName="ClusterEmbeddingConstructor.java" startLine="67" startPosition="58" endLine="68" endPosition="40" conceptFqName="jetbrains.mps.baseLanguage.structure.ReturnStatement" />
+    <nodeInfo nodeId="1532165762814136073" fileName="ClusterEmbeddingConstructor.java" startLine="67" startPosition="64" endLine="68" endPosition="40" conceptFqName="jetbrains.mps.baseLanguage.structure.ReturnStatement" />
     <nodeInfo nodeId="1532165762814136093" fileName="ClusterEmbeddingConstructor.java" startLine="69" startPosition="5" endLine="70" endPosition="69" conceptFqName="jetbrains.mps.baseLanguage.structure.LocalVariableDeclarationStatement" />
     <nodeInfo nodeId="1532165762814136101" fileName="ClusterEmbeddingConstructor.java" startLine="71" startPosition="23" endLine="72" endPosition="88" conceptFqName="jetbrains.mps.baseLanguage.structure.ExpressionStatement" />
     <nodeInfo nodeId="1532165762814136115" fileName="ClusterEmbeddingConstructor.java" startLine="73" startPosition="5" endLine="74" endPosition="49" conceptFqName="jetbrains.mps.baseLanguage.structure.ExpressionStatement" />
@@ -450,7 +450,7 @@
     <nodeInfo nodeId="1532165762814136390" fileName="ClusterEmbeddingConstructor.java" startLine="152" startPosition="70" endLine="153" endPosition="80" conceptFqName="jetbrains.mps.baseLanguage.structure.LocalVariableDeclarationStatement" />
     <nodeInfo nodeId="1532165762814136396" fileName="ClusterEmbeddingConstructor.java" startLine="153" startPosition="80" endLine="154" endPosition="81" conceptFqName="jetbrains.mps.baseLanguage.structure.LocalVariableDeclarationStatement" />
     <nodeInfo nodeId="1532165762814136402" fileName="ClusterEmbeddingConstructor.java" startLine="154" startPosition="81" endLine="155" endPosition="25" conceptFqName="jetbrains.mps.baseLanguage.structure.LocalVariableDeclarationStatement" />
-    <nodeInfo nodeId="1532165762814136410" fileName="ClusterEmbeddingConstructor.java" startLine="156" startPosition="59" endLine="157" endPosition="19" conceptFqName="jetbrains.mps.baseLanguage.structure.ExpressionStatement" />
+    <nodeInfo nodeId="1532165762814136410" fileName="ClusterEmbeddingConstructor.java" startLine="156" startPosition="65" endLine="157" endPosition="19" conceptFqName="jetbrains.mps.baseLanguage.structure.ExpressionStatement" />
     <nodeInfo nodeId="1532165762814136419" fileName="ClusterEmbeddingConstructor.java" startLine="158" startPosition="9" endLine="159" endPosition="94" conceptFqName="jetbrains.mps.baseLanguage.structure.LocalVariableDeclarationStatement" />
     <nodeInfo nodeId="1532165762814136425" fileName="ClusterEmbeddingConstructor.java" startLine="159" startPosition="94" endLine="160" endPosition="127" conceptFqName="jetbrains.mps.baseLanguage.structure.LocalVariableDeclarationStatement" />
     <nodeInfo nodeId="1532165762814136436" fileName="ClusterEmbeddingConstructor.java" startLine="160" startPosition="127" endLine="161" endPosition="47" conceptFqName="jetbrains.mps.baseLanguage.structure.LocalVariableDeclarationStatement" />
@@ -519,7 +519,7 @@
     <nodeInfo nodeId="1532165762814136942" fileName="ClusterEmbeddingConstructor.java" startLine="281" startPosition="73" endLine="282" endPosition="70" conceptFqName="jetbrains.mps.baseLanguage.structure.ExpressionStatement" />
     <nodeInfo nodeId="1532165762814136947" fileName="ClusterEmbeddingConstructor.java" startLine="283" startPosition="7" endLine="284" endPosition="52" conceptFqName="jetbrains.mps.baseLanguage.structure.LocalVariableDeclarationStatement" />
     <nodeInfo nodeId="1532165762814136955" fileName="ClusterEmbeddingConstructor.java" startLine="285" startPosition="82" endLine="286" endPosition="25" conceptFqName="jetbrains.mps.baseLanguage.structure.LocalVariableDeclarationStatement" />
-    <nodeInfo nodeId="1532165762814136963" fileName="ClusterEmbeddingConstructor.java" startLine="287" startPosition="71" endLine="288" endPosition="19" conceptFqName="jetbrains.mps.baseLanguage.structure.ExpressionStatement" />
+    <nodeInfo nodeId="1532165762814136963" fileName="ClusterEmbeddingConstructor.java" startLine="287" startPosition="77" endLine="288" endPosition="19" conceptFqName="jetbrains.mps.baseLanguage.structure.ExpressionStatement" />
     <nodeInfo nodeId="1532165762814136973" fileName="ClusterEmbeddingConstructor.java" startLine="289" startPosition="9" endLine="290" endPosition="157" conceptFqName="jetbrains.mps.baseLanguage.structure.LocalVariableDeclarationStatement" />
     <nodeInfo nodeId="1532165762814136985" fileName="ClusterEmbeddingConstructor.java" startLine="290" startPosition="157" endLine="291" endPosition="74" conceptFqName="jetbrains.mps.baseLanguage.structure.ExpressionStatement" />
     <nodeInfo nodeId="1532165762814136990" fileName="ClusterEmbeddingConstructor.java" startLine="291" startPosition="74" endLine="292" endPosition="165" conceptFqName="jetbrains.mps.baseLanguage.structure.LocalVariableDeclarationStatement" />
@@ -764,7 +764,7 @@
     <nodeInfo nodeId="1532165762814136254" fileName="ClusterEmbeddingConstructor.java" startLine="110" startPosition="0" endLine="187" endPosition="0" conceptFqName="jetbrains.mps.baseLanguage.structure.InstanceMethodDeclaration" propertyString="findSubclusterEmbedding#(Ljetbrains/mps/graphLayout/graph/Node;Ljava/util/Map;)V" />
     <nodeInfo nodeId="1532165762814136588" fileName="ClusterEmbeddingConstructor.java" startLine="204" startPosition="0" endLine="328" endPosition="0" conceptFqName="jetbrains.mps.baseLanguage.structure.InstanceMethodDeclaration" propertyString="constructSubclusterGraphEmbedding#()Ljava/util/Map;" />
     <scopeInfo nodeId="2615992436839782544" fileName="ClusterEmbeddingConstructor.java" startLine="60" startPosition="23" endLine="61" endPosition="86" />
-    <scopeInfo nodeId="1532165762814136072" fileName="ClusterEmbeddingConstructor.java" startLine="67" startPosition="58" endLine="68" endPosition="40" />
+    <scopeInfo nodeId="1532165762814136072" fileName="ClusterEmbeddingConstructor.java" startLine="67" startPosition="64" endLine="68" endPosition="40" />
     <scopeInfo nodeId="1532165762814136100" fileName="ClusterEmbeddingConstructor.java" startLine="71" startPosition="23" endLine="72" endPosition="88" />
     <scopeInfo nodeId="1532165762814136165" fileName="ClusterEmbeddingConstructor.java" startLine="82" startPosition="31" endLine="83" endPosition="69" />
     <scopeInfo nodeId="1532165762814136183" fileName="ClusterEmbeddingConstructor.java" startLine="87" startPosition="41" endLine="88" endPosition="44" />
@@ -778,7 +778,7 @@
     <scopeInfo nodeId="1532165762814136371" fileName="ClusterEmbeddingConstructor.java" startLine="138" startPosition="52" endLine="139" endPosition="19" />
     <scopeInfo nodeId="2615992436839884443" fileName="ClusterEmbeddingConstructor.java" startLine="144" startPosition="69" endLine="145" endPosition="89" />
     <scopeInfo nodeId="5122085889553435983" fileName="ClusterEmbeddingConstructor.java" startLine="147" startPosition="56" endLine="148" endPosition="108" />
-    <scopeInfo nodeId="1532165762814136409" fileName="ClusterEmbeddingConstructor.java" startLine="156" startPosition="59" endLine="157" endPosition="19" />
+    <scopeInfo nodeId="1532165762814136409" fileName="ClusterEmbeddingConstructor.java" startLine="156" startPosition="65" endLine="157" endPosition="19" />
     <scopeInfo nodeId="5668095147007552419" fileName="ClusterEmbeddingConstructor.java" startLine="163" startPosition="44" endLine="164" endPosition="51" />
     <scopeInfo nodeId="5668095147007566426" fileName="ClusterEmbeddingConstructor.java" startLine="169" startPosition="42" endLine="170" endPosition="47" />
     <scopeInfo nodeId="1532165762814136460" fileName="ClusterEmbeddingConstructor.java" startLine="173" startPosition="40" endLine="174" endPosition="85" />
@@ -791,7 +791,7 @@
     <scopeInfo nodeId="1532165762814136888" fileName="ClusterEmbeddingConstructor.java" startLine="271" startPosition="23" endLine="272" endPosition="118" />
     <scopeInfo nodeId="1532165762814136901" fileName="ClusterEmbeddingConstructor.java" startLine="273" startPosition="16" endLine="274" endPosition="118" />
     <scopeInfo nodeId="1532165762814136920" fileName="ClusterEmbeddingConstructor.java" startLine="277" startPosition="42" endLine="278" endPosition="90" />
-    <scopeInfo nodeId="1532165762814136962" fileName="ClusterEmbeddingConstructor.java" startLine="287" startPosition="71" endLine="288" endPosition="19" />
+    <scopeInfo nodeId="1532165762814136962" fileName="ClusterEmbeddingConstructor.java" startLine="287" startPosition="77" endLine="288" endPosition="19" />
     <scopeInfo nodeId="2615992436839919221" fileName="ClusterEmbeddingConstructor.java" startLine="298" startPosition="43" endLine="299" endPosition="117" />
     <scopeInfo nodeId="7277772612861275011" fileName="ClusterEmbeddingConstructor.java" startLine="304" startPosition="30" endLine="305" endPosition="103" />
     <scopeInfo nodeId="7277772612861288633" fileName="ClusterEmbeddingConstructor.java" startLine="312" startPosition="26" endLine="313" endPosition="73" />
@@ -1231,7 +1231,7 @@
     <nodeInfo nodeId="4624841703139841624" fileName="TreeEmbeddingFinder.java" startLine="198" startPosition="51" endLine="199" endPosition="27" conceptFqName="jetbrains.mps.baseLanguage.structure.ReturnStatement" />
     <nodeInfo nodeId="2899723422951324753" fileName="TreeEmbeddingFinder.java" startLine="202" startPosition="35" endLine="203" endPosition="34" conceptFqName="jetbrains.mps.baseLanguage.structure.FieldDeclaration" propertyString="myBackEdges" />
     <nodeInfo nodeId="2899723422951324803" fileName="TreeEmbeddingFinder.java" startLine="203" startPosition="34" endLine="204" endPosition="29" conceptFqName="jetbrains.mps.baseLanguage.structure.FieldDeclaration" propertyString="myOuterFace" />
-    <nodeInfo nodeId="2899723422951325292" fileName="TreeEmbeddingFinder.java" startLine="211" startPosition="91" endLine="212" endPosition="52" conceptFqName="jetbrains.mps.baseLanguage.structure.ExpressionStatement" />
+    <nodeInfo nodeId="2899723422951325292" fileName="TreeEmbeddingFinder.java" startLine="211" startPosition="101" endLine="212" endPosition="52" conceptFqName="jetbrains.mps.baseLanguage.structure.ExpressionStatement" />
     <nodeInfo nodeId="2899723422951325287" fileName="TreeEmbeddingFinder.java" startLine="213" startPosition="14" endLine="214" endPosition="58" conceptFqName="jetbrains.mps.baseLanguage.structure.ExpressionStatement" />
     <nodeInfo nodeId="2899723422951325218" fileName="TreeEmbeddingFinder.java" startLine="220" startPosition="25" endLine="221" endPosition="50" conceptFqName="jetbrains.mps.baseLanguage.structure.ExpressionStatement" />
     <nodeInfo nodeId="2899723422951325222" fileName="TreeEmbeddingFinder.java" startLine="222" startPosition="7" endLine="223" endPosition="0" conceptFqName="jetbrains.mps.baseLanguage.structure.Statement" />
@@ -1304,7 +1304,7 @@
     <scopeInfo nodeId="4624841703139841520" fileName="TreeEmbeddingFinder.java" startLine="189" startPosition="67" endLine="190" endPosition="96" />
     <scopeInfo nodeId="4624841703139841587" fileName="TreeEmbeddingFinder.java" startLine="191" startPosition="14" endLine="192" endPosition="60" />
     <scopeInfo nodeId="4624841703139841616" fileName="TreeEmbeddingFinder.java" startLine="198" startPosition="51" endLine="199" endPosition="27" />
-    <scopeInfo nodeId="2899723422951324761" fileName="TreeEmbeddingFinder.java" startLine="211" startPosition="91" endLine="212" endPosition="52" />
+    <scopeInfo nodeId="2899723422951324761" fileName="TreeEmbeddingFinder.java" startLine="211" startPosition="101" endLine="212" endPosition="52" />
     <scopeInfo nodeId="2899723422951325286" fileName="TreeEmbeddingFinder.java" startLine="213" startPosition="14" endLine="214" endPosition="58" />
     <scopeInfo nodeId="2899723422951325217" fileName="TreeEmbeddingFinder.java" startLine="220" startPosition="25" endLine="221" endPosition="50" />
     <scopeInfo nodeId="2899723422951325340" fileName="TreeEmbeddingFinder.java" startLine="233" startPosition="37" endLine="234" endPosition="30" />
@@ -1684,14 +1684,14 @@
     <nodeInfo nodeId="344116171239987560" fileName="PQNode.java" startLine="114" startPosition="5" endLine="115" endPosition="30" conceptFqName="jetbrains.mps.baseLanguage.structure.ReturnStatement" />
     <nodeInfo nodeId="860462848750232312" fileName="PQNode.java" startLine="123" startPosition="33" endLine="124" endPosition="32" conceptFqName="jetbrains.mps.baseLanguage.structure.ReturnStatement" />
     <nodeInfo nodeId="860462848750232320" fileName="PQNode.java" startLine="127" startPosition="51" endLine="128" endPosition="41" conceptFqName="jetbrains.mps.baseLanguage.structure.ExpressionStatement" />
-    <nodeInfo nodeId="87514548893898592" fileName="PQNode.java" startLine="131" startPosition="27" endLine="132" endPosition="61" conceptFqName="jetbrains.mps.baseLanguage.structure.ReturnStatement" />
+    <nodeInfo nodeId="87514548893898592" fileName="PQNode.java" startLine="131" startPosition="27" endLine="132" endPosition="67" conceptFqName="jetbrains.mps.baseLanguage.structure.ReturnStatement" />
     <nodeInfo nodeId="5442489283395818296" fileName="PQNode.java" startLine="136" startPosition="43" endLine="137" endPosition="18" conceptFqName="jetbrains.mps.baseLanguage.structure.ReturnStatement" />
     <nodeInfo nodeId="87514548893831077" fileName="PQNode.java" startLine="140" startPosition="44" endLine="141" endPosition="20" conceptFqName="jetbrains.mps.baseLanguage.structure.ReturnStatement" />
     <nodeInfo nodeId="87514548893831082" fileName="PQNode.java" startLine="142" startPosition="14" endLine="143" endPosition="20" conceptFqName="jetbrains.mps.baseLanguage.structure.ReturnStatement" />
     <nodeInfo nodeId="87514548893831087" fileName="PQNode.java" startLine="145" startPosition="12" endLine="146" endPosition="82" conceptFqName="jetbrains.mps.baseLanguage.structure.LocalVariableDeclarationStatement" />
     <nodeInfo nodeId="87514548893831127" fileName="PQNode.java" startLine="148" startPosition="50" endLine="149" endPosition="28" conceptFqName="jetbrains.mps.baseLanguage.structure.ExpressionStatement" />
     <nodeInfo nodeId="5709109565604321960" fileName="PQNode.java" startLine="151" startPosition="7" endLine="152" endPosition="35" conceptFqName="jetbrains.mps.baseLanguage.structure.ExpressionStatement" />
-    <nodeInfo nodeId="5709109565604321980" fileName="PQNode.java" startLine="153" startPosition="62" endLine="154" endPosition="20" conceptFqName="jetbrains.mps.baseLanguage.structure.ReturnStatement" />
+    <nodeInfo nodeId="5709109565604321980" fileName="PQNode.java" startLine="153" startPosition="68" endLine="154" endPosition="20" conceptFqName="jetbrains.mps.baseLanguage.structure.ReturnStatement" />
     <nodeInfo nodeId="5709109565604321985" fileName="PQNode.java" startLine="155" startPosition="14" endLine="156" endPosition="20" conceptFqName="jetbrains.mps.baseLanguage.structure.ReturnStatement" />
     <nodeInfo nodeId="344116171239987380" fileName="PQNode.java" startLine="33" startPosition="0" endLine="35" endPosition="0" conceptFqName="jetbrains.mps.baseLanguage.structure.InstanceMethodDeclaration" propertyString="makeReduction#(Z)Ljetbrains/mps/graphLayout/planarization/PQNode;" />
     <nodeInfo nodeId="5442489283395818413" fileName="PQNode.java" startLine="35" startPosition="0" endLine="37" endPosition="0" conceptFqName="jetbrains.mps.baseLanguage.structure.InstanceMethodDeclaration" propertyString="getAValue#()I" />
@@ -1724,7 +1724,7 @@
     <nodeInfo nodeId="344116171239987451" fileName="PQNode.java" startLine="18" startPosition="0" endLine="23" endPosition="3" conceptFqName="jetbrains.mps.baseLanguage.structure.ConstructorDeclaration" propertyString="PQNode#()V" />
     <nodeInfo nodeId="344116171239987409" fileName="PQNode.java" startLine="75" startPosition="0" endLine="80" endPosition="0" conceptFqName="jetbrains.mps.baseLanguage.structure.InstanceMethodDeclaration" propertyString="addLastChild#(Ljetbrains/mps/graphLayout/planarization/PQNode;)V" />
     <nodeInfo nodeId="344116171239987425" fileName="PQNode.java" startLine="80" startPosition="0" endLine="85" endPosition="0" conceptFqName="jetbrains.mps.baseLanguage.structure.InstanceMethodDeclaration" propertyString="addFirstChild#(Ljetbrains/mps/graphLayout/planarization/PQNode;)V" />
-    <nodeInfo nodeId="87514548893831067" fileName="PQNode.java" startLine="139" startPosition="60" endLine="144" endPosition="7" conceptFqName="jetbrains.mps.baseLanguage.structure.IfStatement" />
+    <nodeInfo nodeId="87514548893831067" fileName="PQNode.java" startLine="139" startPosition="66" endLine="144" endPosition="7" conceptFqName="jetbrains.mps.baseLanguage.structure.IfStatement" />
     <nodeInfo nodeId="87514548893831100" fileName="PQNode.java" startLine="146" startPosition="82" endLine="151" endPosition="7" conceptFqName="jetbrains.mps.baseLanguage.structure.WhileStatement" />
     <nodeInfo nodeId="5709109565604321966" fileName="PQNode.java" startLine="152" startPosition="35" endLine="157" endPosition="7" conceptFqName="jetbrains.mps.baseLanguage.structure.IfStatement" />
     <nodeInfo nodeId="5442489283395808635" fileName="PQNode.java" startLine="37" startPosition="0" endLine="43" endPosition="0" conceptFqName="jetbrains.mps.baseLanguage.structure.InstanceMethodDeclaration" propertyString="computeAValue#()V" />
@@ -1752,12 +1752,12 @@
     <scopeInfo nodeId="344116171239987549" fileName="PQNode.java" startLine="111" startPosition="65" endLine="112" endPosition="51" />
     <scopeInfo nodeId="860462848750232311" fileName="PQNode.java" startLine="123" startPosition="33" endLine="124" endPosition="32" />
     <scopeInfo nodeId="860462848750232319" fileName="PQNode.java" startLine="127" startPosition="51" endLine="128" endPosition="41" />
-    <scopeInfo nodeId="87514548893898591" fileName="PQNode.java" startLine="131" startPosition="27" endLine="132" endPosition="61" />
+    <scopeInfo nodeId="87514548893898591" fileName="PQNode.java" startLine="131" startPosition="27" endLine="132" endPosition="67" />
     <scopeInfo nodeId="5442489283395815330" fileName="PQNode.java" startLine="136" startPosition="43" endLine="137" endPosition="18" />
     <scopeInfo nodeId="87514548893831068" fileName="PQNode.java" startLine="140" startPosition="44" endLine="141" endPosition="20" />
     <scopeInfo nodeId="87514548893831081" fileName="PQNode.java" startLine="142" startPosition="14" endLine="143" endPosition="20" />
     <scopeInfo nodeId="87514548893831111" fileName="PQNode.java" startLine="148" startPosition="50" endLine="149" endPosition="28" />
-    <scopeInfo nodeId="5709109565604321967" fileName="PQNode.java" startLine="153" startPosition="62" endLine="154" endPosition="20" />
+    <scopeInfo nodeId="5709109565604321967" fileName="PQNode.java" startLine="153" startPosition="68" endLine="154" endPosition="20" />
     <scopeInfo nodeId="5709109565604321984" fileName="PQNode.java" startLine="155" startPosition="14" endLine="156" endPosition="20" />
     <scopeInfo nodeId="344116171239987380" fileName="PQNode.java" startLine="33" startPosition="0" endLine="35" endPosition="0">
       <varInfo nodeId="5639575219014579458" varName="isRealPertinentRoot" />
@@ -1813,7 +1813,7 @@
     <scopeInfo nodeId="344116171239987425" fileName="PQNode.java" startLine="80" startPosition="0" endLine="85" endPosition="0">
       <varInfo nodeId="344116171239987439" varName="child" />
     </scopeInfo>
-    <scopeInfo nodeId="87514548893831042" fileName="PQNode.java" startLine="139" startPosition="60" endLine="144" endPosition="7" />
+    <scopeInfo nodeId="87514548893831042" fileName="PQNode.java" startLine="139" startPosition="66" endLine="144" endPosition="7" />
     <scopeInfo nodeId="5442489283395808635" fileName="PQNode.java" startLine="37" startPosition="0" endLine="43" endPosition="0" />
     <scopeInfo nodeId="5442489283395818417" fileName="PQNode.java" startLine="47" startPosition="0" endLine="53" endPosition="0" />
     <scopeInfo nodeId="5639575219014578673" fileName="PQNode.java" startLine="24" startPosition="0" endLine="33" endPosition="0">
@@ -1984,7 +1984,7 @@
     <nodeInfo nodeId="3021256511735314767" fileName="QNode.java" startLine="334" startPosition="6" endLine="335" endPosition="33" conceptFqName="jetbrains.mps.baseLanguage.structure.ExpressionStatement" />
     <nodeInfo nodeId="3021256511735314777" fileName="QNode.java" startLine="336" startPosition="63" endLine="337" endPosition="46" conceptFqName="jetbrains.mps.baseLanguage.structure.ExpressionStatement" />
     <nodeInfo nodeId="8327149575965763798" fileName="QNode.java" startLine="341" startPosition="25" endLine="342" endPosition="21" conceptFqName="jetbrains.mps.baseLanguage.structure.LocalVariableDeclarationStatement" />
-    <nodeInfo nodeId="8327149575965763816" fileName="QNode.java" startLine="344" startPosition="87" endLine="345" endPosition="20" conceptFqName="jetbrains.mps.baseLanguage.structure.ExpressionStatement" />
+    <nodeInfo nodeId="8327149575965763816" fileName="QNode.java" startLine="344" startPosition="93" endLine="345" endPosition="20" conceptFqName="jetbrains.mps.baseLanguage.structure.ExpressionStatement" />
     <nodeInfo nodeId="8327149575965763820" fileName="QNode.java" startLine="347" startPosition="5" endLine="348" endPosition="16" conceptFqName="jetbrains.mps.baseLanguage.structure.ReturnStatement" />
     <nodeInfo nodeId="5709109565604255464" fileName="QNode.java" startLine="352" startPosition="45" endLine="353" endPosition="44" conceptFqName="jetbrains.mps.baseLanguage.structure.ReturnStatement" />
     <nodeInfo nodeId="6541005299200397459" fileName="QNode.java" startLine="36" startPosition="10" endLine="38" endPosition="5" conceptFqName="jetbrains.mps.baseLanguage.structure.BlockStatement" />
@@ -2115,7 +2115,7 @@
     <scopeInfo nodeId="5442489283395824336" fileName="QNode.java" startLine="311" startPosition="14" endLine="312" endPosition="36" />
     <scopeInfo nodeId="5709109565604290901" fileName="QNode.java" startLine="330" startPosition="79" endLine="331" endPosition="39" />
     <scopeInfo nodeId="3021256511735314776" fileName="QNode.java" startLine="336" startPosition="63" endLine="337" endPosition="46" />
-    <scopeInfo nodeId="8327149575965763815" fileName="QNode.java" startLine="344" startPosition="87" endLine="345" endPosition="20" />
+    <scopeInfo nodeId="8327149575965763815" fileName="QNode.java" startLine="344" startPosition="93" endLine="345" endPosition="20" />
     <scopeInfo nodeId="5709109565604255459" fileName="QNode.java" startLine="352" startPosition="45" endLine="353" endPosition="44" />
     <scopeInfo nodeId="344116171239987592" fileName="QNode.java" startLine="21" startPosition="18" endLine="23" endPosition="36" />
     <scopeInfo nodeId="6541005299200394003" fileName="QNode.java" startLine="46" startPosition="53" endLine="48" endPosition="36" />
@@ -2293,7 +2293,7 @@
     <nodeInfo nodeId="4644851485137260321" fileName="PQPlanarizationFinder.java" startLine="47" startPosition="62" endLine="48" endPosition="85" conceptFqName="jetbrains.mps.baseLanguage.structure.LocalVariableDeclarationStatement" />
     <nodeInfo nodeId="6191740939834478472" fileName="PQPlanarizationFinder.java" startLine="49" startPosition="25" endLine="50" endPosition="45" conceptFqName="jetbrains.mps.baseLanguage.structure.ExpressionStatement" />
     <nodeInfo nodeId="6191740939834475438" fileName="PQPlanarizationFinder.java" startLine="50" startPosition="45" endLine="51" endPosition="36" conceptFqName="jetbrains.mps.baseLanguage.structure.ExpressionStatement" />
-    <nodeInfo nodeId="4644851485137260372" fileName="PQPlanarizationFinder.java" startLine="53" startPosition="54" endLine="54" endPosition="64" conceptFqName="jetbrains.mps.baseLanguage.structure.ReturnStatement" />
+    <nodeInfo nodeId="4644851485137260372" fileName="PQPlanarizationFinder.java" startLine="53" startPosition="60" endLine="54" endPosition="64" conceptFqName="jetbrains.mps.baseLanguage.structure.ReturnStatement" />
     <nodeInfo nodeId="4644851485137262086" fileName="PQPlanarizationFinder.java" startLine="56" startPosition="56" endLine="57" endPosition="33" conceptFqName="jetbrains.mps.baseLanguage.structure.ExpressionStatement" />
     <nodeInfo nodeId="4644851485137262070" fileName="PQPlanarizationFinder.java" startLine="58" startPosition="9" endLine="59" endPosition="75" conceptFqName="jetbrains.mps.baseLanguage.structure.LocalVariableDeclarationStatement" />
     <nodeInfo nodeId="6191740939834475466" fileName="PQPlanarizationFinder.java" startLine="60" startPosition="27" endLine="61" endPosition="48" conceptFqName="jetbrains.mps.baseLanguage.structure.ExpressionStatement" />
@@ -2318,7 +2318,7 @@
     <nodeInfo nodeId="6172745735269720015" fileName="PQPlanarizationFinder.java" startLine="98" startPosition="7" endLine="99" endPosition="62" conceptFqName="jetbrains.mps.baseLanguage.structure.LocalVariableDeclarationStatement" />
     <nodeInfo nodeId="6172745735269720022" fileName="PQPlanarizationFinder.java" startLine="99" startPosition="62" endLine="100" endPosition="124" conceptFqName="jetbrains.mps.baseLanguage.structure.LocalVariableDeclarationStatement" />
     <nodeInfo nodeId="6172745735269720693" fileName="PQPlanarizationFinder.java" startLine="100" startPosition="124" endLine="101" endPosition="39" conceptFqName="jetbrains.mps.baseLanguage.structure.LocalVariableDeclarationStatement" />
-    <nodeInfo nodeId="6172745735269720698" fileName="PQPlanarizationFinder.java" startLine="102" startPosition="54" endLine="103" endPosition="117" conceptFqName="jetbrains.mps.baseLanguage.structure.ExpressionStatement" />
+    <nodeInfo nodeId="6172745735269720698" fileName="PQPlanarizationFinder.java" startLine="102" startPosition="60" endLine="103" endPosition="117" conceptFqName="jetbrains.mps.baseLanguage.structure.ExpressionStatement" />
     <nodeInfo nodeId="1763712338172365809" fileName="PQPlanarizationFinder.java" startLine="105" startPosition="56" endLine="106" endPosition="42" conceptFqName="jetbrains.mps.baseLanguage.structure.ExpressionStatement" />
     <nodeInfo nodeId="6172745735269720711" fileName="PQPlanarizationFinder.java" startLine="107" startPosition="9" endLine="108" endPosition="84" conceptFqName="jetbrains.mps.baseLanguage.structure.LocalVariableDeclarationStatement" />
     <nodeInfo nodeId="6172745735269720729" fileName="PQPlanarizationFinder.java" startLine="108" startPosition="84" endLine="109" endPosition="51" conceptFqName="jetbrains.mps.baseLanguage.structure.ExpressionStatement" />
@@ -2398,11 +2398,11 @@
     <scopeInfo nodeId="4644851485137260289" fileName="PQPlanarizationFinder.java" startLine="28" startPosition="34" endLine="28" endPosition="34" />
     <scopeInfo nodeId="5488345258545679127" fileName="PQPlanarizationFinder.java" startLine="34" startPosition="59" endLine="35" endPosition="63" />
     <scopeInfo nodeId="6172745735269715201" fileName="PQPlanarizationFinder.java" startLine="40" startPosition="23" endLine="41" endPosition="54" />
-    <scopeInfo nodeId="4644851485137260359" fileName="PQPlanarizationFinder.java" startLine="53" startPosition="54" endLine="54" endPosition="64" />
+    <scopeInfo nodeId="4644851485137260359" fileName="PQPlanarizationFinder.java" startLine="53" startPosition="60" endLine="54" endPosition="64" />
     <scopeInfo nodeId="4644851485137262081" fileName="PQPlanarizationFinder.java" startLine="56" startPosition="56" endLine="57" endPosition="33" />
     <scopeInfo nodeId="6191740939834475465" fileName="PQPlanarizationFinder.java" startLine="60" startPosition="27" endLine="61" endPosition="48" />
     <scopeInfo nodeId="4644851485137262123" fileName="PQPlanarizationFinder.java" startLine="64" startPosition="56" endLine="65" endPosition="28" />
-    <scopeInfo nodeId="6172745735269720675" fileName="PQPlanarizationFinder.java" startLine="102" startPosition="54" endLine="103" endPosition="117" />
+    <scopeInfo nodeId="6172745735269720675" fileName="PQPlanarizationFinder.java" startLine="102" startPosition="60" endLine="103" endPosition="117" />
     <scopeInfo nodeId="6172745735269720723" fileName="PQPlanarizationFinder.java" startLine="105" startPosition="56" endLine="106" endPosition="42" />
     <scopeInfo nodeId="6172745735269720741" fileName="PQPlanarizationFinder.java" startLine="110" startPosition="56" endLine="111" endPosition="39" />
     <scopeInfo nodeId="4644851485137277500" fileName="PQPlanarizationFinder.java" startLine="116" startPosition="75" endLine="117" endPosition="156" />

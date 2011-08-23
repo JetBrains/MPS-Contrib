@@ -59,7 +59,7 @@ public class ClusterEmbeddingConstructorTemp {
 
   public EmbeddedGraph constructEmbedding() {
     Iterable<Node> subclusters = myGraph.getSubclusters(myCluster);
-    if (Sequence.fromIterable(subclusters).count() == 0) {
+    if ((int) Sequence.fromIterable(subclusters).count() == 0) {
       return new EmbeddedGraph(myGraph);
     }
     myNodesAdditionListener = new ClusterNodesAdditionListener(myGraph);
@@ -265,7 +265,7 @@ public class ClusterEmbeddingConstructorTemp {
       Face outerFace = new Face(mySubclustersGraph);
       for (int i = 0; i < ListSequence.fromList(myOuterEdgesOrder).count(); i++) {
         int next = i + 1;
-        if (next == ListSequence.fromList(myOuterEdgesOrder).count()) {
+        if (next == (int) ListSequence.fromList(myOuterEdgesOrder).count()) {
           next = 0;
         }
         /*

@@ -52,7 +52,7 @@ public abstract class BasicLayouter implements ILayouter {
       copier.copySubgraph(new Filter<INode>() {
         public boolean accept(INode node) {
           Node myNode = ((Node) node);
-          return MapSequence.fromMap(components).get(myNode) == curComponent;
+          return (Integer) MapSequence.fromMap(components).get(myNode) == curComponent;
         }
       });
       LayoutInfo subgraphInfo = copier.getLayoutInfoCopy();

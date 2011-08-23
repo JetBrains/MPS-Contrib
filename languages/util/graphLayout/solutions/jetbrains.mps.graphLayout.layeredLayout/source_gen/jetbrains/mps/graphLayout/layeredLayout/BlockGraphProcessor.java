@@ -34,7 +34,7 @@ public class BlockGraphProcessor {
     myShift = new int[myMaxClass + 1];
     myLayers = new NodeMap<Integer>(blockGraph);
     for (Node node : ListSequence.fromList(blockGraph.getNodes())) {
-      if (MapSequence.fromMap(myClasses).get(node) == curClass) {
+      if ((Integer) MapSequence.fromMap(myClasses).get(node) == curClass) {
         processClass(node);
         if (myShift[MapSequence.fromMap(myClasses).get(node)] == Integer.MAX_VALUE) {
           myShift[MapSequence.fromMap(myClasses).get(node)] = 0;
@@ -65,7 +65,7 @@ public class BlockGraphProcessor {
         Node target = edge.getTarget();
         if (MapSequence.fromMap(myClasses).get(node) == MapSequence.fromMap(myClasses).get(target)) {
           MapSequence.fromMap(myNumInEdges).put(target, MapSequence.fromMap(myNumInEdges).get(target) - 1);
-          if (MapSequence.fromMap(myNumInEdges).get(target) == 0) {
+          if ((Integer) MapSequence.fromMap(myNumInEdges).get(target) == 0) {
             MapSequence.fromMap(myLayers).put(target, MapSequence.fromMap(myLayers).get(cur) + 1);
             QueueSequence.fromQueue(queue).addLastElement(target);
           }

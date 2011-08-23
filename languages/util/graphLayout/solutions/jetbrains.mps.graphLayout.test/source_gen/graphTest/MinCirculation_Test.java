@@ -40,7 +40,7 @@ public class MinCirculation_Test extends TestCase {
     Map<Edge, Integer> circulation = test(graph, low, capacity, cost);
     Assert.assertTrue(getFlowCost(circulation, cost) == 4);
     for (Edge edge : ListSequence.fromList(graph.getEdges())) {
-      Assert.assertTrue(MapSequence.fromMap(circulation).get(edge) == 1);
+      Assert.assertTrue((Integer) MapSequence.fromMap(circulation).get(edge) == 1);
     }
   }
 
@@ -65,7 +65,7 @@ public class MinCirculation_Test extends TestCase {
     Map<Edge, Integer> circulation = test(graph, low, capacity, cost);
     Assert.assertTrue(getFlowCost(circulation, cost) == 8);
     for (Edge edge : ListSequence.fromList(graph.getEdges())) {
-      Assert.assertTrue(MapSequence.fromMap(circulation).get(edge) == 2);
+      Assert.assertTrue((Integer) MapSequence.fromMap(circulation).get(edge) == 2);
     }
   }
 
@@ -75,7 +75,7 @@ public class MinCirculation_Test extends TestCase {
     Map<Edge, Integer> circulation = MinCostCirculation.getCirculation(graph, low, capacity, cost);
     FlowChecker.checkCirculation(graph, low, capacity, circulation);
     Assert.assertTrue(numNodes == graph.getNumNodes());
-    Assert.assertTrue(numEdges == ListSequence.fromList(graph.getEdges()).count());
+    Assert.assertTrue(numEdges == (int) ListSequence.fromList(graph.getEdges()).count());
     return circulation;
   }
 

@@ -35,12 +35,12 @@ public class StressTestPlanarization {
       Graph firstComponent = new Graph();
       Map<Node, Node> nodeMap = MapSequence.fromMap(new HashMap<Node, Node>());
       for (Node node : ListSequence.fromList(graph.getNodes())) {
-        if (MapSequence.fromMap(components).get(node) == 0) {
+        if ((Integer) MapSequence.fromMap(components).get(node) == 0) {
           MapSequence.fromMap(nodeMap).put(node, firstComponent.createNode());
         }
       }
       for (Edge edge : ListSequence.fromList(graph.getEdges())) {
-        if (MapSequence.fromMap(components).get(edge.getSource()) == 0) {
+        if ((Integer) MapSequence.fromMap(components).get(edge.getSource()) == 0) {
           firstComponent.connect(MapSequence.fromMap(nodeMap).get(edge.getSource()), MapSequence.fromMap(nodeMap).get(edge.getTarget()));
         }
       }

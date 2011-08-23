@@ -1157,8 +1157,8 @@
     <nodeInfo nodeId="5736847780448779875" fileName="QuasiRepresentationModifier.java" startLine="48" startPosition="71" endLine="49" endPosition="67" conceptFqName="jetbrains.mps.baseLanguage.structure.LocalVariableDeclarationStatement" />
     <nodeInfo nodeId="4526870550031607385" fileName="QuasiRepresentationModifier.java" startLine="50" startPosition="33" endLine="51" endPosition="21" conceptFqName="jetbrains.mps.baseLanguage.structure.LocalVariableDeclarationStatement" />
     <nodeInfo nodeId="4526870550031607047" fileName="QuasiRepresentationModifier.java" startLine="51" startPosition="21" endLine="52" endPosition="33" conceptFqName="jetbrains.mps.baseLanguage.structure.ExpressionStatement" />
-    <nodeInfo nodeId="4526870550031607060" fileName="QuasiRepresentationModifier.java" startLine="53" startPosition="62" endLine="54" endPosition="88" conceptFqName="jetbrains.mps.baseLanguage.structure.LocalVariableDeclarationStatement" />
-    <nodeInfo nodeId="4526870550031607069" fileName="QuasiRepresentationModifier.java" startLine="55" startPosition="67" endLine="56" endPosition="74" conceptFqName="jetbrains.mps.baseLanguage.structure.ExpressionStatement" />
+    <nodeInfo nodeId="4526870550031607060" fileName="QuasiRepresentationModifier.java" startLine="53" startPosition="72" endLine="54" endPosition="88" conceptFqName="jetbrains.mps.baseLanguage.structure.LocalVariableDeclarationStatement" />
+    <nodeInfo nodeId="4526870550031607069" fileName="QuasiRepresentationModifier.java" startLine="55" startPosition="77" endLine="56" endPosition="74" conceptFqName="jetbrains.mps.baseLanguage.structure.ExpressionStatement" />
     <nodeInfo nodeId="4526870550031607074" fileName="QuasiRepresentationModifier.java" startLine="56" startPosition="74" endLine="57" endPosition="37" conceptFqName="jetbrains.mps.baseLanguage.structure.ExpressionStatement" />
     <nodeInfo nodeId="1265453300920920063" fileName="QuasiRepresentationModifier.java" startLine="58" startPosition="11" endLine="59" endPosition="83" conceptFqName="jetbrains.mps.baseLanguage.structure.LocalVariableDeclarationStatement" />
     <nodeInfo nodeId="1265453300921036178" fileName="QuasiRepresentationModifier.java" startLine="60" startPosition="71" endLine="61" endPosition="39" conceptFqName="jetbrains.mps.baseLanguage.structure.LocalVariableDeclarationStatement" />
@@ -1236,9 +1236,9 @@
     <nodeInfo nodeId="5736847780448779950" fileName="QuasiRepresentationModifier.java" startLine="156" startPosition="54" endLine="157" endPosition="53" conceptFqName="jetbrains.mps.baseLanguage.structure.ExpressionStatement" />
     <nodeInfo nodeId="4526870550031607260" fileName="QuasiRepresentationModifier.java" startLine="162" startPosition="49" endLine="163" endPosition="61" conceptFqName="jetbrains.mps.baseLanguage.structure.LocalVariableDeclarationStatement" />
     <nodeInfo nodeId="4526870550031607324" fileName="QuasiRepresentationModifier.java" startLine="163" startPosition="61" endLine="164" endPosition="34" conceptFqName="jetbrains.mps.baseLanguage.structure.LocalVariableDeclarationStatement" />
-    <nodeInfo nodeId="4526870550031607332" fileName="QuasiRepresentationModifier.java" startLine="166" startPosition="57" endLine="167" endPosition="29" conceptFqName="jetbrains.mps.baseLanguage.structure.ExpressionStatement" />
+    <nodeInfo nodeId="4526870550031607332" fileName="QuasiRepresentationModifier.java" startLine="166" startPosition="67" endLine="167" endPosition="29" conceptFqName="jetbrains.mps.baseLanguage.structure.ExpressionStatement" />
     <nodeInfo nodeId="4526870550031607352" fileName="QuasiRepresentationModifier.java" startLine="171" startPosition="92" endLine="172" endPosition="97" conceptFqName="jetbrains.mps.baseLanguage.structure.ExpressionStatement" />
-    <nodeInfo nodeId="4526870550031607368" fileName="QuasiRepresentationModifier.java" startLine="174" startPosition="91" endLine="175" endPosition="104" conceptFqName="jetbrains.mps.baseLanguage.structure.ExpressionStatement" />
+    <nodeInfo nodeId="4526870550031607368" fileName="QuasiRepresentationModifier.java" startLine="174" startPosition="101" endLine="175" endPosition="104" conceptFqName="jetbrains.mps.baseLanguage.structure.ExpressionStatement" />
     <nodeInfo nodeId="4526870550031607376" fileName="QuasiRepresentationModifier.java" startLine="177" startPosition="5" endLine="178" endPosition="17" conceptFqName="jetbrains.mps.baseLanguage.structure.ReturnStatement" />
     <nodeInfo nodeId="8768371262605995571" fileName="QuasiRepresentationModifier.java" startLine="181" startPosition="76" endLine="182" endPosition="27" conceptFqName="jetbrains.mps.baseLanguage.structure.ReturnStatement" />
     <nodeInfo nodeId="8768371262605995421" fileName="QuasiRepresentationModifier.java" startLine="185" startPosition="29" endLine="186" endPosition="39" conceptFqName="jetbrains.mps.baseLanguage.structure.FieldDeclaration" propertyString="myModifiedEdges" />
@@ -1295,15 +1295,15 @@
     <scopeInfo nodeId="1265453300921036228" fileName="QuasiRepresentationModifier.java" startLine="68" startPosition="69" endLine="69" endPosition="64" />
     <scopeInfo nodeId="4526870550031607581" fileName="QuasiRepresentationModifier.java" startLine="82" startPosition="46" endLine="83" endPosition="83" />
     <scopeInfo nodeId="4526870550031607605" fileName="QuasiRepresentationModifier.java" startLine="95" startPosition="46" endLine="96" endPosition="110" />
-    <scopeInfo nodeId="4526870550031607331" fileName="QuasiRepresentationModifier.java" startLine="166" startPosition="57" endLine="167" endPosition="29" />
+    <scopeInfo nodeId="4526870550031607331" fileName="QuasiRepresentationModifier.java" startLine="166" startPosition="67" endLine="167" endPosition="29" />
     <scopeInfo nodeId="4526870550031607351" fileName="QuasiRepresentationModifier.java" startLine="171" startPosition="92" endLine="172" endPosition="97" />
-    <scopeInfo nodeId="4526870550031607367" fileName="QuasiRepresentationModifier.java" startLine="174" startPosition="91" endLine="175" endPosition="104" />
+    <scopeInfo nodeId="4526870550031607367" fileName="QuasiRepresentationModifier.java" startLine="174" startPosition="101" endLine="175" endPosition="104" />
     <scopeInfo nodeId="8768371262605995006" fileName="QuasiRepresentationModifier.java" startLine="181" startPosition="76" endLine="182" endPosition="27" />
     <scopeInfo nodeId="8768371262605995447" fileName="QuasiRepresentationModifier.java" startLine="198" startPosition="42" endLine="199" endPosition="29" />
     <scopeInfo nodeId="8768371262605995454" fileName="QuasiRepresentationModifier.java" startLine="202" startPosition="37" endLine="203" endPosition="24" />
     <scopeInfo nodeId="8768371262605995460" fileName="QuasiRepresentationModifier.java" startLine="206" startPosition="29" endLine="207" endPosition="22" />
     <scopeInfo nodeId="8768371262605995466" fileName="QuasiRepresentationModifier.java" startLine="210" startPosition="33" endLine="211" endPosition="26" />
-    <scopeInfo nodeId="4526870550031607068" fileName="QuasiRepresentationModifier.java" startLine="55" startPosition="67" endLine="57" endPosition="37" />
+    <scopeInfo nodeId="4526870550031607068" fileName="QuasiRepresentationModifier.java" startLine="55" startPosition="77" endLine="57" endPosition="37" />
     <scopeInfo nodeId="1265453300921036307" fileName="QuasiRepresentationModifier.java" startLine="99" startPosition="75" endLine="101" endPosition="70" />
     <scopeInfo nodeId="5736847780448779938" fileName="QuasiRepresentationModifier.java" startLine="155" startPosition="54" endLine="157" endPosition="53" />
     <scopeInfo nodeId="4526870550031607329" fileName="QuasiRepresentationModifier.java" startLine="165" startPosition="52" endLine="168" endPosition="7" />
@@ -1366,7 +1366,7 @@
       <varInfo nodeId="4526870550031607575" varName="nextEdge" />
     </scopeInfo>
     <scopeInfo nodeId="4526870550031607549" fileName="QuasiRepresentationModifier.java" startLine="74" startPosition="78" endLine="151" endPosition="11" />
-    <scopeInfo nodeId="4526870550031607059" fileName="QuasiRepresentationModifier.java" startLine="53" startPosition="62" endLine="152" endPosition="184">
+    <scopeInfo nodeId="4526870550031607059" fileName="QuasiRepresentationModifier.java" startLine="53" startPosition="72" endLine="152" endPosition="184">
       <varInfo nodeId="1265453300921036222" varName="edge" />
       <varInfo nodeId="4526870550031607061" varName="sameDirectionDarts" />
       <varInfo nodeId="8768371262605982682" varName="curNum" />
@@ -2421,7 +2421,7 @@
     <nodeInfo nodeId="7021611379030086610" fileName="ConstraintsGraph.java" startLine="129" startPosition="41" endLine="130" endPosition="31" conceptFqName="jetbrains.mps.baseLanguage.structure.ExpressionStatement" />
     <nodeInfo nodeId="7021611379030086617" fileName="ConstraintsGraph.java" startLine="131" startPosition="73" endLine="132" endPosition="197" conceptFqName="jetbrains.mps.baseLanguage.structure.ExpressionStatement" />
     <nodeInfo nodeId="7021611379030086649" fileName="ConstraintsGraph.java" startLine="134" startPosition="5" endLine="135" endPosition="22" conceptFqName="jetbrains.mps.baseLanguage.structure.LocalVariableDeclarationStatement" />
-    <nodeInfo nodeId="7021611379030086679" fileName="ConstraintsGraph.java" startLine="137" startPosition="175" endLine="138" endPosition="45" conceptFqName="jetbrains.mps.baseLanguage.structure.ExpressionStatement" />
+    <nodeInfo nodeId="7021611379030086679" fileName="ConstraintsGraph.java" startLine="137" startPosition="193" endLine="138" endPosition="45" conceptFqName="jetbrains.mps.baseLanguage.structure.ExpressionStatement" />
     <nodeInfo nodeId="7021611379030086685" fileName="ConstraintsGraph.java" startLine="139" startPosition="37" endLine="140" endPosition="61" conceptFqName="jetbrains.mps.baseLanguage.structure.ExpressionStatement" />
     <nodeInfo nodeId="7021611379030086690" fileName="ConstraintsGraph.java" startLine="140" startPosition="61" endLine="141" endPosition="62" conceptFqName="jetbrains.mps.baseLanguage.structure.ExpressionStatement" />
     <nodeInfo nodeId="7021611379030086695" fileName="ConstraintsGraph.java" startLine="141" startPosition="62" endLine="142" endPosition="63" conceptFqName="jetbrains.mps.baseLanguage.structure.ExpressionStatement" />
@@ -2756,7 +2756,7 @@
     <scopeInfo nodeId="7021611379030086719" fileName="ConstraintsGraph.java" startLine="146" startPosition="14" endLine="153" endPosition="9" />
     <scopeInfo nodeId="7021611379030087017" fileName="ConstraintsGraph.java" startLine="223" startPosition="41" endLine="230" endPosition="79" />
     <scopeInfo nodeId="7021611379030087302" fileName="ConstraintsGraph.java" startLine="292" startPosition="64" endLine="299" endPosition="17" />
-    <scopeInfo nodeId="7021611379030086678" fileName="ConstraintsGraph.java" startLine="137" startPosition="175" endLine="145" endPosition="22" />
+    <scopeInfo nodeId="7021611379030086678" fileName="ConstraintsGraph.java" startLine="137" startPosition="193" endLine="145" endPosition="22" />
     <scopeInfo nodeId="7021611379030086961" fileName="ConstraintsGraph.java" startLine="209" startPosition="77" endLine="217" endPosition="5" />
     <scopeInfo nodeId="7021611379030086188" fileName="ConstraintsGraph.java" startLine="61" startPosition="37" endLine="70" endPosition="8" />
     <scopeInfo nodeId="7021611379030087299" fileName="ConstraintsGraph.java" startLine="291" startPosition="0" endLine="301" endPosition="0">
@@ -3165,7 +3165,7 @@
     <nodeInfo nodeId="102129025687872805" fileName="EmbeddedGraphModifier.java" startLine="64" startPosition="87" endLine="65" endPosition="83" conceptFqName="jetbrains.mps.baseLanguage.structure.LocalVariableDeclarationStatement" />
     <nodeInfo nodeId="102129025687802648" fileName="EmbeddedGraphModifier.java" startLine="66" startPosition="89" endLine="67" endPosition="64" conceptFqName="jetbrains.mps.baseLanguage.structure.ExpressionStatement" />
     <nodeInfo nodeId="7428187320254594739" fileName="EmbeddedGraphModifier.java" startLine="67" startPosition="64" endLine="68" endPosition="71" conceptFqName="jetbrains.mps.baseLanguage.structure.LocalVariableDeclarationStatement" />
-    <nodeInfo nodeId="4655725461921796700" fileName="EmbeddedGraphModifier.java" startLine="69" startPosition="54" endLine="70" endPosition="56" conceptFqName="jetbrains.mps.baseLanguage.structure.ExpressionStatement" />
+    <nodeInfo nodeId="4655725461921796700" fileName="EmbeddedGraphModifier.java" startLine="69" startPosition="60" endLine="70" endPosition="56" conceptFqName="jetbrains.mps.baseLanguage.structure.ExpressionStatement" />
     <nodeInfo nodeId="4655725461921796693" fileName="EmbeddedGraphModifier.java" startLine="71" startPosition="14" endLine="72" endPosition="90" conceptFqName="jetbrains.mps.baseLanguage.structure.ExpressionStatement" />
     <nodeInfo nodeId="102129025687802714" fileName="EmbeddedGraphModifier.java" startLine="74" startPosition="25" endLine="75" endPosition="66" conceptFqName="jetbrains.mps.baseLanguage.structure.ExpressionStatement" />
     <nodeInfo nodeId="102129025687802757" fileName="EmbeddedGraphModifier.java" startLine="76" startPosition="54" endLine="77" endPosition="104" conceptFqName="jetbrains.mps.baseLanguage.structure.ExpressionStatement" />
@@ -3383,7 +3383,7 @@
     <nodeInfo nodeId="1265453300920783518" fileName="EmbeddedGraphModifier.java" startLine="462" startPosition="30" endLine="463" endPosition="60" conceptFqName="jetbrains.mps.baseLanguage.structure.ExpressionStatement" />
     <nodeInfo nodeId="1265453300920783426" fileName="EmbeddedGraphModifier.java" startLine="464" startPosition="81" endLine="465" endPosition="90" conceptFqName="jetbrains.mps.baseLanguage.structure.LocalVariableDeclarationStatement" />
     <nodeInfo nodeId="1265453300920783418" fileName="EmbeddedGraphModifier.java" startLine="465" startPosition="90" endLine="466" endPosition="69" conceptFqName="jetbrains.mps.baseLanguage.structure.LocalVariableDeclarationStatement" />
-    <nodeInfo nodeId="1265453300920783500" fileName="EmbeddedGraphModifier.java" startLine="467" startPosition="64" endLine="468" endPosition="69" conceptFqName="jetbrains.mps.baseLanguage.structure.ExpressionStatement" />
+    <nodeInfo nodeId="1265453300920783500" fileName="EmbeddedGraphModifier.java" startLine="467" startPosition="70" endLine="468" endPosition="69" conceptFqName="jetbrains.mps.baseLanguage.structure.ExpressionStatement" />
     <nodeInfo nodeId="1265453300920783555" fileName="EmbeddedGraphModifier.java" startLine="468" startPosition="69" endLine="469" endPosition="16" conceptFqName="jetbrains.mps.baseLanguage.structure.BreakStatement" />
     <nodeInfo nodeId="1265453300920845070" fileName="EmbeddedGraphModifier.java" startLine="471" startPosition="7" endLine="472" endPosition="20" conceptFqName="jetbrains.mps.baseLanguage.structure.ExpressionStatement" />
     <nodeInfo nodeId="1265453300920783592" fileName="EmbeddedGraphModifier.java" startLine="474" startPosition="30" endLine="475" endPosition="47" conceptFqName="jetbrains.mps.baseLanguage.structure.LocalVariableDeclarationStatement" />
@@ -3532,7 +3532,7 @@
     <nodeInfo nodeId="4655725461921722514" fileName="EmbeddedGraphModifier.java" startLine="110" startPosition="0" endLine="198" endPosition="0" conceptFqName="jetbrains.mps.baseLanguage.structure.InstanceMethodDeclaration" propertyString="makeRectangleForSplittedNode#(Ljetbrains/mps/graphLayout/graph/Node;Ljava/util/List;)V" />
     <scopeInfo nodeId="7428187320254595122" fileName="EmbeddedGraphModifier.java" startLine="45" startPosition="72" endLine="46" endPosition="38" />
     <scopeInfo nodeId="272112265222983419" fileName="EmbeddedGraphModifier.java" startLine="56" startPosition="54" endLine="57" endPosition="104" />
-    <scopeInfo nodeId="7428187320254594747" fileName="EmbeddedGraphModifier.java" startLine="69" startPosition="54" endLine="70" endPosition="56" />
+    <scopeInfo nodeId="7428187320254594747" fileName="EmbeddedGraphModifier.java" startLine="69" startPosition="60" endLine="70" endPosition="56" />
     <scopeInfo nodeId="7428187320254594961" fileName="EmbeddedGraphModifier.java" startLine="71" startPosition="14" endLine="72" endPosition="90" />
     <scopeInfo nodeId="102129025687802747" fileName="EmbeddedGraphModifier.java" startLine="76" startPosition="54" endLine="77" endPosition="104" />
     <scopeInfo nodeId="3698135283642049990" fileName="EmbeddedGraphModifier.java" startLine="85" startPosition="88" endLine="86" endPosition="26" />
@@ -3593,7 +3593,7 @@
     <scopeInfo nodeId="5530235529701258612" fileName="EmbeddedGraphModifier.java" startLine="541" startPosition="41" endLine="542" endPosition="23" />
     <scopeInfo nodeId="4655725461921800579" fileName="EmbeddedGraphModifier.java" startLine="343" startPosition="16" endLine="345" endPosition="66" />
     <scopeInfo nodeId="102129025687871992" fileName="EmbeddedGraphModifier.java" startLine="400" startPosition="21" endLine="402" endPosition="19" />
-    <scopeInfo nodeId="1265453300920783448" fileName="EmbeddedGraphModifier.java" startLine="467" startPosition="64" endLine="469" endPosition="16" />
+    <scopeInfo nodeId="1265453300920783448" fileName="EmbeddedGraphModifier.java" startLine="467" startPosition="70" endLine="469" endPosition="16" />
     <scopeInfo nodeId="272112265222983416" fileName="EmbeddedGraphModifier.java" startLine="55" startPosition="66" endLine="58" endPosition="9">
       <varInfo nodeId="272112265222983417" varName="dir" />
     </scopeInfo>

@@ -32,7 +32,7 @@ public class BiconnectAugmentation {
     if (ListSequence.fromList(root.getChildren()).count() > 0) {
       List<Node> toConnect = ListSequence.fromList(new ArrayList<Node>());
       collectListNodes(root, toConnect, null);
-      if (SetSequence.fromSet(root.getNodes()).count() == 1) {
+      if ((int) SetSequence.fromSet(root.getNodes()).count() == 1) {
         ListSequence.fromList(toConnect).addElement(SetSequence.fromSet(root.getNodes()).first());
       } else {
         final Node cutpoint = root.getCutpoint(ListSequence.fromList(root.getChildren()).first());
@@ -54,9 +54,9 @@ public class BiconnectAugmentation {
   }
 
   private static void collectListNodes(BiconnectedComponent component, List<Node> nodes, final Node cutpoint) {
-    if (ListSequence.fromList(component.getChildren()).count() == 0) {
+    if ((int) ListSequence.fromList(component.getChildren()).count() == 0) {
       Set<Node> componentNodes = component.getNodes();
-      if (SetSequence.fromSet(componentNodes).count() == 1) {
+      if ((int) SetSequence.fromSet(componentNodes).count() == 1) {
         ListSequence.fromList(nodes).addElement(SetSequence.fromSet(componentNodes).first());
       } else {
         ListSequence.fromList(nodes).addElement(SetSequence.fromSet(componentNodes).findFirst(new IWhereFilter<Node>() {
@@ -107,7 +107,7 @@ public class BiconnectAugmentation {
     @Override
     protected void processEdge(Edge edge, Node source) {
       Node next = edge.getOpposite(source);
-      if (MapSequence.fromMap(getDfsState()).get(next) == Dfs.DURING) {
+      if ((Integer) MapSequence.fromMap(getDfsState()).get(next) == Dfs.DURING) {
         changeLow(source, next);
       }
     }

@@ -217,7 +217,7 @@
     <nodeInfo nodeId="1714301205550511352" fileName="HyperGraphLayouter.java" startLine="159" startPosition="57" endLine="160" endPosition="52" conceptFqName="jetbrains.mps.baseLanguage.structure.LocalVariableDeclarationStatement" />
     <nodeInfo nodeId="1714301205550511444" fileName="HyperGraphLayouter.java" startLine="161" startPosition="56" endLine="162" endPosition="30" conceptFqName="jetbrains.mps.baseLanguage.structure.ExpressionStatement" />
     <nodeInfo nodeId="1714301205550511477" fileName="HyperGraphLayouter.java" startLine="162" startPosition="30" endLine="163" endPosition="85" conceptFqName="jetbrains.mps.baseLanguage.structure.ExpressionStatement" />
-    <nodeInfo nodeId="1714301205550511508" fileName="HyperGraphLayouter.java" startLine="165" startPosition="55" endLine="166" endPosition="52" conceptFqName="jetbrains.mps.baseLanguage.structure.LocalVariableDeclarationStatement" />
+    <nodeInfo nodeId="1714301205550511508" fileName="HyperGraphLayouter.java" startLine="165" startPosition="61" endLine="166" endPosition="52" conceptFqName="jetbrains.mps.baseLanguage.structure.LocalVariableDeclarationStatement" />
     <nodeInfo nodeId="1714301205550511519" fileName="HyperGraphLayouter.java" startLine="166" startPosition="52" endLine="167" endPosition="57" conceptFqName="jetbrains.mps.baseLanguage.structure.ExpressionStatement" />
     <nodeInfo nodeId="1714301205550511532" fileName="HyperGraphLayouter.java" startLine="167" startPosition="57" endLine="168" endPosition="59" conceptFqName="jetbrains.mps.baseLanguage.structure.ExpressionStatement" />
     <nodeInfo nodeId="1714301205550511263" fileName="HyperGraphLayouter.java" startLine="41" startPosition="41" endLine="44" endPosition="5" conceptFqName="jetbrains.mps.baseLanguage.structure.IfStatement" />
@@ -276,7 +276,7 @@
       <varInfo nodeId="1714301205550512192" varName="source" />
       <varInfo nodeId="1714301205550512193" varName="target" />
     </scopeInfo>
-    <scopeInfo nodeId="1714301205550511493" fileName="HyperGraphLayouter.java" startLine="165" startPosition="55" endLine="168" endPosition="59">
+    <scopeInfo nodeId="1714301205550511493" fileName="HyperGraphLayouter.java" startLine="165" startPosition="61" endLine="168" endPosition="59">
       <varInfo nodeId="1714301205550511509" varName="leafNode" />
     </scopeInfo>
     <scopeInfo nodeId="1714301205550511231" fileName="HyperGraphLayouter.java" startLine="33" startPosition="56" endLine="37" endPosition="63" />
@@ -606,7 +606,7 @@
     <nodeInfo nodeId="3444434563276236820" fileName="BasicLayouter.java" startLine="49" startPosition="64" endLine="50" endPosition="56" conceptFqName="jetbrains.mps.baseLanguage.structure.ExpressionStatement" />
     <nodeInfo nodeId="3444434563276236825" fileName="BasicLayouter.java" startLine="50" startPosition="56" endLine="51" endPosition="35" conceptFqName="jetbrains.mps.baseLanguage.structure.LocalVariableDeclarationStatement" />
     <nodeInfo nodeId="3444434563276236841" fileName="BasicLayouter.java" startLine="53" startPosition="43" endLine="54" endPosition="38" conceptFqName="jetbrains.mps.baseLanguage.structure.LocalVariableDeclarationStatement" />
-    <nodeInfo nodeId="3444434563276236847" fileName="BasicLayouter.java" startLine="54" startPosition="38" endLine="55" endPosition="77" conceptFqName="jetbrains.mps.baseLanguage.structure.ReturnStatement" />
+    <nodeInfo nodeId="3444434563276236847" fileName="BasicLayouter.java" startLine="54" startPosition="38" endLine="55" endPosition="87" conceptFqName="jetbrains.mps.baseLanguage.structure.ReturnStatement" />
     <nodeInfo nodeId="3444434563276236854" fileName="BasicLayouter.java" startLine="57" startPosition="9" endLine="58" endPosition="59" conceptFqName="jetbrains.mps.baseLanguage.structure.LocalVariableDeclarationStatement" />
     <nodeInfo nodeId="3444434563276236859" fileName="BasicLayouter.java" startLine="58" startPosition="59" endLine="59" endPosition="94" conceptFqName="jetbrains.mps.baseLanguage.structure.ExpressionStatement" />
     <nodeInfo nodeId="3444434563276236872" fileName="BasicLayouter.java" startLine="60" startPosition="5" endLine="61" endPosition="105" conceptFqName="jetbrains.mps.baseLanguage.structure.LocalVariableDeclarationStatement" />
@@ -658,7 +658,7 @@
     <scopeInfo nodeId="1074674001963584142" fileName="BasicLayouter.java" startLine="104" startPosition="30" endLine="105" endPosition="24" />
     <scopeInfo nodeId="1074674001963584148" fileName="BasicLayouter.java" startLine="108" startPosition="45" endLine="109" endPosition="30" />
     <scopeInfo nodeId="8729833695221619975" fileName="BasicLayouter.java" startLine="25" startPosition="0" endLine="27" endPosition="3" />
-    <scopeInfo nodeId="3444434563276236840" fileName="BasicLayouter.java" startLine="53" startPosition="43" endLine="55" endPosition="77">
+    <scopeInfo nodeId="3444434563276236840" fileName="BasicLayouter.java" startLine="53" startPosition="43" endLine="55" endPosition="87">
       <varInfo nodeId="3444434563276236746" varName="myNode" />
     </scopeInfo>
     <scopeInfo nodeId="40016457508985868" fileName="BasicLayouter.java" startLine="91" startPosition="0" endLine="93" endPosition="0">

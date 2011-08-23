@@ -67,11 +67,11 @@ public class EmbeddedGraphModifier_Test extends TestCase {
     Map<Dart, Direction2D> dartDirections = modifier.getDartDirections();
     for (Edge edge : ListSequence.fromList(graph.getEdges())) {
       List<Dart> darts = embeddedGraph.getDarts(edge);
-      Assert.assertTrue(ListSequence.fromList(darts).count() == 2);
+      Assert.assertTrue((int) ListSequence.fromList(darts).count() == 2);
       for (Dart dart : ListSequence.fromList(darts)) {
         Assert.assertTrue(MapSequence.fromMap(dartDirections).containsKey(dart));
       }
     }
-    Assert.assertTrue(SetSequence.fromSet(MapSequence.fromMap(dartDirections).keySet()).count() == ListSequence.fromList(graph.getEdges()).count() * 2);
+    Assert.assertTrue((int) SetSequence.fromSet(MapSequence.fromMap(dartDirections).keySet()).count() == ListSequence.fromList(graph.getEdges()).count() * 2);
   }
 }

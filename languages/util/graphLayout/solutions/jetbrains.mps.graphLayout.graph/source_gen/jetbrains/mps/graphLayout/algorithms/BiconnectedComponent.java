@@ -100,7 +100,7 @@ public class BiconnectedComponent {
     components.doDfs(graph);
     new BiconnectedComponent.TreeMaker(components.getLow(), components.getNum()).doDfs(graph, tree);
     BiconnectedComponent treeCandidate = ListSequence.fromList(tree.getChildren()).first();
-    if (ListSequence.fromList(tree.getChildren()).count() == 1 && tree.getConnection(treeCandidate) instanceof Node) {
+    if ((int) ListSequence.fromList(tree.getChildren()).count() == 1 && tree.getConnection(treeCandidate) instanceof Node) {
       tree = treeCandidate;
     }
     return tree;
@@ -144,7 +144,7 @@ public class BiconnectedComponent {
       }
       for (Edge edge : ListSequence.fromList(node.getEdges())) {
         Node next = edge.getOpposite(node);
-        if (MapSequence.fromMap(myDfsState).get(next) == BEFORE) {
+        if ((Integer) MapSequence.fromMap(myDfsState).get(next) == BEFORE) {
           dfs(next, edge, nextComponent);
         }
       }

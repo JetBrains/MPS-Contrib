@@ -17,8 +17,8 @@ public class STNumberingChecker {
     for (Node node : ListSequence.fromList(graph.getNodes())) {
       maxNumber = Math.max(maxNumber, MapSequence.fromMap(stNumbering).get(node));
     }
-    Assert.assertTrue(MapSequence.fromMap(stNumbering).get(source) == 0);
-    Assert.assertTrue(MapSequence.fromMap(stNumbering).get(target) == maxNumber);
+    Assert.assertTrue((Integer) MapSequence.fromMap(stNumbering).get(source) == 0);
+    Assert.assertTrue((Integer) MapSequence.fromMap(stNumbering).get(target) == maxNumber);
     for (Node node : ListSequence.fromList(graph.getNodes())) {
       if (node == target || node == source) {
         continue;

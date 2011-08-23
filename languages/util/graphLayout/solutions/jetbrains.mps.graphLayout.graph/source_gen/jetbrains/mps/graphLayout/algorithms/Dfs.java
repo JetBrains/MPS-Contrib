@@ -39,7 +39,7 @@ public abstract class Dfs {
   public void doDfs(Graph graph, Edge.Direction direction, _FunctionTypes._return_P1_E0<? extends Boolean, ? super Edge> edgeFilter) {
     this.init(graph, direction, edgeFilter);
     for (Node node : ListSequence.fromList(myGraph.getNodes())) {
-      if (MapSequence.fromMap(myDfsState).get(node) == BEFORE) {
+      if ((Integer) MapSequence.fromMap(myDfsState).get(node) == BEFORE) {
         preprocessRoot(node);
         dfs(node, null);
         postprocessRoot(node);
@@ -72,7 +72,7 @@ public abstract class Dfs {
       if (edge != from) {
         processEdge(edge, node);
         Node target = edge.getOpposite(node);
-        if (MapSequence.fromMap(myDfsState).get(target) == BEFORE) {
+        if ((Integer) MapSequence.fromMap(myDfsState).get(target) == BEFORE) {
           dfs(target, edge);
         }
       }

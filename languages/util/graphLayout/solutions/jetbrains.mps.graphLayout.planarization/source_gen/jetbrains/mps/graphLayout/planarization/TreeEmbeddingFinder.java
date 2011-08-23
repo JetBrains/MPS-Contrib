@@ -208,7 +208,7 @@ public class TreeEmbeddingFinder implements IEmbeddingFinder {
 
     @Override
     protected void processEdge(Edge edge, Node source) {
-      if (MapSequence.fromMap(getDfsState()).get(edge.getOpposite(source)) == Dfs.BEFORE) {
+      if ((Integer) MapSequence.fromMap(getDfsState()).get(edge.getOpposite(source)) == Dfs.BEFORE) {
         myOuterFace.addLast(new Dart(edge, source));
       } else {
         SetSequence.fromSet(myBackEdges).addElement(edge);

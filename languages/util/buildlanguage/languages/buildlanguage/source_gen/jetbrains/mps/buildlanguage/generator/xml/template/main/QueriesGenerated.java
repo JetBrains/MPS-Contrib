@@ -123,7 +123,7 @@ public class QueriesGenerated {
   }
 
   public static SNode sourceNodeQuery_1197045463934(final IOperationContext operationContext, final SourceSubstituteMacroNodeContext _context) {
-    if (ListSequence.fromList(SLinkOperations.getTargets(_context.getNode(), "depends", true)).count() == 0) {
+    if ((int) ListSequence.fromList(SLinkOperations.getTargets(_context.getNode(), "depends", true)).count() == 0) {
       return null;
     }
     SNode attribute = SConceptOperations.createNewNode("jetbrains.mps.xml.deprecated.structure.Attribute", null);

@@ -24,8 +24,8 @@ public class WeightedTopologicalNumbering_Test extends TestCase {
     MapSequence.fromMap(w).put(ListSequence.fromList(edges).getElement(1), 3);
     MapSequence.fromMap(w).put(ListSequence.fromList(edges).getElement(2), 1);
     Map<Node, Integer> num = WeightedTopologicalNumbering.number(graph, w);
-    Assert.assertTrue(MapSequence.fromMap(num).get(graph.getNode(0)) == 0);
-    Assert.assertTrue(MapSequence.fromMap(num).get(graph.getNode(1)) == 1);
-    Assert.assertTrue(MapSequence.fromMap(num).get(graph.getNode(2)) == 3);
+    Assert.assertTrue((Integer) MapSequence.fromMap(num).get(graph.getNode(0)) == 0);
+    Assert.assertTrue((Integer) MapSequence.fromMap(num).get(graph.getNode(1)) == 1);
+    Assert.assertTrue((Integer) MapSequence.fromMap(num).get(graph.getNode(2)) == 3);
   }
 }

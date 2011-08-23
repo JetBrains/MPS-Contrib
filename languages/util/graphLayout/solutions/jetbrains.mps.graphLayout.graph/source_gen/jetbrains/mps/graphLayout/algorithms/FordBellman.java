@@ -78,7 +78,7 @@ public class FordBellman {
 
   public List<Edge> getShortestPath(Node target) {
     List<Edge> path = ListSequence.fromList(new LinkedList<Edge>());
-    if (MapSequence.fromMap(myDist).get(target) == ShortestPath.INF) {
+    if ((Integer) MapSequence.fromMap(myDist).get(target) == ShortestPath.INF) {
       return null;
     }
     Node cur = target;
