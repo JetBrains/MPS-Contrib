@@ -52,6 +52,10 @@ public class Controller_TabDescriptor extends EditorTabDescriptor {
     return ComponentDeclaration_Behavior.call_getController_1213877495364(node);
   }
 
+  public List<SNode> getConcepts(final SNode node) {
+    return ListSequence.fromListAndArray(new ArrayList<SNode>(), SConceptOperations.findConceptDeclaration("jetbrains.mps.uiLanguage.structure.ComponentController"));
+  }
+
   public SNode createNode(final SNode node, final SNode concept) {
     SNode controller = SConceptOperations.createNewNode("jetbrains.mps.uiLanguage.structure.ComponentController", null);
     SLinkOperations.setTarget(controller, "component", node, false);
