@@ -18,10 +18,10 @@ public class DFSEdgeReverter extends Dfs implements IEdgeReverter {
   }
 
   public Set<Edge> revertEdges(Graph graph) {
-    myToRevert = SetSequence.fromSet(new HashSet<Edge>());
+    myToRevert = SetSequence.<Edge>fromSet(new HashSet<Edge>());
     doDfs(graph);
-    Set<Edge> reverted = SetSequence.fromSet(new HashSet<Edge>());
-    for (Edge edge : SetSequence.fromSet(myToRevert)) {
+    Set<Edge> reverted = SetSequence.<Edge>fromSet(new HashSet<Edge>());
+    for (Edge edge : SetSequence.<Edge>fromSet(myToRevert)) {
       graph.removeEdge(edge);
       SetSequence.fromSet(reverted).addElement(graph.connect(edge.getTarget(), edge.getSource()));
     }
@@ -31,7 +31,7 @@ public class DFSEdgeReverter extends Dfs implements IEdgeReverter {
   @Override
   protected void processEdge(Edge edge, Node source) {
     Node target = edge.getTarget();
-    int state = MapSequence.fromMap(getDfsState()).get(target);
+    int state = MapSequence.<Node,Integer>fromMap(getDfsState()).get(target);
     if (state == Dfs.DURING) {
       SetSequence.fromSet(myToRevert).addElement(edge);
     }

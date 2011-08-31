@@ -17,10 +17,10 @@ public class TopologicalSorting_Test extends TestCase {
     String graphString = "4 4  3 1  3 2  1 2  1 0";
     Graph graph = GraphIO.scanGraph(new Scanner(graphString));
     List<Node> order = TopologicalSorting.sort(graph);
-    Assert.assertTrue(ListSequence.fromList(order).count() == graph.getNumNodes());
-    Assert.assertTrue(ListSequence.fromList(order).getElement(0) == graph.getNode(3));
-    Assert.assertTrue(ListSequence.fromList(order).getElement(1) == graph.getNode(1));
-    Assert.assertTrue(ListSequence.fromList(order).getElement(2) == graph.getNode(2));
-    Assert.assertTrue(ListSequence.fromList(order).getElement(3) == graph.getNode(0));
+    Assert.assertTrue(ListSequence.<Node>fromList(order).count() == graph.getNumNodes());
+    Assert.assertTrue(ListSequence.<Node>fromList(order).getElement(0) == graph.getNode(3));
+    Assert.assertTrue(ListSequence.<Node>fromList(order).getElement(1) == graph.getNode(1));
+    Assert.assertTrue(ListSequence.<Node>fromList(order).getElement(2) == graph.getNode(2));
+    Assert.assertTrue(ListSequence.<Node>fromList(order).getElement(3) == graph.getNode(0));
   }
 }

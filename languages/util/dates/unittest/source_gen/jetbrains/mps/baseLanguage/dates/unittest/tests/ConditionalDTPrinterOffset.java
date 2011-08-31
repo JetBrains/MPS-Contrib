@@ -33,10 +33,10 @@ public class ConditionalDTPrinterOffset extends ConditionalDateTimePrinter {
 
   protected List<DateTimePrinter> createPrinters() {
     List<DateTimePrinter> printers = new ArrayList<DateTimePrinter>(4);
-    ListSequence.fromList(printers).addElement((MainFormatTable.INSTANCE).getFormatter("momentsAgo").getPrinter());
-    ListSequence.fromList(printers).addElement((MainFormatTable.INSTANCE).getFormatter("minutesAgo").getPrinter());
-    ListSequence.fromList(printers).addElement((MainFormatTable.INSTANCE).getFormatter("hoursAgo").getPrinter());
-    ListSequence.fromList(printers).addElement((MainFormatTable.INSTANCE).getFormatter("daysAgo").getPrinter());
+    ListSequence.<DateTimePrinter>fromList(printers).addElement((MainFormatTable.INSTANCE).getFormatter("momentsAgo").getPrinter());
+    ListSequence.<DateTimePrinter>fromList(printers).addElement((MainFormatTable.INSTANCE).getFormatter("minutesAgo").getPrinter());
+    ListSequence.<DateTimePrinter>fromList(printers).addElement((MainFormatTable.INSTANCE).getFormatter("hoursAgo").getPrinter());
+    ListSequence.<DateTimePrinter>fromList(printers).addElement((MainFormatTable.INSTANCE).getFormatter("daysAgo").getPrinter());
     return printers;
   }
 }

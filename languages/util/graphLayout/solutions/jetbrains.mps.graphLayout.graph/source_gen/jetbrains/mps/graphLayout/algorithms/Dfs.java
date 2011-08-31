@@ -38,8 +38,8 @@ public abstract class Dfs {
 
   public void doDfs(Graph graph, Edge.Direction direction, _FunctionTypes._return_P1_E0<? extends Boolean, ? super Edge> edgeFilter) {
     this.init(graph, direction, edgeFilter);
-    for (Node node : ListSequence.fromList(myGraph.getNodes())) {
-      if (MapSequence.fromMap(myDfsState).get(node) == BEFORE) {
+    for (Node node : ListSequence.<Node>fromList(myGraph.getNodes())) {
+      if (MapSequence.<Node,Integer>fromMap(myDfsState).get(node) == BEFORE) {
         preprocessRoot(node);
         dfs(node, null);
         postprocessRoot(node);
@@ -60,25 +60,25 @@ public abstract class Dfs {
     myEdgeFilter = edgeFilter;
     myDfsState = new NodeMap<Integer>(graph);
     myDirection = direction;
-    for (Node node : ListSequence.fromList(myGraph.getNodes())) {
-      MapSequence.fromMap(myDfsState).put(node, BEFORE);
+    for (Node node : ListSequence.<Node>fromList(myGraph.getNodes())) {
+      MapSequence.<Node,Integer>fromMap(myDfsState).put(node, BEFORE);
     }
   }
 
   protected void dfs(Node node, Edge from) {
-    MapSequence.fromMap(myDfsState).put(node, DURING);
+    MapSequence.<Node,Integer>fromMap(myDfsState).put(node, DURING);
     preprocess(node, from);
-    for (Edge edge : ListSequence.fromList(node.getEdges(myDirection)).where(myEdgeFilter)) {
+    for (Edge edge : ListSequence.<Edge>fromList(node.getEdges(myDirection)).where(myEdgeFilter)) {
       if (edge != from) {
         processEdge(edge, node);
         Node target = edge.getOpposite(node);
-        if (MapSequence.fromMap(myDfsState).get(target) == BEFORE) {
+        if (MapSequence.<Node,Integer>fromMap(myDfsState).get(target) == BEFORE) {
           dfs(target, edge);
         }
       }
     }
     postprocess(node, from);
-    MapSequence.fromMap(myDfsState).put(node, AFTER);
+    MapSequence.<Node,Integer>fromMap(myDfsState).put(node, AFTER);
   }
 
   protected void preprocessRoot(Node root) {

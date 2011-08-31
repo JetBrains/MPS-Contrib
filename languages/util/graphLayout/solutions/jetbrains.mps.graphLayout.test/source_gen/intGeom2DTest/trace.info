@@ -1,6 +1,5 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <debugInfo>
-  <unitInfo fileName="IsIntersects_Test.java" startLine="10" startPosition="0" endLine="43" endPosition="0" unitName="intGeom2DTest.IsIntersects_Test" />
   <root nodeId="7490214903453704353">
     <nodeInfo nodeId="7490214903453704370" fileName="IsIntersects_Test.java" startLine="11" startPosition="49" endLine="12" endPosition="31" conceptFqName="jetbrains.mps.baseLanguage.structure.LocalVariableDeclarationStatement" />
     <nodeInfo nodeId="7490214903453704380" fileName="IsIntersects_Test.java" startLine="12" startPosition="31" endLine="13" endPosition="31" conceptFqName="jetbrains.mps.baseLanguage.structure.LocalVariableDeclarationStatement" />
@@ -54,6 +53,7 @@
     <scopeInfo nodeId="7490214903453704424" fileName="IsIntersects_Test.java" startLine="18" startPosition="0" endLine="26" endPosition="0" />
     <scopeInfo nodeId="7490214903453705507" fileName="IsIntersects_Test.java" startLine="26" startPosition="0" endLine="34" endPosition="0" />
     <scopeInfo nodeId="7490214903453705570" fileName="IsIntersects_Test.java" startLine="34" startPosition="0" endLine="42" endPosition="0" />
+    <unitInfo nodeId="7490214903453704353" fileName="IsIntersects_Test.java" startLine="10" startPosition="0" endLine="43" endPosition="0" unitName="intGeom2DTest.IsIntersects_Test" />
   </root>
 </debugInfo>
 

@@ -142,13 +142,13 @@ public class TestPanel extends JPanel {
   private void writeGraph(Graph graph) {
     int numEdges = 0;
     List<Node> nodes = graph.getNodes();
-    for (Node node : ListSequence.fromList(nodes)) {
-      numEdges += ListSequence.fromList(node.getOutEdges()).count();
+    for (Node node : ListSequence.<Node>fromList(nodes)) {
+      numEdges += ListSequence.<Edge>fromList(node.getOutEdges()).count();
     }
     myTextArea.setText("");
     myTextArea.append(graph.getNumNodes() + " " + numEdges + "\n");
-    for (Node node : ListSequence.fromList(nodes)) {
-      for (Edge edge : ListSequence.fromList(node.getOutEdges())) {
+    for (Node node : ListSequence.<Node>fromList(nodes)) {
+      for (Edge edge : ListSequence.<Edge>fromList(node.getOutEdges())) {
         myTextArea.append(edge.getSource().getIndex() + " " + edge.getTarget().getIndex() + "\n");
       }
     }
@@ -225,18 +225,18 @@ public class TestPanel extends JPanel {
         int yOffset = 40;
         Map<Node, Point> nodeLayout = myCurrentLayout.getNodeLayout();
         Map<Edge, List<Point>> edgeLayout = myCurrentLayout.getEdgeLayout();
-        for (Edge edge : SetSequence.fromSet(MapSequence.fromMap(edgeLayout).keySet())) {
+        for (Edge edge : SetSequence.<Edge>fromSet(MapSequence.fromMap(edgeLayout).keySet())) {
           Point cur = null;
-          for (Point point : ListSequence.fromList(MapSequence.fromMap(edgeLayout).get(edge))) {
+          for (Point point : ListSequence.<Point>fromList(MapSequence.<Edge,List<Point>>fromMap(edgeLayout).get(edge))) {
             if (cur != null) {
               graphics.drawLine(cur.x * TestPanel.SCALE_X + xOffset, cur.y * TestPanel.SCALE_Y + yOffset, point.x * TestPanel.SCALE_X + xOffset, point.y * TestPanel.SCALE_Y + yOffset);
             }
             cur = point;
           }
         }
-        for (Node node : SetSequence.fromSet(MapSequence.fromMap(nodeLayout).keySet())) {
-          int x = xOffset + (MapSequence.fromMap(nodeLayout).get(node).x) * TestPanel.SCALE_X - TestPanel.NSIZE / 2;
-          int y = yOffset + (MapSequence.fromMap(nodeLayout).get(node).y) * TestPanel.SCALE_Y - TestPanel.NSIZE / 2;
+        for (Node node : SetSequence.<Node>fromSet(MapSequence.fromMap(nodeLayout).keySet())) {
+          int x = xOffset + (MapSequence.<Node,Point>fromMap(nodeLayout).get(node).x) * TestPanel.SCALE_X - TestPanel.NSIZE / 2;
+          int y = yOffset + (MapSequence.<Node,Point>fromMap(nodeLayout).get(node).y) * TestPanel.SCALE_Y - TestPanel.NSIZE / 2;
           Color oldColor = graphics.getColor();
           graphics.setColor(myGraphLabel.getBackground());
           graphics.fillOval(x, y, TestPanel.NSIZE, TestPanel.NSIZE);

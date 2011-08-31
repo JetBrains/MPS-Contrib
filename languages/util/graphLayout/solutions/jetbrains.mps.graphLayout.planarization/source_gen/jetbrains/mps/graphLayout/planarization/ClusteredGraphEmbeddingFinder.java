@@ -28,24 +28,24 @@ public class ClusteredGraphEmbeddingFinder implements IEmbeddingFinder {
     if (graph instanceof ClusteredGraph) {
       ClusteredGraph clusteredGraph = ((ClusteredGraph) graph);
       Node root = clusteredGraph.getRoot();
-      myClusterBorderMap = MapSequence.fromMap(new HashMap<Node, List<Edge>>());
+      myClusterBorderMap = MapSequence.<Node,List<Edge>>fromMap(new HashMap<Node, List<Edge>>());
       ConnectivityComponents.makeConnected(graph);
       BiconnectAugmentation.smartMakeBiconnected(graph);
       ClusterEmbeddingConstructor constructor = new ClusterEmbeddingConstructor(clusteredGraph, root, null);
       constructor.setClusterBorderMap(myClusterBorderMap);
       EmbeddedGraph embeddedGraph = constructor.constructEmbedding();
-      for (Node cluster : SetSequence.fromSet(MapSequence.fromMap(myClusterBorderMap).keySet())) {
-        List<Edge> newBorder = ListSequence.fromList(new LinkedList<Edge>());
-        for (Edge edge : ListSequence.fromList(MapSequence.fromMap(myClusterBorderMap).get(cluster))) {
+      for (Node cluster : SetSequence.<Node>fromSet(MapSequence.fromMap(myClusterBorderMap).keySet())) {
+        List<Edge> newBorder = ListSequence.<Edge>fromList(new LinkedList<Edge>());
+        for (Edge edge : ListSequence.<Edge>fromList(MapSequence.<Node,List<Edge>>fromMap(myClusterBorderMap).get(cluster))) {
           if (edge.getSource() == edge.getTarget()) {
-            List<Edge> newEdges = ListSequence.fromList(new LinkedList<Edge>());
+            List<Edge> newEdges = ListSequence.<Edge>fromList(new LinkedList<Edge>());
             embeddedGraph.splitEdge(edge, newEdges);
-            ListSequence.fromList(newBorder).addSequence(ListSequence.fromList(newEdges));
+            ListSequence.<Edge>fromList(newBorder).addSequence(ListSequence.<Edge>fromList(newEdges));
           } else {
-            ListSequence.fromList(newBorder).addElement(edge);
+            ListSequence.<Edge>fromList(newBorder).addElement(edge);
           }
         }
-        MapSequence.fromMap(myClusterBorderMap).put(cluster, newBorder);
+        MapSequence.<Node,List<Edge>>fromMap(myClusterBorderMap).put(cluster, newBorder);
       }
       CheckEmbeddedGraph.checkEmbeddedGraph(embeddedGraph, false);
       return embeddedGraph;

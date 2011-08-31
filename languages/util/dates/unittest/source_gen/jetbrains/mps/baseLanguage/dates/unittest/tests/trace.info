@@ -1,36 +1,39 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <debugInfo>
-  <unitInfo fileName="Cron_Test.java" startLine="8" startPosition="0" endLine="21" endPosition="0" unitName="jetbrains.mps.baseLanguage.dates.unittest.tests.Cron_Test" />
-  <unitInfo fileName="MainFormat2.java" startLine="13" startPosition="0" endLine="28" endPosition="0" unitName="jetbrains.mps.baseLanguage.dates.unittest.tests.MainFormat2" />
-  <unitInfo fileName="Convert_Test.java" startLine="12" startPosition="0" endLine="31" endPosition="0" unitName="jetbrains.mps.baseLanguage.dates.unittest.tests.Convert_Test" />
-  <unitInfo fileName="With_Test.java" startLine="15" startPosition="0" endLine="35" endPosition="0" unitName="jetbrains.mps.baseLanguage.dates.unittest.tests.With_Test" />
-  <unitInfo fileName="ConditionalDTPrinterOptionalDate.java" startLine="14" startPosition="0" endLine="39" endPosition="0" unitName="jetbrains.mps.baseLanguage.dates.unittest.tests.ConditionalDTPrinterOptionalDate" />
-  <unitInfo fileName="ConditionalDTPrinterOffset.java" startLine="14" startPosition="0" endLine="43" endPosition="0" unitName="jetbrains.mps.baseLanguage.dates.unittest.tests.ConditionalDTPrinterOffset" />
-  <unitInfo fileName="Property_Test.java" startLine="17" startPosition="0" endLine="58" endPosition="0" unitName="jetbrains.mps.baseLanguage.dates.unittest.tests.Property_Test" />
-  <unitInfo fileName="Arithmetic_Test.java" startLine="15" startPosition="0" endLine="57" endPosition="0" unitName="jetbrains.mps.baseLanguage.dates.unittest.tests.Arithmetic_Test" />
-  <unitInfo fileName="Round_Test.java" startLine="18" startPosition="0" endLine="75" endPosition="0" unitName="jetbrains.mps.baseLanguage.dates.unittest.tests.Round_Test" />
-  <unitInfo fileName="IsNull_Test.java" startLine="14" startPosition="0" endLine="72" endPosition="0" unitName="jetbrains.mps.baseLanguage.dates.unittest.tests.IsNull_Test" />
-  <unitInfo fileName="Period_Test.java" startLine="16" startPosition="0" endLine="77" endPosition="0" unitName="jetbrains.mps.baseLanguage.dates.unittest.tests.Period_Test" />
-  <unitInfo fileName="InlineFormat_Test.java" startLine="20" startPosition="0" endLine="82" endPosition="0" unitName="jetbrains.mps.baseLanguage.dates.unittest.tests.InlineFormat_Test" />
-  <unitInfo fileName="Compare_Test.java" startLine="15" startPosition="0" endLine="80" endPosition="0" unitName="jetbrains.mps.baseLanguage.dates.unittest.tests.Compare_Test" />
-  <unitInfo fileName="Parse_Test.java" startLine="16" startPosition="0" endLine="85" endPosition="0" unitName="jetbrains.mps.baseLanguage.dates.unittest.tests.Parse_Test" />
-  <unitInfo fileName="main_Format2.java" startLine="9" startPosition="0" endLine="82" endPosition="0" unitName="jetbrains.mps.baseLanguage.dates.unittest.tests.main_Format2" />
-  <unitInfo fileName="DateTimeZone_Test.java" startLine="15" startPosition="0" endLine="102" endPosition="0" unitName="jetbrains.mps.baseLanguage.dates.unittest.tests.DateTimeZone_Test" />
-  <unitInfo fileName="Format_Test.java" startLine="20" startPosition="0" endLine="119" endPosition="0" unitName="jetbrains.mps.baseLanguage.dates.unittest.tests.Format_Test" />
-  <unitInfo fileName="MainFormatTable.java" startLine="13" startPosition="0" endLine="124" endPosition="0" unitName="jetbrains.mps.baseLanguage.dates.unittest.tests.MainFormatTable" />
   <root nodeId="1169488395206">
+    <nodeInfo nodeId="1169488395206" fileName="MainFormatTable.java" startLine="13" startPosition="54" endLine="14" endPosition="65" conceptFqName="jetbrains.mps.baseLanguage.structure.StaticFieldDeclaration" propertyString="INSTANCE" />
+    <nodeInfo nodeId="1169645782400" fileName="ConditionalDTPrinterOptionalDate.java" startLine="19" startPosition="54" endLine="20" endPosition="15" conceptFqName="jetbrains.mps.baseLanguage.structure.ReturnStatement" />
+    <nodeInfo nodeId="1174322061629" fileName="ConditionalDTPrinterOffset.java" startLine="19" startPosition="133" endLine="20" endPosition="15" conceptFqName="jetbrains.mps.baseLanguage.structure.ReturnStatement" />
     <nodeInfo nodeId="1172684095976" fileName="MainFormatTable.java" startLine="20" startPosition="46" endLine="21" endPosition="72" conceptFqName="jetbrains.mps.baseLanguage.structure.LocalVariableDeclarationStatement" />
     <nodeInfo nodeId="1172684075121" fileName="MainFormatTable.java" startLine="22" startPosition="7" endLine="23" endPosition="151" conceptFqName="jetbrains.mps.baseLanguage.structure.LocalVariableDeclarationStatement" />
+    <nodeInfo nodeId="1174322061629" fileName="ConditionalDTPrinterOffset.java" startLine="22" startPosition="130" endLine="23" endPosition="15" conceptFqName="jetbrains.mps.baseLanguage.structure.ReturnStatement" />
+    <nodeInfo nodeId="1169645782400" fileName="ConditionalDTPrinterOptionalDate.java" startLine="22" startPosition="131" endLine="23" endPosition="15" conceptFqName="jetbrains.mps.baseLanguage.structure.ReturnStatement" />
     <nodeInfo nodeId="1172684075121" fileName="MainFormatTable.java" startLine="23" startPosition="151" endLine="24" endPosition="45" conceptFqName="jetbrains.mps.baseLanguage.structure.ExpressionStatement" />
     <nodeInfo nodeId="1172684095976" fileName="MainFormatTable.java" startLine="25" startPosition="7" endLine="26" endPosition="35" conceptFqName="jetbrains.mps.baseLanguage.structure.ReturnStatement" />
+    <nodeInfo nodeId="1169645782400" fileName="ConditionalDTPrinterOptionalDate.java" startLine="25" startPosition="131" endLine="26" endPosition="15" conceptFqName="jetbrains.mps.baseLanguage.structure.ReturnStatement" />
+    <nodeInfo nodeId="1174322061629" fileName="ConditionalDTPrinterOffset.java" startLine="25" startPosition="131" endLine="26" endPosition="15" conceptFqName="jetbrains.mps.baseLanguage.structure.ReturnStatement" />
+    <nodeInfo nodeId="1169645782400" fileName="ConditionalDTPrinterOptionalDate.java" startLine="27" startPosition="5" endLine="28" endPosition="14" conceptFqName="jetbrains.mps.baseLanguage.structure.ReturnStatement" />
+    <nodeInfo nodeId="1174322061629" fileName="ConditionalDTPrinterOffset.java" startLine="28" startPosition="15" endLine="29" endPosition="15" conceptFqName="jetbrains.mps.baseLanguage.structure.ReturnStatement" />
     <nodeInfo nodeId="1172684313431" fileName="MainFormatTable.java" startLine="28" startPosition="48" endLine="29" endPosition="72" conceptFqName="jetbrains.mps.baseLanguage.structure.LocalVariableDeclarationStatement" />
     <nodeInfo nodeId="1173967535545" fileName="MainFormatTable.java" startLine="29" startPosition="72" endLine="30" endPosition="36" conceptFqName="jetbrains.mps.baseLanguage.structure.ExpressionStatement" />
+    <nodeInfo nodeId="1174322061629" fileName="ConditionalDTPrinterOffset.java" startLine="30" startPosition="5" endLine="31" endPosition="14" conceptFqName="jetbrains.mps.baseLanguage.structure.ReturnStatement" />
     <nodeInfo nodeId="1172684313431" fileName="MainFormatTable.java" startLine="30" startPosition="36" endLine="31" endPosition="35" conceptFqName="jetbrains.mps.baseLanguage.structure.ReturnStatement" />
+    <nodeInfo nodeId="1169645782400" fileName="ConditionalDTPrinterOptionalDate.java" startLine="31" startPosition="52" endLine="32" endPosition="71" conceptFqName="jetbrains.mps.baseLanguage.structure.LocalVariableDeclarationStatement" />
+    <nodeInfo nodeId="1169645782400" fileName="ConditionalDTPrinterOptionalDate.java" startLine="32" startPosition="71" endLine="33" endPosition="127" conceptFqName="jetbrains.mps.baseLanguage.structure.ExpressionStatement" />
     <nodeInfo nodeId="1169549842090" fileName="MainFormatTable.java" startLine="33" startPosition="44" endLine="34" endPosition="72" conceptFqName="jetbrains.mps.baseLanguage.structure.LocalVariableDeclarationStatement" />
+    <nodeInfo nodeId="1169645782400" fileName="ConditionalDTPrinterOptionalDate.java" startLine="33" startPosition="127" endLine="34" endPosition="126" conceptFqName="jetbrains.mps.baseLanguage.structure.ExpressionStatement" />
+    <nodeInfo nodeId="1174322061629" fileName="ConditionalDTPrinterOffset.java" startLine="34" startPosition="52" endLine="35" endPosition="71" conceptFqName="jetbrains.mps.baseLanguage.structure.LocalVariableDeclarationStatement" />
     <nodeInfo nodeId="1169637567689" fileName="MainFormatTable.java" startLine="34" startPosition="72" endLine="35" endPosition="70" conceptFqName="jetbrains.mps.baseLanguage.structure.ExpressionStatement" />
+    <nodeInfo nodeId="1169645782400" fileName="ConditionalDTPrinterOptionalDate.java" startLine="34" startPosition="126" endLine="35" endPosition="131" conceptFqName="jetbrains.mps.baseLanguage.structure.ExpressionStatement" />
     <nodeInfo nodeId="1169637573864" fileName="MainFormatTable.java" startLine="35" startPosition="70" endLine="36" endPosition="33" conceptFqName="jetbrains.mps.baseLanguage.structure.ExpressionStatement" />
+    <nodeInfo nodeId="1174322061629" fileName="ConditionalDTPrinterOffset.java" startLine="35" startPosition="71" endLine="36" endPosition="132" conceptFqName="jetbrains.mps.baseLanguage.structure.ExpressionStatement" />
+    <nodeInfo nodeId="1169645782400" fileName="ConditionalDTPrinterOptionalDate.java" startLine="35" startPosition="131" endLine="36" endPosition="20" conceptFqName="jetbrains.mps.baseLanguage.structure.ReturnStatement" />
     <nodeInfo nodeId="1169637569769" fileName="MainFormatTable.java" startLine="36" startPosition="33" endLine="37" endPosition="70" conceptFqName="jetbrains.mps.baseLanguage.structure.ExpressionStatement" />
+    <nodeInfo nodeId="1174322061629" fileName="ConditionalDTPrinterOffset.java" startLine="36" startPosition="132" endLine="37" endPosition="132" conceptFqName="jetbrains.mps.baseLanguage.structure.ExpressionStatement" />
     <nodeInfo nodeId="1169549842090" fileName="MainFormatTable.java" startLine="37" startPosition="70" endLine="38" endPosition="35" conceptFqName="jetbrains.mps.baseLanguage.structure.ReturnStatement" />
+    <nodeInfo nodeId="1174322061629" fileName="ConditionalDTPrinterOffset.java" startLine="37" startPosition="132" endLine="38" endPosition="130" conceptFqName="jetbrains.mps.baseLanguage.structure.ExpressionStatement" />
+    <nodeInfo nodeId="1174322061629" fileName="ConditionalDTPrinterOffset.java" startLine="38" startPosition="130" endLine="39" endPosition="129" conceptFqName="jetbrains.mps.baseLanguage.structure.ExpressionStatement" />
+    <nodeInfo nodeId="1174322061629" fileName="ConditionalDTPrinterOffset.java" startLine="39" startPosition="129" endLine="40" endPosition="20" conceptFqName="jetbrains.mps.baseLanguage.structure.ReturnStatement" />
     <nodeInfo nodeId="1169637469524" fileName="MainFormatTable.java" startLine="40" startPosition="39" endLine="41" endPosition="72" conceptFqName="jetbrains.mps.baseLanguage.structure.LocalVariableDeclarationStatement" />
     <nodeInfo nodeId="1173967313353" fileName="MainFormatTable.java" startLine="41" startPosition="72" endLine="42" endPosition="36" conceptFqName="jetbrains.mps.baseLanguage.structure.ExpressionStatement" />
     <nodeInfo nodeId="1169637482962" fileName="MainFormatTable.java" startLine="42" startPosition="36" endLine="43" endPosition="33" conceptFqName="jetbrains.mps.baseLanguage.structure.ExpressionStatement" />
@@ -86,6 +89,24 @@
     <nodeInfo nodeId="4555537781927638029" fileName="MainFormatTable.java" startLine="116" startPosition="39" endLine="117" endPosition="72" conceptFqName="jetbrains.mps.baseLanguage.structure.LocalVariableDeclarationStatement" />
     <nodeInfo nodeId="4555537781927638511" fileName="MainFormatTable.java" startLine="117" startPosition="72" endLine="118" endPosition="35" conceptFqName="jetbrains.mps.baseLanguage.structure.ExpressionStatement" />
     <nodeInfo nodeId="4555537781927638029" fileName="MainFormatTable.java" startLine="118" startPosition="35" endLine="119" endPosition="35" conceptFqName="jetbrains.mps.baseLanguage.structure.ReturnStatement" />
+    <nodeInfo nodeId="1169488395206" fileName="MainFormatTable.java" startLine="120" startPosition="5" endLine="121" endPosition="16" conceptFqName="jetbrains.mps.baseLanguage.structure.ReturnStatement" />
+    <nodeInfo nodeId="1174322061629" fileName="ConditionalDTPrinterOffset.java" startLine="14" startPosition="76" endLine="16" endPosition="3" conceptFqName="jetbrains.mps.baseLanguage.structure.ConstructorDeclaration" propertyString="ConditionalDTPrinterOffset#()V" />
+    <nodeInfo nodeId="1169645782400" fileName="ConditionalDTPrinterOptionalDate.java" startLine="14" startPosition="82" endLine="16" endPosition="3" conceptFqName="jetbrains.mps.baseLanguage.structure.ConstructorDeclaration" propertyString="ConditionalDTPrinterOptionalDate#()V" />
+    <nodeInfo nodeId="1169488395206" fileName="MainFormatTable.java" startLine="15" startPosition="0" endLine="17" endPosition="3" conceptFqName="jetbrains.mps.baseLanguage.structure.ConstructorDeclaration" propertyString="MainFormatTable#()V" />
+    <nodeInfo nodeId="1169645782400" fileName="ConditionalDTPrinterOptionalDate.java" startLine="18" startPosition="56" endLine="21" endPosition="5" conceptFqName="jetbrains.mps.baseLanguage.structure.BlockStatement" />
+    <nodeInfo nodeId="1169645782400" fileName="ConditionalDTPrinterOptionalDate.java" startLine="18" startPosition="56" endLine="21" endPosition="5" conceptFqName="jetbrains.mps.baseLanguage.structure.IfStatement" />
+    <nodeInfo nodeId="1174322061629" fileName="ConditionalDTPrinterOffset.java" startLine="18" startPosition="56" endLine="21" endPosition="5" conceptFqName="jetbrains.mps.baseLanguage.structure.BlockStatement" />
+    <nodeInfo nodeId="1174322061629" fileName="ConditionalDTPrinterOffset.java" startLine="18" startPosition="56" endLine="21" endPosition="5" conceptFqName="jetbrains.mps.baseLanguage.structure.IfStatement" />
+    <nodeInfo nodeId="1169645782400" fileName="ConditionalDTPrinterOptionalDate.java" startLine="21" startPosition="5" endLine="24" endPosition="5" conceptFqName="jetbrains.mps.baseLanguage.structure.BlockStatement" />
+    <nodeInfo nodeId="1169645782400" fileName="ConditionalDTPrinterOptionalDate.java" startLine="21" startPosition="5" endLine="24" endPosition="5" conceptFqName="jetbrains.mps.baseLanguage.structure.IfStatement" />
+    <nodeInfo nodeId="1174322061629" fileName="ConditionalDTPrinterOffset.java" startLine="21" startPosition="5" endLine="24" endPosition="5" conceptFqName="jetbrains.mps.baseLanguage.structure.BlockStatement" />
+    <nodeInfo nodeId="1174322061629" fileName="ConditionalDTPrinterOffset.java" startLine="21" startPosition="5" endLine="24" endPosition="5" conceptFqName="jetbrains.mps.baseLanguage.structure.IfStatement" />
+    <nodeInfo nodeId="1169645782400" fileName="ConditionalDTPrinterOptionalDate.java" startLine="24" startPosition="5" endLine="27" endPosition="5" conceptFqName="jetbrains.mps.baseLanguage.structure.BlockStatement" />
+    <nodeInfo nodeId="1169645782400" fileName="ConditionalDTPrinterOptionalDate.java" startLine="24" startPosition="5" endLine="27" endPosition="5" conceptFqName="jetbrains.mps.baseLanguage.structure.IfStatement" />
+    <nodeInfo nodeId="1174322061629" fileName="ConditionalDTPrinterOffset.java" startLine="24" startPosition="5" endLine="27" endPosition="5" conceptFqName="jetbrains.mps.baseLanguage.structure.BlockStatement" />
+    <nodeInfo nodeId="1174322061629" fileName="ConditionalDTPrinterOffset.java" startLine="24" startPosition="5" endLine="27" endPosition="5" conceptFqName="jetbrains.mps.baseLanguage.structure.IfStatement" />
+    <nodeInfo nodeId="1174322061629" fileName="ConditionalDTPrinterOffset.java" startLine="27" startPosition="5" endLine="30" endPosition="5" conceptFqName="jetbrains.mps.baseLanguage.structure.BlockStatement" />
+    <nodeInfo nodeId="1174322061629" fileName="ConditionalDTPrinterOffset.java" startLine="27" startPosition="5" endLine="30" endPosition="5" conceptFqName="jetbrains.mps.baseLanguage.structure.IfStatement" />
     <nodeInfo nodeId="1172684075121" fileName="MainFormatTable.java" startLine="21" startPosition="72" endLine="25" endPosition="7" conceptFqName="jetbrains.mps.baseLanguage.structure.BlockStatement" />
     <nodeInfo nodeId="1172684313431" fileName="MainFormatTable.java" startLine="27" startPosition="5" endLine="32" endPosition="5" conceptFqName="jetbrains.mps.baseLanguage.structure.IfStatement" />
     <nodeInfo nodeId="1172332021204" fileName="MainFormatTable.java" startLine="66" startPosition="5" endLine="71" endPosition="5" conceptFqName="jetbrains.mps.baseLanguage.structure.IfStatement" />
@@ -99,11 +120,36 @@
     <nodeInfo nodeId="4555537781927638029" fileName="MainFormatTable.java" startLine="115" startPosition="5" endLine="120" endPosition="5" conceptFqName="jetbrains.mps.baseLanguage.structure.IfStatement" />
     <nodeInfo nodeId="1169549842090" fileName="MainFormatTable.java" startLine="32" startPosition="5" endLine="39" endPosition="5" conceptFqName="jetbrains.mps.baseLanguage.structure.IfStatement" />
     <nodeInfo nodeId="1172684095976" fileName="MainFormatTable.java" startLine="19" startPosition="66" endLine="27" endPosition="5" conceptFqName="jetbrains.mps.baseLanguage.structure.IfStatement" />
+    <nodeInfo nodeId="1169645782400" fileName="ConditionalDTPrinterOptionalDate.java" startLine="30" startPosition="0" endLine="38" endPosition="0" conceptFqName="jetbrains.mps.baseLanguage.structure.InstanceMethodDeclaration" propertyString="createPrinters#()Ljava/util/List;" />
+    <nodeInfo nodeId="1174322061629" fileName="ConditionalDTPrinterOffset.java" startLine="33" startPosition="0" endLine="42" endPosition="0" conceptFqName="jetbrains.mps.baseLanguage.structure.InstanceMethodDeclaration" propertyString="createPrinters#()Ljava/util/List;" />
     <nodeInfo nodeId="1169637469524" fileName="MainFormatTable.java" startLine="39" startPosition="5" endLine="48" endPosition="5" conceptFqName="jetbrains.mps.baseLanguage.structure.IfStatement" />
     <nodeInfo nodeId="1169549957527" fileName="MainFormatTable.java" startLine="48" startPosition="5" endLine="57" endPosition="5" conceptFqName="jetbrains.mps.baseLanguage.structure.IfStatement" />
     <nodeInfo nodeId="194163770812416658" fileName="MainFormatTable.java" startLine="57" startPosition="5" endLine="66" endPosition="5" conceptFqName="jetbrains.mps.baseLanguage.structure.IfStatement" />
     <nodeInfo nodeId="7905990018466231048" fileName="MainFormatTable.java" startLine="106" startPosition="5" endLine="115" endPosition="5" conceptFqName="jetbrains.mps.baseLanguage.structure.IfStatement" />
+    <nodeInfo nodeId="1169645782400" fileName="ConditionalDTPrinterOptionalDate.java" startLine="17" startPosition="0" endLine="30" endPosition="0" conceptFqName="jetbrains.mps.baseLanguage.structure.InstanceMethodDeclaration" propertyString="getPrinterIndex#(Ljava/lang/Long;)I" />
+    <nodeInfo nodeId="1174322061629" fileName="ConditionalDTPrinterOffset.java" startLine="17" startPosition="0" endLine="33" endPosition="0" conceptFqName="jetbrains.mps.baseLanguage.structure.InstanceMethodDeclaration" propertyString="getPrinterIndex#(Ljava/lang/Long;)I" />
+    <nodeInfo nodeId="1169488395206" fileName="MainFormatTable.java" startLine="18" startPosition="0" endLine="123" endPosition="0" conceptFqName="jetbrains.mps.baseLanguage.structure.InstanceMethodDeclaration" propertyString="createFormatter#(Ljava/lang/String;)Lorg/joda/time/format/DateTimeFormatter;" />
+    <scopeInfo nodeId="1174322061629" fileName="ConditionalDTPrinterOffset.java" startLine="15" startPosition="39" endLine="15" endPosition="39" />
+    <scopeInfo nodeId="1169645782400" fileName="ConditionalDTPrinterOptionalDate.java" startLine="15" startPosition="45" endLine="15" endPosition="45" />
+    <scopeInfo nodeId="1169488395206" fileName="MainFormatTable.java" startLine="16" startPosition="28" endLine="16" endPosition="28" />
+    <scopeInfo nodeId="1169645782400" fileName="ConditionalDTPrinterOptionalDate.java" startLine="19" startPosition="54" endLine="20" endPosition="15" />
+    <scopeInfo nodeId="1174322061629" fileName="ConditionalDTPrinterOffset.java" startLine="19" startPosition="133" endLine="20" endPosition="15" />
+    <scopeInfo nodeId="1174322061629" fileName="ConditionalDTPrinterOffset.java" startLine="22" startPosition="130" endLine="23" endPosition="15" />
+    <scopeInfo nodeId="1169645782400" fileName="ConditionalDTPrinterOptionalDate.java" startLine="22" startPosition="131" endLine="23" endPosition="15" />
+    <scopeInfo nodeId="1169645782400" fileName="ConditionalDTPrinterOptionalDate.java" startLine="25" startPosition="131" endLine="26" endPosition="15" />
+    <scopeInfo nodeId="1174322061629" fileName="ConditionalDTPrinterOffset.java" startLine="25" startPosition="131" endLine="26" endPosition="15" />
+    <scopeInfo nodeId="1174322061629" fileName="ConditionalDTPrinterOffset.java" startLine="28" startPosition="15" endLine="29" endPosition="15" />
+    <scopeInfo nodeId="1174322061629" fileName="ConditionalDTPrinterOffset.java" startLine="14" startPosition="76" endLine="16" endPosition="3" />
+    <scopeInfo nodeId="1169645782400" fileName="ConditionalDTPrinterOptionalDate.java" startLine="14" startPosition="82" endLine="16" endPosition="3" />
+    <scopeInfo nodeId="1169488395206" fileName="MainFormatTable.java" startLine="15" startPosition="0" endLine="17" endPosition="3" />
     <scopeInfo nodeId="1172684075121" fileName="MainFormatTable.java" startLine="22" startPosition="7" endLine="24" endPosition="45" />
+    <scopeInfo nodeId="1169645782400" fileName="ConditionalDTPrinterOptionalDate.java" startLine="18" startPosition="56" endLine="21" endPosition="5" />
+    <scopeInfo nodeId="1174322061629" fileName="ConditionalDTPrinterOffset.java" startLine="18" startPosition="56" endLine="21" endPosition="5" />
+    <scopeInfo nodeId="1169645782400" fileName="ConditionalDTPrinterOptionalDate.java" startLine="21" startPosition="5" endLine="24" endPosition="5" />
+    <scopeInfo nodeId="1174322061629" fileName="ConditionalDTPrinterOffset.java" startLine="21" startPosition="5" endLine="24" endPosition="5" />
+    <scopeInfo nodeId="1169645782400" fileName="ConditionalDTPrinterOptionalDate.java" startLine="24" startPosition="5" endLine="27" endPosition="5" />
+    <scopeInfo nodeId="1174322061629" fileName="ConditionalDTPrinterOffset.java" startLine="24" startPosition="5" endLine="27" endPosition="5" />
+    <scopeInfo nodeId="1174322061629" fileName="ConditionalDTPrinterOffset.java" startLine="27" startPosition="5" endLine="30" endPosition="5" />
     <scopeInfo nodeId="1172684313431" fileName="MainFormatTable.java" startLine="28" startPosition="48" endLine="31" endPosition="35" />
     <scopeInfo nodeId="1172332021204" fileName="MainFormatTable.java" startLine="67" startPosition="39" endLine="70" endPosition="35" />
     <scopeInfo nodeId="1172687345331" fileName="MainFormatTable.java" startLine="72" startPosition="40" endLine="75" endPosition="35" />
@@ -114,12 +160,25 @@
     <scopeInfo nodeId="1174322078367" fileName="MainFormatTable.java" startLine="97" startPosition="42" endLine="100" endPosition="35" />
     <scopeInfo nodeId="1174322041098" fileName="MainFormatTable.java" startLine="102" startPosition="41" endLine="105" endPosition="35" />
     <scopeInfo nodeId="4555537781927638029" fileName="MainFormatTable.java" startLine="116" startPosition="39" endLine="119" endPosition="35" />
+    <scopeInfo nodeId="1169645782400" fileName="ConditionalDTPrinterOptionalDate.java" startLine="31" startPosition="52" endLine="36" endPosition="20" />
     <scopeInfo nodeId="1169549842090" fileName="MainFormatTable.java" startLine="33" startPosition="44" endLine="38" endPosition="35" />
     <scopeInfo nodeId="1172684095976" fileName="MainFormatTable.java" startLine="20" startPosition="46" endLine="26" endPosition="35" />
+    <scopeInfo nodeId="1174322061629" fileName="ConditionalDTPrinterOffset.java" startLine="34" startPosition="52" endLine="40" endPosition="20" />
     <scopeInfo nodeId="1169637469524" fileName="MainFormatTable.java" startLine="40" startPosition="39" endLine="47" endPosition="35" />
     <scopeInfo nodeId="1169549957527" fileName="MainFormatTable.java" startLine="49" startPosition="39" endLine="56" endPosition="35" />
     <scopeInfo nodeId="194163770812416658" fileName="MainFormatTable.java" startLine="58" startPosition="45" endLine="65" endPosition="35" />
     <scopeInfo nodeId="7905990018466231048" fileName="MainFormatTable.java" startLine="107" startPosition="40" endLine="114" endPosition="35" />
+    <scopeInfo nodeId="1169645782400" fileName="ConditionalDTPrinterOptionalDate.java" startLine="30" startPosition="0" endLine="38" endPosition="0" />
+    <scopeInfo nodeId="1174322061629" fileName="ConditionalDTPrinterOffset.java" startLine="33" startPosition="0" endLine="42" endPosition="0" />
+    <scopeInfo nodeId="1169645782400" fileName="ConditionalDTPrinterOptionalDate.java" startLine="18" startPosition="56" endLine="28" endPosition="14" />
+    <scopeInfo nodeId="1169645782400" fileName="ConditionalDTPrinterOptionalDate.java" startLine="17" startPosition="0" endLine="30" endPosition="0" />
+    <scopeInfo nodeId="1174322061629" fileName="ConditionalDTPrinterOffset.java" startLine="18" startPosition="56" endLine="31" endPosition="14" />
+    <scopeInfo nodeId="1174322061629" fileName="ConditionalDTPrinterOffset.java" startLine="17" startPosition="0" endLine="33" endPosition="0" />
+    <scopeInfo nodeId="1169488395206" fileName="MainFormatTable.java" startLine="19" startPosition="66" endLine="121" endPosition="16" />
+    <scopeInfo nodeId="1169488395206" fileName="MainFormatTable.java" startLine="18" startPosition="0" endLine="123" endPosition="0" />
+    <unitInfo nodeId="1169645782400" fileName="ConditionalDTPrinterOptionalDate.java" startLine="14" startPosition="0" endLine="39" endPosition="0" unitName="jetbrains.mps.baseLanguage.dates.unittest.tests.ConditionalDTPrinterOptionalDate" />
+    <unitInfo nodeId="1174322061629" fileName="ConditionalDTPrinterOffset.java" startLine="14" startPosition="0" endLine="43" endPosition="0" unitName="jetbrains.mps.baseLanguage.dates.unittest.tests.ConditionalDTPrinterOffset" />
+    <unitInfo nodeId="1169488395206" fileName="MainFormatTable.java" startLine="13" startPosition="0" endLine="124" endPosition="0" unitName="jetbrains.mps.baseLanguage.dates.unittest.tests.MainFormatTable" />
   </root>
   <root nodeId="1171974180613">
     <nodeInfo nodeId="1171974263049" fileName="Convert_Test.java" startLine="13" startPosition="48" endLine="14" endPosition="27" conceptFqName="jetbrains.mps.baseLanguage.structure.LocalVariableDeclarationStatement" />
@@ -149,6 +208,7 @@
     <scopeInfo nodeId="1171974214960" fileName="Convert_Test.java" startLine="12" startPosition="44" endLine="18" endPosition="0" />
     <scopeInfo nodeId="1172066450912" fileName="Convert_Test.java" startLine="18" startPosition="0" endLine="24" endPosition="0" />
     <scopeInfo nodeId="1172066532468" fileName="Convert_Test.java" startLine="24" startPosition="0" endLine="30" endPosition="0" />
+    <unitInfo nodeId="1171974180613" fileName="Convert_Test.java" startLine="12" startPosition="0" endLine="31" endPosition="0" unitName="jetbrains.mps.baseLanguage.dates.unittest.tests.Convert_Test" />
   </root>
   <root nodeId="1171977712220">
     <nodeInfo nodeId="1209041659229" fileName="Format_Test.java" startLine="21" startPosition="50" endLine="22" endPosition="33" conceptFqName="jetbrains.mps.baseLanguage.structure.LocalVariableDeclarationStatement" />
@@ -279,6 +339,7 @@
     </scopeInfo>
     <scopeInfo nodeId="4858741172755494737" fileName="Format_Test.java" startLine="104" startPosition="0" endLine="118" endPosition="0" />
     <unitInfo nodeId="4858741172755494774" fileName="Format_Test.java" startLine="107" startPosition="177" endLine="116" endPosition="5" unitName="jetbrains.mps.baseLanguage.dates.unittest.tests.Format_Test$1" />
+    <unitInfo nodeId="1171977712220" fileName="Format_Test.java" startLine="20" startPosition="0" endLine="119" endPosition="0" unitName="jetbrains.mps.baseLanguage.dates.unittest.tests.Format_Test" />
   </root>
   <root nodeId="1172075810592">
     <nodeInfo nodeId="1172158941080" fileName="Compare_Test.java" startLine="15" startPosition="44" endLine="16" endPosition="163" conceptFqName="jetbrains.mps.baseLanguage.structure.StaticFieldDeclaration" propertyString="yesterday" />
@@ -360,6 +421,7 @@
       <varInfo nodeId="8678577827671223159" varName="dt2" />
     </scopeInfo>
     <scopeInfo nodeId="1238501142038" fileName="Compare_Test.java" startLine="67" startPosition="0" endLine="79" endPosition="0" />
+    <unitInfo nodeId="1172075810592" fileName="Compare_Test.java" startLine="15" startPosition="0" endLine="80" endPosition="0" unitName="jetbrains.mps.baseLanguage.dates.unittest.tests.Compare_Test" />
   </root>
   <root nodeId="1172324818166">
     <nodeInfo nodeId="1172324855433" fileName="Round_Test.java" startLine="19" startPosition="45" endLine="20" endPosition="41" conceptFqName="jetbrains.mps.baseLanguage.structure.LocalVariableDeclarationStatement" />
@@ -442,6 +504,7 @@
     </scopeInfo>
     <scopeInfo nodeId="5351757338847875870" fileName="Round_Test.java" startLine="24" startPosition="0" endLine="38" endPosition="0" />
     <unitInfo nodeId="194163770812156200" fileName="Round_Test.java" startLine="27" startPosition="194" endLine="33" endPosition="5" unitName="jetbrains.mps.baseLanguage.dates.unittest.tests.Round_Test$1" />
+    <unitInfo nodeId="1172324818166" fileName="Round_Test.java" startLine="18" startPosition="0" endLine="75" endPosition="0" unitName="jetbrains.mps.baseLanguage.dates.unittest.tests.Round_Test" />
   </root>
   <root nodeId="1172329632465">
     <nodeInfo nodeId="1172330272342" fileName="Property_Test.java" startLine="18" startPosition="46" endLine="19" endPosition="102" conceptFqName="jetbrains.mps.baseLanguage.structure.LocalVariableDeclarationStatement" />
@@ -497,6 +560,7 @@
     <scopeInfo nodeId="3627207017678890732" fileName="Property_Test.java" startLine="36" startPosition="0" endLine="43" endPosition="0" />
     <scopeInfo nodeId="3627207017678890824" fileName="Property_Test.java" startLine="49" startPosition="0" endLine="57" endPosition="0" />
     <scopeInfo nodeId="3627207017678890873" fileName="Property_Test.java" startLine="27" startPosition="0" endLine="36" endPosition="0" />
+    <unitInfo nodeId="1172329632465" fileName="Property_Test.java" startLine="17" startPosition="0" endLine="58" endPosition="0" unitName="jetbrains.mps.baseLanguage.dates.unittest.tests.Property_Test" />
   </root>
   <root nodeId="1172331834181">
     <nodeInfo nodeId="1172332219818" fileName="With_Test.java" startLine="16" startPosition="46" endLine="17" endPosition="40" conceptFqName="jetbrains.mps.baseLanguage.structure.LocalVariableDeclarationStatement" />
@@ -526,6 +590,7 @@
     </scopeInfo>
     <scopeInfo nodeId="4389880778953529167" fileName="With_Test.java" startLine="22" startPosition="0" endLine="34" endPosition="0" />
     <unitInfo nodeId="194163770812156210" fileName="With_Test.java" startLine="26" startPosition="67" endLine="32" endPosition="5" unitName="jetbrains.mps.baseLanguage.dates.unittest.tests.With_Test$1" />
+    <unitInfo nodeId="1172331834181" fileName="With_Test.java" startLine="15" startPosition="0" endLine="35" endPosition="0" unitName="jetbrains.mps.baseLanguage.dates.unittest.tests.With_Test" />
   </root>
   <root nodeId="1172489203993">
     <nodeInfo nodeId="1172502977881" fileName="Period_Test.java" startLine="17" startPosition="44" endLine="18" endPosition="118" conceptFqName="jetbrains.mps.baseLanguage.structure.LocalVariableDeclarationStatement" />
@@ -598,6 +663,7 @@
     <scopeInfo nodeId="1172497998305" fileName="Period_Test.java" startLine="16" startPosition="43" endLine="23" endPosition="0" />
     <scopeInfo nodeId="1379098806889909688" fileName="Period_Test.java" startLine="67" startPosition="46" endLine="74" endPosition="211" />
     <scopeInfo nodeId="1379098806889909685" fileName="Period_Test.java" startLine="66" startPosition="0" endLine="76" endPosition="0" />
+    <unitInfo nodeId="1172489203993" fileName="Period_Test.java" startLine="16" startPosition="0" endLine="77" endPosition="0" unitName="jetbrains.mps.baseLanguage.dates.unittest.tests.Period_Test" />
   </root>
   <root nodeId="1173787596138">
     <nodeInfo nodeId="9074471975326013017" fileName="BaseTestCase.java" startLine="8" startPosition="53" endLine="9" endPosition="53" conceptFqName="jetbrains.mps.baseLanguage.structure.StaticFieldDeclaration" propertyString="LOGGING_INITIALIZED" />
@@ -694,6 +760,7 @@
     <scopeInfo nodeId="4396211440736502791" fileName="IsNull_Test.java" startLine="38" startPosition="0" endLine="44" endPosition="0" />
     <scopeInfo nodeId="4396211440736512166" fileName="IsNull_Test.java" startLine="44" startPosition="0" endLine="50" endPosition="0" />
     <scopeInfo nodeId="4396211440736512189" fileName="IsNull_Test.java" startLine="50" startPosition="0" endLine="56" endPosition="0" />
+    <unitInfo nodeId="1173879639365" fileName="IsNull_Test.java" startLine="14" startPosition="0" endLine="72" endPosition="0" unitName="jetbrains.mps.baseLanguage.dates.unittest.tests.IsNull_Test" />
   </root>
   <root nodeId="1174040171430">
     <nodeInfo nodeId="7376433222636453561" fileName="InlineFormat_Test.java" startLine="21" startPosition="52" endLine="22" endPosition="41" conceptFqName="jetbrains.mps.baseLanguage.structure.SingleLineComment" />
@@ -768,6 +835,7 @@
     <unitInfo nodeId="2890840340813202533" fileName="InlineFormat_Test.java" startLine="69" startPosition="130" endLine="79" endPosition="5" unitName="jetbrains.mps.baseLanguage.dates.unittest.tests.InlineFormat_Test$2" />
     <unitInfo nodeId="1174048283653" fileName="InlineFormat_Test.java" startLine="30" startPosition="82" endLine="50" endPosition="11" unitName="jetbrains.mps.baseLanguage.dates.unittest.tests.InlineFormat_Test$2" />
     <unitInfo nodeId="462678460625670237" fileName="InlineFormat_Test.java" startLine="26" startPosition="106" endLine="54" endPosition="7" unitName="jetbrains.mps.baseLanguage.dates.unittest.tests.InlineFormat_Test$1" />
+    <unitInfo nodeId="1174040171430" fileName="InlineFormat_Test.java" startLine="20" startPosition="0" endLine="82" endPosition="0" unitName="jetbrains.mps.baseLanguage.dates.unittest.tests.InlineFormat_Test" />
   </root>
   <root nodeId="1238681295329">
     <nodeInfo nodeId="1238681349283" fileName="DateTimeZone_Test.java" startLine="16" startPosition="64" endLine="17" endPosition="46" conceptFqName="jetbrains.mps.baseLanguage.structure.LocalVariableDeclarationStatement" />
@@ -887,6 +955,7 @@
     <scopeInfo nodeId="5293902215865158103" fileName="DateTimeZone_Test.java" startLine="56" startPosition="0" endLine="66" endPosition="0" />
     <scopeInfo nodeId="5293902215865165955" fileName="DateTimeZone_Test.java" startLine="66" startPosition="0" endLine="76" endPosition="0" />
     <scopeInfo nodeId="5293902215865634125" fileName="DateTimeZone_Test.java" startLine="80" startPosition="0" endLine="92" endPosition="0" />
+    <unitInfo nodeId="1238681295329" fileName="DateTimeZone_Test.java" startLine="15" startPosition="0" endLine="102" endPosition="0" unitName="jetbrains.mps.baseLanguage.dates.unittest.tests.DateTimeZone_Test" />
   </root>
   <root nodeId="2583319411283568322">
     <nodeInfo nodeId="2583319411283568349" fileName="Parse_Test.java" startLine="17" startPosition="50" endLine="18" endPosition="33" conceptFqName="jetbrains.mps.baseLanguage.structure.LocalVariableDeclarationStatement" />
@@ -987,6 +1056,7 @@
       <varInfo nodeId="5450502488469200649" varName="instant" />
     </scopeInfo>
     <scopeInfo nodeId="2583319411283568444" fileName="Parse_Test.java" startLine="38" startPosition="0" endLine="54" endPosition="0" />
+    <unitInfo nodeId="2583319411283568322" fileName="Parse_Test.java" startLine="16" startPosition="0" endLine="85" endPosition="0" unitName="jetbrains.mps.baseLanguage.dates.unittest.tests.Parse_Test" />
   </root>
   <root nodeId="3394771273339287653">
     <nodeInfo nodeId="3394771273339497991" fileName="Arithmetic_Test.java" startLine="16" startPosition="57" endLine="17" endPosition="48" conceptFqName="jetbrains.mps.baseLanguage.structure.LocalVariableDeclarationStatement" />
@@ -1049,6 +1119,7 @@
       <varInfo nodeId="3394771273339287705" varName="now1" />
     </scopeInfo>
     <scopeInfo nodeId="3394771273339287673" fileName="Arithmetic_Test.java" startLine="21" startPosition="0" endLine="32" endPosition="0" />
+    <unitInfo nodeId="3394771273339287653" fileName="Arithmetic_Test.java" startLine="15" startPosition="0" endLine="57" endPosition="0" unitName="jetbrains.mps.baseLanguage.dates.unittest.tests.Arithmetic_Test" />
   </root>
   <root nodeId="3394771273339814721">
     <nodeInfo nodeId="3394771273339844805" fileName="Cron_Test.java" startLine="9" startPosition="50" endLine="10" endPosition="60" conceptFqName="jetbrains.mps.baseLanguage.structure.ExpressionStatement" />
@@ -1063,8 +1134,10 @@
     <scopeInfo nodeId="3394771273339838593" fileName="Cron_Test.java" startLine="8" startPosition="41" endLine="12" endPosition="0" />
     <scopeInfo nodeId="3394771273340595584" fileName="Cron_Test.java" startLine="12" startPosition="0" endLine="16" endPosition="0" />
     <scopeInfo nodeId="7473690929694313955" fileName="Cron_Test.java" startLine="16" startPosition="0" endLine="20" endPosition="0" />
+    <unitInfo nodeId="3394771273339814721" fileName="Cron_Test.java" startLine="8" startPosition="0" endLine="21" endPosition="0" unitName="jetbrains.mps.baseLanguage.dates.unittest.tests.Cron_Test" />
   </root>
   <root nodeId="48671598478025726">
+    <nodeInfo nodeId="48671598478025726" fileName="main_Format2.java" startLine="9" startPosition="57" endLine="10" endPosition="59" conceptFqName="jetbrains.mps.baseLanguage.structure.StaticFieldDeclaration" propertyString="INSTANCE" />
     <nodeInfo nodeId="48671598478025727" fileName="main_Format2.java" startLine="17" startPosition="41" endLine="18" endPosition="68" conceptFqName="jetbrains.mps.baseLanguage.structure.LocalVariableDeclarationStatement" />
     <nodeInfo nodeId="48671598478025739" fileName="main_Format2.java" startLine="18" startPosition="68" endLine="19" endPosition="34" conceptFqName="jetbrains.mps.baseLanguage.structure.ExpressionStatement" />
     <nodeInfo nodeId="48671598478025737" fileName="main_Format2.java" startLine="19" startPosition="34" endLine="20" endPosition="34" conceptFqName="jetbrains.mps.baseLanguage.structure.ExpressionStatement" />
@@ -1117,23 +1190,40 @@
     <nodeInfo nodeId="2872438607476694575" fileName="main_Format2.java" startLine="74" startPosition="44" endLine="75" endPosition="38" conceptFqName="jetbrains.mps.baseLanguage.structure.ExpressionStatement" />
     <nodeInfo nodeId="2872438607476694575" fileName="main_Format2.java" startLine="75" startPosition="38" endLine="76" endPosition="27" conceptFqName="jetbrains.mps.baseLanguage.structure.ExpressionStatement" />
     <nodeInfo nodeId="2872438607476694575" fileName="main_Format2.java" startLine="76" startPosition="27" endLine="77" endPosition="35" conceptFqName="jetbrains.mps.baseLanguage.structure.ReturnStatement" />
+    <nodeInfo nodeId="48671598478025726" fileName="main_Format2.java" startLine="78" startPosition="5" endLine="79" endPosition="16" conceptFqName="jetbrains.mps.baseLanguage.structure.ReturnStatement" />
+    <nodeInfo nodeId="48671598478025726" fileName="main_Format2.java" startLine="11" startPosition="0" endLine="13" endPosition="3" conceptFqName="jetbrains.mps.baseLanguage.structure.ConstructorDeclaration" propertyString="main_Format2#()V" />
     <nodeInfo nodeId="48671598478025727" fileName="main_Format2.java" startLine="16" startPosition="64" endLine="22" endPosition="5" conceptFqName="jetbrains.mps.baseLanguage.structure.IfStatement" />
     <nodeInfo nodeId="2872438607476694575" fileName="main_Format2.java" startLine="67" startPosition="5" endLine="78" endPosition="5" conceptFqName="jetbrains.mps.baseLanguage.structure.IfStatement" />
     <nodeInfo nodeId="2872438607476681432" fileName="main_Format2.java" startLine="55" startPosition="5" endLine="67" endPosition="5" conceptFqName="jetbrains.mps.baseLanguage.structure.IfStatement" />
     <nodeInfo nodeId="2872438607476142910" fileName="main_Format2.java" startLine="22" startPosition="5" endLine="37" endPosition="5" conceptFqName="jetbrains.mps.baseLanguage.structure.IfStatement" />
     <nodeInfo nodeId="1778677549314369268" fileName="main_Format2.java" startLine="37" startPosition="5" endLine="55" endPosition="5" conceptFqName="jetbrains.mps.baseLanguage.structure.IfStatement" />
+    <nodeInfo nodeId="48671598478025726" fileName="main_Format2.java" startLine="14" startPosition="0" endLine="81" endPosition="0" conceptFqName="jetbrains.mps.baseLanguage.structure.InstanceMethodDeclaration" propertyString="createFormatter#(Ljava/lang/String;)Lorg/joda/time/format/PeriodFormatter;" />
+    <scopeInfo nodeId="48671598478025726" fileName="main_Format2.java" startLine="12" startPosition="25" endLine="12" endPosition="25" />
+    <scopeInfo nodeId="48671598478025726" fileName="main_Format2.java" startLine="11" startPosition="0" endLine="13" endPosition="3" />
     <scopeInfo nodeId="48671598478025727" fileName="main_Format2.java" startLine="17" startPosition="41" endLine="21" endPosition="35" />
     <scopeInfo nodeId="2872438607476694575" fileName="main_Format2.java" startLine="68" startPosition="39" endLine="77" endPosition="35" />
     <scopeInfo nodeId="2872438607476681432" fileName="main_Format2.java" startLine="56" startPosition="42" endLine="66" endPosition="35" />
     <scopeInfo nodeId="2872438607476142910" fileName="main_Format2.java" startLine="23" startPosition="41" endLine="36" endPosition="35" />
     <scopeInfo nodeId="1778677549314369268" fileName="main_Format2.java" startLine="38" startPosition="52" endLine="54" endPosition="35" />
+    <scopeInfo nodeId="48671598478025726" fileName="main_Format2.java" startLine="16" startPosition="64" endLine="79" endPosition="16" />
+    <scopeInfo nodeId="48671598478025726" fileName="main_Format2.java" startLine="14" startPosition="0" endLine="81" endPosition="0" />
+    <unitInfo nodeId="48671598478025726" fileName="main_Format2.java" startLine="9" startPosition="0" endLine="82" endPosition="0" unitName="jetbrains.mps.baseLanguage.dates.unittest.tests.main_Format2" />
   </root>
   <root nodeId="779372288057376358">
+    <nodeInfo nodeId="779372288057376358" fileName="MainFormat2.java" startLine="13" startPosition="50" endLine="14" endPosition="57" conceptFqName="jetbrains.mps.baseLanguage.structure.StaticFieldDeclaration" propertyString="INSTANCE" />
     <nodeInfo nodeId="779372288057376360" fileName="MainFormat2.java" startLine="20" startPosition="51" endLine="21" endPosition="72" conceptFqName="jetbrains.mps.baseLanguage.structure.LocalVariableDeclarationStatement" />
     <nodeInfo nodeId="779372288057376361" fileName="MainFormat2.java" startLine="21" startPosition="72" endLine="22" endPosition="173" conceptFqName="jetbrains.mps.baseLanguage.structure.ExpressionStatement" />
     <nodeInfo nodeId="779372288057376360" fileName="MainFormat2.java" startLine="22" startPosition="173" endLine="23" endPosition="35" conceptFqName="jetbrains.mps.baseLanguage.structure.ReturnStatement" />
+    <nodeInfo nodeId="779372288057376358" fileName="MainFormat2.java" startLine="24" startPosition="5" endLine="25" endPosition="16" conceptFqName="jetbrains.mps.baseLanguage.structure.ReturnStatement" />
+    <nodeInfo nodeId="779372288057376358" fileName="MainFormat2.java" startLine="15" startPosition="0" endLine="17" endPosition="3" conceptFqName="jetbrains.mps.baseLanguage.structure.ConstructorDeclaration" propertyString="MainFormat2#()V" />
     <nodeInfo nodeId="779372288057376360" fileName="MainFormat2.java" startLine="19" startPosition="66" endLine="24" endPosition="5" conceptFqName="jetbrains.mps.baseLanguage.structure.IfStatement" />
+    <nodeInfo nodeId="779372288057376358" fileName="MainFormat2.java" startLine="18" startPosition="0" endLine="27" endPosition="0" conceptFqName="jetbrains.mps.baseLanguage.structure.InstanceMethodDeclaration" propertyString="createFormatter#(Ljava/lang/String;)Lorg/joda/time/format/DateTimeFormatter;" />
+    <scopeInfo nodeId="779372288057376358" fileName="MainFormat2.java" startLine="16" startPosition="24" endLine="16" endPosition="24" />
+    <scopeInfo nodeId="779372288057376358" fileName="MainFormat2.java" startLine="15" startPosition="0" endLine="17" endPosition="3" />
     <scopeInfo nodeId="779372288057376360" fileName="MainFormat2.java" startLine="20" startPosition="51" endLine="23" endPosition="35" />
+    <scopeInfo nodeId="779372288057376358" fileName="MainFormat2.java" startLine="19" startPosition="66" endLine="25" endPosition="16" />
+    <scopeInfo nodeId="779372288057376358" fileName="MainFormat2.java" startLine="18" startPosition="0" endLine="27" endPosition="0" />
+    <unitInfo nodeId="779372288057376358" fileName="MainFormat2.java" startLine="13" startPosition="0" endLine="28" endPosition="0" unitName="jetbrains.mps.baseLanguage.dates.unittest.tests.MainFormat2" />
   </root>
 </debugInfo>
 

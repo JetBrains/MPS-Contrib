@@ -44,10 +44,10 @@ public class ClusterEmbeddingMakeBiconnected_Test extends TestCase {
     CheckEmbeddedGraph.checkEmbeddedGraph(embeddedGraph, false);
     CheckEmbeddedGraph.checkFull(embeddedGraph);
     Set<Edge> newEdges = BiconnectAugmentation.smartMakeBiconnected(graph);
-    for (Edge edge : SetSequence.fromSet(newEdges)) {
+    for (Edge edge : SetSequence.<Edge>fromSet(newEdges)) {
       graph.removeEdge(edge);
     }
-    for (Edge edge : SetSequence.fromSet(newEdges)) {
+    for (Edge edge : SetSequence.<Edge>fromSet(newEdges)) {
       ShortestPathEmbeddingFinder.restoreEdge(embeddedGraph, edge, false);
     }
     CheckEmbeddedGraph.checkEmbeddedGraph(embeddedGraph, false);

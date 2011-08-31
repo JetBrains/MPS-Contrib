@@ -13,8 +13,8 @@ public class TestRunParameters {
 
   public TestRunParameters() {
     this.myTestRunner = TestRunner.class.getName();
-    this.myVmParameters = ListSequence.fromList(new ArrayList<String>());
-    this.myClassPath = ListSequence.fromList(new ArrayList<String>());
+    this.myVmParameters = ListSequence.<String>fromList(new ArrayList<String>());
+    this.myClassPath = ListSequence.<String>fromList(new ArrayList<String>());
   }
 
   public void setTestRunner(String name) {

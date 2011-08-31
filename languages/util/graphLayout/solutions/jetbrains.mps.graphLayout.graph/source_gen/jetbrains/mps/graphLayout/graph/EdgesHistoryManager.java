@@ -13,7 +13,7 @@ public class EdgesHistoryManager implements IGraphModificationListener {
   private Map<Edge, List<Edge>> myHistory;
 
   public EdgesHistoryManager(Graph graph) {
-    myHistory = MapSequence.fromMap(new HashMap<Edge, List<Edge>>());
+    myHistory = MapSequence.<Edge,List<Edge>>fromMap(new HashMap<Edge, List<Edge>>());
     graph.addListener(this);
   }
 
@@ -23,15 +23,15 @@ public class EdgesHistoryManager implements IGraphModificationListener {
       case EDGE_SPLITTED:
         Edge edge = event.getEdge();
         history = event.getSplit();
-        if (!(checkConnection(edge.getSource(), ListSequence.fromList(history).first()))) {
-          history = ListSequence.fromList(history).reversedList();
+        if (!(checkConnection(edge.getSource(), ListSequence.<Edge>fromList(history).first()))) {
+          history = ListSequence.<Edge>fromList(history).reversedList();
         }
-        MapSequence.fromMap(myHistory).put(event.getEdge(), history);
+        MapSequence.<Edge,List<Edge>>fromMap(myHistory).put(event.getEdge(), history);
         break;
       case EDGE_REVERTED:
-        history = MapSequence.fromMap(myHistory).get(event.getEdge());
+        history = MapSequence.<Edge,List<Edge>>fromMap(myHistory).get(event.getEdge());
         if (history != null) {
-          MapSequence.fromMap(myHistory).put(event.getEdge(), ListSequence.fromList(history).reversedList());
+          MapSequence.<Edge,List<Edge>>fromMap(myHistory).put(event.getEdge(), ListSequence.<Edge>fromList(history).reversedList());
           break;
         }
       default:
@@ -43,10 +43,10 @@ public class EdgesHistoryManager implements IGraphModificationListener {
   }
 
   public List<Edge> getHistory(Edge edge) {
-    List<Edge> fullHistory = ListSequence.fromList(new LinkedList<Edge>());
-    List<Edge> history = MapSequence.fromMap(myHistory).get(edge);
+    List<Edge> fullHistory = ListSequence.<Edge>fromList(new LinkedList<Edge>());
+    List<Edge> history = MapSequence.<Edge,List<Edge>>fromMap(myHistory).get(edge);
     if (history == null) {
-      ListSequence.fromList(fullHistory).addElement(edge);
+      ListSequence.<Edge>fromList(fullHistory).addElement(edge);
     } else {
       Node cur = edge.getSource();
       for (Edge newEdge : history) {
@@ -54,10 +54,10 @@ public class EdgesHistoryManager implements IGraphModificationListener {
           throw new RuntimeException("history is broken: edge " + edge + " history: " + history);
         }
         List<Edge> newHistory = getHistory(newEdge);
-        if (!(checkConnection(cur, ListSequence.fromList(newHistory).first()))) {
-          newHistory = ListSequence.fromList(newHistory).reversedList();
+        if (!(checkConnection(cur, ListSequence.<Edge>fromList(newHistory).first()))) {
+          newHistory = ListSequence.<Edge>fromList(newHistory).reversedList();
         }
-        ListSequence.fromList(fullHistory).addSequence(ListSequence.fromList(newHistory));
+        ListSequence.<Edge>fromList(fullHistory).addSequence(ListSequence.<Edge>fromList(newHistory));
         cur = newEdge.getOpposite(cur);
       }
     }
@@ -65,6 +65,6 @@ public class EdgesHistoryManager implements IGraphModificationListener {
   }
 
   protected boolean checkConnection(Node node, Edge edge) {
-    return ListSequence.fromList(edge.getAdjacentNodes()).contains(node);
+    return ListSequence.<Node>fromList(edge.getAdjacentNodes()).contains(node);
   }
 }

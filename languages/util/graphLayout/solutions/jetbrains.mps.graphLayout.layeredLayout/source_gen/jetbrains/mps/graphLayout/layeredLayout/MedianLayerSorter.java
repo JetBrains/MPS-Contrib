@@ -26,25 +26,25 @@ public class MedianLayerSorter implements IOneLayerSorter {
     } else {
       fixedLayer = nodeLayeredOrder.getOrder(layerToSort - 1);
     }
-    Map<Node, Integer> nodesOrder = MapSequence.fromMap(new HashMap<Node, Integer>());
-    for (int i = 0; i < ListSequence.fromList(fixedLayer).count(); i++) {
-      MapSequence.fromMap(nodesOrder).put(ListSequence.fromList(fixedLayer).getElement(i), i);
+    Map<Node, Integer> nodesOrder = MapSequence.<Node,Integer>fromMap(new HashMap<Node, Integer>());
+    for (int i = 0; i < ListSequence.<Node>fromList(fixedLayer).count(); i++) {
+      MapSequence.<Node,Integer>fromMap(nodesOrder).put(ListSequence.<Node>fromList(fixedLayer).getElement(i), i);
     }
-    final Map<Node, Integer> median = MapSequence.fromMap(new HashMap<Node, Integer>());
-    final Map<Node, Double> barycenter = MapSequence.fromMap(new HashMap<Node, Double>());
+    final Map<Node, Integer> median = MapSequence.<Node,Integer>fromMap(new HashMap<Node, Integer>());
+    final Map<Node, Double> barycenter = MapSequence.<Node,Double>fromMap(new HashMap<Node, Double>());
     List<Node> layerOrder = nodeLayeredOrder.getOrder(layerToSort);
-    for (Node node : ListSequence.fromList(layerOrder)) {
-      MapSequence.fromMap(median).put(node, computeMedian(node, nodesOrder, dir));
-      MapSequence.fromMap(barycenter).put(node, computeBarycenter(node, nodesOrder, dir));
+    for (Node node : ListSequence.<Node>fromList(layerOrder)) {
+      MapSequence.<Node,Integer>fromMap(median).put(node, computeMedian(node, nodesOrder, dir));
+      MapSequence.<Node,Double>fromMap(barycenter).put(node, computeBarycenter(node, nodesOrder, dir));
     }
-    layerOrder = ListSequence.fromList(layerOrder).sort(new Comparator<Node>() {
+    layerOrder = ListSequence.<Node>fromList(layerOrder).sort(new Comparator<Node>() {
       public int compare(Node a, Node b) {
-        int ma = MapSequence.fromMap(median).get(a);
-        int mb = MapSequence.fromMap(median).get(b);
+        int ma = MapSequence.<Node,Integer>fromMap(median).get(a);
+        int mb = MapSequence.<Node,Integer>fromMap(median).get(b);
         if (ma != mb) {
           return ma - mb;
         }
-        double d = MapSequence.fromMap(barycenter).get(a) - MapSequence.fromMap(barycenter).get(b);
+        double d = MapSequence.<Node,Double>fromMap(barycenter).get(a) - MapSequence.<Node,Double>fromMap(barycenter).get(b);
         if (d < 0) {
           return -1;
         }
@@ -58,33 +58,33 @@ public class MedianLayerSorter implements IOneLayerSorter {
   }
 
   public int computeMedian(Node node, Map<Node, Integer> nodesOrder, Edge.Direction dir) {
-    List<Integer> adjNodesOrder = ListSequence.fromList(new ArrayList<Integer>());
-    for (Edge edge : ListSequence.fromList(node.getEdges(dir))) {
-      ListSequence.fromList(adjNodesOrder).addElement(MapSequence.fromMap(nodesOrder).get(edge.getTarget(dir)));
+    List<Integer> adjNodesOrder = ListSequence.<Integer>fromList(new ArrayList<Integer>());
+    for (Edge edge : ListSequence.<Edge>fromList(node.getEdges(dir))) {
+      ListSequence.<Integer>fromList(adjNodesOrder).addElement(MapSequence.<Node,Integer>fromMap(nodesOrder).get(edge.getTarget(dir)));
     }
-    if (ListSequence.fromList(adjNodesOrder).count() == 0) {
+    if (ListSequence.<Integer>fromList(adjNodesOrder).count() == 0) {
       return -1;
     }
-    adjNodesOrder = ListSequence.fromList(adjNodesOrder).sort(new ISelector<Integer, Comparable<?>>() {
+    adjNodesOrder = ListSequence.<Integer>fromList(adjNodesOrder).sort(new ISelector<Integer, Comparable<?>>() {
       public Comparable<?> select(Integer it) {
         return it;
       }
     }, true).toListSequence();
-    if (ListSequence.fromList(adjNodesOrder).count() % 2 == 1) {
-      return ListSequence.fromList(adjNodesOrder).getElement(ListSequence.fromList(adjNodesOrder).count() / 2);
+    if (ListSequence.<Integer>fromList(adjNodesOrder).count() % 2 == 1) {
+      return ListSequence.<Integer>fromList(adjNodesOrder).getElement(ListSequence.<Integer>fromList(adjNodesOrder).count() / 2);
     } else {
-      return (ListSequence.fromList(adjNodesOrder).getElement(ListSequence.fromList(adjNodesOrder).count() / 2) + ListSequence.fromList(adjNodesOrder).getElement(ListSequence.fromList(adjNodesOrder).count() / 2 - 1)) / 2;
+      return (ListSequence.<Integer>fromList(adjNodesOrder).getElement(ListSequence.<Integer>fromList(adjNodesOrder).count() / 2) + ListSequence.<Integer>fromList(adjNodesOrder).getElement(ListSequence.<Integer>fromList(adjNodesOrder).count() / 2 - 1)) / 2;
     }
   }
 
   public double computeBarycenter(Node node, Map<Node, Integer> nodesOrder, Edge.Direction dir) {
     double barycenter = 0;
     List<Edge> edges = node.getEdges(dir);
-    if (ListSequence.fromList(edges).count() > 0) {
-      for (Edge edge : ListSequence.fromList(edges)) {
-        barycenter += MapSequence.fromMap(nodesOrder).get(edge.getTarget(dir));
+    if (ListSequence.<Edge>fromList(edges).count() > 0) {
+      for (Edge edge : ListSequence.<Edge>fromList(edges)) {
+        barycenter += MapSequence.<Node,Integer>fromMap(nodesOrder).get(edge.getTarget(dir));
       }
-      barycenter = barycenter / ListSequence.fromList(edges).count();
+      barycenter = barycenter / ListSequence.<Edge>fromList(edges).count();
     }
     return barycenter;
   }

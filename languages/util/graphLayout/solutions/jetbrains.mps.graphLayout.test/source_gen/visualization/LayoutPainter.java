@@ -20,8 +20,8 @@ public class LayoutPainter {
     for (IEdge edge : graph.getEdges()) {
       Iterable<Point> route = layout.getEdgeLayout(edge);
       this.drawPolyline(route, g);
-      g.fillOval(Sequence.fromIterable(route).first().x - 2, Sequence.fromIterable(route).first().y - 2, 4, 4);
-      g.fillOval(Sequence.fromIterable(route).last().x - 2, Sequence.fromIterable(route).last().y - 2, 4, 4);
+      g.fillOval(Sequence.<Point>fromIterable(route).first().x - 2, Sequence.<Point>fromIterable(route).first().y - 2, 4, 4);
+      g.fillOval(Sequence.<Point>fromIterable(route).last().x - 2, Sequence.<Point>fromIterable(route).last().y - 2, 4, 4);
     }
     for (INode node : graph.getNodes()) {
       Rectangle rect = layout.getNodeLayout(node);
@@ -39,7 +39,7 @@ public class LayoutPainter {
 
   protected void drawPolyline(Iterable<Point> polyline, Graphics g) {
     Point prev = null;
-    for (Point point : Sequence.fromIterable(polyline)) {
+    for (Point point : Sequence.<Point>fromIterable(polyline)) {
       if (prev != null) {
         g.drawLine(prev.x, prev.y, point.x, point.y);
       }

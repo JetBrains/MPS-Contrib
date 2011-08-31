@@ -22,7 +22,7 @@ public class OrthogonalFlowLayouterNoLabels_Test extends TestCase {
 
   public void test(Graph graph) {
     LayoutInfo layoutInfo = new LayoutInfo(graph);
-    for (Node node : ListSequence.fromList(graph.getNodes())) {
+    for (Node node : ListSequence.<Node>fromList(graph.getNodes())) {
       layoutInfo.setNodeSize(node, new Dimension(30, 30));
     }
     GraphLayout graphLayout = new OrthogonalFlowLayouter().doLayout(layoutInfo);

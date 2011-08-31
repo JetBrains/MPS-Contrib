@@ -29,7 +29,7 @@ public class ClusterGraphGenerator extends AbstractGraphGenerator {
     for (int i = 0; i < graph.getNumNodes(); i++) {
       clusteredGraph.createNode();
     }
-    for (Edge edge : ListSequence.fromList(graph.getEdges())) {
+    for (Edge edge : ListSequence.<Edge>fromList(graph.getEdges())) {
       clusteredGraph.addEdgeByIndex(edge.getSource().getIndex(), edge.getTarget().getIndex());
     }
     Graph tree = clusteredGraph.getInclusionTree();
@@ -37,7 +37,7 @@ public class ClusterGraphGenerator extends AbstractGraphGenerator {
     clusteredGraph.setRoot(root);
     int numClusters = myNumClusters;
     int numNodesInCluster = clusteredGraph.getNumNodes() / numClusters;
-    Iterator<Node> nodeItr = ListSequence.fromList(clusteredGraph.getNodes()).iterator();
+    Iterator<Node> nodeItr = ListSequence.<Node>fromList(clusteredGraph.getNodes()).iterator();
     for (int i = 0; i < numClusters; i++) {
       Node cluster = tree.createNode();
       tree.connect(root, cluster);

@@ -26,7 +26,7 @@
     <nodeInfo nodeId="6220135881201382347" fileName="NodeMap.java" startLine="19" startPosition="50" endLine="20" endPosition="20" conceptFqName="jetbrains.mps.baseLanguage.structure.ExpressionStatement" />
     <nodeInfo nodeId="5180427534212020960" fileName="NodeMap.java" startLine="23" startPosition="45" endLine="24" endPosition="60" conceptFqName="jetbrains.mps.baseLanguage.structure.ThrowStatement" />
     <nodeInfo nodeId="6220135881201387355" fileName="NodeMap.java" startLine="27" startPosition="33" endLine="28" endPosition="17" conceptFqName="jetbrains.mps.baseLanguage.structure.ReturnStatement" />
-    <nodeInfo nodeId="6220135881201382355" fileName="NodeMap.java" startLine="32" startPosition="6" endLine="33" endPosition="63" conceptFqName="jetbrains.mps.baseLanguage.structure.LocalVariableDeclarationStatement" />
+    <nodeInfo nodeId="6220135881201382355" fileName="NodeMap.java" startLine="32" startPosition="6" endLine="33" endPosition="69" conceptFqName="jetbrains.mps.baseLanguage.structure.LocalVariableDeclarationStatement" />
     <nodeInfo nodeId="6220135881201387329" fileName="NodeMap.java" startLine="34" startPosition="46" endLine="35" endPosition="36" conceptFqName="jetbrains.mps.baseLanguage.structure.ExpressionStatement" />
     <nodeInfo nodeId="6220135881201387344" fileName="NodeMap.java" startLine="36" startPosition="7" endLine="37" endPosition="17" conceptFqName="jetbrains.mps.baseLanguage.structure.ReturnStatement" />
     <nodeInfo nodeId="6220135881201387368" fileName="NodeMap.java" startLine="38" startPosition="6" endLine="39" endPosition="60" conceptFqName="jetbrains.mps.baseLanguage.structure.ThrowStatement" />
@@ -51,7 +51,7 @@
     <nodeInfo nodeId="5180427534212034643" fileName="NodeMap.java" startLine="96" startPosition="44" endLine="97" endPosition="55" conceptFqName="jetbrains.mps.baseLanguage.structure.ExpressionStatement" />
     <nodeInfo nodeId="5180427534212034668" fileName="NodeMap.java" startLine="98" startPosition="5" endLine="99" endPosition="30" conceptFqName="jetbrains.mps.baseLanguage.structure.ExpressionStatement" />
     <nodeInfo nodeId="5180427534212034592" fileName="NodeMap.java" startLine="99" startPosition="30" endLine="100" endPosition="30" conceptFqName="jetbrains.mps.baseLanguage.structure.ReturnStatement" />
-    <nodeInfo nodeId="6220135881201387309" fileName="NodeMap.java" startLine="33" startPosition="63" endLine="36" endPosition="7" conceptFqName="jetbrains.mps.baseLanguage.structure.ForStatement" />
+    <nodeInfo nodeId="6220135881201387309" fileName="NodeMap.java" startLine="33" startPosition="69" endLine="36" endPosition="7" conceptFqName="jetbrains.mps.baseLanguage.structure.ForStatement" />
     <nodeInfo nodeId="5180427534212036524" fileName="NodeMap.java" startLine="85" startPosition="35" endLine="88" endPosition="7" conceptFqName="jetbrains.mps.baseLanguage.structure.ForStatement" />
     <nodeInfo nodeId="5180427534212034622" fileName="NodeMap.java" startLine="95" startPosition="34" endLine="98" endPosition="5" conceptFqName="jetbrains.mps.baseLanguage.structure.ForStatement" />
     <nodeInfo nodeId="5180427534211916791" fileName="NodeMap.java" startLine="17" startPosition="0" endLine="21" endPosition="3" conceptFqName="jetbrains.mps.baseLanguage.structure.ConstructorDeclaration" propertyString="NodeMap#(Ljetbrains/mps/graphLayout/graph/Graph;)V" />
@@ -84,7 +84,7 @@
     <scopeInfo nodeId="5180427534212036530" fileName="NodeMap.java" startLine="86" startPosition="54" endLine="87" endPosition="24" />
     <scopeInfo nodeId="5180427534212034623" fileName="NodeMap.java" startLine="96" startPosition="44" endLine="97" endPosition="55" />
     <scopeInfo nodeId="5180427534211916794" fileName="NodeMap.java" startLine="18" startPosition="31" endLine="20" endPosition="20" />
-    <scopeInfo nodeId="6220135881201387309" fileName="NodeMap.java" startLine="33" startPosition="63" endLine="36" endPosition="7">
+    <scopeInfo nodeId="6220135881201387309" fileName="NodeMap.java" startLine="33" startPosition="69" endLine="36" endPosition="7">
       <varInfo nodeId="6220135881201387312" varName="i" />
     </scopeInfo>
     <scopeInfo nodeId="5180427534212036523" fileName="NodeMap.java" startLine="85" startPosition="35" endLine="88" endPosition="7" />

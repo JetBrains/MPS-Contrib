@@ -16,6 +16,7 @@ import java.io.PrintWriter;
 import visualization.GraphIO;
 import jetbrains.mps.graphLayout.planarGraph.EmbeddedGraph;
 import jetbrains.mps.graphLayout.planarization.PQPlanarizationFinder;
+import jetbrains.mps.graphLayout.planarGraph.Face;
 import java.util.List;
 import jetbrains.mps.graphLayout.algorithms.TopologicalSorting;
 
@@ -33,15 +34,15 @@ public class StressTestPlanarization {
       Graph graph = RandomGraphGenerator.generateSimple(numNodes, numEdges);
       Map<Node, Integer> components = ConnectivityComponents.getComponents(graph);
       Graph firstComponent = new Graph();
-      Map<Node, Node> nodeMap = MapSequence.fromMap(new HashMap<Node, Node>());
-      for (Node node : ListSequence.fromList(graph.getNodes())) {
-        if (MapSequence.fromMap(components).get(node) == 0) {
-          MapSequence.fromMap(nodeMap).put(node, firstComponent.createNode());
+      Map<Node, Node> nodeMap = MapSequence.<Node,Node>fromMap(new HashMap<Node, Node>());
+      for (Node node : ListSequence.<Node>fromList(graph.getNodes())) {
+        if (MapSequence.<Node,Integer>fromMap(components).get(node) == 0) {
+          MapSequence.<Node,Node>fromMap(nodeMap).put(node, firstComponent.createNode());
         }
       }
-      for (Edge edge : ListSequence.fromList(graph.getEdges())) {
-        if (MapSequence.fromMap(components).get(edge.getSource()) == 0) {
-          firstComponent.connect(MapSequence.fromMap(nodeMap).get(edge.getSource()), MapSequence.fromMap(nodeMap).get(edge.getTarget()));
+      for (Edge edge : ListSequence.<Edge>fromList(graph.getEdges())) {
+        if (MapSequence.<Node,Integer>fromMap(components).get(edge.getSource()) == 0) {
+          firstComponent.connect(MapSequence.<Node,Node>fromMap(nodeMap).get(edge.getSource()), MapSequence.<Node,Node>fromMap(nodeMap).get(edge.getTarget()));
         }
       }
       if (firstComponent.getNumNodes() < 3) {
@@ -57,17 +58,17 @@ public class StressTestPlanarization {
       try {
         EmbeddedGraph embeddedGraph = new PQPlanarizationFinder().find(firstComponent);
         CheckEmbeddedGraph.checkEmbeddedGraph(embeddedGraph, true);
-        System.out.println("number of faces: " + ListSequence.fromList(embeddedGraph.getFaces()).count());
+        System.out.println("number of faces: " + ListSequence.<Face>fromList(embeddedGraph.getFaces()).count());
       } catch (Exception e) {
         System.out.println("planarization failed!!! " + iter);
         Graph orderedGraph = new Graph();
-        nodeMap = MapSequence.fromMap(new HashMap<Node, Node>());
+        nodeMap = MapSequence.<Node,Node>fromMap(new HashMap<Node, Node>());
         List<Node> sorting = TopologicalSorting.sort(firstComponent);
-        for (Node node : ListSequence.fromList(sorting)) {
-          MapSequence.fromMap(nodeMap).put(node, orderedGraph.createNode());
+        for (Node node : ListSequence.<Node>fromList(sorting)) {
+          MapSequence.<Node,Node>fromMap(nodeMap).put(node, orderedGraph.createNode());
         }
-        for (Edge edge : ListSequence.fromList(firstComponent.getEdges())) {
-          orderedGraph.connect(MapSequence.fromMap(nodeMap).get(edge.getSource()), MapSequence.fromMap(nodeMap).get(edge.getTarget()));
+        for (Edge edge : ListSequence.<Edge>fromList(firstComponent.getEdges())) {
+          orderedGraph.connect(MapSequence.<Node,Node>fromMap(nodeMap).get(edge.getSource()), MapSequence.<Node,Node>fromMap(nodeMap).get(edge.getTarget()));
         }
         System.out.println(e);
         System.exit(1);

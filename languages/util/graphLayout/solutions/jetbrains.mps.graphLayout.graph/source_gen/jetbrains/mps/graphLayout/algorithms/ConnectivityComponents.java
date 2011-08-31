@@ -35,8 +35,8 @@ public class ConnectivityComponents {
 
   public static boolean isConnected(Graph graph) {
     Map<Node, Integer> component = getComponents(graph);
-    for (Node node : ListSequence.fromList(graph.getNodes())) {
-      if (MapSequence.fromMap(component).get(node) > 0) {
+    for (Node node : ListSequence.<Node>fromList(graph.getNodes())) {
+      if (MapSequence.<Node,Integer>fromMap(component).get(node) > 0) {
         return false;
       }
     }
@@ -45,31 +45,31 @@ public class ConnectivityComponents {
 
   public static List<List<Node>> getComponentsList(Map<Node, Integer> components) {
     int componentsNum = ConnectivityComponents.getComponentsNum(components);
-    List<List<Node>> componentsList = ListSequence.fromList(new ArrayList<List<Node>>(componentsNum));
+    List<List<Node>> componentsList = ListSequence.<List<Node>>fromList(new ArrayList<List<Node>>(componentsNum));
     for (int i = 0; i < componentsNum; i++) {
-      ListSequence.fromList(componentsList).addElement(LinkedListSequence.fromLinkedList(new LinkedList<Node>()));
+      ListSequence.<List<Node>>fromList(componentsList).addElement(LinkedListSequence.<Node>fromLinkedList(new LinkedList<Node>()));
     }
-    for (Node node : SetSequence.fromSet(MapSequence.fromMap(components).keySet())) {
-      ListSequence.fromList(ListSequence.fromList(componentsList).getElement(MapSequence.fromMap(components).get(node))).addElement(node);
+    for (Node node : SetSequence.<Node>fromSet(MapSequence.fromMap(components).keySet())) {
+      ListSequence.<Node>fromList(ListSequence.<List<Node>>fromList(componentsList).getElement(MapSequence.<Node,Integer>fromMap(components).get(node))).addElement(node);
     }
     return componentsList;
   }
 
   private static int getComponentsNum(Map<Node, Integer> components) {
     int componentsNum = 0;
-    for (Node node : SetSequence.fromSet(MapSequence.fromMap(components).keySet())) {
-      componentsNum = Math.max(componentsNum, MapSequence.fromMap(components).get(node) + 1);
+    for (Node node : SetSequence.<Node>fromSet(MapSequence.fromMap(components).keySet())) {
+      componentsNum = Math.max(componentsNum, MapSequence.<Node,Integer>fromMap(components).get(node) + 1);
     }
     return componentsNum;
   }
 
   public static Set<Edge> makeConnected(Graph graph) {
-    Set<Edge> addedEdges = SetSequence.fromSet(new HashSet<Edge>());
+    Set<Edge> addedEdges = SetSequence.<Edge>fromSet(new HashSet<Edge>());
     Map<Node, Integer> components = getComponents(graph);
     int num = getComponentsNum(components);
     Node[] nodes = new Node[num];
-    for (Node node : ListSequence.fromList(graph.getNodes())) {
-      nodes[MapSequence.fromMap(components).get(node)] = node;
+    for (Node node : ListSequence.<Node>fromList(graph.getNodes())) {
+      nodes[MapSequence.<Node,Integer>fromMap(components).get(node)] = node;
     }
     Node prev = null;
     for (Node node : nodes) {
@@ -91,7 +91,7 @@ public class ConnectivityComponents {
 
     @Override
     public void doDfs(Graph graph, Edge.Direction direction, _FunctionTypes._return_P1_E0<? extends Boolean, ? super Edge> filter) {
-      myComponents = MapSequence.fromMap(new HashMap<Node, Integer>());
+      myComponents = MapSequence.<Node,Integer>fromMap(new HashMap<Node, Integer>());
       myCurrentComponent = -1;
       super.doDfs(graph, Edge.Direction.BOTH, filter);
     }
@@ -103,7 +103,7 @@ public class ConnectivityComponents {
 
     @Override
     protected void preprocess(Node node, Edge from) {
-      MapSequence.fromMap(myComponents).put(node, myCurrentComponent);
+      MapSequence.<Node,Integer>fromMap(myComponents).put(node, myCurrentComponent);
     }
 
     public Map<Node, Integer> getComponents() {

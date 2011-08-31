@@ -44,8 +44,8 @@ public class ConstraintsGraphStressTest {
 
   private static void constructConstraintsGraph(Graph graph) {
     EmbeddedGraph embeddedGraph = new ShortestPathEmbeddingFinder(new PQPlanarizationFinder()).find(graph);
-    Map<Dart, Integer> bends = MapSequence.fromMap(new HashMap<Dart, Integer>());
-    Map<Dart, Integer> angles = MapSequence.fromMap(new HashMap<Dart, Integer>());
+    Map<Dart, Integer> bends = MapSequence.<Dart,Integer>fromMap(new HashMap<Dart, Integer>());
+    Map<Dart, Integer> angles = MapSequence.<Dart,Integer>fromMap(new HashMap<Dart, Integer>());
     QuasiOrthogonalRepresentation.getRepresentation(embeddedGraph, bends, angles);
     QuasiRepresentationModifier quasiModifier = new QuasiRepresentationModifier(embeddedGraph, bends, angles);
     quasiModifier.reduceToOrthogonalRepresentation();

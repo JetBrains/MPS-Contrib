@@ -31,16 +31,16 @@ public class TreeEmbeddingFinder implements IEmbeddingFinder {
   }
 
   public EmbeddedGraph find(Graph graph) {
-    mySplittedEdges = MapSequence.fromMap(new HashMap<Edge, List<Edge>>());
+    mySplittedEdges = MapSequence.<Edge,List<Edge>>fromMap(new HashMap<Edge, List<Edge>>());
     EmbeddedGraph embeddedGraph = new EmbeddedGraph(graph);
-    List<Edge> removed = ListSequence.fromList(new ArrayList<Edge>());
+    List<Edge> removed = ListSequence.<Edge>fromList(new ArrayList<Edge>());
     Face outerFace = getOuterTreeFace(graph, removed);
-    for (Edge edge : ListSequence.fromList(removed)) {
+    for (Edge edge : ListSequence.<Edge>fromList(removed)) {
       graph.removeEdge(edge);
     }
     embeddedGraph.addFace(outerFace);
     embeddedGraph.setOuterFace(outerFace);
-    for (Edge removedEdge : ListSequence.fromList(removed)) {
+    for (Edge removedEdge : ListSequence.<Edge>fromList(removed)) {
       this.restoreEdge(embeddedGraph, removedEdge);
       CheckEmbeddedGraph.checkEmbeddedGraph(embeddedGraph, false);
     }
@@ -49,83 +49,83 @@ public class TreeEmbeddingFinder implements IEmbeddingFinder {
   }
 
   private void restoreEdge(EmbeddedGraph embeddedGraph, Edge removedEdge) {
-    MapSequence.fromMap(mySplittedEdges).put(removedEdge, ListSequence.fromList(new ArrayList<Edge>()));
+    MapSequence.<Edge,List<Edge>>fromMap(mySplittedEdges).put(removedEdge, ListSequence.<Edge>fromList(new ArrayList<Edge>()));
     Graph graph = embeddedGraph.getGraph();
     DualGraph dualGraph = new DualGraph(embeddedGraph);
-    List<Node> newNodes = ListSequence.fromList(new ArrayList<Node>());
-    for (Node node : ListSequence.fromList(removedEdge.getAdjacentNodes())) {
+    List<Node> newNodes = ListSequence.<Node>fromList(new ArrayList<Node>());
+    for (Node node : ListSequence.<Node>fromList(removedEdge.getAdjacentNodes())) {
       Node newNode = dualGraph.createDummyNode();
-      for (Edge nodeEdge : ListSequence.fromList(node.getEdges(Edge.Direction.BOTH))) {
-        for (Face face : ListSequence.fromList(embeddedGraph.getAdjacentFaces(nodeEdge))) {
-          dualGraph.connect(newNode, MapSequence.fromMap(dualGraph.getNodesMap()).get(face));
+      for (Edge nodeEdge : ListSequence.<Edge>fromList(node.getEdges(Edge.Direction.BOTH))) {
+        for (Face face : ListSequence.<Face>fromList(embeddedGraph.getAdjacentFaces(nodeEdge))) {
+          dualGraph.connect(newNode, MapSequence.<Face,Node>fromMap(dualGraph.getNodesMap()).get(face));
         }
       }
-      ListSequence.fromList(newNodes).addElement(newNode);
+      ListSequence.<Node>fromList(newNodes).addElement(newNode);
     }
-    List<Edge> path = ShortestPath.getPath(dualGraph, ListSequence.fromList(newNodes).getElement(0), ListSequence.fromList(newNodes).getElement(1), Edge.Direction.BOTH);
-    List<Node> nodePath = ListSequence.fromList(new ArrayList<Node>());
-    List<Face> facePath = ListSequence.fromList(new ArrayList<Face>());
-    ListSequence.fromList(nodePath).addElement(ListSequence.fromList(removedEdge.getAdjacentNodes()).getElement(0));
-    Node cur = ListSequence.fromList(newNodes).getElement(0);
-    for (Edge edge : ListSequence.fromList(path)) {
-      Edge realEdge = MapSequence.fromMap(dualGraph.getEdgesMap()).get(edge);
+    List<Edge> path = ShortestPath.getPath(dualGraph, ListSequence.<Node>fromList(newNodes).getElement(0), ListSequence.<Node>fromList(newNodes).getElement(1), Edge.Direction.BOTH);
+    List<Node> nodePath = ListSequence.<Node>fromList(new ArrayList<Node>());
+    List<Face> facePath = ListSequence.<Face>fromList(new ArrayList<Face>());
+    ListSequence.<Node>fromList(nodePath).addElement(ListSequence.<Node>fromList(removedEdge.getAdjacentNodes()).getElement(0));
+    Node cur = ListSequence.<Node>fromList(newNodes).getElement(0);
+    for (Edge edge : ListSequence.<Edge>fromList(path)) {
+      Edge realEdge = MapSequence.<Edge,Edge>fromMap(dualGraph.getEdgesMap()).get(edge);
       if (embeddedGraph.getAdjacentFaces(realEdge) != null) {
-        ListSequence.fromList(nodePath).addElement(split(embeddedGraph, MapSequence.fromMap(dualGraph.getEdgesMap()).get(edge)));
+        ListSequence.<Node>fromList(nodePath).addElement(split(embeddedGraph, MapSequence.<Edge,Edge>fromMap(dualGraph.getEdgesMap()).get(edge)));
       }
       cur = edge.getOpposite(cur);
-      Face curFace = MapSequence.fromMap(dualGraph.getFacesMap()).get(cur);
+      Face curFace = MapSequence.<Node,Face>fromMap(dualGraph.getFacesMap()).get(cur);
       if (curFace != null) {
-        ListSequence.fromList(facePath).addElement(curFace);
+        ListSequence.<Face>fromList(facePath).addElement(curFace);
       }
     }
-    ListSequence.fromList(nodePath).addElement(ListSequence.fromList(removedEdge.getAdjacentNodes()).getElement(1));
-    for (int i = 0; i < ListSequence.fromList(nodePath).count() - 1; i++) {
-      Edge newEdge = graph.connect(ListSequence.fromList(nodePath).getElement(i), ListSequence.fromList(nodePath).getElement(i + 1));
-      ListSequence.fromList(MapSequence.fromMap(mySplittedEdges).get(removedEdge)).addElement(newEdge);
-      splitFace(embeddedGraph, ListSequence.fromList(facePath).getElement(i), newEdge);
+    ListSequence.<Node>fromList(nodePath).addElement(ListSequence.<Node>fromList(removedEdge.getAdjacentNodes()).getElement(1));
+    for (int i = 0; i < ListSequence.<Node>fromList(nodePath).count() - 1; i++) {
+      Edge newEdge = graph.connect(ListSequence.<Node>fromList(nodePath).getElement(i), ListSequence.<Node>fromList(nodePath).getElement(i + 1));
+      ListSequence.<Edge>fromList(MapSequence.<Edge,List<Edge>>fromMap(mySplittedEdges).get(removedEdge)).addElement(newEdge);
+      splitFace(embeddedGraph, ListSequence.<Face>fromList(facePath).getElement(i), newEdge);
     }
   }
 
   public void splitFace(EmbeddedGraph embeddedGraph, Face face, Edge newEdge) {
     List<Node> nodes = newEdge.getAdjacentNodes();
     Graph originalGraph = embeddedGraph.getGraph();
-    List<Face> newFaces = ListSequence.fromList(new ArrayList<Face>());
-    ListSequence.fromList(newFaces).addElement(new Face(originalGraph));
-    ListSequence.fromList(newFaces).addElement(new Face(originalGraph));
-    Iterator<Dart> dartItr = ListSequence.fromList(face.getDarts()).iterator();
+    List<Face> newFaces = ListSequence.<Face>fromList(new ArrayList<Face>());
+    ListSequence.<Face>fromList(newFaces).addElement(new Face(originalGraph));
+    ListSequence.<Face>fromList(newFaces).addElement(new Face(originalGraph));
+    Iterator<Dart> dartItr = ListSequence.<Dart>fromList(face.getDarts()).iterator();
     Dart cur;
     do {
       cur = dartItr.next();
-    } while (!(ListSequence.fromList(nodes).contains(cur.getSource())));
+    } while (!(ListSequence.<Node>fromList(nodes).contains(cur.getSource())));
     Dart first = cur;
     Node found = cur.getSource();
-    Node toFind = ListSequence.fromList(nodes).getElement(0);
+    Node toFind = ListSequence.<Node>fromList(nodes).getElement(0);
     if (toFind == found) {
-      toFind = ListSequence.fromList(nodes).getElement(1);
+      toFind = ListSequence.<Node>fromList(nodes).getElement(1);
     }
     do {
-      ListSequence.fromList(newFaces).getElement(0).addLast(cur);
+      ListSequence.<Face>fromList(newFaces).getElement(0).addLast(cur);
       cur = dartItr.next();
     } while (cur.getSource() != toFind);
-    ListSequence.fromList(newFaces).getElement(0).addLast(new Dart(newEdge, cur.getSource()));
-    ListSequence.fromList(newFaces).getElement(1).addLast(new Dart(newEdge, first.getSource()));
-    ListSequence.fromList(newFaces).getElement(1).addLast(cur);
+    ListSequence.<Face>fromList(newFaces).getElement(0).addLast(new Dart(newEdge, cur.getSource()));
+    ListSequence.<Face>fromList(newFaces).getElement(1).addLast(new Dart(newEdge, first.getSource()));
+    ListSequence.<Face>fromList(newFaces).getElement(1).addLast(cur);
     while (dartItr.hasNext()) {
       cur = dartItr.next();
-      ListSequence.fromList(newFaces).getElement(1).addLast(cur);
+      ListSequence.<Face>fromList(newFaces).getElement(1).addLast(cur);
     }
-    dartItr = ListSequence.fromList(face.getDarts()).iterator();
+    dartItr = ListSequence.<Dart>fromList(face.getDarts()).iterator();
     cur = dartItr.next();
     while (cur != first) {
-      ListSequence.fromList(newFaces).getElement(1).addLast(cur);
+      ListSequence.<Face>fromList(newFaces).getElement(1).addLast(cur);
       cur = dartItr.next();
     }
     embeddedGraph.removeFace(face);
-    for (Face newFace : ListSequence.fromList(newFaces)) {
+    for (Face newFace : ListSequence.<Face>fromList(newFaces)) {
       embeddedGraph.addFace(newFace);
     }
     if (embeddedGraph.isOuterFace(face)) {
-      embeddedGraph.setOuterFace(ListSequence.fromList(newFaces).getElement(1));
+      embeddedGraph.setOuterFace(ListSequence.<Face>fromList(newFaces).getElement(1));
     }
   }
 
@@ -133,26 +133,26 @@ public class TreeEmbeddingFinder implements IEmbeddingFinder {
     Graph originalGraph = embeddedGraph.getGraph();
     Node newNode = originalGraph.createDummyNode();
     originalGraph.removeEdge(edge);
-    List<Edge> newEdges = ListSequence.fromList(new ArrayList<Edge>());
-    ListSequence.fromList(newEdges).addElement(originalGraph.connect(edge.getSource(), newNode));
-    ListSequence.fromList(newEdges).addElement(originalGraph.connect(newNode, edge.getTarget()));
-    MapSequence.fromMap(mySplittedEdges).put(edge, newEdges);
-    List<Face> facesToProcess = ListSequence.fromList(new ArrayList<Face>());
-    ListSequence.fromList(facesToProcess).addSequence(ListSequence.fromList(embeddedGraph.getAdjacentFaces(edge)));
-    for (Face face : ListSequence.fromList(facesToProcess)) {
+    List<Edge> newEdges = ListSequence.<Edge>fromList(new ArrayList<Edge>());
+    ListSequence.<Edge>fromList(newEdges).addElement(originalGraph.connect(edge.getSource(), newNode));
+    ListSequence.<Edge>fromList(newEdges).addElement(originalGraph.connect(newNode, edge.getTarget()));
+    MapSequence.<Edge,List<Edge>>fromMap(mySplittedEdges).put(edge, newEdges);
+    List<Face> facesToProcess = ListSequence.<Face>fromList(new ArrayList<Face>());
+    ListSequence.<Face>fromList(facesToProcess).addSequence(ListSequence.<Face>fromList(embeddedGraph.getAdjacentFaces(edge)));
+    for (Face face : ListSequence.<Face>fromList(facesToProcess)) {
       List<Dart> darts = face.getDarts();
       int pos = 0;
-      while (ListSequence.fromList(darts).getElement(pos).getEdge() != edge) {
+      while (ListSequence.<Dart>fromList(darts).getElement(pos).getEdge() != edge) {
         pos++;
       }
-      Dart dartToReplace = ListSequence.fromList(darts).getElement(pos);
-      for (Edge newEdge : ListSequence.fromList(newEdges)) {
-        if (ListSequence.fromList(newEdge.getAdjacentNodes()).contains(dartToReplace.getSource())) {
+      Dart dartToReplace = ListSequence.<Dart>fromList(darts).getElement(pos);
+      for (Edge newEdge : ListSequence.<Edge>fromList(newEdges)) {
+        if (ListSequence.<Node>fromList(newEdge.getAdjacentNodes()).contains(dartToReplace.getSource())) {
           embeddedGraph.setDart(face, pos, new Dart(newEdge, dartToReplace.getSource()));
         }
       }
-      for (Edge newEdge : ListSequence.fromList(newEdges)) {
-        if (ListSequence.fromList(newEdge.getAdjacentNodes()).contains(dartToReplace.getTarget())) {
+      for (Edge newEdge : ListSequence.<Edge>fromList(newEdges)) {
+        if (ListSequence.<Node>fromList(newEdge.getAdjacentNodes()).contains(dartToReplace.getTarget())) {
           embeddedGraph.insertDart(face, pos + 1, new Dart(newEdge, newNode));
         }
       }
@@ -163,33 +163,33 @@ public class TreeEmbeddingFinder implements IEmbeddingFinder {
   private Face getOuterTreeFace(Graph graph, List<Edge> removed) {
     TreeEmbeddingFinder.MyDfs dfs = new TreeEmbeddingFinder.MyDfs();
     dfs.doDfs(graph, Edge.Direction.BOTH);
-    ListSequence.fromList(removed).clear();
-    ListSequence.fromList(removed).addSequence(SetSequence.fromSet(dfs.getBackEdges()));
+    ListSequence.<Edge>fromList(removed).clear();
+    ListSequence.<Edge>fromList(removed).addSequence(SetSequence.<Edge>fromSet(dfs.getBackEdges()));
     return dfs.getOuterFace();
   }
 
   private void mergeEdges() {
-    Map<Edge, List<Edge>> merged = MapSequence.fromMap(new HashMap<Edge, List<Edge>>());
-    Set<Edge> dummyEdges = SetSequence.fromSet(new HashSet<Edge>());
-    for (Edge edge : SetSequence.fromSet(MapSequence.fromMap(mySplittedEdges).keySet())) {
-      SetSequence.fromSet(dummyEdges).addSequence(ListSequence.fromList(MapSequence.fromMap(mySplittedEdges).get(edge)));
+    Map<Edge, List<Edge>> merged = MapSequence.<Edge,List<Edge>>fromMap(new HashMap<Edge, List<Edge>>());
+    Set<Edge> dummyEdges = SetSequence.<Edge>fromSet(new HashSet<Edge>());
+    for (Edge edge : SetSequence.<Edge>fromSet(MapSequence.fromMap(mySplittedEdges).keySet())) {
+      SetSequence.fromSet(dummyEdges).addSequence(ListSequence.<Edge>fromList(MapSequence.<Edge,List<Edge>>fromMap(mySplittedEdges).get(edge)));
     }
-    for (Edge edge : SetSequence.fromSet(MapSequence.fromMap(mySplittedEdges).keySet())) {
-      if (SetSequence.fromSet(dummyEdges).contains(edge)) {
+    for (Edge edge : SetSequence.<Edge>fromSet(MapSequence.fromMap(mySplittedEdges).keySet())) {
+      if (SetSequence.<Edge>fromSet(dummyEdges).contains(edge)) {
         continue;
       }
-      MapSequence.fromMap(merged).put(edge, mergeEdges(edge));
+      MapSequence.<Edge,List<Edge>>fromMap(merged).put(edge, mergeEdges(edge));
     }
     mySplittedEdges = merged;
   }
 
   private List<Edge> mergeEdges(Edge splittedEdge) {
-    List<Edge> newEdgeList = ListSequence.fromList(new ArrayList<Edge>());
-    for (Edge edge : ListSequence.fromList(MapSequence.fromMap(mySplittedEdges).get(splittedEdge))) {
+    List<Edge> newEdgeList = ListSequence.<Edge>fromList(new ArrayList<Edge>());
+    for (Edge edge : ListSequence.<Edge>fromList(MapSequence.<Edge,List<Edge>>fromMap(mySplittedEdges).get(splittedEdge))) {
       if (MapSequence.fromMap(mySplittedEdges).containsKey(edge)) {
-        ListSequence.fromList(newEdgeList).addSequence(ListSequence.fromList(mergeEdges(edge)));
+        ListSequence.<Edge>fromList(newEdgeList).addSequence(ListSequence.<Edge>fromList(mergeEdges(edge)));
       } else {
-        ListSequence.fromList(newEdgeList).addElement(edge);
+        ListSequence.<Edge>fromList(newEdgeList).addElement(edge);
       }
     }
     return newEdgeList;
@@ -208,7 +208,7 @@ public class TreeEmbeddingFinder implements IEmbeddingFinder {
 
     @Override
     protected void processEdge(Edge edge, Node source) {
-      if (MapSequence.fromMap(getDfsState()).get(edge.getOpposite(source)) == Dfs.BEFORE) {
+      if (MapSequence.<Node,Integer>fromMap(getDfsState()).get(edge.getOpposite(source)) == Dfs.BEFORE) {
         myOuterFace.addLast(new Dart(edge, source));
       } else {
         SetSequence.fromSet(myBackEdges).addElement(edge);
@@ -225,7 +225,7 @@ public class TreeEmbeddingFinder implements IEmbeddingFinder {
 
     @Override
     public void doDfs(Graph graph, Edge.Direction direction) {
-      myBackEdges = SetSequence.fromSet(new LinkedHashSet<Edge>());
+      myBackEdges = SetSequence.<Edge>fromSet(new LinkedHashSet<Edge>());
       myOuterFace = new Face(graph);
       super.doDfs(graph, direction);
     }

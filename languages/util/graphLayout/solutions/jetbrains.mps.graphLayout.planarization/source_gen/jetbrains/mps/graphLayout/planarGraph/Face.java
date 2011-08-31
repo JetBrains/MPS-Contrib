@@ -19,15 +19,15 @@ public class Face {
 
   public Face(Graph graph) {
     myGraph = graph;
-    myDarts = ListSequence.fromList(new LinkedList<Dart>());
+    myDarts = ListSequence.<Dart>fromList(new LinkedList<Dart>());
   }
 
   public void addLast(Dart dart) {
-    ListSequence.fromList(myDarts).addElement(dart);
+    ListSequence.<Dart>fromList(myDarts).addElement(dart);
   }
 
   public void addFirst(Dart dart) {
-    ListSequence.fromList(myDarts).insertElement(0, dart);
+    ListSequence.<Dart>fromList(myDarts).insertElement(0, dart);
   }
 
   public List<Dart> getDarts() {
@@ -35,17 +35,17 @@ public class Face {
   }
 
   public boolean contains(List<Node> nodes) {
-    Set<Node> faceNodes = SetSequence.fromSet(new HashSet<Node>());
-    SetSequence.fromSet(faceNodes).addSequence(ListSequence.fromList(myDarts).<Node>select(new ISelector<Dart, Node>() {
+    Set<Node> faceNodes = SetSequence.<Node>fromSet(new HashSet<Node>());
+    SetSequence.fromSet(faceNodes).addSequence(ListSequence.<Dart>fromList(myDarts).<Node>select(new ISelector<Dart, Node>() {
       public Node select(Dart it) {
         return it.getSource();
       }
     }));
-    return SetSequence.fromSet(faceNodes).containsSequence(ListSequence.fromList(nodes));
+    return SetSequence.<Node>fromSet(faceNodes).containsSequence(ListSequence.<Node>fromList(nodes));
   }
 
   public List<Dart> makeEndsWith(final Node end) {
-    Dart dart = ListSequence.fromList(myDarts).findFirst(new IWhereFilter<Dart>() {
+    Dart dart = ListSequence.<Dart>fromList(myDarts).findFirst(new IWhereFilter<Dart>() {
       public boolean accept(Dart it) {
         return it.getTarget() == end;
       }
@@ -57,18 +57,18 @@ public class Face {
   }
 
   public List<Dart> makeEndsWith(Dart dart) {
-    if (!(ListSequence.fromList(myDarts).contains(dart))) {
+    if (!(ListSequence.<Dart>fromList(myDarts).contains(dart))) {
       throw new RuntimeException("list " + myDarts + " doesn't contain dart" + dart);
     }
-    while (ListSequence.fromList(myDarts).last() != dart) {
-      ListSequence.fromList(myDarts).insertElement(0, ListSequence.fromList(myDarts).removeLastElement());
+    while (ListSequence.<Dart>fromList(myDarts).last() != dart) {
+      ListSequence.<Dart>fromList(myDarts).insertElement(0, ListSequence.<Dart>fromList(myDarts).removeLastElement());
     }
     return myDarts;
   }
 
   public List<Dart> makeStartsWith(Dart dart) {
     makeEndsWith(dart);
-    ListSequence.fromList(myDarts).insertElement(0, ListSequence.fromList(myDarts).removeLastElement());
+    ListSequence.<Dart>fromList(myDarts).insertElement(0, ListSequence.<Dart>fromList(myDarts).removeLastElement());
     return myDarts;
   }
 
@@ -76,7 +76,7 @@ public class Face {
   public String toString() {
     StringBuilder builder = new StringBuilder();
     builder.append("Face:\n");
-    for (Dart dart : ListSequence.fromList(myDarts)) {
+    for (Dart dart : ListSequence.<Dart>fromList(myDarts)) {
       builder.append(dart + ", ");
     }
     builder.append("\n");

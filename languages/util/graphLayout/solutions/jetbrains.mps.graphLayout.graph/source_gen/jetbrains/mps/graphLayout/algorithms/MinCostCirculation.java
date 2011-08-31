@@ -14,22 +14,22 @@ public class MinCostCirculation {
   private static int TEST_MODE = 1;
 
   public static Map<Edge, Integer> getCirculation(Graph graph, Map<Edge, Integer> low, Map<Edge, Integer> initialCapacity, Map<Edge, Integer> cost) {
-    Map<Edge, Integer> capacity = MapSequence.fromMap(new HashMap<Edge, Integer>());
+    Map<Edge, Integer> capacity = MapSequence.<Edge,Integer>fromMap(new HashMap<Edge, Integer>());
     Node source = graph.createNode();
     Node target = graph.createNode();
-    for (Edge edge : ListSequence.fromList(graph.getEdges())) {
-      MapSequence.fromMap(capacity).put(edge, MapSequence.fromMap(initialCapacity).get(edge) - MapSequence.fromMap(low).get(edge));
+    for (Edge edge : ListSequence.<Edge>fromList(graph.getEdges())) {
+      MapSequence.<Edge,Integer>fromMap(capacity).put(edge, MapSequence.<Edge,Integer>fromMap(initialCapacity).get(edge) - MapSequence.<Edge,Integer>fromMap(low).get(edge));
     }
-    for (Node node : ListSequence.fromList(graph.getNodes())) {
+    for (Node node : ListSequence.<Node>fromList(graph.getNodes())) {
       if (node == source || node == target) {
         continue;
       }
       int diff = 0;
-      for (Edge edge : ListSequence.fromList(node.getInEdges())) {
-        diff += MapSequence.fromMap(low).get(edge);
+      for (Edge edge : ListSequence.<Edge>fromList(node.getInEdges())) {
+        diff += MapSequence.<Edge,Integer>fromMap(low).get(edge);
       }
-      for (Edge edge : ListSequence.fromList(node.getOutEdges())) {
-        diff -= MapSequence.fromMap(low).get(edge);
+      for (Edge edge : ListSequence.<Edge>fromList(node.getOutEdges())) {
+        diff -= MapSequence.<Edge,Integer>fromMap(low).get(edge);
       }
       Edge newEdge = null;
       if (diff > 0) {
@@ -39,8 +39,8 @@ public class MinCostCirculation {
         newEdge = graph.connect(node, target);
       }
       if (newEdge != null) {
-        MapSequence.fromMap(capacity).put(newEdge, Math.abs(diff));
-        MapSequence.fromMap(cost).put(newEdge, 0);
+        MapSequence.<Edge,Integer>fromMap(capacity).put(newEdge, Math.abs(diff));
+        MapSequence.<Edge,Integer>fromMap(cost).put(newEdge, 0);
       }
     }
     Map<Edge, Integer> flow;
@@ -50,9 +50,9 @@ public class MinCostCirculation {
         Map<Edge, Integer> anotherFlow = MinCostMaxFlow.getFlow(graph, source, target, capacity, cost);
         int flowCost = 0;
         int anotherFlowCost = 0;
-        for (Edge edge : ListSequence.fromList(graph.getEdges())) {
-          flowCost += MapSequence.fromMap(flow).get(edge) * MapSequence.fromMap(cost).get(edge);
-          anotherFlowCost += MapSequence.fromMap(anotherFlow).get(edge) * MapSequence.fromMap(cost).get(edge);
+        for (Edge edge : ListSequence.<Edge>fromList(graph.getEdges())) {
+          flowCost += MapSequence.<Edge,Integer>fromMap(flow).get(edge) * MapSequence.<Edge,Integer>fromMap(cost).get(edge);
+          anotherFlowCost += MapSequence.<Edge,Integer>fromMap(anotherFlow).get(edge) * MapSequence.<Edge,Integer>fromMap(cost).get(edge);
         }
         if (anotherFlowCost != flowCost) {
           throw new RuntimeException("dijkstra result is different than ford-bellman");
@@ -62,19 +62,19 @@ public class MinCostCirculation {
       flow = MinCostMaxFlow.getFlow(graph, source, target, capacity, cost);
     }
     /*
-      for (Edge edge : ListSequence.fromList(source.getOutEdges())) {
-        if (MapSequence.fromMap(flow).get(edge) != MapSequence.fromMap(capacity).get(edge)) {
+      for (Edge edge : ListSequence.<Edge>fromList(source.getOutEdges())) {
+        if (MapSequence.<Edge,Integer>fromMap(flow).get(edge) != MapSequence.<Edge,Integer>fromMap(capacity).get(edge)) {
           throw new RuntimeException("failed to find circulation");
         }
       }
     */
-    for (Edge edge : ListSequence.fromList(source.getEdges()).concat(ListSequence.fromList(target.getEdges()))) {
+    for (Edge edge : ListSequence.<Edge>fromList(source.getEdges()).concat(ListSequence.<Edge>fromList(target.getEdges()))) {
       MapSequence.fromMap(flow).removeKey(edge);
     }
     graph.deleteNode(source);
     graph.deleteNode(target);
-    for (Edge edge : ListSequence.fromList(graph.getEdges())) {
-      MapSequence.fromMap(flow).put(edge, MapSequence.fromMap(flow).get(edge) + MapSequence.fromMap(low).get(edge));
+    for (Edge edge : ListSequence.<Edge>fromList(graph.getEdges())) {
+      MapSequence.<Edge,Integer>fromMap(flow).put(edge, MapSequence.<Edge,Integer>fromMap(flow).get(edge) + MapSequence.<Edge,Integer>fromMap(low).get(edge));
     }
     return flow;
   }

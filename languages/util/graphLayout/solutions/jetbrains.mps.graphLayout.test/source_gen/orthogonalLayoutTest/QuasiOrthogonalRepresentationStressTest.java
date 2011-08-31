@@ -34,8 +34,8 @@ public class QuasiOrthogonalRepresentationStressTest {
       GraphIO.writeGraph(graph, out);
       out.close();
       EmbeddedGraph embeddedGraph = new ShortestPathEmbeddingFinder(new PQPlanarizationFinder()).find(graph);
-      Map<Dart, Integer> bends = MapSequence.fromMap(new HashMap<Dart, Integer>());
-      Map<Dart, Integer> angles = MapSequence.fromMap(new HashMap<Dart, Integer>());
+      Map<Dart, Integer> bends = MapSequence.<Dart,Integer>fromMap(new HashMap<Dart, Integer>());
+      Map<Dart, Integer> angles = MapSequence.<Dart,Integer>fromMap(new HashMap<Dart, Integer>());
       QuasiOrthogonalRepresentation.getRepresentation(embeddedGraph, bends, angles);
       OrthogonalRepresentationChecker.checkOrthogonalRepresentation(graph, bends, angles, 0);
       new QuasiRepresentationModifier(embeddedGraph, bends, angles).reduceToOrthogonalRepresentation();

@@ -37,13 +37,13 @@ public class AmbiguityPlanarizationFinder_Test extends TestCase {
     EmbeddedGraph mainEmbeddedGraph = null;
     for (int testNum = 0; testNum < 100; testNum++) {
       Graph copy = new Graph();
-      Map<Node, Node> nodeMap = MapSequence.fromMap(new HashMap<Node, Node>());
-      Map<Edge, Edge> edgeMap = MapSequence.fromMap(new HashMap<Edge, Edge>());
-      for (Node node : ListSequence.fromList(graph.getNodes())) {
-        MapSequence.fromMap(nodeMap).put(node, copy.createNode());
+      Map<Node, Node> nodeMap = MapSequence.<Node,Node>fromMap(new HashMap<Node, Node>());
+      Map<Edge, Edge> edgeMap = MapSequence.<Edge,Edge>fromMap(new HashMap<Edge, Edge>());
+      for (Node node : ListSequence.<Node>fromList(graph.getNodes())) {
+        MapSequence.<Node,Node>fromMap(nodeMap).put(node, copy.createNode());
       }
-      for (Edge edge : ListSequence.fromList(graph.getEdges())) {
-        MapSequence.fromMap(edgeMap).put(edge, copy.connect(MapSequence.fromMap(nodeMap).get(edge.getSource()), MapSequence.fromMap(nodeMap).get(edge.getTarget())));
+      for (Edge edge : ListSequence.<Edge>fromList(graph.getEdges())) {
+        MapSequence.<Edge,Edge>fromMap(edgeMap).put(edge, copy.connect(MapSequence.<Node,Node>fromMap(nodeMap).get(edge.getSource()), MapSequence.<Node,Node>fromMap(nodeMap).get(edge.getTarget())));
       }
       BiconnectAugmentation.makeBiconnected(copy);
       EmbeddedGraph embeddedGraph;
@@ -52,26 +52,26 @@ public class AmbiguityPlanarizationFinder_Test extends TestCase {
         mainEmbeddedGraph = embeddedGraph;
       } else {
         Graph main = mainEmbeddedGraph.getGraph();
-        Assert.assertTrue(ListSequence.fromList(main.getNodes()).count() == ListSequence.fromList(copy.getNodes()).count());
-        for (int i = 0; i < ListSequence.fromList(main.getNodes()).count(); i++) {
-          Node n1 = ListSequence.fromList(main.getNodes()).getElement(i);
-          Node n2 = ListSequence.fromList(copy.getNodes()).getElement(i);
-          Assert.assertTrue(ListSequence.fromList(n1.getEdges()).count() == ListSequence.fromList(n2.getEdges()).count());
-          for (int j = 0; j < ListSequence.fromList(n1.getEdges()).count(); j++) {
-            Edge e1 = ListSequence.fromList(n1.getEdges()).getElement(j);
-            Edge e2 = ListSequence.fromList(n2.getEdges()).getElement(j);
+        Assert.assertTrue(ListSequence.<Node>fromList(main.getNodes()).count() == ListSequence.<Node>fromList(copy.getNodes()).count());
+        for (int i = 0; i < ListSequence.<Node>fromList(main.getNodes()).count(); i++) {
+          Node n1 = ListSequence.<Node>fromList(main.getNodes()).getElement(i);
+          Node n2 = ListSequence.<Node>fromList(copy.getNodes()).getElement(i);
+          Assert.assertTrue(ListSequence.<Edge>fromList(n1.getEdges()).count() == ListSequence.<Edge>fromList(n2.getEdges()).count());
+          for (int j = 0; j < ListSequence.<Edge>fromList(n1.getEdges()).count(); j++) {
+            Edge e1 = ListSequence.<Edge>fromList(n1.getEdges()).getElement(j);
+            Edge e2 = ListSequence.<Edge>fromList(n2.getEdges()).getElement(j);
             Assert.assertTrue(e1.getSource().getIndex() == e2.getSource().getIndex());
             Assert.assertTrue(e1.getTarget().getIndex() == e2.getTarget().getIndex());
           }
         }
-        Assert.assertTrue(ListSequence.fromList(embeddedGraph.getFaces()).count() == ListSequence.fromList(mainEmbeddedGraph.getFaces()).count());
-        for (int i = 0; i < ListSequence.fromList(embeddedGraph.getFaces()).count(); i++) {
-          Face f1 = ListSequence.fromList(embeddedGraph.getFaces()).getElement(i);
-          Face f2 = ListSequence.fromList(mainEmbeddedGraph.getFaces()).getElement(i);
-          Assert.assertTrue(ListSequence.fromList(f1.getDarts()).count() == ListSequence.fromList(f2.getDarts()).count());
-          for (int j = 0; j < ListSequence.fromList(f1.getDarts()).count(); j++) {
-            Dart d1 = ListSequence.fromList(f1.getDarts()).getElement(j);
-            Dart d2 = ListSequence.fromList(f2.getDarts()).getElement(j);
+        Assert.assertTrue(ListSequence.<Face>fromList(embeddedGraph.getFaces()).count() == ListSequence.<Face>fromList(mainEmbeddedGraph.getFaces()).count());
+        for (int i = 0; i < ListSequence.<Face>fromList(embeddedGraph.getFaces()).count(); i++) {
+          Face f1 = ListSequence.<Face>fromList(embeddedGraph.getFaces()).getElement(i);
+          Face f2 = ListSequence.<Face>fromList(mainEmbeddedGraph.getFaces()).getElement(i);
+          Assert.assertTrue(ListSequence.<Dart>fromList(f1.getDarts()).count() == ListSequence.<Dart>fromList(f2.getDarts()).count());
+          for (int j = 0; j < ListSequence.<Dart>fromList(f1.getDarts()).count(); j++) {
+            Dart d1 = ListSequence.<Dart>fromList(f1.getDarts()).getElement(j);
+            Dart d2 = ListSequence.<Dart>fromList(f2.getDarts()).getElement(j);
             Assert.assertTrue(d1.getSource().getIndex() == d2.getSource().getIndex());
             Assert.assertTrue(d1.getTarget().getIndex() == d2.getTarget().getIndex());
           }

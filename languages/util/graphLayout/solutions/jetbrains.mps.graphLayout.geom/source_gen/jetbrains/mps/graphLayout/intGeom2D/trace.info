@@ -1,30 +1,30 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <debugInfo>
   <root nodeId="1966465523159400126">
-    <nodeInfo nodeId="1966465523159400143" fileName="OrthogonalUtil.java" startLine="23" startPosition="66" endLine="24" endPosition="73" conceptFqName="jetbrains.mps.baseLanguage.structure.LocalVariableDeclarationStatement" />
-    <nodeInfo nodeId="1966465523159400159" fileName="OrthogonalUtil.java" startLine="24" startPosition="73" endLine="25" endPosition="57" conceptFqName="jetbrains.mps.baseLanguage.structure.LocalVariableDeclarationStatement" />
-    <nodeInfo nodeId="1966465523159400165" fileName="OrthogonalUtil.java" startLine="25" startPosition="57" endLine="26" endPosition="28" conceptFqName="jetbrains.mps.baseLanguage.structure.LocalVariableDeclarationStatement" />
+    <nodeInfo nodeId="1966465523159400143" fileName="OrthogonalUtil.java" startLine="23" startPosition="66" endLine="24" endPosition="80" conceptFqName="jetbrains.mps.baseLanguage.structure.LocalVariableDeclarationStatement" />
+    <nodeInfo nodeId="1966465523159400159" fileName="OrthogonalUtil.java" startLine="24" startPosition="80" endLine="25" endPosition="64" conceptFqName="jetbrains.mps.baseLanguage.structure.LocalVariableDeclarationStatement" />
+    <nodeInfo nodeId="1966465523159400165" fileName="OrthogonalUtil.java" startLine="25" startPosition="64" endLine="26" endPosition="28" conceptFqName="jetbrains.mps.baseLanguage.structure.LocalVariableDeclarationStatement" />
     <nodeInfo nodeId="1966465523159400241" fileName="OrthogonalUtil.java" startLine="26" startPosition="28" endLine="27" endPosition="28" conceptFqName="jetbrains.mps.baseLanguage.structure.LocalVariableDeclarationStatement" />
-    <nodeInfo nodeId="1966465523159400219" fileName="OrthogonalUtil.java" startLine="27" startPosition="28" endLine="28" endPosition="52" conceptFqName="jetbrains.mps.baseLanguage.structure.ExpressionStatement" />
+    <nodeInfo nodeId="1966465523159400219" fileName="OrthogonalUtil.java" startLine="27" startPosition="28" endLine="28" endPosition="59" conceptFqName="jetbrains.mps.baseLanguage.structure.ExpressionStatement" />
     <nodeInfo nodeId="1966465523159400203" fileName="OrthogonalUtil.java" startLine="30" startPosition="30" endLine="31" endPosition="17" conceptFqName="jetbrains.mps.baseLanguage.structure.ContinueStatement" />
     <nodeInfo nodeId="1966465523159400276" fileName="OrthogonalUtil.java" startLine="32" startPosition="7" endLine="33" endPosition="41" conceptFqName="jetbrains.mps.baseLanguage.structure.LocalVariableDeclarationStatement" />
-    <nodeInfo nodeId="1966465523159400316" fileName="OrthogonalUtil.java" startLine="35" startPosition="33" endLine="36" endPosition="58" conceptFqName="jetbrains.mps.baseLanguage.structure.ExpressionStatement" />
+    <nodeInfo nodeId="1966465523159400316" fileName="OrthogonalUtil.java" startLine="35" startPosition="33" endLine="36" endPosition="65" conceptFqName="jetbrains.mps.baseLanguage.structure.ExpressionStatement" />
     <nodeInfo nodeId="1966465523159400254" fileName="OrthogonalUtil.java" startLine="38" startPosition="7" endLine="39" endPosition="23" conceptFqName="jetbrains.mps.baseLanguage.structure.ExpressionStatement" />
     <nodeInfo nodeId="1966465523159400248" fileName="OrthogonalUtil.java" startLine="39" startPosition="23" endLine="40" endPosition="24" conceptFqName="jetbrains.mps.baseLanguage.structure.ExpressionStatement" />
     <nodeInfo nodeId="1966465523159400297" fileName="OrthogonalUtil.java" startLine="40" startPosition="24" endLine="41" endPosition="18" conceptFqName="jetbrains.mps.baseLanguage.structure.ExpressionStatement" />
-    <nodeInfo nodeId="1966465523159400328" fileName="OrthogonalUtil.java" startLine="42" startPosition="5" endLine="43" endPosition="52" conceptFqName="jetbrains.mps.baseLanguage.structure.ExpressionStatement" />
-    <nodeInfo nodeId="1966465523159400153" fileName="OrthogonalUtil.java" startLine="43" startPosition="52" endLine="44" endPosition="19" conceptFqName="jetbrains.mps.baseLanguage.structure.ReturnStatement" />
+    <nodeInfo nodeId="1966465523159400328" fileName="OrthogonalUtil.java" startLine="42" startPosition="5" endLine="43" endPosition="59" conceptFqName="jetbrains.mps.baseLanguage.structure.ExpressionStatement" />
+    <nodeInfo nodeId="1966465523159400153" fileName="OrthogonalUtil.java" startLine="43" startPosition="59" endLine="44" endPosition="19" conceptFqName="jetbrains.mps.baseLanguage.structure.ReturnStatement" />
     <nodeInfo nodeId="1705599667576531253" fileName="OrthogonalUtil.java" startLine="49" startPosition="59" endLine="50" endPosition="39" conceptFqName="jetbrains.mps.baseLanguage.structure.ReturnStatement" />
     <nodeInfo nodeId="1705599667576531264" fileName="OrthogonalUtil.java" startLine="52" startPosition="64" endLine="53" endPosition="44" conceptFqName="jetbrains.mps.baseLanguage.structure.ReturnStatement" />
     <nodeInfo nodeId="1705599667576531305" fileName="OrthogonalUtil.java" startLine="57" startPosition="59" endLine="58" endPosition="39" conceptFqName="jetbrains.mps.baseLanguage.structure.ReturnStatement" />
     <nodeInfo nodeId="1705599667576531316" fileName="OrthogonalUtil.java" startLine="60" startPosition="64" endLine="61" endPosition="44" conceptFqName="jetbrains.mps.baseLanguage.structure.ReturnStatement" />
     <nodeInfo nodeId="1705599667576531350" fileName="OrthogonalUtil.java" startLine="63" startPosition="5" endLine="64" endPosition="16" conceptFqName="jetbrains.mps.baseLanguage.structure.ReturnStatement" />
-    <nodeInfo nodeId="1705599667576531364" fileName="OrthogonalUtil.java" startLine="67" startPosition="70" endLine="68" endPosition="75" conceptFqName="jetbrains.mps.baseLanguage.structure.LocalVariableDeclarationStatement" />
-    <nodeInfo nodeId="1705599667576531371" fileName="OrthogonalUtil.java" startLine="68" startPosition="75" endLine="69" endPosition="29" conceptFqName="jetbrains.mps.baseLanguage.structure.LocalVariableDeclarationStatement" />
-    <nodeInfo nodeId="1705599667576531381" fileName="OrthogonalUtil.java" startLine="69" startPosition="29" endLine="70" endPosition="76" conceptFqName="jetbrains.mps.baseLanguage.structure.ExpressionStatement" />
-    <nodeInfo nodeId="1705599667576531393" fileName="OrthogonalUtil.java" startLine="70" startPosition="76" endLine="71" endPosition="90" conceptFqName="jetbrains.mps.baseLanguage.structure.ExpressionStatement" />
-    <nodeInfo nodeId="1705599667576531409" fileName="OrthogonalUtil.java" startLine="71" startPosition="90" endLine="72" endPosition="89" conceptFqName="jetbrains.mps.baseLanguage.structure.ExpressionStatement" />
-    <nodeInfo nodeId="1705599667576531425" fileName="OrthogonalUtil.java" startLine="72" startPosition="89" endLine="73" endPosition="103" conceptFqName="jetbrains.mps.baseLanguage.structure.ExpressionStatement" />
+    <nodeInfo nodeId="1705599667576531364" fileName="OrthogonalUtil.java" startLine="67" startPosition="70" endLine="68" endPosition="82" conceptFqName="jetbrains.mps.baseLanguage.structure.LocalVariableDeclarationStatement" />
+    <nodeInfo nodeId="1705599667576531371" fileName="OrthogonalUtil.java" startLine="68" startPosition="82" endLine="69" endPosition="29" conceptFqName="jetbrains.mps.baseLanguage.structure.LocalVariableDeclarationStatement" />
+    <nodeInfo nodeId="1705599667576531381" fileName="OrthogonalUtil.java" startLine="69" startPosition="29" endLine="70" endPosition="83" conceptFqName="jetbrains.mps.baseLanguage.structure.ExpressionStatement" />
+    <nodeInfo nodeId="1705599667576531393" fileName="OrthogonalUtil.java" startLine="70" startPosition="83" endLine="71" endPosition="97" conceptFqName="jetbrains.mps.baseLanguage.structure.ExpressionStatement" />
+    <nodeInfo nodeId="1705599667576531409" fileName="OrthogonalUtil.java" startLine="71" startPosition="97" endLine="72" endPosition="96" conceptFqName="jetbrains.mps.baseLanguage.structure.ExpressionStatement" />
+    <nodeInfo nodeId="1705599667576531425" fileName="OrthogonalUtil.java" startLine="72" startPosition="96" endLine="73" endPosition="110" conceptFqName="jetbrains.mps.baseLanguage.structure.ExpressionStatement" />
     <nodeInfo nodeId="1705599667576531481" fileName="OrthogonalUtil.java" startLine="76" startPosition="58" endLine="77" endPosition="19" conceptFqName="jetbrains.mps.baseLanguage.structure.ReturnStatement" />
     <nodeInfo nodeId="1705599667576531514" fileName="OrthogonalUtil.java" startLine="80" startPosition="58" endLine="81" endPosition="19" conceptFqName="jetbrains.mps.baseLanguage.structure.ReturnStatement" />
     <nodeInfo nodeId="1705599667576531516" fileName="OrthogonalUtil.java" startLine="84" startPosition="5" endLine="85" endPosition="16" conceptFqName="jetbrains.mps.baseLanguage.structure.ReturnStatement" />
@@ -52,7 +52,7 @@
     <nodeInfo nodeId="1705599667576630739" fileName="OrthogonalUtil.java" startLine="151" startPosition="5" endLine="152" endPosition="17" conceptFqName="jetbrains.mps.baseLanguage.structure.ReturnStatement" />
     <nodeInfo nodeId="1705599667576630553" fileName="OrthogonalUtil.java" startLine="127" startPosition="12" endLine="129" endPosition="7" conceptFqName="jetbrains.mps.baseLanguage.structure.BlockStatement" />
     <nodeInfo nodeId="1705599667576630574" fileName="OrthogonalUtil.java" startLine="132" startPosition="12" endLine="134" endPosition="7" conceptFqName="jetbrains.mps.baseLanguage.structure.BlockStatement" />
-    <nodeInfo nodeId="1966465523159400190" fileName="OrthogonalUtil.java" startLine="29" startPosition="56" endLine="32" endPosition="7" conceptFqName="jetbrains.mps.baseLanguage.structure.IfStatement" />
+    <nodeInfo nodeId="1966465523159400190" fileName="OrthogonalUtil.java" startLine="29" startPosition="63" endLine="32" endPosition="7" conceptFqName="jetbrains.mps.baseLanguage.structure.IfStatement" />
     <nodeInfo nodeId="1966465523159400307" fileName="OrthogonalUtil.java" startLine="34" startPosition="24" endLine="37" endPosition="9" conceptFqName="jetbrains.mps.baseLanguage.structure.IfStatement" />
     <nodeInfo nodeId="1705599667576531241" fileName="OrthogonalUtil.java" startLine="48" startPosition="23" endLine="51" endPosition="7" conceptFqName="jetbrains.mps.baseLanguage.structure.IfStatement" />
     <nodeInfo nodeId="1705599667576531262" fileName="OrthogonalUtil.java" startLine="51" startPosition="7" endLine="54" endPosition="7" conceptFqName="jetbrains.mps.baseLanguage.structure.IfStatement" />
@@ -75,10 +75,10 @@
     <nodeInfo nodeId="1705599667576531588" fileName="OrthogonalUtil.java" startLine="87" startPosition="0" endLine="93" endPosition="0" conceptFqName="jetbrains.mps.baseLanguage.structure.StaticMethodDeclaration" propertyString="getDirection#(Ljetbrains/mps/graphLayout/intGeom2D/Point;Ljetbrains/mps/graphLayout/intGeom2D/Point;)Ljetbrains/mps/graphLayout/intGeom2D/Direction2D;" />
     <nodeInfo nodeId="1705599667576531232" fileName="OrthogonalUtil.java" startLine="47" startPosition="72" endLine="55" endPosition="5" conceptFqName="jetbrains.mps.baseLanguage.structure.IfStatement" />
     <nodeInfo nodeId="1705599667576531291" fileName="OrthogonalUtil.java" startLine="55" startPosition="5" endLine="63" endPosition="5" conceptFqName="jetbrains.mps.baseLanguage.structure.IfStatement" />
-    <nodeInfo nodeId="1705599667576531449" fileName="OrthogonalUtil.java" startLine="74" startPosition="55" endLine="83" endPosition="7" conceptFqName="jetbrains.mps.baseLanguage.structure.IfStatement" />
+    <nodeInfo nodeId="1705599667576531449" fileName="OrthogonalUtil.java" startLine="74" startPosition="62" endLine="83" endPosition="7" conceptFqName="jetbrains.mps.baseLanguage.structure.IfStatement" />
     <nodeInfo nodeId="1705599667576630604" fileName="OrthogonalUtil.java" startLine="144" startPosition="0" endLine="154" endPosition="0" conceptFqName="jetbrains.mps.baseLanguage.structure.StaticMethodDeclaration" propertyString="inside#(Ljetbrains/mps/graphLayout/intGeom2D/Point;Ljetbrains/mps/graphLayout/intGeom2D/Point;Ljetbrains/mps/graphLayout/intGeom2D/Point;)Z" />
-    <nodeInfo nodeId="1705599667576531445" fileName="OrthogonalUtil.java" startLine="73" startPosition="103" endLine="84" endPosition="5" conceptFqName="jetbrains.mps.baseLanguage.structure.ForeachStatement" />
-    <nodeInfo nodeId="1966465523159400171" fileName="OrthogonalUtil.java" startLine="28" startPosition="52" endLine="42" endPosition="5" conceptFqName="jetbrains.mps.baseLanguage.structure.ForeachStatement" />
+    <nodeInfo nodeId="1705599667576531445" fileName="OrthogonalUtil.java" startLine="73" startPosition="110" endLine="84" endPosition="5" conceptFqName="jetbrains.mps.baseLanguage.structure.ForeachStatement" />
+    <nodeInfo nodeId="1966465523159400171" fileName="OrthogonalUtil.java" startLine="28" startPosition="59" endLine="42" endPosition="5" conceptFqName="jetbrains.mps.baseLanguage.structure.ForeachStatement" />
     <nodeInfo nodeId="1705599667576630534" fileName="OrthogonalUtil.java" startLine="123" startPosition="10" endLine="142" endPosition="5" conceptFqName="jetbrains.mps.baseLanguage.structure.BlockStatement" />
     <nodeInfo nodeId="1705599667576531228" fileName="OrthogonalUtil.java" startLine="46" startPosition="0" endLine="66" endPosition="0" conceptFqName="jetbrains.mps.baseLanguage.structure.StaticMethodDeclaration" propertyString="findOnBorder#(Ljetbrains/mps/graphLayout/intGeom2D/Rectangle;Ljetbrains/mps/graphLayout/intGeom2D/Point;Ljetbrains/mps/graphLayout/intGeom2D/Point;)Ljetbrains/mps/graphLayout/intGeom2D/Point;" />
     <nodeInfo nodeId="1705599667576531360" fileName="OrthogonalUtil.java" startLine="66" startPosition="0" endLine="87" endPosition="0" conceptFqName="jetbrains.mps.baseLanguage.structure.StaticMethodDeclaration" propertyString="moveToBorder#(Ljetbrains/mps/graphLayout/intGeom2D/Rectangle;Ljetbrains/mps/graphLayout/intGeom2D/Point;Ljetbrains/mps/graphLayout/intGeom2D/Point;)Ljetbrains/mps/graphLayout/intGeom2D/Point;" />
@@ -86,7 +86,7 @@
     <nodeInfo nodeId="1705599667576621644" fileName="OrthogonalUtil.java" startLine="108" startPosition="32" endLine="142" endPosition="5" conceptFqName="jetbrains.mps.baseLanguage.structure.IfStatement" />
     <nodeInfo nodeId="1705599667576621618" fileName="OrthogonalUtil.java" startLine="93" startPosition="0" endLine="144" endPosition="0" conceptFqName="jetbrains.mps.baseLanguage.structure.StaticMethodDeclaration" propertyString="intersects#(Ljetbrains/mps/graphLayout/intGeom2D/Point;Ljetbrains/mps/graphLayout/intGeom2D/Point;Ljetbrains/mps/graphLayout/intGeom2D/Point;Ljetbrains/mps/graphLayout/intGeom2D/Point;)Ljetbrains/mps/graphLayout/intGeom2D/Point;" />
     <scopeInfo nodeId="1966465523159400192" fileName="OrthogonalUtil.java" startLine="30" startPosition="30" endLine="31" endPosition="17" />
-    <scopeInfo nodeId="1966465523159400308" fileName="OrthogonalUtil.java" startLine="35" startPosition="33" endLine="36" endPosition="58" />
+    <scopeInfo nodeId="1966465523159400308" fileName="OrthogonalUtil.java" startLine="35" startPosition="33" endLine="36" endPosition="65" />
     <scopeInfo nodeId="1705599667576531252" fileName="OrthogonalUtil.java" startLine="49" startPosition="59" endLine="50" endPosition="39" />
     <scopeInfo nodeId="1705599667576531263" fileName="OrthogonalUtil.java" startLine="52" startPosition="64" endLine="53" endPosition="44" />
     <scopeInfo nodeId="1705599667576531304" fileName="OrthogonalUtil.java" startLine="57" startPosition="59" endLine="58" endPosition="39" />
@@ -119,18 +119,18 @@
       <varInfo nodeId="1705599667576531615" varName="begin" />
     </scopeInfo>
     <scopeInfo nodeId="1705599667576630613" fileName="OrthogonalUtil.java" startLine="145" startPosition="61" endLine="152" endPosition="17" />
-    <scopeInfo nodeId="1705599667576531448" fileName="OrthogonalUtil.java" startLine="74" startPosition="55" endLine="83" endPosition="7" />
+    <scopeInfo nodeId="1705599667576531448" fileName="OrthogonalUtil.java" startLine="74" startPosition="62" endLine="83" endPosition="7" />
     <scopeInfo nodeId="1705599667576630604" fileName="OrthogonalUtil.java" startLine="144" startPosition="0" endLine="154" endPosition="0">
       <varInfo nodeId="1705599667576630611" varName="e" />
       <varInfo nodeId="1705599667576630609" varName="b" />
       <varInfo nodeId="1705599667576630825" varName="mid" />
     </scopeInfo>
-    <scopeInfo nodeId="1705599667576531445" fileName="OrthogonalUtil.java" startLine="73" startPosition="103" endLine="84" endPosition="5" />
-    <scopeInfo nodeId="1966465523159400174" fileName="OrthogonalUtil.java" startLine="29" startPosition="56" endLine="41" endPosition="18">
+    <scopeInfo nodeId="1705599667576531445" fileName="OrthogonalUtil.java" startLine="73" startPosition="110" endLine="84" endPosition="5" />
+    <scopeInfo nodeId="1966465523159400174" fileName="OrthogonalUtil.java" startLine="29" startPosition="63" endLine="41" endPosition="18">
       <varInfo nodeId="1966465523159400277" varName="nextVer" />
     </scopeInfo>
     <scopeInfo nodeId="1705599667576621645" fileName="OrthogonalUtil.java" startLine="109" startPosition="23" endLine="122" endPosition="18" />
-    <scopeInfo nodeId="1966465523159400171" fileName="OrthogonalUtil.java" startLine="28" startPosition="52" endLine="42" endPosition="5" />
+    <scopeInfo nodeId="1966465523159400171" fileName="OrthogonalUtil.java" startLine="28" startPosition="59" endLine="42" endPosition="5" />
     <scopeInfo nodeId="1705599667576531231" fileName="OrthogonalUtil.java" startLine="47" startPosition="72" endLine="64" endPosition="16" />
     <scopeInfo nodeId="1705599667576531363" fileName="OrthogonalUtil.java" startLine="67" startPosition="70" endLine="85" endPosition="16">
       <varInfo nodeId="1705599667576531365" varName="rectPoints" />
@@ -539,15 +539,15 @@
     <nodeInfo nodeId="7490214903453704270" fileName="GeomUtil.java" startLine="45" startPosition="12" endLine="46" endPosition="19" conceptFqName="jetbrains.mps.baseLanguage.structure.ReturnStatement" />
     <nodeInfo nodeId="2301768597858223167" fileName="GeomUtil.java" startLine="50" startPosition="68" endLine="51" endPosition="29" conceptFqName="jetbrains.mps.baseLanguage.structure.ReturnStatement" />
     <nodeInfo nodeId="4723758683606896279" fileName="GeomUtil.java" startLine="54" startPosition="60" endLine="55" endPosition="29" conceptFqName="jetbrains.mps.baseLanguage.structure.ReturnStatement" />
-    <nodeInfo nodeId="3805314409601861071" fileName="GeomUtil.java" startLine="58" startPosition="89" endLine="59" endPosition="81" conceptFqName="jetbrains.mps.baseLanguage.structure.LocalVariableDeclarationStatement" />
-    <nodeInfo nodeId="3805314409601861086" fileName="GeomUtil.java" startLine="60" startPosition="53" endLine="61" endPosition="95" conceptFqName="jetbrains.mps.baseLanguage.structure.ExpressionStatement" />
+    <nodeInfo nodeId="3805314409601861071" fileName="GeomUtil.java" startLine="58" startPosition="89" endLine="59" endPosition="88" conceptFqName="jetbrains.mps.baseLanguage.structure.LocalVariableDeclarationStatement" />
+    <nodeInfo nodeId="3805314409601861086" fileName="GeomUtil.java" startLine="60" startPosition="60" endLine="61" endPosition="102" conceptFqName="jetbrains.mps.baseLanguage.structure.ExpressionStatement" />
     <nodeInfo nodeId="3805314409601861121" fileName="GeomUtil.java" startLine="62" startPosition="5" endLine="63" endPosition="27" conceptFqName="jetbrains.mps.baseLanguage.structure.ReturnStatement" />
-    <nodeInfo nodeId="2135502080755100089" fileName="GeomUtil.java" startLine="66" startPosition="60" endLine="67" endPosition="97" conceptFqName="jetbrains.mps.baseLanguage.structure.ReturnStatement" />
+    <nodeInfo nodeId="2135502080755100089" fileName="GeomUtil.java" startLine="66" startPosition="60" endLine="67" endPosition="104" conceptFqName="jetbrains.mps.baseLanguage.structure.ReturnStatement" />
     <nodeInfo nodeId="2135502080755100113" fileName="GeomUtil.java" startLine="70" startPosition="70" endLine="71" endPosition="33" conceptFqName="jetbrains.mps.baseLanguage.structure.LocalVariableDeclarationStatement" />
     <nodeInfo nodeId="2135502080755100117" fileName="GeomUtil.java" startLine="71" startPosition="33" endLine="72" endPosition="33" conceptFqName="jetbrains.mps.baseLanguage.structure.LocalVariableDeclarationStatement" />
     <nodeInfo nodeId="2135502080755100121" fileName="GeomUtil.java" startLine="72" startPosition="33" endLine="73" endPosition="33" conceptFqName="jetbrains.mps.baseLanguage.structure.LocalVariableDeclarationStatement" />
     <nodeInfo nodeId="2135502080755100125" fileName="GeomUtil.java" startLine="73" startPosition="33" endLine="74" endPosition="33" conceptFqName="jetbrains.mps.baseLanguage.structure.LocalVariableDeclarationStatement" />
-    <nodeInfo nodeId="2135502080755100133" fileName="GeomUtil.java" startLine="75" startPosition="55" endLine="76" endPosition="37" conceptFqName="jetbrains.mps.baseLanguage.structure.ExpressionStatement" />
+    <nodeInfo nodeId="2135502080755100133" fileName="GeomUtil.java" startLine="75" startPosition="62" endLine="76" endPosition="37" conceptFqName="jetbrains.mps.baseLanguage.structure.ExpressionStatement" />
     <nodeInfo nodeId="2135502080755100141" fileName="GeomUtil.java" startLine="76" startPosition="37" endLine="77" endPosition="37" conceptFqName="jetbrains.mps.baseLanguage.structure.ExpressionStatement" />
     <nodeInfo nodeId="2135502080755100149" fileName="GeomUtil.java" startLine="77" startPosition="37" endLine="78" endPosition="37" conceptFqName="jetbrains.mps.baseLanguage.structure.ExpressionStatement" />
     <nodeInfo nodeId="2135502080755100157" fileName="GeomUtil.java" startLine="78" startPosition="37" endLine="79" endPosition="37" conceptFqName="jetbrains.mps.baseLanguage.structure.ExpressionStatement" />
@@ -564,8 +564,8 @@
     <nodeInfo nodeId="1705599667576531674" fileName="GeomUtil.java" startLine="100" startPosition="5" endLine="101" endPosition="17" conceptFqName="jetbrains.mps.baseLanguage.structure.ReturnStatement" />
     <nodeInfo nodeId="7490214903453704268" fileName="GeomUtil.java" startLine="45" startPosition="10" endLine="47" endPosition="5" conceptFqName="jetbrains.mps.baseLanguage.structure.BlockStatement" />
     <nodeInfo nodeId="7490214903453704330" fileName="GeomUtil.java" startLine="20" startPosition="37" endLine="23" endPosition="5" conceptFqName="jetbrains.mps.baseLanguage.structure.IfStatement" />
-    <nodeInfo nodeId="3805314409601861081" fileName="GeomUtil.java" startLine="59" startPosition="81" endLine="62" endPosition="5" conceptFqName="jetbrains.mps.baseLanguage.structure.ForeachStatement" />
-    <nodeInfo nodeId="1705599667576531657" fileName="GeomUtil.java" startLine="95" startPosition="55" endLine="98" endPosition="7" conceptFqName="jetbrains.mps.baseLanguage.structure.IfStatement" />
+    <nodeInfo nodeId="3805314409601861081" fileName="GeomUtil.java" startLine="59" startPosition="88" endLine="62" endPosition="5" conceptFqName="jetbrains.mps.baseLanguage.structure.ForeachStatement" />
+    <nodeInfo nodeId="1705599667576531657" fileName="GeomUtil.java" startLine="95" startPosition="62" endLine="98" endPosition="7" conceptFqName="jetbrains.mps.baseLanguage.structure.IfStatement" />
     <nodeInfo nodeId="5639108013728080359" fileName="GeomUtil.java" startLine="28" startPosition="0" endLine="32" endPosition="0" conceptFqName="jetbrains.mps.baseLanguage.structure.StaticMethodDeclaration" propertyString="intersects#(IIII)Z" />
     <nodeInfo nodeId="2301768597858223147" fileName="GeomUtil.java" startLine="49" startPosition="0" endLine="53" endPosition="0" conceptFqName="jetbrains.mps.baseLanguage.structure.StaticMethodDeclaration" propertyString="crossproduct2D#(IIII)I" />
     <nodeInfo nodeId="592792776163389470" fileName="GeomUtil.java" startLine="53" startPosition="0" endLine="57" endPosition="0" conceptFqName="jetbrains.mps.baseLanguage.structure.StaticMethodDeclaration" propertyString="scalar#(IIII)I" />
@@ -586,10 +586,10 @@
     <scopeInfo nodeId="7490214903453704269" fileName="GeomUtil.java" startLine="45" startPosition="12" endLine="46" endPosition="19" />
     <scopeInfo nodeId="2301768597858223150" fileName="GeomUtil.java" startLine="50" startPosition="68" endLine="51" endPosition="29" />
     <scopeInfo nodeId="592792776163389473" fileName="GeomUtil.java" startLine="54" startPosition="60" endLine="55" endPosition="29" />
-    <scopeInfo nodeId="3805314409601861084" fileName="GeomUtil.java" startLine="60" startPosition="53" endLine="61" endPosition="95" />
-    <scopeInfo nodeId="2135502080755100048" fileName="GeomUtil.java" startLine="66" startPosition="60" endLine="67" endPosition="97" />
+    <scopeInfo nodeId="3805314409601861084" fileName="GeomUtil.java" startLine="60" startPosition="60" endLine="61" endPosition="102" />
+    <scopeInfo nodeId="2135502080755100048" fileName="GeomUtil.java" startLine="66" startPosition="60" endLine="67" endPosition="104" />
     <scopeInfo nodeId="1705599667576531658" fileName="GeomUtil.java" startLine="96" startPosition="62" endLine="97" endPosition="20" />
-    <scopeInfo nodeId="3805314409601861081" fileName="GeomUtil.java" startLine="59" startPosition="81" endLine="62" endPosition="5" />
+    <scopeInfo nodeId="3805314409601861081" fileName="GeomUtil.java" startLine="59" startPosition="88" endLine="62" endPosition="5" />
     <scopeInfo nodeId="5639108013728080359" fileName="GeomUtil.java" startLine="28" startPosition="0" endLine="32" endPosition="0">
       <varInfo nodeId="5639108013728080377" varName="maxY" />
       <varInfo nodeId="5639108013728080373" varName="maxX" />
@@ -612,8 +612,8 @@
       <varInfo nodeId="2135502080755100102" varName="p2" />
       <varInfo nodeId="2135502080755100100" varName="p1" />
     </scopeInfo>
-    <scopeInfo nodeId="2135502080755100132" fileName="GeomUtil.java" startLine="75" startPosition="55" endLine="79" endPosition="37" />
-    <scopeInfo nodeId="1705599667576531656" fileName="GeomUtil.java" startLine="95" startPosition="55" endLine="99" endPosition="17" />
+    <scopeInfo nodeId="2135502080755100132" fileName="GeomUtil.java" startLine="75" startPosition="62" endLine="79" endPosition="37" />
+    <scopeInfo nodeId="1705599667576531656" fileName="GeomUtil.java" startLine="95" startPosition="62" endLine="99" endPosition="17" />
     <scopeInfo nodeId="2301768597858223348" fileName="GeomUtil.java" startLine="33" startPosition="79" endLine="38" endPosition="52">
       <varInfo nodeId="2301768597858223335" varName="c1" />
       <varInfo nodeId="2301768597858223334" varName="c2" />

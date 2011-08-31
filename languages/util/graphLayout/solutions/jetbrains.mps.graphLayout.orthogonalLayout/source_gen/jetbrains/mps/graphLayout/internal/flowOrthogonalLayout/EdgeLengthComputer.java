@@ -31,25 +31,25 @@ public class EdgeLengthComputer {
   }
 
   public Map<Edge, Integer> compute(EmbeddedGraph embeddedGraph, Map<Dart, Direction2D> directions) {
-    return compute(embeddedGraph, directions, MapSequence.fromMap(new HashMap<Edge, Integer>()));
+    return compute(embeddedGraph, directions, MapSequence.<Edge,Integer>fromMap(new HashMap<Edge, Integer>()));
   }
 
   public Map<Edge, Integer> compute(EmbeddedGraph embeddedGraph, Map<Dart, Direction2D> directions, Map<Edge, Integer> predefinedLengths) {
     Map<Edge, Integer> horEdgeLengths = computeEdgeLengths(embeddedGraph, directions, Direction2D.RIGHT, predefinedLengths);
     Map<Edge, Integer> verEdgeLenghts = computeEdgeLengths(embeddedGraph, directions, Direction2D.DOWN, predefinedLengths);
-    Map<Edge, Integer> lengths = MapSequence.fromMap(new HashMap<Edge, Integer>());
-    for (Edge edge : ListSequence.fromList(embeddedGraph.getGraph().getEdges())) {
+    Map<Edge, Integer> lengths = MapSequence.<Edge,Integer>fromMap(new HashMap<Edge, Integer>());
+    for (Edge edge : ListSequence.<Edge>fromList(embeddedGraph.getGraph().getEdges())) {
       int length;
       if (MapSequence.fromMap(horEdgeLengths).containsKey(edge)) {
-        length = MapSequence.fromMap(horEdgeLengths).get(edge);
+        length = MapSequence.<Edge,Integer>fromMap(horEdgeLengths).get(edge);
       } else {
-        length = MapSequence.fromMap(verEdgeLenghts).get(edge);
+        length = MapSequence.<Edge,Integer>fromMap(verEdgeLenghts).get(edge);
       }
-      MapSequence.fromMap(lengths).put(edge, length);
+      MapSequence.<Edge,Integer>fromMap(lengths).put(edge, length);
     }
     if (EdgeLengthComputer.SHOW_INFO > 0) {
-      for (Edge edge : ListSequence.fromList(embeddedGraph.getGraph().getEdges())) {
-        System.out.println("edge: " + edge + " length = " + MapSequence.fromMap(lengths).get(edge));
+      for (Edge edge : ListSequence.<Edge>fromList(embeddedGraph.getGraph().getEdges())) {
+        System.out.println("edge: " + edge + " length = " + MapSequence.<Edge,Integer>fromMap(lengths).get(edge));
       }
     }
     return lengths;
@@ -58,26 +58,26 @@ public class EdgeLengthComputer {
   private Map<Edge, Integer> computeEdgeLengths(EmbeddedGraph embeddedGraph, final Map<Dart, Direction2D> directions, final Direction2D direction, Map<Edge, Integer> predefinedLengths) {
     Graph graph = embeddedGraph.getGraph();
     Graph network = new Graph();
-    Map<Edge, Edge> edgeMap = MapSequence.fromMap(new HashMap<Edge, Edge>());
-    Map<Face, Node> faceMap = MapSequence.fromMap(new HashMap<Face, Node>());
+    Map<Edge, Edge> edgeMap = MapSequence.<Edge,Edge>fromMap(new HashMap<Edge, Edge>());
+    Map<Face, Node> faceMap = MapSequence.<Face,Node>fromMap(new HashMap<Face, Node>());
     Node source = network.createNode();
     Node target = network.createNode();
-    for (Face face : ListSequence.fromList(embeddedGraph.getFaces())) {
+    for (Face face : ListSequence.<Face>fromList(embeddedGraph.getFaces())) {
       if (!(embeddedGraph.isOuterFace(face))) {
-        MapSequence.fromMap(faceMap).put(face, network.createDummyNode());
+        MapSequence.<Face,Node>fromMap(faceMap).put(face, network.createDummyNode());
       }
     }
-    Map<Edge, Integer> low = MapSequence.fromMap(new HashMap<Edge, Integer>());
-    Map<Edge, Integer> capacity = MapSequence.fromMap(new HashMap<Edge, Integer>());
-    Map<Edge, Integer> cost = MapSequence.fromMap(new HashMap<Edge, Integer>());
+    Map<Edge, Integer> low = MapSequence.<Edge,Integer>fromMap(new HashMap<Edge, Integer>());
+    Map<Edge, Integer> capacity = MapSequence.<Edge,Integer>fromMap(new HashMap<Edge, Integer>());
+    Map<Edge, Integer> cost = MapSequence.<Edge,Integer>fromMap(new HashMap<Edge, Integer>());
     Edge backEdge = network.connect(target, source);
-    MapSequence.fromMap(low).put(backEdge, 0);
-    MapSequence.fromMap(capacity).put(backEdge, Integer.MAX_VALUE / 2);
-    MapSequence.fromMap(cost).put(backEdge, 0);
-    for (Edge edge : ListSequence.fromList(graph.getEdges())) {
-      Dart dart = ListSequence.fromList(embeddedGraph.getDarts(edge)).findFirst(new IWhereFilter<Dart>() {
+    MapSequence.<Edge,Integer>fromMap(low).put(backEdge, 0);
+    MapSequence.<Edge,Integer>fromMap(capacity).put(backEdge, Integer.MAX_VALUE / 2);
+    MapSequence.<Edge,Integer>fromMap(cost).put(backEdge, 0);
+    for (Edge edge : ListSequence.<Edge>fromList(graph.getEdges())) {
+      Dart dart = ListSequence.<Dart>fromList(embeddedGraph.getDarts(edge)).findFirst(new IWhereFilter<Dart>() {
         public boolean accept(Dart dart) {
-          return MapSequence.fromMap(directions).get(dart) == direction;
+          return MapSequence.<Dart,Direction2D>fromMap(directions).get(dart) == direction;
         }
       });
       if (dart != null) {
@@ -88,29 +88,29 @@ public class EdgeLengthComputer {
         if (embeddedGraph.isOuterFace(sourceFace)) {
           sourceNode = source;
         } else {
-          sourceNode = MapSequence.fromMap(faceMap).get(sourceFace);
+          sourceNode = MapSequence.<Face,Node>fromMap(faceMap).get(sourceFace);
         }
         if (embeddedGraph.isOuterFace(targetFace)) {
           targetNode = target;
         } else {
-          targetNode = MapSequence.fromMap(faceMap).get(targetFace);
+          targetNode = MapSequence.<Face,Node>fromMap(faceMap).get(targetFace);
         }
         Edge newEdge = network.connect(sourceNode, targetNode);
-        MapSequence.fromMap(edgeMap).put(edge, newEdge);
+        MapSequence.<Edge,Edge>fromMap(edgeMap).put(edge, newEdge);
         if (MapSequence.fromMap(predefinedLengths).containsKey(edge)) {
-          MapSequence.fromMap(low).put(newEdge, MapSequence.fromMap(predefinedLengths).get(edge));
+          MapSequence.<Edge,Integer>fromMap(low).put(newEdge, MapSequence.<Edge,Integer>fromMap(predefinedLengths).get(edge));
         } else {
-          MapSequence.fromMap(low).put(newEdge, myUnitLength);
+          MapSequence.<Edge,Integer>fromMap(low).put(newEdge, myUnitLength);
         }
-        MapSequence.fromMap(capacity).put(newEdge, Integer.MAX_VALUE / 2);
-        MapSequence.fromMap(cost).put(newEdge, 1);
+        MapSequence.<Edge,Integer>fromMap(capacity).put(newEdge, Integer.MAX_VALUE / 2);
+        MapSequence.<Edge,Integer>fromMap(cost).put(newEdge, 1);
       }
     }
     Map<Edge, Integer> circulation = MinCostCirculation.getCirculation(network, low, capacity, cost);
-    Map<Edge, Integer> edgeLength = MapSequence.fromMap(new HashMap<Edge, Integer>());
-    for (Edge edge : ListSequence.fromList(graph.getEdges())) {
+    Map<Edge, Integer> edgeLength = MapSequence.<Edge,Integer>fromMap(new HashMap<Edge, Integer>());
+    for (Edge edge : ListSequence.<Edge>fromList(graph.getEdges())) {
       if (MapSequence.fromMap(edgeMap).containsKey(edge)) {
-        MapSequence.fromMap(edgeLength).put(edge, MapSequence.fromMap(circulation).get(MapSequence.fromMap(edgeMap).get(edge)));
+        MapSequence.<Edge,Integer>fromMap(edgeLength).put(edge, MapSequence.<Edge,Integer>fromMap(circulation).get(MapSequence.<Edge,Edge>fromMap(edgeMap).get(edge)));
       }
     }
     return edgeLength;

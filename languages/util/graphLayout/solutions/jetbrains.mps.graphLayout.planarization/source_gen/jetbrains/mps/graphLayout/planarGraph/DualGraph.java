@@ -21,32 +21,32 @@ public class DualGraph extends Graph {
   public DualGraph(EmbeddedGraph graph) {
     super();
     myEmbeddedGraph = graph;
-    myEdgesMap = MapSequence.fromMap(new HashMap<Edge, Edge>());
+    myEdgesMap = MapSequence.<Edge,Edge>fromMap(new HashMap<Edge, Edge>());
     compute();
   }
 
   private void compute() {
-    myNodesMap = MapSequence.fromMap(new HashMap<Face, Node>());
-    myFacesMap = MapSequence.fromMap(new HashMap<Node, Face>());
-    for (Face face : ListSequence.fromList(myEmbeddedGraph.getFaces())) {
+    myNodesMap = MapSequence.<Face,Node>fromMap(new HashMap<Face, Node>());
+    myFacesMap = MapSequence.<Node,Face>fromMap(new HashMap<Node, Face>());
+    for (Face face : ListSequence.<Face>fromList(myEmbeddedGraph.getFaces())) {
       Node node = createNode();
-      MapSequence.fromMap(myNodesMap).put(face, node);
-      MapSequence.fromMap(myFacesMap).put(node, face);
+      MapSequence.<Face,Node>fromMap(myNodesMap).put(face, node);
+      MapSequence.<Node,Face>fromMap(myFacesMap).put(node, face);
     }
-    for (Edge edge : SetSequence.fromSet(myEmbeddedGraph.getEdges())) {
+    for (Edge edge : SetSequence.<Edge>fromSet(myEmbeddedGraph.getEdges())) {
       List<Face> faces = myEmbeddedGraph.getAdjacentFaces(edge);
-      Node faceNode1 = MapSequence.fromMap(myNodesMap).get(ListSequence.fromList(faces).getElement(0));
-      Node faceNode2 = MapSequence.fromMap(myNodesMap).get(ListSequence.fromList(faces).getElement(1));
+      Node faceNode1 = MapSequence.<Face,Node>fromMap(myNodesMap).get(ListSequence.<Face>fromList(faces).getElement(0));
+      Node faceNode2 = MapSequence.<Face,Node>fromMap(myNodesMap).get(ListSequence.<Face>fromList(faces).getElement(1));
       Edge faceEdge = connect(faceNode1, faceNode2);
-      MapSequence.fromMap(myEdgesMap).put(faceEdge, edge);
+      MapSequence.<Edge,Edge>fromMap(myEdgesMap).put(faceEdge, edge);
     }
   }
 
   public Node addRealNode(Node realNode) {
     Node newNode = this.createDummyNode();
-    for (Edge edge : ListSequence.fromList(realNode.getEdges())) {
-      for (Face face : ListSequence.fromList(myEmbeddedGraph.getAdjacentFaces(edge))) {
-        connect(newNode, MapSequence.fromMap(getNodesMap()).get(face));
+    for (Edge edge : ListSequence.<Edge>fromList(realNode.getEdges())) {
+      for (Face face : ListSequence.<Face>fromList(myEmbeddedGraph.getAdjacentFaces(edge))) {
+        connect(newNode, MapSequence.<Face,Node>fromMap(getNodesMap()).get(face));
       }
     }
     return newNode;
@@ -75,7 +75,7 @@ public class DualGraph extends Graph {
 
   public Edge addEdge(Node source, Node target, Edge realEdge) {
     Edge edge = connect(source, target);
-    MapSequence.fromMap(myEdgesMap).put(edge, realEdge);
+    MapSequence.<Edge,Edge>fromMap(myEdgesMap).put(edge, realEdge);
     return edge;
   }
 }

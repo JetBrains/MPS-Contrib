@@ -41,16 +41,16 @@ public class EmbeddedGraphModifier_Test extends TestCase {
   }
 
   public EmbeddedGraphModifier prepare(Graph graph, Map<Node, List<Node>> nodeMap) {
-    List<Node> nodes = ListSequence.fromList(new ArrayList<Node>());
-    ListSequence.fromList(nodes).addSequence(ListSequence.fromList(graph.getNodes()));
-    for (Node node : ListSequence.fromList(nodes)) {
-      MapSequence.fromMap(nodeMap).put(node, ListSequence.fromList(new ArrayList<Node>()));
+    List<Node> nodes = ListSequence.<Node>fromList(new ArrayList<Node>());
+    ListSequence.<Node>fromList(nodes).addSequence(ListSequence.<Node>fromList(graph.getNodes()));
+    for (Node node : ListSequence.<Node>fromList(nodes)) {
+      MapSequence.<Node,List<Node>>fromMap(nodeMap).put(node, ListSequence.<Node>fromList(new ArrayList<Node>()));
     }
     EmbeddedGraph embeddedGraph = new ShortestPathEmbeddingFinder(new PQPlanarizationFinder()).find(graph);
     EmbeddedGraphModifier modifier = new EmbeddedGraphModifier(embeddedGraph);
-    Set<Edge> edges = modifier.reduceNodesDegree(nodeMap, MapSequence.fromMap(new HashMap<Edge, Edge>()));
-    Map<Dart, Integer> bends = MapSequence.fromMap(new HashMap<Dart, Integer>());
-    Map<Dart, Integer> angles = MapSequence.fromMap(new HashMap<Dart, Integer>());
+    Set<Edge> edges = modifier.reduceNodesDegree(nodeMap, MapSequence.<Edge,Edge>fromMap(new HashMap<Edge, Edge>()));
+    Map<Dart, Integer> bends = MapSequence.<Dart,Integer>fromMap(new HashMap<Dart, Integer>());
+    Map<Dart, Integer> angles = MapSequence.<Dart,Integer>fromMap(new HashMap<Dart, Integer>());
     OrthogonalRepresentation.getRepresentation(embeddedGraph, edges, bends, angles);
     OrthogonalRepresentation.replaceBendsByNodes(embeddedGraph, bends, angles);
     Map<Dart, Direction2D> directions = OrthogonalRepresentation.getDirections(embeddedGraph, angles);
@@ -59,19 +59,19 @@ public class EmbeddedGraphModifier_Test extends TestCase {
   }
 
   public void test(Graph graph) {
-    Map<Node, List<Node>> nodeMap = MapSequence.fromMap(new LinkedHashMap<Node, List<Node>>(16, (float) 0.75, false));
+    Map<Node, List<Node>> nodeMap = MapSequence.<Node,List<Node>>fromMap(new LinkedHashMap<Node, List<Node>>(16, (float) 0.75, false));
     EmbeddedGraphModifier modifier = prepare(graph, nodeMap);
     modifier.makeRectanglesForNodes(nodeMap);
     EmbeddedGraph embeddedGraph = modifier.getEmbeddedGraph();
     CheckEmbeddedGraph.checkEmbeddedGraph(embeddedGraph, false);
     Map<Dart, Direction2D> dartDirections = modifier.getDartDirections();
-    for (Edge edge : ListSequence.fromList(graph.getEdges())) {
+    for (Edge edge : ListSequence.<Edge>fromList(graph.getEdges())) {
       List<Dart> darts = embeddedGraph.getDarts(edge);
-      Assert.assertTrue(ListSequence.fromList(darts).count() == 2);
-      for (Dart dart : ListSequence.fromList(darts)) {
+      Assert.assertTrue(ListSequence.<Dart>fromList(darts).count() == 2);
+      for (Dart dart : ListSequence.<Dart>fromList(darts)) {
         Assert.assertTrue(MapSequence.fromMap(dartDirections).containsKey(dart));
       }
     }
-    Assert.assertTrue(SetSequence.fromSet(MapSequence.fromMap(dartDirections).keySet()).count() == ListSequence.fromList(graph.getEdges()).count() * 2);
+    Assert.assertTrue(SetSequence.<Dart>fromSet(MapSequence.fromMap(dartDirections).keySet()).count() == ListSequence.<Edge>fromList(graph.getEdges()).count() * 2);
   }
 }

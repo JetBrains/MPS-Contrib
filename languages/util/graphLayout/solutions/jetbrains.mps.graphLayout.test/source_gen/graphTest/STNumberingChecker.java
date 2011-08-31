@@ -14,24 +14,24 @@ import layeredLayoutTest.CheckCycles;
 public class STNumberingChecker {
   public static void check(Graph graph, Node source, Node target, Map<Node, Integer> stNumbering) {
     int maxNumber = -1;
-    for (Node node : ListSequence.fromList(graph.getNodes())) {
-      maxNumber = Math.max(maxNumber, MapSequence.fromMap(stNumbering).get(node));
+    for (Node node : ListSequence.<Node>fromList(graph.getNodes())) {
+      maxNumber = Math.max(maxNumber, MapSequence.<Node,Integer>fromMap(stNumbering).get(node));
     }
-    Assert.assertTrue(MapSequence.fromMap(stNumbering).get(source) == 0);
-    Assert.assertTrue(MapSequence.fromMap(stNumbering).get(target) == maxNumber);
-    for (Node node : ListSequence.fromList(graph.getNodes())) {
+    Assert.assertTrue(MapSequence.<Node,Integer>fromMap(stNumbering).get(source) == 0);
+    Assert.assertTrue(MapSequence.<Node,Integer>fromMap(stNumbering).get(target) == maxNumber);
+    for (Node node : ListSequence.<Node>fromList(graph.getNodes())) {
       if (node == target || node == source) {
         continue;
       }
       int minAdj = graph.getNumNodes() + 1;
       int maxAdj = -1;
-      for (Edge edge : ListSequence.fromList(node.getEdges())) {
+      for (Edge edge : ListSequence.<Edge>fromList(node.getEdges())) {
         Node adj = edge.getOpposite(node);
-        minAdj = Math.min(minAdj, MapSequence.fromMap(stNumbering).get(adj));
-        maxAdj = Math.max(maxAdj, MapSequence.fromMap(stNumbering).get(adj));
+        minAdj = Math.min(minAdj, MapSequence.<Node,Integer>fromMap(stNumbering).get(adj));
+        maxAdj = Math.max(maxAdj, MapSequence.<Node,Integer>fromMap(stNumbering).get(adj));
       }
-      Assert.assertTrue(minAdj < MapSequence.fromMap(stNumbering).get(node));
-      Assert.assertTrue(maxAdj > MapSequence.fromMap(stNumbering).get(node));
+      Assert.assertTrue(minAdj < MapSequence.<Node,Integer>fromMap(stNumbering).get(node));
+      Assert.assertTrue(maxAdj > MapSequence.<Node,Integer>fromMap(stNumbering).get(node));
     }
     Assert.assertFalse(new CheckCycles().hasCycle(graph));
   }

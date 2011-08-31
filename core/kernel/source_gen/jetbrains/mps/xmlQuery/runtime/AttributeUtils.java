@@ -38,7 +38,7 @@ public class AttributeUtils {
 
   public static List<Element> elementChildren(Element element, String name) {
     if (element == null) {
-      return ListSequence.fromList(new ArrayList<Element>());
+      return ListSequence.<Element>fromList(new ArrayList<Element>());
     } else {
       return (List<Element>) element.getChildren(name);
     }

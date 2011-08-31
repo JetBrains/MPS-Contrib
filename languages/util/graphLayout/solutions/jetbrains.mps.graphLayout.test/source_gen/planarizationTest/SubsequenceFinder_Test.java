@@ -23,8 +23,8 @@ public class SubsequenceFinder_Test extends TestCase {
   }
 
   public void test_testCyclic1() throws Exception {
-    List<Object> s = ListSequence.fromListAndArray(new ArrayList<Object>(), 1, 2, 3, 4);
-    List<Object> p = ListSequence.fromListAndArray(new ArrayList<Object>(), 4, 2, 0, 1, 3);
+    List<Object> s = ListSequence.<Object>fromListAndArray(new ArrayList<Object>(), 1, 2, 3, 4);
+    List<Object> p = ListSequence.<Object>fromListAndArray(new ArrayList<Object>(), 4, 2, 0, 1, 3);
     List<Tuples._2<Integer, Integer>> pos = SubsequenceFinder.getCyclicSubsequence(s, p);
   }
 }

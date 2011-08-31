@@ -12,43 +12,43 @@ import jetbrains.mps.internal.collections.runtime.MapSequence;
 
 public class FlowChecker {
   public static void checkFlow(Graph graph, Node source, Node target, Map<Edge, Integer> capacity, Map<Edge, Integer> flow, boolean checkFull) {
-    for (Edge edge : ListSequence.fromList(graph.getEdges())) {
-      Assert.assertTrue(MapSequence.fromMap(capacity).get(edge) >= MapSequence.fromMap(flow).get(edge));
-      Assert.assertTrue(MapSequence.fromMap(flow).get(edge) >= 0);
+    for (Edge edge : ListSequence.<Edge>fromList(graph.getEdges())) {
+      Assert.assertTrue(MapSequence.<Edge,Integer>fromMap(capacity).get(edge) >= MapSequence.<Edge,Integer>fromMap(flow).get(edge));
+      Assert.assertTrue(MapSequence.<Edge,Integer>fromMap(flow).get(edge) >= 0);
     }
-    for (Node node : ListSequence.fromList(graph.getNodes())) {
+    for (Node node : ListSequence.<Node>fromList(graph.getNodes())) {
       if (node != source && node != target) {
         FlowChecker.checkConservation(node, flow);
       }
     }
     if (checkFull) {
-      for (Edge edge : ListSequence.fromList(source.getOutEdges())) {
-        Assert.assertTrue(MapSequence.fromMap(capacity).get(edge) == MapSequence.fromMap(flow).get(edge));
+      for (Edge edge : ListSequence.<Edge>fromList(source.getOutEdges())) {
+        Assert.assertTrue(MapSequence.<Edge,Integer>fromMap(capacity).get(edge) == MapSequence.<Edge,Integer>fromMap(flow).get(edge));
       }
-      for (Edge edge : ListSequence.fromList(target.getInEdges())) {
-        Assert.assertTrue(MapSequence.fromMap(capacity).get(edge) == MapSequence.fromMap(flow).get(edge));
+      for (Edge edge : ListSequence.<Edge>fromList(target.getInEdges())) {
+        Assert.assertTrue(MapSequence.<Edge,Integer>fromMap(capacity).get(edge) == MapSequence.<Edge,Integer>fromMap(flow).get(edge));
       }
     }
   }
 
   public static void checkCirculation(Graph graph, Map<Edge, Integer> low, Map<Edge, Integer> capacity, Map<Edge, Integer> circulation) {
-    for (Edge edge : ListSequence.fromList(graph.getEdges())) {
-      Assert.assertTrue(MapSequence.fromMap(capacity).get(edge) >= MapSequence.fromMap(circulation).get(edge));
-      Assert.assertTrue(MapSequence.fromMap(circulation).get(edge) >= MapSequence.fromMap(low).get(edge));
+    for (Edge edge : ListSequence.<Edge>fromList(graph.getEdges())) {
+      Assert.assertTrue(MapSequence.<Edge,Integer>fromMap(capacity).get(edge) >= MapSequence.<Edge,Integer>fromMap(circulation).get(edge));
+      Assert.assertTrue(MapSequence.<Edge,Integer>fromMap(circulation).get(edge) >= MapSequence.<Edge,Integer>fromMap(low).get(edge));
     }
-    for (Node node : ListSequence.fromList(graph.getNodes())) {
+    for (Node node : ListSequence.<Node>fromList(graph.getNodes())) {
       checkConservation(node, circulation);
     }
   }
 
   private static void checkConservation(Node node, Map<Edge, Integer> flow) {
     int inFlow = 0;
-    for (Edge edge : ListSequence.fromList(node.getInEdges())) {
-      inFlow += MapSequence.fromMap(flow).get(edge);
+    for (Edge edge : ListSequence.<Edge>fromList(node.getInEdges())) {
+      inFlow += MapSequence.<Edge,Integer>fromMap(flow).get(edge);
     }
     int outFlow = 0;
-    for (Edge edge : ListSequence.fromList(node.getInEdges())) {
-      outFlow += MapSequence.fromMap(flow).get(edge);
+    for (Edge edge : ListSequence.<Edge>fromList(node.getInEdges())) {
+      outFlow += MapSequence.<Edge,Integer>fromMap(flow).get(edge);
     }
     Assert.assertTrue(outFlow == inFlow);
   }

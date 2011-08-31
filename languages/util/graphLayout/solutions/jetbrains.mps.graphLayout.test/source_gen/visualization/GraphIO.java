@@ -69,9 +69,9 @@ public class GraphIO {
         Node source = graph.getNode(nodes[j]);
         Node target = graph.getNode(nodes[j + 1]);
         Edge curEdge = null;
-        for (Edge edge : ListSequence.fromList(graph.getEdges())) {
+        for (Edge edge : ListSequence.<Edge>fromList(graph.getEdges())) {
           List<Node> adjNodes = edge.getAdjacentNodes();
-          if (ListSequence.fromList(adjNodes).contains(source) && ListSequence.fromList(adjNodes).contains(target)) {
+          if (ListSequence.<Node>fromList(adjNodes).contains(source) && ListSequence.<Node>fromList(adjNodes).contains(target)) {
             curEdge = edge;
           }
         }
@@ -87,12 +87,12 @@ public class GraphIO {
 
   public static void writeGraph(Graph graph, PrintWriter writer) {
     int numEdges = 0;
-    for (Node node : ListSequence.fromList(graph.getNodes())) {
-      numEdges += ListSequence.fromList(node.getOutEdges()).count();
+    for (Node node : ListSequence.<Node>fromList(graph.getNodes())) {
+      numEdges += ListSequence.<Edge>fromList(node.getOutEdges()).count();
     }
     writer.println(graph.getNumNodes() + " " + numEdges + "  ");
-    for (Node node : ListSequence.fromList(graph.getNodes())) {
-      for (Edge edge : ListSequence.fromList(node.getOutEdges())) {
+    for (Node node : ListSequence.<Node>fromList(graph.getNodes())) {
+      for (Edge edge : ListSequence.<Edge>fromList(node.getOutEdges())) {
         writer.println(edge.getSource().getIndex() + " " + edge.getTarget().getIndex() + "  ");
       }
     }
@@ -100,13 +100,13 @@ public class GraphIO {
 
   public static void writeGraph(Graph graph, Map<Node, Dimension> nodeSizes, Map<Edge, Dimension> edgeLabelSizes, PrintWriter writer) {
     writeGraph(graph, writer);
-    writer.println(MapSequence.fromMap(nodeSizes).count());
-    for (Node node : SetSequence.fromSet(MapSequence.fromMap(nodeSizes).keySet())) {
-      writer.println(node.getIndex() + " " + MapSequence.fromMap(nodeSizes).get(node).width + " " + MapSequence.fromMap(nodeSizes).get(node).height);
+    writer.println(MapSequence.<Node,Dimension>fromMap(nodeSizes).count());
+    for (Node node : SetSequence.<Node>fromSet(MapSequence.fromMap(nodeSizes).keySet())) {
+      writer.println(node.getIndex() + " " + MapSequence.<Node,Dimension>fromMap(nodeSizes).get(node).width + " " + MapSequence.<Node,Dimension>fromMap(nodeSizes).get(node).height);
     }
-    writer.println(MapSequence.fromMap(edgeLabelSizes).count());
-    for (Edge edge : SetSequence.fromSet(MapSequence.fromMap(edgeLabelSizes).keySet())) {
-      writer.println(edge.getSource().getIndex() + " " + edge.getTarget().getIndex() + " " + MapSequence.fromMap(edgeLabelSizes).get(edge).width + " " + MapSequence.fromMap(edgeLabelSizes).get(edge).height);
+    writer.println(MapSequence.<Edge,Dimension>fromMap(edgeLabelSizes).count());
+    for (Edge edge : SetSequence.<Edge>fromSet(MapSequence.fromMap(edgeLabelSizes).keySet())) {
+      writer.println(edge.getSource().getIndex() + " " + edge.getTarget().getIndex() + " " + MapSequence.<Edge,Dimension>fromMap(edgeLabelSizes).get(edge).width + " " + MapSequence.<Edge,Dimension>fromMap(edgeLabelSizes).get(edge).height);
     }
   }
 
@@ -121,8 +121,8 @@ public class GraphIO {
       Graph tree = graph.getInclusionTree();
       scanGraph(treeScanner, tree);
       int cur = 0;
-      for (Node cluster : ListSequence.fromList(tree.getNodes())) {
-        if (ListSequence.fromList(cluster.getOutEdges()).count() == 0) {
+      for (Node cluster : ListSequence.<Node>fromList(tree.getNodes())) {
+        if (ListSequence.<Edge>fromList(cluster.getOutEdges()).count() == 0) {
           graph.setNodeInCluster(cluster, graph.getNode(cur++));
         }
       }
@@ -137,15 +137,15 @@ public class GraphIO {
     HyperGraph graph = new HyperGraph();
     scanGraph(scanner, graph);
     int numTreeEdges = scanner.nextInt();
-    Set<Node> notRoot = SetSequence.fromSet(new HashSet<Node>());
+    Set<Node> notRoot = SetSequence.<Node>fromSet(new HashSet<Node>());
     for (int i = 0; i < numTreeEdges; i++) {
       Node parent = graph.getNode(scanner.nextInt());
       Node child = graph.getNode(scanner.nextInt());
       graph.setParent(child, parent);
       SetSequence.fromSet(notRoot).addElement(child);
     }
-    for (Node node : ListSequence.fromList(graph.getNodes())) {
-      if (SetSequence.fromSet(notRoot).contains(node)) {
+    for (Node node : ListSequence.<Node>fromList(graph.getNodes())) {
+      if (SetSequence.<Node>fromSet(notRoot).contains(node)) {
         continue;
       }
       graph.setParent(node, graph.getRoot());

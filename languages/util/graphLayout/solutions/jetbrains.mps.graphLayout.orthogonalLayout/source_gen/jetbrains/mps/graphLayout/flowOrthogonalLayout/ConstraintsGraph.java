@@ -52,8 +52,8 @@ public class ConstraintsGraph {
 
   public void constructGraph(Set<Face> facesToSkip) {
     getShape();
-    for (Face face : ListSequence.fromList(myEmbeddedGraph.getFaces())) {
-      if (myEmbeddedGraph.isOuterFace(face) || SetSequence.fromSet(facesToSkip).contains(face)) {
+    for (Face face : ListSequence.<Face>fromList(myEmbeddedGraph.getFaces())) {
+      if (myEmbeddedGraph.isOuterFace(face) || SetSequence.<Face>fromSet(facesToSkip).contains(face)) {
         continue;
       }
       makeShapeComplete(face);
@@ -72,89 +72,89 @@ public class ConstraintsGraph {
   }
 
   public Map<Node, Point> getCoordinates(Map<Edge, Integer> predefinedEdgeLengths, Map<Edge, Integer> constraintEdgeLengths) {
-    Map<Edge, Integer> edgeLengths = MapSequence.fromMap(new HashMap<Edge, Integer>());
-    for (Edge edge : ListSequence.fromList(myHorConstraintsGraph.getEdges())) {
-      MapSequence.fromMap(edgeLengths).put(edge, myUnitLength);
+    Map<Edge, Integer> edgeLengths = MapSequence.<Edge,Integer>fromMap(new HashMap<Edge, Integer>());
+    for (Edge edge : ListSequence.<Edge>fromList(myHorConstraintsGraph.getEdges())) {
+      MapSequence.<Edge,Integer>fromMap(edgeLengths).put(edge, myUnitLength);
     }
-    for (Edge edge : ListSequence.fromList(myVerConstraintsGraph.getEdges())) {
-      MapSequence.fromMap(edgeLengths).put(edge, myUnitLength);
+    for (Edge edge : ListSequence.<Edge>fromList(myVerConstraintsGraph.getEdges())) {
+      MapSequence.<Edge,Integer>fromMap(edgeLengths).put(edge, myUnitLength);
     }
-    for (Edge edge : SetSequence.fromSet(MapSequence.fromMap(predefinedEdgeLengths).keySet())) {
-      Edge constraintEdge = MapSequence.fromMap(myEdgeMap).get(edge);
-      MapSequence.fromMap(edgeLengths).put(constraintEdge, MapSequence.fromMap(predefinedEdgeLengths).get(edge));
+    for (Edge edge : SetSequence.<Edge>fromSet(MapSequence.fromMap(predefinedEdgeLengths).keySet())) {
+      Edge constraintEdge = MapSequence.<Edge,Edge>fromMap(myEdgeMap).get(edge);
+      MapSequence.<Edge,Integer>fromMap(edgeLengths).put(constraintEdge, MapSequence.<Edge,Integer>fromMap(predefinedEdgeLengths).get(edge));
     }
-    for (Edge edge : SetSequence.fromSet(MapSequence.fromMap(constraintEdgeLengths).keySet())) {
-      MapSequence.fromMap(edgeLengths).put(edge, MapSequence.fromMap(constraintEdgeLengths).get(edge));
+    for (Edge edge : SetSequence.<Edge>fromSet(MapSequence.fromMap(constraintEdgeLengths).keySet())) {
+      MapSequence.<Edge,Integer>fromMap(edgeLengths).put(edge, MapSequence.<Edge,Integer>fromMap(constraintEdgeLengths).get(edge));
     }
     Map<Node, Integer> horNumbering = WeightedTopologicalNumbering.number(myHorConstraintsGraph, edgeLengths);
     Map<Node, Integer> verNumbering = WeightedTopologicalNumbering.number(myVerConstraintsGraph, edgeLengths);
-    Map<Node, Point> coordinates = MapSequence.fromMap(new HashMap<Node, Point>());
-    for (Node node : ListSequence.fromList(myGraph.getNodes())) {
-      Node horSeg = MapSequence.fromMap(myHorNodeMap).get(node);
-      Node verSeg = MapSequence.fromMap(myVerNodeMap).get(node);
-      MapSequence.fromMap(coordinates).put(node, new Point(MapSequence.fromMap(verNumbering).get(verSeg), MapSequence.fromMap(horNumbering).get(horSeg)));
+    Map<Node, Point> coordinates = MapSequence.<Node,Point>fromMap(new HashMap<Node, Point>());
+    for (Node node : ListSequence.<Node>fromList(myGraph.getNodes())) {
+      Node horSeg = MapSequence.<Node,Node>fromMap(myHorNodeMap).get(node);
+      Node verSeg = MapSequence.<Node,Node>fromMap(myVerNodeMap).get(node);
+      MapSequence.<Node,Point>fromMap(coordinates).put(node, new Point(MapSequence.<Node,Integer>fromMap(verNumbering).get(verSeg), MapSequence.<Node,Integer>fromMap(horNumbering).get(horSeg)));
     }
     return coordinates;
   }
 
   private void makeShapeComplete(Face face) {
-    List<Node> segments = ListSequence.fromList(new LinkedList<Node>());
-    List<Direction2D> directions = ListSequence.fromList(new LinkedList<Direction2D>());
-    List<Integer> rotations = ListSequence.fromList(new LinkedList<Integer>());
+    List<Node> segments = ListSequence.<Node>fromList(new LinkedList<Node>());
+    List<Direction2D> directions = ListSequence.<Direction2D>fromList(new LinkedList<Direction2D>());
+    List<Integer> rotations = ListSequence.<Integer>fromList(new LinkedList<Integer>());
     Node prevSeg = null;
-    for (Dart dart : ListSequence.fromList(face.getDarts())) {
-      Direction2D dir = MapSequence.fromMap(myDirections).get(dart);
+    for (Dart dart : ListSequence.<Dart>fromList(face.getDarts())) {
+      Direction2D dir = MapSequence.<Dart,Direction2D>fromMap(myDirections).get(dart);
       Node source = dart.getSource();
       Node seg;
       if (dir.isHorizontal()) {
-        seg = MapSequence.fromMap(myHorNodeMap).get(source);
+        seg = MapSequence.<Node,Node>fromMap(myHorNodeMap).get(source);
       } else {
-        seg = MapSequence.fromMap(myVerNodeMap).get(source);
+        seg = MapSequence.<Node,Node>fromMap(myVerNodeMap).get(source);
       }
       if (seg != prevSeg) {
         if (prevSeg != null) {
-          ListSequence.fromList(rotations).addElement(ListSequence.fromList(directions).last().getTurn(dir));
+          ListSequence.<Integer>fromList(rotations).addElement(ListSequence.<Direction2D>fromList(directions).last().getTurn(dir));
         }
-        ListSequence.fromList(segments).addElement(seg);
-        ListSequence.fromList(directions).addElement(dir);
+        ListSequence.<Node>fromList(segments).addElement(seg);
+        ListSequence.<Direction2D>fromList(directions).addElement(dir);
       }
       prevSeg = seg;
     }
-    if (prevSeg != ListSequence.fromList(segments).first()) {
-      ListSequence.fromList(rotations).addElement(ListSequence.fromList(directions).last().getTurn(ListSequence.fromList(directions).first()));
+    if (prevSeg != ListSequence.<Node>fromList(segments).first()) {
+      ListSequence.<Integer>fromList(rotations).addElement(ListSequence.<Direction2D>fromList(directions).last().getTurn(ListSequence.<Direction2D>fromList(directions).first()));
     } else {
-      ListSequence.fromList(directions).removeLastElement();
-      ListSequence.fromList(segments).removeLastElement();
+      ListSequence.<Direction2D>fromList(directions).removeLastElement();
+      ListSequence.<Node>fromList(segments).removeLastElement();
     }
     if (ConstraintsGraph.SHOW_INFO > 0) {
       System.out.println(face);
-      for (int i = 0; i < ListSequence.fromList(segments).count(); i++) {
-        System.out.println(ListSequence.fromList(segments).getElement(i) + " dir = " + ListSequence.fromList(directions).getElement(i) + " rot = " + ListSequence.fromList(rotations).getElement(i));
+      for (int i = 0; i < ListSequence.<Node>fromList(segments).count(); i++) {
+        System.out.println(ListSequence.<Node>fromList(segments).getElement(i) + " dir = " + ListSequence.<Direction2D>fromList(directions).getElement(i) + " rot = " + ListSequence.<Integer>fromList(rotations).getElement(i));
       }
     }
     int numShifts = 0;
-    while (ListSequence.fromList(segments).count() > 4) {
-      if (ListSequence.fromList(rotations).getElement(0) == -1 && ListSequence.fromList(rotations).getElement(1) == 1 && ListSequence.fromList(rotations).getElement(2) == 1) {
+    while (ListSequence.<Node>fromList(segments).count() > 4) {
+      if (ListSequence.<Integer>fromList(rotations).getElement(0) == -1 && ListSequence.<Integer>fromList(rotations).getElement(1) == 1 && ListSequence.<Integer>fromList(rotations).getElement(2) == 1) {
         connectPattern(segments, directions);
         for (int i = 0; i < 2; i++) {
-          ListSequence.fromList(segments).removeElementAt(1);
-          ListSequence.fromList(rotations).removeElementAt(1);
-          ListSequence.fromList(directions).removeElementAt(1);
+          ListSequence.<Node>fromList(segments).removeElementAt(1);
+          ListSequence.<Integer>fromList(rotations).removeElementAt(1);
+          ListSequence.<Direction2D>fromList(directions).removeElementAt(1);
         }
-        ListSequence.fromList(rotations).setElement(0, 1);
+        ListSequence.<Integer>fromList(rotations).setElement(0, 1);
         numShifts = 0;
       } else {
-        ListSequence.fromList(segments).insertElement(0, ListSequence.fromList(segments).removeLastElement());
-        ListSequence.fromList(rotations).insertElement(0, ListSequence.fromList(rotations).removeLastElement());
-        ListSequence.fromList(directions).insertElement(0, ListSequence.fromList(directions).removeLastElement());
+        ListSequence.<Node>fromList(segments).insertElement(0, ListSequence.<Node>fromList(segments).removeLastElement());
+        ListSequence.<Integer>fromList(rotations).insertElement(0, ListSequence.<Integer>fromList(rotations).removeLastElement());
+        ListSequence.<Direction2D>fromList(directions).insertElement(0, ListSequence.<Direction2D>fromList(directions).removeLastElement());
         numShifts++;
-        if (numShifts > 2 * ListSequence.fromList(segments).count()) {
+        if (numShifts > 2 * ListSequence.<Node>fromList(segments).count()) {
           throw new RuntimeException("error in segments");
         }
       }
     }
     if (ConstraintsGraph.DEBUG > 0) {
-      for (int rotation : ListSequence.fromList(rotations)) {
+      for (int rotation : ListSequence.<Integer>fromList(rotations)) {
         if (rotation != 1) {
           throw new RuntimeException("bad face completion result!");
         }
@@ -165,7 +165,7 @@ public class ConstraintsGraph {
 
   private void connectConstraintsNodes(final Node node1, final Node node2, Direction2D direction) {
     Graph graph = node1.getGraph();
-    Edge connectingEdge = ListSequence.fromList(node1.getEdges()).findFirst(new IWhereFilter<Edge>() {
+    Edge connectingEdge = ListSequence.<Edge>fromList(node1.getEdges()).findFirst(new IWhereFilter<Edge>() {
       public boolean accept(Edge edge) {
         return edge.getOpposite(node1) == node2;
       }
@@ -189,30 +189,30 @@ public class ConstraintsGraph {
   }
 
   private void connectPattern(List<Node> nodes, List<Direction2D> directions) {
-    connectConstraintsNodes(ListSequence.fromList(nodes).getElement(0), ListSequence.fromList(nodes).getElement(2), ListSequence.fromList(directions).getElement(1));
-    connectConstraintsNodes(ListSequence.fromList(nodes).getElement(1), ListSequence.fromList(nodes).getElement(3), ListSequence.fromList(directions).getElement(2));
+    connectConstraintsNodes(ListSequence.<Node>fromList(nodes).getElement(0), ListSequence.<Node>fromList(nodes).getElement(2), ListSequence.<Direction2D>fromList(directions).getElement(1));
+    connectConstraintsNodes(ListSequence.<Node>fromList(nodes).getElement(1), ListSequence.<Node>fromList(nodes).getElement(3), ListSequence.<Direction2D>fromList(directions).getElement(2));
   }
 
   private void getShape() {
-    Map<Node, Node> horNodeMap = MapSequence.fromMap(new HashMap<Node, Node>());
+    Map<Node, Node> horNodeMap = MapSequence.<Node,Node>fromMap(new HashMap<Node, Node>());
     Graph horConstraintsGraph = getDirectionConstraintsGraph(new _FunctionTypes._return_P1_E0<Boolean, Direction2D>() {
       public Boolean invoke(Direction2D dir) {
         return dir.isHorizontal();
       }
     }, horNodeMap);
-    Map<Node, Node> verNodeMap = MapSequence.fromMap(new HashMap<Node, Node>());
+    Map<Node, Node> verNodeMap = MapSequence.<Node,Node>fromMap(new HashMap<Node, Node>());
     Graph verConstraintsGraph = getDirectionConstraintsGraph(new _FunctionTypes._return_P1_E0<Boolean, Direction2D>() {
       public Boolean invoke(Direction2D dir) {
         return dir.isVertical();
       }
     }, verNodeMap);
-    Map<Edge, Edge> edgeMap = MapSequence.fromMap(new HashMap<Edge, Edge>());
-    for (Edge edge : ListSequence.fromList(myGraph.getEdges())) {
+    Map<Edge, Edge> edgeMap = MapSequence.<Edge,Edge>fromMap(new HashMap<Edge, Edge>());
+    for (Edge edge : ListSequence.<Edge>fromList(myGraph.getEdges())) {
       Edge newEdge = connect(edge, Direction2D.RIGHT, verNodeMap);
       if (newEdge != null) {
-        MapSequence.fromMap(edgeMap).put(edge, newEdge);
+        MapSequence.<Edge,Edge>fromMap(edgeMap).put(edge, newEdge);
       } else {
-        MapSequence.fromMap(edgeMap).put(edge, connect(edge, Direction2D.UP, horNodeMap));
+        MapSequence.<Edge,Edge>fromMap(edgeMap).put(edge, connect(edge, Direction2D.UP, horNodeMap));
       }
     }
     myHorConstraintsGraph = horConstraintsGraph;
@@ -222,9 +222,9 @@ public class ConstraintsGraph {
     myEdgeMap = edgeMap;
     if (ConstraintsGraph.SHOW_INFO > 0) {
       System.out.println("constaints graph:");
-      for (Node node : ListSequence.fromList(myGraph.getNodes())) {
+      for (Node node : ListSequence.<Node>fromList(myGraph.getNodes())) {
         System.out.println("node " + node);
-        System.out.println("hor = " + MapSequence.fromMap(horNodeMap).get(node) + ", ver = " + MapSequence.fromMap(verNodeMap).get(node));
+        System.out.println("hor = " + MapSequence.<Node,Node>fromMap(horNodeMap).get(node) + ", ver = " + MapSequence.<Node,Node>fromMap(verNodeMap).get(node));
       }
       System.out.println("horizontal constraints graph: " + horConstraintsGraph);
       System.out.println("vertical constraints graph: " + verConstraintsGraph);
@@ -232,14 +232,14 @@ public class ConstraintsGraph {
   }
 
   private Edge connect(Edge realEdge, final Direction2D direction, Map<Node, Node> nodeMap) {
-    Dart dart = ListSequence.fromList(myEmbeddedGraph.getDarts(realEdge)).findFirst(new IWhereFilter<Dart>() {
+    Dart dart = ListSequence.<Dart>fromList(myEmbeddedGraph.getDarts(realEdge)).findFirst(new IWhereFilter<Dart>() {
       public boolean accept(Dart it) {
-        return MapSequence.fromMap(myDirections).get(it) == direction;
+        return MapSequence.<Dart,Direction2D>fromMap(myDirections).get(it) == direction;
       }
     });
     if (dart != null) {
-      Node sourceNode = MapSequence.fromMap(nodeMap).get(dart.getSource());
-      Node targetNode = MapSequence.fromMap(nodeMap).get(dart.getTarget());
+      Node sourceNode = MapSequence.<Node,Node>fromMap(nodeMap).get(dart.getSource());
+      Node targetNode = MapSequence.<Node,Node>fromMap(nodeMap).get(dart.getTarget());
       Graph graph = sourceNode.getGraph();
       return graph.connect(sourceNode, targetNode);
     }
@@ -249,24 +249,24 @@ public class ConstraintsGraph {
   private Graph getDirectionConstraintsGraph(final _FunctionTypes._return_P1_E0<? extends Boolean, ? super Direction2D> directionFilter, Map<Node, Node> nodeMap) {
     Map<Node, Integer> components = ConnectivityComponents.getComponents(myGraph, new _FunctionTypes._return_P1_E0<Boolean, Edge>() {
       public Boolean invoke(Edge edge) {
-        Dart dart = ListSequence.fromList(myEmbeddedGraph.getDarts(edge)).getElement(0);
-        return directionFilter.invoke(MapSequence.fromMap(myDirections).get(dart));
+        Dart dart = ListSequence.<Dart>fromList(myEmbeddedGraph.getDarts(edge)).getElement(0);
+        return directionFilter.invoke(MapSequence.<Dart,Direction2D>fromMap(myDirections).get(dart));
       }
     });
     List<List<Node>> componentsList = ConnectivityComponents.getComponentsList(components);
     Graph constraintsCraph = new Graph();
-    for (List<Node> nodeList : ListSequence.fromList(componentsList)) {
+    for (List<Node> nodeList : ListSequence.<List<Node>>fromList(componentsList)) {
       Node componentNode = constraintsCraph.createNode();
-      for (Node node : ListSequence.fromList(nodeList)) {
-        MapSequence.fromMap(nodeMap).put(node, componentNode);
+      for (Node node : ListSequence.<Node>fromList(nodeList)) {
+        MapSequence.<Node,Node>fromMap(nodeMap).put(node, componentNode);
       }
     }
     return constraintsCraph;
   }
 
   private void checkCompleteness() {
-    for (Node horSeg : ListSequence.fromList(myHorConstraintsGraph.getNodes())) {
-      for (Node verSeg : ListSequence.fromList(myVerConstraintsGraph.getNodes())) {
+    for (Node horSeg : ListSequence.<Node>fromList(myHorConstraintsGraph.getNodes())) {
+      for (Node verSeg : ListSequence.<Node>fromList(myVerConstraintsGraph.getNodes())) {
         if (isSegmentsIntersect(horSeg, verSeg)) {
           continue;
         }
@@ -300,19 +300,19 @@ public class ConstraintsGraph {
   }
 
   private boolean isSegmentsIntersect(final Node horSegment, final Node verSegment) {
-    Iterable<Node> horNodes = SetSequence.fromSet(MapSequence.fromMap(myHorNodeMap).keySet()).where(new IWhereFilter<Node>() {
+    Iterable<Node> horNodes = SetSequence.<Node>fromSet(MapSequence.fromMap(myHorNodeMap).keySet()).where(new IWhereFilter<Node>() {
       public boolean accept(Node key) {
-        return MapSequence.fromMap(myHorNodeMap).get(key) == horSegment;
+        return MapSequence.<Node,Node>fromMap(myHorNodeMap).get(key) == horSegment;
       }
     });
-    Iterable<Node> verNodes = SetSequence.fromSet(MapSequence.fromMap(myVerNodeMap).keySet()).where(new IWhereFilter<Node>() {
+    Iterable<Node> verNodes = SetSequence.<Node>fromSet(MapSequence.fromMap(myVerNodeMap).keySet()).where(new IWhereFilter<Node>() {
       public boolean accept(Node key) {
-        return MapSequence.fromMap(myVerNodeMap).get(key) == verSegment;
+        return MapSequence.<Node,Node>fromMap(myVerNodeMap).get(key) == verSegment;
       }
     });
     boolean intersects = false;
-    for (Node node : Sequence.fromIterable(horNodes)) {
-      intersects |= Sequence.fromIterable(verNodes).contains(node);
+    for (Node node : Sequence.<Node>fromIterable(horNodes)) {
+      intersects |= Sequence.<Node>fromIterable(verNodes).contains(node);
     }
     return intersects;
   }
@@ -326,7 +326,7 @@ public class ConstraintsGraph {
       nodeMap = myHorNodeMap;
     }
     for (int i = 0; i < ends.length; i++) {
-      ends[i] = MapSequence.fromMap(nodeMap).get(ends[i]);
+      ends[i] = MapSequence.<Node,Node>fromMap(nodeMap).get(ends[i]);
     }
     return ends;
   }
@@ -338,18 +338,18 @@ public class ConstraintsGraph {
     } else {
       nodeMap.value = myVerNodeMap;
     }
-    Iterable<Node> nodes = SetSequence.fromSet(MapSequence.fromMap(nodeMap.value).keySet()).where(new IWhereFilter<Node>() {
+    Iterable<Node> nodes = SetSequence.<Node>fromSet(MapSequence.fromMap(nodeMap.value).keySet()).where(new IWhereFilter<Node>() {
       public boolean accept(Node key) {
-        return MapSequence.fromMap(nodeMap.value).get(key) == segment;
+        return MapSequence.<Node,Node>fromMap(nodeMap.value).get(key) == segment;
       }
     });
-    Set<Node> firstCandidates = SetSequence.fromSet(new HashSet<Node>());
-    SetSequence.fromSet(firstCandidates).addSequence(Sequence.fromIterable(nodes));
+    Set<Node> firstCandidates = SetSequence.<Node>fromSet(new HashSet<Node>());
+    SetSequence.fromSet(firstCandidates).addSequence(Sequence.<Node>fromIterable(nodes));
     Node[] ends = new Node[2];
-    for (Node node : Sequence.fromIterable(nodes)) {
-      Dart dart = ListSequence.fromList(myEmbeddedGraph.getDartWithSource(node)).findFirst(new IWhereFilter<Dart>() {
+    for (Node node : Sequence.<Node>fromIterable(nodes)) {
+      Dart dart = ListSequence.<Dart>fromList(myEmbeddedGraph.getDartWithSource(node)).findFirst(new IWhereFilter<Dart>() {
         public boolean accept(Dart it) {
-          return MapSequence.fromMap(myDirections).get(it) == direction;
+          return MapSequence.<Dart,Direction2D>fromMap(myDirections).get(it) == direction;
         }
       });
       if (dart == null) {
@@ -361,13 +361,13 @@ public class ConstraintsGraph {
         SetSequence.fromSet(firstCandidates).removeElement(dart.getTarget());
       }
     }
-    if (SetSequence.fromSet(firstCandidates).count() != 1) {
+    if (SetSequence.<Node>fromSet(firstCandidates).count() != 1) {
       throw new RuntimeException("failed to find first node for seg " + segment + " by dir " + direction);
     }
     if (ends[1] == null) {
       throw new RuntimeException("failed to find last node for seg " + segment + " by dir " + direction);
     }
-    ends[0] = SetSequence.fromSet(firstCandidates).first();
+    ends[0] = SetSequence.<Node>fromSet(firstCandidates).first();
     return ends;
   }
 
@@ -389,11 +389,11 @@ public class ConstraintsGraph {
     Node source;
     Node target;
     if (direction == Direction2D.RIGHT || direction == Direction2D.UP) {
-      source = MapSequence.fromMap(constraintsMap).get(first);
-      target = MapSequence.fromMap(constraintsMap).get(second);
+      source = MapSequence.<Node,Node>fromMap(constraintsMap).get(first);
+      target = MapSequence.<Node,Node>fromMap(constraintsMap).get(second);
     } else {
-      source = MapSequence.fromMap(constraintsMap).get(second);
-      target = MapSequence.fromMap(constraintsMap).get(first);
+      source = MapSequence.<Node,Node>fromMap(constraintsMap).get(second);
+      target = MapSequence.<Node,Node>fromMap(constraintsMap).get(first);
     }
     Graph graph = source.getGraph();
     return graph.connect(source, target);

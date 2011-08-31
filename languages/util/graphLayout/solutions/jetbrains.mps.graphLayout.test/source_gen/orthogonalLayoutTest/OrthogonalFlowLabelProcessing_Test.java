@@ -44,22 +44,22 @@ public class OrthogonalFlowLabelProcessing_Test extends TestCase {
 
   public void test_testLabel() throws Exception {
     Graph graph = GraphIO.scanGraph("4 4  0 1  1 2  2 3  3 0");
-    Map<Node, Dimension> nodeSizes = MapSequence.fromMap(new HashMap<Node, Dimension>());
-    for (Node node : ListSequence.fromList(graph.getNodes())) {
-      MapSequence.fromMap(nodeSizes).put(node, new Dimension(30, 30));
+    Map<Node, Dimension> nodeSizes = MapSequence.<Node,Dimension>fromMap(new HashMap<Node, Dimension>());
+    for (Node node : ListSequence.<Node>fromList(graph.getNodes())) {
+      MapSequence.<Node,Dimension>fromMap(nodeSizes).put(node, new Dimension(30, 30));
     }
-    Map<Edge, Dimension> edgeSizes = MapSequence.fromMap(new HashMap<Edge, Dimension>());
-    MapSequence.fromMap(edgeSizes).put(ListSequence.fromList(graph.getEdges()).first(), new Dimension(30, 30));
+    Map<Edge, Dimension> edgeSizes = MapSequence.<Edge,Dimension>fromMap(new HashMap<Edge, Dimension>());
+    MapSequence.<Edge,Dimension>fromMap(edgeSizes).put(ListSequence.<Edge>fromList(graph.getEdges()).first(), new Dimension(30, 30));
     GraphLayout graphLayout = new OrthogonalFlowLabelProcessing().doLayout(graph, nodeSizes, edgeSizes);
     OrthogonalLayoutChecker.checkLayout(graphLayout);
   }
 
   public void test(Graph graph) {
-    Map<Node, Dimension> nodeSizes = MapSequence.fromMap(new HashMap<Node, Dimension>());
-    for (Node node : ListSequence.fromList(graph.getNodes())) {
-      MapSequence.fromMap(nodeSizes).put(node, new Dimension(30, 30));
+    Map<Node, Dimension> nodeSizes = MapSequence.<Node,Dimension>fromMap(new HashMap<Node, Dimension>());
+    for (Node node : ListSequence.<Node>fromList(graph.getNodes())) {
+      MapSequence.<Node,Dimension>fromMap(nodeSizes).put(node, new Dimension(30, 30));
     }
-    GraphLayout graphLayout = new OrthogonalFlowLabelProcessing().doLayout(graph, nodeSizes, MapSequence.fromMap(new HashMap<Edge, Dimension>()));
+    GraphLayout graphLayout = new OrthogonalFlowLabelProcessing().doLayout(graph, nodeSizes, MapSequence.<Edge,Dimension>fromMap(new HashMap<Edge, Dimension>()));
     OrthogonalLayoutChecker.checkLayout(graphLayout);
   }
 }

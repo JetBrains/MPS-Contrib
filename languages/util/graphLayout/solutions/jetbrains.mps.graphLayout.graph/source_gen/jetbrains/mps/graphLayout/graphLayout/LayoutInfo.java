@@ -20,28 +20,28 @@ public class LayoutInfo implements ILayoutInfo {
 
   public LayoutInfo(Graph graph) {
     myGraph = graph;
-    myNodeSizes = MapSequence.fromMap(new LinkedHashMap<Node, Dimension>(16, (float) 0.75, false));
-    myLabelSizes = MapSequence.fromMap(new LinkedHashMap<Edge, Dimension>(16, (float) 0.75, false));
+    myNodeSizes = MapSequence.<Node,Dimension>fromMap(new LinkedHashMap<Node, Dimension>(16, (float) 0.75, false));
+    myLabelSizes = MapSequence.<Edge,Dimension>fromMap(new LinkedHashMap<Edge, Dimension>(16, (float) 0.75, false));
   }
 
   public void setNodeSize(INode node, Dimension size) {
     Node myNode = ((Node) node);
-    MapSequence.fromMap(myNodeSizes).put(myNode, size);
+    MapSequence.<Node,Dimension>fromMap(myNodeSizes).put(myNode, size);
   }
 
   public void setLabelSize(IEdge labeledEdge, Dimension size) {
     Edge myLabeledEdge = ((Edge) labeledEdge);
-    MapSequence.fromMap(myLabelSizes).put(myLabeledEdge, size);
+    MapSequence.<Edge,Dimension>fromMap(myLabelSizes).put(myLabeledEdge, size);
   }
 
   public Dimension getNodeSize(INode node) {
     Node myNode = ((Node) node);
-    return MapSequence.fromMap(myNodeSizes).get(myNode);
+    return MapSequence.<Node,Dimension>fromMap(myNodeSizes).get(myNode);
   }
 
   public Dimension getLabelSize(IEdge edge) {
     Edge myEdge = ((Edge) edge);
-    return MapSequence.fromMap(myLabelSizes).get(myEdge);
+    return MapSequence.<Edge,Dimension>fromMap(myLabelSizes).get(myEdge);
   }
 
   public Graph getGraph() {
