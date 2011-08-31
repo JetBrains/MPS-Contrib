@@ -22,7 +22,7 @@ public class CheckBoxDemo extends JFrame {
   private VBoxPanel myComponent_a0;
   private JLabel myComponent_a0a;
   private JCheckBox myCheckbox_b0a;
-  public List<AutoBinding> myBindings = ListSequence.fromList(new ArrayList<AutoBinding>());
+  public List<AutoBinding> myBindings = ListSequence.<AutoBinding>fromList(new ArrayList<AutoBinding>());
   private Events myEvents = new Events(null) {
     {
     }
@@ -64,7 +64,7 @@ public class CheckBoxDemo extends JFrame {
       Property targetProperty = BeanProperty.create("text");
       AutoBinding binding = Bindings.createAutoBinding(AutoBinding.UpdateStrategy.READ_WRITE, sourceObject, sourceProperty, targetObject, targetProperty);
       binding.bind();
-      ListSequence.fromList(this.myBindings).addElement(binding);
+      ListSequence.<AutoBinding>fromList(this.myBindings).addElement(binding);
     }
   }
 
