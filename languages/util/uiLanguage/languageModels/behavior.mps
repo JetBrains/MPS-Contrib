@@ -1219,7 +1219,7 @@
       <property name="name" nameId="tpck.1169194664001" value="getAfterConstruction" />
       <property name="isPrivate" nameId="1i04.1225194472833" value="false" />
       <node role="returnType" roleId="tpee.1068580123133" type="tp25.SNodeType" typeId="tp25.1138055754698" id="1213877495347">
-        <link role="concept" roleId="tp25.1138405853777" targetNodeId="tphr.1203080174635" resolveInfo="ComponentConstructor" />
+        <link role="concept" roleId="tp25.1138405853777" targetNodeId="tphr.1203080174635" resolveInfo="AfterConstructionBlock" />
       </node>
       <node role="body" roleId="tpee.1068580123135" type="tpee.StatementList" typeId="tpee.1068580123136" id="1213877495348">
         <node role="statement" roleId="tpee.1068581517665" type="tpee.IfStatement" typeId="tpee.1068580123159" id="1213877495349">
@@ -1258,7 +1258,7 @@
       <property name="name" nameId="tpck.1169194664001" value="getBeforeConstruction" />
       <property name="isPrivate" nameId="1i04.1225194472833" value="false" />
       <node role="returnType" roleId="tpee.1068580123133" type="tp25.SNodeType" typeId="tp25.1138055754698" id="1216902155146">
-        <link role="concept" roleId="tp25.1138405853777" targetNodeId="tphr.1203080174635" resolveInfo="ComponentConstructor" />
+        <link role="concept" roleId="tp25.1138405853777" targetNodeId="tphr.1216903255225" resolveInfo="BeforeConstructionBlock" />
       </node>
       <node role="body" roleId="tpee.1068580123135" type="tpee.StatementList" typeId="tpee.1068580123136" id="1216902155147">
         <node role="statement" roleId="tpee.1068581517665" type="tpee.IfStatement" typeId="tpee.1068580123159" id="1216902155148">
@@ -1285,7 +1285,7 @@
                 <link role="baseMethodDeclaration" roleId="tpee.1068499141037" targetNodeId="1213877495364" resolveInfo="getController" />
               </node>
             </node>
-            <node role="operation" roleId="tpee.1197027833540" type="tp25.SLinkAccess" typeId="tp25.1138056143562" id="1216902162622">
+            <node role="operation" roleId="tpee.1197027833540" type="tp25.SLinkAccess" typeId="tp25.1138056143562" id="3488833496741521173">
               <link role="link" roleId="tp25.1138056516764" targetNodeId="tphr.1216901972238" />
             </node>
           </node>
