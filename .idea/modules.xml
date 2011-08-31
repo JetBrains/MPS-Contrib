@@ -9,7 +9,8 @@
       <module fileurl="file://$PROJECT_DIR$/core/actions-runtime/actions-runtime.iml" filepath="$PROJECT_DIR$/core/actions-runtime/actions-runtime.iml" group="workbench" />
       <module fileurl="file://$PROJECT_DIR$/core/analyzers/analyzers.iml" filepath="$PROJECT_DIR$/core/analyzers/analyzers.iml" group="core" />
       <module fileurl="file://$PROJECT_DIR$/languages/util/buildlanguage/ant/ant.iml" filepath="$PROJECT_DIR$/languages/util/buildlanguage/ant/ant.iml" group="platform/build" />
-      <module fileurl="file://$PROJECT_DIR$/core/baseLanguage/baseLanguage/baseLanguage.iml" filepath="$PROJECT_DIR$/core/baseLanguage/baseLanguage/baseLanguage.iml" group="core/baseLanguage" />
+      <module fileurl="file://$PROJECT_DIR$/core/baseLanguage/baseLanguage/solutions/jetbrains.mps.baseLanguage.index/baseLanguage-index.iml" filepath="$PROJECT_DIR$/core/baseLanguage/baseLanguage/solutions/jetbrains.mps.baseLanguage.index/baseLanguage-index.iml" group="core/baseLanguage" />
+      <module fileurl="file://$PROJECT_DIR$/core/baseLanguage/baseLanguage/solutions/jetbrains.mps.baseLanguage.search/baseLanguage-search.iml" filepath="$PROJECT_DIR$/core/baseLanguage/baseLanguage/solutions/jetbrains.mps.baseLanguage.search/baseLanguage-search.iml" group="core/baseLanguage" />
       <module fileurl="file://$PROJECT_DIR$/core/baseLanguage/collections/collections.iml" filepath="$PROJECT_DIR$/core/baseLanguage/collections/collections.iml" group="core/baseLanguage" />
       <module fileurl="file://$PROJECT_DIR$/core/baseLanguage/collections/runtime/collections-runtime.iml" filepath="$PROJECT_DIR$/core/baseLanguage/collections/runtime/collections-runtime.iml" group="core/baseLanguage" />
       <module fileurl="file://$PROJECT_DIR$/core/debug/debug.iml" filepath="$PROJECT_DIR$/core/debug/debug.iml" group="core/debug" />

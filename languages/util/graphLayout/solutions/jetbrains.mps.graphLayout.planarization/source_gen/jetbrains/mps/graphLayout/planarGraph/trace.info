@@ -1,97 +1,103 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <debugInfo>
   <root nodeId="1123934034178617860">
-    <nodeInfo nodeId="4136567681074297495" fileName="CheckEmbeddedGraph.java" startLine="18" startPosition="85" endLine="19" endPosition="21" conceptFqName="jetbrains.mps.baseLanguage.structure.ReturnStatement" />
-    <nodeInfo nodeId="4136567681074297505" fileName="CheckEmbeddedGraph.java" startLine="21" startPosition="5" endLine="22" endPosition="16" conceptFqName="jetbrains.mps.baseLanguage.structure.ReturnStatement" />
-    <nodeInfo nodeId="4136567681074297513" fileName="CheckEmbeddedGraph.java" startLine="25" startPosition="94" endLine="26" endPosition="38" conceptFqName="jetbrains.mps.baseLanguage.structure.ExpressionStatement" />
-    <nodeInfo nodeId="4136567681074297538" fileName="CheckEmbeddedGraph.java" startLine="28" startPosition="111" endLine="29" endPosition="56" conceptFqName="jetbrains.mps.baseLanguage.structure.ThrowStatement" />
-    <nodeInfo nodeId="4136567681074297558" fileName="CheckEmbeddedGraph.java" startLine="32" startPosition="50" endLine="33" endPosition="58" conceptFqName="jetbrains.mps.baseLanguage.structure.ThrowStatement" />
-    <nodeInfo nodeId="4136567681074297572" fileName="CheckEmbeddedGraph.java" startLine="37" startPosition="82" endLine="38" endPosition="54" conceptFqName="jetbrains.mps.baseLanguage.structure.LocalVariableDeclarationStatement" />
-    <nodeInfo nodeId="4136567681074297582" fileName="CheckEmbeddedGraph.java" startLine="39" startPosition="26" endLine="40" endPosition="69" conceptFqName="jetbrains.mps.baseLanguage.structure.ExpressionStatement" />
-    <nodeInfo nodeId="4136567681074297588" fileName="CheckEmbeddedGraph.java" startLine="40" startPosition="69" endLine="41" endPosition="69" conceptFqName="jetbrains.mps.baseLanguage.structure.LocalVariableDeclarationStatement" />
-    <nodeInfo nodeId="4136567681074297604" fileName="CheckEmbeddedGraph.java" startLine="43" startPosition="39" endLine="44" endPosition="34" conceptFqName="jetbrains.mps.baseLanguage.structure.ReturnStatement" />
-    <nodeInfo nodeId="4136567681074297610" fileName="CheckEmbeddedGraph.java" startLine="46" startPosition="12" endLine="47" endPosition="83" conceptFqName="jetbrains.mps.baseLanguage.structure.ExpressionStatement" />
-    <nodeInfo nodeId="4136567681074297617" fileName="CheckEmbeddedGraph.java" startLine="47" startPosition="83" endLine="48" endPosition="83" conceptFqName="jetbrains.mps.baseLanguage.structure.ExpressionStatement" />
-    <nodeInfo nodeId="4136567681074297643" fileName="CheckEmbeddedGraph.java" startLine="54" startPosition="82" endLine="55" endPosition="70" conceptFqName="jetbrains.mps.baseLanguage.structure.ExpressionStatement" />
-    <nodeInfo nodeId="4136567681074297493" fileName="CheckEmbeddedGraph.java" startLine="17" startPosition="69" endLine="20" endPosition="7" conceptFqName="jetbrains.mps.baseLanguage.structure.IfStatement" />
-    <nodeInfo nodeId="4136567681074297522" fileName="CheckEmbeddedGraph.java" startLine="27" startPosition="71" endLine="30" endPosition="7" conceptFqName="jetbrains.mps.baseLanguage.structure.IfStatement" />
-    <nodeInfo nodeId="4136567681074297550" fileName="CheckEmbeddedGraph.java" startLine="31" startPosition="64" endLine="34" endPosition="9" conceptFqName="jetbrains.mps.baseLanguage.structure.IfStatement" />
-    <nodeInfo nodeId="4136567681074297635" fileName="CheckEmbeddedGraph.java" startLine="53" startPosition="61" endLine="56" endPosition="5" conceptFqName="jetbrains.mps.baseLanguage.structure.ForeachStatement" />
-    <nodeInfo nodeId="4136567681074297602" fileName="CheckEmbeddedGraph.java" startLine="42" startPosition="120" endLine="46" endPosition="0" conceptFqName="jetbrains.mps.baseLanguage.structure.InstanceMethodDeclaration" propertyString="select#(Ljetbrains/mps/graphLayout/planarGraph/Dart;)Ljetbrains/mps/graphLayout/graph/Node;" />
-    <nodeInfo nodeId="4136567681074297487" fileName="CheckEmbeddedGraph.java" startLine="16" startPosition="73" endLine="21" endPosition="5" conceptFqName="jetbrains.mps.baseLanguage.structure.ForeachStatement" />
-    <nodeInfo nodeId="4136567681074297544" fileName="CheckEmbeddedGraph.java" startLine="30" startPosition="7" endLine="35" endPosition="7" conceptFqName="jetbrains.mps.baseLanguage.structure.ForeachStatement" />
-    <nodeInfo nodeId="4136567681074297595" fileName="CheckEmbeddedGraph.java" startLine="41" startPosition="69" endLine="46" endPosition="12" conceptFqName="jetbrains.mps.baseLanguage.structure.ExpressionStatement" />
-    <nodeInfo nodeId="4136567681074297631" fileName="CheckEmbeddedGraph.java" startLine="52" startPosition="0" endLine="58" endPosition="0" conceptFqName="jetbrains.mps.baseLanguage.structure.StaticMethodDeclaration" propertyString="checkFull#(Ljetbrains/mps/graphLayout/planarGraph/EmbeddedGraph;)V" />
-    <nodeInfo nodeId="4136567681074297483" fileName="CheckEmbeddedGraph.java" startLine="15" startPosition="33" endLine="24" endPosition="0" conceptFqName="jetbrains.mps.baseLanguage.structure.StaticMethodDeclaration" propertyString="checkAdjacentFaces#(Ljetbrains/mps/graphLayout/planarGraph/EmbeddedGraph;)Z" />
-    <nodeInfo nodeId="4136567681074297516" fileName="CheckEmbeddedGraph.java" startLine="26" startPosition="38" endLine="36" endPosition="5" conceptFqName="jetbrains.mps.baseLanguage.structure.ForeachStatement" />
-    <nodeInfo nodeId="4136567681074297580" fileName="CheckEmbeddedGraph.java" startLine="38" startPosition="54" endLine="49" endPosition="7" conceptFqName="jetbrains.mps.baseLanguage.structure.IfStatement" />
-    <nodeInfo nodeId="4136567681074297564" fileName="CheckEmbeddedGraph.java" startLine="36" startPosition="5" endLine="50" endPosition="5" conceptFqName="jetbrains.mps.baseLanguage.structure.ForeachStatement" />
-    <nodeInfo nodeId="4136567681074297509" fileName="CheckEmbeddedGraph.java" startLine="24" startPosition="0" endLine="52" endPosition="0" conceptFqName="jetbrains.mps.baseLanguage.structure.StaticMethodDeclaration" propertyString="checkEmbeddedGraph#(Ljetbrains/mps/graphLayout/planarGraph/EmbeddedGraph;Z)V" />
-    <scopeInfo nodeId="4136567681074297494" fileName="CheckEmbeddedGraph.java" startLine="18" startPosition="85" endLine="19" endPosition="21" />
-    <scopeInfo nodeId="4136567681074297537" fileName="CheckEmbeddedGraph.java" startLine="28" startPosition="111" endLine="29" endPosition="56" />
-    <scopeInfo nodeId="4136567681074297557" fileName="CheckEmbeddedGraph.java" startLine="32" startPosition="50" endLine="33" endPosition="58" />
-    <scopeInfo nodeId="4136567681074297603" fileName="CheckEmbeddedGraph.java" startLine="43" startPosition="39" endLine="44" endPosition="34" />
-    <scopeInfo nodeId="4136567681074297642" fileName="CheckEmbeddedGraph.java" startLine="54" startPosition="82" endLine="55" endPosition="70" />
-    <scopeInfo nodeId="4136567681074297492" fileName="CheckEmbeddedGraph.java" startLine="17" startPosition="69" endLine="20" endPosition="7" />
-    <scopeInfo nodeId="4136567681074297549" fileName="CheckEmbeddedGraph.java" startLine="31" startPosition="64" endLine="34" endPosition="9" />
-    <scopeInfo nodeId="4136567681074297634" fileName="CheckEmbeddedGraph.java" startLine="53" startPosition="61" endLine="56" endPosition="5" />
-    <scopeInfo nodeId="4136567681074297635" fileName="CheckEmbeddedGraph.java" startLine="53" startPosition="61" endLine="56" endPosition="5" />
-    <scopeInfo nodeId="4136567681074297602" fileName="CheckEmbeddedGraph.java" startLine="42" startPosition="120" endLine="46" endPosition="0" />
-    <scopeInfo nodeId="4136567681074297487" fileName="CheckEmbeddedGraph.java" startLine="16" startPosition="73" endLine="21" endPosition="5" />
-    <scopeInfo nodeId="4136567681074297544" fileName="CheckEmbeddedGraph.java" startLine="30" startPosition="7" endLine="35" endPosition="7" />
-    <scopeInfo nodeId="4136567681074297486" fileName="CheckEmbeddedGraph.java" startLine="16" startPosition="73" endLine="22" endPosition="16" />
-    <scopeInfo nodeId="4136567681074297631" fileName="CheckEmbeddedGraph.java" startLine="52" startPosition="0" endLine="58" endPosition="0">
+    <nodeInfo nodeId="4136567681074297495" fileName="CheckEmbeddedGraph.java" startLine="21" startPosition="85" endLine="22" endPosition="21" conceptFqName="jetbrains.mps.baseLanguage.structure.ReturnStatement" />
+    <nodeInfo nodeId="4136567681074297505" fileName="CheckEmbeddedGraph.java" startLine="24" startPosition="5" endLine="25" endPosition="16" conceptFqName="jetbrains.mps.baseLanguage.structure.ReturnStatement" />
+    <nodeInfo nodeId="4136567681074297513" fileName="CheckEmbeddedGraph.java" startLine="28" startPosition="94" endLine="29" endPosition="38" conceptFqName="jetbrains.mps.baseLanguage.structure.ExpressionStatement" />
+    <nodeInfo nodeId="4136567681074297538" fileName="CheckEmbeddedGraph.java" startLine="31" startPosition="111" endLine="32" endPosition="56" conceptFqName="jetbrains.mps.baseLanguage.structure.ThrowStatement" />
+    <nodeInfo nodeId="4136567681074297558" fileName="CheckEmbeddedGraph.java" startLine="35" startPosition="50" endLine="36" endPosition="58" conceptFqName="jetbrains.mps.baseLanguage.structure.ThrowStatement" />
+    <nodeInfo nodeId="4136567681074297572" fileName="CheckEmbeddedGraph.java" startLine="40" startPosition="82" endLine="41" endPosition="54" conceptFqName="jetbrains.mps.baseLanguage.structure.LocalVariableDeclarationStatement" />
+    <nodeInfo nodeId="4136567681074297582" fileName="CheckEmbeddedGraph.java" startLine="42" startPosition="26" endLine="43" endPosition="69" conceptFqName="jetbrains.mps.baseLanguage.structure.ExpressionStatement" />
+    <nodeInfo nodeId="4136567681074297588" fileName="CheckEmbeddedGraph.java" startLine="43" startPosition="69" endLine="44" endPosition="69" conceptFqName="jetbrains.mps.baseLanguage.structure.LocalVariableDeclarationStatement" />
+    <nodeInfo nodeId="4136567681074297604" fileName="CheckEmbeddedGraph.java" startLine="46" startPosition="39" endLine="47" endPosition="34" conceptFqName="jetbrains.mps.baseLanguage.structure.ReturnStatement" />
+    <nodeInfo nodeId="4136567681074297610" fileName="CheckEmbeddedGraph.java" startLine="49" startPosition="12" endLine="50" endPosition="83" conceptFqName="jetbrains.mps.baseLanguage.structure.ExpressionStatement" />
+    <nodeInfo nodeId="4136567681074297617" fileName="CheckEmbeddedGraph.java" startLine="50" startPosition="83" endLine="51" endPosition="83" conceptFqName="jetbrains.mps.baseLanguage.structure.ExpressionStatement" />
+    <nodeInfo nodeId="4136567681074297643" fileName="CheckEmbeddedGraph.java" startLine="57" startPosition="82" endLine="58" endPosition="70" conceptFqName="jetbrains.mps.baseLanguage.structure.ExpressionStatement" />
+    <nodeInfo nodeId="7365360912573050950" fileName="CheckEmbeddedGraph.java" startLine="15" startPosition="33" endLine="17" endPosition="3" conceptFqName="jetbrains.mps.baseLanguage.structure.ConstructorDeclaration" propertyString="CheckEmbeddedGraph#()V" />
+    <nodeInfo nodeId="4136567681074297493" fileName="CheckEmbeddedGraph.java" startLine="20" startPosition="69" endLine="23" endPosition="7" conceptFqName="jetbrains.mps.baseLanguage.structure.IfStatement" />
+    <nodeInfo nodeId="4136567681074297522" fileName="CheckEmbeddedGraph.java" startLine="30" startPosition="71" endLine="33" endPosition="7" conceptFqName="jetbrains.mps.baseLanguage.structure.IfStatement" />
+    <nodeInfo nodeId="4136567681074297550" fileName="CheckEmbeddedGraph.java" startLine="34" startPosition="64" endLine="37" endPosition="9" conceptFqName="jetbrains.mps.baseLanguage.structure.IfStatement" />
+    <nodeInfo nodeId="4136567681074297635" fileName="CheckEmbeddedGraph.java" startLine="56" startPosition="61" endLine="59" endPosition="5" conceptFqName="jetbrains.mps.baseLanguage.structure.ForeachStatement" />
+    <nodeInfo nodeId="4136567681074297602" fileName="CheckEmbeddedGraph.java" startLine="45" startPosition="120" endLine="49" endPosition="0" conceptFqName="jetbrains.mps.baseLanguage.structure.InstanceMethodDeclaration" propertyString="select#(Ljetbrains/mps/graphLayout/planarGraph/Dart;)Ljetbrains/mps/graphLayout/graph/Node;" />
+    <nodeInfo nodeId="4136567681074297487" fileName="CheckEmbeddedGraph.java" startLine="19" startPosition="73" endLine="24" endPosition="5" conceptFqName="jetbrains.mps.baseLanguage.structure.ForeachStatement" />
+    <nodeInfo nodeId="4136567681074297544" fileName="CheckEmbeddedGraph.java" startLine="33" startPosition="7" endLine="38" endPosition="7" conceptFqName="jetbrains.mps.baseLanguage.structure.ForeachStatement" />
+    <nodeInfo nodeId="4136567681074297595" fileName="CheckEmbeddedGraph.java" startLine="44" startPosition="69" endLine="49" endPosition="12" conceptFqName="jetbrains.mps.baseLanguage.structure.ExpressionStatement" />
+    <nodeInfo nodeId="4136567681074297631" fileName="CheckEmbeddedGraph.java" startLine="55" startPosition="0" endLine="61" endPosition="0" conceptFqName="jetbrains.mps.baseLanguage.structure.StaticMethodDeclaration" propertyString="checkFull#(Ljetbrains/mps/graphLayout/planarGraph/EmbeddedGraph;)V" />
+    <nodeInfo nodeId="4136567681074297483" fileName="CheckEmbeddedGraph.java" startLine="18" startPosition="0" endLine="27" endPosition="0" conceptFqName="jetbrains.mps.baseLanguage.structure.StaticMethodDeclaration" propertyString="checkAdjacentFaces#(Ljetbrains/mps/graphLayout/planarGraph/EmbeddedGraph;)Z" />
+    <nodeInfo nodeId="4136567681074297516" fileName="CheckEmbeddedGraph.java" startLine="29" startPosition="38" endLine="39" endPosition="5" conceptFqName="jetbrains.mps.baseLanguage.structure.ForeachStatement" />
+    <nodeInfo nodeId="4136567681074297580" fileName="CheckEmbeddedGraph.java" startLine="41" startPosition="54" endLine="52" endPosition="7" conceptFqName="jetbrains.mps.baseLanguage.structure.IfStatement" />
+    <nodeInfo nodeId="4136567681074297564" fileName="CheckEmbeddedGraph.java" startLine="39" startPosition="5" endLine="53" endPosition="5" conceptFqName="jetbrains.mps.baseLanguage.structure.ForeachStatement" />
+    <nodeInfo nodeId="4136567681074297509" fileName="CheckEmbeddedGraph.java" startLine="27" startPosition="0" endLine="55" endPosition="0" conceptFqName="jetbrains.mps.baseLanguage.structure.StaticMethodDeclaration" propertyString="checkEmbeddedGraph#(Ljetbrains/mps/graphLayout/planarGraph/EmbeddedGraph;Z)V" />
+    <scopeInfo nodeId="7365360912573050952" fileName="CheckEmbeddedGraph.java" startLine="16" startPosition="31" endLine="16" endPosition="31" />
+    <scopeInfo nodeId="4136567681074297494" fileName="CheckEmbeddedGraph.java" startLine="21" startPosition="85" endLine="22" endPosition="21" />
+    <scopeInfo nodeId="4136567681074297537" fileName="CheckEmbeddedGraph.java" startLine="31" startPosition="111" endLine="32" endPosition="56" />
+    <scopeInfo nodeId="4136567681074297557" fileName="CheckEmbeddedGraph.java" startLine="35" startPosition="50" endLine="36" endPosition="58" />
+    <scopeInfo nodeId="4136567681074297603" fileName="CheckEmbeddedGraph.java" startLine="46" startPosition="39" endLine="47" endPosition="34" />
+    <scopeInfo nodeId="4136567681074297642" fileName="CheckEmbeddedGraph.java" startLine="57" startPosition="82" endLine="58" endPosition="70" />
+    <scopeInfo nodeId="7365360912573050950" fileName="CheckEmbeddedGraph.java" startLine="15" startPosition="33" endLine="17" endPosition="3" />
+    <scopeInfo nodeId="4136567681074297492" fileName="CheckEmbeddedGraph.java" startLine="20" startPosition="69" endLine="23" endPosition="7" />
+    <scopeInfo nodeId="4136567681074297549" fileName="CheckEmbeddedGraph.java" startLine="34" startPosition="64" endLine="37" endPosition="9" />
+    <scopeInfo nodeId="4136567681074297634" fileName="CheckEmbeddedGraph.java" startLine="56" startPosition="61" endLine="59" endPosition="5" />
+    <scopeInfo nodeId="4136567681074297635" fileName="CheckEmbeddedGraph.java" startLine="56" startPosition="61" endLine="59" endPosition="5" />
+    <scopeInfo nodeId="4136567681074297602" fileName="CheckEmbeddedGraph.java" startLine="45" startPosition="120" endLine="49" endPosition="0" />
+    <scopeInfo nodeId="4136567681074297487" fileName="CheckEmbeddedGraph.java" startLine="19" startPosition="73" endLine="24" endPosition="5" />
+    <scopeInfo nodeId="4136567681074297544" fileName="CheckEmbeddedGraph.java" startLine="33" startPosition="7" endLine="38" endPosition="7" />
+    <scopeInfo nodeId="4136567681074297486" fileName="CheckEmbeddedGraph.java" startLine="19" startPosition="73" endLine="25" endPosition="16" />
+    <scopeInfo nodeId="4136567681074297631" fileName="CheckEmbeddedGraph.java" startLine="55" startPosition="0" endLine="61" endPosition="0">
       <varInfo nodeId="4136567681074297650" varName="embeddedGraph" />
     </scopeInfo>
-    <scopeInfo nodeId="4136567681074297521" fileName="CheckEmbeddedGraph.java" startLine="27" startPosition="71" endLine="35" endPosition="7" />
-    <scopeInfo nodeId="4136567681074297483" fileName="CheckEmbeddedGraph.java" startLine="15" startPosition="33" endLine="24" endPosition="0">
+    <scopeInfo nodeId="4136567681074297521" fileName="CheckEmbeddedGraph.java" startLine="30" startPosition="71" endLine="38" endPosition="7" />
+    <scopeInfo nodeId="4136567681074297483" fileName="CheckEmbeddedGraph.java" startLine="18" startPosition="0" endLine="27" endPosition="0">
       <varInfo nodeId="4136567681074297507" varName="embeddedGraph" />
     </scopeInfo>
-    <scopeInfo nodeId="4136567681074297581" fileName="CheckEmbeddedGraph.java" startLine="39" startPosition="26" endLine="48" endPosition="83">
+    <scopeInfo nodeId="4136567681074297581" fileName="CheckEmbeddedGraph.java" startLine="42" startPosition="26" endLine="51" endPosition="83">
       <varInfo nodeId="4136567681074297589" varName="sources" />
     </scopeInfo>
-    <scopeInfo nodeId="4136567681074297516" fileName="CheckEmbeddedGraph.java" startLine="26" startPosition="38" endLine="36" endPosition="5" />
-    <scopeInfo nodeId="4136567681074297571" fileName="CheckEmbeddedGraph.java" startLine="37" startPosition="82" endLine="49" endPosition="7">
+    <scopeInfo nodeId="4136567681074297516" fileName="CheckEmbeddedGraph.java" startLine="29" startPosition="38" endLine="39" endPosition="5" />
+    <scopeInfo nodeId="4136567681074297571" fileName="CheckEmbeddedGraph.java" startLine="40" startPosition="82" endLine="52" endPosition="7">
       <varInfo nodeId="4136567681074297573" varName="darts" />
     </scopeInfo>
-    <scopeInfo nodeId="4136567681074297564" fileName="CheckEmbeddedGraph.java" startLine="36" startPosition="5" endLine="50" endPosition="5" />
-    <scopeInfo nodeId="4136567681074297512" fileName="CheckEmbeddedGraph.java" startLine="25" startPosition="94" endLine="50" endPosition="5" />
-    <scopeInfo nodeId="4136567681074297509" fileName="CheckEmbeddedGraph.java" startLine="24" startPosition="0" endLine="52" endPosition="0">
+    <scopeInfo nodeId="4136567681074297564" fileName="CheckEmbeddedGraph.java" startLine="39" startPosition="5" endLine="53" endPosition="5" />
+    <scopeInfo nodeId="4136567681074297512" fileName="CheckEmbeddedGraph.java" startLine="28" startPosition="94" endLine="53" endPosition="5" />
+    <scopeInfo nodeId="4136567681074297509" fileName="CheckEmbeddedGraph.java" startLine="27" startPosition="0" endLine="55" endPosition="0">
       <varInfo nodeId="4136567681074297627" varName="embeddedGraph" />
       <varInfo nodeId="4136567681074297629" varName="isRegularFaces" />
     </scopeInfo>
-    <unitInfo nodeId="4136567681074297602" fileName="CheckEmbeddedGraph.java" startLine="42" startPosition="95" endLine="46" endPosition="9" unitName="jetbrains.mps.graphLayout.planarGraph.CheckEmbeddedGraph$1" />
-    <unitInfo nodeId="1123934034178617860" fileName="CheckEmbeddedGraph.java" startLine="15" startPosition="0" endLine="59" endPosition="0" unitName="jetbrains.mps.graphLayout.planarGraph.CheckEmbeddedGraph" />
+    <unitInfo nodeId="4136567681074297602" fileName="CheckEmbeddedGraph.java" startLine="45" startPosition="95" endLine="49" endPosition="9" unitName="jetbrains.mps.graphLayout.planarGraph.CheckEmbeddedGraph$1" />
+    <unitInfo nodeId="1123934034178617860" fileName="CheckEmbeddedGraph.java" startLine="15" startPosition="0" endLine="62" endPosition="0" unitName="jetbrains.mps.graphLayout.planarGraph.CheckEmbeddedGraph" />
   </root>
   <root nodeId="1123934034178617891">
-    <nodeInfo nodeId="1123934034178617896" fileName="CheckFace.java" startLine="10" startPosition="42" endLine="11" endPosition="39" conceptFqName="jetbrains.mps.baseLanguage.structure.LocalVariableDeclarationStatement" />
-    <nodeInfo nodeId="1123934034178617908" fileName="CheckFace.java" startLine="12" startPosition="80" endLine="13" endPosition="32" conceptFqName="jetbrains.mps.baseLanguage.structure.LocalVariableDeclarationStatement" />
-    <nodeInfo nodeId="1123934034178617916" fileName="CheckFace.java" startLine="14" startPosition="62" endLine="15" endPosition="22" conceptFqName="jetbrains.mps.baseLanguage.structure.ExpressionStatement" />
-    <nodeInfo nodeId="1123934034178617925" fileName="CheckFace.java" startLine="16" startPosition="7" endLine="17" endPosition="82" conceptFqName="jetbrains.mps.baseLanguage.structure.LocalVariableDeclarationStatement" />
-    <nodeInfo nodeId="1123934034178617933" fileName="CheckFace.java" startLine="17" startPosition="82" endLine="18" endPosition="87" conceptFqName="jetbrains.mps.baseLanguage.structure.LocalVariableDeclarationStatement" />
-    <nodeInfo nodeId="1123934034178617943" fileName="CheckFace.java" startLine="19" startPosition="36" endLine="20" endPosition="21" conceptFqName="jetbrains.mps.baseLanguage.structure.ReturnStatement" />
-    <nodeInfo nodeId="1123934034178617955" fileName="CheckFace.java" startLine="22" startPosition="5" endLine="23" endPosition="16" conceptFqName="jetbrains.mps.baseLanguage.structure.ReturnStatement" />
-    <nodeInfo nodeId="1123934034178617914" fileName="CheckFace.java" startLine="13" startPosition="32" endLine="16" endPosition="7" conceptFqName="jetbrains.mps.baseLanguage.structure.IfStatement" />
-    <nodeInfo nodeId="1123934034178617941" fileName="CheckFace.java" startLine="18" startPosition="87" endLine="21" endPosition="7" conceptFqName="jetbrains.mps.baseLanguage.structure.IfStatement" />
-    <nodeInfo nodeId="1123934034178617903" fileName="CheckFace.java" startLine="11" startPosition="39" endLine="22" endPosition="5" conceptFqName="jetbrains.mps.baseLanguage.structure.ForStatement" />
-    <nodeInfo nodeId="1123934034178617892" fileName="CheckFace.java" startLine="9" startPosition="24" endLine="25" endPosition="0" conceptFqName="jetbrains.mps.baseLanguage.structure.StaticMethodDeclaration" propertyString="check#(Ljetbrains/mps/graphLayout/planarGraph/Face;)Z" />
-    <scopeInfo nodeId="1123934034178617915" fileName="CheckFace.java" startLine="14" startPosition="62" endLine="15" endPosition="22" />
-    <scopeInfo nodeId="1123934034178617942" fileName="CheckFace.java" startLine="19" startPosition="36" endLine="20" endPosition="21" />
-    <scopeInfo nodeId="1123934034178617907" fileName="CheckFace.java" startLine="12" startPosition="80" endLine="21" endPosition="7">
+    <nodeInfo nodeId="1123934034178617896" fileName="CheckFace.java" startLine="13" startPosition="42" endLine="14" endPosition="39" conceptFqName="jetbrains.mps.baseLanguage.structure.LocalVariableDeclarationStatement" />
+    <nodeInfo nodeId="1123934034178617908" fileName="CheckFace.java" startLine="15" startPosition="80" endLine="16" endPosition="32" conceptFqName="jetbrains.mps.baseLanguage.structure.LocalVariableDeclarationStatement" />
+    <nodeInfo nodeId="1123934034178617916" fileName="CheckFace.java" startLine="17" startPosition="62" endLine="18" endPosition="22" conceptFqName="jetbrains.mps.baseLanguage.structure.ExpressionStatement" />
+    <nodeInfo nodeId="1123934034178617925" fileName="CheckFace.java" startLine="19" startPosition="7" endLine="20" endPosition="82" conceptFqName="jetbrains.mps.baseLanguage.structure.LocalVariableDeclarationStatement" />
+    <nodeInfo nodeId="1123934034178617933" fileName="CheckFace.java" startLine="20" startPosition="82" endLine="21" endPosition="87" conceptFqName="jetbrains.mps.baseLanguage.structure.LocalVariableDeclarationStatement" />
+    <nodeInfo nodeId="1123934034178617943" fileName="CheckFace.java" startLine="22" startPosition="36" endLine="23" endPosition="21" conceptFqName="jetbrains.mps.baseLanguage.structure.ReturnStatement" />
+    <nodeInfo nodeId="1123934034178617955" fileName="CheckFace.java" startLine="25" startPosition="5" endLine="26" endPosition="16" conceptFqName="jetbrains.mps.baseLanguage.structure.ReturnStatement" />
+    <nodeInfo nodeId="7365360912573050954" fileName="CheckFace.java" startLine="9" startPosition="24" endLine="11" endPosition="3" conceptFqName="jetbrains.mps.baseLanguage.structure.ConstructorDeclaration" propertyString="CheckFace#()V" />
+    <nodeInfo nodeId="1123934034178617914" fileName="CheckFace.java" startLine="16" startPosition="32" endLine="19" endPosition="7" conceptFqName="jetbrains.mps.baseLanguage.structure.IfStatement" />
+    <nodeInfo nodeId="1123934034178617941" fileName="CheckFace.java" startLine="21" startPosition="87" endLine="24" endPosition="7" conceptFqName="jetbrains.mps.baseLanguage.structure.IfStatement" />
+    <nodeInfo nodeId="1123934034178617903" fileName="CheckFace.java" startLine="14" startPosition="39" endLine="25" endPosition="5" conceptFqName="jetbrains.mps.baseLanguage.structure.ForStatement" />
+    <nodeInfo nodeId="1123934034178617892" fileName="CheckFace.java" startLine="12" startPosition="0" endLine="28" endPosition="0" conceptFqName="jetbrains.mps.baseLanguage.structure.StaticMethodDeclaration" propertyString="check#(Ljetbrains/mps/graphLayout/planarGraph/Face;)Z" />
+    <scopeInfo nodeId="7365360912573050956" fileName="CheckFace.java" startLine="10" startPosition="22" endLine="10" endPosition="22" />
+    <scopeInfo nodeId="1123934034178617915" fileName="CheckFace.java" startLine="17" startPosition="62" endLine="18" endPosition="22" />
+    <scopeInfo nodeId="1123934034178617942" fileName="CheckFace.java" startLine="22" startPosition="36" endLine="23" endPosition="21" />
+    <scopeInfo nodeId="7365360912573050954" fileName="CheckFace.java" startLine="9" startPosition="24" endLine="11" endPosition="3" />
+    <scopeInfo nodeId="1123934034178617907" fileName="CheckFace.java" startLine="15" startPosition="80" endLine="24" endPosition="7">
       <varInfo nodeId="1123934034178617926" varName="curTarget" />
       <varInfo nodeId="1123934034178617909" varName="nextIndex" />
       <varInfo nodeId="1123934034178617934" varName="nextSource" />
     </scopeInfo>
-    <scopeInfo nodeId="1123934034178617903" fileName="CheckFace.java" startLine="11" startPosition="39" endLine="22" endPosition="5">
+    <scopeInfo nodeId="1123934034178617903" fileName="CheckFace.java" startLine="14" startPosition="39" endLine="25" endPosition="5">
       <varInfo nodeId="1123934034178617904" varName="index" />
     </scopeInfo>
-    <scopeInfo nodeId="1123934034178617895" fileName="CheckFace.java" startLine="10" startPosition="42" endLine="23" endPosition="16">
+    <scopeInfo nodeId="1123934034178617895" fileName="CheckFace.java" startLine="13" startPosition="42" endLine="26" endPosition="16">
       <varInfo nodeId="1123934034178617897" varName="darts" />
     </scopeInfo>
-    <scopeInfo nodeId="1123934034178617892" fileName="CheckFace.java" startLine="9" startPosition="24" endLine="25" endPosition="0">
+    <scopeInfo nodeId="1123934034178617892" fileName="CheckFace.java" startLine="12" startPosition="0" endLine="28" endPosition="0">
       <varInfo nodeId="1123934034178617957" varName="face" />
     </scopeInfo>
-    <unitInfo nodeId="1123934034178617891" fileName="CheckFace.java" startLine="9" startPosition="0" endLine="26" endPosition="0" unitName="jetbrains.mps.graphLayout.planarGraph.CheckFace" />
+    <unitInfo nodeId="1123934034178617891" fileName="CheckFace.java" startLine="9" startPosition="0" endLine="29" endPosition="0" unitName="jetbrains.mps.graphLayout.planarGraph.CheckFace" />
   </root>
   <root nodeId="1646208389854266624">
     <nodeInfo nodeId="1646208389854266630" fileName="Dart.java" startLine="8" startPosition="19" endLine="9" endPosition="22" conceptFqName="jetbrains.mps.baseLanguage.structure.FieldDeclaration" propertyString="myEdge" />

@@ -27,6 +27,11 @@ import org.jetbrains.annotations.NotNull;
 import jetbrains.mps.internal.collections.runtime.backports.LinkedList;
 import java.io.File;
 
+
+/**
+ * Use commands language to start processes instead
+ * http://confluence.jetbrains.net/display/MPSD2/Run+Configurations#RunConfigurations-Commands
+ */
 @Deprecated
 @ToRemove(version = 2.0)
 public abstract class BaseRunner {
