@@ -20,16 +20,16 @@ public class QueriesGenerated {
 
   public static Object propertyMacro_GetPropertyValue_1202822134016(final IOperationContext operationContext, final PropertyMacroContext _context) {
     SNode parent = SNodeOperations.cast(SNodeOperations.getParent(_context.getNode()), "jetbrains.mps.uiLanguage.structure.Form");
-    return ListSequence.fromList(SLinkOperations.getTargets(parent, "part", true)).indexOf(_context.getNode());
+    return ListSequence.<SNode>fromList(SLinkOperations.getTargets(parent, "part", true)).indexOf(_context.getNode());
   }
 
   public static Object propertyMacro_GetPropertyValue_1202822099795(final IOperationContext operationContext, final PropertyMacroContext _context) {
-    return ListSequence.fromList(SLinkOperations.getTargets(_context.getNode(), "part", true)).count();
+    return ListSequence.<SNode>fromList(SLinkOperations.getTargets(_context.getNode(), "part", true)).count();
   }
 
   public static Object propertyMacro_GetPropertyValue_1202822227345(final IOperationContext operationContext, final PropertyMacroContext _context) {
     SNode parent = SNodeOperations.cast(SNodeOperations.getParent(_context.getNode()), "jetbrains.mps.uiLanguage.structure.Form");
-    return ListSequence.fromList(SLinkOperations.getTargets(parent, "part", true)).indexOf(_context.getNode());
+    return ListSequence.<SNode>fromList(SLinkOperations.getTargets(parent, "part", true)).indexOf(_context.getNode());
   }
 
   public static SNode sourceNodeQuery_1202821118006(final IOperationContext operationContext, final SourceSubstituteMacroNodeContext _context) {

@@ -12,7 +12,7 @@ public class List extends JComponent {
   public List myThis;
   private Object mySelectedElement;
   private java.awt.List mySelectedElements;
-  public java.util.List<AutoBinding> myBindings = ListSequence.fromList(new ArrayList<AutoBinding>());
+  public java.util.List<AutoBinding> myBindings = ListSequence.<AutoBinding>fromList(new ArrayList<AutoBinding>());
   private Events myEvents = new Events(null) {
     {
     }

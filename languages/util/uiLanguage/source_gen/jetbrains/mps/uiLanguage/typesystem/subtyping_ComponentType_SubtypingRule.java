@@ -26,10 +26,10 @@ public class subtyping_ComponentType_SubtypingRule extends SubtypingRule_Runtime
     List<SNode> result = new ArrayList<SNode>();
     SNode extendedComponent = ComponentDeclaration_Behavior.call_getExtendedComponent_1213877495528(SLinkOperations.getTarget(componentType, "component", false));
     if (extendedComponent != null) {
-      ListSequence.fromList(result).addElement(new subtyping_ComponentType_SubtypingRule.QuotationClass_1j2wpd_a0a0a0c0a().createNode(extendedComponent, typeCheckingContext));
+      ListSequence.<SNode>fromList(result).addElement(new subtyping_ComponentType_SubtypingRule.QuotationClass_1j2wpd_a0a0a0c0a().createNode(extendedComponent, typeCheckingContext));
     }
     if (SPropertyOperations.getBoolean(SLinkOperations.getTarget(componentType, "component", false), "stub")) {
-      ListSequence.fromList(result).addElement(new subtyping_ComponentType_SubtypingRule.QuotationClass_1j2wpd_a0a0a0d0a().createNode(SLinkOperations.getTarget(SLinkOperations.getTarget(componentType, "component", false), "mapTo", false), typeCheckingContext));
+      ListSequence.<SNode>fromList(result).addElement(new subtyping_ComponentType_SubtypingRule.QuotationClass_1j2wpd_a0a0a0d0a().createNode(SLinkOperations.getTarget(SLinkOperations.getTarget(componentType, "component", false), "mapTo", false), typeCheckingContext));
     }
     return result;
   }

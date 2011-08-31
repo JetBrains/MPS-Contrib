@@ -14,7 +14,7 @@ public class RadioButton extends JButton {
   public RadioButton myThis;
   private boolean mySelected;
   private ButtonGroup myGroup;
-  public List<AutoBinding> myBindings = ListSequence.fromList(new ArrayList<AutoBinding>());
+  public List<AutoBinding> myBindings = ListSequence.<AutoBinding>fromList(new ArrayList<AutoBinding>());
   private Events myEvents = new Events(null) {
     {
     }
