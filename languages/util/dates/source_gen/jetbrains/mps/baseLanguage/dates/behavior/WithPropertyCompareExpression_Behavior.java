@@ -13,7 +13,7 @@ public class WithPropertyCompareExpression_Behavior {
   public static SNode call_getDatetimeProperty_1239206693907(SNode thisNode) {
     SNode property = SLinkOperations.getTarget(thisNode, "datetimeProperty", false);
     if ((property == null)) {
-      property = ListSequence.fromList(SLinkOperations.getConceptLinkTargets(thisNode, "defaultDatetimeProperty")).first();
+      property = ListSequence.<SNode>fromList(SLinkOperations.getConceptLinkTargets(thisNode, "defaultDatetimeProperty")).first();
     }
     return property;
   }

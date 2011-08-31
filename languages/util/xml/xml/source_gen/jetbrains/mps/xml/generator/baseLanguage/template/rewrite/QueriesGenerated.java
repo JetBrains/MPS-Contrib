@@ -7,18 +7,18 @@ import jetbrains.mps.generator.template.BaseMappingRuleContext;
 import jetbrains.mps.xmlSchema.behavior.ElementDeclaration_Behavior;
 import jetbrains.mps.lang.smodel.generator.smodelAdapter.SLinkOperations;
 import jetbrains.mps.internal.collections.runtime.ListSequence;
+import jetbrains.mps.smodel.SNode;
 import jetbrains.mps.lang.smodel.generator.smodelAdapter.SNodeOperations;
 import jetbrains.mps.generator.template.PropertyMacroContext;
 import jetbrains.mps.lang.smodel.generator.smodelAdapter.SPropertyOperations;
 import jetbrains.mps.generator.template.ReferenceMacroContext;
-import jetbrains.mps.smodel.SNode;
 import jetbrains.mps.generator.template.SourceSubstituteMacroNodeContext;
 import jetbrains.mps.generator.template.SourceSubstituteMacroNodesContext;
 
 public class QueriesGenerated {
   public static boolean baseMappingRule_Condition_1191197782536(final IOperationContext operationContext, final BaseMappingRuleContext _context) {
     boolean hasNamespace = ElementDeclaration_Behavior.call_hasNamespace_1213877429936(SLinkOperations.getTarget(_context.getNode(), "elementDeclaration", false));
-    boolean condition = hasNamespace && ListSequence.fromList(SNodeOperations.getDescendants(_context.getNode(), "jetbrains.mps.xmlInternal.structure.NamespaceAttribute", false, new String[]{})).isEmpty();
+    boolean condition = hasNamespace && ListSequence.<SNode>fromList(SNodeOperations.getDescendants(_context.getNode(), "jetbrains.mps.xmlInternal.structure.NamespaceAttribute", false, new String[]{})).isEmpty();
     return condition;
   }
 

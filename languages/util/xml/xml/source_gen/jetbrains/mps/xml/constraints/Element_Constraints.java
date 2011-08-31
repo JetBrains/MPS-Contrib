@@ -70,7 +70,7 @@ public class Element_Constraints extends BaseConstraintsDescriptor {
             ISearchScope searchScope;
             SNode element = SNodeOperations.getAncestor(_context.getEnclosingNode(), "jetbrains.mps.xml.structure.Element", false, false);
             List<SNode> elementDeclarations = ElementUtil.getElementDeclarations(SLinkOperations.getTarget(element, "elementDeclaration", false), _context.getEnclosingNode(), operationContext.getScope());
-            if (ListSequence.fromList(elementDeclarations).isEmpty()) {
+            if (ListSequence.<SNode>fromList(elementDeclarations).isEmpty()) {
               searchScope = SModelSearchUtil.createModelAndImportedModelsScope(_context.getModel(), operationContext.getScope());
             } else {
               searchScope = new SimpleSearchScope(elementDeclarations);

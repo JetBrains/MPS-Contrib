@@ -14,7 +14,7 @@ public class GItemList_Behavior {
 
   public static boolean virtual_isComplex_1213877298853(SNode thisNode) {
     boolean complex = false;
-    for (SNode item : ListSequence.fromList(SLinkOperations.getTargets(thisNode, "item", true))) {
+    for (SNode item : ListSequence.<SNode>fromList(SLinkOperations.getTargets(thisNode, "item", true))) {
       if (SNodeOperations.isInstanceOf(item, "jetbrains.mps.gtext.structure.GItem") && GItem_Behavior.call_isComplex_1213877298853(item)) {
         complex = true;
         break;

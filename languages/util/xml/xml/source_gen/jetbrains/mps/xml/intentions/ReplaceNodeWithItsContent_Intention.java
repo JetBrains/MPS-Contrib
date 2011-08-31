@@ -42,12 +42,12 @@ public class ReplaceNodeWithItsContent_Intention extends BaseIntention implement
   }
 
   public boolean isApplicableToNode(final SNode node, final EditorContext editorContext) {
-    return SNodeOperations.isInstanceOf(SNodeOperations.getParent(node), "jetbrains.mps.xml.structure.ContentList") && ListSequence.fromList(Content_Behavior.call_getSubcontents_1213877224308(node)).isNotEmpty();
+    return SNodeOperations.isInstanceOf(SNodeOperations.getParent(node), "jetbrains.mps.xml.structure.ContentList") && ListSequence.<SNode>fromList(Content_Behavior.call_getSubcontents_1213877224308(node)).isNotEmpty();
   }
 
   public void execute(final SNode node, final EditorContext editorContext) {
     SNode s = node;
-    for (SNode subContent : ListSequence.fromList(Content_Behavior.call_getSubcontents_1213877224308(node))) {
+    for (SNode subContent : ListSequence.<SNode>fromList(Content_Behavior.call_getSubcontents_1213877224308(node))) {
       SNodeOperations.insertNextSiblingChild(s, subContent);
       s = subContent;
     }

@@ -65,7 +65,7 @@ public class Attribute_Constraints extends BaseConstraintsDescriptor {
                 if (!(SNodeOperations.isInstanceOf(node, "jetbrains.mps.build.generictasks.structure.AttributeDeclaration"))) {
                   return false;
                 }
-                return ListSequence.fromList(ITaskDeclaration_Behavior.call_getAttributesDeclarations_1190349257898147625(SLinkOperations.getTarget(taskCall, "declaration", false))).contains(SNodeOperations.cast(node, "jetbrains.mps.build.generictasks.structure.AttributeDeclaration"));
+                return ListSequence.<SNode>fromList(ITaskDeclaration_Behavior.call_getAttributesDeclarations_1190349257898147625(SLinkOperations.getTarget(taskCall, "declaration", false))).contains(SNodeOperations.cast(node, "jetbrains.mps.build.generictasks.structure.AttributeDeclaration"));
               }
             };
           }

@@ -43,8 +43,8 @@ public class InlineFormatExpression_convert_Intention extends BaseIntention impl
     SNode ife = SNodeFactoryOperations.createNewNode("jetbrains.mps.baseLanguage.dates.structure.InlineFormatDateTimeExpression", null);
     SLinkOperations.setTarget(ife, "datetime", ite, true);
     SLinkOperations.setTarget(ife, "locale", SLinkOperations.getTarget(node, "locale", false), false);
-    ListSequence.fromList(SLinkOperations.getTargets(ife, "formatToken", true)).clear();
-    ListSequence.fromList(SLinkOperations.getTargets(ife, "formatToken", true)).addSequence(ListSequence.fromList(SLinkOperations.getTargets(node, "formatToken", true)));
+    ListSequence.<SNode>fromList(SLinkOperations.getTargets(ife, "formatToken", true)).clear();
+    ListSequence.<SNode>fromList(SLinkOperations.getTargets(ife, "formatToken", true)).addSequence(ListSequence.<SNode>fromList(SLinkOperations.getTargets(node, "formatToken", true)));
     SNodeOperations.replaceWithAnother(node, ife);
   }
 

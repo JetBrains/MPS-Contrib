@@ -41,12 +41,12 @@ public class UnitTestRunner extends BaseRunner {
   private static Logger LOG = Logger.getLogger(UnitTestRunner.class);
 
   private ProcessBuilder myProcessBuilder;
-  private final List<ITestNodeWrapper> myTestable = ListSequence.fromList(new ArrayList<ITestNodeWrapper>());
+  private final List<ITestNodeWrapper> myTestable = ListSequence.<ITestNodeWrapper>fromList(new ArrayList<ITestNodeWrapper>());
 
   @Deprecated
   public UnitTestRunner(List<ITestNodeWrapper> testable, ConfigRunParameters parameters) {
     super(parameters);
-    ListSequence.fromList(this.myTestable).addSequence(ListSequence.fromList(testable));
+    ListSequence.<ITestNodeWrapper>fromList(this.myTestable).addSequence(ListSequence.<ITestNodeWrapper>fromList(testable));
   }
 
   public Process run() throws ProcessNotCreatedException {
@@ -55,7 +55,7 @@ public class UnitTestRunner extends BaseRunner {
 
   @Nullable
   public Process run(final List<ITestNodeWrapper> tests) throws ProcessNotCreatedException {
-    if (ListSequence.fromList(tests).isEmpty()) {
+    if (ListSequence.<ITestNodeWrapper>fromList(tests).isEmpty()) {
       return null;
     }
 
@@ -63,13 +63,13 @@ public class UnitTestRunner extends BaseRunner {
     final Wrappers._T<List<ITestNodeWrapper>> testsToRun = new Wrappers._T<List<ITestNodeWrapper>>();
     ModelAccess.instance().runReadAction(new Runnable() {
       public void run() {
-        runParams.value = ListSequence.fromList(tests).first().getTestRunParameters();
-        testsToRun.value = ListSequence.fromList(tests).where(new IWhereFilter<ITestNodeWrapper>() {
+        runParams.value = ListSequence.<ITestNodeWrapper>fromList(tests).first().getTestRunParameters();
+        testsToRun.value = ListSequence.<ITestNodeWrapper>fromList(tests).where(new IWhereFilter<ITestNodeWrapper>() {
           public boolean accept(ITestNodeWrapper it) {
             return eq_y7hhub_a0a0a0a0a0a0b0a0a0a0e0b(check_y7hhub_a0a0a0a0a1a0e0b(it), runParams.value);
           }
         }).toListSequence();
-        ListSequence.fromList(tests).visitAll(new IVisitor<ITestNodeWrapper>() {
+        ListSequence.<ITestNodeWrapper>fromList(tests).visitAll(new IVisitor<ITestNodeWrapper>() {
           public void visit(ITestNodeWrapper it) {
             if (!(eq_y7hhub_a0a0a0a0a0a2a0a0a0a4a1(check_y7hhub_a0a0a0a0c0a4a1(it), runParams.value))) {
               LOG.error("Can not execute " + it + ": run parameters does not match.");
@@ -82,7 +82,7 @@ public class UnitTestRunner extends BaseRunner {
   }
 
   private Process runTestWithParameters(final TestRunParameters parameters, final List<ITestNodeWrapper> tests) throws ProcessNotCreatedException {
-    final List<String> params = ListSequence.fromList(new ArrayList<String>());
+    final List<String> params = ListSequence.<String>fromList(new ArrayList<String>());
     final Wrappers._T<String> workingDir = new Wrappers._T<String>(null);
     final Wrappers._T<String> programParams = new Wrappers._T<String>(null);
     final Wrappers._T<String> vmParams = new Wrappers._T<String>(null);
@@ -100,29 +100,29 @@ public class UnitTestRunner extends BaseRunner {
 
         UnitTestRunner.this.addJavaCommand(params);
 
-        ListSequence.fromList(params).addSequence(ListSequence.fromList(parameters.getVmParameters()));
+        ListSequence.<String>fromList(params).addSequence(ListSequence.<String>fromList(parameters.getVmParameters()));
         if (vmParams.value != null && StringUtils.isNotEmpty(vmParams.value)) {
           String[] paramList = UnitTestRunner.this.splitParams(vmParams.value);
-          ListSequence.fromList(params).addSequence(Sequence.fromIterable(Sequence.fromArray(paramList)));
+          ListSequence.<String>fromList(params).addSequence(Sequence.<String>fromIterable(Sequence.fromArray(paramList)));
         }
 
         classpathString.value = UnitTestRunner.this.getClasspathString(tests, parameters.getClassPath());
         UnitTestRunner.this.addClassPath(params, classpathString.value);
 
-        ListSequence.fromList(params).addElement(parameters.getTestRunner());
+        ListSequence.<String>fromList(params).addElement(parameters.getTestRunner());
 
-        testsCommandLine.value = ListSequence.fromList(new ArrayList<String>(ListSequence.fromList(tests).count()));
-        for (ITestNodeWrapper test : ListSequence.fromList(tests)) {
-          List<String> parametersPart = ListSequence.fromListAndArray(new ArrayList<String>(), (test.isTestCase() ?
+        testsCommandLine.value = ListSequence.<String>fromList(new ArrayList<String>(ListSequence.<ITestNodeWrapper>fromList(tests).count()));
+        for (ITestNodeWrapper test : ListSequence.<ITestNodeWrapper>fromList(tests)) {
+          List<String> parametersPart = ListSequence.<String>fromListAndArray(new ArrayList<String>(), (test.isTestCase() ?
             "-c" :
             "-m"
           ), test.getFqName());
-          testCommandLineLength.value = ListSequence.fromList(parametersPart).foldLeft(testCommandLineLength.value, new ILeftCombinator<String, Long>() {
+          testCommandLineLength.value = ListSequence.<String>fromList(parametersPart).foldLeft(testCommandLineLength.value, new ILeftCombinator<String, Long>() {
             public Long combine(Long s, String it) {
               return s + it.length();
             }
           });
-          ListSequence.fromList(testsCommandLine.value).addSequence(ListSequence.fromList(parametersPart));
+          ListSequence.<String>fromList(testsCommandLine.value).addSequence(ListSequence.<String>fromList(parametersPart));
         }
       }
     });
@@ -131,7 +131,7 @@ public class UnitTestRunner extends BaseRunner {
     // according to http://blogs.msdn.com/b/oldnewthing/archive/2003/12/10/56028.aspx 
     // so I use nice and round number 16384=2**14-1 as an upper bound 
     if (classpathString.value.length() + testCommandLineLength.value < MAX_COMMAND_LINE) {
-      ListSequence.fromList(params).addSequence(ListSequence.fromList(testsCommandLine.value));
+      ListSequence.<String>fromList(params).addSequence(ListSequence.<String>fromList(testsCommandLine.value));
     } else {
       // if we are to long, we have to write everything into the tmp file 
       File tmpFile = FileUtil.createTmpFile();
@@ -139,14 +139,14 @@ public class UnitTestRunner extends BaseRunner {
       tmpFile.deleteOnExit();
       try {
         PrintWriter writer = new PrintWriter(tmpFile);
-        for (String commandLinePiece : ListSequence.fromList(testsCommandLine.value)) {
+        for (String commandLinePiece : ListSequence.<String>fromList(testsCommandLine.value)) {
           writer.append(commandLinePiece);
           writer.append("\n");
         }
         writer.flush();
         writer.close();
-        ListSequence.fromList(params).addElement("-f");
-        ListSequence.fromList(params).addElement(tmpFile.getAbsolutePath());
+        ListSequence.<String>fromList(params).addElement("-f");
+        ListSequence.<String>fromList(params).addElement(tmpFile.getAbsolutePath());
       } catch (FileNotFoundException e) {
         throw new ProcessNotCreatedException("Could not output run parameters to file " + tmpFile, this.getCommandLine(this.myRunParameters.getWorkingDirectory()));
       }
@@ -154,7 +154,7 @@ public class UnitTestRunner extends BaseRunner {
 
     if (programParams.value != null && StringUtils.isNotEmpty(programParams.value)) {
       String[] paramList = this.splitParams(programParams.value);
-      ListSequence.fromList(params).addSequence(Sequence.fromIterable(Sequence.fromArray(paramList)));
+      ListSequence.<String>fromList(params).addSequence(Sequence.<String>fromIterable(Sequence.fromArray(paramList)));
     }
 
     this.myProcessBuilder = new ProcessBuilder(params);
@@ -180,16 +180,16 @@ public class UnitTestRunner extends BaseRunner {
   }
 
   public String getClasspathString(List<ITestNodeWrapper> list, List<String> additionalClassPath) {
-    Set<IModule> uniqueModules = SetSequence.fromSet(new HashSet<IModule>());
+    Set<IModule> uniqueModules = SetSequence.<IModule>fromSet(new HashSet<IModule>());
     for (ITestNodeWrapper testable : list) {
       IModule module = SNodeOperations.getModel(testable.getNode()).getModelDescriptor().getModule();
       SetSequence.fromSet(uniqueModules).addElement(module);
     }
-    Set<String> classpath = SetSequence.fromSet(new LinkedHashSet<String>());
+    Set<String> classpath = SetSequence.<String>fromSet(new LinkedHashSet<String>());
     for (IModule module : uniqueModules) {
-      SetSequence.fromSet(classpath).addSequence(SetSequence.fromSet(BaseRunner.getModuleClasspath(module, true)));
+      SetSequence.fromSet(classpath).addSequence(SetSequence.<String>fromSet(BaseRunner.getModuleClasspath(module, true)));
     }
-    ListSequence.fromList(additionalClassPath).addSequence(SetSequence.fromSet(classpath));
+    ListSequence.<String>fromList(additionalClassPath).addSequence(SetSequence.<String>fromSet(classpath));
 
     StringBuffer buff = new StringBuffer();
     for (String path : additionalClassPath) {

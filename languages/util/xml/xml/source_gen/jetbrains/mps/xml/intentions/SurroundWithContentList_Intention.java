@@ -50,10 +50,10 @@ public class SurroundWithContentList_Intention extends BaseIntention implements 
   public void execute(final SNode node, final EditorContext editorContext) {
     SNode contentList = SNodeFactoryOperations.createNewNode("jetbrains.mps.xml.structure.ContentList", null);
     List<SNode> selectedNodes = editorContext.getNodeEditorComponent().getSelectedNodes();
-    SNode first = ListSequence.fromList(selectedNodes).getElement(0);
+    SNode first = ListSequence.<SNode>fromList(selectedNodes).getElement(0);
     SNodeOperations.insertPrevSiblingChild(first, contentList);
-    for (SNode selectedNode : ListSequence.fromList(selectedNodes)) {
-      ListSequence.fromList(SLinkOperations.getTargets(contentList, "content", true)).addElement(SNodeOperations.cast(selectedNode, "jetbrains.mps.xml.structure.Content"));
+    for (SNode selectedNode : ListSequence.<SNode>fromList(selectedNodes)) {
+      ListSequence.<SNode>fromList(SLinkOperations.getTargets(contentList, "content", true)).addElement(SNodeOperations.cast(selectedNode, "jetbrains.mps.xml.structure.Content"));
     }
     SNodeFactoryOperations.addNewChild(contentList, "content", "jetbrains.mps.xml.structure.Content");
   }

@@ -338,9 +338,9 @@ public class TimeZoneNameOperation_Editor extends DefaultNodeEditor {
     }
 
     public List<String> getPropertyValues(SNode node, IScope scope, IOperationContext operationContext) {
-      List<String> l = ListSequence.fromList(new ArrayList<String>(2));
-      ListSequence.fromList(l).addElement("name");
-      ListSequence.fromList(l).addElement("short name");
+      List<String> l = ListSequence.<String>fromList(new ArrayList<String>(2));
+      ListSequence.<String>fromList(l).addElement("name");
+      ListSequence.<String>fromList(l).addElement("short name");
       return l;
     }
   }

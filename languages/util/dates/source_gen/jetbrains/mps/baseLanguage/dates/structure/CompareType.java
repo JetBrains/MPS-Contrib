@@ -35,13 +35,13 @@ public enum CompareType {
   }
 
   public static List<CompareType> getConstants() {
-    List<CompareType> list = ListSequence.fromList(new LinkedList<CompareType>());
-    ListSequence.fromList(list).addElement(CompareType.EQUALS);
-    ListSequence.fromList(list).addElement(CompareType.NOT_EQUALS);
-    ListSequence.fromList(list).addElement(CompareType.GREATER);
-    ListSequence.fromList(list).addElement(CompareType.GREATER_OR_EQUALS);
-    ListSequence.fromList(list).addElement(CompareType.LESS);
-    ListSequence.fromList(list).addElement(CompareType.LESS_OR_EQUALS);
+    List<CompareType> list = ListSequence.<CompareType>fromList(new LinkedList<CompareType>());
+    ListSequence.<CompareType>fromList(list).addElement(CompareType.EQUALS);
+    ListSequence.<CompareType>fromList(list).addElement(CompareType.NOT_EQUALS);
+    ListSequence.<CompareType>fromList(list).addElement(CompareType.GREATER);
+    ListSequence.<CompareType>fromList(list).addElement(CompareType.GREATER_OR_EQUALS);
+    ListSequence.<CompareType>fromList(list).addElement(CompareType.LESS);
+    ListSequence.<CompareType>fromList(list).addElement(CompareType.LESS_OR_EQUALS);
     return list;
   }
 

@@ -1,12 +1,39 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <debugInfo>
   <unitInfo fileName="IntentionsDescriptor.java" startLine="9" startPosition="0" endLine="18" endPosition="0" unitName="jetbrains.mps.xmlSchema.intentions.IntentionsDescriptor" />
-  <unitInfo fileName="MakeTypeExpressionListVertical_Intention.java" startLine="11" startPosition="0" endLine="46" endPosition="0" unitName="jetbrains.mps.xmlSchema.intentions.MakeTypeExpressionListVertical_Intention" />
   <root nodeId="1195647346726">
+    <nodeInfo nodeId="1195647346726" fileName="MakeTypeExpressionListVertical_Intention.java" startLine="15" startPosition="30" endLine="16" endPosition="66" conceptFqName="jetbrains.mps.baseLanguage.structure.ReturnStatement" />
+    <nodeInfo nodeId="1195647346726" fileName="MakeTypeExpressionListVertical_Intention.java" startLine="19" startPosition="36" endLine="20" endPosition="17" conceptFqName="jetbrains.mps.baseLanguage.structure.ReturnStatement" />
+    <nodeInfo nodeId="1195647346726" fileName="MakeTypeExpressionListVertical_Intention.java" startLine="23" startPosition="37" endLine="24" endPosition="17" conceptFqName="jetbrains.mps.baseLanguage.structure.ReturnStatement" />
+    <nodeInfo nodeId="1195647346726" fileName="MakeTypeExpressionListVertical_Intention.java" startLine="27" startPosition="44" endLine="28" endPosition="16" conceptFqName="jetbrains.mps.baseLanguage.structure.ReturnStatement" />
     <nodeInfo nodeId="3388178362144492154" fileName="MakeTypeExpressionListVertical_Intention.java" startLine="38" startPosition="76" endLine="39" endPosition="108" conceptFqName="jetbrains.mps.baseLanguage.structure.ExpressionStatement" />
+    <nodeInfo nodeId="1195647346726" fileName="MakeTypeExpressionListVertical_Intention.java" startLine="42" startPosition="37" endLine="43" endPosition="48" conceptFqName="jetbrains.mps.baseLanguage.structure.ReturnStatement" />
+    <nodeInfo nodeId="1195647346726" fileName="MakeTypeExpressionListVertical_Intention.java" startLine="11" startPosition="98" endLine="13" endPosition="3" conceptFqName="jetbrains.mps.baseLanguage.structure.ConstructorDeclaration" propertyString="MakeTypeExpressionListVertical_Intention#()V" />
+    <nodeInfo nodeId="1195647346726" fileName="MakeTypeExpressionListVertical_Intention.java" startLine="14" startPosition="0" endLine="18" endPosition="0" conceptFqName="jetbrains.mps.baseLanguage.structure.InstanceMethodDeclaration" propertyString="getConcept#()Ljava/lang/String;" />
+    <nodeInfo nodeId="1195647346726" fileName="MakeTypeExpressionListVertical_Intention.java" startLine="18" startPosition="0" endLine="22" endPosition="0" conceptFqName="jetbrains.mps.baseLanguage.structure.InstanceMethodDeclaration" propertyString="isParameterized#()Z" />
+    <nodeInfo nodeId="1195647346726" fileName="MakeTypeExpressionListVertical_Intention.java" startLine="22" startPosition="0" endLine="26" endPosition="0" conceptFqName="jetbrains.mps.baseLanguage.structure.InstanceMethodDeclaration" propertyString="isErrorIntention#()Z" />
+    <nodeInfo nodeId="1195647346726" fileName="MakeTypeExpressionListVertical_Intention.java" startLine="26" startPosition="0" endLine="30" endPosition="0" conceptFqName="jetbrains.mps.baseLanguage.structure.InstanceMethodDeclaration" propertyString="isAvailableInChildNodes#()Z" />
     <nodeInfo nodeId="3388178362144513535" fileName="MakeTypeExpressionListVertical_Intention.java" startLine="31" startPosition="85" endLine="35" endPosition="6" conceptFqName="jetbrains.mps.baseLanguage.structure.ReturnStatement" />
+    <nodeInfo nodeId="1195647346726" fileName="MakeTypeExpressionListVertical_Intention.java" startLine="37" startPosition="0" endLine="41" endPosition="0" conceptFqName="jetbrains.mps.baseLanguage.structure.InstanceMethodDeclaration" propertyString="execute#(Ljetbrains/mps/smodel/SNode;Ljetbrains/mps/nodeEditor/EditorContext;)V" />
+    <nodeInfo nodeId="1195647346726" fileName="MakeTypeExpressionListVertical_Intention.java" startLine="41" startPosition="0" endLine="45" endPosition="0" conceptFqName="jetbrains.mps.baseLanguage.structure.InstanceMethodDeclaration" propertyString="getLocationString#()Ljava/lang/String;" />
+    <nodeInfo nodeId="1195647346726" fileName="MakeTypeExpressionListVertical_Intention.java" startLine="30" startPosition="0" endLine="37" endPosition="0" conceptFqName="jetbrains.mps.baseLanguage.structure.InstanceMethodDeclaration" propertyString="getDescription#(Ljetbrains/mps/smodel/SNode;Ljetbrains/mps/nodeEditor/EditorContext;)Ljava/lang/String;" />
+    <scopeInfo nodeId="1195647346726" fileName="MakeTypeExpressionListVertical_Intention.java" startLine="12" startPosition="53" endLine="12" endPosition="53" />
+    <scopeInfo nodeId="1195647346726" fileName="MakeTypeExpressionListVertical_Intention.java" startLine="15" startPosition="30" endLine="16" endPosition="66" />
+    <scopeInfo nodeId="1195647346726" fileName="MakeTypeExpressionListVertical_Intention.java" startLine="19" startPosition="36" endLine="20" endPosition="17" />
+    <scopeInfo nodeId="1195647346726" fileName="MakeTypeExpressionListVertical_Intention.java" startLine="23" startPosition="37" endLine="24" endPosition="17" />
+    <scopeInfo nodeId="1195647346726" fileName="MakeTypeExpressionListVertical_Intention.java" startLine="27" startPosition="44" endLine="28" endPosition="16" />
     <scopeInfo nodeId="1195647346823" fileName="MakeTypeExpressionListVertical_Intention.java" startLine="38" startPosition="76" endLine="39" endPosition="108" />
+    <scopeInfo nodeId="1195647346726" fileName="MakeTypeExpressionListVertical_Intention.java" startLine="42" startPosition="37" endLine="43" endPosition="48" />
+    <scopeInfo nodeId="1195647346726" fileName="MakeTypeExpressionListVertical_Intention.java" startLine="11" startPosition="98" endLine="13" endPosition="3" />
+    <scopeInfo nodeId="1195647346726" fileName="MakeTypeExpressionListVertical_Intention.java" startLine="14" startPosition="0" endLine="18" endPosition="0" />
+    <scopeInfo nodeId="1195647346726" fileName="MakeTypeExpressionListVertical_Intention.java" startLine="18" startPosition="0" endLine="22" endPosition="0" />
+    <scopeInfo nodeId="1195647346726" fileName="MakeTypeExpressionListVertical_Intention.java" startLine="22" startPosition="0" endLine="26" endPosition="0" />
+    <scopeInfo nodeId="1195647346726" fileName="MakeTypeExpressionListVertical_Intention.java" startLine="26" startPosition="0" endLine="30" endPosition="0" />
     <scopeInfo nodeId="1195647346781" fileName="MakeTypeExpressionListVertical_Intention.java" startLine="31" startPosition="85" endLine="35" endPosition="6" />
+    <scopeInfo nodeId="1195647346726" fileName="MakeTypeExpressionListVertical_Intention.java" startLine="37" startPosition="0" endLine="41" endPosition="0" />
+    <scopeInfo nodeId="1195647346726" fileName="MakeTypeExpressionListVertical_Intention.java" startLine="41" startPosition="0" endLine="45" endPosition="0" />
+    <scopeInfo nodeId="1195647346726" fileName="MakeTypeExpressionListVertical_Intention.java" startLine="30" startPosition="0" endLine="37" endPosition="0" />
+    <unitInfo nodeId="1195647346726" fileName="MakeTypeExpressionListVertical_Intention.java" startLine="11" startPosition="0" endLine="46" endPosition="0" unitName="jetbrains.mps.xmlSchema.intentions.MakeTypeExpressionListVertical_Intention" />
   </root>
 </debugInfo>
 

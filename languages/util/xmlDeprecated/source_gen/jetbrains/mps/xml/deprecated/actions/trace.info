@@ -1,8 +1,8 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <debugInfo>
-  <unitInfo fileName="QueriesGenerated.java" startLine="59" startPosition="53" endLine="73" endPosition="9" unitName="jetbrains.mps.xml.deprecated.actions.QueriesGenerated$2" />
-  <unitInfo fileName="QueriesGenerated.java" startLine="83" startPosition="51" endLine="99" endPosition="7" unitName="jetbrains.mps.xml.deprecated.actions.QueriesGenerated$3" />
-  <unitInfo fileName="QueriesGenerated.java" startLine="30" startPosition="53" endLine="47" endPosition="9" unitName="jetbrains.mps.xml.deprecated.actions.QueriesGenerated$1" />
+  <unitInfo fileName="QueriesGenerated.java" startLine="59" startPosition="76" endLine="73" endPosition="9" unitName="jetbrains.mps.xml.deprecated.actions.QueriesGenerated$2" />
+  <unitInfo fileName="QueriesGenerated.java" startLine="83" startPosition="74" endLine="99" endPosition="7" unitName="jetbrains.mps.xml.deprecated.actions.QueriesGenerated$3" />
+  <unitInfo fileName="QueriesGenerated.java" startLine="30" startPosition="76" endLine="47" endPosition="9" unitName="jetbrains.mps.xml.deprecated.actions.QueriesGenerated$1" />
   <unitInfo fileName="QueriesGenerated.java" startLine="23" startPosition="0" endLine="104" endPosition="0" unitName="jetbrains.mps.xml.deprecated.actions.QueriesGenerated" />
   <root nodeId="1220989580562">
     <nodeInfo nodeId="1220989964204" fileName="QueriesGenerated.java" startLine="31" startPosition="94" endLine="32" endPosition="115" conceptFqName="jetbrains.mps.baseLanguage.structure.LocalVariableDeclarationStatement" />
