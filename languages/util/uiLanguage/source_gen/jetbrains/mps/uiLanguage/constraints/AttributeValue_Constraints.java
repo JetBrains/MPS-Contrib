@@ -46,7 +46,7 @@ public class AttributeValue_Constraints extends BaseConstraintsDescriptor {
             SNode instance = SNodeOperations.getAncestor(_context.getEnclosingNode(), "jetbrains.mps.uiLanguage.structure.ComponentInstance", true, false);
             List<SNode> result = new ArrayList<SNode>();
             if (instance != null) {
-              ListSequence.fromList(result).addSequence(ListSequence.fromList(ComponentDeclaration_Behavior.call_getAttributes_1213877495417(SLinkOperations.getTarget(instance, "componentDeclaration", false))));
+              ListSequence.<SNode>fromList(result).addSequence(ListSequence.<SNode>fromList(ComponentDeclaration_Behavior.call_getAttributes_1213877495417(SLinkOperations.getTarget(instance, "componentDeclaration", false))));
             }
             return result;
           }
