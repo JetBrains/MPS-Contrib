@@ -8,6 +8,7 @@ import jetbrains.mps.lang.smodel.generator.smodelAdapter.SNodeOperations;
 import jetbrains.mps.lang.smodel.generator.smodelAdapter.SLinkOperations;
 import jetbrains.mps.generator.template.PropertyMacroContext;
 import jetbrains.mps.lang.smodel.generator.smodelAdapter.SPropertyOperations;
+import jetbrains.mps.util.NameUtil;
 import jetbrains.mps.xmlQuery.behavior.XMLSAXChildRule_Behavior;
 import jetbrains.mps.generator.template.ReferenceMacroContext;
 import jetbrains.mps.generator.template.IfMacroContext;
@@ -96,7 +97,7 @@ public class QueriesGenerated {
   }
 
   public static Object propertyMacro_GetPropertyValue_8640335038347081824(final IOperationContext operationContext, final PropertyMacroContext _context) {
-    return SPropertyOperations.getString(_context.getNode(), "name") + "ElementHandler";
+    return NameUtil.capitalize(SPropertyOperations.getString(_context.getNode(), "name")) + "ElementHandler";
   }
 
   public static Object propertyMacro_GetPropertyValue_3444414697307485840(final IOperationContext operationContext, final PropertyMacroContext _context) {
