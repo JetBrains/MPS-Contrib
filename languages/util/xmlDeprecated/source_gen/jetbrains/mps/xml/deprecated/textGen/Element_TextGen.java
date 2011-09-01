@@ -15,34 +15,34 @@ public class Element_TextGen extends SNodeTextGen {
     this.indentBuffer();
     this.append("<");
     this.append(SPropertyOperations.getString(node, "name"));
-    if (ListSequence.fromList(SLinkOperations.getTargets(node, "attribute", true)).isNotEmpty()) {
+    if (ListSequence.<SNode>fromList(SLinkOperations.getTargets(node, "attribute", true)).isNotEmpty()) {
       this.append(" ");
     }
-    if (ListSequence.fromList(SLinkOperations.getTargets(node, "attribute", true)).isNotEmpty()) {
+    if (ListSequence.<SNode>fromList(SLinkOperations.getTargets(node, "attribute", true)).isNotEmpty()) {
       for (SNode item : SLinkOperations.getTargets(node, "attribute", true)) {
         TextGenManager.instance().appendNodeText(this.getContext(), this.getBuffer(), item, this.getSNode());
-        if (item != ListSequence.fromList(SLinkOperations.getTargets(node, "attribute", true)).last()) {
+        if (item != ListSequence.<SNode>fromList(SLinkOperations.getTargets(node, "attribute", true)).last()) {
           this.append(" ");
         }
       }
     }
-    if (ListSequence.fromList(SLinkOperations.getTargets(node, "content", true)).isEmpty()) {
+    if (ListSequence.<SNode>fromList(SLinkOperations.getTargets(node, "content", true)).isEmpty()) {
       this.append(" />");
       this.appendNewLine();
       return;
     }
     this.append(">");
-    if (ListSequence.fromList(SLinkOperations.getTargets(node, "content", true)).isNotEmpty() && SConceptPropertyOperations.getBoolean(ListSequence.fromList(SLinkOperations.getTargets(node, "content", true)).first(), "indented")) {
+    if (ListSequence.<SNode>fromList(SLinkOperations.getTargets(node, "content", true)).isNotEmpty() && SConceptPropertyOperations.getBoolean(ListSequence.<SNode>fromList(SLinkOperations.getTargets(node, "content", true)).first(), "indented")) {
       this.appendNewLine();
     }
     this.increaseDepth();
-    if (ListSequence.fromList(SLinkOperations.getTargets(node, "content", true)).isNotEmpty()) {
+    if (ListSequence.<SNode>fromList(SLinkOperations.getTargets(node, "content", true)).isNotEmpty()) {
       for (SNode item : SLinkOperations.getTargets(node, "content", true)) {
         TextGenManager.instance().appendNodeText(this.getContext(), this.getBuffer(), item, this.getSNode());
       }
     }
     this.decreaseDepth();
-    if (ListSequence.fromList(SLinkOperations.getTargets(node, "content", true)).isNotEmpty() && SConceptPropertyOperations.getBoolean(ListSequence.fromList(SLinkOperations.getTargets(node, "content", true)).last(), "indented")) {
+    if (ListSequence.<SNode>fromList(SLinkOperations.getTargets(node, "content", true)).isNotEmpty() && SConceptPropertyOperations.getBoolean(ListSequence.<SNode>fromList(SLinkOperations.getTargets(node, "content", true)).last(), "indented")) {
       this.indentBuffer();
     }
     this.append("</");

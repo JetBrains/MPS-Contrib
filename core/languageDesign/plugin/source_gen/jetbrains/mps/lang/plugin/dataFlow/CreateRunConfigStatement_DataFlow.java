@@ -16,7 +16,7 @@ public class CreateRunConfigStatement_DataFlow extends DataFlowBuilder {
   public void build(final IOperationContext operationContext, final DataFlowBuilderContext _context) {
     _context.getBuilder().build((SNode) SLinkOperations.getTarget(_context.getNode(), "configName", true));
     _context.getBuilder().build((SNode) SLinkOperations.getTarget(_context.getNode(), "suggestedName", true));
-    for (SNode property : ListSequence.fromList(SLinkOperations.getTargets(_context.getNode(), "property", true))) {
+    for (SNode property : ListSequence.<SNode>fromList(SLinkOperations.getTargets(_context.getNode(), "property", true))) {
       _context.getBuilder().build((SNode) property);
     }
   }

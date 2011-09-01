@@ -21,7 +21,7 @@ public class DateFormatReferenceUtil {
     ISearchScope s = SModelSearchUtil.createModelAndImportedModelsScope(SNodeOperations.getModel(node), scope);
     SNode cd = SConceptOperations.findConceptDeclaration("jetbrains.mps.baseLanguage.datesInternal.structure.IDateFormat");
     List<SNode> formats = (List<SNode>) s.getNodes(new IsInstanceCondition(cd));
-    formats = ListSequence.fromList(formats).where(new IWhereFilter<SNode>() {
+    formats = ListSequence.<SNode>fromList(formats).where(new IWhereFilter<SNode>() {
       public boolean accept(SNode it) {
         return SPropertyOperations.getBoolean(it, "isPublic") || SNodeOperations.getAncestor(it, null, false, true) == SNodeOperations.getAncestor(node, null, false, true);
       }
@@ -34,7 +34,7 @@ public class DateFormatReferenceUtil {
     SNode cd = SConceptOperations.findConceptDeclaration("jetbrains.mps.baseLanguage.datesInternal.structure.IPeriodFormat");
     List<SNode> formats = (List<SNode>) s.getNodes(new IsInstanceCondition(cd));
     final SNode containingFormat = SNodeOperations.getAncestor(node, "jetbrains.mps.baseLanguage.dates.structure.PeriodFormat", true, false);
-    formats = ListSequence.fromList(formats).where(new IWhereFilter<SNode>() {
+    formats = ListSequence.<SNode>fromList(formats).where(new IWhereFilter<SNode>() {
       public boolean accept(SNode it) {
         return (SPropertyOperations.getBoolean(it, "isPublic") || SNodeOperations.getAncestor(it, null, false, true) == SNodeOperations.getAncestor(node, null, false, true)) && it != containingFormat;
       }
@@ -46,7 +46,7 @@ public class DateFormatReferenceUtil {
     ISearchScope s = SModelSearchUtil.createModelAndImportedModelsScope(SNodeOperations.getModel(node), scope);
     SNode cd = SConceptOperations.findConceptDeclaration("jetbrains.mps.baseLanguage.datesInternal.structure.DateTimeProperty");
     List<SNode> formats = (List<SNode>) s.getNodes(new IsInstanceCondition(cd));
-    formats = ListSequence.fromList(formats).where(new IWhereFilter<SNode>() {
+    formats = ListSequence.<SNode>fromList(formats).where(new IWhereFilter<SNode>() {
       public boolean accept(SNode it) {
         return (SLinkOperations.getTarget(it, "periodFormatMethod", false) != null);
       }

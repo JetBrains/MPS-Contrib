@@ -16,7 +16,7 @@ public class JavaNodeRunConfiguration_Behavior {
 
   public static List<SNode> virtual_getAdditionalParameters_3636700473138841189(SNode thisNode) {
     List<SNode> parameters = IEnhancedRunConfiguration_Behavior.callSuper_getAdditionalParameters_3636700473138841189(thisNode, "jetbrains.mps.baseLanguage.runConfigurations.structure.JavaNodeRunConfiguration");
-    ListSequence.fromList(parameters).addElement(SConceptOperations.findConceptDeclaration("jetbrains.mps.baseLanguage.runConfigurations.structure.Node_FunctionParameter"));
+    ListSequence.<SNode>fromList(parameters).addElement(SConceptOperations.findConceptDeclaration("jetbrains.mps.baseLanguage.runConfigurations.structure.Node_FunctionParameter"));
     return parameters;
   }
 }

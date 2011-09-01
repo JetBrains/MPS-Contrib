@@ -15,7 +15,7 @@ public class DateTimePropertFormatTokenUtil {
     SNode result = null;
     SNode config = SLinkOperations.getTarget(token, "dateTimePropertyFormatConfiguration", false);
     if (config != null) {
-      result = ListSequence.fromList(SLinkOperations.getTargets(config, "dateTimePropertyFormatType", true)).first();
+      result = ListSequence.<SNode>fromList(SLinkOperations.getTargets(config, "dateTimePropertyFormatType", true)).first();
     }
     return result;
   }

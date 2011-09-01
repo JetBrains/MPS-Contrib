@@ -12,13 +12,13 @@ public class DateTimeCompareOperation_Behavior {
   }
 
   public static boolean call_hasMillisPrecision_1213877526386(SNode thisNode) {
-    return DateTimeCompareOperation_Behavior.call_getDatetimeProperty_1213877526399(thisNode) == ListSequence.fromList(SLinkOperations.getConceptLinkTargets(thisNode, "defaultDatetimeProperty")).first();
+    return DateTimeCompareOperation_Behavior.call_getDatetimeProperty_1213877526399(thisNode) == ListSequence.<SNode>fromList(SLinkOperations.getConceptLinkTargets(thisNode, "defaultDatetimeProperty")).first();
   }
 
   public static SNode call_getDatetimeProperty_1213877526399(SNode thisNode) {
     SNode property = SLinkOperations.getTarget(thisNode, "datetimeProperty", false);
     if ((property == null)) {
-      property = ListSequence.fromList(SLinkOperations.getConceptLinkTargets(thisNode, "defaultDatetimeProperty")).first();
+      property = ListSequence.<SNode>fromList(SLinkOperations.getConceptLinkTargets(thisNode, "defaultDatetimeProperty")).first();
     }
     return property;
   }

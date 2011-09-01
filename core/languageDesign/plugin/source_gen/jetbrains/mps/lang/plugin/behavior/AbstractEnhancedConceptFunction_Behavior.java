@@ -23,12 +23,12 @@ public class AbstractEnhancedConceptFunction_Behavior {
 
     SNode parametrizedExecuteBlock = SNodeOperations.getAncestor(thisNode, "jetbrains.mps.lang.plugin.structure.ParametrizedExecuteBlock", false, false);
     if ((parametrizedExecuteBlock != null) && (SLinkOperations.getTarget(parametrizedExecuteBlock, "executeParameterQuery", true) != null)) {
-      ListSequence.fromList(conceptFunctionParameterConcepts).addElement(SConceptOperations.findConceptDeclaration("jetbrains.mps.lang.plugin.structure.Parameter_FunctionParameter"));
+      ListSequence.<SNode>fromList(conceptFunctionParameterConcepts).addElement(SConceptOperations.findConceptDeclaration("jetbrains.mps.lang.plugin.structure.Parameter_FunctionParameter"));
     }
 
     SNode root = SNodeOperations.getAncestor(thisNode, null, false, true);
     if (SNodeOperations.isInstanceOf(root, "jetbrains.mps.lang.plugin.structure.IEnhancedRunConfiguration")) {
-      ListSequence.fromList(conceptFunctionParameterConcepts).addSequence(ListSequence.fromList(IEnhancedRunConfiguration_Behavior.call_getAdditionalParameters_3636700473138841189(SNodeOperations.cast(root, "jetbrains.mps.lang.plugin.structure.IEnhancedRunConfiguration"))));
+      ListSequence.<SNode>fromList(conceptFunctionParameterConcepts).addSequence(ListSequence.<SNode>fromList(IEnhancedRunConfiguration_Behavior.call_getAdditionalParameters_3636700473138841189(SNodeOperations.cast(root, "jetbrains.mps.lang.plugin.structure.IEnhancedRunConfiguration"))));
     }
 
     // <node> 

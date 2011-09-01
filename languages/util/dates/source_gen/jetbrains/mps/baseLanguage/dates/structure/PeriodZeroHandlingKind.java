@@ -34,12 +34,12 @@ public enum PeriodZeroHandlingKind {
   }
 
   public static List<PeriodZeroHandlingKind> getConstants() {
-    List<PeriodZeroHandlingKind> list = ListSequence.fromList(new LinkedList<PeriodZeroHandlingKind>());
-    ListSequence.fromList(list).addElement(PeriodZeroHandlingKind.ALWAYS);
-    ListSequence.fromList(list).addElement(PeriodZeroHandlingKind.IFSUPPORTED);
-    ListSequence.fromList(list).addElement(PeriodZeroHandlingKind.NEVER);
-    ListSequence.fromList(list).addElement(PeriodZeroHandlingKind.RARELY_FIRST);
-    ListSequence.fromList(list).addElement(PeriodZeroHandlingKind.RARELY_LAST);
+    List<PeriodZeroHandlingKind> list = ListSequence.<PeriodZeroHandlingKind>fromList(new LinkedList<PeriodZeroHandlingKind>());
+    ListSequence.<PeriodZeroHandlingKind>fromList(list).addElement(PeriodZeroHandlingKind.ALWAYS);
+    ListSequence.<PeriodZeroHandlingKind>fromList(list).addElement(PeriodZeroHandlingKind.IFSUPPORTED);
+    ListSequence.<PeriodZeroHandlingKind>fromList(list).addElement(PeriodZeroHandlingKind.NEVER);
+    ListSequence.<PeriodZeroHandlingKind>fromList(list).addElement(PeriodZeroHandlingKind.RARELY_FIRST);
+    ListSequence.<PeriodZeroHandlingKind>fromList(list).addElement(PeriodZeroHandlingKind.RARELY_LAST);
     return list;
   }
 

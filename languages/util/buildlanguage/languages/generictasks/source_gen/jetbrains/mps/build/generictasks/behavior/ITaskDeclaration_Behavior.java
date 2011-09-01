@@ -36,7 +36,7 @@ public class ITaskDeclaration_Behavior {
 
   public static Iterable<SNode> virtual_getPossibleNesteds_1449762848926780436(final SNode thisNode, List<SNode> declarations) {
     final List<SNode> nestedTasks = ITaskDeclaration_Behavior.call_getNestedTasks_4241383766070831847(thisNode);
-    return ListSequence.fromList(declarations).where(new IWhereFilter<SNode>() {
+    return ListSequence.<SNode>fromList(declarations).where(new IWhereFilter<SNode>() {
       public boolean accept(SNode it) {
         return ITaskDeclaration_Behavior.call_isPossibleNested_1648602681640249389(thisNode, it, nestedTasks);
       }
@@ -52,7 +52,7 @@ public class ITaskDeclaration_Behavior {
   }
 
   public static boolean virtual_hasNested_4241383766070759083(SNode thisNode) {
-    return ListSequence.fromList(ITaskDeclaration_Behavior.call_getNestedTasks_4241383766070831847(thisNode)).count() > 0;
+    return ListSequence.<SNode>fromList(ITaskDeclaration_Behavior.call_getNestedTasks_4241383766070831847(thisNode)).count() > 0;
   }
 
   public static boolean virtual_filterMeOut_4710899751214010949(SNode thisNode) {

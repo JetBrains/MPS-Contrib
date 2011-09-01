@@ -160,7 +160,7 @@ public class TaskInterfaceDeclaration_Editor extends DefaultNodeEditor {
   }
 
   private static boolean renderingCondition_hzqec3_a2a0(SNode node, EditorContext editorContext, IScope scope) {
-    return ListSequence.fromList(SLinkOperations.getTargets(node, "interfaces", true)).count() > 0;
+    return ListSequence.<SNode>fromList(SLinkOperations.getTargets(node, "interfaces", true)).count() > 0;
   }
 
   private static class interfacesListHandler_hzqec3_b2a0 extends RefNodeListHandler {

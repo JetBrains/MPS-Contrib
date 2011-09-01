@@ -16,9 +16,9 @@ import jetbrains.mps.lang.smodel.generator.smodelAdapter.SPropertyOperations;
 import jetbrains.mps.baseLanguage.runConfigurations.behavior.Node_FunctionParameter_Behavior;
 import jetbrains.mps.generator.template.ReferenceMacroContext;
 import jetbrains.mps.internal.collections.runtime.ListSequence;
+import jetbrains.mps.smodel.SNode;
 import jetbrains.mps.lang.plugin.behavior.RunConfigurationDeclaration_Behavior;
 import jetbrains.mps.generator.template.IfMacroContext;
-import jetbrains.mps.smodel.SNode;
 import jetbrains.mps.generator.template.SourceSubstituteMacroNodeContext;
 import jetbrains.mps.typesystem.inference.TypeChecker;
 import jetbrains.mps.generator.template.SourceSubstituteMacroNodesContext;
@@ -95,7 +95,7 @@ public class QueriesGenerated {
   }
 
   public static Object referenceMacro_GetReferent_3251065477410858822(final IOperationContext operationContext, final ReferenceMacroContext _context) {
-    return ListSequence.fromList(SLinkOperations.getTargets(_context.getOutputNodeByInputNodeAndMappingLabel(_context.getNode(), "map_JavaRunConfigurationToEditorComponent"), "constructor", true)).first();
+    return ListSequence.<SNode>fromList(SLinkOperations.getTargets(_context.getOutputNodeByInputNodeAndMappingLabel(_context.getNode(), "map_JavaRunConfigurationToEditorComponent"), "constructor", true)).first();
   }
 
   public static Object referenceMacro_GetReferent_8126994885493673851(final IOperationContext operationContext, final ReferenceMacroContext _context) {
@@ -347,11 +347,11 @@ public class QueriesGenerated {
   }
 
   public static SNode weaving_MappingRule_ContextNodeQuery_6784027201969596649(final IOperationContext opereationContext, final WeavingMappingRuleContext _context) {
-    return SLinkOperations.getTarget(ListSequence.fromList(SLinkOperations.getTargets(_context.getOutputNodeByInputNodeAndMappingLabel(_context.getNode(), "map_JavaRunConfigurationToEditorComponent"), "constructor", true)).first(), "body", true);
+    return SLinkOperations.getTarget(ListSequence.<SNode>fromList(SLinkOperations.getTargets(_context.getOutputNodeByInputNodeAndMappingLabel(_context.getNode(), "map_JavaRunConfigurationToEditorComponent"), "constructor", true)).first(), "body", true);
   }
 
   public static SNode weaving_MappingRule_ContextNodeQuery_8755168384250985148(final IOperationContext opereationContext, final WeavingMappingRuleContext _context) {
-    return SLinkOperations.getTarget(ListSequence.fromList(SLinkOperations.getTargets(_context.getOutputNodeByInputNodeAndMappingLabel(_context.getNode(), "map_JavaRunConfigurationToEditorComponent"), "method", true)).findFirst(new IWhereFilter<SNode>() {
+    return SLinkOperations.getTarget(ListSequence.<SNode>fromList(SLinkOperations.getTargets(_context.getOutputNodeByInputNodeAndMappingLabel(_context.getNode(), "map_JavaRunConfigurationToEditorComponent"), "method", true)).findFirst(new IWhereFilter<SNode>() {
       public boolean accept(SNode it) {
         return SPropertyOperations.getString(it, "name").equals("apply");
       }
@@ -359,7 +359,7 @@ public class QueriesGenerated {
   }
 
   public static SNode weaving_MappingRule_ContextNodeQuery_8755168384251798502(final IOperationContext opereationContext, final WeavingMappingRuleContext _context) {
-    return SLinkOperations.getTarget(ListSequence.fromList(SLinkOperations.getTargets(_context.getOutputNodeByInputNodeAndMappingLabel(_context.getNode(), "map_JavaRunConfigurationToEditorComponent"), "method", true)).findFirst(new IWhereFilter<SNode>() {
+    return SLinkOperations.getTarget(ListSequence.<SNode>fromList(SLinkOperations.getTargets(_context.getOutputNodeByInputNodeAndMappingLabel(_context.getNode(), "map_JavaRunConfigurationToEditorComponent"), "method", true)).findFirst(new IWhereFilter<SNode>() {
       public boolean accept(SNode it) {
         return SPropertyOperations.getString(it, "name").equals("reset");
       }
@@ -367,8 +367,8 @@ public class QueriesGenerated {
   }
 
   public static void mappingScript_CodeBlock_7549816165173146547(final IOperationContext operationContext, final MappingScriptContext _context) {
-    for (SNode configuration : ListSequence.fromList(SModelOperations.getRoots(_context.getModel(), "jetbrains.mps.baseLanguage.runConfigurations.structure.JavaRunConfiguration"))) {
-      for (SNode componentRef : ListSequence.fromList(SNodeOperations.getDescendants(configuration, "jetbrains.mps.lang.plugin.structure.ComponentReference", false, new String[]{}))) {
+    for (SNode configuration : ListSequence.<SNode>fromList(SModelOperations.getRoots(_context.getModel(), "jetbrains.mps.baseLanguage.runConfigurations.structure.JavaRunConfiguration"))) {
+      for (SNode componentRef : ListSequence.<SNode>fromList(SNodeOperations.getDescendants(configuration, "jetbrains.mps.lang.plugin.structure.ComponentReference", false, new String[]{}))) {
         if ((SNodeOperations.getAncestor(componentRef, "jetbrains.mps.lang.plugin.structure.AbstractEnhancedConceptFunction", false, false) != null)) {
           AttributeOperations.createAndSetAttrbiute(componentRef, new IAttributeDescriptor.NodeAttribute(SConceptOperations.findConceptDeclaration("jetbrains.mps.baseLanguage.runConfigurations.structure.UserComponentReferenceAnnotation")), "jetbrains.mps.baseLanguage.runConfigurations.structure.UserComponentReferenceAnnotation");
         } else if ((SNodeOperations.getAncestor(componentRef, "jetbrains.mps.baseLanguage.runConfigurations.structure.IOnChangeEditorBlock", false, false) != null)) {
@@ -379,9 +379,9 @@ public class QueriesGenerated {
   }
 
   public static void mappingScript_CodeBlock_9192672578696349737(final IOperationContext operationContext, final MappingScriptContext _context) {
-    for (SNode config : ListSequence.fromList(SModelOperations.getRoots(_context.getModel(), "jetbrains.mps.baseLanguage.runConfigurations.structure.JavaNodeRunConfiguration"))) {
+    for (SNode config : ListSequence.<SNode>fromList(SModelOperations.getRoots(_context.getModel(), "jetbrains.mps.baseLanguage.runConfigurations.structure.JavaNodeRunConfiguration"))) {
       if ((SLinkOperations.getTarget(config, "isApplicableBlock", true) != null)) {
-        for (SNode statement : ListSequence.fromList(SLinkOperations.getTargets(SLinkOperations.getTarget(SLinkOperations.getTarget(config, "isApplicableBlock", true), "body", true), "statement", true))) {
+        for (SNode statement : ListSequence.<SNode>fromList(SLinkOperations.getTargets(SLinkOperations.getTarget(SLinkOperations.getTarget(config, "isApplicableBlock", true), "body", true), "statement", true))) {
           if (LastStatementUtil.canMakeReturnStatement(statement)) {
             SNodeOperations.replaceWithAnother(statement, new QueriesGenerated.QuotationClass_x583g4_a0a0a0a0a0a0a0ed().createNode(SLinkOperations.getTarget(SNodeOperations.cast(statement, "jetbrains.mps.baseLanguage.structure.ExpressionStatement"), "expression", true)));
           }

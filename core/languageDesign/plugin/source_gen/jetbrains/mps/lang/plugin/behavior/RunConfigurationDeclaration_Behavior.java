@@ -58,7 +58,7 @@ public class RunConfigurationDeclaration_Behavior {
 
   public static List<SNode> virtual_getMembers_1213877528020(SNode thisNode, final SNode contextNode) {
     List<SNode> members = IClassifier_Behavior.callSuper_getMembers_1213877528020(thisNode, "jetbrains.mps.lang.plugin.structure.RunConfigurationDeclaration", contextNode);
-    return ListSequence.fromList(members).where(new IWhereFilter<SNode>() {
+    return ListSequence.<SNode>fromList(members).where(new IWhereFilter<SNode>() {
       public boolean accept(SNode node) {
         return IMember_Behavior.call_canOperationBeChild_4593153787954614840(node, contextNode);
       }

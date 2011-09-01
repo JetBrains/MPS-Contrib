@@ -11,7 +11,7 @@ public class PeriodSeparatorKind_PropertySupport extends PropertySupport {
     if (value == null) {
       return true;
     }
-    Iterator<PeriodSeparatorKind> constants = ListSequence.fromList(PeriodSeparatorKind.getConstants()).iterator();
+    Iterator<PeriodSeparatorKind> constants = ListSequence.<PeriodSeparatorKind>fromList(PeriodSeparatorKind.getConstants()).iterator();
     while (constants.hasNext()) {
       PeriodSeparatorKind constant = constants.next();
       if (value.equals(constant.getName())) {
@@ -25,7 +25,7 @@ public class PeriodSeparatorKind_PropertySupport extends PropertySupport {
     if (value == null) {
       return null;
     }
-    Iterator<PeriodSeparatorKind> constants = ListSequence.fromList(PeriodSeparatorKind.getConstants()).iterator();
+    Iterator<PeriodSeparatorKind> constants = ListSequence.<PeriodSeparatorKind>fromList(PeriodSeparatorKind.getConstants()).iterator();
     while (constants.hasNext()) {
       PeriodSeparatorKind constant = constants.next();
       if (value.equals(constant.getName())) {

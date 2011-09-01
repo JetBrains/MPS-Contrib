@@ -17,11 +17,11 @@ public class typeof_Enum_InferenceRule extends AbstractInferenceRule_Runtime imp
   }
 
   public void applyRule(final SNode nodeToCheck, final TypeCheckingContext typeCheckingContext, IsApplicableStatus status) {
-    for (SNode element : ListSequence.fromList(SLinkOperations.getTargets(nodeToCheck, "constants", true))) {
+    for (SNode element : ListSequence.<SNode>fromList(SLinkOperations.getTargets(nodeToCheck, "constants", true))) {
       {
         SNode _nodeToCheck_1029348928467 = element;
         EquationInfo _info_12389875345 = new EquationInfo(_nodeToCheck_1029348928467, null, "r:00000000-0000-4000-0000-011c895904c4(jetbrains.mps.buildlanguage.typesystem)", "1197401256457", 0, null);
-        typeCheckingContext.createLessThanInequality((SNode) typeCheckingContext.typeOf(_nodeToCheck_1029348928467, "r:00000000-0000-4000-0000-011c895904c4(jetbrains.mps.buildlanguage.typesystem)", "1197401239298", true), (SNode) ListSequence.fromList(SLinkOperations.getConceptLinkTargets(nodeToCheck, "type")).first(), false, true, _info_12389875345);
+        typeCheckingContext.createLessThanInequality((SNode) typeCheckingContext.typeOf(_nodeToCheck_1029348928467, "r:00000000-0000-4000-0000-011c895904c4(jetbrains.mps.buildlanguage.typesystem)", "1197401239298", true), (SNode) ListSequence.<SNode>fromList(SLinkOperations.getConceptLinkTargets(nodeToCheck, "type")).first(), false, true, _info_12389875345);
       }
     }
   }

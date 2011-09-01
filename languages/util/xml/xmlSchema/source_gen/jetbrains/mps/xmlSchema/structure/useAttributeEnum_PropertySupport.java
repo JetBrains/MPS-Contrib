@@ -11,7 +11,7 @@ public class useAttributeEnum_PropertySupport extends PropertySupport {
     if (value == null) {
       return true;
     }
-    Iterator<useAttributeEnum> constants = ListSequence.fromList(useAttributeEnum.getConstants()).iterator();
+    Iterator<useAttributeEnum> constants = ListSequence.<useAttributeEnum>fromList(useAttributeEnum.getConstants()).iterator();
     while (constants.hasNext()) {
       useAttributeEnum constant = constants.next();
       if (value.equals(constant.getName())) {
@@ -25,7 +25,7 @@ public class useAttributeEnum_PropertySupport extends PropertySupport {
     if (value == null) {
       return null;
     }
-    Iterator<useAttributeEnum> constants = ListSequence.fromList(useAttributeEnum.getConstants()).iterator();
+    Iterator<useAttributeEnum> constants = ListSequence.<useAttributeEnum>fromList(useAttributeEnum.getConstants()).iterator();
     while (constants.hasNext()) {
       useAttributeEnum constant = constants.next();
       if (value.equals(constant.getName())) {
