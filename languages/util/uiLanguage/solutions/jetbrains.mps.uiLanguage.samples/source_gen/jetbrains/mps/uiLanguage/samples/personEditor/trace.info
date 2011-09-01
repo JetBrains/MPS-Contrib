@@ -1,6 +1,159 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <debugInfo>
-  <unitInfo fileName="PersonEditor.java" startLine="35" startPosition="32" endLine="41" endPosition="3" unitName="jetbrains.mps.uiLanguage.samples.personEditor.PersonEditor$1" />
-  <unitInfo fileName="PersonEditor.java" startLine="22" startPosition="0" endLine="177" endPosition="0" unitName="jetbrains.mps.uiLanguage.samples.personEditor.PersonEditor" />
+  <root nodeId="1202742898078">
+    <nodeInfo nodeId="1202742898078" fileName="PersonEditor.java" startLine="22" startPosition="42" endLine="23" endPosition="29" conceptFqName="jetbrains.mps.baseLanguage.structure.FieldDeclaration" propertyString="myThis" />
+    <nodeInfo nodeId="1202742898078" fileName="PersonEditor.java" startLine="23" startPosition="29" endLine="24" endPosition="35" conceptFqName="jetbrains.mps.baseLanguage.structure.FieldDeclaration" propertyString="myComponent_a0" />
+    <nodeInfo nodeId="1202742898078" fileName="PersonEditor.java" startLine="24" startPosition="35" endLine="25" endPosition="33" conceptFqName="jetbrains.mps.baseLanguage.structure.FieldDeclaration" propertyString="myComponent_a0a" />
+    <nodeInfo nodeId="1202742898078" fileName="PersonEditor.java" startLine="25" startPosition="33" endLine="26" endPosition="37" conceptFqName="jetbrains.mps.baseLanguage.structure.FieldDeclaration" propertyString="myComponent_b0a" />
+    <nodeInfo nodeId="1202742898078" fileName="PersonEditor.java" startLine="26" startPosition="37" endLine="27" endPosition="33" conceptFqName="jetbrains.mps.baseLanguage.structure.FieldDeclaration" propertyString="myComponent_c0a" />
+    <nodeInfo nodeId="1202742898078" fileName="PersonEditor.java" startLine="27" startPosition="33" endLine="28" endPosition="37" conceptFqName="jetbrains.mps.baseLanguage.structure.FieldDeclaration" propertyString="myComponent_d0a" />
+    <nodeInfo nodeId="1202742898078" fileName="PersonEditor.java" startLine="28" startPosition="37" endLine="29" endPosition="36" conceptFqName="jetbrains.mps.baseLanguage.structure.FieldDeclaration" propertyString="myComponent_e0a" />
+    <nodeInfo nodeId="1202742898078" fileName="PersonEditor.java" startLine="29" startPosition="36" endLine="30" endPosition="35" conceptFqName="jetbrains.mps.baseLanguage.structure.FieldDeclaration" propertyString="myComponent_a4a0" />
+    <nodeInfo nodeId="1202742898078" fileName="PersonEditor.java" startLine="30" startPosition="35" endLine="31" endPosition="35" conceptFqName="jetbrains.mps.baseLanguage.structure.FieldDeclaration" propertyString="myComponent_b4a0" />
+    <nodeInfo nodeId="1202742898078" fileName="PersonEditor.java" startLine="31" startPosition="35" endLine="32" endPosition="29" conceptFqName="jetbrains.mps.baseLanguage.structure.FieldDeclaration" propertyString="myFirstName" />
+    <nodeInfo nodeId="1202742898078" fileName="PersonEditor.java" startLine="32" startPosition="29" endLine="33" endPosition="28" conceptFqName="jetbrains.mps.baseLanguage.structure.FieldDeclaration" propertyString="myLastName" />
+    <nodeInfo nodeId="1202742898078" fileName="PersonEditor.java" startLine="33" startPosition="28" endLine="34" endPosition="105" conceptFqName="jetbrains.mps.baseLanguage.structure.FieldDeclaration" propertyString="myBindings" />
+    <nodeInfo nodeId="1202742898078" fileName="PersonEditor.java" startLine="43" startPosition="25" endLine="44" endPosition="23" conceptFqName="jetbrains.mps.baseLanguage.structure.ExpressionStatement" />
+    <nodeInfo nodeId="1202742898078" fileName="PersonEditor.java" startLine="44" startPosition="23" endLine="45" endPosition="34" conceptFqName="jetbrains.mps.baseLanguage.structure.LocalVariableDeclarationStatement" />
+    <nodeInfo nodeId="1202742898078" fileName="PersonEditor.java" startLine="45" startPosition="34" endLine="46" endPosition="45" conceptFqName="jetbrains.mps.baseLanguage.structure.ExpressionStatement" />
+    <nodeInfo nodeId="1202742898078" fileName="PersonEditor.java" startLine="46" startPosition="45" endLine="47" endPosition="52" conceptFqName="jetbrains.mps.baseLanguage.structure.ExpressionStatement" />
+    <nodeInfo nodeId="1202742898078" fileName="PersonEditor.java" startLine="47" startPosition="52" endLine="48" endPosition="47" conceptFqName="jetbrains.mps.baseLanguage.structure.ExpressionStatement" />
+    <nodeInfo nodeId="1202742898078" fileName="PersonEditor.java" startLine="48" startPosition="47" endLine="49" endPosition="42" conceptFqName="jetbrains.mps.baseLanguage.structure.ExpressionStatement" />
+    <nodeInfo nodeId="1202742898078" fileName="PersonEditor.java" startLine="49" startPosition="42" endLine="50" endPosition="61" conceptFqName="jetbrains.mps.baseLanguage.structure.ExpressionStatement" />
+    <nodeInfo nodeId="1202742898078" fileName="PersonEditor.java" startLine="50" startPosition="61" endLine="51" endPosition="31" conceptFqName="jetbrains.mps.baseLanguage.structure.ExpressionStatement" />
+    <nodeInfo nodeId="1202742898078" fileName="PersonEditor.java" startLine="51" startPosition="31" endLine="52" endPosition="31" conceptFqName="jetbrains.mps.baseLanguage.structure.ExpressionStatement" />
+    <nodeInfo nodeId="1202742898078" fileName="PersonEditor.java" startLine="55" startPosition="29" endLine="56" endPosition="25" conceptFqName="jetbrains.mps.baseLanguage.structure.ReturnStatement" />
+    <nodeInfo nodeId="1202742898078" fileName="PersonEditor.java" startLine="59" startPosition="27" endLine="60" endPosition="22" conceptFqName="jetbrains.mps.baseLanguage.structure.ExpressionStatement" />
+    <nodeInfo nodeId="1202742898078" fileName="PersonEditor.java" startLine="60" startPosition="22" endLine="61" endPosition="16" conceptFqName="jetbrains.mps.baseLanguage.structure.ExpressionStatement" />
+    <nodeInfo nodeId="1202742898078" fileName="PersonEditor.java" startLine="64" startPosition="30" endLine="65" endPosition="18" conceptFqName="jetbrains.mps.baseLanguage.structure.ExpressionStatement" />
+    <nodeInfo nodeId="1202742898078" fileName="PersonEditor.java" startLine="65" startPosition="18" endLine="66" endPosition="25" conceptFqName="jetbrains.mps.baseLanguage.structure.ExpressionStatement" />
+    <nodeInfo nodeId="1202742898078" fileName="PersonEditor.java" startLine="70" startPosition="5" endLine="71" endPosition="35" conceptFqName="jetbrains.mps.baseLanguage.structure.LocalVariableDeclarationStatement" />
+    <nodeInfo nodeId="1202742898078" fileName="PersonEditor.java" startLine="71" startPosition="35" endLine="72" endPosition="65" conceptFqName="jetbrains.mps.baseLanguage.structure.LocalVariableDeclarationStatement" />
+    <nodeInfo nodeId="1202742898078" fileName="PersonEditor.java" startLine="72" startPosition="65" endLine="73" endPosition="49" conceptFqName="jetbrains.mps.baseLanguage.structure.LocalVariableDeclarationStatement" />
+    <nodeInfo nodeId="1202742898078" fileName="PersonEditor.java" startLine="73" startPosition="49" endLine="74" endPosition="60" conceptFqName="jetbrains.mps.baseLanguage.structure.LocalVariableDeclarationStatement" />
+    <nodeInfo nodeId="1202742898078" fileName="PersonEditor.java" startLine="74" startPosition="60" endLine="75" endPosition="154" conceptFqName="jetbrains.mps.baseLanguage.structure.LocalVariableDeclarationStatement" />
+    <nodeInfo nodeId="1202742898078" fileName="PersonEditor.java" startLine="75" startPosition="154" endLine="76" endPosition="21" conceptFqName="jetbrains.mps.baseLanguage.structure.ExpressionStatement" />
+    <nodeInfo nodeId="1202742898078" fileName="PersonEditor.java" startLine="76" startPosition="21" endLine="77" endPosition="78" conceptFqName="jetbrains.mps.baseLanguage.structure.ExpressionStatement" />
+    <nodeInfo nodeId="1202742898078" fileName="PersonEditor.java" startLine="79" startPosition="5" endLine="80" endPosition="35" conceptFqName="jetbrains.mps.baseLanguage.structure.LocalVariableDeclarationStatement" />
+    <nodeInfo nodeId="1202742898078" fileName="PersonEditor.java" startLine="80" startPosition="35" endLine="81" endPosition="64" conceptFqName="jetbrains.mps.baseLanguage.structure.LocalVariableDeclarationStatement" />
+    <nodeInfo nodeId="1202742898078" fileName="PersonEditor.java" startLine="81" startPosition="64" endLine="82" endPosition="49" conceptFqName="jetbrains.mps.baseLanguage.structure.LocalVariableDeclarationStatement" />
+    <nodeInfo nodeId="1202742898078" fileName="PersonEditor.java" startLine="82" startPosition="49" endLine="83" endPosition="60" conceptFqName="jetbrains.mps.baseLanguage.structure.LocalVariableDeclarationStatement" />
+    <nodeInfo nodeId="1202742898078" fileName="PersonEditor.java" startLine="83" startPosition="60" endLine="84" endPosition="154" conceptFqName="jetbrains.mps.baseLanguage.structure.LocalVariableDeclarationStatement" />
+    <nodeInfo nodeId="1202742898078" fileName="PersonEditor.java" startLine="84" startPosition="154" endLine="85" endPosition="21" conceptFqName="jetbrains.mps.baseLanguage.structure.ExpressionStatement" />
+    <nodeInfo nodeId="1202742898078" fileName="PersonEditor.java" startLine="85" startPosition="21" endLine="86" endPosition="78" conceptFqName="jetbrains.mps.baseLanguage.structure.ExpressionStatement" />
+    <nodeInfo nodeId="1202742898078" fileName="PersonEditor.java" startLine="92" startPosition="30" endLine="93" endPosition="25" conceptFqName="jetbrains.mps.baseLanguage.structure.ExpressionStatement" />
+    <nodeInfo nodeId="1202742898078" fileName="PersonEditor.java" startLine="98" startPosition="42" endLine="99" endPosition="42" conceptFqName="jetbrains.mps.baseLanguage.structure.LocalVariableDeclarationStatement" />
+    <nodeInfo nodeId="1202742898078" fileName="PersonEditor.java" startLine="99" startPosition="42" endLine="100" endPosition="36" conceptFqName="jetbrains.mps.baseLanguage.structure.ExpressionStatement" />
+    <nodeInfo nodeId="1202742898078" fileName="PersonEditor.java" startLine="100" startPosition="36" endLine="101" endPosition="46" conceptFqName="jetbrains.mps.baseLanguage.structure.ExpressionStatement" />
+    <nodeInfo nodeId="1202742898078" fileName="PersonEditor.java" startLine="101" startPosition="46" endLine="102" endPosition="46" conceptFqName="jetbrains.mps.baseLanguage.structure.ExpressionStatement" />
+    <nodeInfo nodeId="1202742898078" fileName="PersonEditor.java" startLine="102" startPosition="46" endLine="103" endPosition="46" conceptFqName="jetbrains.mps.baseLanguage.structure.ExpressionStatement" />
+    <nodeInfo nodeId="1202742898078" fileName="PersonEditor.java" startLine="103" startPosition="46" endLine="104" endPosition="46" conceptFqName="jetbrains.mps.baseLanguage.structure.ExpressionStatement" />
+    <nodeInfo nodeId="1202742898078" fileName="PersonEditor.java" startLine="104" startPosition="46" endLine="105" endPosition="46" conceptFqName="jetbrains.mps.baseLanguage.structure.ExpressionStatement" />
+    <nodeInfo nodeId="1202742898078" fileName="PersonEditor.java" startLine="105" startPosition="46" endLine="106" endPosition="21" conceptFqName="jetbrains.mps.baseLanguage.structure.ReturnStatement" />
+    <nodeInfo nodeId="1202742898078" fileName="PersonEditor.java" startLine="109" startPosition="40" endLine="110" endPosition="36" conceptFqName="jetbrains.mps.baseLanguage.structure.LocalVariableDeclarationStatement" />
+    <nodeInfo nodeId="1202742898078" fileName="PersonEditor.java" startLine="110" startPosition="36" endLine="111" endPosition="37" conceptFqName="jetbrains.mps.baseLanguage.structure.ExpressionStatement" />
+    <nodeInfo nodeId="1202742898078" fileName="PersonEditor.java" startLine="111" startPosition="37" endLine="112" endPosition="31" conceptFqName="jetbrains.mps.baseLanguage.structure.ExpressionStatement" />
+    <nodeInfo nodeId="1202742898078" fileName="PersonEditor.java" startLine="112" startPosition="31" endLine="113" endPosition="21" conceptFqName="jetbrains.mps.baseLanguage.structure.ReturnStatement" />
+    <nodeInfo nodeId="1202742898078" fileName="PersonEditor.java" startLine="116" startPosition="44" endLine="117" endPosition="44" conceptFqName="jetbrains.mps.baseLanguage.structure.LocalVariableDeclarationStatement" />
+    <nodeInfo nodeId="1202742898078" fileName="PersonEditor.java" startLine="117" startPosition="44" endLine="118" endPosition="37" conceptFqName="jetbrains.mps.baseLanguage.structure.ExpressionStatement" />
+    <nodeInfo nodeId="1202742898078" fileName="PersonEditor.java" startLine="118" startPosition="37" endLine="119" endPosition="21" conceptFqName="jetbrains.mps.baseLanguage.structure.ReturnStatement" />
+    <nodeInfo nodeId="1202742898078" fileName="PersonEditor.java" startLine="122" startPosition="40" endLine="123" endPosition="36" conceptFqName="jetbrains.mps.baseLanguage.structure.LocalVariableDeclarationStatement" />
+    <nodeInfo nodeId="1202742898078" fileName="PersonEditor.java" startLine="123" startPosition="36" endLine="124" endPosition="37" conceptFqName="jetbrains.mps.baseLanguage.structure.ExpressionStatement" />
+    <nodeInfo nodeId="1202742898078" fileName="PersonEditor.java" startLine="124" startPosition="37" endLine="125" endPosition="36" conceptFqName="jetbrains.mps.baseLanguage.structure.ExpressionStatement" />
+    <nodeInfo nodeId="1202742898078" fileName="PersonEditor.java" startLine="125" startPosition="36" endLine="126" endPosition="21" conceptFqName="jetbrains.mps.baseLanguage.structure.ReturnStatement" />
+    <nodeInfo nodeId="1202742898078" fileName="PersonEditor.java" startLine="129" startPosition="44" endLine="130" endPosition="44" conceptFqName="jetbrains.mps.baseLanguage.structure.LocalVariableDeclarationStatement" />
+    <nodeInfo nodeId="1202742898078" fileName="PersonEditor.java" startLine="130" startPosition="44" endLine="131" endPosition="37" conceptFqName="jetbrains.mps.baseLanguage.structure.ExpressionStatement" />
+    <nodeInfo nodeId="1202742898078" fileName="PersonEditor.java" startLine="131" startPosition="37" endLine="132" endPosition="21" conceptFqName="jetbrains.mps.baseLanguage.structure.ReturnStatement" />
+    <nodeInfo nodeId="1202742898078" fileName="PersonEditor.java" startLine="135" startPosition="43" endLine="136" endPosition="42" conceptFqName="jetbrains.mps.baseLanguage.structure.LocalVariableDeclarationStatement" />
+    <nodeInfo nodeId="1202742898078" fileName="PersonEditor.java" startLine="136" startPosition="42" endLine="137" endPosition="37" conceptFqName="jetbrains.mps.baseLanguage.structure.ExpressionStatement" />
+    <nodeInfo nodeId="1202742898078" fileName="PersonEditor.java" startLine="137" startPosition="37" endLine="138" endPosition="47" conceptFqName="jetbrains.mps.baseLanguage.structure.ExpressionStatement" />
+    <nodeInfo nodeId="1202742898078" fileName="PersonEditor.java" startLine="138" startPosition="47" endLine="139" endPosition="47" conceptFqName="jetbrains.mps.baseLanguage.structure.ExpressionStatement" />
+    <nodeInfo nodeId="1202742898078" fileName="PersonEditor.java" startLine="139" startPosition="47" endLine="140" endPosition="21" conceptFqName="jetbrains.mps.baseLanguage.structure.ReturnStatement" />
+    <nodeInfo nodeId="1202742898078" fileName="PersonEditor.java" startLine="143" startPosition="42" endLine="144" endPosition="38" conceptFqName="jetbrains.mps.baseLanguage.structure.LocalVariableDeclarationStatement" />
+    <nodeInfo nodeId="1202742898078" fileName="PersonEditor.java" startLine="144" startPosition="38" endLine="145" endPosition="38" conceptFqName="jetbrains.mps.baseLanguage.structure.ExpressionStatement" />
+    <nodeInfo nodeId="1202742898078" fileName="PersonEditor.java" startLine="145" startPosition="38" endLine="146" endPosition="28" conceptFqName="jetbrains.mps.baseLanguage.structure.ExpressionStatement" />
+    <nodeInfo nodeId="1202742898078" fileName="PersonEditor.java" startLine="146" startPosition="28" endLine="147" endPosition="21" conceptFqName="jetbrains.mps.baseLanguage.structure.ReturnStatement" />
+    <nodeInfo nodeId="1202742898078" fileName="PersonEditor.java" startLine="150" startPosition="42" endLine="151" endPosition="38" conceptFqName="jetbrains.mps.baseLanguage.structure.LocalVariableDeclarationStatement" />
+    <nodeInfo nodeId="1202742898078" fileName="PersonEditor.java" startLine="151" startPosition="38" endLine="152" endPosition="38" conceptFqName="jetbrains.mps.baseLanguage.structure.ExpressionStatement" />
+    <nodeInfo nodeId="1202742898078" fileName="PersonEditor.java" startLine="152" startPosition="38" endLine="153" endPosition="32" conceptFqName="jetbrains.mps.baseLanguage.structure.ExpressionStatement" />
+    <nodeInfo nodeId="1202742898078" fileName="PersonEditor.java" startLine="153" startPosition="32" endLine="154" endPosition="21" conceptFqName="jetbrains.mps.baseLanguage.structure.ReturnStatement" />
+    <nodeInfo nodeId="1202742898078" fileName="PersonEditor.java" startLine="157" startPosition="32" endLine="158" endPosition="28" conceptFqName="jetbrains.mps.baseLanguage.structure.ReturnStatement" />
+    <nodeInfo nodeId="1202742898078" fileName="PersonEditor.java" startLine="161" startPosition="31" endLine="162" endPosition="27" conceptFqName="jetbrains.mps.baseLanguage.structure.ReturnStatement" />
+    <nodeInfo nodeId="1202742898078" fileName="PersonEditor.java" startLine="165" startPosition="45" endLine="166" endPosition="39" conceptFqName="jetbrains.mps.baseLanguage.structure.LocalVariableDeclarationStatement" />
+    <nodeInfo nodeId="1202742898078" fileName="PersonEditor.java" startLine="166" startPosition="39" endLine="167" endPosition="32" conceptFqName="jetbrains.mps.baseLanguage.structure.ExpressionStatement" />
+    <nodeInfo nodeId="1202742898078" fileName="PersonEditor.java" startLine="167" startPosition="32" endLine="168" endPosition="61" conceptFqName="jetbrains.mps.baseLanguage.structure.ExpressionStatement" />
+    <nodeInfo nodeId="1202742898078" fileName="PersonEditor.java" startLine="171" startPosition="44" endLine="172" endPosition="38" conceptFqName="jetbrains.mps.baseLanguage.structure.LocalVariableDeclarationStatement" />
+    <nodeInfo nodeId="1202742898078" fileName="PersonEditor.java" startLine="172" startPosition="38" endLine="173" endPosition="31" conceptFqName="jetbrains.mps.baseLanguage.structure.ExpressionStatement" />
+    <nodeInfo nodeId="1202742898078" fileName="PersonEditor.java" startLine="173" startPosition="31" endLine="174" endPosition="60" conceptFqName="jetbrains.mps.baseLanguage.structure.ExpressionStatement" />
+    <nodeInfo nodeId="1202742898078" fileName="PersonEditor.java" startLine="38" startPosition="0" endLine="41" endPosition="0" conceptFqName="jetbrains.mps.baseLanguage.structure.InstanceMethodDeclaration" propertyString="initialize#()V" />
+    <nodeInfo nodeId="1202742898078" fileName="PersonEditor.java" startLine="91" startPosition="49" endLine="94" endPosition="7" conceptFqName="jetbrains.mps.baseLanguage.structure.IfStatement" />
+    <nodeInfo nodeId="1202742898078" fileName="PersonEditor.java" startLine="54" startPosition="0" endLine="58" endPosition="0" conceptFqName="jetbrains.mps.baseLanguage.structure.InstanceMethodDeclaration" propertyString="getEvents#()Ljetbrains/mps/uiLanguage/runtime/events/Events;" />
+    <nodeInfo nodeId="1202742898078" fileName="PersonEditor.java" startLine="156" startPosition="0" endLine="160" endPosition="0" conceptFqName="jetbrains.mps.baseLanguage.structure.InstanceMethodDeclaration" propertyString="getFirstName#()Ljava/lang/String;" />
+    <nodeInfo nodeId="1202742898078" fileName="PersonEditor.java" startLine="160" startPosition="0" endLine="164" endPosition="0" conceptFqName="jetbrains.mps.baseLanguage.structure.InstanceMethodDeclaration" propertyString="getLastName#()Ljava/lang/String;" />
+    <nodeInfo nodeId="1202742898078" fileName="PersonEditor.java" startLine="58" startPosition="0" endLine="63" endPosition="0" conceptFqName="jetbrains.mps.baseLanguage.structure.InstanceMethodDeclaration" propertyString="addNotify#()V" />
+    <nodeInfo nodeId="1202742898078" fileName="PersonEditor.java" startLine="63" startPosition="0" endLine="68" endPosition="0" conceptFqName="jetbrains.mps.baseLanguage.structure.InstanceMethodDeclaration" propertyString="removeNotify#()V" />
+    <nodeInfo nodeId="1202742898078" fileName="PersonEditor.java" startLine="90" startPosition="25" endLine="95" endPosition="5" conceptFqName="jetbrains.mps.baseLanguage.structure.ForeachStatement" />
+    <nodeInfo nodeId="1202742898078" fileName="PersonEditor.java" startLine="115" startPosition="0" endLine="121" endPosition="0" conceptFqName="jetbrains.mps.baseLanguage.structure.InstanceMethodDeclaration" propertyString="createComponent_b0a#()Ljava/lang/Object;" />
+    <nodeInfo nodeId="1202742898078" fileName="PersonEditor.java" startLine="128" startPosition="0" endLine="134" endPosition="0" conceptFqName="jetbrains.mps.baseLanguage.structure.InstanceMethodDeclaration" propertyString="createComponent_d0a#()Ljava/lang/Object;" />
+    <nodeInfo nodeId="1202742898078" fileName="PersonEditor.java" startLine="164" startPosition="0" endLine="170" endPosition="0" conceptFqName="jetbrains.mps.baseLanguage.structure.InstanceMethodDeclaration" propertyString="setFirstName#(Ljava/lang/String;)V" />
+    <nodeInfo nodeId="1202742898078" fileName="PersonEditor.java" startLine="170" startPosition="0" endLine="176" endPosition="0" conceptFqName="jetbrains.mps.baseLanguage.structure.InstanceMethodDeclaration" propertyString="setLastName#(Ljava/lang/String;)V" />
+    <nodeInfo nodeId="1202742898078" fileName="PersonEditor.java" startLine="34" startPosition="105" endLine="41" endPosition="4" conceptFqName="jetbrains.mps.baseLanguage.structure.FieldDeclaration" propertyString="myEvents" />
+    <nodeInfo nodeId="1202742898078" fileName="PersonEditor.java" startLine="108" startPosition="0" endLine="115" endPosition="0" conceptFqName="jetbrains.mps.baseLanguage.structure.InstanceMethodDeclaration" propertyString="createComponent_a0a#()Ljava/lang/Object;" />
+    <nodeInfo nodeId="1202742898078" fileName="PersonEditor.java" startLine="121" startPosition="0" endLine="128" endPosition="0" conceptFqName="jetbrains.mps.baseLanguage.structure.InstanceMethodDeclaration" propertyString="createComponent_c0a#()Ljava/lang/Object;" />
+    <nodeInfo nodeId="1202742898078" fileName="PersonEditor.java" startLine="142" startPosition="0" endLine="149" endPosition="0" conceptFqName="jetbrains.mps.baseLanguage.structure.InstanceMethodDeclaration" propertyString="createComponent_a4a0#()Ljava/lang/Object;" />
+    <nodeInfo nodeId="1202742898078" fileName="PersonEditor.java" startLine="149" startPosition="0" endLine="156" endPosition="0" conceptFqName="jetbrains.mps.baseLanguage.structure.InstanceMethodDeclaration" propertyString="createComponent_b4a0#()Ljava/lang/Object;" />
+    <nodeInfo nodeId="1202742898078" fileName="PersonEditor.java" startLine="89" startPosition="0" endLine="97" endPosition="0" conceptFqName="jetbrains.mps.baseLanguage.structure.InstanceMethodDeclaration" propertyString="unbind#()V" />
+    <nodeInfo nodeId="1202742898078" fileName="PersonEditor.java" startLine="134" startPosition="0" endLine="142" endPosition="0" conceptFqName="jetbrains.mps.baseLanguage.structure.InstanceMethodDeclaration" propertyString="createComponent_e0a#()Ljava/lang/Object;" />
+    <nodeInfo nodeId="1202742898078" fileName="PersonEditor.java" startLine="69" startPosition="23" endLine="78" endPosition="5" conceptFqName="jetbrains.mps.baseLanguage.structure.BlockStatement" />
+    <nodeInfo nodeId="1202742898078" fileName="PersonEditor.java" startLine="78" startPosition="5" endLine="87" endPosition="5" conceptFqName="jetbrains.mps.baseLanguage.structure.BlockStatement" />
+    <nodeInfo nodeId="1202742898078" fileName="PersonEditor.java" startLine="42" startPosition="0" endLine="53" endPosition="3" conceptFqName="jetbrains.mps.baseLanguage.structure.ConstructorDeclaration" propertyString="PersonEditor#()V" />
+    <nodeInfo nodeId="1202742898078" fileName="PersonEditor.java" startLine="97" startPosition="0" endLine="108" endPosition="0" conceptFqName="jetbrains.mps.baseLanguage.structure.InstanceMethodDeclaration" propertyString="createComponent_a0#()Ljava/lang/Object;" />
+    <nodeInfo nodeId="1202742898078" fileName="PersonEditor.java" startLine="68" startPosition="0" endLine="89" endPosition="0" conceptFqName="jetbrains.mps.baseLanguage.structure.InstanceMethodDeclaration" propertyString="bind#()V" />
+    <scopeInfo nodeId="1202742898078" fileName="PersonEditor.java" startLine="36" startPosition="5" endLine="36" endPosition="5" />
+    <scopeInfo nodeId="1202742898078" fileName="PersonEditor.java" startLine="39" startPosition="30" endLine="39" endPosition="30" />
+    <scopeInfo nodeId="1202742898078" fileName="PersonEditor.java" startLine="55" startPosition="29" endLine="56" endPosition="25" />
+    <scopeInfo nodeId="1202742898078" fileName="PersonEditor.java" startLine="92" startPosition="30" endLine="93" endPosition="25" />
+    <scopeInfo nodeId="1202742898078" fileName="PersonEditor.java" startLine="157" startPosition="32" endLine="158" endPosition="28" />
+    <scopeInfo nodeId="1202742898078" fileName="PersonEditor.java" startLine="161" startPosition="31" endLine="162" endPosition="27" />
+    <scopeInfo nodeId="1202742898078" fileName="PersonEditor.java" startLine="59" startPosition="27" endLine="61" endPosition="16" />
+    <scopeInfo nodeId="1202742898078" fileName="PersonEditor.java" startLine="64" startPosition="30" endLine="66" endPosition="25" />
+    <scopeInfo nodeId="1202742898078" fileName="PersonEditor.java" startLine="38" startPosition="0" endLine="41" endPosition="0" />
+    <scopeInfo nodeId="1202742898078" fileName="PersonEditor.java" startLine="91" startPosition="49" endLine="94" endPosition="7" />
+    <scopeInfo nodeId="1202742898078" fileName="PersonEditor.java" startLine="116" startPosition="44" endLine="119" endPosition="21" />
+    <scopeInfo nodeId="1202742898078" fileName="PersonEditor.java" startLine="129" startPosition="44" endLine="132" endPosition="21" />
+    <scopeInfo nodeId="1202742898078" fileName="PersonEditor.java" startLine="165" startPosition="45" endLine="168" endPosition="61" />
+    <scopeInfo nodeId="1202742898078" fileName="PersonEditor.java" startLine="171" startPosition="44" endLine="174" endPosition="60" />
+    <scopeInfo nodeId="1202742898078" fileName="PersonEditor.java" startLine="54" startPosition="0" endLine="58" endPosition="0" />
+    <scopeInfo nodeId="1202742898078" fileName="PersonEditor.java" startLine="109" startPosition="40" endLine="113" endPosition="21" />
+    <scopeInfo nodeId="1202742898078" fileName="PersonEditor.java" startLine="122" startPosition="40" endLine="126" endPosition="21" />
+    <scopeInfo nodeId="1202742898078" fileName="PersonEditor.java" startLine="143" startPosition="42" endLine="147" endPosition="21" />
+    <scopeInfo nodeId="1202742898078" fileName="PersonEditor.java" startLine="150" startPosition="42" endLine="154" endPosition="21" />
+    <scopeInfo nodeId="1202742898078" fileName="PersonEditor.java" startLine="156" startPosition="0" endLine="160" endPosition="0" />
+    <scopeInfo nodeId="1202742898078" fileName="PersonEditor.java" startLine="160" startPosition="0" endLine="164" endPosition="0" />
+    <scopeInfo nodeId="1202742898078" fileName="PersonEditor.java" startLine="58" startPosition="0" endLine="63" endPosition="0" />
+    <scopeInfo nodeId="1202742898078" fileName="PersonEditor.java" startLine="63" startPosition="0" endLine="68" endPosition="0" />
+    <scopeInfo nodeId="1202742898078" fileName="PersonEditor.java" startLine="90" startPosition="25" endLine="95" endPosition="5" />
+    <scopeInfo nodeId="1202742898078" fileName="PersonEditor.java" startLine="135" startPosition="43" endLine="140" endPosition="21" />
+    <scopeInfo nodeId="1202742898078" fileName="PersonEditor.java" startLine="115" startPosition="0" endLine="121" endPosition="0" />
+    <scopeInfo nodeId="1202742898078" fileName="PersonEditor.java" startLine="128" startPosition="0" endLine="134" endPosition="0" />
+    <scopeInfo nodeId="1202742898078" fileName="PersonEditor.java" startLine="164" startPosition="0" endLine="170" endPosition="0" />
+    <scopeInfo nodeId="1202742898078" fileName="PersonEditor.java" startLine="170" startPosition="0" endLine="176" endPosition="0" />
+    <scopeInfo nodeId="1202742898078" fileName="PersonEditor.java" startLine="70" startPosition="5" endLine="77" endPosition="78" />
+    <scopeInfo nodeId="1202742898078" fileName="PersonEditor.java" startLine="79" startPosition="5" endLine="86" endPosition="78" />
+    <scopeInfo nodeId="1202742898078" fileName="PersonEditor.java" startLine="108" startPosition="0" endLine="115" endPosition="0" />
+    <scopeInfo nodeId="1202742898078" fileName="PersonEditor.java" startLine="121" startPosition="0" endLine="128" endPosition="0" />
+    <scopeInfo nodeId="1202742898078" fileName="PersonEditor.java" startLine="142" startPosition="0" endLine="149" endPosition="0" />
+    <scopeInfo nodeId="1202742898078" fileName="PersonEditor.java" startLine="149" startPosition="0" endLine="156" endPosition="0" />
+    <scopeInfo nodeId="1202742898078" fileName="PersonEditor.java" startLine="89" startPosition="0" endLine="97" endPosition="0" />
+    <scopeInfo nodeId="1202742898078" fileName="PersonEditor.java" startLine="98" startPosition="42" endLine="106" endPosition="21" />
+    <scopeInfo nodeId="1202742898078" fileName="PersonEditor.java" startLine="134" startPosition="0" endLine="142" endPosition="0" />
+    <scopeInfo nodeId="1202742898078" fileName="PersonEditor.java" startLine="43" startPosition="25" endLine="52" endPosition="31" />
+    <scopeInfo nodeId="1202742898078" fileName="PersonEditor.java" startLine="42" startPosition="0" endLine="53" endPosition="3" />
+    <scopeInfo nodeId="1202742898078" fileName="PersonEditor.java" startLine="97" startPosition="0" endLine="108" endPosition="0" />
+    <scopeInfo nodeId="1202742898078" fileName="PersonEditor.java" startLine="69" startPosition="23" endLine="87" endPosition="5" />
+    <scopeInfo nodeId="1202742898078" fileName="PersonEditor.java" startLine="68" startPosition="0" endLine="89" endPosition="0" />
+    <unitInfo nodeId="1202742898078" fileName="PersonEditor.java" startLine="35" startPosition="32" endLine="41" endPosition="3" unitName="jetbrains.mps.uiLanguage.samples.personEditor.PersonEditor$1" />
+    <unitInfo nodeId="1202742898078" fileName="PersonEditor.java" startLine="22" startPosition="0" endLine="177" endPosition="0" unitName="jetbrains.mps.uiLanguage.samples.personEditor.PersonEditor" />
+  </root>
 </debugInfo>
 

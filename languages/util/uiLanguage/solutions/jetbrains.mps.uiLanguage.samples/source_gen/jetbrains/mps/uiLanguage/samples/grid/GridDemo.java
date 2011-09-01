@@ -22,7 +22,7 @@ public class GridDemo extends JFrame {
   private JLabel myComponent_e0a;
   private JLabel myComponent_f0a;
   private JLabel myComponent_g0a;
-  public List<AutoBinding> myBindings = ListSequence.fromList(new ArrayList<AutoBinding>());
+  public List<AutoBinding> myBindings = ListSequence.<AutoBinding>fromList(new ArrayList<AutoBinding>());
   private Events myEvents = new Events(null) {
     {
     }
