@@ -32,9 +32,9 @@ public class OrthogonalFlowLayouterConstraintsStressTest {
       PrintWriter out = new PrintWriter(fileName);
       GraphIO.writeGraph(graph, out);
       out.close();
-      Map<Node, Dimension> nodeSizes = MapSequence.fromMap(new HashMap<Node, Dimension>());
-      for (Node node : ListSequence.fromList(graph.getNodes())) {
-        MapSequence.fromMap(nodeSizes).put(node, new Dimension(70, 70));
+      Map<Node, Dimension> nodeSizes = MapSequence.<Node,Dimension>fromMap(new HashMap<Node, Dimension>());
+      for (Node node : ListSequence.<Node>fromList(graph.getNodes())) {
+        MapSequence.<Node,Dimension>fromMap(nodeSizes).put(node, new Dimension(70, 70));
       }
       GraphLayout layout = layouter.doLayout(graph, nodeSizes);
       OrthogonalLayoutChecker.checkLayout(layout);

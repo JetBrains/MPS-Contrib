@@ -12,14 +12,14 @@ public class GraphModificationProcessor {
 
   public GraphModificationProcessor() {
     myIsSuspended = false;
-    myListeners = SetSequence.fromSet(new HashSet<IGraphModificationListener>());
+    myListeners = SetSequence.<IGraphModificationListener>fromSet(new HashSet<IGraphModificationListener>());
   }
 
   public void fire(GraphModificationEvent event) {
     if (myIsSuspended) {
       return;
     }
-    for (IGraphModificationListener listener : SetSequence.fromSet(myListeners)) {
+    for (IGraphModificationListener listener : SetSequence.<IGraphModificationListener>fromSet(myListeners)) {
       listener.process(event);
     }
   }
@@ -37,7 +37,7 @@ public class GraphModificationProcessor {
   }
 
   public void removeListener(IGraphModificationListener listener) {
-    if (!(SetSequence.fromSet(myListeners).contains(listener))) {
+    if (!(SetSequence.<IGraphModificationListener>fromSet(myListeners).contains(listener))) {
       throw new RuntimeException("removing listener from wrong place");
     }
     SetSequence.fromSet(myListeners).removeElement(listener);

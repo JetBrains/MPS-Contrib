@@ -67,6 +67,7 @@
     <classNode extendsClassName="jetbrains.mps.graphLayout.algorithms.Dfs" />
   </dependency>
   <dependency className="jetbrains.mps.graphLayout.layeredLayout.DFSEdgeReverter" file="DFSEdgeReverter.java">
+    <classNode dependClassName="java.lang.Integer" />
     <classNode dependClassName="java.lang.Override" />
     <classNode dependClassName="java.util.HashSet" />
     <classNode dependClassName="java.util.Set" />

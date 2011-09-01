@@ -33,44 +33,44 @@ public class BlockGraphProcessor {
     int curClass = 1;
     myShift = new int[myMaxClass + 1];
     myLayers = new NodeMap<Integer>(blockGraph);
-    for (Node node : ListSequence.fromList(blockGraph.getNodes())) {
-      if (MapSequence.fromMap(myClasses).get(node) == curClass) {
+    for (Node node : ListSequence.<Node>fromList(blockGraph.getNodes())) {
+      if (MapSequence.<Node,Integer>fromMap(myClasses).get(node) == curClass) {
         processClass(node);
-        if (myShift[MapSequence.fromMap(myClasses).get(node)] == Integer.MAX_VALUE) {
-          myShift[MapSequence.fromMap(myClasses).get(node)] = 0;
+        if (myShift[MapSequence.<Node,Integer>fromMap(myClasses).get(node)] == Integer.MAX_VALUE) {
+          myShift[MapSequence.<Node,Integer>fromMap(myClasses).get(node)] = 0;
         }
         curClass++;
       }
     }
     int minPos = Integer.MAX_VALUE;
-    for (Node node : ListSequence.fromList(blockGraph.getNodes())) {
-      MapSequence.fromMap(myLayers).put(node, MapSequence.fromMap(myLayers).get(node) + myShift[MapSequence.fromMap(myClasses).get(node)]);
-      minPos = Math.min(minPos, MapSequence.fromMap(myLayers).get(node));
+    for (Node node : ListSequence.<Node>fromList(blockGraph.getNodes())) {
+      MapSequence.<Node,Integer>fromMap(myLayers).put(node, MapSequence.<Node,Integer>fromMap(myLayers).get(node) + myShift[MapSequence.<Node,Integer>fromMap(myClasses).get(node)]);
+      minPos = Math.min(minPos, MapSequence.<Node,Integer>fromMap(myLayers).get(node));
     }
-    for (Node node : ListSequence.fromList(blockGraph.getNodes())) {
-      MapSequence.fromMap(myLayers).put(node, MapSequence.fromMap(myLayers).get(node) - minPos);
+    for (Node node : ListSequence.<Node>fromList(blockGraph.getNodes())) {
+      MapSequence.<Node,Integer>fromMap(myLayers).put(node, MapSequence.<Node,Integer>fromMap(myLayers).get(node) - minPos);
     }
     return myLayers;
   }
 
   private void processClass(Node node) {
-    Queue<Node> queue = QueueSequence.fromQueue(new LinkedList<Node>());
+    Queue<Node> queue = QueueSequence.<Node>fromQueue(new LinkedList<Node>());
     QueueSequence.fromQueue(queue).addLastElement(node);
-    MapSequence.fromMap(myLayers).put(node, 0);
-    int nodeClass = MapSequence.fromMap(myClasses).get(node);
+    MapSequence.<Node,Integer>fromMap(myLayers).put(node, 0);
+    int nodeClass = MapSequence.<Node,Integer>fromMap(myClasses).get(node);
     myShift[nodeClass] = Integer.MAX_VALUE;
-    while (QueueSequence.fromQueue(queue).count() > 0) {
+    while (QueueSequence.<Node>fromQueue(queue).count() > 0) {
       Node cur = QueueSequence.fromQueue(queue).removeFirstElement();
-      for (Edge edge : ListSequence.fromList(cur.getOutEdges())) {
+      for (Edge edge : ListSequence.<Edge>fromList(cur.getOutEdges())) {
         Node target = edge.getTarget();
-        if (MapSequence.fromMap(myClasses).get(node) == MapSequence.fromMap(myClasses).get(target)) {
-          MapSequence.fromMap(myNumInEdges).put(target, MapSequence.fromMap(myNumInEdges).get(target) - 1);
-          if (MapSequence.fromMap(myNumInEdges).get(target) == 0) {
-            MapSequence.fromMap(myLayers).put(target, MapSequence.fromMap(myLayers).get(cur) + 1);
+        if (MapSequence.<Node,Integer>fromMap(myClasses).get(node) == MapSequence.<Node,Integer>fromMap(myClasses).get(target)) {
+          MapSequence.<Node,Integer>fromMap(myNumInEdges).put(target, MapSequence.<Node,Integer>fromMap(myNumInEdges).get(target) - 1);
+          if (MapSequence.<Node,Integer>fromMap(myNumInEdges).get(target) == 0) {
+            MapSequence.<Node,Integer>fromMap(myLayers).put(target, MapSequence.<Node,Integer>fromMap(myLayers).get(cur) + 1);
             QueueSequence.fromQueue(queue).addLastElement(target);
           }
         } else {
-          myShift[nodeClass] = Math.min(myShift[nodeClass], MapSequence.fromMap(myLayers).get(target) - MapSequence.fromMap(myLayers).get(cur) - 1);
+          myShift[nodeClass] = Math.min(myShift[nodeClass], MapSequence.<Node,Integer>fromMap(myLayers).get(target) - MapSequence.<Node,Integer>fromMap(myLayers).get(cur) - 1);
         }
       }
     }
@@ -82,17 +82,17 @@ public class BlockGraphProcessor {
 
     @Override
     protected void preprocess(Node node, Edge from) {
-      MapSequence.fromMap(myClasses).put(node, myMaxClass);
+      MapSequence.<Node,Integer>fromMap(myClasses).put(node, myMaxClass);
     }
 
     @Override
     protected void processEdge(Edge edge, Node source) {
       Node target = edge.getTarget();
-      if (MapSequence.fromMap(myClasses).get(target) == null || MapSequence.fromMap(myClasses).get(source) == MapSequence.fromMap(myClasses).get(target)) {
-        if (MapSequence.fromMap(myNumInEdges).get(target) == null) {
-          MapSequence.fromMap(myNumInEdges).put(target, 1);
+      if (MapSequence.<Node,Integer>fromMap(myClasses).get(target) == null || MapSequence.<Node,Integer>fromMap(myClasses).get(source) == MapSequence.<Node,Integer>fromMap(myClasses).get(target)) {
+        if (MapSequence.<Node,Integer>fromMap(myNumInEdges).get(target) == null) {
+          MapSequence.<Node,Integer>fromMap(myNumInEdges).put(target, 1);
         } else {
-          MapSequence.fromMap(myNumInEdges).put(target, MapSequence.fromMap(myNumInEdges).get(target) + 1);
+          MapSequence.<Node,Integer>fromMap(myNumInEdges).put(target, MapSequence.<Node,Integer>fromMap(myNumInEdges).get(target) + 1);
         }
       }
     }

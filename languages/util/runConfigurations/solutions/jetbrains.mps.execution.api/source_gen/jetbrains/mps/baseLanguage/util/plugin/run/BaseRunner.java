@@ -61,15 +61,15 @@ public abstract class BaseRunner {
   }
 
   protected void addJavaCommand(List<String> params) {
-    ListSequence.fromList(params).addElement(getJavaCommand(this.myJavaHome));
+    ListSequence.<String>fromList(params).addElement(getJavaCommand(this.myJavaHome));
   }
 
   protected void addDebug(List<String> params, String arguments) {
-    ListSequence.fromList(params).addElement(arguments);
+    ListSequence.<String>fromList(params).addElement(arguments);
   }
 
   protected void addMaxHeapSize(List<String> params, int megaBytes) {
-    ListSequence.fromList(params).addElement("-Xmx" + megaBytes + "m");
+    ListSequence.<String>fromList(params).addElement("-Xmx" + megaBytes + "m");
   }
 
   protected void addVmOptions(List<String> params) {
@@ -83,7 +83,7 @@ public abstract class BaseRunner {
   private void addParametersString(List<String> params, @Nullable String parametersString) {
     if (parametersString != null && StringUtils.isNotEmpty(parametersString)) {
       String[] paramList = this.splitParams(parametersString);
-      ListSequence.fromList(params).addSequence(Sequence.fromIterable(Sequence.fromArray(paramList)).where(new IWhereFilter<String>() {
+      ListSequence.<String>fromList(params).addSequence(Sequence.<String>fromIterable(Sequence.fromArray(paramList)).where(new IWhereFilter<String>() {
         public boolean accept(String it) {
           return it != null;
         }
@@ -99,8 +99,8 @@ public abstract class BaseRunner {
     if (classPath == null) {
       return;
     }
-    ListSequence.fromList(params).addElement("-cp");
-    ListSequence.fromList(params).addElement(classPath);
+    ListSequence.<String>fromList(params).addElement("-cp");
+    ListSequence.<String>fromList(params).addElement(classPath);
   }
 
   @Nullable
@@ -153,9 +153,9 @@ public abstract class BaseRunner {
   }
 
   protected static Set<String> getModuleClasspath(final IModule module, boolean withDependencies) {
-    List<String> result = ListSequence.fromList(new ArrayList<String>());
+    List<String> result = ListSequence.<String>fromList(new ArrayList<String>());
     if (module.getClassesGen() != null) {
-      ListSequence.fromList(result).addElement(module.getClassesGen().getAbsolutePath());
+      ListSequence.<String>fromList(result).addElement(module.getClassesGen().getAbsolutePath());
     }
 
     final ClasspathStringCollector visitor = new ClasspathStringCollector(result);
@@ -171,7 +171,7 @@ public abstract class BaseRunner {
     List<String> visited = visitor.getResultAndReInit();
     visited.removeAll(CommonPaths.getJDKPath());
 
-    return SetSequence.fromSetWithValues(new LinkedHashSet<String>(), visited);
+    return SetSequence.<String>fromSetWithValues(new LinkedHashSet<String>(), visited);
   }
 
   @NotNull
@@ -190,25 +190,25 @@ public abstract class BaseRunner {
 
   public static List<String> getJavaHomes() {
     String systemJavaHome = System.getProperty("java.home");
-    List<String> homes = ListSequence.fromList(new LinkedList<String>());
+    List<String> homes = ListSequence.<String>fromList(new LinkedList<String>());
     String systemJdkHome = systemJavaHome.substring(0, systemJavaHome.length() - "/jre".length());
     if (systemJavaHome.endsWith("jre") && new File(systemJdkHome + File.separator + "bin").exists()) {
-      ListSequence.fromList(homes).addElement(systemJdkHome);
+      ListSequence.<String>fromList(homes).addElement(systemJdkHome);
     }
     if (StringUtils.isNotEmpty(System.getenv("JAVA_HOME"))) {
-      ListSequence.fromList(homes).addElement(System.getenv("JAVA_HOME"));
+      ListSequence.<String>fromList(homes).addElement(System.getenv("JAVA_HOME"));
     }
-    ListSequence.fromList(homes).addElement(systemJavaHome);
+    ListSequence.<String>fromList(homes).addElement(systemJavaHome);
     return homes;
   }
 
   public static String getJdkHome() {
     List<String> homes = getJavaHomes();
-    for (String javaHome : ListSequence.fromList(homes)) {
+    for (String javaHome : ListSequence.<String>fromList(homes)) {
       if (new File(getJavaCommand(javaHome)).exists()) {
         return javaHome;
       }
     }
-    return ListSequence.fromList(homes).first();
+    return ListSequence.<String>fromList(homes).first();
   }
 }

@@ -16,12 +16,12 @@ import junit.framework.Assert;
 public class FordBellman_Test extends TestCase {
   public void test_triangle() throws Exception {
     Graph graph = SimpleDirectedGraphs.triangle();
-    Map<Edge, Integer> w = MapSequence.fromMap(new HashMap<Edge, Integer>());
-    MapSequence.fromMap(w).put(ListSequence.fromList(graph.getNode(0).getEdges()).getElement(0), 1);
-    MapSequence.fromMap(w).put(ListSequence.fromList(graph.getNode(0).getEdges()).getElement(1), 4);
-    MapSequence.fromMap(w).put(ListSequence.fromList(graph.getNode(1).getEdges()).getElement(0), 2);
+    Map<Edge, Integer> w = MapSequence.<Edge,Integer>fromMap(new HashMap<Edge, Integer>());
+    MapSequence.<Edge,Integer>fromMap(w).put(ListSequence.<Edge>fromList(graph.getNode(0).getEdges()).getElement(0), 1);
+    MapSequence.<Edge,Integer>fromMap(w).put(ListSequence.<Edge>fromList(graph.getNode(0).getEdges()).getElement(1), 4);
+    MapSequence.<Edge,Integer>fromMap(w).put(ListSequence.<Edge>fromList(graph.getNode(1).getEdges()).getElement(0), 2);
     FordBellman bellman = new FordBellman(graph, graph.getNode(0), w);
     bellman.doAlgorithm();
-    Assert.assertTrue(ListSequence.fromList(bellman.getShortestPath(graph.getNode(2))).count() == 2);
+    Assert.assertTrue(ListSequence.<Edge>fromList(bellman.getShortestPath(graph.getNode(2))).count() == 2);
   }
 }

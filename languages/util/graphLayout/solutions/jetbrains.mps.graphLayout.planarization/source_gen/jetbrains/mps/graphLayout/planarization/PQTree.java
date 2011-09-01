@@ -57,25 +57,25 @@ public class PQTree {
       }
       return newNode;
     } else {
-      List<PQNode> modifiedChildren = ListSequence.fromList(new ArrayList<PQNode>());
+      List<PQNode> modifiedChildren = ListSequence.<PQNode>fromList(new ArrayList<PQNode>());
       if (pertinentRoot instanceof QNode) {
         PQNode prePertinentRoot = pertinentRoot.getParent();
-        for (PQNode child : ListSequence.fromList(prePertinentRoot.getChildren())) {
+        for (PQNode child : ListSequence.<PQNode>fromList(prePertinentRoot.getChildren())) {
           if (child == pertinentRoot) {
-            ListSequence.fromList(modifiedChildren).addElement(arrange(child, true));
+            ListSequence.<PQNode>fromList(modifiedChildren).addElement(arrange(child, true));
           } else {
-            ListSequence.fromList(modifiedChildren).addElement(arrange(child, false));
+            ListSequence.<PQNode>fromList(modifiedChildren).addElement(arrange(child, false));
           }
         }
-        for (PQNode child : ListSequence.fromList(modifiedChildren)) {
+        for (PQNode child : ListSequence.<PQNode>fromList(modifiedChildren)) {
           child.setParent(prePertinentRoot);
         }
         return prePertinentRoot.processAsPertinentRoot(modifiedChildren, nodeToMerge);
       } else {
-        for (PQNode child : ListSequence.fromList(pertinentRoot.getChildren())) {
-          ListSequence.fromList(modifiedChildren).addElement(arrange(child, false));
+        for (PQNode child : ListSequence.<PQNode>fromList(pertinentRoot.getChildren())) {
+          ListSequence.<PQNode>fromList(modifiedChildren).addElement(arrange(child, false));
         }
-        for (PQNode child : ListSequence.fromList(modifiedChildren)) {
+        for (PQNode child : ListSequence.<PQNode>fromList(modifiedChildren)) {
           child.setParent(pertinentRoot);
         }
         return pertinentRoot.processAsPertinentRoot(modifiedChildren, nodeToMerge);
@@ -99,7 +99,7 @@ public class PQTree {
       int numEmptyChildren = 0;
       int numPartialChildren = 0;
       int numFullLeaves = 0;
-      for (PQNode child : ListSequence.fromList(node.getChildren())) {
+      for (PQNode child : ListSequence.<PQNode>fromList(node.getChildren())) {
         PQNode childPertinentRoot = findPertinentRoot(child);
         numFullLeaves += child.getNumFullLeaves();
         if (child.getState() == PQNode.State.EMPTY) {
@@ -118,7 +118,7 @@ public class PQTree {
       if (numPartialChildren > 0) {
         node.setState(PQNode.State.PARTIAL);
       } else {
-        int numChildren = ListSequence.fromList(node.getChildren()).count();
+        int numChildren = ListSequence.<PQNode>fromList(node.getChildren()).count();
         if (numFullChildren == numChildren) {
           node.setState(PQNode.State.FULL);
         } else if (numEmptyChildren == numChildren) {

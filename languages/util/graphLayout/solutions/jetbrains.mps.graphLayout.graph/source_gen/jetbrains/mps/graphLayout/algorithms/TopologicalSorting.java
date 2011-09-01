@@ -19,14 +19,14 @@ public class TopologicalSorting extends Dfs {
 
   @Override
   public void doDfs(Graph graph) {
-    myOrder = ListSequence.fromList(new LinkedList<Node>());
+    myOrder = ListSequence.<Node>fromList(new LinkedList<Node>());
     myHasCycles = false;
     super.doDfs(graph);
   }
 
   @Override
   protected void postprocess(Node node, Edge from) {
-    ListSequence.fromList(myOrder).insertElement(0, node);
+    ListSequence.<Node>fromList(myOrder).insertElement(0, node);
   }
 
   private List<Node> getOrder() {
@@ -39,7 +39,7 @@ public class TopologicalSorting extends Dfs {
 
   @Override
   protected void processEdge(Edge edge, Node source) {
-    if (MapSequence.fromMap(getDfsState()).get(edge.getTarget()) == Dfs.DURING) {
+    if (MapSequence.<Node,Integer>fromMap(getDfsState()).get(edge.getTarget()) == Dfs.DURING) {
       myHasCycles = true;
     }
   }

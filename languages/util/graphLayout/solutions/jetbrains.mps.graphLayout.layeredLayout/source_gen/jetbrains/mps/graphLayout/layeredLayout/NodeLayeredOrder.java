@@ -19,30 +19,30 @@ public class NodeLayeredOrder {
 
   public NodeLayeredOrder(Graph graph) {
     myGraph = graph;
-    myLayeredOrder = ListSequence.fromList(new ArrayList<List<Node>>());
+    myLayeredOrder = ListSequence.<List<Node>>fromList(new ArrayList<List<Node>>());
     myPosInLayer = new NodeMap<Integer>(graph);
   }
 
   public void addLast(Node node, int layer) {
-    if (ListSequence.fromList(myLayeredOrder).count() <= layer) {
-      for (int i = ListSequence.fromList(myLayeredOrder).count(); i <= layer; i++) {
-        ListSequence.fromList(myLayeredOrder).addElement(ListSequence.fromList(new ArrayList<Node>()));
+    if (ListSequence.<List<Node>>fromList(myLayeredOrder).count() <= layer) {
+      for (int i = ListSequence.<List<Node>>fromList(myLayeredOrder).count(); i <= layer; i++) {
+        ListSequence.<List<Node>>fromList(myLayeredOrder).addElement(ListSequence.<Node>fromList(new ArrayList<Node>()));
       }
     }
-    MapSequence.fromMap(myPosInLayer).put(node, ListSequence.fromList(ListSequence.fromList(myLayeredOrder).getElement(layer)).count());
-    ListSequence.fromList(ListSequence.fromList(myLayeredOrder).getElement(layer)).addElement(node);
+    MapSequence.<Node,Integer>fromMap(myPosInLayer).put(node, ListSequence.<Node>fromList(ListSequence.<List<Node>>fromList(myLayeredOrder).getElement(layer)).count());
+    ListSequence.<Node>fromList(ListSequence.<List<Node>>fromList(myLayeredOrder).getElement(layer)).addElement(node);
   }
 
   public void setLayer(List<Node> nodes, int layer) {
-    ListSequence.fromList(myLayeredOrder).setElement(layer, nodes);
-    for (int i = 0; i < ListSequence.fromList(nodes).count(); i++) {
-      MapSequence.fromMap(myPosInLayer).put(ListSequence.fromList(nodes).getElement(i), i);
+    ListSequence.<List<Node>>fromList(myLayeredOrder).setElement(layer, nodes);
+    for (int i = 0; i < ListSequence.<Node>fromList(nodes).count(); i++) {
+      MapSequence.<Node,Integer>fromMap(myPosInLayer).put(ListSequence.<Node>fromList(nodes).getElement(i), i);
     }
   }
 
   public void set(int layer, Node node, int pos) {
-    ListSequence.fromList(ListSequence.fromList(myLayeredOrder).getElement(layer)).setElement(pos, node);
-    MapSequence.fromMap(myPosInLayer).put(node, pos);
+    ListSequence.<Node>fromList(ListSequence.<List<Node>>fromList(myLayeredOrder).getElement(layer)).setElement(pos, node);
+    MapSequence.<Node,Integer>fromMap(myPosInLayer).put(node, pos);
   }
 
   public Map<Node, Integer> getPosInLayer() {
@@ -50,11 +50,11 @@ public class NodeLayeredOrder {
   }
 
   public List<Node> getOrder(int layer) {
-    return ListSequence.fromList(myLayeredOrder).getElement(layer);
+    return ListSequence.<List<Node>>fromList(myLayeredOrder).getElement(layer);
   }
 
   public int getNumLayers() {
-    return ListSequence.fromList(myLayeredOrder).count();
+    return ListSequence.<List<Node>>fromList(myLayeredOrder).count();
   }
 
   public Graph getGraph() {
@@ -65,8 +65,8 @@ public class NodeLayeredOrder {
   public String toString() {
     StringBuilder builder = new StringBuilder();
     builder.append("Node layered order: \n");
-    for (List<Node> layerOrder : ListSequence.fromList(myLayeredOrder)) {
-      for (Node node : ListSequence.fromList(layerOrder)) {
+    for (List<Node> layerOrder : ListSequence.<List<Node>>fromList(myLayeredOrder)) {
+      for (Node node : ListSequence.<Node>fromList(layerOrder)) {
         builder.append(node.getIndex() + " ");
       }
       builder.append("\n");
@@ -76,10 +76,10 @@ public class NodeLayeredOrder {
   }
 
   public Iterator<List<Node>> getTopToBottomIterator() {
-    return ListSequence.fromList(myLayeredOrder).iterator();
+    return ListSequence.<List<Node>>fromList(myLayeredOrder).iterator();
   }
 
   public Iterator<List<Node>> getBottomToTopIterator() {
-    return ListSequence.fromList(myLayeredOrder).reversedList().iterator();
+    return ListSequence.<List<Node>>fromList(myLayeredOrder).reversedList().iterator();
   }
 }

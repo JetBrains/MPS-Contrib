@@ -32,12 +32,12 @@ public class OrthogonalFromVisibility implements IPointLayouter {
       EmbeddedGraph embeddedGraph = new ShortestPathEmbeddingFinder(new BiconnectedInitialEmbeddingFinder()).find(graph);
     */
     EmbeddedGraph embeddedGraph = new TreeEmbeddingFinder().find(graph);
-    List<Node> outerNodes = ListSequence.fromList(new ArrayList<Node>());
-    for (Dart dart : ListSequence.fromList(embeddedGraph.getOuterFace().getDarts())) {
-      ListSequence.fromList(outerNodes).addElement(dart.getTarget());
+    List<Node> outerNodes = ListSequence.<Node>fromList(new ArrayList<Node>());
+    for (Dart dart : ListSequence.<Dart>fromList(embeddedGraph.getOuterFace().getDarts())) {
+      ListSequence.<Node>fromList(outerNodes).addElement(dart.getTarget());
     }
-    Node s = ListSequence.fromList(outerNodes).getElement(0);
-    Node t = ListSequence.fromList(outerNodes).getElement((ListSequence.fromList(outerNodes).count()) / 2);
+    Node s = ListSequence.<Node>fromList(outerNodes).getElement(0);
+    Node t = ListSequence.<Node>fromList(outerNodes).getElement((ListSequence.<Node>fromList(outerNodes).count()) / 2);
     GraphOrientation.orientST(graph, s, t);
     STPlanarGraph stPlanarGraph = new STPlanarGraph(embeddedGraph, s, t);
     return doLayout(stPlanarGraph);
@@ -47,30 +47,30 @@ public class OrthogonalFromVisibility implements IPointLayouter {
     Graph graph = stPlanarGraph.getGraph();
     Map<Object, Rectangle> visibility = VisibilityRepresentation.getVisibilityRepresentation(stPlanarGraph);
     GraphPointLayout layout = new GraphPointLayout(graph);
-    for (Node node : ListSequence.fromList(graph.getNodes())) {
-      Rectangle rect = MapSequence.fromMap(visibility).get(node);
-      List<Integer> edgesX = ListSequence.fromList(new ArrayList<Integer>());
-      for (Edge edge : ListSequence.fromList(node.getEdges())) {
-        ListSequence.fromList(edgesX).addElement(MapSequence.fromMap(visibility).get(edge).x);
+    for (Node node : ListSequence.<Node>fromList(graph.getNodes())) {
+      Rectangle rect = MapSequence.<Object,Rectangle>fromMap(visibility).get(node);
+      List<Integer> edgesX = ListSequence.<Integer>fromList(new ArrayList<Integer>());
+      for (Edge edge : ListSequence.<Edge>fromList(node.getEdges())) {
+        ListSequence.<Integer>fromList(edgesX).addElement(MapSequence.<Object,Rectangle>fromMap(visibility).get(edge).x);
       }
-      edgesX = ListSequence.fromList(edgesX).sort(new ISelector<Integer, Comparable<?>>() {
+      edgesX = ListSequence.<Integer>fromList(edgesX).sort(new ISelector<Integer, Comparable<?>>() {
         public Comparable<?> select(Integer it) {
           return it;
         }
       }, true).toListSequence();
-      int mid = ListSequence.fromList(edgesX).count() / 2;
-      layout.setLayoutFor(node, new Point(ListSequence.fromList(edgesX).getElement(mid), rect.y));
+      int mid = ListSequence.<Integer>fromList(edgesX).count() / 2;
+      layout.setLayoutFor(node, new Point(ListSequence.<Integer>fromList(edgesX).getElement(mid), rect.y));
       /*
         layout.setLayoutFor(node, new Point(rect.x + rect.width / 2, rect.y));
       */
     }
-    for (Edge edge : ListSequence.fromList(graph.getEdges())) {
-      Rectangle rect = MapSequence.fromMap(visibility).get(edge);
-      List<Point> points = ListSequence.fromList(new ArrayList<Point>());
-      ListSequence.fromList(points).addElement(layout.getLayoutFor(edge.getSource()));
-      ListSequence.fromList(points).addElement(new Point(rect.x, rect.y));
-      ListSequence.fromList(points).addElement(new Point(rect.x, rect.y + rect.height));
-      ListSequence.fromList(points).addElement(layout.getLayoutFor(edge.getTarget()));
+    for (Edge edge : ListSequence.<Edge>fromList(graph.getEdges())) {
+      Rectangle rect = MapSequence.<Object,Rectangle>fromMap(visibility).get(edge);
+      List<Point> points = ListSequence.<Point>fromList(new ArrayList<Point>());
+      ListSequence.<Point>fromList(points).addElement(layout.getLayoutFor(edge.getSource()));
+      ListSequence.<Point>fromList(points).addElement(new Point(rect.x, rect.y));
+      ListSequence.<Point>fromList(points).addElement(new Point(rect.x, rect.y + rect.height));
+      ListSequence.<Point>fromList(points).addElement(layout.getLayoutFor(edge.getTarget()));
       layout.setLayoutFor(edge, points);
     }
     return layout;

@@ -35,9 +35,9 @@ public class TestPullingLabels {
     OrthogonalFlowLayouterConstraints flowLayouterConstraints = new OrthogonalFlowLayouterConstraints();
     flowLayouterConstraints.setUnitLength(myUnitLength);
     GraphLayout layout = flowLayouterConstraints.doLayout(graph, nodeSizes);
-    Map<Edge, Integer> labeledSegment = MapSequence.fromMap(new HashMap<Edge, Integer>());
-    for (Edge edge : SetSequence.fromSet(MapSequence.fromMap(edgeSizes).keySet())) {
-      layout = addEdgeLabel(layout, edge, MapSequence.fromMap(edgeSizes).get(edge), labeledSegment);
+    Map<Edge, Integer> labeledSegment = MapSequence.<Edge,Integer>fromMap(new HashMap<Edge, Integer>());
+    for (Edge edge : SetSequence.<Edge>fromSet(MapSequence.fromMap(edgeSizes).keySet())) {
+      layout = addEdgeLabel(layout, edge, MapSequence.<Edge,Dimension>fromMap(edgeSizes).get(edge), labeledSegment);
     }
     Rectangle rect = layout.getContainingRectangle();
     layout = layout.shift(20 - rect.x, 20 - rect.y);
@@ -47,7 +47,7 @@ public class TestPullingLabels {
   private GraphLayout addEdgeLabel(GraphLayout layout, Edge edge, Dimension labelSize, Map<Edge, Integer> labeledSegments) {
     List<Point> path = layout.getEdgeLayout(edge);
     int begin = 0;
-    int end = ListSequence.fromList(path).count() - 1;
+    int end = ListSequence.<Point>fromList(path).count() - 1;
     if (wasSplitted(layout, edge.getSource(), edge)) {
       begin++;
     }
@@ -55,8 +55,8 @@ public class TestPullingLabels {
       end--;
     }
     int middle = (begin + end) / 2;
-    Point first = ListSequence.fromList(path).getElement(middle);
-    Point second = ListSequence.fromList(path).getElement(middle + 1);
+    Point first = ListSequence.<Point>fromList(path).getElement(middle);
+    Point second = ListSequence.<Point>fromList(path).getElement(middle + 1);
     Point center = new Point((first.x + second.x) / 2, (first.y + second.y) / 2);
     Direction2D dir = OrthogonalUtil.getDirection(first, second);
     int width = labelSize.width;
@@ -81,14 +81,14 @@ public class TestPullingLabels {
       int shift = height + myUnitLength - dist;
       layout = pullGraphLayout(layout, shiftDir, shift, center, labeledSegments, false);
     }
-    MapSequence.fromMap(labeledSegments).put(edge, middle);
+    MapSequence.<Edge,Integer>fromMap(labeledSegments).put(edge, middle);
     layout.setLabelLayout(edge, rect);
     return layout;
   }
 
   public int getMinDist(GraphLayout layout, Rectangle rect, Direction2D dir) {
     int minDist = Integer.MAX_VALUE;
-    for (INode node : SetSequence.fromSet(MapSequence.fromMap(layout.getNodeLayout()).keySet())) {
+    for (INode node : SetSequence.<INode>fromSet(MapSequence.fromMap(layout.getNodeLayout()).keySet())) {
       Rectangle nodeRect = layout.getNodeLayout(node);
       Point[] points = nodeRect.getCornerPoints();
       for (Point point : points) {
@@ -97,7 +97,7 @@ public class TestPullingLabels {
         }
       }
     }
-    for (IEdge edge : SetSequence.fromSet(MapSequence.fromMap(layout.getLabelLayout()).keySet())) {
+    for (IEdge edge : SetSequence.<IEdge>fromSet(MapSequence.fromMap(layout.getLabelLayout()).keySet())) {
       Rectangle nodeRect = layout.getLabelLayout(edge);
       Point[] points = nodeRect.getCornerPoints();
       for (Point point : points) {
@@ -106,7 +106,7 @@ public class TestPullingLabels {
         }
       }
     }
-    for (IEdge edge : SetSequence.fromSet(MapSequence.fromMap(layout.getEdgeLayout()).keySet())) {
+    for (IEdge edge : SetSequence.<IEdge>fromSet(MapSequence.fromMap(layout.getEdgeLayout()).keySet())) {
       List<Point> points = layout.getEdgeLayout(edge);
       for (Point point : points) {
         if (rect.contains(point)) {
@@ -135,8 +135,8 @@ public class TestPullingLabels {
 
   public GraphLayout pullGraphLayout(GraphLayout layout, Direction2D direction, int shift, Point center, Map<Edge, Integer> labeledSegments, boolean alongEdge) {
     GraphLayout pulledLayout = GraphLayoutFactory.createGraphLayout(layout.getGraph());
-    Set<Node> unpulledNodes = SetSequence.fromSet(new HashSet<Node>());
-    for (INode node : SetSequence.fromSet(MapSequence.fromMap(layout.getNodeLayout()).keySet())) {
+    Set<Node> unpulledNodes = SetSequence.<Node>fromSet(new HashSet<Node>());
+    for (INode node : SetSequence.<INode>fromSet(MapSequence.fromMap(layout.getNodeLayout()).keySet())) {
       Node myNode = ((Node) node);
       Rectangle nodeRect = layout.getNodeLayout(myNode);
       Rectangle pulledRect = pullRectangle(nodeRect, center, direction, shift, alongEdge);
@@ -145,39 +145,39 @@ public class TestPullingLabels {
       }
       pulledLayout.setLayoutFor(node, pulledRect);
     }
-    for (IEdge edge : SetSequence.fromSet(MapSequence.fromMap(layout.getEdgeLayout()).keySet())) {
+    for (IEdge edge : SetSequence.<IEdge>fromSet(MapSequence.fromMap(layout.getEdgeLayout()).keySet())) {
       Edge myEdge = ((Edge) edge);
       List<Point> path = layout.getEdgeLayout(edge);
-      List<Point> pulledPath = ListSequence.fromList(new LinkedList<Point>());
-      Set<Integer> pulled = SetSequence.fromSet(new HashSet<Integer>());
+      List<Point> pulledPath = ListSequence.<Point>fromList(new LinkedList<Point>());
+      Set<Integer> pulled = SetSequence.<Integer>fromSet(new HashSet<Integer>());
       int index = 0;
-      for (Point point : ListSequence.fromList(path)) {
-        if (point == ListSequence.fromList(path).first() || point == ListSequence.fromList(path).last()) {
+      for (Point point : ListSequence.<Point>fromList(path)) {
+        if (point == ListSequence.<Point>fromList(path).first() || point == ListSequence.<Point>fromList(path).last()) {
           Node node = myEdge.getSource();
-          if (point == ListSequence.fromList(path).last()) {
+          if (point == ListSequence.<Point>fromList(path).last()) {
             node = myEdge.getTarget();
           }
-          if (SetSequence.fromSet(unpulledNodes).contains(node)) {
-            ListSequence.fromList(pulledPath).addElement(new Point(point));
+          if (SetSequence.<Node>fromSet(unpulledNodes).contains(node)) {
+            ListSequence.<Point>fromList(pulledPath).addElement(new Point(point));
           } else {
             SetSequence.fromSet(pulled).addElement(index);
             int dx = direction.dx() * shift;
             int dy = direction.dy() * shift;
-            ListSequence.fromList(pulledPath).addElement(new Point(point.x + dx, point.y + dy));
+            ListSequence.<Point>fromList(pulledPath).addElement(new Point(point.x + dx, point.y + dy));
           }
         } else {
           Point newPoint = pullPoint(point, center, direction, shift);
           if (!(newPoint.equals(point))) {
             SetSequence.fromSet(pulled).addElement(index);
           }
-          ListSequence.fromList(pulledPath).addElement(newPoint);
+          ListSequence.<Point>fromList(pulledPath).addElement(newPoint);
         }
         index++;
       }
       if (MapSequence.fromMap(labeledSegments).containsKey(myEdge)) {
         Rectangle rect = layout.getLabelLayout(edge);
-        int seg = MapSequence.fromMap(labeledSegments).get(myEdge);
-        if (SetSequence.fromSet(pulled).contains(seg) || SetSequence.fromSet(pulled).contains(seg + 1)) {
+        int seg = MapSequence.<Edge,Integer>fromMap(labeledSegments).get(myEdge);
+        if (SetSequence.<Integer>fromSet(pulled).contains(seg) || SetSequence.<Integer>fromSet(pulled).contains(seg + 1)) {
           int dx = direction.dx() * shift;
           int dy = direction.dy() * shift;
           pulledLayout.setLabelLayout(myEdge, new Rectangle(rect.x + dx, rect.y + dy, rect.width, rect.height));
@@ -238,7 +238,7 @@ public class TestPullingLabels {
   private boolean wasSplitted(GraphLayout layout, Node node, Edge edge) {
     Direction2D dir = getStartDirection(layout, node, edge);
     boolean wasSplitted = false;
-    for (Edge sourceEdge : ListSequence.fromList(node.getEdges())) {
+    for (Edge sourceEdge : ListSequence.<Edge>fromList(node.getEdges())) {
       if (sourceEdge != edge && getStartDirection(layout, node, sourceEdge) == dir) {
         wasSplitted = true;
       }
@@ -249,10 +249,10 @@ public class TestPullingLabels {
   private Direction2D getStartDirection(GraphLayout layout, Node node, Edge edge) {
     List<Point> path = layout.getEdgeLayout(edge);
     if (node == edge.getSource()) {
-      return OrthogonalUtil.getDirection(ListSequence.fromList(path).getElement(0), ListSequence.fromList(path).getElement(1));
+      return OrthogonalUtil.getDirection(ListSequence.<Point>fromList(path).getElement(0), ListSequence.<Point>fromList(path).getElement(1));
     } else {
-      int last = ListSequence.fromList(path).count() - 1;
-      return OrthogonalUtil.getDirection(ListSequence.fromList(path).getElement(last), ListSequence.fromList(path).getElement(last - 1));
+      int last = ListSequence.<Point>fromList(path).count() - 1;
+      return OrthogonalUtil.getDirection(ListSequence.<Point>fromList(path).getElement(last), ListSequence.<Point>fromList(path).getElement(last - 1));
     }
   }
 }

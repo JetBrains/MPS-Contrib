@@ -28,21 +28,21 @@ public class GraphCopier {
     } else {
       myCopy = new Graph();
     }
-    myNodeMap = MapSequence.fromMap(new HashMap<INode, Node>());
-    myEdgeMap = MapSequence.fromMap(new HashMap<IEdge, Edge>());
+    myNodeMap = MapSequence.<INode,Node>fromMap(new HashMap<INode, Node>());
+    myEdgeMap = MapSequence.<IEdge,Edge>fromMap(new HashMap<IEdge, Edge>());
   }
 
   public Node copyNode(INode node) {
     Node copyNode = myCopy.createNode();
-    MapSequence.fromMap(myNodeMap).put(node, copyNode);
+    MapSequence.<INode,Node>fromMap(myNodeMap).put(node, copyNode);
     return copyNode;
   }
 
   public Edge copyEdge(IEdge edge) {
-    Node copySource = MapSequence.fromMap(myNodeMap).get(edge.getSource());
-    Node copyTarget = MapSequence.fromMap(myNodeMap).get(edge.getTarget());
+    Node copySource = MapSequence.<INode,Node>fromMap(myNodeMap).get(edge.getSource());
+    Node copyTarget = MapSequence.<INode,Node>fromMap(myNodeMap).get(edge.getTarget());
     Edge copyEdge = myCopy.connect(copySource, copyTarget);
-    MapSequence.fromMap(myEdgeMap).put(edge, copyEdge);
+    MapSequence.<IEdge,Edge>fromMap(myEdgeMap).put(edge, copyEdge);
     return copyEdge;
   }
 
@@ -73,11 +73,11 @@ public class GraphCopier {
   }
 
   public Node getNodeCopy(INode node) {
-    return MapSequence.fromMap(myNodeMap).get(node);
+    return MapSequence.<INode,Node>fromMap(myNodeMap).get(node);
   }
 
   public Edge getEdgeCopy(IEdge edge) {
-    return MapSequence.fromMap(myEdgeMap).get(edge);
+    return MapSequence.<IEdge,Edge>fromMap(myEdgeMap).get(edge);
   }
 
   public Set<INode> getCopiedNodes() {

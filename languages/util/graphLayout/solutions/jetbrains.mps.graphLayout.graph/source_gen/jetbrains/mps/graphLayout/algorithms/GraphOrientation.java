@@ -12,9 +12,9 @@ import jetbrains.mps.internal.collections.runtime.MapSequence;
 public class GraphOrientation {
   public static Map<Node, Integer> orientST(Graph graph, Node source, Node target) {
     Map<Node, Integer> stNumbering = STNumbering.number(graph, source, target);
-    for (Edge edge : ListSequence.fromList(graph.getEdges())) {
-      int sourceNum = MapSequence.fromMap(stNumbering).get(edge.getSource());
-      int targetNum = MapSequence.fromMap(stNumbering).get(edge.getTarget());
+    for (Edge edge : ListSequence.<Edge>fromList(graph.getEdges())) {
+      int sourceNum = MapSequence.<Node,Integer>fromMap(stNumbering).get(edge.getSource());
+      int targetNum = MapSequence.<Node,Integer>fromMap(stNumbering).get(edge.getTarget());
       if (sourceNum > targetNum) {
         graph.revertEdge(edge);
       }
@@ -23,7 +23,7 @@ public class GraphOrientation {
   }
 
   public static Map<Node, Integer> orientST(Graph graph) {
-    Edge firstEdge = ListSequence.fromList(graph.getEdges()).first();
+    Edge firstEdge = ListSequence.<Edge>fromList(graph.getEdges()).first();
     Node source = firstEdge.getSource();
     Node target = firstEdge.getTarget();
     return orientST(graph, source, target);

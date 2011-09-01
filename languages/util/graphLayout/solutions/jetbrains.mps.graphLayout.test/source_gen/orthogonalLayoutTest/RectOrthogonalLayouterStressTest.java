@@ -31,13 +31,13 @@ public class RectOrthogonalLayouterStressTest {
       PrintWriter out = new PrintWriter(fileName);
       GraphIO.writeGraph(graph, out);
       out.close();
-      Map<Node, Dimension> nodeSizes = MapSequence.fromMap(new HashMap<Node, Dimension>());
-      for (Node node : ListSequence.fromList(graph.getNodes())) {
-        MapSequence.fromMap(nodeSizes).put(node, new Dimension(10, 10));
+      Map<Node, Dimension> nodeSizes = MapSequence.<Node,Dimension>fromMap(new HashMap<Node, Dimension>());
+      for (Node node : ListSequence.<Node>fromList(graph.getNodes())) {
+        MapSequence.<Node,Dimension>fromMap(nodeSizes).put(node, new Dimension(10, 10));
       }
-      Map<Edge, Dimension> edgeSizes = MapSequence.fromMap(new HashMap<Edge, Dimension>());
-      for (Edge edge : ListSequence.fromList(graph.getEdges())) {
-        MapSequence.fromMap(edgeSizes).put(edge, new Dimension(10, 10));
+      Map<Edge, Dimension> edgeSizes = MapSequence.<Edge,Dimension>fromMap(new HashMap<Edge, Dimension>());
+      for (Edge edge : ListSequence.<Edge>fromList(graph.getEdges())) {
+        MapSequence.<Edge,Dimension>fromMap(edgeSizes).put(edge, new Dimension(10, 10));
       }
       layouter.doLayout(graph, nodeSizes, edgeSizes);
     }

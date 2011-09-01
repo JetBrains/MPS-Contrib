@@ -13,6 +13,7 @@
     <classNode extendsClassName="junit.framework.TestCase" />
   </dependency>
   <dependency className="layeredLayoutTest.CheckCycles" file="CheckCycles.java">
+    <classNode dependClassName="java.lang.Integer" />
     <classNode dependClassName="java.lang.Override" />
     <classNode dependClassName="jetbrains.mps.graphLayout.graph.Edge" />
     <classNode dependClassName="jetbrains.mps.graphLayout.graph.Graph" />
@@ -22,6 +23,7 @@
   </dependency>
   <dependency className="layeredLayoutTest.CheckDummyEdgesCrossing" file="CheckDummyEdgesCrossing.java">
     <classNode dependClassName="java.util.List" />
+    <classNode dependClassName="jetbrains.mps.graphLayout.graph.Edge" />
     <classNode dependClassName="jetbrains.mps.graphLayout.graph.Node" />
     <classNode dependClassName="jetbrains.mps.graphLayout.layeredLayout.NodeLayeredOrder" />
     <classNode dependClassName="jetbrains.mps.internal.collections.runtime.IWhereFilter" />

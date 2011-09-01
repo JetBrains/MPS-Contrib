@@ -11,11 +11,11 @@ public class Tree extends Graph {
   }
 
   public Node getParent(Node node) {
-    return ListSequence.fromList(node.getInEdges()).first().getOpposite(node);
+    return ListSequence.<Edge>fromList(node.getInEdges()).first().getOpposite(node);
   }
 
   public List<Node> getChildren(final Node node) {
-    return ListSequence.fromList(node.getOutEdges()).<Node>select(new ISelector<Edge, Node>() {
+    return ListSequence.<Edge>fromList(node.getOutEdges()).<Node>select(new ISelector<Edge, Node>() {
       public Node select(Edge edge) {
         return edge.getOpposite(node);
       }

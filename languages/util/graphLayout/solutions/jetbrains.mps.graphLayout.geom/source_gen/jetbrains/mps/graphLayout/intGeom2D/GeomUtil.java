@@ -59,15 +59,15 @@ public class GeomUtil {
   }
 
   public static List<Point> shiftPolyline(List<Point> polyline, int xShift, int yShift) {
-    List<Point> shiftedPolyline = ListSequence.fromList(new LinkedList<Point>());
-    for (Point p : ListSequence.fromList(polyline)) {
-      ListSequence.fromList(shiftedPolyline).addElement(new Point(p.x + xShift, p.y + yShift));
+    List<Point> shiftedPolyline = ListSequence.<Point>fromList(new LinkedList<Point>());
+    for (Point p : ListSequence.<Point>fromList(polyline)) {
+      ListSequence.<Point>fromList(shiftedPolyline).addElement(new Point(p.x + xShift, p.y + yShift));
     }
     return shiftedPolyline;
   }
 
   public static Rectangle getRectangle(Point p1, Point p2) {
-    return getContainingRectangle(ListSequence.fromListAndArray(new ArrayList<Point>(), p1, p2));
+    return getContainingRectangle(ListSequence.<Point>fromListAndArray(new ArrayList<Point>(), p1, p2));
   }
 
   public static Rectangle getContainingRectangle(List<Point> points) {
@@ -75,7 +75,7 @@ public class GeomUtil {
     int minY = Integer.MAX_VALUE;
     int maxX = Integer.MIN_VALUE;
     int maxY = Integer.MIN_VALUE;
-    for (Point point : ListSequence.fromList(points)) {
+    for (Point point : ListSequence.<Point>fromList(points)) {
       minX = Math.min(minX, point.x);
       minY = Math.min(minY, point.y);
       maxX = Math.max(maxX, point.x);
@@ -95,7 +95,7 @@ public class GeomUtil {
 
   public static boolean intersects(Rectangle rect, List<Point> polyline) {
     Point prev = null;
-    for (Point cur : ListSequence.fromList(polyline)) {
+    for (Point cur : ListSequence.<Point>fromList(polyline)) {
       if (prev != null && rect.intersectsSegment(prev, cur)) {
         return true;
       }

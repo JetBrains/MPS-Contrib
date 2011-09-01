@@ -22,7 +22,7 @@ public class CheckCycles extends Dfs {
 
   @Override
   protected void processEdge(Edge edge, Node source) {
-    if (MapSequence.fromMap(getDfsState()).get(edge.getTarget()) == 0) {
+    if (MapSequence.<Node,Integer>fromMap(getDfsState()).get(edge.getTarget()) == 0) {
       hasCycles = false;
     }
   }

@@ -39,79 +39,79 @@ public class ConstraintsSupporter {
     Graph graph = myStPlanarGraph.getGraph();
     myModifiedGraph = splitNodes(graph);
     myModifiedDualGraph = modifyDualGraph(stPlanarGraph);
-    Map<Edge, Integer> edgeWeights = MapSequence.fromMap(new HashMap<Edge, Integer>());
-    for (Node node : ListSequence.fromList(graph.getNodes())) {
-      MapSequence.fromMap(edgeWeights).put(MapSequence.fromMap(myFakeEdges).get(node), MapSequence.fromMap(nodeConstraints).get(node).height);
+    Map<Edge, Integer> edgeWeights = MapSequence.<Edge,Integer>fromMap(new HashMap<Edge, Integer>());
+    for (Node node : ListSequence.<Node>fromList(graph.getNodes())) {
+      MapSequence.<Edge,Integer>fromMap(edgeWeights).put(MapSequence.<Node,Edge>fromMap(myFakeEdges).get(node), MapSequence.<Node,Dimension>fromMap(nodeConstraints).get(node).height);
     }
-    for (Edge edge : ListSequence.fromList(graph.getEdges())) {
-      MapSequence.fromMap(edgeWeights).put(MapSequence.fromMap(myEdgesMap).get(edge), MapSequence.fromMap(edgeConstraints).get(edge).height);
+    for (Edge edge : ListSequence.<Edge>fromList(graph.getEdges())) {
+      MapSequence.<Edge,Integer>fromMap(edgeWeights).put(MapSequence.<Edge,Edge>fromMap(myEdgesMap).get(edge), MapSequence.<Edge,Dimension>fromMap(edgeConstraints).get(edge).height);
     }
-    Map<Edge, Integer> dualEdgeWeights = MapSequence.fromMap(new HashMap<Edge, Integer>());
-    for (Node node : ListSequence.fromList(graph.getNodes())) {
-      MapSequence.fromMap(dualEdgeWeights).put(MapSequence.fromMap(myFakeDualEdges).get(node), MapSequence.fromMap(nodeConstraints).get(node).width);
+    Map<Edge, Integer> dualEdgeWeights = MapSequence.<Edge,Integer>fromMap(new HashMap<Edge, Integer>());
+    for (Node node : ListSequence.<Node>fromList(graph.getNodes())) {
+      MapSequence.<Edge,Integer>fromMap(dualEdgeWeights).put(MapSequence.<Node,Edge>fromMap(myFakeDualEdges).get(node), MapSequence.<Node,Dimension>fromMap(nodeConstraints).get(node).width);
     }
-    for (Edge edge : ListSequence.fromList(myModifiedDualGraph.getEdges())) {
-      Edge realEdge = MapSequence.fromMap(myModifiedDualGraph.getEdgesMap()).get(edge);
-      Dimension dimension = MapSequence.fromMap(edgeConstraints).get(realEdge);
+    for (Edge edge : ListSequence.<Edge>fromList(myModifiedDualGraph.getEdges())) {
+      Edge realEdge = MapSequence.<Edge,Edge>fromMap(myModifiedDualGraph.getEdgesMap()).get(edge);
+      Dimension dimension = MapSequence.<Edge,Dimension>fromMap(edgeConstraints).get(realEdge);
       // dimension is null only for fake dual edges 
       if (dimension != null) {
-        MapSequence.fromMap(dualEdgeWeights).put(edge, dimension.width);
+        MapSequence.<Edge,Integer>fromMap(dualEdgeWeights).put(edge, dimension.width);
       }
     }
     myVerNumbering = WeightedTopologicalNumbering.number(myModifiedGraph, edgeWeights);
     myHorNumbering = WeightedTopologicalNumbering.number(myModifiedDualGraph, dualEdgeWeights);
-    Map<Object, Rectangle> representation = MapSequence.fromMap(new HashMap<Object, Rectangle>());
-    for (Node node : ListSequence.fromList(graph.getNodes())) {
-      MapSequence.fromMap(representation).put(node, getRectangle(node, MapSequence.fromMap(myFakeEdges).get(node)));
+    Map<Object, Rectangle> representation = MapSequence.<Object,Rectangle>fromMap(new HashMap<Object, Rectangle>());
+    for (Node node : ListSequence.<Node>fromList(graph.getNodes())) {
+      MapSequence.<Object,Rectangle>fromMap(representation).put(node, getRectangle(node, MapSequence.<Node,Edge>fromMap(myFakeEdges).get(node)));
     }
-    for (Edge edge : ListSequence.fromList(graph.getEdges())) {
-      MapSequence.fromMap(representation).put(edge, getRectangle(edge, MapSequence.fromMap(myEdgesMap).get(edge)));
+    for (Edge edge : ListSequence.<Edge>fromList(graph.getEdges())) {
+      MapSequence.<Object,Rectangle>fromMap(representation).put(edge, getRectangle(edge, MapSequence.<Edge,Edge>fromMap(myEdgesMap).get(edge)));
     }
     return representation;
   }
 
   private Rectangle getRectangle(Object graphObject, Edge fakeEdge) {
     Face leftFace = myStPlanarGraph.getLeftFace(graphObject);
-    int minX = MapSequence.fromMap(myHorNumbering).get(MapSequence.fromMap(myModifiedDualGraph.getNodesMap()).get(leftFace));
+    int minX = MapSequence.<Node,Integer>fromMap(myHorNumbering).get(MapSequence.<Face,Node>fromMap(myModifiedDualGraph.getNodesMap()).get(leftFace));
     int maxX = this.getMaxX(graphObject);
-    int minY = MapSequence.fromMap(myVerNumbering).get(fakeEdge.getSource());
-    int maxY = MapSequence.fromMap(myVerNumbering).get(fakeEdge.getTarget());
+    int minY = MapSequence.<Node,Integer>fromMap(myVerNumbering).get(fakeEdge.getSource());
+    int maxY = MapSequence.<Node,Integer>fromMap(myVerNumbering).get(fakeEdge.getTarget());
     return new Rectangle(minX, minY, maxX - minX, maxY - minY);
   }
 
   private int getMaxX(Object graphObject) {
     Face rightFace = myStPlanarGraph.getRightFace(graphObject);
-    int maxX = MapSequence.fromMap(myHorNumbering).get(MapSequence.fromMap(myModifiedDualGraph.getNodesMap()).get(rightFace));
+    int maxX = MapSequence.<Node,Integer>fromMap(myHorNumbering).get(MapSequence.<Face,Node>fromMap(myModifiedDualGraph.getNodesMap()).get(rightFace));
     Face outerFace = myStPlanarGraph.getEmbeddedGraph().getOuterFace();
     Node dualTarget = myModifiedDualGraph.getNode(myModifiedDualGraph.getNumNodes() - 1);
     if (rightFace == outerFace) {
-      maxX = MapSequence.fromMap(myHorNumbering).get(dualTarget);
+      maxX = MapSequence.<Node,Integer>fromMap(myHorNumbering).get(dualTarget);
     }
     return maxX;
   }
 
   private DualGraph modifyDualGraph(STPlanarGraph stPlanarGraph) {
-    myFakeDualEdges = MapSequence.fromMap(new HashMap<Node, Edge>());
+    myFakeDualEdges = MapSequence.<Node,Edge>fromMap(new HashMap<Node, Edge>());
     DualGraph dualGraph = stPlanarGraph.getModifiedDualGraph();
     Face outerFace = stPlanarGraph.getEmbeddedGraph().getOuterFace();
-    Node dualSource = MapSequence.fromMap(dualGraph.getNodesMap()).get(outerFace);
+    Node dualSource = MapSequence.<Face,Node>fromMap(dualGraph.getNodesMap()).get(outerFace);
     Node dualTarget = dualGraph.getNode(dualGraph.getNumNodes() - 1);
-    for (Node node : ListSequence.fromList(stPlanarGraph.getGraph().getNodes())) {
+    for (Node node : ListSequence.<Node>fromList(stPlanarGraph.getGraph().getNodes())) {
       Face leftFace = stPlanarGraph.getLeftFace(node);
       Node dualLeft;
       if (leftFace == outerFace) {
         dualLeft = dualSource;
       } else {
-        dualLeft = MapSequence.fromMap(dualGraph.getNodesMap()).get(leftFace);
+        dualLeft = MapSequence.<Face,Node>fromMap(dualGraph.getNodesMap()).get(leftFace);
       }
       Face rightFace = stPlanarGraph.getRightFace(node);
       Node dualRight;
       if (rightFace == outerFace) {
         dualRight = dualTarget;
       } else {
-        dualRight = MapSequence.fromMap(dualGraph.getNodesMap()).get(rightFace);
+        dualRight = MapSequence.<Face,Node>fromMap(dualGraph.getNodesMap()).get(rightFace);
       }
-      MapSequence.fromMap(myFakeDualEdges).put(node, dualGraph.addEdge(dualLeft, dualRight, MapSequence.fromMap(myFakeEdges).get(node)));
+      MapSequence.<Node,Edge>fromMap(myFakeDualEdges).put(node, dualGraph.addEdge(dualLeft, dualRight, MapSequence.<Node,Edge>fromMap(myFakeEdges).get(node)));
     }
     return dualGraph;
   }
@@ -120,15 +120,15 @@ public class ConstraintsSupporter {
     myInNode = new NodeMap<Node>(graph);
     myOutNode = new NodeMap<Node>(graph);
     myFakeEdges = new NodeMap<Edge>(graph);
-    myEdgesMap = MapSequence.fromMap(new HashMap<Edge, Edge>());
+    myEdgesMap = MapSequence.<Edge,Edge>fromMap(new HashMap<Edge, Edge>());
     Graph modifiedGraph = new Graph();
-    for (Node node : ListSequence.fromList(graph.getNodes())) {
-      MapSequence.fromMap(myInNode).put(node, modifiedGraph.createNode());
-      MapSequence.fromMap(myOutNode).put(node, modifiedGraph.createNode());
-      MapSequence.fromMap(myFakeEdges).put(node, modifiedGraph.connect(MapSequence.fromMap(myInNode).get(node), MapSequence.fromMap(myOutNode).get(node)));
+    for (Node node : ListSequence.<Node>fromList(graph.getNodes())) {
+      MapSequence.<Node,Node>fromMap(myInNode).put(node, modifiedGraph.createNode());
+      MapSequence.<Node,Node>fromMap(myOutNode).put(node, modifiedGraph.createNode());
+      MapSequence.<Node,Edge>fromMap(myFakeEdges).put(node, modifiedGraph.connect(MapSequence.<Node,Node>fromMap(myInNode).get(node), MapSequence.<Node,Node>fromMap(myOutNode).get(node)));
     }
-    for (Edge edge : ListSequence.fromList(graph.getEdges())) {
-      MapSequence.fromMap(myEdgesMap).put(edge, modifiedGraph.connect(MapSequence.fromMap(myOutNode).get(edge.getSource()), MapSequence.fromMap(myInNode).get(edge.getTarget())));
+    for (Edge edge : ListSequence.<Edge>fromList(graph.getEdges())) {
+      MapSequence.<Edge,Edge>fromMap(myEdgesMap).put(edge, modifiedGraph.connect(MapSequence.<Node,Node>fromMap(myOutNode).get(edge.getSource()), MapSequence.<Node,Node>fromMap(myInNode).get(edge.getTarget())));
     }
     return modifiedGraph;
   }

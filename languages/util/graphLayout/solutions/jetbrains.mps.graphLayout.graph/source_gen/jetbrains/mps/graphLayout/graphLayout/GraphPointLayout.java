@@ -18,8 +18,8 @@ public class GraphPointLayout {
 
   public GraphPointLayout(Graph graph) {
     myGraph = graph;
-    myNodeLayout = MapSequence.fromMap(new HashMap<Node, Point>());
-    myEdgeLayout = MapSequence.fromMap(new HashMap<Edge, List<Point>>());
+    myNodeLayout = MapSequence.<Node,Point>fromMap(new HashMap<Node, Point>());
+    myEdgeLayout = MapSequence.<Edge,List<Point>>fromMap(new HashMap<Edge, List<Point>>());
   }
 
   public Map<Node, Point> getNodeLayout() {
@@ -39,19 +39,19 @@ public class GraphPointLayout {
   }
 
   public void setLayoutFor(Node node, Point point) {
-    MapSequence.fromMap(myNodeLayout).put(node, point);
+    MapSequence.<Node,Point>fromMap(myNodeLayout).put(node, point);
   }
 
   public Point getLayoutFor(Node node) {
-    return MapSequence.fromMap(myNodeLayout).get(node);
+    return MapSequence.<Node,Point>fromMap(myNodeLayout).get(node);
   }
 
   public void setLayoutFor(Edge edge, List<Point> points) {
-    MapSequence.fromMap(myEdgeLayout).put(edge, points);
+    MapSequence.<Edge,List<Point>>fromMap(myEdgeLayout).put(edge, points);
   }
 
   public List<Point> getLayoutFor(Edge edge) {
-    return MapSequence.fromMap(myEdgeLayout).get(edge);
+    return MapSequence.<Edge,List<Point>>fromMap(myEdgeLayout).get(edge);
   }
 
   public Graph getGraph() {

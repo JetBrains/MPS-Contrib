@@ -16,8 +16,8 @@ public class NodeWithEdgeOrder {
 
   public NodeWithEdgeOrder(Node node) {
     myNode = node;
-    myInEdgesOrder = ListSequence.fromList(new ArrayList<Edge>());
-    myOutEdgesOrder = ListSequence.fromList(new ArrayList<Edge>());
+    myInEdgesOrder = ListSequence.<Edge>fromList(new ArrayList<Edge>());
+    myOutEdgesOrder = ListSequence.<Edge>fromList(new ArrayList<Edge>());
     myIsReverseOrder = false;
   }
 
@@ -27,7 +27,7 @@ public class NodeWithEdgeOrder {
 
   public List<Edge> getInEdgesOrder() {
     if (myIsReverseOrder) {
-      return ListSequence.fromList(myInEdgesOrder).reversedList();
+      return ListSequence.<Edge>fromList(myInEdgesOrder).reversedList();
     } else {
       return myInEdgesOrder;
     }
@@ -35,7 +35,7 @@ public class NodeWithEdgeOrder {
 
   public List<Edge> getOutEdgesOrder() {
     if (myIsReverseOrder) {
-      return ListSequence.fromList(myOutEdgesOrder).reversedList();
+      return ListSequence.<Edge>fromList(myOutEdgesOrder).reversedList();
     } else {
       return myOutEdgesOrder;
     }

@@ -8,6 +8,7 @@
     <classNode dependClassName="javax.swing.SwingUtilities" />
     <classNode dependClassName="jetbrains.mps.graphLayout.flowOrthogonalLayout.ClusterOrthogonalFlowLayouter" />
     <classNode dependClassName="jetbrains.mps.graphLayout.graph.ClusteredGraph" />
+    <classNode dependClassName="jetbrains.mps.graphLayout.graph.Edge" />
     <classNode dependClassName="jetbrains.mps.graphLayout.graph.Graph" />
     <classNode dependClassName="jetbrains.mps.graphLayout.graph.Node" />
     <classNode dependClassName="jetbrains.mps.internal.collections.runtime.ListSequence" />

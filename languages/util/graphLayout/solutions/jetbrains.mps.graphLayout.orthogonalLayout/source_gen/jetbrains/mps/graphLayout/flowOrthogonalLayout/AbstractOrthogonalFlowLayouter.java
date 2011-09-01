@@ -65,7 +65,7 @@ public abstract class AbstractOrthogonalFlowLayouter extends BasicLayouter {
   }
 
   private void refineLayout(GraphLayout layout) {
-    for (IEdge edge : SetSequence.fromSet(MapSequence.fromMap(layout.getEdgeLayout()).keySet())) {
+    for (IEdge edge : SetSequence.<IEdge>fromSet(MapSequence.fromMap(layout.getEdgeLayout()).keySet())) {
       layout.setLayoutFor(edge, OrthogonalUtil.refinePolyline(layout.getEdgeLayout(edge)));
     }
   }
@@ -79,13 +79,13 @@ public abstract class AbstractOrthogonalFlowLayouter extends BasicLayouter {
     }
     CreationStageManager stageManager = new CreationStageManager(graph);
     EdgesHistoryManager historyManager = new EdgesHistoryManager(graph);
-    Set<Node> initialNodes = SetSequence.fromSet(new LinkedHashSet<Node>());
-    SetSequence.fromSet(initialNodes).addSequence(ListSequence.fromList(graph.getNodes()));
-    myRealNodes = SetSequence.fromSet(new HashSet<Node>());
-    SetSequence.fromSet(myRealNodes).addSequence(ListSequence.fromList(graph.getNodes()));
-    Set<Edge> initialEdges = SetSequence.fromSet(new LinkedHashSet<Edge>());
-    SetSequence.fromSet(initialEdges).addSequence(ListSequence.fromList(graph.getEdges()));
-    Set<Edge> loops = SetSequence.fromSet(new LinkedHashSet<Edge>());
+    Set<Node> initialNodes = SetSequence.<Node>fromSet(new LinkedHashSet<Node>());
+    SetSequence.fromSet(initialNodes).addSequence(ListSequence.<Node>fromList(graph.getNodes()));
+    myRealNodes = SetSequence.<Node>fromSet(new HashSet<Node>());
+    SetSequence.fromSet(myRealNodes).addSequence(ListSequence.<Node>fromList(graph.getNodes()));
+    Set<Edge> initialEdges = SetSequence.<Edge>fromSet(new LinkedHashSet<Edge>());
+    SetSequence.fromSet(initialEdges).addSequence(ListSequence.<Edge>fromList(graph.getEdges()));
+    Set<Edge> loops = SetSequence.<Edge>fromSet(new LinkedHashSet<Edge>());
     this.removeLoops(graph, loops);
     // embedded graph must be biconnected to be properly processed by quasi-ortogonal representation creator 
     BiconnectAugmentation.smartMakeBiconnected(graph);
@@ -96,34 +96,34 @@ public abstract class AbstractOrthogonalFlowLayouter extends BasicLayouter {
     // will have >4 edges and will be wrongly processed by quasi-orthogonal representation creator 
     /*
       Set<Edge> newEdges = BiconnectAugmentation.smartMakeBiconnected(graph);
-      for (Edge edge : SetSequence.fromSet(newEdges)) {
+      for (Edge edge : SetSequence.<Edge>fromSet(newEdges)) {
         graph.removeEdge(edge);
       }
-      for (Edge edge : SetSequence.fromSet(newEdges)) {
+      for (Edge edge : SetSequence.<Edge>fromSet(newEdges)) {
         ShortestPathEmbeddingFinder.restoreEdge(embeddedGraph, edge, false);
       }
     */
-    myRealEdges = SetSequence.fromSet(new HashSet<Edge>());
-    Map<Edge, List<Edge>> history = MapSequence.fromMap(new HashMap<Edge, List<Edge>>());
-    for (Edge edge : SetSequence.fromSet(initialEdges)) {
+    myRealEdges = SetSequence.<Edge>fromSet(new HashSet<Edge>());
+    Map<Edge, List<Edge>> history = MapSequence.<Edge,List<Edge>>fromMap(new HashMap<Edge, List<Edge>>());
+    for (Edge edge : SetSequence.<Edge>fromSet(initialEdges)) {
       List<Edge> historyEdges = historyManager.getHistory(edge);
-      MapSequence.fromMap(history).put(edge, historyEdges);
-      SetSequence.fromSet(myRealEdges).addSequence(ListSequence.fromList(historyEdges));
+      MapSequence.<Edge,List<Edge>>fromMap(history).put(edge, historyEdges);
+      SetSequence.fromSet(myRealEdges).addSequence(ListSequence.<Edge>fromList(historyEdges));
     }
-    for (Edge edge : ListSequence.fromList(graph.getEdges())) {
-      MapSequence.fromMap(history).put(edge, historyManager.getHistory(edge));
+    for (Edge edge : ListSequence.<Edge>fromList(graph.getEdges())) {
+      MapSequence.<Edge,List<Edge>>fromMap(history).put(edge, historyManager.getHistory(edge));
     }
-    Map<Edge, Edge> labeledEdges = MapSequence.fromMap(new HashMap<Edge, Edge>());
+    Map<Edge, Edge> labeledEdges = MapSequence.<Edge,Edge>fromMap(new HashMap<Edge, Edge>());
     LayoutInfo newInfo = new LayoutInfo(graph);
-    for (Node node : SetSequence.fromSet(layoutInfo.getNodesWithSize())) {
+    for (Node node : SetSequence.<Node>fromSet(layoutInfo.getNodesWithSize())) {
       Dimension size = layoutInfo.getNodeSize(node);
       if (size != null) {
         newInfo.setNodeSize(node, size);
       }
     }
-    for (Edge edge : SetSequence.fromSet(layoutInfo.getLabeledEdges())) {
-      Edge labeledEdge = getLabeledEdge(MapSequence.fromMap(history).get(edge));
-      MapSequence.fromMap(labeledEdges).put(edge, labeledEdge);
+    for (Edge edge : SetSequence.<Edge>fromSet(layoutInfo.getLabeledEdges())) {
+      Edge labeledEdge = getLabeledEdge(MapSequence.<Edge,List<Edge>>fromMap(history).get(edge));
+      MapSequence.<Edge,Edge>fromMap(labeledEdges).put(edge, labeledEdge);
       newInfo.setLabelSize(labeledEdge, layoutInfo.getLabelSize(edge));
     }
     GraphLayout layout = getLayoutFromEmbeddedGraph(embeddedGraph, newInfo);
@@ -133,7 +133,7 @@ public abstract class AbstractOrthogonalFlowLayouter extends BasicLayouter {
 
   protected GraphLayout getSingleNodeLayout(Graph graph, LayoutInfo layoutInfo) {
     GraphLayout layout = new GraphLayout(graph);
-    Node node = ListSequence.fromList(graph.getNodes()).first();
+    Node node = ListSequence.<Node>fromList(graph.getNodes()).first();
     Dimension size = layoutInfo.getNodeSize(node);
     Rectangle rect = new Rectangle(0, 0, size.width, size.height);
     layout.setLayoutFor(node, rect);
@@ -141,7 +141,7 @@ public abstract class AbstractOrthogonalFlowLayouter extends BasicLayouter {
   }
 
   private void removeLoops(Graph graph, Set<Edge> loops) {
-    for (Edge edge : ListSequence.fromList(graph.getEdges())) {
+    for (Edge edge : ListSequence.<Edge>fromList(graph.getEdges())) {
       if (edge.getSource() == edge.getTarget()) {
         SetSequence.fromSet(loops).addElement(edge);
         graph.removeEdge(edge);
@@ -151,45 +151,45 @@ public abstract class AbstractOrthogonalFlowLayouter extends BasicLayouter {
 
   protected GraphLayout refineLayout(Graph graph, Set<Node> initialNodes, GraphLayout layout, Set<Edge> initialEdges, Map<Edge, List<Edge>> history, Map<Edge, Edge> labeledEdges) {
     GraphLayout initialLayout = GraphLayoutFactory.createGraphLayout(graph);
-    for (Node node : SetSequence.fromSet(initialNodes)) {
+    for (Node node : SetSequence.<Node>fromSet(initialNodes)) {
       initialLayout.setLayoutFor(node, layout.getNodeLayout(node));
     }
-    for (Edge edge : SetSequence.fromSet(initialEdges)) {
-      List<Point> edgeLayout = ListSequence.fromList(new ArrayList<Point>());
+    for (Edge edge : SetSequence.<Edge>fromSet(initialEdges)) {
+      List<Point> edgeLayout = ListSequence.<Point>fromList(new ArrayList<Point>());
       Node cur = edge.getSource();
-      for (Edge historyEdge : ListSequence.fromList(MapSequence.fromMap(history).get(edge))) {
+      for (Edge historyEdge : ListSequence.<Edge>fromList(MapSequence.<Edge,List<Edge>>fromMap(history).get(edge))) {
         List<Point> historyLayout = layout.getEdgeLayout(historyEdge);
         if (historyEdge.getSource() != cur) {
-          historyLayout = ListSequence.fromList(historyLayout).reversedList();
+          historyLayout = ListSequence.<Point>fromList(historyLayout).reversedList();
         }
-        ListSequence.fromList(edgeLayout).addSequence(ListSequence.fromList(historyLayout));
+        ListSequence.<Point>fromList(edgeLayout).addSequence(ListSequence.<Point>fromList(historyLayout));
         cur = historyEdge.getOpposite(cur);
       }
       initialLayout.setLayoutFor(edge, edgeLayout);
     }
-    for (Edge edge : SetSequence.fromSet(MapSequence.fromMap(labeledEdges).keySet())) {
-      initialLayout.setLabelLayout(edge, layout.getLabelLayout(MapSequence.fromMap(labeledEdges).get(edge)));
+    for (Edge edge : SetSequence.<Edge>fromSet(MapSequence.fromMap(labeledEdges).keySet())) {
+      initialLayout.setLabelLayout(edge, layout.getLabelLayout(MapSequence.<Edge,Edge>fromMap(labeledEdges).get(edge)));
     }
     return initialLayout;
   }
 
   private void addLoops(Set<Edge> loops, EmbeddedGraph embeddedGraph) {
-    Map<Node, Face> facesMap = MapSequence.fromMap(new HashMap<Node, Face>());
-    for (Edge edge : SetSequence.fromSet(loops)) {
+    Map<Node, Face> facesMap = MapSequence.<Node,Face>fromMap(new HashMap<Node, Face>());
+    for (Edge edge : SetSequence.<Edge>fromSet(loops)) {
       Node node = edge.getSource();
-      Face face = MapSequence.fromMap(facesMap).get(node);
+      Face face = MapSequence.<Node,Face>fromMap(facesMap).get(node);
       if (face == null) {
         Face outerFace = embeddedGraph.getOuterFace();
-        if (outerFace.contains(ListSequence.fromListAndArray(new ArrayList<Node>(), node))) {
+        if (outerFace.contains(ListSequence.<Node>fromListAndArray(new ArrayList<Node>(), node))) {
           face = outerFace;
         } else {
-          Edge nodeEdge = ListSequence.fromList(node.getEdges()).first();
-          face = ListSequence.fromList(embeddedGraph.getAdjacentFaces(nodeEdge)).first();
+          Edge nodeEdge = ListSequence.<Edge>fromList(node.getEdges()).first();
+          face = ListSequence.<Face>fromList(embeddedGraph.getAdjacentFaces(nodeEdge)).first();
         }
       }
       List<Edge> newEdges = embeddedGraph.getGraph().splitEdge(edge);
       Face newFace = embeddedGraph.makeLoop(face, newEdges, node);
-      MapSequence.fromMap(facesMap).put(node, newFace);
+      MapSequence.<Node,Face>fromMap(facesMap).put(node, newFace);
     }
   }
 
@@ -203,40 +203,40 @@ public abstract class AbstractOrthogonalFlowLayouter extends BasicLayouter {
   public abstract GraphLayout getLayoutFromEmbeddedGraph(EmbeddedGraph embeddedGraph, LayoutInfo layoutInfo);
 
   protected Map<Node, Map<Direction2D, Integer>> getNodeDirectionSizes(List<Node> oldNodes, Map<Node, Dimension> nodeSizes) {
-    Map<Node, Map<Direction2D, Integer>> nodeDirectionSizes = MapSequence.fromMap(new HashMap<Node, Map<Direction2D, Integer>>());
-    for (Node node : ListSequence.fromList(oldNodes)) {
-      Map<Direction2D, Integer> directionSizes = MapSequence.fromMap(new HashMap<Direction2D, Integer>());
-      Dimension size = MapSequence.fromMap(nodeSizes).get(node);
+    Map<Node, Map<Direction2D, Integer>> nodeDirectionSizes = MapSequence.<Node,Map<Direction2D, Integer>>fromMap(new HashMap<Node, Map<Direction2D, Integer>>());
+    for (Node node : ListSequence.<Node>fromList(oldNodes)) {
+      Map<Direction2D, Integer> directionSizes = MapSequence.<Direction2D,Integer>fromMap(new HashMap<Direction2D, Integer>());
+      Dimension size = MapSequence.<Node,Dimension>fromMap(nodeSizes).get(node);
       int horSize = size.height;
-      MapSequence.fromMap(directionSizes).put(Direction2D.UP, horSize / 2);
-      MapSequence.fromMap(directionSizes).put(Direction2D.DOWN, horSize - MapSequence.fromMap(directionSizes).get(Direction2D.UP));
+      MapSequence.<Direction2D,Integer>fromMap(directionSizes).put(Direction2D.UP, horSize / 2);
+      MapSequence.<Direction2D,Integer>fromMap(directionSizes).put(Direction2D.DOWN, horSize - MapSequence.<Direction2D,Integer>fromMap(directionSizes).get(Direction2D.UP));
       int verSize = size.width;
-      MapSequence.fromMap(directionSizes).put(Direction2D.LEFT, verSize / 2);
-      MapSequence.fromMap(directionSizes).put(Direction2D.RIGHT, verSize - MapSequence.fromMap(directionSizes).get(Direction2D.LEFT));
-      MapSequence.fromMap(nodeDirectionSizes).put(node, directionSizes);
+      MapSequence.<Direction2D,Integer>fromMap(directionSizes).put(Direction2D.LEFT, verSize / 2);
+      MapSequence.<Direction2D,Integer>fromMap(directionSizes).put(Direction2D.RIGHT, verSize - MapSequence.<Direction2D,Integer>fromMap(directionSizes).get(Direction2D.LEFT));
+      MapSequence.<Node,Map<Direction2D, Integer>>fromMap(nodeDirectionSizes).put(node, directionSizes);
     }
     return nodeDirectionSizes;
   }
 
   protected Map<Edge, Integer> getEdgesShifts(List<QuasiRepresentationModifier.Modification> modifications, Map<Dart, Direction2D> directions, Map<Node, Dimension> nodeSizes) {
-    Map<Edge, Integer> edgeShifts = MapSequence.fromMap(new HashMap<Edge, Integer>());
-    for (QuasiRepresentationModifier.Modification modification : ListSequence.fromList(modifications)) {
+    Map<Edge, Integer> edgeShifts = MapSequence.<Edge,Integer>fromMap(new HashMap<Edge, Integer>());
+    for (QuasiRepresentationModifier.Modification modification : ListSequence.<QuasiRepresentationModifier.Modification>fromList(modifications)) {
       List<Edge> edges = modification.getNewEdges();
       Node node = modification.getSource();
-      Direction2D dir = MapSequence.fromMap(directions).get(modification.getSourceDart());
+      Direction2D dir = MapSequence.<Dart,Direction2D>fromMap(directions).get(modification.getSourceDart());
       int nodeLength;
       if (dir.isVertical()) {
-        nodeLength = MapSequence.fromMap(nodeSizes).get(node).width / 2;
+        nodeLength = MapSequence.<Node,Dimension>fromMap(nodeSizes).get(node).width / 2;
       } else {
-        nodeLength = MapSequence.fromMap(nodeSizes).get(node).height / 2;
+        nodeLength = MapSequence.<Node,Dimension>fromMap(nodeSizes).get(node).height / 2;
       }
       /*
         nodeLength = Math.min(nodeLength, getUnitLength());
       */
-      int unitShift = nodeLength / ListSequence.fromList(edges).count();
+      int unitShift = nodeLength / ListSequence.<Edge>fromList(edges).count();
       int curShift = 0;
-      for (Edge edge : ListSequence.fromList(edges)) {
-        MapSequence.fromMap(edgeShifts).put(edge, curShift);
+      for (Edge edge : ListSequence.<Edge>fromList(edges)) {
+        MapSequence.<Edge,Integer>fromMap(edgeShifts).put(edge, curShift);
         curShift += unitShift;
       }
     }
@@ -245,33 +245,33 @@ public abstract class AbstractOrthogonalFlowLayouter extends BasicLayouter {
 
   protected void splitEdges(GraphLayout layout, QuasiRepresentationModifier.Modification modification, Map<Edge, Integer> edgeShifts) {
     List<Edge> edges = modification.getModifiedEdges();
-    Edge firstEdge = ListSequence.fromList(edges).first();
+    Edge firstEdge = ListSequence.<Edge>fromList(edges).first();
     List<Point> path = layout.getEdgeLayout(firstEdge);
     Node node = modification.getSource();
     Direction2D dartsDir;
     if (firstEdge.getSource() == node) {
-      dartsDir = OrthogonalUtil.getDirection(ListSequence.fromList(path).getElement(0), ListSequence.fromList(path).getElement(1));
+      dartsDir = OrthogonalUtil.getDirection(ListSequence.<Point>fromList(path).getElement(0), ListSequence.<Point>fromList(path).getElement(1));
     } else {
-      int last = ListSequence.fromList(path).count() - 1;
-      dartsDir = OrthogonalUtil.getDirection(ListSequence.fromList(path).getElement(last), ListSequence.fromList(path).getElement(last - 1));
+      int last = ListSequence.<Point>fromList(path).count() - 1;
+      dartsDir = OrthogonalUtil.getDirection(ListSequence.<Point>fromList(path).getElement(last), ListSequence.<Point>fromList(path).getElement(last - 1));
     }
     Direction2D shiftDir = dartsDir.turnClockwise(3);
     int dx = shiftDir.dx();
     int dy = shiftDir.dy();
-    Iterator<Edge> newEdgeItr = ListSequence.fromList(modification.getNewEdges()).iterator();
-    for (Edge edge : ListSequence.fromList(edges)) {
+    Iterator<Edge> newEdgeItr = ListSequence.<Edge>fromList(modification.getNewEdges()).iterator();
+    for (Edge edge : ListSequence.<Edge>fromList(edges)) {
       layout.removeStraightBends(edge);
       List<Point> edgeLayout = layout.getEdgeLayout(edge);
       List<Point> pointsToShift;
       if (edge.getSource() == node) {
-        pointsToShift = ListSequence.fromListAndArray(new ArrayList<Point>(), ListSequence.fromList(edgeLayout).getElement(0), ListSequence.fromList(edgeLayout).getElement(1));
+        pointsToShift = ListSequence.<Point>fromListAndArray(new ArrayList<Point>(), ListSequence.<Point>fromList(edgeLayout).getElement(0), ListSequence.<Point>fromList(edgeLayout).getElement(1));
       } else {
-        int last = ListSequence.fromList(edgeLayout).count() - 1;
-        pointsToShift = ListSequence.fromListAndArray(new ArrayList<Point>(), ListSequence.fromList(edgeLayout).getElement(last), ListSequence.fromList(edgeLayout).getElement(last - 1));
+        int last = ListSequence.<Point>fromList(edgeLayout).count() - 1;
+        pointsToShift = ListSequence.<Point>fromListAndArray(new ArrayList<Point>(), ListSequence.<Point>fromList(edgeLayout).getElement(last), ListSequence.<Point>fromList(edgeLayout).getElement(last - 1));
       }
       Edge newEdge = newEdgeItr.next();
-      for (Point point : ListSequence.fromList(pointsToShift)) {
-        point.translate(dx * MapSequence.fromMap(edgeShifts).get(newEdge), dy * MapSequence.fromMap(edgeShifts).get(newEdge));
+      for (Point point : ListSequence.<Point>fromList(pointsToShift)) {
+        point.translate(dx * MapSequence.<Edge,Integer>fromMap(edgeShifts).get(newEdge), dy * MapSequence.<Edge,Integer>fromMap(edgeShifts).get(newEdge));
       }
     }
   }

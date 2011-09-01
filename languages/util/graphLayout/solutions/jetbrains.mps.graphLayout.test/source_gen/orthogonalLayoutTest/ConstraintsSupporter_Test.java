@@ -10,6 +10,7 @@ import jetbrains.mps.graphLayout.planarGraph.EmbeddedGraph;
 import jetbrains.mps.graphLayout.planarization.TreeEmbeddingFinder;
 import jetbrains.mps.graphLayout.graph.Node;
 import jetbrains.mps.internal.collections.runtime.ListSequence;
+import jetbrains.mps.graphLayout.planarGraph.Dart;
 import jetbrains.mps.graphLayout.algorithms.GraphOrientation;
 import jetbrains.mps.graphLayout.planarGraph.STPlanarGraph;
 import java.util.Map;
@@ -33,21 +34,21 @@ public class ConstraintsSupporter_Test extends TestCase {
 
   public void test(Graph graph) {
     EmbeddedGraph embeddedGraph = new TreeEmbeddingFinder().find(graph);
-    Node s = ListSequence.fromList(embeddedGraph.getOuterFace().getDarts()).getElement(0).getSource();
-    Node t = ListSequence.fromList(embeddedGraph.getOuterFace().getDarts()).getElement(0).getTarget();
+    Node s = ListSequence.<Dart>fromList(embeddedGraph.getOuterFace().getDarts()).getElement(0).getSource();
+    Node t = ListSequence.<Dart>fromList(embeddedGraph.getOuterFace().getDarts()).getElement(0).getTarget();
     GraphOrientation.orientST(graph, s, t);
     STPlanarGraph stPlanarGraph = new STPlanarGraph(embeddedGraph, s, t);
-    Map<Node, Dimension> sizes = MapSequence.fromMap(new HashMap<Node, Dimension>());
-    Map<Edge, Dimension> edgeSizes = MapSequence.fromMap(new HashMap<Edge, Dimension>());
-    for (Node node : ListSequence.fromList(graph.getNodes())) {
+    Map<Node, Dimension> sizes = MapSequence.<Node,Dimension>fromMap(new HashMap<Node, Dimension>());
+    Map<Edge, Dimension> edgeSizes = MapSequence.<Edge,Dimension>fromMap(new HashMap<Edge, Dimension>());
+    for (Node node : ListSequence.<Node>fromList(graph.getNodes())) {
       if (node.isDummy()) {
-        MapSequence.fromMap(sizes).put(node, new Dimension(0, 0));
+        MapSequence.<Node,Dimension>fromMap(sizes).put(node, new Dimension(0, 0));
       } else {
-        MapSequence.fromMap(sizes).put(node, new Dimension(5, 5));
+        MapSequence.<Node,Dimension>fromMap(sizes).put(node, new Dimension(5, 5));
       }
     }
-    for (Edge edge : ListSequence.fromList(graph.getEdges())) {
-      MapSequence.fromMap(edgeSizes).put(edge, new Dimension(5, 5));
+    for (Edge edge : ListSequence.<Edge>fromList(graph.getEdges())) {
+      MapSequence.<Edge,Dimension>fromMap(edgeSizes).put(edge, new Dimension(5, 5));
     }
     Map<Object, Rectangle> rep = new ConstraintsSupporter().getRepresentation(stPlanarGraph, sizes, edgeSizes);
     ConstraintsChecker.check(graph, rep, sizes);

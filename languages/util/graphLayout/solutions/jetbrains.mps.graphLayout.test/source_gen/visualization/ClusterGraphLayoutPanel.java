@@ -7,6 +7,7 @@ import java.util.Scanner;
 import jetbrains.mps.graphLayout.graph.ClusteredGraph;
 import jetbrains.mps.graphLayout.graph.Node;
 import jetbrains.mps.internal.collections.runtime.ListSequence;
+import jetbrains.mps.graphLayout.graph.Edge;
 import jetbrains.mps.graphLayout.flowOrthogonalLayout.ClusterOrthogonalFlowLayouter;
 import sampleGraphs.AbstractGraphGenerator;
 import sampleGraphs.SimpleConnectedGraphGenerator;
@@ -25,8 +26,8 @@ public class ClusterGraphLayoutPanel extends OrthogonalLayoutTestPanel {
     Graph tree = graph.getInclusionTree();
     GraphIO.scanGraph(scanner, tree);
     int cur = 0;
-    for (Node cluster : ListSequence.fromList(tree.getNodes())) {
-      if (ListSequence.fromList(cluster.getOutEdges()).count() == 0) {
+    for (Node cluster : ListSequence.<Node>fromList(tree.getNodes())) {
+      if (ListSequence.<Edge>fromList(cluster.getOutEdges()).count() == 0) {
         graph.setNodeInCluster(cluster, graph.getNode(cur++));
       }
     }

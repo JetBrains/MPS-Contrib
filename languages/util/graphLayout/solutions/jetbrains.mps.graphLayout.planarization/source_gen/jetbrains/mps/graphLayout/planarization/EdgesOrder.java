@@ -25,21 +25,21 @@ public class EdgesOrder {
 
   public EdgesOrder() {
     /*
-      myInEdgesMap = MapSequence.fromMap(new HashMap<Node, List<Edge>>());
-      myOutEdgesMap = MapSequence.fromMap(new HashMap<Node, List<Edge>>());
+      myInEdgesMap = MapSequence.<Node,List<Edge>>fromMap(new HashMap<Node, List<Edge>>());
+      myOutEdgesMap = MapSequence.<Node,List<Edge>>fromMap(new HashMap<Node, List<Edge>>());
     */
-    myInEdgesMap = MapSequence.fromMap(new LinkedHashMap<Node, List<Edge>>(16, (float) 0.75, false));
-    myOutEdgesMap = MapSequence.fromMap(new LinkedHashMap<Node, List<Edge>>(16, (float) 0.75, false));
+    myInEdgesMap = MapSequence.<Node,List<Edge>>fromMap(new LinkedHashMap<Node, List<Edge>>(16, (float) 0.75, false));
+    myOutEdgesMap = MapSequence.<Node,List<Edge>>fromMap(new LinkedHashMap<Node, List<Edge>>(16, (float) 0.75, false));
     myReversed = false;
   }
 
   public List<Edge> getInEdgesOrder(Node node) {
-    List<Edge> edges = MapSequence.fromMap(myInEdgesMap).get(node);
+    List<Edge> edges = MapSequence.<Node,List<Edge>>fromMap(myInEdgesMap).get(node);
     return this.reverseIfNeed(edges);
   }
 
   public List<Edge> getOutEdgesOrder(Node node) {
-    List<Edge> edges = MapSequence.fromMap(myOutEdgesMap).get(node);
+    List<Edge> edges = MapSequence.<Node,List<Edge>>fromMap(myOutEdgesMap).get(node);
     return this.reverseIfNeed(edges);
   }
 
@@ -49,10 +49,10 @@ public class EdgesOrder {
 
   public String toString(String prefix) {
     StringBuilder builder = new StringBuilder();
-    for (Node node : SetSequence.fromSet(MapSequence.fromMap(myInEdgesMap).keySet())) {
+    for (Node node : SetSequence.<Node>fromSet(MapSequence.fromMap(myInEdgesMap).keySet())) {
       builder.append(prefix + " NODE " + node);
-      builder.append(" in edges: " + MapSequence.fromMap(myInEdgesMap).get(node));
-      builder.append(" out edges: " + MapSequence.fromMap(myOutEdgesMap).get(node) + "\n");
+      builder.append(" in edges: " + MapSequence.<Node,List<Edge>>fromMap(myInEdgesMap).get(node));
+      builder.append(" out edges: " + MapSequence.<Node,List<Edge>>fromMap(myOutEdgesMap).get(node) + "\n");
     }
     return builder.toString();
   }
@@ -62,10 +62,10 @@ public class EdgesOrder {
   }
 
   public void merge(EdgesOrder order) {
-    for (Node node : SetSequence.fromSet(order.getNodes())) {
+    for (Node node : SetSequence.<Node>fromSet(order.getNodes())) {
       checkNode(node);
-      ListSequence.fromList(MapSequence.fromMap(myInEdgesMap).get(node)).addSequence(ListSequence.fromList(order.getInEdgesOrder(node)));
-      ListSequence.fromList(MapSequence.fromMap(myOutEdgesMap).get(node)).addSequence(ListSequence.fromList(order.getOutEdgesOrder(node)));
+      ListSequence.<Edge>fromList(MapSequence.<Node,List<Edge>>fromMap(myInEdgesMap).get(node)).addSequence(ListSequence.<Edge>fromList(order.getInEdgesOrder(node)));
+      ListSequence.<Edge>fromList(MapSequence.<Node,List<Edge>>fromMap(myOutEdgesMap).get(node)).addSequence(ListSequence.<Edge>fromList(order.getOutEdgesOrder(node)));
     }
   }
 
@@ -73,21 +73,21 @@ public class EdgesOrder {
     checkNode(node);
     if (edge != null) {
       checkNode(edge.getSource());
-      ListSequence.fromList(MapSequence.fromMap(myInEdgesMap).get(edge.getTarget())).addElement(edge);
-      ListSequence.fromList(MapSequence.fromMap(myOutEdgesMap).get(edge.getSource())).addElement(edge);
+      ListSequence.<Edge>fromList(MapSequence.<Node,List<Edge>>fromMap(myInEdgesMap).get(edge.getTarget())).addElement(edge);
+      ListSequence.<Edge>fromList(MapSequence.<Node,List<Edge>>fromMap(myOutEdgesMap).get(edge.getSource())).addElement(edge);
     }
   }
 
   private void checkNode(Node node) {
     if (!(MapSequence.fromMap(myInEdgesMap).containsKey(node))) {
-      MapSequence.fromMap(myInEdgesMap).put(node, ListSequence.fromList(new LinkedList<Edge>()));
-      MapSequence.fromMap(myOutEdgesMap).put(node, ListSequence.fromList(new LinkedList<Edge>()));
+      MapSequence.<Node,List<Edge>>fromMap(myInEdgesMap).put(node, ListSequence.<Edge>fromList(new LinkedList<Edge>()));
+      MapSequence.<Node,List<Edge>>fromMap(myOutEdgesMap).put(node, ListSequence.<Edge>fromList(new LinkedList<Edge>()));
     }
   }
 
   private List<Edge> reverseIfNeed(List<Edge> edges) {
     if (myReversed) {
-      return ListSequence.fromList(edges).reversedList();
+      return ListSequence.<Edge>fromList(edges).reversedList();
     } else {
       return edges;
     }
@@ -135,30 +135,30 @@ public class EdgesOrder {
   private Edge findEdge(Edge edge, List<Edge> containingList, List<Edge> alternativeList, boolean tryFirst) {
     Edge sideEdge;
     if (tryFirst == true) {
-      sideEdge = ListSequence.fromList(containingList).first();
+      sideEdge = ListSequence.<Edge>fromList(containingList).first();
     } else {
-      sideEdge = ListSequence.fromList(containingList).last();
+      sideEdge = ListSequence.<Edge>fromList(containingList).last();
     }
     if (edge == sideEdge) {
-      if (ListSequence.fromList(alternativeList).count() > 0) {
+      if (ListSequence.<Edge>fromList(alternativeList).count() > 0) {
         if (tryFirst) {
-          return ListSequence.fromList(alternativeList).first();
+          return ListSequence.<Edge>fromList(alternativeList).first();
         } else {
-          return ListSequence.fromList(alternativeList).last();
+          return ListSequence.<Edge>fromList(alternativeList).last();
         }
       } else {
         if (tryFirst) {
-          return ListSequence.fromList(containingList).last();
+          return ListSequence.<Edge>fromList(containingList).last();
         } else {
-          return ListSequence.fromList(containingList).first();
+          return ListSequence.<Edge>fromList(containingList).first();
         }
       }
     } else {
       Iterator<Edge> edgeItr;
       if (tryFirst) {
-        edgeItr = ListSequence.fromList(containingList).reversedList().iterator();
+        edgeItr = ListSequence.<Edge>fromList(containingList).reversedList().iterator();
       } else {
-        edgeItr = ListSequence.fromList(containingList).iterator();
+        edgeItr = ListSequence.<Edge>fromList(containingList).iterator();
       }
       while (edgeItr.hasNext()) {
         Edge cur = edgeItr.next();

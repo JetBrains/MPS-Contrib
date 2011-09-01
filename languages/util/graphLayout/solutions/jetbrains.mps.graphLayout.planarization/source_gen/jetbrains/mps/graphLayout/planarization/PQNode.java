@@ -17,7 +17,7 @@ public abstract class PQNode {
   private int myNumFullLeaves;
 
   public PQNode() {
-    myChildren = ListSequence.fromList(new LinkedList<PQNode>());
+    myChildren = ListSequence.<PQNode>fromList(new LinkedList<PQNode>());
     myState = null;
     myParent = null;
   }
@@ -36,7 +36,7 @@ public abstract class PQNode {
   public abstract int getAValue();
 
   public void computeAValue() {
-    for (PQNode child : ListSequence.fromList(getChildren())) {
+    for (PQNode child : ListSequence.<PQNode>fromList(getChildren())) {
       child.computeAValue();
     }
   }
@@ -46,7 +46,7 @@ public abstract class PQNode {
   public abstract int getHValue();
 
   public void computeHValue() {
-    for (PQNode child : ListSequence.fromList(getChildren())) {
+    for (PQNode child : ListSequence.<PQNode>fromList(getChildren())) {
       child.computeHValue();
     }
   }
@@ -74,12 +74,12 @@ public abstract class PQNode {
   }
 
   public void addLastChild(PQNode child) {
-    ListSequence.fromList(myChildren).addElement(child);
+    ListSequence.<PQNode>fromList(myChildren).addElement(child);
     child.setParent(this);
   }
 
   public void addFirstChild(PQNode child) {
-    ListSequence.fromList(myChildren).insertElement(0, child);
+    ListSequence.<PQNode>fromList(myChildren).insertElement(0, child);
     child.setParent(this);
   }
 
@@ -106,9 +106,9 @@ public abstract class PQNode {
     }
     builder.append(spaces + "node " + getType() + " state = " + getState() + "\n");
     builder.append(getGraphInfo(spaces) + "\n");
-    if (ListSequence.fromList(getChildren()).count() > 0) {
+    if (ListSequence.<PQNode>fromList(getChildren()).count() > 0) {
       builder.append(spaces + "children: \n");
-      for (PQNode child : ListSequence.fromList(getChildren())) {
+      for (PQNode child : ListSequence.<PQNode>fromList(getChildren())) {
         builder.append(child.toString(offset + 2));
       }
     }
@@ -129,28 +129,28 @@ public abstract class PQNode {
   }
 
   public boolean isLeaf() {
-    return ListSequence.fromList(getChildren()).count() == 0;
+    return ListSequence.<PQNode>fromList(getChildren()).count() == 0;
   }
 
   protected PQNode makeEmpty() {
     if (getState() == PQNode.State.EMPTY) {
       return this;
     }
-    if (ListSequence.fromList(getChildren()).count() == 0) {
+    if (ListSequence.<PQNode>fromList(getChildren()).count() == 0) {
       if (getState() == PQNode.State.FULL) {
         return null;
       } else {
         return this;
       }
     } else {
-      Iterator<PQNode> childItr = ListSequence.fromList(getChildren()).iterator();
+      Iterator<PQNode> childItr = ListSequence.<PQNode>fromList(getChildren()).iterator();
       while (childItr.hasNext()) {
         if (childItr.next().makeEmpty() == null) {
           childItr.remove();
         }
       }
       setState(PQNode.State.EMPTY);
-      if (ListSequence.fromList(getChildren()).count() == 0) {
+      if (ListSequence.<PQNode>fromList(getChildren()).count() == 0) {
         return null;
       } else {
         return this;

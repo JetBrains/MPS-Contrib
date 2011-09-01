@@ -32,9 +32,9 @@ public class HyperGraphLayouter extends BasicLayouter {
 
   public HyperGraphLayouter(ILayouter clusterLayouter) {
     myClusterLayouter = clusterLayouter;
-    myClusterMap = MapSequence.fromMap(new HashMap<Node, Node>());
-    myNodeMap = MapSequence.fromMap(new HashMap<Node, Node>());
-    myEdgeMap = MapSequence.fromMap(new HashMap<Edge, Edge>());
+    myClusterMap = MapSequence.<Node,Node>fromMap(new HashMap<Node, Node>());
+    myNodeMap = MapSequence.<Node,Node>fromMap(new HashMap<Node, Node>());
+    myEdgeMap = MapSequence.<Edge,Edge>fromMap(new HashMap<Edge, Edge>());
   }
 
   public GraphLayout doLayout(ILayoutInfo layoutInfo) {
@@ -47,7 +47,7 @@ public class HyperGraphLayouter extends BasicLayouter {
     myInclusionTree = myClusteredGraph.getInclusionTree();
     Node root = myGraph.getRoot();
     makeClusterGraph(root);
-    myClusteredGraph.setRoot(MapSequence.fromMap(myClusterMap).get(root));
+    myClusteredGraph.setRoot(MapSequence.<Node,Node>fromMap(myClusterMap).get(root));
     this.copyEdges();
     LayoutInfo clusterInfo = this.createClusterInfo(layoutInfo);
     IGraphLayout ilayout = myClusterLayouter.doLayout(clusterInfo);
@@ -64,18 +64,18 @@ public class HyperGraphLayouter extends BasicLayouter {
 
   private GraphLayout restoreLayout(ClusteredGraphLayout layout) {
     GraphLayout graphLayout = new GraphLayout(myGraph);
-    for (Node node : ListSequence.fromList(myGraph.getNodes())) {
-      Node leafNode = MapSequence.fromMap(myNodeMap).get(node);
+    for (Node node : ListSequence.<Node>fromList(myGraph.getNodes())) {
+      Node leafNode = MapSequence.<Node,Node>fromMap(myNodeMap).get(node);
       if (leafNode != null) {
         graphLayout.setLayoutFor(node, layout.getNodeLayout(leafNode));
       } else {
-        Node cluster = MapSequence.fromMap(myClusterMap).get(node);
+        Node cluster = MapSequence.<Node,Node>fromMap(myClusterMap).get(node);
         List<Point> clusterLayout = layout.getClusterLayout(cluster);
         graphLayout.setLayoutFor(node, GeomUtil.getContainingRectangle(clusterLayout));
       }
     }
-    for (Edge edge : ListSequence.fromList(myGraph.getEdges())) {
-      List<Point> route = layout.getEdgeLayout(MapSequence.fromMap(myEdgeMap).get(edge));
+    for (Edge edge : ListSequence.<Edge>fromList(myGraph.getEdges())) {
+      List<Point> route = layout.getEdgeLayout(MapSequence.<Edge,Edge>fromMap(myEdgeMap).get(edge));
       Node source = edge.getSource();
       if (!(MapSequence.fromMap(myNodeMap).containsKey(source))) {
         Rectangle rect = graphLayout.getNodeLayout(source);
@@ -84,10 +84,10 @@ public class HyperGraphLayouter extends BasicLayouter {
       Node target = edge.getTarget();
       if (!(MapSequence.fromMap(myNodeMap).containsKey(target))) {
         Rectangle rect = graphLayout.getNodeLayout(target);
-        route = ListSequence.fromList(cutRouteToBorder(ListSequence.fromList(route).reversedList(), rect)).reversedList();
+        route = ListSequence.<Point>fromList(cutRouteToBorder(ListSequence.<Point>fromList(route).reversedList(), rect)).reversedList();
       }
       graphLayout.setLayoutFor(edge, route);
-      Rectangle labelRect = layout.getLabelLayout(MapSequence.fromMap(myEdgeMap).get(edge));
+      Rectangle labelRect = layout.getLabelLayout(MapSequence.<Edge,Edge>fromMap(myEdgeMap).get(edge));
       if (labelRect != null) {
         graphLayout.setLabelLayout(edge, labelRect);
       }
@@ -99,10 +99,10 @@ public class HyperGraphLayouter extends BasicLayouter {
     Point[] cornerPoints = border.getCornerPoints();
     boolean foundOnBorder = false;
     Point p = null;
-    List<Point> newRoute = ListSequence.fromList(new LinkedList<Point>());
-    for (Point q : ListSequence.fromList(route)) {
+    List<Point> newRoute = ListSequence.<Point>fromList(new LinkedList<Point>());
+    for (Point q : ListSequence.<Point>fromList(route)) {
       if (foundOnBorder) {
-        ListSequence.fromList(newRoute).addElement(q);
+        ListSequence.<Point>fromList(newRoute).addElement(q);
       } else {
         if (p == null || p.equals(q)) {
           p = q;
@@ -112,9 +112,9 @@ public class HyperGraphLayouter extends BasicLayouter {
         for (Point bq : cornerPoints) {
           Point res = OrthogonalUtil.intersects(p, q, bp, bq);
           if (res != null) {
-            ListSequence.fromList(newRoute).addElement(res);
+            ListSequence.<Point>fromList(newRoute).addElement(res);
             if (!(res.equals(q))) {
-              ListSequence.fromList(newRoute).addElement(q);
+              ListSequence.<Point>fromList(newRoute).addElement(q);
             }
             foundOnBorder = true;
             break;
@@ -129,15 +129,15 @@ public class HyperGraphLayouter extends BasicLayouter {
 
   private LayoutInfo createClusterInfo(ILayoutInfo layoutInfo) {
     LayoutInfo clusterInfo = new LayoutInfo(myClusteredGraph);
-    for (Node node : ListSequence.fromList(myGraph.getNodes())) {
-      Node leafNode = MapSequence.fromMap(myNodeMap).get(node);
+    for (Node node : ListSequence.<Node>fromList(myGraph.getNodes())) {
+      Node leafNode = MapSequence.<Node,Node>fromMap(myNodeMap).get(node);
       Dimension size = layoutInfo.getNodeSize(node);
       if (leafNode != null && size != null) {
         clusterInfo.setNodeSize(leafNode, new Dimension(size));
       }
     }
-    for (Edge edge : ListSequence.fromList(myGraph.getEdges())) {
-      Edge clusterEdge = MapSequence.fromMap(myEdgeMap).get(edge);
+    for (Edge edge : ListSequence.<Edge>fromList(myGraph.getEdges())) {
+      Edge clusterEdge = MapSequence.<Edge,Edge>fromMap(myEdgeMap).get(edge);
       Dimension size = layoutInfo.getLabelSize(edge);
       if (size != null) {
         clusterInfo.setLabelSize(clusterEdge, new Dimension(size));
@@ -147,24 +147,24 @@ public class HyperGraphLayouter extends BasicLayouter {
   }
 
   private void copyEdges() {
-    for (Edge edge : ListSequence.fromList(myGraph.getEdges())) {
-      Node source = SetSequence.fromSet(myClusteredGraph.getNodesInCluster(MapSequence.fromMap(myClusterMap).get(edge.getSource()))).first();
-      Node target = SetSequence.fromSet(myClusteredGraph.getNodesInCluster(MapSequence.fromMap(myClusterMap).get(edge.getTarget()))).first();
-      MapSequence.fromMap(myEdgeMap).put(edge, myClusteredGraph.connect(source, target));
+    for (Edge edge : ListSequence.<Edge>fromList(myGraph.getEdges())) {
+      Node source = SetSequence.<Node>fromSet(myClusteredGraph.getNodesInCluster(MapSequence.<Node,Node>fromMap(myClusterMap).get(edge.getSource()))).first();
+      Node target = SetSequence.<Node>fromSet(myClusteredGraph.getNodesInCluster(MapSequence.<Node,Node>fromMap(myClusterMap).get(edge.getTarget()))).first();
+      MapSequence.<Edge,Edge>fromMap(myEdgeMap).put(edge, myClusteredGraph.connect(source, target));
     }
   }
 
   private void makeClusterGraph(Node node) {
     Node cluster = myInclusionTree.createNode();
-    MapSequence.fromMap(myClusterMap).put(node, cluster);
+    MapSequence.<Node,Node>fromMap(myClusterMap).put(node, cluster);
     List<Node> children = myGraph.getChildren(node);
-    for (Node child : ListSequence.fromList(children)) {
+    for (Node child : ListSequence.<Node>fromList(children)) {
       makeClusterGraph(child);
-      myInclusionTree.connect(cluster, MapSequence.fromMap(myClusterMap).get(child));
+      myInclusionTree.connect(cluster, MapSequence.<Node,Node>fromMap(myClusterMap).get(child));
     }
-    if (ListSequence.fromList(children).count() == 0) {
+    if (ListSequence.<Node>fromList(children).count() == 0) {
       Node leafNode = myClusteredGraph.createNode();
-      MapSequence.fromMap(myNodeMap).put(node, leafNode);
+      MapSequence.<Node,Node>fromMap(myNodeMap).put(node, leafNode);
       myClusteredGraph.setNodeInCluster(cluster, leafNode);
     }
   }

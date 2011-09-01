@@ -38,61 +38,61 @@ public class LayeredLayouter implements IPointLayouter {
     NodeLayeredOrder order = mySorter.sortNodes(graph, layers);
     Map<Node, Point> nodeCoordinates = myPlacer.placeCoordinates(graph, order);
     GraphPointLayout graphLayout = new GraphPointLayout(graph);
-    for (Edge deletedEdge : SetSequence.fromSet(MapSequence.fromMap(substituteEdgeMap).keySet())) {
-      List<Point> edgeLayout = ListSequence.fromList(new ArrayList<Point>());
-      ListSequence.fromList(edgeLayout).addElement(MapSequence.fromMap(nodeCoordinates).get(deletedEdge.getSource()));
-      for (Edge newEdge : ListSequence.fromList(MapSequence.fromMap(substituteEdgeMap).get(deletedEdge))) {
-        ListSequence.fromList(edgeLayout).addElement(MapSequence.fromMap(nodeCoordinates).get(newEdge.getTarget()));
+    for (Edge deletedEdge : SetSequence.<Edge>fromSet(MapSequence.fromMap(substituteEdgeMap).keySet())) {
+      List<Point> edgeLayout = ListSequence.<Point>fromList(new ArrayList<Point>());
+      ListSequence.<Point>fromList(edgeLayout).addElement(MapSequence.<Node,Point>fromMap(nodeCoordinates).get(deletedEdge.getSource()));
+      for (Edge newEdge : ListSequence.<Edge>fromList(MapSequence.<Edge,List<Edge>>fromMap(substituteEdgeMap).get(deletedEdge))) {
+        ListSequence.<Point>fromList(edgeLayout).addElement(MapSequence.<Node,Point>fromMap(nodeCoordinates).get(newEdge.getTarget()));
         graph.removeEdge(newEdge);
       }
       graphLayout.setLayoutFor(deletedEdge, edgeLayout);
       graph.addEdge(deletedEdge);
     }
-    ListSequence.fromList(graph.getNodes()).removeWhere(new IWhereFilter<Node>() {
+    ListSequence.<Node>fromList(graph.getNodes()).removeWhere(new IWhereFilter<Node>() {
       public boolean accept(Node it) {
         return it.isDummy();
       }
     });
-    for (Node node : ListSequence.fromList(graph.getNodes())) {
-      graphLayout.setLayoutFor(node, MapSequence.fromMap(nodeCoordinates).get(node));
-      for (Edge edge : ListSequence.fromList(node.getOutEdges())) {
+    for (Node node : ListSequence.<Node>fromList(graph.getNodes())) {
+      graphLayout.setLayoutFor(node, MapSequence.<Node,Point>fromMap(nodeCoordinates).get(node));
+      for (Edge edge : ListSequence.<Edge>fromList(node.getOutEdges())) {
         if (MapSequence.fromMap(substituteEdgeMap).containsKey(edge)) {
           continue;
         }
-        graphLayout.setLayoutFor(edge, ListSequence.fromListAndArray(new ArrayList<Point>(), MapSequence.fromMap(nodeCoordinates).get(edge.getSource()), MapSequence.fromMap(nodeCoordinates).get(edge.getTarget())));
+        graphLayout.setLayoutFor(edge, ListSequence.<Point>fromListAndArray(new ArrayList<Point>(), MapSequence.<Node,Point>fromMap(nodeCoordinates).get(edge.getSource()), MapSequence.<Node,Point>fromMap(nodeCoordinates).get(edge.getTarget())));
       }
     }
     return graphLayout;
   }
 
   public static Map<Edge, List<Edge>> insertDummyNodes(Graph graph, Map<Node, Integer> layers) {
-    Map<Edge, List<Edge>> substituteMap = MapSequence.fromMap(new HashMap<Edge, List<Edge>>());
+    Map<Edge, List<Edge>> substituteMap = MapSequence.<Edge,List<Edge>>fromMap(new HashMap<Edge, List<Edge>>());
     int numOfRealNodes = graph.getNumNodes();
     for (int index = 0; index < numOfRealNodes; index++) {
       Node node = graph.getNode(index);
-      for (Edge edge : ListSequence.fromList(node.getOutEdges())) {
-        int sourceLayer = MapSequence.fromMap(layers).get(edge.getSource());
-        int targetLayer = MapSequence.fromMap(layers).get(edge.getTarget());
+      for (Edge edge : ListSequence.<Edge>fromList(node.getOutEdges())) {
+        int sourceLayer = MapSequence.<Node,Integer>fromMap(layers).get(edge.getSource());
+        int targetLayer = MapSequence.<Node,Integer>fromMap(layers).get(edge.getTarget());
         if (targetLayer > sourceLayer + 1) {
-          MapSequence.fromMap(substituteMap).put(edge, ListSequence.fromList(new ArrayList<Edge>()));
+          MapSequence.<Edge,List<Edge>>fromMap(substituteMap).put(edge, ListSequence.<Edge>fromList(new ArrayList<Edge>()));
           Node cur = edge.getSource();
           for (int i = sourceLayer + 1; i <= targetLayer; i++) {
             Node newTarget;
             if (i < targetLayer) {
               newTarget = graph.createDummyNode();
-              MapSequence.fromMap(layers).put(newTarget, i);
+              MapSequence.<Node,Integer>fromMap(layers).put(newTarget, i);
             } else {
               newTarget = edge.getTarget();
             }
-            ListSequence.fromList(MapSequence.fromMap(substituteMap).get(edge)).addElement(new Edge(cur, newTarget));
+            ListSequence.<Edge>fromList(MapSequence.<Edge,List<Edge>>fromMap(substituteMap).get(edge)).addElement(new Edge(cur, newTarget));
             cur = newTarget;
           }
         }
       }
     }
-    for (Edge deletedEdge : SetSequence.fromSet(MapSequence.fromMap(substituteMap).keySet())) {
+    for (Edge deletedEdge : SetSequence.<Edge>fromSet(MapSequence.fromMap(substituteMap).keySet())) {
       graph.removeEdge(deletedEdge);
-      for (Edge newEdge : ListSequence.fromList(MapSequence.fromMap(substituteMap).get(deletedEdge))) {
+      for (Edge newEdge : ListSequence.<Edge>fromList(MapSequence.<Edge,List<Edge>>fromMap(substituteMap).get(deletedEdge))) {
         graph.addEdge(newEdge);
       }
     }

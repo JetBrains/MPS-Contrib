@@ -30,22 +30,22 @@ public class LayoutOptimizer {
     while (foundOptimize) {
       foundOptimize = false;
       myLayout.refineEdgeLayout();
-      for (IEdge edge : SetSequence.fromSet(MapSequence.fromMap(myLayout.getEdgeLayout()).keySet())) {
+      for (IEdge edge : SetSequence.<IEdge>fromSet(MapSequence.fromMap(myLayout.getEdgeLayout()).keySet())) {
         Edge myEdge = ((Edge) edge);
         List<Point> path = myLayout.getEdgeLayout(edge);
-        for (int i = 0; i < ListSequence.fromList(path).count() - 3; i++) {
-          List<Point> chain = ListSequence.fromList(new ArrayList<Point>());
-          ListSequence.fromList(chain).addElement(ListSequence.fromList(path).getElement(i));
-          ListSequence.fromList(chain).addElement(ListSequence.fromList(path).getElement(i + 1));
-          ListSequence.fromList(chain).addElement(ListSequence.fromList(path).getElement(i + 2));
-          ListSequence.fromList(chain).addElement(ListSequence.fromList(path).getElement(i + 3));
+        for (int i = 0; i < ListSequence.<Point>fromList(path).count() - 3; i++) {
+          List<Point> chain = ListSequence.<Point>fromList(new ArrayList<Point>());
+          ListSequence.<Point>fromList(chain).addElement(ListSequence.<Point>fromList(path).getElement(i));
+          ListSequence.<Point>fromList(chain).addElement(ListSequence.<Point>fromList(path).getElement(i + 1));
+          ListSequence.<Point>fromList(chain).addElement(ListSequence.<Point>fromList(path).getElement(i + 2));
+          ListSequence.<Point>fromList(chain).addElement(ListSequence.<Point>fromList(path).getElement(i + 3));
           List<Point> newChain = tryChain(chain, myEdge);
           if (newChain != null) {
             foundOptimize = true;
-            List<Point> temp = ListSequence.fromList(new ArrayList<Point>());
-            ListSequence.fromList(temp).addSequence(ListSequence.fromList(path).subListSequence(0, i));
-            ListSequence.fromList(temp).addSequence(ListSequence.fromList(newChain));
-            ListSequence.fromList(temp).addSequence(ListSequence.fromList(path).subListSequence(i + 4, ListSequence.fromList(path).count()));
+            List<Point> temp = ListSequence.<Point>fromList(new ArrayList<Point>());
+            ListSequence.<Point>fromList(temp).addSequence(ListSequence.<Point>fromList(path).subListSequence(0, i));
+            ListSequence.<Point>fromList(temp).addSequence(ListSequence.<Point>fromList(newChain));
+            ListSequence.<Point>fromList(temp).addSequence(ListSequence.<Point>fromList(path).subListSequence(i + 4, ListSequence.<Point>fromList(path).count()));
             myLayout.setLayoutFor(edge, temp);
             break;
           }
@@ -55,31 +55,31 @@ public class LayoutOptimizer {
   }
 
   private List<Point> tryChain(List<Point> chain, Edge edge) {
-    boolean verMid = ListSequence.fromList(chain).getElement(1).x == ListSequence.fromList(chain).getElement(2).x;
+    boolean verMid = ListSequence.<Point>fromList(chain).getElement(1).x == ListSequence.<Point>fromList(chain).getElement(2).x;
     boolean zLike;
     if (verMid) {
-      zLike = Util1D.insideOpenSegment(ListSequence.fromList(chain).getElement(0).x, ListSequence.fromList(chain).getElement(3).x, ListSequence.fromList(chain).getElement(1).x);
+      zLike = Util1D.insideOpenSegment(ListSequence.<Point>fromList(chain).getElement(0).x, ListSequence.<Point>fromList(chain).getElement(3).x, ListSequence.<Point>fromList(chain).getElement(1).x);
     } else {
-      zLike = Util1D.insideOpenSegment(ListSequence.fromList(chain).getElement(0).y, ListSequence.fromList(chain).getElement(3).y, ListSequence.fromList(chain).getElement(1).y);
+      zLike = Util1D.insideOpenSegment(ListSequence.<Point>fromList(chain).getElement(0).y, ListSequence.<Point>fromList(chain).getElement(3).y, ListSequence.<Point>fromList(chain).getElement(1).y);
     }
     if (zLike) {
-      if (testRect(GeomUtil.getRectangle(ListSequence.fromList(chain).getElement(0), ListSequence.fromList(chain).getElement(2)), edge)) {
-        return getChain(ListSequence.fromList(chain).getElement(0), ListSequence.fromList(chain).getElement(2), ListSequence.fromList(chain).getElement(3));
+      if (testRect(GeomUtil.getRectangle(ListSequence.<Point>fromList(chain).getElement(0), ListSequence.<Point>fromList(chain).getElement(2)), edge)) {
+        return getChain(ListSequence.<Point>fromList(chain).getElement(0), ListSequence.<Point>fromList(chain).getElement(2), ListSequence.<Point>fromList(chain).getElement(3));
       }
-      if (testRect(GeomUtil.getRectangle(ListSequence.fromList(chain).getElement(1), ListSequence.fromList(chain).getElement(3)), edge)) {
-        return ListSequence.fromList(getChain(ListSequence.fromList(chain).getElement(3), ListSequence.fromList(chain).getElement(1), ListSequence.fromList(chain).getElement(0))).reversedList();
+      if (testRect(GeomUtil.getRectangle(ListSequence.<Point>fromList(chain).getElement(1), ListSequence.<Point>fromList(chain).getElement(3)), edge)) {
+        return ListSequence.<Point>fromList(getChain(ListSequence.<Point>fromList(chain).getElement(3), ListSequence.<Point>fromList(chain).getElement(1), ListSequence.<Point>fromList(chain).getElement(0))).reversedList();
       }
     } else {
-      Rectangle first = GeomUtil.getRectangle(ListSequence.fromList(chain).getElement(0), ListSequence.fromList(chain).getElement(2));
-      Rectangle second = GeomUtil.getRectangle(ListSequence.fromList(chain).getElement(1), ListSequence.fromList(chain).getElement(3));
+      Rectangle first = GeomUtil.getRectangle(ListSequence.<Point>fromList(chain).getElement(0), ListSequence.<Point>fromList(chain).getElement(2));
+      Rectangle second = GeomUtil.getRectangle(ListSequence.<Point>fromList(chain).getElement(1), ListSequence.<Point>fromList(chain).getElement(3));
       boolean firstSmaller = first.height <= second.height && first.width <= second.width;
       if (firstSmaller) {
         if (testRect(first, edge)) {
-          return getChain(ListSequence.fromList(chain).getElement(0), ListSequence.fromList(chain).getElement(2), ListSequence.fromList(chain).getElement(3));
+          return getChain(ListSequence.<Point>fromList(chain).getElement(0), ListSequence.<Point>fromList(chain).getElement(2), ListSequence.<Point>fromList(chain).getElement(3));
         }
       } else {
         if (testRect(second, edge)) {
-          return ListSequence.fromList(getChain(ListSequence.fromList(chain).getElement(3), ListSequence.fromList(chain).getElement(1), ListSequence.fromList(chain).getElement(0))).reversedList();
+          return ListSequence.<Point>fromList(getChain(ListSequence.<Point>fromList(chain).getElement(3), ListSequence.<Point>fromList(chain).getElement(1), ListSequence.<Point>fromList(chain).getElement(0))).reversedList();
         }
       }
     }
@@ -87,21 +87,21 @@ public class LayoutOptimizer {
   }
 
   public List<Point> getChain(Point begin, Point mid, Point end) {
-    List<Point> chain = ListSequence.fromList(new ArrayList<Point>());
-    ListSequence.fromList(chain).addElement(begin);
+    List<Point> chain = ListSequence.<Point>fromList(new ArrayList<Point>());
+    ListSequence.<Point>fromList(chain).addElement(begin);
     if (mid.x == end.x) {
-      ListSequence.fromList(chain).addElement(new Point(mid.x, begin.y));
+      ListSequence.<Point>fromList(chain).addElement(new Point(mid.x, begin.y));
     } else {
-      ListSequence.fromList(chain).addElement(new Point(begin.x, mid.y));
+      ListSequence.<Point>fromList(chain).addElement(new Point(begin.x, mid.y));
     }
-    ListSequence.fromList(chain).addElement(end);
+    ListSequence.<Point>fromList(chain).addElement(end);
     return chain;
   }
 
   private boolean testRect(Rectangle rect, Edge edge) {
-    for (INode node : SetSequence.fromSet(MapSequence.fromMap(myLayout.getNodeLayout()).keySet())) {
+    for (INode node : SetSequence.<INode>fromSet(MapSequence.fromMap(myLayout.getNodeLayout()).keySet())) {
       Node myNode = ((Node) node);
-      if (ListSequence.fromList(edge.getAdjacentNodes()).contains(myNode)) {
+      if (ListSequence.<Node>fromList(edge.getAdjacentNodes()).contains(myNode)) {
         continue;
       }
       Rectangle nodeRect = myLayout.getNodeLayout(node);
@@ -118,14 +118,14 @@ public class LayoutOptimizer {
         return false;
       }
     }
-    for (List<Point> path : Sequence.fromIterable(MapSequence.fromMap(myLayout.getEdgeLayout()).values())) {
-      for (Point p : ListSequence.fromList(path)) {
+    for (List<Point> path : Sequence.<List<Point>>fromIterable(MapSequence.fromMap(myLayout.getEdgeLayout()).values())) {
+      for (Point p : ListSequence.<Point>fromList(path)) {
         if (isInsideAndNotACorner(p.x, p.y, rect)) {
           return false;
         }
       }
     }
-    for (Rectangle labelRect : Sequence.fromIterable(MapSequence.fromMap(myLayout.getLabelLayout()).values())) {
+    for (Rectangle labelRect : Sequence.<Rectangle>fromIterable(MapSequence.fromMap(myLayout.getLabelLayout()).values())) {
       if (Util1D.intersects(labelRect.x, labelRect.x + labelRect.width, rect.x, rect.x + rect.width) && Util1D.intersects(labelRect.y, labelRect.y + labelRect.height, rect.y, rect.y + rect.height)) {
         return false;
       }

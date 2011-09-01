@@ -34,28 +34,28 @@ public class AmbiguityLayout_Test extends TestCase {
   }
 
   public void test(Graph graph) {
-    Map<Node, Dimension> nodeSizes = MapSequence.fromMap(new HashMap<Node, Dimension>());
-    Map<Edge, Dimension> edgeSizes = MapSequence.fromMap(new HashMap<Edge, Dimension>());
-    for (Node node : ListSequence.fromList(graph.getNodes())) {
-      MapSequence.fromMap(nodeSizes).put(node, new Dimension(5, 5));
+    Map<Node, Dimension> nodeSizes = MapSequence.<Node,Dimension>fromMap(new HashMap<Node, Dimension>());
+    Map<Edge, Dimension> edgeSizes = MapSequence.<Edge,Dimension>fromMap(new HashMap<Edge, Dimension>());
+    for (Node node : ListSequence.<Node>fromList(graph.getNodes())) {
+      MapSequence.<Node,Dimension>fromMap(nodeSizes).put(node, new Dimension(5, 5));
     }
-    for (Edge edge : ListSequence.fromList(graph.getEdges())) {
-      MapSequence.fromMap(edgeSizes).put(edge, new Dimension(5, 5));
+    for (Edge edge : ListSequence.<Edge>fromList(graph.getEdges())) {
+      MapSequence.<Edge,Dimension>fromMap(edgeSizes).put(edge, new Dimension(5, 5));
     }
     GraphLayout layout = new RectOrthogonalLayouter().doLayout(graph, nodeSizes, edgeSizes);
     for (int testNum = 0; testNum < 100; testNum++) {
       GraphLayout newLayout = new RectOrthogonalLayouter().doLayout(graph, nodeSizes, edgeSizes);
-      for (Node node : ListSequence.fromList(graph.getNodes())) {
+      for (Node node : ListSequence.<Node>fromList(graph.getNodes())) {
         Rectangle r1 = layout.getNodeLayout(node);
         Rectangle r2 = newLayout.getNodeLayout(node);
         Assert.assertTrue(r1.x == r2.x && r1.y == r2.y && r1.width == r2.width && r1.height == r2.height);
       }
-      for (Edge edge : ListSequence.fromList(graph.getEdges())) {
+      for (Edge edge : ListSequence.<Edge>fromList(graph.getEdges())) {
         List<Point> p1 = layout.getEdgeLayout(edge);
         List<Point> p2 = newLayout.getEdgeLayout(edge);
-        Assert.assertTrue(ListSequence.fromList(p1).count() == ListSequence.fromList(p2).count());
-        for (int p = 0; p < ListSequence.fromList(p1).count(); p++) {
-          Assert.assertTrue(ListSequence.fromList(p1).getElement(p).x == ListSequence.fromList(p2).getElement(p).x && ListSequence.fromList(p1).getElement(p).y == ListSequence.fromList(p2).getElement(p).y);
+        Assert.assertTrue(ListSequence.<Point>fromList(p1).count() == ListSequence.<Point>fromList(p2).count());
+        for (int p = 0; p < ListSequence.<Point>fromList(p1).count(); p++) {
+          Assert.assertTrue(ListSequence.<Point>fromList(p1).getElement(p).x == ListSequence.<Point>fromList(p2).getElement(p).x && ListSequence.<Point>fromList(p1).getElement(p).y == ListSequence.<Point>fromList(p2).getElement(p).y);
         }
         Rectangle r1 = layout.getLabelLayout(edge);
         Rectangle r2 = newLayout.getLabelLayout(edge);

@@ -41,7 +41,7 @@ public class ShortestPathEmbeddingFinder implements IEmbeddingFinder {
       System.out.println("initial embedding: ");
       System.out.println(embeddedGraph);
     }
-    List<Edge> toAdd = ListSequence.fromList(graph.getEdges()).where(new IWhereFilter<Edge>() {
+    List<Edge> toAdd = ListSequence.<Edge>fromList(graph.getEdges()).where(new IWhereFilter<Edge>() {
       public boolean accept(Edge edge) {
         return embeddedGraph.getAdjacentFaces(edge) == null;
       }
@@ -50,10 +50,10 @@ public class ShortestPathEmbeddingFinder implements IEmbeddingFinder {
       System.out.println("edges to add: ");
       System.out.println(toAdd);
     }
-    for (Edge edge : ListSequence.fromList(toAdd)) {
+    for (Edge edge : ListSequence.<Edge>fromList(toAdd)) {
       graph.removeEdge(edge);
     }
-    for (Edge edge : ListSequence.fromList(toAdd)) {
+    for (Edge edge : ListSequence.<Edge>fromList(toAdd)) {
       restoreEdge(embeddedGraph, edge, myForbidOuterEdgeCrossing);
       if (SHOW_LOG > 0) {
         System.out.println("restored " + edge);
@@ -65,49 +65,49 @@ public class ShortestPathEmbeddingFinder implements IEmbeddingFinder {
 
   public static List<Edge> restoreEdge(EmbeddedGraph embeddedGraph, Edge removedEdge, boolean forbidOuterEdgeCrossing) {
     DualGraph dualGraph = new DualGraph(embeddedGraph);
-    List<Node> newNodes = ListSequence.fromList(new ArrayList<Node>());
-    for (Node node : ListSequence.fromList(removedEdge.getAdjacentNodes())) {
-      ListSequence.fromList(newNodes).addElement(dualGraph.addRealNode(node));
+    List<Node> newNodes = ListSequence.<Node>fromList(new ArrayList<Node>());
+    for (Node node : ListSequence.<Node>fromList(removedEdge.getAdjacentNodes())) {
+      ListSequence.<Node>fromList(newNodes).addElement(dualGraph.addRealNode(node));
     }
     if (forbidOuterEdgeCrossing) {
       final Map<Node, Face> facesMap = dualGraph.getFacesMap();
       final Face outerFace = embeddedGraph.getOuterFace();
-      Node outerNode = ListSequence.fromList(dualGraph.getNodes()).findFirst(new IWhereFilter<Node>() {
+      Node outerNode = ListSequence.<Node>fromList(dualGraph.getNodes()).findFirst(new IWhereFilter<Node>() {
         public boolean accept(Node it) {
-          return MapSequence.fromMap(facesMap).get(it) == outerFace;
+          return MapSequence.<Node,Face>fromMap(facesMap).get(it) == outerFace;
         }
       });
       dualGraph.deleteNode(outerNode);
     }
-    List<Edge> path = ShortestPath.getPath(dualGraph, ListSequence.fromList(newNodes).getElement(0), ListSequence.fromList(newNodes).getElement(1), Edge.Direction.BOTH);
-    List<Node> nodePath = ListSequence.fromList(new ArrayList<Node>());
-    List<Face> facePath = ListSequence.fromList(new ArrayList<Face>());
-    ListSequence.fromList(nodePath).addElement(ListSequence.fromList(removedEdge.getAdjacentNodes()).getElement(0));
-    Node cur = ListSequence.fromList(newNodes).getElement(0);
-    for (Edge edge : ListSequence.fromList(path)) {
-      Edge realEdge = MapSequence.fromMap(dualGraph.getEdgesMap()).get(edge);
+    List<Edge> path = ShortestPath.getPath(dualGraph, ListSequence.<Node>fromList(newNodes).getElement(0), ListSequence.<Node>fromList(newNodes).getElement(1), Edge.Direction.BOTH);
+    List<Node> nodePath = ListSequence.<Node>fromList(new ArrayList<Node>());
+    List<Face> facePath = ListSequence.<Face>fromList(new ArrayList<Face>());
+    ListSequence.<Node>fromList(nodePath).addElement(ListSequence.<Node>fromList(removedEdge.getAdjacentNodes()).getElement(0));
+    Node cur = ListSequence.<Node>fromList(newNodes).getElement(0);
+    for (Edge edge : ListSequence.<Edge>fromList(path)) {
+      Edge realEdge = MapSequence.<Edge,Edge>fromMap(dualGraph.getEdgesMap()).get(edge);
       if (embeddedGraph.getAdjacentFaces(realEdge) != null) {
-        ListSequence.fromList(nodePath).addElement(embeddedGraph.splitEdge(MapSequence.fromMap(dualGraph.getEdgesMap()).get(edge)));
+        ListSequence.<Node>fromList(nodePath).addElement(embeddedGraph.splitEdge(MapSequence.<Edge,Edge>fromMap(dualGraph.getEdgesMap()).get(edge)));
       }
       cur = edge.getOpposite(cur);
-      Face curFace = MapSequence.fromMap(dualGraph.getFacesMap()).get(cur);
+      Face curFace = MapSequence.<Node,Face>fromMap(dualGraph.getFacesMap()).get(cur);
       if (curFace != null) {
-        ListSequence.fromList(facePath).addElement(curFace);
+        ListSequence.<Face>fromList(facePath).addElement(curFace);
       }
     }
-    List<Edge> newEdges = ListSequence.fromList(new ArrayList<Edge>(ListSequence.fromList(nodePath).count() - 1));
-    ListSequence.fromList(nodePath).addElement(ListSequence.fromList(removedEdge.getAdjacentNodes()).getElement(1));
+    List<Edge> newEdges = ListSequence.<Edge>fromList(new ArrayList<Edge>(ListSequence.<Node>fromList(nodePath).count() - 1));
+    ListSequence.<Node>fromList(nodePath).addElement(ListSequence.<Node>fromList(removedEdge.getAdjacentNodes()).getElement(1));
     if (SHOW_LOG > 0) {
       System.out.println("path: ");
       System.out.println(nodePath);
     }
-    for (int i = 0; i < ListSequence.fromList(nodePath).count() - 1; i++) {
-      Node start = ListSequence.fromList(nodePath).getElement(i);
-      Node end = ListSequence.fromList(nodePath).getElement(i + 1);
+    for (int i = 0; i < ListSequence.<Node>fromList(nodePath).count() - 1; i++) {
+      Node start = ListSequence.<Node>fromList(nodePath).getElement(i);
+      Node end = ListSequence.<Node>fromList(nodePath).getElement(i + 1);
       Edge newEdge = embeddedGraph.getGraph().connect(start, end);
-      ListSequence.fromList(newEdges).addElement(newEdge);
-      List<Edge> tempPath = ListSequence.fromListAndArray(new ArrayList<Edge>(), newEdge);
-      embeddedGraph.splitFace(ListSequence.fromList(facePath).getElement(i), tempPath, start, end);
+      ListSequence.<Edge>fromList(newEdges).addElement(newEdge);
+      List<Edge> tempPath = ListSequence.<Edge>fromListAndArray(new ArrayList<Edge>(), newEdge);
+      embeddedGraph.splitFace(ListSequence.<Face>fromList(facePath).getElement(i), tempPath, start, end);
     }
     GraphModificationEvent splitEvent = new GraphModificationEvent(GraphModificationEvent.Type.EDGE_SPLITTED, removedEdge, newEdges);
     embeddedGraph.getGraph().getModificationProcessor().fire(splitEvent);

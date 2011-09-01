@@ -19,13 +19,13 @@ public class WeightedTopologicalNumbering_Test extends TestCase {
   public void test_test1() throws Exception {
     Graph graph = SimpleDirectedGraphs.triangle();
     List<Edge> edges = graph.getEdges();
-    Map<Edge, Integer> w = MapSequence.fromMap(new HashMap<Edge, Integer>());
-    MapSequence.fromMap(w).put(ListSequence.fromList(edges).getElement(0), 1);
-    MapSequence.fromMap(w).put(ListSequence.fromList(edges).getElement(1), 3);
-    MapSequence.fromMap(w).put(ListSequence.fromList(edges).getElement(2), 1);
+    Map<Edge, Integer> w = MapSequence.<Edge,Integer>fromMap(new HashMap<Edge, Integer>());
+    MapSequence.<Edge,Integer>fromMap(w).put(ListSequence.<Edge>fromList(edges).getElement(0), 1);
+    MapSequence.<Edge,Integer>fromMap(w).put(ListSequence.<Edge>fromList(edges).getElement(1), 3);
+    MapSequence.<Edge,Integer>fromMap(w).put(ListSequence.<Edge>fromList(edges).getElement(2), 1);
     Map<Node, Integer> num = WeightedTopologicalNumbering.number(graph, w);
-    Assert.assertTrue(MapSequence.fromMap(num).get(graph.getNode(0)) == 0);
-    Assert.assertTrue(MapSequence.fromMap(num).get(graph.getNode(1)) == 1);
-    Assert.assertTrue(MapSequence.fromMap(num).get(graph.getNode(2)) == 3);
+    Assert.assertTrue(MapSequence.<Node,Integer>fromMap(num).get(graph.getNode(0)) == 0);
+    Assert.assertTrue(MapSequence.<Node,Integer>fromMap(num).get(graph.getNode(1)) == 1);
+    Assert.assertTrue(MapSequence.<Node,Integer>fromMap(num).get(graph.getNode(2)) == 3);
   }
 }

@@ -55,9 +55,9 @@ public class PQPlanarityTest_Test extends TestCase {
 
   public void testWithGraph(String graphString) {
     Graph graph = GraphIO.scanGraph(new Scanner(graphString));
-    Map<Node, Integer> stNumbering = MapSequence.fromMap(new HashMap<Node, Integer>());
-    for (Node node : ListSequence.fromList(graph.getNodes())) {
-      MapSequence.fromMap(stNumbering).put(node, node.getIndex());
+    Map<Node, Integer> stNumbering = MapSequence.<Node,Integer>fromMap(new HashMap<Node, Integer>());
+    for (Node node : ListSequence.<Node>fromList(graph.getNodes())) {
+      MapSequence.<Node,Integer>fromMap(stNumbering).put(node, node.getIndex());
     }
     EmbeddedGraph embeddedGraph = new PQPlanarityTest().getEmbedding(graph, stNumbering);
     CheckEmbeddedGraph.checkEmbeddedGraph(embeddedGraph, true);
