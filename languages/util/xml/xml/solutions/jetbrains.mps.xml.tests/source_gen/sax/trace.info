@@ -65,8 +65,8 @@
     <nodeInfo nodeId="2059681291147340382" fileName="TestParserHandler.java" startLine="53" startPosition="12" endLine="55" endPosition="7" conceptFqName="jetbrains.mps.baseLanguage.structure.BlockStatement" />
     <nodeInfo nodeId="2059681291147340382" fileName="TestParserHandler.java" startLine="68" startPosition="10" endLine="70" endPosition="5" conceptFqName="jetbrains.mps.baseLanguage.structure.BlockStatement" />
     <nodeInfo nodeId="2059681291147340382" fileName="TestParserHandler.java" startLine="94" startPosition="32" endLine="96" endPosition="5" conceptFqName="jetbrains.mps.baseLanguage.structure.ConstructorDeclaration" propertyString="ElementHandler#()V" />
-    <nodeInfo nodeId="2059681291147340382" fileName="TestParserHandler.java" startLine="130" startPosition="0" endLine="132" endPosition="5" conceptFqName="jetbrains.mps.baseLanguage.structure.ConstructorDeclaration" propertyString="rootElementElementHandler#()V" />
-    <nodeInfo nodeId="2059681291147340382" fileName="TestParserHandler.java" startLine="177" startPosition="0" endLine="179" endPosition="5" conceptFqName="jetbrains.mps.baseLanguage.structure.ConstructorDeclaration" propertyString="childElementElementHandler#()V" />
+    <nodeInfo nodeId="2059681291147340382" fileName="TestParserHandler.java" startLine="130" startPosition="0" endLine="132" endPosition="5" conceptFqName="jetbrains.mps.baseLanguage.structure.ConstructorDeclaration" propertyString="RootElementElementHandler#()V" />
+    <nodeInfo nodeId="2059681291147340382" fileName="TestParserHandler.java" startLine="177" startPosition="0" endLine="179" endPosition="5" conceptFqName="jetbrains.mps.baseLanguage.structure.ConstructorDeclaration" propertyString="ChildElementElementHandler#()V" />
     <nodeInfo nodeId="2059681291147340382" fileName="TestParserHandler.java" startLine="39" startPosition="6" endLine="42" endPosition="5" conceptFqName="jetbrains.mps.baseLanguage.structure.IfStatement" />
     <nodeInfo nodeId="2059681291147340382" fileName="TestParserHandler.java" startLine="73" startPosition="54" endLine="76" endPosition="7" conceptFqName="jetbrains.mps.baseLanguage.structure.IfStatement" />
     <nodeInfo nodeId="2059681291147340382" fileName="TestParserHandler.java" startLine="79" startPosition="53" endLine="82" endPosition="5" conceptFqName="jetbrains.mps.baseLanguage.structure.IfStatement" />
@@ -171,9 +171,9 @@
     <scopeInfo nodeId="2059681291147340382" fileName="TestParserHandler.java" startLine="44" startPosition="0" endLine="58" endPosition="0" />
     <scopeInfo nodeId="2059681291147340382" fileName="TestParserHandler.java" startLine="60" startPosition="115" endLine="91" endPosition="26" />
     <scopeInfo nodeId="2059681291147340382" fileName="TestParserHandler.java" startLine="58" startPosition="0" endLine="93" endPosition="0" />
-    <unitInfo nodeId="2059681291147340382" fileName="TestParserHandler.java" startLine="175" startPosition="0" endLine="204" endPosition="0" unitName="sax.TestParserHandler$childElementElementHandler" />
+    <unitInfo nodeId="2059681291147340382" fileName="TestParserHandler.java" startLine="175" startPosition="0" endLine="204" endPosition="0" unitName="sax.TestParserHandler$ChildElementElementHandler" />
     <unitInfo nodeId="2059681291147340382" fileName="TestParserHandler.java" startLine="94" startPosition="0" endLine="127" endPosition="0" unitName="sax.TestParserHandler$ElementHandler" />
-    <unitInfo nodeId="2059681291147340382" fileName="TestParserHandler.java" startLine="128" startPosition="0" endLine="174" endPosition="0" unitName="sax.TestParserHandler$rootElementElementHandler" />
+    <unitInfo nodeId="2059681291147340382" fileName="TestParserHandler.java" startLine="128" startPosition="0" endLine="174" endPosition="0" unitName="sax.TestParserHandler$RootElementElementHandler" />
     <unitInfo nodeId="2059681291147340382" fileName="TestParserHandler.java" startLine="12" startPosition="0" endLine="205" endPosition="0" unitName="sax.TestParserHandler" />
   </root>
   <root nodeId="2059681291147340385">
