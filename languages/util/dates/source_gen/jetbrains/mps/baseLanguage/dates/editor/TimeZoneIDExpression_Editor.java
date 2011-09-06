@@ -57,9 +57,9 @@ public class TimeZoneIDExpression_Editor extends DefaultNodeEditor {
 
     public List<String> getPropertyValues(SNode node, IScope scope, IOperationContext operationContext) {
       DateTimeZone.getAvailableIDs();
-      List<String> result = ListSequence.<String>fromList(new ArrayList<String>());
+      List<String> result = ListSequence.fromList(new ArrayList<String>());
       for (Object id : DateTimeZone.getAvailableIDs()) {
-        ListSequence.<String>fromList(result).addElement(String.valueOf(id));
+        ListSequence.fromList(result).addElement(String.valueOf(id));
       }
       return result;
     }

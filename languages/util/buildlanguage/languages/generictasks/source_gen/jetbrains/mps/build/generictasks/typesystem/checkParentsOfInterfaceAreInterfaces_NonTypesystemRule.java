@@ -21,7 +21,7 @@ public class checkParentsOfInterfaceAreInterfaces_NonTypesystemRule extends Abst
   }
 
   public void applyRule(final SNode genericInterfaceDeclaration, final TypeCheckingContext typeCheckingContext, IsApplicableStatus status) {
-    for (SNode parent : ListSequence.<SNode>fromList(SLinkOperations.getTargets(genericInterfaceDeclaration, "parents", true))) {
+    for (SNode parent : ListSequence.fromList(SLinkOperations.getTargets(genericInterfaceDeclaration, "parents", true))) {
       if (!(SNodeOperations.isInstanceOf(SLinkOperations.getTarget(parent, "declaration", false), "jetbrains.mps.build.generictasks.structure.TaskInterfaceDeclaration"))) {
         {
           MessageTarget errorTarget = new NodeMessageTarget();

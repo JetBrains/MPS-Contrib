@@ -38,7 +38,7 @@ public class ElementUtil {
       }
       if (SNodeOperations.isInstanceOf(currentNode, "jetbrains.mps.xml.structure.Content")) {
         SNode content = SNodeOperations.cast(currentNode, "jetbrains.mps.xml.structure.Content");
-        elementDeclaration = ListSequence.<SNode>fromList(SLinkOperations.getConceptLinkTargets(content, "correspondingElement")).first();
+        elementDeclaration = ListSequence.fromList(SLinkOperations.getConceptLinkTargets(content, "correspondingElement")).first();
         if ((elementDeclaration != null)) {
           break;
         }
@@ -64,19 +64,19 @@ public class ElementUtil {
 
   public static List<SNode> getElementDeclarations(SNode elementDeclaration, SNode node, IScope scope) {
     SNode schema = findSchema(node, scope);
-    Set<SNode> elementDeclarationSet = SetSequence.<SNode>fromSet(new HashSet<SNode>());
+    Set<SNode> elementDeclarationSet = SetSequence.fromSet(new HashSet<SNode>());
     if ((elementDeclaration == null)) {
       if ((schema != null) && SPropertyOperations.getBoolean(schema, "alwaysUseRoot")) {
         SetSequence.fromSet(elementDeclarationSet).addElement(SLinkOperations.getTarget(SLinkOperations.getTarget(schema, "rootElementReference", true), "elementDeclaration", false));
       } else {
         List<SNode> elementDeclarations = SModelOperations.getNodesIncludingImported(SNodeOperations.getModel(node), scope, "jetbrains.mps.xmlSchema.structure.ElementDeclaration");
-        SetSequence.fromSet(elementDeclarationSet).addSequence(ListSequence.<SNode>fromList(elementDeclarations));
+        SetSequence.fromSet(elementDeclarationSet).addSequence(ListSequence.fromList(elementDeclarations));
       }
     } else {
       ElementDeclaration_Behavior.call_checkElements_ed_1213877429846(elementDeclaration, elementDeclarationSet);
     }
     List<SNode> elementDeclarations = new ArrayList<SNode>();
-    ListSequence.<SNode>fromList(elementDeclarations).addSequence(SetSequence.<SNode>fromSet(elementDeclarationSet));
+    ListSequence.fromList(elementDeclarations).addSequence(SetSequence.fromSet(elementDeclarationSet));
     return elementDeclarations;
   }
 }

@@ -32,10 +32,10 @@ public enum PeriodSeparatorKind {
   }
 
   public static List<PeriodSeparatorKind> getConstants() {
-    List<PeriodSeparatorKind> list = ListSequence.<PeriodSeparatorKind>fromList(new LinkedList<PeriodSeparatorKind>());
-    ListSequence.<PeriodSeparatorKind>fromList(list).addElement(PeriodSeparatorKind.DEFAULT);
-    ListSequence.<PeriodSeparatorKind>fromList(list).addElement(PeriodSeparatorKind.IFBEFORE);
-    ListSequence.<PeriodSeparatorKind>fromList(list).addElement(PeriodSeparatorKind.IFAFTER);
+    List<PeriodSeparatorKind> list = ListSequence.fromList(new LinkedList<PeriodSeparatorKind>());
+    ListSequence.fromList(list).addElement(PeriodSeparatorKind.DEFAULT);
+    ListSequence.fromList(list).addElement(PeriodSeparatorKind.IFBEFORE);
+    ListSequence.fromList(list).addElement(PeriodSeparatorKind.IFAFTER);
     return list;
   }
 

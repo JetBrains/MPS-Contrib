@@ -145,15 +145,15 @@ public class DateTimeZone_Editor extends DefaultNodeEditor {
     }
 
     public List<String> getPropertyValues(SNode node, IScope scope, IOperationContext operationContext) {
-      List<String> result = ListSequence.<String>fromList(new ArrayList<String>());
+      List<String> result = ListSequence.fromList(new ArrayList<String>());
       for (Object obj : DateTimeZone.getAvailableIDs()) {
         String str = obj + "";
         if (str.indexOf('/') == -1) {
           continue;
         }
         String continent = str.substring(0, str.indexOf('/'));
-        if (!(ListSequence.<String>fromList(result).contains(continent))) {
-          ListSequence.<String>fromList(result).addElement(continent);
+        if (!(ListSequence.fromList(result).contains(continent))) {
+          ListSequence.fromList(result).addElement(continent);
         }
       }
       return result;
@@ -165,16 +165,16 @@ public class DateTimeZone_Editor extends DefaultNodeEditor {
     }
 
     public List<String> getPropertyValues(SNode node, IScope scope, IOperationContext operationContext) {
-      List<String> result = ListSequence.<String>fromList(new ArrayList<String>());
+      List<String> result = ListSequence.fromList(new ArrayList<String>());
       for (Object obj : DateTimeZone.getAvailableIDs()) {
         String str = obj + "";
         if (str.indexOf('/') == -1) {
-          ListSequence.<String>fromList(result).addElement(str);
+          ListSequence.fromList(result).addElement(str);
           continue;
         }
         String continent = str.substring(0, str.indexOf('/'));
         if (SPropertyOperations.getString(node, "continentOfCountry") != null && continent.equals(SPropertyOperations.getString(node, "continentOfCountry"))) {
-          ListSequence.<String>fromList(result).addElement(str.substring(str.indexOf('/') + 1));
+          ListSequence.fromList(result).addElement(str.substring(str.indexOf('/') + 1));
         }
       }
       return result;

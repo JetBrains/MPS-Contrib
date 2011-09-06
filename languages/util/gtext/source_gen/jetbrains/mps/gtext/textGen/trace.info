@@ -6,7 +6,7 @@
     <nodeInfo nodeId="1237463992256" fileName="GConditionalLine_TextGen.java" startLine="22" startPosition="61" endLine="23" endPosition="27" conceptFqName="jetbrains.mps.baseLanguage.structure.BlockStatement" />
     <nodeInfo nodeId="1237463992256" fileName="GConditionalLine_TextGen.java" startLine="22" startPosition="61" endLine="23" endPosition="27" conceptFqName="jetbrains.mps.baseLanguage.structure.ExpressionStatement" />
     <nodeInfo nodeId="1234548061150" fileName="GConditionalLine_TextGen.java" startLine="13" startPosition="42" endLine="16" endPosition="5" conceptFqName="jetbrains.mps.baseLanguage.structure.IfStatement" />
-    <nodeInfo nodeId="1237463991927" fileName="GConditionalLine_TextGen.java" startLine="17" startPosition="100" endLine="20" endPosition="7" conceptFqName="jetbrains.mps.baseLanguage.structure.ForeachStatement" />
+    <nodeInfo nodeId="1237463991927" fileName="GConditionalLine_TextGen.java" startLine="17" startPosition="93" endLine="20" endPosition="7" conceptFqName="jetbrains.mps.baseLanguage.structure.ForeachStatement" />
     <nodeInfo nodeId="1234548128124" fileName="GConditionalLine_TextGen.java" startLine="21" startPosition="5" endLine="24" endPosition="5" conceptFqName="jetbrains.mps.baseLanguage.structure.IfStatement" />
     <nodeInfo nodeId="1237463991927" fileName="GConditionalLine_TextGen.java" startLine="16" startPosition="5" endLine="21" endPosition="5" conceptFqName="jetbrains.mps.baseLanguage.structure.BlockStatement" />
     <nodeInfo nodeId="1237463991927" fileName="GConditionalLine_TextGen.java" startLine="16" startPosition="5" endLine="21" endPosition="5" conceptFqName="jetbrains.mps.baseLanguage.structure.IfStatement" />
@@ -15,7 +15,7 @@
     <scopeInfo nodeId="1237463991927" fileName="GConditionalLine_TextGen.java" startLine="18" startPosition="73" endLine="19" endPosition="109" />
     <scopeInfo nodeId="1234548128125" fileName="GConditionalLine_TextGen.java" startLine="22" startPosition="61" endLine="23" endPosition="27" />
     <scopeInfo nodeId="1237463992256" fileName="GConditionalLine_TextGen.java" startLine="22" startPosition="61" endLine="23" endPosition="27" />
-    <scopeInfo nodeId="1237463991927" fileName="GConditionalLine_TextGen.java" startLine="17" startPosition="100" endLine="20" endPosition="7" />
+    <scopeInfo nodeId="1237463991927" fileName="GConditionalLine_TextGen.java" startLine="17" startPosition="93" endLine="20" endPosition="7" />
     <scopeInfo nodeId="1237463991927" fileName="GConditionalLine_TextGen.java" startLine="16" startPosition="5" endLine="21" endPosition="5" />
     <scopeInfo nodeId="1234548035318" fileName="GConditionalLine_TextGen.java" startLine="13" startPosition="42" endLine="24" endPosition="5" />
     <scopeInfo nodeId="1234548035318" fileName="GConditionalLine_TextGen.java" startLine="12" startPosition="60" endLine="26" endPosition="0" />
@@ -24,14 +24,14 @@
   <root nodeId="1234548158731">
     <nodeInfo nodeId="1237463992939" fileName="GDocument_TextGen.java" startLine="15" startPosition="73" endLine="16" endPosition="109" conceptFqName="jetbrains.mps.baseLanguage.structure.ExpressionStatement" />
     <nodeInfo nodeId="9098138405996044051" fileName="GDocument_TextGen.java" startLine="21" startPosition="42" endLine="22" endPosition="60" conceptFqName="jetbrains.mps.baseLanguage.structure.ReturnStatement" />
-    <nodeInfo nodeId="1237463992939" fileName="GDocument_TextGen.java" startLine="14" startPosition="100" endLine="17" endPosition="7" conceptFqName="jetbrains.mps.baseLanguage.structure.ForeachStatement" />
+    <nodeInfo nodeId="1237463992939" fileName="GDocument_TextGen.java" startLine="14" startPosition="93" endLine="17" endPosition="7" conceptFqName="jetbrains.mps.baseLanguage.structure.ForeachStatement" />
     <nodeInfo nodeId="1234548158731" fileName="GDocument_TextGen.java" startLine="20" startPosition="0" endLine="24" endPosition="0" conceptFqName="jetbrains.mps.baseLanguage.structure.InstanceMethodDeclaration" propertyString="getExtension#(Ljetbrains/mps/smodel/SNode;)Ljava/lang/String;" />
     <nodeInfo nodeId="1237463992939" fileName="GDocument_TextGen.java" startLine="13" startPosition="42" endLine="18" endPosition="5" conceptFqName="jetbrains.mps.baseLanguage.structure.BlockStatement" />
     <nodeInfo nodeId="1237463992939" fileName="GDocument_TextGen.java" startLine="13" startPosition="42" endLine="18" endPosition="5" conceptFqName="jetbrains.mps.baseLanguage.structure.IfStatement" />
     <nodeInfo nodeId="1234548158731" fileName="GDocument_TextGen.java" startLine="12" startPosition="53" endLine="20" endPosition="0" conceptFqName="jetbrains.mps.baseLanguage.structure.InstanceMethodDeclaration" propertyString="doGenerateText#(Ljetbrains/mps/smodel/SNode;)V" />
     <scopeInfo nodeId="1237463992939" fileName="GDocument_TextGen.java" startLine="15" startPosition="73" endLine="16" endPosition="109" />
     <scopeInfo nodeId="1234548158731" fileName="GDocument_TextGen.java" startLine="21" startPosition="42" endLine="22" endPosition="60" />
-    <scopeInfo nodeId="1237463992939" fileName="GDocument_TextGen.java" startLine="14" startPosition="100" endLine="17" endPosition="7" />
+    <scopeInfo nodeId="1237463992939" fileName="GDocument_TextGen.java" startLine="14" startPosition="93" endLine="17" endPosition="7" />
     <scopeInfo nodeId="1234548158731" fileName="GDocument_TextGen.java" startLine="20" startPosition="0" endLine="24" endPosition="0" />
     <scopeInfo nodeId="1234548158731" fileName="GDocument_TextGen.java" startLine="13" startPosition="42" endLine="18" endPosition="5" />
     <scopeInfo nodeId="1237463992939" fileName="GDocument_TextGen.java" startLine="13" startPosition="42" endLine="18" endPosition="5" />
@@ -70,12 +70,12 @@
   </root>
   <root nodeId="1234795650950">
     <nodeInfo nodeId="1237463993067" fileName="GItemList_TextGen.java" startLine="14" startPosition="73" endLine="15" endPosition="109" conceptFqName="jetbrains.mps.baseLanguage.structure.ExpressionStatement" />
-    <nodeInfo nodeId="1237463993067" fileName="GItemList_TextGen.java" startLine="13" startPosition="100" endLine="16" endPosition="7" conceptFqName="jetbrains.mps.baseLanguage.structure.ForeachStatement" />
+    <nodeInfo nodeId="1237463993067" fileName="GItemList_TextGen.java" startLine="13" startPosition="93" endLine="16" endPosition="7" conceptFqName="jetbrains.mps.baseLanguage.structure.ForeachStatement" />
     <nodeInfo nodeId="1237463993067" fileName="GItemList_TextGen.java" startLine="12" startPosition="42" endLine="17" endPosition="5" conceptFqName="jetbrains.mps.baseLanguage.structure.BlockStatement" />
     <nodeInfo nodeId="1237463993067" fileName="GItemList_TextGen.java" startLine="12" startPosition="42" endLine="17" endPosition="5" conceptFqName="jetbrains.mps.baseLanguage.structure.IfStatement" />
     <nodeInfo nodeId="1234795650950" fileName="GItemList_TextGen.java" startLine="11" startPosition="53" endLine="19" endPosition="0" conceptFqName="jetbrains.mps.baseLanguage.structure.InstanceMethodDeclaration" propertyString="doGenerateText#(Ljetbrains/mps/smodel/SNode;)V" />
     <scopeInfo nodeId="1237463993067" fileName="GItemList_TextGen.java" startLine="14" startPosition="73" endLine="15" endPosition="109" />
-    <scopeInfo nodeId="1237463993067" fileName="GItemList_TextGen.java" startLine="13" startPosition="100" endLine="16" endPosition="7" />
+    <scopeInfo nodeId="1237463993067" fileName="GItemList_TextGen.java" startLine="13" startPosition="93" endLine="16" endPosition="7" />
     <scopeInfo nodeId="1234795650950" fileName="GItemList_TextGen.java" startLine="12" startPosition="42" endLine="17" endPosition="5" />
     <scopeInfo nodeId="1237463993067" fileName="GItemList_TextGen.java" startLine="12" startPosition="42" endLine="17" endPosition="5" />
     <scopeInfo nodeId="1234795650950" fileName="GItemList_TextGen.java" startLine="11" startPosition="53" endLine="19" endPosition="0" />
@@ -85,12 +85,12 @@
     <nodeInfo nodeId="1234795680152" fileName="GLine_TextGen.java" startLine="12" startPosition="42" endLine="13" endPosition="24" conceptFqName="jetbrains.mps.baseLanguage.structure.ExpressionStatement" />
     <nodeInfo nodeId="1237463992085" fileName="GLine_TextGen.java" startLine="15" startPosition="73" endLine="16" endPosition="109" conceptFqName="jetbrains.mps.baseLanguage.structure.ExpressionStatement" />
     <nodeInfo nodeId="1237463992085" fileName="GLine_TextGen.java" startLine="18" startPosition="5" endLine="19" endPosition="25" conceptFqName="jetbrains.mps.baseLanguage.structure.ExpressionStatement" />
-    <nodeInfo nodeId="1237463992085" fileName="GLine_TextGen.java" startLine="14" startPosition="100" endLine="17" endPosition="7" conceptFqName="jetbrains.mps.baseLanguage.structure.ForeachStatement" />
+    <nodeInfo nodeId="1237463992085" fileName="GLine_TextGen.java" startLine="14" startPosition="93" endLine="17" endPosition="7" conceptFqName="jetbrains.mps.baseLanguage.structure.ForeachStatement" />
     <nodeInfo nodeId="1237463992085" fileName="GLine_TextGen.java" startLine="13" startPosition="24" endLine="18" endPosition="5" conceptFqName="jetbrains.mps.baseLanguage.structure.IfStatement" />
     <nodeInfo nodeId="1237463992085" fileName="GLine_TextGen.java" startLine="13" startPosition="24" endLine="19" endPosition="25" conceptFqName="jetbrains.mps.baseLanguage.structure.BlockStatement" />
     <nodeInfo nodeId="1234795672226" fileName="GLine_TextGen.java" startLine="11" startPosition="49" endLine="21" endPosition="0" conceptFqName="jetbrains.mps.baseLanguage.structure.InstanceMethodDeclaration" propertyString="doGenerateText#(Ljetbrains/mps/smodel/SNode;)V" />
     <scopeInfo nodeId="1237463992085" fileName="GLine_TextGen.java" startLine="15" startPosition="73" endLine="16" endPosition="109" />
-    <scopeInfo nodeId="1237463992085" fileName="GLine_TextGen.java" startLine="14" startPosition="100" endLine="17" endPosition="7" />
+    <scopeInfo nodeId="1237463992085" fileName="GLine_TextGen.java" startLine="14" startPosition="93" endLine="17" endPosition="7" />
     <scopeInfo nodeId="1237463992085" fileName="GLine_TextGen.java" startLine="13" startPosition="24" endLine="19" endPosition="25" />
     <scopeInfo nodeId="1234795672226" fileName="GLine_TextGen.java" startLine="12" startPosition="42" endLine="19" endPosition="25" />
     <scopeInfo nodeId="1234795672226" fileName="GLine_TextGen.java" startLine="11" startPosition="49" endLine="21" endPosition="0" />
@@ -106,17 +106,17 @@
     <unitInfo nodeId="1234795724821" fileName="GNewLine_TextGen.java" startLine="8" startPosition="0" endLine="13" endPosition="0" unitName="jetbrains.mps.gtext.textGen.GNewLine_TextGen" />
   </root>
   <root nodeId="1234795740185">
-    <nodeInfo nodeId="1237463992309" fileName="GSeparatorItemList_TextGen.java" startLine="14" startPosition="105" endLine="15" endPosition="155" conceptFqName="jetbrains.mps.baseLanguage.structure.BlockStatement" />
-    <nodeInfo nodeId="1237463992309" fileName="GSeparatorItemList_TextGen.java" startLine="14" startPosition="105" endLine="15" endPosition="155" conceptFqName="jetbrains.mps.baseLanguage.structure.BlockStatement" />
-    <nodeInfo nodeId="1237463992309" fileName="GSeparatorItemList_TextGen.java" startLine="14" startPosition="105" endLine="15" endPosition="155" conceptFqName="jetbrains.mps.baseLanguage.structure.ExpressionStatement" />
+    <nodeInfo nodeId="1237463992309" fileName="GSeparatorItemList_TextGen.java" startLine="14" startPosition="98" endLine="15" endPosition="155" conceptFqName="jetbrains.mps.baseLanguage.structure.BlockStatement" />
+    <nodeInfo nodeId="1237463992309" fileName="GSeparatorItemList_TextGen.java" startLine="14" startPosition="98" endLine="15" endPosition="155" conceptFqName="jetbrains.mps.baseLanguage.structure.BlockStatement" />
+    <nodeInfo nodeId="1237463992309" fileName="GSeparatorItemList_TextGen.java" startLine="14" startPosition="98" endLine="15" endPosition="155" conceptFqName="jetbrains.mps.baseLanguage.structure.ExpressionStatement" />
     <nodeInfo nodeId="1237463993021" fileName="GSeparatorItemList_TextGen.java" startLine="16" startPosition="7" endLine="17" endPosition="107" conceptFqName="jetbrains.mps.baseLanguage.structure.BlockStatement" />
     <nodeInfo nodeId="1237463993021" fileName="GSeparatorItemList_TextGen.java" startLine="16" startPosition="7" endLine="17" endPosition="107" conceptFqName="jetbrains.mps.baseLanguage.structure.BlockStatement" />
     <nodeInfo nodeId="1237463993021" fileName="GSeparatorItemList_TextGen.java" startLine="16" startPosition="7" endLine="17" endPosition="107" conceptFqName="jetbrains.mps.baseLanguage.structure.ExpressionStatement" />
     <nodeInfo nodeId="1234795769028" fileName="GSeparatorItemList_TextGen.java" startLine="13" startPosition="71" endLine="16" endPosition="7" conceptFqName="jetbrains.mps.baseLanguage.structure.IfStatement" />
     <nodeInfo nodeId="1234795755079" fileName="GSeparatorItemList_TextGen.java" startLine="12" startPosition="42" endLine="18" endPosition="5" conceptFqName="jetbrains.mps.baseLanguage.structure.ForeachStatement" />
     <nodeInfo nodeId="1234795740185" fileName="GSeparatorItemList_TextGen.java" startLine="11" startPosition="62" endLine="20" endPosition="0" conceptFqName="jetbrains.mps.baseLanguage.structure.InstanceMethodDeclaration" propertyString="doGenerateText#(Ljetbrains/mps/smodel/SNode;)V" />
-    <scopeInfo nodeId="1234795769030" fileName="GSeparatorItemList_TextGen.java" startLine="14" startPosition="105" endLine="15" endPosition="155" />
-    <scopeInfo nodeId="1237463992309" fileName="GSeparatorItemList_TextGen.java" startLine="14" startPosition="105" endLine="15" endPosition="155" />
+    <scopeInfo nodeId="1234795769030" fileName="GSeparatorItemList_TextGen.java" startLine="14" startPosition="98" endLine="15" endPosition="155" />
+    <scopeInfo nodeId="1237463992309" fileName="GSeparatorItemList_TextGen.java" startLine="14" startPosition="98" endLine="15" endPosition="155" />
     <scopeInfo nodeId="1237463993021" fileName="GSeparatorItemList_TextGen.java" startLine="16" startPosition="7" endLine="17" endPosition="107" />
     <scopeInfo nodeId="1234795755083" fileName="GSeparatorItemList_TextGen.java" startLine="13" startPosition="71" endLine="17" endPosition="107" />
     <scopeInfo nodeId="1234795740185" fileName="GSeparatorItemList_TextGen.java" startLine="12" startPosition="42" endLine="18" endPosition="5" />

@@ -11,7 +11,7 @@ public class DateFormatVisibility_PropertySupport extends PropertySupport {
     if (value == null) {
       return true;
     }
-    Iterator<DateFormatVisibility> constants = ListSequence.<DateFormatVisibility>fromList(DateFormatVisibility.getConstants()).iterator();
+    Iterator<DateFormatVisibility> constants = ListSequence.fromList(DateFormatVisibility.getConstants()).iterator();
     while (constants.hasNext()) {
       DateFormatVisibility constant = constants.next();
       if (value.equals(constant.getName())) {
@@ -25,7 +25,7 @@ public class DateFormatVisibility_PropertySupport extends PropertySupport {
     if (value == null) {
       return null;
     }
-    Iterator<DateFormatVisibility> constants = ListSequence.<DateFormatVisibility>fromList(DateFormatVisibility.getConstants()).iterator();
+    Iterator<DateFormatVisibility> constants = ListSequence.fromList(DateFormatVisibility.getConstants()).iterator();
     while (constants.hasNext()) {
       DateFormatVisibility constant = constants.next();
       if (value.equals(constant.getName())) {

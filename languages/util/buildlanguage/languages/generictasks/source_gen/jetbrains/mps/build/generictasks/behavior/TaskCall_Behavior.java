@@ -18,7 +18,7 @@ public class TaskCall_Behavior {
   public static String call_getAttributeValue_353793545802643859(SNode thisNode, String name) {
     SNode node = SConceptOperations.createNewNode("jetbrains.mps.build.generictasks.structure.AttributeDeclaration", null);
     SPropertyOperations.set(node, "name", name);
-    for (SNode attr : ListSequence.<SNode>fromList(SLinkOperations.getTargets(thisNode, "atributes", true))) {
+    for (SNode attr : ListSequence.fromList(SLinkOperations.getTargets(thisNode, "atributes", true))) {
       if (Attribute_Behavior.call_isOfDeclaration_353793545802643786(attr, node)) {
         if ((SLinkOperations.getTarget(attr, "value", true) != null)) {
           return PropertyValueExpression_Behavior.call_toString_1213877472569(SLinkOperations.getTarget(attr, "value", true));
@@ -33,7 +33,7 @@ public class TaskCall_Behavior {
   }
 
   public static boolean call_isAttributeDefined_353793545802643915(SNode thisNode, SNode attrDecl) {
-    for (SNode attribute : ListSequence.<SNode>fromList(SLinkOperations.getTargets(thisNode, "atributes", true))) {
+    for (SNode attribute : ListSequence.fromList(SLinkOperations.getTargets(thisNode, "atributes", true))) {
       if ((SLinkOperations.getTarget(attribute, "attributeDeclaration", false) != null) && Attribute_Behavior.call_isOfDeclaration_353793545802643786(attribute, attrDecl)) {
         return true;
       }
@@ -43,7 +43,7 @@ public class TaskCall_Behavior {
 
   public static Iterable<SNode> call_getUndefinedAttributes_353793545802643943(final SNode thisNode) {
     List<SNode> attributeDeclarations = ITaskDeclaration_Behavior.call_getAttributesDeclarations_1190349257898147625(SLinkOperations.getTarget(thisNode, "declaration", false));
-    return ListSequence.<SNode>fromList(attributeDeclarations).where(new IWhereFilter<SNode>() {
+    return ListSequence.fromList(attributeDeclarations).where(new IWhereFilter<SNode>() {
       public boolean accept(SNode it) {
         return !(TaskCall_Behavior.call_isAttributeDefined_353793545802643915(thisNode, it));
       }

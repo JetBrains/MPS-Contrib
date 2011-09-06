@@ -22,10 +22,10 @@ public class checkAllRequiredAttributesPresent_NonTypesystemRule extends Abstrac
   }
 
   public void applyRule(final SNode genericTaskCall, final TypeCheckingContext typeCheckingContext, IsApplicableStatus status) {
-    for (SNode attrDecl : ListSequence.<SNode>fromList(ITaskDeclaration_Behavior.call_getAttributesDeclarations_1190349257898147625(SLinkOperations.getTarget(genericTaskCall, "declaration", false)))) {
+    for (SNode attrDecl : ListSequence.fromList(ITaskDeclaration_Behavior.call_getAttributesDeclarations_1190349257898147625(SLinkOperations.getTarget(genericTaskCall, "declaration", false)))) {
       if (AttributeDeclaration_Behavior.call_isRequired_353793545802643811(attrDecl)) {
         boolean found = false;
-        for (SNode attr : ListSequence.<SNode>fromList(SLinkOperations.getTargets(genericTaskCall, "atributes", true))) {
+        for (SNode attr : ListSequence.fromList(SLinkOperations.getTargets(genericTaskCall, "atributes", true))) {
           if (SPropertyOperations.getString(SLinkOperations.getTarget(attr, "attributeDeclaration", false), "name").equals(SPropertyOperations.getString(attrDecl, "name"))) {
             if ((SLinkOperations.getTarget(attr, "value", true) != null)) {
               found = true;

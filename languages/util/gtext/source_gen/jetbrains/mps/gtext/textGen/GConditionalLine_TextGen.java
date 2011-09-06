@@ -14,7 +14,7 @@ public class GConditionalLine_TextGen extends SNodeTextGen {
     if (SPropertyOperations.getBoolean(node, "isSeparate")) {
       this.indentBuffer();
     }
-    if (ListSequence.<SNode>fromList(SLinkOperations.getTargets(node, "item", true)).isNotEmpty()) {
+    if (ListSequence.fromList(SLinkOperations.getTargets(node, "item", true)).isNotEmpty()) {
       for (SNode item : SLinkOperations.getTargets(node, "item", true)) {
         TextGenManager.instance().appendNodeText(this.getContext(), this.getBuffer(), item, this.getSNode());
       }

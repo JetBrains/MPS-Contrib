@@ -38,7 +38,7 @@
     <nodeInfo nodeId="7976893777486251143" fileName="check_IsApplicableBlock_NonTypesystemRule.java" startLine="36" startPosition="117" endLine="37" endPosition="45" conceptFqName="jetbrains.mps.baseLanguage.structure.ReturnStatement" />
     <nodeInfo nodeId="7976893777486251143" fileName="check_IsApplicableBlock_NonTypesystemRule.java" startLine="41" startPosition="30" endLine="42" endPosition="16" conceptFqName="jetbrains.mps.baseLanguage.structure.ReturnStatement" />
     <nodeInfo nodeId="7976893777486251143" fileName="check_IsApplicableBlock_NonTypesystemRule.java" startLine="17" startPosition="135" endLine="19" endPosition="3" conceptFqName="jetbrains.mps.baseLanguage.structure.ConstructorDeclaration" propertyString="check_IsApplicableBlock_NonTypesystemRule#()V" />
-    <nodeInfo nodeId="7976893777486251164" fileName="check_IsApplicableBlock_NonTypesystemRule.java" startLine="22" startPosition="180" endLine="26" endPosition="7" conceptFqName="jetbrains.mps.baseLanguage.structure.BlockStatement" />
+    <nodeInfo nodeId="7976893777486251164" fileName="check_IsApplicableBlock_NonTypesystemRule.java" startLine="22" startPosition="173" endLine="26" endPosition="7" conceptFqName="jetbrains.mps.baseLanguage.structure.BlockStatement" />
     <nodeInfo nodeId="7976893777486251143" fileName="check_IsApplicableBlock_NonTypesystemRule.java" startLine="29" startPosition="0" endLine="33" endPosition="0" conceptFqName="jetbrains.mps.baseLanguage.structure.InstanceMethodDeclaration" propertyString="getApplicableConceptFQName#()Ljava/lang/String;" />
     <nodeInfo nodeId="7976893777486251143" fileName="check_IsApplicableBlock_NonTypesystemRule.java" startLine="34" startPosition="68" endLine="38" endPosition="5" conceptFqName="jetbrains.mps.baseLanguage.structure.BlockStatement" />
     <nodeInfo nodeId="7976893777486251143" fileName="check_IsApplicableBlock_NonTypesystemRule.java" startLine="40" startPosition="0" endLine="44" endPosition="0" conceptFqName="jetbrains.mps.baseLanguage.structure.InstanceMethodDeclaration" propertyString="overrides#()Z" />
@@ -51,7 +51,7 @@
     <scopeInfo nodeId="7976893777486251143" fileName="check_IsApplicableBlock_NonTypesystemRule.java" startLine="17" startPosition="135" endLine="19" endPosition="3" />
     <scopeInfo nodeId="7976893777486251164" fileName="check_IsApplicableBlock_NonTypesystemRule.java" startLine="23" startPosition="7" endLine="25" endPosition="280" />
     <scopeInfo nodeId="7976893777486251143" fileName="check_IsApplicableBlock_NonTypesystemRule.java" startLine="35" startPosition="5" endLine="37" endPosition="45" />
-    <scopeInfo nodeId="7976893777486251149" fileName="check_IsApplicableBlock_NonTypesystemRule.java" startLine="22" startPosition="180" endLine="26" endPosition="7" />
+    <scopeInfo nodeId="7976893777486251149" fileName="check_IsApplicableBlock_NonTypesystemRule.java" startLine="22" startPosition="173" endLine="26" endPosition="7" />
     <scopeInfo nodeId="7976893777486251143" fileName="check_IsApplicableBlock_NonTypesystemRule.java" startLine="29" startPosition="0" endLine="33" endPosition="0" />
     <scopeInfo nodeId="7976893777486251143" fileName="check_IsApplicableBlock_NonTypesystemRule.java" startLine="34" startPosition="68" endLine="38" endPosition="5" />
     <scopeInfo nodeId="7976893777486251143" fileName="check_IsApplicableBlock_NonTypesystemRule.java" startLine="40" startPosition="0" endLine="44" endPosition="0" />

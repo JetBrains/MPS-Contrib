@@ -32,7 +32,7 @@ public class MultiLineString_Constraints extends BaseConstraintsDescriptor {
         String propertyName = "name";
         {
           String result = "";
-          for (SNode lit : ListSequence.<SNode>fromList(SLinkOperations.getTargets(node, "stringExpression", true))) {
+          for (SNode lit : ListSequence.fromList(SLinkOperations.getTargets(node, "stringExpression", true))) {
             result += PropertyValueExpression_Behavior.call_toString_1213877472569(lit);
           }
           return (result.length() > 0 ?

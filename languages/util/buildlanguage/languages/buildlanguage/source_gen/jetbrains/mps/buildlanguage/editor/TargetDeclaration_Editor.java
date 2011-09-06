@@ -471,7 +471,7 @@ public class TargetDeclaration_Editor extends DefaultNodeEditor {
   }
 
   private static boolean renderingCondition_xfdsch_a4b0(SNode node, EditorContext editorContext, IScope scope) {
-    return ListSequence.<SNode>fromList(SLinkOperations.getTargets(node, "depends", true)).count() != 0 || editorContext.isInspector();
+    return ListSequence.fromList(SLinkOperations.getTargets(node, "depends", true)).count() != 0 || editorContext.isInspector();
   }
 
   private static boolean renderingCondition_xfdsch_a1a(SNode node, EditorContext editorContext, IScope scope) {

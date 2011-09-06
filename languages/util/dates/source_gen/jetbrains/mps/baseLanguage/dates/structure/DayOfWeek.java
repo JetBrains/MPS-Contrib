@@ -36,14 +36,14 @@ public enum DayOfWeek {
   }
 
   public static List<DayOfWeek> getConstants() {
-    List<DayOfWeek> list = ListSequence.<DayOfWeek>fromList(new LinkedList<DayOfWeek>());
-    ListSequence.<DayOfWeek>fromList(list).addElement(DayOfWeek.Sunday);
-    ListSequence.<DayOfWeek>fromList(list).addElement(DayOfWeek.Monday);
-    ListSequence.<DayOfWeek>fromList(list).addElement(DayOfWeek.Tuesday);
-    ListSequence.<DayOfWeek>fromList(list).addElement(DayOfWeek.Thursday);
-    ListSequence.<DayOfWeek>fromList(list).addElement(DayOfWeek.Wednesday);
-    ListSequence.<DayOfWeek>fromList(list).addElement(DayOfWeek.Friday);
-    ListSequence.<DayOfWeek>fromList(list).addElement(DayOfWeek.Saturday);
+    List<DayOfWeek> list = ListSequence.fromList(new LinkedList<DayOfWeek>());
+    ListSequence.fromList(list).addElement(DayOfWeek.Sunday);
+    ListSequence.fromList(list).addElement(DayOfWeek.Monday);
+    ListSequence.fromList(list).addElement(DayOfWeek.Tuesday);
+    ListSequence.fromList(list).addElement(DayOfWeek.Thursday);
+    ListSequence.fromList(list).addElement(DayOfWeek.Wednesday);
+    ListSequence.fromList(list).addElement(DayOfWeek.Friday);
+    ListSequence.fromList(list).addElement(DayOfWeek.Saturday);
     return list;
   }
 

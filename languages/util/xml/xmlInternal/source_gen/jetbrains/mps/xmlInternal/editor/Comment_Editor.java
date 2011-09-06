@@ -148,7 +148,7 @@ public class Comment_Editor extends DefaultNodeEditor {
   }
 
   private static boolean renderingCondition_gt4ssm_a0(SNode node, EditorContext editorContext, IScope scope) {
-    return ListSequence.<SNode>fromList(SLinkOperations.getTargets(node, "text", true)).count() <= 1;
+    return ListSequence.fromList(SLinkOperations.getTargets(node, "text", true)).count() <= 1;
   }
 
   private static class textListHandler_gt4ssm_b0a extends RefNodeListHandler {

@@ -277,7 +277,7 @@ public class Element_Editor extends DefaultNodeEditor {
   }
 
   private static boolean renderingCondition_76r4mg_a0a(SNode node, EditorContext editorContext, IScope scope) {
-    return ListSequence.<SNode>fromList(SLinkOperations.getTargets(node, "content", true)).isEmpty();
+    return ListSequence.fromList(SLinkOperations.getTargets(node, "content", true)).isEmpty();
   }
 
   private static class attributeListHandler_76r4mg_c0a extends RefNodeListHandler {

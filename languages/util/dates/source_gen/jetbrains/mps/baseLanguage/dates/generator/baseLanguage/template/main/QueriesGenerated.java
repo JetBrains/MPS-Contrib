@@ -13,8 +13,8 @@ import jetbrains.mps.generator.template.PropertyMacroContext;
 import jetbrains.mps.baseLanguage.datesInternal.behavior.DateTimeZone_Behavior;
 import jetbrains.mps.lang.smodel.generator.smodelAdapter.SPropertyOperations;
 import jetbrains.mps.internal.collections.runtime.ListSequence;
-import jetbrains.mps.smodel.SNode;
 import jetbrains.mps.baseLanguage.dates.behavior.ConditionalFormatToken_Behavior;
+import jetbrains.mps.smodel.SNode;
 import jetbrains.mps.baseLanguage.dates.behavior.ScheduleLiteral_Behavior;
 import jetbrains.mps.generator.template.ReferenceMacroContext;
 import jetbrains.mps.baseLanguage.dates.behavior.DateTimeCompareOperation_Behavior;
@@ -119,7 +119,7 @@ public class QueriesGenerated {
   }
 
   public static Object propertyMacro_GetPropertyValue_2010713081064663770(final IOperationContext operationContext, final PropertyMacroContext _context) {
-    return ListSequence.<SNode>fromList(SLinkOperations.getTargets(_context.getNode(), "conditionPair", true)).count();
+    return ListSequence.fromList(SLinkOperations.getTargets(_context.getNode(), "conditionPair", true)).count();
   }
 
   public static Object propertyMacro_GetPropertyValue_1169834230470(final IOperationContext operationContext, final PropertyMacroContext _context) {
@@ -263,7 +263,7 @@ public class QueriesGenerated {
 
   public static Object referenceMacro_GetReferent_1169648061915(final IOperationContext operationContext, final ReferenceMacroContext _context) {
     SNode cc = _context.getOutputNodeByInputNodeAndMappingLabel(_context.getNode(), "ConditionalDateTimePrinterImpl");
-    return ListSequence.<SNode>fromList(SLinkOperations.getTargets(cc, "constructor", true)).first();
+    return ListSequence.fromList(SLinkOperations.getTargets(cc, "constructor", true)).first();
   }
 
   public static Object referenceMacro_GetReferent_1172157829950(final IOperationContext operationContext, final ReferenceMacroContext _context) {
@@ -449,7 +449,7 @@ public class QueriesGenerated {
 
   public static boolean ifMacro_Condition_2872438607477349715(final IOperationContext operationContext, final IfMacroContext _context) {
     SNode container = SNodeOperations.getAncestor(_context.getNode(), "jetbrains.mps.baseLanguage.dates.structure.PeriodFormat", true, false);
-    return ListSequence.<SNode>fromList(SNodeOperations.getDescendants(container, "jetbrains.mps.baseLanguage.dates.structure.PeriodPropertyFormatToken", false, new String[]{})).any(new IWhereFilter<SNode>() {
+    return ListSequence.fromList(SNodeOperations.getDescendants(container, "jetbrains.mps.baseLanguage.dates.structure.PeriodPropertyFormatToken", false, new String[]{})).any(new IWhereFilter<SNode>() {
       public boolean accept(SNode it) {
         return SPropertyOperations.getInteger(it, "minDigits") > 1;
       }
@@ -458,7 +458,7 @@ public class QueriesGenerated {
 
   public static boolean ifMacro_Condition_1778677549314164568(final IOperationContext operationContext, final IfMacroContext _context) {
     SNode container = SNodeOperations.getAncestor(_context.getNode(), "jetbrains.mps.baseLanguage.dates.structure.PeriodFormat", true, false);
-    return ListSequence.<SNode>fromList(SNodeOperations.getDescendants(container, "jetbrains.mps.baseLanguage.dates.structure.PeriodPropertyFormatToken", false, new String[]{})).any(new IWhereFilter<SNode>() {
+    return ListSequence.fromList(SNodeOperations.getDescendants(container, "jetbrains.mps.baseLanguage.dates.structure.PeriodPropertyFormatToken", false, new String[]{})).any(new IWhereFilter<SNode>() {
       public boolean accept(SNode it) {
         return !(SPropertyOperations.hasValue(it, "zeroHandling", "never", "never"));
       }
@@ -500,8 +500,8 @@ public class QueriesGenerated {
   public static SNode sourceNodeQuery_1169643653531(final IOperationContext operationContext, final SourceSubstituteMacroNodeContext _context) {
     List<SNode> statements = SLinkOperations.getTargets(SLinkOperations.getTarget(SLinkOperations.getTarget(_context.getNode(), "condition", true), "body", true), "statement", true);
     SNode e = null;
-    if (!(ListSequence.<SNode>fromList(statements).isEmpty())) {
-      e = SLinkOperations.getTarget(SNodeOperations.cast(ListSequence.<SNode>fromList(statements).last(), "jetbrains.mps.baseLanguage.structure.ExpressionStatement"), "expression", true);
+    if (!(ListSequence.fromList(statements).isEmpty())) {
+      e = SLinkOperations.getTarget(SNodeOperations.cast(ListSequence.fromList(statements).last(), "jetbrains.mps.baseLanguage.structure.ExpressionStatement"), "expression", true);
     } else {
       _context.showErrorMessage(_context.getNode(), "Condition is empty");
     }
@@ -863,9 +863,9 @@ public class QueriesGenerated {
   public static Iterable sourceNodesQuery_1169643618264(final IOperationContext operationContext, final SourceSubstituteMacroNodesContext _context) {
     List<SNode> statements = SLinkOperations.getTargets(SLinkOperations.getTarget(SLinkOperations.getTarget(_context.getNode(), "condition", true), "body", true), "statement", true);
     List<SNode> s = new ArrayList<SNode>();
-    ListSequence.<SNode>fromList(s).addSequence(ListSequence.<SNode>fromList(statements));
-    if (!(ListSequence.<SNode>fromList(s).isEmpty())) {
-      ListSequence.<SNode>fromList(s).removeElement(ListSequence.<SNode>fromList(s).last());
+    ListSequence.fromList(s).addSequence(ListSequence.fromList(statements));
+    if (!(ListSequence.fromList(s).isEmpty())) {
+      ListSequence.fromList(s).removeElement(ListSequence.fromList(s).last());
     }
     return s;
   }

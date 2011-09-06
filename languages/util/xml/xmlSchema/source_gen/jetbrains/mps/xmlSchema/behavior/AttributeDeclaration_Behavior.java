@@ -11,6 +11,6 @@ public class AttributeDeclaration_Behavior {
   }
 
   public static void virtual_checkAttributes_1213877382373(SNode thisNode, List<SNode> attributeDeclarations) {
-    ListSequence.<SNode>fromList(attributeDeclarations).addElement(thisNode);
+    ListSequence.fromList(attributeDeclarations).addElement(thisNode);
   }
 }

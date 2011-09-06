@@ -7,9 +7,9 @@ import jetbrains.mps.smodel.IOperationContext;
 import jetbrains.mps.lang.script.runtime.AbstractMigrationRefactoring;
 import jetbrains.mps.smodel.SNode;
 import jetbrains.mps.internal.collections.runtime.Sequence;
-import jetbrains.mps.smodel.SModel;
 import jetbrains.mps.lang.smodel.generator.smodelAdapter.SNodeOperations;
 import jetbrains.mps.lang.smodel.generator.smodelAdapter.SLinkOperations;
+import jetbrains.mps.smodel.SModel;
 import jetbrains.mps.internal.collections.runtime.ISequenceClosure;
 import jetbrains.mps.internal.collections.runtime.IWhereFilter;
 import java.util.Set;
@@ -38,7 +38,7 @@ public class FixReferencesToDeletedRunModels_MigrationScript extends BaseMigrati
 
       public boolean isApplicableInstanceNode(SNode node) {
         // only root nodes 
-        return node.isRoot() && Sequence.<SModel.ImportElement>fromIterable(ScriptsUtil.getImports(SNodeOperations.getModel(node), "jetbrains.mps.baseLanguage.util.plugin.run")).isNotEmpty();
+        return node.isRoot() && Sequence.fromIterable(ScriptsUtil.getImports(SNodeOperations.getModel(node), "jetbrains.mps.baseLanguage.util.plugin.run")).isNotEmpty();
       }
 
       public void doUpdateInstanceNode(SNode node) {
@@ -65,7 +65,7 @@ public class FixReferencesToDeletedRunModels_MigrationScript extends BaseMigrati
       public boolean isApplicableInstanceNode(SNode node) {
         // only root nodes 
         final SModel model = SNodeOperations.getModel(node);
-        return node.isRoot() && Sequence.<SModel.ImportElement>fromIterable(Sequence.<SModel.ImportElement>fromClosure(new ISequenceClosure<SModel.ImportElement>() {
+        return node.isRoot() && Sequence.fromIterable(Sequence.fromClosure(new ISequenceClosure<SModel.ImportElement>() {
           public Iterable<SModel.ImportElement> iterable() {
             return model.importedModels();
           }

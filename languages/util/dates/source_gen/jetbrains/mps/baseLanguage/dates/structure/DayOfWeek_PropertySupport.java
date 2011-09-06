@@ -11,7 +11,7 @@ public class DayOfWeek_PropertySupport extends PropertySupport {
     if (value == null) {
       return true;
     }
-    Iterator<DayOfWeek> constants = ListSequence.<DayOfWeek>fromList(DayOfWeek.getConstants()).iterator();
+    Iterator<DayOfWeek> constants = ListSequence.fromList(DayOfWeek.getConstants()).iterator();
     while (constants.hasNext()) {
       DayOfWeek constant = constants.next();
       if (value.equals(constant.getName())) {
@@ -25,7 +25,7 @@ public class DayOfWeek_PropertySupport extends PropertySupport {
     if (value == null) {
       return null;
     }
-    Iterator<DayOfWeek> constants = ListSequence.<DayOfWeek>fromList(DayOfWeek.getConstants()).iterator();
+    Iterator<DayOfWeek> constants = ListSequence.fromList(DayOfWeek.getConstants()).iterator();
     while (constants.hasNext()) {
       DayOfWeek constant = constants.next();
       if (value.equals(constant.getName())) {

@@ -5,13 +5,13 @@
     <nodeInfo nodeId="1173960841268" fileName="DateTimePropertFormatTokenUtil.java" startLine="10" startPosition="58" endLine="11" endPosition="193" conceptFqName="jetbrains.mps.baseLanguage.structure.ReturnStatement" />
     <nodeInfo nodeId="1173960767209" fileName="DateTimePropertFormatTokenUtil.java" startLine="14" startPosition="57" endLine="15" endPosition="24" conceptFqName="jetbrains.mps.baseLanguage.structure.LocalVariableDeclarationStatement" />
     <nodeInfo nodeId="1173960713913" fileName="DateTimePropertFormatTokenUtil.java" startLine="15" startPosition="24" endLine="16" endPosition="98" conceptFqName="jetbrains.mps.baseLanguage.structure.LocalVariableDeclarationStatement" />
-    <nodeInfo nodeId="1173960791354" fileName="DateTimePropertFormatTokenUtil.java" startLine="17" startPosition="25" endLine="18" endPosition="124" conceptFqName="jetbrains.mps.baseLanguage.structure.ExpressionStatement" />
+    <nodeInfo nodeId="1173960791354" fileName="DateTimePropertFormatTokenUtil.java" startLine="17" startPosition="25" endLine="18" endPosition="117" conceptFqName="jetbrains.mps.baseLanguage.structure.ExpressionStatement" />
     <nodeInfo nodeId="1173960817719" fileName="DateTimePropertFormatTokenUtil.java" startLine="19" startPosition="5" endLine="20" endPosition="18" conceptFqName="jetbrains.mps.baseLanguage.structure.ReturnStatement" />
     <nodeInfo nodeId="1173960731420" fileName="DateTimePropertFormatTokenUtil.java" startLine="16" startPosition="98" endLine="19" endPosition="5" conceptFqName="jetbrains.mps.baseLanguage.structure.IfStatement" />
     <nodeInfo nodeId="1173960236733" fileName="DateTimePropertFormatTokenUtil.java" startLine="9" startPosition="45" endLine="13" endPosition="0" conceptFqName="jetbrains.mps.baseLanguage.structure.StaticMethodDeclaration" propertyString="isFormatTypeDefault#(Ljetbrains/mps/smodel/SNode;)Z" />
     <nodeInfo nodeId="1173960292910" fileName="DateTimePropertFormatTokenUtil.java" startLine="13" startPosition="0" endLine="22" endPosition="0" conceptFqName="jetbrains.mps.baseLanguage.structure.StaticMethodDeclaration" propertyString="getDefaultFormatType#(Ljetbrains/mps/smodel/SNode;)Ljetbrains/mps/smodel/SNode;" />
     <scopeInfo nodeId="1173960236735" fileName="DateTimePropertFormatTokenUtil.java" startLine="10" startPosition="58" endLine="11" endPosition="193" />
-    <scopeInfo nodeId="1173960731422" fileName="DateTimePropertFormatTokenUtil.java" startLine="17" startPosition="25" endLine="18" endPosition="124" />
+    <scopeInfo nodeId="1173960731422" fileName="DateTimePropertFormatTokenUtil.java" startLine="17" startPosition="25" endLine="18" endPosition="117" />
     <scopeInfo nodeId="1173960236733" fileName="DateTimePropertFormatTokenUtil.java" startLine="9" startPosition="45" endLine="13" endPosition="0">
       <varInfo nodeId="1173960259690" varName="token" />
     </scopeInfo>
@@ -41,9 +41,9 @@
     <nodeInfo nodeId="5581663871699705117" fileName="DateFormatReferenceUtil.java" startLine="47" startPosition="128" endLine="48" endPosition="80" conceptFqName="jetbrains.mps.baseLanguage.structure.LocalVariableDeclarationStatement" />
     <nodeInfo nodeId="5581663871699705137" fileName="DateFormatReferenceUtil.java" startLine="50" startPosition="39" endLine="51" endPosition="84" conceptFqName="jetbrains.mps.baseLanguage.structure.ReturnStatement" />
     <nodeInfo nodeId="5581663871699705152" fileName="DateFormatReferenceUtil.java" startLine="53" startPosition="24" endLine="54" endPosition="42" conceptFqName="jetbrains.mps.baseLanguage.structure.ReturnStatement" />
-    <nodeInfo nodeId="1227876796299" fileName="DateFormatReferenceUtil.java" startLine="24" startPosition="85" endLine="28" endPosition="0" conceptFqName="jetbrains.mps.baseLanguage.structure.InstanceMethodDeclaration" propertyString="accept#(Ljetbrains/mps/smodel/SNode;)Z" />
-    <nodeInfo nodeId="34521615669577023" fileName="DateFormatReferenceUtil.java" startLine="37" startPosition="85" endLine="41" endPosition="0" conceptFqName="jetbrains.mps.baseLanguage.structure.InstanceMethodDeclaration" propertyString="accept#(Ljetbrains/mps/smodel/SNode;)Z" />
-    <nodeInfo nodeId="5581663871699705133" fileName="DateFormatReferenceUtil.java" startLine="49" startPosition="85" endLine="53" endPosition="0" conceptFqName="jetbrains.mps.baseLanguage.structure.InstanceMethodDeclaration" propertyString="accept#(Ljetbrains/mps/smodel/SNode;)Z" />
+    <nodeInfo nodeId="1227876796299" fileName="DateFormatReferenceUtil.java" startLine="24" startPosition="78" endLine="28" endPosition="0" conceptFqName="jetbrains.mps.baseLanguage.structure.InstanceMethodDeclaration" propertyString="accept#(Ljetbrains/mps/smodel/SNode;)Z" />
+    <nodeInfo nodeId="34521615669577023" fileName="DateFormatReferenceUtil.java" startLine="37" startPosition="78" endLine="41" endPosition="0" conceptFqName="jetbrains.mps.baseLanguage.structure.InstanceMethodDeclaration" propertyString="accept#(Ljetbrains/mps/smodel/SNode;)Z" />
+    <nodeInfo nodeId="5581663871699705133" fileName="DateFormatReferenceUtil.java" startLine="49" startPosition="78" endLine="53" endPosition="0" conceptFqName="jetbrains.mps.baseLanguage.structure.InstanceMethodDeclaration" propertyString="accept#(Ljetbrains/mps/smodel/SNode;)Z" />
     <nodeInfo nodeId="1173977965216" fileName="DateFormatReferenceUtil.java" startLine="23" startPosition="80" endLine="28" endPosition="24" conceptFqName="jetbrains.mps.baseLanguage.structure.ExpressionStatement" />
     <nodeInfo nodeId="34521615669577016" fileName="DateFormatReferenceUtil.java" startLine="36" startPosition="141" endLine="41" endPosition="24" conceptFqName="jetbrains.mps.baseLanguage.structure.ExpressionStatement" />
     <nodeInfo nodeId="5581663871699705126" fileName="DateFormatReferenceUtil.java" startLine="48" startPosition="80" endLine="53" endPosition="24" conceptFqName="jetbrains.mps.baseLanguage.structure.ExpressionStatement" />
@@ -53,9 +53,9 @@
     <scopeInfo nodeId="1227876796302" fileName="DateFormatReferenceUtil.java" startLine="25" startPosition="39" endLine="26" endPosition="172" />
     <scopeInfo nodeId="34521615669577026" fileName="DateFormatReferenceUtil.java" startLine="38" startPosition="39" endLine="39" endPosition="200" />
     <scopeInfo nodeId="5581663871699705136" fileName="DateFormatReferenceUtil.java" startLine="50" startPosition="39" endLine="51" endPosition="84" />
-    <scopeInfo nodeId="1227876796299" fileName="DateFormatReferenceUtil.java" startLine="24" startPosition="85" endLine="28" endPosition="0" />
-    <scopeInfo nodeId="34521615669577023" fileName="DateFormatReferenceUtil.java" startLine="37" startPosition="85" endLine="41" endPosition="0" />
-    <scopeInfo nodeId="5581663871699705133" fileName="DateFormatReferenceUtil.java" startLine="49" startPosition="85" endLine="53" endPosition="0" />
+    <scopeInfo nodeId="1227876796299" fileName="DateFormatReferenceUtil.java" startLine="24" startPosition="78" endLine="28" endPosition="0" />
+    <scopeInfo nodeId="34521615669577023" fileName="DateFormatReferenceUtil.java" startLine="37" startPosition="78" endLine="41" endPosition="0" />
+    <scopeInfo nodeId="5581663871699705133" fileName="DateFormatReferenceUtil.java" startLine="49" startPosition="78" endLine="53" endPosition="0" />
     <scopeInfo nodeId="1173977222267" fileName="DateFormatReferenceUtil.java" startLine="20" startPosition="90" endLine="29" endPosition="42">
       <varInfo nodeId="1173977390293" varName="s" />
       <varInfo nodeId="1173977473303" varName="formats" />
@@ -84,9 +84,9 @@
       <varInfo nodeId="34521615669576982" varName="node" />
       <varInfo nodeId="34521615669576984" varName="scope" />
     </scopeInfo>
-    <unitInfo nodeId="1227876796299" fileName="DateFormatReferenceUtil.java" startLine="24" startPosition="62" endLine="28" endPosition="5" unitName="jetbrains.mps.baseLanguage.dates.constraints.DateFormatReferenceUtil$1" />
-    <unitInfo nodeId="34521615669577023" fileName="DateFormatReferenceUtil.java" startLine="37" startPosition="62" endLine="41" endPosition="5" unitName="jetbrains.mps.baseLanguage.dates.constraints.DateFormatReferenceUtil$2" />
-    <unitInfo nodeId="5581663871699705133" fileName="DateFormatReferenceUtil.java" startLine="49" startPosition="62" endLine="53" endPosition="5" unitName="jetbrains.mps.baseLanguage.dates.constraints.DateFormatReferenceUtil$3" />
+    <unitInfo nodeId="1227876796299" fileName="DateFormatReferenceUtil.java" startLine="24" startPosition="55" endLine="28" endPosition="5" unitName="jetbrains.mps.baseLanguage.dates.constraints.DateFormatReferenceUtil$1" />
+    <unitInfo nodeId="34521615669577023" fileName="DateFormatReferenceUtil.java" startLine="37" startPosition="55" endLine="41" endPosition="5" unitName="jetbrains.mps.baseLanguage.dates.constraints.DateFormatReferenceUtil$2" />
+    <unitInfo nodeId="5581663871699705133" fileName="DateFormatReferenceUtil.java" startLine="49" startPosition="55" endLine="53" endPosition="5" unitName="jetbrains.mps.baseLanguage.dates.constraints.DateFormatReferenceUtil$3" />
     <unitInfo nodeId="1173977205622" fileName="DateFormatReferenceUtil.java" startLine="19" startPosition="0" endLine="57" endPosition="0" unitName="jetbrains.mps.baseLanguage.dates.constraints.DateFormatReferenceUtil" />
   </root>
   <root nodeId="1213104837351">

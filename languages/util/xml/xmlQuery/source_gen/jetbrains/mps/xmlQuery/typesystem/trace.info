@@ -302,7 +302,7 @@
     <nodeInfo nodeId="3865540407050958119" fileName="supertypeof_XMLElementType_SubtypingRule.java" startLine="82" startPosition="32" endLine="88" endPosition="7" conceptFqName="jetbrains.mps.baseLanguage.structure.BlockStatement" />
     <nodeInfo nodeId="3865540407050958119" fileName="supertypeof_XMLElementType_SubtypingRule.java" startLine="50" startPosition="0" endLine="57" endPosition="0" conceptFqName="jetbrains.mps.baseLanguage.structure.InstanceMethodDeclaration" propertyString="isApplicableAndPattern#(Ljetbrains/mps/smodel/SNode;)Ljetbrains/mps/lang/typesystem/runtime/IsApplicableStatus;" />
     <nodeInfo nodeId="115745247309507187" fileName="supertypeof_XMLElementType_SubtypingRule.java" startLine="31" startPosition="99" endLine="40" endPosition="11" conceptFqName="jetbrains.mps.baseLanguage.structure.IfStatement" />
-    <nodeInfo nodeId="115745247309507172" fileName="supertypeof_XMLElementType_SubtypingRule.java" startLine="30" startPosition="218" endLine="41" endPosition="9" conceptFqName="jetbrains.mps.baseLanguage.structure.IfStatement" />
+    <nodeInfo nodeId="115745247309507172" fileName="supertypeof_XMLElementType_SubtypingRule.java" startLine="30" startPosition="211" endLine="41" endPosition="9" conceptFqName="jetbrains.mps.baseLanguage.structure.IfStatement" />
     <nodeInfo nodeId="3865540407050958119" fileName="supertypeof_XMLElementType_SubtypingRule.java" startLine="96" startPosition="0" endLine="108" endPosition="0" conceptFqName="jetbrains.mps.baseLanguage.structure.InstanceMethodDeclaration" propertyString="createNode#(Ljetbrains/mps/typesystem/inference/TypeCheckingContext;)Ljetbrains/mps/smodel/SNode;" />
     <nodeInfo nodeId="3865540407050958119" fileName="supertypeof_XMLElementType_SubtypingRule.java" startLine="108" startPosition="0" endLine="120" endPosition="0" conceptFqName="jetbrains.mps.baseLanguage.structure.InstanceMethodDeclaration" propertyString="createNode#()Ljetbrains/mps/smodel/SNode;" />
     <nodeInfo nodeId="115745247309507159" fileName="supertypeof_XMLElementType_SubtypingRule.java" startLine="29" startPosition="12" endLine="42" endPosition="7" conceptFqName="jetbrains.mps.baseLanguage.structure.ForeachStatement" />
@@ -342,7 +342,7 @@
     <scopeInfo nodeId="3865540407050958119" fileName="supertypeof_XMLElementType_SubtypingRule.java" startLine="109" startPosition="31" endLine="118" endPosition="20" />
     <scopeInfo nodeId="3865540407050958119" fileName="supertypeof_XMLElementType_SubtypingRule.java" startLine="66" startPosition="76" endLine="76" endPosition="20" />
     <scopeInfo nodeId="3865540407050958119" fileName="supertypeof_XMLElementType_SubtypingRule.java" startLine="79" startPosition="31" endLine="89" endPosition="20" />
-    <scopeInfo nodeId="115745247309507162" fileName="supertypeof_XMLElementType_SubtypingRule.java" startLine="30" startPosition="218" endLine="41" endPosition="9" />
+    <scopeInfo nodeId="115745247309507162" fileName="supertypeof_XMLElementType_SubtypingRule.java" startLine="30" startPosition="211" endLine="41" endPosition="9" />
     <scopeInfo nodeId="3865540407050958119" fileName="supertypeof_XMLElementType_SubtypingRule.java" startLine="96" startPosition="0" endLine="108" endPosition="0" />
     <scopeInfo nodeId="3865540407050958119" fileName="supertypeof_XMLElementType_SubtypingRule.java" startLine="108" startPosition="0" endLine="120" endPosition="0" />
     <scopeInfo nodeId="115745247309507159" fileName="supertypeof_XMLElementType_SubtypingRule.java" startLine="29" startPosition="12" endLine="42" endPosition="7" />

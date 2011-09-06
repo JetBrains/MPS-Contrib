@@ -19,7 +19,7 @@ public class ScriptsUtil {
   }
 
   public static Iterable<SModel.ImportElement> getImports(final SModel model, final String longName) {
-    return Sequence.<SModel.ImportElement>fromIterable(Sequence.<SModel.ImportElement>fromClosure(new ISequenceClosure<SModel.ImportElement>() {
+    return Sequence.fromIterable(Sequence.fromClosure(new ISequenceClosure<SModel.ImportElement>() {
       public Iterable<SModel.ImportElement> iterable() {
         return model.importedModels();
       }
@@ -31,17 +31,17 @@ public class ScriptsUtil {
   }
 
   public static void updateNode(final SNode node, String longName, SModelReference newModelReference) {
-    List<SModel.ImportElement> imports = Sequence.<SModel.ImportElement>fromIterable(ScriptsUtil.getImports(SNodeOperations.getModel(node), longName)).toListSequence();
-    ListSequence.<SModel.ImportElement>fromList(imports).visitAll(new IVisitor<SModel.ImportElement>() {
+    List<SModel.ImportElement> imports = Sequence.fromIterable(ScriptsUtil.getImports(SNodeOperations.getModel(node), longName)).toListSequence();
+    ListSequence.fromList(imports).visitAll(new IVisitor<SModel.ImportElement>() {
       public void visit(SModel.ImportElement it) {
         SNodeOperations.getModel(node).deleteModelImport(it.getModelReference());
       }
     });
 
     SNodeOperations.getModel(node).addModelImport(newModelReference, false);
-    for (SNode chileNode : ListSequence.<SNode>fromList(SNodeOperations.getDescendants(node, null, true, new String[]{}))) {
+    for (SNode chileNode : ListSequence.fromList(SNodeOperations.getDescendants(node, null, true, new String[]{}))) {
       List<SReference> references = chileNode.getReferences();
-      for (SReference ref : ListSequence.<SReference>fromList(references)) {
+      for (SReference ref : ListSequence.fromList(references)) {
         if (ref.getTargetSModelReference().getLongName().equals(longName)) {
           ref.setTargetSModelReference(newModelReference);
         }

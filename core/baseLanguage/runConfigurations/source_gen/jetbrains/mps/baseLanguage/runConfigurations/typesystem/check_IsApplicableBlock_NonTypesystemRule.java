@@ -19,7 +19,7 @@ public class check_IsApplicableBlock_NonTypesystemRule extends AbstractNonTypesy
   }
 
   public void applyRule(final SNode isApplicableBlock, final TypeCheckingContext typeCheckingContext, IsApplicableStatus status) {
-    for (SNode t : ListSequence.<SNode>fromList(SNodeOperations.getDescendants(isApplicableBlock, "jetbrains.mps.baseLanguage.structure.IThisExpression", false, new String[]{}))) {
+    for (SNode t : ListSequence.fromList(SNodeOperations.getDescendants(isApplicableBlock, "jetbrains.mps.baseLanguage.structure.IThisExpression", false, new String[]{}))) {
       {
         MessageTarget errorTarget = new NodeMessageTarget();
         IErrorReporter _reporter_2309309498 = typeCheckingContext.reportTypeError(t, "Can't refer to \"this\" in \"is applicable\" block", "r:3d1d89d4-ed40-464f-804b-a59886f41d55(jetbrains.mps.baseLanguage.runConfigurations.typesystem)", "7976893777486251164", null, errorTarget);

@@ -3,8 +3,8 @@
   <unitInfo fileName="QueriesGenerated.java" startLine="18" startPosition="0" endLine="45" endPosition="0" unitName="jetbrains.mps.xml.generator.baseLanguage.template.rewrite.QueriesGenerated" />
   <root nodeId="1191189331473">
     <nodeInfo nodeId="1191200969889" fileName="QueriesGenerated.java" startLine="19" startPosition="146" endLine="20" endPosition="163" conceptFqName="jetbrains.mps.baseLanguage.structure.LocalVariableDeclarationStatement" />
-    <nodeInfo nodeId="1191203513537" fileName="QueriesGenerated.java" startLine="20" startPosition="163" endLine="21" endPosition="212" conceptFqName="jetbrains.mps.baseLanguage.structure.LocalVariableDeclarationStatement" />
-    <nodeInfo nodeId="1191204684830" fileName="QueriesGenerated.java" startLine="21" startPosition="212" endLine="22" endPosition="21" conceptFqName="jetbrains.mps.baseLanguage.structure.ReturnStatement" />
+    <nodeInfo nodeId="1191203513537" fileName="QueriesGenerated.java" startLine="20" startPosition="163" endLine="21" endPosition="205" conceptFqName="jetbrains.mps.baseLanguage.structure.LocalVariableDeclarationStatement" />
+    <nodeInfo nodeId="1191204684830" fileName="QueriesGenerated.java" startLine="21" startPosition="205" endLine="22" endPosition="21" conceptFqName="jetbrains.mps.baseLanguage.structure.ReturnStatement" />
     <scopeInfo nodeId="1191197782537" fileName="QueriesGenerated.java" startLine="19" startPosition="146" endLine="22" endPosition="21">
       <varInfo nodeId="1191203513538" varName="condition" />
       <varInfo nodeId="1191200969890" varName="hasNamespace" />

@@ -282,7 +282,7 @@ public class TaskDeclarationHeader_EditorComponent extends AbstractCellProvider 
   }
 
   private static boolean renderingCondition_ws04gp_a5a0(SNode node, EditorContext editorContext, IScope scope) {
-    return ListSequence.<SNode>fromList(SLinkOperations.getTargets(node, "interfaces", true)).count() > 0;
+    return ListSequence.fromList(SLinkOperations.getTargets(node, "interfaces", true)).count() > 0;
   }
 
   private static boolean renderingCondition_ws04gp_a2a(SNode node, EditorContext editorContext, IScope scope) {

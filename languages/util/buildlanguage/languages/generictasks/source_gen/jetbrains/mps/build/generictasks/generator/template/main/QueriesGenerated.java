@@ -42,7 +42,7 @@ public class QueriesGenerated {
       SNode newAttr = SConceptOperations.createNewNode("jetbrains.mps.xml.deprecated.structure.Attribute", null);
       SPropertyOperations.set(newAttr, "name", SPropertyOperations.getString(SLinkOperations.getTarget(attr, "attributeDeclaration", false), "name"));
       SPropertyOperations.set(newAttr, "value", PropertyValueExpression_Behavior.call_toString_1213877472569(SLinkOperations.getTarget(attr, "value", true)));
-      ListSequence.<SNode>fromList(xmlattributes).addElement(newAttr);
+      ListSequence.fromList(xmlattributes).addElement(newAttr);
     }
     return xmlattributes;
   }
