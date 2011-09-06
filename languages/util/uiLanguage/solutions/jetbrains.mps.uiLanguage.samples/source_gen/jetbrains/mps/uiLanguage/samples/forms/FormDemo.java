@@ -24,7 +24,7 @@ public class FormDemo extends JFrame {
   private JTextField myComponent_d0a;
   private JTextField myComponent_e0a;
   private JPanel myComponent_f0a;
-  public List<AutoBinding> myBindings = ListSequence.<AutoBinding>fromList(new ArrayList<AutoBinding>());
+  public List<AutoBinding> myBindings = ListSequence.fromList(new ArrayList<AutoBinding>());
   private Events myEvents = new Events(null) {
     {
     }

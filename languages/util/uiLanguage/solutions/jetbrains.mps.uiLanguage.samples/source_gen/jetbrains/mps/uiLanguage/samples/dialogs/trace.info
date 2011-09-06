@@ -16,7 +16,7 @@
     <nodeInfo nodeId="1202829285111" fileName="DialogDemo.java" startLine="38" startPosition="36" endLine="39" endPosition="36" conceptFqName="jetbrains.mps.baseLanguage.structure.FieldDeclaration" propertyString="myComponent_d3c2a" />
     <nodeInfo nodeId="1202829285111" fileName="DialogDemo.java" startLine="39" startPosition="36" endLine="40" endPosition="24" conceptFqName="jetbrains.mps.baseLanguage.structure.FieldDeclaration" propertyString="myName" />
     <nodeInfo nodeId="1202829285111" fileName="DialogDemo.java" startLine="40" startPosition="24" endLine="41" endPosition="28" conceptFqName="jetbrains.mps.baseLanguage.structure.FieldDeclaration" propertyString="myLastName" />
-    <nodeInfo nodeId="1202829285111" fileName="DialogDemo.java" startLine="41" startPosition="28" endLine="42" endPosition="105" conceptFqName="jetbrains.mps.baseLanguage.structure.FieldDeclaration" propertyString="myBindings" />
+    <nodeInfo nodeId="1202829285111" fileName="DialogDemo.java" startLine="41" startPosition="28" endLine="42" endPosition="92" conceptFqName="jetbrains.mps.baseLanguage.structure.FieldDeclaration" propertyString="myBindings" />
     <nodeInfo nodeId="1202829285111" fileName="DialogDemo.java" startLine="51" startPosition="23" endLine="52" endPosition="23" conceptFqName="jetbrains.mps.baseLanguage.structure.ExpressionStatement" />
     <nodeInfo nodeId="1202829285111" fileName="DialogDemo.java" startLine="52" startPosition="23" endLine="53" endPosition="32" conceptFqName="jetbrains.mps.baseLanguage.structure.LocalVariableDeclarationStatement" />
     <nodeInfo nodeId="1202829285111" fileName="DialogDemo.java" startLine="53" startPosition="32" endLine="54" endPosition="44" conceptFqName="jetbrains.mps.baseLanguage.structure.ExpressionStatement" />
@@ -34,14 +34,14 @@
     <nodeInfo nodeId="1202829285111" fileName="DialogDemo.java" startLine="78" startPosition="49" endLine="79" endPosition="60" conceptFqName="jetbrains.mps.baseLanguage.structure.LocalVariableDeclarationStatement" />
     <nodeInfo nodeId="1202829285111" fileName="DialogDemo.java" startLine="79" startPosition="60" endLine="80" endPosition="154" conceptFqName="jetbrains.mps.baseLanguage.structure.LocalVariableDeclarationStatement" />
     <nodeInfo nodeId="1202829285111" fileName="DialogDemo.java" startLine="80" startPosition="154" endLine="81" endPosition="21" conceptFqName="jetbrains.mps.baseLanguage.structure.ExpressionStatement" />
-    <nodeInfo nodeId="1202829285111" fileName="DialogDemo.java" startLine="81" startPosition="21" endLine="82" endPosition="78" conceptFqName="jetbrains.mps.baseLanguage.structure.ExpressionStatement" />
+    <nodeInfo nodeId="1202829285111" fileName="DialogDemo.java" startLine="81" startPosition="21" endLine="82" endPosition="65" conceptFqName="jetbrains.mps.baseLanguage.structure.ExpressionStatement" />
     <nodeInfo nodeId="1202829285111" fileName="DialogDemo.java" startLine="84" startPosition="5" endLine="85" endPosition="35" conceptFqName="jetbrains.mps.baseLanguage.structure.LocalVariableDeclarationStatement" />
     <nodeInfo nodeId="1202829285111" fileName="DialogDemo.java" startLine="85" startPosition="35" endLine="86" endPosition="64" conceptFqName="jetbrains.mps.baseLanguage.structure.LocalVariableDeclarationStatement" />
     <nodeInfo nodeId="1202829285111" fileName="DialogDemo.java" startLine="86" startPosition="64" endLine="87" endPosition="49" conceptFqName="jetbrains.mps.baseLanguage.structure.LocalVariableDeclarationStatement" />
     <nodeInfo nodeId="1202829285111" fileName="DialogDemo.java" startLine="87" startPosition="49" endLine="88" endPosition="60" conceptFqName="jetbrains.mps.baseLanguage.structure.LocalVariableDeclarationStatement" />
     <nodeInfo nodeId="1202829285111" fileName="DialogDemo.java" startLine="88" startPosition="60" endLine="89" endPosition="154" conceptFqName="jetbrains.mps.baseLanguage.structure.LocalVariableDeclarationStatement" />
     <nodeInfo nodeId="1202829285111" fileName="DialogDemo.java" startLine="89" startPosition="154" endLine="90" endPosition="21" conceptFqName="jetbrains.mps.baseLanguage.structure.ExpressionStatement" />
-    <nodeInfo nodeId="1202829285111" fileName="DialogDemo.java" startLine="90" startPosition="21" endLine="91" endPosition="78" conceptFqName="jetbrains.mps.baseLanguage.structure.ExpressionStatement" />
+    <nodeInfo nodeId="1202829285111" fileName="DialogDemo.java" startLine="90" startPosition="21" endLine="91" endPosition="65" conceptFqName="jetbrains.mps.baseLanguage.structure.ExpressionStatement" />
     <nodeInfo nodeId="1202829285111" fileName="DialogDemo.java" startLine="97" startPosition="30" endLine="98" endPosition="25" conceptFqName="jetbrains.mps.baseLanguage.structure.ExpressionStatement" />
     <nodeInfo nodeId="1202829285111" fileName="DialogDemo.java" startLine="103" startPosition="39" endLine="104" endPosition="36" conceptFqName="jetbrains.mps.baseLanguage.structure.LocalVariableDeclarationStatement" />
     <nodeInfo nodeId="1202829285111" fileName="DialogDemo.java" startLine="104" startPosition="36" endLine="105" endPosition="36" conceptFqName="jetbrains.mps.baseLanguage.structure.ExpressionStatement" />
@@ -148,7 +148,7 @@
     <nodeInfo nodeId="1202829285111" fileName="DialogDemo.java" startLine="207" startPosition="0" endLine="213" endPosition="0" conceptFqName="jetbrains.mps.baseLanguage.structure.InstanceMethodDeclaration" propertyString="createComponent_c2c0#()Ljava/lang/Object;" />
     <nodeInfo nodeId="1202829285111" fileName="DialogDemo.java" startLine="254" startPosition="0" endLine="260" endPosition="0" conceptFqName="jetbrains.mps.baseLanguage.structure.InstanceMethodDeclaration" propertyString="setName#(Ljava/lang/String;)V" />
     <nodeInfo nodeId="1202829285111" fileName="DialogDemo.java" startLine="260" startPosition="0" endLine="266" endPosition="0" conceptFqName="jetbrains.mps.baseLanguage.structure.InstanceMethodDeclaration" propertyString="setLastName#(Ljava/lang/String;)V" />
-    <nodeInfo nodeId="1202829285111" fileName="DialogDemo.java" startLine="42" startPosition="105" endLine="49" endPosition="4" conceptFqName="jetbrains.mps.baseLanguage.structure.FieldDeclaration" propertyString="myEvents" />
+    <nodeInfo nodeId="1202829285111" fileName="DialogDemo.java" startLine="42" startPosition="92" endLine="49" endPosition="4" conceptFqName="jetbrains.mps.baseLanguage.structure.FieldDeclaration" propertyString="myEvents" />
     <nodeInfo nodeId="1202829285111" fileName="DialogDemo.java" startLine="157" startPosition="0" endLine="164" endPosition="0" conceptFqName="jetbrains.mps.baseLanguage.structure.InstanceMethodDeclaration" propertyString="createComponent_b1a#()Ljava/lang/Object;" />
     <nodeInfo nodeId="1202829285111" fileName="DialogDemo.java" startLine="164" startPosition="0" endLine="171" endPosition="0" conceptFqName="jetbrains.mps.baseLanguage.structure.InstanceMethodDeclaration" propertyString="createComponent_c1a#()Ljava/lang/Object;" />
     <nodeInfo nodeId="1202829285111" fileName="DialogDemo.java" startLine="171" startPosition="0" endLine="178" endPosition="0" conceptFqName="jetbrains.mps.baseLanguage.structure.InstanceMethodDeclaration" propertyString="createComponent_d1a#()Ljava/lang/Object;" />
@@ -215,8 +215,8 @@
     <scopeInfo nodeId="1202829285111" fileName="DialogDemo.java" startLine="214" startPosition="41" endLine="220" endPosition="21" />
     <scopeInfo nodeId="1202829285111" fileName="DialogDemo.java" startLine="254" startPosition="0" endLine="260" endPosition="0" />
     <scopeInfo nodeId="1202829285111" fileName="DialogDemo.java" startLine="260" startPosition="0" endLine="266" endPosition="0" />
-    <scopeInfo nodeId="1202829285111" fileName="DialogDemo.java" startLine="75" startPosition="5" endLine="82" endPosition="78" />
-    <scopeInfo nodeId="1202829285111" fileName="DialogDemo.java" startLine="84" startPosition="5" endLine="91" endPosition="78" />
+    <scopeInfo nodeId="1202829285111" fileName="DialogDemo.java" startLine="75" startPosition="5" endLine="82" endPosition="65" />
+    <scopeInfo nodeId="1202829285111" fileName="DialogDemo.java" startLine="84" startPosition="5" endLine="91" endPosition="65" />
     <scopeInfo nodeId="1202829285111" fileName="DialogDemo.java" startLine="157" startPosition="0" endLine="164" endPosition="0" />
     <scopeInfo nodeId="1202829285111" fileName="DialogDemo.java" startLine="164" startPosition="0" endLine="171" endPosition="0" />
     <scopeInfo nodeId="1202829285111" fileName="DialogDemo.java" startLine="171" startPosition="0" endLine="178" endPosition="0" />
