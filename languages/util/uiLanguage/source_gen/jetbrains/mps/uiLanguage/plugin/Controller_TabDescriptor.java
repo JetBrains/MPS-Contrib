@@ -35,12 +35,12 @@ public class Controller_TabDescriptor extends EditorTabDescriptor {
   }
 
   public List<SNode> getNodes(SNode node) {
-    List<SNode> list = ListSequence.<SNode>fromList(new ArrayList<SNode>());
+    List<SNode> list = ListSequence.fromList(new ArrayList<SNode>());
     SNode n = getNode(node);
     if (n == null) {
       return list;
     }
-    ListSequence.<SNode>fromList(list).addElement(n);
+    ListSequence.fromList(list).addElement(n);
     return list;
   }
 
@@ -53,7 +53,7 @@ public class Controller_TabDescriptor extends EditorTabDescriptor {
   }
 
   public List<SNode> getConcepts(final SNode node) {
-    return ListSequence.<SNode>fromListAndArray(new ArrayList<SNode>(), SConceptOperations.findConceptDeclaration("jetbrains.mps.uiLanguage.structure.ComponentController"));
+    return ListSequence.fromListAndArray(new ArrayList<SNode>(), SConceptOperations.findConceptDeclaration("jetbrains.mps.uiLanguage.structure.ComponentController"));
   }
 
   public SNode createNode(final SNode node, final SNode concept) {

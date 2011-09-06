@@ -11,7 +11,7 @@ import jetbrains.mps.uiLanguage.runtime.events.Events;
 
 public class HBox extends JPanel {
   public HBox myThis;
-  public List<AutoBinding> myBindings = ListSequence.<AutoBinding>fromList(new ArrayList<AutoBinding>());
+  public List<AutoBinding> myBindings = ListSequence.fromList(new ArrayList<AutoBinding>());
   private Events myEvents = new Events(null) {
     {
     }

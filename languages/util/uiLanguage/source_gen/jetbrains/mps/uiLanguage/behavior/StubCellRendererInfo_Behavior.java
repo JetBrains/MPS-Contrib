@@ -12,6 +12,6 @@ public class StubCellRendererInfo_Behavior {
   }
 
   public static SNode call_getInterface_1213877358391(SNode thisNode) {
-    return SLinkOperations.getTarget(SNodeOperations.cast(SLinkOperations.getTarget(ListSequence.<SNode>fromList(SLinkOperations.getTargets(SLinkOperations.getTarget(thisNode, "cellRendererSetter", false), "parameter", true)).first(), "type", true), "jetbrains.mps.baseLanguage.structure.ClassifierType"), "classifier", false);
+    return SLinkOperations.getTarget(SNodeOperations.cast(SLinkOperations.getTarget(ListSequence.fromList(SLinkOperations.getTargets(SLinkOperations.getTarget(thisNode, "cellRendererSetter", false), "parameter", true)).first(), "type", true), "jetbrains.mps.baseLanguage.structure.ClassifierType"), "classifier", false);
   }
 }

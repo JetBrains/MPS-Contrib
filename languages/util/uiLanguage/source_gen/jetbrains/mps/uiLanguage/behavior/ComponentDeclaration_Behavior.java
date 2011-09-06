@@ -36,7 +36,7 @@ public class ComponentDeclaration_Behavior {
 
   public static SNode call_getController_1213877495364(SNode thisNode) {
     final SNode component = thisNode;
-    return ListSequence.<SNode>fromList(SModelOperations.getRoots(SNodeOperations.getModel(thisNode), "jetbrains.mps.uiLanguage.structure.ComponentController")).where(new IWhereFilter<SNode>() {
+    return ListSequence.fromList(SModelOperations.getRoots(SNodeOperations.getModel(thisNode), "jetbrains.mps.uiLanguage.structure.ComponentController")).where(new IWhereFilter<SNode>() {
       public boolean accept(SNode it) {
         return SLinkOperations.getTarget(it, "component", false) == component;
       }
@@ -46,16 +46,16 @@ public class ComponentDeclaration_Behavior {
   public static List<SNode> call_getDeclaredAttributes_1213877495390(SNode thisNode) {
     List<SNode> result = new ArrayList<SNode>();
     if (ComponentDeclaration_Behavior.call_getController_1213877495364(thisNode) != null) {
-      ListSequence.<SNode>fromList(result).addSequence(ListSequence.<SNode>fromList(SLinkOperations.getTargets(ComponentDeclaration_Behavior.call_getController_1213877495364(thisNode), "attribute", true)));
+      ListSequence.fromList(result).addSequence(ListSequence.fromList(SLinkOperations.getTargets(ComponentDeclaration_Behavior.call_getController_1213877495364(thisNode), "attribute", true)));
     }
     return result;
   }
 
   public static List<SNode> call_getAttributes_1213877495417(SNode thisNode) {
     List<SNode> result = new ArrayList<SNode>();
-    ListSequence.<SNode>fromList(result).addSequence(ListSequence.<SNode>fromList(ComponentDeclaration_Behavior.call_getDeclaredAttributes_1213877495390(thisNode)));
+    ListSequence.fromList(result).addSequence(ListSequence.fromList(ComponentDeclaration_Behavior.call_getDeclaredAttributes_1213877495390(thisNode)));
     if (ComponentDeclaration_Behavior.call_getExtendedComponent_1213877495528(thisNode) != null) {
-      ListSequence.<SNode>fromList(result).addSequence(ListSequence.<SNode>fromList(ComponentDeclaration_Behavior.call_getAttributes_1213877495417(ComponentDeclaration_Behavior.call_getExtendedComponent_1213877495528(thisNode))));
+      ListSequence.fromList(result).addSequence(ListSequence.fromList(ComponentDeclaration_Behavior.call_getAttributes_1213877495417(ComponentDeclaration_Behavior.call_getExtendedComponent_1213877495528(thisNode))));
     }
     return result;
   }
@@ -63,16 +63,16 @@ public class ComponentDeclaration_Behavior {
   public static List<SNode> call_getDeclaredMethods_1213877495451(SNode thisNode) {
     List<SNode> result = new ArrayList<SNode>();
     if (ComponentDeclaration_Behavior.call_getController_1213877495364(thisNode) != null) {
-      ListSequence.<SNode>fromList(result).addSequence(ListSequence.<SNode>fromList(SLinkOperations.getTargets(ComponentDeclaration_Behavior.call_getController_1213877495364(thisNode), "componentMethod", true)));
+      ListSequence.fromList(result).addSequence(ListSequence.fromList(SLinkOperations.getTargets(ComponentDeclaration_Behavior.call_getController_1213877495364(thisNode), "componentMethod", true)));
     }
     return result;
   }
 
   public static List<SNode> call_getMethods_1213877495478(SNode thisNode) {
     List<SNode> result = new ArrayList<SNode>();
-    ListSequence.<SNode>fromList(result).addSequence(ListSequence.<SNode>fromList(ComponentDeclaration_Behavior.call_getDeclaredMethods_1213877495451(thisNode)));
+    ListSequence.fromList(result).addSequence(ListSequence.fromList(ComponentDeclaration_Behavior.call_getDeclaredMethods_1213877495451(thisNode)));
     if (ComponentDeclaration_Behavior.call_getExtendedComponent_1213877495528(thisNode) != null) {
-      ListSequence.<SNode>fromList(result).addSequence(ListSequence.<SNode>fromList(ComponentDeclaration_Behavior.call_getMethods_1213877495478(ComponentDeclaration_Behavior.call_getExtendedComponent_1213877495528(thisNode))));
+      ListSequence.fromList(result).addSequence(ListSequence.fromList(ComponentDeclaration_Behavior.call_getMethods_1213877495478(ComponentDeclaration_Behavior.call_getExtendedComponent_1213877495528(thisNode))));
     }
     return result;
   }
@@ -110,13 +110,13 @@ public class ComponentDeclaration_Behavior {
 
   public static List<SNode> virtual_getMembers_1213877528124(SNode thisNode) {
     List<SNode> result = new ArrayList<SNode>();
-    ListSequence.<SNode>fromList(result).addSequence(ListSequence.<SNode>fromList(IClassifier_Behavior.callSuper_getMembers_1213877528124(thisNode, "jetbrains.mps.uiLanguage.structure.ComponentDeclaration")));
+    ListSequence.fromList(result).addSequence(ListSequence.fromList(IClassifier_Behavior.callSuper_getMembers_1213877528124(thisNode, "jetbrains.mps.uiLanguage.structure.ComponentDeclaration")));
     if (ComponentDeclaration_Behavior.call_getExtendedComponent_1213877495528(thisNode) != null) {
-      ListSequence.<SNode>fromList(result).addSequence(ListSequence.<SNode>fromList(IClassifier_Behavior.call_getMembers_1213877528124(ComponentDeclaration_Behavior.call_getExtendedComponent_1213877495528(thisNode))));
+      ListSequence.fromList(result).addSequence(ListSequence.fromList(IClassifier_Behavior.call_getMembers_1213877528124(ComponentDeclaration_Behavior.call_getExtendedComponent_1213877495528(thisNode))));
     }
     SNode controller = ComponentDeclaration_Behavior.call_getController_1213877495364(thisNode);
     if (controller != null) {
-      ListSequence.<SNode>fromList(result).addSequence(ListSequence.<SNode>fromList(IClassifierPart_Behavior.call_getMembers_1213877255431(controller)));
+      ListSequence.fromList(result).addSequence(ListSequence.fromList(IClassifierPart_Behavior.call_getMembers_1213877255431(controller)));
     }
     return result;
   }

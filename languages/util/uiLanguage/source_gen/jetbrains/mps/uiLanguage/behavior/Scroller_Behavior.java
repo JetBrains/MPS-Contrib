@@ -13,7 +13,7 @@ public class Scroller_Behavior {
   }
 
   public static SNode call_getWrappedComponent_1213877438937(SNode thisNode) {
-    return SNodeOperations.cast(ListSequence.<SNode>fromList(SLinkOperations.getTargets(thisNode, "content", true)).where(new IWhereFilter<SNode>() {
+    return SNodeOperations.cast(ListSequence.fromList(SLinkOperations.getTargets(thisNode, "content", true)).where(new IWhereFilter<SNode>() {
       public boolean accept(SNode it) {
         return SNodeOperations.isInstanceOf(it, "jetbrains.mps.uiLanguage.structure.IComponentInstance");
       }

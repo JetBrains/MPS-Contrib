@@ -15,7 +15,7 @@ public class BaseComponent extends JComponent {
   public BaseComponent myThis;
   private LayoutManager myLayout;
   private Border myBorder;
-  public List<AutoBinding> myBindings = ListSequence.<AutoBinding>fromList(new ArrayList<AutoBinding>());
+  public List<AutoBinding> myBindings = ListSequence.fromList(new ArrayList<AutoBinding>());
   private Events myEvents = new Events(null) {
     {
     }
