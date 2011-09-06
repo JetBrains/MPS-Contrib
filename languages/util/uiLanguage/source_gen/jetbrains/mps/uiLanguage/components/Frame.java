@@ -16,7 +16,7 @@ public class Frame extends JComponent {
   private boolean myVisible;
   private Dimension mySize;
   private int myDefaultCloseOperation;
-  public List<AutoBinding> myBindings = ListSequence.<AutoBinding>fromList(new ArrayList<AutoBinding>());
+  public List<AutoBinding> myBindings = ListSequence.fromList(new ArrayList<AutoBinding>());
   private Events myEvents = new Events(null) {
     {
     }

@@ -12,7 +12,7 @@ import jetbrains.mps.uiLanguage.runtime.events.Events;
 public class CheckBox extends JButton {
   public CheckBox myThis;
   private boolean mySelected;
-  public List<AutoBinding> myBindings = ListSequence.<AutoBinding>fromList(new ArrayList<AutoBinding>());
+  public List<AutoBinding> myBindings = ListSequence.fromList(new ArrayList<AutoBinding>());
   private Events myEvents = new Events(null) {
     {
     }

@@ -219,11 +219,11 @@ public class QueriesGenerated {
   }
 
   public static Object propertyMacro_GetPropertyValue_1210529781045(final IOperationContext operationContext, final PropertyMacroContext _context) {
-    return SPropertyOperations.getString(ListSequence.<SNode>fromList(SLinkOperations.getTargets(ListSequence.<SNode>fromList(SLinkOperations.getTargets(StubCellRendererInfo_Behavior.call_getInterface_1213877358391(InlineRenderer_Behavior.call_getRendererInfoNode_1213877298464(_context.getNode())), "method", true)).first(), "parameter", true)).toGenericArray(SNode.class)[1], "name");
+    return SPropertyOperations.getString(ListSequence.fromList(SLinkOperations.getTargets(ListSequence.fromList(SLinkOperations.getTargets(StubCellRendererInfo_Behavior.call_getInterface_1213877358391(InlineRenderer_Behavior.call_getRendererInfoNode_1213877298464(_context.getNode())), "method", true)).first(), "parameter", true)).toGenericArray(SNode.class)[1], "name");
   }
 
   public static Object propertyMacro_GetPropertyValue_1210520878012(final IOperationContext operationContext, final PropertyMacroContext _context) {
-    return SPropertyOperations.getString(ListSequence.<SNode>fromList(SLinkOperations.getTargets(StubCellRendererInfo_Behavior.call_getInterface_1213877358391(InlineRenderer_Behavior.call_getRendererInfoNode_1213877298464(_context.getNode())), "method", true)).first(), "name");
+    return SPropertyOperations.getString(ListSequence.fromList(SLinkOperations.getTargets(StubCellRendererInfo_Behavior.call_getInterface_1213877358391(InlineRenderer_Behavior.call_getRendererInfoNode_1213877298464(_context.getNode())), "method", true)).first(), "name");
   }
 
   public static Object referenceMacro_GetReferent_5360151489983400327(final IOperationContext operationContext, final ReferenceMacroContext _context) {
@@ -489,7 +489,7 @@ public class QueriesGenerated {
   }
 
   public static Iterable sourceNodesQuery_2011805327139382626(final IOperationContext operationContext, final SourceSubstituteMacroNodesContext _context) {
-    return ListSequence.<SNode>fromList(SModelOperations.getRoots(_context.getInputModel(), "jetbrains.mps.uiLanguage.structure.ComponentController")).where(new IWhereFilter<SNode>() {
+    return ListSequence.fromList(SModelOperations.getRoots(_context.getInputModel(), "jetbrains.mps.uiLanguage.structure.ComponentController")).where(new IWhereFilter<SNode>() {
       public boolean accept(SNode it) {
         return eq_x583g4_a0a0a0a0a0a0a701(SLinkOperations.getTarget(it, "component", false), _context.getNode());
       }
@@ -501,7 +501,7 @@ public class QueriesGenerated {
   }
 
   public static Iterable sourceNodesQuery_2011805327139382743(final IOperationContext operationContext, final SourceSubstituteMacroNodesContext _context) {
-    Iterable<SNode> allEvents = ListSequence.<SNode>fromList(SModelOperations.getRoots(_context.getInputModel(), "jetbrains.mps.uiLanguage.structure.ComponentController")).where(new IWhereFilter<SNode>() {
+    Iterable<SNode> allEvents = ListSequence.fromList(SModelOperations.getRoots(_context.getInputModel(), "jetbrains.mps.uiLanguage.structure.ComponentController")).where(new IWhereFilter<SNode>() {
       public boolean accept(SNode it) {
         return eq_x583g4_a0a0a0a0a0a0a0ee(SLinkOperations.getTarget(it, "component", false), _context.getNode());
       }
@@ -510,15 +510,15 @@ public class QueriesGenerated {
         return SLinkOperations.getTargets(it, "event", true);
       }
     });
-    return Sequence.<SNode>fromIterable(allEvents).where(new IWhereFilter<SNode>() {
+    return Sequence.fromIterable(allEvents).where(new IWhereFilter<SNode>() {
       public boolean accept(SNode it) {
-        return SLinkOperations.getTarget(it, "initializer", true) != null && ListSequence.<SNode>fromList(SLinkOperations.getTargets(SLinkOperations.getTarget(it, "initializer", true), "statement", true)).isNotEmpty();
+        return SLinkOperations.getTarget(it, "initializer", true) != null && ListSequence.fromList(SLinkOperations.getTargets(SLinkOperations.getTarget(it, "initializer", true), "statement", true)).isNotEmpty();
       }
     });
   }
 
   public static Iterable sourceNodesQuery_1202478250130(final IOperationContext operationContext, final SourceSubstituteMacroNodesContext _context) {
-    return ListSequence.<SNode>fromList(SNodeOperations.getDescendants(_context.getNode(), "jetbrains.mps.uiLanguage.structure.AttributeValue", true, new String[]{})).where(new IWhereFilter<SNode>() {
+    return ListSequence.fromList(SNodeOperations.getDescendants(_context.getNode(), "jetbrains.mps.uiLanguage.structure.AttributeValue", true, new String[]{})).where(new IWhereFilter<SNode>() {
       public boolean accept(SNode it) {
         return SNodeOperations.isInstanceOf(SLinkOperations.getTarget(it, "value", true), "jetbrains.mps.uiLanguage.structure.BindExpression");
       }
@@ -526,7 +526,7 @@ public class QueriesGenerated {
   }
 
   public static Iterable sourceNodesQuery_1203087598722(final IOperationContext operationContext, final SourceSubstituteMacroNodesContext _context) {
-    return ListSequence.<SNode>fromList(SNodeOperations.getDescendants(_context.getNode(), "jetbrains.mps.uiLanguage.structure.ListElements", true, new String[]{})).where(new IWhereFilter<SNode>() {
+    return ListSequence.fromList(SNodeOperations.getDescendants(_context.getNode(), "jetbrains.mps.uiLanguage.structure.ListElements", true, new String[]{})).where(new IWhereFilter<SNode>() {
       public boolean accept(SNode it) {
         return SNodeOperations.isInstanceOf(SLinkOperations.getTarget(it, "value", true), "jetbrains.mps.uiLanguage.structure.BindExpression");
       }
@@ -586,7 +586,7 @@ public class QueriesGenerated {
   }
 
   public static Iterable sourceNodesQuery_1210520952409(final IOperationContext operationContext, final SourceSubstituteMacroNodesContext _context) {
-    return SLinkOperations.getTargets(ListSequence.<SNode>fromList(SLinkOperations.getTargets(StubCellRendererInfo_Behavior.call_getInterface_1213877358391(InlineRenderer_Behavior.call_getRendererInfoNode_1213877298464(_context.getNode())), "method", true)).first(), "parameter", true);
+    return SLinkOperations.getTargets(ListSequence.fromList(SLinkOperations.getTargets(StubCellRendererInfo_Behavior.call_getInterface_1213877358391(InlineRenderer_Behavior.call_getRendererInfoNode_1213877298464(_context.getNode())), "method", true)).first(), "parameter", true);
   }
 
   private static boolean eq_x583g4_a0a0a0a0a0a0a701(Object a, Object b) {

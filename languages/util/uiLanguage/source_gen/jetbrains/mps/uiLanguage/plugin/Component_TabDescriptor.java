@@ -30,12 +30,12 @@ public class Component_TabDescriptor extends EditorTabDescriptor {
   }
 
   public List<SNode> getNodes(SNode node) {
-    List<SNode> list = ListSequence.<SNode>fromList(new ArrayList<SNode>());
+    List<SNode> list = ListSequence.fromList(new ArrayList<SNode>());
     SNode n = getNode(node);
     if (n == null) {
       return list;
     }
-    ListSequence.<SNode>fromList(list).addElement(n);
+    ListSequence.fromList(list).addElement(n);
     return list;
   }
 

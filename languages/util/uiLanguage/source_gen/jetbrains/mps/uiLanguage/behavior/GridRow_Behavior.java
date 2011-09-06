@@ -23,9 +23,9 @@ public class GridRow_Behavior {
   public static List<SNode> call_getRowComponents_1213877252264(SNode thisNode) {
     int columnCount = Grid_Behavior.call_getColumnsCount_1213877333391(SNodeOperations.cast(SNodeOperations.getParent(thisNode), "jetbrains.mps.uiLanguage.structure.Grid"));
     List<SNode> result = new ArrayList<SNode>();
-    ListSequence.<SNode>fromList(result).addSequence(ListSequence.<SNode>fromList(SLinkOperations.getTargets(thisNode, "component", true)));
-    for (int i = 0; i < columnCount - ListSequence.<SNode>fromList(SLinkOperations.getTargets(thisNode, "component", true)).count(); i++) {
-      ListSequence.<SNode>fromList(result).addElement(new GridRow_Behavior.QuotationClass_cglpzy_a0a0a0d0b().createNode());
+    ListSequence.fromList(result).addSequence(ListSequence.fromList(SLinkOperations.getTargets(thisNode, "component", true)));
+    for (int i = 0; i < columnCount - ListSequence.fromList(SLinkOperations.getTargets(thisNode, "component", true)).count(); i++) {
+      ListSequence.fromList(result).addElement(new GridRow_Behavior.QuotationClass_cglpzy_a0a0a0d0b().createNode());
     }
     return result;
   }
