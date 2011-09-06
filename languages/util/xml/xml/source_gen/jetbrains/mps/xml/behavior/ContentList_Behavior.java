@@ -26,13 +26,13 @@ public class ContentList_Behavior {
       return true;
     }
     List<SNode> contents = SLinkOperations.getTargets(thisNode, "content", true);
-    int contentSize = ListSequence.<SNode>fromList(contents).count();
+    int contentSize = ListSequence.fromList(contents).count();
     if (contentSize == 0) {
       return true;
     }
     if (contentSize == 1) {
-      SNode first = ListSequence.<SNode>fromList(contents).first();
-      if (!(SConceptPropertyOperations.getBoolean(first, "isComplex")) && (ListSequence.<SNode>fromList(SLinkOperations.getConceptLinkTargets(first, "correspondingElement")).first() == null)) {
+      SNode first = ListSequence.fromList(contents).first();
+      if (!(SConceptPropertyOperations.getBoolean(first, "isComplex")) && (ListSequence.fromList(SLinkOperations.getConceptLinkTargets(first, "correspondingElement")).first() == null)) {
         return true;
       }
     }

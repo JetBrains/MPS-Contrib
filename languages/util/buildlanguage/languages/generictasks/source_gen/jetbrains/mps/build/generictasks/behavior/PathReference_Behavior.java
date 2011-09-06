@@ -27,18 +27,18 @@ public class PathReference_Behavior {
   }
 
   public static List<String> call_getPaths_353793545802854909(SNode thisNode, SNode call) {
-    List<String> list = ListSequence.<String>fromList(new ArrayList<String>());
+    List<String> list = ListSequence.fromList(new ArrayList<String>());
     String attName = "path";
     if ((call != null)) {
       String path = TaskCall_Behavior.call_getAttributeValue_353793545802643859(call, attName);
       if (path != null) {
-        ListSequence.<String>fromList(list).addElement(path);
+        ListSequence.fromList(list).addElement(path);
       }
-      for (SNode nested : ListSequence.<SNode>fromList(SLinkOperations.getTargets(call, "nested", true))) {
+      for (SNode nested : ListSequence.fromList(SLinkOperations.getTargets(call, "nested", true))) {
         if (SNodeOperations.isInstanceOf(nested, "jetbrains.mps.build.generictasks.structure.TaskCall")) {
           SNode ngeneric = SNodeOperations.cast(nested, "jetbrains.mps.build.generictasks.structure.TaskCall");
           if ((SLinkOperations.getTarget(ngeneric, "declaration", false) != null) && SPropertyOperations.getString(SLinkOperations.getTarget(ngeneric, "declaration", false), "name").equals("path")) {
-            ListSequence.<String>fromList(list).addSequence(ListSequence.<String>fromList(PathReference_Behavior.call_getPaths_353793545802854909(thisNode, ngeneric)));
+            ListSequence.fromList(list).addSequence(ListSequence.fromList(PathReference_Behavior.call_getPaths_353793545802854909(thisNode, ngeneric)));
           }
         }
       }

@@ -311,7 +311,7 @@ public class RunConfigurationBody extends AbstractCellProvider {
   }
 
   private static boolean renderingCondition_mrxxs6_a8a(SNode node, EditorContext editorContext, IScope scope) {
-    return ListSequence.<SNode>fromList(SLinkOperations.getTargets(node, "executionParameter", true)).isNotEmpty();
+    return ListSequence.fromList(SLinkOperations.getTargets(node, "executionParameter", true)).isNotEmpty();
   }
 
   private static class propertyListHandler_mrxxs6_a0 extends RefNodeListHandler {

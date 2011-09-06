@@ -19,14 +19,14 @@ public class UnitTestExecutionController {
   private final TestRunState myState;
   private final TestEventsDispatcher myDispatcher;
   private final ConfigRunParameters myConfigurationRunParameters;
-  private final List<ITestNodeWrapper> myWhatToTest = ListSequence.<ITestNodeWrapper>fromList(new ArrayList<ITestNodeWrapper>());
+  private final List<ITestNodeWrapper> myWhatToTest = ListSequence.fromList(new ArrayList<ITestNodeWrapper>());
   private ProcessHandler myCurrentProcess;
 
   @Deprecated
   public UnitTestExecutionController(final List<ITestNodeWrapper> whatToTest, ConfigRunParameters configurationRunParameters) {
     ModelAccess.instance().runReadAction(new Runnable() {
       public void run() {
-        ListSequence.<ITestNodeWrapper>fromList(myWhatToTest).addSequence(ListSequence.<ITestNodeWrapper>fromList(whatToTest));
+        ListSequence.fromList(myWhatToTest).addSequence(ListSequence.fromList(whatToTest));
       }
     });
     myState = new TestRunState(myWhatToTest);
@@ -39,7 +39,7 @@ public class UnitTestExecutionController {
   }
 
   public ProcessHandler execute() throws ExecutionException {
-    if (ListSequence.<ITestNodeWrapper>fromList(myWhatToTest).isEmpty()) {
+    if (ListSequence.fromList(myWhatToTest).isEmpty()) {
       throw new ExecutionException("Nothing to test.");
     }
 

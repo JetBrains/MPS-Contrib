@@ -27,7 +27,7 @@ public class typeof_GenericAttributeDeclaration_InferenceRule extends AbstractIn
         {
           SNode _nodeToCheck_1029348928467 = nodeToCheck;
           EquationInfo _info_12389875345 = new EquationInfo(_nodeToCheck_1029348928467, null, "r:eac20369-5993-49cc-a9ac-fbeb7a91d81f(jetbrains.mps.build.generictasks.typesystem)", "353793545802854699", 0, null);
-          typeCheckingContext.createLessThanInequality((SNode) ListSequence.<SNode>fromList(SLinkOperations.getConceptLinkTargets(SLinkOperations.getTarget(nodeToCheck, "enum", true), "type")).first(), (SNode) SLinkOperations.getTarget(nodeToCheck, "attributeType", true), false, true, _info_12389875345);
+          typeCheckingContext.createLessThanInequality((SNode) ListSequence.fromList(SLinkOperations.getConceptLinkTargets(SLinkOperations.getTarget(nodeToCheck, "enum", true), "type")).first(), (SNode) SLinkOperations.getTarget(nodeToCheck, "attributeType", true), false, true, _info_12389875345);
         }
       }
     }

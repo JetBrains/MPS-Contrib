@@ -32,10 +32,10 @@ public enum useAttributeEnum {
   }
 
   public static List<useAttributeEnum> getConstants() {
-    List<useAttributeEnum> list = ListSequence.<useAttributeEnum>fromList(new LinkedList<useAttributeEnum>());
-    ListSequence.<useAttributeEnum>fromList(list).addElement(useAttributeEnum.optional);
-    ListSequence.<useAttributeEnum>fromList(list).addElement(useAttributeEnum.prohibited);
-    ListSequence.<useAttributeEnum>fromList(list).addElement(useAttributeEnum.required);
+    List<useAttributeEnum> list = ListSequence.fromList(new LinkedList<useAttributeEnum>());
+    ListSequence.fromList(list).addElement(useAttributeEnum.optional);
+    ListSequence.fromList(list).addElement(useAttributeEnum.prohibited);
+    ListSequence.fromList(list).addElement(useAttributeEnum.required);
     return list;
   }
 

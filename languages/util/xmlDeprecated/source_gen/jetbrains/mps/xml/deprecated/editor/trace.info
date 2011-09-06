@@ -295,7 +295,7 @@
     <nodeInfo nodeId="5252685582976647085" fileName="Element_Editor.java" startLine="267" startPosition="112" endLine="268" endPosition="60" conceptFqName="jetbrains.mps.baseLanguage.structure.ReturnStatement" />
     <nodeInfo nodeId="5252685582976647092" fileName="Element_Editor.java" startLine="271" startPosition="111" endLine="272" endPosition="63" conceptFqName="jetbrains.mps.baseLanguage.structure.ReturnStatement" />
     <nodeInfo nodeId="5252685582976647103" fileName="Element_Editor.java" startLine="275" startPosition="111" endLine="276" endPosition="63" conceptFqName="jetbrains.mps.baseLanguage.structure.ReturnStatement" />
-    <nodeInfo nodeId="5252685582976653508" fileName="Element_Editor.java" startLine="279" startPosition="111" endLine="280" endPosition="101" conceptFqName="jetbrains.mps.baseLanguage.structure.ReturnStatement" />
+    <nodeInfo nodeId="5252685582976653508" fileName="Element_Editor.java" startLine="279" startPosition="111" endLine="280" endPosition="94" conceptFqName="jetbrains.mps.baseLanguage.structure.ReturnStatement" />
     <nodeInfo nodeId="1107867277995" fileName="Element_Editor.java" startLine="284" startPosition="102" endLine="285" endPosition="50" conceptFqName="jetbrains.mps.baseLanguage.structure.SuperConstructorInvocation" />
     <nodeInfo nodeId="1107867277995" fileName="Element_Editor.java" startLine="288" startPosition="66" endLine="289" endPosition="41" conceptFqName="jetbrains.mps.baseLanguage.structure.LocalVariableDeclarationStatement" />
     <nodeInfo nodeId="1107867277995" fileName="Element_Editor.java" startLine="289" startPosition="41" endLine="290" endPosition="93" conceptFqName="jetbrains.mps.baseLanguage.structure.ReturnStatement" />
@@ -450,7 +450,7 @@
     <scopeInfo nodeId="5252685582976647084" fileName="Element_Editor.java" startLine="267" startPosition="112" endLine="268" endPosition="60" />
     <scopeInfo nodeId="5252685582976647091" fileName="Element_Editor.java" startLine="271" startPosition="111" endLine="272" endPosition="63" />
     <scopeInfo nodeId="5252685582976647102" fileName="Element_Editor.java" startLine="275" startPosition="111" endLine="276" endPosition="63" />
-    <scopeInfo nodeId="5252685582976653507" fileName="Element_Editor.java" startLine="279" startPosition="111" endLine="280" endPosition="101" />
+    <scopeInfo nodeId="5252685582976653507" fileName="Element_Editor.java" startLine="279" startPosition="111" endLine="280" endPosition="94" />
     <scopeInfo nodeId="1107867277995" fileName="Element_Editor.java" startLine="284" startPosition="102" endLine="285" endPosition="50" />
     <scopeInfo nodeId="1107867277995" fileName="Element_Editor.java" startLine="306" startPosition="89" endLine="307" endPosition="66" />
     <scopeInfo nodeId="1107867277995" fileName="Element_Editor.java" startLine="313" startPosition="34" endLine="314" endPosition="95" />

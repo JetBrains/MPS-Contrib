@@ -12,8 +12,8 @@ import jetbrains.mps.xmlQuery.behavior.XMLSAXChildRule_Behavior;
 import jetbrains.mps.generator.template.ReferenceMacroContext;
 import jetbrains.mps.generator.template.IfMacroContext;
 import jetbrains.mps.internal.collections.runtime.ListSequence;
-import jetbrains.mps.smodel.SNode;
 import jetbrains.mps.internal.collections.runtime.IWhereFilter;
+import jetbrains.mps.smodel.SNode;
 import jetbrains.mps.generator.template.SourceSubstituteMacroNodeContext;
 import jetbrains.mps.generator.template.SourceSubstituteMacroNodesContext;
 import jetbrains.mps.internal.collections.runtime.Sequence;
@@ -136,11 +136,11 @@ public class QueriesGenerated {
   }
 
   public static boolean ifMacro_Condition_3444414697307502949(final IOperationContext operationContext, final IfMacroContext _context) {
-    return (SLinkOperations.getTarget(_context.getNode(), "creator", true) != null) && (SLinkOperations.getTarget(SLinkOperations.getTarget(_context.getNode(), "creator", true), "body", true) != null) && ListSequence.<SNode>fromList(SLinkOperations.getTargets(SLinkOperations.getTarget(SLinkOperations.getTarget(_context.getNode(), "creator", true), "body", true), "statement", true)).isNotEmpty();
+    return (SLinkOperations.getTarget(_context.getNode(), "creator", true) != null) && (SLinkOperations.getTarget(SLinkOperations.getTarget(_context.getNode(), "creator", true), "body", true) != null) && ListSequence.fromList(SLinkOperations.getTargets(SLinkOperations.getTarget(SLinkOperations.getTarget(_context.getNode(), "creator", true), "body", true), "statement", true)).isNotEmpty();
   }
 
   public static boolean ifMacro_Condition_3444414697307455192(final IOperationContext operationContext, final IfMacroContext _context) {
-    return ListSequence.<SNode>fromList(SLinkOperations.getTargets(_context.getNode(), "attrs", true)).where(new IWhereFilter<SNode>() {
+    return ListSequence.fromList(SLinkOperations.getTargets(_context.getNode(), "attrs", true)).where(new IWhereFilter<SNode>() {
       public boolean accept(SNode it) {
         return SPropertyOperations.getBoolean(it, "isRequired");
       }
@@ -148,27 +148,27 @@ public class QueriesGenerated {
   }
 
   public static boolean ifMacro_Condition_3912764103614106144(final IOperationContext operationContext, final IfMacroContext _context) {
-    return (SLinkOperations.getTarget(_context.getNode(), "handler", true) != null) && (SLinkOperations.getTarget(SLinkOperations.getTarget(_context.getNode(), "handler", true), "body", true) != null) && ListSequence.<SNode>fromList(SLinkOperations.getTargets(SLinkOperations.getTarget(SLinkOperations.getTarget(_context.getNode(), "handler", true), "body", true), "statement", true)).isNotEmpty();
+    return (SLinkOperations.getTarget(_context.getNode(), "handler", true) != null) && (SLinkOperations.getTarget(SLinkOperations.getTarget(_context.getNode(), "handler", true), "body", true) != null) && ListSequence.fromList(SLinkOperations.getTargets(SLinkOperations.getTarget(SLinkOperations.getTarget(_context.getNode(), "handler", true), "body", true), "statement", true)).isNotEmpty();
   }
 
   public static boolean ifMacro_Condition_3444414697307485789(final IOperationContext operationContext, final IfMacroContext _context) {
-    return ListSequence.<SNode>fromList(SLinkOperations.getTargets(_context.getNode(), "attrs", true)).isNotEmpty();
+    return ListSequence.fromList(SLinkOperations.getTargets(_context.getNode(), "attrs", true)).isNotEmpty();
   }
 
   public static boolean ifMacro_Condition_3444414697307503023(final IOperationContext operationContext, final IfMacroContext _context) {
-    return ListSequence.<SNode>fromList(SLinkOperations.getTargets(_context.getNode(), "children", true)).isNotEmpty();
+    return ListSequence.fromList(SLinkOperations.getTargets(_context.getNode(), "children", true)).isNotEmpty();
   }
 
   public static boolean ifMacro_Condition_3912764103614106200(final IOperationContext operationContext, final IfMacroContext _context) {
-    return (SLinkOperations.getTarget(_context.getNode(), "handler", true) != null) && (SLinkOperations.getTarget(SLinkOperations.getTarget(_context.getNode(), "handler", true), "body", true) != null) && ListSequence.<SNode>fromList(SLinkOperations.getTargets(SLinkOperations.getTarget(SLinkOperations.getTarget(_context.getNode(), "handler", true), "body", true), "statement", true)).isNotEmpty();
+    return (SLinkOperations.getTarget(_context.getNode(), "handler", true) != null) && (SLinkOperations.getTarget(SLinkOperations.getTarget(_context.getNode(), "handler", true), "body", true) != null) && ListSequence.fromList(SLinkOperations.getTargets(SLinkOperations.getTarget(SLinkOperations.getTarget(_context.getNode(), "handler", true), "body", true), "statement", true)).isNotEmpty();
   }
 
   public static boolean ifMacro_Condition_7707758858786107715(final IOperationContext operationContext, final IfMacroContext _context) {
-    return (SLinkOperations.getTarget(_context.getNode(), "handler", true) != null) && (SLinkOperations.getTarget(SLinkOperations.getTarget(_context.getNode(), "handler", true), "body", true) != null) && ListSequence.<SNode>fromList(SLinkOperations.getTargets(SLinkOperations.getTarget(SLinkOperations.getTarget(_context.getNode(), "handler", true), "body", true), "statement", true)).isNotEmpty();
+    return (SLinkOperations.getTarget(_context.getNode(), "handler", true) != null) && (SLinkOperations.getTarget(SLinkOperations.getTarget(_context.getNode(), "handler", true), "body", true) != null) && ListSequence.fromList(SLinkOperations.getTargets(SLinkOperations.getTarget(SLinkOperations.getTarget(_context.getNode(), "handler", true), "body", true), "statement", true)).isNotEmpty();
   }
 
   public static boolean ifMacro_Condition_3444414697307503046(final IOperationContext operationContext, final IfMacroContext _context) {
-    return ListSequence.<SNode>fromList(SLinkOperations.getTargets(_context.getNode(), "children", true)).isNotEmpty();
+    return ListSequence.fromList(SLinkOperations.getTargets(_context.getNode(), "children", true)).isNotEmpty();
   }
 
   public static boolean ifMacro_Condition_3444414697307550122(final IOperationContext operationContext, final IfMacroContext _context) {
@@ -180,7 +180,7 @@ public class QueriesGenerated {
   }
 
   public static boolean ifMacro_Condition_3444414697307550480(final IOperationContext operationContext, final IfMacroContext _context) {
-    return (SLinkOperations.getTarget(_context.getNode(), "validator", true) != null) && (SLinkOperations.getTarget(SLinkOperations.getTarget(_context.getNode(), "validator", true), "body", true) != null) && ListSequence.<SNode>fromList(SLinkOperations.getTargets(SLinkOperations.getTarget(SLinkOperations.getTarget(_context.getNode(), "validator", true), "body", true), "statement", true)).isNotEmpty();
+    return (SLinkOperations.getTarget(_context.getNode(), "validator", true) != null) && (SLinkOperations.getTarget(SLinkOperations.getTarget(_context.getNode(), "validator", true), "body", true) != null) && ListSequence.fromList(SLinkOperations.getTargets(SLinkOperations.getTarget(SLinkOperations.getTarget(_context.getNode(), "validator", true), "body", true), "statement", true)).isNotEmpty();
   }
 
   public static boolean ifMacro_Condition_4120841425052733760(final IOperationContext operationContext, final IfMacroContext _context) {
@@ -371,7 +371,7 @@ public class QueriesGenerated {
   }
 
   public static Iterable sourceNodesQuery_3444414697307455270(final IOperationContext operationContext, final SourceSubstituteMacroNodesContext _context) {
-    return ListSequence.<SNode>fromList(SLinkOperations.getTargets(_context.getNode(), "attrs", true)).where(new IWhereFilter<SNode>() {
+    return ListSequence.fromList(SLinkOperations.getTargets(_context.getNode(), "attrs", true)).where(new IWhereFilter<SNode>() {
       public boolean accept(SNode it) {
         return SPropertyOperations.getBoolean(it, "isRequired");
       }

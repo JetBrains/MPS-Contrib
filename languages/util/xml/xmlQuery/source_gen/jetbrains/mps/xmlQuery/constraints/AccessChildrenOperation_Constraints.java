@@ -51,7 +51,7 @@ public class AccessChildrenOperation_Constraints extends BaseConstraintsDescript
             }
             SNode elementDeclaration = SNodeOperations.getAncestor(complexType, "jetbrains.mps.xmlSchema.structure.ElementDeclaration", false, false);
             if (elementDeclaration == null) {
-              elementDeclaration = ListSequence.<SNode>fromList(SNodeOperations.getDescendants(SNodeOperations.getAncestor(complexType, "jetbrains.mps.xmlSchema.structure.Schema", false, false), "jetbrains.mps.xmlSchema.structure.ElementWithType", false, new String[]{})).findFirst(new IWhereFilter<SNode>() {
+              elementDeclaration = ListSequence.fromList(SNodeOperations.getDescendants(SNodeOperations.getAncestor(complexType, "jetbrains.mps.xmlSchema.structure.Schema", false, false), "jetbrains.mps.xmlSchema.structure.ElementWithType", false, new String[]{})).findFirst(new IWhereFilter<SNode>() {
                 public boolean accept(SNode ewt) {
                   return SLinkOperations.getTarget(SLinkOperations.getTarget(ewt, "complexTypeReference", true), "complexType", false) == complexType;
                 }

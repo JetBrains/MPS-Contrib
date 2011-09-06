@@ -13,13 +13,13 @@ public class TargetDeclaration_Behavior {
   }
 
   public static String call_getDependanceString_1213877231974(SNode thisNode) {
-    if (ListSequence.<SNode>fromList(SLinkOperations.getTargets(thisNode, "depends", true)).isEmpty()) {
+    if (ListSequence.fromList(SLinkOperations.getTargets(thisNode, "depends", true)).isEmpty()) {
       return "";
     }
     StringBuffer buffer = new StringBuffer();
-    for (int i = 0; i < ListSequence.<SNode>fromList(SLinkOperations.getTargets(thisNode, "depends", true)).count(); i++) {
-      buffer.append(SPropertyOperations.getString(SLinkOperations.getTarget(ListSequence.<SNode>fromList(SLinkOperations.getTargets(thisNode, "depends", true)).getElement(i), "targetDeclaration", false), "name"));
-      if (i < ListSequence.<SNode>fromList(SLinkOperations.getTargets(thisNode, "depends", true)).count() - 1) {
+    for (int i = 0; i < ListSequence.fromList(SLinkOperations.getTargets(thisNode, "depends", true)).count(); i++) {
+      buffer.append(SPropertyOperations.getString(SLinkOperations.getTarget(ListSequence.fromList(SLinkOperations.getTargets(thisNode, "depends", true)).getElement(i), "targetDeclaration", false), "name"));
+      if (i < ListSequence.fromList(SLinkOperations.getTargets(thisNode, "depends", true)).count() - 1) {
         buffer.append(",");
       }
     }

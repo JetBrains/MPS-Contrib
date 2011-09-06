@@ -80,7 +80,7 @@ public class Generator {
   }
 
   private void cleanDeclaration(final SNode decl) {
-    Set<SNode> toRemoveNestedReference = SetSequence.<SNode>fromSet(new HashSet());
+    Set<SNode> toRemoveNestedReference = SetSequence.fromSet(new HashSet());
     for (SNode nref : SLinkOperations.getTargets(decl, "nested", true)) {
       for (SNode ref : SLinkOperations.getTargets(decl, "nested", true)) {
         if (eq_ixz87t_a0a0a0b0d(ref, nref)) {
@@ -91,30 +91,30 @@ public class Generator {
         }
       }
     }
-    SetSequence.<SNode>fromSet(toRemoveNestedReference).visitAll(new IVisitor<SNode>() {
+    SetSequence.fromSet(toRemoveNestedReference).visitAll(new IVisitor<SNode>() {
       public void visit(SNode it) {
-        ListSequence.<SNode>fromList(SNodeOperations.getChildren(decl)).removeElement(it);
-        ListSequence.<SNode>fromList(SLinkOperations.getTargets(it, "role", true)).where(new IWhereFilter<SNode>() {
+        ListSequence.fromList(SNodeOperations.getChildren(decl)).removeElement(it);
+        ListSequence.fromList(SLinkOperations.getTargets(it, "role", true)).where(new IWhereFilter<SNode>() {
           public boolean accept(SNode roleRef) {
             return SPropertyOperations.getBoolean(SNodeOperations.cast(SLinkOperations.getTarget(roleRef, "declaration", false), "jetbrains.mps.build.generictasks.structure.BuiltInTaskDeclaration"), "fake");
           }
         }).visitAll(new IVisitor<SNode>() {
           public void visit(SNode child) {
-            ListSequence.<SNode>fromList(SNodeOperations.getChildren(decl)).removeElement(SLinkOperations.getTarget(child, "declaration", false));
+            ListSequence.fromList(SNodeOperations.getChildren(decl)).removeElement(SLinkOperations.getTarget(child, "declaration", false));
           }
         });
       }
     });
-    ListSequence.<SNode>fromList(SLinkOperations.getTargets(decl, "fakeDeclaration", true)).visitAll(new IVisitor<SNode>() {
+    ListSequence.fromList(SLinkOperations.getTargets(decl, "fakeDeclaration", true)).visitAll(new IVisitor<SNode>() {
       public void visit(SNode it) {
         SPropertyOperations.set(it, "fake", "" + true);
       }
     });
 
-    Set<SNode> toRemoveFakeDeclaration = SetSequence.<SNode>fromSet(new HashSet());
-    SetSequence.fromSet(toRemoveFakeDeclaration).addSequence(ListSequence.<SNode>fromList(SLinkOperations.getTargets(decl, "fakeDeclaration", true)));
+    Set<SNode> toRemoveFakeDeclaration = SetSequence.fromSet(new HashSet());
+    SetSequence.fromSet(toRemoveFakeDeclaration).addSequence(ListSequence.fromList(SLinkOperations.getTargets(decl, "fakeDeclaration", true)));
     for (SNode nref : SLinkOperations.getTargets(decl, "nested", true)) {
-      List<SNode> notRemove = ListSequence.<SNode>fromList(SLinkOperations.getTargets(nref, "role", true)).<SNode>select(new ISelector<SNode, SNode>() {
+      List<SNode> notRemove = ListSequence.fromList(SLinkOperations.getTargets(nref, "role", true)).<SNode>select(new ISelector<SNode, SNode>() {
         public SNode select(SNode it) {
           return SNodeOperations.cast(SLinkOperations.getTarget(it, "declaration", false), "jetbrains.mps.build.generictasks.structure.BuiltInTaskDeclaration");
         }
@@ -123,22 +123,22 @@ public class Generator {
           return SPropertyOperations.getBoolean(it, "fake");
         }
       }).toListSequence();
-      SetSequence.fromSet(toRemoveFakeDeclaration).removeSequence(ListSequence.<SNode>fromList(notRemove));
+      SetSequence.fromSet(toRemoveFakeDeclaration).removeSequence(ListSequence.fromList(notRemove));
     }
-    SetSequence.<SNode>fromSet(toRemoveFakeDeclaration).visitAll(new IVisitor<SNode>() {
+    SetSequence.fromSet(toRemoveFakeDeclaration).visitAll(new IVisitor<SNode>() {
       public void visit(SNode it) {
-        ListSequence.<SNode>fromList(SNodeOperations.getChildren(decl)).removeElement(it);
+        ListSequence.fromList(SNodeOperations.getChildren(decl)).removeElement(it);
       }
     });
     for (final SNode nref : SLinkOperations.getTargets(decl, "nested", true)) {
-      SNode node = ListSequence.<SNode>fromList(SLinkOperations.getTargets(nref, "role", true)).where(new IWhereFilter<SNode>() {
+      SNode node = ListSequence.fromList(SLinkOperations.getTargets(nref, "role", true)).where(new IWhereFilter<SNode>() {
         public boolean accept(SNode it) {
           SNode biDecl = SNodeOperations.cast(SLinkOperations.getTarget(it, "declaration", false), "jetbrains.mps.build.generictasks.structure.BuiltInTaskDeclaration");
           return SPropertyOperations.getBoolean(biDecl, "fake") && eq_ixz87t_a0a1a0a0a0a0a0a9a3(SPropertyOperations.getString(biDecl, "name"), SPropertyOperations.getString(SLinkOperations.getTarget(nref, "declaration", false), "name"));
         }
       }).first();
-      ListSequence.<SNode>fromList(SNodeOperations.getChildren(nref)).removeElement(node);
-      ListSequence.<SNode>fromList(SNodeOperations.getChildren(decl)).removeElement(SLinkOperations.getTarget(node, "declaration", false));
+      ListSequence.fromList(SNodeOperations.getChildren(nref)).removeElement(node);
+      ListSequence.fromList(SNodeOperations.getChildren(decl)).removeElement(SLinkOperations.getTarget(node, "declaration", false));
     }
   }
 
@@ -204,11 +204,11 @@ public class Generator {
         }
       }
       SNode ref = Generator.GENERATOR.createDeclarationReference(interfaceDeclaration);
-      ListSequence.<SNode>fromList(SLinkOperations.getTargets(declaration, "interfaces", true)).addElement(ref);
+      ListSequence.fromList(SLinkOperations.getTargets(declaration, "interfaces", true)).addElement(ref);
     }
 
     public void addAttribute(SNode declaration, final ClassInfo.MyAttribute attribute) {
-      SNode node = ListSequence.<SNode>fromList(SLinkOperations.getTargets(declaration, "attributesDecl", true)).where(new IWhereFilter<SNode>() {
+      SNode node = ListSequence.fromList(SLinkOperations.getTargets(declaration, "attributesDecl", true)).where(new IWhereFilter<SNode>() {
         public boolean accept(SNode it) {
           return eq_ixz87t_a0a0a0a0a0a0a0d1(SPropertyOperations.getString(it, "name"), attribute.getName());
         }
@@ -239,7 +239,7 @@ public class Generator {
       SNode attrDecl = Generator.GENERATOR.createAttributeDeclaration(att.getName(), Generator.Builder.getType(att.getType()));
       SPropertyOperations.set(attrDecl, "deprecated", "" + att.isDeprecated());
       this.addEnum(attrDecl, att.getEnumValues());
-      ListSequence.<SNode>fromList(SLinkOperations.getTargets(decl, "attributesDecl", true)).addElement(attrDecl);
+      ListSequence.fromList(SLinkOperations.getTargets(decl, "attributesDecl", true)).addElement(attrDecl);
     }
 
     private void addEnum(SNode attrDecl, String[] enumValues) {
@@ -252,21 +252,21 @@ public class Generator {
     }
 
     private void updateEnum(SNode sEnum, String[] enumValues) {
-      Set<String> set = SetSequence.<String>fromSetWithValues(new HashSet(), ListSequence.<SNode>fromList(SLinkOperations.getTargets(sEnum, "constants", true)).<String>select(new ISelector<SNode, String>() {
+      Set<String> set = SetSequence.fromSetWithValues(new HashSet(), ListSequence.fromList(SLinkOperations.getTargets(sEnum, "constants", true)).<String>select(new ISelector<SNode, String>() {
         public String select(SNode it) {
           return PropertyValueExpression_Behavior.call_toString_1213877472569(it);
         }
       }));
       for (String str : enumValues) {
-        if (SetSequence.<String>fromSet(set).contains(str)) {
+        if (SetSequence.fromSet(set).contains(str)) {
           continue;
         }
-        ListSequence.<SNode>fromList(SLinkOperations.getTargets(sEnum, "constants", true)).addElement(new Generator.Builder.QuotationClass_ixz87t_a0a0b0b0h1().createNode(str));
+        ListSequence.fromList(SLinkOperations.getTargets(sEnum, "constants", true)).addElement(new Generator.Builder.QuotationClass_ixz87t_a0a0b0b0h1().createNode(str));
       }
     }
 
     public void addNested(SNode decl, final SNode nestedDecl, ClassInfo.Nested nested) {
-      SNode node = ListSequence.<SNode>fromList(SLinkOperations.getTargets(decl, "nested", true)).where(new IWhereFilter<SNode>() {
+      SNode node = ListSequence.fromList(SLinkOperations.getTargets(decl, "nested", true)).where(new IWhereFilter<SNode>() {
         public boolean accept(SNode it) {
           return eq_ixz87t_a0a0a0a0a0a0a0i1(SLinkOperations.getTarget(it, "declaration", false), nestedDecl);
         }
@@ -284,7 +284,7 @@ public class Generator {
           this.addNestedName(decl, nref, name);
         }
       }
-      ListSequence.<SNode>fromList(SLinkOperations.getTargets(decl, "nested", true)).addElement(nref);
+      ListSequence.fromList(SLinkOperations.getTargets(decl, "nested", true)).addElement(nref);
     }
 
     private void addNestedName(SNode declaration, SNode nref, String name) {
@@ -295,7 +295,7 @@ public class Generator {
       }
 
       if (eq_ixz87t_a0c0j1(SPropertyOperations.getString(SLinkOperations.getTarget(nref, "declaration", false), "name"), name)) {
-        ListSequence.<SNode>fromList(SLinkOperations.getTargets(nref, "role", true)).addElement(Generator.GENERATOR.createDeclarationReference(SNodeOperations.cast(SLinkOperations.getTarget(nref, "declaration", false), "jetbrains.mps.build.generictasks.structure.BuiltInTaskDeclaration")));
+        ListSequence.fromList(SLinkOperations.getTargets(nref, "role", true)).addElement(Generator.GENERATOR.createDeclarationReference(SNodeOperations.cast(SLinkOperations.getTarget(nref, "declaration", false), "jetbrains.mps.build.generictasks.structure.BuiltInTaskDeclaration")));
         return;
       }
 
@@ -304,14 +304,14 @@ public class Generator {
       SNode fake;
       if (SNodeOperations.isInstanceOf(parentDeclaration, "jetbrains.mps.build.generictasks.structure.TaskInterfaceDeclaration")) {
         fake = Generator.GENERATOR.createInterfaceDeclaration(name, SPropertyOperations.getString(parentDeclaration, "classname"), SPropertyOperations.getBoolean(parentDeclaration, "depracated"));
-        ListSequence.<SNode>fromList(SLinkOperations.getTargets(fake, "interfaces", true)).addElement(parentRef);
+        ListSequence.fromList(SLinkOperations.getTargets(fake, "interfaces", true)).addElement(parentRef);
       } else {
         fake = Generator.GENERATOR.createDeclaration(name, SPropertyOperations.getString(parentDeclaration, "classname"), SPropertyOperations.getBoolean(parentDeclaration, "abstract"), SPropertyOperations.getBoolean(parentDeclaration, "canHaveInternalText"), SPropertyOperations.getBoolean(parentDeclaration, "depracated"));
         SLinkOperations.setTarget(fake, "parentRef", parentRef, true);
       }
       SPropertyOperations.set(fake, "fake", "" + true);
-      ListSequence.<SNode>fromList(SLinkOperations.getTargets(nref, "role", true)).addElement(Generator.GENERATOR.createDeclarationReference(fake));
-      ListSequence.<SNode>fromList(SLinkOperations.getTargets(declaration, "fakeDeclaration", true)).addElement(fake);
+      ListSequence.fromList(SLinkOperations.getTargets(nref, "role", true)).addElement(Generator.GENERATOR.createDeclarationReference(fake));
+      ListSequence.fromList(SLinkOperations.getTargets(declaration, "fakeDeclaration", true)).addElement(fake);
     }
 
     public void updateDeclaration(SNode decl, ClassInfo ci) {

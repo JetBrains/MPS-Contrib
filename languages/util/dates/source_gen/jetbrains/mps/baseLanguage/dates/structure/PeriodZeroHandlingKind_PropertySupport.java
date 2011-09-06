@@ -11,7 +11,7 @@ public class PeriodZeroHandlingKind_PropertySupport extends PropertySupport {
     if (value == null) {
       return true;
     }
-    Iterator<PeriodZeroHandlingKind> constants = ListSequence.<PeriodZeroHandlingKind>fromList(PeriodZeroHandlingKind.getConstants()).iterator();
+    Iterator<PeriodZeroHandlingKind> constants = ListSequence.fromList(PeriodZeroHandlingKind.getConstants()).iterator();
     while (constants.hasNext()) {
       PeriodZeroHandlingKind constant = constants.next();
       if (value.equals(constant.getName())) {
@@ -25,7 +25,7 @@ public class PeriodZeroHandlingKind_PropertySupport extends PropertySupport {
     if (value == null) {
       return null;
     }
-    Iterator<PeriodZeroHandlingKind> constants = ListSequence.<PeriodZeroHandlingKind>fromList(PeriodZeroHandlingKind.getConstants()).iterator();
+    Iterator<PeriodZeroHandlingKind> constants = ListSequence.fromList(PeriodZeroHandlingKind.getConstants()).iterator();
     while (constants.hasNext()) {
       PeriodZeroHandlingKind constant = constants.next();
       if (value.equals(constant.getName())) {

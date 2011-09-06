@@ -46,18 +46,18 @@ public class TaskReference_Constraints extends BaseConstraintsDescriptor {
             List<SNode> decls = SModelOperations.getNodesIncludingImported(_context.getModel(), operationContext.getScope(), "jetbrains.mps.buildlanguage.structure.IDeclaration");
             if (SNodeOperations.isInstanceOf(_context.getEnclosingNode(), "jetbrains.mps.build.generictasks.structure.BuiltInTaskDeclaration") && SNodeOperations.hasRole(_context.getReferenceNode(), "jetbrains.mps.build.generictasks.structure.BuiltInTaskDeclaration", "fakeDeclaration")) {
               List<SNode> newDecls = new ArrayList<SNode>();
-              for (SNode decl : ListSequence.<SNode>fromList(decls)) {
+              for (SNode decl : ListSequence.fromList(decls)) {
                 if (SNodeOperations.isInstanceOf(decl, "jetbrains.mps.build.generictasks.structure.TaskInterfaceDeclaration")) {
-                  ListSequence.<SNode>fromList(newDecls).addElement(decl);
+                  ListSequence.fromList(newDecls).addElement(decl);
                 }
               }
               return new SimpleSearchScope(newDecls);
             } else
             if (SNodeOperations.isInstanceOf(_context.getEnclosingNode(), "jetbrains.mps.build.generictasks.structure.BuiltInTaskDeclaration") && SNodeOperations.hasRole(_context.getReferenceNode(), "jetbrains.mps.build.generictasks.structure.BuiltInTaskDeclaration", "fakeDeclaration")) {
               List<SNode> newDecls = new ArrayList<SNode>();
-              for (SNode decl : ListSequence.<SNode>fromList(decls)) {
+              for (SNode decl : ListSequence.fromList(decls)) {
                 if (!(SNodeOperations.isInstanceOf(decl, "jetbrains.mps.build.generictasks.structure.TaskInterfaceDeclaration"))) {
-                  ListSequence.<SNode>fromList(newDecls).addElement(decl);
+                  ListSequence.fromList(newDecls).addElement(decl);
                 }
               }
               return new SimpleSearchScope(newDecls);

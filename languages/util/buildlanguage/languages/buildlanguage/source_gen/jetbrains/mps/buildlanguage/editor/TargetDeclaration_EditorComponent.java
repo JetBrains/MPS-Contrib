@@ -76,7 +76,7 @@ public class TargetDeclaration_EditorComponent extends AbstractCellProvider {
   }
 
   private static boolean renderingCondition_8asdb1_a0a(SNode node, EditorContext editorContext, IScope scope) {
-    return ListSequence.<SNode>fromList(SLinkOperations.getTargets(node, "depends", true)).count() != 0 || editorContext.isInspector();
+    return ListSequence.fromList(SLinkOperations.getTargets(node, "depends", true)).count() != 0 || editorContext.isInspector();
   }
 
   private static class dependsListHandler_8asdb1_c0a extends RefNodeListHandler {

@@ -17,7 +17,7 @@ public class MultiLineString_Behavior {
 
   public static String virtual_getActualValue_1213877472572(SNode thisNode) {
     String result = "";
-    for (SNode lit : ListSequence.<SNode>fromList(SLinkOperations.getTargets(thisNode, "stringExpression", true))) {
+    for (SNode lit : ListSequence.fromList(SLinkOperations.getTargets(thisNode, "stringExpression", true))) {
       result += PropertyValueExpression_Behavior.call_getActualValue_1213877472572(lit);
     }
     return (result.length() > 0 ?

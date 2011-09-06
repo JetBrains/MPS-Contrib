@@ -11,7 +11,7 @@ public class CompareType_PropertySupport extends PropertySupport {
     if (value == null) {
       return true;
     }
-    Iterator<CompareType> constants = ListSequence.<CompareType>fromList(CompareType.getConstants()).iterator();
+    Iterator<CompareType> constants = ListSequence.fromList(CompareType.getConstants()).iterator();
     while (constants.hasNext()) {
       CompareType constant = constants.next();
       if (value.equals(constant.getName())) {
@@ -25,7 +25,7 @@ public class CompareType_PropertySupport extends PropertySupport {
     if (value == null) {
       return null;
     }
-    Iterator<CompareType> constants = ListSequence.<CompareType>fromList(CompareType.getConstants()).iterator();
+    Iterator<CompareType> constants = ListSequence.fromList(CompareType.getConstants()).iterator();
     while (constants.hasNext()) {
       CompareType constant = constants.next();
       if (value.equals(constant.getName())) {

@@ -34,7 +34,7 @@ public class IDeclaration_Behavior {
   }
 
   public static boolean virtual_isHeirOf_5699548131010535105(SNode thisNode, List<SNode> parents) {
-    for (SNode parent : ListSequence.<SNode>fromList(parents)) {
+    for (SNode parent : ListSequence.fromList(parents)) {
       if (IDeclaration_Behavior.call_isHeirOf_5699548131010535069(thisNode, parent)) {
         return true;
       }
