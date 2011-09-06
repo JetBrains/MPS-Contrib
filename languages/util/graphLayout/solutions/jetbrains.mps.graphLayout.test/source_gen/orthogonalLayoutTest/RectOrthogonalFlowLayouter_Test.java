@@ -60,9 +60,9 @@ public class RectOrthogonalFlowLayouter_Test extends TestCase {
 
   public void test(Graph graph) {
     OrthogonalRectFlowLayouter layouter = new OrthogonalRectFlowLayouter();
-    Map<Node, Dimension> nodeSizes = MapSequence.<Node,Dimension>fromMap(new HashMap<Node, Dimension>());
-    for (Node node : ListSequence.<Node>fromList(graph.getNodes())) {
-      MapSequence.<Node,Dimension>fromMap(nodeSizes).put(node, new Dimension(10, 10));
+    Map<Node, Dimension> nodeSizes = MapSequence.fromMap(new HashMap<Node, Dimension>());
+    for (Node node : ListSequence.fromList(graph.getNodes())) {
+      MapSequence.fromMap(nodeSizes).put(node, new Dimension(10, 10));
     }
     GraphLayout layout = layouter.doLayout(graph, nodeSizes);
   }

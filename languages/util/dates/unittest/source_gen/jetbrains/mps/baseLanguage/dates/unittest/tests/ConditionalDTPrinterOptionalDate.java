@@ -30,9 +30,9 @@ public class ConditionalDTPrinterOptionalDate extends ConditionalDateTimePrinter
 
   protected List<DateTimePrinter> createPrinters() {
     List<DateTimePrinter> printers = new ArrayList<DateTimePrinter>(3);
-    ListSequence.<DateTimePrinter>fromList(printers).addElement((MainFormatTable.INSTANCE).getFormatter("empty").getPrinter());
-    ListSequence.<DateTimePrinter>fromList(printers).addElement((MainFormatTable.INSTANCE).getFormatter("time").getPrinter());
-    ListSequence.<DateTimePrinter>fromList(printers).addElement((MainFormatTable.INSTANCE).getFormatter("date/time").getPrinter());
+    ListSequence.fromList(printers).addElement((MainFormatTable.INSTANCE).getFormatter("empty").getPrinter());
+    ListSequence.fromList(printers).addElement((MainFormatTable.INSTANCE).getFormatter("time").getPrinter());
+    ListSequence.fromList(printers).addElement((MainFormatTable.INSTANCE).getFormatter("date/time").getPrinter());
     return printers;
   }
 }

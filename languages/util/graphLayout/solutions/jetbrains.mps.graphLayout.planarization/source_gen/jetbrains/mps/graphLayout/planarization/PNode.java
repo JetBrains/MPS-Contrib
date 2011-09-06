@@ -34,22 +34,22 @@ public class PNode extends PQNode {
   }
 
   public PQNode processAsPertinentRoot(List<PQNode> children, Node nextGraphNode) {
-    ListSequence.<PQNode>fromList(this.getChildren()).removeWhere(new IWhereFilter<PQNode>() {
+    ListSequence.fromList(this.getChildren()).removeWhere(new IWhereFilter<PQNode>() {
       public boolean accept(PQNode it) {
         return it.getState() != PQNode.State.EMPTY;
       }
     });
-    children = ListSequence.<PQNode>fromList(children).removeWhere(new IWhereFilter<PQNode>() {
+    children = ListSequence.fromList(children).removeWhere(new IWhereFilter<PQNode>() {
       public boolean accept(PQNode it) {
         return it.getState() == PQNode.State.EMPTY;
       }
     });
-    List<PQNode> partialChildren = ListSequence.<PQNode>fromList(children).where(new IWhereFilter<PQNode>() {
+    List<PQNode> partialChildren = ListSequence.fromList(children).where(new IWhereFilter<PQNode>() {
       public boolean accept(PQNode it) {
         return it.getState() == PQNode.State.PARTIAL;
       }
     }).toListSequence();
-    int numPartialChildren = ListSequence.<PQNode>fromList(partialChildren).count();
+    int numPartialChildren = ListSequence.fromList(partialChildren).count();
     QNode newComponent = new QNode();
     PNode nextNode = new PNode(nextGraphNode, null);
     newComponent.addLastChild(nextNode);
@@ -59,7 +59,7 @@ public class PNode extends PQNode {
       throw new RuntimeException("can not make reduction: pertinent root has more than two partial children");
     }
     if (numPartialChildren == 0) {
-      for (PQNode child : ListSequence.<PQNode>fromList(children).where(new IWhereFilter<PQNode>() {
+      for (PQNode child : ListSequence.fromList(children).where(new IWhereFilter<PQNode>() {
         public boolean accept(PQNode it) {
           return it.getState() == PQNode.State.FULL;
         }
@@ -68,30 +68,30 @@ public class PNode extends PQNode {
       }
     }
     if (numPartialChildren == 1) {
-      PQNode partialChild = ListSequence.<PQNode>fromList(partialChildren).first();
-      List<PQNode> firstEmptySegment = ListSequence.<PQNode>fromList(new ArrayList<PQNode>());
+      PQNode partialChild = ListSequence.fromList(partialChildren).first();
+      List<PQNode> firstEmptySegment = ListSequence.fromList(new ArrayList<PQNode>());
       boolean endFirstSegment = false;
-      for (PQNode child : ListSequence.<PQNode>fromList(partialChild.getChildren())) {
+      for (PQNode child : ListSequence.fromList(partialChild.getChildren())) {
         if (child.getState() == PQNode.State.FULL) {
           endFirstSegment = true;
         } else {
           if (endFirstSegment) {
             newComponent.addLastChild(child);
           } else {
-            ListSequence.<PQNode>fromList(firstEmptySegment).addElement(child);
+            ListSequence.fromList(firstEmptySegment).addElement(child);
           }
         }
       }
-      for (PQNode child : ListSequence.<PQNode>fromList(firstEmptySegment).reversedList()) {
+      for (PQNode child : ListSequence.fromList(firstEmptySegment).reversedList()) {
         newComponent.addFirstChild(child);
       }
-      ListSequence.<PQNode>fromList(partialChild.getChildren()).removeWhere(new IWhereFilter<PQNode>() {
+      ListSequence.fromList(partialChild.getChildren()).removeWhere(new IWhereFilter<PQNode>() {
         public boolean accept(PQNode it) {
           return it.getState() != PQNode.State.FULL;
         }
       });
       partialChild.collectEdgesOrderInSubtree(edgesOrder);
-      for (PQNode child : ListSequence.<PQNode>fromList(children).where(new IWhereFilter<PQNode>() {
+      for (PQNode child : ListSequence.fromList(children).where(new IWhereFilter<PQNode>() {
         public boolean accept(PQNode it) {
           return it.getState() == PQNode.State.FULL;
         }
@@ -100,29 +100,29 @@ public class PNode extends PQNode {
       }
     }
     if (numPartialChildren == 2) {
-      PQNode partialChild0 = ListSequence.<PQNode>fromList(partialChildren).getElement(0);
-      List<PQNode> emptyNodes = ListSequence.<PQNode>fromList(partialChild0.getChildren()).where(new IWhereFilter<PQNode>() {
+      PQNode partialChild0 = ListSequence.fromList(partialChildren).getElement(0);
+      List<PQNode> emptyNodes = ListSequence.fromList(partialChild0.getChildren()).where(new IWhereFilter<PQNode>() {
         public boolean accept(PQNode it) {
           return it.getState() == PQNode.State.EMPTY;
         }
       }).toListSequence();
-      emptyNodes = ListSequence.<PQNode>fromList(emptyNodes).reversedList();
-      for (PQNode child : ListSequence.<PQNode>fromList(emptyNodes)) {
+      emptyNodes = ListSequence.fromList(emptyNodes).reversedList();
+      for (PQNode child : ListSequence.fromList(emptyNodes)) {
         newComponent.addFirstChild(child);
       }
-      PQNode partialChild1 = ListSequence.<PQNode>fromList(partialChildren).getElement(1);
+      PQNode partialChild1 = ListSequence.fromList(partialChildren).getElement(1);
       ((QNode) partialChild1).reverse();
-      emptyNodes = ListSequence.<PQNode>fromList(partialChild1.getChildren()).where(new IWhereFilter<PQNode>() {
+      emptyNodes = ListSequence.fromList(partialChild1.getChildren()).where(new IWhereFilter<PQNode>() {
         public boolean accept(PQNode it) {
           return it.getState() == PQNode.State.EMPTY;
         }
       }).toListSequence();
-      for (PQNode child : ListSequence.<PQNode>fromList(emptyNodes)) {
+      for (PQNode child : ListSequence.fromList(emptyNodes)) {
         newComponent.addLastChild(child);
       }
       /*
         newComponent.getEdgesOrder().merge(partialChild0.getEdgesOrder());
-        for (PQNode child : ListSequence.<PQNode>fromList(partialChild0.getChildren()).where(new IWhereFilter<PQNode>() {
+        for (PQNode child : ListSequence.fromList(partialChild0.getChildren()).where(new IWhereFilter<PQNode>() {
           public boolean accept(PQNode it) {
             return it.getState() == PQNode.State.FULL;
           }
@@ -130,20 +130,20 @@ public class PNode extends PQNode {
           child.collectEdgesOrderInSubtree(edgesOrder);
         }
       */
-      ListSequence.<PQNode>fromList(partialChild0.getChildren()).removeWhere(new IWhereFilter<PQNode>() {
+      ListSequence.fromList(partialChild0.getChildren()).removeWhere(new IWhereFilter<PQNode>() {
         public boolean accept(PQNode it) {
           return it.getState() != PQNode.State.FULL;
         }
       });
       partialChild0.collectEdgesOrderInSubtree(edgesOrder);
-      for (PQNode child : ListSequence.<PQNode>fromList(children).where(new IWhereFilter<PQNode>() {
+      for (PQNode child : ListSequence.fromList(children).where(new IWhereFilter<PQNode>() {
         public boolean accept(PQNode it) {
           return it.getState() == PQNode.State.FULL;
         }
       })) {
         child.collectEdgesOrderInSubtree(edgesOrder);
       }
-      ListSequence.<PQNode>fromList(partialChild1.getChildren()).removeWhere(new IWhereFilter<PQNode>() {
+      ListSequence.fromList(partialChild1.getChildren()).removeWhere(new IWhereFilter<PQNode>() {
         public boolean accept(PQNode it) {
           return it.getState() != PQNode.State.FULL;
         }
@@ -151,7 +151,7 @@ public class PNode extends PQNode {
       partialChild1.collectEdgesOrderInSubtree(edgesOrder);
       /*
         newComponent.getEdgesOrder().merge(partialChild1.getEdgesOrder());
-        for (PQNode child : ListSequence.<PQNode>fromList(partialChild1.getChildren()).where(new IWhereFilter<PQNode>() {
+        for (PQNode child : ListSequence.fromList(partialChild1.getChildren()).where(new IWhereFilter<PQNode>() {
           public boolean accept(PQNode it) {
             return it.getState() == PQNode.State.FULL;
           }
@@ -166,7 +166,7 @@ public class PNode extends PQNode {
   @Override
   public void collectEdgesOrderInSubtree(EdgesOrder order) {
     order.addEdge(myGraphNode, myGraphEdge);
-    for (PQNode child : ListSequence.<PQNode>fromList(getChildren())) {
+    for (PQNode child : ListSequence.fromList(getChildren())) {
       child.collectEdgesOrderInSubtree(order);
     }
   }
@@ -174,9 +174,9 @@ public class PNode extends PQNode {
   public PQNode makeReduction(boolean isRealPertinentRoot) {
     int numFull = 0;
     int numPartial = 0;
-    int numChildren = ListSequence.<PQNode>fromList(getChildren()).count();
+    int numChildren = ListSequence.fromList(getChildren()).count();
     QNode replacement = null;
-    for (PQNode node : ListSequence.<PQNode>fromList(getChildren())) {
+    for (PQNode node : ListSequence.fromList(getChildren())) {
       if (node.getState() == PQNode.State.FULL) {
         numFull++;
       }
@@ -206,7 +206,7 @@ public class PNode extends PQNode {
     newFullNode.setState(PQNode.State.FULL);
     PQNode newEmptyNode = new PNode(myGraphNode, null);
     newEmptyNode.setState(PQNode.State.EMPTY);
-    for (PQNode child : ListSequence.<PQNode>fromList(getChildren())) {
+    for (PQNode child : ListSequence.fromList(getChildren())) {
       if (child.getState() == PQNode.State.FULL) {
         newFullNode.addLastChild(child);
       }
@@ -214,10 +214,10 @@ public class PNode extends PQNode {
         newEmptyNode.addLastChild(child);
       }
     }
-    if (ListSequence.<PQNode>fromList(newFullNode.getChildren()).count() > 0) {
+    if (ListSequence.fromList(newFullNode.getChildren()).count() > 0) {
       replacement.addLastChild(newFullNode);
     }
-    if (ListSequence.<PQNode>fromList(newEmptyNode.getChildren()).count() > 0) {
+    if (ListSequence.fromList(newEmptyNode.getChildren()).count() > 0) {
       replacement.addFirstChild(newEmptyNode);
     }
     replacement.getEdgesOrder().addEdge(myGraphNode, myGraphEdge);
@@ -251,14 +251,14 @@ public class PNode extends PQNode {
       myAValue = 0;
       return;
     }
-    List<PQNode> partialChildren = ListSequence.<PQNode>fromList(getChildren()).where(new IWhereFilter<PQNode>() {
+    List<PQNode> partialChildren = ListSequence.fromList(getChildren()).where(new IWhereFilter<PQNode>() {
       public boolean accept(PQNode it) {
         return it.getState() == PQNode.State.PARTIAL;
       }
     }).toListSequence();
     int valueFromA = 0;
     PQNode aChild = null;
-    for (PQNode child : ListSequence.<PQNode>fromList(partialChildren)) {
+    for (PQNode child : ListSequence.fromList(partialChildren)) {
       int curValue = child.getNumFullLeaves() - child.getAValue();
       if (valueFromA < curValue) {
         valueFromA = curValue;
@@ -271,7 +271,7 @@ public class PNode extends PQNode {
     PQNode firstHChild = null;
     PQNode secondHChild = null;
     int numPartialFullLeaves = 0;
-    for (PQNode child : ListSequence.<PQNode>fromList(partialChildren)) {
+    for (PQNode child : ListSequence.fromList(partialChildren)) {
       numPartialFullLeaves += child.getNumFullLeaves();
       int curValue = child.getNumFullLeaves() - child.getHValue();
       if (curValue > firstHMax) {
@@ -308,7 +308,7 @@ public class PNode extends PQNode {
       return;
     } else {
       if (myMakeAFromH) {
-        for (PQNode child : ListSequence.<PQNode>fromList(getChildren())) {
+        for (PQNode child : ListSequence.fromList(getChildren())) {
           if (child.getState() == PQNode.State.PARTIAL) {
             if (child == myFirstAChild || child == mySecondAChild) {
               child.makeHDeletion();
@@ -318,7 +318,7 @@ public class PNode extends PQNode {
           }
         }
       } else {
-        Iterator<PQNode> childItr = ListSequence.<PQNode>fromList(getChildren()).iterator();
+        Iterator<PQNode> childItr = ListSequence.fromList(getChildren()).iterator();
         while (childItr.hasNext()) {
           PQNode child = childItr.next();
           if (child == myFirstAChild) {
@@ -330,7 +330,7 @@ public class PNode extends PQNode {
           }
 
         }
-        for (PQNode child : ListSequence.<PQNode>fromList(getChildren())) {
+        for (PQNode child : ListSequence.fromList(getChildren())) {
           if (child == myFirstAChild) {
             child.makeADeletion();
           } else {
@@ -358,7 +358,7 @@ public class PNode extends PQNode {
       myHChild = null;
       myHValue = 0;
       int numPartialFullLeaves = 0;
-      for (PQNode child : ListSequence.<PQNode>fromList(getChildren())) {
+      for (PQNode child : ListSequence.fromList(getChildren())) {
         if (child.getState() == PQNode.State.PARTIAL) {
           numPartialFullLeaves += child.getNumFullLeaves();
           int childHValue = child.getHValue();
@@ -379,7 +379,7 @@ public class PNode extends PQNode {
     if (getState() == PQNode.State.FULL || getState() == PQNode.State.EMPTY) {
       return;
     } else {
-      for (PQNode child : ListSequence.<PQNode>fromList(getChildren())) {
+      for (PQNode child : ListSequence.fromList(getChildren())) {
         if (child.getState() == PQNode.State.PARTIAL) {
           if (child == myHChild) {
             child.makeHDeletion();

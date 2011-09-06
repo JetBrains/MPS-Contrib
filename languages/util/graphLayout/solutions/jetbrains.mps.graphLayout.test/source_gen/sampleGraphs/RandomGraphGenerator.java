@@ -40,10 +40,10 @@ public class RandomGraphGenerator {
     for (int i = 0; i < numNodes; i++) {
       g.createNode();
     }
-    List<Set<Integer>> connected = ListSequence.<Set<Integer>>fromList(new ArrayList<Set<Integer>>());
+    List<Set<Integer>> connected = ListSequence.fromList(new ArrayList<Set<Integer>>());
     for (int i = 0; i < numNodes; i++) {
-      ListSequence.<Set<Integer>>fromList(connected).addElement(SortedSetSequence.<Integer>fromSet(new TreeSet<Integer>()));
-      SetSequence.fromSet(ListSequence.<Set<Integer>>fromList(connected).getElement(i)).addElement(i);
+      ListSequence.fromList(connected).addElement(SortedSetSequence.fromSet(new TreeSet<Integer>()));
+      SetSequence.fromSet(ListSequence.fromList(connected).getElement(i)).addElement(i);
     }
     int maxIter = 1000;
     int countBad = 0;
@@ -54,27 +54,27 @@ public class RandomGraphGenerator {
       for (; iter < maxIter; iter++) {
         s = RandomGraphGenerator.rand.nextInt(numNodes);
         t = RandomGraphGenerator.rand.nextInt(numNodes);
-        if (!(SetSequence.<Integer>fromSet(ListSequence.<Set<Integer>>fromList(connected).getElement(s)).contains(t))) {
+        if (!(SetSequence.fromSet(ListSequence.fromList(connected).getElement(s)).contains(t))) {
           break;
         }
       }
       if (iter == maxIter) {
         countBad++;
         s = 0;
-        while (s < numNodes && SetSequence.<Integer>fromSet(ListSequence.<Set<Integer>>fromList(connected).getElement(s)).count() == numNodes) {
+        while (s < numNodes && SetSequence.fromSet(ListSequence.fromList(connected).getElement(s)).count() == numNodes) {
           s++;
         }
         if (s == numNodes) {
           throw new IllegalArgumentException("too much edges!");
         }
         t = 0;
-        while (SetSequence.<Integer>fromSet(ListSequence.<Set<Integer>>fromList(connected).getElement(s)).contains(t)) {
+        while (SetSequence.fromSet(ListSequence.fromList(connected).getElement(s)).contains(t)) {
           t++;
         }
       }
       g.addEdgeByIndex(s, t);
-      SetSequence.fromSet(ListSequence.<Set<Integer>>fromList(connected).getElement(s)).addElement(t);
-      SetSequence.fromSet(ListSequence.<Set<Integer>>fromList(connected).getElement(t)).addElement(s);
+      SetSequence.fromSet(ListSequence.fromList(connected).getElement(s)).addElement(t);
+      SetSequence.fromSet(ListSequence.fromList(connected).getElement(t)).addElement(s);
     }
     return g;
   }
@@ -95,10 +95,10 @@ public class RandomGraphGenerator {
       }
     }
     Graph g = SimpleDirectedGraphs.emptyGraph(n);
-    List<Set<Integer>> connected = ListSequence.<Set<Integer>>fromList(new ArrayList<Set<Integer>>());
+    List<Set<Integer>> connected = ListSequence.fromList(new ArrayList<Set<Integer>>());
     for (int i = 0; i < n; i++) {
-      ListSequence.<Set<Integer>>fromList(connected).addElement(SortedSetSequence.<Integer>fromSet(new TreeSet<Integer>()));
-      SetSequence.fromSet(ListSequence.<Set<Integer>>fromList(connected).getElement(i)).addElement(i);
+      ListSequence.fromList(connected).addElement(SortedSetSequence.fromSet(new TreeSet<Integer>()));
+      SetSequence.fromSet(ListSequence.fromList(connected).getElement(i)).addElement(i);
     }
     if (numInLayer.length == 1) {
       return g;
@@ -107,8 +107,8 @@ public class RandomGraphGenerator {
     for (int i = firstVertice[1]; i < n; i++) {
       int source = firstVertice[layers[i] - 1] + RandomGraphGenerator.rand.nextInt(numInLayer[layers[i] - 1]);
       g.addEdgeByIndex(source, i);
-      SetSequence.fromSet(ListSequence.<Set<Integer>>fromList(connected).getElement(source)).addElement(i);
-      SetSequence.fromSet(ListSequence.<Set<Integer>>fromList(connected).getElement(i)).addElement(source);
+      SetSequence.fromSet(ListSequence.fromList(connected).getElement(source)).addElement(i);
+      SetSequence.fromSet(ListSequence.fromList(connected).getElement(i)).addElement(source);
       numAddedEdges++;
     }
     if (numAddedEdges > numEdges) {
@@ -125,21 +125,21 @@ public class RandomGraphGenerator {
         int b = RandomGraphGenerator.rand.nextInt(n);
         s = Math.min(a, b);
         t = Math.max(a, b);
-        if (layers[s] != layers[t] && !(SetSequence.<Integer>fromSet(ListSequence.<Set<Integer>>fromList(connected).getElement(s)).contains(t))) {
+        if (layers[s] != layers[t] && !(SetSequence.fromSet(ListSequence.fromList(connected).getElement(s)).contains(t))) {
           break;
         }
       }
       if (iter == maxIter) {
         countBad++;
         s = 0;
-        while (s < n && SetSequence.<Integer>fromSet(ListSequence.<Set<Integer>>fromList(connected).getElement(s)).count() == n) {
+        while (s < n && SetSequence.fromSet(ListSequence.fromList(connected).getElement(s)).count() == n) {
           s++;
         }
         if (s == n) {
           throw new IllegalArgumentException("too much edges!");
         }
         t = s;
-        while (t < n && (layers[t] == layers[s] || SetSequence.<Integer>fromSet(ListSequence.<Set<Integer>>fromList(connected).getElement(s)).contains(t))) {
+        while (t < n && (layers[t] == layers[s] || SetSequence.fromSet(ListSequence.fromList(connected).getElement(s)).contains(t))) {
           t++;
         }
         if (t == n) {
@@ -147,8 +147,8 @@ public class RandomGraphGenerator {
         }
       }
       g.addEdgeByIndex(s, t);
-      SetSequence.fromSet(ListSequence.<Set<Integer>>fromList(connected).getElement(s)).addElement(t);
-      SetSequence.fromSet(ListSequence.<Set<Integer>>fromList(connected).getElement(t)).addElement(s);
+      SetSequence.fromSet(ListSequence.fromList(connected).getElement(s)).addElement(t);
+      SetSequence.fromSet(ListSequence.fromList(connected).getElement(t)).addElement(s);
     }
     return g;
   }

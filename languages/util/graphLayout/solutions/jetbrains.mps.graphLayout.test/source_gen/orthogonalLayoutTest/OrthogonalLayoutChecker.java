@@ -25,10 +25,10 @@ public class OrthogonalLayoutChecker {
 
   public static void checkOrthogonalEdges(GraphLayout layout) {
     Graph graph = ((Graph) layout.getGraph());
-    for (Edge edge : ListSequence.<Edge>fromList(graph.getEdges())) {
+    for (Edge edge : ListSequence.fromList(graph.getEdges())) {
       List<Point> edgeLayout = layout.getEdgeLayout(edge);
       Point prev = null;
-      for (Point point : ListSequence.<Point>fromList(edgeLayout)) {
+      for (Point point : ListSequence.fromList(edgeLayout)) {
         if (prev != null) {
           Assert.assertTrue(prev.x == point.x || prev.y == point.y);
         }

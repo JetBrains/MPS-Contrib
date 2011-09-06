@@ -22,7 +22,7 @@ public class CoordinatePlacer extends Dfs {
   private EmbeddedGraph myEmbeddedGraph;
 
   public CoordinatePlacer(EmbeddedGraph embeddedGraph, Map<Edge, Integer> lengths, Map<Dart, Direction2D> directions) {
-    myCoordinates = MapSequence.<Node,Point>fromMap(new HashMap<Node, Point>());
+    myCoordinates = MapSequence.fromMap(new HashMap<Node, Point>());
     myLenghts = lengths;
     myDirections = directions;
     myEmbeddedGraph = embeddedGraph;
@@ -35,7 +35,7 @@ public class CoordinatePlacer extends Dfs {
 
   @Override
   protected void preprocessRoot(Node root) {
-    MapSequence.<Node,Point>fromMap(myCoordinates).put(root, new Point(15, 15));
+    MapSequence.fromMap(myCoordinates).put(root, new Point(15, 15));
   }
 
   @Override
@@ -44,25 +44,25 @@ public class CoordinatePlacer extends Dfs {
       return;
     }
     final Node source = from.getOpposite(node);
-    int x = MapSequence.<Node,Point>fromMap(myCoordinates).get(source).x;
-    int y = MapSequence.<Node,Point>fromMap(myCoordinates).get(source).y;
-    Dart dart = ListSequence.<Dart>fromList(myEmbeddedGraph.getDarts(from)).findFirst(new IWhereFilter<Dart>() {
+    int x = MapSequence.fromMap(myCoordinates).get(source).x;
+    int y = MapSequence.fromMap(myCoordinates).get(source).y;
+    Dart dart = ListSequence.fromList(myEmbeddedGraph.getDarts(from)).findFirst(new IWhereFilter<Dart>() {
       public boolean accept(Dart dart) {
         return dart.getSource() == source;
       }
     });
-    if (MapSequence.<Dart,Direction2D>fromMap(myDirections).get(dart) == Direction2D.RIGHT) {
-      x += MapSequence.<Edge,Integer>fromMap(myLenghts).get(from);
+    if (MapSequence.fromMap(myDirections).get(dart) == Direction2D.RIGHT) {
+      x += MapSequence.fromMap(myLenghts).get(from);
     }
-    if (MapSequence.<Dart,Direction2D>fromMap(myDirections).get(dart) == Direction2D.LEFT) {
-      x -= MapSequence.<Edge,Integer>fromMap(myLenghts).get(from);
+    if (MapSequence.fromMap(myDirections).get(dart) == Direction2D.LEFT) {
+      x -= MapSequence.fromMap(myLenghts).get(from);
     }
-    if (MapSequence.<Dart,Direction2D>fromMap(myDirections).get(dart) == Direction2D.UP) {
-      y += MapSequence.<Edge,Integer>fromMap(myLenghts).get(from);
+    if (MapSequence.fromMap(myDirections).get(dart) == Direction2D.UP) {
+      y += MapSequence.fromMap(myLenghts).get(from);
     }
-    if (MapSequence.<Dart,Direction2D>fromMap(myDirections).get(dart) == Direction2D.DOWN) {
-      y -= MapSequence.<Edge,Integer>fromMap(myLenghts).get(from);
+    if (MapSequence.fromMap(myDirections).get(dart) == Direction2D.DOWN) {
+      y -= MapSequence.fromMap(myLenghts).get(from);
     }
-    MapSequence.<Node,Point>fromMap(myCoordinates).put(node, new Point(x, y));
+    MapSequence.fromMap(myCoordinates).put(node, new Point(x, y));
   }
 }

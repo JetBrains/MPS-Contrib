@@ -42,24 +42,24 @@ public class Dijkstra {
     init();
     while (mySet.size() > 0) {
       Node first = mySet.first();
-      if (MapSequence.<Node,Integer>fromMap(myDist).get(first) == ShortestPath.INF) {
+      if (MapSequence.fromMap(myDist).get(first) == ShortestPath.INF) {
         break;
       }
       mySet.remove(first);
-      for (Edge edge : ListSequence.<Edge>fromList(first.getEdges(direction)).where(new IWhereFilter<Edge>() {
+      for (Edge edge : ListSequence.fromList(first.getEdges(direction)).where(new IWhereFilter<Edge>() {
         public boolean accept(Edge it) {
           return filter.invoke(it);
         }
       })) {
-        if (MapSequence.<Edge,Integer>fromMap(myWeights).get(edge) < 0) {
+        if (MapSequence.fromMap(myWeights).get(edge) < 0) {
 
           throw new RuntimeException("dijkstra with negative weights");
         }
         Node opposite = edge.getOpposite(first);
-        if (MapSequence.<Node,Integer>fromMap(myDist).get(opposite) > MapSequence.<Node,Integer>fromMap(myDist).get(first) + MapSequence.<Edge,Integer>fromMap(myWeights).get(edge)) {
+        if (MapSequence.fromMap(myDist).get(opposite) > MapSequence.fromMap(myDist).get(first) + MapSequence.fromMap(myWeights).get(edge)) {
           mySet.remove(opposite);
-          MapSequence.<Node,Integer>fromMap(myDist).put(opposite, MapSequence.<Node,Integer>fromMap(myDist).get(first) + MapSequence.<Edge,Integer>fromMap(myWeights).get(edge));
-          MapSequence.<Node,Edge>fromMap(myPrev).put(opposite, edge);
+          MapSequence.fromMap(myDist).put(opposite, MapSequence.fromMap(myDist).get(first) + MapSequence.fromMap(myWeights).get(edge));
+          MapSequence.fromMap(myPrev).put(opposite, edge);
           mySet.add(opposite);
         }
       }
@@ -67,27 +67,27 @@ public class Dijkstra {
   }
 
   private void init() {
-    myDist = MapSequence.<Node,Integer>fromMap(new HashMap<Node, Integer>());
-    myPrev = MapSequence.<Node,Edge>fromMap(new HashMap<Node, Edge>());
+    myDist = MapSequence.fromMap(new HashMap<Node, Integer>());
+    myPrev = MapSequence.fromMap(new HashMap<Node, Edge>());
     mySet = new TreeSet<Node>(new Dijkstra.NodeComparator());
-    for (Node node : ListSequence.<Node>fromList(myGraph.getNodes())) {
-      MapSequence.<Node,Integer>fromMap(myDist).put(node, ShortestPath.INF);
+    for (Node node : ListSequence.fromList(myGraph.getNodes())) {
+      MapSequence.fromMap(myDist).put(node, ShortestPath.INF);
     }
-    MapSequence.<Node,Integer>fromMap(myDist).put(mySource, 0);
-    for (Node node : ListSequence.<Node>fromList(myGraph.getNodes())) {
+    MapSequence.fromMap(myDist).put(mySource, 0);
+    for (Node node : ListSequence.fromList(myGraph.getNodes())) {
       mySet.add(node);
     }
   }
 
   public List<Edge> getShortestPath(Node target) {
-    List<Edge> path = ListSequence.<Edge>fromList(new LinkedList<Edge>());
-    if (MapSequence.<Node,Integer>fromMap(myDist).get(target) == ShortestPath.INF) {
+    List<Edge> path = ListSequence.fromList(new LinkedList<Edge>());
+    if (MapSequence.fromMap(myDist).get(target) == ShortestPath.INF) {
       return null;
     }
     Node cur = target;
     while (cur != mySource) {
-      Edge prev = MapSequence.<Node,Edge>fromMap(myPrev).get(cur);
-      ListSequence.<Edge>fromList(path).insertElement(0, prev);
+      Edge prev = MapSequence.fromMap(myPrev).get(cur);
+      ListSequence.fromList(path).insertElement(0, prev);
       cur = prev.getOpposite(cur);
     }
     return path;
@@ -102,7 +102,7 @@ public class Dijkstra {
     }
 
     public int compare(Node first, Node second) {
-      int distCompare = MapSequence.<Node,Integer>fromMap(myDist).get(first).compareTo(MapSequence.<Node,Integer>fromMap(myDist).get(second));
+      int distCompare = MapSequence.fromMap(myDist).get(first).compareTo(MapSequence.fromMap(myDist).get(second));
       if (distCompare != 0) {
         return distCompare;
       } else {

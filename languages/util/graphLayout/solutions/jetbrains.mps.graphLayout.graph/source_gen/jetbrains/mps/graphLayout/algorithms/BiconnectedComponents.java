@@ -24,30 +24,30 @@ public class BiconnectedComponents extends Dfs {
     myNum = new NodeMap<Integer>(graph);
     init(graph, Edge.Direction.BOTH);
     myCurNum = 0;
-    dfs(ListSequence.<Node>fromList(graph.getNodes()).first(), null);
+    dfs(ListSequence.fromList(graph.getNodes()).first(), null);
   }
 
   public void doDfs(Graph graph, Node source, Edge stEdge) {
     myLow = new NodeMap<Node>(graph);
     myNum = new NodeMap<Integer>(graph);
     init(graph, Edge.Direction.BOTH);
-    MapSequence.<Node,Integer>fromMap(getDfsState()).put(source, DURING);
-    MapSequence.<Node,Node>fromMap(myLow).put(source, source);
-    MapSequence.<Node,Integer>fromMap(myNum).put(source, 0);
+    MapSequence.fromMap(getDfsState()).put(source, DURING);
+    MapSequence.fromMap(myLow).put(source, source);
+    MapSequence.fromMap(myNum).put(source, 0);
     myCurNum = 1;
     dfs(stEdge.getOpposite(source), stEdge);
   }
 
   @Override
   protected void preprocess(Node node, Edge from) {
-    MapSequence.<Node,Integer>fromMap(myNum).put(node, myCurNum++);
-    MapSequence.<Node,Node>fromMap(myLow).put(node, node);
+    MapSequence.fromMap(myNum).put(node, myCurNum++);
+    MapSequence.fromMap(myLow).put(node, node);
   }
 
   @Override
   protected void processEdge(Edge edge, Node source) {
     Node next = edge.getOpposite(source);
-    if (MapSequence.<Node,Integer>fromMap(getDfsState()).get(next) == DURING) {
+    if (MapSequence.fromMap(getDfsState()).get(next) == DURING) {
       changeLow(source, next);
     }
   }
@@ -56,14 +56,14 @@ public class BiconnectedComponents extends Dfs {
   protected void postprocess(Node node, Edge from) {
     if (from != null) {
       Node prev = from.getOpposite(node);
-      changeLow(prev, MapSequence.<Node,Node>fromMap(myLow).get(node));
+      changeLow(prev, MapSequence.fromMap(myLow).get(node));
     }
   }
 
   private void changeLow(Node node, Node newLow) {
-    Node oldLow = MapSequence.<Node,Node>fromMap(myLow).get(node);
-    if (MapSequence.<Node,Integer>fromMap(myNum).get(oldLow) > MapSequence.<Node,Integer>fromMap(myNum).get(newLow)) {
-      MapSequence.<Node,Node>fromMap(myLow).put(node, newLow);
+    Node oldLow = MapSequence.fromMap(myLow).get(node);
+    if (MapSequence.fromMap(myNum).get(oldLow) > MapSequence.fromMap(myNum).get(newLow)) {
+      MapSequence.fromMap(myLow).put(node, newLow);
     }
   }
 

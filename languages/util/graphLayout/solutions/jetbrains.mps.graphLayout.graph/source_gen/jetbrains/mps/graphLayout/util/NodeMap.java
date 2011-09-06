@@ -30,7 +30,7 @@ public class NodeMap<V> implements Map<Node, V> {
 
   public Set<Node> keySet() {
     /*
-      Set<Node> res = SetSequence.<Node>fromSet(new HashSet<Node>());
+      Set<Node> res = SetSequence.fromSet(new HashSet<Node>());
       for (int i = 0; i < myMap.size(); i++) {
         res.add(myGraph.getNode(i));
       }

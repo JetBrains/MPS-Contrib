@@ -272,7 +272,6 @@
     <classNode dependClassName="jetbrains.mps.internal.collections.runtime.MapSequence" />
   </dependency>
   <dependency className="jetbrains.mps.graphLayout.algorithms.TopologicalSorting" file="TopologicalSorting.java">
-    <classNode dependClassName="java.lang.Integer" />
     <classNode dependClassName="java.lang.Override" />
     <classNode dependClassName="java.util.List" />
     <classNode dependClassName="jetbrains.mps.graphLayout.graph.Edge" />

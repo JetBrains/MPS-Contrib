@@ -131,8 +131,8 @@ public class RectLayoutTestPanel extends JPanel {
   private void writeGraph(Graph graph) {
     List<Edge> edges = graph.getEdges();
     myTextArea.setText("");
-    myTextArea.append(graph.getNumNodes() + " " + ListSequence.<Edge>fromList(edges).count() + "  \n");
-    for (Edge edge : ListSequence.<Edge>fromList(graph.getEdges())) {
+    myTextArea.append(graph.getNumNodes() + " " + ListSequence.fromList(edges).count() + "  \n");
+    for (Edge edge : ListSequence.fromList(graph.getEdges())) {
       myTextArea.append(edge.getSource().getIndex() + " " + edge.getTarget().getIndex() + "  \n");
     }
     myTextArea.append("\n\n 0 \n 0 \n");
@@ -143,21 +143,21 @@ public class RectLayoutTestPanel extends JPanel {
       myLayouter.setLayoutLevel(myLayoutChoice.getSelectedLayoutLavel());
     */
     Scanner scanner = new Scanner(myTextArea.getText());
-    Map<Node, jetbrains.mps.graphLayout.intGeom2D.Dimension> nodeDimensions = MapSequence.<Node,jetbrains.mps.graphLayout.intGeom2D.Dimension>fromMap(new HashMap<Node, jetbrains.mps.graphLayout.intGeom2D.Dimension>());
-    Map<Edge, jetbrains.mps.graphLayout.intGeom2D.Dimension> edgeDimensions = MapSequence.<Edge,jetbrains.mps.graphLayout.intGeom2D.Dimension>fromMap(new HashMap<Edge, jetbrains.mps.graphLayout.intGeom2D.Dimension>());
+    Map<Node, jetbrains.mps.graphLayout.intGeom2D.Dimension> nodeDimensions = MapSequence.fromMap(new HashMap<Node, jetbrains.mps.graphLayout.intGeom2D.Dimension>());
+    Map<Edge, jetbrains.mps.graphLayout.intGeom2D.Dimension> edgeDimensions = MapSequence.fromMap(new HashMap<Edge, jetbrains.mps.graphLayout.intGeom2D.Dimension>());
     Graph graph = null;
     try {
       graph = GraphIO.scanGraph(scanner);
       int numNodeSizes = scanner.nextInt();
       for (int i = 0; i < numNodeSizes; i++) {
         Node node = graph.getNode(scanner.nextInt());
-        MapSequence.<Node,jetbrains.mps.graphLayout.intGeom2D.Dimension>fromMap(nodeDimensions).put(node, new jetbrains.mps.graphLayout.intGeom2D.Dimension(scanner.nextInt(), scanner.nextInt()));
+        MapSequence.fromMap(nodeDimensions).put(node, new jetbrains.mps.graphLayout.intGeom2D.Dimension(scanner.nextInt(), scanner.nextInt()));
       }
       int edgeLabelSizes = scanner.nextInt();
       for (int i = 0; i < edgeLabelSizes; i++) {
         Node source = graph.getNode(scanner.nextInt());
         final Node target = graph.getNode(scanner.nextInt());
-        Edge edge = ListSequence.<Edge>fromList(source.getOutEdges()).where(new IWhereFilter<Edge>() {
+        Edge edge = ListSequence.fromList(source.getOutEdges()).where(new IWhereFilter<Edge>() {
           public boolean accept(Edge it) {
             return it.getTarget() == target;
           }
@@ -165,30 +165,30 @@ public class RectLayoutTestPanel extends JPanel {
         if (edge == null) {
           throw new IllegalArgumentException("there is no edge " + source + " -> " + target);
         }
-        MapSequence.<Edge,jetbrains.mps.graphLayout.intGeom2D.Dimension>fromMap(edgeDimensions).put(edge, new jetbrains.mps.graphLayout.intGeom2D.Dimension(scanner.nextInt(), scanner.nextInt()));
+        MapSequence.fromMap(edgeDimensions).put(edge, new jetbrains.mps.graphLayout.intGeom2D.Dimension(scanner.nextInt(), scanner.nextInt()));
       }
     } catch (IllegalArgumentException e) {
       JOptionPane.showMessageDialog(this, "something is wrong in graph notation...\n" + e);
     }
     if (graph != null) {
-      for (Node node : ListSequence.<Node>fromList(graph.getNodes())) {
-        if (MapSequence.<Node,jetbrains.mps.graphLayout.intGeom2D.Dimension>fromMap(nodeDimensions).get(node) == null) {
-          MapSequence.<Node,jetbrains.mps.graphLayout.intGeom2D.Dimension>fromMap(nodeDimensions).put(node, new jetbrains.mps.graphLayout.intGeom2D.Dimension(RectLayoutTestPanel.DEFAULT_NODE_SIZE, RectLayoutTestPanel.DEFAULT_NODE_SIZE + 10));
+      for (Node node : ListSequence.fromList(graph.getNodes())) {
+        if (MapSequence.fromMap(nodeDimensions).get(node) == null) {
+          MapSequence.fromMap(nodeDimensions).put(node, new jetbrains.mps.graphLayout.intGeom2D.Dimension(RectLayoutTestPanel.DEFAULT_NODE_SIZE, RectLayoutTestPanel.DEFAULT_NODE_SIZE + 10));
         }
       }
       if (myLayoutChoice.isSetLabels()) {
-        for (Edge edge : ListSequence.<Edge>fromList(graph.getEdges())) {
+        for (Edge edge : ListSequence.fromList(graph.getEdges())) {
           if (!(MapSequence.fromMap(edgeDimensions).containsKey(edge))) {
-            MapSequence.<Edge,jetbrains.mps.graphLayout.intGeom2D.Dimension>fromMap(edgeDimensions).put(edge, new jetbrains.mps.graphLayout.intGeom2D.Dimension(RectLayoutTestPanel.DEFAULT_EDGE_X_SIZE, RectLayoutTestPanel.DEFAULT_EDGE_Y_SIZE));
+            MapSequence.fromMap(edgeDimensions).put(edge, new jetbrains.mps.graphLayout.intGeom2D.Dimension(RectLayoutTestPanel.DEFAULT_EDGE_X_SIZE, RectLayoutTestPanel.DEFAULT_EDGE_Y_SIZE));
           }
         }
       }
       LayoutInfo layoutInfo = new LayoutInfo(graph);
-      for (Node node : SetSequence.<Node>fromSet(MapSequence.fromMap(nodeDimensions).keySet())) {
-        layoutInfo.setNodeSize(node, MapSequence.<Node,jetbrains.mps.graphLayout.intGeom2D.Dimension>fromMap(nodeDimensions).get(node));
+      for (Node node : SetSequence.fromSet(MapSequence.fromMap(nodeDimensions).keySet())) {
+        layoutInfo.setNodeSize(node, MapSequence.fromMap(nodeDimensions).get(node));
       }
-      for (Edge edge : SetSequence.<Edge>fromSet(MapSequence.fromMap(edgeDimensions).keySet())) {
-        layoutInfo.setLabelSize(edge, MapSequence.<Edge,jetbrains.mps.graphLayout.intGeom2D.Dimension>fromMap(edgeDimensions).get(edge));
+      for (Edge edge : SetSequence.fromSet(MapSequence.fromMap(edgeDimensions).keySet())) {
+        layoutInfo.setLabelSize(edge, MapSequence.fromMap(edgeDimensions).get(edge));
       }
       myCurrentLayout = myLayouter.doLayout(graph, nodeDimensions, edgeDimensions);
       /*

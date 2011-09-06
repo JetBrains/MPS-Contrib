@@ -16,7 +16,6 @@ import jetbrains.mps.graphLayout.planarization.ShortestPathEmbeddingFinder;
 import jetbrains.mps.graphLayout.planarization.BiconnectedInitialEmbeddingFinder;
 import jetbrains.mps.graphLayout.graph.Node;
 import jetbrains.mps.internal.collections.runtime.ListSequence;
-import jetbrains.mps.graphLayout.planarGraph.Dart;
 import jetbrains.mps.graphLayout.planarization.TreeEmbeddingFinder;
 
 public class VisibilityRepresentation_Test extends TestCase {
@@ -33,8 +32,8 @@ public class VisibilityRepresentation_Test extends TestCase {
     String graphString = "9 15  \n0 1  \n0 5  \n0 3  \n0 7  \n1 2  \n2 4  \n2 3  \n3 6  \n3 7  \n3 8  \n4 5  \n4 6  \n5 8  \n6 8 \n 7 8";
     Graph graph = GraphIO.scanGraph(new Scanner(graphString));
     EmbeddedGraph embeddedGraph = new ShortestPathEmbeddingFinder(new BiconnectedInitialEmbeddingFinder()).find(graph);
-    Node s = ListSequence.<Dart>fromList(embeddedGraph.getOuterFace().getDarts()).getElement(0).getSource();
-    Node t = ListSequence.<Dart>fromList(embeddedGraph.getOuterFace().getDarts()).getElement(0).getTarget();
+    Node s = ListSequence.fromList(embeddedGraph.getOuterFace().getDarts()).getElement(0).getSource();
+    Node t = ListSequence.fromList(embeddedGraph.getOuterFace().getDarts()).getElement(0).getTarget();
     GraphOrientation.orientST(graph, s, t);
     STPlanarGraph stPlanarGraph = new STPlanarGraph(embeddedGraph, s, t);
     Map<Object, Rectangle> visibility = VisibilityRepresentation.getVisibilityRepresentation(stPlanarGraph);
@@ -44,8 +43,8 @@ public class VisibilityRepresentation_Test extends TestCase {
     String graphString = "5 10  0 1  0 2  0 3  0 4  1 2  1 3  1 4  2 3  2 4  3 4";
     Graph graph = GraphIO.scanGraph(new Scanner(graphString));
     EmbeddedGraph embeddedGraph = new TreeEmbeddingFinder().find(graph);
-    Node s = ListSequence.<Dart>fromList(embeddedGraph.getOuterFace().getDarts()).getElement(0).getSource();
-    Node t = ListSequence.<Dart>fromList(embeddedGraph.getOuterFace().getDarts()).getElement(0).getTarget();
+    Node s = ListSequence.fromList(embeddedGraph.getOuterFace().getDarts()).getElement(0).getSource();
+    Node t = ListSequence.fromList(embeddedGraph.getOuterFace().getDarts()).getElement(0).getTarget();
     GraphOrientation.orientST(graph, s, t);
     STPlanarGraph stPlanarGraph = new STPlanarGraph(embeddedGraph, s, t);
     Map<Object, Rectangle> visibility = VisibilityRepresentation.getVisibilityRepresentation(stPlanarGraph);

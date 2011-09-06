@@ -15,28 +15,28 @@ public class SubsequenceFinder {
   }
 
   public static List<Tuples._2<Integer, Integer>> getCyclicSubsequence(List<Object> sample, List<Object> cyclic) {
-    List<Object> copy = ListSequence.<Object>fromList(new LinkedList<Object>());
-    ListSequence.<Object>fromList(copy).addSequence(ListSequence.<Object>fromList(cyclic));
-    int size = ListSequence.<Object>fromList(copy).count();
-    Object[] s = ListSequence.<Object>fromList(sample).toGenericArray(Object.class);
+    List<Object> copy = ListSequence.fromList(new LinkedList<Object>());
+    ListSequence.fromList(copy).addSequence(ListSequence.fromList(cyclic));
+    int size = ListSequence.fromList(copy).count();
+    Object[] s = ListSequence.fromList(sample).toGenericArray(Object.class);
     List<Tuples._2<Integer, Integer>> pos = null;
     int max = -1;
     for (int i = 0; i < size; i++) {
-      Object[] p = ListSequence.<Object>fromList(copy).toGenericArray(Object.class);
+      Object[] p = ListSequence.fromList(copy).toGenericArray(Object.class);
       List<Tuples._2<Integer, Integer>> pairs = getSubsequence(s, p);
-      if (max < ListSequence.<Tuples._2<Integer, Integer>>fromList(pairs).count()) {
-        max = ListSequence.<Tuples._2<Integer, Integer>>fromList(pairs).count();
-        List<Tuples._2<Integer, Integer>> realPos = ListSequence.<Tuples._2<Integer, Integer>>fromList(new LinkedList<Tuples._2<Integer, Integer>>());
-        for (Tuples._2<Integer, Integer> pair : ListSequence.<Tuples._2<Integer, Integer>>fromList(pairs)) {
+      if (max < ListSequence.fromList(pairs).count()) {
+        max = ListSequence.fromList(pairs).count();
+        List<Tuples._2<Integer, Integer>> realPos = ListSequence.fromList(new LinkedList<Tuples._2<Integer, Integer>>());
+        for (Tuples._2<Integer, Integer> pair : ListSequence.fromList(pairs)) {
           int real = (int) pair._1() + i;
           if (real >= size) {
             real -= size;
           }
-          ListSequence.<Tuples._2<Integer, Integer>>fromList(realPos).addElement(MultiTuple.<Integer,Integer>from((int) pair._0(), real));
+          ListSequence.fromList(realPos).addElement(MultiTuple.<Integer,Integer>from((int) pair._0(), real));
         }
         pos = realPos;
       }
-      ListSequence.<Object>fromList(copy).addElement(ListSequence.<Object>fromList(copy).removeElementAt(0));
+      ListSequence.fromList(copy).addElement(ListSequence.fromList(copy).removeElementAt(0));
     }
     return pos;
   }
@@ -71,7 +71,7 @@ public class SubsequenceFinder {
         max = curMax;
       }
     }
-    List<Tuples._2<Integer, Integer>> pos = ListSequence.<Tuples._2<Integer, Integer>>fromList(new LinkedList<Tuples._2<Integer, Integer>>());
+    List<Tuples._2<Integer, Integer>> pos = ListSequence.fromList(new LinkedList<Tuples._2<Integer, Integer>>());
     int curP = pMax;
     int curS = s.length;
     while (max != 0) {
@@ -79,7 +79,7 @@ public class SubsequenceFinder {
         curS--;
       } else {
         if (s[curS - 1] == p[curP - 1]) {
-          ListSequence.<Tuples._2<Integer, Integer>>fromList(pos).insertElement(0, MultiTuple.<Integer,Integer>from(curS - 1, curP - 1));
+          ListSequence.fromList(pos).insertElement(0, MultiTuple.<Integer,Integer>from(curS - 1, curP - 1));
           max--;
         } else {
           curP--;

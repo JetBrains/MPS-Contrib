@@ -14,16 +14,16 @@ import jetbrains.mps.graphLayout.intGeom2D.Point;
 public class GraphPointLayoutChecker {
   public static void checkLayout(GraphPointLayout layout) {
     Graph graph = layout.getGraph();
-    for (Node node : ListSequence.<Node>fromList(graph.getNodes())) {
+    for (Node node : ListSequence.fromList(graph.getNodes())) {
       Assert.assertFalse(layout.getLayoutFor(node) == null);
     }
-    for (Edge edge : ListSequence.<Edge>fromList(graph.getEdges())) {
+    for (Edge edge : ListSequence.fromList(graph.getEdges())) {
       List<Point> edgeLayout = layout.getLayoutFor(edge);
       Assert.assertFalse(edgeLayout == null);
       Point sourceLayout = layout.getLayoutFor(edge.getSource());
-      Assert.assertTrue(ListSequence.<Point>fromList(edgeLayout).first().equals(sourceLayout));
+      Assert.assertTrue(ListSequence.fromList(edgeLayout).first().equals(sourceLayout));
       Point targetLayout = layout.getLayoutFor(edge.getTarget());
-      Assert.assertTrue(ListSequence.<Point>fromList(edgeLayout).last().equals(targetLayout));
+      Assert.assertTrue(ListSequence.fromList(edgeLayout).last().equals(targetLayout));
     }
   }
 }

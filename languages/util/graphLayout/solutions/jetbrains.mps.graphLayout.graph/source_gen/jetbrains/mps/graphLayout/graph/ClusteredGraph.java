@@ -20,17 +20,17 @@ public class ClusteredGraph extends Graph implements IClusteredGraph {
   public ClusteredGraph() {
     super();
     myInclusionTree = new Tree();
-    myLeafClusters = MapSequence.<Node,Node>fromMap(new HashMap<Node, Node>());
+    myLeafClusters = MapSequence.fromMap(new HashMap<Node, Node>());
   }
 
   public Set<Node> getNodesInCluster(INode cluster) {
-    Set<Node> nodes = SetSequence.<Node>fromSet(new LinkedHashSet<Node>());
+    Set<Node> nodes = SetSequence.fromSet(new LinkedHashSet<Node>());
     getNodesInCluster(((Node) cluster), nodes);
     return nodes;
   }
 
   public List<Node> getSubclusters(final Node cluster) {
-    return ListSequence.<Edge>fromList(cluster.getOutEdges()).<Node>select(new ISelector<Edge, Node>() {
+    return ListSequence.fromList(cluster.getOutEdges()).<Node>select(new ISelector<Edge, Node>() {
       public Node select(Edge edge) {
         return edge.getOpposite(cluster);
       }
@@ -38,19 +38,19 @@ public class ClusteredGraph extends Graph implements IClusteredGraph {
   }
 
   public void setNodeInCluster(Node cluster, Node node) {
-    MapSequence.<Node,Node>fromMap(myLeafClusters).put(cluster, node);
+    MapSequence.fromMap(myLeafClusters).put(cluster, node);
   }
 
   private void getNodesInCluster(Node cluster, Set<Node> nodes) {
-    List<Node> subclusters = ListSequence.<Edge>fromList(cluster.getOutEdges()).<Node>select(new ISelector<Edge, Node>() {
+    List<Node> subclusters = ListSequence.fromList(cluster.getOutEdges()).<Node>select(new ISelector<Edge, Node>() {
       public Node select(Edge it) {
         return it.getTarget();
       }
     }).toListSequence();
-    for (Node subcluster : ListSequence.<Node>fromList(subclusters)) {
+    for (Node subcluster : ListSequence.fromList(subclusters)) {
       getNodesInCluster(subcluster, nodes);
     }
-    Node node = MapSequence.<Node,Node>fromMap(myLeafClusters).get(cluster);
+    Node node = MapSequence.fromMap(myLeafClusters).get(cluster);
     if (node != null) {
       SetSequence.fromSet(nodes).addElement(node);
     }
@@ -87,6 +87,6 @@ public class ClusteredGraph extends Graph implements IClusteredGraph {
   }
 
   public boolean isLeafCluster(Node cluster) {
-    return ListSequence.<Edge>fromList(cluster.getOutEdges()).count() == 0;
+    return ListSequence.fromList(cluster.getOutEdges()).count() == 0;
   }
 }

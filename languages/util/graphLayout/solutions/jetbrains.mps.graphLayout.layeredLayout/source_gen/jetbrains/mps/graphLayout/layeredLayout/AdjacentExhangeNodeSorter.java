@@ -16,9 +16,9 @@ public class AdjacentExhangeNodeSorter implements IOneLayerSorter {
   public void sortLayer(int layerToSort, NodeLayeredOrder order, Edge.Direction direction) {
     List<Node> layerOrder = order.getOrder(layerToSort);
     Map<Node, Integer> posInLayer = order.getPosInLayer();
-    for (int i = 0; i < ListSequence.<Node>fromList(layerOrder).count() - 1; i++) {
-      Node first = ListSequence.<Node>fromList(layerOrder).getElement(i);
-      Node second = ListSequence.<Node>fromList(layerOrder).getElement(i + 1);
+    for (int i = 0; i < ListSequence.fromList(layerOrder).count() - 1; i++) {
+      Node first = ListSequence.fromList(layerOrder).getElement(i);
+      Node second = ListSequence.fromList(layerOrder).getElement(i + 1);
       int cur = countNumOfCrossings(first, second, posInLayer, direction);
       int candidate = countNumOfCrossings(second, first, posInLayer, direction);
       if (cur > candidate) {
@@ -30,9 +30,9 @@ public class AdjacentExhangeNodeSorter implements IOneLayerSorter {
 
   private int countNumOfCrossings(Node first, Node second, Map<Node, Integer> posInLayer, Edge.Direction dir) {
     int numOfCrossings = 0;
-    for (Edge firstEdge : ListSequence.<Edge>fromList(first.getEdges(dir))) {
-      for (Edge secondEdge : ListSequence.<Edge>fromList(second.getEdges(dir))) {
-        if (MapSequence.<Node,Integer>fromMap(posInLayer).get(firstEdge.getTarget(dir)) > MapSequence.<Node,Integer>fromMap(posInLayer).get(secondEdge.getTarget(dir))) {
+    for (Edge firstEdge : ListSequence.fromList(first.getEdges(dir))) {
+      for (Edge secondEdge : ListSequence.fromList(second.getEdges(dir))) {
+        if (MapSequence.fromMap(posInLayer).get(firstEdge.getTarget(dir)) > MapSequence.fromMap(posInLayer).get(secondEdge.getTarget(dir))) {
           numOfCrossings++;
         }
       }

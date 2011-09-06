@@ -28,7 +28,7 @@ public class HyperGraphLayouter_Test extends TestCase {
 
   public void test(HyperGraph graph) {
     LayoutInfo layoutInfo = new LayoutInfo(graph);
-    for (Node node : ListSequence.<Node>fromList(graph.getNodes())) {
+    for (Node node : ListSequence.fromList(graph.getNodes())) {
       if (graph.isNode(node)) {
         layoutInfo.setNodeSize(node, new Dimension(30, 30));
       }

@@ -22,20 +22,20 @@ public class BiconnectedComponent {
   private Map<BiconnectedComponent, Node> myCutpoints;
 
   private BiconnectedComponent() {
-    myNodes = SetSequence.<Node>fromSet(new LinkedHashSet<Node>());
-    myChildren = ListSequence.<BiconnectedComponent>fromList(new ArrayList<BiconnectedComponent>());
-    myBridges = MapSequence.<BiconnectedComponent,Edge>fromMap(new HashMap<BiconnectedComponent, Edge>());
-    myCutpoints = MapSequence.<BiconnectedComponent,Node>fromMap(new HashMap<BiconnectedComponent, Node>());
+    myNodes = SetSequence.fromSet(new LinkedHashSet<Node>());
+    myChildren = ListSequence.fromList(new ArrayList<BiconnectedComponent>());
+    myBridges = MapSequence.fromMap(new HashMap<BiconnectedComponent, Edge>());
+    myCutpoints = MapSequence.fromMap(new HashMap<BiconnectedComponent, Node>());
   }
 
   public void addComponent(BiconnectedComponent component, Node node) {
-    ListSequence.<BiconnectedComponent>fromList(myChildren).addElement(component);
-    MapSequence.<BiconnectedComponent,Node>fromMap(myCutpoints).put(component, node);
+    ListSequence.fromList(myChildren).addElement(component);
+    MapSequence.fromMap(myCutpoints).put(component, node);
   }
 
   public void addComponent(BiconnectedComponent component, Edge edge) {
-    ListSequence.<BiconnectedComponent>fromList(myChildren).addElement(component);
-    MapSequence.<BiconnectedComponent,Edge>fromMap(myBridges).put(component, edge);
+    ListSequence.fromList(myChildren).addElement(component);
+    MapSequence.fromMap(myBridges).put(component, edge);
   }
 
   public void addNode(Node node) {
@@ -52,42 +52,42 @@ public class BiconnectedComponent {
 
   public Object getConnection(BiconnectedComponent child) {
     if (MapSequence.fromMap(myBridges).containsKey(child)) {
-      return MapSequence.<BiconnectedComponent,Edge>fromMap(myBridges).get(child);
+      return MapSequence.fromMap(myBridges).get(child);
     } else {
-      return MapSequence.<BiconnectedComponent,Node>fromMap(myCutpoints).get(child);
+      return MapSequence.fromMap(myCutpoints).get(child);
     }
   }
 
   public Node getChildCutpoint(BiconnectedComponent child) {
     if (MapSequence.fromMap(myBridges).containsKey(child)) {
-      Edge bridge = MapSequence.<BiconnectedComponent,Edge>fromMap(myBridges).get(child);
+      Edge bridge = MapSequence.fromMap(myBridges).get(child);
       Node cutpoint = bridge.getSource();
-      if (SetSequence.<Node>fromSet(getNodes()).contains(cutpoint)) {
+      if (SetSequence.fromSet(getNodes()).contains(cutpoint)) {
         cutpoint = bridge.getTarget();
       }
       return cutpoint;
     } else {
-      return MapSequence.<BiconnectedComponent,Node>fromMap(myCutpoints).get(child);
+      return MapSequence.fromMap(myCutpoints).get(child);
     }
   }
 
   public Node getCutpoint(BiconnectedComponent child) {
     if (MapSequence.fromMap(myBridges).containsKey(child)) {
-      Edge bridge = MapSequence.<BiconnectedComponent,Edge>fromMap(myBridges).get(child);
+      Edge bridge = MapSequence.fromMap(myBridges).get(child);
       Node cutpoint = bridge.getSource();
-      if (!(SetSequence.<Node>fromSet(getNodes()).contains(cutpoint))) {
+      if (!(SetSequence.fromSet(getNodes()).contains(cutpoint))) {
         cutpoint = bridge.getTarget();
       }
       return cutpoint;
     } else {
-      return MapSequence.<BiconnectedComponent,Node>fromMap(myCutpoints).get(child);
+      return MapSequence.fromMap(myCutpoints).get(child);
     }
   }
 
   public String toString(String prefix) {
     StringBuilder builder = new StringBuilder();
-    builder.append(prefix + " C: " + getNodes() + " has " + ListSequence.<BiconnectedComponent>fromList(getChildren()).count() + " children" + "\n");
-    for (BiconnectedComponent child : ListSequence.<BiconnectedComponent>fromList(getChildren())) {
+    builder.append(prefix + " C: " + getNodes() + " has " + ListSequence.fromList(getChildren()).count() + " children" + "\n");
+    for (BiconnectedComponent child : ListSequence.fromList(getChildren())) {
       builder.append(prefix + " from " + getConnection(child) + ":\n");
       builder.append(child.toString(prefix + "  "));
     }
@@ -99,8 +99,8 @@ public class BiconnectedComponent {
     BiconnectedComponents components = new BiconnectedComponents();
     components.doDfs(graph);
     new BiconnectedComponent.TreeMaker(components.getLow(), components.getNum()).doDfs(graph, tree);
-    BiconnectedComponent treeCandidate = ListSequence.<BiconnectedComponent>fromList(tree.getChildren()).first();
-    if (ListSequence.<BiconnectedComponent>fromList(tree.getChildren()).count() == 1 && tree.getConnection(treeCandidate) instanceof Node) {
+    BiconnectedComponent treeCandidate = ListSequence.fromList(tree.getChildren()).first();
+    if (ListSequence.fromList(tree.getChildren()).count() == 1 && tree.getConnection(treeCandidate) instanceof Node) {
       tree = treeCandidate;
     }
     return tree;
@@ -117,16 +117,16 @@ public class BiconnectedComponent {
 
     public void doDfs(Graph graph, BiconnectedComponent component) {
       init(graph, Edge.Direction.BOTH);
-      dfs(ListSequence.<Node>fromList(graph.getNodes()).first(), null, component);
+      dfs(ListSequence.fromList(graph.getNodes()).first(), null, component);
     }
 
     private void dfs(Node node, Edge from, BiconnectedComponent component) {
-      MapSequence.<Node,Integer>fromMap(myDfsState).put(node, DURING);
+      MapSequence.fromMap(myDfsState).put(node, DURING);
       BiconnectedComponent nextComponent = component;
       if (from != null) {
-        int lowNum = MapSequence.<Node,Integer>fromMap(myNum).get(MapSequence.<Node,Node>fromMap(myLow).get(node));
+        int lowNum = MapSequence.fromMap(myNum).get(MapSequence.fromMap(myLow).get(node));
         Node source = from.getOpposite(node);
-        int sourceNum = MapSequence.<Node,Integer>fromMap(myNum).get(source);
+        int sourceNum = MapSequence.fromMap(myNum).get(source);
         if (lowNum < sourceNum) {
           component.addNode(node);
         } else if (lowNum == sourceNum) {
@@ -142,9 +142,9 @@ public class BiconnectedComponent {
       } else {
         component.addNode(node);
       }
-      for (Edge edge : ListSequence.<Edge>fromList(node.getEdges())) {
+      for (Edge edge : ListSequence.fromList(node.getEdges())) {
         Node next = edge.getOpposite(node);
-        if (MapSequence.<Node,Integer>fromMap(myDfsState).get(next) == BEFORE) {
+        if (MapSequence.fromMap(myDfsState).get(next) == BEFORE) {
           dfs(next, edge, nextComponent);
         }
       }

@@ -24,8 +24,8 @@ public class ClusterGraphCopier extends GraphCopier {
   public ClusterGraphCopier(ClusteredGraph graph) {
     super(graph);
     myClusteredGraph = graph;
-    myClusterMap = MapSequence.<Node,Node>fromMap(new HashMap<Node, Node>());
-    myGoodClusters = SetSequence.<Node>fromSet(new HashSet<Node>());
+    myClusterMap = MapSequence.fromMap(new HashMap<Node, Node>());
+    myGoodClusters = SetSequence.fromSet(new HashSet<Node>());
   }
 
   @Override
@@ -33,9 +33,9 @@ public class ClusterGraphCopier extends GraphCopier {
     super.copySubgraph(nodeFilter);
     Tree tree = myClusteredGraph.getInclusionTree();
     List<Node> clusters = tree.getNodes();
-    for (Node leafCluster : ListSequence.<Node>fromList(clusters).where(new IWhereFilter<Node>() {
+    for (Node leafCluster : ListSequence.fromList(clusters).where(new IWhereFilter<Node>() {
       public boolean accept(Node it) {
-        return ListSequence.<Edge>fromList(it.getOutEdges()).count() == 0;
+        return ListSequence.fromList(it.getOutEdges()).count() == 0;
       }
     })) {
       Node node = this.getLeafNode(leafCluster);
@@ -51,12 +51,12 @@ public class ClusterGraphCopier extends GraphCopier {
   }
 
   private Node getLeafNode(Node leafCluster) {
-    return SetSequence.<Node>fromSet(myClusteredGraph.getNodesInCluster(leafCluster)).first();
+    return SetSequence.fromSet(myClusteredGraph.getNodesInCluster(leafCluster)).first();
   }
 
   private void findGoodClusters(Node cluster) {
     Node curCluster = cluster;
-    while (curCluster != myClusteredGraph.getRoot() && !(SetSequence.<Node>fromSet(myGoodClusters).contains(curCluster))) {
+    while (curCluster != myClusteredGraph.getRoot() && !(SetSequence.fromSet(myGoodClusters).contains(curCluster))) {
       SetSequence.fromSet(myGoodClusters).addElement(curCluster);
       curCluster = myClusteredGraph.getInclusionTree().getParent(curCluster);
     }
@@ -64,14 +64,14 @@ public class ClusterGraphCopier extends GraphCopier {
   }
 
   private void copyCluster(Node cluster, Node copy) {
-    MapSequence.<Node,Node>fromMap(myClusterMap).put(cluster, copy);
+    MapSequence.fromMap(myClusterMap).put(cluster, copy);
     List<Node> children = myClusteredGraph.getInclusionTree().getChildren(cluster);
-    if (ListSequence.<Node>fromList(children).count() == 0) {
+    if (ListSequence.fromList(children).count() == 0) {
       getCopy().setNodeInCluster(copy, getNodeCopy(this.getLeafNode(cluster)));
     } else {
-      for (Node child : ListSequence.<Node>fromList(children).where(new IWhereFilter<Node>() {
+      for (Node child : ListSequence.fromList(children).where(new IWhereFilter<Node>() {
         public boolean accept(Node it) {
-          return SetSequence.<Node>fromSet(myGoodClusters).contains(it);
+          return SetSequence.fromSet(myGoodClusters).contains(it);
         }
       })) {
         Tree tree = getCopy().getInclusionTree();
@@ -87,7 +87,7 @@ public class ClusterGraphCopier extends GraphCopier {
     ClusteredGraphLayout graphLayout = ((ClusteredGraphLayout) super.restoreLayout(copyLayout));
     if (copyLayout instanceof ClusteredGraphLayout) {
       ClusteredGraphLayout clusteredCopyLayout = ((ClusteredGraphLayout) copyLayout);
-      for (Node cluster : ListSequence.<Node>fromList(myClusteredGraph.getClusters())) {
+      for (Node cluster : ListSequence.fromList(myClusteredGraph.getClusters())) {
         List<Point> route = clusteredCopyLayout.getClusterLayout(getCluserCopy(cluster));
         if (route != null) {
           graphLayout.setClusterLayout(cluster, route);
@@ -98,7 +98,7 @@ public class ClusterGraphCopier extends GraphCopier {
   }
 
   public Node getCluserCopy(Node cluster) {
-    return MapSequence.<Node,Node>fromMap(myClusterMap).get(cluster);
+    return MapSequence.fromMap(myClusterMap).get(cluster);
   }
 
   public Set<Node> getCopiedClusters() {

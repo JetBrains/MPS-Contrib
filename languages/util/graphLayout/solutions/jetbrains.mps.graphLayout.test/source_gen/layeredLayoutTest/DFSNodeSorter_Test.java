@@ -19,35 +19,35 @@ public class DFSNodeSorter_Test extends TestCase {
   public void test_Chain() throws Exception {
     Graph chain = SimpleDirectedGraphs.chain(3);
     Map<Node, Integer> layers = new NodeMap<Integer>(chain);
-    MapSequence.<Node,Integer>fromMap(layers).put(chain.getNode(0), 0);
-    MapSequence.<Node,Integer>fromMap(layers).put(chain.getNode(1), 1);
-    MapSequence.<Node,Integer>fromMap(layers).put(chain.getNode(2), 2);
+    MapSequence.fromMap(layers).put(chain.getNode(0), 0);
+    MapSequence.fromMap(layers).put(chain.getNode(1), 1);
+    MapSequence.fromMap(layers).put(chain.getNode(2), 2);
     NodeLayeredOrder order = new DFSNodeSorter().sortNodes(chain, layers);
-    Assert.assertTrue(ListSequence.<Node>fromList(order.getOrder(0)).count() == 1);
-    Assert.assertTrue(ListSequence.<Node>fromList(order.getOrder(1)).count() == 1);
-    Assert.assertTrue(ListSequence.<Node>fromList(order.getOrder(2)).count() == 1);
-    Assert.assertTrue(ListSequence.<Node>fromList(order.getOrder(0)).getElement(0) == chain.getNode(0));
-    Assert.assertTrue(ListSequence.<Node>fromList(order.getOrder(1)).getElement(0) == chain.getNode(1));
-    Assert.assertTrue(ListSequence.<Node>fromList(order.getOrder(2)).getElement(0) == chain.getNode(2));
+    Assert.assertTrue(ListSequence.fromList(order.getOrder(0)).count() == 1);
+    Assert.assertTrue(ListSequence.fromList(order.getOrder(1)).count() == 1);
+    Assert.assertTrue(ListSequence.fromList(order.getOrder(2)).count() == 1);
+    Assert.assertTrue(ListSequence.fromList(order.getOrder(0)).getElement(0) == chain.getNode(0));
+    Assert.assertTrue(ListSequence.fromList(order.getOrder(1)).getElement(0) == chain.getNode(1));
+    Assert.assertTrue(ListSequence.fromList(order.getOrder(2)).getElement(0) == chain.getNode(2));
   }
 
   public void test_simpleFourLeyers() throws Exception {
     Graph simpleGraph = GraphsForLayers.simpleFourLayersGraph();
     Map<Node, Integer> layers = new NodeMap<Integer>(simpleGraph);
-    MapSequence.<Node,Integer>fromMap(layers).put(simpleGraph.getNode(0), 0);
-    MapSequence.<Node,Integer>fromMap(layers).put(simpleGraph.getNode(1), 1);
-    MapSequence.<Node,Integer>fromMap(layers).put(simpleGraph.getNode(2), 2);
-    MapSequence.<Node,Integer>fromMap(layers).put(simpleGraph.getNode(3), 3);
-    MapSequence.<Node,Integer>fromMap(layers).put(simpleGraph.getNode(4), 1);
+    MapSequence.fromMap(layers).put(simpleGraph.getNode(0), 0);
+    MapSequence.fromMap(layers).put(simpleGraph.getNode(1), 1);
+    MapSequence.fromMap(layers).put(simpleGraph.getNode(2), 2);
+    MapSequence.fromMap(layers).put(simpleGraph.getNode(3), 3);
+    MapSequence.fromMap(layers).put(simpleGraph.getNode(4), 1);
     NodeLayeredOrder order = new DFSNodeSorter().sortNodes(simpleGraph, layers);
-    Assert.assertTrue(ListSequence.<Node>fromList(order.getOrder(0)).count() == 1);
-    Assert.assertTrue(ListSequence.<Node>fromList(order.getOrder(1)).count() == 2);
-    Assert.assertTrue(ListSequence.<Node>fromList(order.getOrder(2)).count() == 1);
-    Assert.assertTrue(ListSequence.<Node>fromList(order.getOrder(3)).count() == 1);
-    Assert.assertTrue(ListSequence.<Node>fromList(order.getOrder(0)).getElement(0) == simpleGraph.getNode(0));
-    Assert.assertTrue(ListSequence.<Node>fromList(order.getOrder(1)).getElement(0) == simpleGraph.getNode(1));
-    Assert.assertTrue(ListSequence.<Node>fromList(order.getOrder(1)).getElement(1) == simpleGraph.getNode(4));
-    Assert.assertTrue(ListSequence.<Node>fromList(order.getOrder(2)).getElement(0) == simpleGraph.getNode(2));
-    Assert.assertTrue(ListSequence.<Node>fromList(order.getOrder(3)).getElement(0) == simpleGraph.getNode(3));
+    Assert.assertTrue(ListSequence.fromList(order.getOrder(0)).count() == 1);
+    Assert.assertTrue(ListSequence.fromList(order.getOrder(1)).count() == 2);
+    Assert.assertTrue(ListSequence.fromList(order.getOrder(2)).count() == 1);
+    Assert.assertTrue(ListSequence.fromList(order.getOrder(3)).count() == 1);
+    Assert.assertTrue(ListSequence.fromList(order.getOrder(0)).getElement(0) == simpleGraph.getNode(0));
+    Assert.assertTrue(ListSequence.fromList(order.getOrder(1)).getElement(0) == simpleGraph.getNode(1));
+    Assert.assertTrue(ListSequence.fromList(order.getOrder(1)).getElement(1) == simpleGraph.getNode(4));
+    Assert.assertTrue(ListSequence.fromList(order.getOrder(2)).getElement(0) == simpleGraph.getNode(2));
+    Assert.assertTrue(ListSequence.fromList(order.getOrder(3)).getElement(0) == simpleGraph.getNode(3));
   }
 }

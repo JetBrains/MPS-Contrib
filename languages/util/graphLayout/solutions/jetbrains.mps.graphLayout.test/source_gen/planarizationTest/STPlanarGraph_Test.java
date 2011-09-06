@@ -87,16 +87,16 @@ public class STPlanarGraph_Test extends TestCase {
     Graph graph = GraphIO.scanGraph(new Scanner(graphString));
     /*
       EmbeddedGraph embeddedGraph = new TreeEmbeddingFinder().find(graph);
-      Node s = ListSequence.<Dart>fromList(embeddedGraph.getOuterFace().getDarts()).getElement(0).getSource();
-      Node t = ListSequence.<Dart>fromList(embeddedGraph.getOuterFace().getDarts()).getElement(0).getTarget();
+      Node s = ListSequence.fromList(embeddedGraph.getOuterFace().getDarts()).getElement(0).getSource();
+      Node t = ListSequence.fromList(embeddedGraph.getOuterFace().getDarts()).getElement(0).getTarget();
     */
     EmbeddedGraph embeddedGraph = new ShortestPathEmbeddingFinder(new BiconnectedInitialEmbeddingFinder()).find(graph);
-    List<Node> outerNodes = ListSequence.<Node>fromList(new ArrayList<Node>());
-    for (Dart dart : ListSequence.<Dart>fromList(embeddedGraph.getOuterFace().getDarts())) {
-      ListSequence.<Node>fromList(outerNodes).addElement(dart.getTarget());
+    List<Node> outerNodes = ListSequence.fromList(new ArrayList<Node>());
+    for (Dart dart : ListSequence.fromList(embeddedGraph.getOuterFace().getDarts())) {
+      ListSequence.fromList(outerNodes).addElement(dart.getTarget());
     }
-    Node s = ListSequence.<Node>fromList(outerNodes).getElement(0);
-    Node t = ListSequence.<Node>fromList(outerNodes).getElement((ListSequence.<Node>fromList(outerNodes).count()) / 2);
+    Node s = ListSequence.fromList(outerNodes).getElement(0);
+    Node t = ListSequence.fromList(outerNodes).getElement((ListSequence.fromList(outerNodes).count()) / 2);
     GraphOrientation.orientST(graph, s, t);
     STPlanarGraph stPlanarGraph = new STPlanarGraph(embeddedGraph, s, t);
     DualGraph dualGraph = stPlanarGraph.getModifiedDualGraph();
@@ -107,12 +107,12 @@ public class STPlanarGraph_Test extends TestCase {
     String graphString = "9 15  \n0 1  \n0 5  \n0 3  \n0 7  \n1 2  \n2 4  \n2 3  \n3 6  \n3 7  \n3 8  \n4 5  \n4 6  \n5 8  \n6 8 \n 7 8";
     Graph graph = GraphIO.scanGraph(new Scanner(graphString));
     EmbeddedGraph embeddedGraph = new ShortestPathEmbeddingFinder(new BiconnectedInitialEmbeddingFinder()).find(graph);
-    List<Node> outerNodes = ListSequence.<Node>fromList(new ArrayList<Node>());
-    for (Dart dart : ListSequence.<Dart>fromList(embeddedGraph.getOuterFace().getDarts())) {
-      ListSequence.<Node>fromList(outerNodes).addElement(dart.getTarget());
+    List<Node> outerNodes = ListSequence.fromList(new ArrayList<Node>());
+    for (Dart dart : ListSequence.fromList(embeddedGraph.getOuterFace().getDarts())) {
+      ListSequence.fromList(outerNodes).addElement(dart.getTarget());
     }
-    Node s = ListSequence.<Node>fromList(outerNodes).getElement(0);
-    Node t = ListSequence.<Node>fromList(outerNodes).getElement((ListSequence.<Node>fromList(outerNodes).count()) / 2);
+    Node s = ListSequence.fromList(outerNodes).getElement(0);
+    Node t = ListSequence.fromList(outerNodes).getElement((ListSequence.fromList(outerNodes).count()) / 2);
     STPlanarGraph stPlanarGraph = new STPlanarGraph(embeddedGraph, s, t);
     DualGraph dualGraph = stPlanarGraph.getModifiedDualGraph();
   }

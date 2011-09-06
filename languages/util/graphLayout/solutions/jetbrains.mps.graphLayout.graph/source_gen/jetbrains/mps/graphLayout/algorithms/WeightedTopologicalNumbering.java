@@ -18,13 +18,13 @@ public class WeightedTopologicalNumbering {
       throw new IllegalArgumentException("input graph has cycles");
     }
     Map<Node, Integer> numbering = new NodeMap<Integer>(graph);
-    for (Node node : ListSequence.<Node>fromList(graph.getNodes())) {
-      MapSequence.<Node,Integer>fromMap(numbering).put(node, 0);
+    for (Node node : ListSequence.fromList(graph.getNodes())) {
+      MapSequence.fromMap(numbering).put(node, 0);
     }
-    for (Node node : ListSequence.<Node>fromList(sorting)) {
-      for (Edge edge : ListSequence.<Edge>fromList(node.getOutEdges())) {
+    for (Node node : ListSequence.fromList(sorting)) {
+      for (Edge edge : ListSequence.fromList(node.getOutEdges())) {
         Node target = edge.getTarget();
-        MapSequence.<Node,Integer>fromMap(numbering).put(target, Math.max(MapSequence.<Node,Integer>fromMap(numbering).get(target), MapSequence.<Node,Integer>fromMap(numbering).get(node) + MapSequence.<Edge,Integer>fromMap(weights).get(edge)));
+        MapSequence.fromMap(numbering).put(target, Math.max(MapSequence.fromMap(numbering).get(target), MapSequence.fromMap(numbering).get(node) + MapSequence.fromMap(weights).get(edge)));
       }
     }
     return numbering;

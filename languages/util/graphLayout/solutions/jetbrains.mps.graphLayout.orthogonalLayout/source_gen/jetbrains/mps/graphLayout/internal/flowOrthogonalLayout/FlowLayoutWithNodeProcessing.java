@@ -33,16 +33,16 @@ public class FlowLayoutWithNodeProcessing implements IPointLayouter {
 
   public void getLayout(EmbeddedGraph embeddedGraph) {
     Graph graph = embeddedGraph.getGraph();
-    List<Edge> initialEdges = ListSequence.<Edge>fromList(new ArrayList<Edge>());
-    List<Node> initialNodes = ListSequence.<Node>fromList(new ArrayList<Node>());
-    ListSequence.<Edge>fromList(initialEdges).addSequence(ListSequence.<Edge>fromList(graph.getEdges()));
-    ListSequence.<Node>fromList(initialNodes).addSequence(ListSequence.<Node>fromList(graph.getNodes()));
+    List<Edge> initialEdges = ListSequence.fromList(new ArrayList<Edge>());
+    List<Node> initialNodes = ListSequence.fromList(new ArrayList<Node>());
+    ListSequence.fromList(initialEdges).addSequence(ListSequence.fromList(graph.getEdges()));
+    ListSequence.fromList(initialNodes).addSequence(ListSequence.fromList(graph.getNodes()));
     EmbeddedGraphModifier modifier = new EmbeddedGraphModifier(embeddedGraph);
-    Map<Edge, Edge> replacedEdges = MapSequence.<Edge,Edge>fromMap(new HashMap<Edge, Edge>());
-    modifier.reduceNodesDegree(MapSequence.<Node,List<Node>>fromMap(new HashMap<Node, List<Node>>()), replacedEdges, true);
+    Map<Edge, Edge> replacedEdges = MapSequence.fromMap(new HashMap<Edge, Edge>());
+    modifier.reduceNodesDegree(MapSequence.fromMap(new HashMap<Node, List<Node>>()), replacedEdges, true);
 
-    Map<Dart, Integer> bends = MapSequence.<Dart,Integer>fromMap(new HashMap<Dart, Integer>());
-    Map<Dart, Integer> angles = MapSequence.<Dart,Integer>fromMap(new HashMap<Dart, Integer>());
+    Map<Dart, Integer> bends = MapSequence.fromMap(new HashMap<Dart, Integer>());
+    Map<Dart, Integer> angles = MapSequence.fromMap(new HashMap<Dart, Integer>());
     OrthogonalRepresentationWithNodesProcessing.getRepresentation(embeddedGraph, MapSequence.fromMap(modifier.getNodeFaces()).values(), bends, angles);
     OrthogonalRepresentationWithNodesProcessing.replaceBendsByNodes(embeddedGraph, bends, angles);
     Map<Dart, Direction2D> directions = OrthogonalRepresentation.getDirections(embeddedGraph, angles);
@@ -51,32 +51,32 @@ public class FlowLayoutWithNodeProcessing implements IPointLayouter {
 
   public GraphPointLayout doLayout(Graph graph) {
     Graph copy = new Graph();
-    Map<Node, Node> nodeMap = MapSequence.<Node,Node>fromMap(new HashMap<Node, Node>());
-    Map<Edge, Edge> edgeMap = MapSequence.<Edge,Edge>fromMap(new HashMap<Edge, Edge>());
-    for (Node node : ListSequence.<Node>fromList(graph.getNodes())) {
-      MapSequence.<Node,Node>fromMap(nodeMap).put(node, copy.createNode());
+    Map<Node, Node> nodeMap = MapSequence.fromMap(new HashMap<Node, Node>());
+    Map<Edge, Edge> edgeMap = MapSequence.fromMap(new HashMap<Edge, Edge>());
+    for (Node node : ListSequence.fromList(graph.getNodes())) {
+      MapSequence.fromMap(nodeMap).put(node, copy.createNode());
     }
-    for (Edge edge : ListSequence.<Edge>fromList(graph.getEdges())) {
-      MapSequence.<Edge,Edge>fromMap(edgeMap).put(edge, copy.connect(MapSequence.<Node,Node>fromMap(nodeMap).get(edge.getSource()), MapSequence.<Node,Node>fromMap(nodeMap).get(edge.getTarget())));
+    for (Edge edge : ListSequence.fromList(graph.getEdges())) {
+      MapSequence.fromMap(edgeMap).put(edge, copy.connect(MapSequence.fromMap(nodeMap).get(edge.getSource()), MapSequence.fromMap(nodeMap).get(edge.getTarget())));
     }
     EdgesHistoryManager historyManager = new EdgesHistoryManager(copy);
     EmbeddedGraph embeddedGraph = new ShortestPathEmbeddingFinder(new PQPlanarizationFinder()).find(copy);
-    Map<Edge, List<Edge>> history = MapSequence.<Edge,List<Edge>>fromMap(new HashMap<Edge, List<Edge>>());
-    for (Edge edge : ListSequence.<Edge>fromList(graph.getEdges())) {
-      Edge copyEdge = MapSequence.<Edge,Edge>fromMap(edgeMap).get(edge);
-      MapSequence.<Edge,List<Edge>>fromMap(history).put(edge, historyManager.getHistory(copyEdge));
+    Map<Edge, List<Edge>> history = MapSequence.fromMap(new HashMap<Edge, List<Edge>>());
+    for (Edge edge : ListSequence.fromList(graph.getEdges())) {
+      Edge copyEdge = MapSequence.fromMap(edgeMap).get(edge);
+      MapSequence.fromMap(history).put(edge, historyManager.getHistory(copyEdge));
       // if copyEdge has been reverted during st-numbering in planarization step 
-      if (copyEdge.getSource() != MapSequence.<Node,Node>fromMap(nodeMap).get(edge.getSource())) {
-        MapSequence.<Edge,List<Edge>>fromMap(history).put(edge, ListSequence.<Edge>fromList(MapSequence.<Edge,List<Edge>>fromMap(history).get(edge)).reversedList());
+      if (copyEdge.getSource() != MapSequence.fromMap(nodeMap).get(edge.getSource())) {
+        MapSequence.fromMap(history).put(edge, ListSequence.fromList(MapSequence.fromMap(history).get(edge)).reversedList());
       }
     }
-    Map<Node, List<Node>> newNodes = MapSequence.<Node,List<Node>>fromMap(new HashMap<Node, List<Node>>());
-    Map<Edge, Edge> replacedEdges = MapSequence.<Edge,Edge>fromMap(new HashMap<Edge, Edge>());
+    Map<Node, List<Node>> newNodes = MapSequence.fromMap(new HashMap<Node, List<Node>>());
+    Map<Edge, Edge> replacedEdges = MapSequence.fromMap(new HashMap<Edge, Edge>());
     EmbeddedGraphModifier modifier = new EmbeddedGraphModifier(embeddedGraph);
     modifier.reduceNodesDegree(newNodes, replacedEdges, true);
     updateHistory(replacedEdges, history);
-    Map<Dart, Integer> bends = MapSequence.<Dart,Integer>fromMap(new HashMap<Dart, Integer>());
-    Map<Dart, Integer> angles = MapSequence.<Dart,Integer>fromMap(new HashMap<Dart, Integer>());
+    Map<Dart, Integer> bends = MapSequence.fromMap(new HashMap<Dart, Integer>());
+    Map<Dart, Integer> angles = MapSequence.fromMap(new HashMap<Dart, Integer>());
     OrthogonalRepresentationWithNodesProcessing.getRepresentation(embeddedGraph, MapSequence.fromMap(modifier.getNodeFaces()).values(), bends, angles);
     OrthogonalRepresentationWithNodesProcessing.replaceBendsByNodes(embeddedGraph, bends, angles);
     Map<Dart, Direction2D> directions = OrthogonalRepresentation.getDirections(embeddedGraph, angles);
@@ -84,15 +84,15 @@ public class FlowLayoutWithNodeProcessing implements IPointLayouter {
   }
 
   private void updateHistory(Map<Edge, Edge> replacedEdges, Map<Edge, List<Edge>> history) {
-    for (List<Edge> list : Sequence.<List<Edge>>fromIterable(MapSequence.fromMap(history).values())) {
-      Edge first = ListSequence.<Edge>fromList(list).first();
+    for (List<Edge> list : Sequence.fromIterable(MapSequence.fromMap(history).values())) {
+      Edge first = ListSequence.fromList(list).first();
       if (MapSequence.fromMap(replacedEdges).containsKey(first)) {
-        ListSequence.<Edge>fromList(list).setElement(0, MapSequence.<Edge,Edge>fromMap(replacedEdges).get(first));
+        ListSequence.fromList(list).setElement(0, MapSequence.fromMap(replacedEdges).get(first));
       }
-      if (ListSequence.<Edge>fromList(list).count() > 1) {
-        Edge last = ListSequence.<Edge>fromList(list).last();
+      if (ListSequence.fromList(list).count() > 1) {
+        Edge last = ListSequence.fromList(list).last();
         if (MapSequence.fromMap(replacedEdges).containsKey(last)) {
-          ListSequence.<Edge>fromList(list).setElement(ListSequence.<Edge>fromList(list).count() - 1, MapSequence.<Edge,Edge>fromMap(replacedEdges).get(last));
+          ListSequence.fromList(list).setElement(ListSequence.fromList(list).count() - 1, MapSequence.fromMap(replacedEdges).get(last));
         }
       }
     }
@@ -100,12 +100,12 @@ public class FlowLayoutWithNodeProcessing implements IPointLayouter {
 
   public GraphPointLayout getFlowLayout(EmbeddedGraph embeddedGraph, EmbeddedGraphModifier modifier, EdgesHistoryManager historyManager) {
     Graph graph = embeddedGraph.getGraph();
-    List<Edge> oldEdges = ListSequence.<Edge>fromList(new ArrayList<Edge>());
-    ListSequence.<Edge>fromList(oldEdges).addSequence(ListSequence.<Edge>fromList(graph.getEdges()));
-    List<Node> oldNodes = ListSequence.<Node>fromList(new ArrayList<Node>());
-    ListSequence.<Node>fromList(oldNodes).addSequence(ListSequence.<Node>fromList(graph.getNodes()));
-    Map<Dart, Integer> bends = MapSequence.<Dart,Integer>fromMap(new HashMap<Dart, Integer>());
-    Map<Dart, Integer> angles = MapSequence.<Dart,Integer>fromMap(new HashMap<Dart, Integer>());
+    List<Edge> oldEdges = ListSequence.fromList(new ArrayList<Edge>());
+    ListSequence.fromList(oldEdges).addSequence(ListSequence.fromList(graph.getEdges()));
+    List<Node> oldNodes = ListSequence.fromList(new ArrayList<Node>());
+    ListSequence.fromList(oldNodes).addSequence(ListSequence.fromList(graph.getNodes()));
+    Map<Dart, Integer> bends = MapSequence.fromMap(new HashMap<Dart, Integer>());
+    Map<Dart, Integer> angles = MapSequence.fromMap(new HashMap<Dart, Integer>());
     OrthogonalRepresentationWithNodesProcessing.getRepresentation(embeddedGraph, MapSequence.fromMap(modifier.getNodeFaces()).values(), bends, angles);
     OrthogonalRepresentationWithNodesProcessing.replaceBendsByNodes(embeddedGraph, bends, angles);
     Map<Dart, Direction2D> directions = OrthogonalRepresentation.getDirections(embeddedGraph, angles);
@@ -121,42 +121,42 @@ public class FlowLayoutWithNodeProcessing implements IPointLayouter {
     CoordinatePlacer placer = new CoordinatePlacer(embeddedGraph, lengths, directions);
     Map<Node, Point> coordinates = placer.getCoordinates();
     GraphPointLayout graphLayout = new GraphPointLayout(graph);
-    for (Node node : ListSequence.<Node>fromList(oldNodes)) {
-      graphLayout.setLayoutFor(node, MapSequence.<Node,Point>fromMap(coordinates).get(node));
+    for (Node node : ListSequence.fromList(oldNodes)) {
+      graphLayout.setLayoutFor(node, MapSequence.fromMap(coordinates).get(node));
     }
-    for (Edge edge : ListSequence.<Edge>fromList(oldEdges)) {
+    for (Edge edge : ListSequence.fromList(oldEdges)) {
       List<Edge> history = historyManager.getHistory(edge);
-      List<Point> edgeLayout = ListSequence.<Point>fromList(new ArrayList<Point>());
+      List<Point> edgeLayout = ListSequence.fromList(new ArrayList<Point>());
       Node cur = edge.getSource();
-      ListSequence.<Point>fromList(edgeLayout).addElement(MapSequence.<Node,Point>fromMap(coordinates).get(cur));
-      for (Edge historyEdge : ListSequence.<Edge>fromList(history)) {
+      ListSequence.fromList(edgeLayout).addElement(MapSequence.fromMap(coordinates).get(cur));
+      for (Edge historyEdge : ListSequence.fromList(history)) {
         Node next = historyEdge.getOpposite(cur);
-        ListSequence.<Point>fromList(edgeLayout).addElement(MapSequence.<Node,Point>fromMap(coordinates).get(next));
+        ListSequence.fromList(edgeLayout).addElement(MapSequence.fromMap(coordinates).get(next));
         cur = next;
       }
       graphLayout.setLayoutFor(edge, edgeLayout);
     }
     GraphPointLayout copyLayout = new GraphPointLayout(graph);
-    for (Node node : ListSequence.<Node>fromList(graph.getNodes())) {
-      copyLayout.setLayoutFor(node, MapSequence.<Node,Point>fromMap(coordinates).get(node));
+    for (Node node : ListSequence.fromList(graph.getNodes())) {
+      copyLayout.setLayoutFor(node, MapSequence.fromMap(coordinates).get(node));
     }
-    for (Edge edge : ListSequence.<Edge>fromList(graph.getEdges())) {
-      List<Point> edgeLayout = ListSequence.<Point>fromList(new ArrayList<Point>());
-      ListSequence.<Point>fromList(edgeLayout).addElement(new Point(MapSequence.<Node,Point>fromMap(coordinates).get(edge.getSource())));
-      ListSequence.<Point>fromList(edgeLayout).addElement(new Point(MapSequence.<Node,Point>fromMap(coordinates).get(edge.getTarget())));
+    for (Edge edge : ListSequence.fromList(graph.getEdges())) {
+      List<Point> edgeLayout = ListSequence.fromList(new ArrayList<Point>());
+      ListSequence.fromList(edgeLayout).addElement(new Point(MapSequence.fromMap(coordinates).get(edge.getSource())));
+      ListSequence.fromList(edgeLayout).addElement(new Point(MapSequence.fromMap(coordinates).get(edge.getTarget())));
       copyLayout.setLayoutFor(edge, edgeLayout);
     }
     return graphLayout;
   }
 
   private void printEmbeddedGraphWithDirections(EmbeddedGraph embeddedGraph, Map<Dart, Direction2D> directions) {
-    for (Face face : ListSequence.<Face>fromList(embeddedGraph.getFaces())) {
+    for (Face face : ListSequence.fromList(embeddedGraph.getFaces())) {
       System.out.println("face: ");
       if (embeddedGraph.isOuterFace(face)) {
         System.out.println("outer!");
       }
-      for (Dart dart : ListSequence.<Dart>fromList(face.getDarts())) {
-        System.out.print(dart + " dir = " + MapSequence.<Dart,Direction2D>fromMap(directions).get(dart) + "; ");
+      for (Dart dart : ListSequence.fromList(face.getDarts())) {
+        System.out.print(dart + " dir = " + MapSequence.fromMap(directions).get(dart) + "; ");
       }
       System.out.println();
     }

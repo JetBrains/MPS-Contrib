@@ -27,8 +27,8 @@ public class SimpleGraphGenerator extends BasicGraphGenerator {
         return graph.connect(source, target);
       }
     }
-    for (Node source : ListSequence.<Node>fromList(graph.getNodes())) {
-      for (Node target : ListSequence.<Node>fromList(graph.getNodes())) {
+    for (Node source : ListSequence.fromList(graph.getNodes())) {
+      for (Node target : ListSequence.fromList(graph.getNodes())) {
         if (canConnect(source, target)) {
           return graph.connect(source, target);
         }
@@ -38,12 +38,12 @@ public class SimpleGraphGenerator extends BasicGraphGenerator {
   }
 
   private boolean canConnect(final Node source, Node target) {
-    List<Node> sourceComp = ListSequence.<Edge>fromList(source.getEdges()).<Node>select(new ISelector<Edge, Node>() {
+    List<Node> sourceComp = ListSequence.fromList(source.getEdges()).<Node>select(new ISelector<Edge, Node>() {
       public Node select(Edge edge) {
         return edge.getOpposite(source);
       }
     }).toListSequence();
-    if (source != target && !(ListSequence.<Node>fromList(sourceComp).contains(target))) {
+    if (source != target && !(ListSequence.fromList(sourceComp).contains(target))) {
       return true;
     } else {
       return false;

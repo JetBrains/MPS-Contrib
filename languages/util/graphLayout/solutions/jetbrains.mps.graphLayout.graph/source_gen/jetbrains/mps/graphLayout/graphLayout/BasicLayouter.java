@@ -17,7 +17,6 @@ import jetbrains.mps.graphLayout.intGeom2D.Dimension;
 import jetbrains.mps.internal.collections.runtime.SetSequence;
 import jetbrains.mps.graphLayout.graph.IEdge;
 import jetbrains.mps.graphLayout.intGeom2D.Point;
-import jetbrains.mps.graphLayout.graph.Edge;
 
 public abstract class BasicLayouter implements ILayouter {
   private static final int DEFAULT_UNIT_LENGTH = 20;
@@ -40,47 +39,47 @@ public abstract class BasicLayouter implements ILayouter {
     Graph graph = patchInfo.getGraph();
     final Map<Node, Integer> components = ConnectivityComponents.getComponents(graph);
     int numComponents = 0;
-    for (Node node : ListSequence.<Node>fromList(graph.getNodes())) {
-      numComponents = Math.max(numComponents, MapSequence.<Node,Integer>fromMap(components).get(node));
+    for (Node node : ListSequence.fromList(graph.getNodes())) {
+      numComponents = Math.max(numComponents, MapSequence.fromMap(components).get(node));
     }
     numComponents++;
-    List<LayoutInfoCopier> copiers = ListSequence.<LayoutInfoCopier>fromList(new ArrayList<LayoutInfoCopier>(numComponents));
-    List<GraphLayout> subgraphLayouts = ListSequence.<GraphLayout>fromList(new ArrayList<GraphLayout>(numComponents));
+    List<LayoutInfoCopier> copiers = ListSequence.fromList(new ArrayList<LayoutInfoCopier>(numComponents));
+    List<GraphLayout> subgraphLayouts = ListSequence.fromList(new ArrayList<GraphLayout>(numComponents));
     for (int num = 0; num < numComponents; num++) {
       LayoutInfoCopier copier = new LayoutInfoCopier(patchInfo);
-      ListSequence.<LayoutInfoCopier>fromList(copiers).addElement(copier);
+      ListSequence.fromList(copiers).addElement(copier);
       final int curComponent = num;
       copier.copySubgraph(new Filter<INode>() {
         public boolean accept(INode node) {
           Node myNode = ((Node) node);
-          return MapSequence.<Node,Integer>fromMap(components).get(myNode) == curComponent;
+          return MapSequence.fromMap(components).get(myNode) == curComponent;
         }
       });
       LayoutInfo subgraphInfo = copier.getLayoutInfoCopy();
-      ListSequence.<GraphLayout>fromList(subgraphLayouts).addElement(doLayoutConnectedGraph(subgraphInfo));
+      ListSequence.fromList(subgraphLayouts).addElement(doLayoutConnectedGraph(subgraphInfo));
     }
-    List<Rectangle> subgraphLayoutRects = ListSequence.<Rectangle>fromList(new ArrayList<Rectangle>(numComponents));
-    for (GraphLayout layout : ListSequence.<GraphLayout>fromList(subgraphLayouts)) {
-      ListSequence.<Rectangle>fromList(subgraphLayoutRects).addElement(layout.getContainingRectangle());
+    List<Rectangle> subgraphLayoutRects = ListSequence.fromList(new ArrayList<Rectangle>(numComponents));
+    for (GraphLayout layout : ListSequence.fromList(subgraphLayouts)) {
+      ListSequence.fromList(subgraphLayoutRects).addElement(layout.getContainingRectangle());
     }
     List<Dimension> subgraphLayoutShifts = getSubgraphLayoutShifts(subgraphLayoutRects);
     GraphLayout graphLayout = GraphLayoutFactory.createGraphLayout(graph);
     for (int num = 0; num < numComponents; num++) {
-      LayoutInfoCopier copier = ListSequence.<LayoutInfoCopier>fromList(copiers).getElement(num);
-      GraphLayout layout = ListSequence.<GraphLayout>fromList(subgraphLayouts).getElement(num);
-      Dimension shift = ListSequence.<Dimension>fromList(subgraphLayoutShifts).getElement(num);
-      for (INode node : SetSequence.<INode>fromSet(copier.getCopiedNodes())) {
+      LayoutInfoCopier copier = ListSequence.fromList(copiers).getElement(num);
+      GraphLayout layout = ListSequence.fromList(subgraphLayouts).getElement(num);
+      Dimension shift = ListSequence.fromList(subgraphLayoutShifts).getElement(num);
+      for (INode node : SetSequence.fromSet(copier.getCopiedNodes())) {
         Rectangle rect = layout.getNodeLayout(copier.getNodeCopy(node));
         rect.translate(shift.width, shift.height);
         graphLayout.setLayoutFor(node, rect);
       }
-      for (IEdge edge : SetSequence.<IEdge>fromSet(copier.getCopiedEdges())) {
+      for (IEdge edge : SetSequence.fromSet(copier.getCopiedEdges())) {
         List<Point> path = layout.getEdgeLayout(copier.getEdgeCopy(edge));
-        for (Point point : ListSequence.<Point>fromList(path)) {
+        for (Point point : ListSequence.fromList(path)) {
           point.translate(shift.width, shift.height);
         }
         graphLayout.setLayoutFor(edge, path);
-        if (SetSequence.<Edge>fromSet(patchInfo.getLabeledEdges()).contains(edge)) {
+        if (SetSequence.fromSet(patchInfo.getLabeledEdges()).contains(edge)) {
           Rectangle rect = layout.getLabelLayout(copier.getEdgeCopy(edge));
           rect.translate(shift.width, shift.height);
           graphLayout.setLabelLayout(edge, rect);
@@ -93,10 +92,10 @@ public abstract class BasicLayouter implements ILayouter {
   public abstract GraphLayout doLayoutConnectedGraph(LayoutInfo layoutInfo);
 
   protected List<Dimension> getSubgraphLayoutShifts(List<Rectangle> subgraphLayoutRects) {
-    List<Dimension> subgraphLayoutShifts = ListSequence.<Dimension>fromList(new ArrayList<Dimension>(ListSequence.<Rectangle>fromList(subgraphLayoutRects).count()));
+    List<Dimension> subgraphLayoutShifts = ListSequence.fromList(new ArrayList<Dimension>(ListSequence.fromList(subgraphLayoutRects).count()));
     int shiftX = 0;
-    for (Rectangle layoutRect : ListSequence.<Rectangle>fromList(subgraphLayoutRects)) {
-      ListSequence.<Dimension>fromList(subgraphLayoutShifts).addElement(new Dimension(shiftX, 0));
+    for (Rectangle layoutRect : ListSequence.fromList(subgraphLayoutRects)) {
+      ListSequence.fromList(subgraphLayoutShifts).addElement(new Dimension(shiftX, 0));
       shiftX += layoutRect.width + getUnitLength();
     }
     return subgraphLayoutShifts;

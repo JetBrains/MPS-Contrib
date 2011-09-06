@@ -54,19 +54,19 @@ public class OrthogonalFlowLayouterConstraints_Test extends TestCase {
 
   public void test_testSplitEdges() throws Exception {
     Graph graph = GraphIO.scanGraph("7 12  \n0 1  \n1 4  \n1 5  \n2 6  \n2 1  \n2 0  \n3 2  \n3 6  \n5 6  \n5 2  \n6 4  \n6 0");
-    Map<Node, Dimension> nodeSizes = MapSequence.<Node,Dimension>fromMap(new HashMap<Node, Dimension>());
-    for (Node node : ListSequence.<Node>fromList(graph.getNodes())) {
-      MapSequence.<Node,Dimension>fromMap(nodeSizes).put(node, new Dimension(30, 30));
+    Map<Node, Dimension> nodeSizes = MapSequence.fromMap(new HashMap<Node, Dimension>());
+    for (Node node : ListSequence.fromList(graph.getNodes())) {
+      MapSequence.fromMap(nodeSizes).put(node, new Dimension(30, 30));
     }
-    MapSequence.<Node,Dimension>fromMap(nodeSizes).put(graph.getNode(2), new Dimension(100, 100));
+    MapSequence.fromMap(nodeSizes).put(graph.getNode(2), new Dimension(100, 100));
     GraphLayout graphLayout = new OrthogonalFlowLayouterConstraints().doLayout(graph, nodeSizes);
     OrthogonalLayoutChecker.checkLayout(graphLayout);
   }
 
   public void test(Graph graph) {
-    Map<Node, Dimension> nodeSizes = MapSequence.<Node,Dimension>fromMap(new LinkedHashMap<Node, Dimension>(16, (float) 0.75, false));
-    for (Node node : ListSequence.<Node>fromList(graph.getNodes())) {
-      MapSequence.<Node,Dimension>fromMap(nodeSizes).put(node, new Dimension(30, 30));
+    Map<Node, Dimension> nodeSizes = MapSequence.fromMap(new LinkedHashMap<Node, Dimension>(16, (float) 0.75, false));
+    for (Node node : ListSequence.fromList(graph.getNodes())) {
+      MapSequence.fromMap(nodeSizes).put(node, new Dimension(30, 30));
     }
     GraphLayout graphLayout = new OrthogonalFlowLayouterConstraints().doLayout(graph, nodeSizes);
     OrthogonalLayoutChecker.checkLayout(graphLayout);

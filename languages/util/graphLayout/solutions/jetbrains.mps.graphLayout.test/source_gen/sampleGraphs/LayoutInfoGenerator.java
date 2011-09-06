@@ -59,21 +59,21 @@ public class LayoutInfoGenerator {
   public void generate() {
     myGraph = myGenerator.generate();
     myLayoutInfo = new LayoutInfo(myGraph);
-    myNodeSizes = MapSequence.<Node,Dimension>fromMap(new HashMap<Node, Dimension>());
-    myEdgeLabelSizes = MapSequence.<Edge,Dimension>fromMap(new HashMap<Edge, Dimension>());
+    myNodeSizes = MapSequence.fromMap(new HashMap<Node, Dimension>());
+    myEdgeLabelSizes = MapSequence.fromMap(new HashMap<Edge, Dimension>());
     Random rand = myGenerator.random();
-    for (Node node : ListSequence.<Node>fromList(myGraph.getNodes())) {
+    for (Node node : ListSequence.fromList(myGraph.getNodes())) {
       int width = RandomUtil.nextInRange(rand, myMinNodeWidth, myMaxNodeWidth);
       int height = RandomUtil.nextInRange(rand, myMinNodeHeight, myMaxNodeHeight);
-      MapSequence.<Node,Dimension>fromMap(myNodeSizes).put(node, new Dimension(width, height));
+      MapSequence.fromMap(myNodeSizes).put(node, new Dimension(width, height));
       myLayoutInfo.setNodeSize(node, new Dimension(width, height));
     }
-    for (Edge edge : ListSequence.<Edge>fromList(myGraph.getEdges())) {
+    for (Edge edge : ListSequence.fromList(myGraph.getEdges())) {
       double d = rand.nextDouble();
       if (d < myLabelThreshold) {
         int width = RandomUtil.nextInRange(rand, myMinLabelWidth, myMaxLabelWidth);
         int height = RandomUtil.nextInRange(rand, myMinLabelHeight, myMaxLabelHeight);
-        MapSequence.<Edge,Dimension>fromMap(myEdgeLabelSizes).put(edge, new Dimension(width, height));
+        MapSequence.fromMap(myEdgeLabelSizes).put(edge, new Dimension(width, height));
         myLayoutInfo.setLabelSize(edge, new Dimension(width, height));
       }
     }

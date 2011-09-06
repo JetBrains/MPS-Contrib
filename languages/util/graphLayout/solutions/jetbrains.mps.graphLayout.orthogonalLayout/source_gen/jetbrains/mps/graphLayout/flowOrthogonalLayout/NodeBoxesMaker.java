@@ -36,8 +36,8 @@ public class NodeBoxesMaker {
     myGraph = embeddedGraph.getGraph();
     myEmbeddedGraph = embeddedGraph;
     myDirections = directions;
-    myBoxFaces = SetSequence.<Face>fromSet(new HashSet<Face>());
-    myBoxEdgeLengths = MapSequence.<Edge,Integer>fromMap(new HashMap<Edge, Integer>());
+    myBoxFaces = SetSequence.fromSet(new HashSet<Face>());
+    myBoxEdgeLengths = MapSequence.fromMap(new HashMap<Edge, Integer>());
   }
 
   public void makeBoxes(Map<Node, Dimension> nodeSizes) {
@@ -46,27 +46,27 @@ public class NodeBoxesMaker {
       System.out.println("initial graph: ");
       printEmbeddedGraph();
     }
-    List<Node> nodes = ListSequence.<Node>fromList(new ArrayList<Node>());
-    ListSequence.<Node>fromList(nodes).addSequence(SetSequence.<Node>fromSet(MapSequence.fromMap(nodeSizes).keySet()));
-    for (Node node : ListSequence.<Node>fromList(nodes)) {
-      List<Edge> oldEdges = ListSequence.<Edge>fromList(new ArrayList<Edge>());
-      ListSequence.<Edge>fromList(oldEdges).addSequence(ListSequence.<Edge>fromList(node.getEdges()));
-      for (Edge oldEdge : ListSequence.<Edge>fromList(oldEdges)) {
+    List<Node> nodes = ListSequence.fromList(new ArrayList<Node>());
+    ListSequence.fromList(nodes).addSequence(SetSequence.fromSet(MapSequence.fromMap(nodeSizes).keySet()));
+    for (Node node : ListSequence.fromList(nodes)) {
+      List<Edge> oldEdges = ListSequence.fromList(new ArrayList<Edge>());
+      ListSequence.fromList(oldEdges).addSequence(ListSequence.fromList(node.getEdges()));
+      for (Edge oldEdge : ListSequence.fromList(oldEdges)) {
         splitEdge(oldEdge);
       }
       Map<Direction2D, List<Edge>> rectEdges = makeRectangleForNode(node);
       for (Direction2D dir : Direction2D.values()) {
-        int length = MapSequence.<Node,Dimension>fromMap(nodeSizes).get(node).width;
+        int length = MapSequence.fromMap(nodeSizes).get(node).width;
         if (dir.isVertical()) {
-          length = MapSequence.<Node,Dimension>fromMap(nodeSizes).get(node).height;
+          length = MapSequence.fromMap(nodeSizes).get(node).height;
         }
-        List<Edge> edges = MapSequence.<Direction2D,List<Edge>>fromMap(rectEdges).get(dir);
-        int edgeLength = length / ListSequence.<Edge>fromList(edges).count();
-        for (Edge edge : ListSequence.<Edge>fromList(edges)) {
-          if (edge == ListSequence.<Edge>fromList(edges).last()) {
-            MapSequence.<Edge,Integer>fromMap(myBoxEdgeLengths).put(edge, length - (edgeLength * (ListSequence.<Edge>fromList(edges).count() - 1)));
+        List<Edge> edges = MapSequence.fromMap(rectEdges).get(dir);
+        int edgeLength = length / ListSequence.fromList(edges).count();
+        for (Edge edge : ListSequence.fromList(edges)) {
+          if (edge == ListSequence.fromList(edges).last()) {
+            MapSequence.fromMap(myBoxEdgeLengths).put(edge, length - (edgeLength * (ListSequence.fromList(edges).count() - 1)));
           } else {
-            MapSequence.<Edge,Integer>fromMap(myBoxEdgeLengths).put(edge, edgeLength);
+            MapSequence.fromMap(myBoxEdgeLengths).put(edge, edgeLength);
           }
         }
       }
@@ -83,14 +83,14 @@ public class NodeBoxesMaker {
     Node target = oldEdge.getTarget();
     Dart sourceDart = myEmbeddedGraph.getSourceDart(oldEdge, source);
     Dart targetDart = myEmbeddedGraph.getSourceDart(oldEdge, target);
-    List<Edge> edges = ListSequence.<Edge>fromList(new ArrayList<Edge>());
+    List<Edge> edges = ListSequence.fromList(new ArrayList<Edge>());
     Node node = myEmbeddedGraph.splitEdge(oldEdge, edges);
-    for (Edge edge : ListSequence.<Edge>fromList(edges)) {
-      for (Dart dart : ListSequence.<Dart>fromList(myEmbeddedGraph.getDarts(edge))) {
+    for (Edge edge : ListSequence.fromList(edges)) {
+      for (Dart dart : ListSequence.fromList(myEmbeddedGraph.getDarts(edge))) {
         if (dart.getSource() == source || dart.getTarget() == target) {
-          MapSequence.<Dart,Direction2D>fromMap(myDirections).put(dart, MapSequence.<Dart,Direction2D>fromMap(myDirections).get(sourceDart));
+          MapSequence.fromMap(myDirections).put(dart, MapSequence.fromMap(myDirections).get(sourceDart));
         } else {
-          MapSequence.<Dart,Direction2D>fromMap(myDirections).put(dart, MapSequence.<Dart,Direction2D>fromMap(myDirections).get(targetDart));
+          MapSequence.fromMap(myDirections).put(dart, MapSequence.fromMap(myDirections).get(targetDart));
         }
       }
     }
@@ -101,20 +101,20 @@ public class NodeBoxesMaker {
 
   private Map<Direction2D, List<Edge>> makeRectangleForNode(Node node) {
     List<Dart> darts = myEmbeddedGraph.getDartWithSource(node);
-    Map<Direction2D, List<Edge>> edgesInDirection = MapSequence.<Direction2D,List<Edge>>fromMap(new HashMap<Direction2D, List<Edge>>());
+    Map<Direction2D, List<Edge>> edgesInDirection = MapSequence.fromMap(new HashMap<Direction2D, List<Edge>>());
     for (Direction2D dir : Direction2D.values()) {
-      MapSequence.<Direction2D,List<Edge>>fromMap(edgesInDirection).put(dir, ListSequence.<Edge>fromList(new ArrayList<Edge>()));
+      MapSequence.fromMap(edgesInDirection).put(dir, ListSequence.fromList(new ArrayList<Edge>()));
     }
-    Dart cur = ListSequence.<Dart>fromList(darts).first();
-    for (int step = 0; step < ListSequence.<Dart>fromList(darts).count(); step++) {
+    Dart cur = ListSequence.fromList(darts).first();
+    for (int step = 0; step < ListSequence.fromList(darts).count(); step++) {
       Face face = myEmbeddedGraph.getFace(cur);
       Dart next = myEmbeddedGraph.getNextSourceDart(cur);
-      int turn = MapSequence.<Dart,Direction2D>fromMap(myDirections).get(cur).getClockwiseTurn(MapSequence.<Dart,Direction2D>fromMap(myDirections).get(next));
+      int turn = MapSequence.fromMap(myDirections).get(cur).getClockwiseTurn(MapSequence.fromMap(myDirections).get(next));
       // if next==cur 
       if (turn == 0) {
         turn = 4;
       }
-      List<Edge> newEdges = ListSequence.<Edge>fromList(new LinkedList<Edge>());
+      List<Edge> newEdges = ListSequence.fromList(new LinkedList<Edge>());
       Node pathSource = cur.getTarget();
       Node pathTarget = next.getTarget();
       Node curNode = pathSource;
@@ -125,46 +125,46 @@ public class NodeBoxesMaker {
         } else {
           nextNode = myGraph.createNode();
         }
-        ListSequence.<Edge>fromList(newEdges).addElement(myGraph.connect(curNode, nextNode));
+        ListSequence.fromList(newEdges).addElement(myGraph.connect(curNode, nextNode));
         curNode = nextNode;
       }
       boolean isOuter = myEmbeddedGraph.isOuterFace(face);
       List<Face> newFaces = myEmbeddedGraph.splitFace(face, newEdges, pathSource, pathTarget);
       Face newFaceWithNode = null;
-      Edge firstEdge = ListSequence.<Edge>fromList(newEdges).first();
+      Edge firstEdge = ListSequence.fromList(newEdges).first();
       Dart firstDart = myEmbeddedGraph.getSourceDart(firstEdge, firstEdge.getSource());
-      for (Face newFace : ListSequence.<Face>fromList(newFaces)) {
+      for (Face newFace : ListSequence.fromList(newFaces)) {
         /*
-          Iterable<Node> faceNodes = ListSequence.<Dart>fromList(newFace.getDarts()).<Node>select(new ISelector<Dart, Node>() {
+          Iterable<Node> faceNodes = ListSequence.fromList(newFace.getDarts()).<Node>select(new ISelector<Dart, Node>() {
             public Node select(Dart dart) {
               return dart.getSource();
             }
           });
-          if (Sequence.<Node>fromIterable(faceNodes).contains(node)) {
+          if (Sequence.fromIterable(faceNodes).contains(node)) {
             newFaceWithNode = newFace;
           }
         */
-        if (ListSequence.<Dart>fromList(newFace.getDarts()).contains(firstDart)) {
+        if (ListSequence.fromList(newFace.getDarts()).contains(firstDart)) {
           newFaceWithNode = newFace;
         }
       }
       SetSequence.fromSet(myBoxFaces).addElement(newFaceWithNode);
       if (isOuter) {
-        Face newOuterFace = ListSequence.<Face>fromList(newFaces).getElement(0);
+        Face newOuterFace = ListSequence.fromList(newFaces).getElement(0);
         if (newOuterFace == newFaceWithNode) {
-          newOuterFace = ListSequence.<Face>fromList(newFaces).getElement(1);
+          newOuterFace = ListSequence.fromList(newFaces).getElement(1);
         }
         myEmbeddedGraph.setOuterFace(newOuterFace);
       }
-      Direction2D curDir = MapSequence.<Dart,Direction2D>fromMap(myDirections).get(cur).turnClockwise(1);
+      Direction2D curDir = MapSequence.fromMap(myDirections).get(cur).turnClockwise(1);
       curNode = pathSource;
-      for (Edge edge : ListSequence.<Edge>fromList(newEdges)) {
-        for (Dart dart : ListSequence.<Dart>fromList(myEmbeddedGraph.getDarts(edge))) {
+      for (Edge edge : ListSequence.fromList(newEdges)) {
+        for (Dart dart : ListSequence.fromList(myEmbeddedGraph.getDarts(edge))) {
           if (dart.getSource() == curNode) {
-            MapSequence.<Dart,Direction2D>fromMap(myDirections).put(dart, curDir);
-            ListSequence.<Edge>fromList(MapSequence.<Direction2D,List<Edge>>fromMap(edgesInDirection).get(curDir)).addElement(edge);
+            MapSequence.fromMap(myDirections).put(dart, curDir);
+            ListSequence.fromList(MapSequence.fromMap(edgesInDirection).get(curDir)).addElement(edge);
           } else {
-            MapSequence.<Dart,Direction2D>fromMap(myDirections).put(dart, curDir.opposite());
+            MapSequence.fromMap(myDirections).put(dart, curDir.opposite());
           }
         }
         curNode = edge.getOpposite(curNode);
@@ -176,17 +176,17 @@ public class NodeBoxesMaker {
   }
 
   private void printEmbeddedGraph() {
-    for (Face face : ListSequence.<Face>fromList(myEmbeddedGraph.getFaces())) {
+    for (Face face : ListSequence.fromList(myEmbeddedGraph.getFaces())) {
       System.out.println("face: ");
       if (myEmbeddedGraph.isOuterFace(face)) {
         System.out.println("this is outer face");
       }
-      for (Dart dart : ListSequence.<Dart>fromList(face.getDarts())) {
+      for (Dart dart : ListSequence.fromList(face.getDarts())) {
         String size = " ";
         if (MapSequence.fromMap(myBoxEdgeLengths).containsKey(dart.getEdge())) {
-          size += MapSequence.<Edge,Integer>fromMap(myBoxEdgeLengths).get(dart.getEdge());
+          size += MapSequence.fromMap(myBoxEdgeLengths).get(dart.getEdge());
         }
-        System.out.println("  " + dart + " dir = " + MapSequence.<Dart,Direction2D>fromMap(myDirections).get(dart) + size);
+        System.out.println("  " + dart + " dir = " + MapSequence.fromMap(myDirections).get(dart) + size);
       }
     }
   }

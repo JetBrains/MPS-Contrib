@@ -44,7 +44,7 @@ public class GraphLayoutOutputUtil {
     Point res = null;
     int len = 0;
     int num = 0;
-    for (Point next : ListSequence.<Point>fromList(route)) {
+    for (Point next : ListSequence.fromList(route)) {
       if (prev == null || prev.equals(next)) {
         prev = next;
         continue;
