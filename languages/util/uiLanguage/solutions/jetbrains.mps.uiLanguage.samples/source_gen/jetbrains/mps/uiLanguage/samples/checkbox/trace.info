@@ -5,7 +5,7 @@
     <nodeInfo nodeId="1202815949201" fileName="CheckBoxDemo.java" startLine="21" startPosition="29" endLine="22" endPosition="35" conceptFqName="jetbrains.mps.baseLanguage.structure.FieldDeclaration" propertyString="myComponent_a0" />
     <nodeInfo nodeId="1202815949201" fileName="CheckBoxDemo.java" startLine="22" startPosition="35" endLine="23" endPosition="33" conceptFqName="jetbrains.mps.baseLanguage.structure.FieldDeclaration" propertyString="myComponent_a0a" />
     <nodeInfo nodeId="1202815949201" fileName="CheckBoxDemo.java" startLine="23" startPosition="33" endLine="24" endPosition="35" conceptFqName="jetbrains.mps.baseLanguage.structure.FieldDeclaration" propertyString="myCheckbox_b0a" />
-    <nodeInfo nodeId="1202815949201" fileName="CheckBoxDemo.java" startLine="24" startPosition="35" endLine="25" endPosition="105" conceptFqName="jetbrains.mps.baseLanguage.structure.FieldDeclaration" propertyString="myBindings" />
+    <nodeInfo nodeId="1202815949201" fileName="CheckBoxDemo.java" startLine="24" startPosition="35" endLine="25" endPosition="92" conceptFqName="jetbrains.mps.baseLanguage.structure.FieldDeclaration" propertyString="myBindings" />
     <nodeInfo nodeId="1202815949201" fileName="CheckBoxDemo.java" startLine="34" startPosition="25" endLine="35" endPosition="23" conceptFqName="jetbrains.mps.baseLanguage.structure.ExpressionStatement" />
     <nodeInfo nodeId="1202815949201" fileName="CheckBoxDemo.java" startLine="35" startPosition="23" endLine="36" endPosition="34" conceptFqName="jetbrains.mps.baseLanguage.structure.LocalVariableDeclarationStatement" />
     <nodeInfo nodeId="1202815949201" fileName="CheckBoxDemo.java" startLine="36" startPosition="34" endLine="37" endPosition="45" conceptFqName="jetbrains.mps.baseLanguage.structure.ExpressionStatement" />
@@ -25,7 +25,7 @@
     <nodeInfo nodeId="1202815949201" fileName="CheckBoxDemo.java" startLine="63" startPosition="49" endLine="64" endPosition="60" conceptFqName="jetbrains.mps.baseLanguage.structure.LocalVariableDeclarationStatement" />
     <nodeInfo nodeId="1202815949201" fileName="CheckBoxDemo.java" startLine="64" startPosition="60" endLine="65" endPosition="154" conceptFqName="jetbrains.mps.baseLanguage.structure.LocalVariableDeclarationStatement" />
     <nodeInfo nodeId="1202815949201" fileName="CheckBoxDemo.java" startLine="65" startPosition="154" endLine="66" endPosition="21" conceptFqName="jetbrains.mps.baseLanguage.structure.ExpressionStatement" />
-    <nodeInfo nodeId="1202815949201" fileName="CheckBoxDemo.java" startLine="66" startPosition="21" endLine="67" endPosition="78" conceptFqName="jetbrains.mps.baseLanguage.structure.ExpressionStatement" />
+    <nodeInfo nodeId="1202815949201" fileName="CheckBoxDemo.java" startLine="66" startPosition="21" endLine="67" endPosition="65" conceptFqName="jetbrains.mps.baseLanguage.structure.ExpressionStatement" />
     <nodeInfo nodeId="1202815949201" fileName="CheckBoxDemo.java" startLine="73" startPosition="30" endLine="74" endPosition="25" conceptFqName="jetbrains.mps.baseLanguage.structure.ExpressionStatement" />
     <nodeInfo nodeId="1202815949201" fileName="CheckBoxDemo.java" startLine="79" startPosition="42" endLine="80" endPosition="42" conceptFqName="jetbrains.mps.baseLanguage.structure.LocalVariableDeclarationStatement" />
     <nodeInfo nodeId="1202815949201" fileName="CheckBoxDemo.java" startLine="80" startPosition="42" endLine="81" endPosition="36" conceptFqName="jetbrains.mps.baseLanguage.structure.ExpressionStatement" />
@@ -46,7 +46,7 @@
     <nodeInfo nodeId="1202815949201" fileName="CheckBoxDemo.java" startLine="53" startPosition="0" endLine="58" endPosition="0" conceptFqName="jetbrains.mps.baseLanguage.structure.InstanceMethodDeclaration" propertyString="removeNotify#()V" />
     <nodeInfo nodeId="1202815949201" fileName="CheckBoxDemo.java" startLine="71" startPosition="25" endLine="76" endPosition="5" conceptFqName="jetbrains.mps.baseLanguage.structure.ForeachStatement" />
     <nodeInfo nodeId="1202815949201" fileName="CheckBoxDemo.java" startLine="86" startPosition="0" endLine="92" endPosition="0" conceptFqName="jetbrains.mps.baseLanguage.structure.InstanceMethodDeclaration" propertyString="createComponent_a0a#()Ljava/lang/Object;" />
-    <nodeInfo nodeId="1202815949201" fileName="CheckBoxDemo.java" startLine="25" startPosition="105" endLine="32" endPosition="4" conceptFqName="jetbrains.mps.baseLanguage.structure.FieldDeclaration" propertyString="myEvents" />
+    <nodeInfo nodeId="1202815949201" fileName="CheckBoxDemo.java" startLine="25" startPosition="92" endLine="32" endPosition="4" conceptFqName="jetbrains.mps.baseLanguage.structure.FieldDeclaration" propertyString="myEvents" />
     <nodeInfo nodeId="1202815949201" fileName="CheckBoxDemo.java" startLine="92" startPosition="0" endLine="99" endPosition="0" conceptFqName="jetbrains.mps.baseLanguage.structure.InstanceMethodDeclaration" propertyString="createComponent_b0a#()Ljava/lang/Object;" />
     <nodeInfo nodeId="1202815949201" fileName="CheckBoxDemo.java" startLine="70" startPosition="0" endLine="78" endPosition="0" conceptFqName="jetbrains.mps.baseLanguage.structure.InstanceMethodDeclaration" propertyString="unbind#()V" />
     <nodeInfo nodeId="1202815949201" fileName="CheckBoxDemo.java" startLine="78" startPosition="0" endLine="86" endPosition="0" conceptFqName="jetbrains.mps.baseLanguage.structure.InstanceMethodDeclaration" propertyString="createComponent_a0#()Ljava/lang/Object;" />
@@ -69,7 +69,7 @@
     <scopeInfo nodeId="1202815949201" fileName="CheckBoxDemo.java" startLine="71" startPosition="25" endLine="76" endPosition="5" />
     <scopeInfo nodeId="1202815949201" fileName="CheckBoxDemo.java" startLine="79" startPosition="42" endLine="84" endPosition="21" />
     <scopeInfo nodeId="1202815949201" fileName="CheckBoxDemo.java" startLine="86" startPosition="0" endLine="92" endPosition="0" />
-    <scopeInfo nodeId="1202815949201" fileName="CheckBoxDemo.java" startLine="60" startPosition="5" endLine="67" endPosition="78" />
+    <scopeInfo nodeId="1202815949201" fileName="CheckBoxDemo.java" startLine="60" startPosition="5" endLine="67" endPosition="65" />
     <scopeInfo nodeId="1202815949201" fileName="CheckBoxDemo.java" startLine="92" startPosition="0" endLine="99" endPosition="0" />
     <scopeInfo nodeId="1202815949201" fileName="CheckBoxDemo.java" startLine="34" startPosition="25" endLine="42" endPosition="31" />
     <scopeInfo nodeId="1202815949201" fileName="CheckBoxDemo.java" startLine="70" startPosition="0" endLine="78" endPosition="0" />

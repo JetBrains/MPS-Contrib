@@ -31,7 +31,7 @@ public class PersonEditor extends JFrame {
   private JButton myComponent_b4a0;
   private String myFirstName;
   private String myLastName;
-  public List<AutoBinding> myBindings = ListSequence.<AutoBinding>fromList(new ArrayList<AutoBinding>());
+  public List<AutoBinding> myBindings = ListSequence.fromList(new ArrayList<AutoBinding>());
   private Events myEvents = new Events(null) {
     {
     }
@@ -74,7 +74,7 @@ public class PersonEditor extends JFrame {
       Property targetProperty = BeanProperty.create("text");
       AutoBinding binding = Bindings.createAutoBinding(AutoBinding.UpdateStrategy.READ_WRITE, sourceObject, sourceProperty, targetObject, targetProperty);
       binding.bind();
-      ListSequence.<AutoBinding>fromList(this.myBindings).addElement(binding);
+      ListSequence.fromList(this.myBindings).addElement(binding);
     }
     {
       Object sourceObject = myThis;
@@ -83,7 +83,7 @@ public class PersonEditor extends JFrame {
       Property targetProperty = BeanProperty.create("text");
       AutoBinding binding = Bindings.createAutoBinding(AutoBinding.UpdateStrategy.READ_WRITE, sourceObject, sourceProperty, targetObject, targetProperty);
       binding.bind();
-      ListSequence.<AutoBinding>fromList(this.myBindings).addElement(binding);
+      ListSequence.fromList(this.myBindings).addElement(binding);
     }
   }
 
