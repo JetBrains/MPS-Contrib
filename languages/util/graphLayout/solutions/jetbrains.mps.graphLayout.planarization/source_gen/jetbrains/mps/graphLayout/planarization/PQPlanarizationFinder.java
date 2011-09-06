@@ -30,8 +30,8 @@ public class PQPlanarizationFinder implements IEmbeddingFinder {
 
   public EmbeddedGraph find(Graph graph) {
     Map<Node, Integer> components = ConnectivityComponents.getComponents(graph);
-    for (Node node : ListSequence.<Node>fromList(graph.getNodes())) {
-      if (MapSequence.<Node,Integer>fromMap(components).get(node) != 0) {
+    for (Node node : ListSequence.fromList(graph.getNodes())) {
+      if (MapSequence.fromMap(components).get(node) != 0) {
         throw new RuntimeException("graph isn't connected!!!");
       }
     }
@@ -50,10 +50,10 @@ public class PQPlanarizationFinder implements IEmbeddingFinder {
         System.out.println("removed edges:");
         System.out.println(removed);
       }
-      if (SetSequence.<Edge>fromSet(removed).count() == 0) {
+      if (SetSequence.fromSet(removed).count() == 0) {
         return pqPlanarityTest.getEmbedding(graph, myNumbering);
       } else {
-        for (Edge edge : SetSequence.<Edge>fromSet(removed)) {
+        for (Edge edge : SetSequence.fromSet(removed)) {
           edge.removeFromGraph();
         }
         BiconnectedComponent tree = BiconnectedComponent.createTree(graph);
@@ -61,7 +61,7 @@ public class PQPlanarizationFinder implements IEmbeddingFinder {
           System.out.println(tree.toString(""));
         }
         EmbeddedGraph embeddedGraph = createEmbedding(tree);
-        for (Edge edge : SetSequence.<Edge>fromSet(removed)) {
+        for (Edge edge : SetSequence.fromSet(removed)) {
           edge.addToGraph();
         }
         return embeddedGraph;
@@ -73,48 +73,48 @@ public class PQPlanarizationFinder implements IEmbeddingFinder {
     Graph componentGraph = new Graph();
     Set<Node> nodes = component.getNodes();
     EmbeddedGraph graphEmbedding = new EmbeddedGraph(myGraph);
-    boolean manyNodeComponent = SetSequence.<Node>fromSet(nodes).count() > 1;
+    boolean manyNodeComponent = SetSequence.fromSet(nodes).count() > 1;
     if (manyNodeComponent) {
-      Map<Node, Node> nodeMap = MapSequence.<Node,Node>fromMap(new HashMap<Node, Node>());
-      Map<Node, Node> invertedNodeMap = MapSequence.<Node,Node>fromMap(new HashMap<Node, Node>());
-      Map<Edge, Edge> invertedEdgeMap = MapSequence.<Edge,Edge>fromMap(new HashMap<Edge, Edge>());
-      for (Node node : SetSequence.<Node>fromSet(nodes)) {
+      Map<Node, Node> nodeMap = MapSequence.fromMap(new HashMap<Node, Node>());
+      Map<Node, Node> invertedNodeMap = MapSequence.fromMap(new HashMap<Node, Node>());
+      Map<Edge, Edge> invertedEdgeMap = MapSequence.fromMap(new HashMap<Edge, Edge>());
+      for (Node node : SetSequence.fromSet(nodes)) {
         Node componentNode = componentGraph.createNode();
-        MapSequence.<Node,Node>fromMap(nodeMap).put(node, componentNode);
-        MapSequence.<Node,Node>fromMap(invertedNodeMap).put(componentNode, node);
+        MapSequence.fromMap(nodeMap).put(node, componentNode);
+        MapSequence.fromMap(invertedNodeMap).put(componentNode, node);
       }
-      for (Node node : SetSequence.<Node>fromSet(component.getNodes())) {
-        for (Edge edge : ListSequence.<Edge>fromList(node.getEdges(Edge.Direction.FRONT))) {
+      for (Node node : SetSequence.fromSet(component.getNodes())) {
+        for (Edge edge : ListSequence.fromList(node.getEdges(Edge.Direction.FRONT))) {
           Node target = edge.getTarget();
-          if (SetSequence.<Node>fromSet(nodes).contains(target)) {
-            Edge newEdge = componentGraph.connect(MapSequence.<Node,Node>fromMap(nodeMap).get(node), MapSequence.<Node,Node>fromMap(nodeMap).get(target));
-            MapSequence.<Edge,Edge>fromMap(invertedEdgeMap).put(newEdge, edge);
+          if (SetSequence.fromSet(nodes).contains(target)) {
+            Edge newEdge = componentGraph.connect(MapSequence.fromMap(nodeMap).get(node), MapSequence.fromMap(nodeMap).get(target));
+            MapSequence.fromMap(invertedEdgeMap).put(newEdge, edge);
           }
         }
       }
       if (SHOW_LOG > 0) {
-        System.out.println("COMPONENT!!! " + componentGraph.getNumNodes() + "  : " + ListSequence.<Edge>fromList(componentGraph.getEdges()).count());
+        System.out.println("COMPONENT!!! " + componentGraph.getNumNodes() + "  : " + ListSequence.fromList(componentGraph.getEdges()).count());
         System.out.println("map: " + nodeMap);
       }
       PQPlanarityTest pqPlanarityTest = new PQPlanarityTest();
       Set<Edge> removed = pqPlanarityTest.removeEdgesToPlanarity(componentGraph, GraphOrientation.orientST(componentGraph));
       EmbeddedGraph componentEmbedding;
-      if (SetSequence.<Edge>fromSet(removed).count() == 0) {
+      if (SetSequence.fromSet(removed).count() == 0) {
         componentEmbedding = pqPlanarityTest.getEmbedding(componentGraph, GraphOrientation.orientST(componentGraph));
       } else {
-        for (Edge edge : SetSequence.<Edge>fromSet(removed)) {
+        for (Edge edge : SetSequence.fromSet(removed)) {
           componentGraph.removeEdge(edge);
         }
         BiconnectedComponent tree = BiconnectedComponent.createTree(componentGraph);
         componentEmbedding = createEmbedding(tree);
-        for (Edge edge : SetSequence.<Edge>fromSet(removed)) {
+        for (Edge edge : SetSequence.fromSet(removed)) {
           componentGraph.addEdge(edge);
         }
       }
-      for (Face componentFace : ListSequence.<Face>fromList(componentEmbedding.getFaces())) {
+      for (Face componentFace : ListSequence.fromList(componentEmbedding.getFaces())) {
         Face graphFace = new Face(myGraph);
-        for (Dart dart : ListSequence.<Dart>fromList(componentFace.getDarts())) {
-          graphFace.addLast(new Dart(MapSequence.<Edge,Edge>fromMap(invertedEdgeMap).get(dart.getEdge()), MapSequence.<Node,Node>fromMap(invertedNodeMap).get(dart.getSource())));
+        for (Dart dart : ListSequence.fromList(componentFace.getDarts())) {
+          graphFace.addLast(new Dart(MapSequence.fromMap(invertedEdgeMap).get(dart.getEdge()), MapSequence.fromMap(invertedNodeMap).get(dart.getSource())));
         }
         graphEmbedding.addFace(graphFace);
         if (componentEmbedding.isOuterFace(componentFace)) {
@@ -126,7 +126,7 @@ public class PQPlanarizationFinder implements IEmbeddingFinder {
       graphEmbedding.addFace(fakeFace);
       graphEmbedding.setOuterFace(fakeFace);
     }
-    for (BiconnectedComponent child : ListSequence.<BiconnectedComponent>fromList(component.getChildren())) {
+    for (BiconnectedComponent child : ListSequence.fromList(component.getChildren())) {
       EmbeddedGraph childEmbedding = createEmbedding(child);
       Object connection = component.getConnection(child);
       Edge bridge = null;
@@ -136,14 +136,14 @@ public class PQPlanarizationFinder implements IEmbeddingFinder {
       Node cutpoint = component.getCutpoint(child);
       Node childCutpoint = component.getChildCutpoint(child);
       Face outerChildFace;
-      if (ListSequence.<Face>fromList(childEmbedding.getFaces()).count() > 1) {
-        outerChildFace = childEmbedding.findContainingFace(ListSequence.<Node>fromListAndArray(new ArrayList<Node>(), childCutpoint));
+      if (ListSequence.fromList(childEmbedding.getFaces()).count() > 1) {
+        outerChildFace = childEmbedding.findContainingFace(ListSequence.fromListAndArray(new ArrayList<Node>(), childCutpoint));
       } else {
         outerChildFace = childEmbedding.getOuterFace();
       }
       if (bridge != null) {
         // outerChildFace can be fake 
-        if (ListSequence.<Dart>fromList(outerChildFace.getDarts()).count() > 0) {
+        if (ListSequence.fromList(outerChildFace.getDarts()).count() > 0) {
           outerChildFace.makeEndsWith(bridge.getOpposite(cutpoint));
         }
         childEmbedding.addLastDart(outerChildFace, new Dart(bridge, bridge.getOpposite(cutpoint)));
@@ -153,22 +153,22 @@ public class PQPlanarizationFinder implements IEmbeddingFinder {
         graphEmbedding = childEmbedding;
         manyNodeComponent = true;
       } else {
-        Face face = graphEmbedding.findContainingFace(ListSequence.<Node>fromListAndArray(new ArrayList<Node>(), cutpoint));
+        Face face = graphEmbedding.findContainingFace(ListSequence.fromListAndArray(new ArrayList<Node>(), cutpoint));
         boolean isOuter = graphEmbedding.isOuterFace(face);
         graphEmbedding.removeFace(face);
         childEmbedding.removeFace(outerChildFace);
         Face newFace = new Face(myGraph);
-        for (Dart dart : ListSequence.<Dart>fromList(face.makeEndsWith(cutpoint))) {
+        for (Dart dart : ListSequence.fromList(face.makeEndsWith(cutpoint))) {
           newFace.addLast(dart);
         }
-        for (Dart dart : ListSequence.<Dart>fromList(outerChildFace.makeEndsWith(cutpoint))) {
+        for (Dart dart : ListSequence.fromList(outerChildFace.makeEndsWith(cutpoint))) {
           newFace.addLast(dart);
         }
         graphEmbedding.addFace(newFace);
         if (isOuter) {
           graphEmbedding.setOuterFace(newFace);
         }
-        for (Face childFace : ListSequence.<Face>fromList(childEmbedding.getFaces())) {
+        for (Face childFace : ListSequence.fromList(childEmbedding.getFaces())) {
           graphEmbedding.addFace(childFace);
         }
       }

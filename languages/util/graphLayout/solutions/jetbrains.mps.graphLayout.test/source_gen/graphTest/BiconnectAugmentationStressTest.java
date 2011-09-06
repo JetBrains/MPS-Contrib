@@ -27,8 +27,8 @@ public class BiconnectAugmentationStressTest {
       Graph graph = RandomGraphGenerator.generateSimple(numNodes, numEdges);
       Map<Node, Integer> components = ConnectivityComponents.getComponents(graph);
       boolean isOneComponent = true;
-      for (Node node : ListSequence.<Node>fromList(graph.getNodes())) {
-        if (MapSequence.<Node,Integer>fromMap(components).get(node) != 0) {
+      for (Node node : ListSequence.fromList(graph.getNodes())) {
+        if (MapSequence.fromMap(components).get(node) != 0) {
           isOneComponent = false;
         }
       }

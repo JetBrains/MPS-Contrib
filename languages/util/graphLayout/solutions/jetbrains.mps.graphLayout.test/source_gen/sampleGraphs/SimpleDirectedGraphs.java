@@ -53,15 +53,15 @@ public class SimpleDirectedGraphs {
   public static Graph weel(int numNodes) {
     Graph graph = emptyGraph(numNodes);
     List<Node> nodes = graph.getNodes();
-    Node first = ListSequence.<Node>fromList(nodes).first();
+    Node first = ListSequence.fromList(nodes).first();
     Node prev = null;
-    for (Node node : ListSequence.<Node>fromList(nodes)) {
+    for (Node node : ListSequence.fromList(nodes)) {
       if (node == first) {
         continue;
       }
       graph.connect(first, node);
       if (prev == null) {
-        graph.connect(node, ListSequence.<Node>fromList(nodes).last());
+        graph.connect(node, ListSequence.fromList(nodes).last());
       } else {
         graph.connect(node, prev);
       }

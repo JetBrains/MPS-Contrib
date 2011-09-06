@@ -7,7 +7,6 @@ import java.util.Iterator;
 import java.util.List;
 import jetbrains.mps.graphLayout.graph.Node;
 import jetbrains.mps.internal.collections.runtime.SetSequence;
-import jetbrains.mps.graphLayout.graph.Edge;
 
 public class QNode extends PQNode {
   private EdgesOrder myEdgesOrder;
@@ -29,7 +28,7 @@ public class QNode extends PQNode {
     if (checkCandidate(candidate, isPertinentRoot)) {
       candidate.setParent(this.getParent());
       // in q-node first should go empty children, and then full children 
-      if (ListSequence.<PQNode>fromList(candidate.getChildren()).first().getState() == PQNode.State.FULL) {
+      if (ListSequence.fromList(candidate.getChildren()).first().getState() == PQNode.State.FULL) {
         candidate.reverse();
       }
       candidate.setState(PQNode.State.PARTIAL);
@@ -43,7 +42,7 @@ public class QNode extends PQNode {
     PQNode.State curState = initialState;
     QNode candidate = new QNode();
     candidate.getEdgesOrder().merge(getEdgesOrder());
-    for (PQNode child : ListSequence.<PQNode>fromList(getChildren())) {
+    for (PQNode child : ListSequence.fromList(getChildren())) {
       if (child.getState() != PQNode.State.PARTIAL) {
         candidate.addLastChild(child);
         curState = child.getState();
@@ -51,16 +50,16 @@ public class QNode extends PQNode {
         Iterator<PQNode> partialChildIrt;
         if (curState == PQNode.State.EMPTY) {
           candidate.getEdgesOrder().merge(child.getEdgesOrder());
-          partialChildIrt = ListSequence.<PQNode>fromList(child.getChildren()).iterator();
+          partialChildIrt = ListSequence.fromList(child.getChildren()).iterator();
         } else {
           child.getEdgesOrder().reverse();
           candidate.getEdgesOrder().merge(child.getEdgesOrder());
-          partialChildIrt = ListSequence.<PQNode>fromList(child.getChildren()).reversedList().iterator();
+          partialChildIrt = ListSequence.fromList(child.getChildren()).reversedList().iterator();
         }
         while (partialChildIrt.hasNext()) {
           candidate.addLastChild(partialChildIrt.next());
         }
-        curState = ListSequence.<PQNode>fromList(candidate.getChildren()).last().getState();
+        curState = ListSequence.fromList(candidate.getChildren()).last().getState();
       }
     }
     return candidate;
@@ -69,7 +68,7 @@ public class QNode extends PQNode {
   private boolean checkCandidate(QNode candidate, boolean isPertinentRoot) {
     boolean startFullSegment = false;
     boolean endFullSegment = false;
-    for (PQNode child : ListSequence.<PQNode>fromList(candidate.getChildren())) {
+    for (PQNode child : ListSequence.fromList(candidate.getChildren())) {
       if (child.getState() == PQNode.State.FULL) {
         if (!(startFullSegment)) {
           startFullSegment = true;
@@ -86,7 +85,7 @@ public class QNode extends PQNode {
     if (isPertinentRoot) {
       return true;
     } else {
-      return ListSequence.<PQNode>fromList(candidate.getChildren()).first().getState() == PQNode.State.FULL || ListSequence.<PQNode>fromList(candidate.getChildren()).last().getState() == PQNode.State.FULL;
+      return ListSequence.fromList(candidate.getChildren()).first().getState() == PQNode.State.FULL || ListSequence.fromList(candidate.getChildren()).last().getState() == PQNode.State.FULL;
     }
   }
 
@@ -114,7 +113,7 @@ public class QNode extends PQNode {
   }
 
   public void reverse() {
-    myChildren = ListSequence.<PQNode>fromList(myChildren).reversedList();
+    myChildren = ListSequence.fromList(myChildren).reversedList();
     getEdgesOrder().reverse();
   }
 
@@ -134,7 +133,7 @@ public class QNode extends PQNode {
     }
     int valueFromA = 0;
     PQNode aChild = null;
-    for (PQNode child : ListSequence.<PQNode>fromList(getChildren())) {
+    for (PQNode child : ListSequence.fromList(getChildren())) {
       int curValue = child.getNumFullLeaves() - child.getAValue();
       if (valueFromA < curValue) {
         valueFromA = curValue;
@@ -148,7 +147,7 @@ public class QNode extends PQNode {
     PQNode curFirst = null;
     boolean insideHSegment = false;
     int numFullLeavesInSegment = 0;
-    for (PQNode child : ListSequence.<PQNode>fromList(getChildren())) {
+    for (PQNode child : ListSequence.fromList(getChildren())) {
       if (insideHSegment) {
         if (child.getState() == PQNode.State.FULL) {
           numFullLeavesInSegment += child.getNumFullLeaves();
@@ -174,7 +173,7 @@ public class QNode extends PQNode {
       }
     }
     // last segment wasn't checked by previous cycle 
-    PQNode last = ListSequence.<PQNode>fromList(getChildren()).last();
+    PQNode last = ListSequence.fromList(getChildren()).last();
     if (insideHSegment && curFirst != last) {
       int aValue = getNumFullLeaves() - numFullLeavesInSegment - curFirst.getAValue() - last.getAValue();
       if (aValue < valueFromH) {
@@ -205,7 +204,7 @@ public class QNode extends PQNode {
     }
     if (myMakeAFromH) {
       boolean insideHSegment = false;
-      Iterator<PQNode> childItr = ListSequence.<PQNode>fromList(getChildren()).iterator();
+      Iterator<PQNode> childItr = ListSequence.fromList(getChildren()).iterator();
       while (childItr.hasNext()) {
         PQNode child = childItr.next();
         if (child == myFirstAChild || child == mySecondAChild) {
@@ -220,7 +219,7 @@ public class QNode extends PQNode {
         }
       }
     } else {
-      Iterator<PQNode> childItr = ListSequence.<PQNode>fromList(getChildren()).iterator();
+      Iterator<PQNode> childItr = ListSequence.fromList(getChildren()).iterator();
       while (childItr.hasNext()) {
         PQNode child = childItr.next();
         if (child == myFirstAChild) {
@@ -244,11 +243,11 @@ public class QNode extends PQNode {
       myHValue = 0;
       return;
     }
-    Iterator<PQNode> childItr = ListSequence.<PQNode>fromList(getChildren()).iterator();
+    Iterator<PQNode> childItr = ListSequence.fromList(getChildren()).iterator();
     findHByIterator(childItr);
     int leftValue = myHValue;
     PQNode leftHChild = myHChild;
-    childItr = ListSequence.<PQNode>fromList(getChildren()).reversedList().iterator();
+    childItr = ListSequence.fromList(getChildren()).reversedList().iterator();
     findHByIterator(childItr);
     int rightValue = myHValue;
     PQNode rightHChild = myHChild;
@@ -276,7 +275,7 @@ public class QNode extends PQNode {
     } else {
       isToDelete = true;
     }
-    Iterator<PQNode> childItr = ListSequence.<PQNode>fromList(getChildren()).iterator();
+    Iterator<PQNode> childItr = ListSequence.fromList(getChildren()).iterator();
     while (childItr.hasNext()) {
       PQNode child = childItr.next();
       if (child == myHChild) {
@@ -326,7 +325,7 @@ public class QNode extends PQNode {
   public void collectEdgesOrderInSubtree(EdgesOrder order) {
     /*
       Node last = this.getLast();
-      for (PQNode child : ListSequence.<PQNode>fromList(getChildren())) {
+      for (PQNode child : ListSequence.fromList(getChildren())) {
         child.collectEdgesOrderInSubtree(order);
         if (child instanceof PNode && ((PNode) child).getGraphNode() == last) {
           order.merge(getEdgesOrder());
@@ -334,15 +333,15 @@ public class QNode extends PQNode {
       }
     */
     order.merge(getEdgesOrder());
-    for (PQNode child : ListSequence.<PQNode>fromList(getChildren())) {
+    for (PQNode child : ListSequence.fromList(getChildren())) {
       child.collectEdgesOrderInSubtree(order);
     }
   }
 
   public Node getLast() {
     Node last = null;
-    for (Node node : SetSequence.<Node>fromSet(getEdgesOrder().getNodes())) {
-      if (ListSequence.<Edge>fromList(getEdgesOrder().getOutEdgesOrder(node)).count() == 0) {
+    for (Node node : SetSequence.fromSet(getEdgesOrder().getNodes())) {
+      if (ListSequence.fromList(getEdgesOrder().getOutEdgesOrder(node)).count() == 0) {
         last = node;
       }
     }

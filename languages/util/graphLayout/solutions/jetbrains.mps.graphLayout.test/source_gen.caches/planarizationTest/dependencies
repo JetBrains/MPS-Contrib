@@ -171,7 +171,6 @@
     <classNode dependClassName="jetbrains.mps.graphLayout.graph.Graph" />
     <classNode dependClassName="jetbrains.mps.graphLayout.graph.Node" />
     <classNode dependClassName="jetbrains.mps.graphLayout.planarGraph.EmbeddedGraph" />
-    <classNode dependClassName="jetbrains.mps.graphLayout.planarGraph.Face" />
     <classNode dependClassName="jetbrains.mps.graphLayout.planarization.PQPlanarizationFinder" />
     <classNode dependClassName="jetbrains.mps.internal.collections.runtime.ListSequence" />
     <classNode dependClassName="jetbrains.mps.internal.collections.runtime.MapSequence" />

@@ -34,7 +34,7 @@ public class CompareFlowStressTest {
       Node target = graph.createNode();
       int n = graph.getNumNodes() / 2;
       int i = 0;
-      for (Node node : ListSequence.<Node>fromList(graph.getNodes())) {
+      for (Node node : ListSequence.fromList(graph.getNodes())) {
         if (i < n) {
           graph.connect(source, node);
         } else {
@@ -43,16 +43,16 @@ public class CompareFlowStressTest {
         i++;
       }
       Random rand = new Random();
-      Map<Edge, Integer> capacity = MapSequence.<Edge,Integer>fromMap(new HashMap<Edge, Integer>());
-      Map<Edge, Integer> cost = MapSequence.<Edge,Integer>fromMap(new HashMap<Edge, Integer>());
-      for (Edge edge : ListSequence.<Edge>fromList(graph.getEdges())) {
-        MapSequence.<Edge,Integer>fromMap(capacity).put(edge, rand.nextInt(10));
-        MapSequence.<Edge,Integer>fromMap(cost).put(edge, rand.nextInt(100));
+      Map<Edge, Integer> capacity = MapSequence.fromMap(new HashMap<Edge, Integer>());
+      Map<Edge, Integer> cost = MapSequence.fromMap(new HashMap<Edge, Integer>());
+      for (Edge edge : ListSequence.fromList(graph.getEdges())) {
+        MapSequence.fromMap(capacity).put(edge, rand.nextInt(10));
+        MapSequence.fromMap(cost).put(edge, rand.nextInt(100));
       }
       PrintWriter out = new PrintWriter(fileName);
       GraphIO.writeGraph(graph, out);
-      for (Edge edge : ListSequence.<Edge>fromList(graph.getEdges())) {
-        out.println(edge + " " + MapSequence.<Edge,Integer>fromMap(capacity).get(edge) + " " + MapSequence.<Edge,Integer>fromMap(cost).get(edge));
+      for (Edge edge : ListSequence.fromList(graph.getEdges())) {
+        out.println(edge + " " + MapSequence.fromMap(capacity).get(edge) + " " + MapSequence.fromMap(cost).get(edge));
       }
       out.close();
       Map<Edge, Integer> flow = MinCostMaxFlow.getFlow(graph, source, target, capacity, cost);
@@ -78,15 +78,15 @@ public class CompareFlowStressTest {
 
   private static int getFlowSize(Map<Edge, Integer> flow, Node source) {
     int flowSize = 0;
-    for (Edge edge : ListSequence.<Edge>fromList(source.getOutEdges())) {
-      flowSize += MapSequence.<Edge,Integer>fromMap(flow).get(edge);
+    for (Edge edge : ListSequence.fromList(source.getOutEdges())) {
+      flowSize += MapSequence.fromMap(flow).get(edge);
     }
     return flowSize;
   }
 
   public static void printFlow(Map<Edge, Integer> flow) {
-    for (Edge edge : SetSequence.<Edge>fromSet(MapSequence.fromMap(flow).keySet())) {
-      int edgeFlow = MapSequence.<Edge,Integer>fromMap(flow).get(edge);
+    for (Edge edge : SetSequence.fromSet(MapSequence.fromMap(flow).keySet())) {
+      int edgeFlow = MapSequence.fromMap(flow).get(edge);
       if (edgeFlow != 0) {
         System.out.println(edge + ": " + edgeFlow);
       }

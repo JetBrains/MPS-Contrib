@@ -29,24 +29,24 @@ public class ShortestPath {
   public static List<Edge> getPath(Graph graph, Node source, Node target, Edge.Direction direction, _FunctionTypes._return_P1_E0<? extends Boolean, ? super Edge> filter) {
     Map<Node, Integer> dist = new NodeMap<Integer>(graph);
     Map<Node, Edge> prev = new NodeMap<Edge>(graph);
-    Queue<Node> queue = QueueSequence.<Node>fromQueue(new LinkedList<Node>());
-    MapSequence.<Node,Integer>fromMap(dist).put(source, 0);
-    MapSequence.<Node,Edge>fromMap(prev).put(source, null);
+    Queue<Node> queue = QueueSequence.fromQueue(new LinkedList<Node>());
+    MapSequence.fromMap(dist).put(source, 0);
+    MapSequence.fromMap(prev).put(source, null);
     QueueSequence.fromQueue(queue).addLastElement(source);
     boolean found = false;
-    while (QueueSequence.<Node>fromQueue(queue).count() > 0) {
+    while (QueueSequence.fromQueue(queue).count() > 0) {
       Node cur = QueueSequence.fromQueue(queue).removeFirstElement();
       if (cur == target) {
         found = true;
         break;
       }
-      for (Edge edge : ListSequence.<Edge>fromList(cur.getEdges(direction))) {
+      for (Edge edge : ListSequence.fromList(cur.getEdges(direction))) {
         if (filter.invoke(edge)) {
           Node next = edge.getOpposite(cur);
-          if (MapSequence.<Node,Integer>fromMap(dist).get(next) == null) {
+          if (MapSequence.fromMap(dist).get(next) == null) {
             QueueSequence.fromQueue(queue).addLastElement(next);
-            MapSequence.<Node,Integer>fromMap(dist).put(next, MapSequence.<Node,Integer>fromMap(dist).get(cur) + 1);
-            MapSequence.<Node,Edge>fromMap(prev).put(next, edge);
+            MapSequence.fromMap(dist).put(next, MapSequence.fromMap(dist).get(cur) + 1);
+            MapSequence.fromMap(prev).put(next, edge);
           }
         }
       }
@@ -54,11 +54,11 @@ public class ShortestPath {
     if (!(found)) {
       return null;
     }
-    List<Edge> path = ListSequence.<Edge>fromList(new LinkedList<Edge>());
+    List<Edge> path = ListSequence.fromList(new LinkedList<Edge>());
     Node cur = target;
-    while (MapSequence.<Node,Edge>fromMap(prev).get(cur) != null) {
-      ListSequence.<Edge>fromList(path).insertElement(0, MapSequence.<Node,Edge>fromMap(prev).get(cur));
-      cur = MapSequence.<Node,Edge>fromMap(prev).get(cur).getOpposite(cur);
+    while (MapSequence.fromMap(prev).get(cur) != null) {
+      ListSequence.fromList(path).insertElement(0, MapSequence.fromMap(prev).get(cur));
+      cur = MapSequence.fromMap(prev).get(cur).getOpposite(cur);
     }
     return path;
   }

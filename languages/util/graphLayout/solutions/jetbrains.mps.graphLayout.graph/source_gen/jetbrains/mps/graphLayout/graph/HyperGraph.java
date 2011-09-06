@@ -16,10 +16,10 @@ public class HyperGraph extends Graph {
 
   public HyperGraph() {
     super();
-    myParent = MapSequence.<Node,Node>fromMap(new HashMap<Node, Node>());
-    myChildren = MapSequence.<Node,List<Node>>fromMap(new HashMap<Node, List<Node>>());
+    myParent = MapSequence.fromMap(new HashMap<Node, Node>());
+    myChildren = MapSequence.fromMap(new HashMap<Node, List<Node>>());
     myRoot = new Node(this, -1, false);
-    MapSequence.<Node,List<Node>>fromMap(myChildren).put(myRoot, ListSequence.<Node>fromList(new LinkedList<Node>()));
+    MapSequence.fromMap(myChildren).put(myRoot, ListSequence.fromList(new LinkedList<Node>()));
   }
 
   @Override
@@ -30,7 +30,7 @@ public class HyperGraph extends Graph {
   @Override
   protected Node createNode(boolean isDummy) {
     Node node = super.createNode(isDummy);
-    MapSequence.<Node,List<Node>>fromMap(myChildren).put(node, ListSequence.<Node>fromList(new LinkedList<Node>()));
+    MapSequence.fromMap(myChildren).put(node, ListSequence.fromList(new LinkedList<Node>()));
     return node;
   }
 
@@ -56,12 +56,12 @@ public class HyperGraph extends Graph {
   }
 
   public void setParent(Node node, Node parent) {
-    Node oldParent = MapSequence.<Node,Node>fromMap(myParent).get(node);
+    Node oldParent = MapSequence.fromMap(myParent).get(node);
     if (oldParent != null) {
-      ListSequence.<Node>fromList(MapSequence.<Node,List<Node>>fromMap(myChildren).get(oldParent)).removeElement(node);
+      ListSequence.fromList(MapSequence.fromMap(myChildren).get(oldParent)).removeElement(node);
     }
-    MapSequence.<Node,Node>fromMap(myParent).put(node, parent);
-    ListSequence.<Node>fromList(MapSequence.<Node,List<Node>>fromMap(myChildren).get(parent)).addElement(node);
+    MapSequence.fromMap(myParent).put(node, parent);
+    ListSequence.fromList(MapSequence.fromMap(myChildren).get(parent)).addElement(node);
   }
 
   public void addChild(Node node, Node child) {
@@ -73,14 +73,14 @@ public class HyperGraph extends Graph {
   }
 
   public Node getParent(Node node) {
-    return MapSequence.<Node,Node>fromMap(myParent).get(node);
+    return MapSequence.fromMap(myParent).get(node);
   }
 
   public List<Node> getChildren(Node node) {
-    return MapSequence.<Node,List<Node>>fromMap(myChildren).get(node);
+    return MapSequence.fromMap(myChildren).get(node);
   }
 
   public boolean isNode(Node node) {
-    return ListSequence.<Node>fromList(MapSequence.<Node,List<Node>>fromMap(myChildren).get(node)).count() == 0;
+    return ListSequence.fromList(MapSequence.fromMap(myChildren).get(node)).count() == 0;
   }
 }

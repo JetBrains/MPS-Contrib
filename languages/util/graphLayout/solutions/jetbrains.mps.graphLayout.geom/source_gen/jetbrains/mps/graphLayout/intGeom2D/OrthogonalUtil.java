@@ -21,26 +21,26 @@ public class OrthogonalUtil {
    * @return refined sequence of points
    */
   public static List<Point> refinePolyline(List<Point> polyline) {
-    List<Point> refined = ListSequence.<Point>fromList(new LinkedList<Point>());
-    Point prev = ListSequence.<Point>fromList(polyline).first();
+    List<Point> refined = ListSequence.fromList(new LinkedList<Point>());
+    Point prev = ListSequence.fromList(polyline).first();
     boolean prevVer = false;
     boolean firstSeg = true;
-    ListSequence.<Point>fromList(refined).addElement(prev);
-    for (Point next : ListSequence.<Point>fromList(polyline)) {
+    ListSequence.fromList(refined).addElement(prev);
+    for (Point next : ListSequence.fromList(polyline)) {
       if (next.equals(prev)) {
         continue;
       }
       boolean nextVer = prev.x == next.x;
       if (!(firstSeg)) {
         if (nextVer != prevVer) {
-          ListSequence.<Point>fromList(refined).addElement(prev);
+          ListSequence.fromList(refined).addElement(prev);
         }
       }
       firstSeg = false;
       prevVer = nextVer;
       prev = next;
     }
-    ListSequence.<Point>fromList(refined).addElement(prev);
+    ListSequence.fromList(refined).addElement(prev);
     return refined;
   }
 
@@ -65,13 +65,13 @@ public class OrthogonalUtil {
   }
 
   public static Point moveToBorder(Rectangle rect, Point b, Point e) {
-    List<Point> rectPoints = ListSequence.<Point>fromList(new ArrayList<Point>());
+    List<Point> rectPoints = ListSequence.fromList(new ArrayList<Point>());
     boolean ver = b.x == e.x;
-    ListSequence.<Point>fromList(rectPoints).addElement(new Point(rect.x, rect.y));
-    ListSequence.<Point>fromList(rectPoints).addElement(new Point(rect.x, rect.y + rect.height));
-    ListSequence.<Point>fromList(rectPoints).addElement(new Point(rect.x + rect.width, rect.y));
-    ListSequence.<Point>fromList(rectPoints).addElement(new Point(rect.x + rect.width, rect.y + rect.height));
-    for (Point p : ListSequence.<Point>fromList(rectPoints)) {
+    ListSequence.fromList(rectPoints).addElement(new Point(rect.x, rect.y));
+    ListSequence.fromList(rectPoints).addElement(new Point(rect.x, rect.y + rect.height));
+    ListSequence.fromList(rectPoints).addElement(new Point(rect.x + rect.width, rect.y));
+    ListSequence.fromList(rectPoints).addElement(new Point(rect.x + rect.width, rect.y + rect.height));
+    for (Point p : ListSequence.fromList(rectPoints)) {
       if (ver) {
         if (p.x == b.x && (p.y - b.y) * (p.y - e.y) < 0) {
           return p;

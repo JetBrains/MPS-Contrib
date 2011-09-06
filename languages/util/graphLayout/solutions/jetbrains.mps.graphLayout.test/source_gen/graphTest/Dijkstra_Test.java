@@ -20,57 +20,57 @@ public class Dijkstra_Test extends TestCase {
   public void test_triangle() throws Exception {
     String graphString = "4 5  0 1  0 2  1 2  1 3  2 3";
     Graph graph = GraphIO.scanGraph(new Scanner(graphString));
-    Node source = ListSequence.<Node>fromList(graph.getNodes()).getElement(0);
-    Node target = ListSequence.<Node>fromList(graph.getNodes()).getElement(3);
-    Map<Edge, Integer> weights = MapSequence.<Edge,Integer>fromMap(new HashMap<Edge, Integer>());
+    Node source = ListSequence.fromList(graph.getNodes()).getElement(0);
+    Node target = ListSequence.fromList(graph.getNodes()).getElement(3);
+    Map<Edge, Integer> weights = MapSequence.fromMap(new HashMap<Edge, Integer>());
     List<Edge> edges = graph.getEdges();
-    MapSequence.<Edge,Integer>fromMap(weights).put(ListSequence.<Edge>fromList(edges).getElement(0), 1);
-    MapSequence.<Edge,Integer>fromMap(weights).put(ListSequence.<Edge>fromList(edges).getElement(1), 3);
-    MapSequence.<Edge,Integer>fromMap(weights).put(ListSequence.<Edge>fromList(edges).getElement(2), 1);
-    MapSequence.<Edge,Integer>fromMap(weights).put(ListSequence.<Edge>fromList(edges).getElement(3), 3);
-    MapSequence.<Edge,Integer>fromMap(weights).put(ListSequence.<Edge>fromList(edges).getElement(4), 1);
+    MapSequence.fromMap(weights).put(ListSequence.fromList(edges).getElement(0), 1);
+    MapSequence.fromMap(weights).put(ListSequence.fromList(edges).getElement(1), 3);
+    MapSequence.fromMap(weights).put(ListSequence.fromList(edges).getElement(2), 1);
+    MapSequence.fromMap(weights).put(ListSequence.fromList(edges).getElement(3), 3);
+    MapSequence.fromMap(weights).put(ListSequence.fromList(edges).getElement(4), 1);
     test(graph, weights, source, target, 3);
   }
 
   public void test_test2() throws Exception {
     String graphString = "3 3  0 1  0 2  1 2";
     Graph graph = GraphIO.scanGraph(new Scanner(graphString));
-    Node source = ListSequence.<Node>fromList(graph.getNodes()).getElement(0);
-    Node target = ListSequence.<Node>fromList(graph.getNodes()).getElement(2);
-    Map<Edge, Integer> weights = MapSequence.<Edge,Integer>fromMap(new HashMap<Edge, Integer>());
+    Node source = ListSequence.fromList(graph.getNodes()).getElement(0);
+    Node target = ListSequence.fromList(graph.getNodes()).getElement(2);
+    Map<Edge, Integer> weights = MapSequence.fromMap(new HashMap<Edge, Integer>());
     List<Edge> edges = graph.getEdges();
-    MapSequence.<Edge,Integer>fromMap(weights).put(ListSequence.<Edge>fromList(edges).getElement(0), 1);
-    MapSequence.<Edge,Integer>fromMap(weights).put(ListSequence.<Edge>fromList(edges).getElement(1), 4);
-    MapSequence.<Edge,Integer>fromMap(weights).put(ListSequence.<Edge>fromList(edges).getElement(2), 2);
+    MapSequence.fromMap(weights).put(ListSequence.fromList(edges).getElement(0), 1);
+    MapSequence.fromMap(weights).put(ListSequence.fromList(edges).getElement(1), 4);
+    MapSequence.fromMap(weights).put(ListSequence.fromList(edges).getElement(2), 2);
     test(graph, weights, source, target, 3);
   }
 
   public void test_test3() throws Exception {
     String graphString = "4 4  0 1  1 2  1 3  2 3";
     Graph graph = GraphIO.scanGraph(new Scanner(graphString));
-    Node source = ListSequence.<Node>fromList(graph.getNodes()).getElement(0);
-    Node target = ListSequence.<Node>fromList(graph.getNodes()).getElement(3);
-    Map<Edge, Integer> weights = MapSequence.<Edge,Integer>fromMap(new HashMap<Edge, Integer>());
+    Node source = ListSequence.fromList(graph.getNodes()).getElement(0);
+    Node target = ListSequence.fromList(graph.getNodes()).getElement(3);
+    Map<Edge, Integer> weights = MapSequence.fromMap(new HashMap<Edge, Integer>());
     List<Edge> edges = graph.getEdges();
-    MapSequence.<Edge,Integer>fromMap(weights).put(ListSequence.<Edge>fromList(edges).getElement(0), 1);
-    MapSequence.<Edge,Integer>fromMap(weights).put(ListSequence.<Edge>fromList(edges).getElement(1), 1);
-    MapSequence.<Edge,Integer>fromMap(weights).put(ListSequence.<Edge>fromList(edges).getElement(2), 2);
-    MapSequence.<Edge,Integer>fromMap(weights).put(ListSequence.<Edge>fromList(edges).getElement(3), 4);
+    MapSequence.fromMap(weights).put(ListSequence.fromList(edges).getElement(0), 1);
+    MapSequence.fromMap(weights).put(ListSequence.fromList(edges).getElement(1), 1);
+    MapSequence.fromMap(weights).put(ListSequence.fromList(edges).getElement(2), 2);
+    MapSequence.fromMap(weights).put(ListSequence.fromList(edges).getElement(3), 4);
     test(graph, weights, source, target, 3);
   }
 
   public void test_test4() throws Exception {
     String graphString = "5 5  0 1  1 2  1 3  2 3  2 4";
     Graph graph = GraphIO.scanGraph(new Scanner(graphString));
-    Node source = ListSequence.<Node>fromList(graph.getNodes()).getElement(0);
-    Node target = ListSequence.<Node>fromList(graph.getNodes()).getElement(3);
-    Map<Edge, Integer> weights = MapSequence.<Edge,Integer>fromMap(new HashMap<Edge, Integer>());
+    Node source = ListSequence.fromList(graph.getNodes()).getElement(0);
+    Node target = ListSequence.fromList(graph.getNodes()).getElement(3);
+    Map<Edge, Integer> weights = MapSequence.fromMap(new HashMap<Edge, Integer>());
     List<Edge> edges = graph.getEdges();
-    MapSequence.<Edge,Integer>fromMap(weights).put(ListSequence.<Edge>fromList(edges).getElement(0), 1);
-    MapSequence.<Edge,Integer>fromMap(weights).put(ListSequence.<Edge>fromList(edges).getElement(1), 1);
-    MapSequence.<Edge,Integer>fromMap(weights).put(ListSequence.<Edge>fromList(edges).getElement(2), 2);
-    MapSequence.<Edge,Integer>fromMap(weights).put(ListSequence.<Edge>fromList(edges).getElement(3), 4);
-    MapSequence.<Edge,Integer>fromMap(weights).put(ListSequence.<Edge>fromList(edges).getElement(4), 1);
+    MapSequence.fromMap(weights).put(ListSequence.fromList(edges).getElement(0), 1);
+    MapSequence.fromMap(weights).put(ListSequence.fromList(edges).getElement(1), 1);
+    MapSequence.fromMap(weights).put(ListSequence.fromList(edges).getElement(2), 2);
+    MapSequence.fromMap(weights).put(ListSequence.fromList(edges).getElement(3), 4);
+    MapSequence.fromMap(weights).put(ListSequence.fromList(edges).getElement(4), 1);
     test(graph, weights, source, target, 3);
   }
 
@@ -79,8 +79,8 @@ public class Dijkstra_Test extends TestCase {
     finder.doAlgorithm();
     List<Edge> path = finder.getShortestPath(target);
     int length = 0;
-    for (Edge edge : ListSequence.<Edge>fromList(path)) {
-      length += MapSequence.<Edge,Integer>fromMap(weights).get(edge);
+    for (Edge edge : ListSequence.fromList(path)) {
+      length += MapSequence.fromMap(weights).get(edge);
     }
     Assert.assertTrue(length == expectedLength);
   }

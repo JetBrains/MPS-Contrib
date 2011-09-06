@@ -23,7 +23,7 @@ public class ClusterLayoutPainter extends LayoutPainter {
     super.paint(layout, g);
     ClusteredGraphLayout clusteredGraphLayout = ((ClusteredGraphLayout) layout);
     ClusteredGraph graph = ((ClusteredGraph) layout.getGraph());
-    for (Node cluster : ListSequence.<Node>fromList(graph.getInclusionTree().getNodes())) {
+    for (Node cluster : ListSequence.fromList(graph.getInclusionTree().getNodes())) {
       if (graph.isLeafCluster(cluster)) {
         continue;
       }

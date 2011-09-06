@@ -15,8 +15,8 @@ public class Node implements INode {
 
   /*package*/ Node(Graph graph, int index, boolean isDummy) {
     myGraph = graph;
-    myOutEdges = ListSequence.<Edge>fromList(new LinkedList<Edge>());
-    myInEdges = ListSequence.<Edge>fromList(new LinkedList<Edge>());
+    myOutEdges = ListSequence.fromList(new LinkedList<Edge>());
+    myInEdges = ListSequence.fromList(new LinkedList<Edge>());
     myIndex = index;
     myIsDummy = isDummy;
   }
@@ -46,18 +46,18 @@ public class Node implements INode {
     if (dir == Edge.Direction.FRONT) {
       return getOutEdges();
     } else if (dir == Edge.Direction.BOTH) {
-      return ListSequence.<Edge>fromList(getOutEdges()).concat(ListSequence.<Edge>fromList(getInEdges())).toListSequence();
+      return ListSequence.fromList(getOutEdges()).concat(ListSequence.fromList(getInEdges())).toListSequence();
     } else {
       return getInEdges();
     }
   }
 
   /*package*/ void addOutEdge(Edge edge) {
-    ListSequence.<Edge>fromList(myOutEdges).addElement(edge);
+    ListSequence.fromList(myOutEdges).addElement(edge);
   }
 
   /*package*/ void addInEdge(Edge edge) {
-    ListSequence.<Edge>fromList(myInEdges).addElement(edge);
+    ListSequence.fromList(myInEdges).addElement(edge);
   }
 
   public int getIndex() {

@@ -50,12 +50,12 @@ public class Edge implements IEdge {
   }
 
   public List<Node> getAdjacentNodes() {
-    return ListSequence.<Node>fromListAndArray(new ArrayList<Node>(), getSource(), getTarget());
+    return ListSequence.fromListAndArray(new ArrayList<Node>(), getSource(), getTarget());
   }
 
   /*package*/ void removeFromGraph() {
-    ListSequence.<Edge>fromList(mySource.getOutEdges()).removeElement(this);
-    ListSequence.<Edge>fromList(myTarget.getInEdges()).removeElement(this);
+    ListSequence.fromList(mySource.getOutEdges()).removeElement(this);
+    ListSequence.fromList(myTarget.getInEdges()).removeElement(this);
   }
 
   /*package*/ void addToGraph() {

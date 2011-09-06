@@ -21,16 +21,16 @@ public class MinCostMaxFlowCycleCancelling {
   public static Map<Edge, Integer> getFlow(Graph graph, Node source, Node target, Map<Edge, Integer> initialCapacity, Map<Edge, Integer> cost) {
     double time = System.currentTimeMillis();
     Map<Edge, Integer> flow = MaxFlow.getFlow(graph, source, target, initialCapacity);
-    Map<Edge, Edge> opposite = MapSequence.<Edge,Edge>fromMap(new HashMap<Edge, Edge>());
-    final Map<Edge, Integer> capacity = MapSequence.<Edge,Integer>fromMap(new HashMap<Edge, Integer>());
-    Set<Edge> dummyEdges = SetSequence.<Edge>fromSet(new HashSet<Edge>());
-    for (Edge edge : ListSequence.<Edge>fromList(graph.getEdges())) {
-      MapSequence.<Edge,Integer>fromMap(capacity).put(edge, MapSequence.<Edge,Integer>fromMap(initialCapacity).get(edge) - MapSequence.<Edge,Integer>fromMap(flow).get(edge));
+    Map<Edge, Edge> opposite = MapSequence.fromMap(new HashMap<Edge, Edge>());
+    final Map<Edge, Integer> capacity = MapSequence.fromMap(new HashMap<Edge, Integer>());
+    Set<Edge> dummyEdges = SetSequence.fromSet(new HashSet<Edge>());
+    for (Edge edge : ListSequence.fromList(graph.getEdges())) {
+      MapSequence.fromMap(capacity).put(edge, MapSequence.fromMap(initialCapacity).get(edge) - MapSequence.fromMap(flow).get(edge));
       Edge oppositeEdge = graph.connect(edge.getTarget(), edge.getSource());
-      MapSequence.<Edge,Edge>fromMap(opposite).put(edge, oppositeEdge);
-      MapSequence.<Edge,Edge>fromMap(opposite).put(oppositeEdge, edge);
-      MapSequence.<Edge,Integer>fromMap(capacity).put(oppositeEdge, MapSequence.<Edge,Integer>fromMap(flow).get(edge));
-      MapSequence.<Edge,Integer>fromMap(cost).put(oppositeEdge, -MapSequence.<Edge,Integer>fromMap(cost).get(edge));
+      MapSequence.fromMap(opposite).put(edge, oppositeEdge);
+      MapSequence.fromMap(opposite).put(oppositeEdge, edge);
+      MapSequence.fromMap(capacity).put(oppositeEdge, MapSequence.fromMap(flow).get(edge));
+      MapSequence.fromMap(cost).put(oppositeEdge, -MapSequence.fromMap(cost).get(edge));
       SetSequence.fromSet(dummyEdges).addElement(oppositeEdge);
     }
     boolean hasNegativeCycle = true;
@@ -38,7 +38,7 @@ public class MinCostMaxFlowCycleCancelling {
       FordBellman cycleFinder = new FordBellman(graph, target, cost);
       cycleFinder.doAlgorithm(new _FunctionTypes._return_P1_E0<Boolean, Edge>() {
         public Boolean invoke(Edge edge) {
-          return MapSequence.<Edge,Integer>fromMap(capacity).get(edge) > 0;
+          return MapSequence.fromMap(capacity).get(edge) > 0;
         }
       }, Edge.Direction.FRONT);
       List<Edge> cycle = cycleFinder.getNegativeCycleReachableFromSource();
@@ -46,28 +46,28 @@ public class MinCostMaxFlowCycleCancelling {
         hasNegativeCycle = false;
       } else {
         int minCapacity = Integer.MAX_VALUE;
-        for (Edge edge : ListSequence.<Edge>fromList(cycle)) {
-          minCapacity = Math.min(minCapacity, MapSequence.<Edge,Integer>fromMap(capacity).get(edge));
+        for (Edge edge : ListSequence.fromList(cycle)) {
+          minCapacity = Math.min(minCapacity, MapSequence.fromMap(capacity).get(edge));
         }
-        for (Edge edge : ListSequence.<Edge>fromList(cycle)) {
-          if (SetSequence.<Edge>fromSet(dummyEdges).contains(edge)) {
-            Edge realEdge = MapSequence.<Edge,Edge>fromMap(opposite).get(edge);
-            MapSequence.<Edge,Integer>fromMap(flow).put(realEdge, MapSequence.<Edge,Integer>fromMap(flow).get(realEdge) - minCapacity);
-            MapSequence.<Edge,Integer>fromMap(capacity).put(realEdge, MapSequence.<Edge,Integer>fromMap(capacity).get(realEdge) + minCapacity);
-            MapSequence.<Edge,Integer>fromMap(capacity).put(edge, MapSequence.<Edge,Integer>fromMap(flow).get(realEdge));
+        for (Edge edge : ListSequence.fromList(cycle)) {
+          if (SetSequence.fromSet(dummyEdges).contains(edge)) {
+            Edge realEdge = MapSequence.fromMap(opposite).get(edge);
+            MapSequence.fromMap(flow).put(realEdge, MapSequence.fromMap(flow).get(realEdge) - minCapacity);
+            MapSequence.fromMap(capacity).put(realEdge, MapSequence.fromMap(capacity).get(realEdge) + minCapacity);
+            MapSequence.fromMap(capacity).put(edge, MapSequence.fromMap(flow).get(realEdge));
           } else {
-            MapSequence.<Edge,Integer>fromMap(flow).put(edge, MapSequence.<Edge,Integer>fromMap(flow).get(edge) + minCapacity);
-            MapSequence.<Edge,Integer>fromMap(capacity).put(edge, MapSequence.<Edge,Integer>fromMap(capacity).get(edge) - minCapacity);
-            MapSequence.<Edge,Integer>fromMap(capacity).put(MapSequence.<Edge,Edge>fromMap(opposite).get(edge), MapSequence.<Edge,Integer>fromMap(flow).get(edge));
+            MapSequence.fromMap(flow).put(edge, MapSequence.fromMap(flow).get(edge) + minCapacity);
+            MapSequence.fromMap(capacity).put(edge, MapSequence.fromMap(capacity).get(edge) - minCapacity);
+            MapSequence.fromMap(capacity).put(MapSequence.fromMap(opposite).get(edge), MapSequence.fromMap(flow).get(edge));
           }
         }
       }
     }
-    for (Edge edge : SetSequence.<Edge>fromSet(dummyEdges)) {
+    for (Edge edge : SetSequence.fromSet(dummyEdges)) {
       graph.removeEdge(edge);
     }
     if (SHOW_TIME > 0) {
-      System.out.println("Min cost max flow algorithm on network with " + ListSequence.<Node>fromList(graph.getNodes()).count() + " nodes and " + ListSequence.<Edge>fromList(graph.getEdges()).count() + " edges");
+      System.out.println("Min cost max flow algorithm on network with " + ListSequence.fromList(graph.getNodes()).count() + " nodes and " + ListSequence.fromList(graph.getEdges()).count() + " edges");
       System.out.println("working time is " + ((System.currentTimeMillis() - time) / 1000) + " seconds");
     }
     return flow;

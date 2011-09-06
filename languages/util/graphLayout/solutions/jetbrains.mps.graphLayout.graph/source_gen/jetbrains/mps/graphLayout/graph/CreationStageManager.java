@@ -13,11 +13,11 @@ public class CreationStageManager implements IGraphModificationListener {
 
   public CreationStageManager(Graph graph) {
     myStage = 0;
-    myCreationStage = MapSequence.<Object,Integer>fromMap(new HashMap<Object, Integer>());
-    for (Node node : ListSequence.<Node>fromList(graph.getNodes())) {
+    myCreationStage = MapSequence.fromMap(new HashMap<Object, Integer>());
+    for (Node node : ListSequence.fromList(graph.getNodes())) {
       putStage(node);
     }
-    for (Edge edge : ListSequence.<Edge>fromList(graph.getEdges())) {
+    for (Edge edge : ListSequence.fromList(graph.getEdges())) {
       putStage(edge);
     }
     nextStage();
@@ -37,7 +37,7 @@ public class CreationStageManager implements IGraphModificationListener {
   }
 
   private void putStage(Object object) {
-    MapSequence.<Object,Integer>fromMap(myCreationStage).put(object, myStage);
+    MapSequence.fromMap(myCreationStage).put(object, myStage);
   }
 
   public void nextStage() {
@@ -45,6 +45,6 @@ public class CreationStageManager implements IGraphModificationListener {
   }
 
   public int getStage(Object object) {
-    return MapSequence.<Object,Integer>fromMap(myCreationStage).get(object);
+    return MapSequence.fromMap(myCreationStage).get(object);
   }
 }

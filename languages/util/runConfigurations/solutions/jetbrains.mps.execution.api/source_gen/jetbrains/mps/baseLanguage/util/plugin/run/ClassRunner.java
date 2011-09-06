@@ -29,13 +29,13 @@ public class ClassRunner extends BaseRunner {
   }
 
   public Process run(final SNode node, @NotNull final String className) throws ProcessNotCreatedException {
-    final List<String> params = ListSequence.<String>fromList(new ArrayList<String>());
+    final List<String> params = ListSequence.fromList(new ArrayList<String>());
     ModelAccess.instance().runReadAction(new Runnable() {
       public void run() {
         addJavaCommand(params);
         addClassPath(params, node);
         addVmOptions(params);
-        ListSequence.<String>fromList(params).addElement(className);
+        ListSequence.fromList(params).addElement(className);
         addProgramParameters(params);
         ClassRunner.this.myProcessBuilder = new ProcessBuilder(params);
 

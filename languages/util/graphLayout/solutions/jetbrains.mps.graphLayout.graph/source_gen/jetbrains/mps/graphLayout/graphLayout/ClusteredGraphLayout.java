@@ -20,15 +20,15 @@ public class ClusteredGraphLayout extends GraphLayout {
 
   public ClusteredGraphLayout(ClusteredGraph graph) {
     super(graph);
-    myClusterLayout = MapSequence.<Node,List<Point>>fromMap(new HashMap<Node, List<Point>>());
+    myClusterLayout = MapSequence.fromMap(new HashMap<Node, List<Point>>());
   }
 
   public void setClusterLayout(Node cluster, List<Point> borderLayout) {
-    MapSequence.<Node,List<Point>>fromMap(myClusterLayout).put(cluster, borderLayout);
+    MapSequence.fromMap(myClusterLayout).put(cluster, borderLayout);
   }
 
   public List<Point> getClusterLayout(Node cluster) {
-    return MapSequence.<Node,List<Point>>fromMap(myClusterLayout).get(cluster);
+    return MapSequence.fromMap(myClusterLayout).get(cluster);
   }
 
   public Set<Node> getLayoutedClusters() {
@@ -38,7 +38,7 @@ public class ClusteredGraphLayout extends GraphLayout {
   @Override
   public ClusteredGraphLayout shift(int xShift, int yShift) {
     ClusteredGraphLayout graphLayout = ((ClusteredGraphLayout) super.shift(xShift, yShift));
-    for (Node cluster : SetSequence.<Node>fromSet(getLayoutedClusters())) {
+    for (Node cluster : SetSequence.fromSet(getLayoutedClusters())) {
       List<Point> clusterLayout = getClusterLayout(cluster);
       graphLayout.setClusterLayout(cluster, GeomUtil.shiftPolyline(clusterLayout, xShift, yShift));
     }
@@ -52,8 +52,8 @@ public class ClusteredGraphLayout extends GraphLayout {
     int minY = rect.y;
     int maxX = rect.maxX();
     int maxY = rect.maxY();
-    for (Node cluster : SetSequence.<Node>fromSet(getLayoutedClusters())) {
-      for (Point p : ListSequence.<Point>fromList(getClusterLayout(cluster))) {
+    for (Node cluster : SetSequence.fromSet(getLayoutedClusters())) {
+      for (Point p : ListSequence.fromList(getClusterLayout(cluster))) {
         minX = Math.min(minX, p.x);
         maxX = Math.max(maxX, p.x);
         minY = Math.min(minY, p.y);

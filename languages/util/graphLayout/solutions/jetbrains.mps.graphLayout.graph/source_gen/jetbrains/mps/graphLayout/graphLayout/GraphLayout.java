@@ -26,9 +26,9 @@ public class GraphLayout implements IGraphLayout {
 
   public GraphLayout(IGraph graph) {
     myGraph = graph;
-    myNodeLayout = MapSequence.<INode,Rectangle>fromMap(new HashMap<INode, Rectangle>());
-    myEdgeLayout = MapSequence.<IEdge,List<Point>>fromMap(new HashMap<IEdge, List<Point>>());
-    myLabelLayout = MapSequence.<IEdge,Rectangle>fromMap(new HashMap<IEdge, Rectangle>());
+    myNodeLayout = MapSequence.fromMap(new HashMap<INode, Rectangle>());
+    myEdgeLayout = MapSequence.fromMap(new HashMap<IEdge, List<Point>>());
+    myLabelLayout = MapSequence.fromMap(new HashMap<IEdge, Rectangle>());
   }
 
   public Map<INode, Rectangle> getNodeLayout() {
@@ -60,27 +60,27 @@ public class GraphLayout implements IGraphLayout {
   }
 
   public void setLayoutFor(INode node, Rectangle rect) {
-    MapSequence.<INode,Rectangle>fromMap(myNodeLayout).put(node, rect);
+    MapSequence.fromMap(myNodeLayout).put(node, rect);
   }
 
   public Rectangle getNodeLayout(INode node) {
-    return MapSequence.<INode,Rectangle>fromMap(myNodeLayout).get(node);
+    return MapSequence.fromMap(myNodeLayout).get(node);
   }
 
   public void setLayoutFor(IEdge edge, List<Point> points) {
-    MapSequence.<IEdge,List<Point>>fromMap(myEdgeLayout).put(edge, points);
+    MapSequence.fromMap(myEdgeLayout).put(edge, points);
   }
 
   public List<Point> getEdgeLayout(IEdge edge) {
-    return MapSequence.<IEdge,List<Point>>fromMap(myEdgeLayout).get(edge);
+    return MapSequence.fromMap(myEdgeLayout).get(edge);
   }
 
   public void setLabelLayout(IEdge edge, Rectangle rectangle) {
-    MapSequence.<IEdge,Rectangle>fromMap(myLabelLayout).put(edge, rectangle);
+    MapSequence.fromMap(myLabelLayout).put(edge, rectangle);
   }
 
   public Rectangle getLabelLayout(IEdge edge) {
-    return MapSequence.<IEdge,Rectangle>fromMap(myLabelLayout).get(edge);
+    return MapSequence.fromMap(myLabelLayout).get(edge);
   }
 
   public Map<IEdge, Rectangle> getLabelLayout() {
@@ -92,22 +92,22 @@ public class GraphLayout implements IGraphLayout {
   }
 
   public void refineEdgeLayout() {
-    for (IEdge edge : SetSequence.<IEdge>fromSet(MapSequence.fromMap(myEdgeLayout).keySet())) {
+    for (IEdge edge : SetSequence.fromSet(MapSequence.fromMap(myEdgeLayout).keySet())) {
       this.shiftEdgeLayoutAlongEndsBorder(edge);
     }
-    for (IEdge edge : SetSequence.<IEdge>fromSet(MapSequence.fromMap(myEdgeLayout).keySet())) {
+    for (IEdge edge : SetSequence.fromSet(MapSequence.fromMap(myEdgeLayout).keySet())) {
       this.removeStraightBends(edge);
     }
   }
 
   public void removeStraightBends(IEdge edge) {
-    List<Point> path = MapSequence.<IEdge,List<Point>>fromMap(myEdgeLayout).get(edge);
-    boolean ver = ListSequence.<Point>fromList(path).getElement(0).x == ListSequence.<Point>fromList(path).getElement(1).x;
+    List<Point> path = MapSequence.fromMap(myEdgeLayout).get(edge);
+    boolean ver = ListSequence.fromList(path).getElement(0).x == ListSequence.fromList(path).getElement(1).x;
     int i = 2;
-    while (i < ListSequence.<Point>fromList(path).count()) {
-      boolean curVer = ListSequence.<Point>fromList(path).getElement(i - 1).x == ListSequence.<Point>fromList(path).getElement(i).x;
+    while (i < ListSequence.fromList(path).count()) {
+      boolean curVer = ListSequence.fromList(path).getElement(i - 1).x == ListSequence.fromList(path).getElement(i).x;
       if (curVer == ver) {
-        ListSequence.<Point>fromList(path).removeElementAt(i - 1);
+        ListSequence.fromList(path).removeElementAt(i - 1);
       } else {
         i++;
         ver = curVer;
@@ -116,16 +116,16 @@ public class GraphLayout implements IGraphLayout {
   }
 
   public void shiftEdgeLayoutAlongEndsBorder(IEdge edge) {
-    Rectangle rect = MapSequence.<INode,Rectangle>fromMap(myNodeLayout).get(edge.getSource());
-    List<Point> path = MapSequence.<IEdge,List<Point>>fromMap(myEdgeLayout).get(edge);
-    Point p = OrthogonalUtil.moveToBorder(rect, ListSequence.<Point>fromList(path).getElement(0), ListSequence.<Point>fromList(path).getElement(1));
+    Rectangle rect = MapSequence.fromMap(myNodeLayout).get(edge.getSource());
+    List<Point> path = MapSequence.fromMap(myEdgeLayout).get(edge);
+    Point p = OrthogonalUtil.moveToBorder(rect, ListSequence.fromList(path).getElement(0), ListSequence.fromList(path).getElement(1));
     if (p != null) {
-      ListSequence.<Point>fromList(path).setElement(0, p);
+      ListSequence.fromList(path).setElement(0, p);
     }
-    rect = MapSequence.<INode,Rectangle>fromMap(myNodeLayout).get(edge.getTarget());
-    p = OrthogonalUtil.moveToBorder(rect, ListSequence.<Point>fromList(path).getElement(ListSequence.<Point>fromList(path).count() - 1), ListSequence.<Point>fromList(path).getElement(ListSequence.<Point>fromList(path).count() - 2));
+    rect = MapSequence.fromMap(myNodeLayout).get(edge.getTarget());
+    p = OrthogonalUtil.moveToBorder(rect, ListSequence.fromList(path).getElement(ListSequence.fromList(path).count() - 1), ListSequence.fromList(path).getElement(ListSequence.fromList(path).count() - 2));
     if (p != null) {
-      ListSequence.<Point>fromList(path).setElement(ListSequence.<Point>fromList(path).count() - 1, p);
+      ListSequence.fromList(path).setElement(ListSequence.fromList(path).count() - 1, p);
     }
   }
 
@@ -134,14 +134,14 @@ public class GraphLayout implements IGraphLayout {
     int minY = Integer.MAX_VALUE;
     int maxX = Integer.MIN_VALUE;
     int maxY = Integer.MIN_VALUE;
-    for (Rectangle rect : Sequence.<Rectangle>fromIterable(MapSequence.fromMap(myNodeLayout).values()).concat(Sequence.<Rectangle>fromIterable(MapSequence.fromMap(myLabelLayout).values()))) {
+    for (Rectangle rect : Sequence.fromIterable(MapSequence.fromMap(myNodeLayout).values()).concat(Sequence.fromIterable(MapSequence.fromMap(myLabelLayout).values()))) {
       minX = Math.min(minX, rect.x);
       minY = Math.min(minY, rect.y);
       maxX = Math.max(maxX, rect.x + rect.width);
       maxY = Math.max(maxY, rect.x + rect.height);
     }
-    for (List<Point> path : Sequence.<List<Point>>fromIterable(MapSequence.fromMap(myEdgeLayout).values())) {
-      for (Point p : ListSequence.<Point>fromList(path)) {
+    for (List<Point> path : Sequence.fromIterable(MapSequence.fromMap(myEdgeLayout).values())) {
+      for (Point p : ListSequence.fromList(path)) {
         minX = Math.min(minX, p.x);
         minY = Math.min(minY, p.y);
         maxX = Math.max(maxX, p.x);
@@ -155,11 +155,11 @@ public class GraphLayout implements IGraphLayout {
   public String toString() {
     StringBuilder builder = new StringBuilder();
     builder.append("Layout: \n");
-    for (INode node : SetSequence.<INode>fromSet(MapSequence.fromMap(myNodeLayout).keySet())) {
-      builder.append("  for node: " + node + ": " + MapSequence.<INode,Rectangle>fromMap(myNodeLayout).get(node) + "\n");
+    for (INode node : SetSequence.fromSet(MapSequence.fromMap(myNodeLayout).keySet())) {
+      builder.append("  for node: " + node + ": " + MapSequence.fromMap(myNodeLayout).get(node) + "\n");
     }
-    for (IEdge edge : SetSequence.<IEdge>fromSet(MapSequence.fromMap(myEdgeLayout).keySet())) {
-      builder.append("  for edge: " + edge + ": " + MapSequence.<IEdge,List<Point>>fromMap(myEdgeLayout).get(edge) + "\n");
+    for (IEdge edge : SetSequence.fromSet(MapSequence.fromMap(myEdgeLayout).keySet())) {
+      builder.append("  for edge: " + edge + ": " + MapSequence.fromMap(myEdgeLayout).get(edge) + "\n");
     }
     return builder.toString();
   }

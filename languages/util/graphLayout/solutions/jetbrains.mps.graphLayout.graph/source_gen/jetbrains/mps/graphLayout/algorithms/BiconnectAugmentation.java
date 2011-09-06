@@ -6,10 +6,10 @@ import java.util.Set;
 import jetbrains.mps.graphLayout.graph.Edge;
 import jetbrains.mps.graphLayout.graph.Graph;
 import jetbrains.mps.internal.collections.runtime.ListSequence;
-import jetbrains.mps.graphLayout.graph.Node;
 import jetbrains.mps.internal.collections.runtime.SetSequence;
 import java.util.LinkedHashSet;
 import java.util.List;
+import jetbrains.mps.graphLayout.graph.Node;
 import java.util.ArrayList;
 import jetbrains.mps.internal.collections.runtime.IWhereFilter;
 import java.util.Map;
@@ -20,30 +20,30 @@ public class BiconnectAugmentation {
   private static int SHOW_LOG = 0;
 
   public static Set<Edge> makeBiconnected(Graph graph) {
-    return new BiconnectAugmentation.MyDfs().doDfs(graph, ListSequence.<Node>fromList(graph.getNodes()).getElement(0));
+    return new BiconnectAugmentation.MyDfs().doDfs(graph, ListSequence.fromList(graph.getNodes()).getElement(0));
   }
 
   public static Set<Edge> smartMakeBiconnected(Graph graph) {
-    Set<Edge> addedEdges = SetSequence.<Edge>fromSet(new LinkedHashSet<Edge>());
+    Set<Edge> addedEdges = SetSequence.fromSet(new LinkedHashSet<Edge>());
     BiconnectedComponent root = BiconnectedComponent.createTree(graph);
     if (SHOW_LOG > 0) {
       System.out.println(root.toString(""));
     }
-    if (ListSequence.<BiconnectedComponent>fromList(root.getChildren()).count() > 0) {
-      List<Node> toConnect = ListSequence.<Node>fromList(new ArrayList<Node>());
+    if (ListSequence.fromList(root.getChildren()).count() > 0) {
+      List<Node> toConnect = ListSequence.fromList(new ArrayList<Node>());
       collectListNodes(root, toConnect, null);
-      if (SetSequence.<Node>fromSet(root.getNodes()).count() == 1) {
-        ListSequence.<Node>fromList(toConnect).addElement(SetSequence.<Node>fromSet(root.getNodes()).first());
+      if (SetSequence.fromSet(root.getNodes()).count() == 1) {
+        ListSequence.fromList(toConnect).addElement(SetSequence.fromSet(root.getNodes()).first());
       } else {
-        final Node cutpoint = root.getCutpoint(ListSequence.<BiconnectedComponent>fromList(root.getChildren()).first());
-        ListSequence.<Node>fromList(toConnect).addElement(SetSequence.<Node>fromSet(root.getNodes()).findFirst(new IWhereFilter<Node>() {
+        final Node cutpoint = root.getCutpoint(ListSequence.fromList(root.getChildren()).first());
+        ListSequence.fromList(toConnect).addElement(SetSequence.fromSet(root.getNodes()).findFirst(new IWhereFilter<Node>() {
           public boolean accept(Node it) {
             return it != cutpoint;
           }
         }));
       }
       Node prev = null;
-      for (Node node : ListSequence.<Node>fromList(toConnect)) {
+      for (Node node : ListSequence.fromList(toConnect)) {
         if (prev != null) {
           SetSequence.fromSet(addedEdges).addElement(graph.connect(prev, node));
         }
@@ -54,19 +54,19 @@ public class BiconnectAugmentation {
   }
 
   private static void collectListNodes(BiconnectedComponent component, List<Node> nodes, final Node cutpoint) {
-    if (ListSequence.<BiconnectedComponent>fromList(component.getChildren()).count() == 0) {
+    if (ListSequence.fromList(component.getChildren()).count() == 0) {
       Set<Node> componentNodes = component.getNodes();
-      if (SetSequence.<Node>fromSet(componentNodes).count() == 1) {
-        ListSequence.<Node>fromList(nodes).addElement(SetSequence.<Node>fromSet(componentNodes).first());
+      if (SetSequence.fromSet(componentNodes).count() == 1) {
+        ListSequence.fromList(nodes).addElement(SetSequence.fromSet(componentNodes).first());
       } else {
-        ListSequence.<Node>fromList(nodes).addElement(SetSequence.<Node>fromSet(componentNodes).findFirst(new IWhereFilter<Node>() {
+        ListSequence.fromList(nodes).addElement(SetSequence.fromSet(componentNodes).findFirst(new IWhereFilter<Node>() {
           public boolean accept(Node it) {
             return it != cutpoint;
           }
         }));
       }
     } else {
-      for (BiconnectedComponent child : ListSequence.<BiconnectedComponent>fromList(component.getChildren())) {
+      for (BiconnectedComponent child : ListSequence.fromList(component.getChildren())) {
         collectListNodes(child, nodes, component.getChildCutpoint(child));
       }
     }
@@ -88,11 +88,11 @@ public class BiconnectAugmentation {
       myNum = new NodeMap<Integer>(graph);
       myCurNum = 0;
       mySource = source;
-      myConnectToNew = SetSequence.<Node>fromSet(new LinkedHashSet<Node>());
+      myConnectToNew = SetSequence.fromSet(new LinkedHashSet<Node>());
       init(graph, Edge.Direction.BOTH);
       dfs(source, null);
-      Set<Edge> result = SetSequence.<Edge>fromSet(new LinkedHashSet<Edge>());
-      for (Node node : SetSequence.<Node>fromSet(myConnectToNew)) {
+      Set<Edge> result = SetSequence.fromSet(new LinkedHashSet<Edge>());
+      for (Node node : SetSequence.fromSet(myConnectToNew)) {
         SetSequence.fromSet(result).addElement(graph.connect(myNewNode, node));
       }
       return result;
@@ -100,14 +100,14 @@ public class BiconnectAugmentation {
 
     @Override
     protected void preprocess(Node node, Edge from) {
-      MapSequence.<Node,Integer>fromMap(myNum).put(node, myCurNum++);
-      MapSequence.<Node,Node>fromMap(myLow).put(node, node);
+      MapSequence.fromMap(myNum).put(node, myCurNum++);
+      MapSequence.fromMap(myLow).put(node, node);
     }
 
     @Override
     protected void processEdge(Edge edge, Node source) {
       Node next = edge.getOpposite(source);
-      if (MapSequence.<Node,Integer>fromMap(getDfsState()).get(next) == Dfs.DURING) {
+      if (MapSequence.fromMap(getDfsState()).get(next) == Dfs.DURING) {
         changeLow(source, next);
       }
     }
@@ -116,27 +116,27 @@ public class BiconnectAugmentation {
     protected void postprocess(Node node, Edge from) {
       if (from != null) {
         Node prev = from.getOpposite(node);
-        if (MapSequence.<Node,Integer>fromMap(myNum).get(prev) <= MapSequence.<Node,Integer>fromMap(myNum).get(MapSequence.<Node,Node>fromMap(myLow).get(node))) {
+        if (MapSequence.fromMap(myNum).get(prev) <= MapSequence.fromMap(myNum).get(MapSequence.fromMap(myLow).get(node))) {
           if (myNewNode == null) {
             createNewNode();
           }
           SetSequence.fromSet(myConnectToNew).addElement(node);
-          MapSequence.<Node,Node>fromMap(myLow).put(node, myNewNode);
+          MapSequence.fromMap(myLow).put(node, myNewNode);
         }
-        changeLow(prev, MapSequence.<Node,Node>fromMap(myLow).get(node));
+        changeLow(prev, MapSequence.fromMap(myLow).get(node));
       }
     }
 
     private void changeLow(Node node, Node newLow) {
-      Node oldLow = MapSequence.<Node,Node>fromMap(myLow).get(node);
-      if (MapSequence.<Node,Integer>fromMap(myNum).get(oldLow) > MapSequence.<Node,Integer>fromMap(myNum).get(newLow)) {
-        MapSequence.<Node,Node>fromMap(myLow).put(node, newLow);
+      Node oldLow = MapSequence.fromMap(myLow).get(node);
+      if (MapSequence.fromMap(myNum).get(oldLow) > MapSequence.fromMap(myNum).get(newLow)) {
+        MapSequence.fromMap(myLow).put(node, newLow);
       }
     }
 
     public void createNewNode() {
       myNewNode = getGraph().createNode();
-      MapSequence.<Node,Integer>fromMap(myNum).put(myNewNode, -1);
+      MapSequence.fromMap(myNum).put(myNewNode, -1);
       SetSequence.fromSet(myConnectToNew).addElement(mySource);
     }
   }

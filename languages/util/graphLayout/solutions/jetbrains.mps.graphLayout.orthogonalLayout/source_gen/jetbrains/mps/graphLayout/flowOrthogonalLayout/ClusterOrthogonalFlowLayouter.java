@@ -50,14 +50,14 @@ public class ClusterOrthogonalFlowLayouter extends OrthogonalFlowLayouter {
   @Override
   protected GraphLayout refineLayout(Graph graph, Set<Node> initialNodes, GraphLayout layout, Set<Edge> initialEdges, Map<Edge, List<Edge>> history, Map<Edge, Edge> labeledEdges) {
     ClusteredGraphLayout refinedLayout = ((ClusteredGraphLayout) super.refineLayout(graph, initialNodes, layout, initialEdges, history, labeledEdges));
-    for (Node cluster : SetSequence.<Node>fromSet(MapSequence.fromMap(myClusterBorderMap).keySet())) {
-      List<Edge> border = MapSequence.<Node,List<Edge>>fromMap(myClusterBorderMap).get(cluster);
-      List<Point> borderLayout = ListSequence.<Point>fromList(new LinkedList<Point>());
-      for (Edge borderEdge : ListSequence.<Edge>fromList(border)) {
-        List<Edge> borderEdgeHistory = MapSequence.<Edge,List<Edge>>fromMap(history).get(borderEdge);
-        for (Edge historyEdge : ListSequence.<Edge>fromList(borderEdgeHistory)) {
+    for (Node cluster : SetSequence.fromSet(MapSequence.fromMap(myClusterBorderMap).keySet())) {
+      List<Edge> border = MapSequence.fromMap(myClusterBorderMap).get(cluster);
+      List<Point> borderLayout = ListSequence.fromList(new LinkedList<Point>());
+      for (Edge borderEdge : ListSequence.fromList(border)) {
+        List<Edge> borderEdgeHistory = MapSequence.fromMap(history).get(borderEdge);
+        for (Edge historyEdge : ListSequence.fromList(borderEdgeHistory)) {
           List<Point> copyEdgeLayout = layout.getEdgeLayout(historyEdge);
-          ListSequence.<Point>fromList(borderLayout).addSequence(ListSequence.<Point>fromList(copyEdgeLayout));
+          ListSequence.fromList(borderLayout).addSequence(ListSequence.fromList(copyEdgeLayout));
         }
       }
       refinedLayout.setClusterLayout(cluster, borderLayout);
@@ -79,18 +79,18 @@ public class ClusterOrthogonalFlowLayouter extends OrthogonalFlowLayouter {
     this.checkClusterBorder(historyManager);
     myHistoryManager = historyManager;
     /*
-      myStraightEdges = SetSequence.<Edge>fromSet(new HashSet<Edge>());
-      for (List<Edge> border : Sequence.<List<Edge>>fromIterable(MapSequence.fromMap(myClusterBorderMap).values())) {
-        SetSequence.fromSet(myStraightEdges).addSequence(ListSequence.<Edge>fromList(border));
+      myStraightEdges = SetSequence.fromSet(new HashSet<Edge>());
+      for (List<Edge> border : Sequence.fromIterable(MapSequence.fromMap(myClusterBorderMap).values())) {
+        SetSequence.fromSet(myStraightEdges).addSequence(ListSequence.fromList(border));
       }
     */
     return embeddedGraph;
   }
 
   private void checkClusterBorder(EdgesHistoryManager historyManager) {
-    for (List<Edge> border : Sequence.<List<Edge>>fromIterable(MapSequence.fromMap(myClusterBorderMap).values())) {
-      for (Edge edge : ListSequence.<Edge>fromList(border)) {
-        if (ListSequence.<Edge>fromList(historyManager.getHistory(edge)).count() > 1) {
+    for (List<Edge> border : Sequence.fromIterable(MapSequence.fromMap(myClusterBorderMap).values())) {
+      for (Edge edge : ListSequence.fromList(border)) {
+        if (ListSequence.fromList(historyManager.getHistory(edge)).count() > 1) {
           throw new RuntimeException("wrong border!!!");
         }
       }

@@ -53,7 +53,7 @@ public class TestRandomGraph_Test extends TestCase {
     int cur = 0;
     for (int i = 0; i < numInLayer.length; i++) {
       for (int j = 0; j < numInLayer[i]; j++) {
-        MapSequence.<Node,Integer>fromMap(layers).put(g.getNode(cur), i);
+        MapSequence.fromMap(layers).put(g.getNode(cur), i);
         cur++;
       }
     }
@@ -61,9 +61,9 @@ public class TestRandomGraph_Test extends TestCase {
   }
 
   public void testEdges(Graph g, Map<Node, Integer> layers) {
-    for (Node node : ListSequence.<Node>fromList(g.getNodes())) {
-      for (Edge edge : ListSequence.<Edge>fromList(node.getInEdges())) {
-        Assert.assertTrue(MapSequence.<Node,Integer>fromMap(layers).get(edge.getSource()) < MapSequence.<Node,Integer>fromMap(layers).get(edge.getTarget()));
+    for (Node node : ListSequence.fromList(g.getNodes())) {
+      for (Edge edge : ListSequence.fromList(node.getInEdges())) {
+        Assert.assertTrue(MapSequence.fromMap(layers).get(edge.getSource()) < MapSequence.fromMap(layers).get(edge.getTarget()));
       }
     }
   }

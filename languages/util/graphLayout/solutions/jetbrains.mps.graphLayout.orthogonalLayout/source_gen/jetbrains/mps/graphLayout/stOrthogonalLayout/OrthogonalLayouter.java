@@ -31,29 +31,29 @@ public class OrthogonalLayouter implements IPointLayouter {
   public GraphPointLayout doLayout(Graph graph) {
     Map<Node, Integer> components = ConnectivityComponents.getComponents(graph);
     int maxComponent = 0;
-    for (Node node : ListSequence.<Node>fromList(graph.getNodes())) {
-      maxComponent = Math.max(maxComponent, MapSequence.<Node,Integer>fromMap(components).get(node));
+    for (Node node : ListSequence.fromList(graph.getNodes())) {
+      maxComponent = Math.max(maxComponent, MapSequence.fromMap(components).get(node));
     }
     Map<Node, Node> newNodes = new NodeMap<Node>(graph);
-    List<Graph> subgraphs = ListSequence.<Graph>fromList(new ArrayList<Graph>());
+    List<Graph> subgraphs = ListSequence.fromList(new ArrayList<Graph>());
     for (int i = 0; i <= maxComponent; i++) {
-      ListSequence.<Graph>fromList(subgraphs).addElement(new Graph());
+      ListSequence.fromList(subgraphs).addElement(new Graph());
     }
-    for (Node node : ListSequence.<Node>fromList(graph.getNodes())) {
-      Graph subgraph = ListSequence.<Graph>fromList(subgraphs).getElement(MapSequence.<Node,Integer>fromMap(components).get(node));
-      MapSequence.<Node,Node>fromMap(newNodes).put(node, subgraph.createNode());
+    for (Node node : ListSequence.fromList(graph.getNodes())) {
+      Graph subgraph = ListSequence.fromList(subgraphs).getElement(MapSequence.fromMap(components).get(node));
+      MapSequence.fromMap(newNodes).put(node, subgraph.createNode());
     }
-    for (Edge edge : ListSequence.<Edge>fromList(graph.getEdges())) {
-      Node source = MapSequence.<Node,Node>fromMap(newNodes).get(edge.getSource());
+    for (Edge edge : ListSequence.fromList(graph.getEdges())) {
+      Node source = MapSequence.fromMap(newNodes).get(edge.getSource());
       Graph subgraph = source.getGraph();
-      subgraph.connect(source, MapSequence.<Node,Node>fromMap(newNodes).get(edge.getTarget()));
+      subgraph.connect(source, MapSequence.fromMap(newNodes).get(edge.getTarget()));
     }
     /*
-      for (Graph subgraph : ListSequence.<Graph>fromList(subgraphs)) {
+      for (Graph subgraph : ListSequence.fromList(subgraphs)) {
         findSTLayout(graph);
       }
     */
-    return findSTLayout(ListSequence.<Graph>fromList(subgraphs).getElement(0));
+    return findSTLayout(ListSequence.fromList(subgraphs).getElement(0));
   }
 
   public GraphPointLayout findSTLayout(Graph graph) {
@@ -61,17 +61,17 @@ public class OrthogonalLayouter implements IPointLayouter {
     final int maxIndex = graph.getNumNodes();
     TreeEmbeddingFinder embeddingFinder = new TreeEmbeddingFinder();
     EmbeddedGraph embeddedGraph = new ShortestPathEmbeddingFinder(new BiconnectedInitialEmbeddingFinder()).find(graph);
-    List<Node> outerNodes = ListSequence.<Node>fromList(new ArrayList<Node>());
-    for (Dart dart : ListSequence.<Dart>fromList(embeddedGraph.getOuterFace().getDarts())) {
-      ListSequence.<Node>fromList(outerNodes).addElement(dart.getTarget());
+    List<Node> outerNodes = ListSequence.fromList(new ArrayList<Node>());
+    for (Dart dart : ListSequence.fromList(embeddedGraph.getOuterFace().getDarts())) {
+      ListSequence.fromList(outerNodes).addElement(dart.getTarget());
     }
-    outerNodes = ListSequence.<Node>fromList(outerNodes).where(new IWhereFilter<Node>() {
+    outerNodes = ListSequence.fromList(outerNodes).where(new IWhereFilter<Node>() {
       public boolean accept(Node it) {
         return it.getIndex() < maxIndex;
       }
     }).toListSequence();
-    Node s = ListSequence.<Node>fromList(outerNodes).getElement(0);
-    Node t = ListSequence.<Node>fromList(outerNodes).getElement((ListSequence.<Node>fromList(outerNodes).count()) / 2);
+    Node s = ListSequence.fromList(outerNodes).getElement(0);
+    Node t = ListSequence.fromList(outerNodes).getElement((ListSequence.fromList(outerNodes).count()) / 2);
     GraphOrientation.orientST(graph, s, t);
     STPlanarGraph stPlanarGraph = new STPlanarGraph(embeddedGraph, s, t);
     return new OrthogonalFromVisibility().doLayout(stPlanarGraph);

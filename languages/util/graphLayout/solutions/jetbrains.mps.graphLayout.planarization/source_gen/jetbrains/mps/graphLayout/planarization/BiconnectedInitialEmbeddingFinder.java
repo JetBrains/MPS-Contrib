@@ -29,16 +29,16 @@ public class BiconnectedInitialEmbeddingFinder implements IEmbeddingFinder {
   public EmbeddedGraph find(Graph graph) {
     EmbeddedGraph embeddedGraph = new EmbeddedGraph(graph);
     this.findCycle(embeddedGraph);
-    Set<Node> toBeAdded = SetSequence.<Node>fromSet(new HashSet<Node>());
-    SetSequence.fromSet(toBeAdded).addSequence(ListSequence.<Node>fromList(graph.getNodes()));
-    for (Dart dart : ListSequence.<Dart>fromList(embeddedGraph.getOuterFace().getDarts())) {
+    Set<Node> toBeAdded = SetSequence.fromSet(new HashSet<Node>());
+    SetSequence.fromSet(toBeAdded).addSequence(ListSequence.fromList(graph.getNodes()));
+    for (Dart dart : ListSequence.fromList(embeddedGraph.getOuterFace().getDarts())) {
       SetSequence.fromSet(toBeAdded).removeElement(dart.getSource());
     }
-    while (SetSequence.<Node>fromSet(toBeAdded).count() > 0) {
-      for (Edge edge : ListSequence.<Edge>fromList(graph.getEdges())) {
-        for (Node node : ListSequence.<Node>fromList(edge.getAdjacentNodes())) {
+    while (SetSequence.fromSet(toBeAdded).count() > 0) {
+      for (Edge edge : ListSequence.fromList(graph.getEdges())) {
+        for (Node node : ListSequence.fromList(edge.getAdjacentNodes())) {
           Node opNode = edge.getOpposite(node);
-          if (!(SetSequence.<Node>fromSet(toBeAdded).contains(node)) && SetSequence.<Node>fromSet(toBeAdded).contains(opNode)) {
+          if (!(SetSequence.fromSet(toBeAdded).contains(node)) && SetSequence.fromSet(toBeAdded).contains(opNode)) {
             addPath(embeddedGraph, node, opNode, toBeAdded);
           }
         }
@@ -51,33 +51,33 @@ public class BiconnectedInitialEmbeddingFinder implements IEmbeddingFinder {
     if (SHOW_LOG > 0) {
       System.out.println("before: \n" + embeddedGraph);
     }
-    Set<Edge> removed = SetSequence.<Edge>fromSet(new HashSet<Edge>());
-    for (Edge edge : ListSequence.<Edge>fromList(start.getEdges())) {
-      if (SetSequence.<Node>fromSet(toBeAdded).contains(edge.getOpposite(start))) {
+    Set<Edge> removed = SetSequence.fromSet(new HashSet<Edge>());
+    for (Edge edge : ListSequence.fromList(start.getEdges())) {
+      if (SetSequence.fromSet(toBeAdded).contains(edge.getOpposite(start))) {
         SetSequence.fromSet(removed).addElement(edge);
       }
     }
-    for (Edge edge : SetSequence.<Edge>fromSet(removed)) {
+    for (Edge edge : SetSequence.fromSet(removed)) {
       embeddedGraph.getGraph().removeEdge(edge);
     }
     List<Edge> path = ShortestPath.getPath(embeddedGraph.getGraph(), toAdd, start, Edge.Direction.BOTH);
     int endIndex = 0;
     Node cur = toAdd;
-    while (SetSequence.<Node>fromSet(toBeAdded).contains(cur)) {
-      cur = ListSequence.<Edge>fromList(path).getElement(endIndex).getOpposite(cur);
+    while (SetSequence.fromSet(toBeAdded).contains(cur)) {
+      cur = ListSequence.fromList(path).getElement(endIndex).getOpposite(cur);
       endIndex++;
     }
-    path = ListSequence.<Edge>fromList(path).subListSequence(0, endIndex);
-    for (Edge edge : SetSequence.<Edge>fromSet(removed)) {
+    path = ListSequence.fromList(path).subListSequence(0, endIndex);
+    for (Edge edge : SetSequence.fromSet(removed)) {
       embeddedGraph.getGraph().addEdge(edge);
     }
-    ListSequence.<Edge>fromList(path).insertElement(0, ListSequence.<Edge>fromList(SetSequence.<Edge>fromSet(removed).where(new IWhereFilter<Edge>() {
+    ListSequence.fromList(path).insertElement(0, ListSequence.fromList(SetSequence.fromSet(removed).where(new IWhereFilter<Edge>() {
       public boolean accept(Edge it) {
         return it.getOpposite(start) == toAdd;
       }
     }).toListSequence()).getElement(0));
-    for (Edge edge : ListSequence.<Edge>fromList(path)) {
-      for (Node node : ListSequence.<Node>fromList(edge.getAdjacentNodes())) {
+    for (Edge edge : ListSequence.fromList(path)) {
+      for (Node node : ListSequence.fromList(edge.getAdjacentNodes())) {
         SetSequence.fromSet(toBeAdded).removeElement(node);
       }
     }
@@ -88,37 +88,37 @@ public class BiconnectedInitialEmbeddingFinder implements IEmbeddingFinder {
   }
 
   private void findCycle(EmbeddedGraph embeddedGraph) {
-    Set<Node> visited = SetSequence.<Node>fromSet(new HashSet<Node>());
-    List<Dart> darts = ListSequence.<Dart>fromList(new ArrayList<Dart>());
+    Set<Node> visited = SetSequence.fromSet(new HashSet<Node>());
+    List<Dart> darts = ListSequence.fromList(new ArrayList<Dart>());
     Graph graph = embeddedGraph.getGraph();
     Node cur = graph.getNode(0);
     Edge prevEdge = null;
-    while (!(SetSequence.<Node>fromSet(visited).contains(cur))) {
+    while (!(SetSequence.fromSet(visited).contains(cur))) {
       SetSequence.fromSet(visited).addElement(cur);
-      Edge next = ListSequence.<Edge>fromList(cur.getEdges()).getElement(0);
+      Edge next = ListSequence.fromList(cur.getEdges()).getElement(0);
       if (next == prevEdge) {
-        next = ListSequence.<Edge>fromList(cur.getEdges()).getElement(1);
+        next = ListSequence.fromList(cur.getEdges()).getElement(1);
       }
-      ListSequence.<Dart>fromList(darts).addElement(new Dart(next, cur));
+      ListSequence.fromList(darts).addElement(new Dart(next, cur));
       cur = next.getOpposite(cur);
       prevEdge = next;
     }
-    List<Dart> path = ListSequence.<Dart>fromList(new ArrayList<Dart>());
+    List<Dart> path = ListSequence.fromList(new ArrayList<Dart>());
     boolean inCycle = false;
-    for (Dart dart : ListSequence.<Dart>fromList(darts)) {
+    for (Dart dart : ListSequence.fromList(darts)) {
       if (dart.getSource() == cur) {
         inCycle = true;
       }
       if (inCycle) {
-        ListSequence.<Dart>fromList(path).addElement(dart);
+        ListSequence.fromList(path).addElement(dart);
       }
     }
     Face innerFace = new Face(graph);
-    for (Dart dart : ListSequence.<Dart>fromList(path)) {
+    for (Dart dart : ListSequence.fromList(path)) {
       innerFace.addLast(dart);
     }
     Face outerFace = new Face(graph);
-    for (Dart dart : ListSequence.<Dart>fromList(path).reversedList()) {
+    for (Dart dart : ListSequence.fromList(path).reversedList()) {
       outerFace.addLast(new Dart(dart.getEdge(), dart.getTarget()));
     }
     embeddedGraph.addFace(innerFace);
@@ -132,48 +132,48 @@ public class BiconnectedInitialEmbeddingFinder implements IEmbeddingFinder {
     Node dualStart = dualGraph.addRealNode(start);
     Node dualEnd = dualGraph.addRealNode(end);
     List<Edge> dualPath = ShortestPath.getPath(dualGraph, dualStart, dualEnd, Edge.Direction.BOTH);
-    List<Node> nodePath = ListSequence.<Node>fromList(new ArrayList<Node>());
-    List<Face> facePath = ListSequence.<Face>fromList(new ArrayList<Face>());
-    ListSequence.<Node>fromList(nodePath).addElement(start);
+    List<Node> nodePath = ListSequence.fromList(new ArrayList<Node>());
+    List<Face> facePath = ListSequence.fromList(new ArrayList<Face>());
+    ListSequence.fromList(nodePath).addElement(start);
     Node cur = dualStart;
-    for (Edge edge : ListSequence.<Edge>fromList(dualPath)) {
-      Edge realEdge = MapSequence.<Edge,Edge>fromMap(dualGraph.getEdgesMap()).get(edge);
+    for (Edge edge : ListSequence.fromList(dualPath)) {
+      Edge realEdge = MapSequence.fromMap(dualGraph.getEdgesMap()).get(edge);
       if (embeddedGraph.getAdjacentFaces(realEdge) != null) {
-        ListSequence.<Node>fromList(nodePath).addElement(embeddedGraph.splitEdge(MapSequence.<Edge,Edge>fromMap(dualGraph.getEdgesMap()).get(edge)));
+        ListSequence.fromList(nodePath).addElement(embeddedGraph.splitEdge(MapSequence.fromMap(dualGraph.getEdgesMap()).get(edge)));
       }
       cur = edge.getOpposite(cur);
-      Face curFace = MapSequence.<Node,Face>fromMap(dualGraph.getFacesMap()).get(cur);
+      Face curFace = MapSequence.fromMap(dualGraph.getFacesMap()).get(cur);
       if (curFace != null) {
-        ListSequence.<Face>fromList(facePath).addElement(curFace);
+        ListSequence.fromList(facePath).addElement(curFace);
       }
     }
-    ListSequence.<Node>fromList(nodePath).addElement(end);
+    ListSequence.fromList(nodePath).addElement(end);
     Edge deletedEdge = null;
-    List<Edge> newEdges = ListSequence.<Edge>fromList(new ArrayList<Edge>());
-    for (int i = 0; i < ListSequence.<Node>fromList(nodePath).count() - 1; i++) {
-      Node curStart = ListSequence.<Node>fromList(nodePath).getElement(i);
-      Node curEnd = ListSequence.<Node>fromList(nodePath).getElement(i + 1);
-      List<Edge> tempPath = ListSequence.<Edge>fromList(new ArrayList<Edge>());
+    List<Edge> newEdges = ListSequence.fromList(new ArrayList<Edge>());
+    for (int i = 0; i < ListSequence.fromList(nodePath).count() - 1; i++) {
+      Node curStart = ListSequence.fromList(nodePath).getElement(i);
+      Node curEnd = ListSequence.fromList(nodePath).getElement(i + 1);
+      List<Edge> tempPath = ListSequence.fromList(new ArrayList<Edge>());
       if (i == 0) {
-        if (end == ListSequence.<Node>fromList(nodePath).getElement(i + 1)) {
-          ListSequence.<Edge>fromList(tempPath).addSequence(ListSequence.<Edge>fromList(path));
+        if (end == ListSequence.fromList(nodePath).getElement(i + 1)) {
+          ListSequence.fromList(tempPath).addSequence(ListSequence.fromList(path));
         } else {
-          Edge lastEdge = ListSequence.<Edge>fromList(path).removeLastElement();
+          Edge lastEdge = ListSequence.fromList(path).removeLastElement();
           graph.removeEdge(lastEdge);
           deletedEdge = lastEdge;
-          ListSequence.<Edge>fromList(tempPath).addSequence(ListSequence.<Edge>fromList(path));
+          ListSequence.fromList(tempPath).addSequence(ListSequence.fromList(path));
           Edge newEdge;
           newEdge = graph.connect(lastEdge.getOpposite(end), curEnd);
-          ListSequence.<Edge>fromList(newEdges).addElement(newEdge);
-          ListSequence.<Edge>fromList(tempPath).addElement(newEdge);
+          ListSequence.fromList(newEdges).addElement(newEdge);
+          ListSequence.fromList(tempPath).addElement(newEdge);
         }
       } else {
         Edge newEdge;
         newEdge = graph.connect(curStart, curEnd);
-        ListSequence.<Edge>fromList(newEdges).addElement(newEdge);
-        ListSequence.<Edge>fromList(tempPath).addElement(newEdge);
+        ListSequence.fromList(newEdges).addElement(newEdge);
+        ListSequence.fromList(tempPath).addElement(newEdge);
       }
-      embeddedGraph.splitFace(ListSequence.<Face>fromList(facePath).getElement(i), tempPath, curStart, curEnd);
+      embeddedGraph.splitFace(ListSequence.fromList(facePath).getElement(i), tempPath, curStart, curEnd);
       if (deletedEdge != null) {
         GraphModificationEvent splitEvent = new GraphModificationEvent(GraphModificationEvent.Type.EDGE_SPLITTED, deletedEdge, newEdges);
         graph.getModificationProcessor().fire(splitEvent);

@@ -42,53 +42,53 @@ public class BKCoordinatePlacer implements ICoordinatePlacer {
     this.myGraph = graph;
     this.myOrder = order;
     this.init();
-    List<Map<Node, Integer>> xCoords = ListSequence.<Map<Node, Integer>>fromList(new ArrayList<Map<Node, Integer>>());
-    ListSequence.<Map<Node, Integer>>fromList(xCoords).addElement(computeCoords(TOP_TO_BOTTOM, LEFTMOST));
-    ListSequence.<Map<Node, Integer>>fromList(xCoords).addElement(computeCoords(TOP_TO_BOTTOM, RIGHTMOST));
-    ListSequence.<Map<Node, Integer>>fromList(xCoords).addElement(computeCoords(BOTTOM_TO_TOP, LEFTMOST));
-    ListSequence.<Map<Node, Integer>>fromList(xCoords).addElement(computeCoords(BOTTOM_TO_TOP, RIGHTMOST));
-    List<Integer> maxCoord = ListSequence.<Integer>fromList(new ArrayList<Integer>());
+    List<Map<Node, Integer>> xCoords = ListSequence.fromList(new ArrayList<Map<Node, Integer>>());
+    ListSequence.fromList(xCoords).addElement(computeCoords(TOP_TO_BOTTOM, LEFTMOST));
+    ListSequence.fromList(xCoords).addElement(computeCoords(TOP_TO_BOTTOM, RIGHTMOST));
+    ListSequence.fromList(xCoords).addElement(computeCoords(BOTTOM_TO_TOP, LEFTMOST));
+    ListSequence.fromList(xCoords).addElement(computeCoords(BOTTOM_TO_TOP, RIGHTMOST));
+    List<Integer> maxCoord = ListSequence.fromList(new ArrayList<Integer>());
     int minMaxCoord = Integer.MAX_VALUE;
     List<Node> nodes = graph.getNodes();
-    for (Map<Node, Integer> coords : ListSequence.<Map<Node, Integer>>fromList(xCoords)) {
+    for (Map<Node, Integer> coords : ListSequence.fromList(xCoords)) {
       int curMaxCoord = 0;
-      for (Node node : ListSequence.<Node>fromList(nodes)) {
-        curMaxCoord = Math.max(curMaxCoord, MapSequence.<Node,Integer>fromMap(coords).get(node));
+      for (Node node : ListSequence.fromList(nodes)) {
+        curMaxCoord = Math.max(curMaxCoord, MapSequence.fromMap(coords).get(node));
       }
       minMaxCoord = Math.min(minMaxCoord, curMaxCoord);
-      ListSequence.<Integer>fromList(maxCoord).addElement(curMaxCoord);
+      ListSequence.fromList(maxCoord).addElement(curMaxCoord);
     }
-    List<Integer> shifts = ListSequence.<Integer>fromList(new ArrayList<Integer>());
-    for (int i = 0; i < ListSequence.<Map<Node, Integer>>fromList(xCoords).count(); i++) {
+    List<Integer> shifts = ListSequence.fromList(new ArrayList<Integer>());
+    for (int i = 0; i < ListSequence.fromList(xCoords).count(); i++) {
       if (i % 2 == 0) {
-        ListSequence.<Integer>fromList(shifts).addElement(0);
+        ListSequence.fromList(shifts).addElement(0);
       } else {
-        ListSequence.<Integer>fromList(shifts).addElement(minMaxCoord - ListSequence.<Integer>fromList(maxCoord).getElement(i));
+        ListSequence.fromList(shifts).addElement(minMaxCoord - ListSequence.fromList(maxCoord).getElement(i));
       }
     }
     Map<Node, Integer> finalXCoord = new NodeMap<Integer>(graph);
-    for (Node node : ListSequence.<Node>fromList(nodes)) {
-      List<Integer> nodeXCoords = ListSequence.<Integer>fromList(new ArrayList<Integer>());
-      for (int i = 0; i < ListSequence.<Map<Node, Integer>>fromList(xCoords).count(); i++) {
-        ListSequence.<Integer>fromList(nodeXCoords).addElement(MapSequence.<Node,Integer>fromMap(ListSequence.<Map<Node, Integer>>fromList(xCoords).getElement(i)).get(node) + ListSequence.<Integer>fromList(shifts).getElement(i));
+    for (Node node : ListSequence.fromList(nodes)) {
+      List<Integer> nodeXCoords = ListSequence.fromList(new ArrayList<Integer>());
+      for (int i = 0; i < ListSequence.fromList(xCoords).count(); i++) {
+        ListSequence.fromList(nodeXCoords).addElement(MapSequence.fromMap(ListSequence.fromList(xCoords).getElement(i)).get(node) + ListSequence.fromList(shifts).getElement(i));
       }
-      nodeXCoords = ListSequence.<Integer>fromList(nodeXCoords).sort(new ISelector<Integer, Comparable<?>>() {
+      nodeXCoords = ListSequence.fromList(nodeXCoords).sort(new ISelector<Integer, Comparable<?>>() {
         public Comparable<?> select(Integer it) {
           return it;
         }
       }, true).toListSequence();
-      MapSequence.<Node,Integer>fromMap(finalXCoord).put(node, ListSequence.<Integer>fromList(nodeXCoords).getElement(1) + ListSequence.<Integer>fromList(nodeXCoords).getElement(2));
+      MapSequence.fromMap(finalXCoord).put(node, ListSequence.fromList(nodeXCoords).getElement(1) + ListSequence.fromList(nodeXCoords).getElement(2));
     }
     int minXCoord = Integer.MAX_VALUE;
-    for (Node node : ListSequence.<Node>fromList(nodes)) {
-      minXCoord = Math.min(minXCoord, MapSequence.<Node,Integer>fromMap(finalXCoord).get(node));
+    for (Node node : ListSequence.fromList(nodes)) {
+      minXCoord = Math.min(minXCoord, MapSequence.fromMap(finalXCoord).get(node));
     }
-    for (Node node : ListSequence.<Node>fromList(nodes)) {
-      MapSequence.<Node,Integer>fromMap(finalXCoord).put(node, MapSequence.<Node,Integer>fromMap(finalXCoord).get(node) - minXCoord);
+    for (Node node : ListSequence.fromList(nodes)) {
+      MapSequence.fromMap(finalXCoord).put(node, MapSequence.fromMap(finalXCoord).get(node) - minXCoord);
     }
     Map<Node, Point> coord = new NodeMap<Point>(graph);
-    for (Node node : ListSequence.<Node>fromList(nodes)) {
-      MapSequence.<Node,Point>fromMap(coord).put(node, new Point(MapSequence.<Node,Integer>fromMap(finalXCoord).get(node), MapSequence.<Node,Integer>fromMap(myNumLayer).get(node)));
+    for (Node node : ListSequence.fromList(nodes)) {
+      MapSequence.fromMap(coord).put(node, new Point(MapSequence.fromMap(finalXCoord).get(node), MapSequence.fromMap(myNumLayer).get(node)));
     }
     return coord;
   }
@@ -105,16 +105,16 @@ public class BKCoordinatePlacer implements ICoordinatePlacer {
     Map<Node, Integer> layers = new BlockGraphProcessor().process(blockGraph);
     Map<Node, Integer> curCoords = new NodeMap<Integer>(myGraph);
     if (layerDir == LEFTMOST) {
-      for (Node node : ListSequence.<Node>fromList(myGraph.getNodes())) {
-        MapSequence.<Node,Integer>fromMap(curCoords).put(node, MapSequence.<Node,Integer>fromMap(layers).get(MapSequence.<Node,Node>fromMap(myBlocks).get(MapSequence.<Node,Node>fromMap(roots).get(node))));
+      for (Node node : ListSequence.fromList(myGraph.getNodes())) {
+        MapSequence.fromMap(curCoords).put(node, MapSequence.fromMap(layers).get(MapSequence.fromMap(myBlocks).get(MapSequence.fromMap(roots).get(node))));
       }
     } else {
       int maxCoord = 0;
-      for (Node block : ListSequence.<Node>fromList(blockGraph.getNodes())) {
-        maxCoord = Math.max(maxCoord, MapSequence.<Node,Integer>fromMap(layers).get(block));
+      for (Node block : ListSequence.fromList(blockGraph.getNodes())) {
+        maxCoord = Math.max(maxCoord, MapSequence.fromMap(layers).get(block));
       }
-      for (Node node : ListSequence.<Node>fromList(myGraph.getNodes())) {
-        MapSequence.<Node,Integer>fromMap(curCoords).put(node, maxCoord - MapSequence.<Node,Integer>fromMap(layers).get(MapSequence.<Node,Node>fromMap(myBlocks).get(MapSequence.<Node,Node>fromMap(roots).get(node))));
+      for (Node node : ListSequence.fromList(myGraph.getNodes())) {
+        MapSequence.fromMap(curCoords).put(node, maxCoord - MapSequence.fromMap(layers).get(MapSequence.fromMap(myBlocks).get(MapSequence.fromMap(roots).get(node))));
       }
     }
     return curCoords;
@@ -122,16 +122,16 @@ public class BKCoordinatePlacer implements ICoordinatePlacer {
 
   public Graph createBlockGraph(Iterator<List<Node>> orderIterator, Map<Node, Node> roots, int layerDirection) {
     Graph blockGraph = new Graph();
-    myBlocks = MapSequence.<Node,Node>fromMap(new HashMap<Node, Node>());
+    myBlocks = MapSequence.fromMap(new HashMap<Node, Node>());
     while (orderIterator.hasNext()) {
       Node prevBlock = null;
       Iterator<Node> nodeIterator = getListIterator(orderIterator.next(), layerDirection);
       while (nodeIterator.hasNext()) {
         Node node = nodeIterator.next();
-        if (MapSequence.<Node,Node>fromMap(roots).get(node) == node) {
-          MapSequence.<Node,Node>fromMap(myBlocks).put(node, blockGraph.createNode());
+        if (MapSequence.fromMap(roots).get(node) == node) {
+          MapSequence.fromMap(myBlocks).put(node, blockGraph.createNode());
         }
-        Node currentBlock = MapSequence.<Node,Node>fromMap(myBlocks).get(MapSequence.<Node,Node>fromMap(roots).get(node));
+        Node currentBlock = MapSequence.fromMap(myBlocks).get(MapSequence.fromMap(roots).get(node));
         if (prevBlock != null) {
           blockGraph.connect(prevBlock, currentBlock);
         }
@@ -146,27 +146,27 @@ public class BKCoordinatePlacer implements ICoordinatePlacer {
     myNumLayer = new NodeMap<Integer>(myGraph);
     for (int layer = 0; layer < myOrder.getNumLayers(); layer++) {
       List<Node> layerOrder = myOrder.getOrder(layer);
-      for (int pos = 0; pos < ListSequence.<Node>fromList(layerOrder).count(); pos++) {
-        MapSequence.<Node,Integer>fromMap(myPosInLayer).put(ListSequence.<Node>fromList(layerOrder).getElement(pos), pos);
-        MapSequence.<Node,Integer>fromMap(myNumLayer).put(ListSequence.<Node>fromList(layerOrder).getElement(pos), layer);
+      for (int pos = 0; pos < ListSequence.fromList(layerOrder).count(); pos++) {
+        MapSequence.fromMap(myPosInLayer).put(ListSequence.fromList(layerOrder).getElement(pos), pos);
+        MapSequence.fromMap(myNumLayer).put(ListSequence.fromList(layerOrder).getElement(pos), layer);
       }
     }
-    badEdges = SetSequence.<Edge>fromSet(new HashSet<Edge>());
+    badEdges = SetSequence.fromSet(new HashSet<Edge>());
     for (int layer = 0; layer < myOrder.getNumLayers() - 1; layer++) {
-      SetSequence.fromSet(badEdges).addSequence(SetSequence.<Edge>fromSet(findBadEdgesInLayer(myOrder.getOrder(layer))));
+      SetSequence.fromSet(badEdges).addSequence(SetSequence.fromSet(findBadEdgesInLayer(myOrder.getOrder(layer))));
     }
   }
 
   private Set<Edge> findBadEdgesInLayer(List<Node> layerOrder) {
-    Set<Edge> badEdges = SetSequence.<Edge>fromSet(new HashSet<Edge>());
+    Set<Edge> badEdges = SetSequence.fromSet(new HashSet<Edge>());
     int closestInnerEdgePos = -1;
-    for (int i = 0; i < ListSequence.<Node>fromList(layerOrder).count(); i++) {
-      Node node = ListSequence.<Node>fromList(layerOrder).getElement(i);
+    for (int i = 0; i < ListSequence.fromList(layerOrder).count(); i++) {
+      Node node = ListSequence.fromList(layerOrder).getElement(i);
       if (isInnerDummy(node)) {
         closestInnerEdgePos = getOppositePos(node);
       } else {
-        for (Edge edge : ListSequence.<Edge>fromList(node.getOutEdges())) {
-          int targetPos = MapSequence.<Node,Integer>fromMap(myPosInLayer).get(edge.getTarget());
+        for (Edge edge : ListSequence.fromList(node.getOutEdges())) {
+          int targetPos = MapSequence.fromMap(myPosInLayer).get(edge.getTarget());
           if (targetPos < closestInnerEdgePos) {
             SetSequence.fromSet(badEdges).addElement(edge);
           }
@@ -174,13 +174,13 @@ public class BKCoordinatePlacer implements ICoordinatePlacer {
       }
     }
     closestInnerEdgePos = Integer.MAX_VALUE;
-    for (int i = ListSequence.<Node>fromList(layerOrder).count() - 1; i >= 0; i--) {
-      Node node = ListSequence.<Node>fromList(layerOrder).getElement(i);
+    for (int i = ListSequence.fromList(layerOrder).count() - 1; i >= 0; i--) {
+      Node node = ListSequence.fromList(layerOrder).getElement(i);
       if (isInnerDummy(node)) {
         closestInnerEdgePos = getOppositePos(node);
       } else {
-        for (Edge edge : ListSequence.<Edge>fromList(node.getOutEdges())) {
-          int targetPos = MapSequence.<Node,Integer>fromMap(myPosInLayer).get(edge.getTarget());
+        for (Edge edge : ListSequence.fromList(node.getOutEdges())) {
+          int targetPos = MapSequence.fromMap(myPosInLayer).get(edge.getTarget());
           if (targetPos > closestInnerEdgePos) {
             SetSequence.fromSet(badEdges).addElement(edge);
           }
@@ -191,22 +191,22 @@ public class BKCoordinatePlacer implements ICoordinatePlacer {
   }
 
   private boolean isInnerDummy(Node node) {
-    if (ListSequence.<Edge>fromList(node.getOutEdges()).count() != 1) {
+    if (ListSequence.fromList(node.getOutEdges()).count() != 1) {
       return false;
     }
-    Edge edge = ListSequence.<Edge>fromList(node.getOutEdges()).getElement(0);
+    Edge edge = ListSequence.fromList(node.getOutEdges()).getElement(0);
     return edge.getSource().isDummy() && edge.getTarget().isDummy();
   }
 
   private int getOppositePos(Node dummyNode) {
-    return MapSequence.<Node,Integer>fromMap(myPosInLayer).get(ListSequence.<Edge>fromList(dummyNode.getOutEdges()).getElement(0).getTarget());
+    return MapSequence.fromMap(myPosInLayer).get(ListSequence.fromList(dummyNode.getOutEdges()).getElement(0).getTarget());
   }
 
   private Iterator<Node> getListIterator(List<Node> nodeList, int direction) {
     if (direction == LEFTMOST) {
-      return ListSequence.<Node>fromList(nodeList).iterator();
+      return ListSequence.fromList(nodeList).iterator();
     } else {
-      return ListSequence.<Node>fromList(nodeList).reversedList().iterator();
+      return ListSequence.fromList(nodeList).reversedList().iterator();
     }
   }
 
@@ -220,22 +220,22 @@ public class BKCoordinatePlacer implements ICoordinatePlacer {
 
   public Map<Node, Node> computeBlocks(Iterator<List<Node>> layerIterator, final Edge.Direction dir, int layerDirection) {
     Map<Node, Node> roots = new NodeMap<Node>(myGraph);
-    for (Node node : ListSequence.<Node>fromList(myGraph.getNodes())) {
-      MapSequence.<Node,Node>fromMap(roots).put(node, node);
+    for (Node node : ListSequence.fromList(myGraph.getNodes())) {
+      MapSequence.fromMap(roots).put(node, node);
     }
     final Wrappers._T<_FunctionTypes._return_P2_E0<? extends Integer, ? super Edge, ? super Edge>> edgeComparator = new Wrappers._T<_FunctionTypes._return_P2_E0<? extends Integer, ? super Edge, ? super Edge>>();
     int initPositionValue;
     if (layerDirection == LEFTMOST) {
       edgeComparator.value = new _FunctionTypes._return_P2_E0<Integer, Edge, Edge>() {
         public Integer invoke(Edge a, Edge b) {
-          return MapSequence.<Node,Integer>fromMap(myPosInLayer).get(a.getTarget(dir)) - MapSequence.<Node,Integer>fromMap(myPosInLayer).get(b.getTarget(dir));
+          return MapSequence.fromMap(myPosInLayer).get(a.getTarget(dir)) - MapSequence.fromMap(myPosInLayer).get(b.getTarget(dir));
         }
       };
       initPositionValue = -1;
     } else {
       edgeComparator.value = new _FunctionTypes._return_P2_E0<Integer, Edge, Edge>() {
         public Integer invoke(Edge a, Edge b) {
-          return MapSequence.<Node,Integer>fromMap(myPosInLayer).get(b.getTarget(dir)) - MapSequence.<Node,Integer>fromMap(myPosInLayer).get(a.getTarget(dir));
+          return MapSequence.fromMap(myPosInLayer).get(b.getTarget(dir)) - MapSequence.fromMap(myPosInLayer).get(a.getTarget(dir));
         }
       };
       initPositionValue = Integer.MAX_VALUE;
@@ -246,25 +246,25 @@ public class BKCoordinatePlacer implements ICoordinatePlacer {
       Iterator<Node> nodeIterator = getListIterator(layerIterator.next(), layerDirection);
       while (nodeIterator.hasNext()) {
         Node node = nodeIterator.next();
-        if (ListSequence.<Edge>fromList(node.getEdges(dir)).count() > 0) {
-          List<Edge> sortedByPos = ListSequence.<Edge>fromList(node.getEdges(dir)).sort(new Comparator<Edge>() {
+        if (ListSequence.fromList(node.getEdges(dir)).count() > 0) {
+          List<Edge> sortedByPos = ListSequence.fromList(node.getEdges(dir)).sort(new Comparator<Edge>() {
             public int compare(Edge a, Edge b) {
               return edgeComparator.value.invoke(a, b);
             }
           }, true).toListSequence();
-          List<Edge> candidates = ListSequence.<Edge>fromList(new ArrayList<Edge>());
-          ListSequence.<Edge>fromList(candidates).addElement(ListSequence.<Edge>fromList(sortedByPos).getElement((ListSequence.<Edge>fromList(sortedByPos).count() - 1) / 2));
-          ListSequence.<Edge>fromList(candidates).addElement(ListSequence.<Edge>fromList(sortedByPos).getElement(ListSequence.<Edge>fromList(sortedByPos).count() / 2));
+          List<Edge> candidates = ListSequence.fromList(new ArrayList<Edge>());
+          ListSequence.fromList(candidates).addElement(ListSequence.fromList(sortedByPos).getElement((ListSequence.fromList(sortedByPos).count() - 1) / 2));
+          ListSequence.fromList(candidates).addElement(ListSequence.fromList(sortedByPos).getElement(ListSequence.fromList(sortedByPos).count() / 2));
           if (layerDirection != LEFTMOST) {
-            candidates = ListSequence.<Edge>fromList(candidates).reversedList();
+            candidates = ListSequence.fromList(candidates).reversedList();
           }
-          boolean hasDummy0 = ListSequence.<Edge>fromList(candidates).getElement(0).getSource().isDummy() || ListSequence.<Edge>fromList(candidates).getElement(0).getTarget().isDummy();
-          boolean hasDummy1 = ListSequence.<Edge>fromList(candidates).getElement(1).getSource().isDummy() || ListSequence.<Edge>fromList(candidates).getElement(1).getTarget().isDummy();
+          boolean hasDummy0 = ListSequence.fromList(candidates).getElement(0).getSource().isDummy() || ListSequence.fromList(candidates).getElement(0).getTarget().isDummy();
+          boolean hasDummy1 = ListSequence.fromList(candidates).getElement(1).getSource().isDummy() || ListSequence.fromList(candidates).getElement(1).getTarget().isDummy();
           if (hasDummy1 && !(hasDummy0)) {
-            candidates = ListSequence.<Edge>fromList(candidates).reversedList();
+            candidates = ListSequence.fromList(candidates).reversedList();
           }
-          for (Edge candidate : ListSequence.<Edge>fromList(candidates)) {
-            if (MapSequence.<Node,Node>fromMap(roots).get(node) == node) {
+          for (Edge candidate : ListSequence.fromList(candidates)) {
+            if (MapSequence.fromMap(roots).get(node) == node) {
               curConnectedPos = this.tryToAddRoot(node, roots, candidate, curConnectedPos, dir, layerDirection);
             }
           }
@@ -278,13 +278,13 @@ public class BKCoordinatePlacer implements ICoordinatePlacer {
     Node medianNode = edge.getTarget(dir);
     boolean after;
     if (layerDirection == LEFTMOST) {
-      after = MapSequence.<Node,Integer>fromMap(myPosInLayer).get(medianNode) > curConnectedPos;
+      after = MapSequence.fromMap(myPosInLayer).get(medianNode) > curConnectedPos;
     } else {
-      after = MapSequence.<Node,Integer>fromMap(myPosInLayer).get(medianNode) < curConnectedPos;
+      after = MapSequence.fromMap(myPosInLayer).get(medianNode) < curConnectedPos;
     }
-    if (!(SetSequence.<Edge>fromSet(badEdges).contains(edge)) && after) {
-      MapSequence.<Node,Node>fromMap(roots).put(node, MapSequence.<Node,Node>fromMap(roots).get(medianNode));
-      curConnectedPos = MapSequence.<Node,Integer>fromMap(myPosInLayer).get(medianNode);
+    if (!(SetSequence.fromSet(badEdges).contains(edge)) && after) {
+      MapSequence.fromMap(roots).put(node, MapSequence.fromMap(roots).get(medianNode));
+      curConnectedPos = MapSequence.fromMap(myPosInLayer).get(medianNode);
     }
     return curConnectedPos;
   }

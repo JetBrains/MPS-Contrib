@@ -18,17 +18,17 @@ import junit.framework.Assert;
 public class MinCostMaxFlowWithPotentials_Test extends TestCase {
   public void test_test1() throws Exception {
     Graph graph = GraphIO.scanGraph("6 7  0 1  0 4  1 2  1 5  2 3  4 2  5 3");
-    Map<Edge, Integer> capacity = MapSequence.<Edge,Integer>fromMap(new HashMap<Edge, Integer>());
-    Map<Edge, Integer> cost = MapSequence.<Edge,Integer>fromMap(new HashMap<Edge, Integer>());
-    Node source = ListSequence.<Node>fromList(graph.getNodes()).getElement(0);
-    Node target = ListSequence.<Node>fromList(graph.getNodes()).getElement(3);
+    Map<Edge, Integer> capacity = MapSequence.fromMap(new HashMap<Edge, Integer>());
+    Map<Edge, Integer> cost = MapSequence.fromMap(new HashMap<Edge, Integer>());
+    Node source = ListSequence.fromList(graph.getNodes()).getElement(0);
+    Node target = ListSequence.fromList(graph.getNodes()).getElement(3);
     List<Edge> edges = graph.getEdges();
-    for (Edge edge : ListSequence.<Edge>fromList(edges)) {
-      MapSequence.<Edge,Integer>fromMap(capacity).put(edge, 1);
-      MapSequence.<Edge,Integer>fromMap(cost).put(edge, 1);
+    for (Edge edge : ListSequence.fromList(edges)) {
+      MapSequence.fromMap(capacity).put(edge, 1);
+      MapSequence.fromMap(cost).put(edge, 1);
     }
-    MapSequence.<Edge,Integer>fromMap(cost).put(ListSequence.<Edge>fromList(edges).getElement(5), 2);
-    MapSequence.<Edge,Integer>fromMap(cost).put(ListSequence.<Edge>fromList(edges).getElement(6), 2);
+    MapSequence.fromMap(cost).put(ListSequence.fromList(edges).getElement(5), 2);
+    MapSequence.fromMap(cost).put(ListSequence.fromList(edges).getElement(6), 2);
     testFull(graph, source, target, capacity, cost, 8);
   }
 
@@ -36,8 +36,8 @@ public class MinCostMaxFlowWithPotentials_Test extends TestCase {
     Map<Edge, Integer> flow = MinCostMaxFlowWithPotentials.getFlow(graph, source, target, capacity, cost);
     FlowChecker.checkFlow(graph, source, target, capacity, flow, true);
     int totalCost = 0;
-    for (Edge edge : ListSequence.<Edge>fromList(graph.getEdges())) {
-      totalCost += MapSequence.<Edge,Integer>fromMap(flow).get(edge) * MapSequence.<Edge,Integer>fromMap(cost).get(edge);
+    for (Edge edge : ListSequence.fromList(graph.getEdges())) {
+      totalCost += MapSequence.fromMap(flow).get(edge) * MapSequence.fromMap(cost).get(edge);
     }
     Assert.assertTrue(expectedCost == totalCost);
   }

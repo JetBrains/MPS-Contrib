@@ -20,8 +20,8 @@ public class AsIsCoordinatePlacer implements ICoordinatePlacer {
     for (int layer = 0; layer < order.getNumLayers(); layer++) {
       List<Node> layerOrder = order.getOrder(layer);
       int xCoord = 0;
-      for (Node node : ListSequence.<Node>fromList(layerOrder)) {
-        MapSequence.<Node,Point>fromMap(placement).put(node, new Point(xCoord, layer));
+      for (Node node : ListSequence.fromList(layerOrder)) {
+        MapSequence.fromMap(placement).put(node, new Point(xCoord, layer));
         xCoord++;
       }
     }

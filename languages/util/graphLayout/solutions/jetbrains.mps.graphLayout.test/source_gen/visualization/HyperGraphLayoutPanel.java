@@ -37,7 +37,7 @@ public class HyperGraphLayoutPanel extends OrthogonalLayoutTestPanel {
   }
 
   private void writeTree(Node node, HyperGraph graph) {
-    for (Node child : ListSequence.<Node>fromList(graph.getChildren(node))) {
+    for (Node child : ListSequence.fromList(graph.getChildren(node))) {
       myTextArea.append(node.getIndex() + " " + child.getIndex());
       writeTree(child, graph);
     }

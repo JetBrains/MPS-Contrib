@@ -22,7 +22,7 @@ public class GroupedGraphModificationSynchronizer implements IGraphModificationL
     mySynchronizedGraph = synchronizedGraph;
     groupedGraph.addListener(this);
     myEdgeMap = edgeMap;
-    myNodeMap = MapSequence.<Node,Node>fromMap(new HashMap<Node, Node>());
+    myNodeMap = MapSequence.fromMap(new HashMap<Node, Node>());
   }
 
   public void process(GraphModificationEvent event) {
@@ -35,12 +35,12 @@ public class GroupedGraphModificationSynchronizer implements IGraphModificationL
         } else {
           syncNode = mySynchronizedGraph.createNode();
         }
-        MapSequence.<Node,Node>fromMap(myNodeMap).put(addedNode, syncNode);
+        MapSequence.fromMap(myNodeMap).put(addedNode, syncNode);
         break;
       case NODE_DETETED:
         Node deletedNode = event.getNode();
         if (MapSequence.fromMap(myNodeMap).containsKey(deletedNode)) {
-          mySynchronizedGraph.deleteNode(MapSequence.<Node,Node>fromMap(myNodeMap).get(deletedNode));
+          mySynchronizedGraph.deleteNode(MapSequence.fromMap(myNodeMap).get(deletedNode));
         }
         break;
       case EDGE_ADDED:
@@ -48,12 +48,12 @@ public class GroupedGraphModificationSynchronizer implements IGraphModificationL
         Node source = addedEdge.getSource();
         Node target = addedEdge.getTarget();
         if (MapSequence.fromMap(myEdgeMap).containsKey(addedEdge)) {
-          mySynchronizedGraph.addEdge(MapSequence.<Edge,Edge>fromMap(myEdgeMap).get(addedEdge));
+          mySynchronizedGraph.addEdge(MapSequence.fromMap(myEdgeMap).get(addedEdge));
         } else if (MapSequence.fromMap(myNodeMap).containsKey(source) && MapSequence.fromMap(myNodeMap).containsKey(target)) {
-          Node syncSource = MapSequence.<Node,Node>fromMap(myNodeMap).get(source);
-          Node syncTarget = MapSequence.<Node,Node>fromMap(myNodeMap).get(target);
+          Node syncSource = MapSequence.fromMap(myNodeMap).get(source);
+          Node syncTarget = MapSequence.fromMap(myNodeMap).get(target);
           Edge edge = mySynchronizedGraph.connect(syncSource, syncTarget);
-          MapSequence.<Edge,Edge>fromMap(myEdgeMap).put(addedEdge, edge);
+          MapSequence.fromMap(myEdgeMap).put(addedEdge, edge);
           if (showInfo > 0) {
             System.out.println("added " + addedEdge + " sync = " + edge);
           }
@@ -65,16 +65,16 @@ public class GroupedGraphModificationSynchronizer implements IGraphModificationL
           System.out.println("removed " + removedEdge + " sync = ");
         }
         if (MapSequence.fromMap(myEdgeMap).containsKey(removedEdge)) {
-          mySynchronizedGraph.removeEdge(MapSequence.<Edge,Edge>fromMap(myEdgeMap).get(removedEdge));
+          mySynchronizedGraph.removeEdge(MapSequence.fromMap(myEdgeMap).get(removedEdge));
           if (showInfo > 0) {
-            System.out.println(MapSequence.<Edge,Edge>fromMap(myEdgeMap).get(removedEdge));
+            System.out.println(MapSequence.fromMap(myEdgeMap).get(removedEdge));
           }
         }
         break;
       case EDGE_REVERTED:
         Edge revertedEdge = event.getEdge();
         if (MapSequence.fromMap(myEdgeMap).containsKey(revertedEdge)) {
-          mySynchronizedGraph.revertEdge(MapSequence.<Edge,Edge>fromMap(myEdgeMap).get(revertedEdge));
+          mySynchronizedGraph.revertEdge(MapSequence.fromMap(myEdgeMap).get(revertedEdge));
         }
         break;
       case EDGE_SPLITTED:
@@ -87,30 +87,30 @@ public class GroupedGraphModificationSynchronizer implements IGraphModificationL
   private void processSplitEvent(GraphModificationEvent event) {
     Edge splittedEdge = event.getEdge();
     if (MapSequence.fromMap(myEdgeMap).containsKey(splittedEdge)) {
-      Edge syncEdge = MapSequence.<Edge,Edge>fromMap(myEdgeMap).get(splittedEdge);
+      Edge syncEdge = MapSequence.fromMap(myEdgeMap).get(splittedEdge);
       List<Edge> split = event.getSplit();
-      List<Edge> syncSplit = ListSequence.<Edge>fromList(new ArrayList<Edge>(ListSequence.<Edge>fromList(split).count()));
-      for (Edge splitEdge : ListSequence.<Edge>fromList(split)) {
+      List<Edge> syncSplit = ListSequence.fromList(new ArrayList<Edge>(ListSequence.fromList(split).count()));
+      for (Edge splitEdge : ListSequence.fromList(split)) {
         if (MapSequence.fromMap(myEdgeMap).containsKey(splitEdge)) {
-          ListSequence.<Edge>fromList(syncSplit).addElement(MapSequence.<Edge,Edge>fromMap(myEdgeMap).get(splitEdge));
+          ListSequence.fromList(syncSplit).addElement(MapSequence.fromMap(myEdgeMap).get(splitEdge));
         } else {
           Node source = splitEdge.getSource();
           Node syncSource;
           if (MapSequence.fromMap(myNodeMap).containsKey(source)) {
-            syncSource = MapSequence.<Node,Node>fromMap(myNodeMap).get(source);
+            syncSource = MapSequence.fromMap(myNodeMap).get(source);
           } else {
             syncSource = syncEdge.getSource();
           }
           Node target = splitEdge.getTarget();
           Node syncTarget;
           if (MapSequence.fromMap(myNodeMap).containsKey(target)) {
-            syncTarget = MapSequence.<Node,Node>fromMap(myNodeMap).get(target);
+            syncTarget = MapSequence.fromMap(myNodeMap).get(target);
           } else {
             syncTarget = syncEdge.getTarget();
           }
           Edge syncSplitEdge = mySynchronizedGraph.connect(syncSource, syncTarget);
-          MapSequence.<Edge,Edge>fromMap(myEdgeMap).put(splitEdge, syncSplitEdge);
-          ListSequence.<Edge>fromList(syncSplit).addElement(syncSplitEdge);
+          MapSequence.fromMap(myEdgeMap).put(splitEdge, syncSplitEdge);
+          ListSequence.fromList(syncSplit).addElement(syncSplitEdge);
         }
       }
       if (showInfo > 0) {

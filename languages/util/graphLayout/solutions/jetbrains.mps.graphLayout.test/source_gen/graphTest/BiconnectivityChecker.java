@@ -31,21 +31,21 @@ public class BiconnectivityChecker extends Dfs {
     init(graph, Edge.Direction.BOTH);
     dfs(source, null);
     Assert.assertTrue(myNumSourceDecentants <= 1);
-    for (Node node : ListSequence.<Node>fromList(graph.getNodes())) {
-      Assert.assertTrue(MapSequence.<Node,Integer>fromMap(myNum).get(node) != null);
+    for (Node node : ListSequence.fromList(graph.getNodes())) {
+      Assert.assertTrue(MapSequence.fromMap(myNum).get(node) != null);
     }
   }
 
   @Override
   protected void preprocess(Node node, Edge from) {
-    MapSequence.<Node,Integer>fromMap(myNum).put(node, myCurNum++);
-    MapSequence.<Node,Node>fromMap(myLow).put(node, node);
+    MapSequence.fromMap(myNum).put(node, myCurNum++);
+    MapSequence.fromMap(myLow).put(node, node);
   }
 
   @Override
   protected void processEdge(Edge edge, Node source) {
     Node next = edge.getOpposite(source);
-    if (MapSequence.<Node,Integer>fromMap(getDfsState()).get(next) == DURING) {
+    if (MapSequence.fromMap(getDfsState()).get(next) == DURING) {
       changeLow(source, next);
     }
   }
@@ -55,8 +55,8 @@ public class BiconnectivityChecker extends Dfs {
     if (from != null) {
       Node prev = from.getOpposite(node);
       if (prev != mySource) {
-        Assert.assertTrue(MapSequence.<Node,Integer>fromMap(myNum).get(prev) > MapSequence.<Node,Integer>fromMap(myNum).get(MapSequence.<Node,Node>fromMap(myLow).get(node)));
-        changeLow(prev, MapSequence.<Node,Node>fromMap(myLow).get(node));
+        Assert.assertTrue(MapSequence.fromMap(myNum).get(prev) > MapSequence.fromMap(myNum).get(MapSequence.fromMap(myLow).get(node)));
+        changeLow(prev, MapSequence.fromMap(myLow).get(node));
       } else {
         myNumSourceDecentants++;
       }
@@ -64,13 +64,13 @@ public class BiconnectivityChecker extends Dfs {
   }
 
   private void changeLow(Node node, Node newLow) {
-    Node oldLow = MapSequence.<Node,Node>fromMap(myLow).get(node);
-    if (MapSequence.<Node,Integer>fromMap(myNum).get(oldLow) > MapSequence.<Node,Integer>fromMap(myNum).get(newLow)) {
-      MapSequence.<Node,Node>fromMap(myLow).put(node, newLow);
+    Node oldLow = MapSequence.fromMap(myLow).get(node);
+    if (MapSequence.fromMap(myNum).get(oldLow) > MapSequence.fromMap(myNum).get(newLow)) {
+      MapSequence.fromMap(myLow).put(node, newLow);
     }
   }
 
   public static void check(Graph graph) {
-    new BiconnectivityChecker().doDfs(graph, ListSequence.<Node>fromList(graph.getNodes()).getElement(0));
+    new BiconnectivityChecker().doDfs(graph, ListSequence.fromList(graph.getNodes()).getElement(0));
   }
 }

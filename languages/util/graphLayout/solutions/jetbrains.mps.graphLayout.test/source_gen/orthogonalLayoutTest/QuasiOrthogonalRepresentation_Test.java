@@ -76,11 +76,11 @@ public class QuasiOrthogonalRepresentation_Test extends TestCase {
 
   public void testPlanarBiconnectedGraph(Graph graph) {
     EmbeddedGraph embeddedGraph = new PQPlanarizationFinder().find(graph);
-    Map<Dart, Integer> bends = MapSequence.<Dart,Integer>fromMap(new HashMap<Dart, Integer>());
-    Map<Dart, Integer> angles = MapSequence.<Dart,Integer>fromMap(new HashMap<Dart, Integer>());
+    Map<Dart, Integer> bends = MapSequence.fromMap(new HashMap<Dart, Integer>());
+    Map<Dart, Integer> angles = MapSequence.fromMap(new HashMap<Dart, Integer>());
     QuasiOrthogonalRepresentation.getRepresentation(embeddedGraph, bends, angles);
-    Set<Edge> oldEdges = SetSequence.<Edge>fromSet(new HashSet<Edge>());
-    SetSequence.fromSet(oldEdges).addSequence(ListSequence.<Edge>fromList(graph.getEdges()));
+    Set<Edge> oldEdges = SetSequence.fromSet(new HashSet<Edge>());
+    SetSequence.fromSet(oldEdges).addSequence(ListSequence.fromList(graph.getEdges()));
     OrthogonalRepresentationChecker.checkOrthogonalRepresentation(graph, bends, angles, 0);
     new QuasiRepresentationModifier(embeddedGraph, bends, angles).reduceToOrthogonalRepresentation();
     CheckEmbeddedGraph.checkEmbeddedGraph(embeddedGraph, false);

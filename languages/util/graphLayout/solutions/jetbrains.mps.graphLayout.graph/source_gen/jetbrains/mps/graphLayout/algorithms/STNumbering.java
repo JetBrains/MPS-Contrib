@@ -16,7 +16,7 @@ public class STNumbering {
   public static Map<Node, Integer> number(Graph graph, Node source, Node target) {
     Edge stEdge = null;
     boolean deleteAfter = false;
-    for (Edge edge : ListSequence.<Edge>fromList(source.getEdges())) {
+    for (Edge edge : ListSequence.fromList(source.getEdges())) {
       if (edge.getOpposite(source) == target) {
         stEdge = edge;
       }
@@ -32,8 +32,8 @@ public class STNumbering {
     numbering.doDfs(graph, source, stEdge, low);
     Map<Node, Integer> res = new NodeMap<Integer>(graph);
     int curNum = 0;
-    for (Node node : ListSequence.<Node>fromList(numbering.getList())) {
-      MapSequence.<Node,Integer>fromMap(res).put(node, curNum++);
+    for (Node node : ListSequence.fromList(numbering.getList())) {
+      MapSequence.fromMap(res).put(node, curNum++);
     }
     if (deleteAfter) {
       graph.removeEdge(stEdge);
@@ -54,11 +54,11 @@ public class STNumbering {
       init(graph, Edge.Direction.BOTH);
       myLow = low;
       mySign = new NodeMap<Integer>(graph);
-      MapSequence.<Node,Integer>fromMap(getDfsState()).put(source, DURING);
+      MapSequence.fromMap(getDfsState()).put(source, DURING);
       Node target = stEdge.getOpposite(source);
       myTarget = target;
-      MapSequence.<Node,Integer>fromMap(mySign).put(source, -1);
-      myList = ListSequence.<Node>fromListAndArray(new ArrayList<Node>(), source, target);
+      MapSequence.fromMap(mySign).put(source, -1);
+      myList = ListSequence.fromListAndArray(new ArrayList<Node>(), source, target);
       dfs(target, stEdge);
     }
 
@@ -66,13 +66,13 @@ public class STNumbering {
     protected void preprocess(Node node, Edge from) {
       if (node != myTarget) {
         Node prev = from.getOpposite(node);
-        int prevIndex = ListSequence.<Node>fromList(myList).indexOf(prev);
+        int prevIndex = ListSequence.fromList(myList).indexOf(prev);
         int nodeIndex = prevIndex;
-        if (MapSequence.<Node,Integer>fromMap(mySign).get(MapSequence.<Node,Node>fromMap(myLow).get(node)) > 0) {
+        if (MapSequence.fromMap(mySign).get(MapSequence.fromMap(myLow).get(node)) > 0) {
           nodeIndex = prevIndex + 1;
         }
-        ListSequence.<Node>fromList(myList).insertElement(nodeIndex, node);
-        MapSequence.<Node,Integer>fromMap(mySign).put(prev, -MapSequence.<Node,Integer>fromMap(mySign).get(MapSequence.<Node,Node>fromMap(myLow).get(node)));
+        ListSequence.fromList(myList).insertElement(nodeIndex, node);
+        MapSequence.fromMap(mySign).put(prev, -MapSequence.fromMap(mySign).get(MapSequence.fromMap(myLow).get(node)));
       }
     }
 
