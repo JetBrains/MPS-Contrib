@@ -218,7 +218,7 @@
     <nodeInfo nodeId="5285611549890897373" fileName="SchemaUtil.java" startLine="52" startPosition="10" endLine="55" endPosition="5" conceptFqName="jetbrains.mps.baseLanguage.structure.BlockStatement" />
     <nodeInfo nodeId="2341233264267552788" fileName="SchemaUtil.java" startLine="59" startPosition="52" endLine="62" endPosition="5" conceptFqName="jetbrains.mps.baseLanguage.structure.ForeachStatement" />
     <nodeInfo nodeId="2341233264267552817" fileName="SchemaUtil.java" startLine="68" startPosition="225" endLine="72" endPosition="0" conceptFqName="jetbrains.mps.baseLanguage.structure.InstanceMethodDeclaration" propertyString="accept#(Ljetbrains/mps/smodel/SNode;)Z" />
-    <nodeInfo nodeId="2341233264267552817" fileName="SchemaUtil.java" startLine="72" startPosition="52" endLine="76" endPosition="0" conceptFqName="jetbrains.mps.baseLanguage.structure.InstanceMethodDeclaration" propertyString="select#(Ljetbrains/mps/smodel/SNode;)Ljetbrains/mps/smodel/SNode;" />
+    <nodeInfo nodeId="2341233264267552817" fileName="SchemaUtil.java" startLine="72" startPosition="45" endLine="76" endPosition="0" conceptFqName="jetbrains.mps.baseLanguage.structure.InstanceMethodDeclaration" propertyString="select#(Ljetbrains/mps/smodel/SNode;)Ljetbrains/mps/smodel/SNode;" />
     <nodeInfo nodeId="1558623248073038272" fileName="SchemaUtil.java" startLine="90" startPosition="107" endLine="94" endPosition="5" conceptFqName="jetbrains.mps.baseLanguage.structure.IfStatement" />
     <nodeInfo nodeId="4705273682234098413" fileName="SchemaUtil.java" startLine="81" startPosition="77" endLine="86" endPosition="5" conceptFqName="jetbrains.mps.baseLanguage.structure.IfStatement" />
     <nodeInfo nodeId="3149278768676788019" fileName="SchemaUtil.java" startLine="98" startPosition="83" endLine="103" endPosition="5" conceptFqName="jetbrains.mps.baseLanguage.structure.IfStatement" />
@@ -280,7 +280,7 @@
     <scopeInfo nodeId="2341233264267552651" fileName="SchemaUtil.java" startLine="161" startPosition="7" endLine="164" endPosition="31" />
     <scopeInfo nodeId="2341233264267552651" fileName="SchemaUtil.java" startLine="178" startPosition="7" endLine="181" endPosition="31" />
     <scopeInfo nodeId="2341233264267552817" fileName="SchemaUtil.java" startLine="68" startPosition="225" endLine="72" endPosition="0" />
-    <scopeInfo nodeId="2341233264267552817" fileName="SchemaUtil.java" startLine="72" startPosition="52" endLine="76" endPosition="0" />
+    <scopeInfo nodeId="2341233264267552817" fileName="SchemaUtil.java" startLine="72" startPosition="45" endLine="76" endPosition="0" />
     <scopeInfo nodeId="2341233264267552781" fileName="SchemaUtil.java" startLine="58" startPosition="81" endLine="63" endPosition="22">
       <varInfo nodeId="2341233264267552783" varName="attributes" />
     </scopeInfo>
@@ -336,7 +336,7 @@
       <varInfo nodeId="2341233264267552654" varName="typeExpression" />
     </scopeInfo>
     <unitInfo nodeId="2341233264267552817" fileName="SchemaUtil.java" startLine="68" startPosition="202" endLine="72" endPosition="5" unitName="jetbrains.mps.xmlQuery.constraints.SchemaUtil$1" />
-    <unitInfo nodeId="2341233264267552817" fileName="SchemaUtil.java" startLine="72" startPosition="25" endLine="76" endPosition="5" unitName="jetbrains.mps.xmlQuery.constraints.SchemaUtil$2" />
+    <unitInfo nodeId="2341233264267552817" fileName="SchemaUtil.java" startLine="72" startPosition="18" endLine="76" endPosition="5" unitName="jetbrains.mps.xmlQuery.constraints.SchemaUtil$2" />
     <unitInfo nodeId="2341233264267552651" fileName="SchemaUtil.java" startLine="119" startPosition="0" endLine="135" endPosition="0" unitName="jetbrains.mps.xmlQuery.constraints.SchemaUtil$QuotationClass_crwl9t_a0a0b0g" />
     <unitInfo nodeId="2341233264267552651" fileName="SchemaUtil.java" startLine="136" startPosition="0" endLine="152" endPosition="0" unitName="jetbrains.mps.xmlQuery.constraints.SchemaUtil$QuotationClass_crwl9t_a0a0a1a6" />
     <unitInfo nodeId="2341233264267552651" fileName="SchemaUtil.java" startLine="153" startPosition="0" endLine="169" endPosition="0" unitName="jetbrains.mps.xmlQuery.constraints.SchemaUtil$QuotationClass_crwl9t_a0a0b1a6" />

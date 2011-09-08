@@ -114,7 +114,7 @@ public class Generator {
     Set<SNode> toRemoveFakeDeclaration = SetSequence.fromSet(new HashSet());
     SetSequence.fromSet(toRemoveFakeDeclaration).addSequence(ListSequence.fromList(SLinkOperations.getTargets(decl, "fakeDeclaration", true)));
     for (SNode nref : SLinkOperations.getTargets(decl, "nested", true)) {
-      List<SNode> notRemove = ListSequence.fromList(SLinkOperations.getTargets(nref, "role", true)).<SNode>select(new ISelector<SNode, SNode>() {
+      List<SNode> notRemove = ListSequence.fromList(SLinkOperations.getTargets(nref, "role", true)).select(new ISelector<SNode, SNode>() {
         public SNode select(SNode it) {
           return SNodeOperations.cast(SLinkOperations.getTarget(it, "declaration", false), "jetbrains.mps.build.generictasks.structure.BuiltInTaskDeclaration");
         }
@@ -252,7 +252,7 @@ public class Generator {
     }
 
     private void updateEnum(SNode sEnum, String[] enumValues) {
-      Set<String> set = SetSequence.fromSetWithValues(new HashSet(), ListSequence.fromList(SLinkOperations.getTargets(sEnum, "constants", true)).<String>select(new ISelector<SNode, String>() {
+      Set<String> set = SetSequence.fromSetWithValues(new HashSet(), ListSequence.fromList(SLinkOperations.getTargets(sEnum, "constants", true)).select(new ISelector<SNode, String>() {
         public String select(SNode it) {
           return PropertyValueExpression_Behavior.call_toString_1213877472569(it);
         }
