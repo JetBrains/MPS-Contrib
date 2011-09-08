@@ -493,7 +493,7 @@ public class QueriesGenerated {
       public boolean accept(SNode it) {
         return eq_x583g4_a0a0a0a0a0a0a701(SLinkOperations.getTarget(it, "component", false), _context.getNode());
       }
-    }).<SNode>translate(new ITranslator2<SNode, SNode>() {
+    }).translate(new ITranslator2<SNode, SNode>() {
       public Iterable<SNode> translate(SNode it) {
         return SLinkOperations.getTargets(it, "event", true);
       }
@@ -505,7 +505,7 @@ public class QueriesGenerated {
       public boolean accept(SNode it) {
         return eq_x583g4_a0a0a0a0a0a0a0ee(SLinkOperations.getTarget(it, "component", false), _context.getNode());
       }
-    }).<SNode>translate(new ITranslator2<SNode, SNode>() {
+    }).translate(new ITranslator2<SNode, SNode>() {
       public Iterable<SNode> translate(SNode it) {
         return SLinkOperations.getTargets(it, "event", true);
       }
