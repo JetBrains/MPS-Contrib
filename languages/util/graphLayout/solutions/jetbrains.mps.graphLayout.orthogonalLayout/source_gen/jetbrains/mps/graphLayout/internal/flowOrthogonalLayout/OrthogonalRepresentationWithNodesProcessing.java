@@ -205,7 +205,7 @@ public class OrthogonalRepresentationWithNodesProcessing {
 
     @Override
     protected void preprocess(final Node node, Edge from) {
-      List<Dart> darts = ListSequence.fromList(node.getEdges()).<Dart>select(new ISelector<Edge, Dart>() {
+      List<Dart> darts = ListSequence.fromList(node.getEdges()).select(new ISelector<Edge, Dart>() {
         public Dart select(Edge edge) {
           return ListSequence.fromList(myEmbeddedGraph.getDarts(edge)).findFirst(new IWhereFilter<Dart>() {
             public boolean accept(Dart dart) {

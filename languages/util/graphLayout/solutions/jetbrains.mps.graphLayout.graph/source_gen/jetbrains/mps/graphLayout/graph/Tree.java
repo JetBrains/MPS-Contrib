@@ -15,7 +15,7 @@ public class Tree extends Graph {
   }
 
   public List<Node> getChildren(final Node node) {
-    return ListSequence.fromList(node.getOutEdges()).<Node>select(new ISelector<Edge, Node>() {
+    return ListSequence.fromList(node.getOutEdges()).select(new ISelector<Edge, Node>() {
       public Node select(Edge edge) {
         return edge.getOpposite(node);
       }

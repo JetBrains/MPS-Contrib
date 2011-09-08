@@ -429,7 +429,7 @@
     <nodeInfo nodeId="1763712338172397272" fileName="ConstraintsGraphProcessor.java" startLine="59" startPosition="65" endLine="63" endPosition="5" conceptFqName="jetbrains.mps.baseLanguage.structure.IfStatement" />
     <nodeInfo nodeId="1763712338172395175" fileName="ConstraintsGraphProcessor.java" startLine="91" startPosition="5" endLine="95" endPosition="5" conceptFqName="jetbrains.mps.baseLanguage.structure.IfStatement" />
     <nodeInfo nodeId="1763712338172395329" fileName="ConstraintsGraphProcessor.java" startLine="124" startPosition="83" endLine="128" endPosition="0" conceptFqName="jetbrains.mps.baseLanguage.structure.InstanceMethodDeclaration" propertyString="accept#(Ljetbrains/mps/graphLayout/planarGraph/Dart;)Z" />
-    <nodeInfo nodeId="1763712338172395466" fileName="ConstraintsGraphProcessor.java" startLine="152" startPosition="119" endLine="156" endPosition="0" conceptFqName="jetbrains.mps.baseLanguage.structure.InstanceMethodDeclaration" propertyString="select#(Ljetbrains/mps/graphLayout/planarGraph/Dart;)Ljetbrains/mps/graphLayout/graph/Node;" />
+    <nodeInfo nodeId="1763712338172395466" fileName="ConstraintsGraphProcessor.java" startLine="152" startPosition="113" endLine="156" endPosition="0" conceptFqName="jetbrains.mps.baseLanguage.structure.InstanceMethodDeclaration" propertyString="select#(Ljetbrains/mps/graphLayout/planarGraph/Dart;)Ljetbrains/mps/graphLayout/graph/Node;" />
     <nodeInfo nodeId="1763712338172395819" fileName="ConstraintsGraphProcessor.java" startLine="239" startPosition="0" endLine="243" endPosition="0" conceptFqName="jetbrains.mps.baseLanguage.structure.InstanceMethodDeclaration" propertyString="getCoordinatesInModifiedGraph#(Ljetbrains/mps/graphLayout/graph/EdgesHistoryManager;)Ljava/util/Map;" />
     <nodeInfo nodeId="1763712338172395890" fileName="ConstraintsGraphProcessor.java" startLine="255" startPosition="93" endLine="259" endPosition="7" conceptFqName="jetbrains.mps.baseLanguage.structure.ForeachStatement" />
     <nodeInfo nodeId="1763712338172396340" fileName="ConstraintsGraphProcessor.java" startLine="345" startPosition="102" endLine="349" endPosition="0" conceptFqName="jetbrains.mps.baseLanguage.structure.InstanceMethodDeclaration" propertyString="accept#(Ljetbrains/mps/graphLayout/graph/Edge;)Z" />
@@ -631,7 +631,7 @@
       <varInfo nodeId="1763712338172397003" varName="i" />
     </scopeInfo>
     <scopeInfo nodeId="1763712338172395329" fileName="ConstraintsGraphProcessor.java" startLine="124" startPosition="83" endLine="128" endPosition="0" />
-    <scopeInfo nodeId="1763712338172395466" fileName="ConstraintsGraphProcessor.java" startLine="152" startPosition="119" endLine="156" endPosition="0" />
+    <scopeInfo nodeId="1763712338172395466" fileName="ConstraintsGraphProcessor.java" startLine="152" startPosition="113" endLine="156" endPosition="0" />
     <scopeInfo nodeId="1763712338172395714" fileName="ConstraintsGraphProcessor.java" startLine="211" startPosition="73" endLine="215" endPosition="30" />
     <scopeInfo nodeId="1763712338172395819" fileName="ConstraintsGraphProcessor.java" startLine="239" startPosition="0" endLine="243" endPosition="0">
       <varInfo nodeId="2593993040624461338" varName="historyManager" />
@@ -896,7 +896,7 @@
       <varInfo nodeId="1763712338172395598" varName="node" />
     </scopeInfo>
     <unitInfo nodeId="1763712338172395329" fileName="ConstraintsGraphProcessor.java" startLine="124" startPosition="61" endLine="128" endPosition="7" unitName="jetbrains.mps.graphLayout.internal.flowOrthogonalLayout.ConstraintsGraphProcessor$1" />
-    <unitInfo nodeId="1763712338172395466" fileName="ConstraintsGraphProcessor.java" startLine="152" startPosition="94" endLine="156" endPosition="9" unitName="jetbrains.mps.graphLayout.internal.flowOrthogonalLayout.ConstraintsGraphProcessor$2" />
+    <unitInfo nodeId="1763712338172395466" fileName="ConstraintsGraphProcessor.java" startLine="152" startPosition="88" endLine="156" endPosition="9" unitName="jetbrains.mps.graphLayout.internal.flowOrthogonalLayout.ConstraintsGraphProcessor$2" />
     <unitInfo nodeId="1763712338172396340" fileName="ConstraintsGraphProcessor.java" startLine="345" startPosition="80" endLine="349" endPosition="5" unitName="jetbrains.mps.graphLayout.internal.flowOrthogonalLayout.ConstraintsGraphProcessor$3" />
     <unitInfo nodeId="1763712338172396472" fileName="ConstraintsGraphProcessor.java" startLine="375" startPosition="65" endLine="379" endPosition="5" unitName="jetbrains.mps.graphLayout.internal.flowOrthogonalLayout.ConstraintsGraphProcessor$4" />
     <unitInfo nodeId="1763712338172396494" fileName="ConstraintsGraphProcessor.java" startLine="381" startPosition="65" endLine="385" endPosition="5" unitName="jetbrains.mps.graphLayout.internal.flowOrthogonalLayout.ConstraintsGraphProcessor$5" />
@@ -2600,7 +2600,7 @@
     <nodeInfo nodeId="5626844973118494625" fileName="OrthogonalRepresentationWithNodesProcessing.java" startLine="175" startPosition="0" endLine="181" endPosition="0" conceptFqName="jetbrains.mps.baseLanguage.structure.StaticMethodDeclaration" propertyString="getDirections#(Ljetbrains/mps/graphLayout/planarGraph/EmbeddedGraph;Ljava/util/Map;)Ljava/util/Map;" />
     <nodeInfo nodeId="5626844973118493629" fileName="OrthogonalRepresentationWithNodesProcessing.java" startLine="186" startPosition="0" endLine="192" endPosition="5" conceptFqName="jetbrains.mps.baseLanguage.structure.ConstructorDeclaration" propertyString="GetDirectionsDfs#(Ljetbrains/mps/graphLayout/planarGraph/EmbeddedGraph;Ljava/util/Map;)V" />
     <nodeInfo nodeId="5626844973118494486" fileName="OrthogonalRepresentationWithNodesProcessing.java" startLine="143" startPosition="13" endLine="151" endPosition="11" conceptFqName="jetbrains.mps.baseLanguage.structure.ForeachStatement" />
-    <nodeInfo nodeId="5626844973118493728" fileName="OrthogonalRepresentationWithNodesProcessing.java" startLine="208" startPosition="106" endLine="216" endPosition="0" conceptFqName="jetbrains.mps.baseLanguage.structure.InstanceMethodDeclaration" propertyString="select#(Ljetbrains/mps/graphLayout/graph/Edge;)Ljetbrains/mps/graphLayout/planarGraph/Dart;" />
+    <nodeInfo nodeId="5626844973118493728" fileName="OrthogonalRepresentationWithNodesProcessing.java" startLine="208" startPosition="100" endLine="216" endPosition="0" conceptFqName="jetbrains.mps.baseLanguage.structure.InstanceMethodDeclaration" propertyString="select#(Ljetbrains/mps/graphLayout/graph/Edge;)Ljetbrains/mps/graphLayout/planarGraph/Dart;" />
     <nodeInfo nodeId="5626844973118493915" fileName="OrthogonalRepresentationWithNodesProcessing.java" startLine="36" startPosition="77" endLine="45" endPosition="5" conceptFqName="jetbrains.mps.baseLanguage.structure.ForeachStatement" />
     <nodeInfo nodeId="5626844973118494537" fileName="OrthogonalRepresentationWithNodesProcessing.java" startLine="154" startPosition="89" endLine="163" endPosition="13" conceptFqName="jetbrains.mps.baseLanguage.structure.IfStatement" />
     <nodeInfo nodeId="5626844973118493718" fileName="OrthogonalRepresentationWithNodesProcessing.java" startLine="207" startPosition="59" endLine="216" endPosition="26" conceptFqName="jetbrains.mps.baseLanguage.structure.LocalVariableDeclarationStatement" />
@@ -2678,7 +2678,7 @@
       <varInfo nodeId="5626844973118493669" varName="dart" />
       <varInfo nodeId="5626844973118493661" varName="edge" />
     </scopeInfo>
-    <scopeInfo nodeId="5626844973118493728" fileName="OrthogonalRepresentationWithNodesProcessing.java" startLine="208" startPosition="106" endLine="216" endPosition="0" />
+    <scopeInfo nodeId="5626844973118493728" fileName="OrthogonalRepresentationWithNodesProcessing.java" startLine="208" startPosition="100" endLine="216" endPosition="0" />
     <scopeInfo nodeId="5626844973118493915" fileName="OrthogonalRepresentationWithNodesProcessing.java" startLine="36" startPosition="77" endLine="45" endPosition="5" />
     <scopeInfo nodeId="5626844973118494536" fileName="OrthogonalRepresentationWithNodesProcessing.java" startLine="154" startPosition="89" endLine="163" endPosition="13" />
     <scopeInfo nodeId="5626844973118494225" fileName="OrthogonalRepresentationWithNodesProcessing.java" startLine="98" startPosition="68" endLine="108" endPosition="7" />
@@ -2762,7 +2762,7 @@
     <unitInfo nodeId="5626844973118493677" fileName="OrthogonalRepresentationWithNodesProcessing.java" startLine="197" startPosition="86" endLine="201" endPosition="7" unitName="jetbrains.mps.graphLayout.internal.flowOrthogonalLayout.OrthogonalRepresentationWithNodesProcessing$1" />
     <unitInfo nodeId="5626844973118493737" fileName="OrthogonalRepresentationWithNodesProcessing.java" startLine="210" startPosition="85" endLine="214" endPosition="11" unitName="jetbrains.mps.graphLayout.internal.flowOrthogonalLayout.OrthogonalRepresentationWithNodesProcessing$3" />
     <unitInfo nodeId="5626844973118493756" fileName="OrthogonalRepresentationWithNodesProcessing.java" startLine="217" startPosition="62" endLine="221" endPosition="7" unitName="jetbrains.mps.graphLayout.internal.flowOrthogonalLayout.OrthogonalRepresentationWithNodesProcessing$3" />
-    <unitInfo nodeId="5626844973118493728" fileName="OrthogonalRepresentationWithNodesProcessing.java" startLine="208" startPosition="81" endLine="216" endPosition="7" unitName="jetbrains.mps.graphLayout.internal.flowOrthogonalLayout.OrthogonalRepresentationWithNodesProcessing$2" />
+    <unitInfo nodeId="5626844973118493728" fileName="OrthogonalRepresentationWithNodesProcessing.java" startLine="208" startPosition="75" endLine="216" endPosition="7" unitName="jetbrains.mps.graphLayout.internal.flowOrthogonalLayout.OrthogonalRepresentationWithNodesProcessing$2" />
     <unitInfo nodeId="5626844973118493614" fileName="OrthogonalRepresentationWithNodesProcessing.java" startLine="182" startPosition="0" endLine="243" endPosition="0" unitName="jetbrains.mps.graphLayout.internal.flowOrthogonalLayout.OrthogonalRepresentationWithNodesProcessing$GetDirectionsDfs" />
     <unitInfo nodeId="5626844973118493613" fileName="OrthogonalRepresentationWithNodesProcessing.java" startLine="26" startPosition="0" endLine="244" endPosition="0" unitName="jetbrains.mps.graphLayout.internal.flowOrthogonalLayout.OrthogonalRepresentationWithNodesProcessing" />
   </root>

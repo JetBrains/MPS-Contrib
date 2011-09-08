@@ -30,7 +30,7 @@ public class ClusteredGraph extends Graph implements IClusteredGraph {
   }
 
   public List<Node> getSubclusters(final Node cluster) {
-    return ListSequence.fromList(cluster.getOutEdges()).<Node>select(new ISelector<Edge, Node>() {
+    return ListSequence.fromList(cluster.getOutEdges()).select(new ISelector<Edge, Node>() {
       public Node select(Edge edge) {
         return edge.getOpposite(cluster);
       }
@@ -42,7 +42,7 @@ public class ClusteredGraph extends Graph implements IClusteredGraph {
   }
 
   private void getNodesInCluster(Node cluster, Set<Node> nodes) {
-    List<Node> subclusters = ListSequence.fromList(cluster.getOutEdges()).<Node>select(new ISelector<Edge, Node>() {
+    List<Node> subclusters = ListSequence.fromList(cluster.getOutEdges()).select(new ISelector<Edge, Node>() {
       public Node select(Edge it) {
         return it.getTarget();
       }
