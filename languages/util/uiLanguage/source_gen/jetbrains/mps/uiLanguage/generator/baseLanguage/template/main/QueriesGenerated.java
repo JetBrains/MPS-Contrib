@@ -18,13 +18,17 @@ import jetbrains.mps.internal.collections.runtime.ListSequence;
 import jetbrains.mps.uiLanguage.behavior.StubCellRendererInfo_Behavior;
 import jetbrains.mps.uiLanguage.behavior.InlineRenderer_Behavior;
 import jetbrains.mps.generator.template.ReferenceMacroContext;
+import jetbrains.mps.smodel.SModelDescriptor;
+import jetbrains.mps.smodel.SModelRepository;
+import jetbrains.mps.smodel.SModelFqName;
+import jetbrains.mps.smodel.SModel;
+import jetbrains.mps.lang.smodel.generator.smodelAdapter.SModelOperations;
+import jetbrains.mps.internal.collections.runtime.IWhereFilter;
 import jetbrains.mps.uiLanguage.behavior.Scroller_Behavior;
 import jetbrains.mps.generator.template.IfMacroContext;
 import jetbrains.mps.uiLanguage.behavior.IComponentInstance_Behavior;
 import jetbrains.mps.generator.template.SourceSubstituteMacroNodeContext;
 import jetbrains.mps.generator.template.SourceSubstituteMacroNodesContext;
-import jetbrains.mps.lang.smodel.generator.smodelAdapter.SModelOperations;
-import jetbrains.mps.internal.collections.runtime.IWhereFilter;
 import jetbrains.mps.internal.collections.runtime.ITranslator2;
 import jetbrains.mps.internal.collections.runtime.Sequence;
 
@@ -240,12 +244,18 @@ public class QueriesGenerated {
   }
 
   public static Object referenceMacro_GetReferent_4021515509913114471(final IOperationContext operationContext, final ReferenceMacroContext _context) {
-    String fqname = ComponentDeclaration_Behavior.call_getComponentClassName_1213877495512(SLinkOperations.getTarget(_context.getNode(), "componentDeclaration", false));
-    int lastDot = fqname.lastIndexOf(".");
-    if (lastDot >= 0) {
-      return "[" + fqname.substring(0, lastDot) + "]" + fqname.substring(lastDot + 1);
+    final String fqname = ComponentDeclaration_Behavior.call_getComponentClassName_1213877495512(SLinkOperations.getTarget(_context.getNode(), "componentDeclaration", false));
+    final int lastDot = fqname.lastIndexOf(".");
+    SModelDescriptor md = SModelRepository.getInstance().getModelDescriptor(new SModelFqName(fqname.substring(0, lastDot), "java_stub"));
+    if (md == null) {
+      return null;
     }
-    return fqname;
+    SModel model = md.getSModel();
+    return ListSequence.fromList(SModelOperations.getRoots(model, "jetbrains.mps.baseLanguage.structure.ClassConcept")).findFirst(new IWhereFilter<SNode>() {
+      public boolean accept(SNode it) {
+        return eq_x583g4_a0a0a0a0a0f0vb(SPropertyOperations.getString(it, "name"), fqname.substring(lastDot + 1));
+      }
+    });
   }
 
   public static Object referenceMacro_GetReferent_1202732045058(final IOperationContext operationContext, final ReferenceMacroContext _context) {
@@ -587,6 +597,13 @@ public class QueriesGenerated {
 
   public static Iterable sourceNodesQuery_1210520952409(final IOperationContext operationContext, final SourceSubstituteMacroNodesContext _context) {
     return SLinkOperations.getTargets(ListSequence.fromList(SLinkOperations.getTargets(StubCellRendererInfo_Behavior.call_getInterface_1213877358391(InlineRenderer_Behavior.call_getRendererInfoNode_1213877298464(_context.getNode())), "method", true)).first(), "parameter", true);
+  }
+
+  private static boolean eq_x583g4_a0a0a0a0a0f0vb(Object a, Object b) {
+    return (a != null ?
+      a.equals(b) :
+      a == b
+    );
   }
 
   private static boolean eq_x583g4_a0a0a0a0a0a0a701(Object a, Object b) {
