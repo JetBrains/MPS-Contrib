@@ -36,7 +36,7 @@ public class Face {
 
   public boolean contains(List<Node> nodes) {
     Set<Node> faceNodes = SetSequence.fromSet(new HashSet<Node>());
-    SetSequence.fromSet(faceNodes).addSequence(ListSequence.fromList(myDarts).<Node>select(new ISelector<Dart, Node>() {
+    SetSequence.fromSet(faceNodes).addSequence(ListSequence.fromList(myDarts).select(new ISelector<Dart, Node>() {
       public Node select(Dart it) {
         return it.getSource();
       }

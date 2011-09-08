@@ -18,7 +18,7 @@
     <nodeInfo nodeId="2503771434357704711" fileName="CheckEmbeddedGraph.java" startLine="21" startPosition="69" endLine="24" endPosition="7" conceptFqName="jetbrains.mps.baseLanguage.structure.IfStatement" />
     <nodeInfo nodeId="3619822174190276492" fileName="CheckEmbeddedGraph.java" startLine="31" startPosition="71" endLine="34" endPosition="7" conceptFqName="jetbrains.mps.baseLanguage.structure.IfStatement" />
     <nodeInfo nodeId="4422427343208780867" fileName="CheckEmbeddedGraph.java" startLine="35" startPosition="64" endLine="38" endPosition="9" conceptFqName="jetbrains.mps.baseLanguage.structure.IfStatement" />
-    <nodeInfo nodeId="5668095147007631916" fileName="CheckEmbeddedGraph.java" startLine="46" startPosition="120" endLine="50" endPosition="0" conceptFqName="jetbrains.mps.baseLanguage.structure.InstanceMethodDeclaration" propertyString="select#(Ljetbrains/mps/graphLayout/planarGraph/Dart;)Ljetbrains/mps/graphLayout/graph/Node;" />
+    <nodeInfo nodeId="5668095147007631916" fileName="CheckEmbeddedGraph.java" startLine="46" startPosition="114" endLine="50" endPosition="0" conceptFqName="jetbrains.mps.baseLanguage.structure.InstanceMethodDeclaration" propertyString="select#(Ljetbrains/mps/graphLayout/planarGraph/Dart;)Ljetbrains/mps/graphLayout/graph/Node;" />
     <nodeInfo nodeId="4136567681074561346" fileName="CheckEmbeddedGraph.java" startLine="58" startPosition="82" endLine="62" endPosition="7" conceptFqName="jetbrains.mps.baseLanguage.structure.IfStatement" />
     <nodeInfo nodeId="2503771434357704705" fileName="CheckEmbeddedGraph.java" startLine="20" startPosition="73" endLine="25" endPosition="5" conceptFqName="jetbrains.mps.baseLanguage.structure.ForeachStatement" />
     <nodeInfo nodeId="4422427343208780857" fileName="CheckEmbeddedGraph.java" startLine="34" startPosition="7" endLine="39" endPosition="7" conceptFqName="jetbrains.mps.baseLanguage.structure.ForeachStatement" />
@@ -39,7 +39,7 @@
     </scopeInfo>
     <scopeInfo nodeId="2503771434357704710" fileName="CheckEmbeddedGraph.java" startLine="21" startPosition="69" endLine="24" endPosition="7" />
     <scopeInfo nodeId="4422427343208780860" fileName="CheckEmbeddedGraph.java" startLine="35" startPosition="64" endLine="38" endPosition="9" />
-    <scopeInfo nodeId="5668095147007631916" fileName="CheckEmbeddedGraph.java" startLine="46" startPosition="120" endLine="50" endPosition="0" />
+    <scopeInfo nodeId="5668095147007631916" fileName="CheckEmbeddedGraph.java" startLine="46" startPosition="114" endLine="50" endPosition="0" />
     <scopeInfo nodeId="2503771434357704705" fileName="CheckEmbeddedGraph.java" startLine="20" startPosition="73" endLine="25" endPosition="5" />
     <scopeInfo nodeId="4422427343208780857" fileName="CheckEmbeddedGraph.java" startLine="34" startPosition="7" endLine="39" endPosition="7" />
     <scopeInfo nodeId="5488345258545698120" fileName="CheckEmbeddedGraph.java" startLine="58" startPosition="82" endLine="63" endPosition="70" />
@@ -66,7 +66,7 @@
       <varInfo nodeId="3619822174190276503" varName="embeddedGraph" />
       <varInfo nodeId="9047589280051482506" varName="isRegularFaces" />
     </scopeInfo>
-    <unitInfo nodeId="5668095147007631916" fileName="CheckEmbeddedGraph.java" startLine="46" startPosition="95" endLine="50" endPosition="9" unitName="planarizationTest.CheckEmbeddedGraph$1" />
+    <unitInfo nodeId="5668095147007631916" fileName="CheckEmbeddedGraph.java" startLine="46" startPosition="89" endLine="50" endPosition="9" unitName="planarizationTest.CheckEmbeddedGraph$1" />
     <unitInfo nodeId="1123934034178616897" fileName="CheckEmbeddedGraph.java" startLine="19" startPosition="0" endLine="67" endPosition="0" unitName="planarizationTest.CheckEmbeddedGraph" />
   </root>
   <root nodeId="1327612371813215595">

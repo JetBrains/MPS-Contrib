@@ -264,7 +264,7 @@ public class EmbeddedGraph {
 
   public List<Face> getAdjacentFaces(Edge edge) {
     List<Face> faces = ListSequence.fromList(new ArrayList<Face>());
-    ListSequence.fromList(faces).addSequence(ListSequence.fromList(getDarts(edge)).<Face>select(new ISelector<Dart, Face>() {
+    ListSequence.fromList(faces).addSequence(ListSequence.fromList(getDarts(edge)).select(new ISelector<Dart, Face>() {
       public Face select(Dart dart) {
         return getFace(dart);
       }

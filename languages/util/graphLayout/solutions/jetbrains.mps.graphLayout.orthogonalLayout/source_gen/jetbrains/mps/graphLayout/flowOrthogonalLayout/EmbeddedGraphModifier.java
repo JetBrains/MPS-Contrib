@@ -478,7 +478,7 @@ public class EmbeddedGraphModifier {
       }
       List<Edge> newEdges = ListSequence.fromList(new ArrayList<Edge>());
       Node newNode = myEmbeddedGraph.splitEdge(edgeToSplit, newEdges);
-      for (Dart dart : ListSequence.fromList(newEdges).<Dart>translate(new ITranslator2<Edge, Dart>() {
+      for (Dart dart : ListSequence.fromList(newEdges).translate(new ITranslator2<Edge, Dart>() {
         public Iterable<Dart> translate(Edge it) {
           return myEmbeddedGraph.getDarts(it);
         }

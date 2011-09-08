@@ -38,7 +38,7 @@ public class SimpleGraphGenerator extends BasicGraphGenerator {
   }
 
   private boolean canConnect(final Node source, Node target) {
-    List<Node> sourceComp = ListSequence.fromList(source.getEdges()).<Node>select(new ISelector<Edge, Node>() {
+    List<Node> sourceComp = ListSequence.fromList(source.getEdges()).select(new ISelector<Edge, Node>() {
       public Node select(Edge edge) {
         return edge.getOpposite(source);
       }

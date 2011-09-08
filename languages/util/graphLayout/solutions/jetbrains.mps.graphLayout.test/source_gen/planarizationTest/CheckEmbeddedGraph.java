@@ -43,7 +43,7 @@ public class CheckEmbeddedGraph {
       if (darts != null) {
         Assert.assertTrue(ListSequence.fromList(darts).count() == 2);
         Set<Node> sources = SetSequence.fromSet(new HashSet<Node>());
-        SetSequence.fromSet(sources).addSequence(ListSequence.fromList(darts).<Node>select(new ISelector<Dart, Node>() {
+        SetSequence.fromSet(sources).addSequence(ListSequence.fromList(darts).select(new ISelector<Dart, Node>() {
           public Node select(Dart it) {
             return it.getSource();
           }
