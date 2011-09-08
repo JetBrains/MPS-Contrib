@@ -152,7 +152,7 @@ public class QueriesGenerated {
         return SNodeOperations.isInstanceOf(propertyDeclaration, "jetbrains.mps.buildlanguage.structure.ExternalPropertyDeclaration") && !(ListSequence.fromList(SLinkOperations.getTargets(_context.getNode(), "propertyList", true)).contains(propertyDeclaration)) && !(SPropertyOperations.getBoolean(SNodeOperations.cast(propertyDeclaration, "jetbrains.mps.buildlanguage.structure.ExternalPropertyDeclaration"), "checkOnStart"));
       }
     });
-    Iterable<SNode> decls = Sequence.fromIterable(externalReferences).<SNode>select(new ISelector<SNode, SNode>() {
+    Iterable<SNode> decls = Sequence.fromIterable(externalReferences).select(new ISelector<SNode, SNode>() {
       public SNode select(SNode it) {
         return SLinkOperations.getTarget(it, "propertyDeclaration", false);
       }
