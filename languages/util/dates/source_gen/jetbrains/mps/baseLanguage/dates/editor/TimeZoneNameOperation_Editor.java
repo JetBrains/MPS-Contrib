@@ -21,11 +21,11 @@ import jetbrains.mps.nodeEditor.cellMenu.CompositeSubstituteInfo;
 import jetbrains.mps.nodeEditor.cellMenu.SubstituteInfoPart;
 import jetbrains.mps.smodel.IScope;
 import jetbrains.mps.lang.smodel.generator.smodelAdapter.SLinkOperations;
-import jetbrains.mps.nodeEditor.InlineCellProvider;
 import jetbrains.mps.lang.editor.generator.internal.AbstractCellMenuPart_PropertyValues;
 import java.util.List;
 import jetbrains.mps.internal.collections.runtime.ListSequence;
 import java.util.ArrayList;
+import jetbrains.mps.nodeEditor.InlineCellProvider;
 
 public class TimeZoneNameOperation_Editor extends DefaultNodeEditor {
   public EditorCell createEditorCell(EditorContext editorContext, SNode node) {
@@ -267,6 +267,18 @@ public class TimeZoneNameOperation_Editor extends DefaultNodeEditor {
     return (SLinkOperations.getTarget(node, "locale", false) != null);
   }
 
+  public static class TimeZoneNameOperation_property_cellMenu_a0a0 extends AbstractCellMenuPart_PropertyValues {
+    public TimeZoneNameOperation_property_cellMenu_a0a0() {
+    }
+
+    public List<String> getPropertyValues(SNode node, IScope scope, IOperationContext operationContext) {
+      List<String> l = ListSequence.fromList(new ArrayList<String>(2));
+      ListSequence.fromList(l).addElement("name");
+      ListSequence.fromList(l).addElement("short name");
+      return l;
+    }
+  }
+
   public static class _Inline_vkak8k_a2f0 extends InlineCellProvider {
     public _Inline_vkak8k_a2f0() {
       super();
@@ -330,18 +342,6 @@ public class TimeZoneNameOperation_Editor extends DefaultNodeEditor {
         return manager.createRoleAttributeCell(editorContext, attributeConcept, attributeKind, editorCell);
       } else
       return editorCell;
-    }
-  }
-
-  public static class TimeZoneNameOperation_property_cellMenu_a0a0 extends AbstractCellMenuPart_PropertyValues {
-    public TimeZoneNameOperation_property_cellMenu_a0a0() {
-    }
-
-    public List<String> getPropertyValues(SNode node, IScope scope, IOperationContext operationContext) {
-      List<String> l = ListSequence.fromList(new ArrayList<String>(2));
-      ListSequence.fromList(l).addElement("name");
-      ListSequence.fromList(l).addElement("short name");
-      return l;
     }
   }
 }
