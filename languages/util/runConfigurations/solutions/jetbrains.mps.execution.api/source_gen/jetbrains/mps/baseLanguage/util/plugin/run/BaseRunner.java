@@ -15,14 +15,9 @@ import jetbrains.mps.lang.smodel.generator.smodelAdapter.SNodeOperations;
 import jetbrains.mps.project.IModule;
 import com.intellij.execution.configurations.GeneralCommandLine;
 import java.util.Set;
-import java.util.ArrayList;
-import jetbrains.mps.reloading.ClasspathStringCollector;
-import jetbrains.mps.smodel.ModelAccess;
-import jetbrains.mps.project.AbstractModule;
-import jetbrains.mps.util.CollectionUtil;
-import jetbrains.mps.reloading.CommonPaths;
 import jetbrains.mps.internal.collections.runtime.SetSequence;
 import java.util.LinkedHashSet;
+import jetbrains.mps.execution.lib.Java_Command;
 import org.jetbrains.annotations.NotNull;
 import jetbrains.mps.internal.collections.runtime.backports.LinkedList;
 import java.io.File;
@@ -147,26 +142,8 @@ public abstract class BaseRunner {
     return System.getProperty("path.separator");
   }
 
-  protected static Set<String> getModuleClasspath(final IModule module, boolean withDependencies) {
-    List<String> result = ListSequence.fromList(new ArrayList<String>());
-    if (module.getClassesGen() != null) {
-      ListSequence.fromList(result).addElement(module.getClassesGen().getAbsolutePath());
-    }
-
-    final ClasspathStringCollector visitor = new ClasspathStringCollector(result);
-    module.getClassPathItem().accept(visitor);
-    if (withDependencies) {
-      ModelAccess.instance().runReadAction(new Runnable() {
-        public void run() {
-          AbstractModule.getDependenciesClasspath(CollectionUtil.set(module), true).accept(visitor);
-        }
-      });
-    }
-
-    List<String> visited = visitor.getResultAndReInit();
-    visited.removeAll(CommonPaths.getJDKPath());
-
-    return SetSequence.fromSetWithValues(new LinkedHashSet<String>(), visited);
+  protected static Set<String> getModuleClasspath(IModule module, boolean withDependencies) {
+    return SetSequence.fromSetWithValues(new LinkedHashSet<String>(), Java_Command.getClasspath(module, withDependencies));
   }
 
   @NotNull
