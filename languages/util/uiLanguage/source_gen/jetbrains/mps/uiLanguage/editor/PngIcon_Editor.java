@@ -116,11 +116,11 @@ public class PngIcon_Editor extends DefaultNodeEditor {
     return StringUtils.isNotEmpty(SPropertyOperations.getString(node, "iconData"));
   }
 
-  private static JComponent _QueryFunction_JComponent_4kucyt_a0d0(SNode node, EditorContext editorContext) {
+  private static JComponent _QueryFunction_JComponent_4kucyt_a0d0(final SNode node, final EditorContext editorContext) {
     return EditorIconUtil.createIconPreview(SPropertyOperations.getString(node, "iconData"));
   }
 
-  private static JComponent _QueryFunction_JComponent_4kucyt_a4a(SNode node, EditorContext editorContext) {
+  private static JComponent _QueryFunction_JComponent_4kucyt_a4a(final SNode node, final EditorContext editorContext) {
     return EditorIconUtil.createSelectIconButton(node, editorContext);
   }
 }

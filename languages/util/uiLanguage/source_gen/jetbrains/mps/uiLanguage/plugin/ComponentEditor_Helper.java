@@ -7,6 +7,9 @@ import jetbrains.mps.lang.smodel.generator.smodelAdapter.SNodeOperations;
 import jetbrains.mps.lang.smodel.generator.smodelAdapter.SLinkOperations;
 
 /*package*/ class ComponentEditor_Helper {
+  public ComponentEditor_Helper() {
+  }
+
   public static SNode getBaseNode(SNode node) {
     if (SNodeOperations.isInstanceOf(node, "jetbrains.mps.uiLanguage.structure.ComponentController")) {
       return SLinkOperations.getTarget(SNodeOperations.cast(node, "jetbrains.mps.uiLanguage.structure.ComponentController"), "component", false);
