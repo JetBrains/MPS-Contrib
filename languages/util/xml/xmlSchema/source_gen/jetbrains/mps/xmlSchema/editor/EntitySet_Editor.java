@@ -242,7 +242,7 @@ public class EntitySet_Editor extends DefaultNodeEditor {
     return SPropertyOperations.getString(node, "url") == null;
   }
 
-  private static JComponent _QueryFunction_JComponent_bj9nw6_a0d0a(SNode node, EditorContext editorContext) {
+  private static JComponent _QueryFunction_JComponent_bj9nw6_a0d0a(final SNode node, final EditorContext editorContext) {
     return HyperlinkUtil.getHyperlinkComponent(SPropertyOperations.getString(node, "url"));
   }
 

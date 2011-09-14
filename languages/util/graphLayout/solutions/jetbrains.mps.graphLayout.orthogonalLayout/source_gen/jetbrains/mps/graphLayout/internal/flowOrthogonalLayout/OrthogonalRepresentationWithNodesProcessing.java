@@ -26,6 +26,9 @@ import jetbrains.mps.internal.collections.runtime.ISelector;
 public class OrthogonalRepresentationWithNodesProcessing {
   private static int SHOW_INFO = 1;
 
+  public OrthogonalRepresentationWithNodesProcessing() {
+  }
+
   public static void getRepresentation(EmbeddedGraph embeddedGraph, Iterable<Face> nodeFaces, Map<Dart, Integer> bends, Map<Dart, Integer> angles) {
     Graph graph = embeddedGraph.getGraph();
     Graph network = new Graph();

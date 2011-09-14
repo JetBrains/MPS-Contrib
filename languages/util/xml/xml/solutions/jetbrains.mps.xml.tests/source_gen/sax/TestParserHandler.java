@@ -12,8 +12,8 @@ import org.xml.sax.SAXParseException;
 public class TestParserHandler extends XMLSAXHandler<AstRoot> {
   private static String[] EMPTY_ARRAY = new String[0];
 
-  private TestParserHandler.rootElementElementHandler rootElementhandler = new TestParserHandler.rootElementElementHandler();
-  private TestParserHandler.childElementElementHandler childElementhandler = new TestParserHandler.childElementElementHandler();
+  private TestParserHandler.RootElementElementHandler rootElementhandler = new TestParserHandler.RootElementElementHandler();
+  private TestParserHandler.ChildElementElementHandler childElementhandler = new TestParserHandler.ChildElementElementHandler();
   private Stack<TestParserHandler.ElementHandler> myHandlersStack = new Stack<TestParserHandler.ElementHandler>();
   private Stack<Object> myValues = new Stack<Object>();
   private Locator myLocator;
@@ -125,10 +125,10 @@ public class TestParserHandler extends XMLSAXHandler<AstRoot> {
     }
   }
 
-  public class rootElementElementHandler extends TestParserHandler.ElementHandler {
+  public class RootElementElementHandler extends TestParserHandler.ElementHandler {
     private String[] requiredAttributes = new String[]{"name"};
 
-    public rootElementElementHandler() {
+    public RootElementElementHandler() {
     }
 
     @Override
@@ -172,10 +172,10 @@ public class TestParserHandler extends XMLSAXHandler<AstRoot> {
     }
   }
 
-  public class childElementElementHandler extends TestParserHandler.ElementHandler {
+  public class ChildElementElementHandler extends TestParserHandler.ElementHandler {
     private String[] requiredAttributes = new String[]{};
 
-    public childElementElementHandler() {
+    public ChildElementElementHandler() {
     }
 
     @Override

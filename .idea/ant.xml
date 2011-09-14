@@ -70,7 +70,7 @@
       <maximumHeapSize value="128" />
       <maximumStackSize value="2" />
       <properties>
-        <property name="deploy.dir" value="$USER_HOME$/MPS.artifacts" />
+        <property name="deploy.dir" value="$PROJECT_DIR$/../MPS.artifacts" />
         <property name="build.number" value="20.7385" />
       </properties>
     </buildFile>
