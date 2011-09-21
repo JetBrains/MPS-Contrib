@@ -3233,7 +3233,10 @@
   </root>
   <root nodeId="1178296794013">
     <nodeInfo nodeId="1178296808264" fileName="XmlColorConstants.java" startLine="7" startPosition="32" endLine="8" endPosition="58" conceptFqName="jetbrains.mps.baseLanguage.structure.StaticFieldDeclaration" propertyString="XML_COLOR" />
-    <unitInfo nodeId="1178296794013" fileName="XmlColorConstants.java" startLine="7" startPosition="0" endLine="10" endPosition="0" unitName="jetbrains.mps.xmlSchema.editor.XmlColorConstants" />
+    <nodeInfo nodeId="8949395081772940791" fileName="XmlColorConstants.java" startLine="9" startPosition="0" endLine="11" endPosition="3" conceptFqName="jetbrains.mps.baseLanguage.structure.ConstructorDeclaration" propertyString="XmlColorConstants#()V" />
+    <scopeInfo nodeId="8949395081772940793" fileName="XmlColorConstants.java" startLine="10" startPosition="30" endLine="10" endPosition="30" />
+    <scopeInfo nodeId="8949395081772940791" fileName="XmlColorConstants.java" startLine="9" startPosition="0" endLine="11" endPosition="3" />
+    <unitInfo nodeId="1178296794013" fileName="XmlColorConstants.java" startLine="7" startPosition="0" endLine="13" endPosition="0" unitName="jetbrains.mps.xmlSchema.editor.XmlColorConstants" />
   </root>
   <root nodeId="1189887895767">
     <nodeInfo nodeId="1189887895767" fileName="NamespaceDeclaration_Editor.java" startLine="17" startPosition="79" endLine="18" endPosition="63" conceptFqName="jetbrains.mps.baseLanguage.structure.ReturnStatement" />
