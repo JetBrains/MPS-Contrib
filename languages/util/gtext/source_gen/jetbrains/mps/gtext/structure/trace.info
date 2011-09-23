@@ -28,68 +28,68 @@
     <unitInfo nodeId="1164412789837" fileName="GText.java" startLine="10" startPosition="0" endLine="34" endPosition="0" unitName="jetbrains.mps.gtext.structure.GText" />
   </root>
   <root nodeId="1164412935041">
-    <nodeInfo nodeId="1164412935041" fileName="GItem.java" startLine="14" startPosition="64" endLine="15" endPosition="77" conceptFqName="jetbrains.mps.baseLanguage.structure.StaticFieldDeclaration" propertyString="concept" />
-    <nodeInfo nodeId="1164412935041" fileName="GItem.java" startLine="15" startPosition="77" endLine="16" endPosition="68" conceptFqName="jetbrains.mps.baseLanguage.structure.StaticFieldDeclaration" propertyString="SHORT_DESCRIPTION" />
-    <nodeInfo nodeId="1164412935041" fileName="GItem.java" startLine="16" startPosition="68" endLine="17" endPosition="45" conceptFqName="jetbrains.mps.baseLanguage.structure.StaticFieldDeclaration" propertyString="ALIAS" />
-    <nodeInfo nodeId="1164412935041" fileName="GItem.java" startLine="17" startPosition="45" endLine="18" endPosition="64" conceptFqName="jetbrains.mps.baseLanguage.structure.StaticFieldDeclaration" propertyString="VIRTUAL_PACKAGE" />
-    <nodeInfo nodeId="1164412935041" fileName="GItem.java" startLine="18" startPosition="64" endLine="19" endPosition="66" conceptFqName="jetbrains.mps.baseLanguage.structure.StaticFieldDeclaration" propertyString="SMODEL_ATTRIBUTE" />
-    <nodeInfo nodeId="1164412935041" fileName="GItem.java" startLine="21" startPosition="28" endLine="22" endPosition="16" conceptFqName="jetbrains.mps.baseLanguage.structure.SuperConstructorInvocation" />
-    <nodeInfo nodeId="1164412935041" fileName="GItem.java" startLine="25" startPosition="39" endLine="26" endPosition="53" conceptFqName="jetbrains.mps.baseLanguage.structure.ReturnStatement" />
-    <nodeInfo nodeId="1164412935041" fileName="GItem.java" startLine="29" startPosition="49" endLine="30" endPosition="53" conceptFqName="jetbrains.mps.baseLanguage.structure.ExpressionStatement" />
-    <nodeInfo nodeId="1164412935041" fileName="GItem.java" startLine="33" startPosition="28" endLine="34" endPosition="41" conceptFqName="jetbrains.mps.baseLanguage.structure.ReturnStatement" />
-    <nodeInfo nodeId="1164412935041" fileName="GItem.java" startLine="37" startPosition="38" endLine="38" endPosition="41" conceptFqName="jetbrains.mps.baseLanguage.structure.ExpressionStatement" />
-    <nodeInfo nodeId="1164412935041" fileName="GItem.java" startLine="41" startPosition="37" endLine="42" endPosition="51" conceptFqName="jetbrains.mps.baseLanguage.structure.ReturnStatement" />
-    <nodeInfo nodeId="1164412935041" fileName="GItem.java" startLine="45" startPosition="47" endLine="46" endPosition="51" conceptFqName="jetbrains.mps.baseLanguage.structure.ExpressionStatement" />
-    <nodeInfo nodeId="1164412935041" fileName="GItem.java" startLine="49" startPosition="41" endLine="50" endPosition="54" conceptFqName="jetbrains.mps.baseLanguage.structure.ReturnStatement" />
-    <nodeInfo nodeId="1164412935041" fileName="GItem.java" startLine="53" startPosition="49" endLine="54" endPosition="66" conceptFqName="jetbrains.mps.baseLanguage.structure.ReturnStatement" />
-    <nodeInfo nodeId="1164412935041" fileName="GItem.java" startLine="57" startPosition="48" endLine="58" endPosition="69" conceptFqName="jetbrains.mps.baseLanguage.structure.ReturnStatement" />
-    <nodeInfo nodeId="1164412935041" fileName="GItem.java" startLine="61" startPosition="50" endLine="62" endPosition="48" conceptFqName="jetbrains.mps.baseLanguage.structure.ExpressionStatement" />
-    <nodeInfo nodeId="1164412935041" fileName="GItem.java" startLine="65" startPosition="69" endLine="66" endPosition="57" conceptFqName="jetbrains.mps.baseLanguage.structure.ExpressionStatement" />
-    <nodeInfo nodeId="1164412935041" fileName="GItem.java" startLine="69" startPosition="60" endLine="70" endPosition="153" conceptFqName="jetbrains.mps.baseLanguage.structure.ReturnStatement" />
-    <nodeInfo nodeId="1164412935041" fileName="GItem.java" startLine="73" startPosition="46" endLine="74" endPosition="40" conceptFqName="jetbrains.mps.baseLanguage.structure.ReturnStatement" />
-    <nodeInfo nodeId="1164412935041" fileName="GItem.java" startLine="20" startPosition="0" endLine="23" endPosition="3" conceptFqName="jetbrains.mps.baseLanguage.structure.ConstructorDeclaration" propertyString="GItem#(Ljetbrains/mps/smodel/SNode;)V" />
-    <nodeInfo nodeId="1164412935041" fileName="GItem.java" startLine="24" startPosition="0" endLine="28" endPosition="0" conceptFqName="jetbrains.mps.baseLanguage.structure.InstanceMethodDeclaration" propertyString="getShortDescription#()Ljava/lang/String;" />
-    <nodeInfo nodeId="1164412935041" fileName="GItem.java" startLine="28" startPosition="0" endLine="32" endPosition="0" conceptFqName="jetbrains.mps.baseLanguage.structure.InstanceMethodDeclaration" propertyString="setShortDescription#(Ljava/lang/String;)V" />
-    <nodeInfo nodeId="1164412935041" fileName="GItem.java" startLine="32" startPosition="0" endLine="36" endPosition="0" conceptFqName="jetbrains.mps.baseLanguage.structure.InstanceMethodDeclaration" propertyString="getAlias#()Ljava/lang/String;" />
-    <nodeInfo nodeId="1164412935041" fileName="GItem.java" startLine="36" startPosition="0" endLine="40" endPosition="0" conceptFqName="jetbrains.mps.baseLanguage.structure.InstanceMethodDeclaration" propertyString="setAlias#(Ljava/lang/String;)V" />
-    <nodeInfo nodeId="1164412935041" fileName="GItem.java" startLine="40" startPosition="0" endLine="44" endPosition="0" conceptFqName="jetbrains.mps.baseLanguage.structure.InstanceMethodDeclaration" propertyString="getVirtualPackage#()Ljava/lang/String;" />
-    <nodeInfo nodeId="1164412935041" fileName="GItem.java" startLine="44" startPosition="0" endLine="48" endPosition="0" conceptFqName="jetbrains.mps.baseLanguage.structure.InstanceMethodDeclaration" propertyString="setVirtualPackage#(Ljava/lang/String;)V" />
-    <nodeInfo nodeId="1164412935041" fileName="GItem.java" startLine="48" startPosition="0" endLine="52" endPosition="0" conceptFqName="jetbrains.mps.baseLanguage.structure.InstanceMethodDeclaration" propertyString="getSmodelAttributesCount#()I" />
-    <nodeInfo nodeId="1164412935041" fileName="GItem.java" startLine="52" startPosition="0" endLine="56" endPosition="0" conceptFqName="jetbrains.mps.baseLanguage.structure.InstanceMethodDeclaration" propertyString="smodelAttributes#()Ljava/util/Iterator;" />
-    <nodeInfo nodeId="1164412935041" fileName="GItem.java" startLine="56" startPosition="0" endLine="60" endPosition="0" conceptFqName="jetbrains.mps.baseLanguage.structure.InstanceMethodDeclaration" propertyString="getSmodelAttributes#()Ljava/util/List;" />
-    <nodeInfo nodeId="1164412935041" fileName="GItem.java" startLine="60" startPosition="0" endLine="64" endPosition="0" conceptFqName="jetbrains.mps.baseLanguage.structure.InstanceMethodDeclaration" propertyString="addSmodelAttribute#(Ljetbrains/mps/smodel/INodeAdapter;)V" />
-    <nodeInfo nodeId="1164412935041" fileName="GItem.java" startLine="64" startPosition="0" endLine="68" endPosition="0" conceptFqName="jetbrains.mps.baseLanguage.structure.InstanceMethodDeclaration" propertyString="insertSmodelAttribute#(Ljetbrains/mps/smodel/INodeAdapter;Ljetbrains/mps/smodel/INodeAdapter;)V" />
-    <nodeInfo nodeId="1164412935041" fileName="GItem.java" startLine="68" startPosition="0" endLine="72" endPosition="0" conceptFqName="jetbrains.mps.baseLanguage.structure.StaticMethodDeclaration" propertyString="newInstance#(Ljetbrains/mps/smodel/SModel;Z)Ljetbrains/mps/gtext/structure/GItem;" />
-    <nodeInfo nodeId="1164412935041" fileName="GItem.java" startLine="72" startPosition="0" endLine="76" endPosition="0" conceptFqName="jetbrains.mps.baseLanguage.structure.StaticMethodDeclaration" propertyString="newInstance#(Ljetbrains/mps/smodel/SModel;)Ljetbrains/mps/gtext/structure/GItem;" />
-    <scopeInfo nodeId="1164412935041" fileName="GItem.java" startLine="21" startPosition="28" endLine="22" endPosition="16" />
-    <scopeInfo nodeId="1164412935041" fileName="GItem.java" startLine="25" startPosition="39" endLine="26" endPosition="53" />
-    <scopeInfo nodeId="1164412935041" fileName="GItem.java" startLine="29" startPosition="49" endLine="30" endPosition="53" />
-    <scopeInfo nodeId="1164412935041" fileName="GItem.java" startLine="33" startPosition="28" endLine="34" endPosition="41" />
-    <scopeInfo nodeId="1164412935041" fileName="GItem.java" startLine="37" startPosition="38" endLine="38" endPosition="41" />
-    <scopeInfo nodeId="1164412935041" fileName="GItem.java" startLine="41" startPosition="37" endLine="42" endPosition="51" />
-    <scopeInfo nodeId="1164412935041" fileName="GItem.java" startLine="45" startPosition="47" endLine="46" endPosition="51" />
-    <scopeInfo nodeId="1164412935041" fileName="GItem.java" startLine="49" startPosition="41" endLine="50" endPosition="54" />
-    <scopeInfo nodeId="1164412935041" fileName="GItem.java" startLine="53" startPosition="49" endLine="54" endPosition="66" />
-    <scopeInfo nodeId="1164412935041" fileName="GItem.java" startLine="57" startPosition="48" endLine="58" endPosition="69" />
-    <scopeInfo nodeId="1164412935041" fileName="GItem.java" startLine="61" startPosition="50" endLine="62" endPosition="48" />
-    <scopeInfo nodeId="1164412935041" fileName="GItem.java" startLine="65" startPosition="69" endLine="66" endPosition="57" />
-    <scopeInfo nodeId="1164412935041" fileName="GItem.java" startLine="69" startPosition="60" endLine="70" endPosition="153" />
-    <scopeInfo nodeId="1164412935041" fileName="GItem.java" startLine="73" startPosition="46" endLine="74" endPosition="40" />
-    <scopeInfo nodeId="1164412935041" fileName="GItem.java" startLine="20" startPosition="0" endLine="23" endPosition="3" />
-    <scopeInfo nodeId="1164412935041" fileName="GItem.java" startLine="24" startPosition="0" endLine="28" endPosition="0" />
-    <scopeInfo nodeId="1164412935041" fileName="GItem.java" startLine="28" startPosition="0" endLine="32" endPosition="0" />
-    <scopeInfo nodeId="1164412935041" fileName="GItem.java" startLine="32" startPosition="0" endLine="36" endPosition="0" />
-    <scopeInfo nodeId="1164412935041" fileName="GItem.java" startLine="36" startPosition="0" endLine="40" endPosition="0" />
-    <scopeInfo nodeId="1164412935041" fileName="GItem.java" startLine="40" startPosition="0" endLine="44" endPosition="0" />
-    <scopeInfo nodeId="1164412935041" fileName="GItem.java" startLine="44" startPosition="0" endLine="48" endPosition="0" />
-    <scopeInfo nodeId="1164412935041" fileName="GItem.java" startLine="48" startPosition="0" endLine="52" endPosition="0" />
-    <scopeInfo nodeId="1164412935041" fileName="GItem.java" startLine="52" startPosition="0" endLine="56" endPosition="0" />
-    <scopeInfo nodeId="1164412935041" fileName="GItem.java" startLine="56" startPosition="0" endLine="60" endPosition="0" />
-    <scopeInfo nodeId="1164412935041" fileName="GItem.java" startLine="60" startPosition="0" endLine="64" endPosition="0" />
-    <scopeInfo nodeId="1164412935041" fileName="GItem.java" startLine="64" startPosition="0" endLine="68" endPosition="0" />
-    <scopeInfo nodeId="1164412935041" fileName="GItem.java" startLine="68" startPosition="0" endLine="72" endPosition="0" />
-    <scopeInfo nodeId="1164412935041" fileName="GItem.java" startLine="72" startPosition="0" endLine="76" endPosition="0" />
-    <unitInfo nodeId="1164412935041" fileName="GItem.java" startLine="14" startPosition="0" endLine="77" endPosition="0" unitName="jetbrains.mps.gtext.structure.GItem" />
+    <nodeInfo nodeId="1164412935041" fileName="GItem.java" startLine="15" startPosition="82" endLine="16" endPosition="77" conceptFqName="jetbrains.mps.baseLanguage.structure.StaticFieldDeclaration" propertyString="concept" />
+    <nodeInfo nodeId="1164412935041" fileName="GItem.java" startLine="16" startPosition="77" endLine="17" endPosition="68" conceptFqName="jetbrains.mps.baseLanguage.structure.StaticFieldDeclaration" propertyString="SHORT_DESCRIPTION" />
+    <nodeInfo nodeId="1164412935041" fileName="GItem.java" startLine="17" startPosition="68" endLine="18" endPosition="45" conceptFqName="jetbrains.mps.baseLanguage.structure.StaticFieldDeclaration" propertyString="ALIAS" />
+    <nodeInfo nodeId="1164412935041" fileName="GItem.java" startLine="18" startPosition="45" endLine="19" endPosition="64" conceptFqName="jetbrains.mps.baseLanguage.structure.StaticFieldDeclaration" propertyString="VIRTUAL_PACKAGE" />
+    <nodeInfo nodeId="1164412935041" fileName="GItem.java" startLine="19" startPosition="64" endLine="20" endPosition="66" conceptFqName="jetbrains.mps.baseLanguage.structure.StaticFieldDeclaration" propertyString="SMODEL_ATTRIBUTE" />
+    <nodeInfo nodeId="1164412935041" fileName="GItem.java" startLine="22" startPosition="28" endLine="23" endPosition="16" conceptFqName="jetbrains.mps.baseLanguage.structure.SuperConstructorInvocation" />
+    <nodeInfo nodeId="1164412935041" fileName="GItem.java" startLine="26" startPosition="39" endLine="27" endPosition="53" conceptFqName="jetbrains.mps.baseLanguage.structure.ReturnStatement" />
+    <nodeInfo nodeId="1164412935041" fileName="GItem.java" startLine="30" startPosition="49" endLine="31" endPosition="53" conceptFqName="jetbrains.mps.baseLanguage.structure.ExpressionStatement" />
+    <nodeInfo nodeId="1164412935041" fileName="GItem.java" startLine="34" startPosition="28" endLine="35" endPosition="41" conceptFqName="jetbrains.mps.baseLanguage.structure.ReturnStatement" />
+    <nodeInfo nodeId="1164412935041" fileName="GItem.java" startLine="38" startPosition="38" endLine="39" endPosition="41" conceptFqName="jetbrains.mps.baseLanguage.structure.ExpressionStatement" />
+    <nodeInfo nodeId="1164412935041" fileName="GItem.java" startLine="42" startPosition="37" endLine="43" endPosition="51" conceptFqName="jetbrains.mps.baseLanguage.structure.ReturnStatement" />
+    <nodeInfo nodeId="1164412935041" fileName="GItem.java" startLine="46" startPosition="47" endLine="47" endPosition="51" conceptFqName="jetbrains.mps.baseLanguage.structure.ExpressionStatement" />
+    <nodeInfo nodeId="1164412935041" fileName="GItem.java" startLine="50" startPosition="41" endLine="51" endPosition="54" conceptFqName="jetbrains.mps.baseLanguage.structure.ReturnStatement" />
+    <nodeInfo nodeId="1164412935041" fileName="GItem.java" startLine="54" startPosition="49" endLine="55" endPosition="66" conceptFqName="jetbrains.mps.baseLanguage.structure.ReturnStatement" />
+    <nodeInfo nodeId="1164412935041" fileName="GItem.java" startLine="58" startPosition="48" endLine="59" endPosition="69" conceptFqName="jetbrains.mps.baseLanguage.structure.ReturnStatement" />
+    <nodeInfo nodeId="1164412935041" fileName="GItem.java" startLine="62" startPosition="50" endLine="63" endPosition="48" conceptFqName="jetbrains.mps.baseLanguage.structure.ExpressionStatement" />
+    <nodeInfo nodeId="1164412935041" fileName="GItem.java" startLine="66" startPosition="69" endLine="67" endPosition="57" conceptFqName="jetbrains.mps.baseLanguage.structure.ExpressionStatement" />
+    <nodeInfo nodeId="1164412935041" fileName="GItem.java" startLine="70" startPosition="60" endLine="71" endPosition="153" conceptFqName="jetbrains.mps.baseLanguage.structure.ReturnStatement" />
+    <nodeInfo nodeId="1164412935041" fileName="GItem.java" startLine="74" startPosition="46" endLine="75" endPosition="40" conceptFqName="jetbrains.mps.baseLanguage.structure.ReturnStatement" />
+    <nodeInfo nodeId="1164412935041" fileName="GItem.java" startLine="21" startPosition="0" endLine="24" endPosition="3" conceptFqName="jetbrains.mps.baseLanguage.structure.ConstructorDeclaration" propertyString="GItem#(Ljetbrains/mps/smodel/SNode;)V" />
+    <nodeInfo nodeId="1164412935041" fileName="GItem.java" startLine="25" startPosition="0" endLine="29" endPosition="0" conceptFqName="jetbrains.mps.baseLanguage.structure.InstanceMethodDeclaration" propertyString="getShortDescription#()Ljava/lang/String;" />
+    <nodeInfo nodeId="1164412935041" fileName="GItem.java" startLine="29" startPosition="0" endLine="33" endPosition="0" conceptFqName="jetbrains.mps.baseLanguage.structure.InstanceMethodDeclaration" propertyString="setShortDescription#(Ljava/lang/String;)V" />
+    <nodeInfo nodeId="1164412935041" fileName="GItem.java" startLine="33" startPosition="0" endLine="37" endPosition="0" conceptFqName="jetbrains.mps.baseLanguage.structure.InstanceMethodDeclaration" propertyString="getAlias#()Ljava/lang/String;" />
+    <nodeInfo nodeId="1164412935041" fileName="GItem.java" startLine="37" startPosition="0" endLine="41" endPosition="0" conceptFqName="jetbrains.mps.baseLanguage.structure.InstanceMethodDeclaration" propertyString="setAlias#(Ljava/lang/String;)V" />
+    <nodeInfo nodeId="1164412935041" fileName="GItem.java" startLine="41" startPosition="0" endLine="45" endPosition="0" conceptFqName="jetbrains.mps.baseLanguage.structure.InstanceMethodDeclaration" propertyString="getVirtualPackage#()Ljava/lang/String;" />
+    <nodeInfo nodeId="1164412935041" fileName="GItem.java" startLine="45" startPosition="0" endLine="49" endPosition="0" conceptFqName="jetbrains.mps.baseLanguage.structure.InstanceMethodDeclaration" propertyString="setVirtualPackage#(Ljava/lang/String;)V" />
+    <nodeInfo nodeId="1164412935041" fileName="GItem.java" startLine="49" startPosition="0" endLine="53" endPosition="0" conceptFqName="jetbrains.mps.baseLanguage.structure.InstanceMethodDeclaration" propertyString="getSmodelAttributesCount#()I" />
+    <nodeInfo nodeId="1164412935041" fileName="GItem.java" startLine="53" startPosition="0" endLine="57" endPosition="0" conceptFqName="jetbrains.mps.baseLanguage.structure.InstanceMethodDeclaration" propertyString="smodelAttributes#()Ljava/util/Iterator;" />
+    <nodeInfo nodeId="1164412935041" fileName="GItem.java" startLine="57" startPosition="0" endLine="61" endPosition="0" conceptFqName="jetbrains.mps.baseLanguage.structure.InstanceMethodDeclaration" propertyString="getSmodelAttributes#()Ljava/util/List;" />
+    <nodeInfo nodeId="1164412935041" fileName="GItem.java" startLine="61" startPosition="0" endLine="65" endPosition="0" conceptFqName="jetbrains.mps.baseLanguage.structure.InstanceMethodDeclaration" propertyString="addSmodelAttribute#(Ljetbrains/mps/smodel/INodeAdapter;)V" />
+    <nodeInfo nodeId="1164412935041" fileName="GItem.java" startLine="65" startPosition="0" endLine="69" endPosition="0" conceptFqName="jetbrains.mps.baseLanguage.structure.InstanceMethodDeclaration" propertyString="insertSmodelAttribute#(Ljetbrains/mps/smodel/INodeAdapter;Ljetbrains/mps/smodel/INodeAdapter;)V" />
+    <nodeInfo nodeId="1164412935041" fileName="GItem.java" startLine="69" startPosition="0" endLine="73" endPosition="0" conceptFqName="jetbrains.mps.baseLanguage.structure.StaticMethodDeclaration" propertyString="newInstance#(Ljetbrains/mps/smodel/SModel;Z)Ljetbrains/mps/gtext/structure/GItem;" />
+    <nodeInfo nodeId="1164412935041" fileName="GItem.java" startLine="73" startPosition="0" endLine="77" endPosition="0" conceptFqName="jetbrains.mps.baseLanguage.structure.StaticMethodDeclaration" propertyString="newInstance#(Ljetbrains/mps/smodel/SModel;)Ljetbrains/mps/gtext/structure/GItem;" />
+    <scopeInfo nodeId="1164412935041" fileName="GItem.java" startLine="22" startPosition="28" endLine="23" endPosition="16" />
+    <scopeInfo nodeId="1164412935041" fileName="GItem.java" startLine="26" startPosition="39" endLine="27" endPosition="53" />
+    <scopeInfo nodeId="1164412935041" fileName="GItem.java" startLine="30" startPosition="49" endLine="31" endPosition="53" />
+    <scopeInfo nodeId="1164412935041" fileName="GItem.java" startLine="34" startPosition="28" endLine="35" endPosition="41" />
+    <scopeInfo nodeId="1164412935041" fileName="GItem.java" startLine="38" startPosition="38" endLine="39" endPosition="41" />
+    <scopeInfo nodeId="1164412935041" fileName="GItem.java" startLine="42" startPosition="37" endLine="43" endPosition="51" />
+    <scopeInfo nodeId="1164412935041" fileName="GItem.java" startLine="46" startPosition="47" endLine="47" endPosition="51" />
+    <scopeInfo nodeId="1164412935041" fileName="GItem.java" startLine="50" startPosition="41" endLine="51" endPosition="54" />
+    <scopeInfo nodeId="1164412935041" fileName="GItem.java" startLine="54" startPosition="49" endLine="55" endPosition="66" />
+    <scopeInfo nodeId="1164412935041" fileName="GItem.java" startLine="58" startPosition="48" endLine="59" endPosition="69" />
+    <scopeInfo nodeId="1164412935041" fileName="GItem.java" startLine="62" startPosition="50" endLine="63" endPosition="48" />
+    <scopeInfo nodeId="1164412935041" fileName="GItem.java" startLine="66" startPosition="69" endLine="67" endPosition="57" />
+    <scopeInfo nodeId="1164412935041" fileName="GItem.java" startLine="70" startPosition="60" endLine="71" endPosition="153" />
+    <scopeInfo nodeId="1164412935041" fileName="GItem.java" startLine="74" startPosition="46" endLine="75" endPosition="40" />
+    <scopeInfo nodeId="1164412935041" fileName="GItem.java" startLine="21" startPosition="0" endLine="24" endPosition="3" />
+    <scopeInfo nodeId="1164412935041" fileName="GItem.java" startLine="25" startPosition="0" endLine="29" endPosition="0" />
+    <scopeInfo nodeId="1164412935041" fileName="GItem.java" startLine="29" startPosition="0" endLine="33" endPosition="0" />
+    <scopeInfo nodeId="1164412935041" fileName="GItem.java" startLine="33" startPosition="0" endLine="37" endPosition="0" />
+    <scopeInfo nodeId="1164412935041" fileName="GItem.java" startLine="37" startPosition="0" endLine="41" endPosition="0" />
+    <scopeInfo nodeId="1164412935041" fileName="GItem.java" startLine="41" startPosition="0" endLine="45" endPosition="0" />
+    <scopeInfo nodeId="1164412935041" fileName="GItem.java" startLine="45" startPosition="0" endLine="49" endPosition="0" />
+    <scopeInfo nodeId="1164412935041" fileName="GItem.java" startLine="49" startPosition="0" endLine="53" endPosition="0" />
+    <scopeInfo nodeId="1164412935041" fileName="GItem.java" startLine="53" startPosition="0" endLine="57" endPosition="0" />
+    <scopeInfo nodeId="1164412935041" fileName="GItem.java" startLine="57" startPosition="0" endLine="61" endPosition="0" />
+    <scopeInfo nodeId="1164412935041" fileName="GItem.java" startLine="61" startPosition="0" endLine="65" endPosition="0" />
+    <scopeInfo nodeId="1164412935041" fileName="GItem.java" startLine="65" startPosition="0" endLine="69" endPosition="0" />
+    <scopeInfo nodeId="1164412935041" fileName="GItem.java" startLine="69" startPosition="0" endLine="73" endPosition="0" />
+    <scopeInfo nodeId="1164412935041" fileName="GItem.java" startLine="73" startPosition="0" endLine="77" endPosition="0" />
+    <unitInfo nodeId="1164412935041" fileName="GItem.java" startLine="15" startPosition="0" endLine="78" endPosition="0" unitName="jetbrains.mps.gtext.structure.GItem" />
   </root>
   <root nodeId="1164412982980">
     <nodeInfo nodeId="1164412982980" fileName="GItemList.java" startLine="13" startPosition="64" endLine="14" endPosition="81" conceptFqName="jetbrains.mps.baseLanguage.structure.StaticFieldDeclaration" propertyString="concept" />
@@ -564,116 +564,116 @@
     <unitInfo nodeId="1181754781153" fileName="BuilderContextRef.java" startLine="14" startPosition="0" endLine="77" endPosition="0" unitName="jetbrains.mps.gtext.structure.BuilderContextRef" />
   </root>
   <root nodeId="1184639540818">
-    <nodeInfo nodeId="1184639540818" fileName="GDocument.java" startLine="15" startPosition="69" endLine="16" endPosition="81" conceptFqName="jetbrains.mps.baseLanguage.structure.StaticFieldDeclaration" propertyString="concept" />
-    <nodeInfo nodeId="1184639540818" fileName="GDocument.java" startLine="16" startPosition="81" endLine="17" endPosition="60" conceptFqName="jetbrains.mps.baseLanguage.structure.StaticFieldDeclaration" propertyString="DOCUMENT_NAME" />
-    <nodeInfo nodeId="1184639540818" fileName="GDocument.java" startLine="17" startPosition="60" endLine="18" endPosition="53" conceptFqName="jetbrains.mps.baseLanguage.structure.StaticFieldDeclaration" propertyString="EXTENSION" />
-    <nodeInfo nodeId="1184639540818" fileName="GDocument.java" startLine="18" startPosition="53" endLine="19" endPosition="43" conceptFqName="jetbrains.mps.baseLanguage.structure.StaticFieldDeclaration" propertyString="NAME" />
-    <nodeInfo nodeId="1184639540818" fileName="GDocument.java" startLine="19" startPosition="43" endLine="20" endPosition="68" conceptFqName="jetbrains.mps.baseLanguage.structure.StaticFieldDeclaration" propertyString="SHORT_DESCRIPTION" />
-    <nodeInfo nodeId="1184639540818" fileName="GDocument.java" startLine="20" startPosition="68" endLine="21" endPosition="45" conceptFqName="jetbrains.mps.baseLanguage.structure.StaticFieldDeclaration" propertyString="ALIAS" />
-    <nodeInfo nodeId="1184639540818" fileName="GDocument.java" startLine="21" startPosition="45" endLine="22" endPosition="64" conceptFqName="jetbrains.mps.baseLanguage.structure.StaticFieldDeclaration" propertyString="VIRTUAL_PACKAGE" />
-    <nodeInfo nodeId="1184639540818" fileName="GDocument.java" startLine="22" startPosition="64" endLine="23" endPosition="43" conceptFqName="jetbrains.mps.baseLanguage.structure.StaticFieldDeclaration" propertyString="ITEM" />
-    <nodeInfo nodeId="1184639540818" fileName="GDocument.java" startLine="23" startPosition="43" endLine="24" endPosition="66" conceptFqName="jetbrains.mps.baseLanguage.structure.StaticFieldDeclaration" propertyString="SMODEL_ATTRIBUTE" />
-    <nodeInfo nodeId="1184639540818" fileName="GDocument.java" startLine="26" startPosition="32" endLine="27" endPosition="16" conceptFqName="jetbrains.mps.baseLanguage.structure.SuperConstructorInvocation" />
-    <nodeInfo nodeId="1184639540818" fileName="GDocument.java" startLine="30" startPosition="35" endLine="31" endPosition="53" conceptFqName="jetbrains.mps.baseLanguage.structure.ReturnStatement" />
-    <nodeInfo nodeId="1184639540818" fileName="GDocument.java" startLine="34" startPosition="45" endLine="35" endPosition="53" conceptFqName="jetbrains.mps.baseLanguage.structure.ExpressionStatement" />
-    <nodeInfo nodeId="1184639540818" fileName="GDocument.java" startLine="38" startPosition="32" endLine="39" endPosition="49" conceptFqName="jetbrains.mps.baseLanguage.structure.ReturnStatement" />
-    <nodeInfo nodeId="1184639540818" fileName="GDocument.java" startLine="42" startPosition="42" endLine="43" endPosition="49" conceptFqName="jetbrains.mps.baseLanguage.structure.ExpressionStatement" />
-    <nodeInfo nodeId="1184639540818" fileName="GDocument.java" startLine="46" startPosition="27" endLine="47" endPosition="44" conceptFqName="jetbrains.mps.baseLanguage.structure.ReturnStatement" />
-    <nodeInfo nodeId="1184639540818" fileName="GDocument.java" startLine="50" startPosition="37" endLine="51" endPosition="44" conceptFqName="jetbrains.mps.baseLanguage.structure.ExpressionStatement" />
-    <nodeInfo nodeId="1184639540818" fileName="GDocument.java" startLine="54" startPosition="39" endLine="55" endPosition="57" conceptFqName="jetbrains.mps.baseLanguage.structure.ReturnStatement" />
-    <nodeInfo nodeId="1184639540818" fileName="GDocument.java" startLine="58" startPosition="49" endLine="59" endPosition="57" conceptFqName="jetbrains.mps.baseLanguage.structure.ExpressionStatement" />
-    <nodeInfo nodeId="1184639540818" fileName="GDocument.java" startLine="62" startPosition="28" endLine="63" endPosition="45" conceptFqName="jetbrains.mps.baseLanguage.structure.ReturnStatement" />
-    <nodeInfo nodeId="1184639540818" fileName="GDocument.java" startLine="66" startPosition="38" endLine="67" endPosition="45" conceptFqName="jetbrains.mps.baseLanguage.structure.ExpressionStatement" />
-    <nodeInfo nodeId="1184639540818" fileName="GDocument.java" startLine="70" startPosition="37" endLine="71" endPosition="55" conceptFqName="jetbrains.mps.baseLanguage.structure.ReturnStatement" />
-    <nodeInfo nodeId="1184639540818" fileName="GDocument.java" startLine="74" startPosition="47" endLine="75" endPosition="55" conceptFqName="jetbrains.mps.baseLanguage.structure.ExpressionStatement" />
-    <nodeInfo nodeId="1184639540818" fileName="GDocument.java" startLine="78" startPosition="30" endLine="79" endPosition="46" conceptFqName="jetbrains.mps.baseLanguage.structure.ReturnStatement" />
-    <nodeInfo nodeId="1184639540818" fileName="GDocument.java" startLine="82" startPosition="34" endLine="83" endPosition="54" conceptFqName="jetbrains.mps.baseLanguage.structure.ReturnStatement" />
-    <nodeInfo nodeId="1184639540818" fileName="GDocument.java" startLine="86" startPosition="33" endLine="87" endPosition="57" conceptFqName="jetbrains.mps.baseLanguage.structure.ReturnStatement" />
-    <nodeInfo nodeId="1184639540818" fileName="GDocument.java" startLine="90" startPosition="35" endLine="91" endPosition="40" conceptFqName="jetbrains.mps.baseLanguage.structure.ExpressionStatement" />
-    <nodeInfo nodeId="1184639540818" fileName="GDocument.java" startLine="94" startPosition="50" endLine="95" endPosition="49" conceptFqName="jetbrains.mps.baseLanguage.structure.ExpressionStatement" />
-    <nodeInfo nodeId="1184639540818" fileName="GDocument.java" startLine="98" startPosition="41" endLine="99" endPosition="58" conceptFqName="jetbrains.mps.baseLanguage.structure.ReturnStatement" />
-    <nodeInfo nodeId="1184639540818" fileName="GDocument.java" startLine="102" startPosition="49" endLine="103" endPosition="70" conceptFqName="jetbrains.mps.baseLanguage.structure.ReturnStatement" />
-    <nodeInfo nodeId="1184639540818" fileName="GDocument.java" startLine="106" startPosition="48" endLine="107" endPosition="73" conceptFqName="jetbrains.mps.baseLanguage.structure.ReturnStatement" />
-    <nodeInfo nodeId="1184639540818" fileName="GDocument.java" startLine="110" startPosition="50" endLine="111" endPosition="52" conceptFqName="jetbrains.mps.baseLanguage.structure.ExpressionStatement" />
-    <nodeInfo nodeId="1184639540818" fileName="GDocument.java" startLine="114" startPosition="69" endLine="115" endPosition="61" conceptFqName="jetbrains.mps.baseLanguage.structure.ExpressionStatement" />
-    <nodeInfo nodeId="1184639540818" fileName="GDocument.java" startLine="118" startPosition="64" endLine="119" endPosition="161" conceptFqName="jetbrains.mps.baseLanguage.structure.ReturnStatement" />
-    <nodeInfo nodeId="1184639540818" fileName="GDocument.java" startLine="122" startPosition="50" endLine="123" endPosition="44" conceptFqName="jetbrains.mps.baseLanguage.structure.ReturnStatement" />
-    <nodeInfo nodeId="1184639540818" fileName="GDocument.java" startLine="25" startPosition="0" endLine="28" endPosition="3" conceptFqName="jetbrains.mps.baseLanguage.structure.ConstructorDeclaration" propertyString="GDocument#(Ljetbrains/mps/smodel/SNode;)V" />
-    <nodeInfo nodeId="1184639540818" fileName="GDocument.java" startLine="29" startPosition="0" endLine="33" endPosition="0" conceptFqName="jetbrains.mps.baseLanguage.structure.InstanceMethodDeclaration" propertyString="getDocumentName#()Ljava/lang/String;" />
-    <nodeInfo nodeId="1184639540818" fileName="GDocument.java" startLine="33" startPosition="0" endLine="37" endPosition="0" conceptFqName="jetbrains.mps.baseLanguage.structure.InstanceMethodDeclaration" propertyString="setDocumentName#(Ljava/lang/String;)V" />
-    <nodeInfo nodeId="1184639540818" fileName="GDocument.java" startLine="37" startPosition="0" endLine="41" endPosition="0" conceptFqName="jetbrains.mps.baseLanguage.structure.InstanceMethodDeclaration" propertyString="getExtension#()Ljava/lang/String;" />
-    <nodeInfo nodeId="1184639540818" fileName="GDocument.java" startLine="41" startPosition="0" endLine="45" endPosition="0" conceptFqName="jetbrains.mps.baseLanguage.structure.InstanceMethodDeclaration" propertyString="setExtension#(Ljava/lang/String;)V" />
-    <nodeInfo nodeId="1184639540818" fileName="GDocument.java" startLine="45" startPosition="0" endLine="49" endPosition="0" conceptFqName="jetbrains.mps.baseLanguage.structure.InstanceMethodDeclaration" propertyString="getName#()Ljava/lang/String;" />
-    <nodeInfo nodeId="1184639540818" fileName="GDocument.java" startLine="49" startPosition="0" endLine="53" endPosition="0" conceptFqName="jetbrains.mps.baseLanguage.structure.InstanceMethodDeclaration" propertyString="setName#(Ljava/lang/String;)V" />
-    <nodeInfo nodeId="1184639540818" fileName="GDocument.java" startLine="53" startPosition="0" endLine="57" endPosition="0" conceptFqName="jetbrains.mps.baseLanguage.structure.InstanceMethodDeclaration" propertyString="getShortDescription#()Ljava/lang/String;" />
-    <nodeInfo nodeId="1184639540818" fileName="GDocument.java" startLine="57" startPosition="0" endLine="61" endPosition="0" conceptFqName="jetbrains.mps.baseLanguage.structure.InstanceMethodDeclaration" propertyString="setShortDescription#(Ljava/lang/String;)V" />
-    <nodeInfo nodeId="1184639540818" fileName="GDocument.java" startLine="61" startPosition="0" endLine="65" endPosition="0" conceptFqName="jetbrains.mps.baseLanguage.structure.InstanceMethodDeclaration" propertyString="getAlias#()Ljava/lang/String;" />
-    <nodeInfo nodeId="1184639540818" fileName="GDocument.java" startLine="65" startPosition="0" endLine="69" endPosition="0" conceptFqName="jetbrains.mps.baseLanguage.structure.InstanceMethodDeclaration" propertyString="setAlias#(Ljava/lang/String;)V" />
-    <nodeInfo nodeId="1184639540818" fileName="GDocument.java" startLine="69" startPosition="0" endLine="73" endPosition="0" conceptFqName="jetbrains.mps.baseLanguage.structure.InstanceMethodDeclaration" propertyString="getVirtualPackage#()Ljava/lang/String;" />
-    <nodeInfo nodeId="1184639540818" fileName="GDocument.java" startLine="73" startPosition="0" endLine="77" endPosition="0" conceptFqName="jetbrains.mps.baseLanguage.structure.InstanceMethodDeclaration" propertyString="setVirtualPackage#(Ljava/lang/String;)V" />
-    <nodeInfo nodeId="1184639540818" fileName="GDocument.java" startLine="77" startPosition="0" endLine="81" endPosition="0" conceptFqName="jetbrains.mps.baseLanguage.structure.InstanceMethodDeclaration" propertyString="getItemsCount#()I" />
-    <nodeInfo nodeId="1184639540818" fileName="GDocument.java" startLine="81" startPosition="0" endLine="85" endPosition="0" conceptFqName="jetbrains.mps.baseLanguage.structure.InstanceMethodDeclaration" propertyString="items#()Ljava/util/Iterator;" />
-    <nodeInfo nodeId="1184639540818" fileName="GDocument.java" startLine="85" startPosition="0" endLine="89" endPosition="0" conceptFqName="jetbrains.mps.baseLanguage.structure.InstanceMethodDeclaration" propertyString="getItems#()Ljava/util/List;" />
-    <nodeInfo nodeId="1184639540818" fileName="GDocument.java" startLine="89" startPosition="0" endLine="93" endPosition="0" conceptFqName="jetbrains.mps.baseLanguage.structure.InstanceMethodDeclaration" propertyString="addItem#(Ljetbrains/mps/smodel/INodeAdapter;)V" />
-    <nodeInfo nodeId="1184639540818" fileName="GDocument.java" startLine="93" startPosition="0" endLine="97" endPosition="0" conceptFqName="jetbrains.mps.baseLanguage.structure.InstanceMethodDeclaration" propertyString="insertItem#(Ljetbrains/mps/smodel/INodeAdapter;Ljetbrains/mps/smodel/INodeAdapter;)V" />
-    <nodeInfo nodeId="1184639540818" fileName="GDocument.java" startLine="97" startPosition="0" endLine="101" endPosition="0" conceptFqName="jetbrains.mps.baseLanguage.structure.InstanceMethodDeclaration" propertyString="getSmodelAttributesCount#()I" />
-    <nodeInfo nodeId="1184639540818" fileName="GDocument.java" startLine="101" startPosition="0" endLine="105" endPosition="0" conceptFqName="jetbrains.mps.baseLanguage.structure.InstanceMethodDeclaration" propertyString="smodelAttributes#()Ljava/util/Iterator;" />
-    <nodeInfo nodeId="1184639540818" fileName="GDocument.java" startLine="105" startPosition="0" endLine="109" endPosition="0" conceptFqName="jetbrains.mps.baseLanguage.structure.InstanceMethodDeclaration" propertyString="getSmodelAttributes#()Ljava/util/List;" />
-    <nodeInfo nodeId="1184639540818" fileName="GDocument.java" startLine="109" startPosition="0" endLine="113" endPosition="0" conceptFqName="jetbrains.mps.baseLanguage.structure.InstanceMethodDeclaration" propertyString="addSmodelAttribute#(Ljetbrains/mps/smodel/INodeAdapter;)V" />
-    <nodeInfo nodeId="1184639540818" fileName="GDocument.java" startLine="113" startPosition="0" endLine="117" endPosition="0" conceptFqName="jetbrains.mps.baseLanguage.structure.InstanceMethodDeclaration" propertyString="insertSmodelAttribute#(Ljetbrains/mps/smodel/INodeAdapter;Ljetbrains/mps/smodel/INodeAdapter;)V" />
-    <nodeInfo nodeId="1184639540818" fileName="GDocument.java" startLine="117" startPosition="0" endLine="121" endPosition="0" conceptFqName="jetbrains.mps.baseLanguage.structure.StaticMethodDeclaration" propertyString="newInstance#(Ljetbrains/mps/smodel/SModel;Z)Ljetbrains/mps/gtext/structure/GDocument;" />
-    <nodeInfo nodeId="1184639540818" fileName="GDocument.java" startLine="121" startPosition="0" endLine="125" endPosition="0" conceptFqName="jetbrains.mps.baseLanguage.structure.StaticMethodDeclaration" propertyString="newInstance#(Ljetbrains/mps/smodel/SModel;)Ljetbrains/mps/gtext/structure/GDocument;" />
-    <scopeInfo nodeId="1184639540818" fileName="GDocument.java" startLine="26" startPosition="32" endLine="27" endPosition="16" />
-    <scopeInfo nodeId="1184639540818" fileName="GDocument.java" startLine="30" startPosition="35" endLine="31" endPosition="53" />
-    <scopeInfo nodeId="1184639540818" fileName="GDocument.java" startLine="34" startPosition="45" endLine="35" endPosition="53" />
-    <scopeInfo nodeId="1184639540818" fileName="GDocument.java" startLine="38" startPosition="32" endLine="39" endPosition="49" />
-    <scopeInfo nodeId="1184639540818" fileName="GDocument.java" startLine="42" startPosition="42" endLine="43" endPosition="49" />
-    <scopeInfo nodeId="1184639540818" fileName="GDocument.java" startLine="46" startPosition="27" endLine="47" endPosition="44" />
-    <scopeInfo nodeId="1184639540818" fileName="GDocument.java" startLine="50" startPosition="37" endLine="51" endPosition="44" />
-    <scopeInfo nodeId="1184639540818" fileName="GDocument.java" startLine="54" startPosition="39" endLine="55" endPosition="57" />
-    <scopeInfo nodeId="1184639540818" fileName="GDocument.java" startLine="58" startPosition="49" endLine="59" endPosition="57" />
-    <scopeInfo nodeId="1184639540818" fileName="GDocument.java" startLine="62" startPosition="28" endLine="63" endPosition="45" />
-    <scopeInfo nodeId="1184639540818" fileName="GDocument.java" startLine="66" startPosition="38" endLine="67" endPosition="45" />
-    <scopeInfo nodeId="1184639540818" fileName="GDocument.java" startLine="70" startPosition="37" endLine="71" endPosition="55" />
-    <scopeInfo nodeId="1184639540818" fileName="GDocument.java" startLine="74" startPosition="47" endLine="75" endPosition="55" />
-    <scopeInfo nodeId="1184639540818" fileName="GDocument.java" startLine="78" startPosition="30" endLine="79" endPosition="46" />
-    <scopeInfo nodeId="1184639540818" fileName="GDocument.java" startLine="82" startPosition="34" endLine="83" endPosition="54" />
-    <scopeInfo nodeId="1184639540818" fileName="GDocument.java" startLine="86" startPosition="33" endLine="87" endPosition="57" />
-    <scopeInfo nodeId="1184639540818" fileName="GDocument.java" startLine="90" startPosition="35" endLine="91" endPosition="40" />
-    <scopeInfo nodeId="1184639540818" fileName="GDocument.java" startLine="94" startPosition="50" endLine="95" endPosition="49" />
-    <scopeInfo nodeId="1184639540818" fileName="GDocument.java" startLine="98" startPosition="41" endLine="99" endPosition="58" />
-    <scopeInfo nodeId="1184639540818" fileName="GDocument.java" startLine="102" startPosition="49" endLine="103" endPosition="70" />
-    <scopeInfo nodeId="1184639540818" fileName="GDocument.java" startLine="106" startPosition="48" endLine="107" endPosition="73" />
-    <scopeInfo nodeId="1184639540818" fileName="GDocument.java" startLine="110" startPosition="50" endLine="111" endPosition="52" />
-    <scopeInfo nodeId="1184639540818" fileName="GDocument.java" startLine="114" startPosition="69" endLine="115" endPosition="61" />
-    <scopeInfo nodeId="1184639540818" fileName="GDocument.java" startLine="118" startPosition="64" endLine="119" endPosition="161" />
-    <scopeInfo nodeId="1184639540818" fileName="GDocument.java" startLine="122" startPosition="50" endLine="123" endPosition="44" />
-    <scopeInfo nodeId="1184639540818" fileName="GDocument.java" startLine="25" startPosition="0" endLine="28" endPosition="3" />
-    <scopeInfo nodeId="1184639540818" fileName="GDocument.java" startLine="29" startPosition="0" endLine="33" endPosition="0" />
-    <scopeInfo nodeId="1184639540818" fileName="GDocument.java" startLine="33" startPosition="0" endLine="37" endPosition="0" />
-    <scopeInfo nodeId="1184639540818" fileName="GDocument.java" startLine="37" startPosition="0" endLine="41" endPosition="0" />
-    <scopeInfo nodeId="1184639540818" fileName="GDocument.java" startLine="41" startPosition="0" endLine="45" endPosition="0" />
-    <scopeInfo nodeId="1184639540818" fileName="GDocument.java" startLine="45" startPosition="0" endLine="49" endPosition="0" />
-    <scopeInfo nodeId="1184639540818" fileName="GDocument.java" startLine="49" startPosition="0" endLine="53" endPosition="0" />
-    <scopeInfo nodeId="1184639540818" fileName="GDocument.java" startLine="53" startPosition="0" endLine="57" endPosition="0" />
-    <scopeInfo nodeId="1184639540818" fileName="GDocument.java" startLine="57" startPosition="0" endLine="61" endPosition="0" />
-    <scopeInfo nodeId="1184639540818" fileName="GDocument.java" startLine="61" startPosition="0" endLine="65" endPosition="0" />
-    <scopeInfo nodeId="1184639540818" fileName="GDocument.java" startLine="65" startPosition="0" endLine="69" endPosition="0" />
-    <scopeInfo nodeId="1184639540818" fileName="GDocument.java" startLine="69" startPosition="0" endLine="73" endPosition="0" />
-    <scopeInfo nodeId="1184639540818" fileName="GDocument.java" startLine="73" startPosition="0" endLine="77" endPosition="0" />
-    <scopeInfo nodeId="1184639540818" fileName="GDocument.java" startLine="77" startPosition="0" endLine="81" endPosition="0" />
-    <scopeInfo nodeId="1184639540818" fileName="GDocument.java" startLine="81" startPosition="0" endLine="85" endPosition="0" />
-    <scopeInfo nodeId="1184639540818" fileName="GDocument.java" startLine="85" startPosition="0" endLine="89" endPosition="0" />
-    <scopeInfo nodeId="1184639540818" fileName="GDocument.java" startLine="89" startPosition="0" endLine="93" endPosition="0" />
-    <scopeInfo nodeId="1184639540818" fileName="GDocument.java" startLine="93" startPosition="0" endLine="97" endPosition="0" />
-    <scopeInfo nodeId="1184639540818" fileName="GDocument.java" startLine="97" startPosition="0" endLine="101" endPosition="0" />
-    <scopeInfo nodeId="1184639540818" fileName="GDocument.java" startLine="101" startPosition="0" endLine="105" endPosition="0" />
-    <scopeInfo nodeId="1184639540818" fileName="GDocument.java" startLine="105" startPosition="0" endLine="109" endPosition="0" />
-    <scopeInfo nodeId="1184639540818" fileName="GDocument.java" startLine="109" startPosition="0" endLine="113" endPosition="0" />
-    <scopeInfo nodeId="1184639540818" fileName="GDocument.java" startLine="113" startPosition="0" endLine="117" endPosition="0" />
-    <scopeInfo nodeId="1184639540818" fileName="GDocument.java" startLine="117" startPosition="0" endLine="121" endPosition="0" />
-    <scopeInfo nodeId="1184639540818" fileName="GDocument.java" startLine="121" startPosition="0" endLine="125" endPosition="0" />
-    <unitInfo nodeId="1184639540818" fileName="GDocument.java" startLine="15" startPosition="0" endLine="126" endPosition="0" unitName="jetbrains.mps.gtext.structure.GDocument" />
+    <nodeInfo nodeId="1184639540818" fileName="GDocument.java" startLine="16" startPosition="82" endLine="17" endPosition="81" conceptFqName="jetbrains.mps.baseLanguage.structure.StaticFieldDeclaration" propertyString="concept" />
+    <nodeInfo nodeId="1184639540818" fileName="GDocument.java" startLine="17" startPosition="81" endLine="18" endPosition="60" conceptFqName="jetbrains.mps.baseLanguage.structure.StaticFieldDeclaration" propertyString="DOCUMENT_NAME" />
+    <nodeInfo nodeId="1184639540818" fileName="GDocument.java" startLine="18" startPosition="60" endLine="19" endPosition="53" conceptFqName="jetbrains.mps.baseLanguage.structure.StaticFieldDeclaration" propertyString="EXTENSION" />
+    <nodeInfo nodeId="1184639540818" fileName="GDocument.java" startLine="19" startPosition="53" endLine="20" endPosition="43" conceptFqName="jetbrains.mps.baseLanguage.structure.StaticFieldDeclaration" propertyString="NAME" />
+    <nodeInfo nodeId="1184639540818" fileName="GDocument.java" startLine="20" startPosition="43" endLine="21" endPosition="68" conceptFqName="jetbrains.mps.baseLanguage.structure.StaticFieldDeclaration" propertyString="SHORT_DESCRIPTION" />
+    <nodeInfo nodeId="1184639540818" fileName="GDocument.java" startLine="21" startPosition="68" endLine="22" endPosition="45" conceptFqName="jetbrains.mps.baseLanguage.structure.StaticFieldDeclaration" propertyString="ALIAS" />
+    <nodeInfo nodeId="1184639540818" fileName="GDocument.java" startLine="22" startPosition="45" endLine="23" endPosition="64" conceptFqName="jetbrains.mps.baseLanguage.structure.StaticFieldDeclaration" propertyString="VIRTUAL_PACKAGE" />
+    <nodeInfo nodeId="1184639540818" fileName="GDocument.java" startLine="23" startPosition="64" endLine="24" endPosition="43" conceptFqName="jetbrains.mps.baseLanguage.structure.StaticFieldDeclaration" propertyString="ITEM" />
+    <nodeInfo nodeId="1184639540818" fileName="GDocument.java" startLine="24" startPosition="43" endLine="25" endPosition="66" conceptFqName="jetbrains.mps.baseLanguage.structure.StaticFieldDeclaration" propertyString="SMODEL_ATTRIBUTE" />
+    <nodeInfo nodeId="1184639540818" fileName="GDocument.java" startLine="27" startPosition="32" endLine="28" endPosition="16" conceptFqName="jetbrains.mps.baseLanguage.structure.SuperConstructorInvocation" />
+    <nodeInfo nodeId="1184639540818" fileName="GDocument.java" startLine="31" startPosition="35" endLine="32" endPosition="53" conceptFqName="jetbrains.mps.baseLanguage.structure.ReturnStatement" />
+    <nodeInfo nodeId="1184639540818" fileName="GDocument.java" startLine="35" startPosition="45" endLine="36" endPosition="53" conceptFqName="jetbrains.mps.baseLanguage.structure.ExpressionStatement" />
+    <nodeInfo nodeId="1184639540818" fileName="GDocument.java" startLine="39" startPosition="32" endLine="40" endPosition="49" conceptFqName="jetbrains.mps.baseLanguage.structure.ReturnStatement" />
+    <nodeInfo nodeId="1184639540818" fileName="GDocument.java" startLine="43" startPosition="42" endLine="44" endPosition="49" conceptFqName="jetbrains.mps.baseLanguage.structure.ExpressionStatement" />
+    <nodeInfo nodeId="1184639540818" fileName="GDocument.java" startLine="47" startPosition="27" endLine="48" endPosition="44" conceptFqName="jetbrains.mps.baseLanguage.structure.ReturnStatement" />
+    <nodeInfo nodeId="1184639540818" fileName="GDocument.java" startLine="51" startPosition="37" endLine="52" endPosition="44" conceptFqName="jetbrains.mps.baseLanguage.structure.ExpressionStatement" />
+    <nodeInfo nodeId="1184639540818" fileName="GDocument.java" startLine="55" startPosition="39" endLine="56" endPosition="57" conceptFqName="jetbrains.mps.baseLanguage.structure.ReturnStatement" />
+    <nodeInfo nodeId="1184639540818" fileName="GDocument.java" startLine="59" startPosition="49" endLine="60" endPosition="57" conceptFqName="jetbrains.mps.baseLanguage.structure.ExpressionStatement" />
+    <nodeInfo nodeId="1184639540818" fileName="GDocument.java" startLine="63" startPosition="28" endLine="64" endPosition="45" conceptFqName="jetbrains.mps.baseLanguage.structure.ReturnStatement" />
+    <nodeInfo nodeId="1184639540818" fileName="GDocument.java" startLine="67" startPosition="38" endLine="68" endPosition="45" conceptFqName="jetbrains.mps.baseLanguage.structure.ExpressionStatement" />
+    <nodeInfo nodeId="1184639540818" fileName="GDocument.java" startLine="71" startPosition="37" endLine="72" endPosition="55" conceptFqName="jetbrains.mps.baseLanguage.structure.ReturnStatement" />
+    <nodeInfo nodeId="1184639540818" fileName="GDocument.java" startLine="75" startPosition="47" endLine="76" endPosition="55" conceptFqName="jetbrains.mps.baseLanguage.structure.ExpressionStatement" />
+    <nodeInfo nodeId="1184639540818" fileName="GDocument.java" startLine="79" startPosition="30" endLine="80" endPosition="46" conceptFqName="jetbrains.mps.baseLanguage.structure.ReturnStatement" />
+    <nodeInfo nodeId="1184639540818" fileName="GDocument.java" startLine="83" startPosition="34" endLine="84" endPosition="54" conceptFqName="jetbrains.mps.baseLanguage.structure.ReturnStatement" />
+    <nodeInfo nodeId="1184639540818" fileName="GDocument.java" startLine="87" startPosition="33" endLine="88" endPosition="57" conceptFqName="jetbrains.mps.baseLanguage.structure.ReturnStatement" />
+    <nodeInfo nodeId="1184639540818" fileName="GDocument.java" startLine="91" startPosition="35" endLine="92" endPosition="40" conceptFqName="jetbrains.mps.baseLanguage.structure.ExpressionStatement" />
+    <nodeInfo nodeId="1184639540818" fileName="GDocument.java" startLine="95" startPosition="50" endLine="96" endPosition="49" conceptFqName="jetbrains.mps.baseLanguage.structure.ExpressionStatement" />
+    <nodeInfo nodeId="1184639540818" fileName="GDocument.java" startLine="99" startPosition="41" endLine="100" endPosition="58" conceptFqName="jetbrains.mps.baseLanguage.structure.ReturnStatement" />
+    <nodeInfo nodeId="1184639540818" fileName="GDocument.java" startLine="103" startPosition="49" endLine="104" endPosition="70" conceptFqName="jetbrains.mps.baseLanguage.structure.ReturnStatement" />
+    <nodeInfo nodeId="1184639540818" fileName="GDocument.java" startLine="107" startPosition="48" endLine="108" endPosition="73" conceptFqName="jetbrains.mps.baseLanguage.structure.ReturnStatement" />
+    <nodeInfo nodeId="1184639540818" fileName="GDocument.java" startLine="111" startPosition="50" endLine="112" endPosition="52" conceptFqName="jetbrains.mps.baseLanguage.structure.ExpressionStatement" />
+    <nodeInfo nodeId="1184639540818" fileName="GDocument.java" startLine="115" startPosition="69" endLine="116" endPosition="61" conceptFqName="jetbrains.mps.baseLanguage.structure.ExpressionStatement" />
+    <nodeInfo nodeId="1184639540818" fileName="GDocument.java" startLine="119" startPosition="64" endLine="120" endPosition="161" conceptFqName="jetbrains.mps.baseLanguage.structure.ReturnStatement" />
+    <nodeInfo nodeId="1184639540818" fileName="GDocument.java" startLine="123" startPosition="50" endLine="124" endPosition="44" conceptFqName="jetbrains.mps.baseLanguage.structure.ReturnStatement" />
+    <nodeInfo nodeId="1184639540818" fileName="GDocument.java" startLine="26" startPosition="0" endLine="29" endPosition="3" conceptFqName="jetbrains.mps.baseLanguage.structure.ConstructorDeclaration" propertyString="GDocument#(Ljetbrains/mps/smodel/SNode;)V" />
+    <nodeInfo nodeId="1184639540818" fileName="GDocument.java" startLine="30" startPosition="0" endLine="34" endPosition="0" conceptFqName="jetbrains.mps.baseLanguage.structure.InstanceMethodDeclaration" propertyString="getDocumentName#()Ljava/lang/String;" />
+    <nodeInfo nodeId="1184639540818" fileName="GDocument.java" startLine="34" startPosition="0" endLine="38" endPosition="0" conceptFqName="jetbrains.mps.baseLanguage.structure.InstanceMethodDeclaration" propertyString="setDocumentName#(Ljava/lang/String;)V" />
+    <nodeInfo nodeId="1184639540818" fileName="GDocument.java" startLine="38" startPosition="0" endLine="42" endPosition="0" conceptFqName="jetbrains.mps.baseLanguage.structure.InstanceMethodDeclaration" propertyString="getExtension#()Ljava/lang/String;" />
+    <nodeInfo nodeId="1184639540818" fileName="GDocument.java" startLine="42" startPosition="0" endLine="46" endPosition="0" conceptFqName="jetbrains.mps.baseLanguage.structure.InstanceMethodDeclaration" propertyString="setExtension#(Ljava/lang/String;)V" />
+    <nodeInfo nodeId="1184639540818" fileName="GDocument.java" startLine="46" startPosition="0" endLine="50" endPosition="0" conceptFqName="jetbrains.mps.baseLanguage.structure.InstanceMethodDeclaration" propertyString="getName#()Ljava/lang/String;" />
+    <nodeInfo nodeId="1184639540818" fileName="GDocument.java" startLine="50" startPosition="0" endLine="54" endPosition="0" conceptFqName="jetbrains.mps.baseLanguage.structure.InstanceMethodDeclaration" propertyString="setName#(Ljava/lang/String;)V" />
+    <nodeInfo nodeId="1184639540818" fileName="GDocument.java" startLine="54" startPosition="0" endLine="58" endPosition="0" conceptFqName="jetbrains.mps.baseLanguage.structure.InstanceMethodDeclaration" propertyString="getShortDescription#()Ljava/lang/String;" />
+    <nodeInfo nodeId="1184639540818" fileName="GDocument.java" startLine="58" startPosition="0" endLine="62" endPosition="0" conceptFqName="jetbrains.mps.baseLanguage.structure.InstanceMethodDeclaration" propertyString="setShortDescription#(Ljava/lang/String;)V" />
+    <nodeInfo nodeId="1184639540818" fileName="GDocument.java" startLine="62" startPosition="0" endLine="66" endPosition="0" conceptFqName="jetbrains.mps.baseLanguage.structure.InstanceMethodDeclaration" propertyString="getAlias#()Ljava/lang/String;" />
+    <nodeInfo nodeId="1184639540818" fileName="GDocument.java" startLine="66" startPosition="0" endLine="70" endPosition="0" conceptFqName="jetbrains.mps.baseLanguage.structure.InstanceMethodDeclaration" propertyString="setAlias#(Ljava/lang/String;)V" />
+    <nodeInfo nodeId="1184639540818" fileName="GDocument.java" startLine="70" startPosition="0" endLine="74" endPosition="0" conceptFqName="jetbrains.mps.baseLanguage.structure.InstanceMethodDeclaration" propertyString="getVirtualPackage#()Ljava/lang/String;" />
+    <nodeInfo nodeId="1184639540818" fileName="GDocument.java" startLine="74" startPosition="0" endLine="78" endPosition="0" conceptFqName="jetbrains.mps.baseLanguage.structure.InstanceMethodDeclaration" propertyString="setVirtualPackage#(Ljava/lang/String;)V" />
+    <nodeInfo nodeId="1184639540818" fileName="GDocument.java" startLine="78" startPosition="0" endLine="82" endPosition="0" conceptFqName="jetbrains.mps.baseLanguage.structure.InstanceMethodDeclaration" propertyString="getItemsCount#()I" />
+    <nodeInfo nodeId="1184639540818" fileName="GDocument.java" startLine="82" startPosition="0" endLine="86" endPosition="0" conceptFqName="jetbrains.mps.baseLanguage.structure.InstanceMethodDeclaration" propertyString="items#()Ljava/util/Iterator;" />
+    <nodeInfo nodeId="1184639540818" fileName="GDocument.java" startLine="86" startPosition="0" endLine="90" endPosition="0" conceptFqName="jetbrains.mps.baseLanguage.structure.InstanceMethodDeclaration" propertyString="getItems#()Ljava/util/List;" />
+    <nodeInfo nodeId="1184639540818" fileName="GDocument.java" startLine="90" startPosition="0" endLine="94" endPosition="0" conceptFqName="jetbrains.mps.baseLanguage.structure.InstanceMethodDeclaration" propertyString="addItem#(Ljetbrains/mps/smodel/INodeAdapter;)V" />
+    <nodeInfo nodeId="1184639540818" fileName="GDocument.java" startLine="94" startPosition="0" endLine="98" endPosition="0" conceptFqName="jetbrains.mps.baseLanguage.structure.InstanceMethodDeclaration" propertyString="insertItem#(Ljetbrains/mps/smodel/INodeAdapter;Ljetbrains/mps/smodel/INodeAdapter;)V" />
+    <nodeInfo nodeId="1184639540818" fileName="GDocument.java" startLine="98" startPosition="0" endLine="102" endPosition="0" conceptFqName="jetbrains.mps.baseLanguage.structure.InstanceMethodDeclaration" propertyString="getSmodelAttributesCount#()I" />
+    <nodeInfo nodeId="1184639540818" fileName="GDocument.java" startLine="102" startPosition="0" endLine="106" endPosition="0" conceptFqName="jetbrains.mps.baseLanguage.structure.InstanceMethodDeclaration" propertyString="smodelAttributes#()Ljava/util/Iterator;" />
+    <nodeInfo nodeId="1184639540818" fileName="GDocument.java" startLine="106" startPosition="0" endLine="110" endPosition="0" conceptFqName="jetbrains.mps.baseLanguage.structure.InstanceMethodDeclaration" propertyString="getSmodelAttributes#()Ljava/util/List;" />
+    <nodeInfo nodeId="1184639540818" fileName="GDocument.java" startLine="110" startPosition="0" endLine="114" endPosition="0" conceptFqName="jetbrains.mps.baseLanguage.structure.InstanceMethodDeclaration" propertyString="addSmodelAttribute#(Ljetbrains/mps/smodel/INodeAdapter;)V" />
+    <nodeInfo nodeId="1184639540818" fileName="GDocument.java" startLine="114" startPosition="0" endLine="118" endPosition="0" conceptFqName="jetbrains.mps.baseLanguage.structure.InstanceMethodDeclaration" propertyString="insertSmodelAttribute#(Ljetbrains/mps/smodel/INodeAdapter;Ljetbrains/mps/smodel/INodeAdapter;)V" />
+    <nodeInfo nodeId="1184639540818" fileName="GDocument.java" startLine="118" startPosition="0" endLine="122" endPosition="0" conceptFqName="jetbrains.mps.baseLanguage.structure.StaticMethodDeclaration" propertyString="newInstance#(Ljetbrains/mps/smodel/SModel;Z)Ljetbrains/mps/gtext/structure/GDocument;" />
+    <nodeInfo nodeId="1184639540818" fileName="GDocument.java" startLine="122" startPosition="0" endLine="126" endPosition="0" conceptFqName="jetbrains.mps.baseLanguage.structure.StaticMethodDeclaration" propertyString="newInstance#(Ljetbrains/mps/smodel/SModel;)Ljetbrains/mps/gtext/structure/GDocument;" />
+    <scopeInfo nodeId="1184639540818" fileName="GDocument.java" startLine="27" startPosition="32" endLine="28" endPosition="16" />
+    <scopeInfo nodeId="1184639540818" fileName="GDocument.java" startLine="31" startPosition="35" endLine="32" endPosition="53" />
+    <scopeInfo nodeId="1184639540818" fileName="GDocument.java" startLine="35" startPosition="45" endLine="36" endPosition="53" />
+    <scopeInfo nodeId="1184639540818" fileName="GDocument.java" startLine="39" startPosition="32" endLine="40" endPosition="49" />
+    <scopeInfo nodeId="1184639540818" fileName="GDocument.java" startLine="43" startPosition="42" endLine="44" endPosition="49" />
+    <scopeInfo nodeId="1184639540818" fileName="GDocument.java" startLine="47" startPosition="27" endLine="48" endPosition="44" />
+    <scopeInfo nodeId="1184639540818" fileName="GDocument.java" startLine="51" startPosition="37" endLine="52" endPosition="44" />
+    <scopeInfo nodeId="1184639540818" fileName="GDocument.java" startLine="55" startPosition="39" endLine="56" endPosition="57" />
+    <scopeInfo nodeId="1184639540818" fileName="GDocument.java" startLine="59" startPosition="49" endLine="60" endPosition="57" />
+    <scopeInfo nodeId="1184639540818" fileName="GDocument.java" startLine="63" startPosition="28" endLine="64" endPosition="45" />
+    <scopeInfo nodeId="1184639540818" fileName="GDocument.java" startLine="67" startPosition="38" endLine="68" endPosition="45" />
+    <scopeInfo nodeId="1184639540818" fileName="GDocument.java" startLine="71" startPosition="37" endLine="72" endPosition="55" />
+    <scopeInfo nodeId="1184639540818" fileName="GDocument.java" startLine="75" startPosition="47" endLine="76" endPosition="55" />
+    <scopeInfo nodeId="1184639540818" fileName="GDocument.java" startLine="79" startPosition="30" endLine="80" endPosition="46" />
+    <scopeInfo nodeId="1184639540818" fileName="GDocument.java" startLine="83" startPosition="34" endLine="84" endPosition="54" />
+    <scopeInfo nodeId="1184639540818" fileName="GDocument.java" startLine="87" startPosition="33" endLine="88" endPosition="57" />
+    <scopeInfo nodeId="1184639540818" fileName="GDocument.java" startLine="91" startPosition="35" endLine="92" endPosition="40" />
+    <scopeInfo nodeId="1184639540818" fileName="GDocument.java" startLine="95" startPosition="50" endLine="96" endPosition="49" />
+    <scopeInfo nodeId="1184639540818" fileName="GDocument.java" startLine="99" startPosition="41" endLine="100" endPosition="58" />
+    <scopeInfo nodeId="1184639540818" fileName="GDocument.java" startLine="103" startPosition="49" endLine="104" endPosition="70" />
+    <scopeInfo nodeId="1184639540818" fileName="GDocument.java" startLine="107" startPosition="48" endLine="108" endPosition="73" />
+    <scopeInfo nodeId="1184639540818" fileName="GDocument.java" startLine="111" startPosition="50" endLine="112" endPosition="52" />
+    <scopeInfo nodeId="1184639540818" fileName="GDocument.java" startLine="115" startPosition="69" endLine="116" endPosition="61" />
+    <scopeInfo nodeId="1184639540818" fileName="GDocument.java" startLine="119" startPosition="64" endLine="120" endPosition="161" />
+    <scopeInfo nodeId="1184639540818" fileName="GDocument.java" startLine="123" startPosition="50" endLine="124" endPosition="44" />
+    <scopeInfo nodeId="1184639540818" fileName="GDocument.java" startLine="26" startPosition="0" endLine="29" endPosition="3" />
+    <scopeInfo nodeId="1184639540818" fileName="GDocument.java" startLine="30" startPosition="0" endLine="34" endPosition="0" />
+    <scopeInfo nodeId="1184639540818" fileName="GDocument.java" startLine="34" startPosition="0" endLine="38" endPosition="0" />
+    <scopeInfo nodeId="1184639540818" fileName="GDocument.java" startLine="38" startPosition="0" endLine="42" endPosition="0" />
+    <scopeInfo nodeId="1184639540818" fileName="GDocument.java" startLine="42" startPosition="0" endLine="46" endPosition="0" />
+    <scopeInfo nodeId="1184639540818" fileName="GDocument.java" startLine="46" startPosition="0" endLine="50" endPosition="0" />
+    <scopeInfo nodeId="1184639540818" fileName="GDocument.java" startLine="50" startPosition="0" endLine="54" endPosition="0" />
+    <scopeInfo nodeId="1184639540818" fileName="GDocument.java" startLine="54" startPosition="0" endLine="58" endPosition="0" />
+    <scopeInfo nodeId="1184639540818" fileName="GDocument.java" startLine="58" startPosition="0" endLine="62" endPosition="0" />
+    <scopeInfo nodeId="1184639540818" fileName="GDocument.java" startLine="62" startPosition="0" endLine="66" endPosition="0" />
+    <scopeInfo nodeId="1184639540818" fileName="GDocument.java" startLine="66" startPosition="0" endLine="70" endPosition="0" />
+    <scopeInfo nodeId="1184639540818" fileName="GDocument.java" startLine="70" startPosition="0" endLine="74" endPosition="0" />
+    <scopeInfo nodeId="1184639540818" fileName="GDocument.java" startLine="74" startPosition="0" endLine="78" endPosition="0" />
+    <scopeInfo nodeId="1184639540818" fileName="GDocument.java" startLine="78" startPosition="0" endLine="82" endPosition="0" />
+    <scopeInfo nodeId="1184639540818" fileName="GDocument.java" startLine="82" startPosition="0" endLine="86" endPosition="0" />
+    <scopeInfo nodeId="1184639540818" fileName="GDocument.java" startLine="86" startPosition="0" endLine="90" endPosition="0" />
+    <scopeInfo nodeId="1184639540818" fileName="GDocument.java" startLine="90" startPosition="0" endLine="94" endPosition="0" />
+    <scopeInfo nodeId="1184639540818" fileName="GDocument.java" startLine="94" startPosition="0" endLine="98" endPosition="0" />
+    <scopeInfo nodeId="1184639540818" fileName="GDocument.java" startLine="98" startPosition="0" endLine="102" endPosition="0" />
+    <scopeInfo nodeId="1184639540818" fileName="GDocument.java" startLine="102" startPosition="0" endLine="106" endPosition="0" />
+    <scopeInfo nodeId="1184639540818" fileName="GDocument.java" startLine="106" startPosition="0" endLine="110" endPosition="0" />
+    <scopeInfo nodeId="1184639540818" fileName="GDocument.java" startLine="110" startPosition="0" endLine="114" endPosition="0" />
+    <scopeInfo nodeId="1184639540818" fileName="GDocument.java" startLine="114" startPosition="0" endLine="118" endPosition="0" />
+    <scopeInfo nodeId="1184639540818" fileName="GDocument.java" startLine="118" startPosition="0" endLine="122" endPosition="0" />
+    <scopeInfo nodeId="1184639540818" fileName="GDocument.java" startLine="122" startPosition="0" endLine="126" endPosition="0" />
+    <unitInfo nodeId="1184639540818" fileName="GDocument.java" startLine="16" startPosition="0" endLine="127" endPosition="0" unitName="jetbrains.mps.gtext.structure.GDocument" />
   </root>
   <root nodeId="1186170508337">
     <nodeInfo nodeId="1186170508337" fileName="GTextConcept.java" startLine="7" startPosition="52" endLine="8" endPosition="84" conceptFqName="jetbrains.mps.baseLanguage.structure.StaticFieldDeclaration" propertyString="concept" />

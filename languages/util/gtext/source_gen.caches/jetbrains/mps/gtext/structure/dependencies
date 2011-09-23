@@ -64,6 +64,7 @@
     <classNode dependClassName="jetbrains.mps.gtext.structure.GItem" />
     <classNode dependClassName="jetbrains.mps.lang.core.structure.Attribute" />
     <classNode dependClassName="jetbrains.mps.lang.core.structure.INamedConcept" />
+    <classNode dependClassName="jetbrains.mps.lang.traceable.structure.UnitConcept" />
     <classNode dependClassName="jetbrains.mps.project.GlobalScope" />
     <classNode dependClassName="jetbrains.mps.smodel.SModel" />
     <classNode dependClassName="jetbrains.mps.smodel.SModelUtil_new" />
@@ -105,6 +106,7 @@
     <classNode dependClassName="java.util.List" />
     <classNode dependClassName="jetbrains.mps.gtext.structure.GTextConcept" />
     <classNode dependClassName="jetbrains.mps.lang.core.structure.Attribute" />
+    <classNode dependClassName="jetbrains.mps.lang.traceable.structure.TraceableConcept" />
     <classNode dependClassName="jetbrains.mps.project.GlobalScope" />
     <classNode dependClassName="jetbrains.mps.smodel.SModel" />
     <classNode dependClassName="jetbrains.mps.smodel.SModelUtil_new" />

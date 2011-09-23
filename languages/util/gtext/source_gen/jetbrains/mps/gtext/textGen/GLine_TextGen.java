@@ -4,12 +4,18 @@ package jetbrains.mps.gtext.textGen;
 
 import jetbrains.mps.textGen.SNodeTextGen;
 import jetbrains.mps.smodel.SNode;
+import jetbrains.mps.textGen.TraceInfoGenerationUtil;
 import jetbrains.mps.internal.collections.runtime.ListSequence;
 import jetbrains.mps.lang.smodel.generator.smodelAdapter.SLinkOperations;
 import jetbrains.mps.textGen.TextGenManager;
+import jetbrains.mps.lang.traceable.behavior.TraceableConcept_Behavior;
+import jetbrains.mps.lang.smodel.generator.smodelAdapter.SNodeOperations;
 
 public class GLine_TextGen extends SNodeTextGen {
   public void doGenerateText(SNode node) {
+    if (getBuffer().hasPositionsSupport()) {
+      TraceInfoGenerationUtil.createPositionInfo(this, node);
+    }
     this.indentBuffer();
     if (ListSequence.fromList(SLinkOperations.getTargets(node, "item", true)).isNotEmpty()) {
       for (SNode item : SLinkOperations.getTargets(node, "item", true)) {
@@ -17,5 +23,8 @@ public class GLine_TextGen extends SNodeTextGen {
       }
     }
     this.appendNewLine();
+    if (getBuffer().hasPositionsSupport()) {
+      TraceInfoGenerationUtil.fillPositionInfo(this, node, TraceableConcept_Behavior.call_getTraceableProperty_5067982036267369901(SNodeOperations.cast(node, "jetbrains.mps.lang.traceable.structure.TraceableConcept")));
+    }
   }
 }
