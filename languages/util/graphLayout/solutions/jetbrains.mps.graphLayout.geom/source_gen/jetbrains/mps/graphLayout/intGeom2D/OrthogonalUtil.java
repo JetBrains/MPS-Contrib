@@ -13,6 +13,9 @@ import java.util.ArrayList;
  * that segments can be horizontal or vertical only.
  */
 public class OrthogonalUtil {
+  public OrthogonalUtil() {
+  }
+
   /**
    * Removes some points from sequence in such a way that segments formed from successive
    * points of refined sequence alternate horisontal and vertical direction.
