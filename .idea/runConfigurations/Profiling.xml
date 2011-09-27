@@ -1,6 +1,6 @@
 <component name="ProjectRunConfigurationManager">
   <configuration default="false" name="Profiling" type="Application" factoryName="Application">
-    <extension name="coverage" enabled="false" merge="false" sample_coverage="true" runner="emma" />
+    <extension name="coverage" enabled="false" merge="false" sample_coverage="true" />
     <option name="MAIN_CLASS_NAME" value="jetbrains.mps.Launcher" />
     <option name="VM_PARAMETERS" value="-ea -Xmx1440m -Xss4096k -XX:MaxPermSize=392m -XX:+UseConcMarkSweepGC  -XX:+CMSClassUnloadingEnabled -Dmps.internal=true -Dapple.laf.useScreenMenuBar=true -Dcom.apple.mrj.application.apple.menu.about.name=&quot;JetBrains MPS&quot; -agentlib:yjpagent " />
     <option name="PROGRAM_PARAMETERS" value="" />

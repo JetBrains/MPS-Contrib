@@ -13,6 +13,9 @@ import java.util.HashSet;
 import jetbrains.mps.internal.collections.runtime.ISelector;
 
 public class CheckEmbeddedGraph {
+  public CheckEmbeddedGraph() {
+  }
+
   public static boolean checkAdjacentFaces(EmbeddedGraph embeddedGraph) {
     for (Edge edge : SetSequence.fromSet(embeddedGraph.getEdges())) {
       if (ListSequence.fromList(embeddedGraph.getAdjacentFaces(edge)).count() != 2) {

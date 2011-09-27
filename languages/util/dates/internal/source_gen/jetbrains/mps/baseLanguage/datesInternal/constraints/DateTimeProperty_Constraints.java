@@ -14,11 +14,11 @@ import jetbrains.mps.smodel.runtime.base.BaseReferenceScopeProvider;
 import jetbrains.mps.smodel.IOperationContext;
 import jetbrains.mps.smodel.runtime.ReferenceConstraintsContext;
 import jetbrains.mps.baseLanguage.search.ClassifierVisibleStaticMembersScope;
+import jetbrains.mps.smodel.SNode;
 import jetbrains.mps.generator.JavaModelUtil_new;
 import org.joda.time.Period;
 import jetbrains.mps.baseLanguage.search.IClassifiersSearchScope;
 import org.joda.time.DateTimeFieldType;
-import jetbrains.mps.smodel.SNode;
 import jetbrains.mps.lang.smodel.generator.smodelAdapter.SConceptOperations;
 import jetbrains.mps.lang.smodel.generator.smodelAdapter.SLinkOperations;
 import org.joda.time.format.PeriodFormatterBuilder;
@@ -48,7 +48,7 @@ public class DateTimeProperty_Constraints extends BaseConstraintsDescriptor {
         return new BaseReferenceScopeProvider() {
           @Override
           public Object createSearchScopeOrListOfNodes(final IOperationContext operationContext, final ReferenceConstraintsContext _context) {
-            return new ClassifierVisibleStaticMembersScope(JavaModelUtil_new.findClassifier(Period.class), _context.getEnclosingNode(), IClassifiersSearchScope.STATIC_METHOD);
+            return new ClassifierVisibleStaticMembersScope((SNode) JavaModelUtil_new.findClassifier(Period.class), _context.getEnclosingNode(), IClassifiersSearchScope.STATIC_METHOD);
           }
 
           @Override
@@ -70,7 +70,7 @@ public class DateTimeProperty_Constraints extends BaseConstraintsDescriptor {
         return new BaseReferenceScopeProvider() {
           @Override
           public Object createSearchScopeOrListOfNodes(final IOperationContext operationContext, final ReferenceConstraintsContext _context) {
-            return new ClassifierVisibleStaticMembersScope(JavaModelUtil_new.findClassifier(DateTimeFieldType.class), _context.getEnclosingNode(), IClassifiersSearchScope.STATIC_METHOD);
+            return new ClassifierVisibleStaticMembersScope((SNode) JavaModelUtil_new.findClassifier(DateTimeFieldType.class), _context.getEnclosingNode(), IClassifiersSearchScope.STATIC_METHOD);
           }
 
           @Override
