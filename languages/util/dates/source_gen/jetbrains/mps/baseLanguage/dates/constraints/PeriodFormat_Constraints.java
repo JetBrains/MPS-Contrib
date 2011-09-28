@@ -28,7 +28,7 @@ public class PeriodFormat_Constraints extends BaseConstraintsDescriptor {
       @Override
       public Object getValue(SNode node, IScope scope) {
         String propertyName = "isPublic";
-        return Boolean.toString(SPropertyOperations.hasValue(node, "visibility", "public", "public"));
+        return SPropertyOperations.hasValue(node, "visibility", "public", "public");
       }
     });
     return properties;
