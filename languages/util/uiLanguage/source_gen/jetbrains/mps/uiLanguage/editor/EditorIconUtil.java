@@ -52,7 +52,7 @@ public class EditorIconUtil {
           public void run() {
             SPropertyOperations.set(node, "iconData", EncodingUtil.encodeBase64(content));
           }
-        }, context.getOperationContext().getProject());
+        }, context.getOperationContext().getIdeaProject());
       }
     });
     return button;
