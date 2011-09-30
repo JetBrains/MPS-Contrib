@@ -4,11 +4,16 @@ package jetbrains.mps.gtext.behavior;
 
 import jetbrains.mps.lang.core.behavior.BaseConcept_BehaviorDescriptor;
 import jetbrains.mps.lang.core.behavior.INamedConcept_BehaviorDescriptor;
+import jetbrains.mps.lang.traceable.behavior.UnitConcept_BehaviorDescriptor;
 import jetbrains.mps.smodel.SNode;
 import jetbrains.mps.lang.core.behavior.INamedConcept_Behavior;
 
-public class GDocument_BehaviorDescriptor extends BaseConcept_BehaviorDescriptor implements INamedConcept_BehaviorDescriptor {
+public class GDocument_BehaviorDescriptor extends BaseConcept_BehaviorDescriptor implements INamedConcept_BehaviorDescriptor, UnitConcept_BehaviorDescriptor {
   public GDocument_BehaviorDescriptor() {
+  }
+
+  public String virtual_getUnitName_5067982036267369911(SNode thisNode) {
+    return GDocument_Behavior.virtual_getUnitName_5067982036267369911(thisNode);
   }
 
   public String virtual_getFqName_1213877404258(SNode thisNode) {

@@ -4,17 +4,26 @@ package jetbrains.mps.gtext.textGen;
 
 import jetbrains.mps.textGen.SNodeTextGen;
 import jetbrains.mps.smodel.SNode;
+import jetbrains.mps.textGen.TraceInfoGenerationUtil;
 import jetbrains.mps.internal.collections.runtime.ListSequence;
 import jetbrains.mps.lang.smodel.generator.smodelAdapter.SLinkOperations;
 import jetbrains.mps.textGen.TextGenManager;
+import jetbrains.mps.lang.traceable.behavior.UnitConcept_Behavior;
+import jetbrains.mps.lang.smodel.generator.smodelAdapter.SNodeOperations;
 import jetbrains.mps.lang.smodel.generator.smodelAdapter.SPropertyOperations;
 
 public class GDocument_TextGen extends SNodeTextGen {
   public void doGenerateText(SNode node) {
+    if (getBuffer().hasPositionsSupport()) {
+      TraceInfoGenerationUtil.createUnitInfo(this, node);
+    }
     if (ListSequence.fromList(SLinkOperations.getTargets(node, "item", true)).isNotEmpty()) {
       for (SNode item : SLinkOperations.getTargets(node, "item", true)) {
         TextGenManager.instance().appendNodeText(this.getContext(), this.getBuffer(), item, this.getSNode());
       }
+    }
+    if (getBuffer().hasPositionsSupport()) {
+      TraceInfoGenerationUtil.fillUnitInfo(this, node, UnitConcept_Behavior.call_getUnitName_5067982036267369911(SNodeOperations.cast(node, "jetbrains.mps.lang.traceable.structure.UnitConcept")));
     }
   }
 

@@ -26,7 +26,7 @@ public class StructureAspectDescriptor implements jetbrains.mps.smodel.runtime.S
       case 4:
         return new CompiledConceptDescriptor("jetbrains.mps.gtext.structure.GContentPlaceholder", "jetbrains.mps.gtext.structure.GItem", false, new String[]{"jetbrains.mps.gtext.structure.GItem", "jetbrains.mps.lang.core.structure.INamedConcept"}, new String[]{}, new String[]{});
       case 5:
-        return new CompiledConceptDescriptor("jetbrains.mps.gtext.structure.GDocument", "jetbrains.mps.lang.core.structure.BaseConcept", false, new String[]{"jetbrains.mps.lang.core.structure.BaseConcept", "jetbrains.mps.lang.core.structure.INamedConcept"}, new String[]{"documentName", "extension"}, new String[]{});
+        return new CompiledConceptDescriptor("jetbrains.mps.gtext.structure.GDocument", "jetbrains.mps.lang.core.structure.BaseConcept", false, new String[]{"jetbrains.mps.lang.core.structure.BaseConcept", "jetbrains.mps.lang.core.structure.INamedConcept", "jetbrains.mps.lang.traceable.structure.UnitConcept"}, new String[]{"documentName", "extension"}, new String[]{});
       case 6:
         return new CompiledConceptDescriptor("jetbrains.mps.gtext.structure.GExpressionItem", "jetbrains.mps.gtext.structure.GItem", false, new String[]{"jetbrains.mps.gtext.structure.GItem"}, new String[]{}, new String[]{});
       case 7:
@@ -34,7 +34,7 @@ public class StructureAspectDescriptor implements jetbrains.mps.smodel.runtime.S
       case 8:
         return new CompiledConceptDescriptor("jetbrains.mps.gtext.structure.GIndentBlock", "jetbrains.mps.gtext.structure.GItem", false, new String[]{"jetbrains.mps.gtext.structure.GItem"}, new String[]{}, new String[]{});
       case 9:
-        return new CompiledConceptDescriptor("jetbrains.mps.gtext.structure.GItem", "jetbrains.mps.lang.core.structure.BaseConcept", false, new String[]{"jetbrains.mps.lang.core.structure.BaseConcept", "jetbrains.mps.gtext.structure.GTextConcept"}, new String[]{}, new String[]{});
+        return new CompiledConceptDescriptor("jetbrains.mps.gtext.structure.GItem", "jetbrains.mps.lang.core.structure.BaseConcept", false, new String[]{"jetbrains.mps.lang.core.structure.BaseConcept", "jetbrains.mps.gtext.structure.GTextConcept", "jetbrains.mps.lang.traceable.structure.TraceableConcept"}, new String[]{}, new String[]{});
       case 10:
         return new CompiledConceptDescriptor("jetbrains.mps.gtext.structure.GItemList", "jetbrains.mps.gtext.structure.GItem", false, new String[]{"jetbrains.mps.gtext.structure.GItem", "jetbrains.mps.gtext.structure.GCompositeItem"}, new String[]{}, new String[]{});
       case 11:
