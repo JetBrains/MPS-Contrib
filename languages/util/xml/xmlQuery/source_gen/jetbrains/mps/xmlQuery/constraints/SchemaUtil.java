@@ -50,7 +50,8 @@ public class SchemaUtil {
     } else if (SNodeOperations.isInstanceOf(typeExpression, "jetbrains.mps.xmlSchema.structure.ElementWithContent")) {
       return getAvailableAttributes(SLinkOperations.getTarget(SNodeOperations.cast(typeExpression, "jetbrains.mps.xmlSchema.structure.ElementWithContent"), "complexType", true));
     } else {
-      LOG.error("Unknown XML type expression: " + SPropertyOperations.getString(SNodeOperations.getConceptDeclaration(typeExpression), "name"));
+      LOG.error("Unknown XML type expression: " + SPropertyOperations.getString(((SNode) SNodeOperations.getConceptDeclaration(typeExpression)), "name"));
+
       return new ArrayList<SNode>();
     }
   }

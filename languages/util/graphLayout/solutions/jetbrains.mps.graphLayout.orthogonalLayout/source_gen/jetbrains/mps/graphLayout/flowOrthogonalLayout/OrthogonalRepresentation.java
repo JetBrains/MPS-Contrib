@@ -27,6 +27,9 @@ import jetbrains.mps.internal.collections.runtime.ISelector;
 public class OrthogonalRepresentation {
   private static int SHOW_INFO = 0;
 
+  public OrthogonalRepresentation() {
+  }
+
   public static void getRepresentation(EmbeddedGraph embeddedGraph, Set<Edge> edgesToBeStraight, Map<Dart, Integer> bends, Map<Dart, Integer> angles) {
     Graph graph = embeddedGraph.getGraph();
     Graph network = new Graph();
