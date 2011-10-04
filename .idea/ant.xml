@@ -63,14 +63,14 @@
     </buildFile>
     <buildFile url="file://$PROJECT_DIR$/build/test.xml">
       <additionalClassPath>
-        <entry path="file://$PROJECT_DIR$/../../mps/lib/junit-4.8.2.jar" />
+        <entry path="file://C:/../mps/lib/junit-4.8.2.jar" />
       </additionalClassPath>
       <antReference projectDefault="true" />
       <customJdkName value="" />
       <maximumHeapSize value="128" />
       <maximumStackSize value="2" />
       <properties>
-        <property name="deploy.dir" value="$USER_HOME$/MPS.artifacts" />
+        <property name="deploy.dir" value="C:/MPS.artifacts" />
         <property name="build.number" value="20.7385" />
       </properties>
     </buildFile>

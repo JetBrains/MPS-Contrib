@@ -2883,7 +2883,7 @@
     <nodeInfo nodeId="1172950296325" fileName="EntitySet_Editor.java" startLine="235" startPosition="78" endLine="236" endPosition="105" conceptFqName="jetbrains.mps.baseLanguage.structure.ReturnStatement" />
     <nodeInfo nodeId="1172950296325" fileName="EntitySet_Editor.java" startLine="237" startPosition="10" endLine="238" endPosition="22" conceptFqName="jetbrains.mps.baseLanguage.structure.ReturnStatement" />
     <nodeInfo nodeId="1172963342489" fileName="EntitySet_Editor.java" startLine="241" startPosition="112" endLine="242" endPosition="62" conceptFqName="jetbrains.mps.baseLanguage.structure.ReturnStatement" />
-    <nodeInfo nodeId="1176495144246" fileName="EntitySet_Editor.java" startLine="245" startPosition="109" endLine="246" endPosition="91" conceptFqName="jetbrains.mps.baseLanguage.structure.ReturnStatement" />
+    <nodeInfo nodeId="1176495144246" fileName="EntitySet_Editor.java" startLine="245" startPosition="121" endLine="246" endPosition="91" conceptFqName="jetbrains.mps.baseLanguage.structure.ReturnStatement" />
     <nodeInfo nodeId="1172950296325" fileName="EntitySet_Editor.java" startLine="250" startPosition="103" endLine="251" endPosition="50" conceptFqName="jetbrains.mps.baseLanguage.structure.SuperConstructorInvocation" />
     <nodeInfo nodeId="1172950296325" fileName="EntitySet_Editor.java" startLine="254" startPosition="66" endLine="255" endPosition="41" conceptFqName="jetbrains.mps.baseLanguage.structure.LocalVariableDeclarationStatement" />
     <nodeInfo nodeId="1172950296325" fileName="EntitySet_Editor.java" startLine="255" startPosition="41" endLine="256" endPosition="93" conceptFqName="jetbrains.mps.baseLanguage.structure.ReturnStatement" />
@@ -2977,7 +2977,7 @@
     <scopeInfo nodeId="1172950296325" fileName="EntitySet_Editor.java" startLine="210" startPosition="58" endLine="211" endPosition="53" />
     <scopeInfo nodeId="1172950296325" fileName="EntitySet_Editor.java" startLine="228" startPosition="58" endLine="229" endPosition="43" />
     <scopeInfo nodeId="1172963331696" fileName="EntitySet_Editor.java" startLine="241" startPosition="112" endLine="242" endPosition="62" />
-    <scopeInfo nodeId="1176495136464" fileName="EntitySet_Editor.java" startLine="245" startPosition="109" endLine="246" endPosition="91" />
+    <scopeInfo nodeId="1176495136464" fileName="EntitySet_Editor.java" startLine="245" startPosition="121" endLine="246" endPosition="91" />
     <scopeInfo nodeId="1172950296325" fileName="EntitySet_Editor.java" startLine="250" startPosition="103" endLine="251" endPosition="50" />
     <scopeInfo nodeId="1172950296325" fileName="EntitySet_Editor.java" startLine="275" startPosition="34" endLine="276" endPosition="95" />
     <scopeInfo nodeId="1172950296325" fileName="EntitySet_Editor.java" startLine="278" startPosition="131" endLine="279" endPosition="139" />
@@ -3233,7 +3233,10 @@
   </root>
   <root nodeId="1178296794013">
     <nodeInfo nodeId="1178296808264" fileName="XmlColorConstants.java" startLine="7" startPosition="32" endLine="8" endPosition="58" conceptFqName="jetbrains.mps.baseLanguage.structure.StaticFieldDeclaration" propertyString="XML_COLOR" />
-    <unitInfo nodeId="1178296794013" fileName="XmlColorConstants.java" startLine="7" startPosition="0" endLine="10" endPosition="0" unitName="jetbrains.mps.xmlSchema.editor.XmlColorConstants" />
+    <nodeInfo nodeId="8949395081772940791" fileName="XmlColorConstants.java" startLine="9" startPosition="0" endLine="11" endPosition="3" conceptFqName="jetbrains.mps.baseLanguage.structure.ConstructorDeclaration" propertyString="XmlColorConstants#()V" />
+    <scopeInfo nodeId="8949395081772940793" fileName="XmlColorConstants.java" startLine="10" startPosition="30" endLine="10" endPosition="30" />
+    <scopeInfo nodeId="8949395081772940791" fileName="XmlColorConstants.java" startLine="9" startPosition="0" endLine="11" endPosition="3" />
+    <unitInfo nodeId="1178296794013" fileName="XmlColorConstants.java" startLine="7" startPosition="0" endLine="13" endPosition="0" unitName="jetbrains.mps.xmlSchema.editor.XmlColorConstants" />
   </root>
   <root nodeId="1189887895767">
     <nodeInfo nodeId="1189887895767" fileName="NamespaceDeclaration_Editor.java" startLine="17" startPosition="79" endLine="18" endPosition="63" conceptFqName="jetbrains.mps.baseLanguage.structure.ReturnStatement" />
