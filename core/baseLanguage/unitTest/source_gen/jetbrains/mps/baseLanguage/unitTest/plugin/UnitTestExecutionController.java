@@ -44,7 +44,7 @@ public class UnitTestExecutionController {
     }
 
     String workingDir = myConfigurationRunParameters.getWorkingDirectory();
-    myCurrentProcess = OutputRedirector.redirect(new Junit_Command().setJrePath(myConfigurationRunParameters.getAlternativeJRE()).setVirtualMachineParameter(myConfigurationRunParameters.getVMParameters()).setWorkingDirectory((StringUtils.isNotEmpty(workingDir) ?
+    myCurrentProcess = OutputRedirector.redirect(new Junit_Command().setJrePath_String(myConfigurationRunParameters.getAlternativeJRE()).setVirtualMachineParameter_String(myConfigurationRunParameters.getVMParameters()).setWorkingDirectory_File((StringUtils.isNotEmpty(workingDir) ?
       new File(workingDir) :
       null
     )).createProcess(myWhatToTest), new UnitTestProcessListener(myDispatcher));
