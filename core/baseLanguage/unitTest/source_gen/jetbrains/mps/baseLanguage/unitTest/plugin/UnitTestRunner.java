@@ -27,7 +27,6 @@ import java.util.Set;
 import jetbrains.mps.project.IModule;
 import jetbrains.mps.internal.collections.runtime.SetSequence;
 import java.util.HashSet;
-import jetbrains.mps.lang.smodel.generator.smodelAdapter.SNodeOperations;
 import java.util.LinkedHashSet;
 
 
@@ -182,7 +181,7 @@ public class UnitTestRunner extends BaseRunner {
   public String getClasspathString(List<ITestNodeWrapper> list, List<String> additionalClassPath) {
     Set<IModule> uniqueModules = SetSequence.fromSet(new HashSet<IModule>());
     for (ITestNodeWrapper testable : list) {
-      IModule module = SNodeOperations.getModel(testable.getNode()).getModelDescriptor().getModule();
+      IModule module = testable.getNodePointer().getModel().getModule();
       SetSequence.fromSet(uniqueModules).addElement(module);
     }
     Set<String> classpath = SetSequence.fromSet(new LinkedHashSet<String>());
