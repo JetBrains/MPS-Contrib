@@ -58,10 +58,10 @@
     <nodeInfo nodeId="1213104847902" fileName="DateTimeProperty_Constraints.java" startLine="32" startPosition="41" endLine="33" endPosition="81" conceptFqName="jetbrains.mps.baseLanguage.structure.SuperConstructorInvocation" />
     <nodeInfo nodeId="1213104847902" fileName="DateTimeProperty_Constraints.java" startLine="37" startPosition="83" endLine="38" endPosition="75" conceptFqName="jetbrains.mps.baseLanguage.structure.LocalVariableDeclarationStatement" />
     <nodeInfo nodeId="1213104847902" fileName="DateTimeProperty_Constraints.java" startLine="41" startPosition="44" endLine="42" endPosition="20" conceptFqName="jetbrains.mps.baseLanguage.structure.ReturnStatement" />
-    <nodeInfo nodeId="1213104855650" fileName="DateTimeProperty_Constraints.java" startLine="50" startPosition="142" endLine="51" endPosition="175" conceptFqName="jetbrains.mps.baseLanguage.structure.ReturnStatement" />
+    <nodeInfo nodeId="1213104855650" fileName="DateTimeProperty_Constraints.java" startLine="50" startPosition="142" endLine="51" endPosition="183" conceptFqName="jetbrains.mps.baseLanguage.structure.ReturnStatement" />
     <nodeInfo nodeId="1213104847902" fileName="DateTimeProperty_Constraints.java" startLine="55" startPosition="61" endLine="56" endPosition="58" conceptFqName="jetbrains.mps.baseLanguage.structure.ReturnStatement" />
     <nodeInfo nodeId="1213104847902" fileName="DateTimeProperty_Constraints.java" startLine="63" startPosition="44" endLine="64" endPosition="20" conceptFqName="jetbrains.mps.baseLanguage.structure.ReturnStatement" />
-    <nodeInfo nodeId="1213104855663" fileName="DateTimeProperty_Constraints.java" startLine="72" startPosition="142" endLine="73" endPosition="186" conceptFqName="jetbrains.mps.baseLanguage.structure.ReturnStatement" />
+    <nodeInfo nodeId="1213104855663" fileName="DateTimeProperty_Constraints.java" startLine="72" startPosition="142" endLine="73" endPosition="194" conceptFqName="jetbrains.mps.baseLanguage.structure.ReturnStatement" />
     <nodeInfo nodeId="1213104847902" fileName="DateTimeProperty_Constraints.java" startLine="77" startPosition="61" endLine="78" endPosition="58" conceptFqName="jetbrains.mps.baseLanguage.structure.ReturnStatement" />
     <nodeInfo nodeId="1213104847902" fileName="DateTimeProperty_Constraints.java" startLine="85" startPosition="44" endLine="86" endPosition="20" conceptFqName="jetbrains.mps.baseLanguage.structure.ReturnStatement" />
     <nodeInfo nodeId="6481709978082949295" fileName="DateTimeProperty_Constraints.java" startLine="94" startPosition="142" endLine="95" endPosition="117" conceptFqName="jetbrains.mps.baseLanguage.structure.LocalVariableDeclarationStatement" />
@@ -91,10 +91,10 @@
     <nodeInfo nodeId="1213104847902" fileName="DateTimeProperty_Constraints.java" startLine="35" startPosition="0" endLine="109" endPosition="0" conceptFqName="jetbrains.mps.baseLanguage.structure.InstanceMethodDeclaration" propertyString="getNotDefaultReferences#()Ljava/util/Map;" />
     <scopeInfo nodeId="1213104847902" fileName="DateTimeProperty_Constraints.java" startLine="32" startPosition="41" endLine="33" endPosition="81" />
     <scopeInfo nodeId="1213104847902" fileName="DateTimeProperty_Constraints.java" startLine="41" startPosition="44" endLine="42" endPosition="20" />
-    <scopeInfo nodeId="1213104855644" fileName="DateTimeProperty_Constraints.java" startLine="50" startPosition="142" endLine="51" endPosition="175" />
+    <scopeInfo nodeId="1213104855644" fileName="DateTimeProperty_Constraints.java" startLine="50" startPosition="142" endLine="51" endPosition="183" />
     <scopeInfo nodeId="1213104847902" fileName="DateTimeProperty_Constraints.java" startLine="55" startPosition="61" endLine="56" endPosition="58" />
     <scopeInfo nodeId="1213104847902" fileName="DateTimeProperty_Constraints.java" startLine="63" startPosition="44" endLine="64" endPosition="20" />
-    <scopeInfo nodeId="1213104855657" fileName="DateTimeProperty_Constraints.java" startLine="72" startPosition="142" endLine="73" endPosition="186" />
+    <scopeInfo nodeId="1213104855657" fileName="DateTimeProperty_Constraints.java" startLine="72" startPosition="142" endLine="73" endPosition="194" />
     <scopeInfo nodeId="1213104847902" fileName="DateTimeProperty_Constraints.java" startLine="77" startPosition="61" endLine="78" endPosition="58" />
     <scopeInfo nodeId="1213104847902" fileName="DateTimeProperty_Constraints.java" startLine="85" startPosition="44" endLine="86" endPosition="20" />
     <scopeInfo nodeId="1213104847902" fileName="DateTimeProperty_Constraints.java" startLine="101" startPosition="61" endLine="102" endPosition="58" />

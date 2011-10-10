@@ -71,23 +71,26 @@
     <scopeInfo nodeId="1201708881513" fileName="QueriesGenerated.java" startLine="34" startPosition="197" endLine="35" endPosition="158" />
   </root>
   <root nodeId="353793545803348363">
-    <nodeInfo nodeId="353793545803348370" fileName="Util.java" startLine="12" startPosition="112" endLine="13" endPosition="205" conceptFqName="jetbrains.mps.baseLanguage.structure.ReturnStatement" />
-    <nodeInfo nodeId="353793545803348385" fileName="Util.java" startLine="15" startPosition="107" endLine="16" endPosition="267" conceptFqName="jetbrains.mps.baseLanguage.structure.ReturnStatement" />
-    <nodeInfo nodeId="353793545803348402" fileName="Util.java" startLine="18" startPosition="118" endLine="19" endPosition="220" conceptFqName="jetbrains.mps.baseLanguage.structure.ReturnStatement" />
-    <nodeInfo nodeId="353793545803348415" fileName="Util.java" startLine="20" startPosition="5" endLine="21" endPosition="17" conceptFqName="jetbrains.mps.baseLanguage.structure.ReturnStatement" />
-    <nodeInfo nodeId="353793545803348400" fileName="Util.java" startLine="17" startPosition="10" endLine="20" endPosition="5" conceptFqName="jetbrains.mps.baseLanguage.structure.IfStatement" />
-    <nodeInfo nodeId="353793545803348383" fileName="Util.java" startLine="14" startPosition="10" endLine="20" endPosition="5" conceptFqName="jetbrains.mps.baseLanguage.structure.IfStatement" />
-    <nodeInfo nodeId="353793545803348368" fileName="Util.java" startLine="11" startPosition="69" endLine="20" endPosition="5" conceptFqName="jetbrains.mps.baseLanguage.structure.IfStatement" />
-    <nodeInfo nodeId="353793545803348364" fileName="Util.java" startLine="10" startPosition="19" endLine="23" endPosition="0" conceptFqName="jetbrains.mps.baseLanguage.structure.StaticMethodDeclaration" propertyString="checkNodeType#(Ljetbrains/mps/smodel/SNode;Ljetbrains/mps/smodel/SNode;)Z" />
-    <scopeInfo nodeId="353793545803348369" fileName="Util.java" startLine="12" startPosition="112" endLine="13" endPosition="205" />
-    <scopeInfo nodeId="353793545803348384" fileName="Util.java" startLine="15" startPosition="107" endLine="16" endPosition="267" />
-    <scopeInfo nodeId="353793545803348401" fileName="Util.java" startLine="18" startPosition="118" endLine="19" endPosition="220" />
-    <scopeInfo nodeId="353793545803348367" fileName="Util.java" startLine="11" startPosition="69" endLine="21" endPosition="17" />
-    <scopeInfo nodeId="353793545803348364" fileName="Util.java" startLine="10" startPosition="19" endLine="23" endPosition="0">
+    <nodeInfo nodeId="353793545803348370" fileName="Util.java" startLine="15" startPosition="112" endLine="16" endPosition="205" conceptFqName="jetbrains.mps.baseLanguage.structure.ReturnStatement" />
+    <nodeInfo nodeId="353793545803348385" fileName="Util.java" startLine="18" startPosition="107" endLine="19" endPosition="267" conceptFqName="jetbrains.mps.baseLanguage.structure.ReturnStatement" />
+    <nodeInfo nodeId="353793545803348402" fileName="Util.java" startLine="21" startPosition="118" endLine="22" endPosition="220" conceptFqName="jetbrains.mps.baseLanguage.structure.ReturnStatement" />
+    <nodeInfo nodeId="353793545803348415" fileName="Util.java" startLine="23" startPosition="5" endLine="24" endPosition="17" conceptFqName="jetbrains.mps.baseLanguage.structure.ReturnStatement" />
+    <nodeInfo nodeId="290783027692267511" fileName="Util.java" startLine="10" startPosition="19" endLine="12" endPosition="3" conceptFqName="jetbrains.mps.baseLanguage.structure.ConstructorDeclaration" propertyString="Util#()V" />
+    <nodeInfo nodeId="353793545803348400" fileName="Util.java" startLine="20" startPosition="10" endLine="23" endPosition="5" conceptFqName="jetbrains.mps.baseLanguage.structure.IfStatement" />
+    <nodeInfo nodeId="353793545803348383" fileName="Util.java" startLine="17" startPosition="10" endLine="23" endPosition="5" conceptFqName="jetbrains.mps.baseLanguage.structure.IfStatement" />
+    <nodeInfo nodeId="353793545803348368" fileName="Util.java" startLine="14" startPosition="69" endLine="23" endPosition="5" conceptFqName="jetbrains.mps.baseLanguage.structure.IfStatement" />
+    <nodeInfo nodeId="353793545803348364" fileName="Util.java" startLine="13" startPosition="0" endLine="26" endPosition="0" conceptFqName="jetbrains.mps.baseLanguage.structure.StaticMethodDeclaration" propertyString="checkNodeType#(Ljetbrains/mps/smodel/SNode;Ljetbrains/mps/smodel/SNode;)Z" />
+    <scopeInfo nodeId="290783027692267513" fileName="Util.java" startLine="11" startPosition="17" endLine="11" endPosition="17" />
+    <scopeInfo nodeId="353793545803348369" fileName="Util.java" startLine="15" startPosition="112" endLine="16" endPosition="205" />
+    <scopeInfo nodeId="353793545803348384" fileName="Util.java" startLine="18" startPosition="107" endLine="19" endPosition="267" />
+    <scopeInfo nodeId="353793545803348401" fileName="Util.java" startLine="21" startPosition="118" endLine="22" endPosition="220" />
+    <scopeInfo nodeId="290783027692267511" fileName="Util.java" startLine="10" startPosition="19" endLine="12" endPosition="3" />
+    <scopeInfo nodeId="353793545803348367" fileName="Util.java" startLine="14" startPosition="69" endLine="24" endPosition="17" />
+    <scopeInfo nodeId="353793545803348364" fileName="Util.java" startLine="13" startPosition="0" endLine="26" endPosition="0">
       <varInfo nodeId="353793545803348417" varName="parentNode" />
       <varInfo nodeId="353793545803348419" varName="type" />
     </scopeInfo>
-    <unitInfo nodeId="353793545803348363" fileName="Util.java" startLine="10" startPosition="0" endLine="24" endPosition="0" unitName="jetbrains.mps.buildlanguage.actions.Util" />
+    <unitInfo nodeId="353793545803348363" fileName="Util.java" startLine="10" startPosition="0" endLine="27" endPosition="0" unitName="jetbrains.mps.buildlanguage.actions.Util" />
   </root>
 </debugInfo>
 
