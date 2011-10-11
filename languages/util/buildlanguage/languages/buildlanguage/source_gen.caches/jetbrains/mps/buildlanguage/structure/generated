@@ -6,10 +6,10 @@
   <dep model="r:00000000-0000-4000-0000-011c89590293(jetbrains.mps.lang.structure.generator_new.baseLanguage@generator)" hash="-6jeeuoa32c4fcnlyzfgxurlptmclvzn" />
   <dep model="r:00000000-0000-4000-0000-011c895902ca(jetbrains.mps.baseLanguage.structure)" hash="e1dzavd6sz9dhj9ewkmb93dqgqtfsw" />
   <dep model="r:00000000-0000-4000-0000-011c895902cb(jetbrains.mps.baseLanguage.generator.java.closures@generator)" hash="cbxbas4wcql77jgbid2dra89g3u345r" />
-  <dep model="r:00000000-0000-4000-0000-011c895902cd(jetbrains.mps.baseLanguage.generator.java.main@generator)" hash="-6r5i332c87x8xyc3ivazsp5i0nmdz40" />
-  <dep model="r:00000000-0000-4000-0000-011c895902e8(jetbrains.mps.lang.generator.structure)" hash="33wkjgiezx0fo2ce3ik1767insl4n2e" />
-  <dep model="r:00000000-0000-4000-0000-011c8959032e(jetbrains.mps.baseLanguage.collections.structure)" hash="d8xfna3g5ul3mdj5lmmb4ag6juunapj" />
-  <dep model="r:00000000-0000-4000-0000-011c8959032f(jetbrains.mps.baseLanguage.collections.generator.baseLanguage.template.main@generator)" hash="-aponn5nsgce6wtlpsam7uobqmzylfnq" />
+  <dep model="r:00000000-0000-4000-0000-011c895902cd(jetbrains.mps.baseLanguage.generator.java.main@generator)" hash="erl516lk5v8q2sbqd9vc2iwwjpd7zkc" />
+  <dep model="r:00000000-0000-4000-0000-011c895902e8(jetbrains.mps.lang.generator.structure)" hash="90a2yqqwsbuerf4u3po1b2jxod6vyfj" />
+  <dep model="r:00000000-0000-4000-0000-011c8959032e(jetbrains.mps.baseLanguage.collections.structure)" hash="-7vcmpavwf9ea155yro6is5d3t2ttmm" />
+  <dep model="r:00000000-0000-4000-0000-011c8959032f(jetbrains.mps.baseLanguage.collections.generator.baseLanguage.template.main@generator)" hash="-dqo37z1plpp3qjpeyg9jmcsoimpz1qy" />
   <dep model="r:00000000-0000-4000-0000-011c8959033a(jetbrains.mps.baseLanguage.closures.generator.baseLanguage.template.main@generator)" hash="6wcb0wku66kauzfch9knq1rbzi73svq" />
   <dep model="r:00000000-0000-4000-0000-011c895903ac(jetbrains.mps.baseLanguageInternal.structure)" hash="-8h3fz2txuftple5no6tuuqf8wtsf12" />
   <dep model="r:00000000-0000-4000-0000-011c895904e2(jetbrains.mps.build.property.structure)" hash="-c9jn14xx3eznqfw6w68svvps1coym58" />
@@ -96,6 +96,7 @@
     <file name="Project.java" />
   </source>
   <source id="1196851087779" name="AbstractCall" hash="67fqm52ax1t680r1zkmvcbe2gdgikr9">
+    <dep root="1196851066733" />
     <dep root="1196851952934" />
     <dep root="1199644616584" />
     <dep root="1201259656252" />
@@ -116,6 +117,7 @@
     <file name="AbstractCall.java" />
   </source>
   <source id="1196851099544" name="TargetDeclaration" hash="egd4wirer8r3l70kwxk8cviiqbmbzz7">
+    <dep root="1196851066733" />
     <dep root="1196851087779" />
     <dep root="1196852921336" />
     <dep root="1196862084542" />
@@ -152,6 +154,7 @@
     <file name="PropertyDeclaration.java" />
   </source>
   <source id="1196851952934" name="PropertyValueExpression" hash="-a7b7wl6u19rypp9p9obtoro1kby6utq">
+    <dep root="1196851066733" />
     <dep root="1201111033873" />
     <dep root="1463999527524104369" />
     <dep model="r:00000000-0000-4000-0000-011c89590288(jetbrains.mps.lang.core.structure)" />
@@ -184,6 +187,7 @@
     <file name="TargetReference.java" />
   </source>
   <source id="1196853662806" name="PropertyReference" hash="7em24tk7otp1kmqzlk4pbrs57ru8kop">
+    <dep root="1196851066733" />
     <dep root="1196851952934" />
     <dep root="1463999527524104369" />
     <dep model="f:java_stub#37a3367b-1fb2-44d8-aa6b-18075e74e003#jetbrains.mps.smodel(MPS.Classpath/jetbrains.mps.smodel@java_stub)" />
@@ -202,6 +206,7 @@
     <file name="PropertyReference.java" />
   </source>
   <source id="1196861005114" name="StringLiteral" hash="ax31imcmhun2301cruyhev95d7sj4ma">
+    <dep root="1196851066733" />
     <dep root="1196851952934" />
     <dep root="1463999527524104369" />
     <dep model="r:00000000-0000-4000-0000-011c89590288(jetbrains.mps.lang.core.structure)" />
@@ -398,6 +403,7 @@
     <file name="IProjectComponent.java" />
   </source>
   <source id="1200418817047" name="ImportPropertyNode" hash="-4gyolv8wmq90y6hj4jkv55prkzev7lt">
+    <dep root="1196851066733" />
     <dep root="1199644616584" />
     <dep root="1240397336536" />
     <dep root="1463999527524104369" />
@@ -459,6 +465,7 @@
     <file name="ICommented.java" />
   </source>
   <source id="1201701678947" name="TargetReferencePropertyValueExpression" hash="-e5qfkjxawsibcgasqmpgn2i7d42fqwu">
+    <dep root="1196851066733" />
     <dep root="1196851099544" />
     <dep root="1196851952934" />
     <dep root="1230220832119" />
@@ -495,6 +502,7 @@
     <file name="ImportProject.java" />
   </source>
   <source id="1218548668666" name="MultiLineString" hash="cszouk2ld4jitmmk7kyiosda881t9mt">
+    <dep root="1196851066733" />
     <dep root="1196851952934" />
     <dep root="1463999527524104369" />
     <dep model="r:00000000-0000-4000-0000-011c89590288(jetbrains.mps.lang.core.structure)" />
@@ -583,6 +591,7 @@
     <file name="IDeclaration.java" />
   </source>
   <source id="1463999527524104369" name="AbstractPropertyDeclaration" hash="-4tv11lprt9xg6t7gjjgswmaiqsnxm6u">
+    <dep root="1196851066733" />
     <dep root="1196870830058" />
     <dep root="1199644616584" />
     <dep root="1201259656252" />
