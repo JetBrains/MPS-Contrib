@@ -6,13 +6,14 @@ import jetbrains.mps.util.annotation.ToRemove;
 import jetbrains.mps.baseLanguage.util.plugin.run.BaseRunner;
 import jetbrains.mps.logging.Logger;
 import java.util.List;
+import jetbrains.mps.baseLanguage.unitTest.execution.client.ITestNodeWrapper;
 import jetbrains.mps.internal.collections.runtime.ListSequence;
 import java.util.ArrayList;
 import jetbrains.mps.baseLanguage.util.plugin.run.ConfigRunParameters;
 import com.intellij.execution.process.ProcessNotCreatedException;
 import org.jetbrains.annotations.Nullable;
 import jetbrains.mps.baseLanguage.closures.runtime.Wrappers;
-import jetbrains.mps.baseLanguage.unitTest.runtime.TestRunParameters;
+import jetbrains.mps.baseLanguage.unitTest.execution.client.TestRunParameters;
 import jetbrains.mps.smodel.ModelAccess;
 import jetbrains.mps.internal.collections.runtime.IWhereFilter;
 import jetbrains.mps.internal.collections.runtime.IVisitor;
@@ -27,7 +28,6 @@ import java.util.Set;
 import jetbrains.mps.project.IModule;
 import jetbrains.mps.internal.collections.runtime.SetSequence;
 import java.util.HashSet;
-import jetbrains.mps.lang.smodel.generator.smodelAdapter.SNodeOperations;
 import java.util.LinkedHashSet;
 
 
@@ -182,7 +182,7 @@ public class UnitTestRunner extends BaseRunner {
   public String getClasspathString(List<ITestNodeWrapper> list, List<String> additionalClassPath) {
     Set<IModule> uniqueModules = SetSequence.fromSet(new HashSet<IModule>());
     for (ITestNodeWrapper testable : list) {
-      IModule module = SNodeOperations.getModel(testable.getNode()).getModelDescriptor().getModule();
+      IModule module = testable.getNodePointer().getModel().getModule();
       SetSequence.fromSet(uniqueModules).addElement(module);
     }
     Set<String> classpath = SetSequence.fromSet(new LinkedHashSet<String>());
