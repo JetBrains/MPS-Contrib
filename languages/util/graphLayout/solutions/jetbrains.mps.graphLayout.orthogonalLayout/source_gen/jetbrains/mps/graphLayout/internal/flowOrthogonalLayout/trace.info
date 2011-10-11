@@ -413,7 +413,7 @@
     <nodeInfo nodeId="1763712338172396141" fileName="ConstraintsGraphProcessor.java" startLine="302" startPosition="10" endLine="305" endPosition="5" conceptFqName="jetbrains.mps.baseLanguage.structure.BlockStatement" />
     <nodeInfo nodeId="1763712338172396158" fileName="ConstraintsGraphProcessor.java" startLine="307" startPosition="31" endLine="310" endPosition="7" conceptFqName="jetbrains.mps.baseLanguage.structure.ForStatement" />
     <nodeInfo nodeId="1763712338172396287" fileName="ConstraintsGraphProcessor.java" startLine="327" startPosition="20" endLine="330" endPosition="9" conceptFqName="jetbrains.mps.baseLanguage.structure.IfStatement" />
-    <nodeInfo nodeId="1763712338172396304" fileName="ConstraintsGraphProcessor.java" startLine="334" startPosition="65" endLine="337" endPosition="9" conceptFqName="jetbrains.mps.baseLanguage.structure.IfStatement" />
+    <nodeInfo nodeId="1763712338172396304" fileName="ConstraintsGraphProcessor.java" startLine="334" startPosition="61" endLine="337" endPosition="9" conceptFqName="jetbrains.mps.baseLanguage.structure.IfStatement" />
     <nodeInfo nodeId="1763712338172396351" fileName="ConstraintsGraphProcessor.java" startLine="349" startPosition="7" endLine="352" endPosition="5" conceptFqName="jetbrains.mps.baseLanguage.structure.IfStatement" />
     <nodeInfo nodeId="1763712338172396737" fileName="ConstraintsGraphProcessor.java" startLine="436" startPosition="57" endLine="439" endPosition="7" conceptFqName="jetbrains.mps.baseLanguage.structure.ForeachStatement" />
     <nodeInfo nodeId="1763712338172396774" fileName="ConstraintsGraphProcessor.java" startLine="446" startPosition="83" endLine="449" endPosition="9" conceptFqName="jetbrains.mps.baseLanguage.structure.IfStatement" />
@@ -624,7 +624,7 @@
       <varInfo nodeId="1763712338172396179" varName="i" />
     </scopeInfo>
     <scopeInfo nodeId="1763712338172396227" fileName="ConstraintsGraphProcessor.java" startLine="316" startPosition="37" endLine="319" endPosition="63" />
-    <scopeInfo nodeId="1763712338172396303" fileName="ConstraintsGraphProcessor.java" startLine="334" startPosition="65" endLine="337" endPosition="9" />
+    <scopeInfo nodeId="1763712338172396303" fileName="ConstraintsGraphProcessor.java" startLine="334" startPosition="61" endLine="337" endPosition="9" />
     <scopeInfo nodeId="1763712338172396737" fileName="ConstraintsGraphProcessor.java" startLine="436" startPosition="57" endLine="439" endPosition="7" />
     <scopeInfo nodeId="1763712338172396942" fileName="ConstraintsGraphProcessor.java" startLine="490" startPosition="31" endLine="493" endPosition="5" />
     <scopeInfo nodeId="1763712338172396991" fileName="ConstraintsGraphProcessor.java" startLine="504" startPosition="5" endLine="507" endPosition="5">

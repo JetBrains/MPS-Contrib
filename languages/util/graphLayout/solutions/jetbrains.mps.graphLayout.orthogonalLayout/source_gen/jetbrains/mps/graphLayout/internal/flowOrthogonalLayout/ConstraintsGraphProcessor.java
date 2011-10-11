@@ -331,7 +331,7 @@ public class ConstraintsGraphProcessor {
       }
     }
     if (ConstraintsGraphProcessor.DEBUG > 0) {
-      for (Integer rotation : ListSequence.fromList(rotations)) {
+      for (int rotation : ListSequence.fromList(rotations)) {
         if (rotation != 1) {
           throw new RuntimeException("bad face completion result!");
         }
