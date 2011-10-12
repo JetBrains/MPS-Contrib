@@ -57,7 +57,7 @@ public class SubsequenceFinder {
     if (showInfo > 0) {
       for (int i = 0; i <= s.length; i++) {
         for (int j = 0; j <= p.length; j++) {
-          System.out.print(maxSeq[i][j] + " ");
+          System.out.print((Integer) (maxSeq[i][j]) + " ");
         }
         System.out.println();
       }

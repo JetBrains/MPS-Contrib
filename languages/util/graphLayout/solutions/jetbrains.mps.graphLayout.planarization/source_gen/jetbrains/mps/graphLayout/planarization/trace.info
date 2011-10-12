@@ -3597,7 +3597,7 @@
     <nodeInfo nodeId="8383102279435093469" fileName="SubsequenceFinder.java" startLine="49" startPosition="45" endLine="50" endPosition="68" conceptFqName="jetbrains.mps.baseLanguage.structure.LocalVariableDeclarationStatement" />
     <nodeInfo nodeId="8383102279435093425" fileName="SubsequenceFinder.java" startLine="50" startPosition="68" endLine="51" endPosition="38" conceptFqName="jetbrains.mps.baseLanguage.structure.ExpressionStatement" />
     <nodeInfo nodeId="8383102279435093451" fileName="SubsequenceFinder.java" startLine="52" startPosition="34" endLine="53" endPosition="74" conceptFqName="jetbrains.mps.baseLanguage.structure.ExpressionStatement" />
-    <nodeInfo nodeId="8383102279435105984" fileName="SubsequenceFinder.java" startLine="59" startPosition="45" endLine="60" endPosition="47" conceptFqName="jetbrains.mps.baseLanguage.structure.ExpressionStatement" />
+    <nodeInfo nodeId="8383102279435105984" fileName="SubsequenceFinder.java" startLine="59" startPosition="45" endLine="60" endPosition="59" conceptFqName="jetbrains.mps.baseLanguage.structure.ExpressionStatement" />
     <nodeInfo nodeId="8383102279435106006" fileName="SubsequenceFinder.java" startLine="61" startPosition="9" endLine="62" endPosition="29" conceptFqName="jetbrains.mps.baseLanguage.structure.ExpressionStatement" />
     <nodeInfo nodeId="8383102279435093496" fileName="SubsequenceFinder.java" startLine="64" startPosition="5" endLine="65" endPosition="16" conceptFqName="jetbrains.mps.baseLanguage.structure.LocalVariableDeclarationStatement" />
     <nodeInfo nodeId="8383102279435093534" fileName="SubsequenceFinder.java" startLine="65" startPosition="16" endLine="66" endPosition="18" conceptFqName="jetbrains.mps.baseLanguage.structure.LocalVariableDeclarationStatement" />
@@ -3635,7 +3635,7 @@
     <scopeInfo nodeId="8383102279435093204" fileName="SubsequenceFinder.java" startLine="14" startPosition="30" endLine="14" endPosition="30" />
     <scopeInfo nodeId="8383102279435117307" fileName="SubsequenceFinder.java" startLine="32" startPosition="29" endLine="33" endPosition="25" />
     <scopeInfo nodeId="8383102279435093362" fileName="SubsequenceFinder.java" startLine="52" startPosition="34" endLine="53" endPosition="74" />
-    <scopeInfo nodeId="8383102279435105951" fileName="SubsequenceFinder.java" startLine="59" startPosition="45" endLine="60" endPosition="47" />
+    <scopeInfo nodeId="8383102279435105951" fileName="SubsequenceFinder.java" startLine="59" startPosition="45" endLine="60" endPosition="59" />
     <scopeInfo nodeId="8383102279435098544" fileName="SubsequenceFinder.java" startLine="78" startPosition="42" endLine="79" endPosition="15" />
     <scopeInfo nodeId="8383102279435114502" fileName="SubsequenceFinder.java" startLine="84" startPosition="16" endLine="85" endPosition="17" />
     <scopeInfo nodeId="8383102279435093201" fileName="SubsequenceFinder.java" startLine="13" startPosition="0" endLine="15" endPosition="3" />
@@ -3707,20 +3707,23 @@
     <unitInfo nodeId="8383102279435093199" fileName="SubsequenceFinder.java" startLine="11" startPosition="0" endLine="92" endPosition="0" unitName="jetbrains.mps.graphLayout.planarization.SubsequenceFinder" />
   </root>
   <root nodeId="8949260152464210382">
-    <nodeInfo nodeId="8949260152464210397" fileName="EmbeddingFinderFactory.java" startLine="9" startPosition="46" endLine="10" endPosition="72" conceptFqName="jetbrains.mps.baseLanguage.structure.ReturnStatement" />
-    <nodeInfo nodeId="1532165762814313647" fileName="EmbeddingFinderFactory.java" startLine="14" startPosition="42" endLine="15" endPosition="49" conceptFqName="jetbrains.mps.baseLanguage.structure.ReturnStatement" />
-    <nodeInfo nodeId="1532165762814313653" fileName="EmbeddingFinderFactory.java" startLine="16" startPosition="5" endLine="17" endPosition="23" conceptFqName="jetbrains.mps.baseLanguage.structure.ReturnStatement" />
-    <nodeInfo nodeId="1532165762814313639" fileName="EmbeddingFinderFactory.java" startLine="13" startPosition="65" endLine="16" endPosition="5" conceptFqName="jetbrains.mps.baseLanguage.structure.IfStatement" />
-    <nodeInfo nodeId="8949260152464210392" fileName="EmbeddingFinderFactory.java" startLine="8" startPosition="37" endLine="12" endPosition="0" conceptFqName="jetbrains.mps.baseLanguage.structure.StaticMethodDeclaration" propertyString="getFinder#()Ljetbrains/mps/graphLayout/planarization/IEmbeddingFinder;" />
-    <nodeInfo nodeId="1532165762814313631" fileName="EmbeddingFinderFactory.java" startLine="12" startPosition="0" endLine="19" endPosition="0" conceptFqName="jetbrains.mps.baseLanguage.structure.StaticMethodDeclaration" propertyString="getFinderForGraph#(Ljetbrains/mps/graphLayout/graph/Graph;)Ljetbrains/mps/graphLayout/planarization/IEmbeddingFinder;" />
-    <scopeInfo nodeId="8949260152464210395" fileName="EmbeddingFinderFactory.java" startLine="9" startPosition="46" endLine="10" endPosition="72" />
-    <scopeInfo nodeId="1532165762814313641" fileName="EmbeddingFinderFactory.java" startLine="14" startPosition="42" endLine="15" endPosition="49" />
-    <scopeInfo nodeId="8949260152464210392" fileName="EmbeddingFinderFactory.java" startLine="8" startPosition="37" endLine="12" endPosition="0" />
-    <scopeInfo nodeId="1532165762814313634" fileName="EmbeddingFinderFactory.java" startLine="13" startPosition="65" endLine="17" endPosition="23" />
-    <scopeInfo nodeId="1532165762814313631" fileName="EmbeddingFinderFactory.java" startLine="12" startPosition="0" endLine="19" endPosition="0">
+    <nodeInfo nodeId="8949260152464210397" fileName="EmbeddingFinderFactory.java" startLine="12" startPosition="46" endLine="13" endPosition="72" conceptFqName="jetbrains.mps.baseLanguage.structure.ReturnStatement" />
+    <nodeInfo nodeId="1532165762814313647" fileName="EmbeddingFinderFactory.java" startLine="17" startPosition="42" endLine="18" endPosition="49" conceptFqName="jetbrains.mps.baseLanguage.structure.ReturnStatement" />
+    <nodeInfo nodeId="1532165762814313653" fileName="EmbeddingFinderFactory.java" startLine="19" startPosition="5" endLine="20" endPosition="23" conceptFqName="jetbrains.mps.baseLanguage.structure.ReturnStatement" />
+    <nodeInfo nodeId="7365360912573050958" fileName="EmbeddingFinderFactory.java" startLine="8" startPosition="37" endLine="10" endPosition="3" conceptFqName="jetbrains.mps.baseLanguage.structure.ConstructorDeclaration" propertyString="EmbeddingFinderFactory#()V" />
+    <nodeInfo nodeId="1532165762814313639" fileName="EmbeddingFinderFactory.java" startLine="16" startPosition="65" endLine="19" endPosition="5" conceptFqName="jetbrains.mps.baseLanguage.structure.IfStatement" />
+    <nodeInfo nodeId="8949260152464210392" fileName="EmbeddingFinderFactory.java" startLine="11" startPosition="0" endLine="15" endPosition="0" conceptFqName="jetbrains.mps.baseLanguage.structure.StaticMethodDeclaration" propertyString="getFinder#()Ljetbrains/mps/graphLayout/planarization/IEmbeddingFinder;" />
+    <nodeInfo nodeId="1532165762814313631" fileName="EmbeddingFinderFactory.java" startLine="15" startPosition="0" endLine="22" endPosition="0" conceptFqName="jetbrains.mps.baseLanguage.structure.StaticMethodDeclaration" propertyString="getFinderForGraph#(Ljetbrains/mps/graphLayout/graph/Graph;)Ljetbrains/mps/graphLayout/planarization/IEmbeddingFinder;" />
+    <scopeInfo nodeId="7365360912573050960" fileName="EmbeddingFinderFactory.java" startLine="9" startPosition="35" endLine="9" endPosition="35" />
+    <scopeInfo nodeId="8949260152464210395" fileName="EmbeddingFinderFactory.java" startLine="12" startPosition="46" endLine="13" endPosition="72" />
+    <scopeInfo nodeId="1532165762814313641" fileName="EmbeddingFinderFactory.java" startLine="17" startPosition="42" endLine="18" endPosition="49" />
+    <scopeInfo nodeId="7365360912573050958" fileName="EmbeddingFinderFactory.java" startLine="8" startPosition="37" endLine="10" endPosition="3" />
+    <scopeInfo nodeId="8949260152464210392" fileName="EmbeddingFinderFactory.java" startLine="11" startPosition="0" endLine="15" endPosition="0" />
+    <scopeInfo nodeId="1532165762814313634" fileName="EmbeddingFinderFactory.java" startLine="16" startPosition="65" endLine="20" endPosition="23" />
+    <scopeInfo nodeId="1532165762814313631" fileName="EmbeddingFinderFactory.java" startLine="15" startPosition="0" endLine="22" endPosition="0">
       <varInfo nodeId="1532165762814313636" varName="graph" />
     </scopeInfo>
-    <unitInfo nodeId="8949260152464210382" fileName="EmbeddingFinderFactory.java" startLine="8" startPosition="0" endLine="20" endPosition="0" unitName="jetbrains.mps.graphLayout.planarization.EmbeddingFinderFactory" />
+    <unitInfo nodeId="8949260152464210382" fileName="EmbeddingFinderFactory.java" startLine="8" startPosition="0" endLine="23" endPosition="0" unitName="jetbrains.mps.graphLayout.planarization.EmbeddingFinderFactory" />
   </root>
 </debugInfo>
 

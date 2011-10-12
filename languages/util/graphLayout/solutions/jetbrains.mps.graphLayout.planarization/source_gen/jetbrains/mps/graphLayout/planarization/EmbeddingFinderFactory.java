@@ -6,6 +6,9 @@ import jetbrains.mps.graphLayout.graph.Graph;
 import jetbrains.mps.graphLayout.graph.ClusteredGraph;
 
 public class EmbeddingFinderFactory {
+  public EmbeddingFinderFactory() {
+  }
+
   public static IEmbeddingFinder getFinder() {
     return new ShortestPathEmbeddingFinder(new PQPlanarizationFinder());
   }
