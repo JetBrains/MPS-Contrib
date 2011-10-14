@@ -201,21 +201,21 @@
       <varInfo nodeId="4021515509913114689" varName="baseName" />
     </scopeInfo>
     <scopeInfo nodeId="8739728360480405003" fileName="QueriesGenerated.java" startLine="250" startPosition="21" endLine="259" endPosition="7">
-      <varInfo nodeId="8739728360480406420" varName="res" />
       <varInfo nodeId="8505079478273391770" varName="model" />
+      <varInfo nodeId="8739728360480406420" varName="res" />
     </scopeInfo>
     <scopeInfo nodeId="8739728360480411999" fileName="QueriesGenerated.java" startLine="263" startPosition="21" endLine="272" endPosition="7">
-      <varInfo nodeId="8739728360480412007" varName="res" />
       <varInfo nodeId="8739728360480412001" varName="model" />
+      <varInfo nodeId="8739728360480412007" varName="res" />
     </scopeInfo>
     <scopeInfo nodeId="2011805327139382627" fileName="QueriesGenerated.java" startLine="517" startPosition="155" endLine="526" endPosition="7" />
     <scopeInfo nodeId="2011805327139382744" fileName="QueriesGenerated.java" startLine="529" startPosition="155" endLine="543" endPosition="7">
       <varInfo nodeId="2011805327139382915" varName="allEvents" />
     </scopeInfo>
     <scopeInfo nodeId="4021515509913114472" fileName="QueriesGenerated.java" startLine="246" startPosition="151" endLine="274" endPosition="16">
-      <varInfo nodeId="8505079478273348699" varName="md" />
       <varInfo nodeId="4021515509913114548" varName="fqname" />
       <varInfo nodeId="4021515509913114484" varName="lastDot" />
+      <varInfo nodeId="8505079478273348699" varName="md" />
     </scopeInfo>
     <unitInfo nodeId="8739728360480406427" fileName="QueriesGenerated.java" startLine="252" startPosition="141" endLine="256" endPosition="7" unitName="jetbrains.mps.uiLanguage.generator.baseLanguage.template.main.QueriesGenerated$1" />
     <unitInfo nodeId="8739728360480412014" fileName="QueriesGenerated.java" startLine="265" startPosition="141" endLine="269" endPosition="7" unitName="jetbrains.mps.uiLanguage.generator.baseLanguage.template.main.QueriesGenerated$2" />
@@ -260,8 +260,8 @@
     <scopeInfo nodeId="1210094419050" fileName="QueriesGenerated.java" startLine="441" startPosition="144" endLine="442" endPosition="193" />
     <scopeInfo nodeId="1210094419061" fileName="QueriesGenerated.java" startLine="445" startPosition="144" endLine="446" endPosition="73" />
     <scopeInfo nodeId="1210094419069" fileName="QueriesGenerated.java" startLine="151" startPosition="148" endLine="154" endPosition="137">
-      <varInfo nodeId="1210094419078" varName="referenceOperation" />
       <varInfo nodeId="1210094419071" varName="operationExpression" />
+      <varInfo nodeId="1210094419078" varName="referenceOperation" />
     </scopeInfo>
   </root>
   <root nodeId="1202747082569">

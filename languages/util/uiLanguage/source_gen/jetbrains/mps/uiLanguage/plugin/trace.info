@@ -86,8 +86,8 @@
     <scopeInfo nodeId="2542706524531725711" fileName="Controller_TabDescriptor.java" startLine="50" startPosition="0" endLine="54" endPosition="0" />
     <scopeInfo nodeId="2542706524531725711" fileName="Controller_TabDescriptor.java" startLine="54" startPosition="0" endLine="58" endPosition="0" />
     <scopeInfo nodeId="1207331316078" fileName="Controller_TabDescriptor.java" startLine="59" startPosition="66" endLine="65" endPosition="22">
-      <varInfo nodeId="1207331574539" varName="virtualPackage" />
       <varInfo nodeId="1219415611990" varName="controller" />
+      <varInfo nodeId="1207331574539" varName="virtualPackage" />
     </scopeInfo>
     <scopeInfo nodeId="2542706524531725711" fileName="Controller_TabDescriptor.java" startLine="37" startPosition="43" endLine="44" endPosition="16" />
     <scopeInfo nodeId="2542706524531725711" fileName="Controller_TabDescriptor.java" startLine="58" startPosition="0" endLine="67" endPosition="0" />

@@ -118,8 +118,8 @@
     <scopeInfo nodeId="1202465570668" fileName="subtyping_ComponentType_SubtypingRule.java" startLine="103" startPosition="32" endLine="109" endPosition="7" />
     <scopeInfo nodeId="1202465570668" fileName="subtyping_ComponentType_SubtypingRule.java" startLine="40" startPosition="0" endLine="47" endPosition="0" />
     <scopeInfo nodeId="1202465570669" fileName="subtyping_ComponentType_SubtypingRule.java" startLine="25" startPosition="130" endLine="34" endPosition="18">
-      <varInfo nodeId="1202832958297" varName="result" />
       <varInfo nodeId="1202465693768" varName="extendedComponent" />
+      <varInfo nodeId="1202832958297" varName="result" />
     </scopeInfo>
     <scopeInfo nodeId="1202465570668" fileName="subtyping_ComponentType_SubtypingRule.java" startLine="56" startPosition="96" endLine="66" endPosition="20" />
     <scopeInfo nodeId="1202465570668" fileName="subtyping_ComponentType_SubtypingRule.java" startLine="69" startPosition="49" endLine="79" endPosition="20" />
@@ -130,9 +130,9 @@
     <scopeInfo nodeId="1202465570668" fileName="subtyping_ComponentType_SubtypingRule.java" startLine="68" startPosition="0" endLine="81" endPosition="0" />
     <scopeInfo nodeId="1202465570668" fileName="subtyping_ComponentType_SubtypingRule.java" startLine="86" startPosition="0" endLine="99" endPosition="0" />
     <scopeInfo nodeId="1202465570668" fileName="subtyping_ComponentType_SubtypingRule.java" startLine="99" startPosition="0" endLine="112" endPosition="0" />
+    <unitInfo nodeId="1202465570668" fileName="subtyping_ComponentType_SubtypingRule.java" startLine="21" startPosition="0" endLine="114" endPosition="0" unitName="jetbrains.mps.uiLanguage.typesystem.subtyping_ComponentType_SubtypingRule" />
     <unitInfo nodeId="1202465570668" fileName="subtyping_ComponentType_SubtypingRule.java" startLine="52" startPosition="0" endLine="82" endPosition="0" unitName="jetbrains.mps.uiLanguage.typesystem.subtyping_ComponentType_SubtypingRule$QuotationClass_1j2wpd_a0a0a0c0a" />
     <unitInfo nodeId="1202465570668" fileName="subtyping_ComponentType_SubtypingRule.java" startLine="83" startPosition="0" endLine="113" endPosition="0" unitName="jetbrains.mps.uiLanguage.typesystem.subtyping_ComponentType_SubtypingRule$QuotationClass_1j2wpd_a0a0a0d0a" />
-    <unitInfo nodeId="1202465570668" fileName="subtyping_ComponentType_SubtypingRule.java" startLine="21" startPosition="0" endLine="114" endPosition="0" unitName="jetbrains.mps.uiLanguage.typesystem.subtyping_ComponentType_SubtypingRule" />
   </root>
   <root nodeId="1202487346795">
     <nodeInfo nodeId="1202487353287" fileName="typeof_AttributeReferenceOperation_InferenceRule.java" startLine="19" startPosition="5" endLine="20" endPosition="53" conceptFqName="jetbrains.mps.baseLanguage.structure.LocalVariableDeclarationStatement" />
@@ -223,8 +223,8 @@
     <scopeInfo nodeId="1202742675844" fileName="typeof_ComponentReferencePart_InferenceRule.java" startLine="61" startPosition="49" endLine="71" endPosition="20" />
     <scopeInfo nodeId="1202742675844" fileName="typeof_ComponentReferencePart_InferenceRule.java" startLine="47" startPosition="0" endLine="60" endPosition="0" />
     <scopeInfo nodeId="1202742675844" fileName="typeof_ComponentReferencePart_InferenceRule.java" startLine="60" startPosition="0" endLine="73" endPosition="0" />
-    <unitInfo nodeId="1202742675844" fileName="typeof_ComponentReferencePart_InferenceRule.java" startLine="44" startPosition="0" endLine="74" endPosition="0" unitName="jetbrains.mps.uiLanguage.typesystem.typeof_ComponentReferencePart_InferenceRule$QuotationClass_lr3jdu_a0a0a0" />
     <unitInfo nodeId="1202742675844" fileName="typeof_ComponentReferencePart_InferenceRule.java" startLine="17" startPosition="0" endLine="75" endPosition="0" unitName="jetbrains.mps.uiLanguage.typesystem.typeof_ComponentReferencePart_InferenceRule" />
+    <unitInfo nodeId="1202742675844" fileName="typeof_ComponentReferencePart_InferenceRule.java" startLine="44" startPosition="0" endLine="74" endPosition="0" unitName="jetbrains.mps.uiLanguage.typesystem.typeof_ComponentReferencePart_InferenceRule$QuotationClass_lr3jdu_a0a0a0" />
   </root>
   <root nodeId="1203520939275">
     <nodeInfo nodeId="1203520945751" fileName="typeof_ComponentCreator_InferenceRule.java" startLine="22" startPosition="5" endLine="23" endPosition="53" conceptFqName="jetbrains.mps.baseLanguage.structure.LocalVariableDeclarationStatement" />
@@ -286,8 +286,8 @@
     <scopeInfo nodeId="1203520939275" fileName="typeof_ComponentCreator_InferenceRule.java" startLine="61" startPosition="49" endLine="71" endPosition="20" />
     <scopeInfo nodeId="1203520939275" fileName="typeof_ComponentCreator_InferenceRule.java" startLine="47" startPosition="0" endLine="60" endPosition="0" />
     <scopeInfo nodeId="1203520939275" fileName="typeof_ComponentCreator_InferenceRule.java" startLine="60" startPosition="0" endLine="73" endPosition="0" />
-    <unitInfo nodeId="1203520939275" fileName="typeof_ComponentCreator_InferenceRule.java" startLine="44" startPosition="0" endLine="74" endPosition="0" unitName="jetbrains.mps.uiLanguage.typesystem.typeof_ComponentCreator_InferenceRule$QuotationClass_stlcfd_a0a0a0" />
     <unitInfo nodeId="1203520939275" fileName="typeof_ComponentCreator_InferenceRule.java" startLine="17" startPosition="0" endLine="75" endPosition="0" unitName="jetbrains.mps.uiLanguage.typesystem.typeof_ComponentCreator_InferenceRule" />
+    <unitInfo nodeId="1203520939275" fileName="typeof_ComponentCreator_InferenceRule.java" startLine="44" startPosition="0" endLine="74" endPosition="0" unitName="jetbrains.mps.uiLanguage.typesystem.typeof_ComponentCreator_InferenceRule$QuotationClass_stlcfd_a0a0a0" />
   </root>
   <root nodeId="1207748658541">
     <nodeInfo nodeId="1207748658543" fileName="Typeof_BeanType_IsSubtype_BeanObject_SubtypingRule.java" startLine="22" startPosition="118" endLine="23" endPosition="128" conceptFqName="jetbrains.mps.baseLanguage.structure.ReturnStatement" />
@@ -345,8 +345,8 @@
     <scopeInfo nodeId="1207748658541" fileName="Typeof_BeanType_IsSubtype_BeanObject_SubtypingRule.java" startLine="58" startPosition="31" endLine="68" endPosition="20" />
     <scopeInfo nodeId="1207748658541" fileName="Typeof_BeanType_IsSubtype_BeanObject_SubtypingRule.java" startLine="44" startPosition="0" endLine="57" endPosition="0" />
     <scopeInfo nodeId="1207748658541" fileName="Typeof_BeanType_IsSubtype_BeanObject_SubtypingRule.java" startLine="57" startPosition="0" endLine="70" endPosition="0" />
-    <unitInfo nodeId="1207748658541" fileName="Typeof_BeanType_IsSubtype_BeanObject_SubtypingRule.java" startLine="41" startPosition="0" endLine="71" endPosition="0" unitName="jetbrains.mps.uiLanguage.typesystem.Typeof_BeanType_IsSubtype_BeanObject_SubtypingRule$QuotationClass_29jsfg_a0a0a" />
     <unitInfo nodeId="1207748658541" fileName="Typeof_BeanType_IsSubtype_BeanObject_SubtypingRule.java" startLine="18" startPosition="0" endLine="72" endPosition="0" unitName="jetbrains.mps.uiLanguage.typesystem.Typeof_BeanType_IsSubtype_BeanObject_SubtypingRule" />
+    <unitInfo nodeId="1207748658541" fileName="Typeof_BeanType_IsSubtype_BeanObject_SubtypingRule.java" startLine="41" startPosition="0" endLine="71" endPosition="0" unitName="jetbrains.mps.uiLanguage.typesystem.Typeof_BeanType_IsSubtype_BeanObject_SubtypingRule$QuotationClass_29jsfg_a0a0a" />
   </root>
   <root nodeId="1207754475172">
     <nodeInfo nodeId="1207754534566" fileName="typeof_GenericNewExpression_InferenceRule.java" startLine="21" startPosition="7" endLine="22" endPosition="54" conceptFqName="jetbrains.mps.baseLanguage.structure.LocalVariableDeclarationStatement" />
@@ -453,8 +453,8 @@
       <varInfo nodeId="1208689441004" varName="methodNode" />
     </scopeInfo>
     <scopeInfo nodeId="1208111228780" fileName="typeof_RemoveListenerOperation_InferenceRule.java" startLine="25" startPosition="0" endLine="46" endPosition="0" />
-    <unitInfo nodeId="1208111228780" fileName="typeof_RemoveListenerOperation_InferenceRule.java" startLine="62" startPosition="0" endLine="90" endPosition="0" unitName="jetbrains.mps.uiLanguage.typesystem.typeof_RemoveListenerOperation_InferenceRule$QuotationClass_4xbi0r_a0a4a0" />
     <unitInfo nodeId="1208111228780" fileName="typeof_RemoveListenerOperation_InferenceRule.java" startLine="22" startPosition="0" endLine="91" endPosition="0" unitName="jetbrains.mps.uiLanguage.typesystem.typeof_RemoveListenerOperation_InferenceRule" />
+    <unitInfo nodeId="1208111228780" fileName="typeof_RemoveListenerOperation_InferenceRule.java" startLine="62" startPosition="0" endLine="90" endPosition="0" unitName="jetbrains.mps.uiLanguage.typesystem.typeof_RemoveListenerOperation_InferenceRule$QuotationClass_4xbi0r_a0a4a0" />
   </root>
   <root nodeId="1208111558169">
     <nodeInfo nodeId="1208686568944" fileName="typeof_AddListenerOperation_InferenceRule.java" startLine="26" startPosition="122" endLine="27" endPosition="330" conceptFqName="jetbrains.mps.baseLanguage.structure.LocalVariableDeclarationStatement" />
@@ -530,8 +530,8 @@
       <varInfo nodeId="1208686692276" varName="methodNode" />
     </scopeInfo>
     <scopeInfo nodeId="1208111558169" fileName="typeof_AddListenerOperation_InferenceRule.java" startLine="25" startPosition="0" endLine="46" endPosition="0" />
-    <unitInfo nodeId="1208111558169" fileName="typeof_AddListenerOperation_InferenceRule.java" startLine="62" startPosition="0" endLine="90" endPosition="0" unitName="jetbrains.mps.uiLanguage.typesystem.typeof_AddListenerOperation_InferenceRule$QuotationClass_of7xmz_a0a4a0" />
     <unitInfo nodeId="1208111558169" fileName="typeof_AddListenerOperation_InferenceRule.java" startLine="22" startPosition="0" endLine="91" endPosition="0" unitName="jetbrains.mps.uiLanguage.typesystem.typeof_AddListenerOperation_InferenceRule" />
+    <unitInfo nodeId="1208111558169" fileName="typeof_AddListenerOperation_InferenceRule.java" startLine="62" startPosition="0" endLine="90" endPosition="0" unitName="jetbrains.mps.uiLanguage.typesystem.typeof_AddListenerOperation_InferenceRule$QuotationClass_of7xmz_a0a4a0" />
   </root>
   <root nodeId="1208111589498">
     <nodeInfo nodeId="1208111631129" fileName="typeof_RaiseOperation_InferenceRule.java" startLine="20" startPosition="5" endLine="21" endPosition="96" conceptFqName="jetbrains.mps.baseLanguage.structure.LocalVariableDeclarationStatement" />
@@ -680,8 +680,8 @@
     <scopeInfo nodeId="1210521556477" fileName="typeof_RenderingObject_InferenceRule.java" startLine="63" startPosition="31" endLine="73" endPosition="20" />
     <scopeInfo nodeId="1210521556477" fileName="typeof_RenderingObject_InferenceRule.java" startLine="49" startPosition="0" endLine="62" endPosition="0" />
     <scopeInfo nodeId="1210521556477" fileName="typeof_RenderingObject_InferenceRule.java" startLine="62" startPosition="0" endLine="75" endPosition="0" />
-    <unitInfo nodeId="1210521556477" fileName="typeof_RenderingObject_InferenceRule.java" startLine="46" startPosition="0" endLine="76" endPosition="0" unitName="jetbrains.mps.uiLanguage.typesystem.typeof_RenderingObject_InferenceRule$QuotationClass_7ne2d5_a0a0a0" />
     <unitInfo nodeId="1210521556477" fileName="typeof_RenderingObject_InferenceRule.java" startLine="19" startPosition="0" endLine="77" endPosition="0" unitName="jetbrains.mps.uiLanguage.typesystem.typeof_RenderingObject_InferenceRule" />
+    <unitInfo nodeId="1210521556477" fileName="typeof_RenderingObject_InferenceRule.java" startLine="46" startPosition="0" endLine="76" endPosition="0" unitName="jetbrains.mps.uiLanguage.typesystem.typeof_RenderingObject_InferenceRule$QuotationClass_7ne2d5_a0a0a0" />
   </root>
 </debugInfo>
 
