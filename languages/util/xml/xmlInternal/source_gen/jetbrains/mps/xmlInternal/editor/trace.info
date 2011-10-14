@@ -529,8 +529,8 @@
     <scopeInfo nodeId="1166472279597" fileName="XmlFile_Editor.java" startLine="132" startPosition="0" endLine="154" endPosition="0" />
     <scopeInfo nodeId="1166472279597" fileName="XmlFile_Editor.java" startLine="154" startPosition="0" endLine="176" endPosition="0" />
     <scopeInfo nodeId="1166472279597" fileName="XmlFile_Editor.java" startLine="189" startPosition="0" endLine="212" endPosition="0" />
-    <unitInfo nodeId="1166472279597" fileName="XmlFile_Editor.java" startLine="177" startPosition="0" endLine="213" endPosition="0" unitName="jetbrains.mps.xmlInternal.editor.XmlFile_Editor$_Inline_zencf0_a5a0" />
     <unitInfo nodeId="1166472279597" fileName="XmlFile_Editor.java" startLine="25" startPosition="0" endLine="214" endPosition="0" unitName="jetbrains.mps.xmlInternal.editor.XmlFile_Editor" />
+    <unitInfo nodeId="1166472279597" fileName="XmlFile_Editor.java" startLine="177" startPosition="0" endLine="213" endPosition="0" unitName="jetbrains.mps.xmlInternal.editor.XmlFile_Editor$_Inline_zencf0_a5a0" />
   </root>
   <root nodeId="1174840097331">
     <nodeInfo nodeId="1174840097331" fileName="Document_Editor.java" startLine="33" startPosition="58" endLine="33" endPosition="58" conceptFqName="jetbrains.mps.baseLanguage.structure.BlockStatement" />
@@ -841,9 +841,9 @@
     <scopeInfo nodeId="1174840274046" fileName="Comment_Editor.java" startLine="121" startPosition="0" endLine="133" endPosition="0" />
     <scopeInfo nodeId="1174840274046" fileName="Comment_Editor.java" startLine="180" startPosition="0" endLine="192" endPosition="0" />
     <scopeInfo nodeId="1174840274046" fileName="Comment_Editor.java" startLine="223" startPosition="0" endLine="235" endPosition="0" />
-    <unitInfo nodeId="1174840274046" fileName="Comment_Editor.java" startLine="201" startPosition="0" endLine="236" endPosition="0" unitName="jetbrains.mps.xmlInternal.editor.Comment_Editor$textListHandler_gt4ssm_b1a0" />
-    <unitInfo nodeId="1174840274046" fileName="Comment_Editor.java" startLine="154" startPosition="0" endLine="200" endPosition="0" unitName="jetbrains.mps.xmlInternal.editor.Comment_Editor$textListHandler_gt4ssm_b0a" />
     <unitInfo nodeId="1174840274046" fileName="Comment_Editor.java" startLine="28" startPosition="0" endLine="237" endPosition="0" unitName="jetbrains.mps.xmlInternal.editor.Comment_Editor" />
+    <unitInfo nodeId="1174840274046" fileName="Comment_Editor.java" startLine="154" startPosition="0" endLine="200" endPosition="0" unitName="jetbrains.mps.xmlInternal.editor.Comment_Editor$textListHandler_gt4ssm_b0a" />
+    <unitInfo nodeId="1174840274046" fileName="Comment_Editor.java" startLine="201" startPosition="0" endLine="236" endPosition="0" unitName="jetbrains.mps.xmlInternal.editor.Comment_Editor$textListHandler_gt4ssm_b1a0" />
   </root>
   <root nodeId="1174856279820">
     <nodeInfo nodeId="1174856279820" fileName="DocumentStatement_Editor.java" startLine="63" startPosition="58" endLine="63" endPosition="58" conceptFqName="jetbrains.mps.baseLanguage.structure.BlockStatement" />
@@ -1517,8 +1517,8 @@
     <scopeInfo nodeId="1179105804187" fileName="SimpleElement_Editor.java" startLine="117" startPosition="88" endLine="132" endPosition="22" />
     <scopeInfo nodeId="1179105804187" fileName="SimpleElement_Editor.java" startLine="134" startPosition="0" endLine="151" endPosition="0" />
     <scopeInfo nodeId="1179105804187" fileName="SimpleElement_Editor.java" startLine="116" startPosition="0" endLine="134" endPosition="0" />
-    <unitInfo nodeId="1179105804187" fileName="SimpleElement_Editor.java" startLine="152" startPosition="0" endLine="209" endPosition="0" unitName="jetbrains.mps.xmlInternal.editor.SimpleElement_Editor$attributeListHandler_944ac1_c0a" />
     <unitInfo nodeId="1179105804187" fileName="SimpleElement_Editor.java" startLine="29" startPosition="0" endLine="210" endPosition="0" unitName="jetbrains.mps.xmlInternal.editor.SimpleElement_Editor" />
+    <unitInfo nodeId="1179105804187" fileName="SimpleElement_Editor.java" startLine="152" startPosition="0" endLine="209" endPosition="0" unitName="jetbrains.mps.xmlInternal.editor.SimpleElement_Editor$attributeListHandler_944ac1_c0a" />
   </root>
   <root nodeId="1188772535072">
     <nodeInfo nodeId="1188772535072" fileName="SimpleAttribute_Editor.java" startLine="23" startPosition="79" endLine="24" endPosition="63" conceptFqName="jetbrains.mps.baseLanguage.structure.ReturnStatement" />

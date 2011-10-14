@@ -577,8 +577,8 @@
     <scopeInfo nodeId="6629582826328966249" fileName="JavaNodeRunConfiguration_Editor.java" startLine="206" startPosition="0" endLine="224" endPosition="0" />
     <scopeInfo nodeId="6629582826328966249" fileName="JavaNodeRunConfiguration_Editor.java" startLine="241" startPosition="0" endLine="259" endPosition="0" />
     <scopeInfo nodeId="6629582826328966249" fileName="JavaNodeRunConfiguration_Editor.java" startLine="280" startPosition="0" endLine="299" endPosition="0" />
-    <unitInfo nodeId="6629582826328966249" fileName="JavaNodeRunConfiguration_Editor.java" startLine="268" startPosition="0" endLine="300" endPosition="0" unitName="jetbrains.mps.baseLanguage.runConfigurations.editor.JavaNodeRunConfiguration_Editor$_Inline_oxce8e_a1a3b1a" />
     <unitInfo nodeId="6629582826328966249" fileName="JavaNodeRunConfiguration_Editor.java" startLine="30" startPosition="0" endLine="301" endPosition="0" unitName="jetbrains.mps.baseLanguage.runConfigurations.editor.JavaNodeRunConfiguration_Editor" />
+    <unitInfo nodeId="6629582826328966249" fileName="JavaNodeRunConfiguration_Editor.java" startLine="268" startPosition="0" endLine="300" endPosition="0" unitName="jetbrains.mps.baseLanguage.runConfigurations.editor.JavaNodeRunConfiguration_Editor$_Inline_oxce8e_a1a3b1a" />
   </root>
 </debugInfo>
 

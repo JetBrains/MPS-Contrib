@@ -45,8 +45,8 @@
     <scopeInfo nodeId="3361586479360707234" fileName="NodeRunConfigPropertyInstance_Constraints.java" startLine="31" startPosition="0" endLine="42" endPosition="0" />
     <scopeInfo nodeId="3361586479360707234" fileName="NodeRunConfigPropertyInstance_Constraints.java" startLine="44" startPosition="82" endLine="58" endPosition="22" />
     <scopeInfo nodeId="3361586479360707234" fileName="NodeRunConfigPropertyInstance_Constraints.java" startLine="42" startPosition="0" endLine="60" endPosition="0" />
-    <unitInfo nodeId="3361586479360707234" fileName="NodeRunConfigPropertyInstance_Constraints.java" startLine="46" startPosition="31" endLine="57" endPosition="5" unitName="jetbrains.mps.baseLanguage.runConfigurations.constraints.NodeRunConfigPropertyInstance_Constraints$1" />
     <unitInfo nodeId="3361586479360707234" fileName="NodeRunConfigPropertyInstance_Constraints.java" startLine="20" startPosition="0" endLine="68" endPosition="0" unitName="jetbrains.mps.baseLanguage.runConfigurations.constraints.NodeRunConfigPropertyInstance_Constraints" />
+    <unitInfo nodeId="3361586479360707234" fileName="NodeRunConfigPropertyInstance_Constraints.java" startLine="46" startPosition="31" endLine="57" endPosition="5" unitName="jetbrains.mps.baseLanguage.runConfigurations.constraints.NodeRunConfigPropertyInstance_Constraints$1" />
   </root>
   <root nodeId="6629582826328966593">
     <nodeInfo nodeId="6629582826328966593" fileName="JavaNodeRunConfiguration_Constraints.java" startLine="8" startPosition="49" endLine="9" endPosition="93" conceptFqName="jetbrains.mps.baseLanguage.structure.SuperConstructorInvocation" />

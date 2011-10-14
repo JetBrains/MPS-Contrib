@@ -39,9 +39,9 @@
     <scopeInfo nodeId="1384720974900260384" fileName="ElementBuilder_Constraints.java" startLine="40" startPosition="0" endLine="63" endPosition="0" />
     <scopeInfo nodeId="1384720974900260384" fileName="ElementBuilder_Constraints.java" startLine="33" startPosition="83" endLine="64" endPosition="22" />
     <scopeInfo nodeId="1384720974900260384" fileName="ElementBuilder_Constraints.java" startLine="31" startPosition="0" endLine="66" endPosition="0" />
-    <unitInfo nodeId="1384720974900260384" fileName="ElementBuilder_Constraints.java" startLine="44" startPosition="19" endLine="61" endPosition="9" unitName="jetbrains.mps.xmlQuery.constraints.ElementBuilder_Constraints$2" />
-    <unitInfo nodeId="1384720974900260384" fileName="ElementBuilder_Constraints.java" startLine="35" startPosition="45" endLine="63" endPosition="5" unitName="jetbrains.mps.xmlQuery.constraints.ElementBuilder_Constraints$1" />
     <unitInfo nodeId="1384720974900260384" fileName="ElementBuilder_Constraints.java" startLine="25" startPosition="0" endLine="67" endPosition="0" unitName="jetbrains.mps.xmlQuery.constraints.ElementBuilder_Constraints" />
+    <unitInfo nodeId="1384720974900260384" fileName="ElementBuilder_Constraints.java" startLine="35" startPosition="45" endLine="63" endPosition="5" unitName="jetbrains.mps.xmlQuery.constraints.ElementBuilder_Constraints$1" />
+    <unitInfo nodeId="1384720974900260384" fileName="ElementBuilder_Constraints.java" startLine="44" startPosition="19" endLine="61" endPosition="9" unitName="jetbrains.mps.xmlQuery.constraints.ElementBuilder_Constraints$2" />
   </root>
   <root nodeId="1967473504308939654">
     <nodeInfo nodeId="1967473504308939654" fileName="XMLSAXChildRule_Constraints.java" startLine="18" startPosition="76" endLine="19" endPosition="189" conceptFqName="jetbrains.mps.baseLanguage.structure.StaticFieldDeclaration" propertyString="breakingNode_1y346m_a0a1a0a0a1a0b0a1a0" />
@@ -71,9 +71,9 @@
     <scopeInfo nodeId="1967473504308939654" fileName="XMLSAXChildRule_Constraints.java" startLine="33" startPosition="0" endLine="49" endPosition="0" />
     <scopeInfo nodeId="1967473504308939654" fileName="XMLSAXChildRule_Constraints.java" startLine="26" startPosition="83" endLine="50" endPosition="22" />
     <scopeInfo nodeId="1967473504308939654" fileName="XMLSAXChildRule_Constraints.java" startLine="24" startPosition="0" endLine="52" endPosition="0" />
-    <unitInfo nodeId="1967473504308939654" fileName="XMLSAXChildRule_Constraints.java" startLine="37" startPosition="19" endLine="47" endPosition="9" unitName="jetbrains.mps.xmlQuery.constraints.XMLSAXChildRule_Constraints$2" />
-    <unitInfo nodeId="1967473504308939654" fileName="XMLSAXChildRule_Constraints.java" startLine="28" startPosition="31" endLine="49" endPosition="5" unitName="jetbrains.mps.xmlQuery.constraints.XMLSAXChildRule_Constraints$1" />
     <unitInfo nodeId="1967473504308939654" fileName="XMLSAXChildRule_Constraints.java" startLine="18" startPosition="0" endLine="53" endPosition="0" unitName="jetbrains.mps.xmlQuery.constraints.XMLSAXChildRule_Constraints" />
+    <unitInfo nodeId="1967473504308939654" fileName="XMLSAXChildRule_Constraints.java" startLine="28" startPosition="31" endLine="49" endPosition="5" unitName="jetbrains.mps.xmlQuery.constraints.XMLSAXChildRule_Constraints$1" />
+    <unitInfo nodeId="1967473504308939654" fileName="XMLSAXChildRule_Constraints.java" startLine="37" startPosition="19" endLine="47" endPosition="9" unitName="jetbrains.mps.xmlQuery.constraints.XMLSAXChildRule_Constraints$2" />
   </root>
   <root nodeId="2286463592495220223">
     <nodeInfo nodeId="2286463592495220223" fileName="XMLSAXAttributeReference_Constraints.java" startLine="27" startPosition="85" endLine="28" endPosition="174" conceptFqName="jetbrains.mps.baseLanguage.structure.StaticFieldDeclaration" propertyString="canBeChildBreakingPoint" />
@@ -125,8 +125,8 @@
     <scopeInfo nodeId="2286463592495220223" fileName="XMLSAXAttributeReference_Constraints.java" startLine="77" startPosition="0" endLine="82" endPosition="0" />
     <scopeInfo nodeId="2286463592495220223" fileName="XMLSAXAttributeReference_Constraints.java" startLine="41" startPosition="166" endLine="48" endPosition="18" />
     <scopeInfo nodeId="2286463592495228154" fileName="XMLSAXAttributeReference_Constraints.java" startLine="65" startPosition="142" endLine="75" endPosition="21">
-      <varInfo nodeId="2286463592495263721" varName="n" />
       <varInfo nodeId="2286463592495255206" varName="creator" />
+      <varInfo nodeId="2286463592495263721" varName="n" />
     </scopeInfo>
     <scopeInfo nodeId="2286463592495220223" fileName="XMLSAXAttributeReference_Constraints.java" startLine="39" startPosition="0" endLine="50" endPosition="0" />
     <scopeInfo nodeId="2286463592495220223" fileName="XMLSAXAttributeReference_Constraints.java" startLine="63" startPosition="49" endLine="77" endPosition="0" />
@@ -134,10 +134,10 @@
     <scopeInfo nodeId="2286463592495220223" fileName="XMLSAXAttributeReference_Constraints.java" startLine="59" startPosition="0" endLine="84" endPosition="0" />
     <scopeInfo nodeId="2286463592495220223" fileName="XMLSAXAttributeReference_Constraints.java" startLine="52" startPosition="83" endLine="85" endPosition="22" />
     <scopeInfo nodeId="2286463592495220223" fileName="XMLSAXAttributeReference_Constraints.java" startLine="50" startPosition="0" endLine="87" endPosition="0" />
-    <unitInfo nodeId="2286463592495263827" fileName="XMLSAXAttributeReference_Constraints.java" startLine="69" startPosition="235" endLine="73" endPosition="15" unitName="jetbrains.mps.xmlQuery.constraints.XMLSAXAttributeReference_Constraints$3" />
-    <unitInfo nodeId="2286463592495220223" fileName="XMLSAXAttributeReference_Constraints.java" startLine="63" startPosition="19" endLine="82" endPosition="9" unitName="jetbrains.mps.xmlQuery.constraints.XMLSAXAttributeReference_Constraints$2" />
-    <unitInfo nodeId="2286463592495220223" fileName="XMLSAXAttributeReference_Constraints.java" startLine="54" startPosition="36" endLine="84" endPosition="5" unitName="jetbrains.mps.xmlQuery.constraints.XMLSAXAttributeReference_Constraints$1" />
     <unitInfo nodeId="2286463592495220223" fileName="XMLSAXAttributeReference_Constraints.java" startLine="27" startPosition="0" endLine="92" endPosition="0" unitName="jetbrains.mps.xmlQuery.constraints.XMLSAXAttributeReference_Constraints" />
+    <unitInfo nodeId="2286463592495220223" fileName="XMLSAXAttributeReference_Constraints.java" startLine="54" startPosition="36" endLine="84" endPosition="5" unitName="jetbrains.mps.xmlQuery.constraints.XMLSAXAttributeReference_Constraints$1" />
+    <unitInfo nodeId="2286463592495220223" fileName="XMLSAXAttributeReference_Constraints.java" startLine="63" startPosition="19" endLine="82" endPosition="9" unitName="jetbrains.mps.xmlQuery.constraints.XMLSAXAttributeReference_Constraints$2" />
+    <unitInfo nodeId="2286463592495263827" fileName="XMLSAXAttributeReference_Constraints.java" startLine="69" startPosition="235" endLine="73" endPosition="15" unitName="jetbrains.mps.xmlQuery.constraints.XMLSAXAttributeReference_Constraints$3" />
   </root>
   <root nodeId="2341233264267552651">
     <nodeInfo nodeId="2341233264267552651" fileName="SchemaUtil.java" startLine="22" startPosition="25" endLine="23" endPosition="65" conceptFqName="jetbrains.mps.baseLanguage.structure.StaticFieldDeclaration" propertyString="LOG" />
@@ -290,8 +290,8 @@
     <scopeInfo nodeId="2341233264267552651" fileName="SchemaUtil.java" startLine="161" startPosition="32" endLine="166" endPosition="7" />
     <scopeInfo nodeId="2341233264267552651" fileName="SchemaUtil.java" startLine="178" startPosition="32" endLine="183" endPosition="7" />
     <scopeInfo nodeId="5285611549890897332" fileName="SchemaUtil.java" startLine="33" startPosition="107" endLine="39" endPosition="0">
-      <varInfo nodeId="5285611549890897347" varName="extension" />
       <varInfo nodeId="5285611549890897334" varName="contentItem" />
+      <varInfo nodeId="5285611549890897347" varName="extension" />
     </scopeInfo>
     <scopeInfo nodeId="4705273682234098404" fileName="SchemaUtil.java" startLine="81" startPosition="67" endLine="87" endPosition="5">
       <varInfo nodeId="4705273682234098408" varName="typeName" />
@@ -336,13 +336,13 @@
     <scopeInfo nodeId="2341233264267552653" fileName="SchemaUtil.java" startLine="27" startPosition="0" endLine="58" endPosition="0">
       <varInfo nodeId="2341233264267552654" varName="typeExpression" />
     </scopeInfo>
+    <unitInfo nodeId="2341233264267552651" fileName="SchemaUtil.java" startLine="22" startPosition="0" endLine="188" endPosition="0" unitName="jetbrains.mps.xmlQuery.constraints.SchemaUtil" />
     <unitInfo nodeId="2341233264267552817" fileName="SchemaUtil.java" startLine="69" startPosition="202" endLine="73" endPosition="5" unitName="jetbrains.mps.xmlQuery.constraints.SchemaUtil$1" />
     <unitInfo nodeId="2341233264267552817" fileName="SchemaUtil.java" startLine="73" startPosition="18" endLine="77" endPosition="5" unitName="jetbrains.mps.xmlQuery.constraints.SchemaUtil$2" />
-    <unitInfo nodeId="2341233264267552651" fileName="SchemaUtil.java" startLine="120" startPosition="0" endLine="136" endPosition="0" unitName="jetbrains.mps.xmlQuery.constraints.SchemaUtil$QuotationClass_crwl9t_a0a0b0g" />
     <unitInfo nodeId="2341233264267552651" fileName="SchemaUtil.java" startLine="137" startPosition="0" endLine="153" endPosition="0" unitName="jetbrains.mps.xmlQuery.constraints.SchemaUtil$QuotationClass_crwl9t_a0a0a1a6" />
+    <unitInfo nodeId="2341233264267552651" fileName="SchemaUtil.java" startLine="120" startPosition="0" endLine="136" endPosition="0" unitName="jetbrains.mps.xmlQuery.constraints.SchemaUtil$QuotationClass_crwl9t_a0a0b0g" />
     <unitInfo nodeId="2341233264267552651" fileName="SchemaUtil.java" startLine="154" startPosition="0" endLine="170" endPosition="0" unitName="jetbrains.mps.xmlQuery.constraints.SchemaUtil$QuotationClass_crwl9t_a0a0b1a6" />
     <unitInfo nodeId="2341233264267552651" fileName="SchemaUtil.java" startLine="171" startPosition="0" endLine="187" endPosition="0" unitName="jetbrains.mps.xmlQuery.constraints.SchemaUtil$QuotationClass_crwl9t_a0c0g" />
-    <unitInfo nodeId="2341233264267552651" fileName="SchemaUtil.java" startLine="22" startPosition="0" endLine="188" endPosition="0" unitName="jetbrains.mps.xmlQuery.constraints.SchemaUtil" />
   </root>
   <root nodeId="4815471077468703816">
     <nodeInfo nodeId="4815471077468703816" fileName="XMLElementType_Constraints.java" startLine="22" startPosition="75" endLine="23" endPosition="189" conceptFqName="jetbrains.mps.baseLanguage.structure.StaticFieldDeclaration" propertyString="breakingNode_yvyt3v_a0a3a0a0a4a0b0a1a0" />
@@ -410,10 +410,10 @@
     <scopeInfo nodeId="4815471077468703816" fileName="XMLElementType_Constraints.java" startLine="30" startPosition="83" endLine="101" endPosition="22" />
     <scopeInfo nodeId="4815471077468703816" fileName="XMLElementType_Constraints.java" startLine="28" startPosition="0" endLine="103" endPosition="0" />
     <unitInfo nodeId="4815471077468703816" fileName="XMLElementType_Constraints.java" startLine="98" startPosition="19" endLine="22" endPosition="0" />
+    <unitInfo nodeId="4815471077468703816" fileName="XMLElementType_Constraints.java" startLine="22" startPosition="0" endLine="104" endPosition="0" unitName="jetbrains.mps.xmlQuery.constraints.XMLElementType_Constraints" />
+    <unitInfo nodeId="4815471077468703816" fileName="XMLElementType_Constraints.java" startLine="32" startPosition="38" endLine="77" endPosition="5" unitName="jetbrains.mps.xmlQuery.constraints.XMLElementType_Constraints$1" />
     <unitInfo nodeId="4815471077468703816" fileName="XMLElementType_Constraints.java" startLine="55" startPosition="19" endLine="75" endPosition="9" unitName="jetbrains.mps.xmlQuery.constraints.XMLElementType_Constraints$2" />
     <unitInfo nodeId="4815471077468703816" fileName="XMLElementType_Constraints.java" startLine="78" startPosition="33" endLine="100" endPosition="5" unitName="jetbrains.mps.xmlQuery.constraints.XMLElementType_Constraints$2" />
-    <unitInfo nodeId="4815471077468703816" fileName="XMLElementType_Constraints.java" startLine="32" startPosition="38" endLine="77" endPosition="5" unitName="jetbrains.mps.xmlQuery.constraints.XMLElementType_Constraints$1" />
-    <unitInfo nodeId="4815471077468703816" fileName="XMLElementType_Constraints.java" startLine="22" startPosition="0" endLine="104" endPosition="0" unitName="jetbrains.mps.xmlQuery.constraints.XMLElementType_Constraints" />
   </root>
   <root nodeId="4991903842868384279">
     <nodeInfo nodeId="4991903842868384279" fileName="XMLElementOperation_Constraints.java" startLine="16" startPosition="80" endLine="17" endPosition="174" conceptFqName="jetbrains.mps.baseLanguage.structure.StaticFieldDeclaration" propertyString="canBeChildBreakingPoint" />
@@ -486,10 +486,10 @@
     <scopeInfo nodeId="4991903842868413101" fileName="AccessChildrenOperation_Constraints.java" startLine="41" startPosition="0" endLine="70" endPosition="0" />
     <scopeInfo nodeId="4991903842868413101" fileName="AccessChildrenOperation_Constraints.java" startLine="34" startPosition="83" endLine="71" endPosition="22" />
     <scopeInfo nodeId="4991903842868413101" fileName="AccessChildrenOperation_Constraints.java" startLine="32" startPosition="0" endLine="73" endPosition="0" />
-    <unitInfo nodeId="3014833108615703002" fileName="AccessChildrenOperation_Constraints.java" startLine="54" startPosition="279" endLine="58" endPosition="15" unitName="jetbrains.mps.xmlQuery.constraints.AccessChildrenOperation_Constraints$3" />
-    <unitInfo nodeId="4991903842868413101" fileName="AccessChildrenOperation_Constraints.java" startLine="45" startPosition="19" endLine="68" endPosition="9" unitName="jetbrains.mps.xmlQuery.constraints.AccessChildrenOperation_Constraints$2" />
-    <unitInfo nodeId="4991903842868413101" fileName="AccessChildrenOperation_Constraints.java" startLine="36" startPosition="45" endLine="70" endPosition="5" unitName="jetbrains.mps.xmlQuery.constraints.AccessChildrenOperation_Constraints$1" />
     <unitInfo nodeId="4991903842868413101" fileName="AccessChildrenOperation_Constraints.java" startLine="26" startPosition="0" endLine="74" endPosition="0" unitName="jetbrains.mps.xmlQuery.constraints.AccessChildrenOperation_Constraints" />
+    <unitInfo nodeId="4991903842868413101" fileName="AccessChildrenOperation_Constraints.java" startLine="36" startPosition="45" endLine="70" endPosition="5" unitName="jetbrains.mps.xmlQuery.constraints.AccessChildrenOperation_Constraints$1" />
+    <unitInfo nodeId="4991903842868413101" fileName="AccessChildrenOperation_Constraints.java" startLine="45" startPosition="19" endLine="68" endPosition="9" unitName="jetbrains.mps.xmlQuery.constraints.AccessChildrenOperation_Constraints$2" />
+    <unitInfo nodeId="3014833108615703002" fileName="AccessChildrenOperation_Constraints.java" startLine="54" startPosition="279" endLine="58" endPosition="15" unitName="jetbrains.mps.xmlQuery.constraints.AccessChildrenOperation_Constraints$3" />
   </root>
   <root nodeId="4991903842868445310">
     <nodeInfo nodeId="4991903842868445310" fileName="AccessAttributeOperation_Constraints.java" startLine="20" startPosition="85" endLine="21" endPosition="189" conceptFqName="jetbrains.mps.baseLanguage.structure.StaticFieldDeclaration" propertyString="breakingNode_q13237_a0a1a0a0a1a0b0a1a0" />
@@ -519,9 +519,9 @@
     <scopeInfo nodeId="4991903842868445310" fileName="AccessAttributeOperation_Constraints.java" startLine="35" startPosition="0" endLine="51" endPosition="0" />
     <scopeInfo nodeId="4991903842868445310" fileName="AccessAttributeOperation_Constraints.java" startLine="28" startPosition="83" endLine="52" endPosition="22" />
     <scopeInfo nodeId="4991903842868445310" fileName="AccessAttributeOperation_Constraints.java" startLine="26" startPosition="0" endLine="54" endPosition="0" />
-    <unitInfo nodeId="4991903842868445310" fileName="AccessAttributeOperation_Constraints.java" startLine="39" startPosition="19" endLine="49" endPosition="9" unitName="jetbrains.mps.xmlQuery.constraints.AccessAttributeOperation_Constraints$2" />
-    <unitInfo nodeId="4991903842868445310" fileName="AccessAttributeOperation_Constraints.java" startLine="30" startPosition="47" endLine="51" endPosition="5" unitName="jetbrains.mps.xmlQuery.constraints.AccessAttributeOperation_Constraints$1" />
     <unitInfo nodeId="4991903842868445310" fileName="AccessAttributeOperation_Constraints.java" startLine="20" startPosition="0" endLine="55" endPosition="0" unitName="jetbrains.mps.xmlQuery.constraints.AccessAttributeOperation_Constraints" />
+    <unitInfo nodeId="4991903842868445310" fileName="AccessAttributeOperation_Constraints.java" startLine="30" startPosition="47" endLine="51" endPosition="5" unitName="jetbrains.mps.xmlQuery.constraints.AccessAttributeOperation_Constraints$1" />
+    <unitInfo nodeId="4991903842868445310" fileName="AccessAttributeOperation_Constraints.java" startLine="39" startPosition="19" endLine="49" endPosition="9" unitName="jetbrains.mps.xmlQuery.constraints.AccessAttributeOperation_Constraints$2" />
   </root>
   <root nodeId="7225751495667376030">
     <nodeInfo nodeId="7225751495667376030" fileName="AttributeBuilder_Constraints.java" startLine="26" startPosition="77" endLine="27" endPosition="174" conceptFqName="jetbrains.mps.baseLanguage.structure.StaticFieldDeclaration" propertyString="canBeChildBreakingPoint" />
@@ -585,9 +585,9 @@
     <scopeInfo nodeId="7225751495667376030" fileName="AttributeBuilder_Constraints.java" startLine="58" startPosition="0" endLine="89" endPosition="0" />
     <scopeInfo nodeId="7225751495667376030" fileName="AttributeBuilder_Constraints.java" startLine="51" startPosition="83" endLine="90" endPosition="22" />
     <scopeInfo nodeId="7225751495667376030" fileName="AttributeBuilder_Constraints.java" startLine="49" startPosition="0" endLine="92" endPosition="0" />
-    <unitInfo nodeId="7225751495667376030" fileName="AttributeBuilder_Constraints.java" startLine="62" startPosition="19" endLine="87" endPosition="9" unitName="jetbrains.mps.xmlQuery.constraints.AttributeBuilder_Constraints$2" />
-    <unitInfo nodeId="7225751495667376030" fileName="AttributeBuilder_Constraints.java" startLine="53" startPosition="47" endLine="89" endPosition="5" unitName="jetbrains.mps.xmlQuery.constraints.AttributeBuilder_Constraints$1" />
     <unitInfo nodeId="7225751495667376030" fileName="AttributeBuilder_Constraints.java" startLine="26" startPosition="0" endLine="97" endPosition="0" unitName="jetbrains.mps.xmlQuery.constraints.AttributeBuilder_Constraints" />
+    <unitInfo nodeId="7225751495667376030" fileName="AttributeBuilder_Constraints.java" startLine="53" startPosition="47" endLine="89" endPosition="5" unitName="jetbrains.mps.xmlQuery.constraints.AttributeBuilder_Constraints$1" />
+    <unitInfo nodeId="7225751495667376030" fileName="AttributeBuilder_Constraints.java" startLine="62" startPosition="19" endLine="87" endPosition="9" unitName="jetbrains.mps.xmlQuery.constraints.AttributeBuilder_Constraints$2" />
   </root>
   <root nodeId="7459083455229529814">
     <nodeInfo nodeId="7459083455229529814" fileName="XMLSAXLocatorExpression_Constraints.java" startLine="14" startPosition="84" endLine="15" endPosition="174" conceptFqName="jetbrains.mps.baseLanguage.structure.StaticFieldDeclaration" propertyString="canBeChildBreakingPoint" />
@@ -675,9 +675,9 @@
     <scopeInfo nodeId="7707758858785994434" fileName="XMLSAXFieldReference_Constraints.java" startLine="36" startPosition="0" endLine="56" endPosition="0" />
     <scopeInfo nodeId="7707758858785994434" fileName="XMLSAXFieldReference_Constraints.java" startLine="29" startPosition="83" endLine="57" endPosition="22" />
     <scopeInfo nodeId="7707758858785994434" fileName="XMLSAXFieldReference_Constraints.java" startLine="27" startPosition="0" endLine="59" endPosition="0" />
-    <unitInfo nodeId="7707758858785994434" fileName="XMLSAXFieldReference_Constraints.java" startLine="40" startPosition="19" endLine="54" endPosition="9" unitName="jetbrains.mps.xmlQuery.constraints.XMLSAXFieldReference_Constraints$2" />
-    <unitInfo nodeId="7707758858785994434" fileName="XMLSAXFieldReference_Constraints.java" startLine="31" startPosition="38" endLine="56" endPosition="5" unitName="jetbrains.mps.xmlQuery.constraints.XMLSAXFieldReference_Constraints$1" />
     <unitInfo nodeId="7707758858785994434" fileName="XMLSAXFieldReference_Constraints.java" startLine="21" startPosition="0" endLine="60" endPosition="0" unitName="jetbrains.mps.xmlQuery.constraints.XMLSAXFieldReference_Constraints" />
+    <unitInfo nodeId="7707758858785994434" fileName="XMLSAXFieldReference_Constraints.java" startLine="31" startPosition="38" endLine="56" endPosition="5" unitName="jetbrains.mps.xmlQuery.constraints.XMLSAXFieldReference_Constraints$1" />
+    <unitInfo nodeId="7707758858785994434" fileName="XMLSAXFieldReference_Constraints.java" startLine="40" startPosition="19" endLine="54" endPosition="9" unitName="jetbrains.mps.xmlQuery.constraints.XMLSAXFieldReference_Constraints$2" />
   </root>
   <root nodeId="8666712036582994524">
     <nodeInfo nodeId="8666712036582994524" fileName="XMLSAXBreakStatement_Constraints.java" startLine="14" startPosition="81" endLine="15" endPosition="174" conceptFqName="jetbrains.mps.baseLanguage.structure.StaticFieldDeclaration" propertyString="canBeChildBreakingPoint" />

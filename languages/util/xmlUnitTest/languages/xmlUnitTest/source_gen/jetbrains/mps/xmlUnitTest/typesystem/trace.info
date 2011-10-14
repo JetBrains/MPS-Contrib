@@ -59,8 +59,8 @@
     <scopeInfo nodeId="5211164146776489225" fileName="typeof_XMLStringLiteral_InferenceRule.java" startLine="59" startPosition="31" endLine="68" endPosition="20" />
     <scopeInfo nodeId="5211164146776489225" fileName="typeof_XMLStringLiteral_InferenceRule.java" startLine="46" startPosition="0" endLine="58" endPosition="0" />
     <scopeInfo nodeId="5211164146776489225" fileName="typeof_XMLStringLiteral_InferenceRule.java" startLine="58" startPosition="0" endLine="70" endPosition="0" />
-    <unitInfo nodeId="5211164146776489225" fileName="typeof_XMLStringLiteral_InferenceRule.java" startLine="43" startPosition="0" endLine="71" endPosition="0" unitName="jetbrains.mps.xmlUnitTest.typesystem.typeof_XMLStringLiteral_InferenceRule$QuotationClass_e9zs51_a0a0a0" />
     <unitInfo nodeId="5211164146776489225" fileName="typeof_XMLStringLiteral_InferenceRule.java" startLine="16" startPosition="0" endLine="72" endPosition="0" unitName="jetbrains.mps.xmlUnitTest.typesystem.typeof_XMLStringLiteral_InferenceRule" />
+    <unitInfo nodeId="5211164146776489225" fileName="typeof_XMLStringLiteral_InferenceRule.java" startLine="43" startPosition="0" endLine="71" endPosition="0" unitName="jetbrains.mps.xmlUnitTest.typesystem.typeof_XMLStringLiteral_InferenceRule$QuotationClass_e9zs51_a0a0a0" />
   </root>
 </debugInfo>
 

@@ -51,24 +51,24 @@
       <varInfo nodeId="1173785443989" varName="table" />
     </scopeInfo>
     <scopeInfo nodeId="1169556002655" fileName="DatesQueriesUtil.java" startLine="19" startPosition="0" endLine="23" endPosition="0">
-      <varInfo nodeId="1169556059137" varName="node" />
       <varInfo nodeId="1216936126937" varName="genctx" />
+      <varInfo nodeId="1169556059137" varName="node" />
     </scopeInfo>
     <scopeInfo nodeId="1169556848279" fileName="DatesQueriesUtil.java" startLine="32" startPosition="78" endLine="36" endPosition="7" />
     <scopeInfo nodeId="1169556611243" fileName="DatesQueriesUtil.java" startLine="23" startPosition="0" endLine="28" endPosition="0">
-      <varInfo nodeId="1169556653847" varName="node" />
       <varInfo nodeId="1216936012088" varName="genctx" />
+      <varInfo nodeId="1169556653847" varName="node" />
     </scopeInfo>
     <scopeInfo nodeId="1169556848275" fileName="DatesQueriesUtil.java" startLine="31" startPosition="24" endLine="37" endPosition="5">
       <varInfo nodeId="1169556848277" varName="sfd" />
     </scopeInfo>
     <scopeInfo nodeId="1169556566374" fileName="DatesQueriesUtil.java" startLine="29" startPosition="95" endLine="41" endPosition="18">
-      <varInfo nodeId="1169556882227" varName="result" />
       <varInfo nodeId="1169556826782" varName="clazz" />
+      <varInfo nodeId="1169556882227" varName="result" />
     </scopeInfo>
     <scopeInfo nodeId="1169556566372" fileName="DatesQueriesUtil.java" startLine="28" startPosition="0" endLine="43" endPosition="0">
-      <varInfo nodeId="1169556590581" varName="node" />
       <varInfo nodeId="1216936158252" varName="genctx" />
+      <varInfo nodeId="1169556590581" varName="node" />
     </scopeInfo>
     <scopeInfo nodeId="4396211440736522077" fileName="DatesQueriesUtil.java" startLine="44" startPosition="56" endLine="64" endPosition="18">
       <varInfo nodeId="4396211440736522083" varName="result" />

@@ -485,11 +485,11 @@
     <scopeInfo nodeId="1169491699235" fileName="FormatTokenSettings_Editor.java" startLine="212" startPosition="0" endLine="226" endPosition="0" />
     <scopeInfo nodeId="1169491699235" fileName="FormatTokenSettings_Editor.java" startLine="40" startPosition="90" endLine="56" endPosition="22" />
     <scopeInfo nodeId="1169491699235" fileName="FormatTokenSettings_Editor.java" startLine="39" startPosition="0" endLine="58" endPosition="0" />
-    <unitInfo nodeId="1169491699235" fileName="FormatTokenSettings_Editor.java" startLine="240" startPosition="0" endLine="290" endPosition="0" unitName="jetbrains.mps.baseLanguage.datesInternal.editor.FormatTokenSettings_Editor$predefinedDateFormatListHandler_o189cj_a2a" />
-    <unitInfo nodeId="1169491699235" fileName="FormatTokenSettings_Editor.java" startLine="291" startPosition="0" endLine="341" endPosition="0" unitName="jetbrains.mps.baseLanguage.datesInternal.editor.FormatTokenSettings_Editor$predefinedPeriodFormatListHandler_o189cj_c2a" />
+    <unitInfo nodeId="1169491699235" fileName="FormatTokenSettings_Editor.java" startLine="25" startPosition="0" endLine="444" endPosition="0" unitName="jetbrains.mps.baseLanguage.datesInternal.editor.FormatTokenSettings_Editor" />
     <unitInfo nodeId="1169491699235" fileName="FormatTokenSettings_Editor.java" startLine="342" startPosition="0" endLine="392" endPosition="0" unitName="jetbrains.mps.baseLanguage.datesInternal.editor.FormatTokenSettings_Editor$dateTimePropertyCardinalityListHandler_o189cj_b4c0" />
     <unitInfo nodeId="1169491699235" fileName="FormatTokenSettings_Editor.java" startLine="393" startPosition="0" endLine="443" endPosition="0" unitName="jetbrains.mps.baseLanguage.datesInternal.editor.FormatTokenSettings_Editor$dateTimePropertyFormatConfigurationListHandler_o189cj_g2a" />
-    <unitInfo nodeId="1169491699235" fileName="FormatTokenSettings_Editor.java" startLine="25" startPosition="0" endLine="444" endPosition="0" unitName="jetbrains.mps.baseLanguage.datesInternal.editor.FormatTokenSettings_Editor" />
+    <unitInfo nodeId="1169491699235" fileName="FormatTokenSettings_Editor.java" startLine="240" startPosition="0" endLine="290" endPosition="0" unitName="jetbrains.mps.baseLanguage.datesInternal.editor.FormatTokenSettings_Editor$predefinedDateFormatListHandler_o189cj_a2a" />
+    <unitInfo nodeId="1169491699235" fileName="FormatTokenSettings_Editor.java" startLine="291" startPosition="0" endLine="341" endPosition="0" unitName="jetbrains.mps.baseLanguage.datesInternal.editor.FormatTokenSettings_Editor$predefinedPeriodFormatListHandler_o189cj_c2a" />
   </root>
   <root nodeId="1172074416401">
     <nodeInfo nodeId="1172074416401" fileName="DateTimePropertySettings_Editor.java" startLine="27" startPosition="79" endLine="28" endPosition="63" conceptFqName="jetbrains.mps.baseLanguage.structure.ReturnStatement" />
@@ -1297,13 +1297,13 @@
     <scopeInfo nodeId="1172074416401" fileName="DateTimePropertySettings_Editor.java" startLine="117" startPosition="0" endLine="131" endPosition="0" />
     <scopeInfo nodeId="1172074416401" fileName="DateTimePropertySettings_Editor.java" startLine="41" startPosition="90" endLine="61" endPosition="22" />
     <scopeInfo nodeId="1172074416401" fileName="DateTimePropertySettings_Editor.java" startLine="40" startPosition="0" endLine="63" endPosition="0" />
-    <unitInfo nodeId="1172074416401" fileName="DateTimePropertySettings_Editor.java" startLine="458" startPosition="0" endLine="493" endPosition="0" unitName="jetbrains.mps.baseLanguage.datesInternal.editor.DateTimePropertySettings_Editor$zoneListHandler_t7l4bw_b3c0" />
-    <unitInfo nodeId="1172074416401" fileName="DateTimePropertySettings_Editor.java" startLine="407" startPosition="0" endLine="457" endPosition="0" unitName="jetbrains.mps.baseLanguage.datesInternal.editor.DateTimePropertySettings_Editor$localeListHandler_t7l4bw_b1c0" />
+    <unitInfo nodeId="1172074416401" fileName="DateTimePropertySettings_Editor.java" startLine="26" startPosition="0" endLine="698" endPosition="0" unitName="jetbrains.mps.baseLanguage.datesInternal.editor.DateTimePropertySettings_Editor" />
     <unitInfo nodeId="1172074416401" fileName="DateTimePropertySettings_Editor.java" startLine="494" startPosition="0" endLine="544" endPosition="0" unitName="jetbrains.mps.baseLanguage.datesInternal.editor.DateTimePropertySettings_Editor$dateTimePropertyListHandler_t7l4bw_b5c0" />
     <unitInfo nodeId="1172074416401" fileName="DateTimePropertySettings_Editor.java" startLine="545" startPosition="0" endLine="595" endPosition="0" unitName="jetbrains.mps.baseLanguage.datesInternal.editor.DateTimePropertySettings_Editor$durationTypeListHandler_t7l4bw_b6c0" />
-    <unitInfo nodeId="1172074416401" fileName="DateTimePropertySettings_Editor.java" startLine="596" startPosition="0" endLine="646" endPosition="0" unitName="jetbrains.mps.baseLanguage.datesInternal.editor.DateTimePropertySettings_Editor$schedulePeriodListHandler_t7l4bw_b1i2a" />
+    <unitInfo nodeId="1172074416401" fileName="DateTimePropertySettings_Editor.java" startLine="407" startPosition="0" endLine="457" endPosition="0" unitName="jetbrains.mps.baseLanguage.datesInternal.editor.DateTimePropertySettings_Editor$localeListHandler_t7l4bw_b1c0" />
     <unitInfo nodeId="1172074416401" fileName="DateTimePropertySettings_Editor.java" startLine="647" startPosition="0" endLine="697" endPosition="0" unitName="jetbrains.mps.baseLanguage.datesInternal.editor.DateTimePropertySettings_Editor$monthListHandler_t7l4bw_b01c0" />
-    <unitInfo nodeId="1172074416401" fileName="DateTimePropertySettings_Editor.java" startLine="26" startPosition="0" endLine="698" endPosition="0" unitName="jetbrains.mps.baseLanguage.datesInternal.editor.DateTimePropertySettings_Editor" />
+    <unitInfo nodeId="1172074416401" fileName="DateTimePropertySettings_Editor.java" startLine="596" startPosition="0" endLine="646" endPosition="0" unitName="jetbrains.mps.baseLanguage.datesInternal.editor.DateTimePropertySettings_Editor$schedulePeriodListHandler_t7l4bw_b1i2a" />
+    <unitInfo nodeId="1172074416401" fileName="DateTimePropertySettings_Editor.java" startLine="458" startPosition="0" endLine="493" endPosition="0" unitName="jetbrains.mps.baseLanguage.datesInternal.editor.DateTimePropertySettings_Editor$zoneListHandler_t7l4bw_b3c0" />
   </root>
   <root nodeId="1172074489979">
     <nodeInfo nodeId="1172074489979" fileName="DateTimeProperty_Editor.java" startLine="24" startPosition="79" endLine="25" endPosition="63" conceptFqName="jetbrains.mps.baseLanguage.structure.ReturnStatement" />
@@ -1852,11 +1852,11 @@
     <scopeInfo nodeId="1172074489979" fileName="DateTimeProperty_Editor.java" startLine="306" startPosition="0" endLine="329" endPosition="0" />
     <scopeInfo nodeId="1172074489979" fileName="DateTimeProperty_Editor.java" startLine="39" startPosition="90" endLine="65" endPosition="22" />
     <scopeInfo nodeId="1172074489979" fileName="DateTimeProperty_Editor.java" startLine="38" startPosition="0" endLine="67" endPosition="0" />
+    <unitInfo nodeId="1172074489979" fileName="DateTimeProperty_Editor.java" startLine="23" startPosition="0" endLine="466" endPosition="0" unitName="jetbrains.mps.baseLanguage.datesInternal.editor.DateTimeProperty_Editor" />
+    <unitInfo nodeId="1172074489979" fileName="DateTimeProperty_Editor.java" startLine="432" startPosition="0" endLine="465" endPosition="0" unitName="jetbrains.mps.baseLanguage.datesInternal.editor.DateTimeProperty_Editor$_Inline_kwu3ge_a11c0" />
     <unitInfo nodeId="1172074489979" fileName="DateTimeProperty_Editor.java" startLine="330" startPosition="0" endLine="363" endPosition="0" unitName="jetbrains.mps.baseLanguage.datesInternal.editor.DateTimeProperty_Editor$_Inline_kwu3ge_a2c0" />
     <unitInfo nodeId="1172074489979" fileName="DateTimeProperty_Editor.java" startLine="364" startPosition="0" endLine="397" endPosition="0" unitName="jetbrains.mps.baseLanguage.datesInternal.editor.DateTimeProperty_Editor$_Inline_kwu3ge_a5c0" />
     <unitInfo nodeId="1172074489979" fileName="DateTimeProperty_Editor.java" startLine="398" startPosition="0" endLine="431" endPosition="0" unitName="jetbrains.mps.baseLanguage.datesInternal.editor.DateTimeProperty_Editor$_Inline_kwu3ge_a8c0" />
-    <unitInfo nodeId="1172074489979" fileName="DateTimeProperty_Editor.java" startLine="432" startPosition="0" endLine="465" endPosition="0" unitName="jetbrains.mps.baseLanguage.datesInternal.editor.DateTimeProperty_Editor$_Inline_kwu3ge_a11c0" />
-    <unitInfo nodeId="1172074489979" fileName="DateTimeProperty_Editor.java" startLine="23" startPosition="0" endLine="466" endPosition="0" unitName="jetbrains.mps.baseLanguage.datesInternal.editor.DateTimeProperty_Editor" />
   </root>
   <root nodeId="1172680832439">
     <nodeInfo nodeId="1172680832439" fileName="Locale_Editor.java" startLine="53" startPosition="58" endLine="53" endPosition="58" conceptFqName="jetbrains.mps.baseLanguage.structure.BlockStatement" />
@@ -2315,8 +2315,8 @@
     <scopeInfo nodeId="1173953986050" fileName="DateTimePropertyFormatType_Editor.java" startLine="153" startPosition="88" endLine="172" endPosition="22" />
     <scopeInfo nodeId="1173953986050" fileName="DateTimePropertyFormatType_Editor.java" startLine="187" startPosition="0" endLine="206" endPosition="0" />
     <scopeInfo nodeId="1173953986050" fileName="DateTimePropertyFormatType_Editor.java" startLine="152" startPosition="0" endLine="174" endPosition="0" />
-    <unitInfo nodeId="1173953986050" fileName="DateTimePropertyFormatType_Editor.java" startLine="175" startPosition="0" endLine="207" endPosition="0" unitName="jetbrains.mps.baseLanguage.datesInternal.editor.DateTimePropertyFormatType_Editor$_Inline_6yifed_a2a" />
     <unitInfo nodeId="1173953986050" fileName="DateTimePropertyFormatType_Editor.java" startLine="22" startPosition="0" endLine="208" endPosition="0" unitName="jetbrains.mps.baseLanguage.datesInternal.editor.DateTimePropertyFormatType_Editor" />
+    <unitInfo nodeId="1173953986050" fileName="DateTimePropertyFormatType_Editor.java" startLine="175" startPosition="0" endLine="207" endPosition="0" unitName="jetbrains.mps.baseLanguage.datesInternal.editor.DateTimePropertyFormatType_Editor$_Inline_6yifed_a2a" />
   </root>
   <root nodeId="1173954197163">
     <nodeInfo nodeId="1173954197163" fileName="DateTimeIntPropertyFormatConfiguration_Editor.java" startLine="117" startPosition="58" endLine="117" endPosition="58" conceptFqName="jetbrains.mps.baseLanguage.structure.BlockStatement" />
@@ -2519,9 +2519,9 @@
     <scopeInfo nodeId="1173954197163" fileName="DateTimeIntPropertyFormatConfiguration_Editor.java" startLine="142" startPosition="92" endLine="159" endPosition="24" />
     <scopeInfo nodeId="1173954197163" fileName="DateTimeIntPropertyFormatConfiguration_Editor.java" startLine="110" startPosition="0" endLine="128" endPosition="0" />
     <scopeInfo nodeId="1173954197163" fileName="DateTimeIntPropertyFormatConfiguration_Editor.java" startLine="141" startPosition="0" endLine="161" endPosition="0" />
+    <unitInfo nodeId="1173954197163" fileName="DateTimeIntPropertyFormatConfiguration_Editor.java" startLine="30" startPosition="0" endLine="199" endPosition="0" unitName="jetbrains.mps.baseLanguage.datesInternal.editor.DateTimeIntPropertyFormatConfiguration_Editor" />
     <unitInfo nodeId="1173954197163" fileName="DateTimeIntPropertyFormatConfiguration_Editor.java" startLine="129" startPosition="0" endLine="162" endPosition="0" unitName="jetbrains.mps.baseLanguage.datesInternal.editor.DateTimeIntPropertyFormatConfiguration_Editor$_Inline_e2al3f_a2a" />
     <unitInfo nodeId="1173954197163" fileName="DateTimeIntPropertyFormatConfiguration_Editor.java" startLine="163" startPosition="0" endLine="198" endPosition="0" unitName="jetbrains.mps.baseLanguage.datesInternal.editor.DateTimeIntPropertyFormatConfiguration_Editor$dateTimePropertyFormatTypeListHandler_e2al3f_e0" />
-    <unitInfo nodeId="1173954197163" fileName="DateTimeIntPropertyFormatConfiguration_Editor.java" startLine="30" startPosition="0" endLine="199" endPosition="0" unitName="jetbrains.mps.baseLanguage.datesInternal.editor.DateTimeIntPropertyFormatConfiguration_Editor" />
   </root>
   <root nodeId="1174043275561">
     <nodeInfo nodeId="1174043275561" fileName="DateTimeZonePropertyFormatConfiguration_Editor.java" startLine="25" startPosition="79" endLine="26" endPosition="63" conceptFqName="jetbrains.mps.baseLanguage.structure.ReturnStatement" />
@@ -2638,8 +2638,8 @@
     <scopeInfo nodeId="1174043275561" fileName="DateTimeZonePropertyFormatConfiguration_Editor.java" startLine="46" startPosition="0" endLine="59" endPosition="0" />
     <scopeInfo nodeId="1174043275561" fileName="DateTimeZonePropertyFormatConfiguration_Editor.java" startLine="59" startPosition="0" endLine="72" endPosition="0" />
     <scopeInfo nodeId="1174043275561" fileName="DateTimeZonePropertyFormatConfiguration_Editor.java" startLine="72" startPosition="0" endLine="86" endPosition="0" />
-    <unitInfo nodeId="1174043275561" fileName="DateTimeZonePropertyFormatConfiguration_Editor.java" startLine="87" startPosition="0" endLine="122" endPosition="0" unitName="jetbrains.mps.baseLanguage.datesInternal.editor.DateTimeZonePropertyFormatConfiguration_Editor$dateTimePropertyFormatTypeListHandler_1lsafo_c0" />
     <unitInfo nodeId="1174043275561" fileName="DateTimeZonePropertyFormatConfiguration_Editor.java" startLine="24" startPosition="0" endLine="123" endPosition="0" unitName="jetbrains.mps.baseLanguage.datesInternal.editor.DateTimeZonePropertyFormatConfiguration_Editor" />
+    <unitInfo nodeId="1174043275561" fileName="DateTimeZonePropertyFormatConfiguration_Editor.java" startLine="87" startPosition="0" endLine="122" endPosition="0" unitName="jetbrains.mps.baseLanguage.datesInternal.editor.DateTimeZonePropertyFormatConfiguration_Editor$dateTimePropertyFormatTypeListHandler_1lsafo_c0" />
   </root>
   <root nodeId="1174320768369">
     <nodeInfo nodeId="1174320768369" fileName="DurationType_Editor.java" startLine="43" startPosition="58" endLine="43" endPosition="58" conceptFqName="jetbrains.mps.baseLanguage.structure.BlockStatement" />
@@ -3278,13 +3278,13 @@
     <scopeInfo nodeId="1238668494582" fileName="DateTimeZone_Editor.java" startLine="53" startPosition="0" endLine="61" endPosition="0" />
     <scopeInfo nodeId="1238668494582" fileName="DateTimeZone_Editor.java" startLine="61" startPosition="0" endLine="69" endPosition="0" />
     <scopeInfo nodeId="1239366299166" fileName="DateTimeZone_Editor.java" startLine="149" startPosition="57" endLine="157" endPosition="9">
-      <varInfo nodeId="1239366299168" varName="str" />
       <varInfo nodeId="1239366299174" varName="continent" />
+      <varInfo nodeId="1239366299168" varName="str" />
     </scopeInfo>
     <scopeInfo nodeId="1238668494582" fileName="DateTimeZone_Editor.java" startLine="70" startPosition="88" endLine="79" endPosition="22" />
     <scopeInfo nodeId="1239366343764" fileName="DateTimeZone_Editor.java" startLine="169" startPosition="57" endLine="178" endPosition="9">
-      <varInfo nodeId="1239366343766" varName="str" />
       <varInfo nodeId="1239366343772" varName="continent" />
+      <varInfo nodeId="1239366343766" varName="str" />
     </scopeInfo>
     <scopeInfo nodeId="1238668494582" fileName="DateTimeZone_Editor.java" startLine="33" startPosition="89" endLine="43" endPosition="22" />
     <scopeInfo nodeId="1239366299165" fileName="DateTimeZone_Editor.java" startLine="148" startPosition="75" endLine="158" endPosition="7">
@@ -3309,9 +3309,9 @@
     <scopeInfo nodeId="1238668494582" fileName="DateTimeZone_Editor.java" startLine="100" startPosition="0" endLine="119" endPosition="0" />
     <scopeInfo nodeId="1238668494582" fileName="DateTimeZone_Editor.java" startLine="120" startPosition="88" endLine="140" endPosition="22" />
     <scopeInfo nodeId="1238668494582" fileName="DateTimeZone_Editor.java" startLine="119" startPosition="0" endLine="142" endPosition="0" />
+    <unitInfo nodeId="1238668494582" fileName="DateTimeZone_Editor.java" startLine="28" startPosition="0" endLine="184" endPosition="0" unitName="jetbrains.mps.baseLanguage.datesInternal.editor.DateTimeZone_Editor" />
     <unitInfo nodeId="1238668494582" fileName="DateTimeZone_Editor.java" startLine="143" startPosition="0" endLine="162" endPosition="0" unitName="jetbrains.mps.baseLanguage.datesInternal.editor.DateTimeZone_Editor$DateTimeZone_continentOfCountry_cellMenu_a0e0" />
     <unitInfo nodeId="1238668494582" fileName="DateTimeZone_Editor.java" startLine="163" startPosition="0" endLine="183" endPosition="0" unitName="jetbrains.mps.baseLanguage.datesInternal.editor.DateTimeZone_Editor$DateTimeZone_country_cellMenu_a0g0" />
-    <unitInfo nodeId="1238668494582" fileName="DateTimeZone_Editor.java" startLine="28" startPosition="0" endLine="184" endPosition="0" unitName="jetbrains.mps.baseLanguage.datesInternal.editor.DateTimeZone_Editor" />
   </root>
   <root nodeId="1238677627618">
     <nodeInfo nodeId="1238677627618" fileName="DatesInternal_StyleSheet.java" startLine="11" startPosition="60" endLine="12" endPosition="34" conceptFqName="jetbrains.mps.baseLanguage.structure.LocalVariableDeclarationStatement" />

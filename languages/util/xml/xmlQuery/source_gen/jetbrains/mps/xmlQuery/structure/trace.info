@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <debugInfo>
-  <unitInfo fileName="XmlQuery_Language.java" startLine="9" startPosition="0" endLine="16" endPosition="0" unitName="jetbrains.mps.xmlQuery.structure.XmlQuery_Language" />
   <unitInfo fileName="StructureAspectDescriptor.java" startLine="10" startPosition="0" endLine="85" endPosition="0" unitName="jetbrains.mps.xmlQuery.structure.StructureAspectDescriptor" />
+  <unitInfo fileName="XmlQuery_Language.java" startLine="9" startPosition="0" endLine="16" endPosition="0" unitName="jetbrains.mps.xmlQuery.structure.XmlQuery_Language" />
   <root nodeId="10026583185341422">
     <nodeInfo nodeId="10026583185341422" fileName="TextBuilder.java" startLine="12" startPosition="42" endLine="13" endPosition="86" conceptFqName="jetbrains.mps.baseLanguage.structure.StaticFieldDeclaration" propertyString="concept" />
     <nodeInfo nodeId="10026583185341422" fileName="TextBuilder.java" startLine="13" startPosition="86" endLine="14" endPosition="45" conceptFqName="jetbrains.mps.baseLanguage.structure.StaticFieldDeclaration" propertyString="VALUE" />

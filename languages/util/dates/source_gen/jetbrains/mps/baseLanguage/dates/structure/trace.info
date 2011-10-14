@@ -740,8 +740,8 @@
     <scopeInfo nodeId="1172075151844" fileName="CompareType_PropertySupport.java" startLine="23" startPosition="0" endLine="37" endPosition="0" />
     <scopeInfo nodeId="1172075151844" fileName="CompareType.java" startLine="52" startPosition="54" endLine="74" endPosition="36" />
     <scopeInfo nodeId="1172075151844" fileName="CompareType.java" startLine="51" startPosition="0" endLine="76" endPosition="0" />
-    <unitInfo nodeId="1172075151844" fileName="CompareType_PropertySupport.java" startLine="9" startPosition="0" endLine="46" endPosition="0" unitName="jetbrains.mps.baseLanguage.dates.structure.CompareType_PropertySupport" />
     <unitInfo nodeId="1172075151844" fileName="CompareType.java" startLine="9" startPosition="0" endLine="77" endPosition="0" unitName="jetbrains.mps.baseLanguage.dates.structure.CompareType" />
+    <unitInfo nodeId="1172075151844" fileName="CompareType_PropertySupport.java" startLine="9" startPosition="0" endLine="46" endPosition="0" unitName="jetbrains.mps.baseLanguage.dates.structure.CompareType_PropertySupport" />
   </root>
   <root nodeId="1172324086632">
     <nodeInfo nodeId="1172324086632" fileName="RoundDateTimeOperation.java" startLine="11" startPosition="68" endLine="12" endPosition="107" conceptFqName="jetbrains.mps.baseLanguage.structure.StaticFieldDeclaration" propertyString="concept" />
@@ -1032,8 +1032,8 @@
     <scopeInfo nodeId="1173975646059" fileName="DateFormatVisibility.java" startLine="43" startPosition="0" endLine="56" endPosition="0" />
     <scopeInfo nodeId="1173975646059" fileName="DateFormatVisibility_PropertySupport.java" startLine="9" startPosition="75" endLine="23" endPosition="0" />
     <scopeInfo nodeId="1173975646059" fileName="DateFormatVisibility_PropertySupport.java" startLine="23" startPosition="0" endLine="37" endPosition="0" />
-    <unitInfo nodeId="1173975646059" fileName="DateFormatVisibility_PropertySupport.java" startLine="9" startPosition="0" endLine="46" endPosition="0" unitName="jetbrains.mps.baseLanguage.dates.structure.DateFormatVisibility_PropertySupport" />
     <unitInfo nodeId="1173975646059" fileName="DateFormatVisibility.java" startLine="9" startPosition="0" endLine="57" endPosition="0" unitName="jetbrains.mps.baseLanguage.dates.structure.DateFormatVisibility" />
+    <unitInfo nodeId="1173975646059" fileName="DateFormatVisibility_PropertySupport.java" startLine="9" startPosition="0" endLine="46" endPosition="0" unitName="jetbrains.mps.baseLanguage.dates.structure.DateFormatVisibility_PropertySupport" />
   </root>
   <root nodeId="1174039789930">
     <nodeInfo nodeId="1174039789930" fileName="InlineFormatExpression.java" startLine="14" startPosition="68" endLine="15" endPosition="107" conceptFqName="jetbrains.mps.baseLanguage.structure.StaticFieldDeclaration" propertyString="concept" />
@@ -1437,8 +1437,8 @@
     <scopeInfo nodeId="1194005227362" fileName="DayOfWeek_PropertySupport.java" startLine="23" startPosition="0" endLine="37" endPosition="0" />
     <scopeInfo nodeId="1194005227362" fileName="DayOfWeek.java" startLine="54" startPosition="52" endLine="79" endPosition="34" />
     <scopeInfo nodeId="1194005227362" fileName="DayOfWeek.java" startLine="53" startPosition="0" endLine="81" endPosition="0" />
-    <unitInfo nodeId="1194005227362" fileName="DayOfWeek_PropertySupport.java" startLine="9" startPosition="0" endLine="46" endPosition="0" unitName="jetbrains.mps.baseLanguage.dates.structure.DayOfWeek_PropertySupport" />
     <unitInfo nodeId="1194005227362" fileName="DayOfWeek.java" startLine="9" startPosition="0" endLine="82" endPosition="0" unitName="jetbrains.mps.baseLanguage.dates.structure.DayOfWeek" />
+    <unitInfo nodeId="1194005227362" fileName="DayOfWeek_PropertySupport.java" startLine="9" startPosition="0" endLine="46" endPosition="0" unitName="jetbrains.mps.baseLanguage.dates.structure.DayOfWeek_PropertySupport" />
   </root>
   <root nodeId="1194005562740">
     <nodeInfo nodeId="1194005562740" fileName="OneThirtyOneInteger_PropertySupport.java" startLine="8" startPosition="44" endLine="9" endPosition="28" conceptFqName="jetbrains.mps.baseLanguage.structure.LocalVariableDeclarationStatement" />
@@ -2162,8 +2162,8 @@
     <scopeInfo nodeId="1778677549314158595" fileName="PeriodZeroHandlingKind_PropertySupport.java" startLine="23" startPosition="0" endLine="37" endPosition="0" />
     <scopeInfo nodeId="1778677549314158595" fileName="PeriodZeroHandlingKind.java" startLine="50" startPosition="65" endLine="69" endPosition="47" />
     <scopeInfo nodeId="1778677549314158595" fileName="PeriodZeroHandlingKind.java" startLine="49" startPosition="0" endLine="71" endPosition="0" />
-    <unitInfo nodeId="1778677549314158595" fileName="PeriodZeroHandlingKind_PropertySupport.java" startLine="9" startPosition="0" endLine="46" endPosition="0" unitName="jetbrains.mps.baseLanguage.dates.structure.PeriodZeroHandlingKind_PropertySupport" />
     <unitInfo nodeId="1778677549314158595" fileName="PeriodZeroHandlingKind.java" startLine="9" startPosition="0" endLine="72" endPosition="0" unitName="jetbrains.mps.baseLanguage.dates.structure.PeriodZeroHandlingKind" />
+    <unitInfo nodeId="1778677549314158595" fileName="PeriodZeroHandlingKind_PropertySupport.java" startLine="9" startPosition="0" endLine="46" endPosition="0" unitName="jetbrains.mps.baseLanguage.dates.structure.PeriodZeroHandlingKind_PropertySupport" />
   </root>
   <root nodeId="1892577441204578414">
     <nodeInfo nodeId="1892577441204578414" fileName="ParseExpression.java" startLine="13" startPosition="49" endLine="14" endPosition="100" conceptFqName="jetbrains.mps.baseLanguage.structure.StaticFieldDeclaration" propertyString="concept" />
@@ -3366,8 +3366,8 @@
     <scopeInfo nodeId="5581663871702358901" fileName="PeriodSeparatorKind_PropertySupport.java" startLine="9" startPosition="74" endLine="23" endPosition="0" />
     <scopeInfo nodeId="5581663871702358901" fileName="PeriodSeparatorKind_PropertySupport.java" startLine="23" startPosition="0" endLine="37" endPosition="0" />
     <scopeInfo nodeId="5581663871702358901" fileName="PeriodSeparatorKind.java" startLine="45" startPosition="0" endLine="61" endPosition="0" />
-    <unitInfo nodeId="5581663871702358901" fileName="PeriodSeparatorKind_PropertySupport.java" startLine="9" startPosition="0" endLine="46" endPosition="0" unitName="jetbrains.mps.baseLanguage.dates.structure.PeriodSeparatorKind_PropertySupport" />
     <unitInfo nodeId="5581663871702358901" fileName="PeriodSeparatorKind.java" startLine="9" startPosition="0" endLine="62" endPosition="0" unitName="jetbrains.mps.baseLanguage.dates.structure.PeriodSeparatorKind" />
+    <unitInfo nodeId="5581663871702358901" fileName="PeriodSeparatorKind_PropertySupport.java" startLine="9" startPosition="0" endLine="46" endPosition="0" unitName="jetbrains.mps.baseLanguage.dates.structure.PeriodSeparatorKind_PropertySupport" />
   </root>
   <root nodeId="7249953535157196261">
     <nodeInfo nodeId="7249953535157196261" fileName="PeriodPropertyFormatToken.java" startLine="11" startPosition="66" endLine="12" endPosition="110" conceptFqName="jetbrains.mps.baseLanguage.structure.StaticFieldDeclaration" propertyString="concept" />

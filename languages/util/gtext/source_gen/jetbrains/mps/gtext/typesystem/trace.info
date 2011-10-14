@@ -61,8 +61,8 @@
     <scopeInfo nodeId="1181754943395" fileName="typeof_BuilderContextRef_InferenceRule.java" startLine="63" startPosition="31" endLine="73" endPosition="20" />
     <scopeInfo nodeId="1181754943395" fileName="typeof_BuilderContextRef_InferenceRule.java" startLine="49" startPosition="0" endLine="62" endPosition="0" />
     <scopeInfo nodeId="1181754943395" fileName="typeof_BuilderContextRef_InferenceRule.java" startLine="62" startPosition="0" endLine="75" endPosition="0" />
-    <unitInfo nodeId="1181754943395" fileName="typeof_BuilderContextRef_InferenceRule.java" startLine="46" startPosition="0" endLine="76" endPosition="0" unitName="jetbrains.mps.gtext.typesystem.typeof_BuilderContextRef_InferenceRule$QuotationClass_m3afeb_a0a0a0" />
     <unitInfo nodeId="1181754943395" fileName="typeof_BuilderContextRef_InferenceRule.java" startLine="19" startPosition="0" endLine="77" endPosition="0" unitName="jetbrains.mps.gtext.typesystem.typeof_BuilderContextRef_InferenceRule" />
+    <unitInfo nodeId="1181754943395" fileName="typeof_BuilderContextRef_InferenceRule.java" startLine="46" startPosition="0" endLine="76" endPosition="0" unitName="jetbrains.mps.gtext.typesystem.typeof_BuilderContextRef_InferenceRule$QuotationClass_m3afeb_a0a0a0" />
   </root>
 </debugInfo>
 

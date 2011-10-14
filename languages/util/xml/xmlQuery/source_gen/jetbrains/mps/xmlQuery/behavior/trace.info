@@ -1,37 +1,37 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <debugInfo>
-  <unitInfo fileName="XMLSAXNodeValidator_BehaviorDescriptor.java" startLine="6" startPosition="0" endLine="15" endPosition="0" unitName="jetbrains.mps.xmlQuery.behavior.XMLSAXNodeValidator_BehaviorDescriptor" />
-  <unitInfo fileName="XMLSAXChildHandler_BehaviorDescriptor.java" startLine="6" startPosition="0" endLine="15" endPosition="0" unitName="jetbrains.mps.xmlQuery.behavior.XMLSAXChildHandler_BehaviorDescriptor" />
-  <unitInfo fileName="XMLSAXTextHandler_BehaviorDescriptor.java" startLine="6" startPosition="0" endLine="15" endPosition="0" unitName="jetbrains.mps.xmlQuery.behavior.XMLSAXTextHandler_BehaviorDescriptor" />
-  <unitInfo fileName="XMLSAXAttributeHandler_BehaviorDescriptor.java" startLine="6" startPosition="0" endLine="15" endPosition="0" unitName="jetbrains.mps.xmlQuery.behavior.XMLSAXAttributeHandler_BehaviorDescriptor" />
-  <unitInfo fileName="AccessTextOperation_BehaviorDescriptor.java" startLine="6" startPosition="0" endLine="15" endPosition="0" unitName="jetbrains.mps.xmlQuery.behavior.AccessTextOperation_BehaviorDescriptor" />
   <unitInfo fileName="AccessArbitraryAttributeOperation_BehaviorDescriptor.java" startLine="6" startPosition="0" endLine="15" endPosition="0" unitName="jetbrains.mps.xmlQuery.behavior.AccessArbitraryAttributeOperation_BehaviorDescriptor" />
   <unitInfo fileName="AccessArbitraryChildrenOperation_BehaviorDescriptor.java" startLine="6" startPosition="0" endLine="15" endPosition="0" unitName="jetbrains.mps.xmlQuery.behavior.AccessArbitraryChildrenOperation_BehaviorDescriptor" />
   <unitInfo fileName="AccessAttributeOperation_BehaviorDescriptor.java" startLine="6" startPosition="0" endLine="15" endPosition="0" unitName="jetbrains.mps.xmlQuery.behavior.AccessAttributeOperation_BehaviorDescriptor" />
   <unitInfo fileName="AccessChildrenOperation_BehaviorDescriptor.java" startLine="6" startPosition="0" endLine="15" endPosition="0" unitName="jetbrains.mps.xmlQuery.behavior.AccessChildrenOperation_BehaviorDescriptor" />
-  <unitInfo fileName="XMLSAXBreakStatement_BehaviorDescriptor.java" startLine="7" startPosition="0" endLine="16" endPosition="0" unitName="jetbrains.mps.xmlQuery.behavior.XMLSAXBreakStatement_BehaviorDescriptor" />
-  <unitInfo fileName="XMLSAXLocatorExpression_BehaviorDescriptor.java" startLine="7" startPosition="0" endLine="16" endPosition="0" unitName="jetbrains.mps.xmlQuery.behavior.XMLSAXLocatorExpression_BehaviorDescriptor" />
-  <unitInfo fileName="XMLSAXFieldReference_BehaviorDescriptor.java" startLine="7" startPosition="0" endLine="16" endPosition="0" unitName="jetbrains.mps.xmlQuery.behavior.XMLSAXFieldReference_BehaviorDescriptor" />
-  <unitInfo fileName="XMLSAXAttributeReference_BehaviorDescriptor.java" startLine="7" startPosition="0" endLine="16" endPosition="0" unitName="jetbrains.mps.xmlQuery.behavior.XMLSAXAttributeReference_BehaviorDescriptor" />
-  <unitInfo fileName="XMLSAXChildHandler_childObject_BehaviorDescriptor.java" startLine="7" startPosition="0" endLine="16" endPosition="0" unitName="jetbrains.mps.xmlQuery.behavior.XMLSAXChildHandler_childObject_BehaviorDescriptor" />
-  <unitInfo fileName="XMLSAXChildRule_BehaviorDescriptor.java" startLine="7" startPosition="0" endLine="16" endPosition="0" unitName="jetbrains.mps.xmlQuery.behavior.XMLSAXChildRule_BehaviorDescriptor" />
-  <unitInfo fileName="XMLSAXHandler_resultObject_BehaviorDescriptor.java" startLine="7" startPosition="0" endLine="16" endPosition="0" unitName="jetbrains.mps.xmlQuery.behavior.XMLSAXHandler_resultObject_BehaviorDescriptor" />
-  <unitInfo fileName="XMLSAXHandlerFunction_BehaviorDescriptor.java" startLine="7" startPosition="0" endLine="16" endPosition="0" unitName="jetbrains.mps.xmlQuery.behavior.XMLSAXHandlerFunction_BehaviorDescriptor" />
-  <unitInfo fileName="XMLSAXTextHandler_value_BehaviorDescriptor.java" startLine="7" startPosition="0" endLine="16" endPosition="0" unitName="jetbrains.mps.xmlQuery.behavior.XMLSAXTextHandler_value_BehaviorDescriptor" />
-  <unitInfo fileName="XMLSAXTextRule_BehaviorDescriptor.java" startLine="7" startPosition="0" endLine="16" endPosition="0" unitName="jetbrains.mps.xmlQuery.behavior.XMLSAXTextRule_BehaviorDescriptor" />
-  <unitInfo fileName="XMLSAXAttributeHandler_value_BehaviorDescriptor.java" startLine="7" startPosition="0" endLine="16" endPosition="0" unitName="jetbrains.mps.xmlQuery.behavior.XMLSAXAttributeHandler_value_BehaviorDescriptor" />
-  <unitInfo fileName="XMLElementCreator_BehaviorDescriptor.java" startLine="7" startPosition="0" endLine="16" endPosition="0" unitName="jetbrains.mps.xmlQuery.behavior.XMLElementCreator_BehaviorDescriptor" />
-  <unitInfo fileName="XMLSAXNodeCreator_BehaviorDescriptor.java" startLine="8" startPosition="0" endLine="21" endPosition="0" unitName="jetbrains.mps.xmlQuery.behavior.XMLSAXNodeCreator_BehaviorDescriptor" />
-  <unitInfo fileName="XMLElementType_BehaviorDescriptor.java" startLine="8" startPosition="0" endLine="21" endPosition="0" unitName="jetbrains.mps.xmlQuery.behavior.XMLElementType_BehaviorDescriptor" />
-  <unitInfo fileName="XMLSAXFieldDeclaration_BehaviorDescriptor.java" startLine="10" startPosition="0" endLine="23" endPosition="0" unitName="jetbrains.mps.xmlQuery.behavior.XMLSAXFieldDeclaration_BehaviorDescriptor" />
-  <unitInfo fileName="XMLSAXAttributeRule_BehaviorDescriptor.java" startLine="10" startPosition="0" endLine="23" endPosition="0" unitName="jetbrains.mps.xmlQuery.behavior.XMLSAXAttributeRule_BehaviorDescriptor" />
-  <unitInfo fileName="XMLSAXNodeRule_BehaviorDescriptor.java" startLine="10" startPosition="0" endLine="23" endPosition="0" unitName="jetbrains.mps.xmlQuery.behavior.XMLSAXNodeRule_BehaviorDescriptor" />
-  <unitInfo fileName="XMLSAXParser_BehaviorDescriptor.java" startLine="10" startPosition="0" endLine="23" endPosition="0" unitName="jetbrains.mps.xmlQuery.behavior.XMLSAXParser_BehaviorDescriptor" />
+  <unitInfo fileName="AccessTextOperation_BehaviorDescriptor.java" startLine="6" startPosition="0" endLine="15" endPosition="0" unitName="jetbrains.mps.xmlQuery.behavior.AccessTextOperation_BehaviorDescriptor" />
+  <unitInfo fileName="AttributeBuilder_BehaviorDescriptor.java" startLine="8" startPosition="0" endLine="29" endPosition="0" unitName="jetbrains.mps.xmlQuery.behavior.AttributeBuilder_BehaviorDescriptor" />
+  <unitInfo fileName="BehaviorAspectDescriptor.java" startLine="9" startPosition="0" endLine="80" endPosition="0" unitName="jetbrains.mps.xmlQuery.behavior.BehaviorAspectDescriptor" />
   <unitInfo fileName="ElementBuilder_BehaviorDescriptor.java" startLine="8" startPosition="0" endLine="29" endPosition="0" unitName="jetbrains.mps.xmlQuery.behavior.ElementBuilder_BehaviorDescriptor" />
   <unitInfo fileName="TextBuilder_BehaviorDescriptor.java" startLine="8" startPosition="0" endLine="29" endPosition="0" unitName="jetbrains.mps.xmlQuery.behavior.TextBuilder_BehaviorDescriptor" />
-  <unitInfo fileName="AttributeBuilder_BehaviorDescriptor.java" startLine="8" startPosition="0" endLine="29" endPosition="0" unitName="jetbrains.mps.xmlQuery.behavior.AttributeBuilder_BehaviorDescriptor" />
+  <unitInfo fileName="XMLElementCreator_BehaviorDescriptor.java" startLine="7" startPosition="0" endLine="16" endPosition="0" unitName="jetbrains.mps.xmlQuery.behavior.XMLElementCreator_BehaviorDescriptor" />
   <unitInfo fileName="XMLElementOperation_BehaviorDescriptor.java" startLine="10" startPosition="0" endLine="35" endPosition="0" unitName="jetbrains.mps.xmlQuery.behavior.XMLElementOperation_BehaviorDescriptor" />
-  <unitInfo fileName="BehaviorAspectDescriptor.java" startLine="9" startPosition="0" endLine="80" endPosition="0" unitName="jetbrains.mps.xmlQuery.behavior.BehaviorAspectDescriptor" />
+  <unitInfo fileName="XMLElementType_BehaviorDescriptor.java" startLine="8" startPosition="0" endLine="21" endPosition="0" unitName="jetbrains.mps.xmlQuery.behavior.XMLElementType_BehaviorDescriptor" />
+  <unitInfo fileName="XMLSAXAttributeHandler_BehaviorDescriptor.java" startLine="6" startPosition="0" endLine="15" endPosition="0" unitName="jetbrains.mps.xmlQuery.behavior.XMLSAXAttributeHandler_BehaviorDescriptor" />
+  <unitInfo fileName="XMLSAXAttributeHandler_value_BehaviorDescriptor.java" startLine="7" startPosition="0" endLine="16" endPosition="0" unitName="jetbrains.mps.xmlQuery.behavior.XMLSAXAttributeHandler_value_BehaviorDescriptor" />
+  <unitInfo fileName="XMLSAXAttributeReference_BehaviorDescriptor.java" startLine="7" startPosition="0" endLine="16" endPosition="0" unitName="jetbrains.mps.xmlQuery.behavior.XMLSAXAttributeReference_BehaviorDescriptor" />
+  <unitInfo fileName="XMLSAXAttributeRule_BehaviorDescriptor.java" startLine="10" startPosition="0" endLine="23" endPosition="0" unitName="jetbrains.mps.xmlQuery.behavior.XMLSAXAttributeRule_BehaviorDescriptor" />
+  <unitInfo fileName="XMLSAXBreakStatement_BehaviorDescriptor.java" startLine="7" startPosition="0" endLine="16" endPosition="0" unitName="jetbrains.mps.xmlQuery.behavior.XMLSAXBreakStatement_BehaviorDescriptor" />
+  <unitInfo fileName="XMLSAXChildHandler_BehaviorDescriptor.java" startLine="6" startPosition="0" endLine="15" endPosition="0" unitName="jetbrains.mps.xmlQuery.behavior.XMLSAXChildHandler_BehaviorDescriptor" />
+  <unitInfo fileName="XMLSAXChildHandler_childObject_BehaviorDescriptor.java" startLine="7" startPosition="0" endLine="16" endPosition="0" unitName="jetbrains.mps.xmlQuery.behavior.XMLSAXChildHandler_childObject_BehaviorDescriptor" />
+  <unitInfo fileName="XMLSAXChildRule_BehaviorDescriptor.java" startLine="7" startPosition="0" endLine="16" endPosition="0" unitName="jetbrains.mps.xmlQuery.behavior.XMLSAXChildRule_BehaviorDescriptor" />
+  <unitInfo fileName="XMLSAXFieldDeclaration_BehaviorDescriptor.java" startLine="10" startPosition="0" endLine="23" endPosition="0" unitName="jetbrains.mps.xmlQuery.behavior.XMLSAXFieldDeclaration_BehaviorDescriptor" />
+  <unitInfo fileName="XMLSAXFieldReference_BehaviorDescriptor.java" startLine="7" startPosition="0" endLine="16" endPosition="0" unitName="jetbrains.mps.xmlQuery.behavior.XMLSAXFieldReference_BehaviorDescriptor" />
+  <unitInfo fileName="XMLSAXHandlerFunction_BehaviorDescriptor.java" startLine="7" startPosition="0" endLine="16" endPosition="0" unitName="jetbrains.mps.xmlQuery.behavior.XMLSAXHandlerFunction_BehaviorDescriptor" />
+  <unitInfo fileName="XMLSAXHandler_resultObject_BehaviorDescriptor.java" startLine="7" startPosition="0" endLine="16" endPosition="0" unitName="jetbrains.mps.xmlQuery.behavior.XMLSAXHandler_resultObject_BehaviorDescriptor" />
+  <unitInfo fileName="XMLSAXLocatorExpression_BehaviorDescriptor.java" startLine="7" startPosition="0" endLine="16" endPosition="0" unitName="jetbrains.mps.xmlQuery.behavior.XMLSAXLocatorExpression_BehaviorDescriptor" />
+  <unitInfo fileName="XMLSAXNodeCreator_BehaviorDescriptor.java" startLine="8" startPosition="0" endLine="21" endPosition="0" unitName="jetbrains.mps.xmlQuery.behavior.XMLSAXNodeCreator_BehaviorDescriptor" />
+  <unitInfo fileName="XMLSAXNodeRule_BehaviorDescriptor.java" startLine="10" startPosition="0" endLine="23" endPosition="0" unitName="jetbrains.mps.xmlQuery.behavior.XMLSAXNodeRule_BehaviorDescriptor" />
+  <unitInfo fileName="XMLSAXNodeValidator_BehaviorDescriptor.java" startLine="6" startPosition="0" endLine="15" endPosition="0" unitName="jetbrains.mps.xmlQuery.behavior.XMLSAXNodeValidator_BehaviorDescriptor" />
+  <unitInfo fileName="XMLSAXParser_BehaviorDescriptor.java" startLine="10" startPosition="0" endLine="23" endPosition="0" unitName="jetbrains.mps.xmlQuery.behavior.XMLSAXParser_BehaviorDescriptor" />
+  <unitInfo fileName="XMLSAXTextHandler_BehaviorDescriptor.java" startLine="6" startPosition="0" endLine="15" endPosition="0" unitName="jetbrains.mps.xmlQuery.behavior.XMLSAXTextHandler_BehaviorDescriptor" />
+  <unitInfo fileName="XMLSAXTextHandler_value_BehaviorDescriptor.java" startLine="7" startPosition="0" endLine="16" endPosition="0" unitName="jetbrains.mps.xmlQuery.behavior.XMLSAXTextHandler_value_BehaviorDescriptor" />
+  <unitInfo fileName="XMLSAXTextRule_BehaviorDescriptor.java" startLine="7" startPosition="0" endLine="16" endPosition="0" unitName="jetbrains.mps.xmlQuery.behavior.XMLSAXTextRule_BehaviorDescriptor" />
   <root nodeId="10026583185457214">
     <nodeInfo nodeId="10026583185457214" fileName="TextBuilder_Behavior.java" startLine="20" startPosition="35" endLine="21" endPosition="70" conceptFqName="jetbrains.mps.baseLanguage.structure.StaticFieldDeclaration" propertyString="PARAMETERS_10026583185457217" />
     <nodeInfo nodeId="10026583185457214" fileName="TextBuilder_Behavior.java" startLine="21" startPosition="70" endLine="22" endPosition="83" conceptFqName="jetbrains.mps.baseLanguage.structure.StaticFieldDeclaration" propertyString="PARAMETERS_10026583185457221" />
@@ -145,27 +145,27 @@
       <varInfo nodeId="10026583185457224" varName="parentRef" />
     </scopeInfo>
     <scopeInfo nodeId="10026583185457214" fileName="TextBuilder_Behavior.java" startLine="35" startPosition="0" endLine="39" endPosition="0">
-      <varInfo nodeId="608266221866981712" varName="parentRef" />
-      <varInfo nodeId="608266221866981710" varName="parentBuilder" />
       <varInfo nodeId="608266221866981714" varName="childRef" />
+      <varInfo nodeId="608266221866981710" varName="parentBuilder" />
+      <varInfo nodeId="608266221866981712" varName="parentRef" />
     </scopeInfo>
     <scopeInfo nodeId="10026583185457214" fileName="TextBuilder_Behavior.java" startLine="54" startPosition="0" endLine="58" endPosition="0" />
     <scopeInfo nodeId="10026583185457214" fileName="TextBuilder_Behavior.java" startLine="58" startPosition="0" endLine="62" endPosition="0">
       <varInfo nodeId="10026583185457224" varName="parentRef" />
     </scopeInfo>
     <scopeInfo nodeId="10026583185457214" fileName="TextBuilder_Behavior.java" startLine="62" startPosition="0" endLine="66" endPosition="0">
-      <varInfo nodeId="608266221866981712" varName="parentRef" />
-      <varInfo nodeId="608266221866981710" varName="parentBuilder" />
       <varInfo nodeId="608266221866981714" varName="childRef" />
+      <varInfo nodeId="608266221866981710" varName="parentBuilder" />
+      <varInfo nodeId="608266221866981712" varName="parentRef" />
     </scopeInfo>
     <scopeInfo nodeId="10026583185457214" fileName="TextBuilder_Behavior.java" startLine="39" startPosition="0" endLine="44" endPosition="0" />
     <scopeInfo nodeId="10026583185457214" fileName="TextBuilder_Behavior.java" startLine="44" startPosition="0" endLine="49" endPosition="0">
       <varInfo nodeId="10026583185457224" varName="parentRef" />
     </scopeInfo>
     <scopeInfo nodeId="10026583185457214" fileName="TextBuilder_Behavior.java" startLine="49" startPosition="0" endLine="54" endPosition="0">
-      <varInfo nodeId="608266221866981712" varName="parentRef" />
-      <varInfo nodeId="608266221866981710" varName="parentBuilder" />
       <varInfo nodeId="608266221866981714" varName="childRef" />
+      <varInfo nodeId="608266221866981710" varName="parentBuilder" />
+      <varInfo nodeId="608266221866981712" varName="parentRef" />
     </scopeInfo>
     <scopeInfo nodeId="10026583185457214" fileName="TextBuilder_Behavior.java" startLine="74" startPosition="32" endLine="79" endPosition="7" />
     <scopeInfo nodeId="10026583185457214" fileName="TextBuilder_Behavior.java" startLine="71" startPosition="31" endLine="80" endPosition="20" />
@@ -182,9 +182,9 @@
     <scopeInfo nodeId="10026583185457214" fileName="TextBuilder_Behavior.java" startLine="96" startPosition="32" endLine="138" endPosition="7" />
     <scopeInfo nodeId="10026583185457214" fileName="TextBuilder_Behavior.java" startLine="88" startPosition="71" endLine="139" endPosition="20" />
     <scopeInfo nodeId="10026583185457214" fileName="TextBuilder_Behavior.java" startLine="87" startPosition="0" endLine="141" endPosition="0" />
+    <unitInfo nodeId="10026583185457214" fileName="TextBuilder_Behavior.java" startLine="20" startPosition="0" endLine="143" endPosition="0" unitName="jetbrains.mps.xmlQuery.behavior.TextBuilder_Behavior" />
     <unitInfo nodeId="10026583185457214" fileName="TextBuilder_Behavior.java" startLine="67" startPosition="0" endLine="83" endPosition="0" unitName="jetbrains.mps.xmlQuery.behavior.TextBuilder_Behavior$QuotationClass_8nuept_a0a0b" />
     <unitInfo nodeId="10026583185457214" fileName="TextBuilder_Behavior.java" startLine="84" startPosition="0" endLine="142" endPosition="0" unitName="jetbrains.mps.xmlQuery.behavior.TextBuilder_Behavior$QuotationClass_8nuept_a0a0d" />
-    <unitInfo nodeId="10026583185457214" fileName="TextBuilder_Behavior.java" startLine="20" startPosition="0" endLine="143" endPosition="0" unitName="jetbrains.mps.xmlQuery.behavior.TextBuilder_Behavior" />
   </root>
   <root nodeId="2268737274628969538">
     <nodeInfo nodeId="2268737274628969538" fileName="XMLSAXNodeCreator_Behavior.java" startLine="11" startPosition="41" endLine="12" endPosition="72" conceptFqName="jetbrains.mps.baseLanguage.structure.StaticFieldDeclaration" propertyString="PARAMETERS_2268737274628969541" />
@@ -235,8 +235,8 @@
     <scopeInfo nodeId="2286463592495414410" fileName="XMLSAXNodeRule_Behavior.java" startLine="18" startPosition="0" endLine="25" endPosition="0" />
     <scopeInfo nodeId="2286463592495414410" fileName="XMLSAXNodeRule_Behavior.java" startLine="30" startPosition="31" endLine="40" endPosition="20" />
     <scopeInfo nodeId="2286463592495414410" fileName="XMLSAXNodeRule_Behavior.java" startLine="29" startPosition="0" endLine="42" endPosition="0" />
-    <unitInfo nodeId="2286463592495414410" fileName="XMLSAXNodeRule_Behavior.java" startLine="26" startPosition="0" endLine="43" endPosition="0" unitName="jetbrains.mps.xmlQuery.behavior.XMLSAXNodeRule_Behavior$QuotationClass_odhxgg_a0a0a1" />
     <unitInfo nodeId="2286463592495414410" fileName="XMLSAXNodeRule_Behavior.java" startLine="15" startPosition="0" endLine="44" endPosition="0" unitName="jetbrains.mps.xmlQuery.behavior.XMLSAXNodeRule_Behavior" />
+    <unitInfo nodeId="2286463592495414410" fileName="XMLSAXNodeRule_Behavior.java" startLine="26" startPosition="0" endLine="43" endPosition="0" unitName="jetbrains.mps.xmlQuery.behavior.XMLSAXNodeRule_Behavior$QuotationClass_odhxgg_a0a0a1" />
   </root>
   <root nodeId="3149278768676788185">
     <nodeInfo nodeId="3149278768676788185" fileName="ElementBuilder_Behavior.java" startLine="22" startPosition="38" endLine="23" endPosition="72" conceptFqName="jetbrains.mps.baseLanguage.structure.StaticFieldDeclaration" propertyString="PARAMETERS_1384720974900260447" />
@@ -375,18 +375,18 @@
       <varInfo nodeId="1384720974900260470" varName="parentRef" />
     </scopeInfo>
     <scopeInfo nodeId="3149278768676788185" fileName="ElementBuilder_Behavior.java" startLine="37" startPosition="0" endLine="41" endPosition="0">
-      <varInfo nodeId="1384720974900260491" varName="parentRef" />
-      <varInfo nodeId="1384720974900260489" varName="parentBuilder" />
       <varInfo nodeId="1384720974900260493" varName="childRef" />
+      <varInfo nodeId="1384720974900260489" varName="parentBuilder" />
+      <varInfo nodeId="1384720974900260491" varName="parentRef" />
     </scopeInfo>
     <scopeInfo nodeId="3149278768676788185" fileName="ElementBuilder_Behavior.java" startLine="67" startPosition="0" endLine="71" endPosition="0" />
     <scopeInfo nodeId="3149278768676788185" fileName="ElementBuilder_Behavior.java" startLine="71" startPosition="0" endLine="75" endPosition="0">
       <varInfo nodeId="1384720974900260470" varName="parentRef" />
     </scopeInfo>
     <scopeInfo nodeId="3149278768676788185" fileName="ElementBuilder_Behavior.java" startLine="75" startPosition="0" endLine="79" endPosition="0">
-      <varInfo nodeId="1384720974900260491" varName="parentRef" />
-      <varInfo nodeId="1384720974900260489" varName="parentBuilder" />
       <varInfo nodeId="1384720974900260493" varName="childRef" />
+      <varInfo nodeId="1384720974900260489" varName="parentBuilder" />
+      <varInfo nodeId="1384720974900260491" varName="parentRef" />
     </scopeInfo>
     <scopeInfo nodeId="3149278768676788185" fileName="ElementBuilder_Behavior.java" startLine="97" startPosition="11" endLine="101" endPosition="67" />
     <scopeInfo nodeId="3149278768676788185" fileName="ElementBuilder_Behavior.java" startLine="52" startPosition="0" endLine="57" endPosition="0" />
@@ -394,9 +394,9 @@
       <varInfo nodeId="1384720974900260470" varName="parentRef" />
     </scopeInfo>
     <scopeInfo nodeId="3149278768676788185" fileName="ElementBuilder_Behavior.java" startLine="62" startPosition="0" endLine="67" endPosition="0">
-      <varInfo nodeId="1384720974900260491" varName="parentRef" />
-      <varInfo nodeId="1384720974900260489" varName="parentBuilder" />
       <varInfo nodeId="1384720974900260493" varName="childRef" />
+      <varInfo nodeId="1384720974900260489" varName="parentBuilder" />
+      <varInfo nodeId="1384720974900260491" varName="parentRef" />
     </scopeInfo>
     <scopeInfo nodeId="3149278768676788185" fileName="ElementBuilder_Behavior.java" startLine="96" startPosition="276" endLine="102" endPosition="11" />
     <scopeInfo nodeId="1384720974900281913" fileName="ElementBuilder_Behavior.java" startLine="42" startPosition="79" endLine="50" endPosition="5" />
@@ -419,9 +419,9 @@
     <scopeInfo nodeId="3149278768676788185" fileName="ElementBuilder_Behavior.java" startLine="124" startPosition="32" endLine="166" endPosition="7" />
     <scopeInfo nodeId="3149278768676788185" fileName="ElementBuilder_Behavior.java" startLine="115" startPosition="71" endLine="167" endPosition="20" />
     <scopeInfo nodeId="3149278768676788185" fileName="ElementBuilder_Behavior.java" startLine="114" startPosition="0" endLine="169" endPosition="0" />
+    <unitInfo nodeId="3149278768676788185" fileName="ElementBuilder_Behavior.java" startLine="22" startPosition="0" endLine="171" endPosition="0" unitName="jetbrains.mps.xmlQuery.behavior.ElementBuilder_Behavior" />
     <unitInfo nodeId="3149278768676788185" fileName="ElementBuilder_Behavior.java" startLine="80" startPosition="0" endLine="110" endPosition="0" unitName="jetbrains.mps.xmlQuery.behavior.ElementBuilder_Behavior$QuotationClass_w52xu1_a0a0c" />
     <unitInfo nodeId="3149278768676788185" fileName="ElementBuilder_Behavior.java" startLine="111" startPosition="0" endLine="170" endPosition="0" unitName="jetbrains.mps.xmlQuery.behavior.ElementBuilder_Behavior$QuotationClass_w52xu1_a0a0d" />
-    <unitInfo nodeId="3149278768676788185" fileName="ElementBuilder_Behavior.java" startLine="22" startPosition="0" endLine="171" endPosition="0" unitName="jetbrains.mps.xmlQuery.behavior.ElementBuilder_Behavior" />
   </root>
   <root nodeId="3444414697307503268">
     <nodeInfo nodeId="3444414697307503332" fileName="XMLSAXChildRule_Behavior.java" startLine="15" startPosition="336" endLine="16" endPosition="106" conceptFqName="jetbrains.mps.baseLanguage.structure.ReturnStatement" />
@@ -592,18 +592,18 @@
       <varInfo nodeId="7225751495667376248" varName="parentRef" />
     </scopeInfo>
     <scopeInfo nodeId="7225751495667376065" fileName="AttributeBuilder_Behavior.java" startLine="37" startPosition="0" endLine="41" endPosition="0">
-      <varInfo nodeId="608266221866981663" varName="parentRef" />
-      <varInfo nodeId="608266221866981661" varName="parentBuilder" />
       <varInfo nodeId="608266221866981665" varName="childRef" />
+      <varInfo nodeId="608266221866981661" varName="parentBuilder" />
+      <varInfo nodeId="608266221866981663" varName="parentRef" />
     </scopeInfo>
     <scopeInfo nodeId="7225751495667376065" fileName="AttributeBuilder_Behavior.java" startLine="56" startPosition="0" endLine="60" endPosition="0" />
     <scopeInfo nodeId="7225751495667376065" fileName="AttributeBuilder_Behavior.java" startLine="60" startPosition="0" endLine="64" endPosition="0">
       <varInfo nodeId="7225751495667376248" varName="parentRef" />
     </scopeInfo>
     <scopeInfo nodeId="7225751495667376065" fileName="AttributeBuilder_Behavior.java" startLine="64" startPosition="0" endLine="68" endPosition="0">
-      <varInfo nodeId="608266221866981663" varName="parentRef" />
-      <varInfo nodeId="608266221866981661" varName="parentBuilder" />
       <varInfo nodeId="608266221866981665" varName="childRef" />
+      <varInfo nodeId="608266221866981661" varName="parentBuilder" />
+      <varInfo nodeId="608266221866981663" varName="parentRef" />
     </scopeInfo>
     <scopeInfo nodeId="7225751495667376065" fileName="AttributeBuilder_Behavior.java" startLine="108" startPosition="13" endLine="112" endPosition="70" />
     <scopeInfo nodeId="7225751495667376065" fileName="AttributeBuilder_Behavior.java" startLine="117" startPosition="15" endLine="121" endPosition="72" />
@@ -612,9 +612,9 @@
       <varInfo nodeId="7225751495667376248" varName="parentRef" />
     </scopeInfo>
     <scopeInfo nodeId="7225751495667376065" fileName="AttributeBuilder_Behavior.java" startLine="51" startPosition="0" endLine="56" endPosition="0">
-      <varInfo nodeId="608266221866981663" varName="parentRef" />
-      <varInfo nodeId="608266221866981661" varName="parentBuilder" />
       <varInfo nodeId="608266221866981665" varName="childRef" />
+      <varInfo nodeId="608266221866981661" varName="parentBuilder" />
+      <varInfo nodeId="608266221866981663" varName="parentRef" />
     </scopeInfo>
     <scopeInfo nodeId="7225751495667376065" fileName="AttributeBuilder_Behavior.java" startLine="107" startPosition="320" endLine="113" endPosition="13" />
     <scopeInfo nodeId="7225751495667376065" fileName="AttributeBuilder_Behavior.java" startLine="116" startPosition="50" endLine="122" endPosition="15" />
@@ -632,8 +632,8 @@
     <scopeInfo nodeId="7225751495667376065" fileName="AttributeBuilder_Behavior.java" startLine="84" startPosition="32" endLine="143" endPosition="7" />
     <scopeInfo nodeId="7225751495667376065" fileName="AttributeBuilder_Behavior.java" startLine="73" startPosition="92" endLine="144" endPosition="20" />
     <scopeInfo nodeId="7225751495667376065" fileName="AttributeBuilder_Behavior.java" startLine="72" startPosition="0" endLine="146" endPosition="0" />
-    <unitInfo nodeId="7225751495667376065" fileName="AttributeBuilder_Behavior.java" startLine="69" startPosition="0" endLine="147" endPosition="0" unitName="jetbrains.mps.xmlQuery.behavior.AttributeBuilder_Behavior$QuotationClass_emlk0p_a0a0d" />
     <unitInfo nodeId="7225751495667376065" fileName="AttributeBuilder_Behavior.java" startLine="22" startPosition="0" endLine="148" endPosition="0" unitName="jetbrains.mps.xmlQuery.behavior.AttributeBuilder_Behavior" />
+    <unitInfo nodeId="7225751495667376065" fileName="AttributeBuilder_Behavior.java" startLine="69" startPosition="0" endLine="147" endPosition="0" unitName="jetbrains.mps.xmlQuery.behavior.AttributeBuilder_Behavior$QuotationClass_emlk0p_a0a0d" />
   </root>
   <root nodeId="7707758858786082649">
     <nodeInfo nodeId="7707758858786082649" fileName="XMLSAXFieldReference_Behavior.java" startLine="7" startPosition="44" endLine="10" endPosition="0" conceptFqName="jetbrains.mps.baseLanguage.structure.StaticMethodDeclaration" propertyString="init#(Ljetbrains/mps/smodel/SNode;)V" />

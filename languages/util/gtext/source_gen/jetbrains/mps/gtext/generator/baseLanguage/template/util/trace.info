@@ -120,8 +120,8 @@
       <varInfo nodeId="1196176060642" varName="nextChild" />
     </scopeInfo>
     <scopeInfo nodeId="1196176581224" fileName="GTextOptimizer.java" startLine="82" startPosition="0" endLine="93" endPosition="0">
-      <varInfo nodeId="1196176613574" varName="optChild" />
       <varInfo nodeId="1196176861667" varName="nextChild" />
+      <varInfo nodeId="1196176613574" varName="optChild" />
     </scopeInfo>
     <scopeInfo nodeId="1196171215623" fileName="GTextOptimizer.java" startLine="16" startPosition="0" endLine="28" endPosition="0">
       <varInfo nodeId="1196171215645" varName="item" />
@@ -134,8 +134,8 @@
     </scopeInfo>
     <scopeInfo nodeId="1196173283425" fileName="GTextOptimizer.java" startLine="35" startPosition="19" endLine="62" endPosition="5" />
     <scopeInfo nodeId="1196171112604" fileName="GTextOptimizer.java" startLine="33" startPosition="47" endLine="80" endPosition="40">
-      <varInfo nodeId="1196175759852" varName="t" />
       <varInfo nodeId="1196171112607" varName="n" />
+      <varInfo nodeId="1196175759852" varName="t" />
     </scopeInfo>
     <scopeInfo nodeId="1196171112602" fileName="GTextOptimizer.java" startLine="32" startPosition="0" endLine="82" endPosition="0">
       <varInfo nodeId="1196171112690" varName="item" />
