@@ -74,7 +74,7 @@
                 </node>
                 <node role="lValue" roleId="tpee.1068498886295" type="tpee.DotExpression" typeId="tpee.1197027756228" id="1213193287075">
                   <node role="operand" roleId="tpee.1197027771414" type="tpee.LocalVariableReference" typeId="tpee.1068581242866" id="1213193286117">
-                    <link role="variableDeclaration" roleId="tpee.1068581517664" targetNodeId="1213193278476" resolveInfo="plusExpression" />
+                    <link role="variableDeclaration" roleId="tpee.1068581517664" targetNodeId="1213193278476" resolveInfo="minusExpression" />
                   </node>
                   <node role="operation" roleId="tpee.1197027833540" type="tp25.SLinkAccess" typeId="tp25.1138056143562" id="1213193292363">
                     <link role="link" roleId="tp25.1138056516764" targetNodeId="tpee.1081773367580" />
@@ -94,7 +94,7 @@
                 </node>
                 <node role="lValue" roleId="tpee.1068498886295" type="tpee.DotExpression" typeId="tpee.1197027756228" id="1213193303794">
                   <node role="operand" roleId="tpee.1197027771414" type="tpee.LocalVariableReference" typeId="tpee.1068581242866" id="1213193302680">
-                    <link role="variableDeclaration" roleId="tpee.1068581517664" targetNodeId="1213193278476" resolveInfo="plusExpression" />
+                    <link role="variableDeclaration" roleId="tpee.1068581517664" targetNodeId="1213193278476" resolveInfo="minusExpression" />
                   </node>
                   <node role="operation" roleId="tpee.1197027833540" type="tp25.SLinkAccess" typeId="tp25.1138056143562" id="1213193305989">
                     <link role="link" roleId="tp25.1138056516764" targetNodeId="tpee.1081773367579" />
@@ -207,11 +207,12 @@
       <property name="name" nameId="tpck.1169194664001" value="model" />
       <node role="visibility" roleId="tpee.1178549979242" type="tpee.PrivateVisibility" typeId="tpee.1146644623116" id="1213192903808" />
       <node role="type" roleId="tpee.5680397130376446158" type="tp25.SModelType" typeId="tp25.1143226024141" id="1213192913164" />
+      <node role="condition" roleId="tp4k.5538333046911298738" type="tp4k.RequiredCondition" typeId="tp4k.5538333046911348654" id="8898893144448210362" />
     </node>
   </root>
   <root id="1213193418223">
     <node role="modifier" roleId="tp4k.1204991552650" type="tp4k.ModificationStatement" typeId="tp4k.1203092361741" id="1213194366436">
-      <link role="modifiedGroup" roleId="tp4k.1203092736097" targetNodeId="tprs.1205163054135" resolveInfo="ProjectPaneModelActionsInternal" />
+      <link role="modifiedGroup" roleId="tp4k.1203092736097" targetNodeId="tprs.1205163054135" resolveInfo="ModelActionsInternal" />
     </node>
     <node role="contents" roleId="tp4k.1207145245948" type="tp4k.ElementListContents" typeId="tp4k.1207145163717" id="1213194338878">
       <node role="reference" roleId="tp4k.1207145201301" type="tp4k.ActionInstance" typeId="tp4k.1203088046679" id="1213194365498">

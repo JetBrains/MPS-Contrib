@@ -16,6 +16,7 @@
           </value>
         </option>
         <option name="FIELD_NAME_PREFIX" value="my" />
+        <option name="STATIC_FIELD_NAME_PREFIX" value="our" />
         <option name="INSERT_INNER_CLASS_IMPORTS" value="true" />
         <option name="PACKAGES_TO_USE_IMPORT_ON_DEMAND">
           <value />
