@@ -5,6 +5,9 @@
 .idea/inspectionProfiles
 /MPSPlugin/.idea/workspace.xml
 /MPSPlugin/apiclasses
+/IdeaPlugin/.idea/workspace.xml
+/IdeaPlugin/build
+/IdeaPlugin/mps-core/lib
 classes
 classes_gen
 testclasses

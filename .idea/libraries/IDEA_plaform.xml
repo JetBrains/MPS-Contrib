@@ -3,7 +3,6 @@
     <CLASSES>
       <root url="jar://$PROJECT_DIR$/lib/resources.jar!/" />
       <root url="jar://$PROJECT_DIR$/lib/platform-api.jar!/" />
-      <root url="jar://$PROJECT_DIR$/lib/annotations.jar!/" />
       <root url="jar://$PROJECT_DIR$/lib/platform.jar!/" />
       <root url="jar://$PROJECT_DIR$/lib/boot.jar!/" />
       <root url="jar://$PROJECT_DIR$/lib/util.jar!/" />
@@ -14,7 +13,6 @@
       <root url="jar://$PROJECT_DIR$/lib/forms_rt.jar!/" />
       <root url="jar://$PROJECT_DIR$/lib/cglib-nodep-2.1_3.jar!/" />
       <root url="jar://$PROJECT_DIR$/lib/execution-api.jar!/" />
-      <root url="jar://$PROJECT_DIR$/lib/guava-r06.jar!/" />
     </CLASSES>
     <JAVADOC />
     <SOURCES>
@@ -43,7 +41,6 @@
       <root url="jar://$PROJECT_DIR$/platform_src/platform.src.zip!/vcs-impl" />
       <root url="jar://$PROJECT_DIR$/platform_src/platform.src.zip!/smRunner" />
       <root url="jar://$PROJECT_DIR$/platform_src/platform.src.zip!/platform-impl" />
-      <root url="jar://$PROJECT_DIR$/platform_src/platform.src.zip!/annotations" />
       <root url="jar://$PROJECT_DIR$/platform_src/platform.src.zip!/xml-openapi" />
       <root url="jar://$PROJECT_DIR$/platform_src/platform.src.zip!/images" />
       <root url="jar://$PROJECT_DIR$/platform_src/platform.src.zip!/lang-api" />
