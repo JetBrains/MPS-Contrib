@@ -160,8 +160,8 @@
     <scopeInfo nodeId="1200505270682" fileName="PropertyNode_Editor.java" startLine="96" startPosition="96" endLine="111" endPosition="22" />
     <scopeInfo nodeId="1200505270682" fileName="PropertyNode_Editor.java" startLine="77" startPosition="0" endLine="95" endPosition="0" />
     <scopeInfo nodeId="1200505270682" fileName="PropertyNode_Editor.java" startLine="95" startPosition="0" endLine="113" endPosition="0" />
-    <unitInfo nodeId="1200505270682" fileName="PropertyNode_Editor.java" startLine="114" startPosition="0" endLine="161" endPosition="0" unitName="jetbrains.mps.build.property.editor.PropertyNode_Editor$declarationListHandler_i7uzyy_c0" />
     <unitInfo nodeId="1200505270682" fileName="PropertyNode_Editor.java" startLine="28" startPosition="0" endLine="162" endPosition="0" unitName="jetbrains.mps.build.property.editor.PropertyNode_Editor" />
+    <unitInfo nodeId="1200505270682" fileName="PropertyNode_Editor.java" startLine="114" startPosition="0" endLine="161" endPosition="0" unitName="jetbrains.mps.build.property.editor.PropertyNode_Editor$declarationListHandler_i7uzyy_c0" />
   </root>
 </debugInfo>
 

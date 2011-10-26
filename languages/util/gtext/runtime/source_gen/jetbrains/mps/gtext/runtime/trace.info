@@ -21,8 +21,8 @@
     <scopeInfo nodeId="7733366827988682245" fileName="TContent.java" startLine="28" startPosition="41" endLine="29" endPosition="29" />
     <scopeInfo nodeId="7733366827988682209" fileName="TContent.java" startLine="11" startPosition="45" endLine="13" endPosition="19" />
     <scopeInfo nodeId="7733366827988682202" fileName="TContent.java" startLine="10" startPosition="0" endLine="14" endPosition="3">
-      <varInfo nodeId="7733366827988682205" varName="name" />
       <varInfo nodeId="7733366827988682207" varName="buf" />
+      <varInfo nodeId="7733366827988682205" varName="name" />
     </scopeInfo>
     <scopeInfo nodeId="7733366827988682222" fileName="TContent.java" startLine="15" startPosition="0" endLine="19" endPosition="0" />
     <scopeInfo nodeId="7733366827988682228" fileName="TContent.java" startLine="19" startPosition="0" endLine="23" endPosition="0" />
@@ -229,8 +229,8 @@
       <varInfo nodeId="7733366827988671152" varName="l" />
     </scopeInfo>
     <scopeInfo nodeId="7733366827988671194" fileName="TBaseBuilderContext.java" startLine="54" startPosition="65" endLine="58" endPosition="0">
-      <varInfo nodeId="7733366827988671199" varName="o2" />
       <varInfo nodeId="7733366827988671197" varName="o1" />
+      <varInfo nodeId="7733366827988671199" varName="o2" />
     </scopeInfo>
     <scopeInfo nodeId="7733366827988671248" fileName="TBaseBuilderContext.java" startLine="68" startPosition="0" endLine="72" endPosition="0">
       <varInfo nodeId="7733366827988671251" varName="text" />
@@ -285,10 +285,10 @@
       <varInfo nodeId="7733366827988671171" varName="sortedContents" />
     </scopeInfo>
     <scopeInfo nodeId="7733366827988671121" fileName="TBaseBuilderContext.java" startLine="38" startPosition="0" endLine="68" endPosition="0" />
-    <unitInfo nodeId="7733366827988652895" fileName="TBaseBuilderContext.java" startLine="160" startPosition="0" endLine="163" endPosition="0" unitName="jetbrains.mps.gtext.runtime.TBaseBuilderContext$ListenerVisitor" />
+    <unitInfo nodeId="7733366827988671037" fileName="TBaseBuilderContext.java" startLine="14" startPosition="0" endLine="164" endPosition="0" unitName="jetbrains.mps.gtext.runtime.TBaseBuilderContext" />
     <unitInfo nodeId="7733366827988671148" fileName="TBaseBuilderContext.java" startLine="43" startPosition="15" endLine="47" endPosition="5" unitName="jetbrains.mps.gtext.runtime.TBaseBuilderContext$1" />
     <unitInfo nodeId="7733366827988671192" fileName="TBaseBuilderContext.java" startLine="54" startPosition="41" endLine="58" endPosition="5" unitName="jetbrains.mps.gtext.runtime.TBaseBuilderContext$2" />
-    <unitInfo nodeId="7733366827988671037" fileName="TBaseBuilderContext.java" startLine="14" startPosition="0" endLine="164" endPosition="0" unitName="jetbrains.mps.gtext.runtime.TBaseBuilderContext" />
+    <unitInfo nodeId="7733366827988652895" fileName="TBaseBuilderContext.java" startLine="160" startPosition="0" endLine="163" endPosition="0" unitName="jetbrains.mps.gtext.runtime.TBaseBuilderContext$ListenerVisitor" />
   </root>
   <root nodeId="7733366827988671516">
     <nodeInfo nodeId="7733366827988681715" fileName="BaseHtmlStringUtil.java" startLine="7" startPosition="33" endLine="8" endPosition="48" conceptFqName="jetbrains.mps.baseLanguage.structure.StaticFieldDeclaration" propertyString="EMPTY_STRING" />
@@ -396,8 +396,8 @@
       <varInfo nodeId="7733366827988682013" varName="string" />
     </scopeInfo>
     <scopeInfo nodeId="7733366827988681708" fileName="BaseHtmlStringUtil.java" startLine="97" startPosition="0" endLine="101" endPosition="5">
-      <varInfo nodeId="7733366827988681711" varName="start" />
       <varInfo nodeId="7733366827988681713" varName="end" />
+      <varInfo nodeId="7733366827988681711" varName="start" />
     </scopeInfo>
     <scopeInfo nodeId="7733366827988681814" fileName="BaseHtmlStringUtil.java" startLine="29" startPosition="40" endLine="34" endPosition="44" />
     <scopeInfo nodeId="7733366827988681929" fileName="BaseHtmlStringUtil.java" startLine="59" startPosition="28" endLine="64" endPosition="32" />
@@ -425,23 +425,23 @@
     </scopeInfo>
     <scopeInfo nodeId="7733366827988682021" fileName="BaseHtmlStringUtil.java" startLine="104" startPosition="10" endLine="125" endPosition="40" />
     <scopeInfo nodeId="7733366827988681757" fileName="BaseHtmlStringUtil.java" startLine="20" startPosition="50" endLine="43" endPosition="15">
-      <varInfo nodeId="7733366827988681766" varName="str" />
       <varInfo nodeId="7733366827988681778" varName="builder" />
       <varInfo nodeId="7733366827988681772" varName="capacity" />
+      <varInfo nodeId="7733366827988681766" varName="str" />
     </scopeInfo>
     <scopeInfo nodeId="7733366827988681752" fileName="BaseHtmlStringUtil.java" startLine="19" startPosition="0" endLine="45" endPosition="0">
       <varInfo nodeId="7733366827988681755" varName="object" />
     </scopeInfo>
     <scopeInfo nodeId="7733366827988681860" fileName="BaseHtmlStringUtil.java" startLine="46" startPosition="59" endLine="73" endPosition="15">
-      <varInfo nodeId="7733366827988681869" varName="str" />
       <varInfo nodeId="7733366827988681881" varName="builder" />
       <varInfo nodeId="7733366827988681875" varName="capacity" />
+      <varInfo nodeId="7733366827988681869" varName="str" />
     </scopeInfo>
     <scopeInfo nodeId="7733366827988681855" fileName="BaseHtmlStringUtil.java" startLine="45" startPosition="0" endLine="75" endPosition="0">
       <varInfo nodeId="7733366827988681858" varName="object" />
     </scopeInfo>
-    <unitInfo nodeId="7733366827988681699" fileName="BaseHtmlStringUtil.java" startLine="94" startPosition="0" endLine="103" endPosition="0" unitName="jetbrains.mps.gtext.runtime.BaseHtmlStringUtil$DeprecatedSymbolsInterval" />
     <unitInfo nodeId="7733366827988671516" fileName="BaseHtmlStringUtil.java" startLine="7" startPosition="0" endLine="128" endPosition="0" unitName="jetbrains.mps.gtext.runtime.BaseHtmlStringUtil" />
+    <unitInfo nodeId="7733366827988681699" fileName="BaseHtmlStringUtil.java" startLine="94" startPosition="0" endLine="103" endPosition="0" unitName="jetbrains.mps.gtext.runtime.BaseHtmlStringUtil$DeprecatedSymbolsInterval" />
   </root>
 </debugInfo>
 

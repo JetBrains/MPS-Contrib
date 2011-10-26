@@ -21,7 +21,7 @@ public class typeof_AccessTextOperation_InferenceRule extends AbstractInferenceR
     {
       SNode _nodeToCheck_1029348928467 = operation;
       EquationInfo _info_12389875345 = new EquationInfo(_nodeToCheck_1029348928467, null, "r:d89ddc4c-de44-408f-97b1-095c4af64bfb(jetbrains.mps.xmlQuery.typesystem)", "115745247309398866", 0, null);
-      typeCheckingContext.createEquation((SNode) typeCheckingContext.typeOf(_nodeToCheck_1029348928467, "r:d89ddc4c-de44-408f-97b1-095c4af64bfb(jetbrains.mps.xmlQuery.typesystem)", "115745247309398863", true), (SNode) new typeof_AccessTextOperation_InferenceRule.QuotationClass_w71ozj_a0a0a0().createNode(typeCheckingContext), _info_12389875345);
+      typeCheckingContext.createEquation((SNode) typeCheckingContext.typeOf(_nodeToCheck_1029348928467, "r:d89ddc4c-de44-408f-97b1-095c4af64bfb(jetbrains.mps.xmlQuery.typesystem)", "115745247309398863", true), (SNode) new typeof_AccessTextOperation_InferenceRule.QuotationClass_w71ozj_a0a0a0().createNode(), _info_12389875345);
     }
   }
 
@@ -42,18 +42,6 @@ public class typeof_AccessTextOperation_InferenceRule extends AbstractInferenceR
 
   public static class QuotationClass_w71ozj_a0a0a0 {
     public QuotationClass_w71ozj_a0a0a0() {
-    }
-
-    public SNode createNode(final TypeCheckingContext typeCheckingContext) {
-      SNode result = null;
-      Set<SNode> _parameterValues_129834374 = new HashSet<SNode>();
-      SNode quotedNode_1 = null;
-      {
-        quotedNode_1 = SModelUtil_new.instantiateConceptDeclaration("jetbrains.mps.baseLanguage.structure.StringType", null, GlobalScope.getInstance(), false);
-        SNode quotedNode1_2 = quotedNode_1;
-        result = quotedNode1_2;
-      }
-      return result;
     }
 
     public SNode createNode() {

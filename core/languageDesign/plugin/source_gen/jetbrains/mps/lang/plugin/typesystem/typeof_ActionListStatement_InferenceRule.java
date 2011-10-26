@@ -59,7 +59,7 @@ public class typeof_ActionListStatement_InferenceRule extends AbstractInferenceR
         {
           quotedNode_2 = SModelUtil_new.instantiateConceptDeclaration("jetbrains.mps.baseLanguage.structure.ClassifierType", null, GlobalScope.getInstance(), false);
           SNode quotedNode1_4 = quotedNode_2;
-          quotedNode1_4.addReference(SReference.create("classifier", quotedNode1_4, SModelReference.fromString("f:java_stub#37a3367b-1fb2-44d8-aa6b-18075e74e003#com.intellij.openapi.actionSystem(com.intellij.openapi.actionSystem@java_stub)"), SNodeId.fromString("~AnAction")));
+          quotedNode1_4.addReference(SReference.create("classifier", quotedNode1_4, SModelReference.fromString("f:java_stub#86441d7a-e194-42da-81a5-2161ec62a379#com.intellij.openapi.actionSystem(MPS.Workbench/com.intellij.openapi.actionSystem@java_stub)"), SNodeId.fromString("~AnAction")));
           quotedNode_1.addChild("elementType", quotedNode1_4);
         }
         result = quotedNode1_3;
@@ -78,7 +78,7 @@ public class typeof_ActionListStatement_InferenceRule extends AbstractInferenceR
         {
           quotedNode_2 = SModelUtil_new.instantiateConceptDeclaration("jetbrains.mps.baseLanguage.structure.ClassifierType", null, GlobalScope.getInstance(), false);
           SNode quotedNode1_4 = quotedNode_2;
-          quotedNode1_4.addReference(SReference.create("classifier", quotedNode1_4, SModelReference.fromString("f:java_stub#37a3367b-1fb2-44d8-aa6b-18075e74e003#com.intellij.openapi.actionSystem(com.intellij.openapi.actionSystem@java_stub)"), SNodeId.fromString("~AnAction")));
+          quotedNode1_4.addReference(SReference.create("classifier", quotedNode1_4, SModelReference.fromString("f:java_stub#86441d7a-e194-42da-81a5-2161ec62a379#com.intellij.openapi.actionSystem(MPS.Workbench/com.intellij.openapi.actionSystem@java_stub)"), SNodeId.fromString("~AnAction")));
           quotedNode_1.addChild("elementType", quotedNode1_4);
         }
         result = quotedNode1_3;
