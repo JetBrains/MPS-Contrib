@@ -229,34 +229,6 @@
     <scopeInfo nodeId="1213877333381" fileName="Grid_Behavior.java" startLine="16" startPosition="0" endLine="24" endPosition="0" />
     <unitInfo nodeId="1213877333381" fileName="Grid_Behavior.java" startLine="9" startPosition="0" endLine="25" endPosition="0" unitName="jetbrains.mps.uiLanguage.behavior.Grid_Behavior" />
   </root>
-  <root nodeId="1213877336564">
-    <nodeInfo nodeId="1213877336581" fileName="EventDeclaration_Behavior.java" startLine="15" startPosition="186" endLine="16" endPosition="85" conceptFqName="jetbrains.mps.baseLanguage.structure.ReturnStatement" />
-    <nodeInfo nodeId="1213877336585" fileName="EventDeclaration_Behavior.java" startLine="18" startPosition="117" endLine="19" endPosition="219" conceptFqName="jetbrains.mps.baseLanguage.structure.LocalVariableDeclarationStatement" />
-    <nodeInfo nodeId="1213877336598" fileName="EventDeclaration_Behavior.java" startLine="19" startPosition="219" endLine="20" endPosition="218" conceptFqName="jetbrains.mps.baseLanguage.structure.LocalVariableDeclarationStatement" />
-    <nodeInfo nodeId="1213877336613" fileName="EventDeclaration_Behavior.java" startLine="21" startPosition="55" endLine="22" endPosition="49" conceptFqName="jetbrains.mps.baseLanguage.structure.ReturnStatement" />
-    <nodeInfo nodeId="1213877336635" fileName="EventDeclaration_Behavior.java" startLine="24" startPosition="5" endLine="25" endPosition="14" conceptFqName="jetbrains.mps.baseLanguage.structure.ReturnStatement" />
-    <nodeInfo nodeId="1213877336564" fileName="EventDeclaration_Behavior.java" startLine="10" startPosition="40" endLine="13" endPosition="0" conceptFqName="jetbrains.mps.baseLanguage.structure.StaticMethodDeclaration" propertyString="init#(Ljetbrains/mps/smodel/SNode;)V" />
-    <nodeInfo nodeId="1213877336568" fileName="EventDeclaration_Behavior.java" startLine="14" startPosition="95" endLine="17" endPosition="5" conceptFqName="jetbrains.mps.baseLanguage.structure.IfStatement" />
-    <nodeInfo nodeId="1213877336611" fileName="EventDeclaration_Behavior.java" startLine="20" startPosition="218" endLine="23" endPosition="7" conceptFqName="jetbrains.mps.baseLanguage.structure.IfStatement" />
-    <nodeInfo nodeId="1213877336583" fileName="EventDeclaration_Behavior.java" startLine="17" startPosition="5" endLine="24" endPosition="5" conceptFqName="jetbrains.mps.baseLanguage.structure.ForStatement" />
-    <nodeInfo nodeId="1213877336564" fileName="EventDeclaration_Behavior.java" startLine="13" startPosition="0" endLine="27" endPosition="0" conceptFqName="jetbrains.mps.baseLanguage.structure.StaticMethodDeclaration" propertyString="call_isAppropriateHandler_1213877336565#(Ljetbrains/mps/smodel/SNode;Ljetbrains/mps/smodel/SNode;)Ljava/lang/String;" />
-    <scopeInfo nodeId="1213877336640" fileName="EventDeclaration_Behavior.java" startLine="11" startPosition="43" endLine="11" endPosition="43" />
-    <scopeInfo nodeId="1213877336580" fileName="EventDeclaration_Behavior.java" startLine="15" startPosition="186" endLine="16" endPosition="85" />
-    <scopeInfo nodeId="1213877336612" fileName="EventDeclaration_Behavior.java" startLine="21" startPosition="55" endLine="22" endPosition="49" />
-    <scopeInfo nodeId="1213877336564" fileName="EventDeclaration_Behavior.java" startLine="10" startPosition="40" endLine="13" endPosition="0" />
-    <scopeInfo nodeId="1213877336584" fileName="EventDeclaration_Behavior.java" startLine="18" startPosition="117" endLine="23" endPosition="7">
-      <varInfo nodeId="1213877336599" varName="eventParamType" />
-      <varInfo nodeId="1213877336586" varName="handlerParamType" />
-    </scopeInfo>
-    <scopeInfo nodeId="1213877336583" fileName="EventDeclaration_Behavior.java" startLine="17" startPosition="5" endLine="24" endPosition="5">
-      <varInfo nodeId="1213877336620" varName="i" />
-    </scopeInfo>
-    <scopeInfo nodeId="1213877336567" fileName="EventDeclaration_Behavior.java" startLine="14" startPosition="95" endLine="25" endPosition="14" />
-    <scopeInfo nodeId="1213877336564" fileName="EventDeclaration_Behavior.java" startLine="13" startPosition="0" endLine="27" endPosition="0">
-      <varInfo nodeId="1213877336637" varName="handler" />
-    </scopeInfo>
-    <unitInfo nodeId="1213877336564" fileName="EventDeclaration_Behavior.java" startLine="10" startPosition="0" endLine="28" endPosition="0" unitName="jetbrains.mps.uiLanguage.behavior.EventDeclaration_Behavior" />
-  </root>
   <root nodeId="1213877358388">
     <nodeInfo nodeId="1213877358394" fileName="StubCellRendererInfo_Behavior.java" startLine="14" startPosition="71" endLine="15" endPosition="320" conceptFqName="jetbrains.mps.baseLanguage.structure.ReturnStatement" />
     <nodeInfo nodeId="1213877358388" fileName="StubCellRendererInfo_Behavior.java" startLine="10" startPosition="44" endLine="13" endPosition="0" conceptFqName="jetbrains.mps.baseLanguage.structure.StaticMethodDeclaration" propertyString="init#(Ljetbrains/mps/smodel/SNode;)V" />
