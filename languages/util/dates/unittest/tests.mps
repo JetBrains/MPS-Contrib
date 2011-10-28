@@ -5929,6 +5929,7 @@
       <node role="token" roleId="tp6x.48671598477578849" type="tp6x.PeriodPropertyFormatToken" typeId="tp6x.7249953535157196261" id="2872438607476469991">
         <property name="suffix" nameId="tp6x.5581663871703912304" value=" hour" />
         <property name="suffixPlural" nameId="tp6x.5581663871703912305" value=" hours" />
+        <property name="minDigits" nameId="tp6x.5581663871703912306" value="1" />
         <link role="property" roleId="tp6x.7249953535157223265" targetNodeId="tp6y.1172074620250" resolveInfo="hour" />
       </node>
       <node role="token" roleId="tp6x.48671598477578849" type="tp6x.PeriodSeparatorFormatToken" typeId="tp6x.5581663871702358898" id="2872438607476469995">
@@ -5955,6 +5956,7 @@
       <node role="token" roleId="tp6x.48671598477578849" type="tp6x.PeriodPropertyFormatToken" typeId="tp6x.7249953535157196261" id="1778677549314369271">
         <property name="suffix" nameId="tp6x.5581663871703912304" value=" hour" />
         <property name="suffixPlural" nameId="tp6x.5581663871703912305" value=" hours" />
+        <property name="minDigits" nameId="tp6x.5581663871703912306" value="1" />
         <link role="property" roleId="tp6x.7249953535157223265" targetNodeId="tp6y.1172074620250" resolveInfo="hour" />
       </node>
       <node role="token" roleId="tp6x.48671598477578849" type="tp6x.PeriodSeparatorFormatToken" typeId="tp6x.5581663871702358898" id="1778677549314369272">
@@ -5972,6 +5974,7 @@
       <property name="name" nameId="tpck.1169194664001" value="indays2" />
       <node role="token" roleId="tp6x.48671598477578849" type="tp6x.PeriodPropertyFormatToken" typeId="tp6x.7249953535157196261" id="2872438607476681433">
         <property name="suffix" nameId="tp6x.5581663871703912304" value=" day(s)" />
+        <property name="minDigits" nameId="tp6x.5581663871703912306" value="1" />
         <link role="property" roleId="tp6x.7249953535157223265" targetNodeId="tp6y.1172074737375" resolveInfo="day" />
       </node>
       <node role="token" roleId="tp6x.48671598477578849" type="tp6x.PeriodSeparatorFormatToken" typeId="tp6x.5581663871702358898" id="2872438607476928918">
@@ -5979,6 +5982,7 @@
       </node>
       <node role="token" roleId="tp6x.48671598477578849" type="tp6x.PeriodPropertyFormatToken" typeId="tp6x.7249953535157196261" id="2872438607476681436">
         <property name="suffix" nameId="tp6x.5581663871703912304" value=" hour(s)" />
+        <property name="minDigits" nameId="tp6x.5581663871703912306" value="1" />
         <link role="property" roleId="tp6x.7249953535157223265" targetNodeId="tp6y.1172074620250" resolveInfo="hour" />
       </node>
       <node role="token" roleId="tp6x.48671598477578849" type="tp6x.PeriodSeparatorFormatToken" typeId="tp6x.5581663871702358898" id="2872438607476928920">
@@ -5986,6 +5990,7 @@
       </node>
       <node role="token" roleId="tp6x.48671598477578849" type="tp6x.PeriodPropertyFormatToken" typeId="tp6x.7249953535157196261" id="2872438607476681438">
         <property name="suffix" nameId="tp6x.5581663871703912304" value=" minute(s)" />
+        <property name="minDigits" nameId="tp6x.5581663871703912306" value="1" />
         <link role="property" roleId="tp6x.7249953535157223265" targetNodeId="tp6y.1172074618358" resolveInfo="minute" />
       </node>
     </node>
@@ -5994,6 +5999,7 @@
       <node role="token" roleId="tp6x.48671598477578849" type="tp6x.PeriodPropertyFormatToken" typeId="tp6x.7249953535157196261" id="2872438607476694576">
         <property name="prefix" nameId="tp6x.5581663871703912302" value="Day: " />
         <property name="prefixPlural" nameId="tp6x.5581663871703912303" value="Days: " />
+        <property name="minDigits" nameId="tp6x.5581663871703912306" value="1" />
         <link role="property" roleId="tp6x.7249953535157223265" targetNodeId="tp6y.1172074737375" resolveInfo="day" />
       </node>
       <node role="token" roleId="tp6x.48671598477578849" type="tp6x.PeriodLiteralFormatToken" typeId="tp6x.48671598477581889" id="2872438607476899039">
