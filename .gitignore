@@ -8,6 +8,7 @@
 /IdeaPlugin/.idea/workspace.xml
 /IdeaPlugin/build
 /IdeaPlugin/mps-core/lib
+/IdeaPlugin/mps-core/languages
 classes
 classes_gen
 testclasses

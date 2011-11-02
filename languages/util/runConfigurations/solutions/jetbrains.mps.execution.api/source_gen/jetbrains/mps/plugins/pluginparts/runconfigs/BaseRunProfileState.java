@@ -18,7 +18,7 @@ import jetbrains.mps.debug.api.run.IDebuggerConfiguration;
 import jetbrains.mps.debug.api.IDebuggerSettings;
 import jetbrains.mps.debug.runtime.settings.LocalConnectionSettings;
 import jetbrains.mps.debug.api.IDebugger;
-import jetbrains.mps.debug.api.DefaultDebugger;
+import jetbrains.mps.debug.api.Debuggers;
 
 @Deprecated
 @ToRemove(version = 2.0)
@@ -63,13 +63,7 @@ public abstract class BaseRunProfileState extends DebuggerRunProfileState {
 
       @Override
       public IDebugger getDebugger() {
-        return new DefaultDebugger() {
-          @NotNull
-          @Override
-          public AbstractDebugSessionCreator createDebugSessionCreator(@NotNull Project project) {
-            return BaseRunProfileState.this.createDebugSessionCreator(project);
-          }
-        };
+        return Debuggers.getInstance().getDebuggerByName("Java");
       }
     };
   }
