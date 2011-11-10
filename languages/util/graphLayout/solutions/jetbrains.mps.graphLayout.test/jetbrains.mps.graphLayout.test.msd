@@ -1,8 +1,9 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <solution name="jetbrains.mps.graphLayout.test" uuid="1cf9ab03-28e6-49cc-b765-555cd6dcfc28" compileInMPS="true">
   <models>
-    <modelRoot path="${solution_descriptor}/" namespacePrefix="" />
+    <modelRoot path="${solution_descriptor}/" />
   </models>
+  <sourcePath />
   <dependencies>
     <dependency reexport="false">8b851d7a-07be-4a1c-b815-1fb38e1fa4cc(jetbrains.mps.graphLayout.graph)</dependency>
     <dependency reexport="false">5465d6e5-a895-46c0-8462-dad85a03ee2a(jetbrains.mps.graphLayout.layeredLayout)</dependency>
