@@ -36,17 +36,32 @@
     <scopeInfo nodeId="1213877224302" fileName="Content_Behavior.java" startLine="29" startPosition="77" endLine="30" endPosition="84" />
     <scopeInfo nodeId="1213877224310" fileName="Content_Behavior.java" startLine="33" startPosition="82" endLine="34" endPosition="34" />
     <scopeInfo nodeId="1213877224265" fileName="Content_Behavior.java" startLine="42" startPosition="112" endLine="43" endPosition="239" />
-    <scopeInfo nodeId="1213877224265" fileName="Content_Behavior.java" startLine="37" startPosition="79" endLine="39" endPosition="194" />
-    <scopeInfo nodeId="1213877224265" fileName="Content_Behavior.java" startLine="15" startPosition="0" endLine="18" endPosition="0" />
+    <scopeInfo nodeId="1213877224265" fileName="Content_Behavior.java" startLine="37" startPosition="79" endLine="39" endPosition="194">
+      <varInfo nodeId="1213877224265" varName="descriptor" />
+    </scopeInfo>
+    <scopeInfo nodeId="1213877224265" fileName="Content_Behavior.java" startLine="15" startPosition="0" endLine="18" endPosition="0">
+      <varInfo nodeId="1213877224265" varName="thisNode" />
+    </scopeInfo>
     <scopeInfo nodeId="1213877224280" fileName="Content_Behavior.java" startLine="21" startPosition="90" endLine="24" endPosition="7" />
-    <scopeInfo nodeId="1213877224265" fileName="Content_Behavior.java" startLine="28" startPosition="0" endLine="32" endPosition="0" />
-    <scopeInfo nodeId="1213877224265" fileName="Content_Behavior.java" startLine="32" startPosition="0" endLine="36" endPosition="0" />
-    <scopeInfo nodeId="1213877224265" fileName="Content_Behavior.java" startLine="41" startPosition="0" endLine="45" endPosition="0" />
-    <scopeInfo nodeId="1213877224265" fileName="Content_Behavior.java" startLine="36" startPosition="0" endLine="41" endPosition="0" />
+    <scopeInfo nodeId="1213877224265" fileName="Content_Behavior.java" startLine="28" startPosition="0" endLine="32" endPosition="0">
+      <varInfo nodeId="1213877224265" varName="thisNode" />
+    </scopeInfo>
+    <scopeInfo nodeId="1213877224265" fileName="Content_Behavior.java" startLine="32" startPosition="0" endLine="36" endPosition="0">
+      <varInfo nodeId="1213877224265" varName="thisNode" />
+    </scopeInfo>
+    <scopeInfo nodeId="1213877224265" fileName="Content_Behavior.java" startLine="41" startPosition="0" endLine="45" endPosition="0">
+      <varInfo nodeId="1213877224265" varName="callerConceptFqName" />
+      <varInfo nodeId="1213877224265" varName="thisNode" />
+    </scopeInfo>
+    <scopeInfo nodeId="1213877224265" fileName="Content_Behavior.java" startLine="36" startPosition="0" endLine="41" endPosition="0">
+      <varInfo nodeId="1213877224265" varName="thisNode" />
+    </scopeInfo>
     <scopeInfo nodeId="1213877224268" fileName="Content_Behavior.java" startLine="19" startPosition="71" endLine="26" endPosition="123">
       <varInfo nodeId="1213877224270" varName="parent" />
     </scopeInfo>
-    <scopeInfo nodeId="1213877224265" fileName="Content_Behavior.java" startLine="18" startPosition="0" endLine="28" endPosition="0" />
+    <scopeInfo nodeId="1213877224265" fileName="Content_Behavior.java" startLine="18" startPosition="0" endLine="28" endPosition="0">
+      <varInfo nodeId="1213877224265" varName="thisNode" />
+    </scopeInfo>
     <unitInfo nodeId="1213877224265" fileName="Content_Behavior.java" startLine="13" startPosition="0" endLine="46" endPosition="0" unitName="jetbrains.mps.xml.behavior.Content_Behavior" />
   </root>
   <root nodeId="1213877331918">
@@ -77,8 +92,12 @@
     <scopeInfo nodeId="1221256566645" fileName="ContentList_Behavior.java" startLine="30" startPosition="27" endLine="31" endPosition="18" />
     <scopeInfo nodeId="1221256566672" fileName="ContentList_Behavior.java" startLine="35" startPosition="186" endLine="36" endPosition="20" />
     <scopeInfo nodeId="1221256566684" fileName="ContentList_Behavior.java" startLine="40" startPosition="36" endLine="41" endPosition="85" />
-    <scopeInfo nodeId="1213877331918" fileName="ContentList_Behavior.java" startLine="13" startPosition="35" endLine="16" endPosition="0" />
-    <scopeInfo nodeId="1213877331918" fileName="ContentList_Behavior.java" startLine="16" startPosition="0" endLine="20" endPosition="0" />
+    <scopeInfo nodeId="1213877331918" fileName="ContentList_Behavior.java" startLine="13" startPosition="35" endLine="16" endPosition="0">
+      <varInfo nodeId="1213877331918" varName="thisNode" />
+    </scopeInfo>
+    <scopeInfo nodeId="1213877331918" fileName="ContentList_Behavior.java" startLine="16" startPosition="0" endLine="20" endPosition="0">
+      <varInfo nodeId="1213877331918" varName="thisNode" />
+    </scopeInfo>
     <scopeInfo nodeId="1221256566652" fileName="ContentList_Behavior.java" startLine="33" startPosition="27" endLine="37" endPosition="7">
       <varInfo nodeId="1221256566654" varName="first" />
     </scopeInfo>
@@ -87,7 +106,9 @@
       <varInfo nodeId="1221256566630" varName="contents" />
       <varInfo nodeId="1221256566676" varName="parentContentList" />
     </scopeInfo>
-    <scopeInfo nodeId="1213877331918" fileName="ContentList_Behavior.java" startLine="20" startPosition="0" endLine="45" endPosition="0" />
+    <scopeInfo nodeId="1213877331918" fileName="ContentList_Behavior.java" startLine="20" startPosition="0" endLine="45" endPosition="0">
+      <varInfo nodeId="1213877331918" varName="thisNode" />
+    </scopeInfo>
     <unitInfo nodeId="1213877331918" fileName="ContentList_Behavior.java" startLine="13" startPosition="0" endLine="46" endPosition="0" unitName="jetbrains.mps.xml.behavior.ContentList_Behavior" />
   </root>
   <root nodeId="1213877420377">
@@ -100,13 +121,20 @@
     <nodeInfo nodeId="1213877420377" fileName="XmlRoot_Behavior.java" startLine="17" startPosition="0" endLine="22" endPosition="0" conceptFqName="jetbrains.mps.baseLanguage.structure.StaticMethodDeclaration" propertyString="call_getSchema_1213877420378#(Ljetbrains/mps/smodel/SNode;Ljetbrains/mps/smodel/IScope;)Ljetbrains/mps/smodel/SNode;" />
     <scopeInfo nodeId="1213877420384" fileName="XmlRoot_Behavior.java" startLine="15" startPosition="43" endLine="15" endPosition="43" />
     <scopeInfo nodeId="1213877420377" fileName="XmlRoot_Behavior.java" startLine="23" startPosition="115" endLine="24" endPosition="235" />
-    <scopeInfo nodeId="1213877420377" fileName="XmlRoot_Behavior.java" startLine="18" startPosition="82" endLine="20" endPosition="190" />
-    <scopeInfo nodeId="1213877420377" fileName="XmlRoot_Behavior.java" startLine="14" startPosition="0" endLine="17" endPosition="0" />
+    <scopeInfo nodeId="1213877420377" fileName="XmlRoot_Behavior.java" startLine="18" startPosition="82" endLine="20" endPosition="190">
+      <varInfo nodeId="1213877420377" varName="descriptor" />
+    </scopeInfo>
+    <scopeInfo nodeId="1213877420377" fileName="XmlRoot_Behavior.java" startLine="14" startPosition="0" endLine="17" endPosition="0">
+      <varInfo nodeId="1213877420377" varName="thisNode" />
+    </scopeInfo>
     <scopeInfo nodeId="1213877420377" fileName="XmlRoot_Behavior.java" startLine="22" startPosition="0" endLine="26" endPosition="0">
+      <varInfo nodeId="1213877420377" varName="callerConceptFqName" />
       <varInfo nodeId="1213877420379" varName="scope" />
+      <varInfo nodeId="1213877420377" varName="thisNode" />
     </scopeInfo>
     <scopeInfo nodeId="1213877420377" fileName="XmlRoot_Behavior.java" startLine="17" startPosition="0" endLine="22" endPosition="0">
       <varInfo nodeId="1213877420379" varName="scope" />
+      <varInfo nodeId="1213877420377" varName="thisNode" />
     </scopeInfo>
     <unitInfo nodeId="1213877420377" fileName="XmlRoot_Behavior.java" startLine="12" startPosition="0" endLine="27" endPosition="0" unitName="jetbrains.mps.xml.behavior.XmlRoot_Behavior" />
   </root>
@@ -116,8 +144,12 @@
     <nodeInfo nodeId="1213877493868" fileName="BaseElement_Behavior.java" startLine="12" startPosition="0" endLine="16" endPosition="0" conceptFqName="jetbrains.mps.baseLanguage.structure.StaticMethodDeclaration" propertyString="virtual_getSubcontents_1213877224308#(Ljetbrains/mps/smodel/SNode;)Ljava/util/List;" />
     <scopeInfo nodeId="1213877493879" fileName="BaseElement_Behavior.java" startLine="10" startPosition="43" endLine="10" endPosition="43" />
     <scopeInfo nodeId="1213877493870" fileName="BaseElement_Behavior.java" startLine="13" startPosition="82" endLine="14" endPosition="113" />
-    <scopeInfo nodeId="1213877493868" fileName="BaseElement_Behavior.java" startLine="9" startPosition="35" endLine="12" endPosition="0" />
-    <scopeInfo nodeId="1213877493868" fileName="BaseElement_Behavior.java" startLine="12" startPosition="0" endLine="16" endPosition="0" />
+    <scopeInfo nodeId="1213877493868" fileName="BaseElement_Behavior.java" startLine="9" startPosition="35" endLine="12" endPosition="0">
+      <varInfo nodeId="1213877493868" varName="thisNode" />
+    </scopeInfo>
+    <scopeInfo nodeId="1213877493868" fileName="BaseElement_Behavior.java" startLine="12" startPosition="0" endLine="16" endPosition="0">
+      <varInfo nodeId="1213877493868" varName="thisNode" />
+    </scopeInfo>
     <unitInfo nodeId="1213877493868" fileName="BaseElement_Behavior.java" startLine="9" startPosition="0" endLine="17" endPosition="0" unitName="jetbrains.mps.xml.behavior.BaseElement_Behavior" />
   </root>
 </debugInfo>

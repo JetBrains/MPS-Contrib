@@ -21,9 +21,12 @@
     <nodeInfo nodeId="1213877487338" fileName="XmlFile_Behavior.java" startLine="12" startPosition="0" endLine="16" endPosition="0" conceptFqName="jetbrains.mps.baseLanguage.structure.StaticMethodDeclaration" propertyString="virtual_getSchema_1213877420378#(Ljetbrains/mps/smodel/SNode;Ljetbrains/mps/smodel/IScope;)Ljetbrains/mps/smodel/SNode;" />
     <scopeInfo nodeId="1213877487349" fileName="XmlFile_Behavior.java" startLine="10" startPosition="43" endLine="10" endPosition="43" />
     <scopeInfo nodeId="1213877487340" fileName="XmlFile_Behavior.java" startLine="13" startPosition="85" endLine="14" endPosition="64" />
-    <scopeInfo nodeId="1213877487338" fileName="XmlFile_Behavior.java" startLine="9" startPosition="31" endLine="12" endPosition="0" />
+    <scopeInfo nodeId="1213877487338" fileName="XmlFile_Behavior.java" startLine="9" startPosition="31" endLine="12" endPosition="0">
+      <varInfo nodeId="1213877487338" varName="thisNode" />
+    </scopeInfo>
     <scopeInfo nodeId="1213877487338" fileName="XmlFile_Behavior.java" startLine="12" startPosition="0" endLine="16" endPosition="0">
       <varInfo nodeId="1213877487345" varName="scope" />
+      <varInfo nodeId="1213877487338" varName="thisNode" />
     </scopeInfo>
     <unitInfo nodeId="1213877487338" fileName="XmlFile_Behavior.java" startLine="9" startPosition="0" endLine="17" endPosition="0" unitName="jetbrains.mps.xmlInternal.behavior.XmlFile_Behavior" />
   </root>

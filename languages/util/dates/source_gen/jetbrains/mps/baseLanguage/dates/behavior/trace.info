@@ -88,11 +88,22 @@
     <scopeInfo nodeId="1015544890586258580" fileName="NullOperation_Behavior.java" startLine="14" startPosition="43" endLine="14" endPosition="43" />
     <scopeInfo nodeId="1015544890586290193" fileName="NullOperation_Behavior.java" startLine="17" startPosition="85" endLine="18" endPosition="16" />
     <scopeInfo nodeId="1015544890586258578" fileName="NullOperation_Behavior.java" startLine="26" startPosition="116" endLine="27" endPosition="270" />
-    <scopeInfo nodeId="1015544890586258578" fileName="NullOperation_Behavior.java" startLine="21" startPosition="83" endLine="23" endPosition="225" />
-    <scopeInfo nodeId="1015544890586258578" fileName="NullOperation_Behavior.java" startLine="13" startPosition="0" endLine="16" endPosition="0" />
-    <scopeInfo nodeId="1015544890586258578" fileName="NullOperation_Behavior.java" startLine="16" startPosition="0" endLine="20" endPosition="0" />
-    <scopeInfo nodeId="1015544890586258578" fileName="NullOperation_Behavior.java" startLine="25" startPosition="0" endLine="29" endPosition="0" />
-    <scopeInfo nodeId="1015544890586258578" fileName="NullOperation_Behavior.java" startLine="20" startPosition="0" endLine="25" endPosition="0" />
+    <scopeInfo nodeId="1015544890586258578" fileName="NullOperation_Behavior.java" startLine="21" startPosition="83" endLine="23" endPosition="225">
+      <varInfo nodeId="1015544890586258578" varName="descriptor" />
+    </scopeInfo>
+    <scopeInfo nodeId="1015544890586258578" fileName="NullOperation_Behavior.java" startLine="13" startPosition="0" endLine="16" endPosition="0">
+      <varInfo nodeId="1015544890586258578" varName="thisNode" />
+    </scopeInfo>
+    <scopeInfo nodeId="1015544890586258578" fileName="NullOperation_Behavior.java" startLine="16" startPosition="0" endLine="20" endPosition="0">
+      <varInfo nodeId="1015544890586258578" varName="thisNode" />
+    </scopeInfo>
+    <scopeInfo nodeId="1015544890586258578" fileName="NullOperation_Behavior.java" startLine="25" startPosition="0" endLine="29" endPosition="0">
+      <varInfo nodeId="1015544890586258578" varName="callerConceptFqName" />
+      <varInfo nodeId="1015544890586258578" varName="thisNode" />
+    </scopeInfo>
+    <scopeInfo nodeId="1015544890586258578" fileName="NullOperation_Behavior.java" startLine="20" startPosition="0" endLine="25" endPosition="0">
+      <varInfo nodeId="1015544890586258578" varName="thisNode" />
+    </scopeInfo>
     <unitInfo nodeId="1015544890586258578" fileName="NullOperation_Behavior.java" startLine="11" startPosition="0" endLine="30" endPosition="0" unitName="jetbrains.mps.baseLanguage.dates.behavior.NullOperation_Behavior" />
   </root>
   <root nodeId="1015544890586293378">
@@ -108,11 +119,22 @@
     <scopeInfo nodeId="1015544890586293380" fileName="NotNullOperation_Behavior.java" startLine="14" startPosition="43" endLine="14" endPosition="43" />
     <scopeInfo nodeId="1015544890586293383" fileName="NotNullOperation_Behavior.java" startLine="17" startPosition="85" endLine="18" endPosition="16" />
     <scopeInfo nodeId="1015544890586293378" fileName="NotNullOperation_Behavior.java" startLine="26" startPosition="116" endLine="27" endPosition="273" />
-    <scopeInfo nodeId="1015544890586293378" fileName="NotNullOperation_Behavior.java" startLine="21" startPosition="83" endLine="23" endPosition="228" />
-    <scopeInfo nodeId="1015544890586293378" fileName="NotNullOperation_Behavior.java" startLine="13" startPosition="0" endLine="16" endPosition="0" />
-    <scopeInfo nodeId="1015544890586293378" fileName="NotNullOperation_Behavior.java" startLine="16" startPosition="0" endLine="20" endPosition="0" />
-    <scopeInfo nodeId="1015544890586293378" fileName="NotNullOperation_Behavior.java" startLine="25" startPosition="0" endLine="29" endPosition="0" />
-    <scopeInfo nodeId="1015544890586293378" fileName="NotNullOperation_Behavior.java" startLine="20" startPosition="0" endLine="25" endPosition="0" />
+    <scopeInfo nodeId="1015544890586293378" fileName="NotNullOperation_Behavior.java" startLine="21" startPosition="83" endLine="23" endPosition="228">
+      <varInfo nodeId="1015544890586293378" varName="descriptor" />
+    </scopeInfo>
+    <scopeInfo nodeId="1015544890586293378" fileName="NotNullOperation_Behavior.java" startLine="13" startPosition="0" endLine="16" endPosition="0">
+      <varInfo nodeId="1015544890586293378" varName="thisNode" />
+    </scopeInfo>
+    <scopeInfo nodeId="1015544890586293378" fileName="NotNullOperation_Behavior.java" startLine="16" startPosition="0" endLine="20" endPosition="0">
+      <varInfo nodeId="1015544890586293378" varName="thisNode" />
+    </scopeInfo>
+    <scopeInfo nodeId="1015544890586293378" fileName="NotNullOperation_Behavior.java" startLine="25" startPosition="0" endLine="29" endPosition="0">
+      <varInfo nodeId="1015544890586293378" varName="callerConceptFqName" />
+      <varInfo nodeId="1015544890586293378" varName="thisNode" />
+    </scopeInfo>
+    <scopeInfo nodeId="1015544890586293378" fileName="NotNullOperation_Behavior.java" startLine="20" startPosition="0" endLine="25" endPosition="0">
+      <varInfo nodeId="1015544890586293378" varName="thisNode" />
+    </scopeInfo>
     <unitInfo nodeId="1015544890586293378" fileName="NotNullOperation_Behavior.java" startLine="11" startPosition="0" endLine="30" endPosition="0" unitName="jetbrains.mps.baseLanguage.dates.behavior.NotNullOperation_Behavior" />
   </root>
   <root nodeId="1075917115049868776">
@@ -120,15 +142,21 @@
     <nodeInfo nodeId="1075917115049868784" fileName="ConditionalFormatToken_Behavior.java" startLine="13" startPosition="78" endLine="17" endPosition="7" conceptFqName="jetbrains.mps.baseLanguage.structure.ReturnStatement" />
     <nodeInfo nodeId="1075917115049868776" fileName="ConditionalFormatToken_Behavior.java" startLine="12" startPosition="0" endLine="19" endPosition="0" conceptFqName="jetbrains.mps.baseLanguage.structure.StaticMethodDeclaration" propertyString="call_getClassName_1075917115049868779#(Ljetbrains/mps/smodel/SNode;)Ljava/lang/String;" />
     <scopeInfo nodeId="1075917115049868778" fileName="ConditionalFormatToken_Behavior.java" startLine="10" startPosition="43" endLine="10" endPosition="43" />
-    <scopeInfo nodeId="1075917115049868776" fileName="ConditionalFormatToken_Behavior.java" startLine="9" startPosition="46" endLine="12" endPosition="0" />
+    <scopeInfo nodeId="1075917115049868776" fileName="ConditionalFormatToken_Behavior.java" startLine="9" startPosition="46" endLine="12" endPosition="0">
+      <varInfo nodeId="1075917115049868776" varName="thisNode" />
+    </scopeInfo>
     <scopeInfo nodeId="1075917115049868782" fileName="ConditionalFormatToken_Behavior.java" startLine="13" startPosition="78" endLine="17" endPosition="7" />
-    <scopeInfo nodeId="1075917115049868776" fileName="ConditionalFormatToken_Behavior.java" startLine="12" startPosition="0" endLine="19" endPosition="0" />
+    <scopeInfo nodeId="1075917115049868776" fileName="ConditionalFormatToken_Behavior.java" startLine="12" startPosition="0" endLine="19" endPosition="0">
+      <varInfo nodeId="1075917115049868776" varName="thisNode" />
+    </scopeInfo>
     <unitInfo nodeId="1075917115049868776" fileName="ConditionalFormatToken_Behavior.java" startLine="9" startPosition="0" endLine="20" endPosition="0" unitName="jetbrains.mps.baseLanguage.dates.behavior.ConditionalFormatToken_Behavior" />
   </root>
   <root nodeId="1213877259059">
     <nodeInfo nodeId="1213877259059" fileName="DateTimePropertyFormatToken_Behavior.java" startLine="7" startPosition="51" endLine="10" endPosition="0" conceptFqName="jetbrains.mps.baseLanguage.structure.StaticMethodDeclaration" propertyString="init#(Ljetbrains/mps/smodel/SNode;)V" />
     <scopeInfo nodeId="1213877259061" fileName="DateTimePropertyFormatToken_Behavior.java" startLine="8" startPosition="43" endLine="8" endPosition="43" />
-    <scopeInfo nodeId="1213877259059" fileName="DateTimePropertyFormatToken_Behavior.java" startLine="7" startPosition="51" endLine="10" endPosition="0" />
+    <scopeInfo nodeId="1213877259059" fileName="DateTimePropertyFormatToken_Behavior.java" startLine="7" startPosition="51" endLine="10" endPosition="0">
+      <varInfo nodeId="1213877259059" varName="thisNode" />
+    </scopeInfo>
     <unitInfo nodeId="1213877259059" fileName="DateTimePropertyFormatToken_Behavior.java" startLine="7" startPosition="0" endLine="11" endPosition="0" unitName="jetbrains.mps.baseLanguage.dates.behavior.DateTimePropertyFormatToken_Behavior" />
   </root>
   <root nodeId="1213877270116">
@@ -151,12 +179,19 @@
     <scopeInfo nodeId="1213877270305" fileName="ScheduleLiteral_Behavior.java" startLine="10" startPosition="43" endLine="10" endPosition="43" />
     <scopeInfo nodeId="1213877270119" fileName="ScheduleLiteral_Behavior.java" startLine="13" startPosition="67" endLine="14" endPosition="303" />
     <scopeInfo nodeId="1213877270141" fileName="ScheduleLiteral_Behavior.java" startLine="17" startPosition="68" endLine="18" endPosition="400" />
-    <scopeInfo nodeId="1213877270116" fileName="ScheduleLiteral_Behavior.java" startLine="9" startPosition="39" endLine="12" endPosition="0" />
-    <scopeInfo nodeId="1213877270116" fileName="ScheduleLiteral_Behavior.java" startLine="12" startPosition="0" endLine="16" endPosition="0" />
-    <scopeInfo nodeId="1213877270116" fileName="ScheduleLiteral_Behavior.java" startLine="16" startPosition="0" endLine="20" endPosition="0" />
+    <scopeInfo nodeId="1213877270116" fileName="ScheduleLiteral_Behavior.java" startLine="9" startPosition="39" endLine="12" endPosition="0">
+      <varInfo nodeId="1213877270116" varName="thisNode" />
+    </scopeInfo>
+    <scopeInfo nodeId="1213877270116" fileName="ScheduleLiteral_Behavior.java" startLine="12" startPosition="0" endLine="16" endPosition="0">
+      <varInfo nodeId="1213877270116" varName="thisNode" />
+    </scopeInfo>
+    <scopeInfo nodeId="1213877270116" fileName="ScheduleLiteral_Behavior.java" startLine="16" startPosition="0" endLine="20" endPosition="0">
+      <varInfo nodeId="1213877270116" varName="thisNode" />
+    </scopeInfo>
     <scopeInfo nodeId="1213877270283" fileName="ScheduleLiteral_Behavior.java" startLine="53" startPosition="84" endLine="57" endPosition="6" />
     <scopeInfo nodeId="1213877270116" fileName="ScheduleLiteral_Behavior.java" startLine="52" startPosition="0" endLine="59" endPosition="0">
       <varInfo nodeId="1213877270302" varName="s" />
+      <varInfo nodeId="1213877270116" varName="thisNode" />
     </scopeInfo>
     <scopeInfo nodeId="1213877270169" fileName="ScheduleLiteral_Behavior.java" startLine="21" startPosition="76" endLine="50" endPosition="97">
       <varInfo nodeId="1213877270219" varName="dayOfMonth" />
@@ -167,43 +202,57 @@
       <varInfo nodeId="1213877270171" varName="period" />
       <varInfo nodeId="1213877270177" varName="second" />
     </scopeInfo>
-    <scopeInfo nodeId="1213877270116" fileName="ScheduleLiteral_Behavior.java" startLine="20" startPosition="0" endLine="52" endPosition="0" />
+    <scopeInfo nodeId="1213877270116" fileName="ScheduleLiteral_Behavior.java" startLine="20" startPosition="0" endLine="52" endPosition="0">
+      <varInfo nodeId="1213877270116" varName="thisNode" />
+    </scopeInfo>
     <unitInfo nodeId="1213877270116" fileName="ScheduleLiteral_Behavior.java" startLine="9" startPosition="0" endLine="60" endPosition="0" unitName="jetbrains.mps.baseLanguage.dates.behavior.ScheduleLiteral_Behavior" />
   </root>
   <root nodeId="1213877283141">
     <nodeInfo nodeId="1213877283141" fileName="DateTimeOperation_Behavior.java" startLine="7" startPosition="41" endLine="10" endPosition="0" conceptFqName="jetbrains.mps.baseLanguage.structure.StaticMethodDeclaration" propertyString="init#(Ljetbrains/mps/smodel/SNode;)V" />
     <scopeInfo nodeId="1213877283143" fileName="DateTimeOperation_Behavior.java" startLine="8" startPosition="43" endLine="8" endPosition="43" />
-    <scopeInfo nodeId="1213877283141" fileName="DateTimeOperation_Behavior.java" startLine="7" startPosition="41" endLine="10" endPosition="0" />
+    <scopeInfo nodeId="1213877283141" fileName="DateTimeOperation_Behavior.java" startLine="7" startPosition="41" endLine="10" endPosition="0">
+      <varInfo nodeId="1213877283141" varName="thisNode" />
+    </scopeInfo>
     <unitInfo nodeId="1213877283141" fileName="DateTimeOperation_Behavior.java" startLine="7" startPosition="0" endLine="11" endPosition="0" unitName="jetbrains.mps.baseLanguage.dates.behavior.DateTimeOperation_Behavior" />
   </root>
   <root nodeId="1213877297616">
     <nodeInfo nodeId="1213877297616" fileName="TokenConditionalPair_Behavior.java" startLine="7" startPosition="44" endLine="10" endPosition="0" conceptFqName="jetbrains.mps.baseLanguage.structure.StaticMethodDeclaration" propertyString="init#(Ljetbrains/mps/smodel/SNode;)V" />
     <scopeInfo nodeId="1213877297618" fileName="TokenConditionalPair_Behavior.java" startLine="8" startPosition="43" endLine="8" endPosition="43" />
-    <scopeInfo nodeId="1213877297616" fileName="TokenConditionalPair_Behavior.java" startLine="7" startPosition="44" endLine="10" endPosition="0" />
+    <scopeInfo nodeId="1213877297616" fileName="TokenConditionalPair_Behavior.java" startLine="7" startPosition="44" endLine="10" endPosition="0">
+      <varInfo nodeId="1213877297616" varName="thisNode" />
+    </scopeInfo>
     <unitInfo nodeId="1213877297616" fileName="TokenConditionalPair_Behavior.java" startLine="7" startPosition="0" endLine="11" endPosition="0" unitName="jetbrains.mps.baseLanguage.dates.behavior.TokenConditionalPair_Behavior" />
   </root>
   <root nodeId="1213877368222">
     <nodeInfo nodeId="1213877368222" fileName="ReferenceFormatToken_Behavior.java" startLine="7" startPosition="44" endLine="10" endPosition="0" conceptFqName="jetbrains.mps.baseLanguage.structure.StaticMethodDeclaration" propertyString="init#(Ljetbrains/mps/smodel/SNode;)V" />
     <scopeInfo nodeId="1213877368224" fileName="ReferenceFormatToken_Behavior.java" startLine="8" startPosition="43" endLine="8" endPosition="43" />
-    <scopeInfo nodeId="1213877368222" fileName="ReferenceFormatToken_Behavior.java" startLine="7" startPosition="44" endLine="10" endPosition="0" />
+    <scopeInfo nodeId="1213877368222" fileName="ReferenceFormatToken_Behavior.java" startLine="7" startPosition="44" endLine="10" endPosition="0">
+      <varInfo nodeId="1213877368222" varName="thisNode" />
+    </scopeInfo>
     <unitInfo nodeId="1213877368222" fileName="ReferenceFormatToken_Behavior.java" startLine="7" startPosition="0" endLine="11" endPosition="0" unitName="jetbrains.mps.baseLanguage.dates.behavior.ReferenceFormatToken_Behavior" />
   </root>
   <root nodeId="1213877382786">
     <nodeInfo nodeId="1213877382786" fileName="ConvertToDateTimeOperation_Behavior.java" startLine="7" startPosition="50" endLine="10" endPosition="0" conceptFqName="jetbrains.mps.baseLanguage.structure.StaticMethodDeclaration" propertyString="init#(Ljetbrains/mps/smodel/SNode;)V" />
     <scopeInfo nodeId="1213877382788" fileName="ConvertToDateTimeOperation_Behavior.java" startLine="8" startPosition="43" endLine="8" endPosition="43" />
-    <scopeInfo nodeId="1213877382786" fileName="ConvertToDateTimeOperation_Behavior.java" startLine="7" startPosition="50" endLine="10" endPosition="0" />
+    <scopeInfo nodeId="1213877382786" fileName="ConvertToDateTimeOperation_Behavior.java" startLine="7" startPosition="50" endLine="10" endPosition="0">
+      <varInfo nodeId="1213877382786" varName="thisNode" />
+    </scopeInfo>
     <unitInfo nodeId="1213877382786" fileName="ConvertToDateTimeOperation_Behavior.java" startLine="7" startPosition="0" endLine="11" endPosition="0" unitName="jetbrains.mps.baseLanguage.dates.behavior.ConvertToDateTimeOperation_Behavior" />
   </root>
   <root nodeId="1213877413175">
     <nodeInfo nodeId="1213877413175" fileName="DateFormat_Behavior.java" startLine="7" startPosition="34" endLine="10" endPosition="0" conceptFqName="jetbrains.mps.baseLanguage.structure.StaticMethodDeclaration" propertyString="init#(Ljetbrains/mps/smodel/SNode;)V" />
     <scopeInfo nodeId="1213877413177" fileName="DateFormat_Behavior.java" startLine="8" startPosition="43" endLine="8" endPosition="43" />
-    <scopeInfo nodeId="1213877413175" fileName="DateFormat_Behavior.java" startLine="7" startPosition="34" endLine="10" endPosition="0" />
+    <scopeInfo nodeId="1213877413175" fileName="DateFormat_Behavior.java" startLine="7" startPosition="34" endLine="10" endPosition="0">
+      <varInfo nodeId="1213877413175" varName="thisNode" />
+    </scopeInfo>
     <unitInfo nodeId="1213877413175" fileName="DateFormat_Behavior.java" startLine="7" startPosition="0" endLine="11" endPosition="0" unitName="jetbrains.mps.baseLanguage.dates.behavior.DateFormat_Behavior" />
   </root>
   <root nodeId="1213877434064">
     <nodeInfo nodeId="1213877434064" fileName="FixedLocaleFormatToken_Behavior.java" startLine="7" startPosition="46" endLine="10" endPosition="0" conceptFqName="jetbrains.mps.baseLanguage.structure.StaticMethodDeclaration" propertyString="init#(Ljetbrains/mps/smodel/SNode;)V" />
     <scopeInfo nodeId="1213877434066" fileName="FixedLocaleFormatToken_Behavior.java" startLine="8" startPosition="43" endLine="8" endPosition="43" />
-    <scopeInfo nodeId="1213877434064" fileName="FixedLocaleFormatToken_Behavior.java" startLine="7" startPosition="46" endLine="10" endPosition="0" />
+    <scopeInfo nodeId="1213877434064" fileName="FixedLocaleFormatToken_Behavior.java" startLine="7" startPosition="46" endLine="10" endPosition="0">
+      <varInfo nodeId="1213877434064" varName="thisNode" />
+    </scopeInfo>
     <unitInfo nodeId="1213877434064" fileName="FixedLocaleFormatToken_Behavior.java" startLine="7" startPosition="0" endLine="11" endPosition="0" unitName="jetbrains.mps.baseLanguage.dates.behavior.FixedLocaleFormatToken_Behavior" />
   </root>
   <root nodeId="1213877472159">
@@ -277,11 +326,21 @@
     <scopeInfo nodeId="1213877472159" fileName="FormatExpression_Behavior.java" startLine="55" startPosition="56" endLine="57" endPosition="5" />
     <scopeInfo nodeId="1213877472159" fileName="FormatExpression_Behavior.java" startLine="72" startPosition="53" endLine="74" endPosition="5" />
     <scopeInfo nodeId="1213877472159" fileName="FormatExpression_Behavior.java" startLine="89" startPosition="54" endLine="91" endPosition="5" />
-    <scopeInfo nodeId="1213877472159" fileName="FormatExpression_Behavior.java" startLine="13" startPosition="40" endLine="16" endPosition="0" />
-    <scopeInfo nodeId="1213877472159" fileName="FormatExpression_Behavior.java" startLine="46" startPosition="7" endLine="49" endPosition="31" />
-    <scopeInfo nodeId="1213877472159" fileName="FormatExpression_Behavior.java" startLine="63" startPosition="7" endLine="66" endPosition="31" />
-    <scopeInfo nodeId="1213877472159" fileName="FormatExpression_Behavior.java" startLine="80" startPosition="7" endLine="83" endPosition="31" />
-    <scopeInfo nodeId="1213877472159" fileName="FormatExpression_Behavior.java" startLine="97" startPosition="7" endLine="100" endPosition="31" />
+    <scopeInfo nodeId="1213877472159" fileName="FormatExpression_Behavior.java" startLine="13" startPosition="40" endLine="16" endPosition="0">
+      <varInfo nodeId="1213877472159" varName="thisNode" />
+    </scopeInfo>
+    <scopeInfo nodeId="1213877472159" fileName="FormatExpression_Behavior.java" startLine="46" startPosition="7" endLine="49" endPosition="31">
+      <varInfo nodeId="1213877472159" varName="quotedNode1_2" />
+    </scopeInfo>
+    <scopeInfo nodeId="1213877472159" fileName="FormatExpression_Behavior.java" startLine="63" startPosition="7" endLine="66" endPosition="31">
+      <varInfo nodeId="1213877472159" varName="quotedNode1_2" />
+    </scopeInfo>
+    <scopeInfo nodeId="1213877472159" fileName="FormatExpression_Behavior.java" startLine="80" startPosition="7" endLine="83" endPosition="31">
+      <varInfo nodeId="1213877472159" varName="quotedNode1_2" />
+    </scopeInfo>
+    <scopeInfo nodeId="1213877472159" fileName="FormatExpression_Behavior.java" startLine="97" startPosition="7" endLine="100" endPosition="31">
+      <varInfo nodeId="1213877472159" varName="quotedNode1_2" />
+    </scopeInfo>
     <scopeInfo nodeId="1213877472159" fileName="FormatExpression_Behavior.java" startLine="45" startPosition="32" endLine="50" endPosition="7" />
     <scopeInfo nodeId="1213877472159" fileName="FormatExpression_Behavior.java" startLine="62" startPosition="32" endLine="67" endPosition="7" />
     <scopeInfo nodeId="1213877472159" fileName="FormatExpression_Behavior.java" startLine="79" startPosition="32" endLine="84" endPosition="7" />
@@ -294,13 +353,31 @@
     <scopeInfo nodeId="1213877472159" fileName="FormatExpression_Behavior.java" startLine="28" startPosition="0" endLine="37" endPosition="0">
       <varInfo nodeId="4555537781928387834" varName="expression" />
       <varInfo nodeId="4555537781928387836" varName="link" />
+      <varInfo nodeId="1213877472159" varName="thisNode" />
     </scopeInfo>
-    <scopeInfo nodeId="1213877472159" fileName="FormatExpression_Behavior.java" startLine="42" startPosition="31" endLine="51" endPosition="20" />
-    <scopeInfo nodeId="1213877472159" fileName="FormatExpression_Behavior.java" startLine="59" startPosition="31" endLine="68" endPosition="20" />
-    <scopeInfo nodeId="1213877472159" fileName="FormatExpression_Behavior.java" startLine="76" startPosition="31" endLine="85" endPosition="20" />
-    <scopeInfo nodeId="1213877472159" fileName="FormatExpression_Behavior.java" startLine="93" startPosition="31" endLine="102" endPosition="20" />
+    <scopeInfo nodeId="1213877472159" fileName="FormatExpression_Behavior.java" startLine="42" startPosition="31" endLine="51" endPosition="20">
+      <varInfo nodeId="1213877472159" varName="_parameterValues_129834374" />
+      <varInfo nodeId="1213877472159" varName="quotedNode_1" />
+      <varInfo nodeId="1213877472159" varName="result" />
+    </scopeInfo>
+    <scopeInfo nodeId="1213877472159" fileName="FormatExpression_Behavior.java" startLine="59" startPosition="31" endLine="68" endPosition="20">
+      <varInfo nodeId="1213877472159" varName="_parameterValues_129834374" />
+      <varInfo nodeId="1213877472159" varName="quotedNode_1" />
+      <varInfo nodeId="1213877472159" varName="result" />
+    </scopeInfo>
+    <scopeInfo nodeId="1213877472159" fileName="FormatExpression_Behavior.java" startLine="76" startPosition="31" endLine="85" endPosition="20">
+      <varInfo nodeId="1213877472159" varName="_parameterValues_129834374" />
+      <varInfo nodeId="1213877472159" varName="quotedNode_1" />
+      <varInfo nodeId="1213877472159" varName="result" />
+    </scopeInfo>
+    <scopeInfo nodeId="1213877472159" fileName="FormatExpression_Behavior.java" startLine="93" startPosition="31" endLine="102" endPosition="20">
+      <varInfo nodeId="1213877472159" varName="_parameterValues_129834374" />
+      <varInfo nodeId="1213877472159" varName="quotedNode_1" />
+      <varInfo nodeId="1213877472159" varName="result" />
+    </scopeInfo>
     <scopeInfo nodeId="1213877472159" fileName="FormatExpression_Behavior.java" startLine="16" startPosition="0" endLine="28" endPosition="0">
       <varInfo nodeId="4555537781928185680" varName="expression" />
+      <varInfo nodeId="1213877472159" varName="thisNode" />
     </scopeInfo>
     <scopeInfo nodeId="1213877472159" fileName="FormatExpression_Behavior.java" startLine="41" startPosition="0" endLine="53" endPosition="0" />
     <scopeInfo nodeId="1213877472159" fileName="FormatExpression_Behavior.java" startLine="58" startPosition="0" endLine="70" endPosition="0" />
@@ -342,18 +419,36 @@
     <scopeInfo nodeId="1213877526455" fileName="DateTimeCompareOperation_Behavior.java" startLine="38" startPosition="65" endLine="39" endPosition="104" />
     <scopeInfo nodeId="1213877526465" fileName="DateTimeCompareOperation_Behavior.java" startLine="42" startPosition="65" endLine="43" endPosition="111" />
     <scopeInfo nodeId="1213877526475" fileName="DateTimeCompareOperation_Behavior.java" startLine="46" startPosition="65" endLine="47" endPosition="114" />
-    <scopeInfo nodeId="1213877526003" fileName="DateTimeCompareOperation_Behavior.java" startLine="10" startPosition="48" endLine="13" endPosition="0" />
-    <scopeInfo nodeId="1213877526003" fileName="DateTimeCompareOperation_Behavior.java" startLine="13" startPosition="0" endLine="17" endPosition="0" />
-    <scopeInfo nodeId="1213877526003" fileName="DateTimeCompareOperation_Behavior.java" startLine="25" startPosition="0" endLine="29" endPosition="0" />
-    <scopeInfo nodeId="1213877526003" fileName="DateTimeCompareOperation_Behavior.java" startLine="29" startPosition="0" endLine="33" endPosition="0" />
-    <scopeInfo nodeId="1213877526003" fileName="DateTimeCompareOperation_Behavior.java" startLine="33" startPosition="0" endLine="37" endPosition="0" />
-    <scopeInfo nodeId="1213877526003" fileName="DateTimeCompareOperation_Behavior.java" startLine="37" startPosition="0" endLine="41" endPosition="0" />
-    <scopeInfo nodeId="1213877526003" fileName="DateTimeCompareOperation_Behavior.java" startLine="41" startPosition="0" endLine="45" endPosition="0" />
-    <scopeInfo nodeId="1213877526003" fileName="DateTimeCompareOperation_Behavior.java" startLine="45" startPosition="0" endLine="49" endPosition="0" />
+    <scopeInfo nodeId="1213877526003" fileName="DateTimeCompareOperation_Behavior.java" startLine="10" startPosition="48" endLine="13" endPosition="0">
+      <varInfo nodeId="1213877526003" varName="thisNode" />
+    </scopeInfo>
+    <scopeInfo nodeId="1213877526003" fileName="DateTimeCompareOperation_Behavior.java" startLine="13" startPosition="0" endLine="17" endPosition="0">
+      <varInfo nodeId="1213877526003" varName="thisNode" />
+    </scopeInfo>
+    <scopeInfo nodeId="1213877526003" fileName="DateTimeCompareOperation_Behavior.java" startLine="25" startPosition="0" endLine="29" endPosition="0">
+      <varInfo nodeId="1213877526003" varName="thisNode" />
+    </scopeInfo>
+    <scopeInfo nodeId="1213877526003" fileName="DateTimeCompareOperation_Behavior.java" startLine="29" startPosition="0" endLine="33" endPosition="0">
+      <varInfo nodeId="1213877526003" varName="thisNode" />
+    </scopeInfo>
+    <scopeInfo nodeId="1213877526003" fileName="DateTimeCompareOperation_Behavior.java" startLine="33" startPosition="0" endLine="37" endPosition="0">
+      <varInfo nodeId="1213877526003" varName="thisNode" />
+    </scopeInfo>
+    <scopeInfo nodeId="1213877526003" fileName="DateTimeCompareOperation_Behavior.java" startLine="37" startPosition="0" endLine="41" endPosition="0">
+      <varInfo nodeId="1213877526003" varName="thisNode" />
+    </scopeInfo>
+    <scopeInfo nodeId="1213877526003" fileName="DateTimeCompareOperation_Behavior.java" startLine="41" startPosition="0" endLine="45" endPosition="0">
+      <varInfo nodeId="1213877526003" varName="thisNode" />
+    </scopeInfo>
+    <scopeInfo nodeId="1213877526003" fileName="DateTimeCompareOperation_Behavior.java" startLine="45" startPosition="0" endLine="49" endPosition="0">
+      <varInfo nodeId="1213877526003" varName="thisNode" />
+    </scopeInfo>
     <scopeInfo nodeId="1213877526401" fileName="DateTimeCompareOperation_Behavior.java" startLine="18" startPosition="78" endLine="23" endPosition="20">
       <varInfo nodeId="1213877526403" varName="property" />
     </scopeInfo>
-    <scopeInfo nodeId="1213877526003" fileName="DateTimeCompareOperation_Behavior.java" startLine="17" startPosition="0" endLine="25" endPosition="0" />
+    <scopeInfo nodeId="1213877526003" fileName="DateTimeCompareOperation_Behavior.java" startLine="17" startPosition="0" endLine="25" endPosition="0">
+      <varInfo nodeId="1213877526003" varName="thisNode" />
+    </scopeInfo>
     <unitInfo nodeId="1213877526003" fileName="DateTimeCompareOperation_Behavior.java" startLine="10" startPosition="0" endLine="50" endPosition="0" unitName="jetbrains.mps.baseLanguage.dates.behavior.DateTimeCompareOperation_Behavior" />
   </root>
   <root nodeId="1224665495957">
@@ -362,8 +457,12 @@
     <nodeInfo nodeId="1224665495957" fileName="DateFormatsTable_Behavior.java" startLine="12" startPosition="0" endLine="16" endPosition="0" conceptFqName="jetbrains.mps.baseLanguage.structure.StaticMethodDeclaration" propertyString="call_getGeneratedConstantName_1224665497476#(Ljetbrains/mps/smodel/SNode;)Ljava/lang/String;" />
     <scopeInfo nodeId="1224665495959" fileName="DateFormatsTable_Behavior.java" startLine="10" startPosition="43" endLine="10" endPosition="43" />
     <scopeInfo nodeId="1224665497479" fileName="DateFormatsTable_Behavior.java" startLine="13" startPosition="84" endLine="14" endPosition="84" />
-    <scopeInfo nodeId="1224665495957" fileName="DateFormatsTable_Behavior.java" startLine="9" startPosition="40" endLine="12" endPosition="0" />
-    <scopeInfo nodeId="1224665495957" fileName="DateFormatsTable_Behavior.java" startLine="12" startPosition="0" endLine="16" endPosition="0" />
+    <scopeInfo nodeId="1224665495957" fileName="DateFormatsTable_Behavior.java" startLine="9" startPosition="40" endLine="12" endPosition="0">
+      <varInfo nodeId="1224665495957" varName="thisNode" />
+    </scopeInfo>
+    <scopeInfo nodeId="1224665495957" fileName="DateFormatsTable_Behavior.java" startLine="12" startPosition="0" endLine="16" endPosition="0">
+      <varInfo nodeId="1224665495957" varName="thisNode" />
+    </scopeInfo>
     <unitInfo nodeId="1224665495957" fileName="DateFormatsTable_Behavior.java" startLine="9" startPosition="0" endLine="17" endPosition="0" unitName="jetbrains.mps.baseLanguage.dates.behavior.DateFormatsTable_Behavior" />
   </root>
   <root nodeId="1227698902205">
@@ -386,11 +485,21 @@
     <scopeInfo nodeId="1227698902205" fileName="DateTimeType_Behavior.java" startLine="23" startPosition="41" endLine="23" endPosition="41" />
     <scopeInfo nodeId="1227698905851" fileName="DateTimeType_Behavior.java" startLine="18" startPosition="73" endLine="19" endPosition="79" />
     <scopeInfo nodeId="1227698902205" fileName="DateTimeType_Behavior.java" startLine="22" startPosition="50" endLine="24" endPosition="5" />
-    <scopeInfo nodeId="1227698902205" fileName="DateTimeType_Behavior.java" startLine="14" startPosition="36" endLine="17" endPosition="0" />
-    <scopeInfo nodeId="1227698902205" fileName="DateTimeType_Behavior.java" startLine="17" startPosition="0" endLine="21" endPosition="0" />
-    <scopeInfo nodeId="1227698902205" fileName="DateTimeType_Behavior.java" startLine="30" startPosition="7" endLine="34" endPosition="31" />
+    <scopeInfo nodeId="1227698902205" fileName="DateTimeType_Behavior.java" startLine="14" startPosition="36" endLine="17" endPosition="0">
+      <varInfo nodeId="1227698902205" varName="thisNode" />
+    </scopeInfo>
+    <scopeInfo nodeId="1227698902205" fileName="DateTimeType_Behavior.java" startLine="17" startPosition="0" endLine="21" endPosition="0">
+      <varInfo nodeId="1227698902205" varName="thisNode" />
+    </scopeInfo>
+    <scopeInfo nodeId="1227698902205" fileName="DateTimeType_Behavior.java" startLine="30" startPosition="7" endLine="34" endPosition="31">
+      <varInfo nodeId="1227698902205" varName="quotedNode1_2" />
+    </scopeInfo>
     <scopeInfo nodeId="1227698902205" fileName="DateTimeType_Behavior.java" startLine="29" startPosition="32" endLine="35" endPosition="7" />
-    <scopeInfo nodeId="1227698902205" fileName="DateTimeType_Behavior.java" startLine="26" startPosition="31" endLine="36" endPosition="20" />
+    <scopeInfo nodeId="1227698902205" fileName="DateTimeType_Behavior.java" startLine="26" startPosition="31" endLine="36" endPosition="20">
+      <varInfo nodeId="1227698902205" varName="_parameterValues_129834374" />
+      <varInfo nodeId="1227698902205" varName="quotedNode_1" />
+      <varInfo nodeId="1227698902205" varName="result" />
+    </scopeInfo>
     <scopeInfo nodeId="1227698902205" fileName="DateTimeType_Behavior.java" startLine="25" startPosition="0" endLine="38" endPosition="0" />
     <unitInfo nodeId="1227698902205" fileName="DateTimeType_Behavior.java" startLine="14" startPosition="0" endLine="40" endPosition="0" unitName="jetbrains.mps.baseLanguage.dates.behavior.DateTimeType_Behavior" />
     <unitInfo nodeId="1227698902205" fileName="DateTimeType_Behavior.java" startLine="22" startPosition="0" endLine="39" endPosition="0" unitName="jetbrains.mps.baseLanguage.dates.behavior.DateTimeType_Behavior$QuotationClass_rg6b2_a0a0b" />
@@ -468,13 +577,27 @@
     <scopeInfo nodeId="1238250703195" fileName="MathDateTimeOperation_Behavior.java" startLine="57" startPosition="55" endLine="59" endPosition="5" />
     <scopeInfo nodeId="1238250703195" fileName="MathDateTimeOperation_Behavior.java" startLine="75" startPosition="55" endLine="77" endPosition="5" />
     <scopeInfo nodeId="1238250703195" fileName="MathDateTimeOperation_Behavior.java" startLine="93" startPosition="55" endLine="95" endPosition="5" />
-    <scopeInfo nodeId="1238250703195" fileName="MathDateTimeOperation_Behavior.java" startLine="16" startPosition="45" endLine="19" endPosition="0" />
-    <scopeInfo nodeId="1238250703195" fileName="MathDateTimeOperation_Behavior.java" startLine="101" startPosition="7" endLine="104" endPosition="31" />
-    <scopeInfo nodeId="1238250703195" fileName="MathDateTimeOperation_Behavior.java" startLine="19" startPosition="0" endLine="23" endPosition="0" />
-    <scopeInfo nodeId="1238250703195" fileName="MathDateTimeOperation_Behavior.java" startLine="23" startPosition="0" endLine="27" endPosition="0" />
-    <scopeInfo nodeId="1238250703195" fileName="MathDateTimeOperation_Behavior.java" startLine="47" startPosition="7" endLine="51" endPosition="31" />
-    <scopeInfo nodeId="1238250703195" fileName="MathDateTimeOperation_Behavior.java" startLine="65" startPosition="7" endLine="69" endPosition="31" />
-    <scopeInfo nodeId="1238250703195" fileName="MathDateTimeOperation_Behavior.java" startLine="83" startPosition="7" endLine="87" endPosition="31" />
+    <scopeInfo nodeId="1238250703195" fileName="MathDateTimeOperation_Behavior.java" startLine="16" startPosition="45" endLine="19" endPosition="0">
+      <varInfo nodeId="1238250703195" varName="thisNode" />
+    </scopeInfo>
+    <scopeInfo nodeId="1238250703195" fileName="MathDateTimeOperation_Behavior.java" startLine="101" startPosition="7" endLine="104" endPosition="31">
+      <varInfo nodeId="1238250703195" varName="quotedNode1_2" />
+    </scopeInfo>
+    <scopeInfo nodeId="1238250703195" fileName="MathDateTimeOperation_Behavior.java" startLine="19" startPosition="0" endLine="23" endPosition="0">
+      <varInfo nodeId="1238250703195" varName="thisNode" />
+    </scopeInfo>
+    <scopeInfo nodeId="1238250703195" fileName="MathDateTimeOperation_Behavior.java" startLine="23" startPosition="0" endLine="27" endPosition="0">
+      <varInfo nodeId="1238250703195" varName="thisNode" />
+    </scopeInfo>
+    <scopeInfo nodeId="1238250703195" fileName="MathDateTimeOperation_Behavior.java" startLine="47" startPosition="7" endLine="51" endPosition="31">
+      <varInfo nodeId="1238250703195" varName="quotedNode1_2" />
+    </scopeInfo>
+    <scopeInfo nodeId="1238250703195" fileName="MathDateTimeOperation_Behavior.java" startLine="65" startPosition="7" endLine="69" endPosition="31">
+      <varInfo nodeId="1238250703195" varName="quotedNode1_2" />
+    </scopeInfo>
+    <scopeInfo nodeId="1238250703195" fileName="MathDateTimeOperation_Behavior.java" startLine="83" startPosition="7" endLine="87" endPosition="31">
+      <varInfo nodeId="1238250703195" varName="quotedNode1_2" />
+    </scopeInfo>
     <scopeInfo nodeId="1238250703195" fileName="MathDateTimeOperation_Behavior.java" startLine="100" startPosition="32" endLine="105" endPosition="7" />
     <scopeInfo nodeId="1238250703195" fileName="MathDateTimeOperation_Behavior.java" startLine="46" startPosition="32" endLine="52" endPosition="7" />
     <scopeInfo nodeId="1238250703195" fileName="MathDateTimeOperation_Behavior.java" startLine="64" startPosition="32" endLine="70" endPosition="7" />
@@ -483,12 +606,29 @@
       <varInfo nodeId="1238250788317" varName="can" />
       <varInfo nodeId="1238250788323" varName="expressionType" />
     </scopeInfo>
-    <scopeInfo nodeId="1238250703195" fileName="MathDateTimeOperation_Behavior.java" startLine="97" startPosition="31" endLine="106" endPosition="20" />
-    <scopeInfo nodeId="1238250703195" fileName="MathDateTimeOperation_Behavior.java" startLine="43" startPosition="31" endLine="53" endPosition="20" />
-    <scopeInfo nodeId="1238250703195" fileName="MathDateTimeOperation_Behavior.java" startLine="61" startPosition="31" endLine="71" endPosition="20" />
-    <scopeInfo nodeId="1238250703195" fileName="MathDateTimeOperation_Behavior.java" startLine="79" startPosition="31" endLine="89" endPosition="20" />
+    <scopeInfo nodeId="1238250703195" fileName="MathDateTimeOperation_Behavior.java" startLine="97" startPosition="31" endLine="106" endPosition="20">
+      <varInfo nodeId="1238250703195" varName="_parameterValues_129834374" />
+      <varInfo nodeId="1238250703195" varName="quotedNode_1" />
+      <varInfo nodeId="1238250703195" varName="result" />
+    </scopeInfo>
+    <scopeInfo nodeId="1238250703195" fileName="MathDateTimeOperation_Behavior.java" startLine="43" startPosition="31" endLine="53" endPosition="20">
+      <varInfo nodeId="1238250703195" varName="_parameterValues_129834374" />
+      <varInfo nodeId="1238250703195" varName="quotedNode_1" />
+      <varInfo nodeId="1238250703195" varName="result" />
+    </scopeInfo>
+    <scopeInfo nodeId="1238250703195" fileName="MathDateTimeOperation_Behavior.java" startLine="61" startPosition="31" endLine="71" endPosition="20">
+      <varInfo nodeId="1238250703195" varName="_parameterValues_129834374" />
+      <varInfo nodeId="1238250703195" varName="quotedNode_1" />
+      <varInfo nodeId="1238250703195" varName="result" />
+    </scopeInfo>
+    <scopeInfo nodeId="1238250703195" fileName="MathDateTimeOperation_Behavior.java" startLine="79" startPosition="31" endLine="89" endPosition="20">
+      <varInfo nodeId="1238250703195" varName="_parameterValues_129834374" />
+      <varInfo nodeId="1238250703195" varName="quotedNode_1" />
+      <varInfo nodeId="1238250703195" varName="result" />
+    </scopeInfo>
     <scopeInfo nodeId="1238250703195" fileName="MathDateTimeOperation_Behavior.java" startLine="27" startPosition="0" endLine="38" endPosition="0">
       <varInfo nodeId="1238250793012" varName="expression" />
+      <varInfo nodeId="1238250703195" varName="thisNode" />
     </scopeInfo>
     <scopeInfo nodeId="1238250703195" fileName="MathDateTimeOperation_Behavior.java" startLine="96" startPosition="0" endLine="108" endPosition="0" />
     <scopeInfo nodeId="1238250703195" fileName="MathDateTimeOperation_Behavior.java" startLine="42" startPosition="0" endLine="55" endPosition="0" />
@@ -509,11 +649,15 @@
     <nodeInfo nodeId="1239206692654" fileName="WithPropertyCompareExpression_Behavior.java" startLine="12" startPosition="0" endLine="20" endPosition="0" conceptFqName="jetbrains.mps.baseLanguage.structure.StaticMethodDeclaration" propertyString="call_getDatetimeProperty_1239206693907#(Ljetbrains/mps/smodel/SNode;)Ljetbrains/mps/smodel/SNode;" />
     <scopeInfo nodeId="1239206692656" fileName="WithPropertyCompareExpression_Behavior.java" startLine="10" startPosition="43" endLine="10" endPosition="43" />
     <scopeInfo nodeId="1239206693917" fileName="WithPropertyCompareExpression_Behavior.java" startLine="15" startPosition="29" endLine="16" endPosition="123" />
-    <scopeInfo nodeId="1239206692654" fileName="WithPropertyCompareExpression_Behavior.java" startLine="9" startPosition="53" endLine="12" endPosition="0" />
+    <scopeInfo nodeId="1239206692654" fileName="WithPropertyCompareExpression_Behavior.java" startLine="9" startPosition="53" endLine="12" endPosition="0">
+      <varInfo nodeId="1239206692654" varName="thisNode" />
+    </scopeInfo>
     <scopeInfo nodeId="1239206693909" fileName="WithPropertyCompareExpression_Behavior.java" startLine="13" startPosition="78" endLine="18" endPosition="20">
       <varInfo nodeId="1239206693911" varName="property" />
     </scopeInfo>
-    <scopeInfo nodeId="1239206692654" fileName="WithPropertyCompareExpression_Behavior.java" startLine="12" startPosition="0" endLine="20" endPosition="0" />
+    <scopeInfo nodeId="1239206692654" fileName="WithPropertyCompareExpression_Behavior.java" startLine="12" startPosition="0" endLine="20" endPosition="0">
+      <varInfo nodeId="1239206692654" varName="thisNode" />
+    </scopeInfo>
     <unitInfo nodeId="1239206692654" fileName="WithPropertyCompareExpression_Behavior.java" startLine="9" startPosition="0" endLine="21" endPosition="0" unitName="jetbrains.mps.baseLanguage.dates.behavior.WithPropertyCompareExpression_Behavior" />
   </root>
   <root nodeId="34521615669576863">
@@ -569,30 +713,46 @@
     <scopeInfo nodeId="34521615669576920" fileName="FormatPeriodExpression_Behavior.java" startLine="35" startPosition="133" endLine="36" endPosition="94" />
     <scopeInfo nodeId="34521615669576863" fileName="FormatPeriodExpression_Behavior.java" startLine="51" startPosition="124" endLine="52" endPosition="275" />
     <scopeInfo nodeId="34521615669576863" fileName="FormatPeriodExpression_Behavior.java" startLine="55" startPosition="136" endLine="56" endPosition="287" />
-    <scopeInfo nodeId="34521615669576863" fileName="FormatPeriodExpression_Behavior.java" startLine="41" startPosition="91" endLine="43" endPosition="230" />
-    <scopeInfo nodeId="34521615669576863" fileName="FormatPeriodExpression_Behavior.java" startLine="46" startPosition="103" endLine="48" endPosition="242" />
+    <scopeInfo nodeId="34521615669576863" fileName="FormatPeriodExpression_Behavior.java" startLine="41" startPosition="91" endLine="43" endPosition="230">
+      <varInfo nodeId="34521615669576863" varName="descriptor" />
+    </scopeInfo>
+    <scopeInfo nodeId="34521615669576863" fileName="FormatPeriodExpression_Behavior.java" startLine="46" startPosition="103" endLine="48" endPosition="242">
+      <varInfo nodeId="34521615669576863" varName="descriptor" />
+    </scopeInfo>
     <scopeInfo nodeId="34521615669576863" fileName="FormatPeriodExpression_Behavior.java" startLine="59" startPosition="55" endLine="61" endPosition="5" />
     <scopeInfo nodeId="34521615669576863" fileName="FormatPeriodExpression_Behavior.java" startLine="76" startPosition="53" endLine="78" endPosition="5" />
-    <scopeInfo nodeId="34521615669576863" fileName="FormatPeriodExpression_Behavior.java" startLine="20" startPosition="0" endLine="23" endPosition="0" />
-    <scopeInfo nodeId="34521615669576863" fileName="FormatPeriodExpression_Behavior.java" startLine="67" startPosition="7" endLine="70" endPosition="31" />
-    <scopeInfo nodeId="34521615669576863" fileName="FormatPeriodExpression_Behavior.java" startLine="84" startPosition="7" endLine="87" endPosition="31" />
+    <scopeInfo nodeId="34521615669576863" fileName="FormatPeriodExpression_Behavior.java" startLine="20" startPosition="0" endLine="23" endPosition="0">
+      <varInfo nodeId="34521615669576863" varName="thisNode" />
+    </scopeInfo>
+    <scopeInfo nodeId="34521615669576863" fileName="FormatPeriodExpression_Behavior.java" startLine="67" startPosition="7" endLine="70" endPosition="31">
+      <varInfo nodeId="34521615669576863" varName="quotedNode1_2" />
+    </scopeInfo>
+    <scopeInfo nodeId="34521615669576863" fileName="FormatPeriodExpression_Behavior.java" startLine="84" startPosition="7" endLine="87" endPosition="31">
+      <varInfo nodeId="34521615669576863" varName="quotedNode1_2" />
+    </scopeInfo>
     <scopeInfo nodeId="34521615669576879" fileName="FormatPeriodExpression_Behavior.java" startLine="25" startPosition="31" endLine="29" endPosition="7">
       <varInfo nodeId="34521615669576881" varName="role" />
     </scopeInfo>
     <scopeInfo nodeId="34521615669576907" fileName="FormatPeriodExpression_Behavior.java" startLine="34" startPosition="108" endLine="38" endPosition="16" />
     <scopeInfo nodeId="34521615669576863" fileName="FormatPeriodExpression_Behavior.java" startLine="50" startPosition="0" endLine="54" endPosition="0">
+      <varInfo nodeId="34521615669576863" varName="callerConceptFqName" />
       <varInfo nodeId="34521615669576870" varName="expression" />
+      <varInfo nodeId="34521615669576863" varName="thisNode" />
     </scopeInfo>
     <scopeInfo nodeId="34521615669576863" fileName="FormatPeriodExpression_Behavior.java" startLine="54" startPosition="0" endLine="58" endPosition="0">
+      <varInfo nodeId="34521615669576863" varName="callerConceptFqName" />
       <varInfo nodeId="34521615669576908" varName="expression" />
       <varInfo nodeId="34521615669576910" varName="link" />
+      <varInfo nodeId="34521615669576863" varName="thisNode" />
     </scopeInfo>
     <scopeInfo nodeId="34521615669576863" fileName="FormatPeriodExpression_Behavior.java" startLine="40" startPosition="0" endLine="45" endPosition="0">
       <varInfo nodeId="34521615669576870" varName="expression" />
+      <varInfo nodeId="34521615669576863" varName="thisNode" />
     </scopeInfo>
     <scopeInfo nodeId="34521615669576863" fileName="FormatPeriodExpression_Behavior.java" startLine="45" startPosition="0" endLine="50" endPosition="0">
       <varInfo nodeId="34521615669576908" varName="expression" />
       <varInfo nodeId="34521615669576910" varName="link" />
+      <varInfo nodeId="34521615669576863" varName="thisNode" />
     </scopeInfo>
     <scopeInfo nodeId="34521615669576863" fileName="FormatPeriodExpression_Behavior.java" startLine="66" startPosition="32" endLine="71" endPosition="7" />
     <scopeInfo nodeId="34521615669576863" fileName="FormatPeriodExpression_Behavior.java" startLine="83" startPosition="32" endLine="88" endPosition="7" />
@@ -600,11 +760,21 @@
     <scopeInfo nodeId="34521615669576863" fileName="FormatPeriodExpression_Behavior.java" startLine="33" startPosition="0" endLine="40" endPosition="0">
       <varInfo nodeId="34521615669576908" varName="expression" />
       <varInfo nodeId="34521615669576910" varName="link" />
+      <varInfo nodeId="34521615669576863" varName="thisNode" />
     </scopeInfo>
-    <scopeInfo nodeId="34521615669576863" fileName="FormatPeriodExpression_Behavior.java" startLine="63" startPosition="31" endLine="72" endPosition="20" />
-    <scopeInfo nodeId="34521615669576863" fileName="FormatPeriodExpression_Behavior.java" startLine="80" startPosition="31" endLine="89" endPosition="20" />
+    <scopeInfo nodeId="34521615669576863" fileName="FormatPeriodExpression_Behavior.java" startLine="63" startPosition="31" endLine="72" endPosition="20">
+      <varInfo nodeId="34521615669576863" varName="_parameterValues_129834374" />
+      <varInfo nodeId="34521615669576863" varName="quotedNode_1" />
+      <varInfo nodeId="34521615669576863" varName="result" />
+    </scopeInfo>
+    <scopeInfo nodeId="34521615669576863" fileName="FormatPeriodExpression_Behavior.java" startLine="80" startPosition="31" endLine="89" endPosition="20">
+      <varInfo nodeId="34521615669576863" varName="_parameterValues_129834374" />
+      <varInfo nodeId="34521615669576863" varName="quotedNode_1" />
+      <varInfo nodeId="34521615669576863" varName="result" />
+    </scopeInfo>
     <scopeInfo nodeId="34521615669576863" fileName="FormatPeriodExpression_Behavior.java" startLine="23" startPosition="0" endLine="33" endPosition="0">
       <varInfo nodeId="34521615669576870" varName="expression" />
+      <varInfo nodeId="34521615669576863" varName="thisNode" />
     </scopeInfo>
     <scopeInfo nodeId="34521615669576863" fileName="FormatPeriodExpression_Behavior.java" startLine="62" startPosition="0" endLine="74" endPosition="0" />
     <scopeInfo nodeId="34521615669576863" fileName="FormatPeriodExpression_Behavior.java" startLine="79" startPosition="0" endLine="91" endPosition="0" />
@@ -615,7 +785,9 @@
   <root nodeId="4555537781927648382">
     <nodeInfo nodeId="4555537781927648382" fileName="TimeZoneIDExpression_Behavior.java" startLine="7" startPosition="44" endLine="10" endPosition="0" conceptFqName="jetbrains.mps.baseLanguage.structure.StaticMethodDeclaration" propertyString="init#(Ljetbrains/mps/smodel/SNode;)V" />
     <scopeInfo nodeId="4555537781927648384" fileName="TimeZoneIDExpression_Behavior.java" startLine="8" startPosition="43" endLine="8" endPosition="43" />
-    <scopeInfo nodeId="4555537781927648382" fileName="TimeZoneIDExpression_Behavior.java" startLine="7" startPosition="44" endLine="10" endPosition="0" />
+    <scopeInfo nodeId="4555537781927648382" fileName="TimeZoneIDExpression_Behavior.java" startLine="7" startPosition="44" endLine="10" endPosition="0">
+      <varInfo nodeId="4555537781927648382" varName="thisNode" />
+    </scopeInfo>
     <unitInfo nodeId="4555537781927648382" fileName="TimeZoneIDExpression_Behavior.java" startLine="7" startPosition="0" endLine="11" endPosition="0" unitName="jetbrains.mps.baseLanguage.dates.behavior.TimeZoneIDExpression_Behavior" />
   </root>
   <root nodeId="48671598477850432">
@@ -624,8 +796,12 @@
     <nodeInfo nodeId="48671598477850432" fileName="PeriodFormatsTable_Behavior.java" startLine="12" startPosition="0" endLine="16" endPosition="0" conceptFqName="jetbrains.mps.baseLanguage.structure.StaticMethodDeclaration" propertyString="call_getGeneratedConstantName_48671598477850435#(Ljetbrains/mps/smodel/SNode;)Ljava/lang/String;" />
     <scopeInfo nodeId="48671598477850434" fileName="PeriodFormatsTable_Behavior.java" startLine="10" startPosition="43" endLine="10" endPosition="43" />
     <scopeInfo nodeId="48671598477850438" fileName="PeriodFormatsTable_Behavior.java" startLine="13" startPosition="88" endLine="14" endPosition="84" />
-    <scopeInfo nodeId="48671598477850432" fileName="PeriodFormatsTable_Behavior.java" startLine="9" startPosition="42" endLine="12" endPosition="0" />
-    <scopeInfo nodeId="48671598477850432" fileName="PeriodFormatsTable_Behavior.java" startLine="12" startPosition="0" endLine="16" endPosition="0" />
+    <scopeInfo nodeId="48671598477850432" fileName="PeriodFormatsTable_Behavior.java" startLine="9" startPosition="42" endLine="12" endPosition="0">
+      <varInfo nodeId="48671598477850432" varName="thisNode" />
+    </scopeInfo>
+    <scopeInfo nodeId="48671598477850432" fileName="PeriodFormatsTable_Behavior.java" startLine="12" startPosition="0" endLine="16" endPosition="0">
+      <varInfo nodeId="48671598477850432" varName="thisNode" />
+    </scopeInfo>
     <unitInfo nodeId="48671598477850432" fileName="PeriodFormatsTable_Behavior.java" startLine="9" startPosition="0" endLine="17" endPosition="0" unitName="jetbrains.mps.baseLanguage.dates.behavior.PeriodFormatsTable_Behavior" />
   </root>
   <root nodeId="5034322243092301670">
@@ -681,30 +857,46 @@
     <scopeInfo nodeId="5034322243092302119" fileName="FormatDateTimeExpression_Behavior.java" startLine="35" startPosition="137" endLine="36" endPosition="96" />
     <scopeInfo nodeId="5034322243092301670" fileName="FormatDateTimeExpression_Behavior.java" startLine="51" startPosition="126" endLine="52" endPosition="279" />
     <scopeInfo nodeId="5034322243092301670" fileName="FormatDateTimeExpression_Behavior.java" startLine="55" startPosition="138" endLine="56" endPosition="291" />
-    <scopeInfo nodeId="5034322243092301670" fileName="FormatDateTimeExpression_Behavior.java" startLine="41" startPosition="93" endLine="43" endPosition="234" />
-    <scopeInfo nodeId="5034322243092301670" fileName="FormatDateTimeExpression_Behavior.java" startLine="46" startPosition="105" endLine="48" endPosition="246" />
+    <scopeInfo nodeId="5034322243092301670" fileName="FormatDateTimeExpression_Behavior.java" startLine="41" startPosition="93" endLine="43" endPosition="234">
+      <varInfo nodeId="5034322243092301670" varName="descriptor" />
+    </scopeInfo>
+    <scopeInfo nodeId="5034322243092301670" fileName="FormatDateTimeExpression_Behavior.java" startLine="46" startPosition="105" endLine="48" endPosition="246">
+      <varInfo nodeId="5034322243092301670" varName="descriptor" />
+    </scopeInfo>
     <scopeInfo nodeId="5034322243092301670" fileName="FormatDateTimeExpression_Behavior.java" startLine="59" startPosition="55" endLine="61" endPosition="5" />
     <scopeInfo nodeId="5034322243092301670" fileName="FormatDateTimeExpression_Behavior.java" startLine="76" startPosition="53" endLine="78" endPosition="5" />
-    <scopeInfo nodeId="5034322243092301670" fileName="FormatDateTimeExpression_Behavior.java" startLine="20" startPosition="0" endLine="23" endPosition="0" />
-    <scopeInfo nodeId="5034322243092301670" fileName="FormatDateTimeExpression_Behavior.java" startLine="67" startPosition="7" endLine="70" endPosition="31" />
-    <scopeInfo nodeId="5034322243092301670" fileName="FormatDateTimeExpression_Behavior.java" startLine="84" startPosition="7" endLine="87" endPosition="31" />
+    <scopeInfo nodeId="5034322243092301670" fileName="FormatDateTimeExpression_Behavior.java" startLine="20" startPosition="0" endLine="23" endPosition="0">
+      <varInfo nodeId="5034322243092301670" varName="thisNode" />
+    </scopeInfo>
+    <scopeInfo nodeId="5034322243092301670" fileName="FormatDateTimeExpression_Behavior.java" startLine="67" startPosition="7" endLine="70" endPosition="31">
+      <varInfo nodeId="5034322243092301670" varName="quotedNode1_2" />
+    </scopeInfo>
+    <scopeInfo nodeId="5034322243092301670" fileName="FormatDateTimeExpression_Behavior.java" startLine="84" startPosition="7" endLine="87" endPosition="31">
+      <varInfo nodeId="5034322243092301670" varName="quotedNode1_2" />
+    </scopeInfo>
     <scopeInfo nodeId="5034322243092301810" fileName="FormatDateTimeExpression_Behavior.java" startLine="25" startPosition="31" endLine="29" endPosition="7">
       <varInfo nodeId="5034322243092301823" varName="role" />
     </scopeInfo>
     <scopeInfo nodeId="5034322243092301790" fileName="FormatDateTimeExpression_Behavior.java" startLine="34" startPosition="108" endLine="38" endPosition="16" />
     <scopeInfo nodeId="5034322243092301670" fileName="FormatDateTimeExpression_Behavior.java" startLine="50" startPosition="0" endLine="54" endPosition="0">
+      <varInfo nodeId="5034322243092301670" varName="callerConceptFqName" />
       <varInfo nodeId="5034322243092301682" varName="expression" />
+      <varInfo nodeId="5034322243092301670" varName="thisNode" />
     </scopeInfo>
     <scopeInfo nodeId="5034322243092301670" fileName="FormatDateTimeExpression_Behavior.java" startLine="54" startPosition="0" endLine="58" endPosition="0">
+      <varInfo nodeId="5034322243092301670" varName="callerConceptFqName" />
       <varInfo nodeId="5034322243092301791" varName="expression" />
       <varInfo nodeId="5034322243092301793" varName="link" />
+      <varInfo nodeId="5034322243092301670" varName="thisNode" />
     </scopeInfo>
     <scopeInfo nodeId="5034322243092301670" fileName="FormatDateTimeExpression_Behavior.java" startLine="40" startPosition="0" endLine="45" endPosition="0">
       <varInfo nodeId="5034322243092301682" varName="expression" />
+      <varInfo nodeId="5034322243092301670" varName="thisNode" />
     </scopeInfo>
     <scopeInfo nodeId="5034322243092301670" fileName="FormatDateTimeExpression_Behavior.java" startLine="45" startPosition="0" endLine="50" endPosition="0">
       <varInfo nodeId="5034322243092301791" varName="expression" />
       <varInfo nodeId="5034322243092301793" varName="link" />
+      <varInfo nodeId="5034322243092301670" varName="thisNode" />
     </scopeInfo>
     <scopeInfo nodeId="5034322243092301670" fileName="FormatDateTimeExpression_Behavior.java" startLine="66" startPosition="32" endLine="71" endPosition="7" />
     <scopeInfo nodeId="5034322243092301670" fileName="FormatDateTimeExpression_Behavior.java" startLine="83" startPosition="32" endLine="88" endPosition="7" />
@@ -712,11 +904,21 @@
     <scopeInfo nodeId="5034322243092301670" fileName="FormatDateTimeExpression_Behavior.java" startLine="33" startPosition="0" endLine="40" endPosition="0">
       <varInfo nodeId="5034322243092301791" varName="expression" />
       <varInfo nodeId="5034322243092301793" varName="link" />
+      <varInfo nodeId="5034322243092301670" varName="thisNode" />
     </scopeInfo>
-    <scopeInfo nodeId="5034322243092301670" fileName="FormatDateTimeExpression_Behavior.java" startLine="63" startPosition="31" endLine="72" endPosition="20" />
-    <scopeInfo nodeId="5034322243092301670" fileName="FormatDateTimeExpression_Behavior.java" startLine="80" startPosition="31" endLine="89" endPosition="20" />
+    <scopeInfo nodeId="5034322243092301670" fileName="FormatDateTimeExpression_Behavior.java" startLine="63" startPosition="31" endLine="72" endPosition="20">
+      <varInfo nodeId="5034322243092301670" varName="_parameterValues_129834374" />
+      <varInfo nodeId="5034322243092301670" varName="quotedNode_1" />
+      <varInfo nodeId="5034322243092301670" varName="result" />
+    </scopeInfo>
+    <scopeInfo nodeId="5034322243092301670" fileName="FormatDateTimeExpression_Behavior.java" startLine="80" startPosition="31" endLine="89" endPosition="20">
+      <varInfo nodeId="5034322243092301670" varName="_parameterValues_129834374" />
+      <varInfo nodeId="5034322243092301670" varName="quotedNode_1" />
+      <varInfo nodeId="5034322243092301670" varName="result" />
+    </scopeInfo>
     <scopeInfo nodeId="5034322243092301670" fileName="FormatDateTimeExpression_Behavior.java" startLine="23" startPosition="0" endLine="33" endPosition="0">
       <varInfo nodeId="5034322243092301682" varName="expression" />
+      <varInfo nodeId="5034322243092301670" varName="thisNode" />
     </scopeInfo>
     <scopeInfo nodeId="5034322243092301670" fileName="FormatDateTimeExpression_Behavior.java" startLine="62" startPosition="0" endLine="74" endPosition="0" />
     <scopeInfo nodeId="5034322243092301670" fileName="FormatDateTimeExpression_Behavior.java" startLine="79" startPosition="0" endLine="91" endPosition="0" />
@@ -926,12 +1128,24 @@
     <scopeInfo nodeId="5251619021093068639" fileName="DateTypeUtil.java" startLine="233" startPosition="49" endLine="235" endPosition="5" />
     <scopeInfo nodeId="5251619021093068639" fileName="DateTypeUtil.java" startLine="251" startPosition="49" endLine="253" endPosition="5" />
     <scopeInfo nodeId="5251619021093068639" fileName="DateTypeUtil.java" startLine="269" startPosition="49" endLine="271" endPosition="5" />
-    <scopeInfo nodeId="5251619021093068639" fileName="DateTypeUtil.java" startLine="139" startPosition="7" endLine="142" endPosition="31" />
-    <scopeInfo nodeId="5251619021093068639" fileName="DateTypeUtil.java" startLine="156" startPosition="7" endLine="159" endPosition="31" />
-    <scopeInfo nodeId="5251619021093068639" fileName="DateTypeUtil.java" startLine="173" startPosition="7" endLine="176" endPosition="31" />
-    <scopeInfo nodeId="5251619021093068639" fileName="DateTypeUtil.java" startLine="190" startPosition="7" endLine="193" endPosition="31" />
-    <scopeInfo nodeId="5251619021093068639" fileName="DateTypeUtil.java" startLine="207" startPosition="7" endLine="210" endPosition="31" />
-    <scopeInfo nodeId="5251619021093068639" fileName="DateTypeUtil.java" startLine="224" startPosition="7" endLine="227" endPosition="31" />
+    <scopeInfo nodeId="5251619021093068639" fileName="DateTypeUtil.java" startLine="139" startPosition="7" endLine="142" endPosition="31">
+      <varInfo nodeId="5251619021093068639" varName="quotedNode1_2" />
+    </scopeInfo>
+    <scopeInfo nodeId="5251619021093068639" fileName="DateTypeUtil.java" startLine="156" startPosition="7" endLine="159" endPosition="31">
+      <varInfo nodeId="5251619021093068639" varName="quotedNode1_2" />
+    </scopeInfo>
+    <scopeInfo nodeId="5251619021093068639" fileName="DateTypeUtil.java" startLine="173" startPosition="7" endLine="176" endPosition="31">
+      <varInfo nodeId="5251619021093068639" varName="quotedNode1_2" />
+    </scopeInfo>
+    <scopeInfo nodeId="5251619021093068639" fileName="DateTypeUtil.java" startLine="190" startPosition="7" endLine="193" endPosition="31">
+      <varInfo nodeId="5251619021093068639" varName="quotedNode1_2" />
+    </scopeInfo>
+    <scopeInfo nodeId="5251619021093068639" fileName="DateTypeUtil.java" startLine="207" startPosition="7" endLine="210" endPosition="31">
+      <varInfo nodeId="5251619021093068639" varName="quotedNode1_2" />
+    </scopeInfo>
+    <scopeInfo nodeId="5251619021093068639" fileName="DateTypeUtil.java" startLine="224" startPosition="7" endLine="227" endPosition="31">
+      <varInfo nodeId="5251619021093068639" varName="quotedNode1_2" />
+    </scopeInfo>
     <scopeInfo nodeId="5251619021093068685" fileName="DateTypeUtil.java" startLine="38" startPosition="0" endLine="42" endPosition="0">
       <varInfo nodeId="5251619021093068692" varName="node" />
     </scopeInfo>
@@ -966,9 +1180,15 @@
     <scopeInfo nodeId="5251619021093068914" fileName="DateTypeUtil.java" startLine="104" startPosition="250" endLine="108" endPosition="8" />
     <scopeInfo nodeId="5251619021093068947" fileName="DateTypeUtil.java" startLine="116" startPosition="312" endLine="120" endPosition="20" />
     <scopeInfo nodeId="5251619021093068975" fileName="DateTypeUtil.java" startLine="121" startPosition="14" endLine="125" endPosition="10" />
-    <scopeInfo nodeId="5251619021093068639" fileName="DateTypeUtil.java" startLine="241" startPosition="7" endLine="245" endPosition="31" />
-    <scopeInfo nodeId="5251619021093068639" fileName="DateTypeUtil.java" startLine="259" startPosition="7" endLine="263" endPosition="31" />
-    <scopeInfo nodeId="5251619021093068639" fileName="DateTypeUtil.java" startLine="277" startPosition="7" endLine="281" endPosition="31" />
+    <scopeInfo nodeId="5251619021093068639" fileName="DateTypeUtil.java" startLine="241" startPosition="7" endLine="245" endPosition="31">
+      <varInfo nodeId="5251619021093068639" varName="quotedNode1_2" />
+    </scopeInfo>
+    <scopeInfo nodeId="5251619021093068639" fileName="DateTypeUtil.java" startLine="259" startPosition="7" endLine="263" endPosition="31">
+      <varInfo nodeId="5251619021093068639" varName="quotedNode1_2" />
+    </scopeInfo>
+    <scopeInfo nodeId="5251619021093068639" fileName="DateTypeUtil.java" startLine="277" startPosition="7" endLine="281" endPosition="31">
+      <varInfo nodeId="5251619021093068639" varName="quotedNode1_2" />
+    </scopeInfo>
     <scopeInfo nodeId="5251619021093068639" fileName="DateTypeUtil.java" startLine="138" startPosition="32" endLine="143" endPosition="7" />
     <scopeInfo nodeId="5251619021093068639" fileName="DateTypeUtil.java" startLine="155" startPosition="32" endLine="160" endPosition="7" />
     <scopeInfo nodeId="5251619021093068639" fileName="DateTypeUtil.java" startLine="172" startPosition="32" endLine="177" endPosition="7" />
@@ -986,19 +1206,55 @@
     <scopeInfo nodeId="5251619021093068897" fileName="DateTypeUtil.java" startLine="102" startPosition="55" endLine="110" endPosition="19">
       <varInfo nodeId="5251619021093068899" varName="current" />
     </scopeInfo>
-    <scopeInfo nodeId="5251619021093068639" fileName="DateTypeUtil.java" startLine="135" startPosition="31" endLine="144" endPosition="20" />
-    <scopeInfo nodeId="5251619021093068639" fileName="DateTypeUtil.java" startLine="152" startPosition="31" endLine="161" endPosition="20" />
-    <scopeInfo nodeId="5251619021093068639" fileName="DateTypeUtil.java" startLine="169" startPosition="31" endLine="178" endPosition="20" />
-    <scopeInfo nodeId="5251619021093068639" fileName="DateTypeUtil.java" startLine="186" startPosition="31" endLine="195" endPosition="20" />
-    <scopeInfo nodeId="5251619021093068639" fileName="DateTypeUtil.java" startLine="203" startPosition="31" endLine="212" endPosition="20" />
-    <scopeInfo nodeId="5251619021093068639" fileName="DateTypeUtil.java" startLine="220" startPosition="31" endLine="229" endPosition="20" />
+    <scopeInfo nodeId="5251619021093068639" fileName="DateTypeUtil.java" startLine="135" startPosition="31" endLine="144" endPosition="20">
+      <varInfo nodeId="5251619021093068639" varName="_parameterValues_129834374" />
+      <varInfo nodeId="5251619021093068639" varName="quotedNode_1" />
+      <varInfo nodeId="5251619021093068639" varName="result" />
+    </scopeInfo>
+    <scopeInfo nodeId="5251619021093068639" fileName="DateTypeUtil.java" startLine="152" startPosition="31" endLine="161" endPosition="20">
+      <varInfo nodeId="5251619021093068639" varName="_parameterValues_129834374" />
+      <varInfo nodeId="5251619021093068639" varName="quotedNode_1" />
+      <varInfo nodeId="5251619021093068639" varName="result" />
+    </scopeInfo>
+    <scopeInfo nodeId="5251619021093068639" fileName="DateTypeUtil.java" startLine="169" startPosition="31" endLine="178" endPosition="20">
+      <varInfo nodeId="5251619021093068639" varName="_parameterValues_129834374" />
+      <varInfo nodeId="5251619021093068639" varName="quotedNode_1" />
+      <varInfo nodeId="5251619021093068639" varName="result" />
+    </scopeInfo>
+    <scopeInfo nodeId="5251619021093068639" fileName="DateTypeUtil.java" startLine="186" startPosition="31" endLine="195" endPosition="20">
+      <varInfo nodeId="5251619021093068639" varName="_parameterValues_129834374" />
+      <varInfo nodeId="5251619021093068639" varName="quotedNode_1" />
+      <varInfo nodeId="5251619021093068639" varName="result" />
+    </scopeInfo>
+    <scopeInfo nodeId="5251619021093068639" fileName="DateTypeUtil.java" startLine="203" startPosition="31" endLine="212" endPosition="20">
+      <varInfo nodeId="5251619021093068639" varName="_parameterValues_129834374" />
+      <varInfo nodeId="5251619021093068639" varName="quotedNode_1" />
+      <varInfo nodeId="5251619021093068639" varName="result" />
+    </scopeInfo>
+    <scopeInfo nodeId="5251619021093068639" fileName="DateTypeUtil.java" startLine="220" startPosition="31" endLine="229" endPosition="20">
+      <varInfo nodeId="5251619021093068639" varName="_parameterValues_129834374" />
+      <varInfo nodeId="5251619021093068639" varName="quotedNode_1" />
+      <varInfo nodeId="5251619021093068639" varName="result" />
+    </scopeInfo>
     <scopeInfo nodeId="5251619021093068773" fileName="DateTypeUtil.java" startLine="70" startPosition="0" endLine="80" endPosition="0">
       <varInfo nodeId="5251619021093068775" varName="node" />
     </scopeInfo>
     <scopeInfo nodeId="5251619021093068845" fileName="DateTypeUtil.java" startLine="85" startPosition="62" endLine="95" endPosition="17" />
-    <scopeInfo nodeId="5251619021093068639" fileName="DateTypeUtil.java" startLine="237" startPosition="31" endLine="247" endPosition="20" />
-    <scopeInfo nodeId="5251619021093068639" fileName="DateTypeUtil.java" startLine="255" startPosition="31" endLine="265" endPosition="20" />
-    <scopeInfo nodeId="5251619021093068639" fileName="DateTypeUtil.java" startLine="273" startPosition="31" endLine="283" endPosition="20" />
+    <scopeInfo nodeId="5251619021093068639" fileName="DateTypeUtil.java" startLine="237" startPosition="31" endLine="247" endPosition="20">
+      <varInfo nodeId="5251619021093068639" varName="_parameterValues_129834374" />
+      <varInfo nodeId="5251619021093068639" varName="quotedNode_1" />
+      <varInfo nodeId="5251619021093068639" varName="result" />
+    </scopeInfo>
+    <scopeInfo nodeId="5251619021093068639" fileName="DateTypeUtil.java" startLine="255" startPosition="31" endLine="265" endPosition="20">
+      <varInfo nodeId="5251619021093068639" varName="_parameterValues_129834374" />
+      <varInfo nodeId="5251619021093068639" varName="quotedNode_1" />
+      <varInfo nodeId="5251619021093068639" varName="result" />
+    </scopeInfo>
+    <scopeInfo nodeId="5251619021093068639" fileName="DateTypeUtil.java" startLine="273" startPosition="31" endLine="283" endPosition="20">
+      <varInfo nodeId="5251619021093068639" varName="_parameterValues_129834374" />
+      <varInfo nodeId="5251619021093068639" varName="quotedNode_1" />
+      <varInfo nodeId="5251619021093068639" varName="result" />
+    </scopeInfo>
     <scopeInfo nodeId="5251619021093068894" fileName="DateTypeUtil.java" startLine="101" startPosition="0" endLine="112" endPosition="0">
       <varInfo nodeId="5251619021093068932" varName="expr" />
     </scopeInfo>
@@ -1037,7 +1293,9 @@
     <nodeInfo nodeId="5581663871704500956" fileName="PeriodPropertyFormatToken_Behavior.java" startLine="9" startPosition="43" endLine="10" endPosition="59" conceptFqName="jetbrains.mps.baseLanguage.structure.ExpressionStatement" />
     <nodeInfo nodeId="5581663871704498938" fileName="PeriodPropertyFormatToken_Behavior.java" startLine="8" startPosition="49" endLine="12" endPosition="0" conceptFqName="jetbrains.mps.baseLanguage.structure.StaticMethodDeclaration" propertyString="init#(Ljetbrains/mps/smodel/SNode;)V" />
     <scopeInfo nodeId="5581663871704498940" fileName="PeriodPropertyFormatToken_Behavior.java" startLine="9" startPosition="43" endLine="10" endPosition="59" />
-    <scopeInfo nodeId="5581663871704498938" fileName="PeriodPropertyFormatToken_Behavior.java" startLine="8" startPosition="49" endLine="12" endPosition="0" />
+    <scopeInfo nodeId="5581663871704498938" fileName="PeriodPropertyFormatToken_Behavior.java" startLine="8" startPosition="49" endLine="12" endPosition="0">
+      <varInfo nodeId="5581663871704498938" varName="thisNode" />
+    </scopeInfo>
     <unitInfo nodeId="5581663871704498938" fileName="PeriodPropertyFormatToken_Behavior.java" startLine="8" startPosition="0" endLine="13" endPosition="0" unitName="jetbrains.mps.baseLanguage.dates.behavior.PeriodPropertyFormatToken_Behavior" />
   </root>
   <root nodeId="6626410111395870950">
@@ -1123,30 +1381,50 @@
     <scopeInfo nodeId="2890840340813585317" fileName="InTimezoneExpression_Behavior.java" startLine="41" startPosition="133" endLine="42" endPosition="92" />
     <scopeInfo nodeId="6626410111395870950" fileName="InTimezoneExpression_Behavior.java" startLine="57" startPosition="126" endLine="58" endPosition="275" />
     <scopeInfo nodeId="6626410111395870950" fileName="InTimezoneExpression_Behavior.java" startLine="61" startPosition="138" endLine="62" endPosition="287" />
-    <scopeInfo nodeId="6626410111395870950" fileName="InTimezoneExpression_Behavior.java" startLine="47" startPosition="93" endLine="49" endPosition="230" />
-    <scopeInfo nodeId="6626410111395870950" fileName="InTimezoneExpression_Behavior.java" startLine="52" startPosition="105" endLine="54" endPosition="242" />
+    <scopeInfo nodeId="6626410111395870950" fileName="InTimezoneExpression_Behavior.java" startLine="47" startPosition="93" endLine="49" endPosition="230">
+      <varInfo nodeId="6626410111395870950" varName="descriptor" />
+    </scopeInfo>
+    <scopeInfo nodeId="6626410111395870950" fileName="InTimezoneExpression_Behavior.java" startLine="52" startPosition="105" endLine="54" endPosition="242">
+      <varInfo nodeId="6626410111395870950" varName="descriptor" />
+    </scopeInfo>
     <scopeInfo nodeId="6626410111395870950" fileName="InTimezoneExpression_Behavior.java" startLine="65" startPosition="55" endLine="67" endPosition="5" />
     <scopeInfo nodeId="6626410111395870950" fileName="InTimezoneExpression_Behavior.java" startLine="82" startPosition="55" endLine="84" endPosition="5" />
     <scopeInfo nodeId="6626410111395870950" fileName="InTimezoneExpression_Behavior.java" startLine="99" startPosition="53" endLine="101" endPosition="5" />
     <scopeInfo nodeId="6626410111395870950" fileName="InTimezoneExpression_Behavior.java" startLine="116" startPosition="53" endLine="118" endPosition="5" />
-    <scopeInfo nodeId="6626410111395870950" fileName="InTimezoneExpression_Behavior.java" startLine="20" startPosition="0" endLine="23" endPosition="0" />
-    <scopeInfo nodeId="6626410111395870950" fileName="InTimezoneExpression_Behavior.java" startLine="73" startPosition="7" endLine="76" endPosition="31" />
-    <scopeInfo nodeId="6626410111395870950" fileName="InTimezoneExpression_Behavior.java" startLine="90" startPosition="7" endLine="93" endPosition="31" />
-    <scopeInfo nodeId="6626410111395870950" fileName="InTimezoneExpression_Behavior.java" startLine="107" startPosition="7" endLine="110" endPosition="31" />
-    <scopeInfo nodeId="6626410111395870950" fileName="InTimezoneExpression_Behavior.java" startLine="124" startPosition="7" endLine="127" endPosition="31" />
+    <scopeInfo nodeId="6626410111395870950" fileName="InTimezoneExpression_Behavior.java" startLine="20" startPosition="0" endLine="23" endPosition="0">
+      <varInfo nodeId="6626410111395870950" varName="thisNode" />
+    </scopeInfo>
+    <scopeInfo nodeId="6626410111395870950" fileName="InTimezoneExpression_Behavior.java" startLine="73" startPosition="7" endLine="76" endPosition="31">
+      <varInfo nodeId="6626410111395870950" varName="quotedNode1_2" />
+    </scopeInfo>
+    <scopeInfo nodeId="6626410111395870950" fileName="InTimezoneExpression_Behavior.java" startLine="90" startPosition="7" endLine="93" endPosition="31">
+      <varInfo nodeId="6626410111395870950" varName="quotedNode1_2" />
+    </scopeInfo>
+    <scopeInfo nodeId="6626410111395870950" fileName="InTimezoneExpression_Behavior.java" startLine="107" startPosition="7" endLine="110" endPosition="31">
+      <varInfo nodeId="6626410111395870950" varName="quotedNode1_2" />
+    </scopeInfo>
+    <scopeInfo nodeId="6626410111395870950" fileName="InTimezoneExpression_Behavior.java" startLine="124" startPosition="7" endLine="127" endPosition="31">
+      <varInfo nodeId="6626410111395870950" varName="quotedNode1_2" />
+    </scopeInfo>
     <scopeInfo nodeId="6626410111395870950" fileName="InTimezoneExpression_Behavior.java" startLine="56" startPosition="0" endLine="60" endPosition="0">
+      <varInfo nodeId="6626410111395870950" varName="callerConceptFqName" />
       <varInfo nodeId="6626410111395872161" varName="expression" />
+      <varInfo nodeId="6626410111395870950" varName="thisNode" />
     </scopeInfo>
     <scopeInfo nodeId="6626410111395870950" fileName="InTimezoneExpression_Behavior.java" startLine="60" startPosition="0" endLine="64" endPosition="0">
+      <varInfo nodeId="6626410111395870950" varName="callerConceptFqName" />
       <varInfo nodeId="2890840340813585279" varName="expression" />
       <varInfo nodeId="2890840340813585281" varName="link" />
+      <varInfo nodeId="6626410111395870950" varName="thisNode" />
     </scopeInfo>
     <scopeInfo nodeId="6626410111395870950" fileName="InTimezoneExpression_Behavior.java" startLine="46" startPosition="0" endLine="51" endPosition="0">
       <varInfo nodeId="6626410111395872161" varName="expression" />
+      <varInfo nodeId="6626410111395870950" varName="thisNode" />
     </scopeInfo>
     <scopeInfo nodeId="6626410111395870950" fileName="InTimezoneExpression_Behavior.java" startLine="51" startPosition="0" endLine="56" endPosition="0">
       <varInfo nodeId="2890840340813585279" varName="expression" />
       <varInfo nodeId="2890840340813585281" varName="link" />
+      <varInfo nodeId="6626410111395870950" varName="thisNode" />
     </scopeInfo>
     <scopeInfo nodeId="6626410111395870950" fileName="InTimezoneExpression_Behavior.java" startLine="72" startPosition="32" endLine="77" endPosition="7" />
     <scopeInfo nodeId="6626410111395870950" fileName="InTimezoneExpression_Behavior.java" startLine="89" startPosition="32" endLine="94" endPosition="7" />
@@ -1156,14 +1434,31 @@
       <varInfo nodeId="2890840340813585341" varName="role" />
     </scopeInfo>
     <scopeInfo nodeId="2890840340813585278" fileName="InTimezoneExpression_Behavior.java" startLine="37" startPosition="108" endLine="44" endPosition="16" />
-    <scopeInfo nodeId="6626410111395870950" fileName="InTimezoneExpression_Behavior.java" startLine="69" startPosition="31" endLine="78" endPosition="20" />
-    <scopeInfo nodeId="6626410111395870950" fileName="InTimezoneExpression_Behavior.java" startLine="86" startPosition="31" endLine="95" endPosition="20" />
-    <scopeInfo nodeId="6626410111395870950" fileName="InTimezoneExpression_Behavior.java" startLine="103" startPosition="31" endLine="112" endPosition="20" />
-    <scopeInfo nodeId="6626410111395870950" fileName="InTimezoneExpression_Behavior.java" startLine="120" startPosition="31" endLine="129" endPosition="20" />
+    <scopeInfo nodeId="6626410111395870950" fileName="InTimezoneExpression_Behavior.java" startLine="69" startPosition="31" endLine="78" endPosition="20">
+      <varInfo nodeId="6626410111395870950" varName="_parameterValues_129834374" />
+      <varInfo nodeId="6626410111395870950" varName="quotedNode_1" />
+      <varInfo nodeId="6626410111395870950" varName="result" />
+    </scopeInfo>
+    <scopeInfo nodeId="6626410111395870950" fileName="InTimezoneExpression_Behavior.java" startLine="86" startPosition="31" endLine="95" endPosition="20">
+      <varInfo nodeId="6626410111395870950" varName="_parameterValues_129834374" />
+      <varInfo nodeId="6626410111395870950" varName="quotedNode_1" />
+      <varInfo nodeId="6626410111395870950" varName="result" />
+    </scopeInfo>
+    <scopeInfo nodeId="6626410111395870950" fileName="InTimezoneExpression_Behavior.java" startLine="103" startPosition="31" endLine="112" endPosition="20">
+      <varInfo nodeId="6626410111395870950" varName="_parameterValues_129834374" />
+      <varInfo nodeId="6626410111395870950" varName="quotedNode_1" />
+      <varInfo nodeId="6626410111395870950" varName="result" />
+    </scopeInfo>
+    <scopeInfo nodeId="6626410111395870950" fileName="InTimezoneExpression_Behavior.java" startLine="120" startPosition="31" endLine="129" endPosition="20">
+      <varInfo nodeId="6626410111395870950" varName="_parameterValues_129834374" />
+      <varInfo nodeId="6626410111395870950" varName="quotedNode_1" />
+      <varInfo nodeId="6626410111395870950" varName="result" />
+    </scopeInfo>
     <scopeInfo nodeId="6626410111395872160" fileName="InTimezoneExpression_Behavior.java" startLine="24" startPosition="90" endLine="34" endPosition="16" />
     <scopeInfo nodeId="6626410111395870950" fileName="InTimezoneExpression_Behavior.java" startLine="36" startPosition="0" endLine="46" endPosition="0">
       <varInfo nodeId="2890840340813585279" varName="expression" />
       <varInfo nodeId="2890840340813585281" varName="link" />
+      <varInfo nodeId="6626410111395870950" varName="thisNode" />
     </scopeInfo>
     <scopeInfo nodeId="6626410111395870950" fileName="InTimezoneExpression_Behavior.java" startLine="68" startPosition="0" endLine="80" endPosition="0" />
     <scopeInfo nodeId="6626410111395870950" fileName="InTimezoneExpression_Behavior.java" startLine="85" startPosition="0" endLine="97" endPosition="0" />
@@ -1171,6 +1466,7 @@
     <scopeInfo nodeId="6626410111395870950" fileName="InTimezoneExpression_Behavior.java" startLine="119" startPosition="0" endLine="131" endPosition="0" />
     <scopeInfo nodeId="6626410111395870950" fileName="InTimezoneExpression_Behavior.java" startLine="23" startPosition="0" endLine="36" endPosition="0">
       <varInfo nodeId="6626410111395872161" varName="expression" />
+      <varInfo nodeId="6626410111395870950" varName="thisNode" />
     </scopeInfo>
     <unitInfo nodeId="6626410111395870950" fileName="InTimezoneExpression_Behavior.java" startLine="17" startPosition="0" endLine="133" endPosition="0" unitName="jetbrains.mps.baseLanguage.dates.behavior.InTimezoneExpression_Behavior" />
     <unitInfo nodeId="6626410111395870950" fileName="InTimezoneExpression_Behavior.java" startLine="99" startPosition="0" endLine="115" endPosition="0" unitName="jetbrains.mps.baseLanguage.dates.behavior.InTimezoneExpression_Behavior$QuotationClass_g9idtp_a0a0a0c" />
@@ -1231,30 +1527,46 @@
     <scopeInfo nodeId="7499037524191428866" fileName="ParseDateTimeExpression_Behavior.java" startLine="35" startPosition="132" endLine="36" endPosition="95" />
     <scopeInfo nodeId="7499037524191428321" fileName="ParseDateTimeExpression_Behavior.java" startLine="51" startPosition="126" endLine="52" endPosition="278" />
     <scopeInfo nodeId="7499037524191428321" fileName="ParseDateTimeExpression_Behavior.java" startLine="55" startPosition="138" endLine="56" endPosition="290" />
-    <scopeInfo nodeId="7499037524191428321" fileName="ParseDateTimeExpression_Behavior.java" startLine="41" startPosition="93" endLine="43" endPosition="233" />
-    <scopeInfo nodeId="7499037524191428321" fileName="ParseDateTimeExpression_Behavior.java" startLine="46" startPosition="105" endLine="48" endPosition="245" />
+    <scopeInfo nodeId="7499037524191428321" fileName="ParseDateTimeExpression_Behavior.java" startLine="41" startPosition="93" endLine="43" endPosition="233">
+      <varInfo nodeId="7499037524191428321" varName="descriptor" />
+    </scopeInfo>
+    <scopeInfo nodeId="7499037524191428321" fileName="ParseDateTimeExpression_Behavior.java" startLine="46" startPosition="105" endLine="48" endPosition="245">
+      <varInfo nodeId="7499037524191428321" varName="descriptor" />
+    </scopeInfo>
     <scopeInfo nodeId="7499037524191428321" fileName="ParseDateTimeExpression_Behavior.java" startLine="59" startPosition="55" endLine="61" endPosition="5" />
     <scopeInfo nodeId="7499037524191428321" fileName="ParseDateTimeExpression_Behavior.java" startLine="76" startPosition="53" endLine="78" endPosition="5" />
-    <scopeInfo nodeId="7499037524191428321" fileName="ParseDateTimeExpression_Behavior.java" startLine="20" startPosition="0" endLine="23" endPosition="0" />
-    <scopeInfo nodeId="7499037524191428321" fileName="ParseDateTimeExpression_Behavior.java" startLine="67" startPosition="7" endLine="70" endPosition="31" />
-    <scopeInfo nodeId="7499037524191428321" fileName="ParseDateTimeExpression_Behavior.java" startLine="84" startPosition="7" endLine="87" endPosition="31" />
+    <scopeInfo nodeId="7499037524191428321" fileName="ParseDateTimeExpression_Behavior.java" startLine="20" startPosition="0" endLine="23" endPosition="0">
+      <varInfo nodeId="7499037524191428321" varName="thisNode" />
+    </scopeInfo>
+    <scopeInfo nodeId="7499037524191428321" fileName="ParseDateTimeExpression_Behavior.java" startLine="67" startPosition="7" endLine="70" endPosition="31">
+      <varInfo nodeId="7499037524191428321" varName="quotedNode1_2" />
+    </scopeInfo>
+    <scopeInfo nodeId="7499037524191428321" fileName="ParseDateTimeExpression_Behavior.java" startLine="84" startPosition="7" endLine="87" endPosition="31">
+      <varInfo nodeId="7499037524191428321" varName="quotedNode1_2" />
+    </scopeInfo>
     <scopeInfo nodeId="7499037524191428810" fileName="ParseDateTimeExpression_Behavior.java" startLine="25" startPosition="31" endLine="29" endPosition="7">
       <varInfo nodeId="7499037524191428822" varName="role" />
     </scopeInfo>
     <scopeInfo nodeId="7499037524191428436" fileName="ParseDateTimeExpression_Behavior.java" startLine="34" startPosition="108" endLine="38" endPosition="16" />
     <scopeInfo nodeId="7499037524191428321" fileName="ParseDateTimeExpression_Behavior.java" startLine="50" startPosition="0" endLine="54" endPosition="0">
+      <varInfo nodeId="7499037524191428321" varName="callerConceptFqName" />
       <varInfo nodeId="7499037524191428328" varName="expression" />
+      <varInfo nodeId="7499037524191428321" varName="thisNode" />
     </scopeInfo>
     <scopeInfo nodeId="7499037524191428321" fileName="ParseDateTimeExpression_Behavior.java" startLine="54" startPosition="0" endLine="58" endPosition="0">
+      <varInfo nodeId="7499037524191428321" varName="callerConceptFqName" />
       <varInfo nodeId="7499037524191428437" varName="expression" />
       <varInfo nodeId="7499037524191428439" varName="link" />
+      <varInfo nodeId="7499037524191428321" varName="thisNode" />
     </scopeInfo>
     <scopeInfo nodeId="7499037524191428321" fileName="ParseDateTimeExpression_Behavior.java" startLine="40" startPosition="0" endLine="45" endPosition="0">
       <varInfo nodeId="7499037524191428328" varName="expression" />
+      <varInfo nodeId="7499037524191428321" varName="thisNode" />
     </scopeInfo>
     <scopeInfo nodeId="7499037524191428321" fileName="ParseDateTimeExpression_Behavior.java" startLine="45" startPosition="0" endLine="50" endPosition="0">
       <varInfo nodeId="7499037524191428437" varName="expression" />
       <varInfo nodeId="7499037524191428439" varName="link" />
+      <varInfo nodeId="7499037524191428321" varName="thisNode" />
     </scopeInfo>
     <scopeInfo nodeId="7499037524191428321" fileName="ParseDateTimeExpression_Behavior.java" startLine="66" startPosition="32" endLine="71" endPosition="7" />
     <scopeInfo nodeId="7499037524191428321" fileName="ParseDateTimeExpression_Behavior.java" startLine="83" startPosition="32" endLine="88" endPosition="7" />
@@ -1262,11 +1574,21 @@
     <scopeInfo nodeId="7499037524191428321" fileName="ParseDateTimeExpression_Behavior.java" startLine="33" startPosition="0" endLine="40" endPosition="0">
       <varInfo nodeId="7499037524191428437" varName="expression" />
       <varInfo nodeId="7499037524191428439" varName="link" />
+      <varInfo nodeId="7499037524191428321" varName="thisNode" />
     </scopeInfo>
-    <scopeInfo nodeId="7499037524191428321" fileName="ParseDateTimeExpression_Behavior.java" startLine="63" startPosition="31" endLine="72" endPosition="20" />
-    <scopeInfo nodeId="7499037524191428321" fileName="ParseDateTimeExpression_Behavior.java" startLine="80" startPosition="31" endLine="89" endPosition="20" />
+    <scopeInfo nodeId="7499037524191428321" fileName="ParseDateTimeExpression_Behavior.java" startLine="63" startPosition="31" endLine="72" endPosition="20">
+      <varInfo nodeId="7499037524191428321" varName="_parameterValues_129834374" />
+      <varInfo nodeId="7499037524191428321" varName="quotedNode_1" />
+      <varInfo nodeId="7499037524191428321" varName="result" />
+    </scopeInfo>
+    <scopeInfo nodeId="7499037524191428321" fileName="ParseDateTimeExpression_Behavior.java" startLine="80" startPosition="31" endLine="89" endPosition="20">
+      <varInfo nodeId="7499037524191428321" varName="_parameterValues_129834374" />
+      <varInfo nodeId="7499037524191428321" varName="quotedNode_1" />
+      <varInfo nodeId="7499037524191428321" varName="result" />
+    </scopeInfo>
     <scopeInfo nodeId="7499037524191428321" fileName="ParseDateTimeExpression_Behavior.java" startLine="23" startPosition="0" endLine="33" endPosition="0">
       <varInfo nodeId="7499037524191428328" varName="expression" />
+      <varInfo nodeId="7499037524191428321" varName="thisNode" />
     </scopeInfo>
     <scopeInfo nodeId="7499037524191428321" fileName="ParseDateTimeExpression_Behavior.java" startLine="62" startPosition="0" endLine="74" endPosition="0" />
     <scopeInfo nodeId="7499037524191428321" fileName="ParseDateTimeExpression_Behavior.java" startLine="79" startPosition="0" endLine="91" endPosition="0" />
@@ -1327,30 +1649,46 @@
     <scopeInfo nodeId="779372288056825362" fileName="TimeConstant_Behavior.java" startLine="35" startPosition="125" endLine="36" endPosition="84" />
     <scopeInfo nodeId="779372288056821935" fileName="TimeConstant_Behavior.java" startLine="51" startPosition="125" endLine="52" endPosition="266" />
     <scopeInfo nodeId="779372288056821935" fileName="TimeConstant_Behavior.java" startLine="55" startPosition="137" endLine="56" endPosition="278" />
-    <scopeInfo nodeId="779372288056821935" fileName="TimeConstant_Behavior.java" startLine="41" startPosition="92" endLine="43" endPosition="221" />
-    <scopeInfo nodeId="779372288056821935" fileName="TimeConstant_Behavior.java" startLine="46" startPosition="104" endLine="48" endPosition="233" />
+    <scopeInfo nodeId="779372288056821935" fileName="TimeConstant_Behavior.java" startLine="41" startPosition="92" endLine="43" endPosition="221">
+      <varInfo nodeId="779372288056821935" varName="descriptor" />
+    </scopeInfo>
+    <scopeInfo nodeId="779372288056821935" fileName="TimeConstant_Behavior.java" startLine="46" startPosition="104" endLine="48" endPosition="233">
+      <varInfo nodeId="779372288056821935" varName="descriptor" />
+    </scopeInfo>
     <scopeInfo nodeId="779372288056821935" fileName="TimeConstant_Behavior.java" startLine="59" startPosition="55" endLine="61" endPosition="5" />
     <scopeInfo nodeId="779372288056821935" fileName="TimeConstant_Behavior.java" startLine="76" startPosition="53" endLine="78" endPosition="5" />
-    <scopeInfo nodeId="779372288056821935" fileName="TimeConstant_Behavior.java" startLine="20" startPosition="0" endLine="23" endPosition="0" />
-    <scopeInfo nodeId="779372288056821935" fileName="TimeConstant_Behavior.java" startLine="67" startPosition="7" endLine="70" endPosition="31" />
-    <scopeInfo nodeId="779372288056821935" fileName="TimeConstant_Behavior.java" startLine="84" startPosition="7" endLine="87" endPosition="31" />
+    <scopeInfo nodeId="779372288056821935" fileName="TimeConstant_Behavior.java" startLine="20" startPosition="0" endLine="23" endPosition="0">
+      <varInfo nodeId="779372288056821935" varName="thisNode" />
+    </scopeInfo>
+    <scopeInfo nodeId="779372288056821935" fileName="TimeConstant_Behavior.java" startLine="67" startPosition="7" endLine="70" endPosition="31">
+      <varInfo nodeId="779372288056821935" varName="quotedNode1_2" />
+    </scopeInfo>
+    <scopeInfo nodeId="779372288056821935" fileName="TimeConstant_Behavior.java" startLine="84" startPosition="7" endLine="87" endPosition="31">
+      <varInfo nodeId="779372288056821935" varName="quotedNode1_2" />
+    </scopeInfo>
     <scopeInfo nodeId="779372288056825300" fileName="TimeConstant_Behavior.java" startLine="25" startPosition="31" endLine="29" endPosition="7">
       <varInfo nodeId="779372288056825302" varName="role" />
     </scopeInfo>
     <scopeInfo nodeId="779372288056825343" fileName="TimeConstant_Behavior.java" startLine="34" startPosition="108" endLine="38" endPosition="16" />
     <scopeInfo nodeId="779372288056821935" fileName="TimeConstant_Behavior.java" startLine="50" startPosition="0" endLine="54" endPosition="0">
+      <varInfo nodeId="779372288056821935" varName="callerConceptFqName" />
       <varInfo nodeId="779372288056823167" varName="expression" />
+      <varInfo nodeId="779372288056821935" varName="thisNode" />
     </scopeInfo>
     <scopeInfo nodeId="779372288056821935" fileName="TimeConstant_Behavior.java" startLine="54" startPosition="0" endLine="58" endPosition="0">
+      <varInfo nodeId="779372288056821935" varName="callerConceptFqName" />
       <varInfo nodeId="779372288056825344" varName="expression" />
       <varInfo nodeId="779372288056825346" varName="link" />
+      <varInfo nodeId="779372288056821935" varName="thisNode" />
     </scopeInfo>
     <scopeInfo nodeId="779372288056821935" fileName="TimeConstant_Behavior.java" startLine="40" startPosition="0" endLine="45" endPosition="0">
       <varInfo nodeId="779372288056823167" varName="expression" />
+      <varInfo nodeId="779372288056821935" varName="thisNode" />
     </scopeInfo>
     <scopeInfo nodeId="779372288056821935" fileName="TimeConstant_Behavior.java" startLine="45" startPosition="0" endLine="50" endPosition="0">
       <varInfo nodeId="779372288056825344" varName="expression" />
       <varInfo nodeId="779372288056825346" varName="link" />
+      <varInfo nodeId="779372288056821935" varName="thisNode" />
     </scopeInfo>
     <scopeInfo nodeId="779372288056821935" fileName="TimeConstant_Behavior.java" startLine="66" startPosition="32" endLine="71" endPosition="7" />
     <scopeInfo nodeId="779372288056821935" fileName="TimeConstant_Behavior.java" startLine="83" startPosition="32" endLine="88" endPosition="7" />
@@ -1358,11 +1696,21 @@
     <scopeInfo nodeId="779372288056821935" fileName="TimeConstant_Behavior.java" startLine="33" startPosition="0" endLine="40" endPosition="0">
       <varInfo nodeId="779372288056825344" varName="expression" />
       <varInfo nodeId="779372288056825346" varName="link" />
+      <varInfo nodeId="779372288056821935" varName="thisNode" />
     </scopeInfo>
-    <scopeInfo nodeId="779372288056821935" fileName="TimeConstant_Behavior.java" startLine="63" startPosition="31" endLine="72" endPosition="20" />
-    <scopeInfo nodeId="779372288056821935" fileName="TimeConstant_Behavior.java" startLine="80" startPosition="31" endLine="89" endPosition="20" />
+    <scopeInfo nodeId="779372288056821935" fileName="TimeConstant_Behavior.java" startLine="63" startPosition="31" endLine="72" endPosition="20">
+      <varInfo nodeId="779372288056821935" varName="_parameterValues_129834374" />
+      <varInfo nodeId="779372288056821935" varName="quotedNode_1" />
+      <varInfo nodeId="779372288056821935" varName="result" />
+    </scopeInfo>
+    <scopeInfo nodeId="779372288056821935" fileName="TimeConstant_Behavior.java" startLine="80" startPosition="31" endLine="89" endPosition="20">
+      <varInfo nodeId="779372288056821935" varName="_parameterValues_129834374" />
+      <varInfo nodeId="779372288056821935" varName="quotedNode_1" />
+      <varInfo nodeId="779372288056821935" varName="result" />
+    </scopeInfo>
     <scopeInfo nodeId="779372288056821935" fileName="TimeConstant_Behavior.java" startLine="23" startPosition="0" endLine="33" endPosition="0">
       <varInfo nodeId="779372288056823167" varName="expression" />
+      <varInfo nodeId="779372288056821935" varName="thisNode" />
     </scopeInfo>
     <scopeInfo nodeId="779372288056821935" fileName="TimeConstant_Behavior.java" startLine="62" startPosition="0" endLine="74" endPosition="0" />
     <scopeInfo nodeId="779372288056821935" fileName="TimeConstant_Behavior.java" startLine="79" startPosition="0" endLine="91" endPosition="0" />

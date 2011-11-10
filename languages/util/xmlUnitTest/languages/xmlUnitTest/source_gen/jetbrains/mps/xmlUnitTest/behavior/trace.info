@@ -12,7 +12,9 @@
   <root nodeId="2511103526757027822">
     <nodeInfo nodeId="2511103526757027822" fileName="Text_Behavior.java" startLine="7" startPosition="28" endLine="10" endPosition="0" conceptFqName="jetbrains.mps.baseLanguage.structure.StaticMethodDeclaration" propertyString="init#(Ljetbrains/mps/smodel/SNode;)V" />
     <scopeInfo nodeId="2511103526757027824" fileName="Text_Behavior.java" startLine="8" startPosition="43" endLine="8" endPosition="43" />
-    <scopeInfo nodeId="2511103526757027822" fileName="Text_Behavior.java" startLine="7" startPosition="28" endLine="10" endPosition="0" />
+    <scopeInfo nodeId="2511103526757027822" fileName="Text_Behavior.java" startLine="7" startPosition="28" endLine="10" endPosition="0">
+      <varInfo nodeId="2511103526757027822" varName="thisNode" />
+    </scopeInfo>
     <unitInfo nodeId="2511103526757027822" fileName="Text_Behavior.java" startLine="7" startPosition="0" endLine="11" endPosition="0" unitName="jetbrains.mps.xmlUnitTest.behavior.Text_Behavior" />
   </root>
 </debugInfo>
