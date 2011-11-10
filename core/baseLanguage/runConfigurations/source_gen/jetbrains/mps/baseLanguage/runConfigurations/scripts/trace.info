@@ -28,13 +28,21 @@
     <scopeInfo nodeId="2581841087371073723" fileName="ScriptsUtil.java" startLine="17" startPosition="26" endLine="19" endPosition="3" />
     <scopeInfo nodeId="2581841087371093158" fileName="ScriptsUtil.java" startLine="44" startPosition="64" endLine="47" endPosition="9" />
     <scopeInfo nodeId="2581841087371092282" fileName="ScriptsUtil.java" startLine="22" startPosition="100" endLine="26" endPosition="0" />
-    <scopeInfo nodeId="2581841087371092291" fileName="ScriptsUtil.java" startLine="26" startPosition="56" endLine="30" endPosition="0" />
-    <scopeInfo nodeId="2581841087371093116" fileName="ScriptsUtil.java" startLine="35" startPosition="82" endLine="39" endPosition="0" />
-    <scopeInfo nodeId="2581841087371093155" fileName="ScriptsUtil.java" startLine="43" startPosition="62" endLine="48" endPosition="7" />
+    <scopeInfo nodeId="2581841087371092291" fileName="ScriptsUtil.java" startLine="26" startPosition="56" endLine="30" endPosition="0">
+      <varInfo nodeId="2581841087371092291" varName="it" />
+    </scopeInfo>
+    <scopeInfo nodeId="2581841087371093116" fileName="ScriptsUtil.java" startLine="35" startPosition="82" endLine="39" endPosition="0">
+      <varInfo nodeId="2581841087371093116" varName="it" />
+    </scopeInfo>
+    <scopeInfo nodeId="2581841087371093155" fileName="ScriptsUtil.java" startLine="43" startPosition="62" endLine="48" endPosition="7">
+      <varInfo nodeId="2581841087371093155" varName="ref" />
+    </scopeInfo>
     <scopeInfo nodeId="2581841087371093146" fileName="ScriptsUtil.java" startLine="42" startPosition="117" endLine="48" endPosition="7">
       <varInfo nodeId="2581841087371093148" varName="references" />
     </scopeInfo>
-    <scopeInfo nodeId="2581841087371093140" fileName="ScriptsUtil.java" startLine="41" startPosition="76" endLine="49" endPosition="5" />
+    <scopeInfo nodeId="2581841087371093140" fileName="ScriptsUtil.java" startLine="41" startPosition="76" endLine="49" endPosition="5">
+      <varInfo nodeId="2581841087371093140" varName="chileNode" />
+    </scopeInfo>
     <scopeInfo nodeId="2581841087371073730" fileName="ScriptsUtil.java" startLine="21" startPosition="102" endLine="30" endPosition="7" />
     <scopeInfo nodeId="2581841087371073727" fileName="ScriptsUtil.java" startLine="20" startPosition="0" endLine="32" endPosition="0">
       <varInfo nodeId="2581841087371092307" varName="longName" />
@@ -133,30 +141,54 @@
     <scopeInfo nodeId="4283697670712794863" fileName="FixReferencesToDeletedRunModels_MigrationScript.java" startLine="26" startPosition="76" endLine="30" endPosition="0" />
     <scopeInfo nodeId="4283697670712794863" fileName="FixReferencesToDeletedRunModels_MigrationScript.java" startLine="30" startPosition="0" endLine="34" endPosition="0" />
     <scopeInfo nodeId="4283697670712794863" fileName="FixReferencesToDeletedRunModels_MigrationScript.java" startLine="34" startPosition="0" endLine="38" endPosition="0" />
-    <scopeInfo nodeId="4283697670712794863" fileName="FixReferencesToDeletedRunModels_MigrationScript.java" startLine="43" startPosition="0" endLine="47" endPosition="0" />
+    <scopeInfo nodeId="4283697670712794863" fileName="FixReferencesToDeletedRunModels_MigrationScript.java" startLine="43" startPosition="0" endLine="47" endPosition="0">
+      <varInfo nodeId="4283697670712794863" varName="node" />
+    </scopeInfo>
     <scopeInfo nodeId="4283697670712794863" fileName="FixReferencesToDeletedRunModels_MigrationScript.java" startLine="47" startPosition="0" endLine="51" endPosition="0" />
     <scopeInfo nodeId="4283697670712794863" fileName="FixReferencesToDeletedRunModels_MigrationScript.java" startLine="52" startPosition="76" endLine="56" endPosition="0" />
     <scopeInfo nodeId="4283697670712794863" fileName="FixReferencesToDeletedRunModels_MigrationScript.java" startLine="56" startPosition="0" endLine="60" endPosition="0" />
     <scopeInfo nodeId="4283697670712794863" fileName="FixReferencesToDeletedRunModels_MigrationScript.java" startLine="60" startPosition="0" endLine="64" endPosition="0" />
     <scopeInfo nodeId="5749510889459694438" fileName="FixReferencesToDeletedRunModels_MigrationScript.java" startLine="68" startPosition="121" endLine="72" endPosition="0" />
-    <scopeInfo nodeId="5749510889459694447" fileName="FixReferencesToDeletedRunModels_MigrationScript.java" startLine="72" startPosition="60" endLine="76" endPosition="0" />
-    <scopeInfo nodeId="4283697670712794863" fileName="FixReferencesToDeletedRunModels_MigrationScript.java" startLine="78" startPosition="0" endLine="82" endPosition="0" />
+    <scopeInfo nodeId="5749510889459694447" fileName="FixReferencesToDeletedRunModels_MigrationScript.java" startLine="72" startPosition="60" endLine="76" endPosition="0">
+      <varInfo nodeId="5749510889459694447" varName="it" />
+    </scopeInfo>
+    <scopeInfo nodeId="4283697670712794863" fileName="FixReferencesToDeletedRunModels_MigrationScript.java" startLine="78" startPosition="0" endLine="82" endPosition="0">
+      <varInfo nodeId="4283697670712794863" varName="node" />
+    </scopeInfo>
     <scopeInfo nodeId="4283697670712794863" fileName="FixReferencesToDeletedRunModels_MigrationScript.java" startLine="82" startPosition="0" endLine="86" endPosition="0" />
-    <scopeInfo nodeId="4283697670712794863" fileName="FixReferencesToDeletedRunModels_MigrationScript.java" startLine="97" startPosition="7" endLine="101" endPosition="31" />
-    <scopeInfo nodeId="4283697670712794863" fileName="FixReferencesToDeletedRunModels_MigrationScript.java" startLine="115" startPosition="7" endLine="119" endPosition="31" />
-    <scopeInfo nodeId="4283697670712794863" fileName="FixReferencesToDeletedRunModels_MigrationScript.java" startLine="38" startPosition="0" endLine="43" endPosition="0" />
+    <scopeInfo nodeId="4283697670712794863" fileName="FixReferencesToDeletedRunModels_MigrationScript.java" startLine="97" startPosition="7" endLine="101" endPosition="31">
+      <varInfo nodeId="4283697670712794863" varName="quotedNode1_2" />
+    </scopeInfo>
+    <scopeInfo nodeId="4283697670712794863" fileName="FixReferencesToDeletedRunModels_MigrationScript.java" startLine="115" startPosition="7" endLine="119" endPosition="31">
+      <varInfo nodeId="4283697670712794863" varName="quotedNode1_2" />
+    </scopeInfo>
+    <scopeInfo nodeId="4283697670712794863" fileName="FixReferencesToDeletedRunModels_MigrationScript.java" startLine="38" startPosition="0" endLine="43" endPosition="0">
+      <varInfo nodeId="4283697670712794863" varName="node" />
+    </scopeInfo>
     <scopeInfo nodeId="4283697670712794863" fileName="FixReferencesToDeletedRunModels_MigrationScript.java" startLine="96" startPosition="32" endLine="102" endPosition="7" />
     <scopeInfo nodeId="4283697670712794863" fileName="FixReferencesToDeletedRunModels_MigrationScript.java" startLine="114" startPosition="32" endLine="120" endPosition="7" />
-    <scopeInfo nodeId="4283697670712794863" fileName="FixReferencesToDeletedRunModels_MigrationScript.java" startLine="93" startPosition="31" endLine="103" endPosition="20" />
-    <scopeInfo nodeId="4283697670712794863" fileName="FixReferencesToDeletedRunModels_MigrationScript.java" startLine="111" startPosition="31" endLine="121" endPosition="20" />
+    <scopeInfo nodeId="4283697670712794863" fileName="FixReferencesToDeletedRunModels_MigrationScript.java" startLine="93" startPosition="31" endLine="103" endPosition="20">
+      <varInfo nodeId="4283697670712794863" varName="_parameterValues_129834374" />
+      <varInfo nodeId="4283697670712794863" varName="quotedNode_1" />
+      <varInfo nodeId="4283697670712794863" varName="result" />
+    </scopeInfo>
+    <scopeInfo nodeId="4283697670712794863" fileName="FixReferencesToDeletedRunModels_MigrationScript.java" startLine="111" startPosition="31" endLine="121" endPosition="20">
+      <varInfo nodeId="4283697670712794863" varName="_parameterValues_129834374" />
+      <varInfo nodeId="4283697670712794863" varName="quotedNode_1" />
+      <varInfo nodeId="4283697670712794863" varName="result" />
+    </scopeInfo>
     <scopeInfo nodeId="5749510889459694415" fileName="FixReferencesToDeletedRunModels_MigrationScript.java" startLine="65" startPosition="59" endLine="76" endPosition="24">
       <varInfo nodeId="5749510889459694421" varName="model" />
     </scopeInfo>
     <scopeInfo nodeId="4283697670712794863" fileName="FixReferencesToDeletedRunModels_MigrationScript.java" startLine="92" startPosition="0" endLine="105" endPosition="0" />
     <scopeInfo nodeId="4283697670712794863" fileName="FixReferencesToDeletedRunModels_MigrationScript.java" startLine="110" startPosition="0" endLine="123" endPosition="0" />
-    <scopeInfo nodeId="4283697670712794863" fileName="FixReferencesToDeletedRunModels_MigrationScript.java" startLine="64" startPosition="0" endLine="78" endPosition="0" />
+    <scopeInfo nodeId="4283697670712794863" fileName="FixReferencesToDeletedRunModels_MigrationScript.java" startLine="64" startPosition="0" endLine="78" endPosition="0">
+      <varInfo nodeId="4283697670712794863" varName="node" />
+    </scopeInfo>
     <scopeInfo nodeId="4283697670712794863" fileName="FixReferencesToDeletedRunModels_MigrationScript.java" startLine="24" startPosition="94" endLine="86" endPosition="7" />
-    <scopeInfo nodeId="4283697670712794863" fileName="FixReferencesToDeletedRunModels_MigrationScript.java" startLine="23" startPosition="90" endLine="87" endPosition="3" />
+    <scopeInfo nodeId="4283697670712794863" fileName="FixReferencesToDeletedRunModels_MigrationScript.java" startLine="23" startPosition="90" endLine="87" endPosition="3">
+      <varInfo nodeId="4283697670712794863" varName="operationContext" />
+    </scopeInfo>
     <unitInfo nodeId="4283697670712794863" fileName="FixReferencesToDeletedRunModels_MigrationScript.java" startLine="23" startPosition="0" endLine="125" endPosition="0" unitName="jetbrains.mps.baseLanguage.runConfigurations.scripts.FixReferencesToDeletedRunModels_MigrationScript" />
     <unitInfo nodeId="4283697670712794863" fileName="FixReferencesToDeletedRunModels_MigrationScript.java" startLine="26" startPosition="28" endLine="51" endPosition="5" unitName="jetbrains.mps.baseLanguage.runConfigurations.scripts.FixReferencesToDeletedRunModels_MigrationScript$1" />
     <unitInfo nodeId="4283697670712794863" fileName="FixReferencesToDeletedRunModels_MigrationScript.java" startLine="52" startPosition="28" endLine="86" endPosition="5" unitName="jetbrains.mps.baseLanguage.runConfigurations.scripts.FixReferencesToDeletedRunModels_MigrationScript$2" />

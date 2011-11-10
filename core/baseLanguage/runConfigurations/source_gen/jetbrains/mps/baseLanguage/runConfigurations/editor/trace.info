@@ -40,14 +40,39 @@
     <scopeInfo nodeId="2178855608170754548" fileName="JavaNodeConfigurationEditorDeclaration_Editor.java" startLine="24" startPosition="48" endLine="25" endPosition="82" />
     <scopeInfo nodeId="2178855608170754548" fileName="JavaNodeConfigurationEditorDeclaration_Editor.java" startLine="25" startPosition="82" endLine="26" endPosition="80" />
     <scopeInfo nodeId="2178855608170754548" fileName="JavaNodeConfigurationEditorDeclaration_Editor.java" startLine="40" startPosition="26" endLine="42" endPosition="73" />
-    <scopeInfo nodeId="2178855608170754548" fileName="JavaNodeConfigurationEditorDeclaration_Editor.java" startLine="30" startPosition="89" endLine="33" endPosition="22" />
-    <scopeInfo nodeId="2178855608170754548" fileName="JavaNodeConfigurationEditorDeclaration_Editor.java" startLine="45" startPosition="35" endLine="48" endPosition="105" />
-    <scopeInfo nodeId="2178855608170754548" fileName="JavaNodeConfigurationEditorDeclaration_Editor.java" startLine="17" startPosition="86" endLine="21" endPosition="0" />
-    <scopeInfo nodeId="2178855608170754548" fileName="JavaNodeConfigurationEditorDeclaration_Editor.java" startLine="22" startPosition="89" endLine="27" endPosition="22" />
-    <scopeInfo nodeId="2178855608170754548" fileName="JavaNodeConfigurationEditorDeclaration_Editor.java" startLine="29" startPosition="0" endLine="35" endPosition="0" />
-    <scopeInfo nodeId="2178855608170754548" fileName="JavaNodeConfigurationEditorDeclaration_Editor.java" startLine="21" startPosition="0" endLine="29" endPosition="0" />
-    <scopeInfo nodeId="2178855608170754548" fileName="JavaNodeConfigurationEditorDeclaration_Editor.java" startLine="36" startPosition="87" endLine="50" endPosition="22" />
-    <scopeInfo nodeId="2178855608170754548" fileName="JavaNodeConfigurationEditorDeclaration_Editor.java" startLine="35" startPosition="0" endLine="52" endPosition="0" />
+    <scopeInfo nodeId="2178855608170754548" fileName="JavaNodeConfigurationEditorDeclaration_Editor.java" startLine="30" startPosition="89" endLine="33" endPosition="22">
+      <varInfo nodeId="2178855608170754548" varName="editorCell" />
+      <varInfo nodeId="2178855608170754548" varName="provider" />
+    </scopeInfo>
+    <scopeInfo nodeId="2178855608170754548" fileName="JavaNodeConfigurationEditorDeclaration_Editor.java" startLine="45" startPosition="35" endLine="48" endPosition="105">
+      <varInfo nodeId="2178855608170754548" varName="manager" />
+      <varInfo nodeId="2178855608170754548" varName="opContext" />
+    </scopeInfo>
+    <scopeInfo nodeId="2178855608170754548" fileName="JavaNodeConfigurationEditorDeclaration_Editor.java" startLine="17" startPosition="86" endLine="21" endPosition="0">
+      <varInfo nodeId="2178855608170754548" varName="editorContext" />
+      <varInfo nodeId="2178855608170754548" varName="node" />
+    </scopeInfo>
+    <scopeInfo nodeId="2178855608170754548" fileName="JavaNodeConfigurationEditorDeclaration_Editor.java" startLine="22" startPosition="89" endLine="27" endPosition="22">
+      <varInfo nodeId="2178855608170754548" varName="editorCell" />
+    </scopeInfo>
+    <scopeInfo nodeId="2178855608170754548" fileName="JavaNodeConfigurationEditorDeclaration_Editor.java" startLine="29" startPosition="0" endLine="35" endPosition="0">
+      <varInfo nodeId="2178855608170754548" varName="editorContext" />
+      <varInfo nodeId="2178855608170754548" varName="node" />
+    </scopeInfo>
+    <scopeInfo nodeId="2178855608170754548" fileName="JavaNodeConfigurationEditorDeclaration_Editor.java" startLine="21" startPosition="0" endLine="29" endPosition="0">
+      <varInfo nodeId="2178855608170754548" varName="editorContext" />
+      <varInfo nodeId="2178855608170754548" varName="node" />
+    </scopeInfo>
+    <scopeInfo nodeId="2178855608170754548" fileName="JavaNodeConfigurationEditorDeclaration_Editor.java" startLine="36" startPosition="87" endLine="50" endPosition="22">
+      <varInfo nodeId="2178855608170754548" varName="attributeConcept" />
+      <varInfo nodeId="2178855608170754548" varName="attributeKind" />
+      <varInfo nodeId="2178855608170754548" varName="editorCell" />
+      <varInfo nodeId="2178855608170754548" varName="provider" />
+    </scopeInfo>
+    <scopeInfo nodeId="2178855608170754548" fileName="JavaNodeConfigurationEditorDeclaration_Editor.java" startLine="35" startPosition="0" endLine="52" endPosition="0">
+      <varInfo nodeId="2178855608170754548" varName="editorContext" />
+      <varInfo nodeId="2178855608170754548" varName="node" />
+    </scopeInfo>
     <unitInfo nodeId="2178855608170754548" fileName="JavaNodeConfigurationEditorDeclaration_Editor.java" startLine="17" startPosition="0" endLine="53" endPosition="0" unitName="jetbrains.mps.baseLanguage.runConfigurations.editor.JavaNodeConfigurationEditorDeclaration_Editor" />
   </root>
   <root nodeId="3405970486215434351">
@@ -173,43 +198,124 @@
     <scopeInfo nodeId="3405970486215434351" fileName="JavaRunConfiguration_Editor.java" startLine="112" startPosition="86" endLine="113" endPosition="49" />
     <scopeInfo nodeId="3405970486215434351" fileName="JavaRunConfiguration_Editor.java" startLine="131" startPosition="112" endLine="132" endPosition="34" />
     <scopeInfo nodeId="3405970486215434351" fileName="JavaRunConfiguration_Editor.java" startLine="135" startPosition="111" endLine="136" endPosition="34" />
-    <scopeInfo nodeId="3405970486215434351" fileName="JavaRunConfiguration_Editor.java" startLine="31" startPosition="5" endLine="33" endPosition="51" />
-    <scopeInfo nodeId="3405970486215434351" fileName="JavaRunConfiguration_Editor.java" startLine="46" startPosition="5" endLine="48" endPosition="51" />
-    <scopeInfo nodeId="3405970486215434351" fileName="JavaRunConfiguration_Editor.java" startLine="60" startPosition="5" endLine="62" endPosition="51" />
+    <scopeInfo nodeId="3405970486215434351" fileName="JavaRunConfiguration_Editor.java" startLine="31" startPosition="5" endLine="33" endPosition="51">
+      <varInfo nodeId="3405970486215434351" varName="style" />
+    </scopeInfo>
+    <scopeInfo nodeId="3405970486215434351" fileName="JavaRunConfiguration_Editor.java" startLine="46" startPosition="5" endLine="48" endPosition="51">
+      <varInfo nodeId="3405970486215434351" varName="style" />
+    </scopeInfo>
+    <scopeInfo nodeId="3405970486215434351" fileName="JavaRunConfiguration_Editor.java" startLine="60" startPosition="5" endLine="62" endPosition="51">
+      <varInfo nodeId="3405970486215434351" varName="style" />
+    </scopeInfo>
     <scopeInfo nodeId="3405970486215434351" fileName="JavaRunConfiguration_Editor.java" startLine="104" startPosition="87" endLine="106" endPosition="76" />
     <scopeInfo nodeId="3405970486215434351" fileName="JavaRunConfiguration_Editor.java" startLine="119" startPosition="87" endLine="121" endPosition="77" />
-    <scopeInfo nodeId="3405970486215434351" fileName="JavaRunConfiguration_Editor.java" startLine="126" startPosition="91" endLine="128" endPosition="18" />
+    <scopeInfo nodeId="3405970486215434351" fileName="JavaRunConfiguration_Editor.java" startLine="126" startPosition="91" endLine="128" endPosition="18">
+      <varInfo nodeId="3405970486215434351" varName="result" />
+    </scopeInfo>
     <scopeInfo nodeId="3405970486215434351" fileName="JavaRunConfiguration_Editor.java" startLine="36" startPosition="83" endLine="39" endPosition="5" />
     <scopeInfo nodeId="3405970486215434351" fileName="JavaRunConfiguration_Editor.java" startLine="50" startPosition="83" endLine="53" endPosition="5" />
-    <scopeInfo nodeId="3405970486215434351" fileName="JavaRunConfiguration_Editor.java" startLine="79" startPosition="90" endLine="82" endPosition="22" />
-    <scopeInfo nodeId="3405970486215434351" fileName="JavaRunConfiguration_Editor.java" startLine="85" startPosition="91" endLine="88" endPosition="22" />
-    <scopeInfo nodeId="3405970486215434351" fileName="JavaRunConfiguration_Editor.java" startLine="91" startPosition="91" endLine="94" endPosition="22" />
-    <scopeInfo nodeId="3405970486215434351" fileName="JavaRunConfiguration_Editor.java" startLine="97" startPosition="91" endLine="100" endPosition="22" />
-    <scopeInfo nodeId="3405970486215434351" fileName="JavaRunConfiguration_Editor.java" startLine="23" startPosition="68" endLine="27" endPosition="0" />
-    <scopeInfo nodeId="3405970486215434351" fileName="JavaRunConfiguration_Editor.java" startLine="111" startPosition="90" endLine="115" endPosition="22" />
-    <scopeInfo nodeId="3405970486215434351" fileName="JavaRunConfiguration_Editor.java" startLine="130" startPosition="0" endLine="134" endPosition="0" />
-    <scopeInfo nodeId="3405970486215434351" fileName="JavaRunConfiguration_Editor.java" startLine="134" startPosition="0" endLine="138" endPosition="0" />
+    <scopeInfo nodeId="3405970486215434351" fileName="JavaRunConfiguration_Editor.java" startLine="79" startPosition="90" endLine="82" endPosition="22">
+      <varInfo nodeId="3405970486215434351" varName="editorCell" />
+      <varInfo nodeId="3405970486215434351" varName="provider" />
+    </scopeInfo>
+    <scopeInfo nodeId="3405970486215434351" fileName="JavaRunConfiguration_Editor.java" startLine="85" startPosition="91" endLine="88" endPosition="22">
+      <varInfo nodeId="3405970486215434351" varName="editorCell" />
+      <varInfo nodeId="3405970486215434351" varName="provider" />
+    </scopeInfo>
+    <scopeInfo nodeId="3405970486215434351" fileName="JavaRunConfiguration_Editor.java" startLine="91" startPosition="91" endLine="94" endPosition="22">
+      <varInfo nodeId="3405970486215434351" varName="editorCell" />
+      <varInfo nodeId="3405970486215434351" varName="provider" />
+    </scopeInfo>
+    <scopeInfo nodeId="3405970486215434351" fileName="JavaRunConfiguration_Editor.java" startLine="97" startPosition="91" endLine="100" endPosition="22">
+      <varInfo nodeId="3405970486215434351" varName="editorCell" />
+      <varInfo nodeId="3405970486215434351" varName="provider" />
+    </scopeInfo>
+    <scopeInfo nodeId="3405970486215434351" fileName="JavaRunConfiguration_Editor.java" startLine="23" startPosition="68" endLine="27" endPosition="0">
+      <varInfo nodeId="3405970486215434351" varName="editorContext" />
+      <varInfo nodeId="3405970486215434351" varName="node" />
+    </scopeInfo>
+    <scopeInfo nodeId="3405970486215434351" fileName="JavaRunConfiguration_Editor.java" startLine="111" startPosition="90" endLine="115" endPosition="22">
+      <varInfo nodeId="3405970486215434351" varName="editorCell" />
+    </scopeInfo>
+    <scopeInfo nodeId="3405970486215434351" fileName="JavaRunConfiguration_Editor.java" startLine="130" startPosition="0" endLine="134" endPosition="0">
+      <varInfo nodeId="3405970486215434351" varName="editorContext" />
+      <varInfo nodeId="3405970486215434351" varName="node" />
+      <varInfo nodeId="3405970486215434351" varName="scope" />
+    </scopeInfo>
+    <scopeInfo nodeId="3405970486215434351" fileName="JavaRunConfiguration_Editor.java" startLine="134" startPosition="0" endLine="138" endPosition="0">
+      <varInfo nodeId="3405970486215434351" varName="editorContext" />
+      <varInfo nodeId="3405970486215434351" varName="node" />
+      <varInfo nodeId="3405970486215434351" varName="scope" />
+    </scopeInfo>
     <scopeInfo nodeId="3405970486215434351" fileName="JavaRunConfiguration_Editor.java" startLine="29" startPosition="97" endLine="34" endPosition="5" />
     <scopeInfo nodeId="3405970486215434351" fileName="JavaRunConfiguration_Editor.java" startLine="44" startPosition="99" endLine="49" endPosition="5" />
     <scopeInfo nodeId="3405970486215434351" fileName="JavaRunConfiguration_Editor.java" startLine="58" startPosition="99" endLine="63" endPosition="5" />
-    <scopeInfo nodeId="3405970486215434351" fileName="JavaRunConfiguration_Editor.java" startLine="103" startPosition="89" endLine="108" endPosition="22" />
-    <scopeInfo nodeId="3405970486215434351" fileName="JavaRunConfiguration_Editor.java" startLine="118" startPosition="88" endLine="123" endPosition="22" />
-    <scopeInfo nodeId="3405970486215434351" fileName="JavaRunConfiguration_Editor.java" startLine="125" startPosition="0" endLine="130" endPosition="0" />
-    <scopeInfo nodeId="3405970486215434351" fileName="JavaRunConfiguration_Editor.java" startLine="78" startPosition="0" endLine="84" endPosition="0" />
-    <scopeInfo nodeId="3405970486215434351" fileName="JavaRunConfiguration_Editor.java" startLine="84" startPosition="0" endLine="90" endPosition="0" />
-    <scopeInfo nodeId="3405970486215434351" fileName="JavaRunConfiguration_Editor.java" startLine="90" startPosition="0" endLine="96" endPosition="0" />
-    <scopeInfo nodeId="3405970486215434351" fileName="JavaRunConfiguration_Editor.java" startLine="96" startPosition="0" endLine="102" endPosition="0" />
-    <scopeInfo nodeId="3405970486215434351" fileName="JavaRunConfiguration_Editor.java" startLine="69" startPosition="91" endLine="76" endPosition="22" />
-    <scopeInfo nodeId="3405970486215434351" fileName="JavaRunConfiguration_Editor.java" startLine="110" startPosition="0" endLine="117" endPosition="0" />
-    <scopeInfo nodeId="3405970486215434351" fileName="JavaRunConfiguration_Editor.java" startLine="102" startPosition="0" endLine="110" endPosition="0" />
-    <scopeInfo nodeId="3405970486215434351" fileName="JavaRunConfiguration_Editor.java" startLine="117" startPosition="0" endLine="125" endPosition="0" />
-    <scopeInfo nodeId="3405970486215434351" fileName="JavaRunConfiguration_Editor.java" startLine="57" startPosition="90" endLine="66" endPosition="22" />
-    <scopeInfo nodeId="3405970486215434351" fileName="JavaRunConfiguration_Editor.java" startLine="68" startPosition="0" endLine="78" endPosition="0" />
-    <scopeInfo nodeId="3405970486215434351" fileName="JavaRunConfiguration_Editor.java" startLine="43" startPosition="90" endLine="54" endPosition="22" />
-    <scopeInfo nodeId="3405970486215434351" fileName="JavaRunConfiguration_Editor.java" startLine="28" startPosition="89" endLine="40" endPosition="22" />
-    <scopeInfo nodeId="3405970486215434351" fileName="JavaRunConfiguration_Editor.java" startLine="56" startPosition="0" endLine="68" endPosition="0" />
-    <scopeInfo nodeId="3405970486215434351" fileName="JavaRunConfiguration_Editor.java" startLine="42" startPosition="0" endLine="56" endPosition="0" />
-    <scopeInfo nodeId="3405970486215434351" fileName="JavaRunConfiguration_Editor.java" startLine="27" startPosition="0" endLine="42" endPosition="0" />
+    <scopeInfo nodeId="3405970486215434351" fileName="JavaRunConfiguration_Editor.java" startLine="103" startPosition="89" endLine="108" endPosition="22">
+      <varInfo nodeId="3405970486215434351" varName="editorCell" />
+    </scopeInfo>
+    <scopeInfo nodeId="3405970486215434351" fileName="JavaRunConfiguration_Editor.java" startLine="118" startPosition="88" endLine="123" endPosition="22">
+      <varInfo nodeId="3405970486215434351" varName="editorCell" />
+    </scopeInfo>
+    <scopeInfo nodeId="3405970486215434351" fileName="JavaRunConfiguration_Editor.java" startLine="125" startPosition="0" endLine="130" endPosition="0">
+      <varInfo nodeId="3405970486215434351" varName="editorContext" />
+      <varInfo nodeId="3405970486215434351" varName="node" />
+    </scopeInfo>
+    <scopeInfo nodeId="3405970486215434351" fileName="JavaRunConfiguration_Editor.java" startLine="78" startPosition="0" endLine="84" endPosition="0">
+      <varInfo nodeId="3405970486215434351" varName="editorContext" />
+      <varInfo nodeId="3405970486215434351" varName="node" />
+    </scopeInfo>
+    <scopeInfo nodeId="3405970486215434351" fileName="JavaRunConfiguration_Editor.java" startLine="84" startPosition="0" endLine="90" endPosition="0">
+      <varInfo nodeId="3405970486215434351" varName="editorContext" />
+      <varInfo nodeId="3405970486215434351" varName="node" />
+    </scopeInfo>
+    <scopeInfo nodeId="3405970486215434351" fileName="JavaRunConfiguration_Editor.java" startLine="90" startPosition="0" endLine="96" endPosition="0">
+      <varInfo nodeId="3405970486215434351" varName="editorContext" />
+      <varInfo nodeId="3405970486215434351" varName="node" />
+    </scopeInfo>
+    <scopeInfo nodeId="3405970486215434351" fileName="JavaRunConfiguration_Editor.java" startLine="96" startPosition="0" endLine="102" endPosition="0">
+      <varInfo nodeId="3405970486215434351" varName="editorContext" />
+      <varInfo nodeId="3405970486215434351" varName="node" />
+    </scopeInfo>
+    <scopeInfo nodeId="3405970486215434351" fileName="JavaRunConfiguration_Editor.java" startLine="69" startPosition="91" endLine="76" endPosition="22">
+      <varInfo nodeId="3405970486215434351" varName="editorCell" />
+    </scopeInfo>
+    <scopeInfo nodeId="3405970486215434351" fileName="JavaRunConfiguration_Editor.java" startLine="110" startPosition="0" endLine="117" endPosition="0">
+      <varInfo nodeId="3405970486215434351" varName="editorContext" />
+      <varInfo nodeId="3405970486215434351" varName="node" />
+    </scopeInfo>
+    <scopeInfo nodeId="3405970486215434351" fileName="JavaRunConfiguration_Editor.java" startLine="102" startPosition="0" endLine="110" endPosition="0">
+      <varInfo nodeId="3405970486215434351" varName="editorContext" />
+      <varInfo nodeId="3405970486215434351" varName="node" />
+    </scopeInfo>
+    <scopeInfo nodeId="3405970486215434351" fileName="JavaRunConfiguration_Editor.java" startLine="117" startPosition="0" endLine="125" endPosition="0">
+      <varInfo nodeId="3405970486215434351" varName="editorContext" />
+      <varInfo nodeId="3405970486215434351" varName="node" />
+    </scopeInfo>
+    <scopeInfo nodeId="3405970486215434351" fileName="JavaRunConfiguration_Editor.java" startLine="57" startPosition="90" endLine="66" endPosition="22">
+      <varInfo nodeId="3405970486215434351" varName="editorCell" />
+    </scopeInfo>
+    <scopeInfo nodeId="3405970486215434351" fileName="JavaRunConfiguration_Editor.java" startLine="68" startPosition="0" endLine="78" endPosition="0">
+      <varInfo nodeId="3405970486215434351" varName="editorContext" />
+      <varInfo nodeId="3405970486215434351" varName="node" />
+    </scopeInfo>
+    <scopeInfo nodeId="3405970486215434351" fileName="JavaRunConfiguration_Editor.java" startLine="43" startPosition="90" endLine="54" endPosition="22">
+      <varInfo nodeId="3405970486215434351" varName="editorCell" />
+    </scopeInfo>
+    <scopeInfo nodeId="3405970486215434351" fileName="JavaRunConfiguration_Editor.java" startLine="28" startPosition="89" endLine="40" endPosition="22">
+      <varInfo nodeId="3405970486215434351" varName="editorCell" />
+    </scopeInfo>
+    <scopeInfo nodeId="3405970486215434351" fileName="JavaRunConfiguration_Editor.java" startLine="56" startPosition="0" endLine="68" endPosition="0">
+      <varInfo nodeId="3405970486215434351" varName="editorContext" />
+      <varInfo nodeId="3405970486215434351" varName="node" />
+    </scopeInfo>
+    <scopeInfo nodeId="3405970486215434351" fileName="JavaRunConfiguration_Editor.java" startLine="42" startPosition="0" endLine="56" endPosition="0">
+      <varInfo nodeId="3405970486215434351" varName="editorContext" />
+      <varInfo nodeId="3405970486215434351" varName="node" />
+    </scopeInfo>
+    <scopeInfo nodeId="3405970486215434351" fileName="JavaRunConfiguration_Editor.java" startLine="27" startPosition="0" endLine="42" endPosition="0">
+      <varInfo nodeId="3405970486215434351" varName="editorContext" />
+      <varInfo nodeId="3405970486215434351" varName="node" />
+    </scopeInfo>
     <unitInfo nodeId="3405970486215434351" fileName="JavaRunConfiguration_Editor.java" startLine="23" startPosition="0" endLine="139" endPosition="0" unitName="jetbrains.mps.baseLanguage.runConfigurations.editor.JavaRunConfiguration_Editor" />
   </root>
   <root nodeId="6629582826328966249">
@@ -501,82 +607,256 @@
     <scopeInfo nodeId="6629582826328966249" fileName="JavaNodeRunConfiguration_Editor.java" startLine="273" startPosition="69" endLine="274" endPosition="67" />
     <scopeInfo nodeId="6629582826328966249" fileName="JavaNodeRunConfiguration_Editor.java" startLine="277" startPosition="81" endLine="278" endPosition="70" />
     <scopeInfo nodeId="6629582826328966249" fileName="JavaNodeRunConfiguration_Editor.java" startLine="287" startPosition="60" endLine="288" endPosition="44" />
-    <scopeInfo nodeId="6629582826328966249" fileName="JavaNodeRunConfiguration_Editor.java" startLine="38" startPosition="5" endLine="40" endPosition="51" />
-    <scopeInfo nodeId="6629582826328966249" fileName="JavaNodeRunConfiguration_Editor.java" startLine="53" startPosition="5" endLine="55" endPosition="51" />
-    <scopeInfo nodeId="6629582826328966249" fileName="JavaNodeRunConfiguration_Editor.java" startLine="67" startPosition="5" endLine="69" endPosition="51" />
-    <scopeInfo nodeId="6629582826328966249" fileName="JavaNodeRunConfiguration_Editor.java" startLine="92" startPosition="5" endLine="94" endPosition="51" />
-    <scopeInfo nodeId="6629582826328966249" fileName="JavaNodeRunConfiguration_Editor.java" startLine="120" startPosition="5" endLine="122" endPosition="51" />
+    <scopeInfo nodeId="6629582826328966249" fileName="JavaNodeRunConfiguration_Editor.java" startLine="38" startPosition="5" endLine="40" endPosition="51">
+      <varInfo nodeId="6629582826328966249" varName="style" />
+    </scopeInfo>
+    <scopeInfo nodeId="6629582826328966249" fileName="JavaNodeRunConfiguration_Editor.java" startLine="53" startPosition="5" endLine="55" endPosition="51">
+      <varInfo nodeId="6629582826328966249" varName="style" />
+    </scopeInfo>
+    <scopeInfo nodeId="6629582826328966249" fileName="JavaNodeRunConfiguration_Editor.java" startLine="67" startPosition="5" endLine="69" endPosition="51">
+      <varInfo nodeId="6629582826328966249" varName="style" />
+    </scopeInfo>
+    <scopeInfo nodeId="6629582826328966249" fileName="JavaNodeRunConfiguration_Editor.java" startLine="92" startPosition="5" endLine="94" endPosition="51">
+      <varInfo nodeId="6629582826328966249" varName="style" />
+    </scopeInfo>
+    <scopeInfo nodeId="6629582826328966249" fileName="JavaNodeRunConfiguration_Editor.java" startLine="120" startPosition="5" endLine="122" endPosition="51">
+      <varInfo nodeId="6629582826328966249" varName="style" />
+    </scopeInfo>
     <scopeInfo nodeId="6629582826328966249" fileName="JavaNodeRunConfiguration_Editor.java" startLine="154" startPosition="87" endLine="156" endPosition="76" />
     <scopeInfo nodeId="6629582826328966249" fileName="JavaNodeRunConfiguration_Editor.java" startLine="190" startPosition="87" endLine="192" endPosition="77" />
-    <scopeInfo nodeId="6629582826328966249" fileName="JavaNodeRunConfiguration_Editor.java" startLine="197" startPosition="91" endLine="199" endPosition="18" />
-    <scopeInfo nodeId="6629582826328966249" fileName="JavaNodeRunConfiguration_Editor.java" startLine="202" startPosition="94" endLine="204" endPosition="18" />
+    <scopeInfo nodeId="6629582826328966249" fileName="JavaNodeRunConfiguration_Editor.java" startLine="197" startPosition="91" endLine="199" endPosition="18">
+      <varInfo nodeId="6629582826328966249" varName="result" />
+    </scopeInfo>
+    <scopeInfo nodeId="6629582826328966249" fileName="JavaNodeRunConfiguration_Editor.java" startLine="202" startPosition="94" endLine="204" endPosition="18">
+      <varInfo nodeId="6629582826328966249" varName="result" />
+    </scopeInfo>
     <scopeInfo nodeId="6629582826328966249" fileName="JavaNodeRunConfiguration_Editor.java" startLine="229" startPosition="26" endLine="231" endPosition="73" />
     <scopeInfo nodeId="6629582826328966249" fileName="JavaNodeRunConfiguration_Editor.java" startLine="43" startPosition="83" endLine="46" endPosition="5" />
     <scopeInfo nodeId="6629582826328966249" fileName="JavaNodeRunConfiguration_Editor.java" startLine="57" startPosition="83" endLine="60" endPosition="5" />
-    <scopeInfo nodeId="6629582826328966249" fileName="JavaNodeRunConfiguration_Editor.java" startLine="129" startPosition="90" endLine="132" endPosition="22" />
-    <scopeInfo nodeId="6629582826328966249" fileName="JavaNodeRunConfiguration_Editor.java" startLine="135" startPosition="91" endLine="138" endPosition="22" />
-    <scopeInfo nodeId="6629582826328966249" fileName="JavaNodeRunConfiguration_Editor.java" startLine="141" startPosition="91" endLine="144" endPosition="22" />
-    <scopeInfo nodeId="6629582826328966249" fileName="JavaNodeRunConfiguration_Editor.java" startLine="147" startPosition="91" endLine="150" endPosition="22" />
+    <scopeInfo nodeId="6629582826328966249" fileName="JavaNodeRunConfiguration_Editor.java" startLine="129" startPosition="90" endLine="132" endPosition="22">
+      <varInfo nodeId="6629582826328966249" varName="editorCell" />
+      <varInfo nodeId="6629582826328966249" varName="provider" />
+    </scopeInfo>
+    <scopeInfo nodeId="6629582826328966249" fileName="JavaNodeRunConfiguration_Editor.java" startLine="135" startPosition="91" endLine="138" endPosition="22">
+      <varInfo nodeId="6629582826328966249" varName="editorCell" />
+      <varInfo nodeId="6629582826328966249" varName="provider" />
+    </scopeInfo>
+    <scopeInfo nodeId="6629582826328966249" fileName="JavaNodeRunConfiguration_Editor.java" startLine="141" startPosition="91" endLine="144" endPosition="22">
+      <varInfo nodeId="6629582826328966249" varName="editorCell" />
+      <varInfo nodeId="6629582826328966249" varName="provider" />
+    </scopeInfo>
+    <scopeInfo nodeId="6629582826328966249" fileName="JavaNodeRunConfiguration_Editor.java" startLine="147" startPosition="91" endLine="150" endPosition="22">
+      <varInfo nodeId="6629582826328966249" varName="editorCell" />
+      <varInfo nodeId="6629582826328966249" varName="provider" />
+    </scopeInfo>
     <scopeInfo nodeId="6629582826328966249" fileName="JavaNodeRunConfiguration_Editor.java" startLine="211" startPosition="26" endLine="214" endPosition="73" />
-    <scopeInfo nodeId="6629582826328966249" fileName="JavaNodeRunConfiguration_Editor.java" startLine="217" startPosition="35" endLine="220" endPosition="105" />
-    <scopeInfo nodeId="6629582826328966249" fileName="JavaNodeRunConfiguration_Editor.java" startLine="234" startPosition="35" endLine="237" endPosition="105" />
+    <scopeInfo nodeId="6629582826328966249" fileName="JavaNodeRunConfiguration_Editor.java" startLine="217" startPosition="35" endLine="220" endPosition="105">
+      <varInfo nodeId="6629582826328966249" varName="manager" />
+      <varInfo nodeId="6629582826328966249" varName="opContext" />
+    </scopeInfo>
+    <scopeInfo nodeId="6629582826328966249" fileName="JavaNodeRunConfiguration_Editor.java" startLine="234" startPosition="35" endLine="237" endPosition="105">
+      <varInfo nodeId="6629582826328966249" varName="manager" />
+      <varInfo nodeId="6629582826328966249" varName="opContext" />
+    </scopeInfo>
     <scopeInfo nodeId="6629582826328966249" fileName="JavaNodeRunConfiguration_Editor.java" startLine="246" startPosition="26" endLine="249" endPosition="73" />
-    <scopeInfo nodeId="6629582826328966249" fileName="JavaNodeRunConfiguration_Editor.java" startLine="252" startPosition="35" endLine="255" endPosition="105" />
+    <scopeInfo nodeId="6629582826328966249" fileName="JavaNodeRunConfiguration_Editor.java" startLine="252" startPosition="35" endLine="255" endPosition="105">
+      <varInfo nodeId="6629582826328966249" varName="manager" />
+      <varInfo nodeId="6629582826328966249" varName="opContext" />
+    </scopeInfo>
     <scopeInfo nodeId="6629582826328966249" fileName="JavaNodeRunConfiguration_Editor.java" startLine="268" startPosition="73" endLine="271" endPosition="5" />
     <scopeInfo nodeId="6629582826328966249" fileName="JavaNodeRunConfiguration_Editor.java" startLine="286" startPosition="28" endLine="289" endPosition="75" />
-    <scopeInfo nodeId="6629582826328966249" fileName="JavaNodeRunConfiguration_Editor.java" startLine="292" startPosition="37" endLine="295" endPosition="107" />
-    <scopeInfo nodeId="6629582826328966249" fileName="JavaNodeRunConfiguration_Editor.java" startLine="30" startPosition="72" endLine="34" endPosition="0" />
-    <scopeInfo nodeId="6629582826328966249" fileName="JavaNodeRunConfiguration_Editor.java" startLine="161" startPosition="91" endLine="165" endPosition="22" />
-    <scopeInfo nodeId="6629582826328966249" fileName="JavaNodeRunConfiguration_Editor.java" startLine="168" startPosition="90" endLine="172" endPosition="22" />
-    <scopeInfo nodeId="6629582826328966249" fileName="JavaNodeRunConfiguration_Editor.java" startLine="175" startPosition="92" endLine="179" endPosition="22" />
-    <scopeInfo nodeId="6629582826328966249" fileName="JavaNodeRunConfiguration_Editor.java" startLine="182" startPosition="90" endLine="186" endPosition="22" />
-    <scopeInfo nodeId="6629582826328966249" fileName="JavaNodeRunConfiguration_Editor.java" startLine="259" startPosition="0" endLine="263" endPosition="0" />
-    <scopeInfo nodeId="6629582826328966249" fileName="JavaNodeRunConfiguration_Editor.java" startLine="263" startPosition="0" endLine="267" endPosition="0" />
-    <scopeInfo nodeId="6629582826328966249" fileName="JavaNodeRunConfiguration_Editor.java" startLine="272" startPosition="0" endLine="276" endPosition="0" />
-    <scopeInfo nodeId="6629582826328966249" fileName="JavaNodeRunConfiguration_Editor.java" startLine="276" startPosition="0" endLine="280" endPosition="0" />
+    <scopeInfo nodeId="6629582826328966249" fileName="JavaNodeRunConfiguration_Editor.java" startLine="292" startPosition="37" endLine="295" endPosition="107">
+      <varInfo nodeId="6629582826328966249" varName="manager" />
+      <varInfo nodeId="6629582826328966249" varName="opContext" />
+    </scopeInfo>
+    <scopeInfo nodeId="6629582826328966249" fileName="JavaNodeRunConfiguration_Editor.java" startLine="30" startPosition="72" endLine="34" endPosition="0">
+      <varInfo nodeId="6629582826328966249" varName="editorContext" />
+      <varInfo nodeId="6629582826328966249" varName="node" />
+    </scopeInfo>
+    <scopeInfo nodeId="6629582826328966249" fileName="JavaNodeRunConfiguration_Editor.java" startLine="161" startPosition="91" endLine="165" endPosition="22">
+      <varInfo nodeId="6629582826328966249" varName="editorCell" />
+    </scopeInfo>
+    <scopeInfo nodeId="6629582826328966249" fileName="JavaNodeRunConfiguration_Editor.java" startLine="168" startPosition="90" endLine="172" endPosition="22">
+      <varInfo nodeId="6629582826328966249" varName="editorCell" />
+    </scopeInfo>
+    <scopeInfo nodeId="6629582826328966249" fileName="JavaNodeRunConfiguration_Editor.java" startLine="175" startPosition="92" endLine="179" endPosition="22">
+      <varInfo nodeId="6629582826328966249" varName="editorCell" />
+    </scopeInfo>
+    <scopeInfo nodeId="6629582826328966249" fileName="JavaNodeRunConfiguration_Editor.java" startLine="182" startPosition="90" endLine="186" endPosition="22">
+      <varInfo nodeId="6629582826328966249" varName="editorCell" />
+    </scopeInfo>
+    <scopeInfo nodeId="6629582826328966249" fileName="JavaNodeRunConfiguration_Editor.java" startLine="259" startPosition="0" endLine="263" endPosition="0">
+      <varInfo nodeId="6629582826328966249" varName="editorContext" />
+      <varInfo nodeId="6629582826328966249" varName="node" />
+      <varInfo nodeId="6629582826328966249" varName="scope" />
+    </scopeInfo>
+    <scopeInfo nodeId="6629582826328966249" fileName="JavaNodeRunConfiguration_Editor.java" startLine="263" startPosition="0" endLine="267" endPosition="0">
+      <varInfo nodeId="6629582826328966249" varName="editorContext" />
+      <varInfo nodeId="6629582826328966249" varName="node" />
+      <varInfo nodeId="6629582826328966249" varName="scope" />
+    </scopeInfo>
+    <scopeInfo nodeId="6629582826328966249" fileName="JavaNodeRunConfiguration_Editor.java" startLine="272" startPosition="0" endLine="276" endPosition="0">
+      <varInfo nodeId="6629582826328966249" varName="editorContext" />
+    </scopeInfo>
+    <scopeInfo nodeId="6629582826328966249" fileName="JavaNodeRunConfiguration_Editor.java" startLine="276" startPosition="0" endLine="280" endPosition="0">
+      <varInfo nodeId="6629582826328966249" varName="editorContext" />
+      <varInfo nodeId="6629582826328966249" varName="node" />
+    </scopeInfo>
     <scopeInfo nodeId="6629582826328966249" fileName="JavaNodeRunConfiguration_Editor.java" startLine="36" startPosition="97" endLine="41" endPosition="5" />
     <scopeInfo nodeId="6629582826328966249" fileName="JavaNodeRunConfiguration_Editor.java" startLine="51" startPosition="99" endLine="56" endPosition="5" />
     <scopeInfo nodeId="6629582826328966249" fileName="JavaNodeRunConfiguration_Editor.java" startLine="65" startPosition="99" endLine="70" endPosition="5" />
     <scopeInfo nodeId="6629582826328966249" fileName="JavaNodeRunConfiguration_Editor.java" startLine="90" startPosition="99" endLine="95" endPosition="5" />
-    <scopeInfo nodeId="6629582826328966249" fileName="JavaNodeRunConfiguration_Editor.java" startLine="101" startPosition="92" endLine="106" endPosition="22" />
-    <scopeInfo nodeId="6629582826328966249" fileName="JavaNodeRunConfiguration_Editor.java" startLine="109" startPosition="93" endLine="114" endPosition="22" />
+    <scopeInfo nodeId="6629582826328966249" fileName="JavaNodeRunConfiguration_Editor.java" startLine="101" startPosition="92" endLine="106" endPosition="22">
+      <varInfo nodeId="6629582826328966249" varName="editorCell" />
+    </scopeInfo>
+    <scopeInfo nodeId="6629582826328966249" fileName="JavaNodeRunConfiguration_Editor.java" startLine="109" startPosition="93" endLine="114" endPosition="22">
+      <varInfo nodeId="6629582826328966249" varName="editorCell" />
+    </scopeInfo>
     <scopeInfo nodeId="6629582826328966249" fileName="JavaNodeRunConfiguration_Editor.java" startLine="118" startPosition="99" endLine="123" endPosition="5" />
-    <scopeInfo nodeId="6629582826328966249" fileName="JavaNodeRunConfiguration_Editor.java" startLine="153" startPosition="89" endLine="158" endPosition="22" />
-    <scopeInfo nodeId="6629582826328966249" fileName="JavaNodeRunConfiguration_Editor.java" startLine="189" startPosition="88" endLine="194" endPosition="22" />
-    <scopeInfo nodeId="6629582826328966249" fileName="JavaNodeRunConfiguration_Editor.java" startLine="196" startPosition="0" endLine="201" endPosition="0" />
-    <scopeInfo nodeId="6629582826328966249" fileName="JavaNodeRunConfiguration_Editor.java" startLine="201" startPosition="0" endLine="206" endPosition="0" />
-    <scopeInfo nodeId="6629582826328966249" fileName="JavaNodeRunConfiguration_Editor.java" startLine="128" startPosition="0" endLine="134" endPosition="0" />
-    <scopeInfo nodeId="6629582826328966249" fileName="JavaNodeRunConfiguration_Editor.java" startLine="134" startPosition="0" endLine="140" endPosition="0" />
-    <scopeInfo nodeId="6629582826328966249" fileName="JavaNodeRunConfiguration_Editor.java" startLine="140" startPosition="0" endLine="146" endPosition="0" />
-    <scopeInfo nodeId="6629582826328966249" fileName="JavaNodeRunConfiguration_Editor.java" startLine="146" startPosition="0" endLine="152" endPosition="0" />
-    <scopeInfo nodeId="6629582826328966249" fileName="JavaNodeRunConfiguration_Editor.java" startLine="160" startPosition="0" endLine="167" endPosition="0" />
-    <scopeInfo nodeId="6629582826328966249" fileName="JavaNodeRunConfiguration_Editor.java" startLine="167" startPosition="0" endLine="174" endPosition="0" />
-    <scopeInfo nodeId="6629582826328966249" fileName="JavaNodeRunConfiguration_Editor.java" startLine="174" startPosition="0" endLine="181" endPosition="0" />
-    <scopeInfo nodeId="6629582826328966249" fileName="JavaNodeRunConfiguration_Editor.java" startLine="181" startPosition="0" endLine="188" endPosition="0" />
-    <scopeInfo nodeId="6629582826328966249" fileName="JavaNodeRunConfiguration_Editor.java" startLine="100" startPosition="0" endLine="108" endPosition="0" />
-    <scopeInfo nodeId="6629582826328966249" fileName="JavaNodeRunConfiguration_Editor.java" startLine="108" startPosition="0" endLine="116" endPosition="0" />
-    <scopeInfo nodeId="6629582826328966249" fileName="JavaNodeRunConfiguration_Editor.java" startLine="152" startPosition="0" endLine="160" endPosition="0" />
-    <scopeInfo nodeId="6629582826328966249" fileName="JavaNodeRunConfiguration_Editor.java" startLine="188" startPosition="0" endLine="196" endPosition="0" />
-    <scopeInfo nodeId="6629582826328966249" fileName="JavaNodeRunConfiguration_Editor.java" startLine="64" startPosition="90" endLine="73" endPosition="22" />
-    <scopeInfo nodeId="6629582826328966249" fileName="JavaNodeRunConfiguration_Editor.java" startLine="89" startPosition="92" endLine="98" endPosition="22" />
-    <scopeInfo nodeId="6629582826328966249" fileName="JavaNodeRunConfiguration_Editor.java" startLine="117" startPosition="93" endLine="126" endPosition="22" />
-    <scopeInfo nodeId="6629582826328966249" fileName="JavaNodeRunConfiguration_Editor.java" startLine="76" startPosition="91" endLine="86" endPosition="22" />
-    <scopeInfo nodeId="6629582826328966249" fileName="JavaNodeRunConfiguration_Editor.java" startLine="50" startPosition="90" endLine="61" endPosition="22" />
-    <scopeInfo nodeId="6629582826328966249" fileName="JavaNodeRunConfiguration_Editor.java" startLine="35" startPosition="89" endLine="47" endPosition="22" />
-    <scopeInfo nodeId="6629582826328966249" fileName="JavaNodeRunConfiguration_Editor.java" startLine="63" startPosition="0" endLine="75" endPosition="0" />
-    <scopeInfo nodeId="6629582826328966249" fileName="JavaNodeRunConfiguration_Editor.java" startLine="88" startPosition="0" endLine="100" endPosition="0" />
-    <scopeInfo nodeId="6629582826328966249" fileName="JavaNodeRunConfiguration_Editor.java" startLine="116" startPosition="0" endLine="128" endPosition="0" />
-    <scopeInfo nodeId="6629582826328966249" fileName="JavaNodeRunConfiguration_Editor.java" startLine="75" startPosition="0" endLine="88" endPosition="0" />
-    <scopeInfo nodeId="6629582826328966249" fileName="JavaNodeRunConfiguration_Editor.java" startLine="49" startPosition="0" endLine="63" endPosition="0" />
-    <scopeInfo nodeId="6629582826328966249" fileName="JavaNodeRunConfiguration_Editor.java" startLine="225" startPosition="91" endLine="239" endPosition="22" />
-    <scopeInfo nodeId="6629582826328966249" fileName="JavaNodeRunConfiguration_Editor.java" startLine="34" startPosition="0" endLine="49" endPosition="0" />
-    <scopeInfo nodeId="6629582826328966249" fileName="JavaNodeRunConfiguration_Editor.java" startLine="207" startPosition="91" endLine="222" endPosition="22" />
-    <scopeInfo nodeId="6629582826328966249" fileName="JavaNodeRunConfiguration_Editor.java" startLine="242" startPosition="91" endLine="257" endPosition="22" />
-    <scopeInfo nodeId="6629582826328966249" fileName="JavaNodeRunConfiguration_Editor.java" startLine="281" startPosition="96" endLine="297" endPosition="24" />
-    <scopeInfo nodeId="6629582826328966249" fileName="JavaNodeRunConfiguration_Editor.java" startLine="224" startPosition="0" endLine="241" endPosition="0" />
-    <scopeInfo nodeId="6629582826328966249" fileName="JavaNodeRunConfiguration_Editor.java" startLine="206" startPosition="0" endLine="224" endPosition="0" />
-    <scopeInfo nodeId="6629582826328966249" fileName="JavaNodeRunConfiguration_Editor.java" startLine="241" startPosition="0" endLine="259" endPosition="0" />
-    <scopeInfo nodeId="6629582826328966249" fileName="JavaNodeRunConfiguration_Editor.java" startLine="280" startPosition="0" endLine="299" endPosition="0" />
+    <scopeInfo nodeId="6629582826328966249" fileName="JavaNodeRunConfiguration_Editor.java" startLine="153" startPosition="89" endLine="158" endPosition="22">
+      <varInfo nodeId="6629582826328966249" varName="editorCell" />
+    </scopeInfo>
+    <scopeInfo nodeId="6629582826328966249" fileName="JavaNodeRunConfiguration_Editor.java" startLine="189" startPosition="88" endLine="194" endPosition="22">
+      <varInfo nodeId="6629582826328966249" varName="editorCell" />
+    </scopeInfo>
+    <scopeInfo nodeId="6629582826328966249" fileName="JavaNodeRunConfiguration_Editor.java" startLine="196" startPosition="0" endLine="201" endPosition="0">
+      <varInfo nodeId="6629582826328966249" varName="editorContext" />
+      <varInfo nodeId="6629582826328966249" varName="node" />
+    </scopeInfo>
+    <scopeInfo nodeId="6629582826328966249" fileName="JavaNodeRunConfiguration_Editor.java" startLine="201" startPosition="0" endLine="206" endPosition="0">
+      <varInfo nodeId="6629582826328966249" varName="editorContext" />
+      <varInfo nodeId="6629582826328966249" varName="node" />
+    </scopeInfo>
+    <scopeInfo nodeId="6629582826328966249" fileName="JavaNodeRunConfiguration_Editor.java" startLine="128" startPosition="0" endLine="134" endPosition="0">
+      <varInfo nodeId="6629582826328966249" varName="editorContext" />
+      <varInfo nodeId="6629582826328966249" varName="node" />
+    </scopeInfo>
+    <scopeInfo nodeId="6629582826328966249" fileName="JavaNodeRunConfiguration_Editor.java" startLine="134" startPosition="0" endLine="140" endPosition="0">
+      <varInfo nodeId="6629582826328966249" varName="editorContext" />
+      <varInfo nodeId="6629582826328966249" varName="node" />
+    </scopeInfo>
+    <scopeInfo nodeId="6629582826328966249" fileName="JavaNodeRunConfiguration_Editor.java" startLine="140" startPosition="0" endLine="146" endPosition="0">
+      <varInfo nodeId="6629582826328966249" varName="editorContext" />
+      <varInfo nodeId="6629582826328966249" varName="node" />
+    </scopeInfo>
+    <scopeInfo nodeId="6629582826328966249" fileName="JavaNodeRunConfiguration_Editor.java" startLine="146" startPosition="0" endLine="152" endPosition="0">
+      <varInfo nodeId="6629582826328966249" varName="editorContext" />
+      <varInfo nodeId="6629582826328966249" varName="node" />
+    </scopeInfo>
+    <scopeInfo nodeId="6629582826328966249" fileName="JavaNodeRunConfiguration_Editor.java" startLine="160" startPosition="0" endLine="167" endPosition="0">
+      <varInfo nodeId="6629582826328966249" varName="editorContext" />
+      <varInfo nodeId="6629582826328966249" varName="node" />
+    </scopeInfo>
+    <scopeInfo nodeId="6629582826328966249" fileName="JavaNodeRunConfiguration_Editor.java" startLine="167" startPosition="0" endLine="174" endPosition="0">
+      <varInfo nodeId="6629582826328966249" varName="editorContext" />
+      <varInfo nodeId="6629582826328966249" varName="node" />
+    </scopeInfo>
+    <scopeInfo nodeId="6629582826328966249" fileName="JavaNodeRunConfiguration_Editor.java" startLine="174" startPosition="0" endLine="181" endPosition="0">
+      <varInfo nodeId="6629582826328966249" varName="editorContext" />
+      <varInfo nodeId="6629582826328966249" varName="node" />
+    </scopeInfo>
+    <scopeInfo nodeId="6629582826328966249" fileName="JavaNodeRunConfiguration_Editor.java" startLine="181" startPosition="0" endLine="188" endPosition="0">
+      <varInfo nodeId="6629582826328966249" varName="editorContext" />
+      <varInfo nodeId="6629582826328966249" varName="node" />
+    </scopeInfo>
+    <scopeInfo nodeId="6629582826328966249" fileName="JavaNodeRunConfiguration_Editor.java" startLine="100" startPosition="0" endLine="108" endPosition="0">
+      <varInfo nodeId="6629582826328966249" varName="editorContext" />
+      <varInfo nodeId="6629582826328966249" varName="node" />
+    </scopeInfo>
+    <scopeInfo nodeId="6629582826328966249" fileName="JavaNodeRunConfiguration_Editor.java" startLine="108" startPosition="0" endLine="116" endPosition="0">
+      <varInfo nodeId="6629582826328966249" varName="editorContext" />
+      <varInfo nodeId="6629582826328966249" varName="node" />
+    </scopeInfo>
+    <scopeInfo nodeId="6629582826328966249" fileName="JavaNodeRunConfiguration_Editor.java" startLine="152" startPosition="0" endLine="160" endPosition="0">
+      <varInfo nodeId="6629582826328966249" varName="editorContext" />
+      <varInfo nodeId="6629582826328966249" varName="node" />
+    </scopeInfo>
+    <scopeInfo nodeId="6629582826328966249" fileName="JavaNodeRunConfiguration_Editor.java" startLine="188" startPosition="0" endLine="196" endPosition="0">
+      <varInfo nodeId="6629582826328966249" varName="editorContext" />
+      <varInfo nodeId="6629582826328966249" varName="node" />
+    </scopeInfo>
+    <scopeInfo nodeId="6629582826328966249" fileName="JavaNodeRunConfiguration_Editor.java" startLine="64" startPosition="90" endLine="73" endPosition="22">
+      <varInfo nodeId="6629582826328966249" varName="editorCell" />
+    </scopeInfo>
+    <scopeInfo nodeId="6629582826328966249" fileName="JavaNodeRunConfiguration_Editor.java" startLine="89" startPosition="92" endLine="98" endPosition="22">
+      <varInfo nodeId="6629582826328966249" varName="editorCell" />
+    </scopeInfo>
+    <scopeInfo nodeId="6629582826328966249" fileName="JavaNodeRunConfiguration_Editor.java" startLine="117" startPosition="93" endLine="126" endPosition="22">
+      <varInfo nodeId="6629582826328966249" varName="editorCell" />
+    </scopeInfo>
+    <scopeInfo nodeId="6629582826328966249" fileName="JavaNodeRunConfiguration_Editor.java" startLine="76" startPosition="91" endLine="86" endPosition="22">
+      <varInfo nodeId="6629582826328966249" varName="editorCell" />
+    </scopeInfo>
+    <scopeInfo nodeId="6629582826328966249" fileName="JavaNodeRunConfiguration_Editor.java" startLine="50" startPosition="90" endLine="61" endPosition="22">
+      <varInfo nodeId="6629582826328966249" varName="editorCell" />
+    </scopeInfo>
+    <scopeInfo nodeId="6629582826328966249" fileName="JavaNodeRunConfiguration_Editor.java" startLine="35" startPosition="89" endLine="47" endPosition="22">
+      <varInfo nodeId="6629582826328966249" varName="editorCell" />
+    </scopeInfo>
+    <scopeInfo nodeId="6629582826328966249" fileName="JavaNodeRunConfiguration_Editor.java" startLine="63" startPosition="0" endLine="75" endPosition="0">
+      <varInfo nodeId="6629582826328966249" varName="editorContext" />
+      <varInfo nodeId="6629582826328966249" varName="node" />
+    </scopeInfo>
+    <scopeInfo nodeId="6629582826328966249" fileName="JavaNodeRunConfiguration_Editor.java" startLine="88" startPosition="0" endLine="100" endPosition="0">
+      <varInfo nodeId="6629582826328966249" varName="editorContext" />
+      <varInfo nodeId="6629582826328966249" varName="node" />
+    </scopeInfo>
+    <scopeInfo nodeId="6629582826328966249" fileName="JavaNodeRunConfiguration_Editor.java" startLine="116" startPosition="0" endLine="128" endPosition="0">
+      <varInfo nodeId="6629582826328966249" varName="editorContext" />
+      <varInfo nodeId="6629582826328966249" varName="node" />
+    </scopeInfo>
+    <scopeInfo nodeId="6629582826328966249" fileName="JavaNodeRunConfiguration_Editor.java" startLine="75" startPosition="0" endLine="88" endPosition="0">
+      <varInfo nodeId="6629582826328966249" varName="editorContext" />
+      <varInfo nodeId="6629582826328966249" varName="node" />
+    </scopeInfo>
+    <scopeInfo nodeId="6629582826328966249" fileName="JavaNodeRunConfiguration_Editor.java" startLine="49" startPosition="0" endLine="63" endPosition="0">
+      <varInfo nodeId="6629582826328966249" varName="editorContext" />
+      <varInfo nodeId="6629582826328966249" varName="node" />
+    </scopeInfo>
+    <scopeInfo nodeId="6629582826328966249" fileName="JavaNodeRunConfiguration_Editor.java" startLine="225" startPosition="91" endLine="239" endPosition="22">
+      <varInfo nodeId="6629582826328966249" varName="attributeConcept" />
+      <varInfo nodeId="6629582826328966249" varName="attributeKind" />
+      <varInfo nodeId="6629582826328966249" varName="editorCell" />
+      <varInfo nodeId="6629582826328966249" varName="provider" />
+    </scopeInfo>
+    <scopeInfo nodeId="6629582826328966249" fileName="JavaNodeRunConfiguration_Editor.java" startLine="34" startPosition="0" endLine="49" endPosition="0">
+      <varInfo nodeId="6629582826328966249" varName="editorContext" />
+      <varInfo nodeId="6629582826328966249" varName="node" />
+    </scopeInfo>
+    <scopeInfo nodeId="6629582826328966249" fileName="JavaNodeRunConfiguration_Editor.java" startLine="207" startPosition="91" endLine="222" endPosition="22">
+      <varInfo nodeId="6629582826328966249" varName="attributeConcept" />
+      <varInfo nodeId="6629582826328966249" varName="attributeKind" />
+      <varInfo nodeId="6629582826328966249" varName="editorCell" />
+      <varInfo nodeId="6629582826328966249" varName="provider" />
+    </scopeInfo>
+    <scopeInfo nodeId="6629582826328966249" fileName="JavaNodeRunConfiguration_Editor.java" startLine="242" startPosition="91" endLine="257" endPosition="22">
+      <varInfo nodeId="6629582826328966249" varName="attributeConcept" />
+      <varInfo nodeId="6629582826328966249" varName="attributeKind" />
+      <varInfo nodeId="6629582826328966249" varName="editorCell" />
+      <varInfo nodeId="6629582826328966249" varName="provider" />
+    </scopeInfo>
+    <scopeInfo nodeId="6629582826328966249" fileName="JavaNodeRunConfiguration_Editor.java" startLine="281" startPosition="96" endLine="297" endPosition="24">
+      <varInfo nodeId="6629582826328966249" varName="attributeConcept" />
+      <varInfo nodeId="6629582826328966249" varName="attributeKind" />
+      <varInfo nodeId="6629582826328966249" varName="editorCell" />
+      <varInfo nodeId="6629582826328966249" varName="provider" />
+    </scopeInfo>
+    <scopeInfo nodeId="6629582826328966249" fileName="JavaNodeRunConfiguration_Editor.java" startLine="224" startPosition="0" endLine="241" endPosition="0">
+      <varInfo nodeId="6629582826328966249" varName="editorContext" />
+      <varInfo nodeId="6629582826328966249" varName="node" />
+    </scopeInfo>
+    <scopeInfo nodeId="6629582826328966249" fileName="JavaNodeRunConfiguration_Editor.java" startLine="206" startPosition="0" endLine="224" endPosition="0">
+      <varInfo nodeId="6629582826328966249" varName="editorContext" />
+      <varInfo nodeId="6629582826328966249" varName="node" />
+    </scopeInfo>
+    <scopeInfo nodeId="6629582826328966249" fileName="JavaNodeRunConfiguration_Editor.java" startLine="241" startPosition="0" endLine="259" endPosition="0">
+      <varInfo nodeId="6629582826328966249" varName="editorContext" />
+      <varInfo nodeId="6629582826328966249" varName="node" />
+    </scopeInfo>
+    <scopeInfo nodeId="6629582826328966249" fileName="JavaNodeRunConfiguration_Editor.java" startLine="280" startPosition="0" endLine="299" endPosition="0">
+      <varInfo nodeId="6629582826328966249" varName="editorContext" />
+      <varInfo nodeId="6629582826328966249" varName="node" />
+    </scopeInfo>
     <unitInfo nodeId="6629582826328966249" fileName="JavaNodeRunConfiguration_Editor.java" startLine="30" startPosition="0" endLine="301" endPosition="0" unitName="jetbrains.mps.baseLanguage.runConfigurations.editor.JavaNodeRunConfiguration_Editor" />
     <unitInfo nodeId="6629582826328966249" fileName="JavaNodeRunConfiguration_Editor.java" startLine="268" startPosition="0" endLine="300" endPosition="0" unitName="jetbrains.mps.baseLanguage.runConfigurations.editor.JavaNodeRunConfiguration_Editor$_Inline_oxce8e_a1a3b1a" />
   </root>
