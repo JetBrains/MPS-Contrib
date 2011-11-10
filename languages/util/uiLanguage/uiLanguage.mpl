@@ -1,8 +1,8 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <language namespace="jetbrains.mps.uiLanguage" uuid="5d6bee4c-f891-4a93-a0c9-e2268726ae47" compileInMPS="true" doNotGenerateAdapters="false">
   <models>
-    <modelRoot path="${language_descriptor}/languageModels" namespacePrefix="jetbrains.mps.uiLanguage" />
-    <modelRoot path="${mps_home}/lib/beansbinding-1.2.1.jar" namespacePrefix="">
+    <modelRoot path="${language_descriptor}/languageModels" />
+    <modelRoot path="${mps_home}/lib/beansbinding-1.2.1.jar">
       <manager moduleId="f3061a53-9226-4cc5-a443-f952ceaf5816" className="jetbrains.mps.baseLanguage.stubs.JavaStubs" />
     </modelRoot>
   </models>
@@ -12,11 +12,11 @@
   <generators>
     <generator generatorUID="jetbrains.mps.uiLanguage#1202393863737" uuid="d1415f93-6c9c-4200-81f9-9205ed57131a">
       <models>
-        <modelRoot path="${language_descriptor}/generator/baseLanguage/template" namespacePrefix="jetbrains.mps.uiLanguage.generator.baseLanguage.template" />
-        <modelRoot path="${language_descriptor}/runtime/classes" namespacePrefix="">
+        <modelRoot path="${language_descriptor}/generator/baseLanguage/template" />
+        <modelRoot path="${language_descriptor}/runtime/classes">
           <manager moduleId="f3061a53-9226-4cc5-a443-f952ceaf5816" className="jetbrains.mps.baseLanguage.stubs.JavaStubs" />
         </modelRoot>
-        <modelRoot path="${mps_home}/lib/beansbinding-1.2.1.jar" namespacePrefix="">
+        <modelRoot path="${mps_home}/lib/beansbinding-1.2.1.jar">
           <manager moduleId="f3061a53-9226-4cc5-a443-f952ceaf5816" className="jetbrains.mps.baseLanguage.stubs.JavaStubs" />
         </modelRoot>
       </models>
