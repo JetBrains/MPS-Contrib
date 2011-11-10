@@ -63,7 +63,7 @@ public abstract class BaseRunProfileState extends DebuggerRunProfileState {
 
       @Override
       public IDebugger getDebugger() {
-        return Debuggers.getInstance().getDebuggerByName("Java");
+        return (IDebugger) Debuggers.getInstance().getDebuggerByName("Java");
       }
     };
   }
