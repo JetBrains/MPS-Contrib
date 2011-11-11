@@ -1,5 +1,5 @@
 <component name="libraryTable">
-  <library name="IDEA-plaform">
+  <library name="Idea-plaform">
     <CLASSES>
       <root url="jar://$PROJECT_DIR$/lib/resources.jar!/" />
       <root url="jar://$PROJECT_DIR$/lib/platform-api.jar!/" />

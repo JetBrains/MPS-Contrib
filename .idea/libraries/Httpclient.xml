@@ -1,5 +1,5 @@
 <component name="libraryTable">
-  <library name="httpclient">
+  <library name="Httpclient">
     <CLASSES>
       <root url="jar://$PROJECT_DIR$/lib/httpclient.jar!/" />
     </CLASSES>

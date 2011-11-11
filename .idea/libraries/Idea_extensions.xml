@@ -1,5 +1,5 @@
 <component name="libraryTable">
-  <library name="idea-extensions">
+  <library name="Idea-extensions">
     <CLASSES>
       <root url="jar://$PROJECT_DIR$/lib/extensions.jar!/" />
     </CLASSES>
