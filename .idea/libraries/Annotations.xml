@@ -1,5 +1,5 @@
 <component name="libraryTable">
-  <library name="annotations">
+  <library name="Annotations">
     <CLASSES>
       <root url="jar://$PROJECT_DIR$/lib/annotations.jar!/" />
     </CLASSES>

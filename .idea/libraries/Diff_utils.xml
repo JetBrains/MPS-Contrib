@@ -1,5 +1,5 @@
 <component name="libraryTable">
-  <library name="java-diff-utils">
+  <library name="Diff-utils">
     <CLASSES>
       <root url="jar://$PROJECT_DIR$/lib/diffutils-1.2.1.jar!/" />
     </CLASSES>

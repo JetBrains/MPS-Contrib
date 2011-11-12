@@ -1,5 +1,5 @@
 <component name="libraryTable">
-  <library name="IDEA-vcs-plugins">
+  <library name="Idea-vcs">
     <CLASSES>
       <root url="jar://$PROJECT_DIR$/plugins/git4idea/lib/resources_en.jar!/" />
       <root url="jar://$PROJECT_DIR$/plugins/git4idea/lib/git4idea.jar!/" />
