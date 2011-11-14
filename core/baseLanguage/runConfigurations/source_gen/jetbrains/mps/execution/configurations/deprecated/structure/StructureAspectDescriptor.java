@@ -124,7 +124,7 @@ public class StructureAspectDescriptor implements jetbrains.mps.smodel.runtime.S
       case 53:
         return new CompiledConceptDescriptor("jetbrains.mps.execution.configurations.deprecated.structure.PrepareReturnType_FunctionParameter", "jetbrains.mps.baseLanguage.structure.ConceptFunctionParameter", false, new String[]{"jetbrains.mps.baseLanguage.structure.ConceptFunctionParameter"}, new String[]{}, new String[]{});
       case 54:
-        return new CompiledConceptDescriptor("jetbrains.mps.execution.configurations.deprecated.structure.ProcessHandlerStatement", "jetbrains.mps.baseLanguage.structure.Statement", false, new String[]{"jetbrains.mps.baseLanguage.structure.Statement"}, new String[]{}, new String[]{});
+        return new CompiledConceptDescriptor("jetbrains.mps.execution.configurations.deprecated.structure.ProcessHandlerStatement", "jetbrains.mps.baseLanguage.structure.Statement", false, new String[]{"jetbrains.mps.baseLanguage.structure.Statement", "jetbrains.mps.execution.configurations.deprecated.structure.ExecuteSpecific"}, new String[]{}, new String[]{});
       case 55:
         return new CompiledConceptDescriptor("jetbrains.mps.execution.configurations.deprecated.structure.ProcessStatement", "jetbrains.mps.baseLanguage.structure.Statement", false, new String[]{"jetbrains.mps.baseLanguage.structure.Statement", "jetbrains.mps.execution.configurations.deprecated.structure.ExecuteSpecific"}, new String[]{}, new String[]{});
       case 56:
