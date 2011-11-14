@@ -59,9 +59,9 @@ public class NodeRunConfigPropertyInstance_Constraints extends BaseConstraintsDe
   }
 
   public static boolean static_canBeAChild(final IOperationContext operationContext, final CanBeAChildContext _context) {
-    if (!(SNodeOperations.isInstanceOf(_context.getParentNode(), "jetbrains.mps.lang.plugin.structure.CreateRunConfigStatement"))) {
+    if (!(SNodeOperations.isInstanceOf(_context.getParentNode(), "jetbrains.mps.execution.configurations.deprecated.structure.CreateRunConfigStatement"))) {
       return false;
     }
-    return SNodeOperations.isInstanceOf(SLinkOperations.getTarget(SNodeOperations.cast(_context.getParentNode(), "jetbrains.mps.lang.plugin.structure.CreateRunConfigStatement"), "runConfig", false), "jetbrains.mps.execution.configurations.deprecated.structure.JavaNodeRunConfiguration");
+    return SNodeOperations.isInstanceOf(SLinkOperations.getTarget(SNodeOperations.cast(_context.getParentNode(), "jetbrains.mps.execution.configurations.deprecated.structure.CreateRunConfigStatement"), "runConfig", false), "jetbrains.mps.execution.configurations.deprecated.structure.JavaNodeRunConfiguration");
   }
 }

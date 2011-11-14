@@ -8,7 +8,6 @@ import jetbrains.mps.nodeEditor.EditorContext;
 import jetbrains.mps.smodel.SNode;
 import jetbrains.mps.nodeEditor.cells.EditorCell_Collection;
 import jetbrains.mps.nodeEditor.AbstractCellProvider;
-import jetbrains.mps.lang.plugin.editor.ConfigurationEditorDeclaration_BasicEditor;
 import jetbrains.mps.nodeEditor.cellProviders.CellProviderWithRole;
 import jetbrains.mps.lang.editor.cellProviders.RefNodeCellProvider;
 import jetbrains.mps.smodel.IOperationContext;

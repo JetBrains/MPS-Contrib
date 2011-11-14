@@ -4,7 +4,6 @@ package jetbrains.mps.execution.configurations.deprecated.behavior;
 
 import jetbrains.mps.smodel.SNode;
 import java.util.List;
-import jetbrains.mps.lang.plugin.behavior.IEnhancedRunConfiguration_Behavior;
 import jetbrains.mps.internal.collections.runtime.ListSequence;
 import jetbrains.mps.lang.smodel.generator.smodelAdapter.SConceptOperations;
 import jetbrains.mps.lang.smodel.generator.smodelAdapter.SPropertyOperations;
@@ -20,8 +19,8 @@ public class JavaRunConfiguration_Behavior {
   public static void init(SNode thisNode) {
   }
 
-  public static List<SNode> virtual_getAdditionalParameters_3636700473138841189(SNode thisNode) {
-    List<SNode> parameters = IEnhancedRunConfiguration_Behavior.callSuper_getAdditionalParameters_3636700473138841189(thisNode, "jetbrains.mps.execution.configurations.deprecated.structure.JavaRunConfiguration");
+  public static List<SNode> virtual_getAdditionalParameters_314981645426570797(SNode thisNode) {
+    List<SNode> parameters = IEnhancedRunConfiguration_Behavior.callSuper_getAdditionalParameters_314981645426570797(thisNode, "jetbrains.mps.execution.configurations.deprecated.structure.JavaRunConfiguration");
 
     ListSequence.fromList(parameters).addElement(SConceptOperations.findConceptDeclaration("jetbrains.mps.execution.configurations.deprecated.structure.JavaConfigurationRunParameters_FunctionParameter"));
     return parameters;
@@ -31,7 +30,7 @@ public class JavaRunConfiguration_Behavior {
     return JavaConfigurationRunParameters_FunctionParameter_Behavior.getGeneratedFieldName_8126994885493110313();
   }
 
-  public static SNode virtual_getStateType_9017024590936598176(SNode thisNode) {
+  public static SNode virtual_getStateType_314981645426570519(SNode thisNode) {
     if (SPropertyOperations.getBoolean(thisNode, "isDebuggable")) {
       return new JavaRunConfiguration_Behavior.QuotationClass_r2ediq_a0a0a0d().createNode();
     }

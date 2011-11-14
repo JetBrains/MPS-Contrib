@@ -5,7 +5,6 @@ package jetbrains.mps.execution.configurations.deprecated.behavior;
 import jetbrains.mps.smodel.SNode;
 import jetbrains.mps.lang.smodel.generator.smodelAdapter.SPropertyOperations;
 import java.util.List;
-import jetbrains.mps.lang.plugin.behavior.IEnhancedRunConfiguration_Behavior;
 import jetbrains.mps.internal.collections.runtime.ListSequence;
 import jetbrains.mps.lang.smodel.generator.smodelAdapter.SConceptOperations;
 
@@ -14,8 +13,8 @@ public class JavaNodeRunConfiguration_Behavior {
     SPropertyOperations.set(thisNode, "generate", "" + (true));
   }
 
-  public static List<SNode> virtual_getAdditionalParameters_3636700473138841189(SNode thisNode) {
-    List<SNode> parameters = IEnhancedRunConfiguration_Behavior.callSuper_getAdditionalParameters_3636700473138841189(thisNode, "jetbrains.mps.execution.configurations.deprecated.structure.JavaNodeRunConfiguration");
+  public static List<SNode> virtual_getAdditionalParameters_314981645426570797(SNode thisNode) {
+    List<SNode> parameters = IEnhancedRunConfiguration_Behavior.callSuper_getAdditionalParameters_314981645426570797(thisNode, "jetbrains.mps.execution.configurations.deprecated.structure.JavaNodeRunConfiguration");
     ListSequence.fromList(parameters).addElement(SConceptOperations.findConceptDeclaration("jetbrains.mps.execution.configurations.deprecated.structure.Node_FunctionParameter"));
     return parameters;
   }

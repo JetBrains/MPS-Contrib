@@ -9,8 +9,8 @@ public class JavaNodeRunConfiguration_BehaviorDescriptor extends JavaRunConfigur
   public JavaNodeRunConfiguration_BehaviorDescriptor() {
   }
 
-  public List<SNode> virtual_getAdditionalParameters_3636700473138841189(SNode thisNode) {
-    return JavaNodeRunConfiguration_Behavior.virtual_getAdditionalParameters_3636700473138841189(thisNode);
+  public List<SNode> virtual_getAdditionalParameters_314981645426570797(SNode thisNode) {
+    return JavaNodeRunConfiguration_Behavior.virtual_getAdditionalParameters_314981645426570797(thisNode);
   }
 
   @Override

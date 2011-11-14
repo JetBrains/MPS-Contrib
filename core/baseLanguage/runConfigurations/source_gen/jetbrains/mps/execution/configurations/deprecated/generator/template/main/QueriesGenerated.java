@@ -16,7 +16,7 @@ import jetbrains.mps.lang.smodel.generator.smodelAdapter.SPropertyOperations;
 import jetbrains.mps.execution.configurations.deprecated.behavior.Node_FunctionParameter_Behavior;
 import jetbrains.mps.generator.template.ReferenceMacroContext;
 import jetbrains.mps.internal.collections.runtime.ListSequence;
-import jetbrains.mps.lang.plugin.behavior.RunConfigurationDeclaration_Behavior;
+import jetbrains.mps.execution.configurations.deprecated.behavior.RunConfigurationDeclaration_Behavior;
 import jetbrains.mps.generator.template.IfMacroContext;
 import jetbrains.mps.smodel.SNode;
 import jetbrains.mps.generator.template.SourceSubstituteMacroNodeContext;
@@ -51,11 +51,11 @@ public class QueriesGenerated {
   }
 
   public static boolean baseMappingRule_Condition_5842104767989368318(final IOperationContext operationContext, final BaseMappingRuleContext _context) {
-    return (SNodeOperations.getAncestor(_context.getNode(), "jetbrains.mps.lang.plugin.structure.ConfigurationEditorDeclaration", false, false) != null) && (SNodeOperations.getAncestor(_context.getNode(), "jetbrains.mps.execution.configurations.deprecated.structure.IOnChangeEditorBlock", false, false) == null);
+    return (SNodeOperations.getAncestor(_context.getNode(), "jetbrains.mps.execution.configurations.deprecated.structure.ConfigurationEditorDeclaration", false, false) != null) && (SNodeOperations.getAncestor(_context.getNode(), "jetbrains.mps.execution.configurations.deprecated.structure.IOnChangeEditorBlock", false, false) == null);
   }
 
   public static boolean baseMappingRule_Condition_1769265426473564960(final IOperationContext operationContext, final BaseMappingRuleContext _context) {
-    return (SNodeOperations.getAncestor(_context.getNode(), "jetbrains.mps.lang.plugin.structure.MakeConfigBlock", false, false) != null);
+    return (SNodeOperations.getAncestor(_context.getNode(), "jetbrains.mps.execution.configurations.deprecated.structure.MakeConfigBlock", false, false) != null);
   }
 
   public static Object propertyMacro_GetPropertyValue_1810772216404819116(final IOperationContext operationContext, final PropertyMacroContext _context) {
@@ -103,7 +103,7 @@ public class QueriesGenerated {
   }
 
   public static Object referenceMacro_GetReferent_9017024590936794725(final IOperationContext operationContext, final ReferenceMacroContext _context) {
-    return SLinkOperations.getTarget(RunConfigurationDeclaration_Behavior.call_getStateType_9017024590936598176(_context.getNode()), "classifier", false);
+    return SLinkOperations.getTarget(RunConfigurationDeclaration_Behavior.call_getStateType_314981645426570519(_context.getNode()), "classifier", false);
   }
 
   public static Object referenceMacro_GetReferent_6951161063040195056(final IOperationContext operationContext, final ReferenceMacroContext _context) {
@@ -323,7 +323,7 @@ public class QueriesGenerated {
   }
 
   public static SNode weaving_MappingRule_ContextNodeQuery_5147346160405481760(final IOperationContext opereationContext, final WeavingMappingRuleContext _context) {
-    return SLinkOperations.getTarget(SNodeOperations.cast(SLinkOperations.getTarget(_context.getOutputNodeByInputNodeAndMappingLabel(_context.getNode(), "map_JavaRunConfigurationToRunConfiguration"), "executeBlock", true), "jetbrains.mps.lang.plugin.structure.ExecuteConfigBlock"), "body", true);
+    return SLinkOperations.getTarget(SNodeOperations.cast(SLinkOperations.getTarget(_context.getOutputNodeByInputNodeAndMappingLabel(_context.getNode(), "map_JavaRunConfigurationToRunConfiguration"), "executeBlock", true), "jetbrains.mps.execution.configurations.deprecated.structure.ExecuteConfigBlock"), "body", true);
   }
 
   public static SNode weaving_MappingRule_ContextNodeQuery_664608570000513785(final IOperationContext opereationContext, final WeavingMappingRuleContext _context) {
@@ -335,11 +335,11 @@ public class QueriesGenerated {
   }
 
   public static SNode weaving_MappingRule_ContextNodeQuery_1491021298367441726(final IOperationContext opereationContext, final WeavingMappingRuleContext _context) {
-    return SLinkOperations.getTarget(SNodeOperations.cast(SLinkOperations.getTarget(_context.getOutputNodeByInputNodeAndMappingLabel(_context.getNode(), "map_JavaRunConfigurationToRunConfiguration"), "executeBlock", true), "jetbrains.mps.lang.plugin.structure.ExecuteConfigBlock"), "body", true);
+    return SLinkOperations.getTarget(SNodeOperations.cast(SLinkOperations.getTarget(_context.getOutputNodeByInputNodeAndMappingLabel(_context.getNode(), "map_JavaRunConfigurationToRunConfiguration"), "executeBlock", true), "jetbrains.mps.execution.configurations.deprecated.structure.ExecuteConfigBlock"), "body", true);
   }
 
   public static SNode weaving_MappingRule_ContextNodeQuery_2392137962931159118(final IOperationContext opereationContext, final WeavingMappingRuleContext _context) {
-    return SLinkOperations.getTarget(SNodeOperations.cast(SLinkOperations.getTarget(_context.getOutputNodeByInputNodeAndMappingLabel(_context.getNode(), "map_JavaRunConfigurationToRunConfiguration"), "checkBlock", true), "jetbrains.mps.lang.plugin.structure.CheckConfigurationBlock"), "body", true);
+    return SLinkOperations.getTarget(SNodeOperations.cast(SLinkOperations.getTarget(_context.getOutputNodeByInputNodeAndMappingLabel(_context.getNode(), "map_JavaRunConfigurationToRunConfiguration"), "checkBlock", true), "jetbrains.mps.execution.configurations.deprecated.structure.CheckConfigurationBlock"), "body", true);
   }
 
   public static SNode weaving_MappingRule_ContextNodeQuery_1633282062187298929(final IOperationContext opereationContext, final WeavingMappingRuleContext _context) {
@@ -368,8 +368,8 @@ public class QueriesGenerated {
 
   public static void mappingScript_CodeBlock_7549816165173146547(final IOperationContext operationContext, final MappingScriptContext _context) {
     for (SNode configuration : ListSequence.fromList(SModelOperations.getRoots(_context.getModel(), "jetbrains.mps.execution.configurations.deprecated.structure.JavaRunConfiguration"))) {
-      for (SNode componentRef : ListSequence.fromList(SNodeOperations.getDescendants(configuration, "jetbrains.mps.lang.plugin.structure.ComponentReference", false, new String[]{}))) {
-        if ((SNodeOperations.getAncestor(componentRef, "jetbrains.mps.lang.plugin.structure.AbstractEnhancedConceptFunction", false, false) != null)) {
+      for (SNode componentRef : ListSequence.fromList(SNodeOperations.getDescendants(configuration, "jetbrains.mps.execution.configurations.deprecated.structure.ComponentReference", false, new String[]{}))) {
+        if ((SNodeOperations.getAncestor(componentRef, "jetbrains.mps.execution.configurations.deprecated.structure.AbstractEnhancedConceptFunction", false, false) != null)) {
           AttributeOperations.createAndSetAttrbiute(componentRef, new IAttributeDescriptor.NodeAttribute(SConceptOperations.findConceptDeclaration("jetbrains.mps.execution.configurations.deprecated.structure.UserComponentReferenceAnnotation")), "jetbrains.mps.execution.configurations.deprecated.structure.UserComponentReferenceAnnotation");
         } else if ((SNodeOperations.getAncestor(componentRef, "jetbrains.mps.execution.configurations.deprecated.structure.IOnChangeEditorBlock", false, false) != null)) {
           AttributeOperations.createAndSetAttrbiute(componentRef, new IAttributeDescriptor.NodeAttribute(SConceptOperations.findConceptDeclaration("jetbrains.mps.execution.configurations.deprecated.structure.ComponentInsideOfChangeListenerAnnotation")), "jetbrains.mps.execution.configurations.deprecated.structure.ComponentInsideOfChangeListenerAnnotation");
