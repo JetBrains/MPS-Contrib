@@ -1,11 +1,11 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<language namespace="jetbrains.mps.baseLanguage.runConfigurations" uuid="82c32a3b-4a54-4fc1-b551-7ff9f198d7c1" compileInMPS="true" doNotGenerateAdapters="true">
+<language namespace="jetbrains.mps.execution.configurations.deprecated" uuid="82c32a3b-4a54-4fc1-b551-7ff9f198d7c1" compileInMPS="true" doNotGenerateAdapters="true">
   <models>
     <modelRoot path="${language_descriptor}/languageModels" />
   </models>
   <accessoryModels />
   <generators>
-    <generator name="" generatorUID="jetbrains.mps.baseLanguage.runConfigurations#6629582826328981980" uuid="ba88d7e7-0ed2-42da-87cb-525b46207909">
+    <generator name="" generatorUID="jetbrains.mps.execution.configurations.deprecated#6629582826328981980" uuid="ba88d7e7-0ed2-42da-87cb-525b46207909">
       <models>
         <modelRoot path="${language_descriptor}/generator/template" />
       </models>
