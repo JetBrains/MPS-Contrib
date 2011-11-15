@@ -6,6 +6,10 @@ import java.util.List;
 import jetbrains.mps.baseLanguage.unitTest.execution.server.TestRunner;
 import jetbrains.mps.internal.collections.runtime.ListSequence;
 import java.util.ArrayList;
+import jetbrains.mps.reloading.ClasspathStringCollector;
+import jetbrains.mps.smodel.MPSModuleRepository;
+import jetbrains.mps.project.ModuleId;
+import jetbrains.mps.internal.collections.runtime.SetSequence;
 
 public class TestRunParameters {
   private String myTestRunner;
@@ -13,33 +17,36 @@ public class TestRunParameters {
   private List<String> myClassPath;
 
   public TestRunParameters() {
-    this.myTestRunner = TestRunner.class.getName();
-    this.myVmParameters = ListSequence.fromList(new ArrayList<String>());
-    this.myClassPath = ListSequence.fromList(new ArrayList<String>());
+    myTestRunner = TestRunner.class.getName();
+    myVmParameters = ListSequence.fromList(new ArrayList<String>());
+    ClasspathStringCollector collector = new ClasspathStringCollector();
+    MPSModuleRepository.getInstance().getModuleById(ModuleId.fromString("f618e99a-2641-465c-bb54-31fe76f9e285")).getClassPathItem().accept(collector);
+    myClassPath = ListSequence.fromList(new ArrayList<String>());
+    ListSequence.fromList(myClassPath).addSequence(SetSequence.fromSet(collector.getClasspath()));
   }
 
   public void setTestRunner(String name) {
-    this.myTestRunner = name;
+    myTestRunner = name;
   }
 
   public String getTestRunner() {
-    return this.myTestRunner;
+    return myTestRunner;
   }
 
   public void setVmParameters(List<String> parameters) {
-    this.myVmParameters = parameters;
+    myVmParameters = parameters;
   }
 
   public List<String> getVmParameters() {
-    return this.myVmParameters;
+    return myVmParameters;
   }
 
   public void setClassPath(List<String> classPath) {
-    this.myClassPath = classPath;
+    myClassPath = classPath;
   }
 
   public List<String> getClassPath() {
-    return this.myClassPath;
+    return myClassPath;
   }
 
   public boolean equals(Object obj) {
@@ -47,14 +54,14 @@ public class TestRunParameters {
       return false;
     }
     TestRunParameters parameters = (TestRunParameters) obj;
-    boolean result = eq_mls2ap_a0a2a6(this.myTestRunner, parameters.myTestRunner);
-    result = result && eq_mls2ap_a0a0d0g(this.myVmParameters, parameters.myVmParameters);
-    result = result && eq_mls2ap_a0a0e0g(this.myClassPath, parameters.myClassPath);
+    boolean result = eq_mls2ap_a0a2a6(myTestRunner, parameters.myTestRunner);
+    result = result && eq_mls2ap_a0a0d0g(myVmParameters, parameters.myVmParameters);
+    result = result && eq_mls2ap_a0a0e0g(myClassPath, parameters.myClassPath);
     return result;
   }
 
   public int hashCode() {
-    return this.myTestRunner.hashCode() + this.myClassPath.hashCode() + this.myVmParameters.hashCode();
+    return myTestRunner.hashCode() + myClassPath.hashCode() + myVmParameters.hashCode();
   }
 
   private static boolean eq_mls2ap_a0a2a6(Object a, Object b) {
