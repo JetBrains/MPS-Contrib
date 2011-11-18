@@ -20,11 +20,20 @@
     <scopeInfo nodeId="3037831562615764081" fileName="TaskReference.java" startLine="23" startPosition="53" endLine="24" endPosition="55" />
     <scopeInfo nodeId="3037831562615764081" fileName="TaskReference.java" startLine="27" startPosition="68" endLine="28" endPosition="182" />
     <scopeInfo nodeId="3037831562615764081" fileName="TaskReference.java" startLine="31" startPosition="54" endLine="32" endPosition="48" />
-    <scopeInfo nodeId="3037831562615764081" fileName="TaskReference.java" startLine="14" startPosition="0" endLine="17" endPosition="3" />
+    <scopeInfo nodeId="3037831562615764081" fileName="TaskReference.java" startLine="14" startPosition="0" endLine="17" endPosition="3">
+      <varInfo nodeId="3037831562615764081" varName="node" />
+    </scopeInfo>
     <scopeInfo nodeId="3037831562615764081" fileName="TaskReference.java" startLine="18" startPosition="0" endLine="22" endPosition="0" />
-    <scopeInfo nodeId="3037831562615764081" fileName="TaskReference.java" startLine="22" startPosition="0" endLine="26" endPosition="0" />
-    <scopeInfo nodeId="3037831562615764081" fileName="TaskReference.java" startLine="26" startPosition="0" endLine="30" endPosition="0" />
-    <scopeInfo nodeId="3037831562615764081" fileName="TaskReference.java" startLine="30" startPosition="0" endLine="34" endPosition="0" />
+    <scopeInfo nodeId="3037831562615764081" fileName="TaskReference.java" startLine="22" startPosition="0" endLine="26" endPosition="0">
+      <varInfo nodeId="3037831562615764081" varName="node" />
+    </scopeInfo>
+    <scopeInfo nodeId="3037831562615764081" fileName="TaskReference.java" startLine="26" startPosition="0" endLine="30" endPosition="0">
+      <varInfo nodeId="3037831562615764081" varName="init" />
+      <varInfo nodeId="3037831562615764081" varName="sm" />
+    </scopeInfo>
+    <scopeInfo nodeId="3037831562615764081" fileName="TaskReference.java" startLine="30" startPosition="0" endLine="34" endPosition="0">
+      <varInfo nodeId="3037831562615764081" varName="sm" />
+    </scopeInfo>
     <unitInfo nodeId="3037831562615764081" fileName="TaskReference.java" startLine="11" startPosition="0" endLine="35" endPosition="0" unitName="jetbrains.mps.build.generictasks.structure.TaskReference" />
   </root>
   <root nodeId="353793545802643466">
@@ -52,13 +61,24 @@
     <scopeInfo nodeId="353793545802643466" fileName="Attribute.java" startLine="33" startPosition="54" endLine="34" endPosition="42" />
     <scopeInfo nodeId="353793545802643466" fileName="Attribute.java" startLine="37" startPosition="64" endLine="38" endPosition="174" />
     <scopeInfo nodeId="353793545802643466" fileName="Attribute.java" startLine="41" startPosition="50" endLine="42" endPosition="44" />
-    <scopeInfo nodeId="353793545802643466" fileName="Attribute.java" startLine="16" startPosition="0" endLine="19" endPosition="3" />
+    <scopeInfo nodeId="353793545802643466" fileName="Attribute.java" startLine="16" startPosition="0" endLine="19" endPosition="3">
+      <varInfo nodeId="353793545802643466" varName="node" />
+    </scopeInfo>
     <scopeInfo nodeId="353793545802643466" fileName="Attribute.java" startLine="20" startPosition="0" endLine="24" endPosition="0" />
-    <scopeInfo nodeId="353793545802643466" fileName="Attribute.java" startLine="24" startPosition="0" endLine="28" endPosition="0" />
+    <scopeInfo nodeId="353793545802643466" fileName="Attribute.java" startLine="24" startPosition="0" endLine="28" endPosition="0">
+      <varInfo nodeId="353793545802643466" varName="node" />
+    </scopeInfo>
     <scopeInfo nodeId="353793545802643466" fileName="Attribute.java" startLine="28" startPosition="0" endLine="32" endPosition="0" />
-    <scopeInfo nodeId="353793545802643466" fileName="Attribute.java" startLine="32" startPosition="0" endLine="36" endPosition="0" />
-    <scopeInfo nodeId="353793545802643466" fileName="Attribute.java" startLine="36" startPosition="0" endLine="40" endPosition="0" />
-    <scopeInfo nodeId="353793545802643466" fileName="Attribute.java" startLine="40" startPosition="0" endLine="44" endPosition="0" />
+    <scopeInfo nodeId="353793545802643466" fileName="Attribute.java" startLine="32" startPosition="0" endLine="36" endPosition="0">
+      <varInfo nodeId="353793545802643466" varName="node" />
+    </scopeInfo>
+    <scopeInfo nodeId="353793545802643466" fileName="Attribute.java" startLine="36" startPosition="0" endLine="40" endPosition="0">
+      <varInfo nodeId="353793545802643466" varName="init" />
+      <varInfo nodeId="353793545802643466" varName="sm" />
+    </scopeInfo>
+    <scopeInfo nodeId="353793545802643466" fileName="Attribute.java" startLine="40" startPosition="0" endLine="44" endPosition="0">
+      <varInfo nodeId="353793545802643466" varName="sm" />
+    </scopeInfo>
     <unitInfo nodeId="353793545802643466" fileName="Attribute.java" startLine="12" startPosition="0" endLine="45" endPosition="0" unitName="jetbrains.mps.build.generictasks.structure.Attribute" />
   </root>
   <root nodeId="353793545802643469">
@@ -151,32 +171,62 @@
     <scopeInfo nodeId="353793545802643469" fileName="AttributeDeclaration.java" startLine="124" startPosition="69" endLine="125" endPosition="72" />
     <scopeInfo nodeId="353793545802643469" fileName="AttributeDeclaration.java" startLine="128" startPosition="75" endLine="129" endPosition="196" />
     <scopeInfo nodeId="353793545802643469" fileName="AttributeDeclaration.java" startLine="132" startPosition="61" endLine="133" endPosition="55" />
-    <scopeInfo nodeId="353793545802643469" fileName="AttributeDeclaration.java" startLine="31" startPosition="0" endLine="34" endPosition="3" />
+    <scopeInfo nodeId="353793545802643469" fileName="AttributeDeclaration.java" startLine="31" startPosition="0" endLine="34" endPosition="3">
+      <varInfo nodeId="353793545802643469" varName="node" />
+    </scopeInfo>
     <scopeInfo nodeId="353793545802643469" fileName="AttributeDeclaration.java" startLine="35" startPosition="0" endLine="39" endPosition="0" />
-    <scopeInfo nodeId="353793545802643469" fileName="AttributeDeclaration.java" startLine="39" startPosition="0" endLine="43" endPosition="0" />
+    <scopeInfo nodeId="353793545802643469" fileName="AttributeDeclaration.java" startLine="39" startPosition="0" endLine="43" endPosition="0">
+      <varInfo nodeId="353793545802643469" varName="value" />
+    </scopeInfo>
     <scopeInfo nodeId="353793545802643469" fileName="AttributeDeclaration.java" startLine="43" startPosition="0" endLine="47" endPosition="0" />
-    <scopeInfo nodeId="353793545802643469" fileName="AttributeDeclaration.java" startLine="47" startPosition="0" endLine="51" endPosition="0" />
+    <scopeInfo nodeId="353793545802643469" fileName="AttributeDeclaration.java" startLine="47" startPosition="0" endLine="51" endPosition="0">
+      <varInfo nodeId="353793545802643469" varName="value" />
+    </scopeInfo>
     <scopeInfo nodeId="353793545802643469" fileName="AttributeDeclaration.java" startLine="51" startPosition="0" endLine="55" endPosition="0" />
-    <scopeInfo nodeId="353793545802643469" fileName="AttributeDeclaration.java" startLine="55" startPosition="0" endLine="59" endPosition="0" />
+    <scopeInfo nodeId="353793545802643469" fileName="AttributeDeclaration.java" startLine="55" startPosition="0" endLine="59" endPosition="0">
+      <varInfo nodeId="353793545802643469" varName="value" />
+    </scopeInfo>
     <scopeInfo nodeId="353793545802643469" fileName="AttributeDeclaration.java" startLine="59" startPosition="0" endLine="63" endPosition="0" />
-    <scopeInfo nodeId="353793545802643469" fileName="AttributeDeclaration.java" startLine="63" startPosition="0" endLine="67" endPosition="0" />
+    <scopeInfo nodeId="353793545802643469" fileName="AttributeDeclaration.java" startLine="63" startPosition="0" endLine="67" endPosition="0">
+      <varInfo nodeId="353793545802643469" varName="value" />
+    </scopeInfo>
     <scopeInfo nodeId="353793545802643469" fileName="AttributeDeclaration.java" startLine="67" startPosition="0" endLine="71" endPosition="0" />
-    <scopeInfo nodeId="353793545802643469" fileName="AttributeDeclaration.java" startLine="71" startPosition="0" endLine="75" endPosition="0" />
+    <scopeInfo nodeId="353793545802643469" fileName="AttributeDeclaration.java" startLine="71" startPosition="0" endLine="75" endPosition="0">
+      <varInfo nodeId="353793545802643469" varName="value" />
+    </scopeInfo>
     <scopeInfo nodeId="353793545802643469" fileName="AttributeDeclaration.java" startLine="75" startPosition="0" endLine="79" endPosition="0" />
-    <scopeInfo nodeId="353793545802643469" fileName="AttributeDeclaration.java" startLine="79" startPosition="0" endLine="83" endPosition="0" />
+    <scopeInfo nodeId="353793545802643469" fileName="AttributeDeclaration.java" startLine="79" startPosition="0" endLine="83" endPosition="0">
+      <varInfo nodeId="353793545802643469" varName="value" />
+    </scopeInfo>
     <scopeInfo nodeId="353793545802643469" fileName="AttributeDeclaration.java" startLine="83" startPosition="0" endLine="87" endPosition="0" />
-    <scopeInfo nodeId="353793545802643469" fileName="AttributeDeclaration.java" startLine="87" startPosition="0" endLine="91" endPosition="0" />
+    <scopeInfo nodeId="353793545802643469" fileName="AttributeDeclaration.java" startLine="87" startPosition="0" endLine="91" endPosition="0">
+      <varInfo nodeId="353793545802643469" varName="node" />
+    </scopeInfo>
     <scopeInfo nodeId="353793545802643469" fileName="AttributeDeclaration.java" startLine="91" startPosition="0" endLine="95" endPosition="0" />
-    <scopeInfo nodeId="353793545802643469" fileName="AttributeDeclaration.java" startLine="95" startPosition="0" endLine="99" endPosition="0" />
+    <scopeInfo nodeId="353793545802643469" fileName="AttributeDeclaration.java" startLine="95" startPosition="0" endLine="99" endPosition="0">
+      <varInfo nodeId="353793545802643469" varName="node" />
+    </scopeInfo>
     <scopeInfo nodeId="353793545802643469" fileName="AttributeDeclaration.java" startLine="99" startPosition="0" endLine="103" endPosition="0" />
-    <scopeInfo nodeId="353793545802643469" fileName="AttributeDeclaration.java" startLine="103" startPosition="0" endLine="107" endPosition="0" />
+    <scopeInfo nodeId="353793545802643469" fileName="AttributeDeclaration.java" startLine="103" startPosition="0" endLine="107" endPosition="0">
+      <varInfo nodeId="353793545802643469" varName="node" />
+    </scopeInfo>
     <scopeInfo nodeId="353793545802643469" fileName="AttributeDeclaration.java" startLine="107" startPosition="0" endLine="111" endPosition="0" />
     <scopeInfo nodeId="353793545802643469" fileName="AttributeDeclaration.java" startLine="111" startPosition="0" endLine="115" endPosition="0" />
     <scopeInfo nodeId="353793545802643469" fileName="AttributeDeclaration.java" startLine="115" startPosition="0" endLine="119" endPosition="0" />
-    <scopeInfo nodeId="353793545802643469" fileName="AttributeDeclaration.java" startLine="119" startPosition="0" endLine="123" endPosition="0" />
-    <scopeInfo nodeId="353793545802643469" fileName="AttributeDeclaration.java" startLine="123" startPosition="0" endLine="127" endPosition="0" />
-    <scopeInfo nodeId="353793545802643469" fileName="AttributeDeclaration.java" startLine="127" startPosition="0" endLine="131" endPosition="0" />
-    <scopeInfo nodeId="353793545802643469" fileName="AttributeDeclaration.java" startLine="131" startPosition="0" endLine="135" endPosition="0" />
+    <scopeInfo nodeId="353793545802643469" fileName="AttributeDeclaration.java" startLine="119" startPosition="0" endLine="123" endPosition="0">
+      <varInfo nodeId="353793545802643469" varName="node" />
+    </scopeInfo>
+    <scopeInfo nodeId="353793545802643469" fileName="AttributeDeclaration.java" startLine="123" startPosition="0" endLine="127" endPosition="0">
+      <varInfo nodeId="353793545802643469" varName="node" />
+      <varInfo nodeId="353793545802643469" varName="prev" />
+    </scopeInfo>
+    <scopeInfo nodeId="353793545802643469" fileName="AttributeDeclaration.java" startLine="127" startPosition="0" endLine="131" endPosition="0">
+      <varInfo nodeId="353793545802643469" varName="init" />
+      <varInfo nodeId="353793545802643469" varName="sm" />
+    </scopeInfo>
+    <scopeInfo nodeId="353793545802643469" fileName="AttributeDeclaration.java" startLine="131" startPosition="0" endLine="135" endPosition="0">
+      <varInfo nodeId="353793545802643469" varName="sm" />
+    </scopeInfo>
     <unitInfo nodeId="353793545802643469" fileName="AttributeDeclaration.java" startLine="19" startPosition="0" endLine="136" endPosition="0" unitName="jetbrains.mps.build.generictasks.structure.AttributeDeclaration" />
   </root>
   <root nodeId="353793545802643477">
@@ -264,31 +314,60 @@
     <scopeInfo nodeId="353793545802643477" fileName="TaskCall.java" startLine="113" startPosition="137" endLine="114" endPosition="60" />
     <scopeInfo nodeId="353793545802643477" fileName="TaskCall.java" startLine="117" startPosition="63" endLine="118" endPosition="172" />
     <scopeInfo nodeId="353793545802643477" fileName="TaskCall.java" startLine="121" startPosition="49" endLine="122" endPosition="43" />
-    <scopeInfo nodeId="353793545802643477" fileName="TaskCall.java" startLine="24" startPosition="0" endLine="27" endPosition="3" />
+    <scopeInfo nodeId="353793545802643477" fileName="TaskCall.java" startLine="24" startPosition="0" endLine="27" endPosition="3">
+      <varInfo nodeId="353793545802643477" varName="node" />
+    </scopeInfo>
     <scopeInfo nodeId="353793545802643477" fileName="TaskCall.java" startLine="28" startPosition="0" endLine="32" endPosition="0" />
-    <scopeInfo nodeId="353793545802643477" fileName="TaskCall.java" startLine="32" startPosition="0" endLine="36" endPosition="0" />
+    <scopeInfo nodeId="353793545802643477" fileName="TaskCall.java" startLine="32" startPosition="0" endLine="36" endPosition="0">
+      <varInfo nodeId="353793545802643477" varName="value" />
+    </scopeInfo>
     <scopeInfo nodeId="353793545802643477" fileName="TaskCall.java" startLine="36" startPosition="0" endLine="40" endPosition="0" />
-    <scopeInfo nodeId="353793545802643477" fileName="TaskCall.java" startLine="40" startPosition="0" endLine="44" endPosition="0" />
+    <scopeInfo nodeId="353793545802643477" fileName="TaskCall.java" startLine="40" startPosition="0" endLine="44" endPosition="0">
+      <varInfo nodeId="353793545802643477" varName="value" />
+    </scopeInfo>
     <scopeInfo nodeId="353793545802643477" fileName="TaskCall.java" startLine="44" startPosition="0" endLine="48" endPosition="0" />
-    <scopeInfo nodeId="353793545802643477" fileName="TaskCall.java" startLine="48" startPosition="0" endLine="52" endPosition="0" />
+    <scopeInfo nodeId="353793545802643477" fileName="TaskCall.java" startLine="48" startPosition="0" endLine="52" endPosition="0">
+      <varInfo nodeId="353793545802643477" varName="value" />
+    </scopeInfo>
     <scopeInfo nodeId="353793545802643477" fileName="TaskCall.java" startLine="52" startPosition="0" endLine="56" endPosition="0" />
-    <scopeInfo nodeId="353793545802643477" fileName="TaskCall.java" startLine="56" startPosition="0" endLine="60" endPosition="0" />
+    <scopeInfo nodeId="353793545802643477" fileName="TaskCall.java" startLine="56" startPosition="0" endLine="60" endPosition="0">
+      <varInfo nodeId="353793545802643477" varName="value" />
+    </scopeInfo>
     <scopeInfo nodeId="353793545802643477" fileName="TaskCall.java" startLine="60" startPosition="0" endLine="64" endPosition="0" />
-    <scopeInfo nodeId="353793545802643477" fileName="TaskCall.java" startLine="64" startPosition="0" endLine="68" endPosition="0" />
+    <scopeInfo nodeId="353793545802643477" fileName="TaskCall.java" startLine="64" startPosition="0" endLine="68" endPosition="0">
+      <varInfo nodeId="353793545802643477" varName="value" />
+    </scopeInfo>
     <scopeInfo nodeId="353793545802643477" fileName="TaskCall.java" startLine="68" startPosition="0" endLine="72" endPosition="0" />
-    <scopeInfo nodeId="353793545802643477" fileName="TaskCall.java" startLine="72" startPosition="0" endLine="76" endPosition="0" />
+    <scopeInfo nodeId="353793545802643477" fileName="TaskCall.java" startLine="72" startPosition="0" endLine="76" endPosition="0">
+      <varInfo nodeId="353793545802643477" varName="node" />
+    </scopeInfo>
     <scopeInfo nodeId="353793545802643477" fileName="TaskCall.java" startLine="76" startPosition="0" endLine="80" endPosition="0" />
     <scopeInfo nodeId="353793545802643477" fileName="TaskCall.java" startLine="80" startPosition="0" endLine="84" endPosition="0" />
     <scopeInfo nodeId="353793545802643477" fileName="TaskCall.java" startLine="84" startPosition="0" endLine="88" endPosition="0" />
-    <scopeInfo nodeId="353793545802643477" fileName="TaskCall.java" startLine="88" startPosition="0" endLine="92" endPosition="0" />
-    <scopeInfo nodeId="353793545802643477" fileName="TaskCall.java" startLine="92" startPosition="0" endLine="96" endPosition="0" />
+    <scopeInfo nodeId="353793545802643477" fileName="TaskCall.java" startLine="88" startPosition="0" endLine="92" endPosition="0">
+      <varInfo nodeId="353793545802643477" varName="node" />
+    </scopeInfo>
+    <scopeInfo nodeId="353793545802643477" fileName="TaskCall.java" startLine="92" startPosition="0" endLine="96" endPosition="0">
+      <varInfo nodeId="353793545802643477" varName="node" />
+      <varInfo nodeId="353793545802643477" varName="prev" />
+    </scopeInfo>
     <scopeInfo nodeId="353793545802643477" fileName="TaskCall.java" startLine="96" startPosition="0" endLine="100" endPosition="0" />
     <scopeInfo nodeId="353793545802643477" fileName="TaskCall.java" startLine="100" startPosition="0" endLine="104" endPosition="0" />
     <scopeInfo nodeId="353793545802643477" fileName="TaskCall.java" startLine="104" startPosition="0" endLine="108" endPosition="0" />
-    <scopeInfo nodeId="353793545802643477" fileName="TaskCall.java" startLine="108" startPosition="0" endLine="112" endPosition="0" />
-    <scopeInfo nodeId="353793545802643477" fileName="TaskCall.java" startLine="112" startPosition="0" endLine="116" endPosition="0" />
-    <scopeInfo nodeId="353793545802643477" fileName="TaskCall.java" startLine="116" startPosition="0" endLine="120" endPosition="0" />
-    <scopeInfo nodeId="353793545802643477" fileName="TaskCall.java" startLine="120" startPosition="0" endLine="124" endPosition="0" />
+    <scopeInfo nodeId="353793545802643477" fileName="TaskCall.java" startLine="108" startPosition="0" endLine="112" endPosition="0">
+      <varInfo nodeId="353793545802643477" varName="node" />
+    </scopeInfo>
+    <scopeInfo nodeId="353793545802643477" fileName="TaskCall.java" startLine="112" startPosition="0" endLine="116" endPosition="0">
+      <varInfo nodeId="353793545802643477" varName="node" />
+      <varInfo nodeId="353793545802643477" varName="prev" />
+    </scopeInfo>
+    <scopeInfo nodeId="353793545802643477" fileName="TaskCall.java" startLine="116" startPosition="0" endLine="120" endPosition="0">
+      <varInfo nodeId="353793545802643477" varName="init" />
+      <varInfo nodeId="353793545802643477" varName="sm" />
+    </scopeInfo>
+    <scopeInfo nodeId="353793545802643477" fileName="TaskCall.java" startLine="120" startPosition="0" endLine="124" endPosition="0">
+      <varInfo nodeId="353793545802643477" varName="sm" />
+    </scopeInfo>
     <unitInfo nodeId="353793545802643477" fileName="TaskCall.java" startLine="14" startPosition="0" endLine="125" endPosition="0" unitName="jetbrains.mps.build.generictasks.structure.TaskCall" />
   </root>
   <root nodeId="353793545802643483">
@@ -318,14 +397,26 @@
     <scopeInfo nodeId="353793545802643483" fileName="TaskInterfaceDeclaration.java" startLine="36" startPosition="69" endLine="37" endPosition="67" />
     <scopeInfo nodeId="353793545802643483" fileName="TaskInterfaceDeclaration.java" startLine="40" startPosition="79" endLine="41" endPosition="204" />
     <scopeInfo nodeId="353793545802643483" fileName="TaskInterfaceDeclaration.java" startLine="44" startPosition="65" endLine="45" endPosition="59" />
-    <scopeInfo nodeId="353793545802643483" fileName="TaskInterfaceDeclaration.java" startLine="15" startPosition="0" endLine="18" endPosition="3" />
+    <scopeInfo nodeId="353793545802643483" fileName="TaskInterfaceDeclaration.java" startLine="15" startPosition="0" endLine="18" endPosition="3">
+      <varInfo nodeId="353793545802643483" varName="node" />
+    </scopeInfo>
     <scopeInfo nodeId="353793545802643483" fileName="TaskInterfaceDeclaration.java" startLine="19" startPosition="0" endLine="23" endPosition="0" />
     <scopeInfo nodeId="353793545802643483" fileName="TaskInterfaceDeclaration.java" startLine="23" startPosition="0" endLine="27" endPosition="0" />
     <scopeInfo nodeId="353793545802643483" fileName="TaskInterfaceDeclaration.java" startLine="27" startPosition="0" endLine="31" endPosition="0" />
-    <scopeInfo nodeId="353793545802643483" fileName="TaskInterfaceDeclaration.java" startLine="31" startPosition="0" endLine="35" endPosition="0" />
-    <scopeInfo nodeId="353793545802643483" fileName="TaskInterfaceDeclaration.java" startLine="35" startPosition="0" endLine="39" endPosition="0" />
-    <scopeInfo nodeId="353793545802643483" fileName="TaskInterfaceDeclaration.java" startLine="39" startPosition="0" endLine="43" endPosition="0" />
-    <scopeInfo nodeId="353793545802643483" fileName="TaskInterfaceDeclaration.java" startLine="43" startPosition="0" endLine="47" endPosition="0" />
+    <scopeInfo nodeId="353793545802643483" fileName="TaskInterfaceDeclaration.java" startLine="31" startPosition="0" endLine="35" endPosition="0">
+      <varInfo nodeId="353793545802643483" varName="node" />
+    </scopeInfo>
+    <scopeInfo nodeId="353793545802643483" fileName="TaskInterfaceDeclaration.java" startLine="35" startPosition="0" endLine="39" endPosition="0">
+      <varInfo nodeId="353793545802643483" varName="node" />
+      <varInfo nodeId="353793545802643483" varName="prev" />
+    </scopeInfo>
+    <scopeInfo nodeId="353793545802643483" fileName="TaskInterfaceDeclaration.java" startLine="39" startPosition="0" endLine="43" endPosition="0">
+      <varInfo nodeId="353793545802643483" varName="init" />
+      <varInfo nodeId="353793545802643483" varName="sm" />
+    </scopeInfo>
+    <scopeInfo nodeId="353793545802643483" fileName="TaskInterfaceDeclaration.java" startLine="43" startPosition="0" endLine="47" endPosition="0">
+      <varInfo nodeId="353793545802643483" varName="sm" />
+    </scopeInfo>
     <unitInfo nodeId="353793545802643483" fileName="TaskInterfaceDeclaration.java" startLine="12" startPosition="0" endLine="48" endPosition="0" unitName="jetbrains.mps.build.generictasks.structure.TaskInterfaceDeclaration" />
   </root>
   <root nodeId="353793545802643486">
@@ -489,54 +580,106 @@
     <scopeInfo nodeId="353793545802643486" fileName="BuiltInTaskDeclaration.java" startLine="212" startPosition="69" endLine="213" endPosition="74" />
     <scopeInfo nodeId="353793545802643486" fileName="BuiltInTaskDeclaration.java" startLine="216" startPosition="77" endLine="217" endPosition="200" />
     <scopeInfo nodeId="353793545802643486" fileName="BuiltInTaskDeclaration.java" startLine="220" startPosition="63" endLine="221" endPosition="57" />
-    <scopeInfo nodeId="353793545802643486" fileName="BuiltInTaskDeclaration.java" startLine="31" startPosition="0" endLine="34" endPosition="3" />
+    <scopeInfo nodeId="353793545802643486" fileName="BuiltInTaskDeclaration.java" startLine="31" startPosition="0" endLine="34" endPosition="3">
+      <varInfo nodeId="353793545802643486" varName="node" />
+    </scopeInfo>
     <scopeInfo nodeId="353793545802643486" fileName="BuiltInTaskDeclaration.java" startLine="35" startPosition="0" endLine="39" endPosition="0" />
-    <scopeInfo nodeId="353793545802643486" fileName="BuiltInTaskDeclaration.java" startLine="39" startPosition="0" endLine="43" endPosition="0" />
+    <scopeInfo nodeId="353793545802643486" fileName="BuiltInTaskDeclaration.java" startLine="39" startPosition="0" endLine="43" endPosition="0">
+      <varInfo nodeId="353793545802643486" varName="value" />
+    </scopeInfo>
     <scopeInfo nodeId="353793545802643486" fileName="BuiltInTaskDeclaration.java" startLine="43" startPosition="0" endLine="47" endPosition="0" />
-    <scopeInfo nodeId="353793545802643486" fileName="BuiltInTaskDeclaration.java" startLine="47" startPosition="0" endLine="51" endPosition="0" />
+    <scopeInfo nodeId="353793545802643486" fileName="BuiltInTaskDeclaration.java" startLine="47" startPosition="0" endLine="51" endPosition="0">
+      <varInfo nodeId="353793545802643486" varName="value" />
+    </scopeInfo>
     <scopeInfo nodeId="353793545802643486" fileName="BuiltInTaskDeclaration.java" startLine="51" startPosition="0" endLine="55" endPosition="0" />
-    <scopeInfo nodeId="353793545802643486" fileName="BuiltInTaskDeclaration.java" startLine="55" startPosition="0" endLine="59" endPosition="0" />
+    <scopeInfo nodeId="353793545802643486" fileName="BuiltInTaskDeclaration.java" startLine="55" startPosition="0" endLine="59" endPosition="0">
+      <varInfo nodeId="353793545802643486" varName="value" />
+    </scopeInfo>
     <scopeInfo nodeId="353793545802643486" fileName="BuiltInTaskDeclaration.java" startLine="59" startPosition="0" endLine="63" endPosition="0" />
-    <scopeInfo nodeId="353793545802643486" fileName="BuiltInTaskDeclaration.java" startLine="63" startPosition="0" endLine="67" endPosition="0" />
+    <scopeInfo nodeId="353793545802643486" fileName="BuiltInTaskDeclaration.java" startLine="63" startPosition="0" endLine="67" endPosition="0">
+      <varInfo nodeId="353793545802643486" varName="value" />
+    </scopeInfo>
     <scopeInfo nodeId="353793545802643486" fileName="BuiltInTaskDeclaration.java" startLine="67" startPosition="0" endLine="71" endPosition="0" />
-    <scopeInfo nodeId="353793545802643486" fileName="BuiltInTaskDeclaration.java" startLine="71" startPosition="0" endLine="75" endPosition="0" />
+    <scopeInfo nodeId="353793545802643486" fileName="BuiltInTaskDeclaration.java" startLine="71" startPosition="0" endLine="75" endPosition="0">
+      <varInfo nodeId="353793545802643486" varName="value" />
+    </scopeInfo>
     <scopeInfo nodeId="353793545802643486" fileName="BuiltInTaskDeclaration.java" startLine="75" startPosition="0" endLine="79" endPosition="0" />
-    <scopeInfo nodeId="353793545802643486" fileName="BuiltInTaskDeclaration.java" startLine="79" startPosition="0" endLine="83" endPosition="0" />
+    <scopeInfo nodeId="353793545802643486" fileName="BuiltInTaskDeclaration.java" startLine="79" startPosition="0" endLine="83" endPosition="0">
+      <varInfo nodeId="353793545802643486" varName="value" />
+    </scopeInfo>
     <scopeInfo nodeId="353793545802643486" fileName="BuiltInTaskDeclaration.java" startLine="83" startPosition="0" endLine="87" endPosition="0" />
-    <scopeInfo nodeId="353793545802643486" fileName="BuiltInTaskDeclaration.java" startLine="87" startPosition="0" endLine="91" endPosition="0" />
+    <scopeInfo nodeId="353793545802643486" fileName="BuiltInTaskDeclaration.java" startLine="87" startPosition="0" endLine="91" endPosition="0">
+      <varInfo nodeId="353793545802643486" varName="value" />
+    </scopeInfo>
     <scopeInfo nodeId="353793545802643486" fileName="BuiltInTaskDeclaration.java" startLine="91" startPosition="0" endLine="95" endPosition="0" />
-    <scopeInfo nodeId="353793545802643486" fileName="BuiltInTaskDeclaration.java" startLine="95" startPosition="0" endLine="99" endPosition="0" />
+    <scopeInfo nodeId="353793545802643486" fileName="BuiltInTaskDeclaration.java" startLine="95" startPosition="0" endLine="99" endPosition="0">
+      <varInfo nodeId="353793545802643486" varName="value" />
+    </scopeInfo>
     <scopeInfo nodeId="353793545802643486" fileName="BuiltInTaskDeclaration.java" startLine="99" startPosition="0" endLine="103" endPosition="0" />
-    <scopeInfo nodeId="353793545802643486" fileName="BuiltInTaskDeclaration.java" startLine="103" startPosition="0" endLine="107" endPosition="0" />
+    <scopeInfo nodeId="353793545802643486" fileName="BuiltInTaskDeclaration.java" startLine="103" startPosition="0" endLine="107" endPosition="0">
+      <varInfo nodeId="353793545802643486" varName="value" />
+    </scopeInfo>
     <scopeInfo nodeId="353793545802643486" fileName="BuiltInTaskDeclaration.java" startLine="107" startPosition="0" endLine="111" endPosition="0" />
-    <scopeInfo nodeId="353793545802643486" fileName="BuiltInTaskDeclaration.java" startLine="111" startPosition="0" endLine="115" endPosition="0" />
+    <scopeInfo nodeId="353793545802643486" fileName="BuiltInTaskDeclaration.java" startLine="111" startPosition="0" endLine="115" endPosition="0">
+      <varInfo nodeId="353793545802643486" varName="node" />
+    </scopeInfo>
     <scopeInfo nodeId="353793545802643486" fileName="BuiltInTaskDeclaration.java" startLine="115" startPosition="0" endLine="119" endPosition="0" />
     <scopeInfo nodeId="353793545802643486" fileName="BuiltInTaskDeclaration.java" startLine="119" startPosition="0" endLine="123" endPosition="0" />
     <scopeInfo nodeId="353793545802643486" fileName="BuiltInTaskDeclaration.java" startLine="123" startPosition="0" endLine="127" endPosition="0" />
-    <scopeInfo nodeId="353793545802643486" fileName="BuiltInTaskDeclaration.java" startLine="127" startPosition="0" endLine="131" endPosition="0" />
-    <scopeInfo nodeId="353793545802643486" fileName="BuiltInTaskDeclaration.java" startLine="131" startPosition="0" endLine="135" endPosition="0" />
+    <scopeInfo nodeId="353793545802643486" fileName="BuiltInTaskDeclaration.java" startLine="127" startPosition="0" endLine="131" endPosition="0">
+      <varInfo nodeId="353793545802643486" varName="node" />
+    </scopeInfo>
+    <scopeInfo nodeId="353793545802643486" fileName="BuiltInTaskDeclaration.java" startLine="131" startPosition="0" endLine="135" endPosition="0">
+      <varInfo nodeId="353793545802643486" varName="node" />
+      <varInfo nodeId="353793545802643486" varName="prev" />
+    </scopeInfo>
     <scopeInfo nodeId="353793545802643486" fileName="BuiltInTaskDeclaration.java" startLine="135" startPosition="0" endLine="139" endPosition="0" />
     <scopeInfo nodeId="353793545802643486" fileName="BuiltInTaskDeclaration.java" startLine="139" startPosition="0" endLine="143" endPosition="0" />
     <scopeInfo nodeId="353793545802643486" fileName="BuiltInTaskDeclaration.java" startLine="143" startPosition="0" endLine="147" endPosition="0" />
-    <scopeInfo nodeId="353793545802643486" fileName="BuiltInTaskDeclaration.java" startLine="147" startPosition="0" endLine="151" endPosition="0" />
-    <scopeInfo nodeId="353793545802643486" fileName="BuiltInTaskDeclaration.java" startLine="151" startPosition="0" endLine="155" endPosition="0" />
+    <scopeInfo nodeId="353793545802643486" fileName="BuiltInTaskDeclaration.java" startLine="147" startPosition="0" endLine="151" endPosition="0">
+      <varInfo nodeId="353793545802643486" varName="node" />
+    </scopeInfo>
+    <scopeInfo nodeId="353793545802643486" fileName="BuiltInTaskDeclaration.java" startLine="151" startPosition="0" endLine="155" endPosition="0">
+      <varInfo nodeId="353793545802643486" varName="node" />
+      <varInfo nodeId="353793545802643486" varName="prev" />
+    </scopeInfo>
     <scopeInfo nodeId="353793545802643486" fileName="BuiltInTaskDeclaration.java" startLine="155" startPosition="0" endLine="159" endPosition="0" />
     <scopeInfo nodeId="353793545802643486" fileName="BuiltInTaskDeclaration.java" startLine="159" startPosition="0" endLine="163" endPosition="0" />
     <scopeInfo nodeId="353793545802643486" fileName="BuiltInTaskDeclaration.java" startLine="163" startPosition="0" endLine="167" endPosition="0" />
-    <scopeInfo nodeId="353793545802643486" fileName="BuiltInTaskDeclaration.java" startLine="167" startPosition="0" endLine="171" endPosition="0" />
-    <scopeInfo nodeId="353793545802643486" fileName="BuiltInTaskDeclaration.java" startLine="171" startPosition="0" endLine="175" endPosition="0" />
+    <scopeInfo nodeId="353793545802643486" fileName="BuiltInTaskDeclaration.java" startLine="167" startPosition="0" endLine="171" endPosition="0">
+      <varInfo nodeId="353793545802643486" varName="node" />
+    </scopeInfo>
+    <scopeInfo nodeId="353793545802643486" fileName="BuiltInTaskDeclaration.java" startLine="171" startPosition="0" endLine="175" endPosition="0">
+      <varInfo nodeId="353793545802643486" varName="node" />
+      <varInfo nodeId="353793545802643486" varName="prev" />
+    </scopeInfo>
     <scopeInfo nodeId="353793545802643486" fileName="BuiltInTaskDeclaration.java" startLine="175" startPosition="0" endLine="179" endPosition="0" />
     <scopeInfo nodeId="353793545802643486" fileName="BuiltInTaskDeclaration.java" startLine="179" startPosition="0" endLine="183" endPosition="0" />
     <scopeInfo nodeId="353793545802643486" fileName="BuiltInTaskDeclaration.java" startLine="183" startPosition="0" endLine="187" endPosition="0" />
-    <scopeInfo nodeId="353793545802643486" fileName="BuiltInTaskDeclaration.java" startLine="187" startPosition="0" endLine="191" endPosition="0" />
-    <scopeInfo nodeId="353793545802643486" fileName="BuiltInTaskDeclaration.java" startLine="191" startPosition="0" endLine="195" endPosition="0" />
+    <scopeInfo nodeId="353793545802643486" fileName="BuiltInTaskDeclaration.java" startLine="187" startPosition="0" endLine="191" endPosition="0">
+      <varInfo nodeId="353793545802643486" varName="node" />
+    </scopeInfo>
+    <scopeInfo nodeId="353793545802643486" fileName="BuiltInTaskDeclaration.java" startLine="191" startPosition="0" endLine="195" endPosition="0">
+      <varInfo nodeId="353793545802643486" varName="node" />
+      <varInfo nodeId="353793545802643486" varName="prev" />
+    </scopeInfo>
     <scopeInfo nodeId="353793545802643486" fileName="BuiltInTaskDeclaration.java" startLine="195" startPosition="0" endLine="199" endPosition="0" />
     <scopeInfo nodeId="353793545802643486" fileName="BuiltInTaskDeclaration.java" startLine="199" startPosition="0" endLine="203" endPosition="0" />
     <scopeInfo nodeId="353793545802643486" fileName="BuiltInTaskDeclaration.java" startLine="203" startPosition="0" endLine="207" endPosition="0" />
-    <scopeInfo nodeId="353793545802643486" fileName="BuiltInTaskDeclaration.java" startLine="207" startPosition="0" endLine="211" endPosition="0" />
-    <scopeInfo nodeId="353793545802643486" fileName="BuiltInTaskDeclaration.java" startLine="211" startPosition="0" endLine="215" endPosition="0" />
-    <scopeInfo nodeId="353793545802643486" fileName="BuiltInTaskDeclaration.java" startLine="215" startPosition="0" endLine="219" endPosition="0" />
-    <scopeInfo nodeId="353793545802643486" fileName="BuiltInTaskDeclaration.java" startLine="219" startPosition="0" endLine="223" endPosition="0" />
+    <scopeInfo nodeId="353793545802643486" fileName="BuiltInTaskDeclaration.java" startLine="207" startPosition="0" endLine="211" endPosition="0">
+      <varInfo nodeId="353793545802643486" varName="node" />
+    </scopeInfo>
+    <scopeInfo nodeId="353793545802643486" fileName="BuiltInTaskDeclaration.java" startLine="211" startPosition="0" endLine="215" endPosition="0">
+      <varInfo nodeId="353793545802643486" varName="node" />
+      <varInfo nodeId="353793545802643486" varName="prev" />
+    </scopeInfo>
+    <scopeInfo nodeId="353793545802643486" fileName="BuiltInTaskDeclaration.java" startLine="215" startPosition="0" endLine="219" endPosition="0">
+      <varInfo nodeId="353793545802643486" varName="init" />
+      <varInfo nodeId="353793545802643486" varName="sm" />
+    </scopeInfo>
+    <scopeInfo nodeId="353793545802643486" fileName="BuiltInTaskDeclaration.java" startLine="219" startPosition="0" endLine="223" endPosition="0">
+      <varInfo nodeId="353793545802643486" varName="sm" />
+    </scopeInfo>
     <unitInfo nodeId="353793545802643486" fileName="BuiltInTaskDeclaration.java" startLine="14" startPosition="0" endLine="224" endPosition="0" unitName="jetbrains.mps.build.generictasks.structure.BuiltInTaskDeclaration" />
   </root>
   <root nodeId="353793545802643498">
@@ -566,14 +709,26 @@
     <scopeInfo nodeId="353793545802643498" fileName="NestedDeclaration.java" startLine="36" startPosition="66" endLine="37" endPosition="57" />
     <scopeInfo nodeId="353793545802643498" fileName="NestedDeclaration.java" startLine="40" startPosition="72" endLine="41" endPosition="190" />
     <scopeInfo nodeId="353793545802643498" fileName="NestedDeclaration.java" startLine="44" startPosition="58" endLine="45" endPosition="52" />
-    <scopeInfo nodeId="353793545802643498" fileName="NestedDeclaration.java" startLine="15" startPosition="0" endLine="18" endPosition="3" />
+    <scopeInfo nodeId="353793545802643498" fileName="NestedDeclaration.java" startLine="15" startPosition="0" endLine="18" endPosition="3">
+      <varInfo nodeId="353793545802643498" varName="node" />
+    </scopeInfo>
     <scopeInfo nodeId="353793545802643498" fileName="NestedDeclaration.java" startLine="19" startPosition="0" endLine="23" endPosition="0" />
     <scopeInfo nodeId="353793545802643498" fileName="NestedDeclaration.java" startLine="23" startPosition="0" endLine="27" endPosition="0" />
     <scopeInfo nodeId="353793545802643498" fileName="NestedDeclaration.java" startLine="27" startPosition="0" endLine="31" endPosition="0" />
-    <scopeInfo nodeId="353793545802643498" fileName="NestedDeclaration.java" startLine="31" startPosition="0" endLine="35" endPosition="0" />
-    <scopeInfo nodeId="353793545802643498" fileName="NestedDeclaration.java" startLine="35" startPosition="0" endLine="39" endPosition="0" />
-    <scopeInfo nodeId="353793545802643498" fileName="NestedDeclaration.java" startLine="39" startPosition="0" endLine="43" endPosition="0" />
-    <scopeInfo nodeId="353793545802643498" fileName="NestedDeclaration.java" startLine="43" startPosition="0" endLine="47" endPosition="0" />
+    <scopeInfo nodeId="353793545802643498" fileName="NestedDeclaration.java" startLine="31" startPosition="0" endLine="35" endPosition="0">
+      <varInfo nodeId="353793545802643498" varName="node" />
+    </scopeInfo>
+    <scopeInfo nodeId="353793545802643498" fileName="NestedDeclaration.java" startLine="35" startPosition="0" endLine="39" endPosition="0">
+      <varInfo nodeId="353793545802643498" varName="node" />
+      <varInfo nodeId="353793545802643498" varName="prev" />
+    </scopeInfo>
+    <scopeInfo nodeId="353793545802643498" fileName="NestedDeclaration.java" startLine="39" startPosition="0" endLine="43" endPosition="0">
+      <varInfo nodeId="353793545802643498" varName="init" />
+      <varInfo nodeId="353793545802643498" varName="sm" />
+    </scopeInfo>
+    <scopeInfo nodeId="353793545802643498" fileName="NestedDeclaration.java" startLine="43" startPosition="0" endLine="47" endPosition="0">
+      <varInfo nodeId="353793545802643498" varName="sm" />
+    </scopeInfo>
     <unitInfo nodeId="353793545802643498" fileName="NestedDeclaration.java" startLine="12" startPosition="0" endLine="48" endPosition="0" unitName="jetbrains.mps.build.generictasks.structure.NestedDeclaration" />
   </root>
   <root nodeId="353793545802854870">
@@ -587,9 +742,16 @@
     <scopeInfo nodeId="353793545802854870" fileName="PathReference.java" startLine="14" startPosition="36" endLine="15" endPosition="16" />
     <scopeInfo nodeId="353793545802854870" fileName="PathReference.java" startLine="18" startPosition="68" endLine="19" endPosition="182" />
     <scopeInfo nodeId="353793545802854870" fileName="PathReference.java" startLine="22" startPosition="54" endLine="23" endPosition="48" />
-    <scopeInfo nodeId="353793545802854870" fileName="PathReference.java" startLine="13" startPosition="0" endLine="16" endPosition="3" />
-    <scopeInfo nodeId="353793545802854870" fileName="PathReference.java" startLine="17" startPosition="0" endLine="21" endPosition="0" />
-    <scopeInfo nodeId="353793545802854870" fileName="PathReference.java" startLine="21" startPosition="0" endLine="25" endPosition="0" />
+    <scopeInfo nodeId="353793545802854870" fileName="PathReference.java" startLine="13" startPosition="0" endLine="16" endPosition="3">
+      <varInfo nodeId="353793545802854870" varName="node" />
+    </scopeInfo>
+    <scopeInfo nodeId="353793545802854870" fileName="PathReference.java" startLine="17" startPosition="0" endLine="21" endPosition="0">
+      <varInfo nodeId="353793545802854870" varName="init" />
+      <varInfo nodeId="353793545802854870" varName="sm" />
+    </scopeInfo>
+    <scopeInfo nodeId="353793545802854870" fileName="PathReference.java" startLine="21" startPosition="0" endLine="25" endPosition="0">
+      <varInfo nodeId="353793545802854870" varName="sm" />
+    </scopeInfo>
     <unitInfo nodeId="353793545802854870" fileName="PathReference.java" startLine="11" startPosition="0" endLine="26" endPosition="0" unitName="jetbrains.mps.build.generictasks.structure.PathReference" />
   </root>
   <root nodeId="5699548131010533020">
@@ -622,25 +784,45 @@
     <nodeInfo nodeId="5699548131010533020" fileName="ITaskDeclaration.java" startLine="37" startPosition="47" endLine="38" endPosition="48" conceptFqName="jetbrains.mps.baseLanguage.structure.InstanceMethodDeclaration" propertyString="addInterfaces#(Ljetbrains/mps/smodel/INodeAdapter;)V" />
     <nodeInfo nodeId="5699548131010533020" fileName="ITaskDeclaration.java" startLine="38" startPosition="48" endLine="39" endPosition="71" conceptFqName="jetbrains.mps.baseLanguage.structure.InstanceMethodDeclaration" propertyString="insertInterfaces#(Ljetbrains/mps/smodel/INodeAdapter;Ljetbrains/mps/smodel/INodeAdapter;)V" />
     <scopeInfo nodeId="5699548131010533020" fileName="ITaskDeclaration.java" startLine="19" startPosition="0" endLine="20" endPosition="31" />
-    <scopeInfo nodeId="5699548131010533020" fileName="ITaskDeclaration.java" startLine="20" startPosition="31" endLine="21" endPosition="41" />
+    <scopeInfo nodeId="5699548131010533020" fileName="ITaskDeclaration.java" startLine="20" startPosition="31" endLine="21" endPosition="41">
+      <varInfo nodeId="5699548131010533020" varName="value" />
+    </scopeInfo>
     <scopeInfo nodeId="5699548131010533020" fileName="ITaskDeclaration.java" startLine="21" startPosition="41" endLine="22" endPosition="42" />
-    <scopeInfo nodeId="5699548131010533020" fileName="ITaskDeclaration.java" startLine="22" startPosition="42" endLine="23" endPosition="52" />
+    <scopeInfo nodeId="5699548131010533020" fileName="ITaskDeclaration.java" startLine="22" startPosition="42" endLine="23" endPosition="52">
+      <varInfo nodeId="5699548131010533020" varName="value" />
+    </scopeInfo>
     <scopeInfo nodeId="5699548131010533020" fileName="ITaskDeclaration.java" startLine="23" startPosition="52" endLine="24" endPosition="31" />
-    <scopeInfo nodeId="5699548131010533020" fileName="ITaskDeclaration.java" startLine="24" startPosition="31" endLine="25" endPosition="41" />
+    <scopeInfo nodeId="5699548131010533020" fileName="ITaskDeclaration.java" startLine="24" startPosition="31" endLine="25" endPosition="41">
+      <varInfo nodeId="5699548131010533020" varName="value" />
+    </scopeInfo>
     <scopeInfo nodeId="5699548131010533020" fileName="ITaskDeclaration.java" startLine="25" startPosition="41" endLine="26" endPosition="33" />
-    <scopeInfo nodeId="5699548131010533020" fileName="ITaskDeclaration.java" startLine="26" startPosition="33" endLine="27" endPosition="43" />
+    <scopeInfo nodeId="5699548131010533020" fileName="ITaskDeclaration.java" startLine="26" startPosition="33" endLine="27" endPosition="43">
+      <varInfo nodeId="5699548131010533020" varName="value" />
+    </scopeInfo>
     <scopeInfo nodeId="5699548131010533020" fileName="ITaskDeclaration.java" startLine="27" startPosition="43" endLine="28" endPosition="38" />
-    <scopeInfo nodeId="5699548131010533020" fileName="ITaskDeclaration.java" startLine="28" startPosition="38" endLine="29" endPosition="47" />
+    <scopeInfo nodeId="5699548131010533020" fileName="ITaskDeclaration.java" startLine="28" startPosition="38" endLine="29" endPosition="47">
+      <varInfo nodeId="5699548131010533020" varName="node" />
+    </scopeInfo>
     <scopeInfo nodeId="5699548131010533020" fileName="ITaskDeclaration.java" startLine="29" startPosition="47" endLine="30" endPosition="39" />
     <scopeInfo nodeId="5699548131010533020" fileName="ITaskDeclaration.java" startLine="30" startPosition="39" endLine="31" endPosition="58" />
     <scopeInfo nodeId="5699548131010533020" fileName="ITaskDeclaration.java" startLine="31" startPosition="58" endLine="32" endPosition="57" />
-    <scopeInfo nodeId="5699548131010533020" fileName="ITaskDeclaration.java" startLine="32" startPosition="57" endLine="33" endPosition="59" />
-    <scopeInfo nodeId="5699548131010533020" fileName="ITaskDeclaration.java" startLine="33" startPosition="59" endLine="34" endPosition="89" />
+    <scopeInfo nodeId="5699548131010533020" fileName="ITaskDeclaration.java" startLine="32" startPosition="57" endLine="33" endPosition="59">
+      <varInfo nodeId="5699548131010533020" varName="node" />
+    </scopeInfo>
+    <scopeInfo nodeId="5699548131010533020" fileName="ITaskDeclaration.java" startLine="33" startPosition="59" endLine="34" endPosition="89">
+      <varInfo nodeId="5699548131010533020" varName="node" />
+      <varInfo nodeId="5699548131010533020" varName="prev" />
+    </scopeInfo>
     <scopeInfo nodeId="5699548131010533020" fileName="ITaskDeclaration.java" startLine="34" startPosition="89" endLine="35" endPosition="36" />
     <scopeInfo nodeId="5699548131010533020" fileName="ITaskDeclaration.java" startLine="35" startPosition="36" endLine="36" endPosition="48" />
     <scopeInfo nodeId="5699548131010533020" fileName="ITaskDeclaration.java" startLine="36" startPosition="48" endLine="37" endPosition="47" />
-    <scopeInfo nodeId="5699548131010533020" fileName="ITaskDeclaration.java" startLine="37" startPosition="47" endLine="38" endPosition="48" />
-    <scopeInfo nodeId="5699548131010533020" fileName="ITaskDeclaration.java" startLine="38" startPosition="48" endLine="39" endPosition="71" />
+    <scopeInfo nodeId="5699548131010533020" fileName="ITaskDeclaration.java" startLine="37" startPosition="47" endLine="38" endPosition="48">
+      <varInfo nodeId="5699548131010533020" varName="node" />
+    </scopeInfo>
+    <scopeInfo nodeId="5699548131010533020" fileName="ITaskDeclaration.java" startLine="38" startPosition="48" endLine="39" endPosition="71">
+      <varInfo nodeId="5699548131010533020" varName="node" />
+      <varInfo nodeId="5699548131010533020" varName="prev" />
+    </scopeInfo>
     <unitInfo nodeId="5699548131010533020" fileName="ITaskDeclaration.java" startLine="10" startPosition="0" endLine="41" endPosition="0" unitName="jetbrains.mps.build.generictasks.structure.ITaskDeclaration" />
   </root>
 </debugInfo>
