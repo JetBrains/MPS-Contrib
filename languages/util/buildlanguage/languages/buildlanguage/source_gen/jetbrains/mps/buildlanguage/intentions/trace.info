@@ -38,12 +38,24 @@
     <scopeInfo nodeId="1201260187613" fileName="AddComment_intention_Intention.java" startLine="23" startPosition="0" endLine="27" endPosition="0" />
     <scopeInfo nodeId="1201260187613" fileName="AddComment_intention_Intention.java" startLine="27" startPosition="0" endLine="31" endPosition="0" />
     <scopeInfo nodeId="1201260187613" fileName="AddComment_intention_Intention.java" startLine="42" startPosition="84" endLine="46" endPosition="16" />
-    <scopeInfo nodeId="1201260187613" fileName="AddComment_intention_Intention.java" startLine="48" startPosition="0" endLine="52" endPosition="0" />
-    <scopeInfo nodeId="1201260187613" fileName="AddComment_intention_Intention.java" startLine="52" startPosition="0" endLine="56" endPosition="0" />
+    <scopeInfo nodeId="1201260187613" fileName="AddComment_intention_Intention.java" startLine="48" startPosition="0" endLine="52" endPosition="0">
+      <varInfo nodeId="1201260187613" varName="editorContext" />
+      <varInfo nodeId="1201260187613" varName="node" />
+    </scopeInfo>
+    <scopeInfo nodeId="1201260187613" fileName="AddComment_intention_Intention.java" startLine="52" startPosition="0" endLine="56" endPosition="0">
+      <varInfo nodeId="1201260187613" varName="editorContext" />
+      <varInfo nodeId="1201260187613" varName="node" />
+    </scopeInfo>
     <scopeInfo nodeId="1201260187613" fileName="AddComment_intention_Intention.java" startLine="56" startPosition="0" endLine="60" endPosition="0" />
     <scopeInfo nodeId="1201260187615" fileName="AddComment_intention_Intention.java" startLine="32" startPosition="85" endLine="39" endPosition="6" />
-    <scopeInfo nodeId="1201260187613" fileName="AddComment_intention_Intention.java" startLine="41" startPosition="0" endLine="48" endPosition="0" />
-    <scopeInfo nodeId="1201260187613" fileName="AddComment_intention_Intention.java" startLine="31" startPosition="0" endLine="41" endPosition="0" />
+    <scopeInfo nodeId="1201260187613" fileName="AddComment_intention_Intention.java" startLine="41" startPosition="0" endLine="48" endPosition="0">
+      <varInfo nodeId="1201260187613" varName="editorContext" />
+      <varInfo nodeId="1201260187613" varName="node" />
+    </scopeInfo>
+    <scopeInfo nodeId="1201260187613" fileName="AddComment_intention_Intention.java" startLine="31" startPosition="0" endLine="41" endPosition="0">
+      <varInfo nodeId="1201260187613" varName="editorContext" />
+      <varInfo nodeId="1201260187613" varName="node" />
+    </scopeInfo>
     <unitInfo nodeId="1201260187613" fileName="AddComment_intention_Intention.java" startLine="12" startPosition="0" endLine="61" endPosition="0" unitName="jetbrains.mps.buildlanguage.intentions.AddComment_intention_Intention" />
   </root>
   <root nodeId="1201595831626">
@@ -83,12 +95,24 @@
     <scopeInfo nodeId="1201595831626" fileName="RemoveEmptyComment_intention_Intention.java" startLine="23" startPosition="0" endLine="27" endPosition="0" />
     <scopeInfo nodeId="1201595831626" fileName="RemoveEmptyComment_intention_Intention.java" startLine="27" startPosition="0" endLine="31" endPosition="0" />
     <scopeInfo nodeId="1201595831626" fileName="RemoveEmptyComment_intention_Intention.java" startLine="42" startPosition="84" endLine="46" endPosition="16" />
-    <scopeInfo nodeId="1201595831626" fileName="RemoveEmptyComment_intention_Intention.java" startLine="48" startPosition="0" endLine="52" endPosition="0" />
-    <scopeInfo nodeId="1201595831626" fileName="RemoveEmptyComment_intention_Intention.java" startLine="52" startPosition="0" endLine="56" endPosition="0" />
+    <scopeInfo nodeId="1201595831626" fileName="RemoveEmptyComment_intention_Intention.java" startLine="48" startPosition="0" endLine="52" endPosition="0">
+      <varInfo nodeId="1201595831626" varName="editorContext" />
+      <varInfo nodeId="1201595831626" varName="node" />
+    </scopeInfo>
+    <scopeInfo nodeId="1201595831626" fileName="RemoveEmptyComment_intention_Intention.java" startLine="52" startPosition="0" endLine="56" endPosition="0">
+      <varInfo nodeId="1201595831626" varName="editorContext" />
+      <varInfo nodeId="1201595831626" varName="node" />
+    </scopeInfo>
     <scopeInfo nodeId="1201595831626" fileName="RemoveEmptyComment_intention_Intention.java" startLine="56" startPosition="0" endLine="60" endPosition="0" />
     <scopeInfo nodeId="1201595870745" fileName="RemoveEmptyComment_intention_Intention.java" startLine="32" startPosition="85" endLine="39" endPosition="6" />
-    <scopeInfo nodeId="1201595831626" fileName="RemoveEmptyComment_intention_Intention.java" startLine="41" startPosition="0" endLine="48" endPosition="0" />
-    <scopeInfo nodeId="1201595831626" fileName="RemoveEmptyComment_intention_Intention.java" startLine="31" startPosition="0" endLine="41" endPosition="0" />
+    <scopeInfo nodeId="1201595831626" fileName="RemoveEmptyComment_intention_Intention.java" startLine="41" startPosition="0" endLine="48" endPosition="0">
+      <varInfo nodeId="1201595831626" varName="editorContext" />
+      <varInfo nodeId="1201595831626" varName="node" />
+    </scopeInfo>
+    <scopeInfo nodeId="1201595831626" fileName="RemoveEmptyComment_intention_Intention.java" startLine="31" startPosition="0" endLine="41" endPosition="0">
+      <varInfo nodeId="1201595831626" varName="editorContext" />
+      <varInfo nodeId="1201595831626" varName="node" />
+    </scopeInfo>
     <unitInfo nodeId="1201595831626" fileName="RemoveEmptyComment_intention_Intention.java" startLine="12" startPosition="0" endLine="61" endPosition="0" unitName="jetbrains.mps.buildlanguage.intentions.RemoveEmptyComment_intention_Intention" />
   </root>
   <root nodeId="1219148733937">
@@ -130,15 +154,27 @@
     <scopeInfo nodeId="1219148733937" fileName="CreateExternalPropertyFromNormal_intention_Intention.java" startLine="21" startPosition="0" endLine="25" endPosition="0" />
     <scopeInfo nodeId="1219148733937" fileName="CreateExternalPropertyFromNormal_intention_Intention.java" startLine="25" startPosition="0" endLine="29" endPosition="0" />
     <scopeInfo nodeId="1219148733937" fileName="CreateExternalPropertyFromNormal_intention_Intention.java" startLine="29" startPosition="0" endLine="33" endPosition="0" />
-    <scopeInfo nodeId="1219148733937" fileName="CreateExternalPropertyFromNormal_intention_Intention.java" startLine="33" startPosition="0" endLine="37" endPosition="0" />
+    <scopeInfo nodeId="1219148733937" fileName="CreateExternalPropertyFromNormal_intention_Intention.java" startLine="33" startPosition="0" endLine="37" endPosition="0">
+      <varInfo nodeId="1219148733937" varName="editorContext" />
+      <varInfo nodeId="1219148733937" varName="node" />
+    </scopeInfo>
     <scopeInfo nodeId="1219148733937" fileName="CreateExternalPropertyFromNormal_intention_Intention.java" startLine="38" startPosition="84" endLine="42" endPosition="16" />
-    <scopeInfo nodeId="1219148733937" fileName="CreateExternalPropertyFromNormal_intention_Intention.java" startLine="44" startPosition="0" endLine="48" endPosition="0" />
+    <scopeInfo nodeId="1219148733937" fileName="CreateExternalPropertyFromNormal_intention_Intention.java" startLine="44" startPosition="0" endLine="48" endPosition="0">
+      <varInfo nodeId="1219148733937" varName="editorContext" />
+      <varInfo nodeId="1219148733937" varName="node" />
+    </scopeInfo>
     <scopeInfo nodeId="1219148733941" fileName="CreateExternalPropertyFromNormal_intention_Intention.java" startLine="49" startPosition="76" endLine="53" endPosition="63">
       <varInfo nodeId="1219149141957" varName="externalProperty" />
     </scopeInfo>
     <scopeInfo nodeId="1219148733937" fileName="CreateExternalPropertyFromNormal_intention_Intention.java" startLine="55" startPosition="0" endLine="59" endPosition="0" />
-    <scopeInfo nodeId="1219148733937" fileName="CreateExternalPropertyFromNormal_intention_Intention.java" startLine="37" startPosition="0" endLine="44" endPosition="0" />
-    <scopeInfo nodeId="1219148733937" fileName="CreateExternalPropertyFromNormal_intention_Intention.java" startLine="48" startPosition="0" endLine="55" endPosition="0" />
+    <scopeInfo nodeId="1219148733937" fileName="CreateExternalPropertyFromNormal_intention_Intention.java" startLine="37" startPosition="0" endLine="44" endPosition="0">
+      <varInfo nodeId="1219148733937" varName="editorContext" />
+      <varInfo nodeId="1219148733937" varName="node" />
+    </scopeInfo>
+    <scopeInfo nodeId="1219148733937" fileName="CreateExternalPropertyFromNormal_intention_Intention.java" startLine="48" startPosition="0" endLine="55" endPosition="0">
+      <varInfo nodeId="1219148733937" varName="editorContext" />
+      <varInfo nodeId="1219148733937" varName="node" />
+    </scopeInfo>
     <unitInfo nodeId="1219148733937" fileName="CreateExternalPropertyFromNormal_intention_Intention.java" startLine="14" startPosition="0" endLine="60" endPosition="0" unitName="jetbrains.mps.buildlanguage.intentions.CreateExternalPropertyFromNormal_intention_Intention" />
   </root>
   <root nodeId="1219149486459">
@@ -172,12 +208,18 @@
     <scopeInfo nodeId="1219149486459" fileName="CreateNormalPropertyFromExternal_intention_Intention.java" startLine="21" startPosition="0" endLine="25" endPosition="0" />
     <scopeInfo nodeId="1219149486459" fileName="CreateNormalPropertyFromExternal_intention_Intention.java" startLine="25" startPosition="0" endLine="29" endPosition="0" />
     <scopeInfo nodeId="1219149486459" fileName="CreateNormalPropertyFromExternal_intention_Intention.java" startLine="29" startPosition="0" endLine="33" endPosition="0" />
-    <scopeInfo nodeId="1219149486459" fileName="CreateNormalPropertyFromExternal_intention_Intention.java" startLine="33" startPosition="0" endLine="37" endPosition="0" />
+    <scopeInfo nodeId="1219149486459" fileName="CreateNormalPropertyFromExternal_intention_Intention.java" startLine="33" startPosition="0" endLine="37" endPosition="0">
+      <varInfo nodeId="1219149486459" varName="editorContext" />
+      <varInfo nodeId="1219149486459" varName="node" />
+    </scopeInfo>
     <scopeInfo nodeId="1219149486463" fileName="CreateNormalPropertyFromExternal_intention_Intention.java" startLine="38" startPosition="76" endLine="42" endPosition="55">
       <varInfo nodeId="1219149662639" varName="property" />
     </scopeInfo>
     <scopeInfo nodeId="1219149486459" fileName="CreateNormalPropertyFromExternal_intention_Intention.java" startLine="44" startPosition="0" endLine="48" endPosition="0" />
-    <scopeInfo nodeId="1219149486459" fileName="CreateNormalPropertyFromExternal_intention_Intention.java" startLine="37" startPosition="0" endLine="44" endPosition="0" />
+    <scopeInfo nodeId="1219149486459" fileName="CreateNormalPropertyFromExternal_intention_Intention.java" startLine="37" startPosition="0" endLine="44" endPosition="0">
+      <varInfo nodeId="1219149486459" varName="editorContext" />
+      <varInfo nodeId="1219149486459" varName="node" />
+    </scopeInfo>
     <unitInfo nodeId="1219149486459" fileName="CreateNormalPropertyFromExternal_intention_Intention.java" startLine="14" startPosition="0" endLine="49" endPosition="0" unitName="jetbrains.mps.buildlanguage.intentions.CreateNormalPropertyFromExternal_intention_Intention" />
   </root>
 </debugInfo>
