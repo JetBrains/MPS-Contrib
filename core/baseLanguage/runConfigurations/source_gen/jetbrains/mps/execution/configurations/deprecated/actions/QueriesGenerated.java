@@ -25,6 +25,10 @@ public class QueriesGenerated {
     return (SNodeOperations.getAncestor(_context.getParentNode(), "jetbrains.mps.execution.configurations.deprecated.structure.RunConfigurationDeclaration", false, false) != null);
   }
 
+  public static boolean nodeSubstituteActionsBuilder_Precondition_Statement_989489456094288209(final IOperationContext operationContext, final NodeSubstitutePreconditionContext _context) {
+    return SNodeOperations.getAncestor(_context.getParentNode(), "jetbrains.mps.execution.configurations.deprecated.structure.ExecuteConfigBlock", true, false) != null;
+  }
+
   public static List<INodeSubstituteAction> nodeSubstituteActionsBuilder_ActionsFactory_RunConfigExecutionParameterDeclaration_314981645427004454(final IOperationContext operationContext, final NodeSubstituteActionsFactoryContext _context) {
     List<INodeSubstituteAction> result = ListSequence.fromList(new ArrayList<INodeSubstituteAction>());
     {
@@ -54,6 +58,11 @@ public class QueriesGenerated {
         }
       }
     }
+    return result;
+  }
+
+  public static List<INodeSubstituteAction> nodeSubstituteActionsBuilder_ActionsFactory_Statement_989489456094288208(final IOperationContext operationContext, final NodeSubstituteActionsFactoryContext _context) {
+    List<INodeSubstituteAction> result = ListSequence.fromList(new ArrayList<INodeSubstituteAction>());
     return result;
   }
 }
