@@ -17,7 +17,7 @@ public class RunConfigurationTypeDeclaration_Behavior {
   }
 
   public static String call_getGeneratedClassFQName_314981645426570398(SNode thisNode) {
-    return SNodeOperations.getModel(thisNode).getLongName() + "" + RunConfigurationTypeDeclaration_Behavior.call_getGeneratedName_314981645426570387(thisNode);
+    return SNodeOperations.getModel(thisNode).getLongName() + "." + RunConfigurationTypeDeclaration_Behavior.call_getGeneratedName_314981645426570387(thisNode);
   }
 
   public static PropertyReference virtual_getPropertyToCheck_5003188907305392322(SNode thisNode) {

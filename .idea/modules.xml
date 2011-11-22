@@ -9,6 +9,7 @@
       <module fileurl="file://$PROJECT_DIR$/core/actions-runtime/actions-runtime.iml" filepath="$PROJECT_DIR$/core/actions-runtime/actions-runtime.iml" group="editor" />
       <module fileurl="file://$PROJECT_DIR$/core/analyzers/analyzers.iml" filepath="$PROJECT_DIR$/core/analyzers/analyzers.iml" group="core" />
       <module fileurl="file://$PROJECT_DIR$/languages/util/buildlanguage/ant/ant.iml" filepath="$PROJECT_DIR$/languages/util/buildlanguage/ant/ant.iml" group="languages" />
+      <module fileurl="file://$PROJECT_DIR$/core/baseLanguage/baseLanguage/solutions/jetbrains.mps.baseLanguage.execution.api/baseLanguage-execution.iml" filepath="$PROJECT_DIR$/core/baseLanguage/baseLanguage/solutions/jetbrains.mps.baseLanguage.execution.api/baseLanguage-execution.iml" group="languages" />
       <module fileurl="file://$PROJECT_DIR$/core/baseLanguage/baseLanguage/solutions/jetbrains.mps.baseLanguage.search/baseLanguage-search.iml" filepath="$PROJECT_DIR$/core/baseLanguage/baseLanguage/solutions/jetbrains.mps.baseLanguage.search/baseLanguage-search.iml" group="languages" />
       <module fileurl="file://$PROJECT_DIR$/core/baseLanguage/baseLanguage/solutions/jetbrains.mps.baseLanguage.util/baseLanguage-util.iml" filepath="$PROJECT_DIR$/core/baseLanguage/baseLanguage/solutions/jetbrains.mps.baseLanguage.util/baseLanguage-util.iml" group="languages" />
       <module fileurl="file://$PROJECT_DIR$/workbench/baseLanguageIndex/baseLanguageIndex.iml" filepath="$PROJECT_DIR$/workbench/baseLanguageIndex/baseLanguageIndex.iml" group="workbench" />
@@ -26,7 +27,6 @@
       <module fileurl="file://$PROJECT_DIR$/core/idea-patch/idea-patch.iml" filepath="$PROJECT_DIR$/core/idea-patch/idea-patch.iml" group="workbench" />
       <module fileurl="file://$PROJECT_DIR$/plugins/ideaIntegration/ideaIntegration.iml" filepath="$PROJECT_DIR$/plugins/ideaIntegration/ideaIntegration.iml" group="plugins" />
       <module fileurl="file://$PROJECT_DIR$/core/intentions-runtime/intentions-runtime.iml" filepath="$PROJECT_DIR$/core/intentions-runtime/intentions-runtime.iml" group="editor" />
-      <module fileurl="file://$PROJECT_DIR$/core/baseLanguage/runConfigurations/runtime/javaRunConfigurations-runtime.iml" filepath="$PROJECT_DIR$/core/baseLanguage/runConfigurations/runtime/javaRunConfigurations-runtime.iml" group="languages" />
       <module fileurl="file://$PROJECT_DIR$/core/kernel/kernel.iml" filepath="$PROJECT_DIR$/core/kernel/kernel.iml" group="core" />
       <module fileurl="file://$PROJECT_DIR$/core/make-runtime/make-runtime.iml" filepath="$PROJECT_DIR$/core/make-runtime/make-runtime.iml" group="core" />
       <module fileurl="file://$PROJECT_DIR$/plugins/migration/migration.iml" filepath="$PROJECT_DIR$/plugins/migration/migration.iml" group="plugins" />

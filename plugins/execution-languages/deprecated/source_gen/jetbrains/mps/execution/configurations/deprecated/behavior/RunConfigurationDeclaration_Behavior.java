@@ -37,7 +37,7 @@ public class RunConfigurationDeclaration_Behavior {
   }
 
   public static String call_getGeneratedClassFQName_314981645426570434(SNode thisNode) {
-    return SNodeOperations.getModel(thisNode).getLongName() + "" + RunConfigurationDeclaration_Behavior.call_getGeneratedName_314981645426570423(thisNode);
+    return SNodeOperations.getModel(thisNode).getLongName() + "." + RunConfigurationDeclaration_Behavior.call_getGeneratedName_314981645426570423(thisNode);
   }
 
   public static String call_getGeneratedFactoryName_314981645426570449(SNode thisNode) {
@@ -45,7 +45,7 @@ public class RunConfigurationDeclaration_Behavior {
   }
 
   public static String call_getGeneratedFactoryClassFQName_314981645426570460(SNode thisNode) {
-    return SNodeOperations.getModel(thisNode).getLongName() + "" + RunConfigurationDeclaration_Behavior.call_getGeneratedFactoryName_314981645426570449(thisNode);
+    return SNodeOperations.getModel(thisNode).getLongName() + "." + RunConfigurationDeclaration_Behavior.call_getGeneratedFactoryName_314981645426570449(thisNode);
   }
 
   public static PropertyReference virtual_getPropertyToCheck_5003188907305392322(SNode thisNode) {
