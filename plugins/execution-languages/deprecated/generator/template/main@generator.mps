@@ -2138,7 +2138,7 @@
   <root id="664608570000532559">
     <node role="contentNode" roleId="tpf8.1092060348987" type="11eb.JavaRunConfiguration" typeId="11eb.655818460756091959" id="664608570000532560">
       <property name="name" nameId="tpck.1169194664001" value="JavaNodeRunConfiguration" />
-      <link role="stateTypeParameter" roleId="11eb.314981645426569353" targetNodeId="hf1o.~BaseRunProfileState" resolveInfo="BaseRunProfileState" />
+      <link role="stateTypeParameter" roleId="11eb.314981645426569353" targetNodeId="mt24.~BaseRunProfileState" resolveInfo="BaseRunProfileState" />
       <node role="property" roleId="11eb.314981645426569356" type="tp4k.PersistentPropertyDeclaration" typeId="tp4k.1210179190070" id="664608570000532561">
         <property name="name" nameId="tpck.1169194664001" value="nodeId" />
         <node role="type" roleId="tpee.5680397130376446158" type="tpee.StringType" typeId="tpee.1225271177708" id="664608570000532562" />
