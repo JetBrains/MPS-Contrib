@@ -21,7 +21,7 @@
       <directory url="file://$PROJECT_DIR$/core/baseLanguage/tuples/solutions/jetbrains.mps.baseLanguage.tuples.sandbox/source_gen" includeSubdirectories="true" />
       <directory url="file://$PROJECT_DIR$/core/baseLanguage/tuples/solutions/jetbrains.mps.baseLanguage.tuples.shared/source_gen" includeSubdirectories="true" />
       <directory url="file://$PROJECT_DIR$/core/baseLanguage/tuples/solutions/jetbrains.mps.baseLanguage.tuples.test/source_gen" includeSubdirectories="true" />
-      <directory url="file://$PROJECT_DIR$/core/baseLanguage/unitTest/solutions/runtime/source_gen" includeSubdirectories="true" />
+      <directory url="file://$PROJECT_DIR$/plugins/execution-configurations/unitTests/runtime/source_gen" includeSubdirectories="true" />
       <directory url="file://$PROJECT_DIR$/core/baseLanguage/unitTest/solutions/sandbox/source_gen" includeSubdirectories="true" />
       <directory url="file://$PROJECT_DIR$/core/baseLanguage/unitTest/source_gen" includeSubdirectories="true" />
       <directory url="file://$PROJECT_DIR$/core/debug-api/languages/api/source_gen" includeSubdirectories="true" />
