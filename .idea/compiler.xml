@@ -24,7 +24,7 @@
       <directory url="file://$PROJECT_DIR$/plugins/execution-configurations/unitTests/runtime/source_gen" includeSubdirectories="true" />
       <directory url="file://$PROJECT_DIR$/core/baseLanguage/unitTest/solutions/sandbox/source_gen" includeSubdirectories="true" />
       <directory url="file://$PROJECT_DIR$/core/baseLanguage/unitTest/source_gen" includeSubdirectories="true" />
-      <directory url="file://$PROJECT_DIR$/core/debug-api/languages/api/source_gen" includeSubdirectories="true" />
+      <directory url="file://$PROJECT_DIR$/plugins/debugger-api-languages/jetbrains.mps.debugger.api.lang/source_gen" includeSubdirectories="true" />
       <directory url="file://$PROJECT_DIR$/core/debug/languages/customViewers/source_gen" includeSubdirectories="true" />
       <directory url="file://$PROJECT_DIR$/core/debug/languages/evaluation/source_gen" includeSubdirectories="true" />
       <directory url="file://$PROJECT_DIR$/core/debug/languages/privateMembers/source_gen" includeSubdirectories="true" />
