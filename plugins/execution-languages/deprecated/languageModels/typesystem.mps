@@ -39,10 +39,6 @@
       <property name="overrides" nameId="tpd4.1195213689297" value="true" />
       <property name="virtualPackage" nameId="tpck.1193676396447" value="node" />
     </node>
-    <node type="tpd4.NonTypesystemRule" typeId="tpd4.1195214364922" id="8255351389870630288">
-      <property name="name" nameId="tpck.1169194664001" value="check_RunConfigurationCreatesDebugSession" />
-      <property name="overrides" nameId="tpd4.1195213689297" value="true" />
-    </node>
     <node type="tpd4.InferenceRule" typeId="tpd4.1174643105530" id="314981645426569907">
       <property name="name" nameId="tpck.1169194664001" value="typeof_ExecutionConsoleStatement" />
       <property name="virtualPackage" nameId="tpck.1193676396447" value="RunConfigs.Configuration.Execute.Statements" />
@@ -202,13 +198,6 @@
     <node role="applicableNode" roleId="tpd4.1174648101952" type="tpd4.ConceptReference" typeId="tpd4.1174642788531" id="7976893777486251145">
       <property name="name" nameId="tpck.1169194664001" value="isApplicableBlock" />
       <link role="concept" roleId="tpd4.1174642800329" targetNodeId="11eb.4462513030604064303" resolveInfo="IsApplicableBlock" />
-    </node>
-  </root>
-  <root id="8255351389870630288">
-    <node role="body" roleId="tpd4.1195213635060" type="tpee.StatementList" typeId="tpee.1068580123136" id="8255351389870630289" />
-    <node role="applicableNode" roleId="tpd4.1174648101952" type="tpd4.ConceptReference" typeId="tpd4.1174642788531" id="8255351389870630290">
-      <property name="name" nameId="tpck.1169194664001" value="javaRunConfiguration" />
-      <link role="concept" roleId="tpd4.1174642800329" targetNodeId="11eb.655818460756091959" resolveInfo="JavaRunConfiguration" />
     </node>
   </root>
   <root id="314981645426569907">

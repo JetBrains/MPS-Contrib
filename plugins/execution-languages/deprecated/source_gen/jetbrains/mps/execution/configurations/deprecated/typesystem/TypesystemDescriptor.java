@@ -106,10 +106,6 @@ public class TypesystemDescriptor extends BaseHelginsDescriptor {
       this.myNonTypesystemRules.add(nonTypesystemRule);
     }
     {
-      NonTypesystemRule_Runtime nonTypesystemRule = new check_RunConfigurationCreatesDebugSession_NonTypesystemRule();
-      this.myNonTypesystemRules.add(nonTypesystemRule);
-    }
-    {
       NonTypesystemRule_Runtime nonTypesystemRule = new check_RunConfigurationEditor_NonTypesystemRule();
       this.myNonTypesystemRules.add(nonTypesystemRule);
     }
