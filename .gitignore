@@ -10,6 +10,7 @@
 /IdeaPlugin/mps-core/lib
 /IdeaPlugin/mps-core/languages
 /IdeaPlugin/tests/blProject/.idea/workspace.xml
+/IdeaPlugin/tests/multiModulesProject/.idea/workspace.xml
 classes
 classes_gen
 testclasses
