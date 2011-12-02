@@ -10,7 +10,7 @@
   <dep model="r:00000000-0000-4000-0000-011c895902e8(jetbrains.mps.lang.generator.structure)" hash="90a2yqqwsbuerf4u3po1b2jxod6vyfj" />
   <dep model="r:00000000-0000-4000-0000-011c8959032e(jetbrains.mps.baseLanguage.collections.structure)" hash="-7vcmpavwf9ea155yro6is5d3t2ttmm" />
   <dep model="r:00000000-0000-4000-0000-011c8959032f(jetbrains.mps.baseLanguage.collections.generator.baseLanguage.template.main@generator)" hash="dxpmcmw8ohkpqxzxdrioybecb4ufy6g" />
-  <dep model="r:00000000-0000-4000-0000-011c8959033a(jetbrains.mps.baseLanguage.closures.generator.baseLanguage.template.main@generator)" hash="6wcb0wku66kauzfch9knq1rbzi73svq" />
+  <dep model="r:00000000-0000-4000-0000-011c8959033a(jetbrains.mps.baseLanguage.closures.generator.baseLanguage.template.main@generator)" hash="-1445wu1q1ns7clnl5gzmpm7i94318f1" />
   <dep model="r:00000000-0000-4000-0000-011c895903ac(jetbrains.mps.baseLanguageInternal.structure)" hash="-8h3fz2txuftple5no6tuuqf8wtsf12" />
   <dep model="r:3b7ed80f-6cfd-45bc-b051-2f66c620dd27(jetbrains.mps.lang.traceable.structure)" hash="-xnfmnyv5hekzs174k0j3fnydq0a5km" />
   <dep model="r:b4d7d620-6723-4aa2-856b-118497e84e9e(jetbrains.mps.baseLanguage.generator.java.strings@generator)" hash="cenf4n6cafns3rh67gtc531ejx8bg4m" />
@@ -62,9 +62,7 @@
     <file name="GText.java" />
   </source>
   <source id="1164412935041" name="GItem" hash="1yih787m6gub5gfq0vecye6aeubwi27">
-    <dep root="1184639540818" />
     <dep root="1186170508337" />
-    <dep root="1211920428461" />
     <dep root="1211920502338" />
     <dep model="r:00000000-0000-4000-0000-011c89590288(jetbrains.mps.lang.core.structure)" />
     <dep model="r:00000000-0000-4000-0000-011c89590293(jetbrains.mps.lang.structure.generator_new.baseLanguage@generator)" />
@@ -82,8 +80,6 @@
   </source>
   <source id="1164412982980" name="GItemList" hash="-ep3qpgt7aa4dcjscbbjwk38r0cg5ygz">
     <dep root="1164412935041" />
-    <dep root="1184639540818" />
-    <dep root="1211920428461" />
     <dep root="1211920502338" />
     <dep root="1239125024709" />
     <dep model="r:00000000-0000-4000-0000-011c89590288(jetbrains.mps.lang.core.structure)" />
@@ -185,8 +181,6 @@
   </source>
   <source id="1166926309597" name="GLine" hash="-4kvg276231r05j4e4zotvk45nr4eatq">
     <dep root="1164412935041" />
-    <dep root="1184639540818" />
-    <dep root="1211920428461" />
     <dep root="1211920502338" />
     <dep root="1239125024709" />
     <dep model="r:00000000-0000-4000-0000-011c89590288(jetbrains.mps.lang.core.structure)" />
@@ -204,8 +198,6 @@
   </source>
   <source id="1179109169620" name="GConditionalLine" hash="-ee84ugkgaf26yjfl9uid7oq9tub899f">
     <dep root="1164412935041" />
-    <dep root="1184639540818" />
-    <dep root="1211920428461" />
     <dep root="1211920502338" />
     <dep root="1239125024709" />
     <dep model="r:00000000-0000-4000-0000-011c89590288(jetbrains.mps.lang.core.structure)" />
@@ -222,9 +214,7 @@
     <file name="GConditionalLine.java" />
   </source>
   <source id="1181754781153" name="BuilderContextRef" hash="8qvcg8z6dcc4ybdfpqxoypamnava8ts">
-    <dep root="1184639540818" />
     <dep root="1186170508337" />
-    <dep root="1211920428461" />
     <dep root="1211920502338" />
     <dep model="r:00000000-0000-4000-0000-011c89590288(jetbrains.mps.lang.core.structure)" />
     <dep model="r:00000000-0000-4000-0000-011c89590293(jetbrains.mps.lang.structure.generator_new.baseLanguage@generator)" />
@@ -241,7 +231,6 @@
   </source>
   <source id="1184639540818" name="GDocument" hash="-mpbnc1wn771bqftqbvynfhsktzq8co">
     <dep root="1164412935041" />
-    <dep root="1211920428461" />
     <dep root="1211920502338" />
     <dep model="r:00000000-0000-4000-0000-011c89590288(jetbrains.mps.lang.core.structure)" />
     <dep model="r:00000000-0000-4000-0000-011c89590293(jetbrains.mps.lang.structure.generator_new.baseLanguage@generator)" />
@@ -265,8 +254,6 @@
   </source>
   <source id="1188509198390" name="GSeparatorItemList" hash="520rwstlu2u0581o3a2mzhn5qtamf82">
     <dep root="1164412935041" />
-    <dep root="1184639540818" />
-    <dep root="1211920428461" />
     <dep root="1211920502338" />
     <dep root="1239125024709" />
     <dep model="f:java_stub#37a3367b-1fb2-44d8-aa6b-18075e74e003#jetbrains.mps.smodel(MPS.Classpath/jetbrains.mps.smodel@java_stub)" />
@@ -286,7 +273,6 @@
   </source>
   <source id="1211920428461" name="GContentPlaceholder" hash="53x2up26h6j18cscrc7x05opdp9x4ar">
     <dep root="1164412935041" />
-    <dep root="1184639540818" />
     <dep root="1211920502338" />
     <dep model="r:00000000-0000-4000-0000-011c89590288(jetbrains.mps.lang.core.structure)" />
     <dep model="r:00000000-0000-4000-0000-011c89590293(jetbrains.mps.lang.structure.generator_new.baseLanguage@generator)" />
@@ -303,8 +289,6 @@
   </source>
   <source id="1211920502338" name="GContentBlock" hash="-7mvbduvy1p110ztn6i831zwtvtwkndf">
     <dep root="1164412935041" />
-    <dep root="1184639540818" />
-    <dep root="1211920428461" />
     <dep root="1239125024709" />
     <dep model="r:00000000-0000-4000-0000-011c89590288(jetbrains.mps.lang.core.structure)" />
     <dep model="r:00000000-0000-4000-0000-011c89590293(jetbrains.mps.lang.structure.generator_new.baseLanguage@generator)" />

@@ -48,6 +48,7 @@
     </scopeInfo>
   </root>
   <root nodeId="1197476859335">
+    <nodeInfo nodeId="1197477027421" fileName="QueriesGenerated.java" startLine="27" startPosition="31" endLine="28" endPosition="88" conceptFqName="jetbrains.mps.baseLanguage.structure.StaticFieldDeclaration" propertyString="REGEXP_x583g4_a0a0a2a0a0a0a2a0a1a4" />
     <nodeInfo nodeId="1197477243375" fileName="QueriesGenerated.java" startLine="104" startPosition="94" endLine="105" endPosition="123" conceptFqName="jetbrains.mps.baseLanguage.structure.LocalVariableDeclarationStatement" />
     <nodeInfo nodeId="1197477281711" fileName="QueriesGenerated.java" startLine="105" startPosition="123" endLine="106" endPosition="88" conceptFqName="jetbrains.mps.baseLanguage.structure.ExpressionStatement" />
     <nodeInfo nodeId="1197477356371" fileName="QueriesGenerated.java" startLine="106" startPosition="88" endLine="107" endPosition="27" conceptFqName="jetbrains.mps.baseLanguage.structure.ReturnStatement" />
