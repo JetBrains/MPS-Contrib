@@ -142,7 +142,9 @@
     <scopeInfo nodeId="1174322061629" fileName="ConditionalDTPrinterOffset.java" startLine="14" startPosition="76" endLine="16" endPosition="3" />
     <scopeInfo nodeId="1169645782400" fileName="ConditionalDTPrinterOptionalDate.java" startLine="14" startPosition="82" endLine="16" endPosition="3" />
     <scopeInfo nodeId="1169488395206" fileName="MainFormatTable.java" startLine="15" startPosition="0" endLine="17" endPosition="3" />
-    <scopeInfo nodeId="1172684075121" fileName="MainFormatTable.java" startLine="22" startPosition="7" endLine="24" endPosition="45" />
+    <scopeInfo nodeId="1172684075121" fileName="MainFormatTable.java" startLine="22" startPosition="7" endLine="24" endPosition="45">
+      <varInfo nodeId="1172684075121" varName="formatter" />
+    </scopeInfo>
     <scopeInfo nodeId="1169645782400" fileName="ConditionalDTPrinterOptionalDate.java" startLine="18" startPosition="56" endLine="21" endPosition="5" />
     <scopeInfo nodeId="1174322061629" fileName="ConditionalDTPrinterOffset.java" startLine="18" startPosition="56" endLine="21" endPosition="5" />
     <scopeInfo nodeId="1169645782400" fileName="ConditionalDTPrinterOptionalDate.java" startLine="21" startPosition="5" endLine="24" endPosition="5" />
@@ -150,32 +152,74 @@
     <scopeInfo nodeId="1169645782400" fileName="ConditionalDTPrinterOptionalDate.java" startLine="24" startPosition="5" endLine="27" endPosition="5" />
     <scopeInfo nodeId="1174322061629" fileName="ConditionalDTPrinterOffset.java" startLine="24" startPosition="5" endLine="27" endPosition="5" />
     <scopeInfo nodeId="1174322061629" fileName="ConditionalDTPrinterOffset.java" startLine="27" startPosition="5" endLine="30" endPosition="5" />
-    <scopeInfo nodeId="1172684313431" fileName="MainFormatTable.java" startLine="28" startPosition="48" endLine="31" endPosition="35" />
-    <scopeInfo nodeId="1172332021204" fileName="MainFormatTable.java" startLine="67" startPosition="39" endLine="70" endPosition="35" />
-    <scopeInfo nodeId="1172687345331" fileName="MainFormatTable.java" startLine="72" startPosition="40" endLine="75" endPosition="35" />
-    <scopeInfo nodeId="1169564829638" fileName="MainFormatTable.java" startLine="77" startPosition="47" endLine="80" endPosition="35" />
-    <scopeInfo nodeId="1174322248463" fileName="MainFormatTable.java" startLine="82" startPosition="45" endLine="85" endPosition="35" />
-    <scopeInfo nodeId="1174322064693" fileName="MainFormatTable.java" startLine="87" startPosition="45" endLine="90" endPosition="35" />
-    <scopeInfo nodeId="1174322072850" fileName="MainFormatTable.java" startLine="92" startPosition="43" endLine="95" endPosition="35" />
-    <scopeInfo nodeId="1174322078367" fileName="MainFormatTable.java" startLine="97" startPosition="42" endLine="100" endPosition="35" />
-    <scopeInfo nodeId="1174322041098" fileName="MainFormatTable.java" startLine="102" startPosition="41" endLine="105" endPosition="35" />
-    <scopeInfo nodeId="4555537781927638029" fileName="MainFormatTable.java" startLine="116" startPosition="39" endLine="119" endPosition="35" />
-    <scopeInfo nodeId="1169645782400" fileName="ConditionalDTPrinterOptionalDate.java" startLine="31" startPosition="52" endLine="36" endPosition="20" />
-    <scopeInfo nodeId="1169549842090" fileName="MainFormatTable.java" startLine="33" startPosition="44" endLine="38" endPosition="35" />
-    <scopeInfo nodeId="1172684095976" fileName="MainFormatTable.java" startLine="20" startPosition="46" endLine="26" endPosition="35" />
-    <scopeInfo nodeId="1174322061629" fileName="ConditionalDTPrinterOffset.java" startLine="34" startPosition="52" endLine="40" endPosition="20" />
-    <scopeInfo nodeId="1169637469524" fileName="MainFormatTable.java" startLine="40" startPosition="39" endLine="47" endPosition="35" />
-    <scopeInfo nodeId="1169549957527" fileName="MainFormatTable.java" startLine="49" startPosition="39" endLine="56" endPosition="35" />
-    <scopeInfo nodeId="194163770812416658" fileName="MainFormatTable.java" startLine="58" startPosition="45" endLine="65" endPosition="35" />
-    <scopeInfo nodeId="7905990018466231048" fileName="MainFormatTable.java" startLine="107" startPosition="40" endLine="114" endPosition="35" />
+    <scopeInfo nodeId="1172684313431" fileName="MainFormatTable.java" startLine="28" startPosition="48" endLine="31" endPosition="35">
+      <varInfo nodeId="1172684313431" varName="builder" />
+    </scopeInfo>
+    <scopeInfo nodeId="1172332021204" fileName="MainFormatTable.java" startLine="67" startPosition="39" endLine="70" endPosition="35">
+      <varInfo nodeId="1172332021204" varName="builder" />
+    </scopeInfo>
+    <scopeInfo nodeId="1172687345331" fileName="MainFormatTable.java" startLine="72" startPosition="40" endLine="75" endPosition="35">
+      <varInfo nodeId="1172687345331" varName="builder" />
+    </scopeInfo>
+    <scopeInfo nodeId="1169564829638" fileName="MainFormatTable.java" startLine="77" startPosition="47" endLine="80" endPosition="35">
+      <varInfo nodeId="1169564829638" varName="builder" />
+    </scopeInfo>
+    <scopeInfo nodeId="1174322248463" fileName="MainFormatTable.java" startLine="82" startPosition="45" endLine="85" endPosition="35">
+      <varInfo nodeId="1174322248463" varName="builder" />
+    </scopeInfo>
+    <scopeInfo nodeId="1174322064693" fileName="MainFormatTable.java" startLine="87" startPosition="45" endLine="90" endPosition="35">
+      <varInfo nodeId="1174322064693" varName="builder" />
+    </scopeInfo>
+    <scopeInfo nodeId="1174322072850" fileName="MainFormatTable.java" startLine="92" startPosition="43" endLine="95" endPosition="35">
+      <varInfo nodeId="1174322072850" varName="builder" />
+    </scopeInfo>
+    <scopeInfo nodeId="1174322078367" fileName="MainFormatTable.java" startLine="97" startPosition="42" endLine="100" endPosition="35">
+      <varInfo nodeId="1174322078367" varName="builder" />
+    </scopeInfo>
+    <scopeInfo nodeId="1174322041098" fileName="MainFormatTable.java" startLine="102" startPosition="41" endLine="105" endPosition="35">
+      <varInfo nodeId="1174322041098" varName="builder" />
+    </scopeInfo>
+    <scopeInfo nodeId="4555537781927638029" fileName="MainFormatTable.java" startLine="116" startPosition="39" endLine="119" endPosition="35">
+      <varInfo nodeId="4555537781927638029" varName="builder" />
+    </scopeInfo>
+    <scopeInfo nodeId="1169645782400" fileName="ConditionalDTPrinterOptionalDate.java" startLine="31" startPosition="52" endLine="36" endPosition="20">
+      <varInfo nodeId="1169645782400" varName="printers" />
+    </scopeInfo>
+    <scopeInfo nodeId="1169549842090" fileName="MainFormatTable.java" startLine="33" startPosition="44" endLine="38" endPosition="35">
+      <varInfo nodeId="1169549842090" varName="builder" />
+    </scopeInfo>
+    <scopeInfo nodeId="1172684095976" fileName="MainFormatTable.java" startLine="20" startPosition="46" endLine="26" endPosition="35">
+      <varInfo nodeId="1172684095976" varName="builder" />
+    </scopeInfo>
+    <scopeInfo nodeId="1174322061629" fileName="ConditionalDTPrinterOffset.java" startLine="34" startPosition="52" endLine="40" endPosition="20">
+      <varInfo nodeId="1174322061629" varName="printers" />
+    </scopeInfo>
+    <scopeInfo nodeId="1169637469524" fileName="MainFormatTable.java" startLine="40" startPosition="39" endLine="47" endPosition="35">
+      <varInfo nodeId="1169637469524" varName="builder" />
+    </scopeInfo>
+    <scopeInfo nodeId="1169549957527" fileName="MainFormatTable.java" startLine="49" startPosition="39" endLine="56" endPosition="35">
+      <varInfo nodeId="1169549957527" varName="builder" />
+    </scopeInfo>
+    <scopeInfo nodeId="194163770812416658" fileName="MainFormatTable.java" startLine="58" startPosition="45" endLine="65" endPosition="35">
+      <varInfo nodeId="194163770812416658" varName="builder" />
+    </scopeInfo>
+    <scopeInfo nodeId="7905990018466231048" fileName="MainFormatTable.java" startLine="107" startPosition="40" endLine="114" endPosition="35">
+      <varInfo nodeId="7905990018466231048" varName="builder" />
+    </scopeInfo>
     <scopeInfo nodeId="1169645782400" fileName="ConditionalDTPrinterOptionalDate.java" startLine="30" startPosition="0" endLine="38" endPosition="0" />
     <scopeInfo nodeId="1174322061629" fileName="ConditionalDTPrinterOffset.java" startLine="33" startPosition="0" endLine="42" endPosition="0" />
     <scopeInfo nodeId="1169645782400" fileName="ConditionalDTPrinterOptionalDate.java" startLine="18" startPosition="56" endLine="28" endPosition="14" />
-    <scopeInfo nodeId="1169645782400" fileName="ConditionalDTPrinterOptionalDate.java" startLine="17" startPosition="0" endLine="30" endPosition="0" />
+    <scopeInfo nodeId="1169645782400" fileName="ConditionalDTPrinterOptionalDate.java" startLine="17" startPosition="0" endLine="30" endPosition="0">
+      <varInfo nodeId="1169645782400" varName="datetimeToFormat" />
+    </scopeInfo>
     <scopeInfo nodeId="1174322061629" fileName="ConditionalDTPrinterOffset.java" startLine="18" startPosition="56" endLine="31" endPosition="14" />
-    <scopeInfo nodeId="1174322061629" fileName="ConditionalDTPrinterOffset.java" startLine="17" startPosition="0" endLine="33" endPosition="0" />
+    <scopeInfo nodeId="1174322061629" fileName="ConditionalDTPrinterOffset.java" startLine="17" startPosition="0" endLine="33" endPosition="0">
+      <varInfo nodeId="1174322061629" varName="datetimeToFormat" />
+    </scopeInfo>
     <scopeInfo nodeId="1169488395206" fileName="MainFormatTable.java" startLine="19" startPosition="66" endLine="121" endPosition="16" />
-    <scopeInfo nodeId="1169488395206" fileName="MainFormatTable.java" startLine="18" startPosition="0" endLine="123" endPosition="0" />
+    <scopeInfo nodeId="1169488395206" fileName="MainFormatTable.java" startLine="18" startPosition="0" endLine="123" endPosition="0">
+      <varInfo nodeId="1169488395206" varName="formatterName" />
+    </scopeInfo>
     <unitInfo nodeId="1174322061629" fileName="ConditionalDTPrinterOffset.java" startLine="14" startPosition="0" endLine="43" endPosition="0" unitName="jetbrains.mps.baseLanguage.dates.unittest.tests.ConditionalDTPrinterOffset" />
     <unitInfo nodeId="1169645782400" fileName="ConditionalDTPrinterOptionalDate.java" startLine="14" startPosition="0" endLine="39" endPosition="0" unitName="jetbrains.mps.baseLanguage.dates.unittest.tests.ConditionalDTPrinterOptionalDate" />
     <unitInfo nodeId="1169488395206" fileName="MainFormatTable.java" startLine="13" startPosition="0" endLine="124" endPosition="0" unitName="jetbrains.mps.baseLanguage.dates.unittest.tests.MainFormatTable" />
@@ -328,7 +372,9 @@
     <scopeInfo nodeId="7905990018466422150" fileName="Format_Test.java" startLine="95" startPosition="0" endLine="100" endPosition="0" />
     <scopeInfo nodeId="1171979594122" fileName="Format_Test.java" startLine="34" startPosition="0" endLine="40" endPosition="0" />
     <scopeInfo nodeId="1172682247715" fileName="Format_Test.java" startLine="44" startPosition="0" endLine="50" endPosition="0" />
-    <scopeInfo nodeId="4858741172755494774" fileName="Format_Test.java" startLine="108" startPosition="50" endLine="114" endPosition="37" />
+    <scopeInfo nodeId="4858741172755494774" fileName="Format_Test.java" startLine="108" startPosition="50" endLine="114" endPosition="37">
+      <varInfo nodeId="4858741172755494774" varName="builder" />
+    </scopeInfo>
     <scopeInfo nodeId="1238419296461" fileName="Format_Test.java" startLine="78" startPosition="0" endLine="85" endPosition="0" />
     <scopeInfo nodeId="1174322449296" fileName="Format_Test.java" startLine="54" startPosition="0" endLine="62" endPosition="0" />
     <scopeInfo nodeId="1174322556082" fileName="Format_Test.java" startLine="62" startPosition="0" endLine="70" endPosition="0" />
@@ -469,7 +515,9 @@
       <varInfo nodeId="1172324855434" varName="dt" />
       <varInfo nodeId="6283241156709678947" varName="roundDt" />
     </scopeInfo>
-    <scopeInfo nodeId="194163770812156200" fileName="Round_Test.java" startLine="28" startPosition="50" endLine="31" endPosition="37" />
+    <scopeInfo nodeId="194163770812156200" fileName="Round_Test.java" startLine="28" startPosition="50" endLine="31" endPosition="37">
+      <varInfo nodeId="194163770812156200" varName="builder" />
+    </scopeInfo>
     <scopeInfo nodeId="1172326990019" fileName="Round_Test.java" startLine="39" startPosition="45" endLine="42" endPosition="120">
       <varInfo nodeId="6283241156709678977" varName="dt" />
       <varInfo nodeId="6283241156709678981" varName="roundDownDt" />
@@ -576,7 +624,9 @@
     <nodeInfo nodeId="1172331837293" fileName="With_Test.java" startLine="15" startPosition="41" endLine="22" endPosition="0" conceptFqName="jetbrains.mps.baseLanguage.structure.InstanceMethodDeclaration" propertyString="test_monday#()V" />
     <nodeInfo nodeId="4389880778953529204" fileName="With_Test.java" startLine="25" startPosition="145" endLine="32" endPosition="33" conceptFqName="jetbrains.mps.baseLanguage.structure.ExpressionStatement" />
     <nodeInfo nodeId="4389880778953529167" fileName="With_Test.java" startLine="22" startPosition="0" endLine="34" endPosition="0" conceptFqName="jetbrains.mps.baseLanguage.structure.InstanceMethodDeclaration" propertyString="test_testInZone#()V" />
-    <scopeInfo nodeId="194163770812156210" fileName="With_Test.java" startLine="27" startPosition="50" endLine="30" endPosition="37" />
+    <scopeInfo nodeId="194163770812156210" fileName="With_Test.java" startLine="27" startPosition="50" endLine="30" endPosition="37">
+      <varInfo nodeId="194163770812156210" varName="builder" />
+    </scopeInfo>
     <scopeInfo nodeId="1172331837294" fileName="With_Test.java" startLine="16" startPosition="46" endLine="20" endPosition="54">
       <varInfo nodeId="1172332212521" varName="firstOfFirstWeek" />
       <varInfo nodeId="1172332112239" varName="firstOfJan" />
@@ -812,14 +862,18 @@
     <nodeInfo nodeId="1174040194401" fileName="InlineFormat_Test.java" startLine="20" startPosition="53" endLine="65" endPosition="0" conceptFqName="jetbrains.mps.baseLanguage.structure.InstanceMethodDeclaration" propertyString="test_inlineFormat#()V" />
     <scopeInfo nodeId="462678460625670236" fileName="InlineFormat_Test.java" startLine="58" startPosition="25" endLine="59" endPosition="17" />
     <scopeInfo nodeId="462678460625670236" fileName="InlineFormat_Test.java" startLine="60" startPosition="16" endLine="61" endPosition="16" />
-    <scopeInfo nodeId="2890840340813202533" fileName="InlineFormat_Test.java" startLine="70" startPosition="50" endLine="77" endPosition="37" />
+    <scopeInfo nodeId="2890840340813202533" fileName="InlineFormat_Test.java" startLine="70" startPosition="50" endLine="77" endPosition="37">
+      <varInfo nodeId="2890840340813202533" varName="builder" />
+    </scopeInfo>
     <scopeInfo nodeId="2890840340813202533" fileName="InlineFormat_Test.java" startLine="69" startPosition="153" endLine="79" endPosition="0" />
     <scopeInfo nodeId="194163770812777797" fileName="InlineFormat_Test.java" startLine="66" startPosition="52" endLine="79" endPosition="33">
       <varInfo nodeId="2890840340813144746" varName="ddd" />
       <varInfo nodeId="2890840340813207803" varName="now1" />
     </scopeInfo>
     <scopeInfo nodeId="194163770812777794" fileName="InlineFormat_Test.java" startLine="65" startPosition="0" endLine="81" endPosition="0" />
-    <scopeInfo nodeId="1174048283653" fileName="InlineFormat_Test.java" startLine="31" startPosition="56" endLine="48" endPosition="43" />
+    <scopeInfo nodeId="1174048283653" fileName="InlineFormat_Test.java" startLine="31" startPosition="56" endLine="48" endPosition="43">
+      <varInfo nodeId="1174048283653" varName="builder" />
+    </scopeInfo>
     <scopeInfo nodeId="1174048283653" fileName="InlineFormat_Test.java" startLine="30" startPosition="105" endLine="50" endPosition="0" />
     <scopeInfo nodeId="462678460625670237" fileName="InlineFormat_Test.java" startLine="27" startPosition="60" endLine="52" endPosition="41">
       <varInfo nodeId="1174048258951" varName="actual" />
@@ -827,7 +881,10 @@
       <varInfo nodeId="1174048267847" varName="expected" />
     </scopeInfo>
     <scopeInfo nodeId="462678460625670237" fileName="InlineFormat_Test.java" startLine="26" startPosition="153" endLine="54" endPosition="0" />
-    <scopeInfo nodeId="462678460625670236" fileName="InlineFormat_Test.java" startLine="25" startPosition="5" endLine="62" endPosition="7" />
+    <scopeInfo nodeId="462678460625670236" fileName="InlineFormat_Test.java" startLine="25" startPosition="5" endLine="62" endPosition="7">
+      <varInfo nodeId="462678460625670236" varName="__closure__" />
+      <varInfo nodeId="462678460625670236" varName="__result__" />
+    </scopeInfo>
     <scopeInfo nodeId="1174040194402" fileName="InlineFormat_Test.java" startLine="21" startPosition="52" endLine="63" endPosition="5">
       <varInfo nodeId="462678460625670243" varName="msk" />
     </scopeInfo>
@@ -1200,13 +1257,25 @@
     <nodeInfo nodeId="48671598478025726" fileName="main_Format2.java" startLine="14" startPosition="0" endLine="81" endPosition="0" conceptFqName="jetbrains.mps.baseLanguage.structure.InstanceMethodDeclaration" propertyString="createFormatter#(Ljava/lang/String;)Lorg/joda/time/format/PeriodFormatter;" />
     <scopeInfo nodeId="48671598478025726" fileName="main_Format2.java" startLine="12" startPosition="25" endLine="12" endPosition="25" />
     <scopeInfo nodeId="48671598478025726" fileName="main_Format2.java" startLine="11" startPosition="0" endLine="13" endPosition="3" />
-    <scopeInfo nodeId="48671598478025727" fileName="main_Format2.java" startLine="17" startPosition="41" endLine="21" endPosition="35" />
-    <scopeInfo nodeId="2872438607476694575" fileName="main_Format2.java" startLine="68" startPosition="39" endLine="77" endPosition="35" />
-    <scopeInfo nodeId="2872438607476681432" fileName="main_Format2.java" startLine="56" startPosition="42" endLine="66" endPosition="35" />
-    <scopeInfo nodeId="2872438607476142910" fileName="main_Format2.java" startLine="23" startPosition="41" endLine="36" endPosition="35" />
-    <scopeInfo nodeId="1778677549314369268" fileName="main_Format2.java" startLine="38" startPosition="52" endLine="54" endPosition="35" />
+    <scopeInfo nodeId="48671598478025727" fileName="main_Format2.java" startLine="17" startPosition="41" endLine="21" endPosition="35">
+      <varInfo nodeId="48671598478025727" varName="builder" />
+    </scopeInfo>
+    <scopeInfo nodeId="2872438607476694575" fileName="main_Format2.java" startLine="68" startPosition="39" endLine="77" endPosition="35">
+      <varInfo nodeId="2872438607476694575" varName="builder" />
+    </scopeInfo>
+    <scopeInfo nodeId="2872438607476681432" fileName="main_Format2.java" startLine="56" startPosition="42" endLine="66" endPosition="35">
+      <varInfo nodeId="2872438607476681432" varName="builder" />
+    </scopeInfo>
+    <scopeInfo nodeId="2872438607476142910" fileName="main_Format2.java" startLine="23" startPosition="41" endLine="36" endPosition="35">
+      <varInfo nodeId="2872438607476142910" varName="builder" />
+    </scopeInfo>
+    <scopeInfo nodeId="1778677549314369268" fileName="main_Format2.java" startLine="38" startPosition="52" endLine="54" endPosition="35">
+      <varInfo nodeId="1778677549314369268" varName="builder" />
+    </scopeInfo>
     <scopeInfo nodeId="48671598478025726" fileName="main_Format2.java" startLine="16" startPosition="64" endLine="79" endPosition="16" />
-    <scopeInfo nodeId="48671598478025726" fileName="main_Format2.java" startLine="14" startPosition="0" endLine="81" endPosition="0" />
+    <scopeInfo nodeId="48671598478025726" fileName="main_Format2.java" startLine="14" startPosition="0" endLine="81" endPosition="0">
+      <varInfo nodeId="48671598478025726" varName="formatterName" />
+    </scopeInfo>
     <unitInfo nodeId="48671598478025726" fileName="main_Format2.java" startLine="9" startPosition="0" endLine="82" endPosition="0" unitName="jetbrains.mps.baseLanguage.dates.unittest.tests.main_Format2" />
   </root>
   <root nodeId="779372288057376358">
@@ -1220,9 +1289,13 @@
     <nodeInfo nodeId="779372288057376358" fileName="MainFormat2.java" startLine="18" startPosition="0" endLine="27" endPosition="0" conceptFqName="jetbrains.mps.baseLanguage.structure.InstanceMethodDeclaration" propertyString="createFormatter#(Ljava/lang/String;)Lorg/joda/time/format/DateTimeFormatter;" />
     <scopeInfo nodeId="779372288057376358" fileName="MainFormat2.java" startLine="16" startPosition="24" endLine="16" endPosition="24" />
     <scopeInfo nodeId="779372288057376358" fileName="MainFormat2.java" startLine="15" startPosition="0" endLine="17" endPosition="3" />
-    <scopeInfo nodeId="779372288057376360" fileName="MainFormat2.java" startLine="20" startPosition="51" endLine="23" endPosition="35" />
+    <scopeInfo nodeId="779372288057376360" fileName="MainFormat2.java" startLine="20" startPosition="51" endLine="23" endPosition="35">
+      <varInfo nodeId="779372288057376360" varName="builder" />
+    </scopeInfo>
     <scopeInfo nodeId="779372288057376358" fileName="MainFormat2.java" startLine="19" startPosition="66" endLine="25" endPosition="16" />
-    <scopeInfo nodeId="779372288057376358" fileName="MainFormat2.java" startLine="18" startPosition="0" endLine="27" endPosition="0" />
+    <scopeInfo nodeId="779372288057376358" fileName="MainFormat2.java" startLine="18" startPosition="0" endLine="27" endPosition="0">
+      <varInfo nodeId="779372288057376358" varName="formatterName" />
+    </scopeInfo>
     <unitInfo nodeId="779372288057376358" fileName="MainFormat2.java" startLine="13" startPosition="0" endLine="28" endPosition="0" unitName="jetbrains.mps.baseLanguage.dates.unittest.tests.MainFormat2" />
   </root>
 </debugInfo>
