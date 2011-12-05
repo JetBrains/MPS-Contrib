@@ -14,7 +14,7 @@ import jetbrains.mps.baseLanguage.execution.api.ConfigRunParameters;
 import com.intellij.execution.process.ProcessNotCreatedException;
 import org.jetbrains.annotations.Nullable;
 import jetbrains.mps.baseLanguage.closures.runtime.Wrappers;
-import jetbrains.mps.baseLanguage.unitTest.execution.client.TestRunParameters;
+import jetbrains.mps.baseLanguage.tuples.runtime.Tuples;
 import jetbrains.mps.smodel.ModelAccess;
 import jetbrains.mps.internal.collections.runtime.IWhereFilter;
 import jetbrains.mps.internal.collections.runtime.IVisitor;
@@ -60,7 +60,7 @@ public class UnitTestRunner extends BaseRunner {
       return null;
     }
 
-    final Wrappers._T<TestRunParameters> runParams = new Wrappers._T<TestRunParameters>();
+    final Wrappers._T<Tuples._3<String, List<String>, List<String>>> runParams = new Wrappers._T<Tuples._3<String, List<String>, List<String>>>();
     final Wrappers._T<List<ITestNodeWrapper>> testsToRun = new Wrappers._T<List<ITestNodeWrapper>>();
     ModelAccess.instance().runReadAction(new Runnable() {
       public void run() {
@@ -84,7 +84,7 @@ public class UnitTestRunner extends BaseRunner {
     return this.runTestWithParameters(runParams.value, testsToRun.value);
   }
 
-  private Process runTestWithParameters(final TestRunParameters parameters, final List<ITestNodeWrapper> tests) throws ProcessNotCreatedException {
+  private Process runTestWithParameters(final Tuples._3<String, List<String>, List<String>> parameters, final List<ITestNodeWrapper> tests) throws ProcessNotCreatedException {
     final List<String> params = ListSequence.fromList(new ArrayList<String>());
     final Wrappers._T<String> workingDir = new Wrappers._T<String>(null);
     final Wrappers._T<String> programParams = new Wrappers._T<String>(null);
@@ -103,16 +103,16 @@ public class UnitTestRunner extends BaseRunner {
 
         UnitTestRunner.this.addJavaCommand(params);
 
-        ListSequence.fromList(params).addSequence(ListSequence.fromList(parameters.getVmParameters()));
+        ListSequence.fromList(params).addSequence(ListSequence.fromList(parameters._1()));
         if (vmParams.value != null && StringUtils.isNotEmpty(vmParams.value)) {
           String[] paramList = UnitTestRunner.this.splitParams(vmParams.value);
           ListSequence.fromList(params).addSequence(Sequence.fromIterable(Sequence.fromArray(paramList)));
         }
 
-        classpathString.value = UnitTestRunner.this.getClasspathString(tests, parameters.getClassPath());
+        classpathString.value = UnitTestRunner.this.getClasspathString(tests, parameters._2());
         UnitTestRunner.this.addClassPath(params, classpathString.value);
 
-        ListSequence.fromList(params).addElement(parameters.getTestRunner());
+        ListSequence.fromList(params).addElement(parameters._0());
 
         testsCommandLine.value = ListSequence.fromList(new ArrayList<String>(ListSequence.fromList(tests).count()));
         for (ITestNodeWrapper test : ListSequence.fromList(tests)) {
@@ -203,14 +203,14 @@ public class UnitTestRunner extends BaseRunner {
     return buff.toString();
   }
 
-  private static TestRunParameters check_y7hhub_a0a0a0a0a1a0e0b(ITestNodeWrapper checkedDotOperand) {
+  private static Tuples._3<String, List<String>, List<String>> check_y7hhub_a0a0a0a0a1a0e0b(ITestNodeWrapper checkedDotOperand) {
     if (null != checkedDotOperand) {
       return checkedDotOperand.getTestRunParameters();
     }
     return null;
   }
 
-  private static TestRunParameters check_y7hhub_a0a0a0a0c0a4a1(ITestNodeWrapper checkedDotOperand) {
+  private static Tuples._3<String, List<String>, List<String>> check_y7hhub_a0a0a0a0c0a4a1(ITestNodeWrapper checkedDotOperand) {
     if (null != checkedDotOperand) {
       return checkedDotOperand.getTestRunParameters();
     }

@@ -11,11 +11,13 @@ import jetbrains.mps.smodel.MPSModuleRepository;
 import jetbrains.mps.project.ModuleId;
 import jetbrains.mps.internal.collections.runtime.SetSequence;
 
+@Deprecated
 public class TestRunParameters {
   private String myTestRunner;
   private List<String> myVmParameters;
   private List<String> myClassPath;
 
+  @Deprecated
   public TestRunParameters() {
     myTestRunner = TestRunner.class.getName();
     myVmParameters = ListSequence.fromList(new ArrayList<String>());
