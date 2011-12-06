@@ -71,7 +71,7 @@
     <nodeInfo nodeId="3037831562615764138" fileName="TaskReference_Constraints.java" startLine="56" startPosition="289" endLine="57" endPosition="60" conceptFqName="jetbrains.mps.baseLanguage.structure.LocalVariableDeclarationStatement" />
     <nodeInfo nodeId="3037831562615764150" fileName="TaskReference_Constraints.java" startLine="59" startPosition="131" endLine="60" endPosition="67" conceptFqName="jetbrains.mps.baseLanguage.structure.ExpressionStatement" />
     <nodeInfo nodeId="3037831562615764160" fileName="TaskReference_Constraints.java" startLine="62" startPosition="15" endLine="63" endPosition="53" conceptFqName="jetbrains.mps.baseLanguage.structure.ReturnStatement" />
-    <nodeInfo nodeId="3037831562615764172" fileName="TaskReference_Constraints.java" startLine="64" startPosition="13" endLine="65" endPosition="25" conceptFqName="jetbrains.mps.baseLanguage.structure.ReturnStatement" />
+    <nodeInfo nodeId="6602961836812336434" fileName="TaskReference_Constraints.java" startLine="64" startPosition="13" endLine="65" endPosition="48" conceptFqName="jetbrains.mps.baseLanguage.structure.ReturnStatement" />
     <nodeInfo nodeId="3037831562615764090" fileName="TaskReference_Constraints.java" startLine="69" startPosition="61" endLine="70" endPosition="58" conceptFqName="jetbrains.mps.baseLanguage.structure.ReturnStatement" />
     <nodeInfo nodeId="3037831562615764090" fileName="TaskReference_Constraints.java" startLine="74" startPosition="7" endLine="75" endPosition="22" conceptFqName="jetbrains.mps.baseLanguage.structure.ReturnStatement" />
     <nodeInfo nodeId="3037831562615764090" fileName="TaskReference_Constraints.java" startLine="26" startPosition="0" endLine="29" endPosition="3" conceptFqName="jetbrains.mps.baseLanguage.structure.ConstructorDeclaration" propertyString="TaskReference_Constraints#()V" />
@@ -110,7 +110,7 @@
     <scopeInfo nodeId="3037831562615764137" fileName="TaskReference_Constraints.java" startLine="56" startPosition="289" endLine="63" endPosition="53">
       <varInfo nodeId="3037831562615764139" varName="newDecls" />
     </scopeInfo>
-    <scopeInfo nodeId="3037831562615764093" fileName="TaskReference_Constraints.java" startLine="45" startPosition="142" endLine="65" endPosition="25">
+    <scopeInfo nodeId="3037831562615764093" fileName="TaskReference_Constraints.java" startLine="45" startPosition="142" endLine="65" endPosition="48">
       <varInfo nodeId="3037831562615764095" varName="decls" />
     </scopeInfo>
     <scopeInfo nodeId="3037831562615764090" fileName="TaskReference_Constraints.java" startLine="43" startPosition="49" endLine="67" endPosition="0">

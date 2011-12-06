@@ -874,9 +874,14 @@
               </node>
             </node>
           </node>
-          <node role="statement" roleId="tpee.1068581517665" type="tpee.ReturnStatement" typeId="tpee.1068581242878" id="3037831562615764172">
-            <node role="expression" roleId="tpee.1068581517676" type="tpee.LocalVariableReference" typeId="tpee.1068581242866" id="3037831562615764173">
-              <link role="variableDeclaration" roleId="tpee.1068581517664" targetNodeId="3037831562615764095" resolveInfo="decls" />
+          <node role="statement" roleId="tpee.1068581517665" type="tpee.ReturnStatement" typeId="tpee.1068581242878" id="6602961836812336434">
+            <node role="expression" roleId="tpee.1068581517676" type="tpee.GenericNewExpression" typeId="tpee.1145552977093" id="6602961836812336429">
+              <node role="creator" roleId="tpee.1145553007750" type="tpee.ClassCreator" typeId="tpee.1212685548494" id="6602961836812336430">
+                <link role="baseMethodDeclaration" roleId="tpee.1068499141037" targetNodeId="inbo.7451562887563385707" resolveInfo="SimpleSearchScope" />
+                <node role="actualArgument" roleId="tpee.1068499141038" type="tpee.LocalVariableReference" typeId="tpee.1068581242866" id="6602961836812336432">
+                  <link role="variableDeclaration" roleId="tpee.1068581517664" targetNodeId="3037831562615764095" resolveInfo="decls" />
+                </node>
+              </node>
             </node>
           </node>
         </node>
