@@ -32,6 +32,7 @@
       <module fileurl="file://$PROJECT_DIR$/plugins/migration21/migration21.iml" filepath="$PROJECT_DIR$/plugins/migration21/migration21.iml" />
       <module fileurl="file://$PROJECT_DIR$/testbench/modules/miscTests/miscTests.iml" filepath="$PROJECT_DIR$/testbench/modules/miscTests/miscTests.iml" />
       <module fileurl="file://$PROJECT_DIR$/plugins/modelchecker/modelchecker.iml" filepath="$PROJECT_DIR$/plugins/modelchecker/modelchecker.iml" group="plugins" />
+      <module fileurl="file://$PROJECT_DIR$/core/mps-actions/mps-actions.iml" filepath="$PROJECT_DIR$/core/mps-actions/mps-actions.iml" group="editor" />
       <module fileurl="file://$PROJECT_DIR$/workbench/mps-editor/mps-editor.iml" filepath="$PROJECT_DIR$/workbench/mps-editor/mps-editor.iml" group="workbench" />
       <module fileurl="file://$PROJECT_DIR$/workbench/mps-platform/mps-platform.iml" filepath="$PROJECT_DIR$/workbench/mps-platform/mps-platform.iml" group="workbench" />
       <module fileurl="file://$PROJECT_DIR$/workbench/mps-workbench/mps-workbench.iml" filepath="$PROJECT_DIR$/workbench/mps-workbench/mps-workbench.iml" group="workbench" />
