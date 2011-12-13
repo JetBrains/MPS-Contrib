@@ -7,8 +7,8 @@
   <devkit namespace="fbc25dd2-5da4-483a-8b19-70928e1b62d7(jetbrains.mps.devkit.general-purpose)" />
   <import index="tphr" modelUID="r:00000000-0000-4000-0000-011c89590553(jetbrains.mps.uiLanguage.structure)" version="1" />
   <import index="tphs" modelUID="r:00000000-0000-4000-0000-011c8959054c(jetbrains.mps.uiLanguage.behavior)" version="-1" />
-  <import index="lkfb" modelUID="f:java_stub#37a3367b-1fb2-44d8-aa6b-18075e74e003#jetbrains.mps.smodel(MPS.Classpath/jetbrains.mps.smodel@java_stub)" version="-1" />
-  <import index="7jjv" modelUID="f:java_stub#37a3367b-1fb2-44d8-aa6b-18075e74e003#jetbrains.mps.ide.ui.smodel(MPS.Classpath/jetbrains.mps.ide.ui.smodel@java_stub)" version="-1" />
+  <import index="cu2c" modelUID="f:java_stub#6ed54515-acc8-4d1e-a16c-9fd6cfe951ea#jetbrains.mps.smodel(MPS.Core/jetbrains.mps.smodel@java_stub)" version="-1" />
+  <import index="maet" modelUID="f:java_stub#86441d7a-e194-42da-81a5-2161ec62a379#jetbrains.mps.ide.ui.smodel(MPS.Workbench/jetbrains.mps.ide.ui.smodel@java_stub)" version="-1" />
   <import index="tp4k" modelUID="r:00000000-0000-4000-0000-011c89590368(jetbrains.mps.lang.plugin.structure)" version="23" implicit="yes" />
   <import index="tp25" modelUID="r:00000000-0000-4000-0000-011c89590301(jetbrains.mps.lang.smodel.structure)" version="16" implicit="yes" />
   <import index="tpee" modelUID="r:00000000-0000-4000-0000-011c895902ca(jetbrains.mps.baseLanguage.structure)" version="3" implicit="yes" />
@@ -69,6 +69,11 @@
           <node role="expression" roleId="tpee.1068581517676" type="tpee.NullLiteral" typeId="tpee.1070534058343" id="4639535695229333598" />
         </node>
       </node>
+    </node>
+    <node role="constructor" roleId="tpee.1068390468201" type="tpee.ConstructorDeclaration" typeId="tpee.1068580123140" id="3488833496741521175">
+      <node role="returnType" roleId="tpee.1068580123133" type="tpee.VoidType" typeId="tpee.1068581517677" id="3488833496741521176" />
+      <node role="body" roleId="tpee.1068580123135" type="tpee.StatementList" typeId="tpee.1068580123136" id="3488833496741521177" />
+      <node role="visibility" roleId="tpee.1178549979242" type="tpee.PublicVisibility" typeId="tpee.1146644602865" id="3488833496741521178" />
     </node>
   </root>
   <root id="2542706524531725509">
@@ -197,10 +202,10 @@
                   <node role="leftExpression" roleId="tp25.1145404616321" type="tp4k.ConceptFunctionParameter_node" typeId="tp4k.1203853034639" id="1219415658743" />
                 </node>
                 <node role="operation" roleId="tpee.1197027833540" type="tpee.InstanceMethodCallOperation" typeId="tpee.1202948039474" id="1207331633390">
-                  <link role="baseMethodDeclaration" roleId="tpee.1068499141037" targetNodeId="lkfb.~SNode%dgetProperty(java%dlang%dString)%cjava%dlang%dString" resolveInfo="getProperty" />
+                  <link role="baseMethodDeclaration" roleId="tpee.1068499141037" targetNodeId="cu2c.~SNode%dgetProperty(java%dlang%dString)%cjava%dlang%dString" resolveInfo="getProperty" />
                   <node role="actualArgument" roleId="tpee.1068499141038" type="tpee.StaticFieldReference" typeId="tpee.1070533707846" id="1207331656701">
-                    <link role="classifier" roleId="tpee.1144433057691" targetNodeId="7jjv.~SModelTreeNode" resolveInfo="SModelTreeNode" />
-                    <link role="variableDeclaration" roleId="tpee.1068581517664" targetNodeId="7jjv.~SModelTreeNode%dPACK" resolveInfo="PACK" />
+                    <link role="classifier" roleId="tpee.1144433057691" targetNodeId="maet.~SModelTreeNode" resolveInfo="SModelTreeNode" />
+                    <link role="variableDeclaration" roleId="tpee.1068581517664" targetNodeId="maet.~SModelTreeNode%dPACK" resolveInfo="PACK" />
                   </node>
                 </node>
               </node>
@@ -214,10 +219,10 @@
                 </node>
               </node>
               <node role="operation" roleId="tpee.1197027833540" type="tpee.InstanceMethodCallOperation" typeId="tpee.1202948039474" id="1207331677364">
-                <link role="baseMethodDeclaration" roleId="tpee.1068499141037" targetNodeId="lkfb.~SNode%dsetProperty(java%dlang%dString,java%dlang%dString)%cvoid" resolveInfo="setProperty" />
+                <link role="baseMethodDeclaration" roleId="tpee.1068499141037" targetNodeId="cu2c.~SNode%dsetProperty(java%dlang%dString,java%dlang%dString)%cvoid" resolveInfo="setProperty" />
                 <node role="actualArgument" roleId="tpee.1068499141038" type="tpee.StaticFieldReference" typeId="tpee.1070533707846" id="1207331682350">
-                  <link role="classifier" roleId="tpee.1144433057691" targetNodeId="7jjv.~SModelTreeNode" resolveInfo="SModelTreeNode" />
-                  <link role="variableDeclaration" roleId="tpee.1068581517664" targetNodeId="7jjv.~SModelTreeNode%dPACK" resolveInfo="PACK" />
+                  <link role="classifier" roleId="tpee.1144433057691" targetNodeId="maet.~SModelTreeNode" resolveInfo="SModelTreeNode" />
+                  <link role="variableDeclaration" roleId="tpee.1068581517664" targetNodeId="maet.~SModelTreeNode%dPACK" resolveInfo="PACK" />
                 </node>
                 <node role="actualArgument" roleId="tpee.1068499141038" type="tpee.LocalVariableReference" typeId="tpee.1068581242866" id="1207331688617">
                   <link role="variableDeclaration" roleId="tpee.1068581517664" targetNodeId="1207331574539" resolveInfo="virtualPackage" />
