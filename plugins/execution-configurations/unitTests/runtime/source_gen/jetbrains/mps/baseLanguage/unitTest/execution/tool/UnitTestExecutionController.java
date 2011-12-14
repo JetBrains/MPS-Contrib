@@ -63,7 +63,7 @@ public class UnitTestExecutionController {
   }
 
   public _FunctionTypes._void_P0_E0 getCloseListener() {
-    final ProcessHandler process = this.myCurrentProcess;
+    final ProcessHandler process = myCurrentProcess;
     return new _FunctionTypes._void_P0_E0() {
       public void invoke() {
         if (process != null) {

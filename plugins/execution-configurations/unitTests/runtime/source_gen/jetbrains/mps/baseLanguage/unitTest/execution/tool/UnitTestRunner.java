@@ -47,11 +47,11 @@ public class UnitTestRunner extends BaseRunner {
   @Deprecated
   public UnitTestRunner(List<ITestNodeWrapper> testable, ConfigRunParameters parameters) {
     super(parameters);
-    ListSequence.fromList(this.myTestable).addSequence(ListSequence.fromList(testable));
+    ListSequence.fromList(myTestable).addSequence(ListSequence.fromList(testable));
   }
 
   public Process run() throws ProcessNotCreatedException {
-    return this.run(this.myTestable);
+    return run(myTestable);
   }
 
   @Nullable
@@ -81,7 +81,7 @@ public class UnitTestRunner extends BaseRunner {
         });
       }
     });
-    return this.runTestWithParameters(runParams.value, testsToRun.value);
+    return runTestWithParameters(runParams.value, testsToRun.value);
   }
 
   private Process runTestWithParameters(final Tuples._3<String, List<String>, List<String>> parameters, final List<ITestNodeWrapper> tests) throws ProcessNotCreatedException {
@@ -95,22 +95,22 @@ public class UnitTestRunner extends BaseRunner {
 
     ModelAccess.instance().runReadAction(new Runnable() {
       public void run() {
-        if (UnitTestRunner.this.myRunParameters != null) {
-          workingDir.value = UnitTestRunner.this.myRunParameters.getWorkingDirectory();
-          programParams.value = UnitTestRunner.this.myRunParameters.getProgramParameters();
-          vmParams.value = UnitTestRunner.this.myRunParameters.getVMParameters();
+        if (myRunParameters != null) {
+          workingDir.value = myRunParameters.getWorkingDirectory();
+          programParams.value = myRunParameters.getProgramParameters();
+          vmParams.value = myRunParameters.getVMParameters();
         }
 
-        UnitTestRunner.this.addJavaCommand(params);
+        addJavaCommand(params);
 
         ListSequence.fromList(params).addSequence(ListSequence.fromList(parameters._1()));
         if (vmParams.value != null && StringUtils.isNotEmpty(vmParams.value)) {
-          String[] paramList = UnitTestRunner.this.splitParams(vmParams.value);
+          String[] paramList = splitParams(vmParams.value);
           ListSequence.fromList(params).addSequence(Sequence.fromIterable(Sequence.fromArray(paramList)));
         }
 
-        classpathString.value = UnitTestRunner.this.getClasspathString(tests, parameters._2());
-        UnitTestRunner.this.addClassPath(params, classpathString.value);
+        classpathString.value = getClasspathString(tests, parameters._2());
+        addClassPath(params, classpathString.value);
 
         ListSequence.fromList(params).addElement(parameters._0());
 
@@ -151,37 +151,37 @@ public class UnitTestRunner extends BaseRunner {
         ListSequence.fromList(params).addElement("-f");
         ListSequence.fromList(params).addElement(tmpFile.getAbsolutePath());
       } catch (FileNotFoundException e) {
-        throw new ProcessNotCreatedException("Could not output run parameters to file " + tmpFile, this.getCommandLine(this.myRunParameters.getWorkingDirectory()));
+        throw new ProcessNotCreatedException("Could not output run parameters to file " + tmpFile, getCommandLine(myRunParameters.getWorkingDirectory()));
       }
     }
 
     if (programParams.value != null && StringUtils.isNotEmpty(programParams.value)) {
-      String[] paramList = this.splitParams(programParams.value);
+      String[] paramList = splitParams(programParams.value);
       ListSequence.fromList(params).addSequence(Sequence.fromIterable(Sequence.fromArray(paramList)));
     }
 
-    this.myProcessBuilder = new ProcessBuilder(params);
+    myProcessBuilder = new ProcessBuilder(params);
 
     if (workingDir.value != null && StringUtils.isNotEmpty(workingDir.value)) {
-      this.myProcessBuilder.directory(new File(workingDir.value));
+      myProcessBuilder.directory(new File(workingDir.value));
     }
 
 
     try {
-      return this.myProcessBuilder.start();
+      return myProcessBuilder.start();
     } catch (Throwable e) {
       if (log.isErrorEnabled()) {
         log.error("Can't run tests: " + e.getMessage(), e);
       }
-      throw new ProcessNotCreatedException(e.getMessage(), e, this.getCommandLine(this.myRunParameters.getWorkingDirectory()));
+      throw new ProcessNotCreatedException(e.getMessage(), e, getCommandLine(myRunParameters.getWorkingDirectory()));
     }
   }
 
   public String getCommandString() {
-    if (this.myProcessBuilder == null) {
+    if (myProcessBuilder == null) {
       return null;
     }
-    return this.getCommandString(this.myProcessBuilder);
+    return getCommandString(myProcessBuilder);
   }
 
   public String getClasspathString(List<ITestNodeWrapper> list, List<String> additionalClassPath) {
