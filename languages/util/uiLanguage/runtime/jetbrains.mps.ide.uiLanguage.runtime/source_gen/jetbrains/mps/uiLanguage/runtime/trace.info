@@ -50,17 +50,17 @@
       <varInfo nodeId="3987693689859618049" varName="listener" />
     </scopeInfo>
     <scopeInfo nodeId="3987693689859618057" fileName="BaseBean.java" startLine="21" startPosition="0" endLine="25" endPosition="0">
-      <varInfo nodeId="3987693689859618060" varName="propertyName" />
       <varInfo nodeId="3987693689859618062" varName="listener" />
+      <varInfo nodeId="3987693689859618060" varName="propertyName" />
     </scopeInfo>
     <scopeInfo nodeId="3987693689859618071" fileName="BaseBean.java" startLine="25" startPosition="0" endLine="29" endPosition="0">
-      <varInfo nodeId="3987693689859618074" varName="propertyName" />
       <varInfo nodeId="3987693689859618076" varName="listener" />
+      <varInfo nodeId="3987693689859618074" varName="propertyName" />
     </scopeInfo>
     <scopeInfo nodeId="3987693689859618085" fileName="BaseBean.java" startLine="29" startPosition="0" endLine="33" endPosition="0">
-      <varInfo nodeId="3987693689859618088" varName="propertyName" />
       <varInfo nodeId="3987693689859618092" varName="newValue" />
       <varInfo nodeId="3987693689859618090" varName="oldValue" />
+      <varInfo nodeId="3987693689859618088" varName="propertyName" />
     </scopeInfo>
     <unitInfo nodeId="3987693689859618023" fileName="BaseBean.java" startLine="8" startPosition="0" endLine="34" endPosition="0" unitName="jetbrains.mps.uiLanguage.runtime.BaseBean" />
   </root>

@@ -86,8 +86,8 @@
     <scopeInfo nodeId="2542706524531725711" fileName="Controller_TabDescriptor.java" startLine="50" startPosition="0" endLine="54" endPosition="0" />
     <scopeInfo nodeId="2542706524531725711" fileName="Controller_TabDescriptor.java" startLine="54" startPosition="0" endLine="58" endPosition="0" />
     <scopeInfo nodeId="1207331316078" fileName="Controller_TabDescriptor.java" startLine="59" startPosition="66" endLine="65" endPosition="22">
-      <varInfo nodeId="1207331574539" varName="virtualPackage" />
       <varInfo nodeId="1219415611990" varName="controller" />
+      <varInfo nodeId="1207331574539" varName="virtualPackage" />
     </scopeInfo>
     <scopeInfo nodeId="2542706524531725711" fileName="Controller_TabDescriptor.java" startLine="37" startPosition="43" endLine="44" endPosition="16" />
     <scopeInfo nodeId="2542706524531725711" fileName="Controller_TabDescriptor.java" startLine="58" startPosition="0" endLine="67" endPosition="0" />
@@ -95,16 +95,19 @@
     <unitInfo nodeId="2542706524531725711" fileName="Controller_TabDescriptor.java" startLine="17" startPosition="0" endLine="68" endPosition="0" unitName="jetbrains.mps.uiLanguage.plugin.Controller_TabDescriptor" />
   </root>
   <root nodeId="4639535695229333577">
-    <nodeInfo nodeId="4639535695229333592" fileName="ComponentEditor_Helper.java" startLine="11" startPosition="103" endLine="12" endPosition="145" conceptFqName="jetbrains.mps.baseLanguage.structure.ReturnStatement" />
-    <nodeInfo nodeId="4639535695229333597" fileName="ComponentEditor_Helper.java" startLine="13" startPosition="5" endLine="14" endPosition="16" conceptFqName="jetbrains.mps.baseLanguage.structure.ReturnStatement" />
-    <nodeInfo nodeId="4639535695229333586" fileName="ComponentEditor_Helper.java" startLine="10" startPosition="47" endLine="13" endPosition="5" conceptFqName="jetbrains.mps.baseLanguage.structure.IfStatement" />
-    <nodeInfo nodeId="4639535695229333578" fileName="ComponentEditor_Helper.java" startLine="9" startPosition="42" endLine="16" endPosition="0" conceptFqName="jetbrains.mps.baseLanguage.structure.StaticMethodDeclaration" propertyString="getBaseNode#(Ljetbrains/mps/smodel/SNode;)Ljetbrains/mps/smodel/SNode;" />
-    <scopeInfo nodeId="4639535695229333591" fileName="ComponentEditor_Helper.java" startLine="11" startPosition="103" endLine="12" endPosition="145" />
-    <scopeInfo nodeId="4639535695229333585" fileName="ComponentEditor_Helper.java" startLine="10" startPosition="47" endLine="14" endPosition="16" />
-    <scopeInfo nodeId="4639535695229333578" fileName="ComponentEditor_Helper.java" startLine="9" startPosition="42" endLine="16" endPosition="0">
+    <nodeInfo nodeId="4639535695229333592" fileName="ComponentEditor_Helper.java" startLine="14" startPosition="103" endLine="15" endPosition="145" conceptFqName="jetbrains.mps.baseLanguage.structure.ReturnStatement" />
+    <nodeInfo nodeId="4639535695229333597" fileName="ComponentEditor_Helper.java" startLine="16" startPosition="5" endLine="17" endPosition="16" conceptFqName="jetbrains.mps.baseLanguage.structure.ReturnStatement" />
+    <nodeInfo nodeId="3488833496741521175" fileName="ComponentEditor_Helper.java" startLine="9" startPosition="42" endLine="11" endPosition="3" conceptFqName="jetbrains.mps.baseLanguage.structure.ConstructorDeclaration" propertyString="ComponentEditor_Helper#()V" />
+    <nodeInfo nodeId="4639535695229333586" fileName="ComponentEditor_Helper.java" startLine="13" startPosition="47" endLine="16" endPosition="5" conceptFqName="jetbrains.mps.baseLanguage.structure.IfStatement" />
+    <nodeInfo nodeId="4639535695229333578" fileName="ComponentEditor_Helper.java" startLine="12" startPosition="0" endLine="19" endPosition="0" conceptFqName="jetbrains.mps.baseLanguage.structure.StaticMethodDeclaration" propertyString="getBaseNode#(Ljetbrains/mps/smodel/SNode;)Ljetbrains/mps/smodel/SNode;" />
+    <scopeInfo nodeId="3488833496741521177" fileName="ComponentEditor_Helper.java" startLine="10" startPosition="35" endLine="10" endPosition="35" />
+    <scopeInfo nodeId="4639535695229333591" fileName="ComponentEditor_Helper.java" startLine="14" startPosition="103" endLine="15" endPosition="145" />
+    <scopeInfo nodeId="3488833496741521175" fileName="ComponentEditor_Helper.java" startLine="9" startPosition="42" endLine="11" endPosition="3" />
+    <scopeInfo nodeId="4639535695229333585" fileName="ComponentEditor_Helper.java" startLine="13" startPosition="47" endLine="17" endPosition="16" />
+    <scopeInfo nodeId="4639535695229333578" fileName="ComponentEditor_Helper.java" startLine="12" startPosition="0" endLine="19" endPosition="0">
       <varInfo nodeId="4639535695229333579" varName="node" />
     </scopeInfo>
-    <unitInfo nodeId="4639535695229333577" fileName="ComponentEditor_Helper.java" startLine="9" startPosition="0" endLine="17" endPosition="0" unitName="jetbrains.mps.uiLanguage.plugin.ComponentEditor_Helper" />
+    <unitInfo nodeId="4639535695229333577" fileName="ComponentEditor_Helper.java" startLine="9" startPosition="0" endLine="20" endPosition="0" unitName="jetbrains.mps.uiLanguage.plugin.ComponentEditor_Helper" />
   </root>
 </debugInfo>
 
