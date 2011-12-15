@@ -15,11 +15,10 @@ import jetbrains.mps.smodel.IOperationContext;
 import jetbrains.mps.smodel.runtime.ReferenceConstraintsContext;
 import jetbrains.mps.smodel.search.ISearchScope;
 import jetbrains.mps.smodel.SNode;
-import jetbrains.mps.lang.smodel.generator.smodelAdapter.SNodeOperations;
+import jetbrains.mps.xml.actions.ElementUtil;
 import jetbrains.mps.smodel.search.SModelSearchUtil;
 import jetbrains.mps.smodel.search.SimpleSearchScope;
 import jetbrains.mps.xmlSchema.behavior.ElementDeclaration_Behavior;
-import jetbrains.mps.lang.smodel.generator.smodelAdapter.SLinkOperations;
 
 public class Attribute_Constraints extends BaseConstraintsDescriptor {
   private static SNodePointer breakingNode_oyfip5_a0a1a0a0a1a0b0a1a0 = new SNodePointer("r:00000000-0000-4000-0000-011c89590585(jetbrains.mps.xml.constraints)", "1213104860621");
@@ -44,11 +43,11 @@ public class Attribute_Constraints extends BaseConstraintsDescriptor {
           @Override
           public Object createSearchScopeOrListOfNodes(final IOperationContext operationContext, final ReferenceConstraintsContext _context) {
             ISearchScope searchScope;
-            SNode element = SNodeOperations.getAncestor(_context.getEnclosingNode(), "jetbrains.mps.xml.structure.Element", false, false);
-            if ((element == null)) {
+            SNode elementDeclaration = ElementUtil.getParentElementDeclaration(_context.getEnclosingNode(), operationContext.getScope());
+            if ((elementDeclaration == null)) {
               searchScope = SModelSearchUtil.createModelAndImportedModelsScope(_context.getModel(), operationContext.getScope());
             } else {
-              searchScope = new SimpleSearchScope(ElementDeclaration_Behavior.call_getAttributeDeclarations_1213877429821(SLinkOperations.getTarget(element, "elementDeclaration", false)));
+              searchScope = new SimpleSearchScope(ElementDeclaration_Behavior.call_getAttributeDeclarations_1213877429821(elementDeclaration));
             }
             return searchScope;
           }
