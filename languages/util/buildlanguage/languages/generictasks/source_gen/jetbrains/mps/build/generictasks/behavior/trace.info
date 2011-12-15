@@ -390,16 +390,16 @@
     <nodeInfo nodeId="5452960144484163768" fileName="BuiltInTaskDeclaration_Behavior.java" startLine="115" startPosition="130" endLine="116" endPosition="323" conceptFqName="jetbrains.mps.baseLanguage.structure.ReturnStatement" />
     <nodeInfo nodeId="4710899751214015960" fileName="BuiltInTaskDeclaration_Behavior.java" startLine="119" startPosition="81" endLine="120" endPosition="60" conceptFqName="jetbrains.mps.baseLanguage.structure.ReturnStatement" />
     <nodeInfo nodeId="5114497955154742475" fileName="BuiltInTaskDeclaration_Behavior.java" startLine="123" startPosition="101" endLine="124" endPosition="196" conceptFqName="jetbrains.mps.baseLanguage.structure.ReturnStatement" />
-    <nodeInfo nodeId="353793545802644070" fileName="BuiltInTaskDeclaration_Behavior.java" startLine="128" startPosition="36" endLine="129" endPosition="45" conceptFqName="jetbrains.mps.baseLanguage.structure.ReturnStatement" />
-    <nodeInfo nodeId="353793545802644070" fileName="BuiltInTaskDeclaration_Behavior.java" startLine="130" startPosition="5" endLine="131" endPosition="16" conceptFqName="jetbrains.mps.baseLanguage.structure.ReturnStatement" />
-    <nodeInfo nodeId="353793545802644070" fileName="BuiltInTaskDeclaration_Behavior.java" startLine="135" startPosition="36" endLine="136" endPosition="52" conceptFqName="jetbrains.mps.baseLanguage.structure.ReturnStatement" />
-    <nodeInfo nodeId="353793545802644070" fileName="BuiltInTaskDeclaration_Behavior.java" startLine="137" startPosition="5" endLine="138" endPosition="16" conceptFqName="jetbrains.mps.baseLanguage.structure.ReturnStatement" />
-    <nodeInfo nodeId="353793545802644070" fileName="BuiltInTaskDeclaration_Behavior.java" startLine="142" startPosition="36" endLine="143" endPosition="43" conceptFqName="jetbrains.mps.baseLanguage.structure.ReturnStatement" />
-    <nodeInfo nodeId="353793545802644070" fileName="BuiltInTaskDeclaration_Behavior.java" startLine="144" startPosition="5" endLine="145" endPosition="16" conceptFqName="jetbrains.mps.baseLanguage.structure.ReturnStatement" />
-    <nodeInfo nodeId="353793545802644070" fileName="BuiltInTaskDeclaration_Behavior.java" startLine="149" startPosition="36" endLine="150" endPosition="45" conceptFqName="jetbrains.mps.baseLanguage.structure.ReturnStatement" />
-    <nodeInfo nodeId="353793545802644070" fileName="BuiltInTaskDeclaration_Behavior.java" startLine="151" startPosition="5" endLine="152" endPosition="16" conceptFqName="jetbrains.mps.baseLanguage.structure.ReturnStatement" />
-    <nodeInfo nodeId="353793545802644070" fileName="BuiltInTaskDeclaration_Behavior.java" startLine="156" startPosition="36" endLine="157" endPosition="52" conceptFqName="jetbrains.mps.baseLanguage.structure.ReturnStatement" />
-    <nodeInfo nodeId="353793545802644070" fileName="BuiltInTaskDeclaration_Behavior.java" startLine="158" startPosition="5" endLine="159" endPosition="16" conceptFqName="jetbrains.mps.baseLanguage.structure.ReturnStatement" />
+    <nodeInfo nodeId="5114497955154742476" fileName="BuiltInTaskDeclaration_Behavior.java" startLine="128" startPosition="36" endLine="129" endPosition="45" conceptFqName="jetbrains.mps.baseLanguage.structure.ReturnStatement" />
+    <nodeInfo nodeId="5114497955154742476" fileName="BuiltInTaskDeclaration_Behavior.java" startLine="130" startPosition="5" endLine="131" endPosition="16" conceptFqName="jetbrains.mps.baseLanguage.structure.ReturnStatement" />
+    <nodeInfo nodeId="5114497955154742477" fileName="BuiltInTaskDeclaration_Behavior.java" startLine="135" startPosition="36" endLine="136" endPosition="52" conceptFqName="jetbrains.mps.baseLanguage.structure.ReturnStatement" />
+    <nodeInfo nodeId="5114497955154742477" fileName="BuiltInTaskDeclaration_Behavior.java" startLine="137" startPosition="5" endLine="138" endPosition="16" conceptFqName="jetbrains.mps.baseLanguage.structure.ReturnStatement" />
+    <nodeInfo nodeId="5114497955154742478" fileName="BuiltInTaskDeclaration_Behavior.java" startLine="142" startPosition="36" endLine="143" endPosition="43" conceptFqName="jetbrains.mps.baseLanguage.structure.ReturnStatement" />
+    <nodeInfo nodeId="5114497955154742478" fileName="BuiltInTaskDeclaration_Behavior.java" startLine="144" startPosition="5" endLine="145" endPosition="16" conceptFqName="jetbrains.mps.baseLanguage.structure.ReturnStatement" />
+    <nodeInfo nodeId="5114497955154742495" fileName="BuiltInTaskDeclaration_Behavior.java" startLine="149" startPosition="36" endLine="150" endPosition="45" conceptFqName="jetbrains.mps.baseLanguage.structure.ReturnStatement" />
+    <nodeInfo nodeId="5114497955154742495" fileName="BuiltInTaskDeclaration_Behavior.java" startLine="151" startPosition="5" endLine="152" endPosition="16" conceptFqName="jetbrains.mps.baseLanguage.structure.ReturnStatement" />
+    <nodeInfo nodeId="5114497955154742492" fileName="BuiltInTaskDeclaration_Behavior.java" startLine="156" startPosition="36" endLine="157" endPosition="52" conceptFqName="jetbrains.mps.baseLanguage.structure.ReturnStatement" />
+    <nodeInfo nodeId="5114497955154742492" fileName="BuiltInTaskDeclaration_Behavior.java" startLine="158" startPosition="5" endLine="159" endPosition="16" conceptFqName="jetbrains.mps.baseLanguage.structure.ReturnStatement" />
     <nodeInfo nodeId="353793545802644125" fileName="BuiltInTaskDeclaration_Behavior.java" startLine="39" startPosition="9" endLine="42" endPosition="9" conceptFqName="jetbrains.mps.baseLanguage.structure.IfStatement" />
     <nodeInfo nodeId="353793545802644166" fileName="BuiltInTaskDeclaration_Behavior.java" startLine="50" startPosition="100" endLine="53" endPosition="7" conceptFqName="jetbrains.mps.baseLanguage.structure.ForeachStatement" />
     <nodeInfo nodeId="353793545802644179" fileName="BuiltInTaskDeclaration_Behavior.java" startLine="54" startPosition="5" endLine="57" endPosition="5" conceptFqName="jetbrains.mps.baseLanguage.structure.IfStatement" />
@@ -410,11 +410,11 @@
     <nodeInfo nodeId="353793545802644312" fileName="BuiltInTaskDeclaration_Behavior.java" startLine="83" startPosition="120" endLine="86" endPosition="9" conceptFqName="jetbrains.mps.baseLanguage.structure.IfStatement" />
     <nodeInfo nodeId="353793545802644336" fileName="BuiltInTaskDeclaration_Behavior.java" startLine="89" startPosition="5" endLine="92" endPosition="5" conceptFqName="jetbrains.mps.baseLanguage.structure.IfStatement" />
     <nodeInfo nodeId="353793545802644369" fileName="BuiltInTaskDeclaration_Behavior.java" startLine="98" startPosition="9" endLine="101" endPosition="9" conceptFqName="jetbrains.mps.baseLanguage.structure.IfStatement" />
-    <nodeInfo nodeId="353793545802644070" fileName="BuiltInTaskDeclaration_Behavior.java" startLine="127" startPosition="81" endLine="130" endPosition="5" conceptFqName="jetbrains.mps.baseLanguage.structure.IfStatement" />
-    <nodeInfo nodeId="353793545802644070" fileName="BuiltInTaskDeclaration_Behavior.java" startLine="134" startPosition="81" endLine="137" endPosition="5" conceptFqName="jetbrains.mps.baseLanguage.structure.IfStatement" />
-    <nodeInfo nodeId="353793545802644070" fileName="BuiltInTaskDeclaration_Behavior.java" startLine="141" startPosition="84" endLine="144" endPosition="5" conceptFqName="jetbrains.mps.baseLanguage.structure.IfStatement" />
-    <nodeInfo nodeId="353793545802644070" fileName="BuiltInTaskDeclaration_Behavior.java" startLine="148" startPosition="83" endLine="151" endPosition="5" conceptFqName="jetbrains.mps.baseLanguage.structure.IfStatement" />
-    <nodeInfo nodeId="353793545802644070" fileName="BuiltInTaskDeclaration_Behavior.java" startLine="155" startPosition="84" endLine="158" endPosition="5" conceptFqName="jetbrains.mps.baseLanguage.structure.IfStatement" />
+    <nodeInfo nodeId="5114497955154742476" fileName="BuiltInTaskDeclaration_Behavior.java" startLine="127" startPosition="81" endLine="130" endPosition="5" conceptFqName="jetbrains.mps.baseLanguage.structure.IfStatement" />
+    <nodeInfo nodeId="5114497955154742477" fileName="BuiltInTaskDeclaration_Behavior.java" startLine="134" startPosition="81" endLine="137" endPosition="5" conceptFqName="jetbrains.mps.baseLanguage.structure.IfStatement" />
+    <nodeInfo nodeId="5114497955154742478" fileName="BuiltInTaskDeclaration_Behavior.java" startLine="141" startPosition="84" endLine="144" endPosition="5" conceptFqName="jetbrains.mps.baseLanguage.structure.IfStatement" />
+    <nodeInfo nodeId="5114497955154742495" fileName="BuiltInTaskDeclaration_Behavior.java" startLine="148" startPosition="83" endLine="151" endPosition="5" conceptFqName="jetbrains.mps.baseLanguage.structure.IfStatement" />
+    <nodeInfo nodeId="5114497955154742492" fileName="BuiltInTaskDeclaration_Behavior.java" startLine="155" startPosition="84" endLine="158" endPosition="5" conceptFqName="jetbrains.mps.baseLanguage.structure.IfStatement" />
     <nodeInfo nodeId="353793545802644114" fileName="BuiltInTaskDeclaration_Behavior.java" startLine="34" startPosition="64" endLine="38" endPosition="11" conceptFqName="jetbrains.mps.baseLanguage.structure.IfStatement" />
     <nodeInfo nodeId="353793545802644352" fileName="BuiltInTaskDeclaration_Behavior.java" startLine="94" startPosition="120" endLine="98" endPosition="9" conceptFqName="jetbrains.mps.baseLanguage.structure.IfStatement" />
     <nodeInfo nodeId="353793545802644070" fileName="BuiltInTaskDeclaration_Behavior.java" startLine="106" startPosition="0" endLine="110" endPosition="0" conceptFqName="jetbrains.mps.baseLanguage.structure.StaticMethodDeclaration" propertyString="virtual_canBeRootTask_1449762848926780427#(Ljetbrains/mps/smodel/SNode;)Z" />
@@ -422,18 +422,18 @@
     <nodeInfo nodeId="353793545802644070" fileName="BuiltInTaskDeclaration_Behavior.java" startLine="114" startPosition="0" endLine="118" endPosition="0" conceptFqName="jetbrains.mps.baseLanguage.structure.StaticMethodDeclaration" propertyString="virtual_isPossibleNested_1648602681640249389#(Ljetbrains/mps/smodel/SNode;Ljetbrains/mps/smodel/SNode;Ljava/util/List;)Z" />
     <nodeInfo nodeId="353793545802644070" fileName="BuiltInTaskDeclaration_Behavior.java" startLine="118" startPosition="0" endLine="122" endPosition="0" conceptFqName="jetbrains.mps.baseLanguage.structure.StaticMethodDeclaration" propertyString="virtual_filterMeOut_4710899751214010949#(Ljetbrains/mps/smodel/SNode;)Z" />
     <nodeInfo nodeId="353793545802644070" fileName="BuiltInTaskDeclaration_Behavior.java" startLine="122" startPosition="0" endLine="126" endPosition="0" conceptFqName="jetbrains.mps.baseLanguage.structure.StaticMethodDeclaration" propertyString="isInGeneratedModels_1445805690439864419#(Ljetbrains/mps/smodel/IOperationContext;)Z" />
-    <nodeInfo nodeId="353793545802644070" fileName="BuiltInTaskDeclaration_Behavior.java" startLine="162" startPosition="62" endLine="166" endPosition="6" conceptFqName="jetbrains.mps.baseLanguage.structure.ReturnStatement" />
+    <nodeInfo nodeId="5114497955154742483" fileName="BuiltInTaskDeclaration_Behavior.java" startLine="162" startPosition="62" endLine="166" endPosition="6" conceptFqName="jetbrains.mps.baseLanguage.structure.ReturnStatement" />
     <nodeInfo nodeId="353793545802644070" fileName="BuiltInTaskDeclaration_Behavior.java" startLine="21" startPosition="46" endLine="26" endPosition="0" conceptFqName="jetbrains.mps.baseLanguage.structure.StaticMethodDeclaration" propertyString="init#(Ljetbrains/mps/smodel/SNode;)V" />
     <nodeInfo nodeId="353793545802644160" fileName="BuiltInTaskDeclaration_Behavior.java" startLine="49" startPosition="48" endLine="54" endPosition="5" conceptFqName="jetbrains.mps.baseLanguage.structure.ForeachStatement" />
     <nodeInfo nodeId="353793545802644209" fileName="BuiltInTaskDeclaration_Behavior.java" startLine="62" startPosition="48" endLine="67" endPosition="5" conceptFqName="jetbrains.mps.baseLanguage.structure.ForeachStatement" />
     <nodeInfo nodeId="353793545802644309" fileName="BuiltInTaskDeclaration_Behavior.java" startLine="82" startPosition="7" endLine="87" endPosition="7" conceptFqName="jetbrains.mps.baseLanguage.structure.ForeachStatement" />
     <nodeInfo nodeId="353793545802644110" fileName="BuiltInTaskDeclaration_Behavior.java" startLine="33" startPosition="30" endLine="39" endPosition="9" conceptFqName="jetbrains.mps.baseLanguage.structure.ForeachStatement" />
-    <nodeInfo nodeId="353793545802644070" fileName="BuiltInTaskDeclaration_Behavior.java" startLine="126" startPosition="0" endLine="133" endPosition="0" conceptFqName="jetbrains.mps.baseLanguage.structure.StaticMethodDeclaration" propertyString="check_y5o5bz_a0a0a#(Ljetbrains/mps/project/structure/modules/ModuleReference;)Ljetbrains/mps/project/ModuleId;" />
-    <nodeInfo nodeId="353793545802644070" fileName="BuiltInTaskDeclaration_Behavior.java" startLine="133" startPosition="0" endLine="140" endPosition="0" conceptFqName="jetbrains.mps.baseLanguage.structure.StaticMethodDeclaration" propertyString="check_y5o5bz_a0a0a0#(Ljetbrains/mps/project/IModule;)Ljetbrains/mps/project/structure/modules/ModuleReference;" />
-    <nodeInfo nodeId="353793545802644070" fileName="BuiltInTaskDeclaration_Behavior.java" startLine="140" startPosition="0" endLine="147" endPosition="0" conceptFqName="jetbrains.mps.baseLanguage.structure.StaticMethodDeclaration" propertyString="check_y5o5bz_a0a0a0a#(Ljetbrains/mps/smodel/IOperationContext;)Ljetbrains/mps/project/IModule;" />
-    <nodeInfo nodeId="353793545802644070" fileName="BuiltInTaskDeclaration_Behavior.java" startLine="147" startPosition="0" endLine="154" endPosition="0" conceptFqName="jetbrains.mps.baseLanguage.structure.StaticMethodDeclaration" propertyString="check_y5o5bz_a0a0a_0#(Ljetbrains/mps/project/structure/modules/ModuleReference;)Ljetbrains/mps/project/ModuleId;" />
-    <nodeInfo nodeId="353793545802644070" fileName="BuiltInTaskDeclaration_Behavior.java" startLine="154" startPosition="0" endLine="161" endPosition="0" conceptFqName="jetbrains.mps.baseLanguage.structure.StaticMethodDeclaration" propertyString="check_y5o5bz_a0a0a0_0#(Ljetbrains/mps/smodel/Language;)Ljetbrains/mps/project/structure/modules/ModuleReference;" />
-    <nodeInfo nodeId="353793545802644070" fileName="BuiltInTaskDeclaration_Behavior.java" startLine="161" startPosition="0" endLine="168" endPosition="0" conceptFqName="jetbrains.mps.baseLanguage.structure.StaticMethodDeclaration" propertyString="eq_y5o5bz_a0a0j#(Ljava/lang/Object;Ljava/lang/Object;)Z" />
+    <nodeInfo nodeId="5114497955154742476" fileName="BuiltInTaskDeclaration_Behavior.java" startLine="126" startPosition="0" endLine="133" endPosition="0" conceptFqName="jetbrains.mps.baseLanguage.structure.StaticMethodDeclaration" propertyString="check_y5o5bz_a0a0a#(Ljetbrains/mps/project/structure/modules/ModuleReference;)Ljetbrains/mps/project/ModuleId;" />
+    <nodeInfo nodeId="5114497955154742477" fileName="BuiltInTaskDeclaration_Behavior.java" startLine="133" startPosition="0" endLine="140" endPosition="0" conceptFqName="jetbrains.mps.baseLanguage.structure.StaticMethodDeclaration" propertyString="check_y5o5bz_a0a0a0#(Ljetbrains/mps/project/IModule;)Ljetbrains/mps/project/structure/modules/ModuleReference;" />
+    <nodeInfo nodeId="5114497955154742478" fileName="BuiltInTaskDeclaration_Behavior.java" startLine="140" startPosition="0" endLine="147" endPosition="0" conceptFqName="jetbrains.mps.baseLanguage.structure.StaticMethodDeclaration" propertyString="check_y5o5bz_a0a0a0a#(Ljetbrains/mps/smodel/IOperationContext;)Ljetbrains/mps/project/IModule;" />
+    <nodeInfo nodeId="5114497955154742495" fileName="BuiltInTaskDeclaration_Behavior.java" startLine="147" startPosition="0" endLine="154" endPosition="0" conceptFqName="jetbrains.mps.baseLanguage.structure.StaticMethodDeclaration" propertyString="check_y5o5bz_a0a0a_0#(Ljetbrains/mps/project/structure/modules/ModuleReference;)Ljetbrains/mps/project/ModuleId;" />
+    <nodeInfo nodeId="5114497955154742492" fileName="BuiltInTaskDeclaration_Behavior.java" startLine="154" startPosition="0" endLine="161" endPosition="0" conceptFqName="jetbrains.mps.baseLanguage.structure.StaticMethodDeclaration" propertyString="check_y5o5bz_a0a0a0_0#(Ljetbrains/mps/smodel/Language;)Ljetbrains/mps/project/structure/modules/ModuleReference;" />
+    <nodeInfo nodeId="5114497955154742483" fileName="BuiltInTaskDeclaration_Behavior.java" startLine="161" startPosition="0" endLine="168" endPosition="0" conceptFqName="jetbrains.mps.baseLanguage.structure.StaticMethodDeclaration" propertyString="eq_y5o5bz_a0a0j#(Ljava/lang/Object;Ljava/lang/Object;)Z" />
     <nodeInfo nodeId="353793545802644346" fileName="BuiltInTaskDeclaration_Behavior.java" startLine="93" startPosition="126" endLine="102" endPosition="7" conceptFqName="jetbrains.mps.baseLanguage.structure.ForeachStatement" />
     <nodeInfo nodeId="353793545802644344" fileName="BuiltInTaskDeclaration_Behavior.java" startLine="92" startPosition="5" endLine="103" endPosition="5" conceptFqName="jetbrains.mps.baseLanguage.structure.IfStatement" />
     <nodeInfo nodeId="353793545802644102" fileName="BuiltInTaskDeclaration_Behavior.java" startLine="31" startPosition="218" endLine="43" endPosition="7" conceptFqName="jetbrains.mps.baseLanguage.structure.ForeachStatement" />
@@ -458,11 +458,11 @@
     <scopeInfo nodeId="5452960144484163761" fileName="BuiltInTaskDeclaration_Behavior.java" startLine="115" startPosition="130" endLine="116" endPosition="323" />
     <scopeInfo nodeId="4710899751214015944" fileName="BuiltInTaskDeclaration_Behavior.java" startLine="119" startPosition="81" endLine="120" endPosition="60" />
     <scopeInfo nodeId="1445805690439864422" fileName="BuiltInTaskDeclaration_Behavior.java" startLine="123" startPosition="101" endLine="124" endPosition="196" />
-    <scopeInfo nodeId="353793545802644070" fileName="BuiltInTaskDeclaration_Behavior.java" startLine="128" startPosition="36" endLine="129" endPosition="45" />
-    <scopeInfo nodeId="353793545802644070" fileName="BuiltInTaskDeclaration_Behavior.java" startLine="135" startPosition="36" endLine="136" endPosition="52" />
-    <scopeInfo nodeId="353793545802644070" fileName="BuiltInTaskDeclaration_Behavior.java" startLine="142" startPosition="36" endLine="143" endPosition="43" />
-    <scopeInfo nodeId="353793545802644070" fileName="BuiltInTaskDeclaration_Behavior.java" startLine="149" startPosition="36" endLine="150" endPosition="45" />
-    <scopeInfo nodeId="353793545802644070" fileName="BuiltInTaskDeclaration_Behavior.java" startLine="156" startPosition="36" endLine="157" endPosition="52" />
+    <scopeInfo nodeId="5114497955154742476" fileName="BuiltInTaskDeclaration_Behavior.java" startLine="128" startPosition="36" endLine="129" endPosition="45" />
+    <scopeInfo nodeId="5114497955154742477" fileName="BuiltInTaskDeclaration_Behavior.java" startLine="135" startPosition="36" endLine="136" endPosition="52" />
+    <scopeInfo nodeId="5114497955154742478" fileName="BuiltInTaskDeclaration_Behavior.java" startLine="142" startPosition="36" endLine="143" endPosition="43" />
+    <scopeInfo nodeId="5114497955154742495" fileName="BuiltInTaskDeclaration_Behavior.java" startLine="149" startPosition="36" endLine="150" endPosition="45" />
+    <scopeInfo nodeId="5114497955154742492" fileName="BuiltInTaskDeclaration_Behavior.java" startLine="156" startPosition="36" endLine="157" endPosition="52" />
     <scopeInfo nodeId="353793545802644390" fileName="BuiltInTaskDeclaration_Behavior.java" startLine="22" startPosition="43" endLine="24" endPosition="60" />
     <scopeInfo nodeId="353793545802644119" fileName="BuiltInTaskDeclaration_Behavior.java" startLine="35" startPosition="103" endLine="37" endPosition="18" />
     <scopeInfo nodeId="353793545802644353" fileName="BuiltInTaskDeclaration_Behavior.java" startLine="95" startPosition="92" endLine="97" endPosition="19" />
@@ -491,12 +491,12 @@
     <scopeInfo nodeId="353793545802644070" fileName="BuiltInTaskDeclaration_Behavior.java" startLine="122" startPosition="0" endLine="126" endPosition="0">
       <varInfo nodeId="1445805690439864436" varName="operationContext" />
     </scopeInfo>
-    <scopeInfo nodeId="353793545802644070" fileName="BuiltInTaskDeclaration_Behavior.java" startLine="127" startPosition="81" endLine="131" endPosition="16" />
-    <scopeInfo nodeId="353793545802644070" fileName="BuiltInTaskDeclaration_Behavior.java" startLine="134" startPosition="81" endLine="138" endPosition="16" />
-    <scopeInfo nodeId="353793545802644070" fileName="BuiltInTaskDeclaration_Behavior.java" startLine="141" startPosition="84" endLine="145" endPosition="16" />
-    <scopeInfo nodeId="353793545802644070" fileName="BuiltInTaskDeclaration_Behavior.java" startLine="148" startPosition="83" endLine="152" endPosition="16" />
-    <scopeInfo nodeId="353793545802644070" fileName="BuiltInTaskDeclaration_Behavior.java" startLine="155" startPosition="84" endLine="159" endPosition="16" />
-    <scopeInfo nodeId="353793545802644070" fileName="BuiltInTaskDeclaration_Behavior.java" startLine="162" startPosition="62" endLine="166" endPosition="6" />
+    <scopeInfo nodeId="5114497955154742476" fileName="BuiltInTaskDeclaration_Behavior.java" startLine="127" startPosition="81" endLine="131" endPosition="16" />
+    <scopeInfo nodeId="5114497955154742477" fileName="BuiltInTaskDeclaration_Behavior.java" startLine="134" startPosition="81" endLine="138" endPosition="16" />
+    <scopeInfo nodeId="5114497955154742478" fileName="BuiltInTaskDeclaration_Behavior.java" startLine="141" startPosition="84" endLine="145" endPosition="16" />
+    <scopeInfo nodeId="5114497955154742495" fileName="BuiltInTaskDeclaration_Behavior.java" startLine="148" startPosition="83" endLine="152" endPosition="16" />
+    <scopeInfo nodeId="5114497955154742492" fileName="BuiltInTaskDeclaration_Behavior.java" startLine="155" startPosition="84" endLine="159" endPosition="16" />
+    <scopeInfo nodeId="5114497955154742483" fileName="BuiltInTaskDeclaration_Behavior.java" startLine="162" startPosition="62" endLine="166" endPosition="6" />
     <scopeInfo nodeId="353793545802644070" fileName="BuiltInTaskDeclaration_Behavior.java" startLine="21" startPosition="46" endLine="26" endPosition="0">
       <varInfo nodeId="353793545802644070" varName="thisNode" />
     </scopeInfo>
@@ -513,24 +513,24 @@
       <varInfo nodeId="353793545802644110" varName="oldAttrDecl" />
     </scopeInfo>
     <scopeInfo nodeId="353793545802644351" fileName="BuiltInTaskDeclaration_Behavior.java" startLine="94" startPosition="120" endLine="101" endPosition="9" />
-    <scopeInfo nodeId="353793545802644070" fileName="BuiltInTaskDeclaration_Behavior.java" startLine="126" startPosition="0" endLine="133" endPosition="0">
-      <varInfo nodeId="353793545802644070" varName="checkedDotOperand" />
+    <scopeInfo nodeId="5114497955154742476" fileName="BuiltInTaskDeclaration_Behavior.java" startLine="126" startPosition="0" endLine="133" endPosition="0">
+      <varInfo nodeId="5114497955154742476" varName="checkedDotOperand" />
     </scopeInfo>
-    <scopeInfo nodeId="353793545802644070" fileName="BuiltInTaskDeclaration_Behavior.java" startLine="133" startPosition="0" endLine="140" endPosition="0">
-      <varInfo nodeId="353793545802644070" varName="checkedDotOperand" />
+    <scopeInfo nodeId="5114497955154742477" fileName="BuiltInTaskDeclaration_Behavior.java" startLine="133" startPosition="0" endLine="140" endPosition="0">
+      <varInfo nodeId="5114497955154742477" varName="checkedDotOperand" />
     </scopeInfo>
-    <scopeInfo nodeId="353793545802644070" fileName="BuiltInTaskDeclaration_Behavior.java" startLine="140" startPosition="0" endLine="147" endPosition="0">
-      <varInfo nodeId="353793545802644070" varName="checkedDotOperand" />
+    <scopeInfo nodeId="5114497955154742478" fileName="BuiltInTaskDeclaration_Behavior.java" startLine="140" startPosition="0" endLine="147" endPosition="0">
+      <varInfo nodeId="5114497955154742478" varName="checkedDotOperand" />
     </scopeInfo>
-    <scopeInfo nodeId="353793545802644070" fileName="BuiltInTaskDeclaration_Behavior.java" startLine="147" startPosition="0" endLine="154" endPosition="0">
-      <varInfo nodeId="353793545802644070" varName="checkedDotOperand" />
+    <scopeInfo nodeId="5114497955154742495" fileName="BuiltInTaskDeclaration_Behavior.java" startLine="147" startPosition="0" endLine="154" endPosition="0">
+      <varInfo nodeId="5114497955154742495" varName="checkedDotOperand" />
     </scopeInfo>
-    <scopeInfo nodeId="353793545802644070" fileName="BuiltInTaskDeclaration_Behavior.java" startLine="154" startPosition="0" endLine="161" endPosition="0">
-      <varInfo nodeId="353793545802644070" varName="checkedDotOperand" />
+    <scopeInfo nodeId="5114497955154742492" fileName="BuiltInTaskDeclaration_Behavior.java" startLine="154" startPosition="0" endLine="161" endPosition="0">
+      <varInfo nodeId="5114497955154742492" varName="checkedDotOperand" />
     </scopeInfo>
-    <scopeInfo nodeId="353793545802644070" fileName="BuiltInTaskDeclaration_Behavior.java" startLine="161" startPosition="0" endLine="168" endPosition="0">
-      <varInfo nodeId="353793545802644070" varName="a" />
-      <varInfo nodeId="353793545802644070" varName="b" />
+    <scopeInfo nodeId="5114497955154742483" fileName="BuiltInTaskDeclaration_Behavior.java" startLine="161" startPosition="0" endLine="168" endPosition="0">
+      <varInfo nodeId="5114497955154742483" varName="a" />
+      <varInfo nodeId="5114497955154742483" varName="b" />
     </scopeInfo>
     <scopeInfo nodeId="353793545802644345" fileName="BuiltInTaskDeclaration_Behavior.java" startLine="93" startPosition="126" endLine="102" endPosition="7" />
     <scopeInfo nodeId="353793545802644346" fileName="BuiltInTaskDeclaration_Behavior.java" startLine="93" startPosition="126" endLine="102" endPosition="7">
