@@ -11,9 +11,15 @@
     <scopeInfo nodeId="1213877341776" fileName="PropertyNode_Behavior.java" startLine="12" startPosition="43" endLine="12" endPosition="43" />
     <scopeInfo nodeId="1213877341759" fileName="PropertyNode_Behavior.java" startLine="15" startPosition="71" endLine="16" endPosition="121" />
     <scopeInfo nodeId="1213877341769" fileName="PropertyNode_Behavior.java" startLine="19" startPosition="81" endLine="20" endPosition="69" />
-    <scopeInfo nodeId="1213877341756" fileName="PropertyNode_Behavior.java" startLine="11" startPosition="36" endLine="14" endPosition="0" />
-    <scopeInfo nodeId="1213877341756" fileName="PropertyNode_Behavior.java" startLine="14" startPosition="0" endLine="18" endPosition="0" />
-    <scopeInfo nodeId="1213877341756" fileName="PropertyNode_Behavior.java" startLine="18" startPosition="0" endLine="22" endPosition="0" />
+    <scopeInfo nodeId="1213877341756" fileName="PropertyNode_Behavior.java" startLine="11" startPosition="36" endLine="14" endPosition="0">
+      <varInfo nodeId="1213877341756" varName="thisNode" />
+    </scopeInfo>
+    <scopeInfo nodeId="1213877341756" fileName="PropertyNode_Behavior.java" startLine="14" startPosition="0" endLine="18" endPosition="0">
+      <varInfo nodeId="1213877341756" varName="thisNode" />
+    </scopeInfo>
+    <scopeInfo nodeId="1213877341756" fileName="PropertyNode_Behavior.java" startLine="18" startPosition="0" endLine="22" endPosition="0">
+      <varInfo nodeId="1213877341756" varName="thisNode" />
+    </scopeInfo>
     <unitInfo nodeId="1213877341756" fileName="PropertyNode_Behavior.java" startLine="11" startPosition="0" endLine="23" endPosition="0" unitName="jetbrains.mps.build.property.behavior.PropertyNode_Behavior" />
   </root>
 </debugInfo>

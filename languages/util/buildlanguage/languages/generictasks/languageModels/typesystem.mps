@@ -150,7 +150,7 @@
                   <node role="leftExpression" roleId="tpee.1081773367580" type="tpee.PlusExpression" typeId="tpee.1068581242875" id="353793545802854652">
                     <node role="leftExpression" roleId="tpee.1081773367580" type="tpee.PlusExpression" typeId="tpee.1068581242875" id="353793545802854653">
                       <node role="leftExpression" roleId="tpee.1081773367580" type="tpee.StringLiteral" typeId="tpee.1070475926800" id="353793545802854654">
-                        <property name="value" nameId="tpee.1070475926801" value="Default value of attribute &quot;" />
+                        <property name="value" nameId="tpee.1070475926801" value="Default value of attribute \&quot;" />
                       </node>
                       <node role="rightExpression" roleId="tpee.1081773367579" type="tpee.DotExpression" typeId="tpee.1197027756228" id="353793545802854655">
                         <node role="operand" roleId="tpee.1197027771414" type="tpd4.ApplicableNodeReference" typeId="tpd4.1174650418652" id="353793545802854656">
@@ -162,7 +162,7 @@
                       </node>
                     </node>
                     <node role="rightExpression" roleId="tpee.1081773367579" type="tpee.StringLiteral" typeId="tpee.1070475926800" id="353793545802854658">
-                      <property name="value" nameId="tpee.1070475926801" value="&quot; must be in " />
+                      <property name="value" nameId="tpee.1070475926801" value="\&quot; must be in " />
                     </node>
                   </node>
                 </node>
@@ -435,7 +435,7 @@
                   <node role="leftExpression" roleId="tpee.1081773367580" type="tpee.PlusExpression" typeId="tpee.1068581242875" id="353793545802854766">
                     <node role="leftExpression" roleId="tpee.1081773367580" type="tpee.PlusExpression" typeId="tpee.1068581242875" id="353793545802854767">
                       <node role="leftExpression" roleId="tpee.1081773367580" type="tpee.StringLiteral" typeId="tpee.1070475926800" id="353793545802854768">
-                        <property name="value" nameId="tpee.1070475926801" value="Attribute &quot;" />
+                        <property name="value" nameId="tpee.1070475926801" value="Attribute \&quot;" />
                       </node>
                       <node role="rightExpression" roleId="tpee.1081773367579" type="tpee.DotExpression" typeId="tpee.1197027756228" id="353793545802854769">
                         <node role="operand" roleId="tpee.1197027771414" type="tpee.DotExpression" typeId="tpee.1197027756228" id="353793545802854770">
@@ -452,7 +452,7 @@
                       </node>
                     </node>
                     <node role="rightExpression" roleId="tpee.1081773367579" type="tpee.StringLiteral" typeId="tpee.1070475926800" id="353793545802854774">
-                      <property name="value" nameId="tpee.1070475926801" value="&quot; must have value in " />
+                      <property name="value" nameId="tpee.1070475926801" value="\&quot; must have value in " />
                     </node>
                   </node>
                   <node role="rightExpression" roleId="tpee.1081773367579" type="tpee.DotExpression" typeId="tpee.1197027756228" id="353793545802854775">

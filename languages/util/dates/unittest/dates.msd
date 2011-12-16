@@ -1,11 +1,14 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <solution name="dates_unittest" uuid="d5e1eadc-0b90-46d3-ad09-aafe577e509d" compileInMPS="true">
   <models>
-    <modelRoot path="${solution_descriptor}/" namespacePrefix="jetbrains.mps.baseLanguage.dates.unittest" />
+    <modelRoot path="${solution_descriptor}/" />
   </models>
+  <sourcePath />
   <dependencies>
     <dependency reexport="false">cccc689c-f365-4862-a8b6-34ecddf8ee26(jetbrains.mps.baseLanguage.dates)</dependency>
     <dependency reexport="false">2ebbb458-8ebb-481e-a5d7-9e27903323d4(jetbrains.mps.baseLanguage.dates.runtime)</dependency>
+    <dependency reexport="false">6ed54515-acc8-4d1e-a16c-9fd6cfe951ea(MPS.Core)</dependency>
+    <dependency reexport="false">86441d7a-e194-42da-81a5-2161ec62a379(MPS.Workbench)</dependency>
   </dependencies>
   <usedLanguages>
     <usedLanguage>cccc689c-f365-4862-a8b6-34ecddf8ee26(jetbrains.mps.baseLanguage.dates)</usedLanguage>

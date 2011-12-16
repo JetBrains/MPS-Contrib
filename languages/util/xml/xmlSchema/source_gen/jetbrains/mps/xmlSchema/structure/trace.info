@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <debugInfo>
-  <unitInfo fileName="XmlSchema_Language.java" startLine="9" startPosition="0" endLine="16" endPosition="0" unitName="jetbrains.mps.xmlSchema.structure.XmlSchema_Language" />
   <unitInfo fileName="StructureAspectDescriptor.java" startLine="10" startPosition="0" endLine="107" endPosition="0" unitName="jetbrains.mps.xmlSchema.structure.StructureAspectDescriptor" />
+  <unitInfo fileName="XmlSchema_Language.java" startLine="9" startPosition="0" endLine="16" endPosition="0" unitName="jetbrains.mps.xmlSchema.structure.XmlSchema_Language" />
   <root nodeId="1167512696010">
     <nodeInfo nodeId="1167512696010" fileName="ElementWithContent.java" startLine="10" startPosition="60" endLine="11" endPosition="94" conceptFqName="jetbrains.mps.baseLanguage.structure.StaticFieldDeclaration" propertyString="concept" />
     <nodeInfo nodeId="1167512696010" fileName="ElementWithContent.java" startLine="11" startPosition="94" endLine="12" endPosition="58" conceptFqName="jetbrains.mps.baseLanguage.structure.StaticFieldDeclaration" propertyString="COMPLEX_TYPE" />
@@ -1140,8 +1140,8 @@
     <scopeInfo nodeId="1168467929746" fileName="useAttributeEnum_PropertySupport.java" startLine="9" startPosition="71" endLine="23" endPosition="0" />
     <scopeInfo nodeId="1168467929746" fileName="useAttributeEnum_PropertySupport.java" startLine="23" startPosition="0" endLine="37" endPosition="0" />
     <scopeInfo nodeId="1168467929746" fileName="useAttributeEnum.java" startLine="45" startPosition="0" endLine="61" endPosition="0" />
-    <unitInfo nodeId="1168467929746" fileName="useAttributeEnum_PropertySupport.java" startLine="9" startPosition="0" endLine="46" endPosition="0" unitName="jetbrains.mps.xmlSchema.structure.useAttributeEnum_PropertySupport" />
     <unitInfo nodeId="1168467929746" fileName="useAttributeEnum.java" startLine="9" startPosition="0" endLine="62" endPosition="0" unitName="jetbrains.mps.xmlSchema.structure.useAttributeEnum" />
+    <unitInfo nodeId="1168467929746" fileName="useAttributeEnum_PropertySupport.java" startLine="9" startPosition="0" endLine="46" endPosition="0" unitName="jetbrains.mps.xmlSchema.structure.useAttributeEnum_PropertySupport" />
   </root>
   <root nodeId="1172948996536">
     <nodeInfo nodeId="1172948996536" fileName="EntitySet.java" startLine="15" startPosition="69" endLine="16" endPosition="85" conceptFqName="jetbrains.mps.baseLanguage.structure.StaticFieldDeclaration" propertyString="concept" />

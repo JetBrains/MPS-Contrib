@@ -62,7 +62,7 @@ public class TaskReference_Constraints extends BaseConstraintsDescriptor {
               }
               return new SimpleSearchScope(newDecls);
             }
-            return decls;
+            return new SimpleSearchScope(decls);
           }
 
           @Override

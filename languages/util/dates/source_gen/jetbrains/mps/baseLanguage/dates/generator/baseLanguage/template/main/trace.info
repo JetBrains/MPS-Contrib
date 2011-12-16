@@ -591,8 +591,12 @@
       <varInfo nodeId="2872438607476484948" varName="literal" />
     </scopeInfo>
     <scopeInfo nodeId="2872438607476942808" fileName="QueriesGenerated.java" startLine="237" startPosition="154" endLine="241" endPosition="6" />
-    <scopeInfo nodeId="2872438607477349868" fileName="QueriesGenerated.java" startLine="452" startPosition="202" endLine="456" endPosition="0" />
-    <scopeInfo nodeId="1778677549314164587" fileName="QueriesGenerated.java" startLine="461" startPosition="202" endLine="465" endPosition="0" />
+    <scopeInfo nodeId="2872438607477349868" fileName="QueriesGenerated.java" startLine="452" startPosition="202" endLine="456" endPosition="0">
+      <varInfo nodeId="2872438607477349868" varName="it" />
+    </scopeInfo>
+    <scopeInfo nodeId="1778677549314164587" fileName="QueriesGenerated.java" startLine="461" startPosition="202" endLine="465" endPosition="0">
+      <varInfo nodeId="1778677549314164587" varName="it" />
+    </scopeInfo>
     <scopeInfo nodeId="2872438607477349716" fileName="QueriesGenerated.java" startLine="450" startPosition="136" endLine="456" endPosition="7">
       <varInfo nodeId="2872438607477349730" varName="container" />
     </scopeInfo>

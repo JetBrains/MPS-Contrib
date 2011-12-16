@@ -141,9 +141,9 @@
     <scopeInfo nodeId="1195647309592" fileName="MakeElementEmpty_Intention.java" startLine="34" startPosition="0" endLine="38" endPosition="0" />
     <scopeInfo nodeId="1195647309592" fileName="MakeElementEmpty_Intention.java" startLine="39" startPosition="84" endLine="43" endPosition="16" />
     <scopeInfo nodeId="1195647309635" fileName="MakeElementEmpty_Intention.java" startLine="46" startPosition="90" endLine="50" endPosition="346">
-      <varInfo nodeId="1195647309649" varName="count" />
-      <varInfo nodeId="1195647309643" varName="contents" />
       <varInfo nodeId="1195647309637" varName="contentList" />
+      <varInfo nodeId="1195647309643" varName="contents" />
+      <varInfo nodeId="1195647309649" varName="count" />
     </scopeInfo>
     <scopeInfo nodeId="1195647309592" fileName="MakeElementEmpty_Intention.java" startLine="52" startPosition="0" endLine="56" endPosition="0" />
     <scopeInfo nodeId="1195647309592" fileName="MakeElementEmpty_Intention.java" startLine="56" startPosition="0" endLine="60" endPosition="0" />
@@ -381,9 +381,9 @@
     <scopeInfo nodeId="1195665988476" fileName="SurroundWithContentList_Intention.java" startLine="60" startPosition="0" endLine="64" endPosition="0" />
     <scopeInfo nodeId="1195665988476" fileName="SurroundWithContentList_Intention.java" startLine="38" startPosition="0" endLine="45" endPosition="0" />
     <scopeInfo nodeId="1195665988523" fileName="SurroundWithContentList_Intention.java" startLine="50" startPosition="76" endLine="58" endPosition="102">
-      <varInfo nodeId="1195668379633" varName="selectedNodes" />
       <varInfo nodeId="1195665988525" varName="contentList" />
       <varInfo nodeId="1195668553386" varName="first" />
+      <varInfo nodeId="1195668379633" varName="selectedNodes" />
     </scopeInfo>
     <scopeInfo nodeId="1195665988476" fileName="SurroundWithContentList_Intention.java" startLine="49" startPosition="0" endLine="60" endPosition="0" />
     <unitInfo nodeId="1195665988476" fileName="SurroundWithContentList_Intention.java" startLine="15" startPosition="0" endLine="65" endPosition="0" unitName="jetbrains.mps.xml.intentions.SurroundWithContentList_Intention" />

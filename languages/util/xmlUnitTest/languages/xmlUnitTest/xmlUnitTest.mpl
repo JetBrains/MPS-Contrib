@@ -1,13 +1,16 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <language namespace="jetbrains.mps.xmlUnitTest" uuid="f85adbd8-2ec2-4572-bcfc-8dd799a7f025" compileInMPS="true" doNotGenerateAdapters="false">
   <models>
-    <modelRoot path="${language_descriptor}/languageModels" namespacePrefix="jetbrains.mps.xmlUnitTest" />
+    <modelRoot path="${language_descriptor}/languageModels" />
   </models>
   <accessoryModels />
   <generators>
     <generator name="baseLanguage" generatorUID="jetbrains.mps.xmlUnitTest#5211164146776564145" uuid="582567cc-e906-468f-8bf0-b574e317c43c">
       <models>
-        <modelRoot path="${language_descriptor}/generator/template" namespacePrefix="jetbrains.mps.xmlUnitTest.generator.template" />
+        <modelRoot path="${language_descriptor}/generator/template" />
+        <modelRoot path="${language_descriptor}/lib/xmlunit-1.3.jar">
+          <manager moduleId="f3061a53-9226-4cc5-a443-f952ceaf5816" className="jetbrains.mps.baseLanguage.stubs.JavaStubs" />
+        </modelRoot>
       </models>
       <external-templates>
         <generator generatorUID="94951427-301e-4a1c-a1cd-d2c6bc9f3cfa(jetbrains.mps.xml#1163716442262)" />
@@ -16,6 +19,9 @@
       <dependencies>
         <dependency reexport="false">2c55c7ac-60c3-4eea-b9db-0d627bd2dcb9(jetbrains.mps.xml)</dependency>
       </dependencies>
+      <usedLanguages>
+        <usedLanguage>f3061a53-9226-4cc5-a443-f952ceaf5816(jetbrains.mps.baseLanguage)</usedLanguage>
+      </usedLanguages>
       <usedDevKits>
         <usedDevKit>2677cb18-f558-4e33-bc38-a5139cee06dc(jetbrains.mps.devkit.language-design)</usedDevKit>
       </usedDevKits>
@@ -55,6 +61,11 @@
       <manager moduleId="f3061a53-9226-4cc5-a443-f952ceaf5816" className="jetbrains.mps.baseLanguage.stubs.JavaStubs" />
     </stubModelEntry>
   </runtimeStubModels>
+  <sourcePath />
+  <dependencies>
+    <dependency reexport="false">6ed54515-acc8-4d1e-a16c-9fd6cfe951ea(MPS.Core)</dependency>
+    <dependency reexport="false">18bc6592-03a6-4e29-a83a-7ff23bde13ba(jetbrains.mps.lang.editor)</dependency>
+  </dependencies>
   <usedLanguages>
     <usedLanguage>f3061a53-9226-4cc5-a443-f952ceaf5816(jetbrains.mps.baseLanguage)</usedLanguage>
     <usedLanguage>2c55c7ac-60c3-4eea-b9db-0d627bd2dcb9(jetbrains.mps.xml)</usedLanguage>

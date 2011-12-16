@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<history>
+  <StructureModification>
+    <dependencies>
+      <model index="vpz8" modelUID="r:4ab4c6eb-58ca-426d-b62d-119c0aacbe5e(jetbrains.mps.baseLanguage.runConfigurations.constraints)" version="-1" />
+      <model index="g3s4" modelUID="r:44be5a71-98f4-4137-88b1-8ccaf67186a8(jetbrains.mps.baseLanguage.runConfigurations.behavior)" version="-1" />
+      <model index="b5ue" modelUID="r:3d1d89d4-ed40-464f-804b-a59886f41d55(jetbrains.mps.baseLanguage.runConfigurations.typesystem)" version="-1" />
+      <model index="p84h" modelUID="r:6ca9e89f-d17e-40d3-aff6-7953521fc77e(jetbrains.mps.baseLanguage.runConfigurations.generator.template.main@generator)" version="-1" />
+      <model index="ucfr" modelUID="r:def9da36-61ed-4f39-9c10-98a9883447d1(jetbrains.mps.baseLanguage.runConfigurations.editor)" version="-1" />
+      <model index="yuir" modelUID="r:a931a3fa-17a8-4687-8728-32ddfa9119a3(jetbrains.mps.baseLanguage.runConfigurations.scripts)" version="-1" />
+      <model index="11eb" modelUID="r:550fbd90-c9f2-4576-a8a6-223eca16d68b(jetbrains.mps.baseLanguage.runConfigurations.structure)" version="0" />
+    </dependencies>
+    <RenameModel oldModel="r:a931a3fa-17a8-4687-8728-32ddfa9119a3(jetbrains.mps.baseLanguage.runConfigurations.scripts)" newModel="r:a931a3fa-17a8-4687-8728-32ddfa9119a3(jetbrains.mps.execution.configurations.deprecated.scripts)" />
+    <RenameModel oldModel="r:3d1d89d4-ed40-464f-804b-a59886f41d55(jetbrains.mps.baseLanguage.runConfigurations.typesystem)" newModel="r:3d1d89d4-ed40-464f-804b-a59886f41d55(jetbrains.mps.execution.configurations.deprecated.typesystem)" />
+    <RenameModel oldModel="r:550fbd90-c9f2-4576-a8a6-223eca16d68b(jetbrains.mps.baseLanguage.runConfigurations.structure)" newModel="r:550fbd90-c9f2-4576-a8a6-223eca16d68b(jetbrains.mps.execution.configurations.deprecated.structure)" />
+    <RenameModel oldModel="r:44be5a71-98f4-4137-88b1-8ccaf67186a8(jetbrains.mps.baseLanguage.runConfigurations.behavior)" newModel="r:44be5a71-98f4-4137-88b1-8ccaf67186a8(jetbrains.mps.execution.configurations.deprecated.behavior)" />
+    <RenameModel oldModel="r:4ab4c6eb-58ca-426d-b62d-119c0aacbe5e(jetbrains.mps.baseLanguage.runConfigurations.constraints)" newModel="r:4ab4c6eb-58ca-426d-b62d-119c0aacbe5e(jetbrains.mps.execution.configurations.deprecated.constraints)" />
+    <RenameModel oldModel="r:def9da36-61ed-4f39-9c10-98a9883447d1(jetbrains.mps.baseLanguage.runConfigurations.editor)" newModel="r:def9da36-61ed-4f39-9c10-98a9883447d1(jetbrains.mps.execution.configurations.deprecated.editor)" />
+    <RenameModel oldModel="r:6ca9e89f-d17e-40d3-aff6-7953521fc77e(jetbrains.mps.baseLanguage.runConfigurations.generator.template.main@generator)" newModel="r:6ca9e89f-d17e-40d3-aff6-7953521fc77e(jetbrains.mps.execution.configurations.deprecated.generator.template.main@generator)" />
+  </StructureModification>
+</history>
+

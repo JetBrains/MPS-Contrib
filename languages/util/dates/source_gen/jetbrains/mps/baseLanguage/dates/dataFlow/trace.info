@@ -11,7 +11,10 @@
     <scopeInfo nodeId="1227028372044" fileName="FormatExpression_DataFlow.java" startLine="12" startPosition="38" endLine="12" endPosition="38" />
     <scopeInfo nodeId="1227028372044" fileName="FormatExpression_DataFlow.java" startLine="11" startPosition="64" endLine="13" endPosition="3" />
     <scopeInfo nodeId="1227028372046" fileName="FormatExpression_DataFlow.java" startLine="15" startPosition="102" endLine="19" endPosition="99" />
-    <scopeInfo nodeId="1227028372044" fileName="FormatExpression_DataFlow.java" startLine="14" startPosition="0" endLine="21" endPosition="0" />
+    <scopeInfo nodeId="1227028372044" fileName="FormatExpression_DataFlow.java" startLine="14" startPosition="0" endLine="21" endPosition="0">
+      <varInfo nodeId="1227028372044" varName="_context" />
+      <varInfo nodeId="1227028372044" varName="operationContext" />
+    </scopeInfo>
     <unitInfo nodeId="1227028372044" fileName="FormatExpression_DataFlow.java" startLine="11" startPosition="0" endLine="22" endPosition="0" unitName="jetbrains.mps.baseLanguage.dates.dataFlow.FormatExpression_DataFlow" />
   </root>
   <root nodeId="1227028481848">
@@ -22,7 +25,10 @@
     <scopeInfo nodeId="1227028481848" fileName="DateTimeMinusOperation_DataFlow.java" startLine="12" startPosition="44" endLine="12" endPosition="44" />
     <scopeInfo nodeId="1227028481848" fileName="DateTimeMinusOperation_DataFlow.java" startLine="11" startPosition="70" endLine="13" endPosition="3" />
     <scopeInfo nodeId="1227028481850" fileName="DateTimeMinusOperation_DataFlow.java" startLine="15" startPosition="102" endLine="17" endPosition="107" />
-    <scopeInfo nodeId="1227028481848" fileName="DateTimeMinusOperation_DataFlow.java" startLine="14" startPosition="0" endLine="19" endPosition="0" />
+    <scopeInfo nodeId="1227028481848" fileName="DateTimeMinusOperation_DataFlow.java" startLine="14" startPosition="0" endLine="19" endPosition="0">
+      <varInfo nodeId="1227028481848" varName="_context" />
+      <varInfo nodeId="1227028481848" varName="operationContext" />
+    </scopeInfo>
     <unitInfo nodeId="1227028481848" fileName="DateTimeMinusOperation_DataFlow.java" startLine="11" startPosition="0" endLine="20" endPosition="0" unitName="jetbrains.mps.baseLanguage.dates.dataFlow.DateTimeMinusOperation_DataFlow" />
   </root>
   <root nodeId="1227028519246">
@@ -33,7 +39,10 @@
     <scopeInfo nodeId="1227028519246" fileName="DateTimeMinusPeriodOperation_DataFlow.java" startLine="12" startPosition="50" endLine="12" endPosition="50" />
     <scopeInfo nodeId="1227028519246" fileName="DateTimeMinusPeriodOperation_DataFlow.java" startLine="11" startPosition="76" endLine="13" endPosition="3" />
     <scopeInfo nodeId="1227028519248" fileName="DateTimeMinusPeriodOperation_DataFlow.java" startLine="15" startPosition="102" endLine="17" endPosition="107" />
-    <scopeInfo nodeId="1227028519246" fileName="DateTimeMinusPeriodOperation_DataFlow.java" startLine="14" startPosition="0" endLine="19" endPosition="0" />
+    <scopeInfo nodeId="1227028519246" fileName="DateTimeMinusPeriodOperation_DataFlow.java" startLine="14" startPosition="0" endLine="19" endPosition="0">
+      <varInfo nodeId="1227028519246" varName="_context" />
+      <varInfo nodeId="1227028519246" varName="operationContext" />
+    </scopeInfo>
     <unitInfo nodeId="1227028519246" fileName="DateTimeMinusPeriodOperation_DataFlow.java" startLine="11" startPosition="0" endLine="20" endPosition="0" unitName="jetbrains.mps.baseLanguage.dates.dataFlow.DateTimeMinusPeriodOperation_DataFlow" />
   </root>
   <root nodeId="1227028544355">
@@ -44,7 +53,10 @@
     <scopeInfo nodeId="1227028544355" fileName="DateTimePlusPeriodOperation_DataFlow.java" startLine="12" startPosition="49" endLine="12" endPosition="49" />
     <scopeInfo nodeId="1227028544355" fileName="DateTimePlusPeriodOperation_DataFlow.java" startLine="11" startPosition="75" endLine="13" endPosition="3" />
     <scopeInfo nodeId="1227028544357" fileName="DateTimePlusPeriodOperation_DataFlow.java" startLine="15" startPosition="102" endLine="17" endPosition="107" />
-    <scopeInfo nodeId="1227028544355" fileName="DateTimePlusPeriodOperation_DataFlow.java" startLine="14" startPosition="0" endLine="19" endPosition="0" />
+    <scopeInfo nodeId="1227028544355" fileName="DateTimePlusPeriodOperation_DataFlow.java" startLine="14" startPosition="0" endLine="19" endPosition="0">
+      <varInfo nodeId="1227028544355" varName="_context" />
+      <varInfo nodeId="1227028544355" varName="operationContext" />
+    </scopeInfo>
     <unitInfo nodeId="1227028544355" fileName="DateTimePlusPeriodOperation_DataFlow.java" startLine="11" startPosition="0" endLine="20" endPosition="0" unitName="jetbrains.mps.baseLanguage.dates.dataFlow.DateTimePlusPeriodOperation_DataFlow" />
   </root>
   <root nodeId="1227028559873">
@@ -56,7 +68,10 @@
     <scopeInfo nodeId="1227028559873" fileName="DateTimeCompareOperation_DataFlow.java" startLine="12" startPosition="46" endLine="12" endPosition="46" />
     <scopeInfo nodeId="1227028559873" fileName="DateTimeCompareOperation_DataFlow.java" startLine="11" startPosition="72" endLine="13" endPosition="3" />
     <scopeInfo nodeId="1227028559875" fileName="DateTimeCompareOperation_DataFlow.java" startLine="15" startPosition="102" endLine="18" endPosition="109" />
-    <scopeInfo nodeId="1227028559873" fileName="DateTimeCompareOperation_DataFlow.java" startLine="14" startPosition="0" endLine="20" endPosition="0" />
+    <scopeInfo nodeId="1227028559873" fileName="DateTimeCompareOperation_DataFlow.java" startLine="14" startPosition="0" endLine="20" endPosition="0">
+      <varInfo nodeId="1227028559873" varName="_context" />
+      <varInfo nodeId="1227028559873" varName="operationContext" />
+    </scopeInfo>
     <unitInfo nodeId="1227028559873" fileName="DateTimeCompareOperation_DataFlow.java" startLine="11" startPosition="0" endLine="21" endPosition="0" unitName="jetbrains.mps.baseLanguage.dates.dataFlow.DateTimeCompareOperation_DataFlow" />
   </root>
   <root nodeId="1227028590411">
@@ -66,7 +81,10 @@
     <scopeInfo nodeId="1227028590411" fileName="PeriodConstant_DataFlow.java" startLine="12" startPosition="36" endLine="12" endPosition="36" />
     <scopeInfo nodeId="1227028590413" fileName="PeriodConstant_DataFlow.java" startLine="15" startPosition="102" endLine="16" endPosition="102" />
     <scopeInfo nodeId="1227028590411" fileName="PeriodConstant_DataFlow.java" startLine="11" startPosition="62" endLine="13" endPosition="3" />
-    <scopeInfo nodeId="1227028590411" fileName="PeriodConstant_DataFlow.java" startLine="14" startPosition="0" endLine="18" endPosition="0" />
+    <scopeInfo nodeId="1227028590411" fileName="PeriodConstant_DataFlow.java" startLine="14" startPosition="0" endLine="18" endPosition="0">
+      <varInfo nodeId="1227028590411" varName="_context" />
+      <varInfo nodeId="1227028590411" varName="operationContext" />
+    </scopeInfo>
     <unitInfo nodeId="1227028590411" fileName="PeriodConstant_DataFlow.java" startLine="11" startPosition="0" endLine="19" endPosition="0" unitName="jetbrains.mps.baseLanguage.dates.dataFlow.PeriodConstant_DataFlow" />
   </root>
   <root nodeId="1227028635954">
@@ -78,7 +96,10 @@
     <scopeInfo nodeId="1227028635954" fileName="DateTimeWithPropertyOperation_DataFlow.java" startLine="12" startPosition="51" endLine="12" endPosition="51" />
     <scopeInfo nodeId="1227028635954" fileName="DateTimeWithPropertyOperation_DataFlow.java" startLine="11" startPosition="77" endLine="13" endPosition="3" />
     <scopeInfo nodeId="1227028635956" fileName="DateTimeWithPropertyOperation_DataFlow.java" startLine="15" startPosition="102" endLine="18" endPosition="109" />
-    <scopeInfo nodeId="1227028635954" fileName="DateTimeWithPropertyOperation_DataFlow.java" startLine="14" startPosition="0" endLine="20" endPosition="0" />
+    <scopeInfo nodeId="1227028635954" fileName="DateTimeWithPropertyOperation_DataFlow.java" startLine="14" startPosition="0" endLine="20" endPosition="0">
+      <varInfo nodeId="1227028635954" varName="_context" />
+      <varInfo nodeId="1227028635954" varName="operationContext" />
+    </scopeInfo>
     <unitInfo nodeId="1227028635954" fileName="DateTimeWithPropertyOperation_DataFlow.java" startLine="11" startPosition="0" endLine="21" endPosition="0" unitName="jetbrains.mps.baseLanguage.dates.dataFlow.DateTimeWithPropertyOperation_DataFlow" />
   </root>
   <root nodeId="1227028728115">
@@ -88,7 +109,10 @@
     <scopeInfo nodeId="1227028728115" fileName="UnaryDateTimeOperation_DataFlow.java" startLine="12" startPosition="44" endLine="12" endPosition="44" />
     <scopeInfo nodeId="1227028728117" fileName="UnaryDateTimeOperation_DataFlow.java" startLine="15" startPosition="102" endLine="16" endPosition="105" />
     <scopeInfo nodeId="1227028728115" fileName="UnaryDateTimeOperation_DataFlow.java" startLine="11" startPosition="70" endLine="13" endPosition="3" />
-    <scopeInfo nodeId="1227028728115" fileName="UnaryDateTimeOperation_DataFlow.java" startLine="14" startPosition="0" endLine="18" endPosition="0" />
+    <scopeInfo nodeId="1227028728115" fileName="UnaryDateTimeOperation_DataFlow.java" startLine="14" startPosition="0" endLine="18" endPosition="0">
+      <varInfo nodeId="1227028728115" varName="_context" />
+      <varInfo nodeId="1227028728115" varName="operationContext" />
+    </scopeInfo>
     <unitInfo nodeId="1227028728115" fileName="UnaryDateTimeOperation_DataFlow.java" startLine="11" startPosition="0" endLine="19" endPosition="0" unitName="jetbrains.mps.baseLanguage.dates.dataFlow.UnaryDateTimeOperation_DataFlow" />
   </root>
   <root nodeId="1239214701609">
@@ -99,7 +123,10 @@
     <scopeInfo nodeId="1239214701609" fileName="PeriodInPropertyOperation_DataFlow.java" startLine="12" startPosition="47" endLine="12" endPosition="47" />
     <scopeInfo nodeId="1239214701609" fileName="PeriodInPropertyOperation_DataFlow.java" startLine="11" startPosition="73" endLine="13" endPosition="3" />
     <scopeInfo nodeId="1239214701611" fileName="PeriodInPropertyOperation_DataFlow.java" startLine="15" startPosition="102" endLine="17" endPosition="109" />
-    <scopeInfo nodeId="1239214701609" fileName="PeriodInPropertyOperation_DataFlow.java" startLine="14" startPosition="0" endLine="19" endPosition="0" />
+    <scopeInfo nodeId="1239214701609" fileName="PeriodInPropertyOperation_DataFlow.java" startLine="14" startPosition="0" endLine="19" endPosition="0">
+      <varInfo nodeId="1239214701609" varName="_context" />
+      <varInfo nodeId="1239214701609" varName="operationContext" />
+    </scopeInfo>
     <unitInfo nodeId="1239214701609" fileName="PeriodInPropertyOperation_DataFlow.java" startLine="11" startPosition="0" endLine="20" endPosition="0" unitName="jetbrains.mps.baseLanguage.dates.dataFlow.PeriodInPropertyOperation_DataFlow" />
   </root>
   <root nodeId="1239792942230">
@@ -114,7 +141,10 @@
     <scopeInfo nodeId="1239792949441" fileName="ConditionalFormatToken_DataFlow.java" startLine="15" startPosition="102" endLine="18" endPosition="5">
       <varInfo nodeId="1239792949443" varName="pair" />
     </scopeInfo>
-    <scopeInfo nodeId="1239792942230" fileName="ConditionalFormatToken_DataFlow.java" startLine="14" startPosition="0" endLine="20" endPosition="0" />
+    <scopeInfo nodeId="1239792942230" fileName="ConditionalFormatToken_DataFlow.java" startLine="14" startPosition="0" endLine="20" endPosition="0">
+      <varInfo nodeId="1239792942230" varName="_context" />
+      <varInfo nodeId="1239792942230" varName="operationContext" />
+    </scopeInfo>
     <unitInfo nodeId="1239792942230" fileName="ConditionalFormatToken_DataFlow.java" startLine="11" startPosition="0" endLine="21" endPosition="0" unitName="jetbrains.mps.baseLanguage.dates.dataFlow.ConditionalFormatToken_DataFlow" />
   </root>
   <root nodeId="1239792992052">
@@ -124,7 +154,10 @@
     <scopeInfo nodeId="1239792992052" fileName="ConstantTimeZoneRef_DataFlow.java" startLine="11" startPosition="41" endLine="11" endPosition="41" />
     <scopeInfo nodeId="1239792992054" fileName="ConstantTimeZoneRef_DataFlow.java" startLine="14" startPosition="102" endLine="15" endPosition="97" />
     <scopeInfo nodeId="1239792992052" fileName="ConstantTimeZoneRef_DataFlow.java" startLine="10" startPosition="67" endLine="12" endPosition="3" />
-    <scopeInfo nodeId="1239792992052" fileName="ConstantTimeZoneRef_DataFlow.java" startLine="13" startPosition="0" endLine="17" endPosition="0" />
+    <scopeInfo nodeId="1239792992052" fileName="ConstantTimeZoneRef_DataFlow.java" startLine="13" startPosition="0" endLine="17" endPosition="0">
+      <varInfo nodeId="1239792992052" varName="_context" />
+      <varInfo nodeId="1239792992052" varName="operationContext" />
+    </scopeInfo>
     <unitInfo nodeId="1239792992052" fileName="ConstantTimeZoneRef_DataFlow.java" startLine="10" startPosition="0" endLine="18" endPosition="0" unitName="jetbrains.mps.baseLanguage.dates.dataFlow.ConstantTimeZoneRef_DataFlow" />
   </root>
   <root nodeId="1239793027230">
@@ -139,7 +172,10 @@
     <scopeInfo nodeId="1239793029907" fileName="DateFormat_DataFlow.java" startLine="15" startPosition="102" endLine="18" endPosition="5">
       <varInfo nodeId="1239793029909" varName="token" />
     </scopeInfo>
-    <scopeInfo nodeId="1239793027230" fileName="DateFormat_DataFlow.java" startLine="14" startPosition="0" endLine="20" endPosition="0" />
+    <scopeInfo nodeId="1239793027230" fileName="DateFormat_DataFlow.java" startLine="14" startPosition="0" endLine="20" endPosition="0">
+      <varInfo nodeId="1239793027230" varName="_context" />
+      <varInfo nodeId="1239793027230" varName="operationContext" />
+    </scopeInfo>
     <unitInfo nodeId="1239793027230" fileName="DateFormat_DataFlow.java" startLine="11" startPosition="0" endLine="21" endPosition="0" unitName="jetbrains.mps.baseLanguage.dates.dataFlow.DateFormat_DataFlow" />
   </root>
   <root nodeId="1239793060770">
@@ -154,7 +190,10 @@
     <scopeInfo nodeId="1239793062774" fileName="DateFormatsTable_DataFlow.java" startLine="15" startPosition="102" endLine="18" endPosition="5">
       <varInfo nodeId="1239793062776" varName="format" />
     </scopeInfo>
-    <scopeInfo nodeId="1239793060770" fileName="DateFormatsTable_DataFlow.java" startLine="14" startPosition="0" endLine="20" endPosition="0" />
+    <scopeInfo nodeId="1239793060770" fileName="DateFormatsTable_DataFlow.java" startLine="14" startPosition="0" endLine="20" endPosition="0">
+      <varInfo nodeId="1239793060770" varName="_context" />
+      <varInfo nodeId="1239793060770" varName="operationContext" />
+    </scopeInfo>
     <unitInfo nodeId="1239793060770" fileName="DateFormatsTable_DataFlow.java" startLine="11" startPosition="0" endLine="21" endPosition="0" unitName="jetbrains.mps.baseLanguage.dates.dataFlow.DateFormatsTable_DataFlow" />
   </root>
   <root nodeId="1239793091231">
@@ -169,7 +208,10 @@
     <scopeInfo nodeId="1239793093312" fileName="DateTimeOffsetFormatToken_DataFlow.java" startLine="15" startPosition="102" endLine="18" endPosition="5">
       <varInfo nodeId="1239793093314" varName="reference" />
     </scopeInfo>
-    <scopeInfo nodeId="1239793091231" fileName="DateTimeOffsetFormatToken_DataFlow.java" startLine="14" startPosition="0" endLine="20" endPosition="0" />
+    <scopeInfo nodeId="1239793091231" fileName="DateTimeOffsetFormatToken_DataFlow.java" startLine="14" startPosition="0" endLine="20" endPosition="0">
+      <varInfo nodeId="1239793091231" varName="_context" />
+      <varInfo nodeId="1239793091231" varName="operationContext" />
+    </scopeInfo>
     <unitInfo nodeId="1239793091231" fileName="DateTimeOffsetFormatToken_DataFlow.java" startLine="11" startPosition="0" endLine="21" endPosition="0" unitName="jetbrains.mps.baseLanguage.dates.dataFlow.DateTimeOffsetFormatToken_DataFlow" />
   </root>
   <root nodeId="1239793205216">
@@ -191,7 +233,10 @@
       <varInfo nodeId="1239793218234" varName="formatToken" />
     </scopeInfo>
     <scopeInfo nodeId="1239793205218" fileName="InlineFormatExpression_DataFlow.java" startLine="15" startPosition="102" endLine="25" endPosition="5" />
-    <scopeInfo nodeId="1239793205216" fileName="InlineFormatExpression_DataFlow.java" startLine="14" startPosition="0" endLine="27" endPosition="0" />
+    <scopeInfo nodeId="1239793205216" fileName="InlineFormatExpression_DataFlow.java" startLine="14" startPosition="0" endLine="27" endPosition="0">
+      <varInfo nodeId="1239793205216" varName="_context" />
+      <varInfo nodeId="1239793205216" varName="operationContext" />
+    </scopeInfo>
     <unitInfo nodeId="1239793205216" fileName="InlineFormatExpression_DataFlow.java" startLine="11" startPosition="0" endLine="28" endPosition="0" unitName="jetbrains.mps.baseLanguage.dates.dataFlow.InlineFormatExpression_DataFlow" />
   </root>
   <root nodeId="1239793260324">
@@ -200,7 +245,10 @@
     <scopeInfo nodeId="1239793260324" fileName="LiteralFormatToken_DataFlow.java" startLine="10" startPosition="40" endLine="10" endPosition="40" />
     <scopeInfo nodeId="1239793260326" fileName="LiteralFormatToken_DataFlow.java" startLine="13" startPosition="102" endLine="13" endPosition="102" />
     <scopeInfo nodeId="1239793260324" fileName="LiteralFormatToken_DataFlow.java" startLine="9" startPosition="66" endLine="11" endPosition="3" />
-    <scopeInfo nodeId="1239793260324" fileName="LiteralFormatToken_DataFlow.java" startLine="12" startPosition="0" endLine="15" endPosition="0" />
+    <scopeInfo nodeId="1239793260324" fileName="LiteralFormatToken_DataFlow.java" startLine="12" startPosition="0" endLine="15" endPosition="0">
+      <varInfo nodeId="1239793260324" varName="_context" />
+      <varInfo nodeId="1239793260324" varName="operationContext" />
+    </scopeInfo>
     <unitInfo nodeId="1239793260324" fileName="LiteralFormatToken_DataFlow.java" startLine="9" startPosition="0" endLine="16" endPosition="0" unitName="jetbrains.mps.baseLanguage.dates.dataFlow.LiteralFormatToken_DataFlow" />
   </root>
   <root nodeId="1239793281628">
@@ -210,7 +258,10 @@
     <scopeInfo nodeId="1239793281628" fileName="ReferenceFormatToken_DataFlow.java" startLine="11" startPosition="42" endLine="11" endPosition="42" />
     <scopeInfo nodeId="1239793281630" fileName="ReferenceFormatToken_DataFlow.java" startLine="14" startPosition="102" endLine="15" endPosition="103" />
     <scopeInfo nodeId="1239793281628" fileName="ReferenceFormatToken_DataFlow.java" startLine="10" startPosition="68" endLine="12" endPosition="3" />
-    <scopeInfo nodeId="1239793281628" fileName="ReferenceFormatToken_DataFlow.java" startLine="13" startPosition="0" endLine="17" endPosition="0" />
+    <scopeInfo nodeId="1239793281628" fileName="ReferenceFormatToken_DataFlow.java" startLine="13" startPosition="0" endLine="17" endPosition="0">
+      <varInfo nodeId="1239793281628" varName="_context" />
+      <varInfo nodeId="1239793281628" varName="operationContext" />
+    </scopeInfo>
     <unitInfo nodeId="1239793281628" fileName="ReferenceFormatToken_DataFlow.java" startLine="10" startPosition="0" endLine="18" endPosition="0" unitName="jetbrains.mps.baseLanguage.dates.dataFlow.ReferenceFormatToken_DataFlow" />
   </root>
   <root nodeId="1239793322146">
@@ -221,7 +272,10 @@
     <scopeInfo nodeId="1239793322146" fileName="TokenConditionalPair_DataFlow.java" startLine="12" startPosition="42" endLine="12" endPosition="42" />
     <scopeInfo nodeId="1239793322146" fileName="TokenConditionalPair_DataFlow.java" startLine="11" startPosition="68" endLine="13" endPosition="3" />
     <scopeInfo nodeId="1239793322148" fileName="TokenConditionalPair_DataFlow.java" startLine="15" startPosition="102" endLine="17" endPosition="99" />
-    <scopeInfo nodeId="1239793322146" fileName="TokenConditionalPair_DataFlow.java" startLine="14" startPosition="0" endLine="19" endPosition="0" />
+    <scopeInfo nodeId="1239793322146" fileName="TokenConditionalPair_DataFlow.java" startLine="14" startPosition="0" endLine="19" endPosition="0">
+      <varInfo nodeId="1239793322146" varName="_context" />
+      <varInfo nodeId="1239793322146" varName="operationContext" />
+    </scopeInfo>
     <unitInfo nodeId="1239793322146" fileName="TokenConditionalPair_DataFlow.java" startLine="11" startPosition="0" endLine="20" endPosition="0" unitName="jetbrains.mps.baseLanguage.dates.dataFlow.TokenConditionalPair_DataFlow" />
   </root>
   <root nodeId="1239799918898">
@@ -231,7 +285,10 @@
     <scopeInfo nodeId="1239799918898" fileName="TimeZoneFromString_DataFlow.java" startLine="12" startPosition="40" endLine="12" endPosition="40" />
     <scopeInfo nodeId="1239799918900" fileName="TimeZoneFromString_DataFlow.java" startLine="15" startPosition="102" endLine="16" endPosition="103" />
     <scopeInfo nodeId="1239799918898" fileName="TimeZoneFromString_DataFlow.java" startLine="11" startPosition="66" endLine="13" endPosition="3" />
-    <scopeInfo nodeId="1239799918898" fileName="TimeZoneFromString_DataFlow.java" startLine="14" startPosition="0" endLine="18" endPosition="0" />
+    <scopeInfo nodeId="1239799918898" fileName="TimeZoneFromString_DataFlow.java" startLine="14" startPosition="0" endLine="18" endPosition="0">
+      <varInfo nodeId="1239799918898" varName="_context" />
+      <varInfo nodeId="1239799918898" varName="operationContext" />
+    </scopeInfo>
     <unitInfo nodeId="1239799918898" fileName="TimeZoneFromString_DataFlow.java" startLine="11" startPosition="0" endLine="19" endPosition="0" unitName="jetbrains.mps.baseLanguage.dates.dataFlow.TimeZoneFromString_DataFlow" />
   </root>
   <root nodeId="1239800008777">
@@ -242,7 +299,10 @@
     <scopeInfo nodeId="1239800008777" fileName="MathDateTimeOperation_DataFlow.java" startLine="12" startPosition="43" endLine="12" endPosition="43" />
     <scopeInfo nodeId="1239800008777" fileName="MathDateTimeOperation_DataFlow.java" startLine="11" startPosition="69" endLine="13" endPosition="3" />
     <scopeInfo nodeId="1239800008779" fileName="MathDateTimeOperation_DataFlow.java" startLine="15" startPosition="102" endLine="17" endPosition="112" />
-    <scopeInfo nodeId="1239800008777" fileName="MathDateTimeOperation_DataFlow.java" startLine="14" startPosition="0" endLine="19" endPosition="0" />
+    <scopeInfo nodeId="1239800008777" fileName="MathDateTimeOperation_DataFlow.java" startLine="14" startPosition="0" endLine="19" endPosition="0">
+      <varInfo nodeId="1239800008777" varName="_context" />
+      <varInfo nodeId="1239800008777" varName="operationContext" />
+    </scopeInfo>
     <unitInfo nodeId="1239800008777" fileName="MathDateTimeOperation_DataFlow.java" startLine="11" startPosition="0" endLine="20" endPosition="0" unitName="jetbrains.mps.baseLanguage.dates.dataFlow.MathDateTimeOperation_DataFlow" />
   </root>
   <root nodeId="1239800030656">
@@ -252,7 +312,10 @@
     <scopeInfo nodeId="1239800030656" fileName="DateTimePropetyReferenceOperation_DataFlow.java" startLine="11" startPosition="55" endLine="11" endPosition="55" />
     <scopeInfo nodeId="1239800030658" fileName="DateTimePropetyReferenceOperation_DataFlow.java" startLine="14" startPosition="102" endLine="15" endPosition="109" />
     <scopeInfo nodeId="1239800030656" fileName="DateTimePropetyReferenceOperation_DataFlow.java" startLine="10" startPosition="81" endLine="12" endPosition="3" />
-    <scopeInfo nodeId="1239800030656" fileName="DateTimePropetyReferenceOperation_DataFlow.java" startLine="13" startPosition="0" endLine="17" endPosition="0" />
+    <scopeInfo nodeId="1239800030656" fileName="DateTimePropetyReferenceOperation_DataFlow.java" startLine="13" startPosition="0" endLine="17" endPosition="0">
+      <varInfo nodeId="1239800030656" varName="_context" />
+      <varInfo nodeId="1239800030656" varName="operationContext" />
+    </scopeInfo>
     <unitInfo nodeId="1239800030656" fileName="DateTimePropetyReferenceOperation_DataFlow.java" startLine="10" startPosition="0" endLine="18" endPosition="0" unitName="jetbrains.mps.baseLanguage.dates.dataFlow.DateTimePropetyReferenceOperation_DataFlow" />
   </root>
   <root nodeId="1239803254706">
@@ -263,7 +326,10 @@
     <scopeInfo nodeId="1239803254706" fileName="RoundDateTimeOperation_DataFlow.java" startLine="12" startPosition="44" endLine="12" endPosition="44" />
     <scopeInfo nodeId="1239803254706" fileName="RoundDateTimeOperation_DataFlow.java" startLine="11" startPosition="70" endLine="13" endPosition="3" />
     <scopeInfo nodeId="1239803254708" fileName="RoundDateTimeOperation_DataFlow.java" startLine="15" startPosition="102" endLine="17" endPosition="102" />
-    <scopeInfo nodeId="1239803254706" fileName="RoundDateTimeOperation_DataFlow.java" startLine="14" startPosition="0" endLine="19" endPosition="0" />
+    <scopeInfo nodeId="1239803254706" fileName="RoundDateTimeOperation_DataFlow.java" startLine="14" startPosition="0" endLine="19" endPosition="0">
+      <varInfo nodeId="1239803254706" varName="_context" />
+      <varInfo nodeId="1239803254706" varName="operationContext" />
+    </scopeInfo>
     <unitInfo nodeId="1239803254706" fileName="RoundDateTimeOperation_DataFlow.java" startLine="11" startPosition="0" endLine="20" endPosition="0" unitName="jetbrains.mps.baseLanguage.dates.dataFlow.RoundDateTimeOperation_DataFlow" />
   </root>
   <root nodeId="1239803463201">
@@ -274,7 +340,10 @@
     <scopeInfo nodeId="1239803463201" fileName="WithPropertyCompareExpression_DataFlow.java" startLine="12" startPosition="51" endLine="12" endPosition="51" />
     <scopeInfo nodeId="1239803463201" fileName="WithPropertyCompareExpression_DataFlow.java" startLine="11" startPosition="77" endLine="13" endPosition="3" />
     <scopeInfo nodeId="1239803463203" fileName="WithPropertyCompareExpression_DataFlow.java" startLine="15" startPosition="102" endLine="17" endPosition="109" />
-    <scopeInfo nodeId="1239803463201" fileName="WithPropertyCompareExpression_DataFlow.java" startLine="14" startPosition="0" endLine="19" endPosition="0" />
+    <scopeInfo nodeId="1239803463201" fileName="WithPropertyCompareExpression_DataFlow.java" startLine="14" startPosition="0" endLine="19" endPosition="0">
+      <varInfo nodeId="1239803463201" varName="_context" />
+      <varInfo nodeId="1239803463201" varName="operationContext" />
+    </scopeInfo>
     <unitInfo nodeId="1239803463201" fileName="WithPropertyCompareExpression_DataFlow.java" startLine="11" startPosition="0" endLine="20" endPosition="0" unitName="jetbrains.mps.baseLanguage.dates.dataFlow.WithPropertyCompareExpression_DataFlow" />
   </root>
   <root nodeId="194163770812053383">
@@ -293,7 +362,10 @@
       <varInfo nodeId="194163770812053399" varName="formatToken" />
     </scopeInfo>
     <scopeInfo nodeId="194163770812053385" fileName="InlineFormatDateTimeExpression_DataFlow.java" startLine="15" startPosition="102" endLine="22" endPosition="5" />
-    <scopeInfo nodeId="194163770812053383" fileName="InlineFormatDateTimeExpression_DataFlow.java" startLine="14" startPosition="0" endLine="24" endPosition="0" />
+    <scopeInfo nodeId="194163770812053383" fileName="InlineFormatDateTimeExpression_DataFlow.java" startLine="14" startPosition="0" endLine="24" endPosition="0">
+      <varInfo nodeId="194163770812053383" varName="_context" />
+      <varInfo nodeId="194163770812053383" varName="operationContext" />
+    </scopeInfo>
     <unitInfo nodeId="194163770812053383" fileName="InlineFormatDateTimeExpression_DataFlow.java" startLine="11" startPosition="0" endLine="25" endPosition="0" unitName="jetbrains.mps.baseLanguage.dates.dataFlow.InlineFormatDateTimeExpression_DataFlow" />
   </root>
   <root nodeId="2644539331223078389">
@@ -304,7 +376,10 @@
     <scopeInfo nodeId="2644539331223078389" fileName="InTimezoneExpression_DataFlow.java" startLine="12" startPosition="42" endLine="12" endPosition="42" />
     <scopeInfo nodeId="2644539331223078389" fileName="InTimezoneExpression_DataFlow.java" startLine="11" startPosition="68" endLine="13" endPosition="3" />
     <scopeInfo nodeId="2644539331223078391" fileName="InTimezoneExpression_DataFlow.java" startLine="15" startPosition="102" endLine="17" endPosition="105" />
-    <scopeInfo nodeId="2644539331223078389" fileName="InTimezoneExpression_DataFlow.java" startLine="14" startPosition="0" endLine="19" endPosition="0" />
+    <scopeInfo nodeId="2644539331223078389" fileName="InTimezoneExpression_DataFlow.java" startLine="14" startPosition="0" endLine="19" endPosition="0">
+      <varInfo nodeId="2644539331223078389" varName="_context" />
+      <varInfo nodeId="2644539331223078389" varName="operationContext" />
+    </scopeInfo>
     <unitInfo nodeId="2644539331223078389" fileName="InTimezoneExpression_DataFlow.java" startLine="11" startPosition="0" endLine="20" endPosition="0" unitName="jetbrains.mps.baseLanguage.dates.dataFlow.InTimezoneExpression_DataFlow" />
   </root>
   <root nodeId="276836602888578389">
@@ -315,7 +390,10 @@
     <scopeInfo nodeId="276836602888578389" fileName="PeriodInPropertyExpression_DataFlow.java" startLine="12" startPosition="48" endLine="12" endPosition="48" />
     <scopeInfo nodeId="276836602888578389" fileName="PeriodInPropertyExpression_DataFlow.java" startLine="11" startPosition="74" endLine="13" endPosition="3" />
     <scopeInfo nodeId="276836602888578391" fileName="PeriodInPropertyExpression_DataFlow.java" startLine="15" startPosition="102" endLine="17" endPosition="109" />
-    <scopeInfo nodeId="276836602888578389" fileName="PeriodInPropertyExpression_DataFlow.java" startLine="14" startPosition="0" endLine="19" endPosition="0" />
+    <scopeInfo nodeId="276836602888578389" fileName="PeriodInPropertyExpression_DataFlow.java" startLine="14" startPosition="0" endLine="19" endPosition="0">
+      <varInfo nodeId="276836602888578389" varName="_context" />
+      <varInfo nodeId="276836602888578389" varName="operationContext" />
+    </scopeInfo>
     <unitInfo nodeId="276836602888578389" fileName="PeriodInPropertyExpression_DataFlow.java" startLine="11" startPosition="0" endLine="20" endPosition="0" unitName="jetbrains.mps.baseLanguage.dates.dataFlow.PeriodInPropertyExpression_DataFlow" />
   </root>
   <root nodeId="34521615669576938">
@@ -327,7 +405,10 @@
     <scopeInfo nodeId="34521615669576938" fileName="FormatPeriodExpression_DataFlow.java" startLine="12" startPosition="44" endLine="12" endPosition="44" />
     <scopeInfo nodeId="34521615669576938" fileName="FormatPeriodExpression_DataFlow.java" startLine="11" startPosition="70" endLine="13" endPosition="3" />
     <scopeInfo nodeId="34521615669576940" fileName="FormatPeriodExpression_DataFlow.java" startLine="15" startPosition="102" endLine="18" endPosition="99" />
-    <scopeInfo nodeId="34521615669576938" fileName="FormatPeriodExpression_DataFlow.java" startLine="14" startPosition="0" endLine="20" endPosition="0" />
+    <scopeInfo nodeId="34521615669576938" fileName="FormatPeriodExpression_DataFlow.java" startLine="14" startPosition="0" endLine="20" endPosition="0">
+      <varInfo nodeId="34521615669576938" varName="_context" />
+      <varInfo nodeId="34521615669576938" varName="operationContext" />
+    </scopeInfo>
     <unitInfo nodeId="34521615669576938" fileName="FormatPeriodExpression_DataFlow.java" startLine="11" startPosition="0" endLine="21" endPosition="0" unitName="jetbrains.mps.baseLanguage.dates.dataFlow.FormatPeriodExpression_DataFlow" />
   </root>
   <root nodeId="4389880778953638877">
@@ -339,7 +420,10 @@
     <scopeInfo nodeId="4389880778953638877" fileName="ParseDateTimeExpression_DataFlow.java" startLine="12" startPosition="45" endLine="12" endPosition="45" />
     <scopeInfo nodeId="4389880778953638877" fileName="ParseDateTimeExpression_DataFlow.java" startLine="11" startPosition="71" endLine="13" endPosition="3" />
     <scopeInfo nodeId="4389880778953638879" fileName="ParseDateTimeExpression_DataFlow.java" startLine="15" startPosition="102" endLine="18" endPosition="104" />
-    <scopeInfo nodeId="4389880778953638877" fileName="ParseDateTimeExpression_DataFlow.java" startLine="14" startPosition="0" endLine="20" endPosition="0" />
+    <scopeInfo nodeId="4389880778953638877" fileName="ParseDateTimeExpression_DataFlow.java" startLine="14" startPosition="0" endLine="20" endPosition="0">
+      <varInfo nodeId="4389880778953638877" varName="_context" />
+      <varInfo nodeId="4389880778953638877" varName="operationContext" />
+    </scopeInfo>
     <unitInfo nodeId="4389880778953638877" fileName="ParseDateTimeExpression_DataFlow.java" startLine="11" startPosition="0" endLine="21" endPosition="0" unitName="jetbrains.mps.baseLanguage.dates.dataFlow.ParseDateTimeExpression_DataFlow" />
   </root>
   <root nodeId="48671598477581853">
@@ -354,7 +438,10 @@
     <scopeInfo nodeId="48671598477581856" fileName="PeriodFormat_DataFlow.java" startLine="15" startPosition="102" endLine="18" endPosition="5">
       <varInfo nodeId="48671598477581858" varName="t" />
     </scopeInfo>
-    <scopeInfo nodeId="48671598477581853" fileName="PeriodFormat_DataFlow.java" startLine="14" startPosition="0" endLine="20" endPosition="0" />
+    <scopeInfo nodeId="48671598477581853" fileName="PeriodFormat_DataFlow.java" startLine="14" startPosition="0" endLine="20" endPosition="0">
+      <varInfo nodeId="48671598477581853" varName="_context" />
+      <varInfo nodeId="48671598477581853" varName="operationContext" />
+    </scopeInfo>
     <unitInfo nodeId="48671598477581853" fileName="PeriodFormat_DataFlow.java" startLine="11" startPosition="0" endLine="21" endPosition="0" unitName="jetbrains.mps.baseLanguage.dates.dataFlow.PeriodFormat_DataFlow" />
   </root>
   <root nodeId="48671598477852510">
@@ -369,7 +456,10 @@
     <scopeInfo nodeId="48671598477852513" fileName="PeriodFormatsTable_DataFlow.java" startLine="15" startPosition="102" endLine="18" endPosition="5">
       <varInfo nodeId="48671598477852515" varName="format" />
     </scopeInfo>
-    <scopeInfo nodeId="48671598477852510" fileName="PeriodFormatsTable_DataFlow.java" startLine="14" startPosition="0" endLine="20" endPosition="0" />
+    <scopeInfo nodeId="48671598477852510" fileName="PeriodFormatsTable_DataFlow.java" startLine="14" startPosition="0" endLine="20" endPosition="0">
+      <varInfo nodeId="48671598477852510" varName="_context" />
+      <varInfo nodeId="48671598477852510" varName="operationContext" />
+    </scopeInfo>
     <unitInfo nodeId="48671598477852510" fileName="PeriodFormatsTable_DataFlow.java" startLine="11" startPosition="0" endLine="21" endPosition="0" unitName="jetbrains.mps.baseLanguage.dates.dataFlow.PeriodFormatsTable_DataFlow" />
   </root>
   <root nodeId="5034322243092302165">
@@ -381,7 +471,10 @@
     <scopeInfo nodeId="5034322243092302165" fileName="FormatDateTimeExpression_DataFlow.java" startLine="12" startPosition="46" endLine="12" endPosition="46" />
     <scopeInfo nodeId="5034322243092302165" fileName="FormatDateTimeExpression_DataFlow.java" startLine="11" startPosition="72" endLine="13" endPosition="3" />
     <scopeInfo nodeId="5034322243092302167" fileName="FormatDateTimeExpression_DataFlow.java" startLine="15" startPosition="102" endLine="18" endPosition="99" />
-    <scopeInfo nodeId="5034322243092302165" fileName="FormatDateTimeExpression_DataFlow.java" startLine="14" startPosition="0" endLine="20" endPosition="0" />
+    <scopeInfo nodeId="5034322243092302165" fileName="FormatDateTimeExpression_DataFlow.java" startLine="14" startPosition="0" endLine="20" endPosition="0">
+      <varInfo nodeId="5034322243092302165" varName="_context" />
+      <varInfo nodeId="5034322243092302165" varName="operationContext" />
+    </scopeInfo>
     <unitInfo nodeId="5034322243092302165" fileName="FormatDateTimeExpression_DataFlow.java" startLine="11" startPosition="0" endLine="21" endPosition="0" unitName="jetbrains.mps.baseLanguage.dates.dataFlow.FormatDateTimeExpression_DataFlow" />
   </root>
   <root nodeId="5293902215866558871">
@@ -392,7 +485,10 @@
     <scopeInfo nodeId="5293902215866558871" fileName="TimeZoneNameOperation_DataFlow.java" startLine="12" startPosition="43" endLine="12" endPosition="43" />
     <scopeInfo nodeId="5293902215866558871" fileName="TimeZoneNameOperation_DataFlow.java" startLine="11" startPosition="69" endLine="13" endPosition="3" />
     <scopeInfo nodeId="5293902215866558873" fileName="TimeZoneNameOperation_DataFlow.java" startLine="15" startPosition="102" endLine="17" endPosition="99" />
-    <scopeInfo nodeId="5293902215866558871" fileName="TimeZoneNameOperation_DataFlow.java" startLine="14" startPosition="0" endLine="19" endPosition="0" />
+    <scopeInfo nodeId="5293902215866558871" fileName="TimeZoneNameOperation_DataFlow.java" startLine="14" startPosition="0" endLine="19" endPosition="0">
+      <varInfo nodeId="5293902215866558871" varName="_context" />
+      <varInfo nodeId="5293902215866558871" varName="operationContext" />
+    </scopeInfo>
     <unitInfo nodeId="5293902215866558871" fileName="TimeZoneNameOperation_DataFlow.java" startLine="11" startPosition="0" endLine="20" endPosition="0" unitName="jetbrains.mps.baseLanguage.dates.dataFlow.TimeZoneNameOperation_DataFlow" />
   </root>
   <root nodeId="7249953535157218350">
@@ -402,7 +498,10 @@
     <scopeInfo nodeId="7249953535157218350" fileName="PeriodReferenceFormatToken_DataFlow.java" startLine="11" startPosition="48" endLine="11" endPosition="48" />
     <scopeInfo nodeId="7249953535157218352" fileName="PeriodReferenceFormatToken_DataFlow.java" startLine="14" startPosition="102" endLine="15" endPosition="99" />
     <scopeInfo nodeId="7249953535157218350" fileName="PeriodReferenceFormatToken_DataFlow.java" startLine="10" startPosition="74" endLine="12" endPosition="3" />
-    <scopeInfo nodeId="7249953535157218350" fileName="PeriodReferenceFormatToken_DataFlow.java" startLine="13" startPosition="0" endLine="17" endPosition="0" />
+    <scopeInfo nodeId="7249953535157218350" fileName="PeriodReferenceFormatToken_DataFlow.java" startLine="13" startPosition="0" endLine="17" endPosition="0">
+      <varInfo nodeId="7249953535157218350" varName="_context" />
+      <varInfo nodeId="7249953535157218350" varName="operationContext" />
+    </scopeInfo>
     <unitInfo nodeId="7249953535157218350" fileName="PeriodReferenceFormatToken_DataFlow.java" startLine="10" startPosition="0" endLine="18" endPosition="0" unitName="jetbrains.mps.baseLanguage.dates.dataFlow.PeriodReferenceFormatToken_DataFlow" />
   </root>
   <root nodeId="7678715681280286742">
@@ -414,7 +513,10 @@
     <scopeInfo nodeId="7678715681280286742" fileName="ParseExpression_DataFlow.java" startLine="12" startPosition="37" endLine="12" endPosition="37" />
     <scopeInfo nodeId="7678715681280286742" fileName="ParseExpression_DataFlow.java" startLine="11" startPosition="63" endLine="13" endPosition="3" />
     <scopeInfo nodeId="7678715681280286744" fileName="ParseExpression_DataFlow.java" startLine="15" startPosition="102" endLine="18" endPosition="104" />
-    <scopeInfo nodeId="7678715681280286742" fileName="ParseExpression_DataFlow.java" startLine="14" startPosition="0" endLine="20" endPosition="0" />
+    <scopeInfo nodeId="7678715681280286742" fileName="ParseExpression_DataFlow.java" startLine="14" startPosition="0" endLine="20" endPosition="0">
+      <varInfo nodeId="7678715681280286742" varName="_context" />
+      <varInfo nodeId="7678715681280286742" varName="operationContext" />
+    </scopeInfo>
     <unitInfo nodeId="7678715681280286742" fileName="ParseExpression_DataFlow.java" startLine="11" startPosition="0" endLine="21" endPosition="0" unitName="jetbrains.mps.baseLanguage.dates.dataFlow.ParseExpression_DataFlow" />
   </root>
 </debugInfo>
