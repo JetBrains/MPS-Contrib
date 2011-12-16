@@ -13,7 +13,9 @@
     <scopeInfo nodeId="5211164146776725757" fileName="XMLStringLiteral_TextGen.java" startLine="12" startPosition="22" endLine="13" endPosition="145" />
     <scopeInfo nodeId="5211164146776725754" fileName="XMLStringLiteral_TextGen.java" startLine="13" startPosition="145" endLine="14" endPosition="22" />
     <scopeInfo nodeId="5211164146776719939" fileName="XMLStringLiteral_TextGen.java" startLine="11" startPosition="42" endLine="14" endPosition="22" />
-    <scopeInfo nodeId="5211164146776719939" fileName="XMLStringLiteral_TextGen.java" startLine="10" startPosition="60" endLine="16" endPosition="0" />
+    <scopeInfo nodeId="5211164146776719939" fileName="XMLStringLiteral_TextGen.java" startLine="10" startPosition="60" endLine="16" endPosition="0">
+      <varInfo nodeId="5211164146776719939" varName="node" />
+    </scopeInfo>
     <unitInfo nodeId="5211164146776719939" fileName="XMLStringLiteral_TextGen.java" startLine="10" startPosition="0" endLine="17" endPosition="0" unitName="jetbrains.mps.xmlUnitTest.textGen.XMLStringLiteral_TextGen" />
   </root>
   <root nodeId="5211164146776738338">
@@ -22,7 +24,9 @@
     <nodeInfo nodeId="5211164146776738338" fileName="XMLLiteral_TextGen.java" startLine="8" startPosition="54" endLine="12" endPosition="0" conceptFqName="jetbrains.mps.baseLanguage.structure.InstanceMethodDeclaration" propertyString="doGenerateText#(Ljetbrains/mps/smodel/SNode;)V" />
     <scopeInfo nodeId="5211164146776738338" fileName="XMLLiteral_TextGen.java" startLine="9" startPosition="42" endLine="10" endPosition="55" />
     <scopeInfo nodeId="5211164146776942548" fileName="XMLLiteral_TextGen.java" startLine="9" startPosition="42" endLine="10" endPosition="55" />
-    <scopeInfo nodeId="5211164146776738338" fileName="XMLLiteral_TextGen.java" startLine="8" startPosition="54" endLine="12" endPosition="0" />
+    <scopeInfo nodeId="5211164146776738338" fileName="XMLLiteral_TextGen.java" startLine="8" startPosition="54" endLine="12" endPosition="0">
+      <varInfo nodeId="5211164146776738338" varName="node" />
+    </scopeInfo>
     <unitInfo nodeId="5211164146776738338" fileName="XMLLiteral_TextGen.java" startLine="8" startPosition="0" endLine="13" endPosition="0" unitName="jetbrains.mps.xmlUnitTest.textGen.XMLLiteral_TextGen" />
   </root>
   <root nodeId="5211164146776769242">
@@ -131,6 +135,7 @@
       <varInfo nodeId="5211164146776771037" varName="result" />
     </scopeInfo>
     <scopeInfo nodeId="5211164146776771028" fileName="EscapingElementCreator.java" startLine="16" startPosition="69" endLine="29" endPosition="0">
+      <varInfo nodeId="5211164146776771028" varName="textGen" />
       <varInfo nodeId="5211164146776771032" varName="xml" />
     </scopeInfo>
     <unitInfo nodeId="5211164146776771028" fileName="EscapingElementCreator.java" startLine="16" startPosition="0" endLine="30" endPosition="0" unitName="jetbrains.mps.xmlUnitTest.textGen.EscapingElementCreator" />
@@ -144,8 +149,12 @@
     <scopeInfo nodeId="5266766379151917310" fileName="Document_TextGen.java" startLine="9" startPosition="42" endLine="10" endPosition="41" />
     <scopeInfo nodeId="5266766379151917313" fileName="Document_TextGen.java" startLine="9" startPosition="42" endLine="10" endPosition="41" />
     <scopeInfo nodeId="5266766379151917310" fileName="Document_TextGen.java" startLine="13" startPosition="42" endLine="14" endPosition="17" />
-    <scopeInfo nodeId="5266766379151917310" fileName="Document_TextGen.java" startLine="8" startPosition="52" endLine="12" endPosition="0" />
-    <scopeInfo nodeId="5266766379151917310" fileName="Document_TextGen.java" startLine="12" startPosition="0" endLine="16" endPosition="0" />
+    <scopeInfo nodeId="5266766379151917310" fileName="Document_TextGen.java" startLine="8" startPosition="52" endLine="12" endPosition="0">
+      <varInfo nodeId="5266766379151917310" varName="node" />
+    </scopeInfo>
+    <scopeInfo nodeId="5266766379151917310" fileName="Document_TextGen.java" startLine="12" startPosition="0" endLine="16" endPosition="0">
+      <varInfo nodeId="5266766379151917310" varName="node" />
+    </scopeInfo>
     <unitInfo nodeId="5266766379151917310" fileName="Document_TextGen.java" startLine="8" startPosition="0" endLine="17" endPosition="0" unitName="jetbrains.mps.xmlUnitTest.textGen.Document_TextGen" />
   </root>
   <root nodeId="5266766379151917320">
@@ -206,6 +215,7 @@
     </scopeInfo>
     <scopeInfo nodeId="5266766379151917320" fileName="ElementCreator.java" startLine="16" startPosition="38" endLine="32" endPosition="0">
       <varInfo nodeId="5266766379151917472" varName="node" />
+      <varInfo nodeId="5266766379151917320" varName="textGen" />
     </scopeInfo>
     <scopeInfo nodeId="5266766379151917320" fileName="ElementCreator.java" startLine="33" startPosition="85" endLine="53" endPosition="18">
       <varInfo nodeId="5266766379151917357" varName="first" />
@@ -213,6 +223,7 @@
     </scopeInfo>
     <scopeInfo nodeId="5266766379151917320" fileName="ElementCreator.java" startLine="32" startPosition="0" endLine="55" endPosition="0">
       <varInfo nodeId="5266766379151917409" varName="element" />
+      <varInfo nodeId="5266766379151917320" varName="textGen" />
     </scopeInfo>
     <unitInfo nodeId="5266766379151917320" fileName="ElementCreator.java" startLine="16" startPosition="0" endLine="56" endPosition="0" unitName="jetbrains.mps.xmlUnitTest.textGen.ElementCreator" />
   </root>

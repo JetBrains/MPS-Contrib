@@ -24,7 +24,9 @@
     <scopeInfo nodeId="1237463991927" fileName="GConditionalLine_TextGen.java" startLine="23" startPosition="93" endLine="26" endPosition="7" />
     <scopeInfo nodeId="1237463991927" fileName="GConditionalLine_TextGen.java" startLine="22" startPosition="5" endLine="27" endPosition="5" />
     <scopeInfo nodeId="1234548035318" fileName="GConditionalLine_TextGen.java" startLine="16" startPosition="42" endLine="33" endPosition="5" />
-    <scopeInfo nodeId="1234548035318" fileName="GConditionalLine_TextGen.java" startLine="15" startPosition="60" endLine="35" endPosition="0" />
+    <scopeInfo nodeId="1234548035318" fileName="GConditionalLine_TextGen.java" startLine="15" startPosition="60" endLine="35" endPosition="0">
+      <varInfo nodeId="1234548035318" varName="node" />
+    </scopeInfo>
     <unitInfo nodeId="1234548035318" fileName="GConditionalLine_TextGen.java" startLine="15" startPosition="0" endLine="36" endPosition="0" unitName="jetbrains.mps.gtext.textGen.GConditionalLine_TextGen" />
   </root>
   <root nodeId="1234548158731">
@@ -44,10 +46,14 @@
     <scopeInfo nodeId="1234548158731" fileName="GDocument_TextGen.java" startLine="25" startPosition="44" endLine="26" endPosition="196" />
     <scopeInfo nodeId="1234548158731" fileName="GDocument_TextGen.java" startLine="30" startPosition="42" endLine="31" endPosition="60" />
     <scopeInfo nodeId="1237463992939" fileName="GDocument_TextGen.java" startLine="20" startPosition="93" endLine="23" endPosition="7" />
-    <scopeInfo nodeId="1234548158731" fileName="GDocument_TextGen.java" startLine="29" startPosition="0" endLine="33" endPosition="0" />
+    <scopeInfo nodeId="1234548158731" fileName="GDocument_TextGen.java" startLine="29" startPosition="0" endLine="33" endPosition="0">
+      <varInfo nodeId="1234548158731" varName="node" />
+    </scopeInfo>
     <scopeInfo nodeId="1237463992939" fileName="GDocument_TextGen.java" startLine="19" startPosition="5" endLine="24" endPosition="5" />
     <scopeInfo nodeId="1234548158731" fileName="GDocument_TextGen.java" startLine="16" startPosition="42" endLine="27" endPosition="5" />
-    <scopeInfo nodeId="1234548158731" fileName="GDocument_TextGen.java" startLine="15" startPosition="53" endLine="29" endPosition="0" />
+    <scopeInfo nodeId="1234548158731" fileName="GDocument_TextGen.java" startLine="15" startPosition="53" endLine="29" endPosition="0">
+      <varInfo nodeId="1234548158731" varName="node" />
+    </scopeInfo>
     <unitInfo nodeId="1234548158731" fileName="GDocument_TextGen.java" startLine="15" startPosition="0" endLine="34" endPosition="0" unitName="jetbrains.mps.gtext.textGen.GDocument_TextGen" />
   </root>
   <root nodeId="1234795388634">
@@ -62,7 +68,9 @@
     <scopeInfo nodeId="1237463993104" fileName="GExpressionItem_TextGen.java" startLine="17" startPosition="5" endLine="18" endPosition="190" />
     <scopeInfo nodeId="1234795388634" fileName="GExpressionItem_TextGen.java" startLine="19" startPosition="44" endLine="20" endPosition="219" />
     <scopeInfo nodeId="1234795388634" fileName="GExpressionItem_TextGen.java" startLine="14" startPosition="42" endLine="21" endPosition="5" />
-    <scopeInfo nodeId="1234795388634" fileName="GExpressionItem_TextGen.java" startLine="13" startPosition="59" endLine="23" endPosition="0" />
+    <scopeInfo nodeId="1234795388634" fileName="GExpressionItem_TextGen.java" startLine="13" startPosition="59" endLine="23" endPosition="0">
+      <varInfo nodeId="1234795388634" varName="node" />
+    </scopeInfo>
     <unitInfo nodeId="1234795388634" fileName="GExpressionItem_TextGen.java" startLine="13" startPosition="0" endLine="24" endPosition="0" unitName="jetbrains.mps.gtext.textGen.GExpressionItem_TextGen" />
   </root>
   <root nodeId="1234795590692">
@@ -75,7 +83,9 @@
     <scopeInfo nodeId="1234795590692" fileName="GIndent_TextGen.java" startLine="13" startPosition="44" endLine="14" endPosition="61" />
     <scopeInfo nodeId="1234795590692" fileName="GIndent_TextGen.java" startLine="17" startPosition="44" endLine="18" endPosition="219" />
     <scopeInfo nodeId="1234795590692" fileName="GIndent_TextGen.java" startLine="12" startPosition="42" endLine="19" endPosition="5" />
-    <scopeInfo nodeId="1234795590692" fileName="GIndent_TextGen.java" startLine="11" startPosition="51" endLine="21" endPosition="0" />
+    <scopeInfo nodeId="1234795590692" fileName="GIndent_TextGen.java" startLine="11" startPosition="51" endLine="21" endPosition="0">
+      <varInfo nodeId="1234795590692" varName="node" />
+    </scopeInfo>
     <unitInfo nodeId="1234795590692" fileName="GIndent_TextGen.java" startLine="11" startPosition="0" endLine="22" endPosition="0" unitName="jetbrains.mps.gtext.textGen.GIndent_TextGen" />
   </root>
   <root nodeId="1234795623590">
@@ -95,7 +105,9 @@
     <scopeInfo nodeId="1234795623590" fileName="GIndentBlock_TextGen.java" startLine="21" startPosition="44" endLine="22" endPosition="219" />
     <scopeInfo nodeId="1236685424659" fileName="GIndentBlock_TextGen.java" startLine="17" startPosition="5" endLine="20" endPosition="25" />
     <scopeInfo nodeId="1234795623590" fileName="GIndentBlock_TextGen.java" startLine="14" startPosition="42" endLine="23" endPosition="5" />
-    <scopeInfo nodeId="1234795623590" fileName="GIndentBlock_TextGen.java" startLine="13" startPosition="56" endLine="25" endPosition="0" />
+    <scopeInfo nodeId="1234795623590" fileName="GIndentBlock_TextGen.java" startLine="13" startPosition="56" endLine="25" endPosition="0">
+      <varInfo nodeId="1234795623590" varName="node" />
+    </scopeInfo>
     <unitInfo nodeId="1234795623590" fileName="GIndentBlock_TextGen.java" startLine="13" startPosition="0" endLine="26" endPosition="0" unitName="jetbrains.mps.gtext.textGen.GIndentBlock_TextGen" />
   </root>
   <root nodeId="1234795650950">
@@ -111,10 +123,14 @@
     <scopeInfo nodeId="1234795650950" fileName="GItemList_TextGen.java" startLine="16" startPosition="44" endLine="17" endPosition="61" />
     <scopeInfo nodeId="1237463993067" fileName="GItemList_TextGen.java" startLine="20" startPosition="73" endLine="21" endPosition="109" />
     <scopeInfo nodeId="1234795650950" fileName="GItemList_TextGen.java" startLine="24" startPosition="44" endLine="25" endPosition="219" />
-    <scopeInfo nodeId="1237463993067" fileName="GItemList_TextGen.java" startLine="19" startPosition="93" endLine="22" endPosition="7" />
+    <scopeInfo nodeId="1237463993067" fileName="GItemList_TextGen.java" startLine="19" startPosition="93" endLine="22" endPosition="7">
+      <varInfo nodeId="1237463993067" varName="item" />
+    </scopeInfo>
     <scopeInfo nodeId="1237463993067" fileName="GItemList_TextGen.java" startLine="18" startPosition="5" endLine="23" endPosition="5" />
     <scopeInfo nodeId="1234795650950" fileName="GItemList_TextGen.java" startLine="15" startPosition="42" endLine="26" endPosition="5" />
-    <scopeInfo nodeId="1234795650950" fileName="GItemList_TextGen.java" startLine="14" startPosition="53" endLine="28" endPosition="0" />
+    <scopeInfo nodeId="1234795650950" fileName="GItemList_TextGen.java" startLine="14" startPosition="53" endLine="28" endPosition="0">
+      <varInfo nodeId="1234795650950" varName="node" />
+    </scopeInfo>
     <unitInfo nodeId="1234795650950" fileName="GItemList_TextGen.java" startLine="14" startPosition="0" endLine="29" endPosition="0" unitName="jetbrains.mps.gtext.textGen.GItemList_TextGen" />
   </root>
   <root nodeId="1234795672226">
@@ -132,10 +148,14 @@
     <scopeInfo nodeId="1234795672226" fileName="GLine_TextGen.java" startLine="16" startPosition="44" endLine="17" endPosition="61" />
     <scopeInfo nodeId="1237463992085" fileName="GLine_TextGen.java" startLine="21" startPosition="73" endLine="22" endPosition="109" />
     <scopeInfo nodeId="1234795672226" fileName="GLine_TextGen.java" startLine="26" startPosition="44" endLine="27" endPosition="219" />
-    <scopeInfo nodeId="1237463992085" fileName="GLine_TextGen.java" startLine="20" startPosition="93" endLine="23" endPosition="7" />
+    <scopeInfo nodeId="1237463992085" fileName="GLine_TextGen.java" startLine="20" startPosition="93" endLine="23" endPosition="7">
+      <varInfo nodeId="1237463992085" varName="item" />
+    </scopeInfo>
     <scopeInfo nodeId="1237463992085" fileName="GLine_TextGen.java" startLine="19" startPosition="24" endLine="25" endPosition="25" />
     <scopeInfo nodeId="1234795672226" fileName="GLine_TextGen.java" startLine="15" startPosition="42" endLine="28" endPosition="5" />
-    <scopeInfo nodeId="1234795672226" fileName="GLine_TextGen.java" startLine="14" startPosition="49" endLine="30" endPosition="0" />
+    <scopeInfo nodeId="1234795672226" fileName="GLine_TextGen.java" startLine="14" startPosition="49" endLine="30" endPosition="0">
+      <varInfo nodeId="1234795672226" varName="node" />
+    </scopeInfo>
     <unitInfo nodeId="1234795672226" fileName="GLine_TextGen.java" startLine="14" startPosition="0" endLine="31" endPosition="0" unitName="jetbrains.mps.gtext.textGen.GLine_TextGen" />
   </root>
   <root nodeId="1234795724821">
@@ -150,7 +170,9 @@
     <scopeInfo nodeId="1237463992134" fileName="GNewLine_TextGen.java" startLine="15" startPosition="5" endLine="16" endPosition="25" />
     <scopeInfo nodeId="1234795724821" fileName="GNewLine_TextGen.java" startLine="17" startPosition="44" endLine="18" endPosition="219" />
     <scopeInfo nodeId="1234795724821" fileName="GNewLine_TextGen.java" startLine="12" startPosition="42" endLine="19" endPosition="5" />
-    <scopeInfo nodeId="1234795724821" fileName="GNewLine_TextGen.java" startLine="11" startPosition="52" endLine="21" endPosition="0" />
+    <scopeInfo nodeId="1234795724821" fileName="GNewLine_TextGen.java" startLine="11" startPosition="52" endLine="21" endPosition="0">
+      <varInfo nodeId="1234795724821" varName="node" />
+    </scopeInfo>
     <unitInfo nodeId="1234795724821" fileName="GNewLine_TextGen.java" startLine="11" startPosition="0" endLine="22" endPosition="0" unitName="jetbrains.mps.gtext.textGen.GNewLine_TextGen" />
   </root>
   <root nodeId="1234795740185">
@@ -177,7 +199,9 @@
       <varInfo nodeId="1234795755081" varName="item" />
     </scopeInfo>
     <scopeInfo nodeId="1234795740185" fileName="GSeparatorItemList_TextGen.java" startLine="15" startPosition="42" endLine="27" endPosition="5" />
-    <scopeInfo nodeId="1234795740185" fileName="GSeparatorItemList_TextGen.java" startLine="14" startPosition="62" endLine="29" endPosition="0" />
+    <scopeInfo nodeId="1234795740185" fileName="GSeparatorItemList_TextGen.java" startLine="14" startPosition="62" endLine="29" endPosition="0">
+      <varInfo nodeId="1234795740185" varName="node" />
+    </scopeInfo>
     <unitInfo nodeId="1234795740185" fileName="GSeparatorItemList_TextGen.java" startLine="14" startPosition="0" endLine="30" endPosition="0" unitName="jetbrains.mps.gtext.textGen.GSeparatorItemList_TextGen" />
   </root>
   <root nodeId="1234795820889">
@@ -192,7 +216,9 @@
     <scopeInfo nodeId="1237463992333" fileName="GText_TextGen.java" startLine="16" startPosition="5" endLine="17" endPosition="61" />
     <scopeInfo nodeId="1234795820889" fileName="GText_TextGen.java" startLine="18" startPosition="44" endLine="19" endPosition="219" />
     <scopeInfo nodeId="1234795820889" fileName="GText_TextGen.java" startLine="13" startPosition="42" endLine="20" endPosition="5" />
-    <scopeInfo nodeId="1234795820889" fileName="GText_TextGen.java" startLine="12" startPosition="49" endLine="22" endPosition="0" />
+    <scopeInfo nodeId="1234795820889" fileName="GText_TextGen.java" startLine="12" startPosition="49" endLine="22" endPosition="0">
+      <varInfo nodeId="1234795820889" varName="node" />
+    </scopeInfo>
     <unitInfo nodeId="1234795820889" fileName="GText_TextGen.java" startLine="12" startPosition="0" endLine="23" endPosition="0" unitName="jetbrains.mps.gtext.textGen.GText_TextGen" />
   </root>
 </debugInfo>
