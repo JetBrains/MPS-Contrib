@@ -109,22 +109,46 @@
     <scopeInfo nodeId="1202817919406" fileName="FormDemo.java" startLine="31" startPosition="0" endLine="34" endPosition="0" />
     <scopeInfo nodeId="1202817919406" fileName="FormDemo.java" startLine="59" startPosition="0" endLine="62" endPosition="0" />
     <scopeInfo nodeId="1202817919406" fileName="FormDemo.java" startLine="64" startPosition="49" endLine="67" endPosition="7" />
-    <scopeInfo nodeId="1202817919406" fileName="FormDemo.java" startLine="154" startPosition="40" endLine="157" endPosition="21" />
+    <scopeInfo nodeId="1202817919406" fileName="FormDemo.java" startLine="154" startPosition="40" endLine="157" endPosition="21">
+      <varInfo nodeId="1202817919406" varName="component" />
+    </scopeInfo>
     <scopeInfo nodeId="1202817919406" fileName="FormDemo.java" startLine="45" startPosition="0" endLine="49" endPosition="0" />
-    <scopeInfo nodeId="1202817919406" fileName="FormDemo.java" startLine="126" startPosition="40" endLine="130" endPosition="21" />
-    <scopeInfo nodeId="1202817919406" fileName="FormDemo.java" startLine="133" startPosition="40" endLine="137" endPosition="21" />
-    <scopeInfo nodeId="1202817919406" fileName="FormDemo.java" startLine="140" startPosition="44" endLine="144" endPosition="21" />
-    <scopeInfo nodeId="1202817919406" fileName="FormDemo.java" startLine="147" startPosition="44" endLine="151" endPosition="21" />
+    <scopeInfo nodeId="1202817919406" fileName="FormDemo.java" startLine="126" startPosition="40" endLine="130" endPosition="21">
+      <varInfo nodeId="1202817919406" varName="component" />
+    </scopeInfo>
+    <scopeInfo nodeId="1202817919406" fileName="FormDemo.java" startLine="133" startPosition="40" endLine="137" endPosition="21">
+      <varInfo nodeId="1202817919406" varName="component" />
+    </scopeInfo>
+    <scopeInfo nodeId="1202817919406" fileName="FormDemo.java" startLine="140" startPosition="44" endLine="144" endPosition="21">
+      <varInfo nodeId="1202817919406" varName="component" />
+    </scopeInfo>
+    <scopeInfo nodeId="1202817919406" fileName="FormDemo.java" startLine="147" startPosition="44" endLine="151" endPosition="21">
+      <varInfo nodeId="1202817919406" varName="component" />
+    </scopeInfo>
     <scopeInfo nodeId="1202817919406" fileName="FormDemo.java" startLine="49" startPosition="0" endLine="54" endPosition="0" />
     <scopeInfo nodeId="1202817919406" fileName="FormDemo.java" startLine="54" startPosition="0" endLine="59" endPosition="0" />
-    <scopeInfo nodeId="1202817919406" fileName="FormDemo.java" startLine="63" startPosition="25" endLine="68" endPosition="5" />
-    <scopeInfo nodeId="1202817919406" fileName="FormDemo.java" startLine="76" startPosition="41" endLine="81" endPosition="17" />
-    <scopeInfo nodeId="1202817919406" fileName="FormDemo.java" startLine="85" startPosition="41" endLine="90" endPosition="17" />
-    <scopeInfo nodeId="1202817919406" fileName="FormDemo.java" startLine="94" startPosition="41" endLine="100" endPosition="17" />
-    <scopeInfo nodeId="1202817919406" fileName="FormDemo.java" startLine="104" startPosition="41" endLine="110" endPosition="17" />
-    <scopeInfo nodeId="1202817919406" fileName="FormDemo.java" startLine="114" startPosition="41" endLine="120" endPosition="17" />
+    <scopeInfo nodeId="1202817919406" fileName="FormDemo.java" startLine="63" startPosition="25" endLine="68" endPosition="5">
+      <varInfo nodeId="1202817919406" varName="binding" />
+    </scopeInfo>
+    <scopeInfo nodeId="1202817919406" fileName="FormDemo.java" startLine="76" startPosition="41" endLine="81" endPosition="17">
+      <varInfo nodeId="1202817919406" varName="c" />
+    </scopeInfo>
+    <scopeInfo nodeId="1202817919406" fileName="FormDemo.java" startLine="85" startPosition="41" endLine="90" endPosition="17">
+      <varInfo nodeId="1202817919406" varName="c" />
+    </scopeInfo>
+    <scopeInfo nodeId="1202817919406" fileName="FormDemo.java" startLine="94" startPosition="41" endLine="100" endPosition="17">
+      <varInfo nodeId="1202817919406" varName="c" />
+    </scopeInfo>
+    <scopeInfo nodeId="1202817919406" fileName="FormDemo.java" startLine="104" startPosition="41" endLine="110" endPosition="17">
+      <varInfo nodeId="1202817919406" varName="c" />
+    </scopeInfo>
+    <scopeInfo nodeId="1202817919406" fileName="FormDemo.java" startLine="114" startPosition="41" endLine="120" endPosition="17">
+      <varInfo nodeId="1202817919406" varName="c" />
+    </scopeInfo>
     <scopeInfo nodeId="1202817919406" fileName="FormDemo.java" startLine="153" startPosition="0" endLine="159" endPosition="0" />
-    <scopeInfo nodeId="1202817919406" fileName="FormDemo.java" startLine="36" startPosition="21" endLine="43" endPosition="31" />
+    <scopeInfo nodeId="1202817919406" fileName="FormDemo.java" startLine="36" startPosition="21" endLine="43" endPosition="31">
+      <varInfo nodeId="1202817919406" varName="component" />
+    </scopeInfo>
     <scopeInfo nodeId="1202817919406" fileName="FormDemo.java" startLine="125" startPosition="0" endLine="132" endPosition="0" />
     <scopeInfo nodeId="1202817919406" fileName="FormDemo.java" startLine="132" startPosition="0" endLine="139" endPosition="0" />
     <scopeInfo nodeId="1202817919406" fileName="FormDemo.java" startLine="139" startPosition="0" endLine="146" endPosition="0" />
@@ -136,15 +160,17 @@
     <scopeInfo nodeId="1202817919406" fileName="FormDemo.java" startLine="93" startPosition="86" endLine="102" endPosition="0" />
     <scopeInfo nodeId="1202817919406" fileName="FormDemo.java" startLine="103" startPosition="86" endLine="112" endPosition="0" />
     <scopeInfo nodeId="1202817919406" fileName="FormDemo.java" startLine="113" startPosition="86" endLine="122" endPosition="0" />
-    <scopeInfo nodeId="1202817919406" fileName="FormDemo.java" startLine="71" startPosition="39" endLine="123" endPosition="21" />
+    <scopeInfo nodeId="1202817919406" fileName="FormDemo.java" startLine="71" startPosition="39" endLine="123" endPosition="21">
+      <varInfo nodeId="1202817919406" varName="component" />
+    </scopeInfo>
     <scopeInfo nodeId="1202817919406" fileName="FormDemo.java" startLine="70" startPosition="0" endLine="125" endPosition="0" />
+    <unitInfo nodeId="1202817919406" fileName="FormDemo.java" startLine="19" startPosition="0" endLine="160" endPosition="0" unitName="jetbrains.mps.uiLanguage.samples.forms.FormDemo" />
     <unitInfo nodeId="1202817919406" fileName="FormDemo.java" startLine="28" startPosition="32" endLine="34" endPosition="3" unitName="jetbrains.mps.uiLanguage.samples.forms.FormDemo$1" />
     <unitInfo nodeId="1202817919406" fileName="FormDemo.java" startLine="75" startPosition="50" endLine="83" endPosition="5" unitName="jetbrains.mps.uiLanguage.samples.forms.FormDemo$2" />
     <unitInfo nodeId="1202817919406" fileName="FormDemo.java" startLine="84" startPosition="50" endLine="92" endPosition="5" unitName="jetbrains.mps.uiLanguage.samples.forms.FormDemo$3" />
     <unitInfo nodeId="1202817919406" fileName="FormDemo.java" startLine="93" startPosition="50" endLine="102" endPosition="5" unitName="jetbrains.mps.uiLanguage.samples.forms.FormDemo$4" />
     <unitInfo nodeId="1202817919406" fileName="FormDemo.java" startLine="103" startPosition="50" endLine="112" endPosition="5" unitName="jetbrains.mps.uiLanguage.samples.forms.FormDemo$5" />
     <unitInfo nodeId="1202817919406" fileName="FormDemo.java" startLine="113" startPosition="50" endLine="122" endPosition="5" unitName="jetbrains.mps.uiLanguage.samples.forms.FormDemo$6" />
-    <unitInfo nodeId="1202817919406" fileName="FormDemo.java" startLine="19" startPosition="0" endLine="160" endPosition="0" unitName="jetbrains.mps.uiLanguage.samples.forms.FormDemo" />
   </root>
 </debugInfo>
 

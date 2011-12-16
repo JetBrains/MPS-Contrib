@@ -61,24 +61,40 @@
     <scopeInfo nodeId="1202815949201" fileName="CheckBoxDemo.java" startLine="54" startPosition="30" endLine="56" endPosition="25" />
     <scopeInfo nodeId="1202815949201" fileName="CheckBoxDemo.java" startLine="29" startPosition="0" endLine="32" endPosition="0" />
     <scopeInfo nodeId="1202815949201" fileName="CheckBoxDemo.java" startLine="72" startPosition="49" endLine="75" endPosition="7" />
-    <scopeInfo nodeId="1202815949201" fileName="CheckBoxDemo.java" startLine="87" startPosition="40" endLine="90" endPosition="21" />
+    <scopeInfo nodeId="1202815949201" fileName="CheckBoxDemo.java" startLine="87" startPosition="40" endLine="90" endPosition="21">
+      <varInfo nodeId="1202815949201" varName="component" />
+    </scopeInfo>
     <scopeInfo nodeId="1202815949201" fileName="CheckBoxDemo.java" startLine="44" startPosition="0" endLine="48" endPosition="0" />
-    <scopeInfo nodeId="1202815949201" fileName="CheckBoxDemo.java" startLine="93" startPosition="43" endLine="97" endPosition="21" />
+    <scopeInfo nodeId="1202815949201" fileName="CheckBoxDemo.java" startLine="93" startPosition="43" endLine="97" endPosition="21">
+      <varInfo nodeId="1202815949201" varName="component" />
+    </scopeInfo>
     <scopeInfo nodeId="1202815949201" fileName="CheckBoxDemo.java" startLine="48" startPosition="0" endLine="53" endPosition="0" />
     <scopeInfo nodeId="1202815949201" fileName="CheckBoxDemo.java" startLine="53" startPosition="0" endLine="58" endPosition="0" />
-    <scopeInfo nodeId="1202815949201" fileName="CheckBoxDemo.java" startLine="71" startPosition="25" endLine="76" endPosition="5" />
-    <scopeInfo nodeId="1202815949201" fileName="CheckBoxDemo.java" startLine="79" startPosition="42" endLine="84" endPosition="21" />
+    <scopeInfo nodeId="1202815949201" fileName="CheckBoxDemo.java" startLine="71" startPosition="25" endLine="76" endPosition="5">
+      <varInfo nodeId="1202815949201" varName="binding" />
+    </scopeInfo>
+    <scopeInfo nodeId="1202815949201" fileName="CheckBoxDemo.java" startLine="79" startPosition="42" endLine="84" endPosition="21">
+      <varInfo nodeId="1202815949201" varName="component" />
+    </scopeInfo>
     <scopeInfo nodeId="1202815949201" fileName="CheckBoxDemo.java" startLine="86" startPosition="0" endLine="92" endPosition="0" />
-    <scopeInfo nodeId="1202815949201" fileName="CheckBoxDemo.java" startLine="60" startPosition="5" endLine="67" endPosition="65" />
+    <scopeInfo nodeId="1202815949201" fileName="CheckBoxDemo.java" startLine="60" startPosition="5" endLine="67" endPosition="65">
+      <varInfo nodeId="1202815949201" varName="binding" />
+      <varInfo nodeId="1202815949201" varName="sourceObject" />
+      <varInfo nodeId="1202815949201" varName="sourceProperty" />
+      <varInfo nodeId="1202815949201" varName="targetObject" />
+      <varInfo nodeId="1202815949201" varName="targetProperty" />
+    </scopeInfo>
     <scopeInfo nodeId="1202815949201" fileName="CheckBoxDemo.java" startLine="92" startPosition="0" endLine="99" endPosition="0" />
-    <scopeInfo nodeId="1202815949201" fileName="CheckBoxDemo.java" startLine="34" startPosition="25" endLine="42" endPosition="31" />
+    <scopeInfo nodeId="1202815949201" fileName="CheckBoxDemo.java" startLine="34" startPosition="25" endLine="42" endPosition="31">
+      <varInfo nodeId="1202815949201" varName="component" />
+    </scopeInfo>
     <scopeInfo nodeId="1202815949201" fileName="CheckBoxDemo.java" startLine="70" startPosition="0" endLine="78" endPosition="0" />
     <scopeInfo nodeId="1202815949201" fileName="CheckBoxDemo.java" startLine="78" startPosition="0" endLine="86" endPosition="0" />
     <scopeInfo nodeId="1202815949201" fileName="CheckBoxDemo.java" startLine="59" startPosition="23" endLine="68" endPosition="5" />
     <scopeInfo nodeId="1202815949201" fileName="CheckBoxDemo.java" startLine="33" startPosition="0" endLine="43" endPosition="3" />
     <scopeInfo nodeId="1202815949201" fileName="CheckBoxDemo.java" startLine="58" startPosition="0" endLine="70" endPosition="0" />
-    <unitInfo nodeId="1202815949201" fileName="CheckBoxDemo.java" startLine="26" startPosition="32" endLine="32" endPosition="3" unitName="jetbrains.mps.uiLanguage.samples.checkbox.CheckBoxDemo$1" />
     <unitInfo nodeId="1202815949201" fileName="CheckBoxDemo.java" startLine="20" startPosition="0" endLine="100" endPosition="0" unitName="jetbrains.mps.uiLanguage.samples.checkbox.CheckBoxDemo" />
+    <unitInfo nodeId="1202815949201" fileName="CheckBoxDemo.java" startLine="26" startPosition="32" endLine="32" endPosition="3" unitName="jetbrains.mps.uiLanguage.samples.checkbox.CheckBoxDemo$1" />
   </root>
 </debugInfo>
 

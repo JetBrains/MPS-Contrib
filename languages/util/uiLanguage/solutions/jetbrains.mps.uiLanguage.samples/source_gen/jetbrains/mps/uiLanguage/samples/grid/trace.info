@@ -83,18 +83,32 @@
     <scopeInfo nodeId="1202823852897" fileName="GridDemo.java" startLine="29" startPosition="0" endLine="32" endPosition="0" />
     <scopeInfo nodeId="1202823852897" fileName="GridDemo.java" startLine="57" startPosition="0" endLine="60" endPosition="0" />
     <scopeInfo nodeId="1202823852897" fileName="GridDemo.java" startLine="62" startPosition="49" endLine="65" endPosition="7" />
-    <scopeInfo nodeId="1202823852897" fileName="GridDemo.java" startLine="96" startPosition="40" endLine="99" endPosition="21" />
+    <scopeInfo nodeId="1202823852897" fileName="GridDemo.java" startLine="96" startPosition="40" endLine="99" endPosition="21">
+      <varInfo nodeId="1202823852897" varName="component" />
+    </scopeInfo>
     <scopeInfo nodeId="1202823852897" fileName="GridDemo.java" startLine="43" startPosition="0" endLine="47" endPosition="0" />
-    <scopeInfo nodeId="1202823852897" fileName="GridDemo.java" startLine="82" startPosition="40" endLine="86" endPosition="21" />
-    <scopeInfo nodeId="1202823852897" fileName="GridDemo.java" startLine="89" startPosition="40" endLine="93" endPosition="21" />
-    <scopeInfo nodeId="1202823852897" fileName="GridDemo.java" startLine="102" startPosition="40" endLine="106" endPosition="21" />
-    <scopeInfo nodeId="1202823852897" fileName="GridDemo.java" startLine="109" startPosition="40" endLine="113" endPosition="21" />
-    <scopeInfo nodeId="1202823852897" fileName="GridDemo.java" startLine="116" startPosition="40" endLine="120" endPosition="21" />
+    <scopeInfo nodeId="1202823852897" fileName="GridDemo.java" startLine="82" startPosition="40" endLine="86" endPosition="21">
+      <varInfo nodeId="1202823852897" varName="component" />
+    </scopeInfo>
+    <scopeInfo nodeId="1202823852897" fileName="GridDemo.java" startLine="89" startPosition="40" endLine="93" endPosition="21">
+      <varInfo nodeId="1202823852897" varName="component" />
+    </scopeInfo>
+    <scopeInfo nodeId="1202823852897" fileName="GridDemo.java" startLine="102" startPosition="40" endLine="106" endPosition="21">
+      <varInfo nodeId="1202823852897" varName="component" />
+    </scopeInfo>
+    <scopeInfo nodeId="1202823852897" fileName="GridDemo.java" startLine="109" startPosition="40" endLine="113" endPosition="21">
+      <varInfo nodeId="1202823852897" varName="component" />
+    </scopeInfo>
+    <scopeInfo nodeId="1202823852897" fileName="GridDemo.java" startLine="116" startPosition="40" endLine="120" endPosition="21">
+      <varInfo nodeId="1202823852897" varName="component" />
+    </scopeInfo>
     <scopeInfo nodeId="1202823852897" fileName="GridDemo.java" startLine="47" startPosition="0" endLine="52" endPosition="0" />
     <scopeInfo nodeId="1202823852897" fileName="GridDemo.java" startLine="52" startPosition="0" endLine="57" endPosition="0" />
     <scopeInfo nodeId="1202823852897" fileName="GridDemo.java" startLine="61" startPosition="25" endLine="66" endPosition="5" />
     <scopeInfo nodeId="1202823852897" fileName="GridDemo.java" startLine="95" startPosition="0" endLine="101" endPosition="0" />
-    <scopeInfo nodeId="1202823852897" fileName="GridDemo.java" startLine="34" startPosition="21" endLine="41" endPosition="31" />
+    <scopeInfo nodeId="1202823852897" fileName="GridDemo.java" startLine="34" startPosition="21" endLine="41" endPosition="31">
+      <varInfo nodeId="1202823852897" varName="component" />
+    </scopeInfo>
     <scopeInfo nodeId="1202823852897" fileName="GridDemo.java" startLine="81" startPosition="0" endLine="88" endPosition="0" />
     <scopeInfo nodeId="1202823852897" fileName="GridDemo.java" startLine="88" startPosition="0" endLine="95" endPosition="0" />
     <scopeInfo nodeId="1202823852897" fileName="GridDemo.java" startLine="101" startPosition="0" endLine="108" endPosition="0" />
@@ -102,10 +116,12 @@
     <scopeInfo nodeId="1202823852897" fileName="GridDemo.java" startLine="115" startPosition="0" endLine="122" endPosition="0" />
     <scopeInfo nodeId="1202823852897" fileName="GridDemo.java" startLine="60" startPosition="0" endLine="68" endPosition="0" />
     <scopeInfo nodeId="1202823852897" fileName="GridDemo.java" startLine="33" startPosition="0" endLine="42" endPosition="3" />
-    <scopeInfo nodeId="1202823852897" fileName="GridDemo.java" startLine="69" startPosition="39" endLine="79" endPosition="21" />
+    <scopeInfo nodeId="1202823852897" fileName="GridDemo.java" startLine="69" startPosition="39" endLine="79" endPosition="21">
+      <varInfo nodeId="1202823852897" varName="component" />
+    </scopeInfo>
     <scopeInfo nodeId="1202823852897" fileName="GridDemo.java" startLine="68" startPosition="0" endLine="81" endPosition="0" />
-    <unitInfo nodeId="1202823852897" fileName="GridDemo.java" startLine="26" startPosition="32" endLine="32" endPosition="3" unitName="jetbrains.mps.uiLanguage.samples.grid.GridDemo$1" />
     <unitInfo nodeId="1202823852897" fileName="GridDemo.java" startLine="16" startPosition="0" endLine="123" endPosition="0" unitName="jetbrains.mps.uiLanguage.samples.grid.GridDemo" />
+    <unitInfo nodeId="1202823852897" fileName="GridDemo.java" startLine="26" startPosition="32" endLine="32" endPosition="3" unitName="jetbrains.mps.uiLanguage.samples.grid.GridDemo$1" />
   </root>
 </debugInfo>
 
