@@ -5,7 +5,7 @@
     </CLASSES>
     <JAVADOC />
     <SOURCES>
-      <root url="jar://$PROJECT_DIR$/platform_src/platform.src.zip!/annotations" />
+      <root url="jar://$PROJECT_DIR$/lib/src/platform.src.zip!/annotations" />
     </SOURCES>
   </library>
 </component>
