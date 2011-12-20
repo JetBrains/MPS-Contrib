@@ -4,8 +4,8 @@
     <option name="DEFAULT_COMPILER" value="Javac" />
     <excludeFromCompile>
       <directory url="file://$PROJECT_DIR$/plugins/execution-languages/library/source_gen" includeSubdirectories="true" />
-      <directory url="file://$PROJECT_DIR$/plugins/execution-configurations/jetbrains.mps.execution.configurations.mps/source_gen" includeSubdirectories="true" />
       <directory url="file://$PROJECT_DIR$/plugins/execution-configurations/baseLanguage/jetbrains.mps.baseLanguage.execution.api/source_gen" includeSubdirectories="true" />
+      <directory url="file://$PROJECT_DIR$/plugins/execution-configurations/plugin/source_gen" includeSubdirectories="true" />
       <directory url="file://$PROJECT_DIR$/core/baseLanguage/baseLanguage/source_gen" includeSubdirectories="true" />
       <directory url="file://$PROJECT_DIR$/core/baseLanguage/baseLanguageInternal/source_gen" includeSubdirectories="true" />
       <directory url="file://$PROJECT_DIR$/core/baseLanguage/blTypes/source_gen" includeSubdirectories="true" />
