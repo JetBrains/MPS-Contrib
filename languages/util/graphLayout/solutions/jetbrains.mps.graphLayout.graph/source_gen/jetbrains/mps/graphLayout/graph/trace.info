@@ -163,8 +163,12 @@
     <scopeInfo nodeId="1795464432008814261" fileName="CreationStageManager.java" startLine="47" startPosition="38" endLine="48" endPosition="60" />
     <scopeInfo nodeId="1795464432008814296" fileName="CreationStageManager.java" startLine="29" startPosition="22" endLine="31" endPosition="14" />
     <scopeInfo nodeId="1795464432008814319" fileName="CreationStageManager.java" startLine="32" startPosition="24" endLine="34" endPosition="14" />
-    <scopeInfo nodeId="3157734537263112579" fileName="CreationStageManager.java" startLine="16" startPosition="74" endLine="19" endPosition="5" />
-    <scopeInfo nodeId="3157734537263112632" fileName="CreationStageManager.java" startLine="19" startPosition="5" endLine="22" endPosition="5" />
+    <scopeInfo nodeId="3157734537263112579" fileName="CreationStageManager.java" startLine="16" startPosition="74" endLine="19" endPosition="5">
+      <varInfo nodeId="3157734537263112579" varName="node" />
+    </scopeInfo>
+    <scopeInfo nodeId="3157734537263112632" fileName="CreationStageManager.java" startLine="19" startPosition="5" endLine="22" endPosition="5">
+      <varInfo nodeId="3157734537263112632" varName="edge" />
+    </scopeInfo>
     <scopeInfo nodeId="3157734537263112589" fileName="CreationStageManager.java" startLine="38" startPosition="0" endLine="42" endPosition="0">
       <varInfo nodeId="3157734537263112594" varName="object" />
     </scopeInfo>
@@ -287,14 +291,18 @@
     <scopeInfo nodeId="3167072330486563751" fileName="ClusterGraphCopier.java" startLine="109" startPosition="35" endLine="110" endPosition="46" />
     <scopeInfo nodeId="3167072330486563656" fileName="ClusterGraphCopier.java" startLine="59" startPosition="117" endLine="61" endPosition="77" />
     <scopeInfo nodeId="3167072330486561053" fileName="ClusterGraphCopier.java" startLine="24" startPosition="51" endLine="28" endPosition="62" />
-    <scopeInfo nodeId="3167072330486563560" fileName="ClusterGraphCopier.java" startLine="36" startPosition="92" endLine="40" endPosition="0" />
+    <scopeInfo nodeId="3167072330486563560" fileName="ClusterGraphCopier.java" startLine="36" startPosition="92" endLine="40" endPosition="0">
+      <varInfo nodeId="3167072330486563560" varName="it" />
+    </scopeInfo>
     <scopeInfo nodeId="3167072330486562015" fileName="ClusterGraphCopier.java" startLine="40" startPosition="9" endLine="44" endPosition="7">
       <varInfo nodeId="3167072330486563597" varName="node" />
     </scopeInfo>
     <scopeInfo nodeId="3167072330486563879" fileName="ClusterGraphCopier.java" startLine="52" startPosition="0" endLine="56" endPosition="0">
       <varInfo nodeId="3167072330486563878" varName="leafCluster" />
     </scopeInfo>
-    <scopeInfo nodeId="3167072330486563928" fileName="ClusterGraphCopier.java" startLine="72" startPosition="88" endLine="76" endPosition="0" />
+    <scopeInfo nodeId="3167072330486563928" fileName="ClusterGraphCopier.java" startLine="72" startPosition="88" endLine="76" endPosition="0">
+      <varInfo nodeId="3167072330486563928" varName="it" />
+    </scopeInfo>
     <scopeInfo nodeId="3167072330486563921" fileName="ClusterGraphCopier.java" startLine="76" startPosition="11" endLine="80" endPosition="38">
       <varInfo nodeId="3167072330486563944" varName="copyChild" />
       <varInfo nodeId="3167072330486563960" varName="tree" />
@@ -313,16 +321,22 @@
     <scopeInfo nodeId="3167072330486562037" fileName="ClusterGraphCopier.java" startLine="57" startPosition="47" endLine="63" endPosition="63">
       <varInfo nodeId="3167072330486563649" varName="curCluster" />
     </scopeInfo>
-    <scopeInfo nodeId="1082658699371281013" fileName="ClusterGraphCopier.java" startLine="89" startPosition="85" endLine="95" endPosition="7" />
+    <scopeInfo nodeId="1082658699371281013" fileName="ClusterGraphCopier.java" startLine="89" startPosition="85" endLine="95" endPosition="7">
+      <varInfo nodeId="1082658699371281013" varName="cluster" />
+    </scopeInfo>
     <scopeInfo nodeId="1082658699371280988" fileName="ClusterGraphCopier.java" startLine="88" startPosition="53" endLine="95" endPosition="7">
       <varInfo nodeId="1082658699371280999" varName="clusteredCopyLayout" />
     </scopeInfo>
     <scopeInfo nodeId="3167072330486562034" fileName="ClusterGraphCopier.java" startLine="56" startPosition="0" endLine="65" endPosition="0">
       <varInfo nodeId="3167072330486562039" varName="cluster" />
     </scopeInfo>
-    <scopeInfo nodeId="3167072330486562012" fileName="ClusterGraphCopier.java" startLine="35" startPosition="42" endLine="45" endPosition="5" />
+    <scopeInfo nodeId="3167072330486562012" fileName="ClusterGraphCopier.java" startLine="35" startPosition="42" endLine="45" endPosition="5">
+      <varInfo nodeId="3167072330486562012" varName="leafCluster" />
+    </scopeInfo>
     <scopeInfo nodeId="3167072330486563905" fileName="ClusterGraphCopier.java" startLine="71" startPosition="12" endLine="81" endPosition="7" />
-    <scopeInfo nodeId="3167072330486563918" fileName="ClusterGraphCopier.java" startLine="71" startPosition="12" endLine="81" endPosition="7" />
+    <scopeInfo nodeId="3167072330486563918" fileName="ClusterGraphCopier.java" startLine="71" startPosition="12" endLine="81" endPosition="7">
+      <varInfo nodeId="3167072330486563918" varName="child" />
+    </scopeInfo>
     <scopeInfo nodeId="1082658699371280965" fileName="ClusterGraphCopier.java" startLine="86" startPosition="69" endLine="97" endPosition="23">
       <varInfo nodeId="1082658699371280971" varName="graphLayout" />
     </scopeInfo>
@@ -333,10 +347,10 @@
       <varInfo nodeId="3167072330486563789" varName="children" />
     </scopeInfo>
     <scopeInfo nodeId="3167072330486561066" fileName="ClusterGraphCopier.java" startLine="32" startPosition="55" endLine="50" endPosition="21">
-      <varInfo nodeId="3167072330486563744" varName="copyTree" />
       <varInfo nodeId="3167072330486563546" varName="clusters" />
-      <varInfo nodeId="3167072330486563722" varName="tree" />
       <varInfo nodeId="3167072330486563835" varName="copyRoot" />
+      <varInfo nodeId="3167072330486563744" varName="copyTree" />
+      <varInfo nodeId="3167072330486563722" varName="tree" />
     </scopeInfo>
     <scopeInfo nodeId="3167072330486563733" fileName="ClusterGraphCopier.java" startLine="65" startPosition="0" endLine="84" endPosition="0">
       <varInfo nodeId="3167072330486563738" varName="cluster" />
@@ -345,9 +359,9 @@
     <scopeInfo nodeId="3167072330486561060" fileName="ClusterGraphCopier.java" startLine="30" startPosition="0" endLine="52" endPosition="0">
       <varInfo nodeId="3167072330486561063" varName="nodeFilter" />
     </scopeInfo>
+    <unitInfo nodeId="3167072330486561046" fileName="ClusterGraphCopier.java" startLine="19" startPosition="0" endLine="113" endPosition="0" unitName="jetbrains.mps.graphLayout.graph.ClusterGraphCopier" />
     <unitInfo nodeId="3167072330486563560" fileName="ClusterGraphCopier.java" startLine="36" startPosition="70" endLine="40" endPosition="5" unitName="jetbrains.mps.graphLayout.graph.ClusterGraphCopier$1" />
     <unitInfo nodeId="3167072330486563928" fileName="ClusterGraphCopier.java" startLine="72" startPosition="66" endLine="76" endPosition="7" unitName="jetbrains.mps.graphLayout.graph.ClusterGraphCopier$2" />
-    <unitInfo nodeId="3167072330486561046" fileName="ClusterGraphCopier.java" startLine="19" startPosition="0" endLine="113" endPosition="0" unitName="jetbrains.mps.graphLayout.graph.ClusterGraphCopier" />
   </root>
   <root nodeId="3167072330486561071">
     <nodeInfo nodeId="3167072330486561246" fileName="GraphCopier.java" startLine="18" startPosition="26" endLine="19" endPosition="25" conceptFqName="jetbrains.mps.baseLanguage.structure.FieldDeclaration" propertyString="myGraph" />
@@ -451,8 +465,8 @@
     </scopeInfo>
     <scopeInfo nodeId="3167072330486561095" fileName="GraphCopier.java" startLine="41" startPosition="36" endLine="46" endPosition="20">
       <varInfo nodeId="3167072330486561113" varName="copyEdge" />
-      <varInfo nodeId="3167072330486561105" varName="copyTarget" />
       <varInfo nodeId="3167072330486561097" varName="copySource" />
+      <varInfo nodeId="3167072330486561105" varName="copyTarget" />
     </scopeInfo>
     <scopeInfo nodeId="3167072330486561143" fileName="GraphCopier.java" startLine="53" startPosition="55" endLine="58" endPosition="5">
       <varInfo nodeId="3167072330486561144" varName="node" />
@@ -463,21 +477,25 @@
     <scopeInfo nodeId="3167072330486561072" fileName="GraphCopier.java" startLine="34" startPosition="0" endLine="40" endPosition="0">
       <varInfo nodeId="3167072330486561090" varName="node" />
     </scopeInfo>
-    <scopeInfo nodeId="1082658699371280802" fileName="GraphCopier.java" startLine="96" startPosition="71" endLine="102" endPosition="5" />
+    <scopeInfo nodeId="1082658699371280802" fileName="GraphCopier.java" startLine="96" startPosition="71" endLine="102" endPosition="5">
+      <varInfo nodeId="1082658699371280802" varName="node" />
+    </scopeInfo>
     <scopeInfo nodeId="3167072330486561266" fileName="GraphCopier.java" startLine="24" startPosition="36" endLine="32" endPosition="64" />
     <scopeInfo nodeId="3167072330486561092" fileName="GraphCopier.java" startLine="40" startPosition="0" endLine="48" endPosition="0">
       <varInfo nodeId="3167072330486561128" varName="edge" />
     </scopeInfo>
     <scopeInfo nodeId="1082658699371280886" fileName="GraphCopier.java" startLine="103" startPosition="66" endLine="112" endPosition="7">
       <varInfo nodeId="1082658699371289950" varName="edgeCopy" />
-      <varInfo nodeId="1082658699371280894" varName="route" />
       <varInfo nodeId="1082658699371280930" varName="rect" />
+      <varInfo nodeId="1082658699371280894" varName="route" />
     </scopeInfo>
     <scopeInfo nodeId="3167072330486561263" fileName="GraphCopier.java" startLine="23" startPosition="0" endLine="33" endPosition="3">
       <varInfo nodeId="3167072330486561290" varName="graph" />
     </scopeInfo>
     <scopeInfo nodeId="3167072330486561142" fileName="GraphCopier.java" startLine="53" startPosition="55" endLine="64" endPosition="18" />
-    <scopeInfo nodeId="1082658699371280883" fileName="GraphCopier.java" startLine="102" startPosition="5" endLine="113" endPosition="5" />
+    <scopeInfo nodeId="1082658699371280883" fileName="GraphCopier.java" startLine="102" startPosition="5" endLine="113" endPosition="5">
+      <varInfo nodeId="1082658699371280883" varName="edge" />
+    </scopeInfo>
     <scopeInfo nodeId="3167072330486561139" fileName="GraphCopier.java" startLine="52" startPosition="0" endLine="66" endPosition="0">
       <varInfo nodeId="3167072330486561176" varName="nodeFilter" />
     </scopeInfo>
@@ -519,14 +537,16 @@
     <scopeInfo nodeId="3167072330486561809" fileName="Tree.java" startLine="12" startPosition="0" endLine="16" endPosition="0">
       <varInfo nodeId="3167072330486561814" varName="node" />
     </scopeInfo>
-    <scopeInfo nodeId="3167072330486561857" fileName="Tree.java" startLine="18" startPosition="89" endLine="22" endPosition="0" />
+    <scopeInfo nodeId="3167072330486561857" fileName="Tree.java" startLine="18" startPosition="89" endLine="22" endPosition="0">
+      <varInfo nodeId="3167072330486561857" varName="edge" />
+    </scopeInfo>
     <scopeInfo nodeId="3167072330486561842" fileName="Tree.java" startLine="17" startPosition="50" endLine="22" endPosition="24" />
     <scopeInfo nodeId="3167072330486561890" fileName="Tree.java" startLine="24" startPosition="0" endLine="29" endPosition="0" />
     <scopeInfo nodeId="3167072330486561839" fileName="Tree.java" startLine="16" startPosition="0" endLine="24" endPosition="0">
       <varInfo nodeId="3167072330486561846" varName="node" />
     </scopeInfo>
-    <unitInfo nodeId="3167072330486561857" fileName="Tree.java" startLine="18" startPosition="64" endLine="22" endPosition="5" unitName="jetbrains.mps.graphLayout.graph.Tree$1" />
     <unitInfo nodeId="3167072330486561802" fileName="Tree.java" startLine="9" startPosition="0" endLine="30" endPosition="0" unitName="jetbrains.mps.graphLayout.graph.Tree" />
+    <unitInfo nodeId="3167072330486561857" fileName="Tree.java" startLine="18" startPosition="64" endLine="22" endPosition="5" unitName="jetbrains.mps.graphLayout.graph.Tree$1" />
   </root>
   <root nodeId="3815873320642548339">
     <nodeInfo nodeId="3815873320642548373" fileName="IGraphModificationListener.java" startLine="6" startPosition="45" endLine="7" endPosition="52" conceptFqName="jetbrains.mps.baseLanguage.structure.InstanceMethodDeclaration" propertyString="process#(Ljetbrains/mps/graphLayout/graph/GraphModificationEvent;)V" />
@@ -585,8 +605,8 @@
       <varInfo nodeId="3815873320642579286" varName="split" />
       <varInfo nodeId="3815873320642579352" varName="type" />
     </scopeInfo>
-    <unitInfo nodeId="3815873320642571269" fileName="GraphModificationEvent.java" startLine="45" startPosition="0" endLine="56" endPosition="0" unitName="jetbrains.mps.graphLayout.graph.GraphModificationEvent$Type" />
     <unitInfo nodeId="3815873320642571243" fileName="GraphModificationEvent.java" startLine="7" startPosition="0" endLine="57" endPosition="0" unitName="jetbrains.mps.graphLayout.graph.GraphModificationEvent" />
+    <unitInfo nodeId="3815873320642571269" fileName="GraphModificationEvent.java" startLine="45" startPosition="0" endLine="56" endPosition="0" unitName="jetbrains.mps.graphLayout.graph.GraphModificationEvent$Type" />
   </root>
   <root nodeId="3815873320642579364">
     <nodeInfo nodeId="3815873320642579370" fileName="GraphModificationProcessor.java" startLine="9" startPosition="41" endLine="10" endPosition="32" conceptFqName="jetbrains.mps.baseLanguage.structure.FieldDeclaration" propertyString="myIsSuspended" />
@@ -616,7 +636,9 @@
     <scopeInfo nodeId="3815873320642579402" fileName="GraphModificationProcessor.java" startLine="35" startPosition="64" endLine="36" endPosition="58" />
     <scopeInfo nodeId="4136567681074563810" fileName="GraphModificationProcessor.java" startLine="40" startPosition="65" endLine="41" endPosition="71" />
     <scopeInfo nodeId="3815873320642579369" fileName="GraphModificationProcessor.java" startLine="13" startPosition="39" endLine="15" endPosition="81" />
-    <scopeInfo nodeId="3815873320642579463" fileName="GraphModificationProcessor.java" startLine="21" startPosition="5" endLine="24" endPosition="5" />
+    <scopeInfo nodeId="3815873320642579463" fileName="GraphModificationProcessor.java" startLine="21" startPosition="5" endLine="24" endPosition="5">
+      <varInfo nodeId="3815873320642579463" varName="listener" />
+    </scopeInfo>
     <scopeInfo nodeId="3815873320642579366" fileName="GraphModificationProcessor.java" startLine="12" startPosition="0" endLine="16" endPosition="3" />
     <scopeInfo nodeId="3815873320642579380" fileName="GraphModificationProcessor.java" startLine="26" startPosition="0" endLine="30" endPosition="0" />
     <scopeInfo nodeId="3815873320642579435" fileName="GraphModificationProcessor.java" startLine="30" startPosition="0" endLine="34" endPosition="0" />
@@ -706,8 +728,8 @@
       <varInfo nodeId="4660430665333277101" varName="edge" />
     </scopeInfo>
     <scopeInfo nodeId="4671312709908983850" fileName="Node.java" startLine="15" startPosition="0" endLine="22" endPosition="3">
-      <varInfo nodeId="8567569493821112298" varName="index" />
       <varInfo nodeId="1763712338172382429" varName="graph" />
+      <varInfo nodeId="8567569493821112298" varName="index" />
       <varInfo nodeId="1763712338172351691" varName="isDummy" />
     </scopeInfo>
     <scopeInfo nodeId="190081711777510148" fileName="Node.java" startLine="45" startPosition="50" endLine="52" endPosition="5" />
@@ -780,13 +802,19 @@
     <scopeInfo nodeId="6003893670991928528" fileName="ClusteredGraph.java" startLine="26" startPosition="53" endLine="29" endPosition="17">
       <varInfo nodeId="6003893670991929394" varName="nodes" />
     </scopeInfo>
-    <scopeInfo nodeId="6003893670991929286" fileName="ClusteredGraph.java" startLine="49" startPosition="24" endLine="52" endPosition="5" />
-    <scopeInfo nodeId="4189203018295021140" fileName="ClusteredGraph.java" startLine="33" startPosition="92" endLine="37" endPosition="0" />
-    <scopeInfo nodeId="4998536563116676152" fileName="ClusteredGraph.java" startLine="39" startPosition="0" endLine="43" endPosition="0">
-      <varInfo nodeId="4998536563116676158" varName="node" />
-      <varInfo nodeId="4998536563116676156" varName="cluster" />
+    <scopeInfo nodeId="6003893670991929286" fileName="ClusteredGraph.java" startLine="49" startPosition="24" endLine="52" endPosition="5">
+      <varInfo nodeId="6003893670991929286" varName="subcluster" />
     </scopeInfo>
-    <scopeInfo nodeId="6003893670991929350" fileName="ClusteredGraph.java" startLine="45" startPosition="110" endLine="49" endPosition="0" />
+    <scopeInfo nodeId="4189203018295021140" fileName="ClusteredGraph.java" startLine="33" startPosition="92" endLine="37" endPosition="0">
+      <varInfo nodeId="4189203018295021140" varName="edge" />
+    </scopeInfo>
+    <scopeInfo nodeId="4998536563116676152" fileName="ClusteredGraph.java" startLine="39" startPosition="0" endLine="43" endPosition="0">
+      <varInfo nodeId="4998536563116676156" varName="cluster" />
+      <varInfo nodeId="4998536563116676158" varName="node" />
+    </scopeInfo>
+    <scopeInfo nodeId="6003893670991929350" fileName="ClusteredGraph.java" startLine="45" startPosition="110" endLine="49" endPosition="0">
+      <varInfo nodeId="6003893670991929350" varName="it" />
+    </scopeInfo>
     <scopeInfo nodeId="4998536563116677143" fileName="ClusteredGraph.java" startLine="58" startPosition="0" endLine="62" endPosition="0">
       <varInfo nodeId="4998536563116677148" varName="root" />
     </scopeInfo>
@@ -801,8 +829,8 @@
     <scopeInfo nodeId="4189203018295021109" fileName="ClusteredGraph.java" startLine="32" startPosition="56" endLine="37" endPosition="24" />
     <scopeInfo nodeId="3167072330486561902" fileName="ClusteredGraph.java" startLine="70" startPosition="0" endLine="75" endPosition="0" />
     <scopeInfo nodeId="3167072330486561024" fileName="ClusteredGraph.java" startLine="83" startPosition="0" endLine="88" endPosition="0">
-      <varInfo nodeId="3167072330486561030" varName="tree" />
       <varInfo nodeId="3167072330486561032" varName="root" />
+      <varInfo nodeId="3167072330486561030" varName="tree" />
     </scopeInfo>
     <scopeInfo nodeId="6003893670991928522" fileName="ClusteredGraph.java" startLine="25" startPosition="0" endLine="31" endPosition="0">
       <varInfo nodeId="6003893670991928526" varName="cluster" />
@@ -815,12 +843,12 @@
       <varInfo nodeId="6003893670991929313" varName="subclusters" />
     </scopeInfo>
     <scopeInfo nodeId="6003893670991929270" fileName="ClusteredGraph.java" startLine="43" startPosition="0" endLine="58" endPosition="0">
-      <varInfo nodeId="6003893670991929280" varName="nodes" />
       <varInfo nodeId="6003893670991929278" varName="cluster" />
+      <varInfo nodeId="6003893670991929280" varName="nodes" />
     </scopeInfo>
+    <unitInfo nodeId="6003893670991928460" fileName="ClusteredGraph.java" startLine="15" startPosition="0" endLine="93" endPosition="0" unitName="jetbrains.mps.graphLayout.graph.ClusteredGraph" />
     <unitInfo nodeId="4189203018295021140" fileName="ClusteredGraph.java" startLine="33" startPosition="67" endLine="37" endPosition="5" unitName="jetbrains.mps.graphLayout.graph.ClusteredGraph$1" />
     <unitInfo nodeId="6003893670991929350" fileName="ClusteredGraph.java" startLine="45" startPosition="85" endLine="49" endPosition="5" unitName="jetbrains.mps.graphLayout.graph.ClusteredGraph$2" />
-    <unitInfo nodeId="6003893670991928460" fileName="ClusteredGraph.java" startLine="15" startPosition="0" endLine="93" endPosition="0" unitName="jetbrains.mps.graphLayout.graph.ClusteredGraph" />
   </root>
   <root nodeId="6003893670991928487">
     <nodeInfo nodeId="6003893670991928494" fileName="IClusteredGraph.java" startLine="7" startPosition="49" endLine="8" endPosition="35" conceptFqName="jetbrains.mps.baseLanguage.structure.InstanceMethodDeclaration" propertyString="getInclusionTree#()Ljetbrains/mps/graphLayout/graph/IGraph;" />
@@ -887,8 +915,8 @@
     </scopeInfo>
     <scopeInfo nodeId="6105852918337367735" fileName="EdgesHistoryManager.java" startLine="40" startPosition="0" endLine="44" endPosition="0" />
     <scopeInfo nodeId="389705031868526397" fileName="EdgesHistoryManager.java" startLine="66" startPosition="0" endLine="70" endPosition="0">
-      <varInfo nodeId="389705031868526403" varName="node" />
       <varInfo nodeId="389705031868526406" varName="edge" />
+      <varInfo nodeId="389705031868526403" varName="node" />
     </scopeInfo>
     <scopeInfo nodeId="389705031868526320" fileName="EdgesHistoryManager.java" startLine="31" startPosition="25" endLine="36" endPosition="9" />
     <scopeInfo nodeId="389705031868526299" fileName="EdgesHistoryManager.java" startLine="23" startPosition="25" endLine="30" endPosition="14">
@@ -907,8 +935,8 @@
       <varInfo nodeId="6117316156429813153" varName="history" />
     </scopeInfo>
     <scopeInfo nodeId="6105852918337367600" fileName="EdgesHistoryManager.java" startLine="45" startPosition="43" endLine="64" endPosition="23">
-      <varInfo nodeId="389705031868526441" varName="history" />
       <varInfo nodeId="6105852918337367602" varName="fullHistory" />
+      <varInfo nodeId="389705031868526441" varName="history" />
     </scopeInfo>
     <scopeInfo nodeId="6105852918337367529" fileName="EdgesHistoryManager.java" startLine="19" startPosition="0" endLine="40" endPosition="0">
       <varInfo nodeId="6105852918337367532" varName="event" />
@@ -1027,14 +1055,14 @@
       <varInfo nodeId="4189203018295044291" varName="revertedEdge" />
     </scopeInfo>
     <scopeInfo nodeId="7281999657759592945" fileName="GroupedGraphModificationSynchronizer.java" startLine="19" startPosition="0" endLine="26" endPosition="3">
-      <varInfo nodeId="7281999657759592956" varName="groupedGraph" />
       <varInfo nodeId="4189203018295023611" varName="edgeMap" />
+      <varInfo nodeId="7281999657759592956" varName="groupedGraph" />
       <varInfo nodeId="7281999657759592958" varName="synchronizedGraph" />
     </scopeInfo>
     <scopeInfo nodeId="4189203018295039326" fileName="GroupedGraphModificationSynchronizer.java" startLine="52" startPosition="126" endLine="59" endPosition="11">
       <varInfo nodeId="4189203018295039338" varName="edge" />
-      <varInfo nodeId="4136567681074517180" varName="syncTarget" />
       <varInfo nodeId="4136567681074517162" varName="syncSource" />
+      <varInfo nodeId="4136567681074517180" varName="syncTarget" />
     </scopeInfo>
     <scopeInfo nodeId="4189203018295039009" fileName="GroupedGraphModificationSynchronizer.java" startLine="30" startPosition="24" endLine="39" endPosition="14">
       <varInfo nodeId="4189203018295039070" varName="addedNode" />
@@ -1044,22 +1072,24 @@
       <varInfo nodeId="4189203018295039296" varName="removedEdge" />
     </scopeInfo>
     <scopeInfo nodeId="4189203018295039188" fileName="GroupedGraphModificationSynchronizer.java" startLine="46" startPosition="22" endLine="61" endPosition="14">
-      <varInfo nodeId="4189203018295039220" varName="source" />
       <varInfo nodeId="4189203018295039196" varName="addedEdge" />
+      <varInfo nodeId="4189203018295039220" varName="source" />
       <varInfo nodeId="4189203018295039230" varName="target" />
     </scopeInfo>
     <scopeInfo nodeId="1251688034163209425" fileName="GroupedGraphModificationSynchronizer.java" startLine="96" startPosition="16" endLine="113" endPosition="69">
-      <varInfo nodeId="1251688034163209493" varName="syncTarget" />
       <varInfo nodeId="1251688034163209429" varName="source" />
-      <varInfo nodeId="1251688034163209521" varName="syncSplitEdge" />
-      <varInfo nodeId="1251688034163209487" varName="target" />
       <varInfo nodeId="1251688034163209455" varName="syncSource" />
+      <varInfo nodeId="1251688034163209521" varName="syncSplitEdge" />
+      <varInfo nodeId="1251688034163209493" varName="syncTarget" />
+      <varInfo nodeId="1251688034163209487" varName="target" />
     </scopeInfo>
     <scopeInfo nodeId="1251688034163209394" fileName="GroupedGraphModificationSynchronizer.java" startLine="93" startPosition="59" endLine="114" endPosition="9" />
-    <scopeInfo nodeId="1251688034163209391" fileName="GroupedGraphModificationSynchronizer.java" startLine="92" startPosition="110" endLine="115" endPosition="7" />
+    <scopeInfo nodeId="1251688034163209391" fileName="GroupedGraphModificationSynchronizer.java" startLine="92" startPosition="110" endLine="115" endPosition="7">
+      <varInfo nodeId="1251688034163209391" varName="splitEdge" />
+    </scopeInfo>
     <scopeInfo nodeId="4189203018295044471" fileName="GroupedGraphModificationSynchronizer.java" startLine="89" startPosition="67" endLine="119" endPosition="150">
-      <varInfo nodeId="4189203018295044452" varName="syncEdge" />
       <varInfo nodeId="4189203018295044450" varName="split" />
+      <varInfo nodeId="4189203018295044452" varName="syncEdge" />
       <varInfo nodeId="4189203018295044772" varName="syncSplit" />
     </scopeInfo>
     <scopeInfo nodeId="4189203018295044464" fileName="GroupedGraphModificationSynchronizer.java" startLine="87" startPosition="64" endLine="120" endPosition="5">
@@ -1158,8 +1188,8 @@
     <scopeInfo nodeId="1646208389854254579" fileName="Edge.java" startLine="41" startPosition="0" endLine="51" endPosition="0">
       <varInfo nodeId="1646208389854254584" varName="node" />
     </scopeInfo>
-    <unitInfo nodeId="190081711777509657" fileName="Edge.java" startLine="79" startPosition="0" endLine="87" endPosition="0" unitName="jetbrains.mps.graphLayout.graph.Edge$Direction" />
     <unitInfo nodeId="8567569493821103292" fileName="Edge.java" startLine="9" startPosition="0" endLine="88" endPosition="0" unitName="jetbrains.mps.graphLayout.graph.Edge" />
+    <unitInfo nodeId="190081711777509657" fileName="Edge.java" startLine="79" startPosition="0" endLine="87" endPosition="0" unitName="jetbrains.mps.graphLayout.graph.Edge$Direction" />
   </root>
   <root nodeId="8567569493821103298">
     <nodeInfo nodeId="1251688034163210269" fileName="Graph.java" startLine="9" startPosition="38" endLine="10" endPosition="34" conceptFqName="jetbrains.mps.baseLanguage.structure.StaticFieldDeclaration" propertyString="showInfo" />
@@ -1270,9 +1300,15 @@
     <scopeInfo nodeId="1763712338172337257" fileName="Graph.java" startLine="92" startPosition="37" endLine="94" endPosition="97" />
     <scopeInfo nodeId="1763712338172337298" fileName="Graph.java" startLine="97" startPosition="37" endLine="99" endPosition="98" />
     <scopeInfo nodeId="8567569493821103303" fileName="Graph.java" startLine="16" startPosition="18" endLine="19" endPosition="18" />
-    <scopeInfo nodeId="3815873320642557957" fileName="Graph.java" startLine="27" startPosition="71" endLine="30" endPosition="5" />
-    <scopeInfo nodeId="4519409331094617276" fileName="Graph.java" startLine="118" startPosition="38" endLine="121" endPosition="7" />
-    <scopeInfo nodeId="4519409331094617299" fileName="Graph.java" startLine="123" startPosition="37" endLine="126" endPosition="7" />
+    <scopeInfo nodeId="3815873320642557957" fileName="Graph.java" startLine="27" startPosition="71" endLine="30" endPosition="5">
+      <varInfo nodeId="3815873320642557957" varName="node" />
+    </scopeInfo>
+    <scopeInfo nodeId="4519409331094617276" fileName="Graph.java" startLine="118" startPosition="38" endLine="121" endPosition="7">
+      <varInfo nodeId="4519409331094617276" varName="edge" />
+    </scopeInfo>
+    <scopeInfo nodeId="4519409331094617299" fileName="Graph.java" startLine="123" startPosition="37" endLine="126" endPosition="7">
+      <varInfo nodeId="4519409331094617299" varName="edge" />
+    </scopeInfo>
     <scopeInfo nodeId="8567569493821107956" fileName="Graph.java" startLine="21" startPosition="0" endLine="25" endPosition="0" />
     <scopeInfo nodeId="3815873320642570895" fileName="Graph.java" startLine="34" startPosition="46" endLine="38" endPosition="16">
       <varInfo nodeId="3815873320642571231" varName="node" />
@@ -1284,10 +1320,12 @@
     </scopeInfo>
     <scopeInfo nodeId="8567569493821112214" fileName="Graph.java" startLine="74" startPosition="0" endLine="78" endPosition="0" />
     <scopeInfo nodeId="4038232163187048517" fileName="Graph.java" startLine="78" startPosition="0" endLine="82" endPosition="0">
-      <varInfo nodeId="4038232163187048523" varName="targetIndex" />
       <varInfo nodeId="4038232163187048521" varName="sourceIndex" />
+      <varInfo nodeId="4038232163187048523" varName="targetIndex" />
     </scopeInfo>
-    <scopeInfo nodeId="228830736476015953" fileName="Graph.java" startLine="83" startPosition="37" endLine="87" endPosition="5" />
+    <scopeInfo nodeId="228830736476015953" fileName="Graph.java" startLine="83" startPosition="37" endLine="87" endPosition="5">
+      <varInfo nodeId="228830736476015953" varName="edge" />
+    </scopeInfo>
     <scopeInfo nodeId="1763712338172337260" fileName="Graph.java" startLine="132" startPosition="0" endLine="136" endPosition="0">
       <varInfo nodeId="1763712338172337264" varName="listener" />
     </scopeInfo>
@@ -1312,8 +1350,8 @@
       <varInfo nodeId="1763712338172351738" varName="isDummy" />
     </scopeInfo>
     <scopeInfo nodeId="389705031868526569" fileName="Graph.java" startLine="102" startPosition="42" endLine="109" endPosition="20">
-      <varInfo nodeId="389705031868526581" varName="newEdges" />
       <varInfo nodeId="389705031868526599" varName="middleNode" />
+      <varInfo nodeId="389705031868526581" varName="newEdges" />
     </scopeInfo>
     <scopeInfo nodeId="3815873320642557945" fileName="Graph.java" startLine="25" startPosition="0" endLine="33" endPosition="0" />
     <scopeInfo nodeId="3815873320642571190" fileName="Graph.java" startLine="62" startPosition="0" endLine="70" endPosition="0">
@@ -1326,12 +1364,14 @@
       <varInfo nodeId="389705031868526567" varName="edge" />
     </scopeInfo>
     <scopeInfo nodeId="2913448412765225095" fileName="Graph.java" startLine="49" startPosition="51" endLine="60" endPosition="16">
-      <varInfo nodeId="2913448412765225151" varName="targetNode" />
       <varInfo nodeId="3815873320642579513" varName="edge" />
       <varInfo nodeId="2913448412765225139" varName="sourceNode" />
+      <varInfo nodeId="2913448412765225151" varName="targetNode" />
     </scopeInfo>
     <scopeInfo nodeId="4519409331094617259" fileName="Graph.java" startLine="116" startPosition="62" endLine="127" endPosition="26" />
-    <scopeInfo nodeId="4519409331094617254" fileName="Graph.java" startLine="115" startPosition="93" endLine="128" endPosition="5" />
+    <scopeInfo nodeId="4519409331094617254" fileName="Graph.java" startLine="115" startPosition="93" endLine="128" endPosition="5">
+      <varInfo nodeId="4519409331094617254" varName="node" />
+    </scopeInfo>
     <scopeInfo nodeId="2913448412765225088" fileName="Graph.java" startLine="48" startPosition="0" endLine="62" endPosition="0">
       <varInfo nodeId="2913448412765225091" varName="source" />
       <varInfo nodeId="2913448412765225093" varName="target" />

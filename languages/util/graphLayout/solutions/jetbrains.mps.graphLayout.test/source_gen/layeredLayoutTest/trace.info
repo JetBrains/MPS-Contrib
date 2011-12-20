@@ -55,7 +55,9 @@
     <nodeInfo nodeId="1567683135099906274" fileName="TopologicalLayerer_Test.java" startLine="44" startPosition="0" endLine="54" endPosition="0" conceptFqName="jetbrains.mps.baseLanguage.structure.InstanceMethodDeclaration" propertyString="test_cycle#()V" />
     <nodeInfo nodeId="1567683135099906371" fileName="TopologicalLayerer_Test.java" startLine="65" startPosition="0" endLine="75" endPosition="0" conceptFqName="jetbrains.mps.baseLanguage.structure.InstanceMethodDeclaration" propertyString="test_simpleFourLayers#()V" />
     <nodeInfo nodeId="1567683135099906293" fileName="TopologicalLayerer_Test.java" startLine="54" startPosition="0" endLine="65" endPosition="0" conceptFqName="jetbrains.mps.baseLanguage.structure.InstanceMethodDeclaration" propertyString="test_sandwatches#()V" />
-    <scopeInfo nodeId="1567683135099906283" fileName="TopologicalLayerer_Test.java" startLine="50" startPosition="0" endLine="51" endPosition="28" />
+    <scopeInfo nodeId="1567683135099906283" fileName="TopologicalLayerer_Test.java" startLine="50" startPosition="0" endLine="51" endPosition="28">
+      <varInfo nodeId="1567683135099906283" varName="e" />
+    </scopeInfo>
     <scopeInfo nodeId="1567683135099906283" fileName="TopologicalLayerer_Test.java" startLine="50" startPosition="42" endLine="51" endPosition="28" />
     <scopeInfo nodeId="1567683135099906283" fileName="TopologicalLayerer_Test.java" startLine="47" startPosition="9" endLine="49" endPosition="49" />
     <scopeInfo nodeId="1567683135099906097" fileName="TopologicalLayerer_Test.java" startLine="16" startPosition="46" endLine="19" endPosition="88">
@@ -71,8 +73,8 @@
       <varInfo nodeId="1567683135099906181" varName="layers" />
     </scopeInfo>
     <scopeInfo nodeId="1567683135099906226" fileName="TopologicalLayerer_Test.java" startLine="37" startPosition="48" endLine="42" endPosition="91">
-      <varInfo nodeId="1567683135099906228" varName="triangle" />
       <varInfo nodeId="1567683135099906232" varName="layers" />
+      <varInfo nodeId="1567683135099906228" varName="triangle" />
     </scopeInfo>
     <scopeInfo nodeId="1567683135099906094" fileName="TopologicalLayerer_Test.java" startLine="15" startPosition="55" endLine="21" endPosition="0" />
     <scopeInfo nodeId="1567683135099906128" fileName="TopologicalLayerer_Test.java" startLine="21" startPosition="0" endLine="28" endPosition="0" />
@@ -80,14 +82,14 @@
       <varInfo nodeId="3263240354041154373" varName="cycle" />
     </scopeInfo>
     <scopeInfo nodeId="1567683135099906374" fileName="TopologicalLayerer_Test.java" startLine="66" startPosition="56" endLine="73" endPosition="94">
-      <varInfo nodeId="1567683135099906376" varName="simpleGraph" />
       <varInfo nodeId="1567683135099906380" varName="layers" />
+      <varInfo nodeId="1567683135099906376" varName="simpleGraph" />
     </scopeInfo>
     <scopeInfo nodeId="1567683135099906171" fileName="TopologicalLayerer_Test.java" startLine="28" startPosition="0" endLine="36" endPosition="0" />
     <scopeInfo nodeId="1567683135099906223" fileName="TopologicalLayerer_Test.java" startLine="36" startPosition="0" endLine="44" endPosition="0" />
     <scopeInfo nodeId="1567683135099906296" fileName="TopologicalLayerer_Test.java" startLine="55" startPosition="51" endLine="63" endPosition="94">
-      <varInfo nodeId="1567683135099906298" varName="sandwatches" />
       <varInfo nodeId="1567683135099906302" varName="layers" />
+      <varInfo nodeId="1567683135099906298" varName="sandwatches" />
     </scopeInfo>
     <scopeInfo nodeId="1567683135099906274" fileName="TopologicalLayerer_Test.java" startLine="44" startPosition="0" endLine="54" endPosition="0" />
     <scopeInfo nodeId="1567683135099906371" fileName="TopologicalLayerer_Test.java" startLine="65" startPosition="0" endLine="75" endPosition="0" />
@@ -127,15 +129,15 @@
     <nodeInfo nodeId="1567683135099906447" fileName="DFSNodeSorter_Test.java" startLine="18" startPosition="50" endLine="33" endPosition="0" conceptFqName="jetbrains.mps.baseLanguage.structure.InstanceMethodDeclaration" propertyString="test_Chain#()V" />
     <nodeInfo nodeId="1567683135099906564" fileName="DFSNodeSorter_Test.java" startLine="33" startPosition="0" endLine="53" endPosition="0" conceptFqName="jetbrains.mps.baseLanguage.structure.InstanceMethodDeclaration" propertyString="test_simpleFourLeyers#()V" />
     <scopeInfo nodeId="1567683135099906450" fileName="DFSNodeSorter_Test.java" startLine="19" startPosition="45" endLine="31" endPosition="98">
-      <varInfo nodeId="1567683135099906490" varName="order" />
       <varInfo nodeId="1567683135099906452" varName="chain" />
       <varInfo nodeId="920414672219866064" varName="layers" />
+      <varInfo nodeId="1567683135099906490" varName="order" />
     </scopeInfo>
     <scopeInfo nodeId="1567683135099906447" fileName="DFSNodeSorter_Test.java" startLine="18" startPosition="50" endLine="33" endPosition="0" />
     <scopeInfo nodeId="1567683135099906567" fileName="DFSNodeSorter_Test.java" startLine="34" startPosition="56" endLine="51" endPosition="104">
-      <varInfo nodeId="1567683135099906569" varName="simpleGraph" />
-      <varInfo nodeId="1567683135099906624" varName="order" />
       <varInfo nodeId="920414672219866118" varName="layers" />
+      <varInfo nodeId="1567683135099906624" varName="order" />
+      <varInfo nodeId="1567683135099906569" varName="simpleGraph" />
     </scopeInfo>
     <scopeInfo nodeId="1567683135099906564" fileName="DFSNodeSorter_Test.java" startLine="33" startPosition="0" endLine="53" endPosition="0" />
     <unitInfo nodeId="1567683135099906440" fileName="DFSNodeSorter_Test.java" startLine="18" startPosition="0" endLine="54" endPosition="0" unitName="layeredLayoutTest.DFSNodeSorter_Test" />
@@ -181,10 +183,16 @@
     <scopeInfo nodeId="5409050563449596627" fileName="CheckLayers.java" startLine="12" startPosition="26" endLine="14" endPosition="3" />
     <scopeInfo nodeId="1567683135099906794" fileName="CheckLayers.java" startLine="18" startPosition="67" endLine="21" endPosition="9" />
     <scopeInfo nodeId="1567683135099906819" fileName="CheckLayers.java" startLine="23" startPosition="66" endLine="26" endPosition="9" />
-    <scopeInfo nodeId="1567683135099906789" fileName="CheckLayers.java" startLine="17" startPosition="63" endLine="22" endPosition="7" />
-    <scopeInfo nodeId="1567683135099906814" fileName="CheckLayers.java" startLine="22" startPosition="7" endLine="27" endPosition="7" />
+    <scopeInfo nodeId="1567683135099906789" fileName="CheckLayers.java" startLine="17" startPosition="63" endLine="22" endPosition="7">
+      <varInfo nodeId="1567683135099906789" varName="edge" />
+    </scopeInfo>
+    <scopeInfo nodeId="1567683135099906814" fileName="CheckLayers.java" startLine="22" startPosition="7" endLine="27" endPosition="7">
+      <varInfo nodeId="1567683135099906814" varName="edge" />
+    </scopeInfo>
     <scopeInfo nodeId="1567683135099906788" fileName="CheckLayers.java" startLine="17" startPosition="63" endLine="27" endPosition="7" />
-    <scopeInfo nodeId="1567683135099906783" fileName="CheckLayers.java" startLine="16" startPosition="77" endLine="28" endPosition="5" />
+    <scopeInfo nodeId="1567683135099906783" fileName="CheckLayers.java" startLine="16" startPosition="77" endLine="28" endPosition="5">
+      <varInfo nodeId="1567683135099906783" varName="node" />
+    </scopeInfo>
     <scopeInfo nodeId="1567683135099906782" fileName="CheckLayers.java" startLine="16" startPosition="77" endLine="29" endPosition="17" />
     <scopeInfo nodeId="1567683135099906779" fileName="CheckLayers.java" startLine="15" startPosition="0" endLine="31" endPosition="0">
       <varInfo nodeId="1567683135099906841" varName="graph" />
@@ -274,8 +282,8 @@
       <varInfo nodeId="5180427534211903504" varName="graphString" />
     </scopeInfo>
     <scopeInfo nodeId="5180427534211902520" fileName="BlockGraphProcessor_Test.java" startLine="29" startPosition="40" endLine="31" endPosition="78">
-      <varInfo nodeId="5180427534211903960" varName="layers" />
       <varInfo nodeId="5180427534211902525" varName="blockGraph" />
+      <varInfo nodeId="5180427534211903960" varName="layers" />
     </scopeInfo>
     <scopeInfo nodeId="4519409331094801576" fileName="BlockGraphProcessor_Test.java" startLine="13" startPosition="56" endLine="18" endPosition="0" />
     <scopeInfo nodeId="5180427534211902494" fileName="BlockGraphProcessor_Test.java" startLine="18" startPosition="0" endLine="23" endPosition="0" />
@@ -305,7 +313,9 @@
     <scopeInfo nodeId="7033456583153162490" fileName="CheckDummyEdgesCrossing.java" startLine="18" startPosition="40" endLine="19" endPosition="30" />
     <scopeInfo nodeId="7033456583153162538" fileName="CheckDummyEdgesCrossing.java" startLine="28" startPosition="139" endLine="29" endPosition="26" />
     <scopeInfo nodeId="5409050563449596659" fileName="CheckDummyEdgesCrossing.java" startLine="11" startPosition="38" endLine="13" endPosition="3" />
-    <scopeInfo nodeId="7033456583153162489" fileName="CheckDummyEdgesCrossing.java" startLine="17" startPosition="107" endLine="21" endPosition="0" />
+    <scopeInfo nodeId="7033456583153162489" fileName="CheckDummyEdgesCrossing.java" startLine="17" startPosition="107" endLine="21" endPosition="0">
+      <varInfo nodeId="7033456583153162489" varName="it" />
+    </scopeInfo>
     <scopeInfo nodeId="4519409331094687698" fileName="CheckDummyEdgesCrossing.java" startLine="26" startPosition="64" endLine="30" endPosition="13">
       <varInfo nodeId="7033456583153162528" varName="nextLayerOrder" />
     </scopeInfo>
@@ -330,8 +340,8 @@
     <scopeInfo nodeId="7033456583153162448" fileName="CheckDummyEdgesCrossing.java" startLine="14" startPosition="0" endLine="37" endPosition="0">
       <varInfo nodeId="7033456583153162458" varName="order" />
     </scopeInfo>
-    <unitInfo nodeId="7033456583153162489" fileName="CheckDummyEdgesCrossing.java" startLine="17" startPosition="85" endLine="21" endPosition="7" unitName="layeredLayoutTest.CheckDummyEdgesCrossing$1" />
     <unitInfo nodeId="6088058844796081230" fileName="CheckDummyEdgesCrossing.java" startLine="11" startPosition="0" endLine="38" endPosition="0" unitName="layeredLayoutTest.CheckDummyEdgesCrossing" />
+    <unitInfo nodeId="7033456583153162489" fileName="CheckDummyEdgesCrossing.java" startLine="17" startPosition="85" endLine="21" endPosition="7" unitName="layeredLayoutTest.CheckDummyEdgesCrossing$1" />
   </root>
   <root nodeId="8780938838750221986">
     <nodeInfo nodeId="8780938838750221993" fileName="RefineAdjacentNodeSorterProxy.java" startLine="14" startPosition="67" endLine="15" endPosition="42" conceptFqName="jetbrains.mps.baseLanguage.structure.FieldDeclaration" propertyString="mySorter" />

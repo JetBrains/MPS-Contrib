@@ -38,10 +38,18 @@
     <scopeInfo nodeId="4136567681074297492" fileName="CheckEmbeddedGraph.java" startLine="20" startPosition="69" endLine="23" endPosition="7" />
     <scopeInfo nodeId="4136567681074297549" fileName="CheckEmbeddedGraph.java" startLine="34" startPosition="64" endLine="37" endPosition="9" />
     <scopeInfo nodeId="4136567681074297634" fileName="CheckEmbeddedGraph.java" startLine="56" startPosition="61" endLine="59" endPosition="5" />
-    <scopeInfo nodeId="4136567681074297635" fileName="CheckEmbeddedGraph.java" startLine="56" startPosition="61" endLine="59" endPosition="5" />
-    <scopeInfo nodeId="4136567681074297602" fileName="CheckEmbeddedGraph.java" startLine="45" startPosition="114" endLine="49" endPosition="0" />
-    <scopeInfo nodeId="4136567681074297487" fileName="CheckEmbeddedGraph.java" startLine="19" startPosition="73" endLine="24" endPosition="5" />
-    <scopeInfo nodeId="4136567681074297544" fileName="CheckEmbeddedGraph.java" startLine="33" startPosition="7" endLine="38" endPosition="7" />
+    <scopeInfo nodeId="4136567681074297635" fileName="CheckEmbeddedGraph.java" startLine="56" startPosition="61" endLine="59" endPosition="5">
+      <varInfo nodeId="4136567681074297635" varName="edge" />
+    </scopeInfo>
+    <scopeInfo nodeId="4136567681074297602" fileName="CheckEmbeddedGraph.java" startLine="45" startPosition="114" endLine="49" endPosition="0">
+      <varInfo nodeId="4136567681074297602" varName="it" />
+    </scopeInfo>
+    <scopeInfo nodeId="4136567681074297487" fileName="CheckEmbeddedGraph.java" startLine="19" startPosition="73" endLine="24" endPosition="5">
+      <varInfo nodeId="4136567681074297487" varName="edge" />
+    </scopeInfo>
+    <scopeInfo nodeId="4136567681074297544" fileName="CheckEmbeddedGraph.java" startLine="33" startPosition="7" endLine="38" endPosition="7">
+      <varInfo nodeId="4136567681074297544" varName="dart" />
+    </scopeInfo>
     <scopeInfo nodeId="4136567681074297486" fileName="CheckEmbeddedGraph.java" startLine="19" startPosition="73" endLine="25" endPosition="16" />
     <scopeInfo nodeId="4136567681074297631" fileName="CheckEmbeddedGraph.java" startLine="55" startPosition="0" endLine="61" endPosition="0">
       <varInfo nodeId="4136567681074297650" varName="embeddedGraph" />
@@ -53,18 +61,22 @@
     <scopeInfo nodeId="4136567681074297581" fileName="CheckEmbeddedGraph.java" startLine="42" startPosition="26" endLine="51" endPosition="83">
       <varInfo nodeId="4136567681074297589" varName="sources" />
     </scopeInfo>
-    <scopeInfo nodeId="4136567681074297516" fileName="CheckEmbeddedGraph.java" startLine="29" startPosition="38" endLine="39" endPosition="5" />
+    <scopeInfo nodeId="4136567681074297516" fileName="CheckEmbeddedGraph.java" startLine="29" startPosition="38" endLine="39" endPosition="5">
+      <varInfo nodeId="4136567681074297516" varName="face" />
+    </scopeInfo>
     <scopeInfo nodeId="4136567681074297571" fileName="CheckEmbeddedGraph.java" startLine="40" startPosition="82" endLine="52" endPosition="7">
       <varInfo nodeId="4136567681074297573" varName="darts" />
     </scopeInfo>
-    <scopeInfo nodeId="4136567681074297564" fileName="CheckEmbeddedGraph.java" startLine="39" startPosition="5" endLine="53" endPosition="5" />
+    <scopeInfo nodeId="4136567681074297564" fileName="CheckEmbeddedGraph.java" startLine="39" startPosition="5" endLine="53" endPosition="5">
+      <varInfo nodeId="4136567681074297564" varName="edge" />
+    </scopeInfo>
     <scopeInfo nodeId="4136567681074297512" fileName="CheckEmbeddedGraph.java" startLine="28" startPosition="94" endLine="53" endPosition="5" />
     <scopeInfo nodeId="4136567681074297509" fileName="CheckEmbeddedGraph.java" startLine="27" startPosition="0" endLine="55" endPosition="0">
       <varInfo nodeId="4136567681074297627" varName="embeddedGraph" />
       <varInfo nodeId="4136567681074297629" varName="isRegularFaces" />
     </scopeInfo>
-    <unitInfo nodeId="4136567681074297602" fileName="CheckEmbeddedGraph.java" startLine="45" startPosition="89" endLine="49" endPosition="9" unitName="jetbrains.mps.graphLayout.planarGraph.CheckEmbeddedGraph$1" />
     <unitInfo nodeId="1123934034178617860" fileName="CheckEmbeddedGraph.java" startLine="15" startPosition="0" endLine="62" endPosition="0" unitName="jetbrains.mps.graphLayout.planarGraph.CheckEmbeddedGraph" />
+    <unitInfo nodeId="4136567681074297602" fileName="CheckEmbeddedGraph.java" startLine="45" startPosition="89" endLine="49" endPosition="9" unitName="jetbrains.mps.graphLayout.planarGraph.CheckEmbeddedGraph$1" />
   </root>
   <root nodeId="1123934034178617891">
     <nodeInfo nodeId="1123934034178617896" fileName="CheckFace.java" startLine="13" startPosition="42" endLine="14" endPosition="39" conceptFqName="jetbrains.mps.baseLanguage.structure.LocalVariableDeclarationStatement" />
@@ -181,7 +193,9 @@
     <scopeInfo nodeId="1646208389854275426" fileName="Face.java" startLine="79" startPosition="54" endLine="80" endPosition="34" />
     <scopeInfo nodeId="2899723422951321468" fileName="Face.java" startLine="20" startPosition="28" endLine="22" endPosition="60" />
     <scopeInfo nodeId="1936743448702107949" fileName="Face.java" startLine="69" startPosition="47" endLine="72" endPosition="19" />
-    <scopeInfo nodeId="1646208389854275423" fileName="Face.java" startLine="78" startPosition="30" endLine="81" endPosition="5" />
+    <scopeInfo nodeId="1646208389854275423" fileName="Face.java" startLine="78" startPosition="30" endLine="81" endPosition="5">
+      <varInfo nodeId="1646208389854275423" varName="dart" />
+    </scopeInfo>
     <scopeInfo nodeId="2899723422951321465" fileName="Face.java" startLine="19" startPosition="0" endLine="23" endPosition="3">
       <varInfo nodeId="2899723422951321492" varName="graph" />
     </scopeInfo>
@@ -192,8 +206,12 @@
       <varInfo nodeId="925859607109380668" varName="dart" />
     </scopeInfo>
     <scopeInfo nodeId="1646208389854266546" fileName="Face.java" startLine="32" startPosition="0" endLine="36" endPosition="0" />
-    <scopeInfo nodeId="925859607109447752" fileName="Face.java" startLine="39" startPosition="114" endLine="43" endPosition="0" />
-    <scopeInfo nodeId="7428187320254608680" fileName="Face.java" startLine="48" startPosition="83" endLine="52" endPosition="0" />
+    <scopeInfo nodeId="925859607109447752" fileName="Face.java" startLine="39" startPosition="114" endLine="43" endPosition="0">
+      <varInfo nodeId="925859607109447752" varName="it" />
+    </scopeInfo>
+    <scopeInfo nodeId="7428187320254608680" fileName="Face.java" startLine="48" startPosition="83" endLine="52" endPosition="0">
+      <varInfo nodeId="7428187320254608680" varName="it" />
+    </scopeInfo>
     <scopeInfo nodeId="1936743448702107945" fileName="Face.java" startLine="68" startPosition="0" endLine="74" endPosition="0">
       <varInfo nodeId="1936743448702107966" varName="dart" />
     </scopeInfo>
@@ -217,9 +235,9 @@
     <scopeInfo nodeId="7428187320254602819" fileName="Face.java" startLine="46" startPosition="0" endLine="58" endPosition="0">
       <varInfo nodeId="7428187320254602872" varName="end" />
     </scopeInfo>
+    <unitInfo nodeId="2899723422951321463" fileName="Face.java" startLine="16" startPosition="0" endLine="86" endPosition="0" unitName="jetbrains.mps.graphLayout.planarGraph.Face" />
     <unitInfo nodeId="925859607109447752" fileName="Face.java" startLine="39" startPosition="89" endLine="43" endPosition="5" unitName="jetbrains.mps.graphLayout.planarGraph.Face$1" />
     <unitInfo nodeId="7428187320254608680" fileName="Face.java" startLine="48" startPosition="61" endLine="52" endPosition="5" unitName="jetbrains.mps.graphLayout.planarGraph.Face$2" />
-    <unitInfo nodeId="2899723422951321463" fileName="Face.java" startLine="16" startPosition="0" endLine="86" endPosition="0" unitName="jetbrains.mps.graphLayout.planarGraph.Face" />
   </root>
   <root nodeId="2899723422951321538">
     <nodeInfo nodeId="2899723422951321545" fileName="EmbeddedGraph.java" startLine="20" startPosition="28" endLine="21" endPosition="29" conceptFqName="jetbrains.mps.baseLanguage.structure.FieldDeclaration" propertyString="myFaces" />
@@ -532,22 +550,40 @@
     <scopeInfo nodeId="1327612371813252737" fileName="EmbeddedGraph.java" startLine="168" startPosition="5" endLine="171" endPosition="5">
       <varInfo nodeId="1327612371813252738" varName="i" />
     </scopeInfo>
-    <scopeInfo nodeId="1936743448702121381" fileName="EmbeddedGraph.java" startLine="192" startPosition="28" endLine="195" endPosition="5" />
-    <scopeInfo nodeId="1936743448702121426" fileName="EmbeddedGraph.java" startLine="196" startPosition="40" endLine="199" endPosition="5" />
-    <scopeInfo nodeId="1646208389854277431" fileName="EmbeddedGraph.java" startLine="205" startPosition="52" endLine="208" endPosition="5" />
-    <scopeInfo nodeId="4179389957059019744" fileName="EmbeddedGraph.java" startLine="221" startPosition="55" endLine="224" endPosition="5" />
+    <scopeInfo nodeId="1936743448702121381" fileName="EmbeddedGraph.java" startLine="192" startPosition="28" endLine="195" endPosition="5">
+      <varInfo nodeId="1936743448702121381" varName="edge" />
+    </scopeInfo>
+    <scopeInfo nodeId="1936743448702121426" fileName="EmbeddedGraph.java" startLine="196" startPosition="40" endLine="199" endPosition="5">
+      <varInfo nodeId="1936743448702121426" varName="edge" />
+    </scopeInfo>
+    <scopeInfo nodeId="1646208389854277431" fileName="EmbeddedGraph.java" startLine="205" startPosition="52" endLine="208" endPosition="5">
+      <varInfo nodeId="1646208389854277431" varName="dart" />
+    </scopeInfo>
+    <scopeInfo nodeId="4179389957059019744" fileName="EmbeddedGraph.java" startLine="221" startPosition="55" endLine="224" endPosition="5">
+      <varInfo nodeId="4179389957059019744" varName="dart" />
+    </scopeInfo>
     <scopeInfo nodeId="1936743448702140720" fileName="EmbeddedGraph.java" startLine="324" startPosition="18" endLine="327" endPosition="72" />
-    <scopeInfo nodeId="4179389957059019048" fileName="EmbeddedGraph.java" startLine="349" startPosition="48" endLine="352" endPosition="5" />
-    <scopeInfo nodeId="4915750462377086460" fileName="EmbeddedGraph.java" startLine="71" startPosition="85" endLine="75" endPosition="0" />
+    <scopeInfo nodeId="4179389957059019048" fileName="EmbeddedGraph.java" startLine="349" startPosition="48" endLine="352" endPosition="5">
+      <varInfo nodeId="4179389957059019048" varName="face" />
+    </scopeInfo>
+    <scopeInfo nodeId="4915750462377086460" fileName="EmbeddedGraph.java" startLine="71" startPosition="85" endLine="75" endPosition="0">
+      <varInfo nodeId="4915750462377086460" varName="dart" />
+    </scopeInfo>
     <scopeInfo nodeId="1327612371813262754" fileName="EmbeddedGraph.java" startLine="77" startPosition="0" endLine="81" endPosition="0">
       <varInfo nodeId="1327612371813262906" varName="edge" />
     </scopeInfo>
-    <scopeInfo nodeId="5668095147007614496" fileName="EmbeddedGraph.java" startLine="92" startPosition="90" endLine="96" endPosition="0" />
+    <scopeInfo nodeId="5668095147007614496" fileName="EmbeddedGraph.java" startLine="92" startPosition="90" endLine="96" endPosition="0">
+      <varInfo nodeId="5668095147007614496" varName="it" />
+    </scopeInfo>
     <scopeInfo nodeId="5668095147007631787" fileName="EmbeddedGraph.java" startLine="104" startPosition="31" endLine="108" endPosition="11" />
     <scopeInfo nodeId="1327612371813252520" fileName="EmbeddedGraph.java" startLine="152" startPosition="28" endLine="156" endPosition="23" />
     <scopeInfo nodeId="1327612371813252638" fileName="EmbeddedGraph.java" startLine="157" startPosition="12" endLine="161" endPosition="25" />
-    <scopeInfo nodeId="1327612371813252809" fileName="EmbeddedGraph.java" startLine="172" startPosition="21" endLine="176" endPosition="5" />
-    <scopeInfo nodeId="1327612371813252864" fileName="EmbeddedGraph.java" startLine="177" startPosition="14" endLine="181" endPosition="5" />
+    <scopeInfo nodeId="1327612371813252809" fileName="EmbeddedGraph.java" startLine="172" startPosition="21" endLine="176" endPosition="5">
+      <varInfo nodeId="1327612371813252809" varName="edge" />
+    </scopeInfo>
+    <scopeInfo nodeId="1327612371813252864" fileName="EmbeddedGraph.java" startLine="177" startPosition="14" endLine="181" endPosition="5">
+      <varInfo nodeId="1327612371813252864" varName="edge" />
+    </scopeInfo>
     <scopeInfo nodeId="2899723422951325407" fileName="EmbeddedGraph.java" startLine="204" startPosition="34" endLine="208" endPosition="5" />
     <scopeInfo nodeId="4179389957059019731" fileName="EmbeddedGraph.java" startLine="220" startPosition="37" endLine="224" endPosition="5" />
     <scopeInfo nodeId="1123934034178615896" fileName="EmbeddedGraph.java" startLine="236" startPosition="54" endLine="240" endPosition="27">
@@ -562,16 +598,22 @@
       <varInfo nodeId="860462848750221627" varName="face" />
     </scopeInfo>
     <scopeInfo nodeId="4179389957059015275" fileName="EmbeddedGraph.java" startLine="260" startPosition="0" endLine="264" endPosition="0" />
-    <scopeInfo nodeId="2503771434357717057" fileName="EmbeddedGraph.java" startLine="267" startPosition="119" endLine="271" endPosition="0" />
+    <scopeInfo nodeId="2503771434357717057" fileName="EmbeddedGraph.java" startLine="267" startPosition="119" endLine="271" endPosition="0">
+      <varInfo nodeId="2503771434357717057" varName="dart" />
+    </scopeInfo>
     <scopeInfo nodeId="2503771434357704649" fileName="EmbeddedGraph.java" startLine="277" startPosition="0" endLine="281" endPosition="0" />
     <scopeInfo nodeId="529057043639039036" fileName="EmbeddedGraph.java" startLine="281" startPosition="0" endLine="285" endPosition="0">
       <varInfo nodeId="529057043639039043" varName="edge" />
     </scopeInfo>
-    <scopeInfo nodeId="529057043639077302" fileName="EmbeddedGraph.java" startLine="287" startPosition="95" endLine="291" endPosition="0" />
+    <scopeInfo nodeId="529057043639077302" fileName="EmbeddedGraph.java" startLine="287" startPosition="95" endLine="291" endPosition="0">
+      <varInfo nodeId="529057043639077302" varName="it" />
+    </scopeInfo>
     <scopeInfo nodeId="529057043639077312" fileName="EmbeddedGraph.java" startLine="293" startPosition="0" endLine="297" endPosition="0">
       <varInfo nodeId="529057043639077317" varName="dart" />
     </scopeInfo>
-    <scopeInfo nodeId="7428187320254595403" fileName="EmbeddedGraph.java" startLine="303" startPosition="117" endLine="307" endPosition="0" />
+    <scopeInfo nodeId="7428187320254595403" fileName="EmbeddedGraph.java" startLine="303" startPosition="117" endLine="307" endPosition="0">
+      <varInfo nodeId="7428187320254595403" varName="dart" />
+    </scopeInfo>
     <scopeInfo nodeId="1936743448702140700" fileName="EmbeddedGraph.java" startLine="318" startPosition="88" endLine="322" endPosition="7" />
     <scopeInfo nodeId="4179389957059016099" fileName="EmbeddedGraph.java" startLine="342" startPosition="0" endLine="346" endPosition="0" />
     <scopeInfo nodeId="1123934034178601486" fileName="EmbeddedGraph.java" startLine="356" startPosition="0" endLine="360" endPosition="0" />
@@ -585,11 +627,19 @@
     <scopeInfo nodeId="2615992436839823297" fileName="EmbeddedGraph.java" startLine="389" startPosition="0" endLine="393" endPosition="0" />
     <scopeInfo nodeId="2899723422951321543" fileName="EmbeddedGraph.java" startLine="28" startPosition="37" endLine="33" endPosition="20" />
     <scopeInfo nodeId="1327612371813252055" fileName="EmbeddedGraph.java" startLine="39" startPosition="33" endLine="44" endPosition="9" />
-    <scopeInfo nodeId="2503771434357711466" fileName="EmbeddedGraph.java" startLine="51" startPosition="38" endLine="56" endPosition="5" />
-    <scopeInfo nodeId="2503771434357711520" fileName="EmbeddedGraph.java" startLine="61" startPosition="38" endLine="66" endPosition="5" />
+    <scopeInfo nodeId="2503771434357711466" fileName="EmbeddedGraph.java" startLine="51" startPosition="38" endLine="56" endPosition="5">
+      <varInfo nodeId="2503771434357711466" varName="dart" />
+    </scopeInfo>
+    <scopeInfo nodeId="2503771434357711520" fileName="EmbeddedGraph.java" startLine="61" startPosition="38" endLine="66" endPosition="5">
+      <varInfo nodeId="2503771434357711520" varName="dart" />
+    </scopeInfo>
     <scopeInfo nodeId="4915750462377086426" fileName="EmbeddedGraph.java" startLine="70" startPosition="59" endLine="75" endPosition="7" />
-    <scopeInfo nodeId="5668095147007614607" fileName="EmbeddedGraph.java" startLine="114" startPosition="10" endLine="119" endPosition="11" />
-    <scopeInfo nodeId="5668095147007614633" fileName="EmbeddedGraph.java" startLine="119" startPosition="11" endLine="124" endPosition="11" />
+    <scopeInfo nodeId="5668095147007614607" fileName="EmbeddedGraph.java" startLine="114" startPosition="10" endLine="119" endPosition="11">
+      <varInfo nodeId="5668095147007614607" varName="newEdge" />
+    </scopeInfo>
+    <scopeInfo nodeId="5668095147007614633" fileName="EmbeddedGraph.java" startLine="119" startPosition="11" endLine="124" endPosition="11">
+      <varInfo nodeId="5668095147007614633" varName="newEdge" />
+    </scopeInfo>
     <scopeInfo nodeId="7428187320254607752" fileName="EmbeddedGraph.java" startLine="242" startPosition="0" endLine="247" endPosition="0">
       <varInfo nodeId="7428187320254607758" varName="dart" />
       <varInfo nodeId="7428187320254607756" varName="face" />
@@ -607,11 +657,15 @@
     <scopeInfo nodeId="2503771434357716877" fileName="EmbeddedGraph.java" startLine="227" startPosition="40" endLine="233" endPosition="5">
       <varInfo nodeId="2503771434357716887" varName="edge" />
     </scopeInfo>
-    <scopeInfo nodeId="1936743448702140697" fileName="EmbeddedGraph.java" startLine="317" startPosition="16" endLine="323" endPosition="5" />
+    <scopeInfo nodeId="1936743448702140697" fileName="EmbeddedGraph.java" startLine="317" startPosition="16" endLine="323" endPosition="5">
+      <varInfo nodeId="1936743448702140697" varName="sourceDart" />
+    </scopeInfo>
     <scopeInfo nodeId="4179389957059019043" fileName="EmbeddedGraph.java" startLine="348" startPosition="28" endLine="354" endPosition="30">
       <varInfo nodeId="4179389957059019057" varName="builder" />
     </scopeInfo>
-    <scopeInfo nodeId="1532165762814122878" fileName="EmbeddedGraph.java" startLine="381" startPosition="53" endLine="387" endPosition="5" />
+    <scopeInfo nodeId="1532165762814122878" fileName="EmbeddedGraph.java" startLine="381" startPosition="53" endLine="387" endPosition="5">
+      <varInfo nodeId="1532165762814122878" varName="dart" />
+    </scopeInfo>
     <scopeInfo nodeId="2899723422951321540" fileName="EmbeddedGraph.java" startLine="27" startPosition="0" endLine="34" endPosition="3">
       <varInfo nodeId="4179389957059016094" varName="graph" />
     </scopeInfo>
@@ -647,17 +701,19 @@
       <varInfo nodeId="1936743448702140670" varName="edgeDarts" />
     </scopeInfo>
     <scopeInfo nodeId="4998536563116565627" fileName="EmbeddedGraph.java" startLine="332" startPosition="48" endLine="340" endPosition="23">
-      <varInfo nodeId="4998536563116565649" varName="sortedDarts" />
       <varInfo nodeId="4998536563116565656" varName="curDart" />
       <varInfo nodeId="4998536563116565641" varName="darts" />
+      <varInfo nodeId="4998536563116565649" varName="sortedDarts" />
     </scopeInfo>
-    <scopeInfo nodeId="1327612371813252010" fileName="EmbeddedGraph.java" startLine="37" startPosition="31" endLine="46" endPosition="5" />
+    <scopeInfo nodeId="1327612371813252010" fileName="EmbeddedGraph.java" startLine="37" startPosition="31" endLine="46" endPosition="5">
+      <varInfo nodeId="1327612371813252010" varName="face" />
+    </scopeInfo>
     <scopeInfo nodeId="1327612371813252443" fileName="EmbeddedGraph.java" startLine="138" startPosition="20" endLine="147" endPosition="5">
       <varInfo nodeId="1327612371813252446" varName="i" />
     </scopeInfo>
     <scopeInfo nodeId="2503771434357711536" fileName="EmbeddedGraph.java" startLine="210" startPosition="0" endLine="219" endPosition="0">
-      <varInfo nodeId="2503771434357711543" varName="face" />
       <varInfo nodeId="2503771434357711541" varName="dart" />
+      <varInfo nodeId="2503771434357711543" varName="face" />
     </scopeInfo>
     <scopeInfo nodeId="2503771434357716874" fileName="EmbeddedGraph.java" startLine="226" startPosition="0" endLine="235" endPosition="0">
       <varInfo nodeId="2503771434357716879" varName="dart" />
@@ -674,7 +730,9 @@
     <scopeInfo nodeId="2503771434357703712" fileName="EmbeddedGraph.java" startLine="265" startPosition="49" endLine="275" endPosition="17">
       <varInfo nodeId="2503771434357717029" varName="faces" />
     </scopeInfo>
-    <scopeInfo nodeId="7428187320254595369" fileName="EmbeddedGraph.java" startLine="299" startPosition="68" endLine="309" endPosition="5" />
+    <scopeInfo nodeId="7428187320254595369" fileName="EmbeddedGraph.java" startLine="299" startPosition="68" endLine="309" endPosition="5">
+      <varInfo nodeId="7428187320254595369" varName="edge" />
+    </scopeInfo>
     <scopeInfo nodeId="4179389957059019040" fileName="EmbeddedGraph.java" startLine="346" startPosition="0" endLine="356" endPosition="0" />
     <scopeInfo nodeId="1327612371813251999" fileName="EmbeddedGraph.java" startLine="36" startPosition="52" endLine="47" endPosition="26">
       <varInfo nodeId="925859607109394140" varName="containingFace" />
@@ -687,8 +745,8 @@
     </scopeInfo>
     <scopeInfo nodeId="1936743448702121353" fileName="EmbeddedGraph.java" startLine="190" startPosition="0" endLine="203" endPosition="0">
       <varInfo nodeId="1936743448702121358" varName="face" />
-      <varInfo nodeId="1936743448702121469" varName="node" />
       <varInfo nodeId="1936743448702121363" varName="loop" />
+      <varInfo nodeId="1936743448702121469" varName="node" />
     </scopeInfo>
     <scopeInfo nodeId="2503771434357703709" fileName="EmbeddedGraph.java" startLine="264" startPosition="0" endLine="277" endPosition="0">
       <varInfo nodeId="2503771434357703716" varName="edge" />
@@ -701,16 +759,16 @@
     </scopeInfo>
     <scopeInfo nodeId="1936743448702140655" fileName="EmbeddedGraph.java" startLine="313" startPosition="44" endLine="329" endPosition="16">
       <varInfo nodeId="1936743448702140770" varName="face" />
-      <varInfo nodeId="1936743448702140694" varName="num" />
       <varInfo nodeId="1936743448702140688" varName="next" />
+      <varInfo nodeId="1936743448702140694" varName="num" />
     </scopeInfo>
     <scopeInfo nodeId="1532165762814122773" fileName="EmbeddedGraph.java" startLine="369" startPosition="37" endLine="387" endPosition="5">
+      <varInfo nodeId="1532165762814122827" varName="darts" />
+      <varInfo nodeId="1532165762814122782" varName="edgeDarts" />
       <varInfo nodeId="1532165762814122791" varName="face" />
+      <varInfo nodeId="1532165762814122853" varName="first" />
       <varInfo nodeId="1532165762814122870" varName="last" />
       <varInfo nodeId="1532165762814122805" varName="toRemove" />
-      <varInfo nodeId="1532165762814122827" varName="darts" />
-      <varInfo nodeId="1532165762814122853" varName="first" />
-      <varInfo nodeId="1532165762814122782" varName="edgeDarts" />
     </scopeInfo>
     <scopeInfo nodeId="1936743448702140652" fileName="EmbeddedGraph.java" startLine="312" startPosition="0" endLine="331" endPosition="0">
       <varInfo nodeId="1936743448702140657" varName="dart" />
@@ -729,43 +787,45 @@
       <varInfo nodeId="529057043639031685" varName="darts" />
       <varInfo nodeId="5668095147007614487" varName="numDartsToRemove" />
     </scopeInfo>
-    <scopeInfo nodeId="529057043639031680" fileName="EmbeddedGraph.java" startLine="89" startPosition="31" endLine="128" endPosition="5" />
+    <scopeInfo nodeId="529057043639031680" fileName="EmbeddedGraph.java" startLine="89" startPosition="31" endLine="128" endPosition="5">
+      <varInfo nodeId="529057043639031680" varName="face" />
+    </scopeInfo>
     <scopeInfo nodeId="529057043639031596" fileName="EmbeddedGraph.java" startLine="82" startPosition="63" endLine="129" endPosition="19">
       <varInfo nodeId="5668095147007634481" varName="addOrder" />
-      <varInfo nodeId="5181634970276402366" varName="split" />
-      <varInfo nodeId="529057043639031616" varName="originalGraph" />
       <varInfo nodeId="529057043639031665" varName="facesToProcess" />
       <varInfo nodeId="529057043639031622" varName="newNode" />
+      <varInfo nodeId="529057043639031616" varName="originalGraph" />
+      <varInfo nodeId="5181634970276402366" varName="split" />
     </scopeInfo>
     <scopeInfo nodeId="529057043639031593" fileName="EmbeddedGraph.java" startLine="81" startPosition="0" endLine="131" endPosition="0">
       <varInfo nodeId="529057043639031598" varName="edge" />
       <varInfo nodeId="529057043639031600" varName="newEdges" />
     </scopeInfo>
     <scopeInfo nodeId="1327612371813252113" fileName="EmbeddedGraph.java" startLine="132" startPosition="81" endLine="188" endPosition="84">
-      <varInfo nodeId="1327612371813252552" varName="faceSToE" />
-      <varInfo nodeId="1327612371813252758" varName="succ" />
-      <varInfo nodeId="1327612371813252410" varName="posEnd" />
-      <varInfo nodeId="1327612371813256539" varName="endSucc" />
-      <varInfo nodeId="1327612371813252561" varName="faceEToS" />
       <varInfo nodeId="1327612371813256535" varName="begSucc" />
       <varInfo nodeId="1327612371813252823" varName="cur" />
-      <varInfo nodeId="1327612371813252765" varName="split" />
-      <varInfo nodeId="1327612371813252135" varName="originalGraph" />
       <varInfo nodeId="1327612371813252378" varName="darts" />
+      <varInfo nodeId="1327612371813256539" varName="endSucc" />
+      <varInfo nodeId="1327612371813252561" varName="faceEToS" />
+      <varInfo nodeId="1327612371813252552" varName="faceSToE" />
+      <varInfo nodeId="1327612371813252135" varName="originalGraph" />
+      <varInfo nodeId="1327612371813252410" varName="posEnd" />
       <varInfo nodeId="1327612371813252404" varName="posStart" />
+      <varInfo nodeId="1327612371813252765" varName="split" />
+      <varInfo nodeId="1327612371813252758" varName="succ" />
     </scopeInfo>
     <scopeInfo nodeId="1327612371813252110" fileName="EmbeddedGraph.java" startLine="131" startPosition="0" endLine="190" endPosition="0">
-      <varInfo nodeId="1327612371813252116" varName="face" />
-      <varInfo nodeId="1327612371813252508" varName="start" />
-      <varInfo nodeId="1327612371813252118" varName="path" />
       <varInfo nodeId="1327612371813252511" varName="end" />
+      <varInfo nodeId="1327612371813252116" varName="face" />
+      <varInfo nodeId="1327612371813252118" varName="path" />
+      <varInfo nodeId="1327612371813252508" varName="start" />
     </scopeInfo>
+    <unitInfo nodeId="2899723422951321538" fileName="EmbeddedGraph.java" startLine="20" startPosition="0" endLine="394" endPosition="0" unitName="jetbrains.mps.graphLayout.planarGraph.EmbeddedGraph" />
     <unitInfo nodeId="4915750462377086460" fileName="EmbeddedGraph.java" startLine="71" startPosition="63" endLine="75" endPosition="5" unitName="jetbrains.mps.graphLayout.planarGraph.EmbeddedGraph$1" />
     <unitInfo nodeId="5668095147007614496" fileName="EmbeddedGraph.java" startLine="92" startPosition="68" endLine="96" endPosition="7" unitName="jetbrains.mps.graphLayout.planarGraph.EmbeddedGraph$2" />
     <unitInfo nodeId="2503771434357717057" fileName="EmbeddedGraph.java" startLine="267" startPosition="94" endLine="271" endPosition="5" unitName="jetbrains.mps.graphLayout.planarGraph.EmbeddedGraph$3" />
     <unitInfo nodeId="529057043639077302" fileName="EmbeddedGraph.java" startLine="287" startPosition="73" endLine="291" endPosition="5" unitName="jetbrains.mps.graphLayout.planarGraph.EmbeddedGraph$4" />
     <unitInfo nodeId="7428187320254595403" fileName="EmbeddedGraph.java" startLine="303" startPosition="95" endLine="307" endPosition="9" unitName="jetbrains.mps.graphLayout.planarGraph.EmbeddedGraph$5" />
-    <unitInfo nodeId="2899723422951321538" fileName="EmbeddedGraph.java" startLine="20" startPosition="0" endLine="394" endPosition="0" unitName="jetbrains.mps.graphLayout.planarGraph.EmbeddedGraph" />
   </root>
   <root nodeId="4179389957059015219">
     <nodeInfo nodeId="4179389957059015232" fileName="DualGraph.java" startLine="15" startPosition="38" endLine="16" endPosition="40" conceptFqName="jetbrains.mps.baseLanguage.structure.FieldDeclaration" propertyString="myEmbeddedGraph" />
@@ -821,7 +881,9 @@
       <varInfo nodeId="4179389957059015398" varName="node" />
     </scopeInfo>
     <scopeInfo nodeId="1327612371813262676" fileName="DualGraph.java" startLine="47" startPosition="66" endLine="50" endPosition="7" />
-    <scopeInfo nodeId="1327612371813262677" fileName="DualGraph.java" startLine="47" startPosition="66" endLine="50" endPosition="7" />
+    <scopeInfo nodeId="1327612371813262677" fileName="DualGraph.java" startLine="47" startPosition="66" endLine="50" endPosition="7">
+      <varInfo nodeId="1327612371813262677" varName="face" />
+    </scopeInfo>
     <scopeInfo nodeId="6984255766319274286" fileName="DualGraph.java" startLine="76" startPosition="64" endLine="79" endPosition="16">
       <varInfo nodeId="6984255766319274290" varName="edge" />
     </scopeInfo>
@@ -830,14 +892,18 @@
     <scopeInfo nodeId="4179389957059015909" fileName="DualGraph.java" startLine="58" startPosition="0" endLine="62" endPosition="0" />
     <scopeInfo nodeId="4179389957059015919" fileName="DualGraph.java" startLine="62" startPosition="0" endLine="66" endPosition="0" />
     <scopeInfo nodeId="4179389957059015929" fileName="DualGraph.java" startLine="66" startPosition="0" endLine="70" endPosition="0" />
-    <scopeInfo nodeId="4179389957059015315" fileName="DualGraph.java" startLine="30" startPosition="64" endLine="35" endPosition="5" />
-    <scopeInfo nodeId="4179389957059015332" fileName="DualGraph.java" startLine="36" startPosition="71" endLine="41" endPosition="58">
-      <varInfo nodeId="2503771434357704632" varName="faces" />
-      <varInfo nodeId="4179389957059015484" varName="faceEdge" />
-      <varInfo nodeId="4179389957059015448" varName="faceNode2" />
-      <varInfo nodeId="4179389957059015437" varName="faceNode1" />
+    <scopeInfo nodeId="4179389957059015315" fileName="DualGraph.java" startLine="30" startPosition="64" endLine="35" endPosition="5">
+      <varInfo nodeId="4179389957059015315" varName="face" />
     </scopeInfo>
-    <scopeInfo nodeId="1327612371813262671" fileName="DualGraph.java" startLine="46" startPosition="42" endLine="51" endPosition="5" />
+    <scopeInfo nodeId="4179389957059015332" fileName="DualGraph.java" startLine="36" startPosition="71" endLine="41" endPosition="58">
+      <varInfo nodeId="4179389957059015484" varName="faceEdge" />
+      <varInfo nodeId="4179389957059015437" varName="faceNode1" />
+      <varInfo nodeId="4179389957059015448" varName="faceNode2" />
+      <varInfo nodeId="2503771434357704632" varName="faces" />
+    </scopeInfo>
+    <scopeInfo nodeId="1327612371813262671" fileName="DualGraph.java" startLine="46" startPosition="42" endLine="51" endPosition="5">
+      <varInfo nodeId="1327612371813262671" varName="edge" />
+    </scopeInfo>
     <scopeInfo nodeId="6984255766319274248" fileName="DualGraph.java" startLine="70" startPosition="0" endLine="75" endPosition="0">
       <varInfo nodeId="6984255766319274254" varName="edge" />
     </scopeInfo>
@@ -845,11 +911,13 @@
       <varInfo nodeId="4179389957059015230" varName="graph" />
     </scopeInfo>
     <scopeInfo nodeId="6984255766319274277" fileName="DualGraph.java" startLine="75" startPosition="0" endLine="81" endPosition="0">
+      <varInfo nodeId="6984255766319274300" varName="realEdge" />
       <varInfo nodeId="6984255766319274281" varName="source" />
       <varInfo nodeId="6984255766319274283" varName="target" />
-      <varInfo nodeId="6984255766319274300" varName="realEdge" />
     </scopeInfo>
-    <scopeInfo nodeId="4179389957059015327" fileName="DualGraph.java" startLine="35" startPosition="5" endLine="42" endPosition="5" />
+    <scopeInfo nodeId="4179389957059015327" fileName="DualGraph.java" startLine="35" startPosition="5" endLine="42" endPosition="5">
+      <varInfo nodeId="4179389957059015327" varName="edge" />
+    </scopeInfo>
     <scopeInfo nodeId="1327612371813262658" fileName="DualGraph.java" startLine="45" startPosition="42" endLine="52" endPosition="19">
       <varInfo nodeId="1327612371813262666" varName="newNode" />
     </scopeInfo>
@@ -994,13 +1062,19 @@
     <scopeInfo nodeId="6984255766319241450" fileName="STPlanarGraph.java" startLine="41" startPosition="54" endLine="47" endPosition="9">
       <varInfo nodeId="6984255766319241452" varName="edge" />
     </scopeInfo>
-    <scopeInfo nodeId="3619822174190283948" fileName="STPlanarGraph.java" startLine="128" startPosition="57" endLine="134" endPosition="5" />
+    <scopeInfo nodeId="3619822174190283948" fileName="STPlanarGraph.java" startLine="128" startPosition="57" endLine="134" endPosition="5">
+      <varInfo nodeId="3619822174190283948" varName="edge" />
+    </scopeInfo>
     <scopeInfo nodeId="6984255766319182792" fileName="STPlanarGraph.java" startLine="79" startPosition="37" endLine="86" endPosition="59" />
     <scopeInfo nodeId="6984255766319182866" fileName="STPlanarGraph.java" startLine="89" startPosition="37" endLine="96" endPosition="59" />
     <scopeInfo nodeId="6984255766319239618" fileName="STPlanarGraph.java" startLine="99" startPosition="37" endLine="106" endPosition="22" />
     <scopeInfo nodeId="6984255766319239683" fileName="STPlanarGraph.java" startLine="109" startPosition="38" endLine="116" endPosition="22" />
-    <scopeInfo nodeId="6984255766319274238" fileName="STPlanarGraph.java" startLine="138" startPosition="85" endLine="145" endPosition="5" />
-    <scopeInfo nodeId="6984255766319241445" fileName="STPlanarGraph.java" startLine="40" startPosition="41" endLine="48" endPosition="7" />
+    <scopeInfo nodeId="6984255766319274238" fileName="STPlanarGraph.java" startLine="138" startPosition="85" endLine="145" endPosition="5">
+      <varInfo nodeId="6984255766319274238" varName="edge" />
+    </scopeInfo>
+    <scopeInfo nodeId="6984255766319241445" fileName="STPlanarGraph.java" startLine="40" startPosition="41" endLine="48" endPosition="7">
+      <varInfo nodeId="6984255766319241445" varName="dart" />
+    </scopeInfo>
     <scopeInfo nodeId="6984255766319182667" fileName="STPlanarGraph.java" startLine="25" startPosition="79" endLine="35" endPosition="18" />
     <scopeInfo nodeId="6984255766319182789" fileName="STPlanarGraph.java" startLine="78" startPosition="0" endLine="88" endPosition="0">
       <varInfo nodeId="6984255766319182794" varName="o" />
@@ -1015,20 +1089,20 @@
       <varInfo nodeId="6984255766319239713" varName="o" />
     </scopeInfo>
     <scopeInfo nodeId="6984255766319182657" fileName="STPlanarGraph.java" startLine="24" startPosition="0" endLine="36" endPosition="3">
+      <varInfo nodeId="6984255766319182661" varName="embeddedGraph" />
       <varInfo nodeId="6984255766319238822" varName="source" />
       <varInfo nodeId="6984255766319238825" varName="target" />
-      <varInfo nodeId="6984255766319182661" varName="embeddedGraph" />
     </scopeInfo>
     <scopeInfo nodeId="6984255766319274181" fileName="STPlanarGraph.java" startLine="127" startPosition="43" endLine="146" endPosition="21">
-      <varInfo nodeId="6984255766319274206" varName="rightOuterFace" />
-      <varInfo nodeId="6984255766319274376" varName="outerFace" />
       <varInfo nodeId="6984255766319274186" varName="dualGraph" />
+      <varInfo nodeId="6984255766319274376" varName="outerFace" />
       <varInfo nodeId="6984255766319274219" varName="outerFaceNode" />
+      <varInfo nodeId="6984255766319274206" varName="rightOuterFace" />
     </scopeInfo>
     <scopeInfo nodeId="6984255766319182973" fileName="STPlanarGraph.java" startLine="49" startPosition="70" endLine="69" endPosition="9">
-      <varInfo nodeId="6984255766319183018" varName="next" />
       <varInfo nodeId="6984255766319183006" varName="cur" />
       <varInfo nodeId="6984255766319183088" varName="mid" />
+      <varInfo nodeId="6984255766319183018" varName="next" />
     </scopeInfo>
     <scopeInfo nodeId="6984255766319182971" fileName="STPlanarGraph.java" startLine="48" startPosition="7" endLine="70" endPosition="7">
       <varInfo nodeId="6984255766319182972" varName="i" />
@@ -1037,7 +1111,9 @@
     <scopeInfo nodeId="6984255766319182947" fileName="STPlanarGraph.java" startLine="39" startPosition="73" endLine="70" endPosition="7">
       <varInfo nodeId="6984255766319182983" varName="darts" />
     </scopeInfo>
-    <scopeInfo nodeId="6984255766319182944" fileName="STPlanarGraph.java" startLine="38" startPosition="29" endLine="71" endPosition="5" />
+    <scopeInfo nodeId="6984255766319182944" fileName="STPlanarGraph.java" startLine="38" startPosition="29" endLine="71" endPosition="5">
+      <varInfo nodeId="6984255766319182944" varName="face" />
+    </scopeInfo>
     <scopeInfo nodeId="6984255766319182906" fileName="STPlanarGraph.java" startLine="38" startPosition="29" endLine="76" endPosition="69">
       <varInfo nodeId="6984255766319273417" varName="outerFace" />
     </scopeInfo>

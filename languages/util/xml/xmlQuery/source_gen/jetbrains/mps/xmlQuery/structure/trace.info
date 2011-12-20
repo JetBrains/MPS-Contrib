@@ -20,11 +20,20 @@
     <scopeInfo nodeId="10026583185341422" fileName="TextBuilder.java" startLine="24" startPosition="41" endLine="25" endPosition="44" />
     <scopeInfo nodeId="10026583185341422" fileName="TextBuilder.java" startLine="28" startPosition="66" endLine="29" endPosition="168" />
     <scopeInfo nodeId="10026583185341422" fileName="TextBuilder.java" startLine="32" startPosition="52" endLine="33" endPosition="46" />
-    <scopeInfo nodeId="10026583185341422" fileName="TextBuilder.java" startLine="15" startPosition="0" endLine="18" endPosition="3" />
+    <scopeInfo nodeId="10026583185341422" fileName="TextBuilder.java" startLine="15" startPosition="0" endLine="18" endPosition="3">
+      <varInfo nodeId="10026583185341422" varName="node" />
+    </scopeInfo>
     <scopeInfo nodeId="10026583185341422" fileName="TextBuilder.java" startLine="19" startPosition="0" endLine="23" endPosition="0" />
-    <scopeInfo nodeId="10026583185341422" fileName="TextBuilder.java" startLine="23" startPosition="0" endLine="27" endPosition="0" />
-    <scopeInfo nodeId="10026583185341422" fileName="TextBuilder.java" startLine="27" startPosition="0" endLine="31" endPosition="0" />
-    <scopeInfo nodeId="10026583185341422" fileName="TextBuilder.java" startLine="31" startPosition="0" endLine="35" endPosition="0" />
+    <scopeInfo nodeId="10026583185341422" fileName="TextBuilder.java" startLine="23" startPosition="0" endLine="27" endPosition="0">
+      <varInfo nodeId="10026583185341422" varName="node" />
+    </scopeInfo>
+    <scopeInfo nodeId="10026583185341422" fileName="TextBuilder.java" startLine="27" startPosition="0" endLine="31" endPosition="0">
+      <varInfo nodeId="10026583185341422" varName="init" />
+      <varInfo nodeId="10026583185341422" varName="sm" />
+    </scopeInfo>
+    <scopeInfo nodeId="10026583185341422" fileName="TextBuilder.java" startLine="31" startPosition="0" endLine="35" endPosition="0">
+      <varInfo nodeId="10026583185341422" varName="sm" />
+    </scopeInfo>
     <unitInfo nodeId="10026583185341422" fileName="TextBuilder.java" startLine="12" startPosition="0" endLine="36" endPosition="0" unitName="jetbrains.mps.xmlQuery.structure.TextBuilder" />
   </root>
   <root nodeId="2268737274628897541">
@@ -38,9 +47,16 @@
     <scopeInfo nodeId="2268737274628897541" fileName="XMLSAXNodeCreator.java" startLine="14" startPosition="40" endLine="15" endPosition="16" />
     <scopeInfo nodeId="2268737274628897541" fileName="XMLSAXNodeCreator.java" startLine="18" startPosition="72" endLine="19" endPosition="180" />
     <scopeInfo nodeId="2268737274628897541" fileName="XMLSAXNodeCreator.java" startLine="22" startPosition="58" endLine="23" endPosition="52" />
-    <scopeInfo nodeId="2268737274628897541" fileName="XMLSAXNodeCreator.java" startLine="13" startPosition="0" endLine="16" endPosition="3" />
-    <scopeInfo nodeId="2268737274628897541" fileName="XMLSAXNodeCreator.java" startLine="17" startPosition="0" endLine="21" endPosition="0" />
-    <scopeInfo nodeId="2268737274628897541" fileName="XMLSAXNodeCreator.java" startLine="21" startPosition="0" endLine="25" endPosition="0" />
+    <scopeInfo nodeId="2268737274628897541" fileName="XMLSAXNodeCreator.java" startLine="13" startPosition="0" endLine="16" endPosition="3">
+      <varInfo nodeId="2268737274628897541" varName="node" />
+    </scopeInfo>
+    <scopeInfo nodeId="2268737274628897541" fileName="XMLSAXNodeCreator.java" startLine="17" startPosition="0" endLine="21" endPosition="0">
+      <varInfo nodeId="2268737274628897541" varName="init" />
+      <varInfo nodeId="2268737274628897541" varName="sm" />
+    </scopeInfo>
+    <scopeInfo nodeId="2268737274628897541" fileName="XMLSAXNodeCreator.java" startLine="21" startPosition="0" endLine="25" endPosition="0">
+      <varInfo nodeId="2268737274628897541" varName="sm" />
+    </scopeInfo>
     <unitInfo nodeId="2268737274628897541" fileName="XMLSAXNodeCreator.java" startLine="11" startPosition="0" endLine="26" endPosition="0" unitName="jetbrains.mps.xmlQuery.structure.XMLSAXNodeCreator" />
   </root>
   <root nodeId="2286463592495220221">
@@ -61,11 +77,20 @@
     <scopeInfo nodeId="2286463592495220221" fileName="XMLSAXAttributeReference.java" startLine="23" startPosition="54" endLine="24" endPosition="64" />
     <scopeInfo nodeId="2286463592495220221" fileName="XMLSAXAttributeReference.java" startLine="27" startPosition="79" endLine="28" endPosition="194" />
     <scopeInfo nodeId="2286463592495220221" fileName="XMLSAXAttributeReference.java" startLine="31" startPosition="65" endLine="32" endPosition="59" />
-    <scopeInfo nodeId="2286463592495220221" fileName="XMLSAXAttributeReference.java" startLine="14" startPosition="0" endLine="17" endPosition="3" />
+    <scopeInfo nodeId="2286463592495220221" fileName="XMLSAXAttributeReference.java" startLine="14" startPosition="0" endLine="17" endPosition="3">
+      <varInfo nodeId="2286463592495220221" varName="node" />
+    </scopeInfo>
     <scopeInfo nodeId="2286463592495220221" fileName="XMLSAXAttributeReference.java" startLine="18" startPosition="0" endLine="22" endPosition="0" />
-    <scopeInfo nodeId="2286463592495220221" fileName="XMLSAXAttributeReference.java" startLine="22" startPosition="0" endLine="26" endPosition="0" />
-    <scopeInfo nodeId="2286463592495220221" fileName="XMLSAXAttributeReference.java" startLine="26" startPosition="0" endLine="30" endPosition="0" />
-    <scopeInfo nodeId="2286463592495220221" fileName="XMLSAXAttributeReference.java" startLine="30" startPosition="0" endLine="34" endPosition="0" />
+    <scopeInfo nodeId="2286463592495220221" fileName="XMLSAXAttributeReference.java" startLine="22" startPosition="0" endLine="26" endPosition="0">
+      <varInfo nodeId="2286463592495220221" varName="node" />
+    </scopeInfo>
+    <scopeInfo nodeId="2286463592495220221" fileName="XMLSAXAttributeReference.java" startLine="26" startPosition="0" endLine="30" endPosition="0">
+      <varInfo nodeId="2286463592495220221" varName="init" />
+      <varInfo nodeId="2286463592495220221" varName="sm" />
+    </scopeInfo>
+    <scopeInfo nodeId="2286463592495220221" fileName="XMLSAXAttributeReference.java" startLine="30" startPosition="0" endLine="34" endPosition="0">
+      <varInfo nodeId="2286463592495220221" varName="sm" />
+    </scopeInfo>
     <unitInfo nodeId="2286463592495220221" fileName="XMLSAXAttributeReference.java" startLine="11" startPosition="0" endLine="35" endPosition="0" unitName="jetbrains.mps.xmlQuery.structure.XMLSAXAttributeReference" />
   </root>
   <root nodeId="3149278768676788174">
@@ -86,11 +111,20 @@
     <scopeInfo nodeId="3149278768676788174" fileName="ElementBuilder.java" startLine="24" startPosition="62" endLine="25" endPosition="64" />
     <scopeInfo nodeId="3149278768676788174" fileName="ElementBuilder.java" startLine="28" startPosition="69" endLine="29" endPosition="174" />
     <scopeInfo nodeId="3149278768676788174" fileName="ElementBuilder.java" startLine="32" startPosition="55" endLine="33" endPosition="49" />
-    <scopeInfo nodeId="3149278768676788174" fileName="ElementBuilder.java" startLine="15" startPosition="0" endLine="18" endPosition="3" />
+    <scopeInfo nodeId="3149278768676788174" fileName="ElementBuilder.java" startLine="15" startPosition="0" endLine="18" endPosition="3">
+      <varInfo nodeId="3149278768676788174" varName="node" />
+    </scopeInfo>
     <scopeInfo nodeId="3149278768676788174" fileName="ElementBuilder.java" startLine="19" startPosition="0" endLine="23" endPosition="0" />
-    <scopeInfo nodeId="3149278768676788174" fileName="ElementBuilder.java" startLine="23" startPosition="0" endLine="27" endPosition="0" />
-    <scopeInfo nodeId="3149278768676788174" fileName="ElementBuilder.java" startLine="27" startPosition="0" endLine="31" endPosition="0" />
-    <scopeInfo nodeId="3149278768676788174" fileName="ElementBuilder.java" startLine="31" startPosition="0" endLine="35" endPosition="0" />
+    <scopeInfo nodeId="3149278768676788174" fileName="ElementBuilder.java" startLine="23" startPosition="0" endLine="27" endPosition="0">
+      <varInfo nodeId="3149278768676788174" varName="node" />
+    </scopeInfo>
+    <scopeInfo nodeId="3149278768676788174" fileName="ElementBuilder.java" startLine="27" startPosition="0" endLine="31" endPosition="0">
+      <varInfo nodeId="3149278768676788174" varName="init" />
+      <varInfo nodeId="3149278768676788174" varName="sm" />
+    </scopeInfo>
+    <scopeInfo nodeId="3149278768676788174" fileName="ElementBuilder.java" startLine="31" startPosition="0" endLine="35" endPosition="0">
+      <varInfo nodeId="3149278768676788174" varName="sm" />
+    </scopeInfo>
     <unitInfo nodeId="3149278768676788174" fileName="ElementBuilder.java" startLine="12" startPosition="0" endLine="36" endPosition="0" unitName="jetbrains.mps.xmlQuery.structure.ElementBuilder" />
   </root>
   <root nodeId="3444414697307355268">
@@ -104,9 +138,16 @@
     <scopeInfo nodeId="3444414697307355268" fileName="XMLSAXNodeValidator.java" startLine="13" startPosition="42" endLine="14" endPosition="16" />
     <scopeInfo nodeId="3444414697307355268" fileName="XMLSAXNodeValidator.java" startLine="17" startPosition="74" endLine="18" endPosition="184" />
     <scopeInfo nodeId="3444414697307355268" fileName="XMLSAXNodeValidator.java" startLine="21" startPosition="60" endLine="22" endPosition="54" />
-    <scopeInfo nodeId="3444414697307355268" fileName="XMLSAXNodeValidator.java" startLine="12" startPosition="0" endLine="15" endPosition="3" />
-    <scopeInfo nodeId="3444414697307355268" fileName="XMLSAXNodeValidator.java" startLine="16" startPosition="0" endLine="20" endPosition="0" />
-    <scopeInfo nodeId="3444414697307355268" fileName="XMLSAXNodeValidator.java" startLine="20" startPosition="0" endLine="24" endPosition="0" />
+    <scopeInfo nodeId="3444414697307355268" fileName="XMLSAXNodeValidator.java" startLine="12" startPosition="0" endLine="15" endPosition="3">
+      <varInfo nodeId="3444414697307355268" varName="node" />
+    </scopeInfo>
+    <scopeInfo nodeId="3444414697307355268" fileName="XMLSAXNodeValidator.java" startLine="16" startPosition="0" endLine="20" endPosition="0">
+      <varInfo nodeId="3444414697307355268" varName="init" />
+      <varInfo nodeId="3444414697307355268" varName="sm" />
+    </scopeInfo>
+    <scopeInfo nodeId="3444414697307355268" fileName="XMLSAXNodeValidator.java" startLine="20" startPosition="0" endLine="24" endPosition="0">
+      <varInfo nodeId="3444414697307355268" varName="sm" />
+    </scopeInfo>
     <unitInfo nodeId="3444414697307355268" fileName="XMLSAXNodeValidator.java" startLine="10" startPosition="0" endLine="25" endPosition="0" unitName="jetbrains.mps.xmlQuery.structure.XMLSAXNodeValidator" />
   </root>
   <root nodeId="4203809819610731778">
@@ -120,9 +161,16 @@
     <scopeInfo nodeId="4203809819610731778" fileName="AccessTextOperation.java" startLine="13" startPosition="42" endLine="14" endPosition="16" />
     <scopeInfo nodeId="4203809819610731778" fileName="AccessTextOperation.java" startLine="17" startPosition="74" endLine="18" endPosition="184" />
     <scopeInfo nodeId="4203809819610731778" fileName="AccessTextOperation.java" startLine="21" startPosition="60" endLine="22" endPosition="54" />
-    <scopeInfo nodeId="4203809819610731778" fileName="AccessTextOperation.java" startLine="12" startPosition="0" endLine="15" endPosition="3" />
-    <scopeInfo nodeId="4203809819610731778" fileName="AccessTextOperation.java" startLine="16" startPosition="0" endLine="20" endPosition="0" />
-    <scopeInfo nodeId="4203809819610731778" fileName="AccessTextOperation.java" startLine="20" startPosition="0" endLine="24" endPosition="0" />
+    <scopeInfo nodeId="4203809819610731778" fileName="AccessTextOperation.java" startLine="12" startPosition="0" endLine="15" endPosition="3">
+      <varInfo nodeId="4203809819610731778" varName="node" />
+    </scopeInfo>
+    <scopeInfo nodeId="4203809819610731778" fileName="AccessTextOperation.java" startLine="16" startPosition="0" endLine="20" endPosition="0">
+      <varInfo nodeId="4203809819610731778" varName="init" />
+      <varInfo nodeId="4203809819610731778" varName="sm" />
+    </scopeInfo>
+    <scopeInfo nodeId="4203809819610731778" fileName="AccessTextOperation.java" startLine="20" startPosition="0" endLine="24" endPosition="0">
+      <varInfo nodeId="4203809819610731778" varName="sm" />
+    </scopeInfo>
     <unitInfo nodeId="4203809819610731778" fileName="AccessTextOperation.java" startLine="10" startPosition="0" endLine="25" endPosition="0" unitName="jetbrains.mps.xmlQuery.structure.AccessTextOperation" />
   </root>
   <root nodeId="4635390255047863050">
@@ -242,41 +290,80 @@
     <scopeInfo nodeId="4635390255047863050" fileName="XMLSAXParser.java" startLine="156" startPosition="69" endLine="157" endPosition="64" />
     <scopeInfo nodeId="4635390255047863050" fileName="XMLSAXParser.java" startLine="160" startPosition="67" endLine="161" endPosition="170" />
     <scopeInfo nodeId="4635390255047863050" fileName="XMLSAXParser.java" startLine="164" startPosition="53" endLine="165" endPosition="47" />
-    <scopeInfo nodeId="4635390255047863050" fileName="XMLSAXParser.java" startLine="27" startPosition="0" endLine="30" endPosition="3" />
+    <scopeInfo nodeId="4635390255047863050" fileName="XMLSAXParser.java" startLine="27" startPosition="0" endLine="30" endPosition="3">
+      <varInfo nodeId="4635390255047863050" varName="node" />
+    </scopeInfo>
     <scopeInfo nodeId="4635390255047863050" fileName="XMLSAXParser.java" startLine="31" startPosition="0" endLine="35" endPosition="0" />
-    <scopeInfo nodeId="4635390255047863050" fileName="XMLSAXParser.java" startLine="35" startPosition="0" endLine="39" endPosition="0" />
+    <scopeInfo nodeId="4635390255047863050" fileName="XMLSAXParser.java" startLine="35" startPosition="0" endLine="39" endPosition="0">
+      <varInfo nodeId="4635390255047863050" varName="value" />
+    </scopeInfo>
     <scopeInfo nodeId="4635390255047863050" fileName="XMLSAXParser.java" startLine="39" startPosition="0" endLine="43" endPosition="0" />
-    <scopeInfo nodeId="4635390255047863050" fileName="XMLSAXParser.java" startLine="43" startPosition="0" endLine="47" endPosition="0" />
+    <scopeInfo nodeId="4635390255047863050" fileName="XMLSAXParser.java" startLine="43" startPosition="0" endLine="47" endPosition="0">
+      <varInfo nodeId="4635390255047863050" varName="value" />
+    </scopeInfo>
     <scopeInfo nodeId="4635390255047863050" fileName="XMLSAXParser.java" startLine="47" startPosition="0" endLine="51" endPosition="0" />
-    <scopeInfo nodeId="4635390255047863050" fileName="XMLSAXParser.java" startLine="51" startPosition="0" endLine="55" endPosition="0" />
+    <scopeInfo nodeId="4635390255047863050" fileName="XMLSAXParser.java" startLine="51" startPosition="0" endLine="55" endPosition="0">
+      <varInfo nodeId="4635390255047863050" varName="value" />
+    </scopeInfo>
     <scopeInfo nodeId="4635390255047863050" fileName="XMLSAXParser.java" startLine="55" startPosition="0" endLine="59" endPosition="0" />
-    <scopeInfo nodeId="4635390255047863050" fileName="XMLSAXParser.java" startLine="59" startPosition="0" endLine="63" endPosition="0" />
+    <scopeInfo nodeId="4635390255047863050" fileName="XMLSAXParser.java" startLine="59" startPosition="0" endLine="63" endPosition="0">
+      <varInfo nodeId="4635390255047863050" varName="value" />
+    </scopeInfo>
     <scopeInfo nodeId="4635390255047863050" fileName="XMLSAXParser.java" startLine="63" startPosition="0" endLine="67" endPosition="0" />
-    <scopeInfo nodeId="4635390255047863050" fileName="XMLSAXParser.java" startLine="67" startPosition="0" endLine="71" endPosition="0" />
+    <scopeInfo nodeId="4635390255047863050" fileName="XMLSAXParser.java" startLine="67" startPosition="0" endLine="71" endPosition="0">
+      <varInfo nodeId="4635390255047863050" varName="node" />
+    </scopeInfo>
     <scopeInfo nodeId="4635390255047863050" fileName="XMLSAXParser.java" startLine="71" startPosition="0" endLine="75" endPosition="0" />
-    <scopeInfo nodeId="4635390255047863050" fileName="XMLSAXParser.java" startLine="75" startPosition="0" endLine="79" endPosition="0" />
+    <scopeInfo nodeId="4635390255047863050" fileName="XMLSAXParser.java" startLine="75" startPosition="0" endLine="79" endPosition="0">
+      <varInfo nodeId="4635390255047863050" varName="node" />
+    </scopeInfo>
     <scopeInfo nodeId="4635390255047863050" fileName="XMLSAXParser.java" startLine="79" startPosition="0" endLine="83" endPosition="0" />
     <scopeInfo nodeId="4635390255047863050" fileName="XMLSAXParser.java" startLine="83" startPosition="0" endLine="87" endPosition="0" />
     <scopeInfo nodeId="4635390255047863050" fileName="XMLSAXParser.java" startLine="87" startPosition="0" endLine="91" endPosition="0" />
-    <scopeInfo nodeId="4635390255047863050" fileName="XMLSAXParser.java" startLine="91" startPosition="0" endLine="95" endPosition="0" />
-    <scopeInfo nodeId="4635390255047863050" fileName="XMLSAXParser.java" startLine="95" startPosition="0" endLine="99" endPosition="0" />
+    <scopeInfo nodeId="4635390255047863050" fileName="XMLSAXParser.java" startLine="91" startPosition="0" endLine="95" endPosition="0">
+      <varInfo nodeId="4635390255047863050" varName="node" />
+    </scopeInfo>
+    <scopeInfo nodeId="4635390255047863050" fileName="XMLSAXParser.java" startLine="95" startPosition="0" endLine="99" endPosition="0">
+      <varInfo nodeId="4635390255047863050" varName="node" />
+      <varInfo nodeId="4635390255047863050" varName="prev" />
+    </scopeInfo>
     <scopeInfo nodeId="4635390255047863050" fileName="XMLSAXParser.java" startLine="99" startPosition="0" endLine="103" endPosition="0" />
     <scopeInfo nodeId="4635390255047863050" fileName="XMLSAXParser.java" startLine="103" startPosition="0" endLine="107" endPosition="0" />
     <scopeInfo nodeId="4635390255047863050" fileName="XMLSAXParser.java" startLine="107" startPosition="0" endLine="111" endPosition="0" />
-    <scopeInfo nodeId="4635390255047863050" fileName="XMLSAXParser.java" startLine="111" startPosition="0" endLine="115" endPosition="0" />
-    <scopeInfo nodeId="4635390255047863050" fileName="XMLSAXParser.java" startLine="115" startPosition="0" endLine="119" endPosition="0" />
+    <scopeInfo nodeId="4635390255047863050" fileName="XMLSAXParser.java" startLine="111" startPosition="0" endLine="115" endPosition="0">
+      <varInfo nodeId="4635390255047863050" varName="node" />
+    </scopeInfo>
+    <scopeInfo nodeId="4635390255047863050" fileName="XMLSAXParser.java" startLine="115" startPosition="0" endLine="119" endPosition="0">
+      <varInfo nodeId="4635390255047863050" varName="node" />
+      <varInfo nodeId="4635390255047863050" varName="prev" />
+    </scopeInfo>
     <scopeInfo nodeId="4635390255047863050" fileName="XMLSAXParser.java" startLine="119" startPosition="0" endLine="123" endPosition="0" />
     <scopeInfo nodeId="4635390255047863050" fileName="XMLSAXParser.java" startLine="123" startPosition="0" endLine="127" endPosition="0" />
     <scopeInfo nodeId="4635390255047863050" fileName="XMLSAXParser.java" startLine="127" startPosition="0" endLine="131" endPosition="0" />
-    <scopeInfo nodeId="4635390255047863050" fileName="XMLSAXParser.java" startLine="131" startPosition="0" endLine="135" endPosition="0" />
-    <scopeInfo nodeId="4635390255047863050" fileName="XMLSAXParser.java" startLine="135" startPosition="0" endLine="139" endPosition="0" />
+    <scopeInfo nodeId="4635390255047863050" fileName="XMLSAXParser.java" startLine="131" startPosition="0" endLine="135" endPosition="0">
+      <varInfo nodeId="4635390255047863050" varName="node" />
+    </scopeInfo>
+    <scopeInfo nodeId="4635390255047863050" fileName="XMLSAXParser.java" startLine="135" startPosition="0" endLine="139" endPosition="0">
+      <varInfo nodeId="4635390255047863050" varName="node" />
+      <varInfo nodeId="4635390255047863050" varName="prev" />
+    </scopeInfo>
     <scopeInfo nodeId="4635390255047863050" fileName="XMLSAXParser.java" startLine="139" startPosition="0" endLine="143" endPosition="0" />
     <scopeInfo nodeId="4635390255047863050" fileName="XMLSAXParser.java" startLine="143" startPosition="0" endLine="147" endPosition="0" />
     <scopeInfo nodeId="4635390255047863050" fileName="XMLSAXParser.java" startLine="147" startPosition="0" endLine="151" endPosition="0" />
-    <scopeInfo nodeId="4635390255047863050" fileName="XMLSAXParser.java" startLine="151" startPosition="0" endLine="155" endPosition="0" />
-    <scopeInfo nodeId="4635390255047863050" fileName="XMLSAXParser.java" startLine="155" startPosition="0" endLine="159" endPosition="0" />
-    <scopeInfo nodeId="4635390255047863050" fileName="XMLSAXParser.java" startLine="159" startPosition="0" endLine="163" endPosition="0" />
-    <scopeInfo nodeId="4635390255047863050" fileName="XMLSAXParser.java" startLine="163" startPosition="0" endLine="167" endPosition="0" />
+    <scopeInfo nodeId="4635390255047863050" fileName="XMLSAXParser.java" startLine="151" startPosition="0" endLine="155" endPosition="0">
+      <varInfo nodeId="4635390255047863050" varName="node" />
+    </scopeInfo>
+    <scopeInfo nodeId="4635390255047863050" fileName="XMLSAXParser.java" startLine="155" startPosition="0" endLine="159" endPosition="0">
+      <varInfo nodeId="4635390255047863050" varName="node" />
+      <varInfo nodeId="4635390255047863050" varName="prev" />
+    </scopeInfo>
+    <scopeInfo nodeId="4635390255047863050" fileName="XMLSAXParser.java" startLine="159" startPosition="0" endLine="163" endPosition="0">
+      <varInfo nodeId="4635390255047863050" varName="init" />
+      <varInfo nodeId="4635390255047863050" varName="sm" />
+    </scopeInfo>
+    <scopeInfo nodeId="4635390255047863050" fileName="XMLSAXParser.java" startLine="163" startPosition="0" endLine="167" endPosition="0">
+      <varInfo nodeId="4635390255047863050" varName="sm" />
+    </scopeInfo>
     <unitInfo nodeId="4635390255047863050" fileName="XMLSAXParser.java" startLine="15" startPosition="0" endLine="168" endPosition="0" unitName="jetbrains.mps.xmlQuery.structure.XMLSAXParser" />
   </root>
   <root nodeId="4635390255047863051">
@@ -408,44 +495,86 @@
     <scopeInfo nodeId="4635390255047863051" fileName="XMLSAXNodeRule.java" startLine="172" startPosition="69" endLine="173" endPosition="66" />
     <scopeInfo nodeId="4635390255047863051" fileName="XMLSAXNodeRule.java" startLine="176" startPosition="69" endLine="177" endPosition="174" />
     <scopeInfo nodeId="4635390255047863051" fileName="XMLSAXNodeRule.java" startLine="180" startPosition="55" endLine="181" endPosition="49" />
-    <scopeInfo nodeId="4635390255047863051" fileName="XMLSAXNodeRule.java" startLine="31" startPosition="0" endLine="34" endPosition="3" />
+    <scopeInfo nodeId="4635390255047863051" fileName="XMLSAXNodeRule.java" startLine="31" startPosition="0" endLine="34" endPosition="3">
+      <varInfo nodeId="4635390255047863051" varName="node" />
+    </scopeInfo>
     <scopeInfo nodeId="4635390255047863051" fileName="XMLSAXNodeRule.java" startLine="35" startPosition="0" endLine="39" endPosition="0" />
-    <scopeInfo nodeId="4635390255047863051" fileName="XMLSAXNodeRule.java" startLine="39" startPosition="0" endLine="43" endPosition="0" />
+    <scopeInfo nodeId="4635390255047863051" fileName="XMLSAXNodeRule.java" startLine="39" startPosition="0" endLine="43" endPosition="0">
+      <varInfo nodeId="4635390255047863051" varName="value" />
+    </scopeInfo>
     <scopeInfo nodeId="4635390255047863051" fileName="XMLSAXNodeRule.java" startLine="43" startPosition="0" endLine="47" endPosition="0" />
-    <scopeInfo nodeId="4635390255047863051" fileName="XMLSAXNodeRule.java" startLine="47" startPosition="0" endLine="51" endPosition="0" />
+    <scopeInfo nodeId="4635390255047863051" fileName="XMLSAXNodeRule.java" startLine="47" startPosition="0" endLine="51" endPosition="0">
+      <varInfo nodeId="4635390255047863051" varName="value" />
+    </scopeInfo>
     <scopeInfo nodeId="4635390255047863051" fileName="XMLSAXNodeRule.java" startLine="51" startPosition="0" endLine="55" endPosition="0" />
-    <scopeInfo nodeId="4635390255047863051" fileName="XMLSAXNodeRule.java" startLine="55" startPosition="0" endLine="59" endPosition="0" />
+    <scopeInfo nodeId="4635390255047863051" fileName="XMLSAXNodeRule.java" startLine="55" startPosition="0" endLine="59" endPosition="0">
+      <varInfo nodeId="4635390255047863051" varName="value" />
+    </scopeInfo>
     <scopeInfo nodeId="4635390255047863051" fileName="XMLSAXNodeRule.java" startLine="59" startPosition="0" endLine="63" endPosition="0" />
-    <scopeInfo nodeId="4635390255047863051" fileName="XMLSAXNodeRule.java" startLine="63" startPosition="0" endLine="67" endPosition="0" />
+    <scopeInfo nodeId="4635390255047863051" fileName="XMLSAXNodeRule.java" startLine="63" startPosition="0" endLine="67" endPosition="0">
+      <varInfo nodeId="4635390255047863051" varName="value" />
+    </scopeInfo>
     <scopeInfo nodeId="4635390255047863051" fileName="XMLSAXNodeRule.java" startLine="67" startPosition="0" endLine="71" endPosition="0" />
-    <scopeInfo nodeId="4635390255047863051" fileName="XMLSAXNodeRule.java" startLine="71" startPosition="0" endLine="75" endPosition="0" />
+    <scopeInfo nodeId="4635390255047863051" fileName="XMLSAXNodeRule.java" startLine="71" startPosition="0" endLine="75" endPosition="0">
+      <varInfo nodeId="4635390255047863051" varName="value" />
+    </scopeInfo>
     <scopeInfo nodeId="4635390255047863051" fileName="XMLSAXNodeRule.java" startLine="75" startPosition="0" endLine="79" endPosition="0" />
-    <scopeInfo nodeId="4635390255047863051" fileName="XMLSAXNodeRule.java" startLine="79" startPosition="0" endLine="83" endPosition="0" />
+    <scopeInfo nodeId="4635390255047863051" fileName="XMLSAXNodeRule.java" startLine="79" startPosition="0" endLine="83" endPosition="0">
+      <varInfo nodeId="4635390255047863051" varName="value" />
+    </scopeInfo>
     <scopeInfo nodeId="4635390255047863051" fileName="XMLSAXNodeRule.java" startLine="83" startPosition="0" endLine="87" endPosition="0" />
-    <scopeInfo nodeId="4635390255047863051" fileName="XMLSAXNodeRule.java" startLine="87" startPosition="0" endLine="91" endPosition="0" />
+    <scopeInfo nodeId="4635390255047863051" fileName="XMLSAXNodeRule.java" startLine="87" startPosition="0" endLine="91" endPosition="0">
+      <varInfo nodeId="4635390255047863051" varName="node" />
+    </scopeInfo>
     <scopeInfo nodeId="4635390255047863051" fileName="XMLSAXNodeRule.java" startLine="91" startPosition="0" endLine="95" endPosition="0" />
-    <scopeInfo nodeId="4635390255047863051" fileName="XMLSAXNodeRule.java" startLine="95" startPosition="0" endLine="99" endPosition="0" />
+    <scopeInfo nodeId="4635390255047863051" fileName="XMLSAXNodeRule.java" startLine="95" startPosition="0" endLine="99" endPosition="0">
+      <varInfo nodeId="4635390255047863051" varName="node" />
+    </scopeInfo>
     <scopeInfo nodeId="4635390255047863051" fileName="XMLSAXNodeRule.java" startLine="99" startPosition="0" endLine="103" endPosition="0" />
-    <scopeInfo nodeId="4635390255047863051" fileName="XMLSAXNodeRule.java" startLine="103" startPosition="0" endLine="107" endPosition="0" />
+    <scopeInfo nodeId="4635390255047863051" fileName="XMLSAXNodeRule.java" startLine="103" startPosition="0" endLine="107" endPosition="0">
+      <varInfo nodeId="4635390255047863051" varName="node" />
+    </scopeInfo>
     <scopeInfo nodeId="4635390255047863051" fileName="XMLSAXNodeRule.java" startLine="107" startPosition="0" endLine="111" endPosition="0" />
-    <scopeInfo nodeId="4635390255047863051" fileName="XMLSAXNodeRule.java" startLine="111" startPosition="0" endLine="115" endPosition="0" />
+    <scopeInfo nodeId="4635390255047863051" fileName="XMLSAXNodeRule.java" startLine="111" startPosition="0" endLine="115" endPosition="0">
+      <varInfo nodeId="4635390255047863051" varName="node" />
+    </scopeInfo>
     <scopeInfo nodeId="4635390255047863051" fileName="XMLSAXNodeRule.java" startLine="115" startPosition="0" endLine="119" endPosition="0" />
     <scopeInfo nodeId="4635390255047863051" fileName="XMLSAXNodeRule.java" startLine="119" startPosition="0" endLine="123" endPosition="0" />
     <scopeInfo nodeId="4635390255047863051" fileName="XMLSAXNodeRule.java" startLine="123" startPosition="0" endLine="127" endPosition="0" />
-    <scopeInfo nodeId="4635390255047863051" fileName="XMLSAXNodeRule.java" startLine="127" startPosition="0" endLine="131" endPosition="0" />
-    <scopeInfo nodeId="4635390255047863051" fileName="XMLSAXNodeRule.java" startLine="131" startPosition="0" endLine="135" endPosition="0" />
+    <scopeInfo nodeId="4635390255047863051" fileName="XMLSAXNodeRule.java" startLine="127" startPosition="0" endLine="131" endPosition="0">
+      <varInfo nodeId="4635390255047863051" varName="node" />
+    </scopeInfo>
+    <scopeInfo nodeId="4635390255047863051" fileName="XMLSAXNodeRule.java" startLine="131" startPosition="0" endLine="135" endPosition="0">
+      <varInfo nodeId="4635390255047863051" varName="node" />
+      <varInfo nodeId="4635390255047863051" varName="prev" />
+    </scopeInfo>
     <scopeInfo nodeId="4635390255047863051" fileName="XMLSAXNodeRule.java" startLine="135" startPosition="0" endLine="139" endPosition="0" />
     <scopeInfo nodeId="4635390255047863051" fileName="XMLSAXNodeRule.java" startLine="139" startPosition="0" endLine="143" endPosition="0" />
     <scopeInfo nodeId="4635390255047863051" fileName="XMLSAXNodeRule.java" startLine="143" startPosition="0" endLine="147" endPosition="0" />
-    <scopeInfo nodeId="4635390255047863051" fileName="XMLSAXNodeRule.java" startLine="147" startPosition="0" endLine="151" endPosition="0" />
-    <scopeInfo nodeId="4635390255047863051" fileName="XMLSAXNodeRule.java" startLine="151" startPosition="0" endLine="155" endPosition="0" />
+    <scopeInfo nodeId="4635390255047863051" fileName="XMLSAXNodeRule.java" startLine="147" startPosition="0" endLine="151" endPosition="0">
+      <varInfo nodeId="4635390255047863051" varName="node" />
+    </scopeInfo>
+    <scopeInfo nodeId="4635390255047863051" fileName="XMLSAXNodeRule.java" startLine="151" startPosition="0" endLine="155" endPosition="0">
+      <varInfo nodeId="4635390255047863051" varName="node" />
+      <varInfo nodeId="4635390255047863051" varName="prev" />
+    </scopeInfo>
     <scopeInfo nodeId="4635390255047863051" fileName="XMLSAXNodeRule.java" startLine="155" startPosition="0" endLine="159" endPosition="0" />
     <scopeInfo nodeId="4635390255047863051" fileName="XMLSAXNodeRule.java" startLine="159" startPosition="0" endLine="163" endPosition="0" />
     <scopeInfo nodeId="4635390255047863051" fileName="XMLSAXNodeRule.java" startLine="163" startPosition="0" endLine="167" endPosition="0" />
-    <scopeInfo nodeId="4635390255047863051" fileName="XMLSAXNodeRule.java" startLine="167" startPosition="0" endLine="171" endPosition="0" />
-    <scopeInfo nodeId="4635390255047863051" fileName="XMLSAXNodeRule.java" startLine="171" startPosition="0" endLine="175" endPosition="0" />
-    <scopeInfo nodeId="4635390255047863051" fileName="XMLSAXNodeRule.java" startLine="175" startPosition="0" endLine="179" endPosition="0" />
-    <scopeInfo nodeId="4635390255047863051" fileName="XMLSAXNodeRule.java" startLine="179" startPosition="0" endLine="183" endPosition="0" />
+    <scopeInfo nodeId="4635390255047863051" fileName="XMLSAXNodeRule.java" startLine="167" startPosition="0" endLine="171" endPosition="0">
+      <varInfo nodeId="4635390255047863051" varName="node" />
+    </scopeInfo>
+    <scopeInfo nodeId="4635390255047863051" fileName="XMLSAXNodeRule.java" startLine="171" startPosition="0" endLine="175" endPosition="0">
+      <varInfo nodeId="4635390255047863051" varName="node" />
+      <varInfo nodeId="4635390255047863051" varName="prev" />
+    </scopeInfo>
+    <scopeInfo nodeId="4635390255047863051" fileName="XMLSAXNodeRule.java" startLine="175" startPosition="0" endLine="179" endPosition="0">
+      <varInfo nodeId="4635390255047863051" varName="init" />
+      <varInfo nodeId="4635390255047863051" varName="sm" />
+    </scopeInfo>
+    <scopeInfo nodeId="4635390255047863051" fileName="XMLSAXNodeRule.java" startLine="179" startPosition="0" endLine="183" endPosition="0">
+      <varInfo nodeId="4635390255047863051" varName="sm" />
+    </scopeInfo>
     <unitInfo nodeId="4635390255047863051" fileName="XMLSAXNodeRule.java" startLine="16" startPosition="0" endLine="184" endPosition="0" unitName="jetbrains.mps.xmlQuery.structure.XMLSAXNodeRule" />
   </root>
   <root nodeId="4635390255047981693">
@@ -517,26 +646,50 @@
     <scopeInfo nodeId="4635390255047981693" fileName="XMLSAXAttributeRule.java" startLine="93" startPosition="69" endLine="94" endPosition="71" />
     <scopeInfo nodeId="4635390255047981693" fileName="XMLSAXAttributeRule.java" startLine="97" startPosition="74" endLine="98" endPosition="184" />
     <scopeInfo nodeId="4635390255047981693" fileName="XMLSAXAttributeRule.java" startLine="101" startPosition="60" endLine="102" endPosition="54" />
-    <scopeInfo nodeId="4635390255047981693" fileName="XMLSAXAttributeRule.java" startLine="24" startPosition="0" endLine="27" endPosition="3" />
+    <scopeInfo nodeId="4635390255047981693" fileName="XMLSAXAttributeRule.java" startLine="24" startPosition="0" endLine="27" endPosition="3">
+      <varInfo nodeId="4635390255047981693" varName="node" />
+    </scopeInfo>
     <scopeInfo nodeId="4635390255047981693" fileName="XMLSAXAttributeRule.java" startLine="28" startPosition="0" endLine="32" endPosition="0" />
-    <scopeInfo nodeId="4635390255047981693" fileName="XMLSAXAttributeRule.java" startLine="32" startPosition="0" endLine="36" endPosition="0" />
+    <scopeInfo nodeId="4635390255047981693" fileName="XMLSAXAttributeRule.java" startLine="32" startPosition="0" endLine="36" endPosition="0">
+      <varInfo nodeId="4635390255047981693" varName="value" />
+    </scopeInfo>
     <scopeInfo nodeId="4635390255047981693" fileName="XMLSAXAttributeRule.java" startLine="36" startPosition="0" endLine="40" endPosition="0" />
-    <scopeInfo nodeId="4635390255047981693" fileName="XMLSAXAttributeRule.java" startLine="40" startPosition="0" endLine="44" endPosition="0" />
+    <scopeInfo nodeId="4635390255047981693" fileName="XMLSAXAttributeRule.java" startLine="40" startPosition="0" endLine="44" endPosition="0">
+      <varInfo nodeId="4635390255047981693" varName="value" />
+    </scopeInfo>
     <scopeInfo nodeId="4635390255047981693" fileName="XMLSAXAttributeRule.java" startLine="44" startPosition="0" endLine="48" endPosition="0" />
-    <scopeInfo nodeId="4635390255047981693" fileName="XMLSAXAttributeRule.java" startLine="48" startPosition="0" endLine="52" endPosition="0" />
+    <scopeInfo nodeId="4635390255047981693" fileName="XMLSAXAttributeRule.java" startLine="48" startPosition="0" endLine="52" endPosition="0">
+      <varInfo nodeId="4635390255047981693" varName="value" />
+    </scopeInfo>
     <scopeInfo nodeId="4635390255047981693" fileName="XMLSAXAttributeRule.java" startLine="52" startPosition="0" endLine="56" endPosition="0" />
-    <scopeInfo nodeId="4635390255047981693" fileName="XMLSAXAttributeRule.java" startLine="56" startPosition="0" endLine="60" endPosition="0" />
+    <scopeInfo nodeId="4635390255047981693" fileName="XMLSAXAttributeRule.java" startLine="56" startPosition="0" endLine="60" endPosition="0">
+      <varInfo nodeId="4635390255047981693" varName="value" />
+    </scopeInfo>
     <scopeInfo nodeId="4635390255047981693" fileName="XMLSAXAttributeRule.java" startLine="60" startPosition="0" endLine="64" endPosition="0" />
-    <scopeInfo nodeId="4635390255047981693" fileName="XMLSAXAttributeRule.java" startLine="64" startPosition="0" endLine="68" endPosition="0" />
+    <scopeInfo nodeId="4635390255047981693" fileName="XMLSAXAttributeRule.java" startLine="64" startPosition="0" endLine="68" endPosition="0">
+      <varInfo nodeId="4635390255047981693" varName="value" />
+    </scopeInfo>
     <scopeInfo nodeId="4635390255047981693" fileName="XMLSAXAttributeRule.java" startLine="68" startPosition="0" endLine="72" endPosition="0" />
-    <scopeInfo nodeId="4635390255047981693" fileName="XMLSAXAttributeRule.java" startLine="72" startPosition="0" endLine="76" endPosition="0" />
+    <scopeInfo nodeId="4635390255047981693" fileName="XMLSAXAttributeRule.java" startLine="72" startPosition="0" endLine="76" endPosition="0">
+      <varInfo nodeId="4635390255047981693" varName="node" />
+    </scopeInfo>
     <scopeInfo nodeId="4635390255047981693" fileName="XMLSAXAttributeRule.java" startLine="76" startPosition="0" endLine="80" endPosition="0" />
     <scopeInfo nodeId="4635390255047981693" fileName="XMLSAXAttributeRule.java" startLine="80" startPosition="0" endLine="84" endPosition="0" />
     <scopeInfo nodeId="4635390255047981693" fileName="XMLSAXAttributeRule.java" startLine="84" startPosition="0" endLine="88" endPosition="0" />
-    <scopeInfo nodeId="4635390255047981693" fileName="XMLSAXAttributeRule.java" startLine="88" startPosition="0" endLine="92" endPosition="0" />
-    <scopeInfo nodeId="4635390255047981693" fileName="XMLSAXAttributeRule.java" startLine="92" startPosition="0" endLine="96" endPosition="0" />
-    <scopeInfo nodeId="4635390255047981693" fileName="XMLSAXAttributeRule.java" startLine="96" startPosition="0" endLine="100" endPosition="0" />
-    <scopeInfo nodeId="4635390255047981693" fileName="XMLSAXAttributeRule.java" startLine="100" startPosition="0" endLine="104" endPosition="0" />
+    <scopeInfo nodeId="4635390255047981693" fileName="XMLSAXAttributeRule.java" startLine="88" startPosition="0" endLine="92" endPosition="0">
+      <varInfo nodeId="4635390255047981693" varName="node" />
+    </scopeInfo>
+    <scopeInfo nodeId="4635390255047981693" fileName="XMLSAXAttributeRule.java" startLine="92" startPosition="0" endLine="96" endPosition="0">
+      <varInfo nodeId="4635390255047981693" varName="node" />
+      <varInfo nodeId="4635390255047981693" varName="prev" />
+    </scopeInfo>
+    <scopeInfo nodeId="4635390255047981693" fileName="XMLSAXAttributeRule.java" startLine="96" startPosition="0" endLine="100" endPosition="0">
+      <varInfo nodeId="4635390255047981693" varName="init" />
+      <varInfo nodeId="4635390255047981693" varName="sm" />
+    </scopeInfo>
+    <scopeInfo nodeId="4635390255047981693" fileName="XMLSAXAttributeRule.java" startLine="100" startPosition="0" endLine="104" endPosition="0">
+      <varInfo nodeId="4635390255047981693" varName="sm" />
+    </scopeInfo>
     <unitInfo nodeId="4635390255047981693" fileName="XMLSAXAttributeRule.java" startLine="15" startPosition="0" endLine="105" endPosition="0" unitName="jetbrains.mps.xmlQuery.structure.XMLSAXAttributeRule" />
   </root>
   <root nodeId="4635390255048069776">
@@ -560,12 +713,26 @@
     <scopeInfo nodeId="4635390255048078244" fileName="XMLSAXAttributeHandler_value.java" startLine="18" startPosition="83" endLine="19" endPosition="202" />
     <scopeInfo nodeId="4635390255048069776" fileName="XMLSAXAttributeHandler.java" startLine="21" startPosition="63" endLine="22" endPosition="57" />
     <scopeInfo nodeId="4635390255048078244" fileName="XMLSAXAttributeHandler_value.java" startLine="22" startPosition="69" endLine="23" endPosition="63" />
-    <scopeInfo nodeId="4635390255048069776" fileName="XMLSAXAttributeHandler.java" startLine="12" startPosition="0" endLine="15" endPosition="3" />
-    <scopeInfo nodeId="4635390255048078244" fileName="XMLSAXAttributeHandler_value.java" startLine="13" startPosition="0" endLine="16" endPosition="3" />
-    <scopeInfo nodeId="4635390255048069776" fileName="XMLSAXAttributeHandler.java" startLine="16" startPosition="0" endLine="20" endPosition="0" />
-    <scopeInfo nodeId="4635390255048078244" fileName="XMLSAXAttributeHandler_value.java" startLine="17" startPosition="0" endLine="21" endPosition="0" />
-    <scopeInfo nodeId="4635390255048069776" fileName="XMLSAXAttributeHandler.java" startLine="20" startPosition="0" endLine="24" endPosition="0" />
-    <scopeInfo nodeId="4635390255048078244" fileName="XMLSAXAttributeHandler_value.java" startLine="21" startPosition="0" endLine="25" endPosition="0" />
+    <scopeInfo nodeId="4635390255048069776" fileName="XMLSAXAttributeHandler.java" startLine="12" startPosition="0" endLine="15" endPosition="3">
+      <varInfo nodeId="4635390255048069776" varName="node" />
+    </scopeInfo>
+    <scopeInfo nodeId="4635390255048078244" fileName="XMLSAXAttributeHandler_value.java" startLine="13" startPosition="0" endLine="16" endPosition="3">
+      <varInfo nodeId="4635390255048078244" varName="node" />
+    </scopeInfo>
+    <scopeInfo nodeId="4635390255048069776" fileName="XMLSAXAttributeHandler.java" startLine="16" startPosition="0" endLine="20" endPosition="0">
+      <varInfo nodeId="4635390255048069776" varName="init" />
+      <varInfo nodeId="4635390255048069776" varName="sm" />
+    </scopeInfo>
+    <scopeInfo nodeId="4635390255048078244" fileName="XMLSAXAttributeHandler_value.java" startLine="17" startPosition="0" endLine="21" endPosition="0">
+      <varInfo nodeId="4635390255048078244" varName="init" />
+      <varInfo nodeId="4635390255048078244" varName="sm" />
+    </scopeInfo>
+    <scopeInfo nodeId="4635390255048069776" fileName="XMLSAXAttributeHandler.java" startLine="20" startPosition="0" endLine="24" endPosition="0">
+      <varInfo nodeId="4635390255048069776" varName="sm" />
+    </scopeInfo>
+    <scopeInfo nodeId="4635390255048078244" fileName="XMLSAXAttributeHandler_value.java" startLine="21" startPosition="0" endLine="25" endPosition="0">
+      <varInfo nodeId="4635390255048078244" varName="sm" />
+    </scopeInfo>
     <unitInfo nodeId="4635390255048069776" fileName="XMLSAXAttributeHandler.java" startLine="10" startPosition="0" endLine="25" endPosition="0" unitName="jetbrains.mps.xmlQuery.structure.XMLSAXAttributeHandler" />
     <unitInfo nodeId="4635390255048078244" fileName="XMLSAXAttributeHandler_value.java" startLine="11" startPosition="0" endLine="26" endPosition="0" unitName="jetbrains.mps.xmlQuery.structure.XMLSAXAttributeHandler_value" />
   </root>
@@ -587,11 +754,20 @@
     <scopeInfo nodeId="4635390255048097272" fileName="XMLSAXTextRule.java" startLine="23" startPosition="50" endLine="24" endPosition="49" />
     <scopeInfo nodeId="4635390255048097272" fileName="XMLSAXTextRule.java" startLine="27" startPosition="69" endLine="28" endPosition="174" />
     <scopeInfo nodeId="4635390255048097272" fileName="XMLSAXTextRule.java" startLine="31" startPosition="55" endLine="32" endPosition="49" />
-    <scopeInfo nodeId="4635390255048097272" fileName="XMLSAXTextRule.java" startLine="14" startPosition="0" endLine="17" endPosition="3" />
+    <scopeInfo nodeId="4635390255048097272" fileName="XMLSAXTextRule.java" startLine="14" startPosition="0" endLine="17" endPosition="3">
+      <varInfo nodeId="4635390255048097272" varName="node" />
+    </scopeInfo>
     <scopeInfo nodeId="4635390255048097272" fileName="XMLSAXTextRule.java" startLine="18" startPosition="0" endLine="22" endPosition="0" />
-    <scopeInfo nodeId="4635390255048097272" fileName="XMLSAXTextRule.java" startLine="22" startPosition="0" endLine="26" endPosition="0" />
-    <scopeInfo nodeId="4635390255048097272" fileName="XMLSAXTextRule.java" startLine="26" startPosition="0" endLine="30" endPosition="0" />
-    <scopeInfo nodeId="4635390255048097272" fileName="XMLSAXTextRule.java" startLine="30" startPosition="0" endLine="34" endPosition="0" />
+    <scopeInfo nodeId="4635390255048097272" fileName="XMLSAXTextRule.java" startLine="22" startPosition="0" endLine="26" endPosition="0">
+      <varInfo nodeId="4635390255048097272" varName="node" />
+    </scopeInfo>
+    <scopeInfo nodeId="4635390255048097272" fileName="XMLSAXTextRule.java" startLine="26" startPosition="0" endLine="30" endPosition="0">
+      <varInfo nodeId="4635390255048097272" varName="init" />
+      <varInfo nodeId="4635390255048097272" varName="sm" />
+    </scopeInfo>
+    <scopeInfo nodeId="4635390255048097272" fileName="XMLSAXTextRule.java" startLine="30" startPosition="0" endLine="34" endPosition="0">
+      <varInfo nodeId="4635390255048097272" varName="sm" />
+    </scopeInfo>
     <unitInfo nodeId="4635390255048097272" fileName="XMLSAXTextRule.java" startLine="11" startPosition="0" endLine="35" endPosition="0" unitName="jetbrains.mps.xmlQuery.structure.XMLSAXTextRule" />
   </root>
   <root nodeId="4635390255048097273">
@@ -615,12 +791,26 @@
     <scopeInfo nodeId="4635390255048098132" fileName="XMLSAXTextHandler_value.java" startLine="18" startPosition="78" endLine="19" endPosition="192" />
     <scopeInfo nodeId="4635390255048097273" fileName="XMLSAXTextHandler.java" startLine="21" startPosition="58" endLine="22" endPosition="52" />
     <scopeInfo nodeId="4635390255048098132" fileName="XMLSAXTextHandler_value.java" startLine="22" startPosition="64" endLine="23" endPosition="58" />
-    <scopeInfo nodeId="4635390255048097273" fileName="XMLSAXTextHandler.java" startLine="12" startPosition="0" endLine="15" endPosition="3" />
-    <scopeInfo nodeId="4635390255048098132" fileName="XMLSAXTextHandler_value.java" startLine="13" startPosition="0" endLine="16" endPosition="3" />
-    <scopeInfo nodeId="4635390255048097273" fileName="XMLSAXTextHandler.java" startLine="16" startPosition="0" endLine="20" endPosition="0" />
-    <scopeInfo nodeId="4635390255048098132" fileName="XMLSAXTextHandler_value.java" startLine="17" startPosition="0" endLine="21" endPosition="0" />
-    <scopeInfo nodeId="4635390255048097273" fileName="XMLSAXTextHandler.java" startLine="20" startPosition="0" endLine="24" endPosition="0" />
-    <scopeInfo nodeId="4635390255048098132" fileName="XMLSAXTextHandler_value.java" startLine="21" startPosition="0" endLine="25" endPosition="0" />
+    <scopeInfo nodeId="4635390255048097273" fileName="XMLSAXTextHandler.java" startLine="12" startPosition="0" endLine="15" endPosition="3">
+      <varInfo nodeId="4635390255048097273" varName="node" />
+    </scopeInfo>
+    <scopeInfo nodeId="4635390255048098132" fileName="XMLSAXTextHandler_value.java" startLine="13" startPosition="0" endLine="16" endPosition="3">
+      <varInfo nodeId="4635390255048098132" varName="node" />
+    </scopeInfo>
+    <scopeInfo nodeId="4635390255048097273" fileName="XMLSAXTextHandler.java" startLine="16" startPosition="0" endLine="20" endPosition="0">
+      <varInfo nodeId="4635390255048097273" varName="init" />
+      <varInfo nodeId="4635390255048097273" varName="sm" />
+    </scopeInfo>
+    <scopeInfo nodeId="4635390255048098132" fileName="XMLSAXTextHandler_value.java" startLine="17" startPosition="0" endLine="21" endPosition="0">
+      <varInfo nodeId="4635390255048098132" varName="init" />
+      <varInfo nodeId="4635390255048098132" varName="sm" />
+    </scopeInfo>
+    <scopeInfo nodeId="4635390255048097273" fileName="XMLSAXTextHandler.java" startLine="20" startPosition="0" endLine="24" endPosition="0">
+      <varInfo nodeId="4635390255048097273" varName="sm" />
+    </scopeInfo>
+    <scopeInfo nodeId="4635390255048098132" fileName="XMLSAXTextHandler_value.java" startLine="21" startPosition="0" endLine="25" endPosition="0">
+      <varInfo nodeId="4635390255048098132" varName="sm" />
+    </scopeInfo>
     <unitInfo nodeId="4635390255048097273" fileName="XMLSAXTextHandler.java" startLine="10" startPosition="0" endLine="25" endPosition="0" unitName="jetbrains.mps.xmlQuery.structure.XMLSAXTextHandler" />
     <unitInfo nodeId="4635390255048098132" fileName="XMLSAXTextHandler_value.java" startLine="11" startPosition="0" endLine="26" endPosition="0" unitName="jetbrains.mps.xmlQuery.structure.XMLSAXTextHandler_value" />
   </root>
@@ -635,9 +825,16 @@
     <scopeInfo nodeId="4635390255048097274" fileName="XMLSAXHandlerFunction.java" startLine="14" startPosition="44" endLine="15" endPosition="16" />
     <scopeInfo nodeId="4635390255048097274" fileName="XMLSAXHandlerFunction.java" startLine="18" startPosition="76" endLine="19" endPosition="188" />
     <scopeInfo nodeId="4635390255048097274" fileName="XMLSAXHandlerFunction.java" startLine="22" startPosition="62" endLine="23" endPosition="56" />
-    <scopeInfo nodeId="4635390255048097274" fileName="XMLSAXHandlerFunction.java" startLine="13" startPosition="0" endLine="16" endPosition="3" />
-    <scopeInfo nodeId="4635390255048097274" fileName="XMLSAXHandlerFunction.java" startLine="17" startPosition="0" endLine="21" endPosition="0" />
-    <scopeInfo nodeId="4635390255048097274" fileName="XMLSAXHandlerFunction.java" startLine="21" startPosition="0" endLine="25" endPosition="0" />
+    <scopeInfo nodeId="4635390255048097274" fileName="XMLSAXHandlerFunction.java" startLine="13" startPosition="0" endLine="16" endPosition="3">
+      <varInfo nodeId="4635390255048097274" varName="node" />
+    </scopeInfo>
+    <scopeInfo nodeId="4635390255048097274" fileName="XMLSAXHandlerFunction.java" startLine="17" startPosition="0" endLine="21" endPosition="0">
+      <varInfo nodeId="4635390255048097274" varName="init" />
+      <varInfo nodeId="4635390255048097274" varName="sm" />
+    </scopeInfo>
+    <scopeInfo nodeId="4635390255048097274" fileName="XMLSAXHandlerFunction.java" startLine="21" startPosition="0" endLine="25" endPosition="0">
+      <varInfo nodeId="4635390255048097274" varName="sm" />
+    </scopeInfo>
     <unitInfo nodeId="4635390255048097274" fileName="XMLSAXHandlerFunction.java" startLine="11" startPosition="0" endLine="26" endPosition="0" unitName="jetbrains.mps.xmlQuery.structure.XMLSAXHandlerFunction" />
   </root>
   <root nodeId="4635390255048098081">
@@ -651,9 +848,16 @@
     <scopeInfo nodeId="4635390255048098081" fileName="XMLSAXHandler_resultObject.java" startLine="14" startPosition="49" endLine="15" endPosition="16" />
     <scopeInfo nodeId="4635390255048098081" fileName="XMLSAXHandler_resultObject.java" startLine="18" startPosition="81" endLine="19" endPosition="198" />
     <scopeInfo nodeId="4635390255048098081" fileName="XMLSAXHandler_resultObject.java" startLine="22" startPosition="67" endLine="23" endPosition="61" />
-    <scopeInfo nodeId="4635390255048098081" fileName="XMLSAXHandler_resultObject.java" startLine="13" startPosition="0" endLine="16" endPosition="3" />
-    <scopeInfo nodeId="4635390255048098081" fileName="XMLSAXHandler_resultObject.java" startLine="17" startPosition="0" endLine="21" endPosition="0" />
-    <scopeInfo nodeId="4635390255048098081" fileName="XMLSAXHandler_resultObject.java" startLine="21" startPosition="0" endLine="25" endPosition="0" />
+    <scopeInfo nodeId="4635390255048098081" fileName="XMLSAXHandler_resultObject.java" startLine="13" startPosition="0" endLine="16" endPosition="3">
+      <varInfo nodeId="4635390255048098081" varName="node" />
+    </scopeInfo>
+    <scopeInfo nodeId="4635390255048098081" fileName="XMLSAXHandler_resultObject.java" startLine="17" startPosition="0" endLine="21" endPosition="0">
+      <varInfo nodeId="4635390255048098081" varName="init" />
+      <varInfo nodeId="4635390255048098081" varName="sm" />
+    </scopeInfo>
+    <scopeInfo nodeId="4635390255048098081" fileName="XMLSAXHandler_resultObject.java" startLine="21" startPosition="0" endLine="25" endPosition="0">
+      <varInfo nodeId="4635390255048098081" varName="sm" />
+    </scopeInfo>
     <unitInfo nodeId="4635390255048098081" fileName="XMLSAXHandler_resultObject.java" startLine="11" startPosition="0" endLine="26" endPosition="0" unitName="jetbrains.mps.xmlQuery.structure.XMLSAXHandler_resultObject" />
   </root>
   <root nodeId="4705273682234223462">
@@ -674,11 +878,20 @@
     <scopeInfo nodeId="4705273682234223462" fileName="XMLElementCreator.java" startLine="23" startPosition="44" endLine="24" endPosition="49" />
     <scopeInfo nodeId="4705273682234223462" fileName="XMLElementCreator.java" startLine="27" startPosition="72" endLine="28" endPosition="180" />
     <scopeInfo nodeId="4705273682234223462" fileName="XMLElementCreator.java" startLine="31" startPosition="58" endLine="32" endPosition="52" />
-    <scopeInfo nodeId="4705273682234223462" fileName="XMLElementCreator.java" startLine="14" startPosition="0" endLine="17" endPosition="3" />
+    <scopeInfo nodeId="4705273682234223462" fileName="XMLElementCreator.java" startLine="14" startPosition="0" endLine="17" endPosition="3">
+      <varInfo nodeId="4705273682234223462" varName="node" />
+    </scopeInfo>
     <scopeInfo nodeId="4705273682234223462" fileName="XMLElementCreator.java" startLine="18" startPosition="0" endLine="22" endPosition="0" />
-    <scopeInfo nodeId="4705273682234223462" fileName="XMLElementCreator.java" startLine="22" startPosition="0" endLine="26" endPosition="0" />
-    <scopeInfo nodeId="4705273682234223462" fileName="XMLElementCreator.java" startLine="26" startPosition="0" endLine="30" endPosition="0" />
-    <scopeInfo nodeId="4705273682234223462" fileName="XMLElementCreator.java" startLine="30" startPosition="0" endLine="34" endPosition="0" />
+    <scopeInfo nodeId="4705273682234223462" fileName="XMLElementCreator.java" startLine="22" startPosition="0" endLine="26" endPosition="0">
+      <varInfo nodeId="4705273682234223462" varName="node" />
+    </scopeInfo>
+    <scopeInfo nodeId="4705273682234223462" fileName="XMLElementCreator.java" startLine="26" startPosition="0" endLine="30" endPosition="0">
+      <varInfo nodeId="4705273682234223462" varName="init" />
+      <varInfo nodeId="4705273682234223462" varName="sm" />
+    </scopeInfo>
+    <scopeInfo nodeId="4705273682234223462" fileName="XMLElementCreator.java" startLine="30" startPosition="0" endLine="34" endPosition="0">
+      <varInfo nodeId="4705273682234223462" varName="sm" />
+    </scopeInfo>
     <unitInfo nodeId="4705273682234223462" fileName="XMLElementCreator.java" startLine="11" startPosition="0" endLine="35" endPosition="0" unitName="jetbrains.mps.xmlQuery.structure.XMLElementCreator" />
   </root>
   <root nodeId="4815471077468621634">
@@ -699,11 +912,20 @@
     <scopeInfo nodeId="4815471077468621634" fileName="AccessChildrenOperation.java" startLine="23" startPosition="62" endLine="24" endPosition="73" />
     <scopeInfo nodeId="4815471077468621634" fileName="AccessChildrenOperation.java" startLine="27" startPosition="78" endLine="28" endPosition="192" />
     <scopeInfo nodeId="4815471077468621634" fileName="AccessChildrenOperation.java" startLine="31" startPosition="64" endLine="32" endPosition="58" />
-    <scopeInfo nodeId="4815471077468621634" fileName="AccessChildrenOperation.java" startLine="14" startPosition="0" endLine="17" endPosition="3" />
+    <scopeInfo nodeId="4815471077468621634" fileName="AccessChildrenOperation.java" startLine="14" startPosition="0" endLine="17" endPosition="3">
+      <varInfo nodeId="4815471077468621634" varName="node" />
+    </scopeInfo>
     <scopeInfo nodeId="4815471077468621634" fileName="AccessChildrenOperation.java" startLine="18" startPosition="0" endLine="22" endPosition="0" />
-    <scopeInfo nodeId="4815471077468621634" fileName="AccessChildrenOperation.java" startLine="22" startPosition="0" endLine="26" endPosition="0" />
-    <scopeInfo nodeId="4815471077468621634" fileName="AccessChildrenOperation.java" startLine="26" startPosition="0" endLine="30" endPosition="0" />
-    <scopeInfo nodeId="4815471077468621634" fileName="AccessChildrenOperation.java" startLine="30" startPosition="0" endLine="34" endPosition="0" />
+    <scopeInfo nodeId="4815471077468621634" fileName="AccessChildrenOperation.java" startLine="22" startPosition="0" endLine="26" endPosition="0">
+      <varInfo nodeId="4815471077468621634" varName="node" />
+    </scopeInfo>
+    <scopeInfo nodeId="4815471077468621634" fileName="AccessChildrenOperation.java" startLine="26" startPosition="0" endLine="30" endPosition="0">
+      <varInfo nodeId="4815471077468621634" varName="init" />
+      <varInfo nodeId="4815471077468621634" varName="sm" />
+    </scopeInfo>
+    <scopeInfo nodeId="4815471077468621634" fileName="AccessChildrenOperation.java" startLine="30" startPosition="0" endLine="34" endPosition="0">
+      <varInfo nodeId="4815471077468621634" varName="sm" />
+    </scopeInfo>
     <unitInfo nodeId="4815471077468621634" fileName="AccessChildrenOperation.java" startLine="11" startPosition="0" endLine="35" endPosition="0" unitName="jetbrains.mps.xmlQuery.structure.AccessChildrenOperation" />
   </root>
   <root nodeId="4815471077468621637">
@@ -731,13 +953,24 @@
     <scopeInfo nodeId="4815471077468621637" fileName="XMLElementType.java" startLine="34" startPosition="48" endLine="35" endPosition="57" />
     <scopeInfo nodeId="4815471077468621637" fileName="XMLElementType.java" startLine="38" startPosition="69" endLine="39" endPosition="174" />
     <scopeInfo nodeId="4815471077468621637" fileName="XMLElementType.java" startLine="42" startPosition="55" endLine="43" endPosition="49" />
-    <scopeInfo nodeId="4815471077468621637" fileName="XMLElementType.java" startLine="17" startPosition="0" endLine="20" endPosition="3" />
+    <scopeInfo nodeId="4815471077468621637" fileName="XMLElementType.java" startLine="17" startPosition="0" endLine="20" endPosition="3">
+      <varInfo nodeId="4815471077468621637" varName="node" />
+    </scopeInfo>
     <scopeInfo nodeId="4815471077468621637" fileName="XMLElementType.java" startLine="21" startPosition="0" endLine="25" endPosition="0" />
-    <scopeInfo nodeId="4815471077468621637" fileName="XMLElementType.java" startLine="25" startPosition="0" endLine="29" endPosition="0" />
+    <scopeInfo nodeId="4815471077468621637" fileName="XMLElementType.java" startLine="25" startPosition="0" endLine="29" endPosition="0">
+      <varInfo nodeId="4815471077468621637" varName="node" />
+    </scopeInfo>
     <scopeInfo nodeId="4815471077468621637" fileName="XMLElementType.java" startLine="29" startPosition="0" endLine="33" endPosition="0" />
-    <scopeInfo nodeId="4815471077468621637" fileName="XMLElementType.java" startLine="33" startPosition="0" endLine="37" endPosition="0" />
-    <scopeInfo nodeId="4815471077468621637" fileName="XMLElementType.java" startLine="37" startPosition="0" endLine="41" endPosition="0" />
-    <scopeInfo nodeId="4815471077468621637" fileName="XMLElementType.java" startLine="41" startPosition="0" endLine="45" endPosition="0" />
+    <scopeInfo nodeId="4815471077468621637" fileName="XMLElementType.java" startLine="33" startPosition="0" endLine="37" endPosition="0">
+      <varInfo nodeId="4815471077468621637" varName="node" />
+    </scopeInfo>
+    <scopeInfo nodeId="4815471077468621637" fileName="XMLElementType.java" startLine="37" startPosition="0" endLine="41" endPosition="0">
+      <varInfo nodeId="4815471077468621637" varName="init" />
+      <varInfo nodeId="4815471077468621637" varName="sm" />
+    </scopeInfo>
+    <scopeInfo nodeId="4815471077468621637" fileName="XMLElementType.java" startLine="41" startPosition="0" endLine="45" endPosition="0">
+      <varInfo nodeId="4815471077468621637" varName="sm" />
+    </scopeInfo>
     <unitInfo nodeId="4815471077468621637" fileName="XMLElementType.java" startLine="13" startPosition="0" endLine="46" endPosition="0" unitName="jetbrains.mps.xmlQuery.structure.XMLElementType" />
   </root>
   <root nodeId="4991903842868303816">
@@ -788,20 +1021,38 @@
     <scopeInfo nodeId="4991903842868303816" fileName="XMLElementOperation.java" startLine="66" startPosition="69" endLine="67" endPosition="71" />
     <scopeInfo nodeId="4991903842868303816" fileName="XMLElementOperation.java" startLine="70" startPosition="74" endLine="71" endPosition="184" />
     <scopeInfo nodeId="4991903842868303816" fileName="XMLElementOperation.java" startLine="74" startPosition="60" endLine="75" endPosition="54" />
-    <scopeInfo nodeId="4991903842868303816" fileName="XMLElementOperation.java" startLine="21" startPosition="0" endLine="24" endPosition="3" />
+    <scopeInfo nodeId="4991903842868303816" fileName="XMLElementOperation.java" startLine="21" startPosition="0" endLine="24" endPosition="3">
+      <varInfo nodeId="4991903842868303816" varName="node" />
+    </scopeInfo>
     <scopeInfo nodeId="4991903842868303816" fileName="XMLElementOperation.java" startLine="25" startPosition="0" endLine="29" endPosition="0" />
-    <scopeInfo nodeId="4991903842868303816" fileName="XMLElementOperation.java" startLine="29" startPosition="0" endLine="33" endPosition="0" />
+    <scopeInfo nodeId="4991903842868303816" fileName="XMLElementOperation.java" startLine="29" startPosition="0" endLine="33" endPosition="0">
+      <varInfo nodeId="4991903842868303816" varName="value" />
+    </scopeInfo>
     <scopeInfo nodeId="4991903842868303816" fileName="XMLElementOperation.java" startLine="33" startPosition="0" endLine="37" endPosition="0" />
-    <scopeInfo nodeId="4991903842868303816" fileName="XMLElementOperation.java" startLine="37" startPosition="0" endLine="41" endPosition="0" />
+    <scopeInfo nodeId="4991903842868303816" fileName="XMLElementOperation.java" startLine="37" startPosition="0" endLine="41" endPosition="0">
+      <varInfo nodeId="4991903842868303816" varName="value" />
+    </scopeInfo>
     <scopeInfo nodeId="4991903842868303816" fileName="XMLElementOperation.java" startLine="41" startPosition="0" endLine="45" endPosition="0" />
-    <scopeInfo nodeId="4991903842868303816" fileName="XMLElementOperation.java" startLine="45" startPosition="0" endLine="49" endPosition="0" />
+    <scopeInfo nodeId="4991903842868303816" fileName="XMLElementOperation.java" startLine="45" startPosition="0" endLine="49" endPosition="0">
+      <varInfo nodeId="4991903842868303816" varName="value" />
+    </scopeInfo>
     <scopeInfo nodeId="4991903842868303816" fileName="XMLElementOperation.java" startLine="49" startPosition="0" endLine="53" endPosition="0" />
     <scopeInfo nodeId="4991903842868303816" fileName="XMLElementOperation.java" startLine="53" startPosition="0" endLine="57" endPosition="0" />
     <scopeInfo nodeId="4991903842868303816" fileName="XMLElementOperation.java" startLine="57" startPosition="0" endLine="61" endPosition="0" />
-    <scopeInfo nodeId="4991903842868303816" fileName="XMLElementOperation.java" startLine="61" startPosition="0" endLine="65" endPosition="0" />
-    <scopeInfo nodeId="4991903842868303816" fileName="XMLElementOperation.java" startLine="65" startPosition="0" endLine="69" endPosition="0" />
-    <scopeInfo nodeId="4991903842868303816" fileName="XMLElementOperation.java" startLine="69" startPosition="0" endLine="73" endPosition="0" />
-    <scopeInfo nodeId="4991903842868303816" fileName="XMLElementOperation.java" startLine="73" startPosition="0" endLine="77" endPosition="0" />
+    <scopeInfo nodeId="4991903842868303816" fileName="XMLElementOperation.java" startLine="61" startPosition="0" endLine="65" endPosition="0">
+      <varInfo nodeId="4991903842868303816" varName="node" />
+    </scopeInfo>
+    <scopeInfo nodeId="4991903842868303816" fileName="XMLElementOperation.java" startLine="65" startPosition="0" endLine="69" endPosition="0">
+      <varInfo nodeId="4991903842868303816" varName="node" />
+      <varInfo nodeId="4991903842868303816" varName="prev" />
+    </scopeInfo>
+    <scopeInfo nodeId="4991903842868303816" fileName="XMLElementOperation.java" startLine="69" startPosition="0" endLine="73" endPosition="0">
+      <varInfo nodeId="4991903842868303816" varName="init" />
+      <varInfo nodeId="4991903842868303816" varName="sm" />
+    </scopeInfo>
+    <scopeInfo nodeId="4991903842868303816" fileName="XMLElementOperation.java" startLine="73" startPosition="0" endLine="77" endPosition="0">
+      <varInfo nodeId="4991903842868303816" varName="sm" />
+    </scopeInfo>
     <unitInfo nodeId="4991903842868303816" fileName="XMLElementOperation.java" startLine="15" startPosition="0" endLine="78" endPosition="0" unitName="jetbrains.mps.xmlQuery.structure.XMLElementOperation" />
   </root>
   <root nodeId="4991903842868445303">
@@ -822,11 +1073,20 @@
     <scopeInfo nodeId="4991903842868445303" fileName="AccessAttributeOperation.java" startLine="23" startPosition="66" endLine="24" endPosition="76" />
     <scopeInfo nodeId="4991903842868445303" fileName="AccessAttributeOperation.java" startLine="27" startPosition="79" endLine="28" endPosition="194" />
     <scopeInfo nodeId="4991903842868445303" fileName="AccessAttributeOperation.java" startLine="31" startPosition="65" endLine="32" endPosition="59" />
-    <scopeInfo nodeId="4991903842868445303" fileName="AccessAttributeOperation.java" startLine="14" startPosition="0" endLine="17" endPosition="3" />
+    <scopeInfo nodeId="4991903842868445303" fileName="AccessAttributeOperation.java" startLine="14" startPosition="0" endLine="17" endPosition="3">
+      <varInfo nodeId="4991903842868445303" varName="node" />
+    </scopeInfo>
     <scopeInfo nodeId="4991903842868445303" fileName="AccessAttributeOperation.java" startLine="18" startPosition="0" endLine="22" endPosition="0" />
-    <scopeInfo nodeId="4991903842868445303" fileName="AccessAttributeOperation.java" startLine="22" startPosition="0" endLine="26" endPosition="0" />
-    <scopeInfo nodeId="4991903842868445303" fileName="AccessAttributeOperation.java" startLine="26" startPosition="0" endLine="30" endPosition="0" />
-    <scopeInfo nodeId="4991903842868445303" fileName="AccessAttributeOperation.java" startLine="30" startPosition="0" endLine="34" endPosition="0" />
+    <scopeInfo nodeId="4991903842868445303" fileName="AccessAttributeOperation.java" startLine="22" startPosition="0" endLine="26" endPosition="0">
+      <varInfo nodeId="4991903842868445303" varName="node" />
+    </scopeInfo>
+    <scopeInfo nodeId="4991903842868445303" fileName="AccessAttributeOperation.java" startLine="26" startPosition="0" endLine="30" endPosition="0">
+      <varInfo nodeId="4991903842868445303" varName="init" />
+      <varInfo nodeId="4991903842868445303" varName="sm" />
+    </scopeInfo>
+    <scopeInfo nodeId="4991903842868445303" fileName="AccessAttributeOperation.java" startLine="30" startPosition="0" endLine="34" endPosition="0">
+      <varInfo nodeId="4991903842868445303" varName="sm" />
+    </scopeInfo>
     <unitInfo nodeId="4991903842868445303" fileName="AccessAttributeOperation.java" startLine="11" startPosition="0" endLine="35" endPosition="0" unitName="jetbrains.mps.xmlQuery.structure.AccessAttributeOperation" />
   </root>
   <root nodeId="634907465121461799">
@@ -847,11 +1107,20 @@
     <scopeInfo nodeId="634907465121461799" fileName="AccessArbitraryChildrenOperation.java" startLine="23" startPosition="55" endLine="24" endPosition="81" />
     <scopeInfo nodeId="634907465121461799" fileName="AccessArbitraryChildrenOperation.java" startLine="27" startPosition="87" endLine="28" endPosition="210" />
     <scopeInfo nodeId="634907465121461799" fileName="AccessArbitraryChildrenOperation.java" startLine="31" startPosition="73" endLine="32" endPosition="67" />
-    <scopeInfo nodeId="634907465121461799" fileName="AccessArbitraryChildrenOperation.java" startLine="14" startPosition="0" endLine="17" endPosition="3" />
+    <scopeInfo nodeId="634907465121461799" fileName="AccessArbitraryChildrenOperation.java" startLine="14" startPosition="0" endLine="17" endPosition="3">
+      <varInfo nodeId="634907465121461799" varName="node" />
+    </scopeInfo>
     <scopeInfo nodeId="634907465121461799" fileName="AccessArbitraryChildrenOperation.java" startLine="18" startPosition="0" endLine="22" endPosition="0" />
-    <scopeInfo nodeId="634907465121461799" fileName="AccessArbitraryChildrenOperation.java" startLine="22" startPosition="0" endLine="26" endPosition="0" />
-    <scopeInfo nodeId="634907465121461799" fileName="AccessArbitraryChildrenOperation.java" startLine="26" startPosition="0" endLine="30" endPosition="0" />
-    <scopeInfo nodeId="634907465121461799" fileName="AccessArbitraryChildrenOperation.java" startLine="30" startPosition="0" endLine="34" endPosition="0" />
+    <scopeInfo nodeId="634907465121461799" fileName="AccessArbitraryChildrenOperation.java" startLine="22" startPosition="0" endLine="26" endPosition="0">
+      <varInfo nodeId="634907465121461799" varName="node" />
+    </scopeInfo>
+    <scopeInfo nodeId="634907465121461799" fileName="AccessArbitraryChildrenOperation.java" startLine="26" startPosition="0" endLine="30" endPosition="0">
+      <varInfo nodeId="634907465121461799" varName="init" />
+      <varInfo nodeId="634907465121461799" varName="sm" />
+    </scopeInfo>
+    <scopeInfo nodeId="634907465121461799" fileName="AccessArbitraryChildrenOperation.java" startLine="30" startPosition="0" endLine="34" endPosition="0">
+      <varInfo nodeId="634907465121461799" varName="sm" />
+    </scopeInfo>
     <unitInfo nodeId="634907465121461799" fileName="AccessArbitraryChildrenOperation.java" startLine="11" startPosition="0" endLine="35" endPosition="0" unitName="jetbrains.mps.xmlQuery.structure.AccessArbitraryChildrenOperation" />
   </root>
   <root nodeId="634907465121463881">
@@ -872,11 +1141,20 @@
     <scopeInfo nodeId="634907465121463881" fileName="AccessArbitraryAttributeOperation.java" startLine="23" startPosition="59" endLine="24" endPosition="86" />
     <scopeInfo nodeId="634907465121463881" fileName="AccessArbitraryAttributeOperation.java" startLine="27" startPosition="88" endLine="28" endPosition="212" />
     <scopeInfo nodeId="634907465121463881" fileName="AccessArbitraryAttributeOperation.java" startLine="31" startPosition="74" endLine="32" endPosition="68" />
-    <scopeInfo nodeId="634907465121463881" fileName="AccessArbitraryAttributeOperation.java" startLine="14" startPosition="0" endLine="17" endPosition="3" />
+    <scopeInfo nodeId="634907465121463881" fileName="AccessArbitraryAttributeOperation.java" startLine="14" startPosition="0" endLine="17" endPosition="3">
+      <varInfo nodeId="634907465121463881" varName="node" />
+    </scopeInfo>
     <scopeInfo nodeId="634907465121463881" fileName="AccessArbitraryAttributeOperation.java" startLine="18" startPosition="0" endLine="22" endPosition="0" />
-    <scopeInfo nodeId="634907465121463881" fileName="AccessArbitraryAttributeOperation.java" startLine="22" startPosition="0" endLine="26" endPosition="0" />
-    <scopeInfo nodeId="634907465121463881" fileName="AccessArbitraryAttributeOperation.java" startLine="26" startPosition="0" endLine="30" endPosition="0" />
-    <scopeInfo nodeId="634907465121463881" fileName="AccessArbitraryAttributeOperation.java" startLine="30" startPosition="0" endLine="34" endPosition="0" />
+    <scopeInfo nodeId="634907465121463881" fileName="AccessArbitraryAttributeOperation.java" startLine="22" startPosition="0" endLine="26" endPosition="0">
+      <varInfo nodeId="634907465121463881" varName="node" />
+    </scopeInfo>
+    <scopeInfo nodeId="634907465121463881" fileName="AccessArbitraryAttributeOperation.java" startLine="26" startPosition="0" endLine="30" endPosition="0">
+      <varInfo nodeId="634907465121463881" varName="init" />
+      <varInfo nodeId="634907465121463881" varName="sm" />
+    </scopeInfo>
+    <scopeInfo nodeId="634907465121463881" fileName="AccessArbitraryAttributeOperation.java" startLine="30" startPosition="0" endLine="34" endPosition="0">
+      <varInfo nodeId="634907465121463881" varName="sm" />
+    </scopeInfo>
     <unitInfo nodeId="634907465121463881" fileName="AccessArbitraryAttributeOperation.java" startLine="11" startPosition="0" endLine="35" endPosition="0" unitName="jetbrains.mps.xmlQuery.structure.AccessArbitraryAttributeOperation" />
   </root>
   <root nodeId="7225751495667376018">
@@ -904,13 +1182,24 @@
     <scopeInfo nodeId="7225751495667376018" fileName="AttributeBuilder.java" startLine="34" startPosition="41" endLine="35" endPosition="49" />
     <scopeInfo nodeId="7225751495667376018" fileName="AttributeBuilder.java" startLine="38" startPosition="71" endLine="39" endPosition="178" />
     <scopeInfo nodeId="7225751495667376018" fileName="AttributeBuilder.java" startLine="42" startPosition="57" endLine="43" endPosition="51" />
-    <scopeInfo nodeId="7225751495667376018" fileName="AttributeBuilder.java" startLine="17" startPosition="0" endLine="20" endPosition="3" />
+    <scopeInfo nodeId="7225751495667376018" fileName="AttributeBuilder.java" startLine="17" startPosition="0" endLine="20" endPosition="3">
+      <varInfo nodeId="7225751495667376018" varName="node" />
+    </scopeInfo>
     <scopeInfo nodeId="7225751495667376018" fileName="AttributeBuilder.java" startLine="21" startPosition="0" endLine="25" endPosition="0" />
-    <scopeInfo nodeId="7225751495667376018" fileName="AttributeBuilder.java" startLine="25" startPosition="0" endLine="29" endPosition="0" />
+    <scopeInfo nodeId="7225751495667376018" fileName="AttributeBuilder.java" startLine="25" startPosition="0" endLine="29" endPosition="0">
+      <varInfo nodeId="7225751495667376018" varName="node" />
+    </scopeInfo>
     <scopeInfo nodeId="7225751495667376018" fileName="AttributeBuilder.java" startLine="29" startPosition="0" endLine="33" endPosition="0" />
-    <scopeInfo nodeId="7225751495667376018" fileName="AttributeBuilder.java" startLine="33" startPosition="0" endLine="37" endPosition="0" />
-    <scopeInfo nodeId="7225751495667376018" fileName="AttributeBuilder.java" startLine="37" startPosition="0" endLine="41" endPosition="0" />
-    <scopeInfo nodeId="7225751495667376018" fileName="AttributeBuilder.java" startLine="41" startPosition="0" endLine="45" endPosition="0" />
+    <scopeInfo nodeId="7225751495667376018" fileName="AttributeBuilder.java" startLine="33" startPosition="0" endLine="37" endPosition="0">
+      <varInfo nodeId="7225751495667376018" varName="node" />
+    </scopeInfo>
+    <scopeInfo nodeId="7225751495667376018" fileName="AttributeBuilder.java" startLine="37" startPosition="0" endLine="41" endPosition="0">
+      <varInfo nodeId="7225751495667376018" varName="init" />
+      <varInfo nodeId="7225751495667376018" varName="sm" />
+    </scopeInfo>
+    <scopeInfo nodeId="7225751495667376018" fileName="AttributeBuilder.java" startLine="41" startPosition="0" endLine="45" endPosition="0">
+      <varInfo nodeId="7225751495667376018" varName="sm" />
+    </scopeInfo>
     <unitInfo nodeId="7225751495667376018" fileName="AttributeBuilder.java" startLine="13" startPosition="0" endLine="46" endPosition="0" unitName="jetbrains.mps.xmlQuery.structure.AttributeBuilder" />
   </root>
   <root nodeId="7459083455229529757">
@@ -924,9 +1213,16 @@
     <scopeInfo nodeId="7459083455229529757" fileName="XMLSAXLocatorExpression.java" startLine="14" startPosition="46" endLine="15" endPosition="16" />
     <scopeInfo nodeId="7459083455229529757" fileName="XMLSAXLocatorExpression.java" startLine="18" startPosition="78" endLine="19" endPosition="192" />
     <scopeInfo nodeId="7459083455229529757" fileName="XMLSAXLocatorExpression.java" startLine="22" startPosition="64" endLine="23" endPosition="58" />
-    <scopeInfo nodeId="7459083455229529757" fileName="XMLSAXLocatorExpression.java" startLine="13" startPosition="0" endLine="16" endPosition="3" />
-    <scopeInfo nodeId="7459083455229529757" fileName="XMLSAXLocatorExpression.java" startLine="17" startPosition="0" endLine="21" endPosition="0" />
-    <scopeInfo nodeId="7459083455229529757" fileName="XMLSAXLocatorExpression.java" startLine="21" startPosition="0" endLine="25" endPosition="0" />
+    <scopeInfo nodeId="7459083455229529757" fileName="XMLSAXLocatorExpression.java" startLine="13" startPosition="0" endLine="16" endPosition="3">
+      <varInfo nodeId="7459083455229529757" varName="node" />
+    </scopeInfo>
+    <scopeInfo nodeId="7459083455229529757" fileName="XMLSAXLocatorExpression.java" startLine="17" startPosition="0" endLine="21" endPosition="0">
+      <varInfo nodeId="7459083455229529757" varName="init" />
+      <varInfo nodeId="7459083455229529757" varName="sm" />
+    </scopeInfo>
+    <scopeInfo nodeId="7459083455229529757" fileName="XMLSAXLocatorExpression.java" startLine="21" startPosition="0" endLine="25" endPosition="0">
+      <varInfo nodeId="7459083455229529757" varName="sm" />
+    </scopeInfo>
     <unitInfo nodeId="7459083455229529757" fileName="XMLSAXLocatorExpression.java" startLine="11" startPosition="0" endLine="26" endPosition="0" unitName="jetbrains.mps.xmlQuery.structure.XMLSAXLocatorExpression" />
   </root>
   <root nodeId="7707758858785994411">
@@ -991,24 +1287,46 @@
     <scopeInfo nodeId="7707758858785994411" fileName="XMLSAXFieldDeclaration.java" startLine="85" startPosition="69" endLine="86" endPosition="74" />
     <scopeInfo nodeId="7707758858785994411" fileName="XMLSAXFieldDeclaration.java" startLine="89" startPosition="77" endLine="90" endPosition="190" />
     <scopeInfo nodeId="7707758858785994411" fileName="XMLSAXFieldDeclaration.java" startLine="93" startPosition="63" endLine="94" endPosition="57" />
-    <scopeInfo nodeId="7707758858785994411" fileName="XMLSAXFieldDeclaration.java" startLine="24" startPosition="0" endLine="27" endPosition="3" />
+    <scopeInfo nodeId="7707758858785994411" fileName="XMLSAXFieldDeclaration.java" startLine="24" startPosition="0" endLine="27" endPosition="3">
+      <varInfo nodeId="7707758858785994411" varName="node" />
+    </scopeInfo>
     <scopeInfo nodeId="7707758858785994411" fileName="XMLSAXFieldDeclaration.java" startLine="28" startPosition="0" endLine="32" endPosition="0" />
-    <scopeInfo nodeId="7707758858785994411" fileName="XMLSAXFieldDeclaration.java" startLine="32" startPosition="0" endLine="36" endPosition="0" />
+    <scopeInfo nodeId="7707758858785994411" fileName="XMLSAXFieldDeclaration.java" startLine="32" startPosition="0" endLine="36" endPosition="0">
+      <varInfo nodeId="7707758858785994411" varName="value" />
+    </scopeInfo>
     <scopeInfo nodeId="7707758858785994411" fileName="XMLSAXFieldDeclaration.java" startLine="36" startPosition="0" endLine="40" endPosition="0" />
-    <scopeInfo nodeId="7707758858785994411" fileName="XMLSAXFieldDeclaration.java" startLine="40" startPosition="0" endLine="44" endPosition="0" />
+    <scopeInfo nodeId="7707758858785994411" fileName="XMLSAXFieldDeclaration.java" startLine="40" startPosition="0" endLine="44" endPosition="0">
+      <varInfo nodeId="7707758858785994411" varName="value" />
+    </scopeInfo>
     <scopeInfo nodeId="7707758858785994411" fileName="XMLSAXFieldDeclaration.java" startLine="44" startPosition="0" endLine="48" endPosition="0" />
-    <scopeInfo nodeId="7707758858785994411" fileName="XMLSAXFieldDeclaration.java" startLine="48" startPosition="0" endLine="52" endPosition="0" />
+    <scopeInfo nodeId="7707758858785994411" fileName="XMLSAXFieldDeclaration.java" startLine="48" startPosition="0" endLine="52" endPosition="0">
+      <varInfo nodeId="7707758858785994411" varName="value" />
+    </scopeInfo>
     <scopeInfo nodeId="7707758858785994411" fileName="XMLSAXFieldDeclaration.java" startLine="52" startPosition="0" endLine="56" endPosition="0" />
-    <scopeInfo nodeId="7707758858785994411" fileName="XMLSAXFieldDeclaration.java" startLine="56" startPosition="0" endLine="60" endPosition="0" />
+    <scopeInfo nodeId="7707758858785994411" fileName="XMLSAXFieldDeclaration.java" startLine="56" startPosition="0" endLine="60" endPosition="0">
+      <varInfo nodeId="7707758858785994411" varName="value" />
+    </scopeInfo>
     <scopeInfo nodeId="7707758858785994411" fileName="XMLSAXFieldDeclaration.java" startLine="60" startPosition="0" endLine="64" endPosition="0" />
-    <scopeInfo nodeId="7707758858785994411" fileName="XMLSAXFieldDeclaration.java" startLine="64" startPosition="0" endLine="68" endPosition="0" />
+    <scopeInfo nodeId="7707758858785994411" fileName="XMLSAXFieldDeclaration.java" startLine="64" startPosition="0" endLine="68" endPosition="0">
+      <varInfo nodeId="7707758858785994411" varName="node" />
+    </scopeInfo>
     <scopeInfo nodeId="7707758858785994411" fileName="XMLSAXFieldDeclaration.java" startLine="68" startPosition="0" endLine="72" endPosition="0" />
     <scopeInfo nodeId="7707758858785994411" fileName="XMLSAXFieldDeclaration.java" startLine="72" startPosition="0" endLine="76" endPosition="0" />
     <scopeInfo nodeId="7707758858785994411" fileName="XMLSAXFieldDeclaration.java" startLine="76" startPosition="0" endLine="80" endPosition="0" />
-    <scopeInfo nodeId="7707758858785994411" fileName="XMLSAXFieldDeclaration.java" startLine="80" startPosition="0" endLine="84" endPosition="0" />
-    <scopeInfo nodeId="7707758858785994411" fileName="XMLSAXFieldDeclaration.java" startLine="84" startPosition="0" endLine="88" endPosition="0" />
-    <scopeInfo nodeId="7707758858785994411" fileName="XMLSAXFieldDeclaration.java" startLine="88" startPosition="0" endLine="92" endPosition="0" />
-    <scopeInfo nodeId="7707758858785994411" fileName="XMLSAXFieldDeclaration.java" startLine="92" startPosition="0" endLine="96" endPosition="0" />
+    <scopeInfo nodeId="7707758858785994411" fileName="XMLSAXFieldDeclaration.java" startLine="80" startPosition="0" endLine="84" endPosition="0">
+      <varInfo nodeId="7707758858785994411" varName="node" />
+    </scopeInfo>
+    <scopeInfo nodeId="7707758858785994411" fileName="XMLSAXFieldDeclaration.java" startLine="84" startPosition="0" endLine="88" endPosition="0">
+      <varInfo nodeId="7707758858785994411" varName="node" />
+      <varInfo nodeId="7707758858785994411" varName="prev" />
+    </scopeInfo>
+    <scopeInfo nodeId="7707758858785994411" fileName="XMLSAXFieldDeclaration.java" startLine="88" startPosition="0" endLine="92" endPosition="0">
+      <varInfo nodeId="7707758858785994411" varName="init" />
+      <varInfo nodeId="7707758858785994411" varName="sm" />
+    </scopeInfo>
+    <scopeInfo nodeId="7707758858785994411" fileName="XMLSAXFieldDeclaration.java" startLine="92" startPosition="0" endLine="96" endPosition="0">
+      <varInfo nodeId="7707758858785994411" varName="sm" />
+    </scopeInfo>
     <unitInfo nodeId="7707758858785994411" fileName="XMLSAXFieldDeclaration.java" startLine="16" startPosition="0" endLine="97" endPosition="0" unitName="jetbrains.mps.xmlQuery.structure.XMLSAXFieldDeclaration" />
   </root>
   <root nodeId="7707758858785994426">
@@ -1029,11 +1347,20 @@
     <scopeInfo nodeId="7707758858785994426" fileName="XMLSAXFieldReference.java" startLine="23" startPosition="59" endLine="24" endPosition="62" />
     <scopeInfo nodeId="7707758858785994426" fileName="XMLSAXFieldReference.java" startLine="27" startPosition="75" endLine="28" endPosition="186" />
     <scopeInfo nodeId="7707758858785994426" fileName="XMLSAXFieldReference.java" startLine="31" startPosition="61" endLine="32" endPosition="55" />
-    <scopeInfo nodeId="7707758858785994426" fileName="XMLSAXFieldReference.java" startLine="14" startPosition="0" endLine="17" endPosition="3" />
+    <scopeInfo nodeId="7707758858785994426" fileName="XMLSAXFieldReference.java" startLine="14" startPosition="0" endLine="17" endPosition="3">
+      <varInfo nodeId="7707758858785994426" varName="node" />
+    </scopeInfo>
     <scopeInfo nodeId="7707758858785994426" fileName="XMLSAXFieldReference.java" startLine="18" startPosition="0" endLine="22" endPosition="0" />
-    <scopeInfo nodeId="7707758858785994426" fileName="XMLSAXFieldReference.java" startLine="22" startPosition="0" endLine="26" endPosition="0" />
-    <scopeInfo nodeId="7707758858785994426" fileName="XMLSAXFieldReference.java" startLine="26" startPosition="0" endLine="30" endPosition="0" />
-    <scopeInfo nodeId="7707758858785994426" fileName="XMLSAXFieldReference.java" startLine="30" startPosition="0" endLine="34" endPosition="0" />
+    <scopeInfo nodeId="7707758858785994426" fileName="XMLSAXFieldReference.java" startLine="22" startPosition="0" endLine="26" endPosition="0">
+      <varInfo nodeId="7707758858785994426" varName="node" />
+    </scopeInfo>
+    <scopeInfo nodeId="7707758858785994426" fileName="XMLSAXFieldReference.java" startLine="26" startPosition="0" endLine="30" endPosition="0">
+      <varInfo nodeId="7707758858785994426" varName="init" />
+      <varInfo nodeId="7707758858785994426" varName="sm" />
+    </scopeInfo>
+    <scopeInfo nodeId="7707758858785994426" fileName="XMLSAXFieldReference.java" startLine="30" startPosition="0" endLine="34" endPosition="0">
+      <varInfo nodeId="7707758858785994426" varName="sm" />
+    </scopeInfo>
     <unitInfo nodeId="7707758858785994426" fileName="XMLSAXFieldReference.java" startLine="11" startPosition="0" endLine="35" endPosition="0" unitName="jetbrains.mps.xmlQuery.structure.XMLSAXFieldReference" />
   </root>
   <root nodeId="8640335038346803749">
@@ -1075,17 +1402,32 @@
     <scopeInfo nodeId="8640335038346803749" fileName="XMLSAXChildRule.java" startLine="50" startPosition="51" endLine="51" endPosition="50" />
     <scopeInfo nodeId="8640335038346803749" fileName="XMLSAXChildRule.java" startLine="54" startPosition="70" endLine="55" endPosition="176" />
     <scopeInfo nodeId="8640335038346803749" fileName="XMLSAXChildRule.java" startLine="58" startPosition="56" endLine="59" endPosition="50" />
-    <scopeInfo nodeId="8640335038346803749" fileName="XMLSAXChildRule.java" startLine="17" startPosition="0" endLine="20" endPosition="3" />
+    <scopeInfo nodeId="8640335038346803749" fileName="XMLSAXChildRule.java" startLine="17" startPosition="0" endLine="20" endPosition="3">
+      <varInfo nodeId="8640335038346803749" varName="node" />
+    </scopeInfo>
     <scopeInfo nodeId="8640335038346803749" fileName="XMLSAXChildRule.java" startLine="21" startPosition="0" endLine="25" endPosition="0" />
-    <scopeInfo nodeId="8640335038346803749" fileName="XMLSAXChildRule.java" startLine="25" startPosition="0" endLine="29" endPosition="0" />
+    <scopeInfo nodeId="8640335038346803749" fileName="XMLSAXChildRule.java" startLine="25" startPosition="0" endLine="29" endPosition="0">
+      <varInfo nodeId="8640335038346803749" varName="value" />
+    </scopeInfo>
     <scopeInfo nodeId="8640335038346803749" fileName="XMLSAXChildRule.java" startLine="29" startPosition="0" endLine="33" endPosition="0" />
-    <scopeInfo nodeId="8640335038346803749" fileName="XMLSAXChildRule.java" startLine="33" startPosition="0" endLine="37" endPosition="0" />
+    <scopeInfo nodeId="8640335038346803749" fileName="XMLSAXChildRule.java" startLine="33" startPosition="0" endLine="37" endPosition="0">
+      <varInfo nodeId="8640335038346803749" varName="value" />
+    </scopeInfo>
     <scopeInfo nodeId="8640335038346803749" fileName="XMLSAXChildRule.java" startLine="37" startPosition="0" endLine="41" endPosition="0" />
-    <scopeInfo nodeId="8640335038346803749" fileName="XMLSAXChildRule.java" startLine="41" startPosition="0" endLine="45" endPosition="0" />
+    <scopeInfo nodeId="8640335038346803749" fileName="XMLSAXChildRule.java" startLine="41" startPosition="0" endLine="45" endPosition="0">
+      <varInfo nodeId="8640335038346803749" varName="node" />
+    </scopeInfo>
     <scopeInfo nodeId="8640335038346803749" fileName="XMLSAXChildRule.java" startLine="45" startPosition="0" endLine="49" endPosition="0" />
-    <scopeInfo nodeId="8640335038346803749" fileName="XMLSAXChildRule.java" startLine="49" startPosition="0" endLine="53" endPosition="0" />
-    <scopeInfo nodeId="8640335038346803749" fileName="XMLSAXChildRule.java" startLine="53" startPosition="0" endLine="57" endPosition="0" />
-    <scopeInfo nodeId="8640335038346803749" fileName="XMLSAXChildRule.java" startLine="57" startPosition="0" endLine="61" endPosition="0" />
+    <scopeInfo nodeId="8640335038346803749" fileName="XMLSAXChildRule.java" startLine="49" startPosition="0" endLine="53" endPosition="0">
+      <varInfo nodeId="8640335038346803749" varName="node" />
+    </scopeInfo>
+    <scopeInfo nodeId="8640335038346803749" fileName="XMLSAXChildRule.java" startLine="53" startPosition="0" endLine="57" endPosition="0">
+      <varInfo nodeId="8640335038346803749" varName="init" />
+      <varInfo nodeId="8640335038346803749" varName="sm" />
+    </scopeInfo>
+    <scopeInfo nodeId="8640335038346803749" fileName="XMLSAXChildRule.java" startLine="57" startPosition="0" endLine="61" endPosition="0">
+      <varInfo nodeId="8640335038346803749" varName="sm" />
+    </scopeInfo>
     <unitInfo nodeId="8640335038346803749" fileName="XMLSAXChildRule.java" startLine="11" startPosition="0" endLine="62" endPosition="0" unitName="jetbrains.mps.xmlQuery.structure.XMLSAXChildRule" />
   </root>
   <root nodeId="8640335038346803750">
@@ -1099,9 +1441,16 @@
     <scopeInfo nodeId="8640335038346803750" fileName="XMLSAXChildHandler.java" startLine="13" startPosition="41" endLine="14" endPosition="16" />
     <scopeInfo nodeId="8640335038346803750" fileName="XMLSAXChildHandler.java" startLine="17" startPosition="73" endLine="18" endPosition="182" />
     <scopeInfo nodeId="8640335038346803750" fileName="XMLSAXChildHandler.java" startLine="21" startPosition="59" endLine="22" endPosition="53" />
-    <scopeInfo nodeId="8640335038346803750" fileName="XMLSAXChildHandler.java" startLine="12" startPosition="0" endLine="15" endPosition="3" />
-    <scopeInfo nodeId="8640335038346803750" fileName="XMLSAXChildHandler.java" startLine="16" startPosition="0" endLine="20" endPosition="0" />
-    <scopeInfo nodeId="8640335038346803750" fileName="XMLSAXChildHandler.java" startLine="20" startPosition="0" endLine="24" endPosition="0" />
+    <scopeInfo nodeId="8640335038346803750" fileName="XMLSAXChildHandler.java" startLine="12" startPosition="0" endLine="15" endPosition="3">
+      <varInfo nodeId="8640335038346803750" varName="node" />
+    </scopeInfo>
+    <scopeInfo nodeId="8640335038346803750" fileName="XMLSAXChildHandler.java" startLine="16" startPosition="0" endLine="20" endPosition="0">
+      <varInfo nodeId="8640335038346803750" varName="init" />
+      <varInfo nodeId="8640335038346803750" varName="sm" />
+    </scopeInfo>
+    <scopeInfo nodeId="8640335038346803750" fileName="XMLSAXChildHandler.java" startLine="20" startPosition="0" endLine="24" endPosition="0">
+      <varInfo nodeId="8640335038346803750" varName="sm" />
+    </scopeInfo>
     <unitInfo nodeId="8640335038346803750" fileName="XMLSAXChildHandler.java" startLine="10" startPosition="0" endLine="25" endPosition="0" unitName="jetbrains.mps.xmlQuery.structure.XMLSAXChildHandler" />
   </root>
   <root nodeId="8640335038346803753">
@@ -1115,9 +1464,16 @@
     <scopeInfo nodeId="8640335038346803753" fileName="XMLSAXChildHandler_childObject.java" startLine="14" startPosition="53" endLine="15" endPosition="16" />
     <scopeInfo nodeId="8640335038346803753" fileName="XMLSAXChildHandler_childObject.java" startLine="18" startPosition="85" endLine="19" endPosition="206" />
     <scopeInfo nodeId="8640335038346803753" fileName="XMLSAXChildHandler_childObject.java" startLine="22" startPosition="71" endLine="23" endPosition="65" />
-    <scopeInfo nodeId="8640335038346803753" fileName="XMLSAXChildHandler_childObject.java" startLine="13" startPosition="0" endLine="16" endPosition="3" />
-    <scopeInfo nodeId="8640335038346803753" fileName="XMLSAXChildHandler_childObject.java" startLine="17" startPosition="0" endLine="21" endPosition="0" />
-    <scopeInfo nodeId="8640335038346803753" fileName="XMLSAXChildHandler_childObject.java" startLine="21" startPosition="0" endLine="25" endPosition="0" />
+    <scopeInfo nodeId="8640335038346803753" fileName="XMLSAXChildHandler_childObject.java" startLine="13" startPosition="0" endLine="16" endPosition="3">
+      <varInfo nodeId="8640335038346803753" varName="node" />
+    </scopeInfo>
+    <scopeInfo nodeId="8640335038346803753" fileName="XMLSAXChildHandler_childObject.java" startLine="17" startPosition="0" endLine="21" endPosition="0">
+      <varInfo nodeId="8640335038346803753" varName="init" />
+      <varInfo nodeId="8640335038346803753" varName="sm" />
+    </scopeInfo>
+    <scopeInfo nodeId="8640335038346803753" fileName="XMLSAXChildHandler_childObject.java" startLine="21" startPosition="0" endLine="25" endPosition="0">
+      <varInfo nodeId="8640335038346803753" varName="sm" />
+    </scopeInfo>
     <unitInfo nodeId="8640335038346803753" fileName="XMLSAXChildHandler_childObject.java" startLine="11" startPosition="0" endLine="26" endPosition="0" unitName="jetbrains.mps.xmlQuery.structure.XMLSAXChildHandler_childObject" />
   </root>
   <root nodeId="8666712036582994511">
@@ -1138,11 +1494,20 @@
     <scopeInfo nodeId="8666712036582994511" fileName="XMLSAXBreakStatement.java" startLine="24" startPosition="42" endLine="25" endPosition="54" />
     <scopeInfo nodeId="8666712036582994511" fileName="XMLSAXBreakStatement.java" startLine="28" startPosition="75" endLine="29" endPosition="186" />
     <scopeInfo nodeId="8666712036582994511" fileName="XMLSAXBreakStatement.java" startLine="32" startPosition="61" endLine="33" endPosition="55" />
-    <scopeInfo nodeId="8666712036582994511" fileName="XMLSAXBreakStatement.java" startLine="15" startPosition="0" endLine="18" endPosition="3" />
+    <scopeInfo nodeId="8666712036582994511" fileName="XMLSAXBreakStatement.java" startLine="15" startPosition="0" endLine="18" endPosition="3">
+      <varInfo nodeId="8666712036582994511" varName="node" />
+    </scopeInfo>
     <scopeInfo nodeId="8666712036582994511" fileName="XMLSAXBreakStatement.java" startLine="19" startPosition="0" endLine="23" endPosition="0" />
-    <scopeInfo nodeId="8666712036582994511" fileName="XMLSAXBreakStatement.java" startLine="23" startPosition="0" endLine="27" endPosition="0" />
-    <scopeInfo nodeId="8666712036582994511" fileName="XMLSAXBreakStatement.java" startLine="27" startPosition="0" endLine="31" endPosition="0" />
-    <scopeInfo nodeId="8666712036582994511" fileName="XMLSAXBreakStatement.java" startLine="31" startPosition="0" endLine="35" endPosition="0" />
+    <scopeInfo nodeId="8666712036582994511" fileName="XMLSAXBreakStatement.java" startLine="23" startPosition="0" endLine="27" endPosition="0">
+      <varInfo nodeId="8666712036582994511" varName="node" />
+    </scopeInfo>
+    <scopeInfo nodeId="8666712036582994511" fileName="XMLSAXBreakStatement.java" startLine="27" startPosition="0" endLine="31" endPosition="0">
+      <varInfo nodeId="8666712036582994511" varName="init" />
+      <varInfo nodeId="8666712036582994511" varName="sm" />
+    </scopeInfo>
+    <scopeInfo nodeId="8666712036582994511" fileName="XMLSAXBreakStatement.java" startLine="31" startPosition="0" endLine="35" endPosition="0">
+      <varInfo nodeId="8666712036582994511" varName="sm" />
+    </scopeInfo>
     <unitInfo nodeId="8666712036582994511" fileName="XMLSAXBreakStatement.java" startLine="12" startPosition="0" endLine="36" endPosition="0" unitName="jetbrains.mps.xmlQuery.structure.XMLSAXBreakStatement" />
   </root>
 </debugInfo>

@@ -135,46 +135,122 @@
     <scopeInfo nodeId="2059681291147340382" fileName="TestParserHandler.java" startLine="94" startPosition="32" endLine="96" endPosition="5" />
     <scopeInfo nodeId="2059681291147340382" fileName="TestParserHandler.java" startLine="130" startPosition="0" endLine="132" endPosition="5" />
     <scopeInfo nodeId="2059681291147340382" fileName="TestParserHandler.java" startLine="142" startPosition="32" endLine="144" endPosition="15" />
-    <scopeInfo nodeId="2059681291147340382" fileName="TestParserHandler.java" startLine="169" startPosition="86" endLine="171" endPosition="35" />
+    <scopeInfo nodeId="2059681291147340382" fileName="TestParserHandler.java" startLine="169" startPosition="86" endLine="171" endPosition="35">
+      <varInfo nodeId="2059681291147340382" varName="result" />
+    </scopeInfo>
     <scopeInfo nodeId="2059681291147340382" fileName="TestParserHandler.java" startLine="177" startPosition="0" endLine="179" endPosition="5" />
     <scopeInfo nodeId="2059681291147340382" fileName="TestParserHandler.java" startLine="73" startPosition="54" endLine="76" endPosition="7" />
-    <scopeInfo nodeId="2059681291147340382" fileName="TestParserHandler.java" startLine="85" startPosition="54" endLine="88" endPosition="51" />
-    <scopeInfo nodeId="2059681291147340382" fileName="TestParserHandler.java" startLine="101" startPosition="0" endLine="104" endPosition="0" />
-    <scopeInfo nodeId="2059681291147340382" fileName="TestParserHandler.java" startLine="123" startPosition="0" endLine="126" endPosition="0" />
-    <scopeInfo nodeId="2059681291147340382" fileName="TestParserHandler.java" startLine="160" startPosition="36" endLine="163" endPosition="15" />
+    <scopeInfo nodeId="2059681291147340382" fileName="TestParserHandler.java" startLine="85" startPosition="54" endLine="88" endPosition="51">
+      <varInfo nodeId="2059681291147340382" varName="name" />
+      <varInfo nodeId="2059681291147340382" varName="value" />
+    </scopeInfo>
+    <scopeInfo nodeId="2059681291147340382" fileName="TestParserHandler.java" startLine="101" startPosition="0" endLine="104" endPosition="0">
+      <varInfo nodeId="2059681291147340382" varName="name" />
+      <varInfo nodeId="2059681291147340382" varName="resultObject" />
+      <varInfo nodeId="2059681291147340382" varName="value" />
+    </scopeInfo>
+    <scopeInfo nodeId="2059681291147340382" fileName="TestParserHandler.java" startLine="123" startPosition="0" endLine="126" endPosition="0">
+      <varInfo nodeId="2059681291147340382" varName="resultObject" />
+    </scopeInfo>
+    <scopeInfo nodeId="2059681291147340382" fileName="TestParserHandler.java" startLine="160" startPosition="36" endLine="163" endPosition="15">
+      <varInfo nodeId="2059681291147340382" varName="child" />
+    </scopeInfo>
     <scopeInfo nodeId="2059681291147340382" fileName="TestParserHandler.java" startLine="24" startPosition="0" endLine="28" endPosition="0" />
-    <scopeInfo nodeId="2059681291147340382" fileName="TestParserHandler.java" startLine="97" startPosition="0" endLine="101" endPosition="0" />
-    <scopeInfo nodeId="2059681291147340382" fileName="TestParserHandler.java" startLine="104" startPosition="0" endLine="108" endPosition="0" />
-    <scopeInfo nodeId="2059681291147340382" fileName="TestParserHandler.java" startLine="108" startPosition="0" endLine="112" endPosition="0" />
+    <scopeInfo nodeId="2059681291147340382" fileName="TestParserHandler.java" startLine="97" startPosition="0" endLine="101" endPosition="0">
+      <varInfo nodeId="2059681291147340382" varName="attrs" />
+    </scopeInfo>
+    <scopeInfo nodeId="2059681291147340382" fileName="TestParserHandler.java" startLine="104" startPosition="0" endLine="108" endPosition="0">
+      <varInfo nodeId="2059681291147340382" varName="tagName" />
+    </scopeInfo>
+    <scopeInfo nodeId="2059681291147340382" fileName="TestParserHandler.java" startLine="108" startPosition="0" endLine="112" endPosition="0">
+      <varInfo nodeId="2059681291147340382" varName="resultObject" />
+      <varInfo nodeId="2059681291147340382" varName="tagName" />
+      <varInfo nodeId="2059681291147340382" varName="value" />
+    </scopeInfo>
     <scopeInfo nodeId="2059681291147340382" fileName="TestParserHandler.java" startLine="113" startPosition="86" endLine="117" endPosition="64" />
     <scopeInfo nodeId="2059681291147340382" fileName="TestParserHandler.java" startLine="119" startPosition="0" endLine="123" endPosition="0" />
     <scopeInfo nodeId="2059681291147340382" fileName="TestParserHandler.java" startLine="150" startPosition="96" endLine="154" endPosition="40" />
-    <scopeInfo nodeId="2059681291147340382" fileName="TestParserHandler.java" startLine="28" startPosition="0" endLine="33" endPosition="0" />
-    <scopeInfo nodeId="2059681291147340382" fileName="TestParserHandler.java" startLine="72" startPosition="22" endLine="77" endPosition="5" />
-    <scopeInfo nodeId="2059681291147340382" fileName="TestParserHandler.java" startLine="84" startPosition="25" endLine="89" endPosition="5" />
+    <scopeInfo nodeId="2059681291147340382" fileName="TestParserHandler.java" startLine="28" startPosition="0" endLine="33" endPosition="0">
+      <varInfo nodeId="2059681291147340382" varName="locator" />
+    </scopeInfo>
+    <scopeInfo nodeId="2059681291147340382" fileName="TestParserHandler.java" startLine="72" startPosition="22" endLine="77" endPosition="5">
+      <varInfo nodeId="2059681291147340382" varName="attr" />
+    </scopeInfo>
+    <scopeInfo nodeId="2059681291147340382" fileName="TestParserHandler.java" startLine="84" startPosition="25" endLine="89" endPosition="5">
+      <varInfo nodeId="2059681291147340382" varName="i" />
+    </scopeInfo>
     <scopeInfo nodeId="2059681291147340382" fileName="TestParserHandler.java" startLine="133" startPosition="0" endLine="138" endPosition="0" />
     <scopeInfo nodeId="2059681291147340382" fileName="TestParserHandler.java" startLine="49" startPosition="26" endLine="55" endPosition="7" />
-    <scopeInfo nodeId="2059681291147340382" fileName="TestParserHandler.java" startLine="140" startPosition="104" endLine="146" endPosition="55" />
-    <scopeInfo nodeId="2059681291147340382" fileName="TestParserHandler.java" startLine="167" startPosition="0" endLine="173" endPosition="0" />
-    <scopeInfo nodeId="2059681291147340382" fileName="TestParserHandler.java" startLine="35" startPosition="80" endLine="42" endPosition="5" />
-    <scopeInfo nodeId="2059681291147340382" fileName="TestParserHandler.java" startLine="112" startPosition="0" endLine="119" endPosition="0" />
-    <scopeInfo nodeId="2059681291147340382" fileName="TestParserHandler.java" startLine="158" startPosition="103" endLine="165" endPosition="54" />
+    <scopeInfo nodeId="2059681291147340382" fileName="TestParserHandler.java" startLine="140" startPosition="104" endLine="146" endPosition="55">
+      <varInfo nodeId="2059681291147340382" varName="result" />
+    </scopeInfo>
+    <scopeInfo nodeId="2059681291147340382" fileName="TestParserHandler.java" startLine="167" startPosition="0" endLine="173" endPosition="0">
+      <varInfo nodeId="2059681291147340382" varName="resultObject" />
+      <varInfo nodeId="2059681291147340382" varName="value" />
+    </scopeInfo>
+    <scopeInfo nodeId="2059681291147340382" fileName="TestParserHandler.java" startLine="35" startPosition="80" endLine="42" endPosition="5">
+      <varInfo nodeId="2059681291147340382" varName="current" />
+    </scopeInfo>
+    <scopeInfo nodeId="2059681291147340382" fileName="TestParserHandler.java" startLine="112" startPosition="0" endLine="119" endPosition="0">
+      <varInfo nodeId="2059681291147340382" varName="resultObject" />
+      <varInfo nodeId="2059681291147340382" varName="value" />
+    </scopeInfo>
+    <scopeInfo nodeId="2059681291147340382" fileName="TestParserHandler.java" startLine="158" startPosition="103" endLine="165" endPosition="54">
+      <varInfo nodeId="2059681291147340382" varName="result" />
+    </scopeInfo>
     <scopeInfo nodeId="2059681291147340382" fileName="TestParserHandler.java" startLine="182" startPosition="96" endLine="189" endPosition="40" />
-    <scopeInfo nodeId="2059681291147340382" fileName="TestParserHandler.java" startLine="148" startPosition="0" endLine="156" endPosition="0" />
-    <scopeInfo nodeId="2059681291147340382" fileName="TestParserHandler.java" startLine="193" startPosition="103" endLine="201" endPosition="54" />
-    <scopeInfo nodeId="2059681291147340382" fileName="TestParserHandler.java" startLine="46" startPosition="90" endLine="56" endPosition="5" />
-    <scopeInfo nodeId="2059681291147340382" fileName="TestParserHandler.java" startLine="138" startPosition="0" endLine="148" endPosition="0" />
-    <scopeInfo nodeId="2059681291147340382" fileName="TestParserHandler.java" startLine="33" startPosition="0" endLine="44" endPosition="0" />
-    <scopeInfo nodeId="2059681291147340382" fileName="TestParserHandler.java" startLine="156" startPosition="0" endLine="167" endPosition="0" />
-    <scopeInfo nodeId="2059681291147340382" fileName="TestParserHandler.java" startLine="180" startPosition="0" endLine="191" endPosition="0" />
-    <scopeInfo nodeId="2059681291147340382" fileName="TestParserHandler.java" startLine="191" startPosition="0" endLine="203" endPosition="0" />
-    <scopeInfo nodeId="2059681291147340382" fileName="TestParserHandler.java" startLine="44" startPosition="0" endLine="58" endPosition="0" />
-    <scopeInfo nodeId="2059681291147340382" fileName="TestParserHandler.java" startLine="60" startPosition="115" endLine="91" endPosition="26" />
-    <scopeInfo nodeId="2059681291147340382" fileName="TestParserHandler.java" startLine="58" startPosition="0" endLine="93" endPosition="0" />
+    <scopeInfo nodeId="2059681291147340382" fileName="TestParserHandler.java" startLine="148" startPosition="0" endLine="156" endPosition="0">
+      <varInfo nodeId="2059681291147340382" varName="tagName" />
+    </scopeInfo>
+    <scopeInfo nodeId="2059681291147340382" fileName="TestParserHandler.java" startLine="193" startPosition="103" endLine="201" endPosition="54">
+      <varInfo nodeId="2059681291147340382" varName="result" />
+    </scopeInfo>
+    <scopeInfo nodeId="2059681291147340382" fileName="TestParserHandler.java" startLine="46" startPosition="90" endLine="56" endPosition="5">
+      <varInfo nodeId="2059681291147340382" varName="childValue" />
+      <varInfo nodeId="2059681291147340382" varName="current" />
+    </scopeInfo>
+    <scopeInfo nodeId="2059681291147340382" fileName="TestParserHandler.java" startLine="138" startPosition="0" endLine="148" endPosition="0">
+      <varInfo nodeId="2059681291147340382" varName="name" />
+      <varInfo nodeId="2059681291147340382" varName="resultObject" />
+      <varInfo nodeId="2059681291147340382" varName="value" />
+    </scopeInfo>
+    <scopeInfo nodeId="2059681291147340382" fileName="TestParserHandler.java" startLine="33" startPosition="0" endLine="44" endPosition="0">
+      <varInfo nodeId="2059681291147340382" varName="array" />
+      <varInfo nodeId="2059681291147340382" varName="len" />
+      <varInfo nodeId="2059681291147340382" varName="start" />
+    </scopeInfo>
+    <scopeInfo nodeId="2059681291147340382" fileName="TestParserHandler.java" startLine="156" startPosition="0" endLine="167" endPosition="0">
+      <varInfo nodeId="2059681291147340382" varName="resultObject" />
+      <varInfo nodeId="2059681291147340382" varName="tagName" />
+      <varInfo nodeId="2059681291147340382" varName="value" />
+    </scopeInfo>
+    <scopeInfo nodeId="2059681291147340382" fileName="TestParserHandler.java" startLine="180" startPosition="0" endLine="191" endPosition="0">
+      <varInfo nodeId="2059681291147340382" varName="tagName" />
+    </scopeInfo>
+    <scopeInfo nodeId="2059681291147340382" fileName="TestParserHandler.java" startLine="191" startPosition="0" endLine="203" endPosition="0">
+      <varInfo nodeId="2059681291147340382" varName="resultObject" />
+      <varInfo nodeId="2059681291147340382" varName="tagName" />
+      <varInfo nodeId="2059681291147340382" varName="value" />
+    </scopeInfo>
+    <scopeInfo nodeId="2059681291147340382" fileName="TestParserHandler.java" startLine="44" startPosition="0" endLine="58" endPosition="0">
+      <varInfo nodeId="2059681291147340382" varName="localName" />
+      <varInfo nodeId="2059681291147340382" varName="qName" />
+      <varInfo nodeId="2059681291147340382" varName="uri" />
+    </scopeInfo>
+    <scopeInfo nodeId="2059681291147340382" fileName="TestParserHandler.java" startLine="60" startPosition="115" endLine="91" endPosition="26">
+      <varInfo nodeId="2059681291147340382" varName="current" />
+      <varInfo nodeId="2059681291147340382" varName="result" />
+    </scopeInfo>
+    <scopeInfo nodeId="2059681291147340382" fileName="TestParserHandler.java" startLine="58" startPosition="0" endLine="93" endPosition="0">
+      <varInfo nodeId="2059681291147340382" varName="attributes" />
+      <varInfo nodeId="2059681291147340382" varName="localName" />
+      <varInfo nodeId="2059681291147340382" varName="qName" />
+      <varInfo nodeId="2059681291147340382" varName="uri" />
+    </scopeInfo>
+    <unitInfo nodeId="2059681291147340382" fileName="TestParserHandler.java" startLine="12" startPosition="0" endLine="205" endPosition="0" unitName="sax.TestParserHandler" />
     <unitInfo nodeId="2059681291147340382" fileName="TestParserHandler.java" startLine="175" startPosition="0" endLine="204" endPosition="0" unitName="sax.TestParserHandler$ChildElementElementHandler" />
     <unitInfo nodeId="2059681291147340382" fileName="TestParserHandler.java" startLine="94" startPosition="0" endLine="127" endPosition="0" unitName="sax.TestParserHandler$ElementHandler" />
     <unitInfo nodeId="2059681291147340382" fileName="TestParserHandler.java" startLine="128" startPosition="0" endLine="174" endPosition="0" unitName="sax.TestParserHandler$RootElementElementHandler" />
-    <unitInfo nodeId="2059681291147340382" fileName="TestParserHandler.java" startLine="12" startPosition="0" endLine="205" endPosition="0" unitName="sax.TestParserHandler" />
   </root>
   <root nodeId="2059681291147340385">
     <nodeInfo nodeId="2059681291147340391" fileName="AstRoot.java" startLine="7" startPosition="22" endLine="8" endPosition="26" conceptFqName="jetbrains.mps.baseLanguage.structure.FieldDeclaration" propertyString="text" />
@@ -253,8 +329,8 @@
     </scopeInfo>
     <scopeInfo nodeId="2059681291147440634" fileName="testParser_Test.java" startLine="34" startPosition="47" endLine="36" endPosition="18" />
     <scopeInfo nodeId="2059681291147440592" fileName="testParser_Test.java" startLine="26" startPosition="9" endLine="30" endPosition="43">
-      <varInfo nodeId="2059681291147440601" varName="saxParser" />
       <varInfo nodeId="2059681291147443381" varName="handler" />
+      <varInfo nodeId="2059681291147440601" varName="saxParser" />
     </scopeInfo>
     <scopeInfo nodeId="2059681291147434348" fileName="testParser_Test.java" startLine="16" startPosition="49" endLine="22" endPosition="5" />
     <scopeInfo nodeId="2059681291147434345" fileName="testParser_Test.java" startLine="15" startPosition="47" endLine="24" endPosition="0" />
