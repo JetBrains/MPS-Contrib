@@ -122,8 +122,8 @@ public class XmlStyle_StyleSheet {
   public static Style getXmlOperator(final EditorCell cell) {
     Style style = new Style(cell);
     style.set(StyleAttributes.FONT_STYLE, MPSFonts.PLAIN);
-    style.set(StyleAttributes.PADDING_LEFT, new Padding(0.3, Measure.SPACES));
-    style.set(StyleAttributes.PADDING_RIGHT, new Padding(0.3, Measure.SPACES));
+    style.set(StyleAttributes.PUNCTUATION_LEFT, true);
+    style.set(StyleAttributes.PUNCTUATION_RIGHT, true);
     style.set(StyleAttributes.SELECTABLE, false);
     return style;
   }
