@@ -37,13 +37,13 @@
   <import index="to5d" modelUID="f:java_stub#6ed54515-acc8-4d1e-a16c-9fd6cfe951ea#jetbrains.mps.logging(MPS.Core/jetbrains.mps.logging@java_stub)" version="-1" />
   <import index="4ha9" modelUID="f:java_stub#86441d7a-e194-42da-81a5-2161ec62a379#com.intellij.execution.executors(MPS.Workbench/com.intellij.execution.executors@java_stub)" version="-1" />
   <import index="hf1o" modelUID="f:java_stub#86441d7a-e194-42da-81a5-2161ec62a379#jetbrains.mps.plugins.pluginparts.runconfigs(MPS.Workbench/jetbrains.mps.plugins.pluginparts.runconfigs@java_stub)" version="-1" />
-  <import index="mt24" modelUID="f:java_stub#86441d7a-e194-42da-81a5-2161ec62a379#jetbrains.mps.debug(MPS.Workbench/jetbrains.mps.debug@java_stub)" version="-1" />
   <import index="62h0" modelUID="f:java_stub#86441d7a-e194-42da-81a5-2161ec62a379#com.intellij.execution.runners(MPS.Workbench/com.intellij.execution.runners@java_stub)" version="-1" />
   <import index="gaen" modelUID="f:java_stub#86441d7a-e194-42da-81a5-2161ec62a379#com.intellij.execution(MPS.Workbench/com.intellij.execution@java_stub)" version="-1" />
   <import index="vj6h" modelUID="r:b98c22e2-bfcd-40d7-9c1f-9a32895cb7de(jetbrains.mps.execution.configurations.deprecated.plugin@generator)" version="-1" />
   <import index="xk9i" modelUID="r:49e49752-a85e-4d81-811e-1dc850a8e4cd(jetbrains.mps.execution.lib.ui)" version="0" />
   <import index="go48" modelUID="r:fc6b4266-fe93-4e02-bc36-aebff4c903c3(jetbrains.mps.baseLanguage.execution.api)" version="4" />
   <import index="dgv4" modelUID="r:a76f2576-36ee-41c5-a8e6-bb2264ed2331(jetbrains.mps.baseLanguage.execution.api.ui)" version="0" />
+  <import index="wtu" modelUID="r:00f87323-e6a8-42b3-9a91-892d878daf8f(jetbrains.mps.debug)" version="0" />
   <import index="tp2c" modelUID="r:00000000-0000-4000-0000-011c89590338(jetbrains.mps.baseLanguage.closures.structure)" version="3" implicit="yes" />
   <import index="tpck" modelUID="r:00000000-0000-4000-0000-011c89590288(jetbrains.mps.lang.core.structure)" version="0" implicit="yes" />
   <import index="tpcw" modelUID="r:00000000-0000-4000-0000-011c895902bc(jetbrains.mps.lang.sharedConcepts.structure)" version="0" implicit="yes" />
@@ -680,8 +680,8 @@
                     <node role="type" roleId="tpee.5680397130376446158" type="tpee.StringType" typeId="tpee.1225271177708" id="3405970486215439959" />
                     <node role="initializer" roleId="tpee.1068431790190" type="11eb.GetUserDataExpression" typeId="11eb.314981645426569264" id="3405970486215439960">
                       <node role="argument" roleId="11eb.314981645426569266" type="tpee.StaticFieldReference" typeId="tpee.1070533707846" id="3405970486215439961">
-                        <link role="classifier" roleId="tpee.1144433057691" targetNodeId="mt24.~DebuggerKeys" resolveInfo="DebuggerKeys" />
-                        <link role="variableDeclaration" roleId="tpee.1068581517664" targetNodeId="mt24.~DebuggerKeys%dCONNECTION_SETTINGS" resolveInfo="CONNECTION_SETTINGS" />
+                        <link role="classifier" roleId="tpee.1144433057691" targetNodeId="wtu.3432969378036017734" resolveInfo="DebuggerKeys" />
+                        <link role="variableDeclaration" roleId="tpee.1068581517664" targetNodeId="wtu.3432969378036017736" resolveInfo="CONNECTION_SETTINGS" />
                       </node>
                     </node>
                   </node>
@@ -2138,7 +2138,7 @@
   <root id="664608570000532559">
     <node role="contentNode" roleId="tpf8.1092060348987" type="11eb.JavaRunConfiguration" typeId="11eb.655818460756091959" id="664608570000532560">
       <property name="name" nameId="tpck.1169194664001" value="JavaNodeRunConfiguration" />
-      <link role="stateTypeParameter" roleId="11eb.314981645426569353" targetNodeId="mt24.~BaseRunProfileState" resolveInfo="BaseRunProfileState" />
+      <link role="stateTypeParameter" roleId="11eb.314981645426569353" targetNodeId="wtu.251277163127780701" resolveInfo="BaseRunProfileState" />
       <node role="property" roleId="11eb.314981645426569356" type="tp4k.PersistentPropertyDeclaration" typeId="tp4k.1210179190070" id="664608570000532561">
         <property name="name" nameId="tpck.1169194664001" value="nodeId" />
         <node role="type" roleId="tpee.5680397130376446158" type="tpee.StringType" typeId="tpee.1225271177708" id="664608570000532562" />
