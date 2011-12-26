@@ -6,7 +6,7 @@
       <module fileurl="file://$PROJECT_DIR$/MPS-platform.iml" filepath="$PROJECT_DIR$/MPS-platform.iml" />
       <module fileurl="file://$PROJECT_DIR$/MPSPlugin/MPSSupport.iml" filepath="$PROJECT_DIR$/MPSPlugin/MPSSupport.iml" />
       <module fileurl="file://$PROJECT_DIR$/core/baseLanguage/tuples/runtime/Tuples-runtime.iml" filepath="$PROJECT_DIR$/core/baseLanguage/tuples/runtime/Tuples-runtime.iml" group="languages" />
-      <module fileurl="file://$PROJECT_DIR$/core/actions-runtime/actions-runtime.iml" filepath="$PROJECT_DIR$/core/actions-runtime/actions-runtime.iml" group="editor" />
+      <module fileurl="file://$PROJECT_DIR$/editor/actions-runtime/actions-runtime.iml" filepath="$PROJECT_DIR$/editor/actions-runtime/actions-runtime.iml" group="editor" />
       <module fileurl="file://$PROJECT_DIR$/core/analyzers/analyzers.iml" filepath="$PROJECT_DIR$/core/analyzers/analyzers.iml" group="core" />
       <module fileurl="file://$PROJECT_DIR$/languages/util/buildlanguage/ant/ant.iml" filepath="$PROJECT_DIR$/languages/util/buildlanguage/ant/ant.iml" group="languages" />
       <module fileurl="file://$PROJECT_DIR$/core/baseLanguage/baseLanguage/solutions/jetbrains.mps.baseLanguage.search/baseLanguage-search.iml" filepath="$PROJECT_DIR$/core/baseLanguage/baseLanguage/solutions/jetbrains.mps.baseLanguage.search/baseLanguage-search.iml" group="languages" />
@@ -20,24 +20,22 @@
       <module fileurl="file://$PROJECT_DIR$/plugins/debugger-java/debugger-java.iml" filepath="$PROJECT_DIR$/plugins/debugger-java/debugger-java.iml" group="plugins" />
       <module fileurl="file://$PROJECT_DIR$/languages/util/buildlanguage/languages/distrib/distrib.iml" filepath="$PROJECT_DIR$/languages/util/buildlanguage/languages/distrib/distrib.iml" group="languages" />
       <module fileurl="file://$PROJECT_DIR$/editor/editor-api/editor-api.iml" filepath="$PROJECT_DIR$/editor/editor-api/editor-api.iml" group="editor" />
-      <module fileurl="file://$PROJECT_DIR$/core/editor-runtime/editor-runtime.iml" filepath="$PROJECT_DIR$/core/editor-runtime/editor-runtime.iml" group="editor" />
+      <module fileurl="file://$PROJECT_DIR$/editor/editor-runtime/editor-runtime.iml" filepath="$PROJECT_DIR$/editor/editor-runtime/editor-runtime.iml" group="editor" />
       <module fileurl="file://$PROJECT_DIR$/core/findUsages-runtime/findUsages-runtime.iml" filepath="$PROJECT_DIR$/core/findUsages-runtime/findUsages-runtime.iml" group="core" />
       <module fileurl="file://$PROJECT_DIR$/core/generator/generator-engine.iml" filepath="$PROJECT_DIR$/core/generator/generator-engine.iml" group="core" />
       <module fileurl="file://$PROJECT_DIR$/core/idea-patch/idea-patch.iml" filepath="$PROJECT_DIR$/core/idea-patch/idea-patch.iml" group="workbench" />
       <module fileurl="file://$PROJECT_DIR$/plugins/ideaIntegration/ideaIntegration.iml" filepath="$PROJECT_DIR$/plugins/ideaIntegration/ideaIntegration.iml" group="plugins" />
-      <module fileurl="file://$PROJECT_DIR$/core/intentions-runtime/intentions-runtime.iml" filepath="$PROJECT_DIR$/core/intentions-runtime/intentions-runtime.iml" group="editor" />
+      <module fileurl="file://$PROJECT_DIR$/editor/intentions-runtime/intentions-runtime.iml" filepath="$PROJECT_DIR$/editor/intentions-runtime/intentions-runtime.iml" group="editor" />
       <module fileurl="file://$PROJECT_DIR$/core/kernel/kernel.iml" filepath="$PROJECT_DIR$/core/kernel/kernel.iml" group="core" />
       <module fileurl="file://$PROJECT_DIR$/core/make-runtime/make-runtime.iml" filepath="$PROJECT_DIR$/core/make-runtime/make-runtime.iml" group="core" />
       <module fileurl="file://$PROJECT_DIR$/plugins/migration/migration.iml" filepath="$PROJECT_DIR$/plugins/migration/migration.iml" group="plugins" />
       <module fileurl="file://$PROJECT_DIR$/plugins/migration21/migration21.iml" filepath="$PROJECT_DIR$/plugins/migration21/migration21.iml" />
       <module fileurl="file://$PROJECT_DIR$/testbench/modules/miscTests/miscTests.iml" filepath="$PROJECT_DIR$/testbench/modules/miscTests/miscTests.iml" />
       <module fileurl="file://$PROJECT_DIR$/plugins/modelchecker/modelchecker.iml" filepath="$PROJECT_DIR$/plugins/modelchecker/modelchecker.iml" group="plugins" />
-      <module fileurl="file://$PROJECT_DIR$/core/mps-actions/mps-actions.iml" filepath="$PROJECT_DIR$/core/mps-actions/mps-actions.iml" group="workbench" />
       <module fileurl="file://$PROJECT_DIR$/workbench/mps-editor/mps-editor.iml" filepath="$PROJECT_DIR$/workbench/mps-editor/mps-editor.iml" group="workbench" />
       <module fileurl="file://$PROJECT_DIR$/workbench/mps-platform/mps-platform.iml" filepath="$PROJECT_DIR$/workbench/mps-platform/mps-platform.iml" group="workbench" />
       <module fileurl="file://$PROJECT_DIR$/workbench/mps-workbench/mps-workbench.iml" filepath="$PROJECT_DIR$/workbench/mps-workbench/mps-workbench.iml" group="workbench" />
       <module fileurl="file://$PROJECT_DIR$/plugins/mpsdevkit/mpsdevkit.iml" filepath="$PROJECT_DIR$/plugins/mpsdevkit/mpsdevkit.iml" group="plugins" />
-      <module fileurl="file://$PROJECT_DIR$/plugins/mpseditor/mpseditor.iml" filepath="$PROJECT_DIR$/plugins/mpseditor/mpseditor.iml" group="plugins" />
       <module fileurl="file://$PROJECT_DIR$/plugins/mpsjava/mpsjava.iml" filepath="$PROJECT_DIR$/plugins/mpsjava/mpsjava.iml" group="plugins" />
       <module fileurl="file://$PROJECT_DIR$/plugins/mpsmake/mpsmake.iml" filepath="$PROJECT_DIR$/plugins/mpsmake/mpsmake.iml" group="plugins" />
       <module fileurl="file://$PROJECT_DIR$/core/plugin-runtime/plugin-runtime.iml" filepath="$PROJECT_DIR$/core/plugin-runtime/plugin-runtime.iml" group="workbench" />
