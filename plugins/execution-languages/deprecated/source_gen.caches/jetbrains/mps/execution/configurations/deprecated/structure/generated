@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<dependencies version="2" modelHash="-6hdjwbhuc1j6v7hgfzoo91ddy637y2h">
+<dependencies version="2" modelHash="253oj5h8djvza9fz68if75prywzsuxc">
   <dep model="r:00000000-0000-4000-0000-011c89590288(jetbrains.mps.lang.core.structure)" hash="auc6jui7deer5vkr9v1h1ws94bw74n1" />
   <dep model="r:00000000-0000-4000-0000-011c89590293(jetbrains.mps.lang.structure.generator_new.baseLanguage@generator)" hash="aj3kofqak9dfnww4qcxie9dut9wbbk7" />
   <dep model="r:00000000-0000-4000-0000-011c895902ca(jetbrains.mps.baseLanguage.structure)" hash="-d78hke4r6b9hefsdkynz6vbevip5ltn" />
@@ -14,7 +14,7 @@
   <dep model="r:00000000-0000-4000-0000-011c89590373(jetbrains.mps.baseLanguage.classifiers.structure)" hash="e4jnjguecprk4l1dr6a49h3ppl18pp4" />
   <dep model="r:b4d7d620-6723-4aa2-856b-118497e84e9e(jetbrains.mps.baseLanguage.generator.java.strings@generator)" hash="-7zc5n4l9a9zrjq93znk167hfo3dyd2v" />
   <dep model="r:f04c1476-2f91-4f59-be13-c8e009abebee(jetbrains.mps.baseLanguageInternal.generator.template.main@generator)" hash="3ogbc94405e1j8mrhp8fnrksbak1c2a" />
-  <common hash="-4w0jugrwr75gk5v4zr594bc0fehuhm8" dependsOnNodes="true">
+  <common hash="4vfie6whor5pgmf05fnhpsn0wpwa9i0" dependsOnNodes="true">
     <dep root="1566895476211680658" />
     <dep root="1566895476211680660" />
     <dep root="1810772216404800349" />
@@ -116,7 +116,7 @@
   <source id="655818460756091959" name="JavaRunConfiguration" hash="-87meactqcof5hn5rymcvli2jd5njgd5">
     <dep model="r:00000000-0000-4000-0000-011c89590293(jetbrains.mps.lang.structure.generator_new.baseLanguage@generator)" />
   </source>
-  <source id="4964800443628314809" name="JavaConfigurationRunParameters_FunctionParameter" hash="-5z41i4qh3b6y3gysl8fmasn8s09fi99">
+  <source id="4964800443628314809" name="JavaConfigurationRunParameters_FunctionParameter" hash="dkvmzxbynm5dubgok09isyseaxr1ng6">
     <dep model="r:00000000-0000-4000-0000-011c89590293(jetbrains.mps.lang.structure.generator_new.baseLanguage@generator)" />
   </source>
   <source id="7549816165173144969" name="userComponentReferenceAnnotation" hash="-aff3l8iuzgydivrwdi6nc64beszlk8">

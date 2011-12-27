@@ -4,7 +4,7 @@ package jetbrains.mps.baseLanguage.unitTest.execution.tool;
 
 import jetbrains.mps.baseLanguage.unitTest.execution.client.TestRunState;
 import jetbrains.mps.baseLanguage.unitTest.execution.client.TestEventsDispatcher;
-import jetbrains.mps.baseLanguage.execution.api.ConfigRunParameters;
+import jetbrains.mps.execution.configurations.deprecated.runtime.ConfigRunParameters;
 import java.util.List;
 import jetbrains.mps.baseLanguage.unitTest.execution.client.ITestNodeWrapper;
 import jetbrains.mps.internal.collections.runtime.ListSequence;

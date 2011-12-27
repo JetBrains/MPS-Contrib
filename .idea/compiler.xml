@@ -174,9 +174,9 @@
       <directory url="file://$PROJECT_DIR$/samples/theSimplestLanguage/solutions/jetbrains.mps.samples.theSimplestLanguage.sandbox/source_gen" includeSubdirectories="true" />
       <directory url="file://$PROJECT_DIR$/samples/xmlLiterals/languages/xmlLiterals/source_gen" includeSubdirectories="true" />
       <directory url="file://$PROJECT_DIR$/workbench/ideUiLanguage/source_gen" includeSubdirectories="true" />
-      <directory url="file://$PROJECT_DIR$/plugins/debugger-java-languages/customViewers/source_gen" includeSubdirectories="true" />
-      <directory url="file://$PROJECT_DIR$/plugins/debugger-java-languages/evaluation/source_gen" includeSubdirectories="true" />
-      <directory url="file://$PROJECT_DIR$/plugins/debugger-java-languages/privateMembers/source_gen" includeSubdirectories="true" />
+      <directory url="file://$PROJECT_DIR$/plugins/debugger-java/languages/customViewers/source_gen" includeSubdirectories="true" />
+      <directory url="file://$PROJECT_DIR$/plugins/debugger-java/languages/evaluation/source_gen" includeSubdirectories="true" />
+      <directory url="file://$PROJECT_DIR$/plugins/debugger-java/languages/privateMembers/source_gen" includeSubdirectories="true" />
       <directory url="file://$PROJECT_DIR$/plugins/execution-languages/commands/source_gen" includeSubdirectories="true" />
       <directory url="file://$PROJECT_DIR$/plugins/execution-languages/configurations/source_gen" includeSubdirectories="true" />
     </excludeFromCompile>

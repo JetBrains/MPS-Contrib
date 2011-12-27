@@ -41,9 +41,10 @@
   <import index="gaen" modelUID="f:java_stub#86441d7a-e194-42da-81a5-2161ec62a379#com.intellij.execution(MPS.Workbench/com.intellij.execution@java_stub)" version="-1" />
   <import index="vj6h" modelUID="r:b98c22e2-bfcd-40d7-9c1f-9a32895cb7de(jetbrains.mps.execution.configurations.deprecated.plugin@generator)" version="-1" />
   <import index="xk9i" modelUID="r:49e49752-a85e-4d81-811e-1dc850a8e4cd(jetbrains.mps.execution.lib.ui)" version="0" />
-  <import index="go48" modelUID="r:fc6b4266-fe93-4e02-bc36-aebff4c903c3(jetbrains.mps.baseLanguage.execution.api)" version="4" />
+  <import index="go48" modelUID="r:fc6b4266-fe93-4e02-bc36-aebff4c903c3(jetbrains.mps.baseLanguage.execution.api)" version="5" />
   <import index="dgv4" modelUID="r:a76f2576-36ee-41c5-a8e6-bb2264ed2331(jetbrains.mps.baseLanguage.execution.api.ui)" version="0" />
   <import index="wtu" modelUID="r:00f87323-e6a8-42b3-9a91-892d878daf8f(jetbrains.mps.debug)" version="0" />
+  <import index="9mpx" modelUID="r:68c7815b-65d3-4b04-9110-50fab74211e0(jetbrains.mps.execution.configurations.deprecated.runtime)" version="0" />
   <import index="tp2c" modelUID="r:00000000-0000-4000-0000-011c89590338(jetbrains.mps.baseLanguage.closures.structure)" version="3" implicit="yes" />
   <import index="tpck" modelUID="r:00000000-0000-4000-0000-011c89590288(jetbrains.mps.lang.core.structure)" version="0" implicit="yes" />
   <import index="tpcw" modelUID="r:00000000-0000-4000-0000-011c895902bc(jetbrains.mps.lang.sharedConcepts.structure)" version="0" implicit="yes" />
@@ -68,7 +69,7 @@
       <property name="iconPath" nameId="11eb.314981645426569354" value="${mps_home}/about.txt" />
       <property name="isDebuggable" nameId="11eb.314981645426569370" value="true" />
       <property name="virtualPackage" nameId="tpck.1193676396447" value="java" />
-      <link role="stateTypeParameter" roleId="11eb.314981645426569353" targetNodeId="go48.1240470842553519924" resolveInfo="JavaRunProfileState" />
+      <link role="stateTypeParameter" roleId="11eb.314981645426569353" targetNodeId="9mpx.4631964019510578639" resolveInfo="JavaRunProfileState" />
     </node>
     <node type="tpf8.MappingConfiguration" typeId="tpf8.1095416546421" id="6629582826328981981">
       <property name="name" nameId="tpck.1169194664001" value="main" />
@@ -177,7 +178,7 @@
     <node role="contentNode" roleId="tpf8.1092060348987" type="tp68.InternalVariableReference" typeId="tp68.1176743162354" id="4729163311832394026">
       <property name="name" nameId="tp68.1176743296073" value="javaRunParameters" />
       <node role="type" roleId="tp68.1176743202636" type="tpee.ClassifierType" typeId="tpee.1107535904670" id="4729163311832394028">
-        <link role="classifier" roleId="tpee.1107535924139" targetNodeId="go48.1240470842553417223" resolveInfo="ConfigRunParameters" />
+        <link role="classifier" roleId="tpee.1107535924139" targetNodeId="9mpx.4631964019510578418" resolveInfo="ConfigRunParameters" />
         <node role="smodelAttribute" roleId="tpck.5169995583184591170" type="tpf8.CopySrcNodeMacro" typeId="tpf8.1114706874351" id="1810772216404834498">
           <node role="sourceNodeQuery" roleId="tpf8.1168024447342" type="tpf8.SourceSubstituteMacro_SourceNodeQuery" typeId="tpf8.1168024337012" id="1810772216404834499">
             <node role="body" roleId="tpee.1137022507850" type="tpee.StatementList" typeId="tpee.1068580123136" id="1810772216404834500">
@@ -231,7 +232,7 @@
     <node role="property" roleId="11eb.314981645426569356" type="tp4k.PersistentPropertyDeclaration" typeId="tp4k.1210179190070" id="8126994885493673896">
       <property name="name" nameId="tpck.1169194664001" value="myJavaRunParameters" />
       <node role="type" roleId="tpee.5680397130376446158" type="tpee.ClassifierType" typeId="tpee.1107535904670" id="8375602708582800881">
-        <link role="classifier" roleId="tpee.1107535924139" targetNodeId="go48.1240470842553417223" resolveInfo="ConfigRunParameters" />
+        <link role="classifier" roleId="tpee.1107535924139" targetNodeId="9mpx.4631964019510578418" resolveInfo="ConfigRunParameters" />
       </node>
       <node role="smodelAttribute" roleId="tpck.5169995583184591170" type="tpf8.PropertyMacro" typeId="tpf8.1087833241328" id="8126994885493673899">
         <property name="propertyName" nameId="tpck.1757699476691236117" value="name" />
@@ -250,7 +251,7 @@
       </node>
       <node role="initializer" roleId="tpee.1068431790190" type="tpee.GenericNewExpression" typeId="tpee.1145552977093" id="1905391470718346203">
         <node role="creator" roleId="tpee.1145553007750" type="tpee.ClassCreator" typeId="tpee.1212685548494" id="1905391470718346204">
-          <link role="baseMethodDeclaration" roleId="tpee.1068499141037" targetNodeId="go48.1240470842553417426" resolveInfo="ConfigRunParameters" />
+          <link role="baseMethodDeclaration" roleId="tpee.1068499141037" targetNodeId="9mpx.4631964019510578621" resolveInfo="ConfigRunParameters" />
         </node>
       </node>
     </node>
@@ -318,7 +319,7 @@
               <property name="name" nameId="tpck.1169194664001" value="javaRunParameters" />
               <property name="isFinal" nameId="tpee.1176718929932" value="true" />
               <node role="type" roleId="tpee.5680397130376446158" type="tpee.ClassifierType" typeId="tpee.1107535904670" id="8375602708582800890">
-                <link role="classifier" roleId="tpee.1107535924139" targetNodeId="go48.1240470842553417223" resolveInfo="ConfigRunParameters" />
+                <link role="classifier" roleId="tpee.1107535924139" targetNodeId="9mpx.4631964019510578418" resolveInfo="ConfigRunParameters" />
               </node>
               <node role="initializer" roleId="tpee.1068431790190" type="tpee.DotExpression" typeId="tpee.1197027756228" id="5842104767989368194">
                 <node role="operand" roleId="tpee.1197027771414" type="tp4f.ThisClassifierExpression" typeId="tp4f.1205752633985" id="5842104767989368195" />
@@ -407,7 +408,7 @@
               <property name="name" nameId="tpck.1169194664001" value="javaRunParameters" />
               <property name="isFinal" nameId="tpee.1176718929932" value="true" />
               <node role="type" roleId="tpee.5680397130376446158" type="tpee.ClassifierType" typeId="tpee.1107535904670" id="8375602708582800893">
-                <link role="classifier" roleId="tpee.1107535924139" targetNodeId="go48.1240470842553417223" resolveInfo="ConfigRunParameters" />
+                <link role="classifier" roleId="tpee.1107535924139" targetNodeId="9mpx.4631964019510578418" resolveInfo="ConfigRunParameters" />
               </node>
               <node role="initializer" roleId="tpee.1068431790190" type="tpee.DotExpression" typeId="tpee.1197027756228" id="5842104767989368208">
                 <node role="operand" roleId="tpee.1197027771414" type="tp4f.ThisClassifierExpression" typeId="tp4f.1205752633985" id="5842104767989368209" />
@@ -650,7 +651,7 @@
             <property name="name" nameId="tpck.1169194664001" value="javaRunParameters" />
             <property name="isFinal" nameId="tpee.1176718929932" value="true" />
             <node role="type" roleId="tpee.5680397130376446158" type="tpee.ClassifierType" typeId="tpee.1107535904670" id="8375602708582800894">
-              <link role="classifier" roleId="tpee.1107535924139" targetNodeId="go48.1240470842553417223" resolveInfo="ConfigRunParameters" />
+              <link role="classifier" roleId="tpee.1107535924139" targetNodeId="9mpx.4631964019510578418" resolveInfo="ConfigRunParameters" />
             </node>
             <node role="initializer" roleId="tpee.1068431790190" type="tpee.DotExpression" typeId="tpee.1197027756228" id="4729163311832224211">
               <node role="operand" roleId="tpee.1197027771414" type="tpee.DotExpression" typeId="tpee.1197027756228" id="4729163311832224206">
@@ -660,7 +661,7 @@
                 </node>
               </node>
               <node role="operation" roleId="tpee.1197027833540" type="tpee.InstanceMethodCallOperation" typeId="tpee.1202948039474" id="4729163311832224215">
-                <link role="baseMethodDeclaration" roleId="tpee.1068499141037" targetNodeId="go48.1240470842553417380" resolveInfo="copy" />
+                <link role="baseMethodDeclaration" roleId="tpee.1068499141037" targetNodeId="9mpx.4631964019510578575" resolveInfo="copy" />
               </node>
             </node>
           </node>
@@ -695,7 +696,7 @@
                         <link role="variableDeclaration" roleId="tpee.1068581517664" targetNodeId="4729163311832224200" resolveInfo="javaRunParameters" />
                       </node>
                       <node role="operation" roleId="tpee.1197027833540" type="tpee.InstanceMethodCallOperation" typeId="tpee.1202948039474" id="3405970486215439967">
-                        <link role="baseMethodDeclaration" roleId="tpee.1068499141037" targetNodeId="go48.1240470842553417340" resolveInfo="getVMParameters" />
+                        <link role="baseMethodDeclaration" roleId="tpee.1068499141037" targetNodeId="9mpx.4631964019510578535" resolveInfo="getVMParameters" />
                       </node>
                     </node>
                   </node>
@@ -740,7 +741,7 @@
                       <link role="variableDeclaration" roleId="tpee.1068581517664" targetNodeId="4729163311832224200" resolveInfo="javaRunParameters" />
                     </node>
                     <node role="operation" roleId="tpee.1197027833540" type="tpee.InstanceMethodCallOperation" typeId="tpee.1202948039474" id="3405970486215439980">
-                      <link role="baseMethodDeclaration" roleId="tpee.1068499141037" targetNodeId="go48.1240470842553417260" resolveInfo="setVMParameters" />
+                      <link role="baseMethodDeclaration" roleId="tpee.1068499141037" targetNodeId="9mpx.4631964019510578455" resolveInfo="setVMParameters" />
                       <node role="actualArgument" roleId="tpee.1068499141038" type="tpee.PlusExpression" typeId="tpee.1068581242875" id="3405970486215439981">
                         <node role="rightExpression" roleId="tpee.1081773367579" type="tpee.LocalVariableReference" typeId="tpee.1068581242866" id="3405970486215439982">
                           <link role="variableDeclaration" roleId="tpee.1068581517664" targetNodeId="3405970486215439958" resolveInfo="args" />
@@ -801,7 +802,7 @@
                 </node>
               </node>
               <node role="operation" roleId="tpee.1197027833540" type="tpee.InstanceMethodCallOperation" typeId="tpee.1202948039474" id="5892046807761613364">
-                <link role="baseMethodDeclaration" roleId="tpee.1068499141037" targetNodeId="go48.1240470842553417224" resolveInfo="getErrorReport" />
+                <link role="baseMethodDeclaration" roleId="tpee.1068499141037" targetNodeId="9mpx.4631964019510578419" resolveInfo="getErrorReport" />
               </node>
             </node>
           </node>
@@ -2104,12 +2105,12 @@
                     <node role="expression" roleId="tpee.1079359253376" type="tp68.InternalVariableReference" typeId="tp68.1176743162354" id="1633282062187628674">
                       <property name="name" nameId="tp68.1176743296073" value="javaRunParameters" />
                       <node role="type" roleId="tp68.1176743202636" type="tpee.ClassifierType" typeId="tpee.1107535904670" id="8375602708582800898">
-                        <link role="classifier" roleId="tpee.1107535924139" targetNodeId="go48.1240470842553417223" resolveInfo="ConfigRunParameters" />
+                        <link role="classifier" roleId="tpee.1107535924139" targetNodeId="9mpx.4631964019510578418" resolveInfo="ConfigRunParameters" />
                       </node>
                     </node>
                   </node>
                   <node role="operation" roleId="tpee.1197027833540" type="tpee.InstanceMethodCallOperation" typeId="tpee.1202948039474" id="1633282062187628680">
-                    <link role="baseMethodDeclaration" roleId="tpee.1068499141037" targetNodeId="go48.1240470842553417364" resolveInfo="getMake" />
+                    <link role="baseMethodDeclaration" roleId="tpee.1068499141037" targetNodeId="9mpx.4631964019510578559" resolveInfo="getMake" />
                   </node>
                 </node>
                 <node role="returnType" roleId="tp68.1174313653259" type="tp25.SNodeType" typeId="tp25.1138055754698" id="1633282062187904800">
