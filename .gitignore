@@ -7,6 +7,7 @@
 /MPSPlugin/apiclasses
 /IdeaPlugin/.idea/workspace.xml
 /IdeaPlugin/build
+/IdeaPlugin/build.properties
 /IdeaPlugin/mps-core/lib
 /IdeaPlugin/mps-core/languages
 /IdeaPlugin/tests/blProject/.idea/workspace.xml

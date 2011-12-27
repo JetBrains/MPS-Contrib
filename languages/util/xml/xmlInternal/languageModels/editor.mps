@@ -445,12 +445,11 @@
         </node>
         <node role="childCellModel" roleId="tpc2.1073389446424" type="tpc2.CellModel_RefNodeList" typeId="tpc2.1073390211982" id="1207749133352">
           <property name="vertical" nameId="tpc2.1140524450554" value="false" />
-          <property name="separatorText" nameId="tpc2.1140524450557" value=" " />
           <link role="relationDeclaration" roleId="tpc2.1140103550593" targetNodeId="tpjo.1188768803246" />
           <node role="emptyCellModel" roleId="tpc2.1140524464359" type="tpc2.CellModel_Constant" typeId="tpc2.1073389577006" id="1207749133353">
             <link role="styleClass" roleId="tpc2.1186406756722" targetNodeId="tpju.1216816842034" resolveInfo="XmlEmptyCell" />
           </node>
-          <node role="cellLayout" roleId="tpc2.1140524464360" type="tpc2.CellLayout_Horizontal" typeId="tpc2.1106270549637" id="1239884327920" />
+          <node role="cellLayout" roleId="tpc2.1140524464360" type="tpc2.CellLayout_Indent" typeId="tpc2.1237303669825" id="6368583333374097628" />
           <node role="styleItem" roleId="tpc2.1219418656006" type="tpc2.PaddingLeftStyleClassItem" typeId="tpc2.1215007883204" id="7937872539146517181">
             <property name="value" nameId="tpc2.1215007802031" value="0.0" />
           </node>
@@ -561,7 +560,7 @@
         <property name="text" nameId="tpc2.1073389577007" value="&quot;" />
         <link role="styleClass" roleId="tpc2.1186406756722" targetNodeId="tpju.1216813052709" resolveInfo="XmlCloseQuote" />
       </node>
-      <node role="cellLayout" roleId="tpc2.1106270802874" type="tpc2.CellLayout_Horizontal" typeId="tpc2.1106270549637" id="1239884327888" />
+      <node role="cellLayout" roleId="tpc2.1106270802874" type="tpc2.CellLayout_Indent" typeId="tpc2.1237303669825" id="6368583333374097627" />
     </node>
   </root>
   <root id="1191201716639">
