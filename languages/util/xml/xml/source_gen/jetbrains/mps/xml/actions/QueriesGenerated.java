@@ -14,7 +14,7 @@ import java.util.ArrayList;
 import jetbrains.mps.smodel.SNode;
 import jetbrains.mps.lang.smodel.generator.smodelAdapter.SConceptOperations;
 import jetbrains.mps.util.NameUtil;
-import jetbrains.mps.util.Calculable;
+import jetbrains.mps.util.Computable;
 import jetbrains.mps.xmlSchema.behavior.ElementDeclaration_Behavior;
 import jetbrains.mps.smodel.action.DefaultChildNodeSubstituteAction;
 import jetbrains.mps.smodel.SModel;
@@ -52,8 +52,8 @@ public class QueriesGenerated {
       SNode outputConcept = SConceptOperations.findConceptDeclaration("jetbrains.mps.xml.structure.Attribute");
       SNode childConcept = (SNode) _context.getChildConcept();
       if (SConceptOperations.isSuperConceptOf(childConcept, NameUtil.nodeFQName(outputConcept))) {
-        Calculable calc = new Calculable() {
-          public Object calculate() {
+        Computable computable = new Computable() {
+          public Object compute() {
             List<SNode> attributeDeclarations = new ArrayList<SNode>();
             SNode parentlementDeclaration = ElementUtil.getParentElementDeclaration(_context.getParentNode(), operationContext.getScope());
             if ((parentlementDeclaration != null)) {
@@ -62,7 +62,7 @@ public class QueriesGenerated {
             return attributeDeclarations;
           }
         };
-        Iterable<SNode> queryResult = (Iterable) calc.calculate();
+        Iterable<SNode> queryResult = (Iterable) computable.compute();
         if (queryResult != null) {
           for (final SNode item : queryResult) {
             ListSequence.fromList(result).addElement(new DefaultChildNodeSubstituteAction(outputConcept, item, _context.getParentNode(), _context.getCurrentTargetNode(), _context.getChildSetter(), operationContext.getScope()) {
@@ -136,31 +136,31 @@ public class QueriesGenerated {
     final SNode parentElement;
     final boolean isMixed;
     {
-      Calculable calc = new Calculable() {
-        public Object calculate() {
+      Computable calc = new Computable() {
+        public Object compute() {
           return ElementUtil.getParentElementDeclaration(_context.getParentNode(), operationContext.getScope());
         }
       };
-      parentElement = (SNode) calc.calculate();
+      parentElement = (SNode) calc.compute();
     }
     {
-      Calculable calc = new Calculable() {
-        public Object calculate() {
+      Computable calc = new Computable() {
+        public Object compute() {
           return (parentElement == null) || TypeExpression_Behavior.call_isMixed_1213877382388(parentElement);
         }
       };
-      isMixed = (Boolean) calc.calculate();
+      isMixed = (Boolean) calc.compute();
     }
     {
       SNode outputConcept = SConceptOperations.findConceptDeclaration("jetbrains.mps.xml.structure.Element");
       SNode childConcept = (SNode) _context.getChildConcept();
       if (SConceptOperations.isSuperConceptOf(childConcept, NameUtil.nodeFQName(outputConcept))) {
-        Calculable calc = new Calculable() {
-          public Object calculate() {
+        Computable computable = new Computable() {
+          public Object compute() {
             return ElementUtil.getElementDeclarations(parentElement, _context.getParentNode(), operationContext.getScope());
           }
         };
-        Iterable<SNode> queryResult = (Iterable) calc.calculate();
+        Iterable<SNode> queryResult = (Iterable) computable.compute();
         if (queryResult != null) {
           for (final SNode item : queryResult) {
             ListSequence.fromList(result).addElement(new DefaultChildNodeSubstituteAction(outputConcept, item, _context.getParentNode(), _context.getCurrentTargetNode(), _context.getChildSetter(), operationContext.getScope()) {
@@ -196,20 +196,20 @@ public class QueriesGenerated {
     final SNode parentElement;
     final boolean isMixed;
     {
-      Calculable calc = new Calculable() {
-        public Object calculate() {
+      Computable calc = new Computable() {
+        public Object compute() {
           return ElementUtil.getParentElementDeclaration(_context.getParentNode(), operationContext.getScope());
         }
       };
-      parentElement = (SNode) calc.calculate();
+      parentElement = (SNode) calc.compute();
     }
     {
-      Calculable calc = new Calculable() {
-        public Object calculate() {
+      Computable calc = new Computable() {
+        public Object compute() {
           return (parentElement == null) || TypeExpression_Behavior.call_isMixed_1213877382388(parentElement);
         }
       };
-      isMixed = (Boolean) calc.calculate();
+      isMixed = (Boolean) calc.compute();
     }
     Iterator<INodeSubstituteAction> actions = _context.getActions();
     while (actions.hasNext()) {
