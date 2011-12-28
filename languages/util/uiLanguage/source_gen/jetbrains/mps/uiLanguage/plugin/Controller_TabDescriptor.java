@@ -12,7 +12,7 @@ import jetbrains.mps.uiLanguage.behavior.ComponentDeclaration_Behavior;
 import jetbrains.mps.lang.smodel.generator.smodelAdapter.SConceptOperations;
 import jetbrains.mps.lang.smodel.generator.smodelAdapter.SLinkOperations;
 import jetbrains.mps.lang.smodel.generator.smodelAdapter.SModelOperations;
-import jetbrains.mps.ide.ui.smodel.SModelTreeNode;
+import jetbrains.mps.smodel.SNodeUtil;
 
 public class Controller_TabDescriptor extends EditorTabDescriptor {
   public Controller_TabDescriptor() {
@@ -60,8 +60,8 @@ public class Controller_TabDescriptor extends EditorTabDescriptor {
     SNode controller = SConceptOperations.createNewNode("jetbrains.mps.uiLanguage.structure.ComponentController", null);
     SLinkOperations.setTarget(controller, "component", node, false);
     SModelOperations.addRootNode(SNodeOperations.getModel(node), controller);
-    String virtualPackage = node.getProperty(SModelTreeNode.PACK);
-    controller.setProperty(SModelTreeNode.PACK, virtualPackage);
+    String virtualPackage = node.getProperty(SNodeUtil.property_BaseConcept_virtualPackage);
+    controller.setProperty(SNodeUtil.property_BaseConcept_virtualPackage, virtualPackage);
     return controller;
   }
 }
