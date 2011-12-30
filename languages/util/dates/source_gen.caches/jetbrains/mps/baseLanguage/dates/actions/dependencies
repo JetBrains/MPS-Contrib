@@ -41,7 +41,7 @@
     <classNode dependClassName="jetbrains.mps.smodel.action.SideTransformActionsBuilderContext" />
     <classNode dependClassName="jetbrains.mps.smodel.action.SideTransformPreconditionContext" />
     <classNode dependClassName="jetbrains.mps.typesystem.inference.TypeChecker" />
-    <classNode dependClassName="jetbrains.mps.util.Calculable" />
+    <classNode dependClassName="jetbrains.mps.util.Computable" />
     <classNode dependClassName="jetbrains.mps.util.Condition" />
     <classNode dependClassName="jetbrains.mps.util.NameUtil" />
     <classNode dependClassName="org.joda.time.DateTime" />
