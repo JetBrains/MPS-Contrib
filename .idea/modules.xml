@@ -2,18 +2,18 @@
 <project version="4">
   <component name="ProjectModuleManager">
     <modules>
-      <module fileurl="file://$PROJECT_DIR$/core/baseLanguage/closures/runtime/Closures-runtime.iml" filepath="$PROJECT_DIR$/core/baseLanguage/closures/runtime/Closures-runtime.iml" group="languages" />
+      <module fileurl="file://$PROJECT_DIR$/languages/baseLanguage/closures/runtime/Closures-runtime.iml" filepath="$PROJECT_DIR$/languages/baseLanguage/closures/runtime/Closures-runtime.iml" group="languages" />
       <module fileurl="file://$PROJECT_DIR$/MPS-platform.iml" filepath="$PROJECT_DIR$/MPS-platform.iml" />
       <module fileurl="file://$PROJECT_DIR$/MPSPlugin/MPSSupport.iml" filepath="$PROJECT_DIR$/MPSPlugin/MPSSupport.iml" />
-      <module fileurl="file://$PROJECT_DIR$/core/baseLanguage/tuples/runtime/Tuples-runtime.iml" filepath="$PROJECT_DIR$/core/baseLanguage/tuples/runtime/Tuples-runtime.iml" group="languages" />
+      <module fileurl="file://$PROJECT_DIR$/languages/baseLanguage/tuples/runtime/Tuples-runtime.iml" filepath="$PROJECT_DIR$/languages/baseLanguage/tuples/runtime/Tuples-runtime.iml" group="languages" />
       <module fileurl="file://$PROJECT_DIR$/editor/actions-runtime/actions-runtime.iml" filepath="$PROJECT_DIR$/editor/actions-runtime/actions-runtime.iml" group="editor" />
       <module fileurl="file://$PROJECT_DIR$/core/analyzers/analyzers.iml" filepath="$PROJECT_DIR$/core/analyzers/analyzers.iml" group="core" />
       <module fileurl="file://$PROJECT_DIR$/languages/util/buildlanguage/ant/ant.iml" filepath="$PROJECT_DIR$/languages/util/buildlanguage/ant/ant.iml" group="languages" />
-      <module fileurl="file://$PROJECT_DIR$/core/baseLanguage/baseLanguage/solutions/jetbrains.mps.baseLanguage.search/baseLanguage-search.iml" filepath="$PROJECT_DIR$/core/baseLanguage/baseLanguage/solutions/jetbrains.mps.baseLanguage.search/baseLanguage-search.iml" group="languages" />
-      <module fileurl="file://$PROJECT_DIR$/core/baseLanguage/baseLanguage/solutions/jetbrains.mps.baseLanguage.util/baseLanguage-util.iml" filepath="$PROJECT_DIR$/core/baseLanguage/baseLanguage/solutions/jetbrains.mps.baseLanguage.util/baseLanguage-util.iml" group="languages" />
+      <module fileurl="file://$PROJECT_DIR$/languages/baseLanguage/baseLanguage/solutions/jetbrains.mps.baseLanguage.search/baseLanguage-search.iml" filepath="$PROJECT_DIR$/languages/baseLanguage/baseLanguage/solutions/jetbrains.mps.baseLanguage.search/baseLanguage-search.iml" group="languages" />
+      <module fileurl="file://$PROJECT_DIR$/languages/baseLanguage/baseLanguage/solutions/jetbrains.mps.baseLanguage.util/baseLanguage-util.iml" filepath="$PROJECT_DIR$/languages/baseLanguage/baseLanguage/solutions/jetbrains.mps.baseLanguage.util/baseLanguage-util.iml" group="languages" />
       <module fileurl="file://$PROJECT_DIR$/workbench/baseLanguageIndex/baseLanguageIndex.iml" filepath="$PROJECT_DIR$/workbench/baseLanguageIndex/baseLanguageIndex.iml" group="workbench" />
-      <module fileurl="file://$PROJECT_DIR$/core/baseLanguage/collections/collections.iml" filepath="$PROJECT_DIR$/core/baseLanguage/collections/collections.iml" group="languages" />
-      <module fileurl="file://$PROJECT_DIR$/core/baseLanguage/collections/runtime/collections-runtime.iml" filepath="$PROJECT_DIR$/core/baseLanguage/collections/runtime/collections-runtime.iml" group="languages" />
+      <module fileurl="file://$PROJECT_DIR$/languages/baseLanguage/collections/collections.iml" filepath="$PROJECT_DIR$/languages/baseLanguage/collections/collections.iml" group="languages" />
+      <module fileurl="file://$PROJECT_DIR$/languages/baseLanguage/collections/runtime/collections-runtime.iml" filepath="$PROJECT_DIR$/languages/baseLanguage/collections/runtime/collections-runtime.iml" group="languages" />
       <module fileurl="file://$PROJECT_DIR$/plugins/debugger-api/debugger-api.iml" filepath="$PROJECT_DIR$/plugins/debugger-api/debugger-api.iml" group="plugins" />
       <module fileurl="file://$PROJECT_DIR$/plugins/debugger-java/debugger-java.iml" filepath="$PROJECT_DIR$/plugins/debugger-java/debugger-java.iml" group="plugins" />
       <module fileurl="file://$PROJECT_DIR$/languages/util/buildlanguage/languages/distrib/distrib.iml" filepath="$PROJECT_DIR$/languages/util/buildlanguage/languages/distrib/distrib.iml" group="languages" />
@@ -45,7 +45,7 @@
       <module fileurl="file://$PROJECT_DIR$/tools/source_gen/source_gen.iml" filepath="$PROJECT_DIR$/tools/source_gen/source_gen.iml" />
       <module fileurl="file://$PROJECT_DIR$/startup/startup.iml" filepath="$PROJECT_DIR$/startup/startup.iml" />
       <module fileurl="file://$PROJECT_DIR$/testbench/testbench.iml" filepath="$PROJECT_DIR$/testbench/testbench.iml" />
-      <module fileurl="file://$PROJECT_DIR$/core/baseLanguage/collections/languages/trove/runtime/trove.runtime.iml" filepath="$PROJECT_DIR$/core/baseLanguage/collections/languages/trove/runtime/trove.runtime.iml" group="languages" />
+      <module fileurl="file://$PROJECT_DIR$/languages/baseLanguage/collections/languages/trove/runtime/trove.runtime.iml" filepath="$PROJECT_DIR$/languages/baseLanguage/collections/languages/trove/runtime/trove.runtime.iml" group="languages" />
       <module fileurl="file://$PROJECT_DIR$/core/typesystemEngine/typesystemEngine.iml" filepath="$PROJECT_DIR$/core/typesystemEngine/typesystemEngine.iml" group="core" />
       <module fileurl="file://$PROJECT_DIR$/editor/typesystemIntegration/typesystemIntegration.iml" filepath="$PROJECT_DIR$/editor/typesystemIntegration/typesystemIntegration.iml" group="editor" />
       <module fileurl="file://$PROJECT_DIR$/workbench/typesystemUi/typesystemUi.iml" filepath="$PROJECT_DIR$/workbench/typesystemUi/typesystemUi.iml" group="workbench" />
