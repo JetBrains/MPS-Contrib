@@ -208,70 +208,70 @@
     <unitInfo nodeId="1213104846140" fileName="DateFormat_Constraints.java" startLine="22" startPosition="35" endLine="33" endPosition="5" unitName="jetbrains.mps.baseLanguage.dates.constraints.DateFormat_Constraints$1" />
   </root>
   <root nodeId="1213104846946">
-    <nodeInfo nodeId="1213104846946" fileName="DateTimePropertyFormatToken_Constraints.java" startLine="20" startPosition="88" endLine="21" endPosition="193" conceptFqName="jetbrains.mps.baseLanguage.structure.StaticFieldDeclaration" propertyString="breakingNode_unq1r8_a0a1a0a0a1a0b0a2a0" />
-    <nodeInfo nodeId="1213104846946" fileName="DateTimePropertyFormatToken_Constraints.java" startLine="23" startPosition="52" endLine="24" endPosition="84" conceptFqName="jetbrains.mps.baseLanguage.structure.SuperConstructorInvocation" />
-    <nodeInfo nodeId="1213104846946" fileName="DateTimePropertyFormatToken_Constraints.java" startLine="28" startPosition="83" endLine="29" endPosition="75" conceptFqName="jetbrains.mps.baseLanguage.structure.LocalVariableDeclarationStatement" />
-    <nodeInfo nodeId="1213104846946" fileName="DateTimePropertyFormatToken_Constraints.java" startLine="32" startPosition="52" endLine="33" endPosition="20" conceptFqName="jetbrains.mps.baseLanguage.structure.ReturnStatement" />
-    <nodeInfo nodeId="1213104846946" fileName="DateTimePropertyFormatToken_Constraints.java" startLine="37" startPosition="136" endLine="38" endPosition="20" conceptFqName="jetbrains.mps.baseLanguage.structure.ReturnStatement" />
-    <nodeInfo nodeId="1213104846955" fileName="DateTimePropertyFormatToken_Constraints.java" startLine="43" startPosition="49" endLine="44" endPosition="156" conceptFqName="jetbrains.mps.baseLanguage.structure.ExpressionStatement" />
-    <nodeInfo nodeId="1213104846946" fileName="DateTimePropertyFormatToken_Constraints.java" startLine="50" startPosition="56" endLine="51" endPosition="48" conceptFqName="jetbrains.mps.baseLanguage.structure.ReturnStatement" />
-    <nodeInfo nodeId="1213104846946" fileName="DateTimePropertyFormatToken_Constraints.java" startLine="56" startPosition="44" endLine="57" endPosition="20" conceptFqName="jetbrains.mps.baseLanguage.structure.ReturnStatement" />
-    <nodeInfo nodeId="1213104846966" fileName="DateTimePropertyFormatToken_Constraints.java" startLine="65" startPosition="142" endLine="66" endPosition="184" conceptFqName="jetbrains.mps.baseLanguage.structure.ReturnStatement" />
-    <nodeInfo nodeId="1213104846946" fileName="DateTimePropertyFormatToken_Constraints.java" startLine="70" startPosition="61" endLine="71" endPosition="58" conceptFqName="jetbrains.mps.baseLanguage.structure.ReturnStatement" />
-    <nodeInfo nodeId="1213104846946" fileName="DateTimePropertyFormatToken_Constraints.java" startLine="75" startPosition="7" endLine="76" endPosition="22" conceptFqName="jetbrains.mps.baseLanguage.structure.ReturnStatement" />
-    <nodeInfo nodeId="1213104846946" fileName="DateTimePropertyFormatToken_Constraints.java" startLine="22" startPosition="0" endLine="25" endPosition="3" conceptFqName="jetbrains.mps.baseLanguage.structure.ConstructorDeclaration" propertyString="DateTimePropertyFormatToken_Constraints#()V" />
-    <nodeInfo nodeId="1213104846950" fileName="DateTimePropertyFormatToken_Constraints.java" startLine="42" startPosition="139" endLine="45" endPosition="9" conceptFqName="jetbrains.mps.baseLanguage.structure.IfStatement" />
-    <nodeInfo nodeId="1213104846946" fileName="DateTimePropertyFormatToken_Constraints.java" startLine="30" startPosition="143" endLine="35" endPosition="0" conceptFqName="jetbrains.mps.baseLanguage.structure.InstanceMethodDeclaration" propertyString="hasOwnOnReferenceSetHandler#()Z" />
-    <nodeInfo nodeId="1213104846946" fileName="DateTimePropertyFormatToken_Constraints.java" startLine="35" startPosition="0" endLine="40" endPosition="0" conceptFqName="jetbrains.mps.baseLanguage.structure.InstanceMethodDeclaration" propertyString="validate#(Ljetbrains/mps/smodel/SNode;Ljetbrains/mps/smodel/SNode;Ljetbrains/mps/smodel/SNode;Ljetbrains/mps/smodel/IScope;)Z" />
-    <nodeInfo nodeId="1213104846946" fileName="DateTimePropertyFormatToken_Constraints.java" startLine="54" startPosition="125" endLine="59" endPosition="0" conceptFqName="jetbrains.mps.baseLanguage.structure.InstanceMethodDeclaration" propertyString="hasOwnScopeProvider#()Z" />
-    <nodeInfo nodeId="1213104846946" fileName="DateTimePropertyFormatToken_Constraints.java" startLine="63" startPosition="49" endLine="68" endPosition="0" conceptFqName="jetbrains.mps.baseLanguage.structure.InstanceMethodDeclaration" propertyString="createSearchScopeOrListOfNodes#(Ljetbrains/mps/smodel/IOperationContext;Ljetbrains/mps/smodel/runtime/ReferenceConstraintsContext;)Ljava/lang/Object;" />
-    <nodeInfo nodeId="1213104846946" fileName="DateTimePropertyFormatToken_Constraints.java" startLine="68" startPosition="0" endLine="73" endPosition="0" conceptFqName="jetbrains.mps.baseLanguage.structure.InstanceMethodDeclaration" propertyString="getSearchScopeValidatorNode#()Ljetbrains/mps/smodel/SNodePointer;" />
-    <nodeInfo nodeId="1213104846946" fileName="DateTimePropertyFormatToken_Constraints.java" startLine="47" startPosition="0" endLine="53" endPosition="0" conceptFqName="jetbrains.mps.baseLanguage.structure.InstanceMethodDeclaration" propertyString="getScopeProvider#()Ljetbrains/mps/smodel/runtime/ReferenceScopeProvider;" />
-    <nodeInfo nodeId="1213104846946" fileName="DateTimePropertyFormatToken_Constraints.java" startLine="40" startPosition="0" endLine="47" endPosition="0" conceptFqName="jetbrains.mps.baseLanguage.structure.InstanceMethodDeclaration" propertyString="onReferenceSet#(Ljetbrains/mps/smodel/SNode;Ljetbrains/mps/smodel/SNode;Ljetbrains/mps/smodel/SNode;Ljetbrains/mps/smodel/IScope;)V" />
-    <nodeInfo nodeId="1213104846946" fileName="DateTimePropertyFormatToken_Constraints.java" startLine="62" startPosition="56" endLine="73" endPosition="10" conceptFqName="jetbrains.mps.baseLanguage.structure.ReturnStatement" />
-    <nodeInfo nodeId="1213104846946" fileName="DateTimePropertyFormatToken_Constraints.java" startLine="59" startPosition="0" endLine="75" endPosition="0" conceptFqName="jetbrains.mps.baseLanguage.structure.InstanceMethodDeclaration" propertyString="getScopeProvider#()Ljetbrains/mps/smodel/runtime/ReferenceScopeProvider;" />
-    <nodeInfo nodeId="1213104846946" fileName="DateTimePropertyFormatToken_Constraints.java" startLine="53" startPosition="7" endLine="75" endPosition="7" conceptFqName="jetbrains.mps.baseLanguage.structure.ExpressionStatement" />
-    <nodeInfo nodeId="1213104846946" fileName="DateTimePropertyFormatToken_Constraints.java" startLine="29" startPosition="75" endLine="53" endPosition="7" conceptFqName="jetbrains.mps.baseLanguage.structure.ExpressionStatement" />
-    <nodeInfo nodeId="1213104846946" fileName="DateTimePropertyFormatToken_Constraints.java" startLine="26" startPosition="0" endLine="78" endPosition="0" conceptFqName="jetbrains.mps.baseLanguage.structure.InstanceMethodDeclaration" propertyString="getNotDefaultReferences#()Ljava/util/Map;" />
-    <scopeInfo nodeId="1213104846946" fileName="DateTimePropertyFormatToken_Constraints.java" startLine="23" startPosition="52" endLine="24" endPosition="84" />
-    <scopeInfo nodeId="1213104846946" fileName="DateTimePropertyFormatToken_Constraints.java" startLine="32" startPosition="52" endLine="33" endPosition="20" />
-    <scopeInfo nodeId="1213104846946" fileName="DateTimePropertyFormatToken_Constraints.java" startLine="37" startPosition="136" endLine="38" endPosition="20" />
-    <scopeInfo nodeId="1213104846954" fileName="DateTimePropertyFormatToken_Constraints.java" startLine="43" startPosition="49" endLine="44" endPosition="156" />
-    <scopeInfo nodeId="1213104846946" fileName="DateTimePropertyFormatToken_Constraints.java" startLine="50" startPosition="56" endLine="51" endPosition="48" />
-    <scopeInfo nodeId="1213104846946" fileName="DateTimePropertyFormatToken_Constraints.java" startLine="56" startPosition="44" endLine="57" endPosition="20" />
-    <scopeInfo nodeId="1213104846965" fileName="DateTimePropertyFormatToken_Constraints.java" startLine="65" startPosition="142" endLine="66" endPosition="184" />
-    <scopeInfo nodeId="1213104846946" fileName="DateTimePropertyFormatToken_Constraints.java" startLine="70" startPosition="61" endLine="71" endPosition="58" />
-    <scopeInfo nodeId="1213104846946" fileName="DateTimePropertyFormatToken_Constraints.java" startLine="22" startPosition="0" endLine="25" endPosition="3" />
-    <scopeInfo nodeId="1213104846949" fileName="DateTimePropertyFormatToken_Constraints.java" startLine="42" startPosition="139" endLine="45" endPosition="9" />
-    <scopeInfo nodeId="1213104846946" fileName="DateTimePropertyFormatToken_Constraints.java" startLine="30" startPosition="143" endLine="35" endPosition="0" />
-    <scopeInfo nodeId="1213104846946" fileName="DateTimePropertyFormatToken_Constraints.java" startLine="35" startPosition="0" endLine="40" endPosition="0">
+    <nodeInfo nodeId="1213104846946" fileName="DateTimePropertyFormatToken_Constraints.java" startLine="21" startPosition="88" endLine="22" endPosition="193" conceptFqName="jetbrains.mps.baseLanguage.structure.StaticFieldDeclaration" propertyString="breakingNode_unq1r8_a0a1a0a0a1a0b0a2a0" />
+    <nodeInfo nodeId="1213104846946" fileName="DateTimePropertyFormatToken_Constraints.java" startLine="24" startPosition="52" endLine="25" endPosition="84" conceptFqName="jetbrains.mps.baseLanguage.structure.SuperConstructorInvocation" />
+    <nodeInfo nodeId="1213104846946" fileName="DateTimePropertyFormatToken_Constraints.java" startLine="29" startPosition="83" endLine="30" endPosition="75" conceptFqName="jetbrains.mps.baseLanguage.structure.LocalVariableDeclarationStatement" />
+    <nodeInfo nodeId="1213104846946" fileName="DateTimePropertyFormatToken_Constraints.java" startLine="33" startPosition="52" endLine="34" endPosition="20" conceptFqName="jetbrains.mps.baseLanguage.structure.ReturnStatement" />
+    <nodeInfo nodeId="1213104846946" fileName="DateTimePropertyFormatToken_Constraints.java" startLine="38" startPosition="136" endLine="39" endPosition="20" conceptFqName="jetbrains.mps.baseLanguage.structure.ReturnStatement" />
+    <nodeInfo nodeId="1213104846955" fileName="DateTimePropertyFormatToken_Constraints.java" startLine="44" startPosition="49" endLine="45" endPosition="156" conceptFqName="jetbrains.mps.baseLanguage.structure.ExpressionStatement" />
+    <nodeInfo nodeId="1213104846946" fileName="DateTimePropertyFormatToken_Constraints.java" startLine="51" startPosition="56" endLine="52" endPosition="39" conceptFqName="jetbrains.mps.baseLanguage.structure.ReturnStatement" />
+    <nodeInfo nodeId="1213104846946" fileName="DateTimePropertyFormatToken_Constraints.java" startLine="57" startPosition="44" endLine="58" endPosition="20" conceptFqName="jetbrains.mps.baseLanguage.structure.ReturnStatement" />
+    <nodeInfo nodeId="1213104846966" fileName="DateTimePropertyFormatToken_Constraints.java" startLine="66" startPosition="142" endLine="67" endPosition="184" conceptFqName="jetbrains.mps.baseLanguage.structure.ReturnStatement" />
+    <nodeInfo nodeId="1213104846946" fileName="DateTimePropertyFormatToken_Constraints.java" startLine="71" startPosition="61" endLine="72" endPosition="58" conceptFqName="jetbrains.mps.baseLanguage.structure.ReturnStatement" />
+    <nodeInfo nodeId="1213104846946" fileName="DateTimePropertyFormatToken_Constraints.java" startLine="76" startPosition="7" endLine="77" endPosition="22" conceptFqName="jetbrains.mps.baseLanguage.structure.ReturnStatement" />
+    <nodeInfo nodeId="1213104846946" fileName="DateTimePropertyFormatToken_Constraints.java" startLine="23" startPosition="0" endLine="26" endPosition="3" conceptFqName="jetbrains.mps.baseLanguage.structure.ConstructorDeclaration" propertyString="DateTimePropertyFormatToken_Constraints#()V" />
+    <nodeInfo nodeId="1213104846950" fileName="DateTimePropertyFormatToken_Constraints.java" startLine="43" startPosition="139" endLine="46" endPosition="9" conceptFqName="jetbrains.mps.baseLanguage.structure.IfStatement" />
+    <nodeInfo nodeId="1213104846946" fileName="DateTimePropertyFormatToken_Constraints.java" startLine="31" startPosition="143" endLine="36" endPosition="0" conceptFqName="jetbrains.mps.baseLanguage.structure.InstanceMethodDeclaration" propertyString="hasOwnOnReferenceSetHandler#()Z" />
+    <nodeInfo nodeId="1213104846946" fileName="DateTimePropertyFormatToken_Constraints.java" startLine="36" startPosition="0" endLine="41" endPosition="0" conceptFqName="jetbrains.mps.baseLanguage.structure.InstanceMethodDeclaration" propertyString="validate#(Ljetbrains/mps/smodel/SNode;Ljetbrains/mps/smodel/SNode;Ljetbrains/mps/smodel/SNode;Ljetbrains/mps/smodel/IScope;)Z" />
+    <nodeInfo nodeId="1213104846946" fileName="DateTimePropertyFormatToken_Constraints.java" startLine="55" startPosition="125" endLine="60" endPosition="0" conceptFqName="jetbrains.mps.baseLanguage.structure.InstanceMethodDeclaration" propertyString="hasOwnScopeProvider#()Z" />
+    <nodeInfo nodeId="1213104846946" fileName="DateTimePropertyFormatToken_Constraints.java" startLine="64" startPosition="49" endLine="69" endPosition="0" conceptFqName="jetbrains.mps.baseLanguage.structure.InstanceMethodDeclaration" propertyString="createSearchScopeOrListOfNodes#(Ljetbrains/mps/smodel/IOperationContext;Ljetbrains/mps/smodel/runtime/ReferenceConstraintsContext;)Ljava/lang/Object;" />
+    <nodeInfo nodeId="1213104846946" fileName="DateTimePropertyFormatToken_Constraints.java" startLine="69" startPosition="0" endLine="74" endPosition="0" conceptFqName="jetbrains.mps.baseLanguage.structure.InstanceMethodDeclaration" propertyString="getSearchScopeValidatorNode#()Ljetbrains/mps/smodel/SNodePointer;" />
+    <nodeInfo nodeId="1213104846946" fileName="DateTimePropertyFormatToken_Constraints.java" startLine="48" startPosition="0" endLine="54" endPosition="0" conceptFqName="jetbrains.mps.baseLanguage.structure.InstanceMethodDeclaration" propertyString="getScopeProvider#()Ljetbrains/mps/smodel/runtime/ReferenceScopeProvider;" />
+    <nodeInfo nodeId="1213104846946" fileName="DateTimePropertyFormatToken_Constraints.java" startLine="41" startPosition="0" endLine="48" endPosition="0" conceptFqName="jetbrains.mps.baseLanguage.structure.InstanceMethodDeclaration" propertyString="onReferenceSet#(Ljetbrains/mps/smodel/SNode;Ljetbrains/mps/smodel/SNode;Ljetbrains/mps/smodel/SNode;Ljetbrains/mps/smodel/IScope;)V" />
+    <nodeInfo nodeId="1213104846946" fileName="DateTimePropertyFormatToken_Constraints.java" startLine="63" startPosition="56" endLine="74" endPosition="10" conceptFqName="jetbrains.mps.baseLanguage.structure.ReturnStatement" />
+    <nodeInfo nodeId="1213104846946" fileName="DateTimePropertyFormatToken_Constraints.java" startLine="60" startPosition="0" endLine="76" endPosition="0" conceptFqName="jetbrains.mps.baseLanguage.structure.InstanceMethodDeclaration" propertyString="getScopeProvider#()Ljetbrains/mps/smodel/runtime/ReferenceScopeProvider;" />
+    <nodeInfo nodeId="1213104846946" fileName="DateTimePropertyFormatToken_Constraints.java" startLine="54" startPosition="7" endLine="76" endPosition="7" conceptFqName="jetbrains.mps.baseLanguage.structure.ExpressionStatement" />
+    <nodeInfo nodeId="1213104846946" fileName="DateTimePropertyFormatToken_Constraints.java" startLine="30" startPosition="75" endLine="54" endPosition="7" conceptFqName="jetbrains.mps.baseLanguage.structure.ExpressionStatement" />
+    <nodeInfo nodeId="1213104846946" fileName="DateTimePropertyFormatToken_Constraints.java" startLine="27" startPosition="0" endLine="79" endPosition="0" conceptFqName="jetbrains.mps.baseLanguage.structure.InstanceMethodDeclaration" propertyString="getNotDefaultReferences#()Ljava/util/Map;" />
+    <scopeInfo nodeId="1213104846946" fileName="DateTimePropertyFormatToken_Constraints.java" startLine="24" startPosition="52" endLine="25" endPosition="84" />
+    <scopeInfo nodeId="1213104846946" fileName="DateTimePropertyFormatToken_Constraints.java" startLine="33" startPosition="52" endLine="34" endPosition="20" />
+    <scopeInfo nodeId="1213104846946" fileName="DateTimePropertyFormatToken_Constraints.java" startLine="38" startPosition="136" endLine="39" endPosition="20" />
+    <scopeInfo nodeId="1213104846954" fileName="DateTimePropertyFormatToken_Constraints.java" startLine="44" startPosition="49" endLine="45" endPosition="156" />
+    <scopeInfo nodeId="1213104846946" fileName="DateTimePropertyFormatToken_Constraints.java" startLine="51" startPosition="56" endLine="52" endPosition="39" />
+    <scopeInfo nodeId="1213104846946" fileName="DateTimePropertyFormatToken_Constraints.java" startLine="57" startPosition="44" endLine="58" endPosition="20" />
+    <scopeInfo nodeId="1213104846965" fileName="DateTimePropertyFormatToken_Constraints.java" startLine="66" startPosition="142" endLine="67" endPosition="184" />
+    <scopeInfo nodeId="1213104846946" fileName="DateTimePropertyFormatToken_Constraints.java" startLine="71" startPosition="61" endLine="72" endPosition="58" />
+    <scopeInfo nodeId="1213104846946" fileName="DateTimePropertyFormatToken_Constraints.java" startLine="23" startPosition="0" endLine="26" endPosition="3" />
+    <scopeInfo nodeId="1213104846949" fileName="DateTimePropertyFormatToken_Constraints.java" startLine="43" startPosition="139" endLine="46" endPosition="9" />
+    <scopeInfo nodeId="1213104846946" fileName="DateTimePropertyFormatToken_Constraints.java" startLine="31" startPosition="143" endLine="36" endPosition="0" />
+    <scopeInfo nodeId="1213104846946" fileName="DateTimePropertyFormatToken_Constraints.java" startLine="36" startPosition="0" endLine="41" endPosition="0">
       <varInfo nodeId="1213104846946" varName="newReferentNode" />
       <varInfo nodeId="1213104846946" varName="oldReferentNode" />
       <varInfo nodeId="1213104846946" varName="referenceNode" />
       <varInfo nodeId="1213104846946" varName="scope" />
     </scopeInfo>
-    <scopeInfo nodeId="1213104846946" fileName="DateTimePropertyFormatToken_Constraints.java" startLine="54" startPosition="125" endLine="59" endPosition="0" />
-    <scopeInfo nodeId="1213104846946" fileName="DateTimePropertyFormatToken_Constraints.java" startLine="63" startPosition="49" endLine="68" endPosition="0">
+    <scopeInfo nodeId="1213104846946" fileName="DateTimePropertyFormatToken_Constraints.java" startLine="55" startPosition="125" endLine="60" endPosition="0" />
+    <scopeInfo nodeId="1213104846946" fileName="DateTimePropertyFormatToken_Constraints.java" startLine="64" startPosition="49" endLine="69" endPosition="0">
       <varInfo nodeId="1213104846946" varName="_context" />
       <varInfo nodeId="1213104846946" varName="operationContext" />
     </scopeInfo>
-    <scopeInfo nodeId="1213104846946" fileName="DateTimePropertyFormatToken_Constraints.java" startLine="68" startPosition="0" endLine="73" endPosition="0" />
-    <scopeInfo nodeId="1213104846946" fileName="DateTimePropertyFormatToken_Constraints.java" startLine="47" startPosition="0" endLine="53" endPosition="0" />
-    <scopeInfo nodeId="1213104846946" fileName="DateTimePropertyFormatToken_Constraints.java" startLine="40" startPosition="0" endLine="47" endPosition="0">
+    <scopeInfo nodeId="1213104846946" fileName="DateTimePropertyFormatToken_Constraints.java" startLine="69" startPosition="0" endLine="74" endPosition="0" />
+    <scopeInfo nodeId="1213104846946" fileName="DateTimePropertyFormatToken_Constraints.java" startLine="48" startPosition="0" endLine="54" endPosition="0" />
+    <scopeInfo nodeId="1213104846946" fileName="DateTimePropertyFormatToken_Constraints.java" startLine="41" startPosition="0" endLine="48" endPosition="0">
       <varInfo nodeId="1213104846946" varName="newReferentNode" />
       <varInfo nodeId="1213104846946" varName="oldReferentNode" />
       <varInfo nodeId="1213104846946" varName="referenceNode" />
       <varInfo nodeId="1213104846946" varName="scope" />
     </scopeInfo>
-    <scopeInfo nodeId="1213104846946" fileName="DateTimePropertyFormatToken_Constraints.java" startLine="62" startPosition="56" endLine="73" endPosition="10" />
-    <scopeInfo nodeId="1213104846946" fileName="DateTimePropertyFormatToken_Constraints.java" startLine="59" startPosition="0" endLine="75" endPosition="0" />
-    <scopeInfo nodeId="1213104846946" fileName="DateTimePropertyFormatToken_Constraints.java" startLine="28" startPosition="83" endLine="76" endPosition="22">
+    <scopeInfo nodeId="1213104846946" fileName="DateTimePropertyFormatToken_Constraints.java" startLine="63" startPosition="56" endLine="74" endPosition="10" />
+    <scopeInfo nodeId="1213104846946" fileName="DateTimePropertyFormatToken_Constraints.java" startLine="60" startPosition="0" endLine="76" endPosition="0" />
+    <scopeInfo nodeId="1213104846946" fileName="DateTimePropertyFormatToken_Constraints.java" startLine="29" startPosition="83" endLine="77" endPosition="22">
       <varInfo nodeId="1213104846946" varName="references" />
     </scopeInfo>
-    <scopeInfo nodeId="1213104846946" fileName="DateTimePropertyFormatToken_Constraints.java" startLine="26" startPosition="0" endLine="78" endPosition="0" />
-    <unitInfo nodeId="1213104846946" fileName="DateTimePropertyFormatToken_Constraints.java" startLine="51" startPosition="19" endLine="20" endPosition="0" />
-    <unitInfo nodeId="1213104846946" fileName="DateTimePropertyFormatToken_Constraints.java" startLine="54" startPosition="53" endLine="75" endPosition="5" unitName="jetbrains.mps.baseLanguage.dates.constraints.DateTimePropertyFormatToken_Constraints$2" />
-    <unitInfo nodeId="1213104846946" fileName="DateTimePropertyFormatToken_Constraints.java" startLine="63" startPosition="19" endLine="73" endPosition="9" unitName="jetbrains.mps.baseLanguage.dates.constraints.DateTimePropertyFormatToken_Constraints$3" />
+    <scopeInfo nodeId="1213104846946" fileName="DateTimePropertyFormatToken_Constraints.java" startLine="27" startPosition="0" endLine="79" endPosition="0" />
+    <unitInfo nodeId="1213104846946" fileName="DateTimePropertyFormatToken_Constraints.java" startLine="52" startPosition="19" endLine="21" endPosition="0" />
+    <unitInfo nodeId="1213104846946" fileName="DateTimePropertyFormatToken_Constraints.java" startLine="55" startPosition="53" endLine="76" endPosition="5" unitName="jetbrains.mps.baseLanguage.dates.constraints.DateTimePropertyFormatToken_Constraints$2" />
+    <unitInfo nodeId="1213104846946" fileName="DateTimePropertyFormatToken_Constraints.java" startLine="64" startPosition="19" endLine="74" endPosition="9" unitName="jetbrains.mps.baseLanguage.dates.constraints.DateTimePropertyFormatToken_Constraints$3" />
   </root>
   <root nodeId="1213104847082">
     <nodeInfo nodeId="1213104847082" fileName="FixedLocaleFormatToken_Constraints.java" startLine="17" startPosition="83" endLine="18" endPosition="193" conceptFqName="jetbrains.mps.baseLanguage.structure.StaticFieldDeclaration" propertyString="breakingNode_k18hv9_a0a1a0a0a1a0b0a1a0" />
