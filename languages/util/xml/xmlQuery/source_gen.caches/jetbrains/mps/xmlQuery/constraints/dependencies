@@ -175,6 +175,7 @@
     <classNode dependClassName="jetbrains.mps.smodel.runtime.ReferenceScopeProvider" />
     <classNode dependClassName="jetbrains.mps.smodel.runtime.base.BaseReferenceConstraintsDescriptor" />
     <classNode dependClassName="jetbrains.mps.smodel.runtime.base.BaseReferenceScopeProvider" />
+    <classNode dependClassName="jetbrains.mps.smodel.runtime.base.BaseScopeProvider" />
     <classNode dependClassName="jetbrains.mps.smodel.search.SubnodesSearchScope" />
     <classNode dependClassName="jetbrains.mps.xmlQuery.constraints.SchemaUtil" />
     <classNode dependClassName="org.jetbrains.annotations.Nullable" />
