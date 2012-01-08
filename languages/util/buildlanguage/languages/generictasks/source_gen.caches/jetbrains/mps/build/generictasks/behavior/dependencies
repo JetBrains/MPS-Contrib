@@ -57,7 +57,7 @@
     <classNode dependClassName="java.util.List" />
     <classNode dependClassName="jetbrains.mps.build.generictasks.behavior.AttributeDeclaration_Behavior" />
     <classNode dependClassName="jetbrains.mps.build.generictasks.behavior.ITaskDeclaration_Behavior" />
-    <classNode dependClassName="jetbrains.mps.build.generictasks.plugin.ImportAntStuffUtil" />
+    <classNode dependClassName="jetbrains.mps.build.generictasks.pluginSolution.plugin.ImportAntStuffUtil" />
     <classNode dependClassName="jetbrains.mps.buildlanguage.behavior.IDeclaration_Behavior" />
     <classNode dependClassName="jetbrains.mps.internal.collections.runtime.ListSequence" />
     <classNode dependClassName="jetbrains.mps.internal.collections.runtime.Sequence" />
