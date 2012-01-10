@@ -12,7 +12,7 @@ import jetbrains.mps.lang.smodel.generator.smodelAdapter.SNodeOperations;
 import jetbrains.mps.buildlanguage.behavior.IDeclaration_Behavior;
 import jetbrains.mps.internal.collections.runtime.Sequence;
 import jetbrains.mps.smodel.IOperationContext;
-import jetbrains.mps.build.generictasks.pluginSolution.plugin.ImportAntStuffUtil;
+import jetbrains.mps.build.generictasks.plugin.ImportAntStuffUtil;
 import jetbrains.mps.project.ModuleId;
 import jetbrains.mps.project.structure.modules.ModuleReference;
 import jetbrains.mps.project.IModule;
