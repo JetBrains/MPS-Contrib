@@ -71,7 +71,7 @@ public class QueriesGenerated {
   }
 
   public static Object propertyMacro_GetPropertyValue_1230222683911(final IOperationContext operationContext, final PropertyMacroContext _context) {
-    return "${ant.file}/../" + ITargetReference_Behavior.call_getProjectFileName_1230222765831(_context.getNode());
+    return "${ant.file." + SPropertyOperations.getString(SNodeOperations.cast(SNodeOperations.getContainingRoot(_context.getNode()), "jetbrains.mps.lang.core.structure.INamedConcept"), "name") + "}/../" + ITargetReference_Behavior.call_getProjectFileName_1230222765831(_context.getNode());
   }
 
   public static Object propertyMacro_GetPropertyValue_1199647316381(final IOperationContext operationContext, final PropertyMacroContext _context) {
@@ -83,11 +83,11 @@ public class QueriesGenerated {
   }
 
   public static Object propertyMacro_GetPropertyValue_1201017147787(final IOperationContext operationContext, final PropertyMacroContext _context) {
-    return "${ant.file}/../" + PropertyNode_Behavior.call_getFileName_1213877341757(SLinkOperations.getTarget(_context.getNode(), "propertyNode", false));
+    return "${ant.file." + SPropertyOperations.getString(SNodeOperations.cast(SNodeOperations.getContainingRoot(_context.getNode()), "jetbrains.mps.lang.core.structure.INamedConcept"), "name") + "}/../" + PropertyNode_Behavior.call_getFileName_1213877341757(SLinkOperations.getTarget(_context.getNode(), "propertyNode", false));
   }
 
   public static Object propertyMacro_GetPropertyValue_1201709830416(final IOperationContext operationContext, final PropertyMacroContext _context) {
-    return "${ant.file}/../" + Project_Behavior.call_getFileName_1213877351819(SLinkOperations.getTarget(_context.getNode(), "project", false));
+    return "${ant.file." + SPropertyOperations.getString(SNodeOperations.cast(SNodeOperations.getContainingRoot(_context.getNode()), "jetbrains.mps.lang.core.structure.INamedConcept"), "name") + "}/../" + Project_Behavior.call_getFileName_1213877351819(SLinkOperations.getTarget(_context.getNode(), "project", false));
   }
 
   public static Object propertyMacro_GetPropertyValue_1219150196232(final IOperationContext operationContext, final PropertyMacroContext _context) {
@@ -187,6 +187,9 @@ public class QueriesGenerated {
     }
     Iterable<SNode> projects = ListSequence.fromList(SNodeOperations.getDescendants(_context.getNode(), "jetbrains.mps.buildlanguage.structure.ITargetReference", false, new String[]{})).where(new IWhereFilter<SNode>() {
       public boolean accept(SNode it) {
+        if (eq_x583g4_a0a0a0a0a0a2a23(ITargetReference_Behavior.call_getProjectFileName_1230222765831(it), Project_Behavior.call_getFileName_1213877351819(_context.getNode()))) {
+          return false;
+        }
         boolean b = !(SetSequence.fromSet(existing).contains(ITargetReference_Behavior.call_getProjectFileName_1230222765831(it)));
         SetSequence.fromSet(existing).addElement(ITargetReference_Behavior.call_getProjectFileName_1230222765831(it));
         return b;
@@ -213,5 +216,12 @@ public class QueriesGenerated {
 
   public static Iterable sourceNodesQuery_1197043378055(final IOperationContext operationContext, final SourceSubstituteMacroNodesContext _context) {
     return SLinkOperations.getTargets(_context.getNode(), "target", true);
+  }
+
+  private static boolean eq_x583g4_a0a0a0a0a0a2a23(Object a, Object b) {
+    return (a != null ?
+      a.equals(b) :
+      a == b
+    );
   }
 }
