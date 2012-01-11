@@ -42,6 +42,9 @@
       <property name="virtualPackage" nameId="tpck.1193676396447" value="Expressions" />
       <link role="concept" roleId="tp1t.1213093996982" targetNodeId="tpsk.1200511852076" resolveInfo="CallReference" />
     </node>
+    <node type="tp1t.ConceptConstraints" typeId="tp1t.1213093968558" id="2113577360859165800">
+      <link role="concept" roleId="tp1t.1213093996982" targetNodeId="tpsk.1196851952934" resolveInfo="PropertyValueExpression" />
+    </node>
   </roots>
   <root id="1213104847182">
     <node role="referent" roleId="tp1t.1213100494875" type="tp1t.NodeReferentConstraint" typeId="tp1t.1148687176410" id="1213104847183">
@@ -317,5 +320,6 @@
       </node>
     </node>
   </root>
+  <root id="2113577360859165800" />
 </model>
 
