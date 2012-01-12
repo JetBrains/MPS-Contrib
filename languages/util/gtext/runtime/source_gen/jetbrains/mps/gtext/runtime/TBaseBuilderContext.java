@@ -48,7 +48,6 @@ public class TBaseBuilderContext {
     if (getContents().size() == 1) {
       return myBuffer.getText();
     }
-    StringBuilder res = new StringBuilder();
     List<TContent> sortedContents = new ArrayList<TContent>(getContents().values());
     sortedContents.remove(getContentsStack().peek());
     Collections.sort(sortedContents, new Comparator<TContent>() {

@@ -6,7 +6,7 @@
   <language namespace="7866978e-a0f0-4cc7-81bc-4d213d9375e1(jetbrains.mps.lang.smodel)" />
   <devkit namespace="fbc25dd2-5da4-483a-8b19-70928e1b62d7(jetbrains.mps.devkit.general-purpose)" />
   <import index="tpkv" modelUID="r:00000000-0000-4000-0000-011c895905a3(jetbrains.mps.xml.deprecated.structure)" version="0" />
-  <import index="xuot" modelUID="f:java_stub#37a3367b-1fb2-44d8-aa6b-18075e74e003#org.jdom(MPS.Classpath/org.jdom@java_stub)" version="-1" />
+  <import index="zwkq" modelUID="f:java_stub#6ed54515-acc8-4d1e-a16c-9fd6cfe951ea#org.jdom(MPS.Core/org.jdom@java_stub)" version="-1" />
   <import index="tpck" modelUID="r:00000000-0000-4000-0000-011c89590288(jetbrains.mps.lang.core.structure)" version="0" implicit="yes" />
   <import index="tpee" modelUID="r:00000000-0000-4000-0000-011c895902ca(jetbrains.mps.baseLanguage.structure)" version="3" implicit="yes" />
   <import index="tp25" modelUID="r:00000000-0000-4000-0000-011c89590301(jetbrains.mps.lang.smodel.structure)" version="16" implicit="yes" />
@@ -33,7 +33,7 @@
       <node role="parameter" roleId="tpee.1068580123134" type="tpee.ParameterDeclaration" typeId="tpee.1068498886292" id="1234406685500">
         <property name="name" nameId="tpck.1169194664001" value="doctype" />
         <node role="type" roleId="tpee.5680397130376446158" type="tpee.ClassifierType" typeId="tpee.1107535904670" id="1234406685501">
-          <link role="classifier" roleId="tpee.1107535924139" targetNodeId="xuot.~DocType" resolveInfo="DocType" />
+          <link role="classifier" roleId="tpee.1107535924139" targetNodeId="zwkq.~DocType" resolveInfo="DocType" />
         </node>
       </node>
     </node>
@@ -55,7 +55,7 @@
               <link role="variableDeclaration" roleId="tpee.1068581517664" targetNodeId="1234406734431" resolveInfo="doctype" />
             </node>
             <node role="operation" roleId="tpee.1197027833540" type="tpee.InstanceMethodCallOperation" typeId="tpee.1202948039474" id="1234406749838">
-              <link role="baseMethodDeclaration" roleId="tpee.1068499141037" targetNodeId="xuot.~DocType%dsetPublicID(java%dlang%dString)%corg%djdom%dDocType" resolveInfo="setPublicID" />
+              <link role="baseMethodDeclaration" roleId="tpee.1068499141037" targetNodeId="zwkq.~DocType%dsetPublicID(java%dlang%dString)%corg%djdom%dDocType" resolveInfo="setPublicID" />
               <node role="actualArgument" roleId="tpee.1068499141038" type="tpee.DotExpression" typeId="tpee.1197027756228" id="1234406762757">
                 <node role="operand" roleId="tpee.1197027771414" type="1i04.ThisNodeExpression" typeId="1i04.1225194691553" id="1234406760488" />
                 <node role="operation" roleId="tpee.1197027833540" type="tp25.SPropertyAccess" typeId="tp25.1138056022639" id="1234406766134">
@@ -71,7 +71,7 @@
               <link role="variableDeclaration" roleId="tpee.1068581517664" targetNodeId="1234406734431" resolveInfo="doctype" />
             </node>
             <node role="operation" roleId="tpee.1197027833540" type="tpee.InstanceMethodCallOperation" typeId="tpee.1202948039474" id="1234406769299">
-              <link role="baseMethodDeclaration" roleId="tpee.1068499141037" targetNodeId="xuot.~DocType%dsetSystemID(java%dlang%dString)%corg%djdom%dDocType" resolveInfo="setSystemID" />
+              <link role="baseMethodDeclaration" roleId="tpee.1068499141037" targetNodeId="zwkq.~DocType%dsetSystemID(java%dlang%dString)%corg%djdom%dDocType" resolveInfo="setSystemID" />
               <node role="actualArgument" roleId="tpee.1068499141038" type="tpee.DotExpression" typeId="tpee.1197027756228" id="1234406769300">
                 <node role="operand" roleId="tpee.1197027771414" type="1i04.ThisNodeExpression" typeId="1i04.1225194691553" id="1234406769301" />
                 <node role="operation" roleId="tpee.1197027833540" type="tp25.SPropertyAccess" typeId="tp25.1138056022639" id="1234406778351">
@@ -85,7 +85,7 @@
       <node role="parameter" roleId="tpee.1068580123134" type="tpee.ParameterDeclaration" typeId="tpee.1068498886292" id="1234406734431">
         <property name="name" nameId="tpck.1169194664001" value="doctype" />
         <node role="type" roleId="tpee.5680397130376446158" type="tpee.ClassifierType" typeId="tpee.1107535904670" id="1234406734432">
-          <link role="classifier" roleId="tpee.1107535924139" targetNodeId="xuot.~DocType" resolveInfo="DocType" />
+          <link role="classifier" roleId="tpee.1107535924139" targetNodeId="zwkq.~DocType" resolveInfo="DocType" />
         </node>
       </node>
       <node role="returnType" roleId="tpee.1068580123133" type="tpee.VoidType" typeId="tpee.1068581517677" id="1234406734434" />

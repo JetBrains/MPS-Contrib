@@ -12,6 +12,7 @@ import jetbrains.mps.baseLanguage.behavior.TypeDerivable_Behavior;
 import jetbrains.mps.lang.smodel.generator.smodelAdapter.SLinkOperations;
 import jetbrains.mps.lang.typesystem.runtime.HUtil;
 import jetbrains.mps.smodel.action.SideTransformPreconditionContext;
+import jetbrains.mps.baseLanguage.dates.behavior.DateTypeUtil;
 import java.util.List;
 import jetbrains.mps.smodel.action.INodeSubstituteAction;
 import jetbrains.mps.smodel.action.NodeSubstituteActionsFactoryContext;
@@ -19,7 +20,7 @@ import jetbrains.mps.internal.collections.runtime.ListSequence;
 import java.util.ArrayList;
 import jetbrains.mps.lang.smodel.generator.smodelAdapter.SConceptOperations;
 import jetbrains.mps.util.NameUtil;
-import jetbrains.mps.util.Calculable;
+import jetbrains.mps.util.Computable;
 import org.joda.time.DateTimeZone;
 import jetbrains.mps.smodel.action.DefaultChildNodeSubstituteAction;
 import jetbrains.mps.smodel.SModel;
@@ -128,8 +129,8 @@ public class QueriesGenerated {
       SNode outputConcept = SConceptOperations.findConceptDeclaration("jetbrains.mps.baseLanguage.dates.structure.TimeZoneIDExpression");
       SNode childConcept = (SNode) _context.getChildConcept();
       if (SConceptOperations.isSuperConceptOf(childConcept, NameUtil.nodeFQName(outputConcept))) {
-        Calculable calc = new Calculable() {
-          public Object calculate() {
+        Computable computable = new Computable() {
+          public Object compute() {
             DateTimeZone.getAvailableIDs();
             List<String> result = ListSequence.fromList(new ArrayList<String>());
             for (Object id : DateTimeZone.getAvailableIDs()) {
@@ -138,7 +139,7 @@ public class QueriesGenerated {
             return result;
           }
         };
-        Iterable<String> queryResult = (Iterable) calc.calculate();
+        Iterable<String> queryResult = (Iterable) computable.compute();
         if (queryResult != null) {
           for (final String item : queryResult) {
             ListSequence.fromList(result).addElement(new DefaultChildNodeSubstituteAction(outputConcept, item, _context.getParentNode(), _context.getCurrentTargetNode(), _context.getChildSetter(), operationContext.getScope()) {
@@ -381,12 +382,12 @@ public class QueriesGenerated {
   public static List<INodeSubstituteAction> sideTransform_ActionsFactory_Expression_7499037524191428215(final IOperationContext operationContext, final SideTransformActionsBuilderContext _context) {
     List<INodeSubstituteAction> result = ListSequence.fromList(new ArrayList<INodeSubstituteAction>());
     {
-      Calculable calc = new Calculable() {
-        public Object calculate() {
+      Computable computable = new Computable() {
+        public Object compute() {
           return SNodeOperations.getParent(_context.getSourceNode());
         }
       };
-      SNode node = (SNode) calc.calculate();
+      SNode node = (SNode) computable.compute();
       ListSequence.fromList(result).addSequence(ListSequence.fromList(ModelActions.createRightTransformHintSubstituteActions(node, CellSide.RIGHT, _context.getTransformationTag(), operationContext)));
     }
     return result;
@@ -689,12 +690,12 @@ public class QueriesGenerated {
     List<INodeSubstituteAction> result = ListSequence.fromList(new ArrayList<INodeSubstituteAction>());
     {
       final SNode concept = SConceptOperations.findConceptDeclaration("jetbrains.mps.baseLanguage.dates.structure.PeriodConstant");
-      Calculable calculable = new Calculable() {
-        public Object calculate() {
+      Computable computable = new Computable() {
+        public Object compute() {
           return DateTypeUtil.findDateTimeProperties(operationContext.getScope(), _context.getModel());
         }
       };
-      Iterable<SNode> parameterObjects = (Iterable<SNode>) calculable.calculate();
+      Iterable<SNode> parameterObjects = (Iterable<SNode>) computable.compute();
       assert parameterObjects != null;
       for (final SNode item : parameterObjects) {
         ListSequence.fromList(result).addElement(new AbstractSideTransformHintSubstituteAction(concept, item, _context.getSourceNode()) {

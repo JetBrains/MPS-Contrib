@@ -44,25 +44,50 @@
     <scopeInfo nodeId="1181754943395" fileName="typeof_BuilderContextRef_InferenceRule.java" startLine="31" startPosition="46" endLine="32" endPosition="61" />
     <scopeInfo nodeId="1181754943395" fileName="typeof_BuilderContextRef_InferenceRule.java" startLine="42" startPosition="30" endLine="43" endPosition="17" />
     <scopeInfo nodeId="1181754943395" fileName="typeof_BuilderContextRef_InferenceRule.java" startLine="19" startPosition="124" endLine="21" endPosition="3" />
-    <scopeInfo nodeId="1181754943395" fileName="typeof_BuilderContextRef_InferenceRule.java" startLine="36" startPosition="5" endLine="38" endPosition="45" />
+    <scopeInfo nodeId="1181754943395" fileName="typeof_BuilderContextRef_InferenceRule.java" startLine="36" startPosition="5" endLine="38" endPosition="45">
+      <varInfo nodeId="1181754943395" varName="b" />
+    </scopeInfo>
     <scopeInfo nodeId="1207736334229" fileName="typeof_BuilderContextRef_InferenceRule.java" startLine="46" startPosition="52" endLine="48" endPosition="5" />
-    <scopeInfo nodeId="1207736329894" fileName="typeof_BuilderContextRef_InferenceRule.java" startLine="24" startPosition="5" endLine="27" endPosition="336" />
+    <scopeInfo nodeId="1207736329894" fileName="typeof_BuilderContextRef_InferenceRule.java" startLine="24" startPosition="5" endLine="27" endPosition="336">
+      <varInfo nodeId="1207736329894" varName="_info_12389875345" />
+      <varInfo nodeId="1207736329894" varName="_nodeToCheck_1029348928467" />
+    </scopeInfo>
     <scopeInfo nodeId="1181754943395" fileName="typeof_BuilderContextRef_InferenceRule.java" startLine="30" startPosition="0" endLine="34" endPosition="0" />
     <scopeInfo nodeId="1181754943395" fileName="typeof_BuilderContextRef_InferenceRule.java" startLine="35" startPosition="68" endLine="39" endPosition="5" />
     <scopeInfo nodeId="1181754943395" fileName="typeof_BuilderContextRef_InferenceRule.java" startLine="41" startPosition="0" endLine="45" endPosition="0" />
-    <scopeInfo nodeId="1207736334229" fileName="typeof_BuilderContextRef_InferenceRule.java" startLine="54" startPosition="7" endLine="58" endPosition="31" />
-    <scopeInfo nodeId="1207736334229" fileName="typeof_BuilderContextRef_InferenceRule.java" startLine="67" startPosition="7" endLine="71" endPosition="31" />
+    <scopeInfo nodeId="1207736334229" fileName="typeof_BuilderContextRef_InferenceRule.java" startLine="54" startPosition="7" endLine="58" endPosition="31">
+      <varInfo nodeId="1207736334229" varName="quotedNode1_2" />
+    </scopeInfo>
+    <scopeInfo nodeId="1207736334229" fileName="typeof_BuilderContextRef_InferenceRule.java" startLine="67" startPosition="7" endLine="71" endPosition="31">
+      <varInfo nodeId="1207736334229" varName="quotedNode1_2" />
+    </scopeInfo>
     <scopeInfo nodeId="1181754943396" fileName="typeof_BuilderContextRef_InferenceRule.java" startLine="23" startPosition="130" endLine="28" endPosition="5" />
     <scopeInfo nodeId="1207736334229" fileName="typeof_BuilderContextRef_InferenceRule.java" startLine="53" startPosition="32" endLine="59" endPosition="7" />
     <scopeInfo nodeId="1207736334229" fileName="typeof_BuilderContextRef_InferenceRule.java" startLine="66" startPosition="32" endLine="72" endPosition="7" />
-    <scopeInfo nodeId="1181754943395" fileName="typeof_BuilderContextRef_InferenceRule.java" startLine="34" startPosition="0" endLine="41" endPosition="0" />
-    <scopeInfo nodeId="1181754943395" fileName="typeof_BuilderContextRef_InferenceRule.java" startLine="22" startPosition="0" endLine="30" endPosition="0" />
-    <scopeInfo nodeId="1207736334229" fileName="typeof_BuilderContextRef_InferenceRule.java" startLine="50" startPosition="76" endLine="60" endPosition="20" />
-    <scopeInfo nodeId="1207736334229" fileName="typeof_BuilderContextRef_InferenceRule.java" startLine="63" startPosition="31" endLine="73" endPosition="20" />
-    <scopeInfo nodeId="1207736334229" fileName="typeof_BuilderContextRef_InferenceRule.java" startLine="49" startPosition="0" endLine="62" endPosition="0" />
+    <scopeInfo nodeId="1181754943395" fileName="typeof_BuilderContextRef_InferenceRule.java" startLine="34" startPosition="0" endLine="41" endPosition="0">
+      <varInfo nodeId="1181754943395" varName="argument" />
+    </scopeInfo>
+    <scopeInfo nodeId="1181754943395" fileName="typeof_BuilderContextRef_InferenceRule.java" startLine="22" startPosition="0" endLine="30" endPosition="0">
+      <varInfo nodeId="1181754943395" varName="builderContextRef" />
+      <varInfo nodeId="1181754943395" varName="status" />
+      <varInfo nodeId="1181754943395" varName="typeCheckingContext" />
+    </scopeInfo>
+    <scopeInfo nodeId="1207736334229" fileName="typeof_BuilderContextRef_InferenceRule.java" startLine="50" startPosition="76" endLine="60" endPosition="20">
+      <varInfo nodeId="1207736334229" varName="_parameterValues_129834374" />
+      <varInfo nodeId="1207736334229" varName="quotedNode_1" />
+      <varInfo nodeId="1207736334229" varName="result" />
+    </scopeInfo>
+    <scopeInfo nodeId="1207736334229" fileName="typeof_BuilderContextRef_InferenceRule.java" startLine="63" startPosition="31" endLine="73" endPosition="20">
+      <varInfo nodeId="1207736334229" varName="_parameterValues_129834374" />
+      <varInfo nodeId="1207736334229" varName="quotedNode_1" />
+      <varInfo nodeId="1207736334229" varName="result" />
+    </scopeInfo>
+    <scopeInfo nodeId="1207736334229" fileName="typeof_BuilderContextRef_InferenceRule.java" startLine="49" startPosition="0" endLine="62" endPosition="0">
+      <varInfo nodeId="1207736334229" varName="typeCheckingContext" />
+    </scopeInfo>
     <scopeInfo nodeId="1207736334229" fileName="typeof_BuilderContextRef_InferenceRule.java" startLine="62" startPosition="0" endLine="75" endPosition="0" />
-    <unitInfo nodeId="1207736334229" fileName="typeof_BuilderContextRef_InferenceRule.java" startLine="46" startPosition="0" endLine="76" endPosition="0" unitName="jetbrains.mps.gtext.typesystem.typeof_BuilderContextRef_InferenceRule$QuotationClass_m3afeb_a0a0a0" />
     <unitInfo nodeId="1181754943395" fileName="typeof_BuilderContextRef_InferenceRule.java" startLine="19" startPosition="0" endLine="77" endPosition="0" unitName="jetbrains.mps.gtext.typesystem.typeof_BuilderContextRef_InferenceRule" />
+    <unitInfo nodeId="1207736334229" fileName="typeof_BuilderContextRef_InferenceRule.java" startLine="46" startPosition="0" endLine="76" endPosition="0" unitName="jetbrains.mps.gtext.typesystem.typeof_BuilderContextRef_InferenceRule$QuotationClass_m3afeb_a0a0a0" />
   </root>
 </debugInfo>
 

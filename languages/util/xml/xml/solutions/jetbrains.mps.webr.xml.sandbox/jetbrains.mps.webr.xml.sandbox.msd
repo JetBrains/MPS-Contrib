@@ -1,8 +1,9 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <solution name="jetbrains.mps.webr.xml.sandbox" uuid="9964a1b9-b601-4d3d-aefb-2f3b3388a256" compileInMPS="true">
   <models>
-    <modelRoot path="${solution_descriptor}/" namespacePrefix="" />
+    <modelRoot path="${solution_descriptor}/" />
   </models>
+  <sourcePath />
   <usedLanguages>
     <usedLanguage>f3061a53-9226-4cc5-a443-f952ceaf5816(jetbrains.mps.baseLanguage)</usedLanguage>
     <usedLanguage>132aa4d8-a3f7-441c-a7eb-3fce23492c6a(jetbrains.mps.baseLanguage.builders)</usedLanguage>

@@ -204,12 +204,13 @@
       <link role="target" roleId="tpce.1071599976176" targetNodeId="1164412935041" resolveInfo="GItem" />
     </node>
     <node role="conceptProperty" roleId="tpce.1105725339613" type="tpce.StringConceptProperty" typeId="tpce.1105725638761" id="1179109529900">
-      <property name="value" nameId="tpce.1105725733873" value="&gt;?condtional line" />
+      <property name="value" nameId="tpce.1105725733873" value="&gt;?conditional line" />
       <link role="conceptPropertyDeclaration" roleId="tpce.1105725439818" targetNodeId="tpck.1137473891462" resolveInfo="alias" />
     </node>
     <node role="implements" roleId="tpce.1169129564478" type="tpce.InterfaceConceptReference" typeId="tpce.1169127622168" id="1239126762480">
       <link role="intfc" roleId="tpce.1169127628841" targetNodeId="1239125024709" resolveInfo="GCompositeItem" />
     </node>
+    <node role="smodelAttribute" roleId="tpck.5169995583184591170" type="tpce.DeprecatedNodeAnnotation" typeId="tpce.1224240836180" id="5199490784231981069" />
   </root>
   <root id="1181754781153">
     <node role="conceptProperty" roleId="tpce.1105725339613" type="tpce.StringConceptProperty" typeId="tpce.1105725638761" id="1181754781154">

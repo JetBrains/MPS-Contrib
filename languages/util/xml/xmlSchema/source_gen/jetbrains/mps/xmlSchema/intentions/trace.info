@@ -30,9 +30,15 @@
     <scopeInfo nodeId="1195647346726" fileName="MakeTypeExpressionListVertical_Intention.java" startLine="22" startPosition="0" endLine="26" endPosition="0" />
     <scopeInfo nodeId="1195647346726" fileName="MakeTypeExpressionListVertical_Intention.java" startLine="26" startPosition="0" endLine="30" endPosition="0" />
     <scopeInfo nodeId="1195647346781" fileName="MakeTypeExpressionListVertical_Intention.java" startLine="31" startPosition="85" endLine="35" endPosition="6" />
-    <scopeInfo nodeId="1195647346726" fileName="MakeTypeExpressionListVertical_Intention.java" startLine="37" startPosition="0" endLine="41" endPosition="0" />
+    <scopeInfo nodeId="1195647346726" fileName="MakeTypeExpressionListVertical_Intention.java" startLine="37" startPosition="0" endLine="41" endPosition="0">
+      <varInfo nodeId="1195647346726" varName="editorContext" />
+      <varInfo nodeId="1195647346726" varName="node" />
+    </scopeInfo>
     <scopeInfo nodeId="1195647346726" fileName="MakeTypeExpressionListVertical_Intention.java" startLine="41" startPosition="0" endLine="45" endPosition="0" />
-    <scopeInfo nodeId="1195647346726" fileName="MakeTypeExpressionListVertical_Intention.java" startLine="30" startPosition="0" endLine="37" endPosition="0" />
+    <scopeInfo nodeId="1195647346726" fileName="MakeTypeExpressionListVertical_Intention.java" startLine="30" startPosition="0" endLine="37" endPosition="0">
+      <varInfo nodeId="1195647346726" varName="editorContext" />
+      <varInfo nodeId="1195647346726" varName="node" />
+    </scopeInfo>
     <unitInfo nodeId="1195647346726" fileName="MakeTypeExpressionListVertical_Intention.java" startLine="11" startPosition="0" endLine="46" endPosition="0" unitName="jetbrains.mps.xmlSchema.intentions.MakeTypeExpressionListVertical_Intention" />
   </root>
 </debugInfo>

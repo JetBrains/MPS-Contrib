@@ -8,6 +8,9 @@ package jetbrains.mps.graphLayout.intGeom2D;
  * Contains utility methods for integer one-dimensional geometry.
  */
 public class Util1D {
+  public Util1D() {
+  }
+
   public static boolean insideOpenSegment(int end1, int end2, int mid) {
     if (end1 < end2) {
       return end1 < mid && mid < end2;

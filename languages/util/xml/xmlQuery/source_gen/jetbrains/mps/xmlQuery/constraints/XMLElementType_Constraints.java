@@ -18,6 +18,7 @@ import jetbrains.mps.smodel.runtime.ReferencePresentationContext;
 import jetbrains.mps.smodel.runtime.ReferenceConstraintsContext;
 import jetbrains.mps.smodel.search.SubnodesSearchScope;
 import jetbrains.mps.lang.smodel.generator.smodelAdapter.SLinkOperations;
+import jetbrains.mps.smodel.runtime.base.BaseScopeProvider;
 
 public class XMLElementType_Constraints extends BaseConstraintsDescriptor {
   private static SNodePointer breakingNode_yvyt3v_a0a3a0a0a4a0b0a1a0 = new SNodePointer("r:e79b58b4-ea58-4c9d-b43b-c3a260addf6a(jetbrains.mps.xmlQuery.constraints)", "4815471077468703818");
@@ -95,7 +96,7 @@ public class XMLElementType_Constraints extends BaseConstraintsDescriptor {
       @Nullable
       @Override
       public ReferenceScopeProvider getScopeProvider() {
-        return new BaseReferenceScopeProvider();
+        return new BaseScopeProvider();
       }
     });
     return references;

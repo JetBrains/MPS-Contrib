@@ -13,6 +13,7 @@ import jetbrains.mps.smodel.IScope;
 import jetbrains.mps.lang.smodel.generator.smodelAdapter.SLinkOperations;
 import org.jetbrains.annotations.Nullable;
 import jetbrains.mps.smodel.runtime.ReferenceScopeProvider;
+import jetbrains.mps.smodel.runtime.base.BaseScopeProvider;
 import jetbrains.mps.smodel.runtime.base.BaseReferenceScopeProvider;
 import jetbrains.mps.smodel.IOperationContext;
 import jetbrains.mps.smodel.runtime.ReferenceConstraintsContext;
@@ -48,7 +49,7 @@ public class DateTimePropertyFormatToken_Constraints extends BaseConstraintsDesc
       @Nullable
       @Override
       public ReferenceScopeProvider getScopeProvider() {
-        return new BaseReferenceScopeProvider();
+        return new BaseScopeProvider();
       }
     });
     references.put("dateTimePropertyFormatType", new BaseReferenceConstraintsDescriptor("dateTimePropertyFormatType", this) {
