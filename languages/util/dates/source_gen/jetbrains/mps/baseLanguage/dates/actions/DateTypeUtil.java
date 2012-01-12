@@ -37,6 +37,10 @@ public class DateTypeUtil {
     return isInstanceOf(node, periodType);
   }
 
+  public static boolean isPeriodType(SNode type) {
+    return isStrongSubtype(type, periodType);
+  }
+
   public static boolean isInstanceOfPeriodCompare(SNode compareOperation) {
     return bothOperandsAreNotNull(compareOperation) && isInstanceOfPeriod(SLinkOperations.getTarget(compareOperation, "leftExpression", true));
   }
@@ -53,12 +57,20 @@ public class DateTypeUtil {
     return isInstanceOf(node, dateTimeType);
   }
 
+  public static boolean isDatetimeType(SNode type) {
+    return isStrongSubtype(type, dateTimeType);
+  }
+
   public static boolean isInstanceOfTimezone(SNode node) {
     return isInstanceOf(node, dateTimeZoneType);
   }
 
   public static boolean isInstanceOfDatetimeWithTZ(SNode node) {
     return isInstanceOf(node, dateTimeWithTZType);
+  }
+
+  public static boolean isDatetimeWithTZ(SNode type) {
+    return isStrongSubtype(type, dateTimeWithTZType);
   }
 
   public static boolean isInstanceOfInt(SNode node) {
@@ -86,6 +98,18 @@ public class DateTypeUtil {
     }
     try {
       return TypeChecker.getInstance().getSubtypingManager().isSubtype(TypeChecker.getInstance().getTypeOf(node), type, false);
+    } catch (Throwable thr) {
+      LOG.error("Error executing isStrongSubtype(): ", thr);
+    }
+    return false;
+  }
+
+  private static boolean isStrongSubtype(SNode type, SNode stype) {
+    if (type == null) {
+      return false;
+    }
+    try {
+      return TypeChecker.getInstance().getSubtypingManager().isSubtype(type, stype, false);
     } catch (Throwable thr) {
       LOG.error("Error executing isStrongSubtype(): ", thr);
     }

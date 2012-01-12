@@ -9,12 +9,12 @@ import jetbrains.mps.lang.smodel.generator.smodelAdapter.SLinkOperations;
 import jetbrains.mps.lang.typesystem.runtime.HUtil;
 import jetbrains.mps.lang.smodel.generator.smodelAdapter.SNodeOperations;
 import jetbrains.mps.baseLanguage.dates.actions.DateTypeUtil;
+import jetbrains.mps.smodel.SNode;
 import jetbrains.mps.generator.template.PropertyMacroContext;
 import jetbrains.mps.baseLanguage.datesInternal.behavior.DateTimeZone_Behavior;
 import jetbrains.mps.lang.smodel.generator.smodelAdapter.SPropertyOperations;
 import jetbrains.mps.internal.collections.runtime.ListSequence;
 import jetbrains.mps.baseLanguage.dates.behavior.ConditionalFormatToken_Behavior;
-import jetbrains.mps.smodel.SNode;
 import jetbrains.mps.baseLanguage.dates.behavior.ScheduleLiteral_Behavior;
 import jetbrains.mps.generator.template.ReferenceMacroContext;
 import jetbrains.mps.baseLanguage.dates.behavior.DateTimeCompareOperation_Behavior;
@@ -95,7 +95,10 @@ public class QueriesGenerated {
   }
 
   public static boolean baseMappingRule_Condition_1172502062514(final IOperationContext operationContext, final BaseMappingRuleContext _context) {
-    return ((DateTypeUtil.isInstanceOfPeriod(SLinkOperations.getTarget(_context.getNode(), "leftExpression", true)) || DateTypeUtil.isInstanceOfDatetime(SLinkOperations.getTarget(_context.getNode(), "leftExpression", true)) || DateTypeUtil.isInstanceOfDatetimeWithTZ(SLinkOperations.getTarget(_context.getNode(), "leftExpression", true))) && DateTypeUtil.isInstanceOfPeriod(SLinkOperations.getTarget(_context.getNode(), "rightExpression", true))) || (DateTypeUtil.isInstanceOfPeriod(SLinkOperations.getTarget(_context.getNode(), "leftExpression", true)) && (DateTypeUtil.isInstanceOfDatetime(SLinkOperations.getTarget(_context.getNode(), "rightExpression", true)) || DateTypeUtil.isInstanceOfDatetimeWithTZ(SLinkOperations.getTarget(_context.getNode(), "rightExpression", true))));
+    SNode leftType = TypeChecker.getInstance().getTypeOf(SLinkOperations.getTarget(_context.getNode(), "leftExpression", true));
+    SNode rightType = TypeChecker.getInstance().getTypeOf(SLinkOperations.getTarget(_context.getNode(), "rightExpression", true));
+
+    return ((DateTypeUtil.isPeriodType(leftType) || DateTypeUtil.isDatetimeType(leftType) || DateTypeUtil.isDatetimeWithTZ(leftType)) && DateTypeUtil.isPeriodType(rightType)) || (DateTypeUtil.isPeriodType(leftType) && (DateTypeUtil.isDatetimeType(rightType) || DateTypeUtil.isDatetimeWithTZ(rightType)));
   }
 
   public static Object propertyMacro_GetPropertyValue_1239803858261(final IOperationContext operationContext, final PropertyMacroContext _context) {
