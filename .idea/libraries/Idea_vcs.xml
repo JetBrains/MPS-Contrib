@@ -4,25 +4,24 @@
       <root url="jar://$PROJECT_DIR$/plugins/git4idea/lib/resources_en.jar!/" />
       <root url="jar://$PROJECT_DIR$/plugins/git4idea/lib/git4idea.jar!/" />
       <root url="jar://$PROJECT_DIR$/plugins/git4idea/lib/trilead-ssh2.jar!/" />
-      <root url="jar://$PROJECT_DIR$/plugins/svn4idea/lib/svnkit.jar!/" />
-      <root url="jar://$PROJECT_DIR$/plugins/svn4idea/lib/trilead.jar!/" />
       <root url="jar://$PROJECT_DIR$/plugins/cvsIntegration/lib/trilead-ssh2-build213.jar!/" />
-      <root url="jar://$PROJECT_DIR$/plugins/svn4idea/lib/jna.jar!/" />
       <root url="jar://$PROJECT_DIR$/plugins/cvsIntegration/lib/cvs_util.jar!/" />
       <root url="jar://$PROJECT_DIR$/plugins/cvsIntegration/lib/javacvs-src.jar!/" />
       <root url="jar://$PROJECT_DIR$/plugins/cvsIntegration/lib/cvsIntegration.jar!/" />
       <root url="jar://$PROJECT_DIR$/plugins/cvsIntegration/lib/resources_en.jar!/" />
       <root url="jar://$PROJECT_DIR$/plugins/cvsIntegration/lib/smartcvs-src.jar!/" />
-      <root url="jar://$PROJECT_DIR$/plugins/svn4idea/lib/svn4idea.jar!/" />
-      <root url="jar://$PROJECT_DIR$/plugins/svn4idea/lib/resources_en.jar!/" />
-      <root url="jar://$PROJECT_DIR$/plugins/svn4idea/lib/antlr.jar!/" />
-      <root url="jar://$PROJECT_DIR$/plugins/svn4idea/lib/httpclient-4.1.1.jar!/" />
-      <root url="jar://$PROJECT_DIR$/plugins/svn4idea/lib/httpcore-4.1.jar!/" />
-      <root url="jar://$PROJECT_DIR$/plugins/svn4idea/lib/sequence-library.jar!/" />
-      <root url="jar://$PROJECT_DIR$/plugins/svn4idea/lib/sqljet.jar!/" />
       <root url="jar://$PROJECT_DIR$/plugins/git4idea/lib/ini4j-0.5.2-patched.jar!/" />
       <root url="jar://$PROJECT_DIR$/plugins/git4idea/lib/jsch-0.1.44.jar!/" />
       <root url="jar://$PROJECT_DIR$/plugins/git4idea/lib/org.eclipse.jgit-1.1.0.201109151100-r.jar!/" />
+      <root url="jar://$PROJECT_DIR$/plugins/svn4ideaOld/lib/antlr.jar!/" />
+      <root url="jar://$PROJECT_DIR$/plugins/svn4ideaOld/lib/httpclient-4.1.1.jar!/" />
+      <root url="jar://$PROJECT_DIR$/plugins/svn4ideaOld/lib/httpcore-4.1.jar!/" />
+      <root url="jar://$PROJECT_DIR$/plugins/svn4ideaOld/lib/jna.jar!/" />
+      <root url="jar://$PROJECT_DIR$/plugins/svn4ideaOld/lib/sequence-library.jar!/" />
+      <root url="jar://$PROJECT_DIR$/plugins/svn4ideaOld/lib/sqljet.jar!/" />
+      <root url="jar://$PROJECT_DIR$/plugins/svn4ideaOld/lib/svn4ideaOld.jar!/" />
+      <root url="jar://$PROJECT_DIR$/plugins/svn4ideaOld/lib/svnkit.jar!/" />
+      <root url="jar://$PROJECT_DIR$/plugins/svn4ideaOld/lib/trilead.jar!/" />
     </CLASSES>
     <JAVADOC />
     <SOURCES>
