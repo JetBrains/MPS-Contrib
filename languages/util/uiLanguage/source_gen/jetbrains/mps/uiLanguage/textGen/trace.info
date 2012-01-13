@@ -10,8 +10,12 @@
     <scopeInfo nodeId="6242401288845941926" fileName="PngIcon_TextGen.java" startLine="12" startPosition="72" endLine="13" endPosition="65" />
     <scopeInfo nodeId="6242401288845940755" fileName="PngIcon_TextGen.java" startLine="16" startPosition="42" endLine="17" endPosition="17" />
     <scopeInfo nodeId="6242401288845940755" fileName="PngIcon_TextGen.java" startLine="11" startPosition="42" endLine="13" endPosition="65" />
-    <scopeInfo nodeId="6242401288845940755" fileName="PngIcon_TextGen.java" startLine="15" startPosition="0" endLine="19" endPosition="0" />
-    <scopeInfo nodeId="6242401288845940755" fileName="PngIcon_TextGen.java" startLine="10" startPosition="51" endLine="15" endPosition="0" />
+    <scopeInfo nodeId="6242401288845940755" fileName="PngIcon_TextGen.java" startLine="15" startPosition="0" endLine="19" endPosition="0">
+      <varInfo nodeId="6242401288845940755" varName="node" />
+    </scopeInfo>
+    <scopeInfo nodeId="6242401288845940755" fileName="PngIcon_TextGen.java" startLine="10" startPosition="51" endLine="15" endPosition="0">
+      <varInfo nodeId="6242401288845940755" varName="node" />
+    </scopeInfo>
     <unitInfo nodeId="6242401288845940755" fileName="PngIcon_TextGen.java" startLine="10" startPosition="0" endLine="20" endPosition="0" unitName="jetbrains.mps.uiLanguage.textGen.PngIcon_TextGen" />
   </root>
 </debugInfo>

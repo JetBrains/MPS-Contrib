@@ -20,8 +20,8 @@
     <scopeInfo nodeId="3987693689859618174" fileName="ListenerId.java" startLine="24" startPosition="70" endLine="25" endPosition="19" />
     <scopeInfo nodeId="3987693689859618117" fileName="ListenerId.java" startLine="10" startPosition="53" endLine="12" endPosition="22" />
     <scopeInfo nodeId="3987693689859618110" fileName="ListenerId.java" startLine="9" startPosition="0" endLine="13" endPosition="3">
-      <varInfo nodeId="3987693689859618115" varName="method" />
       <varInfo nodeId="3987693689859618113" varName="instance" />
+      <varInfo nodeId="3987693689859618115" varName="method" />
     </scopeInfo>
     <scopeInfo nodeId="3987693689859618126" fileName="ListenerId.java" startLine="14" startPosition="0" endLine="18" endPosition="0" />
     <scopeInfo nodeId="3987693689859618145" fileName="ListenerId.java" startLine="19" startPosition="35" endLine="27" endPosition="16">
