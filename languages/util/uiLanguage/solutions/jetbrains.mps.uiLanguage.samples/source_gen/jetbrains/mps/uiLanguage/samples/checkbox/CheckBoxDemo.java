@@ -34,7 +34,7 @@ public class CheckBoxDemo extends JFrame {
   public CheckBoxDemo() {
     this.myThis = this;
     CheckBoxDemo component = this;
-    component.add(this.createComponent_a0());
+    component.add(this.createComponent_1g8rab_a0());
     component.setDefaultCloseOperation(JFrame.EXIT_ON_CLOSE);
     component.setSize(new Dimension(400, 300));
     component.setLayout(new FlowLayout());
@@ -76,21 +76,21 @@ public class CheckBoxDemo extends JFrame {
     }
   }
 
-  private VBoxPanel createComponent_a0() {
+  private VBoxPanel createComponent_1g8rab_a0() {
     VBoxPanel component = new VBoxPanel();
     this.myComponent_a0 = component;
-    component.add(this.createComponent_a0a());
-    component.add(this.createComponent_b0a());
+    component.add(this.createComponent_1g8rab_a0a());
+    component.add(this.createComponent_1g8rab_b0a());
     return component;
   }
 
-  private JLabel createComponent_a0a() {
+  private JLabel createComponent_1g8rab_a0a() {
     JLabel component = new JLabel();
     this.myComponent_a0a = component;
     return component;
   }
 
-  private JCheckBox createComponent_b0a() {
+  private JCheckBox createComponent_1g8rab_b0a() {
     JCheckBox component = new JCheckBox();
     this.myCheckbox_b0a = component;
     component.setText("Check me");

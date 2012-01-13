@@ -33,7 +33,7 @@ public class ActionsSample extends JFrame {
   public ActionsSample() {
     this.myThis = this;
     ActionsSample component = this;
-    component.add(this.createComponent_a0());
+    component.add(this.createComponent_gc1z77_a0());
     component.setTitle("Actions Sample");
     component.setLayout(new FlowLayout());
     component.setSize(new Dimension(400, 300));
@@ -67,22 +67,22 @@ public class ActionsSample extends JFrame {
     }
   }
 
-  private VBoxPanel createComponent_a0() {
+  private VBoxPanel createComponent_gc1z77_a0() {
     VBoxPanel component = new VBoxPanel();
     this.myComponent_a0 = component;
-    component.add(this.createComponent_a0a());
-    component.add(this.createComponent_b0a());
+    component.add(this.createComponent_gc1z77_a0a());
+    component.add(this.createComponent_gc1z77_b0a());
     return component;
   }
 
-  private JLabel createComponent_a0a() {
+  private JLabel createComponent_gc1z77_a0a() {
     JLabel component = new JLabel();
     this.myLabel_a0a = component;
     component.setText("<PRESS BUTTON>");
     return component;
   }
 
-  private JButton createComponent_b0a() {
+  private JButton createComponent_gc1z77_b0a() {
     JButton component = new JButton();
     this.myComponent_b0a = component;
     component.addActionListener(new ActionListener() {

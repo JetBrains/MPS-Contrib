@@ -2073,6 +2073,7 @@
                   <node role="baseName" roleId="tpf3.1218047638032" type="tpee.StringLiteral" typeId="tpee.1070475926800" id="1202395353421">
                     <property name="value" nameId="tpee.1070475926801" value="createComponent" />
                   </node>
+                  <node role="contextNode" roleId="tpf3.1218049772449" type="tpf8.TemplateFunctionParameter_sourceNode" typeId="tpf8.1167169188348" id="5898209468306601155" />
                 </node>
               </node>
             </node>

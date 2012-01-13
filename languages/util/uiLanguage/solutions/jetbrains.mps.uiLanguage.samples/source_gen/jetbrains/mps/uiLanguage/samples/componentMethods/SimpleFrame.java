@@ -29,7 +29,7 @@ public class SimpleFrame extends JFrame {
     component.setSize(new Dimension(400, 300));
     component.setDefaultCloseOperation(JFrame.EXIT_ON_CLOSE);
     component.setVisible(true);
-    component.add(this.createComponent_d0());
+    component.add(this.createComponent_1v8jfh_d0());
     this.myEvents.initialize();
     {
       int i = 0;
@@ -61,7 +61,7 @@ public class SimpleFrame extends JFrame {
     }
   }
 
-  private JCheckBox createComponent_d0() {
+  private JCheckBox createComponent_1v8jfh_d0() {
     JCheckBox component = new JCheckBox();
     this.myComponent_d0 = component;
     return component;

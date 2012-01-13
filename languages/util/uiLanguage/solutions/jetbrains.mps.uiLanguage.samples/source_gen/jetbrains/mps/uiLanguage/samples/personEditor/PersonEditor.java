@@ -43,7 +43,7 @@ public class PersonEditor extends JFrame {
   public PersonEditor() {
     this.myThis = this;
     PersonEditor component = this;
-    component.add(this.createComponent_a0());
+    component.add(this.createComponent_s1toyp_a0());
     component.setTitle("Simple Databinding Sample");
     component.setSize(new Dimension(400, 300));
     component.setLayout(new FlowLayout());
@@ -95,59 +95,59 @@ public class PersonEditor extends JFrame {
     }
   }
 
-  private VBoxPanel createComponent_a0() {
+  private VBoxPanel createComponent_s1toyp_a0() {
     VBoxPanel component = new VBoxPanel();
     this.myComponent_a0 = component;
-    component.add(this.createComponent_a0a());
-    component.add(this.createComponent_b0a());
-    component.add(this.createComponent_c0a());
-    component.add(this.createComponent_d0a());
-    component.add(this.createComponent_e0a());
+    component.add(this.createComponent_s1toyp_a0a());
+    component.add(this.createComponent_s1toyp_b0a());
+    component.add(this.createComponent_s1toyp_c0a());
+    component.add(this.createComponent_s1toyp_d0a());
+    component.add(this.createComponent_s1toyp_e0a());
     return component;
   }
 
-  private JLabel createComponent_a0a() {
+  private JLabel createComponent_s1toyp_a0a() {
     JLabel component = new JLabel();
     this.myComponent_a0a = component;
     component.setText("Name:");
     return component;
   }
 
-  private JTextField createComponent_b0a() {
+  private JTextField createComponent_s1toyp_b0a() {
     JTextField component = new JTextField();
     this.myComponent_b0a = component;
     return component;
   }
 
-  private JLabel createComponent_c0a() {
+  private JLabel createComponent_s1toyp_c0a() {
     JLabel component = new JLabel();
     this.myComponent_c0a = component;
     component.setText("Last Name:");
     return component;
   }
 
-  private JTextField createComponent_d0a() {
+  private JTextField createComponent_s1toyp_d0a() {
     JTextField component = new JTextField();
     this.myComponent_d0a = component;
     return component;
   }
 
-  private HBoxPanel createComponent_e0a() {
+  private HBoxPanel createComponent_s1toyp_e0a() {
     HBoxPanel component = new HBoxPanel();
     this.myComponent_e0a = component;
-    component.add(this.createComponent_a4a0());
-    component.add(this.createComponent_b4a0());
+    component.add(this.createComponent_s1toyp_a4a0());
+    component.add(this.createComponent_s1toyp_b4a0());
     return component;
   }
 
-  private JButton createComponent_a4a0() {
+  private JButton createComponent_s1toyp_a4a0() {
     JButton component = new JButton();
     this.myComponent_a4a0 = component;
     component.setText("OK");
     return component;
   }
 
-  private JButton createComponent_b4a0() {
+  private JButton createComponent_s1toyp_b4a0() {
     JButton component = new JButton();
     this.myComponent_b4a0 = component;
     component.setText("Cancel");

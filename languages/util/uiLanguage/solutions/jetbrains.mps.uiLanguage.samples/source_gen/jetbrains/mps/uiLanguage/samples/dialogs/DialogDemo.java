@@ -52,8 +52,8 @@ public class DialogDemo extends JDialog {
     this.myThis = this;
     DialogDemo component = this;
     component.setLayout(new BorderLayout());
-    component.add(this.createComponent_b0(), BorderLayout.CENTER);
-    component.add(this.createComponent_c0(), BorderLayout.SOUTH);
+    component.add(this.createComponent_50z451_b0(), BorderLayout.CENTER);
+    component.add(this.createComponent_50z451_c0(), BorderLayout.SOUTH);
     this.myEvents.initialize();
   }
 
@@ -100,11 +100,11 @@ public class DialogDemo extends JDialog {
     }
   }
 
-  private JPanel createComponent_b0() {
+  private JPanel createComponent_50z451_b0() {
     JPanel component = new JPanel();
     this.myComponent_b0 = component;
     component.setLayout(new GridBagLayout());
-    component.add(this.createComponent_b1a(), new ValueWrapper<GridBagConstraints>() {
+    component.add(this.createComponent_50z451_b1a(), new ValueWrapper<GridBagConstraints>() {
       public GridBagConstraints value() {
         GridBagConstraints c = new GridBagConstraints();
         c.gridx = 0;
@@ -113,7 +113,7 @@ public class DialogDemo extends JDialog {
         return c;
       }
     }.value());
-    component.add(this.createComponent_c1a(), new ValueWrapper<GridBagConstraints>() {
+    component.add(this.createComponent_50z451_c1a(), new ValueWrapper<GridBagConstraints>() {
       public GridBagConstraints value() {
         GridBagConstraints c = new GridBagConstraints();
         c.gridx = 0;
@@ -122,7 +122,7 @@ public class DialogDemo extends JDialog {
         return c;
       }
     }.value());
-    component.add(this.createComponent_d1a(), new ValueWrapper<GridBagConstraints>() {
+    component.add(this.createComponent_50z451_d1a(), new ValueWrapper<GridBagConstraints>() {
       public GridBagConstraints value() {
         GridBagConstraints c = new GridBagConstraints();
         c.gridx = 1;
@@ -132,7 +132,7 @@ public class DialogDemo extends JDialog {
         return c;
       }
     }.value());
-    component.add(this.createComponent_e1a(), new ValueWrapper<GridBagConstraints>() {
+    component.add(this.createComponent_50z451_e1a(), new ValueWrapper<GridBagConstraints>() {
       public GridBagConstraints value() {
         GridBagConstraints c = new GridBagConstraints();
         c.gridx = 1;
@@ -142,7 +142,7 @@ public class DialogDemo extends JDialog {
         return c;
       }
     }.value());
-    component.add(this.createComponent_f1a(), new ValueWrapper<GridBagConstraints>() {
+    component.add(this.createComponent_50z451_f1a(), new ValueWrapper<GridBagConstraints>() {
       public GridBagConstraints value() {
         GridBagConstraints c = new GridBagConstraints();
         c.gridx = 0;
@@ -155,72 +155,72 @@ public class DialogDemo extends JDialog {
     return component;
   }
 
-  private JLabel createComponent_b1a() {
+  private JLabel createComponent_50z451_b1a() {
     JLabel component = new JLabel();
     this.myComponent_b1a = component;
     component.setText("Name");
     return component;
   }
 
-  private JLabel createComponent_c1a() {
+  private JLabel createComponent_50z451_c1a() {
     JLabel component = new JLabel();
     this.myComponent_c1a = component;
     component.setText("LastName");
     return component;
   }
 
-  private JTextField createComponent_d1a() {
+  private JTextField createComponent_50z451_d1a() {
     JTextField component = new JTextField();
     this.myComponent_d1a = component;
     component.setColumns(20);
     return component;
   }
 
-  private JTextField createComponent_e1a() {
+  private JTextField createComponent_50z451_e1a() {
     JTextField component = new JTextField();
     this.myComponent_e1a = component;
     return component;
   }
 
-  private JPanel createComponent_f1a() {
+  private JPanel createComponent_50z451_f1a() {
     JPanel component = new JPanel();
     this.myComponent_f1a = component;
     return component;
   }
 
-  private JPanel createComponent_c0() {
+  private JPanel createComponent_50z451_c0() {
     JPanel component = new JPanel();
     this.myComponent_c0 = component;
     component.setLayout(new BorderLayout());
-    component.add(this.createComponent_c2a(), BorderLayout.CENTER);
+    component.add(this.createComponent_50z451_c2a(), BorderLayout.CENTER);
     return component;
   }
 
-  private JPanel createComponent_c2a() {
+  private JPanel createComponent_50z451_c2a() {
     JPanel component = new JPanel();
     this.myComponent_c2a = component;
     component.setLayout(new BorderLayout());
-    component.add(this.createComponent_c2c0(), BorderLayout.CENTER);
-    component.add(this.createComponent_d2c0(), BorderLayout.EAST);
+    component.add(this.createComponent_50z451_c2c0(), BorderLayout.CENTER);
+    component.add(this.createComponent_50z451_d2c0(), BorderLayout.EAST);
     return component;
   }
 
-  private JPanel createComponent_c2c0() {
+  private JPanel createComponent_50z451_c2c0() {
     JPanel component = new JPanel();
     this.myComponent_c2c0 = component;
     return component;
   }
 
-  private JPanel createComponent_d2c0() {
+  private JPanel createComponent_50z451_d2c0() {
     JPanel component = new JPanel();
     this.myComponent_d2c0 = component;
     component.setLayout(new GridLayout(1, 0));
-    component.add(this.createComponent_c3c2a());
-    component.add(this.createComponent_d3c2a());
+    component.add(this.createComponent_50z451_c3c2a());
+    component.add(this.createComponent_50z451_d3c2a());
     return component;
   }
 
-  private JButton createComponent_c3c2a() {
+  private JButton createComponent_50z451_c3c2a() {
     JButton component = new JButton();
     this.myComponent_c3c2a = component;
     component.setText("OK");
@@ -232,7 +232,7 @@ public class DialogDemo extends JDialog {
     return component;
   }
 
-  private JButton createComponent_d3c2a() {
+  private JButton createComponent_50z451_d3c2a() {
     JButton component = new JButton();
     this.myComponent_d3c2a = component;
     component.setText("Cancel");

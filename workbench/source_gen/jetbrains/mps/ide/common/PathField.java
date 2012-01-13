@@ -39,8 +39,8 @@ public class PathField extends JPanel {
     this.myThis = this;
     PathField component = this;
     component.setLayout(new BorderLayout());
-    component.add(this.createComponent_b0(), BorderLayout.CENTER);
-    component.add(this.createComponent_c0(), BorderLayout.EAST);
+    component.add(this.createComponent_d96i1m_b0(), BorderLayout.CENTER);
+    component.add(this.createComponent_d96i1m_c0(), BorderLayout.EAST);
     this.myEvents.initialize();
     myThis.setMode(TreeFileChooser.MODE_DIRECTORIES);
   }
@@ -79,14 +79,14 @@ public class PathField extends JPanel {
     }
   }
 
-  private JTextField createComponent_b0() {
+  private JTextField createComponent_d96i1m_b0() {
     JTextField component = new JTextField();
     this.myPathField_b0 = component;
     component.setColumns(40);
     return component;
   }
 
-  private JButton createComponent_c0() {
+  private JButton createComponent_d96i1m_c0() {
     JButton component = new JButton();
     this.myButton_c0 = component;
     component.setText("...");
