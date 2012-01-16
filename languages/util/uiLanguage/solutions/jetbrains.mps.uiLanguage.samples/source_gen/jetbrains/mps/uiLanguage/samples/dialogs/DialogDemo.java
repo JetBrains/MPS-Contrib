@@ -25,18 +25,18 @@ import java.awt.event.ActionEvent;
 
 public class DialogDemo extends JDialog {
   public DialogDemo myThis;
-  private JPanel myComponent_b0;
-  private JLabel myComponent_b1a;
-  private JLabel myComponent_c1a;
-  private JTextField myComponent_d1a;
-  private JTextField myComponent_e1a;
-  private JPanel myComponent_f1a;
-  private JPanel myComponent_c0;
-  private JPanel myComponent_c2a;
-  private JPanel myComponent_c2c0;
-  private JPanel myComponent_d2c0;
-  private JButton myComponent_c3c2a;
-  private JButton myComponent_d3c2a;
+  private JPanel myComponent_50z451_b0;
+  private JLabel myComponent_50z451_b1a;
+  private JLabel myComponent_50z451_c1a;
+  private JTextField myComponent_50z451_d1a;
+  private JTextField myComponent_50z451_e1a;
+  private JPanel myComponent_50z451_f1a;
+  private JPanel myComponent_50z451_c0;
+  private JPanel myComponent_50z451_c2a;
+  private JPanel myComponent_50z451_c2c0;
+  private JPanel myComponent_50z451_d2c0;
+  private JButton myComponent_50z451_c3c2a;
+  private JButton myComponent_50z451_d3c2a;
   private String myName;
   private String myLastName;
   public List<AutoBinding> myBindings = ListSequence.fromList(new ArrayList<AutoBinding>());
@@ -75,7 +75,7 @@ public class DialogDemo extends JDialog {
     {
       Object sourceObject = myThis;
       Property sourceProperty = BeanProperty.create("name");
-      Object targetObject = this.myComponent_d1a;
+      Object targetObject = this.myComponent_50z451_d1a;
       Property targetProperty = BeanProperty.create("text");
       AutoBinding binding = Bindings.createAutoBinding(AutoBinding.UpdateStrategy.READ_WRITE, sourceObject, sourceProperty, targetObject, targetProperty);
       binding.bind();
@@ -84,7 +84,7 @@ public class DialogDemo extends JDialog {
     {
       Object sourceObject = myThis;
       Property sourceProperty = BeanProperty.create("lastName");
-      Object targetObject = this.myComponent_e1a;
+      Object targetObject = this.myComponent_50z451_e1a;
       Property targetProperty = BeanProperty.create("text");
       AutoBinding binding = Bindings.createAutoBinding(AutoBinding.UpdateStrategy.READ_WRITE, sourceObject, sourceProperty, targetObject, targetProperty);
       binding.bind();
@@ -102,7 +102,7 @@ public class DialogDemo extends JDialog {
 
   private JPanel createComponent_50z451_b0() {
     JPanel component = new JPanel();
-    this.myComponent_b0 = component;
+    this.myComponent_50z451_b0 = component;
     component.setLayout(new GridBagLayout());
     component.add(this.createComponent_50z451_b1a(), new ValueWrapper<GridBagConstraints>() {
       public GridBagConstraints value() {
@@ -157,40 +157,40 @@ public class DialogDemo extends JDialog {
 
   private JLabel createComponent_50z451_b1a() {
     JLabel component = new JLabel();
-    this.myComponent_b1a = component;
+    this.myComponent_50z451_b1a = component;
     component.setText("Name");
     return component;
   }
 
   private JLabel createComponent_50z451_c1a() {
     JLabel component = new JLabel();
-    this.myComponent_c1a = component;
+    this.myComponent_50z451_c1a = component;
     component.setText("LastName");
     return component;
   }
 
   private JTextField createComponent_50z451_d1a() {
     JTextField component = new JTextField();
-    this.myComponent_d1a = component;
+    this.myComponent_50z451_d1a = component;
     component.setColumns(20);
     return component;
   }
 
   private JTextField createComponent_50z451_e1a() {
     JTextField component = new JTextField();
-    this.myComponent_e1a = component;
+    this.myComponent_50z451_e1a = component;
     return component;
   }
 
   private JPanel createComponent_50z451_f1a() {
     JPanel component = new JPanel();
-    this.myComponent_f1a = component;
+    this.myComponent_50z451_f1a = component;
     return component;
   }
 
   private JPanel createComponent_50z451_c0() {
     JPanel component = new JPanel();
-    this.myComponent_c0 = component;
+    this.myComponent_50z451_c0 = component;
     component.setLayout(new BorderLayout());
     component.add(this.createComponent_50z451_c2a(), BorderLayout.CENTER);
     return component;
@@ -198,7 +198,7 @@ public class DialogDemo extends JDialog {
 
   private JPanel createComponent_50z451_c2a() {
     JPanel component = new JPanel();
-    this.myComponent_c2a = component;
+    this.myComponent_50z451_c2a = component;
     component.setLayout(new BorderLayout());
     component.add(this.createComponent_50z451_c2c0(), BorderLayout.CENTER);
     component.add(this.createComponent_50z451_d2c0(), BorderLayout.EAST);
@@ -207,13 +207,13 @@ public class DialogDemo extends JDialog {
 
   private JPanel createComponent_50z451_c2c0() {
     JPanel component = new JPanel();
-    this.myComponent_c2c0 = component;
+    this.myComponent_50z451_c2c0 = component;
     return component;
   }
 
   private JPanel createComponent_50z451_d2c0() {
     JPanel component = new JPanel();
-    this.myComponent_d2c0 = component;
+    this.myComponent_50z451_d2c0 = component;
     component.setLayout(new GridLayout(1, 0));
     component.add(this.createComponent_50z451_c3c2a());
     component.add(this.createComponent_50z451_d3c2a());
@@ -222,7 +222,7 @@ public class DialogDemo extends JDialog {
 
   private JButton createComponent_50z451_c3c2a() {
     JButton component = new JButton();
-    this.myComponent_c3c2a = component;
+    this.myComponent_50z451_c3c2a = component;
     component.setText("OK");
     component.addActionListener(new ActionListener() {
       public void actionPerformed(ActionEvent event) {
@@ -234,7 +234,7 @@ public class DialogDemo extends JDialog {
 
   private JButton createComponent_50z451_d3c2a() {
     JButton component = new JButton();
-    this.myComponent_d3c2a = component;
+    this.myComponent_50z451_d3c2a = component;
     component.setText("Cancel");
     component.addActionListener(new ActionListener() {
       public void actionPerformed(ActionEvent event) {

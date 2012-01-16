@@ -18,9 +18,9 @@ import java.awt.event.ActionEvent;
 
 public class ActionsSample extends JFrame {
   public ActionsSample myThis;
-  private VBoxPanel myComponent_a0;
-  private JLabel myLabel_a0a;
-  private JButton myComponent_b0a;
+  private VBoxPanel myComponent_gc1z77_a0;
+  private JLabel myLabel_gc1z77_a0a;
+  private JButton myComponent_gc1z77_b0a;
   public List<AutoBinding> myBindings = ListSequence.fromList(new ArrayList<AutoBinding>());
   private Events myEvents = new Events(null) {
     {
@@ -69,7 +69,7 @@ public class ActionsSample extends JFrame {
 
   private VBoxPanel createComponent_gc1z77_a0() {
     VBoxPanel component = new VBoxPanel();
-    this.myComponent_a0 = component;
+    this.myComponent_gc1z77_a0 = component;
     component.add(this.createComponent_gc1z77_a0a());
     component.add(this.createComponent_gc1z77_b0a());
     return component;
@@ -77,17 +77,17 @@ public class ActionsSample extends JFrame {
 
   private JLabel createComponent_gc1z77_a0a() {
     JLabel component = new JLabel();
-    this.myLabel_a0a = component;
+    this.myLabel_gc1z77_a0a = component;
     component.setText("<PRESS BUTTON>");
     return component;
   }
 
   private JButton createComponent_gc1z77_b0a() {
     JButton component = new JButton();
-    this.myComponent_b0a = component;
+    this.myComponent_gc1z77_b0a = component;
     component.addActionListener(new ActionListener() {
       public void actionPerformed(ActionEvent event) {
-        myThis.myLabel_a0a.setText("Preved");
+        myThis.myLabel_gc1z77_a0a.setText("Preved");
       }
     });
     component.setText("Change Text");

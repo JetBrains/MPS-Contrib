@@ -885,6 +885,10 @@
                   <node role="baseName" roleId="tpf3.1218047638032" type="tpee.LocalVariableReference" typeId="tpee.1068581242866" id="4021515509913114717">
                     <link role="variableDeclaration" roleId="tpee.1068581517664" targetNodeId="4021515509913114689" resolveInfo="baseName" />
                   </node>
+                  <node role="contextNode" roleId="tpf3.1218049772449" type="tpee.DotExpression" typeId="tpee.1197027756228" id="6649340898208028633">
+                    <node role="operand" roleId="tpee.1197027771414" type="tpf8.TemplateFunctionParameter_sourceNode" typeId="tpf8.1167169188348" id="6649340898208028630" />
+                    <node role="operation" roleId="tpee.1197027833540" type="tp25.Node_GetParentOperation" typeId="tp25.1139613262185" id="6649340898208028639" />
+                  </node>
                 </node>
               </node>
             </node>

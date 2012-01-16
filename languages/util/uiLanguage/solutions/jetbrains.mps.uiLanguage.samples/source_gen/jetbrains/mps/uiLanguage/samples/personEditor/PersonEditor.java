@@ -21,14 +21,14 @@ import org.jdesktop.beansbinding.Bindings;
 
 public class PersonEditor extends JFrame {
   public PersonEditor myThis;
-  private VBoxPanel myComponent_a0;
-  private JLabel myComponent_a0a;
-  private JTextField myComponent_b0a;
-  private JLabel myComponent_c0a;
-  private JTextField myComponent_d0a;
-  private HBoxPanel myComponent_e0a;
-  private JButton myComponent_a4a0;
-  private JButton myComponent_b4a0;
+  private VBoxPanel myComponent_s1toyp_a0;
+  private JLabel myComponent_s1toyp_a0a;
+  private JTextField myComponent_s1toyp_b0a;
+  private JLabel myComponent_s1toyp_c0a;
+  private JTextField myComponent_s1toyp_d0a;
+  private HBoxPanel myComponent_s1toyp_e0a;
+  private JButton myComponent_s1toyp_a4a0;
+  private JButton myComponent_s1toyp_b4a0;
   private String myFirstName;
   private String myLastName;
   public List<AutoBinding> myBindings = ListSequence.fromList(new ArrayList<AutoBinding>());
@@ -70,7 +70,7 @@ public class PersonEditor extends JFrame {
     {
       Object sourceObject = myThis;
       Property sourceProperty = BeanProperty.create("firstName");
-      Object targetObject = this.myComponent_b0a;
+      Object targetObject = this.myComponent_s1toyp_b0a;
       Property targetProperty = BeanProperty.create("text");
       AutoBinding binding = Bindings.createAutoBinding(AutoBinding.UpdateStrategy.READ_WRITE, sourceObject, sourceProperty, targetObject, targetProperty);
       binding.bind();
@@ -79,7 +79,7 @@ public class PersonEditor extends JFrame {
     {
       Object sourceObject = myThis;
       Property sourceProperty = BeanProperty.create("lastName");
-      Object targetObject = this.myComponent_d0a;
+      Object targetObject = this.myComponent_s1toyp_d0a;
       Property targetProperty = BeanProperty.create("text");
       AutoBinding binding = Bindings.createAutoBinding(AutoBinding.UpdateStrategy.READ_WRITE, sourceObject, sourceProperty, targetObject, targetProperty);
       binding.bind();
@@ -97,7 +97,7 @@ public class PersonEditor extends JFrame {
 
   private VBoxPanel createComponent_s1toyp_a0() {
     VBoxPanel component = new VBoxPanel();
-    this.myComponent_a0 = component;
+    this.myComponent_s1toyp_a0 = component;
     component.add(this.createComponent_s1toyp_a0a());
     component.add(this.createComponent_s1toyp_b0a());
     component.add(this.createComponent_s1toyp_c0a());
@@ -108,33 +108,33 @@ public class PersonEditor extends JFrame {
 
   private JLabel createComponent_s1toyp_a0a() {
     JLabel component = new JLabel();
-    this.myComponent_a0a = component;
+    this.myComponent_s1toyp_a0a = component;
     component.setText("Name:");
     return component;
   }
 
   private JTextField createComponent_s1toyp_b0a() {
     JTextField component = new JTextField();
-    this.myComponent_b0a = component;
+    this.myComponent_s1toyp_b0a = component;
     return component;
   }
 
   private JLabel createComponent_s1toyp_c0a() {
     JLabel component = new JLabel();
-    this.myComponent_c0a = component;
+    this.myComponent_s1toyp_c0a = component;
     component.setText("Last Name:");
     return component;
   }
 
   private JTextField createComponent_s1toyp_d0a() {
     JTextField component = new JTextField();
-    this.myComponent_d0a = component;
+    this.myComponent_s1toyp_d0a = component;
     return component;
   }
 
   private HBoxPanel createComponent_s1toyp_e0a() {
     HBoxPanel component = new HBoxPanel();
-    this.myComponent_e0a = component;
+    this.myComponent_s1toyp_e0a = component;
     component.add(this.createComponent_s1toyp_a4a0());
     component.add(this.createComponent_s1toyp_b4a0());
     return component;
@@ -142,14 +142,14 @@ public class PersonEditor extends JFrame {
 
   private JButton createComponent_s1toyp_a4a0() {
     JButton component = new JButton();
-    this.myComponent_a4a0 = component;
+    this.myComponent_s1toyp_a4a0 = component;
     component.setText("OK");
     return component;
   }
 
   private JButton createComponent_s1toyp_b4a0() {
     JButton component = new JButton();
-    this.myComponent_b4a0 = component;
+    this.myComponent_s1toyp_b4a0 = component;
     component.setText("Cancel");
     return component;
   }

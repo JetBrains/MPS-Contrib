@@ -15,13 +15,13 @@ import java.awt.GridLayout;
 
 public class GridDemo extends JFrame {
   public GridDemo myThis;
-  private JPanel myComponent_a0;
-  private JLabel myComponent_b0a;
-  private JLabel myComponent_c0a;
-  private JPanel myComponent_d0a;
-  private JLabel myComponent_e0a;
-  private JLabel myComponent_f0a;
-  private JLabel myComponent_g0a;
+  private JPanel myComponent_35s7qs_a0;
+  private JLabel myComponent_35s7qs_b0a;
+  private JLabel myComponent_35s7qs_c0a;
+  private JPanel myComponent_35s7qs_d0a;
+  private JLabel myComponent_35s7qs_e0a;
+  private JLabel myComponent_35s7qs_f0a;
+  private JLabel myComponent_35s7qs_g0a;
   public List<AutoBinding> myBindings = ListSequence.fromList(new ArrayList<AutoBinding>());
   private Events myEvents = new Events(null) {
     {
@@ -68,7 +68,7 @@ public class GridDemo extends JFrame {
 
   private JPanel createComponent_35s7qs_a0() {
     JPanel component = new JPanel();
-    this.myComponent_a0 = component;
+    this.myComponent_35s7qs_a0 = component;
     component.setLayout(new GridLayout(2, 3));
     component.add(this.createComponent_35s7qs_b0a());
     component.add(this.createComponent_35s7qs_c0a());
@@ -81,41 +81,41 @@ public class GridDemo extends JFrame {
 
   private JLabel createComponent_35s7qs_b0a() {
     JLabel component = new JLabel();
-    this.myComponent_b0a = component;
+    this.myComponent_35s7qs_b0a = component;
     component.setText("1,1");
     return component;
   }
 
   private JLabel createComponent_35s7qs_c0a() {
     JLabel component = new JLabel();
-    this.myComponent_c0a = component;
+    this.myComponent_35s7qs_c0a = component;
     component.setText("1,l2");
     return component;
   }
 
   private JPanel createComponent_35s7qs_d0a() {
     JPanel component = new JPanel();
-    this.myComponent_d0a = component;
+    this.myComponent_35s7qs_d0a = component;
     return component;
   }
 
   private JLabel createComponent_35s7qs_e0a() {
     JLabel component = new JLabel();
-    this.myComponent_e0a = component;
+    this.myComponent_35s7qs_e0a = component;
     component.setText("2,1");
     return component;
   }
 
   private JLabel createComponent_35s7qs_f0a() {
     JLabel component = new JLabel();
-    this.myComponent_f0a = component;
+    this.myComponent_35s7qs_f0a = component;
     component.setText("2,2");
     return component;
   }
 
   private JLabel createComponent_35s7qs_g0a() {
     JLabel component = new JLabel();
-    this.myComponent_g0a = component;
+    this.myComponent_35s7qs_g0a = component;
     component.setText("2,3");
     return component;
   }

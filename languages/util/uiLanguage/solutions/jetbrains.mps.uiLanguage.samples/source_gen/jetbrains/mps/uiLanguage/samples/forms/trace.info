@@ -2,13 +2,13 @@
 <debugInfo>
   <root nodeId="1202817919406">
     <nodeInfo nodeId="1202817919406" fileName="FormDemo.java" startLine="19" startPosition="38" endLine="20" endPosition="25" conceptFqName="jetbrains.mps.baseLanguage.structure.FieldDeclaration" propertyString="myThis" />
-    <nodeInfo nodeId="1202817919406" fileName="FormDemo.java" startLine="20" startPosition="25" endLine="21" endPosition="32" conceptFqName="jetbrains.mps.baseLanguage.structure.FieldDeclaration" propertyString="myComponent_a0" />
-    <nodeInfo nodeId="1202817919406" fileName="FormDemo.java" startLine="21" startPosition="32" endLine="22" endPosition="33" conceptFqName="jetbrains.mps.baseLanguage.structure.FieldDeclaration" propertyString="myComponent_b0a" />
-    <nodeInfo nodeId="1202817919406" fileName="FormDemo.java" startLine="22" startPosition="33" endLine="23" endPosition="33" conceptFqName="jetbrains.mps.baseLanguage.structure.FieldDeclaration" propertyString="myComponent_c0a" />
-    <nodeInfo nodeId="1202817919406" fileName="FormDemo.java" startLine="23" startPosition="33" endLine="24" endPosition="37" conceptFqName="jetbrains.mps.baseLanguage.structure.FieldDeclaration" propertyString="myComponent_d0a" />
-    <nodeInfo nodeId="1202817919406" fileName="FormDemo.java" startLine="24" startPosition="37" endLine="25" endPosition="37" conceptFqName="jetbrains.mps.baseLanguage.structure.FieldDeclaration" propertyString="myComponent_e0a" />
-    <nodeInfo nodeId="1202817919406" fileName="FormDemo.java" startLine="25" startPosition="37" endLine="26" endPosition="33" conceptFqName="jetbrains.mps.baseLanguage.structure.FieldDeclaration" propertyString="myComponent_f0a" />
-    <nodeInfo nodeId="1202817919406" fileName="FormDemo.java" startLine="26" startPosition="33" endLine="27" endPosition="92" conceptFqName="jetbrains.mps.baseLanguage.structure.FieldDeclaration" propertyString="myBindings" />
+    <nodeInfo nodeId="1202817919406" fileName="FormDemo.java" startLine="20" startPosition="25" endLine="21" endPosition="39" conceptFqName="jetbrains.mps.baseLanguage.structure.FieldDeclaration" propertyString="myComponent_4g3yb7_a0" />
+    <nodeInfo nodeId="1202817919406" fileName="FormDemo.java" startLine="21" startPosition="39" endLine="22" endPosition="40" conceptFqName="jetbrains.mps.baseLanguage.structure.FieldDeclaration" propertyString="myComponent_4g3yb7_b0a" />
+    <nodeInfo nodeId="1202817919406" fileName="FormDemo.java" startLine="22" startPosition="40" endLine="23" endPosition="40" conceptFqName="jetbrains.mps.baseLanguage.structure.FieldDeclaration" propertyString="myComponent_4g3yb7_c0a" />
+    <nodeInfo nodeId="1202817919406" fileName="FormDemo.java" startLine="23" startPosition="40" endLine="24" endPosition="44" conceptFqName="jetbrains.mps.baseLanguage.structure.FieldDeclaration" propertyString="myComponent_4g3yb7_d0a" />
+    <nodeInfo nodeId="1202817919406" fileName="FormDemo.java" startLine="24" startPosition="44" endLine="25" endPosition="44" conceptFqName="jetbrains.mps.baseLanguage.structure.FieldDeclaration" propertyString="myComponent_4g3yb7_e0a" />
+    <nodeInfo nodeId="1202817919406" fileName="FormDemo.java" startLine="25" startPosition="44" endLine="26" endPosition="40" conceptFqName="jetbrains.mps.baseLanguage.structure.FieldDeclaration" propertyString="myComponent_4g3yb7_f0a" />
+    <nodeInfo nodeId="1202817919406" fileName="FormDemo.java" startLine="26" startPosition="40" endLine="27" endPosition="92" conceptFqName="jetbrains.mps.baseLanguage.structure.FieldDeclaration" propertyString="myBindings" />
     <nodeInfo nodeId="1202817919406" fileName="FormDemo.java" startLine="36" startPosition="21" endLine="37" endPosition="23" conceptFqName="jetbrains.mps.baseLanguage.structure.ExpressionStatement" />
     <nodeInfo nodeId="1202817919406" fileName="FormDemo.java" startLine="37" startPosition="23" endLine="38" endPosition="30" conceptFqName="jetbrains.mps.baseLanguage.structure.LocalVariableDeclarationStatement" />
     <nodeInfo nodeId="1202817919406" fileName="FormDemo.java" startLine="38" startPosition="30" endLine="39" endPosition="52" conceptFqName="jetbrains.mps.baseLanguage.structure.ExpressionStatement" />
@@ -23,8 +23,8 @@
     <nodeInfo nodeId="1202817919406" fileName="FormDemo.java" startLine="56" startPosition="18" endLine="57" endPosition="25" conceptFqName="jetbrains.mps.baseLanguage.structure.ExpressionStatement" />
     <nodeInfo nodeId="1202817919406" fileName="FormDemo.java" startLine="65" startPosition="30" endLine="66" endPosition="25" conceptFqName="jetbrains.mps.baseLanguage.structure.ExpressionStatement" />
     <nodeInfo nodeId="1202817919406" fileName="FormDemo.java" startLine="71" startPosition="46" endLine="72" endPosition="36" conceptFqName="jetbrains.mps.baseLanguage.structure.LocalVariableDeclarationStatement" />
-    <nodeInfo nodeId="1202817919406" fileName="FormDemo.java" startLine="72" startPosition="36" endLine="73" endPosition="36" conceptFqName="jetbrains.mps.baseLanguage.structure.ExpressionStatement" />
-    <nodeInfo nodeId="1202817919406" fileName="FormDemo.java" startLine="73" startPosition="36" endLine="74" endPosition="45" conceptFqName="jetbrains.mps.baseLanguage.structure.ExpressionStatement" />
+    <nodeInfo nodeId="1202817919406" fileName="FormDemo.java" startLine="72" startPosition="36" endLine="73" endPosition="43" conceptFqName="jetbrains.mps.baseLanguage.structure.ExpressionStatement" />
+    <nodeInfo nodeId="1202817919406" fileName="FormDemo.java" startLine="73" startPosition="43" endLine="74" endPosition="45" conceptFqName="jetbrains.mps.baseLanguage.structure.ExpressionStatement" />
     <nodeInfo nodeId="1202817919406" fileName="FormDemo.java" startLine="76" startPosition="41" endLine="77" endPosition="56" conceptFqName="jetbrains.mps.baseLanguage.structure.LocalVariableDeclarationStatement" />
     <nodeInfo nodeId="1202817919406" fileName="FormDemo.java" startLine="77" startPosition="56" endLine="78" endPosition="20" conceptFqName="jetbrains.mps.baseLanguage.structure.ExpressionStatement" />
     <nodeInfo nodeId="1202817919406" fileName="FormDemo.java" startLine="78" startPosition="20" endLine="79" endPosition="20" conceptFqName="jetbrains.mps.baseLanguage.structure.ExpressionStatement" />
@@ -55,24 +55,24 @@
     <nodeInfo nodeId="1202817919406" fileName="FormDemo.java" startLine="119" startPosition="22" endLine="120" endPosition="17" conceptFqName="jetbrains.mps.baseLanguage.structure.ReturnStatement" />
     <nodeInfo nodeId="1202817919406" fileName="FormDemo.java" startLine="122" startPosition="15" endLine="123" endPosition="21" conceptFqName="jetbrains.mps.baseLanguage.structure.ReturnStatement" />
     <nodeInfo nodeId="1202817919406" fileName="FormDemo.java" startLine="126" startPosition="47" endLine="127" endPosition="36" conceptFqName="jetbrains.mps.baseLanguage.structure.LocalVariableDeclarationStatement" />
-    <nodeInfo nodeId="1202817919406" fileName="FormDemo.java" startLine="127" startPosition="36" endLine="128" endPosition="37" conceptFqName="jetbrains.mps.baseLanguage.structure.ExpressionStatement" />
-    <nodeInfo nodeId="1202817919406" fileName="FormDemo.java" startLine="128" startPosition="37" endLine="129" endPosition="30" conceptFqName="jetbrains.mps.baseLanguage.structure.ExpressionStatement" />
+    <nodeInfo nodeId="1202817919406" fileName="FormDemo.java" startLine="127" startPosition="36" endLine="128" endPosition="44" conceptFqName="jetbrains.mps.baseLanguage.structure.ExpressionStatement" />
+    <nodeInfo nodeId="1202817919406" fileName="FormDemo.java" startLine="128" startPosition="44" endLine="129" endPosition="30" conceptFqName="jetbrains.mps.baseLanguage.structure.ExpressionStatement" />
     <nodeInfo nodeId="1202817919406" fileName="FormDemo.java" startLine="129" startPosition="30" endLine="130" endPosition="21" conceptFqName="jetbrains.mps.baseLanguage.structure.ReturnStatement" />
     <nodeInfo nodeId="1202817919406" fileName="FormDemo.java" startLine="133" startPosition="47" endLine="134" endPosition="36" conceptFqName="jetbrains.mps.baseLanguage.structure.LocalVariableDeclarationStatement" />
-    <nodeInfo nodeId="1202817919406" fileName="FormDemo.java" startLine="134" startPosition="36" endLine="135" endPosition="37" conceptFqName="jetbrains.mps.baseLanguage.structure.ExpressionStatement" />
-    <nodeInfo nodeId="1202817919406" fileName="FormDemo.java" startLine="135" startPosition="37" endLine="136" endPosition="35" conceptFqName="jetbrains.mps.baseLanguage.structure.ExpressionStatement" />
+    <nodeInfo nodeId="1202817919406" fileName="FormDemo.java" startLine="134" startPosition="36" endLine="135" endPosition="44" conceptFqName="jetbrains.mps.baseLanguage.structure.ExpressionStatement" />
+    <nodeInfo nodeId="1202817919406" fileName="FormDemo.java" startLine="135" startPosition="44" endLine="136" endPosition="35" conceptFqName="jetbrains.mps.baseLanguage.structure.ExpressionStatement" />
     <nodeInfo nodeId="1202817919406" fileName="FormDemo.java" startLine="136" startPosition="35" endLine="137" endPosition="21" conceptFqName="jetbrains.mps.baseLanguage.structure.ReturnStatement" />
     <nodeInfo nodeId="1202817919406" fileName="FormDemo.java" startLine="140" startPosition="51" endLine="141" endPosition="44" conceptFqName="jetbrains.mps.baseLanguage.structure.LocalVariableDeclarationStatement" />
-    <nodeInfo nodeId="1202817919406" fileName="FormDemo.java" startLine="141" startPosition="44" endLine="142" endPosition="37" conceptFqName="jetbrains.mps.baseLanguage.structure.ExpressionStatement" />
-    <nodeInfo nodeId="1202817919406" fileName="FormDemo.java" startLine="142" startPosition="37" endLine="143" endPosition="29" conceptFqName="jetbrains.mps.baseLanguage.structure.ExpressionStatement" />
+    <nodeInfo nodeId="1202817919406" fileName="FormDemo.java" startLine="141" startPosition="44" endLine="142" endPosition="44" conceptFqName="jetbrains.mps.baseLanguage.structure.ExpressionStatement" />
+    <nodeInfo nodeId="1202817919406" fileName="FormDemo.java" startLine="142" startPosition="44" endLine="143" endPosition="29" conceptFqName="jetbrains.mps.baseLanguage.structure.ExpressionStatement" />
     <nodeInfo nodeId="1202817919406" fileName="FormDemo.java" startLine="143" startPosition="29" endLine="144" endPosition="21" conceptFqName="jetbrains.mps.baseLanguage.structure.ReturnStatement" />
     <nodeInfo nodeId="1202817919406" fileName="FormDemo.java" startLine="147" startPosition="51" endLine="148" endPosition="44" conceptFqName="jetbrains.mps.baseLanguage.structure.LocalVariableDeclarationStatement" />
-    <nodeInfo nodeId="1202817919406" fileName="FormDemo.java" startLine="148" startPosition="44" endLine="149" endPosition="37" conceptFqName="jetbrains.mps.baseLanguage.structure.ExpressionStatement" />
-    <nodeInfo nodeId="1202817919406" fileName="FormDemo.java" startLine="149" startPosition="37" endLine="150" endPosition="29" conceptFqName="jetbrains.mps.baseLanguage.structure.ExpressionStatement" />
+    <nodeInfo nodeId="1202817919406" fileName="FormDemo.java" startLine="148" startPosition="44" endLine="149" endPosition="44" conceptFqName="jetbrains.mps.baseLanguage.structure.ExpressionStatement" />
+    <nodeInfo nodeId="1202817919406" fileName="FormDemo.java" startLine="149" startPosition="44" endLine="150" endPosition="29" conceptFqName="jetbrains.mps.baseLanguage.structure.ExpressionStatement" />
     <nodeInfo nodeId="1202817919406" fileName="FormDemo.java" startLine="150" startPosition="29" endLine="151" endPosition="21" conceptFqName="jetbrains.mps.baseLanguage.structure.ReturnStatement" />
     <nodeInfo nodeId="1202817919406" fileName="FormDemo.java" startLine="154" startPosition="47" endLine="155" endPosition="36" conceptFqName="jetbrains.mps.baseLanguage.structure.LocalVariableDeclarationStatement" />
-    <nodeInfo nodeId="1202817919406" fileName="FormDemo.java" startLine="155" startPosition="36" endLine="156" endPosition="37" conceptFqName="jetbrains.mps.baseLanguage.structure.ExpressionStatement" />
-    <nodeInfo nodeId="1202817919406" fileName="FormDemo.java" startLine="156" startPosition="37" endLine="157" endPosition="21" conceptFqName="jetbrains.mps.baseLanguage.structure.ReturnStatement" />
+    <nodeInfo nodeId="1202817919406" fileName="FormDemo.java" startLine="155" startPosition="36" endLine="156" endPosition="44" conceptFqName="jetbrains.mps.baseLanguage.structure.ExpressionStatement" />
+    <nodeInfo nodeId="1202817919406" fileName="FormDemo.java" startLine="156" startPosition="44" endLine="157" endPosition="21" conceptFqName="jetbrains.mps.baseLanguage.structure.ReturnStatement" />
     <nodeInfo nodeId="1202817919406" fileName="FormDemo.java" startLine="31" startPosition="0" endLine="34" endPosition="0" conceptFqName="jetbrains.mps.baseLanguage.structure.InstanceMethodDeclaration" propertyString="initialize#()V" />
     <nodeInfo nodeId="1202817919406" fileName="FormDemo.java" startLine="59" startPosition="0" endLine="62" endPosition="0" conceptFqName="jetbrains.mps.baseLanguage.structure.InstanceMethodDeclaration" propertyString="bind#()V" />
     <nodeInfo nodeId="1202817919406" fileName="FormDemo.java" startLine="64" startPosition="49" endLine="67" endPosition="7" conceptFqName="jetbrains.mps.baseLanguage.structure.IfStatement" />
