@@ -6,7 +6,27 @@
       <directory url="file://$PROJECT_DIR$/plugins/execution-languages/library/source_gen" includeSubdirectories="true" />
       <directory url="file://$PROJECT_DIR$/plugins/execution-configurations/baseLanguage/jetbrains.mps.baseLanguage.execution.api/source_gen" includeSubdirectories="true" />
       <directory url="file://$PROJECT_DIR$/plugins/execution-configurations/plugin/source_gen" includeSubdirectories="true" />
+      <directory url="file://$PROJECT_DIR$/core/baseLanguage/baseLanguage/source_gen" includeSubdirectories="true" />
+      <directory url="file://$PROJECT_DIR$/core/baseLanguage/baseLanguageInternal/source_gen" includeSubdirectories="true" />
+      <directory url="file://$PROJECT_DIR$/core/baseLanguage/blTypes/source_gen" includeSubdirectories="true" />
+      <directory url="file://$PROJECT_DIR$/core/baseLanguage/checkDot/languages/checkedDots/source_gen" includeSubdirectories="true" />
+      <directory url="file://$PROJECT_DIR$/core/baseLanguage/classifiers/source_gen" includeSubdirectories="true" />
+      <directory url="file://$PROJECT_DIR$/core/baseLanguage/closures/source_gen" includeSubdirectories="true" />
+      <directory url="file://$PROJECT_DIR$/core/baseLanguage/collections/source_gen" includeSubdirectories="true" />
+      <directory url="file://$PROJECT_DIR$/core/baseLanguage/constructors/source_gen" includeSubdirectories="true" />
+      <directory url="file://$PROJECT_DIR$/core/baseLanguage/javadoc/source_gen" includeSubdirectories="true" />
+      <directory url="file://$PROJECT_DIR$/core/baseLanguage/jdk7/languages/jdk7/source_gen" includeSubdirectories="true" />
+      <directory url="file://$PROJECT_DIR$/core/baseLanguage/jdk7/solutions/jetbrains.mps.baseLanguage.jdk7.sandbox/source_gen" includeSubdirectories="true" />
+      <directory url="file://$PROJECT_DIR$/core/baseLanguage/logging/source_gen" includeSubdirectories="true" />
+      <directory url="file://$PROJECT_DIR$/core/baseLanguage/overloadedOperators/solutions/jetbrains.mps.baseLanguage.overloadedOperators.sandbox/source_gen" includeSubdirectories="true" />
       <directory url="file://$PROJECT_DIR$/plugins/execution-languages/deprecated/source_gen" includeSubdirectories="true" />
+      <directory url="file://$PROJECT_DIR$/core/baseLanguage/tuples/languages/tuples/source_gen" includeSubdirectories="true" />
+      <directory url="file://$PROJECT_DIR$/core/baseLanguage/tuples/solutions/jetbrains.mps.baseLanguage.tuples.sandbox/source_gen" includeSubdirectories="true" />
+      <directory url="file://$PROJECT_DIR$/core/baseLanguage/tuples/solutions/jetbrains.mps.baseLanguage.tuples.shared/source_gen" includeSubdirectories="true" />
+      <directory url="file://$PROJECT_DIR$/core/baseLanguage/tuples/solutions/jetbrains.mps.baseLanguage.tuples.test/source_gen" includeSubdirectories="true" />
+      <directory url="file://$PROJECT_DIR$/plugins/execution-configurations/unitTests/runtime/source_gen" includeSubdirectories="true" />
+      <directory url="file://$PROJECT_DIR$/core/baseLanguage/unitTest/solutions/sandbox/source_gen" includeSubdirectories="true" />
+      <directory url="file://$PROJECT_DIR$/core/baseLanguage/unitTest/source_gen" includeSubdirectories="true" />
       <directory url="file://$PROJECT_DIR$/plugins/debugger-api-languages/jetbrains.mps.debugger.api.lang/source_gen" includeSubdirectories="true" />
       <directory url="file://$PROJECT_DIR$/core/dependencies/source_gen" includeSubdirectories="true" />
       <directory url="file://$PROJECT_DIR$/languages/languageDesign/actions/source_gen" includeSubdirectories="true" />
@@ -153,11 +173,15 @@
       <directory url="file://$PROJECT_DIR$/samples/theSimplestLanguage/languages/theSimplestLanguage/source_gen" includeSubdirectories="true" />
       <directory url="file://$PROJECT_DIR$/samples/theSimplestLanguage/solutions/jetbrains.mps.samples.theSimplestLanguage.sandbox/source_gen" includeSubdirectories="true" />
       <directory url="file://$PROJECT_DIR$/samples/xmlLiterals/languages/xmlLiterals/source_gen" includeSubdirectories="true" />
+      <directory url="file://$PROJECT_DIR$/workbench/ideUiLanguage/source_gen" includeSubdirectories="true" />
+      <directory url="file://$PROJECT_DIR$/plugins/debugger-java-languages/customViewers/source_gen" includeSubdirectories="true" />
+      <directory url="file://$PROJECT_DIR$/plugins/debugger-java-languages/evaluation/source_gen" includeSubdirectories="true" />
+      <directory url="file://$PROJECT_DIR$/plugins/debugger-java-languages/privateMembers/source_gen" includeSubdirectories="true" />
+      <directory url="file://$PROJECT_DIR$/plugins/execution-languages/commands/source_gen" includeSubdirectories="true" />
+      <directory url="file://$PROJECT_DIR$/plugins/execution-languages/configurations/source_gen" includeSubdirectories="true" />
       <directory url="file://$PROJECT_DIR$/plugins/debugger-java/languages/customViewers/source_gen" includeSubdirectories="true" />
       <directory url="file://$PROJECT_DIR$/plugins/debugger-java/languages/evaluation/source_gen" includeSubdirectories="true" />
       <directory url="file://$PROJECT_DIR$/plugins/debugger-java/languages/privateMembers/source_gen" includeSubdirectories="true" />
-      <directory url="file://$PROJECT_DIR$/plugins/execution-languages/commands/source_gen" includeSubdirectories="true" />
-      <directory url="file://$PROJECT_DIR$/plugins/execution-languages/configurations/source_gen" includeSubdirectories="true" />
       <directory url="file://$PROJECT_DIR$/plugins/execution-languages/deprecated.runtime/source_gen" includeSubdirectories="true" />
       <directory url="file://$PROJECT_DIR$/languages/baseLanguage/baseLanguage/source_gen" includeSubdirectories="true" />
       <directory url="file://$PROJECT_DIR$/languages/baseLanguage/baseLanguageInternal/source_gen" includeSubdirectories="true" />
@@ -231,7 +255,6 @@
       <directory url="file://$PROJECT_DIR$/languages/util/ui/languages/meta/source_gen" includeSubdirectories="true" />
       <directory url="file://$PROJECT_DIR$/languages/util/ui/languages/swing/source_gen" includeSubdirectories="true" />
       <directory url="file://$PROJECT_DIR$/languages/util/ui/languages/testdata/source_gen" includeSubdirectories="true" />
-      <directory url="file://$PROJECT_DIR$/plugins/execution-configurations/unitTests/runtime/source_gen" includeSubdirectories="true" />
     </excludeFromCompile>
     <resourceExtensions>
       <entry name=".+\.(properties|xml|html|dtd|tld)" />
