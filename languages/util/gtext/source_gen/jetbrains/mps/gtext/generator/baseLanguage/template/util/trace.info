@@ -1,29 +1,31 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <debugInfo>
   <root nodeId="1196157277388">
-    <nodeInfo nodeId="1196158663630" fileName="GTextUtil.java" startLine="12" startPosition="45" endLine="13" endPosition="43" conceptFqName="jetbrains.mps.baseLanguage.structure.ExpressionStatement" />
-    <nodeInfo nodeId="1196158740348" fileName="GTextUtil.java" startLine="14" startPosition="83" endLine="15" endPosition="15" conceptFqName="jetbrains.mps.baseLanguage.structure.ExpressionStatement" />
-    <nodeInfo nodeId="1196172120775" fileName="GTextUtil.java" startLine="20" startPosition="81" endLine="21" endPosition="101" conceptFqName="jetbrains.mps.baseLanguage.structure.ExpressionStatement" />
-    <nodeInfo nodeId="1196164343661" fileName="GTextUtil.java" startLine="23" startPosition="75" endLine="24" endPosition="15" conceptFqName="jetbrains.mps.baseLanguage.structure.ExpressionStatement" />
-    <nodeInfo nodeId="1196158679103" fileName="GTextUtil.java" startLine="13" startPosition="43" endLine="16" endPosition="5" conceptFqName="jetbrains.mps.baseLanguage.structure.ForeachStatement" />
-    <nodeInfo nodeId="1196158770195" fileName="GTextUtil.java" startLine="19" startPosition="37" endLine="22" endPosition="5" conceptFqName="jetbrains.mps.baseLanguage.structure.IfStatement" />
-    <nodeInfo nodeId="1196164343655" fileName="GTextUtil.java" startLine="22" startPosition="5" endLine="25" endPosition="5" conceptFqName="jetbrains.mps.baseLanguage.structure.ForeachStatement" />
-    <nodeInfo nodeId="1196158527655" fileName="GTextUtil.java" startLine="11" startPosition="24" endLine="18" endPosition="0" conceptFqName="jetbrains.mps.baseLanguage.structure.StaticMethodDeclaration" propertyString="optimize#(Ljetbrains/mps/smodel/SModel;)V" />
-    <nodeInfo nodeId="1196158635132" fileName="GTextUtil.java" startLine="18" startPosition="0" endLine="27" endPosition="0" conceptFqName="jetbrains.mps.baseLanguage.structure.StaticMethodDeclaration" propertyString="visit#(Ljetbrains/mps/smodel/SNode;)V" />
-    <scopeInfo nodeId="1196158679107" fileName="GTextUtil.java" startLine="14" startPosition="83" endLine="15" endPosition="15" />
-    <scopeInfo nodeId="1196158770196" fileName="GTextUtil.java" startLine="20" startPosition="81" endLine="21" endPosition="101" />
-    <scopeInfo nodeId="1196164343660" fileName="GTextUtil.java" startLine="23" startPosition="75" endLine="24" endPosition="15" />
-    <scopeInfo nodeId="1196158679103" fileName="GTextUtil.java" startLine="13" startPosition="43" endLine="16" endPosition="5" />
-    <scopeInfo nodeId="1196164343655" fileName="GTextUtil.java" startLine="22" startPosition="5" endLine="25" endPosition="5" />
-    <scopeInfo nodeId="1196158527658" fileName="GTextUtil.java" startLine="12" startPosition="45" endLine="16" endPosition="5" />
-    <scopeInfo nodeId="1196158635135" fileName="GTextUtil.java" startLine="19" startPosition="37" endLine="25" endPosition="5" />
-    <scopeInfo nodeId="1196158527655" fileName="GTextUtil.java" startLine="11" startPosition="24" endLine="18" endPosition="0">
+    <nodeInfo nodeId="9105221701114936407" fileName="GTextUtil.java" startLine="14" startPosition="87" endLine="15" endPosition="17" conceptFqName="jetbrains.mps.baseLanguage.structure.ContinueStatement" />
+    <nodeInfo nodeId="1196158740348" fileName="GTextUtil.java" startLine="16" startPosition="7" endLine="17" endPosition="15" conceptFqName="jetbrains.mps.baseLanguage.structure.ExpressionStatement" />
+    <nodeInfo nodeId="1196172120775" fileName="GTextUtil.java" startLine="22" startPosition="81" endLine="23" endPosition="101" conceptFqName="jetbrains.mps.baseLanguage.structure.ExpressionStatement" />
+    <nodeInfo nodeId="1196164343661" fileName="GTextUtil.java" startLine="25" startPosition="75" endLine="26" endPosition="15" conceptFqName="jetbrains.mps.baseLanguage.structure.ExpressionStatement" />
+    <nodeInfo nodeId="9105221701114936393" fileName="GTextUtil.java" startLine="13" startPosition="83" endLine="16" endPosition="7" conceptFqName="jetbrains.mps.baseLanguage.structure.IfStatement" />
+    <nodeInfo nodeId="1196158770195" fileName="GTextUtil.java" startLine="21" startPosition="37" endLine="24" endPosition="5" conceptFqName="jetbrains.mps.baseLanguage.structure.IfStatement" />
+    <nodeInfo nodeId="1196164343655" fileName="GTextUtil.java" startLine="24" startPosition="5" endLine="27" endPosition="5" conceptFqName="jetbrains.mps.baseLanguage.structure.ForeachStatement" />
+    <nodeInfo nodeId="1196158679103" fileName="GTextUtil.java" startLine="12" startPosition="45" endLine="18" endPosition="5" conceptFqName="jetbrains.mps.baseLanguage.structure.ForeachStatement" />
+    <nodeInfo nodeId="1196158527655" fileName="GTextUtil.java" startLine="11" startPosition="24" endLine="20" endPosition="0" conceptFqName="jetbrains.mps.baseLanguage.structure.StaticMethodDeclaration" propertyString="optimize#(Ljetbrains/mps/smodel/SModel;)V" />
+    <nodeInfo nodeId="1196158635132" fileName="GTextUtil.java" startLine="20" startPosition="0" endLine="29" endPosition="0" conceptFqName="jetbrains.mps.baseLanguage.structure.StaticMethodDeclaration" propertyString="visit#(Ljetbrains/mps/smodel/SNode;)V" />
+    <scopeInfo nodeId="9105221701114936394" fileName="GTextUtil.java" startLine="14" startPosition="87" endLine="15" endPosition="17" />
+    <scopeInfo nodeId="1196158770196" fileName="GTextUtil.java" startLine="22" startPosition="81" endLine="23" endPosition="101" />
+    <scopeInfo nodeId="1196164343660" fileName="GTextUtil.java" startLine="25" startPosition="75" endLine="26" endPosition="15" />
+    <scopeInfo nodeId="1196164343655" fileName="GTextUtil.java" startLine="24" startPosition="5" endLine="27" endPosition="5" />
+    <scopeInfo nodeId="1196158679107" fileName="GTextUtil.java" startLine="13" startPosition="83" endLine="17" endPosition="15" />
+    <scopeInfo nodeId="1196158527658" fileName="GTextUtil.java" startLine="12" startPosition="45" endLine="18" endPosition="5" />
+    <scopeInfo nodeId="1196158679103" fileName="GTextUtil.java" startLine="12" startPosition="45" endLine="18" endPosition="5" />
+    <scopeInfo nodeId="1196158635135" fileName="GTextUtil.java" startLine="21" startPosition="37" endLine="27" endPosition="5" />
+    <scopeInfo nodeId="1196158527655" fileName="GTextUtil.java" startLine="11" startPosition="24" endLine="20" endPosition="0">
       <varInfo nodeId="1196158618848" varName="model" />
     </scopeInfo>
-    <scopeInfo nodeId="1196158635132" fileName="GTextUtil.java" startLine="18" startPosition="0" endLine="27" endPosition="0">
+    <scopeInfo nodeId="1196158635132" fileName="GTextUtil.java" startLine="20" startPosition="0" endLine="29" endPosition="0">
       <varInfo nodeId="1196158645771" varName="n" />
     </scopeInfo>
-    <unitInfo nodeId="1196157277388" fileName="GTextUtil.java" startLine="11" startPosition="0" endLine="28" endPosition="0" unitName="jetbrains.mps.gtext.generator.baseLanguage.template.util.GTextUtil" />
+    <unitInfo nodeId="1196157277388" fileName="GTextUtil.java" startLine="11" startPosition="0" endLine="30" endPosition="0" unitName="jetbrains.mps.gtext.generator.baseLanguage.template.util.GTextUtil" />
   </root>
   <root nodeId="1196171096468">
     <nodeInfo nodeId="1196171951690" fileName="GTextOptimizer.java" startLine="16" startPosition="132" endLine="17" endPosition="54" conceptFqName="jetbrains.mps.baseLanguage.structure.LocalVariableDeclarationStatement" />
