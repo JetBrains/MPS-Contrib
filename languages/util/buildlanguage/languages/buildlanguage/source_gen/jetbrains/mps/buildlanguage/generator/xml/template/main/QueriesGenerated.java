@@ -84,14 +84,14 @@ public class QueriesGenerated {
   }
 
   public static Object propertyMacro_GetPropertyValue_1201017147787(final IOperationContext operationContext, final PropertyMacroContext _context) {
-    return "${ant.file}/../" + PropertyNode_Behavior.call_getFileName_1213877341757(SLinkOperations.getTarget(_context.getNode(), "propertyNode", false));
+    return "${ant.file." + SPropertyOperations.getString(SNodeOperations.cast(SNodeOperations.getContainingRoot(_context.getNode()), "jetbrains.mps.lang.core.structure.INamedConcept"), "name") + "}/../" + PropertyNode_Behavior.call_getFileName_1213877341757(SLinkOperations.getTarget(_context.getNode(), "propertyNode", false));
   }
 
   public static Object propertyMacro_GetPropertyValue_1201709830416(final IOperationContext operationContext, final PropertyMacroContext _context) {
     if (SNodeOperations.isInstanceOf(SNodeOperations.getParent(_context.getNode()), "jetbrains.mps.buildlanguage.structure.Project")) {
       return "${ant.file." + SPropertyOperations.getString(SNodeOperations.cast(SNodeOperations.getParent(_context.getNode()), "jetbrains.mps.buildlanguage.structure.Project"), "name") + "}/../" + Project_Behavior.call_getFileName_1213877351819(SLinkOperations.getTarget(_context.getNode(), "project", false));
     }
-    return "${ant.file}/../" + Project_Behavior.call_getFileName_1213877351819(SLinkOperations.getTarget(_context.getNode(), "project", false));
+    return "${ant.file." + SPropertyOperations.getString(SNodeOperations.cast(SNodeOperations.getContainingRoot(_context.getNode()), "jetbrains.mps.lang.core.structure.INamedConcept"), "name") + "}/../" + Project_Behavior.call_getFileName_1213877351819(SLinkOperations.getTarget(_context.getNode(), "project", false));
   }
 
   public static Object propertyMacro_GetPropertyValue_1219150196232(final IOperationContext operationContext, final PropertyMacroContext _context) {
