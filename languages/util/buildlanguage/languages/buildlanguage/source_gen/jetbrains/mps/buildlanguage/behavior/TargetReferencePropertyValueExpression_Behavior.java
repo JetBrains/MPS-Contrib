@@ -16,9 +16,7 @@ public class TargetReferencePropertyValueExpression_Behavior {
       return "";
     }
     SNode declarationProject = SNodeOperations.getAncestor(SLinkOperations.getTarget(thisNode, "declaration", false), "jetbrains.mps.buildlanguage.structure.Project", false, false);
-    if (declarationProject == SNodeOperations.getAncestor(thisNode, "jetbrains.mps.buildlanguage.structure.Project", false, false)) {
-      return SPropertyOperations.getString(SLinkOperations.getTarget(thisNode, "declaration", false), "name");
-    }
+    // <node> 
     return declarationProject + "." + SLinkOperations.getTarget(thisNode, "declaration", false);
   }
 
