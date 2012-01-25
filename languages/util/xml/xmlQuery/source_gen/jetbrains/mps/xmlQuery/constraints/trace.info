@@ -496,6 +496,7 @@
     </scopeInfo>
     <scopeInfo nodeId="4815471077468703816" fileName="XMLElementType_Constraints.java" startLine="29" startPosition="0" endLine="104" endPosition="0" />
     <unitInfo nodeId="4815471077468703816" fileName="XMLElementType_Constraints.java" startLine="99" startPosition="19" endLine="23" endPosition="0" />
+    <unitInfo nodeId="4815471077468703816" fileName="XMLElementType_Constraints.java" startLine="23" startPosition="0" endLine="105" endPosition="0" unitName="jetbrains.mps.xmlQuery.constraints.XMLElementType_Constraints" />
     <unitInfo nodeId="4815471077468703816" fileName="XMLElementType_Constraints.java" startLine="33" startPosition="38" endLine="78" endPosition="5" unitName="jetbrains.mps.xmlQuery.constraints.XMLElementType_Constraints$1" />
     <unitInfo nodeId="4815471077468703816" fileName="XMLElementType_Constraints.java" startLine="56" startPosition="19" endLine="76" endPosition="9" unitName="jetbrains.mps.xmlQuery.constraints.XMLElementType_Constraints$2" />
     <unitInfo nodeId="4815471077468703816" fileName="XMLElementType_Constraints.java" startLine="79" startPosition="33" endLine="101" endPosition="5" unitName="jetbrains.mps.xmlQuery.constraints.XMLElementType_Constraints$2" />
