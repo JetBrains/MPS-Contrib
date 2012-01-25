@@ -24,14 +24,14 @@ import org.jetbrains.annotations.Nullable;
 
 public class JavaConfigOptions extends JPanel {
   public JavaConfigOptions myThis;
-  private JLabel myComponent_b0;
-  private RawLineEditorComponent myVmParam_c0;
-  private JLabel myComponent_d0;
-  private RawLineEditorComponent myProgramParam_e0;
-  private JLabel myComponent_f0;
-  private FieldWithPathChooseDialog myWorkingDir_g0;
-  private JCheckBox myComponent_h0;
-  private FieldWithPathChooseDialog myJreHome_i0;
+  private JLabel myComponent_jy82jx_b0;
+  private RawLineEditorComponent myVmParam_jy82jx_c0;
+  private JLabel myComponent_jy82jx_d0;
+  private RawLineEditorComponent myProgramParam_jy82jx_e0;
+  private JLabel myComponent_jy82jx_f0;
+  private FieldWithPathChooseDialog myWorkingDir_jy82jx_g0;
+  private JCheckBox myComponent_jy82jx_h0;
+  private FieldWithPathChooseDialog myJreHome_jy82jx_i0;
   private String myProgramParameters;
   private String myVmOptions;
   private String myWorkingDirectory;
@@ -79,7 +79,7 @@ public class JavaConfigOptions extends JPanel {
     {
       Object sourceObject = myThis;
       Property sourceProperty = BeanProperty.create("vmOptions");
-      Object targetObject = this.myVmParam_c0;
+      Object targetObject = this.myVmParam_jy82jx_c0;
       Property targetProperty = BeanProperty.create("text");
       AutoBinding binding = Bindings.createAutoBinding(AutoBinding.UpdateStrategy.READ_WRITE, sourceObject, sourceProperty, targetObject, targetProperty);
       binding.bind();
@@ -88,7 +88,7 @@ public class JavaConfigOptions extends JPanel {
     {
       Object sourceObject = myThis;
       Property sourceProperty = BeanProperty.create("programParameters");
-      Object targetObject = this.myProgramParam_e0;
+      Object targetObject = this.myProgramParam_jy82jx_e0;
       Property targetProperty = BeanProperty.create("text");
       AutoBinding binding = Bindings.createAutoBinding(AutoBinding.UpdateStrategy.READ_WRITE, sourceObject, sourceProperty, targetObject, targetProperty);
       binding.bind();
@@ -97,7 +97,7 @@ public class JavaConfigOptions extends JPanel {
     {
       Object sourceObject = myThis;
       Property sourceProperty = BeanProperty.create("workingDirectory");
-      Object targetObject = this.myWorkingDir_g0;
+      Object targetObject = this.myWorkingDir_jy82jx_g0;
       Property targetProperty = BeanProperty.create("text");
       AutoBinding binding = Bindings.createAutoBinding(AutoBinding.UpdateStrategy.READ_WRITE, sourceObject, sourceProperty, targetObject, targetProperty);
       binding.bind();
@@ -106,7 +106,7 @@ public class JavaConfigOptions extends JPanel {
     {
       Object sourceObject = myThis;
       Property sourceProperty = BeanProperty.create("useAlternativeJRE");
-      Object targetObject = this.myComponent_h0;
+      Object targetObject = this.myComponent_jy82jx_h0;
       Property targetProperty = BeanProperty.create("selected");
       AutoBinding binding = Bindings.createAutoBinding(AutoBinding.UpdateStrategy.READ_WRITE, sourceObject, sourceProperty, targetObject, targetProperty);
       binding.bind();
@@ -115,7 +115,7 @@ public class JavaConfigOptions extends JPanel {
     {
       Object sourceObject = myThis;
       Property sourceProperty = BeanProperty.create("jrePath");
-      Object targetObject = this.myJreHome_i0;
+      Object targetObject = this.myJreHome_jy82jx_i0;
       Property targetProperty = BeanProperty.create("text");
       AutoBinding binding = Bindings.createAutoBinding(AutoBinding.UpdateStrategy.READ_WRITE, sourceObject, sourceProperty, targetObject, targetProperty);
       binding.bind();
@@ -124,7 +124,7 @@ public class JavaConfigOptions extends JPanel {
     {
       Object sourceObject = myThis;
       Property sourceProperty = BeanProperty.create("useAlternativeJRE");
-      Object targetObject = this.myJreHome_i0;
+      Object targetObject = this.myJreHome_jy82jx_i0;
       Property targetProperty = BeanProperty.create("editable");
       AutoBinding binding = Bindings.createAutoBinding(AutoBinding.UpdateStrategy.READ_WRITE, sourceObject, sourceProperty, targetObject, targetProperty);
       binding.bind();
@@ -142,14 +142,14 @@ public class JavaConfigOptions extends JPanel {
 
   private JLabel createComponent_jy82jx_b0() {
     JLabel component = new JLabel();
-    this.myComponent_b0 = component;
+    this.myComponent_jy82jx_b0 = component;
     component.setText("VM Parameters:");
     return component;
   }
 
   private RawLineEditorComponent createComponent_jy82jx_c0() {
     RawLineEditorComponent component = new RawLineEditorComponent();
-    this.myVmParam_c0 = component;
+    this.myVmParam_jy82jx_c0 = component;
     component.setDialogCaption("VM Parameters");
     component.addActionListener(new ActionListener() {
       public void actionPerformed(ActionEvent event) {
@@ -161,14 +161,14 @@ public class JavaConfigOptions extends JPanel {
 
   private JLabel createComponent_jy82jx_d0() {
     JLabel component = new JLabel();
-    this.myComponent_d0 = component;
+    this.myComponent_jy82jx_d0 = component;
     component.setText("Program Parameters:");
     return component;
   }
 
   private RawLineEditorComponent createComponent_jy82jx_e0() {
     RawLineEditorComponent component = new RawLineEditorComponent();
-    this.myProgramParam_e0 = component;
+    this.myProgramParam_jy82jx_e0 = component;
     component.setDialogCaption("Program Parameters");
     component.addActionListener(new ActionListener() {
       public void actionPerformed(ActionEvent event) {
@@ -180,14 +180,14 @@ public class JavaConfigOptions extends JPanel {
 
   private JLabel createComponent_jy82jx_f0() {
     JLabel component = new JLabel();
-    this.myComponent_f0 = component;
+    this.myComponent_jy82jx_f0 = component;
     component.setText("Working Directory:");
     return component;
   }
 
   private FieldWithPathChooseDialog createComponent_jy82jx_g0() {
     FieldWithPathChooseDialog component = new FieldWithPathChooseDialog();
-    this.myWorkingDir_g0 = component;
+    this.myWorkingDir_jy82jx_g0 = component;
     component.setTitle("Select Working Directory");
     component.addActionListener(new ActionListener() {
       public void actionPerformed(ActionEvent event) {
@@ -199,7 +199,7 @@ public class JavaConfigOptions extends JPanel {
 
   private JCheckBox createComponent_jy82jx_h0() {
     JCheckBox component = new JCheckBox();
-    this.myComponent_h0 = component;
+    this.myComponent_jy82jx_h0 = component;
     component.setText("Use alternative JRE");
     component.addActionListener(new ActionListener() {
       public void actionPerformed(ActionEvent event) {
@@ -211,7 +211,7 @@ public class JavaConfigOptions extends JPanel {
 
   private FieldWithPathChooseDialog createComponent_jy82jx_i0() {
     FieldWithPathChooseDialog component = new FieldWithPathChooseDialog();
-    this.myJreHome_i0 = component;
+    this.myJreHome_jy82jx_i0 = component;
     component.setTitle("Select Alternative JRE home");
     component.addActionListener(new ActionListener() {
       public void actionPerformed(ActionEvent event) {
@@ -296,29 +296,29 @@ public class JavaConfigOptions extends JPanel {
   }
 
   public void dispose() {
-    myThis.myJreHome_i0.dispose();
-    myThis.myWorkingDir_g0.dispose();
-    myThis.myProgramParam_e0.dispose();
-    myThis.myVmParam_c0.dispose();
+    myThis.myJreHome_jy82jx_i0.dispose();
+    myThis.myWorkingDir_jy82jx_g0.dispose();
+    myThis.myProgramParam_jy82jx_e0.dispose();
+    myThis.myVmParam_jy82jx_c0.dispose();
   }
 
   public void onChangeAlternativeJRE() {
-    myThis.setJrePath(myThis.myJreHome_i0.getText());
+    myThis.setJrePath(myThis.myJreHome_jy82jx_i0.getText());
   }
 
   public void onCheckUseAlternativeJRE() {
-    myThis.myJreHome_i0.setEditable(myThis.getUseAlternativeJRE());
+    myThis.myJreHome_jy82jx_i0.setEditable(myThis.getUseAlternativeJRE());
   }
 
   public void onChangeWorkingDir() {
-    myThis.setWorkingDirectory(myThis.myWorkingDir_g0.getText());
+    myThis.setWorkingDirectory(myThis.myWorkingDir_jy82jx_g0.getText());
   }
 
   public void onChangeVMParams() {
-    myThis.setVmOptions(myThis.myVmParam_c0.getText());
+    myThis.setVmOptions(myThis.myVmParam_jy82jx_c0.getText());
   }
 
   public void onChangeProgramParams() {
-    myThis.setProgramParameters(myThis.myProgramParam_e0.getText());
+    myThis.setProgramParameters(myThis.myProgramParam_jy82jx_e0.getText());
   }
 }
