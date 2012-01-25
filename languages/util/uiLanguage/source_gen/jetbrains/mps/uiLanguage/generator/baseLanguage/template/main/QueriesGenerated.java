@@ -106,7 +106,7 @@ public class QueriesGenerated {
     } else {
       baseName = "myComponent";
     }
-    return _context.createUniqueName(baseName, null);
+    return _context.createUniqueName(baseName, SNodeOperations.getParent(_context.getNode()));
   }
 
   public static Object propertyMacro_GetPropertyValue_1202466134243(final IOperationContext operationContext, final PropertyMacroContext _context) {
