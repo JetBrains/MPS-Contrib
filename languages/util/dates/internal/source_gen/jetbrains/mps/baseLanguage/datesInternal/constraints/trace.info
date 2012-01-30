@@ -1,7 +1,6 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <debugInfo>
   <unitInfo fileName="ConstraintsAspectDescriptor.java" startLine="9" startPosition="0" endLine="45" endPosition="0" unitName="jetbrains.mps.baseLanguage.datesInternal.constraints.ConstraintsAspectDescriptor" />
-  <unitInfo fileName="DateTimePropertyCardinality_Constraints.java" startLine="7" startPosition="0" endLine="12" endPosition="0" unitName="jetbrains.mps.baseLanguage.datesInternal.constraints.DateTimePropertyCardinality_Constraints" />
   <root nodeId="1213104844878">
     <nodeInfo nodeId="1213104844878" fileName="DurationType_Constraints.java" startLine="16" startPosition="37" endLine="17" endPosition="77" conceptFqName="jetbrains.mps.baseLanguage.structure.SuperConstructorInvocation" />
     <nodeInfo nodeId="1213104844878" fileName="DurationType_Constraints.java" startLine="21" startPosition="82" endLine="22" endPosition="74" conceptFqName="jetbrains.mps.baseLanguage.structure.LocalVariableDeclarationStatement" />

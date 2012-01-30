@@ -21,7 +21,6 @@
   <unitInfo fileName="XMLSAXChildHandler_childObject_BehaviorDescriptor.java" startLine="7" startPosition="0" endLine="16" endPosition="0" unitName="jetbrains.mps.xmlQuery.behavior.XMLSAXChildHandler_childObject_BehaviorDescriptor" />
   <unitInfo fileName="XMLSAXChildRule_BehaviorDescriptor.java" startLine="7" startPosition="0" endLine="16" endPosition="0" unitName="jetbrains.mps.xmlQuery.behavior.XMLSAXChildRule_BehaviorDescriptor" />
   <unitInfo fileName="XMLSAXFieldDeclaration_BehaviorDescriptor.java" startLine="10" startPosition="0" endLine="23" endPosition="0" unitName="jetbrains.mps.xmlQuery.behavior.XMLSAXFieldDeclaration_BehaviorDescriptor" />
-  <unitInfo fileName="XMLSAXFieldReference_Behavior.java" startLine="7" startPosition="0" endLine="11" endPosition="0" unitName="jetbrains.mps.xmlQuery.behavior.XMLSAXFieldReference_Behavior" />
   <unitInfo fileName="XMLSAXFieldReference_BehaviorDescriptor.java" startLine="7" startPosition="0" endLine="16" endPosition="0" unitName="jetbrains.mps.xmlQuery.behavior.XMLSAXFieldReference_BehaviorDescriptor" />
   <unitInfo fileName="XMLSAXHandlerFunction_BehaviorDescriptor.java" startLine="7" startPosition="0" endLine="16" endPosition="0" unitName="jetbrains.mps.xmlQuery.behavior.XMLSAXHandlerFunction_BehaviorDescriptor" />
   <unitInfo fileName="XMLSAXHandler_resultObject_BehaviorDescriptor.java" startLine="7" startPosition="0" endLine="16" endPosition="0" unitName="jetbrains.mps.xmlQuery.behavior.XMLSAXHandler_resultObject_BehaviorDescriptor" />
