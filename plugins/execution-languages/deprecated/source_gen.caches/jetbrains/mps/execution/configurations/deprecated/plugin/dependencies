@@ -11,6 +11,7 @@
     <classNode dependClassName="jetbrains.mps.execution.configurations.deprecated.behavior.RunConfigCreator_Behavior" />
     <classNode dependClassName="jetbrains.mps.execution.configurations.deprecated.behavior.RunConfigurationDeclaration_Behavior" />
     <classNode dependClassName="jetbrains.mps.execution.configurations.deprecated.behavior.RunConfigurationTypeDeclaration_Behavior" />
+    <classNode dependClassName="jetbrains.mps.execution.configurations.deprecated.generator.util.VariableNameUtil" />
     <classNode dependClassName="jetbrains.mps.generator.template.BaseMappingRuleContext" />
     <classNode dependClassName="jetbrains.mps.generator.template.CreateRootRuleContext" />
     <classNode dependClassName="jetbrains.mps.generator.template.IfMacroContext" />
@@ -27,7 +28,6 @@
     <classNode dependClassName="jetbrains.mps.lang.core.behavior.INamedConcept_Behavior" />
     <classNode dependClassName="jetbrains.mps.lang.plugin.behavior.ActionDeclaration_Behavior" />
     <classNode dependClassName="jetbrains.mps.lang.plugin.behavior.ActionParameter_Behavior" />
-    <classNode dependClassName="jetbrains.mps.lang.plugin.generator.baseLanguage.template.util.VariableNameUtil" />
     <classNode dependClassName="jetbrains.mps.lang.smodel.generator.smodelAdapter.SConceptPropertyOperations" />
     <classNode dependClassName="jetbrains.mps.lang.smodel.generator.smodelAdapter.SLinkOperations" />
     <classNode dependClassName="jetbrains.mps.lang.smodel.generator.smodelAdapter.SModelOperations" />

@@ -19,7 +19,7 @@ import jetbrains.mps.util.Macros;
 import jetbrains.mps.project.IModule;
 import jetbrains.mps.generator.template.TemplateQueryContext;
 import jetbrains.mps.execution.configurations.deprecated.behavior.RunConfigurationTypeDeclaration_Behavior;
-import jetbrains.mps.lang.plugin.generator.baseLanguage.template.util.VariableNameUtil;
+import jetbrains.mps.execution.configurations.deprecated.generator.util.VariableNameUtil;
 import jetbrains.mps.util.NodeNameUtil;
 import jetbrains.mps.lang.core.behavior.INamedConcept_Behavior;
 import jetbrains.mps.lang.smodel.generator.smodelAdapter.SConceptPropertyOperations;
