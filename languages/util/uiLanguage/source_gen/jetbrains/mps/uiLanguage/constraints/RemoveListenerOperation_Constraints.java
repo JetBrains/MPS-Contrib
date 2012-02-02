@@ -4,11 +4,10 @@ package jetbrains.mps.uiLanguage.constraints;
 
 import jetbrains.mps.smodel.runtime.base.BaseConstraintsDescriptor;
 import jetbrains.mps.smodel.SNodePointer;
-import jetbrains.mps.smodel.IOperationContext;
 import jetbrains.mps.smodel.SNode;
 import org.jetbrains.annotations.Nullable;
+import jetbrains.mps.smodel.IOperationContext;
 import jetbrains.mps.smodel.runtime.CheckingNodeContext;
-import jetbrains.mps.smodel.constraints.CanBeAParentContext;
 import jetbrains.mps.lang.smodel.generator.smodelAdapter.SNodeOperations;
 import jetbrains.mps.lang.smodel.generator.smodelAdapter.SLinkOperations;
 
@@ -25,8 +24,8 @@ public class RemoveListenerOperation_Constraints extends BaseConstraintsDescript
   }
 
   @Override
-  public boolean canBeParent(IOperationContext operationContext, SNode node, SNode node1, SNode node2, @Nullable CheckingNodeContext checkingNodeContext) {
-    boolean result = static_canBeAParent(operationContext, new CanBeAParentContext(node, node1, node2));
+  public boolean canBeParent(SNode node, @Nullable SNode childNode, SNode childConcept, SNode link, IOperationContext operationContext, @Nullable CheckingNodeContext checkingNodeContext) {
+    boolean result = static_canBeAParent(node, childNode, childConcept, link, operationContext);
 
     if (!(result) && checkingNodeContext != null) {
       checkingNodeContext.setBreakingNode(canBeParentBreakingPoint);
@@ -35,17 +34,17 @@ public class RemoveListenerOperation_Constraints extends BaseConstraintsDescript
     return result;
   }
 
-  public static boolean static_canBeAParent(final IOperationContext operationContext, final CanBeAParentContext _context) {
-    if (SNodeOperations.hasRole(_context.getLink(), "jetbrains.mps.baseLanguage.structure.BinaryOperation", "leftExpression")) {
-      if (!(SNodeOperations.isInstanceOf(_context.getNode(), "jetbrains.mps.baseLanguage.structure.DotExpression"))) {
+  public static boolean static_canBeAParent(SNode node, SNode childNode, SNode childConcept, SNode link, final IOperationContext operationContext) {
+    if (SNodeOperations.hasRole(link, "jetbrains.mps.baseLanguage.structure.BinaryOperation", "leftExpression")) {
+      if (!(SNodeOperations.isInstanceOf(node, "jetbrains.mps.baseLanguage.structure.DotExpression"))) {
         return false;
       }
-      if (!(SNodeOperations.isInstanceOf(SLinkOperations.getTarget(SNodeOperations.cast(_context.getNode(), "jetbrains.mps.baseLanguage.structure.DotExpression"), "operation", true), "jetbrains.mps.uiLanguage.structure.EventAccessOperation"))) {
+      if (!(SNodeOperations.isInstanceOf(SLinkOperations.getTarget(SNodeOperations.cast(node, "jetbrains.mps.baseLanguage.structure.DotExpression"), "operation", true), "jetbrains.mps.uiLanguage.structure.EventAccessOperation"))) {
         return false;
       }
     }
-    if (SNodeOperations.hasRole(_context.getLink(), "jetbrains.mps.baseLanguage.structure.BinaryOperation", "rightExpression")) {
-      if (!(SNodeOperations.isInstanceOf(_context.getNode(), "jetbrains.mps.uiLanguage.structure.EventHandlerReference"))) {
+    if (SNodeOperations.hasRole(link, "jetbrains.mps.baseLanguage.structure.BinaryOperation", "rightExpression")) {
+      if (!(SNodeOperations.isInstanceOf(node, "jetbrains.mps.uiLanguage.structure.EventHandlerReference"))) {
         return false;
       }
     }
