@@ -8,6 +8,7 @@ import jetbrains.mps.smodel.IOperationContext;
 import jetbrains.mps.smodel.SModel;
 import org.jetbrains.annotations.Nullable;
 import jetbrains.mps.smodel.runtime.CheckingNodeContext;
+import jetbrains.mps.smodel.constraints.CanBeARootContext;
 import jetbrains.mps.build.generictasks.behavior.BuiltInTaskDeclaration_Behavior;
 
 public class BuiltInTaskDeclaration_Constraints extends BaseConstraintsDescriptor {
@@ -24,7 +25,7 @@ public class BuiltInTaskDeclaration_Constraints extends BaseConstraintsDescripto
 
   @Override
   public boolean canBeRoot(IOperationContext context, SModel model, @Nullable CheckingNodeContext checkingNodeContext) {
-    boolean result = static_canBeARoot(model, context);
+    boolean result = static_canBeARoot(context, new CanBeARootContext(model));
 
     if (!(result) && checkingNodeContext != null) {
       checkingNodeContext.setBreakingNode(canBeRootBreakingPoint);
@@ -33,7 +34,7 @@ public class BuiltInTaskDeclaration_Constraints extends BaseConstraintsDescripto
     return result;
   }
 
-  public static boolean static_canBeARoot(SModel model, final IOperationContext operationContext) {
+  public static boolean static_canBeARoot(final IOperationContext operationContext, final CanBeARootContext _context) {
     return BuiltInTaskDeclaration_Behavior.isInGeneratedModels_1445805690439864419(operationContext);
   }
 }

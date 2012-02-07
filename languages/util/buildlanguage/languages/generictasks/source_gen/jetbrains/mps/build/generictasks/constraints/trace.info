@@ -1,6 +1,15 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <debugInfo>
+  <unitInfo fileName="BuiltInTaskDeclaration_Constraints.java" startLine="14" startPosition="0" endLine="41" endPosition="0" unitName="jetbrains.mps.build.generictasks.constraints.BuiltInTaskDeclaration_Constraints" />
   <unitInfo fileName="ConstraintsAspectDescriptor.java" startLine="9" startPosition="0" endLine="37" endPosition="0" unitName="jetbrains.mps.build.generictasks.constraints.ConstraintsAspectDescriptor" />
+  <unitInfo fileName="NestedDeclaration_Constraints.java" startLine="14" startPosition="0" endLine="41" endPosition="0" unitName="jetbrains.mps.build.generictasks.constraints.NestedDeclaration_Constraints" />
+  <unitInfo fileName="PathReference_Constraints.java" startLine="24" startPosition="0" endLine="67" endPosition="0" unitName="jetbrains.mps.build.generictasks.constraints.PathReference_Constraints" />
+  <unitInfo fileName="PathReference_Constraints.java" startLine="34" startPosition="31" endLine="63" endPosition="5" unitName="jetbrains.mps.build.generictasks.constraints.PathReference_Constraints$1" />
+  <unitInfo fileName="PathReference_Constraints.java" startLine="43" startPosition="19" endLine="61" endPosition="9" unitName="jetbrains.mps.build.generictasks.constraints.PathReference_Constraints$2" />
+  <unitInfo fileName="TaskInterfaceDeclaration_Constraints.java" startLine="14" startPosition="0" endLine="41" endPosition="0" unitName="jetbrains.mps.build.generictasks.constraints.TaskInterfaceDeclaration_Constraints" />
+  <unitInfo fileName="TaskReference_Constraints.java" startLine="24" startPosition="0" endLine="78" endPosition="0" unitName="jetbrains.mps.build.generictasks.constraints.TaskReference_Constraints" />
+  <unitInfo fileName="TaskReference_Constraints.java" startLine="34" startPosition="38" endLine="74" endPosition="5" unitName="jetbrains.mps.build.generictasks.constraints.TaskReference_Constraints$1" />
+  <unitInfo fileName="TaskReference_Constraints.java" startLine="43" startPosition="19" endLine="72" endPosition="9" unitName="jetbrains.mps.build.generictasks.constraints.TaskReference_Constraints$2" />
   <root nodeId="1190349257898069072">
     <nodeInfo nodeId="1190349257898069151" fileName="SequenceSearchScope.java" startLine="13" startPosition="62" endLine="14" endPosition="40" conceptFqName="jetbrains.mps.baseLanguage.structure.FieldDeclaration" propertyString="myNodes" />
     <nodeInfo nodeId="1190349257898069159" fileName="SequenceSearchScope.java" startLine="16" startPosition="53" endLine="17" endPosition="20" conceptFqName="jetbrains.mps.baseLanguage.structure.ExpressionStatement" />
