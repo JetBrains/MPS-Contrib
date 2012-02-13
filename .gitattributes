@@ -1,7 +1,7 @@
 *.bat text
 *.txt text
 *.iml text
-*.ipr text
+*.ipr text merge=mps
 *.xml text
 *.java text
 *.mpr text
@@ -13,3 +13,6 @@ dependencies merge=mps
 generated merge=mps
 *.mps merge=mps
 trace.info merge=mps
+*.mpl merge=mps
+*.msd merge=mps
+*.devkit merge=mps
