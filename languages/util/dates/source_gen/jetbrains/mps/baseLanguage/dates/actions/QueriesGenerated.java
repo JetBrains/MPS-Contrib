@@ -705,15 +705,15 @@ public class QueriesGenerated {
             return result;
           }
 
-          public String getMatchingText(String text) {
+          public String getMatchingText(String pattern) {
             return SPropertyOperations.getString((item), "pluralForm");
           }
 
-          public String getVisibleMatchingText(String text) {
-            return this.getMatchingText(text);
+          public String getVisibleMatchingText(String pattern) {
+            return this.getMatchingText(pattern);
           }
 
-          public String getDescriptionText(String text) {
+          public String getDescriptionText(String pattern) {
             return "Period constant";
           }
         });
