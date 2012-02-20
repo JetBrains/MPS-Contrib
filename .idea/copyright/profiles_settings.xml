@@ -1,9 +1,6 @@
 <component name="CopyrightManager">
   <settings default="MPS, Apache 2.0">
-    <module2copyright>
-      <element module="tests_gen" copyright="empty" />
-      <element module="source_gen" copyright="empty" />
-    </module2copyright>
+    <module2copyright />
     <LanguageOptions name="CSS">
       <option name="fileTypeOverride" value="1" />
     </LanguageOptions>

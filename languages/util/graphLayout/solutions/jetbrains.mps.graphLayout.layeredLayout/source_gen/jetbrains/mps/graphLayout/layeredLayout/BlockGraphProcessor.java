@@ -45,7 +45,7 @@ public class BlockGraphProcessor {
     int minPos = Integer.MAX_VALUE;
     for (Node node : ListSequence.fromList(blockGraph.getNodes())) {
       MapSequence.fromMap(myLayers).put(node, MapSequence.fromMap(myLayers).get(node) + myShift[MapSequence.fromMap(myClasses).get(node)]);
-      minPos = Math.min(minPos, myLayers.get(node));
+      minPos = Math.min(minPos, MapSequence.fromMap(myLayers).get(node));
     }
     for (Node node : ListSequence.fromList(blockGraph.getNodes())) {
       MapSequence.fromMap(myLayers).put(node, MapSequence.fromMap(myLayers).get(node) - minPos);
@@ -70,7 +70,7 @@ public class BlockGraphProcessor {
             QueueSequence.fromQueue(queue).addLastElement(target);
           }
         } else {
-          myShift[nodeClass] = Math.min(myShift[nodeClass], myLayers.get(target) - myLayers.get(cur) - 1);
+          myShift[nodeClass] = Math.min(myShift[nodeClass], MapSequence.fromMap(myLayers).get(target) - MapSequence.fromMap(myLayers).get(cur) - 1);
         }
       }
     }

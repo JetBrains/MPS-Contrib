@@ -1,13 +1,13 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <language namespace="jetbrains.mps.xmlInternal" uuid="64f62b28-36e3-4052-9f72-f616211ae615" compileInMPS="true" doNotGenerateAdapters="false">
   <models>
-    <modelRoot path="${language_descriptor}/languageModels" namespacePrefix="jetbrains.mps.xmlInternal" />
+    <modelRoot path="${language_descriptor}/languageModels" />
   </models>
   <accessoryModels />
   <generators>
     <generator generatorUID="jetbrains.mps.xmlInternal#1165632612566" uuid="54e8601c-dee3-4b7a-94f7-5ee53b3f2dcb">
       <models>
-        <modelRoot path="${language_descriptor}/generators/baseLanguage/templates" namespacePrefix="jetbrains.mps.xmlInternal.generator.baseLanguage.template" />
+        <modelRoot path="${language_descriptor}/generators/baseLanguage/templates" />
       </models>
       <external-templates>
         <generator generatorUID="bfcadeff-430f-4472-9641-06156a02be37(jetbrains.mps.gtext#1164413905312)" />
@@ -50,6 +50,10 @@
       </mapping-priorities>
     </generator>
   </generators>
+  <sourcePath />
+  <dependencies>
+    <dependency reexport="false">6ed54515-acc8-4d1e-a16c-9fd6cfe951ea(MPS.Core)</dependency>
+  </dependencies>
   <usedDevKits>
     <usedDevKit>2677cb18-f558-4e33-bc38-a5139cee06dc(jetbrains.mps.devkit.language-design)</usedDevKit>
   </usedDevKits>

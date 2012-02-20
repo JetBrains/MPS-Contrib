@@ -44,20 +44,28 @@
     <scopeInfo nodeId="903391227141019564" fileName="OrthogonalFromVisibility.java" startLine="53" startPosition="64" endLine="54" endPosition="94" />
     <scopeInfo nodeId="903391227141019622" fileName="OrthogonalFromVisibility.java" startLine="57" startPosition="49" endLine="58" endPosition="20" />
     <scopeInfo nodeId="1327612371813201700" fileName="OrthogonalFromVisibility.java" startLine="26" startPosition="65" endLine="28" endPosition="3" />
-    <scopeInfo nodeId="1327612371813205143" fileName="OrthogonalFromVisibility.java" startLine="35" startPosition="73" endLine="38" endPosition="5" />
-    <scopeInfo nodeId="903391227141019561" fileName="OrthogonalFromVisibility.java" startLine="52" startPosition="77" endLine="55" endPosition="7" />
-    <scopeInfo nodeId="903391227141019621" fileName="OrthogonalFromVisibility.java" startLine="56" startPosition="91" endLine="60" endPosition="0" />
+    <scopeInfo nodeId="1327612371813205143" fileName="OrthogonalFromVisibility.java" startLine="35" startPosition="73" endLine="38" endPosition="5">
+      <varInfo nodeId="1327612371813205143" varName="dart" />
+    </scopeInfo>
+    <scopeInfo nodeId="903391227141019561" fileName="OrthogonalFromVisibility.java" startLine="52" startPosition="77" endLine="55" endPosition="7">
+      <varInfo nodeId="903391227141019561" varName="edge" />
+    </scopeInfo>
+    <scopeInfo nodeId="903391227141019621" fileName="OrthogonalFromVisibility.java" startLine="56" startPosition="91" endLine="60" endPosition="0">
+      <varInfo nodeId="903391227141019621" varName="it" />
+    </scopeInfo>
     <scopeInfo nodeId="4624841703139858983" fileName="OrthogonalFromVisibility.java" startLine="67" startPosition="63" endLine="74" endPosition="40">
       <varInfo nodeId="4624841703139858991" varName="points" />
       <varInfo nodeId="4624841703139858985" varName="rect" />
     </scopeInfo>
-    <scopeInfo nodeId="4624841703139858978" fileName="OrthogonalFromVisibility.java" startLine="66" startPosition="5" endLine="75" endPosition="5" />
+    <scopeInfo nodeId="4624841703139858978" fileName="OrthogonalFromVisibility.java" startLine="66" startPosition="5" endLine="75" endPosition="5">
+      <varInfo nodeId="4624841703139858978" varName="edge" />
+    </scopeInfo>
     <scopeInfo nodeId="1327612371813201707" fileName="OrthogonalFromVisibility.java" startLine="30" startPosition="49" endLine="43" endPosition="35">
-      <varInfo nodeId="1327612371813208147" varName="t" />
-      <varInfo nodeId="1327612371813205176" varName="s" />
-      <varInfo nodeId="1327612371813208183" varName="stPlanarGraph" />
       <varInfo nodeId="508819492464331042" varName="embeddedGraph" />
       <varInfo nodeId="1327612371813205132" varName="outerNodes" />
+      <varInfo nodeId="1327612371813205176" varName="s" />
+      <varInfo nodeId="1327612371813208183" varName="stPlanarGraph" />
+      <varInfo nodeId="1327612371813208147" varName="t" />
     </scopeInfo>
     <scopeInfo nodeId="4624841703139858952" fileName="OrthogonalFromVisibility.java" startLine="50" startPosition="63" endLine="65" endPosition="8">
       <varInfo nodeId="903391227141019549" varName="edgesX" />
@@ -67,17 +75,19 @@
     <scopeInfo nodeId="1327612371813201704" fileName="OrthogonalFromVisibility.java" startLine="29" startPosition="0" endLine="45" endPosition="0">
       <varInfo nodeId="1327612371813205053" varName="graph" />
     </scopeInfo>
-    <scopeInfo nodeId="4624841703139858947" fileName="OrthogonalFromVisibility.java" startLine="49" startPosition="58" endLine="66" endPosition="5" />
+    <scopeInfo nodeId="4624841703139858947" fileName="OrthogonalFromVisibility.java" startLine="49" startPosition="58" endLine="66" endPosition="5">
+      <varInfo nodeId="4624841703139858947" varName="node" />
+    </scopeInfo>
     <scopeInfo nodeId="4624841703139858924" fileName="OrthogonalFromVisibility.java" startLine="46" startPosition="65" endLine="76" endPosition="18">
       <varInfo nodeId="4624841703139859057" varName="graph" />
-      <varInfo nodeId="4624841703139858935" varName="visibility" />
       <varInfo nodeId="4624841703139858942" varName="layout" />
+      <varInfo nodeId="4624841703139858935" varName="visibility" />
     </scopeInfo>
     <scopeInfo nodeId="4624841703139858921" fileName="OrthogonalFromVisibility.java" startLine="45" startPosition="0" endLine="78" endPosition="0">
       <varInfo nodeId="4624841703139858925" varName="stPlanarGraph" />
     </scopeInfo>
-    <unitInfo nodeId="903391227141019621" fileName="OrthogonalFromVisibility.java" startLine="56" startPosition="54" endLine="60" endPosition="7" unitName="jetbrains.mps.graphLayout.stOrthogonalLayout.OrthogonalFromVisibility$1" />
     <unitInfo nodeId="1327612371813201698" fileName="OrthogonalFromVisibility.java" startLine="26" startPosition="0" endLine="79" endPosition="0" unitName="jetbrains.mps.graphLayout.stOrthogonalLayout.OrthogonalFromVisibility" />
+    <unitInfo nodeId="903391227141019621" fileName="OrthogonalFromVisibility.java" startLine="56" startPosition="54" endLine="60" endPosition="7" unitName="jetbrains.mps.graphLayout.stOrthogonalLayout.OrthogonalFromVisibility$1" />
   </root>
   <root nodeId="5213231752900665239">
     <nodeInfo nodeId="5213231752900665251" fileName="OrthogonalLayouter.java" startLine="31" startPosition="49" endLine="32" endPosition="80" conceptFqName="jetbrains.mps.baseLanguage.structure.LocalVariableDeclarationStatement" />
@@ -127,42 +137,54 @@
     <scopeInfo nodeId="5213231752900665434" fileName="OrthogonalLayouter.java" startLine="42" startPosition="63" endLine="44" endPosition="69">
       <varInfo nodeId="5213231752900665553" varName="subgraph" />
     </scopeInfo>
-    <scopeInfo nodeId="5213231752900665493" fileName="OrthogonalLayouter.java" startLine="33" startPosition="25" endLine="36" endPosition="5" />
+    <scopeInfo nodeId="5213231752900665493" fileName="OrthogonalLayouter.java" startLine="33" startPosition="25" endLine="36" endPosition="5">
+      <varInfo nodeId="5213231752900665493" varName="node" />
+    </scopeInfo>
     <scopeInfo nodeId="5213231752900665517" fileName="OrthogonalLayouter.java" startLine="38" startPosition="74" endLine="41" endPosition="5">
       <varInfo nodeId="5213231752900665520" varName="i" />
     </scopeInfo>
     <scopeInfo nodeId="5213231752900665589" fileName="OrthogonalLayouter.java" startLine="46" startPosition="63" endLine="49" endPosition="84">
-      <varInfo nodeId="1763712338172397423" varName="subgraph" />
       <varInfo nodeId="1763712338172397394" varName="source" />
+      <varInfo nodeId="1763712338172397423" varName="subgraph" />
     </scopeInfo>
-    <scopeInfo nodeId="5213231752900665629" fileName="OrthogonalLayouter.java" startLine="51" startPosition="6" endLine="54" endPosition="7" />
-    <scopeInfo nodeId="6074874003310509182" fileName="OrthogonalLayouter.java" startLine="64" startPosition="73" endLine="67" endPosition="5" />
-    <scopeInfo nodeId="5213231752900665431" fileName="OrthogonalLayouter.java" startLine="41" startPosition="5" endLine="45" endPosition="5" />
-    <scopeInfo nodeId="6074874003310509229" fileName="OrthogonalLayouter.java" startLine="68" startPosition="83" endLine="72" endPosition="0" />
-    <scopeInfo nodeId="5213231752900665586" fileName="OrthogonalLayouter.java" startLine="45" startPosition="5" endLine="50" endPosition="5" />
+    <scopeInfo nodeId="5213231752900665629" fileName="OrthogonalLayouter.java" startLine="51" startPosition="6" endLine="54" endPosition="7">
+      <varInfo nodeId="5213231752900665629" varName="subgraph" />
+    </scopeInfo>
+    <scopeInfo nodeId="6074874003310509182" fileName="OrthogonalLayouter.java" startLine="64" startPosition="73" endLine="67" endPosition="5">
+      <varInfo nodeId="6074874003310509182" varName="dart" />
+    </scopeInfo>
+    <scopeInfo nodeId="5213231752900665431" fileName="OrthogonalLayouter.java" startLine="41" startPosition="5" endLine="45" endPosition="5">
+      <varInfo nodeId="5213231752900665431" varName="node" />
+    </scopeInfo>
+    <scopeInfo nodeId="6074874003310509229" fileName="OrthogonalLayouter.java" startLine="68" startPosition="83" endLine="72" endPosition="0">
+      <varInfo nodeId="6074874003310509229" varName="it" />
+    </scopeInfo>
+    <scopeInfo nodeId="5213231752900665586" fileName="OrthogonalLayouter.java" startLine="45" startPosition="5" endLine="50" endPosition="5">
+      <varInfo nodeId="5213231752900665586" varName="edge" />
+    </scopeInfo>
     <scopeInfo nodeId="5213231752900665643" fileName="OrthogonalLayouter.java" startLine="59" startPosition="53" endLine="77" endPosition="66">
-      <varInfo nodeId="4624841703139842383" varName="embeddingFinder" />
-      <varInfo nodeId="6074874003310509205" varName="t" />
-      <varInfo nodeId="6074874003310509198" varName="s" />
-      <varInfo nodeId="4624841703139859106" varName="stPlanarGraph" />
       <varInfo nodeId="4624841703139867938" varName="embeddedGraph" />
+      <varInfo nodeId="4624841703139842383" varName="embeddingFinder" />
       <varInfo nodeId="903391227141007422" varName="maxIndex" />
       <varInfo nodeId="6074874003310509176" varName="outerNodes" />
+      <varInfo nodeId="6074874003310509198" varName="s" />
+      <varInfo nodeId="4624841703139859106" varName="stPlanarGraph" />
+      <varInfo nodeId="6074874003310509205" varName="t" />
     </scopeInfo>
     <scopeInfo nodeId="5213231752900665640" fileName="OrthogonalLayouter.java" startLine="58" startPosition="0" endLine="79" endPosition="0">
       <varInfo nodeId="5213231752900665644" varName="graph" />
     </scopeInfo>
     <scopeInfo nodeId="5213231752900665248" fileName="OrthogonalLayouter.java" startLine="31" startPosition="49" endLine="56" endPosition="72">
-      <varInfo nodeId="5213231752900665464" varName="subgraphs" />
+      <varInfo nodeId="5213231752900665252" varName="components" />
       <varInfo nodeId="5213231752900665488" varName="maxComponent" />
       <varInfo nodeId="5213231752900665443" varName="newNodes" />
-      <varInfo nodeId="5213231752900665252" varName="components" />
+      <varInfo nodeId="5213231752900665464" varName="subgraphs" />
     </scopeInfo>
     <scopeInfo nodeId="5213231752900665245" fileName="OrthogonalLayouter.java" startLine="30" startPosition="0" endLine="58" endPosition="0">
       <varInfo nodeId="5213231752900665249" varName="graph" />
     </scopeInfo>
-    <unitInfo nodeId="6074874003310509229" fileName="OrthogonalLayouter.java" startLine="68" startPosition="61" endLine="72" endPosition="5" unitName="jetbrains.mps.graphLayout.stOrthogonalLayout.OrthogonalLayouter$1" />
     <unitInfo nodeId="5213231752900665239" fileName="OrthogonalLayouter.java" startLine="27" startPosition="0" endLine="80" endPosition="0" unitName="jetbrains.mps.graphLayout.stOrthogonalLayout.OrthogonalLayouter" />
+    <unitInfo nodeId="6074874003310509229" fileName="OrthogonalLayouter.java" startLine="68" startPosition="61" endLine="72" endPosition="5" unitName="jetbrains.mps.graphLayout.stOrthogonalLayout.OrthogonalLayouter$1" />
   </root>
   <root nodeId="6494745554568982379">
     <nodeInfo nodeId="6494745554568987856" fileName="LayoutOptimizer.java" startLine="21" startPosition="30" endLine="22" endPosition="31" conceptFqName="jetbrains.mps.baseLanguage.structure.FieldDeclaration" propertyString="myLayout" />
@@ -287,13 +309,19 @@
       <varInfo nodeId="6494745554568982393" varName="layout" />
     </scopeInfo>
     <scopeInfo nodeId="6494745554568988517" fileName="LayoutOptimizer.java" startLine="121" startPosition="108" endLine="126" endPosition="7" />
-    <scopeInfo nodeId="6494745554568988529" fileName="LayoutOptimizer.java" startLine="121" startPosition="108" endLine="126" endPosition="7" />
-    <scopeInfo nodeId="8680836410351713653" fileName="LayoutOptimizer.java" startLine="127" startPosition="5" endLine="132" endPosition="5" />
+    <scopeInfo nodeId="6494745554568988529" fileName="LayoutOptimizer.java" startLine="121" startPosition="108" endLine="126" endPosition="7">
+      <varInfo nodeId="6494745554568988529" varName="p" />
+    </scopeInfo>
+    <scopeInfo nodeId="8680836410351713653" fileName="LayoutOptimizer.java" startLine="127" startPosition="5" endLine="132" endPosition="5">
+      <varInfo nodeId="8680836410351713653" varName="labelRect" />
+    </scopeInfo>
     <scopeInfo nodeId="5639900666367221474" fileName="LayoutOptimizer.java" startLine="65" startPosition="16" endLine="71" endPosition="7" />
     <scopeInfo nodeId="5639900666367102569" fileName="LayoutOptimizer.java" startLine="43" startPosition="33" endLine="50" endPosition="18">
       <varInfo nodeId="5639900666367102586" varName="temp" />
     </scopeInfo>
-    <scopeInfo nodeId="6494745554568988514" fileName="LayoutOptimizer.java" startLine="120" startPosition="5" endLine="127" endPosition="5" />
+    <scopeInfo nodeId="6494745554568988514" fileName="LayoutOptimizer.java" startLine="120" startPosition="5" endLine="127" endPosition="5">
+      <varInfo nodeId="6494745554568988514" varName="path" />
+    </scopeInfo>
     <scopeInfo nodeId="6494745554568988308" fileName="LayoutOptimizer.java" startLine="136" startPosition="71" endLine="144" endPosition="17">
       <varInfo nodeId="5639900666367292082" varName="insideX" />
       <varInfo nodeId="5639900666367292170" varName="insideY" />
@@ -303,18 +331,18 @@
     </scopeInfo>
     <scopeInfo nodeId="6494745554568988305" fileName="LayoutOptimizer.java" startLine="135" startPosition="0" endLine="146" endPosition="0">
       <varInfo nodeId="6494745554568988314" varName="rect" />
-      <varInfo nodeId="6494745554568988392" varName="y" />
       <varInfo nodeId="6494745554568988312" varName="x" />
+      <varInfo nodeId="6494745554568988392" varName="y" />
     </scopeInfo>
     <scopeInfo nodeId="5639900666367283886" fileName="LayoutOptimizer.java" startLine="72" startPosition="12" endLine="84" endPosition="7">
-      <varInfo nodeId="5639900666367283910" varName="second" />
-      <varInfo nodeId="5639900666367283924" varName="firstSmaller" />
       <varInfo nodeId="5639900666367283890" varName="first" />
+      <varInfo nodeId="5639900666367283924" varName="firstSmaller" />
+      <varInfo nodeId="5639900666367283910" varName="second" />
     </scopeInfo>
     <scopeInfo nodeId="5639900666367221606" fileName="LayoutOptimizer.java" startLine="88" startPosition="0" endLine="100" endPosition="0">
-      <varInfo nodeId="5639900666367221615" varName="mid" />
-      <varInfo nodeId="5639900666367221618" varName="end" />
       <varInfo nodeId="5639900666367221613" varName="begin" />
+      <varInfo nodeId="5639900666367221618" varName="end" />
+      <varInfo nodeId="5639900666367221615" varName="mid" />
     </scopeInfo>
     <scopeInfo nodeId="6494745554568988223" fileName="LayoutOptimizer.java" startLine="36" startPosition="75" endLine="51" endPosition="11">
       <varInfo nodeId="6494745554568988225" varName="chain" />
@@ -331,8 +359,12 @@
       <varInfo nodeId="2913448412765282845" varName="myEdge" />
       <varInfo nodeId="6494745554568988206" varName="path" />
     </scopeInfo>
-    <scopeInfo nodeId="5639900666367306617" fileName="LayoutOptimizer.java" startLine="101" startPosition="55" endLine="120" endPosition="5" />
-    <scopeInfo nodeId="6494745554568987909" fileName="LayoutOptimizer.java" startLine="32" startPosition="34" endLine="53" endPosition="7" />
+    <scopeInfo nodeId="5639900666367306617" fileName="LayoutOptimizer.java" startLine="101" startPosition="55" endLine="120" endPosition="5">
+      <varInfo nodeId="5639900666367306617" varName="node" />
+    </scopeInfo>
+    <scopeInfo nodeId="6494745554568987909" fileName="LayoutOptimizer.java" startLine="32" startPosition="34" endLine="53" endPosition="7">
+      <varInfo nodeId="6494745554568987909" varName="edge" />
+    </scopeInfo>
     <scopeInfo nodeId="6494745554568987908" fileName="LayoutOptimizer.java" startLine="30" startPosition="27" endLine="53" endPosition="7" />
     <scopeInfo nodeId="6494745554568987897" fileName="LayoutOptimizer.java" startLine="28" startPosition="27" endLine="54" endPosition="5">
       <varInfo nodeId="6494745554568987903" varName="foundOptimize" />
@@ -343,8 +375,8 @@
       <varInfo nodeId="5639900666367221318" varName="zLike" />
     </scopeInfo>
     <scopeInfo nodeId="5639900666367221279" fileName="LayoutOptimizer.java" startLine="56" startPosition="0" endLine="88" endPosition="0">
-      <varInfo nodeId="5639900666367306602" varName="edge" />
       <varInfo nodeId="5639900666367221284" varName="chain" />
+      <varInfo nodeId="5639900666367306602" varName="edge" />
     </scopeInfo>
     <scopeInfo nodeId="6494745554568988278" fileName="LayoutOptimizer.java" startLine="101" startPosition="55" endLine="133" endPosition="16" />
     <scopeInfo nodeId="6494745554568988275" fileName="LayoutOptimizer.java" startLine="100" startPosition="0" endLine="135" endPosition="0">
@@ -354,61 +386,68 @@
     <unitInfo nodeId="6494745554568982379" fileName="LayoutOptimizer.java" startLine="21" startPosition="0" endLine="151" endPosition="0" unitName="jetbrains.mps.graphLayout.stOrthogonalLayout.LayoutOptimizer" />
   </root>
   <root nodeId="6984255766319277285">
-    <nodeInfo nodeId="6984255766319281789" fileName="VisibilityRepresentation.java" startLine="20" startPosition="97" endLine="21" endPosition="43" conceptFqName="jetbrains.mps.baseLanguage.structure.LocalVariableDeclarationStatement" />
-    <nodeInfo nodeId="6984255766319281781" fileName="VisibilityRepresentation.java" startLine="21" startPosition="43" endLine="22" endPosition="67" conceptFqName="jetbrains.mps.baseLanguage.structure.LocalVariableDeclarationStatement" />
-    <nodeInfo nodeId="6984255766319277716" fileName="VisibilityRepresentation.java" startLine="22" startPosition="67" endLine="23" endPosition="63" conceptFqName="jetbrains.mps.baseLanguage.structure.LocalVariableDeclarationStatement" />
-    <nodeInfo nodeId="6984255766319281956" fileName="VisibilityRepresentation.java" startLine="23" startPosition="63" endLine="24" endPosition="50" conceptFqName="jetbrains.mps.baseLanguage.structure.LocalVariableDeclarationStatement" />
-    <nodeInfo nodeId="6984255766319277727" fileName="VisibilityRepresentation.java" startLine="24" startPosition="50" endLine="25" endPosition="20" conceptFqName="jetbrains.mps.baseLanguage.structure.SingleLineComment" />
-    <nodeInfo nodeId="6984255766319277733" fileName="VisibilityRepresentation.java" startLine="25" startPosition="20" endLine="26" endPosition="82" conceptFqName="jetbrains.mps.baseLanguage.structure.LocalVariableDeclarationStatement" />
-    <nodeInfo nodeId="6984255766319277780" fileName="VisibilityRepresentation.java" startLine="26" startPosition="82" endLine="27" endPosition="69" conceptFqName="jetbrains.mps.baseLanguage.structure.LocalVariableDeclarationStatement" />
-    <nodeInfo nodeId="6984255766319277826" fileName="VisibilityRepresentation.java" startLine="27" startPosition="69" endLine="28" endPosition="16" conceptFqName="jetbrains.mps.baseLanguage.structure.SingleLineComment" />
-    <nodeInfo nodeId="6984255766319277829" fileName="VisibilityRepresentation.java" startLine="28" startPosition="16" endLine="29" endPosition="75" conceptFqName="jetbrains.mps.baseLanguage.structure.LocalVariableDeclarationStatement" />
-    <nodeInfo nodeId="6984255766319277859" fileName="VisibilityRepresentation.java" startLine="29" startPosition="75" endLine="30" endPosition="78" conceptFqName="jetbrains.mps.baseLanguage.structure.LocalVariableDeclarationStatement" />
-    <nodeInfo nodeId="6984255766319281829" fileName="VisibilityRepresentation.java" startLine="30" startPosition="78" endLine="31" endPosition="94" conceptFqName="jetbrains.mps.baseLanguage.structure.LocalVariableDeclarationStatement" />
-    <nodeInfo nodeId="6984255766319281902" fileName="VisibilityRepresentation.java" startLine="31" startPosition="94" endLine="32" endPosition="56" conceptFqName="jetbrains.mps.baseLanguage.structure.LocalVariableDeclarationStatement" />
-    <nodeInfo nodeId="3619822174190283450" fileName="VisibilityRepresentation.java" startLine="33" startPosition="63" endLine="34" endPosition="60" conceptFqName="jetbrains.mps.baseLanguage.structure.LocalVariableDeclarationStatement" />
-    <nodeInfo nodeId="3619822174190283460" fileName="VisibilityRepresentation.java" startLine="34" startPosition="60" endLine="35" endPosition="126" conceptFqName="jetbrains.mps.baseLanguage.structure.LocalVariableDeclarationStatement" />
-    <nodeInfo nodeId="3619822174190283480" fileName="VisibilityRepresentation.java" startLine="35" startPosition="126" endLine="36" endPosition="132" conceptFqName="jetbrains.mps.baseLanguage.structure.LocalVariableDeclarationStatement" />
-    <nodeInfo nodeId="3619822174190283641" fileName="VisibilityRepresentation.java" startLine="37" startPosition="58" endLine="38" endPosition="72" conceptFqName="jetbrains.mps.baseLanguage.structure.ExpressionStatement" />
-    <nodeInfo nodeId="3619822174190283496" fileName="VisibilityRepresentation.java" startLine="39" startPosition="7" endLine="40" endPosition="92" conceptFqName="jetbrains.mps.baseLanguage.structure.ExpressionStatement" />
-    <nodeInfo nodeId="3619822174190283557" fileName="VisibilityRepresentation.java" startLine="42" startPosition="63" endLine="43" endPosition="122" conceptFqName="jetbrains.mps.baseLanguage.structure.LocalVariableDeclarationStatement" />
-    <nodeInfo nodeId="3619822174190283577" fileName="VisibilityRepresentation.java" startLine="43" startPosition="122" endLine="44" endPosition="91" conceptFqName="jetbrains.mps.baseLanguage.structure.LocalVariableDeclarationStatement" />
-    <nodeInfo nodeId="3619822174190283594" fileName="VisibilityRepresentation.java" startLine="44" startPosition="91" endLine="45" endPosition="92" conceptFqName="jetbrains.mps.baseLanguage.structure.LocalVariableDeclarationStatement" />
-    <nodeInfo nodeId="3619822174190283604" fileName="VisibilityRepresentation.java" startLine="45" startPosition="92" endLine="46" endPosition="92" conceptFqName="jetbrains.mps.baseLanguage.structure.ExpressionStatement" />
-    <nodeInfo nodeId="6984255766319277774" fileName="VisibilityRepresentation.java" startLine="47" startPosition="5" endLine="48" endPosition="22" conceptFqName="jetbrains.mps.baseLanguage.structure.ReturnStatement" />
-    <nodeInfo nodeId="3619822174190283628" fileName="VisibilityRepresentation.java" startLine="36" startPosition="132" endLine="39" endPosition="7" conceptFqName="jetbrains.mps.baseLanguage.structure.IfStatement" />
-    <nodeInfo nodeId="3619822174190283538" fileName="VisibilityRepresentation.java" startLine="41" startPosition="5" endLine="47" endPosition="5" conceptFqName="jetbrains.mps.baseLanguage.structure.ForeachStatement" />
-    <nodeInfo nodeId="3619822174190283435" fileName="VisibilityRepresentation.java" startLine="32" startPosition="56" endLine="41" endPosition="5" conceptFqName="jetbrains.mps.baseLanguage.structure.ForeachStatement" />
-    <nodeInfo nodeId="6984255766319277706" fileName="VisibilityRepresentation.java" startLine="19" startPosition="39" endLine="50" endPosition="0" conceptFqName="jetbrains.mps.baseLanguage.structure.StaticMethodDeclaration" propertyString="getVisibilityRepresentation#(Ljetbrains/mps/graphLayout/planarGraph/STPlanarGraph;)Ljava/util/Map;" />
-    <scopeInfo nodeId="3619822174190283629" fileName="VisibilityRepresentation.java" startLine="37" startPosition="58" endLine="38" endPosition="72" />
-    <scopeInfo nodeId="3619822174190283541" fileName="VisibilityRepresentation.java" startLine="42" startPosition="63" endLine="46" endPosition="92">
-      <varInfo nodeId="3619822174190283595" varName="yRight" />
-      <varInfo nodeId="3619822174190283578" varName="yLeft" />
+    <nodeInfo nodeId="6984255766319281789" fileName="VisibilityRepresentation.java" startLine="23" startPosition="97" endLine="24" endPosition="43" conceptFqName="jetbrains.mps.baseLanguage.structure.LocalVariableDeclarationStatement" />
+    <nodeInfo nodeId="6984255766319281781" fileName="VisibilityRepresentation.java" startLine="24" startPosition="43" endLine="25" endPosition="67" conceptFqName="jetbrains.mps.baseLanguage.structure.LocalVariableDeclarationStatement" />
+    <nodeInfo nodeId="6984255766319277716" fileName="VisibilityRepresentation.java" startLine="25" startPosition="67" endLine="26" endPosition="63" conceptFqName="jetbrains.mps.baseLanguage.structure.LocalVariableDeclarationStatement" />
+    <nodeInfo nodeId="6984255766319281956" fileName="VisibilityRepresentation.java" startLine="26" startPosition="63" endLine="27" endPosition="50" conceptFqName="jetbrains.mps.baseLanguage.structure.LocalVariableDeclarationStatement" />
+    <nodeInfo nodeId="6984255766319277727" fileName="VisibilityRepresentation.java" startLine="27" startPosition="50" endLine="28" endPosition="20" conceptFqName="jetbrains.mps.baseLanguage.structure.SingleLineComment" />
+    <nodeInfo nodeId="6984255766319277733" fileName="VisibilityRepresentation.java" startLine="28" startPosition="20" endLine="29" endPosition="82" conceptFqName="jetbrains.mps.baseLanguage.structure.LocalVariableDeclarationStatement" />
+    <nodeInfo nodeId="6984255766319277780" fileName="VisibilityRepresentation.java" startLine="29" startPosition="82" endLine="30" endPosition="69" conceptFqName="jetbrains.mps.baseLanguage.structure.LocalVariableDeclarationStatement" />
+    <nodeInfo nodeId="6984255766319277826" fileName="VisibilityRepresentation.java" startLine="30" startPosition="69" endLine="31" endPosition="16" conceptFqName="jetbrains.mps.baseLanguage.structure.SingleLineComment" />
+    <nodeInfo nodeId="6984255766319277829" fileName="VisibilityRepresentation.java" startLine="31" startPosition="16" endLine="32" endPosition="75" conceptFqName="jetbrains.mps.baseLanguage.structure.LocalVariableDeclarationStatement" />
+    <nodeInfo nodeId="6984255766319277859" fileName="VisibilityRepresentation.java" startLine="32" startPosition="75" endLine="33" endPosition="78" conceptFqName="jetbrains.mps.baseLanguage.structure.LocalVariableDeclarationStatement" />
+    <nodeInfo nodeId="6984255766319281829" fileName="VisibilityRepresentation.java" startLine="33" startPosition="78" endLine="34" endPosition="94" conceptFqName="jetbrains.mps.baseLanguage.structure.LocalVariableDeclarationStatement" />
+    <nodeInfo nodeId="6984255766319281902" fileName="VisibilityRepresentation.java" startLine="34" startPosition="94" endLine="35" endPosition="56" conceptFqName="jetbrains.mps.baseLanguage.structure.LocalVariableDeclarationStatement" />
+    <nodeInfo nodeId="3619822174190283450" fileName="VisibilityRepresentation.java" startLine="36" startPosition="63" endLine="37" endPosition="60" conceptFqName="jetbrains.mps.baseLanguage.structure.LocalVariableDeclarationStatement" />
+    <nodeInfo nodeId="3619822174190283460" fileName="VisibilityRepresentation.java" startLine="37" startPosition="60" endLine="38" endPosition="126" conceptFqName="jetbrains.mps.baseLanguage.structure.LocalVariableDeclarationStatement" />
+    <nodeInfo nodeId="3619822174190283480" fileName="VisibilityRepresentation.java" startLine="38" startPosition="126" endLine="39" endPosition="132" conceptFqName="jetbrains.mps.baseLanguage.structure.LocalVariableDeclarationStatement" />
+    <nodeInfo nodeId="3619822174190283641" fileName="VisibilityRepresentation.java" startLine="40" startPosition="58" endLine="41" endPosition="72" conceptFqName="jetbrains.mps.baseLanguage.structure.ExpressionStatement" />
+    <nodeInfo nodeId="3619822174190283496" fileName="VisibilityRepresentation.java" startLine="42" startPosition="7" endLine="43" endPosition="92" conceptFqName="jetbrains.mps.baseLanguage.structure.ExpressionStatement" />
+    <nodeInfo nodeId="3619822174190283557" fileName="VisibilityRepresentation.java" startLine="45" startPosition="63" endLine="46" endPosition="122" conceptFqName="jetbrains.mps.baseLanguage.structure.LocalVariableDeclarationStatement" />
+    <nodeInfo nodeId="3619822174190283577" fileName="VisibilityRepresentation.java" startLine="46" startPosition="122" endLine="47" endPosition="91" conceptFqName="jetbrains.mps.baseLanguage.structure.LocalVariableDeclarationStatement" />
+    <nodeInfo nodeId="3619822174190283594" fileName="VisibilityRepresentation.java" startLine="47" startPosition="91" endLine="48" endPosition="92" conceptFqName="jetbrains.mps.baseLanguage.structure.LocalVariableDeclarationStatement" />
+    <nodeInfo nodeId="3619822174190283604" fileName="VisibilityRepresentation.java" startLine="48" startPosition="92" endLine="49" endPosition="92" conceptFqName="jetbrains.mps.baseLanguage.structure.ExpressionStatement" />
+    <nodeInfo nodeId="6984255766319277774" fileName="VisibilityRepresentation.java" startLine="50" startPosition="5" endLine="51" endPosition="22" conceptFqName="jetbrains.mps.baseLanguage.structure.ReturnStatement" />
+    <nodeInfo nodeId="7365360912573040534" fileName="VisibilityRepresentation.java" startLine="19" startPosition="39" endLine="21" endPosition="3" conceptFqName="jetbrains.mps.baseLanguage.structure.ConstructorDeclaration" propertyString="VisibilityRepresentation#()V" />
+    <nodeInfo nodeId="3619822174190283628" fileName="VisibilityRepresentation.java" startLine="39" startPosition="132" endLine="42" endPosition="7" conceptFqName="jetbrains.mps.baseLanguage.structure.IfStatement" />
+    <nodeInfo nodeId="3619822174190283538" fileName="VisibilityRepresentation.java" startLine="44" startPosition="5" endLine="50" endPosition="5" conceptFqName="jetbrains.mps.baseLanguage.structure.ForeachStatement" />
+    <nodeInfo nodeId="3619822174190283435" fileName="VisibilityRepresentation.java" startLine="35" startPosition="56" endLine="44" endPosition="5" conceptFqName="jetbrains.mps.baseLanguage.structure.ForeachStatement" />
+    <nodeInfo nodeId="6984255766319277706" fileName="VisibilityRepresentation.java" startLine="22" startPosition="0" endLine="53" endPosition="0" conceptFqName="jetbrains.mps.baseLanguage.structure.StaticMethodDeclaration" propertyString="getVisibilityRepresentation#(Ljetbrains/mps/graphLayout/planarGraph/STPlanarGraph;)Ljava/util/Map;" />
+    <scopeInfo nodeId="7365360912573040536" fileName="VisibilityRepresentation.java" startLine="20" startPosition="37" endLine="20" endPosition="37" />
+    <scopeInfo nodeId="3619822174190283629" fileName="VisibilityRepresentation.java" startLine="40" startPosition="58" endLine="41" endPosition="72" />
+    <scopeInfo nodeId="7365360912573040534" fileName="VisibilityRepresentation.java" startLine="19" startPosition="39" endLine="21" endPosition="3" />
+    <scopeInfo nodeId="3619822174190283541" fileName="VisibilityRepresentation.java" startLine="45" startPosition="63" endLine="49" endPosition="92">
       <varInfo nodeId="3619822174190283558" varName="x" />
+      <varInfo nodeId="3619822174190283578" varName="yLeft" />
+      <varInfo nodeId="3619822174190283595" varName="yRight" />
     </scopeInfo>
-    <scopeInfo nodeId="3619822174190283538" fileName="VisibilityRepresentation.java" startLine="41" startPosition="5" endLine="47" endPosition="5" />
-    <scopeInfo nodeId="3619822174190283438" fileName="VisibilityRepresentation.java" startLine="33" startPosition="63" endLine="40" endPosition="92">
+    <scopeInfo nodeId="3619822174190283538" fileName="VisibilityRepresentation.java" startLine="44" startPosition="5" endLine="50" endPosition="5">
+      <varInfo nodeId="3619822174190283538" varName="edge" />
+    </scopeInfo>
+    <scopeInfo nodeId="3619822174190283438" fileName="VisibilityRepresentation.java" startLine="36" startPosition="63" endLine="43" endPosition="92">
       <varInfo nodeId="3619822174190283461" varName="xLeft" />
       <varInfo nodeId="3619822174190283481" varName="xRight" />
       <varInfo nodeId="3619822174190283451" varName="y" />
     </scopeInfo>
-    <scopeInfo nodeId="3619822174190283435" fileName="VisibilityRepresentation.java" startLine="32" startPosition="56" endLine="41" endPosition="5" />
-    <scopeInfo nodeId="6984255766319277709" fileName="VisibilityRepresentation.java" startLine="20" startPosition="97" endLine="48" endPosition="22">
-      <varInfo nodeId="6984255766319281790" varName="graph" />
-      <varInfo nodeId="6984255766319277781" varName="dualTarget" />
-      <varInfo nodeId="6984255766319277830" varName="graphNumbering" />
-      <varInfo nodeId="6984255766319281782" varName="embeddedGraph" />
-      <varInfo nodeId="6984255766319281957" varName="outerFace" />
+    <scopeInfo nodeId="3619822174190283435" fileName="VisibilityRepresentation.java" startLine="35" startPosition="56" endLine="44" endPosition="5">
+      <varInfo nodeId="3619822174190283435" varName="node" />
+    </scopeInfo>
+    <scopeInfo nodeId="6984255766319277709" fileName="VisibilityRepresentation.java" startLine="23" startPosition="97" endLine="51" endPosition="22">
       <varInfo nodeId="6984255766319277717" varName="dualGraph" />
-      <varInfo nodeId="6984255766319281830" varName="rectangles" />
       <varInfo nodeId="6984255766319277860" varName="dualNumbering" />
       <varInfo nodeId="6984255766319277734" varName="dualSource" />
+      <varInfo nodeId="6984255766319277781" varName="dualTarget" />
+      <varInfo nodeId="6984255766319281782" varName="embeddedGraph" />
       <varInfo nodeId="6984255766319281903" varName="faceNodes" />
+      <varInfo nodeId="6984255766319281790" varName="graph" />
+      <varInfo nodeId="6984255766319277830" varName="graphNumbering" />
+      <varInfo nodeId="6984255766319281957" varName="outerFace" />
+      <varInfo nodeId="6984255766319281830" varName="rectangles" />
     </scopeInfo>
-    <scopeInfo nodeId="6984255766319277706" fileName="VisibilityRepresentation.java" startLine="19" startPosition="39" endLine="50" endPosition="0">
+    <scopeInfo nodeId="6984255766319277706" fileName="VisibilityRepresentation.java" startLine="22" startPosition="0" endLine="53" endPosition="0">
       <varInfo nodeId="6984255766319277711" varName="stPlanarGraph" />
     </scopeInfo>
-    <unitInfo nodeId="6984255766319277285" fileName="VisibilityRepresentation.java" startLine="19" startPosition="0" endLine="51" endPosition="0" unitName="jetbrains.mps.graphLayout.stOrthogonalLayout.VisibilityRepresentation" />
+    <unitInfo nodeId="6984255766319277285" fileName="VisibilityRepresentation.java" startLine="19" startPosition="0" endLine="54" endPosition="0" unitName="jetbrains.mps.graphLayout.stOrthogonalLayout.VisibilityRepresentation" />
   </root>
   <root nodeId="903391227141024519">
     <nodeInfo nodeId="903391227141027242" fileName="ConstraintsSupporter.java" startLine="20" startPosition="35" endLine="21" endPosition="40" conceptFqName="jetbrains.mps.baseLanguage.structure.FieldDeclaration" propertyString="myStPlanarGraph" />
@@ -518,17 +557,31 @@
     <scopeInfo nodeId="903391227141025823" fileName="ConstraintsSupporter.java" startLine="130" startPosition="63" endLine="131" endPosition="178" />
     <scopeInfo nodeId="903391227141025439" fileName="ConstraintsSupporter.java" startLine="33" startPosition="0" endLine="35" endPosition="3" />
     <scopeInfo nodeId="6494745554568955408" fileName="ConstraintsSupporter.java" startLine="136" startPosition="48" endLine="138" endPosition="27" />
-    <scopeInfo nodeId="903391227141026132" fileName="ConstraintsSupporter.java" startLine="42" startPosition="87" endLine="45" endPosition="5" />
-    <scopeInfo nodeId="903391227141026121" fileName="ConstraintsSupporter.java" startLine="45" startPosition="5" endLine="48" endPosition="5" />
-    <scopeInfo nodeId="8680836410351582150" fileName="ConstraintsSupporter.java" startLine="49" startPosition="91" endLine="52" endPosition="5" />
-    <scopeInfo nodeId="903391227141026815" fileName="ConstraintsSupporter.java" startLine="63" startPosition="98" endLine="66" endPosition="5" />
-    <scopeInfo nodeId="903391227141026976" fileName="ConstraintsSupporter.java" startLine="66" startPosition="5" endLine="69" endPosition="5" />
+    <scopeInfo nodeId="903391227141026132" fileName="ConstraintsSupporter.java" startLine="42" startPosition="87" endLine="45" endPosition="5">
+      <varInfo nodeId="903391227141026132" varName="node" />
+    </scopeInfo>
+    <scopeInfo nodeId="903391227141026121" fileName="ConstraintsSupporter.java" startLine="45" startPosition="5" endLine="48" endPosition="5">
+      <varInfo nodeId="903391227141026121" varName="edge" />
+    </scopeInfo>
+    <scopeInfo nodeId="8680836410351582150" fileName="ConstraintsSupporter.java" startLine="49" startPosition="91" endLine="52" endPosition="5">
+      <varInfo nodeId="8680836410351582150" varName="node" />
+    </scopeInfo>
+    <scopeInfo nodeId="903391227141026815" fileName="ConstraintsSupporter.java" startLine="63" startPosition="98" endLine="66" endPosition="5">
+      <varInfo nodeId="903391227141026815" varName="node" />
+    </scopeInfo>
+    <scopeInfo nodeId="903391227141026976" fileName="ConstraintsSupporter.java" startLine="66" startPosition="5" endLine="69" endPosition="5">
+      <varInfo nodeId="903391227141026976" varName="edge" />
+    </scopeInfo>
     <scopeInfo nodeId="903391227141025786" fileName="ConstraintsSupporter.java" startLine="125" startPosition="63" endLine="128" endPosition="155" />
-    <scopeInfo nodeId="903391227141025819" fileName="ConstraintsSupporter.java" startLine="129" startPosition="5" endLine="132" endPosition="5" />
-    <scopeInfo nodeId="903391227141025785" fileName="ConstraintsSupporter.java" startLine="124" startPosition="38" endLine="129" endPosition="5" />
+    <scopeInfo nodeId="903391227141025819" fileName="ConstraintsSupporter.java" startLine="129" startPosition="5" endLine="132" endPosition="5">
+      <varInfo nodeId="903391227141025819" varName="edge" />
+    </scopeInfo>
+    <scopeInfo nodeId="903391227141025785" fileName="ConstraintsSupporter.java" startLine="124" startPosition="38" endLine="129" endPosition="5">
+      <varInfo nodeId="903391227141025785" varName="node" />
+    </scopeInfo>
     <scopeInfo nodeId="6494745554568955405" fileName="ConstraintsSupporter.java" startLine="135" startPosition="0" endLine="140" endPosition="0">
-      <varInfo nodeId="6494745554568955411" varName="y" />
       <varInfo nodeId="6494745554568955409" varName="x" />
+      <varInfo nodeId="6494745554568955411" varName="y" />
     </scopeInfo>
     <scopeInfo nodeId="903391227141026762" fileName="ConstraintsSupporter.java" startLine="53" startPosition="77" endLine="59" endPosition="7">
       <varInfo nodeId="8680836410351582131" varName="dimension" />
@@ -536,17 +589,19 @@
     </scopeInfo>
     <scopeInfo nodeId="903391227141027309" fileName="ConstraintsSupporter.java" startLine="73" startPosition="69" endLine="79" endPosition="63">
       <varInfo nodeId="903391227141027287" varName="leftFace" />
-      <varInfo nodeId="903391227141027293" varName="maxY" />
       <varInfo nodeId="903391227141027289" varName="maxX" />
+      <varInfo nodeId="903391227141027293" varName="maxY" />
       <varInfo nodeId="903391227141027291" varName="minX" />
       <varInfo nodeId="903391227141027292" varName="minY" />
     </scopeInfo>
-    <scopeInfo nodeId="903391227141026759" fileName="ConstraintsSupporter.java" startLine="52" startPosition="5" endLine="60" endPosition="5" />
+    <scopeInfo nodeId="903391227141026759" fileName="ConstraintsSupporter.java" startLine="52" startPosition="5" endLine="60" endPosition="5">
+      <varInfo nodeId="903391227141026759" varName="edge" />
+    </scopeInfo>
     <scopeInfo nodeId="903391227141027475" fileName="ConstraintsSupporter.java" startLine="82" startPosition="43" endLine="90" endPosition="16">
       <varInfo nodeId="903391227141027467" varName="dualTarget" />
-      <varInfo nodeId="903391227141027522" varName="rightFace" />
-      <varInfo nodeId="903391227141027469" varName="outerFace" />
       <varInfo nodeId="903391227141027468" varName="maxX" />
+      <varInfo nodeId="903391227141027469" varName="outerFace" />
+      <varInfo nodeId="903391227141027522" varName="rightFace" />
     </scopeInfo>
     <scopeInfo nodeId="903391227141027299" fileName="ConstraintsSupporter.java" startLine="72" startPosition="0" endLine="81" endPosition="0">
       <varInfo nodeId="903391227141027447" varName="fakeEdge" />
@@ -560,33 +615,35 @@
     </scopeInfo>
     <scopeInfo nodeId="903391227141025923" fileName="ConstraintsSupporter.java" startLine="99" startPosition="82" endLine="114" endPosition="137">
       <varInfo nodeId="903391227141025896" varName="dualLeft" />
+      <varInfo nodeId="903391227141025898" varName="dualRight" />
       <varInfo nodeId="903391227141025897" varName="leftFace" />
       <varInfo nodeId="903391227141025899" varName="rightFace" />
-      <varInfo nodeId="903391227141025898" varName="dualRight" />
     </scopeInfo>
-    <scopeInfo nodeId="903391227141025919" fileName="ConstraintsSupporter.java" startLine="98" startPosition="69" endLine="115" endPosition="5" />
+    <scopeInfo nodeId="903391227141025919" fileName="ConstraintsSupporter.java" startLine="98" startPosition="69" endLine="115" endPosition="5">
+      <varInfo nodeId="903391227141025919" varName="node" />
+    </scopeInfo>
     <scopeInfo nodeId="903391227141025734" fileName="ConstraintsSupporter.java" startLine="118" startPosition="0" endLine="135" endPosition="0">
       <varInfo nodeId="903391227141025733" varName="graph" />
     </scopeInfo>
     <scopeInfo nodeId="903391227141025916" fileName="ConstraintsSupporter.java" startLine="93" startPosition="66" endLine="116" endPosition="21">
-      <varInfo nodeId="903391227141026021" varName="dualTarget" />
-      <varInfo nodeId="903391227141026050" varName="outerFace" />
       <varInfo nodeId="903391227141026036" varName="dualGraph" />
       <varInfo nodeId="903391227141026013" varName="dualSource" />
+      <varInfo nodeId="903391227141026021" varName="dualTarget" />
+      <varInfo nodeId="903391227141026050" varName="outerFace" />
     </scopeInfo>
     <scopeInfo nodeId="903391227141025907" fileName="ConstraintsSupporter.java" startLine="92" startPosition="0" endLine="118" endPosition="0">
       <varInfo nodeId="903391227141025902" varName="stPlanarGraph" />
     </scopeInfo>
     <scopeInfo nodeId="903391227141025446" fileName="ConstraintsSupporter.java" startLine="37" startPosition="156" endLine="70" endPosition="26">
       <varInfo nodeId="903391227141026178" varName="dualEdgeWeights" />
+      <varInfo nodeId="903391227141026106" varName="edgeWeights" />
       <varInfo nodeId="903391227141027264" varName="graph" />
       <varInfo nodeId="903391227141026803" varName="representation" />
-      <varInfo nodeId="903391227141026106" varName="edgeWeights" />
     </scopeInfo>
     <scopeInfo nodeId="903391227141025443" fileName="ConstraintsSupporter.java" startLine="36" startPosition="0" endLine="72" endPosition="0">
-      <varInfo nodeId="903391227141025447" varName="stPlanarGraph" />
-      <varInfo nodeId="1400338595887567619" varName="nodeConstraints" />
       <varInfo nodeId="1400338595887580752" varName="edgeConstraints" />
+      <varInfo nodeId="1400338595887567619" varName="nodeConstraints" />
+      <varInfo nodeId="903391227141025447" varName="stPlanarGraph" />
     </scopeInfo>
     <unitInfo nodeId="903391227141024519" fileName="ConstraintsSupporter.java" startLine="20" startPosition="0" endLine="141" endPosition="0" unitName="jetbrains.mps.graphLayout.stOrthogonalLayout.ConstraintsSupporter" />
   </root>
@@ -951,33 +1008,51 @@
     <scopeInfo nodeId="903391227141294474" fileName="RectOrthogonalLayouter.java" startLine="365" startPosition="63" endLine="367" endPosition="111" />
     <scopeInfo nodeId="903391227141361932" fileName="RectOrthogonalLayouter.java" startLine="381" startPosition="42" endLine="383" endPosition="93" />
     <scopeInfo nodeId="903391227141361988" fileName="RectOrthogonalLayouter.java" startLine="392" startPosition="42" endLine="394" endPosition="100" />
-    <scopeInfo nodeId="903391227141137428" fileName="RectOrthogonalLayouter.java" startLine="56" startPosition="25" endLine="59" endPosition="5" />
+    <scopeInfo nodeId="903391227141137428" fileName="RectOrthogonalLayouter.java" startLine="56" startPosition="25" endLine="59" endPosition="5">
+      <varInfo nodeId="903391227141137428" varName="node" />
+    </scopeInfo>
     <scopeInfo nodeId="903391227141137459" fileName="RectOrthogonalLayouter.java" startLine="66" startPosition="45" endLine="69" endPosition="107">
       <varInfo nodeId="903391227141137766" varName="subgraph" />
     </scopeInfo>
     <scopeInfo nodeId="903391227141137869" fileName="RectOrthogonalLayouter.java" startLine="131" startPosition="63" endLine="134" endPosition="7" />
     <scopeInfo nodeId="1177671074986683362" fileName="RectOrthogonalLayouter.java" startLine="146" startPosition="85" endLine="149" endPosition="57" />
     <scopeInfo nodeId="490728924230506890" fileName="RectOrthogonalLayouter.java" startLine="155" startPosition="63" endLine="158" endPosition="7" />
-    <scopeInfo nodeId="903391227141137572" fileName="RectOrthogonalLayouter.java" startLine="160" startPosition="73" endLine="163" endPosition="5" />
+    <scopeInfo nodeId="903391227141137572" fileName="RectOrthogonalLayouter.java" startLine="160" startPosition="73" endLine="163" endPosition="5">
+      <varInfo nodeId="903391227141137572" varName="dart" />
+    </scopeInfo>
     <scopeInfo nodeId="6160477238666701658" fileName="RectOrthogonalLayouter.java" startLine="254" startPosition="42" endLine="257" endPosition="159" />
     <scopeInfo nodeId="6160477238666702003" fileName="RectOrthogonalLayouter.java" startLine="260" startPosition="46" endLine="263" endPosition="156" />
-    <scopeInfo nodeId="6494745554568975011" fileName="RectOrthogonalLayouter.java" startLine="278" startPosition="71" endLine="281" endPosition="7" />
-    <scopeInfo nodeId="903391227141292641" fileName="RectOrthogonalLayouter.java" startLine="292" startPosition="43" endLine="295" endPosition="9" />
+    <scopeInfo nodeId="6494745554568975011" fileName="RectOrthogonalLayouter.java" startLine="278" startPosition="71" endLine="281" endPosition="7">
+      <varInfo nodeId="6494745554568975011" varName="edge" />
+    </scopeInfo>
+    <scopeInfo nodeId="903391227141292641" fileName="RectOrthogonalLayouter.java" startLine="292" startPosition="43" endLine="295" endPosition="9">
+      <varInfo nodeId="903391227141292641" varName="edge" />
+    </scopeInfo>
     <scopeInfo nodeId="903391227141136172" fileName="RectOrthogonalLayouter.java" startLine="47" startPosition="35" endLine="51" endPosition="22" />
     <scopeInfo nodeId="5639900666367310650" fileName="RectOrthogonalLayouter.java" startLine="90" startPosition="61" endLine="94" endPosition="100">
       <varInfo nodeId="5639900666367310665" varName="curLayout" />
     </scopeInfo>
-    <scopeInfo nodeId="5639900666367311013" fileName="RectOrthogonalLayouter.java" startLine="96" startPosition="69" endLine="100" endPosition="5" />
+    <scopeInfo nodeId="5639900666367311013" fileName="RectOrthogonalLayouter.java" startLine="96" startPosition="69" endLine="100" endPosition="5">
+      <varInfo nodeId="5639900666367311013" varName="node" />
+    </scopeInfo>
     <scopeInfo nodeId="5639900666367760100" fileName="RectOrthogonalLayouter.java" startLine="116" startPosition="35" endLine="120" endPosition="20">
-      <varInfo nodeId="5639900666367760154" varName="node" />
       <varInfo nodeId="5639900666367760118" varName="layout" />
+      <varInfo nodeId="5639900666367760154" varName="node" />
     </scopeInfo>
     <scopeInfo nodeId="8680836410351716960" fileName="RectOrthogonalLayouter.java" startLine="224" startPosition="33" endLine="228" endPosition="17" />
-    <scopeInfo nodeId="6494745554568974988" fileName="RectOrthogonalLayouter.java" startLine="271" startPosition="103" endLine="275" endPosition="0" />
+    <scopeInfo nodeId="6494745554568974988" fileName="RectOrthogonalLayouter.java" startLine="271" startPosition="103" endLine="275" endPosition="0">
+      <varInfo nodeId="6494745554568974988" varName="it" />
+    </scopeInfo>
     <scopeInfo nodeId="6494745554568975003" fileName="RectOrthogonalLayouter.java" startLine="277" startPosition="60" endLine="281" endPosition="7" />
-    <scopeInfo nodeId="903391227141294471" fileName="RectOrthogonalLayouter.java" startLine="364" startPosition="46" endLine="368" endPosition="5" />
-    <scopeInfo nodeId="903391227141362036" fileName="RectOrthogonalLayouter.java" startLine="399" startPosition="96" endLine="403" endPosition="0" />
-    <scopeInfo nodeId="903391227141362058" fileName="RectOrthogonalLayouter.java" startLine="404" startPosition="96" endLine="408" endPosition="0" />
+    <scopeInfo nodeId="903391227141294471" fileName="RectOrthogonalLayouter.java" startLine="364" startPosition="46" endLine="368" endPosition="5">
+      <varInfo nodeId="903391227141294471" varName="node" />
+    </scopeInfo>
+    <scopeInfo nodeId="903391227141362036" fileName="RectOrthogonalLayouter.java" startLine="399" startPosition="96" endLine="403" endPosition="0">
+      <varInfo nodeId="903391227141362036" varName="it" />
+    </scopeInfo>
+    <scopeInfo nodeId="903391227141362058" fileName="RectOrthogonalLayouter.java" startLine="404" startPosition="96" endLine="408" endPosition="0">
+      <varInfo nodeId="903391227141362058" varName="it" />
+    </scopeInfo>
     <scopeInfo nodeId="903391227141362142" fileName="RectOrthogonalLayouter.java" startLine="418" startPosition="58" endLine="422" endPosition="19">
       <varInfo nodeId="903391227141361864" varName="path" />
     </scopeInfo>
@@ -994,14 +1069,18 @@
       <varInfo nodeId="903391227141137466" varName="i" />
     </scopeInfo>
     <scopeInfo nodeId="903391227141137479" fileName="RectOrthogonalLayouter.java" startLine="71" startPosition="63" endLine="76" endPosition="217">
-      <varInfo nodeId="903391227141137481" varName="subgraph" />
       <varInfo nodeId="903391227141137800" varName="newNode" />
+      <varInfo nodeId="903391227141137481" varName="subgraph" />
     </scopeInfo>
     <scopeInfo nodeId="5639900666367311151" fileName="RectOrthogonalLayouter.java" startLine="101" startPosition="63" endLine="106" endPosition="7">
       <varInfo nodeId="8680836410351702432" varName="subgraphLayout" />
     </scopeInfo>
-    <scopeInfo nodeId="903391227141137866" fileName="RectOrthogonalLayouter.java" startLine="130" startPosition="107" endLine="135" endPosition="5" />
-    <scopeInfo nodeId="490728924230506887" fileName="RectOrthogonalLayouter.java" startLine="154" startPosition="5" endLine="159" endPosition="5" />
+    <scopeInfo nodeId="903391227141137866" fileName="RectOrthogonalLayouter.java" startLine="130" startPosition="107" endLine="135" endPosition="5">
+      <varInfo nodeId="903391227141137866" varName="node" />
+    </scopeInfo>
+    <scopeInfo nodeId="490728924230506887" fileName="RectOrthogonalLayouter.java" startLine="154" startPosition="5" endLine="159" endPosition="5">
+      <varInfo nodeId="490728924230506887" varName="edge" />
+    </scopeInfo>
     <scopeInfo nodeId="8680836410351596224" fileName="RectOrthogonalLayouter.java" startLine="311" startPosition="58" endLine="316" endPosition="52">
       <varInfo nodeId="8680836410351696122" varName="height" />
       <varInfo nodeId="8680836410351596291" varName="labelRectangle" />
@@ -1022,16 +1101,28 @@
       <varInfo nodeId="903391227141361861" varName="size" />
     </scopeInfo>
     <scopeInfo nodeId="903391227141136169" fileName="RectOrthogonalLayouter.java" startLine="46" startPosition="0" endLine="52" endPosition="3" />
-    <scopeInfo nodeId="5639900666367310647" fileName="RectOrthogonalLayouter.java" startLine="89" startPosition="19" endLine="95" endPosition="5" />
-    <scopeInfo nodeId="6494745554568975001" fileName="RectOrthogonalLayouter.java" startLine="276" startPosition="63" endLine="282" endPosition="5" />
-    <scopeInfo nodeId="903391227141362140" fileName="RectOrthogonalLayouter.java" startLine="417" startPosition="5" endLine="423" endPosition="5" />
-    <scopeInfo nodeId="903391227141137474" fileName="RectOrthogonalLayouter.java" startLine="70" startPosition="5" endLine="77" endPosition="5" />
-    <scopeInfo nodeId="5639900666367311146" fileName="RectOrthogonalLayouter.java" startLine="100" startPosition="5" endLine="107" endPosition="5" />
+    <scopeInfo nodeId="5639900666367310647" fileName="RectOrthogonalLayouter.java" startLine="89" startPosition="19" endLine="95" endPosition="5">
+      <varInfo nodeId="5639900666367310647" varName="subgraph" />
+    </scopeInfo>
+    <scopeInfo nodeId="6494745554568975001" fileName="RectOrthogonalLayouter.java" startLine="276" startPosition="63" endLine="282" endPosition="5">
+      <varInfo nodeId="6494745554568975001" varName="node" />
+    </scopeInfo>
+    <scopeInfo nodeId="903391227141362140" fileName="RectOrthogonalLayouter.java" startLine="417" startPosition="5" endLine="423" endPosition="5">
+      <varInfo nodeId="903391227141362140" varName="edge" />
+    </scopeInfo>
+    <scopeInfo nodeId="903391227141137474" fileName="RectOrthogonalLayouter.java" startLine="70" startPosition="5" endLine="77" endPosition="5">
+      <varInfo nodeId="903391227141137474" varName="node" />
+    </scopeInfo>
+    <scopeInfo nodeId="5639900666367311146" fileName="RectOrthogonalLayouter.java" startLine="100" startPosition="5" endLine="107" endPosition="5">
+      <varInfo nodeId="5639900666367311146" varName="edge" />
+    </scopeInfo>
     <scopeInfo nodeId="1177671074986683358" fileName="RectOrthogonalLayouter.java" startLine="145" startPosition="56" endLine="152" endPosition="9" />
-    <scopeInfo nodeId="903391227141362088" fileName="RectOrthogonalLayouter.java" startLine="410" startPosition="29" endLine="417" endPosition="5" />
+    <scopeInfo nodeId="903391227141362088" fileName="RectOrthogonalLayouter.java" startLine="410" startPosition="29" endLine="417" endPosition="5">
+      <varInfo nodeId="903391227141362088" varName="edge" />
+    </scopeInfo>
     <scopeInfo nodeId="903391227141137501" fileName="RectOrthogonalLayouter.java" startLine="78" startPosition="63" endLine="86" endPosition="7">
-      <varInfo nodeId="1763712338172397490" varName="subgraph" />
       <varInfo nodeId="1400338595887581000" varName="newEdge" />
+      <varInfo nodeId="1763712338172397490" varName="subgraph" />
     </scopeInfo>
     <scopeInfo nodeId="903391227141294444" fileName="RectOrthogonalLayouter.java" startLine="362" startPosition="0" endLine="370" endPosition="0">
       <varInfo nodeId="903391227141294448" varName="layout" />
@@ -1039,35 +1130,47 @@
     <scopeInfo nodeId="903391227141361908" fileName="RectOrthogonalLayouter.java" startLine="377" startPosition="65" endLine="385" endPosition="7">
       <varInfo nodeId="903391227141361848" varName="path" />
     </scopeInfo>
-    <scopeInfo nodeId="1177671074986683355" fileName="RectOrthogonalLayouter.java" startLine="144" startPosition="107" endLine="153" endPosition="7" />
+    <scopeInfo nodeId="1177671074986683355" fileName="RectOrthogonalLayouter.java" startLine="144" startPosition="107" endLine="153" endPosition="7">
+      <varInfo nodeId="1177671074986683355" varName="edge" />
+    </scopeInfo>
     <scopeInfo nodeId="903391227141361961" fileName="RectOrthogonalLayouter.java" startLine="387" startPosition="64" endLine="396" endPosition="7">
       <varInfo nodeId="903391227141361851" varName="path" />
       <varInfo nodeId="903391227141361854" varName="size" />
     </scopeInfo>
-    <scopeInfo nodeId="903391227141137496" fileName="RectOrthogonalLayouter.java" startLine="77" startPosition="5" endLine="87" endPosition="5" />
-    <scopeInfo nodeId="903391227141361904" fileName="RectOrthogonalLayouter.java" startLine="376" startPosition="86" endLine="386" endPosition="5" />
-    <scopeInfo nodeId="903391227141361957" fileName="RectOrthogonalLayouter.java" startLine="386" startPosition="5" endLine="397" endPosition="5" />
+    <scopeInfo nodeId="903391227141137496" fileName="RectOrthogonalLayouter.java" startLine="77" startPosition="5" endLine="87" endPosition="5">
+      <varInfo nodeId="903391227141137496" varName="edge" />
+    </scopeInfo>
+    <scopeInfo nodeId="903391227141361904" fileName="RectOrthogonalLayouter.java" startLine="376" startPosition="86" endLine="386" endPosition="5">
+      <varInfo nodeId="903391227141361904" varName="edge" />
+    </scopeInfo>
+    <scopeInfo nodeId="903391227141361957" fileName="RectOrthogonalLayouter.java" startLine="386" startPosition="5" endLine="397" endPosition="5">
+      <varInfo nodeId="903391227141361957" varName="edge" />
+    </scopeInfo>
     <scopeInfo nodeId="1177671074986680309" fileName="RectOrthogonalLayouter.java" startLine="138" startPosition="58" endLine="153" endPosition="7">
+      <varInfo nodeId="1177671074986683291" varName="cur" />
       <varInfo nodeId="1177671074986683283" varName="history" />
       <varInfo nodeId="1177671074986683333" varName="midEdge" />
-      <varInfo nodeId="1177671074986683291" varName="cur" />
     </scopeInfo>
     <scopeInfo nodeId="6494745554568977328" fileName="RectOrthogonalLayouter.java" startLine="289" startPosition="30" endLine="304" endPosition="120">
+      <varInfo nodeId="903391227141293525" varName="edges" />
       <varInfo nodeId="903391227141293488" varName="meanEdgeX" />
       <varInfo nodeId="903391227141293483" varName="nodeX" />
-      <varInfo nodeId="903391227141293525" varName="edges" />
       <varInfo nodeId="903391227141290935" varName="width" />
     </scopeInfo>
-    <scopeInfo nodeId="1177671074986680306" fileName="RectOrthogonalLayouter.java" startLine="137" startPosition="66" endLine="154" endPosition="5" />
+    <scopeInfo nodeId="1177671074986680306" fileName="RectOrthogonalLayouter.java" startLine="137" startPosition="66" endLine="154" endPosition="5">
+      <varInfo nodeId="1177671074986680306" varName="oldEdge" />
+    </scopeInfo>
     <scopeInfo nodeId="6494745554568978655" fileName="RectOrthogonalLayouter.java" startLine="211" startPosition="61" endLine="229" endPosition="15">
-      <varInfo nodeId="6160477238666597924" varName="last" />
       <varInfo nodeId="8680836410351712035" varName="labelRect" />
+      <varInfo nodeId="6160477238666597924" varName="last" />
       <varInfo nodeId="6494745554568981139" varName="shift" />
     </scopeInfo>
     <scopeInfo nodeId="903391227141165396" fileName="RectOrthogonalLayouter.java" startLine="287" startPosition="63" endLine="307" endPosition="7">
       <varInfo nodeId="6494745554568977343" varName="rect" />
     </scopeInfo>
-    <scopeInfo nodeId="903391227141165392" fileName="RectOrthogonalLayouter.java" startLine="286" startPosition="69" endLine="308" endPosition="5" />
+    <scopeInfo nodeId="903391227141165392" fileName="RectOrthogonalLayouter.java" startLine="286" startPosition="69" endLine="308" endPosition="5">
+      <varInfo nodeId="903391227141165392" varName="node" />
+    </scopeInfo>
     <scopeInfo nodeId="6494745554568978513" fileName="RectOrthogonalLayouter.java" startLine="208" startPosition="30" endLine="238" endPosition="24">
       <varInfo nodeId="6494745554568981106" varName="left" />
       <varInfo nodeId="6494745554568978610" varName="rect" />
@@ -1077,116 +1180,122 @@
     <scopeInfo nodeId="6494745554568974930" fileName="RectOrthogonalLayouter.java" startLine="203" startPosition="58" endLine="241" endPosition="38">
       <varInfo nodeId="6494745554568974861" varName="edgeLayout" />
     </scopeInfo>
-    <scopeInfo nodeId="6494745554568974928" fileName="RectOrthogonalLayouter.java" startLine="202" startPosition="25" endLine="242" endPosition="9" />
-    <scopeInfo nodeId="903391227141165427" fileName="RectOrthogonalLayouter.java" startLine="309" startPosition="63" endLine="356" endPosition="38">
-      <varInfo nodeId="903391227141168725" varName="hasHorLines" />
-      <varInfo nodeId="903391227141168909" varName="targetRect" />
-      <varInfo nodeId="903391227141167827" varName="sourceRect" />
-      <varInfo nodeId="8680836410351596244" varName="edgeRect" />
-      <varInfo nodeId="903391227141168704" varName="path" />
-      <varInfo nodeId="903391227141168622" varName="sourceMinX" />
-      <varInfo nodeId="903391227141168918" varName="targetMinX" />
-      <varInfo nodeId="903391227141169041" varName="end" />
-      <varInfo nodeId="903391227141168924" varName="targetMaxX" />
-      <varInfo nodeId="903391227141168667" varName="edgeX" />
-      <varInfo nodeId="903391227141168633" varName="sourceMaxX" />
+    <scopeInfo nodeId="6494745554568974928" fileName="RectOrthogonalLayouter.java" startLine="202" startPosition="25" endLine="242" endPosition="9">
+      <varInfo nodeId="6494745554568974928" varName="edge" />
     </scopeInfo>
-    <scopeInfo nodeId="903391227141165423" fileName="RectOrthogonalLayouter.java" startLine="308" startPosition="5" endLine="357" endPosition="5" />
+    <scopeInfo nodeId="903391227141165427" fileName="RectOrthogonalLayouter.java" startLine="309" startPosition="63" endLine="356" endPosition="38">
+      <varInfo nodeId="8680836410351596244" varName="edgeRect" />
+      <varInfo nodeId="903391227141168667" varName="edgeX" />
+      <varInfo nodeId="903391227141169041" varName="end" />
+      <varInfo nodeId="903391227141168725" varName="hasHorLines" />
+      <varInfo nodeId="903391227141168704" varName="path" />
+      <varInfo nodeId="903391227141168633" varName="sourceMaxX" />
+      <varInfo nodeId="903391227141168622" varName="sourceMinX" />
+      <varInfo nodeId="903391227141167827" varName="sourceRect" />
+      <varInfo nodeId="903391227141168924" varName="targetMaxX" />
+      <varInfo nodeId="903391227141168918" varName="targetMinX" />
+      <varInfo nodeId="903391227141168909" varName="targetRect" />
+    </scopeInfo>
+    <scopeInfo nodeId="903391227141165423" fileName="RectOrthogonalLayouter.java" startLine="308" startPosition="5" endLine="357" endPosition="5">
+      <varInfo nodeId="903391227141165423" varName="edge" />
+    </scopeInfo>
     <scopeInfo nodeId="903391227141361877" fileName="RectOrthogonalLayouter.java" startLine="371" startPosition="86" endLine="423" endPosition="5">
-      <varInfo nodeId="903391227141361862" varName="curY" />
-      <varInfo nodeId="903391227141361853" varName="targetEdges" />
-      <varInfo nodeId="903391227141361857" varName="num" />
       <varInfo nodeId="903391227141361849" varName="adjPoint" />
+      <varInfo nodeId="903391227141361862" varName="curY" />
       <varInfo nodeId="903391227141362188" varName="edgeLayout" />
+      <varInfo nodeId="903391227141361857" varName="num" />
       <varInfo nodeId="903391227141361846" varName="rect" />
       <varInfo nodeId="903391227141361847" varName="sourceEdges" />
       <varInfo nodeId="903391227141361858" varName="step" />
+      <varInfo nodeId="903391227141361853" varName="targetEdges" />
     </scopeInfo>
     <scopeInfo nodeId="903391227141361868" fileName="RectOrthogonalLayouter.java" startLine="370" startPosition="0" endLine="425" endPosition="0">
+      <varInfo nodeId="903391227141361865" varName="layout" />
       <varInfo nodeId="903391227141361866" varName="node" />
       <varInfo nodeId="903391227141362218" varName="xCoord" />
-      <varInfo nodeId="903391227141361865" varName="layout" />
     </scopeInfo>
     <scopeInfo nodeId="903391227141136176" fileName="RectOrthogonalLayouter.java" startLine="54" startPosition="108" endLine="112" endPosition="5">
-      <varInfo nodeId="1400338595887580970" varName="subEdgeSizes" />
-      <varInfo nodeId="5639900666367310696" varName="shiftX" />
-      <varInfo nodeId="903391227141137452" varName="subgraphs" />
+      <varInfo nodeId="903391227141137418" varName="components" />
       <varInfo nodeId="5639900666367311023" varName="layout" />
-      <varInfo nodeId="1400338595887570676" varName="subNodeSizes" />
       <varInfo nodeId="903391227141137425" varName="maxComponent" />
-      <varInfo nodeId="5639900666367311076" varName="nodeSubgraphs" />
-      <varInfo nodeId="5639900666367311037" varName="subgraphLayouts" />
       <varInfo nodeId="5639900666367310982" varName="newEdges" />
       <varInfo nodeId="903391227141137443" varName="newNodes" />
-      <varInfo nodeId="903391227141137418" varName="components" />
+      <varInfo nodeId="5639900666367311076" varName="nodeSubgraphs" />
+      <varInfo nodeId="5639900666367310696" varName="shiftX" />
+      <varInfo nodeId="1400338595887580970" varName="subEdgeSizes" />
+      <varInfo nodeId="1400338595887570676" varName="subNodeSizes" />
+      <varInfo nodeId="5639900666367311037" varName="subgraphLayouts" />
+      <varInfo nodeId="903391227141137452" varName="subgraphs" />
     </scopeInfo>
     <scopeInfo nodeId="903391227141136173" fileName="RectOrthogonalLayouter.java" startLine="53" startPosition="0" endLine="114" endPosition="0">
-      <varInfo nodeId="903391227141136178" varName="graph" />
       <varInfo nodeId="1400338595887580961" varName="edgeSizes" />
+      <varInfo nodeId="903391227141136178" varName="graph" />
       <varInfo nodeId="6160477238666745712" varName="nodeSizes" />
     </scopeInfo>
     <scopeInfo nodeId="903391227141137540" fileName="RectOrthogonalLayouter.java" startLine="115" startPosition="112" endLine="178" endPosition="23">
-      <varInfo nodeId="6494745554568956451" varName="supporter" />
-      <varInfo nodeId="1418350014056295375" varName="oldEdges" />
-      <varInfo nodeId="8680836410351596188" varName="hasLabel" />
-      <varInfo nodeId="903391227141137630" varName="stPlanarGraph" />
-      <varInfo nodeId="6494745554568954317" varName="graphLayout" />
-      <varInfo nodeId="860462848750218289" varName="embeddedGraph" />
-      <varInfo nodeId="903391227141137566" varName="outerNodes" />
-      <varInfo nodeId="1177671074986683269" varName="newEdgeSizes" />
-      <varInfo nodeId="903391227141137613" varName="t" />
-      <varInfo nodeId="903391227141137606" varName="s" />
       <varInfo nodeId="6494745554568960883" varName="addedNode" />
+      <varInfo nodeId="860462848750218289" varName="embeddedGraph" />
+      <varInfo nodeId="6494745554568954317" varName="graphLayout" />
+      <varInfo nodeId="8680836410351596188" varName="hasLabel" />
       <varInfo nodeId="2593993040624455398" varName="historyManager" />
+      <varInfo nodeId="1177671074986683269" varName="newEdgeSizes" />
+      <varInfo nodeId="1418350014056295375" varName="oldEdges" />
+      <varInfo nodeId="903391227141137566" varName="outerNodes" />
       <varInfo nodeId="903391227141137922" varName="representation" />
+      <varInfo nodeId="903391227141137606" varName="s" />
+      <varInfo nodeId="903391227141137630" varName="stPlanarGraph" />
+      <varInfo nodeId="6494745554568956451" varName="supporter" />
+      <varInfo nodeId="903391227141137613" varName="t" />
     </scopeInfo>
     <scopeInfo nodeId="903391227141137537" fileName="RectOrthogonalLayouter.java" startLine="114" startPosition="0" endLine="180" endPosition="0">
-      <varInfo nodeId="903391227141137643" varName="graph" />
       <varInfo nodeId="1177671074986680297" varName="edgeSizes" />
+      <varInfo nodeId="903391227141137643" varName="graph" />
       <varInfo nodeId="1400338595887567653" varName="nodeSizes" />
     </scopeInfo>
     <scopeInfo nodeId="903391227141165386" fileName="RectOrthogonalLayouter.java" startLine="285" startPosition="173" endLine="360" endPosition="18">
       <varInfo nodeId="903391227141165372" varName="layout" />
     </scopeInfo>
     <scopeInfo nodeId="903391227141165379" fileName="RectOrthogonalLayouter.java" startLine="284" startPosition="0" endLine="362" endPosition="0">
-      <varInfo nodeId="903391227141165377" varName="graph" />
-      <varInfo nodeId="903391227141165378" varName="representation" />
-      <varInfo nodeId="8680836410351596217" varName="hasLabels" />
       <varInfo nodeId="8680836410351596210" varName="edgeSizes" />
+      <varInfo nodeId="903391227141165377" varName="graph" />
+      <varInfo nodeId="8680836410351596217" varName="hasLabels" />
       <varInfo nodeId="1400338595887570653" varName="nodeSizes" />
+      <varInfo nodeId="903391227141165378" varName="representation" />
     </scopeInfo>
     <scopeInfo nodeId="6494745554568974921" fileName="RectOrthogonalLayouter.java" startLine="186" startPosition="55" endLine="265" endPosition="57">
-      <varInfo nodeId="6160477238666605248" varName="sourceHistoryPath" />
-      <varInfo nodeId="6160477238666701648" varName="second" />
-      <varInfo nodeId="6160477238666605444" varName="targetRect" />
-      <varInfo nodeId="6494745554568974860" varName="oldEdgeLayout" />
-      <varInfo nodeId="6160477238666605416" varName="sourceRect" />
-      <varInfo nodeId="6160477238666605337" varName="targetPoint" />
       <varInfo nodeId="6160477238666701997" varName="beforeLast" />
-      <varInfo nodeId="6160477238666605273" varName="sourcePoint" />
+      <varInfo nodeId="6494745554568974860" varName="oldEdgeLayout" />
       <varInfo nodeId="8680836410351716947" varName="prev" />
+      <varInfo nodeId="6160477238666701648" varName="second" />
+      <varInfo nodeId="6160477238666605248" varName="sourceHistoryPath" />
+      <varInfo nodeId="6160477238666605273" varName="sourcePoint" />
+      <varInfo nodeId="6160477238666605416" varName="sourceRect" />
       <varInfo nodeId="6160477238666605327" varName="targetHistoryPath" />
+      <varInfo nodeId="6160477238666605337" varName="targetPoint" />
+      <varInfo nodeId="6160477238666605444" varName="targetRect" />
     </scopeInfo>
     <scopeInfo nodeId="6494745554568974886" fileName="RectOrthogonalLayouter.java" startLine="183" startPosition="58" endLine="269" endPosition="7">
-      <varInfo nodeId="6494745554568974857" varName="history" />
       <varInfo nodeId="6494745554568978497" varName="cur" />
+      <varInfo nodeId="6494745554568974857" varName="history" />
     </scopeInfo>
-    <scopeInfo nodeId="6494745554568974884" fileName="RectOrthogonalLayouter.java" startLine="182" startPosition="65" endLine="270" endPosition="5" />
+    <scopeInfo nodeId="6494745554568974884" fileName="RectOrthogonalLayouter.java" startLine="182" startPosition="65" endLine="270" endPosition="5">
+      <varInfo nodeId="6494745554568974884" varName="oldEdge" />
+    </scopeInfo>
     <scopeInfo nodeId="6494745554568974883" fileName="RectOrthogonalLayouter.java" startLine="181" startPosition="138" endLine="282" endPosition="5">
-      <varInfo nodeId="6494745554568978662" varName="visited" />
       <varInfo nodeId="6494745554568974863" varName="nodesToRemove" />
+      <varInfo nodeId="6494745554568978662" varName="visited" />
     </scopeInfo>
     <scopeInfo nodeId="6494745554568974874" fileName="RectOrthogonalLayouter.java" startLine="180" startPosition="0" endLine="284" endPosition="0">
-      <varInfo nodeId="2593993040624455417" varName="manager" />
-      <varInfo nodeId="6494745554568974872" varName="graph" />
       <varInfo nodeId="6494745554568974873" varName="addedNode" />
+      <varInfo nodeId="6494745554568974872" varName="graph" />
       <varInfo nodeId="6494745554568974871" varName="graphLayout" />
+      <varInfo nodeId="2593993040624455417" varName="manager" />
       <varInfo nodeId="6494745554568974869" varName="oldEdges" />
     </scopeInfo>
+    <unitInfo nodeId="903391227141136167" fileName="RectOrthogonalLayouter.java" startLine="38" startPosition="0" endLine="438" endPosition="0" unitName="jetbrains.mps.graphLayout.stOrthogonalLayout.RectOrthogonalLayouter" />
     <unitInfo nodeId="6494745554568974988" fileName="RectOrthogonalLayouter.java" startLine="271" startPosition="81" endLine="275" endPosition="5" unitName="jetbrains.mps.graphLayout.stOrthogonalLayout.RectOrthogonalLayouter$1" />
     <unitInfo nodeId="903391227141362036" fileName="RectOrthogonalLayouter.java" startLine="399" startPosition="62" endLine="403" endPosition="5" unitName="jetbrains.mps.graphLayout.stOrthogonalLayout.RectOrthogonalLayouter$2" />
     <unitInfo nodeId="903391227141362058" fileName="RectOrthogonalLayouter.java" startLine="404" startPosition="62" endLine="408" endPosition="5" unitName="jetbrains.mps.graphLayout.stOrthogonalLayout.RectOrthogonalLayouter$3" />
-    <unitInfo nodeId="903391227141136167" fileName="RectOrthogonalLayouter.java" startLine="38" startPosition="0" endLine="438" endPosition="0" unitName="jetbrains.mps.graphLayout.stOrthogonalLayout.RectOrthogonalLayouter" />
   </root>
 </debugInfo>
 

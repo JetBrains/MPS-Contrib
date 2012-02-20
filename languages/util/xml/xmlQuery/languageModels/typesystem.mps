@@ -12,9 +12,9 @@
   <import index="mlj4" modelUID="r:bd6e2c7d-3a5d-4eed-9ff9-27f23ecb34e2(jetbrains.mps.xmlQuery.structure)" version="4" />
   <import index="tpj8" modelUID="r:00000000-0000-4000-0000-011c89590598(jetbrains.mps.xmlSchema.structure)" version="3" />
   <import index="ra3l" modelUID="r:e79b58b4-ea58-4c9d-b43b-c3a260addf6a(jetbrains.mps.xmlQuery.constraints)" version="-1" />
-  <import index="xuot" modelUID="f:java_stub#37a3367b-1fb2-44d8-aa6b-18075e74e003#org.jdom(org.jdom@java_stub)" version="-1" />
   <import index="e2lb" modelUID="f:java_stub#6354ebe7-c22a-4a0f-ac54-50b52ab9b065#java.lang(java.lang@java_stub)" version="-1" />
   <import index="fmpa" modelUID="f:java_stub#6354ebe7-c22a-4a0f-ac54-50b52ab9b065#org.xml.sax(org.xml.sax@java_stub)" version="-1" />
+  <import index="zwkq" modelUID="f:java_stub#6ed54515-acc8-4d1e-a16c-9fd6cfe951ea#org.jdom(MPS.Core/org.jdom@java_stub)" version="-1" />
   <import index="tpd4" modelUID="r:00000000-0000-4000-0000-011c895902b4(jetbrains.mps.lang.typesystem.structure)" version="3" implicit="yes" />
   <import index="tp25" modelUID="r:00000000-0000-4000-0000-011c89590301(jetbrains.mps.lang.smodel.structure)" version="16" implicit="yes" />
   <import index="tpee" modelUID="r:00000000-0000-4000-0000-011c895902ca(jetbrains.mps.baseLanguage.structure)" version="3" implicit="yes" />
@@ -95,7 +95,7 @@
           </node>
           <node role="initializer" roleId="tpee.1068431790190" type="tpee.DotExpression" typeId="tpee.1197027756228" id="4991903842868219200">
             <node role="operand" roleId="tpee.1197027771414" type="tpd4.ApplicableNodeReference" typeId="tpd4.1174650418652" id="4991903842868219201">
-              <link role="applicableNode" roleId="tpd4.1174650432090" targetNodeId="4991903842868198515" resolveInfo="getChildOperation" />
+              <link role="applicableNode" roleId="tpd4.1174650432090" targetNodeId="4991903842868198515" resolveInfo="operation" />
             </node>
             <node role="operation" roleId="tpee.1197027833540" type="tp25.SLinkAccess" typeId="tp25.1138056143562" id="4991903842868219202">
               <link role="link" roleId="tp25.1138056516764" targetNodeId="mlj4.4815471077468621635" />
@@ -202,7 +202,7 @@
     </node>
     <node role="applicableNode" roleId="tpd4.1174648101952" type="tpd4.ConceptReference" typeId="tpd4.1174642788531" id="4991903842868198515">
       <property name="name" nameId="tpck.1169194664001" value="operation" />
-      <link role="concept" roleId="tpd4.1174642800329" targetNodeId="mlj4.4815471077468621634" resolveInfo="GetChildOperation" />
+      <link role="concept" roleId="tpd4.1174642800329" targetNodeId="mlj4.4815471077468621634" resolveInfo="AccessChildrenOperation" />
     </node>
   </root>
   <root id="4991903842868473295">
@@ -277,7 +277,7 @@
     </node>
     <node role="applicableNode" roleId="tpd4.1174648101952" type="tpd4.ConceptReference" typeId="tpd4.1174642788531" id="634907465121461837">
       <property name="name" nameId="tpck.1169194664001" value="operation" />
-      <link role="concept" roleId="tpd4.1174642800329" targetNodeId="mlj4.634907465121461799" resolveInfo="AccessArbitraryChildOperation" />
+      <link role="concept" roleId="tpd4.1174642800329" targetNodeId="mlj4.634907465121461799" resolveInfo="AccessArbitraryChildrenOperation" />
     </node>
   </root>
   <root id="634907465121486818">
@@ -414,7 +414,7 @@
           <node role="statement" roleId="tpee.1068581517665" type="tpee.ReturnStatement" typeId="tpee.1068581242878" id="3865540407050958130">
             <node role="expression" roleId="tpee.1068581517676" type="tp3r.Quotation" typeId="tp3r.1196350785113" id="3865540407051128657">
               <node role="quotedNode" roleId="tp3r.1196350785114" type="tpee.ClassifierType" typeId="tpee.1107535904670" id="3865540407051128660">
-                <link role="classifier" roleId="tpee.1107535924139" targetNodeId="xuot.~Element" resolveInfo="Element" />
+                <link role="classifier" roleId="tpee.1107535924139" targetNodeId="zwkq.~Element" resolveInfo="Element" />
               </node>
             </node>
           </node>
@@ -680,7 +680,7 @@
     </node>
     <node role="applicableNode" roleId="tpd4.1174648101952" type="tpd4.ConceptReference" typeId="tpd4.1174642788531" id="10026583185000616">
       <property name="name" nameId="tpck.1169194664001" value="builder" />
-      <link role="concept" roleId="tpd4.1174642800329" targetNodeId="mlj4.7225751495667376018" resolveInfo="XMLAttributeBuilder" />
+      <link role="concept" roleId="tpd4.1174642800329" targetNodeId="mlj4.7225751495667376018" resolveInfo="AttributeBuilder" />
     </node>
   </root>
   <root id="10026583185478629">
@@ -708,7 +708,7 @@
     </node>
     <node role="applicableNode" roleId="tpd4.1174648101952" type="tpd4.ConceptReference" typeId="tpd4.1174642788531" id="10026583185478631">
       <property name="name" nameId="tpck.1169194664001" value="builder" />
-      <link role="concept" roleId="tpd4.1174642800329" targetNodeId="mlj4.10026583185341422" resolveInfo="XMLTextBuilder" />
+      <link role="concept" roleId="tpd4.1174642800329" targetNodeId="mlj4.10026583185341422" resolveInfo="TextBuilder" />
     </node>
   </root>
   <root id="4635390255048098092">

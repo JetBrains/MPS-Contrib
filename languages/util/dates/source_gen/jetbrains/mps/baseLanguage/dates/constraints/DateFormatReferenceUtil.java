@@ -17,6 +17,9 @@ import jetbrains.mps.smodel.search.SimpleSearchScope;
 import jetbrains.mps.lang.smodel.generator.smodelAdapter.SLinkOperations;
 
 public class DateFormatReferenceUtil {
+  public DateFormatReferenceUtil() {
+  }
+
   public static ISearchScope buildIDateFormatSearchScope(final SNode node, IScope scope) {
     ISearchScope s = SModelSearchUtil.createModelAndImportedModelsScope(SNodeOperations.getModel(node), scope);
     SNode cd = SConceptOperations.findConceptDeclaration("jetbrains.mps.baseLanguage.datesInternal.structure.IDateFormat");

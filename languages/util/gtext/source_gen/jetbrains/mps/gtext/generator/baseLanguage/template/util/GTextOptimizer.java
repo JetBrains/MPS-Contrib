@@ -11,10 +11,13 @@ import jetbrains.mps.lang.smodel.generator.smodelAdapter.SModelOperations;
 import jetbrains.mps.gtext.behavior.GCompositeItem_Behavior;
 
 public class GTextOptimizer {
+  public GTextOptimizer() {
+  }
+
   public static SNode optimize(SNode item, boolean mayReplace) {
     if (SNodeOperations.isInstanceOf(item, "jetbrains.mps.gtext.structure.GItemList") || SNodeOperations.isInstanceOf(item, "jetbrains.mps.gtext.structure.GConditionalLine") || SNodeOperations.isInstanceOf(item, "jetbrains.mps.gtext.structure.GLine")) {
       if (optimizeItems(item) == 1 && mayReplace && SNodeOperations.isInstanceOf(item, "jetbrains.mps.gtext.structure.GItemList")) {
-        SNode child = item.getChildren("item").get(0);
+        SNode child = (SNode) (item.getChildren("item").get(0));
         SNodeOperations.replaceWithAnother(item, child);
         item = child;
       }

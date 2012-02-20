@@ -1,7 +1,10 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <solution name="jetbrains.mps.xml.tests" uuid="2f499867-d42a-4e31-a93d-33e16883e187" compileInMPS="true" generatorOutputPath="${solution_descriptor}/source_gen">
   <models>
-    <modelRoot path="${solution_descriptor}/" namespacePrefix="" />
+    <modelRoot path="${solution_descriptor}/" />
+    <modelRoot path="${solution_descriptor}/classes_gen">
+      <manager moduleId="f3061a53-9226-4cc5-a443-f952ceaf5816" className="jetbrains.mps.baseLanguage.stubs.JavaStubs" />
+    </modelRoot>
   </models>
   <stubModelEntries>
     <stubModelEntry path="${solution_descriptor}/classes_gen">

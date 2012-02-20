@@ -32,8 +32,8 @@
       <varInfo nodeId="190081711777509882" varName="layer" />
     </scopeInfo>
     <scopeInfo nodeId="190081711777509438" fileName="LayerByLayerNodeSorter.java" startLine="14" startPosition="0" endLine="18" endPosition="3">
-      <varInfo nodeId="190081711777509739" varName="layerSorter" />
       <varInfo nodeId="8780938838750221957" varName="initialSorter" />
+      <varInfo nodeId="190081711777509739" varName="layerSorter" />
     </scopeInfo>
     <scopeInfo nodeId="190081711777509516" fileName="LayerByLayerNodeSorter.java" startLine="35" startPosition="0" endLine="39" endPosition="0">
       <varInfo nodeId="190081711777509526" varName="numIterations" />
@@ -54,9 +54,9 @@
   <root nodeId="190081711777509721">
     <nodeInfo nodeId="190081711777509727" fileName="IOneLayerSorter.java" startLine="7" startPosition="34" endLine="8" endPosition="91" conceptFqName="jetbrains.mps.baseLanguage.structure.InstanceMethodDeclaration" propertyString="sortLayer#(ILjetbrains/mps/graphLayout/layeredLayout/NodeLayeredOrder;Ljetbrains/mps/graphLayout/graph/Edge/Direction;)V" />
     <scopeInfo nodeId="190081711777509727" fileName="IOneLayerSorter.java" startLine="7" startPosition="34" endLine="8" endPosition="91">
+      <varInfo nodeId="190081711777509736" varName="direction" />
       <varInfo nodeId="190081711777509731" varName="layerToSort" />
       <varInfo nodeId="190081711777509733" varName="order" />
-      <varInfo nodeId="190081711777509736" varName="direction" />
     </scopeInfo>
     <unitInfo nodeId="190081711777509721" fileName="IOneLayerSorter.java" startLine="7" startPosition="0" endLine="10" endPosition="0" unitName="jetbrains.mps.graphLayout.layeredLayout.IOneLayerSorter" />
   </root>
@@ -130,18 +130,26 @@
     <scopeInfo nodeId="190081711777510052" fileName="MedianLayerSorter.java" startLine="29" startPosition="86" endLine="32" endPosition="5">
       <varInfo nodeId="190081711777510055" varName="i" />
     </scopeInfo>
-    <scopeInfo nodeId="190081711777515783" fileName="MedianLayerSorter.java" startLine="61" startPosition="82" endLine="64" endPosition="5" />
-    <scopeInfo nodeId="4759409676487232971" fileName="MedianLayerSorter.java" startLine="83" startPosition="51" endLine="86" endPosition="7" />
-    <scopeInfo nodeId="190081711777510087" fileName="MedianLayerSorter.java" startLine="35" startPosition="67" endLine="39" endPosition="5" />
-    <scopeInfo nodeId="190081711777515962" fileName="MedianLayerSorter.java" startLine="68" startPosition="103" endLine="72" endPosition="0" />
+    <scopeInfo nodeId="190081711777515783" fileName="MedianLayerSorter.java" startLine="61" startPosition="82" endLine="64" endPosition="5">
+      <varInfo nodeId="190081711777515783" varName="edge" />
+    </scopeInfo>
+    <scopeInfo nodeId="4759409676487232971" fileName="MedianLayerSorter.java" startLine="83" startPosition="51" endLine="86" endPosition="7">
+      <varInfo nodeId="4759409676487232971" varName="edge" />
+    </scopeInfo>
+    <scopeInfo nodeId="190081711777510087" fileName="MedianLayerSorter.java" startLine="35" startPosition="67" endLine="39" endPosition="5">
+      <varInfo nodeId="190081711777510087" varName="node" />
+    </scopeInfo>
+    <scopeInfo nodeId="190081711777515962" fileName="MedianLayerSorter.java" startLine="68" startPosition="103" endLine="72" endPosition="0">
+      <varInfo nodeId="190081711777515962" varName="it" />
+    </scopeInfo>
     <scopeInfo nodeId="4519409331094601156" fileName="MedianLayerSorter.java" startLine="83" startPosition="51" endLine="87" endPosition="69" />
     <scopeInfo nodeId="4759409676487232951" fileName="MedianLayerSorter.java" startLine="80" startPosition="97" endLine="89" endPosition="22">
-      <varInfo nodeId="4519409331094601185" varName="edges" />
       <varInfo nodeId="4759409676487232966" varName="barycenter" />
+      <varInfo nodeId="4519409331094601185" varName="edges" />
     </scopeInfo>
     <scopeInfo nodeId="4759409676487232948" fileName="MedianLayerSorter.java" startLine="79" startPosition="0" endLine="91" endPosition="0">
-      <varInfo nodeId="4759409676487232953" varName="node" />
       <varInfo nodeId="4759409676487232958" varName="dir" />
+      <varInfo nodeId="4759409676487232953" varName="node" />
       <varInfo nodeId="4759409676487232960" varName="nodesOrder" />
     </scopeInfo>
     <scopeInfo nodeId="190081711777516101" fileName="MedianLayerSorter.java" startLine="41" startPosition="42" endLine="54" endPosition="17">
@@ -149,31 +157,34 @@
       <varInfo nodeId="190081711777516125" varName="ma" />
       <varInfo nodeId="190081711777516132" varName="mb" />
     </scopeInfo>
-    <scopeInfo nodeId="190081711777516100" fileName="MedianLayerSorter.java" startLine="40" startPosition="80" endLine="56" endPosition="0" />
+    <scopeInfo nodeId="190081711777516100" fileName="MedianLayerSorter.java" startLine="40" startPosition="80" endLine="56" endPosition="0">
+      <varInfo nodeId="190081711777516100" varName="a" />
+      <varInfo nodeId="190081711777516100" varName="b" />
+    </scopeInfo>
     <scopeInfo nodeId="190081711777510101" fileName="MedianLayerSorter.java" startLine="60" startPosition="90" endLine="77" endPosition="5">
       <varInfo nodeId="190081711777510110" varName="adjNodesOrder" />
     </scopeInfo>
     <scopeInfo nodeId="190081711777510098" fileName="MedianLayerSorter.java" startLine="59" startPosition="0" endLine="79" endPosition="0">
-      <varInfo nodeId="190081711777510102" varName="node" />
       <varInfo nodeId="190081711777511541" varName="dir" />
+      <varInfo nodeId="190081711777510102" varName="node" />
       <varInfo nodeId="190081711777510104" varName="nodesOrder" />
     </scopeInfo>
     <scopeInfo nodeId="190081711777509931" fileName="MedianLayerSorter.java" startLine="21" startPosition="97" endLine="57" endPosition="55">
-      <varInfo nodeId="190081711777516042" varName="median" />
-      <varInfo nodeId="4759409676487241163" varName="graph" />
-      <varInfo nodeId="5180427534212029506" varName="fixedLayer" />
-      <varInfo nodeId="4759409676487240478" varName="nodesOrder" />
       <varInfo nodeId="4759409676487232934" varName="barycenter" />
+      <varInfo nodeId="5180427534212029506" varName="fixedLayer" />
+      <varInfo nodeId="4759409676487241163" varName="graph" />
       <varInfo nodeId="190081711777516081" varName="layerOrder" />
+      <varInfo nodeId="190081711777516042" varName="median" />
+      <varInfo nodeId="4759409676487240478" varName="nodesOrder" />
     </scopeInfo>
     <scopeInfo nodeId="190081711777509922" fileName="MedianLayerSorter.java" startLine="20" startPosition="0" endLine="59" endPosition="0">
-      <varInfo nodeId="190081711777509925" varName="layerToSort" />
       <varInfo nodeId="190081711777509929" varName="dir" />
+      <varInfo nodeId="190081711777509925" varName="layerToSort" />
       <varInfo nodeId="190081711777509927" varName="nodeLayeredOrder" />
     </scopeInfo>
-    <unitInfo nodeId="190081711777515962" fileName="MedianLayerSorter.java" startLine="68" startPosition="66" endLine="72" endPosition="5" unitName="jetbrains.mps.graphLayout.layeredLayout.MedianLayerSorter$2" />
-    <unitInfo nodeId="190081711777516100" fileName="MedianLayerSorter.java" startLine="40" startPosition="60" endLine="56" endPosition="5" unitName="jetbrains.mps.graphLayout.layeredLayout.MedianLayerSorter$1" />
     <unitInfo nodeId="190081711777509915" fileName="MedianLayerSorter.java" startLine="17" startPosition="0" endLine="92" endPosition="0" unitName="jetbrains.mps.graphLayout.layeredLayout.MedianLayerSorter" />
+    <unitInfo nodeId="190081711777516100" fileName="MedianLayerSorter.java" startLine="40" startPosition="60" endLine="56" endPosition="5" unitName="jetbrains.mps.graphLayout.layeredLayout.MedianLayerSorter$1" />
+    <unitInfo nodeId="190081711777515962" fileName="MedianLayerSorter.java" startLine="68" startPosition="66" endLine="72" endPosition="5" unitName="jetbrains.mps.graphLayout.layeredLayout.MedianLayerSorter$2" />
   </root>
   <root nodeId="2350882467504388199">
     <nodeInfo nodeId="2350882467504391600" fileName="NodeLayeredOrder.java" startLine="15" startPosition="31" endLine="16" endPosition="42" conceptFqName="jetbrains.mps.baseLanguage.structure.FieldDeclaration" propertyString="myLayeredOrder" />
@@ -235,7 +246,9 @@
     <scopeInfo nodeId="8780938838750220458" fileName="NodeLayeredOrder.java" startLine="37" startPosition="67" endLine="40" endPosition="5">
       <varInfo nodeId="8780938838750220461" varName="i" />
     </scopeInfo>
-    <scopeInfo nodeId="4519409331094692059" fileName="NodeLayeredOrder.java" startLine="68" startPosition="73" endLine="71" endPosition="7" />
+    <scopeInfo nodeId="4519409331094692059" fileName="NodeLayeredOrder.java" startLine="68" startPosition="73" endLine="71" endPosition="7">
+      <varInfo nodeId="4519409331094692059" varName="node" />
+    </scopeInfo>
     <scopeInfo nodeId="4759409676487241118" fileName="NodeLayeredOrder.java" startLine="36" startPosition="53" endLine="40" endPosition="5" />
     <scopeInfo nodeId="8780938838750221664" fileName="NodeLayeredOrder.java" startLine="47" startPosition="0" endLine="51" endPosition="0" />
     <scopeInfo nodeId="3256072703923739006" fileName="NodeLayeredOrder.java" startLine="51" startPosition="0" endLine="55" endPosition="0">
@@ -250,19 +263,21 @@
       <varInfo nodeId="2350882467504391608" varName="graph" />
     </scopeInfo>
     <scopeInfo nodeId="8780938838750221616" fileName="NodeLayeredOrder.java" startLine="42" startPosition="0" endLine="47" endPosition="0">
-      <varInfo nodeId="8780938838750221620" varName="node" />
       <varInfo nodeId="8780938838750221924" varName="layer" />
+      <varInfo nodeId="8780938838750221620" varName="node" />
       <varInfo nodeId="8780938838750221622" varName="pos" />
     </scopeInfo>
-    <scopeInfo nodeId="4519409331094692054" fileName="NodeLayeredOrder.java" startLine="67" startPosition="45" endLine="73" endPosition="5" />
+    <scopeInfo nodeId="4519409331094692054" fileName="NodeLayeredOrder.java" startLine="67" startPosition="45" endLine="73" endPosition="5">
+      <varInfo nodeId="4519409331094692054" varName="layerOrder" />
+    </scopeInfo>
     <scopeInfo nodeId="2350882467504391630" fileName="NodeLayeredOrder.java" startLine="26" startPosition="45" endLine="33" endPosition="100" />
     <scopeInfo nodeId="4759409676487241115" fileName="NodeLayeredOrder.java" startLine="35" startPosition="0" endLine="42" endPosition="0">
-      <varInfo nodeId="4759409676487241119" varName="nodes" />
       <varInfo nodeId="4759409676487241123" varName="layer" />
+      <varInfo nodeId="4759409676487241119" varName="nodes" />
     </scopeInfo>
     <scopeInfo nodeId="2350882467504391627" fileName="NodeLayeredOrder.java" startLine="25" startPosition="0" endLine="35" endPosition="0">
-      <varInfo nodeId="2350882467504391631" varName="node" />
       <varInfo nodeId="2350882467504391651" varName="layer" />
+      <varInfo nodeId="2350882467504391631" varName="node" />
     </scopeInfo>
     <scopeInfo nodeId="4519409331094691674" fileName="NodeLayeredOrder.java" startLine="65" startPosition="28" endLine="75" endPosition="30">
       <varInfo nodeId="4519409331094691681" varName="builder" />
@@ -284,10 +299,12 @@
     <scopeInfo nodeId="3256072703923740074" fileName="AsIsCoordinatePlacer.java" startLine="15" startPosition="33" endLine="15" endPosition="33" />
     <scopeInfo nodeId="3256072703923740071" fileName="AsIsCoordinatePlacer.java" startLine="14" startPosition="64" endLine="16" endPosition="3" />
     <scopeInfo nodeId="4660430665333276521" fileName="AsIsCoordinatePlacer.java" startLine="23" startPosition="59" endLine="25" endPosition="17" />
-    <scopeInfo nodeId="4660430665333276518" fileName="AsIsCoordinatePlacer.java" startLine="22" startPosition="21" endLine="26" endPosition="7" />
+    <scopeInfo nodeId="4660430665333276518" fileName="AsIsCoordinatePlacer.java" startLine="22" startPosition="21" endLine="26" endPosition="7">
+      <varInfo nodeId="4660430665333276518" varName="node" />
+    </scopeInfo>
     <scopeInfo nodeId="4660430665333276440" fileName="AsIsCoordinatePlacer.java" startLine="20" startPosition="64" endLine="26" endPosition="7">
-      <varInfo nodeId="4660430665333276524" varName="xCoord" />
       <varInfo nodeId="4660430665333276460" varName="layerOrder" />
+      <varInfo nodeId="4660430665333276524" varName="xCoord" />
     </scopeInfo>
     <scopeInfo nodeId="4660430665333276439" fileName="AsIsCoordinatePlacer.java" startLine="19" startPosition="59" endLine="27" endPosition="5">
       <varInfo nodeId="4660430665333276442" varName="layer" />
@@ -375,29 +392,43 @@
     <scopeInfo nodeId="190081711777478275" fileName="LayeredLayouter.java" startLine="95" startPosition="103" endLine="96" endPosition="31" />
     <scopeInfo nodeId="4660430665333281318" fileName="LayeredLayouter.java" startLine="44" startPosition="107" endLine="46" endPosition="34" />
     <scopeInfo nodeId="190081711777474408" fileName="LayeredLayouter.java" startLine="81" startPosition="34" endLine="83" endPosition="60" />
-    <scopeInfo nodeId="190081711777478272" fileName="LayeredLayouter.java" startLine="94" startPosition="36" endLine="97" endPosition="7" />
+    <scopeInfo nodeId="190081711777478272" fileName="LayeredLayouter.java" startLine="94" startPosition="36" endLine="97" endPosition="7">
+      <varInfo nodeId="190081711777478272" varName="newEdge" />
+    </scopeInfo>
     <scopeInfo nodeId="4660430665333276837" fileName="LayeredLayouter.java" startLine="27" startPosition="114" endLine="31" endPosition="31" />
-    <scopeInfo nodeId="4660430665333281315" fileName="LayeredLayouter.java" startLine="43" startPosition="118" endLine="47" endPosition="7" />
-    <scopeInfo nodeId="4660430665333281559" fileName="LayeredLayouter.java" startLine="51" startPosition="82" endLine="55" endPosition="0" />
+    <scopeInfo nodeId="4660430665333281315" fileName="LayeredLayouter.java" startLine="43" startPosition="118" endLine="47" endPosition="7">
+      <varInfo nodeId="4660430665333281315" varName="newEdge" />
+    </scopeInfo>
+    <scopeInfo nodeId="4660430665333281559" fileName="LayeredLayouter.java" startLine="51" startPosition="82" endLine="55" endPosition="0">
+      <varInfo nodeId="4660430665333281559" varName="it" />
+    </scopeInfo>
     <scopeInfo nodeId="190081711777469941" fileName="LayeredLayouter.java" startLine="58" startPosition="67" endLine="62" endPosition="214" />
     <scopeInfo nodeId="190081711777478265" fileName="LayeredLayouter.java" startLine="93" startPosition="95" endLine="97" endPosition="7" />
     <scopeInfo nodeId="4660430665333276834" fileName="LayeredLayouter.java" startLine="26" startPosition="0" endLine="32" endPosition="3">
+      <varInfo nodeId="4660430665333276838" varName="layerer" />
+      <varInfo nodeId="4660430665333276840" varName="placer" />
       <varInfo nodeId="4660430665333278666" varName="reverter" />
       <varInfo nodeId="4660430665333276843" varName="sorter" />
-      <varInfo nodeId="4660430665333276840" varName="placer" />
-      <varInfo nodeId="4660430665333276838" varName="layerer" />
     </scopeInfo>
-    <scopeInfo nodeId="190081711777469938" fileName="LayeredLayouter.java" startLine="57" startPosition="85" endLine="63" endPosition="7" />
-    <scopeInfo nodeId="190081711777478262" fileName="LayeredLayouter.java" startLine="92" startPosition="5" endLine="98" endPosition="5" />
+    <scopeInfo nodeId="190081711777469938" fileName="LayeredLayouter.java" startLine="57" startPosition="85" endLine="63" endPosition="7">
+      <varInfo nodeId="190081711777469938" varName="edge" />
+    </scopeInfo>
+    <scopeInfo nodeId="190081711777478262" fileName="LayeredLayouter.java" startLine="92" startPosition="5" endLine="98" endPosition="5">
+      <varInfo nodeId="190081711777478262" varName="deletedEdge" />
+    </scopeInfo>
     <scopeInfo nodeId="4660430665333281641" fileName="LayeredLayouter.java" startLine="56" startPosition="63" endLine="63" endPosition="7" />
     <scopeInfo nodeId="4660430665333281270" fileName="LayeredLayouter.java" startLine="41" startPosition="99" endLine="49" endPosition="33">
       <varInfo nodeId="4660430665333281279" varName="edgeLayout" />
     </scopeInfo>
-    <scopeInfo nodeId="4660430665333281638" fileName="LayeredLayouter.java" startLine="55" startPosition="7" endLine="64" endPosition="5" />
+    <scopeInfo nodeId="4660430665333281638" fileName="LayeredLayouter.java" startLine="55" startPosition="7" endLine="64" endPosition="5">
+      <varInfo nodeId="4660430665333281638" varName="node" />
+    </scopeInfo>
     <scopeInfo nodeId="190081711777474400" fileName="LayeredLayouter.java" startLine="79" startPosition="64" endLine="88" endPosition="28">
       <varInfo nodeId="190081711777474402" varName="newTarget" />
     </scopeInfo>
-    <scopeInfo nodeId="4660430665333281267" fileName="LayeredLayouter.java" startLine="40" startPosition="63" endLine="50" endPosition="5" />
+    <scopeInfo nodeId="4660430665333281267" fileName="LayeredLayouter.java" startLine="40" startPosition="63" endLine="50" endPosition="5">
+      <varInfo nodeId="4660430665333281267" varName="deletedEdge" />
+    </scopeInfo>
     <scopeInfo nodeId="190081711777474399" fileName="LayeredLayouter.java" startLine="78" startPosition="38" endLine="89" endPosition="11">
       <varInfo nodeId="190081711777474437" varName="i" />
     </scopeInfo>
@@ -405,10 +436,12 @@
       <varInfo nodeId="190081711777474394" varName="cur" />
     </scopeInfo>
     <scopeInfo nodeId="190081711777474355" fileName="LayeredLayouter.java" startLine="73" startPosition="67" endLine="90" endPosition="9">
-      <varInfo nodeId="190081711777474366" varName="targetLayer" />
       <varInfo nodeId="190081711777474357" varName="sourceLayer" />
+      <varInfo nodeId="190081711777474366" varName="targetLayer" />
     </scopeInfo>
-    <scopeInfo nodeId="190081711777474350" fileName="LayeredLayouter.java" startLine="72" startPosition="39" endLine="91" endPosition="7" />
+    <scopeInfo nodeId="190081711777474350" fileName="LayeredLayouter.java" startLine="72" startPosition="39" endLine="91" endPosition="7">
+      <varInfo nodeId="190081711777474350" varName="edge" />
+    </scopeInfo>
     <scopeInfo nodeId="190081711777474316" fileName="LayeredLayouter.java" startLine="71" startPosition="58" endLine="91" endPosition="7">
       <varInfo nodeId="190081711777474333" varName="node" />
     </scopeInfo>
@@ -416,16 +449,16 @@
       <varInfo nodeId="190081711777474318" varName="index" />
     </scopeInfo>
     <scopeInfo nodeId="4660430665333280335" fileName="LayeredLayouter.java" startLine="34" startPosition="49" endLine="65" endPosition="23">
-      <varInfo nodeId="4660430665333281039" varName="substituteEdgeMap" />
-      <varInfo nodeId="4660430665333281068" varName="order" />
       <varInfo nodeId="4660430665333281255" varName="graphLayout" />
-      <varInfo nodeId="4660430665333280363" varName="reverted" />
       <varInfo nodeId="4660430665333280349" varName="layers" />
       <varInfo nodeId="4660430665333281078" varName="nodeCoordinates" />
+      <varInfo nodeId="4660430665333281068" varName="order" />
+      <varInfo nodeId="4660430665333280363" varName="reverted" />
+      <varInfo nodeId="4660430665333281039" varName="substituteEdgeMap" />
     </scopeInfo>
     <scopeInfo nodeId="4660430665333280891" fileName="LayeredLayouter.java" startLine="68" startPosition="96" endLine="99" endPosition="25">
-      <varInfo nodeId="4660430665333280907" varName="substituteMap" />
       <varInfo nodeId="190081711777474260" varName="numOfRealNodes" />
+      <varInfo nodeId="4660430665333280907" varName="substituteMap" />
     </scopeInfo>
     <scopeInfo nodeId="4660430665333280332" fileName="LayeredLayouter.java" startLine="33" startPosition="0" endLine="67" endPosition="0">
       <varInfo nodeId="4660430665333280336" varName="graph" />
@@ -434,8 +467,8 @@
       <varInfo nodeId="4660430665333280893" varName="graph" />
       <varInfo nodeId="4660430665333280895" varName="layers" />
     </scopeInfo>
-    <unitInfo nodeId="4660430665333281559" fileName="LayeredLayouter.java" startLine="51" startPosition="60" endLine="55" endPosition="5" unitName="jetbrains.mps.graphLayout.layeredLayout.LayeredLayouter$1" />
     <unitInfo nodeId="4660430665333276832" fileName="LayeredLayouter.java" startLine="21" startPosition="0" endLine="102" endPosition="0" unitName="jetbrains.mps.graphLayout.layeredLayout.LayeredLayouter" />
+    <unitInfo nodeId="4660430665333281559" fileName="LayeredLayouter.java" startLine="51" startPosition="60" endLine="55" endPosition="5" unitName="jetbrains.mps.graphLayout.layeredLayout.LayeredLayouter$1" />
   </root>
   <root nodeId="4660430665333276848">
     <nodeInfo nodeId="4660430665333276894" fileName="DFSEdgeReverter.java" startLine="14" startPosition="67" endLine="15" endPosition="31" conceptFqName="jetbrains.mps.baseLanguage.structure.FieldDeclaration" propertyString="myToRevert" />
@@ -457,7 +490,9 @@
     <scopeInfo nodeId="4660430665333279426" fileName="DFSEdgeReverter.java" startLine="35" startPosition="30" endLine="36" endPosition="55" />
     <scopeInfo nodeId="4660430665333276850" fileName="DFSEdgeReverter.java" startLine="16" startPosition="0" endLine="18" endPosition="3" />
     <scopeInfo nodeId="4660430665333277097" fileName="DFSEdgeReverter.java" startLine="24" startPosition="55" endLine="26" endPosition="98" />
-    <scopeInfo nodeId="4660430665333277094" fileName="DFSEdgeReverter.java" startLine="23" startPosition="66" endLine="27" endPosition="5" />
+    <scopeInfo nodeId="4660430665333277094" fileName="DFSEdgeReverter.java" startLine="23" startPosition="66" endLine="27" endPosition="5">
+      <varInfo nodeId="4660430665333277094" varName="edge" />
+    </scopeInfo>
     <scopeInfo nodeId="4660430665333279403" fileName="DFSEdgeReverter.java" startLine="32" startPosition="54" endLine="37" endPosition="5">
       <varInfo nodeId="4660430665333279417" varName="state" />
       <varInfo nodeId="4660430665333279411" varName="target" />
@@ -505,12 +540,12 @@
     <scopeInfo nodeId="4666079041336346282" fileName="DFSNodeSorter.java" startLine="15" startPosition="0" endLine="17" endPosition="3" />
     <scopeInfo nodeId="4666079041336409334" fileName="DFSNodeSorter.java" startLine="19" startPosition="81" endLine="23" endPosition="26" />
     <scopeInfo nodeId="4660430665333279147" fileName="DFSNodeSorter.java" startLine="25" startPosition="0" endLine="30" endPosition="0">
-      <varInfo nodeId="4660430665333279150" varName="node" />
       <varInfo nodeId="1646208389854260872" varName="from" />
+      <varInfo nodeId="4660430665333279150" varName="node" />
     </scopeInfo>
     <scopeInfo nodeId="4666079041336409323" fileName="DFSNodeSorter.java" startLine="18" startPosition="0" endLine="25" endPosition="0">
-      <varInfo nodeId="4666079041336409327" varName="nodeLayers" />
       <varInfo nodeId="2350882467504391512" varName="graph" />
+      <varInfo nodeId="4666079041336409327" varName="nodeLayers" />
     </scopeInfo>
     <unitInfo nodeId="4666079041336346280" fileName="DFSNodeSorter.java" startLine="12" startPosition="0" endLine="31" endPosition="0" unitName="jetbrains.mps.graphLayout.layeredLayout.DFSNodeSorter" />
   </root>
@@ -545,7 +580,7 @@
     <nodeInfo nodeId="5180427534212031627" fileName="BlockGraphProcessor.java" startLine="41" startPosition="9" endLine="42" endPosition="19" conceptFqName="jetbrains.mps.baseLanguage.structure.ExpressionStatement" />
     <nodeInfo nodeId="5180427534212031630" fileName="BlockGraphProcessor.java" startLine="44" startPosition="5" endLine="45" endPosition="35" conceptFqName="jetbrains.mps.baseLanguage.structure.LocalVariableDeclarationStatement" />
     <nodeInfo nodeId="920414672219862480" fileName="BlockGraphProcessor.java" startLine="46" startPosition="68" endLine="47" endPosition="139" conceptFqName="jetbrains.mps.baseLanguage.structure.ExpressionStatement" />
-    <nodeInfo nodeId="5180427534212031657" fileName="BlockGraphProcessor.java" startLine="47" startPosition="139" endLine="48" endPosition="52" conceptFqName="jetbrains.mps.baseLanguage.structure.ExpressionStatement" />
+    <nodeInfo nodeId="5180427534212031657" fileName="BlockGraphProcessor.java" startLine="47" startPosition="139" endLine="48" endPosition="73" conceptFqName="jetbrains.mps.baseLanguage.structure.ExpressionStatement" />
     <nodeInfo nodeId="920414672219862503" fileName="BlockGraphProcessor.java" startLine="50" startPosition="68" endLine="51" endPosition="96" conceptFqName="jetbrains.mps.baseLanguage.structure.ExpressionStatement" />
     <nodeInfo nodeId="5180427534212031683" fileName="BlockGraphProcessor.java" startLine="52" startPosition="5" endLine="53" endPosition="20" conceptFqName="jetbrains.mps.baseLanguage.structure.ReturnStatement" />
     <nodeInfo nodeId="5180427534212031702" fileName="BlockGraphProcessor.java" startLine="56" startPosition="40" endLine="57" endPosition="72" conceptFqName="jetbrains.mps.baseLanguage.structure.LocalVariableDeclarationStatement" />
@@ -558,7 +593,7 @@
     <nodeInfo nodeId="5180427534212031764" fileName="BlockGraphProcessor.java" startLine="66" startPosition="101" endLine="67" endPosition="107" conceptFqName="jetbrains.mps.baseLanguage.structure.ExpressionStatement" />
     <nodeInfo nodeId="920414672219862533" fileName="BlockGraphProcessor.java" startLine="68" startPosition="77" endLine="69" endPosition="98" conceptFqName="jetbrains.mps.baseLanguage.structure.ExpressionStatement" />
     <nodeInfo nodeId="5180427534212031782" fileName="BlockGraphProcessor.java" startLine="69" startPosition="98" endLine="70" endPosition="66" conceptFqName="jetbrains.mps.baseLanguage.structure.ExpressionStatement" />
-    <nodeInfo nodeId="5180427534212031801" fileName="BlockGraphProcessor.java" startLine="72" startPosition="16" endLine="73" endPosition="106" conceptFqName="jetbrains.mps.baseLanguage.structure.ExpressionStatement" />
+    <nodeInfo nodeId="5180427534212031801" fileName="BlockGraphProcessor.java" startLine="72" startPosition="16" endLine="73" endPosition="148" conceptFqName="jetbrains.mps.baseLanguage.structure.ExpressionStatement" />
     <nodeInfo nodeId="5180427534212031456" fileName="BlockGraphProcessor.java" startLine="84" startPosition="53" endLine="85" endPosition="59" conceptFqName="jetbrains.mps.baseLanguage.structure.ExpressionStatement" />
     <nodeInfo nodeId="5180427534212031479" fileName="BlockGraphProcessor.java" startLine="89" startPosition="56" endLine="90" endPosition="37" conceptFqName="jetbrains.mps.baseLanguage.structure.LocalVariableDeclarationStatement" />
     <nodeInfo nodeId="5180427534212031934" fileName="BlockGraphProcessor.java" startLine="92" startPosition="68" endLine="93" endPosition="59" conceptFqName="jetbrains.mps.baseLanguage.structure.ExpressionStatement" />
@@ -588,22 +623,26 @@
     <scopeInfo nodeId="5180427534212031448" fileName="BlockGraphProcessor.java" startLine="80" startPosition="28" endLine="80" endPosition="28" />
     <scopeInfo nodeId="5180427534212031611" fileName="BlockGraphProcessor.java" startLine="39" startPosition="85" endLine="40" endPosition="64" />
     <scopeInfo nodeId="5180427534212031671" fileName="BlockGraphProcessor.java" startLine="50" startPosition="68" endLine="51" endPosition="96" />
-    <scopeInfo nodeId="5180427534212031800" fileName="BlockGraphProcessor.java" startLine="72" startPosition="16" endLine="73" endPosition="106" />
+    <scopeInfo nodeId="5180427534212031800" fileName="BlockGraphProcessor.java" startLine="72" startPosition="16" endLine="73" endPosition="148" />
     <scopeInfo nodeId="5180427534212031455" fileName="BlockGraphProcessor.java" startLine="84" startPosition="53" endLine="85" endPosition="59" />
     <scopeInfo nodeId="5180427534212031924" fileName="BlockGraphProcessor.java" startLine="92" startPosition="68" endLine="93" endPosition="59" />
     <scopeInfo nodeId="5180427534212031943" fileName="BlockGraphProcessor.java" startLine="94" startPosition="16" endLine="95" endPosition="107" />
     <scopeInfo nodeId="5180427534212031511" fileName="BlockGraphProcessor.java" startLine="101" startPosition="46" endLine="102" endPosition="19" />
     <scopeInfo nodeId="5180427534212031824" fileName="BlockGraphProcessor.java" startLine="23" startPosition="0" endLine="25" endPosition="3" />
-    <scopeInfo nodeId="5180427534212031639" fileName="BlockGraphProcessor.java" startLine="46" startPosition="68" endLine="48" endPosition="52" />
+    <scopeInfo nodeId="5180427534212031639" fileName="BlockGraphProcessor.java" startLine="46" startPosition="68" endLine="48" endPosition="73" />
     <scopeInfo nodeId="5180427534212031770" fileName="BlockGraphProcessor.java" startLine="68" startPosition="77" endLine="70" endPosition="66" />
     <scopeInfo nodeId="5180427534212031445" fileName="BlockGraphProcessor.java" startLine="79" startPosition="43" endLine="81" endPosition="5" />
-    <scopeInfo nodeId="5180427534212031666" fileName="BlockGraphProcessor.java" startLine="49" startPosition="5" endLine="52" endPosition="5" />
-    <scopeInfo nodeId="5180427534212031634" fileName="BlockGraphProcessor.java" startLine="45" startPosition="35" endLine="49" endPosition="5" />
+    <scopeInfo nodeId="5180427534212031666" fileName="BlockGraphProcessor.java" startLine="49" startPosition="5" endLine="52" endPosition="5">
+      <varInfo nodeId="5180427534212031666" varName="node" />
+    </scopeInfo>
+    <scopeInfo nodeId="5180427534212031634" fileName="BlockGraphProcessor.java" startLine="45" startPosition="35" endLine="49" endPosition="5">
+      <varInfo nodeId="5180427534212031634" varName="node" />
+    </scopeInfo>
     <scopeInfo nodeId="5180427534212031606" fileName="BlockGraphProcessor.java" startLine="37" startPosition="75" endLine="42" endPosition="19" />
     <scopeInfo nodeId="5180427534212031763" fileName="BlockGraphProcessor.java" startLine="66" startPosition="101" endLine="71" endPosition="11" />
     <scopeInfo nodeId="5180427534212031450" fileName="BlockGraphProcessor.java" startLine="82" startPosition="0" endLine="87" endPosition="0">
-      <varInfo nodeId="5180427534212031453" varName="node" />
       <varInfo nodeId="1646208389854255911" varName="from" />
+      <varInfo nodeId="5180427534212031453" varName="node" />
     </scopeInfo>
     <scopeInfo nodeId="5180427534212031488" fileName="BlockGraphProcessor.java" startLine="91" startPosition="155" endLine="96" endPosition="9" />
     <scopeInfo nodeId="5180427534212031508" fileName="BlockGraphProcessor.java" startLine="99" startPosition="0" endLine="104" endPosition="0">
@@ -613,11 +652,15 @@
     <scopeInfo nodeId="5180427534212031470" fileName="BlockGraphProcessor.java" startLine="89" startPosition="56" endLine="97" endPosition="7">
       <varInfo nodeId="5180427534212031480" varName="target" />
     </scopeInfo>
-    <scopeInfo nodeId="5180427534212031588" fileName="BlockGraphProcessor.java" startLine="35" startPosition="48" endLine="44" endPosition="5" />
+    <scopeInfo nodeId="5180427534212031588" fileName="BlockGraphProcessor.java" startLine="35" startPosition="48" endLine="44" endPosition="5">
+      <varInfo nodeId="5180427534212031588" varName="node" />
+    </scopeInfo>
     <scopeInfo nodeId="5180427534212031753" fileName="BlockGraphProcessor.java" startLine="64" startPosition="66" endLine="74" endPosition="9">
       <varInfo nodeId="5180427534212031755" varName="target" />
     </scopeInfo>
-    <scopeInfo nodeId="5180427534212031745" fileName="BlockGraphProcessor.java" startLine="63" startPosition="69" endLine="75" endPosition="7" />
+    <scopeInfo nodeId="5180427534212031745" fileName="BlockGraphProcessor.java" startLine="63" startPosition="69" endLine="75" endPosition="7">
+      <varInfo nodeId="5180427534212031745" varName="edge" />
+    </scopeInfo>
     <scopeInfo nodeId="5180427534212031465" fileName="BlockGraphProcessor.java" startLine="87" startPosition="0" endLine="99" endPosition="0">
       <varInfo nodeId="5180427534212031468" varName="edge" />
       <varInfo nodeId="1646208389854266711" varName="source" />
@@ -626,8 +669,8 @@
       <varInfo nodeId="5180427534212032005" varName="cur" />
     </scopeInfo>
     <scopeInfo nodeId="5180427534212031690" fileName="BlockGraphProcessor.java" startLine="56" startPosition="40" endLine="76" endPosition="5">
-      <varInfo nodeId="5180427534212031703" varName="queue" />
       <varInfo nodeId="5180427534212031721" varName="nodeClass" />
+      <varInfo nodeId="5180427534212031703" varName="queue" />
     </scopeInfo>
     <scopeInfo nodeId="5180427534212031687" fileName="BlockGraphProcessor.java" startLine="55" startPosition="0" endLine="78" endPosition="0">
       <varInfo nodeId="5180427534212031821" varName="node" />
@@ -640,8 +683,8 @@
     <scopeInfo nodeId="5180427534212031550" fileName="BlockGraphProcessor.java" startLine="26" startPosition="0" endLine="55" endPosition="0">
       <varInfo nodeId="5180427534212031685" varName="blockGraph" />
     </scopeInfo>
-    <unitInfo nodeId="5180427534212031443" fileName="BlockGraphProcessor.java" startLine="79" startPosition="0" endLine="105" endPosition="0" unitName="jetbrains.mps.graphLayout.layeredLayout.BlockGraphProcessor$ClassesFinder" />
     <unitInfo nodeId="5180427534212031421" fileName="BlockGraphProcessor.java" startLine="17" startPosition="0" endLine="106" endPosition="0" unitName="jetbrains.mps.graphLayout.layeredLayout.BlockGraphProcessor" />
+    <unitInfo nodeId="5180427534212031443" fileName="BlockGraphProcessor.java" startLine="79" startPosition="0" endLine="105" endPosition="0" unitName="jetbrains.mps.graphLayout.layeredLayout.BlockGraphProcessor$ClassesFinder" />
   </root>
   <root nodeId="7033456583153163504">
     <nodeInfo nodeId="920414672219874767" fileName="BKCoordinatePlacer.java" startLine="25" startPosition="62" endLine="26" endPosition="34" conceptFqName="jetbrains.mps.baseLanguage.structure.StaticFieldDeclaration" propertyString="LEFTMOST" />
@@ -872,23 +915,41 @@
     <scopeInfo nodeId="7033456583153163506" fileName="BKCoordinatePlacer.java" startLine="37" startPosition="0" endLine="39" endPosition="3" />
     <scopeInfo nodeId="4519409331094704519" fileName="BKCoordinatePlacer.java" startLine="149" startPosition="81" endLine="151" endPosition="102" />
     <scopeInfo nodeId="920414672219868280" fileName="BKCoordinatePlacer.java" startLine="285" startPosition="67" endLine="287" endPosition="74" />
-    <scopeInfo nodeId="8780938838750203718" fileName="BKCoordinatePlacer.java" startLine="54" startPosition="26" endLine="57" endPosition="7" />
+    <scopeInfo nodeId="8780938838750203718" fileName="BKCoordinatePlacer.java" startLine="54" startPosition="26" endLine="57" endPosition="7">
+      <varInfo nodeId="8780938838750203718" varName="node" />
+    </scopeInfo>
     <scopeInfo nodeId="8780938838750204086" fileName="BKCoordinatePlacer.java" startLine="71" startPosition="82" endLine="74" endPosition="7">
       <varInfo nodeId="8780938838750204102" varName="i" />
     </scopeInfo>
-    <scopeInfo nodeId="8780938838750205250" fileName="BKCoordinatePlacer.java" startLine="82" startPosition="38" endLine="85" endPosition="5" />
-    <scopeInfo nodeId="8780938838750205293" fileName="BKCoordinatePlacer.java" startLine="85" startPosition="5" endLine="88" endPosition="5" />
-    <scopeInfo nodeId="5180427534212025958" fileName="BKCoordinatePlacer.java" startLine="89" startPosition="55" endLine="92" endPosition="5" />
+    <scopeInfo nodeId="8780938838750205250" fileName="BKCoordinatePlacer.java" startLine="82" startPosition="38" endLine="85" endPosition="5">
+      <varInfo nodeId="8780938838750205250" varName="node" />
+    </scopeInfo>
+    <scopeInfo nodeId="8780938838750205293" fileName="BKCoordinatePlacer.java" startLine="85" startPosition="5" endLine="88" endPosition="5">
+      <varInfo nodeId="8780938838750205293" varName="node" />
+    </scopeInfo>
+    <scopeInfo nodeId="5180427534212025958" fileName="BKCoordinatePlacer.java" startLine="89" startPosition="55" endLine="92" endPosition="5">
+      <varInfo nodeId="5180427534212025958" varName="node" />
+    </scopeInfo>
     <scopeInfo nodeId="6220135881201379167" fileName="BKCoordinatePlacer.java" startLine="107" startPosition="31" endLine="110" endPosition="7" />
-    <scopeInfo nodeId="6220135881201379176" fileName="BKCoordinatePlacer.java" startLine="107" startPosition="31" endLine="110" endPosition="7" />
-    <scopeInfo nodeId="6220135881201379196" fileName="BKCoordinatePlacer.java" startLine="112" startPosition="23" endLine="115" endPosition="7" />
-    <scopeInfo nodeId="6220135881201379229" fileName="BKCoordinatePlacer.java" startLine="115" startPosition="7" endLine="118" endPosition="7" />
+    <scopeInfo nodeId="6220135881201379176" fileName="BKCoordinatePlacer.java" startLine="107" startPosition="31" endLine="110" endPosition="7">
+      <varInfo nodeId="6220135881201379176" varName="node" />
+    </scopeInfo>
+    <scopeInfo nodeId="6220135881201379196" fileName="BKCoordinatePlacer.java" startLine="112" startPosition="23" endLine="115" endPosition="7">
+      <varInfo nodeId="6220135881201379196" varName="block" />
+    </scopeInfo>
+    <scopeInfo nodeId="6220135881201379229" fileName="BKCoordinatePlacer.java" startLine="115" startPosition="7" endLine="118" endPosition="7">
+      <varInfo nodeId="6220135881201379229" varName="node" />
+    </scopeInfo>
     <scopeInfo nodeId="4519409331094704552" fileName="BKCoordinatePlacer.java" startLine="154" startPosition="56" endLine="157" endPosition="5">
       <varInfo nodeId="4519409331094704490" varName="layer" />
     </scopeInfo>
-    <scopeInfo nodeId="920414672219867893" fileName="BKCoordinatePlacer.java" startLine="222" startPosition="55" endLine="225" endPosition="5" />
+    <scopeInfo nodeId="920414672219867893" fileName="BKCoordinatePlacer.java" startLine="222" startPosition="55" endLine="225" endPosition="5">
+      <varInfo nodeId="920414672219867893" varName="node" />
+    </scopeInfo>
     <scopeInfo nodeId="920414672219877948" fileName="BKCoordinatePlacer.java" startLine="266" startPosition="68" endLine="269" endPosition="13" />
-    <scopeInfo nodeId="8780938838750204118" fileName="BKCoordinatePlacer.java" startLine="75" startPosition="101" endLine="79" endPosition="0" />
+    <scopeInfo nodeId="8780938838750204118" fileName="BKCoordinatePlacer.java" startLine="75" startPosition="101" endLine="79" endPosition="0">
+      <varInfo nodeId="8780938838750204118" varName="it" />
+    </scopeInfo>
     <scopeInfo nodeId="4519409331094704518" fileName="BKCoordinatePlacer.java" startLine="148" startPosition="54" endLine="152" endPosition="7">
       <varInfo nodeId="4519409331094704488" varName="pos" />
     </scopeInfo>
@@ -901,9 +962,18 @@
     <scopeInfo nodeId="7033456583153167631" fileName="BKCoordinatePlacer.java" startLine="200" startPosition="0" endLine="204" endPosition="0">
       <varInfo nodeId="7033456583153167636" varName="dummyNode" />
     </scopeInfo>
-    <scopeInfo nodeId="920414672219877445" fileName="BKCoordinatePlacer.java" startLine="229" startPosition="86" endLine="233" endPosition="0" />
-    <scopeInfo nodeId="920414672219877825" fileName="BKCoordinatePlacer.java" startLine="236" startPosition="86" endLine="240" endPosition="0" />
-    <scopeInfo nodeId="6220135881201370425" fileName="BKCoordinatePlacer.java" startLine="250" startPosition="106" endLine="254" endPosition="0" />
+    <scopeInfo nodeId="920414672219877445" fileName="BKCoordinatePlacer.java" startLine="229" startPosition="86" endLine="233" endPosition="0">
+      <varInfo nodeId="920414672219877445" varName="a" />
+      <varInfo nodeId="920414672219877445" varName="b" />
+    </scopeInfo>
+    <scopeInfo nodeId="920414672219877825" fileName="BKCoordinatePlacer.java" startLine="236" startPosition="86" endLine="240" endPosition="0">
+      <varInfo nodeId="920414672219877825" varName="a" />
+      <varInfo nodeId="920414672219877825" varName="b" />
+    </scopeInfo>
+    <scopeInfo nodeId="6220135881201370425" fileName="BKCoordinatePlacer.java" startLine="250" startPosition="106" endLine="254" endPosition="0">
+      <varInfo nodeId="6220135881201370425" varName="a" />
+      <varInfo nodeId="6220135881201370425" varName="b" />
+    </scopeInfo>
     <scopeInfo nodeId="8780938838750203819" fileName="BKCoordinatePlacer.java" startLine="62" startPosition="70" endLine="67" endPosition="7" />
     <scopeInfo nodeId="4519409331094704510" fileName="BKCoordinatePlacer.java" startLine="147" startPosition="66" endLine="152" endPosition="7">
       <varInfo nodeId="4519409331094704489" varName="layerOrder" />
@@ -913,14 +983,20 @@
     </scopeInfo>
     <scopeInfo nodeId="6220135881201373241" fileName="BKCoordinatePlacer.java" startLine="205" startPosition="78" endLine="210" endPosition="5" />
     <scopeInfo nodeId="6220135881201379090" fileName="BKCoordinatePlacer.java" startLine="213" startPosition="88" endLine="218" endPosition="5" />
-    <scopeInfo nodeId="920414672219877945" fileName="BKCoordinatePlacer.java" startLine="265" startPosition="11" endLine="270" endPosition="11" />
+    <scopeInfo nodeId="920414672219877945" fileName="BKCoordinatePlacer.java" startLine="265" startPosition="11" endLine="270" endPosition="11">
+      <varInfo nodeId="920414672219877945" varName="candidate" />
+    </scopeInfo>
     <scopeInfo nodeId="8780938838750200738" fileName="BKCoordinatePlacer.java" startLine="53" startPosition="70" endLine="59" endPosition="62">
       <varInfo nodeId="8780938838750203734" varName="curMaxCoord" />
     </scopeInfo>
     <scopeInfo nodeId="5180427534211891974" fileName="BKCoordinatePlacer.java" startLine="167" startPosition="14" endLine="173" endPosition="9" />
-    <scopeInfo nodeId="5180427534211891977" fileName="BKCoordinatePlacer.java" startLine="167" startPosition="14" endLine="173" endPosition="9" />
+    <scopeInfo nodeId="5180427534211891977" fileName="BKCoordinatePlacer.java" startLine="167" startPosition="14" endLine="173" endPosition="9">
+      <varInfo nodeId="5180427534211891977" varName="edge" />
+    </scopeInfo>
     <scopeInfo nodeId="5180427534211892125" fileName="BKCoordinatePlacer.java" startLine="181" startPosition="14" endLine="187" endPosition="9" />
-    <scopeInfo nodeId="5180427534211892126" fileName="BKCoordinatePlacer.java" startLine="181" startPosition="14" endLine="187" endPosition="9" />
+    <scopeInfo nodeId="5180427534211892126" fileName="BKCoordinatePlacer.java" startLine="181" startPosition="14" endLine="187" endPosition="9">
+      <varInfo nodeId="5180427534211892126" varName="edge" />
+    </scopeInfo>
     <scopeInfo nodeId="920414672219877510" fileName="BKCoordinatePlacer.java" startLine="228" startPosition="37" endLine="234" endPosition="29" />
     <scopeInfo nodeId="920414672219877820" fileName="BKCoordinatePlacer.java" startLine="235" startPosition="12" endLine="241" endPosition="44" />
     <scopeInfo nodeId="8780938838750203818" fileName="BKCoordinatePlacer.java" startLine="61" startPosition="75" endLine="68" endPosition="5">
@@ -932,7 +1008,9 @@
     <scopeInfo nodeId="4519409331094704509" fileName="BKCoordinatePlacer.java" startLine="146" startPosition="47" endLine="153" endPosition="5">
       <varInfo nodeId="4519409331094704487" varName="layer" />
     </scopeInfo>
-    <scopeInfo nodeId="8780938838750200735" fileName="BKCoordinatePlacer.java" startLine="52" startPosition="40" endLine="60" endPosition="5" />
+    <scopeInfo nodeId="8780938838750200735" fileName="BKCoordinatePlacer.java" startLine="52" startPosition="40" endLine="60" endPosition="5">
+      <varInfo nodeId="8780938838750200735" varName="coords" />
+    </scopeInfo>
     <scopeInfo nodeId="4519409331094793118" fileName="BKCoordinatePlacer.java" startLine="192" startPosition="0" endLine="200" endPosition="0">
       <varInfo nodeId="4519409331094793124" varName="node" />
     </scopeInfo>
@@ -941,12 +1019,12 @@
       <varInfo nodeId="6220135881201373246" varName="nodeList" />
     </scopeInfo>
     <scopeInfo nodeId="6220135881201379087" fileName="BKCoordinatePlacer.java" startLine="212" startPosition="0" endLine="220" endPosition="0">
-      <varInfo nodeId="6220135881201379098" varName="order" />
       <varInfo nodeId="6220135881201379101" varName="direction" />
+      <varInfo nodeId="6220135881201379098" varName="order" />
     </scopeInfo>
     <scopeInfo nodeId="6220135881201373338" fileName="BKCoordinatePlacer.java" startLine="129" startPosition="38" endLine="138" endPosition="33">
-      <varInfo nodeId="6220135881201373348" varName="node" />
       <varInfo nodeId="6220135881201373375" varName="currentBlock" />
+      <varInfo nodeId="6220135881201373348" varName="node" />
     </scopeInfo>
     <scopeInfo nodeId="8780938838750204078" fileName="BKCoordinatePlacer.java" startLine="70" startPosition="52" endLine="80" endPosition="150">
       <varInfo nodeId="8780938838750204080" varName="nodeXCoords" />
@@ -957,7 +1035,9 @@
     <scopeInfo nodeId="5180427534211892107" fileName="BKCoordinatePlacer.java" startLine="177" startPosition="78" endLine="188" endPosition="7">
       <varInfo nodeId="5180427534211892109" varName="node" />
     </scopeInfo>
-    <scopeInfo nodeId="8780938838750204073" fileName="BKCoordinatePlacer.java" startLine="69" startPosition="65" endLine="81" endPosition="5" />
+    <scopeInfo nodeId="8780938838750204073" fileName="BKCoordinatePlacer.java" startLine="69" startPosition="65" endLine="81" endPosition="5">
+      <varInfo nodeId="8780938838750204073" varName="node" />
+    </scopeInfo>
     <scopeInfo nodeId="920414672219868272" fileName="BKCoordinatePlacer.java" startLine="277" startPosition="134" endLine="289" endPosition="27">
       <varInfo nodeId="920414672219877606" varName="after" />
       <varInfo nodeId="920414672219868274" varName="medianNode" />
@@ -974,34 +1054,34 @@
       <varInfo nodeId="5180427534211892153" varName="i" />
     </scopeInfo>
     <scopeInfo nodeId="920414672219868259" fileName="BKCoordinatePlacer.java" startLine="276" startPosition="0" endLine="291" endPosition="0">
-      <varInfo nodeId="920414672219868262" varName="node" />
-      <varInfo nodeId="920414672219868268" varName="edge" />
-      <varInfo nodeId="920414672219868308" varName="dir" />
-      <varInfo nodeId="920414672219868264" varName="roots" />
-      <varInfo nodeId="920414672219877592" varName="layerDirection" />
       <varInfo nodeId="920414672219868270" varName="curConnectedPos" />
+      <varInfo nodeId="920414672219868308" varName="dir" />
+      <varInfo nodeId="920414672219868268" varName="edge" />
+      <varInfo nodeId="920414672219877592" varName="layerDirection" />
+      <varInfo nodeId="920414672219868262" varName="node" />
+      <varInfo nodeId="920414672219868264" varName="roots" />
     </scopeInfo>
     <scopeInfo nodeId="4519409331094704493" fileName="BKCoordinatePlacer.java" startLine="143" startPosition="0" endLine="159" endPosition="0" />
     <scopeInfo nodeId="920414672219872753" fileName="BKCoordinatePlacer.java" startLine="123" startPosition="112" endLine="141" endPosition="22">
       <varInfo nodeId="920414672219872755" varName="blockGraph" />
     </scopeInfo>
     <scopeInfo nodeId="920414672219872744" fileName="BKCoordinatePlacer.java" startLine="122" startPosition="0" endLine="143" endPosition="0">
-      <varInfo nodeId="920414672219872749" varName="roots" />
       <varInfo nodeId="920414672219874775" varName="layerDirection" />
       <varInfo nodeId="6220135881201379072" varName="orderIterator" />
+      <varInfo nodeId="920414672219872749" varName="roots" />
     </scopeInfo>
     <scopeInfo nodeId="920414672219877114" fileName="BKCoordinatePlacer.java" startLine="249" startPosition="68" endLine="270" endPosition="11">
+      <varInfo nodeId="920414672219877876" varName="candidates" />
+      <varInfo nodeId="8780938838750213724" varName="hasDummy0" />
       <varInfo nodeId="8780938838750213757" varName="hasDummy1" />
       <varInfo nodeId="6220135881201370415" varName="sortedByPos" />
-      <varInfo nodeId="8780938838750213724" varName="hasDummy0" />
-      <varInfo nodeId="920414672219877876" varName="candidates" />
     </scopeInfo>
     <scopeInfo nodeId="6220135881201378966" fileName="BKCoordinatePlacer.java" startLine="96" startPosition="72" endLine="120" endPosition="21">
-      <varInfo nodeId="6220135881201379322" varName="dir" />
-      <varInfo nodeId="6220135881201378968" varName="roots" />
-      <varInfo nodeId="6220135881201378955" varName="layers" />
-      <varInfo nodeId="6220135881201378956" varName="curCoords" />
       <varInfo nodeId="6220135881201378973" varName="blockGraph" />
+      <varInfo nodeId="6220135881201378956" varName="curCoords" />
+      <varInfo nodeId="6220135881201379322" varName="dir" />
+      <varInfo nodeId="6220135881201378955" varName="layers" />
+      <varInfo nodeId="6220135881201378968" varName="roots" />
     </scopeInfo>
     <scopeInfo nodeId="920414672219877082" fileName="BKCoordinatePlacer.java" startLine="247" startPosition="38" endLine="271" endPosition="9">
       <varInfo nodeId="920414672219877092" varName="node" />
@@ -1011,8 +1091,8 @@
       <varInfo nodeId="6220135881201379314" varName="orderDir" />
     </scopeInfo>
     <scopeInfo nodeId="920414672219868099" fileName="BKCoordinatePlacer.java" startLine="244" startPosition="37" endLine="272" endPosition="7">
-      <varInfo nodeId="920414672219877012" varName="nodeIterator" />
       <varInfo nodeId="920414672219868130" varName="curConnectedPos" />
+      <varInfo nodeId="920414672219877012" varName="nodeIterator" />
     </scopeInfo>
     <scopeInfo nodeId="7033456583153163651" fileName="BKCoordinatePlacer.java" startLine="160" startPosition="64" endLine="190" endPosition="20">
       <varInfo nodeId="7033456583153163675" varName="badEdges" />
@@ -1023,18 +1103,18 @@
     </scopeInfo>
     <scopeInfo nodeId="7033456583153163520" fileName="BKCoordinatePlacer.java" startLine="41" startPosition="81" endLine="93" endPosition="17">
       <varInfo nodeId="8780938838750200742" varName="coord" />
-      <varInfo nodeId="8780938838750205256" varName="minXCoord" />
-      <varInfo nodeId="8780938838750203801" varName="shifts" />
-      <varInfo nodeId="8780938838750205267" varName="nodes" />
-      <varInfo nodeId="8780938838750203780" varName="minMaxCoord" />
-      <varInfo nodeId="8780938838750200751" varName="maxCoord" />
-      <varInfo nodeId="6220135881201378900" varName="xCoords" />
       <varInfo nodeId="8780938838750204055" varName="finalXCoord" />
+      <varInfo nodeId="8780938838750200751" varName="maxCoord" />
+      <varInfo nodeId="8780938838750203780" varName="minMaxCoord" />
+      <varInfo nodeId="8780938838750205256" varName="minXCoord" />
+      <varInfo nodeId="8780938838750205267" varName="nodes" />
+      <varInfo nodeId="8780938838750203801" varName="shifts" />
+      <varInfo nodeId="6220135881201378900" varName="xCoords" />
     </scopeInfo>
     <scopeInfo nodeId="920414672219867877" fileName="BKCoordinatePlacer.java" startLine="221" startPosition="122" endLine="274" endPosition="17">
+      <varInfo nodeId="920414672219877433" varName="edgeComparator" />
       <varInfo nodeId="6220135881201373286" varName="initPositionValue" />
       <varInfo nodeId="920414672219867885" varName="roots" />
-      <varInfo nodeId="920414672219877433" varName="edgeComparator" />
     </scopeInfo>
     <scopeInfo nodeId="7033456583153163511" fileName="BKCoordinatePlacer.java" startLine="40" startPosition="0" endLine="95" endPosition="0">
       <varInfo nodeId="7033456583153163516" varName="graph" />
@@ -1045,11 +1125,11 @@
       <varInfo nodeId="920414672219877005" varName="layerDirection" />
       <varInfo nodeId="920414672219868030" varName="layerIterator" />
     </scopeInfo>
+    <unitInfo nodeId="7033456583153163504" fileName="BKCoordinatePlacer.java" startLine="25" startPosition="0" endLine="292" endPosition="0" unitName="jetbrains.mps.graphLayout.layeredLayout.BKCoordinatePlacer" />
     <unitInfo nodeId="8780938838750204118" fileName="BKCoordinatePlacer.java" startLine="75" startPosition="64" endLine="79" endPosition="7" unitName="jetbrains.mps.graphLayout.layeredLayout.BKCoordinatePlacer$1" />
     <unitInfo nodeId="920414672219877445" fileName="BKCoordinatePlacer.java" startLine="229" startPosition="33" endLine="233" endPosition="7" unitName="jetbrains.mps.graphLayout.layeredLayout.BKCoordinatePlacer$2" />
     <unitInfo nodeId="920414672219877825" fileName="BKCoordinatePlacer.java" startLine="236" startPosition="33" endLine="240" endPosition="7" unitName="jetbrains.mps.graphLayout.layeredLayout.BKCoordinatePlacer$3" />
     <unitInfo nodeId="6220135881201370425" fileName="BKCoordinatePlacer.java" startLine="250" startPosition="86" endLine="254" endPosition="11" unitName="jetbrains.mps.graphLayout.layeredLayout.BKCoordinatePlacer$4" />
-    <unitInfo nodeId="7033456583153163504" fileName="BKCoordinatePlacer.java" startLine="25" startPosition="0" endLine="292" endPosition="0" unitName="jetbrains.mps.graphLayout.layeredLayout.BKCoordinatePlacer" />
   </root>
   <root nodeId="8567569493821107820">
     <nodeInfo nodeId="8567569493821107822" fileName="ILayerer.java" startLine="9" startPosition="27" endLine="10" endPosition="87" conceptFqName="jetbrains.mps.baseLanguage.structure.InstanceMethodDeclaration" propertyString="computeLayers#(Ljetbrains/mps/graphLayout/graph/Graph;)Ljava/util/Map;" />
@@ -1084,13 +1164,17 @@
     <scopeInfo nodeId="8780938838750221821" fileName="AdjacentExhangeNodeSorter.java" startLine="24" startPosition="28" endLine="26" endPosition="42" />
     <scopeInfo nodeId="8780938838750221718" fileName="AdjacentExhangeNodeSorter.java" startLine="34" startPosition="75" endLine="37" endPosition="9" />
     <scopeInfo nodeId="8780938838750221700" fileName="AdjacentExhangeNodeSorter.java" startLine="33" startPosition="71" endLine="38" endPosition="7" />
-    <scopeInfo nodeId="8780938838750221715" fileName="AdjacentExhangeNodeSorter.java" startLine="33" startPosition="71" endLine="38" endPosition="7" />
-    <scopeInfo nodeId="8780938838750221697" fileName="AdjacentExhangeNodeSorter.java" startLine="32" startPosition="27" endLine="39" endPosition="5" />
+    <scopeInfo nodeId="8780938838750221715" fileName="AdjacentExhangeNodeSorter.java" startLine="33" startPosition="71" endLine="38" endPosition="7">
+      <varInfo nodeId="8780938838750221715" varName="secondEdge" />
+    </scopeInfo>
+    <scopeInfo nodeId="8780938838750221697" fileName="AdjacentExhangeNodeSorter.java" startLine="32" startPosition="27" endLine="39" endPosition="5">
+      <varInfo nodeId="8780938838750221697" varName="firstEdge" />
+    </scopeInfo>
     <scopeInfo nodeId="8780938838750221792" fileName="AdjacentExhangeNodeSorter.java" startLine="19" startPosition="77" endLine="27" endPosition="7">
-      <varInfo nodeId="8780938838750221853" varName="second" />
-      <varInfo nodeId="8780938838750221824" varName="cur" />
       <varInfo nodeId="8780938838750221897" varName="candidate" />
+      <varInfo nodeId="8780938838750221824" varName="cur" />
       <varInfo nodeId="8780938838750221841" varName="first" />
+      <varInfo nodeId="8780938838750221853" varName="second" />
     </scopeInfo>
     <scopeInfo nodeId="8780938838750221684" fileName="AdjacentExhangeNodeSorter.java" startLine="31" startPosition="111" endLine="40" endPosition="26">
       <varInfo nodeId="8780938838750221704" varName="numOfCrossings" />
@@ -1099,19 +1183,19 @@
       <varInfo nodeId="8780938838750221791" varName="i" />
     </scopeInfo>
     <scopeInfo nodeId="8780938838750220399" fileName="AdjacentExhangeNodeSorter.java" startLine="16" startPosition="92" endLine="28" endPosition="5">
-      <varInfo nodeId="8780938838750221886" varName="posInLayer" />
       <varInfo nodeId="8780938838750221829" varName="layerOrder" />
+      <varInfo nodeId="8780938838750221886" varName="posInLayer" />
     </scopeInfo>
     <scopeInfo nodeId="8780938838750221681" fileName="AdjacentExhangeNodeSorter.java" startLine="30" startPosition="0" endLine="42" endPosition="0">
-      <varInfo nodeId="8780938838750221736" varName="posInLayer" />
-      <varInfo nodeId="8780938838750221688" varName="second" />
       <varInfo nodeId="8780938838750221694" varName="dir" />
       <varInfo nodeId="8780938838750221686" varName="first" />
+      <varInfo nodeId="8780938838750221736" varName="posInLayer" />
+      <varInfo nodeId="8780938838750221688" varName="second" />
     </scopeInfo>
     <scopeInfo nodeId="8780938838750220390" fileName="AdjacentExhangeNodeSorter.java" startLine="15" startPosition="0" endLine="30" endPosition="0">
+      <varInfo nodeId="8780938838750220397" varName="direction" />
       <varInfo nodeId="8780938838750220393" varName="layerToSort" />
       <varInfo nodeId="8780938838750220395" varName="order" />
-      <varInfo nodeId="8780938838750220397" varName="direction" />
     </scopeInfo>
     <unitInfo nodeId="8780938838750220383" fileName="AdjacentExhangeNodeSorter.java" startLine="12" startPosition="0" endLine="43" endPosition="0" unitName="jetbrains.mps.graphLayout.layeredLayout.AdjacentExhangeNodeSorter" />
   </root>

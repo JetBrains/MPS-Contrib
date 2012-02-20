@@ -55,28 +55,28 @@
       <varInfo nodeId="4526870550031606018" varName="graph" />
     </scopeInfo>
     <scopeInfo nodeId="100801320082837161" fileName="QuasiOrthogonalRepresentation_Test.java" startLine="26" startPosition="45" endLine="29" endPosition="38">
-      <varInfo nodeId="100801320082837163" varName="graphString" />
       <varInfo nodeId="100801320082837171" varName="graph" />
+      <varInfo nodeId="100801320082837163" varName="graphString" />
     </scopeInfo>
     <scopeInfo nodeId="100801320082882965" fileName="QuasiOrthogonalRepresentation_Test.java" startLine="32" startPosition="45" endLine="35" endPosition="38">
-      <varInfo nodeId="100801320082882967" varName="graphString" />
       <varInfo nodeId="100801320082882971" varName="graph" />
+      <varInfo nodeId="100801320082882967" varName="graphString" />
     </scopeInfo>
     <scopeInfo nodeId="100801320082883674" fileName="QuasiOrthogonalRepresentation_Test.java" startLine="38" startPosition="45" endLine="41" endPosition="38">
-      <varInfo nodeId="100801320082883676" varName="graphString" />
       <varInfo nodeId="100801320082883680" varName="graph" />
+      <varInfo nodeId="100801320082883676" varName="graphString" />
     </scopeInfo>
     <scopeInfo nodeId="7953585273260121771" fileName="QuasiOrthogonalRepresentation_Test.java" startLine="54" startPosition="42" endLine="57" endPosition="38">
-      <varInfo nodeId="7953585273260121773" varName="graphString" />
       <varInfo nodeId="7953585273260121777" varName="graph" />
+      <varInfo nodeId="7953585273260121773" varName="graphString" />
     </scopeInfo>
     <scopeInfo nodeId="2173844983035672488" fileName="QuasiOrthogonalRepresentation_Test.java" startLine="60" startPosition="45" endLine="63" endPosition="38">
-      <varInfo nodeId="2173844983035672490" varName="graphString" />
       <varInfo nodeId="2173844983035672494" varName="graph" />
+      <varInfo nodeId="2173844983035672490" varName="graphString" />
     </scopeInfo>
     <scopeInfo nodeId="2173844983035729265" fileName="QuasiOrthogonalRepresentation_Test.java" startLine="66" startPosition="45" endLine="69" endPosition="38">
-      <varInfo nodeId="2173844983035729267" varName="graphString" />
       <varInfo nodeId="2173844983035729271" varName="graph" />
+      <varInfo nodeId="2173844983035729267" varName="graphString" />
     </scopeInfo>
     <scopeInfo nodeId="7953585273259939509" fileName="QuasiOrthogonalRepresentation_Test.java" startLine="43" startPosition="0" endLine="48" endPosition="0" />
     <scopeInfo nodeId="7953585273260040018" fileName="QuasiOrthogonalRepresentation_Test.java" startLine="48" startPosition="0" endLine="53" endPosition="0" />
@@ -89,9 +89,9 @@
     <scopeInfo nodeId="2173844983035729262" fileName="QuasiOrthogonalRepresentation_Test.java" startLine="65" startPosition="0" endLine="71" endPosition="0" />
     <scopeInfo nodeId="100801320082832739" fileName="QuasiOrthogonalRepresentation_Test.java" startLine="77" startPosition="55" endLine="87" endPosition="91">
       <varInfo nodeId="2173844983035648973" varName="angles" />
-      <varInfo nodeId="6370402596948407046" varName="oldEdges" />
       <varInfo nodeId="2173844983035648960" varName="bends" />
       <varInfo nodeId="100801320082837133" varName="embeddedGraph" />
+      <varInfo nodeId="6370402596948407046" varName="oldEdges" />
     </scopeInfo>
     <scopeInfo nodeId="100801320082832736" fileName="QuasiOrthogonalRepresentation_Test.java" startLine="76" startPosition="0" endLine="89" endPosition="0">
       <varInfo nodeId="100801320082837128" varName="graph" />
@@ -135,34 +135,36 @@
     <nodeInfo nodeId="102129025687875551" fileName="RectOrthogonalFlowLayouter_Test.java" startLine="60" startPosition="0" endLine="69" endPosition="0" conceptFqName="jetbrains.mps.baseLanguage.structure.InstanceMethodDeclaration" propertyString="test#(Ljetbrains/mps/graphLayout/graph/Graph;)V" />
     <scopeInfo nodeId="3698135283642018482" fileName="RectOrthogonalFlowLayouter_Test.java" startLine="64" startPosition="63" endLine="65" endPosition="70" />
     <scopeInfo nodeId="102129025687875581" fileName="RectOrthogonalFlowLayouter_Test.java" startLine="19" startPosition="45" endLine="22" endPosition="16">
-      <varInfo nodeId="102129025687875583" varName="graphString" />
       <varInfo nodeId="102129025687875587" varName="graph" />
+      <varInfo nodeId="102129025687875583" varName="graphString" />
     </scopeInfo>
     <scopeInfo nodeId="102129025687875599" fileName="RectOrthogonalFlowLayouter_Test.java" startLine="25" startPosition="45" endLine="28" endPosition="16">
-      <varInfo nodeId="102129025687875601" varName="graphString" />
       <varInfo nodeId="102129025687875605" varName="graph" />
+      <varInfo nodeId="102129025687875601" varName="graphString" />
     </scopeInfo>
     <scopeInfo nodeId="102129025687875617" fileName="RectOrthogonalFlowLayouter_Test.java" startLine="31" startPosition="45" endLine="34" endPosition="16">
-      <varInfo nodeId="102129025687875619" varName="graphString" />
       <varInfo nodeId="102129025687875623" varName="graph" />
+      <varInfo nodeId="102129025687875619" varName="graphString" />
     </scopeInfo>
     <scopeInfo nodeId="102129025687875635" fileName="RectOrthogonalFlowLayouter_Test.java" startLine="37" startPosition="45" endLine="40" endPosition="16">
-      <varInfo nodeId="102129025687875637" varName="graphString" />
       <varInfo nodeId="102129025687875641" varName="graph" />
+      <varInfo nodeId="102129025687875637" varName="graphString" />
     </scopeInfo>
     <scopeInfo nodeId="102129025687875653" fileName="RectOrthogonalFlowLayouter_Test.java" startLine="43" startPosition="45" endLine="46" endPosition="16">
-      <varInfo nodeId="102129025687875655" varName="graphString" />
       <varInfo nodeId="102129025687875659" varName="graph" />
+      <varInfo nodeId="102129025687875655" varName="graphString" />
     </scopeInfo>
     <scopeInfo nodeId="102129025687875671" fileName="RectOrthogonalFlowLayouter_Test.java" startLine="49" startPosition="45" endLine="52" endPosition="16">
-      <varInfo nodeId="102129025687875673" varName="graphString" />
       <varInfo nodeId="102129025687875677" varName="graph" />
+      <varInfo nodeId="102129025687875673" varName="graphString" />
     </scopeInfo>
     <scopeInfo nodeId="102129025687875689" fileName="RectOrthogonalFlowLayouter_Test.java" startLine="55" startPosition="45" endLine="58" endPosition="16">
-      <varInfo nodeId="102129025687875691" varName="graphString" />
       <varInfo nodeId="102129025687875695" varName="graph" />
+      <varInfo nodeId="102129025687875691" varName="graphString" />
     </scopeInfo>
-    <scopeInfo nodeId="3698135283642018479" fileName="RectOrthogonalFlowLayouter_Test.java" startLine="63" startPosition="89" endLine="66" endPosition="5" />
+    <scopeInfo nodeId="3698135283642018479" fileName="RectOrthogonalFlowLayouter_Test.java" startLine="63" startPosition="89" endLine="66" endPosition="5">
+      <varInfo nodeId="3698135283642018479" varName="node" />
+    </scopeInfo>
     <scopeInfo nodeId="102129025687875578" fileName="RectOrthogonalFlowLayouter_Test.java" startLine="18" startPosition="63" endLine="24" endPosition="0" />
     <scopeInfo nodeId="102129025687875596" fileName="RectOrthogonalFlowLayouter_Test.java" startLine="24" startPosition="0" endLine="30" endPosition="0" />
     <scopeInfo nodeId="102129025687875614" fileName="RectOrthogonalFlowLayouter_Test.java" startLine="30" startPosition="0" endLine="36" endPosition="0" />
@@ -239,8 +241,12 @@
     <scopeInfo nodeId="4319509563683730188" fileName="OrthogonalFlowLayouterConstraints_Test.java" startLine="50" startPosition="45" endLine="52" endPosition="16">
       <varInfo nodeId="4319509563683730190" varName="graph" />
     </scopeInfo>
-    <scopeInfo nodeId="3263240354041071390" fileName="OrthogonalFlowLayouterConstraints_Test.java" startLine="57" startPosition="89" endLine="60" endPosition="5" />
-    <scopeInfo nodeId="1465095823296810336" fileName="OrthogonalFlowLayouterConstraints_Test.java" startLine="67" startPosition="118" endLine="70" endPosition="5" />
+    <scopeInfo nodeId="3263240354041071390" fileName="OrthogonalFlowLayouterConstraints_Test.java" startLine="57" startPosition="89" endLine="60" endPosition="5">
+      <varInfo nodeId="3263240354041071390" varName="node" />
+    </scopeInfo>
+    <scopeInfo nodeId="1465095823296810336" fileName="OrthogonalFlowLayouterConstraints_Test.java" startLine="67" startPosition="118" endLine="70" endPosition="5">
+      <varInfo nodeId="1465095823296810336" varName="node" />
+    </scopeInfo>
     <scopeInfo nodeId="1465095823296810376" fileName="OrthogonalFlowLayouterConstraints_Test.java" startLine="19" startPosition="70" endLine="24" endPosition="0" />
     <scopeInfo nodeId="1465095823296810388" fileName="OrthogonalFlowLayouterConstraints_Test.java" startLine="24" startPosition="0" endLine="29" endPosition="0" />
     <scopeInfo nodeId="1465095823296810400" fileName="OrthogonalFlowLayouterConstraints_Test.java" startLine="29" startPosition="0" endLine="34" endPosition="0" />
@@ -281,15 +287,17 @@
     <nodeInfo nodeId="1705599667576642205" fileName="HyperGraphLayouter_Test.java" startLine="28" startPosition="0" endLine="39" endPosition="0" conceptFqName="jetbrains.mps.baseLanguage.structure.InstanceMethodDeclaration" propertyString="test#(Ljetbrains/mps/graphLayout/graph/HyperGraph;)V" />
     <scopeInfo nodeId="1705599667576644037" fileName="HyperGraphLayouter_Test.java" startLine="32" startPosition="31" endLine="33" endPosition="60" />
     <scopeInfo nodeId="1705599667576646648" fileName="HyperGraphLayouter_Test.java" startLine="17" startPosition="45" endLine="20" endPosition="16">
-      <varInfo nodeId="1705599667576646650" varName="graphString" />
       <varInfo nodeId="1705599667576646661" varName="graph" />
+      <varInfo nodeId="1705599667576646650" varName="graphString" />
     </scopeInfo>
     <scopeInfo nodeId="1705599667576656880" fileName="HyperGraphLayouter_Test.java" startLine="23" startPosition="45" endLine="26" endPosition="16">
-      <varInfo nodeId="1705599667576656882" varName="graphString" />
       <varInfo nodeId="1705599667576656886" varName="graph" />
+      <varInfo nodeId="1705599667576656882" varName="graphString" />
     </scopeInfo>
     <scopeInfo nodeId="1705599667576644028" fileName="HyperGraphLayouter_Test.java" startLine="31" startPosition="63" endLine="34" endPosition="7" />
-    <scopeInfo nodeId="1705599667576644025" fileName="HyperGraphLayouter_Test.java" startLine="30" startPosition="50" endLine="35" endPosition="5" />
+    <scopeInfo nodeId="1705599667576644025" fileName="HyperGraphLayouter_Test.java" startLine="30" startPosition="50" endLine="35" endPosition="5">
+      <varInfo nodeId="1705599667576644025" varName="node" />
+    </scopeInfo>
     <scopeInfo nodeId="1705599667576646645" fileName="HyperGraphLayouter_Test.java" startLine="16" startPosition="55" endLine="22" endPosition="0" />
     <scopeInfo nodeId="1705599667576656877" fileName="HyperGraphLayouter_Test.java" startLine="22" startPosition="0" endLine="28" endPosition="0" />
     <scopeInfo nodeId="1705599667576642208" fileName="HyperGraphLayouter_Test.java" startLine="29" startPosition="38" endLine="37" endPosition="34">
@@ -314,10 +322,12 @@
     <nodeInfo nodeId="1795464432008746840" fileName="OrthogonalFlowLayouterNoLabels_Test.java" startLine="22" startPosition="0" endLine="31" endPosition="0" conceptFqName="jetbrains.mps.baseLanguage.structure.InstanceMethodDeclaration" propertyString="test#(Ljetbrains/mps/graphLayout/graph/Graph;)V" />
     <scopeInfo nodeId="1795464432008746872" fileName="OrthogonalFlowLayouterNoLabels_Test.java" startLine="25" startPosition="63" endLine="26" endPosition="58" />
     <scopeInfo nodeId="1795464432008746839" fileName="OrthogonalFlowLayouterNoLabels_Test.java" startLine="17" startPosition="45" endLine="20" endPosition="16">
-      <varInfo nodeId="1795464432008746911" varName="graphString" />
       <varInfo nodeId="1795464432008746923" varName="graph" />
+      <varInfo nodeId="1795464432008746911" varName="graphString" />
     </scopeInfo>
-    <scopeInfo nodeId="1795464432008746869" fileName="OrthogonalFlowLayouterNoLabels_Test.java" startLine="24" startPosition="50" endLine="27" endPosition="5" />
+    <scopeInfo nodeId="1795464432008746869" fileName="OrthogonalFlowLayouterNoLabels_Test.java" startLine="24" startPosition="50" endLine="27" endPosition="5">
+      <varInfo nodeId="1795464432008746869" varName="node" />
+    </scopeInfo>
     <scopeInfo nodeId="1795464432008746836" fileName="OrthogonalFlowLayouterNoLabels_Test.java" startLine="16" startPosition="67" endLine="22" endPosition="0" />
     <scopeInfo nodeId="1795464432008746843" fileName="OrthogonalFlowLayouterNoLabels_Test.java" startLine="23" startPosition="33" endLine="29" endPosition="48">
       <varInfo nodeId="1795464432008746902" varName="graphLayout" />
@@ -370,8 +380,8 @@
     </scopeInfo>
     <scopeInfo nodeId="194249616896421988" fileName="MultiTest.java" startLine="40" startPosition="0" endLine="46" endPosition="0">
       <varInfo nodeId="194249616896421995" varName="numEdges" />
-      <varInfo nodeId="194249616896421993" varName="numNodes" />
       <varInfo nodeId="194249616896421998" varName="numIter" />
+      <varInfo nodeId="194249616896421993" varName="numNodes" />
     </scopeInfo>
     <scopeInfo nodeId="194249616896422047" fileName="MultiTest.java" startLine="31" startPosition="44" endLine="38" endPosition="5" />
     <scopeInfo nodeId="194249616896422066" fileName="MultiTest.java" startLine="31" startPosition="44" endLine="38" endPosition="5">
@@ -404,30 +414,36 @@
     <scopeInfo nodeId="5736847780448772680" fileName="OrthogonalRepresentationChecker.java" startLine="26" startPosition="54" endLine="29" endPosition="32">
       <varInfo nodeId="5736847780448772928" varName="dartAngle" />
     </scopeInfo>
-    <scopeInfo nodeId="5736847780448772847" fileName="OrthogonalRepresentationChecker.java" startLine="19" startPosition="115" endLine="23" endPosition="0" />
+    <scopeInfo nodeId="5736847780448772847" fileName="OrthogonalRepresentationChecker.java" startLine="19" startPosition="115" endLine="23" endPosition="0">
+      <varInfo nodeId="5736847780448772847" varName="it" />
+    </scopeInfo>
     <scopeInfo nodeId="5736847780448772733" fileName="OrthogonalRepresentationChecker.java" startLine="35" startPosition="132" endLine="39" endPosition="41">
       <varInfo nodeId="5736847780448772779" varName="numEdges" />
     </scopeInfo>
-    <scopeInfo nodeId="5736847780448772674" fileName="OrthogonalRepresentationChecker.java" startLine="25" startPosition="25" endLine="30" endPosition="7" />
+    <scopeInfo nodeId="5736847780448772674" fileName="OrthogonalRepresentationChecker.java" startLine="25" startPosition="25" endLine="30" endPosition="7">
+      <varInfo nodeId="5736847780448772674" varName="dart" />
+    </scopeInfo>
     <scopeInfo nodeId="5736847780448772730" fileName="OrthogonalRepresentationChecker.java" startLine="34" startPosition="0" endLine="41" endPosition="0">
       <varInfo nodeId="5736847780448772748" varName="angles" />
+      <varInfo nodeId="5736847780448772741" varName="bends" />
       <varInfo nodeId="5736847780448772739" varName="graph" />
       <varInfo nodeId="5736847780448772826" varName="minAngle" />
-      <varInfo nodeId="5736847780448772741" varName="bends" />
     </scopeInfo>
     <scopeInfo nodeId="5736847780448772669" fileName="OrthogonalRepresentationChecker.java" startLine="18" startPosition="69" endLine="31" endPosition="41">
-      <varInfo nodeId="5736847780448772895" varName="totalAngle" />
       <varInfo nodeId="5736847780448772831" varName="darts" />
+      <varInfo nodeId="5736847780448772895" varName="totalAngle" />
     </scopeInfo>
     <scopeInfo nodeId="5736847780448772646" fileName="OrthogonalRepresentationChecker.java" startLine="17" startPosition="88" endLine="32" endPosition="5" />
-    <scopeInfo nodeId="5736847780448772664" fileName="OrthogonalRepresentationChecker.java" startLine="17" startPosition="88" endLine="32" endPosition="5" />
+    <scopeInfo nodeId="5736847780448772664" fileName="OrthogonalRepresentationChecker.java" startLine="17" startPosition="88" endLine="32" endPosition="5">
+      <varInfo nodeId="5736847780448772664" varName="node" />
+    </scopeInfo>
     <scopeInfo nodeId="5736847780448772643" fileName="OrthogonalRepresentationChecker.java" startLine="16" startPosition="46" endLine="34" endPosition="0">
       <varInfo nodeId="5736847780448772649" varName="angles" />
       <varInfo nodeId="5736847780448772647" varName="graph" />
       <varInfo nodeId="5736847780448772736" varName="minAngle" />
     </scopeInfo>
-    <unitInfo nodeId="5736847780448772847" fileName="OrthogonalRepresentationChecker.java" startLine="19" startPosition="93" endLine="23" endPosition="7" unitName="orthogonalLayoutTest.OrthogonalRepresentationChecker$1" />
     <unitInfo nodeId="228830736476055337" fileName="OrthogonalRepresentationChecker.java" startLine="16" startPosition="0" endLine="42" endPosition="0" unitName="orthogonalLayoutTest.OrthogonalRepresentationChecker" />
+    <unitInfo nodeId="5736847780448772847" fileName="OrthogonalRepresentationChecker.java" startLine="19" startPosition="93" endLine="23" endPosition="7" unitName="orthogonalLayoutTest.OrthogonalRepresentationChecker$1" />
   </root>
   <root nodeId="2344624500434352550">
     <nodeInfo nodeId="2344624500434352608" fileName="OrthogonalFlowLabelProcessing_Test.java" startLine="20" startPosition="45" endLine="21" endPosition="63" conceptFqName="jetbrains.mps.baseLanguage.structure.LocalVariableDeclarationStatement" />
@@ -477,8 +493,12 @@
     <scopeInfo nodeId="2344624500434352655" fileName="OrthogonalFlowLabelProcessing_Test.java" startLine="40" startPosition="45" endLine="42" endPosition="16">
       <varInfo nodeId="2344624500434352657" varName="graph" />
     </scopeInfo>
-    <scopeInfo nodeId="2344624500434354758" fileName="OrthogonalFlowLabelProcessing_Test.java" startLine="47" startPosition="89" endLine="50" endPosition="5" />
-    <scopeInfo nodeId="2344624500434352564" fileName="OrthogonalFlowLabelProcessing_Test.java" startLine="58" startPosition="89" endLine="61" endPosition="5" />
+    <scopeInfo nodeId="2344624500434354758" fileName="OrthogonalFlowLabelProcessing_Test.java" startLine="47" startPosition="89" endLine="50" endPosition="5">
+      <varInfo nodeId="2344624500434354758" varName="node" />
+    </scopeInfo>
+    <scopeInfo nodeId="2344624500434352564" fileName="OrthogonalFlowLabelProcessing_Test.java" startLine="58" startPosition="89" endLine="61" endPosition="5">
+      <varInfo nodeId="2344624500434352564" varName="node" />
+    </scopeInfo>
     <scopeInfo nodeId="2344624500434352604" fileName="OrthogonalFlowLabelProcessing_Test.java" startLine="19" startPosition="66" endLine="24" endPosition="0" />
     <scopeInfo nodeId="2344624500434352616" fileName="OrthogonalFlowLabelProcessing_Test.java" startLine="24" startPosition="0" endLine="29" endPosition="0" />
     <scopeInfo nodeId="2344624500434352628" fileName="OrthogonalFlowLabelProcessing_Test.java" startLine="29" startPosition="0" endLine="34" endPosition="0" />
@@ -489,9 +509,9 @@
       <varInfo nodeId="2344624500434352556" varName="nodeSizes" />
     </scopeInfo>
     <scopeInfo nodeId="2344624500434352667" fileName="OrthogonalFlowLabelProcessing_Test.java" startLine="45" startPosition="49" endLine="54" endPosition="53">
+      <varInfo nodeId="2344624500434354797" varName="edgeSizes" />
       <varInfo nodeId="2344624500434352669" varName="graph" />
       <varInfo nodeId="2344624500434354774" varName="graphLayout" />
-      <varInfo nodeId="2344624500434354797" varName="edgeSizes" />
       <varInfo nodeId="2344624500434354750" varName="nodeSizes" />
     </scopeInfo>
     <scopeInfo nodeId="2344624500434352551" fileName="OrthogonalFlowLabelProcessing_Test.java" startLine="56" startPosition="0" endLine="65" endPosition="0">
@@ -526,24 +546,26 @@
     <scopeInfo nodeId="3263240354041096168" fileName="OrthogonalFlowLayouterConstraintsStressTest.java" startLine="19" startPosition="56" endLine="19" endPosition="56" />
     <scopeInfo nodeId="3263240354041096245" fileName="OrthogonalFlowLayouterConstraintsStressTest.java" startLine="36" startPosition="65" endLine="37" endPosition="72" />
     <scopeInfo nodeId="3263240354041096165" fileName="OrthogonalFlowLayouterConstraintsStressTest.java" startLine="18" startPosition="58" endLine="20" endPosition="3" />
-    <scopeInfo nodeId="3263240354041096240" fileName="OrthogonalFlowLayouterConstraintsStressTest.java" startLine="35" startPosition="91" endLine="38" endPosition="7" />
+    <scopeInfo nodeId="3263240354041096240" fileName="OrthogonalFlowLayouterConstraintsStressTest.java" startLine="35" startPosition="91" endLine="38" endPosition="7">
+      <varInfo nodeId="3263240354041096240" varName="node" />
+    </scopeInfo>
     <scopeInfo nodeId="3263240354041096203" fileName="OrthogonalFlowLayouterConstraintsStressTest.java" startLine="28" startPosition="48" endLine="42" endPosition="95">
-      <varInfo nodeId="3263240354041103323" varName="time" />
       <varInfo nodeId="3263240354041096212" varName="graph" />
       <varInfo nodeId="3263240354041096256" varName="layout" />
       <varInfo nodeId="3263240354041096232" varName="nodeSizes" />
-      <varInfo nodeId="3263240354041103358" varName="passedTime" />
       <varInfo nodeId="3263240354041096218" varName="out" />
+      <varInfo nodeId="3263240354041103358" varName="passedTime" />
+      <varInfo nodeId="3263240354041103323" varName="time" />
     </scopeInfo>
     <scopeInfo nodeId="3263240354041096202" fileName="OrthogonalFlowLayouterConstraintsStressTest.java" startLine="27" startPosition="44" endLine="43" endPosition="5">
       <varInfo nodeId="3263240354041096266" varName="iter" />
     </scopeInfo>
     <scopeInfo nodeId="3263240354041096171" fileName="OrthogonalFlowLayouterConstraintsStressTest.java" startLine="22" startPosition="59" endLine="44" endPosition="31">
-      <varInfo nodeId="3263240354041096189" varName="numEdges" />
-      <varInfo nodeId="3263240354041096182" varName="numNodes" />
       <varInfo nodeId="3263240354041096173" varName="fileName" />
       <varInfo nodeId="3263240354041096177" varName="layouter" />
+      <varInfo nodeId="3263240354041096189" varName="numEdges" />
       <varInfo nodeId="3263240354041096196" varName="numIter" />
+      <varInfo nodeId="3263240354041096182" varName="numNodes" />
     </scopeInfo>
     <scopeInfo nodeId="3263240354041096169" fileName="OrthogonalFlowLayouterConstraintsStressTest.java" startLine="21" startPosition="0" endLine="46" endPosition="0">
       <varInfo nodeId="3263240354041096280" varName="args" />
@@ -586,15 +608,19 @@
     <scopeInfo nodeId="4422427343208739514" fileName="AmbiguityLayout_Test.java" startLine="42" startPosition="63" endLine="43" endPosition="68" />
     <scopeInfo nodeId="4422427343208739740" fileName="AmbiguityLayout_Test.java" startLine="57" startPosition="69" endLine="58" endPosition="206" />
     <scopeInfo nodeId="4422427343208740799" fileName="AmbiguityLayout_Test.java" startLine="24" startPosition="45" endLine="27" endPosition="16">
-      <varInfo nodeId="4422427343208740801" varName="graphString" />
       <varInfo nodeId="4422427343208740809" varName="graph" />
+      <varInfo nodeId="4422427343208740801" varName="graphString" />
     </scopeInfo>
     <scopeInfo nodeId="4422427343208830720" fileName="AmbiguityLayout_Test.java" startLine="30" startPosition="45" endLine="33" endPosition="16">
-      <varInfo nodeId="4422427343208830722" varName="graphString" />
       <varInfo nodeId="4422427343208830726" varName="graph" />
+      <varInfo nodeId="4422427343208830722" varName="graphString" />
     </scopeInfo>
-    <scopeInfo nodeId="4422427343208739478" fileName="AmbiguityLayout_Test.java" startLine="38" startPosition="89" endLine="41" endPosition="5" />
-    <scopeInfo nodeId="4422427343208739509" fileName="AmbiguityLayout_Test.java" startLine="41" startPosition="5" endLine="44" endPosition="5" />
+    <scopeInfo nodeId="4422427343208739478" fileName="AmbiguityLayout_Test.java" startLine="38" startPosition="89" endLine="41" endPosition="5">
+      <varInfo nodeId="4422427343208739478" varName="node" />
+    </scopeInfo>
+    <scopeInfo nodeId="4422427343208739509" fileName="AmbiguityLayout_Test.java" startLine="41" startPosition="5" endLine="44" endPosition="5">
+      <varInfo nodeId="4422427343208739509" varName="edge" />
+    </scopeInfo>
     <scopeInfo nodeId="4422427343208739579" fileName="AmbiguityLayout_Test.java" startLine="48" startPosition="65" endLine="51" endPosition="106">
       <varInfo nodeId="4422427343208739589" varName="r1" />
       <varInfo nodeId="4422427343208739602" varName="r2" />
@@ -602,16 +628,20 @@
     <scopeInfo nodeId="4422427343208739739" fileName="AmbiguityLayout_Test.java" startLine="56" startPosition="110" endLine="59" endPosition="9">
       <varInfo nodeId="4422427343208739742" varName="p" />
     </scopeInfo>
-    <scopeInfo nodeId="4422427343208739576" fileName="AmbiguityLayout_Test.java" startLine="47" startPosition="97" endLine="52" endPosition="7" />
+    <scopeInfo nodeId="4422427343208739576" fileName="AmbiguityLayout_Test.java" startLine="47" startPosition="97" endLine="52" endPosition="7">
+      <varInfo nodeId="4422427343208739576" varName="node" />
+    </scopeInfo>
     <scopeInfo nodeId="4422427343208740796" fileName="AmbiguityLayout_Test.java" startLine="23" startPosition="52" endLine="29" endPosition="0" />
     <scopeInfo nodeId="4422427343208830717" fileName="AmbiguityLayout_Test.java" startLine="29" startPosition="0" endLine="35" endPosition="0" />
     <scopeInfo nodeId="4422427343208739685" fileName="AmbiguityLayout_Test.java" startLine="53" startPosition="65" endLine="62" endPosition="106">
-      <varInfo nodeId="4422427343208739708" varName="p2" />
       <varInfo nodeId="4422427343208739694" varName="p1" />
+      <varInfo nodeId="4422427343208739708" varName="p2" />
       <varInfo nodeId="4422427343208740749" varName="r1" />
       <varInfo nodeId="4422427343208740756" varName="r2" />
     </scopeInfo>
-    <scopeInfo nodeId="4422427343208739682" fileName="AmbiguityLayout_Test.java" startLine="52" startPosition="7" endLine="63" endPosition="7" />
+    <scopeInfo nodeId="4422427343208739682" fileName="AmbiguityLayout_Test.java" startLine="52" startPosition="7" endLine="63" endPosition="7">
+      <varInfo nodeId="4422427343208739682" varName="edge" />
+    </scopeInfo>
     <scopeInfo nodeId="4422427343208739539" fileName="AmbiguityLayout_Test.java" startLine="46" startPosition="53" endLine="63" endPosition="7">
       <varInfo nodeId="4422427343208739559" varName="newLayout" />
     </scopeInfo>
@@ -619,8 +649,8 @@
       <varInfo nodeId="4422427343208739541" varName="testNum" />
     </scopeInfo>
     <scopeInfo nodeId="4422427343208739423" fileName="AmbiguityLayout_Test.java" startLine="36" startPosition="33" endLine="64" endPosition="5">
-      <varInfo nodeId="4422427343208739435" varName="layout" />
       <varInfo nodeId="4422427343208739470" varName="edgeSizes" />
+      <varInfo nodeId="4422427343208739435" varName="layout" />
       <varInfo nodeId="4422427343208739461" varName="nodeSizes" />
     </scopeInfo>
     <scopeInfo nodeId="4422427343208739420" fileName="AmbiguityLayout_Test.java" startLine="35" startPosition="0" endLine="66" endPosition="0">
@@ -644,15 +674,19 @@
     <scopeInfo nodeId="4422427343208776795" fileName="RectOrthogonalLayouter_Test.java" startLine="29" startPosition="63" endLine="30" endPosition="68" />
     <scopeInfo nodeId="4422427343208776810" fileName="RectOrthogonalLayouter_Test.java" startLine="32" startPosition="63" endLine="33" endPosition="68" />
     <scopeInfo nodeId="4422427343208776833" fileName="RectOrthogonalLayouter_Test.java" startLine="20" startPosition="45" endLine="23" endPosition="16">
-      <varInfo nodeId="4422427343208776835" varName="graphString" />
       <varInfo nodeId="4422427343208776901" varName="graph" />
+      <varInfo nodeId="4422427343208776835" varName="graphString" />
     </scopeInfo>
-    <scopeInfo nodeId="4422427343208776790" fileName="RectOrthogonalLayouter_Test.java" startLine="28" startPosition="89" endLine="31" endPosition="5" />
-    <scopeInfo nodeId="4422427343208776805" fileName="RectOrthogonalLayouter_Test.java" startLine="31" startPosition="5" endLine="34" endPosition="5" />
+    <scopeInfo nodeId="4422427343208776790" fileName="RectOrthogonalLayouter_Test.java" startLine="28" startPosition="89" endLine="31" endPosition="5">
+      <varInfo nodeId="4422427343208776790" varName="node" />
+    </scopeInfo>
+    <scopeInfo nodeId="4422427343208776805" fileName="RectOrthogonalLayouter_Test.java" startLine="31" startPosition="5" endLine="34" endPosition="5">
+      <varInfo nodeId="4422427343208776805" varName="edge" />
+    </scopeInfo>
     <scopeInfo nodeId="4422427343208776830" fileName="RectOrthogonalLayouter_Test.java" startLine="19" startPosition="59" endLine="25" endPosition="0" />
     <scopeInfo nodeId="4422427343208776763" fileName="RectOrthogonalLayouter_Test.java" startLine="26" startPosition="33" endLine="35" endPosition="92">
-      <varInfo nodeId="4422427343208776821" varName="layout" />
       <varInfo nodeId="4422427343208776782" varName="edgeSizes" />
+      <varInfo nodeId="4422427343208776821" varName="layout" />
       <varInfo nodeId="4422427343208776773" varName="nodeSizes" />
     </scopeInfo>
     <scopeInfo nodeId="4422427343208776760" fileName="RectOrthogonalLayouter_Test.java" startLine="25" startPosition="0" endLine="37" endPosition="0">
@@ -666,8 +700,8 @@
     <nodeInfo nodeId="508819492464323628" fileName="OrthogonalFromVisibility_Test.java" startLine="15" startPosition="62" endLine="16" endPosition="77" conceptFqName="jetbrains.mps.baseLanguage.structure.LocalVariableDeclarationStatement" />
     <nodeInfo nodeId="508819492464323624" fileName="OrthogonalFromVisibility_Test.java" startLine="12" startPosition="61" endLine="18" endPosition="0" conceptFqName="jetbrains.mps.baseLanguage.structure.InstanceMethodDeclaration" propertyString="test_BookGraph#()V" />
     <scopeInfo nodeId="508819492464323627" fileName="OrthogonalFromVisibility_Test.java" startLine="13" startPosition="49" endLine="16" endPosition="77">
-      <varInfo nodeId="508819492464323639" varName="graphString" />
       <varInfo nodeId="508819492464323643" varName="graph" />
+      <varInfo nodeId="508819492464323639" varName="graphString" />
       <varInfo nodeId="508819492464323629" varName="layout" />
     </scopeInfo>
     <scopeInfo nodeId="508819492464323624" fileName="OrthogonalFromVisibility_Test.java" startLine="12" startPosition="61" endLine="18" endPosition="0" />
@@ -698,12 +732,16 @@
     <scopeInfo nodeId="1265453300920882198" fileName="OrthogonalLayoutChecker.java" startLine="20" startPosition="0" endLine="25" endPosition="0">
       <varInfo nodeId="1265453300920882202" varName="layout" />
     </scopeInfo>
-    <scopeInfo nodeId="1265453300920883323" fileName="OrthogonalLayoutChecker.java" startLine="30" startPosition="24" endLine="36" endPosition="7" />
+    <scopeInfo nodeId="1265453300920883323" fileName="OrthogonalLayoutChecker.java" startLine="30" startPosition="24" endLine="36" endPosition="7">
+      <varInfo nodeId="1265453300920883323" varName="point" />
+    </scopeInfo>
     <scopeInfo nodeId="1265453300920883287" fileName="OrthogonalLayoutChecker.java" startLine="28" startPosition="63" endLine="36" endPosition="7">
       <varInfo nodeId="1265453300920883295" varName="edgeLayout" />
       <varInfo nodeId="1265453300920883318" varName="prev" />
     </scopeInfo>
-    <scopeInfo nodeId="1265453300920883284" fileName="OrthogonalLayoutChecker.java" startLine="27" startPosition="46" endLine="37" endPosition="5" />
+    <scopeInfo nodeId="1265453300920883284" fileName="OrthogonalLayoutChecker.java" startLine="27" startPosition="46" endLine="37" endPosition="5">
+      <varInfo nodeId="1265453300920883284" varName="edge" />
+    </scopeInfo>
     <scopeInfo nodeId="1265453300920883266" fileName="OrthogonalLayoutChecker.java" startLine="26" startPosition="63" endLine="37" endPosition="5">
       <varInfo nodeId="1265453300920883274" varName="graph" />
     </scopeInfo>
@@ -750,21 +788,21 @@
       <varInfo nodeId="5728232039832717055" varName="iter" />
     </scopeInfo>
     <scopeInfo nodeId="5728232039832717165" fileName="ConstraintsGraphStressTest.java" startLine="45" startPosition="62" endLine="55" endPosition="31">
-      <varInfo nodeId="5728232039832723402" varName="directions" />
-      <varInfo nodeId="5728232039832723358" varName="quasiModifier" />
       <varInfo nodeId="5728232039832717156" varName="angles" />
       <varInfo nodeId="5728232039832717155" varName="bends" />
+      <varInfo nodeId="5728232039832723402" varName="directions" />
       <varInfo nodeId="5728232039832717154" varName="embeddedGraph" />
       <varInfo nodeId="5728232039832717158" varName="processor" />
+      <varInfo nodeId="5728232039832723358" varName="quasiModifier" />
     </scopeInfo>
     <scopeInfo nodeId="5728232039832717161" fileName="ConstraintsGraphStressTest.java" startLine="44" startPosition="0" endLine="57" endPosition="0">
       <varInfo nodeId="5728232039832717160" varName="graph" />
     </scopeInfo>
     <scopeInfo nodeId="5728232039832716956" fileName="ConstraintsGraphStressTest.java" startLine="27" startPosition="59" endLine="42" endPosition="31">
-      <varInfo nodeId="5728232039832716978" varName="numEdges" />
-      <varInfo nodeId="5728232039832716971" varName="numNodes" />
       <varInfo nodeId="5728232039832716962" varName="fileName" />
+      <varInfo nodeId="5728232039832716978" varName="numEdges" />
       <varInfo nodeId="5728232039832716985" varName="numIter" />
+      <varInfo nodeId="5728232039832716971" varName="numNodes" />
     </scopeInfo>
     <scopeInfo nodeId="5728232039832716953" fileName="ConstraintsGraphStressTest.java" startLine="26" startPosition="0" endLine="44" endPosition="0">
       <varInfo nodeId="5728232039832716957" varName="args" />
@@ -798,29 +836,29 @@
     <nodeInfo nodeId="508819492464319469" fileName="VisibilityRepresentation_Test.java" startLine="30" startPosition="0" endLine="41" endPosition="0" conceptFqName="jetbrains.mps.baseLanguage.structure.InstanceMethodDeclaration" propertyString="test_BookGraph#()V" />
     <nodeInfo nodeId="3619822174190284693" fileName="VisibilityRepresentation_Test.java" startLine="41" startPosition="0" endLine="52" endPosition="0" conceptFqName="jetbrains.mps.baseLanguage.structure.InstanceMethodDeclaration" propertyString="test_K5#()V" />
     <scopeInfo nodeId="6984255766319282479" fileName="VisibilityRepresentation_Test.java" startLine="22" startPosition="45" endLine="28" endPosition="108">
-      <varInfo nodeId="3619822174190268964" varName="graphString" />
-      <varInfo nodeId="508819492464319402" varName="graph" />
-      <varInfo nodeId="508819492464319422" varName="visibility" />
-      <varInfo nodeId="508819492464319408" varName="stPlanarGraph" />
       <varInfo nodeId="508819492464319395" varName="embeddedGraph" />
+      <varInfo nodeId="508819492464319402" varName="graph" />
+      <varInfo nodeId="3619822174190268964" varName="graphString" />
+      <varInfo nodeId="508819492464319408" varName="stPlanarGraph" />
+      <varInfo nodeId="508819492464319422" varName="visibility" />
     </scopeInfo>
     <scopeInfo nodeId="508819492464319472" fileName="VisibilityRepresentation_Test.java" startLine="31" startPosition="49" endLine="39" endPosition="108">
-      <varInfo nodeId="508819492464319475" varName="graphString" />
-      <varInfo nodeId="508819492464323371" varName="t" />
-      <varInfo nodeId="508819492464319488" varName="graph" />
-      <varInfo nodeId="508819492464323346" varName="s" />
-      <varInfo nodeId="508819492464323391" varName="visibility" />
-      <varInfo nodeId="508819492464319499" varName="stPlanarGraph" />
       <varInfo nodeId="508819492464319521" varName="embeddedGraph" />
+      <varInfo nodeId="508819492464319488" varName="graph" />
+      <varInfo nodeId="508819492464319475" varName="graphString" />
+      <varInfo nodeId="508819492464323346" varName="s" />
+      <varInfo nodeId="508819492464319499" varName="stPlanarGraph" />
+      <varInfo nodeId="508819492464323371" varName="t" />
+      <varInfo nodeId="508819492464323391" varName="visibility" />
     </scopeInfo>
     <scopeInfo nodeId="3619822174190284696" fileName="VisibilityRepresentation_Test.java" startLine="42" startPosition="42" endLine="50" endPosition="108">
-      <varInfo nodeId="3619822174190284698" varName="graphString" />
-      <varInfo nodeId="3619822174190285005" varName="t" />
-      <varInfo nodeId="3619822174190284813" varName="graph" />
-      <varInfo nodeId="3619822174190284993" varName="s" />
-      <varInfo nodeId="3619822174190284769" varName="visibility" />
-      <varInfo nodeId="3619822174190284755" varName="stPlanarGraph" />
       <varInfo nodeId="3619822174190284826" varName="embeddedGraph" />
+      <varInfo nodeId="3619822174190284813" varName="graph" />
+      <varInfo nodeId="3619822174190284698" varName="graphString" />
+      <varInfo nodeId="3619822174190284993" varName="s" />
+      <varInfo nodeId="3619822174190284755" varName="stPlanarGraph" />
+      <varInfo nodeId="3619822174190285005" varName="t" />
+      <varInfo nodeId="3619822174190284769" varName="visibility" />
     </scopeInfo>
     <scopeInfo nodeId="6984255766319282476" fileName="VisibilityRepresentation_Test.java" startLine="21" startPosition="61" endLine="30" endPosition="0" />
     <scopeInfo nodeId="508819492464319469" fileName="VisibilityRepresentation_Test.java" startLine="30" startPosition="0" endLine="41" endPosition="0" />
@@ -853,11 +891,15 @@
     <scopeInfo nodeId="7371029937982882877" fileName="RectOrthogonalLayouterStressTest.java" startLine="35" startPosition="65" endLine="36" endPosition="72" />
     <scopeInfo nodeId="7371029937982882925" fileName="RectOrthogonalLayouterStressTest.java" startLine="39" startPosition="65" endLine="40" endPosition="72" />
     <scopeInfo nodeId="7371029937982882762" fileName="RectOrthogonalLayouterStressTest.java" startLine="18" startPosition="47" endLine="20" endPosition="3" />
-    <scopeInfo nodeId="7371029937982882874" fileName="RectOrthogonalLayouterStressTest.java" startLine="34" startPosition="91" endLine="37" endPosition="7" />
-    <scopeInfo nodeId="7371029937982882920" fileName="RectOrthogonalLayouterStressTest.java" startLine="38" startPosition="91" endLine="41" endPosition="7" />
+    <scopeInfo nodeId="7371029937982882874" fileName="RectOrthogonalLayouterStressTest.java" startLine="34" startPosition="91" endLine="37" endPosition="7">
+      <varInfo nodeId="7371029937982882874" varName="node" />
+    </scopeInfo>
+    <scopeInfo nodeId="7371029937982882920" fileName="RectOrthogonalLayouterStressTest.java" startLine="38" startPosition="91" endLine="41" endPosition="7">
+      <varInfo nodeId="7371029937982882920" varName="edge" />
+    </scopeInfo>
     <scopeInfo nodeId="7371029937982882797" fileName="RectOrthogonalLayouterStressTest.java" startLine="28" startPosition="48" endLine="42" endPosition="53">
-      <varInfo nodeId="7371029937982882799" varName="graph" />
       <varInfo nodeId="7371029937982882912" varName="edgeSizes" />
+      <varInfo nodeId="7371029937982882799" varName="graph" />
       <varInfo nodeId="7371029937982882862" varName="nodeSizes" />
       <varInfo nodeId="7371029937982882805" varName="out" />
     </scopeInfo>
@@ -865,11 +907,11 @@
       <varInfo nodeId="7371029937982882818" varName="iter" />
     </scopeInfo>
     <scopeInfo nodeId="7371029937982882769" fileName="RectOrthogonalLayouterStressTest.java" startLine="22" startPosition="59" endLine="44" endPosition="31">
-      <varInfo nodeId="7371029937982882782" varName="numEdges" />
-      <varInfo nodeId="7371029937982882775" varName="numNodes" />
       <varInfo nodeId="7371029937982882771" varName="fileName" />
       <varInfo nodeId="7371029937982882844" varName="layouter" />
+      <varInfo nodeId="7371029937982882782" varName="numEdges" />
       <varInfo nodeId="7371029937982882789" varName="numIter" />
+      <varInfo nodeId="7371029937982882775" varName="numNodes" />
     </scopeInfo>
     <scopeInfo nodeId="7371029937982882766" fileName="RectOrthogonalLayouterStressTest.java" startLine="21" startPosition="0" endLine="46" endPosition="0">
       <varInfo nodeId="7371029937982882826" varName="args" />
@@ -916,35 +958,41 @@
     <scopeInfo nodeId="4655725461921804613" fileName="EmbeddedGraphModifier_Test.java" startLine="46" startPosition="52" endLine="47" endPosition="91" />
     <scopeInfo nodeId="5750894051601401327" fileName="EmbeddedGraphModifier_Test.java" startLine="71" startPosition="54" endLine="72" endPosition="81" />
     <scopeInfo nodeId="7428187320254617039" fileName="EmbeddedGraphModifier_Test.java" startLine="31" startPosition="45" endLine="34" endPosition="16">
-      <varInfo nodeId="7428187320254617041" varName="graphString" />
       <varInfo nodeId="7428187320254617049" varName="graph" />
+      <varInfo nodeId="7428187320254617041" varName="graphString" />
     </scopeInfo>
     <scopeInfo nodeId="4655725461921807323" fileName="EmbeddedGraphModifier_Test.java" startLine="37" startPosition="45" endLine="40" endPosition="16">
-      <varInfo nodeId="4655725461921807325" varName="graphString" />
       <varInfo nodeId="4655725461921807332" varName="graph" />
+      <varInfo nodeId="4655725461921807325" varName="graphString" />
     </scopeInfo>
-    <scopeInfo nodeId="4655725461921804610" fileName="EmbeddedGraphModifier_Test.java" startLine="45" startPosition="86" endLine="48" endPosition="5" />
-    <scopeInfo nodeId="5750894051601401324" fileName="EmbeddedGraphModifier_Test.java" startLine="70" startPosition="73" endLine="73" endPosition="7" />
+    <scopeInfo nodeId="4655725461921804610" fileName="EmbeddedGraphModifier_Test.java" startLine="45" startPosition="86" endLine="48" endPosition="5">
+      <varInfo nodeId="4655725461921804610" varName="node" />
+    </scopeInfo>
+    <scopeInfo nodeId="5750894051601401324" fileName="EmbeddedGraphModifier_Test.java" startLine="70" startPosition="73" endLine="73" endPosition="7">
+      <varInfo nodeId="5750894051601401324" varName="dart" />
+    </scopeInfo>
     <scopeInfo nodeId="5750894051601401249" fileName="EmbeddedGraphModifier_Test.java" startLine="68" startPosition="63" endLine="73" endPosition="7">
       <varInfo nodeId="5750894051601401282" varName="darts" />
     </scopeInfo>
     <scopeInfo nodeId="7428187320254617036" fileName="EmbeddedGraphModifier_Test.java" startLine="30" startPosition="58" endLine="36" endPosition="0" />
     <scopeInfo nodeId="4655725461921807320" fileName="EmbeddedGraphModifier_Test.java" startLine="36" startPosition="0" endLine="42" endPosition="0" />
-    <scopeInfo nodeId="5750894051601401246" fileName="EmbeddedGraphModifier_Test.java" startLine="67" startPosition="73" endLine="74" endPosition="5" />
+    <scopeInfo nodeId="5750894051601401246" fileName="EmbeddedGraphModifier_Test.java" startLine="67" startPosition="73" endLine="74" endPosition="5">
+      <varInfo nodeId="5750894051601401246" varName="edge" />
+    </scopeInfo>
     <scopeInfo nodeId="7428187320254612441" fileName="EmbeddedGraphModifier_Test.java" startLine="61" startPosition="33" endLine="75" endPosition="158">
       <varInfo nodeId="5750894051601401260" varName="dartDirections" />
+      <varInfo nodeId="4655725461921804742" varName="embeddedGraph" />
       <varInfo nodeId="4655725461921804733" varName="modifier" />
       <varInfo nodeId="4655725461921804705" varName="nodeMap" />
-      <varInfo nodeId="4655725461921804742" varName="embeddedGraph" />
     </scopeInfo>
     <scopeInfo nodeId="4655725461921804573" fileName="EmbeddedGraphModifier_Test.java" startLine="43" startPosition="84" endLine="58" endPosition="20">
-      <varInfo nodeId="4655725461921804676" varName="directions" />
       <varInfo nodeId="4655725461921804657" varName="angles" />
-      <varInfo nodeId="4655725461921804633" varName="modifier" />
-      <varInfo nodeId="4655725461921831492" varName="edges" />
-      <varInfo nodeId="4655725461921804586" varName="nodes" />
       <varInfo nodeId="4655725461921804648" varName="bends" />
+      <varInfo nodeId="4655725461921804676" varName="directions" />
+      <varInfo nodeId="4655725461921831492" varName="edges" />
       <varInfo nodeId="4655725461921804623" varName="embeddedGraph" />
+      <varInfo nodeId="4655725461921804633" varName="modifier" />
+      <varInfo nodeId="4655725461921804586" varName="nodes" />
     </scopeInfo>
     <scopeInfo nodeId="7428187320254612438" fileName="EmbeddedGraphModifier_Test.java" startLine="60" startPosition="0" endLine="77" endPosition="0">
       <varInfo nodeId="7428187320254616830" varName="graph" />
@@ -1015,31 +1063,35 @@
     <scopeInfo nodeId="3403946177685386700" fileName="ConstraintsGraph_Test.java" startLine="42" startPosition="57" endLine="44" endPosition="28">
       <varInfo nodeId="3403946177685386703" varName="graph" />
     </scopeInfo>
-    <scopeInfo nodeId="3403946177685440140" fileName="ConstraintsGraph_Test.java" startLine="59" startPosition="89" endLine="62" endPosition="5" />
-    <scopeInfo nodeId="3403946177685462622" fileName="ConstraintsGraph_Test.java" startLine="78" startPosition="89" endLine="81" endPosition="5" />
+    <scopeInfo nodeId="3403946177685440140" fileName="ConstraintsGraph_Test.java" startLine="59" startPosition="89" endLine="62" endPosition="5">
+      <varInfo nodeId="3403946177685440140" varName="node" />
+    </scopeInfo>
+    <scopeInfo nodeId="3403946177685462622" fileName="ConstraintsGraph_Test.java" startLine="78" startPosition="89" endLine="81" endPosition="5">
+      <varInfo nodeId="3403946177685462622" varName="node" />
+    </scopeInfo>
     <scopeInfo nodeId="7861048744530908425" fileName="ConstraintsGraph_Test.java" startLine="26" startPosition="53" endLine="31" endPosition="0" />
     <scopeInfo nodeId="5728232039832668437" fileName="ConstraintsGraph_Test.java" startLine="31" startPosition="0" endLine="36" endPosition="0" />
     <scopeInfo nodeId="5728232039832729386" fileName="ConstraintsGraph_Test.java" startLine="36" startPosition="0" endLine="41" endPosition="0" />
     <scopeInfo nodeId="3403946177685386697" fileName="ConstraintsGraph_Test.java" startLine="41" startPosition="0" endLine="46" endPosition="0" />
     <scopeInfo nodeId="3403946177685386605" fileName="ConstraintsGraph_Test.java" startLine="47" startPosition="45" endLine="63" endPosition="52">
-      <varInfo nodeId="3403946177685386670" varName="directions" />
-      <varInfo nodeId="3403946177685386646" varName="quasiModifier" />
       <varInfo nodeId="3403946177685386632" varName="angles" />
-      <varInfo nodeId="3403946177685413005" varName="nodes" />
       <varInfo nodeId="3403946177685386623" varName="bends" />
+      <varInfo nodeId="3403946177685386670" varName="directions" />
       <varInfo nodeId="3403946177685386613" varName="embeddedGraph" />
-      <varInfo nodeId="3403946177685386678" varName="processor" />
       <varInfo nodeId="3403946177685440128" varName="nodeSizes" />
+      <varInfo nodeId="3403946177685413005" varName="nodes" />
+      <varInfo nodeId="3403946177685386678" varName="processor" />
+      <varInfo nodeId="3403946177685386646" varName="quasiModifier" />
     </scopeInfo>
     <scopeInfo nodeId="7861048744530895419" fileName="ConstraintsGraph_Test.java" startLine="66" startPosition="33" endLine="83" endPosition="31">
-      <varInfo nodeId="5274739094344230394" varName="directions" />
-      <varInfo nodeId="5274739094344230377" varName="quasiModifier" />
       <varInfo nodeId="5274739094344230363" varName="angles" />
-      <varInfo nodeId="3403946177685462600" varName="nodes" />
       <varInfo nodeId="5274739094344230354" varName="bends" />
+      <varInfo nodeId="5274739094344230394" varName="directions" />
       <varInfo nodeId="5274739094344230344" varName="embeddedGraph" />
-      <varInfo nodeId="5274739094344230402" varName="processor" />
       <varInfo nodeId="3403946177685462614" varName="nodeSizes" />
+      <varInfo nodeId="3403946177685462600" varName="nodes" />
+      <varInfo nodeId="5274739094344230402" varName="processor" />
+      <varInfo nodeId="5274739094344230377" varName="quasiModifier" />
     </scopeInfo>
     <scopeInfo nodeId="3403946177685386602" fileName="ConstraintsGraph_Test.java" startLine="46" startPosition="0" endLine="65" endPosition="0">
       <varInfo nodeId="3403946177685386606" varName="graph" />
@@ -1075,19 +1127,19 @@
     <scopeInfo nodeId="7953585273260012259" fileName="QuasiOrthogonalRepresentationStressTest.java" startLine="20" startPosition="54" endLine="22" endPosition="3" />
     <scopeInfo nodeId="7953585273260012298" fileName="QuasiOrthogonalRepresentationStressTest.java" startLine="29" startPosition="48" endLine="42" endPosition="93">
       <varInfo nodeId="2173844983035667825" varName="angles" />
-      <varInfo nodeId="7953585273260012307" varName="graph" />
       <varInfo nodeId="2173844983035667816" varName="bends" />
       <varInfo nodeId="7953585273260013027" varName="embeddedGraph" />
+      <varInfo nodeId="7953585273260012307" varName="graph" />
       <varInfo nodeId="7953585273260012996" varName="out" />
     </scopeInfo>
     <scopeInfo nodeId="7953585273260012297" fileName="QuasiOrthogonalRepresentationStressTest.java" startLine="28" startPosition="44" endLine="43" endPosition="5">
       <varInfo nodeId="7953585273260012374" varName="iter" />
     </scopeInfo>
     <scopeInfo nodeId="7953585273260012266" fileName="QuasiOrthogonalRepresentationStressTest.java" startLine="24" startPosition="59" endLine="44" endPosition="31">
-      <varInfo nodeId="7953585273260012284" varName="numEdges" />
-      <varInfo nodeId="7953585273260012277" varName="numNodes" />
       <varInfo nodeId="7953585273260012268" varName="fileName" />
+      <varInfo nodeId="7953585273260012284" varName="numEdges" />
       <varInfo nodeId="7953585273260012291" varName="numIter" />
+      <varInfo nodeId="7953585273260012277" varName="numNodes" />
     </scopeInfo>
     <scopeInfo nodeId="7953585273260012263" fileName="QuasiOrthogonalRepresentationStressTest.java" startLine="23" startPosition="0" endLine="46" endPosition="0">
       <varInfo nodeId="7953585273260012387" varName="args" />
@@ -1137,26 +1189,26 @@
     </scopeInfo>
     <scopeInfo nodeId="1795464432008739193" fileName="OrthogonalFlowLayouterStressTest.java" startLine="51" startPosition="29" endLine="53" endPosition="22" />
     <scopeInfo nodeId="8527875266531958671" fileName="OrthogonalFlowLayouterStressTest.java" startLine="34" startPosition="61" endLine="56" endPosition="95">
-      <varInfo nodeId="194249616896374607" varName="time" />
+      <varInfo nodeId="194249616896374576" varName="edgeSizes" />
       <varInfo nodeId="8527875266531958684" varName="graph" />
       <varInfo nodeId="1795464432008742878" varName="layout" />
-      <varInfo nodeId="194249616896374576" varName="edgeSizes" />
       <varInfo nodeId="194249616896441095" varName="layoutInfo" />
       <varInfo nodeId="194249616896374552" varName="nodeSizes" />
-      <varInfo nodeId="8527875266531960550" varName="passedTime" />
       <varInfo nodeId="8527875266531958690" varName="out" />
+      <varInfo nodeId="8527875266531960550" varName="passedTime" />
+      <varInfo nodeId="194249616896374607" varName="time" />
     </scopeInfo>
     <scopeInfo nodeId="8527875266531958670" fileName="OrthogonalFlowLayouterStressTest.java" startLine="33" startPosition="27" endLine="57" endPosition="5">
       <varInfo nodeId="8527875266531958762" varName="iter" />
     </scopeInfo>
     <scopeInfo nodeId="8527875266531958639" fileName="OrthogonalFlowLayouterStressTest.java" startLine="23" startPosition="59" endLine="58" endPosition="31">
-      <varInfo nodeId="8527875266531958657" varName="numEdges" />
       <varInfo nodeId="1795464432008744846" varName="failed" />
-      <varInfo nodeId="8527875266531958650" varName="numNodes" />
       <varInfo nodeId="8527875266531958641" varName="fileName" />
       <varInfo nodeId="194249616896349072" varName="generator" />
       <varInfo nodeId="8527875266531958645" varName="layouter" />
+      <varInfo nodeId="8527875266531958657" varName="numEdges" />
       <varInfo nodeId="8527875266531958664" varName="numIter" />
+      <varInfo nodeId="8527875266531958650" varName="numNodes" />
     </scopeInfo>
     <scopeInfo nodeId="8527875266531958637" fileName="OrthogonalFlowLayouterStressTest.java" startLine="22" startPosition="0" endLine="60" endPosition="0">
       <varInfo nodeId="8527875266531958776" varName="args" />
@@ -1197,32 +1249,32 @@
     <nodeInfo nodeId="5488345258545812167" fileName="OrthogonalPointFlowLayouter_Test.java" startLine="48" startPosition="0" endLine="54" endPosition="0" conceptFqName="jetbrains.mps.baseLanguage.structure.InstanceMethodDeclaration" propertyString="test_test7#()V" />
     <nodeInfo nodeId="8734440518942960382" fileName="OrthogonalPointFlowLayouter_Test.java" startLine="54" startPosition="0" endLine="60" endPosition="0" conceptFqName="jetbrains.mps.baseLanguage.structure.InstanceMethodDeclaration" propertyString="test#(Ljetbrains/mps/graphLayout/graph/Graph;)V" />
     <scopeInfo nodeId="8734440518942962342" fileName="OrthogonalPointFlowLayouter_Test.java" startLine="13" startPosition="45" endLine="16" endPosition="16">
-      <varInfo nodeId="8734440518942962344" varName="graphString" />
       <varInfo nodeId="8734440518942962353" varName="graph" />
+      <varInfo nodeId="8734440518942962344" varName="graphString" />
     </scopeInfo>
     <scopeInfo nodeId="8568898107892568208" fileName="OrthogonalPointFlowLayouter_Test.java" startLine="19" startPosition="45" endLine="22" endPosition="16">
-      <varInfo nodeId="8568898107892568210" varName="graphString" />
       <varInfo nodeId="8568898107892569271" varName="graph" />
+      <varInfo nodeId="8568898107892568210" varName="graphString" />
     </scopeInfo>
     <scopeInfo nodeId="8568898107892570484" fileName="OrthogonalPointFlowLayouter_Test.java" startLine="25" startPosition="45" endLine="28" endPosition="16">
-      <varInfo nodeId="8568898107892570486" varName="graphString" />
       <varInfo nodeId="8568898107892570490" varName="graph" />
+      <varInfo nodeId="8568898107892570486" varName="graphString" />
     </scopeInfo>
     <scopeInfo nodeId="8568898107892570966" fileName="OrthogonalPointFlowLayouter_Test.java" startLine="31" startPosition="45" endLine="34" endPosition="16">
-      <varInfo nodeId="8568898107892570970" varName="graphString" />
       <varInfo nodeId="8568898107892570974" varName="graph" />
+      <varInfo nodeId="8568898107892570970" varName="graphString" />
     </scopeInfo>
     <scopeInfo nodeId="4422427343208667180" fileName="OrthogonalPointFlowLayouter_Test.java" startLine="37" startPosition="45" endLine="40" endPosition="16">
-      <varInfo nodeId="4422427343208667182" varName="graphString" />
       <varInfo nodeId="4422427343208667186" varName="graph" />
+      <varInfo nodeId="4422427343208667182" varName="graphString" />
     </scopeInfo>
     <scopeInfo nodeId="5488345258545721709" fileName="OrthogonalPointFlowLayouter_Test.java" startLine="43" startPosition="45" endLine="46" endPosition="16">
-      <varInfo nodeId="5488345258545721711" varName="graphString" />
       <varInfo nodeId="5488345258545721715" varName="graph" />
+      <varInfo nodeId="5488345258545721711" varName="graphString" />
     </scopeInfo>
     <scopeInfo nodeId="5488345258545812170" fileName="OrthogonalPointFlowLayouter_Test.java" startLine="49" startPosition="45" endLine="52" endPosition="16">
-      <varInfo nodeId="5488345258545812172" varName="graphString" />
       <varInfo nodeId="5488345258545812176" varName="graph" />
+      <varInfo nodeId="5488345258545812172" varName="graphString" />
     </scopeInfo>
     <scopeInfo nodeId="8734440518942960385" fileName="OrthogonalPointFlowLayouter_Test.java" startLine="55" startPosition="33" endLine="58" endPosition="48">
       <varInfo nodeId="8568898107892568216" varName="layout" />
@@ -1270,25 +1322,27 @@
     <scopeInfo nodeId="315882939481520441" fileName="OrthogonalPointFlowLayouterStressTest.java" startLine="44" startPosition="14" endLine="45" endPosition="56" />
     <scopeInfo nodeId="8734440518943050542" fileName="OrthogonalPointFlowLayouterStressTest.java" startLine="18" startPosition="52" endLine="20" endPosition="3" />
     <scopeInfo nodeId="315882939481520396" fileName="OrthogonalPointFlowLayouterStressTest.java" startLine="33" startPosition="65" endLine="36" endPosition="9" />
-    <scopeInfo nodeId="315882939481520393" fileName="OrthogonalPointFlowLayouterStressTest.java" startLine="32" startPosition="36" endLine="37" endPosition="7" />
+    <scopeInfo nodeId="315882939481520393" fileName="OrthogonalPointFlowLayouterStressTest.java" startLine="32" startPosition="36" endLine="37" endPosition="7">
+      <varInfo nodeId="315882939481520393" varName="node" />
+    </scopeInfo>
     <scopeInfo nodeId="315882939481520438" fileName="OrthogonalPointFlowLayouterStressTest.java" startLine="38" startPosition="27" endLine="43" endPosition="52">
       <varInfo nodeId="8734440518943050683" varName="layout" />
       <varInfo nodeId="8734440518943050596" varName="out" />
     </scopeInfo>
     <scopeInfo nodeId="8734440518943050581" fileName="OrthogonalPointFlowLayouterStressTest.java" startLine="28" startPosition="48" endLine="46" endPosition="7">
-      <varInfo nodeId="8734440518943050590" varName="graph" />
       <varInfo nodeId="315882939481520375" varName="components" />
+      <varInfo nodeId="8734440518943050590" varName="graph" />
       <varInfo nodeId="315882939481520388" varName="isOneComponent" />
     </scopeInfo>
     <scopeInfo nodeId="8734440518943050580" fileName="OrthogonalPointFlowLayouterStressTest.java" startLine="27" startPosition="44" endLine="47" endPosition="5">
       <varInfo nodeId="8734440518943050664" varName="iter" />
     </scopeInfo>
     <scopeInfo nodeId="8734440518943050549" fileName="OrthogonalPointFlowLayouterStressTest.java" startLine="22" startPosition="59" endLine="48" endPosition="31">
-      <varInfo nodeId="8734440518943050567" varName="numEdges" />
-      <varInfo nodeId="8734440518943050560" varName="numNodes" />
       <varInfo nodeId="8734440518943050551" varName="fileName" />
       <varInfo nodeId="8734440518943050555" varName="layouter" />
+      <varInfo nodeId="8734440518943050567" varName="numEdges" />
       <varInfo nodeId="8734440518943050574" varName="numIter" />
+      <varInfo nodeId="8734440518943050560" varName="numNodes" />
     </scopeInfo>
     <scopeInfo nodeId="8734440518943050546" fileName="OrthogonalPointFlowLayouterStressTest.java" startLine="21" startPosition="0" endLine="50" endPosition="0">
       <varInfo nodeId="8734440518943050677" varName="args" />
@@ -1328,19 +1382,23 @@
     <scopeInfo nodeId="903391227141105440" fileName="ConstraintsSupporter_Test.java" startLine="29" startPosition="42" endLine="31" endPosition="50">
       <varInfo nodeId="903391227141105442" varName="gString" />
     </scopeInfo>
-    <scopeInfo nodeId="490728924230505870" fileName="ConstraintsSupporter_Test.java" startLine="48" startPosition="5" endLine="51" endPosition="5" />
+    <scopeInfo nodeId="490728924230505870" fileName="ConstraintsSupporter_Test.java" startLine="48" startPosition="5" endLine="51" endPosition="5">
+      <varInfo nodeId="490728924230505870" varName="edge" />
+    </scopeInfo>
     <scopeInfo nodeId="903391227141029776" fileName="ConstraintsSupporter_Test.java" startLine="23" startPosition="57" endLine="28" endPosition="0" />
     <scopeInfo nodeId="903391227141105437" fileName="ConstraintsSupporter_Test.java" startLine="28" startPosition="0" endLine="33" endPosition="0" />
     <scopeInfo nodeId="903391227141028629" fileName="ConstraintsSupporter_Test.java" startLine="42" startPosition="63" endLine="47" endPosition="7" />
-    <scopeInfo nodeId="903391227141028626" fileName="ConstraintsSupporter_Test.java" startLine="41" startPosition="89" endLine="48" endPosition="5" />
+    <scopeInfo nodeId="903391227141028626" fileName="ConstraintsSupporter_Test.java" startLine="41" startPosition="89" endLine="48" endPosition="5">
+      <varInfo nodeId="903391227141028626" varName="node" />
+    </scopeInfo>
     <scopeInfo nodeId="903391227141028143" fileName="ConstraintsSupporter_Test.java" startLine="34" startPosition="33" endLine="53" endPosition="48">
-      <varInfo nodeId="1400338595887571427" varName="sizes" />
-      <varInfo nodeId="903391227141028552" varName="t" />
-      <varInfo nodeId="903391227141028540" varName="s" />
-      <varInfo nodeId="903391227141028564" varName="stPlanarGraph" />
       <varInfo nodeId="490728924230505857" varName="edgeSizes" />
       <varInfo nodeId="903391227141028149" varName="embeddedGraph" />
       <varInfo nodeId="903391227141029549" varName="rep" />
+      <varInfo nodeId="903391227141028540" varName="s" />
+      <varInfo nodeId="1400338595887571427" varName="sizes" />
+      <varInfo nodeId="903391227141028564" varName="stPlanarGraph" />
+      <varInfo nodeId="903391227141028552" varName="t" />
     </scopeInfo>
     <scopeInfo nodeId="903391227141028140" fileName="ConstraintsSupporter_Test.java" startLine="33" startPosition="0" endLine="55" endPosition="0">
       <varInfo nodeId="903391227141028144" varName="graph" />
@@ -1354,11 +1412,13 @@
     <nodeInfo nodeId="903391227141028698" fileName="ConstraintsChecker.java" startLine="14" startPosition="33" endLine="21" endPosition="0" conceptFqName="jetbrains.mps.baseLanguage.structure.StaticMethodDeclaration" propertyString="check#(Ljetbrains/mps/graphLayout/graph/Graph;Ljava/util/Map;Ljava/util/Map;)V" />
     <scopeInfo nodeId="903391227141028725" fileName="ConstraintsChecker.java" startLine="16" startPosition="63" endLine="18" endPosition="125" />
     <scopeInfo nodeId="903391227141028701" fileName="ConstraintsChecker.java" startLine="15" startPosition="108" endLine="19" endPosition="5" />
-    <scopeInfo nodeId="903391227141028722" fileName="ConstraintsChecker.java" startLine="15" startPosition="108" endLine="19" endPosition="5" />
+    <scopeInfo nodeId="903391227141028722" fileName="ConstraintsChecker.java" startLine="15" startPosition="108" endLine="19" endPosition="5">
+      <varInfo nodeId="903391227141028722" varName="node" />
+    </scopeInfo>
     <scopeInfo nodeId="903391227141028698" fileName="ConstraintsChecker.java" startLine="14" startPosition="33" endLine="21" endPosition="0">
-      <varInfo nodeId="1400338595887578959" varName="sizes" />
       <varInfo nodeId="903391227141028727" varName="graph" />
       <varInfo nodeId="903391227141028702" varName="representation" />
+      <varInfo nodeId="1400338595887578959" varName="sizes" />
     </scopeInfo>
     <unitInfo nodeId="903391227141028692" fileName="ConstraintsChecker.java" startLine="14" startPosition="0" endLine="22" endPosition="0" unitName="orthogonalLayoutTest.ConstraintsChecker" />
   </root>
