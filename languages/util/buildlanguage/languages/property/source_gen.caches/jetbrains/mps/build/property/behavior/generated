@@ -1,5 +1,6 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <dependencies version="2" modelHash="4sth2bagj8sl07lvvf6x9xkq67el7hh">
+  <dep model="f:java_stub#37a3367b-1fb2-44d8-aa6b-18075e74e003#jetbrains.mps.lang.smodel.generator.smodelAdapter(MPS.Classpath/jetbrains.mps.lang.smodel.generator.smodelAdapter@java_stub)" />
   <dep model="r:00000000-0000-4000-0000-011c89590282(jetbrains.mps.lang.core.behavior)" hash="-3zlvu2kawzpc04g01rud29fbj73b8te" />
   <dep model="r:00000000-0000-4000-0000-011c89590288(jetbrains.mps.lang.core.structure)" hash="-5p0rdl0tgxw43gzmkd4qcpqszqapgi2" />
   <dep model="r:00000000-0000-4000-0000-011c895902ca(jetbrains.mps.baseLanguage.structure)" hash="cllol0k6uon23imzi3i8ftyndeqrkqk" />
@@ -14,7 +15,6 @@
   <dep model="r:00000000-0000-4000-0000-011c895904e2(jetbrains.mps.build.property.structure)" hash="-c9jn14xx3eznqfw6w68svvps1coym58" />
   <dep model="r:229ce18d-2bb0-4d5b-a7cd-cec65841e459(jetbrains.mps.lang.behavior.generator.template.main@generator)" hash="-1e9yqo6te2kdkgxtnysaj1kp10r43rp" />
   <dep model="r:b4d7d620-6723-4aa2-856b-118497e84e9e(jetbrains.mps.baseLanguage.generator.java.strings@generator)" hash="-7zc5n4l9a9zrjq93znk167hfo3dyd2v" />
-  <dep model="r:c3548bac-30eb-4a2a-937c-0111d5697309(jetbrains.mps.lang.smodel.generator.smodelAdapter)" hash="6fl25k93jf2etakxc8ee7yknru1my5p" />
   <dep model="r:f04c1476-2f91-4f59-be13-c8e009abebee(jetbrains.mps.baseLanguageInternal.generator.template.main@generator)" hash="3ogbc94405e1j8mrhp8fnrksbak1c2a" />
   <common hash="bwnyrplq4g54e62g4mufos52gq8u5l3" dependsOnNodes="true">
     <dep root="1213877341756" />
@@ -37,6 +37,7 @@
     <file name="PropertyNode_BehaviorDescriptor.java" />
   </common>
   <source id="1213877341756" name="PropertyNode_Behavior" hash="32stfwd90u98xoi49umtohci62b3lyi">
+    <dep model="f:java_stub#37a3367b-1fb2-44d8-aa6b-18075e74e003#jetbrains.mps.lang.smodel.generator.smodelAdapter(MPS.Classpath/jetbrains.mps.lang.smodel.generator.smodelAdapter@java_stub)" />
     <dep model="r:00000000-0000-4000-0000-011c89590288(jetbrains.mps.lang.core.structure)" />
     <dep model="r:00000000-0000-4000-0000-011c895902ca(jetbrains.mps.baseLanguage.structure)" />
     <dep model="r:00000000-0000-4000-0000-011c895902cb(jetbrains.mps.baseLanguage.generator.java.closures@generator)" />
@@ -48,7 +49,6 @@
     <dep model="r:00000000-0000-4000-0000-011c895904e2(jetbrains.mps.build.property.structure)" />
     <dep model="r:229ce18d-2bb0-4d5b-a7cd-cec65841e459(jetbrains.mps.lang.behavior.generator.template.main@generator)" />
     <dep model="r:b4d7d620-6723-4aa2-856b-118497e84e9e(jetbrains.mps.baseLanguage.generator.java.strings@generator)" />
-    <dep model="r:c3548bac-30eb-4a2a-937c-0111d5697309(jetbrains.mps.lang.smodel.generator.smodelAdapter)" />
     <dep model="r:f04c1476-2f91-4f59-be13-c8e009abebee(jetbrains.mps.baseLanguageInternal.generator.template.main@generator)" />
     <file name="PropertyNode_Behavior.java" />
   </source>

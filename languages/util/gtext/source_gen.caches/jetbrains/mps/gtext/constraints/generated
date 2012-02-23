@@ -1,5 +1,6 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <dependencies version="2" modelHash="4z1pzap6mqpnkpwq9qlan05topzxplo">
+  <dep model="f:java_stub#37a3367b-1fb2-44d8-aa6b-18075e74e003#jetbrains.mps.lang.smodel.generator.smodelAdapter(MPS.Classpath/jetbrains.mps.lang.smodel.generator.smodelAdapter@java_stub)" />
   <dep model="f:java_stub#6ed54515-acc8-4d1e-a16c-9fd6cfe951ea#jetbrains.mps.smodel(MPS.Core/jetbrains.mps.smodel@java_stub)" />
   <dep model="r:00000000-0000-4000-0000-011c89590288(jetbrains.mps.lang.core.structure)" hash="-5p0rdl0tgxw43gzmkd4qcpqszqapgi2" />
   <dep model="r:00000000-0000-4000-0000-011c895902ca(jetbrains.mps.baseLanguage.structure)" hash="cllol0k6uon23imzi3i8ftyndeqrkqk" />
@@ -15,7 +16,6 @@
   <dep model="r:00000000-0000-4000-0000-011c8959033a(jetbrains.mps.baseLanguage.closures.generator.baseLanguage.template.main@generator)" hash="-emft066258aq93gaz2a92o9hgdjvvc4" />
   <dep model="r:00000000-0000-4000-0000-011c89590575(jetbrains.mps.gtext.structure)" hash="7ag29pyace9ujh9wxjlcow659dput11" />
   <dep model="r:b4d7d620-6723-4aa2-856b-118497e84e9e(jetbrains.mps.baseLanguage.generator.java.strings@generator)" hash="-7zc5n4l9a9zrjq93znk167hfo3dyd2v" />
-  <dep model="r:c3548bac-30eb-4a2a-937c-0111d5697309(jetbrains.mps.lang.smodel.generator.smodelAdapter)" hash="6fl25k93jf2etakxc8ee7yknru1my5p" />
   <dep model="r:f04c1476-2f91-4f59-be13-c8e009abebee(jetbrains.mps.baseLanguageInternal.generator.template.main@generator)" hash="3ogbc94405e1j8mrhp8fnrksbak1c2a" />
   <common hash="cc9e5vpitciqps18z1rcsmb8qfk2hax" dependsOnNodes="true">
     <dep root="1213104844571" />
@@ -33,6 +33,7 @@
     <file name="ConstraintsAspectDescriptor.java" />
   </common>
   <source id="1213104844571" name="GDocument_Constraints" hash="czs1tew1gek7e6qlx18ai14xey21cvn">
+    <dep model="f:java_stub#37a3367b-1fb2-44d8-aa6b-18075e74e003#jetbrains.mps.lang.smodel.generator.smodelAdapter(MPS.Classpath/jetbrains.mps.lang.smodel.generator.smodelAdapter@java_stub)" />
     <dep model="r:00000000-0000-4000-0000-011c89590288(jetbrains.mps.lang.core.structure)" />
     <dep model="r:00000000-0000-4000-0000-011c895902ca(jetbrains.mps.baseLanguage.structure)" />
     <dep model="r:00000000-0000-4000-0000-011c895902cb(jetbrains.mps.baseLanguage.generator.java.closures@generator)" />
@@ -47,7 +48,6 @@
     <dep model="r:00000000-0000-4000-0000-011c8959033a(jetbrains.mps.baseLanguage.closures.generator.baseLanguage.template.main@generator)" />
     <dep model="r:00000000-0000-4000-0000-011c89590575(jetbrains.mps.gtext.structure)" />
     <dep model="r:b4d7d620-6723-4aa2-856b-118497e84e9e(jetbrains.mps.baseLanguage.generator.java.strings@generator)" />
-    <dep model="r:c3548bac-30eb-4a2a-937c-0111d5697309(jetbrains.mps.lang.smodel.generator.smodelAdapter)" />
     <dep model="r:f04c1476-2f91-4f59-be13-c8e009abebee(jetbrains.mps.baseLanguageInternal.generator.template.main@generator)" />
     <file name="GDocument_Constraints.java" />
   </source>
