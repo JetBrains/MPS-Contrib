@@ -4,7 +4,6 @@
   <unitInfo fileName="AllTimeZonesConstant_BehaviorDescriptor.java" startLine="7" startPosition="0" endLine="16" endPosition="0" unitName="jetbrains.mps.baseLanguage.dates.behavior.AllTimeZonesConstant_BehaviorDescriptor" />
   <unitInfo fileName="BehaviorAspectDescriptor.java" startLine="9" startPosition="0" endLine="158" endPosition="0" unitName="jetbrains.mps.baseLanguage.dates.behavior.BehaviorAspectDescriptor" />
   <unitInfo fileName="CeilingDateTimeOperation_BehaviorDescriptor.java" startLine="6" startPosition="0" endLine="15" endPosition="0" unitName="jetbrains.mps.baseLanguage.dates.behavior.CeilingDateTimeOperation_BehaviorDescriptor" />
-  <unitInfo fileName="ConditionalFormatToken_Behavior.java" startLine="9" startPosition="0" endLine="20" endPosition="0" unitName="jetbrains.mps.baseLanguage.dates.behavior.ConditionalFormatToken_Behavior" />
   <unitInfo fileName="ConditionalFormatToken_BehaviorDescriptor.java" startLine="9" startPosition="0" endLine="22" endPosition="0" unitName="jetbrains.mps.baseLanguage.dates.behavior.ConditionalFormatToken_BehaviorDescriptor" />
   <unitInfo fileName="ConstantTimeZoneRef_BehaviorDescriptor.java" startLine="7" startPosition="0" endLine="16" endPosition="0" unitName="jetbrains.mps.baseLanguage.dates.behavior.ConstantTimeZoneRef_BehaviorDescriptor" />
   <unitInfo fileName="ConvertToDateTimeOperation_Behavior.java" startLine="7" startPosition="0" endLine="11" endPosition="0" unitName="jetbrains.mps.baseLanguage.dates.behavior.ConvertToDateTimeOperation_Behavior" />
@@ -15,9 +14,7 @@
   <unitInfo fileName="ConvertToJodaDateTimeOperation_BehaviorDescriptor.java" startLine="6" startPosition="0" endLine="15" endPosition="0" unitName="jetbrains.mps.baseLanguage.dates.behavior.ConvertToJodaDateTimeOperation_BehaviorDescriptor" />
   <unitInfo fileName="DateFormat_Behavior.java" startLine="7" startPosition="0" endLine="11" endPosition="0" unitName="jetbrains.mps.baseLanguage.dates.behavior.DateFormat_Behavior" />
   <unitInfo fileName="DateFormat_BehaviorDescriptor.java" startLine="10" startPosition="0" endLine="23" endPosition="0" unitName="jetbrains.mps.baseLanguage.dates.behavior.DateFormat_BehaviorDescriptor" />
-  <unitInfo fileName="DateFormatsTable_Behavior.java" startLine="9" startPosition="0" endLine="17" endPosition="0" unitName="jetbrains.mps.baseLanguage.dates.behavior.DateFormatsTable_Behavior" />
   <unitInfo fileName="DateFormatsTable_BehaviorDescriptor.java" startLine="10" startPosition="0" endLine="23" endPosition="0" unitName="jetbrains.mps.baseLanguage.dates.behavior.DateFormatsTable_BehaviorDescriptor" />
-  <unitInfo fileName="DateTimeCompareOperation_Behavior.java" startLine="10" startPosition="0" endLine="50" endPosition="0" unitName="jetbrains.mps.baseLanguage.dates.behavior.DateTimeCompareOperation_Behavior" />
   <unitInfo fileName="DateTimeCompareOperation_BehaviorDescriptor.java" startLine="7" startPosition="0" endLine="16" endPosition="0" unitName="jetbrains.mps.baseLanguage.dates.behavior.DateTimeCompareOperation_BehaviorDescriptor" />
   <unitInfo fileName="DateTimeMinusOperation_BehaviorDescriptor.java" startLine="7" startPosition="0" endLine="16" endPosition="0" unitName="jetbrains.mps.baseLanguage.dates.behavior.DateTimeMinusOperation_BehaviorDescriptor" />
   <unitInfo fileName="DateTimeMinusPeriodOperation_BehaviorDescriptor.java" startLine="7" startPosition="0" endLine="16" endPosition="0" unitName="jetbrains.mps.baseLanguage.dates.behavior.DateTimeMinusPeriodOperation_BehaviorDescriptor" />
@@ -33,16 +30,6 @@
   <unitInfo fileName="DateTimeWithTZType_BehaviorDescriptor.java" startLine="7" startPosition="0" endLine="16" endPosition="0" unitName="jetbrains.mps.baseLanguage.dates.behavior.DateTimeWithTZType_BehaviorDescriptor" />
   <unitInfo fileName="DateTimeZoneCreator_BehaviorDescriptor.java" startLine="7" startPosition="0" endLine="16" endPosition="0" unitName="jetbrains.mps.baseLanguage.dates.behavior.DateTimeZoneCreator_BehaviorDescriptor" />
   <unitInfo fileName="DateTimeZoneType_BehaviorDescriptor.java" startLine="7" startPosition="0" endLine="16" endPosition="0" unitName="jetbrains.mps.baseLanguage.dates.behavior.DateTimeZoneType_BehaviorDescriptor" />
-  <unitInfo fileName="DateTypeUtil.java" startLine="24" startPosition="0" endLine="311" endPosition="0" unitName="jetbrains.mps.baseLanguage.dates.behavior.DateTypeUtil" />
-  <unitInfo fileName="DateTypeUtil.java" startLine="155" startPosition="0" endLine="171" endPosition="0" unitName="jetbrains.mps.baseLanguage.dates.behavior.DateTypeUtil$QuotationClass_hzl4bp_a0a" />
-  <unitInfo fileName="DateTypeUtil.java" startLine="172" startPosition="0" endLine="188" endPosition="0" unitName="jetbrains.mps.baseLanguage.dates.behavior.DateTypeUtil$QuotationClass_hzl4bp_a0b" />
-  <unitInfo fileName="DateTypeUtil.java" startLine="189" startPosition="0" endLine="205" endPosition="0" unitName="jetbrains.mps.baseLanguage.dates.behavior.DateTypeUtil$QuotationClass_hzl4bp_a0c" />
-  <unitInfo fileName="DateTypeUtil.java" startLine="206" startPosition="0" endLine="222" endPosition="0" unitName="jetbrains.mps.baseLanguage.dates.behavior.DateTypeUtil$QuotationClass_hzl4bp_a0d" />
-  <unitInfo fileName="DateTypeUtil.java" startLine="223" startPosition="0" endLine="239" endPosition="0" unitName="jetbrains.mps.baseLanguage.dates.behavior.DateTypeUtil$QuotationClass_hzl4bp_a0e" />
-  <unitInfo fileName="DateTypeUtil.java" startLine="240" startPosition="0" endLine="256" endPosition="0" unitName="jetbrains.mps.baseLanguage.dates.behavior.DateTypeUtil$QuotationClass_hzl4bp_a0f" />
-  <unitInfo fileName="DateTypeUtil.java" startLine="257" startPosition="0" endLine="274" endPosition="0" unitName="jetbrains.mps.baseLanguage.dates.behavior.DateTypeUtil$QuotationClass_hzl4bp_a0g" />
-  <unitInfo fileName="DateTypeUtil.java" startLine="275" startPosition="0" endLine="292" endPosition="0" unitName="jetbrains.mps.baseLanguage.dates.behavior.DateTypeUtil$QuotationClass_hzl4bp_a0h" />
-  <unitInfo fileName="DateTypeUtil.java" startLine="293" startPosition="0" endLine="310" endPosition="0" unitName="jetbrains.mps.baseLanguage.dates.behavior.DateTypeUtil$QuotationClass_hzl4bp_a0i" />
   <unitInfo fileName="DefaultTimeZoneConstant_BehaviorDescriptor.java" startLine="6" startPosition="0" endLine="15" endPosition="0" unitName="jetbrains.mps.baseLanguage.dates.behavior.DefaultTimeZoneConstant_BehaviorDescriptor" />
   <unitInfo fileName="DurationTypeReference_BehaviorDescriptor.java" startLine="7" startPosition="0" endLine="16" endPosition="0" unitName="jetbrains.mps.baseLanguage.dates.behavior.DurationTypeReference_BehaviorDescriptor" />
   <unitInfo fileName="DurationType_BehaviorDescriptor.java" startLine="7" startPosition="0" endLine="16" endPosition="0" unitName="jetbrains.mps.baseLanguage.dates.behavior.DurationType_BehaviorDescriptor" />
@@ -57,11 +44,6 @@
   <unitInfo fileName="InlineFormatDateTimeExpression_BehaviorDescriptor.java" startLine="7" startPosition="0" endLine="16" endPosition="0" unitName="jetbrains.mps.baseLanguage.dates.behavior.InlineFormatDateTimeExpression_BehaviorDescriptor" />
   <unitInfo fileName="InlineFormatExpression_BehaviorDescriptor.java" startLine="6" startPosition="0" endLine="15" endPosition="0" unitName="jetbrains.mps.baseLanguage.dates.behavior.InlineFormatExpression_BehaviorDescriptor" />
   <unitInfo fileName="LiteralFormatToken_BehaviorDescriptor.java" startLine="6" startPosition="0" endLine="15" endPosition="0" unitName="jetbrains.mps.baseLanguage.dates.behavior.LiteralFormatToken_BehaviorDescriptor" />
-  <unitInfo fileName="MathDateTimeOperation_Behavior.java" startLine="16" startPosition="0" endLine="110" endPosition="0" unitName="jetbrains.mps.baseLanguage.dates.behavior.MathDateTimeOperation_Behavior" />
-  <unitInfo fileName="MathDateTimeOperation_Behavior.java" startLine="57" startPosition="0" endLine="74" endPosition="0" unitName="jetbrains.mps.baseLanguage.dates.behavior.MathDateTimeOperation_Behavior$QuotationClass_26vghy_a1a0a0d0d" />
-  <unitInfo fileName="MathDateTimeOperation_Behavior.java" startLine="75" startPosition="0" endLine="92" endPosition="0" unitName="jetbrains.mps.baseLanguage.dates.behavior.MathDateTimeOperation_Behavior$QuotationClass_26vghy_a1a0a0e0d" />
-  <unitInfo fileName="MathDateTimeOperation_Behavior.java" startLine="93" startPosition="0" endLine="109" endPosition="0" unitName="jetbrains.mps.baseLanguage.dates.behavior.MathDateTimeOperation_Behavior$QuotationClass_26vghy_a1a0a0f0d" />
-  <unitInfo fileName="MathDateTimeOperation_Behavior.java" startLine="39" startPosition="0" endLine="56" endPosition="0" unitName="jetbrains.mps.baseLanguage.dates.behavior.MathDateTimeOperation_Behavior$QuotationClass_26vghy_a1a0a2a3" />
   <unitInfo fileName="MathDateTimeOperation_BehaviorDescriptor.java" startLine="7" startPosition="0" endLine="16" endPosition="0" unitName="jetbrains.mps.baseLanguage.dates.behavior.MathDateTimeOperation_BehaviorDescriptor" />
   <unitInfo fileName="MaxDateTimeOperation_BehaviorDescriptor.java" startLine="6" startPosition="0" endLine="15" endPosition="0" unitName="jetbrains.mps.baseLanguage.dates.behavior.MaxDateTimeOperation_BehaviorDescriptor" />
   <unitInfo fileName="MinDateTimeOperation_BehaviorDescriptor.java" startLine="6" startPosition="0" endLine="15" endPosition="0" unitName="jetbrains.mps.baseLanguage.dates.behavior.MinDateTimeOperation_BehaviorDescriptor" />
@@ -74,7 +56,6 @@
   <unitInfo fileName="PeriodConstant_BehaviorDescriptor.java" startLine="7" startPosition="0" endLine="16" endPosition="0" unitName="jetbrains.mps.baseLanguage.dates.behavior.PeriodConstant_BehaviorDescriptor" />
   <unitInfo fileName="PeriodFormatToken_BehaviorDescriptor.java" startLine="7" startPosition="0" endLine="16" endPosition="0" unitName="jetbrains.mps.baseLanguage.dates.behavior.PeriodFormatToken_BehaviorDescriptor" />
   <unitInfo fileName="PeriodFormat_BehaviorDescriptor.java" startLine="10" startPosition="0" endLine="23" endPosition="0" unitName="jetbrains.mps.baseLanguage.dates.behavior.PeriodFormat_BehaviorDescriptor" />
-  <unitInfo fileName="PeriodFormatsTable_Behavior.java" startLine="9" startPosition="0" endLine="17" endPosition="0" unitName="jetbrains.mps.baseLanguage.dates.behavior.PeriodFormatsTable_Behavior" />
   <unitInfo fileName="PeriodFormatsTable_BehaviorDescriptor.java" startLine="10" startPosition="0" endLine="23" endPosition="0" unitName="jetbrains.mps.baseLanguage.dates.behavior.PeriodFormatsTable_BehaviorDescriptor" />
   <unitInfo fileName="PeriodInPropertyExpression_BehaviorDescriptor.java" startLine="7" startPosition="0" endLine="16" endPosition="0" unitName="jetbrains.mps.baseLanguage.dates.behavior.PeriodInPropertyExpression_BehaviorDescriptor" />
   <unitInfo fileName="PeriodInPropertyOperation_BehaviorDescriptor.java" startLine="7" startPosition="0" endLine="16" endPosition="0" unitName="jetbrains.mps.baseLanguage.dates.behavior.PeriodInPropertyOperation_BehaviorDescriptor" />
@@ -101,7 +82,6 @@
   <unitInfo fileName="TokenConditionalPair_BehaviorDescriptor.java" startLine="7" startPosition="0" endLine="16" endPosition="0" unitName="jetbrains.mps.baseLanguage.dates.behavior.TokenConditionalPair_BehaviorDescriptor" />
   <unitInfo fileName="UTCTimeZoneConstant_BehaviorDescriptor.java" startLine="6" startPosition="0" endLine="15" endPosition="0" unitName="jetbrains.mps.baseLanguage.dates.behavior.UTCTimeZoneConstant_BehaviorDescriptor" />
   <unitInfo fileName="UnaryDateTimeOperation_BehaviorDescriptor.java" startLine="7" startPosition="0" endLine="16" endPosition="0" unitName="jetbrains.mps.baseLanguage.dates.behavior.UnaryDateTimeOperation_BehaviorDescriptor" />
-  <unitInfo fileName="WithPropertyCompareExpression_Behavior.java" startLine="9" startPosition="0" endLine="21" endPosition="0" unitName="jetbrains.mps.baseLanguage.dates.behavior.WithPropertyCompareExpression_Behavior" />
   <unitInfo fileName="WithPropertyCompareExpression_BehaviorDescriptor.java" startLine="7" startPosition="0" endLine="16" endPosition="0" unitName="jetbrains.mps.baseLanguage.dates.behavior.WithPropertyCompareExpression_BehaviorDescriptor" />
   <root nodeId="1015544890586258578">
     <nodeInfo nodeId="1015544890586258578" fileName="NullOperation_Behavior.java" startLine="11" startPosition="37" endLine="12" endPosition="72" conceptFqName="jetbrains.mps.baseLanguage.structure.StaticFieldDeclaration" propertyString="PARAMETERS_1015544890586290191" />
