@@ -7,7 +7,7 @@ import java.util.List;
 import jetbrains.mps.smodel.SNode;
 import jetbrains.mps.baseLanguage.classifiers.behavior.IClassifier_Behavior;
 import jetbrains.mps.buildlanguage.behavior.IDeclaration_Behavior;
-import jetbrains.mps.baseLanguage.behavior.IExtractMethodRefactoringProcessor;
+import jetbrains.mps.baseLanguage.util.plugin.refactorings.IExtractMethodRefactoringProcessor;
 import jetbrains.mps.lang.core.behavior.INamedConcept_Behavior;
 
 public class BuiltInTaskDeclaration_BehaviorDescriptor extends BaseConcept_BehaviorDescriptor implements ITaskDeclaration_BehaviorDescriptor {
