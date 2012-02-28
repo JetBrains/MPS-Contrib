@@ -1,6 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <debugInfo>
   <unitInfo fileName="ConstraintsAspectDescriptor.java" startLine="9" startPosition="0" endLine="39" endPosition="0" unitName="jetbrains.mps.buildlanguage.constraints.ConstraintsAspectDescriptor" />
+  <unitInfo fileName="PropertyValueExpression_Constraints.java" startLine="7" startPosition="0" endLine="12" endPosition="0" unitName="jetbrains.mps.buildlanguage.constraints.PropertyValueExpression_Constraints" />
   <root nodeId="1213104847182">
     <nodeInfo nodeId="1213104847182" fileName="TargetReference_Constraints.java" startLine="20" startPosition="76" endLine="21" endPosition="188" conceptFqName="jetbrains.mps.baseLanguage.structure.StaticFieldDeclaration" propertyString="breakingNode_qs3fug_a0a1a0a0a1a0b0a1a0" />
     <nodeInfo nodeId="1213104847182" fileName="TargetReference_Constraints.java" startLine="23" startPosition="40" endLine="24" endPosition="67" conceptFqName="jetbrains.mps.baseLanguage.structure.SuperConstructorInvocation" />
