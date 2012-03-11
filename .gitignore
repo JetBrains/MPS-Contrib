@@ -12,6 +12,7 @@
 /IdeaPlugin/mps-core/languages
 /IdeaPlugin/tests/blProject/.idea/workspace.xml
 /IdeaPlugin/tests/multiModulesProject/.idea/workspace.xml
+$IDEA_PLUGINS_SANDBOX_FOLDER$
 classes
 classes_gen
 testclasses
@@ -19,3 +20,4 @@ testclasses
 teamcity-info.xml
 *.hprof
 $IDEA_PLUGINS_SANDBOX_FOLDER$
+*.class
