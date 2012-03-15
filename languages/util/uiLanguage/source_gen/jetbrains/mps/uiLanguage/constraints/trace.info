@@ -1,32 +1,6 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <debugInfo>
-  <unitInfo fileName="ActionHandler_Constraints.java" startLine="15" startPosition="0" endLine="46" endPosition="0" unitName="jetbrains.mps.uiLanguage.constraints.ActionHandler_Constraints" />
-  <unitInfo fileName="AddListenerOperation_Constraints.java" startLine="14" startPosition="0" endLine="54" endPosition="0" unitName="jetbrains.mps.uiLanguage.constraints.AddListenerOperation_Constraints" />
-  <unitInfo fileName="AttributeValue_Constraints.java" startLine="24" startPosition="0" endLine="64" endPosition="0" unitName="jetbrains.mps.uiLanguage.constraints.AttributeValue_Constraints" />
-  <unitInfo fileName="AttributeValue_Constraints.java" startLine="34" startPosition="36" endLine="60" endPosition="5" unitName="jetbrains.mps.uiLanguage.constraints.AttributeValue_Constraints$1" />
-  <unitInfo fileName="AttributeValue_Constraints.java" startLine="43" startPosition="19" endLine="58" endPosition="9" unitName="jetbrains.mps.uiLanguage.constraints.AttributeValue_Constraints$2" />
-  <unitInfo fileName="BindExpression_Constraints.java" startLine="13" startPosition="0" endLine="40" endPosition="0" unitName="jetbrains.mps.uiLanguage.constraints.BindExpression_Constraints" />
-  <unitInfo fileName="CellRendererAttribute_Constraints.java" startLine="15" startPosition="0" endLine="46" endPosition="0" unitName="jetbrains.mps.uiLanguage.constraints.CellRendererAttribute_Constraints" />
-  <unitInfo fileName="ComponentController_Constraints.java" startLine="15" startPosition="0" endLine="38" endPosition="0" unitName="jetbrains.mps.uiLanguage.constraints.ComponentController_Constraints" />
-  <unitInfo fileName="ComponentController_Constraints.java" startLine="23" startPosition="31" endLine="34" endPosition="5" unitName="jetbrains.mps.uiLanguage.constraints.ComponentController_Constraints$1" />
-  <unitInfo fileName="ComponentInstance_Constraints.java" startLine="24" startPosition="0" endLine="65" endPosition="0" unitName="jetbrains.mps.uiLanguage.constraints.ComponentInstance_Constraints" />
-  <unitInfo fileName="ComponentInstance_Constraints.java" startLine="34" startPosition="47" endLine="61" endPosition="5" unitName="jetbrains.mps.uiLanguage.constraints.ComponentInstance_Constraints$1" />
-  <unitInfo fileName="ComponentInstance_Constraints.java" startLine="43" startPosition="19" endLine="59" endPosition="9" unitName="jetbrains.mps.uiLanguage.constraints.ComponentInstance_Constraints$2" />
-  <unitInfo fileName="ComponentInstance_Constraints.java" startLine="47" startPosition="243" endLine="51" endPosition="13" unitName="jetbrains.mps.uiLanguage.constraints.ComponentInstance_Constraints$3" />
-  <unitInfo fileName="ComponentReference_Constraints.java" startLine="25" startPosition="0" endLine="76" endPosition="0" unitName="jetbrains.mps.uiLanguage.constraints.ComponentReference_Constraints" />
-  <unitInfo fileName="ComponentReference_Constraints.java" startLine="35" startPosition="36" endLine="72" endPosition="5" unitName="jetbrains.mps.uiLanguage.constraints.ComponentReference_Constraints$1" />
-  <unitInfo fileName="ComponentReference_Constraints.java" startLine="44" startPosition="19" endLine="70" endPosition="9" unitName="jetbrains.mps.uiLanguage.constraints.ComponentReference_Constraints$2" />
-  <unitInfo fileName="ComponentReference_Constraints.java" startLine="57" startPosition="221" endLine="61" endPosition="15" unitName="jetbrains.mps.uiLanguage.constraints.ComponentReference_Constraints$3" />
   <unitInfo fileName="ConstraintsAspectDescriptor.java" startLine="9" startPosition="0" endLine="57" endPosition="0" unitName="jetbrains.mps.uiLanguage.constraints.ConstraintsAspectDescriptor" />
-  <unitInfo fileName="EventHandlerReference_Constraints.java" startLine="13" startPosition="0" endLine="40" endPosition="0" unitName="jetbrains.mps.uiLanguage.constraints.EventHandlerReference_Constraints" />
-  <unitInfo fileName="InlineRenderer_Constraints.java" startLine="15" startPosition="0" endLine="46" endPosition="0" unitName="jetbrains.mps.uiLanguage.constraints.InlineRenderer_Constraints" />
-  <unitInfo fileName="ListElements_Constraints.java" startLine="21" startPosition="0" endLine="69" endPosition="0" unitName="jetbrains.mps.uiLanguage.constraints.ListElements_Constraints" />
-  <unitInfo fileName="ListElements_Constraints.java" startLine="51" startPosition="0" endLine="68" endPosition="0" unitName="jetbrains.mps.uiLanguage.constraints.ListElements_Constraints$QuotationClass_fpzj2u_a0a0a0a0a" />
-  <unitInfo fileName="RaiseInternalStatement_Constraints.java" startLine="13" startPosition="0" endLine="40" endPosition="0" unitName="jetbrains.mps.uiLanguage.constraints.RaiseInternalStatement_Constraints" />
-  <unitInfo fileName="RaiseOperation_Constraints.java" startLine="14" startPosition="0" endLine="48" endPosition="0" unitName="jetbrains.mps.uiLanguage.constraints.RaiseOperation_Constraints" />
-  <unitInfo fileName="RemoveListenerOperation_Constraints.java" startLine="14" startPosition="0" endLine="54" endPosition="0" unitName="jetbrains.mps.uiLanguage.constraints.RemoveListenerOperation_Constraints" />
-  <unitInfo fileName="RenderingObject_Constraints.java" startLine="13" startPosition="0" endLine="40" endPosition="0" unitName="jetbrains.mps.uiLanguage.constraints.RenderingObject_Constraints" />
-  <unitInfo fileName="StandardDialog_Constraints.java" startLine="13" startPosition="0" endLine="40" endPosition="0" unitName="jetbrains.mps.uiLanguage.constraints.StandardDialog_Constraints" />
   <root nodeId="1213104840187">
     <nodeInfo nodeId="1213104840187" fileName="ComponentReference_Constraints.java" startLine="25" startPosition="79" endLine="26" endPosition="185" conceptFqName="jetbrains.mps.baseLanguage.structure.StaticFieldDeclaration" propertyString="breakingNode_bgitcy_a0a1a0a0a1a0b0a1a0" />
     <nodeInfo nodeId="1213104840187" fileName="ComponentReference_Constraints.java" startLine="28" startPosition="43" endLine="29" endPosition="67" conceptFqName="jetbrains.mps.baseLanguage.structure.SuperConstructorInvocation" />
