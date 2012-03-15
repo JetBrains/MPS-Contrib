@@ -50,6 +50,7 @@
       <module fileurl="file://$PROJECT_DIR$/languages/util/uiLanguage/runtime/uiLanguage-runtime.iml" filepath="$PROJECT_DIR$/languages/util/uiLanguage/runtime/uiLanguage-runtime.iml" group="languages" />
       <module fileurl="file://$PROJECT_DIR$/workbench/uiTests/uiTests.iml" filepath="$PROJECT_DIR$/workbench/uiTests/uiTests.iml" />
       <module fileurl="file://$PROJECT_DIR$/plugins/vcs/vcs.iml" filepath="$PROJECT_DIR$/plugins/vcs/vcs.iml" group="plugins" />
+      <module fileurl="file://$PROJECT_DIR$/plugins/vcs-core/vcs-core.iml" filepath="$PROJECT_DIR$/plugins/vcs-core/vcs-core.iml" group="plugins" />
     </modules>
   </component>
 </project>
