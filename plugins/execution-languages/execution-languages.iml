@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<module type="JAVA_MODULE" version="4">
+  <component name="NewModuleRootManager" inherit-compiler-output="false">
+    <output url="file://$MODULE_DIR$/classes" />
+    <output-test url="file://$MODULE_DIR$/classes" />
+    <exclude-output />
+    <content url="file://$MODULE_DIR$/languages/plugin">
+      <sourceFolder url="file://$MODULE_DIR$/languages/plugin/source_gen" isTestSource="false" />
+    </content>
+    <orderEntry type="inheritedJdk" />
+    <orderEntry type="sourceFolder" forTests="false" />
+    <orderEntry type="library" name="Idea-plaform" level="project" />
+    <orderEntry type="module" module-name="mps-platform" />
+    <orderEntry type="library" name="Annotations" level="project" />
+  </component>
+</module>
+
