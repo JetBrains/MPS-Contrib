@@ -5,11 +5,8 @@
   <language namespace="f3061a53-9226-4cc5-a443-f952ceaf5816(jetbrains.mps.baseLanguage)" />
   <language namespace="cccc689c-f365-4862-a8b6-34ecddf8ee26(jetbrains.mps.baseLanguage.dates)" />
   <language namespace="7866978e-a0f0-4cc7-81bc-4d213d9375e1(jetbrains.mps.lang.smodel)" />
-  <language namespace="83888646-71ce-4f1c-9c53-c54016f6ad4f(jetbrains.mps.baseLanguage.collections)" />
   <language namespace="d4615e3b-d671-4ba9-af01-2b78369b0ba7(jetbrains.mps.lang.pattern)" />
   <language namespace="3a13115c-633c-4c5c-bbcc-75c4219e9555(jetbrains.mps.lang.quotation)" />
-  <language namespace="ceab5195-25ea-4f22-9b92-103b95ca8c0c(jetbrains.mps.lang.core)" />
-  <language namespace="1991585e-225e-4371-977a-68a7888adae2(jetbrains.mps.baseLanguage.datesInternal)" />
   <devkit namespace="fbc25dd2-5da4-483a-8b19-70928e1b62d7(jetbrains.mps.devkit.general-purpose)" />
   <import index="tp6x" modelUID="r:00000000-0000-4000-0000-011c895903d5(jetbrains.mps.baseLanguage.dates.structure)" version="1" />
   <import index="tpee" modelUID="r:00000000-0000-4000-0000-011c895902ca(jetbrains.mps.baseLanguage.structure)" version="3" />
@@ -219,7 +216,7 @@
     </node>
     <node role="applicableNode" roleId="tpd4.1174648101952" type="tpd4.ConceptReference" typeId="tpd4.1174642788531" id="1178371373843">
       <property name="name" nameId="tpck.1169194664001" value="nowExpression" />
-      <link role="concept" roleId="tpd4.1174642800329" targetNodeId="tp6x.1169630122569" />
+      <link role="concept" roleId="tpd4.1174642800329" targetNodeId="tp6x.1169630122569" resolveInfo="NowExpression" />
     </node>
   </root>
   <root id="1178371373914">
@@ -255,7 +252,7 @@
     </node>
     <node role="applicableNode" roleId="tpd4.1174648101952" type="tpd4.ConceptReference" typeId="tpd4.1174642788531" id="1178371373846">
       <property name="name" nameId="tpck.1169194664001" value="unaryDateTimeOperation" />
-      <link role="concept" roleId="tpd4.1174642800329" targetNodeId="tp6x.1171963068132" />
+      <link role="concept" roleId="tpd4.1174642800329" targetNodeId="tp6x.1171963068132" resolveInfo="UnaryDateTimeOperation" />
     </node>
   </root>
   <root id="1178371373937">
@@ -322,7 +319,7 @@
     </node>
     <node role="applicableNode" roleId="tpd4.1174648101952" type="tpd4.ConceptReference" typeId="tpd4.1174642788531" id="1178371373847">
       <property name="name" nameId="tpck.1169194664001" value="formatExpression" />
-      <link role="concept" roleId="tpd4.1174642800329" targetNodeId="tp6x.1169557513226" />
+      <link role="concept" roleId="tpd4.1174642800329" targetNodeId="tp6x.1169557513226" resolveInfo="FormatExpression" />
     </node>
   </root>
   <root id="1178371373956">
@@ -390,7 +387,7 @@
     </node>
     <node role="applicableNode" roleId="tpd4.1174648101952" type="tpd4.ConceptReference" typeId="tpd4.1174642788531" id="1178371373849">
       <property name="name" nameId="tpck.1169194664001" value="op" />
-      <link role="concept" roleId="tpd4.1174642800329" targetNodeId="tp6x.1172074800504" />
+      <link role="concept" roleId="tpd4.1174642800329" targetNodeId="tp6x.1172074800504" resolveInfo="DateTimeCompareOperation" />
     </node>
   </root>
   <root id="1178371373988">
@@ -460,7 +457,7 @@
     </node>
     <node role="applicableNode" roleId="tpd4.1174648101952" type="tpd4.ConceptReference" typeId="tpd4.1174642788531" id="1178371373850">
       <property name="name" nameId="tpck.1169194664001" value="op" />
-      <link role="concept" roleId="tpd4.1174642800329" targetNodeId="tp6x.1172331114860" />
+      <link role="concept" roleId="tpd4.1174642800329" targetNodeId="tp6x.1172331114860" resolveInfo="DateTimeWithPropertyOperation" />
     </node>
   </root>
   <root id="1178371374002">
@@ -502,7 +499,7 @@
     </node>
     <node role="applicableNode" roleId="tpd4.1174648101952" type="tpd4.ConceptReference" typeId="tpd4.1174642788531" id="1178371373851">
       <property name="name" nameId="tpck.1169194664001" value="periodConstant" />
-      <link role="concept" roleId="tpd4.1174642800329" targetNodeId="tp6x.1172489559047" />
+      <link role="concept" roleId="tpd4.1174642800329" targetNodeId="tp6x.1172489559047" resolveInfo="PeriodConstant" />
     </node>
   </root>
   <root id="1179578314643">
@@ -517,7 +514,7 @@
     </node>
     <node role="applicableNode" roleId="tpd4.1174648101952" type="tpd4.ConceptReference" typeId="tpd4.1174642788531" id="1179578338130">
       <property name="name" nameId="tpck.1169194664001" value="dateTimeType" />
-      <link role="concept" roleId="tpd4.1174642800329" targetNodeId="tp6x.1171902375079" />
+      <link role="concept" roleId="tpd4.1174642800329" targetNodeId="tp6x.1171902375079" resolveInfo="DateTimeType" />
     </node>
   </root>
   <root id="1179578410931">
@@ -1371,7 +1368,7 @@
     </node>
     <node role="applicableNode" roleId="tpd4.1174648101952" type="tpd4.ConceptReference" typeId="tpd4.1174642788531" id="1239015873754">
       <property name="name" nameId="tpck.1169194664001" value="zone" />
-      <link role="concept" roleId="tpd4.1174642800329" targetNodeId="tp6x.1239015860192" resolveInfo="ConstantTimeZone" />
+      <link role="concept" roleId="tpd4.1174642800329" targetNodeId="tp6x.1239015860192" resolveInfo="ConstantTimeZoneRef" />
     </node>
   </root>
   <root id="1239018206164">
@@ -1749,7 +1746,7 @@
     </node>
     <node role="applicableNode" roleId="tpd4.1174648101952" type="tpd4.ConceptReference" typeId="tpd4.1174642788531" id="2639623922402698220">
       <property name="name" nameId="tpck.1169194664001" value="timezone" />
-      <link role="concept" roleId="tpd4.1174642800329" targetNodeId="tp6x.2639623922402691276" resolveInfo="InTimezone" />
+      <link role="concept" roleId="tpd4.1174642800329" targetNodeId="tp6x.2639623922402691276" resolveInfo="InTimezoneExpression" />
     </node>
   </root>
   <root id="4389880778953638809">
