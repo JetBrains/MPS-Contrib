@@ -19,6 +19,7 @@
       <module fileurl="file://$PROJECT_DIR$/editor/editor-api/editor-api.iml" filepath="$PROJECT_DIR$/editor/editor-api/editor-api.iml" group="editor" />
       <module fileurl="file://$PROJECT_DIR$/editor/editor-runtime/editor-runtime.iml" filepath="$PROJECT_DIR$/editor/editor-runtime/editor-runtime.iml" group="editor" />
       <module fileurl="file://$PROJECT_DIR$/tools/excluded/excluded.iml" filepath="$PROJECT_DIR$/tools/excluded/excluded.iml" />
+      <module fileurl="file://$PROJECT_DIR$/languages/util/runConfigurations/execution.iml" filepath="$PROJECT_DIR$/languages/util/runConfigurations/execution.iml" group="workbench" />
       <module fileurl="file://$PROJECT_DIR$/plugins/execution-languages/execution-languages.iml" filepath="$PROJECT_DIR$/plugins/execution-languages/execution-languages.iml" />
       <module fileurl="file://$PROJECT_DIR$/core/findUsages-runtime/findUsages-runtime.iml" filepath="$PROJECT_DIR$/core/findUsages-runtime/findUsages-runtime.iml" group="core" />
       <module fileurl="file://$PROJECT_DIR$/core/generator/generator-engine.iml" filepath="$PROJECT_DIR$/core/generator/generator-engine.iml" group="core" />
@@ -41,7 +42,6 @@
       <module fileurl="file://$PROJECT_DIR$/core/refactoring-runtime/refactoring-runtime.iml" filepath="$PROJECT_DIR$/core/refactoring-runtime/refactoring-runtime.iml" group="core" />
       <module fileurl="file://$PROJECT_DIR$/workbench/resources/resources.iml" filepath="$PROJECT_DIR$/workbench/resources/resources.iml" group="workbench" />
       <module fileurl="file://$PROJECT_DIR$/workbench/resources_en/resources_en.iml" filepath="$PROJECT_DIR$/workbench/resources_en/resources_en.iml" group="workbench" />
-      <module fileurl="file://$PROJECT_DIR$/languages/util/runConfigurations/runConfigurations.iml" filepath="$PROJECT_DIR$/languages/util/runConfigurations/runConfigurations.iml" group="workbench" />
       <module fileurl="file://$PROJECT_DIR$/core/runtime/runtime.iml" filepath="$PROJECT_DIR$/core/runtime/runtime.iml" group="core" />
       <module fileurl="file://$PROJECT_DIR$/plugins/samples/samples.iml" filepath="$PROJECT_DIR$/plugins/samples/samples.iml" group="plugins" />
       <module fileurl="file://$PROJECT_DIR$/startup/startup.iml" filepath="$PROJECT_DIR$/startup/startup.iml" />
@@ -53,6 +53,7 @@
       <module fileurl="file://$PROJECT_DIR$/languages/util/uiLanguage/runtime/uiLanguage-runtime.iml" filepath="$PROJECT_DIR$/languages/util/uiLanguage/runtime/uiLanguage-runtime.iml" group="languages" />
       <module fileurl="file://$PROJECT_DIR$/workbench/uiTests/uiTests.iml" filepath="$PROJECT_DIR$/workbench/uiTests/uiTests.iml" />
       <module fileurl="file://$PROJECT_DIR$/plugins/vcs/vcs.iml" filepath="$PROJECT_DIR$/plugins/vcs/vcs.iml" group="plugins" />
+      <module fileurl="file://$PROJECT_DIR$/plugins/vcs-core/vcs-core.iml" filepath="$PROJECT_DIR$/plugins/vcs-core/vcs-core.iml" group="plugins" />
     </modules>
   </component>
 </project>

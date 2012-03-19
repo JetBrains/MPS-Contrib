@@ -4,7 +4,7 @@
 *.ipr text merge=mps
 *.xml text
 *.java text
-*.mpr text
+*.mpr text merge=mps
 *.css text
 *.html text
 *.dtd text

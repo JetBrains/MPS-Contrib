@@ -4,14 +4,11 @@
   <unitInfo fileName="Attribute_BehaviorDescriptor.java" startLine="7" startPosition="0" endLine="16" endPosition="0" unitName="jetbrains.mps.build.generictasks.behavior.Attribute_BehaviorDescriptor" />
   <unitInfo fileName="BehaviorAspectDescriptor.java" startLine="9" startPosition="0" endLine="38" endPosition="0" unitName="jetbrains.mps.build.generictasks.behavior.BehaviorAspectDescriptor" />
   <unitInfo fileName="BuiltInTaskDeclaration_BehaviorDescriptor.java" startLine="13" startPosition="0" endLine="94" endPosition="0" unitName="jetbrains.mps.build.generictasks.behavior.BuiltInTaskDeclaration_BehaviorDescriptor" />
-  <unitInfo fileName="ITaskDeclaration_Behavior.java" startLine="17" startPosition="0" endLine="129" endPosition="0" unitName="jetbrains.mps.build.generictasks.behavior.ITaskDeclaration_Behavior" />
-  <unitInfo fileName="ITaskDeclaration_Behavior.java" startLine="39" startPosition="57" endLine="43" endPosition="5" unitName="jetbrains.mps.build.generictasks.behavior.ITaskDeclaration_Behavior$1" />
   <unitInfo fileName="ITaskDeclaration_BehaviorDescriptor.java" startLine="10" startPosition="0" endLine="19" endPosition="0" unitName="jetbrains.mps.build.generictasks.behavior.ITaskDeclaration_BehaviorDescriptor" />
   <unitInfo fileName="NestedDeclaration_BehaviorDescriptor.java" startLine="6" startPosition="0" endLine="15" endPosition="0" unitName="jetbrains.mps.build.generictasks.behavior.NestedDeclaration_BehaviorDescriptor" />
   <unitInfo fileName="PathReference_BehaviorDescriptor.java" startLine="9" startPosition="0" endLine="30" endPosition="0" unitName="jetbrains.mps.build.generictasks.behavior.PathReference_BehaviorDescriptor" />
   <unitInfo fileName="TaskCall_BehaviorDescriptor.java" startLine="8" startPosition="0" endLine="17" endPosition="0" unitName="jetbrains.mps.build.generictasks.behavior.TaskCall_BehaviorDescriptor" />
   <unitInfo fileName="TaskInterfaceDeclaration_BehaviorDescriptor.java" startLine="6" startPosition="0" endLine="15" endPosition="0" unitName="jetbrains.mps.build.generictasks.behavior.TaskInterfaceDeclaration_BehaviorDescriptor" />
-  <unitInfo fileName="TaskReference_Behavior.java" startLine="7" startPosition="0" endLine="11" endPosition="0" unitName="jetbrains.mps.build.generictasks.behavior.TaskReference_Behavior" />
   <unitInfo fileName="TaskReference_BehaviorDescriptor.java" startLine="7" startPosition="0" endLine="16" endPosition="0" unitName="jetbrains.mps.build.generictasks.behavior.TaskReference_BehaviorDescriptor" />
   <root nodeId="1449762848926780416">
     <nodeInfo nodeId="1449762848926780416" fileName="ITaskDeclaration_Behavior.java" startLine="17" startPosition="40" endLine="18" endPosition="72" conceptFqName="jetbrains.mps.baseLanguage.structure.StaticFieldDeclaration" propertyString="PARAMETERS_1449762848926780427" />
