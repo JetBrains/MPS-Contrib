@@ -4,6 +4,9 @@
     <output url="file://$MODULE_DIR$/classes" />
     <output-test url="file://$MODULE_DIR$/classes" />
     <exclude-output />
+    <content url="file://$MODULE_DIR$/languages/deprecated.runtime">
+      <sourceFolder url="file://$MODULE_DIR$/languages/deprecated.runtime/source_gen" isTestSource="false" />
+    </content>
     <content url="file://$MODULE_DIR$/languages/library">
       <sourceFolder url="file://$MODULE_DIR$/languages/library/source_gen" isTestSource="false" />
     </content>
@@ -28,6 +31,8 @@
     <orderEntry type="module" module-name="uiLanguage-runtime" />
     <orderEntry type="module" module-name="mps-editor" />
     <orderEntry type="module" module-name="execution" />
+    <orderEntry type="module" module-name="debugger-java" />
+    <orderEntry type="module" module-name="debugger-api" />
   </component>
 </module>
 
