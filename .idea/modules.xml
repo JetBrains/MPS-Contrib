@@ -48,7 +48,6 @@
       <module fileurl="file://$PROJECT_DIR$/plugins/samples/samples.iml" filepath="$PROJECT_DIR$/plugins/samples/samples.iml" group="plugins" />
       <module fileurl="file://$PROJECT_DIR$/startup/startup.iml" filepath="$PROJECT_DIR$/startup/startup.iml" />
       <module fileurl="file://$PROJECT_DIR$/testbench/testbench.iml" filepath="$PROJECT_DIR$/testbench/testbench.iml" />
-      <module fileurl="file://$PROJECT_DIR$/languages/baseLanguage/collections/languages/trove/runtime/trove.runtime.iml" filepath="$PROJECT_DIR$/languages/baseLanguage/collections/languages/trove/runtime/trove.runtime.iml" group="languages" />
       <module fileurl="file://$PROJECT_DIR$/core/typesystemEngine/typesystemEngine.iml" filepath="$PROJECT_DIR$/core/typesystemEngine/typesystemEngine.iml" group="core" />
       <module fileurl="file://$PROJECT_DIR$/editor/typesystemIntegration/typesystemIntegration.iml" filepath="$PROJECT_DIR$/editor/typesystemIntegration/typesystemIntegration.iml" group="editor" />
       <module fileurl="file://$PROJECT_DIR$/workbench/typesystemUi/typesystemUi.iml" filepath="$PROJECT_DIR$/workbench/typesystemUi/typesystemUi.iml" group="workbench" />
