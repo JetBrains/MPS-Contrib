@@ -20,6 +20,7 @@
       <module fileurl="file://$PROJECT_DIR$/editor/editor-runtime/editor-runtime.iml" filepath="$PROJECT_DIR$/editor/editor-runtime/editor-runtime.iml" group="editor" />
       <module fileurl="file://$PROJECT_DIR$/tools/excluded/excluded.iml" filepath="$PROJECT_DIR$/tools/excluded/excluded.iml" />
       <module fileurl="file://$PROJECT_DIR$/languages/util/runConfigurations/execution.iml" filepath="$PROJECT_DIR$/languages/util/runConfigurations/execution.iml" group="workbench" />
+      <module fileurl="file://$PROJECT_DIR$/plugins/execution-configurations/execution-configurations.iml" filepath="$PROJECT_DIR$/plugins/execution-configurations/execution-configurations.iml" />
       <module fileurl="file://$PROJECT_DIR$/plugins/execution-languages/execution-languages.iml" filepath="$PROJECT_DIR$/plugins/execution-languages/execution-languages.iml" />
       <module fileurl="file://$PROJECT_DIR$/core/findUsages-runtime/findUsages-runtime.iml" filepath="$PROJECT_DIR$/core/findUsages-runtime/findUsages-runtime.iml" group="core" />
       <module fileurl="file://$PROJECT_DIR$/core/generator/generator-engine.iml" filepath="$PROJECT_DIR$/core/generator/generator-engine.iml" group="core" />
