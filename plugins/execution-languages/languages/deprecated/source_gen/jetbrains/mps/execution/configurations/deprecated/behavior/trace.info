@@ -7,7 +7,7 @@
   <unitInfo fileName="ActionsStatement_BehaviorDescriptor.java" startLine="7" startPosition="0" endLine="16" endPosition="0" unitName="jetbrains.mps.execution.configurations.deprecated.behavior.ActionsStatement_BehaviorDescriptor" />
   <unitInfo fileName="ApplyEditorBlock_BehaviorDescriptor.java" startLine="6" startPosition="0" endLine="15" endPosition="0" unitName="jetbrains.mps.execution.configurations.deprecated.behavior.ApplyEditorBlock_BehaviorDescriptor" />
   <unitInfo fileName="BaseCreatorTarget_BehaviorDescriptor.java" startLine="8" startPosition="0" endLine="21" endPosition="0" unitName="jetbrains.mps.execution.configurations.deprecated.behavior.BaseCreatorTarget_BehaviorDescriptor" />
-  <unitInfo fileName="BehaviorAspectDescriptor.java" startLine="9" startPosition="0" endLine="152" endPosition="0" unitName="jetbrains.mps.execution.configurations.deprecated.behavior.BehaviorAspectDescriptor" />
+  <unitInfo fileName="BehaviorAspectDescriptor.java" startLine="9" startPosition="0" endLine="146" endPosition="0" unitName="jetbrains.mps.execution.configurations.deprecated.behavior.BehaviorAspectDescriptor" />
   <unitInfo fileName="CheckConfigurationBlock_BehaviorDescriptor.java" startLine="6" startPosition="0" endLine="15" endPosition="0" unitName="jetbrains.mps.execution.configurations.deprecated.behavior.CheckConfigurationBlock_BehaviorDescriptor" />
   <unitInfo fileName="ComponentInsideOfChangeListenerAnnotation_BehaviorDescriptor.java" startLine="7" startPosition="0" endLine="16" endPosition="0" unitName="jetbrains.mps.execution.configurations.deprecated.behavior.ComponentInsideOfChangeListenerAnnotation_BehaviorDescriptor" />
   <unitInfo fileName="ComponentReference_BehaviorDescriptor.java" startLine="7" startPosition="0" endLine="16" endPosition="0" unitName="jetbrains.mps.execution.configurations.deprecated.behavior.ComponentReference_BehaviorDescriptor" />
@@ -62,7 +62,7 @@
   <unitInfo fileName="Project_ConceptFunctionParameter_BehaviorDescriptor.java" startLine="7" startPosition="0" endLine="16" endPosition="0" unitName="jetbrains.mps.execution.configurations.deprecated.behavior.Project_ConceptFunctionParameter_BehaviorDescriptor" />
   <unitInfo fileName="ReportErrorStatement_BehaviorDescriptor.java" startLine="7" startPosition="0" endLine="16" endPosition="0" unitName="jetbrains.mps.execution.configurations.deprecated.behavior.ReportErrorStatement_BehaviorDescriptor" />
   <unitInfo fileName="ResetEditorBlock_BehaviorDescriptor.java" startLine="6" startPosition="0" endLine="15" endPosition="0" unitName="jetbrains.mps.execution.configurations.deprecated.behavior.ResetEditorBlock_BehaviorDescriptor" />
-  <unitInfo fileName="RunConfigCreator_BehaviorDescriptor.java" startLine="10" startPosition="0" endLine="31" endPosition="0" unitName="jetbrains.mps.execution.configurations.deprecated.behavior.RunConfigCreator_BehaviorDescriptor" />
+  <unitInfo fileName="RunConfigCreator_BehaviorDescriptor.java" startLine="10" startPosition="0" endLine="23" endPosition="0" unitName="jetbrains.mps.execution.configurations.deprecated.behavior.RunConfigCreator_BehaviorDescriptor" />
   <unitInfo fileName="RunConfigExecutionParameterDeclaration_BehaviorDescriptor.java" startLine="8" startPosition="0" endLine="25" endPosition="0" unitName="jetbrains.mps.execution.configurations.deprecated.behavior.RunConfigExecutionParameterDeclaration_BehaviorDescriptor" />
   <unitInfo fileName="RunConfigMainNodeStatement_BehaviorDescriptor.java" startLine="7" startPosition="0" endLine="16" endPosition="0" unitName="jetbrains.mps.execution.configurations.deprecated.behavior.RunConfigMainNodeStatement_BehaviorDescriptor" />
   <unitInfo fileName="RunConfigParameterReferenceOperation_BehaviorDescriptor.java" startLine="10" startPosition="0" endLine="35" endPosition="0" unitName="jetbrains.mps.execution.configurations.deprecated.behavior.RunConfigParameterReferenceOperation_BehaviorDescriptor" />
@@ -71,9 +71,6 @@
   <unitInfo fileName="RunConfigurationDeclaration_BehaviorDescriptor.java" startLine="17" startPosition="0" endLine="74" endPosition="0" unitName="jetbrains.mps.execution.configurations.deprecated.behavior.RunConfigurationDeclaration_BehaviorDescriptor" />
   <unitInfo fileName="RunConfigurationMethodDeclaration_BehaviorDescriptor.java" startLine="7" startPosition="0" endLine="16" endPosition="0" unitName="jetbrains.mps.execution.configurations.deprecated.behavior.RunConfigurationMethodDeclaration_BehaviorDescriptor" />
   <unitInfo fileName="RunConfigurationTypeDeclaration_BehaviorDescriptor.java" startLine="14" startPosition="0" endLine="43" endPosition="0" unitName="jetbrains.mps.execution.configurations.deprecated.behavior.RunConfigurationTypeDeclaration_BehaviorDescriptor" />
-  <unitInfo fileName="RunModelConfigCreator_BehaviorDescriptor.java" startLine="7" startPosition="0" endLine="24" endPosition="0" unitName="jetbrains.mps.execution.configurations.deprecated.behavior.RunModelConfigCreator_BehaviorDescriptor" />
-  <unitInfo fileName="RunModuleConfigCreator_BehaviorDescriptor.java" startLine="7" startPosition="0" endLine="24" endPosition="0" unitName="jetbrains.mps.execution.configurations.deprecated.behavior.RunModuleConfigCreator_BehaviorDescriptor" />
-  <unitInfo fileName="RunNodeConfigCreator_BehaviorDescriptor.java" startLine="7" startPosition="0" endLine="24" endPosition="0" unitName="jetbrains.mps.execution.configurations.deprecated.behavior.RunNodeConfigCreator_BehaviorDescriptor" />
   <unitInfo fileName="UniversalRunConfigCreator_BehaviorDescriptor.java" startLine="10" startPosition="0" endLine="23" endPosition="0" unitName="jetbrains.mps.execution.configurations.deprecated.behavior.UniversalRunConfigCreator_BehaviorDescriptor" />
   <unitInfo fileName="UserComponentReferenceAnnotation_BehaviorDescriptor.java" startLine="7" startPosition="0" endLine="16" endPosition="0" unitName="jetbrains.mps.execution.configurations.deprecated.behavior.UserComponentReferenceAnnotation_BehaviorDescriptor" />
   <root nodeId="1810772216404807666">
@@ -640,120 +637,6 @@
       <varInfo nodeId="314981645426570808" varName="thisNode" />
     </scopeInfo>
     <unitInfo nodeId="314981645426570808" fileName="PrepareConceptFunction_Behavior.java" startLine="9" startPosition="0" endLine="18" endPosition="0" unitName="jetbrains.mps.execution.configurations.deprecated.behavior.PrepareConceptFunction_Behavior" />
-  </root>
-  <root nodeId="314981645427004494">
-    <nodeInfo nodeId="314981645427004494" fileName="RunConfigCreator_Behavior.java" startLine="11" startPosition="40" endLine="12" endPosition="71" conceptFqName="jetbrains.mps.baseLanguage.structure.StaticFieldDeclaration" propertyString="PARAMETERS_314981645427004497" />
-    <nodeInfo nodeId="314981645427004494" fileName="RunConfigCreator_Behavior.java" startLine="12" startPosition="71" endLine="13" endPosition="71" conceptFqName="jetbrains.mps.baseLanguage.structure.StaticFieldDeclaration" propertyString="PARAMETERS_314981645427004503" />
-    <nodeInfo nodeId="314981645427004501" fileName="RunConfigCreator_Behavior.java" startLine="18" startPosition="90" endLine="19" endPosition="16" conceptFqName="jetbrains.mps.baseLanguage.structure.ReturnStatement" />
-    <nodeInfo nodeId="314981645427004507" fileName="RunConfigCreator_Behavior.java" startLine="22" startPosition="78" endLine="23" endPosition="16" conceptFqName="jetbrains.mps.baseLanguage.structure.ReturnStatement" />
-    <nodeInfo nodeId="314981645427004494" fileName="RunConfigCreator_Behavior.java" startLine="26" startPosition="87" endLine="27" endPosition="113" conceptFqName="jetbrains.mps.baseLanguage.structure.LocalVariableDeclarationStatement" />
-    <nodeInfo nodeId="314981645427004494" fileName="RunConfigCreator_Behavior.java" startLine="27" startPosition="113" endLine="28" endPosition="248" conceptFqName="jetbrains.mps.baseLanguage.structure.ReturnStatement" />
-    <nodeInfo nodeId="314981645427004494" fileName="RunConfigCreator_Behavior.java" startLine="31" startPosition="75" endLine="32" endPosition="113" conceptFqName="jetbrains.mps.baseLanguage.structure.LocalVariableDeclarationStatement" />
-    <nodeInfo nodeId="314981645427004494" fileName="RunConfigCreator_Behavior.java" startLine="32" startPosition="113" endLine="33" endPosition="236" conceptFqName="jetbrains.mps.baseLanguage.structure.ReturnStatement" />
-    <nodeInfo nodeId="314981645427004494" fileName="RunConfigCreator_Behavior.java" startLine="36" startPosition="120" endLine="37" endPosition="293" conceptFqName="jetbrains.mps.baseLanguage.structure.ReturnStatement" />
-    <nodeInfo nodeId="314981645427004494" fileName="RunConfigCreator_Behavior.java" startLine="40" startPosition="108" endLine="41" endPosition="281" conceptFqName="jetbrains.mps.baseLanguage.structure.ReturnStatement" />
-    <nodeInfo nodeId="314981645427004494" fileName="RunConfigCreator_Behavior.java" startLine="14" startPosition="0" endLine="17" endPosition="0" conceptFqName="jetbrains.mps.baseLanguage.structure.StaticMethodDeclaration" propertyString="init#(Ljetbrains/mps/smodel/SNode;)V" />
-    <nodeInfo nodeId="314981645427004494" fileName="RunConfigCreator_Behavior.java" startLine="17" startPosition="0" endLine="21" endPosition="0" conceptFqName="jetbrains.mps.baseLanguage.structure.StaticMethodDeclaration" propertyString="virtual_getCreatorTypeParameter_314981645427004497#(Ljetbrains/mps/smodel/SNode;)Ljetbrains/mps/smodel/SNode;" />
-    <nodeInfo nodeId="314981645427004494" fileName="RunConfigCreator_Behavior.java" startLine="21" startPosition="0" endLine="25" endPosition="0" conceptFqName="jetbrains.mps.baseLanguage.structure.StaticMethodDeclaration" propertyString="virtual_getFunction_314981645427004503#(Ljetbrains/mps/smodel/SNode;)Ljetbrains/mps/smodel/SNode;" />
-    <nodeInfo nodeId="314981645427004494" fileName="RunConfigCreator_Behavior.java" startLine="35" startPosition="0" endLine="39" endPosition="0" conceptFqName="jetbrains.mps.baseLanguage.structure.StaticMethodDeclaration" propertyString="callSuper_getCreatorTypeParameter_314981645427004497#(Ljetbrains/mps/smodel/SNode;Ljava/lang/String;)Ljetbrains/mps/smodel/SNode;" />
-    <nodeInfo nodeId="314981645427004494" fileName="RunConfigCreator_Behavior.java" startLine="39" startPosition="0" endLine="43" endPosition="0" conceptFqName="jetbrains.mps.baseLanguage.structure.StaticMethodDeclaration" propertyString="callSuper_getFunction_314981645427004503#(Ljetbrains/mps/smodel/SNode;Ljava/lang/String;)Ljetbrains/mps/smodel/SNode;" />
-    <nodeInfo nodeId="314981645427004494" fileName="RunConfigCreator_Behavior.java" startLine="25" startPosition="0" endLine="30" endPosition="0" conceptFqName="jetbrains.mps.baseLanguage.structure.StaticMethodDeclaration" propertyString="call_getCreatorTypeParameter_314981645427004497#(Ljetbrains/mps/smodel/SNode;)Ljetbrains/mps/smodel/SNode;" />
-    <nodeInfo nodeId="314981645427004494" fileName="RunConfigCreator_Behavior.java" startLine="30" startPosition="0" endLine="35" endPosition="0" conceptFqName="jetbrains.mps.baseLanguage.structure.StaticMethodDeclaration" propertyString="call_getFunction_314981645427004503#(Ljetbrains/mps/smodel/SNode;)Ljetbrains/mps/smodel/SNode;" />
-    <scopeInfo nodeId="314981645427004496" fileName="RunConfigCreator_Behavior.java" startLine="15" startPosition="43" endLine="15" endPosition="43" />
-    <scopeInfo nodeId="314981645427004500" fileName="RunConfigCreator_Behavior.java" startLine="18" startPosition="90" endLine="19" endPosition="16" />
-    <scopeInfo nodeId="314981645427004506" fileName="RunConfigCreator_Behavior.java" startLine="22" startPosition="78" endLine="23" endPosition="16" />
-    <scopeInfo nodeId="314981645427004494" fileName="RunConfigCreator_Behavior.java" startLine="36" startPosition="120" endLine="37" endPosition="293" />
-    <scopeInfo nodeId="314981645427004494" fileName="RunConfigCreator_Behavior.java" startLine="40" startPosition="108" endLine="41" endPosition="281" />
-    <scopeInfo nodeId="314981645427004494" fileName="RunConfigCreator_Behavior.java" startLine="26" startPosition="87" endLine="28" endPosition="248">
-      <varInfo nodeId="314981645427004494" varName="descriptor" />
-    </scopeInfo>
-    <scopeInfo nodeId="314981645427004494" fileName="RunConfigCreator_Behavior.java" startLine="31" startPosition="75" endLine="33" endPosition="236">
-      <varInfo nodeId="314981645427004494" varName="descriptor" />
-    </scopeInfo>
-    <scopeInfo nodeId="314981645427004494" fileName="RunConfigCreator_Behavior.java" startLine="14" startPosition="0" endLine="17" endPosition="0">
-      <varInfo nodeId="314981645427004494" varName="thisNode" />
-    </scopeInfo>
-    <scopeInfo nodeId="314981645427004494" fileName="RunConfigCreator_Behavior.java" startLine="17" startPosition="0" endLine="21" endPosition="0">
-      <varInfo nodeId="314981645427004494" varName="thisNode" />
-    </scopeInfo>
-    <scopeInfo nodeId="314981645427004494" fileName="RunConfigCreator_Behavior.java" startLine="21" startPosition="0" endLine="25" endPosition="0">
-      <varInfo nodeId="314981645427004494" varName="thisNode" />
-    </scopeInfo>
-    <scopeInfo nodeId="314981645427004494" fileName="RunConfigCreator_Behavior.java" startLine="35" startPosition="0" endLine="39" endPosition="0">
-      <varInfo nodeId="314981645427004494" varName="callerConceptFqName" />
-      <varInfo nodeId="314981645427004494" varName="thisNode" />
-    </scopeInfo>
-    <scopeInfo nodeId="314981645427004494" fileName="RunConfigCreator_Behavior.java" startLine="39" startPosition="0" endLine="43" endPosition="0">
-      <varInfo nodeId="314981645427004494" varName="callerConceptFqName" />
-      <varInfo nodeId="314981645427004494" varName="thisNode" />
-    </scopeInfo>
-    <scopeInfo nodeId="314981645427004494" fileName="RunConfigCreator_Behavior.java" startLine="25" startPosition="0" endLine="30" endPosition="0">
-      <varInfo nodeId="314981645427004494" varName="thisNode" />
-    </scopeInfo>
-    <scopeInfo nodeId="314981645427004494" fileName="RunConfigCreator_Behavior.java" startLine="30" startPosition="0" endLine="35" endPosition="0">
-      <varInfo nodeId="314981645427004494" varName="thisNode" />
-    </scopeInfo>
-    <unitInfo nodeId="314981645427004494" fileName="RunConfigCreator_Behavior.java" startLine="11" startPosition="0" endLine="44" endPosition="0" unitName="jetbrains.mps.execution.configurations.deprecated.behavior.RunConfigCreator_Behavior" />
-  </root>
-  <root nodeId="314981645427004509">
-    <nodeInfo nodeId="314981645427004514" fileName="RunModelConfigCreator_Behavior.java" startLine="13" startPosition="90" endLine="14" endPosition="160" conceptFqName="jetbrains.mps.baseLanguage.structure.ReturnStatement" />
-    <nodeInfo nodeId="314981645427004518" fileName="RunModelConfigCreator_Behavior.java" startLine="17" startPosition="78" endLine="18" endPosition="82" conceptFqName="jetbrains.mps.baseLanguage.structure.ReturnStatement" />
-    <nodeInfo nodeId="314981645427004509" fileName="RunModelConfigCreator_Behavior.java" startLine="9" startPosition="45" endLine="12" endPosition="0" conceptFqName="jetbrains.mps.baseLanguage.structure.StaticMethodDeclaration" propertyString="init#(Ljetbrains/mps/smodel/SNode;)V" />
-    <nodeInfo nodeId="314981645427004509" fileName="RunModelConfigCreator_Behavior.java" startLine="12" startPosition="0" endLine="16" endPosition="0" conceptFqName="jetbrains.mps.baseLanguage.structure.StaticMethodDeclaration" propertyString="virtual_getCreatorTypeParameter_314981645427004497#(Ljetbrains/mps/smodel/SNode;)Ljetbrains/mps/smodel/SNode;" />
-    <nodeInfo nodeId="314981645427004509" fileName="RunModelConfigCreator_Behavior.java" startLine="16" startPosition="0" endLine="20" endPosition="0" conceptFqName="jetbrains.mps.baseLanguage.structure.StaticMethodDeclaration" propertyString="virtual_getFunction_314981645427004503#(Ljetbrains/mps/smodel/SNode;)Ljetbrains/mps/smodel/SNode;" />
-    <scopeInfo nodeId="314981645427004525" fileName="RunModelConfigCreator_Behavior.java" startLine="10" startPosition="43" endLine="10" endPosition="43" />
-    <scopeInfo nodeId="314981645427004513" fileName="RunModelConfigCreator_Behavior.java" startLine="13" startPosition="90" endLine="14" endPosition="160" />
-    <scopeInfo nodeId="314981645427004517" fileName="RunModelConfigCreator_Behavior.java" startLine="17" startPosition="78" endLine="18" endPosition="82" />
-    <scopeInfo nodeId="314981645427004509" fileName="RunModelConfigCreator_Behavior.java" startLine="9" startPosition="45" endLine="12" endPosition="0">
-      <varInfo nodeId="314981645427004509" varName="thisNode" />
-    </scopeInfo>
-    <scopeInfo nodeId="314981645427004509" fileName="RunModelConfigCreator_Behavior.java" startLine="12" startPosition="0" endLine="16" endPosition="0">
-      <varInfo nodeId="314981645427004509" varName="thisNode" />
-    </scopeInfo>
-    <scopeInfo nodeId="314981645427004509" fileName="RunModelConfigCreator_Behavior.java" startLine="16" startPosition="0" endLine="20" endPosition="0">
-      <varInfo nodeId="314981645427004509" varName="thisNode" />
-    </scopeInfo>
-    <unitInfo nodeId="314981645427004509" fileName="RunModelConfigCreator_Behavior.java" startLine="9" startPosition="0" endLine="21" endPosition="0" unitName="jetbrains.mps.execution.configurations.deprecated.behavior.RunModelConfigCreator_Behavior" />
-  </root>
-  <root nodeId="314981645427004526">
-    <nodeInfo nodeId="314981645427004529" fileName="RunModuleConfigCreator_Behavior.java" startLine="13" startPosition="90" endLine="14" endPosition="163" conceptFqName="jetbrains.mps.baseLanguage.structure.ReturnStatement" />
-    <nodeInfo nodeId="314981645427004535" fileName="RunModuleConfigCreator_Behavior.java" startLine="17" startPosition="78" endLine="18" endPosition="83" conceptFqName="jetbrains.mps.baseLanguage.structure.ReturnStatement" />
-    <nodeInfo nodeId="314981645427004526" fileName="RunModuleConfigCreator_Behavior.java" startLine="9" startPosition="46" endLine="12" endPosition="0" conceptFqName="jetbrains.mps.baseLanguage.structure.StaticMethodDeclaration" propertyString="init#(Ljetbrains/mps/smodel/SNode;)V" />
-    <nodeInfo nodeId="314981645427004526" fileName="RunModuleConfigCreator_Behavior.java" startLine="12" startPosition="0" endLine="16" endPosition="0" conceptFqName="jetbrains.mps.baseLanguage.structure.StaticMethodDeclaration" propertyString="virtual_getCreatorTypeParameter_314981645427004497#(Ljetbrains/mps/smodel/SNode;)Ljetbrains/mps/smodel/SNode;" />
-    <nodeInfo nodeId="314981645427004526" fileName="RunModuleConfigCreator_Behavior.java" startLine="16" startPosition="0" endLine="20" endPosition="0" conceptFqName="jetbrains.mps.baseLanguage.structure.StaticMethodDeclaration" propertyString="virtual_getFunction_314981645427004503#(Ljetbrains/mps/smodel/SNode;)Ljetbrains/mps/smodel/SNode;" />
-    <scopeInfo nodeId="314981645427004542" fileName="RunModuleConfigCreator_Behavior.java" startLine="10" startPosition="43" endLine="10" endPosition="43" />
-    <scopeInfo nodeId="314981645427004528" fileName="RunModuleConfigCreator_Behavior.java" startLine="13" startPosition="90" endLine="14" endPosition="163" />
-    <scopeInfo nodeId="314981645427004534" fileName="RunModuleConfigCreator_Behavior.java" startLine="17" startPosition="78" endLine="18" endPosition="83" />
-    <scopeInfo nodeId="314981645427004526" fileName="RunModuleConfigCreator_Behavior.java" startLine="9" startPosition="46" endLine="12" endPosition="0">
-      <varInfo nodeId="314981645427004526" varName="thisNode" />
-    </scopeInfo>
-    <scopeInfo nodeId="314981645427004526" fileName="RunModuleConfigCreator_Behavior.java" startLine="12" startPosition="0" endLine="16" endPosition="0">
-      <varInfo nodeId="314981645427004526" varName="thisNode" />
-    </scopeInfo>
-    <scopeInfo nodeId="314981645427004526" fileName="RunModuleConfigCreator_Behavior.java" startLine="16" startPosition="0" endLine="20" endPosition="0">
-      <varInfo nodeId="314981645427004526" varName="thisNode" />
-    </scopeInfo>
-    <unitInfo nodeId="314981645427004526" fileName="RunModuleConfigCreator_Behavior.java" startLine="9" startPosition="0" endLine="21" endPosition="0" unitName="jetbrains.mps.execution.configurations.deprecated.behavior.RunModuleConfigCreator_Behavior" />
-  </root>
-  <root nodeId="314981645427004543">
-    <nodeInfo nodeId="314981645427004546" fileName="RunNodeConfigCreator_Behavior.java" startLine="13" startPosition="90" endLine="14" endPosition="159" conceptFqName="jetbrains.mps.baseLanguage.structure.ReturnStatement" />
-    <nodeInfo nodeId="314981645427004552" fileName="RunNodeConfigCreator_Behavior.java" startLine="17" startPosition="78" endLine="18" endPosition="81" conceptFqName="jetbrains.mps.baseLanguage.structure.ReturnStatement" />
-    <nodeInfo nodeId="314981645427004543" fileName="RunNodeConfigCreator_Behavior.java" startLine="9" startPosition="44" endLine="12" endPosition="0" conceptFqName="jetbrains.mps.baseLanguage.structure.StaticMethodDeclaration" propertyString="init#(Ljetbrains/mps/smodel/SNode;)V" />
-    <nodeInfo nodeId="314981645427004543" fileName="RunNodeConfigCreator_Behavior.java" startLine="12" startPosition="0" endLine="16" endPosition="0" conceptFqName="jetbrains.mps.baseLanguage.structure.StaticMethodDeclaration" propertyString="virtual_getCreatorTypeParameter_314981645427004497#(Ljetbrains/mps/smodel/SNode;)Ljetbrains/mps/smodel/SNode;" />
-    <nodeInfo nodeId="314981645427004543" fileName="RunNodeConfigCreator_Behavior.java" startLine="16" startPosition="0" endLine="20" endPosition="0" conceptFqName="jetbrains.mps.baseLanguage.structure.StaticMethodDeclaration" propertyString="virtual_getFunction_314981645427004503#(Ljetbrains/mps/smodel/SNode;)Ljetbrains/mps/smodel/SNode;" />
-    <scopeInfo nodeId="314981645427004559" fileName="RunNodeConfigCreator_Behavior.java" startLine="10" startPosition="43" endLine="10" endPosition="43" />
-    <scopeInfo nodeId="314981645427004545" fileName="RunNodeConfigCreator_Behavior.java" startLine="13" startPosition="90" endLine="14" endPosition="159" />
-    <scopeInfo nodeId="314981645427004551" fileName="RunNodeConfigCreator_Behavior.java" startLine="17" startPosition="78" endLine="18" endPosition="81" />
-    <scopeInfo nodeId="314981645427004543" fileName="RunNodeConfigCreator_Behavior.java" startLine="9" startPosition="44" endLine="12" endPosition="0">
-      <varInfo nodeId="314981645427004543" varName="thisNode" />
-    </scopeInfo>
-    <scopeInfo nodeId="314981645427004543" fileName="RunNodeConfigCreator_Behavior.java" startLine="12" startPosition="0" endLine="16" endPosition="0">
-      <varInfo nodeId="314981645427004543" varName="thisNode" />
-    </scopeInfo>
-    <scopeInfo nodeId="314981645427004543" fileName="RunNodeConfigCreator_Behavior.java" startLine="16" startPosition="0" endLine="20" endPosition="0">
-      <varInfo nodeId="314981645427004543" varName="thisNode" />
-    </scopeInfo>
-    <unitInfo nodeId="314981645427004543" fileName="RunNodeConfigCreator_Behavior.java" startLine="9" startPosition="0" endLine="21" endPosition="0" unitName="jetbrains.mps.execution.configurations.deprecated.behavior.RunNodeConfigCreator_Behavior" />
   </root>
   <root nodeId="314981645427004560">
     <nodeInfo nodeId="314981645427004563" fileName="RunConfigExecutionParameterDeclaration_Behavior.java" startLine="12" startPosition="106" endLine="13" endPosition="179" conceptFqName="jetbrains.mps.baseLanguage.structure.ReturnStatement" />

@@ -20,7 +20,7 @@ import jetbrains.mps.debug.api.IDebugger;
 import jetbrains.mps.debug.api.Debuggers;
 
 @Deprecated
-@ToRemove(version = 2.0)
+@ToRemove(version = 2.1)
 public abstract class BaseRunProfileState extends DebuggerRunProfileState {
   private final Map<Key, Object> myUserData = new HashMap<Key, Object>();
 

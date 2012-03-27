@@ -25,7 +25,6 @@
   <import index="hxfr" modelUID="f:java_stub#920eaa0e-ecca-46bc-bee7-4e5c59213dd6#jetbrains.mps(Testbench/jetbrains.mps@java_stub)" version="-1" />
   <import index="tpck" modelUID="r:00000000-0000-4000-0000-011c89590288(jetbrains.mps.lang.core.structure)" version="0" implicit="yes" />
   <import index="tp25" modelUID="r:00000000-0000-4000-0000-011c89590301(jetbrains.mps.lang.smodel.structure)" version="16" implicit="yes" />
-  <import index="11eb" modelUID="r:550fbd90-c9f2-4576-a8a6-223eca16d68b(jetbrains.mps.execution.configurations.deprecated.structure)" version="4" implicit="yes" />
   <roots>
     <node type="tpce.ConceptDeclaration" typeId="tpce.1071489090640" id="8456022385895583119">
       <property name="name" nameId="tpck.1169194664001" value="JavaNodeRunConfiguration" />
@@ -385,21 +384,6 @@
       <property name="name" nameId="tpck.1169194664001" value="ProcessHandlerStatement" />
       <property name="virtualPackage" nameId="tpck.1193676396447" value="DEPRECATED" />
       <link role="extends" roleId="tpce.1071489389519" targetNodeId="tpee.1068580123157" resolveInfo="Statement" />
-    </node>
-    <node type="tpce.ConceptDeclaration" typeId="tpce.1071489090640" id="314981645427003902">
-      <property name="name" nameId="tpck.1169194664001" value="RunNodeConfigCreator" />
-      <property name="virtualPackage" nameId="tpck.1193676396447" value="DEPRECATED" />
-      <link role="extends" roleId="tpce.1071489389519" targetNodeId="314981645427003920" resolveInfo="RunConfigCreator" />
-    </node>
-    <node type="tpce.ConceptDeclaration" typeId="tpce.1071489090640" id="314981645427003907">
-      <property name="name" nameId="tpck.1169194664001" value="RunModuleConfigCreator" />
-      <property name="virtualPackage" nameId="tpck.1193676396447" value="DEPRECATED" />
-      <link role="extends" roleId="tpce.1071489389519" targetNodeId="314981645427003920" resolveInfo="RunConfigCreator" />
-    </node>
-    <node type="tpce.ConceptDeclaration" typeId="tpce.1071489090640" id="314981645427003912">
-      <property name="name" nameId="tpck.1169194664001" value="RunModelConfigCreator" />
-      <property name="virtualPackage" nameId="tpck.1193676396447" value="DEPRECATED" />
-      <link role="extends" roleId="tpce.1071489389519" targetNodeId="314981645427003920" resolveInfo="RunConfigCreator" />
     </node>
     <node type="tpce.ConceptDeclaration" typeId="tpce.1071489090640" id="314981645427003917">
       <property name="name" nameId="tpck.1169194664001" value="RunConfigExecutionParameterDeclaration" />
@@ -1389,54 +1373,6 @@
     <node role="smodelAttribute" roleId="tpck.5169995583184591170" type="tpce.DeprecatedNodeAnnotation" typeId="tpce.1224240836180" id="314981645426831727">
       <property name="comment" nameId="tpce.1225118933224" value="deprecated before being added to any release version - remove" />
     </node>
-  </root>
-  <root id="314981645427003902">
-    <node role="linkDeclaration" roleId="tpce.1071489727083" type="tpce.LinkDeclaration" typeId="tpce.1071489288298" id="314981645427003903">
-      <property name="metaClass" nameId="tpce.1071599937831" value="aggregation" />
-      <property name="role" nameId="tpce.1071599776563" value="createNodeRunConfigBlock" />
-      <property name="sourceCardinality" nameId="tpce.1071599893252" value="1" />
-      <link role="target" roleId="tpce.1071599976176" targetNodeId="tp4k.8415911927033048375" resolveInfo="CreateNodeRunConfigBlock" />
-    </node>
-    <node role="conceptProperty" roleId="tpce.1105725339613" type="tpce.StringConceptProperty" typeId="tpce.1105725638761" id="314981645427003904">
-      <property name="value" nameId="tpce.1105725733873" value="run configuration creator from node" />
-      <link role="conceptPropertyDeclaration" roleId="tpce.1105725439818" targetNodeId="tpck.1137473891462" resolveInfo="alias" />
-    </node>
-    <node role="conceptProperty" roleId="tpce.1105725339613" type="tpce.BooleanConceptProperty" typeId="tpce.1105725574259" id="314981645427003905">
-      <link role="conceptPropertyDeclaration" roleId="tpce.1105725439818" targetNodeId="tpck.1137473994950" resolveInfo="dontSubstituteByDefault" />
-    </node>
-    <node role="smodelAttribute" roleId="tpck.5169995583184591170" type="tpce.DeprecatedNodeAnnotation" typeId="tpce.1224240836180" id="314981645427003906" />
-  </root>
-  <root id="314981645427003907">
-    <node role="conceptProperty" roleId="tpce.1105725339613" type="tpce.StringConceptProperty" typeId="tpce.1105725638761" id="314981645427003908">
-      <property name="value" nameId="tpce.1105725733873" value="run configuration creator from module" />
-      <link role="conceptPropertyDeclaration" roleId="tpce.1105725439818" targetNodeId="tpck.1137473891462" resolveInfo="alias" />
-    </node>
-    <node role="conceptProperty" roleId="tpce.1105725339613" type="tpce.BooleanConceptProperty" typeId="tpce.1105725574259" id="314981645427003909">
-      <link role="conceptPropertyDeclaration" roleId="tpce.1105725439818" targetNodeId="tpck.1137473994950" resolveInfo="dontSubstituteByDefault" />
-    </node>
-    <node role="linkDeclaration" roleId="tpce.1071489727083" type="tpce.LinkDeclaration" typeId="tpce.1071489288298" id="314981645427003910">
-      <property name="metaClass" nameId="tpce.1071599937831" value="aggregation" />
-      <property name="role" nameId="tpce.1071599776563" value="createModuleRunConfigBlock" />
-      <property name="sourceCardinality" nameId="tpce.1071599893252" value="1" />
-      <link role="target" roleId="tpce.1071599976176" targetNodeId="tp4k.5854436268949437221" resolveInfo="CreateModuleRunConfigBlock" />
-    </node>
-    <node role="smodelAttribute" roleId="tpck.5169995583184591170" type="tpce.DeprecatedNodeAnnotation" typeId="tpce.1224240836180" id="314981645427003911" />
-  </root>
-  <root id="314981645427003912">
-    <node role="conceptProperty" roleId="tpce.1105725339613" type="tpce.StringConceptProperty" typeId="tpce.1105725638761" id="314981645427003913">
-      <property name="value" nameId="tpce.1105725733873" value="run configuration creator from model" />
-      <link role="conceptPropertyDeclaration" roleId="tpce.1105725439818" targetNodeId="tpck.1137473891462" resolveInfo="alias" />
-    </node>
-    <node role="conceptProperty" roleId="tpce.1105725339613" type="tpce.BooleanConceptProperty" typeId="tpce.1105725574259" id="314981645427003914">
-      <link role="conceptPropertyDeclaration" roleId="tpce.1105725439818" targetNodeId="tpck.1137473994950" resolveInfo="dontSubstituteByDefault" />
-    </node>
-    <node role="linkDeclaration" roleId="tpce.1071489727083" type="tpce.LinkDeclaration" typeId="tpce.1071489288298" id="314981645427003915">
-      <property name="metaClass" nameId="tpce.1071599937831" value="aggregation" />
-      <property name="role" nameId="tpce.1071599776563" value="createModelRunConfigBlock" />
-      <property name="sourceCardinality" nameId="tpce.1071599893252" value="1" />
-      <link role="target" roleId="tpce.1071599976176" targetNodeId="tp4k.5854436268949437222" resolveInfo="CreateModelRunConfigBlock" />
-    </node>
-    <node role="smodelAttribute" roleId="tpck.5169995583184591170" type="tpce.DeprecatedNodeAnnotation" typeId="tpce.1224240836180" id="314981645427003916" />
   </root>
   <root id="314981645427003917">
     <node role="conceptLink" roleId="tpce.1105736949336" type="tpce.ReferenceConceptLink" typeId="tpce.1105736778597" id="314981645427003918">
