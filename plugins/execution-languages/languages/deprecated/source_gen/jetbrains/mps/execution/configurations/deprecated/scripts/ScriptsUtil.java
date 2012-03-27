@@ -13,6 +13,8 @@ import jetbrains.mps.lang.smodel.generator.smodelAdapter.SNodeOperations;
 import jetbrains.mps.internal.collections.runtime.ListSequence;
 import jetbrains.mps.internal.collections.runtime.IVisitor;
 import jetbrains.mps.smodel.SReference;
+import org.apache.commons.lang.StringUtils;
+import jetbrains.mps.smodel.StaticReference;
 
 public class ScriptsUtil {
   public ScriptsUtil() {
@@ -30,7 +32,7 @@ public class ScriptsUtil {
     });
   }
 
-  public static void updateNode(final SNode node, String longName, SModelReference newModelReference) {
+  public static void updateReferencesToModel(final SNode node, String longName, SModelReference newModelReference) {
     List<SModel.ImportElement> imports = Sequence.fromIterable(ScriptsUtil.getImports(SNodeOperations.getModel(node), longName)).toListSequence();
     ListSequence.fromList(imports).visitAll(new IVisitor<SModel.ImportElement>() {
       public void visit(SModel.ImportElement it) {
@@ -46,6 +48,26 @@ public class ScriptsUtil {
           ref.setTargetSModelReference(newModelReference);
         }
       }
+    }
+  }
+
+  public static void updateReferencesToClassifier(SNode node, String modelLongName, String classifierName, SModelReference newModelReference, SNode newNodeToReference) {
+    boolean found = false;
+    for (SNode childNode : ListSequence.fromList(SNodeOperations.getDescendants(node, null, true, new String[]{}))) {
+      List<SReference> references = childNode.getReferences();
+      for (SReference ref : ListSequence.fromList(references)) {
+        String resolveInfo = ref.getResolveInfo();
+        if (ref.getTargetSModelReference().getLongName().equals(modelLongName) && (StringUtils.isNotEmpty(resolveInfo) && resolveInfo.contains(classifierName))) {
+          found = true;
+          ref.setTargetSModelReference(newModelReference);
+          if (ref instanceof StaticReference) {
+            ((StaticReference) ref).setTargetNodeId(newNodeToReference.getSNodeId());
+          }
+        }
+      }
+    }
+    if (found) {
+      SNodeOperations.getModel(node).addModelImport(newModelReference, false);
     }
   }
 }
