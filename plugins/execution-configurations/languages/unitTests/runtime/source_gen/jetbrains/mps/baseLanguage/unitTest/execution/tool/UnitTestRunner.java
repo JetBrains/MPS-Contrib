@@ -36,7 +36,7 @@ import java.util.LinkedHashSet;
  * Use junit command instead of it.
  */
 @Deprecated
-@ToRemove(version = 2.0)
+@ToRemove(version = 2.1)
 public class UnitTestRunner extends BaseRunner {
   private static final int MAX_COMMAND_LINE = 16384;
   protected static Log log = LogFactory.getLog(UnitTestRunner.class);
