@@ -4,35 +4,35 @@ package jetbrains.mps.execution.configurations.deprecated.behavior;
 
 import jetbrains.mps.lang.core.behavior.BaseConcept_BehaviorDescriptor;
 import jetbrains.mps.lang.core.behavior.INamedConcept_BehaviorDescriptor;
-import jetbrains.mps.lang.plugin.behavior.ICheckedNamePolicy_BehaviorDescriptor;
-import java.util.List;
-import jetbrains.mps.smodel.SNode;
-import jetbrains.mps.lang.plugin.behavior.ICheckedNamePolicy_Behavior;
+import jetbrains.mps.lang.checkedName.behavior.ICheckedNamePolicy_BehaviorDescriptor;
 import jetbrains.mps.checkedName.PropertyReference;
+import jetbrains.mps.smodel.SNode;
+import java.util.List;
+import jetbrains.mps.lang.checkedName.behavior.ICheckedNamePolicy_Behavior;
 import jetbrains.mps.lang.core.behavior.INamedConcept_Behavior;
 
 public class RunConfigurationTypeDeclaration_BehaviorDescriptor extends BaseConcept_BehaviorDescriptor implements INamedConcept_BehaviorDescriptor, ICheckedNamePolicy_BehaviorDescriptor {
   public RunConfigurationTypeDeclaration_BehaviorDescriptor() {
   }
 
-  public List<SNode> virtual_getDescendantsToCheck_1628770029971140562(SNode thisNode) {
-    return ICheckedNamePolicy_Behavior.virtual_getDescendantsToCheck_1628770029971140562(thisNode);
+  public PropertyReference virtual_getPropertyToCheck_4844813484172611473(SNode thisNode) {
+    return RunConfigurationTypeDeclaration_Behavior.virtual_getPropertyToCheck_4844813484172611473(thisNode);
   }
 
-  public List<PropertyReference> virtual_getPropertiesToCheck_1628770029971140570(SNode thisNode) {
-    return ICheckedNamePolicy_Behavior.virtual_getPropertiesToCheck_1628770029971140570(thisNode);
+  public List<SNode> virtual_getDescendantsToCheck_4844813484172611413(SNode thisNode) {
+    return ICheckedNamePolicy_Behavior.virtual_getDescendantsToCheck_4844813484172611413(thisNode);
   }
 
-  public SNode virtual_getDescendantToCheck_3745452943050928880(SNode thisNode) {
-    return ICheckedNamePolicy_Behavior.virtual_getDescendantToCheck_3745452943050928880(thisNode);
-  }
-
-  public PropertyReference virtual_getPropertyToCheck_5003188907305392322(SNode thisNode) {
-    return RunConfigurationTypeDeclaration_Behavior.virtual_getPropertyToCheck_5003188907305392322(thisNode);
+  public List<PropertyReference> virtual_getPropertiesToCheck_4844813484172611445(SNode thisNode) {
+    return ICheckedNamePolicy_Behavior.virtual_getPropertiesToCheck_4844813484172611445(thisNode);
   }
 
   public String virtual_getFqName_1213877404258(SNode thisNode) {
     return INamedConcept_Behavior.virtual_getFqName_1213877404258(thisNode);
+  }
+
+  public SNode virtual_getDescendantToCheck_4844813484172611439(SNode thisNode) {
+    return ICheckedNamePolicy_Behavior.virtual_getDescendantToCheck_4844813484172611439(thisNode);
   }
 
   @Override

@@ -5,12 +5,12 @@ package jetbrains.mps.execution.configurations.deprecated.behavior;
 import jetbrains.mps.lang.core.behavior.BaseConcept_BehaviorDescriptor;
 import jetbrains.mps.lang.core.behavior.INamedConcept_BehaviorDescriptor;
 import jetbrains.mps.baseLanguage.classifiers.behavior.IClassifier_BehaviorDescriptor;
-import jetbrains.mps.lang.plugin.behavior.ICheckedNamePolicy_BehaviorDescriptor;
+import jetbrains.mps.lang.checkedName.behavior.ICheckedNamePolicy_BehaviorDescriptor;
 import jetbrains.mps.smodel.SNode;
 import java.util.List;
 import jetbrains.mps.baseLanguage.classifiers.behavior.IClassifier_Behavior;
-import jetbrains.mps.lang.plugin.behavior.ICheckedNamePolicy_Behavior;
 import jetbrains.mps.checkedName.PropertyReference;
+import jetbrains.mps.lang.checkedName.behavior.ICheckedNamePolicy_Behavior;
 import jetbrains.mps.baseLanguage.util.plugin.refactorings.IExtractMethodRefactoringProcessor;
 import jetbrains.mps.lang.core.behavior.INamedConcept_Behavior;
 
@@ -26,20 +26,16 @@ public class RunConfigurationDeclaration_BehaviorDescriptor extends BaseConcept_
     return IClassifier_Behavior.virtual_getMembers_1213877528124(thisNode);
   }
 
-  public List<SNode> virtual_getDescendantsToCheck_1628770029971140562(SNode thisNode) {
-    return ICheckedNamePolicy_Behavior.virtual_getDescendantsToCheck_1628770029971140562(thisNode);
-  }
-
   public List<SNode> virtual_getMembers_1213877528020(SNode thisNode, SNode contextNode) {
     return RunConfigurationDeclaration_Behavior.virtual_getMembers_1213877528020(thisNode, contextNode);
   }
 
-  public PropertyReference virtual_getPropertyToCheck_5003188907305392322(SNode thisNode) {
-    return RunConfigurationDeclaration_Behavior.virtual_getPropertyToCheck_5003188907305392322(thisNode);
-  }
-
   public List<SNode> virtual_getParts_1213877527988(SNode thisNode) {
     return IClassifier_Behavior.virtual_getParts_1213877527988(thisNode);
+  }
+
+  public List<PropertyReference> virtual_getPropertiesToCheck_4844813484172611445(SNode thisNode) {
+    return ICheckedNamePolicy_Behavior.virtual_getPropertiesToCheck_4844813484172611445(thisNode);
   }
 
   public SNode virtual_createSuperType_1217433657148(SNode thisNode) {
@@ -50,12 +46,12 @@ public class RunConfigurationDeclaration_BehaviorDescriptor extends BaseConcept_
     return IClassifier_Behavior.virtual_getExtractMethodRefactoringProcessor_1221393367929(thisNode, nodesToRefactor);
   }
 
-  public List<PropertyReference> virtual_getPropertiesToCheck_1628770029971140570(SNode thisNode) {
-    return ICheckedNamePolicy_Behavior.virtual_getPropertiesToCheck_1628770029971140570(thisNode);
+  public PropertyReference virtual_getPropertyToCheck_4844813484172611473(SNode thisNode) {
+    return RunConfigurationDeclaration_Behavior.virtual_getPropertyToCheck_4844813484172611473(thisNode);
   }
 
-  public SNode virtual_getDescendantToCheck_3745452943050928880(SNode thisNode) {
-    return ICheckedNamePolicy_Behavior.virtual_getDescendantToCheck_3745452943050928880(thisNode);
+  public List<SNode> virtual_getDescendantsToCheck_4844813484172611413(SNode thisNode) {
+    return ICheckedNamePolicy_Behavior.virtual_getDescendantsToCheck_4844813484172611413(thisNode);
   }
 
   public SNode virtual_getStateType_314981645426570519(SNode thisNode) {
@@ -64,6 +60,10 @@ public class RunConfigurationDeclaration_BehaviorDescriptor extends BaseConcept_
 
   public String virtual_getFqName_1213877404258(SNode thisNode) {
     return INamedConcept_Behavior.virtual_getFqName_1213877404258(thisNode);
+  }
+
+  public SNode virtual_getDescendantToCheck_4844813484172611439(SNode thisNode) {
+    return ICheckedNamePolicy_Behavior.virtual_getDescendantToCheck_4844813484172611439(thisNode);
   }
 
   @Override

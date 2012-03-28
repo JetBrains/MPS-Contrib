@@ -48,7 +48,7 @@ public class RunConfigurationDeclaration_Behavior {
     return SNodeOperations.getModel(thisNode).getLongName() + "." + RunConfigurationDeclaration_Behavior.call_getGeneratedFactoryName_314981645426570449(thisNode);
   }
 
-  public static PropertyReference virtual_getPropertyToCheck_5003188907305392322(SNode thisNode) {
+  public static PropertyReference virtual_getPropertyToCheck_4844813484172611473(SNode thisNode) {
     return new PropertyReference(thisNode, "caption");
   }
 
