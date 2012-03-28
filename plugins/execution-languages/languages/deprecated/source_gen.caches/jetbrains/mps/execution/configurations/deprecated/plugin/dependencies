@@ -8,7 +8,6 @@
     <classNode dependClassName="java.util.Set" />
     <classNode dependClassName="jetbrains.mps.baseLanguage.classifiers.behavior.ThisClassifierExpression_Behavior" />
     <classNode dependClassName="jetbrains.mps.execution.configurations.deprecated.behavior.BaseCreatorTarget_Behavior" />
-    <classNode dependClassName="jetbrains.mps.execution.configurations.deprecated.behavior.RunConfigCreator_Behavior" />
     <classNode dependClassName="jetbrains.mps.execution.configurations.deprecated.behavior.RunConfigurationDeclaration_Behavior" />
     <classNode dependClassName="jetbrains.mps.execution.configurations.deprecated.behavior.RunConfigurationTypeDeclaration_Behavior" />
     <classNode dependClassName="jetbrains.mps.execution.configurations.deprecated.generator.util.VariableNameUtil" />
