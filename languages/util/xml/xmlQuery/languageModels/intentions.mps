@@ -2,7 +2,6 @@
 <model modelUID="r:8f700e9e-5913-47c1-bdb0-221d47528dda(jetbrains.mps.xmlQuery.intentions)">
   <persistence version="7" />
   <language namespace="d7a92d38-f7db-40d0-8431-763b0c3c9f20(jetbrains.mps.lang.intentions)" />
-  <language namespace="a8fdde77-2e6c-41f6-ac79-8e9b6449c271(jetbrains.mps.xmlQuery)" />
   <language namespace="f3061a53-9226-4cc5-a443-f952ceaf5816(jetbrains.mps.baseLanguage)" />
   <language namespace="7866978e-a0f0-4cc7-81bc-4d213d9375e1(jetbrains.mps.lang.smodel)" />
   <language namespace="aee9cad2-acd4-4608-aef2-0004f6a1cdbd(jetbrains.mps.lang.actions)" />
@@ -39,7 +38,7 @@
             <node role="condition" roleId="tpee.1163668914799" type="tpee.DotExpression" typeId="tpee.1197027756228" id="2286463592495372558">
               <node role="operand" roleId="tpee.1197027771414" type="tp3j.ConceptFunctionParameter_node" typeId="tp3j.1192796902958" id="2286463592495372557" />
               <node role="operation" roleId="tpee.1197027833540" type="tp25.SPropertyAccess" typeId="tp25.1138056022639" id="2286463592495373115">
-                <link role="property" roleId="tp25.1138056395725" targetNodeId="mlj4.2286463592495362657" resolveInfo="hasAttributesOnly" />
+                <link role="property" roleId="tp25.1138056395725" targetNodeId="mlj4.2286463592495362657" resolveInfo="isCompact" />
               </node>
             </node>
           </node>
@@ -53,14 +52,14 @@
             <node role="lValue" roleId="tpee.1068498886295" type="tpee.DotExpression" typeId="tpee.1197027756228" id="2286463592495373124">
               <node role="operand" roleId="tpee.1197027771414" type="tp3j.ConceptFunctionParameter_node" typeId="tp3j.1192796902958" id="2286463592495373123" />
               <node role="operation" roleId="tpee.1197027833540" type="tp25.SPropertyAccess" typeId="tp25.1138056022639" id="2286463592495373128">
-                <link role="property" roleId="tp25.1138056395725" targetNodeId="mlj4.2286463592495362657" resolveInfo="hasAttributesOnly" />
+                <link role="property" roleId="tp25.1138056395725" targetNodeId="mlj4.2286463592495362657" resolveInfo="isCompact" />
               </node>
             </node>
             <node role="rValue" roleId="tpee.1068498886297" type="tpee.NotExpression" typeId="tpee.1081516740877" id="2286463592495373132">
               <node role="expression" roleId="tpee.1081516765348" type="tpee.DotExpression" typeId="tpee.1197027756228" id="2286463592495373135">
                 <node role="operand" roleId="tpee.1197027771414" type="tp3j.ConceptFunctionParameter_node" typeId="tp3j.1192796902958" id="2286463592495373134" />
                 <node role="operation" roleId="tpee.1197027833540" type="tp25.SPropertyAccess" typeId="tp25.1138056022639" id="2286463592495373139">
-                  <link role="property" roleId="tp25.1138056395725" targetNodeId="mlj4.2286463592495362657" resolveInfo="hasAttributesOnly" />
+                  <link role="property" roleId="tp25.1138056395725" targetNodeId="mlj4.2286463592495362657" resolveInfo="isCompact" />
                 </node>
               </node>
             </node>

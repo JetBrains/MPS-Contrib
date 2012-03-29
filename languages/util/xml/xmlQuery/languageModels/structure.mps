@@ -2,7 +2,6 @@
 <model modelUID="r:bd6e2c7d-3a5d-4eed-9ff9-27f23ecb34e2(jetbrains.mps.xmlQuery.structure)" version="4">
   <persistence version="7" />
   <language namespace="c72da2b9-7cce-4447-8389-f407dc1158b7(jetbrains.mps.lang.structure)" />
-  <language namespace="ceab5195-25ea-4f22-9b92-103b95ca8c0c(jetbrains.mps.lang.core)" />
   <language namespace="f3061a53-9226-4cc5-a443-f952ceaf5816(jetbrains.mps.baseLanguage)" />
   <devkit namespace="fbc25dd2-5da4-483a-8b19-70928e1b62d7(jetbrains.mps.devkit.general-purpose)" />
   <import index="tpj8" modelUID="r:00000000-0000-4000-0000-011c89590598(jetbrains.mps.xmlSchema.structure)" version="3" />
@@ -16,7 +15,7 @@
     <node type="tpce.ConceptDeclaration" typeId="tpce.1071489090640" id="4815471077468621634">
       <property name="name" nameId="tpck.1169194664001" value="AccessChildrenOperation" />
       <property name="virtualPackage" nameId="tpck.1193676396447" value="operations" />
-      <link role="extends" roleId="tpce.1071489389519" targetNodeId="4991903842868303816" resolveInfo="XMLNodeOperation" />
+      <link role="extends" roleId="tpce.1071489389519" targetNodeId="4991903842868303816" resolveInfo="XMLElementOperation" />
     </node>
     <node type="tpce.ConceptDeclaration" typeId="tpce.1071489090640" id="4815471077468621637">
       <property name="name" nameId="tpck.1169194664001" value="XMLElementType" />
@@ -31,22 +30,22 @@
       <property name="name" nameId="tpck.1169194664001" value="AccessAttributeOperation" />
       <property name="iconPath" nameId="tpce.1160488491229" value="${mps_home}/languages/baseLanguage/baseLanguage/icons/fieldNew.png" />
       <property name="virtualPackage" nameId="tpck.1193676396447" value="operations" />
-      <link role="extends" roleId="tpce.1071489389519" targetNodeId="4991903842868303816" resolveInfo="XMLNodeOperation" />
+      <link role="extends" roleId="tpce.1071489389519" targetNodeId="4991903842868303816" resolveInfo="XMLElementOperation" />
     </node>
     <node type="tpce.ConceptDeclaration" typeId="tpce.1071489090640" id="634907465121461799">
       <property name="name" nameId="tpck.1169194664001" value="AccessArbitraryChildrenOperation" />
       <property name="virtualPackage" nameId="tpck.1193676396447" value="operations" />
-      <link role="extends" roleId="tpce.1071489389519" targetNodeId="4991903842868303816" resolveInfo="XMLNodeOperation" />
+      <link role="extends" roleId="tpce.1071489389519" targetNodeId="4991903842868303816" resolveInfo="XMLElementOperation" />
     </node>
     <node type="tpce.ConceptDeclaration" typeId="tpce.1071489090640" id="634907465121463881">
       <property name="name" nameId="tpck.1169194664001" value="AccessArbitraryAttributeOperation" />
       <property name="virtualPackage" nameId="tpck.1193676396447" value="operations" />
-      <link role="extends" roleId="tpce.1071489389519" targetNodeId="4991903842868303816" resolveInfo="XMLNodeOperation" />
+      <link role="extends" roleId="tpce.1071489389519" targetNodeId="4991903842868303816" resolveInfo="XMLElementOperation" />
     </node>
     <node type="tpce.ConceptDeclaration" typeId="tpce.1071489090640" id="4203809819610731778">
       <property name="name" nameId="tpck.1169194664001" value="AccessTextOperation" />
       <property name="virtualPackage" nameId="tpck.1193676396447" value="operations" />
-      <link role="extends" roleId="tpce.1071489389519" targetNodeId="4991903842868303816" resolveInfo="XMLNodeOperation" />
+      <link role="extends" roleId="tpce.1071489389519" targetNodeId="4991903842868303816" resolveInfo="XMLElementOperation" />
     </node>
     <node type="tpce.ConceptDeclaration" typeId="tpce.1071489090640" id="4705273682234223462">
       <property name="name" nameId="tpck.1169194664001" value="XMLElementCreator" />
@@ -318,13 +317,13 @@
       <property name="metaClass" nameId="tpce.1071599937831" value="reference" />
       <property name="role" nameId="tpce.1071599776563" value="root" />
       <property name="sourceCardinality" nameId="tpce.1071599893252" value="1" />
-      <link role="target" roleId="tpce.1071599976176" targetNodeId="4635390255047863051" resolveInfo="XMLSAXNode" />
+      <link role="target" roleId="tpce.1071599976176" targetNodeId="4635390255047863051" resolveInfo="XMLSAXNodeRule" />
     </node>
     <node role="linkDeclaration" roleId="tpce.1071489727083" type="tpce.LinkDeclaration" typeId="tpce.1071489288298" id="4635390255047870146">
       <property name="metaClass" nameId="tpce.1071599937831" value="aggregation" />
       <property name="role" nameId="tpce.1071599776563" value="nodes" />
       <property name="sourceCardinality" nameId="tpce.1071599893252" value="0..n" />
-      <link role="target" roleId="tpce.1071599976176" targetNodeId="4635390255047863051" resolveInfo="XMLSAXNode" />
+      <link role="target" roleId="tpce.1071599976176" targetNodeId="4635390255047863051" resolveInfo="XMLSAXNodeRule" />
     </node>
     <node role="linkDeclaration" roleId="tpce.1071489727083" type="tpce.LinkDeclaration" typeId="tpce.1071489288298" id="7707758858785994425">
       <property name="metaClass" nameId="tpce.1071599937831" value="aggregation" />
