@@ -16,6 +16,10 @@ import org.apache.commons.lang.StringUtils;
 import java.io.File;
 import java.io.IOException;
 
+
+/**
+ * Use commands language for starting processes in mps
+ */
 @Deprecated
 @ToRemove(version = 2.0)
 public class ClassRunner extends BaseRunner {

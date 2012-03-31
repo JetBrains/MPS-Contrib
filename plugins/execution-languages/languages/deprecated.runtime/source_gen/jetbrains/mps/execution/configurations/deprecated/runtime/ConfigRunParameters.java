@@ -4,6 +4,10 @@ package jetbrains.mps.execution.configurations.deprecated.runtime;
 
 import java.io.File;
 
+
+/**
+ * Use java command for starting java
+ */
 @Deprecated
 public class ConfigRunParameters implements Cloneable {
   private String myVmParam;

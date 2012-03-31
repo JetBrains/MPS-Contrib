@@ -20,6 +20,10 @@ import java.io.File;
 import jetbrains.mps.baseLanguage.unitTest.execution.client.UnitTestProcessListener;
 import jetbrains.mps.baseLanguage.closures.runtime._FunctionTypes;
 
+
+/**
+ * Use junit command to start tests
+ */
 @Deprecated
 @ToRemove(version = 2.1)
 public class UnitTestExecutionController {

@@ -96,6 +96,7 @@
     <classNode dependClassName="jetbrains.mps.debug.api.AbstractDebugSessionCreator" />
     <classNode dependClassName="jetbrains.mps.debug.api.Debuggers" />
     <classNode dependClassName="jetbrains.mps.debug.api.IDebugger" />
+    <classNode dependClassName="jetbrains.mps.util.annotation.ToRemove" />
     <classNode dependClassName="org.jetbrains.annotations.NotNull" />
     <classNode extendsClassName="jetbrains.mps.debug.BaseRunProfileState" />
   </dependency>
