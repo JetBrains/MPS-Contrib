@@ -11,6 +11,10 @@ import jetbrains.mps.smodel.MPSModuleRepository;
 import jetbrains.mps.project.ModuleId;
 import jetbrains.mps.internal.collections.runtime.SetSequence;
 
+
+/**
+ * ITestable instances only specify whether they need mps start or not; wrappers provide classpath for them
+ */
 @Deprecated
 @ToRemove(version = 2.1)
 public class TestRunParameters {

@@ -9,6 +9,10 @@ import java.nio.charset.Charset;
 import jetbrains.mps.execution.api.configurations.ConsoleProcessListener;
 import com.intellij.execution.process.ProcessTerminatedListener;
 
+
+/**
+ * use j.m.execution.api.commands.DefaultProcessHandler
+ */
 @Deprecated
 @ToRemove(version = 2.0)
 public class DefaultProcessHandler extends DefaultJavaProcessHandler {

@@ -678,7 +678,7 @@
                   <property name="value" nameId="tpee.1070475926801" value="${language_descriptor}/icons/runApp.png" />
                 </node>
                 <node role="actualArgument" roleId="tpee.1068499141038" type="tpee.StringLiteral" typeId="tpee.1070475926800" id="314981645427224088">
-                  <property name="value" nameId="tpee.1070475926801" value="jetbrains.mps.lang.plugin" />
+                  <property name="value" nameId="tpee.1070475926801" value="jetbrains.mps.execution.configurations" />
                 </node>
               </node>
               <node role="actualArgument" roleId="tpee.1068499141038" type="tpee.BooleanConstant" typeId="tpee.1068580123137" id="314981645427224089">
