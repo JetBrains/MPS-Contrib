@@ -15,8 +15,9 @@
       <module fileurl="file://$PROJECT_DIR$/plugins/debugger-api/api/debugger-api-api.iml" filepath="$PROJECT_DIR$/plugins/debugger-api/api/debugger-api-api.iml" group="plugins/debugger/debugger-api" />
       <module fileurl="file://$PROJECT_DIR$/plugins/debugger-api-languages/debugger-api-languages.iml" filepath="$PROJECT_DIR$/plugins/debugger-api-languages/debugger-api-languages.iml" group="plugins/debugger" />
       <module fileurl="file://$PROJECT_DIR$/plugins/debugger-api/runtime/debugger-api-runtime.iml" filepath="$PROJECT_DIR$/plugins/debugger-api/runtime/debugger-api-runtime.iml" group="plugins/debugger/debugger-api" />
-      <module fileurl="file://$PROJECT_DIR$/plugins/debugger-java/debugger-java.iml" filepath="$PROJECT_DIR$/plugins/debugger-java/debugger-java.iml" group="plugins/debugger" />
+      <module fileurl="file://$PROJECT_DIR$/plugins/debugger-java/api/debugger-java-api.iml" filepath="$PROJECT_DIR$/plugins/debugger-java/api/debugger-java-api.iml" group="plugins/debugger/debugger-java" />
       <module fileurl="file://$PROJECT_DIR$/plugins/debugger-java-customViewers/debugger-java-customViewers.iml" filepath="$PROJECT_DIR$/plugins/debugger-java-customViewers/debugger-java-customViewers.iml" group="plugins/debugger" />
+      <module fileurl="file://$PROJECT_DIR$/plugins/debugger-java/runtime/debugger-java-runtime.iml" filepath="$PROJECT_DIR$/plugins/debugger-java/runtime/debugger-java-runtime.iml" group="plugins/debugger/debugger-java" />
       <module fileurl="file://$PROJECT_DIR$/editor/editor-api/editor-api.iml" filepath="$PROJECT_DIR$/editor/editor-api/editor-api.iml" group="editor" />
       <module fileurl="file://$PROJECT_DIR$/editor/editor-runtime/editor-runtime.iml" filepath="$PROJECT_DIR$/editor/editor-runtime/editor-runtime.iml" group="editor" />
       <module fileurl="file://$PROJECT_DIR$/tools/excluded/excluded.iml" filepath="$PROJECT_DIR$/tools/excluded/excluded.iml" />
