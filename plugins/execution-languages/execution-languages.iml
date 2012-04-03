@@ -32,7 +32,7 @@
     <orderEntry type="module" module-name="mps-editor" />
     <orderEntry type="module" module-name="execution" />
     <orderEntry type="module" module-name="debugger-java" />
-    <orderEntry type="module" module-name="debugger-api" />
+    <orderEntry type="module" module-name="debugger-api-api" />
   </component>
 </module>
 
