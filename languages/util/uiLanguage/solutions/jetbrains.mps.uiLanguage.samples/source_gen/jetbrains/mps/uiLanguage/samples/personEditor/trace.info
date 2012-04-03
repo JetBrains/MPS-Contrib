@@ -148,7 +148,9 @@
     <scopeInfo nodeId="1202742898078" fileName="PersonEditor.java" startLine="160" startPosition="0" endLine="164" endPosition="0" />
     <scopeInfo nodeId="1202742898078" fileName="PersonEditor.java" startLine="58" startPosition="0" endLine="63" endPosition="0" />
     <scopeInfo nodeId="1202742898078" fileName="PersonEditor.java" startLine="63" startPosition="0" endLine="68" endPosition="0" />
-    <scopeInfo nodeId="1202742898078" fileName="PersonEditor.java" startLine="90" startPosition="25" endLine="95" endPosition="5" />
+    <scopeInfo nodeId="1202742898078" fileName="PersonEditor.java" startLine="90" startPosition="25" endLine="95" endPosition="5">
+      <varInfo nodeId="1202742898078" varName="binding" />
+    </scopeInfo>
     <scopeInfo nodeId="1202742898078" fileName="PersonEditor.java" startLine="135" startPosition="50" endLine="140" endPosition="21">
       <varInfo nodeId="1202742898078" varName="component" />
     </scopeInfo>
