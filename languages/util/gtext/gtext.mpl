@@ -1,9 +1,6 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <language namespace="jetbrains.mps.gtext" uuid="a83c3bd0-2f7e-4ba1-8373-12d49e99f57e" doNotGenerateAdapters="false">
   <models>
-    <modelRoot path="${mps_home}/">
-      <manager moduleId="a83c3bd0-2f7e-4ba1-8373-12d49e99f57e" className="jetbrains.mps.gtext.stubs.PlainText" />
-    </modelRoot>
     <modelRoot path="${language_descriptor}/languageModels" />
   </models>
   <accessoryModels />
