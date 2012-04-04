@@ -5,7 +5,7 @@
     <excludeFromCompile>
       <directory url="file://$PROJECT_DIR$/languages/util/buildlanguage/languages/startup/source_gen" includeSubdirectories="true" />
       <directory url="file://$PROJECT_DIR$/plugins/execution-languages/languages/deprecated/source_gen" includeSubdirectories="true" />
-      <directory url="file://$PROJECT_DIR$/plugins/debugger-api-languages/languages/jetbrains.mps.debugger.api.lang/source_gen" includeSubdirectories="true" />
+      <directory url="file://$PROJECT_DIR$/plugins/debugger-api/languages/jetbrains.mps.debugger.api.lang/source_gen" includeSubdirectories="true" />
       <directory url="file://$PROJECT_DIR$/core/dependencies/source_gen" includeSubdirectories="true" />
       <directory url="file://$PROJECT_DIR$/languages/languageDesign/actions/source_gen" includeSubdirectories="true" />
       <directory url="file://$PROJECT_DIR$/languages/languageDesign/behavior/languages/behavior/source_gen" includeSubdirectories="true" />
@@ -280,6 +280,7 @@
       <directory url="file://$PROJECT_DIR$/languages/languageDesign/access/source_gen" includeSubdirectories="true" />
       <directory url="file://$PROJECT_DIR$/languages/languageDesign/checkedName/source_gen" includeSubdirectories="true" />
       <directory url="file://$PROJECT_DIR$/languages/languageDesign/plugin-standalone/source_gen" includeSubdirectories="true" />
+      <directory url="file://$PROJECT_DIR$/samples/plainText/source_gen" includeSubdirectories="true" />
     </excludeFromCompile>
     <resourceExtensions>
       <entry name=".+\.(properties|xml|html|dtd|tld)" />
