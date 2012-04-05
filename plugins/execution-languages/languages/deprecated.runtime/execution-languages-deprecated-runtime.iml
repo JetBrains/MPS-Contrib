@@ -4,14 +4,8 @@
     <output url="file://$MODULE_DIR$/classes" />
     <output-test url="file://$MODULE_DIR$/classes" />
     <exclude-output />
-    <content url="file://$MODULE_DIR$/languages/deprecated.runtime">
-      <sourceFolder url="file://$MODULE_DIR$/languages/deprecated.runtime/source_gen" isTestSource="false" />
-    </content>
-    <content url="file://$MODULE_DIR$/languages/library">
-      <sourceFolder url="file://$MODULE_DIR$/languages/library/source_gen" isTestSource="false" />
-    </content>
-    <content url="file://$MODULE_DIR$/languages/plugin">
-      <sourceFolder url="file://$MODULE_DIR$/languages/plugin/source_gen" isTestSource="false" />
+    <content url="file://$MODULE_DIR$">
+      <sourceFolder url="file://$MODULE_DIR$/source_gen" isTestSource="false" />
     </content>
     <orderEntry type="inheritedJdk" />
     <orderEntry type="sourceFolder" forTests="false" />
@@ -30,9 +24,10 @@
     <orderEntry type="library" name="Beansbinding" level="project" />
     <orderEntry type="module" module-name="uiLanguage-runtime" />
     <orderEntry type="module" module-name="mps-editor" />
-    <orderEntry type="module" module-name="execution" />
-    <orderEntry type="module" module-name="debugger-java" />
-    <orderEntry type="module" module-name="debugger-api" />
+    <orderEntry type="module" module-name="debugger-api-api" />
+    <orderEntry type="module" module-name="execution-languages-library" />
+    <orderEntry type="module" module-name="debugger-java-api" />
+    <orderEntry type="module" module-name="execution-api" />
   </component>
 </module>
 

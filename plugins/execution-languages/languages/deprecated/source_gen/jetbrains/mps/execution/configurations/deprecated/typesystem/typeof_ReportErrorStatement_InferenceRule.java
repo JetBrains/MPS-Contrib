@@ -19,7 +19,8 @@ public class typeof_ReportErrorStatement_InferenceRule extends AbstractInference
   }
 
   public void applyRule(final SNode statement, final TypeCheckingContext typeCheckingContext, IsApplicableStatus status) {
-    if (!(typeCheckingContext.isSingleTypeComputation())) { {
+    if (!(typeCheckingContext.isSingleTypeComputation())) {
+      {
         SNode _nodeToCheck_1029348928467 = SLinkOperations.getTarget(statement, "error", true);
         EquationInfo _info_12389875345 = new EquationInfo(_nodeToCheck_1029348928467, null, "r:3d1d89d4-ed40-464f-804b-a59886f41d55(jetbrains.mps.execution.configurations.deprecated.typesystem)", "314981645426569924", 0, null);
         typeCheckingContext.createLessThanInequality((SNode) typeCheckingContext.typeOf(SLinkOperations.getTarget(statement, "error", true), "r:3d1d89d4-ed40-464f-804b-a59886f41d55(jetbrains.mps.execution.configurations.deprecated.typesystem)", "314981645426569929", true), (SNode) new typeof_ReportErrorStatement_InferenceRule.QuotationClass_8ar3un_a0a0a0().createNode(typeCheckingContext), true, false, _info_12389875345);
