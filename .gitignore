@@ -22,3 +22,7 @@ teamcity-info.xml
 *.hprof
 $IDEA_PLUGINS_SANDBOX_FOLDER$
 *.class
+plugins/debugger-api/lib/*.jar
+plugins/debugger-java/lib/*.jar
+plugins/execution-languages/lib/*.jar
+plugins/execution-configurations/lib/*.jar

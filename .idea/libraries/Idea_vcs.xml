@@ -28,8 +28,8 @@
       <root url="jar://$PROJECT_DIR$/lib/src/platform.src.zip!/cvs-core" />
       <root url="jar://$PROJECT_DIR$/lib/src/platform.src.zip!/cvs-plugin" />
       <root url="jar://$PROJECT_DIR$/lib/src/platform.src.zip!/smartcvs-src" />
-      <root url="jar://$PROJECT_DIR$/lib/src/platform.src.zip!/svn4idea" />
       <root url="jar://$PROJECT_DIR$/lib/src/platform.src.zip!/git4idea" />
+      <root url="jar://$PROJECT_DIR$/lib/src/platform.src.zip!/svn4ideaOld" />
     </SOURCES>
   </library>
 </component>
