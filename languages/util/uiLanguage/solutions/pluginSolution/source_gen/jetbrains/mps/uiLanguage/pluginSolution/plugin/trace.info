@@ -1,6 +1,5 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <debugInfo>
-  <unitInfo fileName="PluginSolution_ProjectPlugin.java" startLine="11" startPosition="0" endLine="22" endPosition="0" unitName="jetbrains.mps.uiLanguage.pluginSolution.plugin.PluginSolution_ProjectPlugin" />
   <root nodeId="5487985028841950396">
     <nodeInfo nodeId="5487985028841950409" fileName="ComponentEditor_Helper.java" startLine="14" startPosition="103" endLine="15" endPosition="145" conceptFqName="jetbrains.mps.baseLanguage.structure.ReturnStatement" />
     <nodeInfo nodeId="5487985028841950414" fileName="ComponentEditor_Helper.java" startLine="16" startPosition="5" endLine="17" endPosition="16" conceptFqName="jetbrains.mps.baseLanguage.structure.ReturnStatement" />
@@ -134,6 +133,23 @@
       <varInfo nodeId="5487985028841950437" varName="node" />
     </scopeInfo>
     <unitInfo nodeId="5487985028841950437" fileName="Controller_TabDescriptor.java" startLine="17" startPosition="0" endLine="68" endPosition="0" unitName="jetbrains.mps.uiLanguage.pluginSolution.plugin.Controller_TabDescriptor" />
+  </root>
+  <root nodeId="7162597690968001880">
+    <nodeInfo nodeId="7162597690968001880" fileName="PluginSolution_ProjectPlugin.java" startLine="15" startPosition="70" endLine="16" endPosition="54" conceptFqName="jetbrains.mps.baseLanguage.structure.LocalVariableDeclarationStatement" />
+    <nodeInfo nodeId="7162597690968001880" fileName="PluginSolution_ProjectPlugin.java" startLine="16" startPosition="54" endLine="17" endPosition="46" conceptFqName="jetbrains.mps.baseLanguage.structure.ExpressionStatement" />
+    <nodeInfo nodeId="7162597690968001880" fileName="PluginSolution_ProjectPlugin.java" startLine="17" startPosition="46" endLine="18" endPosition="47" conceptFqName="jetbrains.mps.baseLanguage.structure.ExpressionStatement" />
+    <nodeInfo nodeId="7162597690968001880" fileName="PluginSolution_ProjectPlugin.java" startLine="18" startPosition="47" endLine="19" endPosition="18" conceptFqName="jetbrains.mps.baseLanguage.structure.ReturnStatement" />
+    <nodeInfo nodeId="7162597690968001880" fileName="PluginSolution_ProjectPlugin.java" startLine="11" startPosition="69" endLine="13" endPosition="3" conceptFqName="jetbrains.mps.baseLanguage.structure.ConstructorDeclaration" propertyString="PluginSolution_ProjectPlugin#()V" />
+    <nodeInfo nodeId="7162597690968001880" fileName="PluginSolution_ProjectPlugin.java" startLine="14" startPosition="0" endLine="21" endPosition="0" conceptFqName="jetbrains.mps.baseLanguage.structure.InstanceMethodDeclaration" propertyString="initTabbedEditors#(Lcom/intellij/openapi/project/Project;)Ljava/util/List;" />
+    <scopeInfo nodeId="7162597690968001880" fileName="PluginSolution_ProjectPlugin.java" startLine="12" startPosition="41" endLine="12" endPosition="41" />
+    <scopeInfo nodeId="7162597690968001880" fileName="PluginSolution_ProjectPlugin.java" startLine="11" startPosition="69" endLine="13" endPosition="3" />
+    <scopeInfo nodeId="7162597690968001880" fileName="PluginSolution_ProjectPlugin.java" startLine="15" startPosition="70" endLine="19" endPosition="18">
+      <varInfo nodeId="7162597690968001880" varName="result" />
+    </scopeInfo>
+    <scopeInfo nodeId="7162597690968001880" fileName="PluginSolution_ProjectPlugin.java" startLine="14" startPosition="0" endLine="21" endPosition="0">
+      <varInfo nodeId="7162597690968001880" varName="project" />
+    </scopeInfo>
+    <unitInfo nodeId="7162597690968001880" fileName="PluginSolution_ProjectPlugin.java" startLine="11" startPosition="0" endLine="22" endPosition="0" unitName="jetbrains.mps.uiLanguage.pluginSolution.plugin.PluginSolution_ProjectPlugin" />
   </root>
 </debugInfo>
 
