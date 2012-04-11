@@ -11,7 +11,7 @@ import jetbrains.mps.nodeEditor.style.Style;
 import jetbrains.mps.nodeEditor.style.StyleAttributes;
 import jetbrains.mps.nodeEditor.AbstractCellProvider;
 import jetbrains.mps.nodeEditor.cells.EditorCell_Constant;
-import jetbrains.mps.baseLanguage.editor.BaseLanguageStyle_StyleSheet;
+import jetbrains.mps.nodeEditor.MPSFonts;
 import jetbrains.mps.nodeEditor.cells.EditorCell_Indent;
 import jetbrains.mps.nodeEditor.cellProviders.CellProviderWithRole;
 import jetbrains.mps.lang.editor.cellProviders.RefCellCellProvider;
@@ -166,7 +166,12 @@ public class RunConfigurationDeclaration_Editor extends DefaultNodeEditor {
   private EditorCell createConstant_l50atq_b0a(EditorContext editorContext, SNode node) {
     EditorCell_Constant editorCell = new EditorCell_Constant(editorContext, node, "{");
     editorCell.setCellId("Constant_l50atq_b0a");
-    BaseLanguageStyle_StyleSheet.getLeftBrace(editorCell).apply(editorCell);
+    {
+      Style style = editorCell.getStyle();
+      style.set(StyleAttributes.MATCHING_LABEL, "brace");
+      style.set(StyleAttributes.INDENT_LAYOUT_NO_WRAP, true);
+      style.set(StyleAttributes.FONT_STYLE, MPSFonts.PLAIN);
+    }
     editorCell.setDefaultText("");
     return editorCell;
   }
@@ -188,7 +193,12 @@ public class RunConfigurationDeclaration_Editor extends DefaultNodeEditor {
   private EditorCell createConstant_l50atq_c0(EditorContext editorContext, SNode node) {
     EditorCell_Constant editorCell = new EditorCell_Constant(editorContext, node, "}");
     editorCell.setCellId("Constant_l50atq_c0");
-    BaseLanguageStyle_StyleSheet.getRightBrace(editorCell).apply(editorCell);
+    {
+      Style style = editorCell.getStyle();
+      style.set(StyleAttributes.MATCHING_LABEL, "brace");
+      style.set(StyleAttributes.INDENT_LAYOUT_NO_WRAP, true);
+      style.set(StyleAttributes.FONT_STYLE, MPSFonts.PLAIN);
+    }
     editorCell.setDefaultText("");
     return editorCell;
   }

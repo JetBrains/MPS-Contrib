@@ -12,8 +12,8 @@
 /IdeaPlugin/mps-core/languages
 /IdeaPlugin/tests/blProject/.idea/workspace.xml
 /IdeaPlugin/tests/multiModulesProject/.idea/workspace.xml
-/IdeaPlugin/buildScript/build/tmp/*
-/IdeaPlugin/buildScript/build/artifacts/*
+/build/tmp/*
+/build/artifacts/*
 classes
 classes_gen
 testclasses
