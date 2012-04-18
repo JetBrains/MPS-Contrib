@@ -5,7 +5,7 @@
   </models>
   <accessoryModels />
   <generators>
-    <generator name="void" generatorUID="jetbrains.mps.xml#1129923280838" uuid="648edee0-a74d-4997-b400-98c57131fd93">
+    <generator name="void" generatorUID="jetbrains.mps.xml.deprecated#1129923280838" uuid="648edee0-a74d-4997-b400-98c57131fd93">
       <models>
         <modelRoot path="${language_descriptor}/generator" />
       </models>
