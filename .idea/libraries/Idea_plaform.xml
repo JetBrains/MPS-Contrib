@@ -14,22 +14,21 @@
       <root url="jar://$PROJECT_DIR$/lib/cglib-2.2.2.jar!/" />
       <root url="jar://$PROJECT_DIR$/lib/commons-httpclient-3.1-patched.jar!/" />
       <root url="jar://$PROJECT_DIR$/lib/cli-10.jar!/" />
-      <root url="jar://$PROJECT_DIR$/lib/gson-1.7.1.jar!/" />
       <root url="jar://$PROJECT_DIR$/lib/jaxb-api.jar!/" />
       <root url="jar://$PROJECT_DIR$/lib/jaxb-impl.jar!/" />
       <root url="jar://$PROJECT_DIR$/lib/jgoodies-forms.jar!/" />
       <root url="jar://$PROJECT_DIR$/lib/jh.jar!/" />
       <root url="jar://$PROJECT_DIR$/lib/jna-utils.jar!/" />
       <root url="jar://$PROJECT_DIR$/lib/jna.jar!/" />
-      <root url="jar://$PROJECT_DIR$/lib/looks-2.2.2.jar!/" />
       <root url="jar://$PROJECT_DIR$/lib/microba.jar!/" />
       <root url="jar://$PROJECT_DIR$/lib/nanoxml-2.2.3.jar!/" />
       <root url="jar://$PROJECT_DIR$/lib/nekohtml-1.9.14.jar!/" />
-      <root url="jar://$PROJECT_DIR$/lib/netty-3.2.5.Final.jar!/" />
-      <root url="jar://$PROJECT_DIR$/lib/protobuf-2.3.0.jar!/" />
       <root url="jar://$PROJECT_DIR$/lib/sanselan-0.98-snapshot.jar!/" />
       <root url="jar://$PROJECT_DIR$/lib/swingx-core-1.6.2.jar!/" />
       <root url="jar://$PROJECT_DIR$/lib/xpp3-1.1.4-min.jar!/" />
+      <root url="jar://$PROJECT_DIR$/lib/gson-2.0.jar!/" />
+      <root url="jar://$PROJECT_DIR$/lib/netty-3.3.1.Final.jar!/" />
+      <root url="jar://$PROJECT_DIR$/lib/protobuf-2.4.1.jar!/" />
     </CLASSES>
     <JAVADOC />
     <SOURCES>
