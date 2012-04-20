@@ -3,6 +3,7 @@
   <component name="CompilerConfiguration">
     <option name="DEFAULT_COMPILER" value="Javac" />
     <excludeFromCompile>
+      <directory url="file://$PROJECT_DIR$/plugins/mpsjava/migration" includeSubdirectories="true" />
       <directory url="file://$PROJECT_DIR$/languages/util/buildlanguage/languages/startup/source_gen" includeSubdirectories="true" />
       <directory url="file://$PROJECT_DIR$/plugins/execution-languages/languages/deprecated/source_gen" includeSubdirectories="true" />
       <directory url="file://$PROJECT_DIR$/plugins/debugger-api-languages/languages/jetbrains.mps.debugger.api.lang/source_gen" includeSubdirectories="true" />
