@@ -3,8 +3,6 @@
   <component name="CompilerConfiguration">
     <option name="DEFAULT_COMPILER" value="Javac" />
     <excludeFromCompile>
-      <directory url="file://$PROJECT_DIR$/languages/baseLanguage/baseLanguage/solutions/jetbrains.mps.baseLanguage.scopes/source_gen" includeSubdirectories="true" />
-      <directory url="file://$PROJECT_DIR$/languages/languageDesign/scopes/runtime/source_gen" includeSubdirectories="true" />
       <directory url="file://$PROJECT_DIR$/languages/util/buildlanguage/languages/startup/source_gen" includeSubdirectories="true" />
       <directory url="file://$PROJECT_DIR$/plugins/execution-languages/languages/deprecated/source_gen" includeSubdirectories="true" />
       <directory url="file://$PROJECT_DIR$/plugins/debugger-api-languages/languages/jetbrains.mps.debugger.api.lang/source_gen" includeSubdirectories="true" />
@@ -144,7 +142,7 @@
       <directory url="file://$PROJECT_DIR$/samples/lambda/languages/lambdaCalculus/source_gen" includeSubdirectories="true" />
       <directory url="file://$PROJECT_DIR$/samples/lambda/solutions/jetbrains.mps.samples.lambdaCalculus.runtime/source_gen" includeSubdirectories="true" />
       <directory url="file://$PROJECT_DIR$/samples/lambda/solutions/jetbrains.mps.samples.lambdaCalculus.sandbox/source_gen" includeSubdirectories="true" />
-      <directory url="file://$PROJECT_DIR$/plugins/execution-configurations/languages/nanoc/nanoc/source_gen" includeSubdirectories="true" />
+      <directory url="file://$PROJECT_DIR$/samples/nanoc/nanocProject/languages/nanoc/source_gen" includeSubdirectories="true" />
       <directory url="file://$PROJECT_DIR$/samples/sampleLanguage/solutions/sandbox/source_gen" includeSubdirectories="true" />
       <directory url="file://$PROJECT_DIR$/samples/sampleLanguage/source_gen" includeSubdirectories="true" />
       <directory url="file://$PROJECT_DIR$/samples/sampleXML/languages/sampleXML/source_gen" includeSubdirectories="true" />
@@ -284,6 +282,9 @@
       <directory url="file://$PROJECT_DIR$/languages/languageDesign/plugin-standalone/source_gen" includeSubdirectories="true" />
       <directory url="file://$PROJECT_DIR$/samples/plainText/source_gen" includeSubdirectories="true" />
       <directory url="file://$PROJECT_DIR$/plugins/debugger-api/languages/jetbrains.mps.debugger.api.lang/source_gen" includeSubdirectories="true" />
+      <directory url="file://$PROJECT_DIR$/plugins/execution-configurations/languages/nanoc/nanoc/source_gen" includeSubdirectories="true" />
+      <directory url="file://$PROJECT_DIR$/languages/baseLanguage/baseLanguage/solutions/jetbrains.mps.baseLanguage.scopes/source_gen" includeSubdirectories="true" />
+      <directory url="file://$PROJECT_DIR$/languages/languageDesign/scopes/runtime/source_gen" includeSubdirectories="true" />
     </excludeFromCompile>
     <resourceExtensions>
       <entry name=".+\.(properties|xml|html|dtd|tld)" />

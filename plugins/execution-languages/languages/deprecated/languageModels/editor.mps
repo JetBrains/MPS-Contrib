@@ -20,7 +20,7 @@
   <import index="tpee" modelUID="r:00000000-0000-4000-0000-011c895902ca(jetbrains.mps.baseLanguage.structure)" version="-1" implicit="yes" />
   <import index="tp25" modelUID="r:00000000-0000-4000-0000-011c89590301(jetbrains.mps.lang.smodel.structure)" version="-1" implicit="yes" />
   <import index="tp2q" modelUID="r:00000000-0000-4000-0000-011c8959032e(jetbrains.mps.baseLanguage.collections.structure)" version="7" implicit="yes" />
-  <import index="tp4k" modelUID="r:00000000-0000-4000-0000-011c89590368(jetbrains.mps.lang.plugin.structure)" version="10" implicit="yes" />
+  <import index="tp4k" modelUID="r:00000000-0000-4000-0000-011c89590368(jetbrains.mps.lang.plugin.structure)" version="34" implicit="yes" />
   <roots>
     <node type="tpc2.ConceptEditorDeclaration" typeId="tpc2.1071666914219" id="6629582826328966249">
       <property name="virtualPackage" nameId="tpck.1193676396447" value="node" />
@@ -165,10 +165,6 @@
     <node type="tpc2.ConceptEditorDeclaration" typeId="tpc2.1071666914219" id="314981645426569905">
       <property name="virtualPackage" nameId="tpck.1193676396447" value="RunConfigs.Configuration.Execute.Statements" />
       <link role="conceptDeclaration" roleId="tpc2.1166049300910" targetNodeId="11eb.314981645426569193" resolveInfo="ProjectExpression" />
-    </node>
-    <node type="tpc2.ConceptEditorDeclaration" typeId="tpc2.1071666914219" id="314981645426831728">
-      <property name="virtualPackage" nameId="tpck.1193676396447" value="DEPRECATED" />
-      <link role="conceptDeclaration" roleId="tpc2.1166049300910" targetNodeId="11eb.314981645426831722" resolveInfo="ProcessHandlerStatement" />
     </node>
     <node type="tpc2.ConceptEditorDeclaration" typeId="tpc2.1071666914219" id="314981645427003962">
       <property name="virtualPackage" nameId="tpck.1193676396447" value="DEPRECATED" />
@@ -1538,21 +1534,6 @@
     <node role="cellModel" roleId="tpc2.1080736633877" type="tpc2.CellModel_ConceptProperty" typeId="tpc2.1137553248617" id="314981645426569906">
       <link role="relationDeclaration" roleId="tpc2.1140103550593" targetNodeId="tpck.1137473891462" resolveInfo="alias" />
       <link role="styleClass" roleId="tpc2.1186406756722" targetNodeId="tpen.1186415544875" resolveInfo="KeyWord" />
-    </node>
-  </root>
-  <root id="314981645426831728">
-    <node role="cellModel" roleId="tpc2.1080736633877" type="tpc2.CellModel_Collection" typeId="tpc2.1073389446423" id="314981645426831729">
-      <node role="cellLayout" roleId="tpc2.1106270802874" type="tpc2.CellLayout_Horizontal" typeId="tpc2.1106270549637" id="314981645426831730" />
-      <node role="childCellModel" roleId="tpc2.1073389446424" type="tpc2.CellModel_Constant" typeId="tpc2.1073389577006" id="314981645426831731">
-        <property name="text" nameId="tpc2.1073389577007" value="process handler" />
-      </node>
-      <node role="childCellModel" roleId="tpc2.1073389446424" type="tpc2.CellModel_RefNode" typeId="tpc2.1073389882823" id="314981645426831732">
-        <link role="relationDeclaration" roleId="tpc2.1140103550593" targetNodeId="11eb.314981645426831726" />
-      </node>
-      <node role="childCellModel" roleId="tpc2.1073389446424" type="tpc2.CellModel_Constant" typeId="tpc2.1073389577006" id="314981645426831733">
-        <property name="text" nameId="tpc2.1073389577007" value=";" />
-        <link role="styleClass" roleId="tpc2.1186406756722" targetNodeId="tpen.1215094139260" resolveInfo="Semicolon" />
-      </node>
     </node>
   </root>
   <root id="314981645427003962">

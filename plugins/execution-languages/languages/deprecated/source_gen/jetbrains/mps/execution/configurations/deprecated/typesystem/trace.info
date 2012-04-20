@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <debugInfo>
-  <unitInfo fileName="TypesystemDescriptor.java" startLine="10" startPosition="0" endLine="126" endPosition="0" unitName="jetbrains.mps.execution.configurations.deprecated.typesystem.TypesystemDescriptor" />
+  <unitInfo fileName="TypesystemDescriptor.java" startLine="10" startPosition="0" endLine="122" endPosition="0" unitName="jetbrains.mps.execution.configurations.deprecated.typesystem.TypesystemDescriptor" />
   <root nodeId="2486271045794916148">
     <nodeInfo nodeId="1810772216404834554" fileName="typeof_Node_FunctionParameter_InferenceRule.java" startLine="19" startPosition="5" endLine="20" endPosition="64" conceptFqName="jetbrains.mps.baseLanguage.structure.LocalVariableDeclarationStatement" />
     <nodeInfo nodeId="1810772216404834554" fileName="typeof_Node_FunctionParameter_InferenceRule.java" startLine="20" startPosition="64" endLine="21" endPosition="226" conceptFqName="jetbrains.mps.baseLanguage.structure.LocalVariableDeclarationStatement" />
@@ -2066,96 +2066,6 @@
     <scopeInfo nodeId="314981645426570380" fileName="typeof_ProjectExpression_InferenceRule.java" startLine="62" startPosition="0" endLine="75" endPosition="0" />
     <unitInfo nodeId="314981645426570376" fileName="typeof_ProjectExpression_InferenceRule.java" startLine="19" startPosition="0" endLine="77" endPosition="0" unitName="jetbrains.mps.execution.configurations.deprecated.typesystem.typeof_ProjectExpression_InferenceRule" />
     <unitInfo nodeId="314981645426570380" fileName="typeof_ProjectExpression_InferenceRule.java" startLine="46" startPosition="0" endLine="76" endPosition="0" unitName="jetbrains.mps.execution.configurations.deprecated.typesystem.typeof_ProjectExpression_InferenceRule$QuotationClass_osiggc_a0a0a0" />
-  </root>
-  <root nodeId="314981645426831734">
-    <nodeInfo nodeId="314981645426831736" fileName="typeof_ProcessHandlerStatement_InferenceRule.java" startLine="26" startPosition="7" endLine="27" endPosition="104" conceptFqName="jetbrains.mps.baseLanguage.structure.LocalVariableDeclarationStatement" />
-    <nodeInfo nodeId="314981645426831736" fileName="typeof_ProcessHandlerStatement_InferenceRule.java" startLine="27" startPosition="104" endLine="28" endPosition="227" conceptFqName="jetbrains.mps.baseLanguage.structure.LocalVariableDeclarationStatement" />
-    <nodeInfo nodeId="314981645426831736" fileName="typeof_ProcessHandlerStatement_InferenceRule.java" startLine="28" startPosition="227" endLine="29" endPosition="436" conceptFqName="jetbrains.mps.baseLanguage.structure.ExpressionStatement" />
-    <nodeInfo nodeId="314981645426831734" fileName="typeof_ProcessHandlerStatement_InferenceRule.java" startLine="34" startPosition="46" endLine="35" endPosition="97" conceptFqName="jetbrains.mps.baseLanguage.structure.ReturnStatement" />
-    <nodeInfo nodeId="314981645426831734" fileName="typeof_ProcessHandlerStatement_InferenceRule.java" startLine="39" startPosition="5" endLine="40" endPosition="117" conceptFqName="jetbrains.mps.baseLanguage.structure.LocalVariableDeclarationStatement" />
-    <nodeInfo nodeId="314981645426831734" fileName="typeof_ProcessHandlerStatement_InferenceRule.java" startLine="40" startPosition="117" endLine="41" endPosition="45" conceptFqName="jetbrains.mps.baseLanguage.structure.ReturnStatement" />
-    <nodeInfo nodeId="314981645426831734" fileName="typeof_ProcessHandlerStatement_InferenceRule.java" startLine="45" startPosition="30" endLine="46" endPosition="17" conceptFqName="jetbrains.mps.baseLanguage.structure.ReturnStatement" />
-    <nodeInfo nodeId="314981645426831738" fileName="typeof_ProcessHandlerStatement_InferenceRule.java" startLine="53" startPosition="76" endLine="54" endPosition="26" conceptFqName="jetbrains.mps.baseLanguage.structure.LocalVariableDeclarationStatement" />
-    <nodeInfo nodeId="314981645426831738" fileName="typeof_ProcessHandlerStatement_InferenceRule.java" startLine="54" startPosition="26" endLine="55" endPosition="67" conceptFqName="jetbrains.mps.baseLanguage.structure.LocalVariableDeclarationStatement" />
-    <nodeInfo nodeId="314981645426831738" fileName="typeof_ProcessHandlerStatement_InferenceRule.java" startLine="55" startPosition="67" endLine="56" endPosition="32" conceptFqName="jetbrains.mps.baseLanguage.structure.LocalVariableDeclarationStatement" />
-    <nodeInfo nodeId="314981645426831738" fileName="typeof_ProcessHandlerStatement_InferenceRule.java" startLine="57" startPosition="7" endLine="58" endPosition="163" conceptFqName="jetbrains.mps.baseLanguage.structure.ExpressionStatement" />
-    <nodeInfo nodeId="314981645426831738" fileName="typeof_ProcessHandlerStatement_InferenceRule.java" startLine="58" startPosition="163" endLine="59" endPosition="43" conceptFqName="jetbrains.mps.baseLanguage.structure.LocalVariableDeclarationStatement" />
-    <nodeInfo nodeId="314981645426831738" fileName="typeof_ProcessHandlerStatement_InferenceRule.java" startLine="59" startPosition="43" endLine="60" endPosition="288" conceptFqName="jetbrains.mps.baseLanguage.structure.ExpressionStatement" />
-    <nodeInfo nodeId="314981645426831738" fileName="typeof_ProcessHandlerStatement_InferenceRule.java" startLine="60" startPosition="288" endLine="61" endPosition="31" conceptFqName="jetbrains.mps.baseLanguage.structure.ExpressionStatement" />
-    <nodeInfo nodeId="314981645426831738" fileName="typeof_ProcessHandlerStatement_InferenceRule.java" startLine="62" startPosition="7" endLine="63" endPosition="20" conceptFqName="jetbrains.mps.baseLanguage.structure.ReturnStatement" />
-    <nodeInfo nodeId="314981645426831738" fileName="typeof_ProcessHandlerStatement_InferenceRule.java" startLine="66" startPosition="31" endLine="67" endPosition="26" conceptFqName="jetbrains.mps.baseLanguage.structure.LocalVariableDeclarationStatement" />
-    <nodeInfo nodeId="314981645426831738" fileName="typeof_ProcessHandlerStatement_InferenceRule.java" startLine="67" startPosition="26" endLine="68" endPosition="67" conceptFqName="jetbrains.mps.baseLanguage.structure.LocalVariableDeclarationStatement" />
-    <nodeInfo nodeId="314981645426831738" fileName="typeof_ProcessHandlerStatement_InferenceRule.java" startLine="68" startPosition="67" endLine="69" endPosition="32" conceptFqName="jetbrains.mps.baseLanguage.structure.LocalVariableDeclarationStatement" />
-    <nodeInfo nodeId="314981645426831738" fileName="typeof_ProcessHandlerStatement_InferenceRule.java" startLine="70" startPosition="7" endLine="71" endPosition="163" conceptFqName="jetbrains.mps.baseLanguage.structure.ExpressionStatement" />
-    <nodeInfo nodeId="314981645426831738" fileName="typeof_ProcessHandlerStatement_InferenceRule.java" startLine="71" startPosition="163" endLine="72" endPosition="43" conceptFqName="jetbrains.mps.baseLanguage.structure.LocalVariableDeclarationStatement" />
-    <nodeInfo nodeId="314981645426831738" fileName="typeof_ProcessHandlerStatement_InferenceRule.java" startLine="72" startPosition="43" endLine="73" endPosition="288" conceptFqName="jetbrains.mps.baseLanguage.structure.ExpressionStatement" />
-    <nodeInfo nodeId="314981645426831738" fileName="typeof_ProcessHandlerStatement_InferenceRule.java" startLine="73" startPosition="288" endLine="74" endPosition="31" conceptFqName="jetbrains.mps.baseLanguage.structure.ExpressionStatement" />
-    <nodeInfo nodeId="314981645426831738" fileName="typeof_ProcessHandlerStatement_InferenceRule.java" startLine="75" startPosition="7" endLine="76" endPosition="20" conceptFqName="jetbrains.mps.baseLanguage.structure.ReturnStatement" />
-    <nodeInfo nodeId="314981645426831734" fileName="typeof_ProcessHandlerStatement_InferenceRule.java" startLine="20" startPosition="130" endLine="22" endPosition="3" conceptFqName="jetbrains.mps.baseLanguage.structure.ConstructorDeclaration" propertyString="typeof_ProcessHandlerStatement_InferenceRule#()V" />
-    <nodeInfo nodeId="314981645426831738" fileName="typeof_ProcessHandlerStatement_InferenceRule.java" startLine="49" startPosition="52" endLine="51" endPosition="5" conceptFqName="jetbrains.mps.baseLanguage.structure.ConstructorDeclaration" propertyString="QuotationClass_w6ba4u_a0a0a0#()V" />
-    <nodeInfo nodeId="314981645426831734" fileName="typeof_ProcessHandlerStatement_InferenceRule.java" startLine="33" startPosition="0" endLine="37" endPosition="0" conceptFqName="jetbrains.mps.baseLanguage.structure.InstanceMethodDeclaration" propertyString="getApplicableConceptFQName#()Ljava/lang/String;" />
-    <nodeInfo nodeId="314981645426831734" fileName="typeof_ProcessHandlerStatement_InferenceRule.java" startLine="38" startPosition="68" endLine="42" endPosition="5" conceptFqName="jetbrains.mps.baseLanguage.structure.BlockStatement" />
-    <nodeInfo nodeId="314981645426831734" fileName="typeof_ProcessHandlerStatement_InferenceRule.java" startLine="44" startPosition="0" endLine="48" endPosition="0" conceptFqName="jetbrains.mps.baseLanguage.structure.InstanceMethodDeclaration" propertyString="overrides#()Z" />
-    <nodeInfo nodeId="314981645426831736" fileName="typeof_ProcessHandlerStatement_InferenceRule.java" startLine="25" startPosition="59" endLine="30" endPosition="7" conceptFqName="jetbrains.mps.baseLanguage.structure.BlockStatement" />
-    <nodeInfo nodeId="314981645426831738" fileName="typeof_ProcessHandlerStatement_InferenceRule.java" startLine="56" startPosition="32" endLine="62" endPosition="7" conceptFqName="jetbrains.mps.baseLanguage.structure.BlockStatement" />
-    <nodeInfo nodeId="314981645426831738" fileName="typeof_ProcessHandlerStatement_InferenceRule.java" startLine="56" startPosition="32" endLine="62" endPosition="7" conceptFqName="jetbrains.mps.baseLanguage.structure.BlockStatement" />
-    <nodeInfo nodeId="314981645426831738" fileName="typeof_ProcessHandlerStatement_InferenceRule.java" startLine="69" startPosition="32" endLine="75" endPosition="7" conceptFqName="jetbrains.mps.baseLanguage.structure.BlockStatement" />
-    <nodeInfo nodeId="314981645426831738" fileName="typeof_ProcessHandlerStatement_InferenceRule.java" startLine="69" startPosition="32" endLine="75" endPosition="7" conceptFqName="jetbrains.mps.baseLanguage.structure.BlockStatement" />
-    <nodeInfo nodeId="314981645426831736" fileName="typeof_ProcessHandlerStatement_InferenceRule.java" startLine="24" startPosition="122" endLine="31" endPosition="5" conceptFqName="jetbrains.mps.baseLanguage.structure.IfStatement" />
-    <nodeInfo nodeId="314981645426831734" fileName="typeof_ProcessHandlerStatement_InferenceRule.java" startLine="37" startPosition="0" endLine="44" endPosition="0" conceptFqName="jetbrains.mps.baseLanguage.structure.InstanceMethodDeclaration" propertyString="isApplicableAndPattern#(Ljetbrains/mps/smodel/SNode;)Ljetbrains/mps/lang/typesystem/runtime/IsApplicableStatus;" />
-    <nodeInfo nodeId="314981645426831734" fileName="typeof_ProcessHandlerStatement_InferenceRule.java" startLine="23" startPosition="0" endLine="33" endPosition="0" conceptFqName="jetbrains.mps.baseLanguage.structure.InstanceMethodDeclaration" propertyString="applyRule#(Ljetbrains/mps/smodel/SNode;Ljetbrains/mps/typesystem/inference/TypeCheckingContext;Ljetbrains/mps/lang/typesystem/runtime/IsApplicableStatus;)V" />
-    <nodeInfo nodeId="314981645426831738" fileName="typeof_ProcessHandlerStatement_InferenceRule.java" startLine="52" startPosition="0" endLine="65" endPosition="0" conceptFqName="jetbrains.mps.baseLanguage.structure.InstanceMethodDeclaration" propertyString="createNode#(Ljetbrains/mps/typesystem/inference/TypeCheckingContext;)Ljetbrains/mps/smodel/SNode;" />
-    <nodeInfo nodeId="314981645426831738" fileName="typeof_ProcessHandlerStatement_InferenceRule.java" startLine="65" startPosition="0" endLine="78" endPosition="0" conceptFqName="jetbrains.mps.baseLanguage.structure.InstanceMethodDeclaration" propertyString="createNode#()Ljetbrains/mps/smodel/SNode;" />
-    <scopeInfo nodeId="314981645426831734" fileName="typeof_ProcessHandlerStatement_InferenceRule.java" startLine="21" startPosition="57" endLine="21" endPosition="57" />
-    <scopeInfo nodeId="314981645426831738" fileName="typeof_ProcessHandlerStatement_InferenceRule.java" startLine="50" startPosition="43" endLine="50" endPosition="43" />
-    <scopeInfo nodeId="314981645426831734" fileName="typeof_ProcessHandlerStatement_InferenceRule.java" startLine="34" startPosition="46" endLine="35" endPosition="97" />
-    <scopeInfo nodeId="314981645426831734" fileName="typeof_ProcessHandlerStatement_InferenceRule.java" startLine="45" startPosition="30" endLine="46" endPosition="17" />
-    <scopeInfo nodeId="314981645426831734" fileName="typeof_ProcessHandlerStatement_InferenceRule.java" startLine="20" startPosition="130" endLine="22" endPosition="3" />
-    <scopeInfo nodeId="314981645426831734" fileName="typeof_ProcessHandlerStatement_InferenceRule.java" startLine="39" startPosition="5" endLine="41" endPosition="45">
-      <varInfo nodeId="314981645426831734" varName="b" />
-    </scopeInfo>
-    <scopeInfo nodeId="314981645426831738" fileName="typeof_ProcessHandlerStatement_InferenceRule.java" startLine="49" startPosition="52" endLine="51" endPosition="5" />
-    <scopeInfo nodeId="314981645426831736" fileName="typeof_ProcessHandlerStatement_InferenceRule.java" startLine="26" startPosition="7" endLine="29" endPosition="436">
-      <varInfo nodeId="314981645426831736" varName="_info_12389875345" />
-      <varInfo nodeId="314981645426831736" varName="_nodeToCheck_1029348928467" />
-    </scopeInfo>
-    <scopeInfo nodeId="314981645426831734" fileName="typeof_ProcessHandlerStatement_InferenceRule.java" startLine="33" startPosition="0" endLine="37" endPosition="0" />
-    <scopeInfo nodeId="314981645426831734" fileName="typeof_ProcessHandlerStatement_InferenceRule.java" startLine="38" startPosition="68" endLine="42" endPosition="5" />
-    <scopeInfo nodeId="314981645426831734" fileName="typeof_ProcessHandlerStatement_InferenceRule.java" startLine="44" startPosition="0" endLine="48" endPosition="0" />
-    <scopeInfo nodeId="314981645426831738" fileName="typeof_ProcessHandlerStatement_InferenceRule.java" startLine="57" startPosition="7" endLine="61" endPosition="31">
-      <varInfo nodeId="314981645426831738" varName="quotedNode1_2" />
-    </scopeInfo>
-    <scopeInfo nodeId="314981645426831738" fileName="typeof_ProcessHandlerStatement_InferenceRule.java" startLine="70" startPosition="7" endLine="74" endPosition="31">
-      <varInfo nodeId="314981645426831738" varName="quotedNode1_2" />
-    </scopeInfo>
-    <scopeInfo nodeId="314981645426831736" fileName="typeof_ProcessHandlerStatement_InferenceRule.java" startLine="25" startPosition="59" endLine="30" endPosition="7" />
-    <scopeInfo nodeId="314981645426831738" fileName="typeof_ProcessHandlerStatement_InferenceRule.java" startLine="56" startPosition="32" endLine="62" endPosition="7" />
-    <scopeInfo nodeId="314981645426831738" fileName="typeof_ProcessHandlerStatement_InferenceRule.java" startLine="69" startPosition="32" endLine="75" endPosition="7" />
-    <scopeInfo nodeId="314981645426831735" fileName="typeof_ProcessHandlerStatement_InferenceRule.java" startLine="24" startPosition="122" endLine="31" endPosition="5" />
-    <scopeInfo nodeId="314981645426831734" fileName="typeof_ProcessHandlerStatement_InferenceRule.java" startLine="37" startPosition="0" endLine="44" endPosition="0">
-      <varInfo nodeId="314981645426831734" varName="argument" />
-    </scopeInfo>
-    <scopeInfo nodeId="314981645426831734" fileName="typeof_ProcessHandlerStatement_InferenceRule.java" startLine="23" startPosition="0" endLine="33" endPosition="0">
-      <varInfo nodeId="314981645426831734" varName="statement" />
-      <varInfo nodeId="314981645426831734" varName="status" />
-      <varInfo nodeId="314981645426831734" varName="typeCheckingContext" />
-    </scopeInfo>
-    <scopeInfo nodeId="314981645426831738" fileName="typeof_ProcessHandlerStatement_InferenceRule.java" startLine="53" startPosition="76" endLine="63" endPosition="20">
-      <varInfo nodeId="314981645426831738" varName="_parameterValues_129834374" />
-      <varInfo nodeId="314981645426831738" varName="quotedNode_1" />
-      <varInfo nodeId="314981645426831738" varName="result" />
-    </scopeInfo>
-    <scopeInfo nodeId="314981645426831738" fileName="typeof_ProcessHandlerStatement_InferenceRule.java" startLine="66" startPosition="31" endLine="76" endPosition="20">
-      <varInfo nodeId="314981645426831738" varName="_parameterValues_129834374" />
-      <varInfo nodeId="314981645426831738" varName="quotedNode_1" />
-      <varInfo nodeId="314981645426831738" varName="result" />
-    </scopeInfo>
-    <scopeInfo nodeId="314981645426831738" fileName="typeof_ProcessHandlerStatement_InferenceRule.java" startLine="52" startPosition="0" endLine="65" endPosition="0">
-      <varInfo nodeId="314981645426831738" varName="typeCheckingContext" />
-    </scopeInfo>
-    <scopeInfo nodeId="314981645426831738" fileName="typeof_ProcessHandlerStatement_InferenceRule.java" startLine="65" startPosition="0" endLine="78" endPosition="0" />
-    <unitInfo nodeId="314981645426831734" fileName="typeof_ProcessHandlerStatement_InferenceRule.java" startLine="20" startPosition="0" endLine="80" endPosition="0" unitName="jetbrains.mps.execution.configurations.deprecated.typesystem.typeof_ProcessHandlerStatement_InferenceRule" />
-    <unitInfo nodeId="314981645426831738" fileName="typeof_ProcessHandlerStatement_InferenceRule.java" startLine="49" startPosition="0" endLine="79" endPosition="0" unitName="jetbrains.mps.execution.configurations.deprecated.typesystem.typeof_ProcessHandlerStatement_InferenceRule$QuotationClass_w6ba4u_a0a0a0" />
   </root>
   <root nodeId="7976893777486251143">
     <nodeInfo nodeId="7976893777486251164" fileName="check_IsApplicableBlock_NonTypesystemRule.java" startLine="23" startPosition="7" endLine="24" endPosition="60" conceptFqName="jetbrains.mps.baseLanguage.structure.LocalVariableDeclarationStatement" />

@@ -7,7 +7,7 @@ import java.util.Arrays;
 import jetbrains.mps.smodel.runtime.interpreted.BehaviorAspectInterpreted;
 
 public class BehaviorAspectDescriptor implements jetbrains.mps.smodel.runtime.BehaviorAspectDescriptor {
-  private static String[] stringSwitchCases_846f5o_a0a0a = new String[]{"jetbrains.mps.execution.configurations.deprecated.structure.ActionListStatement", "jetbrains.mps.execution.configurations.deprecated.structure.ActionsList_FunctionParameter", "jetbrains.mps.execution.configurations.deprecated.structure.ActionsStatement", "jetbrains.mps.execution.configurations.deprecated.structure.ApplyEditorBlock", "jetbrains.mps.execution.configurations.deprecated.structure.CheckConfigurationBlock", "jetbrains.mps.execution.configurations.deprecated.structure.ComponentInsideOfChangeListenerAnnotation", "jetbrains.mps.execution.configurations.deprecated.structure.ComponentReference", "jetbrains.mps.execution.configurations.deprecated.structure.ConfigurationEditorDeclaration", "jetbrains.mps.execution.configurations.deprecated.structure.ConsoleExpression", "jetbrains.mps.execution.configurations.deprecated.structure.ConsoleType", "jetbrains.mps.execution.configurations.deprecated.structure.Console_FunctionParameter", "jetbrains.mps.execution.configurations.deprecated.structure.CreateRunConfigBlock", "jetbrains.mps.execution.configurations.deprecated.structure.CreateRunConfigBlockParameter", "jetbrains.mps.execution.configurations.deprecated.structure.CreateRunConfigStatement", "jetbrains.mps.execution.configurations.deprecated.structure.DebugSessionCreator", "jetbrains.mps.execution.configurations.deprecated.structure.DisposeConsoleBlock", "jetbrains.mps.execution.configurations.deprecated.structure.DisposeEditorBlock", "jetbrains.mps.execution.configurations.deprecated.structure.Environment_FunctionParameter", "jetbrains.mps.execution.configurations.deprecated.structure.ExecuteConfigBlock", "jetbrains.mps.execution.configurations.deprecated.structure.ExecuteParameterQuery", "jetbrains.mps.execution.configurations.deprecated.structure.ExecutionConsoleStatement", "jetbrains.mps.execution.configurations.deprecated.structure.Executor_FunctionParameter", "jetbrains.mps.execution.configurations.deprecated.structure.GetConfigurationIconBlock", "jetbrains.mps.execution.configurations.deprecated.structure.GetUserDataExpression", "jetbrains.mps.execution.configurations.deprecated.structure.IsApplicableBlock", "jetbrains.mps.execution.configurations.deprecated.structure.JavaCheckBlock", "jetbrains.mps.execution.configurations.deprecated.structure.JavaConfigurationRunParameters_FunctionParameter", "jetbrains.mps.execution.configurations.deprecated.structure.JavaNodeConfigurationEditorDeclaration", "jetbrains.mps.execution.configurations.deprecated.structure.JavaNodeRunConfiguration", "jetbrains.mps.execution.configurations.deprecated.structure.JavaRunConfiguration", "jetbrains.mps.execution.configurations.deprecated.structure.MakeConfigBlock", "jetbrains.mps.execution.configurations.deprecated.structure.ModelCreatorTarget", "jetbrains.mps.execution.configurations.deprecated.structure.ModuleCreatorTarget", "jetbrains.mps.execution.configurations.deprecated.structure.NodeCreatorTarget", "jetbrains.mps.execution.configurations.deprecated.structure.NodeRunConfigPropertyInstance", "jetbrains.mps.execution.configurations.deprecated.structure.Node_FunctionParameter", "jetbrains.mps.execution.configurations.deprecated.structure.NodesCreatorTarget", "jetbrains.mps.execution.configurations.deprecated.structure.OnChangeNodeBlock", "jetbrains.mps.execution.configurations.deprecated.structure.Parameter_FunctionParameter", "jetbrains.mps.execution.configurations.deprecated.structure.ParametrizedExecuteActions", "jetbrains.mps.execution.configurations.deprecated.structure.ParametrizedExecuteBlock", "jetbrains.mps.execution.configurations.deprecated.structure.ParametrizedExecuteConsole", "jetbrains.mps.execution.configurations.deprecated.structure.ParametrizedExecuteProcess", "jetbrains.mps.execution.configurations.deprecated.structure.PrepareConceptFunction", "jetbrains.mps.execution.configurations.deprecated.structure.PrepareReturnType_FunctionParameter", "jetbrains.mps.execution.configurations.deprecated.structure.ProcessHandlerStatement", "jetbrains.mps.execution.configurations.deprecated.structure.ProcessStatement", "jetbrains.mps.execution.configurations.deprecated.structure.ProjectCreatorTarget", "jetbrains.mps.execution.configurations.deprecated.structure.ProjectExpression", "jetbrains.mps.execution.configurations.deprecated.structure.Project_ConceptFunctionParameter", "jetbrains.mps.execution.configurations.deprecated.structure.ReportErrorStatement", "jetbrains.mps.execution.configurations.deprecated.structure.ResetEditorBlock", "jetbrains.mps.execution.configurations.deprecated.structure.RunConfigExecutionParameterDeclaration", "jetbrains.mps.execution.configurations.deprecated.structure.RunConfigMainNodeStatement", "jetbrains.mps.execution.configurations.deprecated.structure.RunConfigParameterReferenceOperation", "jetbrains.mps.execution.configurations.deprecated.structure.RunConfigPropertyInstance", "jetbrains.mps.execution.configurations.deprecated.structure.RunConfigType", "jetbrains.mps.execution.configurations.deprecated.structure.RunConfigurationDeclaration", "jetbrains.mps.execution.configurations.deprecated.structure.RunConfigurationMethodDeclaration", "jetbrains.mps.execution.configurations.deprecated.structure.RunConfigurationTypeDeclaration", "jetbrains.mps.execution.configurations.deprecated.structure.UniversalRunConfigCreator", "jetbrains.mps.execution.configurations.deprecated.structure.UserComponentReferenceAnnotation"};
+  private static String[] stringSwitchCases_846f5o_a0a0a = new String[]{"jetbrains.mps.execution.configurations.deprecated.structure.ActionListStatement", "jetbrains.mps.execution.configurations.deprecated.structure.ActionsList_FunctionParameter", "jetbrains.mps.execution.configurations.deprecated.structure.ActionsStatement", "jetbrains.mps.execution.configurations.deprecated.structure.ApplyEditorBlock", "jetbrains.mps.execution.configurations.deprecated.structure.CheckConfigurationBlock", "jetbrains.mps.execution.configurations.deprecated.structure.ComponentInsideOfChangeListenerAnnotation", "jetbrains.mps.execution.configurations.deprecated.structure.ComponentReference", "jetbrains.mps.execution.configurations.deprecated.structure.ConfigurationEditorDeclaration", "jetbrains.mps.execution.configurations.deprecated.structure.ConsoleExpression", "jetbrains.mps.execution.configurations.deprecated.structure.ConsoleType", "jetbrains.mps.execution.configurations.deprecated.structure.Console_FunctionParameter", "jetbrains.mps.execution.configurations.deprecated.structure.CreateRunConfigBlock", "jetbrains.mps.execution.configurations.deprecated.structure.CreateRunConfigBlockParameter", "jetbrains.mps.execution.configurations.deprecated.structure.CreateRunConfigStatement", "jetbrains.mps.execution.configurations.deprecated.structure.DebugSessionCreator", "jetbrains.mps.execution.configurations.deprecated.structure.DisposeConsoleBlock", "jetbrains.mps.execution.configurations.deprecated.structure.DisposeEditorBlock", "jetbrains.mps.execution.configurations.deprecated.structure.Environment_FunctionParameter", "jetbrains.mps.execution.configurations.deprecated.structure.ExecuteConfigBlock", "jetbrains.mps.execution.configurations.deprecated.structure.ExecuteParameterQuery", "jetbrains.mps.execution.configurations.deprecated.structure.ExecutionConsoleStatement", "jetbrains.mps.execution.configurations.deprecated.structure.Executor_FunctionParameter", "jetbrains.mps.execution.configurations.deprecated.structure.GetConfigurationIconBlock", "jetbrains.mps.execution.configurations.deprecated.structure.GetUserDataExpression", "jetbrains.mps.execution.configurations.deprecated.structure.IsApplicableBlock", "jetbrains.mps.execution.configurations.deprecated.structure.JavaCheckBlock", "jetbrains.mps.execution.configurations.deprecated.structure.JavaConfigurationRunParameters_FunctionParameter", "jetbrains.mps.execution.configurations.deprecated.structure.JavaNodeConfigurationEditorDeclaration", "jetbrains.mps.execution.configurations.deprecated.structure.JavaNodeRunConfiguration", "jetbrains.mps.execution.configurations.deprecated.structure.JavaRunConfiguration", "jetbrains.mps.execution.configurations.deprecated.structure.MakeConfigBlock", "jetbrains.mps.execution.configurations.deprecated.structure.ModelCreatorTarget", "jetbrains.mps.execution.configurations.deprecated.structure.ModuleCreatorTarget", "jetbrains.mps.execution.configurations.deprecated.structure.NodeCreatorTarget", "jetbrains.mps.execution.configurations.deprecated.structure.NodeRunConfigPropertyInstance", "jetbrains.mps.execution.configurations.deprecated.structure.Node_FunctionParameter", "jetbrains.mps.execution.configurations.deprecated.structure.NodesCreatorTarget", "jetbrains.mps.execution.configurations.deprecated.structure.OnChangeNodeBlock", "jetbrains.mps.execution.configurations.deprecated.structure.Parameter_FunctionParameter", "jetbrains.mps.execution.configurations.deprecated.structure.ParametrizedExecuteActions", "jetbrains.mps.execution.configurations.deprecated.structure.ParametrizedExecuteBlock", "jetbrains.mps.execution.configurations.deprecated.structure.ParametrizedExecuteConsole", "jetbrains.mps.execution.configurations.deprecated.structure.ParametrizedExecuteProcess", "jetbrains.mps.execution.configurations.deprecated.structure.PrepareConceptFunction", "jetbrains.mps.execution.configurations.deprecated.structure.PrepareReturnType_FunctionParameter", "jetbrains.mps.execution.configurations.deprecated.structure.ProcessStatement", "jetbrains.mps.execution.configurations.deprecated.structure.ProjectCreatorTarget", "jetbrains.mps.execution.configurations.deprecated.structure.ProjectExpression", "jetbrains.mps.execution.configurations.deprecated.structure.Project_ConceptFunctionParameter", "jetbrains.mps.execution.configurations.deprecated.structure.ReportErrorStatement", "jetbrains.mps.execution.configurations.deprecated.structure.ResetEditorBlock", "jetbrains.mps.execution.configurations.deprecated.structure.RunConfigExecutionParameterDeclaration", "jetbrains.mps.execution.configurations.deprecated.structure.RunConfigMainNodeStatement", "jetbrains.mps.execution.configurations.deprecated.structure.RunConfigParameterReferenceOperation", "jetbrains.mps.execution.configurations.deprecated.structure.RunConfigPropertyInstance", "jetbrains.mps.execution.configurations.deprecated.structure.RunConfigType", "jetbrains.mps.execution.configurations.deprecated.structure.RunConfigurationDeclaration", "jetbrains.mps.execution.configurations.deprecated.structure.RunConfigurationMethodDeclaration", "jetbrains.mps.execution.configurations.deprecated.structure.RunConfigurationTypeDeclaration", "jetbrains.mps.execution.configurations.deprecated.structure.UniversalRunConfigCreator", "jetbrains.mps.execution.configurations.deprecated.structure.UserComponentReferenceAnnotation"};
 
   public BehaviorAspectDescriptor() {
   }
@@ -22,7 +22,7 @@ public class BehaviorAspectDescriptor implements jetbrains.mps.smodel.runtime.Be
         return new JavaRunConfiguration_BehaviorDescriptor();
       case 26:
         return new JavaConfigurationRunParameters_FunctionParameter_BehaviorDescriptor();
-      case 61:
+      case 60:
         return new UserComponentReferenceAnnotation_BehaviorDescriptor();
       case 35:
         return new Node_FunctionParameter_BehaviorDescriptor();
@@ -46,7 +46,7 @@ public class BehaviorAspectDescriptor implements jetbrains.mps.smodel.runtime.Be
         return new ComponentReference_BehaviorDescriptor();
       case 19:
         return new ExecuteParameterQuery_BehaviorDescriptor();
-      case 46:
+      case 45:
         return new ProcessStatement_BehaviorDescriptor();
       case 39:
         return new ParametrizedExecuteActions_BehaviorDescriptor();
@@ -60,7 +60,7 @@ public class BehaviorAspectDescriptor implements jetbrains.mps.smodel.runtime.Be
         return new Environment_FunctionParameter_BehaviorDescriptor();
       case 2:
         return new ActionsStatement_BehaviorDescriptor();
-      case 48:
+      case 47:
         return new ProjectExpression_BehaviorDescriptor();
       case 7:
         return new ConfigurationEditorDeclaration_BehaviorDescriptor();
@@ -68,13 +68,13 @@ public class BehaviorAspectDescriptor implements jetbrains.mps.smodel.runtime.Be
         return new PrepareConceptFunction_BehaviorDescriptor();
       case 40:
         return new ParametrizedExecuteBlock_BehaviorDescriptor();
-      case 49:
+      case 48:
         return new Project_ConceptFunctionParameter_BehaviorDescriptor();
       case 1:
         return new ActionsList_FunctionParameter_BehaviorDescriptor();
       case 20:
         return new ExecutionConsoleStatement_BehaviorDescriptor();
-      case 51:
+      case 50:
         return new ResetEditorBlock_BehaviorDescriptor();
       case 14:
         return new DebugSessionCreator_BehaviorDescriptor();
@@ -96,7 +96,7 @@ public class BehaviorAspectDescriptor implements jetbrains.mps.smodel.runtime.Be
         return new GetUserDataExpression_BehaviorDescriptor();
       case 4:
         return new CheckConfigurationBlock_BehaviorDescriptor();
-      case 50:
+      case 49:
         return new ReportErrorStatement_BehaviorDescriptor();
       case 22:
         return new GetConfigurationIconBlock_BehaviorDescriptor();
@@ -104,7 +104,7 @@ public class BehaviorAspectDescriptor implements jetbrains.mps.smodel.runtime.Be
         return new MakeConfigBlock_BehaviorDescriptor();
       case 13:
         return new CreateRunConfigStatement_BehaviorDescriptor();
-      case 55:
+      case 54:
         return new RunConfigPropertyInstance_BehaviorDescriptor();
       case 11:
         return new CreateRunConfigBlock_BehaviorDescriptor();
@@ -116,27 +116,25 @@ public class BehaviorAspectDescriptor implements jetbrains.mps.smodel.runtime.Be
         return new ModuleCreatorTarget_BehaviorDescriptor();
       case 33:
         return new NodeCreatorTarget_BehaviorDescriptor();
-      case 47:
+      case 46:
         return new ProjectCreatorTarget_BehaviorDescriptor();
       case 36:
         return new NodesCreatorTarget_BehaviorDescriptor();
-      case 60:
-        return new UniversalRunConfigCreator_BehaviorDescriptor();
-      case 53:
-        return new RunConfigMainNodeStatement_BehaviorDescriptor();
-      case 54:
-        return new RunConfigParameterReferenceOperation_BehaviorDescriptor();
-      case 56:
-        return new RunConfigType_BehaviorDescriptor();
-      case 57:
-        return new RunConfigurationDeclaration_BehaviorDescriptor();
-      case 58:
-        return new RunConfigurationMethodDeclaration_BehaviorDescriptor();
       case 59:
-        return new RunConfigurationTypeDeclaration_BehaviorDescriptor();
-      case 45:
-        return new ProcessHandlerStatement_BehaviorDescriptor();
+        return new UniversalRunConfigCreator_BehaviorDescriptor();
       case 52:
+        return new RunConfigMainNodeStatement_BehaviorDescriptor();
+      case 53:
+        return new RunConfigParameterReferenceOperation_BehaviorDescriptor();
+      case 55:
+        return new RunConfigType_BehaviorDescriptor();
+      case 56:
+        return new RunConfigurationDeclaration_BehaviorDescriptor();
+      case 57:
+        return new RunConfigurationMethodDeclaration_BehaviorDescriptor();
+      case 58:
+        return new RunConfigurationTypeDeclaration_BehaviorDescriptor();
+      case 51:
         return new RunConfigExecutionParameterDeclaration_BehaviorDescriptor();
       default:
         return BehaviorAspectInterpreted.getInstance().getDescriptor(fqName);
