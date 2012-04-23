@@ -14,7 +14,7 @@
       </models>
       <external-templates>
         <generator generatorUID="5dbba245-9e3e-4c09-8359-021a77a5d610(jetbrains.mps.build.property#1224602648191)" />
-        <generator generatorUID="648edee0-a74d-4997-b400-98c57131fd93(jetbrains.mps.xml#1129923280838)" />
+        <generator generatorUID="648edee0-a74d-4997-b400-98c57131fd93(jetbrains.mps.xml.deprecated#1129923280838)" />
       </external-templates>
       <dependencies>
         <dependency reexport="false">dd61a7d7-8e1b-45a1-9aa3-8585ec2b60fc(jetbrains.mps.build.property)</dependency>
@@ -32,7 +32,7 @@
             </external-mapping>
           </greater-priority-mapping>
           <lesser-priority-mapping>
-            <generator generatorUID="648edee0-a74d-4997-b400-98c57131fd93(jetbrains.mps.xml#1129923280838)" />
+            <generator generatorUID="648edee0-a74d-4997-b400-98c57131fd93(jetbrains.mps.xml.deprecated#1129923280838)" />
             <external-mapping>
               <all-local-mappings />
             </external-mapping>
