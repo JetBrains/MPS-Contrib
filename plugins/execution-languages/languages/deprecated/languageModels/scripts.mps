@@ -31,7 +31,7 @@
       <property name="name" nameId="tpck.1169194664001" value="FixReferencesToMpsLaunch" />
       <property name="title" nameId="tp33.1177457669450" value="Fix References to MPSLaunch Annotation" />
       <property name="type" nameId="tp33.5299416737274925395" value="migration" />
-      <property name="toBuild" nameId="tp33.5299416737274925397" value="MPS 2.1" />
+      <property name="toBuild" nameId="tp33.5299416737274925397" value="2.5" />
     </node>
   </roots>
   <root id="4283697670712794863">
