@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <debugInfo>
-  <unitInfo fileName="DFABuilders.java" startLine="8" startPosition="0" endLine="18" endPosition="0" unitName="jetbrains.mps.execution.configurations.deprecated.dataFlow.DFABuilders" />
+  <unitInfo fileName="DFABuilders.java" startLine="8" startPosition="0" endLine="17" endPosition="0" unitName="jetbrains.mps.execution.configurations.deprecated.dataFlow.DFABuilders" />
   <root nodeId="314981645426571133">
     <nodeInfo nodeId="314981645426571136" fileName="DisposeConsoleBlock_DataFlow.java" startLine="15" startPosition="102" endLine="16" endPosition="101" conceptFqName="jetbrains.mps.baseLanguage.structure.ExpressionStatement" />
     <nodeInfo nodeId="314981645426571133" fileName="DisposeConsoleBlock_DataFlow.java" startLine="11" startPosition="67" endLine="13" endPosition="3" conceptFqName="jetbrains.mps.baseLanguage.structure.ConstructorDeclaration" propertyString="DisposeConsoleBlock_DataFlow#()V" />
@@ -75,19 +75,6 @@
       <varInfo nodeId="314981645426571181" varName="operationContext" />
     </scopeInfo>
     <unitInfo nodeId="314981645426571181" fileName="ProcessStatement_DataFlow.java" startLine="11" startPosition="0" endLine="20" endPosition="0" unitName="jetbrains.mps.execution.configurations.deprecated.dataFlow.ProcessStatement_DataFlow" />
-  </root>
-  <root nodeId="314981645426831749">
-    <nodeInfo nodeId="314981645426831752" fileName="ProcessHandlerStatement_DataFlow.java" startLine="15" startPosition="102" endLine="16" endPosition="111" conceptFqName="jetbrains.mps.baseLanguage.structure.ExpressionStatement" />
-    <nodeInfo nodeId="314981645426831749" fileName="ProcessHandlerStatement_DataFlow.java" startLine="11" startPosition="71" endLine="13" endPosition="3" conceptFqName="jetbrains.mps.baseLanguage.structure.ConstructorDeclaration" propertyString="ProcessHandlerStatement_DataFlow#()V" />
-    <nodeInfo nodeId="314981645426831749" fileName="ProcessHandlerStatement_DataFlow.java" startLine="14" startPosition="0" endLine="18" endPosition="0" conceptFqName="jetbrains.mps.baseLanguage.structure.InstanceMethodDeclaration" propertyString="build#(Ljetbrains/mps/smodel/IOperationContext;Ljetbrains/mps/lang/dataFlow/DataFlowBuilderContext;)V" />
-    <scopeInfo nodeId="314981645426831749" fileName="ProcessHandlerStatement_DataFlow.java" startLine="12" startPosition="45" endLine="12" endPosition="45" />
-    <scopeInfo nodeId="314981645426831751" fileName="ProcessHandlerStatement_DataFlow.java" startLine="15" startPosition="102" endLine="16" endPosition="111" />
-    <scopeInfo nodeId="314981645426831749" fileName="ProcessHandlerStatement_DataFlow.java" startLine="11" startPosition="71" endLine="13" endPosition="3" />
-    <scopeInfo nodeId="314981645426831749" fileName="ProcessHandlerStatement_DataFlow.java" startLine="14" startPosition="0" endLine="18" endPosition="0">
-      <varInfo nodeId="314981645426831749" varName="_context" />
-      <varInfo nodeId="314981645426831749" varName="operationContext" />
-    </scopeInfo>
-    <unitInfo nodeId="314981645426831749" fileName="ProcessHandlerStatement_DataFlow.java" startLine="11" startPosition="0" endLine="19" endPosition="0" unitName="jetbrains.mps.execution.configurations.deprecated.dataFlow.ProcessHandlerStatement_DataFlow" />
   </root>
 </debugInfo>
 

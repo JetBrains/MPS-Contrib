@@ -10,7 +10,6 @@ public class DFABuilders extends DataFlowBuilders {
     manager.register("jetbrains.mps.execution.configurations.deprecated.structure.CreateRunConfigStatement", new CreateRunConfigStatement_DataFlow());
     manager.register("jetbrains.mps.execution.configurations.deprecated.structure.DisposeConsoleBlock", new DisposeConsoleBlock_DataFlow());
     manager.register("jetbrains.mps.execution.configurations.deprecated.structure.ExecutionConsoleStatement", new ExecutionConsoleStatement_DataFlow());
-    manager.register("jetbrains.mps.execution.configurations.deprecated.structure.ProcessHandlerStatement", new ProcessHandlerStatement_DataFlow());
     manager.register("jetbrains.mps.execution.configurations.deprecated.structure.ProcessStatement", new ProcessStatement_DataFlow());
     manager.register("jetbrains.mps.execution.configurations.deprecated.structure.RunConfigPropertyInstance", new RunConfigPropertyInstance_DataFlow());
   }
