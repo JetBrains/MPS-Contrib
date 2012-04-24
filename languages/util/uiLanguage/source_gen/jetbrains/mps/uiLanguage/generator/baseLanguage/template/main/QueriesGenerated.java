@@ -113,16 +113,16 @@ public class QueriesGenerated {
     return "my" + NameUtil.capitalize(SPropertyOperations.getString(_context.getNode(), "name"));
   }
 
-  public static Object propertyMacro_GetPropertyValue_1202732923427(final IOperationContext operationContext, final PropertyMacroContext _context) {
+  public static Object propertyMacro_GetPropertyValue_5966619416142812100(final IOperationContext operationContext, final PropertyMacroContext _context) {
     SNode expression = SNodeOperations.cast(SLinkOperations.getTarget(_context.getNode(), "value", true), "jetbrains.mps.uiLanguage.structure.BindExpression");
     return BindExpression_Behavior.call_getPathExpression_1213877288019(expression);
   }
 
-  public static Object propertyMacro_GetPropertyValue_1202731581547(final IOperationContext operationContext, final PropertyMacroContext _context) {
+  public static Object propertyMacro_GetPropertyValue_5966619416142812983(final IOperationContext operationContext, final PropertyMacroContext _context) {
     return SPropertyOperations.getString(SLinkOperations.getTarget(_context.getNode(), "attribute", false), "name");
   }
 
-  public static Object propertyMacro_GetPropertyValue_1203087655378(final IOperationContext operationContext, final PropertyMacroContext _context) {
+  public static Object propertyMacro_GetPropertyValue_5966619416142814738(final IOperationContext operationContext, final PropertyMacroContext _context) {
     SNode expression = SNodeOperations.cast(SLinkOperations.getTarget(_context.getNode(), "value", true), "jetbrains.mps.uiLanguage.structure.BindExpression");
     return BindExpression_Behavior.call_getPathExpression_1213877288019(expression);
   }
