@@ -8,11 +8,6 @@
   <import index="tpjo" modelUID="r:00000000-0000-4000-0000-011c89590588(jetbrains.mps.xml.structure)" version="0" implicit="yes" />
   <import index="tpj8" modelUID="r:00000000-0000-4000-0000-011c89590598(jetbrains.mps.xmlSchema.structure)" version="3" implicit="yes" />
   <roots>
-    <node type="tpjh.XmlFile" typeId="tpjh.1166472279594" id="1221255820526">
-      <property name="fileName" nameId="tpjh.1167755304238" value="a" />
-      <property name="extension" nameId="tpjh.1188753321461" value="xml" />
-      <link role="schema" roleId="tpjh.1167755779835" targetNodeId="1221255856670" resolveInfo="sandbox schema" />
-    </node>
     <node type="tpj8.Schema" typeId="tpj8.1167513239198" id="1221255856670">
       <property name="schemaName" nameId="tpj8.1167754958780" value="sandbox" />
     </node>
@@ -30,19 +25,6 @@
       <link role="schema" roleId="tpjh.1167755779835" targetNodeId="4815471077468831973" resolveInfo="xhtml 1.0 strict schema" />
     </node>
   </roots>
-  <root id="1221255820526">
-    <node role="document" roleId="tpjh.1174833330733" type="tpjh.Document" typeId="tpjh.1174840096626" id="1221255820527">
-      <node role="rootElement" roleId="tpjh.1174840096627" type="tpjo.Element" typeId="tpjo.1167523027466" id="1221255895804">
-        <property name="isEmpty" nameId="tpjo.1172970532917" value="true" />
-        <link role="elementDeclaration" roleId="tpjo.1167523262932" targetNodeId="1221255876206" resolveInfo="root" />
-        <node role="contentList" roleId="tpjo.1179114219774" type="tpjo.ContentList" typeId="tpjo.1163629230879" id="1221255895805">
-          <node role="content" roleId="tpjo.1163629255661" type="tpjo.BaseElement" typeId="tpjo.1179102053371" id="1221255895806">
-            <node role="contentList" roleId="tpjo.1179114219774" type="tpjo.ContentList" typeId="tpjo.1163629230879" id="1221255895807" />
-          </node>
-        </node>
-      </node>
-    </node>
-  </root>
   <root id="1221255856670">
     <node role="declarationBlock" roleId="tpj8.1167514029204" type="tpj8.DeclarationBlock" typeId="tpj8.1167620500667" id="1221255856671">
       <node role="textLine" roleId="tpj8.1167620857260" type="tpj8.TextLine" typeId="tpj8.1167620778127" id="1221255856672" />

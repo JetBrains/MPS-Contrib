@@ -36,15 +36,6 @@
     <nodeInfo nodeId="1211753978542106109" fileName="ff.f" startLine="1" startPosition="0" endLine="6" endPosition="0" conceptFqName="jetbrains.mps.gtext.structure.GItemList" />
     <unitInfo nodeId="1211753978542106105" fileName="ff.f" startLine="1" startPosition="0" endLine="6" endPosition="0" unitName="ff.f" />
   </root>
-  <root nodeId="1221255820526">
-    <nodeInfo nodeId="1221255895804" fileName="a.xml" startLine="1" startPosition="0" endLine="1" endPosition="0" conceptFqName="jetbrains.mps.gtext.structure.GIndent" />
-    <nodeInfo nodeId="1221255895804" fileName="a.xml" startLine="1" startPosition="0" endLine="1" endPosition="5" conceptFqName="jetbrains.mps.gtext.structure.GText" />
-    <nodeInfo nodeId="1221255895804" fileName="a.xml" startLine="1" startPosition="5" endLine="1" endPosition="7" conceptFqName="jetbrains.mps.gtext.structure.GText" />
-    <nodeInfo nodeId="1221255820527" fileName="a.xml" startLine="1" startPosition="0" endLine="2" endPosition="0" conceptFqName="jetbrains.mps.gtext.structure.GItemList" />
-    <nodeInfo nodeId="1221255895804" fileName="a.xml" startLine="1" startPosition="0" endLine="2" endPosition="0" conceptFqName="jetbrains.mps.gtext.structure.GItemList" />
-    <nodeInfo nodeId="1221255895804" fileName="a.xml" startLine="1" startPosition="7" endLine="2" endPosition="0" conceptFqName="jetbrains.mps.gtext.structure.GNewLine" />
-    <unitInfo nodeId="1221255820526" fileName="a.xml" startLine="1" startPosition="0" endLine="2" endPosition="0" unitName="a.xml" />
-  </root>
   <root nodeId="1238684155881">
     <nodeInfo nodeId="1238684163057" fileName="b.xml" startLine="1" startPosition="0" endLine="1" endPosition="0" conceptFqName="jetbrains.mps.gtext.structure.GIndent" />
     <nodeInfo nodeId="1238684163057" fileName="b.xml" startLine="1" startPosition="0" endLine="1" endPosition="5" conceptFqName="jetbrains.mps.gtext.structure.GText" />
