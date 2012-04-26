@@ -17,7 +17,7 @@
   <roots>
     <node type="tpf8.TemplateDeclaration" typeId="tpf8.1092059087312" id="1202833474568">
       <property name="name" nameId="tpck.1169194664001" value="reduce_Dialog" />
-      <link role="applicableConcept" roleId="tpf8.1168285871518" targetNodeId="tphr.1202830095650" resolveInfo="Dialog" />
+      <link role="applicableConcept" roleId="tpf8.1168285871518" targetNodeId="tphr.1202830095650" resolveInfo="StandardDialog" />
     </node>
     <node type="tpf8.MappingConfiguration" typeId="tpf8.1095416546421" id="1202833910008">
       <property name="name" nameId="tpck.1169194664001" value="dialog" />
@@ -31,7 +31,7 @@
       <node role="root" roleId="tphr.1202391997731" type="tphr.ComponentInstance" typeId="tphr.1202387945296" id="1202833546507">
         <link role="componentDeclaration" roleId="tphr.1202388027333" targetNodeId="tpht.1202816402995" resolveInfo="Panel" />
         <node role="content" roleId="tphr.1202817142302" type="tphr.ComponentInstance" typeId="tphr.1202387945296" id="1202833548930">
-          <link role="componentDeclaration" roleId="tphr.1202388027333" targetNodeId="tpht.1202828480666" resolveInfo="_Dialog" />
+          <link role="componentDeclaration" roleId="tphr.1202388027333" targetNodeId="tpht.1202828480666" resolveInfo="Dialog" />
           <node role="content" roleId="tphr.1202817142302" type="tphr.AttributeValue" typeId="tphr.1202389314593" id="1202833550400">
             <link role="attribute" roleId="tphr.1202389328439" targetNodeId="tpht.1202393600503" resolveInfo="layout" />
             <node role="value" roleId="tphr.1202389410534" type="tpee.GenericNewExpression" typeId="tpee.1145552977093" id="1217888402338">
@@ -186,7 +186,7 @@
   </root>
   <root id="1202833910008">
     <node role="weavingMappingRule" roleId="tpf8.1167172143858" type="tpf8.Weaving_MappingRule" typeId="tpf8.1167171569011" id="1202834159578">
-      <link role="applicableConcept" roleId="tpf8.1167169349424" targetNodeId="tphr.1202830095650" resolveInfo="Dialog" />
+      <link role="applicableConcept" roleId="tpf8.1167169349424" targetNodeId="tphr.1202830095650" resolveInfo="StandardDialog" />
       <node role="ruleConsequence" roleId="tpf8.1169570368028" type="tpf8.TemplateDeclarationReference" typeId="tpf8.1168559333462" id="1202834322625">
         <link role="template" roleId="tpf8.1722980698497626483" targetNodeId="1202834129055" resolveInfo="weave_LayoutConstraint" />
       </node>
@@ -209,7 +209,7 @@
       </node>
     </node>
     <node role="reductionMappingRule" roleId="tpf8.1167328349397" type="tpf8.Reduction_MappingRule" typeId="tpf8.1167327847730" id="1202834116020">
-      <link role="applicableConcept" roleId="tpf8.1167169349424" targetNodeId="tphr.1202830095650" resolveInfo="Dialog" />
+      <link role="applicableConcept" roleId="tpf8.1167169349424" targetNodeId="tphr.1202830095650" resolveInfo="StandardDialog" />
       <node role="ruleConsequence" roleId="tpf8.1169672767469" type="tpf8.TemplateDeclarationReference" typeId="tpf8.1168559333462" id="1202834121491">
         <link role="template" roleId="tpf8.1722980698497626483" targetNodeId="1202833474568" resolveInfo="reduce_Dialog" />
       </node>
