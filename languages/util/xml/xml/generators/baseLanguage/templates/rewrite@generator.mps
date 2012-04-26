@@ -23,7 +23,7 @@
     </node>
     <node type="tpf8.TemplateDeclaration" typeId="tpf8.1092059087312" id="1191197756595">
       <property name="name" nameId="tpck.1169194664001" value="reduce_Element_namespace" />
-      <link role="applicableConcept" roleId="tpf8.1168285871518" targetNodeId="tpjo.1167523027466" />
+      <link role="applicableConcept" roleId="tpf8.1168285871518" targetNodeId="tpjo.1167523027466" resolveInfo="Element" />
     </node>
     <node type="tpj8.Schema" typeId="tpj8.1167513239198" id="1207746963127">
       <property name="schemaName" nameId="tpj8.1167754958780" value="dummy" />
@@ -31,7 +31,7 @@
   </roots>
   <root id="1191189331473">
     <node role="reductionMappingRule" roleId="tpf8.1167328349397" type="tpf8.Reduction_MappingRule" typeId="tpf8.1167327847730" id="1191197695927">
-      <link role="applicableConcept" roleId="tpf8.1167169349424" targetNodeId="tpjo.1167523027466" />
+      <link role="applicableConcept" roleId="tpf8.1167169349424" targetNodeId="tpjo.1167523027466" resolveInfo="Element" />
       <node role="ruleConsequence" roleId="tpf8.1169672767469" type="tpf8.TemplateDeclarationReference" typeId="tpf8.1168559333462" id="1191197756597">
         <link role="template" roleId="tpf8.1722980698497626483" targetNodeId="1191197756595" resolveInfo="reduce_Element_namespace" />
       </node>
@@ -49,7 +49,7 @@
                   </node>
                 </node>
                 <node role="operation" roleId="tpee.1197027833540" type="tp25.Node_ConceptMethodCall" typeId="tp25.1179409122411" id="1191199875290">
-                  <link role="baseMethodDeclaration" roleId="tpee.1068499141037" targetNodeId="tpjc.1213877429936" />
+                  <link role="baseMethodDeclaration" roleId="tpee.1068499141037" targetNodeId="tpjc.1213877429936" resolveInfo="hasNamespace" />
                 </node>
               </node>
             </node>
@@ -107,11 +107,11 @@
                       </node>
                     </node>
                     <node role="operation" roleId="tpee.1197027833540" type="tp25.Node_ConceptMethodCall" typeId="tp25.1179409122411" id="1191202544265">
-                      <link role="baseMethodDeclaration" roleId="tpee.1068499141037" targetNodeId="tpjc.1213877429893" />
+                      <link role="baseMethodDeclaration" roleId="tpee.1068499141037" targetNodeId="tpjc.1213877429893" resolveInfo="getNamespaceDeclaration" />
                     </node>
                   </node>
                   <node role="operation" roleId="tpee.1197027833540" type="tp25.SPropertyAccess" typeId="tp25.1138056022639" id="1191202547909">
-                    <link role="property" roleId="tp25.1138056395725" targetNodeId="tpj8.1189887827906" />
+                    <link role="property" roleId="tp25.1138056395725" targetNodeId="tpj8.1189887827906" resolveInfo="uri" />
                   </node>
                 </node>
               </node>
@@ -132,11 +132,11 @@
                       </node>
                     </node>
                     <node role="operation" roleId="tpee.1197027833540" type="tp25.Node_ConceptMethodCall" typeId="tp25.1179409122411" id="1191204462963">
-                      <link role="baseMethodDeclaration" roleId="tpee.1068499141037" targetNodeId="tpjc.1213877429893" />
+                      <link role="baseMethodDeclaration" roleId="tpee.1068499141037" targetNodeId="tpjc.1213877429893" resolveInfo="getNamespaceDeclaration" />
                     </node>
                   </node>
                   <node role="operation" roleId="tpee.1197027833540" type="tp25.SPropertyAccess" typeId="tp25.1138056022639" id="1191204467483">
-                    <link role="property" roleId="tp25.1138056395725" targetNodeId="tpj8.1189887823140" />
+                    <link role="property" roleId="tp25.1138056395725" targetNodeId="tpj8.1189887823140" resolveInfo="prefix" />
                   </node>
                 </node>
               </node>

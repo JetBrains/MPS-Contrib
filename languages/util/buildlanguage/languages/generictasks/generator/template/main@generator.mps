@@ -27,15 +27,15 @@
     </node>
     <node type="tpf8.TemplateDeclaration" typeId="tpf8.1092059087312" id="353793545802704402">
       <property name="name" nameId="tpck.1169194664001" value="reduce_TaskCall" />
-      <link role="applicableConcept" roleId="tpf8.1168285871518" targetNodeId="ddum.353793545802643477" resolveInfo="GenericCall" />
+      <link role="applicableConcept" roleId="tpf8.1168285871518" targetNodeId="ddum.353793545802643477" resolveInfo="TaskCall" />
     </node>
   </roots>
   <root id="683020775182432298">
     <node role="reductionMappingRule" roleId="tpf8.1167328349397" type="tpf8.Reduction_MappingRule" typeId="tpf8.1167327847730" id="353793545802729441">
       <property name="applyToConceptInheritors" nameId="tpf8.1167272244852" value="true" />
-      <link role="applicableConcept" roleId="tpf8.1167169349424" targetNodeId="ddum.353793545802643477" resolveInfo="GenericCall" />
+      <link role="applicableConcept" roleId="tpf8.1167169349424" targetNodeId="ddum.353793545802643477" resolveInfo="TaskCall" />
       <node role="ruleConsequence" roleId="tpf8.1169672767469" type="tpf8.TemplateDeclarationReference" typeId="tpf8.1168559333462" id="353793545802729442">
-        <link role="template" roleId="tpf8.1722980698497626483" targetNodeId="353793545802704402" resolveInfo="reduce_LibTaskCall" />
+        <link role="template" roleId="tpf8.1722980698497626483" targetNodeId="353793545802704402" resolveInfo="reduce_TaskCall" />
       </node>
     </node>
   </root>
@@ -177,7 +177,7 @@
                 <node role="variable" roleId="tpee.1144230900587" type="tpee.LocalVariableDeclaration" typeId="tpee.1068581242863" id="353793545802704462">
                   <property name="name" nameId="tpck.1169194664001" value="attr" />
                   <node role="type" roleId="tpee.5680397130376446158" type="tp25.SNodeType" typeId="tp25.1138055754698" id="353793545802704463">
-                    <link role="concept" roleId="tp25.1138405853777" targetNodeId="ddum.353793545802643466" resolveInfo="GenericAttribute" />
+                    <link role="concept" roleId="tp25.1138405853777" targetNodeId="ddum.353793545802643466" resolveInfo="Attribute" />
                   </node>
                 </node>
               </node>
