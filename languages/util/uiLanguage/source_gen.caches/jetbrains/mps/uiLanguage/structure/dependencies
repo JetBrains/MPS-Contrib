@@ -12,6 +12,7 @@
     <classNode dependClassName="jetbrains.mps.smodel.SNode" />
     <classNode dependClassName="jetbrains.mps.uiLanguage.structure.IComponentPart" />
     <classNode extendsClassName="jetbrains.mps.lang.core.structure.BaseConcept" />
+    <classNode extendsClassName="jetbrains.mps.smodel.INodeAdapter" />
   </dependency>
   <dependency className="jetbrains.mps.uiLanguage.structure.AddListenerOperation" file="AddListenerOperation.java">
     <classNode dependClassName="java.lang.String" />
@@ -44,6 +45,7 @@
     <classNode dependClassName="jetbrains.mps.smodel.SModelUtil_new" />
     <classNode dependClassName="jetbrains.mps.smodel.SNode" />
     <classNode extendsClassName="jetbrains.mps.lang.core.structure.BaseConcept" />
+    <classNode extendsClassName="jetbrains.mps.smodel.INodeAdapter" />
   </dependency>
   <dependency className="jetbrains.mps.uiLanguage.structure.AttributeReferenceOperation" file="AttributeReferenceOperation.java">
     <classNode dependClassName="java.lang.String" />
@@ -58,6 +60,7 @@
     <classNode dependClassName="jetbrains.mps.smodel.SNode" />
     <classNode dependClassName="jetbrains.mps.uiLanguage.structure.AttributeDeclaration" />
     <classNode extendsClassName="jetbrains.mps.lang.core.structure.BaseConcept" />
+    <classNode extendsClassName="jetbrains.mps.smodel.INodeAdapter" />
   </dependency>
   <dependency className="jetbrains.mps.uiLanguage.structure.AttributeValue" file="AttributeValue.java">
     <classNode dependClassName="java.lang.String" />
@@ -72,6 +75,7 @@
     <classNode dependClassName="jetbrains.mps.uiLanguage.structure.AttributeDeclaration" />
     <classNode dependClassName="jetbrains.mps.uiLanguage.structure.IComponentPart" />
     <classNode extendsClassName="jetbrains.mps.lang.core.structure.BaseConcept" />
+    <classNode extendsClassName="jetbrains.mps.smodel.INodeAdapter" />
   </dependency>
   <dependency className="jetbrains.mps.uiLanguage.structure.BeanCreator" file="BeanCreator.java">
     <classNode dependClassName="java.lang.String" />
@@ -101,6 +105,7 @@
     <classNode dependClassName="jetbrains.mps.smodel.SNode" />
     <classNode dependClassName="jetbrains.mps.uiLanguage.structure.AttributeDeclaration" />
     <classNode extendsClassName="jetbrains.mps.lang.core.structure.BaseConcept" />
+    <classNode extendsClassName="jetbrains.mps.smodel.INodeAdapter" />
   </dependency>
   <dependency className="jetbrains.mps.uiLanguage.structure.BeanType" file="BeanType.java">
     <classNode dependClassName="java.lang.String" />
@@ -142,6 +147,7 @@
     <classNode dependClassName="jetbrains.mps.smodel.SNode" />
     <classNode dependClassName="jetbrains.mps.uiLanguage.structure.IComponentPart" />
     <classNode extendsClassName="jetbrains.mps.lang.core.structure.BaseConcept" />
+    <classNode extendsClassName="jetbrains.mps.smodel.INodeAdapter" />
   </dependency>
   <dependency className="jetbrains.mps.uiLanguage.structure.ComponentController" file="ComponentController.java">
     <classNode dependClassName="java.lang.String" />
@@ -161,6 +167,7 @@
     <classNode dependClassName="jetbrains.mps.uiLanguage.structure.ComponentDeclaration" />
     <classNode dependClassName="jetbrains.mps.uiLanguage.structure.EventDeclaration" />
     <classNode extendsClassName="jetbrains.mps.lang.core.structure.BaseConcept" />
+    <classNode extendsClassName="jetbrains.mps.smodel.INodeAdapter" />
   </dependency>
   <dependency className="jetbrains.mps.uiLanguage.structure.ComponentCreator" file="ComponentCreator.java">
     <classNode dependClassName="java.lang.String" />
@@ -186,6 +193,7 @@
     <classNode dependClassName="jetbrains.mps.uiLanguage.structure.IComponentInstance" />
     <classNode dependClassName="jetbrains.mps.uiLanguage.structure.StubCellRendererInfo" />
     <classNode extendsClassName="jetbrains.mps.lang.core.structure.BaseConcept" />
+    <classNode extendsClassName="jetbrains.mps.smodel.INodeAdapter" />
   </dependency>
   <dependency className="jetbrains.mps.uiLanguage.structure.ComponentInstance" file="ComponentInstance.java">
     <classNode dependClassName="java.lang.String" />
@@ -201,6 +209,7 @@
     <classNode dependClassName="jetbrains.mps.uiLanguage.structure.IComponentInstance" />
     <classNode dependClassName="jetbrains.mps.uiLanguage.structure.IComponentPart" />
     <classNode extendsClassName="jetbrains.mps.lang.core.structure.BaseConcept" />
+    <classNode extendsClassName="jetbrains.mps.smodel.INodeAdapter" />
   </dependency>
   <dependency className="jetbrains.mps.uiLanguage.structure.ComponentReference" file="ComponentReference.java">
     <classNode dependClassName="java.lang.String" />
@@ -235,6 +244,7 @@
     <classNode dependClassName="jetbrains.mps.smodel.SNode" />
     <classNode dependClassName="jetbrains.mps.uiLanguage.structure.EventDeclaration" />
     <classNode extendsClassName="jetbrains.mps.lang.core.structure.BaseConcept" />
+    <classNode extendsClassName="jetbrains.mps.smodel.INodeAdapter" />
   </dependency>
   <dependency className="jetbrains.mps.uiLanguage.structure.EventDeclaration" file="EventDeclaration.java">
     <classNode dependClassName="java.lang.String" />
@@ -249,6 +259,7 @@
     <classNode dependClassName="jetbrains.mps.smodel.SModelUtil_new" />
     <classNode dependClassName="jetbrains.mps.smodel.SNode" />
     <classNode extendsClassName="jetbrains.mps.lang.core.structure.BaseConcept" />
+    <classNode extendsClassName="jetbrains.mps.smodel.INodeAdapter" />
   </dependency>
   <dependency className="jetbrains.mps.uiLanguage.structure.EventHandlerReference" file="EventHandlerReference.java">
     <classNode dependClassName="java.lang.String" />
@@ -273,6 +284,7 @@
     <classNode dependClassName="jetbrains.mps.uiLanguage.structure.IComponentInstance" />
     <classNode dependClassName="jetbrains.mps.uiLanguage.structure.IComponentPart" />
     <classNode extendsClassName="jetbrains.mps.lang.core.structure.BaseConcept" />
+    <classNode extendsClassName="jetbrains.mps.smodel.INodeAdapter" />
   </dependency>
   <dependency className="jetbrains.mps.uiLanguage.structure.FormPart" file="FormPart.java">
     <classNode dependClassName="java.lang.String" />
@@ -296,6 +308,7 @@
     <classNode dependClassName="jetbrains.mps.uiLanguage.structure.IComponentInstance" />
     <classNode dependClassName="jetbrains.mps.uiLanguage.structure.IComponentPart" />
     <classNode extendsClassName="jetbrains.mps.lang.core.structure.BaseConcept" />
+    <classNode extendsClassName="jetbrains.mps.smodel.INodeAdapter" />
   </dependency>
   <dependency className="jetbrains.mps.uiLanguage.structure.GridRow" file="GridRow.java">
     <classNode dependClassName="java.lang.String" />
@@ -332,6 +345,7 @@
     <classNode dependClassName="jetbrains.mps.uiLanguage.structure.EventDeclaration" />
     <classNode dependClassName="jetbrains.mps.uiLanguage.structure.IComponentPart" />
     <classNode extendsClassName="jetbrains.mps.lang.core.structure.BaseConcept" />
+    <classNode extendsClassName="jetbrains.mps.smodel.INodeAdapter" />
   </dependency>
   <dependency className="jetbrains.mps.uiLanguage.structure.InlineRenderer" file="InlineRenderer.java">
     <classNode dependClassName="java.lang.String" />
@@ -345,6 +359,7 @@
     <classNode dependClassName="jetbrains.mps.uiLanguage.structure.ComponentInstance" />
     <classNode dependClassName="jetbrains.mps.uiLanguage.structure.IComponentPart" />
     <classNode extendsClassName="jetbrains.mps.lang.core.structure.BaseConcept" />
+    <classNode extendsClassName="jetbrains.mps.smodel.INodeAdapter" />
   </dependency>
   <dependency className="jetbrains.mps.uiLanguage.structure.LayoutConstraint" file="LayoutConstraint.java">
     <classNode dependClassName="java.lang.String" />
@@ -358,6 +373,7 @@
     <classNode dependClassName="jetbrains.mps.smodel.SNode" />
     <classNode dependClassName="jetbrains.mps.uiLanguage.structure.IComponentPart" />
     <classNode extendsClassName="jetbrains.mps.lang.core.structure.BaseConcept" />
+    <classNode extendsClassName="jetbrains.mps.smodel.INodeAdapter" />
   </dependency>
   <dependency className="jetbrains.mps.uiLanguage.structure.ListElements" file="ListElements.java">
     <classNode dependClassName="java.lang.String" />
@@ -371,6 +387,7 @@
     <classNode dependClassName="jetbrains.mps.smodel.SNode" />
     <classNode dependClassName="jetbrains.mps.uiLanguage.structure.IComponentPart" />
     <classNode extendsClassName="jetbrains.mps.lang.core.structure.BaseConcept" />
+    <classNode extendsClassName="jetbrains.mps.smodel.INodeAdapter" />
   </dependency>
   <dependency className="jetbrains.mps.uiLanguage.structure.PngIcon" file="PngIcon.java">
     <classNode dependClassName="java.lang.String" />
@@ -383,6 +400,7 @@
     <classNode dependClassName="jetbrains.mps.smodel.SModelUtil_new" />
     <classNode dependClassName="jetbrains.mps.smodel.SNode" />
     <classNode extendsClassName="jetbrains.mps.lang.core.structure.BaseConcept" />
+    <classNode extendsClassName="jetbrains.mps.smodel.INodeAdapter" />
   </dependency>
   <dependency className="jetbrains.mps.uiLanguage.structure.RaiseInternalStatement" file="RaiseInternalStatement.java">
     <classNode dependClassName="java.lang.String" />
@@ -406,6 +424,7 @@
     <classNode dependClassName="jetbrains.mps.smodel.SModelUtil_new" />
     <classNode dependClassName="jetbrains.mps.smodel.SNode" />
     <classNode extendsClassName="jetbrains.mps.lang.core.structure.BaseConcept" />
+    <classNode extendsClassName="jetbrains.mps.smodel.INodeAdapter" />
   </dependency>
   <dependency className="jetbrains.mps.uiLanguage.structure.RemoveListenerOperation" file="RemoveListenerOperation.java">
     <classNode dependClassName="java.lang.String" />
@@ -437,6 +456,7 @@
     <classNode dependClassName="jetbrains.mps.uiLanguage.structure.IComponentInstance" />
     <classNode dependClassName="jetbrains.mps.uiLanguage.structure.IComponentPart" />
     <classNode extendsClassName="jetbrains.mps.lang.core.structure.BaseConcept" />
+    <classNode extendsClassName="jetbrains.mps.smodel.INodeAdapter" />
   </dependency>
   <dependency className="jetbrains.mps.uiLanguage.structure.StandardDialog" file="StandardDialog.java">
     <classNode dependClassName="java.lang.String" />
@@ -451,6 +471,7 @@
     <classNode dependClassName="jetbrains.mps.uiLanguage.structure.IComponentPart" />
     <classNode dependClassName="jetbrains.mps.uiLanguage.structure.StandardDialogButton" />
     <classNode extendsClassName="jetbrains.mps.lang.core.structure.BaseConcept" />
+    <classNode extendsClassName="jetbrains.mps.smodel.INodeAdapter" />
   </dependency>
   <dependency className="jetbrains.mps.uiLanguage.structure.StandardDialogButton" file="StandardDialogButton.java">
     <classNode dependClassName="java.lang.String" />
