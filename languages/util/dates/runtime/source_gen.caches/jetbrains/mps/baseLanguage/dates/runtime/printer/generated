@@ -1,16 +1,16 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<dependencies version="2" modelHash="-7d8n0wg2tyafu63ozuo94cseg94icg">
-  <dep model="r:00000000-0000-4000-0000-011c895902ca(jetbrains.mps.baseLanguage.structure)" hash="cllol0k6uon23imzi3i8ftyndeqrkqk" />
+<dependencies version="2" modelHash="-89c10kf50xx78jt1yg9v6n74ehqhlp0">
+  <dep model="r:00000000-0000-4000-0000-011c895902ca(jetbrains.mps.baseLanguage.structure)" hash="3pfv61ztw43crdi9n56ftoapjvy39kp" />
   <dep model="r:00000000-0000-4000-0000-011c895902cb(jetbrains.mps.baseLanguage.generator.java.closures@generator)" hash="-3g2jui8rirnxhruh8t7p7qk3adnr3f9" />
   <dep model="r:00000000-0000-4000-0000-011c895902cd(jetbrains.mps.baseLanguage.generator.java.main@generator)" hash="do4uh4fd3dqp1s55v9l4e6fg8bob2ht" />
   <dep model="r:b4d7d620-6723-4aa2-856b-118497e84e9e(jetbrains.mps.baseLanguage.generator.java.strings@generator)" hash="-7zc5n4l9a9zrjq93znk167hfo3dyd2v" />
   <dep model="r:f04c1476-2f91-4f59-be13-c8e009abebee(jetbrains.mps.baseLanguageInternal.generator.template.main@generator)" hash="3ogbc94405e1j8mrhp8fnrksbak1c2a" />
-  <common hash="efyevw9y7gl1zhq82jhc0ndy34opcjj" />
-  <source id="734650238126517390" name="Printer" hash="-85mufyq81tid7d1sm8bswytpih9vyp9">
+  <common hash="dbm24l03z573dsag8f16fl6raphl5ti" />
+  <source id="734650238126517390" name="Printer" hash="-ekjd6xnpvcfz78ro2zg8f2v8lhfk44v">
     <dep model="r:00000000-0000-4000-0000-011c895902cb(jetbrains.mps.baseLanguage.generator.java.closures@generator)" />
     <file name="Printer.java" />
   </source>
-  <source id="734650238126517407" name="CompositePrinter" hash="drg8j5dm0ndulopf85u8r7ofmzq1ros">
+  <source id="734650238126517407" name="CompositePrinter" hash="-6l9zpe1x8jgz5ultr35b34ilji2e461">
     <dep model="r:00000000-0000-4000-0000-011c895902ca(jetbrains.mps.baseLanguage.structure)" />
     <dep model="r:00000000-0000-4000-0000-011c895902cb(jetbrains.mps.baseLanguage.generator.java.closures@generator)" />
     <dep model="r:00000000-0000-4000-0000-011c895902cd(jetbrains.mps.baseLanguage.generator.java.main@generator)" />
@@ -18,7 +18,7 @@
     <dep model="r:f04c1476-2f91-4f59-be13-c8e009abebee(jetbrains.mps.baseLanguageInternal.generator.template.main@generator)" />
     <file name="CompositePrinter.java" />
   </source>
-  <source id="734650238126519308" name="ConditionalPrinter" hash="ajot3bics6wzaent8x3cxlq5ixt04ao">
+  <source id="734650238126519308" name="ConditionalPrinter" hash="5cnjj6fpvrfy2i9unk209f9y3gvtbxa">
     <dep model="r:00000000-0000-4000-0000-011c895902ca(jetbrains.mps.baseLanguage.structure)" />
     <dep model="r:00000000-0000-4000-0000-011c895902cb(jetbrains.mps.baseLanguage.generator.java.closures@generator)" />
     <dep model="r:00000000-0000-4000-0000-011c895902cd(jetbrains.mps.baseLanguage.generator.java.main@generator)" />
@@ -26,7 +26,7 @@
     <dep model="r:f04c1476-2f91-4f59-be13-c8e009abebee(jetbrains.mps.baseLanguageInternal.generator.template.main@generator)" />
     <file name="ConditionalPrinter.java" />
   </source>
-  <source id="734650238126520134" name="LiteralPrinter" hash="-8bjfh3ki0us5b65snw9ap4l1wfe4o34">
+  <source id="734650238126520134" name="LiteralPrinter" hash="asvvaapmv9rm5c632vpit6hqhjlvf28">
     <dep model="r:00000000-0000-4000-0000-011c895902ca(jetbrains.mps.baseLanguage.structure)" />
     <dep model="r:00000000-0000-4000-0000-011c895902cb(jetbrains.mps.baseLanguage.generator.java.closures@generator)" />
     <dep model="r:00000000-0000-4000-0000-011c895902cd(jetbrains.mps.baseLanguage.generator.java.main@generator)" />

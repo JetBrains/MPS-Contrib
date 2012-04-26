@@ -6,7 +6,7 @@
   <dep model="r:00000000-0000-4000-0000-011c895902cd(jetbrains.mps.baseLanguage.generator.java.main@generator)" hash="do4uh4fd3dqp1s55v9l4e6fg8bob2ht" />
   <dep model="r:aa31e43e-9240-4f4d-b6db-5c1c9a86c59e(jetbrains.mps.lang.project.structure)" hash="5m0oa3iqqfbc3ww93dw3g3plcozj7o0" />
   <dep model="r:b4d7d620-6723-4aa2-856b-118497e84e9e(jetbrains.mps.baseLanguage.generator.java.strings@generator)" hash="-7zc5n4l9a9zrjq93znk167hfo3dyd2v" />
-  <dep model="r:d43ac4df-d36f-42ee-9923-a53d21b79525(jetbrains.mps.xmlUnitTest.typesystem)" hash="-cj3lj5cgedc0otda97hg9ziowzvlj4b" />
+  <dep model="r:d43ac4df-d36f-42ee-9923-a53d21b79525(jetbrains.mps.xmlUnitTest.typesystem)" hash="-8int9u9cfn9dh73ph2a6gome6i214mg" />
   <dep model="r:f04c1476-2f91-4f59-be13-c8e009abebee(jetbrains.mps.baseLanguageInternal.generator.template.main@generator)" hash="3ogbc94405e1j8mrhp8fnrksbak1c2a" />
   <common>
     <dep model="r:00000000-0000-4000-0000-011c89590288(jetbrains.mps.lang.core.structure)" />

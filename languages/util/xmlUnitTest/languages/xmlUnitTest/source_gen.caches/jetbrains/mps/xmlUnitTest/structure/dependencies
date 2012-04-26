@@ -14,6 +14,7 @@
     <classNode dependClassName="jetbrains.mps.smodel.SModelUtil_new" />
     <classNode dependClassName="jetbrains.mps.smodel.SNode" />
     <classNode extendsClassName="jetbrains.mps.lang.core.structure.BaseConcept" />
+    <classNode extendsClassName="jetbrains.mps.smodel.INodeAdapter" />
   </dependency>
   <dependency className="jetbrains.mps.xmlUnitTest.structure.Attribute" file="Attribute.java">
     <classNode dependClassName="java.lang.String" />
@@ -25,6 +26,7 @@
     <classNode dependClassName="jetbrains.mps.smodel.SModelUtil_new" />
     <classNode dependClassName="jetbrains.mps.smodel.SNode" />
     <classNode extendsClassName="jetbrains.mps.lang.core.structure.BaseConcept" />
+    <classNode extendsClassName="jetbrains.mps.smodel.INodeAdapter" />
   </dependency>
   <dependency className="jetbrains.mps.xmlUnitTest.structure.Document" file="Document.java">
     <classNode dependClassName="java.lang.String" />
@@ -38,6 +40,7 @@
     <classNode dependClassName="jetbrains.mps.smodel.SNode" />
     <classNode dependClassName="jetbrains.mps.xmlUnitTest.structure.Element" />
     <classNode extendsClassName="jetbrains.mps.lang.core.structure.BaseConcept" />
+    <classNode extendsClassName="jetbrains.mps.smodel.INodeAdapter" />
   </dependency>
   <dependency className="jetbrains.mps.xmlUnitTest.structure.Element" file="Element.java">
     <classNode dependClassName="java.lang.String" />
@@ -62,6 +65,7 @@
     <classNode dependClassName="jetbrains.mps.smodel.SModelUtil_new" />
     <classNode dependClassName="jetbrains.mps.smodel.SNode" />
     <classNode extendsClassName="jetbrains.mps.lang.core.structure.BaseConcept" />
+    <classNode extendsClassName="jetbrains.mps.smodel.INodeAdapter" />
   </dependency>
   <dependency className="jetbrains.mps.xmlUnitTest.structure.StructureAspectDescriptor" file="StructureAspectDescriptor.java">
     <classNode dependClassName="java.lang.String" />

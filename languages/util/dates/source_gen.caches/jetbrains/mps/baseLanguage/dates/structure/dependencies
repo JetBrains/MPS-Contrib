@@ -53,6 +53,7 @@
     <classNode dependClassName="jetbrains.mps.smodel.SModelUtil_new" />
     <classNode dependClassName="jetbrains.mps.smodel.SNode" />
     <classNode extendsClassName="jetbrains.mps.lang.core.structure.BaseConcept" />
+    <classNode extendsClassName="jetbrains.mps.smodel.INodeAdapter" />
   </dependency>
   <dependency className="jetbrains.mps.baseLanguage.dates.structure.ConstantTimeZoneRef" file="ConstantTimeZoneRef.java">
     <classNode dependClassName="java.lang.String" />
@@ -75,6 +76,7 @@
     <classNode dependClassName="jetbrains.mps.smodel.SModelUtil_new" />
     <classNode dependClassName="jetbrains.mps.smodel.SNode" />
     <classNode extendsClassName="jetbrains.mps.lang.core.structure.BaseConcept" />
+    <classNode extendsClassName="jetbrains.mps.smodel.INodeAdapter" />
   </dependency>
   <dependency className="jetbrains.mps.baseLanguage.dates.structure.ConvertToDurationOperation" file="ConvertToDurationOperation.java">
     <classNode dependClassName="java.lang.String" />
@@ -87,6 +89,7 @@
     <classNode dependClassName="jetbrains.mps.smodel.SModelUtil_new" />
     <classNode dependClassName="jetbrains.mps.smodel.SNode" />
     <classNode extendsClassName="jetbrains.mps.lang.core.structure.BaseConcept" />
+    <classNode extendsClassName="jetbrains.mps.smodel.INodeAdapter" />
   </dependency>
   <dependency className="jetbrains.mps.baseLanguage.dates.structure.ConvertToJavaCalendarOperation" file="ConvertToJavaCalendarOperation.java">
     <classNode dependClassName="java.lang.String" />
@@ -128,6 +131,7 @@
     <classNode dependClassName="jetbrains.mps.smodel.SModelUtil_new" />
     <classNode dependClassName="jetbrains.mps.smodel.SNode" />
     <classNode extendsClassName="jetbrains.mps.lang.core.structure.BaseConcept" />
+    <classNode extendsClassName="jetbrains.mps.smodel.INodeAdapter" />
   </dependency>
   <dependency className="jetbrains.mps.baseLanguage.dates.structure.DateFormatVisibility" file="DateFormatVisibility.java">
     <classNode dependClassName="java.lang.String" />
@@ -154,6 +158,7 @@
     <classNode dependClassName="jetbrains.mps.smodel.SModelUtil_new" />
     <classNode dependClassName="jetbrains.mps.smodel.SNode" />
     <classNode extendsClassName="jetbrains.mps.lang.core.structure.BaseConcept" />
+    <classNode extendsClassName="jetbrains.mps.smodel.INodeAdapter" />
   </dependency>
   <dependency className="jetbrains.mps.baseLanguage.dates.structure.DateTimeCompareOperation" file="DateTimeCompareOperation.java">
     <classNode dependClassName="java.lang.String" />
@@ -209,6 +214,7 @@
     <classNode dependClassName="jetbrains.mps.smodel.SModelUtil_new" />
     <classNode dependClassName="jetbrains.mps.smodel.SNode" />
     <classNode extendsClassName="jetbrains.mps.lang.core.structure.BaseConcept" />
+    <classNode extendsClassName="jetbrains.mps.smodel.INodeAdapter" />
   </dependency>
   <dependency className="jetbrains.mps.baseLanguage.dates.structure.DateTimePlusPeriodOperation" file="DateTimePlusPeriodOperation.java">
     <classNode dependClassName="java.lang.String" />
@@ -367,6 +373,7 @@
     <classNode dependClassName="jetbrains.mps.smodel.SModelUtil_new" />
     <classNode dependClassName="jetbrains.mps.smodel.SNode" />
     <classNode extendsClassName="jetbrains.mps.lang.core.structure.BaseConcept" />
+    <classNode extendsClassName="jetbrains.mps.smodel.INodeAdapter" />
   </dependency>
   <dependency className="jetbrains.mps.baseLanguage.dates.structure.FormatExpression" file="FormatExpression.java">
     <classNode dependClassName="java.lang.String" />
@@ -382,6 +389,7 @@
     <classNode dependClassName="jetbrains.mps.smodel.SModelUtil_new" />
     <classNode dependClassName="jetbrains.mps.smodel.SNode" />
     <classNode extendsClassName="jetbrains.mps.lang.core.structure.BaseConcept" />
+    <classNode extendsClassName="jetbrains.mps.smodel.INodeAdapter" />
   </dependency>
   <dependency className="jetbrains.mps.baseLanguage.dates.structure.FormatPeriodExpression" file="FormatPeriodExpression.java">
     <classNode dependClassName="java.lang.String" />
@@ -397,6 +405,7 @@
     <classNode dependClassName="jetbrains.mps.smodel.SModelUtil_new" />
     <classNode dependClassName="jetbrains.mps.smodel.SNode" />
     <classNode extendsClassName="jetbrains.mps.lang.core.structure.BaseConcept" />
+    <classNode extendsClassName="jetbrains.mps.smodel.INodeAdapter" />
   </dependency>
   <dependency className="jetbrains.mps.baseLanguage.dates.structure.FormatToken" file="FormatToken.java">
     <classNode dependClassName="java.lang.String" />
@@ -418,6 +427,7 @@
     <classNode dependClassName="jetbrains.mps.smodel.SModelUtil_new" />
     <classNode dependClassName="jetbrains.mps.smodel.SNode" />
     <classNode extendsClassName="jetbrains.mps.lang.core.structure.BaseConcept" />
+    <classNode extendsClassName="jetbrains.mps.smodel.INodeAdapter" />
   </dependency>
   <dependency className="jetbrains.mps.baseLanguage.dates.structure.InlineFormatDateTimeExpression" file="InlineFormatDateTimeExpression.java">
     <classNode dependClassName="java.lang.String" />
@@ -536,6 +546,7 @@
     <classNode dependClassName="jetbrains.mps.smodel.SModelUtil_new" />
     <classNode dependClassName="jetbrains.mps.smodel.SNode" />
     <classNode extendsClassName="jetbrains.mps.lang.core.structure.BaseConcept" />
+    <classNode extendsClassName="jetbrains.mps.smodel.INodeAdapter" />
   </dependency>
   <dependency className="jetbrains.mps.baseLanguage.dates.structure.ParseExpression" file="ParseExpression.java">
     <classNode dependClassName="java.lang.String" />
@@ -571,6 +582,7 @@
     <classNode dependClassName="jetbrains.mps.smodel.SModelUtil_new" />
     <classNode dependClassName="jetbrains.mps.smodel.SNode" />
     <classNode extendsClassName="jetbrains.mps.lang.core.structure.BaseConcept" />
+    <classNode extendsClassName="jetbrains.mps.smodel.INodeAdapter" />
   </dependency>
   <dependency className="jetbrains.mps.baseLanguage.dates.structure.PeriodFormatToken" file="PeriodFormatToken.java">
     <classNode dependClassName="java.lang.String" />
@@ -592,6 +604,7 @@
     <classNode dependClassName="jetbrains.mps.smodel.SModelUtil_new" />
     <classNode dependClassName="jetbrains.mps.smodel.SNode" />
     <classNode extendsClassName="jetbrains.mps.lang.core.structure.BaseConcept" />
+    <classNode extendsClassName="jetbrains.mps.smodel.INodeAdapter" />
   </dependency>
   <dependency className="jetbrains.mps.baseLanguage.dates.structure.PeriodInPropertyExpression" file="PeriodInPropertyExpression.java">
     <classNode dependClassName="java.lang.String" />
@@ -741,6 +754,7 @@
     <classNode dependClassName="jetbrains.mps.smodel.SModelUtil_new" />
     <classNode dependClassName="jetbrains.mps.smodel.SNode" />
     <classNode extendsClassName="jetbrains.mps.lang.core.structure.BaseConcept" />
+    <classNode extendsClassName="jetbrains.mps.smodel.INodeAdapter" />
   </dependency>
   <dependency className="jetbrains.mps.baseLanguage.dates.structure.TimeZoneConstant" file="TimeZoneConstant.java">
     <classNode dependClassName="java.lang.String" />
@@ -780,6 +794,7 @@
     <classNode dependClassName="jetbrains.mps.smodel.SModelUtil_new" />
     <classNode dependClassName="jetbrains.mps.smodel.SNode" />
     <classNode extendsClassName="jetbrains.mps.lang.core.structure.BaseConcept" />
+    <classNode extendsClassName="jetbrains.mps.smodel.INodeAdapter" />
   </dependency>
   <dependency className="jetbrains.mps.baseLanguage.dates.structure.TimeZoneNameOperation" file="TimeZoneNameOperation.java">
     <classNode dependClassName="java.lang.String" />
@@ -794,6 +809,7 @@
     <classNode dependClassName="jetbrains.mps.smodel.SModelUtil_new" />
     <classNode dependClassName="jetbrains.mps.smodel.SNode" />
     <classNode extendsClassName="jetbrains.mps.lang.core.structure.BaseConcept" />
+    <classNode extendsClassName="jetbrains.mps.smodel.INodeAdapter" />
   </dependency>
   <dependency className="jetbrains.mps.baseLanguage.dates.structure.TimeZoneOffsetExpression" file="TimeZoneOffsetExpression.java">
     <classNode dependClassName="java.lang.String" />

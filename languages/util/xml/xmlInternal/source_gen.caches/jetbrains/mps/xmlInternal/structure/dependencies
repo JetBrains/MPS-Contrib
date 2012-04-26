@@ -147,6 +147,7 @@
     <classNode dependClassName="jetbrains.mps.xmlInternal.structure.Document" />
     <classNode dependClassName="jetbrains.mps.xmlSchema.structure.Schema" />
     <classNode extendsClassName="jetbrains.mps.lang.core.structure.BaseConcept" />
+    <classNode extendsClassName="jetbrains.mps.smodel.INodeAdapter" />
   </dependency>
   <dependency className="jetbrains.mps.xmlInternal.structure.XmlInternal_Language" file="XmlInternal_Language.java">
     <classNode dependClassName="jetbrains.mps.project.structure.modules.ModuleReference" />
