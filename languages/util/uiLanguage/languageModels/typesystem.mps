@@ -9,7 +9,7 @@
   <language namespace="5d6bee4c-f891-4a93-a0c9-e2268726ae47(jetbrains.mps.uiLanguage)" />
   <devkit namespace="fbc25dd2-5da4-483a-8b19-70928e1b62d7(jetbrains.mps.devkit.general-purpose)" />
   <import index="tphr" modelUID="r:00000000-0000-4000-0000-011c89590553(jetbrains.mps.uiLanguage.structure)" version="1" />
-  <import index="tpee" modelUID="r:00000000-0000-4000-0000-011c895902ca(jetbrains.mps.baseLanguage.structure)" version="3" />
+  <import index="tpee" modelUID="r:00000000-0000-4000-0000-011c895902ca(jetbrains.mps.baseLanguage.structure)" version="4" />
   <import index="tphs" modelUID="r:00000000-0000-4000-0000-011c8959054c(jetbrains.mps.uiLanguage.behavior)" version="-1" />
   <import index="tp4f" modelUID="r:00000000-0000-4000-0000-011c89590373(jetbrains.mps.baseLanguage.classifiers.structure)" version="0" />
   <import index="e2lb" modelUID="f:java_stub#6354ebe7-c22a-4a0f-ac54-50b52ab9b065#java.lang(java.lang@java_stub)" version="-1" />
@@ -297,7 +297,7 @@
     </node>
     <node role="applicableNode" roleId="tpd4.1174648101952" type="tpd4.ConceptReference" typeId="tpd4.1174642788531" id="1202742675846">
       <property name="name" nameId="tpck.1169194664001" value="nodeToCheck" />
-      <link role="concept" roleId="tpd4.1174642800329" targetNodeId="tphr.1202742489421" resolveInfo="ComponentReferencePart" />
+      <link role="concept" roleId="tpd4.1174642800329" targetNodeId="tphr.1202742489421" resolveInfo="ComponentReference" />
     </node>
   </root>
   <root id="1203520939275">
@@ -386,7 +386,7 @@
             <node role="leftExpression" roleId="tpd4.1174660783413" type="tpd4.NormalTypeClause" typeId="tpd4.1185788614172" id="1207754534576">
               <node role="normalType" roleId="tpd4.1185788644032" type="tpd4.TypeOfExpression" typeId="tpd4.1174657487114" id="1207754534577">
                 <node role="term" roleId="tpd4.1174657509053" type="tpd4.ApplicableNodeReference" typeId="tpd4.1174650418652" id="1207754540141">
-                  <link role="applicableNode" roleId="tpd4.1174650432090" targetNodeId="1207754482628" resolveInfo="genericNewExpression" />
+                  <link role="applicableNode" roleId="tpd4.1174650432090" targetNodeId="1207754482628" resolveInfo="expression" />
                 </node>
               </node>
             </node>
@@ -807,7 +807,7 @@
           <node role="normalType" roleId="tpd4.1185788644032" type="tpd4.TypeOfExpression" typeId="tpd4.1174657487114" id="1208111607404">
             <node role="term" roleId="tpd4.1174657509053" type="tpee.DotExpression" typeId="tpee.1197027756228" id="1208111612361">
               <node role="operand" roleId="tpee.1197027771414" type="tpd4.ApplicableNodeReference" typeId="tpd4.1174650418652" id="1208111611610">
-                <link role="applicableNode" roleId="tpd4.1174650432090" targetNodeId="1208111589500" resolveInfo="nodeToCheck" />
+                <link role="applicableNode" roleId="tpd4.1174650432090" targetNodeId="1208111589500" resolveInfo="operation" />
               </node>
               <node role="operation" roleId="tpee.1197027833540" type="tp25.SLinkAccess" typeId="tp25.1138056143562" id="1208111623581">
                 <link role="link" roleId="tp25.1138056516764" targetNodeId="tphr.1208109911016" />
