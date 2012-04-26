@@ -12,7 +12,7 @@
   <import index="e2lb" modelUID="f:java_stub#6354ebe7-c22a-4a0f-ac54-50b52ab9b065#java.lang(JDK/java.lang@java_stub)" version="-1" />
   <import index="fxg7" modelUID="f:java_stub#6354ebe7-c22a-4a0f-ac54-50b52ab9b065#java.io(JDK/java.io@java_stub)" version="-1" />
   <import index="tpck" modelUID="r:00000000-0000-4000-0000-011c89590288(jetbrains.mps.lang.core.structure)" version="0" implicit="yes" />
-  <import index="tpee" modelUID="r:00000000-0000-4000-0000-011c895902ca(jetbrains.mps.baseLanguage.structure)" version="3" implicit="yes" />
+  <import index="tpee" modelUID="r:00000000-0000-4000-0000-011c895902ca(jetbrains.mps.baseLanguage.structure)" version="4" implicit="yes" />
   <import index="tp2c" modelUID="r:00000000-0000-4000-0000-011c89590338(jetbrains.mps.baseLanguage.closures.structure)" version="3" implicit="yes" />
   <import index="tp2q" modelUID="r:00000000-0000-4000-0000-011c8959032e(jetbrains.mps.baseLanguage.collections.structure)" version="7" implicit="yes" />
   <import index="cx9y" modelUID="r:309aeee7-bee8-445c-b31d-35928d1da75f(jetbrains.mps.baseLanguage.tuples.structure)" version="2" implicit="yes" />
@@ -169,7 +169,7 @@
               <property name="value" nameId="tpee.1068580320021" value="0" />
             </node>
             <node role="leftExpression" roleId="tpee.1081773367580" type="tpee.StaticFieldReference" typeId="tpee.1070533707846" id="1532165762814134612">
-              <link role="classifier" roleId="tpee.1144433057691" targetNodeId="1532165762814134551" resolveInfo="ClusterEmbeddingConstructor" />
+              <link role="classifier" roleId="tpee.1144433057691" targetNodeId="1532165762814134551" resolveInfo="ClusterEmbeddingConstructorTemp" />
               <link role="variableDeclaration" roleId="tpee.1068581517664" targetNodeId="1532165762814135939" resolveInfo="showInfo" />
             </node>
           </node>
@@ -740,11 +740,11 @@
           <node role="localVariableDeclaration" roleId="tpee.1068581242865" type="tpee.LocalVariableDeclaration" typeId="tpee.1068581242863" id="1532165762814134840">
             <property name="name" nameId="tpck.1169194664001" value="subProcessor" />
             <node role="type" roleId="tpee.5680397130376446158" type="tpee.ClassifierType" typeId="tpee.1107535904670" id="1532165762814134841">
-              <link role="classifier" roleId="tpee.1107535924139" targetNodeId="1532165762814134551" resolveInfo="ClusterEmbeddingConstructor" />
+              <link role="classifier" roleId="tpee.1107535924139" targetNodeId="1532165762814134551" resolveInfo="ClusterEmbeddingConstructorTemp" />
             </node>
             <node role="initializer" roleId="tpee.1068431790190" type="tpee.GenericNewExpression" typeId="tpee.1145552977093" id="1532165762814134842">
               <node role="creator" roleId="tpee.1145553007750" type="tpee.ClassCreator" typeId="tpee.1212685548494" id="1532165762814134843">
-                <link role="baseMethodDeclaration" roleId="tpee.1068499141037" targetNodeId="1532165762814135899" resolveInfo="ClusterEmbeddingConstructor" />
+                <link role="baseMethodDeclaration" roleId="tpee.1068499141037" targetNodeId="1532165762814135899" resolveInfo="ClusterEmbeddingConstructorTemp" />
                 <node role="actualArgument" roleId="tpee.1068499141038" type="tpee.LocalInstanceFieldReference" typeId="tpee.7785501532031639928" id="1532165762814134844">
                   <link role="variableDeclaration" roleId="tpee.1068581517664" targetNodeId="1532165762814135850" resolveInfo="myGraph" />
                 </node>
@@ -2943,7 +2943,7 @@
               </node>
               <node role="condition" roleId="tpee.1068580123160" type="tpee.GreaterThanExpression" typeId="tpee.1081506762703" id="1532165762814135726">
                 <node role="leftExpression" roleId="tpee.1081773367580" type="tpee.StaticFieldReference" typeId="tpee.1070533707846" id="1532165762814135727">
-                  <link role="classifier" roleId="tpee.1144433057691" targetNodeId="1532165762814134551" resolveInfo="ClusterEmbeddingConstructor" />
+                  <link role="classifier" roleId="tpee.1144433057691" targetNodeId="1532165762814134551" resolveInfo="ClusterEmbeddingConstructorTemp" />
                   <link role="variableDeclaration" roleId="tpee.1068581517664" targetNodeId="1532165762814135935" resolveInfo="debugMode" />
                 </node>
                 <node role="rightExpression" roleId="tpee.1081773367579" type="tpee.IntegerConstant" typeId="tpee.1068580320020" id="1532165762814135728">

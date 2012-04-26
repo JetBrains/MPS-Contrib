@@ -10,53 +10,53 @@
   <import index="tpck" modelUID="r:00000000-0000-4000-0000-011c89590288(jetbrains.mps.lang.core.structure)" version="0" />
   <import index="tpen" modelUID="r:00000000-0000-4000-0000-011c895902c3(jetbrains.mps.baseLanguage.editor)" version="-1" />
   <import index="tpc2" modelUID="r:00000000-0000-4000-0000-011c8959029e(jetbrains.mps.lang.editor.structure)" version="32" implicit="yes" />
-  <import index="tpee" modelUID="r:00000000-0000-4000-0000-011c895902ca(jetbrains.mps.baseLanguage.structure)" version="3" implicit="yes" />
+  <import index="tpee" modelUID="r:00000000-0000-4000-0000-011c895902ca(jetbrains.mps.baseLanguage.structure)" version="4" implicit="yes" />
   <import index="tp25" modelUID="r:00000000-0000-4000-0000-011c89590301(jetbrains.mps.lang.smodel.structure)" version="16" implicit="yes" />
   <roots>
     <node type="tpc2.ConceptEditorDeclaration" typeId="tpc2.1071666914219" id="1164413046327">
-      <link role="conceptDeclaration" roleId="tpc2.1166049300910" targetNodeId="tpih.1164412789837" />
+      <link role="conceptDeclaration" roleId="tpc2.1166049300910" targetNodeId="tpih.1164412789837" resolveInfo="GText" />
     </node>
     <node type="tpc2.ConceptEditorDeclaration" typeId="tpc2.1071666914219" id="1164413081741">
-      <link role="conceptDeclaration" roleId="tpc2.1166049300910" targetNodeId="tpih.1164412982980" />
+      <link role="conceptDeclaration" roleId="tpc2.1166049300910" targetNodeId="tpih.1164412982980" resolveInfo="GItemList" />
     </node>
     <node type="tpc2.ConceptEditorDeclaration" typeId="tpc2.1071666914219" id="1164413184980">
-      <link role="conceptDeclaration" roleId="tpc2.1166049300910" targetNodeId="tpih.1164413172275" />
+      <link role="conceptDeclaration" roleId="tpc2.1166049300910" targetNodeId="tpih.1164413172275" resolveInfo="GNewLine" />
     </node>
     <node type="tpc2.ConceptEditorDeclaration" typeId="tpc2.1071666914219" id="1164413227171">
-      <link role="conceptDeclaration" roleId="tpc2.1166049300910" targetNodeId="tpih.1164413214326" />
+      <link role="conceptDeclaration" roleId="tpc2.1166049300910" targetNodeId="tpih.1164413214326" resolveInfo="GIndent" />
     </node>
     <node type="tpc2.ConceptEditorDeclaration" typeId="tpc2.1071666914219" id="1164416540577">
-      <link role="conceptDeclaration" roleId="tpc2.1166049300910" targetNodeId="tpih.1164416446950" />
+      <link role="conceptDeclaration" roleId="tpc2.1166049300910" targetNodeId="tpih.1164416446950" resolveInfo="GIndentBlock" />
     </node>
     <node type="tpc2.ConceptEditorDeclaration" typeId="tpc2.1071666914219" id="1164488399406">
-      <link role="conceptDeclaration" roleId="tpc2.1166049300910" targetNodeId="tpih.1164488352732" />
+      <link role="conceptDeclaration" roleId="tpc2.1166049300910" targetNodeId="tpih.1164488352732" resolveInfo="GItemStatement" />
     </node>
     <node type="tpc2.ConceptEditorDeclaration" typeId="tpc2.1071666914219" id="1164497827738">
-      <link role="conceptDeclaration" roleId="tpc2.1166049300910" targetNodeId="tpih.1164497519485" />
+      <link role="conceptDeclaration" roleId="tpc2.1166049300910" targetNodeId="tpih.1164497519485" resolveInfo="GExpressionItem" />
     </node>
     <node type="tpc2.ConceptEditorDeclaration" typeId="tpc2.1071666914219" id="1165582993959">
-      <link role="conceptDeclaration" roleId="tpc2.1166049300910" targetNodeId="tpih.1165582968644" />
+      <link role="conceptDeclaration" roleId="tpc2.1166049300910" targetNodeId="tpih.1165582968644" resolveInfo="GStatementItem" />
     </node>
     <node type="tpc2.ConceptEditorDeclaration" typeId="tpc2.1071666914219" id="1166907506783">
-      <link role="conceptDeclaration" roleId="tpc2.1166049300910" targetNodeId="tpih.1164412935041" />
+      <link role="conceptDeclaration" roleId="tpc2.1166049300910" targetNodeId="tpih.1164412935041" resolveInfo="GItem" />
     </node>
     <node type="tpc2.ConceptEditorDeclaration" typeId="tpc2.1071666914219" id="1166926490313">
-      <link role="conceptDeclaration" roleId="tpc2.1166049300910" targetNodeId="tpih.1166926309597" />
+      <link role="conceptDeclaration" roleId="tpc2.1166049300910" targetNodeId="tpih.1166926309597" resolveInfo="GLine" />
     </node>
     <node type="tpc2.ConceptEditorDeclaration" typeId="tpc2.1071666914219" id="1179109274248">
-      <link role="conceptDeclaration" roleId="tpc2.1166049300910" targetNodeId="tpih.1179109169620" />
+      <link role="conceptDeclaration" roleId="tpc2.1166049300910" targetNodeId="tpih.1179109169620" resolveInfo="GConditionalLine" />
     </node>
     <node type="tpc2.ConceptEditorDeclaration" typeId="tpc2.1071666914219" id="1181754781780">
-      <link role="conceptDeclaration" roleId="tpc2.1166049300910" targetNodeId="tpih.1181754781153" />
+      <link role="conceptDeclaration" roleId="tpc2.1166049300910" targetNodeId="tpih.1181754781153" resolveInfo="BuilderContextRef" />
     </node>
     <node type="tpc2.ConceptEditorDeclaration" typeId="tpc2.1071666914219" id="1184639569381">
-      <link role="conceptDeclaration" roleId="tpc2.1166049300910" targetNodeId="tpih.1184639540818" />
+      <link role="conceptDeclaration" roleId="tpc2.1166049300910" targetNodeId="tpih.1184639540818" resolveInfo="GDocument" />
     </node>
     <node type="tpc2.ConceptEditorDeclaration" typeId="tpc2.1071666914219" id="1188509459657">
-      <link role="conceptDeclaration" roleId="tpc2.1166049300910" targetNodeId="tpih.1188509198390" />
+      <link role="conceptDeclaration" roleId="tpc2.1166049300910" targetNodeId="tpih.1188509198390" resolveInfo="GSeparatorItemList" />
     </node>
     <node type="tpc2.ConceptEditorDeclaration" typeId="tpc2.1071666914219" id="1211921359764">
-      <link role="conceptDeclaration" roleId="tpc2.1166049300910" targetNodeId="tpih.1211920428461" resolveInfo="GBlockDeclaration" />
+      <link role="conceptDeclaration" roleId="tpc2.1166049300910" targetNodeId="tpih.1211920428461" resolveInfo="GContentPlaceholder" />
     </node>
     <node type="tpc2.ConceptEditorDeclaration" typeId="tpc2.1071666914219" id="1211921713014">
       <link role="conceptDeclaration" roleId="tpc2.1166049300910" targetNodeId="tpih.1211920502338" resolveInfo="GContentBlock" />
@@ -65,7 +65,7 @@
   <root id="1164413046327">
     <node role="cellModel" roleId="tpc2.1080736633877" type="tpc2.CellModel_Property" typeId="tpc2.1073389658414" id="1166929205411">
       <property name="allowEmptyText" nameId="tpc2.1140114345053" value="false" />
-      <link role="relationDeclaration" roleId="tpc2.1140103550593" targetNodeId="tpih.1164413036326" />
+      <link role="relationDeclaration" roleId="tpc2.1140103550593" targetNodeId="tpih.1164413036326" resolveInfo="text" />
       <node role="styleItem" roleId="tpc2.1219418656006" type="tpc2.FontStyleStyleClassItem" typeId="tpc2.1186403751766" id="1214314934211">
         <property name="style" nameId="tpc2.1186403771423" value="BOLD" />
       </node>
@@ -83,7 +83,7 @@
             <node role="expression" roleId="tpee.1068580123156" type="tpee.DotExpression" typeId="tpee.1197027756228" id="1204227840398">
               <node role="operand" roleId="tpee.1197027771414" type="tpc2.ConceptFunctionParameter_node" typeId="tpc2.1142886811589" id="1188506191326" />
               <node role="operation" roleId="tpee.1197027833540" type="tp25.Node_ConceptMethodCall" typeId="tp25.1179409122411" id="1188506194467">
-                <link role="baseMethodDeclaration" roleId="tpee.1068499141037" targetNodeId="tpik.1213877298853" />
+                <link role="baseMethodDeclaration" roleId="tpee.1068499141037" targetNodeId="tpik.1213877298853" resolveInfo="isComplex" />
               </node>
             </node>
           </node>
@@ -269,7 +269,7 @@
         <property name="text" nameId="tpc2.1073389577007" value="&gt;" />
       </node>
       <node role="childCellModel" roleId="tpc2.1073389446424" type="tpc2.CellModel_Property" typeId="tpc2.1073389658414" id="1179111558102">
-        <link role="relationDeclaration" roleId="tpc2.1140103550593" targetNodeId="tpih.1179109261107" />
+        <link role="relationDeclaration" roleId="tpc2.1140103550593" targetNodeId="tpih.1179109261107" resolveInfo="isSeparate" />
       </node>
       <node role="childCellModel" roleId="tpc2.1073389446424" type="tpc2.CellModel_Constant" typeId="tpc2.1073389577006" id="1179111558103">
         <property name="text" nameId="tpc2.1073389577007" value="?" />
@@ -292,7 +292,7 @@
     <node role="cellModel" roleId="tpc2.1080736633877" type="tpc2.CellModel_Collection" typeId="tpc2.1073389446423" id="1184639574227">
       <property name="vertical" nameId="tpc2.1073389446425" value="true" />
       <node role="childCellModel" roleId="tpc2.1073389446424" type="tpc2.CellModel_Property" typeId="tpc2.1073389658414" id="1184639677373">
-        <link role="relationDeclaration" roleId="tpc2.1140103550593" targetNodeId="tpih.1184639635512" />
+        <link role="relationDeclaration" roleId="tpc2.1140103550593" targetNodeId="tpih.1184639635512" resolveInfo="documentName" />
       </node>
       <node role="childCellModel" roleId="tpc2.1073389446424" type="tpc2.CellModel_Constant" typeId="tpc2.1073389577006" id="1184639680110">
         <property name="text" nameId="tpc2.1073389577007" value="." />
@@ -305,7 +305,7 @@
       </node>
       <node role="childCellModel" roleId="tpc2.1073389446424" type="tpc2.CellModel_Property" typeId="tpc2.1073389658414" id="1184639682643">
         <property name="allowEmptyText" nameId="tpc2.1140114345053" value="true" />
-        <link role="relationDeclaration" roleId="tpc2.1140103550593" targetNodeId="tpih.1184639664013" />
+        <link role="relationDeclaration" roleId="tpc2.1140103550593" targetNodeId="tpih.1184639664013" resolveInfo="extension" />
       </node>
       <node role="childCellModel" roleId="tpc2.1073389446424" type="tpc2.CellModel_Constant" typeId="tpc2.1073389577006" id="1184639690723">
         <property name="text" nameId="tpc2.1073389577007" value="gDocument" />
