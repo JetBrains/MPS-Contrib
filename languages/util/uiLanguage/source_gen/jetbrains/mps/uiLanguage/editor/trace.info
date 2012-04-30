@@ -7604,204 +7604,204 @@
     <unitInfo nodeId="1216903278041" fileName="BeforeConstructionBlock_Editor.java" startLine="20" startPosition="0" endLine="102" endPosition="0" unitName="jetbrains.mps.uiLanguage.editor.BeforeConstructionBlock_Editor" />
   </root>
   <root nodeId="6242401288845934075">
-    <nodeInfo nodeId="6242401288845953387" fileName="PngIcon_Editor.java" startLine="37" startPosition="5" endLine="37" endPosition="5" conceptFqName="jetbrains.mps.baseLanguage.structure.BlockStatement" />
-    <nodeInfo nodeId="6242401288845934075" fileName="PngIcon_Editor.java" startLine="25" startPosition="79" endLine="26" endPosition="63" conceptFqName="jetbrains.mps.baseLanguage.structure.ReturnStatement" />
-    <nodeInfo nodeId="6242401288845953387" fileName="PngIcon_Editor.java" startLine="29" startPosition="91" endLine="30" endPosition="40" conceptFqName="jetbrains.mps.baseLanguage.structure.LocalVariableDeclarationStatement" />
-    <nodeInfo nodeId="6242401288845953387" fileName="PngIcon_Editor.java" startLine="30" startPosition="40" endLine="31" endPosition="141" conceptFqName="jetbrains.mps.baseLanguage.structure.ExpressionStatement" />
-    <nodeInfo nodeId="6242401288845953387" fileName="PngIcon_Editor.java" startLine="31" startPosition="141" endLine="32" endPosition="33" conceptFqName="jetbrains.mps.baseLanguage.structure.LocalVariableDeclarationStatement" />
-    <nodeInfo nodeId="6242401288845953387" fileName="PngIcon_Editor.java" startLine="33" startPosition="31" endLine="34" endPosition="73" conceptFqName="jetbrains.mps.baseLanguage.structure.ExpressionStatement" />
-    <nodeInfo nodeId="6242401288845953387" fileName="PngIcon_Editor.java" startLine="35" startPosition="12" endLine="36" endPosition="71" conceptFqName="jetbrains.mps.baseLanguage.structure.ExpressionStatement" />
-    <nodeInfo nodeId="6242401288845953387" fileName="PngIcon_Editor.java" startLine="37" startPosition="5" endLine="38" endPosition="22" conceptFqName="jetbrains.mps.baseLanguage.structure.ReturnStatement" />
-    <nodeInfo nodeId="6242401288845952901" fileName="PngIcon_Editor.java" startLine="41" startPosition="89" endLine="42" endPosition="96" conceptFqName="jetbrains.mps.baseLanguage.structure.LocalVariableDeclarationStatement" />
-    <nodeInfo nodeId="6242401288845952901" fileName="PngIcon_Editor.java" startLine="42" startPosition="96" endLine="43" endPosition="48" conceptFqName="jetbrains.mps.baseLanguage.structure.BlockStatement" />
-    <nodeInfo nodeId="6242401288845952901" fileName="PngIcon_Editor.java" startLine="42" startPosition="96" endLine="43" endPosition="48" conceptFqName="jetbrains.mps.baseLanguage.structure.ExpressionStatement" />
-    <nodeInfo nodeId="6242401288845952901" fileName="PngIcon_Editor.java" startLine="43" startPosition="48" endLine="44" endPosition="81" conceptFqName="jetbrains.mps.baseLanguage.structure.BlockStatement" />
-    <nodeInfo nodeId="6242401288845952901" fileName="PngIcon_Editor.java" startLine="43" startPosition="48" endLine="44" endPosition="81" conceptFqName="jetbrains.mps.baseLanguage.structure.ExpressionStatement" />
+    <nodeInfo nodeId="6242401288845953387" fileName="PngIcon_Editor.java" startLine="36" startPosition="5" endLine="36" endPosition="5" conceptFqName="jetbrains.mps.baseLanguage.structure.BlockStatement" />
+    <nodeInfo nodeId="6242401288845934075" fileName="PngIcon_Editor.java" startLine="24" startPosition="79" endLine="25" endPosition="63" conceptFqName="jetbrains.mps.baseLanguage.structure.ReturnStatement" />
+    <nodeInfo nodeId="6242401288845953387" fileName="PngIcon_Editor.java" startLine="28" startPosition="91" endLine="29" endPosition="40" conceptFqName="jetbrains.mps.baseLanguage.structure.LocalVariableDeclarationStatement" />
+    <nodeInfo nodeId="6242401288845953387" fileName="PngIcon_Editor.java" startLine="29" startPosition="40" endLine="30" endPosition="141" conceptFqName="jetbrains.mps.baseLanguage.structure.ExpressionStatement" />
+    <nodeInfo nodeId="6242401288845953387" fileName="PngIcon_Editor.java" startLine="30" startPosition="141" endLine="31" endPosition="33" conceptFqName="jetbrains.mps.baseLanguage.structure.LocalVariableDeclarationStatement" />
+    <nodeInfo nodeId="6242401288845953387" fileName="PngIcon_Editor.java" startLine="32" startPosition="31" endLine="33" endPosition="73" conceptFqName="jetbrains.mps.baseLanguage.structure.ExpressionStatement" />
+    <nodeInfo nodeId="6242401288845953387" fileName="PngIcon_Editor.java" startLine="34" startPosition="12" endLine="35" endPosition="71" conceptFqName="jetbrains.mps.baseLanguage.structure.ExpressionStatement" />
+    <nodeInfo nodeId="6242401288845953387" fileName="PngIcon_Editor.java" startLine="36" startPosition="5" endLine="37" endPosition="22" conceptFqName="jetbrains.mps.baseLanguage.structure.ReturnStatement" />
+    <nodeInfo nodeId="6242401288845952901" fileName="PngIcon_Editor.java" startLine="40" startPosition="89" endLine="41" endPosition="96" conceptFqName="jetbrains.mps.baseLanguage.structure.LocalVariableDeclarationStatement" />
+    <nodeInfo nodeId="6242401288845952901" fileName="PngIcon_Editor.java" startLine="41" startPosition="96" endLine="42" endPosition="48" conceptFqName="jetbrains.mps.baseLanguage.structure.BlockStatement" />
+    <nodeInfo nodeId="6242401288845952901" fileName="PngIcon_Editor.java" startLine="41" startPosition="96" endLine="42" endPosition="48" conceptFqName="jetbrains.mps.baseLanguage.structure.ExpressionStatement" />
+    <nodeInfo nodeId="6242401288845952901" fileName="PngIcon_Editor.java" startLine="42" startPosition="48" endLine="43" endPosition="81" conceptFqName="jetbrains.mps.baseLanguage.structure.BlockStatement" />
+    <nodeInfo nodeId="6242401288845952901" fileName="PngIcon_Editor.java" startLine="42" startPosition="48" endLine="43" endPosition="81" conceptFqName="jetbrains.mps.baseLanguage.structure.ExpressionStatement" />
+    <nodeInfo nodeId="6242401288845952901" fileName="PngIcon_Editor.java" startLine="43" startPosition="81" endLine="44" endPosition="81" conceptFqName="jetbrains.mps.baseLanguage.structure.BlockStatement" />
+    <nodeInfo nodeId="6242401288845952901" fileName="PngIcon_Editor.java" startLine="43" startPosition="81" endLine="44" endPosition="81" conceptFqName="jetbrains.mps.baseLanguage.structure.ExpressionStatement" />
     <nodeInfo nodeId="6242401288845952901" fileName="PngIcon_Editor.java" startLine="44" startPosition="81" endLine="45" endPosition="81" conceptFqName="jetbrains.mps.baseLanguage.structure.BlockStatement" />
     <nodeInfo nodeId="6242401288845952901" fileName="PngIcon_Editor.java" startLine="44" startPosition="81" endLine="45" endPosition="81" conceptFqName="jetbrains.mps.baseLanguage.structure.ExpressionStatement" />
-    <nodeInfo nodeId="6242401288845952901" fileName="PngIcon_Editor.java" startLine="45" startPosition="81" endLine="46" endPosition="81" conceptFqName="jetbrains.mps.baseLanguage.structure.BlockStatement" />
-    <nodeInfo nodeId="6242401288845952901" fileName="PngIcon_Editor.java" startLine="45" startPosition="81" endLine="46" endPosition="81" conceptFqName="jetbrains.mps.baseLanguage.structure.ExpressionStatement" />
-    <nodeInfo nodeId="6242401288845952901" fileName="PngIcon_Editor.java" startLine="46" startPosition="81" endLine="47" endPosition="84" conceptFqName="jetbrains.mps.baseLanguage.structure.BlockStatement" />
-    <nodeInfo nodeId="6242401288845952901" fileName="PngIcon_Editor.java" startLine="46" startPosition="81" endLine="47" endPosition="84" conceptFqName="jetbrains.mps.baseLanguage.structure.ExpressionStatement" />
-    <nodeInfo nodeId="6242401288845952901" fileName="PngIcon_Editor.java" startLine="47" startPosition="84" endLine="48" endPosition="83" conceptFqName="jetbrains.mps.baseLanguage.structure.BlockStatement" />
-    <nodeInfo nodeId="6242401288845952901" fileName="PngIcon_Editor.java" startLine="47" startPosition="84" endLine="48" endPosition="83" conceptFqName="jetbrains.mps.baseLanguage.structure.ExpressionStatement" />
-    <nodeInfo nodeId="6242401288845952901" fileName="PngIcon_Editor.java" startLine="48" startPosition="83" endLine="49" endPosition="22" conceptFqName="jetbrains.mps.baseLanguage.structure.ReturnStatement" />
-    <nodeInfo nodeId="6242401288845952904" fileName="PngIcon_Editor.java" startLine="52" startPosition="88" endLine="53" endPosition="95" conceptFqName="jetbrains.mps.baseLanguage.structure.LocalVariableDeclarationStatement" />
-    <nodeInfo nodeId="6242401288845952904" fileName="PngIcon_Editor.java" startLine="53" startPosition="95" endLine="54" endPosition="47" conceptFqName="jetbrains.mps.baseLanguage.structure.BlockStatement" />
-    <nodeInfo nodeId="6242401288845952904" fileName="PngIcon_Editor.java" startLine="53" startPosition="95" endLine="54" endPosition="47" conceptFqName="jetbrains.mps.baseLanguage.structure.ExpressionStatement" />
-    <nodeInfo nodeId="6242401288845952904" fileName="PngIcon_Editor.java" startLine="54" startPosition="47" endLine="55" endPosition="34" conceptFqName="jetbrains.mps.baseLanguage.structure.ExpressionStatement" />
-    <nodeInfo nodeId="6242401288845952904" fileName="PngIcon_Editor.java" startLine="55" startPosition="34" endLine="56" endPosition="22" conceptFqName="jetbrains.mps.baseLanguage.structure.ReturnStatement" />
-    <nodeInfo nodeId="6242401288845953384" fileName="PngIcon_Editor.java" startLine="59" startPosition="88" endLine="60" endPosition="86" conceptFqName="jetbrains.mps.baseLanguage.structure.LocalVariableDeclarationStatement" />
-    <nodeInfo nodeId="6242401288845953384" fileName="PngIcon_Editor.java" startLine="60" startPosition="86" endLine="61" endPosition="47" conceptFqName="jetbrains.mps.baseLanguage.structure.ExpressionStatement" />
-    <nodeInfo nodeId="6242401288845953384" fileName="PngIcon_Editor.java" startLine="62" startPosition="5" endLine="63" endPosition="42" conceptFqName="jetbrains.mps.baseLanguage.structure.LocalVariableDeclarationStatement" />
-    <nodeInfo nodeId="6242401288845953384" fileName="PngIcon_Editor.java" startLine="63" startPosition="42" endLine="64" endPosition="62" conceptFqName="jetbrains.mps.baseLanguage.structure.ExpressionStatement" />
-    <nodeInfo nodeId="6242401288845953384" fileName="PngIcon_Editor.java" startLine="65" startPosition="5" endLine="66" endPosition="34" conceptFqName="jetbrains.mps.baseLanguage.structure.ExpressionStatement" />
-    <nodeInfo nodeId="6242401288845953384" fileName="PngIcon_Editor.java" startLine="66" startPosition="34" endLine="67" endPosition="22" conceptFqName="jetbrains.mps.baseLanguage.structure.ReturnStatement" />
-    <nodeInfo nodeId="6242401288845954882" fileName="PngIcon_Editor.java" startLine="70" startPosition="89" endLine="71" endPosition="95" conceptFqName="jetbrains.mps.baseLanguage.structure.LocalVariableDeclarationStatement" />
-    <nodeInfo nodeId="6242401288845954882" fileName="PngIcon_Editor.java" startLine="71" startPosition="95" endLine="72" endPosition="48" conceptFqName="jetbrains.mps.baseLanguage.structure.ExpressionStatement" />
-    <nodeInfo nodeId="6242401288845954882" fileName="PngIcon_Editor.java" startLine="73" startPosition="5" endLine="74" endPosition="42" conceptFqName="jetbrains.mps.baseLanguage.structure.LocalVariableDeclarationStatement" />
-    <nodeInfo nodeId="6242401288845954882" fileName="PngIcon_Editor.java" startLine="74" startPosition="42" endLine="75" endPosition="60" conceptFqName="jetbrains.mps.baseLanguage.structure.ExpressionStatement" />
-    <nodeInfo nodeId="6242401288845954882" fileName="PngIcon_Editor.java" startLine="76" startPosition="5" endLine="77" endPosition="34" conceptFqName="jetbrains.mps.baseLanguage.structure.ExpressionStatement" />
-    <nodeInfo nodeId="6242401288845954882" fileName="PngIcon_Editor.java" startLine="77" startPosition="34" endLine="78" endPosition="22" conceptFqName="jetbrains.mps.baseLanguage.structure.ReturnStatement" />
-    <nodeInfo nodeId="7720233260877439991" fileName="PngIcon_Editor.java" startLine="81" startPosition="91" endLine="82" endPosition="180" conceptFqName="jetbrains.mps.baseLanguage.structure.LocalVariableDeclarationStatement" />
-    <nodeInfo nodeId="7720233260877439991" fileName="PngIcon_Editor.java" startLine="82" startPosition="180" endLine="83" endPosition="50" conceptFqName="jetbrains.mps.baseLanguage.structure.BlockStatement" />
-    <nodeInfo nodeId="7720233260877439991" fileName="PngIcon_Editor.java" startLine="82" startPosition="180" endLine="83" endPosition="50" conceptFqName="jetbrains.mps.baseLanguage.structure.ExpressionStatement" />
-    <nodeInfo nodeId="7720233260877439991" fileName="PngIcon_Editor.java" startLine="83" startPosition="50" endLine="84" endPosition="22" conceptFqName="jetbrains.mps.baseLanguage.structure.ReturnStatement" />
-    <nodeInfo nodeId="6242401288845954886" fileName="PngIcon_Editor.java" startLine="87" startPosition="90" endLine="88" endPosition="178" conceptFqName="jetbrains.mps.baseLanguage.structure.LocalVariableDeclarationStatement" />
-    <nodeInfo nodeId="6242401288845954886" fileName="PngIcon_Editor.java" startLine="88" startPosition="178" endLine="89" endPosition="49" conceptFqName="jetbrains.mps.baseLanguage.structure.BlockStatement" />
-    <nodeInfo nodeId="6242401288845954886" fileName="PngIcon_Editor.java" startLine="88" startPosition="178" endLine="89" endPosition="49" conceptFqName="jetbrains.mps.baseLanguage.structure.ExpressionStatement" />
-    <nodeInfo nodeId="6242401288845954886" fileName="PngIcon_Editor.java" startLine="89" startPosition="49" endLine="90" endPosition="22" conceptFqName="jetbrains.mps.baseLanguage.structure.ReturnStatement" />
-    <nodeInfo nodeId="6242401288845952907" fileName="PngIcon_Editor.java" startLine="93" startPosition="88" endLine="94" endPosition="82" conceptFqName="jetbrains.mps.baseLanguage.structure.LocalVariableDeclarationStatement" />
-    <nodeInfo nodeId="6242401288845952907" fileName="PngIcon_Editor.java" startLine="94" startPosition="82" endLine="95" endPosition="29" conceptFqName="jetbrains.mps.baseLanguage.structure.ExpressionStatement" />
-    <nodeInfo nodeId="6242401288845952907" fileName="PngIcon_Editor.java" startLine="95" startPosition="29" endLine="96" endPosition="42" conceptFqName="jetbrains.mps.baseLanguage.structure.ExpressionStatement" />
-    <nodeInfo nodeId="6242401288845952907" fileName="PngIcon_Editor.java" startLine="96" startPosition="42" endLine="97" endPosition="26" conceptFqName="jetbrains.mps.baseLanguage.structure.LocalVariableDeclarationStatement" />
-    <nodeInfo nodeId="6242401288845952907" fileName="PngIcon_Editor.java" startLine="97" startPosition="26" endLine="98" endPosition="58" conceptFqName="jetbrains.mps.baseLanguage.structure.ExpressionStatement" />
-    <nodeInfo nodeId="6242401288845952907" fileName="PngIcon_Editor.java" startLine="98" startPosition="58" endLine="99" endPosition="42" conceptFqName="jetbrains.mps.baseLanguage.structure.ExpressionStatement" />
-    <nodeInfo nodeId="6242401288845952907" fileName="PngIcon_Editor.java" startLine="100" startPosition="5" endLine="101" endPosition="42" conceptFqName="jetbrains.mps.baseLanguage.structure.LocalVariableDeclarationStatement" />
-    <nodeInfo nodeId="6242401288845952907" fileName="PngIcon_Editor.java" startLine="101" startPosition="42" endLine="102" endPosition="62" conceptFqName="jetbrains.mps.baseLanguage.structure.ExpressionStatement" />
-    <nodeInfo nodeId="6242401288845952907" fileName="PngIcon_Editor.java" startLine="103" startPosition="5" endLine="104" endPosition="73" conceptFqName="jetbrains.mps.baseLanguage.structure.ExpressionStatement" />
-    <nodeInfo nodeId="6242401288845952907" fileName="PngIcon_Editor.java" startLine="104" startPosition="73" endLine="105" endPosition="57" conceptFqName="jetbrains.mps.baseLanguage.structure.LocalVariableDeclarationStatement" />
-    <nodeInfo nodeId="6242401288845952907" fileName="PngIcon_Editor.java" startLine="105" startPosition="57" endLine="106" endPosition="59" conceptFqName="jetbrains.mps.baseLanguage.structure.LocalVariableDeclarationStatement" />
-    <nodeInfo nodeId="6242401288845952907" fileName="PngIcon_Editor.java" startLine="107" startPosition="35" endLine="108" endPosition="72" conceptFqName="jetbrains.mps.baseLanguage.structure.LocalVariableDeclarationStatement" />
-    <nodeInfo nodeId="6242401288845952907" fileName="PngIcon_Editor.java" startLine="108" startPosition="72" endLine="109" endPosition="78" conceptFqName="jetbrains.mps.baseLanguage.structure.LocalVariableDeclarationStatement" />
-    <nodeInfo nodeId="6242401288845952907" fileName="PngIcon_Editor.java" startLine="109" startPosition="78" endLine="110" endPosition="105" conceptFqName="jetbrains.mps.baseLanguage.structure.ReturnStatement" />
-    <nodeInfo nodeId="6242401288845952907" fileName="PngIcon_Editor.java" startLine="111" startPosition="10" endLine="112" endPosition="22" conceptFqName="jetbrains.mps.baseLanguage.structure.ReturnStatement" />
-    <nodeInfo nodeId="6242401288845954868" fileName="PngIcon_Editor.java" startLine="115" startPosition="111" endLine="116" endPosition="83" conceptFqName="jetbrains.mps.baseLanguage.structure.ReturnStatement" />
-    <nodeInfo nodeId="7720233260877496758" fileName="PngIcon_Editor.java" startLine="119" startPosition="120" endLine="120" endPosition="93" conceptFqName="jetbrains.mps.baseLanguage.structure.ReturnStatement" />
-    <nodeInfo nodeId="6242401288845954889" fileName="PngIcon_Editor.java" startLine="123" startPosition="119" endLine="124" endPosition="70" conceptFqName="jetbrains.mps.baseLanguage.structure.ReturnStatement" />
-    <nodeInfo nodeId="6242401288845953387" fileName="PngIcon_Editor.java" startLine="35" startPosition="10" endLine="37" endPosition="5" conceptFqName="jetbrains.mps.baseLanguage.structure.BlockStatement" />
-    <nodeInfo nodeId="6242401288845934075" fileName="PngIcon_Editor.java" startLine="24" startPosition="55" endLine="28" endPosition="0" conceptFqName="jetbrains.mps.baseLanguage.structure.InstanceMethodDeclaration" propertyString="createEditorCell#(Ljetbrains/mps/nodeEditor/EditorContext;Ljetbrains/mps/smodel/SNode;)Ljetbrains/mps/nodeEditor/cells/EditorCell;" />
-    <nodeInfo nodeId="6242401288845953384" fileName="PngIcon_Editor.java" startLine="61" startPosition="47" endLine="65" endPosition="5" conceptFqName="jetbrains.mps.baseLanguage.structure.BlockStatement" />
-    <nodeInfo nodeId="6242401288845954882" fileName="PngIcon_Editor.java" startLine="72" startPosition="48" endLine="76" endPosition="5" conceptFqName="jetbrains.mps.baseLanguage.structure.BlockStatement" />
-    <nodeInfo nodeId="6242401288845952907" fileName="PngIcon_Editor.java" startLine="99" startPosition="42" endLine="103" endPosition="5" conceptFqName="jetbrains.mps.baseLanguage.structure.BlockStatement" />
-    <nodeInfo nodeId="6242401288845953389" fileName="PngIcon_Editor.java" startLine="114" startPosition="0" endLine="118" endPosition="0" conceptFqName="jetbrains.mps.baseLanguage.structure.StaticMethodDeclaration" propertyString="renderingCondition_4kucyt_a3a#(Ljetbrains/mps/smodel/SNode;Ljetbrains/mps/nodeEditor/EditorContext;Ljetbrains/mps/smodel/IScope;)Z" />
-    <nodeInfo nodeId="7720233260877439992" fileName="PngIcon_Editor.java" startLine="118" startPosition="0" endLine="122" endPosition="0" conceptFqName="jetbrains.mps.baseLanguage.structure.StaticMethodDeclaration" propertyString="_QueryFunction_JComponent_4kucyt_a0d0#(Ljetbrains/mps/smodel/SNode;Ljetbrains/mps/nodeEditor/EditorContext;)Ljavax/swing/JComponent;" />
-    <nodeInfo nodeId="6242401288845954887" fileName="PngIcon_Editor.java" startLine="122" startPosition="0" endLine="126" endPosition="0" conceptFqName="jetbrains.mps.baseLanguage.structure.StaticMethodDeclaration" propertyString="_QueryFunction_JComponent_4kucyt_a4a#(Ljetbrains/mps/smodel/SNode;Ljetbrains/mps/nodeEditor/EditorContext;)Ljavax/swing/JComponent;" />
-    <nodeInfo nodeId="6242401288845953387" fileName="PngIcon_Editor.java" startLine="32" startPosition="33" endLine="37" endPosition="5" conceptFqName="jetbrains.mps.baseLanguage.structure.IfStatement" />
-    <nodeInfo nodeId="6242401288845953384" fileName="PngIcon_Editor.java" startLine="60" startPosition="86" endLine="65" endPosition="5" conceptFqName="jetbrains.mps.baseLanguage.structure.BlockStatement" />
-    <nodeInfo nodeId="6242401288845954882" fileName="PngIcon_Editor.java" startLine="71" startPosition="95" endLine="76" endPosition="5" conceptFqName="jetbrains.mps.baseLanguage.structure.BlockStatement" />
-    <nodeInfo nodeId="6242401288845952907" fileName="PngIcon_Editor.java" startLine="98" startPosition="58" endLine="103" endPosition="5" conceptFqName="jetbrains.mps.baseLanguage.structure.BlockStatement" />
-    <nodeInfo nodeId="7720233260877439991" fileName="PngIcon_Editor.java" startLine="80" startPosition="0" endLine="86" endPosition="0" conceptFqName="jetbrains.mps.baseLanguage.structure.InstanceMethodDeclaration" propertyString="createJComponent_4kucyt_a3a#(Ljetbrains/mps/nodeEditor/EditorContext;Ljetbrains/mps/smodel/SNode;)Ljetbrains/mps/nodeEditor/cells/EditorCell;" />
-    <nodeInfo nodeId="6242401288845954886" fileName="PngIcon_Editor.java" startLine="86" startPosition="0" endLine="92" endPosition="0" conceptFqName="jetbrains.mps.baseLanguage.structure.InstanceMethodDeclaration" propertyString="createJComponent_4kucyt_e0#(Ljetbrains/mps/nodeEditor/EditorContext;Ljetbrains/mps/smodel/SNode;)Ljetbrains/mps/nodeEditor/cells/EditorCell;" />
-    <nodeInfo nodeId="6242401288845952907" fileName="PngIcon_Editor.java" startLine="106" startPosition="59" endLine="112" endPosition="22" conceptFqName="jetbrains.mps.baseLanguage.structure.IfStatement" />
-    <nodeInfo nodeId="6242401288845952904" fileName="PngIcon_Editor.java" startLine="51" startPosition="0" endLine="58" endPosition="0" conceptFqName="jetbrains.mps.baseLanguage.structure.InstanceMethodDeclaration" propertyString="createConstant_4kucyt_a0#(Ljetbrains/mps/nodeEditor/EditorContext;Ljetbrains/mps/smodel/SNode;)Ljetbrains/mps/nodeEditor/cells/EditorCell;" />
-    <nodeInfo nodeId="6242401288845952907" fileName="PngIcon_Editor.java" startLine="97" startPosition="26" endLine="104" endPosition="73" conceptFqName="jetbrains.mps.baseLanguage.structure.BlockStatement" />
-    <nodeInfo nodeId="6242401288845952901" fileName="PngIcon_Editor.java" startLine="40" startPosition="0" endLine="51" endPosition="0" conceptFqName="jetbrains.mps.baseLanguage.structure.InstanceMethodDeclaration" propertyString="createCollection_4kucyt_a#(Ljetbrains/mps/nodeEditor/EditorContext;Ljetbrains/mps/smodel/SNode;)Ljetbrains/mps/nodeEditor/cells/EditorCell;" />
-    <nodeInfo nodeId="6242401288845953384" fileName="PngIcon_Editor.java" startLine="58" startPosition="0" endLine="69" endPosition="0" conceptFqName="jetbrains.mps.baseLanguage.structure.InstanceMethodDeclaration" propertyString="createConstant_4kucyt_c0#(Ljetbrains/mps/nodeEditor/EditorContext;Ljetbrains/mps/smodel/SNode;)Ljetbrains/mps/nodeEditor/cells/EditorCell;" />
-    <nodeInfo nodeId="6242401288845954882" fileName="PngIcon_Editor.java" startLine="69" startPosition="0" endLine="80" endPosition="0" conceptFqName="jetbrains.mps.baseLanguage.structure.InstanceMethodDeclaration" propertyString="createConstant_4kucyt_a3a#(Ljetbrains/mps/nodeEditor/EditorContext;Ljetbrains/mps/smodel/SNode;)Ljetbrains/mps/nodeEditor/cells/EditorCell;" />
-    <nodeInfo nodeId="6242401288845953387" fileName="PngIcon_Editor.java" startLine="28" startPosition="0" endLine="40" endPosition="0" conceptFqName="jetbrains.mps.baseLanguage.structure.InstanceMethodDeclaration" propertyString="createAlternation_4kucyt_d0#(Ljetbrains/mps/nodeEditor/EditorContext;Ljetbrains/mps/smodel/SNode;)Ljetbrains/mps/nodeEditor/cells/EditorCell;" />
-    <nodeInfo nodeId="6242401288845952907" fileName="PngIcon_Editor.java" startLine="92" startPosition="0" endLine="114" endPosition="0" conceptFqName="jetbrains.mps.baseLanguage.structure.InstanceMethodDeclaration" propertyString="createProperty_4kucyt_b0#(Ljetbrains/mps/nodeEditor/EditorContext;Ljetbrains/mps/smodel/SNode;)Ljetbrains/mps/nodeEditor/cells/EditorCell;" />
-    <scopeInfo nodeId="6242401288845953387" fileName="PngIcon_Editor.java" startLine="37" startPosition="5" endLine="37" endPosition="5" />
-    <scopeInfo nodeId="6242401288845934075" fileName="PngIcon_Editor.java" startLine="25" startPosition="79" endLine="26" endPosition="63" />
-    <scopeInfo nodeId="6242401288845953387" fileName="PngIcon_Editor.java" startLine="33" startPosition="31" endLine="34" endPosition="73" />
-    <scopeInfo nodeId="6242401288845953387" fileName="PngIcon_Editor.java" startLine="35" startPosition="12" endLine="36" endPosition="71" />
-    <scopeInfo nodeId="6242401288845952901" fileName="PngIcon_Editor.java" startLine="42" startPosition="96" endLine="43" endPosition="48" />
-    <scopeInfo nodeId="6242401288845952901" fileName="PngIcon_Editor.java" startLine="43" startPosition="48" endLine="44" endPosition="81" />
+    <nodeInfo nodeId="6242401288845952901" fileName="PngIcon_Editor.java" startLine="45" startPosition="81" endLine="46" endPosition="84" conceptFqName="jetbrains.mps.baseLanguage.structure.BlockStatement" />
+    <nodeInfo nodeId="6242401288845952901" fileName="PngIcon_Editor.java" startLine="45" startPosition="81" endLine="46" endPosition="84" conceptFqName="jetbrains.mps.baseLanguage.structure.ExpressionStatement" />
+    <nodeInfo nodeId="6242401288845952901" fileName="PngIcon_Editor.java" startLine="46" startPosition="84" endLine="47" endPosition="83" conceptFqName="jetbrains.mps.baseLanguage.structure.BlockStatement" />
+    <nodeInfo nodeId="6242401288845952901" fileName="PngIcon_Editor.java" startLine="46" startPosition="84" endLine="47" endPosition="83" conceptFqName="jetbrains.mps.baseLanguage.structure.ExpressionStatement" />
+    <nodeInfo nodeId="6242401288845952901" fileName="PngIcon_Editor.java" startLine="47" startPosition="83" endLine="48" endPosition="22" conceptFqName="jetbrains.mps.baseLanguage.structure.ReturnStatement" />
+    <nodeInfo nodeId="6242401288845952904" fileName="PngIcon_Editor.java" startLine="51" startPosition="88" endLine="52" endPosition="95" conceptFqName="jetbrains.mps.baseLanguage.structure.LocalVariableDeclarationStatement" />
+    <nodeInfo nodeId="6242401288845952904" fileName="PngIcon_Editor.java" startLine="52" startPosition="95" endLine="53" endPosition="47" conceptFqName="jetbrains.mps.baseLanguage.structure.BlockStatement" />
+    <nodeInfo nodeId="6242401288845952904" fileName="PngIcon_Editor.java" startLine="52" startPosition="95" endLine="53" endPosition="47" conceptFqName="jetbrains.mps.baseLanguage.structure.ExpressionStatement" />
+    <nodeInfo nodeId="6242401288845952904" fileName="PngIcon_Editor.java" startLine="53" startPosition="47" endLine="54" endPosition="34" conceptFqName="jetbrains.mps.baseLanguage.structure.ExpressionStatement" />
+    <nodeInfo nodeId="6242401288845952904" fileName="PngIcon_Editor.java" startLine="54" startPosition="34" endLine="55" endPosition="22" conceptFqName="jetbrains.mps.baseLanguage.structure.ReturnStatement" />
+    <nodeInfo nodeId="6242401288845953384" fileName="PngIcon_Editor.java" startLine="58" startPosition="88" endLine="59" endPosition="86" conceptFqName="jetbrains.mps.baseLanguage.structure.LocalVariableDeclarationStatement" />
+    <nodeInfo nodeId="6242401288845953384" fileName="PngIcon_Editor.java" startLine="59" startPosition="86" endLine="60" endPosition="47" conceptFqName="jetbrains.mps.baseLanguage.structure.ExpressionStatement" />
+    <nodeInfo nodeId="6242401288845953384" fileName="PngIcon_Editor.java" startLine="61" startPosition="5" endLine="62" endPosition="42" conceptFqName="jetbrains.mps.baseLanguage.structure.LocalVariableDeclarationStatement" />
+    <nodeInfo nodeId="6242401288845953384" fileName="PngIcon_Editor.java" startLine="62" startPosition="42" endLine="63" endPosition="62" conceptFqName="jetbrains.mps.baseLanguage.structure.ExpressionStatement" />
+    <nodeInfo nodeId="6242401288845953384" fileName="PngIcon_Editor.java" startLine="64" startPosition="5" endLine="65" endPosition="34" conceptFqName="jetbrains.mps.baseLanguage.structure.ExpressionStatement" />
+    <nodeInfo nodeId="6242401288845953384" fileName="PngIcon_Editor.java" startLine="65" startPosition="34" endLine="66" endPosition="22" conceptFqName="jetbrains.mps.baseLanguage.structure.ReturnStatement" />
+    <nodeInfo nodeId="6242401288845954882" fileName="PngIcon_Editor.java" startLine="69" startPosition="89" endLine="70" endPosition="95" conceptFqName="jetbrains.mps.baseLanguage.structure.LocalVariableDeclarationStatement" />
+    <nodeInfo nodeId="6242401288845954882" fileName="PngIcon_Editor.java" startLine="70" startPosition="95" endLine="71" endPosition="48" conceptFqName="jetbrains.mps.baseLanguage.structure.ExpressionStatement" />
+    <nodeInfo nodeId="6242401288845954882" fileName="PngIcon_Editor.java" startLine="72" startPosition="5" endLine="73" endPosition="42" conceptFqName="jetbrains.mps.baseLanguage.structure.LocalVariableDeclarationStatement" />
+    <nodeInfo nodeId="6242401288845954882" fileName="PngIcon_Editor.java" startLine="73" startPosition="42" endLine="74" endPosition="60" conceptFqName="jetbrains.mps.baseLanguage.structure.ExpressionStatement" />
+    <nodeInfo nodeId="6242401288845954882" fileName="PngIcon_Editor.java" startLine="75" startPosition="5" endLine="76" endPosition="34" conceptFqName="jetbrains.mps.baseLanguage.structure.ExpressionStatement" />
+    <nodeInfo nodeId="6242401288845954882" fileName="PngIcon_Editor.java" startLine="76" startPosition="34" endLine="77" endPosition="22" conceptFqName="jetbrains.mps.baseLanguage.structure.ReturnStatement" />
+    <nodeInfo nodeId="7720233260877439991" fileName="PngIcon_Editor.java" startLine="80" startPosition="91" endLine="81" endPosition="180" conceptFqName="jetbrains.mps.baseLanguage.structure.LocalVariableDeclarationStatement" />
+    <nodeInfo nodeId="7720233260877439991" fileName="PngIcon_Editor.java" startLine="81" startPosition="180" endLine="82" endPosition="50" conceptFqName="jetbrains.mps.baseLanguage.structure.BlockStatement" />
+    <nodeInfo nodeId="7720233260877439991" fileName="PngIcon_Editor.java" startLine="81" startPosition="180" endLine="82" endPosition="50" conceptFqName="jetbrains.mps.baseLanguage.structure.ExpressionStatement" />
+    <nodeInfo nodeId="7720233260877439991" fileName="PngIcon_Editor.java" startLine="82" startPosition="50" endLine="83" endPosition="22" conceptFqName="jetbrains.mps.baseLanguage.structure.ReturnStatement" />
+    <nodeInfo nodeId="6242401288845954886" fileName="PngIcon_Editor.java" startLine="86" startPosition="90" endLine="87" endPosition="178" conceptFqName="jetbrains.mps.baseLanguage.structure.LocalVariableDeclarationStatement" />
+    <nodeInfo nodeId="6242401288845954886" fileName="PngIcon_Editor.java" startLine="87" startPosition="178" endLine="88" endPosition="49" conceptFqName="jetbrains.mps.baseLanguage.structure.BlockStatement" />
+    <nodeInfo nodeId="6242401288845954886" fileName="PngIcon_Editor.java" startLine="87" startPosition="178" endLine="88" endPosition="49" conceptFqName="jetbrains.mps.baseLanguage.structure.ExpressionStatement" />
+    <nodeInfo nodeId="6242401288845954886" fileName="PngIcon_Editor.java" startLine="88" startPosition="49" endLine="89" endPosition="22" conceptFqName="jetbrains.mps.baseLanguage.structure.ReturnStatement" />
+    <nodeInfo nodeId="6242401288845952907" fileName="PngIcon_Editor.java" startLine="92" startPosition="88" endLine="93" endPosition="82" conceptFqName="jetbrains.mps.baseLanguage.structure.LocalVariableDeclarationStatement" />
+    <nodeInfo nodeId="6242401288845952907" fileName="PngIcon_Editor.java" startLine="93" startPosition="82" endLine="94" endPosition="29" conceptFqName="jetbrains.mps.baseLanguage.structure.ExpressionStatement" />
+    <nodeInfo nodeId="6242401288845952907" fileName="PngIcon_Editor.java" startLine="94" startPosition="29" endLine="95" endPosition="42" conceptFqName="jetbrains.mps.baseLanguage.structure.ExpressionStatement" />
+    <nodeInfo nodeId="6242401288845952907" fileName="PngIcon_Editor.java" startLine="95" startPosition="42" endLine="96" endPosition="26" conceptFqName="jetbrains.mps.baseLanguage.structure.LocalVariableDeclarationStatement" />
+    <nodeInfo nodeId="6242401288845952907" fileName="PngIcon_Editor.java" startLine="96" startPosition="26" endLine="97" endPosition="58" conceptFqName="jetbrains.mps.baseLanguage.structure.ExpressionStatement" />
+    <nodeInfo nodeId="6242401288845952907" fileName="PngIcon_Editor.java" startLine="97" startPosition="58" endLine="98" endPosition="42" conceptFqName="jetbrains.mps.baseLanguage.structure.ExpressionStatement" />
+    <nodeInfo nodeId="6242401288845952907" fileName="PngIcon_Editor.java" startLine="99" startPosition="5" endLine="100" endPosition="42" conceptFqName="jetbrains.mps.baseLanguage.structure.LocalVariableDeclarationStatement" />
+    <nodeInfo nodeId="6242401288845952907" fileName="PngIcon_Editor.java" startLine="100" startPosition="42" endLine="101" endPosition="62" conceptFqName="jetbrains.mps.baseLanguage.structure.ExpressionStatement" />
+    <nodeInfo nodeId="6242401288845952907" fileName="PngIcon_Editor.java" startLine="102" startPosition="5" endLine="103" endPosition="73" conceptFqName="jetbrains.mps.baseLanguage.structure.ExpressionStatement" />
+    <nodeInfo nodeId="6242401288845952907" fileName="PngIcon_Editor.java" startLine="103" startPosition="73" endLine="104" endPosition="57" conceptFqName="jetbrains.mps.baseLanguage.structure.LocalVariableDeclarationStatement" />
+    <nodeInfo nodeId="6242401288845952907" fileName="PngIcon_Editor.java" startLine="104" startPosition="57" endLine="105" endPosition="59" conceptFqName="jetbrains.mps.baseLanguage.structure.LocalVariableDeclarationStatement" />
+    <nodeInfo nodeId="6242401288845952907" fileName="PngIcon_Editor.java" startLine="106" startPosition="35" endLine="107" endPosition="72" conceptFqName="jetbrains.mps.baseLanguage.structure.LocalVariableDeclarationStatement" />
+    <nodeInfo nodeId="6242401288845952907" fileName="PngIcon_Editor.java" startLine="107" startPosition="72" endLine="108" endPosition="78" conceptFqName="jetbrains.mps.baseLanguage.structure.LocalVariableDeclarationStatement" />
+    <nodeInfo nodeId="6242401288845952907" fileName="PngIcon_Editor.java" startLine="108" startPosition="78" endLine="109" endPosition="105" conceptFqName="jetbrains.mps.baseLanguage.structure.ReturnStatement" />
+    <nodeInfo nodeId="6242401288845952907" fileName="PngIcon_Editor.java" startLine="110" startPosition="10" endLine="111" endPosition="22" conceptFqName="jetbrains.mps.baseLanguage.structure.ReturnStatement" />
+    <nodeInfo nodeId="6242401288845954868" fileName="PngIcon_Editor.java" startLine="114" startPosition="111" endLine="115" endPosition="133" conceptFqName="jetbrains.mps.baseLanguage.structure.ReturnStatement" />
+    <nodeInfo nodeId="7720233260877496758" fileName="PngIcon_Editor.java" startLine="118" startPosition="120" endLine="119" endPosition="93" conceptFqName="jetbrains.mps.baseLanguage.structure.ReturnStatement" />
+    <nodeInfo nodeId="6242401288845954889" fileName="PngIcon_Editor.java" startLine="122" startPosition="119" endLine="123" endPosition="70" conceptFqName="jetbrains.mps.baseLanguage.structure.ReturnStatement" />
+    <nodeInfo nodeId="6242401288845953387" fileName="PngIcon_Editor.java" startLine="34" startPosition="10" endLine="36" endPosition="5" conceptFqName="jetbrains.mps.baseLanguage.structure.BlockStatement" />
+    <nodeInfo nodeId="6242401288845934075" fileName="PngIcon_Editor.java" startLine="23" startPosition="55" endLine="27" endPosition="0" conceptFqName="jetbrains.mps.baseLanguage.structure.InstanceMethodDeclaration" propertyString="createEditorCell#(Ljetbrains/mps/nodeEditor/EditorContext;Ljetbrains/mps/smodel/SNode;)Ljetbrains/mps/nodeEditor/cells/EditorCell;" />
+    <nodeInfo nodeId="6242401288845953384" fileName="PngIcon_Editor.java" startLine="60" startPosition="47" endLine="64" endPosition="5" conceptFqName="jetbrains.mps.baseLanguage.structure.BlockStatement" />
+    <nodeInfo nodeId="6242401288845954882" fileName="PngIcon_Editor.java" startLine="71" startPosition="48" endLine="75" endPosition="5" conceptFqName="jetbrains.mps.baseLanguage.structure.BlockStatement" />
+    <nodeInfo nodeId="6242401288845952907" fileName="PngIcon_Editor.java" startLine="98" startPosition="42" endLine="102" endPosition="5" conceptFqName="jetbrains.mps.baseLanguage.structure.BlockStatement" />
+    <nodeInfo nodeId="6242401288845953389" fileName="PngIcon_Editor.java" startLine="113" startPosition="0" endLine="117" endPosition="0" conceptFqName="jetbrains.mps.baseLanguage.structure.StaticMethodDeclaration" propertyString="renderingCondition_4kucyt_a3a#(Ljetbrains/mps/smodel/SNode;Ljetbrains/mps/nodeEditor/EditorContext;Ljetbrains/mps/smodel/IScope;)Z" />
+    <nodeInfo nodeId="7720233260877439992" fileName="PngIcon_Editor.java" startLine="117" startPosition="0" endLine="121" endPosition="0" conceptFqName="jetbrains.mps.baseLanguage.structure.StaticMethodDeclaration" propertyString="_QueryFunction_JComponent_4kucyt_a0d0#(Ljetbrains/mps/smodel/SNode;Ljetbrains/mps/nodeEditor/EditorContext;)Ljavax/swing/JComponent;" />
+    <nodeInfo nodeId="6242401288845954887" fileName="PngIcon_Editor.java" startLine="121" startPosition="0" endLine="125" endPosition="0" conceptFqName="jetbrains.mps.baseLanguage.structure.StaticMethodDeclaration" propertyString="_QueryFunction_JComponent_4kucyt_a4a#(Ljetbrains/mps/smodel/SNode;Ljetbrains/mps/nodeEditor/EditorContext;)Ljavax/swing/JComponent;" />
+    <nodeInfo nodeId="6242401288845953387" fileName="PngIcon_Editor.java" startLine="31" startPosition="33" endLine="36" endPosition="5" conceptFqName="jetbrains.mps.baseLanguage.structure.IfStatement" />
+    <nodeInfo nodeId="6242401288845953384" fileName="PngIcon_Editor.java" startLine="59" startPosition="86" endLine="64" endPosition="5" conceptFqName="jetbrains.mps.baseLanguage.structure.BlockStatement" />
+    <nodeInfo nodeId="6242401288845954882" fileName="PngIcon_Editor.java" startLine="70" startPosition="95" endLine="75" endPosition="5" conceptFqName="jetbrains.mps.baseLanguage.structure.BlockStatement" />
+    <nodeInfo nodeId="6242401288845952907" fileName="PngIcon_Editor.java" startLine="97" startPosition="58" endLine="102" endPosition="5" conceptFqName="jetbrains.mps.baseLanguage.structure.BlockStatement" />
+    <nodeInfo nodeId="7720233260877439991" fileName="PngIcon_Editor.java" startLine="79" startPosition="0" endLine="85" endPosition="0" conceptFqName="jetbrains.mps.baseLanguage.structure.InstanceMethodDeclaration" propertyString="createJComponent_4kucyt_a3a#(Ljetbrains/mps/nodeEditor/EditorContext;Ljetbrains/mps/smodel/SNode;)Ljetbrains/mps/nodeEditor/cells/EditorCell;" />
+    <nodeInfo nodeId="6242401288845954886" fileName="PngIcon_Editor.java" startLine="85" startPosition="0" endLine="91" endPosition="0" conceptFqName="jetbrains.mps.baseLanguage.structure.InstanceMethodDeclaration" propertyString="createJComponent_4kucyt_e0#(Ljetbrains/mps/nodeEditor/EditorContext;Ljetbrains/mps/smodel/SNode;)Ljetbrains/mps/nodeEditor/cells/EditorCell;" />
+    <nodeInfo nodeId="6242401288845952907" fileName="PngIcon_Editor.java" startLine="105" startPosition="59" endLine="111" endPosition="22" conceptFqName="jetbrains.mps.baseLanguage.structure.IfStatement" />
+    <nodeInfo nodeId="6242401288845952904" fileName="PngIcon_Editor.java" startLine="50" startPosition="0" endLine="57" endPosition="0" conceptFqName="jetbrains.mps.baseLanguage.structure.InstanceMethodDeclaration" propertyString="createConstant_4kucyt_a0#(Ljetbrains/mps/nodeEditor/EditorContext;Ljetbrains/mps/smodel/SNode;)Ljetbrains/mps/nodeEditor/cells/EditorCell;" />
+    <nodeInfo nodeId="6242401288845952907" fileName="PngIcon_Editor.java" startLine="96" startPosition="26" endLine="103" endPosition="73" conceptFqName="jetbrains.mps.baseLanguage.structure.BlockStatement" />
+    <nodeInfo nodeId="6242401288845952901" fileName="PngIcon_Editor.java" startLine="39" startPosition="0" endLine="50" endPosition="0" conceptFqName="jetbrains.mps.baseLanguage.structure.InstanceMethodDeclaration" propertyString="createCollection_4kucyt_a#(Ljetbrains/mps/nodeEditor/EditorContext;Ljetbrains/mps/smodel/SNode;)Ljetbrains/mps/nodeEditor/cells/EditorCell;" />
+    <nodeInfo nodeId="6242401288845953384" fileName="PngIcon_Editor.java" startLine="57" startPosition="0" endLine="68" endPosition="0" conceptFqName="jetbrains.mps.baseLanguage.structure.InstanceMethodDeclaration" propertyString="createConstant_4kucyt_c0#(Ljetbrains/mps/nodeEditor/EditorContext;Ljetbrains/mps/smodel/SNode;)Ljetbrains/mps/nodeEditor/cells/EditorCell;" />
+    <nodeInfo nodeId="6242401288845954882" fileName="PngIcon_Editor.java" startLine="68" startPosition="0" endLine="79" endPosition="0" conceptFqName="jetbrains.mps.baseLanguage.structure.InstanceMethodDeclaration" propertyString="createConstant_4kucyt_a3a#(Ljetbrains/mps/nodeEditor/EditorContext;Ljetbrains/mps/smodel/SNode;)Ljetbrains/mps/nodeEditor/cells/EditorCell;" />
+    <nodeInfo nodeId="6242401288845953387" fileName="PngIcon_Editor.java" startLine="27" startPosition="0" endLine="39" endPosition="0" conceptFqName="jetbrains.mps.baseLanguage.structure.InstanceMethodDeclaration" propertyString="createAlternation_4kucyt_d0#(Ljetbrains/mps/nodeEditor/EditorContext;Ljetbrains/mps/smodel/SNode;)Ljetbrains/mps/nodeEditor/cells/EditorCell;" />
+    <nodeInfo nodeId="6242401288845952907" fileName="PngIcon_Editor.java" startLine="91" startPosition="0" endLine="113" endPosition="0" conceptFqName="jetbrains.mps.baseLanguage.structure.InstanceMethodDeclaration" propertyString="createProperty_4kucyt_b0#(Ljetbrains/mps/nodeEditor/EditorContext;Ljetbrains/mps/smodel/SNode;)Ljetbrains/mps/nodeEditor/cells/EditorCell;" />
+    <scopeInfo nodeId="6242401288845953387" fileName="PngIcon_Editor.java" startLine="36" startPosition="5" endLine="36" endPosition="5" />
+    <scopeInfo nodeId="6242401288845934075" fileName="PngIcon_Editor.java" startLine="24" startPosition="79" endLine="25" endPosition="63" />
+    <scopeInfo nodeId="6242401288845953387" fileName="PngIcon_Editor.java" startLine="32" startPosition="31" endLine="33" endPosition="73" />
+    <scopeInfo nodeId="6242401288845953387" fileName="PngIcon_Editor.java" startLine="34" startPosition="12" endLine="35" endPosition="71" />
+    <scopeInfo nodeId="6242401288845952901" fileName="PngIcon_Editor.java" startLine="41" startPosition="96" endLine="42" endPosition="48" />
+    <scopeInfo nodeId="6242401288845952901" fileName="PngIcon_Editor.java" startLine="42" startPosition="48" endLine="43" endPosition="81" />
+    <scopeInfo nodeId="6242401288845952901" fileName="PngIcon_Editor.java" startLine="43" startPosition="81" endLine="44" endPosition="81" />
     <scopeInfo nodeId="6242401288845952901" fileName="PngIcon_Editor.java" startLine="44" startPosition="81" endLine="45" endPosition="81" />
-    <scopeInfo nodeId="6242401288845952901" fileName="PngIcon_Editor.java" startLine="45" startPosition="81" endLine="46" endPosition="81" />
-    <scopeInfo nodeId="6242401288845952901" fileName="PngIcon_Editor.java" startLine="46" startPosition="81" endLine="47" endPosition="84" />
-    <scopeInfo nodeId="6242401288845952901" fileName="PngIcon_Editor.java" startLine="47" startPosition="84" endLine="48" endPosition="83" />
-    <scopeInfo nodeId="6242401288845952904" fileName="PngIcon_Editor.java" startLine="53" startPosition="95" endLine="54" endPosition="47" />
-    <scopeInfo nodeId="7720233260877439991" fileName="PngIcon_Editor.java" startLine="82" startPosition="180" endLine="83" endPosition="50" />
-    <scopeInfo nodeId="6242401288845954886" fileName="PngIcon_Editor.java" startLine="88" startPosition="178" endLine="89" endPosition="49" />
-    <scopeInfo nodeId="6242401288845953390" fileName="PngIcon_Editor.java" startLine="115" startPosition="111" endLine="116" endPosition="83" />
-    <scopeInfo nodeId="7720233260877439993" fileName="PngIcon_Editor.java" startLine="119" startPosition="120" endLine="120" endPosition="93" />
-    <scopeInfo nodeId="6242401288845954888" fileName="PngIcon_Editor.java" startLine="123" startPosition="119" endLine="124" endPosition="70" />
-    <scopeInfo nodeId="6242401288845953384" fileName="PngIcon_Editor.java" startLine="62" startPosition="5" endLine="64" endPosition="62">
+    <scopeInfo nodeId="6242401288845952901" fileName="PngIcon_Editor.java" startLine="45" startPosition="81" endLine="46" endPosition="84" />
+    <scopeInfo nodeId="6242401288845952901" fileName="PngIcon_Editor.java" startLine="46" startPosition="84" endLine="47" endPosition="83" />
+    <scopeInfo nodeId="6242401288845952904" fileName="PngIcon_Editor.java" startLine="52" startPosition="95" endLine="53" endPosition="47" />
+    <scopeInfo nodeId="7720233260877439991" fileName="PngIcon_Editor.java" startLine="81" startPosition="180" endLine="82" endPosition="50" />
+    <scopeInfo nodeId="6242401288845954886" fileName="PngIcon_Editor.java" startLine="87" startPosition="178" endLine="88" endPosition="49" />
+    <scopeInfo nodeId="6242401288845953390" fileName="PngIcon_Editor.java" startLine="114" startPosition="111" endLine="115" endPosition="133" />
+    <scopeInfo nodeId="7720233260877439993" fileName="PngIcon_Editor.java" startLine="118" startPosition="120" endLine="119" endPosition="93" />
+    <scopeInfo nodeId="6242401288845954888" fileName="PngIcon_Editor.java" startLine="122" startPosition="119" endLine="123" endPosition="70" />
+    <scopeInfo nodeId="6242401288845953384" fileName="PngIcon_Editor.java" startLine="61" startPosition="5" endLine="63" endPosition="62">
       <varInfo nodeId="6242401288845953384" varName="style" />
     </scopeInfo>
-    <scopeInfo nodeId="6242401288845954882" fileName="PngIcon_Editor.java" startLine="73" startPosition="5" endLine="75" endPosition="60">
+    <scopeInfo nodeId="6242401288845954882" fileName="PngIcon_Editor.java" startLine="72" startPosition="5" endLine="74" endPosition="60">
       <varInfo nodeId="6242401288845954882" varName="style" />
     </scopeInfo>
-    <scopeInfo nodeId="6242401288845952907" fileName="PngIcon_Editor.java" startLine="100" startPosition="5" endLine="102" endPosition="62">
+    <scopeInfo nodeId="6242401288845952907" fileName="PngIcon_Editor.java" startLine="99" startPosition="5" endLine="101" endPosition="62">
       <varInfo nodeId="6242401288845952907" varName="style" />
     </scopeInfo>
-    <scopeInfo nodeId="7720233260877439991" fileName="PngIcon_Editor.java" startLine="81" startPosition="91" endLine="84" endPosition="22">
+    <scopeInfo nodeId="7720233260877439991" fileName="PngIcon_Editor.java" startLine="80" startPosition="91" endLine="83" endPosition="22">
       <varInfo nodeId="7720233260877439991" varName="editorCell" />
     </scopeInfo>
-    <scopeInfo nodeId="6242401288845954886" fileName="PngIcon_Editor.java" startLine="87" startPosition="90" endLine="90" endPosition="22">
+    <scopeInfo nodeId="6242401288845954886" fileName="PngIcon_Editor.java" startLine="86" startPosition="90" endLine="89" endPosition="22">
       <varInfo nodeId="6242401288845954886" varName="editorCell" />
     </scopeInfo>
-    <scopeInfo nodeId="6242401288845952907" fileName="PngIcon_Editor.java" startLine="107" startPosition="35" endLine="110" endPosition="105">
+    <scopeInfo nodeId="6242401288845952907" fileName="PngIcon_Editor.java" startLine="106" startPosition="35" endLine="109" endPosition="105">
       <varInfo nodeId="6242401288845952907" varName="manager" />
       <varInfo nodeId="6242401288845952907" varName="opContext" />
     </scopeInfo>
-    <scopeInfo nodeId="6242401288845934075" fileName="PngIcon_Editor.java" startLine="24" startPosition="55" endLine="28" endPosition="0">
+    <scopeInfo nodeId="6242401288845934075" fileName="PngIcon_Editor.java" startLine="23" startPosition="55" endLine="27" endPosition="0">
       <varInfo nodeId="6242401288845934075" varName="editorContext" />
       <varInfo nodeId="6242401288845934075" varName="node" />
     </scopeInfo>
-    <scopeInfo nodeId="6242401288845952904" fileName="PngIcon_Editor.java" startLine="52" startPosition="88" endLine="56" endPosition="22">
+    <scopeInfo nodeId="6242401288845952904" fileName="PngIcon_Editor.java" startLine="51" startPosition="88" endLine="55" endPosition="22">
       <varInfo nodeId="6242401288845952904" varName="editorCell" />
     </scopeInfo>
-    <scopeInfo nodeId="6242401288845953389" fileName="PngIcon_Editor.java" startLine="114" startPosition="0" endLine="118" endPosition="0">
+    <scopeInfo nodeId="6242401288845953389" fileName="PngIcon_Editor.java" startLine="113" startPosition="0" endLine="117" endPosition="0">
       <varInfo nodeId="6242401288845953389" varName="editorContext" />
       <varInfo nodeId="6242401288845953389" varName="node" />
       <varInfo nodeId="6242401288845953389" varName="scope" />
     </scopeInfo>
-    <scopeInfo nodeId="7720233260877439992" fileName="PngIcon_Editor.java" startLine="118" startPosition="0" endLine="122" endPosition="0">
+    <scopeInfo nodeId="7720233260877439992" fileName="PngIcon_Editor.java" startLine="117" startPosition="0" endLine="121" endPosition="0">
       <varInfo nodeId="7720233260877439992" varName="editorContext" />
       <varInfo nodeId="7720233260877439992" varName="node" />
     </scopeInfo>
-    <scopeInfo nodeId="6242401288845954887" fileName="PngIcon_Editor.java" startLine="122" startPosition="0" endLine="126" endPosition="0">
+    <scopeInfo nodeId="6242401288845954887" fileName="PngIcon_Editor.java" startLine="121" startPosition="0" endLine="125" endPosition="0">
       <varInfo nodeId="6242401288845954887" varName="editorContext" />
       <varInfo nodeId="6242401288845954887" varName="node" />
     </scopeInfo>
-    <scopeInfo nodeId="6242401288845953384" fileName="PngIcon_Editor.java" startLine="60" startPosition="86" endLine="65" endPosition="5" />
-    <scopeInfo nodeId="6242401288845954882" fileName="PngIcon_Editor.java" startLine="71" startPosition="95" endLine="76" endPosition="5" />
-    <scopeInfo nodeId="6242401288845952907" fileName="PngIcon_Editor.java" startLine="98" startPosition="58" endLine="103" endPosition="5" />
-    <scopeInfo nodeId="7720233260877439991" fileName="PngIcon_Editor.java" startLine="80" startPosition="0" endLine="86" endPosition="0">
+    <scopeInfo nodeId="6242401288845953384" fileName="PngIcon_Editor.java" startLine="59" startPosition="86" endLine="64" endPosition="5" />
+    <scopeInfo nodeId="6242401288845954882" fileName="PngIcon_Editor.java" startLine="70" startPosition="95" endLine="75" endPosition="5" />
+    <scopeInfo nodeId="6242401288845952907" fileName="PngIcon_Editor.java" startLine="97" startPosition="58" endLine="102" endPosition="5" />
+    <scopeInfo nodeId="7720233260877439991" fileName="PngIcon_Editor.java" startLine="79" startPosition="0" endLine="85" endPosition="0">
       <varInfo nodeId="7720233260877439991" varName="editorContext" />
       <varInfo nodeId="7720233260877439991" varName="node" />
     </scopeInfo>
-    <scopeInfo nodeId="6242401288845954886" fileName="PngIcon_Editor.java" startLine="86" startPosition="0" endLine="92" endPosition="0">
+    <scopeInfo nodeId="6242401288845954886" fileName="PngIcon_Editor.java" startLine="85" startPosition="0" endLine="91" endPosition="0">
       <varInfo nodeId="6242401288845954886" varName="editorContext" />
       <varInfo nodeId="6242401288845954886" varName="node" />
     </scopeInfo>
-    <scopeInfo nodeId="6242401288845952904" fileName="PngIcon_Editor.java" startLine="51" startPosition="0" endLine="58" endPosition="0">
+    <scopeInfo nodeId="6242401288845952904" fileName="PngIcon_Editor.java" startLine="50" startPosition="0" endLine="57" endPosition="0">
       <varInfo nodeId="6242401288845952904" varName="editorContext" />
       <varInfo nodeId="6242401288845952904" varName="node" />
     </scopeInfo>
-    <scopeInfo nodeId="6242401288845952907" fileName="PngIcon_Editor.java" startLine="97" startPosition="26" endLine="104" endPosition="73" />
-    <scopeInfo nodeId="6242401288845952901" fileName="PngIcon_Editor.java" startLine="41" startPosition="89" endLine="49" endPosition="22">
+    <scopeInfo nodeId="6242401288845952907" fileName="PngIcon_Editor.java" startLine="96" startPosition="26" endLine="103" endPosition="73" />
+    <scopeInfo nodeId="6242401288845952901" fileName="PngIcon_Editor.java" startLine="40" startPosition="89" endLine="48" endPosition="22">
       <varInfo nodeId="6242401288845952901" varName="editorCell" />
     </scopeInfo>
-    <scopeInfo nodeId="6242401288845953384" fileName="PngIcon_Editor.java" startLine="59" startPosition="88" endLine="67" endPosition="22">
+    <scopeInfo nodeId="6242401288845953384" fileName="PngIcon_Editor.java" startLine="58" startPosition="88" endLine="66" endPosition="22">
       <varInfo nodeId="6242401288845953384" varName="editorCell" />
     </scopeInfo>
-    <scopeInfo nodeId="6242401288845954882" fileName="PngIcon_Editor.java" startLine="70" startPosition="89" endLine="78" endPosition="22">
+    <scopeInfo nodeId="6242401288845954882" fileName="PngIcon_Editor.java" startLine="69" startPosition="89" endLine="77" endPosition="22">
       <varInfo nodeId="6242401288845954882" varName="editorCell" />
     </scopeInfo>
-    <scopeInfo nodeId="6242401288845953387" fileName="PngIcon_Editor.java" startLine="29" startPosition="91" endLine="38" endPosition="22">
+    <scopeInfo nodeId="6242401288845953387" fileName="PngIcon_Editor.java" startLine="28" startPosition="91" endLine="37" endPosition="22">
       <varInfo nodeId="6242401288845953387" varName="alternationCondition" />
       <varInfo nodeId="6242401288845953387" varName="editorCell" />
     </scopeInfo>
-    <scopeInfo nodeId="6242401288845952901" fileName="PngIcon_Editor.java" startLine="40" startPosition="0" endLine="51" endPosition="0">
+    <scopeInfo nodeId="6242401288845952901" fileName="PngIcon_Editor.java" startLine="39" startPosition="0" endLine="50" endPosition="0">
       <varInfo nodeId="6242401288845952901" varName="editorContext" />
       <varInfo nodeId="6242401288845952901" varName="node" />
     </scopeInfo>
-    <scopeInfo nodeId="6242401288845953384" fileName="PngIcon_Editor.java" startLine="58" startPosition="0" endLine="69" endPosition="0">
+    <scopeInfo nodeId="6242401288845953384" fileName="PngIcon_Editor.java" startLine="57" startPosition="0" endLine="68" endPosition="0">
       <varInfo nodeId="6242401288845953384" varName="editorContext" />
       <varInfo nodeId="6242401288845953384" varName="node" />
     </scopeInfo>
-    <scopeInfo nodeId="6242401288845954882" fileName="PngIcon_Editor.java" startLine="69" startPosition="0" endLine="80" endPosition="0">
+    <scopeInfo nodeId="6242401288845954882" fileName="PngIcon_Editor.java" startLine="68" startPosition="0" endLine="79" endPosition="0">
       <varInfo nodeId="6242401288845954882" varName="editorContext" />
       <varInfo nodeId="6242401288845954882" varName="node" />
     </scopeInfo>
-    <scopeInfo nodeId="6242401288845953387" fileName="PngIcon_Editor.java" startLine="28" startPosition="0" endLine="40" endPosition="0">
+    <scopeInfo nodeId="6242401288845953387" fileName="PngIcon_Editor.java" startLine="27" startPosition="0" endLine="39" endPosition="0">
       <varInfo nodeId="6242401288845953387" varName="editorContext" />
       <varInfo nodeId="6242401288845953387" varName="node" />
     </scopeInfo>
-    <scopeInfo nodeId="6242401288845952907" fileName="PngIcon_Editor.java" startLine="93" startPosition="88" endLine="112" endPosition="22">
+    <scopeInfo nodeId="6242401288845952907" fileName="PngIcon_Editor.java" startLine="92" startPosition="88" endLine="111" endPosition="22">
       <varInfo nodeId="6242401288845952907" varName="attributeConcept" />
       <varInfo nodeId="6242401288845952907" varName="attributeKind" />
       <varInfo nodeId="6242401288845952907" varName="editorCell" />
       <varInfo nodeId="6242401288845952907" varName="provider" />
     </scopeInfo>
-    <scopeInfo nodeId="6242401288845952907" fileName="PngIcon_Editor.java" startLine="92" startPosition="0" endLine="114" endPosition="0">
+    <scopeInfo nodeId="6242401288845952907" fileName="PngIcon_Editor.java" startLine="91" startPosition="0" endLine="113" endPosition="0">
       <varInfo nodeId="6242401288845952907" varName="editorContext" />
       <varInfo nodeId="6242401288845952907" varName="node" />
     </scopeInfo>
-    <unitInfo nodeId="6242401288845934075" fileName="PngIcon_Editor.java" startLine="24" startPosition="0" endLine="127" endPosition="0" unitName="jetbrains.mps.uiLanguage.editor.PngIcon_Editor" />
+    <unitInfo nodeId="6242401288845934075" fileName="PngIcon_Editor.java" startLine="23" startPosition="0" endLine="126" endPosition="0" unitName="jetbrains.mps.uiLanguage.editor.PngIcon_Editor" />
   </root>
   <root nodeId="6242401288845954893">
     <nodeInfo nodeId="6242401288846070602" fileName="EditorIconUtil.java" startLine="30" startPosition="95" endLine="31" endPosition="41" conceptFqName="jetbrains.mps.baseLanguage.structure.LocalVariableDeclarationStatement" />
