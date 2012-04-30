@@ -88,7 +88,6 @@
     <classNode dependClassName="jetbrains.mps.smodel.SModelUtil_new" />
     <classNode dependClassName="jetbrains.mps.smodel.SNode" />
     <classNode dependClassName="jetbrains.mps.util.PathManager" />
-    <classNode dependClassName="org.apache.commons.lang.StringUtils" />
     <classNode dependClassName="org.apache.tools.ant.types.Reference" />
     <classNode extendsClassName="jetbrains.mps.build.generictasks.taskfromjar.IBuilder" />
   </dependency>

@@ -13,7 +13,6 @@ import jetbrains.mps.lang.smodel.generator.smodelAdapter.SNodeOperations;
 import jetbrains.mps.internal.collections.runtime.ListSequence;
 import jetbrains.mps.internal.collections.runtime.IVisitor;
 import jetbrains.mps.smodel.SReference;
-import org.apache.commons.lang.StringUtils;
 import jetbrains.mps.smodel.StaticReference;
 
 public class ScriptsUtil {
@@ -57,7 +56,7 @@ public class ScriptsUtil {
       List<SReference> references = childNode.getReferences();
       for (SReference ref : ListSequence.fromList(references)) {
         String resolveInfo = ref.getResolveInfo();
-        if (ref.getTargetSModelReference().getLongName().equals(modelLongName) && (StringUtils.isNotEmpty(resolveInfo) && resolveInfo.contains(classifierName))) {
+        if (ref.getTargetSModelReference().getLongName().equals(modelLongName) && ((resolveInfo != null && resolveInfo.length() > 0) && resolveInfo.contains(classifierName))) {
           found = true;
           ref.setTargetSModelReference(newModelReference);
           if (ref instanceof StaticReference) {

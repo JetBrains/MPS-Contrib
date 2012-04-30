@@ -12,7 +12,6 @@ import jetbrains.mps.internal.collections.runtime.ListSequence;
 import jetbrains.mps.lang.smodel.generator.smodelAdapter.SPropertyOperations;
 import jetbrains.mps.internal.collections.runtime.IWhereFilter;
 import jetbrains.mps.internal.collections.runtime.ISelector;
-import org.apache.commons.lang.StringUtils;
 import jetbrains.mps.lang.smodel.generator.smodelAdapter.SConceptOperations;
 import java.util.Set;
 import java.util.HashSet;
@@ -80,7 +79,7 @@ public class SchemaUtil {
 
   public static String complexTypePresentation(SNode complexType) {
     String typeName = SPropertyOperations.getString(complexType, "typeName");
-    if (StringUtils.isEmpty(typeName)) {
+    if ((typeName == null || typeName.length() == 0)) {
       return SPropertyOperations.getString(SNodeOperations.getAncestor(complexType, "jetbrains.mps.xmlSchema.structure.ElementWithContent", false, false), "elementName");
     } else {
       return "[" + typeName + "]";

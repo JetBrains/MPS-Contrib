@@ -24,7 +24,6 @@ import jetbrains.mps.nodeEditor.FocusPolicy;
 import jetbrains.mps.lang.editor.cellProviders.ConceptPropertyCellProvider;
 import jetbrains.mps.smodel.IScope;
 import jetbrains.mps.lang.smodel.generator.smodelAdapter.SPropertyOperations;
-import org.apache.commons.lang.StringUtils;
 import jetbrains.mps.internal.collections.runtime.ListSequence;
 import jetbrains.mps.lang.smodel.generator.smodelAdapter.SLinkOperations;
 import jetbrains.mps.lang.editor.cellProviders.RefNodeListHandler;
@@ -463,11 +462,11 @@ public class TargetDeclaration_Editor extends DefaultNodeEditor {
   }
 
   private static boolean renderingCondition_xfdsch_a2b0(SNode node, EditorContext editorContext, IScope scope) {
-    return StringUtils.isNotEmpty(SPropertyOperations.getString(node, "if"));
+    return (SPropertyOperations.getString(node, "if") != null && SPropertyOperations.getString(node, "if").length() > 0);
   }
 
   private static boolean renderingCondition_xfdsch_a3b0(SNode node, EditorContext editorContext, IScope scope) {
-    return StringUtils.isNotEmpty(SPropertyOperations.getString(node, "unless"));
+    return (SPropertyOperations.getString(node, "unless") != null && SPropertyOperations.getString(node, "unless").length() > 0);
   }
 
   private static boolean renderingCondition_xfdsch_a4b0(SNode node, EditorContext editorContext, IScope scope) {

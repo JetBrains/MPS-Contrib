@@ -13,7 +13,6 @@ import jetbrains.mps.buildlanguage.behavior.ITargetReference_Behavior;
 import jetbrains.mps.buildlanguage.behavior.Project_Behavior;
 import jetbrains.mps.build.property.behavior.PropertyNode_Behavior;
 import jetbrains.mps.generator.template.IfMacroContext;
-import org.apache.commons.lang.StringUtils;
 import jetbrains.mps.smodel.SNode;
 import jetbrains.mps.generator.template.SourceSubstituteMacroNodeContext;
 import jetbrains.mps.internal.collections.runtime.ListSequence;
@@ -107,11 +106,11 @@ public class QueriesGenerated {
   }
 
   public static boolean ifMacro_Condition_1229186350652(final IOperationContext operationContext, final IfMacroContext _context) {
-    return StringUtils.isNotEmpty(SPropertyOperations.getString(_context.getNode(), "if"));
+    return (SPropertyOperations.getString(_context.getNode(), "if") != null && SPropertyOperations.getString(_context.getNode(), "if").length() > 0);
   }
 
   public static boolean ifMacro_Condition_1229186682042(final IOperationContext operationContext, final IfMacroContext _context) {
-    return StringUtils.isNotEmpty(SPropertyOperations.getString(_context.getNode(), "unless"));
+    return (SPropertyOperations.getString(_context.getNode(), "unless") != null && SPropertyOperations.getString(_context.getNode(), "unless").length() > 0);
   }
 
   public static boolean ifMacro_Condition_1240316820310(final IOperationContext operationContext, final IfMacroContext _context) {

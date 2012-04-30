@@ -18,7 +18,6 @@ import jetbrains.mps.smodel.runtime.ReferenceScopeProvider;
 import jetbrains.mps.smodel.runtime.base.BaseReferenceScopeProvider;
 import jetbrains.mps.smodel.IOperationContext;
 import jetbrains.mps.smodel.runtime.ReferencePresentationContext;
-import org.apache.commons.lang.StringUtils;
 import jetbrains.mps.smodel.runtime.ReferenceConstraintsContext;
 
 public class PeriodPropertyFormatToken_Constraints extends BaseConstraintsDescriptor {
@@ -66,7 +65,7 @@ public class PeriodPropertyFormatToken_Constraints extends BaseConstraintsDescri
 
           @Override
           public String getPresentation(final IOperationContext operationContext, final ReferencePresentationContext _context) {
-            String name = (StringUtils.isNotEmpty(SPropertyOperations.getString(_context.getParameterNode(), "pluralForm")) ?
+            String name = ((SPropertyOperations.getString(_context.getParameterNode(), "pluralForm") != null && SPropertyOperations.getString(_context.getParameterNode(), "pluralForm").length() > 0) ?
               SPropertyOperations.getString(_context.getParameterNode(), "pluralForm") :
               SPropertyOperations.getString(_context.getParameterNode(), "name")
             );

@@ -12,7 +12,6 @@ import java.util.List;
 import jetbrains.mps.internal.collections.runtime.ListSequence;
 import java.util.ArrayList;
 import jetbrains.mps.smodel.ModelAccess;
-import org.apache.commons.lang.StringUtils;
 import java.io.File;
 import java.io.IOException;
 
@@ -44,7 +43,7 @@ public class ClassRunner extends BaseRunner {
         ClassRunner.this.myProcessBuilder = new ProcessBuilder(params);
 
         String workingDir = myRunParameters.getWorkingDirectory();
-        if (workingDir != null && StringUtils.isNotEmpty(workingDir)) {
+        if (workingDir != null && (workingDir != null && workingDir.length() > 0)) {
           ClassRunner.this.myProcessBuilder.directory(new File(workingDir));
         }
       }

@@ -558,69 +558,69 @@
     <unitInfo nodeId="1384720974900260477" fileName="ElementBuilder_Behavior.java" startLine="111" startPosition="0" endLine="170" endPosition="0" unitName="jetbrains.mps.xmlQuery.behavior.ElementBuilder_Behavior$QuotationClass_w52xu1_a0a0d" />
   </root>
   <root nodeId="3444414697307503268">
-    <nodeInfo nodeId="3444414697307503332" fileName="XMLSAXChildRule_Behavior.java" startLine="15" startPosition="336" endLine="16" endPosition="106" conceptFqName="jetbrains.mps.baseLanguage.structure.ReturnStatement" />
-    <nodeInfo nodeId="3444414697307503291" fileName="XMLSAXChildRule_Behavior.java" startLine="17" startPosition="5" endLine="18" endPosition="62" conceptFqName="jetbrains.mps.baseLanguage.structure.ReturnStatement" />
-    <nodeInfo nodeId="3444414697307503268" fileName="XMLSAXChildRule_Behavior.java" startLine="10" startPosition="39" endLine="13" endPosition="0" conceptFqName="jetbrains.mps.baseLanguage.structure.StaticMethodDeclaration" propertyString="init#(Ljetbrains/mps/smodel/SNode;)V" />
-    <nodeInfo nodeId="3444414697307503276" fileName="XMLSAXChildRule_Behavior.java" startLine="14" startPosition="76" endLine="17" endPosition="5" conceptFqName="jetbrains.mps.baseLanguage.structure.IfStatement" />
-    <nodeInfo nodeId="3444414697307503268" fileName="XMLSAXChildRule_Behavior.java" startLine="13" startPosition="0" endLine="20" endPosition="0" conceptFqName="jetbrains.mps.baseLanguage.structure.StaticMethodDeclaration" propertyString="call_getTagName_3444414697307503271#(Ljetbrains/mps/smodel/SNode;)Ljava/lang/String;" />
-    <scopeInfo nodeId="3444414697307503270" fileName="XMLSAXChildRule_Behavior.java" startLine="11" startPosition="43" endLine="11" endPosition="43" />
-    <scopeInfo nodeId="3444414697307503278" fileName="XMLSAXChildRule_Behavior.java" startLine="15" startPosition="336" endLine="16" endPosition="106" />
-    <scopeInfo nodeId="3444414697307503268" fileName="XMLSAXChildRule_Behavior.java" startLine="10" startPosition="39" endLine="13" endPosition="0">
+    <nodeInfo nodeId="3444414697307503332" fileName="XMLSAXChildRule_Behavior.java" startLine="14" startPosition="488" endLine="15" endPosition="106" conceptFqName="jetbrains.mps.baseLanguage.structure.ReturnStatement" />
+    <nodeInfo nodeId="3444414697307503291" fileName="XMLSAXChildRule_Behavior.java" startLine="16" startPosition="5" endLine="17" endPosition="62" conceptFqName="jetbrains.mps.baseLanguage.structure.ReturnStatement" />
+    <nodeInfo nodeId="3444414697307503268" fileName="XMLSAXChildRule_Behavior.java" startLine="9" startPosition="39" endLine="12" endPosition="0" conceptFqName="jetbrains.mps.baseLanguage.structure.StaticMethodDeclaration" propertyString="init#(Ljetbrains/mps/smodel/SNode;)V" />
+    <nodeInfo nodeId="3444414697307503276" fileName="XMLSAXChildRule_Behavior.java" startLine="13" startPosition="76" endLine="16" endPosition="5" conceptFqName="jetbrains.mps.baseLanguage.structure.IfStatement" />
+    <nodeInfo nodeId="3444414697307503268" fileName="XMLSAXChildRule_Behavior.java" startLine="12" startPosition="0" endLine="19" endPosition="0" conceptFqName="jetbrains.mps.baseLanguage.structure.StaticMethodDeclaration" propertyString="call_getTagName_3444414697307503271#(Ljetbrains/mps/smodel/SNode;)Ljava/lang/String;" />
+    <scopeInfo nodeId="3444414697307503270" fileName="XMLSAXChildRule_Behavior.java" startLine="10" startPosition="43" endLine="10" endPosition="43" />
+    <scopeInfo nodeId="3444414697307503278" fileName="XMLSAXChildRule_Behavior.java" startLine="14" startPosition="488" endLine="15" endPosition="106" />
+    <scopeInfo nodeId="3444414697307503268" fileName="XMLSAXChildRule_Behavior.java" startLine="9" startPosition="39" endLine="12" endPosition="0">
       <varInfo nodeId="3444414697307503268" varName="thisNode" />
     </scopeInfo>
-    <scopeInfo nodeId="3444414697307503274" fileName="XMLSAXChildRule_Behavior.java" startLine="14" startPosition="76" endLine="18" endPosition="62" />
-    <scopeInfo nodeId="3444414697307503268" fileName="XMLSAXChildRule_Behavior.java" startLine="13" startPosition="0" endLine="20" endPosition="0">
+    <scopeInfo nodeId="3444414697307503274" fileName="XMLSAXChildRule_Behavior.java" startLine="13" startPosition="76" endLine="17" endPosition="62" />
+    <scopeInfo nodeId="3444414697307503268" fileName="XMLSAXChildRule_Behavior.java" startLine="12" startPosition="0" endLine="19" endPosition="0">
       <varInfo nodeId="3444414697307503268" varName="thisNode" />
     </scopeInfo>
-    <unitInfo nodeId="3444414697307503268" fileName="XMLSAXChildRule_Behavior.java" startLine="10" startPosition="0" endLine="21" endPosition="0" unitName="jetbrains.mps.xmlQuery.behavior.XMLSAXChildRule_Behavior" />
+    <unitInfo nodeId="3444414697307503268" fileName="XMLSAXChildRule_Behavior.java" startLine="9" startPosition="0" endLine="20" endPosition="0" unitName="jetbrains.mps.xmlQuery.behavior.XMLSAXChildRule_Behavior" />
   </root>
   <root nodeId="7129398160685000025">
-    <nodeInfo nodeId="7129398160685000025" fileName="XMLElementType_Behavior.java" startLine="14" startPosition="38" endLine="15" endPosition="72" conceptFqName="jetbrains.mps.baseLanguage.structure.StaticFieldDeclaration" propertyString="PARAMETERS_7129398160685021502" />
-    <nodeInfo nodeId="7129398160685022766" fileName="XMLElementType_Behavior.java" startLine="21" startPosition="73" endLine="22" endPosition="22" conceptFqName="jetbrains.mps.baseLanguage.structure.ReturnStatement" />
-    <nodeInfo nodeId="7129398160685023163" fileName="XMLElementType_Behavior.java" startLine="23" startPosition="12" endLine="24" endPosition="45" conceptFqName="jetbrains.mps.baseLanguage.structure.LocalVariableDeclarationStatement" />
-    <nodeInfo nodeId="7129398160685023196" fileName="XMLElementType_Behavior.java" startLine="25" startPosition="80" endLine="26" endPosition="135" conceptFqName="jetbrains.mps.baseLanguage.structure.ExpressionStatement" />
-    <nodeInfo nodeId="7129398160685046147" fileName="XMLElementType_Behavior.java" startLine="27" startPosition="59" endLine="28" endPosition="239" conceptFqName="jetbrains.mps.baseLanguage.structure.ExpressionStatement" />
-    <nodeInfo nodeId="7129398160685046174" fileName="XMLElementType_Behavior.java" startLine="29" startPosition="16" endLine="30" endPosition="83" conceptFqName="jetbrains.mps.baseLanguage.structure.ExpressionStatement" />
-    <nodeInfo nodeId="7129398160685023153" fileName="XMLElementType_Behavior.java" startLine="32" startPosition="7" endLine="33" endPosition="165" conceptFqName="jetbrains.mps.baseLanguage.structure.ReturnStatement" />
-    <nodeInfo nodeId="7129398160685000025" fileName="XMLElementType_Behavior.java" startLine="37" startPosition="81" endLine="38" endPosition="113" conceptFqName="jetbrains.mps.baseLanguage.structure.LocalVariableDeclarationStatement" />
-    <nodeInfo nodeId="7129398160685000025" fileName="XMLElementType_Behavior.java" startLine="38" startPosition="113" endLine="39" endPosition="208" conceptFqName="jetbrains.mps.baseLanguage.structure.ReturnStatement" />
-    <nodeInfo nodeId="7129398160685000025" fileName="XMLElementType_Behavior.java" startLine="42" startPosition="114" endLine="43" endPosition="253" conceptFqName="jetbrains.mps.baseLanguage.structure.ReturnStatement" />
-    <nodeInfo nodeId="7129398160685046172" fileName="XMLElementType_Behavior.java" startLine="29" startPosition="14" endLine="31" endPosition="9" conceptFqName="jetbrains.mps.baseLanguage.structure.BlockStatement" />
-    <nodeInfo nodeId="7129398160685000025" fileName="XMLElementType_Behavior.java" startLine="16" startPosition="0" endLine="19" endPosition="0" conceptFqName="jetbrains.mps.baseLanguage.structure.StaticMethodDeclaration" propertyString="init#(Ljetbrains/mps/smodel/SNode;)V" />
-    <nodeInfo nodeId="7129398160685000025" fileName="XMLElementType_Behavior.java" startLine="41" startPosition="0" endLine="45" endPosition="0" conceptFqName="jetbrains.mps.baseLanguage.structure.StaticMethodDeclaration" propertyString="callSuper_getPresentation_7129398160685021502#(Ljetbrains/mps/smodel/SNode;Ljava/lang/String;)Ljava/lang/String;" />
-    <nodeInfo nodeId="7129398160685023213" fileName="XMLElementType_Behavior.java" startLine="26" startPosition="135" endLine="31" endPosition="9" conceptFqName="jetbrains.mps.baseLanguage.structure.IfStatement" />
-    <nodeInfo nodeId="7129398160685000025" fileName="XMLElementType_Behavior.java" startLine="36" startPosition="0" endLine="41" endPosition="0" conceptFqName="jetbrains.mps.baseLanguage.structure.StaticMethodDeclaration" propertyString="call_getPresentation_7129398160685021502#(Ljetbrains/mps/smodel/SNode;)Ljava/lang/String;" />
-    <nodeInfo nodeId="7129398160685023169" fileName="XMLElementType_Behavior.java" startLine="24" startPosition="45" endLine="32" endPosition="7" conceptFqName="jetbrains.mps.baseLanguage.structure.IfStatement" />
-    <nodeInfo nodeId="7129398160685023151" fileName="XMLElementType_Behavior.java" startLine="23" startPosition="10" endLine="34" endPosition="5" conceptFqName="jetbrains.mps.baseLanguage.structure.BlockStatement" />
-    <nodeInfo nodeId="7129398160685022749" fileName="XMLElementType_Behavior.java" startLine="20" startPosition="78" endLine="34" endPosition="5" conceptFqName="jetbrains.mps.baseLanguage.structure.IfStatement" />
-    <nodeInfo nodeId="7129398160685000025" fileName="XMLElementType_Behavior.java" startLine="19" startPosition="0" endLine="36" endPosition="0" conceptFqName="jetbrains.mps.baseLanguage.structure.StaticMethodDeclaration" propertyString="virtual_getPresentation_1213877396640#(Ljetbrains/mps/smodel/SNode;)Ljava/lang/String;" />
-    <scopeInfo nodeId="7129398160685000027" fileName="XMLElementType_Behavior.java" startLine="17" startPosition="43" endLine="17" endPosition="43" />
-    <scopeInfo nodeId="7129398160685022751" fileName="XMLElementType_Behavior.java" startLine="21" startPosition="73" endLine="22" endPosition="22" />
-    <scopeInfo nodeId="7129398160685023214" fileName="XMLElementType_Behavior.java" startLine="27" startPosition="59" endLine="28" endPosition="239" />
-    <scopeInfo nodeId="7129398160685046173" fileName="XMLElementType_Behavior.java" startLine="29" startPosition="16" endLine="30" endPosition="83" />
-    <scopeInfo nodeId="7129398160685000025" fileName="XMLElementType_Behavior.java" startLine="42" startPosition="114" endLine="43" endPosition="253" />
-    <scopeInfo nodeId="7129398160685000025" fileName="XMLElementType_Behavior.java" startLine="37" startPosition="81" endLine="39" endPosition="208">
+    <nodeInfo nodeId="7129398160685000025" fileName="XMLElementType_Behavior.java" startLine="13" startPosition="38" endLine="14" endPosition="72" conceptFqName="jetbrains.mps.baseLanguage.structure.StaticFieldDeclaration" propertyString="PARAMETERS_7129398160685021502" />
+    <nodeInfo nodeId="7129398160685022766" fileName="XMLElementType_Behavior.java" startLine="20" startPosition="73" endLine="21" endPosition="22" conceptFqName="jetbrains.mps.baseLanguage.structure.ReturnStatement" />
+    <nodeInfo nodeId="7129398160685023163" fileName="XMLElementType_Behavior.java" startLine="22" startPosition="12" endLine="23" endPosition="45" conceptFqName="jetbrains.mps.baseLanguage.structure.LocalVariableDeclarationStatement" />
+    <nodeInfo nodeId="7129398160685023196" fileName="XMLElementType_Behavior.java" startLine="24" startPosition="80" endLine="25" endPosition="135" conceptFqName="jetbrains.mps.baseLanguage.structure.ExpressionStatement" />
+    <nodeInfo nodeId="7129398160685046147" fileName="XMLElementType_Behavior.java" startLine="26" startPosition="89" endLine="27" endPosition="239" conceptFqName="jetbrains.mps.baseLanguage.structure.ExpressionStatement" />
+    <nodeInfo nodeId="7129398160685046174" fileName="XMLElementType_Behavior.java" startLine="28" startPosition="16" endLine="29" endPosition="83" conceptFqName="jetbrains.mps.baseLanguage.structure.ExpressionStatement" />
+    <nodeInfo nodeId="7129398160685023153" fileName="XMLElementType_Behavior.java" startLine="31" startPosition="7" endLine="32" endPosition="165" conceptFqName="jetbrains.mps.baseLanguage.structure.ReturnStatement" />
+    <nodeInfo nodeId="7129398160685000025" fileName="XMLElementType_Behavior.java" startLine="36" startPosition="81" endLine="37" endPosition="113" conceptFqName="jetbrains.mps.baseLanguage.structure.LocalVariableDeclarationStatement" />
+    <nodeInfo nodeId="7129398160685000025" fileName="XMLElementType_Behavior.java" startLine="37" startPosition="113" endLine="38" endPosition="208" conceptFqName="jetbrains.mps.baseLanguage.structure.ReturnStatement" />
+    <nodeInfo nodeId="7129398160685000025" fileName="XMLElementType_Behavior.java" startLine="41" startPosition="114" endLine="42" endPosition="253" conceptFqName="jetbrains.mps.baseLanguage.structure.ReturnStatement" />
+    <nodeInfo nodeId="7129398160685046172" fileName="XMLElementType_Behavior.java" startLine="28" startPosition="14" endLine="30" endPosition="9" conceptFqName="jetbrains.mps.baseLanguage.structure.BlockStatement" />
+    <nodeInfo nodeId="7129398160685000025" fileName="XMLElementType_Behavior.java" startLine="15" startPosition="0" endLine="18" endPosition="0" conceptFqName="jetbrains.mps.baseLanguage.structure.StaticMethodDeclaration" propertyString="init#(Ljetbrains/mps/smodel/SNode;)V" />
+    <nodeInfo nodeId="7129398160685000025" fileName="XMLElementType_Behavior.java" startLine="40" startPosition="0" endLine="44" endPosition="0" conceptFqName="jetbrains.mps.baseLanguage.structure.StaticMethodDeclaration" propertyString="callSuper_getPresentation_7129398160685021502#(Ljetbrains/mps/smodel/SNode;Ljava/lang/String;)Ljava/lang/String;" />
+    <nodeInfo nodeId="7129398160685023213" fileName="XMLElementType_Behavior.java" startLine="25" startPosition="135" endLine="30" endPosition="9" conceptFqName="jetbrains.mps.baseLanguage.structure.IfStatement" />
+    <nodeInfo nodeId="7129398160685000025" fileName="XMLElementType_Behavior.java" startLine="35" startPosition="0" endLine="40" endPosition="0" conceptFqName="jetbrains.mps.baseLanguage.structure.StaticMethodDeclaration" propertyString="call_getPresentation_7129398160685021502#(Ljetbrains/mps/smodel/SNode;)Ljava/lang/String;" />
+    <nodeInfo nodeId="7129398160685023169" fileName="XMLElementType_Behavior.java" startLine="23" startPosition="45" endLine="31" endPosition="7" conceptFqName="jetbrains.mps.baseLanguage.structure.IfStatement" />
+    <nodeInfo nodeId="7129398160685023151" fileName="XMLElementType_Behavior.java" startLine="22" startPosition="10" endLine="33" endPosition="5" conceptFqName="jetbrains.mps.baseLanguage.structure.BlockStatement" />
+    <nodeInfo nodeId="7129398160685022749" fileName="XMLElementType_Behavior.java" startLine="19" startPosition="78" endLine="33" endPosition="5" conceptFqName="jetbrains.mps.baseLanguage.structure.IfStatement" />
+    <nodeInfo nodeId="7129398160685000025" fileName="XMLElementType_Behavior.java" startLine="18" startPosition="0" endLine="35" endPosition="0" conceptFqName="jetbrains.mps.baseLanguage.structure.StaticMethodDeclaration" propertyString="virtual_getPresentation_1213877396640#(Ljetbrains/mps/smodel/SNode;)Ljava/lang/String;" />
+    <scopeInfo nodeId="7129398160685000027" fileName="XMLElementType_Behavior.java" startLine="16" startPosition="43" endLine="16" endPosition="43" />
+    <scopeInfo nodeId="7129398160685022751" fileName="XMLElementType_Behavior.java" startLine="20" startPosition="73" endLine="21" endPosition="22" />
+    <scopeInfo nodeId="7129398160685023214" fileName="XMLElementType_Behavior.java" startLine="26" startPosition="89" endLine="27" endPosition="239" />
+    <scopeInfo nodeId="7129398160685046173" fileName="XMLElementType_Behavior.java" startLine="28" startPosition="16" endLine="29" endPosition="83" />
+    <scopeInfo nodeId="7129398160685000025" fileName="XMLElementType_Behavior.java" startLine="41" startPosition="114" endLine="42" endPosition="253" />
+    <scopeInfo nodeId="7129398160685000025" fileName="XMLElementType_Behavior.java" startLine="36" startPosition="81" endLine="38" endPosition="208">
       <varInfo nodeId="7129398160685000025" varName="descriptor" />
     </scopeInfo>
-    <scopeInfo nodeId="7129398160685000025" fileName="XMLElementType_Behavior.java" startLine="16" startPosition="0" endLine="19" endPosition="0">
+    <scopeInfo nodeId="7129398160685000025" fileName="XMLElementType_Behavior.java" startLine="15" startPosition="0" endLine="18" endPosition="0">
       <varInfo nodeId="7129398160685000025" varName="thisNode" />
     </scopeInfo>
-    <scopeInfo nodeId="7129398160685000025" fileName="XMLElementType_Behavior.java" startLine="41" startPosition="0" endLine="45" endPosition="0">
+    <scopeInfo nodeId="7129398160685000025" fileName="XMLElementType_Behavior.java" startLine="40" startPosition="0" endLine="44" endPosition="0">
       <varInfo nodeId="7129398160685000025" varName="callerConceptFqName" />
       <varInfo nodeId="7129398160685000025" varName="thisNode" />
     </scopeInfo>
-    <scopeInfo nodeId="7129398160685000025" fileName="XMLElementType_Behavior.java" startLine="36" startPosition="0" endLine="41" endPosition="0">
+    <scopeInfo nodeId="7129398160685000025" fileName="XMLElementType_Behavior.java" startLine="35" startPosition="0" endLine="40" endPosition="0">
       <varInfo nodeId="7129398160685000025" varName="thisNode" />
     </scopeInfo>
-    <scopeInfo nodeId="7129398160685023170" fileName="XMLElementType_Behavior.java" startLine="25" startPosition="80" endLine="31" endPosition="9" />
-    <scopeInfo nodeId="7129398160685023152" fileName="XMLElementType_Behavior.java" startLine="23" startPosition="12" endLine="33" endPosition="165">
+    <scopeInfo nodeId="7129398160685023170" fileName="XMLElementType_Behavior.java" startLine="24" startPosition="80" endLine="30" endPosition="9" />
+    <scopeInfo nodeId="7129398160685023152" fileName="XMLElementType_Behavior.java" startLine="22" startPosition="12" endLine="32" endPosition="165">
       <varInfo nodeId="7129398160685023164" varName="complexTypePresentation" />
     </scopeInfo>
-    <scopeInfo nodeId="7129398160685021504" fileName="XMLElementType_Behavior.java" startLine="20" startPosition="78" endLine="34" endPosition="5" />
-    <scopeInfo nodeId="7129398160685000025" fileName="XMLElementType_Behavior.java" startLine="19" startPosition="0" endLine="36" endPosition="0">
+    <scopeInfo nodeId="7129398160685021504" fileName="XMLElementType_Behavior.java" startLine="19" startPosition="78" endLine="33" endPosition="5" />
+    <scopeInfo nodeId="7129398160685000025" fileName="XMLElementType_Behavior.java" startLine="18" startPosition="0" endLine="35" endPosition="0">
       <varInfo nodeId="7129398160685000025" varName="thisNode" />
     </scopeInfo>
-    <unitInfo nodeId="7129398160685000025" fileName="XMLElementType_Behavior.java" startLine="14" startPosition="0" endLine="46" endPosition="0" unitName="jetbrains.mps.xmlQuery.behavior.XMLElementType_Behavior" />
+    <unitInfo nodeId="7129398160685000025" fileName="XMLElementType_Behavior.java" startLine="13" startPosition="0" endLine="45" endPosition="0" unitName="jetbrains.mps.xmlQuery.behavior.XMLElementType_Behavior" />
   </root>
   <root nodeId="7225751495667376065">
     <nodeInfo nodeId="7225751495667376065" fileName="AttributeBuilder_Behavior.java" startLine="22" startPosition="40" endLine="23" endPosition="72" conceptFqName="jetbrains.mps.baseLanguage.structure.StaticFieldDeclaration" propertyString="PARAMETERS_7225751495667376241" />

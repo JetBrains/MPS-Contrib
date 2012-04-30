@@ -5,7 +5,6 @@ package jetbrains.mps.xmlQuery.behavior;
 import jetbrains.mps.smodel.SNode;
 import jetbrains.mps.lang.smodel.generator.smodelAdapter.SLinkOperations;
 import jetbrains.mps.lang.smodel.generator.smodelAdapter.SPropertyOperations;
-import org.apache.commons.lang.StringUtils;
 import jetbrains.mps.lang.smodel.generator.smodelAdapter.SNodeOperations;
 import jetbrains.mps.smodel.structure.BehaviorDescriptor;
 import jetbrains.mps.smodel.structure.ConceptRegistry;
@@ -24,7 +23,7 @@ public class XMLElementType_Behavior {
       String complexTypePresentation = "...";
       if ((SLinkOperations.getTarget(thisNode, "complexType", false) != null)) {
         complexTypePresentation = SPropertyOperations.getString(SLinkOperations.getTarget(thisNode, "complexType", false), "typeName");
-        if (StringUtils.isEmpty(complexTypePresentation)) {
+        if ((complexTypePresentation == null || complexTypePresentation.length() == 0)) {
           complexTypePresentation = SPropertyOperations.getString(SNodeOperations.getAncestor(SLinkOperations.getTarget(thisNode, "complexType", false), "jetbrains.mps.xmlSchema.structure.ElementWithContent", false, false), "elementName");
         } else {
           complexTypePresentation = String.format("[%s]", complexTypePresentation);

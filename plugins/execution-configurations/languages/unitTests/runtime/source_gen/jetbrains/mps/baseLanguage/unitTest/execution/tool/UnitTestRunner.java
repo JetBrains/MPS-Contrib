@@ -18,7 +18,6 @@ import jetbrains.mps.baseLanguage.tuples.runtime.Tuples;
 import jetbrains.mps.smodel.ModelAccess;
 import jetbrains.mps.internal.collections.runtime.IWhereFilter;
 import jetbrains.mps.internal.collections.runtime.IVisitor;
-import org.apache.commons.lang.StringUtils;
 import jetbrains.mps.internal.collections.runtime.Sequence;
 import jetbrains.mps.internal.collections.runtime.ILeftCombinator;
 import java.io.File;
@@ -104,7 +103,7 @@ public class UnitTestRunner extends BaseRunner {
         addJavaCommand(params);
 
         ListSequence.fromList(params).addSequence(ListSequence.fromList(parameters._1()));
-        if (vmParams.value != null && StringUtils.isNotEmpty(vmParams.value)) {
+        if (vmParams.value != null && (vmParams.value != null && vmParams.value.length() > 0)) {
           String[] paramList = splitParams(vmParams.value);
           ListSequence.fromList(params).addSequence(Sequence.fromIterable(Sequence.fromArray(paramList)));
         }
@@ -155,14 +154,14 @@ public class UnitTestRunner extends BaseRunner {
       }
     }
 
-    if (programParams.value != null && StringUtils.isNotEmpty(programParams.value)) {
+    if (programParams.value != null && (programParams.value != null && programParams.value.length() > 0)) {
       String[] paramList = splitParams(programParams.value);
       ListSequence.fromList(params).addSequence(Sequence.fromIterable(Sequence.fromArray(paramList)));
     }
 
     myProcessBuilder = new ProcessBuilder(params);
 
-    if (workingDir.value != null && StringUtils.isNotEmpty(workingDir.value)) {
+    if (workingDir.value != null && (workingDir.value != null && workingDir.value.length() > 0)) {
       myProcessBuilder.directory(new File(workingDir.value));
     }
 

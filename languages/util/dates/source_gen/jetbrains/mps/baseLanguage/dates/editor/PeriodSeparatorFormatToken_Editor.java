@@ -21,7 +21,6 @@ import jetbrains.mps.nodeEditor.MPSColors;
 import jetbrains.mps.smodel.IOperationContext;
 import jetbrains.mps.nodeEditor.EditorManager;
 import jetbrains.mps.smodel.IScope;
-import org.apache.commons.lang.StringUtils;
 import jetbrains.mps.lang.smodel.generator.smodelAdapter.SPropertyOperations;
 
 public class PeriodSeparatorFormatToken_Editor extends DefaultNodeEditor {
@@ -295,7 +294,7 @@ public class PeriodSeparatorFormatToken_Editor extends DefaultNodeEditor {
   }
 
   private static boolean renderingCondition_ih8plz_a2a(SNode node, EditorContext editorContext, IScope scope) {
-    return StringUtils.isNotEmpty(SPropertyOperations.getString(node, "lastText")) && SPropertyOperations.hasValue(node, "kind", "default", "default");
+    return (SPropertyOperations.getString(node, "lastText") != null && SPropertyOperations.getString(node, "lastText").length() > 0) && SPropertyOperations.hasValue(node, "kind", "default", "default");
   }
 
   private static boolean renderingCondition_ih8plz_a1a(SNode node, EditorContext editorContext, IScope scope) {

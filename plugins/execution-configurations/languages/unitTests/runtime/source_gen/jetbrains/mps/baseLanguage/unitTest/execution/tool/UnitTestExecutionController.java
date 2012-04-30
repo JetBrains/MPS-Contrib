@@ -15,7 +15,6 @@ import jetbrains.mps.smodel.ModelAccess;
 import com.intellij.execution.ExecutionException;
 import jetbrains.mps.execution.api.commands.OutputRedirector;
 import jetbrains.mps.baseLanguage.unitTest.execution.client.Junit_Command;
-import org.apache.commons.lang.StringUtils;
 import java.io.File;
 import jetbrains.mps.baseLanguage.unitTest.execution.client.UnitTestProcessListener;
 import jetbrains.mps.baseLanguage.closures.runtime._FunctionTypes;
@@ -55,7 +54,7 @@ public class UnitTestExecutionController {
     }
 
     String workingDir = myConfigurationRunParameters.getWorkingDirectory();
-    myCurrentProcess = OutputRedirector.redirect(new Junit_Command().setJrePath_String(myConfigurationRunParameters.getAlternativeJRE()).setVirtualMachineParameter_String(myConfigurationRunParameters.getVMParameters()).setWorkingDirectory_File((StringUtils.isNotEmpty(workingDir) ?
+    myCurrentProcess = OutputRedirector.redirect(new Junit_Command().setJrePath_String(myConfigurationRunParameters.getAlternativeJRE()).setVirtualMachineParameter_String(myConfigurationRunParameters.getVMParameters()).setWorkingDirectory_File(((workingDir != null && workingDir.length() > 0) ?
       new File(workingDir) :
       null
     )).createProcess(myWhatToTest), new UnitTestProcessListener(myDispatcher));

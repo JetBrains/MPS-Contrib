@@ -29,7 +29,6 @@ import jetbrains.mps.typesystem.inference.TypeChecker;
 import jetbrains.mps.lang.typesystem.runtime.HUtil;
 import jetbrains.mps.execution.configurations.deprecated.behavior.BaseCreatorTarget_Behavior;
 import jetbrains.mps.generator.template.IfMacroContext;
-import org.apache.commons.lang.StringUtils;
 import jetbrains.mps.generator.template.SourceSubstituteMacroNodeContext;
 import jetbrains.mps.lang.plugin.behavior.ActionParameter_Behavior;
 import jetbrains.mps.generator.template.SourceSubstituteMacroNodesContext;
@@ -411,7 +410,7 @@ public class QueriesGenerated {
   }
 
   public static boolean ifMacro_Condition_314981645427223986(final IOperationContext operationContext, final IfMacroContext _context) {
-    return StringUtils.isNotEmpty(SPropertyOperations.getString(_context.getNode(), "caption"));
+    return (SPropertyOperations.getString(_context.getNode(), "caption") != null && SPropertyOperations.getString(_context.getNode(), "caption").length() > 0);
   }
 
   public static boolean ifMacro_Condition_314981645427224076(final IOperationContext operationContext, final IfMacroContext _context) {

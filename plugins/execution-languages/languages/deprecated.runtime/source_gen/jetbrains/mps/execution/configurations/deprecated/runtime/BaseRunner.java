@@ -6,7 +6,6 @@ import jetbrains.mps.util.annotation.ToRemove;
 import java.util.List;
 import jetbrains.mps.internal.collections.runtime.ListSequence;
 import org.jetbrains.annotations.Nullable;
-import org.apache.commons.lang.StringUtils;
 import jetbrains.mps.internal.collections.runtime.Sequence;
 import jetbrains.mps.internal.collections.runtime.IWhereFilter;
 import jetbrains.mps.smodel.SNode;
@@ -80,7 +79,7 @@ public abstract class BaseRunner {
   }
 
   private void addParametersString(List<String> params, @Nullable String parametersString) {
-    if (parametersString != null && StringUtils.isNotEmpty(parametersString)) {
+    if (parametersString != null && (parametersString != null && parametersString.length() > 0)) {
       String[] paramList = this.splitParams(parametersString);
       ListSequence.fromList(params).addSequence(Sequence.fromIterable(Sequence.fromArray(paramList)).where(new IWhereFilter<String>() {
         public boolean accept(String it) {
@@ -188,7 +187,7 @@ public abstract class BaseRunner {
     if (systemJavaHome.endsWith("jre") && new File(systemJdkHome + File.separator + "bin").exists()) {
       ListSequence.fromList(homes).addElement(systemJdkHome);
     }
-    if (StringUtils.isNotEmpty(System.getenv("JAVA_HOME"))) {
+    if ((System.getenv("JAVA_HOME") != null && System.getenv("JAVA_HOME").length() > 0)) {
       ListSequence.fromList(homes).addElement(System.getenv("JAVA_HOME"));
     }
     ListSequence.fromList(homes).addElement(systemJavaHome);

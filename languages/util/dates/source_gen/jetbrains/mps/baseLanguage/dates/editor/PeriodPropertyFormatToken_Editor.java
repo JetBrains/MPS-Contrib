@@ -19,7 +19,6 @@ import jetbrains.mps.nodeEditor.EditorManager;
 import jetbrains.mps.lang.editor.cellProviders.PropertyCellProvider;
 import jetbrains.mps.nodeEditor.MPSFonts;
 import jetbrains.mps.smodel.IScope;
-import org.apache.commons.lang.StringUtils;
 import jetbrains.mps.lang.smodel.generator.smodelAdapter.SPropertyOperations;
 import jetbrains.mps.nodeEditor.InlineCellProvider;
 
@@ -557,11 +556,11 @@ public class PeriodPropertyFormatToken_Editor extends DefaultNodeEditor {
   }
 
   private static boolean renderingCondition_ed1xw0_a1b0(SNode node, EditorContext editorContext, IScope scope) {
-    return StringUtils.isNotEmpty(SPropertyOperations.getString(node, "prefixPlural"));
+    return (SPropertyOperations.getString(node, "prefixPlural") != null && SPropertyOperations.getString(node, "prefixPlural").length() > 0);
   }
 
   private static boolean renderingCondition_ed1xw0_a1a(SNode node, EditorContext editorContext, IScope scope) {
-    return StringUtils.isNotEmpty(SPropertyOperations.getString(node, "prefix"));
+    return (SPropertyOperations.getString(node, "prefix") != null && SPropertyOperations.getString(node, "prefix").length() > 0);
   }
 
   private static boolean renderingCondition_ed1xw0_a2a(SNode node, EditorContext editorContext, IScope scope) {
@@ -573,11 +572,11 @@ public class PeriodPropertyFormatToken_Editor extends DefaultNodeEditor {
   }
 
   private static boolean renderingCondition_ed1xw0_a1f0(SNode node, EditorContext editorContext, IScope scope) {
-    return StringUtils.isNotEmpty(SPropertyOperations.getString(node, "suffixPlural"));
+    return (SPropertyOperations.getString(node, "suffixPlural") != null && SPropertyOperations.getString(node, "suffixPlural").length() > 0);
   }
 
   private static boolean renderingCondition_ed1xw0_a5a(SNode node, EditorContext editorContext, IScope scope) {
-    return StringUtils.isNotEmpty(SPropertyOperations.getString(node, "suffix"));
+    return (SPropertyOperations.getString(node, "suffix") != null && SPropertyOperations.getString(node, "suffix").length() > 0);
   }
 
   public static class _Inline_ed1xw0_a3a extends InlineCellProvider {
