@@ -5,8 +5,8 @@ package jetbrains.mps.xmlSchema.behavior;
 import jetbrains.mps.smodel.SNode;
 import java.util.List;
 import java.util.Set;
-import jetbrains.mps.smodel.structure.BehaviorDescriptor;
-import jetbrains.mps.smodel.structure.ConceptRegistry;
+import jetbrains.mps.smodel.runtime.BehaviorDescriptor;
+import jetbrains.mps.smodel.language.ConceptRegistry;
 import jetbrains.mps.lang.smodel.generator.smodelAdapter.SNodeOperations;
 import jetbrains.mps.smodel.behaviour.BehaviorManager;
 
