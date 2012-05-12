@@ -10,24 +10,22 @@ import java.util.HashMap;
 import jetbrains.mps.smodel.runtime.base.BaseReferenceConstraintsDescriptor;
 import org.jetbrains.annotations.Nullable;
 import jetbrains.mps.smodel.runtime.ReferenceScopeProvider;
-import jetbrains.mps.smodel.runtime.base.BaseReferenceScopeProvider;
+import jetbrains.mps.smodel.runtime.base.BaseScopeProvider;
+import jetbrains.mps.scope.Scope;
 import jetbrains.mps.smodel.IOperationContext;
 import jetbrains.mps.smodel.runtime.ReferenceConstraintsContext;
-import jetbrains.mps.baseLanguage.search.ClassifierVisibleStaticMembersScope;
+import jetbrains.mps.baseLanguage.behavior.Classifier_Behavior;
 import jetbrains.mps.smodel.SNode;
 import jetbrains.mps.generator.JavaModelUtil_new;
 import org.joda.time.Period;
-import jetbrains.mps.baseLanguage.search.IClassifiersSearchScope;
-import org.joda.time.DateTimeFieldType;
 import jetbrains.mps.lang.smodel.generator.smodelAdapter.SConceptOperations;
-import jetbrains.mps.lang.smodel.generator.smodelAdapter.SLinkOperations;
+import org.joda.time.DateTimeFieldType;
 import org.joda.time.format.PeriodFormatterBuilder;
-import jetbrains.mps.baseLanguage.search.ClassifierVisibleMembersScope;
 
 public class DateTimeProperty_Constraints extends BaseConstraintsDescriptor {
-  private static SNodePointer breakingNode_hi7gxv_a0a1a0a0a1a0b0a1a0 = new SNodePointer("r:00000000-0000-4000-0000-011c895903db(jetbrains.mps.baseLanguage.datesInternal.constraints)", "1213104855643");
-  private static SNodePointer breakingNode_hi7gxv_a0a1a0a0a1a0b0a2a0 = new SNodePointer("r:00000000-0000-4000-0000-011c895903db(jetbrains.mps.baseLanguage.datesInternal.constraints)", "1213104855656");
-  private static SNodePointer breakingNode_hi7gxv_a0a1a0a0a1a0b0a3a0 = new SNodePointer("r:00000000-0000-4000-0000-011c895903db(jetbrains.mps.baseLanguage.datesInternal.constraints)", "48671598476606830");
+  private static SNodePointer breakingNode_hi7gxv_a0a0a0a0a1a0b0a1a0 = new SNodePointer("r:00000000-0000-4000-0000-011c895903db(jetbrains.mps.baseLanguage.datesInternal.constraints)", "3671207155728948212");
+  private static SNodePointer breakingNode_hi7gxv_a0a0a0a0a1a0b0a2a0 = new SNodePointer("r:00000000-0000-4000-0000-011c895903db(jetbrains.mps.baseLanguage.datesInternal.constraints)", "3671207155728952055");
+  private static SNodePointer breakingNode_hi7gxv_a0a0a0a0a1a0b0a3a0 = new SNodePointer("r:00000000-0000-4000-0000-011c895903db(jetbrains.mps.baseLanguage.datesInternal.constraints)", "3671207155728952155");
 
   public DateTimeProperty_Constraints() {
     super("jetbrains.mps.baseLanguage.datesInternal.structure.DateTimeProperty");
@@ -45,15 +43,15 @@ public class DateTimeProperty_Constraints extends BaseConstraintsDescriptor {
       @Nullable
       @Override
       public ReferenceScopeProvider getScopeProvider() {
-        return new BaseReferenceScopeProvider() {
+        return new BaseScopeProvider() {
           @Override
-          public Object createSearchScopeOrListOfNodes(final IOperationContext operationContext, final ReferenceConstraintsContext _context) {
-            return new ClassifierVisibleStaticMembersScope((SNode) JavaModelUtil_new.findClassifier(Period.class), _context.getEnclosingNode(), IClassifiersSearchScope.STATIC_METHOD);
+          public SNodePointer getSearchScopeValidatorNode() {
+            return breakingNode_hi7gxv_a0a0a0a0a1a0b0a1a0;
           }
 
           @Override
-          public SNodePointer getSearchScopeValidatorNode() {
-            return breakingNode_hi7gxv_a0a1a0a0a1a0b0a1a0;
+          public Scope createScope(final IOperationContext operationContext, final ReferenceConstraintsContext _context) {
+            return Classifier_Behavior.call_getVisibleMembers_8083692786967356611(((SNode) JavaModelUtil_new.findClassifier(Period.class)), _context.getEnclosingNode(), SConceptOperations.findConceptDeclaration("jetbrains.mps.baseLanguage.structure.StaticMethodDeclaration"));
           }
         };
       }
@@ -67,15 +65,15 @@ public class DateTimeProperty_Constraints extends BaseConstraintsDescriptor {
       @Nullable
       @Override
       public ReferenceScopeProvider getScopeProvider() {
-        return new BaseReferenceScopeProvider() {
+        return new BaseScopeProvider() {
           @Override
-          public Object createSearchScopeOrListOfNodes(final IOperationContext operationContext, final ReferenceConstraintsContext _context) {
-            return new ClassifierVisibleStaticMembersScope((SNode) JavaModelUtil_new.findClassifier(DateTimeFieldType.class), _context.getEnclosingNode(), IClassifiersSearchScope.STATIC_METHOD);
+          public SNodePointer getSearchScopeValidatorNode() {
+            return breakingNode_hi7gxv_a0a0a0a0a1a0b0a2a0;
           }
 
           @Override
-          public SNodePointer getSearchScopeValidatorNode() {
-            return breakingNode_hi7gxv_a0a1a0a0a1a0b0a2a0;
+          public Scope createScope(final IOperationContext operationContext, final ReferenceConstraintsContext _context) {
+            return Classifier_Behavior.call_getVisibleMembers_8083692786967356611(((SNode) JavaModelUtil_new.findClassifier(DateTimeFieldType.class)), _context.getEnclosingNode(), SConceptOperations.findConceptDeclaration("jetbrains.mps.baseLanguage.structure.StaticMethodDeclaration"));
           }
         };
       }
@@ -89,17 +87,15 @@ public class DateTimeProperty_Constraints extends BaseConstraintsDescriptor {
       @Nullable
       @Override
       public ReferenceScopeProvider getScopeProvider() {
-        return new BaseReferenceScopeProvider() {
+        return new BaseScopeProvider() {
           @Override
-          public Object createSearchScopeOrListOfNodes(final IOperationContext operationContext, final ReferenceConstraintsContext _context) {
-            SNode ct = SConceptOperations.createNewNode("jetbrains.mps.baseLanguage.structure.ClassifierType", null);
-            SLinkOperations.setTarget(ct, "classifier", (SNode) JavaModelUtil_new.findClassifier(PeriodFormatterBuilder.class), false);
-            return new ClassifierVisibleMembersScope(ct, _context.getEnclosingNode(), IClassifiersSearchScope.INSTANCE_METHOD);
+          public SNodePointer getSearchScopeValidatorNode() {
+            return breakingNode_hi7gxv_a0a0a0a0a1a0b0a3a0;
           }
 
           @Override
-          public SNodePointer getSearchScopeValidatorNode() {
-            return breakingNode_hi7gxv_a0a1a0a0a1a0b0a3a0;
+          public Scope createScope(final IOperationContext operationContext, final ReferenceConstraintsContext _context) {
+            return Classifier_Behavior.call_getVisibleMembers_8083692786967356611(((SNode) JavaModelUtil_new.findClassifier(PeriodFormatterBuilder.class)), _context.getEnclosingNode(), SConceptOperations.findConceptDeclaration("jetbrains.mps.baseLanguage.structure.InstanceMethodDeclaration"));
           }
         };
       }
