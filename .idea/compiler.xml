@@ -63,7 +63,7 @@
       <directory url="file://$PROJECT_DIR$/plugins/build-deprecated/languages/custommps/source_gen" includeSubdirectories="true" />
       <directory url="file://$PROJECT_DIR$/plugins/build-deprecated/languages/dependency/source_gen" includeSubdirectories="true" />
       <directory url="file://$PROJECT_DIR$/plugins/build-deprecated/languages/generictasks/source_gen" includeSubdirectories="true" />
-      <directory url="file://$PROJECT_DIR$/plugins/build-deprecated/languages/gentest/source_gen" includeSubdirectories="true" />
+      <directory url="file://$PROJECT_DIR$/languages/util/buildlanguage/languages/gentest/source_gen" includeSubdirectories="true" />
       <directory url="file://$PROJECT_DIR$/plugins/build-deprecated/languages/packaging/source_gen" includeSubdirectories="true" />
       <directory url="file://$PROJECT_DIR$/plugins/build-deprecated/languages/packmps/source_gen" includeSubdirectories="true" />
       <directory url="file://$PROJECT_DIR$/plugins/build-deprecated/languages/property/source_gen" includeSubdirectories="true" />
