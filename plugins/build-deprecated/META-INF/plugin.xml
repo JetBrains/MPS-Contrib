@@ -15,15 +15,16 @@
   -->
 
 <idea-plugin version="2" xmlns:xi="http://www.w3.org/2001/XInclude">
-    <id>jetbrains.mps.build.deprecated</id>
-    <name>MPS Deprecated Build language</name>
-    <description>Deprecated build languages</description>
-    <category>Custom Languages</category>
-    <version>1.0.0</version>
-    <vendor url="http://www.jetbrains.com" email="support@jetbrains.com">JetBrains s.r.o.</vendor>
+  <id>jetbrains.mps.build.deprecated</id>
+  <name>MPS Deprecated Build language</name>
+  <description>Deprecated build languages</description>
+  <category>Custom Languages</category>
+  <version>1.0.0</version>
+  <vendor url="http://www.jetbrains.com" email="support@jetbrains.com">JetBrains s.r.o.</vendor>
+  <depends>jetbrains.mps.build</depends>
 
-    <extensions defaultExtensionNs="com.intellij">
-        <mps.LanguageLibrary dir="/languages"/>
-        <errorHandler implementation="jetbrains.mps.ide.blame.CharismaReporter"/>
-    </extensions>
+  <extensions defaultExtensionNs="com.intellij">
+    <mps.LanguageLibrary dir="/languages"/>
+    <errorHandler implementation="jetbrains.mps.ide.blame.CharismaReporter"/>
+  </extensions>
 </idea-plugin>
