@@ -8,7 +8,7 @@
   <language namespace="7866978e-a0f0-4cc7-81bc-4d213d9375e1(jetbrains.mps.lang.smodel)" />
   <import index="mass" modelUID="r:77603f21-ab6b-487f-82f9-e98e1903f0fc(jetbrains.mps.xmlUnitTest.structure)" version="-1" />
   <import index="tpe3" modelUID="r:00000000-0000-4000-0000-011c895902d7(jetbrains.mps.baseLanguage.unitTest.structure)" version="-1" />
-  <import index="1ans" modelUID="f:java_stub#582567cc-e906-468f-8bf0-b574e317c43c#org.custommonkey.xmlunit(jetbrains.mps.xmlUnitTest#5211164146776564145/org.custommonkey.xmlunit@java_stub)" version="-1" />
+  <import index="1ans" modelUID="f:java_stub#dce9f8b9-bf49-4dd4-b00e-fe98fdfa7f2c#org.custommonkey.xmlunit(jetbrains.mps.xmlUnitTest.runtime/org.custommonkey.xmlunit@java_stub)" version="-1" />
   <import index="tpee" modelUID="r:00000000-0000-4000-0000-011c895902ca(jetbrains.mps.baseLanguage.structure)" version="3" implicit="yes" />
   <import index="tp25" modelUID="r:00000000-0000-4000-0000-011c89590301(jetbrains.mps.lang.smodel.structure)" version="16" implicit="yes" />
   <import index="tpck" modelUID="r:00000000-0000-4000-0000-011c89590288(jetbrains.mps.lang.core.structure)" version="0" implicit="yes" />
