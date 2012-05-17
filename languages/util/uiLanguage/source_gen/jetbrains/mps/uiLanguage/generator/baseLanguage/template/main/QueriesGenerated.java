@@ -174,6 +174,10 @@ public class QueriesGenerated {
     return NameUtil.getSetterName(SPropertyOperations.getString(SLinkOperations.getTarget(referenceOperation, "member", false), "name"));
   }
 
+  public static Object propertyMacro_GetPropertyValue_4880916233306219650(final IOperationContext operationContext, final PropertyMacroContext _context) {
+    return NameUtil.getGetterName(SPropertyOperations.getString(SLinkOperations.getTarget(_context.getNode(), "member", false), "name"));
+  }
+
   public static Object propertyMacro_GetPropertyValue_1210095077978(final IOperationContext operationContext, final PropertyMacroContext _context) {
     return SPropertyOperations.getString(SLinkOperations.getTarget(_context.getNode(), "member", false), "name");
   }
@@ -258,7 +262,7 @@ public class QueriesGenerated {
     if ((SLinkOperations.getTarget(SLinkOperations.getTarget(_context.getNode(), "component", false), "mapTo", false) != null)) {
       return SLinkOperations.getTarget(SLinkOperations.getTarget(_context.getNode(), "component", false), "mapTo", false);
     }
-    return SLinkOperations.getTarget(new QueriesGenerated.QuotationClass_x583g4_a0a1a05().createNode(), "classifier", false);
+    return SLinkOperations.getTarget(new QueriesGenerated.QuotationClass_x583g4_a0a1a15().createNode(), "classifier", false);
   }
 
   public static Object referenceMacro_GetReferent_1562009418797398850(final IOperationContext operationContext, final ReferenceMacroContext _context) {
@@ -290,10 +294,6 @@ public class QueriesGenerated {
 
   public static Object referenceMacro_GetReferent_1202747104243(final IOperationContext operationContext, final ReferenceMacroContext _context) {
     return _context.getOutputNodeByInputNodeAndMappingLabel(SLinkOperations.getTarget(_context.getNode(), "component", false), "componentField");
-  }
-
-  public static Object referenceMacro_GetReferent_4021515509912876383(final IOperationContext operationContext, final ReferenceMacroContext _context) {
-    return NameUtil.getGetterName(SPropertyOperations.getString(SLinkOperations.getTarget(_context.getNode(), "member", false), "name"));
   }
 
   public static Object referenceMacro_GetReferent_1203090308966(final IOperationContext operationContext, final ReferenceMacroContext _context) {
@@ -639,8 +639,8 @@ public class QueriesGenerated {
     );
   }
 
-  public static class QuotationClass_x583g4_a0a1a05 {
-    public QuotationClass_x583g4_a0a1a05() {
+  public static class QuotationClass_x583g4_a0a1a15 {
+    public QuotationClass_x583g4_a0a1a15() {
     }
 
     public SNode createNode() {
