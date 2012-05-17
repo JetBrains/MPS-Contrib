@@ -442,6 +442,10 @@ public class QueriesGenerated {
     return SLinkOperations.getTarget(_context.getNode(), "rValue", true);
   }
 
+  public static SNode sourceNodeQuery_4366872349797178103(final IOperationContext operationContext, final SourceSubstituteMacroNodeContext _context) {
+    return SLinkOperations.getTarget(SLinkOperations.getTarget(_context.getNode(), "member", false), "type", true);
+  }
+
   public static SNode sourceNodeQuery_1210094594579(final IOperationContext operationContext, final SourceSubstituteMacroNodeContext _context) {
     return SLinkOperations.getTarget(_context.getNode(), "value", true);
   }
@@ -513,7 +517,7 @@ public class QueriesGenerated {
   public static Iterable sourceNodesQuery_2011805327139382626(final IOperationContext operationContext, final SourceSubstituteMacroNodesContext _context) {
     return ListSequence.fromList(SModelOperations.getRoots(_context.getInputModel(), "jetbrains.mps.uiLanguage.structure.ComponentController")).where(new IWhereFilter<SNode>() {
       public boolean accept(SNode it) {
-        return eq_x583g4_a0a0a0a0a0a0a111(SLinkOperations.getTarget(it, "component", false), _context.getNode());
+        return eq_x583g4_a0a0a0a0a0a0a211(SLinkOperations.getTarget(it, "component", false), _context.getNode());
       }
     }).translate(new ITranslator2<SNode, SNode>() {
       public Iterable<SNode> translate(SNode it) {
@@ -525,7 +529,7 @@ public class QueriesGenerated {
   public static Iterable sourceNodesQuery_2011805327139382743(final IOperationContext operationContext, final SourceSubstituteMacroNodesContext _context) {
     Iterable<SNode> allEvents = ListSequence.fromList(SModelOperations.getRoots(_context.getInputModel(), "jetbrains.mps.uiLanguage.structure.ComponentController")).where(new IWhereFilter<SNode>() {
       public boolean accept(SNode it) {
-        return eq_x583g4_a0a0a0a0a0a0a0ie(SLinkOperations.getTarget(it, "component", false), _context.getNode());
+        return eq_x583g4_a0a0a0a0a0a0a0je(SLinkOperations.getTarget(it, "component", false), _context.getNode());
       }
     }).translate(new ITranslator2<SNode, SNode>() {
       public Iterable<SNode> translate(SNode it) {
@@ -625,14 +629,14 @@ public class QueriesGenerated {
     );
   }
 
-  private static boolean eq_x583g4_a0a0a0a0a0a0a111(Object a, Object b) {
+  private static boolean eq_x583g4_a0a0a0a0a0a0a211(Object a, Object b) {
     return (a != null ?
       a.equals(b) :
       a == b
     );
   }
 
-  private static boolean eq_x583g4_a0a0a0a0a0a0a0ie(Object a, Object b) {
+  private static boolean eq_x583g4_a0a0a0a0a0a0a0je(Object a, Object b) {
     return (a != null ?
       a.equals(b) :
       a == b
