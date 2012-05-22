@@ -21,7 +21,6 @@
     </envs>
     <patterns>
       <pattern testClass="ModuleTestSuite" />
-      <pattern testClass="MpsAutobuildTest" />
       <pattern testClass="ExtensionTests" />
     </patterns>
     <RunnerSettings RunnerId="Debug">
