@@ -246,6 +246,10 @@
       <directory url="file://$PROJECT_DIR$/samples/plainText/source_gen" includeSubdirectories="true" />
       <directory url="file://$PROJECT_DIR$/samples/nanoc/nanocProject/solutions/jetbrains.mps.nanoc.sandbox/source_gen" includeSubdirectories="true" />
       <directory url="file://$PROJECT_DIR$/samples/nanoc/nanocProject/languages/nanoc/solutions/pluginSolution/source_gen" includeSubdirectories="true" />
+      <directory url="file://$PROJECT_DIR$/plugins/execution-languages/languages/common/source_gen" includeSubdirectories="true" />
+      <directory url="file://$PROJECT_DIR$/plugins/execution-languages/languages/settings/source_gen" includeSubdirectories="true" />
+      <directory url="file://$PROJECT_DIR$/plugins/mpsdevkit/languages/solutions/jetbrains.mps.baseLanguage.pluginSolution/source_gen" includeSubdirectories="true" />
+      <directory url="file://$PROJECT_DIR$/plugins/mpsdevkit/languages/solutions/jetbrains.mps.lang.dataFlow.pluginSolution/source_gen" includeSubdirectories="true" />
     </excludeFromCompile>
     <resourceExtensions>
       <entry name=".+\.(properties|xml|html|dtd|tld)" />
