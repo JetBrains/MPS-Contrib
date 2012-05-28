@@ -106,11 +106,11 @@ public class QueriesGenerated {
   }
 
   public static boolean ifMacro_Condition_1229186350652(final IOperationContext operationContext, final IfMacroContext _context) {
-    return (SPropertyOperations.getString(_context.getNode(), "if") != null && SPropertyOperations.getString(_context.getNode(), "if").length() > 0);
+    return StringUtils.isNotEmpty(SPropertyOperations.getString(_context.getNode(), "if"));
   }
 
   public static boolean ifMacro_Condition_1229186682042(final IOperationContext operationContext, final IfMacroContext _context) {
-    return (SPropertyOperations.getString(_context.getNode(), "unless") != null && SPropertyOperations.getString(_context.getNode(), "unless").length() > 0);
+    return StringUtils.isNotEmpty(SPropertyOperations.getString(_context.getNode(), "unless"));
   }
 
   public static boolean ifMacro_Condition_1240316820310(final IOperationContext operationContext, final IfMacroContext _context) {

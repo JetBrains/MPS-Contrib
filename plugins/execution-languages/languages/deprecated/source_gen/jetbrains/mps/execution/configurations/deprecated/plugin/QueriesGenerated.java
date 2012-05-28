@@ -414,7 +414,7 @@ public class QueriesGenerated {
   }
 
   public static boolean ifMacro_Condition_314981645427223986(final IOperationContext operationContext, final IfMacroContext _context) {
-    return (SPropertyOperations.getString(_context.getNode(), "caption") != null && SPropertyOperations.getString(_context.getNode(), "caption").length() > 0);
+    return StringUtils.isNotEmpty(SPropertyOperations.getString(_context.getNode(), "caption"));
   }
 
   public static boolean ifMacro_Condition_314981645427224076(final IOperationContext operationContext, final IfMacroContext _context) {

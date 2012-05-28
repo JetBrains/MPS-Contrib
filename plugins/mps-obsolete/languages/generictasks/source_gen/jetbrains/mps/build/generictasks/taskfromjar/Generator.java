@@ -316,11 +316,11 @@ public class Generator {
     public void updateDeclaration(SNode decl, ClassInfo ci) {
       if (ImportOptions.getInstance().isNeedUpdateDeclarations()) {
         String name = this.myNamesMap.getNameForClass(ci.getDeclarationClass());
-        if (((SPropertyOperations.getString(decl, "name") == null || SPropertyOperations.getString(decl, "name").length() == 0)) || neq_ixz87t_a0a1a0a01b(SPropertyOperations.getString(decl, "name"), name)) {
+        if ((StringUtils.isEmpty(SPropertyOperations.getString(decl, "name"))) || neq_ixz87t_a0a1a0a01b(SPropertyOperations.getString(decl, "name"), name)) {
           SPropertyOperations.set(decl, "name", name);
           System.out.format("Declaration %s name has been set to %s.\n", ci.getDeclarationClass().getName(), name);
         }
-        if ((SPropertyOperations.getString(decl, "classname") == null || SPropertyOperations.getString(decl, "classname").length() == 0)) {
+        if (StringUtils.isEmpty(SPropertyOperations.getString(decl, "classname"))) {
           SPropertyOperations.set(decl, "classname", ci.getDeclarationClass().getName());
         }
         if (SPropertyOperations.getBoolean(decl, "abstract") != ci.isAbstract()) {

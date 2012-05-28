@@ -43,7 +43,7 @@ public class ClassRunner extends BaseRunner {
         ClassRunner.this.myProcessBuilder = new ProcessBuilder(params);
 
         String workingDir = myRunParameters.getWorkingDirectory();
-        if (workingDir != null && (workingDir != null && workingDir.length() > 0)) {
+        if (workingDir != null && StringUtils.isNotEmpty(workingDir)) {
           ClassRunner.this.myProcessBuilder.directory(new File(workingDir));
         }
       }

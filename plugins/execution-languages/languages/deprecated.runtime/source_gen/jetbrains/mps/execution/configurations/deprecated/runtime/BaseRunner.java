@@ -79,7 +79,7 @@ public abstract class BaseRunner {
   }
 
   private void addParametersString(List<String> params, @Nullable String parametersString) {
-    if (parametersString != null && (parametersString != null && parametersString.length() > 0)) {
+    if (parametersString != null && StringUtils.isNotEmpty(parametersString)) {
       String[] paramList = this.splitParams(parametersString);
       ListSequence.fromList(params).addSequence(Sequence.fromIterable(Sequence.fromArray(paramList)).where(new IWhereFilter<String>() {
         public boolean accept(String it) {
@@ -187,7 +187,7 @@ public abstract class BaseRunner {
     if (systemJavaHome.endsWith("jre") && new File(systemJdkHome + File.separator + "bin").exists()) {
       ListSequence.fromList(homes).addElement(systemJdkHome);
     }
-    if ((System.getenv("JAVA_HOME") != null && System.getenv("JAVA_HOME").length() > 0)) {
+    if (StringUtils.isNotEmpty(System.getenv("JAVA_HOME"))) {
       ListSequence.fromList(homes).addElement(System.getenv("JAVA_HOME"));
     }
     ListSequence.fromList(homes).addElement(systemJavaHome);
