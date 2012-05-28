@@ -34,31 +34,31 @@ public class check_ScheduleLiteral_NonTypesystemRule extends AbstractNonTypesyst
         IErrorReporter _reporter_2309309498 = typeCheckingContext.reportTypeError(literal, "Month is not specified", "r:00000000-0000-4000-0000-011c895903d1(jetbrains.mps.baseLanguage.dates.typesystem)", "1015544890586322359", null, errorTarget);
       }
     }
-    if (SPropertyOperations.getBoolean(period, "dayOfMonth") && (SPropertyOperations.getString(literal, "dayOfMonth") == null || SPropertyOperations.getString(literal, "dayOfMonth").length() == 0)) {
+    if (SPropertyOperations.getBoolean(period, "dayOfMonth") && StringUtils.isEmpty(SPropertyOperations.getString(literal, "dayOfMonth"))) {
       {
         MessageTarget errorTarget = new NodeMessageTarget();
         IErrorReporter _reporter_2309309498 = typeCheckingContext.reportTypeError(literal, "Day of month is not specified", "r:00000000-0000-4000-0000-011c895903d1(jetbrains.mps.baseLanguage.dates.typesystem)", "1015544890586322367", null, errorTarget);
       }
     }
-    if (SPropertyOperations.getBoolean(period, "dayOfWeek") && (SPropertyOperations.getString_def(literal, "dayOfWeek", "SUN") == null || SPropertyOperations.getString_def(literal, "dayOfWeek", "SUN").length() == 0)) {
+    if (SPropertyOperations.getBoolean(period, "dayOfWeek") && StringUtils.isEmpty(SPropertyOperations.getString_def(literal, "dayOfWeek", "SUN"))) {
       {
         MessageTarget errorTarget = new NodeMessageTarget();
         IErrorReporter _reporter_2309309498 = typeCheckingContext.reportTypeError(literal, "Day of week is not specified", "r:00000000-0000-4000-0000-011c895903d1(jetbrains.mps.baseLanguage.dates.typesystem)", "1015544890586323059", null, errorTarget);
       }
     }
-    if (SPropertyOperations.getBoolean(period, "hour") && (SPropertyOperations.getString(literal, "hour") == null || SPropertyOperations.getString(literal, "hour").length() == 0)) {
+    if (SPropertyOperations.getBoolean(period, "hour") && StringUtils.isEmpty(SPropertyOperations.getString(literal, "hour"))) {
       {
         MessageTarget errorTarget = new NodeMessageTarget();
         IErrorReporter _reporter_2309309498 = typeCheckingContext.reportTypeError(literal, "Hour is not specified", "r:00000000-0000-4000-0000-011c895903d1(jetbrains.mps.baseLanguage.dates.typesystem)", "1015544890586323073", null, errorTarget);
       }
     }
-    if (SPropertyOperations.getBoolean(period, "minute") && (SPropertyOperations.getString(literal, "minute") == null || SPropertyOperations.getString(literal, "minute").length() == 0)) {
+    if (SPropertyOperations.getBoolean(period, "minute") && StringUtils.isEmpty(SPropertyOperations.getString(literal, "minute"))) {
       {
         MessageTarget errorTarget = new NodeMessageTarget();
         IErrorReporter _reporter_2309309498 = typeCheckingContext.reportTypeError(literal, "Minute is not specified", "r:00000000-0000-4000-0000-011c895903d1(jetbrains.mps.baseLanguage.dates.typesystem)", "1015544890586323087", null, errorTarget);
       }
     }
-    if (SPropertyOperations.getBoolean(period, "second") && (SPropertyOperations.getString(literal, "second") == null || SPropertyOperations.getString(literal, "second").length() == 0)) {
+    if (SPropertyOperations.getBoolean(period, "second") && StringUtils.isEmpty(SPropertyOperations.getString(literal, "second"))) {
       {
         MessageTarget errorTarget = new NodeMessageTarget();
         IErrorReporter _reporter_2309309498 = typeCheckingContext.reportTypeError(literal, "Second is not specified", "r:00000000-0000-4000-0000-011c895903d1(jetbrains.mps.baseLanguage.dates.typesystem)", "1015544890586323101", null, errorTarget);

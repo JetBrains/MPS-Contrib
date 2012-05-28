@@ -16,7 +16,7 @@ public class AstRoot {
   }
 
   public void addText(String text) {
-    this.text = (((this.text != null && this.text.length() > 0) ?
+    this.text = ((StringUtils.isNotEmpty(this.text) ?
       this.text :
       ""
     )) + text;

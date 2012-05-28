@@ -23,7 +23,7 @@ public class XMLElementType_Behavior {
       String complexTypePresentation = "...";
       if ((SLinkOperations.getTarget(thisNode, "complexType", false) != null)) {
         complexTypePresentation = SPropertyOperations.getString(SLinkOperations.getTarget(thisNode, "complexType", false), "typeName");
-        if ((complexTypePresentation == null || complexTypePresentation.length() == 0)) {
+        if (StringUtils.isEmpty(complexTypePresentation)) {
           complexTypePresentation = SPropertyOperations.getString(SNodeOperations.getAncestor(SLinkOperations.getTarget(thisNode, "complexType", false), "jetbrains.mps.xmlSchema.structure.ElementWithContent", false, false), "elementName");
         } else {
           complexTypePresentation = String.format("[%s]", complexTypePresentation);

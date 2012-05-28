@@ -1,5 +1,6 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <debugInfo>
+  <unitInfo fileName="StringUtils.java" startLine="6" startPosition="0" endLine="73" endPosition="0" unitName="sax.StringUtils" />
   <root nodeId="2059681291147340382">
     <nodeInfo nodeId="2059681291147340382" fileName="TestParserHandler.java" startLine="12" startPosition="63" endLine="13" endPosition="54" conceptFqName="jetbrains.mps.baseLanguage.structure.StaticFieldDeclaration" propertyString="EMPTY_ARRAY" />
     <nodeInfo nodeId="2059681291147340382" fileName="TestParserHandler.java" startLine="14" startPosition="0" endLine="15" endPosition="125" conceptFqName="jetbrains.mps.baseLanguage.structure.FieldDeclaration" propertyString="rootElementhandler" />

@@ -124,6 +124,9 @@
     <classNode dependClassName="jetbrains.mps.xmlQuery.behavior.ElementBuilder_Behavior" />
     <classNode extendsClassName="jetbrains.mps.smodel.runtime.impl.CompiledBehaviorDescriptor" />
   </dependency>
+  <dependency className="jetbrains.mps.xmlQuery.behavior.StringUtils" file="StringUtils.java">
+    <classNode dependClassName="java.lang.String" />
+  </dependency>
   <dependency className="jetbrains.mps.xmlQuery.behavior.TextBuilder_Behavior" file="TextBuilder_Behavior.java">
     <classNode dependClassName="java.lang.Class" />
     <classNode dependClassName="java.lang.Object" />
@@ -178,6 +181,7 @@
     <classNode dependClassName="jetbrains.mps.smodel.behaviour.BehaviorManager" />
     <classNode dependClassName="jetbrains.mps.smodel.language.ConceptRegistry" />
     <classNode dependClassName="jetbrains.mps.smodel.runtime.BehaviorDescriptor" />
+    <classNode dependClassName="jetbrains.mps.xmlQuery.behavior.StringUtils" />
   </dependency>
   <dependency className="jetbrains.mps.xmlQuery.behavior.XMLElementType_BehaviorDescriptor" file="XMLElementType_BehaviorDescriptor.java">
     <classNode dependClassName="java.lang.Override" />
@@ -238,6 +242,7 @@
     <classNode dependClassName="jetbrains.mps.lang.smodel.generator.smodelAdapter.SLinkOperations" />
     <classNode dependClassName="jetbrains.mps.lang.smodel.generator.smodelAdapter.SPropertyOperations" />
     <classNode dependClassName="jetbrains.mps.smodel.SNode" />
+    <classNode dependClassName="jetbrains.mps.xmlQuery.behavior.StringUtils" />
   </dependency>
   <dependency className="jetbrains.mps.xmlQuery.behavior.XMLSAXChildRule_BehaviorDescriptor" file="XMLSAXChildRule_BehaviorDescriptor.java">
     <classNode dependClassName="java.lang.Override" />

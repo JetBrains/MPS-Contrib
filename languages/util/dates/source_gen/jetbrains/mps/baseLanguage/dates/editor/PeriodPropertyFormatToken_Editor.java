@@ -556,11 +556,11 @@ public class PeriodPropertyFormatToken_Editor extends DefaultNodeEditor {
   }
 
   private static boolean renderingCondition_ed1xw0_a1b0(SNode node, EditorContext editorContext, IScope scope) {
-    return (SPropertyOperations.getString(node, "prefixPlural") != null && SPropertyOperations.getString(node, "prefixPlural").length() > 0);
+    return StringUtils.isNotEmpty(SPropertyOperations.getString(node, "prefixPlural"));
   }
 
   private static boolean renderingCondition_ed1xw0_a1a(SNode node, EditorContext editorContext, IScope scope) {
-    return (SPropertyOperations.getString(node, "prefix") != null && SPropertyOperations.getString(node, "prefix").length() > 0);
+    return StringUtils.isNotEmpty(SPropertyOperations.getString(node, "prefix"));
   }
 
   private static boolean renderingCondition_ed1xw0_a2a(SNode node, EditorContext editorContext, IScope scope) {
@@ -572,11 +572,11 @@ public class PeriodPropertyFormatToken_Editor extends DefaultNodeEditor {
   }
 
   private static boolean renderingCondition_ed1xw0_a1f0(SNode node, EditorContext editorContext, IScope scope) {
-    return (SPropertyOperations.getString(node, "suffixPlural") != null && SPropertyOperations.getString(node, "suffixPlural").length() > 0);
+    return StringUtils.isNotEmpty(SPropertyOperations.getString(node, "suffixPlural"));
   }
 
   private static boolean renderingCondition_ed1xw0_a5a(SNode node, EditorContext editorContext, IScope scope) {
-    return (SPropertyOperations.getString(node, "suffix") != null && SPropertyOperations.getString(node, "suffix").length() > 0);
+    return StringUtils.isNotEmpty(SPropertyOperations.getString(node, "suffix"));
   }
 
   public static class _Inline_ed1xw0_a3a extends InlineCellProvider {

@@ -65,7 +65,7 @@ public class PeriodPropertyFormatToken_Constraints extends BaseConstraintsDescri
 
           @Override
           public String getPresentation(final IOperationContext operationContext, final ReferencePresentationContext _context) {
-            String name = ((SPropertyOperations.getString(_context.getParameterNode(), "pluralForm") != null && SPropertyOperations.getString(_context.getParameterNode(), "pluralForm").length() > 0) ?
+            String name = (StringUtils.isNotEmpty(SPropertyOperations.getString(_context.getParameterNode(), "pluralForm")) ?
               SPropertyOperations.getString(_context.getParameterNode(), "pluralForm") :
               SPropertyOperations.getString(_context.getParameterNode(), "name")
             );
