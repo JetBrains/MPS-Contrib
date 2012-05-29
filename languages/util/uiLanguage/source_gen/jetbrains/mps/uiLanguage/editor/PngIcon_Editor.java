@@ -112,7 +112,7 @@ public class PngIcon_Editor extends DefaultNodeEditor {
   }
 
   private static boolean renderingCondition_4kucyt_a3a(SNode node, EditorContext editorContext, IScope scope) {
-    return (SPropertyOperations.getString(node, "iconData") != null && SPropertyOperations.getString(node, "iconData").length() > 0);
+    return StringUtils.isNotEmpty(SPropertyOperations.getString(node, "iconData"));
   }
 
   private static JComponent _QueryFunction_JComponent_4kucyt_a0d0(final SNode node, final EditorContext editorContext) {
