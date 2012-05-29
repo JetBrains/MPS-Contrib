@@ -462,11 +462,11 @@ public class TargetDeclaration_Editor extends DefaultNodeEditor {
   }
 
   private static boolean renderingCondition_xfdsch_a2b0(SNode node, EditorContext editorContext, IScope scope) {
-    return (SPropertyOperations.getString(node, "if") != null && SPropertyOperations.getString(node, "if").length() > 0);
+    return StringUtils.isNotEmpty(SPropertyOperations.getString(node, "if"));
   }
 
   private static boolean renderingCondition_xfdsch_a3b0(SNode node, EditorContext editorContext, IScope scope) {
-    return (SPropertyOperations.getString(node, "unless") != null && SPropertyOperations.getString(node, "unless").length() > 0);
+    return StringUtils.isNotEmpty(SPropertyOperations.getString(node, "unless"));
   }
 
   private static boolean renderingCondition_xfdsch_a4b0(SNode node, EditorContext editorContext, IScope scope) {

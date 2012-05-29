@@ -43,7 +43,7 @@ public class CallReference_Constraints extends BaseConstraintsDescriptor {
           public Object createSearchScopeOrListOfNodes(final IOperationContext operationContext, final ReferenceConstraintsContext _context) {
             return ListSequence.fromList(SNodeOperations.getDescendants(SNodeOperations.getAncestor(_context.getEnclosingNode(), null, true, true), "jetbrains.mps.buildlanguage.structure.AbstractCall", false, new String[]{})).where(new IWhereFilter<SNode>() {
               public boolean accept(SNode it) {
-                return (SPropertyOperations.getString(it, "name") != null && SPropertyOperations.getString(it, "name").length() > 0);
+                return StringUtils.isNotEmpty(SPropertyOperations.getString(it, "name"));
               }
             });
           }

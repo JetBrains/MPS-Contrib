@@ -72,6 +72,7 @@
     <classNode dependClassName="jetbrains.mps.build.generictasks.taskfromjar.Importer" />
     <classNode dependClassName="jetbrains.mps.build.generictasks.taskfromjar.NamesMap" />
     <classNode dependClassName="jetbrains.mps.build.generictasks.taskfromjar.Scanner" />
+    <classNode dependClassName="jetbrains.mps.build.generictasks.taskfromjar.StringUtils" />
     <classNode dependClassName="jetbrains.mps.buildlanguage.behavior.PropertyValueExpression_Behavior" />
     <classNode dependClassName="jetbrains.mps.internal.collections.runtime.ISelector" />
     <classNode dependClassName="jetbrains.mps.internal.collections.runtime.IVisitor" />
@@ -146,6 +147,9 @@
     <classNode dependClassName="org.apache.tools.ant.taskdefs.EchoXML" />
     <classNode dependClassName="org.apache.tools.ant.types.DataType" />
     <classNode dependClassName="org.objectweb.asm.ClassReader" />
+  </dependency>
+  <dependency className="jetbrains.mps.build.generictasks.taskfromjar.StringUtils" file="StringUtils.java">
+    <classNode dependClassName="java.lang.String" />
   </dependency>
 </dependenciesRoot>
 

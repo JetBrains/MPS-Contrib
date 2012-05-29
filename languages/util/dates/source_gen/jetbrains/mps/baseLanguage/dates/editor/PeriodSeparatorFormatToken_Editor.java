@@ -294,7 +294,7 @@ public class PeriodSeparatorFormatToken_Editor extends DefaultNodeEditor {
   }
 
   private static boolean renderingCondition_ih8plz_a2a(SNode node, EditorContext editorContext, IScope scope) {
-    return (SPropertyOperations.getString(node, "lastText") != null && SPropertyOperations.getString(node, "lastText").length() > 0) && SPropertyOperations.hasValue(node, "kind", "default", "default");
+    return StringUtils.isNotEmpty(SPropertyOperations.getString(node, "lastText")) && SPropertyOperations.hasValue(node, "kind", "default", "default");
   }
 
   private static boolean renderingCondition_ih8plz_a1a(SNode node, EditorContext editorContext, IScope scope) {

@@ -13,6 +13,7 @@
     <classNode dependClassName="jetbrains.mps.buildlanguage.behavior.Project_Behavior" />
     <classNode dependClassName="jetbrains.mps.buildlanguage.behavior.PropertyValueExpression_Behavior" />
     <classNode dependClassName="jetbrains.mps.buildlanguage.behavior.TargetDeclaration_Behavior" />
+    <classNode dependClassName="jetbrains.mps.buildlanguage.generator.xml.template.main.StringUtils" />
     <classNode dependClassName="jetbrains.mps.generator.template.BaseMappingRuleContext" />
     <classNode dependClassName="jetbrains.mps.generator.template.IfMacroContext" />
     <classNode dependClassName="jetbrains.mps.generator.template.PropertyMacroContext" />
@@ -30,6 +31,9 @@
     <classNode dependClassName="jetbrains.mps.lang.smodel.generator.smodelAdapter.SPropertyOperations" />
     <classNode dependClassName="jetbrains.mps.smodel.IOperationContext" />
     <classNode dependClassName="jetbrains.mps.smodel.SNode" />
+  </dependency>
+  <dependency className="jetbrains.mps.buildlanguage.generator.xml.template.main.StringUtils" file="StringUtils.java">
+    <classNode dependClassName="java.lang.String" />
   </dependency>
 </dependenciesRoot>
 
