@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <debugInfo>
-  <unitInfo fileName="StringUtils.java" startLine="6" startPosition="0" endLine="73" endPosition="0" unitName="jetbrains.mps.execution.configurations.deprecated.scripts.StringUtils" />
+  <unitInfo fileName="StringUtils.java" startLine="6" startPosition="0" endLine="80" endPosition="0" unitName="jetbrains.mps.execution.configurations.deprecated.scripts.StringUtils" />
   <root nodeId="2182799002613250861">
     <nodeInfo nodeId="2182799002613250861" fileName="FixReferencesToMpsLaunch_MigrationScript.java" startLine="22" startPosition="87" endLine="23" endPosition="52" conceptFqName="jetbrains.mps.baseLanguage.structure.SuperConstructorInvocation" />
     <nodeInfo nodeId="2182799002613250861" fileName="FixReferencesToMpsLaunch_MigrationScript.java" startLine="25" startPosition="31" endLine="26" endPosition="56" conceptFqName="jetbrains.mps.baseLanguage.structure.ReturnStatement" />

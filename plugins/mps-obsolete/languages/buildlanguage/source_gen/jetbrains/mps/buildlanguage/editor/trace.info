@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <debugInfo>
-  <unitInfo fileName="StringUtils.java" startLine="6" startPosition="0" endLine="73" endPosition="0" unitName="jetbrains.mps.buildlanguage.editor.StringUtils" />
+  <unitInfo fileName="StringUtils.java" startLine="6" startPosition="0" endLine="80" endPosition="0" unitName="jetbrains.mps.buildlanguage.editor.StringUtils" />
   <root nodeId="1196852366761">
     <nodeInfo nodeId="1199036188164" fileName="Project_Editor.java" startLine="314" startPosition="58" endLine="314" endPosition="58" conceptFqName="jetbrains.mps.baseLanguage.structure.BlockStatement" />
     <nodeInfo nodeId="1199036206252" fileName="Project_Editor.java" startLine="331" startPosition="58" endLine="331" endPosition="58" conceptFqName="jetbrains.mps.baseLanguage.structure.BlockStatement" />
