@@ -6,9 +6,10 @@
   <language namespace="ceab5195-25ea-4f22-9b92-103b95ca8c0c(jetbrains.mps.lang.core)" />
   <language namespace="f3061a53-9226-4cc5-a443-f952ceaf5816(jetbrains.mps.baseLanguage)" />
   <language namespace="7866978e-a0f0-4cc7-81bc-4d213d9375e1(jetbrains.mps.lang.smodel)" />
+  <devkit namespace="fbc25dd2-5da4-483a-8b19-70928e1b62d7(jetbrains.mps.devkit.general-purpose)" />
   <import index="mass" modelUID="r:77603f21-ab6b-487f-82f9-e98e1903f0fc(jetbrains.mps.xmlUnitTest.structure)" version="-1" />
   <import index="tpe3" modelUID="r:00000000-0000-4000-0000-011c895902d7(jetbrains.mps.baseLanguage.unitTest.structure)" version="-1" />
-  <import index="1ans" modelUID="f:java_stub#dce9f8b9-bf49-4dd4-b00e-fe98fdfa7f2c#org.custommonkey.xmlunit(jetbrains.mps.xmlUnitTest.runtime/org.custommonkey.xmlunit@java_stub)" version="-1" />
+  <import index="wq9r" modelUID="f:java_stub#dce9f8b9-bf49-4dd4-b00e-fe98fdfa7f2c#org.custommonkey.xmlunit(jetbrains.mps.xmlUnitTest.runtime/org.custommonkey.xmlunit@java_stub)" version="-1" />
   <import index="tpee" modelUID="r:00000000-0000-4000-0000-011c895902ca(jetbrains.mps.baseLanguage.structure)" version="3" implicit="yes" />
   <import index="tp25" modelUID="r:00000000-0000-4000-0000-011c89590301(jetbrains.mps.lang.smodel.structure)" version="16" implicit="yes" />
   <import index="tpck" modelUID="r:00000000-0000-4000-0000-011c89590288(jetbrains.mps.lang.core.structure)" version="0" implicit="yes" />
@@ -33,8 +34,8 @@
   <root id="5211164146777002755">
     <node role="contentNode" roleId="tpf8.1092060348987" type="tpee.ExpressionStatement" typeId="tpee.1068580123155" id="5211164146777102384">
       <node role="expression" roleId="tpee.1068580123156" type="tpee.StaticMethodCall" typeId="tpee.1081236700937" id="5211164146777102386">
-        <link role="baseMethodDeclaration" roleId="tpee.1068499141037" targetNodeId="1ans.~XMLAssert%dassertXMLEqual(java%dlang%dString,java%dlang%dString,java%dlang%dString)%cvoid" resolveInfo="assertXMLEqual" />
-        <link role="classConcept" roleId="tpee.1144433194310" targetNodeId="1ans.~XMLAssert" resolveInfo="XMLAssert" />
+        <link role="baseMethodDeclaration" roleId="tpee.1068499141037" targetNodeId="wq9r.~XMLAssert%dassertXMLEqual(java%dlang%dString,java%dlang%dString,java%dlang%dString)%cvoid" resolveInfo="assertXMLEqual" />
+        <link role="classConcept" roleId="tpee.1144433194310" targetNodeId="wq9r.~XMLAssert" resolveInfo="XMLAssert" />
         <node role="actualArgument" roleId="tpee.1068499141038" type="tpee.StringLiteral" typeId="tpee.1070475926800" id="5211164146777102387">
           <property name="value" nameId="tpee.1070475926801" value="message" />
           <node role="smodelAttribute" roleId="tpck.5169995583184591170" type="tpf8.IfMacro" typeId="tpf8.1118773211870" id="5211164146777102388">
