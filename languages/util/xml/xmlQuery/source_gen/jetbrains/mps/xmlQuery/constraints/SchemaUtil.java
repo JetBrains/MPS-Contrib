@@ -79,7 +79,7 @@ public class SchemaUtil {
 
   public static String complexTypePresentation(SNode complexType) {
     String typeName = SPropertyOperations.getString(complexType, "typeName");
-    if (StringUtils.isEmpty(typeName)) {
+    if ((typeName == null || typeName.length() == 0)) {
       return SPropertyOperations.getString(SNodeOperations.getAncestor(complexType, "jetbrains.mps.xmlSchema.structure.ElementWithContent", false, false), "elementName");
     } else {
       return "[" + typeName + "]";

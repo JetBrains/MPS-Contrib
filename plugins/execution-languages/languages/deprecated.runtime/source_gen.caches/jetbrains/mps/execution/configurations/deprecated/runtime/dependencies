@@ -13,7 +13,6 @@
     <classNode dependClassName="java.util.List" />
     <classNode dependClassName="java.util.Set" />
     <classNode dependClassName="jetbrains.mps.execution.configurations.deprecated.runtime.ConfigRunParameters" />
-    <classNode dependClassName="jetbrains.mps.execution.configurations.deprecated.runtime.StringUtils" />
     <classNode dependClassName="jetbrains.mps.internal.collections.runtime.IWhereFilter" />
     <classNode dependClassName="jetbrains.mps.internal.collections.runtime.ListSequence" />
     <classNode dependClassName="jetbrains.mps.internal.collections.runtime.Sequence" />
@@ -45,7 +44,6 @@
     <classNode dependClassName="java.util.ArrayList" />
     <classNode dependClassName="java.util.List" />
     <classNode dependClassName="jetbrains.mps.execution.configurations.deprecated.runtime.ConfigRunParameters" />
-    <classNode dependClassName="jetbrains.mps.execution.configurations.deprecated.runtime.StringUtils" />
     <classNode dependClassName="jetbrains.mps.internal.collections.runtime.ListSequence" />
     <classNode dependClassName="jetbrains.mps.smodel.ModelAccess" />
     <classNode dependClassName="jetbrains.mps.smodel.SNode" />
@@ -99,9 +97,6 @@
     <classNode dependClassName="jetbrains.mps.util.annotation.ToRemove" />
     <classNode dependClassName="org.jetbrains.annotations.NotNull" />
     <classNode extendsClassName="jetbrains.mps.debug.BaseRunProfileState" />
-  </dependency>
-  <dependency className="jetbrains.mps.execution.configurations.deprecated.runtime.StringUtils" file="StringUtils.java">
-    <classNode dependClassName="java.lang.String" />
   </dependency>
 </dependenciesRoot>
 

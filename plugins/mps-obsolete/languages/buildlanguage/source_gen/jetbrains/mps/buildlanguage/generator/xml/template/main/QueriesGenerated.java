@@ -106,11 +106,11 @@ public class QueriesGenerated {
   }
 
   public static boolean ifMacro_Condition_1229186350652(final IOperationContext operationContext, final IfMacroContext _context) {
-    return StringUtils.isNotEmpty(SPropertyOperations.getString(_context.getNode(), "if"));
+    return isNotEmpty_x583g4_a0a0s(SPropertyOperations.getString(_context.getNode(), "if"));
   }
 
   public static boolean ifMacro_Condition_1229186682042(final IOperationContext operationContext, final IfMacroContext _context) {
-    return StringUtils.isNotEmpty(SPropertyOperations.getString(_context.getNode(), "unless"));
+    return isNotEmpty_x583g4_a0a0t(SPropertyOperations.getString(_context.getNode(), "unless"));
   }
 
   public static boolean ifMacro_Condition_1240316820310(final IOperationContext operationContext, final IfMacroContext _context) {
@@ -220,5 +220,13 @@ public class QueriesGenerated {
 
   public static Object insertMacro_varValue_5198087850870257905(final IOperationContext operationContext, final TemplateQueryContext _context) {
     return SPropertyOperations.getString(_context.getNode(), "name");
+  }
+
+  public static boolean isNotEmpty_x583g4_a0a0s(String str) {
+    return str != null && str.length() > 0;
+  }
+
+  public static boolean isNotEmpty_x583g4_a0a0t(String str) {
+    return str != null && str.length() > 0;
   }
 }

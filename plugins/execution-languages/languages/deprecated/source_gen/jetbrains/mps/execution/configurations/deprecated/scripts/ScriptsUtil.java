@@ -56,7 +56,7 @@ public class ScriptsUtil {
       List<SReference> references = childNode.getReferences();
       for (SReference ref : ListSequence.fromList(references)) {
         String resolveInfo = ref.getResolveInfo();
-        if (ref.getTargetSModelReference().getLongName().equals(modelLongName) && (StringUtils.isNotEmpty(resolveInfo) && resolveInfo.contains(classifierName))) {
+        if (ref.getTargetSModelReference().getLongName().equals(modelLongName) && ((resolveInfo != null && resolveInfo.length() > 0) && resolveInfo.contains(classifierName))) {
           found = true;
           ref.setTargetSModelReference(newModelReference);
           if (ref instanceof StaticReference) {

@@ -11,7 +11,6 @@
     <classNode dependClassName="jetbrains.mps.execution.configurations.deprecated.behavior.RunConfigurationDeclaration_Behavior" />
     <classNode dependClassName="jetbrains.mps.execution.configurations.deprecated.behavior.RunConfigurationTypeDeclaration_Behavior" />
     <classNode dependClassName="jetbrains.mps.execution.configurations.deprecated.generator.util.VariableNameUtil" />
-    <classNode dependClassName="jetbrains.mps.execution.configurations.deprecated.plugin.StringUtils" />
     <classNode dependClassName="jetbrains.mps.generator.template.BaseMappingRuleContext" />
     <classNode dependClassName="jetbrains.mps.generator.template.CreateRootRuleContext" />
     <classNode dependClassName="jetbrains.mps.generator.template.IfMacroContext" />
@@ -45,9 +44,6 @@
     <classNode dependClassName="jetbrains.mps.typesystem.inference.TypeChecker" />
     <classNode dependClassName="jetbrains.mps.util.Macros" />
     <classNode dependClassName="jetbrains.mps.util.NodeNameUtil" />
-  </dependency>
-  <dependency className="jetbrains.mps.execution.configurations.deprecated.plugin.StringUtils" file="StringUtils.java">
-    <classNode dependClassName="java.lang.String" />
   </dependency>
 </dependenciesRoot>
 

@@ -414,7 +414,7 @@ public class QueriesGenerated {
   }
 
   public static boolean ifMacro_Condition_314981645427223986(final IOperationContext operationContext, final IfMacroContext _context) {
-    return StringUtils.isNotEmpty(SPropertyOperations.getString(_context.getNode(), "caption"));
+    return isNotEmpty_x583g4_a0a0id(SPropertyOperations.getString(_context.getNode(), "caption"));
   }
 
   public static boolean ifMacro_Condition_314981645427224076(final IOperationContext operationContext, final IfMacroContext _context) {
@@ -767,6 +767,10 @@ public class QueriesGenerated {
         }
       }
     }
+  }
+
+  public static boolean isNotEmpty_x583g4_a0a0id(String str) {
+    return str != null && str.length() > 0;
   }
 
   public static class QuotationClass_x583g4_a0a0a0sc {

@@ -43,7 +43,7 @@ public class CallReference_Constraints extends BaseConstraintsDescriptor {
           public Object createSearchScopeOrListOfNodes(final IOperationContext operationContext, final ReferenceConstraintsContext _context) {
             return ListSequence.fromList(SNodeOperations.getDescendants(SNodeOperations.getAncestor(_context.getEnclosingNode(), null, true, true), "jetbrains.mps.buildlanguage.structure.AbstractCall", false, new String[]{})).where(new IWhereFilter<SNode>() {
               public boolean accept(SNode it) {
-                return StringUtils.isNotEmpty(SPropertyOperations.getString(it, "name"));
+                return isNotEmpty_vtj1k2_a0a0a0a0a0a0a0a1a0b0a1a0(SPropertyOperations.getString(it, "name"));
               }
             });
           }
@@ -56,5 +56,9 @@ public class CallReference_Constraints extends BaseConstraintsDescriptor {
       }
     });
     return references;
+  }
+
+  public static boolean isNotEmpty_vtj1k2_a0a0a0a0a0a0a0a1a0b0a1a0(String str) {
+    return str != null && str.length() > 0;
   }
 }

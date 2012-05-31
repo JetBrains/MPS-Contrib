@@ -62,7 +62,6 @@
   <unitInfo fileName="ReferenceFormatToken_BehaviorDescriptor.java" startLine="6" startPosition="0" endLine="15" endPosition="0" unitName="jetbrains.mps.baseLanguage.dates.behavior.ReferenceFormatToken_BehaviorDescriptor" />
   <unitInfo fileName="RoundDateTimeOperation_BehaviorDescriptor.java" startLine="6" startPosition="0" endLine="15" endPosition="0" unitName="jetbrains.mps.baseLanguage.dates.behavior.RoundDateTimeOperation_BehaviorDescriptor" />
   <unitInfo fileName="ScheduleLiteral_BehaviorDescriptor.java" startLine="7" startPosition="0" endLine="16" endPosition="0" unitName="jetbrains.mps.baseLanguage.dates.behavior.ScheduleLiteral_BehaviorDescriptor" />
-  <unitInfo fileName="StringUtils.java" startLine="6" startPosition="0" endLine="80" endPosition="0" unitName="jetbrains.mps.baseLanguage.dates.behavior.StringUtils" />
   <unitInfo fileName="TimeConstant_BehaviorDescriptor.java" startLine="9" startPosition="0" endLine="26" endPosition="0" unitName="jetbrains.mps.baseLanguage.dates.behavior.TimeConstant_BehaviorDescriptor" />
   <unitInfo fileName="TimeZoneConstant_BehaviorDescriptor.java" startLine="7" startPosition="0" endLine="16" endPosition="0" unitName="jetbrains.mps.baseLanguage.dates.behavior.TimeZoneConstant_BehaviorDescriptor" />
   <unitInfo fileName="TimeZoneFromString_BehaviorDescriptor.java" startLine="7" startPosition="0" endLine="16" endPosition="0" unitName="jetbrains.mps.baseLanguage.dates.behavior.TimeZoneFromString_BehaviorDescriptor" />
@@ -139,18 +138,24 @@
     <unitInfo nodeId="1015544890586293378" fileName="NotNullOperation_Behavior.java" startLine="11" startPosition="0" endLine="30" endPosition="0" unitName="jetbrains.mps.baseLanguage.dates.behavior.NotNullOperation_Behavior" />
   </root>
   <root nodeId="1075917115049868776">
+    <nodeInfo nodeId="1075917115049868796" fileName="ConditionalFormatToken_Behavior.java" startLine="19" startPosition="60" endLine="20" endPosition="44" conceptFqName="jetbrains.mps.baseLanguage.structure.ReturnStatement" />
     <nodeInfo nodeId="1075917115049868776" fileName="ConditionalFormatToken_Behavior.java" startLine="8" startPosition="46" endLine="11" endPosition="0" conceptFqName="jetbrains.mps.baseLanguage.structure.StaticMethodDeclaration" propertyString="init#(Ljetbrains/mps/smodel/SNode;)V" />
     <nodeInfo nodeId="1075917115049868784" fileName="ConditionalFormatToken_Behavior.java" startLine="12" startPosition="78" endLine="16" endPosition="7" conceptFqName="jetbrains.mps.baseLanguage.structure.ReturnStatement" />
+    <nodeInfo nodeId="1075917115049868796" fileName="ConditionalFormatToken_Behavior.java" startLine="18" startPosition="0" endLine="22" endPosition="0" conceptFqName="jetbrains.mps.baseLanguage.structure.StaticMethodDeclaration" propertyString="isEmpty_7o1ii_a0a0a0a1#(Ljava/lang/String;)Z" />
     <nodeInfo nodeId="1075917115049868776" fileName="ConditionalFormatToken_Behavior.java" startLine="11" startPosition="0" endLine="18" endPosition="0" conceptFqName="jetbrains.mps.baseLanguage.structure.StaticMethodDeclaration" propertyString="call_getClassName_1075917115049868779#(Ljetbrains/mps/smodel/SNode;)Ljava/lang/String;" />
     <scopeInfo nodeId="1075917115049868778" fileName="ConditionalFormatToken_Behavior.java" startLine="9" startPosition="43" endLine="9" endPosition="43" />
+    <scopeInfo nodeId="1075917115049868796" fileName="ConditionalFormatToken_Behavior.java" startLine="19" startPosition="60" endLine="20" endPosition="44" />
     <scopeInfo nodeId="1075917115049868776" fileName="ConditionalFormatToken_Behavior.java" startLine="8" startPosition="46" endLine="11" endPosition="0">
       <varInfo nodeId="1075917115049868776" varName="thisNode" />
     </scopeInfo>
     <scopeInfo nodeId="1075917115049868782" fileName="ConditionalFormatToken_Behavior.java" startLine="12" startPosition="78" endLine="16" endPosition="7" />
+    <scopeInfo nodeId="1075917115049868796" fileName="ConditionalFormatToken_Behavior.java" startLine="18" startPosition="0" endLine="22" endPosition="0">
+      <varInfo nodeId="1075917115049868796" varName="str" />
+    </scopeInfo>
     <scopeInfo nodeId="1075917115049868776" fileName="ConditionalFormatToken_Behavior.java" startLine="11" startPosition="0" endLine="18" endPosition="0">
       <varInfo nodeId="1075917115049868776" varName="thisNode" />
     </scopeInfo>
-    <unitInfo nodeId="1075917115049868776" fileName="ConditionalFormatToken_Behavior.java" startLine="8" startPosition="0" endLine="19" endPosition="0" unitName="jetbrains.mps.baseLanguage.dates.behavior.ConditionalFormatToken_Behavior" />
+    <unitInfo nodeId="1075917115049868776" fileName="ConditionalFormatToken_Behavior.java" startLine="8" startPosition="0" endLine="23" endPosition="0" unitName="jetbrains.mps.baseLanguage.dates.behavior.ConditionalFormatToken_Behavior" />
   </root>
   <root nodeId="1213877259059">
     <nodeInfo nodeId="1213877259059" fileName="DateTimePropertyFormatToken_Behavior.java" startLine="7" startPosition="51" endLine="10" endPosition="0" conceptFqName="jetbrains.mps.baseLanguage.structure.StaticMethodDeclaration" propertyString="init#(Ljetbrains/mps/smodel/SNode;)V" />
