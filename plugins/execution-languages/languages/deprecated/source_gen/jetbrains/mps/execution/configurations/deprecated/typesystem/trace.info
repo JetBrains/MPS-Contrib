@@ -1,6 +1,5 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <debugInfo>
-  <unitInfo fileName="StringUtils.java" startLine="6" startPosition="0" endLine="80" endPosition="0" unitName="jetbrains.mps.execution.configurations.deprecated.typesystem.StringUtils" />
   <unitInfo fileName="TypesystemDescriptor.java" startLine="10" startPosition="0" endLine="122" endPosition="0" unitName="jetbrains.mps.execution.configurations.deprecated.typesystem.TypesystemDescriptor" />
   <root nodeId="2486271045794916148">
     <nodeInfo nodeId="1810772216404834554" fileName="typeof_Node_FunctionParameter_InferenceRule.java" startLine="19" startPosition="5" endLine="20" endPosition="64" conceptFqName="jetbrains.mps.baseLanguage.structure.LocalVariableDeclarationStatement" />
@@ -1858,17 +1857,20 @@
     <nodeInfo nodeId="314981645426570298" fileName="check_RunConfigurationIcon_NonTypesystemRule.java" startLine="35" startPosition="5" endLine="36" endPosition="117" conceptFqName="jetbrains.mps.baseLanguage.structure.LocalVariableDeclarationStatement" />
     <nodeInfo nodeId="314981645426570298" fileName="check_RunConfigurationIcon_NonTypesystemRule.java" startLine="36" startPosition="117" endLine="37" endPosition="45" conceptFqName="jetbrains.mps.baseLanguage.structure.ReturnStatement" />
     <nodeInfo nodeId="314981645426570298" fileName="check_RunConfigurationIcon_NonTypesystemRule.java" startLine="41" startPosition="30" endLine="42" endPosition="17" conceptFqName="jetbrains.mps.baseLanguage.structure.ReturnStatement" />
+    <nodeInfo nodeId="314981645426570304" fileName="check_RunConfigurationIcon_NonTypesystemRule.java" startLine="45" startPosition="61" endLine="46" endPosition="44" conceptFqName="jetbrains.mps.baseLanguage.structure.ReturnStatement" />
     <nodeInfo nodeId="314981645426570298" fileName="check_RunConfigurationIcon_NonTypesystemRule.java" startLine="17" startPosition="138" endLine="19" endPosition="3" conceptFqName="jetbrains.mps.baseLanguage.structure.ConstructorDeclaration" propertyString="check_RunConfigurationIcon_NonTypesystemRule#()V" />
-    <nodeInfo nodeId="314981645426570322" fileName="check_RunConfigurationIcon_NonTypesystemRule.java" startLine="22" startPosition="328" endLine="26" endPosition="7" conceptFqName="jetbrains.mps.baseLanguage.structure.BlockStatement" />
+    <nodeInfo nodeId="314981645426570322" fileName="check_RunConfigurationIcon_NonTypesystemRule.java" startLine="22" startPosition="332" endLine="26" endPosition="7" conceptFqName="jetbrains.mps.baseLanguage.structure.BlockStatement" />
     <nodeInfo nodeId="314981645426570298" fileName="check_RunConfigurationIcon_NonTypesystemRule.java" startLine="29" startPosition="0" endLine="33" endPosition="0" conceptFqName="jetbrains.mps.baseLanguage.structure.InstanceMethodDeclaration" propertyString="getApplicableConceptFQName#()Ljava/lang/String;" />
     <nodeInfo nodeId="314981645426570298" fileName="check_RunConfigurationIcon_NonTypesystemRule.java" startLine="34" startPosition="68" endLine="38" endPosition="5" conceptFqName="jetbrains.mps.baseLanguage.structure.BlockStatement" />
     <nodeInfo nodeId="314981645426570298" fileName="check_RunConfigurationIcon_NonTypesystemRule.java" startLine="40" startPosition="0" endLine="44" endPosition="0" conceptFqName="jetbrains.mps.baseLanguage.structure.InstanceMethodDeclaration" propertyString="overrides#()Z" />
+    <nodeInfo nodeId="314981645426570304" fileName="check_RunConfigurationIcon_NonTypesystemRule.java" startLine="44" startPosition="0" endLine="48" endPosition="0" conceptFqName="jetbrains.mps.baseLanguage.structure.StaticMethodDeclaration" propertyString="isEmpty_n6iy87_a0a0a0a0#(Ljava/lang/String;)Z" />
     <nodeInfo nodeId="314981645426570300" fileName="check_RunConfigurationIcon_NonTypesystemRule.java" startLine="21" startPosition="140" endLine="27" endPosition="5" conceptFqName="jetbrains.mps.baseLanguage.structure.IfStatement" />
     <nodeInfo nodeId="314981645426570298" fileName="check_RunConfigurationIcon_NonTypesystemRule.java" startLine="33" startPosition="0" endLine="40" endPosition="0" conceptFqName="jetbrains.mps.baseLanguage.structure.InstanceMethodDeclaration" propertyString="isApplicableAndPattern#(Ljetbrains/mps/smodel/SNode;)Ljetbrains/mps/lang/typesystem/runtime/IsApplicableStatus;" />
     <nodeInfo nodeId="314981645426570298" fileName="check_RunConfigurationIcon_NonTypesystemRule.java" startLine="20" startPosition="0" endLine="29" endPosition="0" conceptFqName="jetbrains.mps.baseLanguage.structure.InstanceMethodDeclaration" propertyString="applyRule#(Ljetbrains/mps/smodel/SNode;Ljetbrains/mps/typesystem/inference/TypeCheckingContext;Ljetbrains/mps/lang/typesystem/runtime/IsApplicableStatus;)V" />
     <scopeInfo nodeId="314981645426570298" fileName="check_RunConfigurationIcon_NonTypesystemRule.java" startLine="18" startPosition="57" endLine="18" endPosition="57" />
     <scopeInfo nodeId="314981645426570298" fileName="check_RunConfigurationIcon_NonTypesystemRule.java" startLine="30" startPosition="46" endLine="31" endPosition="101" />
     <scopeInfo nodeId="314981645426570298" fileName="check_RunConfigurationIcon_NonTypesystemRule.java" startLine="41" startPosition="30" endLine="42" endPosition="17" />
+    <scopeInfo nodeId="314981645426570304" fileName="check_RunConfigurationIcon_NonTypesystemRule.java" startLine="45" startPosition="61" endLine="46" endPosition="44" />
     <scopeInfo nodeId="314981645426570298" fileName="check_RunConfigurationIcon_NonTypesystemRule.java" startLine="17" startPosition="138" endLine="19" endPosition="3" />
     <scopeInfo nodeId="314981645426570322" fileName="check_RunConfigurationIcon_NonTypesystemRule.java" startLine="23" startPosition="7" endLine="25" endPosition="300">
       <varInfo nodeId="314981645426570322" varName="_reporter_2309309498" />
@@ -1877,10 +1879,13 @@
     <scopeInfo nodeId="314981645426570298" fileName="check_RunConfigurationIcon_NonTypesystemRule.java" startLine="35" startPosition="5" endLine="37" endPosition="45">
       <varInfo nodeId="314981645426570298" varName="b" />
     </scopeInfo>
-    <scopeInfo nodeId="314981645426570321" fileName="check_RunConfigurationIcon_NonTypesystemRule.java" startLine="22" startPosition="328" endLine="26" endPosition="7" />
+    <scopeInfo nodeId="314981645426570321" fileName="check_RunConfigurationIcon_NonTypesystemRule.java" startLine="22" startPosition="332" endLine="26" endPosition="7" />
     <scopeInfo nodeId="314981645426570298" fileName="check_RunConfigurationIcon_NonTypesystemRule.java" startLine="29" startPosition="0" endLine="33" endPosition="0" />
     <scopeInfo nodeId="314981645426570298" fileName="check_RunConfigurationIcon_NonTypesystemRule.java" startLine="34" startPosition="68" endLine="38" endPosition="5" />
     <scopeInfo nodeId="314981645426570298" fileName="check_RunConfigurationIcon_NonTypesystemRule.java" startLine="40" startPosition="0" endLine="44" endPosition="0" />
+    <scopeInfo nodeId="314981645426570304" fileName="check_RunConfigurationIcon_NonTypesystemRule.java" startLine="44" startPosition="0" endLine="48" endPosition="0">
+      <varInfo nodeId="314981645426570304" varName="str" />
+    </scopeInfo>
     <scopeInfo nodeId="314981645426570299" fileName="check_RunConfigurationIcon_NonTypesystemRule.java" startLine="21" startPosition="140" endLine="27" endPosition="5" />
     <scopeInfo nodeId="314981645426570298" fileName="check_RunConfigurationIcon_NonTypesystemRule.java" startLine="33" startPosition="0" endLine="40" endPosition="0">
       <varInfo nodeId="314981645426570298" varName="argument" />
@@ -1890,7 +1895,7 @@
       <varInfo nodeId="314981645426570298" varName="status" />
       <varInfo nodeId="314981645426570298" varName="typeCheckingContext" />
     </scopeInfo>
-    <unitInfo nodeId="314981645426570298" fileName="check_RunConfigurationIcon_NonTypesystemRule.java" startLine="17" startPosition="0" endLine="45" endPosition="0" unitName="jetbrains.mps.execution.configurations.deprecated.typesystem.check_RunConfigurationIcon_NonTypesystemRule" />
+    <unitInfo nodeId="314981645426570298" fileName="check_RunConfigurationIcon_NonTypesystemRule.java" startLine="17" startPosition="0" endLine="49" endPosition="0" unitName="jetbrains.mps.execution.configurations.deprecated.typesystem.check_RunConfigurationIcon_NonTypesystemRule" />
   </root>
   <root nodeId="314981645426570326">
     <nodeInfo nodeId="314981645426570337" fileName="check_RunConfigurationCreatesDebugSession_NonTypesystemRule.java" startLine="24" startPosition="9" endLine="25" endPosition="62" conceptFqName="jetbrains.mps.baseLanguage.structure.LocalVariableDeclarationStatement" />

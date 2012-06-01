@@ -1,6 +1,5 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <debugInfo>
-  <unitInfo fileName="StringUtils.java" startLine="6" startPosition="0" endLine="80" endPosition="0" unitName="sax.StringUtils" />
   <root nodeId="2059681291147340382">
     <nodeInfo nodeId="2059681291147340382" fileName="TestParserHandler.java" startLine="12" startPosition="63" endLine="13" endPosition="54" conceptFqName="jetbrains.mps.baseLanguage.structure.StaticFieldDeclaration" propertyString="EMPTY_ARRAY" />
     <nodeInfo nodeId="2059681291147340382" fileName="TestParserHandler.java" startLine="14" startPosition="0" endLine="15" endPosition="125" conceptFqName="jetbrains.mps.baseLanguage.structure.FieldDeclaration" propertyString="rootElementhandler" />
@@ -262,6 +261,7 @@
     <nodeInfo nodeId="2059681291147340431" fileName="AstRoot.java" startLine="29" startPosition="36" endLine="30" endPosition="21" conceptFqName="jetbrains.mps.baseLanguage.structure.ExpressionStatement" />
     <nodeInfo nodeId="2059681291147422761" fileName="AstRoot.java" startLine="33" startPosition="34" endLine="34" endPosition="26" conceptFqName="jetbrains.mps.baseLanguage.structure.ReturnStatement" />
     <nodeInfo nodeId="2059681291147422769" fileName="AstRoot.java" startLine="37" startPosition="48" endLine="38" endPosition="31" conceptFqName="jetbrains.mps.baseLanguage.structure.ExpressionStatement" />
+    <nodeInfo nodeId="2059681291147419742" fileName="AstRoot.java" startLine="41" startPosition="65" endLine="42" endPosition="43" conceptFqName="jetbrains.mps.baseLanguage.structure.ReturnStatement" />
     <nodeInfo nodeId="2059681291147340387" fileName="AstRoot.java" startLine="10" startPosition="0" endLine="12" endPosition="3" conceptFqName="jetbrains.mps.baseLanguage.structure.ConstructorDeclaration" propertyString="AstRoot#()V" />
     <nodeInfo nodeId="2059681291147340399" fileName="AstRoot.java" startLine="13" startPosition="0" endLine="17" endPosition="0" conceptFqName="jetbrains.mps.baseLanguage.structure.InstanceMethodDeclaration" propertyString="getText#()Ljava/lang/String;" />
     <nodeInfo nodeId="2059681291147340411" fileName="AstRoot.java" startLine="18" startPosition="36" endLine="22" endPosition="14" conceptFqName="jetbrains.mps.baseLanguage.structure.ExpressionStatement" />
@@ -269,6 +269,7 @@
     <nodeInfo nodeId="2059681291147340427" fileName="AstRoot.java" startLine="28" startPosition="0" endLine="32" endPosition="0" conceptFqName="jetbrains.mps.baseLanguage.structure.InstanceMethodDeclaration" propertyString="setName#(Ljava/lang/String;)V" />
     <nodeInfo nodeId="2059681291147422757" fileName="AstRoot.java" startLine="32" startPosition="0" endLine="36" endPosition="0" conceptFqName="jetbrains.mps.baseLanguage.structure.InstanceMethodDeclaration" propertyString="getMainChild#()Lsax/AstChild;" />
     <nodeInfo nodeId="2059681291147422765" fileName="AstRoot.java" startLine="36" startPosition="0" endLine="40" endPosition="0" conceptFqName="jetbrains.mps.baseLanguage.structure.InstanceMethodDeclaration" propertyString="setMainChild#(Lsax/AstChild;)V" />
+    <nodeInfo nodeId="2059681291147419742" fileName="AstRoot.java" startLine="40" startPosition="0" endLine="44" endPosition="0" conceptFqName="jetbrains.mps.baseLanguage.structure.StaticMethodDeclaration" propertyString="isNotEmpty_7xujhu_a0a0a0a0b#(Ljava/lang/String;)Z" />
     <nodeInfo nodeId="2059681291147340407" fileName="AstRoot.java" startLine="17" startPosition="0" endLine="24" endPosition="0" conceptFqName="jetbrains.mps.baseLanguage.structure.InstanceMethodDeclaration" propertyString="addText#(Ljava/lang/String;)V" />
     <scopeInfo nodeId="2059681291147340390" fileName="AstRoot.java" startLine="11" startPosition="20" endLine="11" endPosition="20" />
     <scopeInfo nodeId="2059681291147340402" fileName="AstRoot.java" startLine="14" startPosition="27" endLine="15" endPosition="21" />
@@ -276,6 +277,7 @@
     <scopeInfo nodeId="2059681291147340430" fileName="AstRoot.java" startLine="29" startPosition="36" endLine="30" endPosition="21" />
     <scopeInfo nodeId="2059681291147422760" fileName="AstRoot.java" startLine="33" startPosition="34" endLine="34" endPosition="26" />
     <scopeInfo nodeId="2059681291147422768" fileName="AstRoot.java" startLine="37" startPosition="48" endLine="38" endPosition="31" />
+    <scopeInfo nodeId="2059681291147419742" fileName="AstRoot.java" startLine="41" startPosition="65" endLine="42" endPosition="43" />
     <scopeInfo nodeId="2059681291147340387" fileName="AstRoot.java" startLine="10" startPosition="0" endLine="12" endPosition="3" />
     <scopeInfo nodeId="2059681291147340399" fileName="AstRoot.java" startLine="13" startPosition="0" endLine="17" endPosition="0" />
     <scopeInfo nodeId="2059681291147340410" fileName="AstRoot.java" startLine="18" startPosition="36" endLine="22" endPosition="14" />
@@ -287,10 +289,13 @@
     <scopeInfo nodeId="2059681291147422765" fileName="AstRoot.java" startLine="36" startPosition="0" endLine="40" endPosition="0">
       <varInfo nodeId="2059681291147422775" varName="mainChild" />
     </scopeInfo>
+    <scopeInfo nodeId="2059681291147419742" fileName="AstRoot.java" startLine="40" startPosition="0" endLine="44" endPosition="0">
+      <varInfo nodeId="2059681291147419742" varName="str" />
+    </scopeInfo>
     <scopeInfo nodeId="2059681291147340407" fileName="AstRoot.java" startLine="17" startPosition="0" endLine="24" endPosition="0">
       <varInfo nodeId="2059681291147340417" varName="text" />
     </scopeInfo>
-    <unitInfo nodeId="2059681291147340385" fileName="AstRoot.java" startLine="6" startPosition="0" endLine="41" endPosition="0" unitName="sax.AstRoot" />
+    <unitInfo nodeId="2059681291147340385" fileName="AstRoot.java" startLine="6" startPosition="0" endLine="45" endPosition="0" unitName="sax.AstRoot" />
   </root>
   <root nodeId="2059681291147419773">
     <nodeInfo nodeId="2059681291147419775" fileName="AstChild.java" startLine="6" startPosition="23" endLine="8" endPosition="3" conceptFqName="jetbrains.mps.baseLanguage.structure.ConstructorDeclaration" propertyString="AstChild#()V" />

@@ -65,7 +65,7 @@ public class PeriodPropertyFormatToken_Constraints extends BaseConstraintsDescri
 
           @Override
           public String getPresentation(final IOperationContext operationContext, final ReferencePresentationContext _context) {
-            String name = (StringUtils.isNotEmpty(SPropertyOperations.getString(_context.getParameterNode(), "pluralForm")) ?
+            String name = (isNotEmpty_bw6cj5_a0a0a0b0a0a0b0a1a0b0b(SPropertyOperations.getString(_context.getParameterNode(), "pluralForm")) ?
               SPropertyOperations.getString(_context.getParameterNode(), "pluralForm") :
               SPropertyOperations.getString(_context.getParameterNode(), "name")
             );
@@ -88,5 +88,9 @@ public class PeriodPropertyFormatToken_Constraints extends BaseConstraintsDescri
       }
     });
     return references;
+  }
+
+  public static boolean isNotEmpty_bw6cj5_a0a0a0b0a0a0b0a1a0b0b(String str) {
+    return str != null && str.length() > 0;
   }
 }

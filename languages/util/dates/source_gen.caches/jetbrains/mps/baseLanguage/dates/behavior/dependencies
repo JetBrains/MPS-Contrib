@@ -95,7 +95,6 @@
   </dependency>
   <dependency className="jetbrains.mps.baseLanguage.dates.behavior.ConditionalFormatToken_Behavior" file="ConditionalFormatToken_Behavior.java">
     <classNode dependClassName="java.lang.String" />
-    <classNode dependClassName="jetbrains.mps.baseLanguage.dates.behavior.StringUtils" />
     <classNode dependClassName="jetbrains.mps.lang.smodel.generator.smodelAdapter.SPropertyOperations" />
     <classNode dependClassName="jetbrains.mps.smodel.SNode" />
   </dependency>
@@ -688,9 +687,6 @@
     <classNode dependClassName="java.lang.String" />
     <classNode dependClassName="jetbrains.mps.baseLanguage.behavior.Expression_BehaviorDescriptor" />
     <classNode extendsClassName="jetbrains.mps.smodel.runtime.impl.CompiledBehaviorDescriptor" />
-  </dependency>
-  <dependency className="jetbrains.mps.baseLanguage.dates.behavior.StringUtils" file="StringUtils.java">
-    <classNode dependClassName="java.lang.String" />
   </dependency>
   <dependency className="jetbrains.mps.baseLanguage.dates.behavior.TimeConstant_Behavior" file="TimeConstant_Behavior.java">
     <classNode dependClassName="java.lang.Class" />

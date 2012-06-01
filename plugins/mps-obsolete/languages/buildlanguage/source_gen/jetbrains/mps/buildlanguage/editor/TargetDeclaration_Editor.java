@@ -462,11 +462,11 @@ public class TargetDeclaration_Editor extends DefaultNodeEditor {
   }
 
   private static boolean renderingCondition_xfdsch_a2b0(SNode node, EditorContext editorContext, IScope scope) {
-    return StringUtils.isNotEmpty(SPropertyOperations.getString(node, "if"));
+    return isNotEmpty_xfdsch_a0a0b(SPropertyOperations.getString(node, "if"));
   }
 
   private static boolean renderingCondition_xfdsch_a3b0(SNode node, EditorContext editorContext, IScope scope) {
-    return StringUtils.isNotEmpty(SPropertyOperations.getString(node, "unless"));
+    return isNotEmpty_xfdsch_a0a0c(SPropertyOperations.getString(node, "unless"));
   }
 
   private static boolean renderingCondition_xfdsch_a4b0(SNode node, EditorContext editorContext, IScope scope) {
@@ -479,6 +479,14 @@ public class TargetDeclaration_Editor extends DefaultNodeEditor {
 
   private static boolean renderingCondition_xfdsch_a2a(SNode node, EditorContext editorContext, IScope scope) {
     return editorContext.isInspector();
+  }
+
+  public static boolean isNotEmpty_xfdsch_a0a0b(String str) {
+    return str != null && str.length() > 0;
+  }
+
+  public static boolean isNotEmpty_xfdsch_a0a0c(String str) {
+    return str != null && str.length() > 0;
   }
 
   private static class propertyListListHandler_xfdsch_b2a extends RefNodeListHandler {

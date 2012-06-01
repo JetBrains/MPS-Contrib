@@ -1,6 +1,5 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <debugInfo>
-  <unitInfo fileName="StringUtils.java" startLine="6" startPosition="0" endLine="80" endPosition="0" unitName="jetbrains.mps.xmlQuery.editor.StringUtils" />
   <root nodeId="10026583185439889">
     <nodeInfo nodeId="10026583185439896" fileName="TextBuilder_Editor.java" startLine="49" startPosition="58" endLine="49" endPosition="58" conceptFqName="jetbrains.mps.baseLanguage.structure.BlockStatement" />
     <nodeInfo nodeId="10026583185439889" fileName="TextBuilder_Editor.java" startLine="17" startPosition="79" endLine="18" endPosition="63" conceptFqName="jetbrains.mps.baseLanguage.structure.ReturnStatement" />
@@ -1389,7 +1388,7 @@
     <nodeInfo nodeId="2286463592495362682" fileName="XMLSAXNodeRule_Editor.java" startLine="422" startPosition="78" endLine="423" endPosition="105" conceptFqName="jetbrains.mps.baseLanguage.structure.ReturnStatement" />
     <nodeInfo nodeId="2286463592495362682" fileName="XMLSAXNodeRule_Editor.java" startLine="424" startPosition="10" endLine="425" endPosition="22" conceptFqName="jetbrains.mps.baseLanguage.structure.ReturnStatement" />
     <nodeInfo nodeId="2286463592495373144" fileName="XMLSAXNodeRule_Editor.java" startLine="428" startPosition="111" endLine="429" endPosition="61" conceptFqName="jetbrains.mps.baseLanguage.structure.ReturnStatement" />
-    <nodeInfo nodeId="8640335038346963436" fileName="XMLSAXNodeRule_Editor.java" startLine="432" startPosition="111" endLine="433" endPosition="82" conceptFqName="jetbrains.mps.baseLanguage.structure.ReturnStatement" />
+    <nodeInfo nodeId="8640335038346963436" fileName="XMLSAXNodeRule_Editor.java" startLine="432" startPosition="111" endLine="433" endPosition="83" conceptFqName="jetbrains.mps.baseLanguage.structure.ReturnStatement" />
     <nodeInfo nodeId="2268737274628969596" fileName="XMLSAXNodeRule_Editor.java" startLine="436" startPosition="111" endLine="437" endPosition="215" conceptFqName="jetbrains.mps.baseLanguage.structure.ReturnStatement" />
     <nodeInfo nodeId="2268737274628969610" fileName="XMLSAXNodeRule_Editor.java" startLine="440" startPosition="112" endLine="441" endPosition="243" conceptFqName="jetbrains.mps.baseLanguage.structure.ReturnStatement" />
     <nodeInfo nodeId="2286463592495477038" fileName="XMLSAXNodeRule_Editor.java" startLine="444" startPosition="112" endLine="445" endPosition="154" conceptFqName="jetbrains.mps.baseLanguage.structure.ReturnStatement" />
@@ -1397,62 +1396,63 @@
     <nodeInfo nodeId="2286463592495477063" fileName="XMLSAXNodeRule_Editor.java" startLine="452" startPosition="112" endLine="453" endPosition="123" conceptFqName="jetbrains.mps.baseLanguage.structure.ReturnStatement" />
     <nodeInfo nodeId="3444414697307356875" fileName="XMLSAXNodeRule_Editor.java" startLine="456" startPosition="112" endLine="457" endPosition="189" conceptFqName="jetbrains.mps.baseLanguage.structure.ReturnStatement" />
     <nodeInfo nodeId="2286463592495477088" fileName="XMLSAXNodeRule_Editor.java" startLine="460" startPosition="112" endLine="461" endPosition="128" conceptFqName="jetbrains.mps.baseLanguage.structure.ReturnStatement" />
-    <nodeInfo nodeId="4635390255047981705" fileName="XMLSAXNodeRule_Editor.java" startLine="465" startPosition="97" endLine="466" endPosition="50" conceptFqName="jetbrains.mps.baseLanguage.structure.SuperConstructorInvocation" />
-    <nodeInfo nodeId="4635390255047981705" fileName="XMLSAXNodeRule_Editor.java" startLine="469" startPosition="66" endLine="470" endPosition="41" conceptFqName="jetbrains.mps.baseLanguage.structure.LocalVariableDeclarationStatement" />
-    <nodeInfo nodeId="4635390255047981705" fileName="XMLSAXNodeRule_Editor.java" startLine="470" startPosition="41" endLine="471" endPosition="93" conceptFqName="jetbrains.mps.baseLanguage.structure.ReturnStatement" />
-    <nodeInfo nodeId="4635390255047981705" fileName="XMLSAXNodeRule_Editor.java" startLine="474" startPosition="86" endLine="475" endPosition="80" conceptFqName="jetbrains.mps.baseLanguage.structure.LocalVariableDeclarationStatement" />
-    <nodeInfo nodeId="4635390255047981705" fileName="XMLSAXNodeRule_Editor.java" startLine="475" startPosition="80" endLine="476" endPosition="95" conceptFqName="jetbrains.mps.baseLanguage.structure.ExpressionStatement" />
-    <nodeInfo nodeId="4635390255047981705" fileName="XMLSAXNodeRule_Editor.java" startLine="476" startPosition="95" endLine="477" endPosition="25" conceptFqName="jetbrains.mps.baseLanguage.structure.ReturnStatement" />
-    <nodeInfo nodeId="4635390255047981705" fileName="XMLSAXNodeRule_Editor.java" startLine="480" startPosition="68" endLine="481" endPosition="34" conceptFqName="jetbrains.mps.baseLanguage.structure.LocalVariableDeclarationStatement" />
-    <nodeInfo nodeId="4635390255047981705" fileName="XMLSAXNodeRule_Editor.java" startLine="481" startPosition="34" endLine="482" endPosition="80" conceptFqName="jetbrains.mps.baseLanguage.structure.ExpressionStatement" />
-    <nodeInfo nodeId="4635390255047981705" fileName="XMLSAXNodeRule_Editor.java" startLine="482" startPosition="80" endLine="483" endPosition="87" conceptFqName="jetbrains.mps.baseLanguage.structure.ExpressionStatement" />
-    <nodeInfo nodeId="4635390255047981705" fileName="XMLSAXNodeRule_Editor.java" startLine="483" startPosition="87" endLine="484" endPosition="23" conceptFqName="jetbrains.mps.baseLanguage.structure.ReturnStatement" />
-    <nodeInfo nodeId="4635390255047981705" fileName="XMLSAXNodeRule_Editor.java" startLine="487" startPosition="89" endLine="488" endPosition="66" conceptFqName="jetbrains.mps.baseLanguage.structure.ReturnStatement" />
-    <nodeInfo nodeId="4635390255047981705" fileName="XMLSAXNodeRule_Editor.java" startLine="492" startPosition="96" endLine="493" endPosition="134" conceptFqName="jetbrains.mps.baseLanguage.structure.ExpressionStatement" />
-    <nodeInfo nodeId="4635390255047981705" fileName="XMLSAXNodeRule_Editor.java" startLine="494" startPosition="34" endLine="495" endPosition="95" conceptFqName="jetbrains.mps.baseLanguage.structure.ExpressionStatement" />
-    <nodeInfo nodeId="4635390255047981705" fileName="XMLSAXNodeRule_Editor.java" startLine="495" startPosition="95" endLine="496" endPosition="80" conceptFqName="jetbrains.mps.baseLanguage.structure.ExpressionStatement" />
-    <nodeInfo nodeId="4635390255047981705" fileName="XMLSAXNodeRule_Editor.java" startLine="498" startPosition="131" endLine="499" endPosition="139" conceptFqName="jetbrains.mps.baseLanguage.structure.ExpressionStatement" />
-    <nodeInfo nodeId="4635390255047981705" fileName="XMLSAXNodeRule_Editor.java" startLine="505" startPosition="84" endLine="506" endPosition="100" conceptFqName="jetbrains.mps.baseLanguage.structure.LocalVariableDeclarationStatement" />
-    <nodeInfo nodeId="4635390255047981705" fileName="XMLSAXNodeRule_Editor.java" startLine="506" startPosition="100" endLine="507" endPosition="38" conceptFqName="jetbrains.mps.baseLanguage.structure.ExpressionStatement" />
-    <nodeInfo nodeId="4635390255047981705" fileName="XMLSAXNodeRule_Editor.java" startLine="508" startPosition="7" endLine="509" endPosition="44" conceptFqName="jetbrains.mps.baseLanguage.structure.LocalVariableDeclarationStatement" />
-    <nodeInfo nodeId="4635390255047981705" fileName="XMLSAXNodeRule_Editor.java" startLine="509" startPosition="44" endLine="510" endPosition="64" conceptFqName="jetbrains.mps.baseLanguage.structure.ExpressionStatement" />
-    <nodeInfo nodeId="4635390255047981705" fileName="XMLSAXNodeRule_Editor.java" startLine="511" startPosition="7" endLine="512" endPosition="71" conceptFqName="jetbrains.mps.baseLanguage.structure.ExpressionStatement" />
-    <nodeInfo nodeId="4635390255047981705" fileName="XMLSAXNodeRule_Editor.java" startLine="512" startPosition="71" endLine="513" endPosition="72" conceptFqName="jetbrains.mps.baseLanguage.structure.ExpressionStatement" />
-    <nodeInfo nodeId="4635390255047981705" fileName="XMLSAXNodeRule_Editor.java" startLine="513" startPosition="72" endLine="514" endPosition="24" conceptFqName="jetbrains.mps.baseLanguage.structure.ReturnStatement" />
-    <nodeInfo nodeId="8640335038346858587" fileName="XMLSAXNodeRule_Editor.java" startLine="517" startPosition="92" endLine="518" endPosition="103" conceptFqName="jetbrains.mps.baseLanguage.structure.LocalVariableDeclarationStatement" />
-    <nodeInfo nodeId="8640335038346858587" fileName="XMLSAXNodeRule_Editor.java" startLine="518" startPosition="103" endLine="519" endPosition="51" conceptFqName="jetbrains.mps.baseLanguage.structure.ExpressionStatement" />
-    <nodeInfo nodeId="8640335038346858587" fileName="XMLSAXNodeRule_Editor.java" startLine="520" startPosition="7" endLine="521" endPosition="44" conceptFqName="jetbrains.mps.baseLanguage.structure.LocalVariableDeclarationStatement" />
-    <nodeInfo nodeId="8640335038346858587" fileName="XMLSAXNodeRule_Editor.java" startLine="521" startPosition="44" endLine="522" endPosition="62" conceptFqName="jetbrains.mps.baseLanguage.structure.ExpressionStatement" />
-    <nodeInfo nodeId="8640335038346858587" fileName="XMLSAXNodeRule_Editor.java" startLine="523" startPosition="7" endLine="524" endPosition="36" conceptFqName="jetbrains.mps.baseLanguage.structure.ExpressionStatement" />
-    <nodeInfo nodeId="8640335038346858587" fileName="XMLSAXNodeRule_Editor.java" startLine="524" startPosition="36" endLine="525" endPosition="24" conceptFqName="jetbrains.mps.baseLanguage.structure.ReturnStatement" />
-    <nodeInfo nodeId="8640335038346828087" fileName="XMLSAXNodeRule_Editor.java" startLine="530" startPosition="100" endLine="531" endPosition="50" conceptFqName="jetbrains.mps.baseLanguage.structure.SuperConstructorInvocation" />
-    <nodeInfo nodeId="8640335038346828087" fileName="XMLSAXNodeRule_Editor.java" startLine="534" startPosition="66" endLine="535" endPosition="41" conceptFqName="jetbrains.mps.baseLanguage.structure.LocalVariableDeclarationStatement" />
-    <nodeInfo nodeId="8640335038346828087" fileName="XMLSAXNodeRule_Editor.java" startLine="535" startPosition="41" endLine="536" endPosition="93" conceptFqName="jetbrains.mps.baseLanguage.structure.ReturnStatement" />
-    <nodeInfo nodeId="8640335038346828087" fileName="XMLSAXNodeRule_Editor.java" startLine="539" startPosition="86" endLine="540" endPosition="80" conceptFqName="jetbrains.mps.baseLanguage.structure.LocalVariableDeclarationStatement" />
-    <nodeInfo nodeId="8640335038346828087" fileName="XMLSAXNodeRule_Editor.java" startLine="540" startPosition="80" endLine="541" endPosition="95" conceptFqName="jetbrains.mps.baseLanguage.structure.ExpressionStatement" />
-    <nodeInfo nodeId="8640335038346828087" fileName="XMLSAXNodeRule_Editor.java" startLine="541" startPosition="95" endLine="542" endPosition="25" conceptFqName="jetbrains.mps.baseLanguage.structure.ReturnStatement" />
-    <nodeInfo nodeId="8640335038346828087" fileName="XMLSAXNodeRule_Editor.java" startLine="545" startPosition="68" endLine="546" endPosition="34" conceptFqName="jetbrains.mps.baseLanguage.structure.LocalVariableDeclarationStatement" />
-    <nodeInfo nodeId="8640335038346828087" fileName="XMLSAXNodeRule_Editor.java" startLine="546" startPosition="34" endLine="547" endPosition="80" conceptFqName="jetbrains.mps.baseLanguage.structure.ExpressionStatement" />
-    <nodeInfo nodeId="8640335038346828087" fileName="XMLSAXNodeRule_Editor.java" startLine="547" startPosition="80" endLine="548" endPosition="87" conceptFqName="jetbrains.mps.baseLanguage.structure.ExpressionStatement" />
-    <nodeInfo nodeId="8640335038346828087" fileName="XMLSAXNodeRule_Editor.java" startLine="548" startPosition="87" endLine="549" endPosition="23" conceptFqName="jetbrains.mps.baseLanguage.structure.ReturnStatement" />
-    <nodeInfo nodeId="8640335038346828087" fileName="XMLSAXNodeRule_Editor.java" startLine="552" startPosition="89" endLine="553" endPosition="66" conceptFqName="jetbrains.mps.baseLanguage.structure.ReturnStatement" />
-    <nodeInfo nodeId="8640335038346828087" fileName="XMLSAXNodeRule_Editor.java" startLine="557" startPosition="96" endLine="558" endPosition="134" conceptFqName="jetbrains.mps.baseLanguage.structure.ExpressionStatement" />
-    <nodeInfo nodeId="8640335038346828087" fileName="XMLSAXNodeRule_Editor.java" startLine="559" startPosition="34" endLine="560" endPosition="95" conceptFqName="jetbrains.mps.baseLanguage.structure.ExpressionStatement" />
-    <nodeInfo nodeId="8640335038346828087" fileName="XMLSAXNodeRule_Editor.java" startLine="560" startPosition="95" endLine="561" endPosition="80" conceptFqName="jetbrains.mps.baseLanguage.structure.ExpressionStatement" />
-    <nodeInfo nodeId="8640335038346828087" fileName="XMLSAXNodeRule_Editor.java" startLine="563" startPosition="131" endLine="564" endPosition="139" conceptFqName="jetbrains.mps.baseLanguage.structure.ExpressionStatement" />
-    <nodeInfo nodeId="8640335038346828087" fileName="XMLSAXNodeRule_Editor.java" startLine="570" startPosition="84" endLine="571" endPosition="100" conceptFqName="jetbrains.mps.baseLanguage.structure.LocalVariableDeclarationStatement" />
-    <nodeInfo nodeId="8640335038346828087" fileName="XMLSAXNodeRule_Editor.java" startLine="571" startPosition="100" endLine="572" endPosition="38" conceptFqName="jetbrains.mps.baseLanguage.structure.ExpressionStatement" />
-    <nodeInfo nodeId="8640335038346828087" fileName="XMLSAXNodeRule_Editor.java" startLine="573" startPosition="7" endLine="574" endPosition="44" conceptFqName="jetbrains.mps.baseLanguage.structure.LocalVariableDeclarationStatement" />
-    <nodeInfo nodeId="8640335038346828087" fileName="XMLSAXNodeRule_Editor.java" startLine="574" startPosition="44" endLine="575" endPosition="64" conceptFqName="jetbrains.mps.baseLanguage.structure.ExpressionStatement" />
-    <nodeInfo nodeId="8640335038346828087" fileName="XMLSAXNodeRule_Editor.java" startLine="576" startPosition="7" endLine="577" endPosition="71" conceptFqName="jetbrains.mps.baseLanguage.structure.ExpressionStatement" />
-    <nodeInfo nodeId="8640335038346828087" fileName="XMLSAXNodeRule_Editor.java" startLine="577" startPosition="71" endLine="578" endPosition="72" conceptFqName="jetbrains.mps.baseLanguage.structure.ExpressionStatement" />
-    <nodeInfo nodeId="8640335038346828087" fileName="XMLSAXNodeRule_Editor.java" startLine="578" startPosition="72" endLine="579" endPosition="24" conceptFqName="jetbrains.mps.baseLanguage.structure.ReturnStatement" />
-    <nodeInfo nodeId="8640335038346858586" fileName="XMLSAXNodeRule_Editor.java" startLine="582" startPosition="92" endLine="583" endPosition="101" conceptFqName="jetbrains.mps.baseLanguage.structure.LocalVariableDeclarationStatement" />
-    <nodeInfo nodeId="8640335038346858586" fileName="XMLSAXNodeRule_Editor.java" startLine="583" startPosition="101" endLine="584" endPosition="51" conceptFqName="jetbrains.mps.baseLanguage.structure.ExpressionStatement" />
-    <nodeInfo nodeId="8640335038346858586" fileName="XMLSAXNodeRule_Editor.java" startLine="585" startPosition="7" endLine="586" endPosition="44" conceptFqName="jetbrains.mps.baseLanguage.structure.LocalVariableDeclarationStatement" />
-    <nodeInfo nodeId="8640335038346858586" fileName="XMLSAXNodeRule_Editor.java" startLine="586" startPosition="44" endLine="587" endPosition="62" conceptFqName="jetbrains.mps.baseLanguage.structure.ExpressionStatement" />
-    <nodeInfo nodeId="8640335038346858586" fileName="XMLSAXNodeRule_Editor.java" startLine="588" startPosition="7" endLine="589" endPosition="36" conceptFqName="jetbrains.mps.baseLanguage.structure.ExpressionStatement" />
-    <nodeInfo nodeId="8640335038346858586" fileName="XMLSAXNodeRule_Editor.java" startLine="589" startPosition="36" endLine="590" endPosition="24" conceptFqName="jetbrains.mps.baseLanguage.structure.ReturnStatement" />
+    <nodeInfo nodeId="8640335038346963443" fileName="XMLSAXNodeRule_Editor.java" startLine="464" startPosition="61" endLine="465" endPosition="43" conceptFqName="jetbrains.mps.baseLanguage.structure.ReturnStatement" />
+    <nodeInfo nodeId="4635390255047981705" fileName="XMLSAXNodeRule_Editor.java" startLine="469" startPosition="97" endLine="470" endPosition="50" conceptFqName="jetbrains.mps.baseLanguage.structure.SuperConstructorInvocation" />
+    <nodeInfo nodeId="4635390255047981705" fileName="XMLSAXNodeRule_Editor.java" startLine="473" startPosition="66" endLine="474" endPosition="41" conceptFqName="jetbrains.mps.baseLanguage.structure.LocalVariableDeclarationStatement" />
+    <nodeInfo nodeId="4635390255047981705" fileName="XMLSAXNodeRule_Editor.java" startLine="474" startPosition="41" endLine="475" endPosition="93" conceptFqName="jetbrains.mps.baseLanguage.structure.ReturnStatement" />
+    <nodeInfo nodeId="4635390255047981705" fileName="XMLSAXNodeRule_Editor.java" startLine="478" startPosition="86" endLine="479" endPosition="80" conceptFqName="jetbrains.mps.baseLanguage.structure.LocalVariableDeclarationStatement" />
+    <nodeInfo nodeId="4635390255047981705" fileName="XMLSAXNodeRule_Editor.java" startLine="479" startPosition="80" endLine="480" endPosition="95" conceptFqName="jetbrains.mps.baseLanguage.structure.ExpressionStatement" />
+    <nodeInfo nodeId="4635390255047981705" fileName="XMLSAXNodeRule_Editor.java" startLine="480" startPosition="95" endLine="481" endPosition="25" conceptFqName="jetbrains.mps.baseLanguage.structure.ReturnStatement" />
+    <nodeInfo nodeId="4635390255047981705" fileName="XMLSAXNodeRule_Editor.java" startLine="484" startPosition="68" endLine="485" endPosition="34" conceptFqName="jetbrains.mps.baseLanguage.structure.LocalVariableDeclarationStatement" />
+    <nodeInfo nodeId="4635390255047981705" fileName="XMLSAXNodeRule_Editor.java" startLine="485" startPosition="34" endLine="486" endPosition="80" conceptFqName="jetbrains.mps.baseLanguage.structure.ExpressionStatement" />
+    <nodeInfo nodeId="4635390255047981705" fileName="XMLSAXNodeRule_Editor.java" startLine="486" startPosition="80" endLine="487" endPosition="87" conceptFqName="jetbrains.mps.baseLanguage.structure.ExpressionStatement" />
+    <nodeInfo nodeId="4635390255047981705" fileName="XMLSAXNodeRule_Editor.java" startLine="487" startPosition="87" endLine="488" endPosition="23" conceptFqName="jetbrains.mps.baseLanguage.structure.ReturnStatement" />
+    <nodeInfo nodeId="4635390255047981705" fileName="XMLSAXNodeRule_Editor.java" startLine="491" startPosition="89" endLine="492" endPosition="66" conceptFqName="jetbrains.mps.baseLanguage.structure.ReturnStatement" />
+    <nodeInfo nodeId="4635390255047981705" fileName="XMLSAXNodeRule_Editor.java" startLine="496" startPosition="96" endLine="497" endPosition="134" conceptFqName="jetbrains.mps.baseLanguage.structure.ExpressionStatement" />
+    <nodeInfo nodeId="4635390255047981705" fileName="XMLSAXNodeRule_Editor.java" startLine="498" startPosition="34" endLine="499" endPosition="95" conceptFqName="jetbrains.mps.baseLanguage.structure.ExpressionStatement" />
+    <nodeInfo nodeId="4635390255047981705" fileName="XMLSAXNodeRule_Editor.java" startLine="499" startPosition="95" endLine="500" endPosition="80" conceptFqName="jetbrains.mps.baseLanguage.structure.ExpressionStatement" />
+    <nodeInfo nodeId="4635390255047981705" fileName="XMLSAXNodeRule_Editor.java" startLine="502" startPosition="131" endLine="503" endPosition="139" conceptFqName="jetbrains.mps.baseLanguage.structure.ExpressionStatement" />
+    <nodeInfo nodeId="4635390255047981705" fileName="XMLSAXNodeRule_Editor.java" startLine="509" startPosition="84" endLine="510" endPosition="100" conceptFqName="jetbrains.mps.baseLanguage.structure.LocalVariableDeclarationStatement" />
+    <nodeInfo nodeId="4635390255047981705" fileName="XMLSAXNodeRule_Editor.java" startLine="510" startPosition="100" endLine="511" endPosition="38" conceptFqName="jetbrains.mps.baseLanguage.structure.ExpressionStatement" />
+    <nodeInfo nodeId="4635390255047981705" fileName="XMLSAXNodeRule_Editor.java" startLine="512" startPosition="7" endLine="513" endPosition="44" conceptFqName="jetbrains.mps.baseLanguage.structure.LocalVariableDeclarationStatement" />
+    <nodeInfo nodeId="4635390255047981705" fileName="XMLSAXNodeRule_Editor.java" startLine="513" startPosition="44" endLine="514" endPosition="64" conceptFqName="jetbrains.mps.baseLanguage.structure.ExpressionStatement" />
+    <nodeInfo nodeId="4635390255047981705" fileName="XMLSAXNodeRule_Editor.java" startLine="515" startPosition="7" endLine="516" endPosition="71" conceptFqName="jetbrains.mps.baseLanguage.structure.ExpressionStatement" />
+    <nodeInfo nodeId="4635390255047981705" fileName="XMLSAXNodeRule_Editor.java" startLine="516" startPosition="71" endLine="517" endPosition="72" conceptFqName="jetbrains.mps.baseLanguage.structure.ExpressionStatement" />
+    <nodeInfo nodeId="4635390255047981705" fileName="XMLSAXNodeRule_Editor.java" startLine="517" startPosition="72" endLine="518" endPosition="24" conceptFqName="jetbrains.mps.baseLanguage.structure.ReturnStatement" />
+    <nodeInfo nodeId="8640335038346858587" fileName="XMLSAXNodeRule_Editor.java" startLine="521" startPosition="92" endLine="522" endPosition="103" conceptFqName="jetbrains.mps.baseLanguage.structure.LocalVariableDeclarationStatement" />
+    <nodeInfo nodeId="8640335038346858587" fileName="XMLSAXNodeRule_Editor.java" startLine="522" startPosition="103" endLine="523" endPosition="51" conceptFqName="jetbrains.mps.baseLanguage.structure.ExpressionStatement" />
+    <nodeInfo nodeId="8640335038346858587" fileName="XMLSAXNodeRule_Editor.java" startLine="524" startPosition="7" endLine="525" endPosition="44" conceptFqName="jetbrains.mps.baseLanguage.structure.LocalVariableDeclarationStatement" />
+    <nodeInfo nodeId="8640335038346858587" fileName="XMLSAXNodeRule_Editor.java" startLine="525" startPosition="44" endLine="526" endPosition="62" conceptFqName="jetbrains.mps.baseLanguage.structure.ExpressionStatement" />
+    <nodeInfo nodeId="8640335038346858587" fileName="XMLSAXNodeRule_Editor.java" startLine="527" startPosition="7" endLine="528" endPosition="36" conceptFqName="jetbrains.mps.baseLanguage.structure.ExpressionStatement" />
+    <nodeInfo nodeId="8640335038346858587" fileName="XMLSAXNodeRule_Editor.java" startLine="528" startPosition="36" endLine="529" endPosition="24" conceptFqName="jetbrains.mps.baseLanguage.structure.ReturnStatement" />
+    <nodeInfo nodeId="8640335038346828087" fileName="XMLSAXNodeRule_Editor.java" startLine="534" startPosition="100" endLine="535" endPosition="50" conceptFqName="jetbrains.mps.baseLanguage.structure.SuperConstructorInvocation" />
+    <nodeInfo nodeId="8640335038346828087" fileName="XMLSAXNodeRule_Editor.java" startLine="538" startPosition="66" endLine="539" endPosition="41" conceptFqName="jetbrains.mps.baseLanguage.structure.LocalVariableDeclarationStatement" />
+    <nodeInfo nodeId="8640335038346828087" fileName="XMLSAXNodeRule_Editor.java" startLine="539" startPosition="41" endLine="540" endPosition="93" conceptFqName="jetbrains.mps.baseLanguage.structure.ReturnStatement" />
+    <nodeInfo nodeId="8640335038346828087" fileName="XMLSAXNodeRule_Editor.java" startLine="543" startPosition="86" endLine="544" endPosition="80" conceptFqName="jetbrains.mps.baseLanguage.structure.LocalVariableDeclarationStatement" />
+    <nodeInfo nodeId="8640335038346828087" fileName="XMLSAXNodeRule_Editor.java" startLine="544" startPosition="80" endLine="545" endPosition="95" conceptFqName="jetbrains.mps.baseLanguage.structure.ExpressionStatement" />
+    <nodeInfo nodeId="8640335038346828087" fileName="XMLSAXNodeRule_Editor.java" startLine="545" startPosition="95" endLine="546" endPosition="25" conceptFqName="jetbrains.mps.baseLanguage.structure.ReturnStatement" />
+    <nodeInfo nodeId="8640335038346828087" fileName="XMLSAXNodeRule_Editor.java" startLine="549" startPosition="68" endLine="550" endPosition="34" conceptFqName="jetbrains.mps.baseLanguage.structure.LocalVariableDeclarationStatement" />
+    <nodeInfo nodeId="8640335038346828087" fileName="XMLSAXNodeRule_Editor.java" startLine="550" startPosition="34" endLine="551" endPosition="80" conceptFqName="jetbrains.mps.baseLanguage.structure.ExpressionStatement" />
+    <nodeInfo nodeId="8640335038346828087" fileName="XMLSAXNodeRule_Editor.java" startLine="551" startPosition="80" endLine="552" endPosition="87" conceptFqName="jetbrains.mps.baseLanguage.structure.ExpressionStatement" />
+    <nodeInfo nodeId="8640335038346828087" fileName="XMLSAXNodeRule_Editor.java" startLine="552" startPosition="87" endLine="553" endPosition="23" conceptFqName="jetbrains.mps.baseLanguage.structure.ReturnStatement" />
+    <nodeInfo nodeId="8640335038346828087" fileName="XMLSAXNodeRule_Editor.java" startLine="556" startPosition="89" endLine="557" endPosition="66" conceptFqName="jetbrains.mps.baseLanguage.structure.ReturnStatement" />
+    <nodeInfo nodeId="8640335038346828087" fileName="XMLSAXNodeRule_Editor.java" startLine="561" startPosition="96" endLine="562" endPosition="134" conceptFqName="jetbrains.mps.baseLanguage.structure.ExpressionStatement" />
+    <nodeInfo nodeId="8640335038346828087" fileName="XMLSAXNodeRule_Editor.java" startLine="563" startPosition="34" endLine="564" endPosition="95" conceptFqName="jetbrains.mps.baseLanguage.structure.ExpressionStatement" />
+    <nodeInfo nodeId="8640335038346828087" fileName="XMLSAXNodeRule_Editor.java" startLine="564" startPosition="95" endLine="565" endPosition="80" conceptFqName="jetbrains.mps.baseLanguage.structure.ExpressionStatement" />
+    <nodeInfo nodeId="8640335038346828087" fileName="XMLSAXNodeRule_Editor.java" startLine="567" startPosition="131" endLine="568" endPosition="139" conceptFqName="jetbrains.mps.baseLanguage.structure.ExpressionStatement" />
+    <nodeInfo nodeId="8640335038346828087" fileName="XMLSAXNodeRule_Editor.java" startLine="574" startPosition="84" endLine="575" endPosition="100" conceptFqName="jetbrains.mps.baseLanguage.structure.LocalVariableDeclarationStatement" />
+    <nodeInfo nodeId="8640335038346828087" fileName="XMLSAXNodeRule_Editor.java" startLine="575" startPosition="100" endLine="576" endPosition="38" conceptFqName="jetbrains.mps.baseLanguage.structure.ExpressionStatement" />
+    <nodeInfo nodeId="8640335038346828087" fileName="XMLSAXNodeRule_Editor.java" startLine="577" startPosition="7" endLine="578" endPosition="44" conceptFqName="jetbrains.mps.baseLanguage.structure.LocalVariableDeclarationStatement" />
+    <nodeInfo nodeId="8640335038346828087" fileName="XMLSAXNodeRule_Editor.java" startLine="578" startPosition="44" endLine="579" endPosition="64" conceptFqName="jetbrains.mps.baseLanguage.structure.ExpressionStatement" />
+    <nodeInfo nodeId="8640335038346828087" fileName="XMLSAXNodeRule_Editor.java" startLine="580" startPosition="7" endLine="581" endPosition="71" conceptFqName="jetbrains.mps.baseLanguage.structure.ExpressionStatement" />
+    <nodeInfo nodeId="8640335038346828087" fileName="XMLSAXNodeRule_Editor.java" startLine="581" startPosition="71" endLine="582" endPosition="72" conceptFqName="jetbrains.mps.baseLanguage.structure.ExpressionStatement" />
+    <nodeInfo nodeId="8640335038346828087" fileName="XMLSAXNodeRule_Editor.java" startLine="582" startPosition="72" endLine="583" endPosition="24" conceptFqName="jetbrains.mps.baseLanguage.structure.ReturnStatement" />
+    <nodeInfo nodeId="8640335038346858586" fileName="XMLSAXNodeRule_Editor.java" startLine="586" startPosition="92" endLine="587" endPosition="101" conceptFqName="jetbrains.mps.baseLanguage.structure.LocalVariableDeclarationStatement" />
+    <nodeInfo nodeId="8640335038346858586" fileName="XMLSAXNodeRule_Editor.java" startLine="587" startPosition="101" endLine="588" endPosition="51" conceptFqName="jetbrains.mps.baseLanguage.structure.ExpressionStatement" />
+    <nodeInfo nodeId="8640335038346858586" fileName="XMLSAXNodeRule_Editor.java" startLine="589" startPosition="7" endLine="590" endPosition="44" conceptFqName="jetbrains.mps.baseLanguage.structure.LocalVariableDeclarationStatement" />
+    <nodeInfo nodeId="8640335038346858586" fileName="XMLSAXNodeRule_Editor.java" startLine="590" startPosition="44" endLine="591" endPosition="62" conceptFqName="jetbrains.mps.baseLanguage.structure.ExpressionStatement" />
+    <nodeInfo nodeId="8640335038346858586" fileName="XMLSAXNodeRule_Editor.java" startLine="592" startPosition="7" endLine="593" endPosition="36" conceptFqName="jetbrains.mps.baseLanguage.structure.ExpressionStatement" />
+    <nodeInfo nodeId="8640335038346858586" fileName="XMLSAXNodeRule_Editor.java" startLine="593" startPosition="36" endLine="594" endPosition="24" conceptFqName="jetbrains.mps.baseLanguage.structure.ReturnStatement" />
     <nodeInfo nodeId="2286463592495373141" fileName="XMLSAXNodeRule_Editor.java" startLine="131" startPosition="93" endLine="133" endPosition="69" conceptFqName="jetbrains.mps.baseLanguage.structure.BlockStatement" />
     <nodeInfo nodeId="4635390255047981677" fileName="XMLSAXNodeRule_Editor.java" startLine="271" startPosition="26" endLine="273" endPosition="73" conceptFqName="jetbrains.mps.baseLanguage.structure.BlockStatement" />
     <nodeInfo nodeId="2268737274628969587" fileName="XMLSAXNodeRule_Editor.java" startLine="288" startPosition="26" endLine="290" endPosition="73" conceptFqName="jetbrains.mps.baseLanguage.structure.BlockStatement" />
@@ -1476,10 +1476,10 @@
     <nodeInfo nodeId="4635390255047870157" fileName="XMLSAXNodeRule_Editor.java" startLine="77" startPosition="5" endLine="80" endPosition="5" conceptFqName="jetbrains.mps.baseLanguage.structure.IfStatement" />
     <nodeInfo nodeId="8640335038346890488" fileName="XMLSAXNodeRule_Editor.java" startLine="396" startPosition="26" endLine="399" endPosition="73" conceptFqName="jetbrains.mps.baseLanguage.structure.BlockStatement" />
     <nodeInfo nodeId="2286463592495362682" fileName="XMLSAXNodeRule_Editor.java" startLine="414" startPosition="26" endLine="417" endPosition="73" conceptFqName="jetbrains.mps.baseLanguage.structure.BlockStatement" />
-    <nodeInfo nodeId="4635390255047981705" fileName="XMLSAXNodeRule_Editor.java" startLine="464" startPosition="78" endLine="467" endPosition="5" conceptFqName="jetbrains.mps.baseLanguage.structure.ConstructorDeclaration" propertyString="attrsListHandler_b42orx_k0#(Ljetbrains/mps/smodel/SNode;Ljava/lang/String;Ljetbrains/mps/nodeEditor/EditorContext;)V" />
-    <nodeInfo nodeId="4635390255047981705" fileName="XMLSAXNodeRule_Editor.java" startLine="497" startPosition="9" endLine="500" endPosition="9" conceptFqName="jetbrains.mps.baseLanguage.structure.IfStatement" />
-    <nodeInfo nodeId="8640335038346828087" fileName="XMLSAXNodeRule_Editor.java" startLine="529" startPosition="81" endLine="532" endPosition="5" conceptFqName="jetbrains.mps.baseLanguage.structure.ConstructorDeclaration" propertyString="childrenListHandler_b42orx_m0#(Ljetbrains/mps/smodel/SNode;Ljava/lang/String;Ljetbrains/mps/nodeEditor/EditorContext;)V" />
-    <nodeInfo nodeId="8640335038346828087" fileName="XMLSAXNodeRule_Editor.java" startLine="562" startPosition="9" endLine="565" endPosition="9" conceptFqName="jetbrains.mps.baseLanguage.structure.IfStatement" />
+    <nodeInfo nodeId="4635390255047981705" fileName="XMLSAXNodeRule_Editor.java" startLine="468" startPosition="78" endLine="471" endPosition="5" conceptFqName="jetbrains.mps.baseLanguage.structure.ConstructorDeclaration" propertyString="attrsListHandler_b42orx_k0#(Ljetbrains/mps/smodel/SNode;Ljava/lang/String;Ljetbrains/mps/nodeEditor/EditorContext;)V" />
+    <nodeInfo nodeId="4635390255047981705" fileName="XMLSAXNodeRule_Editor.java" startLine="501" startPosition="9" endLine="504" endPosition="9" conceptFqName="jetbrains.mps.baseLanguage.structure.IfStatement" />
+    <nodeInfo nodeId="8640335038346828087" fileName="XMLSAXNodeRule_Editor.java" startLine="533" startPosition="81" endLine="536" endPosition="5" conceptFqName="jetbrains.mps.baseLanguage.structure.ConstructorDeclaration" propertyString="childrenListHandler_b42orx_m0#(Ljetbrains/mps/smodel/SNode;Ljava/lang/String;Ljetbrains/mps/nodeEditor/EditorContext;)V" />
+    <nodeInfo nodeId="8640335038346828087" fileName="XMLSAXNodeRule_Editor.java" startLine="566" startPosition="9" endLine="569" endPosition="9" conceptFqName="jetbrains.mps.baseLanguage.structure.IfStatement" />
     <nodeInfo nodeId="4635390255047870155" fileName="XMLSAXNodeRule_Editor.java" startLine="34" startPosition="62" endLine="38" endPosition="0" conceptFqName="jetbrains.mps.baseLanguage.structure.InstanceMethodDeclaration" propertyString="createEditorCell#(Ljetbrains/mps/nodeEditor/EditorContext;Ljetbrains/mps/smodel/SNode;)Ljetbrains/mps/nodeEditor/cells/EditorCell;" />
     <nodeInfo nodeId="4635390255047870155" fileName="XMLSAXNodeRule_Editor.java" startLine="38" startPosition="0" endLine="42" endPosition="0" conceptFqName="jetbrains.mps.baseLanguage.structure.InstanceMethodDeclaration" propertyString="createInspectedCell#(Ljetbrains/mps/nodeEditor/EditorContext;Ljetbrains/mps/smodel/SNode;)Ljetbrains/mps/nodeEditor/cells/EditorCell;" />
     <nodeInfo nodeId="8640335038346890483" fileName="XMLSAXNodeRule_Editor.java" startLine="108" startPosition="49" endLine="112" endPosition="5" conceptFqName="jetbrains.mps.baseLanguage.structure.BlockStatement" />
@@ -1495,14 +1495,15 @@
     <nodeInfo nodeId="2286463592495477061" fileName="XMLSAXNodeRule_Editor.java" startLine="451" startPosition="0" endLine="455" endPosition="0" conceptFqName="jetbrains.mps.baseLanguage.structure.StaticMethodDeclaration" propertyString="renderingCondition_b42orx_a41a#(Ljetbrains/mps/smodel/SNode;Ljetbrains/mps/nodeEditor/EditorContext;Ljetbrains/mps/smodel/IScope;)Z" />
     <nodeInfo nodeId="3444414697307356873" fileName="XMLSAXNodeRule_Editor.java" startLine="455" startPosition="0" endLine="459" endPosition="0" conceptFqName="jetbrains.mps.baseLanguage.structure.StaticMethodDeclaration" propertyString="renderingCondition_b42orx_a51a#(Ljetbrains/mps/smodel/SNode;Ljetbrains/mps/nodeEditor/EditorContext;Ljetbrains/mps/smodel/IScope;)Z" />
     <nodeInfo nodeId="2286463592495477086" fileName="XMLSAXNodeRule_Editor.java" startLine="459" startPosition="0" endLine="463" endPosition="0" conceptFqName="jetbrains.mps.baseLanguage.structure.StaticMethodDeclaration" propertyString="renderingCondition_b42orx_a61a#(Ljetbrains/mps/smodel/SNode;Ljetbrains/mps/nodeEditor/EditorContext;Ljetbrains/mps/smodel/IScope;)Z" />
-    <nodeInfo nodeId="4635390255047981705" fileName="XMLSAXNodeRule_Editor.java" startLine="486" startPosition="0" endLine="490" endPosition="0" conceptFqName="jetbrains.mps.baseLanguage.structure.InstanceMethodDeclaration" propertyString="createEmptyCell_internal#(Ljetbrains/mps/nodeEditor/EditorContext;Ljetbrains/mps/smodel/SNode;)Ljetbrains/mps/nodeEditor/cells/EditorCell;" />
-    <nodeInfo nodeId="4635390255047981705" fileName="XMLSAXNodeRule_Editor.java" startLine="493" startPosition="134" endLine="497" endPosition="9" conceptFqName="jetbrains.mps.baseLanguage.structure.IfStatement" />
-    <nodeInfo nodeId="4635390255047981705" fileName="XMLSAXNodeRule_Editor.java" startLine="507" startPosition="38" endLine="511" endPosition="7" conceptFqName="jetbrains.mps.baseLanguage.structure.BlockStatement" />
-    <nodeInfo nodeId="8640335038346858587" fileName="XMLSAXNodeRule_Editor.java" startLine="519" startPosition="51" endLine="523" endPosition="7" conceptFqName="jetbrains.mps.baseLanguage.structure.BlockStatement" />
-    <nodeInfo nodeId="8640335038346828087" fileName="XMLSAXNodeRule_Editor.java" startLine="551" startPosition="0" endLine="555" endPosition="0" conceptFqName="jetbrains.mps.baseLanguage.structure.InstanceMethodDeclaration" propertyString="createEmptyCell_internal#(Ljetbrains/mps/nodeEditor/EditorContext;Ljetbrains/mps/smodel/SNode;)Ljetbrains/mps/nodeEditor/cells/EditorCell;" />
-    <nodeInfo nodeId="8640335038346828087" fileName="XMLSAXNodeRule_Editor.java" startLine="558" startPosition="134" endLine="562" endPosition="9" conceptFqName="jetbrains.mps.baseLanguage.structure.IfStatement" />
-    <nodeInfo nodeId="8640335038346828087" fileName="XMLSAXNodeRule_Editor.java" startLine="572" startPosition="38" endLine="576" endPosition="7" conceptFqName="jetbrains.mps.baseLanguage.structure.BlockStatement" />
-    <nodeInfo nodeId="8640335038346858586" fileName="XMLSAXNodeRule_Editor.java" startLine="584" startPosition="51" endLine="588" endPosition="7" conceptFqName="jetbrains.mps.baseLanguage.structure.BlockStatement" />
+    <nodeInfo nodeId="8640335038346963443" fileName="XMLSAXNodeRule_Editor.java" startLine="463" startPosition="0" endLine="467" endPosition="0" conceptFqName="jetbrains.mps.baseLanguage.structure.StaticMethodDeclaration" propertyString="isNotEmpty_b42orx_a0a0b#(Ljava/lang/String;)Z" />
+    <nodeInfo nodeId="4635390255047981705" fileName="XMLSAXNodeRule_Editor.java" startLine="490" startPosition="0" endLine="494" endPosition="0" conceptFqName="jetbrains.mps.baseLanguage.structure.InstanceMethodDeclaration" propertyString="createEmptyCell_internal#(Ljetbrains/mps/nodeEditor/EditorContext;Ljetbrains/mps/smodel/SNode;)Ljetbrains/mps/nodeEditor/cells/EditorCell;" />
+    <nodeInfo nodeId="4635390255047981705" fileName="XMLSAXNodeRule_Editor.java" startLine="497" startPosition="134" endLine="501" endPosition="9" conceptFqName="jetbrains.mps.baseLanguage.structure.IfStatement" />
+    <nodeInfo nodeId="4635390255047981705" fileName="XMLSAXNodeRule_Editor.java" startLine="511" startPosition="38" endLine="515" endPosition="7" conceptFqName="jetbrains.mps.baseLanguage.structure.BlockStatement" />
+    <nodeInfo nodeId="8640335038346858587" fileName="XMLSAXNodeRule_Editor.java" startLine="523" startPosition="51" endLine="527" endPosition="7" conceptFqName="jetbrains.mps.baseLanguage.structure.BlockStatement" />
+    <nodeInfo nodeId="8640335038346828087" fileName="XMLSAXNodeRule_Editor.java" startLine="555" startPosition="0" endLine="559" endPosition="0" conceptFqName="jetbrains.mps.baseLanguage.structure.InstanceMethodDeclaration" propertyString="createEmptyCell_internal#(Ljetbrains/mps/nodeEditor/EditorContext;Ljetbrains/mps/smodel/SNode;)Ljetbrains/mps/nodeEditor/cells/EditorCell;" />
+    <nodeInfo nodeId="8640335038346828087" fileName="XMLSAXNodeRule_Editor.java" startLine="562" startPosition="134" endLine="566" endPosition="9" conceptFqName="jetbrains.mps.baseLanguage.structure.IfStatement" />
+    <nodeInfo nodeId="8640335038346828087" fileName="XMLSAXNodeRule_Editor.java" startLine="576" startPosition="38" endLine="580" endPosition="7" conceptFqName="jetbrains.mps.baseLanguage.structure.BlockStatement" />
+    <nodeInfo nodeId="8640335038346858586" fileName="XMLSAXNodeRule_Editor.java" startLine="588" startPosition="51" endLine="592" endPosition="7" conceptFqName="jetbrains.mps.baseLanguage.structure.BlockStatement" />
     <nodeInfo nodeId="8640335038346890483" fileName="XMLSAXNodeRule_Editor.java" startLine="107" startPosition="96" endLine="112" endPosition="5" conceptFqName="jetbrains.mps.baseLanguage.structure.BlockStatement" />
     <nodeInfo nodeId="2286463592495362676" fileName="XMLSAXNodeRule_Editor.java" startLine="119" startPosition="96" endLine="124" endPosition="5" conceptFqName="jetbrains.mps.baseLanguage.structure.BlockStatement" />
     <nodeInfo nodeId="4635390255047981679" fileName="XMLSAXNodeRule_Editor.java" startLine="160" startPosition="87" endLine="165" endPosition="5" conceptFqName="jetbrains.mps.baseLanguage.structure.BlockStatement" />
@@ -1516,10 +1517,10 @@
     <nodeInfo nodeId="3444414697307356527" fileName="XMLSAXNodeRule_Editor.java" startLine="328" startPosition="58" endLine="333" endPosition="5" conceptFqName="jetbrains.mps.baseLanguage.structure.BlockStatement" />
     <nodeInfo nodeId="4635390255047870162" fileName="XMLSAXNodeRule_Editor.java" startLine="351" startPosition="42" endLine="356" endPosition="5" conceptFqName="jetbrains.mps.baseLanguage.structure.BlockStatement" />
     <nodeInfo nodeId="4635390255047870173" fileName="XMLSAXNodeRule_Editor.java" startLine="374" startPosition="58" endLine="379" endPosition="5" conceptFqName="jetbrains.mps.baseLanguage.structure.BlockStatement" />
-    <nodeInfo nodeId="4635390255047981705" fileName="XMLSAXNodeRule_Editor.java" startLine="468" startPosition="0" endLine="473" endPosition="0" conceptFqName="jetbrains.mps.baseLanguage.structure.InstanceMethodDeclaration" propertyString="createNodeToInsert#(Ljetbrains/mps/nodeEditor/EditorContext;)Ljetbrains/mps/smodel/SNode;" />
-    <nodeInfo nodeId="8640335038346858587" fileName="XMLSAXNodeRule_Editor.java" startLine="518" startPosition="103" endLine="523" endPosition="7" conceptFqName="jetbrains.mps.baseLanguage.structure.BlockStatement" />
-    <nodeInfo nodeId="8640335038346828087" fileName="XMLSAXNodeRule_Editor.java" startLine="533" startPosition="0" endLine="538" endPosition="0" conceptFqName="jetbrains.mps.baseLanguage.structure.InstanceMethodDeclaration" propertyString="createNodeToInsert#(Ljetbrains/mps/nodeEditor/EditorContext;)Ljetbrains/mps/smodel/SNode;" />
-    <nodeInfo nodeId="8640335038346858586" fileName="XMLSAXNodeRule_Editor.java" startLine="583" startPosition="101" endLine="588" endPosition="7" conceptFqName="jetbrains.mps.baseLanguage.structure.BlockStatement" />
+    <nodeInfo nodeId="4635390255047981705" fileName="XMLSAXNodeRule_Editor.java" startLine="472" startPosition="0" endLine="477" endPosition="0" conceptFqName="jetbrains.mps.baseLanguage.structure.InstanceMethodDeclaration" propertyString="createNodeToInsert#(Ljetbrains/mps/nodeEditor/EditorContext;)Ljetbrains/mps/smodel/SNode;" />
+    <nodeInfo nodeId="8640335038346858587" fileName="XMLSAXNodeRule_Editor.java" startLine="522" startPosition="103" endLine="527" endPosition="7" conceptFqName="jetbrains.mps.baseLanguage.structure.BlockStatement" />
+    <nodeInfo nodeId="8640335038346828087" fileName="XMLSAXNodeRule_Editor.java" startLine="537" startPosition="0" endLine="542" endPosition="0" conceptFqName="jetbrains.mps.baseLanguage.structure.InstanceMethodDeclaration" propertyString="createNodeToInsert#(Ljetbrains/mps/nodeEditor/EditorContext;)Ljetbrains/mps/smodel/SNode;" />
+    <nodeInfo nodeId="8640335038346858586" fileName="XMLSAXNodeRule_Editor.java" startLine="587" startPosition="101" endLine="592" endPosition="7" conceptFqName="jetbrains.mps.baseLanguage.structure.BlockStatement" />
     <nodeInfo nodeId="2268737274628969678" fileName="XMLSAXNodeRule_Editor.java" startLine="87" startPosition="49" endLine="93" endPosition="5" conceptFqName="jetbrains.mps.baseLanguage.structure.BlockStatement" />
     <nodeInfo nodeId="2268737274628969585" fileName="XMLSAXNodeRule_Editor.java" startLine="171" startPosition="86" endLine="177" endPosition="5" conceptFqName="jetbrains.mps.baseLanguage.structure.BlockStatement" />
     <nodeInfo nodeId="8640335038346858589" fileName="XMLSAXNodeRule_Editor.java" startLine="183" startPosition="86" endLine="189" endPosition="5" conceptFqName="jetbrains.mps.baseLanguage.structure.BlockStatement" />
@@ -1536,8 +1537,8 @@
     <nodeInfo nodeId="4635390255047870173" fileName="XMLSAXNodeRule_Editor.java" startLine="382" startPosition="59" endLine="388" endPosition="22" conceptFqName="jetbrains.mps.baseLanguage.structure.IfStatement" />
     <nodeInfo nodeId="8640335038346890488" fileName="XMLSAXNodeRule_Editor.java" startLine="401" startPosition="59" endLine="407" endPosition="22" conceptFqName="jetbrains.mps.baseLanguage.structure.IfStatement" />
     <nodeInfo nodeId="2286463592495362682" fileName="XMLSAXNodeRule_Editor.java" startLine="419" startPosition="59" endLine="425" endPosition="22" conceptFqName="jetbrains.mps.baseLanguage.structure.IfStatement" />
-    <nodeInfo nodeId="4635390255047981705" fileName="XMLSAXNodeRule_Editor.java" startLine="473" startPosition="0" endLine="479" endPosition="0" conceptFqName="jetbrains.mps.baseLanguage.structure.InstanceMethodDeclaration" propertyString="createNodeCell#(Ljetbrains/mps/nodeEditor/EditorContext;Ljetbrains/mps/smodel/SNode;)Ljetbrains/mps/nodeEditor/cells/EditorCell;" />
-    <nodeInfo nodeId="8640335038346828087" fileName="XMLSAXNodeRule_Editor.java" startLine="538" startPosition="0" endLine="544" endPosition="0" conceptFqName="jetbrains.mps.baseLanguage.structure.InstanceMethodDeclaration" propertyString="createNodeCell#(Ljetbrains/mps/nodeEditor/EditorContext;Ljetbrains/mps/smodel/SNode;)Ljetbrains/mps/nodeEditor/cells/EditorCell;" />
+    <nodeInfo nodeId="4635390255047981705" fileName="XMLSAXNodeRule_Editor.java" startLine="477" startPosition="0" endLine="483" endPosition="0" conceptFqName="jetbrains.mps.baseLanguage.structure.InstanceMethodDeclaration" propertyString="createNodeCell#(Ljetbrains/mps/nodeEditor/EditorContext;Ljetbrains/mps/smodel/SNode;)Ljetbrains/mps/nodeEditor/cells/EditorCell;" />
+    <nodeInfo nodeId="8640335038346828087" fileName="XMLSAXNodeRule_Editor.java" startLine="542" startPosition="0" endLine="548" endPosition="0" conceptFqName="jetbrains.mps.baseLanguage.structure.InstanceMethodDeclaration" propertyString="createNodeCell#(Ljetbrains/mps/nodeEditor/EditorContext;Ljetbrains/mps/smodel/SNode;)Ljetbrains/mps/nodeEditor/cells/EditorCell;" />
     <nodeInfo nodeId="2268737274628969678" fileName="XMLSAXNodeRule_Editor.java" startLine="86" startPosition="96" endLine="93" endPosition="5" conceptFqName="jetbrains.mps.baseLanguage.structure.BlockStatement" />
     <nodeInfo nodeId="4635390255047870160" fileName="XMLSAXNodeRule_Editor.java" startLine="137" startPosition="0" endLine="144" endPosition="0" conceptFqName="jetbrains.mps.baseLanguage.structure.InstanceMethodDeclaration" propertyString="createConstant_b42orx_b0#(Ljetbrains/mps/nodeEditor/EditorContext;Ljetbrains/mps/smodel/SNode;)Ljetbrains/mps/nodeEditor/cells/EditorCell;" />
     <nodeInfo nodeId="4635390255047870171" fileName="XMLSAXNodeRule_Editor.java" startLine="144" startPosition="0" endLine="151" endPosition="0" conceptFqName="jetbrains.mps.baseLanguage.structure.InstanceMethodDeclaration" propertyString="createConstant_b42orx_d0#(Ljetbrains/mps/nodeEditor/EditorContext;Ljetbrains/mps/smodel/SNode;)Ljetbrains/mps/nodeEditor/cells/EditorCell;" />
@@ -1550,16 +1551,16 @@
     <nodeInfo nodeId="4635390255048098150" fileName="XMLSAXNodeRule_Editor.java" startLine="305" startPosition="26" endLine="312" endPosition="73" conceptFqName="jetbrains.mps.baseLanguage.structure.BlockStatement" />
     <nodeInfo nodeId="3444414697307356527" fileName="XMLSAXNodeRule_Editor.java" startLine="327" startPosition="26" endLine="334" endPosition="73" conceptFqName="jetbrains.mps.baseLanguage.structure.BlockStatement" />
     <nodeInfo nodeId="4635390255047870173" fileName="XMLSAXNodeRule_Editor.java" startLine="373" startPosition="26" endLine="380" endPosition="73" conceptFqName="jetbrains.mps.baseLanguage.structure.BlockStatement" />
-    <nodeInfo nodeId="4635390255047981705" fileName="XMLSAXNodeRule_Editor.java" startLine="479" startPosition="0" endLine="486" endPosition="0" conceptFqName="jetbrains.mps.baseLanguage.structure.InstanceMethodDeclaration" propertyString="createEmptyCell#(Ljetbrains/mps/nodeEditor/EditorContext;)Ljetbrains/mps/nodeEditor/cells/EditorCell;" />
-    <nodeInfo nodeId="8640335038346828087" fileName="XMLSAXNodeRule_Editor.java" startLine="544" startPosition="0" endLine="551" endPosition="0" conceptFqName="jetbrains.mps.baseLanguage.structure.InstanceMethodDeclaration" propertyString="createEmptyCell#(Ljetbrains/mps/nodeEditor/EditorContext;)Ljetbrains/mps/nodeEditor/cells/EditorCell;" />
+    <nodeInfo nodeId="4635390255047981705" fileName="XMLSAXNodeRule_Editor.java" startLine="483" startPosition="0" endLine="490" endPosition="0" conceptFqName="jetbrains.mps.baseLanguage.structure.InstanceMethodDeclaration" propertyString="createEmptyCell#(Ljetbrains/mps/nodeEditor/EditorContext;)Ljetbrains/mps/nodeEditor/cells/EditorCell;" />
+    <nodeInfo nodeId="8640335038346828087" fileName="XMLSAXNodeRule_Editor.java" startLine="548" startPosition="0" endLine="555" endPosition="0" conceptFqName="jetbrains.mps.baseLanguage.structure.InstanceMethodDeclaration" propertyString="createEmptyCell#(Ljetbrains/mps/nodeEditor/EditorContext;)Ljetbrains/mps/nodeEditor/cells/EditorCell;" />
     <nodeInfo nodeId="8640335038346890481" fileName="XMLSAXNodeRule_Editor.java" startLine="97" startPosition="0" endLine="105" endPosition="0" conceptFqName="jetbrains.mps.baseLanguage.structure.InstanceMethodDeclaration" propertyString="createCollection_b42orx_a_0#(Ljetbrains/mps/nodeEditor/EditorContext;Ljetbrains/mps/smodel/SNode;)Ljetbrains/mps/nodeEditor/cells/EditorCell;" />
     <nodeInfo nodeId="2286463592495373141" fileName="XMLSAXNodeRule_Editor.java" startLine="129" startPosition="0" endLine="137" endPosition="0" conceptFqName="jetbrains.mps.baseLanguage.structure.InstanceMethodDeclaration" propertyString="createConstant_b42orx_a0#(Ljetbrains/mps/nodeEditor/EditorContext;Ljetbrains/mps/smodel/SNode;)Ljetbrains/mps/nodeEditor/cells/EditorCell;" />
     <nodeInfo nodeId="4635390255047870162" fileName="XMLSAXNodeRule_Editor.java" startLine="349" startPosition="26" endLine="357" endPosition="73" conceptFqName="jetbrains.mps.baseLanguage.structure.BlockStatement" />
-    <nodeInfo nodeId="4635390255047981705" fileName="XMLSAXNodeRule_Editor.java" startLine="491" startPosition="132" endLine="501" endPosition="7" conceptFqName="jetbrains.mps.baseLanguage.structure.IfStatement" />
-    <nodeInfo nodeId="8640335038346828087" fileName="XMLSAXNodeRule_Editor.java" startLine="556" startPosition="132" endLine="566" endPosition="7" conceptFqName="jetbrains.mps.baseLanguage.structure.IfStatement" />
+    <nodeInfo nodeId="4635390255047981705" fileName="XMLSAXNodeRule_Editor.java" startLine="495" startPosition="132" endLine="505" endPosition="7" conceptFqName="jetbrains.mps.baseLanguage.structure.IfStatement" />
+    <nodeInfo nodeId="8640335038346828087" fileName="XMLSAXNodeRule_Editor.java" startLine="560" startPosition="132" endLine="570" endPosition="7" conceptFqName="jetbrains.mps.baseLanguage.structure.IfStatement" />
     <nodeInfo nodeId="4635390255047981679" fileName="XMLSAXNodeRule_Editor.java" startLine="158" startPosition="0" endLine="169" endPosition="0" conceptFqName="jetbrains.mps.baseLanguage.structure.InstanceMethodDeclaration" propertyString="createConstant_b42orx_h0#(Ljetbrains/mps/nodeEditor/EditorContext;Ljetbrains/mps/smodel/SNode;)Ljetbrains/mps/nodeEditor/cells/EditorCell;" />
-    <nodeInfo nodeId="8640335038346858587" fileName="XMLSAXNodeRule_Editor.java" startLine="516" startPosition="0" endLine="527" endPosition="0" conceptFqName="jetbrains.mps.baseLanguage.structure.InstanceMethodDeclaration" propertyString="createConstant_b42orx_a01a#(Ljetbrains/mps/nodeEditor/EditorContext;Ljetbrains/mps/smodel/SNode;)Ljetbrains/mps/nodeEditor/cells/EditorCell;" />
-    <nodeInfo nodeId="8640335038346858586" fileName="XMLSAXNodeRule_Editor.java" startLine="581" startPosition="0" endLine="592" endPosition="0" conceptFqName="jetbrains.mps.baseLanguage.structure.InstanceMethodDeclaration" propertyString="createConstant_b42orx_a21a#(Ljetbrains/mps/nodeEditor/EditorContext;Ljetbrains/mps/smodel/SNode;)Ljetbrains/mps/nodeEditor/cells/EditorCell;" />
+    <nodeInfo nodeId="8640335038346858587" fileName="XMLSAXNodeRule_Editor.java" startLine="520" startPosition="0" endLine="531" endPosition="0" conceptFqName="jetbrains.mps.baseLanguage.structure.InstanceMethodDeclaration" propertyString="createConstant_b42orx_a01a#(Ljetbrains/mps/nodeEditor/EditorContext;Ljetbrains/mps/smodel/SNode;)Ljetbrains/mps/nodeEditor/cells/EditorCell;" />
+    <nodeInfo nodeId="8640335038346858586" fileName="XMLSAXNodeRule_Editor.java" startLine="585" startPosition="0" endLine="596" endPosition="0" conceptFqName="jetbrains.mps.baseLanguage.structure.InstanceMethodDeclaration" propertyString="createConstant_b42orx_a21a#(Ljetbrains/mps/nodeEditor/EditorContext;Ljetbrains/mps/smodel/SNode;)Ljetbrains/mps/nodeEditor/cells/EditorCell;" />
     <nodeInfo nodeId="8640335038346890483" fileName="XMLSAXNodeRule_Editor.java" startLine="105" startPosition="0" endLine="117" endPosition="0" conceptFqName="jetbrains.mps.baseLanguage.structure.InstanceMethodDeclaration" propertyString="createCollection_b42orx_a0#(Ljetbrains/mps/nodeEditor/EditorContext;Ljetbrains/mps/smodel/SNode;)Ljetbrains/mps/nodeEditor/cells/EditorCell;" />
     <nodeInfo nodeId="2286463592495362676" fileName="XMLSAXNodeRule_Editor.java" startLine="117" startPosition="0" endLine="129" endPosition="0" conceptFqName="jetbrains.mps.baseLanguage.structure.InstanceMethodDeclaration" propertyString="createCollection_b42orx_b0#(Ljetbrains/mps/nodeEditor/EditorContext;Ljetbrains/mps/smodel/SNode;)Ljetbrains/mps/nodeEditor/cells/EditorCell;" />
     <nodeInfo nodeId="2268737274628969585" fileName="XMLSAXNodeRule_Editor.java" startLine="169" startPosition="0" endLine="181" endPosition="0" conceptFqName="jetbrains.mps.baseLanguage.structure.InstanceMethodDeclaration" propertyString="createConstant_b42orx_j0#(Ljetbrains/mps/nodeEditor/EditorContext;Ljetbrains/mps/smodel/SNode;)Ljetbrains/mps/nodeEditor/cells/EditorCell;" />
@@ -1567,10 +1568,10 @@
     <nodeInfo nodeId="8640335038346858595" fileName="XMLSAXNodeRule_Editor.java" startLine="193" startPosition="0" endLine="205" endPosition="0" conceptFqName="jetbrains.mps.baseLanguage.structure.InstanceMethodDeclaration" propertyString="createConstant_b42orx_n0#(Ljetbrains/mps/nodeEditor/EditorContext;Ljetbrains/mps/smodel/SNode;)Ljetbrains/mps/nodeEditor/cells/EditorCell;" />
     <nodeInfo nodeId="3444414697307356870" fileName="XMLSAXNodeRule_Editor.java" startLine="205" startPosition="0" endLine="217" endPosition="0" conceptFqName="jetbrains.mps.baseLanguage.structure.InstanceMethodDeclaration" propertyString="createConstant_b42orx_p0#(Ljetbrains/mps/nodeEditor/EditorContext;Ljetbrains/mps/smodel/SNode;)Ljetbrains/mps/nodeEditor/cells/EditorCell;" />
     <nodeInfo nodeId="2268737274628969678" fileName="XMLSAXNodeRule_Editor.java" startLine="84" startPosition="0" endLine="97" endPosition="0" conceptFqName="jetbrains.mps.baseLanguage.structure.InstanceMethodDeclaration" propertyString="createCollection_b42orx_i0#(Ljetbrains/mps/nodeEditor/EditorContext;Ljetbrains/mps/smodel/SNode;)Ljetbrains/mps/nodeEditor/cells/EditorCell;" />
-    <nodeInfo nodeId="4635390255047981705" fileName="XMLSAXNodeRule_Editor.java" startLine="490" startPosition="0" endLine="503" endPosition="0" conceptFqName="jetbrains.mps.baseLanguage.structure.InstanceMethodDeclaration" propertyString="installElementCellActions#(Ljetbrains/mps/smodel/SNode;Ljetbrains/mps/smodel/SNode;Ljetbrains/mps/nodeEditor/cells/EditorCell;Ljetbrains/mps/nodeEditor/EditorContext;)V" />
-    <nodeInfo nodeId="4635390255047981705" fileName="XMLSAXNodeRule_Editor.java" startLine="503" startPosition="0" endLine="516" endPosition="0" conceptFqName="jetbrains.mps.baseLanguage.structure.InstanceMethodDeclaration" propertyString="createSeparatorCell#(Ljetbrains/mps/nodeEditor/EditorContext;Ljetbrains/mps/smodel/SNode;)Ljetbrains/mps/nodeEditor/cells/EditorCell;" />
-    <nodeInfo nodeId="8640335038346828087" fileName="XMLSAXNodeRule_Editor.java" startLine="555" startPosition="0" endLine="568" endPosition="0" conceptFqName="jetbrains.mps.baseLanguage.structure.InstanceMethodDeclaration" propertyString="installElementCellActions#(Ljetbrains/mps/smodel/SNode;Ljetbrains/mps/smodel/SNode;Ljetbrains/mps/nodeEditor/cells/EditorCell;Ljetbrains/mps/nodeEditor/EditorContext;)V" />
-    <nodeInfo nodeId="8640335038346828087" fileName="XMLSAXNodeRule_Editor.java" startLine="568" startPosition="0" endLine="581" endPosition="0" conceptFqName="jetbrains.mps.baseLanguage.structure.InstanceMethodDeclaration" propertyString="createSeparatorCell#(Ljetbrains/mps/nodeEditor/EditorContext;Ljetbrains/mps/smodel/SNode;)Ljetbrains/mps/nodeEditor/cells/EditorCell;" />
+    <nodeInfo nodeId="4635390255047981705" fileName="XMLSAXNodeRule_Editor.java" startLine="494" startPosition="0" endLine="507" endPosition="0" conceptFqName="jetbrains.mps.baseLanguage.structure.InstanceMethodDeclaration" propertyString="installElementCellActions#(Ljetbrains/mps/smodel/SNode;Ljetbrains/mps/smodel/SNode;Ljetbrains/mps/nodeEditor/cells/EditorCell;Ljetbrains/mps/nodeEditor/EditorContext;)V" />
+    <nodeInfo nodeId="4635390255047981705" fileName="XMLSAXNodeRule_Editor.java" startLine="507" startPosition="0" endLine="520" endPosition="0" conceptFqName="jetbrains.mps.baseLanguage.structure.InstanceMethodDeclaration" propertyString="createSeparatorCell#(Ljetbrains/mps/nodeEditor/EditorContext;Ljetbrains/mps/smodel/SNode;)Ljetbrains/mps/nodeEditor/cells/EditorCell;" />
+    <nodeInfo nodeId="8640335038346828087" fileName="XMLSAXNodeRule_Editor.java" startLine="559" startPosition="0" endLine="572" endPosition="0" conceptFqName="jetbrains.mps.baseLanguage.structure.InstanceMethodDeclaration" propertyString="installElementCellActions#(Ljetbrains/mps/smodel/SNode;Ljetbrains/mps/smodel/SNode;Ljetbrains/mps/nodeEditor/cells/EditorCell;Ljetbrains/mps/nodeEditor/EditorContext;)V" />
+    <nodeInfo nodeId="8640335038346828087" fileName="XMLSAXNodeRule_Editor.java" startLine="572" startPosition="0" endLine="585" endPosition="0" conceptFqName="jetbrains.mps.baseLanguage.structure.InstanceMethodDeclaration" propertyString="createSeparatorCell#(Ljetbrains/mps/nodeEditor/EditorContext;Ljetbrains/mps/smodel/SNode;)Ljetbrains/mps/nodeEditor/cells/EditorCell;" />
     <nodeInfo nodeId="4635390255047981705" fileName="XMLSAXNodeRule_Editor.java" startLine="238" startPosition="0" endLine="252" endPosition="0" conceptFqName="jetbrains.mps.baseLanguage.structure.InstanceMethodDeclaration" propertyString="createRefNodeList_b42orx_k0#(Ljetbrains/mps/nodeEditor/EditorContext;Ljetbrains/mps/smodel/SNode;)Ljetbrains/mps/nodeEditor/cells/EditorCell;" />
     <nodeInfo nodeId="8640335038346828087" fileName="XMLSAXNodeRule_Editor.java" startLine="252" startPosition="0" endLine="266" endPosition="0" conceptFqName="jetbrains.mps.baseLanguage.structure.InstanceMethodDeclaration" propertyString="createRefNodeList_b42orx_m0#(Ljetbrains/mps/nodeEditor/EditorContext;Ljetbrains/mps/smodel/SNode;)Ljetbrains/mps/nodeEditor/cells/EditorCell;" />
     <nodeInfo nodeId="4635390255047981677" fileName="XMLSAXNodeRule_Editor.java" startLine="266" startPosition="0" endLine="283" endPosition="0" conceptFqName="jetbrains.mps.baseLanguage.structure.InstanceMethodDeclaration" propertyString="createRefNode_b42orx_g0#(Ljetbrains/mps/nodeEditor/EditorContext;Ljetbrains/mps/smodel/SNode;)Ljetbrains/mps/nodeEditor/cells/EditorCell;" />
@@ -1622,7 +1623,7 @@
     <scopeInfo nodeId="8640335038346890488" fileName="XMLSAXNodeRule_Editor.java" startLine="397" startPosition="58" endLine="398" endPosition="47" />
     <scopeInfo nodeId="2286463592495362682" fileName="XMLSAXNodeRule_Editor.java" startLine="415" startPosition="58" endLine="416" endPosition="47" />
     <scopeInfo nodeId="2286463592495373143" fileName="XMLSAXNodeRule_Editor.java" startLine="428" startPosition="111" endLine="429" endPosition="61" />
-    <scopeInfo nodeId="8640335038346963435" fileName="XMLSAXNodeRule_Editor.java" startLine="432" startPosition="111" endLine="433" endPosition="82" />
+    <scopeInfo nodeId="8640335038346963435" fileName="XMLSAXNodeRule_Editor.java" startLine="432" startPosition="111" endLine="433" endPosition="83" />
     <scopeInfo nodeId="2268737274628969595" fileName="XMLSAXNodeRule_Editor.java" startLine="436" startPosition="111" endLine="437" endPosition="215" />
     <scopeInfo nodeId="2268737274628969609" fileName="XMLSAXNodeRule_Editor.java" startLine="440" startPosition="112" endLine="441" endPosition="243" />
     <scopeInfo nodeId="2286463592495477037" fileName="XMLSAXNodeRule_Editor.java" startLine="444" startPosition="112" endLine="445" endPosition="154" />
@@ -1630,12 +1631,13 @@
     <scopeInfo nodeId="2286463592495477062" fileName="XMLSAXNodeRule_Editor.java" startLine="452" startPosition="112" endLine="453" endPosition="123" />
     <scopeInfo nodeId="3444414697307356874" fileName="XMLSAXNodeRule_Editor.java" startLine="456" startPosition="112" endLine="457" endPosition="189" />
     <scopeInfo nodeId="2286463592495477087" fileName="XMLSAXNodeRule_Editor.java" startLine="460" startPosition="112" endLine="461" endPosition="128" />
-    <scopeInfo nodeId="4635390255047981705" fileName="XMLSAXNodeRule_Editor.java" startLine="465" startPosition="97" endLine="466" endPosition="50" />
-    <scopeInfo nodeId="4635390255047981705" fileName="XMLSAXNodeRule_Editor.java" startLine="487" startPosition="89" endLine="488" endPosition="66" />
-    <scopeInfo nodeId="4635390255047981705" fileName="XMLSAXNodeRule_Editor.java" startLine="498" startPosition="131" endLine="499" endPosition="139" />
-    <scopeInfo nodeId="8640335038346828087" fileName="XMLSAXNodeRule_Editor.java" startLine="530" startPosition="100" endLine="531" endPosition="50" />
-    <scopeInfo nodeId="8640335038346828087" fileName="XMLSAXNodeRule_Editor.java" startLine="552" startPosition="89" endLine="553" endPosition="66" />
-    <scopeInfo nodeId="8640335038346828087" fileName="XMLSAXNodeRule_Editor.java" startLine="563" startPosition="131" endLine="564" endPosition="139" />
+    <scopeInfo nodeId="8640335038346963443" fileName="XMLSAXNodeRule_Editor.java" startLine="464" startPosition="61" endLine="465" endPosition="43" />
+    <scopeInfo nodeId="4635390255047981705" fileName="XMLSAXNodeRule_Editor.java" startLine="469" startPosition="97" endLine="470" endPosition="50" />
+    <scopeInfo nodeId="4635390255047981705" fileName="XMLSAXNodeRule_Editor.java" startLine="491" startPosition="89" endLine="492" endPosition="66" />
+    <scopeInfo nodeId="4635390255047981705" fileName="XMLSAXNodeRule_Editor.java" startLine="502" startPosition="131" endLine="503" endPosition="139" />
+    <scopeInfo nodeId="8640335038346828087" fileName="XMLSAXNodeRule_Editor.java" startLine="534" startPosition="100" endLine="535" endPosition="50" />
+    <scopeInfo nodeId="8640335038346828087" fileName="XMLSAXNodeRule_Editor.java" startLine="556" startPosition="89" endLine="557" endPosition="66" />
+    <scopeInfo nodeId="8640335038346828087" fileName="XMLSAXNodeRule_Editor.java" startLine="567" startPosition="131" endLine="568" endPosition="139" />
     <scopeInfo nodeId="8640335038346890483" fileName="XMLSAXNodeRule_Editor.java" startLine="109" startPosition="5" endLine="111" endPosition="51">
       <varInfo nodeId="8640335038346890483" varName="style" />
     </scopeInfo>
@@ -1651,24 +1653,24 @@
     <scopeInfo nodeId="4635390255047870173" fileName="XMLSAXNodeRule_Editor.java" startLine="376" startPosition="5" endLine="378" endPosition="66">
       <varInfo nodeId="4635390255047870173" varName="style" />
     </scopeInfo>
-    <scopeInfo nodeId="4635390255047981705" fileName="XMLSAXNodeRule_Editor.java" startLine="469" startPosition="66" endLine="471" endPosition="93">
+    <scopeInfo nodeId="4635390255047981705" fileName="XMLSAXNodeRule_Editor.java" startLine="473" startPosition="66" endLine="475" endPosition="93">
       <varInfo nodeId="4635390255047981705" varName="listOwner" />
     </scopeInfo>
-    <scopeInfo nodeId="4635390255047981705" fileName="XMLSAXNodeRule_Editor.java" startLine="494" startPosition="34" endLine="496" endPosition="80" />
-    <scopeInfo nodeId="4635390255047981705" fileName="XMLSAXNodeRule_Editor.java" startLine="508" startPosition="7" endLine="510" endPosition="64">
+    <scopeInfo nodeId="4635390255047981705" fileName="XMLSAXNodeRule_Editor.java" startLine="498" startPosition="34" endLine="500" endPosition="80" />
+    <scopeInfo nodeId="4635390255047981705" fileName="XMLSAXNodeRule_Editor.java" startLine="512" startPosition="7" endLine="514" endPosition="64">
       <varInfo nodeId="4635390255047981705" varName="style" />
     </scopeInfo>
-    <scopeInfo nodeId="8640335038346858587" fileName="XMLSAXNodeRule_Editor.java" startLine="520" startPosition="7" endLine="522" endPosition="62">
+    <scopeInfo nodeId="8640335038346858587" fileName="XMLSAXNodeRule_Editor.java" startLine="524" startPosition="7" endLine="526" endPosition="62">
       <varInfo nodeId="8640335038346858587" varName="style" />
     </scopeInfo>
-    <scopeInfo nodeId="8640335038346828087" fileName="XMLSAXNodeRule_Editor.java" startLine="534" startPosition="66" endLine="536" endPosition="93">
+    <scopeInfo nodeId="8640335038346828087" fileName="XMLSAXNodeRule_Editor.java" startLine="538" startPosition="66" endLine="540" endPosition="93">
       <varInfo nodeId="8640335038346828087" varName="listOwner" />
     </scopeInfo>
-    <scopeInfo nodeId="8640335038346828087" fileName="XMLSAXNodeRule_Editor.java" startLine="559" startPosition="34" endLine="561" endPosition="80" />
-    <scopeInfo nodeId="8640335038346828087" fileName="XMLSAXNodeRule_Editor.java" startLine="573" startPosition="7" endLine="575" endPosition="64">
+    <scopeInfo nodeId="8640335038346828087" fileName="XMLSAXNodeRule_Editor.java" startLine="563" startPosition="34" endLine="565" endPosition="80" />
+    <scopeInfo nodeId="8640335038346828087" fileName="XMLSAXNodeRule_Editor.java" startLine="577" startPosition="7" endLine="579" endPosition="64">
       <varInfo nodeId="8640335038346828087" varName="style" />
     </scopeInfo>
-    <scopeInfo nodeId="8640335038346858586" fileName="XMLSAXNodeRule_Editor.java" startLine="585" startPosition="7" endLine="587" endPosition="62">
+    <scopeInfo nodeId="8640335038346858586" fileName="XMLSAXNodeRule_Editor.java" startLine="589" startPosition="7" endLine="591" endPosition="62">
       <varInfo nodeId="8640335038346858586" varName="style" />
     </scopeInfo>
     <scopeInfo nodeId="4635390255047870157" fileName="XMLSAXNodeRule_Editor.java" startLine="45" startPosition="48" endLine="48" endPosition="5" />
@@ -1735,20 +1737,20 @@
       <varInfo nodeId="2286463592495362682" varName="manager" />
       <varInfo nodeId="2286463592495362682" varName="opContext" />
     </scopeInfo>
-    <scopeInfo nodeId="4635390255047981705" fileName="XMLSAXNodeRule_Editor.java" startLine="464" startPosition="78" endLine="467" endPosition="5">
+    <scopeInfo nodeId="4635390255047981705" fileName="XMLSAXNodeRule_Editor.java" startLine="468" startPosition="78" endLine="471" endPosition="5">
       <varInfo nodeId="4635390255047981705" varName="childRole" />
       <varInfo nodeId="4635390255047981705" varName="context" />
       <varInfo nodeId="4635390255047981705" varName="ownerNode" />
     </scopeInfo>
-    <scopeInfo nodeId="4635390255047981705" fileName="XMLSAXNodeRule_Editor.java" startLine="474" startPosition="86" endLine="477" endPosition="25">
+    <scopeInfo nodeId="4635390255047981705" fileName="XMLSAXNodeRule_Editor.java" startLine="478" startPosition="86" endLine="481" endPosition="25">
       <varInfo nodeId="4635390255047981705" varName="elementCell" />
     </scopeInfo>
-    <scopeInfo nodeId="8640335038346828087" fileName="XMLSAXNodeRule_Editor.java" startLine="529" startPosition="81" endLine="532" endPosition="5">
+    <scopeInfo nodeId="8640335038346828087" fileName="XMLSAXNodeRule_Editor.java" startLine="533" startPosition="81" endLine="536" endPosition="5">
       <varInfo nodeId="8640335038346828087" varName="childRole" />
       <varInfo nodeId="8640335038346828087" varName="context" />
       <varInfo nodeId="8640335038346828087" varName="ownerNode" />
     </scopeInfo>
-    <scopeInfo nodeId="8640335038346828087" fileName="XMLSAXNodeRule_Editor.java" startLine="539" startPosition="86" endLine="542" endPosition="25">
+    <scopeInfo nodeId="8640335038346828087" fileName="XMLSAXNodeRule_Editor.java" startLine="543" startPosition="86" endLine="546" endPosition="25">
       <varInfo nodeId="8640335038346828087" varName="elementCell" />
     </scopeInfo>
     <scopeInfo nodeId="4635390255047870155" fileName="XMLSAXNodeRule_Editor.java" startLine="34" startPosition="62" endLine="38" endPosition="0">
@@ -1831,17 +1833,20 @@
       <varInfo nodeId="2286463592495477086" varName="node" />
       <varInfo nodeId="2286463592495477086" varName="scope" />
     </scopeInfo>
-    <scopeInfo nodeId="4635390255047981705" fileName="XMLSAXNodeRule_Editor.java" startLine="480" startPosition="68" endLine="484" endPosition="23">
+    <scopeInfo nodeId="8640335038346963443" fileName="XMLSAXNodeRule_Editor.java" startLine="463" startPosition="0" endLine="467" endPosition="0">
+      <varInfo nodeId="8640335038346963443" varName="str" />
+    </scopeInfo>
+    <scopeInfo nodeId="4635390255047981705" fileName="XMLSAXNodeRule_Editor.java" startLine="484" startPosition="68" endLine="488" endPosition="23">
       <varInfo nodeId="4635390255047981705" varName="emptyCell" />
     </scopeInfo>
-    <scopeInfo nodeId="4635390255047981705" fileName="XMLSAXNodeRule_Editor.java" startLine="486" startPosition="0" endLine="490" endPosition="0">
+    <scopeInfo nodeId="4635390255047981705" fileName="XMLSAXNodeRule_Editor.java" startLine="490" startPosition="0" endLine="494" endPosition="0">
       <varInfo nodeId="4635390255047981705" varName="editorContext" />
       <varInfo nodeId="4635390255047981705" varName="node" />
     </scopeInfo>
-    <scopeInfo nodeId="8640335038346828087" fileName="XMLSAXNodeRule_Editor.java" startLine="545" startPosition="68" endLine="549" endPosition="23">
+    <scopeInfo nodeId="8640335038346828087" fileName="XMLSAXNodeRule_Editor.java" startLine="549" startPosition="68" endLine="553" endPosition="23">
       <varInfo nodeId="8640335038346828087" varName="emptyCell" />
     </scopeInfo>
-    <scopeInfo nodeId="8640335038346828087" fileName="XMLSAXNodeRule_Editor.java" startLine="551" startPosition="0" endLine="555" endPosition="0">
+    <scopeInfo nodeId="8640335038346828087" fileName="XMLSAXNodeRule_Editor.java" startLine="555" startPosition="0" endLine="559" endPosition="0">
       <varInfo nodeId="8640335038346828087" varName="editorContext" />
       <varInfo nodeId="8640335038346828087" varName="node" />
     </scopeInfo>
@@ -1857,24 +1862,24 @@
     <scopeInfo nodeId="4635390255048098150" fileName="XMLSAXNodeRule_Editor.java" startLine="306" startPosition="58" endLine="311" endPosition="5" />
     <scopeInfo nodeId="3444414697307356527" fileName="XMLSAXNodeRule_Editor.java" startLine="328" startPosition="58" endLine="333" endPosition="5" />
     <scopeInfo nodeId="4635390255047870173" fileName="XMLSAXNodeRule_Editor.java" startLine="374" startPosition="58" endLine="379" endPosition="5" />
-    <scopeInfo nodeId="4635390255047981705" fileName="XMLSAXNodeRule_Editor.java" startLine="468" startPosition="0" endLine="473" endPosition="0">
+    <scopeInfo nodeId="4635390255047981705" fileName="XMLSAXNodeRule_Editor.java" startLine="472" startPosition="0" endLine="477" endPosition="0">
       <varInfo nodeId="4635390255047981705" varName="editorContext" />
     </scopeInfo>
-    <scopeInfo nodeId="8640335038346858587" fileName="XMLSAXNodeRule_Editor.java" startLine="518" startPosition="103" endLine="523" endPosition="7" />
-    <scopeInfo nodeId="8640335038346828087" fileName="XMLSAXNodeRule_Editor.java" startLine="533" startPosition="0" endLine="538" endPosition="0">
+    <scopeInfo nodeId="8640335038346858587" fileName="XMLSAXNodeRule_Editor.java" startLine="522" startPosition="103" endLine="527" endPosition="7" />
+    <scopeInfo nodeId="8640335038346828087" fileName="XMLSAXNodeRule_Editor.java" startLine="537" startPosition="0" endLine="542" endPosition="0">
       <varInfo nodeId="8640335038346828087" varName="editorContext" />
     </scopeInfo>
-    <scopeInfo nodeId="8640335038346858586" fileName="XMLSAXNodeRule_Editor.java" startLine="583" startPosition="101" endLine="588" endPosition="7" />
+    <scopeInfo nodeId="8640335038346858586" fileName="XMLSAXNodeRule_Editor.java" startLine="587" startPosition="101" endLine="592" endPosition="7" />
     <scopeInfo nodeId="2268737274628969585" fileName="XMLSAXNodeRule_Editor.java" startLine="171" startPosition="86" endLine="177" endPosition="5" />
     <scopeInfo nodeId="8640335038346858589" fileName="XMLSAXNodeRule_Editor.java" startLine="183" startPosition="86" endLine="189" endPosition="5" />
     <scopeInfo nodeId="8640335038346858595" fileName="XMLSAXNodeRule_Editor.java" startLine="195" startPosition="86" endLine="201" endPosition="5" />
     <scopeInfo nodeId="3444414697307356870" fileName="XMLSAXNodeRule_Editor.java" startLine="207" startPosition="86" endLine="213" endPosition="5" />
     <scopeInfo nodeId="4635390255047870162" fileName="XMLSAXNodeRule_Editor.java" startLine="350" startPosition="58" endLine="356" endPosition="5" />
-    <scopeInfo nodeId="4635390255047981705" fileName="XMLSAXNodeRule_Editor.java" startLine="473" startPosition="0" endLine="479" endPosition="0">
+    <scopeInfo nodeId="4635390255047981705" fileName="XMLSAXNodeRule_Editor.java" startLine="477" startPosition="0" endLine="483" endPosition="0">
       <varInfo nodeId="4635390255047981705" varName="editorContext" />
       <varInfo nodeId="4635390255047981705" varName="elementNode" />
     </scopeInfo>
-    <scopeInfo nodeId="8640335038346828087" fileName="XMLSAXNodeRule_Editor.java" startLine="538" startPosition="0" endLine="544" endPosition="0">
+    <scopeInfo nodeId="8640335038346828087" fileName="XMLSAXNodeRule_Editor.java" startLine="542" startPosition="0" endLine="548" endPosition="0">
       <varInfo nodeId="8640335038346828087" varName="editorContext" />
       <varInfo nodeId="8640335038346828087" varName="elementNode" />
     </scopeInfo>
@@ -1908,10 +1913,10 @@
     <scopeInfo nodeId="4635390255048098150" fileName="XMLSAXNodeRule_Editor.java" startLine="305" startPosition="26" endLine="312" endPosition="73" />
     <scopeInfo nodeId="3444414697307356527" fileName="XMLSAXNodeRule_Editor.java" startLine="327" startPosition="26" endLine="334" endPosition="73" />
     <scopeInfo nodeId="4635390255047870173" fileName="XMLSAXNodeRule_Editor.java" startLine="373" startPosition="26" endLine="380" endPosition="73" />
-    <scopeInfo nodeId="4635390255047981705" fileName="XMLSAXNodeRule_Editor.java" startLine="479" startPosition="0" endLine="486" endPosition="0">
+    <scopeInfo nodeId="4635390255047981705" fileName="XMLSAXNodeRule_Editor.java" startLine="483" startPosition="0" endLine="490" endPosition="0">
       <varInfo nodeId="4635390255047981705" varName="editorContext" />
     </scopeInfo>
-    <scopeInfo nodeId="8640335038346828087" fileName="XMLSAXNodeRule_Editor.java" startLine="544" startPosition="0" endLine="551" endPosition="0">
+    <scopeInfo nodeId="8640335038346828087" fileName="XMLSAXNodeRule_Editor.java" startLine="548" startPosition="0" endLine="555" endPosition="0">
       <varInfo nodeId="8640335038346828087" varName="editorContext" />
     </scopeInfo>
     <scopeInfo nodeId="8640335038346890481" fileName="XMLSAXNodeRule_Editor.java" startLine="97" startPosition="0" endLine="105" endPosition="0">
@@ -1926,12 +1931,12 @@
       <varInfo nodeId="4635390255047981679" varName="editorCell" />
     </scopeInfo>
     <scopeInfo nodeId="4635390255047870162" fileName="XMLSAXNodeRule_Editor.java" startLine="349" startPosition="26" endLine="357" endPosition="73" />
-    <scopeInfo nodeId="4635390255047981705" fileName="XMLSAXNodeRule_Editor.java" startLine="492" startPosition="96" endLine="500" endPosition="9" />
-    <scopeInfo nodeId="8640335038346858587" fileName="XMLSAXNodeRule_Editor.java" startLine="517" startPosition="92" endLine="525" endPosition="24">
+    <scopeInfo nodeId="4635390255047981705" fileName="XMLSAXNodeRule_Editor.java" startLine="496" startPosition="96" endLine="504" endPosition="9" />
+    <scopeInfo nodeId="8640335038346858587" fileName="XMLSAXNodeRule_Editor.java" startLine="521" startPosition="92" endLine="529" endPosition="24">
       <varInfo nodeId="8640335038346858587" varName="editorCell" />
     </scopeInfo>
-    <scopeInfo nodeId="8640335038346828087" fileName="XMLSAXNodeRule_Editor.java" startLine="557" startPosition="96" endLine="565" endPosition="9" />
-    <scopeInfo nodeId="8640335038346858586" fileName="XMLSAXNodeRule_Editor.java" startLine="582" startPosition="92" endLine="590" endPosition="24">
+    <scopeInfo nodeId="8640335038346828087" fileName="XMLSAXNodeRule_Editor.java" startLine="561" startPosition="96" endLine="569" endPosition="9" />
+    <scopeInfo nodeId="8640335038346858586" fileName="XMLSAXNodeRule_Editor.java" startLine="586" startPosition="92" endLine="594" endPosition="24">
       <varInfo nodeId="8640335038346858586" varName="editorCell" />
     </scopeInfo>
     <scopeInfo nodeId="8640335038346890483" fileName="XMLSAXNodeRule_Editor.java" startLine="106" startPosition="90" endLine="115" endPosition="22">
@@ -1952,17 +1957,17 @@
     <scopeInfo nodeId="3444414697307356870" fileName="XMLSAXNodeRule_Editor.java" startLine="206" startPosition="88" endLine="215" endPosition="22">
       <varInfo nodeId="3444414697307356870" varName="editorCell" />
     </scopeInfo>
-    <scopeInfo nodeId="4635390255047981705" fileName="XMLSAXNodeRule_Editor.java" startLine="505" startPosition="84" endLine="514" endPosition="24">
+    <scopeInfo nodeId="4635390255047981705" fileName="XMLSAXNodeRule_Editor.java" startLine="509" startPosition="84" endLine="518" endPosition="24">
       <varInfo nodeId="4635390255047981705" varName="editorCell" />
     </scopeInfo>
-    <scopeInfo nodeId="8640335038346828087" fileName="XMLSAXNodeRule_Editor.java" startLine="570" startPosition="84" endLine="579" endPosition="24">
+    <scopeInfo nodeId="8640335038346828087" fileName="XMLSAXNodeRule_Editor.java" startLine="574" startPosition="84" endLine="583" endPosition="24">
       <varInfo nodeId="8640335038346828087" varName="editorCell" />
     </scopeInfo>
     <scopeInfo nodeId="2268737274628969678" fileName="XMLSAXNodeRule_Editor.java" startLine="85" startPosition="90" endLine="95" endPosition="22">
       <varInfo nodeId="2268737274628969678" varName="editorCell" />
     </scopeInfo>
-    <scopeInfo nodeId="4635390255047981705" fileName="XMLSAXNodeRule_Editor.java" startLine="491" startPosition="132" endLine="501" endPosition="7" />
-    <scopeInfo nodeId="8640335038346828087" fileName="XMLSAXNodeRule_Editor.java" startLine="556" startPosition="132" endLine="566" endPosition="7" />
+    <scopeInfo nodeId="4635390255047981705" fileName="XMLSAXNodeRule_Editor.java" startLine="495" startPosition="132" endLine="505" endPosition="7" />
+    <scopeInfo nodeId="8640335038346828087" fileName="XMLSAXNodeRule_Editor.java" startLine="560" startPosition="132" endLine="570" endPosition="7" />
     <scopeInfo nodeId="4635390255047981679" fileName="XMLSAXNodeRule_Editor.java" startLine="158" startPosition="0" endLine="169" endPosition="0">
       <varInfo nodeId="4635390255047981679" varName="editorContext" />
       <varInfo nodeId="4635390255047981679" varName="node" />
@@ -1975,11 +1980,11 @@
       <varInfo nodeId="8640335038346828087" varName="editorCell" />
       <varInfo nodeId="8640335038346828087" varName="handler" />
     </scopeInfo>
-    <scopeInfo nodeId="8640335038346858587" fileName="XMLSAXNodeRule_Editor.java" startLine="516" startPosition="0" endLine="527" endPosition="0">
+    <scopeInfo nodeId="8640335038346858587" fileName="XMLSAXNodeRule_Editor.java" startLine="520" startPosition="0" endLine="531" endPosition="0">
       <varInfo nodeId="8640335038346858587" varName="editorContext" />
       <varInfo nodeId="8640335038346858587" varName="node" />
     </scopeInfo>
-    <scopeInfo nodeId="8640335038346858586" fileName="XMLSAXNodeRule_Editor.java" startLine="581" startPosition="0" endLine="592" endPosition="0">
+    <scopeInfo nodeId="8640335038346858586" fileName="XMLSAXNodeRule_Editor.java" startLine="585" startPosition="0" endLine="596" endPosition="0">
       <varInfo nodeId="8640335038346858586" varName="editorContext" />
       <varInfo nodeId="8640335038346858586" varName="node" />
     </scopeInfo>
@@ -2011,23 +2016,23 @@
       <varInfo nodeId="2268737274628969678" varName="editorContext" />
       <varInfo nodeId="2268737274628969678" varName="node" />
     </scopeInfo>
-    <scopeInfo nodeId="4635390255047981705" fileName="XMLSAXNodeRule_Editor.java" startLine="490" startPosition="0" endLine="503" endPosition="0">
+    <scopeInfo nodeId="4635390255047981705" fileName="XMLSAXNodeRule_Editor.java" startLine="494" startPosition="0" endLine="507" endPosition="0">
       <varInfo nodeId="4635390255047981705" varName="editorContext" />
       <varInfo nodeId="4635390255047981705" varName="elementCell" />
       <varInfo nodeId="4635390255047981705" varName="elementNode" />
       <varInfo nodeId="4635390255047981705" varName="listOwner" />
     </scopeInfo>
-    <scopeInfo nodeId="4635390255047981705" fileName="XMLSAXNodeRule_Editor.java" startLine="503" startPosition="0" endLine="516" endPosition="0">
+    <scopeInfo nodeId="4635390255047981705" fileName="XMLSAXNodeRule_Editor.java" startLine="507" startPosition="0" endLine="520" endPosition="0">
       <varInfo nodeId="4635390255047981705" varName="editorContext" />
       <varInfo nodeId="4635390255047981705" varName="node" />
     </scopeInfo>
-    <scopeInfo nodeId="8640335038346828087" fileName="XMLSAXNodeRule_Editor.java" startLine="555" startPosition="0" endLine="568" endPosition="0">
+    <scopeInfo nodeId="8640335038346828087" fileName="XMLSAXNodeRule_Editor.java" startLine="559" startPosition="0" endLine="572" endPosition="0">
       <varInfo nodeId="8640335038346828087" varName="editorContext" />
       <varInfo nodeId="8640335038346828087" varName="elementCell" />
       <varInfo nodeId="8640335038346828087" varName="elementNode" />
       <varInfo nodeId="8640335038346828087" varName="listOwner" />
     </scopeInfo>
-    <scopeInfo nodeId="8640335038346828087" fileName="XMLSAXNodeRule_Editor.java" startLine="568" startPosition="0" endLine="581" endPosition="0">
+    <scopeInfo nodeId="8640335038346828087" fileName="XMLSAXNodeRule_Editor.java" startLine="572" startPosition="0" endLine="585" endPosition="0">
       <varInfo nodeId="8640335038346828087" varName="editorContext" />
       <varInfo nodeId="8640335038346828087" varName="node" />
     </scopeInfo>
@@ -2126,9 +2131,9 @@
       <varInfo nodeId="4635390255047870157" varName="editorContext" />
       <varInfo nodeId="4635390255047870157" varName="node" />
     </scopeInfo>
-    <unitInfo nodeId="4635390255047870155" fileName="XMLSAXNodeRule_Editor.java" startLine="34" startPosition="0" endLine="594" endPosition="0" unitName="jetbrains.mps.xmlQuery.editor.XMLSAXNodeRule_Editor" />
-    <unitInfo nodeId="4635390255047981705" fileName="XMLSAXNodeRule_Editor.java" startLine="464" startPosition="0" endLine="528" endPosition="0" unitName="jetbrains.mps.xmlQuery.editor.XMLSAXNodeRule_Editor$attrsListHandler_b42orx_k0" />
-    <unitInfo nodeId="8640335038346828087" fileName="XMLSAXNodeRule_Editor.java" startLine="529" startPosition="0" endLine="593" endPosition="0" unitName="jetbrains.mps.xmlQuery.editor.XMLSAXNodeRule_Editor$childrenListHandler_b42orx_m0" />
+    <unitInfo nodeId="4635390255047870155" fileName="XMLSAXNodeRule_Editor.java" startLine="34" startPosition="0" endLine="598" endPosition="0" unitName="jetbrains.mps.xmlQuery.editor.XMLSAXNodeRule_Editor" />
+    <unitInfo nodeId="4635390255047981705" fileName="XMLSAXNodeRule_Editor.java" startLine="468" startPosition="0" endLine="532" endPosition="0" unitName="jetbrains.mps.xmlQuery.editor.XMLSAXNodeRule_Editor$attrsListHandler_b42orx_k0" />
+    <unitInfo nodeId="8640335038346828087" fileName="XMLSAXNodeRule_Editor.java" startLine="533" startPosition="0" endLine="597" endPosition="0" unitName="jetbrains.mps.xmlQuery.editor.XMLSAXNodeRule_Editor$childrenListHandler_b42orx_m0" />
   </root>
   <root nodeId="4635390255047981695">
     <nodeInfo nodeId="4635390255047981695" fileName="XMLSAXAttributeRule_Editor.java" startLine="25" startPosition="79" endLine="26" endPosition="63" conceptFqName="jetbrains.mps.baseLanguage.structure.ReturnStatement" />
@@ -3935,29 +3940,32 @@
     <nodeInfo nodeId="8640335038346904698" fileName="XMLSAXChildRule_Editor.java" startLine="225" startPosition="72" endLine="226" endPosition="78" conceptFqName="jetbrains.mps.baseLanguage.structure.LocalVariableDeclarationStatement" />
     <nodeInfo nodeId="8640335038346904698" fileName="XMLSAXChildRule_Editor.java" startLine="226" startPosition="78" endLine="227" endPosition="105" conceptFqName="jetbrains.mps.baseLanguage.structure.ReturnStatement" />
     <nodeInfo nodeId="8640335038346904698" fileName="XMLSAXChildRule_Editor.java" startLine="228" startPosition="10" endLine="229" endPosition="22" conceptFqName="jetbrains.mps.baseLanguage.structure.ReturnStatement" />
-    <nodeInfo nodeId="8640335038346904739" fileName="XMLSAXChildRule_Editor.java" startLine="232" startPosition="111" endLine="233" endPosition="238" conceptFqName="jetbrains.mps.baseLanguage.structure.ReturnStatement" />
-    <nodeInfo nodeId="8640335038346929030" fileName="XMLSAXChildRule_Editor.java" startLine="236" startPosition="111" endLine="237" endPosition="238" conceptFqName="jetbrains.mps.baseLanguage.structure.ReturnStatement" />
-    <nodeInfo nodeId="8640335038346904701" fileName="XMLSAXChildRule_Editor.java" startLine="240" startPosition="113" endLine="241" endPosition="184" conceptFqName="jetbrains.mps.baseLanguage.structure.ReturnStatement" />
-    <nodeInfo nodeId="8640335038346803773" fileName="XMLSAXChildRule_Editor.java" startLine="245" startPosition="33" endLine="246" endPosition="14" conceptFqName="jetbrains.mps.baseLanguage.structure.SuperConstructorInvocation" />
-    <nodeInfo nodeId="8640335038346803773" fileName="XMLSAXChildRule_Editor.java" startLine="249" startPosition="69" endLine="250" endPosition="67" conceptFqName="jetbrains.mps.baseLanguage.structure.ReturnStatement" />
-    <nodeInfo nodeId="8640335038346803773" fileName="XMLSAXChildRule_Editor.java" startLine="253" startPosition="81" endLine="254" endPosition="66" conceptFqName="jetbrains.mps.baseLanguage.structure.ReturnStatement" />
-    <nodeInfo nodeId="8640335038346803775" fileName="XMLSAXChildRule_Editor.java" startLine="257" startPosition="92" endLine="258" endPosition="84" conceptFqName="jetbrains.mps.baseLanguage.structure.LocalVariableDeclarationStatement" />
-    <nodeInfo nodeId="8640335038346803775" fileName="XMLSAXChildRule_Editor.java" startLine="258" startPosition="84" endLine="259" endPosition="31" conceptFqName="jetbrains.mps.baseLanguage.structure.ExpressionStatement" />
-    <nodeInfo nodeId="8640335038346803775" fileName="XMLSAXChildRule_Editor.java" startLine="259" startPosition="31" endLine="260" endPosition="44" conceptFqName="jetbrains.mps.baseLanguage.structure.ExpressionStatement" />
-    <nodeInfo nodeId="8640335038346803775" fileName="XMLSAXChildRule_Editor.java" startLine="260" startPosition="44" endLine="261" endPosition="33" conceptFqName="jetbrains.mps.baseLanguage.structure.ExpressionStatement" />
-    <nodeInfo nodeId="8640335038346803775" fileName="XMLSAXChildRule_Editor.java" startLine="261" startPosition="33" endLine="262" endPosition="28" conceptFqName="jetbrains.mps.baseLanguage.structure.LocalVariableDeclarationStatement" />
-    <nodeInfo nodeId="8640335038346803775" fileName="XMLSAXChildRule_Editor.java" startLine="262" startPosition="28" endLine="263" endPosition="60" conceptFqName="jetbrains.mps.baseLanguage.structure.ExpressionStatement" />
-    <nodeInfo nodeId="8640335038346803775" fileName="XMLSAXChildRule_Editor.java" startLine="263" startPosition="60" endLine="264" endPosition="44" conceptFqName="jetbrains.mps.baseLanguage.structure.ExpressionStatement" />
-    <nodeInfo nodeId="8640335038346803775" fileName="XMLSAXChildRule_Editor.java" startLine="265" startPosition="7" endLine="266" endPosition="44" conceptFqName="jetbrains.mps.baseLanguage.structure.LocalVariableDeclarationStatement" />
-    <nodeInfo nodeId="8640335038346803775" fileName="XMLSAXChildRule_Editor.java" startLine="266" startPosition="44" endLine="267" endPosition="70" conceptFqName="jetbrains.mps.baseLanguage.structure.ExpressionStatement" />
-    <nodeInfo nodeId="8640335038346803775" fileName="XMLSAXChildRule_Editor.java" startLine="267" startPosition="70" endLine="268" endPosition="61" conceptFqName="jetbrains.mps.baseLanguage.structure.ExpressionStatement" />
-    <nodeInfo nodeId="8640335038346803775" fileName="XMLSAXChildRule_Editor.java" startLine="269" startPosition="7" endLine="270" endPosition="75" conceptFqName="jetbrains.mps.baseLanguage.structure.ExpressionStatement" />
-    <nodeInfo nodeId="8640335038346803775" fileName="XMLSAXChildRule_Editor.java" startLine="270" startPosition="75" endLine="271" endPosition="59" conceptFqName="jetbrains.mps.baseLanguage.structure.LocalVariableDeclarationStatement" />
-    <nodeInfo nodeId="8640335038346803775" fileName="XMLSAXChildRule_Editor.java" startLine="271" startPosition="59" endLine="272" endPosition="61" conceptFqName="jetbrains.mps.baseLanguage.structure.LocalVariableDeclarationStatement" />
-    <nodeInfo nodeId="8640335038346803775" fileName="XMLSAXChildRule_Editor.java" startLine="273" startPosition="37" endLine="274" endPosition="74" conceptFqName="jetbrains.mps.baseLanguage.structure.LocalVariableDeclarationStatement" />
-    <nodeInfo nodeId="8640335038346803775" fileName="XMLSAXChildRule_Editor.java" startLine="274" startPosition="74" endLine="275" endPosition="80" conceptFqName="jetbrains.mps.baseLanguage.structure.LocalVariableDeclarationStatement" />
-    <nodeInfo nodeId="8640335038346803775" fileName="XMLSAXChildRule_Editor.java" startLine="275" startPosition="80" endLine="276" endPosition="107" conceptFqName="jetbrains.mps.baseLanguage.structure.ReturnStatement" />
-    <nodeInfo nodeId="8640335038346803775" fileName="XMLSAXChildRule_Editor.java" startLine="277" startPosition="12" endLine="278" endPosition="24" conceptFqName="jetbrains.mps.baseLanguage.structure.ReturnStatement" />
+    <nodeInfo nodeId="8640335038346904739" fileName="XMLSAXChildRule_Editor.java" startLine="232" startPosition="111" endLine="233" endPosition="242" conceptFqName="jetbrains.mps.baseLanguage.structure.ReturnStatement" />
+    <nodeInfo nodeId="8640335038346929030" fileName="XMLSAXChildRule_Editor.java" startLine="236" startPosition="111" endLine="237" endPosition="242" conceptFqName="jetbrains.mps.baseLanguage.structure.ReturnStatement" />
+    <nodeInfo nodeId="8640335038346904701" fileName="XMLSAXChildRule_Editor.java" startLine="240" startPosition="113" endLine="241" endPosition="186" conceptFqName="jetbrains.mps.baseLanguage.structure.ReturnStatement" />
+    <nodeInfo nodeId="8640335038346929015" fileName="XMLSAXChildRule_Editor.java" startLine="244" startPosition="61" endLine="245" endPosition="44" conceptFqName="jetbrains.mps.baseLanguage.structure.ReturnStatement" />
+    <nodeInfo nodeId="8640335038346929039" fileName="XMLSAXChildRule_Editor.java" startLine="248" startPosition="61" endLine="249" endPosition="44" conceptFqName="jetbrains.mps.baseLanguage.structure.ReturnStatement" />
+    <nodeInfo nodeId="8640335038346904727" fileName="XMLSAXChildRule_Editor.java" startLine="252" startPosition="62" endLine="253" endPosition="43" conceptFqName="jetbrains.mps.baseLanguage.structure.ReturnStatement" />
+    <nodeInfo nodeId="8640335038346803773" fileName="XMLSAXChildRule_Editor.java" startLine="257" startPosition="33" endLine="258" endPosition="14" conceptFqName="jetbrains.mps.baseLanguage.structure.SuperConstructorInvocation" />
+    <nodeInfo nodeId="8640335038346803773" fileName="XMLSAXChildRule_Editor.java" startLine="261" startPosition="69" endLine="262" endPosition="67" conceptFqName="jetbrains.mps.baseLanguage.structure.ReturnStatement" />
+    <nodeInfo nodeId="8640335038346803773" fileName="XMLSAXChildRule_Editor.java" startLine="265" startPosition="81" endLine="266" endPosition="66" conceptFqName="jetbrains.mps.baseLanguage.structure.ReturnStatement" />
+    <nodeInfo nodeId="8640335038346803775" fileName="XMLSAXChildRule_Editor.java" startLine="269" startPosition="92" endLine="270" endPosition="84" conceptFqName="jetbrains.mps.baseLanguage.structure.LocalVariableDeclarationStatement" />
+    <nodeInfo nodeId="8640335038346803775" fileName="XMLSAXChildRule_Editor.java" startLine="270" startPosition="84" endLine="271" endPosition="31" conceptFqName="jetbrains.mps.baseLanguage.structure.ExpressionStatement" />
+    <nodeInfo nodeId="8640335038346803775" fileName="XMLSAXChildRule_Editor.java" startLine="271" startPosition="31" endLine="272" endPosition="44" conceptFqName="jetbrains.mps.baseLanguage.structure.ExpressionStatement" />
+    <nodeInfo nodeId="8640335038346803775" fileName="XMLSAXChildRule_Editor.java" startLine="272" startPosition="44" endLine="273" endPosition="33" conceptFqName="jetbrains.mps.baseLanguage.structure.ExpressionStatement" />
+    <nodeInfo nodeId="8640335038346803775" fileName="XMLSAXChildRule_Editor.java" startLine="273" startPosition="33" endLine="274" endPosition="28" conceptFqName="jetbrains.mps.baseLanguage.structure.LocalVariableDeclarationStatement" />
+    <nodeInfo nodeId="8640335038346803775" fileName="XMLSAXChildRule_Editor.java" startLine="274" startPosition="28" endLine="275" endPosition="60" conceptFqName="jetbrains.mps.baseLanguage.structure.ExpressionStatement" />
+    <nodeInfo nodeId="8640335038346803775" fileName="XMLSAXChildRule_Editor.java" startLine="275" startPosition="60" endLine="276" endPosition="44" conceptFqName="jetbrains.mps.baseLanguage.structure.ExpressionStatement" />
+    <nodeInfo nodeId="8640335038346803775" fileName="XMLSAXChildRule_Editor.java" startLine="277" startPosition="7" endLine="278" endPosition="44" conceptFqName="jetbrains.mps.baseLanguage.structure.LocalVariableDeclarationStatement" />
+    <nodeInfo nodeId="8640335038346803775" fileName="XMLSAXChildRule_Editor.java" startLine="278" startPosition="44" endLine="279" endPosition="70" conceptFqName="jetbrains.mps.baseLanguage.structure.ExpressionStatement" />
+    <nodeInfo nodeId="8640335038346803775" fileName="XMLSAXChildRule_Editor.java" startLine="279" startPosition="70" endLine="280" endPosition="61" conceptFqName="jetbrains.mps.baseLanguage.structure.ExpressionStatement" />
+    <nodeInfo nodeId="8640335038346803775" fileName="XMLSAXChildRule_Editor.java" startLine="281" startPosition="7" endLine="282" endPosition="75" conceptFqName="jetbrains.mps.baseLanguage.structure.ExpressionStatement" />
+    <nodeInfo nodeId="8640335038346803775" fileName="XMLSAXChildRule_Editor.java" startLine="282" startPosition="75" endLine="283" endPosition="59" conceptFqName="jetbrains.mps.baseLanguage.structure.LocalVariableDeclarationStatement" />
+    <nodeInfo nodeId="8640335038346803775" fileName="XMLSAXChildRule_Editor.java" startLine="283" startPosition="59" endLine="284" endPosition="61" conceptFqName="jetbrains.mps.baseLanguage.structure.LocalVariableDeclarationStatement" />
+    <nodeInfo nodeId="8640335038346803775" fileName="XMLSAXChildRule_Editor.java" startLine="285" startPosition="37" endLine="286" endPosition="74" conceptFqName="jetbrains.mps.baseLanguage.structure.LocalVariableDeclarationStatement" />
+    <nodeInfo nodeId="8640335038346803775" fileName="XMLSAXChildRule_Editor.java" startLine="286" startPosition="74" endLine="287" endPosition="80" conceptFqName="jetbrains.mps.baseLanguage.structure.LocalVariableDeclarationStatement" />
+    <nodeInfo nodeId="8640335038346803775" fileName="XMLSAXChildRule_Editor.java" startLine="287" startPosition="80" endLine="288" endPosition="107" conceptFqName="jetbrains.mps.baseLanguage.structure.ReturnStatement" />
+    <nodeInfo nodeId="8640335038346803775" fileName="XMLSAXChildRule_Editor.java" startLine="289" startPosition="12" endLine="290" endPosition="24" conceptFqName="jetbrains.mps.baseLanguage.structure.ReturnStatement" />
     <nodeInfo nodeId="8640335038346803764" fileName="XMLSAXChildRule_Editor.java" startLine="38" startPosition="81" endLine="41" endPosition="5" conceptFqName="jetbrains.mps.baseLanguage.structure.BlockStatement" />
     <nodeInfo nodeId="8640335038346803764" fileName="XMLSAXChildRule_Editor.java" startLine="38" startPosition="81" endLine="41" endPosition="5" conceptFqName="jetbrains.mps.baseLanguage.structure.IfStatement" />
     <nodeInfo nodeId="8640335038346904683" fileName="XMLSAXChildRule_Editor.java" startLine="62" startPosition="50" endLine="65" endPosition="5" conceptFqName="jetbrains.mps.baseLanguage.structure.BlockStatement" />
@@ -3966,7 +3974,7 @@
     <nodeInfo nodeId="8640335038346904683" fileName="XMLSAXChildRule_Editor.java" startLine="65" startPosition="5" endLine="68" endPosition="5" conceptFqName="jetbrains.mps.baseLanguage.structure.IfStatement" />
     <nodeInfo nodeId="8640335038346904690" fileName="XMLSAXChildRule_Editor.java" startLine="200" startPosition="26" endLine="203" endPosition="73" conceptFqName="jetbrains.mps.baseLanguage.structure.BlockStatement" />
     <nodeInfo nodeId="8640335038346904698" fileName="XMLSAXChildRule_Editor.java" startLine="218" startPosition="26" endLine="221" endPosition="73" conceptFqName="jetbrains.mps.baseLanguage.structure.BlockStatement" />
-    <nodeInfo nodeId="8640335038346803773" fileName="XMLSAXChildRule_Editor.java" startLine="244" startPosition="69" endLine="247" endPosition="5" conceptFqName="jetbrains.mps.baseLanguage.structure.ConstructorDeclaration" propertyString="_Inline_wbyfib_a2a#()V" />
+    <nodeInfo nodeId="8640335038346803773" fileName="XMLSAXChildRule_Editor.java" startLine="256" startPosition="69" endLine="259" endPosition="5" conceptFqName="jetbrains.mps.baseLanguage.structure.ConstructorDeclaration" propertyString="_Inline_wbyfib_a2a#()V" />
     <nodeInfo nodeId="8640335038346803762" fileName="XMLSAXChildRule_Editor.java" startLine="26" startPosition="63" endLine="30" endPosition="0" conceptFqName="jetbrains.mps.baseLanguage.structure.InstanceMethodDeclaration" propertyString="createEditorCell#(Ljetbrains/mps/nodeEditor/EditorContext;Ljetbrains/mps/smodel/SNode;)Ljetbrains/mps/nodeEditor/cells/EditorCell;" />
     <nodeInfo nodeId="8640335038346803762" fileName="XMLSAXChildRule_Editor.java" startLine="30" startPosition="0" endLine="34" endPosition="0" conceptFqName="jetbrains.mps.baseLanguage.structure.InstanceMethodDeclaration" propertyString="createInspectedCell#(Ljetbrains/mps/nodeEditor/EditorContext;Ljetbrains/mps/smodel/SNode;)Ljetbrains/mps/nodeEditor/cells/EditorCell;" />
     <nodeInfo nodeId="8640335038346904733" fileName="XMLSAXChildRule_Editor.java" startLine="49" startPosition="49" endLine="53" endPosition="5" conceptFqName="jetbrains.mps.baseLanguage.structure.BlockStatement" />
@@ -3980,21 +3988,24 @@
     <nodeInfo nodeId="8640335038346904737" fileName="XMLSAXChildRule_Editor.java" startLine="231" startPosition="0" endLine="235" endPosition="0" conceptFqName="jetbrains.mps.baseLanguage.structure.StaticMethodDeclaration" propertyString="renderingCondition_wbyfib_a1a#(Ljetbrains/mps/smodel/SNode;Ljetbrains/mps/nodeEditor/EditorContext;Ljetbrains/mps/smodel/IScope;)Z" />
     <nodeInfo nodeId="8640335038346929028" fileName="XMLSAXChildRule_Editor.java" startLine="235" startPosition="0" endLine="239" endPosition="0" conceptFqName="jetbrains.mps.baseLanguage.structure.StaticMethodDeclaration" propertyString="renderingCondition_wbyfib_a0a#(Ljetbrains/mps/smodel/SNode;Ljetbrains/mps/nodeEditor/EditorContext;Ljetbrains/mps/smodel/IScope;)Z" />
     <nodeInfo nodeId="8640335038346904699" fileName="XMLSAXChildRule_Editor.java" startLine="239" startPosition="0" endLine="243" endPosition="0" conceptFqName="jetbrains.mps.baseLanguage.structure.StaticMethodDeclaration" propertyString="renderingCondition_wbyfib_a1a_0#(Ljetbrains/mps/smodel/SNode;Ljetbrains/mps/nodeEditor/EditorContext;Ljetbrains/mps/smodel/IScope;)Z" />
-    <nodeInfo nodeId="8640335038346803773" fileName="XMLSAXChildRule_Editor.java" startLine="248" startPosition="0" endLine="252" endPosition="0" conceptFqName="jetbrains.mps.baseLanguage.structure.InstanceMethodDeclaration" propertyString="createEditorCell#(Ljetbrains/mps/nodeEditor/EditorContext;)Ljetbrains/mps/nodeEditor/cells/EditorCell;" />
-    <nodeInfo nodeId="8640335038346803773" fileName="XMLSAXChildRule_Editor.java" startLine="252" startPosition="0" endLine="256" endPosition="0" conceptFqName="jetbrains.mps.baseLanguage.structure.InstanceMethodDeclaration" propertyString="createEditorCell#(Ljetbrains/mps/nodeEditor/EditorContext;Ljetbrains/mps/smodel/SNode;)Ljetbrains/mps/nodeEditor/cells/EditorCell;" />
+    <nodeInfo nodeId="8640335038346929015" fileName="XMLSAXChildRule_Editor.java" startLine="243" startPosition="0" endLine="247" endPosition="0" conceptFqName="jetbrains.mps.baseLanguage.structure.StaticMethodDeclaration" propertyString="isEmpty_wbyfib_a0a0a0a0#(Ljava/lang/String;)Z" />
+    <nodeInfo nodeId="8640335038346929039" fileName="XMLSAXChildRule_Editor.java" startLine="247" startPosition="0" endLine="251" endPosition="0" conceptFqName="jetbrains.mps.baseLanguage.structure.StaticMethodDeclaration" propertyString="isEmpty_wbyfib_a0a0a0a1#(Ljava/lang/String;)Z" />
+    <nodeInfo nodeId="8640335038346904727" fileName="XMLSAXChildRule_Editor.java" startLine="251" startPosition="0" endLine="255" endPosition="0" conceptFqName="jetbrains.mps.baseLanguage.structure.StaticMethodDeclaration" propertyString="isNotEmpty_wbyfib_a0a0a2#(Ljava/lang/String;)Z" />
+    <nodeInfo nodeId="8640335038346803773" fileName="XMLSAXChildRule_Editor.java" startLine="260" startPosition="0" endLine="264" endPosition="0" conceptFqName="jetbrains.mps.baseLanguage.structure.InstanceMethodDeclaration" propertyString="createEditorCell#(Ljetbrains/mps/nodeEditor/EditorContext;)Ljetbrains/mps/nodeEditor/cells/EditorCell;" />
+    <nodeInfo nodeId="8640335038346803773" fileName="XMLSAXChildRule_Editor.java" startLine="264" startPosition="0" endLine="268" endPosition="0" conceptFqName="jetbrains.mps.baseLanguage.structure.InstanceMethodDeclaration" propertyString="createEditorCell#(Ljetbrains/mps/nodeEditor/EditorContext;Ljetbrains/mps/smodel/SNode;)Ljetbrains/mps/nodeEditor/cells/EditorCell;" />
     <nodeInfo nodeId="8640335038346904733" fileName="XMLSAXChildRule_Editor.java" startLine="48" startPosition="96" endLine="53" endPosition="5" conceptFqName="jetbrains.mps.baseLanguage.structure.BlockStatement" />
     <nodeInfo nodeId="8640335038346904685" fileName="XMLSAXChildRule_Editor.java" startLine="73" startPosition="96" endLine="78" endPosition="5" conceptFqName="jetbrains.mps.baseLanguage.structure.BlockStatement" />
     <nodeInfo nodeId="8640335038346904692" fileName="XMLSAXChildRule_Editor.java" startLine="85" startPosition="96" endLine="90" endPosition="5" conceptFqName="jetbrains.mps.baseLanguage.structure.BlockStatement" />
     <nodeInfo nodeId="8640335038346803778" fileName="XMLSAXChildRule_Editor.java" startLine="179" startPosition="58" endLine="184" endPosition="5" conceptFqName="jetbrains.mps.baseLanguage.structure.BlockStatement" />
-    <nodeInfo nodeId="8640335038346803775" fileName="XMLSAXChildRule_Editor.java" startLine="264" startPosition="44" endLine="269" endPosition="7" conceptFqName="jetbrains.mps.baseLanguage.structure.BlockStatement" />
+    <nodeInfo nodeId="8640335038346803775" fileName="XMLSAXChildRule_Editor.java" startLine="276" startPosition="44" endLine="281" endPosition="7" conceptFqName="jetbrains.mps.baseLanguage.structure.BlockStatement" />
     <nodeInfo nodeId="8640335038346803772" fileName="XMLSAXChildRule_Editor.java" startLine="144" startPosition="59" endLine="150" endPosition="22" conceptFqName="jetbrains.mps.baseLanguage.structure.IfStatement" />
     <nodeInfo nodeId="8640335038346803782" fileName="XMLSAXChildRule_Editor.java" startLine="157" startPosition="26" endLine="163" endPosition="73" conceptFqName="jetbrains.mps.baseLanguage.structure.BlockStatement" />
     <nodeInfo nodeId="8640335038346803782" fileName="XMLSAXChildRule_Editor.java" startLine="165" startPosition="59" endLine="171" endPosition="22" conceptFqName="jetbrains.mps.baseLanguage.structure.IfStatement" />
     <nodeInfo nodeId="8640335038346803778" fileName="XMLSAXChildRule_Editor.java" startLine="187" startPosition="59" endLine="193" endPosition="22" conceptFqName="jetbrains.mps.baseLanguage.structure.IfStatement" />
     <nodeInfo nodeId="8640335038346904690" fileName="XMLSAXChildRule_Editor.java" startLine="205" startPosition="59" endLine="211" endPosition="22" conceptFqName="jetbrains.mps.baseLanguage.structure.IfStatement" />
     <nodeInfo nodeId="8640335038346904698" fileName="XMLSAXChildRule_Editor.java" startLine="223" startPosition="59" endLine="229" endPosition="22" conceptFqName="jetbrains.mps.baseLanguage.structure.IfStatement" />
-    <nodeInfo nodeId="8640335038346803775" fileName="XMLSAXChildRule_Editor.java" startLine="263" startPosition="60" endLine="269" endPosition="7" conceptFqName="jetbrains.mps.baseLanguage.structure.BlockStatement" />
-    <nodeInfo nodeId="8640335038346803775" fileName="XMLSAXChildRule_Editor.java" startLine="272" startPosition="61" endLine="278" endPosition="24" conceptFqName="jetbrains.mps.baseLanguage.structure.IfStatement" />
+    <nodeInfo nodeId="8640335038346803775" fileName="XMLSAXChildRule_Editor.java" startLine="275" startPosition="60" endLine="281" endPosition="7" conceptFqName="jetbrains.mps.baseLanguage.structure.BlockStatement" />
+    <nodeInfo nodeId="8640335038346803775" fileName="XMLSAXChildRule_Editor.java" startLine="284" startPosition="61" endLine="290" endPosition="24" conceptFqName="jetbrains.mps.baseLanguage.structure.IfStatement" />
     <nodeInfo nodeId="8640335038346803767" fileName="XMLSAXChildRule_Editor.java" startLine="95" startPosition="0" endLine="102" endPosition="0" conceptFqName="jetbrains.mps.baseLanguage.structure.InstanceMethodDeclaration" propertyString="createConstant_wbyfib_a0#(Ljetbrains/mps/nodeEditor/EditorContext;Ljetbrains/mps/smodel/SNode;)Ljetbrains/mps/nodeEditor/cells/EditorCell;" />
     <nodeInfo nodeId="8640335038347029140" fileName="XMLSAXChildRule_Editor.java" startLine="102" startPosition="0" endLine="109" endPosition="0" conceptFqName="jetbrains.mps.baseLanguage.structure.InstanceMethodDeclaration" propertyString="createConstant_wbyfib_a1a#(Ljetbrains/mps/nodeEditor/EditorContext;Ljetbrains/mps/smodel/SNode;)Ljetbrains/mps/nodeEditor/cells/EditorCell;" />
     <nodeInfo nodeId="8640335038346803769" fileName="XMLSAXChildRule_Editor.java" startLine="109" startPosition="0" endLine="116" endPosition="0" conceptFqName="jetbrains.mps.baseLanguage.structure.InstanceMethodDeclaration" propertyString="createConstant_wbyfib_c1a#(Ljetbrains/mps/nodeEditor/EditorContext;Ljetbrains/mps/smodel/SNode;)Ljetbrains/mps/nodeEditor/cells/EditorCell;" />
@@ -4002,7 +4013,7 @@
     <nodeInfo nodeId="8640335038346904696" fileName="XMLSAXChildRule_Editor.java" startLine="123" startPosition="0" endLine="130" endPosition="0" conceptFqName="jetbrains.mps.baseLanguage.structure.InstanceMethodDeclaration" propertyString="createConstant_wbyfib_a1a_0#(Ljetbrains/mps/nodeEditor/EditorContext;Ljetbrains/mps/smodel/SNode;)Ljetbrains/mps/nodeEditor/cells/EditorCell;" />
     <nodeInfo nodeId="8640335038346803772" fileName="XMLSAXChildRule_Editor.java" startLine="135" startPosition="26" endLine="142" endPosition="73" conceptFqName="jetbrains.mps.baseLanguage.structure.BlockStatement" />
     <nodeInfo nodeId="8640335038346803778" fileName="XMLSAXChildRule_Editor.java" startLine="178" startPosition="26" endLine="185" endPosition="73" conceptFqName="jetbrains.mps.baseLanguage.structure.BlockStatement" />
-    <nodeInfo nodeId="8640335038346803775" fileName="XMLSAXChildRule_Editor.java" startLine="262" startPosition="28" endLine="270" endPosition="75" conceptFqName="jetbrains.mps.baseLanguage.structure.BlockStatement" />
+    <nodeInfo nodeId="8640335038346803775" fileName="XMLSAXChildRule_Editor.java" startLine="274" startPosition="28" endLine="282" endPosition="75" conceptFqName="jetbrains.mps.baseLanguage.structure.BlockStatement" />
     <nodeInfo nodeId="8640335038346803764" fileName="XMLSAXChildRule_Editor.java" startLine="34" startPosition="0" endLine="46" endPosition="0" conceptFqName="jetbrains.mps.baseLanguage.structure.InstanceMethodDeclaration" propertyString="createCollection_wbyfib_a#(Ljetbrains/mps/nodeEditor/EditorContext;Ljetbrains/mps/smodel/SNode;)Ljetbrains/mps/nodeEditor/cells/EditorCell;" />
     <nodeInfo nodeId="8640335038346904683" fileName="XMLSAXChildRule_Editor.java" startLine="59" startPosition="0" endLine="71" endPosition="0" conceptFqName="jetbrains.mps.baseLanguage.structure.InstanceMethodDeclaration" propertyString="createCollection_wbyfib_a_0#(Ljetbrains/mps/nodeEditor/EditorContext;Ljetbrains/mps/smodel/SNode;)Ljetbrains/mps/nodeEditor/cells/EditorCell;" />
     <nodeInfo nodeId="8640335038346904685" fileName="XMLSAXChildRule_Editor.java" startLine="71" startPosition="0" endLine="83" endPosition="0" conceptFqName="jetbrains.mps.baseLanguage.structure.InstanceMethodDeclaration" propertyString="createCollection_wbyfib_a0#(Ljetbrains/mps/nodeEditor/EditorContext;Ljetbrains/mps/smodel/SNode;)Ljetbrains/mps/nodeEditor/cells/EditorCell;" />
@@ -4013,7 +4024,7 @@
     <nodeInfo nodeId="8640335038346803782" fileName="XMLSAXChildRule_Editor.java" startLine="152" startPosition="0" endLine="173" endPosition="0" conceptFqName="jetbrains.mps.baseLanguage.structure.InstanceMethodDeclaration" propertyString="createRefNode_wbyfib_d0#(Ljetbrains/mps/nodeEditor/EditorContext;Ljetbrains/mps/smodel/SNode;)Ljetbrains/mps/nodeEditor/cells/EditorCell;" />
     <nodeInfo nodeId="8640335038346803772" fileName="XMLSAXChildRule_Editor.java" startLine="130" startPosition="0" endLine="152" endPosition="0" conceptFqName="jetbrains.mps.baseLanguage.structure.InstanceMethodDeclaration" propertyString="createRefCell_wbyfib_c0#(Ljetbrains/mps/nodeEditor/EditorContext;Ljetbrains/mps/smodel/SNode;)Ljetbrains/mps/nodeEditor/cells/EditorCell;" />
     <nodeInfo nodeId="8640335038346803778" fileName="XMLSAXChildRule_Editor.java" startLine="173" startPosition="0" endLine="195" endPosition="0" conceptFqName="jetbrains.mps.baseLanguage.structure.InstanceMethodDeclaration" propertyString="createProperty_wbyfib_b1a#(Ljetbrains/mps/nodeEditor/EditorContext;Ljetbrains/mps/smodel/SNode;)Ljetbrains/mps/nodeEditor/cells/EditorCell;" />
-    <nodeInfo nodeId="8640335038346803775" fileName="XMLSAXChildRule_Editor.java" startLine="256" startPosition="0" endLine="280" endPosition="0" conceptFqName="jetbrains.mps.baseLanguage.structure.InstanceMethodDeclaration" propertyString="createProperty_wbyfib_a0c0#(Ljetbrains/mps/nodeEditor/EditorContext;Ljetbrains/mps/smodel/SNode;)Ljetbrains/mps/nodeEditor/cells/EditorCell;" />
+    <nodeInfo nodeId="8640335038346803775" fileName="XMLSAXChildRule_Editor.java" startLine="268" startPosition="0" endLine="292" endPosition="0" conceptFqName="jetbrains.mps.baseLanguage.structure.InstanceMethodDeclaration" propertyString="createProperty_wbyfib_a0c0#(Ljetbrains/mps/nodeEditor/EditorContext;Ljetbrains/mps/smodel/SNode;)Ljetbrains/mps/nodeEditor/cells/EditorCell;" />
     <scopeInfo nodeId="8640335038346803762" fileName="XMLSAXChildRule_Editor.java" startLine="27" startPosition="79" endLine="28" endPosition="63" />
     <scopeInfo nodeId="8640335038346803762" fileName="XMLSAXChildRule_Editor.java" startLine="31" startPosition="82" endLine="32" endPosition="65" />
     <scopeInfo nodeId="8640335038346803764" fileName="XMLSAXChildRule_Editor.java" startLine="36" startPosition="96" endLine="37" endPosition="48" />
@@ -4038,12 +4049,15 @@
     <scopeInfo nodeId="8640335038346904696" fileName="XMLSAXChildRule_Editor.java" startLine="125" startPosition="99" endLine="126" endPosition="50" />
     <scopeInfo nodeId="8640335038346904690" fileName="XMLSAXChildRule_Editor.java" startLine="201" startPosition="58" endLine="202" endPosition="47" />
     <scopeInfo nodeId="8640335038346904698" fileName="XMLSAXChildRule_Editor.java" startLine="219" startPosition="58" endLine="220" endPosition="49" />
-    <scopeInfo nodeId="8640335038346904738" fileName="XMLSAXChildRule_Editor.java" startLine="232" startPosition="111" endLine="233" endPosition="238" />
-    <scopeInfo nodeId="8640335038346929029" fileName="XMLSAXChildRule_Editor.java" startLine="236" startPosition="111" endLine="237" endPosition="238" />
-    <scopeInfo nodeId="8640335038346904700" fileName="XMLSAXChildRule_Editor.java" startLine="240" startPosition="113" endLine="241" endPosition="184" />
-    <scopeInfo nodeId="8640335038346803773" fileName="XMLSAXChildRule_Editor.java" startLine="245" startPosition="33" endLine="246" endPosition="14" />
-    <scopeInfo nodeId="8640335038346803773" fileName="XMLSAXChildRule_Editor.java" startLine="249" startPosition="69" endLine="250" endPosition="67" />
-    <scopeInfo nodeId="8640335038346803773" fileName="XMLSAXChildRule_Editor.java" startLine="253" startPosition="81" endLine="254" endPosition="66" />
+    <scopeInfo nodeId="8640335038346904738" fileName="XMLSAXChildRule_Editor.java" startLine="232" startPosition="111" endLine="233" endPosition="242" />
+    <scopeInfo nodeId="8640335038346929029" fileName="XMLSAXChildRule_Editor.java" startLine="236" startPosition="111" endLine="237" endPosition="242" />
+    <scopeInfo nodeId="8640335038346904700" fileName="XMLSAXChildRule_Editor.java" startLine="240" startPosition="113" endLine="241" endPosition="186" />
+    <scopeInfo nodeId="8640335038346929015" fileName="XMLSAXChildRule_Editor.java" startLine="244" startPosition="61" endLine="245" endPosition="44" />
+    <scopeInfo nodeId="8640335038346929039" fileName="XMLSAXChildRule_Editor.java" startLine="248" startPosition="61" endLine="249" endPosition="44" />
+    <scopeInfo nodeId="8640335038346904727" fileName="XMLSAXChildRule_Editor.java" startLine="252" startPosition="62" endLine="253" endPosition="43" />
+    <scopeInfo nodeId="8640335038346803773" fileName="XMLSAXChildRule_Editor.java" startLine="257" startPosition="33" endLine="258" endPosition="14" />
+    <scopeInfo nodeId="8640335038346803773" fileName="XMLSAXChildRule_Editor.java" startLine="261" startPosition="69" endLine="262" endPosition="67" />
+    <scopeInfo nodeId="8640335038346803773" fileName="XMLSAXChildRule_Editor.java" startLine="265" startPosition="81" endLine="266" endPosition="66" />
     <scopeInfo nodeId="8640335038346904733" fileName="XMLSAXChildRule_Editor.java" startLine="50" startPosition="5" endLine="52" endPosition="51">
       <varInfo nodeId="8640335038346904733" varName="style" />
     </scopeInfo>
@@ -4087,11 +4101,11 @@
       <varInfo nodeId="8640335038346904698" varName="manager" />
       <varInfo nodeId="8640335038346904698" varName="opContext" />
     </scopeInfo>
-    <scopeInfo nodeId="8640335038346803773" fileName="XMLSAXChildRule_Editor.java" startLine="244" startPosition="69" endLine="247" endPosition="5" />
-    <scopeInfo nodeId="8640335038346803775" fileName="XMLSAXChildRule_Editor.java" startLine="265" startPosition="7" endLine="268" endPosition="61">
+    <scopeInfo nodeId="8640335038346803773" fileName="XMLSAXChildRule_Editor.java" startLine="256" startPosition="69" endLine="259" endPosition="5" />
+    <scopeInfo nodeId="8640335038346803775" fileName="XMLSAXChildRule_Editor.java" startLine="277" startPosition="7" endLine="280" endPosition="61">
       <varInfo nodeId="8640335038346803775" varName="style" />
     </scopeInfo>
-    <scopeInfo nodeId="8640335038346803775" fileName="XMLSAXChildRule_Editor.java" startLine="273" startPosition="37" endLine="276" endPosition="107">
+    <scopeInfo nodeId="8640335038346803775" fileName="XMLSAXChildRule_Editor.java" startLine="285" startPosition="37" endLine="288" endPosition="107">
       <varInfo nodeId="8640335038346803775" varName="manager" />
       <varInfo nodeId="8640335038346803775" varName="opContext" />
     </scopeInfo>
@@ -4135,10 +4149,19 @@
       <varInfo nodeId="8640335038346904699" varName="node" />
       <varInfo nodeId="8640335038346904699" varName="scope" />
     </scopeInfo>
-    <scopeInfo nodeId="8640335038346803773" fileName="XMLSAXChildRule_Editor.java" startLine="248" startPosition="0" endLine="252" endPosition="0">
+    <scopeInfo nodeId="8640335038346929015" fileName="XMLSAXChildRule_Editor.java" startLine="243" startPosition="0" endLine="247" endPosition="0">
+      <varInfo nodeId="8640335038346929015" varName="str" />
+    </scopeInfo>
+    <scopeInfo nodeId="8640335038346929039" fileName="XMLSAXChildRule_Editor.java" startLine="247" startPosition="0" endLine="251" endPosition="0">
+      <varInfo nodeId="8640335038346929039" varName="str" />
+    </scopeInfo>
+    <scopeInfo nodeId="8640335038346904727" fileName="XMLSAXChildRule_Editor.java" startLine="251" startPosition="0" endLine="255" endPosition="0">
+      <varInfo nodeId="8640335038346904727" varName="str" />
+    </scopeInfo>
+    <scopeInfo nodeId="8640335038346803773" fileName="XMLSAXChildRule_Editor.java" startLine="260" startPosition="0" endLine="264" endPosition="0">
       <varInfo nodeId="8640335038346803773" varName="editorContext" />
     </scopeInfo>
-    <scopeInfo nodeId="8640335038346803773" fileName="XMLSAXChildRule_Editor.java" startLine="252" startPosition="0" endLine="256" endPosition="0">
+    <scopeInfo nodeId="8640335038346803773" fileName="XMLSAXChildRule_Editor.java" startLine="264" startPosition="0" endLine="268" endPosition="0">
       <varInfo nodeId="8640335038346803773" varName="editorContext" />
       <varInfo nodeId="8640335038346803773" varName="node" />
     </scopeInfo>
@@ -4147,7 +4170,7 @@
     <scopeInfo nodeId="8640335038346904692" fileName="XMLSAXChildRule_Editor.java" startLine="85" startPosition="96" endLine="90" endPosition="5" />
     <scopeInfo nodeId="8640335038346803778" fileName="XMLSAXChildRule_Editor.java" startLine="179" startPosition="58" endLine="184" endPosition="5" />
     <scopeInfo nodeId="8640335038346803782" fileName="XMLSAXChildRule_Editor.java" startLine="157" startPosition="26" endLine="163" endPosition="73" />
-    <scopeInfo nodeId="8640335038346803775" fileName="XMLSAXChildRule_Editor.java" startLine="263" startPosition="60" endLine="269" endPosition="7" />
+    <scopeInfo nodeId="8640335038346803775" fileName="XMLSAXChildRule_Editor.java" startLine="275" startPosition="60" endLine="281" endPosition="7" />
     <scopeInfo nodeId="8640335038346803767" fileName="XMLSAXChildRule_Editor.java" startLine="95" startPosition="0" endLine="102" endPosition="0">
       <varInfo nodeId="8640335038346803767" varName="editorContext" />
       <varInfo nodeId="8640335038346803767" varName="node" />
@@ -4170,7 +4193,7 @@
     </scopeInfo>
     <scopeInfo nodeId="8640335038346803772" fileName="XMLSAXChildRule_Editor.java" startLine="135" startPosition="26" endLine="142" endPosition="73" />
     <scopeInfo nodeId="8640335038346803778" fileName="XMLSAXChildRule_Editor.java" startLine="178" startPosition="26" endLine="185" endPosition="73" />
-    <scopeInfo nodeId="8640335038346803775" fileName="XMLSAXChildRule_Editor.java" startLine="262" startPosition="28" endLine="270" endPosition="75" />
+    <scopeInfo nodeId="8640335038346803775" fileName="XMLSAXChildRule_Editor.java" startLine="274" startPosition="28" endLine="282" endPosition="75" />
     <scopeInfo nodeId="8640335038346803764" fileName="XMLSAXChildRule_Editor.java" startLine="35" startPosition="89" endLine="44" endPosition="22">
       <varInfo nodeId="8640335038346803764" varName="editorCell" />
     </scopeInfo>
@@ -4248,7 +4271,7 @@
       <varInfo nodeId="8640335038346803782" varName="editorContext" />
       <varInfo nodeId="8640335038346803782" varName="node" />
     </scopeInfo>
-    <scopeInfo nodeId="8640335038346803775" fileName="XMLSAXChildRule_Editor.java" startLine="257" startPosition="92" endLine="278" endPosition="24">
+    <scopeInfo nodeId="8640335038346803775" fileName="XMLSAXChildRule_Editor.java" startLine="269" startPosition="92" endLine="290" endPosition="24">
       <varInfo nodeId="8640335038346803775" varName="attributeConcept" />
       <varInfo nodeId="8640335038346803775" varName="attributeKind" />
       <varInfo nodeId="8640335038346803775" varName="editorCell" />
@@ -4262,12 +4285,12 @@
       <varInfo nodeId="8640335038346803778" varName="editorContext" />
       <varInfo nodeId="8640335038346803778" varName="node" />
     </scopeInfo>
-    <scopeInfo nodeId="8640335038346803775" fileName="XMLSAXChildRule_Editor.java" startLine="256" startPosition="0" endLine="280" endPosition="0">
+    <scopeInfo nodeId="8640335038346803775" fileName="XMLSAXChildRule_Editor.java" startLine="268" startPosition="0" endLine="292" endPosition="0">
       <varInfo nodeId="8640335038346803775" varName="editorContext" />
       <varInfo nodeId="8640335038346803775" varName="node" />
     </scopeInfo>
-    <unitInfo nodeId="8640335038346803762" fileName="XMLSAXChildRule_Editor.java" startLine="26" startPosition="0" endLine="282" endPosition="0" unitName="jetbrains.mps.xmlQuery.editor.XMLSAXChildRule_Editor" />
-    <unitInfo nodeId="8640335038346803773" fileName="XMLSAXChildRule_Editor.java" startLine="244" startPosition="0" endLine="281" endPosition="0" unitName="jetbrains.mps.xmlQuery.editor.XMLSAXChildRule_Editor$_Inline_wbyfib_a2a" />
+    <unitInfo nodeId="8640335038346803762" fileName="XMLSAXChildRule_Editor.java" startLine="26" startPosition="0" endLine="294" endPosition="0" unitName="jetbrains.mps.xmlQuery.editor.XMLSAXChildRule_Editor" />
+    <unitInfo nodeId="8640335038346803773" fileName="XMLSAXChildRule_Editor.java" startLine="256" startPosition="0" endLine="293" endPosition="0" unitName="jetbrains.mps.xmlQuery.editor.XMLSAXChildRule_Editor$_Inline_wbyfib_a2a" />
   </root>
   <root nodeId="8666712036582994515">
     <nodeInfo nodeId="8666712036582994523" fileName="XMLSAXBreakStatement_Editor.java" startLine="68" startPosition="58" endLine="68" endPosition="58" conceptFqName="jetbrains.mps.baseLanguage.structure.BlockStatement" />

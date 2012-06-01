@@ -10,9 +10,13 @@ public class ConditionalFormatToken_Behavior {
   }
 
   public static String call_getClassName_1075917115049868779(SNode thisNode) {
-    return "ConditionalDTPrinter" + ((StringUtils.isEmpty(SPropertyOperations.getString(thisNode, "name")) ?
+    return "ConditionalDTPrinter" + ((isEmpty_7o1ii_a0a0a0a1(SPropertyOperations.getString(thisNode, "name")) ?
       thisNode.getId() :
       SPropertyOperations.getString(thisNode, "name")
     ));
+  }
+
+  public static boolean isEmpty_7o1ii_a0a0a0a1(String str) {
+    return str == null || str.length() == 0;
   }
 }

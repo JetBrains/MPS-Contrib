@@ -1008,8 +1008,8 @@
   </dependency>
   <dependency className="jetbrains.mps.baseLanguage.dates.editor.PeriodPropertyFormatToken_Editor" file="PeriodPropertyFormatToken_Editor.java">
     <classNode dependClassName="java.lang.Class" />
+    <classNode dependClassName="java.lang.String" />
     <classNode dependClassName="jetbrains.mps.baseLanguage.dates.editor.Dates_StyleSheet" />
-    <classNode dependClassName="jetbrains.mps.baseLanguage.dates.editor.StringUtils" />
     <classNode dependClassName="jetbrains.mps.baseLanguage.editor.BaseLanguageStyle_StyleSheet" />
     <classNode dependClassName="jetbrains.mps.lang.editor.cellProviders.PropertyCellProvider" />
     <classNode dependClassName="jetbrains.mps.lang.editor.cellProviders.RefCellCellProvider" />
@@ -1052,8 +1052,8 @@
   <dependency className="jetbrains.mps.baseLanguage.dates.editor.PeriodSeparatorFormatToken_Editor" file="PeriodSeparatorFormatToken_Editor.java">
     <classNode dependClassName="java.lang.Boolean" />
     <classNode dependClassName="java.lang.Class" />
+    <classNode dependClassName="java.lang.String" />
     <classNode dependClassName="jetbrains.mps.baseLanguage.dates.editor.Dates_StyleSheet" />
-    <classNode dependClassName="jetbrains.mps.baseLanguage.dates.editor.StringUtils" />
     <classNode dependClassName="jetbrains.mps.baseLanguage.editor.BaseLanguageStyle_StyleSheet" />
     <classNode dependClassName="jetbrains.mps.lang.editor.cellProviders.PropertyCellProvider" />
     <classNode dependClassName="jetbrains.mps.lang.smodel.generator.smodelAdapter.SPropertyOperations" />
@@ -1132,9 +1132,6 @@
     <classNode dependClassName="jetbrains.mps.smodel.SNode" />
     <classNode extendsClassName="jetbrains.mps.nodeEditor.DefaultNodeEditor" />
     <classNode extendsClassName="jetbrains.mps.nodeEditor.InlineCellProvider" />
-  </dependency>
-  <dependency className="jetbrains.mps.baseLanguage.dates.editor.StringUtils" file="StringUtils.java">
-    <classNode dependClassName="java.lang.String" />
   </dependency>
   <dependency className="jetbrains.mps.baseLanguage.dates.editor.TimeConstant_Editor" file="TimeConstant_Editor.java">
     <classNode dependClassName="java.lang.Class" />

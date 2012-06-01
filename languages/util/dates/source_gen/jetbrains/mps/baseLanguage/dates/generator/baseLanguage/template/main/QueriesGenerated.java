@@ -446,7 +446,7 @@ public class QueriesGenerated {
   }
 
   public static boolean ifMacro_Condition_2872438607476486235(final IOperationContext operationContext, final IfMacroContext _context) {
-    return StringUtils.isNotEmpty(SPropertyOperations.getString(_context.getNode(), "prefix"));
+    return isNotEmpty_x583g4_a0a0jd(SPropertyOperations.getString(_context.getNode(), "prefix"));
   }
 
   public static boolean ifMacro_Condition_2872438607477349715(final IOperationContext operationContext, final IfMacroContext _context) {
@@ -468,11 +468,11 @@ public class QueriesGenerated {
   }
 
   public static boolean ifMacro_Condition_2872438607476484885(final IOperationContext operationContext, final IfMacroContext _context) {
-    return StringUtils.isNotEmpty(SPropertyOperations.getString(_context.getNode(), "suffix"));
+    return isNotEmpty_x583g4_a0a0md(SPropertyOperations.getString(_context.getNode(), "suffix"));
   }
 
   public static boolean ifMacro_Condition_5581663871703143195(final IOperationContext operationContext, final IfMacroContext _context) {
-    return !(SPropertyOperations.hasValue(_context.getNode(), "kind", "default", "default") && StringUtils.isNotEmpty(SPropertyOperations.getString(_context.getNode(), "lastText")));
+    return !(SPropertyOperations.hasValue(_context.getNode(), "kind", "default", "default") && isNotEmpty_x583g4_a0a0a0nd(SPropertyOperations.getString(_context.getNode(), "lastText")));
   }
 
   public static SNode sourceNodeQuery_1209036487954(final IOperationContext operationContext, final SourceSubstituteMacroNodeContext _context) {
@@ -826,7 +826,7 @@ public class QueriesGenerated {
   }
 
   public static SNode sourceNodeQuery_2872438607476702408(final IOperationContext operationContext, final SourceSubstituteMacroNodeContext _context) {
-    if (StringUtils.isNotEmpty(SPropertyOperations.getString(_context.getNode(), "prefixPlural"))) {
+    if (isNotEmpty_x583g4_a0a0vg(SPropertyOperations.getString(_context.getNode(), "prefixPlural"))) {
       SNode literal = SConceptOperations.createNewNode("jetbrains.mps.baseLanguage.structure.StringLiteral", null);
       SPropertyOperations.set(literal, "value", SPropertyOperations.getString(_context.getNode(), "prefixPlural"));
       return literal;
@@ -835,7 +835,7 @@ public class QueriesGenerated {
   }
 
   public static SNode sourceNodeQuery_2872438607476484913(final IOperationContext operationContext, final SourceSubstituteMacroNodeContext _context) {
-    if (StringUtils.isNotEmpty(SPropertyOperations.getString(_context.getNode(), "suffixPlural"))) {
+    if (isNotEmpty_x583g4_a0a0wg(SPropertyOperations.getString(_context.getNode(), "suffixPlural"))) {
       SNode literal = SConceptOperations.createNewNode("jetbrains.mps.baseLanguage.structure.StringLiteral", null);
       SPropertyOperations.set(literal, "value", SPropertyOperations.getString(_context.getNode(), "suffixPlural"));
       return literal;
@@ -898,5 +898,25 @@ public class QueriesGenerated {
 
   public static Iterable sourceNodesQuery_48671598477852667(final IOperationContext operationContext, final SourceSubstituteMacroNodesContext _context) {
     return SLinkOperations.getTargets(_context.getNode(), "token", true);
+  }
+
+  public static boolean isNotEmpty_x583g4_a0a0jd(String str) {
+    return str != null && str.length() > 0;
+  }
+
+  public static boolean isNotEmpty_x583g4_a0a0md(String str) {
+    return str != null && str.length() > 0;
+  }
+
+  public static boolean isNotEmpty_x583g4_a0a0a0nd(String str) {
+    return str != null && str.length() > 0;
+  }
+
+  public static boolean isNotEmpty_x583g4_a0a0vg(String str) {
+    return str != null && str.length() > 0;
+  }
+
+  public static boolean isNotEmpty_x583g4_a0a0wg(String str) {
+    return str != null && str.length() > 0;
   }
 }

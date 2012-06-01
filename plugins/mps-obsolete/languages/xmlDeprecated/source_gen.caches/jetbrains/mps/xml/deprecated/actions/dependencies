@@ -19,10 +19,6 @@
     <classNode dependClassName="jetbrains.mps.smodel.action.SNodeFactoryOperations" />
     <classNode dependClassName="jetbrains.mps.smodel.action.SideTransformActionsBuilderContext" />
     <classNode dependClassName="jetbrains.mps.util.NameUtil" />
-    <classNode dependClassName="jetbrains.mps.xml.deprecated.actions.StringUtils" />
-  </dependency>
-  <dependency className="jetbrains.mps.xml.deprecated.actions.StringUtils" file="StringUtils.java">
-    <classNode dependClassName="java.lang.String" />
   </dependency>
 </dependenciesRoot>
 
