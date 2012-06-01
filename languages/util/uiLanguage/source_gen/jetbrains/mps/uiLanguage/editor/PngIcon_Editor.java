@@ -112,7 +112,7 @@ public class PngIcon_Editor extends DefaultNodeEditor {
   }
 
   private static boolean renderingCondition_4kucyt_a3a(SNode node, EditorContext editorContext, IScope scope) {
-    return StringUtils.isNotEmpty(SPropertyOperations.getString(node, "iconData"));
+    return isNotEmpty_4kucyt_a0a0a(SPropertyOperations.getString(node, "iconData"));
   }
 
   private static JComponent _QueryFunction_JComponent_4kucyt_a0d0(final SNode node, final EditorContext editorContext) {
@@ -121,5 +121,9 @@ public class PngIcon_Editor extends DefaultNodeEditor {
 
   private static JComponent _QueryFunction_JComponent_4kucyt_a4a(final SNode node, final EditorContext editorContext) {
     return EditorIconUtil.createSelectIconButton(node, editorContext);
+  }
+
+  public static boolean isNotEmpty_4kucyt_a0a0a(String str) {
+    return str != null && str.length() > 0;
   }
 }
