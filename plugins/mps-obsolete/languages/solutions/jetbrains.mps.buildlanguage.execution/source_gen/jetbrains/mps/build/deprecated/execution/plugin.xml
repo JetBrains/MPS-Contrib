@@ -8,7 +8,7 @@
   <name>MPS Deprecated Build Languages</name>
   <description>Legacy (deprecated) build languages for MPS</description>
   <version>1.0</version>
-  <vendor url="http://www.jetbrains.com/mps/">JetBrains</vendor>
+  <vendor url="http://www.jetbrains.com/mps/" logo="/MPS_16.png">JetBrains</vendor>
   <idea-version since-build="3000"></idea-version>
     
   <depends>jetbrains.mps.execution.languages</depends>
