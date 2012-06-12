@@ -10,6 +10,7 @@
     <classNode dependClassName="jetbrains.mps.smodel.SModelUtil_new" />
     <classNode dependClassName="jetbrains.mps.smodel.SNode" />
     <classNode extendsClassName="jetbrains.mps.lang.core.structure.BaseConcept" />
+    <classNode extendsClassName="jetbrains.mps.smodel.INodeAdapter" />
   </dependency>
   <dependency className="jetbrains.mps.xml.deprecated.structure.Deprecated_Language" file="Deprecated_Language.java">
     <classNode dependClassName="jetbrains.mps.project.structure.modules.ModuleReference" />
@@ -29,6 +30,7 @@
     <classNode dependClassName="jetbrains.mps.xml.deprecated.structure.DocumentTypeDeclaration" />
     <classNode dependClassName="jetbrains.mps.xml.deprecated.structure.Element" />
     <classNode extendsClassName="jetbrains.mps.lang.core.structure.BaseConcept" />
+    <classNode extendsClassName="jetbrains.mps.smodel.INodeAdapter" />
   </dependency>
   <dependency className="jetbrains.mps.xml.deprecated.structure.DocumentTypeDeclaration" file="DocumentTypeDeclaration.java">
     <classNode dependClassName="java.lang.String" />
@@ -42,6 +44,7 @@
     <classNode dependClassName="jetbrains.mps.smodel.SNode" />
     <classNode dependClassName="jetbrains.mps.xml.deprecated.structure.ExternalId" />
     <classNode extendsClassName="jetbrains.mps.lang.core.structure.BaseConcept" />
+    <classNode extendsClassName="jetbrains.mps.smodel.INodeAdapter" />
   </dependency>
   <dependency className="jetbrains.mps.xml.deprecated.structure.Element" file="Element.java">
     <classNode dependClassName="java.lang.String" />
@@ -66,6 +69,7 @@
     <classNode dependClassName="jetbrains.mps.smodel.SModelUtil_new" />
     <classNode dependClassName="jetbrains.mps.smodel.SNode" />
     <classNode extendsClassName="jetbrains.mps.lang.core.structure.BaseConcept" />
+    <classNode extendsClassName="jetbrains.mps.smodel.INodeAdapter" />
   </dependency>
   <dependency className="jetbrains.mps.xml.deprecated.structure.ExternalId" file="ExternalId.java">
     <classNode dependClassName="java.lang.String" />
