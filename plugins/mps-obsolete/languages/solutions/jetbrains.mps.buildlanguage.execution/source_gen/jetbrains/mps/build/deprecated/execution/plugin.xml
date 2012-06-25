@@ -10,18 +10,18 @@
   <version>1.0</version>
   <vendor url="http://www.jetbrains.com/mps/" logo="/MPS_16.png">JetBrains</vendor>
   <idea-version since-build="3000"></idea-version>
-    
+  
   <depends>jetbrains.mps.execution.languages</depends>
   <depends>jetbrains.mps.execution.configurations</depends>
   <depends>jetbrains.mps.debugger-java</depends>
   <depends>jetbrains.mps.debugger-api</depends>
-    
+  
   <application-components>
     <component>
       <implementation-class>jetbrains.mps.build.deprecated.execution.Execution_PluginInitializer</implementation-class>
     </component>
   </application-components>
-    
+  
   <extensions defaultExtensionNs="com.intellij">
     <mps.LanguageLibrary dir="/"></mps.LanguageLibrary>
     <errorHandler implementation="jetbrains.mps.ide.blame.CharismaReporter"></errorHandler>
