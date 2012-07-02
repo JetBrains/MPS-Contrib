@@ -46,12 +46,6 @@
       <property name="virtualPackage" nameId="tpck.1193676396447" value="java" />
       <link role="extends" roleId="tpce.1071489389519" targetNodeId="tpee.1107135704075" resolveInfo="ConceptFunctionParameter" />
     </node>
-    <node type="tpce.AnnotationLinkDeclaration" typeId="tpce.1149608206811" id="7549816165173144969">
-      <property name="role" nameId="tpce.1204740973143" value="userComponentReferenceAnnotation" />
-      <property name="virtualPackage" nameId="tpck.1193676396447" value="annotations" />
-      <link role="source" roleId="tpce.1149608246500" targetNodeId="314981645426569161" resolveInfo="ComponentReference" />
-      <link role="target" roleId="tpce.1204741097161" targetNodeId="7549816165173145425" resolveInfo="UserComponentReferenceAnnotation" />
-    </node>
     <node type="tpce.ConceptDeclaration" typeId="tpce.1071489090640" id="7549816165173145425">
       <property name="name" nameId="tpck.1169194664001" value="UserComponentReferenceAnnotation" />
       <property name="virtualPackage" nameId="tpck.1193676396447" value="annotations" />
@@ -87,12 +81,6 @@
     </node>
     <node type="tpce.InterfaceConceptDeclaration" typeId="tpce.1169125989551" id="1566895476211680660">
       <property name="name" nameId="tpck.1169194664001" value="IOnChangeEditorBlock" />
-    </node>
-    <node type="tpce.AnnotationLinkDeclaration" typeId="tpce.1149608206811" id="1566895476211680990">
-      <property name="role" nameId="tpce.1204740973143" value="componentInsideOfChangeListenerAnnotation" />
-      <property name="virtualPackage" nameId="tpck.1193676396447" value="annotations" />
-      <link role="target" roleId="tpce.1204741097161" targetNodeId="1566895476211680658" resolveInfo="ComponentInsideOfChangeListenerAnnotation" />
-      <link role="source" roleId="tpce.1149608246500" targetNodeId="314981645426569161" resolveInfo="ComponentReference" />
     </node>
     <node type="tpce.ConceptDeclaration" typeId="tpce.1071489090640" id="4462513030604064303">
       <property name="name" nameId="tpck.1169194664001" value="IsApplicableBlock" />
@@ -448,7 +436,6 @@
       <link role="intfc" roleId="tpce.1169127628841" targetNodeId="1810772216404800349" resolveInfo="IJavaRunConfigurationParameter" />
     </node>
   </root>
-  <root id="7549816165173144969" />
   <root id="7549816165173145425">
     <node role="conceptProperty" roleId="tpce.1105725339613" type="tpce.StringConceptProperty" typeId="tpce.1105725638761" id="7549816165173145427">
       <property name="value" nameId="tpce.1105725733873" value="user component reference" />
@@ -524,7 +511,6 @@
     </node>
   </root>
   <root id="1566895476211680660" />
-  <root id="1566895476211680990" />
   <root id="4462513030604064303">
     <node role="conceptLink" roleId="tpce.1105736949336" type="tpce.ReferenceConceptLink" typeId="tpce.1105736778597" id="4462513030604064310">
       <link role="conceptLinkDeclaration" roleId="tpce.1105736734721" targetNodeId="tpee.1161119487665" resolveInfo="applicableConceptFunctionParameter" />
