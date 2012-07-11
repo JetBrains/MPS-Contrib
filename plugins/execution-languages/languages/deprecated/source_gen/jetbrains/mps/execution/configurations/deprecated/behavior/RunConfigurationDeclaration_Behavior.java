@@ -87,11 +87,11 @@ public class RunConfigurationDeclaration_Behavior {
 
   public static SNode call_getStateType_314981645426570519(SNode thisNode) {
     BehaviorDescriptor descriptor = ConceptRegistry.getInstance().getBehaviorDescriptorForInstanceNode(thisNode);
-    return (SNode) descriptor.invoke(Object.class, SNodeOperations.cast(thisNode, "jetbrains.mps.execution.configurations.deprecated.structure.RunConfigurationDeclaration"), "virtual_getStateType_314981645426570519", PARAMETERS_314981645426570519);
+    return (SNode) descriptor.invoke(Object.class, SNodeOperations.cast(thisNode, "jetbrains.mps.execution.configurations.deprecated.structure.RunConfigurationDeclaration"), "virtual_getStateType_314981645426570519", PARAMETERS_314981645426570519, new Object[]{});
   }
 
   public static SNode callSuper_getStateType_314981645426570519(SNode thisNode, String callerConceptFqName) {
-    return (SNode) BehaviorManager.getInstance().invokeSuper(Object.class, SNodeOperations.cast(thisNode, "jetbrains.mps.execution.configurations.deprecated.structure.RunConfigurationDeclaration"), callerConceptFqName, "virtual_getStateType_314981645426570519", PARAMETERS_314981645426570519);
+    return (SNode) BehaviorManager.getInstance().invokeSuper(Object.class, SNodeOperations.cast(thisNode, "jetbrains.mps.execution.configurations.deprecated.structure.RunConfigurationDeclaration"), callerConceptFqName, "virtual_getStateType_314981645426570519", PARAMETERS_314981645426570519, new Object[]{});
   }
 
   private static boolean neq_ym0401_a0c0j(Object a, Object b) {

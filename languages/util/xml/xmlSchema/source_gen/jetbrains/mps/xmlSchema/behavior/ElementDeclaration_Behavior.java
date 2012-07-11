@@ -70,10 +70,10 @@ public class ElementDeclaration_Behavior {
 
   public static SNode call_getComplexType_1213877429806(SNode thisNode) {
     BehaviorDescriptor descriptor = ConceptRegistry.getInstance().getBehaviorDescriptorForInstanceNode(thisNode);
-    return (SNode) descriptor.invoke(Object.class, SNodeOperations.cast(thisNode, "jetbrains.mps.xmlSchema.structure.ElementDeclaration"), "virtual_getComplexType_1213877429806", PARAMETERS_1213877429806);
+    return (SNode) descriptor.invoke(Object.class, SNodeOperations.cast(thisNode, "jetbrains.mps.xmlSchema.structure.ElementDeclaration"), "virtual_getComplexType_1213877429806", PARAMETERS_1213877429806, new Object[]{});
   }
 
   public static SNode callSuper_getComplexType_1213877429806(SNode thisNode, String callerConceptFqName) {
-    return (SNode) BehaviorManager.getInstance().invokeSuper(Object.class, SNodeOperations.cast(thisNode, "jetbrains.mps.xmlSchema.structure.ElementDeclaration"), callerConceptFqName, "virtual_getComplexType_1213877429806", PARAMETERS_1213877429806);
+    return (SNode) BehaviorManager.getInstance().invokeSuper(Object.class, SNodeOperations.cast(thisNode, "jetbrains.mps.xmlSchema.structure.ElementDeclaration"), callerConceptFqName, "virtual_getComplexType_1213877429806", PARAMETERS_1213877429806, new Object[]{});
   }
 }

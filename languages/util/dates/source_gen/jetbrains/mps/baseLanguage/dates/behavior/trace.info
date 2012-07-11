@@ -79,16 +79,16 @@
     <nodeInfo nodeId="1015544890586258578" fileName="NullOperation_Behavior.java" startLine="11" startPosition="37" endLine="12" endPosition="72" conceptFqName="jetbrains.mps.baseLanguage.structure.StaticFieldDeclaration" propertyString="PARAMETERS_1015544890586290191" />
     <nodeInfo nodeId="1015544890586290195" fileName="NullOperation_Behavior.java" startLine="17" startPosition="85" endLine="18" endPosition="16" conceptFqName="jetbrains.mps.baseLanguage.structure.ReturnStatement" />
     <nodeInfo nodeId="1015544890586258578" fileName="NullOperation_Behavior.java" startLine="21" startPosition="83" endLine="22" endPosition="113" conceptFqName="jetbrains.mps.baseLanguage.structure.LocalVariableDeclarationStatement" />
-    <nodeInfo nodeId="1015544890586258578" fileName="NullOperation_Behavior.java" startLine="22" startPosition="113" endLine="23" endPosition="225" conceptFqName="jetbrains.mps.baseLanguage.structure.ReturnStatement" />
-    <nodeInfo nodeId="1015544890586258578" fileName="NullOperation_Behavior.java" startLine="26" startPosition="116" endLine="27" endPosition="270" conceptFqName="jetbrains.mps.baseLanguage.structure.ReturnStatement" />
+    <nodeInfo nodeId="1015544890586258578" fileName="NullOperation_Behavior.java" startLine="22" startPosition="113" endLine="23" endPosition="241" conceptFqName="jetbrains.mps.baseLanguage.structure.ReturnStatement" />
+    <nodeInfo nodeId="1015544890586258578" fileName="NullOperation_Behavior.java" startLine="26" startPosition="116" endLine="27" endPosition="286" conceptFqName="jetbrains.mps.baseLanguage.structure.ReturnStatement" />
     <nodeInfo nodeId="1015544890586258578" fileName="NullOperation_Behavior.java" startLine="13" startPosition="0" endLine="16" endPosition="0" conceptFqName="jetbrains.mps.baseLanguage.structure.StaticMethodDeclaration" propertyString="init#(Ljetbrains/mps/smodel/SNode;)V" />
     <nodeInfo nodeId="1015544890586258578" fileName="NullOperation_Behavior.java" startLine="16" startPosition="0" endLine="20" endPosition="0" conceptFqName="jetbrains.mps.baseLanguage.structure.StaticMethodDeclaration" propertyString="virtual_operandCanBeNull_323410281720656291#(Ljetbrains/mps/smodel/SNode;)Z" />
     <nodeInfo nodeId="1015544890586258578" fileName="NullOperation_Behavior.java" startLine="25" startPosition="0" endLine="29" endPosition="0" conceptFqName="jetbrains.mps.baseLanguage.structure.StaticMethodDeclaration" propertyString="callSuper_operandCanBeNull_1015544890586290191#(Ljetbrains/mps/smodel/SNode;Ljava/lang/String;)Z" />
     <nodeInfo nodeId="1015544890586258578" fileName="NullOperation_Behavior.java" startLine="20" startPosition="0" endLine="25" endPosition="0" conceptFqName="jetbrains.mps.baseLanguage.structure.StaticMethodDeclaration" propertyString="call_operandCanBeNull_1015544890586290191#(Ljetbrains/mps/smodel/SNode;)Z" />
     <scopeInfo nodeId="1015544890586258580" fileName="NullOperation_Behavior.java" startLine="14" startPosition="43" endLine="14" endPosition="43" />
     <scopeInfo nodeId="1015544890586290193" fileName="NullOperation_Behavior.java" startLine="17" startPosition="85" endLine="18" endPosition="16" />
-    <scopeInfo nodeId="1015544890586258578" fileName="NullOperation_Behavior.java" startLine="26" startPosition="116" endLine="27" endPosition="270" />
-    <scopeInfo nodeId="1015544890586258578" fileName="NullOperation_Behavior.java" startLine="21" startPosition="83" endLine="23" endPosition="225">
+    <scopeInfo nodeId="1015544890586258578" fileName="NullOperation_Behavior.java" startLine="26" startPosition="116" endLine="27" endPosition="286" />
+    <scopeInfo nodeId="1015544890586258578" fileName="NullOperation_Behavior.java" startLine="21" startPosition="83" endLine="23" endPosition="241">
       <varInfo nodeId="1015544890586258578" varName="descriptor" />
     </scopeInfo>
     <scopeInfo nodeId="1015544890586258578" fileName="NullOperation_Behavior.java" startLine="13" startPosition="0" endLine="16" endPosition="0">
@@ -110,16 +110,16 @@
     <nodeInfo nodeId="1015544890586293378" fileName="NotNullOperation_Behavior.java" startLine="11" startPosition="40" endLine="12" endPosition="72" conceptFqName="jetbrains.mps.baseLanguage.structure.StaticFieldDeclaration" propertyString="PARAMETERS_1015544890586293381" />
     <nodeInfo nodeId="1015544890586293385" fileName="NotNullOperation_Behavior.java" startLine="17" startPosition="85" endLine="18" endPosition="16" conceptFqName="jetbrains.mps.baseLanguage.structure.ReturnStatement" />
     <nodeInfo nodeId="1015544890586293378" fileName="NotNullOperation_Behavior.java" startLine="21" startPosition="83" endLine="22" endPosition="113" conceptFqName="jetbrains.mps.baseLanguage.structure.LocalVariableDeclarationStatement" />
-    <nodeInfo nodeId="1015544890586293378" fileName="NotNullOperation_Behavior.java" startLine="22" startPosition="113" endLine="23" endPosition="228" conceptFqName="jetbrains.mps.baseLanguage.structure.ReturnStatement" />
-    <nodeInfo nodeId="1015544890586293378" fileName="NotNullOperation_Behavior.java" startLine="26" startPosition="116" endLine="27" endPosition="273" conceptFqName="jetbrains.mps.baseLanguage.structure.ReturnStatement" />
+    <nodeInfo nodeId="1015544890586293378" fileName="NotNullOperation_Behavior.java" startLine="22" startPosition="113" endLine="23" endPosition="244" conceptFqName="jetbrains.mps.baseLanguage.structure.ReturnStatement" />
+    <nodeInfo nodeId="1015544890586293378" fileName="NotNullOperation_Behavior.java" startLine="26" startPosition="116" endLine="27" endPosition="289" conceptFqName="jetbrains.mps.baseLanguage.structure.ReturnStatement" />
     <nodeInfo nodeId="1015544890586293378" fileName="NotNullOperation_Behavior.java" startLine="13" startPosition="0" endLine="16" endPosition="0" conceptFqName="jetbrains.mps.baseLanguage.structure.StaticMethodDeclaration" propertyString="init#(Ljetbrains/mps/smodel/SNode;)V" />
     <nodeInfo nodeId="1015544890586293378" fileName="NotNullOperation_Behavior.java" startLine="16" startPosition="0" endLine="20" endPosition="0" conceptFqName="jetbrains.mps.baseLanguage.structure.StaticMethodDeclaration" propertyString="virtual_operandCanBeNull_323410281720656291#(Ljetbrains/mps/smodel/SNode;)Z" />
     <nodeInfo nodeId="1015544890586293378" fileName="NotNullOperation_Behavior.java" startLine="25" startPosition="0" endLine="29" endPosition="0" conceptFqName="jetbrains.mps.baseLanguage.structure.StaticMethodDeclaration" propertyString="callSuper_operandCanBeNull_1015544890586293381#(Ljetbrains/mps/smodel/SNode;Ljava/lang/String;)Z" />
     <nodeInfo nodeId="1015544890586293378" fileName="NotNullOperation_Behavior.java" startLine="20" startPosition="0" endLine="25" endPosition="0" conceptFqName="jetbrains.mps.baseLanguage.structure.StaticMethodDeclaration" propertyString="call_operandCanBeNull_1015544890586293381#(Ljetbrains/mps/smodel/SNode;)Z" />
     <scopeInfo nodeId="1015544890586293380" fileName="NotNullOperation_Behavior.java" startLine="14" startPosition="43" endLine="14" endPosition="43" />
     <scopeInfo nodeId="1015544890586293383" fileName="NotNullOperation_Behavior.java" startLine="17" startPosition="85" endLine="18" endPosition="16" />
-    <scopeInfo nodeId="1015544890586293378" fileName="NotNullOperation_Behavior.java" startLine="26" startPosition="116" endLine="27" endPosition="273" />
-    <scopeInfo nodeId="1015544890586293378" fileName="NotNullOperation_Behavior.java" startLine="21" startPosition="83" endLine="23" endPosition="228">
+    <scopeInfo nodeId="1015544890586293378" fileName="NotNullOperation_Behavior.java" startLine="26" startPosition="116" endLine="27" endPosition="289" />
+    <scopeInfo nodeId="1015544890586293378" fileName="NotNullOperation_Behavior.java" startLine="21" startPosition="83" endLine="23" endPosition="244">
       <varInfo nodeId="1015544890586293378" varName="descriptor" />
     </scopeInfo>
     <scopeInfo nodeId="1015544890586293378" fileName="NotNullOperation_Behavior.java" startLine="13" startPosition="0" endLine="16" endPosition="0">
@@ -675,11 +675,11 @@
     <nodeInfo nodeId="34521615669576921" fileName="FormatPeriodExpression_Behavior.java" startLine="35" startPosition="133" endLine="36" endPosition="94" conceptFqName="jetbrains.mps.baseLanguage.structure.ReturnStatement" />
     <nodeInfo nodeId="34521615669576931" fileName="FormatPeriodExpression_Behavior.java" startLine="37" startPosition="5" endLine="38" endPosition="16" conceptFqName="jetbrains.mps.baseLanguage.structure.ReturnStatement" />
     <nodeInfo nodeId="34521615669576863" fileName="FormatPeriodExpression_Behavior.java" startLine="41" startPosition="91" endLine="42" endPosition="113" conceptFqName="jetbrains.mps.baseLanguage.structure.LocalVariableDeclarationStatement" />
-    <nodeInfo nodeId="34521615669576863" fileName="FormatPeriodExpression_Behavior.java" startLine="42" startPosition="113" endLine="43" endPosition="230" conceptFqName="jetbrains.mps.baseLanguage.structure.ReturnStatement" />
+    <nodeInfo nodeId="34521615669576863" fileName="FormatPeriodExpression_Behavior.java" startLine="42" startPosition="113" endLine="43" endPosition="244" conceptFqName="jetbrains.mps.baseLanguage.structure.ReturnStatement" />
     <nodeInfo nodeId="34521615669576863" fileName="FormatPeriodExpression_Behavior.java" startLine="46" startPosition="103" endLine="47" endPosition="113" conceptFqName="jetbrains.mps.baseLanguage.structure.LocalVariableDeclarationStatement" />
-    <nodeInfo nodeId="34521615669576863" fileName="FormatPeriodExpression_Behavior.java" startLine="47" startPosition="113" endLine="48" endPosition="242" conceptFqName="jetbrains.mps.baseLanguage.structure.ReturnStatement" />
-    <nodeInfo nodeId="34521615669576863" fileName="FormatPeriodExpression_Behavior.java" startLine="51" startPosition="124" endLine="52" endPosition="275" conceptFqName="jetbrains.mps.baseLanguage.structure.ReturnStatement" />
-    <nodeInfo nodeId="34521615669576863" fileName="FormatPeriodExpression_Behavior.java" startLine="55" startPosition="136" endLine="56" endPosition="287" conceptFqName="jetbrains.mps.baseLanguage.structure.ReturnStatement" />
+    <nodeInfo nodeId="34521615669576863" fileName="FormatPeriodExpression_Behavior.java" startLine="47" startPosition="113" endLine="48" endPosition="256" conceptFqName="jetbrains.mps.baseLanguage.structure.ReturnStatement" />
+    <nodeInfo nodeId="34521615669576863" fileName="FormatPeriodExpression_Behavior.java" startLine="51" startPosition="124" endLine="52" endPosition="289" conceptFqName="jetbrains.mps.baseLanguage.structure.ReturnStatement" />
+    <nodeInfo nodeId="34521615669576863" fileName="FormatPeriodExpression_Behavior.java" startLine="55" startPosition="136" endLine="56" endPosition="301" conceptFqName="jetbrains.mps.baseLanguage.structure.ReturnStatement" />
     <nodeInfo nodeId="34521615669576891" fileName="FormatPeriodExpression_Behavior.java" startLine="63" startPosition="31" endLine="64" endPosition="26" conceptFqName="jetbrains.mps.baseLanguage.structure.LocalVariableDeclarationStatement" />
     <nodeInfo nodeId="34521615669576891" fileName="FormatPeriodExpression_Behavior.java" startLine="64" startPosition="26" endLine="65" endPosition="67" conceptFqName="jetbrains.mps.baseLanguage.structure.LocalVariableDeclarationStatement" />
     <nodeInfo nodeId="34521615669576891" fileName="FormatPeriodExpression_Behavior.java" startLine="65" startPosition="67" endLine="66" endPosition="32" conceptFqName="jetbrains.mps.baseLanguage.structure.LocalVariableDeclarationStatement" />
@@ -717,12 +717,12 @@
     <scopeInfo nodeId="34521615669576922" fileName="FormatPeriodExpression_Behavior.java" startLine="77" startPosition="44" endLine="77" endPosition="44" />
     <scopeInfo nodeId="34521615669576889" fileName="FormatPeriodExpression_Behavior.java" startLine="27" startPosition="179" endLine="28" endPosition="98" />
     <scopeInfo nodeId="34521615669576920" fileName="FormatPeriodExpression_Behavior.java" startLine="35" startPosition="133" endLine="36" endPosition="94" />
-    <scopeInfo nodeId="34521615669576863" fileName="FormatPeriodExpression_Behavior.java" startLine="51" startPosition="124" endLine="52" endPosition="275" />
-    <scopeInfo nodeId="34521615669576863" fileName="FormatPeriodExpression_Behavior.java" startLine="55" startPosition="136" endLine="56" endPosition="287" />
-    <scopeInfo nodeId="34521615669576863" fileName="FormatPeriodExpression_Behavior.java" startLine="41" startPosition="91" endLine="43" endPosition="230">
+    <scopeInfo nodeId="34521615669576863" fileName="FormatPeriodExpression_Behavior.java" startLine="51" startPosition="124" endLine="52" endPosition="289" />
+    <scopeInfo nodeId="34521615669576863" fileName="FormatPeriodExpression_Behavior.java" startLine="55" startPosition="136" endLine="56" endPosition="301" />
+    <scopeInfo nodeId="34521615669576863" fileName="FormatPeriodExpression_Behavior.java" startLine="41" startPosition="91" endLine="43" endPosition="244">
       <varInfo nodeId="34521615669576863" varName="descriptor" />
     </scopeInfo>
-    <scopeInfo nodeId="34521615669576863" fileName="FormatPeriodExpression_Behavior.java" startLine="46" startPosition="103" endLine="48" endPosition="242">
+    <scopeInfo nodeId="34521615669576863" fileName="FormatPeriodExpression_Behavior.java" startLine="46" startPosition="103" endLine="48" endPosition="256">
       <varInfo nodeId="34521615669576863" varName="descriptor" />
     </scopeInfo>
     <scopeInfo nodeId="34521615669576891" fileName="FormatPeriodExpression_Behavior.java" startLine="59" startPosition="55" endLine="61" endPosition="5" />
@@ -819,11 +819,11 @@
     <nodeInfo nodeId="5034322243092302127" fileName="FormatDateTimeExpression_Behavior.java" startLine="35" startPosition="137" endLine="36" endPosition="96" conceptFqName="jetbrains.mps.baseLanguage.structure.ReturnStatement" />
     <nodeInfo nodeId="5034322243092301797" fileName="FormatDateTimeExpression_Behavior.java" startLine="37" startPosition="5" endLine="38" endPosition="16" conceptFqName="jetbrains.mps.baseLanguage.structure.ReturnStatement" />
     <nodeInfo nodeId="5034322243092301670" fileName="FormatDateTimeExpression_Behavior.java" startLine="41" startPosition="93" endLine="42" endPosition="113" conceptFqName="jetbrains.mps.baseLanguage.structure.LocalVariableDeclarationStatement" />
-    <nodeInfo nodeId="5034322243092301670" fileName="FormatDateTimeExpression_Behavior.java" startLine="42" startPosition="113" endLine="43" endPosition="234" conceptFqName="jetbrains.mps.baseLanguage.structure.ReturnStatement" />
+    <nodeInfo nodeId="5034322243092301670" fileName="FormatDateTimeExpression_Behavior.java" startLine="42" startPosition="113" endLine="43" endPosition="248" conceptFqName="jetbrains.mps.baseLanguage.structure.ReturnStatement" />
     <nodeInfo nodeId="5034322243092301670" fileName="FormatDateTimeExpression_Behavior.java" startLine="46" startPosition="105" endLine="47" endPosition="113" conceptFqName="jetbrains.mps.baseLanguage.structure.LocalVariableDeclarationStatement" />
-    <nodeInfo nodeId="5034322243092301670" fileName="FormatDateTimeExpression_Behavior.java" startLine="47" startPosition="113" endLine="48" endPosition="246" conceptFqName="jetbrains.mps.baseLanguage.structure.ReturnStatement" />
-    <nodeInfo nodeId="5034322243092301670" fileName="FormatDateTimeExpression_Behavior.java" startLine="51" startPosition="126" endLine="52" endPosition="279" conceptFqName="jetbrains.mps.baseLanguage.structure.ReturnStatement" />
-    <nodeInfo nodeId="5034322243092301670" fileName="FormatDateTimeExpression_Behavior.java" startLine="55" startPosition="138" endLine="56" endPosition="291" conceptFqName="jetbrains.mps.baseLanguage.structure.ReturnStatement" />
+    <nodeInfo nodeId="5034322243092301670" fileName="FormatDateTimeExpression_Behavior.java" startLine="47" startPosition="113" endLine="48" endPosition="260" conceptFqName="jetbrains.mps.baseLanguage.structure.ReturnStatement" />
+    <nodeInfo nodeId="5034322243092301670" fileName="FormatDateTimeExpression_Behavior.java" startLine="51" startPosition="126" endLine="52" endPosition="293" conceptFqName="jetbrains.mps.baseLanguage.structure.ReturnStatement" />
+    <nodeInfo nodeId="5034322243092301670" fileName="FormatDateTimeExpression_Behavior.java" startLine="55" startPosition="138" endLine="56" endPosition="305" conceptFqName="jetbrains.mps.baseLanguage.structure.ReturnStatement" />
     <nodeInfo nodeId="5034322243092302108" fileName="FormatDateTimeExpression_Behavior.java" startLine="63" startPosition="31" endLine="64" endPosition="26" conceptFqName="jetbrains.mps.baseLanguage.structure.LocalVariableDeclarationStatement" />
     <nodeInfo nodeId="5034322243092302108" fileName="FormatDateTimeExpression_Behavior.java" startLine="64" startPosition="26" endLine="65" endPosition="67" conceptFqName="jetbrains.mps.baseLanguage.structure.LocalVariableDeclarationStatement" />
     <nodeInfo nodeId="5034322243092302108" fileName="FormatDateTimeExpression_Behavior.java" startLine="65" startPosition="67" endLine="66" endPosition="32" conceptFqName="jetbrains.mps.baseLanguage.structure.LocalVariableDeclarationStatement" />
@@ -861,12 +861,12 @@
     <scopeInfo nodeId="5034322243092302129" fileName="FormatDateTimeExpression_Behavior.java" startLine="77" startPosition="44" endLine="77" endPosition="44" />
     <scopeInfo nodeId="5034322243092302086" fileName="FormatDateTimeExpression_Behavior.java" startLine="27" startPosition="183" endLine="28" endPosition="100" />
     <scopeInfo nodeId="5034322243092302119" fileName="FormatDateTimeExpression_Behavior.java" startLine="35" startPosition="137" endLine="36" endPosition="96" />
-    <scopeInfo nodeId="5034322243092301670" fileName="FormatDateTimeExpression_Behavior.java" startLine="51" startPosition="126" endLine="52" endPosition="279" />
-    <scopeInfo nodeId="5034322243092301670" fileName="FormatDateTimeExpression_Behavior.java" startLine="55" startPosition="138" endLine="56" endPosition="291" />
-    <scopeInfo nodeId="5034322243092301670" fileName="FormatDateTimeExpression_Behavior.java" startLine="41" startPosition="93" endLine="43" endPosition="234">
+    <scopeInfo nodeId="5034322243092301670" fileName="FormatDateTimeExpression_Behavior.java" startLine="51" startPosition="126" endLine="52" endPosition="293" />
+    <scopeInfo nodeId="5034322243092301670" fileName="FormatDateTimeExpression_Behavior.java" startLine="55" startPosition="138" endLine="56" endPosition="305" />
+    <scopeInfo nodeId="5034322243092301670" fileName="FormatDateTimeExpression_Behavior.java" startLine="41" startPosition="93" endLine="43" endPosition="248">
       <varInfo nodeId="5034322243092301670" varName="descriptor" />
     </scopeInfo>
-    <scopeInfo nodeId="5034322243092301670" fileName="FormatDateTimeExpression_Behavior.java" startLine="46" startPosition="105" endLine="48" endPosition="246">
+    <scopeInfo nodeId="5034322243092301670" fileName="FormatDateTimeExpression_Behavior.java" startLine="46" startPosition="105" endLine="48" endPosition="260">
       <varInfo nodeId="5034322243092301670" varName="descriptor" />
     </scopeInfo>
     <scopeInfo nodeId="5034322243092302108" fileName="FormatDateTimeExpression_Behavior.java" startLine="59" startPosition="55" endLine="61" endPosition="5" />
@@ -1351,11 +1351,11 @@
     <nodeInfo nodeId="2890840340813585326" fileName="InTimezoneExpression_Behavior.java" startLine="41" startPosition="133" endLine="42" endPosition="92" conceptFqName="jetbrains.mps.baseLanguage.structure.ReturnStatement" />
     <nodeInfo nodeId="2890840340813585285" fileName="InTimezoneExpression_Behavior.java" startLine="43" startPosition="5" endLine="44" endPosition="16" conceptFqName="jetbrains.mps.baseLanguage.structure.ReturnStatement" />
     <nodeInfo nodeId="6626410111395870950" fileName="InTimezoneExpression_Behavior.java" startLine="47" startPosition="93" endLine="48" endPosition="113" conceptFqName="jetbrains.mps.baseLanguage.structure.LocalVariableDeclarationStatement" />
-    <nodeInfo nodeId="6626410111395870950" fileName="InTimezoneExpression_Behavior.java" startLine="48" startPosition="113" endLine="49" endPosition="230" conceptFqName="jetbrains.mps.baseLanguage.structure.ReturnStatement" />
+    <nodeInfo nodeId="6626410111395870950" fileName="InTimezoneExpression_Behavior.java" startLine="48" startPosition="113" endLine="49" endPosition="244" conceptFqName="jetbrains.mps.baseLanguage.structure.ReturnStatement" />
     <nodeInfo nodeId="6626410111395870950" fileName="InTimezoneExpression_Behavior.java" startLine="52" startPosition="105" endLine="53" endPosition="113" conceptFqName="jetbrains.mps.baseLanguage.structure.LocalVariableDeclarationStatement" />
-    <nodeInfo nodeId="6626410111395870950" fileName="InTimezoneExpression_Behavior.java" startLine="53" startPosition="113" endLine="54" endPosition="242" conceptFqName="jetbrains.mps.baseLanguage.structure.ReturnStatement" />
-    <nodeInfo nodeId="6626410111395870950" fileName="InTimezoneExpression_Behavior.java" startLine="57" startPosition="126" endLine="58" endPosition="275" conceptFqName="jetbrains.mps.baseLanguage.structure.ReturnStatement" />
-    <nodeInfo nodeId="6626410111395870950" fileName="InTimezoneExpression_Behavior.java" startLine="61" startPosition="138" endLine="62" endPosition="287" conceptFqName="jetbrains.mps.baseLanguage.structure.ReturnStatement" />
+    <nodeInfo nodeId="6626410111395870950" fileName="InTimezoneExpression_Behavior.java" startLine="53" startPosition="113" endLine="54" endPosition="256" conceptFqName="jetbrains.mps.baseLanguage.structure.ReturnStatement" />
+    <nodeInfo nodeId="6626410111395870950" fileName="InTimezoneExpression_Behavior.java" startLine="57" startPosition="126" endLine="58" endPosition="289" conceptFqName="jetbrains.mps.baseLanguage.structure.ReturnStatement" />
+    <nodeInfo nodeId="6626410111395870950" fileName="InTimezoneExpression_Behavior.java" startLine="61" startPosition="138" endLine="62" endPosition="301" conceptFqName="jetbrains.mps.baseLanguage.structure.ReturnStatement" />
     <nodeInfo nodeId="2890840340813585625" fileName="InTimezoneExpression_Behavior.java" startLine="69" startPosition="31" endLine="70" endPosition="26" conceptFqName="jetbrains.mps.baseLanguage.structure.LocalVariableDeclarationStatement" />
     <nodeInfo nodeId="2890840340813585625" fileName="InTimezoneExpression_Behavior.java" startLine="70" startPosition="26" endLine="71" endPosition="67" conceptFqName="jetbrains.mps.baseLanguage.structure.LocalVariableDeclarationStatement" />
     <nodeInfo nodeId="2890840340813585625" fileName="InTimezoneExpression_Behavior.java" startLine="71" startPosition="67" endLine="72" endPosition="32" conceptFqName="jetbrains.mps.baseLanguage.structure.LocalVariableDeclarationStatement" />
@@ -1421,12 +1421,12 @@
     <scopeInfo nodeId="2890840340813585634" fileName="InTimezoneExpression_Behavior.java" startLine="30" startPosition="179" endLine="31" endPosition="96" />
     <scopeInfo nodeId="2890840340813585297" fileName="InTimezoneExpression_Behavior.java" startLine="38" startPosition="133" endLine="39" endPosition="92" />
     <scopeInfo nodeId="2890840340813585317" fileName="InTimezoneExpression_Behavior.java" startLine="41" startPosition="133" endLine="42" endPosition="92" />
-    <scopeInfo nodeId="6626410111395870950" fileName="InTimezoneExpression_Behavior.java" startLine="57" startPosition="126" endLine="58" endPosition="275" />
-    <scopeInfo nodeId="6626410111395870950" fileName="InTimezoneExpression_Behavior.java" startLine="61" startPosition="138" endLine="62" endPosition="287" />
-    <scopeInfo nodeId="6626410111395870950" fileName="InTimezoneExpression_Behavior.java" startLine="47" startPosition="93" endLine="49" endPosition="230">
+    <scopeInfo nodeId="6626410111395870950" fileName="InTimezoneExpression_Behavior.java" startLine="57" startPosition="126" endLine="58" endPosition="289" />
+    <scopeInfo nodeId="6626410111395870950" fileName="InTimezoneExpression_Behavior.java" startLine="61" startPosition="138" endLine="62" endPosition="301" />
+    <scopeInfo nodeId="6626410111395870950" fileName="InTimezoneExpression_Behavior.java" startLine="47" startPosition="93" endLine="49" endPosition="244">
       <varInfo nodeId="6626410111395870950" varName="descriptor" />
     </scopeInfo>
-    <scopeInfo nodeId="6626410111395870950" fileName="InTimezoneExpression_Behavior.java" startLine="52" startPosition="105" endLine="54" endPosition="242">
+    <scopeInfo nodeId="6626410111395870950" fileName="InTimezoneExpression_Behavior.java" startLine="52" startPosition="105" endLine="54" endPosition="256">
       <varInfo nodeId="6626410111395870950" varName="descriptor" />
     </scopeInfo>
     <scopeInfo nodeId="2890840340813585625" fileName="InTimezoneExpression_Behavior.java" startLine="65" startPosition="55" endLine="67" endPosition="5" />
@@ -1525,11 +1525,11 @@
     <nodeInfo nodeId="7499037524191428872" fileName="ParseDateTimeExpression_Behavior.java" startLine="35" startPosition="132" endLine="36" endPosition="95" conceptFqName="jetbrains.mps.baseLanguage.structure.ReturnStatement" />
     <nodeInfo nodeId="7499037524191428878" fileName="ParseDateTimeExpression_Behavior.java" startLine="37" startPosition="5" endLine="38" endPosition="16" conceptFqName="jetbrains.mps.baseLanguage.structure.ReturnStatement" />
     <nodeInfo nodeId="7499037524191428321" fileName="ParseDateTimeExpression_Behavior.java" startLine="41" startPosition="93" endLine="42" endPosition="113" conceptFqName="jetbrains.mps.baseLanguage.structure.LocalVariableDeclarationStatement" />
-    <nodeInfo nodeId="7499037524191428321" fileName="ParseDateTimeExpression_Behavior.java" startLine="42" startPosition="113" endLine="43" endPosition="233" conceptFqName="jetbrains.mps.baseLanguage.structure.ReturnStatement" />
+    <nodeInfo nodeId="7499037524191428321" fileName="ParseDateTimeExpression_Behavior.java" startLine="42" startPosition="113" endLine="43" endPosition="247" conceptFqName="jetbrains.mps.baseLanguage.structure.ReturnStatement" />
     <nodeInfo nodeId="7499037524191428321" fileName="ParseDateTimeExpression_Behavior.java" startLine="46" startPosition="105" endLine="47" endPosition="113" conceptFqName="jetbrains.mps.baseLanguage.structure.LocalVariableDeclarationStatement" />
-    <nodeInfo nodeId="7499037524191428321" fileName="ParseDateTimeExpression_Behavior.java" startLine="47" startPosition="113" endLine="48" endPosition="245" conceptFqName="jetbrains.mps.baseLanguage.structure.ReturnStatement" />
-    <nodeInfo nodeId="7499037524191428321" fileName="ParseDateTimeExpression_Behavior.java" startLine="51" startPosition="126" endLine="52" endPosition="278" conceptFqName="jetbrains.mps.baseLanguage.structure.ReturnStatement" />
-    <nodeInfo nodeId="7499037524191428321" fileName="ParseDateTimeExpression_Behavior.java" startLine="55" startPosition="138" endLine="56" endPosition="290" conceptFqName="jetbrains.mps.baseLanguage.structure.ReturnStatement" />
+    <nodeInfo nodeId="7499037524191428321" fileName="ParseDateTimeExpression_Behavior.java" startLine="47" startPosition="113" endLine="48" endPosition="259" conceptFqName="jetbrains.mps.baseLanguage.structure.ReturnStatement" />
+    <nodeInfo nodeId="7499037524191428321" fileName="ParseDateTimeExpression_Behavior.java" startLine="51" startPosition="126" endLine="52" endPosition="292" conceptFqName="jetbrains.mps.baseLanguage.structure.ReturnStatement" />
+    <nodeInfo nodeId="7499037524191428321" fileName="ParseDateTimeExpression_Behavior.java" startLine="55" startPosition="138" endLine="56" endPosition="304" conceptFqName="jetbrains.mps.baseLanguage.structure.ReturnStatement" />
     <nodeInfo nodeId="7499037524191428861" fileName="ParseDateTimeExpression_Behavior.java" startLine="63" startPosition="31" endLine="64" endPosition="26" conceptFqName="jetbrains.mps.baseLanguage.structure.LocalVariableDeclarationStatement" />
     <nodeInfo nodeId="7499037524191428861" fileName="ParseDateTimeExpression_Behavior.java" startLine="64" startPosition="26" endLine="65" endPosition="67" conceptFqName="jetbrains.mps.baseLanguage.structure.LocalVariableDeclarationStatement" />
     <nodeInfo nodeId="7499037524191428861" fileName="ParseDateTimeExpression_Behavior.java" startLine="65" startPosition="67" endLine="66" endPosition="32" conceptFqName="jetbrains.mps.baseLanguage.structure.LocalVariableDeclarationStatement" />
@@ -1567,12 +1567,12 @@
     <scopeInfo nodeId="7499037524191428874" fileName="ParseDateTimeExpression_Behavior.java" startLine="77" startPosition="44" endLine="77" endPosition="44" />
     <scopeInfo nodeId="7499037524191428843" fileName="ParseDateTimeExpression_Behavior.java" startLine="27" startPosition="178" endLine="28" endPosition="99" />
     <scopeInfo nodeId="7499037524191428866" fileName="ParseDateTimeExpression_Behavior.java" startLine="35" startPosition="132" endLine="36" endPosition="95" />
-    <scopeInfo nodeId="7499037524191428321" fileName="ParseDateTimeExpression_Behavior.java" startLine="51" startPosition="126" endLine="52" endPosition="278" />
-    <scopeInfo nodeId="7499037524191428321" fileName="ParseDateTimeExpression_Behavior.java" startLine="55" startPosition="138" endLine="56" endPosition="290" />
-    <scopeInfo nodeId="7499037524191428321" fileName="ParseDateTimeExpression_Behavior.java" startLine="41" startPosition="93" endLine="43" endPosition="233">
+    <scopeInfo nodeId="7499037524191428321" fileName="ParseDateTimeExpression_Behavior.java" startLine="51" startPosition="126" endLine="52" endPosition="292" />
+    <scopeInfo nodeId="7499037524191428321" fileName="ParseDateTimeExpression_Behavior.java" startLine="55" startPosition="138" endLine="56" endPosition="304" />
+    <scopeInfo nodeId="7499037524191428321" fileName="ParseDateTimeExpression_Behavior.java" startLine="41" startPosition="93" endLine="43" endPosition="247">
       <varInfo nodeId="7499037524191428321" varName="descriptor" />
     </scopeInfo>
-    <scopeInfo nodeId="7499037524191428321" fileName="ParseDateTimeExpression_Behavior.java" startLine="46" startPosition="105" endLine="48" endPosition="245">
+    <scopeInfo nodeId="7499037524191428321" fileName="ParseDateTimeExpression_Behavior.java" startLine="46" startPosition="105" endLine="48" endPosition="259">
       <varInfo nodeId="7499037524191428321" varName="descriptor" />
     </scopeInfo>
     <scopeInfo nodeId="7499037524191428861" fileName="ParseDateTimeExpression_Behavior.java" startLine="59" startPosition="55" endLine="61" endPosition="5" />
@@ -1647,11 +1647,11 @@
     <nodeInfo nodeId="779372288056825363" fileName="TimeConstant_Behavior.java" startLine="35" startPosition="125" endLine="36" endPosition="84" conceptFqName="jetbrains.mps.baseLanguage.structure.ReturnStatement" />
     <nodeInfo nodeId="779372288056825354" fileName="TimeConstant_Behavior.java" startLine="37" startPosition="5" endLine="38" endPosition="16" conceptFqName="jetbrains.mps.baseLanguage.structure.ReturnStatement" />
     <nodeInfo nodeId="779372288056821935" fileName="TimeConstant_Behavior.java" startLine="41" startPosition="92" endLine="42" endPosition="113" conceptFqName="jetbrains.mps.baseLanguage.structure.LocalVariableDeclarationStatement" />
-    <nodeInfo nodeId="779372288056821935" fileName="TimeConstant_Behavior.java" startLine="42" startPosition="113" endLine="43" endPosition="221" conceptFqName="jetbrains.mps.baseLanguage.structure.ReturnStatement" />
+    <nodeInfo nodeId="779372288056821935" fileName="TimeConstant_Behavior.java" startLine="42" startPosition="113" endLine="43" endPosition="235" conceptFqName="jetbrains.mps.baseLanguage.structure.ReturnStatement" />
     <nodeInfo nodeId="779372288056821935" fileName="TimeConstant_Behavior.java" startLine="46" startPosition="104" endLine="47" endPosition="113" conceptFqName="jetbrains.mps.baseLanguage.structure.LocalVariableDeclarationStatement" />
-    <nodeInfo nodeId="779372288056821935" fileName="TimeConstant_Behavior.java" startLine="47" startPosition="113" endLine="48" endPosition="233" conceptFqName="jetbrains.mps.baseLanguage.structure.ReturnStatement" />
-    <nodeInfo nodeId="779372288056821935" fileName="TimeConstant_Behavior.java" startLine="51" startPosition="125" endLine="52" endPosition="266" conceptFqName="jetbrains.mps.baseLanguage.structure.ReturnStatement" />
-    <nodeInfo nodeId="779372288056821935" fileName="TimeConstant_Behavior.java" startLine="55" startPosition="137" endLine="56" endPosition="278" conceptFqName="jetbrains.mps.baseLanguage.structure.ReturnStatement" />
+    <nodeInfo nodeId="779372288056821935" fileName="TimeConstant_Behavior.java" startLine="47" startPosition="113" endLine="48" endPosition="247" conceptFqName="jetbrains.mps.baseLanguage.structure.ReturnStatement" />
+    <nodeInfo nodeId="779372288056821935" fileName="TimeConstant_Behavior.java" startLine="51" startPosition="125" endLine="52" endPosition="280" conceptFqName="jetbrains.mps.baseLanguage.structure.ReturnStatement" />
+    <nodeInfo nodeId="779372288056821935" fileName="TimeConstant_Behavior.java" startLine="55" startPosition="137" endLine="56" endPosition="292" conceptFqName="jetbrains.mps.baseLanguage.structure.ReturnStatement" />
     <nodeInfo nodeId="779372288056825312" fileName="TimeConstant_Behavior.java" startLine="63" startPosition="31" endLine="64" endPosition="26" conceptFqName="jetbrains.mps.baseLanguage.structure.LocalVariableDeclarationStatement" />
     <nodeInfo nodeId="779372288056825312" fileName="TimeConstant_Behavior.java" startLine="64" startPosition="26" endLine="65" endPosition="67" conceptFqName="jetbrains.mps.baseLanguage.structure.LocalVariableDeclarationStatement" />
     <nodeInfo nodeId="779372288056825312" fileName="TimeConstant_Behavior.java" startLine="65" startPosition="67" endLine="66" endPosition="32" conceptFqName="jetbrains.mps.baseLanguage.structure.LocalVariableDeclarationStatement" />
@@ -1689,12 +1689,12 @@
     <scopeInfo nodeId="779372288056825364" fileName="TimeConstant_Behavior.java" startLine="77" startPosition="44" endLine="77" endPosition="44" />
     <scopeInfo nodeId="779372288056825310" fileName="TimeConstant_Behavior.java" startLine="27" startPosition="171" endLine="28" endPosition="88" />
     <scopeInfo nodeId="779372288056825362" fileName="TimeConstant_Behavior.java" startLine="35" startPosition="125" endLine="36" endPosition="84" />
-    <scopeInfo nodeId="779372288056821935" fileName="TimeConstant_Behavior.java" startLine="51" startPosition="125" endLine="52" endPosition="266" />
-    <scopeInfo nodeId="779372288056821935" fileName="TimeConstant_Behavior.java" startLine="55" startPosition="137" endLine="56" endPosition="278" />
-    <scopeInfo nodeId="779372288056821935" fileName="TimeConstant_Behavior.java" startLine="41" startPosition="92" endLine="43" endPosition="221">
+    <scopeInfo nodeId="779372288056821935" fileName="TimeConstant_Behavior.java" startLine="51" startPosition="125" endLine="52" endPosition="280" />
+    <scopeInfo nodeId="779372288056821935" fileName="TimeConstant_Behavior.java" startLine="55" startPosition="137" endLine="56" endPosition="292" />
+    <scopeInfo nodeId="779372288056821935" fileName="TimeConstant_Behavior.java" startLine="41" startPosition="92" endLine="43" endPosition="235">
       <varInfo nodeId="779372288056821935" varName="descriptor" />
     </scopeInfo>
-    <scopeInfo nodeId="779372288056821935" fileName="TimeConstant_Behavior.java" startLine="46" startPosition="104" endLine="48" endPosition="233">
+    <scopeInfo nodeId="779372288056821935" fileName="TimeConstant_Behavior.java" startLine="46" startPosition="104" endLine="48" endPosition="247">
       <varInfo nodeId="779372288056821935" varName="descriptor" />
     </scopeInfo>
     <scopeInfo nodeId="779372288056825312" fileName="TimeConstant_Behavior.java" startLine="59" startPosition="55" endLine="61" endPosition="5" />

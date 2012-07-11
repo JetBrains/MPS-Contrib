@@ -17,19 +17,19 @@ public class IJavaRunConfigurationParameter_Behavior {
 
   public static String call_getVariableForExecuteBlockName_1810772216404807669(SNode thisNode) {
     BehaviorDescriptor descriptor = ConceptRegistry.getInstance().getBehaviorDescriptorForInstanceNode(thisNode);
-    return (String) descriptor.invoke(Object.class, SNodeOperations.cast(thisNode, "jetbrains.mps.execution.configurations.deprecated.structure.IJavaRunConfigurationParameter"), "virtual_getVariableForExecuteBlockName_1810772216404807669", PARAMETERS_1810772216404807669);
+    return (String) descriptor.invoke(Object.class, SNodeOperations.cast(thisNode, "jetbrains.mps.execution.configurations.deprecated.structure.IJavaRunConfigurationParameter"), "virtual_getVariableForExecuteBlockName_1810772216404807669", PARAMETERS_1810772216404807669, new Object[]{});
   }
 
   public static SNode call_getParameterType_1810772216404820824(SNode thisNode) {
     BehaviorDescriptor descriptor = ConceptRegistry.getInstance().getBehaviorDescriptorForInstanceNode(thisNode);
-    return (SNode) descriptor.invoke(Object.class, SNodeOperations.cast(thisNode, "jetbrains.mps.execution.configurations.deprecated.structure.IJavaRunConfigurationParameter"), "virtual_getParameterType_1810772216404820824", PARAMETERS_1810772216404820824);
+    return (SNode) descriptor.invoke(Object.class, SNodeOperations.cast(thisNode, "jetbrains.mps.execution.configurations.deprecated.structure.IJavaRunConfigurationParameter"), "virtual_getParameterType_1810772216404820824", PARAMETERS_1810772216404820824, new Object[]{});
   }
 
   public static String callSuper_getVariableForExecuteBlockName_1810772216404807669(SNode thisNode, String callerConceptFqName) {
-    return (String) BehaviorManager.getInstance().invokeSuper(Object.class, SNodeOperations.cast(thisNode, "jetbrains.mps.execution.configurations.deprecated.structure.IJavaRunConfigurationParameter"), callerConceptFqName, "virtual_getVariableForExecuteBlockName_1810772216404807669", PARAMETERS_1810772216404807669);
+    return (String) BehaviorManager.getInstance().invokeSuper(Object.class, SNodeOperations.cast(thisNode, "jetbrains.mps.execution.configurations.deprecated.structure.IJavaRunConfigurationParameter"), callerConceptFqName, "virtual_getVariableForExecuteBlockName_1810772216404807669", PARAMETERS_1810772216404807669, new Object[]{});
   }
 
   public static SNode callSuper_getParameterType_1810772216404820824(SNode thisNode, String callerConceptFqName) {
-    return (SNode) BehaviorManager.getInstance().invokeSuper(Object.class, SNodeOperations.cast(thisNode, "jetbrains.mps.execution.configurations.deprecated.structure.IJavaRunConfigurationParameter"), callerConceptFqName, "virtual_getParameterType_1810772216404820824", PARAMETERS_1810772216404820824);
+    return (SNode) BehaviorManager.getInstance().invokeSuper(Object.class, SNodeOperations.cast(thisNode, "jetbrains.mps.execution.configurations.deprecated.structure.IJavaRunConfigurationParameter"), callerConceptFqName, "virtual_getParameterType_1810772216404820824", PARAMETERS_1810772216404820824, new Object[]{});
   }
 }

@@ -20,10 +20,10 @@ public class GItem_Behavior {
 
   public static boolean call_isComplex_1213877298853(SNode thisNode) {
     BehaviorDescriptor descriptor = ConceptRegistry.getInstance().getBehaviorDescriptorForInstanceNode(thisNode);
-    return (Boolean) descriptor.invoke(Boolean.class, SNodeOperations.cast(thisNode, "jetbrains.mps.gtext.structure.GItem"), "virtual_isComplex_1213877298853", PARAMETERS_1213877298853);
+    return (Boolean) descriptor.invoke(Boolean.class, SNodeOperations.cast(thisNode, "jetbrains.mps.gtext.structure.GItem"), "virtual_isComplex_1213877298853", PARAMETERS_1213877298853, new Object[]{});
   }
 
   public static boolean callSuper_isComplex_1213877298853(SNode thisNode, String callerConceptFqName) {
-    return (Boolean) BehaviorManager.getInstance().invokeSuper(Boolean.class, SNodeOperations.cast(thisNode, "jetbrains.mps.gtext.structure.GItem"), callerConceptFqName, "virtual_isComplex_1213877298853", PARAMETERS_1213877298853);
+    return (Boolean) BehaviorManager.getInstance().invokeSuper(Boolean.class, SNodeOperations.cast(thisNode, "jetbrains.mps.gtext.structure.GItem"), callerConceptFqName, "virtual_isComplex_1213877298853", PARAMETERS_1213877298853, new Object[]{});
   }
 }

@@ -20,10 +20,10 @@ public class NullOperation_Behavior {
 
   public static boolean call_operandCanBeNull_1015544890586290191(SNode thisNode) {
     BehaviorDescriptor descriptor = ConceptRegistry.getInstance().getBehaviorDescriptorForInstanceNode(thisNode);
-    return (Boolean) descriptor.invoke(Boolean.class, SNodeOperations.cast(thisNode, "jetbrains.mps.baseLanguage.dates.structure.NullOperation"), "virtual_operandCanBeNull_323410281720656291", PARAMETERS_1015544890586290191);
+    return (Boolean) descriptor.invoke(Boolean.class, SNodeOperations.cast(thisNode, "jetbrains.mps.baseLanguage.dates.structure.NullOperation"), "virtual_operandCanBeNull_323410281720656291", PARAMETERS_1015544890586290191, new Object[]{});
   }
 
   public static boolean callSuper_operandCanBeNull_1015544890586290191(SNode thisNode, String callerConceptFqName) {
-    return (Boolean) BehaviorManager.getInstance().invokeSuper(Boolean.class, SNodeOperations.cast(thisNode, "jetbrains.mps.baseLanguage.dates.structure.NullOperation"), callerConceptFqName, "virtual_operandCanBeNull_323410281720656291", PARAMETERS_1015544890586290191);
+    return (Boolean) BehaviorManager.getInstance().invokeSuper(Boolean.class, SNodeOperations.cast(thisNode, "jetbrains.mps.baseLanguage.dates.structure.NullOperation"), callerConceptFqName, "virtual_operandCanBeNull_323410281720656291", PARAMETERS_1015544890586290191, new Object[]{});
   }
 }

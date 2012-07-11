@@ -25,19 +25,19 @@ public class PropertyValueExpression_Behavior {
 
   public static String call_toString_1213877472569(SNode thisNode) {
     BehaviorDescriptor descriptor = ConceptRegistry.getInstance().getBehaviorDescriptorForInstanceNode(thisNode);
-    return (String) descriptor.invoke(Object.class, SNodeOperations.cast(thisNode, "jetbrains.mps.buildlanguage.structure.PropertyValueExpression"), "virtual_toString_1213877472569", PARAMETERS_1213877472569);
+    return (String) descriptor.invoke(Object.class, SNodeOperations.cast(thisNode, "jetbrains.mps.buildlanguage.structure.PropertyValueExpression"), "virtual_toString_1213877472569", PARAMETERS_1213877472569, new Object[]{});
   }
 
   public static String call_getActualValue_1213877472572(SNode thisNode) {
     BehaviorDescriptor descriptor = ConceptRegistry.getInstance().getBehaviorDescriptorForInstanceNode(thisNode);
-    return (String) descriptor.invoke(Object.class, SNodeOperations.cast(thisNode, "jetbrains.mps.buildlanguage.structure.PropertyValueExpression"), "virtual_getActualValue_1213877472572", PARAMETERS_1213877472572);
+    return (String) descriptor.invoke(Object.class, SNodeOperations.cast(thisNode, "jetbrains.mps.buildlanguage.structure.PropertyValueExpression"), "virtual_getActualValue_1213877472572", PARAMETERS_1213877472572, new Object[]{});
   }
 
   public static String callSuper_toString_1213877472569(SNode thisNode, String callerConceptFqName) {
-    return (String) BehaviorManager.getInstance().invokeSuper(Object.class, SNodeOperations.cast(thisNode, "jetbrains.mps.buildlanguage.structure.PropertyValueExpression"), callerConceptFqName, "virtual_toString_1213877472569", PARAMETERS_1213877472569);
+    return (String) BehaviorManager.getInstance().invokeSuper(Object.class, SNodeOperations.cast(thisNode, "jetbrains.mps.buildlanguage.structure.PropertyValueExpression"), callerConceptFqName, "virtual_toString_1213877472569", PARAMETERS_1213877472569, new Object[]{});
   }
 
   public static String callSuper_getActualValue_1213877472572(SNode thisNode, String callerConceptFqName) {
-    return (String) BehaviorManager.getInstance().invokeSuper(Object.class, SNodeOperations.cast(thisNode, "jetbrains.mps.buildlanguage.structure.PropertyValueExpression"), callerConceptFqName, "virtual_getActualValue_1213877472572", PARAMETERS_1213877472572);
+    return (String) BehaviorManager.getInstance().invokeSuper(Object.class, SNodeOperations.cast(thisNode, "jetbrains.mps.buildlanguage.structure.PropertyValueExpression"), callerConceptFqName, "virtual_getActualValue_1213877472572", PARAMETERS_1213877472572, new Object[]{});
   }
 }

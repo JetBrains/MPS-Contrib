@@ -17,10 +17,10 @@ public class ExternalId_Behavior {
 
   public static void call_createID_1234406619968(SNode thisNode, DocType doctype) {
     BehaviorDescriptor descriptor = ConceptRegistry.getInstance().getBehaviorDescriptorForInstanceNode(thisNode);
-    descriptor.invoke(Object.class, SNodeOperations.cast(thisNode, "jetbrains.mps.xml.deprecated.structure.ExternalId"), "virtual_createID_1234406619968", PARAMETERS_1234406619968, doctype);
+    descriptor.invoke(Object.class, SNodeOperations.cast(thisNode, "jetbrains.mps.xml.deprecated.structure.ExternalId"), "virtual_createID_1234406619968", PARAMETERS_1234406619968, new Object[]{doctype});
   }
 
   public static void callSuper_createID_1234406619968(SNode thisNode, String callerConceptFqName, DocType doctype) {
-    BehaviorManager.getInstance().invokeSuper(Object.class, SNodeOperations.cast(thisNode, "jetbrains.mps.xml.deprecated.structure.ExternalId"), callerConceptFqName, "virtual_createID_1234406619968", PARAMETERS_1234406619968, doctype);
+    BehaviorManager.getInstance().invokeSuper(Object.class, SNodeOperations.cast(thisNode, "jetbrains.mps.xml.deprecated.structure.ExternalId"), callerConceptFqName, "virtual_createID_1234406619968", PARAMETERS_1234406619968, new Object[]{doctype});
   }
 }

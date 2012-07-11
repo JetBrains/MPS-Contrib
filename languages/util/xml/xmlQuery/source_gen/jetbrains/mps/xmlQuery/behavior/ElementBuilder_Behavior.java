@@ -52,29 +52,29 @@ public class ElementBuilder_Behavior {
 
   public static SNode call_getResultType_1384720974900260447(SNode thisNode) {
     BehaviorDescriptor descriptor = ConceptRegistry.getInstance().getBehaviorDescriptorForInstanceNode(thisNode);
-    return (SNode) descriptor.invoke(Object.class, SNodeOperations.cast(thisNode, "jetbrains.mps.xmlQuery.structure.ElementBuilder"), "virtual_getResultType_7057666463730718251", PARAMETERS_1384720974900260447);
+    return (SNode) descriptor.invoke(Object.class, SNodeOperations.cast(thisNode, "jetbrains.mps.xmlQuery.structure.ElementBuilder"), "virtual_getResultType_7057666463730718251", PARAMETERS_1384720974900260447, new Object[]{});
   }
 
   public static SNode call_getCreatorExpression_1384720974900260456(SNode thisNode, SNode parentRef) {
     BehaviorDescriptor descriptor = ConceptRegistry.getInstance().getBehaviorDescriptorForInstanceNode(thisNode);
-    return (SNode) descriptor.invoke(Object.class, SNodeOperations.cast(thisNode, "jetbrains.mps.xmlQuery.structure.ElementBuilder"), "virtual_getCreatorExpression_7057666463730727863", PARAMETERS_1384720974900260456, parentRef);
+    return (SNode) descriptor.invoke(Object.class, SNodeOperations.cast(thisNode, "jetbrains.mps.xmlQuery.structure.ElementBuilder"), "virtual_getCreatorExpression_7057666463730727863", PARAMETERS_1384720974900260456, new Object[]{parentRef});
   }
 
   public static SNode call_getAttachStatementChild_1384720974900260473(SNode thisNode, SNode parentBuilder, SNode parentRef, SNode childRef) {
     BehaviorDescriptor descriptor = ConceptRegistry.getInstance().getBehaviorDescriptorForInstanceNode(thisNode);
-    return (SNode) descriptor.invoke(Object.class, SNodeOperations.cast(thisNode, "jetbrains.mps.xmlQuery.structure.ElementBuilder"), "virtual_getAttachStatementChild_4797501453850305563", PARAMETERS_1384720974900260473, parentBuilder, parentRef, childRef);
+    return (SNode) descriptor.invoke(Object.class, SNodeOperations.cast(thisNode, "jetbrains.mps.xmlQuery.structure.ElementBuilder"), "virtual_getAttachStatementChild_4797501453850305563", PARAMETERS_1384720974900260473, new Object[]{parentBuilder, parentRef, childRef});
   }
 
   public static SNode callSuper_getResultType_1384720974900260447(SNode thisNode, String callerConceptFqName) {
-    return (SNode) BehaviorManager.getInstance().invokeSuper(Object.class, SNodeOperations.cast(thisNode, "jetbrains.mps.xmlQuery.structure.ElementBuilder"), callerConceptFqName, "virtual_getResultType_7057666463730718251", PARAMETERS_1384720974900260447);
+    return (SNode) BehaviorManager.getInstance().invokeSuper(Object.class, SNodeOperations.cast(thisNode, "jetbrains.mps.xmlQuery.structure.ElementBuilder"), callerConceptFqName, "virtual_getResultType_7057666463730718251", PARAMETERS_1384720974900260447, new Object[]{});
   }
 
   public static SNode callSuper_getCreatorExpression_1384720974900260456(SNode thisNode, String callerConceptFqName, SNode parentRef) {
-    return (SNode) BehaviorManager.getInstance().invokeSuper(Object.class, SNodeOperations.cast(thisNode, "jetbrains.mps.xmlQuery.structure.ElementBuilder"), callerConceptFqName, "virtual_getCreatorExpression_7057666463730727863", PARAMETERS_1384720974900260456, parentRef);
+    return (SNode) BehaviorManager.getInstance().invokeSuper(Object.class, SNodeOperations.cast(thisNode, "jetbrains.mps.xmlQuery.structure.ElementBuilder"), callerConceptFqName, "virtual_getCreatorExpression_7057666463730727863", PARAMETERS_1384720974900260456, new Object[]{parentRef});
   }
 
   public static SNode callSuper_getAttachStatementChild_1384720974900260473(SNode thisNode, String callerConceptFqName, SNode parentBuilder, SNode parentRef, SNode childRef) {
-    return (SNode) BehaviorManager.getInstance().invokeSuper(Object.class, SNodeOperations.cast(thisNode, "jetbrains.mps.xmlQuery.structure.ElementBuilder"), callerConceptFqName, "virtual_getAttachStatementChild_4797501453850305563", PARAMETERS_1384720974900260473, parentBuilder, parentRef, childRef);
+    return (SNode) BehaviorManager.getInstance().invokeSuper(Object.class, SNodeOperations.cast(thisNode, "jetbrains.mps.xmlQuery.structure.ElementBuilder"), callerConceptFqName, "virtual_getAttachStatementChild_4797501453850305563", PARAMETERS_1384720974900260473, new Object[]{parentBuilder, parentRef, childRef});
   }
 
   public static class QuotationClass_w52xu1_a0a0c {

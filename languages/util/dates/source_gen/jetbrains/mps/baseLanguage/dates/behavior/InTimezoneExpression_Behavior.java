@@ -46,20 +46,20 @@ public class InTimezoneExpression_Behavior {
 
   public static SNode call_deriveType_6626410111395872158(SNode thisNode, SNode expression) {
     BehaviorDescriptor descriptor = ConceptRegistry.getInstance().getBehaviorDescriptorForInstanceNode(thisNode);
-    return (SNode) descriptor.invoke(Object.class, SNodeOperations.cast(thisNode, "jetbrains.mps.baseLanguage.dates.structure.InTimezoneExpression"), "virtual_deriveType_1213877435747", PARAMETERS_6626410111395872158, expression);
+    return (SNode) descriptor.invoke(Object.class, SNodeOperations.cast(thisNode, "jetbrains.mps.baseLanguage.dates.structure.InTimezoneExpression"), "virtual_deriveType_1213877435747", PARAMETERS_6626410111395872158, new Object[]{expression});
   }
 
   public static SNode call_deriveType_2890840340813585276(SNode thisNode, SNode expression, SNode link) {
     BehaviorDescriptor descriptor = ConceptRegistry.getInstance().getBehaviorDescriptorForInstanceNode(thisNode);
-    return (SNode) descriptor.invoke(Object.class, SNodeOperations.cast(thisNode, "jetbrains.mps.baseLanguage.dates.structure.InTimezoneExpression"), "virtual_deriveType_4555537781928374706", PARAMETERS_2890840340813585276, expression, link);
+    return (SNode) descriptor.invoke(Object.class, SNodeOperations.cast(thisNode, "jetbrains.mps.baseLanguage.dates.structure.InTimezoneExpression"), "virtual_deriveType_4555537781928374706", PARAMETERS_2890840340813585276, new Object[]{expression, link});
   }
 
   public static SNode callSuper_deriveType_6626410111395872158(SNode thisNode, String callerConceptFqName, SNode expression) {
-    return (SNode) BehaviorManager.getInstance().invokeSuper(Object.class, SNodeOperations.cast(thisNode, "jetbrains.mps.baseLanguage.dates.structure.InTimezoneExpression"), callerConceptFqName, "virtual_deriveType_1213877435747", PARAMETERS_6626410111395872158, expression);
+    return (SNode) BehaviorManager.getInstance().invokeSuper(Object.class, SNodeOperations.cast(thisNode, "jetbrains.mps.baseLanguage.dates.structure.InTimezoneExpression"), callerConceptFqName, "virtual_deriveType_1213877435747", PARAMETERS_6626410111395872158, new Object[]{expression});
   }
 
   public static SNode callSuper_deriveType_2890840340813585276(SNode thisNode, String callerConceptFqName, SNode expression, SNode link) {
-    return (SNode) BehaviorManager.getInstance().invokeSuper(Object.class, SNodeOperations.cast(thisNode, "jetbrains.mps.baseLanguage.dates.structure.InTimezoneExpression"), callerConceptFqName, "virtual_deriveType_4555537781928374706", PARAMETERS_2890840340813585276, expression, link);
+    return (SNode) BehaviorManager.getInstance().invokeSuper(Object.class, SNodeOperations.cast(thisNode, "jetbrains.mps.baseLanguage.dates.structure.InTimezoneExpression"), callerConceptFqName, "virtual_deriveType_4555537781928374706", PARAMETERS_2890840340813585276, new Object[]{expression, link});
   }
 
   public static class QuotationClass_g9idtp_a0a0b0a0b {

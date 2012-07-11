@@ -12,14 +12,14 @@
   <root nodeId="1234406616484">
     <nodeInfo nodeId="1234406616484" fileName="ExternalId_Behavior.java" startLine="12" startPosition="34" endLine="13" endPosition="81" conceptFqName="jetbrains.mps.baseLanguage.structure.StaticFieldDeclaration" propertyString="PARAMETERS_1234406619968" />
     <nodeInfo nodeId="1234406616484" fileName="ExternalId_Behavior.java" startLine="18" startPosition="83" endLine="19" endPosition="113" conceptFqName="jetbrains.mps.baseLanguage.structure.LocalVariableDeclarationStatement" />
-    <nodeInfo nodeId="1234406616484" fileName="ExternalId_Behavior.java" startLine="19" startPosition="113" endLine="20" endPosition="190" conceptFqName="jetbrains.mps.baseLanguage.structure.ExpressionStatement" />
-    <nodeInfo nodeId="1234406616484" fileName="ExternalId_Behavior.java" startLine="23" startPosition="116" endLine="24" endPosition="235" conceptFqName="jetbrains.mps.baseLanguage.structure.ExpressionStatement" />
+    <nodeInfo nodeId="1234406616484" fileName="ExternalId_Behavior.java" startLine="19" startPosition="113" endLine="20" endPosition="204" conceptFqName="jetbrains.mps.baseLanguage.structure.ExpressionStatement" />
+    <nodeInfo nodeId="1234406616484" fileName="ExternalId_Behavior.java" startLine="23" startPosition="116" endLine="24" endPosition="249" conceptFqName="jetbrains.mps.baseLanguage.structure.ExpressionStatement" />
     <nodeInfo nodeId="1234406616484" fileName="ExternalId_Behavior.java" startLine="14" startPosition="0" endLine="17" endPosition="0" conceptFqName="jetbrains.mps.baseLanguage.structure.StaticMethodDeclaration" propertyString="init#(Ljetbrains/mps/smodel/SNode;)V" />
     <nodeInfo nodeId="1234406616484" fileName="ExternalId_Behavior.java" startLine="22" startPosition="0" endLine="26" endPosition="0" conceptFqName="jetbrains.mps.baseLanguage.structure.StaticMethodDeclaration" propertyString="callSuper_createID_1234406619968#(Ljetbrains/mps/smodel/SNode;Ljava/lang/String;Lorg/jdom/DocType;)V" />
     <nodeInfo nodeId="1234406616484" fileName="ExternalId_Behavior.java" startLine="17" startPosition="0" endLine="22" endPosition="0" conceptFqName="jetbrains.mps.baseLanguage.structure.StaticMethodDeclaration" propertyString="call_createID_1234406619968#(Ljetbrains/mps/smodel/SNode;Lorg/jdom/DocType;)V" />
     <scopeInfo nodeId="1234406616486" fileName="ExternalId_Behavior.java" startLine="15" startPosition="43" endLine="15" endPosition="43" />
-    <scopeInfo nodeId="1234406616484" fileName="ExternalId_Behavior.java" startLine="23" startPosition="116" endLine="24" endPosition="235" />
-    <scopeInfo nodeId="1234406616484" fileName="ExternalId_Behavior.java" startLine="18" startPosition="83" endLine="20" endPosition="190">
+    <scopeInfo nodeId="1234406616484" fileName="ExternalId_Behavior.java" startLine="23" startPosition="116" endLine="24" endPosition="249" />
+    <scopeInfo nodeId="1234406616484" fileName="ExternalId_Behavior.java" startLine="18" startPosition="83" endLine="20" endPosition="204">
       <varInfo nodeId="1234406616484" varName="descriptor" />
     </scopeInfo>
     <scopeInfo nodeId="1234406616484" fileName="ExternalId_Behavior.java" startLine="14" startPosition="0" endLine="17" endPosition="0">
