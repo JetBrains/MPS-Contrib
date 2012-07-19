@@ -100,6 +100,10 @@ public class Element_Editor extends DefaultNodeEditor {
   private EditorCell createCollection_76r4mg_a_0(EditorContext editorContext, SNode node) {
     EditorCell_Collection editorCell = EditorCell_Collection.createHorizontal(editorContext, node);
     editorCell.setCellId("Collection_76r4mg_a_0");
+    {
+      Style style = editorCell.getStyle();
+      style.set(StyleAttributes.SELECTABLE, false);
+    }
     if (renderingCondition_76r4mg_a0a(node, editorContext, editorContext.getOperationContext().getScope())) {
       editorCell.addEditorCell(this.createCollection_76r4mg_a0_0(editorContext, node));
     }
