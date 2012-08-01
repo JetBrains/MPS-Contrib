@@ -163,7 +163,9 @@
     <scopeInfo nodeId="1202393511419" fileName="Frame.java" startLine="27" startPosition="0" endLine="32" endPosition="3" />
     <scopeInfo nodeId="1202393511419" fileName="Frame.java" startLine="37" startPosition="0" endLine="42" endPosition="0" />
     <scopeInfo nodeId="1202393511419" fileName="Frame.java" startLine="42" startPosition="0" endLine="47" endPosition="0" />
-    <scopeInfo nodeId="1202393511419" fileName="Frame.java" startLine="51" startPosition="25" endLine="56" endPosition="5" />
+    <scopeInfo nodeId="1202393511419" fileName="Frame.java" startLine="51" startPosition="25" endLine="56" endPosition="5">
+      <varInfo nodeId="1202393511419" varName="binding" />
+    </scopeInfo>
     <scopeInfo nodeId="1202393511419" fileName="Frame.java" startLine="74" startPosition="0" endLine="80" endPosition="0">
       <varInfo nodeId="1202393511419" varName="newValue" />
     </scopeInfo>
@@ -231,9 +233,7 @@
     <scopeInfo nodeId="1202393560969" fileName="Button.java" startLine="23" startPosition="0" endLine="28" endPosition="3" />
     <scopeInfo nodeId="1202393560969" fileName="Button.java" startLine="33" startPosition="0" endLine="38" endPosition="0" />
     <scopeInfo nodeId="1202393560969" fileName="Button.java" startLine="38" startPosition="0" endLine="43" endPosition="0" />
-    <scopeInfo nodeId="1202393560969" fileName="Button.java" startLine="47" startPosition="25" endLine="52" endPosition="5">
-      <varInfo nodeId="1202393560969" varName="binding" />
-    </scopeInfo>
+    <scopeInfo nodeId="1202393560969" fileName="Button.java" startLine="47" startPosition="25" endLine="52" endPosition="5" />
     <scopeInfo nodeId="1202393560969" fileName="Button.java" startLine="58" startPosition="0" endLine="64" endPosition="0">
       <varInfo nodeId="1202393560969" varName="newValue" />
     </scopeInfo>
@@ -328,9 +328,7 @@
     <scopeInfo nodeId="1202464198724" fileName="TextField.java" startLine="27" startPosition="0" endLine="32" endPosition="3" />
     <scopeInfo nodeId="1202464198724" fileName="TextField.java" startLine="37" startPosition="0" endLine="42" endPosition="0" />
     <scopeInfo nodeId="1202464198724" fileName="TextField.java" startLine="42" startPosition="0" endLine="47" endPosition="0" />
-    <scopeInfo nodeId="1202464198724" fileName="TextField.java" startLine="51" startPosition="25" endLine="56" endPosition="5">
-      <varInfo nodeId="1202464198724" varName="binding" />
-    </scopeInfo>
+    <scopeInfo nodeId="1202464198724" fileName="TextField.java" startLine="51" startPosition="25" endLine="56" endPosition="5" />
     <scopeInfo nodeId="1202464198724" fileName="TextField.java" startLine="74" startPosition="0" endLine="80" endPosition="0">
       <varInfo nodeId="1202464198724" varName="newValue" />
     </scopeInfo>
@@ -446,7 +444,9 @@
     <scopeInfo nodeId="1202465811094" fileName="Label.java" startLine="30" startPosition="0" endLine="35" endPosition="3" />
     <scopeInfo nodeId="1202465811094" fileName="Label.java" startLine="40" startPosition="0" endLine="45" endPosition="0" />
     <scopeInfo nodeId="1202465811094" fileName="Label.java" startLine="45" startPosition="0" endLine="50" endPosition="0" />
-    <scopeInfo nodeId="1202465811094" fileName="Label.java" startLine="54" startPosition="25" endLine="59" endPosition="5" />
+    <scopeInfo nodeId="1202465811094" fileName="Label.java" startLine="54" startPosition="25" endLine="59" endPosition="5">
+      <varInfo nodeId="1202465811094" varName="binding" />
+    </scopeInfo>
     <scopeInfo nodeId="1202465811094" fileName="Label.java" startLine="81" startPosition="0" endLine="87" endPosition="0">
       <varInfo nodeId="1202465811094" varName="newValue" />
     </scopeInfo>
@@ -773,9 +773,7 @@
     <scopeInfo nodeId="1202828480666" fileName="Dialog.java" startLine="23" startPosition="0" endLine="28" endPosition="3" />
     <scopeInfo nodeId="1202828480666" fileName="Dialog.java" startLine="33" startPosition="0" endLine="38" endPosition="0" />
     <scopeInfo nodeId="1202828480666" fileName="Dialog.java" startLine="38" startPosition="0" endLine="43" endPosition="0" />
-    <scopeInfo nodeId="1202828480666" fileName="Dialog.java" startLine="47" startPosition="25" endLine="52" endPosition="5">
-      <varInfo nodeId="1202828480666" varName="binding" />
-    </scopeInfo>
+    <scopeInfo nodeId="1202828480666" fileName="Dialog.java" startLine="47" startPosition="25" endLine="52" endPosition="5" />
     <scopeInfo nodeId="1202828480666" fileName="Dialog.java" startLine="58" startPosition="0" endLine="64" endPosition="0">
       <varInfo nodeId="1202828480666" varName="newValue" />
     </scopeInfo>
@@ -922,7 +920,9 @@
     <scopeInfo nodeId="1204287075288" fileName="RadioButton.java" startLine="25" startPosition="0" endLine="30" endPosition="3" />
     <scopeInfo nodeId="1204287075288" fileName="RadioButton.java" startLine="35" startPosition="0" endLine="40" endPosition="0" />
     <scopeInfo nodeId="1204287075288" fileName="RadioButton.java" startLine="40" startPosition="0" endLine="45" endPosition="0" />
-    <scopeInfo nodeId="1204287075288" fileName="RadioButton.java" startLine="49" startPosition="25" endLine="54" endPosition="5" />
+    <scopeInfo nodeId="1204287075288" fileName="RadioButton.java" startLine="49" startPosition="25" endLine="54" endPosition="5">
+      <varInfo nodeId="1204287075288" varName="binding" />
+    </scopeInfo>
     <scopeInfo nodeId="1204287075288" fileName="RadioButton.java" startLine="64" startPosition="0" endLine="70" endPosition="0">
       <varInfo nodeId="1204287075288" varName="newValue" />
     </scopeInfo>
@@ -984,7 +984,9 @@
     <scopeInfo nodeId="8606751926055253470" fileName="Separator.java" startLine="23" startPosition="0" endLine="28" endPosition="3" />
     <scopeInfo nodeId="8606751926055253470" fileName="Separator.java" startLine="33" startPosition="0" endLine="38" endPosition="0" />
     <scopeInfo nodeId="8606751926055253470" fileName="Separator.java" startLine="38" startPosition="0" endLine="43" endPosition="0" />
-    <scopeInfo nodeId="8606751926055253470" fileName="Separator.java" startLine="47" startPosition="25" endLine="52" endPosition="5" />
+    <scopeInfo nodeId="8606751926055253470" fileName="Separator.java" startLine="47" startPosition="25" endLine="52" endPosition="5">
+      <varInfo nodeId="8606751926055253470" varName="binding" />
+    </scopeInfo>
     <scopeInfo nodeId="8606751926055253470" fileName="Separator.java" startLine="58" startPosition="0" endLine="64" endPosition="0">
       <varInfo nodeId="8606751926055253470" varName="newValue" />
     </scopeInfo>
