@@ -48,7 +48,9 @@
     </scopeInfo>
     <scopeInfo nodeId="6936542821591824460" fileName="Dog.java" startLine="36" startPosition="0" endLine="41" endPosition="0" />
     <scopeInfo nodeId="6936542821591824460" fileName="Dog.java" startLine="41" startPosition="0" endLine="46" endPosition="0" />
-    <scopeInfo nodeId="6936542821591824460" fileName="Dog.java" startLine="50" startPosition="25" endLine="55" endPosition="5" />
+    <scopeInfo nodeId="6936542821591824460" fileName="Dog.java" startLine="50" startPosition="25" endLine="55" endPosition="5">
+      <varInfo nodeId="6936542821591824460" varName="binding" />
+    </scopeInfo>
     <scopeInfo nodeId="6936542821591824460" fileName="Dog.java" startLine="57" startPosition="0" endLine="63" endPosition="0" />
     <scopeInfo nodeId="6936542821591824460" fileName="Dog.java" startLine="24" startPosition="0" endLine="31" endPosition="3" />
     <scopeInfo nodeId="6936542821591824460" fileName="Dog.java" startLine="49" startPosition="0" endLine="57" endPosition="0" />
