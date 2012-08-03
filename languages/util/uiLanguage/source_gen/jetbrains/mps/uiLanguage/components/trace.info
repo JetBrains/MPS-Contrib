@@ -161,9 +161,7 @@
     <scopeInfo nodeId="1202393511419" fileName="Frame.java" startLine="27" startPosition="0" endLine="32" endPosition="3" />
     <scopeInfo nodeId="1202393511419" fileName="Frame.java" startLine="37" startPosition="0" endLine="42" endPosition="0" />
     <scopeInfo nodeId="1202393511419" fileName="Frame.java" startLine="42" startPosition="0" endLine="47" endPosition="0" />
-    <scopeInfo nodeId="1202393511419" fileName="Frame.java" startLine="51" startPosition="25" endLine="56" endPosition="5">
-      <varInfo nodeId="1202393511419" varName="binding" />
-    </scopeInfo>
+    <scopeInfo nodeId="1202393511419" fileName="Frame.java" startLine="51" startPosition="25" endLine="56" endPosition="5" />
     <scopeInfo nodeId="1202393511419" fileName="Frame.java" startLine="74" startPosition="0" endLine="80" endPosition="0">
       <varInfo nodeId="1202393511419" varName="newValue" />
     </scopeInfo>
@@ -442,9 +440,7 @@
     <scopeInfo nodeId="1202465811094" fileName="Label.java" startLine="30" startPosition="0" endLine="35" endPosition="3" />
     <scopeInfo nodeId="1202465811094" fileName="Label.java" startLine="40" startPosition="0" endLine="45" endPosition="0" />
     <scopeInfo nodeId="1202465811094" fileName="Label.java" startLine="45" startPosition="0" endLine="50" endPosition="0" />
-    <scopeInfo nodeId="1202465811094" fileName="Label.java" startLine="54" startPosition="25" endLine="59" endPosition="5">
-      <varInfo nodeId="1202465811094" varName="binding" />
-    </scopeInfo>
+    <scopeInfo nodeId="1202465811094" fileName="Label.java" startLine="54" startPosition="25" endLine="59" endPosition="5" />
     <scopeInfo nodeId="1202465811094" fileName="Label.java" startLine="81" startPosition="0" endLine="87" endPosition="0">
       <varInfo nodeId="1202465811094" varName="newValue" />
     </scopeInfo>
@@ -503,7 +499,9 @@
     <scopeInfo nodeId="1202738287160" fileName="VBox.java" startLine="22" startPosition="0" endLine="27" endPosition="3" />
     <scopeInfo nodeId="1202738287160" fileName="VBox.java" startLine="32" startPosition="0" endLine="37" endPosition="0" />
     <scopeInfo nodeId="1202738287160" fileName="VBox.java" startLine="37" startPosition="0" endLine="42" endPosition="0" />
-    <scopeInfo nodeId="1202738287160" fileName="VBox.java" startLine="46" startPosition="25" endLine="51" endPosition="5" />
+    <scopeInfo nodeId="1202738287160" fileName="VBox.java" startLine="46" startPosition="25" endLine="51" endPosition="5">
+      <varInfo nodeId="1202738287160" varName="binding" />
+    </scopeInfo>
     <scopeInfo nodeId="1202738287160" fileName="VBox.java" startLine="45" startPosition="0" endLine="53" endPosition="0" />
     <unitInfo nodeId="1202738287160" fileName="VBox.java" startLine="12" startPosition="0" endLine="54" endPosition="0" unitName="jetbrains.mps.uiLanguage.components.VBox" />
     <unitInfo nodeId="1202738287160" fileName="VBox.java" startLine="15" startPosition="32" endLine="21" endPosition="3" unitName="jetbrains.mps.uiLanguage.components.VBox$1" />
@@ -713,7 +711,9 @@
     <scopeInfo nodeId="1202816455619" fileName="FlowPanel.java" startLine="22" startPosition="0" endLine="27" endPosition="3" />
     <scopeInfo nodeId="1202816455619" fileName="FlowPanel.java" startLine="32" startPosition="0" endLine="37" endPosition="0" />
     <scopeInfo nodeId="1202816455619" fileName="FlowPanel.java" startLine="37" startPosition="0" endLine="42" endPosition="0" />
-    <scopeInfo nodeId="1202816455619" fileName="FlowPanel.java" startLine="46" startPosition="25" endLine="51" endPosition="5" />
+    <scopeInfo nodeId="1202816455619" fileName="FlowPanel.java" startLine="46" startPosition="25" endLine="51" endPosition="5">
+      <varInfo nodeId="1202816455619" varName="binding" />
+    </scopeInfo>
     <scopeInfo nodeId="1202816455619" fileName="FlowPanel.java" startLine="45" startPosition="0" endLine="53" endPosition="0" />
     <unitInfo nodeId="1202816455619" fileName="FlowPanel.java" startLine="12" startPosition="0" endLine="54" endPosition="0" unitName="jetbrains.mps.uiLanguage.components.FlowPanel" />
     <unitInfo nodeId="1202816455619" fileName="FlowPanel.java" startLine="15" startPosition="32" endLine="21" endPosition="3" unitName="jetbrains.mps.uiLanguage.components.FlowPanel$1" />
@@ -769,9 +769,7 @@
     <scopeInfo nodeId="1202828480666" fileName="Dialog.java" startLine="23" startPosition="0" endLine="28" endPosition="3" />
     <scopeInfo nodeId="1202828480666" fileName="Dialog.java" startLine="33" startPosition="0" endLine="38" endPosition="0" />
     <scopeInfo nodeId="1202828480666" fileName="Dialog.java" startLine="38" startPosition="0" endLine="43" endPosition="0" />
-    <scopeInfo nodeId="1202828480666" fileName="Dialog.java" startLine="47" startPosition="25" endLine="52" endPosition="5">
-      <varInfo nodeId="1202828480666" varName="binding" />
-    </scopeInfo>
+    <scopeInfo nodeId="1202828480666" fileName="Dialog.java" startLine="47" startPosition="25" endLine="52" endPosition="5" />
     <scopeInfo nodeId="1202828480666" fileName="Dialog.java" startLine="58" startPosition="0" endLine="64" endPosition="0">
       <varInfo nodeId="1202828480666" varName="newValue" />
     </scopeInfo>
@@ -842,9 +840,7 @@
     <scopeInfo nodeId="1203082515478" fileName="List.java" startLine="23" startPosition="0" endLine="28" endPosition="3" />
     <scopeInfo nodeId="1203082515478" fileName="List.java" startLine="33" startPosition="0" endLine="38" endPosition="0" />
     <scopeInfo nodeId="1203082515478" fileName="List.java" startLine="38" startPosition="0" endLine="43" endPosition="0" />
-    <scopeInfo nodeId="1203082515478" fileName="List.java" startLine="47" startPosition="25" endLine="52" endPosition="5">
-      <varInfo nodeId="1203082515478" varName="binding" />
-    </scopeInfo>
+    <scopeInfo nodeId="1203082515478" fileName="List.java" startLine="47" startPosition="25" endLine="52" endPosition="5" />
     <scopeInfo nodeId="1203082515478" fileName="List.java" startLine="62" startPosition="0" endLine="68" endPosition="0">
       <varInfo nodeId="1203082515478" varName="newValue" />
     </scopeInfo>
