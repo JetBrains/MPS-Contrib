@@ -63,9 +63,7 @@
     <scopeInfo nodeId="1202393472906" fileName="BaseComponent.java" startLine="26" startPosition="0" endLine="31" endPosition="3" />
     <scopeInfo nodeId="1202393472906" fileName="BaseComponent.java" startLine="36" startPosition="0" endLine="41" endPosition="0" />
     <scopeInfo nodeId="1202393472906" fileName="BaseComponent.java" startLine="41" startPosition="0" endLine="46" endPosition="0" />
-    <scopeInfo nodeId="1202393472906" fileName="BaseComponent.java" startLine="50" startPosition="25" endLine="55" endPosition="5">
-      <varInfo nodeId="1202393472906" varName="binding" />
-    </scopeInfo>
+    <scopeInfo nodeId="1202393472906" fileName="BaseComponent.java" startLine="50" startPosition="25" endLine="55" endPosition="5" />
     <scopeInfo nodeId="1202393472906" fileName="BaseComponent.java" startLine="65" startPosition="0" endLine="71" endPosition="0">
       <varInfo nodeId="1202393472906" varName="newValue" />
     </scopeInfo>
@@ -505,7 +503,9 @@
     <scopeInfo nodeId="1202738287160" fileName="VBox.java" startLine="22" startPosition="0" endLine="27" endPosition="3" />
     <scopeInfo nodeId="1202738287160" fileName="VBox.java" startLine="32" startPosition="0" endLine="37" endPosition="0" />
     <scopeInfo nodeId="1202738287160" fileName="VBox.java" startLine="37" startPosition="0" endLine="42" endPosition="0" />
-    <scopeInfo nodeId="1202738287160" fileName="VBox.java" startLine="46" startPosition="25" endLine="51" endPosition="5" />
+    <scopeInfo nodeId="1202738287160" fileName="VBox.java" startLine="46" startPosition="25" endLine="51" endPosition="5">
+      <varInfo nodeId="1202738287160" varName="binding" />
+    </scopeInfo>
     <scopeInfo nodeId="1202738287160" fileName="VBox.java" startLine="45" startPosition="0" endLine="53" endPosition="0" />
     <unitInfo nodeId="1202738287160" fileName="VBox.java" startLine="12" startPosition="0" endLine="54" endPosition="0" unitName="jetbrains.mps.uiLanguage.components.VBox" />
     <unitInfo nodeId="1202738287160" fileName="VBox.java" startLine="15" startPosition="32" endLine="21" endPosition="3" unitName="jetbrains.mps.uiLanguage.components.VBox$1" />
@@ -846,9 +846,7 @@
     <scopeInfo nodeId="1203082515478" fileName="List.java" startLine="23" startPosition="0" endLine="28" endPosition="3" />
     <scopeInfo nodeId="1203082515478" fileName="List.java" startLine="33" startPosition="0" endLine="38" endPosition="0" />
     <scopeInfo nodeId="1203082515478" fileName="List.java" startLine="38" startPosition="0" endLine="43" endPosition="0" />
-    <scopeInfo nodeId="1203082515478" fileName="List.java" startLine="47" startPosition="25" endLine="52" endPosition="5">
-      <varInfo nodeId="1203082515478" varName="binding" />
-    </scopeInfo>
+    <scopeInfo nodeId="1203082515478" fileName="List.java" startLine="47" startPosition="25" endLine="52" endPosition="5" />
     <scopeInfo nodeId="1203082515478" fileName="List.java" startLine="62" startPosition="0" endLine="68" endPosition="0">
       <varInfo nodeId="1203082515478" varName="newValue" />
     </scopeInfo>
@@ -984,7 +982,9 @@
     <scopeInfo nodeId="8606751926055253470" fileName="Separator.java" startLine="23" startPosition="0" endLine="28" endPosition="3" />
     <scopeInfo nodeId="8606751926055253470" fileName="Separator.java" startLine="33" startPosition="0" endLine="38" endPosition="0" />
     <scopeInfo nodeId="8606751926055253470" fileName="Separator.java" startLine="38" startPosition="0" endLine="43" endPosition="0" />
-    <scopeInfo nodeId="8606751926055253470" fileName="Separator.java" startLine="47" startPosition="25" endLine="52" endPosition="5" />
+    <scopeInfo nodeId="8606751926055253470" fileName="Separator.java" startLine="47" startPosition="25" endLine="52" endPosition="5">
+      <varInfo nodeId="8606751926055253470" varName="binding" />
+    </scopeInfo>
     <scopeInfo nodeId="8606751926055253470" fileName="Separator.java" startLine="58" startPosition="0" endLine="64" endPosition="0">
       <varInfo nodeId="8606751926055253470" varName="newValue" />
     </scopeInfo>
