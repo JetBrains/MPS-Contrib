@@ -105,9 +105,7 @@
     </scopeInfo>
     <scopeInfo nodeId="6936542821591824462" fileName="Food.java" startLine="37" startPosition="0" endLine="42" endPosition="0" />
     <scopeInfo nodeId="6936542821591824462" fileName="Food.java" startLine="42" startPosition="0" endLine="47" endPosition="0" />
-    <scopeInfo nodeId="6936542821591824462" fileName="Food.java" startLine="51" startPosition="25" endLine="56" endPosition="5">
-      <varInfo nodeId="6936542821591824462" varName="binding" />
-    </scopeInfo>
+    <scopeInfo nodeId="6936542821591824462" fileName="Food.java" startLine="51" startPosition="25" endLine="56" endPosition="5" />
     <scopeInfo nodeId="6936542821591824462" fileName="Food.java" startLine="58" startPosition="0" endLine="64" endPosition="0" />
     <scopeInfo nodeId="6936542821591824462" fileName="Food.java" startLine="25" startPosition="0" endLine="32" endPosition="3" />
     <scopeInfo nodeId="6936542821591824462" fileName="Food.java" startLine="50" startPosition="0" endLine="58" endPosition="0" />
