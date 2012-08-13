@@ -13,6 +13,7 @@
     <classNode dependClassName="jetbrains.mps.smodel.SModelUtil_new" />
     <classNode dependClassName="jetbrains.mps.smodel.SNode" />
     <classNode extendsClassName="jetbrains.mps.lang.core.structure.BaseConcept" />
+    <classNode extendsClassName="jetbrains.mps.smodel.INodeAdapter" />
   </dependency>
   <dependency className="jetbrains.mps.build.property.structure.Property_Language" file="Property_Language.java">
     <classNode dependClassName="jetbrains.mps.project.structure.modules.ModuleReference" />

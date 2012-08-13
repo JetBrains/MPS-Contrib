@@ -103,7 +103,7 @@ public class UnitTestRunner extends BaseRunner {
         addJavaCommand(params);
 
         ListSequence.fromList(params).addSequence(ListSequence.fromList(parameters._1()));
-        if (vmParams.value != null && (vmParams.value != null && vmParams.value.length() > 0)) {
+        if (vmParams.value != null && isNotEmpty_y7hhub_a0a5a0a0a0a8a2(vmParams.value)) {
           String[] paramList = splitParams(vmParams.value);
           ListSequence.fromList(params).addSequence(Sequence.fromIterable(Sequence.fromArray(paramList)));
         }
@@ -154,14 +154,14 @@ public class UnitTestRunner extends BaseRunner {
       }
     }
 
-    if (programParams.value != null && (programParams.value != null && programParams.value.length() > 0)) {
+    if (programParams.value != null && isNotEmpty_y7hhub_a0a51a2(programParams.value)) {
       String[] paramList = splitParams(programParams.value);
       ListSequence.fromList(params).addSequence(Sequence.fromIterable(Sequence.fromArray(paramList)));
     }
 
     myProcessBuilder = new ProcessBuilder(params);
 
-    if (workingDir.value != null && (workingDir.value != null && workingDir.value.length() > 0)) {
+    if (workingDir.value != null && isNotEmpty_y7hhub_a0a91a2(workingDir.value)) {
       myProcessBuilder.directory(new File(workingDir.value));
     }
 
@@ -228,5 +228,17 @@ public class UnitTestRunner extends BaseRunner {
       a.equals(b) :
       a == b
     );
+  }
+
+  public static boolean isNotEmpty_y7hhub_a0a5a0a0a0a8a2(String str) {
+    return str != null && str.length() > 0;
+  }
+
+  public static boolean isNotEmpty_y7hhub_a0a51a2(String str) {
+    return str != null && str.length() > 0;
+  }
+
+  public static boolean isNotEmpty_y7hhub_a0a91a2(String str) {
+    return str != null && str.length() > 0;
   }
 }
