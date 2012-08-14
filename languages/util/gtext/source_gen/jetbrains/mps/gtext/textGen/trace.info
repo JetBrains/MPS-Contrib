@@ -148,7 +148,9 @@
     <scopeInfo nodeId="1234795672226" fileName="GLine_TextGen.java" startLine="16" startPosition="44" endLine="17" endPosition="61" />
     <scopeInfo nodeId="1237463992085" fileName="GLine_TextGen.java" startLine="21" startPosition="73" endLine="22" endPosition="109" />
     <scopeInfo nodeId="1234795672226" fileName="GLine_TextGen.java" startLine="26" startPosition="44" endLine="27" endPosition="219" />
-    <scopeInfo nodeId="1237463992085" fileName="GLine_TextGen.java" startLine="20" startPosition="93" endLine="23" endPosition="7" />
+    <scopeInfo nodeId="1237463992085" fileName="GLine_TextGen.java" startLine="20" startPosition="93" endLine="23" endPosition="7">
+      <varInfo nodeId="1237463992085" varName="item" />
+    </scopeInfo>
     <scopeInfo nodeId="1237463992085" fileName="GLine_TextGen.java" startLine="19" startPosition="24" endLine="25" endPosition="25" />
     <scopeInfo nodeId="1234795672226" fileName="GLine_TextGen.java" startLine="15" startPosition="42" endLine="28" endPosition="5" />
     <scopeInfo nodeId="1234795672226" fileName="GLine_TextGen.java" startLine="14" startPosition="49" endLine="30" endPosition="0">
