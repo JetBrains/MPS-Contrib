@@ -83,7 +83,7 @@
     <nodeInfo nodeId="190081711777510109" fileName="MedianLayerSorter.java" startLine="60" startPosition="90" endLine="61" endPosition="82" conceptFqName="jetbrains.mps.baseLanguage.structure.LocalVariableDeclarationStatement" />
     <nodeInfo nodeId="190081711777515794" fileName="MedianLayerSorter.java" startLine="62" startPosition="65" endLine="63" endPosition="112" conceptFqName="jetbrains.mps.baseLanguage.structure.ExpressionStatement" />
     <nodeInfo nodeId="190081711777516025" fileName="MedianLayerSorter.java" startLine="65" startPosition="66" endLine="66" endPosition="16" conceptFqName="jetbrains.mps.baseLanguage.structure.ReturnStatement" />
-    <nodeInfo nodeId="190081711777515967" fileName="MedianLayerSorter.java" startLine="69" startPosition="47" endLine="70" endPosition="18" conceptFqName="jetbrains.mps.baseLanguage.structure.ReturnStatement" />
+    <nodeInfo nodeId="190081711777515967" fileName="MedianLayerSorter.java" startLine="69" startPosition="41" endLine="70" endPosition="18" conceptFqName="jetbrains.mps.baseLanguage.structure.ReturnStatement" />
     <nodeInfo nodeId="4759409676487234270" fileName="MedianLayerSorter.java" startLine="73" startPosition="64" endLine="74" endPosition="111" conceptFqName="jetbrains.mps.baseLanguage.structure.ReturnStatement" />
     <nodeInfo nodeId="4759409676487234280" fileName="MedianLayerSorter.java" startLine="75" startPosition="12" endLine="76" endPosition="221" conceptFqName="jetbrains.mps.baseLanguage.structure.ReturnStatement" />
     <nodeInfo nodeId="4759409676487232965" fileName="MedianLayerSorter.java" startLine="80" startPosition="97" endLine="81" endPosition="26" conceptFqName="jetbrains.mps.baseLanguage.structure.LocalVariableDeclarationStatement" />
@@ -102,7 +102,7 @@
     <nodeInfo nodeId="190081711777516010" fileName="MedianLayerSorter.java" startLine="64" startPosition="5" endLine="67" endPosition="5" conceptFqName="jetbrains.mps.baseLanguage.structure.IfStatement" />
     <nodeInfo nodeId="4759409676487232971" fileName="MedianLayerSorter.java" startLine="83" startPosition="51" endLine="86" endPosition="7" conceptFqName="jetbrains.mps.baseLanguage.structure.ForeachStatement" />
     <nodeInfo nodeId="190081711777510087" fileName="MedianLayerSorter.java" startLine="35" startPosition="67" endLine="39" endPosition="5" conceptFqName="jetbrains.mps.baseLanguage.structure.ForeachStatement" />
-    <nodeInfo nodeId="190081711777515962" fileName="MedianLayerSorter.java" startLine="68" startPosition="103" endLine="72" endPosition="0" conceptFqName="jetbrains.mps.baseLanguage.structure.InstanceMethodDeclaration" propertyString="select#(Ljava/lang/Integer;)Ljava/lang/Comparable;" />
+    <nodeInfo nodeId="190081711777515962" fileName="MedianLayerSorter.java" startLine="68" startPosition="97" endLine="72" endPosition="0" conceptFqName="jetbrains.mps.baseLanguage.structure.InstanceMethodDeclaration" propertyString="select#(Ljava/lang/Integer;)Ljava/lang/Integer;" />
     <nodeInfo nodeId="190081711777509939" fileName="MedianLayerSorter.java" startLine="23" startPosition="26" endLine="28" endPosition="5" conceptFqName="jetbrains.mps.baseLanguage.structure.IfStatement" />
     <nodeInfo nodeId="190081711777515950" fileName="MedianLayerSorter.java" startLine="67" startPosition="5" endLine="72" endPosition="30" conceptFqName="jetbrains.mps.baseLanguage.structure.ExpressionStatement" />
     <nodeInfo nodeId="4759409676487234243" fileName="MedianLayerSorter.java" startLine="72" startPosition="30" endLine="77" endPosition="5" conceptFqName="jetbrains.mps.baseLanguage.structure.IfStatement" />
@@ -121,7 +121,7 @@
     <scopeInfo nodeId="4759409676487233726" fileName="MedianLayerSorter.java" startLine="51" startPosition="20" endLine="52" endPosition="19" />
     <scopeInfo nodeId="190081711777515786" fileName="MedianLayerSorter.java" startLine="62" startPosition="65" endLine="63" endPosition="112" />
     <scopeInfo nodeId="190081711777516011" fileName="MedianLayerSorter.java" startLine="65" startPosition="66" endLine="66" endPosition="16" />
-    <scopeInfo nodeId="190081711777515963" fileName="MedianLayerSorter.java" startLine="69" startPosition="47" endLine="70" endPosition="18" />
+    <scopeInfo nodeId="190081711777515963" fileName="MedianLayerSorter.java" startLine="69" startPosition="41" endLine="70" endPosition="18" />
     <scopeInfo nodeId="4759409676487234244" fileName="MedianLayerSorter.java" startLine="73" startPosition="64" endLine="74" endPosition="111" />
     <scopeInfo nodeId="4759409676487234279" fileName="MedianLayerSorter.java" startLine="75" startPosition="12" endLine="76" endPosition="221" />
     <scopeInfo nodeId="4759409676487232974" fileName="MedianLayerSorter.java" startLine="84" startPosition="54" endLine="85" endPosition="79" />
@@ -139,7 +139,7 @@
     <scopeInfo nodeId="190081711777510087" fileName="MedianLayerSorter.java" startLine="35" startPosition="67" endLine="39" endPosition="5">
       <varInfo nodeId="190081711777510087" varName="node" />
     </scopeInfo>
-    <scopeInfo nodeId="190081711777515962" fileName="MedianLayerSorter.java" startLine="68" startPosition="103" endLine="72" endPosition="0">
+    <scopeInfo nodeId="190081711777515962" fileName="MedianLayerSorter.java" startLine="68" startPosition="97" endLine="72" endPosition="0">
       <varInfo nodeId="190081711777515962" varName="it" />
     </scopeInfo>
     <scopeInfo nodeId="4519409331094601156" fileName="MedianLayerSorter.java" startLine="83" startPosition="51" endLine="87" endPosition="69" />
@@ -718,7 +718,7 @@
     <nodeInfo nodeId="8780938838750204054" fileName="BKCoordinatePlacer.java" startLine="68" startPosition="5" endLine="69" endPosition="65" conceptFqName="jetbrains.mps.baseLanguage.structure.LocalVariableDeclarationStatement" />
     <nodeInfo nodeId="8780938838750204079" fileName="BKCoordinatePlacer.java" startLine="70" startPosition="52" endLine="71" endPosition="82" conceptFqName="jetbrains.mps.baseLanguage.structure.LocalVariableDeclarationStatement" />
     <nodeInfo nodeId="8780938838750204088" fileName="BKCoordinatePlacer.java" startLine="72" startPosition="72" endLine="73" endPosition="177" conceptFqName="jetbrains.mps.baseLanguage.structure.ExpressionStatement" />
-    <nodeInfo nodeId="8780938838750204120" fileName="BKCoordinatePlacer.java" startLine="76" startPosition="49" endLine="77" endPosition="20" conceptFqName="jetbrains.mps.baseLanguage.structure.ReturnStatement" />
+    <nodeInfo nodeId="8780938838750204120" fileName="BKCoordinatePlacer.java" startLine="76" startPosition="43" endLine="77" endPosition="20" conceptFqName="jetbrains.mps.baseLanguage.structure.ReturnStatement" />
     <nodeInfo nodeId="8780938838750204127" fileName="BKCoordinatePlacer.java" startLine="79" startPosition="32" endLine="80" endPosition="150" conceptFqName="jetbrains.mps.baseLanguage.structure.ExpressionStatement" />
     <nodeInfo nodeId="8780938838750205255" fileName="BKCoordinatePlacer.java" startLine="81" startPosition="5" endLine="82" endPosition="38" conceptFqName="jetbrains.mps.baseLanguage.structure.LocalVariableDeclarationStatement" />
     <nodeInfo nodeId="8780938838750205277" fileName="BKCoordinatePlacer.java" startLine="83" startPosition="52" endLine="84" endPosition="82" conceptFqName="jetbrains.mps.baseLanguage.structure.ExpressionStatement" />
@@ -828,7 +828,7 @@
     <nodeInfo nodeId="920414672219877924" fileName="BKCoordinatePlacer.java" startLine="257" startPosition="150" endLine="260" endPosition="11" conceptFqName="jetbrains.mps.baseLanguage.structure.IfStatement" />
     <nodeInfo nodeId="8780938838750213777" fileName="BKCoordinatePlacer.java" startLine="262" startPosition="173" endLine="265" endPosition="11" conceptFqName="jetbrains.mps.baseLanguage.structure.IfStatement" />
     <nodeInfo nodeId="920414672219877950" fileName="BKCoordinatePlacer.java" startLine="266" startPosition="68" endLine="269" endPosition="13" conceptFqName="jetbrains.mps.baseLanguage.structure.IfStatement" />
-    <nodeInfo nodeId="8780938838750204118" fileName="BKCoordinatePlacer.java" startLine="75" startPosition="101" endLine="79" endPosition="0" conceptFqName="jetbrains.mps.baseLanguage.structure.InstanceMethodDeclaration" propertyString="select#(Ljava/lang/Integer;)Ljava/lang/Comparable;" />
+    <nodeInfo nodeId="8780938838750204118" fileName="BKCoordinatePlacer.java" startLine="75" startPosition="95" endLine="79" endPosition="0" conceptFqName="jetbrains.mps.baseLanguage.structure.InstanceMethodDeclaration" propertyString="select#(Ljava/lang/Integer;)Ljava/lang/Integer;" />
     <nodeInfo nodeId="4519409331094704518" fileName="BKCoordinatePlacer.java" startLine="148" startPosition="54" endLine="152" endPosition="7" conceptFqName="jetbrains.mps.baseLanguage.structure.ForStatement" />
     <nodeInfo nodeId="7033456583153167631" fileName="BKCoordinatePlacer.java" startLine="200" startPosition="0" endLine="204" endPosition="0" conceptFqName="jetbrains.mps.baseLanguage.structure.InstanceMethodDeclaration" propertyString="getOppositePos#(Ljetbrains/mps/graphLayout/graph/Node;)I" />
     <nodeInfo nodeId="920414672219877445" fileName="BKCoordinatePlacer.java" startLine="229" startPosition="86" endLine="233" endPosition="0" conceptFqName="jetbrains.mps.baseLanguage.structure.InstanceMethodDeclaration" propertyString="invoke#(Ljetbrains/mps/graphLayout/graph/Edge;Ljetbrains/mps/graphLayout/graph/Edge;)Ljava/lang/Integer;" />
@@ -881,7 +881,7 @@
     <scopeInfo nodeId="8780938838750203839" fileName="BKCoordinatePlacer.java" startLine="63" startPosition="23" endLine="64" endPosition="52" />
     <scopeInfo nodeId="8780938838750203861" fileName="BKCoordinatePlacer.java" startLine="65" startPosition="14" endLine="66" endPosition="110" />
     <scopeInfo nodeId="8780938838750204087" fileName="BKCoordinatePlacer.java" startLine="72" startPosition="72" endLine="73" endPosition="177" />
-    <scopeInfo nodeId="8780938838750204119" fileName="BKCoordinatePlacer.java" startLine="76" startPosition="49" endLine="77" endPosition="20" />
+    <scopeInfo nodeId="8780938838750204119" fileName="BKCoordinatePlacer.java" startLine="76" startPosition="43" endLine="77" endPosition="20" />
     <scopeInfo nodeId="8780938838750205253" fileName="BKCoordinatePlacer.java" startLine="83" startPosition="52" endLine="84" endPosition="82" />
     <scopeInfo nodeId="8780938838750205296" fileName="BKCoordinatePlacer.java" startLine="86" startPosition="52" endLine="87" endPosition="105" />
     <scopeInfo nodeId="5180427534212025961" fileName="BKCoordinatePlacer.java" startLine="90" startPosition="52" endLine="91" endPosition="141" />
@@ -947,7 +947,7 @@
       <varInfo nodeId="920414672219867893" varName="node" />
     </scopeInfo>
     <scopeInfo nodeId="920414672219877948" fileName="BKCoordinatePlacer.java" startLine="266" startPosition="68" endLine="269" endPosition="13" />
-    <scopeInfo nodeId="8780938838750204118" fileName="BKCoordinatePlacer.java" startLine="75" startPosition="101" endLine="79" endPosition="0">
+    <scopeInfo nodeId="8780938838750204118" fileName="BKCoordinatePlacer.java" startLine="75" startPosition="95" endLine="79" endPosition="0">
       <varInfo nodeId="8780938838750204118" varName="it" />
     </scopeInfo>
     <scopeInfo nodeId="4519409331094704518" fileName="BKCoordinatePlacer.java" startLine="148" startPosition="54" endLine="152" endPosition="7">
