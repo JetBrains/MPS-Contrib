@@ -56,7 +56,7 @@
       <varInfo nodeId="1251688034163211111" varName="i" />
     </scopeInfo>
     <scopeInfo nodeId="1251688034163211136" fileName="ClusterGraphGenerator.java" startLine="31" startPosition="5" endLine="34" endPosition="5">
-      <varInfo nodeId="1251688034163211136" varName="edge" />
+      <varInfo nodeId="1251688034163211137" varName="edge" />
     </scopeInfo>
     <scopeInfo nodeId="1251688034163211339" fileName="ClusterGraphGenerator.java" startLine="43" startPosition="34" endLine="46" endPosition="7">
       <varInfo nodeId="1251688034163211342" varName="j" />
@@ -220,7 +220,7 @@
     <scopeInfo nodeId="194249616896341198" fileName="LayoutInfoGenerator.java" startLine="89" startPosition="0" endLine="93" endPosition="0" />
     <scopeInfo nodeId="194249616896441084" fileName="LayoutInfoGenerator.java" startLine="93" startPosition="0" endLine="97" endPosition="0" />
     <scopeInfo nodeId="194249616896341207" fileName="LayoutInfoGenerator.java" startLine="64" startPosition="39" endLine="70" endPosition="5">
-      <varInfo nodeId="194249616896341207" varName="node" />
+      <varInfo nodeId="194249616896341208" varName="node" />
     </scopeInfo>
     <scopeInfo nodeId="194249616896341092" fileName="LayoutInfoGenerator.java" startLine="36" startPosition="0" endLine="43" endPosition="0">
       <varInfo nodeId="194249616896341116" varName="maxHeight" />
@@ -238,7 +238,7 @@
       <varInfo nodeId="194249616896341265" varName="d" />
     </scopeInfo>
     <scopeInfo nodeId="194249616896341254" fileName="LayoutInfoGenerator.java" startLine="70" startPosition="5" endLine="79" endPosition="5">
-      <varInfo nodeId="194249616896341254" varName="edge" />
+      <varInfo nodeId="194249616896341255" varName="edge" />
     </scopeInfo>
     <scopeInfo nodeId="2950683109932029845" fileName="LayoutInfoGenerator.java" startLine="59" startPosition="26" endLine="79" endPosition="5">
       <varInfo nodeId="194249616896331670" varName="rand" />
@@ -622,7 +622,7 @@
     </scopeInfo>
     <scopeInfo nodeId="3437556975695847565" fileName="SimpleDirectedGraphs.java" startLine="41" startPosition="0" endLine="52" endPosition="0" />
     <scopeInfo nodeId="7953585273260040057" fileName="SimpleDirectedGraphs.java" startLine="57" startPosition="21" endLine="69" endPosition="5">
-      <varInfo nodeId="7953585273260040057" varName="node" />
+      <varInfo nodeId="7953585273260040058" varName="node" />
     </scopeInfo>
     <scopeInfo nodeId="7953585273260040043" fileName="SimpleDirectedGraphs.java" startLine="53" startPosition="42" endLine="70" endPosition="17">
       <varInfo nodeId="7953585273260040101" varName="first" />
@@ -795,13 +795,13 @@
     </scopeInfo>
     <scopeInfo nodeId="8527875266531974449" fileName="SimpleGraphGenerator.java" startLine="30" startPosition="65" endLine="35" endPosition="7" />
     <scopeInfo nodeId="8527875266531974456" fileName="SimpleGraphGenerator.java" startLine="30" startPosition="65" endLine="35" endPosition="7">
-      <varInfo nodeId="8527875266531974456" varName="target" />
+      <varInfo nodeId="8527875266531974457" varName="target" />
     </scopeInfo>
     <scopeInfo nodeId="8527875266531974111" fileName="SimpleGraphGenerator.java" startLine="22" startPosition="44" endLine="29" endPosition="5">
       <varInfo nodeId="8527875266531974114" varName="iter" />
     </scopeInfo>
     <scopeInfo nodeId="8527875266531974446" fileName="SimpleGraphGenerator.java" startLine="29" startPosition="5" endLine="36" endPosition="5">
-      <varInfo nodeId="8527875266531974446" varName="source" />
+      <varInfo nodeId="8527875266531974447" varName="source" />
     </scopeInfo>
     <scopeInfo nodeId="8527875266531973946" fileName="SimpleGraphGenerator.java" startLine="54" startPosition="35" endLine="63" endPosition="33">
       <varInfo nodeId="8527875266531973989" varName="numNodes" />

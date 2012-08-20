@@ -91,7 +91,7 @@
     <scopeInfo nodeId="1763712338172394839" fileName="EdgeLengthComputer.java" startLine="24" startPosition="0" endLine="27" endPosition="3" />
     <scopeInfo nodeId="1763712338172394485" fileName="EdgeLengthComputer.java" startLine="50" startPosition="43" endLine="53" endPosition="7" />
     <scopeInfo nodeId="1763712338172394486" fileName="EdgeLengthComputer.java" startLine="50" startPosition="43" endLine="53" endPosition="7">
-      <varInfo nodeId="1763712338172394486" varName="edge" />
+      <varInfo nodeId="1763712338172394487" varName="edge" />
     </scopeInfo>
     <scopeInfo nodeId="1763712338172394574" fileName="EdgeLengthComputer.java" startLine="65" startPosition="71" endLine="68" endPosition="7" />
     <scopeInfo nodeId="1763712338172394808" fileName="EdgeLengthComputer.java" startLine="111" startPosition="63" endLine="114" endPosition="7" />
@@ -106,16 +106,16 @@
       <varInfo nodeId="1763712338172394660" varName="dart" />
     </scopeInfo>
     <scopeInfo nodeId="1763712338172394569" fileName="EdgeLengthComputer.java" startLine="64" startPosition="39" endLine="69" endPosition="5">
-      <varInfo nodeId="1763712338172394569" varName="face" />
+      <varInfo nodeId="1763712338172394570" varName="face" />
     </scopeInfo>
     <scopeInfo nodeId="1763712338172394803" fileName="EdgeLengthComputer.java" startLine="110" startPosition="86" endLine="115" endPosition="5">
-      <varInfo nodeId="1763712338172394803" varName="edge" />
+      <varInfo nodeId="1763712338172394804" varName="edge" />
     </scopeInfo>
     <scopeInfo nodeId="1763712338172394454" fileName="EdgeLengthComputer.java" startLine="41" startPosition="82" endLine="48" endPosition="53">
       <varInfo nodeId="1763712338172394456" varName="length" />
     </scopeInfo>
     <scopeInfo nodeId="1763712338172394447" fileName="EdgeLengthComputer.java" startLine="40" startPosition="83" endLine="49" endPosition="5">
-      <varInfo nodeId="1763712338172394447" varName="edge" />
+      <varInfo nodeId="1763712338172394448" varName="edge" />
     </scopeInfo>
     <scopeInfo nodeId="1763712338172394417" fileName="EdgeLengthComputer.java" startLine="37" startPosition="139" endLine="55" endPosition="19">
       <varInfo nodeId="1763712338172394419" varName="horEdgeLengths" />
@@ -138,7 +138,7 @@
       <varInfo nodeId="1763712338172394652" varName="dart" />
     </scopeInfo>
     <scopeInfo nodeId="1763712338172394645" fileName="EdgeLengthComputer.java" startLine="76" startPosition="47" endLine="108" endPosition="5">
-      <varInfo nodeId="1763712338172394645" varName="edge" />
+      <varInfo nodeId="1763712338172394646" varName="edge" />
     </scopeInfo>
     <scopeInfo nodeId="1763712338172394527" fileName="EdgeLengthComputer.java" startLine="58" startPosition="186" endLine="116" endPosition="22">
       <varInfo nodeId="1763712338172394618" varName="backEdge" />
@@ -614,7 +614,7 @@
     </scopeInfo>
     <scopeInfo nodeId="1763712338172396811" fileName="ConstraintsGraphProcessor.java" startLine="455" startPosition="54" endLine="457" endPosition="70" />
     <scopeInfo nodeId="1763712338172395082" fileName="ConstraintsGraphProcessor.java" startLine="71" startPosition="90" endLine="74" endPosition="7">
-      <varInfo nodeId="1763712338172395082" varName="oldEdge" />
+      <varInfo nodeId="1763712338172395083" varName="oldEdge" />
     </scopeInfo>
     <scopeInfo nodeId="1763712338172395295" fileName="ConstraintsGraphProcessor.java" startLine="117" startPosition="112" endLine="120" endPosition="5">
       <varInfo nodeId="1763712338172395296" varName="dir" />
@@ -624,13 +624,13 @@
       <varInfo nodeId="1763712338172395799" varName="verSeg" />
     </scopeInfo>
     <scopeInfo nodeId="1763712338172395844" fileName="ConstraintsGraphProcessor.java" startLine="245" startPosition="87" endLine="248" endPosition="5">
-      <varInfo nodeId="1763712338172395844" varName="edge" />
+      <varInfo nodeId="1763712338172395845" varName="edge" />
     </scopeInfo>
     <scopeInfo nodeId="1763712338172395856" fileName="ConstraintsGraphProcessor.java" startLine="248" startPosition="5" endLine="251" endPosition="5">
-      <varInfo nodeId="1763712338172395856" varName="edge" />
+      <varInfo nodeId="1763712338172395857" varName="edge" />
     </scopeInfo>
     <scopeInfo nodeId="1763712338172395868" fileName="ConstraintsGraphProcessor.java" startLine="251" startPosition="5" endLine="254" endPosition="5">
-      <varInfo nodeId="1763712338172395868" varName="edge" />
+      <varInfo nodeId="1763712338172395869" varName="edge" />
     </scopeInfo>
     <scopeInfo nodeId="1763712338172395923" fileName="ConstraintsGraphProcessor.java" startLine="261" startPosition="89" endLine="264" endPosition="161">
       <varInfo nodeId="1763712338172395934" varName="constraintEdge" />
@@ -646,10 +646,10 @@
     <scopeInfo nodeId="1763712338172396227" fileName="ConstraintsGraphProcessor.java" startLine="316" startPosition="37" endLine="319" endPosition="63" />
     <scopeInfo nodeId="1763712338172396303" fileName="ConstraintsGraphProcessor.java" startLine="334" startPosition="61" endLine="337" endPosition="9" />
     <scopeInfo nodeId="1763712338172396737" fileName="ConstraintsGraphProcessor.java" startLine="436" startPosition="57" endLine="439" endPosition="7">
-      <varInfo nodeId="1763712338172396737" varName="node" />
+      <varInfo nodeId="1763712338172396738" varName="node" />
     </scopeInfo>
     <scopeInfo nodeId="1763712338172396942" fileName="ConstraintsGraphProcessor.java" startLine="490" startPosition="31" endLine="493" endPosition="5">
-      <varInfo nodeId="1763712338172396942" varName="node" />
+      <varInfo nodeId="1763712338172396943" varName="node" />
     </scopeInfo>
     <scopeInfo nodeId="1763712338172396991" fileName="ConstraintsGraphProcessor.java" startLine="504" startPosition="5" endLine="507" endPosition="5">
       <varInfo nodeId="1763712338172397003" varName="i" />
@@ -666,7 +666,7 @@
     </scopeInfo>
     <scopeInfo nodeId="1763712338172395889" fileName="ConstraintsGraphProcessor.java" startLine="255" startPosition="93" endLine="259" endPosition="7" />
     <scopeInfo nodeId="1763712338172395890" fileName="ConstraintsGraphProcessor.java" startLine="255" startPosition="93" endLine="259" endPosition="7">
-      <varInfo nodeId="1763712338172395890" varName="edge" />
+      <varInfo nodeId="1763712338172395891" varName="edge" />
     </scopeInfo>
     <scopeInfo nodeId="1763712338172396152" fileName="ConstraintsGraphProcessor.java" startLine="306" startPosition="50" endLine="310" endPosition="7" />
     <scopeInfo nodeId="1763712338172396340" fileName="ConstraintsGraphProcessor.java" startLine="345" startPosition="102" endLine="349" endPosition="0">
@@ -679,7 +679,7 @@
       <varInfo nodeId="1763712338172396494" varName="dir" />
     </scopeInfo>
     <scopeInfo nodeId="1763712338172396574" fileName="ConstraintsGraphProcessor.java" startLine="401" startPosition="46" endLine="405" endPosition="7">
-      <varInfo nodeId="1763712338172396574" varName="node" />
+      <varInfo nodeId="1763712338172396575" varName="node" />
     </scopeInfo>
     <scopeInfo nodeId="1763712338172396632" fileName="ConstraintsGraphProcessor.java" startLine="412" startPosition="110" endLine="416" endPosition="0">
       <varInfo nodeId="1763712338172396632" varName="it" />
@@ -718,13 +718,13 @@
     </scopeInfo>
     <scopeInfo nodeId="1763712338172395659" fileName="ConstraintsGraphProcessor.java" startLine="196" startPosition="79" endLine="201" endPosition="9" />
     <scopeInfo nodeId="1763712338172395786" fileName="ConstraintsGraphProcessor.java" startLine="231" startPosition="83" endLine="236" endPosition="5">
-      <varInfo nodeId="1763712338172395786" varName="node" />
+      <varInfo nodeId="1763712338172395787" varName="node" />
     </scopeInfo>
     <scopeInfo nodeId="1763712338172395918" fileName="ConstraintsGraphProcessor.java" startLine="260" startPosition="5" endLine="265" endPosition="5">
-      <varInfo nodeId="1763712338172395918" varName="edge" />
+      <varInfo nodeId="1763712338172395919" varName="edge" />
     </scopeInfo>
     <scopeInfo nodeId="1763712338172395976" fileName="ConstraintsGraphProcessor.java" startLine="268" startPosition="83" endLine="273" endPosition="5">
-      <varInfo nodeId="1763712338172395976" varName="node" />
+      <varInfo nodeId="1763712338172395977" varName="node" />
     </scopeInfo>
     <scopeInfo nodeId="1763712338172396089" fileName="ConstraintsGraphProcessor.java" startLine="291" startPosition="27" endLine="296" endPosition="58" />
     <scopeInfo nodeId="1763712338172396226" fileName="ConstraintsGraphProcessor.java" startLine="315" startPosition="45" endLine="320" endPosition="9">
@@ -732,7 +732,7 @@
     </scopeInfo>
     <scopeInfo nodeId="1763712338172396299" fileName="ConstraintsGraphProcessor.java" startLine="333" startPosition="46" endLine="338" endPosition="7" />
     <scopeInfo nodeId="1763712338172396300" fileName="ConstraintsGraphProcessor.java" startLine="333" startPosition="46" endLine="338" endPosition="7">
-      <varInfo nodeId="1763712338172396300" varName="rotation" />
+      <varInfo nodeId="1763712338172396301" varName="rotation" />
     </scopeInfo>
     <scopeInfo nodeId="1763712338172396388" fileName="ConstraintsGraphProcessor.java" startLine="359" startPosition="50" endLine="364" endPosition="7" />
     <scopeInfo nodeId="1763712338172396423" fileName="ConstraintsGraphProcessor.java" startLine="367" startPosition="0" endLine="372" endPosition="0">
@@ -744,27 +744,27 @@
     </scopeInfo>
     <scopeInfo nodeId="1763712338172395537" fileName="ConstraintsGraphProcessor.java" startLine="172" startPosition="81" endLine="178" endPosition="11" />
     <scopeInfo nodeId="1763712338172395709" fileName="ConstraintsGraphProcessor.java" startLine="210" startPosition="15" endLine="216" endPosition="5">
-      <varInfo nodeId="1763712338172395709" varName="face" />
+      <varInfo nodeId="1763712338172395710" varName="face" />
     </scopeInfo>
     <scopeInfo nodeId="1763712338172395884" fileName="ConstraintsGraphProcessor.java" startLine="254" startPosition="5" endLine="260" endPosition="5">
-      <varInfo nodeId="1763712338172395884" varName="node" />
+      <varInfo nodeId="1763712338172395885" varName="node" />
     </scopeInfo>
     <scopeInfo nodeId="1763712338172396517" fileName="ConstraintsGraphProcessor.java" startLine="387" startPosition="65" endLine="393" endPosition="7">
       <varInfo nodeId="1763712338172396519" varName="newEdge" />
     </scopeInfo>
     <scopeInfo nodeId="1763712338172396728" fileName="ConstraintsGraphProcessor.java" startLine="434" startPosition="41" endLine="440" endPosition="5">
-      <varInfo nodeId="1763712338172396728" varName="nodeList" />
+      <varInfo nodeId="1763712338172396729" varName="nodeList" />
     </scopeInfo>
     <scopeInfo nodeId="1763712338172397152" fileName="ConstraintsGraphProcessor.java" startLine="541" startPosition="46" endLine="547" endPosition="7" />
     <scopeInfo nodeId="1763712338172395139" fileName="ConstraintsGraphProcessor.java" startLine="82" startPosition="71" endLine="89" endPosition="9">
-      <varInfo nodeId="1763712338172395139" varName="edge" />
+      <varInfo nodeId="1763712338172395140" varName="edge" />
     </scopeInfo>
     <scopeInfo nodeId="1763712338172395222" fileName="ConstraintsGraphProcessor.java" startLine="103" startPosition="7" endLine="110" endPosition="7">
-      <varInfo nodeId="1763712338172395222" varName="dart" />
+      <varInfo nodeId="1763712338172395223" varName="dart" />
     </scopeInfo>
     <scopeInfo nodeId="1763712338172395652" fileName="ConstraintsGraphProcessor.java" startLine="195" startPosition="52" endLine="202" endPosition="7" />
     <scopeInfo nodeId="1763712338172395653" fileName="ConstraintsGraphProcessor.java" startLine="195" startPosition="52" endLine="202" endPosition="7">
-      <varInfo nodeId="1763712338172395653" varName="dart" />
+      <varInfo nodeId="1763712338172395654" varName="dart" />
     </scopeInfo>
     <scopeInfo nodeId="1763712338172395731" fileName="ConstraintsGraphProcessor.java" startLine="217" startPosition="46" endLine="224" endPosition="26" />
     <scopeInfo nodeId="1763712338172396262" fileName="ConstraintsGraphProcessor.java" startLine="323" startPosition="14" endLine="330" endPosition="9" />
@@ -778,14 +778,14 @@
       <varInfo nodeId="1763712338172395458" varName="faceNodes" />
     </scopeInfo>
     <scopeInfo nodeId="1763712338172395531" fileName="ConstraintsGraphProcessor.java" startLine="171" startPosition="57" endLine="179" endPosition="9">
-      <varInfo nodeId="1763712338172395531" varName="dart" />
+      <varInfo nodeId="1763712338172395532" varName="dart" />
     </scopeInfo>
     <scopeInfo nodeId="1763712338172396221" fileName="ConstraintsGraphProcessor.java" startLine="314" startPosition="193" endLine="322" endPosition="22" />
     <scopeInfo nodeId="1763712338172396512" fileName="ConstraintsGraphProcessor.java" startLine="386" startPosition="77" endLine="394" endPosition="5">
-      <varInfo nodeId="1763712338172396512" varName="edge" />
+      <varInfo nodeId="1763712338172396513" varName="edge" />
     </scopeInfo>
     <scopeInfo nodeId="1763712338172395649" fileName="ConstraintsGraphProcessor.java" startLine="194" startPosition="58" endLine="203" endPosition="5">
-      <varInfo nodeId="1763712338172395649" varName="edge" />
+      <varInfo nodeId="1763712338172395650" varName="edge" />
     </scopeInfo>
     <scopeInfo nodeId="1763712338172395762" fileName="ConstraintsGraphProcessor.java" startLine="228" startPosition="44" endLine="237" endPosition="23">
       <varInfo nodeId="1763712338172395778" varName="coordinates" />
@@ -800,7 +800,7 @@
       <varInfo nodeId="1763712338172395423" varName="i" />
     </scopeInfo>
     <scopeInfo nodeId="1763712338172395453" fileName="ConstraintsGraphProcessor.java" startLine="150" startPosition="34" endLine="160" endPosition="7">
-      <varInfo nodeId="1763712338172395453" varName="newFace" />
+      <varInfo nodeId="1763712338172395454" varName="newFace" />
     </scopeInfo>
     <scopeInfo nodeId="1763712338172395530" fileName="ConstraintsGraphProcessor.java" startLine="171" startPosition="57" endLine="181" endPosition="41" />
     <scopeInfo nodeId="1763712338172396857" fileName="ConstraintsGraphProcessor.java" startLine="468" startPosition="0" endLine="478" endPosition="0">
@@ -814,7 +814,7 @@
       <varInfo nodeId="1763712338172396972" varName="nodeMap" />
     </scopeInfo>
     <scopeInfo nodeId="1763712338172395527" fileName="ConstraintsGraphProcessor.java" startLine="170" startPosition="27" endLine="182" endPosition="7">
-      <varInfo nodeId="1763712338172395527" varName="edge" />
+      <varInfo nodeId="1763712338172395528" varName="edge" />
     </scopeInfo>
     <scopeInfo nodeId="1763712338172395757" fileName="ConstraintsGraphProcessor.java" startLine="227" startPosition="0" endLine="239" endPosition="0" />
     <scopeInfo nodeId="1763712338172396622" fileName="ConstraintsGraphProcessor.java" startLine="411" startPosition="93" endLine="423" endPosition="16">
@@ -827,7 +827,7 @@
     </scopeInfo>
     <scopeInfo nodeId="1763712338172395199" fileName="ConstraintsGraphProcessor.java" startLine="98" startPosition="24" endLine="111" endPosition="5" />
     <scopeInfo nodeId="1763712338172395200" fileName="ConstraintsGraphProcessor.java" startLine="98" startPosition="24" endLine="111" endPosition="5">
-      <varInfo nodeId="1763712338172395200" varName="face" />
+      <varInfo nodeId="1763712338172395201" varName="face" />
     </scopeInfo>
     <scopeInfo nodeId="1763712338172397087" fileName="ConstraintsGraphProcessor.java" startLine="526" startPosition="52" endLine="539" endPosition="7">
       <varInfo nodeId="1763712338172397089" varName="dart" />
@@ -855,7 +855,7 @@
       <varInfo nodeId="1763712338172396920" varName="verNodes" />
     </scopeInfo>
     <scopeInfo nodeId="1763712338172397084" fileName="ConstraintsGraphProcessor.java" startLine="525" startPosition="30" endLine="540" endPosition="5">
-      <varInfo nodeId="1763712338172397084" varName="node" />
+      <varInfo nodeId="1763712338172397085" varName="node" />
     </scopeInfo>
     <scopeInfo nodeId="1763712338172395196" fileName="ConstraintsGraphProcessor.java" startLine="97" startPosition="0" endLine="113" endPosition="0" />
     <scopeInfo nodeId="1763712338172395706" fileName="ConstraintsGraphProcessor.java" startLine="209" startPosition="32" endLine="225" endPosition="5" />
@@ -873,7 +873,7 @@
       <varInfo nodeId="1763712338172395627" varName="targetDart" />
     </scopeInfo>
     <scopeInfo nodeId="1763712338172396048" fileName="ConstraintsGraphProcessor.java" startLine="281" startPosition="24" endLine="299" endPosition="5">
-      <varInfo nodeId="1763712338172396048" varName="dart" />
+      <varInfo nodeId="1763712338172396049" varName="dart" />
     </scopeInfo>
     <scopeInfo nodeId="1763712338172396202" fileName="ConstraintsGraphProcessor.java" startLine="313" startPosition="57" endLine="331" endPosition="7" />
     <scopeInfo nodeId="1763712338172396685" fileName="ConstraintsGraphProcessor.java" startLine="425" startPosition="0" endLine="443" endPosition="0">
@@ -892,7 +892,7 @@
     <scopeInfo nodeId="1763712338172395703" fileName="ConstraintsGraphProcessor.java" startLine="208" startPosition="0" endLine="227" endPosition="0" />
     <scopeInfo nodeId="1763712338172396767" fileName="ConstraintsGraphProcessor.java" startLine="445" startPosition="81" endLine="465" endPosition="7" />
     <scopeInfo nodeId="1763712338172396768" fileName="ConstraintsGraphProcessor.java" startLine="445" startPosition="81" endLine="465" endPosition="7">
-      <varInfo nodeId="1763712338172396768" varName="verSeg" />
+      <varInfo nodeId="1763712338172396769" varName="verSeg" />
     </scopeInfo>
     <scopeInfo nodeId="1763712338172395067" fileName="ConstraintsGraphProcessor.java" startLine="69" startPosition="60" endLine="90" endPosition="7">
       <varInfo nodeId="1763712338172395069" varName="oldEdges" />
@@ -908,10 +908,10 @@
     </scopeInfo>
     <scopeInfo nodeId="1763712338172396761" fileName="ConstraintsGraphProcessor.java" startLine="444" startPosition="36" endLine="466" endPosition="5" />
     <scopeInfo nodeId="1763712338172396762" fileName="ConstraintsGraphProcessor.java" startLine="444" startPosition="36" endLine="466" endPosition="5">
-      <varInfo nodeId="1763712338172396762" varName="horSeg" />
+      <varInfo nodeId="1763712338172396763" varName="horSeg" />
     </scopeInfo>
     <scopeInfo nodeId="1763712338172395064" fileName="ConstraintsGraphProcessor.java" startLine="68" startPosition="70" endLine="91" endPosition="5">
-      <varInfo nodeId="1763712338172395064" varName="node" />
+      <varInfo nodeId="1763712338172395065" varName="node" />
     </scopeInfo>
     <scopeInfo nodeId="1763712338172396322" fileName="ConstraintsGraphProcessor.java" startLine="342" startPosition="0" endLine="367" endPosition="0">
       <varInfo nodeId="1763712338172396421" varName="direction" />
@@ -1386,70 +1386,70 @@
       <varInfo nodeId="5626844973118488194" varName="copyNode" />
     </scopeInfo>
     <scopeInfo nodeId="5626844973118488240" fileName="OrthogonalFlowLabelProcessing.java" startLine="60" startPosition="5" endLine="63" endPosition="5">
-      <varInfo nodeId="5626844973118488240" varName="edge" />
+      <varInfo nodeId="5626844973118488241" varName="edge" />
     </scopeInfo>
     <scopeInfo nodeId="5626844973118488269" fileName="OrthogonalFlowLabelProcessing.java" startLine="65" startPosition="69" endLine="68" endPosition="5">
-      <varInfo nodeId="5626844973118488269" varName="node" />
+      <varInfo nodeId="5626844973118488270" varName="node" />
     </scopeInfo>
     <scopeInfo nodeId="5626844973118488331" fileName="OrthogonalFlowLabelProcessing.java" startLine="77" startPosition="5" endLine="80" endPosition="5">
-      <varInfo nodeId="5626844973118488331" varName="edge" />
+      <varInfo nodeId="5626844973118488332" varName="edge" />
     </scopeInfo>
     <scopeInfo nodeId="5626844973118488467" fileName="OrthogonalFlowLabelProcessing.java" startLine="100" startPosition="90" endLine="103" endPosition="5">
-      <varInfo nodeId="5626844973118488467" varName="edge" />
+      <varInfo nodeId="5626844973118488468" varName="edge" />
     </scopeInfo>
     <scopeInfo nodeId="5626844973118488496" fileName="OrthogonalFlowLabelProcessing.java" startLine="105" startPosition="76" endLine="108" endPosition="5">
-      <varInfo nodeId="5626844973118488496" varName="node" />
+      <varInfo nodeId="5626844973118488497" varName="node" />
     </scopeInfo>
     <scopeInfo nodeId="5626844973118488571" fileName="OrthogonalFlowLabelProcessing.java" startLine="121" startPosition="5" endLine="124" endPosition="5">
-      <varInfo nodeId="5626844973118488571" varName="edge" />
+      <varInfo nodeId="5626844973118488572" varName="edge" />
     </scopeInfo>
     <scopeInfo nodeId="5626844973118488710" fileName="OrthogonalFlowLabelProcessing.java" startLine="147" startPosition="44" endLine="150" endPosition="7">
-      <varInfo nodeId="5626844973118488710" varName="modification" />
+      <varInfo nodeId="5626844973118488711" varName="modification" />
     </scopeInfo>
     <scopeInfo nodeId="5626844973118488818" fileName="OrthogonalFlowLabelProcessing.java" startLine="167" startPosition="101" endLine="170" endPosition="5">
-      <varInfo nodeId="5626844973118488818" varName="node" />
+      <varInfo nodeId="5626844973118488819" varName="node" />
     </scopeInfo>
     <scopeInfo nodeId="5626844973118488841" fileName="OrthogonalFlowLabelProcessing.java" startLine="171" startPosition="97" endLine="174" endPosition="5">
-      <varInfo nodeId="5626844973118488841" varName="node" />
+      <varInfo nodeId="5626844973118488842" varName="node" />
     </scopeInfo>
     <scopeInfo nodeId="5626844973118488855" fileName="OrthogonalFlowLabelProcessing.java" startLine="174" startPosition="5" endLine="177" endPosition="5">
-      <varInfo nodeId="5626844973118488855" varName="node" />
+      <varInfo nodeId="5626844973118488856" varName="node" />
     </scopeInfo>
     <scopeInfo nodeId="5626844973118489058" fileName="OrthogonalFlowLabelProcessing.java" startLine="208" startPosition="63" endLine="211" endPosition="19">
       <varInfo nodeId="5626844973118489060" varName="next" />
     </scopeInfo>
     <scopeInfo nodeId="5626844973118489197" fileName="OrthogonalFlowLabelProcessing.java" startLine="230" startPosition="5" endLine="233" endPosition="5">
-      <varInfo nodeId="5626844973118489197" varName="modification" />
+      <varInfo nodeId="5626844973118489198" varName="modification" />
     </scopeInfo>
     <scopeInfo nodeId="5626844973118489414" fileName="OrthogonalFlowLabelProcessing.java" startLine="271" startPosition="44" endLine="274" endPosition="7">
-      <varInfo nodeId="5626844973118489414" varName="modification" />
+      <varInfo nodeId="5626844973118489415" varName="modification" />
     </scopeInfo>
     <scopeInfo nodeId="5626844973118489564" fileName="OrthogonalFlowLabelProcessing.java" startLine="299" startPosition="63" endLine="302" endPosition="19">
       <varInfo nodeId="5626844973118489566" varName="next" />
     </scopeInfo>
     <scopeInfo nodeId="5626844973118489703" fileName="OrthogonalFlowLabelProcessing.java" startLine="321" startPosition="5" endLine="324" endPosition="5">
-      <varInfo nodeId="5626844973118489703" varName="modification" />
+      <varInfo nodeId="5626844973118489704" varName="modification" />
     </scopeInfo>
     <scopeInfo nodeId="5626844973118489791" fileName="OrthogonalFlowLabelProcessing.java" startLine="336" startPosition="85" endLine="339" endPosition="58">
       <varInfo nodeId="5626844973118489793" varName="newEdges" />
     </scopeInfo>
     <scopeInfo nodeId="5626844973118489824" fileName="OrthogonalFlowLabelProcessing.java" startLine="341" startPosition="97" endLine="344" endPosition="5">
-      <varInfo nodeId="5626844973118489824" varName="edge" />
+      <varInfo nodeId="5626844973118489825" varName="edge" />
     </scopeInfo>
     <scopeInfo nodeId="5626844973118489895" fileName="OrthogonalFlowLabelProcessing.java" startLine="352" startPosition="76" endLine="355" endPosition="5">
-      <varInfo nodeId="5626844973118489895" varName="node" />
+      <varInfo nodeId="5626844973118489896" varName="node" />
     </scopeInfo>
     <scopeInfo nodeId="5626844973118489908" fileName="OrthogonalFlowLabelProcessing.java" startLine="355" startPosition="5" endLine="358" endPosition="5">
-      <varInfo nodeId="5626844973118489908" varName="edge" />
+      <varInfo nodeId="5626844973118489909" varName="edge" />
     </scopeInfo>
     <scopeInfo nodeId="5626844973118490427" fileName="OrthogonalFlowLabelProcessing.java" startLine="440" startPosition="39" endLine="443" endPosition="7">
-      <varInfo nodeId="5626844973118490427" varName="point" />
+      <varInfo nodeId="5626844973118490428" varName="point" />
     </scopeInfo>
     <scopeInfo nodeId="5626844973118488213" fileName="OrthogonalFlowLabelProcessing.java" startLine="56" startPosition="5" endLine="60" endPosition="5">
-      <varInfo nodeId="5626844973118488213" varName="edge" />
+      <varInfo nodeId="5626844973118488214" varName="edge" />
     </scopeInfo>
     <scopeInfo nodeId="5626844973118488436" fileName="OrthogonalFlowLabelProcessing.java" startLine="95" startPosition="81" endLine="99" endPosition="5">
-      <varInfo nodeId="5626844973118488436" varName="edge" />
+      <varInfo nodeId="5626844973118488437" varName="edge" />
     </scopeInfo>
     <scopeInfo nodeId="5626844973118488600" fileName="OrthogonalFlowLabelProcessing.java" startLine="127" startPosition="0" endLine="131" endPosition="0">
       <varInfo nodeId="5626844973118488612" varName="edges" />
@@ -1460,20 +1460,20 @@
       <varInfo nodeId="5626844973118488780" varName="node" />
     </scopeInfo>
     <scopeInfo nodeId="5626844973118488889" fileName="OrthogonalFlowLabelProcessing.java" startLine="179" startPosition="86" endLine="183" endPosition="5">
-      <varInfo nodeId="5626844973118488889" varName="initialEdge" />
+      <varInfo nodeId="5626844973118488890" varName="initialEdge" />
     </scopeInfo>
     <scopeInfo nodeId="5626844973118488971" fileName="OrthogonalFlowLabelProcessing.java" startLine="192" startPosition="74" endLine="196" endPosition="5">
-      <varInfo nodeId="5626844973118488971" varName="node" />
+      <varInfo nodeId="5626844973118488972" varName="node" />
     </scopeInfo>
     <scopeInfo nodeId="5626844973118488989" fileName="OrthogonalFlowLabelProcessing.java" startLine="196" startPosition="5" endLine="200" endPosition="5">
-      <varInfo nodeId="5626844973118488989" varName="edge" />
+      <varInfo nodeId="5626844973118488990" varName="edge" />
     </scopeInfo>
     <scopeInfo nodeId="5626844973118489408" fileName="OrthogonalFlowLabelProcessing.java" startLine="270" startPosition="54" endLine="274" endPosition="7" />
     <scopeInfo nodeId="5626844973118489499" fileName="OrthogonalFlowLabelProcessing.java" startLine="287" startPosition="74" endLine="291" endPosition="5">
-      <varInfo nodeId="5626844973118489499" varName="node" />
+      <varInfo nodeId="5626844973118489500" varName="node" />
     </scopeInfo>
     <scopeInfo nodeId="5626844973118489858" fileName="OrthogonalFlowLabelProcessing.java" startLine="346" startPosition="95" endLine="350" endPosition="5">
-      <varInfo nodeId="5626844973118489858" varName="node" />
+      <varInfo nodeId="5626844973118489859" varName="node" />
     </scopeInfo>
     <scopeInfo nodeId="5626844973118489932" fileName="OrthogonalFlowLabelProcessing.java" startLine="360" startPosition="62" endLine="364" endPosition="53">
       <varInfo nodeId="5626844973118489941" varName="edgeLayout" />
@@ -1485,26 +1485,26 @@
       <varInfo nodeId="5626844973118490016" varName="sizes" />
     </scopeInfo>
     <scopeInfo nodeId="5626844973118490227" fileName="OrthogonalFlowLabelProcessing.java" startLine="405" startPosition="23" endLine="409" endPosition="7">
-      <varInfo nodeId="5626844973118490227" varName="edge" />
+      <varInfo nodeId="5626844973118490228" varName="edge" />
     </scopeInfo>
     <scopeInfo nodeId="5626844973118488187" fileName="OrthogonalFlowLabelProcessing.java" startLine="51" startPosition="94" endLine="56" endPosition="5">
-      <varInfo nodeId="5626844973118488187" varName="node" />
+      <varInfo nodeId="5626844973118488188" varName="node" />
     </scopeInfo>
     <scopeInfo nodeId="5626844973118489055" fileName="OrthogonalFlowLabelProcessing.java" startLine="207" startPosition="105" endLine="212" endPosition="7">
-      <varInfo nodeId="5626844973118489055" varName="historyEdge" />
+      <varInfo nodeId="5626844973118489056" varName="historyEdge" />
     </scopeInfo>
     <scopeInfo nodeId="5626844973118489285" fileName="OrthogonalFlowLabelProcessing.java" startLine="245" startPosition="77" endLine="250" endPosition="9" />
     <scopeInfo nodeId="5626844973118489561" fileName="OrthogonalFlowLabelProcessing.java" startLine="298" startPosition="105" endLine="303" endPosition="7">
-      <varInfo nodeId="5626844973118489561" varName="historyEdge" />
+      <varInfo nodeId="5626844973118489562" varName="historyEdge" />
     </scopeInfo>
     <scopeInfo nodeId="5626844973118489786" fileName="OrthogonalFlowLabelProcessing.java" startLine="335" startPosition="92" endLine="340" endPosition="5">
-      <varInfo nodeId="5626844973118489786" varName="edge" />
+      <varInfo nodeId="5626844973118489787" varName="edge" />
     </scopeInfo>
     <scopeInfo nodeId="5626844973118488531" fileName="OrthogonalFlowLabelProcessing.java" startLine="112" startPosition="94" endLine="118" endPosition="43">
       <varInfo nodeId="5626844973118488533" varName="historyLayout" />
     </scopeInfo>
     <scopeInfo nodeId="5626844973118488765" fileName="OrthogonalFlowLabelProcessing.java" startLine="159" startPosition="94" endLine="165" endPosition="5">
-      <varInfo nodeId="5626844973118488765" varName="edge" />
+      <varInfo nodeId="5626844973118488766" varName="edge" />
     </scopeInfo>
     <scopeInfo nodeId="5626844973118489080" fileName="OrthogonalFlowLabelProcessing.java" startLine="213" startPosition="61" endLine="219" endPosition="66">
       <varInfo nodeId="5626844973118489082" varName="dir" />
@@ -1532,7 +1532,7 @@
     </scopeInfo>
     <scopeInfo nodeId="5626844973118489278" fileName="OrthogonalFlowLabelProcessing.java" startLine="244" startPosition="52" endLine="251" endPosition="7" />
     <scopeInfo nodeId="5626844973118489279" fileName="OrthogonalFlowLabelProcessing.java" startLine="244" startPosition="52" endLine="251" endPosition="7">
-      <varInfo nodeId="5626844973118489279" varName="dart" />
+      <varInfo nodeId="5626844973118489280" varName="dart" />
     </scopeInfo>
     <scopeInfo nodeId="5626844973118489989" fileName="OrthogonalFlowLabelProcessing.java" startLine="371" startPosition="0" endLine="378" endPosition="0">
       <varInfo nodeId="5626844973118489992" varName="coordinates" />
@@ -1541,14 +1541,14 @@
       <varInfo nodeId="5626844973118490004" varName="nodeSizes" />
     </scopeInfo>
     <scopeInfo nodeId="5626844973118488526" fileName="OrthogonalFlowLabelProcessing.java" startLine="111" startPosition="34" endLine="119" endPosition="7">
-      <varInfo nodeId="5626844973118488526" varName="historyEdge" />
+      <varInfo nodeId="5626844973118488527" varName="historyEdge" />
     </scopeInfo>
     <scopeInfo nodeId="5626844973118489926" fileName="OrthogonalFlowLabelProcessing.java" startLine="359" startPosition="55" endLine="367" endPosition="7" />
     <scopeInfo nodeId="5626844973118488286" fileName="OrthogonalFlowLabelProcessing.java" startLine="68" startPosition="5" endLine="77" endPosition="5">
-      <varInfo nodeId="5626844973118488286" varName="edge" />
+      <varInfo nodeId="5626844973118488287" varName="edge" />
     </scopeInfo>
     <scopeInfo nodeId="5626844973118489275" fileName="OrthogonalFlowLabelProcessing.java" startLine="243" startPosition="56" endLine="252" endPosition="5">
-      <varInfo nodeId="5626844973118489275" varName="edge" />
+      <varInfo nodeId="5626844973118489276" varName="edge" />
     </scopeInfo>
     <scopeInfo nodeId="5626844973118490082" fileName="OrthogonalFlowLabelProcessing.java" startLine="381" startPosition="84" endLine="390" endPosition="72">
       <varInfo nodeId="5626844973118490084" varName="directionSizes" />
@@ -1557,14 +1557,14 @@
       <varInfo nodeId="5626844973118490123" varName="verSize" />
     </scopeInfo>
     <scopeInfo nodeId="5626844973118489923" fileName="OrthogonalFlowLabelProcessing.java" startLine="358" startPosition="5" endLine="368" endPosition="5">
-      <varInfo nodeId="5626844973118489923" varName="edge" />
+      <varInfo nodeId="5626844973118489924" varName="edge" />
     </scopeInfo>
     <scopeInfo nodeId="5626844973118488512" fileName="OrthogonalFlowLabelProcessing.java" startLine="109" startPosition="57" endLine="120" endPosition="51">
       <varInfo nodeId="5626844973118488521" varName="cur" />
       <varInfo nodeId="5626844973118488514" varName="edgeLayout" />
     </scopeInfo>
     <scopeInfo nodeId="5626844973118490077" fileName="OrthogonalFlowLabelProcessing.java" startLine="380" startPosition="130" endLine="391" endPosition="5">
-      <varInfo nodeId="5626844973118490077" varName="node" />
+      <varInfo nodeId="5626844973118490078" varName="node" />
     </scopeInfo>
     <scopeInfo nodeId="5626844973118490172" fileName="OrthogonalFlowLabelProcessing.java" startLine="397" startPosition="104" endLine="409" endPosition="7">
       <varInfo nodeId="5626844973118490224" varName="curShift" />
@@ -1576,7 +1576,7 @@
       <varInfo nodeId="5626844973118490216" varName="unitShift" />
     </scopeInfo>
     <scopeInfo nodeId="5626844973118488509" fileName="OrthogonalFlowLabelProcessing.java" startLine="108" startPosition="5" endLine="121" endPosition="5">
-      <varInfo nodeId="5626844973118488509" varName="edge" />
+      <varInfo nodeId="5626844973118488510" varName="edge" />
     </scopeInfo>
     <scopeInfo nodeId="5626844973118490063" fileName="OrthogonalFlowLabelProcessing.java" startLine="379" startPosition="102" endLine="392" endPosition="30">
       <varInfo nodeId="5626844973118490065" varName="nodeDirectionSizes" />
@@ -1587,10 +1587,10 @@
       <varInfo nodeId="5626844973118490375" varName="pointsToShift" />
     </scopeInfo>
     <scopeInfo nodeId="5626844973118490169" fileName="OrthogonalFlowLabelProcessing.java" startLine="396" startPosition="86" endLine="410" endPosition="5">
-      <varInfo nodeId="5626844973118490169" varName="modification" />
+      <varInfo nodeId="5626844973118490170" varName="modification" />
     </scopeInfo>
     <scopeInfo nodeId="5626844973118490357" fileName="OrthogonalFlowLabelProcessing.java" startLine="429" startPosition="93" endLine="444" endPosition="5">
-      <varInfo nodeId="5626844973118490357" varName="edge" />
+      <varInfo nodeId="5626844973118490358" varName="edge" />
     </scopeInfo>
     <scopeInfo nodeId="5626844973118489231" fileName="OrthogonalFlowLabelProcessing.java" startLine="237" startPosition="104" endLine="253" endPosition="16">
       <varInfo nodeId="5626844973118489261" varName="edges" />
@@ -1631,10 +1631,10 @@
       <varInfo nodeId="5626844973118489528" varName="target" />
     </scopeInfo>
     <scopeInfo nodeId="5626844973118489011" fileName="OrthogonalFlowLabelProcessing.java" startLine="200" startPosition="5" endLine="230" endPosition="5">
-      <varInfo nodeId="5626844973118489011" varName="edge" />
+      <varInfo nodeId="5626844973118489012" varName="edge" />
     </scopeInfo>
     <scopeInfo nodeId="5626844973118489517" fileName="OrthogonalFlowLabelProcessing.java" startLine="291" startPosition="5" endLine="321" endPosition="5">
-      <varInfo nodeId="5626844973118489517" varName="edge" />
+      <varInfo nodeId="5626844973118489518" varName="edge" />
     </scopeInfo>
     <scopeInfo nodeId="5626844973118490259" fileName="OrthogonalFlowLabelProcessing.java" startLine="414" startPosition="133" endLine="444" endPosition="5">
       <varInfo nodeId="5626844973118490288" varName="dartsDir" />
@@ -2002,41 +2002,41 @@
       <varInfo nodeId="5626844973118490520" varName="copyNode" />
     </scopeInfo>
     <scopeInfo nodeId="5626844973118490539" fileName="OrthogonalFlowLayouterConstraints.java" startLine="55" startPosition="5" endLine="58" endPosition="5">
-      <varInfo nodeId="5626844973118490539" varName="edge" />
+      <varInfo nodeId="5626844973118490540" varName="edge" />
     </scopeInfo>
     <scopeInfo nodeId="5626844973118490574" fileName="OrthogonalFlowLayouterConstraints.java" startLine="60" startPosition="69" endLine="63" endPosition="5">
-      <varInfo nodeId="5626844973118490574" varName="node" />
+      <varInfo nodeId="5626844973118490575" varName="node" />
     </scopeInfo>
     <scopeInfo nodeId="5626844973118490715" fileName="OrthogonalFlowLayouterConstraints.java" startLine="86" startPosition="89" endLine="89" endPosition="5">
-      <varInfo nodeId="5626844973118490715" varName="edge" />
+      <varInfo nodeId="5626844973118490716" varName="edge" />
     </scopeInfo>
     <scopeInfo nodeId="5626844973118490740" fileName="OrthogonalFlowLayouterConstraints.java" startLine="91" startPosition="76" endLine="94" endPosition="5">
-      <varInfo nodeId="5626844973118490740" varName="node" />
+      <varInfo nodeId="5626844973118490741" varName="node" />
     </scopeInfo>
     <scopeInfo nodeId="5626844973118490918" fileName="OrthogonalFlowLayouterConstraints.java" startLine="126" startPosition="44" endLine="129" endPosition="7">
-      <varInfo nodeId="5626844973118490918" varName="modification" />
+      <varInfo nodeId="5626844973118490919" varName="modification" />
     </scopeInfo>
     <scopeInfo nodeId="5626844973118491117" fileName="OrthogonalFlowLayouterConstraints.java" startLine="158" startPosition="63" endLine="161" endPosition="19">
       <varInfo nodeId="5626844973118491119" varName="next" />
     </scopeInfo>
     <scopeInfo nodeId="5626844973118491256" fileName="OrthogonalFlowLayouterConstraints.java" startLine="180" startPosition="5" endLine="183" endPosition="5">
-      <varInfo nodeId="5626844973118491256" varName="modification" />
+      <varInfo nodeId="5626844973118491257" varName="modification" />
     </scopeInfo>
     <scopeInfo nodeId="5626844973118491664" fileName="OrthogonalFlowLayouterConstraints.java" startLine="252" startPosition="39" endLine="255" endPosition="7">
-      <varInfo nodeId="5626844973118491664" varName="point" />
+      <varInfo nodeId="5626844973118491665" varName="point" />
     </scopeInfo>
     <scopeInfo nodeId="5626844973118491896" fileName="OrthogonalFlowLayouterConstraints.java" startLine="292" startPosition="9" endLine="295" endPosition="9">
-      <varInfo nodeId="5626844973118491896" varName="point" />
+      <varInfo nodeId="5626844973118491897" varName="point" />
     </scopeInfo>
     <scopeInfo nodeId="5626844973118490912" fileName="OrthogonalFlowLayouterConstraints.java" startLine="125" startPosition="57" endLine="129" endPosition="7" />
     <scopeInfo nodeId="5626844973118491466" fileName="OrthogonalFlowLayouterConstraints.java" startLine="217" startPosition="23" endLine="221" endPosition="7">
-      <varInfo nodeId="5626844973118491466" varName="edge" />
+      <varInfo nodeId="5626844973118491467" varName="edge" />
     </scopeInfo>
     <scopeInfo nodeId="5626844973118491918" fileName="OrthogonalFlowLayouterConstraints.java" startLine="300" startPosition="0" endLine="304" endPosition="0">
       <varInfo nodeId="5626844973118491926" varName="unitLength" />
     </scopeInfo>
     <scopeInfo nodeId="5626844973118490513" fileName="OrthogonalFlowLayouterConstraints.java" startLine="50" startPosition="118" endLine="55" endPosition="5">
-      <varInfo nodeId="5626844973118490513" varName="node" />
+      <varInfo nodeId="5626844973118490514" varName="node" />
     </scopeInfo>
     <scopeInfo nodeId="5626844973118491018" fileName="OrthogonalFlowLayouterConstraints.java" startLine="144" startPosition="55" endLine="149" endPosition="43">
       <varInfo nodeId="5626844973118491020" varName="center" />
@@ -2045,7 +2045,7 @@
       <varInfo nodeId="5626844973118491026" varName="sizes" />
     </scopeInfo>
     <scopeInfo nodeId="5626844973118491114" fileName="OrthogonalFlowLayouterConstraints.java" startLine="157" startPosition="105" endLine="162" endPosition="7">
-      <varInfo nodeId="5626844973118491114" varName="historyEdge" />
+      <varInfo nodeId="5626844973118491115" varName="historyEdge" />
     </scopeInfo>
     <scopeInfo nodeId="5626844973118490775" fileName="OrthogonalFlowLayouterConstraints.java" startLine="98" startPosition="94" endLine="104" endPosition="43">
       <varInfo nodeId="5626844973118490777" varName="historyLayout" />
@@ -2065,13 +2065,13 @@
       <varInfo nodeId="5626844973118490604" varName="copyEdgeLayout" />
     </scopeInfo>
     <scopeInfo nodeId="5626844973118491015" fileName="OrthogonalFlowLayouterConstraints.java" startLine="143" startPosition="74" endLine="150" endPosition="5">
-      <varInfo nodeId="5626844973118491015" varName="node" />
+      <varInfo nodeId="5626844973118491016" varName="node" />
     </scopeInfo>
     <scopeInfo nodeId="5626844973118490770" fileName="OrthogonalFlowLayouterConstraints.java" startLine="97" startPosition="34" endLine="105" endPosition="7">
-      <varInfo nodeId="5626844973118490770" varName="historyEdge" />
+      <varInfo nodeId="5626844973118490771" varName="historyEdge" />
     </scopeInfo>
     <scopeInfo nodeId="5626844973118490591" fileName="OrthogonalFlowLayouterConstraints.java" startLine="63" startPosition="5" endLine="72" endPosition="5">
-      <varInfo nodeId="5626844973118490591" varName="edge" />
+      <varInfo nodeId="5626844973118490592" varName="edge" />
     </scopeInfo>
     <scopeInfo nodeId="5626844973118491306" fileName="OrthogonalFlowLayouterConstraints.java" startLine="189" startPosition="55" endLine="198" endPosition="72">
       <varInfo nodeId="5626844973118491308" varName="directionSizes" />
@@ -2084,14 +2084,14 @@
       <varInfo nodeId="5626844973118490758" varName="edgeLayout" />
     </scopeInfo>
     <scopeInfo nodeId="5626844973118491303" fileName="OrthogonalFlowLayouterConstraints.java" startLine="188" startPosition="130" endLine="199" endPosition="5">
-      <varInfo nodeId="5626844973118491303" varName="node" />
+      <varInfo nodeId="5626844973118491304" varName="node" />
     </scopeInfo>
     <scopeInfo nodeId="5626844973118491835" fileName="OrthogonalFlowLayouterConstraints.java" startLine="283" startPosition="57" endLine="295" endPosition="9">
       <varInfo nodeId="5626844973118491842" varName="edgeLayout" />
       <varInfo nodeId="5626844973118491850" varName="pointsToShift" />
     </scopeInfo>
     <scopeInfo nodeId="5626844973118490753" fileName="OrthogonalFlowLayouterConstraints.java" startLine="94" startPosition="5" endLine="107" endPosition="5">
-      <varInfo nodeId="5626844973118490753" varName="edge" />
+      <varInfo nodeId="5626844973118490754" varName="edge" />
     </scopeInfo>
     <scopeInfo nodeId="5626844973118491289" fileName="OrthogonalFlowLayouterConstraints.java" startLine="187" startPosition="123" endLine="200" endPosition="30">
       <varInfo nodeId="5626844973118491291" varName="nodeDirectionSizes" />
@@ -2102,7 +2102,7 @@
       <varInfo nodeId="5626844973118491612" varName="pointsToShift" />
     </scopeInfo>
     <scopeInfo nodeId="5626844973118491594" fileName="OrthogonalFlowLayouterConstraints.java" startLine="241" startPosition="93" endLine="256" endPosition="5">
-      <varInfo nodeId="5626844973118491594" varName="edge" />
+      <varInfo nodeId="5626844973118491595" varName="edge" />
     </scopeInfo>
     <scopeInfo nodeId="5626844973118491828" fileName="OrthogonalFlowLayouterConstraints.java" startLine="282" startPosition="52" endLine="297" endPosition="28" />
     <scopeInfo nodeId="5626844973118491275" fileName="OrthogonalFlowLayouterConstraints.java" startLine="186" startPosition="0" endLine="202" endPosition="0">
@@ -2118,10 +2118,10 @@
       <varInfo nodeId="5626844973118491455" varName="unitShift" />
     </scopeInfo>
     <scopeInfo nodeId="5626844973118491825" fileName="OrthogonalFlowLayouterConstraints.java" startLine="281" startPosition="21" endLine="298" endPosition="5">
-      <varInfo nodeId="5626844973118491825" varName="edge" />
+      <varInfo nodeId="5626844973118491826" varName="edge" />
     </scopeInfo>
     <scopeInfo nodeId="5626844973118491393" fileName="OrthogonalFlowLayouterConstraints.java" startLine="204" startPosition="86" endLine="222" endPosition="5">
-      <varInfo nodeId="5626844973118491393" varName="modification" />
+      <varInfo nodeId="5626844973118491394" varName="modification" />
     </scopeInfo>
     <scopeInfo nodeId="5626844973118491383" fileName="OrthogonalFlowLayouterConstraints.java" startLine="203" startPosition="174" endLine="223" endPosition="22">
       <varInfo nodeId="5626844973118491385" varName="edgeShifts" />
@@ -2157,7 +2157,7 @@
       <varInfo nodeId="5626844973118490729" varName="layout" />
     </scopeInfo>
     <scopeInfo nodeId="5626844973118491070" fileName="OrthogonalFlowLayouterConstraints.java" startLine="150" startPosition="5" endLine="180" endPosition="5">
-      <varInfo nodeId="5626844973118491070" varName="edge" />
+      <varInfo nodeId="5626844973118491071" varName="edge" />
     </scopeInfo>
     <scopeInfo nodeId="5626844973118491496" fileName="OrthogonalFlowLayouterConstraints.java" startLine="226" startPosition="133" endLine="256" endPosition="5">
       <varInfo nodeId="5626844973118491525" varName="dartsDir" />
@@ -2356,19 +2356,19 @@
     <scopeInfo nodeId="5626844973118492354" fileName="OrthogonalPointFlowLayouter.java" startLine="109" startPosition="51" endLine="111" endPosition="32" />
     <scopeInfo nodeId="5626844973118492431" fileName="OrthogonalPointFlowLayouter.java" startLine="124" startPosition="51" endLine="126" endPosition="66" />
     <scopeInfo nodeId="5626844973118492014" fileName="OrthogonalPointFlowLayouter.java" startLine="49" startPosition="77" endLine="52" endPosition="5">
-      <varInfo nodeId="5626844973118492014" varName="node" />
+      <varInfo nodeId="5626844973118492015" varName="node" />
     </scopeInfo>
     <scopeInfo nodeId="5626844973118492028" fileName="OrthogonalPointFlowLayouter.java" startLine="52" startPosition="5" endLine="55" endPosition="5">
-      <varInfo nodeId="5626844973118492028" varName="edge" />
+      <varInfo nodeId="5626844973118492029" varName="edge" />
     </scopeInfo>
     <scopeInfo nodeId="5626844973118492177" fileName="OrthogonalPointFlowLayouter.java" startLine="75" startPosition="63" endLine="78" endPosition="5">
-      <varInfo nodeId="5626844973118492177" varName="node" />
+      <varInfo nodeId="5626844973118492178" varName="node" />
     </scopeInfo>
     <scopeInfo nodeId="5626844973118492369" fileName="OrthogonalPointFlowLayouter.java" startLine="113" startPosition="52" endLine="116" endPosition="24">
       <varInfo nodeId="5626844973118492371" varName="newTime" />
     </scopeInfo>
     <scopeInfo nodeId="5626844973118492545" fileName="OrthogonalPointFlowLayouter.java" startLine="143" startPosition="63" endLine="146" endPosition="5">
-      <varInfo nodeId="5626844973118492545" varName="node" />
+      <varInfo nodeId="5626844973118492546" varName="node" />
     </scopeInfo>
     <scopeInfo nodeId="5626844973118492592" fileName="OrthogonalPointFlowLayouter.java" startLine="152" startPosition="63" endLine="155" endPosition="19">
       <varInfo nodeId="5626844973118492594" varName="next" />
@@ -2377,7 +2377,7 @@
       <varInfo nodeId="5626844973118492620" varName="newTime" />
     </scopeInfo>
     <scopeInfo nodeId="5626844973118492679" fileName="OrthogonalPointFlowLayouter.java" startLine="172" startPosition="7" endLine="175" endPosition="7">
-      <varInfo nodeId="5626844973118492679" varName="dart" />
+      <varInfo nodeId="5626844973118492680" varName="dart" />
     </scopeInfo>
     <scopeInfo nodeId="5626844973118492120" fileName="OrthogonalPointFlowLayouter.java" startLine="68" startPosition="52" endLine="72" endPosition="24">
       <varInfo nodeId="5626844973118492122" varName="newTime" />
@@ -2386,17 +2386,17 @@
       <varInfo nodeId="5626844973118492447" varName="newTime" />
     </scopeInfo>
     <scopeInfo nodeId="5626844973118492589" fileName="OrthogonalPointFlowLayouter.java" startLine="151" startPosition="94" endLine="156" endPosition="7">
-      <varInfo nodeId="5626844973118492589" varName="historyEdge" />
+      <varInfo nodeId="5626844973118492590" varName="historyEdge" />
     </scopeInfo>
     <scopeInfo nodeId="5626844973118492080" fileName="OrthogonalPointFlowLayouter.java" startLine="60" startPosition="63" endLine="66" endPosition="7">
       <varInfo nodeId="5626844973118492082" varName="copyEdge" />
     </scopeInfo>
     <scopeInfo nodeId="5626844973118492225" fileName="OrthogonalPointFlowLayouter.java" startLine="83" startPosition="60" endLine="89" endPosition="36" />
     <scopeInfo nodeId="5626844973118492075" fileName="OrthogonalPointFlowLayouter.java" startLine="59" startPosition="89" endLine="67" endPosition="5">
-      <varInfo nodeId="5626844973118492075" varName="edge" />
+      <varInfo nodeId="5626844973118492076" varName="edge" />
     </scopeInfo>
     <scopeInfo nodeId="5626844973118492222" fileName="OrthogonalPointFlowLayouter.java" startLine="82" startPosition="73" endLine="90" endPosition="7">
-      <varInfo nodeId="5626844973118492222" varName="edge" />
+      <varInfo nodeId="5626844973118492223" varName="edge" />
     </scopeInfo>
     <scopeInfo nodeId="5626844973118492662" fileName="OrthogonalPointFlowLayouter.java" startLine="168" startPosition="71" endLine="176" endPosition="27" />
     <scopeInfo nodeId="5626844973118492560" fileName="OrthogonalPointFlowLayouter.java" startLine="147" startPosition="55" endLine="157" endPosition="49">
@@ -2406,7 +2406,7 @@
     </scopeInfo>
     <scopeInfo nodeId="5626844973118492656" fileName="OrthogonalPointFlowLayouter.java" startLine="167" startPosition="113" endLine="177" endPosition="5" />
     <scopeInfo nodeId="5626844973118492657" fileName="OrthogonalPointFlowLayouter.java" startLine="167" startPosition="113" endLine="177" endPosition="5">
-      <varInfo nodeId="5626844973118492657" varName="face" />
+      <varInfo nodeId="5626844973118492658" varName="face" />
     </scopeInfo>
     <scopeInfo nodeId="5626844973118492199" fileName="OrthogonalPointFlowLayouter.java" startLine="79" startPosition="68" endLine="91" endPosition="54">
       <varInfo nodeId="5626844973118492215" varName="cur" />
@@ -2414,14 +2414,14 @@
       <varInfo nodeId="5626844973118492201" varName="edgeLayout" />
     </scopeInfo>
     <scopeInfo nodeId="5626844973118492557" fileName="OrthogonalPointFlowLayouter.java" startLine="146" startPosition="5" endLine="158" endPosition="5">
-      <varInfo nodeId="5626844973118492557" varName="edge" />
+      <varInfo nodeId="5626844973118492558" varName="edge" />
     </scopeInfo>
     <scopeInfo nodeId="5626844973118492647" fileName="OrthogonalPointFlowLayouter.java" startLine="166" startPosition="0" endLine="179" endPosition="0">
       <varInfo nodeId="5626844973118492652" varName="directions" />
       <varInfo nodeId="5626844973118492650" varName="embeddedGraph" />
     </scopeInfo>
     <scopeInfo nodeId="5626844973118492194" fileName="OrthogonalPointFlowLayouter.java" startLine="78" startPosition="5" endLine="92" endPosition="5">
-      <varInfo nodeId="5626844973118492194" varName="graphEdge" />
+      <varInfo nodeId="5626844973118492195" varName="graphEdge" />
     </scopeInfo>
     <scopeInfo nodeId="5626844973118491956" fileName="OrthogonalPointFlowLayouter.java" startLine="41" startPosition="49" endLine="97" endPosition="23">
       <varInfo nodeId="5626844973118491992" varName="copy" />
@@ -2597,10 +2597,10 @@
     </scopeInfo>
     <scopeInfo nodeId="5626844973118493228" fileName="OrthogonalRectFlowLayouter.java" startLine="129" startPosition="50" endLine="131" endPosition="32" />
     <scopeInfo nodeId="5626844973118492740" fileName="OrthogonalRectFlowLayouter.java" startLine="44" startPosition="77" endLine="47" endPosition="5">
-      <varInfo nodeId="5626844973118492740" varName="node" />
+      <varInfo nodeId="5626844973118492741" varName="node" />
     </scopeInfo>
     <scopeInfo nodeId="5626844973118492754" fileName="OrthogonalRectFlowLayouter.java" startLine="47" startPosition="5" endLine="50" endPosition="5">
-      <varInfo nodeId="5626844973118492754" varName="edge" />
+      <varInfo nodeId="5626844973118492755" varName="edge" />
     </scopeInfo>
     <scopeInfo nodeId="5626844973118493397" fileName="OrthogonalRectFlowLayouter.java" startLine="159" startPosition="82" endLine="162" endPosition="43">
       <varInfo nodeId="5626844973118493399" varName="corners" />
@@ -2613,24 +2613,24 @@
       <varInfo nodeId="5626844973118492907" varName="last" />
     </scopeInfo>
     <scopeInfo nodeId="5626844973118493012" fileName="OrthogonalRectFlowLayouter.java" startLine="90" startPosition="74" endLine="94" endPosition="5">
-      <varInfo nodeId="5626844973118493012" varName="node" />
+      <varInfo nodeId="5626844973118493013" varName="node" />
     </scopeInfo>
     <scopeInfo nodeId="5626844973118493274" fileName="OrthogonalRectFlowLayouter.java" startLine="137" startPosition="88" endLine="141" endPosition="7">
       <varInfo nodeId="5626844973118493276" varName="newEdge" />
     </scopeInfo>
     <scopeInfo nodeId="5626844973118493392" fileName="OrthogonalRectFlowLayouter.java" startLine="158" startPosition="74" endLine="163" endPosition="5">
-      <varInfo nodeId="5626844973118493392" varName="node" />
+      <varInfo nodeId="5626844973118493393" varName="node" />
     </scopeInfo>
     <scopeInfo nodeId="5626844973118493443" fileName="OrthogonalRectFlowLayouter.java" startLine="166" startPosition="87" endLine="171" endPosition="9" />
     <scopeInfo nodeId="5626844973118493486" fileName="OrthogonalRectFlowLayouter.java" startLine="175" startPosition="94" endLine="180" endPosition="7">
-      <varInfo nodeId="5626844973118493486" varName="historyEdge" />
+      <varInfo nodeId="5626844973118493487" varName="historyEdge" />
     </scopeInfo>
     <scopeInfo nodeId="5626844973118492806" fileName="OrthogonalRectFlowLayouter.java" startLine="55" startPosition="63" endLine="61" endPosition="7">
       <varInfo nodeId="5626844973118492808" varName="copyEdge" />
     </scopeInfo>
     <scopeInfo nodeId="5626844973118493103" fileName="OrthogonalRectFlowLayouter.java" startLine="106" startPosition="60" endLine="112" endPosition="36" />
     <scopeInfo nodeId="5626844973118493269" fileName="OrthogonalRectFlowLayouter.java" startLine="136" startPosition="77" endLine="142" endPosition="5">
-      <varInfo nodeId="5626844973118493269" varName="edge" />
+      <varInfo nodeId="5626844973118493270" varName="edge" />
     </scopeInfo>
     <scopeInfo nodeId="5626844973118493320" fileName="OrthogonalRectFlowLayouter.java" startLine="147" startPosition="86" endLine="153" endPosition="9">
       <varInfo nodeId="5626844973118493322" varName="edge" />
@@ -2639,29 +2639,29 @@
       <varInfo nodeId="5626844973118492960" varName="copyNode" />
     </scopeInfo>
     <scopeInfo nodeId="5626844973118493437" fileName="OrthogonalRectFlowLayouter.java" startLine="165" startPosition="73" endLine="172" endPosition="7">
-      <varInfo nodeId="5626844973118493437" varName="historyEdge" />
+      <varInfo nodeId="5626844973118493438" varName="historyEdge" />
     </scopeInfo>
     <scopeInfo nodeId="5626844973118492801" fileName="OrthogonalRectFlowLayouter.java" startLine="54" startPosition="89" endLine="62" endPosition="5">
-      <varInfo nodeId="5626844973118492801" varName="edge" />
+      <varInfo nodeId="5626844973118492802" varName="edge" />
     </scopeInfo>
     <scopeInfo nodeId="5626844973118493100" fileName="OrthogonalRectFlowLayouter.java" startLine="105" startPosition="7" endLine="113" endPosition="7">
-      <varInfo nodeId="5626844973118493100" varName="edge" />
+      <varInfo nodeId="5626844973118493101" varName="edge" />
     </scopeInfo>
     <scopeInfo nodeId="5626844973118493317" fileName="OrthogonalRectFlowLayouter.java" startLine="146" startPosition="82" endLine="154" endPosition="7" />
     <scopeInfo nodeId="5626844973118493318" fileName="OrthogonalRectFlowLayouter.java" startLine="146" startPosition="82" endLine="154" endPosition="7">
-      <varInfo nodeId="5626844973118493318" varName="dart" />
+      <varInfo nodeId="5626844973118493319" varName="dart" />
     </scopeInfo>
     <scopeInfo nodeId="5626844973118492953" fileName="OrthogonalRectFlowLayouter.java" startLine="79" startPosition="93" endLine="88" endPosition="5">
-      <varInfo nodeId="5626844973118492953" varName="node" />
+      <varInfo nodeId="5626844973118492954" varName="node" />
     </scopeInfo>
     <scopeInfo nodeId="5626844973118492878" fileName="OrthogonalRectFlowLayouter.java" startLine="66" startPosition="90" endLine="76" endPosition="7">
       <varInfo nodeId="5626844973118492880" varName="first" />
     </scopeInfo>
     <scopeInfo nodeId="5626844973118493312" fileName="OrthogonalRectFlowLayouter.java" startLine="145" startPosition="93" endLine="155" endPosition="5">
-      <varInfo nodeId="5626844973118493312" varName="node" />
+      <varInfo nodeId="5626844973118493313" varName="node" />
     </scopeInfo>
     <scopeInfo nodeId="5626844973118492876" fileName="OrthogonalRectFlowLayouter.java" startLine="65" startPosition="109" endLine="77" endPosition="5">
-      <varInfo nodeId="5626844973118492876" varName="list" />
+      <varInfo nodeId="5626844973118492877" varName="list" />
     </scopeInfo>
     <scopeInfo nodeId="5626844973118493429" fileName="OrthogonalRectFlowLayouter.java" startLine="164" startPosition="55" endLine="181" endPosition="49">
       <varInfo nodeId="5626844973118493472" varName="cur" />
@@ -2676,10 +2676,10 @@
       <varInfo nodeId="5626844973118493067" varName="firstSource" />
     </scopeInfo>
     <scopeInfo nodeId="5626844973118493426" fileName="OrthogonalRectFlowLayouter.java" startLine="163" startPosition="5" endLine="182" endPosition="5">
-      <varInfo nodeId="5626844973118493426" varName="edge" />
+      <varInfo nodeId="5626844973118493427" varName="edge" />
     </scopeInfo>
     <scopeInfo nodeId="5626844973118493035" fileName="OrthogonalRectFlowLayouter.java" startLine="94" startPosition="5" endLine="115" endPosition="5">
-      <varInfo nodeId="5626844973118493035" varName="graphEdge" />
+      <varInfo nodeId="5626844973118493036" varName="graphEdge" />
     </scopeInfo>
     <scopeInfo nodeId="5626844973118493176" fileName="OrthogonalRectFlowLayouter.java" startLine="121" startPosition="193" endLine="183" endPosition="23">
       <varInfo nodeId="5626844973118493213" varName="angles" />
@@ -2911,13 +2911,13 @@
     <scopeInfo nodeId="5626844973118494381" fileName="OrthogonalRepresentationWithNodesProcessing.java" startLine="125" startPosition="91" endLine="127" endPosition="62" />
     <scopeInfo nodeId="5626844973118494402" fileName="OrthogonalRepresentationWithNodesProcessing.java" startLine="129" startPosition="91" endLine="131" endPosition="62" />
     <scopeInfo nodeId="5626844973118494231" fileName="OrthogonalRepresentationWithNodesProcessing.java" startLine="102" startPosition="49" endLine="105" endPosition="7">
-      <varInfo nodeId="5626844973118494231" varName="node" />
+      <varInfo nodeId="5626844973118494232" varName="node" />
     </scopeInfo>
     <scopeInfo nodeId="5626844973118494250" fileName="OrthogonalRepresentationWithNodesProcessing.java" startLine="105" startPosition="7" endLine="108" endPosition="7">
-      <varInfo nodeId="5626844973118494250" varName="face" />
+      <varInfo nodeId="5626844973118494251" varName="face" />
     </scopeInfo>
     <scopeInfo nodeId="5626844973118494269" fileName="OrthogonalRepresentationWithNodesProcessing.java" startLine="108" startPosition="7" endLine="111" endPosition="7">
-      <varInfo nodeId="5626844973118494269" varName="edge" />
+      <varInfo nodeId="5626844973118494270" varName="edge" />
     </scopeInfo>
     <scopeInfo nodeId="5626844973118494543" fileName="OrthogonalRepresentationWithNodesProcessing.java" startLine="158" startPosition="54" endLine="161" endPosition="61" />
     <scopeInfo nodeId="5626844973118494565" fileName="OrthogonalRepresentationWithNodesProcessing.java" startLine="162" startPosition="20" endLine="165" endPosition="101" />
@@ -2926,7 +2926,7 @@
     </scopeInfo>
     <scopeInfo nodeId="5626844973118493800" fileName="OrthogonalRepresentationWithNodesProcessing.java" startLine="231" startPosition="56" endLine="234" endPosition="11" />
     <scopeInfo nodeId="5626844973118494313" fileName="OrthogonalRepresentationWithNodesProcessing.java" startLine="113" startPosition="101" endLine="117" endPosition="5">
-      <varInfo nodeId="5626844973118494313" varName="dart" />
+      <varInfo nodeId="5626844973118494314" varName="dart" />
     </scopeInfo>
     <scopeInfo nodeId="5626844973118494454" fileName="OrthogonalRepresentationWithNodesProcessing.java" startLine="137" startPosition="91" endLine="141" endPosition="0">
       <varInfo nodeId="5626844973118494454" varName="it" />
@@ -2947,7 +2947,7 @@
     <scopeInfo nodeId="5626844973118493846" fileName="OrthogonalRepresentationWithNodesProcessing.java" startLine="241" startPosition="0" endLine="245" endPosition="0" />
     <scopeInfo nodeId="5626844973118493729" fileName="OrthogonalRepresentationWithNodesProcessing.java" startLine="212" startPosition="39" endLine="217" endPosition="13" />
     <scopeInfo nodeId="5626844973118493797" fileName="OrthogonalRepresentationWithNodesProcessing.java" startLine="230" startPosition="25" endLine="235" endPosition="9">
-      <varInfo nodeId="5626844973118493797" varName="dart" />
+      <varInfo nodeId="5626844973118493798" varName="dart" />
     </scopeInfo>
     <scopeInfo nodeId="5626844973118494492" fileName="OrthogonalRepresentationWithNodesProcessing.java" startLine="147" startPosition="87" endLine="153" endPosition="13" />
     <scopeInfo nodeId="5626844973118494625" fileName="OrthogonalRepresentationWithNodesProcessing.java" startLine="178" startPosition="0" endLine="184" endPosition="0">
@@ -2963,7 +2963,7 @@
       <varInfo nodeId="5626844973118493922" varName="networkNode" />
     </scopeInfo>
     <scopeInfo nodeId="5626844973118494486" fileName="OrthogonalRepresentationWithNodesProcessing.java" startLine="146" startPosition="13" endLine="154" endPosition="11">
-      <varInfo nodeId="5626844973118494486" varName="firstDart" />
+      <varInfo nodeId="5626844973118494487" varName="firstDart" />
     </scopeInfo>
     <scopeInfo nodeId="5626844973118493659" fileName="OrthogonalRepresentationWithNodesProcessing.java" startLine="198" startPosition="52" endLine="206" endPosition="135">
       <varInfo nodeId="5626844973118493669" varName="dart" />
@@ -2973,7 +2973,7 @@
       <varInfo nodeId="5626844973118493728" varName="edge" />
     </scopeInfo>
     <scopeInfo nodeId="5626844973118493915" fileName="OrthogonalRepresentationWithNodesProcessing.java" startLine="39" startPosition="77" endLine="48" endPosition="5">
-      <varInfo nodeId="5626844973118493915" varName="node" />
+      <varInfo nodeId="5626844973118493916" varName="node" />
     </scopeInfo>
     <scopeInfo nodeId="5626844973118494536" fileName="OrthogonalRepresentationWithNodesProcessing.java" startLine="157" startPosition="89" endLine="166" endPosition="13" />
     <scopeInfo nodeId="5626844973118494225" fileName="OrthogonalRepresentationWithNodesProcessing.java" startLine="101" startPosition="68" endLine="111" endPosition="7" />
@@ -2986,13 +2986,13 @@
       <varInfo nodeId="5626844973118493976" varName="node" />
     </scopeInfo>
     <scopeInfo nodeId="5626844973118494530" fileName="OrthogonalRepresentationWithNodesProcessing.java" startLine="156" startPosition="35" endLine="167" endPosition="11">
-      <varInfo nodeId="5626844973118494530" varName="secondDart" />
+      <varInfo nodeId="5626844973118494531" varName="secondDart" />
     </scopeInfo>
     <scopeInfo nodeId="5626844973118493656" fileName="OrthogonalRepresentationWithNodesProcessing.java" startLine="196" startPosition="0" endLine="208" endPosition="0">
       <varInfo nodeId="5626844973118493707" varName="root" />
     </scopeInfo>
     <scopeInfo nodeId="5626844973118493969" fileName="OrthogonalRepresentationWithNodesProcessing.java" startLine="49" startPosition="77" endLine="62" endPosition="5">
-      <varInfo nodeId="5626844973118493969" varName="face" />
+      <varInfo nodeId="5626844973118493970" varName="face" />
     </scopeInfo>
     <scopeInfo nodeId="5626844973118493717" fileName="OrthogonalRepresentationWithNodesProcessing.java" startLine="210" startPosition="59" endLine="239" endPosition="29">
       <varInfo nodeId="5626844973118493778" varName="cur" />
@@ -3007,7 +3007,7 @@
       <varInfo nodeId="5626844973118494175" varName="oppositeFaceNode" />
     </scopeInfo>
     <scopeInfo nodeId="5626844973118494081" fileName="OrthogonalRepresentationWithNodesProcessing.java" startLine="67" startPosition="75" endLine="99" endPosition="7">
-      <varInfo nodeId="5626844973118494081" varName="dart" />
+      <varInfo nodeId="5626844973118494082" varName="dart" />
     </scopeInfo>
     <scopeInfo nodeId="5626844973118493709" fileName="OrthogonalRepresentationWithNodesProcessing.java" startLine="208" startPosition="0" endLine="241" endPosition="0">
       <varInfo nodeId="5626844973118493714" varName="from" />
@@ -3018,7 +3018,7 @@
       <varInfo nodeId="5626844973118494075" varName="isNodeFace" />
     </scopeInfo>
     <scopeInfo nodeId="5626844973118494062" fileName="OrthogonalRepresentationWithNodesProcessing.java" startLine="64" startPosition="82" endLine="100" endPosition="5">
-      <varInfo nodeId="5626844973118494062" varName="face" />
+      <varInfo nodeId="5626844973118494063" varName="face" />
     </scopeInfo>
     <scopeInfo nodeId="5626844973118494430" fileName="OrthogonalRepresentationWithNodesProcessing.java" startLine="134" startPosition="71" endLine="173" endPosition="34">
       <varInfo nodeId="5626844973118494439" varName="addedNode" />
@@ -3036,7 +3036,7 @@
     </scopeInfo>
     <scopeInfo nodeId="5626844973118494355" fileName="OrthogonalRepresentationWithNodesProcessing.java" startLine="120" startPosition="124" endLine="176" endPosition="5" />
     <scopeInfo nodeId="5626844973118494356" fileName="OrthogonalRepresentationWithNodesProcessing.java" startLine="120" startPosition="124" endLine="176" endPosition="5">
-      <varInfo nodeId="5626844973118494356" varName="edge" />
+      <varInfo nodeId="5626844973118494357" varName="edge" />
     </scopeInfo>
     <scopeInfo nodeId="5626844973118494352" fileName="OrthogonalRepresentationWithNodesProcessing.java" startLine="119" startPosition="0" endLine="178" endPosition="0">
       <varInfo nodeId="5626844973118494621" varName="angles" />
@@ -3191,22 +3191,22 @@
     <scopeInfo nodeId="5626844973118495450" fileName="FlowLayoutWithNodeProcessing.java" startLine="30" startPosition="0" endLine="32" endPosition="3" />
     <scopeInfo nodeId="5626844973118495200" fileName="FlowLayoutWithNodeProcessing.java" startLine="114" startPosition="52" endLine="116" endPosition="66" />
     <scopeInfo nodeId="5626844973118494857" fileName="FlowLayoutWithNodeProcessing.java" startLine="55" startPosition="77" endLine="58" endPosition="5">
-      <varInfo nodeId="5626844973118494857" varName="node" />
+      <varInfo nodeId="5626844973118494858" varName="node" />
     </scopeInfo>
     <scopeInfo nodeId="5626844973118494871" fileName="FlowLayoutWithNodeProcessing.java" startLine="58" startPosition="5" endLine="61" endPosition="5">
-      <varInfo nodeId="5626844973118494871" varName="edge" />
+      <varInfo nodeId="5626844973118494872" varName="edge" />
     </scopeInfo>
     <scopeInfo nodeId="5626844973118495255" fileName="FlowLayoutWithNodeProcessing.java" startLine="123" startPosition="63" endLine="126" endPosition="5">
-      <varInfo nodeId="5626844973118495255" varName="node" />
+      <varInfo nodeId="5626844973118495256" varName="node" />
     </scopeInfo>
     <scopeInfo nodeId="5626844973118495302" fileName="FlowLayoutWithNodeProcessing.java" startLine="132" startPosition="63" endLine="135" endPosition="19">
       <varInfo nodeId="5626844973118495304" varName="next" />
     </scopeInfo>
     <scopeInfo nodeId="5626844973118495333" fileName="FlowLayoutWithNodeProcessing.java" startLine="139" startPosition="62" endLine="142" endPosition="5">
-      <varInfo nodeId="5626844973118495333" varName="node" />
+      <varInfo nodeId="5626844973118495334" varName="node" />
     </scopeInfo>
     <scopeInfo nodeId="5626844973118495426" fileName="FlowLayoutWithNodeProcessing.java" startLine="157" startPosition="7" endLine="160" endPosition="7">
-      <varInfo nodeId="5626844973118495426" varName="dart" />
+      <varInfo nodeId="5626844973118495427" varName="dart" />
     </scopeInfo>
     <scopeInfo nodeId="5626844973118495083" fileName="FlowLayoutWithNodeProcessing.java" startLine="92" startPosition="52" endLine="96" endPosition="9">
       <varInfo nodeId="5626844973118495085" varName="last" />
@@ -3215,16 +3215,16 @@
       <varInfo nodeId="5626844973118495354" varName="edgeLayout" />
     </scopeInfo>
     <scopeInfo nodeId="5626844973118495299" fileName="FlowLayoutWithNodeProcessing.java" startLine="131" startPosition="94" endLine="136" endPosition="7">
-      <varInfo nodeId="5626844973118495299" varName="historyEdge" />
+      <varInfo nodeId="5626844973118495300" varName="historyEdge" />
     </scopeInfo>
     <scopeInfo nodeId="5626844973118494920" fileName="FlowLayoutWithNodeProcessing.java" startLine="65" startPosition="63" endLine="71" endPosition="7">
       <varInfo nodeId="5626844973118494922" varName="copyEdge" />
     </scopeInfo>
     <scopeInfo nodeId="5626844973118495347" fileName="FlowLayoutWithNodeProcessing.java" startLine="142" startPosition="5" endLine="148" endPosition="5">
-      <varInfo nodeId="5626844973118495347" varName="edge" />
+      <varInfo nodeId="5626844973118495348" varName="edge" />
     </scopeInfo>
     <scopeInfo nodeId="5626844973118494915" fileName="FlowLayoutWithNodeProcessing.java" startLine="64" startPosition="89" endLine="72" endPosition="5">
-      <varInfo nodeId="5626844973118494915" varName="edge" />
+      <varInfo nodeId="5626844973118494916" varName="edge" />
     </scopeInfo>
     <scopeInfo nodeId="5626844973118495409" fileName="FlowLayoutWithNodeProcessing.java" startLine="153" startPosition="71" endLine="161" endPosition="27" />
     <scopeInfo nodeId="5626844973118495056" fileName="FlowLayoutWithNodeProcessing.java" startLine="87" startPosition="90" endLine="97" endPosition="7">
@@ -3237,14 +3237,14 @@
     </scopeInfo>
     <scopeInfo nodeId="5626844973118495403" fileName="FlowLayoutWithNodeProcessing.java" startLine="152" startPosition="113" endLine="162" endPosition="5" />
     <scopeInfo nodeId="5626844973118495404" fileName="FlowLayoutWithNodeProcessing.java" startLine="152" startPosition="113" endLine="162" endPosition="5">
-      <varInfo nodeId="5626844973118495404" varName="face" />
+      <varInfo nodeId="5626844973118495405" varName="face" />
     </scopeInfo>
     <scopeInfo nodeId="5626844973118495053" fileName="FlowLayoutWithNodeProcessing.java" startLine="86" startPosition="92" endLine="98" endPosition="5" />
     <scopeInfo nodeId="5626844973118495054" fileName="FlowLayoutWithNodeProcessing.java" startLine="86" startPosition="92" endLine="98" endPosition="5">
-      <varInfo nodeId="5626844973118495054" varName="list" />
+      <varInfo nodeId="5626844973118495055" varName="list" />
     </scopeInfo>
     <scopeInfo nodeId="5626844973118495267" fileName="FlowLayoutWithNodeProcessing.java" startLine="126" startPosition="5" endLine="138" endPosition="5">
-      <varInfo nodeId="5626844973118495267" varName="edge" />
+      <varInfo nodeId="5626844973118495268" varName="edge" />
     </scopeInfo>
     <scopeInfo nodeId="5626844973118495394" fileName="FlowLayoutWithNodeProcessing.java" startLine="151" startPosition="0" endLine="164" endPosition="0">
       <varInfo nodeId="5626844973118495399" varName="directions" />
@@ -3507,7 +3507,7 @@
       <varInfo nodeId="5626844973118496799" varName="last" />
     </scopeInfo>
     <scopeInfo nodeId="5626844973118495604" fileName="TestPullingLabels.java" startLine="38" startPosition="90" endLine="41" endPosition="5">
-      <varInfo nodeId="5626844973118495604" varName="edge" />
+      <varInfo nodeId="5626844973118495605" varName="edge" />
     </scopeInfo>
     <scopeInfo nodeId="5626844973118495803" fileName="TestPullingLabels.java" startLine="69" startPosition="40" endLine="72" endPosition="93">
       <varInfo nodeId="5626844973118495805" varName="shift" />
@@ -3542,7 +3542,7 @@
       <varInfo nodeId="5626844973118496343" varName="newPoint" />
     </scopeInfo>
     <scopeInfo nodeId="5626844973118496746" fileName="TestPullingLabels.java" startLine="240" startPosition="32" endLine="245" endPosition="5">
-      <varInfo nodeId="5626844973118496746" varName="sourceEdge" />
+      <varInfo nodeId="5626844973118496747" varName="sourceEdge" />
     </scopeInfo>
     <scopeInfo nodeId="5626844973118495857" fileName="TestPullingLabels.java" startLine="76" startPosition="39" endLine="82" endPosition="88">
       <varInfo nodeId="5626844973118495872" varName="shift" />
@@ -3568,7 +3568,7 @@
       <varInfo nodeId="5626844973118496774" varName="path" />
     </scopeInfo>
     <scopeInfo nodeId="5626844973118496008" fileName="TestPullingLabels.java" startLine="108" startPosition="5" endLine="116" endPosition="5">
-      <varInfo nodeId="5626844973118496008" varName="edge" />
+      <varInfo nodeId="5626844973118496009" varName="edge" />
     </scopeInfo>
     <scopeInfo nodeId="5626844973118496052" fileName="TestPullingLabels.java" startLine="119" startPosition="0" endLine="127" endPosition="0">
       <varInfo nodeId="5626844973118496083" varName="dir" />
@@ -3585,13 +3585,13 @@
       <varInfo nodeId="5626844973118496743" varName="wasSplitted" />
     </scopeInfo>
     <scopeInfo nodeId="5626844973118495926" fileName="TestPullingLabels.java" startLine="90" startPosition="36" endLine="99" endPosition="5">
-      <varInfo nodeId="5626844973118495926" varName="node" />
+      <varInfo nodeId="5626844973118495927" varName="node" />
     </scopeInfo>
     <scopeInfo nodeId="5626844973118495967" fileName="TestPullingLabels.java" startLine="99" startPosition="5" endLine="108" endPosition="5">
-      <varInfo nodeId="5626844973118495967" varName="edge" />
+      <varInfo nodeId="5626844973118495968" varName="edge" />
     </scopeInfo>
     <scopeInfo nodeId="5626844973118496163" fileName="TestPullingLabels.java" startLine="138" startPosition="71" endLine="147" endPosition="5">
-      <varInfo nodeId="5626844973118496163" varName="node" />
+      <varInfo nodeId="5626844973118496164" varName="node" />
     </scopeInfo>
     <scopeInfo nodeId="5626844973118496371" fileName="TestPullingLabels.java" startLine="177" startPosition="69" endLine="186" endPosition="9">
       <varInfo nodeId="5626844973118496373" varName="rect" />
@@ -3633,7 +3633,7 @@
     </scopeInfo>
     <scopeInfo nodeId="5626844973118496255" fileName="TestPullingLabels.java" startLine="154" startPosition="55" endLine="175" endPosition="16" />
     <scopeInfo nodeId="5626844973118496252" fileName="TestPullingLabels.java" startLine="153" startPosition="20" endLine="176" endPosition="7">
-      <varInfo nodeId="5626844973118496252" varName="point" />
+      <varInfo nodeId="5626844973118496253" varName="point" />
     </scopeInfo>
     <scopeInfo nodeId="5626844973118496569" fileName="TestPullingLabels.java" startLine="211" startPosition="117" endLine="235" endPosition="5">
       <varInfo nodeId="5626844973118496571" varName="dx" />
@@ -3686,7 +3686,7 @@
       <varInfo nodeId="5626844973118495908" varName="layout" />
     </scopeInfo>
     <scopeInfo nodeId="5626844973118496211" fileName="TestPullingLabels.java" startLine="147" startPosition="5" endLine="189" endPosition="5">
-      <varInfo nodeId="5626844973118496211" varName="edge" />
+      <varInfo nodeId="5626844973118496212" varName="edge" />
     </scopeInfo>
     <scopeInfo nodeId="5626844973118496147" fileName="TestPullingLabels.java" startLine="136" startPosition="161" endLine="190" endPosition="24">
       <varInfo nodeId="5626844973118496149" varName="pulledLayout" />

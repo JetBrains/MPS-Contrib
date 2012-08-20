@@ -330,14 +330,14 @@
     </scopeInfo>
     <scopeInfo nodeId="353793545802643880" fileName="TaskCall_Behavior.java" startLine="21" startPosition="103" endLine="26" endPosition="7" />
     <scopeInfo nodeId="353793545802643920" fileName="TaskCall_Behavior.java" startLine="35" startPosition="100" endLine="40" endPosition="5">
-      <varInfo nodeId="353793545802643920" varName="attribute" />
+      <varInfo nodeId="353793545802643921" varName="attribute" />
     </scopeInfo>
     <scopeInfo nodeId="353793545802643919" fileName="TaskCall_Behavior.java" startLine="35" startPosition="100" endLine="41" endPosition="17" />
     <scopeInfo nodeId="353793545802643945" fileName="TaskCall_Behavior.java" startLine="44" startPosition="102" endLine="50" endPosition="7">
       <varInfo nodeId="5722070778270747568" varName="attributeDeclarations" />
     </scopeInfo>
     <scopeInfo nodeId="353793545802643875" fileName="TaskCall_Behavior.java" startLine="20" startPosition="48" endLine="27" endPosition="5">
-      <varInfo nodeId="353793545802643875" varName="attr" />
+      <varInfo nodeId="353793545802643876" varName="attr" />
     </scopeInfo>
     <scopeInfo nodeId="353793545802643858" fileName="TaskCall_Behavior.java" startLine="34" startPosition="0" endLine="43" endPosition="0">
       <varInfo nodeId="353793545802643916" varName="attrDecl" />
@@ -468,7 +468,7 @@
     <scopeInfo nodeId="353793545802644353" fileName="BuiltInTaskDeclaration_Behavior.java" startLine="95" startPosition="92" endLine="97" endPosition="19" />
     <scopeInfo nodeId="353793545802644165" fileName="BuiltInTaskDeclaration_Behavior.java" startLine="50" startPosition="100" endLine="53" endPosition="7" />
     <scopeInfo nodeId="353793545802644166" fileName="BuiltInTaskDeclaration_Behavior.java" startLine="50" startPosition="100" endLine="53" endPosition="7">
-      <varInfo nodeId="353793545802644166" varName="ref" />
+      <varInfo nodeId="353793545802644167" varName="ref" />
     </scopeInfo>
     <scopeInfo nodeId="353793545802644214" fileName="BuiltInTaskDeclaration_Behavior.java" startLine="63" startPosition="116" endLine="66" endPosition="7" />
     <scopeInfo nodeId="353793545802644311" fileName="BuiltInTaskDeclaration_Behavior.java" startLine="83" startPosition="120" endLine="86" endPosition="9" />
@@ -501,16 +501,16 @@
       <varInfo nodeId="353793545802644070" varName="thisNode" />
     </scopeInfo>
     <scopeInfo nodeId="353793545802644160" fileName="BuiltInTaskDeclaration_Behavior.java" startLine="49" startPosition="48" endLine="54" endPosition="5">
-      <varInfo nodeId="353793545802644160" varName="nref" />
+      <varInfo nodeId="353793545802644161" varName="nref" />
     </scopeInfo>
     <scopeInfo nodeId="353793545802644209" fileName="BuiltInTaskDeclaration_Behavior.java" startLine="62" startPosition="48" endLine="67" endPosition="5">
-      <varInfo nodeId="353793545802644209" varName="declaration" />
+      <varInfo nodeId="353793545802644210" varName="declaration" />
     </scopeInfo>
     <scopeInfo nodeId="353793545802644309" fileName="BuiltInTaskDeclaration_Behavior.java" startLine="82" startPosition="7" endLine="87" endPosition="7">
-      <varInfo nodeId="353793545802644309" varName="intRef" />
+      <varInfo nodeId="353793545802644310" varName="intRef" />
     </scopeInfo>
     <scopeInfo nodeId="353793545802644110" fileName="BuiltInTaskDeclaration_Behavior.java" startLine="33" startPosition="30" endLine="39" endPosition="9">
-      <varInfo nodeId="353793545802644110" varName="oldAttrDecl" />
+      <varInfo nodeId="353793545802644111" varName="oldAttrDecl" />
     </scopeInfo>
     <scopeInfo nodeId="353793545802644351" fileName="BuiltInTaskDeclaration_Behavior.java" startLine="94" startPosition="120" endLine="101" endPosition="9" />
     <scopeInfo nodeId="5114497955154742476" fileName="BuiltInTaskDeclaration_Behavior.java" startLine="126" startPosition="0" endLine="133" endPosition="0">
@@ -534,7 +534,7 @@
     </scopeInfo>
     <scopeInfo nodeId="353793545802644345" fileName="BuiltInTaskDeclaration_Behavior.java" startLine="93" startPosition="126" endLine="102" endPosition="7" />
     <scopeInfo nodeId="353793545802644346" fileName="BuiltInTaskDeclaration_Behavior.java" startLine="93" startPosition="126" endLine="102" endPosition="7">
-      <varInfo nodeId="353793545802644346" varName="interfaceReference" />
+      <varInfo nodeId="353793545802644347" varName="interfaceReference" />
     </scopeInfo>
     <scopeInfo nodeId="353793545802644105" fileName="BuiltInTaskDeclaration_Behavior.java" startLine="32" startPosition="62" endLine="42" endPosition="9">
       <varInfo nodeId="353793545802644107" varName="found" />
@@ -546,7 +546,7 @@
       <varInfo nodeId="353793545802644204" varName="result" />
     </scopeInfo>
     <scopeInfo nodeId="353793545802644102" fileName="BuiltInTaskDeclaration_Behavior.java" startLine="31" startPosition="218" endLine="43" endPosition="7">
-      <varInfo nodeId="353793545802644102" varName="newAttrDecl" />
+      <varInfo nodeId="353793545802644103" varName="newAttrDecl" />
     </scopeInfo>
     <scopeInfo nodeId="353793545802644088" fileName="BuiltInTaskDeclaration_Behavior.java" startLine="30" startPosition="281" endLine="43" endPosition="7">
       <varInfo nodeId="353793545802644090" varName="nodes" />
@@ -620,7 +620,7 @@
       <varInfo nodeId="353793545802854877" varName="thisNode" />
     </scopeInfo>
     <scopeInfo nodeId="353793545802854941" fileName="PathReference_Behavior.java" startLine="36" startPosition="7" endLine="44" endPosition="7">
-      <varInfo nodeId="353793545802854941" varName="nested" />
+      <varInfo nodeId="353793545802854942" varName="nested" />
     </scopeInfo>
     <scopeInfo nodeId="353793545802854923" fileName="PathReference_Behavior.java" startLine="32" startPosition="25" endLine="44" endPosition="7">
       <varInfo nodeId="353793545802854925" varName="path" />

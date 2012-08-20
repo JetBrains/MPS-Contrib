@@ -55,7 +55,7 @@
       <varInfo nodeId="1213877245919" varName="thisNode" />
     </scopeInfo>
     <scopeInfo nodeId="1213877245926" fileName="GItemList_Behavior.java" startLine="16" startPosition="28" endLine="22" endPosition="5">
-      <varInfo nodeId="1213877245926" varName="item" />
+      <varInfo nodeId="1213877245927" varName="item" />
     </scopeInfo>
     <scopeInfo nodeId="1213877245921" fileName="GItemList_Behavior.java" startLine="15" startPosition="73" endLine="23" endPosition="19">
       <varInfo nodeId="1213877245923" varName="complex" />
