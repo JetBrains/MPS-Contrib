@@ -48,7 +48,9 @@
     <scopeInfo nodeId="1202810604795" fileName="SimpleFrame.java" startLine="38" startPosition="0" endLine="42" endPosition="0" />
     <scopeInfo nodeId="1202810604795" fileName="SimpleFrame.java" startLine="42" startPosition="0" endLine="47" endPosition="0" />
     <scopeInfo nodeId="1202810604795" fileName="SimpleFrame.java" startLine="47" startPosition="0" endLine="52" endPosition="0" />
-    <scopeInfo nodeId="1202810604795" fileName="SimpleFrame.java" startLine="56" startPosition="25" endLine="61" endPosition="5" />
+    <scopeInfo nodeId="1202810604795" fileName="SimpleFrame.java" startLine="56" startPosition="25" endLine="61" endPosition="5">
+      <varInfo nodeId="1202810604795" varName="binding" />
+    </scopeInfo>
     <scopeInfo nodeId="1202810604795" fileName="SimpleFrame.java" startLine="63" startPosition="0" endLine="69" endPosition="0" />
     <scopeInfo nodeId="1202810604795" fileName="SimpleFrame.java" startLine="55" startPosition="0" endLine="63" endPosition="0" />
     <scopeInfo nodeId="1202810604795" fileName="SimpleFrame.java" startLine="26" startPosition="24" endLine="36" endPosition="5">
