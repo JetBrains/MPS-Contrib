@@ -308,7 +308,7 @@
     </scopeInfo>
     <scopeInfo nodeId="5285611549890897374" fileName="SchemaUtil.java" startLine="51" startPosition="12" endLine="54" endPosition="36" />
     <scopeInfo nodeId="2341233264267552788" fileName="SchemaUtil.java" startLine="59" startPosition="52" endLine="62" endPosition="5">
-      <varInfo nodeId="2341233264267552788" varName="typeExpression" />
+      <varInfo nodeId="2341233264267552789" varName="typeExpression" />
     </scopeInfo>
     <scopeInfo nodeId="7225751495667402958" fileName="SchemaUtil.java" startLine="127" startPosition="7" endLine="130" endPosition="31">
       <varInfo nodeId="7225751495667402958" varName="quotedNode1_2" />
@@ -500,6 +500,8 @@
     </scopeInfo>
     <scopeInfo nodeId="4815471077468703816" fileName="XMLElementType_Constraints.java" startLine="29" startPosition="0" endLine="104" endPosition="0" />
     <unitInfo nodeId="4815471077468703816" fileName="XMLElementType_Constraints.java" startLine="99" startPosition="19" endLine="23" endPosition="0" />
+    <unitInfo nodeId="4815471077468703816" fileName="XMLElementType_Constraints.java" startLine="33" startPosition="38" endLine="78" endPosition="5" unitName="jetbrains.mps.xmlQuery.constraints.XMLElementType_Constraints$1" />
+    <unitInfo nodeId="4815471077468703816" fileName="XMLElementType_Constraints.java" startLine="56" startPosition="19" endLine="76" endPosition="9" unitName="jetbrains.mps.xmlQuery.constraints.XMLElementType_Constraints$2" />
     <unitInfo nodeId="4815471077468703816" fileName="XMLElementType_Constraints.java" startLine="79" startPosition="33" endLine="101" endPosition="5" unitName="jetbrains.mps.xmlQuery.constraints.XMLElementType_Constraints$2" />
   </root>
   <root nodeId="4991903842868384279">
