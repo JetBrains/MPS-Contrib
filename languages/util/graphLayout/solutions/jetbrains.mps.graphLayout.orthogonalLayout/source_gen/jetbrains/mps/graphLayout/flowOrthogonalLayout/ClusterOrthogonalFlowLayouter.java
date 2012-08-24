@@ -81,7 +81,7 @@ public class ClusterOrthogonalFlowLayouter extends OrthogonalFlowLayouter {
     /*
       myStraightEdges = SetSequence.fromSet(new HashSet<Edge>());
       for (List<Edge> border : Sequence.fromIterable(MapSequence.fromMap(myClusterBorderMap).values())) {
-        SetSequence.fromSet(myStraightEdges).addSequence(ListSequence.fromList(border));
+        SetSequence.fromSet(myStraightEdges).addSequence(Sequence.fromIterable(border));
       }
     */
     return embeddedGraph;
