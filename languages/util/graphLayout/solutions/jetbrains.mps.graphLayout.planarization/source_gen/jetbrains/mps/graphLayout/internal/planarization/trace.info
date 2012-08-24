@@ -278,20 +278,20 @@
       <varInfo nodeId="1532165762814135266" varName="newEdge" />
     </scopeInfo>
     <scopeInfo nodeId="1532165762814134626" fileName="ClusterEmbeddingConstructorTemp.java" startLine="73" startPosition="63" endLine="76" endPosition="5">
-      <varInfo nodeId="1532165762814134626" varName="edge" />
+      <varInfo nodeId="1532165762814134627" varName="edge" />
     </scopeInfo>
     <scopeInfo nodeId="1532165762814134718" fileName="ClusterEmbeddingConstructorTemp.java" startLine="95" startPosition="5" endLine="98" endPosition="5">
-      <varInfo nodeId="1532165762814134718" varName="subcluster" />
+      <varInfo nodeId="1532165762814134719" varName="subcluster" />
     </scopeInfo>
     <scopeInfo nodeId="1532165762814135038" fileName="ClusterEmbeddingConstructorTemp.java" startLine="165" startPosition="58" endLine="168" endPosition="11" />
     <scopeInfo nodeId="1532165762814135220" fileName="ClusterEmbeddingConstructorTemp.java" startLine="204" startPosition="57" endLine="207" endPosition="7">
       <varInfo nodeId="1532165762814135221" varName="node" />
     </scopeInfo>
     <scopeInfo nodeId="1532165762814135668" fileName="ClusterEmbeddingConstructorTemp.java" startLine="290" startPosition="59" endLine="293" endPosition="7">
-      <varInfo nodeId="1532165762814135668" varName="edge" />
+      <varInfo nodeId="1532165762814135669" varName="edge" />
     </scopeInfo>
     <scopeInfo nodeId="1532165762814135690" fileName="ClusterEmbeddingConstructorTemp.java" startLine="294" startPosition="58" endLine="297" endPosition="7">
-      <varInfo nodeId="1532165762814135690" varName="dart" />
+      <varInfo nodeId="1532165762814135691" varName="dart" />
     </scopeInfo>
     <scopeInfo nodeId="1532165762814134873" fileName="ClusterEmbeddingConstructorTemp.java" startLine="130" startPosition="79" endLine="134" endPosition="38" />
     <scopeInfo nodeId="1532165762814134995" fileName="ClusterEmbeddingConstructorTemp.java" startLine="152" startPosition="98" endLine="156" endPosition="0">
@@ -322,13 +322,13 @@
     <scopeInfo nodeId="1532165762814135742" fileName="ClusterEmbeddingConstructorTemp.java" startLine="308" startPosition="62" endLine="313" endPosition="80" />
     <scopeInfo nodeId="1532165762814135776" fileName="ClusterEmbeddingConstructorTemp.java" startLine="320" startPosition="79" endLine="325" endPosition="7" />
     <scopeInfo nodeId="1532165762814134871" fileName="ClusterEmbeddingConstructorTemp.java" startLine="129" startPosition="58" endLine="135" endPosition="7">
-      <varInfo nodeId="1532165762814134871" varName="face" />
+      <varInfo nodeId="1532165762814134872" varName="face" />
     </scopeInfo>
     <scopeInfo nodeId="1532165762814135060" fileName="ClusterEmbeddingConstructorTemp.java" startLine="169" startPosition="50" endLine="175" endPosition="65">
       <varInfo nodeId="1532165762814135062" varName="cur" />
     </scopeInfo>
     <scopeInfo nodeId="1532165762814135304" fileName="ClusterEmbeddingConstructorTemp.java" startLine="220" startPosition="89" endLine="226" endPosition="5">
-      <varInfo nodeId="1532165762814135304" varName="edge" />
+      <varInfo nodeId="1532165762814135305" varName="edge" />
     </scopeInfo>
     <scopeInfo nodeId="1532165762814135899" fileName="ClusterEmbeddingConstructorTemp.java" startLine="51" startPosition="0" endLine="58" endPosition="3">
       <varInfo nodeId="1532165762814135930" varName="cluster" />
@@ -336,17 +336,17 @@
       <varInfo nodeId="1532165762814135932" varName="outerEdgesOrder" />
     </scopeInfo>
     <scopeInfo nodeId="1532165762814134726" fileName="ClusterEmbeddingConstructorTemp.java" startLine="98" startPosition="5" endLine="105" endPosition="5">
-      <varInfo nodeId="1532165762814134726" varName="face" />
+      <varInfo nodeId="1532165762814134727" varName="face" />
     </scopeInfo>
     <scopeInfo nodeId="1532165762814135210" fileName="ClusterEmbeddingConstructorTemp.java" startLine="202" startPosition="63" endLine="209" endPosition="5">
-      <varInfo nodeId="1532165762814135210" varName="subcluster" />
+      <varInfo nodeId="1532165762814135211" varName="subcluster" />
     </scopeInfo>
     <scopeInfo nodeId="1532165762814135252" fileName="ClusterEmbeddingConstructorTemp.java" startLine="211" startPosition="61" endLine="218" endPosition="7" />
     <scopeInfo nodeId="1532165762814135253" fileName="ClusterEmbeddingConstructorTemp.java" startLine="211" startPosition="61" endLine="218" endPosition="7">
       <varInfo nodeId="1532165762814135254" varName="edge" />
     </scopeInfo>
     <scopeInfo nodeId="1532165762814135740" fileName="ClusterEmbeddingConstructorTemp.java" startLine="307" startPosition="103" endLine="314" endPosition="7">
-      <varInfo nodeId="1532165762814135740" varName="edge" />
+      <varInfo nodeId="1532165762814135741" varName="edge" />
     </scopeInfo>
     <scopeInfo nodeId="1532165762814135124" fileName="ClusterEmbeddingConstructorTemp.java" startLine="185" startPosition="94" endLine="193" endPosition="5">
       <varInfo nodeId="1532165762814135134" varName="curOuterEdge" />
@@ -362,14 +362,14 @@
       <varInfo nodeId="1532165762814134800" varName="realEdge" />
     </scopeInfo>
     <scopeInfo nodeId="1532165762814135249" fileName="ClusterEmbeddingConstructorTemp.java" startLine="210" startPosition="80" endLine="219" endPosition="5">
-      <varInfo nodeId="1532165762814135249" varName="source" />
+      <varInfo nodeId="1532165762814135250" varName="source" />
     </scopeInfo>
     <scopeInfo nodeId="1532165762814135794" fileName="ClusterEmbeddingConstructorTemp.java" startLine="328" startPosition="42" endLine="338" endPosition="5">
       <varInfo nodeId="1532165762814135796" varName="isSource" />
       <varInfo nodeId="1532165762814135805" varName="isTarget" />
     </scopeInfo>
     <scopeInfo nodeId="1532165762814134789" fileName="ClusterEmbeddingConstructorTemp.java" startLine="113" startPosition="117" endLine="124" endPosition="5">
-      <varInfo nodeId="1532165762814134789" varName="dart" />
+      <varInfo nodeId="1532165762814134790" varName="dart" />
     </scopeInfo>
     <scopeInfo nodeId="1532165762814135119" fileName="ClusterEmbeddingConstructorTemp.java" startLine="184" startPosition="0" endLine="195" endPosition="0">
       <varInfo nodeId="1532165762814135169" varName="embeddedGraph" />
@@ -385,7 +385,7 @@
       <varInfo nodeId="1532165762814135841" varName="edge" />
     </scopeInfo>
     <scopeInfo nodeId="1532165762814134653" fileName="ClusterEmbeddingConstructorTemp.java" startLine="79" startPosition="57" endLine="94" endPosition="7">
-      <varInfo nodeId="1532165762814134653" varName="dart" />
+      <varInfo nodeId="1532165762814134654" varName="dart" />
     </scopeInfo>
     <scopeInfo nodeId="1532165762814135537" fileName="ClusterEmbeddingConstructorTemp.java" startLine="266" startPosition="82" endLine="281" endPosition="107">
       <varInfo nodeId="1532165762814135539" varName="next" />
@@ -398,7 +398,7 @@
       <varInfo nodeId="1532165762814135612" varName="i" />
     </scopeInfo>
     <scopeInfo nodeId="1532165762814134635" fileName="ClusterEmbeddingConstructorTemp.java" startLine="76" startPosition="5" endLine="95" endPosition="5">
-      <varInfo nodeId="1532165762814134635" varName="face" />
+      <varInfo nodeId="1532165762814134636" varName="face" />
     </scopeInfo>
     <scopeInfo nodeId="1532165762814135424" fileName="ClusterEmbeddingConstructorTemp.java" startLine="239" startPosition="71" endLine="263" endPosition="70">
       <varInfo nodeId="1532165762814135431" varName="isSource" />
@@ -407,7 +407,7 @@
       <varInfo nodeId="1532165762814135468" varName="subOuterEdge" />
     </scopeInfo>
     <scopeInfo nodeId="1532165762814135421" fileName="ClusterEmbeddingConstructorTemp.java" startLine="238" startPosition="127" endLine="264" endPosition="7">
-      <varInfo nodeId="1532165762814135421" varName="outerEdge" />
+      <varInfo nodeId="1532165762814135422" varName="outerEdge" />
     </scopeInfo>
     <scopeInfo nodeId="1532165762814134945" fileName="ClusterEmbeddingConstructorTemp.java" startLine="144" startPosition="54" endLine="180" endPosition="36">
       <varInfo nodeId="1532165762814134967" varName="borderNode" />
@@ -419,7 +419,7 @@
       <varInfo nodeId="1532165762814134953" varName="outerEdgeInfo" />
     </scopeInfo>
     <scopeInfo nodeId="1532165762814134942" fileName="ClusterEmbeddingConstructorTemp.java" startLine="143" startPosition="103" endLine="181" endPosition="7">
-      <varInfo nodeId="1532165762814134942" varName="dart" />
+      <varInfo nodeId="1532165762814134943" varName="dart" />
     </scopeInfo>
     <scopeInfo nodeId="1532165762814134555" fileName="ClusterEmbeddingConstructorTemp.java" startLine="60" startPosition="45" endLine="107" endPosition="27">
       <varInfo nodeId="1532165762814134587" varName="invEdgeMap" />

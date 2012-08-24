@@ -473,7 +473,7 @@
     </scopeInfo>
     <scopeInfo nodeId="115745247309507238" fileName="supertypeof_XMLElementType_SubtypingRule.java" startLine="108" startPosition="0" endLine="120" endPosition="0" />
     <scopeInfo nodeId="115745247309507159" fileName="supertypeof_XMLElementType_SubtypingRule.java" startLine="29" startPosition="12" endLine="42" endPosition="7">
-      <varInfo nodeId="115745247309507159" varName="te" />
+      <varInfo nodeId="115745247309507160" varName="te" />
     </scopeInfo>
     <scopeInfo nodeId="3865540407051128657" fileName="supertypeof_XMLElementType_SubtypingRule.java" startLine="65" startPosition="0" endLine="78" endPosition="0">
       <varInfo nodeId="3865540407051128657" varName="typeCheckingContext" />

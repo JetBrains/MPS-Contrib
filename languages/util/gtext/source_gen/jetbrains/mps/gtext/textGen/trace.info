@@ -127,9 +127,7 @@
     <scopeInfo nodeId="1234795650950" fileName="GItemList_TextGen.java" startLine="16" startPosition="44" endLine="17" endPosition="61" />
     <scopeInfo nodeId="1237463993067" fileName="GItemList_TextGen.java" startLine="20" startPosition="73" endLine="21" endPosition="109" />
     <scopeInfo nodeId="1234795650950" fileName="GItemList_TextGen.java" startLine="24" startPosition="44" endLine="25" endPosition="219" />
-    <scopeInfo nodeId="1237463993067" fileName="GItemList_TextGen.java" startLine="19" startPosition="93" endLine="22" endPosition="7">
-      <varInfo nodeId="1237463993067" varName="item" />
-    </scopeInfo>
+    <scopeInfo nodeId="1237463993067" fileName="GItemList_TextGen.java" startLine="19" startPosition="93" endLine="22" endPosition="7" />
     <scopeInfo nodeId="1237463993067" fileName="GItemList_TextGen.java" startLine="18" startPosition="5" endLine="23" endPosition="5" />
     <scopeInfo nodeId="1234795650950" fileName="GItemList_TextGen.java" startLine="15" startPosition="42" endLine="26" endPosition="5" />
     <scopeInfo nodeId="1234795650950" fileName="GItemList_TextGen.java" startLine="14" startPosition="53" endLine="28" endPosition="0">

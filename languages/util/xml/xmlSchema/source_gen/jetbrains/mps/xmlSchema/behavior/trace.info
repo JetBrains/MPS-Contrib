@@ -78,10 +78,10 @@
       <varInfo nodeId="1213877199073" varName="thisNode" />
     </scopeInfo>
     <scopeInfo nodeId="1213877199082" fileName="TypeExpressionList_Behavior.java" startLine="16" startPosition="95" endLine="19" endPosition="5">
-      <varInfo nodeId="1213877199082" varName="typeExpression" />
+      <varInfo nodeId="1213877199083" varName="typeExpression" />
     </scopeInfo>
     <scopeInfo nodeId="1213877199102" fileName="TypeExpressionList_Behavior.java" startLine="23" startPosition="95" endLine="26" endPosition="5">
-      <varInfo nodeId="1213877199102" varName="typeExpression" />
+      <varInfo nodeId="1213877199103" varName="typeExpression" />
     </scopeInfo>
     <scopeInfo nodeId="1213877199075" fileName="TypeExpressionList_Behavior.java" startLine="15" startPosition="108" endLine="19" endPosition="5">
       <varInfo nodeId="1213877199077" varName="typeExpressions" />
@@ -92,10 +92,10 @@
     <scopeInfo nodeId="1213877199130" fileName="TypeExpressionList_Behavior.java" startLine="32" startPosition="73" endLine="36" endPosition="7" />
     <scopeInfo nodeId="1213877199159" fileName="TypeExpressionList_Behavior.java" startLine="44" startPosition="73" endLine="48" endPosition="7" />
     <scopeInfo nodeId="1213877199127" fileName="TypeExpressionList_Behavior.java" startLine="31" startPosition="95" endLine="37" endPosition="5">
-      <varInfo nodeId="1213877199127" varName="typeExpression" />
+      <varInfo nodeId="1213877199128" varName="typeExpression" />
     </scopeInfo>
     <scopeInfo nodeId="1213877199156" fileName="TypeExpressionList_Behavior.java" startLine="43" startPosition="95" endLine="49" endPosition="5">
-      <varInfo nodeId="1213877199156" varName="typeExpression" />
+      <varInfo nodeId="1213877199157" varName="typeExpression" />
     </scopeInfo>
     <scopeInfo nodeId="1213877199073" fileName="TypeExpressionList_Behavior.java" startLine="14" startPosition="0" endLine="21" endPosition="0">
       <varInfo nodeId="1213877199091" varName="attributeDeclarations" />
@@ -227,7 +227,7 @@
       <varInfo nodeId="1213877281025" varName="thisNode" />
     </scopeInfo>
     <scopeInfo nodeId="1213877281036" fileName="AttributeGroupReference_Behavior.java" startLine="15" startPosition="157" endLine="18" endPosition="5">
-      <varInfo nodeId="1213877281036" varName="attributeExpression" />
+      <varInfo nodeId="1213877281037" varName="attributeExpression" />
     </scopeInfo>
     <scopeInfo nodeId="1213877281027" fileName="AttributeGroupReference_Behavior.java" startLine="14" startPosition="111" endLine="18" endPosition="5">
       <varInfo nodeId="1213877281029" varName="attributeExpressions" />
