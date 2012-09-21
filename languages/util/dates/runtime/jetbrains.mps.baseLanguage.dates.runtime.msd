@@ -2,12 +2,12 @@
 <solution name="jetbrains.mps.baseLanguage.dates.runtime" uuid="2ebbb458-8ebb-481e-a5d7-9e27903323d4" pluginKind="PLUGIN_CORE" compileInMPS="true">
   <models>
     <modelRoot path="${solution_descriptor}/" />
-    <modelRoot path="${solution_descriptor}/lib/joda-time-1.6.jar">
+    <modelRoot path="${solution_descriptor}/lib/joda-time-2.1.jar">
       <manager moduleId="f3061a53-9226-4cc5-a443-f952ceaf5816" className="jetbrains.mps.baseLanguage.stubs.JavaStubs" />
     </modelRoot>
   </models>
   <stubModelEntries>
-    <stubModelEntry path="${solution_descriptor}/lib/joda-time-1.6.jar">
+    <stubModelEntry path="${solution_descriptor}/lib/joda-time-2.1.jar">
       <manager moduleId="f3061a53-9226-4cc5-a443-f952ceaf5816" className="jetbrains.mps.baseLanguage.stubs.JavaStubs" />
     </stubModelEntry>
   </stubModelEntries>
