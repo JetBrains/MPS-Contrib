@@ -9,10 +9,10 @@
 *.html text
 *.dtd text
 *.sh text
-dependencies merge=mps
-generated merge=mps
-*.mps merge=mps
-trace.info merge=mps
-*.mpl merge=mps
-*.msd merge=mps
-*.devkit merge=mps
+dependencies text merge=mps
+generated text merge=mps
+*.mps text merge=mps
+trace.info text merge=mps
+*.mpl text merge=mps
+*.msd text merge=mps
+*.devkit text merge=mps
