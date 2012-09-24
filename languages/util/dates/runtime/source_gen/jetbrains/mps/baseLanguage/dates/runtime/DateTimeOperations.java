@@ -363,7 +363,7 @@ public class DateTimeOperations {
     if (leftExpression == null || rightExpression == null) {
       result = null;
     } else {
-      result = new Period(rightExpression, leftExpression, periodType);
+      result = new Period((long) rightExpression, (long) leftExpression, periodType);
     }
     return result;
   }

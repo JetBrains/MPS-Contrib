@@ -1144,7 +1144,7 @@
                     </node>
                     <node role="initializer" roleId="tpee.1068431790190" type="tpee.GenericNewExpression" typeId="tpee.1145552977093" id="734650238126517920">
                       <node role="creator" roleId="tpee.1145553007750" type="tpee.ClassCreator" typeId="tpee.1212685548494" id="734650238126517921">
-                        <link role="baseMethodDeclaration" roleId="tpee.1068499141037" targetNodeId="ojzd.~MutableDateTime%d&lt;init&gt;(long)" resolveInfo="MutableDateTime" />
+                        <link role="baseMethodDeclaration" roleId="tpee.1068499141037" targetNodeId="ojzd.~MutableDateTime%d&lt;init&gt;(java%dlang%dObject)" resolveInfo="MutableDateTime" />
                         <node role="actualArgument" roleId="tpee.1068499141038" type="tpee.TernaryOperatorExpression" typeId="tpee.1163668896201" id="734650238126517922">
                           <node role="condition" roleId="tpee.1163668914799" type="tpee.NotEqualsExpression" typeId="tpee.1073239437375" id="734650238126517923">
                             <node role="leftExpression" roleId="tpee.1081773367580" type="tpee.ParameterReference" typeId="tpee.1068581242874" id="734650238126517924">
@@ -3156,11 +3156,17 @@
                   <node role="rValue" roleId="tpee.1068498886297" type="tpee.GenericNewExpression" typeId="tpee.1145552977093" id="734650238126518728">
                     <node role="creator" roleId="tpee.1145553007750" type="tpee.ClassCreator" typeId="tpee.1212685548494" id="734650238126518729">
                       <link role="baseMethodDeclaration" roleId="tpee.1068499141037" targetNodeId="ojzd.~Period%d&lt;init&gt;(long,long,org%djoda%dtime%dPeriodType)" resolveInfo="Period" />
-                      <node role="actualArgument" roleId="tpee.1068499141038" type="tpee.ParameterReference" typeId="tpee.1068581242874" id="734650238126518730">
-                        <link role="variableDeclaration" roleId="tpee.1068581517664" targetNodeId="734650238126518707" resolveInfo="rightExpression" />
+                      <node role="actualArgument" roleId="tpee.1068499141038" type="tpee.CastExpression" typeId="tpee.1070534934090" id="2962116606682626481">
+                        <node role="expression" roleId="tpee.1070534934092" type="tpee.ParameterReference" typeId="tpee.1068581242874" id="734650238126518730">
+                          <link role="variableDeclaration" roleId="tpee.1068581517664" targetNodeId="734650238126518707" resolveInfo="rightExpression" />
+                        </node>
+                        <node role="type" roleId="tpee.1070534934091" type="tpee.LongType" typeId="tpee.1068581242867" id="2962116606682626492" />
                       </node>
-                      <node role="actualArgument" roleId="tpee.1068499141038" type="tpee.ParameterReference" typeId="tpee.1068581242874" id="734650238126518731">
-                        <link role="variableDeclaration" roleId="tpee.1068581517664" targetNodeId="734650238126518705" resolveInfo="leftExpression" />
+                      <node role="actualArgument" roleId="tpee.1068499141038" type="tpee.CastExpression" typeId="tpee.1070534934090" id="2962116606682626512">
+                        <node role="type" roleId="tpee.1070534934091" type="tpee.LongType" typeId="tpee.1068581242867" id="2962116606682626525" />
+                        <node role="expression" roleId="tpee.1070534934092" type="tpee.ParameterReference" typeId="tpee.1068581242874" id="734650238126518731">
+                          <link role="variableDeclaration" roleId="tpee.1068581517664" targetNodeId="734650238126518705" resolveInfo="leftExpression" />
+                        </node>
                       </node>
                       <node role="actualArgument" roleId="tpee.1068499141038" type="tpee.ParameterReference" typeId="tpee.1068581242874" id="734650238126518732">
                         <link role="variableDeclaration" roleId="tpee.1068581517664" targetNodeId="734650238126518709" resolveInfo="periodType" />
@@ -3748,7 +3754,7 @@
                         </node>
                       </node>
                       <node role="operation" roleId="tpee.1197027833540" type="tpee.InstanceMethodCallOperation" typeId="tpee.1202948039474" id="734650238126518975">
-                        <link role="baseMethodDeclaration" roleId="tpee.1068499141037" targetNodeId="a2d2.~AbstractDuration%dcompareTo(java%dlang%dObject)%cint" resolveInfo="compareTo" />
+                        <link role="baseMethodDeclaration" roleId="tpee.1068499141037" targetNodeId="a2d2.~AbstractDuration%dcompareTo(org%djoda%dtime%dReadableDuration)%cint" resolveInfo="compareTo" />
                         <node role="actualArgument" roleId="tpee.1068499141038" type="tpee.DotExpression" typeId="tpee.1197027756228" id="734650238126518976">
                           <node role="operand" roleId="tpee.1197027771414" type="tpee.ParameterReference" typeId="tpee.1068581242874" id="734650238126518977">
                             <link role="variableDeclaration" roleId="tpee.1068581517664" targetNodeId="734650238126518943" resolveInfo="op2" />
@@ -3865,7 +3871,7 @@
                         <link role="variableDeclaration" roleId="tpee.1068581517664" targetNodeId="734650238126518999" resolveInfo="op1" />
                       </node>
                       <node role="operation" roleId="tpee.1197027833540" type="tpee.InstanceMethodCallOperation" typeId="tpee.1202948039474" id="734650238126519024">
-                        <link role="baseMethodDeclaration" roleId="tpee.1068499141037" targetNodeId="a2d2.~AbstractDuration%dcompareTo(java%dlang%dObject)%cint" resolveInfo="compareTo" />
+                        <link role="baseMethodDeclaration" roleId="tpee.1068499141037" targetNodeId="a2d2.~AbstractDuration%dcompareTo(org%djoda%dtime%dReadableDuration)%cint" resolveInfo="compareTo" />
                         <node role="actualArgument" roleId="tpee.1068499141038" type="tpee.ParameterReference" typeId="tpee.1068581242874" id="734650238126519025">
                           <link role="variableDeclaration" roleId="tpee.1068581517664" targetNodeId="734650238126519003" resolveInfo="op2" />
                         </node>
@@ -4318,7 +4324,7 @@
                         </node>
                       </node>
                       <node role="operation" roleId="tpee.1197027833540" type="tpee.InstanceMethodCallOperation" typeId="tpee.1202948039474" id="734650238126519214">
-                        <link role="baseMethodDeclaration" roleId="tpee.1068499141037" targetNodeId="a2d2.~AbstractDuration%dcompareTo(java%dlang%dObject)%cint" resolveInfo="compareTo" />
+                        <link role="baseMethodDeclaration" roleId="tpee.1068499141037" targetNodeId="a2d2.~AbstractDuration%dcompareTo(org%djoda%dtime%dReadableDuration)%cint" resolveInfo="compareTo" />
                         <node role="actualArgument" roleId="tpee.1068499141038" type="tpee.DotExpression" typeId="tpee.1197027756228" id="734650238126519215">
                           <node role="operand" roleId="tpee.1197027771414" type="tpee.ParameterReference" typeId="tpee.1068581242874" id="734650238126519216">
                             <link role="variableDeclaration" roleId="tpee.1068581517664" targetNodeId="734650238126519181" resolveInfo="rightExpression" />
@@ -6236,7 +6242,7 @@
                 <link role="variableDeclaration" roleId="tpee.1068581517664" targetNodeId="734650238126520247" resolveInfo="leftExpression" />
               </node>
               <node role="operation" roleId="tpee.1197027833540" type="tpee.InstanceMethodCallOperation" typeId="tpee.1202948039474" id="734650238126520267">
-                <link role="baseMethodDeclaration" roleId="tpee.1068499141037" targetNodeId="a2d2.~AbstractInstant%dcompareTo(java%dlang%dObject)%cint" resolveInfo="compareTo" />
+                <link role="baseMethodDeclaration" roleId="tpee.1068499141037" targetNodeId="a2d2.~AbstractInstant%dcompareTo(org%djoda%dtime%dReadableInstant)%cint" resolveInfo="compareTo" />
                 <node role="actualArgument" roleId="tpee.1068499141038" type="tpee.ParameterReference" typeId="tpee.1068581242874" id="734650238126520268">
                   <link role="variableDeclaration" roleId="tpee.1068581517664" targetNodeId="734650238126520249" resolveInfo="rightExpression" />
                 </node>
@@ -8041,7 +8047,7 @@
                     <link role="variableDeclaration" roleId="tpee.1068581517664" targetNodeId="734650238126520984" resolveInfo="dateTime" />
                   </node>
                   <node role="operation" roleId="tpee.1197027833540" type="tpee.InstanceMethodCallOperation" typeId="tpee.1202948039474" id="734650238126521000">
-                    <link role="baseMethodDeclaration" roleId="tpee.1068499141037" targetNodeId="a2d2.~AbstractInstant%dcompareTo(java%dlang%dObject)%cint" resolveInfo="compareTo" />
+                    <link role="baseMethodDeclaration" roleId="tpee.1068499141037" targetNodeId="a2d2.~AbstractInstant%dcompareTo(org%djoda%dtime%dReadableInstant)%cint" resolveInfo="compareTo" />
                     <node role="actualArgument" roleId="tpee.1068499141038" type="tpee.LocalInstanceFieldReference" typeId="tpee.7785501532031639928" id="734650238126521001">
                       <link role="variableDeclaration" roleId="tpee.1068581517664" targetNodeId="734650238126520751" resolveInfo="myReference" />
                     </node>
@@ -8140,7 +8146,7 @@
                     <link role="variableDeclaration" roleId="tpee.1068581517664" targetNodeId="734650238126521023" resolveInfo="dateTime" />
                   </node>
                   <node role="operation" roleId="tpee.1197027833540" type="tpee.InstanceMethodCallOperation" typeId="tpee.1202948039474" id="734650238126521039">
-                    <link role="baseMethodDeclaration" roleId="tpee.1068499141037" targetNodeId="a2d2.~AbstractInstant%dcompareTo(java%dlang%dObject)%cint" resolveInfo="compareTo" />
+                    <link role="baseMethodDeclaration" roleId="tpee.1068499141037" targetNodeId="a2d2.~AbstractInstant%dcompareTo(org%djoda%dtime%dReadableInstant)%cint" resolveInfo="compareTo" />
                     <node role="actualArgument" roleId="tpee.1068499141038" type="tpee.LocalInstanceFieldReference" typeId="tpee.7785501532031639928" id="734650238126521040">
                       <link role="variableDeclaration" roleId="tpee.1068581517664" targetNodeId="734650238126520751" resolveInfo="myReference" />
                     </node>
@@ -8206,7 +8212,7 @@
                     <link role="variableDeclaration" roleId="tpee.1068581517664" targetNodeId="734650238126521050" resolveInfo="dateTime" />
                   </node>
                   <node role="operation" roleId="tpee.1197027833540" type="tpee.InstanceMethodCallOperation" typeId="tpee.1202948039474" id="734650238126521066">
-                    <link role="baseMethodDeclaration" roleId="tpee.1068499141037" targetNodeId="a2d2.~AbstractInstant%dcompareTo(java%dlang%dObject)%cint" resolveInfo="compareTo" />
+                    <link role="baseMethodDeclaration" roleId="tpee.1068499141037" targetNodeId="a2d2.~AbstractInstant%dcompareTo(org%djoda%dtime%dReadableInstant)%cint" resolveInfo="compareTo" />
                     <node role="actualArgument" roleId="tpee.1068499141038" type="tpee.LocalInstanceFieldReference" typeId="tpee.7785501532031639928" id="734650238126521067">
                       <link role="variableDeclaration" roleId="tpee.1068581517664" targetNodeId="734650238126520751" resolveInfo="myReference" />
                     </node>
