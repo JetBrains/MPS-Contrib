@@ -101,7 +101,6 @@
   <dependency className="jetbrains.mps.baseLanguage.dates.constraints.DateTimePropertFormatTokenUtil" file="DateTimePropertFormatTokenUtil.java">
     <classNode dependClassName="jetbrains.mps.internal.collections.runtime.ListSequence" />
     <classNode dependClassName="jetbrains.mps.lang.smodel.generator.smodelAdapter.SLinkOperations" />
-    <classNode dependClassName="jetbrains.mps.lang.smodel.generator.smodelAdapter.SNodeOperations" />
     <classNode dependClassName="jetbrains.mps.smodel.SNode" />
   </dependency>
   <dependency className="jetbrains.mps.baseLanguage.dates.constraints.DateTimePropertyFormatToken_Constraints" file="DateTimePropertyFormatToken_Constraints.java">

@@ -4,7 +4,6 @@ package jetbrains.mps.baseLanguage.dates.constraints;
 
 import jetbrains.mps.smodel.SNode;
 import jetbrains.mps.lang.smodel.generator.smodelAdapter.SLinkOperations;
-import jetbrains.mps.lang.smodel.generator.smodelAdapter.SNodeOperations;
 import jetbrains.mps.internal.collections.runtime.ListSequence;
 
 public class DateTimePropertFormatTokenUtil {
@@ -17,7 +16,7 @@ public class DateTimePropertFormatTokenUtil {
 
   public static SNode getDefaultFormatType(SNode token) {
     SNode result = null;
-    SNode config = SNodeOperations.cast(SLinkOperations.getTarget(token, "dateTimePropertyFormatConfiguration", false), "jetbrains.mps.baseLanguage.datesInternal.structure.DateTimeIntPropertyFormatConfiguration");
+    SNode config = SLinkOperations.getTarget(token, "dateTimePropertyFormatConfiguration", false);
     if (config != null) {
       result = ListSequence.fromList(SLinkOperations.getTargets(config, "dateTimePropertyFormatType", true)).first();
     }
