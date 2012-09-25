@@ -52,7 +52,7 @@
       <varInfo nodeId="1195647309117" varName="node" />
     </scopeInfo>
     <scopeInfo nodeId="1195647309258" fileName="ReplaceNodeWithItsContent_Intention.java" startLine="49" startPosition="19" endLine="53" endPosition="5">
-      <varInfo nodeId="1195647309258" varName="subContent" />
+      <varInfo nodeId="1195647309259" varName="subContent" />
     </scopeInfo>
     <scopeInfo nodeId="1195647309117" fileName="ReplaceNodeWithItsContent_Intention.java" startLine="56" startPosition="0" endLine="60" endPosition="0" />
     <scopeInfo nodeId="1195647309253" fileName="ReplaceNodeWithItsContent_Intention.java" startLine="48" startPosition="76" endLine="54" endPosition="37">
@@ -457,7 +457,7 @@
     <scopeInfo nodeId="1195665988476" fileName="SurroundWithContentList_Intention.java" startLine="61" startPosition="37" endLine="62" endPosition="42" />
     <scopeInfo nodeId="1195665988476" fileName="SurroundWithContentList_Intention.java" startLine="15" startPosition="91" endLine="17" endPosition="3" />
     <scopeInfo nodeId="1195665988537" fileName="SurroundWithContentList_Intention.java" startLine="54" startPosition="63" endLine="57" endPosition="5">
-      <varInfo nodeId="1195665988537" varName="selectedNode" />
+      <varInfo nodeId="1195665988538" varName="selectedNode" />
     </scopeInfo>
     <scopeInfo nodeId="1195665988476" fileName="SurroundWithContentList_Intention.java" startLine="18" startPosition="0" endLine="22" endPosition="0" />
     <scopeInfo nodeId="1195665988476" fileName="SurroundWithContentList_Intention.java" startLine="22" startPosition="0" endLine="26" endPosition="0" />
