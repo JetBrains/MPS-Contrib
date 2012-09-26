@@ -246,9 +246,7 @@
       <varInfo nodeId="1213877351736" varName="pimport" />
     </scopeInfo>
     <scopeInfo nodeId="1213877351761" fileName="Project_Behavior.java" startLine="35" startPosition="116" endLine="38" endPosition="7" />
-    <scopeInfo nodeId="1213877351790" fileName="Project_Behavior.java" startLine="45" startPosition="116" endLine="48" endPosition="7">
-      <varInfo nodeId="1213877351791" varName="target" />
-    </scopeInfo>
+    <scopeInfo nodeId="1213877351789" fileName="Project_Behavior.java" startLine="45" startPosition="116" endLine="48" endPosition="7" />
     <scopeInfo nodeId="1213877351719" fileName="Project_Behavior.java" startLine="53" startPosition="0" endLine="57" endPosition="0">
       <varInfo nodeId="1213877351719" varName="thisNode" />
     </scopeInfo>
