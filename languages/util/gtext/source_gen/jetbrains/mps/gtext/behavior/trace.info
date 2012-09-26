@@ -101,18 +101,18 @@
     <unitInfo nodeId="1213877257058" fileName="GLine_Behavior.java" startLine="9" startPosition="0" endLine="21" endPosition="0" unitName="jetbrains.mps.gtext.behavior.GLine_Behavior" />
   </root>
   <root nodeId="1213877296938" modelId="r:00000000-0000-4000-0000-011c89590570(jetbrains.mps.gtext.behavior)">
-    <nodeInfo nodeId="4886751650217069001" fileName="GDocument_Behavior.java" startLine="12" startPosition="80" endLine="13" endPosition="120" conceptFqName="jetbrains.mps.baseLanguage.structure.ReturnStatement" />
-    <nodeInfo nodeId="1213877296938" fileName="GDocument_Behavior.java" startLine="8" startPosition="33" endLine="11" endPosition="0" conceptFqName="jetbrains.mps.baseLanguage.structure.StaticMethodDeclaration" propertyString="init#(Ljetbrains/mps/smodel/SNode;)V" />
-    <nodeInfo nodeId="1213877296938" fileName="GDocument_Behavior.java" startLine="11" startPosition="0" endLine="15" endPosition="0" conceptFqName="jetbrains.mps.baseLanguage.structure.StaticMethodDeclaration" propertyString="virtual_getUnitName_5067982036267369911#(Ljetbrains/mps/smodel/SNode;)Ljava/lang/String;" />
-    <scopeInfo nodeId="1213877296940" fileName="GDocument_Behavior.java" startLine="9" startPosition="43" endLine="9" endPosition="43" />
-    <scopeInfo nodeId="4886751650217068999" fileName="GDocument_Behavior.java" startLine="12" startPosition="80" endLine="13" endPosition="120" />
-    <scopeInfo nodeId="1213877296938" fileName="GDocument_Behavior.java" startLine="8" startPosition="33" endLine="11" endPosition="0">
+    <nodeInfo nodeId="4886751650217069001" fileName="GDocument_Behavior.java" startLine="13" startPosition="80" endLine="14" endPosition="177" conceptFqName="jetbrains.mps.baseLanguage.structure.ReturnStatement" />
+    <nodeInfo nodeId="1213877296938" fileName="GDocument_Behavior.java" startLine="9" startPosition="33" endLine="12" endPosition="0" conceptFqName="jetbrains.mps.baseLanguage.structure.StaticMethodDeclaration" propertyString="init#(Ljetbrains/mps/smodel/SNode;)V" />
+    <nodeInfo nodeId="1213877296938" fileName="GDocument_Behavior.java" startLine="12" startPosition="0" endLine="16" endPosition="0" conceptFqName="jetbrains.mps.baseLanguage.structure.StaticMethodDeclaration" propertyString="virtual_getUnitName_5067982036267369911#(Ljetbrains/mps/smodel/SNode;)Ljava/lang/String;" />
+    <scopeInfo nodeId="1213877296940" fileName="GDocument_Behavior.java" startLine="10" startPosition="43" endLine="10" endPosition="43" />
+    <scopeInfo nodeId="4886751650217068999" fileName="GDocument_Behavior.java" startLine="13" startPosition="80" endLine="14" endPosition="177" />
+    <scopeInfo nodeId="1213877296938" fileName="GDocument_Behavior.java" startLine="9" startPosition="33" endLine="12" endPosition="0">
       <varInfo nodeId="1213877296938" varName="thisNode" />
     </scopeInfo>
-    <scopeInfo nodeId="1213877296938" fileName="GDocument_Behavior.java" startLine="11" startPosition="0" endLine="15" endPosition="0">
+    <scopeInfo nodeId="1213877296938" fileName="GDocument_Behavior.java" startLine="12" startPosition="0" endLine="16" endPosition="0">
       <varInfo nodeId="1213877296938" varName="thisNode" />
     </scopeInfo>
-    <unitInfo nodeId="1213877296938" fileName="GDocument_Behavior.java" startLine="8" startPosition="0" endLine="16" endPosition="0" unitName="jetbrains.mps.gtext.behavior.GDocument_Behavior" />
+    <unitInfo nodeId="1213877296938" fileName="GDocument_Behavior.java" startLine="9" startPosition="0" endLine="17" endPosition="0" unitName="jetbrains.mps.gtext.behavior.GDocument_Behavior" />
   </root>
   <root nodeId="1213877298852" modelId="r:00000000-0000-4000-0000-011c89590570(jetbrains.mps.gtext.behavior)">
     <nodeInfo nodeId="1213877298852" fileName="GItem_Behavior.java" startLine="11" startPosition="29" endLine="12" endPosition="66" conceptFqName="jetbrains.mps.baseLanguage.structure.StaticFieldDeclaration" propertyString="PARAMETERS_1213877298853" />
