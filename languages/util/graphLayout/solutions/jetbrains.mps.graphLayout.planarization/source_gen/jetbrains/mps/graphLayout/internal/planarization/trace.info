@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <debugInfo>
-  <root nodeId="1532165762814134551">
+  <root nodeId="1532165762814134551" modelId="r:27cc5a65-3135-4942-98ef-91cb80b9a2a1(jetbrains.mps.graphLayout.internal.planarization)">
     <nodeInfo nodeId="1532165762814135935" fileName="ClusterEmbeddingConstructorTemp.java" startLine="34" startPosition="46" endLine="35" endPosition="35" conceptFqName="jetbrains.mps.baseLanguage.structure.StaticFieldDeclaration" propertyString="debugMode" />
     <nodeInfo nodeId="1532165762814135939" fileName="ClusterEmbeddingConstructorTemp.java" startLine="35" startPosition="35" endLine="36" endPosition="34" conceptFqName="jetbrains.mps.baseLanguage.structure.StaticFieldDeclaration" propertyString="showInfo" />
     <nodeInfo nodeId="1532165762814135850" fileName="ClusterEmbeddingConstructorTemp.java" startLine="37" startPosition="0" endLine="38" endPosition="33" conceptFqName="jetbrains.mps.baseLanguage.structure.FieldDeclaration" propertyString="myGraph" />
@@ -341,7 +341,6 @@
     <scopeInfo nodeId="1532165762814135210" fileName="ClusterEmbeddingConstructorTemp.java" startLine="202" startPosition="63" endLine="209" endPosition="5">
       <varInfo nodeId="1532165762814135211" varName="subcluster" />
     </scopeInfo>
-    <scopeInfo nodeId="1532165762814135252" fileName="ClusterEmbeddingConstructorTemp.java" startLine="211" startPosition="61" endLine="218" endPosition="7" />
     <scopeInfo nodeId="1532165762814135253" fileName="ClusterEmbeddingConstructorTemp.java" startLine="211" startPosition="61" endLine="218" endPosition="7">
       <varInfo nodeId="1532165762814135254" varName="edge" />
     </scopeInfo>

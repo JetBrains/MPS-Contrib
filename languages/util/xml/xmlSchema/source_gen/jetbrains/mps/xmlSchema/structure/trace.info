@@ -2,7 +2,7 @@
 <debugInfo>
   <unitInfo fileName="StructureAspectDescriptor.java" startLine="10" startPosition="0" endLine="107" endPosition="0" unitName="jetbrains.mps.xmlSchema.structure.StructureAspectDescriptor" />
   <unitInfo fileName="XmlSchema_Language.java" startLine="9" startPosition="0" endLine="16" endPosition="0" unitName="jetbrains.mps.xmlSchema.structure.XmlSchema_Language" />
-  <root nodeId="1168467929746">
+  <root nodeId="1168467929746" modelId="r:00000000-0000-4000-0000-011c89590598(jetbrains.mps.xmlSchema.structure)">
     <nodeInfo nodeId="1168467929746" fileName="useAttributeEnum_PropertySupport.java" startLine="11" startPosition="24" endLine="12" endPosition="18" conceptFqName="jetbrains.mps.baseLanguage.structure.ReturnStatement" />
     <nodeInfo nodeId="1168467929746" fileName="useAttributeEnum.java" startLine="13" startPosition="0" endLine="14" endPosition="24" conceptFqName="jetbrains.mps.baseLanguage.structure.FieldDeclaration" propertyString="myName" />
     <nodeInfo nodeId="1168467929746" fileName="useAttributeEnum_PropertySupport.java" startLine="13" startPosition="5" endLine="14" endPosition="109" conceptFqName="jetbrains.mps.baseLanguage.structure.LocalVariableDeclarationStatement" />
