@@ -309,9 +309,7 @@
       <varInfo nodeId="353793545802644439" varName="node" />
       <varInfo nodeId="353793545802644439" varName="scope" />
     </scopeInfo>
-    <scopeInfo nodeId="353793545802644450" fileName="TaskCall_Constraints.java" startLine="100" startPosition="139" endLine="107" endPosition="9">
-      <varInfo nodeId="353793545802644454" varName="attrDecl" />
-    </scopeInfo>
+    <scopeInfo nodeId="353793545802644449" fileName="TaskCall_Constraints.java" startLine="100" startPosition="139" endLine="107" endPosition="9" />
     <scopeInfo nodeId="353793545802644536" fileName="TaskCall_Constraints.java" startLine="49" startPosition="138" endLine="57" endPosition="23">
       <varInfo nodeId="353793545802644538" varName="nodes" />
       <varInfo nodeId="353793545802644545" varName="visible" />
