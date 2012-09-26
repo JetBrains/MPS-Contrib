@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <debugInfo>
-  <root nodeId="1123934034178616897">
+  <root nodeId="1123934034178616897" modelId="r:b41673a3-99b1-47c6-bcca-8fab31533bd1(planarizationTest)">
     <nodeInfo nodeId="2503771434357704727" fileName="CheckEmbeddedGraph.java" startLine="22" startPosition="85" endLine="23" endPosition="21" conceptFqName="jetbrains.mps.baseLanguage.structure.ReturnStatement" />
     <nodeInfo nodeId="1123934034178616952" fileName="CheckEmbeddedGraph.java" startLine="25" startPosition="5" endLine="26" endPosition="16" conceptFqName="jetbrains.mps.baseLanguage.structure.ReturnStatement" />
     <nodeInfo nodeId="3619822174190276483" fileName="CheckEmbeddedGraph.java" startLine="29" startPosition="94" endLine="30" endPosition="38" conceptFqName="jetbrains.mps.baseLanguage.structure.ExpressionStatement" />
@@ -51,9 +51,6 @@
     <scopeInfo nodeId="5488345258545698120" fileName="CheckEmbeddedGraph.java" startLine="58" startPosition="82" endLine="63" endPosition="70" />
     <scopeInfo nodeId="1123934034178616906" fileName="CheckEmbeddedGraph.java" startLine="20" startPosition="73" endLine="26" endPosition="16" />
     <scopeInfo nodeId="5488345258545698114" fileName="CheckEmbeddedGraph.java" startLine="57" startPosition="61" endLine="64" endPosition="5" />
-    <scopeInfo nodeId="5488345258545698117" fileName="CheckEmbeddedGraph.java" startLine="57" startPosition="61" endLine="64" endPosition="5">
-      <varInfo nodeId="5488345258545698118" varName="edge" />
-    </scopeInfo>
     <scopeInfo nodeId="3619822174190276491" fileName="CheckEmbeddedGraph.java" startLine="31" startPosition="71" endLine="39" endPosition="7" />
     <scopeInfo nodeId="1123934034178616903" fileName="CheckEmbeddedGraph.java" startLine="19" startPosition="33" endLine="28" endPosition="0">
       <varInfo nodeId="1123934034178616908" varName="embeddedGraph" />
@@ -81,7 +78,7 @@
     <unitInfo nodeId="1123934034178616897" fileName="CheckEmbeddedGraph.java" startLine="19" startPosition="0" endLine="67" endPosition="0" unitName="planarizationTest.CheckEmbeddedGraph" />
     <unitInfo nodeId="5668095147007631916" fileName="CheckEmbeddedGraph.java" startLine="46" startPosition="89" endLine="50" endPosition="9" unitName="planarizationTest.CheckEmbeddedGraph$1" />
   </root>
-  <root nodeId="1327612371813215595">
+  <root nodeId="1327612371813215595" modelId="r:b41673a3-99b1-47c6-bcca-8fab31533bd1(planarizationTest)">
     <nodeInfo nodeId="1327612371813215648" fileName="BiconnectedInitialEmbeddingFinder_Test.java" startLine="14" startPosition="45" endLine="15" endPosition="48" conceptFqName="jetbrains.mps.baseLanguage.structure.LocalVariableDeclarationStatement" />
     <nodeInfo nodeId="1327612371813215660" fileName="BiconnectedInitialEmbeddingFinder_Test.java" startLine="15" startPosition="48" endLine="16" endPosition="16" conceptFqName="jetbrains.mps.baseLanguage.structure.ExpressionStatement" />
     <nodeInfo nodeId="1327612371813217408" fileName="BiconnectedInitialEmbeddingFinder_Test.java" startLine="19" startPosition="45" endLine="20" endPosition="66" conceptFqName="jetbrains.mps.baseLanguage.structure.LocalVariableDeclarationStatement" />
@@ -128,7 +125,7 @@
     </scopeInfo>
     <unitInfo nodeId="1327612371813215595" fileName="BiconnectedInitialEmbeddingFinder_Test.java" startLine="13" startPosition="0" endLine="44" endPosition="0" unitName="planarizationTest.BiconnectedInitialEmbeddingFinder_Test" />
   </root>
-  <root nodeId="1327612371813258703">
+  <root nodeId="1327612371813258703" modelId="r:b41673a3-99b1-47c6-bcca-8fab31533bd1(planarizationTest)">
     <nodeInfo nodeId="1327612371813258756" fileName="ShortestPathEmbeddingFinder_Test.java" startLine="16" startPosition="45" endLine="17" endPosition="48" conceptFqName="jetbrains.mps.baseLanguage.structure.LocalVariableDeclarationStatement" />
     <nodeInfo nodeId="1327612371813258761" fileName="ShortestPathEmbeddingFinder_Test.java" startLine="17" startPosition="48" endLine="18" endPosition="16" conceptFqName="jetbrains.mps.baseLanguage.structure.ExpressionStatement" />
     <nodeInfo nodeId="1327612371813258768" fileName="ShortestPathEmbeddingFinder_Test.java" startLine="21" startPosition="45" endLine="22" endPosition="66" conceptFqName="jetbrains.mps.baseLanguage.structure.LocalVariableDeclarationStatement" />
@@ -195,7 +192,7 @@
     </scopeInfo>
     <unitInfo nodeId="1327612371813258703" fileName="ShortestPathEmbeddingFinder_Test.java" startLine="15" startPosition="0" endLine="59" endPosition="0" unitName="planarizationTest.ShortestPathEmbeddingFinder_Test" />
   </root>
-  <root nodeId="1646208389854262552">
+  <root nodeId="1646208389854262552" modelId="r:b41673a3-99b1-47c6-bcca-8fab31533bd1(planarizationTest)">
     <nodeInfo nodeId="1646208389854266564" fileName="CheckFace.java" startLine="12" startPosition="42" endLine="13" endPosition="39" conceptFqName="jetbrains.mps.baseLanguage.structure.LocalVariableDeclarationStatement" />
     <nodeInfo nodeId="1646208389854266572" fileName="CheckFace.java" startLine="14" startPosition="80" endLine="15" endPosition="32" conceptFqName="jetbrains.mps.baseLanguage.structure.LocalVariableDeclarationStatement" />
     <nodeInfo nodeId="1646208389854266596" fileName="CheckFace.java" startLine="16" startPosition="68" endLine="17" endPosition="22" conceptFqName="jetbrains.mps.baseLanguage.structure.ExpressionStatement" />
@@ -225,7 +222,7 @@
     </scopeInfo>
     <unitInfo nodeId="1646208389854262552" fileName="CheckFace.java" startLine="11" startPosition="0" endLine="28" endPosition="0" unitName="planarizationTest.CheckFace" />
   </root>
-  <root nodeId="4179389957059017814">
+  <root nodeId="4179389957059017814" modelId="r:b41673a3-99b1-47c6-bcca-8fab31533bd1(planarizationTest)">
     <nodeInfo nodeId="4179389957059017898" fileName="TreeEmbeddingFinder_Find_Test.java" startLine="14" startPosition="48" endLine="15" endPosition="50" conceptFqName="jetbrains.mps.baseLanguage.structure.LocalVariableDeclarationStatement" />
     <nodeInfo nodeId="4179389957059017905" fileName="TreeEmbeddingFinder_Find_Test.java" startLine="15" startPosition="50" endLine="16" endPosition="16" conceptFqName="jetbrains.mps.baseLanguage.structure.ExpressionStatement" />
     <nodeInfo nodeId="4179389957059018969" fileName="TreeEmbeddingFinder_Find_Test.java" startLine="19" startPosition="45" endLine="20" endPosition="56" conceptFqName="jetbrains.mps.baseLanguage.structure.LocalVariableDeclarationStatement" />
@@ -281,7 +278,7 @@
     </scopeInfo>
     <unitInfo nodeId="4179389957059017814" fileName="TreeEmbeddingFinder_Find_Test.java" startLine="13" startPosition="0" endLine="50" endPosition="0" unitName="planarizationTest.TreeEmbeddingFinder_Find_Test" />
   </root>
-  <root nodeId="4422427343208741421">
+  <root nodeId="4422427343208741421" modelId="r:b41673a3-99b1-47c6-bcca-8fab31533bd1(planarizationTest)">
     <nodeInfo nodeId="4422427343208741837" fileName="AmbiguityPlanarizationFinder_Test.java" startLine="24" startPosition="45" endLine="25" endPosition="139" conceptFqName="jetbrains.mps.baseLanguage.structure.LocalVariableDeclarationStatement" />
     <nodeInfo nodeId="4422427343208741845" fileName="AmbiguityPlanarizationFinder_Test.java" startLine="25" startPosition="139" endLine="26" endPosition="62" conceptFqName="jetbrains.mps.baseLanguage.structure.LocalVariableDeclarationStatement" />
     <nodeInfo nodeId="4422427343208741856" fileName="AmbiguityPlanarizationFinder_Test.java" startLine="26" startPosition="62" endLine="27" endPosition="16" conceptFqName="jetbrains.mps.baseLanguage.structure.ExpressionStatement" />
@@ -394,7 +391,7 @@
     </scopeInfo>
     <unitInfo nodeId="4422427343208741421" fileName="AmbiguityPlanarizationFinder_Test.java" startLine="23" startPosition="0" endLine="83" endPosition="0" unitName="planarizationTest.AmbiguityPlanarizationFinder_Test" />
   </root>
-  <root nodeId="4644851485137285698">
+  <root nodeId="4644851485137285698" modelId="r:b41673a3-99b1-47c6-bcca-8fab31533bd1(planarizationTest)">
     <nodeInfo nodeId="4644851485137285746" fileName="PQPlanarizationFinder_Test.java" startLine="13" startPosition="45" endLine="14" endPosition="46" conceptFqName="jetbrains.mps.baseLanguage.structure.LocalVariableDeclarationStatement" />
     <nodeInfo nodeId="4644851485137285754" fileName="PQPlanarizationFinder_Test.java" startLine="14" startPosition="46" endLine="15" endPosition="62" conceptFqName="jetbrains.mps.baseLanguage.structure.LocalVariableDeclarationStatement" />
     <nodeInfo nodeId="4644851485137285766" fileName="PQPlanarizationFinder_Test.java" startLine="15" startPosition="62" endLine="16" endPosition="16" conceptFqName="jetbrains.mps.baseLanguage.structure.ExpressionStatement" />
@@ -480,7 +477,7 @@
     </scopeInfo>
     <unitInfo nodeId="4644851485137285698" fileName="PQPlanarizationFinder_Test.java" startLine="12" startPosition="0" endLine="67" endPosition="0" unitName="planarizationTest.PQPlanarizationFinder_Test" />
   </root>
-  <root nodeId="4998536563116627620">
+  <root nodeId="4998536563116627620" modelId="r:b41673a3-99b1-47c6-bcca-8fab31533bd1(planarizationTest)">
     <nodeInfo nodeId="4998536563116627635" fileName="ClusterEmbeddingConstructor_Test.java" startLine="15" startPosition="57" endLine="16" endPosition="71" conceptFqName="jetbrains.mps.baseLanguage.structure.LocalVariableDeclarationStatement" />
     <nodeInfo nodeId="4998536563116677108" fileName="ClusterEmbeddingConstructor_Test.java" startLine="16" startPosition="71" endLine="17" endPosition="70" conceptFqName="jetbrains.mps.baseLanguage.structure.LocalVariableDeclarationStatement" />
     <nodeInfo nodeId="4998536563116627643" fileName="ClusterEmbeddingConstructor_Test.java" startLine="17" startPosition="70" endLine="18" endPosition="79" conceptFqName="jetbrains.mps.baseLanguage.structure.LocalVariableDeclarationStatement" />
@@ -542,7 +539,7 @@
     </scopeInfo>
     <unitInfo nodeId="4998536563116627620" fileName="ClusterEmbeddingConstructor_Test.java" startLine="14" startPosition="0" endLine="51" endPosition="0" unitName="planarizationTest.ClusterEmbeddingConstructor_Test" />
   </root>
-  <root nodeId="516638300680467095">
+  <root nodeId="516638300680467095" modelId="r:b41673a3-99b1-47c6-bcca-8fab31533bd1(planarizationTest)">
     <nodeInfo nodeId="516638300680467141" fileName="PQPlanarityTest_Test.java" startLine="19" startPosition="45" endLine="20" endPosition="76" conceptFqName="jetbrains.mps.baseLanguage.structure.LocalVariableDeclarationStatement" />
     <nodeInfo nodeId="5639575219014565247" fileName="PQPlanarityTest_Test.java" startLine="20" startPosition="76" endLine="21" endPosition="27" conceptFqName="jetbrains.mps.baseLanguage.structure.ExpressionStatement" />
     <nodeInfo nodeId="5639575219014565257" fileName="PQPlanarityTest_Test.java" startLine="24" startPosition="45" endLine="25" endPosition="137" conceptFqName="jetbrains.mps.baseLanguage.structure.LocalVariableDeclarationStatement" />
@@ -619,7 +616,7 @@
     </scopeInfo>
     <unitInfo nodeId="516638300680467095" fileName="PQPlanarityTest_Test.java" startLine="18" startPosition="0" endLine="66" endPosition="0" unitName="planarizationTest.PQPlanarityTest_Test" />
   </root>
-  <root nodeId="5668095147007608818">
+  <root nodeId="5668095147007608818" modelId="r:b41673a3-99b1-47c6-bcca-8fab31533bd1(planarizationTest)">
     <nodeInfo nodeId="5668095147007609181" fileName="ClusterEmbeddingMakeBiconnected_Test.java" startLine="19" startPosition="57" endLine="20" endPosition="71" conceptFqName="jetbrains.mps.baseLanguage.structure.LocalVariableDeclarationStatement" />
     <nodeInfo nodeId="5668095147007609185" fileName="ClusterEmbeddingMakeBiconnected_Test.java" startLine="20" startPosition="71" endLine="21" endPosition="70" conceptFqName="jetbrains.mps.baseLanguage.structure.LocalVariableDeclarationStatement" />
     <nodeInfo nodeId="5668095147007609189" fileName="ClusterEmbeddingMakeBiconnected_Test.java" startLine="21" startPosition="70" endLine="22" endPosition="79" conceptFqName="jetbrains.mps.baseLanguage.structure.LocalVariableDeclarationStatement" />
@@ -685,7 +682,7 @@
     </scopeInfo>
     <unitInfo nodeId="5668095147007608818" fileName="ClusterEmbeddingMakeBiconnected_Test.java" startLine="18" startPosition="0" endLine="57" endPosition="0" unitName="planarizationTest.ClusterEmbeddingMakeBiconnected_Test" />
   </root>
-  <root nodeId="6191740939834534343">
+  <root nodeId="6191740939834534343" modelId="r:b41673a3-99b1-47c6-bcca-8fab31533bd1(planarizationTest)">
     <nodeInfo nodeId="6191740939834534353" fileName="StressTestPlanarization.java" startLine="26" startPosition="59" endLine="27" endPosition="51" conceptFqName="jetbrains.mps.baseLanguage.structure.LocalVariableDeclarationStatement" />
     <nodeInfo nodeId="6191740939834534357" fileName="StressTestPlanarization.java" startLine="27" startPosition="51" endLine="28" endPosition="45" conceptFqName="jetbrains.mps.baseLanguage.structure.LocalVariableDeclarationStatement" />
     <nodeInfo nodeId="6191740939834534364" fileName="StressTestPlanarization.java" startLine="28" startPosition="45" endLine="29" endPosition="45" conceptFqName="jetbrains.mps.baseLanguage.structure.LocalVariableDeclarationStatement" />
@@ -779,7 +776,7 @@
     </scopeInfo>
     <unitInfo nodeId="6191740939834534343" fileName="StressTestPlanarization.java" startLine="22" startPosition="0" endLine="79" endPosition="0" unitName="planarizationTest.StressTestPlanarization" />
   </root>
-  <root nodeId="6984255766319183447">
+  <root nodeId="6984255766319183447" modelId="r:b41673a3-99b1-47c6-bcca-8fab31533bd1(planarizationTest)">
     <nodeInfo nodeId="6984255766319236613" fileName="STPlanarGraph_Test.java" startLine="28" startPosition="45" endLine="29" endPosition="53" conceptFqName="jetbrains.mps.baseLanguage.structure.LocalVariableDeclarationStatement" />
     <nodeInfo nodeId="6984255766319236774" fileName="STPlanarGraph_Test.java" startLine="29" startPosition="53" endLine="30" endPosition="34" conceptFqName="jetbrains.mps.baseLanguage.structure.LocalVariableDeclarationStatement" />
     <nodeInfo nodeId="6984255766319236784" fileName="STPlanarGraph_Test.java" startLine="30" startPosition="34" endLine="31" endPosition="34" conceptFqName="jetbrains.mps.baseLanguage.structure.LocalVariableDeclarationStatement" />
@@ -913,7 +910,7 @@
     <scopeInfo nodeId="6984255766319183454" fileName="STPlanarGraph_Test.java" startLine="27" startPosition="50" endLine="84" endPosition="0" />
     <unitInfo nodeId="6984255766319183447" fileName="STPlanarGraph_Test.java" startLine="27" startPosition="0" endLine="120" endPosition="0" unitName="planarizationTest.STPlanarGraph_Test" />
   </root>
-  <root nodeId="8383102279435103573">
+  <root nodeId="8383102279435103573" modelId="r:b41673a3-99b1-47c6-bcca-8fab31533bd1(planarizationTest)">
     <nodeInfo nodeId="8383102279435103612" fileName="SubsequenceFinder_Test.java" startLine="13" startPosition="45" endLine="14" endPosition="44" conceptFqName="jetbrains.mps.baseLanguage.structure.LocalVariableDeclarationStatement" />
     <nodeInfo nodeId="8383102279435104318" fileName="SubsequenceFinder_Test.java" startLine="14" startPosition="44" endLine="15" endPosition="47" conceptFqName="jetbrains.mps.baseLanguage.structure.LocalVariableDeclarationStatement" />
     <nodeInfo nodeId="8383102279435104347" fileName="SubsequenceFinder_Test.java" startLine="15" startPosition="47" endLine="16" endPosition="83" conceptFqName="jetbrains.mps.baseLanguage.structure.LocalVariableDeclarationStatement" />
