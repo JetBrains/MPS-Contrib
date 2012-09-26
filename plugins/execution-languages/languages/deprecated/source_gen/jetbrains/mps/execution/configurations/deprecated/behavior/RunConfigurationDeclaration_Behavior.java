@@ -57,7 +57,7 @@ public class RunConfigurationDeclaration_Behavior {
   }
 
   public static List<SNode> virtual_getMembers_1213877528020(SNode thisNode, final SNode contextNode) {
-    List<SNode> members = IClassifier_Behavior.callSuper_getMembers_1213877528020(thisNode, "jetbrains.mps.execution.configurations.deprecated.structure.RunConfigurationDeclaration", contextNode);
+    List<SNode> members = IClassifier_Behavior.callSuperNew_getMembers_1213877528020(thisNode, "jetbrains.mps.baseLanguage.classifiers.structure.IClassifier", contextNode);
     return ListSequence.fromList(members).where(new IWhereFilter<SNode>() {
       public boolean accept(SNode node) {
         return IMember_Behavior.call_canOperationBeChild_4593153787954614840(node, contextNode);
@@ -90,6 +90,11 @@ public class RunConfigurationDeclaration_Behavior {
     return (SNode) descriptor.invoke(Object.class, SNodeOperations.cast(thisNode, "jetbrains.mps.execution.configurations.deprecated.structure.RunConfigurationDeclaration"), "virtual_getStateType_314981645426570519", PARAMETERS_314981645426570519, new Object[]{});
   }
 
+  public static SNode callSuperNew_getStateType_314981645426570519(SNode thisNode, String callerConceptFqName) {
+    return (SNode) BehaviorManager.getInstance().invokeSuperNew(Object.class, SNodeOperations.cast(thisNode, "jetbrains.mps.execution.configurations.deprecated.structure.RunConfigurationDeclaration"), callerConceptFqName, "virtual_getStateType_314981645426570519", PARAMETERS_314981645426570519, new Object[]{});
+  }
+
+  @Deprecated
   public static SNode callSuper_getStateType_314981645426570519(SNode thisNode, String callerConceptFqName) {
     return (SNode) BehaviorManager.getInstance().invokeSuper(Object.class, SNodeOperations.cast(thisNode, "jetbrains.mps.execution.configurations.deprecated.structure.RunConfigurationDeclaration"), callerConceptFqName, "virtual_getStateType_314981645426570519", PARAMETERS_314981645426570519, new Object[]{});
   }

@@ -26,6 +26,11 @@ public class IEnhancedRunConfiguration_Behavior {
     return (List<SNode>) descriptor.invoke(Object.class, SNodeOperations.cast(thisNode, "jetbrains.mps.execution.configurations.deprecated.structure.IEnhancedRunConfiguration"), "virtual_getAdditionalParameters_314981645426570797", PARAMETERS_314981645426570797, new Object[]{});
   }
 
+  public static List<SNode> callSuperNew_getAdditionalParameters_314981645426570797(SNode thisNode, String callerConceptFqName) {
+    return (List<SNode>) BehaviorManager.getInstance().invokeSuperNew(Object.class, SNodeOperations.cast(thisNode, "jetbrains.mps.execution.configurations.deprecated.structure.IEnhancedRunConfiguration"), callerConceptFqName, "virtual_getAdditionalParameters_314981645426570797", PARAMETERS_314981645426570797, new Object[]{});
+  }
+
+  @Deprecated
   public static List<SNode> callSuper_getAdditionalParameters_314981645426570797(SNode thisNode, String callerConceptFqName) {
     return (List<SNode>) BehaviorManager.getInstance().invokeSuper(Object.class, SNodeOperations.cast(thisNode, "jetbrains.mps.execution.configurations.deprecated.structure.IEnhancedRunConfiguration"), callerConceptFqName, "virtual_getAdditionalParameters_314981645426570797", PARAMETERS_314981645426570797, new Object[]{});
   }

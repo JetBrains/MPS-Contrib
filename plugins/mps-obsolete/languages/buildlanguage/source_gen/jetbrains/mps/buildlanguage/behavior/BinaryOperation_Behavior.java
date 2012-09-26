@@ -23,6 +23,11 @@ public class BinaryOperation_Behavior {
     return (SNode) descriptor.invoke(Object.class, SNodeOperations.cast(thisNode, "jetbrains.mps.buildlanguage.structure.BinaryOperation"), "virtual_getType_1213877398951", PARAMETERS_1213877398951, new Object[]{s1, s2});
   }
 
+  public static SNode callSuperNew_getType_1213877398951(SNode thisNode, String callerConceptFqName, SNode s1, SNode s2) {
+    return (SNode) BehaviorManager.getInstance().invokeSuperNew(Object.class, SNodeOperations.cast(thisNode, "jetbrains.mps.buildlanguage.structure.BinaryOperation"), callerConceptFqName, "virtual_getType_1213877398951", PARAMETERS_1213877398951, new Object[]{s1, s2});
+  }
+
+  @Deprecated
   public static SNode callSuper_getType_1213877398951(SNode thisNode, String callerConceptFqName, SNode s1, SNode s2) {
     return (SNode) BehaviorManager.getInstance().invokeSuper(Object.class, SNodeOperations.cast(thisNode, "jetbrains.mps.buildlanguage.structure.BinaryOperation"), callerConceptFqName, "virtual_getType_1213877398951", PARAMETERS_1213877398951, new Object[]{s1, s2});
   }

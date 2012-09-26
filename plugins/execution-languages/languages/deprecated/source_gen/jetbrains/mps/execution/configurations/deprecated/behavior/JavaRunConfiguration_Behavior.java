@@ -20,7 +20,7 @@ public class JavaRunConfiguration_Behavior {
   }
 
   public static List<SNode> virtual_getAdditionalParameters_314981645426570797(SNode thisNode) {
-    List<SNode> parameters = IEnhancedRunConfiguration_Behavior.callSuper_getAdditionalParameters_314981645426570797(thisNode, "jetbrains.mps.execution.configurations.deprecated.structure.JavaRunConfiguration");
+    List<SNode> parameters = IEnhancedRunConfiguration_Behavior.callSuperNew_getAdditionalParameters_314981645426570797(thisNode, "jetbrains.mps.execution.configurations.deprecated.structure.IEnhancedRunConfiguration");
 
     ListSequence.fromList(parameters).addElement(SConceptOperations.findConceptDeclaration("jetbrains.mps.execution.configurations.deprecated.structure.JavaConfigurationRunParameters_FunctionParameter"));
     return parameters;

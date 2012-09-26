@@ -59,6 +59,7 @@
   </dependency>
   <dependency className="jetbrains.mps.execution.configurations.deprecated.behavior.BaseCreatorTarget_Behavior" file="BaseCreatorTarget_Behavior.java">
     <classNode dependClassName="java.lang.Class" />
+    <classNode dependClassName="java.lang.Deprecated" />
     <classNode dependClassName="java.lang.Object" />
     <classNode dependClassName="java.lang.String" />
     <classNode dependClassName="jetbrains.mps.lang.smodel.generator.smodelAdapter.SNodeOperations" />
@@ -286,6 +287,7 @@
   </dependency>
   <dependency className="jetbrains.mps.execution.configurations.deprecated.behavior.IEnhancedRunConfiguration_Behavior" file="IEnhancedRunConfiguration_Behavior.java">
     <classNode dependClassName="java.lang.Class" />
+    <classNode dependClassName="java.lang.Deprecated" />
     <classNode dependClassName="java.lang.Object" />
     <classNode dependClassName="java.lang.String" />
     <classNode dependClassName="java.util.List" />
@@ -304,6 +306,7 @@
   <dependency className="jetbrains.mps.execution.configurations.deprecated.behavior.IExecuteConfigBlock_BehaviorDescriptor" file="IExecuteConfigBlock_BehaviorDescriptor.java" />
   <dependency className="jetbrains.mps.execution.configurations.deprecated.behavior.IJavaRunConfigurationParameter_Behavior" file="IJavaRunConfigurationParameter_Behavior.java">
     <classNode dependClassName="java.lang.Class" />
+    <classNode dependClassName="java.lang.Deprecated" />
     <classNode dependClassName="java.lang.Object" />
     <classNode dependClassName="java.lang.String" />
     <classNode dependClassName="jetbrains.mps.lang.smodel.generator.smodelAdapter.SNodeOperations" />
@@ -659,6 +662,7 @@
   </dependency>
   <dependency className="jetbrains.mps.execution.configurations.deprecated.behavior.RunConfigurationDeclaration_Behavior" file="RunConfigurationDeclaration_Behavior.java">
     <classNode dependClassName="java.lang.Class" />
+    <classNode dependClassName="java.lang.Deprecated" />
     <classNode dependClassName="java.lang.Object" />
     <classNode dependClassName="java.lang.String" />
     <classNode dependClassName="java.util.HashSet" />

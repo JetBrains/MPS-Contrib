@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <debugInfo>
   <unitInfo fileName="ConstraintsAspectDescriptor.java" startLine="9" startPosition="0" endLine="37" endPosition="0" unitName="jetbrains.mps.build.generictasks.constraints.ConstraintsAspectDescriptor" />
-  <root nodeId="1190349257898069072">
+  <root nodeId="1190349257898069072" modelId="r:71eee63a-b16f-40f8-920d-8fd0fe7dc8a1(jetbrains.mps.build.generictasks.constraints)">
     <nodeInfo nodeId="1190349257898069151" fileName="SequenceSearchScope.java" startLine="13" startPosition="62" endLine="14" endPosition="40" conceptFqName="jetbrains.mps.baseLanguage.structure.FieldDeclaration" propertyString="myNodes" />
     <nodeInfo nodeId="1190349257898069159" fileName="SequenceSearchScope.java" startLine="16" startPosition="53" endLine="17" endPosition="20" conceptFqName="jetbrains.mps.baseLanguage.structure.ExpressionStatement" />
     <nodeInfo nodeId="1190349257898121642" fileName="SequenceSearchScope.java" startLine="23" startPosition="39" endLine="24" endPosition="33" conceptFqName="jetbrains.mps.baseLanguage.structure.ReturnStatement" />
@@ -24,7 +24,7 @@
     <unitInfo nodeId="1190349257898069072" fileName="SequenceSearchScope.java" startLine="13" startPosition="0" endLine="29" endPosition="0" unitName="jetbrains.mps.build.generictasks.constraints.SequenceSearchScope" />
     <unitInfo nodeId="1190349257898121638" fileName="SequenceSearchScope.java" startLine="22" startPosition="52" endLine="26" endPosition="5" unitName="jetbrains.mps.build.generictasks.constraints.SequenceSearchScope$1" />
   </root>
-  <root nodeId="1445805690439864464">
+  <root nodeId="1445805690439864464" modelId="r:71eee63a-b16f-40f8-920d-8fd0fe7dc8a1(jetbrains.mps.build.generictasks.constraints)">
     <nodeInfo nodeId="1445805690439864464" fileName="TaskInterfaceDeclaration_Constraints.java" startLine="13" startPosition="85" endLine="14" endPosition="183" conceptFqName="jetbrains.mps.baseLanguage.structure.StaticFieldDeclaration" propertyString="canBeRootBreakingPoint" />
     <nodeInfo nodeId="1445805690439864464" fileName="TaskInterfaceDeclaration_Constraints.java" startLine="16" startPosition="49" endLine="17" endPosition="81" conceptFqName="jetbrains.mps.baseLanguage.structure.SuperConstructorInvocation" />
     <nodeInfo nodeId="1445805690439864464" fileName="TaskInterfaceDeclaration_Constraints.java" startLine="21" startPosition="42" endLine="22" endPosition="16" conceptFqName="jetbrains.mps.baseLanguage.structure.ReturnStatement" />
@@ -59,7 +59,7 @@
     </scopeInfo>
     <unitInfo nodeId="1445805690439864464" fileName="TaskInterfaceDeclaration_Constraints.java" startLine="13" startPosition="0" endLine="40" endPosition="0" unitName="jetbrains.mps.build.generictasks.constraints.TaskInterfaceDeclaration_Constraints" />
   </root>
-  <root nodeId="3037831562615764090">
+  <root nodeId="3037831562615764090" modelId="r:71eee63a-b16f-40f8-920d-8fd0fe7dc8a1(jetbrains.mps.build.generictasks.constraints)">
     <nodeInfo nodeId="3037831562615764090" fileName="TaskReference_Constraints.java" startLine="24" startPosition="74" endLine="25" endPosition="199" conceptFqName="jetbrains.mps.baseLanguage.structure.StaticFieldDeclaration" propertyString="breakingNode_6artq6_a0a1a0a0a1a0b0a1a0" />
     <nodeInfo nodeId="3037831562615764090" fileName="TaskReference_Constraints.java" startLine="27" startPosition="38" endLine="28" endPosition="70" conceptFqName="jetbrains.mps.baseLanguage.structure.SuperConstructorInvocation" />
     <nodeInfo nodeId="3037831562615764090" fileName="TaskReference_Constraints.java" startLine="32" startPosition="83" endLine="33" endPosition="75" conceptFqName="jetbrains.mps.baseLanguage.structure.LocalVariableDeclarationStatement" />
@@ -127,7 +127,7 @@
     <unitInfo nodeId="3037831562615764090" fileName="TaskReference_Constraints.java" startLine="34" startPosition="38" endLine="74" endPosition="5" unitName="jetbrains.mps.build.generictasks.constraints.TaskReference_Constraints$1" />
     <unitInfo nodeId="3037831562615764090" fileName="TaskReference_Constraints.java" startLine="43" startPosition="19" endLine="72" endPosition="9" unitName="jetbrains.mps.build.generictasks.constraints.TaskReference_Constraints$2" />
   </root>
-  <root nodeId="353793545802644405">
+  <root nodeId="353793545802644405" modelId="r:71eee63a-b16f-40f8-920d-8fd0fe7dc8a1(jetbrains.mps.build.generictasks.constraints)">
     <nodeInfo nodeId="353793545802644405" fileName="Attribute_Constraints.java" startLine="24" startPosition="70" endLine="25" endPosition="198" conceptFqName="jetbrains.mps.baseLanguage.structure.StaticFieldDeclaration" propertyString="breakingNode_oyfip5_a0a1a0a0a4a0b0a1a0" />
     <nodeInfo nodeId="353793545802644405" fileName="Attribute_Constraints.java" startLine="27" startPosition="34" endLine="28" endPosition="66" conceptFqName="jetbrains.mps.baseLanguage.structure.SuperConstructorInvocation" />
     <nodeInfo nodeId="353793545802644405" fileName="Attribute_Constraints.java" startLine="32" startPosition="83" endLine="33" endPosition="75" conceptFqName="jetbrains.mps.baseLanguage.structure.LocalVariableDeclarationStatement" />
@@ -199,7 +199,7 @@
     <unitInfo nodeId="353793545802644405" fileName="Attribute_Constraints.java" startLine="58" startPosition="19" endLine="77" endPosition="9" unitName="jetbrains.mps.build.generictasks.constraints.Attribute_Constraints$2" />
     <unitInfo nodeId="1190349257898069972" fileName="Attribute_Constraints.java" startLine="62" startPosition="23" endLine="70" endPosition="13" unitName="jetbrains.mps.build.generictasks.constraints.Attribute_Constraints$3" />
   </root>
-  <root nodeId="353793545802644439">
+  <root nodeId="353793545802644439" modelId="r:71eee63a-b16f-40f8-920d-8fd0fe7dc8a1(jetbrains.mps.build.generictasks.constraints)">
     <nodeInfo nodeId="353793545802644439" fileName="TaskCall_Constraints.java" startLine="32" startPosition="69" endLine="33" endPosition="190" conceptFqName="jetbrains.mps.baseLanguage.structure.StaticFieldDeclaration" propertyString="breakingNode_sufet9_a0a1a0a0a1" />
     <nodeInfo nodeId="353793545802644439" fileName="TaskCall_Constraints.java" startLine="33" startPosition="190" endLine="34" endPosition="198" conceptFqName="jetbrains.mps.baseLanguage.structure.StaticFieldDeclaration" propertyString="breakingNode_sufet9_a0a1a0a0a4a0b0a1a3" />
     <nodeInfo nodeId="353793545802644439" fileName="TaskCall_Constraints.java" startLine="36" startPosition="33" endLine="37" endPosition="65" conceptFqName="jetbrains.mps.baseLanguage.structure.SuperConstructorInvocation" />
@@ -309,7 +309,6 @@
       <varInfo nodeId="353793545802644439" varName="node" />
       <varInfo nodeId="353793545802644439" varName="scope" />
     </scopeInfo>
-    <scopeInfo nodeId="353793545802644449" fileName="TaskCall_Constraints.java" startLine="100" startPosition="139" endLine="107" endPosition="9" />
     <scopeInfo nodeId="353793545802644450" fileName="TaskCall_Constraints.java" startLine="100" startPosition="139" endLine="107" endPosition="9">
       <varInfo nodeId="353793545802644454" varName="attrDecl" />
     </scopeInfo>
@@ -357,7 +356,7 @@
     <unitInfo nodeId="1648602681640249338" fileName="TaskCall_Constraints.java" startLine="123" startPosition="25" endLine="132" endPosition="15" unitName="jetbrains.mps.build.generictasks.constraints.TaskCall_Constraints$5" />
     <unitInfo nodeId="1191515374482688689" fileName="TaskCall_Constraints.java" startLine="123" startPosition="91" endLine="127" endPosition="15" unitName="jetbrains.mps.build.generictasks.constraints.TaskCall_Constraints$6" />
   </root>
-  <root nodeId="353793545802855002">
+  <root nodeId="353793545802855002" modelId="r:71eee63a-b16f-40f8-920d-8fd0fe7dc8a1(jetbrains.mps.build.generictasks.constraints)">
     <nodeInfo nodeId="353793545802855002" fileName="PathReference_Constraints.java" startLine="24" startPosition="74" endLine="25" endPosition="198" conceptFqName="jetbrains.mps.baseLanguage.structure.StaticFieldDeclaration" propertyString="breakingNode_tb73e6_a0a1a0a0a1a0b0a1a0" />
     <nodeInfo nodeId="353793545802855002" fileName="PathReference_Constraints.java" startLine="27" startPosition="38" endLine="28" endPosition="70" conceptFqName="jetbrains.mps.baseLanguage.structure.SuperConstructorInvocation" />
     <nodeInfo nodeId="353793545802855002" fileName="PathReference_Constraints.java" startLine="32" startPosition="83" endLine="33" endPosition="75" conceptFqName="jetbrains.mps.baseLanguage.structure.LocalVariableDeclarationStatement" />
@@ -410,7 +409,7 @@
     <unitInfo nodeId="353793545802855002" fileName="PathReference_Constraints.java" startLine="34" startPosition="31" endLine="63" endPosition="5" unitName="jetbrains.mps.build.generictasks.constraints.PathReference_Constraints$1" />
     <unitInfo nodeId="353793545802855002" fileName="PathReference_Constraints.java" startLine="43" startPosition="19" endLine="61" endPosition="9" unitName="jetbrains.mps.build.generictasks.constraints.PathReference_Constraints$2" />
   </root>
-  <root nodeId="4710899751214125125">
+  <root nodeId="4710899751214125125" modelId="r:71eee63a-b16f-40f8-920d-8fd0fe7dc8a1(jetbrains.mps.build.generictasks.constraints)">
     <nodeInfo nodeId="4710899751214125125" fileName="NestedDeclaration_Constraints.java" startLine="13" startPosition="78" endLine="14" endPosition="184" conceptFqName="jetbrains.mps.baseLanguage.structure.StaticFieldDeclaration" propertyString="canBeChildBreakingPoint" />
     <nodeInfo nodeId="4710899751214125125" fileName="NestedDeclaration_Constraints.java" startLine="16" startPosition="42" endLine="17" endPosition="74" conceptFqName="jetbrains.mps.baseLanguage.structure.SuperConstructorInvocation" />
     <nodeInfo nodeId="4710899751214125125" fileName="NestedDeclaration_Constraints.java" startLine="21" startPosition="43" endLine="22" endPosition="16" conceptFqName="jetbrains.mps.baseLanguage.structure.ReturnStatement" />
@@ -451,7 +450,7 @@
     </scopeInfo>
     <unitInfo nodeId="4710899751214125125" fileName="NestedDeclaration_Constraints.java" startLine="13" startPosition="0" endLine="40" endPosition="0" unitName="jetbrains.mps.build.generictasks.constraints.NestedDeclaration_Constraints" />
   </root>
-  <root nodeId="8233904257588554705">
+  <root nodeId="8233904257588554705" modelId="r:71eee63a-b16f-40f8-920d-8fd0fe7dc8a1(jetbrains.mps.build.generictasks.constraints)">
     <nodeInfo nodeId="8233904257588554705" fileName="BuiltInTaskDeclaration_Constraints.java" startLine="13" startPosition="83" endLine="14" endPosition="183" conceptFqName="jetbrains.mps.baseLanguage.structure.StaticFieldDeclaration" propertyString="canBeRootBreakingPoint" />
     <nodeInfo nodeId="8233904257588554705" fileName="BuiltInTaskDeclaration_Constraints.java" startLine="16" startPosition="47" endLine="17" endPosition="79" conceptFqName="jetbrains.mps.baseLanguage.structure.SuperConstructorInvocation" />
     <nodeInfo nodeId="8233904257588554705" fileName="BuiltInTaskDeclaration_Constraints.java" startLine="21" startPosition="42" endLine="22" endPosition="16" conceptFqName="jetbrains.mps.baseLanguage.structure.ReturnStatement" />

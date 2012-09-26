@@ -9,16 +9,19 @@
   <unitInfo fileName="ExternalId_BehaviorDescriptor.java" startLine="9" startPosition="0" endLine="20" endPosition="0" unitName="jetbrains.mps.xml.deprecated.behavior.ExternalId_BehaviorDescriptor" />
   <unitInfo fileName="PublicId_BehaviorDescriptor.java" startLine="8" startPosition="0" endLine="21" endPosition="0" unitName="jetbrains.mps.xml.deprecated.behavior.PublicId_BehaviorDescriptor" />
   <unitInfo fileName="Text_BehaviorDescriptor.java" startLine="6" startPosition="0" endLine="15" endPosition="0" unitName="jetbrains.mps.xml.deprecated.behavior.Text_BehaviorDescriptor" />
-  <root nodeId="1234406616484">
+  <root nodeId="1234406616484" modelId="r:ba842257-2468-4a73-8c6f-fb41d6d73b25(jetbrains.mps.xml.deprecated.behavior)">
     <nodeInfo nodeId="1234406616484" fileName="ExternalId_Behavior.java" startLine="12" startPosition="34" endLine="13" endPosition="81" conceptFqName="jetbrains.mps.baseLanguage.structure.StaticFieldDeclaration" propertyString="PARAMETERS_1234406619968" />
     <nodeInfo nodeId="1234406616484" fileName="ExternalId_Behavior.java" startLine="18" startPosition="83" endLine="19" endPosition="113" conceptFqName="jetbrains.mps.baseLanguage.structure.LocalVariableDeclarationStatement" />
     <nodeInfo nodeId="1234406616484" fileName="ExternalId_Behavior.java" startLine="19" startPosition="113" endLine="20" endPosition="204" conceptFqName="jetbrains.mps.baseLanguage.structure.ExpressionStatement" />
-    <nodeInfo nodeId="1234406616484" fileName="ExternalId_Behavior.java" startLine="23" startPosition="116" endLine="24" endPosition="249" conceptFqName="jetbrains.mps.baseLanguage.structure.ExpressionStatement" />
+    <nodeInfo nodeId="1234406616484" fileName="ExternalId_Behavior.java" startLine="23" startPosition="119" endLine="24" endPosition="252" conceptFqName="jetbrains.mps.baseLanguage.structure.ExpressionStatement" />
+    <nodeInfo nodeId="1234406616484" fileName="ExternalId_Behavior.java" startLine="28" startPosition="116" endLine="29" endPosition="249" conceptFqName="jetbrains.mps.baseLanguage.structure.ExpressionStatement" />
     <nodeInfo nodeId="1234406616484" fileName="ExternalId_Behavior.java" startLine="14" startPosition="0" endLine="17" endPosition="0" conceptFqName="jetbrains.mps.baseLanguage.structure.StaticMethodDeclaration" propertyString="init#(Ljetbrains/mps/smodel/SNode;)V" />
-    <nodeInfo nodeId="1234406616484" fileName="ExternalId_Behavior.java" startLine="22" startPosition="0" endLine="26" endPosition="0" conceptFqName="jetbrains.mps.baseLanguage.structure.StaticMethodDeclaration" propertyString="callSuper_createID_1234406619968#(Ljetbrains/mps/smodel/SNode;Ljava/lang/String;Lorg/jdom/DocType;)V" />
+    <nodeInfo nodeId="1234406616484" fileName="ExternalId_Behavior.java" startLine="22" startPosition="0" endLine="26" endPosition="0" conceptFqName="jetbrains.mps.baseLanguage.structure.StaticMethodDeclaration" propertyString="callSuperNew_createID_1234406619968#(Ljetbrains/mps/smodel/SNode;Ljava/lang/String;Lorg/jdom/DocType;)V" />
     <nodeInfo nodeId="1234406616484" fileName="ExternalId_Behavior.java" startLine="17" startPosition="0" endLine="22" endPosition="0" conceptFqName="jetbrains.mps.baseLanguage.structure.StaticMethodDeclaration" propertyString="call_createID_1234406619968#(Ljetbrains/mps/smodel/SNode;Lorg/jdom/DocType;)V" />
+    <nodeInfo nodeId="1234406616484" fileName="ExternalId_Behavior.java" startLine="26" startPosition="0" endLine="31" endPosition="0" conceptFqName="jetbrains.mps.baseLanguage.structure.StaticMethodDeclaration" propertyString="callSuper_createID_1234406619968#(Ljetbrains/mps/smodel/SNode;Ljava/lang/String;Lorg/jdom/DocType;)V" />
     <scopeInfo nodeId="1234406616486" fileName="ExternalId_Behavior.java" startLine="15" startPosition="43" endLine="15" endPosition="43" />
-    <scopeInfo nodeId="1234406616484" fileName="ExternalId_Behavior.java" startLine="23" startPosition="116" endLine="24" endPosition="249" />
+    <scopeInfo nodeId="1234406616484" fileName="ExternalId_Behavior.java" startLine="23" startPosition="119" endLine="24" endPosition="252" />
+    <scopeInfo nodeId="1234406616484" fileName="ExternalId_Behavior.java" startLine="28" startPosition="116" endLine="29" endPosition="249" />
     <scopeInfo nodeId="1234406616484" fileName="ExternalId_Behavior.java" startLine="18" startPosition="83" endLine="20" endPosition="204">
       <varInfo nodeId="1234406616484" varName="descriptor" />
     </scopeInfo>
@@ -34,9 +37,14 @@
       <varInfo nodeId="1234406685500" varName="doctype" />
       <varInfo nodeId="1234406616484" varName="thisNode" />
     </scopeInfo>
-    <unitInfo nodeId="1234406616484" fileName="ExternalId_Behavior.java" startLine="12" startPosition="0" endLine="27" endPosition="0" unitName="jetbrains.mps.xml.deprecated.behavior.ExternalId_Behavior" />
+    <scopeInfo nodeId="1234406616484" fileName="ExternalId_Behavior.java" startLine="26" startPosition="0" endLine="31" endPosition="0">
+      <varInfo nodeId="1234406616484" varName="callerConceptFqName" />
+      <varInfo nodeId="1234406685500" varName="doctype" />
+      <varInfo nodeId="1234406616484" varName="thisNode" />
+    </scopeInfo>
+    <unitInfo nodeId="1234406616484" fileName="ExternalId_Behavior.java" startLine="12" startPosition="0" endLine="32" endPosition="0" unitName="jetbrains.mps.xml.deprecated.behavior.ExternalId_Behavior" />
   </root>
-  <root nodeId="1234406711692">
+  <root nodeId="1234406711692" modelId="r:ba842257-2468-4a73-8c6f-fb41d6d73b25(jetbrains.mps.xml.deprecated.behavior)">
     <nodeInfo nodeId="1234406741388" fileName="PublicId_Behavior.java" startLine="13" startPosition="86" endLine="14" endPosition="77" conceptFqName="jetbrains.mps.baseLanguage.structure.ExpressionStatement" />
     <nodeInfo nodeId="1234406769296" fileName="PublicId_Behavior.java" startLine="14" startPosition="77" endLine="15" endPosition="77" conceptFqName="jetbrains.mps.baseLanguage.structure.ExpressionStatement" />
     <nodeInfo nodeId="1234406711692" fileName="PublicId_Behavior.java" startLine="9" startPosition="32" endLine="12" endPosition="0" conceptFqName="jetbrains.mps.baseLanguage.structure.StaticMethodDeclaration" propertyString="init#(Ljetbrains/mps/smodel/SNode;)V" />
@@ -52,7 +60,7 @@
     </scopeInfo>
     <unitInfo nodeId="1234406711692" fileName="PublicId_Behavior.java" startLine="9" startPosition="0" endLine="18" endPosition="0" unitName="jetbrains.mps.xml.deprecated.behavior.PublicId_Behavior" />
   </root>
-  <root nodeId="1234428640648">
+  <root nodeId="1234428640648" modelId="r:ba842257-2468-4a73-8c6f-fb41d6d73b25(jetbrains.mps.xml.deprecated.behavior)">
     <nodeInfo nodeId="1234428648133" fileName="Document_Behavior.java" startLine="9" startPosition="43" endLine="10" endPosition="58" conceptFqName="jetbrains.mps.baseLanguage.structure.ExpressionStatement" />
     <nodeInfo nodeId="1234428640648" fileName="Document_Behavior.java" startLine="8" startPosition="32" endLine="12" endPosition="0" conceptFqName="jetbrains.mps.baseLanguage.structure.StaticMethodDeclaration" propertyString="init#(Ljetbrains/mps/smodel/SNode;)V" />
     <scopeInfo nodeId="1234428640650" fileName="Document_Behavior.java" startLine="9" startPosition="43" endLine="10" endPosition="58" />

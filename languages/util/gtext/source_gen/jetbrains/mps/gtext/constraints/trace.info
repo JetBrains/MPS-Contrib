@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <debugInfo>
   <unitInfo fileName="ConstraintsAspectDescriptor.java" startLine="9" startPosition="0" endLine="27" endPosition="0" unitName="jetbrains.mps.gtext.constraints.ConstraintsAspectDescriptor" />
-  <root nodeId="1213104844571">
+  <root nodeId="1213104844571" modelId="r:00000000-0000-4000-0000-011c89590571(jetbrains.mps.gtext.constraints)">
     <nodeInfo nodeId="1213104844571" fileName="GDocument_Constraints.java" startLine="15" startPosition="34" endLine="16" endPosition="53" conceptFqName="jetbrains.mps.baseLanguage.structure.SuperConstructorInvocation" />
     <nodeInfo nodeId="1213104844571" fileName="GDocument_Constraints.java" startLine="20" startPosition="82" endLine="21" endPosition="74" conceptFqName="jetbrains.mps.baseLanguage.structure.LocalVariableDeclarationStatement" />
     <nodeInfo nodeId="1213104844571" fileName="GDocument_Constraints.java" startLine="24" startPosition="37" endLine="25" endPosition="20" conceptFqName="jetbrains.mps.baseLanguage.structure.ReturnStatement" />
@@ -50,7 +50,7 @@
     <unitInfo nodeId="1213104844571" fileName="GDocument_Constraints.java" startLine="14" startPosition="0" endLine="48" endPosition="0" unitName="jetbrains.mps.gtext.constraints.GDocument_Constraints" />
     <unitInfo nodeId="1213104844571" fileName="GDocument_Constraints.java" startLine="22" startPosition="31" endLine="44" endPosition="5" unitName="jetbrains.mps.gtext.constraints.GDocument_Constraints$1" />
   </root>
-  <root nodeId="1213107436024">
+  <root nodeId="1213107436024" modelId="r:00000000-0000-4000-0000-011c89590571(jetbrains.mps.gtext.constraints)">
     <nodeInfo nodeId="1213107436024" fileName="GContentPlaceholder_Constraints.java" startLine="13" startPosition="80" endLine="14" endPosition="165" conceptFqName="jetbrains.mps.baseLanguage.structure.StaticFieldDeclaration" propertyString="canBeChildBreakingPoint" />
     <nodeInfo nodeId="1213107436024" fileName="GContentPlaceholder_Constraints.java" startLine="16" startPosition="44" endLine="17" endPosition="63" conceptFqName="jetbrains.mps.baseLanguage.structure.SuperConstructorInvocation" />
     <nodeInfo nodeId="1213107436024" fileName="GContentPlaceholder_Constraints.java" startLine="21" startPosition="43" endLine="22" endPosition="16" conceptFqName="jetbrains.mps.baseLanguage.structure.ReturnStatement" />
