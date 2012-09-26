@@ -531,7 +531,9 @@
       <varInfo nodeId="5114497955154742483" varName="a" />
       <varInfo nodeId="5114497955154742483" varName="b" />
     </scopeInfo>
-    <scopeInfo nodeId="353793545802644345" fileName="BuiltInTaskDeclaration_Behavior.java" startLine="93" startPosition="126" endLine="102" endPosition="7" />
+    <scopeInfo nodeId="353793545802644346" fileName="BuiltInTaskDeclaration_Behavior.java" startLine="93" startPosition="126" endLine="102" endPosition="7">
+      <varInfo nodeId="353793545802644347" varName="interfaceReference" />
+    </scopeInfo>
     <scopeInfo nodeId="353793545802644105" fileName="BuiltInTaskDeclaration_Behavior.java" startLine="32" startPosition="62" endLine="42" endPosition="9">
       <varInfo nodeId="353793545802644107" varName="found" />
     </scopeInfo>
