@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <debugInfo>
-  <root nodeId="1202817919406">
+  <root nodeId="1202817919406" modelId="r:00000000-0000-4000-0000-011c8959055e(jetbrains.mps.uiLanguage.samples.forms)">
     <nodeInfo nodeId="1202817919406" fileName="FormDemo.java" startLine="19" startPosition="38" endLine="20" endPosition="25" conceptFqName="jetbrains.mps.baseLanguage.structure.FieldDeclaration" propertyString="myThis" />
     <nodeInfo nodeId="1202817919406" fileName="FormDemo.java" startLine="20" startPosition="25" endLine="21" endPosition="39" conceptFqName="jetbrains.mps.baseLanguage.structure.FieldDeclaration" propertyString="myComponent_4g3yb7_a0" />
     <nodeInfo nodeId="1202817919406" fileName="FormDemo.java" startLine="21" startPosition="39" endLine="22" endPosition="40" conceptFqName="jetbrains.mps.baseLanguage.structure.FieldDeclaration" propertyString="myComponent_4g3yb7_b0a" />
