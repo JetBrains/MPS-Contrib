@@ -14,12 +14,13 @@ import jetbrains.mps.smodel.runtime.base.BaseScopeProvider;
 import jetbrains.mps.scope.Scope;
 import jetbrains.mps.smodel.IOperationContext;
 import jetbrains.mps.smodel.runtime.ReferenceConstraintsContext;
-import jetbrains.mps.baseLanguage.behavior.Classifier_Behavior;
+import jetbrains.mps.baseLanguage.scopes.MethodsScope;
+import jetbrains.mps.baseLanguage.scopes.Members;
 import jetbrains.mps.smodel.SNode;
 import jetbrains.mps.generator.JavaModelUtil_new;
 import org.joda.time.Period;
-import jetbrains.mps.lang.smodel.generator.smodelAdapter.SConceptOperations;
 import org.joda.time.DateTimeFieldType;
+import jetbrains.mps.baseLanguage.behavior.IClassifier_Behavior;
 import org.joda.time.format.PeriodFormatterBuilder;
 
 public class DateTimeProperty_Constraints extends BaseConstraintsDescriptor {
@@ -51,7 +52,7 @@ public class DateTimeProperty_Constraints extends BaseConstraintsDescriptor {
 
           @Override
           public Scope createScope(final IOperationContext operationContext, final ReferenceConstraintsContext _context) {
-            return Classifier_Behavior.call_getVisibleMembers_8083692786967356611(((SNode) JavaModelUtil_new.findClassifier(Period.class)), _context.getEnclosingNode(), SConceptOperations.findConceptDeclaration("jetbrains.mps.baseLanguage.structure.StaticMethodDeclaration"));
+            return new MethodsScope(Members.visibleStaticMethods((SNode) JavaModelUtil_new.findClassifier(Period.class), _context.getEnclosingNode()));
           }
         };
       }
@@ -73,7 +74,7 @@ public class DateTimeProperty_Constraints extends BaseConstraintsDescriptor {
 
           @Override
           public Scope createScope(final IOperationContext operationContext, final ReferenceConstraintsContext _context) {
-            return Classifier_Behavior.call_getVisibleMembers_8083692786967356611(((SNode) JavaModelUtil_new.findClassifier(DateTimeFieldType.class)), _context.getEnclosingNode(), SConceptOperations.findConceptDeclaration("jetbrains.mps.baseLanguage.structure.StaticMethodDeclaration"));
+            return new MethodsScope(Members.visibleStaticMethods((SNode) JavaModelUtil_new.findClassifier(DateTimeFieldType.class), _context.getEnclosingNode()));
           }
         };
       }
@@ -95,7 +96,7 @@ public class DateTimeProperty_Constraints extends BaseConstraintsDescriptor {
 
           @Override
           public Scope createScope(final IOperationContext operationContext, final ReferenceConstraintsContext _context) {
-            return Classifier_Behavior.call_getVisibleMembers_8083692786967356611(((SNode) JavaModelUtil_new.findClassifier(PeriodFormatterBuilder.class)), _context.getEnclosingNode(), SConceptOperations.findConceptDeclaration("jetbrains.mps.baseLanguage.structure.InstanceMethodDeclaration"));
+            return new MethodsScope(Members.visibleInstanceMethods(IClassifier_Behavior.call_getThisType_7405920559687254782(((SNode) JavaModelUtil_new.findClassifier(PeriodFormatterBuilder.class))), _context.getEnclosingNode()));
           }
         };
       }
