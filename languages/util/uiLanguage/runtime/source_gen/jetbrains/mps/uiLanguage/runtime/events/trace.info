@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <debugInfo>
-  <root nodeId="3987693689859618102">
+  <root nodeId="3987693689859618102" modelId="r:4fc7b676-941c-40f5-b442-77b156c079c8(jetbrains.mps.uiLanguage.runtime.events)">
     <nodeInfo nodeId="3987693689859618104" fileName="ListenerId.java" startLine="6" startPosition="25" endLine="7" endPosition="28" conceptFqName="jetbrains.mps.baseLanguage.structure.FieldDeclaration" propertyString="myInstance" />
     <nodeInfo nodeId="3987693689859618107" fileName="ListenerId.java" startLine="7" startPosition="28" endLine="8" endPosition="26" conceptFqName="jetbrains.mps.baseLanguage.structure.FieldDeclaration" propertyString="myMethod" />
     <nodeInfo nodeId="3987693689859618118" fileName="ListenerId.java" startLine="10" startPosition="53" endLine="11" endPosition="26" conceptFqName="jetbrains.mps.baseLanguage.structure.ExpressionStatement" />
@@ -32,14 +32,14 @@
     </scopeInfo>
     <unitInfo nodeId="3987693689859618102" fileName="ListenerId.java" startLine="6" startPosition="0" endLine="30" endPosition="0" unitName="jetbrains.mps.uiLanguage.runtime.events.ListenerId" />
   </root>
-  <root nodeId="3987693689859618179">
+  <root nodeId="3987693689859618179" modelId="r:4fc7b676-941c-40f5-b442-77b156c079c8(jetbrains.mps.uiLanguage.runtime.events)">
     <nodeInfo nodeId="3987693689859618181" fileName="IListener.java" startLine="6" startPosition="28" endLine="7" endPosition="31" conceptFqName="jetbrains.mps.baseLanguage.structure.InstanceMethodDeclaration" propertyString="invoke#(Ljava/lang/Object;)V" />
     <scopeInfo nodeId="3987693689859618181" fileName="IListener.java" startLine="6" startPosition="28" endLine="7" endPosition="31">
       <varInfo nodeId="3987693689859618184" varName="o" />
     </scopeInfo>
     <unitInfo nodeId="3987693689859618179" fileName="IListener.java" startLine="6" startPosition="0" endLine="9" endPosition="0" unitName="jetbrains.mps.uiLanguage.runtime.events.IListener" />
   </root>
-  <root nodeId="3987693689859618187">
+  <root nodeId="3987693689859618187" modelId="r:4fc7b676-941c-40f5-b442-77b156c079c8(jetbrains.mps.uiLanguage.runtime.events)">
     <nodeInfo nodeId="3987693689859618189" fileName="Event.java" startLine="8" startPosition="20" endLine="9" endPosition="80" conceptFqName="jetbrains.mps.baseLanguage.structure.FieldDeclaration" propertyString="myListeners" />
     <nodeInfo nodeId="3987693689859618198" fileName="Event.java" startLine="9" startPosition="80" endLine="10" endPosition="24" conceptFqName="jetbrains.mps.baseLanguage.structure.FieldDeclaration" propertyString="myName" />
     <nodeInfo nodeId="3987693689859618207" fileName="Event.java" startLine="12" startPosition="29" endLine="13" endPosition="18" conceptFqName="jetbrains.mps.baseLanguage.structure.ExpressionStatement" />
@@ -61,7 +61,6 @@
     <scopeInfo nodeId="3987693689859618201" fileName="Event.java" startLine="11" startPosition="0" endLine="14" endPosition="3">
       <varInfo nodeId="3987693689859618204" varName="name" />
     </scopeInfo>
-    <scopeInfo nodeId="3987693689859618247" fileName="Event.java" startLine="28" startPosition="31" endLine="31" endPosition="5" />
     <scopeInfo nodeId="3987693689859618248" fileName="Event.java" startLine="28" startPosition="31" endLine="31" endPosition="5">
       <varInfo nodeId="3987693689859618252" varName="listener" />
     </scopeInfo>
@@ -78,7 +77,7 @@
     </scopeInfo>
     <unitInfo nodeId="3987693689859618187" fileName="Event.java" startLine="8" startPosition="0" endLine="34" endPosition="0" unitName="jetbrains.mps.uiLanguage.runtime.events.Event" />
   </root>
-  <root nodeId="3987693689859618260">
+  <root nodeId="3987693689859618260" modelId="r:4fc7b676-941c-40f5-b442-77b156c079c8(jetbrains.mps.uiLanguage.runtime.events)">
     <nodeInfo nodeId="3987693689859618262" fileName="Events.java" startLine="8" startPosition="30" endLine="9" endPosition="39" conceptFqName="jetbrains.mps.baseLanguage.structure.FieldDeclaration" propertyString="myParentEvents" />
     <nodeInfo nodeId="3987693689859618266" fileName="Events.java" startLine="9" startPosition="39" endLine="10" endPosition="69" conceptFqName="jetbrains.mps.baseLanguage.structure.FieldDeclaration" propertyString="myEvents" />
     <nodeInfo nodeId="3987693689859618285" fileName="Events.java" startLine="15" startPosition="41" endLine="16" endPosition="34" conceptFqName="jetbrains.mps.baseLanguage.structure.ExpressionStatement" />

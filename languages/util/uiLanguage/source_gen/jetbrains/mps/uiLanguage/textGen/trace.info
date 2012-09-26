@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <debugInfo>
-  <root nodeId="6242401288845940755">
+  <root nodeId="6242401288845940755" modelId="r:0aa1c06f-0c0c-4636-851a-9e1cd87fcce8(jetbrains.mps.uiLanguage.textGen)">
     <nodeInfo nodeId="6242401288845940755" fileName="PngIcon_TextGen.java" startLine="11" startPosition="42" endLine="12" endPosition="72" conceptFqName="jetbrains.mps.baseLanguage.structure.ExpressionStatement" />
     <nodeInfo nodeId="6242401288845941926" fileName="PngIcon_TextGen.java" startLine="12" startPosition="72" endLine="13" endPosition="65" conceptFqName="jetbrains.mps.baseLanguage.structure.BlockStatement" />
     <nodeInfo nodeId="6242401288845941926" fileName="PngIcon_TextGen.java" startLine="12" startPosition="72" endLine="13" endPosition="65" conceptFqName="jetbrains.mps.baseLanguage.structure.ExpressionStatement" />

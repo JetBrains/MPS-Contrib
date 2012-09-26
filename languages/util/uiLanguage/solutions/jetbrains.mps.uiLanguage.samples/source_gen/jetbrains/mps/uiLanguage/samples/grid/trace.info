@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <debugInfo>
-  <root nodeId="1202823852897">
+  <root nodeId="1202823852897" modelId="r:00000000-0000-4000-0000-011c8959055f(jetbrains.mps.uiLanguage.samples.grid)">
     <nodeInfo nodeId="1202823852897" fileName="GridDemo.java" startLine="16" startPosition="38" endLine="17" endPosition="25" conceptFqName="jetbrains.mps.baseLanguage.structure.FieldDeclaration" propertyString="myThis" />
     <nodeInfo nodeId="1202823852897" fileName="GridDemo.java" startLine="17" startPosition="25" endLine="18" endPosition="39" conceptFqName="jetbrains.mps.baseLanguage.structure.FieldDeclaration" propertyString="myComponent_35s7qs_a0" />
     <nodeInfo nodeId="1202823852897" fileName="GridDemo.java" startLine="18" startPosition="39" endLine="19" endPosition="40" conceptFqName="jetbrains.mps.baseLanguage.structure.FieldDeclaration" propertyString="myComponent_35s7qs_b0a" />
@@ -104,7 +104,9 @@
     </scopeInfo>
     <scopeInfo nodeId="1202823852897" fileName="GridDemo.java" startLine="47" startPosition="0" endLine="52" endPosition="0" />
     <scopeInfo nodeId="1202823852897" fileName="GridDemo.java" startLine="52" startPosition="0" endLine="57" endPosition="0" />
-    <scopeInfo nodeId="1202823852897" fileName="GridDemo.java" startLine="61" startPosition="25" endLine="66" endPosition="5" />
+    <scopeInfo nodeId="1202823852897" fileName="GridDemo.java" startLine="61" startPosition="25" endLine="66" endPosition="5">
+      <varInfo nodeId="1202823852897" varName="binding" />
+    </scopeInfo>
     <scopeInfo nodeId="1202823852897" fileName="GridDemo.java" startLine="95" startPosition="0" endLine="101" endPosition="0" />
     <scopeInfo nodeId="1202823852897" fileName="GridDemo.java" startLine="34" startPosition="21" endLine="41" endPosition="31">
       <varInfo nodeId="1202823852897" varName="component" />

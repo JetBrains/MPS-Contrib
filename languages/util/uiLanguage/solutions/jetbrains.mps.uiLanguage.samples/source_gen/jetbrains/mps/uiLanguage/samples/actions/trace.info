@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <debugInfo>
-  <root nodeId="1202743870023">
+  <root nodeId="1202743870023" modelId="r:00000000-0000-4000-0000-011c89590559(jetbrains.mps.uiLanguage.samples.actions)">
     <nodeInfo nodeId="1202743870023" fileName="ActionsSample.java" startLine="19" startPosition="43" endLine="20" endPosition="30" conceptFqName="jetbrains.mps.baseLanguage.structure.FieldDeclaration" propertyString="myThis" />
     <nodeInfo nodeId="1202743870023" fileName="ActionsSample.java" startLine="20" startPosition="30" endLine="21" endPosition="42" conceptFqName="jetbrains.mps.baseLanguage.structure.FieldDeclaration" propertyString="myComponent_gc1z77_a0" />
     <nodeInfo nodeId="1202743870023" fileName="ActionsSample.java" startLine="21" startPosition="42" endLine="22" endPosition="36" conceptFqName="jetbrains.mps.baseLanguage.structure.FieldDeclaration" propertyString="myLabel_gc1z77_a0a" />
@@ -89,7 +89,7 @@
     <unitInfo nodeId="1202743870023" fileName="ActionsSample.java" startLine="25" startPosition="32" endLine="31" endPosition="3" unitName="jetbrains.mps.uiLanguage.samples.actions.ActionsSample$1" />
     <unitInfo nodeId="1202743870023" fileName="ActionsSample.java" startLine="88" startPosition="36" endLine="92" endPosition="5" unitName="jetbrains.mps.uiLanguage.samples.actions.ActionsSample$2" />
   </root>
-  <root nodeId="1202748791358">
+  <root nodeId="1202748791358" modelId="r:00000000-0000-4000-0000-011c89590559(jetbrains.mps.uiLanguage.samples.actions)">
     <nodeInfo nodeId="1212423784965" fileName="ActionsSample.java" startLine="97" startPosition="26" endLine="98" endPosition="27" conceptFqName="jetbrains.mps.baseLanguage.structure.LocalVariableDeclarationStatement" />
     <nodeInfo nodeId="1212159169077" fileName="ActionsSample.java" startLine="98" startPosition="27" endLine="99" endPosition="48" conceptFqName="jetbrains.mps.baseLanguage.structure.LocalVariableDeclarationStatement" />
     <nodeInfo nodeId="1212159164807" fileName="ActionsSample.java" startLine="96" startPosition="0" endLine="101" endPosition="0" conceptFqName="jetbrains.mps.baseLanguage.structure.InstanceMethodDeclaration" propertyString="abc#()V" />
