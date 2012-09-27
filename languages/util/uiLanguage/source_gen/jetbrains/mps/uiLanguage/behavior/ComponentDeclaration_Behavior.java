@@ -110,7 +110,7 @@ public class ComponentDeclaration_Behavior {
 
   public static List<SNode> virtual_getMembers_1213877528124(SNode thisNode) {
     List<SNode> result = new ArrayList<SNode>();
-    ListSequence.fromList(result).addSequence(ListSequence.fromList(IClassifier_Behavior.callSuperNew_getMembers_1213877528124(thisNode, "jetbrains.mps.lang.core.structure.BaseConcept")));
+    ListSequence.fromList(result).addSequence(ListSequence.fromList(IClassifier_Behavior.callSuperNew_getMembers_1213877528124(thisNode, "jetbrains.mps.baseLanguage.classifiers.structure.IClassifier")));
     if (ComponentDeclaration_Behavior.call_getExtendedComponent_1213877495528(thisNode) != null) {
       ListSequence.fromList(result).addSequence(ListSequence.fromList(IClassifier_Behavior.call_getMembers_1213877528124(ComponentDeclaration_Behavior.call_getExtendedComponent_1213877495528(thisNode))));
     }
