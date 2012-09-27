@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <debugInfo>
-  <root nodeId="3987693689859617965">
+  <root nodeId="3987693689859617965" modelId="r:00067a2f-ff21-4151-9184-3308b3d1f130(jetbrains.mps.uiLanguage.runtime)">
     <nodeInfo nodeId="3987693689859617968" fileName="JbRadioButton.java" startLine="8" startPosition="49" endLine="9" endPosition="30" conceptFqName="jetbrains.mps.baseLanguage.structure.FieldDeclaration" propertyString="myGroup" />
     <nodeInfo nodeId="3987693689859617988" fileName="JbRadioButton.java" startLine="15" startPosition="31" endLine="16" endPosition="32" conceptFqName="jetbrains.mps.baseLanguage.structure.ExpressionStatement" />
     <nodeInfo nodeId="3987693689859617995" fileName="JbRadioButton.java" startLine="17" startPosition="5" endLine="18" endPosition="25" conceptFqName="jetbrains.mps.baseLanguage.structure.ExpressionStatement" />
@@ -23,7 +23,7 @@
     </scopeInfo>
     <unitInfo nodeId="3987693689859617965" fileName="JbRadioButton.java" startLine="8" startPosition="0" endLine="28" endPosition="0" unitName="jetbrains.mps.uiLanguage.runtime.JbRadioButton" />
   </root>
-  <root nodeId="3987693689859618023">
+  <root nodeId="3987693689859618023" modelId="r:00067a2f-ff21-4151-9184-3308b3d1f130(jetbrains.mps.uiLanguage.runtime)">
     <nodeInfo nodeId="3987693689859618025" fileName="BaseBean.java" startLine="8" startPosition="23" endLine="9" endPosition="90" conceptFqName="jetbrains.mps.baseLanguage.structure.FieldDeclaration" propertyString="myPropertyChangeSupport" />
     <nodeInfo nodeId="3987693689859618041" fileName="BaseBean.java" startLine="14" startPosition="74" endLine="15" endPosition="64" conceptFqName="jetbrains.mps.baseLanguage.structure.ExpressionStatement" />
     <nodeInfo nodeId="3987693689859618052" fileName="BaseBean.java" startLine="18" startPosition="77" endLine="19" endPosition="67" conceptFqName="jetbrains.mps.baseLanguage.structure.ExpressionStatement" />
@@ -64,41 +64,38 @@
     </scopeInfo>
     <unitInfo nodeId="3987693689859618023" fileName="BaseBean.java" startLine="8" startPosition="0" endLine="34" endPosition="0" unitName="jetbrains.mps.uiLanguage.runtime.BaseBean" />
   </root>
-  <root nodeId="5606982432899038941">
+  <root nodeId="5606982432899038941" modelId="r:00067a2f-ff21-4151-9184-3308b3d1f130(jetbrains.mps.uiLanguage.runtime)">
     <nodeInfo nodeId="5606982432899038948" fileName="HBoxPanel.java" startLine="9" startPosition="22" endLine="10" endPosition="58" conceptFqName="jetbrains.mps.baseLanguage.structure.ExpressionStatement" />
     <nodeInfo nodeId="5606982432899038944" fileName="HBoxPanel.java" startLine="8" startPosition="39" endLine="11" endPosition="3" conceptFqName="jetbrains.mps.baseLanguage.structure.ConstructorDeclaration" propertyString="HBoxPanel#()V" />
     <scopeInfo nodeId="5606982432899038947" fileName="HBoxPanel.java" startLine="9" startPosition="22" endLine="10" endPosition="58" />
     <scopeInfo nodeId="5606982432899038944" fileName="HBoxPanel.java" startLine="8" startPosition="39" endLine="11" endPosition="3" />
     <unitInfo nodeId="5606982432899038941" fileName="HBoxPanel.java" startLine="8" startPosition="0" endLine="13" endPosition="0" unitName="jetbrains.mps.uiLanguage.runtime.HBoxPanel" />
   </root>
-  <root nodeId="5606982432899038956">
+  <root nodeId="5606982432899038956" modelId="r:00067a2f-ff21-4151-9184-3308b3d1f130(jetbrains.mps.uiLanguage.runtime)">
     <nodeInfo nodeId="5606982432899038959" fileName="ValueWrapper.java" startLine="6" startPosition="34" endLine="7" endPosition="19" conceptFqName="jetbrains.mps.baseLanguage.structure.InstanceMethodDeclaration" propertyString="value#()null" />
     <scopeInfo nodeId="5606982432899038959" fileName="ValueWrapper.java" startLine="6" startPosition="34" endLine="7" endPosition="19" />
     <unitInfo nodeId="5606982432899038956" fileName="ValueWrapper.java" startLine="6" startPosition="0" endLine="9" endPosition="0" unitName="jetbrains.mps.uiLanguage.runtime.ValueWrapper" />
   </root>
-  <root nodeId="5606982432899038963">
+  <root nodeId="5606982432899038963" modelId="r:00067a2f-ff21-4151-9184-3308b3d1f130(jetbrains.mps.uiLanguage.runtime)">
     <nodeInfo nodeId="5606982432899038970" fileName="FlowPanel.java" startLine="9" startPosition="22" endLine="10" endPosition="52" conceptFqName="jetbrains.mps.baseLanguage.structure.ExpressionStatement" />
     <nodeInfo nodeId="5606982432899038966" fileName="FlowPanel.java" startLine="8" startPosition="39" endLine="11" endPosition="3" conceptFqName="jetbrains.mps.baseLanguage.structure.ConstructorDeclaration" propertyString="FlowPanel#()V" />
     <scopeInfo nodeId="5606982432899038969" fileName="FlowPanel.java" startLine="9" startPosition="22" endLine="10" endPosition="52" />
     <scopeInfo nodeId="5606982432899038966" fileName="FlowPanel.java" startLine="8" startPosition="39" endLine="11" endPosition="3" />
     <unitInfo nodeId="5606982432899038963" fileName="FlowPanel.java" startLine="8" startPosition="0" endLine="13" endPosition="0" unitName="jetbrains.mps.uiLanguage.runtime.FlowPanel" />
   </root>
-  <root nodeId="5606982432899038977">
+  <root nodeId="5606982432899038977" modelId="r:00067a2f-ff21-4151-9184-3308b3d1f130(jetbrains.mps.uiLanguage.runtime)">
     <nodeInfo nodeId="5606982432899038984" fileName="VBoxPanel.java" startLine="9" startPosition="22" endLine="10" endPosition="58" conceptFqName="jetbrains.mps.baseLanguage.structure.ExpressionStatement" />
     <nodeInfo nodeId="5606982432899038980" fileName="VBoxPanel.java" startLine="8" startPosition="39" endLine="11" endPosition="3" conceptFqName="jetbrains.mps.baseLanguage.structure.ConstructorDeclaration" propertyString="VBoxPanel#()V" />
     <scopeInfo nodeId="5606982432899038983" fileName="VBoxPanel.java" startLine="9" startPosition="22" endLine="10" endPosition="58" />
     <scopeInfo nodeId="5606982432899038980" fileName="VBoxPanel.java" startLine="8" startPosition="39" endLine="11" endPosition="3" />
     <unitInfo nodeId="5606982432899038977" fileName="VBoxPanel.java" startLine="8" startPosition="0" endLine="13" endPosition="0" unitName="jetbrains.mps.uiLanguage.runtime.VBoxPanel" />
   </root>
-  <root nodeId="5606982432899038992">
+  <root nodeId="5606982432899038992" modelId="r:00067a2f-ff21-4151-9184-3308b3d1f130(jetbrains.mps.uiLanguage.runtime)">
     <nodeInfo nodeId="5606982432899039006" fileName="SimpleListModel.java" startLine="9" startPosition="25" endLine="10" endPosition="25" conceptFqName="jetbrains.mps.baseLanguage.structure.ExpressionStatement" />
     <nodeInfo nodeId="5606982432899039001" fileName="SimpleListModel.java" startLine="8" startPosition="39" endLine="11" endPosition="5" conceptFqName="jetbrains.mps.baseLanguage.structure.ForeachStatement" />
     <nodeInfo nodeId="5606982432899038995" fileName="SimpleListModel.java" startLine="7" startPosition="55" endLine="12" endPosition="3" conceptFqName="jetbrains.mps.baseLanguage.structure.ConstructorDeclaration" propertyString="SimpleListModel#(Ljava/lang/Iterable;)V" />
     <scopeInfo nodeId="5606982432899039005" fileName="SimpleListModel.java" startLine="9" startPosition="25" endLine="10" endPosition="25" />
     <scopeInfo nodeId="5606982432899039000" fileName="SimpleListModel.java" startLine="8" startPosition="39" endLine="11" endPosition="5" />
-    <scopeInfo nodeId="5606982432899039001" fileName="SimpleListModel.java" startLine="8" startPosition="39" endLine="11" endPosition="5">
-      <varInfo nodeId="5606982432899039003" varName="o" />
-    </scopeInfo>
     <scopeInfo nodeId="5606982432899038995" fileName="SimpleListModel.java" startLine="7" startPosition="55" endLine="12" endPosition="3">
       <varInfo nodeId="5606982432899038998" varName="it" />
     </scopeInfo>
