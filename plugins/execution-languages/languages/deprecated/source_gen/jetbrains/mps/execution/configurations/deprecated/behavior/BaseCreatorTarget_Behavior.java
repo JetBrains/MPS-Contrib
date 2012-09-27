@@ -23,6 +23,11 @@ public class BaseCreatorTarget_Behavior {
     return (SNode) descriptor.invoke(Object.class, SNodeOperations.cast(thisNode, "jetbrains.mps.execution.configurations.deprecated.structure.BaseCreatorTarget"), "virtual_getParameter_314981645426570613", PARAMETERS_314981645426570613, new Object[]{});
   }
 
+  public static SNode callSuperNew_getParameter_314981645426570613(SNode thisNode, String callerConceptFqName) {
+    return (SNode) BehaviorManager.getInstance().invokeSuperNew(Object.class, SNodeOperations.cast(thisNode, "jetbrains.mps.execution.configurations.deprecated.structure.BaseCreatorTarget"), callerConceptFqName, "virtual_getParameter_314981645426570613", PARAMETERS_314981645426570613, new Object[]{});
+  }
+
+  @Deprecated
   public static SNode callSuper_getParameter_314981645426570613(SNode thisNode, String callerConceptFqName) {
     return (SNode) BehaviorManager.getInstance().invokeSuper(Object.class, SNodeOperations.cast(thisNode, "jetbrains.mps.execution.configurations.deprecated.structure.BaseCreatorTarget"), callerConceptFqName, "virtual_getParameter_314981645426570613", PARAMETERS_314981645426570613, new Object[]{});
   }

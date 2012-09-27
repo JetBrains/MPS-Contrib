@@ -166,7 +166,7 @@
     <scopeInfo nodeId="1218551839103" fileName="MultiLineString_Constraints.java" startLine="35" startPosition="111" endLine="36" endPosition="88" />
     <scopeInfo nodeId="1218551806370" fileName="MultiLineString_Constraints.java" startLine="16" startPosition="76" endLine="19" endPosition="3" />
     <scopeInfo nodeId="1218551839100" fileName="MultiLineString_Constraints.java" startLine="34" startPosition="29" endLine="37" endPosition="11">
-      <varInfo nodeId="1218551839100" varName="lit" />
+      <varInfo nodeId="1218551839101" varName="lit" />
     </scopeInfo>
     <scopeInfo nodeId="1218551806370" fileName="MultiLineString_Constraints.java" startLine="24" startPosition="80" endLine="29" endPosition="0" />
     <scopeInfo nodeId="1218551815607" fileName="MultiLineString_Constraints.java" startLine="33" startPosition="9" endLine="41" endPosition="12">

@@ -53,18 +53,38 @@ public class TypeExpression_Behavior {
     return (Boolean) descriptor.invoke(Boolean.class, SNodeOperations.cast(thisNode, "jetbrains.mps.xmlSchema.structure.TypeExpression"), "virtual_isMixed_1213877382388", PARAMETERS_1213877382388, new Object[]{});
   }
 
+  public static void callSuperNew_checkAttributes_1213877382373(SNode thisNode, String callerConceptFqName, List<SNode> attributeDeclarations) {
+    BehaviorManager.getInstance().invokeSuperNew(Object.class, SNodeOperations.cast(thisNode, "jetbrains.mps.xmlSchema.structure.TypeExpression"), callerConceptFqName, "virtual_checkAttributes_1213877382373", PARAMETERS_1213877382373, new Object[]{attributeDeclarations});
+  }
+
+  public static void callSuperNew_checkElements_1213877382378(SNode thisNode, String callerConceptFqName, Set<SNode> elementDeclarations) {
+    BehaviorManager.getInstance().invokeSuperNew(Object.class, SNodeOperations.cast(thisNode, "jetbrains.mps.xmlSchema.structure.TypeExpression"), callerConceptFqName, "virtual_checkElements_1213877382378", PARAMETERS_1213877382378, new Object[]{elementDeclarations});
+  }
+
+  public static boolean callSuperNew_hasElementReferences_1213877382383(SNode thisNode, String callerConceptFqName) {
+    return (Boolean) BehaviorManager.getInstance().invokeSuperNew(Boolean.class, SNodeOperations.cast(thisNode, "jetbrains.mps.xmlSchema.structure.TypeExpression"), callerConceptFqName, "virtual_hasElementReferences_1213877382383", PARAMETERS_1213877382383, new Object[]{});
+  }
+
+  public static boolean callSuperNew_isMixed_1213877382388(SNode thisNode, String callerConceptFqName) {
+    return (Boolean) BehaviorManager.getInstance().invokeSuperNew(Boolean.class, SNodeOperations.cast(thisNode, "jetbrains.mps.xmlSchema.structure.TypeExpression"), callerConceptFqName, "virtual_isMixed_1213877382388", PARAMETERS_1213877382388, new Object[]{});
+  }
+
+  @Deprecated
   public static void callSuper_checkAttributes_1213877382373(SNode thisNode, String callerConceptFqName, List<SNode> attributeDeclarations) {
     BehaviorManager.getInstance().invokeSuper(Object.class, SNodeOperations.cast(thisNode, "jetbrains.mps.xmlSchema.structure.TypeExpression"), callerConceptFqName, "virtual_checkAttributes_1213877382373", PARAMETERS_1213877382373, new Object[]{attributeDeclarations});
   }
 
+  @Deprecated
   public static void callSuper_checkElements_1213877382378(SNode thisNode, String callerConceptFqName, Set<SNode> elementDeclarations) {
     BehaviorManager.getInstance().invokeSuper(Object.class, SNodeOperations.cast(thisNode, "jetbrains.mps.xmlSchema.structure.TypeExpression"), callerConceptFqName, "virtual_checkElements_1213877382378", PARAMETERS_1213877382378, new Object[]{elementDeclarations});
   }
 
+  @Deprecated
   public static boolean callSuper_hasElementReferences_1213877382383(SNode thisNode, String callerConceptFqName) {
     return (Boolean) BehaviorManager.getInstance().invokeSuper(Boolean.class, SNodeOperations.cast(thisNode, "jetbrains.mps.xmlSchema.structure.TypeExpression"), callerConceptFqName, "virtual_hasElementReferences_1213877382383", PARAMETERS_1213877382383, new Object[]{});
   }
 
+  @Deprecated
   public static boolean callSuper_isMixed_1213877382388(SNode thisNode, String callerConceptFqName) {
     return (Boolean) BehaviorManager.getInstance().invokeSuper(Boolean.class, SNodeOperations.cast(thisNode, "jetbrains.mps.xmlSchema.structure.TypeExpression"), callerConceptFqName, "virtual_isMixed_1213877382388", PARAMETERS_1213877382388, new Object[]{});
   }

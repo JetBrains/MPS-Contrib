@@ -284,7 +284,7 @@
     <nodeInfo nodeId="314981645426569380" fileName="RunConfigurationTypeDeclaration_Editor.java" startLine="329" startPosition="112" endLine="330" endPosition="34" conceptFqName="jetbrains.mps.baseLanguage.structure.ReturnStatement" />
     <nodeInfo nodeId="314981645426569404" fileName="RunConfigurationTypeDeclaration_Editor.java" startLine="333" startPosition="114" endLine="334" endPosition="23" conceptFqName="jetbrains.mps.baseLanguage.structure.LocalVariableDeclarationStatement" />
     <nodeInfo nodeId="314981645426569408" fileName="RunConfigurationTypeDeclaration_Editor.java" startLine="334" startPosition="23" endLine="335" endPosition="85" conceptFqName="jetbrains.mps.baseLanguage.structure.LocalVariableDeclarationStatement" />
-    <nodeInfo nodeId="314981645426569421" fileName="RunConfigurationTypeDeclaration_Editor.java" startLine="336" startPosition="25" endLine="337" endPosition="110" conceptFqName="jetbrains.mps.baseLanguage.structure.ExpressionStatement" />
+    <nodeInfo nodeId="314981645426569421" fileName="RunConfigurationTypeDeclaration_Editor.java" startLine="336" startPosition="25" endLine="337" endPosition="129" conceptFqName="jetbrains.mps.baseLanguage.structure.ExpressionStatement" />
     <nodeInfo nodeId="314981645426569434" fileName="RunConfigurationTypeDeclaration_Editor.java" startLine="338" startPosition="5" endLine="339" endPosition="81" conceptFqName="jetbrains.mps.baseLanguage.structure.ReturnStatement" />
     <nodeInfo nodeId="314981645426569380" fileName="RunConfigurationTypeDeclaration_Editor.java" startLine="342" startPosition="111" endLine="343" endPosition="34" conceptFqName="jetbrains.mps.baseLanguage.structure.ReturnStatement" />
     <nodeInfo nodeId="314981645426569461" fileName="RunConfigurationTypeDeclaration_Editor.java" startLine="346" startPosition="122" endLine="347" endPosition="78" conceptFqName="jetbrains.mps.baseLanguage.structure.ReturnStatement" />
@@ -395,7 +395,7 @@
     <scopeInfo nodeId="314981645426569395" fileName="RunConfigurationTypeDeclaration_Editor.java" startLine="298" startPosition="58" endLine="299" endPosition="49" />
     <scopeInfo nodeId="314981645426569455" fileName="RunConfigurationTypeDeclaration_Editor.java" startLine="316" startPosition="58" endLine="317" endPosition="46" />
     <scopeInfo nodeId="314981645426569380" fileName="RunConfigurationTypeDeclaration_Editor.java" startLine="329" startPosition="112" endLine="330" endPosition="34" />
-    <scopeInfo nodeId="314981645426569420" fileName="RunConfigurationTypeDeclaration_Editor.java" startLine="336" startPosition="25" endLine="337" endPosition="110" />
+    <scopeInfo nodeId="314981645426569420" fileName="RunConfigurationTypeDeclaration_Editor.java" startLine="336" startPosition="25" endLine="337" endPosition="129" />
     <scopeInfo nodeId="314981645426569380" fileName="RunConfigurationTypeDeclaration_Editor.java" startLine="342" startPosition="111" endLine="343" endPosition="34" />
     <scopeInfo nodeId="314981645426569460" fileName="RunConfigurationTypeDeclaration_Editor.java" startLine="346" startPosition="122" endLine="347" endPosition="78" />
     <scopeInfo nodeId="314981645426569381" fileName="RunConfigurationTypeDeclaration_Editor.java" startLine="54" startPosition="5" endLine="56" endPosition="51">
@@ -4229,7 +4229,7 @@
     <nodeInfo nodeId="314981645426569750" fileName="RunConfigurationPresentation.java" startLine="218" startPosition="10" endLine="219" endPosition="22" conceptFqName="jetbrains.mps.baseLanguage.structure.ReturnStatement" />
     <nodeInfo nodeId="314981645426569683" fileName="RunConfigurationPresentation.java" startLine="222" startPosition="112" endLine="223" endPosition="23" conceptFqName="jetbrains.mps.baseLanguage.structure.LocalVariableDeclarationStatement" />
     <nodeInfo nodeId="314981645426569687" fileName="RunConfigurationPresentation.java" startLine="223" startPosition="23" endLine="224" endPosition="85" conceptFqName="jetbrains.mps.baseLanguage.structure.LocalVariableDeclarationStatement" />
-    <nodeInfo nodeId="314981645426569700" fileName="RunConfigurationPresentation.java" startLine="225" startPosition="25" endLine="226" endPosition="110" conceptFqName="jetbrains.mps.baseLanguage.structure.ExpressionStatement" />
+    <nodeInfo nodeId="314981645426569700" fileName="RunConfigurationPresentation.java" startLine="225" startPosition="25" endLine="226" endPosition="129" conceptFqName="jetbrains.mps.baseLanguage.structure.ExpressionStatement" />
     <nodeInfo nodeId="314981645426569713" fileName="RunConfigurationPresentation.java" startLine="227" startPosition="5" endLine="228" endPosition="81" conceptFqName="jetbrains.mps.baseLanguage.structure.ReturnStatement" />
     <nodeInfo nodeId="314981645426569740" fileName="RunConfigurationPresentation.java" startLine="231" startPosition="120" endLine="232" endPosition="78" conceptFqName="jetbrains.mps.baseLanguage.structure.ReturnStatement" />
     <nodeInfo nodeId="314981645426569680" fileName="RunConfigurationPresentation.java" startLine="49" startPosition="10" endLine="51" endPosition="5" conceptFqName="jetbrains.mps.baseLanguage.structure.BlockStatement" />
@@ -4302,7 +4302,7 @@
     <scopeInfo nodeId="314981645426569674" fileName="RunConfigurationPresentation.java" startLine="173" startPosition="58" endLine="174" endPosition="45" />
     <scopeInfo nodeId="314981645426569734" fileName="RunConfigurationPresentation.java" startLine="191" startPosition="58" endLine="192" endPosition="46" />
     <scopeInfo nodeId="314981645426569750" fileName="RunConfigurationPresentation.java" startLine="209" startPosition="58" endLine="210" endPosition="50" />
-    <scopeInfo nodeId="314981645426569699" fileName="RunConfigurationPresentation.java" startLine="225" startPosition="25" endLine="226" endPosition="110" />
+    <scopeInfo nodeId="314981645426569699" fileName="RunConfigurationPresentation.java" startLine="225" startPosition="25" endLine="226" endPosition="129" />
     <scopeInfo nodeId="314981645426569739" fileName="RunConfigurationPresentation.java" startLine="231" startPosition="120" endLine="232" endPosition="78" />
     <scopeInfo nodeId="314981645426569672" fileName="RunConfigurationPresentation.java" startLine="68" startPosition="5" endLine="70" endPosition="51">
       <varInfo nodeId="314981645426569672" varName="style" />

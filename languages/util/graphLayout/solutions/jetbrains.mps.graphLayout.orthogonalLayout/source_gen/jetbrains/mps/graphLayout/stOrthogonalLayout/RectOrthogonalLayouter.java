@@ -396,13 +396,13 @@ public class RectOrthogonalLayouter {
       }
     }
     int num = ListSequence.fromList(sourceEdges).count() + ListSequence.fromList(targetEdges).count() + 1;
-    sourceEdges = ListSequence.fromList(sourceEdges).sort(new ISelector<Edge, Comparable<?>>() {
-      public Comparable<?> select(Edge it) {
+    sourceEdges = ListSequence.fromList(sourceEdges).sort(new ISelector<Edge, Integer>() {
+      public Integer select(Edge it) {
         return Math.abs(MapSequence.fromMap(adjPoint).get(it).x - xCoord);
       }
     }, false).toListSequence();
-    targetEdges = ListSequence.fromList(targetEdges).sort(new ISelector<Edge, Comparable<?>>() {
-      public Comparable<?> select(Edge it) {
+    targetEdges = ListSequence.fromList(targetEdges).sort(new ISelector<Edge, Integer>() {
+      public Integer select(Edge it) {
         return Math.abs(MapSequence.fromMap(adjPoint).get(it).x - xCoord);
       }
     }, true).toListSequence();

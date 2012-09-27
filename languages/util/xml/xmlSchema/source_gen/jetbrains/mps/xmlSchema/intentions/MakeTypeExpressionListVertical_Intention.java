@@ -36,7 +36,7 @@ public class MakeTypeExpressionListVertical_Intention extends BaseIntention impl
   }
 
   public void execute(final SNode node, final EditorContext editorContext) {
-    SPropertyOperations.set(node, "isVertical", "" + !(SPropertyOperations.getBoolean(node, "isVertical")));
+    SPropertyOperations.set(node, "isVertical", "" + (!(SPropertyOperations.getBoolean(node, "isVertical"))));
   }
 
   public String getLocationString() {
