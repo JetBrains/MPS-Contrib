@@ -2,7 +2,7 @@
 <debugInfo>
   <unitInfo fileName="BehaviorAspectDescriptor.java" startLine="9" startPosition="0" endLine="24" endPosition="0" unitName="jetbrains.mps.build.property.behavior.BehaviorAspectDescriptor" />
   <unitInfo fileName="PropertyNode_BehaviorDescriptor.java" startLine="12" startPosition="0" endLine="29" endPosition="0" unitName="jetbrains.mps.build.property.behavior.PropertyNode_BehaviorDescriptor" />
-  <root nodeId="1213877341756">
+  <root nodeId="1213877341756" modelId="r:00000000-0000-4000-0000-011c895904dd(jetbrains.mps.build.property.behavior)">
     <nodeInfo nodeId="1213877341760" fileName="PropertyNode_Behavior.java" startLine="15" startPosition="71" endLine="16" endPosition="121" conceptFqName="jetbrains.mps.baseLanguage.structure.ReturnStatement" />
     <nodeInfo nodeId="1213877341770" fileName="PropertyNode_Behavior.java" startLine="19" startPosition="81" endLine="20" endPosition="69" conceptFqName="jetbrains.mps.baseLanguage.structure.ReturnStatement" />
     <nodeInfo nodeId="1213877341756" fileName="PropertyNode_Behavior.java" startLine="11" startPosition="36" endLine="14" endPosition="0" conceptFqName="jetbrains.mps.baseLanguage.structure.StaticMethodDeclaration" propertyString="init#(Ljetbrains/mps/smodel/SNode;)V" />
