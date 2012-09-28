@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <debugInfo>
-  <root nodeId="1654665216152485424">
+  <root nodeId="1654665216152485424" modelId="r:5aba4e89-d910-492c-9b56-c5e3fe8c0f28(jetbrains.mps.graphLayout.algorithms)">
     <nodeInfo nodeId="5213231752900627135" fileName="STNumbering.java" startLine="16" startPosition="82" endLine="17" endPosition="23" conceptFqName="jetbrains.mps.baseLanguage.structure.LocalVariableDeclarationStatement" />
     <nodeInfo nodeId="5213231752900627139" fileName="STNumbering.java" startLine="17" startPosition="23" endLine="18" endPosition="32" conceptFqName="jetbrains.mps.baseLanguage.structure.LocalVariableDeclarationStatement" />
     <nodeInfo nodeId="5213231752900627148" fileName="STNumbering.java" startLine="20" startPosition="47" endLine="21" endPosition="22" conceptFqName="jetbrains.mps.baseLanguage.structure.ExpressionStatement" />
@@ -100,7 +100,7 @@
     <unitInfo nodeId="1654665216152485424" fileName="STNumbering.java" startLine="15" startPosition="0" endLine="84" endPosition="0" unitName="jetbrains.mps.graphLayout.algorithms.STNumbering" />
     <unitInfo nodeId="5213231752900627202" fileName="STNumbering.java" startLine="44" startPosition="0" endLine="83" endPosition="0" unitName="jetbrains.mps.graphLayout.algorithms.STNumbering$Numbering" />
   </root>
-  <root nodeId="1654665216152485857">
+  <root nodeId="1654665216152485857" modelId="r:5aba4e89-d910-492c-9b56-c5e3fe8c0f28(jetbrains.mps.graphLayout.algorithms)">
     <nodeInfo nodeId="1654665216152485875" fileName="GraphOrientation.java" startLine="13" startPosition="84" endLine="14" endPosition="79" conceptFqName="jetbrains.mps.baseLanguage.structure.LocalVariableDeclarationStatement" />
     <nodeInfo nodeId="1654665216152488926" fileName="GraphOrientation.java" startLine="15" startPosition="63" endLine="16" endPosition="77" conceptFqName="jetbrains.mps.baseLanguage.structure.LocalVariableDeclarationStatement" />
     <nodeInfo nodeId="1654665216152488945" fileName="GraphOrientation.java" startLine="16" startPosition="77" endLine="17" endPosition="77" conceptFqName="jetbrains.mps.baseLanguage.structure.LocalVariableDeclarationStatement" />
@@ -140,7 +140,7 @@
     </scopeInfo>
     <unitInfo nodeId="1654665216152485857" fileName="GraphOrientation.java" startLine="12" startPosition="0" endLine="32" endPosition="0" unitName="jetbrains.mps.graphLayout.algorithms.GraphOrientation" />
   </root>
-  <root nodeId="1953828525454955931">
+  <root nodeId="1953828525454955931" modelId="r:5aba4e89-d910-492c-9b56-c5e3fe8c0f28(jetbrains.mps.graphLayout.algorithms)">
     <nodeInfo nodeId="1953828525454955947" fileName="Dijkstra.java" startLine="19" startPosition="23" endLine="20" endPosition="24" conceptFqName="jetbrains.mps.baseLanguage.structure.FieldDeclaration" propertyString="myGraph" />
     <nodeInfo nodeId="1953828525454961248" fileName="Dijkstra.java" startLine="20" startPosition="24" endLine="21" endPosition="24" conceptFqName="jetbrains.mps.baseLanguage.structure.FieldDeclaration" propertyString="mySource" />
     <nodeInfo nodeId="1953828525454955951" fileName="Dijkstra.java" startLine="21" startPosition="24" endLine="22" endPosition="39" conceptFqName="jetbrains.mps.baseLanguage.structure.FieldDeclaration" propertyString="myWeights" />
@@ -274,7 +274,7 @@
     <unitInfo nodeId="1953828525454980075" fileName="Dijkstra.java" startLine="49" startPosition="82" endLine="53" endPosition="7" unitName="jetbrains.mps.graphLayout.algorithms.Dijkstra$2" />
     <unitInfo nodeId="1953828525454980113" fileName="Dijkstra.java" startLine="100" startPosition="0" endLine="113" endPosition="0" unitName="jetbrains.mps.graphLayout.algorithms.Dijkstra$NodeComparator" />
   </root>
-  <root nodeId="1953828525455084197">
+  <root nodeId="1953828525455084197" modelId="r:5aba4e89-d910-492c-9b56-c5e3fe8c0f28(jetbrains.mps.graphLayout.algorithms)">
     <nodeInfo nodeId="1953828525455084198" fileName="MinCostMaxFlowWithPotentials.java" startLine="18" startPosition="43" endLine="19" endPosition="35" conceptFqName="jetbrains.mps.baseLanguage.structure.StaticFieldDeclaration" propertyString="SHOW_TIME" />
     <nodeInfo nodeId="1953828525455084208" fileName="MinCostMaxFlowWithPotentials.java" startLine="21" startPosition="151" endLine="22" endPosition="45" conceptFqName="jetbrains.mps.baseLanguage.structure.LocalVariableDeclarationStatement" />
     <nodeInfo nodeId="1953828525455084212" fileName="MinCostMaxFlowWithPotentials.java" startLine="22" startPosition="45" endLine="23" endPosition="80" conceptFqName="jetbrains.mps.baseLanguage.structure.LocalVariableDeclarationStatement" />
@@ -394,7 +394,7 @@
     <unitInfo nodeId="1953828525455084197" fileName="MinCostMaxFlowWithPotentials.java" startLine="18" startPosition="0" endLine="92" endPosition="0" unitName="jetbrains.mps.graphLayout.algorithms.MinCostMaxFlowWithPotentials" />
     <unitInfo nodeId="1953828525455084328" fileName="MinCostMaxFlowWithPotentials.java" startLine="44" startPosition="41" endLine="48" endPosition="7" unitName="jetbrains.mps.graphLayout.algorithms.MinCostMaxFlowWithPotentials$1" />
   </root>
-  <root nodeId="228830736476010494">
+  <root nodeId="228830736476010494" modelId="r:5aba4e89-d910-492c-9b56-c5e3fe8c0f28(jetbrains.mps.graphLayout.algorithms)">
     <nodeInfo nodeId="1953828525455088164" fileName="MinCostCirculation.java" startLine="13" startPosition="33" endLine="14" endPosition="35" conceptFqName="jetbrains.mps.baseLanguage.structure.StaticFieldDeclaration" propertyString="TEST_MODE" />
     <nodeInfo nodeId="228830736476016180" fileName="MinCostCirculation.java" startLine="16" startPosition="149" endLine="17" endPosition="84" conceptFqName="jetbrains.mps.baseLanguage.structure.LocalVariableDeclarationStatement" />
     <nodeInfo nodeId="228830736476010647" fileName="MinCostCirculation.java" startLine="17" startPosition="84" endLine="18" endPosition="37" conceptFqName="jetbrains.mps.baseLanguage.structure.LocalVariableDeclarationStatement" />
@@ -500,7 +500,7 @@
     </scopeInfo>
     <unitInfo nodeId="228830736476010494" fileName="MinCostCirculation.java" startLine="13" startPosition="0" endLine="82" endPosition="0" unitName="jetbrains.mps.graphLayout.algorithms.MinCostCirculation" />
   </root>
-  <root nodeId="3720762119843889432">
+  <root nodeId="3720762119843889432" modelId="r:5aba4e89-d910-492c-9b56-c5e3fe8c0f28(jetbrains.mps.graphLayout.algorithms)">
     <nodeInfo nodeId="4644851485137244695" fileName="BiconnectedComponent.java" startLine="18" startPosition="35" endLine="19" endPosition="28" conceptFqName="jetbrains.mps.baseLanguage.structure.FieldDeclaration" propertyString="myNodes" />
     <nodeInfo nodeId="4644851485137244699" fileName="BiconnectedComponent.java" startLine="19" startPosition="28" endLine="20" endPosition="48" conceptFqName="jetbrains.mps.baseLanguage.structure.FieldDeclaration" propertyString="myChildren" />
     <nodeInfo nodeId="4644851485137244703" fileName="BiconnectedComponent.java" startLine="20" startPosition="48" endLine="21" endPosition="52" conceptFqName="jetbrains.mps.baseLanguage.structure.FieldDeclaration" propertyString="myBridges" />
@@ -694,7 +694,7 @@
     <unitInfo nodeId="3720762119843889432" fileName="BiconnectedComponent.java" startLine="18" startPosition="0" endLine="154" endPosition="0" unitName="jetbrains.mps.graphLayout.algorithms.BiconnectedComponent" />
     <unitInfo nodeId="4644851485137244688" fileName="BiconnectedComponent.java" startLine="109" startPosition="0" endLine="153" endPosition="0" unitName="jetbrains.mps.graphLayout.algorithms.BiconnectedComponent$TreeMaker" />
   </root>
-  <root nodeId="3720762119843889438">
+  <root nodeId="3720762119843889438" modelId="r:5aba4e89-d910-492c-9b56-c5e3fe8c0f28(jetbrains.mps.graphLayout.algorithms)">
     <nodeInfo nodeId="3720762119843889890" fileName="BiconnectedComponents.java" startLine="13" startPosition="48" endLine="14" endPosition="32" conceptFqName="jetbrains.mps.baseLanguage.structure.FieldDeclaration" propertyString="myLow" />
     <nodeInfo nodeId="3720762119843889895" fileName="BiconnectedComponents.java" startLine="14" startPosition="32" endLine="15" endPosition="35" conceptFqName="jetbrains.mps.baseLanguage.structure.FieldDeclaration" propertyString="myNum" />
     <nodeInfo nodeId="3720762119843889900" fileName="BiconnectedComponents.java" startLine="15" startPosition="35" endLine="16" endPosition="23" conceptFqName="jetbrains.mps.baseLanguage.structure.FieldDeclaration" propertyString="myCurNum" />
@@ -780,7 +780,7 @@
     </scopeInfo>
     <unitInfo nodeId="3720762119843889438" fileName="BiconnectedComponents.java" startLine="13" startPosition="0" endLine="78" endPosition="0" unitName="jetbrains.mps.graphLayout.algorithms.BiconnectedComponents" />
   </root>
-  <root nodeId="4179389957059009260">
+  <root nodeId="4179389957059009260" modelId="r:5aba4e89-d910-492c-9b56-c5e3fe8c0f28(jetbrains.mps.graphLayout.algorithms)">
     <nodeInfo nodeId="4250605017401923948" fileName="ShortestPath.java" startLine="18" startPosition="27" endLine="19" endPosition="54" conceptFqName="jetbrains.mps.baseLanguage.structure.StaticFieldDeclaration" propertyString="INF" />
     <nodeInfo nodeId="1418350014056290860" fileName="ShortestPath.java" startLine="23" startPosition="40" endLine="24" endPosition="20" conceptFqName="jetbrains.mps.baseLanguage.structure.ReturnStatement" />
     <nodeInfo nodeId="4179389957059012257" fileName="ShortestPath.java" startLine="29" startPosition="171" endLine="30" endPosition="58" conceptFqName="jetbrains.mps.baseLanguage.structure.LocalVariableDeclarationStatement" />
@@ -857,7 +857,7 @@
     <unitInfo nodeId="4179389957059009260" fileName="ShortestPath.java" startLine="18" startPosition="0" endLine="66" endPosition="0" unitName="jetbrains.mps.graphLayout.algorithms.ShortestPath" />
     <unitInfo nodeId="1418350014056290856" fileName="ShortestPath.java" startLine="22" startPosition="57" endLine="26" endPosition="5" unitName="jetbrains.mps.graphLayout.algorithms.ShortestPath$1" />
   </root>
-  <root nodeId="4250605017401923979">
+  <root nodeId="4250605017401923979" modelId="r:5aba4e89-d910-492c-9b56-c5e3fe8c0f28(jetbrains.mps.graphLayout.algorithms)">
     <nodeInfo nodeId="4250605017401923997" fileName="FordBellman.java" startLine="20" startPosition="26" endLine="21" endPosition="24" conceptFqName="jetbrains.mps.baseLanguage.structure.FieldDeclaration" propertyString="myGraph" />
     <nodeInfo nodeId="4250605017401924001" fileName="FordBellman.java" startLine="21" startPosition="24" endLine="22" endPosition="24" conceptFqName="jetbrains.mps.baseLanguage.structure.FieldDeclaration" propertyString="mySource" />
     <nodeInfo nodeId="7953585273259917129" fileName="FordBellman.java" startLine="22" startPosition="24" endLine="23" endPosition="37" conceptFqName="jetbrains.mps.baseLanguage.structure.FieldDeclaration" propertyString="myDirection" />
@@ -1035,7 +1035,6 @@
     <scopeInfo nodeId="7953585273259917465" fileName="FordBellman.java" startLine="142" startPosition="65" endLine="158" endPosition="5">
       <varInfo nodeId="7953585273259917466" varName="node" />
     </scopeInfo>
-    <scopeInfo nodeId="4250605017401924133" fileName="FordBellman.java" startLine="38" startPosition="66" endLine="56" endPosition="7" />
     <scopeInfo nodeId="4250605017401928107" fileName="FordBellman.java" startLine="38" startPosition="66" endLine="56" endPosition="7">
       <varInfo nodeId="4250605017401928108" varName="node" />
     </scopeInfo>
@@ -1083,7 +1082,7 @@
     <unitInfo nodeId="4250605017401932560" fileName="FordBellman.java" startLine="61" startPosition="20" endLine="65" endPosition="5" unitName="jetbrains.mps.graphLayout.algorithms.FordBellman$2" />
     <unitInfo nodeId="7953585273259917080" fileName="FordBellman.java" startLine="99" startPosition="83" endLine="103" endPosition="7" unitName="jetbrains.mps.graphLayout.algorithms.FordBellman$3" />
   </root>
-  <root nodeId="4660430665333277271">
+  <root nodeId="4660430665333277271" modelId="r:5aba4e89-d910-492c-9b56-c5e3fe8c0f28(jetbrains.mps.graphLayout.algorithms)">
     <nodeInfo nodeId="4519409331094618576" fileName="Dfs.java" startLine="14" startPosition="27" endLine="15" endPosition="31" conceptFqName="jetbrains.mps.baseLanguage.structure.StaticFieldDeclaration" propertyString="BEFORE" />
     <nodeInfo nodeId="4519409331094618582" fileName="Dfs.java" startLine="15" startPosition="31" endLine="16" endPosition="31" conceptFqName="jetbrains.mps.baseLanguage.structure.StaticFieldDeclaration" propertyString="DURING" />
     <nodeInfo nodeId="4519409331094618588" fileName="Dfs.java" startLine="16" startPosition="31" endLine="17" endPosition="30" conceptFqName="jetbrains.mps.baseLanguage.structure.StaticFieldDeclaration" propertyString="AFTER" />
@@ -1225,7 +1224,7 @@
     <unitInfo nodeId="3182425861591371980" fileName="Dfs.java" startLine="32" startPosition="32" endLine="36" endPosition="5" unitName="jetbrains.mps.graphLayout.algorithms.Dfs$1" />
     <unitInfo nodeId="3182425861591375284" fileName="Dfs.java" startLine="51" startPosition="31" endLine="55" endPosition="5" unitName="jetbrains.mps.graphLayout.algorithms.Dfs$2" />
   </root>
-  <root nodeId="5180427534212042655">
+  <root nodeId="5180427534212042655" modelId="r:5aba4e89-d910-492c-9b56-c5e3fe8c0f28(jetbrains.mps.graphLayout.algorithms)">
     <nodeInfo nodeId="5180427534212042679" fileName="TopologicalSorting.java" startLine="13" startPosition="45" endLine="14" endPosition="29" conceptFqName="jetbrains.mps.baseLanguage.structure.FieldDeclaration" propertyString="myOrder" />
     <nodeInfo nodeId="920414672219845734" fileName="TopologicalSorting.java" startLine="14" startPosition="29" endLine="15" endPosition="30" conceptFqName="jetbrains.mps.baseLanguage.structure.FieldDeclaration" propertyString="myHasCycles" />
     <nodeInfo nodeId="5180427534212042698" fileName="TopologicalSorting.java" startLine="21" startPosition="34" endLine="22" endPosition="60" conceptFqName="jetbrains.mps.baseLanguage.structure.ExpressionStatement" />
@@ -1288,7 +1287,7 @@
     </scopeInfo>
     <unitInfo nodeId="5180427534212042655" fileName="TopologicalSorting.java" startLine="13" startPosition="0" endLine="62" endPosition="0" unitName="jetbrains.mps.graphLayout.algorithms.TopologicalSorting" />
   </root>
-  <root nodeId="5180427534212043147">
+  <root nodeId="5180427534212043147" modelId="r:5aba4e89-d910-492c-9b56-c5e3fe8c0f28(jetbrains.mps.graphLayout.algorithms)">
     <nodeInfo nodeId="920414672219832490" fileName="TopologicalNumbering.java" startLine="18" startPosition="88" endLine="19" endPosition="56" conceptFqName="jetbrains.mps.baseLanguage.structure.LocalVariableDeclarationStatement" />
     <nodeInfo nodeId="3263240354041154763" fileName="TopologicalNumbering.java" startLine="20" startPosition="26" endLine="21" endPosition="72" conceptFqName="jetbrains.mps.baseLanguage.structure.ThrowStatement" />
     <nodeInfo nodeId="920414672219832516" fileName="TopologicalNumbering.java" startLine="22" startPosition="5" endLine="23" endPosition="63" conceptFqName="jetbrains.mps.baseLanguage.structure.LocalVariableDeclarationStatement" />
@@ -1313,9 +1312,6 @@
       <varInfo nodeId="920414672219835492" varName="node" />
     </scopeInfo>
     <scopeInfo nodeId="920414672219835515" fileName="TopologicalNumbering.java" startLine="27" startPosition="54" endLine="31" endPosition="7" />
-    <scopeInfo nodeId="920414672219835517" fileName="TopologicalNumbering.java" startLine="27" startPosition="54" endLine="31" endPosition="7">
-      <varInfo nodeId="920414672219835518" varName="edge" />
-    </scopeInfo>
     <scopeInfo nodeId="920414672219835512" fileName="TopologicalNumbering.java" startLine="26" startPosition="5" endLine="32" endPosition="5">
       <varInfo nodeId="920414672219835513" varName="node" />
     </scopeInfo>
@@ -1328,7 +1324,7 @@
     </scopeInfo>
     <unitInfo nodeId="5180427534212043147" fileName="TopologicalNumbering.java" startLine="14" startPosition="0" endLine="36" endPosition="0" unitName="jetbrains.mps.graphLayout.algorithms.TopologicalNumbering" />
   </root>
-  <root nodeId="5213231752900660164">
+  <root nodeId="5213231752900660164" modelId="r:5aba4e89-d910-492c-9b56-c5e3fe8c0f28(jetbrains.mps.graphLayout.algorithms)">
     <nodeInfo nodeId="3182425861591379002" fileName="ConnectivityComponents.java" startLine="24" startPosition="40" endLine="25" endPosition="20" conceptFqName="jetbrains.mps.baseLanguage.structure.ReturnStatement" />
     <nodeInfo nodeId="3182425861591378968" fileName="ConnectivityComponents.java" startLine="30" startPosition="133" endLine="31" endPosition="74" conceptFqName="jetbrains.mps.baseLanguage.structure.LocalVariableDeclarationStatement" />
     <nodeInfo nodeId="3182425861591378973" fileName="ConnectivityComponents.java" startLine="31" startPosition="74" endLine="32" endPosition="50" conceptFqName="jetbrains.mps.baseLanguage.structure.ExpressionStatement" />
@@ -1478,7 +1474,7 @@
     <unitInfo nodeId="3182425861591378998" fileName="ConnectivityComponents.java" startLine="23" startPosition="36" endLine="27" endPosition="5" unitName="jetbrains.mps.graphLayout.algorithms.ConnectivityComponents$1" />
     <unitInfo nodeId="5213231752900660172" fileName="ConnectivityComponents.java" startLine="85" startPosition="0" endLine="113" endPosition="0" unitName="jetbrains.mps.graphLayout.algorithms.ConnectivityComponents$MyDfs" />
   </root>
-  <root nodeId="5213231752900665923">
+  <root nodeId="5213231752900665923" modelId="r:5aba4e89-d910-492c-9b56-c5e3fe8c0f28(jetbrains.mps.graphLayout.algorithms)">
     <nodeInfo nodeId="5488345258545815597" fileName="BiconnectAugmentation.java" startLine="19" startPosition="36" endLine="20" endPosition="34" conceptFqName="jetbrains.mps.baseLanguage.structure.StaticFieldDeclaration" propertyString="SHOW_LOG" />
     <nodeInfo nodeId="5213231752900665951" fileName="BiconnectAugmentation.java" startLine="22" startPosition="56" endLine="23" endPosition="113" conceptFqName="jetbrains.mps.baseLanguage.structure.ReturnStatement" />
     <nodeInfo nodeId="529057043639337084" fileName="BiconnectAugmentation.java" startLine="26" startPosition="61" endLine="27" endPosition="74" conceptFqName="jetbrains.mps.baseLanguage.structure.LocalVariableDeclarationStatement" />
@@ -1573,7 +1569,6 @@
     <scopeInfo nodeId="6074874003310495425" fileName="BiconnectAugmentation.java" startLine="132" startPosition="92" endLine="133" endPosition="53" />
     <scopeInfo nodeId="6074874003310495270" fileName="BiconnectAugmentation.java" startLine="82" startPosition="0" endLine="84" endPosition="5" />
     <scopeInfo nodeId="6074874003310495339" fileName="BiconnectAugmentation.java" startLine="102" startPosition="53" endLine="104" endPosition="49" />
-    <scopeInfo nodeId="529057043639337138" fileName="BiconnectAugmentation.java" startLine="68" startPosition="12" endLine="71" endPosition="7" />
     <scopeInfo nodeId="529057043639337139" fileName="BiconnectAugmentation.java" startLine="68" startPosition="12" endLine="71" endPosition="7">
       <varInfo nodeId="529057043639337140" varName="child" />
     </scopeInfo>
@@ -1658,7 +1653,7 @@
     <unitInfo nodeId="529057043639340192" fileName="BiconnectAugmentation.java" startLine="62" startPosition="98" endLine="66" endPosition="9" unitName="jetbrains.mps.graphLayout.algorithms.BiconnectAugmentation$2" />
     <unitInfo nodeId="6074874003310495255" fileName="BiconnectAugmentation.java" startLine="75" startPosition="0" endLine="143" endPosition="0" unitName="jetbrains.mps.graphLayout.algorithms.BiconnectAugmentation$MyDfs" />
   </root>
-  <root nodeId="7144400041334857035">
+  <root nodeId="7144400041334857035" modelId="r:5aba4e89-d910-492c-9b56-c5e3fe8c0f28(jetbrains.mps.graphLayout.algorithms)">
     <nodeInfo nodeId="5488345258545835386" fileName="MinCostMaxFlow.java" startLine="18" startPosition="29" endLine="19" endPosition="35" conceptFqName="jetbrains.mps.baseLanguage.structure.StaticFieldDeclaration" propertyString="SHOW_TIME" />
     <nodeInfo nodeId="5488345258545835393" fileName="MinCostMaxFlow.java" startLine="21" startPosition="144" endLine="22" endPosition="45" conceptFqName="jetbrains.mps.baseLanguage.structure.LocalVariableDeclarationStatement" />
     <nodeInfo nodeId="7144400041334857072" fileName="MinCostMaxFlow.java" startLine="22" startPosition="45" endLine="23" endPosition="80" conceptFqName="jetbrains.mps.baseLanguage.structure.LocalVariableDeclarationStatement" />
@@ -1757,7 +1752,7 @@
     <unitInfo nodeId="7144400041334857035" fileName="MinCostMaxFlow.java" startLine="18" startPosition="0" endLine="77" endPosition="0" unitName="jetbrains.mps.graphLayout.algorithms.MinCostMaxFlow" />
     <unitInfo nodeId="7144400041334860821" fileName="MinCostMaxFlow.java" startLine="40" startPosition="41" endLine="44" endPosition="7" unitName="jetbrains.mps.graphLayout.algorithms.MinCostMaxFlow$1" />
   </root>
-  <root nodeId="7953585273259926130">
+  <root nodeId="7953585273259926130" modelId="r:5aba4e89-d910-492c-9b56-c5e3fe8c0f28(jetbrains.mps.graphLayout.algorithms)">
     <nodeInfo nodeId="7953585273259926131" fileName="MinCostMaxFlowCycleCancelling.java" startLine="18" startPosition="44" endLine="19" endPosition="35" conceptFqName="jetbrains.mps.baseLanguage.structure.StaticFieldDeclaration" propertyString="SHOW_TIME" />
     <nodeInfo nodeId="7953585273259926141" fileName="MinCostMaxFlowCycleCancelling.java" startLine="21" startPosition="144" endLine="22" endPosition="45" conceptFqName="jetbrains.mps.baseLanguage.structure.LocalVariableDeclarationStatement" />
     <nodeInfo nodeId="7953585273259926145" fileName="MinCostMaxFlowCycleCancelling.java" startLine="22" startPosition="45" endLine="23" endPosition="86" conceptFqName="jetbrains.mps.baseLanguage.structure.LocalVariableDeclarationStatement" />
@@ -1855,7 +1850,7 @@
     <unitInfo nodeId="7953585273259926130" fileName="MinCostMaxFlowCycleCancelling.java" startLine="18" startPosition="0" endLine="76" endPosition="0" unitName="jetbrains.mps.graphLayout.algorithms.MinCostMaxFlowCycleCancelling" />
     <unitInfo nodeId="2173844983035785636" fileName="MinCostMaxFlowCycleCancelling.java" startLine="39" startPosition="34" endLine="43" endPosition="7" unitName="jetbrains.mps.graphLayout.algorithms.MinCostMaxFlowCycleCancelling$1" />
   </root>
-  <root nodeId="7953585273259926451">
+  <root nodeId="7953585273259926451" modelId="r:5aba4e89-d910-492c-9b56-c5e3fe8c0f28(jetbrains.mps.graphLayout.algorithms)">
     <nodeInfo nodeId="7953585273259926488" fileName="MaxFlow.java" startLine="19" startPosition="119" endLine="20" endPosition="80" conceptFqName="jetbrains.mps.baseLanguage.structure.LocalVariableDeclarationStatement" />
     <nodeInfo nodeId="7953585273259926497" fileName="MaxFlow.java" startLine="20" startPosition="80" endLine="21" endPosition="78" conceptFqName="jetbrains.mps.baseLanguage.structure.LocalVariableDeclarationStatement" />
     <nodeInfo nodeId="7953585273259926506" fileName="MaxFlow.java" startLine="21" startPosition="78" endLine="22" endPosition="90" conceptFqName="jetbrains.mps.baseLanguage.structure.LocalVariableDeclarationStatement" />
@@ -1942,7 +1937,7 @@
     <unitInfo nodeId="7953585273259926451" fileName="MaxFlow.java" startLine="18" startPosition="0" endLine="67" endPosition="0" unitName="jetbrains.mps.graphLayout.algorithms.MaxFlow" />
     <unitInfo nodeId="7953585273259926807" fileName="MaxFlow.java" startLine="35" startPosition="94" endLine="39" endPosition="7" unitName="jetbrains.mps.graphLayout.algorithms.MaxFlow$1" />
   </root>
-  <root nodeId="903391227141019952">
+  <root nodeId="903391227141019952" modelId="r:5aba4e89-d910-492c-9b56-c5e3fe8c0f28(jetbrains.mps.graphLayout.algorithms)">
     <nodeInfo nodeId="903391227141022947" fileName="WeightedTopologicalNumbering.java" startLine="15" startPosition="116" endLine="16" endPosition="56" conceptFqName="jetbrains.mps.baseLanguage.structure.LocalVariableDeclarationStatement" />
     <nodeInfo nodeId="3479464004557252487" fileName="WeightedTopologicalNumbering.java" startLine="17" startPosition="26" endLine="18" endPosition="67" conceptFqName="jetbrains.mps.baseLanguage.structure.ThrowStatement" />
     <nodeInfo nodeId="903391227141022953" fileName="WeightedTopologicalNumbering.java" startLine="19" startPosition="5" endLine="20" endPosition="63" conceptFqName="jetbrains.mps.baseLanguage.structure.LocalVariableDeclarationStatement" />
@@ -1964,9 +1959,6 @@
       <varInfo nodeId="903391227141022963" varName="node" />
     </scopeInfo>
     <scopeInfo nodeId="903391227141022977" fileName="WeightedTopologicalNumbering.java" startLine="24" startPosition="54" endLine="28" endPosition="7" />
-    <scopeInfo nodeId="903391227141022978" fileName="WeightedTopologicalNumbering.java" startLine="24" startPosition="54" endLine="28" endPosition="7">
-      <varInfo nodeId="903391227141022979" varName="edge" />
-    </scopeInfo>
     <scopeInfo nodeId="903391227141022974" fileName="WeightedTopologicalNumbering.java" startLine="23" startPosition="5" endLine="29" endPosition="5">
       <varInfo nodeId="903391227141022975" varName="node" />
     </scopeInfo>

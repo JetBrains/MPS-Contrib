@@ -2103,7 +2103,9 @@
     <scopeInfo nodeId="7976893777486251143" fileName="check_IsApplicableBlock_NonTypesystemRule.java" startLine="29" startPosition="0" endLine="33" endPosition="0" />
     <scopeInfo nodeId="7976893777486251143" fileName="check_IsApplicableBlock_NonTypesystemRule.java" startLine="34" startPosition="68" endLine="38" endPosition="5" />
     <scopeInfo nodeId="7976893777486251143" fileName="check_IsApplicableBlock_NonTypesystemRule.java" startLine="40" startPosition="0" endLine="44" endPosition="0" />
-    <scopeInfo nodeId="7976893777486251144" fileName="check_IsApplicableBlock_NonTypesystemRule.java" startLine="21" startPosition="130" endLine="27" endPosition="5" />
+    <scopeInfo nodeId="7976893777486251146" fileName="check_IsApplicableBlock_NonTypesystemRule.java" startLine="21" startPosition="130" endLine="27" endPosition="5">
+      <varInfo nodeId="7976893777486251147" varName="t" />
+    </scopeInfo>
     <scopeInfo nodeId="7976893777486251143" fileName="check_IsApplicableBlock_NonTypesystemRule.java" startLine="33" startPosition="0" endLine="40" endPosition="0">
       <varInfo nodeId="7976893777486251143" varName="argument" />
     </scopeInfo>

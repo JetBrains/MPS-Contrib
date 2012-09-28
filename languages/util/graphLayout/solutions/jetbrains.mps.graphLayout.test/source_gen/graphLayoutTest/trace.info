@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <debugInfo>
-  <root nodeId="1265453300920882204">
+  <root nodeId="1265453300920882204" modelId="r:37c95452-cbcd-4818-9dbd-771ebb628247(graphLayoutTest)">
     <nodeInfo nodeId="8527875266531954666" fileName="GraphLayoutChecker.java" startLine="24" startPosition="54" endLine="25" endPosition="41" conceptFqName="jetbrains.mps.baseLanguage.structure.ExpressionStatement" />
     <nodeInfo nodeId="1265453300920883584" fileName="GraphLayoutChecker.java" startLine="25" startPosition="41" endLine="26" endPosition="26" conceptFqName="jetbrains.mps.baseLanguage.structure.ExpressionStatement" />
     <nodeInfo nodeId="8527875266531954670" fileName="GraphLayoutChecker.java" startLine="26" startPosition="26" endLine="27" endPosition="27" conceptFqName="jetbrains.mps.baseLanguage.structure.ExpressionStatement" />
@@ -75,7 +75,6 @@
     <scopeInfo nodeId="8527875266531954638" fileName="GraphLayoutChecker.java" startLine="52" startPosition="46" endLine="55" endPosition="5">
       <varInfo nodeId="8527875266531954624" varName="node" />
     </scopeInfo>
-    <scopeInfo nodeId="1675865317250550486" fileName="GraphLayoutChecker.java" startLine="78" startPosition="68" endLine="81" endPosition="7" />
     <scopeInfo nodeId="1675865317250550505" fileName="GraphLayoutChecker.java" startLine="78" startPosition="68" endLine="81" endPosition="7">
       <varInfo nodeId="1675865317250550508" varName="j" />
     </scopeInfo>
@@ -153,7 +152,7 @@
     </scopeInfo>
     <unitInfo nodeId="1265453300920882204" fileName="GraphLayoutChecker.java" startLine="23" startPosition="0" endLine="102" endPosition="0" unitName="graphLayoutTest.GraphLayoutChecker" />
   </root>
-  <root nodeId="5488345258545703426">
+  <root nodeId="5488345258545703426" modelId="r:37c95452-cbcd-4818-9dbd-771ebb628247(graphLayoutTest)">
     <nodeInfo nodeId="5488345258545703444" fileName="GraphPointLayoutChecker.java" startLine="15" startPosition="59" endLine="16" endPosition="36" conceptFqName="jetbrains.mps.baseLanguage.structure.LocalVariableDeclarationStatement" />
     <nodeInfo nodeId="5488345258545703480" fileName="GraphPointLayoutChecker.java" startLine="17" startPosition="63" endLine="18" endPosition="60" conceptFqName="jetbrains.mps.baseLanguage.structure.ExpressionStatement" />
     <nodeInfo nodeId="5488345258545703507" fileName="GraphPointLayoutChecker.java" startLine="20" startPosition="63" endLine="21" endPosition="57" conceptFqName="jetbrains.mps.baseLanguage.structure.LocalVariableDeclarationStatement" />
