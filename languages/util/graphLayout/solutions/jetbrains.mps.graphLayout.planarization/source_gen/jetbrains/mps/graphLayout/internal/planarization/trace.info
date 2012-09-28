@@ -341,9 +341,7 @@
     <scopeInfo nodeId="1532165762814135210" fileName="ClusterEmbeddingConstructorTemp.java" startLine="202" startPosition="63" endLine="209" endPosition="5">
       <varInfo nodeId="1532165762814135211" varName="subcluster" />
     </scopeInfo>
-    <scopeInfo nodeId="1532165762814135253" fileName="ClusterEmbeddingConstructorTemp.java" startLine="211" startPosition="61" endLine="218" endPosition="7">
-      <varInfo nodeId="1532165762814135254" varName="edge" />
-    </scopeInfo>
+    <scopeInfo nodeId="1532165762814135252" fileName="ClusterEmbeddingConstructorTemp.java" startLine="211" startPosition="61" endLine="218" endPosition="7" />
     <scopeInfo nodeId="1532165762814135740" fileName="ClusterEmbeddingConstructorTemp.java" startLine="307" startPosition="103" endLine="314" endPosition="7">
       <varInfo nodeId="1532165762814135741" varName="edge" />
     </scopeInfo>

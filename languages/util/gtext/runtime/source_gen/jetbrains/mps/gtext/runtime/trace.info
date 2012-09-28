@@ -83,7 +83,9 @@
     <scopeInfo nodeId="7733366827988670949" fileName="TBuffer.java" startLine="20" startPosition="0" endLine="24" endPosition="0" />
     <scopeInfo nodeId="7733366827988670956" fileName="TBuffer.java" startLine="24" startPosition="0" endLine="28" endPosition="0" />
     <scopeInfo nodeId="7733366827988670962" fileName="TBuffer.java" startLine="28" startPosition="0" endLine="32" endPosition="0" />
-    <scopeInfo nodeId="7733366827988670971" fileName="TBuffer.java" startLine="33" startPosition="30" endLine="37" endPosition="5" />
+    <scopeInfo nodeId="7733366827988670972" fileName="TBuffer.java" startLine="33" startPosition="30" endLine="37" endPosition="5">
+      <varInfo nodeId="7733366827988670976" varName="i" />
+    </scopeInfo>
     <scopeInfo nodeId="7733366827988671020" fileName="TBuffer.java" startLine="47" startPosition="0" endLine="51" endPosition="0">
       <varInfo nodeId="7733366827988671022" varName="c" />
     </scopeInfo>

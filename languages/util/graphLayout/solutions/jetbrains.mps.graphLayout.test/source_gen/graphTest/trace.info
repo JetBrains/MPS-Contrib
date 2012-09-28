@@ -921,7 +921,9 @@
       <varInfo nodeId="7851503458189916089" varName="flowSize" />
     </scopeInfo>
     <scopeInfo nodeId="7851503458189909531" fileName="CompareFlowStressTest.java" startLine="37" startPosition="65" endLine="43" endPosition="12" />
-    <scopeInfo nodeId="7851503458189934592" fileName="CompareFlowStressTest.java" startLine="87" startPosition="57" endLine="93" endPosition="5" />
+    <scopeInfo nodeId="7851503458189934599" fileName="CompareFlowStressTest.java" startLine="87" startPosition="57" endLine="93" endPosition="5">
+      <varInfo nodeId="7851503458189934600" varName="edge" />
+    </scopeInfo>
     <scopeInfo nodeId="7851503458189909528" fileName="CompareFlowStressTest.java" startLine="36" startPosition="16" endLine="44" endPosition="7">
       <varInfo nodeId="7851503458189909529" varName="node" />
     </scopeInfo>

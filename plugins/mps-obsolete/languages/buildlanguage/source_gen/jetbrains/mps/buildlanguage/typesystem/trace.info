@@ -378,9 +378,7 @@
     <scopeInfo nodeId="1197401210363" fileName="typeof_Enum_InferenceRule.java" startLine="33" startPosition="68" endLine="37" endPosition="5" />
     <scopeInfo nodeId="1197401210363" fileName="typeof_Enum_InferenceRule.java" startLine="39" startPosition="0" endLine="43" endPosition="0" />
     <scopeInfo nodeId="1197401216338" fileName="typeof_Enum_InferenceRule.java" startLine="20" startPosition="109" endLine="25" endPosition="7" />
-    <scopeInfo nodeId="1197401216335" fileName="typeof_Enum_InferenceRule.java" startLine="19" startPosition="124" endLine="26" endPosition="5">
-      <varInfo nodeId="1197401216336" varName="element" />
-    </scopeInfo>
+    <scopeInfo nodeId="1197401210364" fileName="typeof_Enum_InferenceRule.java" startLine="19" startPosition="124" endLine="26" endPosition="5" />
     <scopeInfo nodeId="1197401210363" fileName="typeof_Enum_InferenceRule.java" startLine="32" startPosition="0" endLine="39" endPosition="0">
       <varInfo nodeId="1197401210363" varName="argument" />
     </scopeInfo>
