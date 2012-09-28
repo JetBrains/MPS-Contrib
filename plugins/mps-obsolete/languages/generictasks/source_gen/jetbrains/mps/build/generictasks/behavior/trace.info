@@ -518,9 +518,7 @@
     <scopeInfo nodeId="353793545802644390" fileName="BuiltInTaskDeclaration_Behavior.java" startLine="22" startPosition="43" endLine="24" endPosition="60" />
     <scopeInfo nodeId="353793545802644119" fileName="BuiltInTaskDeclaration_Behavior.java" startLine="35" startPosition="103" endLine="37" endPosition="18" />
     <scopeInfo nodeId="353793545802644353" fileName="BuiltInTaskDeclaration_Behavior.java" startLine="95" startPosition="92" endLine="97" endPosition="19" />
-    <scopeInfo nodeId="353793545802644166" fileName="BuiltInTaskDeclaration_Behavior.java" startLine="50" startPosition="100" endLine="53" endPosition="7">
-      <varInfo nodeId="353793545802644167" varName="ref" />
-    </scopeInfo>
+    <scopeInfo nodeId="353793545802644165" fileName="BuiltInTaskDeclaration_Behavior.java" startLine="50" startPosition="100" endLine="53" endPosition="7" />
     <scopeInfo nodeId="353793545802644214" fileName="BuiltInTaskDeclaration_Behavior.java" startLine="63" startPosition="116" endLine="66" endPosition="7" />
     <scopeInfo nodeId="353793545802644311" fileName="BuiltInTaskDeclaration_Behavior.java" startLine="83" startPosition="120" endLine="86" endPosition="9" />
     <scopeInfo nodeId="353793545802644113" fileName="BuiltInTaskDeclaration_Behavior.java" startLine="34" startPosition="64" endLine="38" endPosition="11" />
