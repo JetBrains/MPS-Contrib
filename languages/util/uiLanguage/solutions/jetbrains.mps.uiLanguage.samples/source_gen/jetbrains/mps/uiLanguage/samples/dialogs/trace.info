@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <debugInfo>
-  <root nodeId="1202829285111">
+  <root nodeId="1202829285111" modelId="r:00000000-0000-4000-0000-011c8959055c(jetbrains.mps.uiLanguage.samples.dialogs)">
     <nodeInfo nodeId="1202829285111" fileName="DialogDemo.java" startLine="26" startPosition="41" endLine="27" endPosition="27" conceptFqName="jetbrains.mps.baseLanguage.structure.FieldDeclaration" propertyString="myThis" />
     <nodeInfo nodeId="1202829285111" fileName="DialogDemo.java" startLine="27" startPosition="27" endLine="28" endPosition="39" conceptFqName="jetbrains.mps.baseLanguage.structure.FieldDeclaration" propertyString="myComponent_50z451_b0" />
     <nodeInfo nodeId="1202829285111" fileName="DialogDemo.java" startLine="28" startPosition="39" endLine="29" endPosition="40" conceptFqName="jetbrains.mps.baseLanguage.structure.FieldDeclaration" propertyString="myComponent_50z451_b1a" />
@@ -308,7 +308,7 @@
     <unitInfo nodeId="1202829285111" fileName="DialogDemo.java" startLine="227" startPosition="36" endLine="231" endPosition="5" unitName="jetbrains.mps.uiLanguage.samples.dialogs.DialogDemo$7" />
     <unitInfo nodeId="1202829285111" fileName="DialogDemo.java" startLine="239" startPosition="36" endLine="243" endPosition="5" unitName="jetbrains.mps.uiLanguage.samples.dialogs.DialogDemo$8" />
   </root>
-  <root nodeId="1202832184362">
+  <root nodeId="1202832184362" modelId="r:00000000-0000-4000-0000-011c8959055c(jetbrains.mps.uiLanguage.samples.dialogs)">
     <nodeInfo nodeId="1202833166011" fileName="DialogDemo.java" startLine="267" startPosition="27" endLine="268" endPosition="21" conceptFqName="jetbrains.mps.baseLanguage.structure.ExpressionStatement" />
     <nodeInfo nodeId="1202832459637" fileName="DialogDemo.java" startLine="271" startPosition="31" endLine="272" endPosition="33" conceptFqName="jetbrains.mps.baseLanguage.structure.ExpressionStatement" />
     <nodeInfo nodeId="1202833174988" fileName="DialogDemo.java" startLine="272" startPosition="33" endLine="273" endPosition="21" conceptFqName="jetbrains.mps.baseLanguage.structure.ExpressionStatement" />
