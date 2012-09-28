@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <debugInfo>
-  <root nodeId="190081711777509436">
+  <root nodeId="190081711777509436" modelId="r:56e7ed05-c300-4310-9801-1a49a3ba1a5a(jetbrains.mps.graphLayout.layeredLayout)">
     <nodeInfo nodeId="190081711777509496" fileName="LayerByLayerNodeSorter.java" startLine="10" startPosition="60" endLine="11" endPosition="35" conceptFqName="jetbrains.mps.baseLanguage.structure.FieldDeclaration" propertyString="myNumIterations" />
     <nodeInfo nodeId="8780938838750221976" fileName="LayerByLayerNodeSorter.java" startLine="11" startPosition="35" endLine="12" endPosition="31" conceptFqName="jetbrains.mps.baseLanguage.structure.FieldDeclaration" propertyString="mySorter" />
     <nodeInfo nodeId="190081711777509748" fileName="LayerByLayerNodeSorter.java" startLine="12" startPosition="31" endLine="13" endPosition="40" conceptFqName="jetbrains.mps.baseLanguage.structure.FieldDeclaration" propertyString="myLayerSorter" />
@@ -51,7 +51,7 @@
     </scopeInfo>
     <unitInfo nodeId="190081711777509436" fileName="LayerByLayerNodeSorter.java" startLine="10" startPosition="0" endLine="40" endPosition="0" unitName="jetbrains.mps.graphLayout.layeredLayout.LayerByLayerNodeSorter" />
   </root>
-  <root nodeId="190081711777509721">
+  <root nodeId="190081711777509721" modelId="r:56e7ed05-c300-4310-9801-1a49a3ba1a5a(jetbrains.mps.graphLayout.layeredLayout)">
     <nodeInfo nodeId="190081711777509727" fileName="IOneLayerSorter.java" startLine="7" startPosition="34" endLine="8" endPosition="91" conceptFqName="jetbrains.mps.baseLanguage.structure.InstanceMethodDeclaration" propertyString="sortLayer#(ILjetbrains/mps/graphLayout/layeredLayout/NodeLayeredOrder;Ljetbrains/mps/graphLayout/graph/Edge/Direction;)V" />
     <scopeInfo nodeId="190081711777509727" fileName="IOneLayerSorter.java" startLine="7" startPosition="34" endLine="8" endPosition="91">
       <varInfo nodeId="190081711777509736" varName="direction" />
@@ -60,7 +60,7 @@
     </scopeInfo>
     <unitInfo nodeId="190081711777509721" fileName="IOneLayerSorter.java" startLine="7" startPosition="0" endLine="10" endPosition="0" unitName="jetbrains.mps.graphLayout.layeredLayout.IOneLayerSorter" />
   </root>
-  <root nodeId="190081711777509915">
+  <root nodeId="190081711777509915" modelId="r:56e7ed05-c300-4310-9801-1a49a3ba1a5a(jetbrains.mps.graphLayout.layeredLayout)">
     <nodeInfo nodeId="4759409676487241162" fileName="MedianLayerSorter.java" startLine="21" startPosition="97" endLine="22" endPosition="46" conceptFqName="jetbrains.mps.baseLanguage.structure.LocalVariableDeclarationStatement" />
     <nodeInfo nodeId="5180427534212029505" fileName="MedianLayerSorter.java" startLine="22" startPosition="46" endLine="23" endPosition="26" conceptFqName="jetbrains.mps.baseLanguage.structure.LocalVariableDeclarationStatement" />
     <nodeInfo nodeId="190081711777509949" fileName="MedianLayerSorter.java" startLine="24" startPosition="38" endLine="25" endPosition="62" conceptFqName="jetbrains.mps.baseLanguage.structure.ExpressionStatement" />
@@ -182,11 +182,11 @@
       <varInfo nodeId="190081711777509925" varName="layerToSort" />
       <varInfo nodeId="190081711777509927" varName="nodeLayeredOrder" />
     </scopeInfo>
-    <unitInfo nodeId="190081711777509915" fileName="MedianLayerSorter.java" startLine="17" startPosition="0" endLine="92" endPosition="0" unitName="jetbrains.mps.graphLayout.layeredLayout.MedianLayerSorter" />
-    <unitInfo nodeId="190081711777516100" fileName="MedianLayerSorter.java" startLine="40" startPosition="60" endLine="56" endPosition="5" unitName="jetbrains.mps.graphLayout.layeredLayout.MedianLayerSorter$1" />
     <unitInfo nodeId="190081711777515962" fileName="MedianLayerSorter.java" startLine="68" startPosition="66" endLine="72" endPosition="5" unitName="jetbrains.mps.graphLayout.layeredLayout.MedianLayerSorter$2" />
+    <unitInfo nodeId="190081711777516100" fileName="MedianLayerSorter.java" startLine="40" startPosition="60" endLine="56" endPosition="5" unitName="jetbrains.mps.graphLayout.layeredLayout.MedianLayerSorter$1" />
+    <unitInfo nodeId="190081711777509915" fileName="MedianLayerSorter.java" startLine="17" startPosition="0" endLine="92" endPosition="0" unitName="jetbrains.mps.graphLayout.layeredLayout.MedianLayerSorter" />
   </root>
-  <root nodeId="2350882467504388199">
+  <root nodeId="2350882467504388199" modelId="r:56e7ed05-c300-4310-9801-1a49a3ba1a5a(jetbrains.mps.graphLayout.layeredLayout)">
     <nodeInfo nodeId="2350882467504391600" fileName="NodeLayeredOrder.java" startLine="15" startPosition="31" endLine="16" endPosition="42" conceptFqName="jetbrains.mps.baseLanguage.structure.FieldDeclaration" propertyString="myLayeredOrder" />
     <nodeInfo nodeId="8780938838750220400" fileName="NodeLayeredOrder.java" startLine="16" startPosition="42" endLine="17" endPosition="42" conceptFqName="jetbrains.mps.baseLanguage.structure.FieldDeclaration" propertyString="myPosInLayer" />
     <nodeInfo nodeId="2350882467504391617" fileName="NodeLayeredOrder.java" startLine="17" startPosition="42" endLine="18" endPosition="24" conceptFqName="jetbrains.mps.baseLanguage.structure.FieldDeclaration" propertyString="myGraph" />
@@ -285,7 +285,7 @@
     <scopeInfo nodeId="4519409331094691671" fileName="NodeLayeredOrder.java" startLine="63" startPosition="0" endLine="77" endPosition="0" />
     <unitInfo nodeId="2350882467504388199" fileName="NodeLayeredOrder.java" startLine="15" startPosition="0" endLine="86" endPosition="0" unitName="jetbrains.mps.graphLayout.layeredLayout.NodeLayeredOrder" />
   </root>
-  <root nodeId="3256072703923740069">
+  <root nodeId="3256072703923740069" modelId="r:56e7ed05-c300-4310-9801-1a49a3ba1a5a(jetbrains.mps.graphLayout.layeredLayout)">
     <nodeInfo nodeId="4660430665333266915" fileName="AsIsCoordinatePlacer.java" startLine="18" startPosition="81" endLine="19" endPosition="59" conceptFqName="jetbrains.mps.baseLanguage.structure.LocalVariableDeclarationStatement" />
     <nodeInfo nodeId="4660430665333276459" fileName="AsIsCoordinatePlacer.java" startLine="20" startPosition="64" endLine="21" endPosition="52" conceptFqName="jetbrains.mps.baseLanguage.structure.LocalVariableDeclarationStatement" />
     <nodeInfo nodeId="4660430665333276523" fileName="AsIsCoordinatePlacer.java" startLine="21" startPosition="52" endLine="22" endPosition="21" conceptFqName="jetbrains.mps.baseLanguage.structure.LocalVariableDeclarationStatement" />
@@ -318,7 +318,7 @@
     </scopeInfo>
     <unitInfo nodeId="3256072703923740069" fileName="AsIsCoordinatePlacer.java" startLine="14" startPosition="0" endLine="31" endPosition="0" unitName="jetbrains.mps.graphLayout.layeredLayout.AsIsCoordinatePlacer" />
   </root>
-  <root nodeId="4660430665333266876">
+  <root nodeId="4660430665333266876" modelId="r:56e7ed05-c300-4310-9801-1a49a3ba1a5a(jetbrains.mps.graphLayout.layeredLayout)">
     <nodeInfo nodeId="4660430665333266878" fileName="ICoordinatePlacer.java" startLine="10" startPosition="36" endLine="11" endPosition="80" conceptFqName="jetbrains.mps.baseLanguage.structure.InstanceMethodDeclaration" propertyString="placeCoordinates#(Ljetbrains/mps/graphLayout/graph/Graph;Ljetbrains/mps/graphLayout/layeredLayout/NodeLayeredOrder;)Ljava/util/Map;" />
     <scopeInfo nodeId="4660430665333266878" fileName="ICoordinatePlacer.java" startLine="10" startPosition="36" endLine="11" endPosition="80">
       <varInfo nodeId="4660430665333266895" varName="graph" />
@@ -326,7 +326,7 @@
     </scopeInfo>
     <unitInfo nodeId="4660430665333266876" fileName="ICoordinatePlacer.java" startLine="10" startPosition="0" endLine="13" endPosition="0" unitName="jetbrains.mps.graphLayout.layeredLayout.ICoordinatePlacer" />
   </root>
-  <root nodeId="4660430665333276832">
+  <root nodeId="4660430665333276832" modelId="r:56e7ed05-c300-4310-9801-1a49a3ba1a5a(jetbrains.mps.graphLayout.layeredLayout)">
     <nodeInfo nodeId="4660430665333280275" fileName="LayeredLayouter.java" startLine="21" startPosition="56" endLine="22" endPosition="35" conceptFqName="jetbrains.mps.baseLanguage.structure.FieldDeclaration" propertyString="myReverter" />
     <nodeInfo nodeId="4660430665333280296" fileName="LayeredLayouter.java" startLine="22" startPosition="35" endLine="23" endPosition="29" conceptFqName="jetbrains.mps.baseLanguage.structure.FieldDeclaration" propertyString="myLayerer" />
     <nodeInfo nodeId="4660430665333280308" fileName="LayeredLayouter.java" startLine="23" startPosition="29" endLine="24" endPosition="37" conceptFqName="jetbrains.mps.baseLanguage.structure.FieldDeclaration" propertyString="myPlacer" />
@@ -467,10 +467,10 @@
       <varInfo nodeId="4660430665333280893" varName="graph" />
       <varInfo nodeId="4660430665333280895" varName="layers" />
     </scopeInfo>
-    <unitInfo nodeId="4660430665333276832" fileName="LayeredLayouter.java" startLine="21" startPosition="0" endLine="102" endPosition="0" unitName="jetbrains.mps.graphLayout.layeredLayout.LayeredLayouter" />
     <unitInfo nodeId="4660430665333281559" fileName="LayeredLayouter.java" startLine="51" startPosition="60" endLine="55" endPosition="5" unitName="jetbrains.mps.graphLayout.layeredLayout.LayeredLayouter$1" />
+    <unitInfo nodeId="4660430665333276832" fileName="LayeredLayouter.java" startLine="21" startPosition="0" endLine="102" endPosition="0" unitName="jetbrains.mps.graphLayout.layeredLayout.LayeredLayouter" />
   </root>
-  <root nodeId="4660430665333276848">
+  <root nodeId="4660430665333276848" modelId="r:56e7ed05-c300-4310-9801-1a49a3ba1a5a(jetbrains.mps.graphLayout.layeredLayout)">
     <nodeInfo nodeId="4660430665333276894" fileName="DFSEdgeReverter.java" startLine="14" startPosition="67" endLine="15" endPosition="31" conceptFqName="jetbrains.mps.baseLanguage.structure.FieldDeclaration" propertyString="myToRevert" />
     <nodeInfo nodeId="4660430665333276901" fileName="DFSEdgeReverter.java" startLine="20" startPosition="45" endLine="21" endPosition="58" conceptFqName="jetbrains.mps.baseLanguage.structure.ExpressionStatement" />
     <nodeInfo nodeId="4660430665333279444" fileName="DFSEdgeReverter.java" startLine="21" startPosition="58" endLine="22" endPosition="17" conceptFqName="jetbrains.mps.baseLanguage.structure.ExpressionStatement" />
@@ -509,14 +509,14 @@
     </scopeInfo>
     <unitInfo nodeId="4660430665333276848" fileName="DFSEdgeReverter.java" startLine="14" startPosition="0" endLine="40" endPosition="0" unitName="jetbrains.mps.graphLayout.layeredLayout.DFSEdgeReverter" />
   </root>
-  <root nodeId="4660430665333276854">
+  <root nodeId="4660430665333276854" modelId="r:56e7ed05-c300-4310-9801-1a49a3ba1a5a(jetbrains.mps.graphLayout.layeredLayout)">
     <nodeInfo nodeId="4660430665333276856" fileName="IEdgeReverter.java" startLine="9" startPosition="32" endLine="10" endPosition="40" conceptFqName="jetbrains.mps.baseLanguage.structure.InstanceMethodDeclaration" propertyString="revertEdges#(Ljetbrains/mps/graphLayout/graph/Graph;)Ljava/util/Set;" />
     <scopeInfo nodeId="4660430665333276856" fileName="IEdgeReverter.java" startLine="9" startPosition="32" endLine="10" endPosition="40">
       <varInfo nodeId="4660430665333276860" varName="g" />
     </scopeInfo>
     <unitInfo nodeId="4660430665333276854" fileName="IEdgeReverter.java" startLine="9" startPosition="0" endLine="12" endPosition="0" unitName="jetbrains.mps.graphLayout.layeredLayout.IEdgeReverter" />
   </root>
-  <root nodeId="4666079041336343296">
+  <root nodeId="4666079041336343296" modelId="r:56e7ed05-c300-4310-9801-1a49a3ba1a5a(jetbrains.mps.graphLayout.layeredLayout)">
     <nodeInfo nodeId="4666079041336343298" fileName="INodeSorter.java" startLine="9" startPosition="30" endLine="10" endPosition="76" conceptFqName="jetbrains.mps.baseLanguage.structure.InstanceMethodDeclaration" propertyString="sortNodes#(Ljetbrains/mps/graphLayout/graph/Graph;Ljava/util/Map;)Ljetbrains/mps/graphLayout/layeredLayout/NodeLayeredOrder;" />
     <scopeInfo nodeId="4666079041336343298" fileName="INodeSorter.java" startLine="9" startPosition="30" endLine="10" endPosition="76">
       <varInfo nodeId="4666079041336343302" varName="graph" />
@@ -524,7 +524,7 @@
     </scopeInfo>
     <unitInfo nodeId="4666079041336343296" fileName="INodeSorter.java" startLine="9" startPosition="0" endLine="12" endPosition="0" unitName="jetbrains.mps.graphLayout.layeredLayout.INodeSorter" />
   </root>
-  <root nodeId="4666079041336346280">
+  <root nodeId="4666079041336346280" modelId="r:56e7ed05-c300-4310-9801-1a49a3ba1a5a(jetbrains.mps.graphLayout.layeredLayout)">
     <nodeInfo nodeId="2350882467504391791" fileName="DFSNodeSorter.java" startLine="12" startPosition="63" endLine="13" endPosition="42" conceptFqName="jetbrains.mps.baseLanguage.structure.FieldDeclaration" propertyString="myNodeLayers" />
     <nodeInfo nodeId="2350882467504391596" fileName="DFSNodeSorter.java" startLine="13" startPosition="42" endLine="14" endPosition="42" conceptFqName="jetbrains.mps.baseLanguage.structure.FieldDeclaration" propertyString="myLayeredOrder" />
     <nodeInfo nodeId="2350882467504391834" fileName="DFSNodeSorter.java" startLine="19" startPosition="81" endLine="20" endPosition="30" conceptFqName="jetbrains.mps.baseLanguage.structure.ExpressionStatement" />
@@ -549,7 +549,7 @@
     </scopeInfo>
     <unitInfo nodeId="4666079041336346280" fileName="DFSNodeSorter.java" startLine="12" startPosition="0" endLine="31" endPosition="0" unitName="jetbrains.mps.graphLayout.layeredLayout.DFSNodeSorter" />
   </root>
-  <root nodeId="5180427534212021892">
+  <root nodeId="5180427534212021892" modelId="r:56e7ed05-c300-4310-9801-1a49a3ba1a5a(jetbrains.mps.graphLayout.layeredLayout)">
     <nodeInfo nodeId="920414672219862049" fileName="TopologicalLayerer.java" startLine="14" startPosition="88" endLine="15" endPosition="46" conceptFqName="jetbrains.mps.baseLanguage.structure.ReturnStatement" />
     <nodeInfo nodeId="5180427534212021893" fileName="TopologicalLayerer.java" startLine="10" startPosition="53" endLine="12" endPosition="3" conceptFqName="jetbrains.mps.baseLanguage.structure.ConstructorDeclaration" propertyString="TopologicalLayerer#()V" />
     <nodeInfo nodeId="5180427534212021899" fileName="TopologicalLayerer.java" startLine="13" startPosition="0" endLine="17" endPosition="0" conceptFqName="jetbrains.mps.baseLanguage.structure.InstanceMethodDeclaration" propertyString="computeLayers#(Ljetbrains/mps/graphLayout/graph/Graph;)Ljava/util/Map;" />
@@ -561,7 +561,7 @@
     </scopeInfo>
     <unitInfo nodeId="5180427534212021892" fileName="TopologicalLayerer.java" startLine="10" startPosition="0" endLine="18" endPosition="0" unitName="jetbrains.mps.graphLayout.layeredLayout.TopologicalLayerer" />
   </root>
-  <root nodeId="5180427534212031421">
+  <root nodeId="5180427534212031421" modelId="r:56e7ed05-c300-4310-9801-1a49a3ba1a5a(jetbrains.mps.graphLayout.layeredLayout)">
     <nodeInfo nodeId="5180427534212031422" fileName="BlockGraphProcessor.java" startLine="17" startPosition="34" endLine="18" endPosition="39" conceptFqName="jetbrains.mps.baseLanguage.structure.FieldDeclaration" propertyString="myClasses" />
     <nodeInfo nodeId="5180427534212031426" fileName="BlockGraphProcessor.java" startLine="18" startPosition="39" endLine="19" endPosition="42" conceptFqName="jetbrains.mps.baseLanguage.structure.FieldDeclaration" propertyString="myNumInEdges" />
     <nodeInfo nodeId="5180427534212031430" fileName="BlockGraphProcessor.java" startLine="19" startPosition="42" endLine="20" endPosition="24" conceptFqName="jetbrains.mps.baseLanguage.structure.FieldDeclaration" propertyString="myShift" />
@@ -683,10 +683,10 @@
     <scopeInfo nodeId="5180427534212031550" fileName="BlockGraphProcessor.java" startLine="26" startPosition="0" endLine="55" endPosition="0">
       <varInfo nodeId="5180427534212031685" varName="blockGraph" />
     </scopeInfo>
-    <unitInfo nodeId="5180427534212031421" fileName="BlockGraphProcessor.java" startLine="17" startPosition="0" endLine="106" endPosition="0" unitName="jetbrains.mps.graphLayout.layeredLayout.BlockGraphProcessor" />
     <unitInfo nodeId="5180427534212031443" fileName="BlockGraphProcessor.java" startLine="79" startPosition="0" endLine="105" endPosition="0" unitName="jetbrains.mps.graphLayout.layeredLayout.BlockGraphProcessor$ClassesFinder" />
+    <unitInfo nodeId="5180427534212031421" fileName="BlockGraphProcessor.java" startLine="17" startPosition="0" endLine="106" endPosition="0" unitName="jetbrains.mps.graphLayout.layeredLayout.BlockGraphProcessor" />
   </root>
-  <root nodeId="7033456583153163504">
+  <root nodeId="7033456583153163504" modelId="r:56e7ed05-c300-4310-9801-1a49a3ba1a5a(jetbrains.mps.graphLayout.layeredLayout)">
     <nodeInfo nodeId="920414672219874767" fileName="BKCoordinatePlacer.java" startLine="25" startPosition="62" endLine="26" endPosition="34" conceptFqName="jetbrains.mps.baseLanguage.structure.StaticFieldDeclaration" propertyString="LEFTMOST" />
     <nodeInfo nodeId="920414672219874771" fileName="BKCoordinatePlacer.java" startLine="26" startPosition="34" endLine="27" endPosition="35" conceptFqName="jetbrains.mps.baseLanguage.structure.StaticFieldDeclaration" propertyString="RIGHTMOST" />
     <nodeInfo nodeId="6220135881201379075" fileName="BKCoordinatePlacer.java" startLine="27" startPosition="35" endLine="28" endPosition="39" conceptFqName="jetbrains.mps.baseLanguage.structure.StaticFieldDeclaration" propertyString="TOP_TO_BOTTOM" />
@@ -1125,20 +1125,20 @@
       <varInfo nodeId="920414672219877005" varName="layerDirection" />
       <varInfo nodeId="920414672219868030" varName="layerIterator" />
     </scopeInfo>
-    <unitInfo nodeId="7033456583153163504" fileName="BKCoordinatePlacer.java" startLine="25" startPosition="0" endLine="292" endPosition="0" unitName="jetbrains.mps.graphLayout.layeredLayout.BKCoordinatePlacer" />
     <unitInfo nodeId="8780938838750204118" fileName="BKCoordinatePlacer.java" startLine="75" startPosition="64" endLine="79" endPosition="7" unitName="jetbrains.mps.graphLayout.layeredLayout.BKCoordinatePlacer$1" />
     <unitInfo nodeId="920414672219877445" fileName="BKCoordinatePlacer.java" startLine="229" startPosition="33" endLine="233" endPosition="7" unitName="jetbrains.mps.graphLayout.layeredLayout.BKCoordinatePlacer$2" />
     <unitInfo nodeId="920414672219877825" fileName="BKCoordinatePlacer.java" startLine="236" startPosition="33" endLine="240" endPosition="7" unitName="jetbrains.mps.graphLayout.layeredLayout.BKCoordinatePlacer$3" />
     <unitInfo nodeId="6220135881201370425" fileName="BKCoordinatePlacer.java" startLine="250" startPosition="86" endLine="254" endPosition="11" unitName="jetbrains.mps.graphLayout.layeredLayout.BKCoordinatePlacer$4" />
+    <unitInfo nodeId="7033456583153163504" fileName="BKCoordinatePlacer.java" startLine="25" startPosition="0" endLine="292" endPosition="0" unitName="jetbrains.mps.graphLayout.layeredLayout.BKCoordinatePlacer" />
   </root>
-  <root nodeId="8567569493821107820">
+  <root nodeId="8567569493821107820" modelId="r:56e7ed05-c300-4310-9801-1a49a3ba1a5a(jetbrains.mps.graphLayout.layeredLayout)">
     <nodeInfo nodeId="8567569493821107822" fileName="ILayerer.java" startLine="9" startPosition="27" endLine="10" endPosition="87" conceptFqName="jetbrains.mps.baseLanguage.structure.InstanceMethodDeclaration" propertyString="computeLayers#(Ljetbrains/mps/graphLayout/graph/Graph;)Ljava/util/Map;" />
     <scopeInfo nodeId="8567569493821107822" fileName="ILayerer.java" startLine="9" startPosition="27" endLine="10" endPosition="87">
       <varInfo nodeId="8567569493821107831" varName="graph" />
     </scopeInfo>
     <unitInfo nodeId="8567569493821107820" fileName="ILayerer.java" startLine="9" startPosition="0" endLine="12" endPosition="0" unitName="jetbrains.mps.graphLayout.layeredLayout.ILayerer" />
   </root>
-  <root nodeId="8780938838750220383">
+  <root nodeId="8780938838750220383" modelId="r:56e7ed05-c300-4310-9801-1a49a3ba1a5a(jetbrains.mps.graphLayout.layeredLayout)">
     <nodeInfo nodeId="8780938838750221828" fileName="AdjacentExhangeNodeSorter.java" startLine="16" startPosition="92" endLine="17" endPosition="56" conceptFqName="jetbrains.mps.baseLanguage.structure.LocalVariableDeclarationStatement" />
     <nodeInfo nodeId="8780938838750221885" fileName="AdjacentExhangeNodeSorter.java" startLine="17" startPosition="56" endLine="18" endPosition="58" conceptFqName="jetbrains.mps.baseLanguage.structure.LocalVariableDeclarationStatement" />
     <nodeInfo nodeId="8780938838750221840" fileName="AdjacentExhangeNodeSorter.java" startLine="19" startPosition="77" endLine="20" endPosition="67" conceptFqName="jetbrains.mps.baseLanguage.structure.LocalVariableDeclarationStatement" />

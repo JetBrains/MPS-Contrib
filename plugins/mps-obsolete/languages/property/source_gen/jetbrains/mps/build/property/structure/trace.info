@@ -2,7 +2,7 @@
 <debugInfo>
   <unitInfo fileName="Property_Language.java" startLine="9" startPosition="0" endLine="16" endPosition="0" unitName="jetbrains.mps.build.property.structure.Property_Language" />
   <unitInfo fileName="StructureAspectDescriptor.java" startLine="10" startPosition="0" endLine="25" endPosition="0" unitName="jetbrains.mps.build.property.structure.StructureAspectDescriptor" />
-  <root nodeId="1200504738494">
+  <root nodeId="1200504738494" modelId="r:00000000-0000-4000-0000-011c895904e2(jetbrains.mps.build.property.structure)">
     <nodeInfo nodeId="1200504738494" fileName="PropertyNode.java" startLine="17" startPosition="89" endLine="18" endPosition="93" conceptFqName="jetbrains.mps.baseLanguage.structure.StaticFieldDeclaration" propertyString="concept" />
     <nodeInfo nodeId="1200504738494" fileName="PropertyNode.java" startLine="18" startPosition="93" endLine="19" endPosition="57" conceptFqName="jetbrains.mps.baseLanguage.structure.StaticFieldDeclaration" propertyString="CPR_Extension" />
     <nodeInfo nodeId="1200504738494" fileName="PropertyNode.java" startLine="19" startPosition="57" endLine="20" endPosition="43" conceptFqName="jetbrains.mps.baseLanguage.structure.StaticFieldDeclaration" propertyString="NAME" />

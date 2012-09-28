@@ -2,7 +2,7 @@
 <debugInfo>
   <unitInfo fileName="Generictasks_Language.java" startLine="9" startPosition="0" endLine="16" endPosition="0" unitName="jetbrains.mps.build.generictasks.structure.Generictasks_Language" />
   <unitInfo fileName="StructureAspectDescriptor.java" startLine="10" startPosition="0" endLine="41" endPosition="0" unitName="jetbrains.mps.build.generictasks.structure.StructureAspectDescriptor" />
-  <root nodeId="3037831562615764081">
+  <root nodeId="3037831562615764081" modelId="r:1e7ada09-c25e-41ea-a9b5-398e142ef533(jetbrains.mps.build.generictasks.structure)">
     <nodeInfo nodeId="3037831562615764081" fileName="TaskReference.java" startLine="11" startPosition="48" endLine="12" endPosition="98" conceptFqName="jetbrains.mps.baseLanguage.structure.StaticFieldDeclaration" propertyString="concept" />
     <nodeInfo nodeId="3037831562615764081" fileName="TaskReference.java" startLine="12" startPosition="98" endLine="13" endPosition="57" conceptFqName="jetbrains.mps.baseLanguage.structure.StaticFieldDeclaration" propertyString="DECLARATION" />
     <nodeInfo nodeId="3037831562615764081" fileName="TaskReference.java" startLine="15" startPosition="36" endLine="16" endPosition="16" conceptFqName="jetbrains.mps.baseLanguage.structure.SuperConstructorInvocation" />
@@ -36,7 +36,7 @@
     </scopeInfo>
     <unitInfo nodeId="3037831562615764081" fileName="TaskReference.java" startLine="11" startPosition="0" endLine="35" endPosition="0" unitName="jetbrains.mps.build.generictasks.structure.TaskReference" />
   </root>
-  <root nodeId="353793545802643466">
+  <root nodeId="353793545802643466" modelId="r:1e7ada09-c25e-41ea-a9b5-398e142ef533(jetbrains.mps.build.generictasks.structure)">
     <nodeInfo nodeId="353793545802643466" fileName="Attribute.java" startLine="12" startPosition="44" endLine="13" endPosition="94" conceptFqName="jetbrains.mps.baseLanguage.structure.StaticFieldDeclaration" propertyString="concept" />
     <nodeInfo nodeId="353793545802643466" fileName="Attribute.java" startLine="13" startPosition="94" endLine="14" endPosition="76" conceptFqName="jetbrains.mps.baseLanguage.structure.StaticFieldDeclaration" propertyString="ATTRIBUTE_DECLARATION" />
     <nodeInfo nodeId="353793545802643466" fileName="Attribute.java" startLine="14" startPosition="76" endLine="15" endPosition="45" conceptFqName="jetbrains.mps.baseLanguage.structure.StaticFieldDeclaration" propertyString="VALUE" />
@@ -81,7 +81,7 @@
     </scopeInfo>
     <unitInfo nodeId="353793545802643466" fileName="Attribute.java" startLine="12" startPosition="0" endLine="45" endPosition="0" unitName="jetbrains.mps.build.generictasks.structure.Attribute" />
   </root>
-  <root nodeId="353793545802643469">
+  <root nodeId="353793545802643469" modelId="r:1e7ada09-c25e-41ea-a9b5-398e142ef533(jetbrains.mps.build.generictasks.structure)">
     <nodeInfo nodeId="353793545802643469" fileName="AttributeDeclaration.java" startLine="19" startPosition="89" endLine="20" endPosition="105" conceptFqName="jetbrains.mps.baseLanguage.structure.StaticFieldDeclaration" propertyString="concept" />
     <nodeInfo nodeId="353793545802643469" fileName="AttributeDeclaration.java" startLine="20" startPosition="105" endLine="21" endPosition="43" conceptFqName="jetbrains.mps.baseLanguage.structure.StaticFieldDeclaration" propertyString="NAME" />
     <nodeInfo nodeId="353793545802643469" fileName="AttributeDeclaration.java" startLine="21" startPosition="43" endLine="22" endPosition="68" conceptFqName="jetbrains.mps.baseLanguage.structure.StaticFieldDeclaration" propertyString="SHORT_DESCRIPTION" />
@@ -229,7 +229,7 @@
     </scopeInfo>
     <unitInfo nodeId="353793545802643469" fileName="AttributeDeclaration.java" startLine="19" startPosition="0" endLine="136" endPosition="0" unitName="jetbrains.mps.build.generictasks.structure.AttributeDeclaration" />
   </root>
-  <root nodeId="353793545802643477">
+  <root nodeId="353793545802643477" modelId="r:1e7ada09-c25e-41ea-a9b5-398e142ef533(jetbrains.mps.build.generictasks.structure)">
     <nodeInfo nodeId="353793545802643477" fileName="TaskCall.java" startLine="14" startPosition="69" endLine="15" endPosition="93" conceptFqName="jetbrains.mps.baseLanguage.structure.StaticFieldDeclaration" propertyString="concept" />
     <nodeInfo nodeId="353793545802643477" fileName="TaskCall.java" startLine="15" startPosition="93" endLine="16" endPosition="39" conceptFqName="jetbrains.mps.baseLanguage.structure.StaticFieldDeclaration" propertyString="ID" />
     <nodeInfo nodeId="353793545802643477" fileName="TaskCall.java" startLine="16" startPosition="39" endLine="17" endPosition="43" conceptFqName="jetbrains.mps.baseLanguage.structure.StaticFieldDeclaration" propertyString="NAME" />
@@ -370,7 +370,7 @@
     </scopeInfo>
     <unitInfo nodeId="353793545802643477" fileName="TaskCall.java" startLine="14" startPosition="0" endLine="125" endPosition="0" unitName="jetbrains.mps.build.generictasks.structure.TaskCall" />
   </root>
-  <root nodeId="353793545802643483">
+  <root nodeId="353793545802643483" modelId="r:1e7ada09-c25e-41ea-a9b5-398e142ef533(jetbrains.mps.build.generictasks.structure)">
     <nodeInfo nodeId="353793545802643483" fileName="TaskInterfaceDeclaration.java" startLine="12" startPosition="70" endLine="13" endPosition="109" conceptFqName="jetbrains.mps.baseLanguage.structure.StaticFieldDeclaration" propertyString="concept" />
     <nodeInfo nodeId="353793545802643483" fileName="TaskInterfaceDeclaration.java" startLine="13" startPosition="109" endLine="14" endPosition="49" conceptFqName="jetbrains.mps.baseLanguage.structure.StaticFieldDeclaration" propertyString="PARENTS" />
     <nodeInfo nodeId="353793545802643483" fileName="TaskInterfaceDeclaration.java" startLine="16" startPosition="47" endLine="17" endPosition="16" conceptFqName="jetbrains.mps.baseLanguage.structure.SuperConstructorInvocation" />
@@ -419,7 +419,7 @@
     </scopeInfo>
     <unitInfo nodeId="353793545802643483" fileName="TaskInterfaceDeclaration.java" startLine="12" startPosition="0" endLine="48" endPosition="0" unitName="jetbrains.mps.build.generictasks.structure.TaskInterfaceDeclaration" />
   </root>
-  <root nodeId="353793545802643486">
+  <root nodeId="353793545802643486" modelId="r:1e7ada09-c25e-41ea-a9b5-398e142ef533(jetbrains.mps.build.generictasks.structure)">
     <nodeInfo nodeId="353793545802643486" fileName="BuiltInTaskDeclaration.java" startLine="14" startPosition="85" endLine="15" endPosition="107" conceptFqName="jetbrains.mps.baseLanguage.structure.StaticFieldDeclaration" propertyString="concept" />
     <nodeInfo nodeId="353793545802643486" fileName="BuiltInTaskDeclaration.java" startLine="15" startPosition="107" endLine="16" endPosition="53" conceptFqName="jetbrains.mps.baseLanguage.structure.StaticFieldDeclaration" propertyString="CLASSNAME" />
     <nodeInfo nodeId="353793545802643486" fileName="BuiltInTaskDeclaration.java" startLine="16" startPosition="53" endLine="17" endPosition="43" conceptFqName="jetbrains.mps.baseLanguage.structure.StaticFieldDeclaration" propertyString="NAME" />
@@ -682,7 +682,7 @@
     </scopeInfo>
     <unitInfo nodeId="353793545802643486" fileName="BuiltInTaskDeclaration.java" startLine="14" startPosition="0" endLine="224" endPosition="0" unitName="jetbrains.mps.build.generictasks.structure.BuiltInTaskDeclaration" />
   </root>
-  <root nodeId="353793545802643498">
+  <root nodeId="353793545802643498" modelId="r:1e7ada09-c25e-41ea-a9b5-398e142ef533(jetbrains.mps.build.generictasks.structure)">
     <nodeInfo nodeId="353793545802643498" fileName="NestedDeclaration.java" startLine="12" startPosition="54" endLine="13" endPosition="102" conceptFqName="jetbrains.mps.baseLanguage.structure.StaticFieldDeclaration" propertyString="concept" />
     <nodeInfo nodeId="353793545802643498" fileName="NestedDeclaration.java" startLine="13" startPosition="102" endLine="14" endPosition="43" conceptFqName="jetbrains.mps.baseLanguage.structure.StaticFieldDeclaration" propertyString="ROLE" />
     <nodeInfo nodeId="353793545802643498" fileName="NestedDeclaration.java" startLine="16" startPosition="40" endLine="17" endPosition="16" conceptFqName="jetbrains.mps.baseLanguage.structure.SuperConstructorInvocation" />
@@ -731,7 +731,7 @@
     </scopeInfo>
     <unitInfo nodeId="353793545802643498" fileName="NestedDeclaration.java" startLine="12" startPosition="0" endLine="48" endPosition="0" unitName="jetbrains.mps.build.generictasks.structure.NestedDeclaration" />
   </root>
-  <root nodeId="353793545802854870">
+  <root nodeId="353793545802854870" modelId="r:1e7ada09-c25e-41ea-a9b5-398e142ef533(jetbrains.mps.build.generictasks.structure)">
     <nodeInfo nodeId="353793545802854870" fileName="PathReference.java" startLine="11" startPosition="50" endLine="12" endPosition="98" conceptFqName="jetbrains.mps.baseLanguage.structure.StaticFieldDeclaration" propertyString="concept" />
     <nodeInfo nodeId="353793545802854870" fileName="PathReference.java" startLine="14" startPosition="36" endLine="15" endPosition="16" conceptFqName="jetbrains.mps.baseLanguage.structure.SuperConstructorInvocation" />
     <nodeInfo nodeId="353793545802854870" fileName="PathReference.java" startLine="18" startPosition="68" endLine="19" endPosition="182" conceptFqName="jetbrains.mps.baseLanguage.structure.ReturnStatement" />
@@ -754,7 +754,7 @@
     </scopeInfo>
     <unitInfo nodeId="353793545802854870" fileName="PathReference.java" startLine="11" startPosition="0" endLine="26" endPosition="0" unitName="jetbrains.mps.build.generictasks.structure.PathReference" />
   </root>
-  <root nodeId="5699548131010533020">
+  <root nodeId="5699548131010533020" modelId="r:1e7ada09-c25e-41ea-a9b5-398e142ef533(jetbrains.mps.build.generictasks.structure)">
     <nodeInfo nodeId="5699548131010533020" fileName="ITaskDeclaration.java" startLine="10" startPosition="69" endLine="11" endPosition="101" conceptFqName="jetbrains.mps.baseLanguage.structure.StaticFieldDeclaration" propertyString="concept" />
     <nodeInfo nodeId="5699548131010533020" fileName="ITaskDeclaration.java" startLine="11" startPosition="101" endLine="12" endPosition="53" conceptFqName="jetbrains.mps.baseLanguage.structure.StaticFieldDeclaration" propertyString="CLASSNAME" />
     <nodeInfo nodeId="5699548131010533020" fileName="ITaskDeclaration.java" startLine="12" startPosition="53" endLine="13" endPosition="76" conceptFqName="jetbrains.mps.baseLanguage.structure.StaticFieldDeclaration" propertyString="CAN_HAVE_INTERNAL_TEXT" />

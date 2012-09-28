@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <debugInfo>
-  <root nodeId="2059681291147340382">
+  <root nodeId="2059681291147340382" modelId="r:453eba07-be06-4d79-be27-e839de91fcf2(sax)">
     <nodeInfo nodeId="2059681291147340382" fileName="TestParserHandler.java" startLine="12" startPosition="63" endLine="13" endPosition="54" conceptFqName="jetbrains.mps.baseLanguage.structure.StaticFieldDeclaration" propertyString="EMPTY_ARRAY" />
     <nodeInfo nodeId="2059681291147340382" fileName="TestParserHandler.java" startLine="14" startPosition="0" endLine="15" endPosition="125" conceptFqName="jetbrains.mps.baseLanguage.structure.FieldDeclaration" propertyString="rootElementhandler" />
     <nodeInfo nodeId="2059681291147340382" fileName="TestParserHandler.java" startLine="15" startPosition="125" endLine="16" endPosition="128" conceptFqName="jetbrains.mps.baseLanguage.structure.FieldDeclaration" propertyString="childElementhandler" />
@@ -247,12 +247,12 @@
       <varInfo nodeId="2059681291147340382" varName="qName" />
       <varInfo nodeId="2059681291147340382" varName="uri" />
     </scopeInfo>
-    <unitInfo nodeId="2059681291147340382" fileName="TestParserHandler.java" startLine="12" startPosition="0" endLine="205" endPosition="0" unitName="sax.TestParserHandler" />
     <unitInfo nodeId="2059681291147340382" fileName="TestParserHandler.java" startLine="175" startPosition="0" endLine="204" endPosition="0" unitName="sax.TestParserHandler$ChildElementElementHandler" />
     <unitInfo nodeId="2059681291147340382" fileName="TestParserHandler.java" startLine="94" startPosition="0" endLine="127" endPosition="0" unitName="sax.TestParserHandler$ElementHandler" />
     <unitInfo nodeId="2059681291147340382" fileName="TestParserHandler.java" startLine="128" startPosition="0" endLine="174" endPosition="0" unitName="sax.TestParserHandler$RootElementElementHandler" />
+    <unitInfo nodeId="2059681291147340382" fileName="TestParserHandler.java" startLine="12" startPosition="0" endLine="205" endPosition="0" unitName="sax.TestParserHandler" />
   </root>
-  <root nodeId="2059681291147340385">
+  <root nodeId="2059681291147340385" modelId="r:453eba07-be06-4d79-be27-e839de91fcf2(sax)">
     <nodeInfo nodeId="2059681291147340391" fileName="AstRoot.java" startLine="6" startPosition="22" endLine="7" endPosition="26" conceptFqName="jetbrains.mps.baseLanguage.structure.FieldDeclaration" propertyString="text" />
     <nodeInfo nodeId="2059681291147340395" fileName="AstRoot.java" startLine="7" startPosition="26" endLine="8" endPosition="26" conceptFqName="jetbrains.mps.baseLanguage.structure.FieldDeclaration" propertyString="name" />
     <nodeInfo nodeId="2059681291147422753" fileName="AstRoot.java" startLine="8" startPosition="26" endLine="9" endPosition="33" conceptFqName="jetbrains.mps.baseLanguage.structure.FieldDeclaration" propertyString="mainChild" />
@@ -297,13 +297,13 @@
     </scopeInfo>
     <unitInfo nodeId="2059681291147340385" fileName="AstRoot.java" startLine="6" startPosition="0" endLine="45" endPosition="0" unitName="sax.AstRoot" />
   </root>
-  <root nodeId="2059681291147419773">
+  <root nodeId="2059681291147419773" modelId="r:453eba07-be06-4d79-be27-e839de91fcf2(sax)">
     <nodeInfo nodeId="2059681291147419775" fileName="AstChild.java" startLine="6" startPosition="23" endLine="8" endPosition="3" conceptFqName="jetbrains.mps.baseLanguage.structure.ConstructorDeclaration" propertyString="AstChild#()V" />
     <scopeInfo nodeId="2059681291147419778" fileName="AstChild.java" startLine="7" startPosition="21" endLine="7" endPosition="21" />
     <scopeInfo nodeId="2059681291147419775" fileName="AstChild.java" startLine="6" startPosition="23" endLine="8" endPosition="3" />
     <unitInfo nodeId="2059681291147419773" fileName="AstChild.java" startLine="6" startPosition="0" endLine="10" endPosition="0" unitName="sax.AstChild" />
   </root>
-  <root nodeId="2059681291147434338">
+  <root nodeId="2059681291147434338" modelId="r:453eba07-be06-4d79-be27-e839de91fcf2(sax)">
     <nodeInfo nodeId="2059681291147444058" fileName="testParser_Test.java" startLine="17" startPosition="9" endLine="18" endPosition="37" conceptFqName="jetbrains.mps.baseLanguage.structure.LocalVariableDeclarationStatement" />
     <nodeInfo nodeId="2059681291147451479" fileName="testParser_Test.java" startLine="18" startPosition="37" endLine="19" endPosition="34" conceptFqName="jetbrains.mps.baseLanguage.structure.ExpressionStatement" />
     <nodeInfo nodeId="2059681291147451469" fileName="testParser_Test.java" startLine="20" startPosition="31" endLine="21" endPosition="71" conceptFqName="jetbrains.mps.baseLanguage.structure.ExpressionStatement" />

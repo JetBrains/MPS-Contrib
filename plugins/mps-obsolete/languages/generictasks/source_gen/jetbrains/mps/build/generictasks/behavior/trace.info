@@ -1,15 +1,15 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <debugInfo>
-  <unitInfo fileName="AttributeDeclaration_BehaviorDescriptor.java" startLine="12" startPosition="0" endLine="45" endPosition="0" unitName="jetbrains.mps.build.generictasks.behavior.AttributeDeclaration_BehaviorDescriptor" />
-  <unitInfo fileName="Attribute_BehaviorDescriptor.java" startLine="7" startPosition="0" endLine="16" endPosition="0" unitName="jetbrains.mps.build.generictasks.behavior.Attribute_BehaviorDescriptor" />
-  <unitInfo fileName="BehaviorAspectDescriptor.java" startLine="9" startPosition="0" endLine="38" endPosition="0" unitName="jetbrains.mps.build.generictasks.behavior.BehaviorAspectDescriptor" />
-  <unitInfo fileName="BuiltInTaskDeclaration_BehaviorDescriptor.java" startLine="13" startPosition="0" endLine="94" endPosition="0" unitName="jetbrains.mps.build.generictasks.behavior.BuiltInTaskDeclaration_BehaviorDescriptor" />
-  <unitInfo fileName="ITaskDeclaration_BehaviorDescriptor.java" startLine="10" startPosition="0" endLine="19" endPosition="0" unitName="jetbrains.mps.build.generictasks.behavior.ITaskDeclaration_BehaviorDescriptor" />
   <unitInfo fileName="NestedDeclaration_BehaviorDescriptor.java" startLine="6" startPosition="0" endLine="15" endPosition="0" unitName="jetbrains.mps.build.generictasks.behavior.NestedDeclaration_BehaviorDescriptor" />
-  <unitInfo fileName="PathReference_BehaviorDescriptor.java" startLine="9" startPosition="0" endLine="30" endPosition="0" unitName="jetbrains.mps.build.generictasks.behavior.PathReference_BehaviorDescriptor" />
-  <unitInfo fileName="TaskCall_BehaviorDescriptor.java" startLine="8" startPosition="0" endLine="17" endPosition="0" unitName="jetbrains.mps.build.generictasks.behavior.TaskCall_BehaviorDescriptor" />
   <unitInfo fileName="TaskInterfaceDeclaration_BehaviorDescriptor.java" startLine="6" startPosition="0" endLine="15" endPosition="0" unitName="jetbrains.mps.build.generictasks.behavior.TaskInterfaceDeclaration_BehaviorDescriptor" />
+  <unitInfo fileName="Attribute_BehaviorDescriptor.java" startLine="7" startPosition="0" endLine="16" endPosition="0" unitName="jetbrains.mps.build.generictasks.behavior.Attribute_BehaviorDescriptor" />
   <unitInfo fileName="TaskReference_BehaviorDescriptor.java" startLine="7" startPosition="0" endLine="16" endPosition="0" unitName="jetbrains.mps.build.generictasks.behavior.TaskReference_BehaviorDescriptor" />
+  <unitInfo fileName="TaskCall_BehaviorDescriptor.java" startLine="8" startPosition="0" endLine="17" endPosition="0" unitName="jetbrains.mps.build.generictasks.behavior.TaskCall_BehaviorDescriptor" />
+  <unitInfo fileName="ITaskDeclaration_BehaviorDescriptor.java" startLine="10" startPosition="0" endLine="19" endPosition="0" unitName="jetbrains.mps.build.generictasks.behavior.ITaskDeclaration_BehaviorDescriptor" />
+  <unitInfo fileName="PathReference_BehaviorDescriptor.java" startLine="9" startPosition="0" endLine="30" endPosition="0" unitName="jetbrains.mps.build.generictasks.behavior.PathReference_BehaviorDescriptor" />
+  <unitInfo fileName="BehaviorAspectDescriptor.java" startLine="9" startPosition="0" endLine="38" endPosition="0" unitName="jetbrains.mps.build.generictasks.behavior.BehaviorAspectDescriptor" />
+  <unitInfo fileName="AttributeDeclaration_BehaviorDescriptor.java" startLine="12" startPosition="0" endLine="45" endPosition="0" unitName="jetbrains.mps.build.generictasks.behavior.AttributeDeclaration_BehaviorDescriptor" />
+  <unitInfo fileName="BuiltInTaskDeclaration_BehaviorDescriptor.java" startLine="13" startPosition="0" endLine="94" endPosition="0" unitName="jetbrains.mps.build.generictasks.behavior.BuiltInTaskDeclaration_BehaviorDescriptor" />
   <root nodeId="1449762848926780416" modelId="r:83b1eb02-118e-488e-ab83-e4cc714b9392(jetbrains.mps.build.generictasks.behavior)">
     <nodeInfo nodeId="1449762848926780416" fileName="ITaskDeclaration_Behavior.java" startLine="17" startPosition="40" endLine="18" endPosition="72" conceptFqName="jetbrains.mps.baseLanguage.structure.StaticFieldDeclaration" propertyString="PARAMETERS_1449762848926780427" />
     <nodeInfo nodeId="1449762848926780416" fileName="ITaskDeclaration_Behavior.java" startLine="18" startPosition="72" endLine="19" endPosition="84" conceptFqName="jetbrains.mps.baseLanguage.structure.StaticFieldDeclaration" propertyString="PARAMETERS_1449762848926780436" />
@@ -202,8 +202,8 @@
       <varInfo nodeId="1449762848926780437" varName="declarations" />
       <varInfo nodeId="1449762848926780416" varName="thisNode" />
     </scopeInfo>
-    <unitInfo nodeId="1449762848926780416" fileName="ITaskDeclaration_Behavior.java" startLine="17" startPosition="0" endLine="129" endPosition="0" unitName="jetbrains.mps.build.generictasks.behavior.ITaskDeclaration_Behavior" />
     <unitInfo nodeId="3256972444606015201" fileName="ITaskDeclaration_Behavior.java" startLine="39" startPosition="57" endLine="43" endPosition="5" unitName="jetbrains.mps.build.generictasks.behavior.ITaskDeclaration_Behavior$1" />
+    <unitInfo nodeId="1449762848926780416" fileName="ITaskDeclaration_Behavior.java" startLine="17" startPosition="0" endLine="129" endPosition="0" unitName="jetbrains.mps.build.generictasks.behavior.ITaskDeclaration_Behavior" />
   </root>
   <root nodeId="3037831562615764087" modelId="r:83b1eb02-118e-488e-ab83-e4cc714b9392(jetbrains.mps.build.generictasks.behavior)">
     <nodeInfo nodeId="3037831562615764087" fileName="TaskReference_Behavior.java" startLine="7" startPosition="37" endLine="10" endPosition="0" conceptFqName="jetbrains.mps.baseLanguage.structure.StaticMethodDeclaration" propertyString="init#(Ljetbrains/mps/smodel/SNode;)V" />
@@ -353,8 +353,8 @@
       <varInfo nodeId="353793545802643902" varName="name" />
       <varInfo nodeId="353793545802643858" varName="thisNode" />
     </scopeInfo>
-    <unitInfo nodeId="353793545802643858" fileName="TaskCall_Behavior.java" startLine="14" startPosition="0" endLine="61" endPosition="0" unitName="jetbrains.mps.build.generictasks.behavior.TaskCall_Behavior" />
     <unitInfo nodeId="5722070778270748673" fileName="TaskCall_Behavior.java" startLine="46" startPosition="66" endLine="50" endPosition="5" unitName="jetbrains.mps.build.generictasks.behavior.TaskCall_Behavior$1" />
+    <unitInfo nodeId="353793545802643858" fileName="TaskCall_Behavior.java" startLine="14" startPosition="0" endLine="61" endPosition="0" unitName="jetbrains.mps.build.generictasks.behavior.TaskCall_Behavior" />
   </root>
   <root nodeId="353793545802644070" modelId="r:83b1eb02-118e-488e-ab83-e4cc714b9392(jetbrains.mps.build.generictasks.behavior)">
     <nodeInfo nodeId="353793545802644391" fileName="BuiltInTaskDeclaration_Behavior.java" startLine="22" startPosition="43" endLine="23" endPosition="66" conceptFqName="jetbrains.mps.baseLanguage.structure.ExpressionStatement" />
@@ -467,6 +467,9 @@
     <scopeInfo nodeId="353793545802644119" fileName="BuiltInTaskDeclaration_Behavior.java" startLine="35" startPosition="103" endLine="37" endPosition="18" />
     <scopeInfo nodeId="353793545802644353" fileName="BuiltInTaskDeclaration_Behavior.java" startLine="95" startPosition="92" endLine="97" endPosition="19" />
     <scopeInfo nodeId="353793545802644165" fileName="BuiltInTaskDeclaration_Behavior.java" startLine="50" startPosition="100" endLine="53" endPosition="7" />
+    <scopeInfo nodeId="353793545802644166" fileName="BuiltInTaskDeclaration_Behavior.java" startLine="50" startPosition="100" endLine="53" endPosition="7">
+      <varInfo nodeId="353793545802644166" varName="ref" />
+    </scopeInfo>
     <scopeInfo nodeId="353793545802644214" fileName="BuiltInTaskDeclaration_Behavior.java" startLine="63" startPosition="116" endLine="66" endPosition="7" />
     <scopeInfo nodeId="353793545802644311" fileName="BuiltInTaskDeclaration_Behavior.java" startLine="83" startPosition="120" endLine="86" endPosition="9" />
     <scopeInfo nodeId="353793545802644113" fileName="BuiltInTaskDeclaration_Behavior.java" startLine="34" startPosition="64" endLine="38" endPosition="11" />
@@ -529,6 +532,7 @@
       <varInfo nodeId="5114497955154742483" varName="a" />
       <varInfo nodeId="5114497955154742483" varName="b" />
     </scopeInfo>
+    <scopeInfo nodeId="353793545802644345" fileName="BuiltInTaskDeclaration_Behavior.java" startLine="93" startPosition="126" endLine="102" endPosition="7" />
     <scopeInfo nodeId="353793545802644346" fileName="BuiltInTaskDeclaration_Behavior.java" startLine="93" startPosition="126" endLine="102" endPosition="7">
       <varInfo nodeId="353793545802644346" varName="interfaceReference" />
     </scopeInfo>

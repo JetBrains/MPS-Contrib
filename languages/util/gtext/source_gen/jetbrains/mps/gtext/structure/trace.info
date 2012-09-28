@@ -2,7 +2,7 @@
 <debugInfo>
   <unitInfo fileName="Gtext_Language.java" startLine="9" startPosition="0" endLine="16" endPosition="0" unitName="jetbrains.mps.gtext.structure.Gtext_Language" />
   <unitInfo fileName="StructureAspectDescriptor.java" startLine="10" startPosition="0" endLine="59" endPosition="0" unitName="jetbrains.mps.gtext.structure.StructureAspectDescriptor" />
-  <root nodeId="1164412789837">
+  <root nodeId="1164412789837" modelId="r:00000000-0000-4000-0000-011c89590575(jetbrains.mps.gtext.structure)">
     <nodeInfo nodeId="1164412789837" fileName="GText.java" startLine="10" startPosition="34" endLine="11" endPosition="77" conceptFqName="jetbrains.mps.baseLanguage.structure.StaticFieldDeclaration" propertyString="concept" />
     <nodeInfo nodeId="1164412789837" fileName="GText.java" startLine="11" startPosition="77" endLine="12" endPosition="43" conceptFqName="jetbrains.mps.baseLanguage.structure.StaticFieldDeclaration" propertyString="TEXT" />
     <nodeInfo nodeId="1164412789837" fileName="GText.java" startLine="14" startPosition="28" endLine="15" endPosition="16" conceptFqName="jetbrains.mps.baseLanguage.structure.SuperConstructorInvocation" />
@@ -36,7 +36,7 @@
     </scopeInfo>
     <unitInfo nodeId="1164412789837" fileName="GText.java" startLine="10" startPosition="0" endLine="34" endPosition="0" unitName="jetbrains.mps.gtext.structure.GText" />
   </root>
-  <root nodeId="1164412935041">
+  <root nodeId="1164412935041" modelId="r:00000000-0000-4000-0000-011c89590575(jetbrains.mps.gtext.structure)">
     <nodeInfo nodeId="1164412935041" fileName="GItem.java" startLine="15" startPosition="82" endLine="16" endPosition="77" conceptFqName="jetbrains.mps.baseLanguage.structure.StaticFieldDeclaration" propertyString="concept" />
     <nodeInfo nodeId="1164412935041" fileName="GItem.java" startLine="16" startPosition="77" endLine="17" endPosition="68" conceptFqName="jetbrains.mps.baseLanguage.structure.StaticFieldDeclaration" propertyString="SHORT_DESCRIPTION" />
     <nodeInfo nodeId="1164412935041" fileName="GItem.java" startLine="17" startPosition="68" endLine="18" endPosition="45" conceptFqName="jetbrains.mps.baseLanguage.structure.StaticFieldDeclaration" propertyString="ALIAS" />
@@ -118,7 +118,7 @@
     </scopeInfo>
     <unitInfo nodeId="1164412935041" fileName="GItem.java" startLine="15" startPosition="0" endLine="78" endPosition="0" unitName="jetbrains.mps.gtext.structure.GItem" />
   </root>
-  <root nodeId="1164412982980">
+  <root nodeId="1164412982980" modelId="r:00000000-0000-4000-0000-011c89590575(jetbrains.mps.gtext.structure)">
     <nodeInfo nodeId="1164412982980" fileName="GItemList.java" startLine="13" startPosition="64" endLine="14" endPosition="81" conceptFqName="jetbrains.mps.baseLanguage.structure.StaticFieldDeclaration" propertyString="concept" />
     <nodeInfo nodeId="1164412982980" fileName="GItemList.java" startLine="14" startPosition="81" endLine="15" endPosition="68" conceptFqName="jetbrains.mps.baseLanguage.structure.StaticFieldDeclaration" propertyString="SHORT_DESCRIPTION" />
     <nodeInfo nodeId="1164412982980" fileName="GItemList.java" startLine="15" startPosition="68" endLine="16" endPosition="45" conceptFqName="jetbrains.mps.baseLanguage.structure.StaticFieldDeclaration" propertyString="ALIAS" />
@@ -226,7 +226,7 @@
     </scopeInfo>
     <unitInfo nodeId="1164412982980" fileName="GItemList.java" startLine="13" startPosition="0" endLine="97" endPosition="0" unitName="jetbrains.mps.gtext.structure.GItemList" />
   </root>
-  <root nodeId="1164413172275">
+  <root nodeId="1164413172275" modelId="r:00000000-0000-4000-0000-011c89590575(jetbrains.mps.gtext.structure)">
     <nodeInfo nodeId="1164413172275" fileName="GNewLine.java" startLine="10" startPosition="37" endLine="11" endPosition="80" conceptFqName="jetbrains.mps.baseLanguage.structure.StaticFieldDeclaration" propertyString="concept" />
     <nodeInfo nodeId="1164413172275" fileName="GNewLine.java" startLine="13" startPosition="31" endLine="14" endPosition="16" conceptFqName="jetbrains.mps.baseLanguage.structure.SuperConstructorInvocation" />
     <nodeInfo nodeId="1164413172275" fileName="GNewLine.java" startLine="17" startPosition="63" endLine="18" endPosition="159" conceptFqName="jetbrains.mps.baseLanguage.structure.ReturnStatement" />
@@ -249,7 +249,7 @@
     </scopeInfo>
     <unitInfo nodeId="1164413172275" fileName="GNewLine.java" startLine="10" startPosition="0" endLine="25" endPosition="0" unitName="jetbrains.mps.gtext.structure.GNewLine" />
   </root>
-  <root nodeId="1164413214326">
+  <root nodeId="1164413214326" modelId="r:00000000-0000-4000-0000-011c89590575(jetbrains.mps.gtext.structure)">
     <nodeInfo nodeId="1164413214326" fileName="GIndent.java" startLine="10" startPosition="36" endLine="11" endPosition="79" conceptFqName="jetbrains.mps.baseLanguage.structure.StaticFieldDeclaration" propertyString="concept" />
     <nodeInfo nodeId="1164413214326" fileName="GIndent.java" startLine="13" startPosition="30" endLine="14" endPosition="16" conceptFqName="jetbrains.mps.baseLanguage.structure.SuperConstructorInvocation" />
     <nodeInfo nodeId="1164413214326" fileName="GIndent.java" startLine="17" startPosition="62" endLine="18" endPosition="157" conceptFqName="jetbrains.mps.baseLanguage.structure.ReturnStatement" />
@@ -272,7 +272,7 @@
     </scopeInfo>
     <unitInfo nodeId="1164413214326" fileName="GIndent.java" startLine="10" startPosition="0" endLine="25" endPosition="0" unitName="jetbrains.mps.gtext.structure.GIndent" />
   </root>
-  <root nodeId="1164416446950">
+  <root nodeId="1164416446950" modelId="r:00000000-0000-4000-0000-011c89590575(jetbrains.mps.gtext.structure)">
     <nodeInfo nodeId="1164416446950" fileName="GIndentBlock.java" startLine="10" startPosition="41" endLine="11" endPosition="84" conceptFqName="jetbrains.mps.baseLanguage.structure.StaticFieldDeclaration" propertyString="concept" />
     <nodeInfo nodeId="1164416446950" fileName="GIndentBlock.java" startLine="11" startPosition="84" endLine="12" endPosition="52" conceptFqName="jetbrains.mps.baseLanguage.structure.StaticFieldDeclaration" propertyString="ITEM_LIST" />
     <nodeInfo nodeId="1164416446950" fileName="GIndentBlock.java" startLine="14" startPosition="35" endLine="15" endPosition="16" conceptFqName="jetbrains.mps.baseLanguage.structure.SuperConstructorInvocation" />
@@ -306,7 +306,7 @@
     </scopeInfo>
     <unitInfo nodeId="1164416446950" fileName="GIndentBlock.java" startLine="10" startPosition="0" endLine="34" endPosition="0" unitName="jetbrains.mps.gtext.structure.GIndentBlock" />
   </root>
-  <root nodeId="1164488352732">
+  <root nodeId="1164488352732" modelId="r:00000000-0000-4000-0000-011c89590575(jetbrains.mps.gtext.structure)">
     <nodeInfo nodeId="1164488352732" fileName="GItemStatement.java" startLine="13" startPosition="47" endLine="14" endPosition="86" conceptFqName="jetbrains.mps.baseLanguage.structure.StaticFieldDeclaration" propertyString="concept" />
     <nodeInfo nodeId="1164488352732" fileName="GItemStatement.java" startLine="14" startPosition="86" endLine="15" endPosition="43" conceptFqName="jetbrains.mps.baseLanguage.structure.StaticFieldDeclaration" propertyString="ITEM" />
     <nodeInfo nodeId="1164488352732" fileName="GItemStatement.java" startLine="17" startPosition="37" endLine="18" endPosition="16" conceptFqName="jetbrains.mps.baseLanguage.structure.SuperConstructorInvocation" />
@@ -355,7 +355,7 @@
     </scopeInfo>
     <unitInfo nodeId="1164488352732" fileName="GItemStatement.java" startLine="13" startPosition="0" endLine="49" endPosition="0" unitName="jetbrains.mps.gtext.structure.GItemStatement" />
   </root>
-  <root nodeId="1164497519485">
+  <root nodeId="1164497519485" modelId="r:00000000-0000-4000-0000-011c89590575(jetbrains.mps.gtext.structure)">
     <nodeInfo nodeId="1164497519485" fileName="GExpressionItem.java" startLine="11" startPosition="44" endLine="12" endPosition="87" conceptFqName="jetbrains.mps.baseLanguage.structure.StaticFieldDeclaration" propertyString="concept" />
     <nodeInfo nodeId="1164497519485" fileName="GExpressionItem.java" startLine="12" startPosition="87" endLine="13" endPosition="55" conceptFqName="jetbrains.mps.baseLanguage.structure.StaticFieldDeclaration" propertyString="EXPRESSION" />
     <nodeInfo nodeId="1164497519485" fileName="GExpressionItem.java" startLine="15" startPosition="38" endLine="16" endPosition="16" conceptFqName="jetbrains.mps.baseLanguage.structure.SuperConstructorInvocation" />
@@ -389,7 +389,7 @@
     </scopeInfo>
     <unitInfo nodeId="1164497519485" fileName="GExpressionItem.java" startLine="11" startPosition="0" endLine="35" endPosition="0" unitName="jetbrains.mps.gtext.structure.GExpressionItem" />
   </root>
-  <root nodeId="1165582968644">
+  <root nodeId="1165582968644" modelId="r:00000000-0000-4000-0000-011c89590575(jetbrains.mps.gtext.structure)">
     <nodeInfo nodeId="1165582968644" fileName="GStatementItem.java" startLine="11" startPosition="43" endLine="12" endPosition="86" conceptFqName="jetbrains.mps.baseLanguage.structure.StaticFieldDeclaration" propertyString="concept" />
     <nodeInfo nodeId="1165582968644" fileName="GStatementItem.java" startLine="12" startPosition="86" endLine="13" endPosition="62" conceptFqName="jetbrains.mps.baseLanguage.structure.StaticFieldDeclaration" propertyString="STATEMENT_LIST" />
     <nodeInfo nodeId="1165582968644" fileName="GStatementItem.java" startLine="15" startPosition="37" endLine="16" endPosition="16" conceptFqName="jetbrains.mps.baseLanguage.structure.SuperConstructorInvocation" />
@@ -423,7 +423,7 @@
     </scopeInfo>
     <unitInfo nodeId="1165582968644" fileName="GStatementItem.java" startLine="11" startPosition="0" endLine="35" endPosition="0" unitName="jetbrains.mps.gtext.structure.GStatementItem" />
   </root>
-  <root nodeId="1166926309597">
+  <root nodeId="1166926309597" modelId="r:00000000-0000-4000-0000-011c89590575(jetbrains.mps.gtext.structure)">
     <nodeInfo nodeId="1166926309597" fileName="GLine.java" startLine="13" startPosition="60" endLine="14" endPosition="77" conceptFqName="jetbrains.mps.baseLanguage.structure.StaticFieldDeclaration" propertyString="concept" />
     <nodeInfo nodeId="1166926309597" fileName="GLine.java" startLine="14" startPosition="77" endLine="15" endPosition="68" conceptFqName="jetbrains.mps.baseLanguage.structure.StaticFieldDeclaration" propertyString="SHORT_DESCRIPTION" />
     <nodeInfo nodeId="1166926309597" fileName="GLine.java" startLine="15" startPosition="68" endLine="16" endPosition="45" conceptFqName="jetbrains.mps.baseLanguage.structure.StaticFieldDeclaration" propertyString="ALIAS" />
@@ -531,7 +531,7 @@
     </scopeInfo>
     <unitInfo nodeId="1166926309597" fileName="GLine.java" startLine="13" startPosition="0" endLine="97" endPosition="0" unitName="jetbrains.mps.gtext.structure.GLine" />
   </root>
-  <root nodeId="1179109169620">
+  <root nodeId="1179109169620" modelId="r:00000000-0000-4000-0000-011c89590575(jetbrains.mps.gtext.structure)">
     <nodeInfo nodeId="1179109169620" fileName="GConditionalLine.java" startLine="13" startPosition="71" endLine="14" endPosition="88" conceptFqName="jetbrains.mps.baseLanguage.structure.StaticFieldDeclaration" propertyString="concept" />
     <nodeInfo nodeId="1179109169620" fileName="GConditionalLine.java" startLine="14" startPosition="88" endLine="15" endPosition="68" conceptFqName="jetbrains.mps.baseLanguage.structure.StaticFieldDeclaration" propertyString="SHORT_DESCRIPTION" />
     <nodeInfo nodeId="1179109169620" fileName="GConditionalLine.java" startLine="15" startPosition="68" endLine="16" endPosition="45" conceptFqName="jetbrains.mps.baseLanguage.structure.StaticFieldDeclaration" propertyString="ALIAS" />
@@ -650,7 +650,7 @@
     </scopeInfo>
     <unitInfo nodeId="1179109169620" fileName="GConditionalLine.java" startLine="13" startPosition="0" endLine="106" endPosition="0" unitName="jetbrains.mps.gtext.structure.GConditionalLine" />
   </root>
-  <root nodeId="1181754781153">
+  <root nodeId="1181754781153" modelId="r:00000000-0000-4000-0000-011c89590575(jetbrains.mps.gtext.structure)">
     <nodeInfo nodeId="1181754781153" fileName="BuilderContextRef.java" startLine="14" startPosition="75" endLine="15" endPosition="89" conceptFqName="jetbrains.mps.baseLanguage.structure.StaticFieldDeclaration" propertyString="concept" />
     <nodeInfo nodeId="1181754781153" fileName="BuilderContextRef.java" startLine="15" startPosition="89" endLine="16" endPosition="68" conceptFqName="jetbrains.mps.baseLanguage.structure.StaticFieldDeclaration" propertyString="SHORT_DESCRIPTION" />
     <nodeInfo nodeId="1181754781153" fileName="BuilderContextRef.java" startLine="16" startPosition="68" endLine="17" endPosition="45" conceptFqName="jetbrains.mps.baseLanguage.structure.StaticFieldDeclaration" propertyString="ALIAS" />
@@ -732,7 +732,7 @@
     </scopeInfo>
     <unitInfo nodeId="1181754781153" fileName="BuilderContextRef.java" startLine="14" startPosition="0" endLine="77" endPosition="0" unitName="jetbrains.mps.gtext.structure.BuilderContextRef" />
   </root>
-  <root nodeId="1184639540818">
+  <root nodeId="1184639540818" modelId="r:00000000-0000-4000-0000-011c89590575(jetbrains.mps.gtext.structure)">
     <nodeInfo nodeId="1184639540818" fileName="GDocument.java" startLine="16" startPosition="82" endLine="17" endPosition="81" conceptFqName="jetbrains.mps.baseLanguage.structure.StaticFieldDeclaration" propertyString="concept" />
     <nodeInfo nodeId="1184639540818" fileName="GDocument.java" startLine="17" startPosition="81" endLine="18" endPosition="60" conceptFqName="jetbrains.mps.baseLanguage.structure.StaticFieldDeclaration" propertyString="DOCUMENT_NAME" />
     <nodeInfo nodeId="1184639540818" fileName="GDocument.java" startLine="18" startPosition="60" endLine="19" endPosition="53" conceptFqName="jetbrains.mps.baseLanguage.structure.StaticFieldDeclaration" propertyString="EXTENSION" />
@@ -873,11 +873,11 @@
     </scopeInfo>
     <unitInfo nodeId="1184639540818" fileName="GDocument.java" startLine="16" startPosition="0" endLine="127" endPosition="0" unitName="jetbrains.mps.gtext.structure.GDocument" />
   </root>
-  <root nodeId="1186170508337">
+  <root nodeId="1186170508337" modelId="r:00000000-0000-4000-0000-011c89590575(jetbrains.mps.gtext.structure)">
     <nodeInfo nodeId="1186170508337" fileName="GTextConcept.java" startLine="7" startPosition="52" endLine="8" endPosition="84" conceptFqName="jetbrains.mps.baseLanguage.structure.StaticFieldDeclaration" propertyString="concept" />
     <unitInfo nodeId="1186170508337" fileName="GTextConcept.java" startLine="7" startPosition="0" endLine="10" endPosition="0" unitName="jetbrains.mps.gtext.structure.GTextConcept" />
   </root>
-  <root nodeId="1188509198390">
+  <root nodeId="1188509198390" modelId="r:00000000-0000-4000-0000-011c89590575(jetbrains.mps.gtext.structure)">
     <nodeInfo nodeId="1188509198390" fileName="GSeparatorItemList.java" startLine="13" startPosition="73" endLine="14" endPosition="90" conceptFqName="jetbrains.mps.baseLanguage.structure.StaticFieldDeclaration" propertyString="concept" />
     <nodeInfo nodeId="1188509198390" fileName="GSeparatorItemList.java" startLine="14" startPosition="90" endLine="15" endPosition="68" conceptFqName="jetbrains.mps.baseLanguage.structure.StaticFieldDeclaration" propertyString="SHORT_DESCRIPTION" />
     <nodeInfo nodeId="1188509198390" fileName="GSeparatorItemList.java" startLine="15" startPosition="68" endLine="16" endPosition="45" conceptFqName="jetbrains.mps.baseLanguage.structure.StaticFieldDeclaration" propertyString="ALIAS" />
@@ -996,7 +996,7 @@
     </scopeInfo>
     <unitInfo nodeId="1188509198390" fileName="GSeparatorItemList.java" startLine="13" startPosition="0" endLine="106" endPosition="0" unitName="jetbrains.mps.gtext.structure.GSeparatorItemList" />
   </root>
-  <root nodeId="1211920428461">
+  <root nodeId="1211920428461" modelId="r:00000000-0000-4000-0000-011c89590575(jetbrains.mps.gtext.structure)">
     <nodeInfo nodeId="1211920428461" fileName="GContentPlaceholder.java" startLine="14" startPosition="73" endLine="15" endPosition="91" conceptFqName="jetbrains.mps.baseLanguage.structure.StaticFieldDeclaration" propertyString="concept" />
     <nodeInfo nodeId="1211920428461" fileName="GContentPlaceholder.java" startLine="15" startPosition="91" endLine="16" endPosition="43" conceptFqName="jetbrains.mps.baseLanguage.structure.StaticFieldDeclaration" propertyString="NAME" />
     <nodeInfo nodeId="1211920428461" fileName="GContentPlaceholder.java" startLine="16" startPosition="43" endLine="17" endPosition="68" conceptFqName="jetbrains.mps.baseLanguage.structure.StaticFieldDeclaration" propertyString="SHORT_DESCRIPTION" />
@@ -1089,7 +1089,7 @@
     </scopeInfo>
     <unitInfo nodeId="1211920428461" fileName="GContentPlaceholder.java" startLine="14" startPosition="0" endLine="86" endPosition="0" unitName="jetbrains.mps.gtext.structure.GContentPlaceholder" />
   </root>
-  <root nodeId="1211920502338">
+  <root nodeId="1211920502338" modelId="r:00000000-0000-4000-0000-011c89590575(jetbrains.mps.gtext.structure)">
     <nodeInfo nodeId="1211920502338" fileName="GContentBlock.java" startLine="14" startPosition="83" endLine="15" endPosition="85" conceptFqName="jetbrains.mps.baseLanguage.structure.StaticFieldDeclaration" propertyString="concept" />
     <nodeInfo nodeId="1211920502338" fileName="GContentBlock.java" startLine="15" startPosition="85" endLine="16" endPosition="43" conceptFqName="jetbrains.mps.baseLanguage.structure.StaticFieldDeclaration" propertyString="NAME" />
     <nodeInfo nodeId="1211920502338" fileName="GContentBlock.java" startLine="16" startPosition="43" endLine="17" endPosition="68" conceptFqName="jetbrains.mps.baseLanguage.structure.StaticFieldDeclaration" propertyString="SHORT_DESCRIPTION" />
@@ -1208,7 +1208,7 @@
     </scopeInfo>
     <unitInfo nodeId="1211920502338" fileName="GContentBlock.java" startLine="14" startPosition="0" endLine="107" endPosition="0" unitName="jetbrains.mps.gtext.structure.GContentBlock" />
   </root>
-  <root nodeId="1239125024709">
+  <root nodeId="1239125024709" modelId="r:00000000-0000-4000-0000-011c89590575(jetbrains.mps.gtext.structure)">
     <nodeInfo nodeId="1239125024709" fileName="GCompositeItem.java" startLine="7" startPosition="54" endLine="8" endPosition="86" conceptFqName="jetbrains.mps.baseLanguage.structure.StaticFieldDeclaration" propertyString="concept" />
     <unitInfo nodeId="1239125024709" fileName="GCompositeItem.java" startLine="7" startPosition="0" endLine="10" endPosition="0" unitName="jetbrains.mps.gtext.structure.GCompositeItem" />
   </root>

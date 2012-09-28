@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <debugInfo>
   <unitInfo fileName="IntentionsDescriptor.java" startLine="9" startPosition="0" endLine="25" endPosition="0" unitName="jetbrains.mps.xml.intentions.IntentionsDescriptor" />
-  <root nodeId="1195647309117">
+  <root nodeId="1195647309117" modelId="r:00000000-0000-4000-0000-011c89590587(jetbrains.mps.xml.intentions)">
     <nodeInfo nodeId="1195647309117" fileName="ReplaceNodeWithItsContent_Intention.java" startLine="17" startPosition="30" endLine="18" endPosition="49" conceptFqName="jetbrains.mps.baseLanguage.structure.ReturnStatement" />
     <nodeInfo nodeId="1195647309117" fileName="ReplaceNodeWithItsContent_Intention.java" startLine="21" startPosition="36" endLine="22" endPosition="17" conceptFqName="jetbrains.mps.baseLanguage.structure.ReturnStatement" />
     <nodeInfo nodeId="1195647309117" fileName="ReplaceNodeWithItsContent_Intention.java" startLine="25" startPosition="37" endLine="26" endPosition="17" conceptFqName="jetbrains.mps.baseLanguage.structure.ReturnStatement" />
@@ -68,7 +68,7 @@
     </scopeInfo>
     <unitInfo nodeId="1195647309117" fileName="ReplaceNodeWithItsContent_Intention.java" startLine="13" startPosition="0" endLine="61" endPosition="0" unitName="jetbrains.mps.xml.intentions.ReplaceNodeWithItsContent_Intention" />
   </root>
-  <root nodeId="1195647309487">
+  <root nodeId="1195647309487" modelId="r:00000000-0000-4000-0000-011c89590587(jetbrains.mps.xml.intentions)">
     <nodeInfo nodeId="1195647309487" fileName="MakeContentListHorizontal_Intention.java" startLine="16" startPosition="30" endLine="17" endPosition="53" conceptFqName="jetbrains.mps.baseLanguage.structure.ReturnStatement" />
     <nodeInfo nodeId="1195647309487" fileName="MakeContentListHorizontal_Intention.java" startLine="20" startPosition="36" endLine="21" endPosition="17" conceptFqName="jetbrains.mps.baseLanguage.structure.ReturnStatement" />
     <nodeInfo nodeId="1195647309487" fileName="MakeContentListHorizontal_Intention.java" startLine="24" startPosition="37" endLine="25" endPosition="17" conceptFqName="jetbrains.mps.baseLanguage.structure.ReturnStatement" />
@@ -125,7 +125,7 @@
     </scopeInfo>
     <unitInfo nodeId="1195647309487" fileName="MakeContentListHorizontal_Intention.java" startLine="12" startPosition="0" endLine="55" endPosition="0" unitName="jetbrains.mps.xml.intentions.MakeContentListHorizontal_Intention" />
   </root>
-  <root nodeId="1195647309592">
+  <root nodeId="1195647309592" modelId="r:00000000-0000-4000-0000-011c89590587(jetbrains.mps.xml.intentions)">
     <nodeInfo nodeId="1195647309592" fileName="MakeElementEmpty_Intention.java" startLine="19" startPosition="30" endLine="20" endPosition="49" conceptFqName="jetbrains.mps.baseLanguage.structure.ReturnStatement" />
     <nodeInfo nodeId="1195647309592" fileName="MakeElementEmpty_Intention.java" startLine="23" startPosition="36" endLine="24" endPosition="17" conceptFqName="jetbrains.mps.baseLanguage.structure.ReturnStatement" />
     <nodeInfo nodeId="1195647309592" fileName="MakeElementEmpty_Intention.java" startLine="27" startPosition="37" endLine="28" endPosition="17" conceptFqName="jetbrains.mps.baseLanguage.structure.ReturnStatement" />
@@ -189,7 +189,7 @@
     </scopeInfo>
     <unitInfo nodeId="1195647309592" fileName="MakeElementEmpty_Intention.java" startLine="15" startPosition="0" endLine="61" endPosition="0" unitName="jetbrains.mps.xml.intentions.MakeElementEmpty_Intention" />
   </root>
-  <root nodeId="1195647321928">
+  <root nodeId="1195647321928" modelId="r:00000000-0000-4000-0000-011c89590587(jetbrains.mps.xml.intentions)">
     <nodeInfo nodeId="1195647321928" fileName="MakeElementHorizontal_Intention.java" startLine="17" startPosition="30" endLine="18" endPosition="49" conceptFqName="jetbrains.mps.baseLanguage.structure.ReturnStatement" />
     <nodeInfo nodeId="1195647321928" fileName="MakeElementHorizontal_Intention.java" startLine="21" startPosition="36" endLine="22" endPosition="17" conceptFqName="jetbrains.mps.baseLanguage.structure.ReturnStatement" />
     <nodeInfo nodeId="1195647321928" fileName="MakeElementHorizontal_Intention.java" startLine="25" startPosition="37" endLine="26" endPosition="17" conceptFqName="jetbrains.mps.baseLanguage.structure.ReturnStatement" />
@@ -246,7 +246,7 @@
     </scopeInfo>
     <unitInfo nodeId="1195647321928" fileName="MakeElementHorizontal_Intention.java" startLine="13" startPosition="0" endLine="56" endPosition="0" unitName="jetbrains.mps.xml.intentions.MakeElementHorizontal_Intention" />
   </root>
-  <root nodeId="1195647322084">
+  <root nodeId="1195647322084" modelId="r:00000000-0000-4000-0000-011c89590587(jetbrains.mps.xml.intentions)">
     <nodeInfo nodeId="1195647322084" fileName="MakeElementVertical_Intention.java" startLine="17" startPosition="30" endLine="18" endPosition="49" conceptFqName="jetbrains.mps.baseLanguage.structure.ReturnStatement" />
     <nodeInfo nodeId="1195647322084" fileName="MakeElementVertical_Intention.java" startLine="21" startPosition="36" endLine="22" endPosition="17" conceptFqName="jetbrains.mps.baseLanguage.structure.ReturnStatement" />
     <nodeInfo nodeId="1195647322084" fileName="MakeElementVertical_Intention.java" startLine="25" startPosition="37" endLine="26" endPosition="17" conceptFqName="jetbrains.mps.baseLanguage.structure.ReturnStatement" />
@@ -303,7 +303,7 @@
     </scopeInfo>
     <unitInfo nodeId="1195647322084" fileName="MakeElementVertical_Intention.java" startLine="13" startPosition="0" endLine="56" endPosition="0" unitName="jetbrains.mps.xml.intentions.MakeElementVertical_Intention" />
   </root>
-  <root nodeId="1195647386224">
+  <root nodeId="1195647386224" modelId="r:00000000-0000-4000-0000-011c89590587(jetbrains.mps.xml.intentions)">
     <nodeInfo nodeId="1195647386224" fileName="MakeContentListVertical_Intention.java" startLine="16" startPosition="30" endLine="17" endPosition="53" conceptFqName="jetbrains.mps.baseLanguage.structure.ReturnStatement" />
     <nodeInfo nodeId="1195647386224" fileName="MakeContentListVertical_Intention.java" startLine="20" startPosition="36" endLine="21" endPosition="17" conceptFqName="jetbrains.mps.baseLanguage.structure.ReturnStatement" />
     <nodeInfo nodeId="1195647386224" fileName="MakeContentListVertical_Intention.java" startLine="24" startPosition="37" endLine="25" endPosition="17" conceptFqName="jetbrains.mps.baseLanguage.structure.ReturnStatement" />
@@ -360,7 +360,7 @@
     </scopeInfo>
     <unitInfo nodeId="1195647386224" fileName="MakeContentListVertical_Intention.java" startLine="12" startPosition="0" endLine="55" endPosition="0" unitName="jetbrains.mps.xml.intentions.MakeContentListVertical_Intention" />
   </root>
-  <root nodeId="1195647386462">
+  <root nodeId="1195647386462" modelId="r:00000000-0000-4000-0000-011c89590587(jetbrains.mps.xml.intentions)">
     <nodeInfo nodeId="1195647386462" fileName="MakeElementNotEmpty_Intention.java" startLine="15" startPosition="30" endLine="16" endPosition="49" conceptFqName="jetbrains.mps.baseLanguage.structure.ReturnStatement" />
     <nodeInfo nodeId="1195647386462" fileName="MakeElementNotEmpty_Intention.java" startLine="19" startPosition="36" endLine="20" endPosition="17" conceptFqName="jetbrains.mps.baseLanguage.structure.ReturnStatement" />
     <nodeInfo nodeId="1195647386462" fileName="MakeElementNotEmpty_Intention.java" startLine="23" startPosition="37" endLine="24" endPosition="17" conceptFqName="jetbrains.mps.baseLanguage.structure.ReturnStatement" />
@@ -417,7 +417,7 @@
     </scopeInfo>
     <unitInfo nodeId="1195647386462" fileName="MakeElementNotEmpty_Intention.java" startLine="11" startPosition="0" endLine="54" endPosition="0" unitName="jetbrains.mps.xml.intentions.MakeElementNotEmpty_Intention" />
   </root>
-  <root nodeId="1195665988476">
+  <root nodeId="1195665988476" modelId="r:00000000-0000-4000-0000-011c89590587(jetbrains.mps.xml.intentions)">
     <nodeInfo nodeId="1195665988476" fileName="SurroundWithContentList_Intention.java" startLine="19" startPosition="30" endLine="20" endPosition="49" conceptFqName="jetbrains.mps.baseLanguage.structure.ReturnStatement" />
     <nodeInfo nodeId="1195665988476" fileName="SurroundWithContentList_Intention.java" startLine="23" startPosition="36" endLine="24" endPosition="17" conceptFqName="jetbrains.mps.baseLanguage.structure.ReturnStatement" />
     <nodeInfo nodeId="1195665988476" fileName="SurroundWithContentList_Intention.java" startLine="27" startPosition="37" endLine="28" endPosition="17" conceptFqName="jetbrains.mps.baseLanguage.structure.ReturnStatement" />

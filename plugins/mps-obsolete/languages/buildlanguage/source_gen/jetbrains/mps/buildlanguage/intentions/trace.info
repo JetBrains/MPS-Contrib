@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <debugInfo>
   <unitInfo fileName="IntentionsDescriptor.java" startLine="9" startPosition="0" endLine="21" endPosition="0" unitName="jetbrains.mps.buildlanguage.intentions.IntentionsDescriptor" />
-  <root nodeId="1201260187613">
+  <root nodeId="1201260187613" modelId="r:00000000-0000-4000-0000-011c895904c5(jetbrains.mps.buildlanguage.intentions)">
     <nodeInfo nodeId="1201260187613" fileName="AddComment_intention_Intention.java" startLine="16" startPosition="30" endLine="17" endPosition="62" conceptFqName="jetbrains.mps.baseLanguage.structure.ReturnStatement" />
     <nodeInfo nodeId="1201260187613" fileName="AddComment_intention_Intention.java" startLine="20" startPosition="36" endLine="21" endPosition="17" conceptFqName="jetbrains.mps.baseLanguage.structure.ReturnStatement" />
     <nodeInfo nodeId="1201260187613" fileName="AddComment_intention_Intention.java" startLine="24" startPosition="37" endLine="25" endPosition="17" conceptFqName="jetbrains.mps.baseLanguage.structure.ReturnStatement" />
@@ -58,7 +58,7 @@
     </scopeInfo>
     <unitInfo nodeId="1201260187613" fileName="AddComment_intention_Intention.java" startLine="12" startPosition="0" endLine="61" endPosition="0" unitName="jetbrains.mps.buildlanguage.intentions.AddComment_intention_Intention" />
   </root>
-  <root nodeId="1201595831626">
+  <root nodeId="1201595831626" modelId="r:00000000-0000-4000-0000-011c895904c5(jetbrains.mps.buildlanguage.intentions)">
     <nodeInfo nodeId="1201595831626" fileName="RemoveEmptyComment_intention_Intention.java" startLine="16" startPosition="30" endLine="17" endPosition="62" conceptFqName="jetbrains.mps.baseLanguage.structure.ReturnStatement" />
     <nodeInfo nodeId="1201595831626" fileName="RemoveEmptyComment_intention_Intention.java" startLine="20" startPosition="36" endLine="21" endPosition="17" conceptFqName="jetbrains.mps.baseLanguage.structure.ReturnStatement" />
     <nodeInfo nodeId="1201595831626" fileName="RemoveEmptyComment_intention_Intention.java" startLine="24" startPosition="37" endLine="25" endPosition="17" conceptFqName="jetbrains.mps.baseLanguage.structure.ReturnStatement" />
@@ -115,7 +115,7 @@
     </scopeInfo>
     <unitInfo nodeId="1201595831626" fileName="RemoveEmptyComment_intention_Intention.java" startLine="12" startPosition="0" endLine="61" endPosition="0" unitName="jetbrains.mps.buildlanguage.intentions.RemoveEmptyComment_intention_Intention" />
   </root>
-  <root nodeId="1219148733937">
+  <root nodeId="1219148733937" modelId="r:00000000-0000-4000-0000-011c895904c5(jetbrains.mps.buildlanguage.intentions)">
     <nodeInfo nodeId="1219148733937" fileName="CreateExternalPropertyFromNormal_intention_Intention.java" startLine="18" startPosition="30" endLine="19" endPosition="71" conceptFqName="jetbrains.mps.baseLanguage.structure.ReturnStatement" />
     <nodeInfo nodeId="1219148733937" fileName="CreateExternalPropertyFromNormal_intention_Intention.java" startLine="22" startPosition="36" endLine="23" endPosition="17" conceptFqName="jetbrains.mps.baseLanguage.structure.ReturnStatement" />
     <nodeInfo nodeId="1219148733937" fileName="CreateExternalPropertyFromNormal_intention_Intention.java" startLine="26" startPosition="37" endLine="27" endPosition="17" conceptFqName="jetbrains.mps.baseLanguage.structure.ReturnStatement" />
@@ -177,7 +177,7 @@
     </scopeInfo>
     <unitInfo nodeId="1219148733937" fileName="CreateExternalPropertyFromNormal_intention_Intention.java" startLine="14" startPosition="0" endLine="60" endPosition="0" unitName="jetbrains.mps.buildlanguage.intentions.CreateExternalPropertyFromNormal_intention_Intention" />
   </root>
-  <root nodeId="1219149486459">
+  <root nodeId="1219149486459" modelId="r:00000000-0000-4000-0000-011c895904c5(jetbrains.mps.buildlanguage.intentions)">
     <nodeInfo nodeId="1219149486459" fileName="CreateNormalPropertyFromExternal_intention_Intention.java" startLine="18" startPosition="30" endLine="19" endPosition="79" conceptFqName="jetbrains.mps.baseLanguage.structure.ReturnStatement" />
     <nodeInfo nodeId="1219149486459" fileName="CreateNormalPropertyFromExternal_intention_Intention.java" startLine="22" startPosition="36" endLine="23" endPosition="17" conceptFqName="jetbrains.mps.baseLanguage.structure.ReturnStatement" />
     <nodeInfo nodeId="1219149486459" fileName="CreateNormalPropertyFromExternal_intention_Intention.java" startLine="26" startPosition="37" endLine="27" endPosition="17" conceptFqName="jetbrains.mps.baseLanguage.structure.ReturnStatement" />

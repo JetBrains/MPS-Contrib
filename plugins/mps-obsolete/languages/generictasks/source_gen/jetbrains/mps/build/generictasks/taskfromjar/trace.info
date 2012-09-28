@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <debugInfo>
-  <root nodeId="1462969652806434077">
+  <root nodeId="1462969652806434077" modelId="r:641cc795-9da1-457c-a0b5-fbe12a078030(jetbrains.mps.build.generictasks.taskfromjar)">
     <nodeInfo nodeId="1462969652806434079" fileName="BuildLanguageGenerator.java" startLine="14" startPosition="37" endLine="15" endPosition="86" conceptFqName="jetbrains.mps.baseLanguage.structure.StaticFieldDeclaration" propertyString="INSTANCE" />
     <nodeInfo nodeId="1462969652806434107" fileName="BuildLanguageGenerator.java" startLine="20" startPosition="100" endLine="21" endPosition="127" conceptFqName="jetbrains.mps.baseLanguage.structure.LocalVariableDeclarationStatement" />
     <nodeInfo nodeId="1462969652806434113" fileName="BuildLanguageGenerator.java" startLine="21" startPosition="127" endLine="22" endPosition="52" conceptFqName="jetbrains.mps.baseLanguage.structure.ExpressionStatement" />
@@ -85,10 +85,10 @@
     <scopeInfo nodeId="1277897048695363688" fileName="BuildLanguageGenerator.java" startLine="56" startPosition="0" endLine="69" endPosition="0">
       <varInfo nodeId="1277897048695363688" varName="parameter_3" />
     </scopeInfo>
-    <unitInfo nodeId="1462969652806434077" fileName="BuildLanguageGenerator.java" startLine="14" startPosition="0" endLine="71" endPosition="0" unitName="jetbrains.mps.build.generictasks.taskfromjar.BuildLanguageGenerator" />
     <unitInfo nodeId="1277897048695363688" fileName="BuildLanguageGenerator.java" startLine="53" startPosition="0" endLine="70" endPosition="0" unitName="jetbrains.mps.build.generictasks.taskfromjar.BuildLanguageGenerator$QuotationClass_moyhg6_a0a0c" />
+    <unitInfo nodeId="1462969652806434077" fileName="BuildLanguageGenerator.java" startLine="14" startPosition="0" endLine="71" endPosition="0" unitName="jetbrains.mps.build.generictasks.taskfromjar.BuildLanguageGenerator" />
   </root>
-  <root nodeId="1462969652806434314">
+  <root nodeId="1462969652806434314" modelId="r:641cc795-9da1-457c-a0b5-fbe12a078030(jetbrains.mps.build.generictasks.taskfromjar)">
     <nodeInfo nodeId="1462969652806434917" fileName="ClassInfo.java" startLine="22" startPosition="27" endLine="23" endPosition="43" conceptFqName="jetbrains.mps.baseLanguage.structure.FieldDeclaration" propertyString="myClass" />
     <nodeInfo nodeId="1462969652806434922" fileName="ClassInfo.java" startLine="23" startPosition="43" endLine="24" endPosition="38" conceptFqName="jetbrains.mps.baseLanguage.structure.FieldDeclaration" propertyString="canHaveInternalText" />
     <nodeInfo nodeId="1462969652806434925" fileName="ClassInfo.java" startLine="24" startPosition="38" endLine="25" endPosition="101" conceptFqName="jetbrains.mps.baseLanguage.structure.FieldDeclaration" propertyString="myAttributes" />
@@ -557,12 +557,12 @@
       <varInfo nodeId="1462969652806435146" varName="set" />
     </scopeInfo>
     <scopeInfo nodeId="1462969652806435141" fileName="ClassInfo.java" startLine="72" startPosition="0" endLine="111" endPosition="0" />
-    <unitInfo nodeId="1462969652806434314" fileName="ClassInfo.java" startLine="22" startPosition="0" endLine="393" endPosition="0" unitName="jetbrains.mps.build.generictasks.taskfromjar.ClassInfo" />
-    <unitInfo nodeId="1462969652806434317" fileName="ClassInfo.java" startLine="212" startPosition="0" endLine="322" endPosition="0" unitName="jetbrains.mps.build.generictasks.taskfromjar.ClassInfo$MyAttribute" />
-    <unitInfo nodeId="1462969652806434682" fileName="ClassInfo.java" startLine="323" startPosition="0" endLine="362" endPosition="0" unitName="jetbrains.mps.build.generictasks.taskfromjar.ClassInfo$Nested" />
     <unitInfo nodeId="1462969652806434807" fileName="ClassInfo.java" startLine="363" startPosition="0" endLine="392" endPosition="0" unitName="jetbrains.mps.build.generictasks.taskfromjar.ClassInfo$SimpleClassVisitor" />
+    <unitInfo nodeId="1462969652806434682" fileName="ClassInfo.java" startLine="323" startPosition="0" endLine="362" endPosition="0" unitName="jetbrains.mps.build.generictasks.taskfromjar.ClassInfo$Nested" />
+    <unitInfo nodeId="1462969652806434317" fileName="ClassInfo.java" startLine="212" startPosition="0" endLine="322" endPosition="0" unitName="jetbrains.mps.build.generictasks.taskfromjar.ClassInfo$MyAttribute" />
+    <unitInfo nodeId="1462969652806434314" fileName="ClassInfo.java" startLine="22" startPosition="0" endLine="393" endPosition="0" unitName="jetbrains.mps.build.generictasks.taskfromjar.ClassInfo" />
   </root>
-  <root nodeId="1462969652806435709">
+  <root nodeId="1462969652806435709" modelId="r:641cc795-9da1-457c-a0b5-fbe12a078030(jetbrains.mps.build.generictasks.taskfromjar)">
     <nodeInfo nodeId="1462969652806435758" fileName="EmptyClassVisitor.java" startLine="24" startPosition="74" endLine="25" endPosition="16" conceptFqName="jetbrains.mps.baseLanguage.structure.ReturnStatement" />
     <nodeInfo nodeId="1462969652806435792" fileName="EmptyClassVisitor.java" startLine="34" startPosition="104" endLine="35" endPosition="16" conceptFqName="jetbrains.mps.baseLanguage.structure.ReturnStatement" />
     <nodeInfo nodeId="1462969652806435809" fileName="EmptyClassVisitor.java" startLine="38" startPosition="113" endLine="39" endPosition="16" conceptFqName="jetbrains.mps.baseLanguage.structure.ReturnStatement" />
@@ -634,7 +634,7 @@
     </scopeInfo>
     <unitInfo nodeId="1462969652806435709" fileName="EmptyClassVisitor.java" startLine="11" startPosition="0" endLine="45" endPosition="0" unitName="jetbrains.mps.build.generictasks.taskfromjar.EmptyClassVisitor" />
   </root>
-  <root nodeId="1462969652806435815">
+  <root nodeId="1462969652806435815" modelId="r:641cc795-9da1-457c-a0b5-fbe12a078030(jetbrains.mps.build.generictasks.taskfromjar)">
     <nodeInfo nodeId="1462969652806436705" fileName="Generator.java" startLine="31" startPosition="24" endLine="32" endPosition="70" conceptFqName="jetbrains.mps.baseLanguage.structure.StaticFieldDeclaration" propertyString="LOG" />
     <nodeInfo nodeId="1462969652806436710" fileName="Generator.java" startLine="32" startPosition="70" endLine="33" endPosition="84" conceptFqName="jetbrains.mps.baseLanguage.structure.StaticFieldDeclaration" propertyString="ANT_PATH" />
     <nodeInfo nodeId="1462969652806436715" fileName="Generator.java" startLine="33" startPosition="84" endLine="34" endPosition="95" conceptFqName="jetbrains.mps.baseLanguage.structure.StaticFieldDeclaration" propertyString="GENERATOR" />
@@ -1366,30 +1366,30 @@
     <scopeInfo nodeId="1462969652806436907" fileName="Generator.java" startLine="80" startPosition="0" endLine="143" endPosition="0">
       <varInfo nodeId="1462969652806436910" varName="decl" />
     </scopeInfo>
-    <unitInfo nodeId="1462969652806435815" fileName="Generator.java" startLine="31" startPosition="0" endLine="554" endPosition="0" unitName="jetbrains.mps.build.generictasks.taskfromjar.Generator" />
-    <unitInfo nodeId="3101124883008937822" fileName="Generator.java" startLine="210" startPosition="116" endLine="214" endPosition="7" unitName="jetbrains.mps.build.generictasks.taskfromjar.Generator$1" />
-    <unitInfo nodeId="8826918594705148214" fileName="Generator.java" startLine="93" startPosition="62" endLine="106" endPosition="5" unitName="jetbrains.mps.build.generictasks.taskfromjar.Generator$1" />
     <unitInfo nodeId="8826918594705200592" fileName="Generator.java" startLine="96" startPosition="86" endLine="100" endPosition="9" unitName="jetbrains.mps.build.generictasks.taskfromjar.Generator$2" />
     <unitInfo nodeId="8826918594705200583" fileName="Generator.java" startLine="100" startPosition="24" endLine="104" endPosition="9" unitName="jetbrains.mps.build.generictasks.taskfromjar.Generator$2" />
     <unitInfo nodeId="8826918594705200641" fileName="Generator.java" startLine="107" startPosition="98" endLine="111" endPosition="5" unitName="jetbrains.mps.build.generictasks.taskfromjar.Generator$2" />
-    <unitInfo nodeId="3101124883008938078" fileName="Generator.java" startLine="254" startPosition="156" endLine="258" endPosition="7" unitName="jetbrains.mps.build.generictasks.taskfromjar.Generator$2" />
     <unitInfo nodeId="8826918594705201004" fileName="Generator.java" startLine="116" startPosition="111" endLine="120" endPosition="7" unitName="jetbrains.mps.build.generictasks.taskfromjar.Generator$3" />
-    <unitInfo nodeId="3101124883008938150" fileName="Generator.java" startLine="268" startPosition="101" endLine="272" endPosition="7" unitName="jetbrains.mps.build.generictasks.taskfromjar.Generator$3" />
     <unitInfo nodeId="8826918594705201013" fileName="Generator.java" startLine="120" startPosition="19" endLine="124" endPosition="7" unitName="jetbrains.mps.build.generictasks.taskfromjar.Generator$4" />
     <unitInfo nodeId="8826918594705200786" fileName="Generator.java" startLine="127" startPosition="62" endLine="131" endPosition="5" unitName="jetbrains.mps.build.generictasks.taskfromjar.Generator$5" />
+    <unitInfo nodeId="3101124883008937822" fileName="Generator.java" startLine="210" startPosition="116" endLine="214" endPosition="7" unitName="jetbrains.mps.build.generictasks.taskfromjar.Generator$1" />
+    <unitInfo nodeId="3101124883008938078" fileName="Generator.java" startLine="254" startPosition="156" endLine="258" endPosition="7" unitName="jetbrains.mps.build.generictasks.taskfromjar.Generator$2" />
+    <unitInfo nodeId="3101124883008938150" fileName="Generator.java" startLine="268" startPosition="101" endLine="272" endPosition="7" unitName="jetbrains.mps.build.generictasks.taskfromjar.Generator$3" />
     <unitInfo nodeId="8826918594705200958" fileName="Generator.java" startLine="133" startPosition="99" endLine="138" endPosition="7" unitName="jetbrains.mps.build.generictasks.taskfromjar.Generator$6" />
-    <unitInfo nodeId="1462969652806435825" fileName="Generator.java" startLine="173" startPosition="0" endLine="553" endPosition="0" unitName="jetbrains.mps.build.generictasks.taskfromjar.Generator$Builder" />
     <unitInfo nodeId="1462969652806435817" fileName="Generator.java" startLine="165" startPosition="0" endLine="172" endPosition="0" unitName="jetbrains.mps.build.generictasks.taskfromjar.Generator$Modes" />
+    <unitInfo nodeId="8826918594705148214" fileName="Generator.java" startLine="93" startPosition="62" endLine="106" endPosition="5" unitName="jetbrains.mps.build.generictasks.taskfromjar.Generator$1" />
+    <unitInfo nodeId="3101124883008937998" fileName="Generator.java" startLine="415" startPosition="0" endLine="431" endPosition="0" unitName="jetbrains.mps.build.generictasks.taskfromjar.Generator.Builder$QuotationClass_ixz87t_a0a1a6b" />
     <unitInfo nodeId="6399469042317306168" fileName="Generator.java" startLine="468" startPosition="0" endLine="484" endPosition="0" unitName="jetbrains.mps.build.generictasks.taskfromjar.Generator.Builder$QuotationClass_ixz87t_a0a0a0a0a0a1" />
     <unitInfo nodeId="6399469042317306165" fileName="Generator.java" startLine="485" startPosition="0" endLine="501" endPosition="0" unitName="jetbrains.mps.build.generictasks.taskfromjar.Generator.Builder$QuotationClass_ixz87t_a0a0a0a0a0b" />
     <unitInfo nodeId="6399469042317306161" fileName="Generator.java" startLine="502" startPosition="0" endLine="518" endPosition="0" unitName="jetbrains.mps.build.generictasks.taskfromjar.Generator.Builder$QuotationClass_ixz87t_a0a0a0a0a1" />
     <unitInfo nodeId="6399469042317306157" fileName="Generator.java" startLine="519" startPosition="0" endLine="535" endPosition="0" unitName="jetbrains.mps.build.generictasks.taskfromjar.Generator.Builder$QuotationClass_ixz87t_a0a0a0a0b" />
     <unitInfo nodeId="6399469042317306152" fileName="Generator.java" startLine="536" startPosition="0" endLine="552" endPosition="0" unitName="jetbrains.mps.build.generictasks.taskfromjar.Generator.Builder$QuotationClass_ixz87t_a0a0a0a1" />
     <unitInfo nodeId="3101124883008938102" fileName="Generator.java" startLine="432" startPosition="0" endLine="449" endPosition="0" unitName="jetbrains.mps.build.generictasks.taskfromjar.Generator.Builder$QuotationClass_ixz87t_a0a0b0b0h1" />
-    <unitInfo nodeId="3101124883008937998" fileName="Generator.java" startLine="415" startPosition="0" endLine="431" endPosition="0" unitName="jetbrains.mps.build.generictasks.taskfromjar.Generator.Builder$QuotationClass_ixz87t_a0a1a6b" />
     <unitInfo nodeId="8826918594705147260" fileName="Generator.java" startLine="450" startPosition="0" endLine="467" endPosition="0" unitName="jetbrains.mps.build.generictasks.taskfromjar.Generator.Builder$QuotationClass_ixz87t_a0a3a8b" />
+    <unitInfo nodeId="1462969652806435825" fileName="Generator.java" startLine="173" startPosition="0" endLine="553" endPosition="0" unitName="jetbrains.mps.build.generictasks.taskfromjar.Generator$Builder" />
+    <unitInfo nodeId="1462969652806435815" fileName="Generator.java" startLine="31" startPosition="0" endLine="554" endPosition="0" unitName="jetbrains.mps.build.generictasks.taskfromjar.Generator" />
   </root>
-  <root nodeId="1462969652806437111">
+  <root nodeId="1462969652806437111" modelId="r:641cc795-9da1-457c-a0b5-fbe12a078030(jetbrains.mps.build.generictasks.taskfromjar)">
     <nodeInfo nodeId="1462969652806437113" fileName="ImportOptions.java" startLine="6" startPosition="28" endLine="7" endPosition="68" conceptFqName="jetbrains.mps.baseLanguage.structure.StaticFieldDeclaration" propertyString="INSTANCE" />
     <nodeInfo nodeId="1462969652806437118" fileName="ImportOptions.java" startLine="8" startPosition="0" endLine="9" endPosition="48" conceptFqName="jetbrains.mps.baseLanguage.structure.FieldDeclaration" propertyString="isNeedUpdateAttributes" />
     <nodeInfo nodeId="1462969652806437122" fileName="ImportOptions.java" startLine="9" startPosition="48" endLine="10" endPosition="50" conceptFqName="jetbrains.mps.baseLanguage.structure.FieldDeclaration" propertyString="isNeedUpdateDeclarations" />
@@ -1422,7 +1422,7 @@
     <scopeInfo nodeId="1462969652806437126" fileName="ImportOptions.java" startLine="30" startPosition="0" endLine="34" endPosition="0" />
     <unitInfo nodeId="1462969652806437111" fileName="ImportOptions.java" startLine="6" startPosition="0" endLine="35" endPosition="0" unitName="jetbrains.mps.build.generictasks.taskfromjar.ImportOptions" />
   </root>
-  <root nodeId="1462969652806437175">
+  <root nodeId="1462969652806437175" modelId="r:641cc795-9da1-457c-a0b5-fbe12a078030(jetbrains.mps.build.generictasks.taskfromjar)">
     <nodeInfo nodeId="1462969652806437237" fileName="Importer.java" startLine="10" startPosition="26" endLine="11" endPosition="70" conceptFqName="jetbrains.mps.baseLanguage.structure.FieldDeclaration" propertyString="myQueue" />
     <nodeInfo nodeId="1462969652806437244" fileName="Importer.java" startLine="11" startPosition="70" endLine="12" endPosition="68" conceptFqName="jetbrains.mps.baseLanguage.structure.FieldDeclaration" propertyString="myMap" />
     <nodeInfo nodeId="1462969652806437253" fileName="Importer.java" startLine="12" startPosition="68" endLine="13" endPosition="55" conceptFqName="jetbrains.mps.baseLanguage.structure.FieldDeclaration" propertyString="myProvider" />
@@ -1567,11 +1567,11 @@
       <varInfo nodeId="1462969652806437326" varName="builder" />
       <varInfo nodeId="1462969652806437323" varName="toImport" />
     </scopeInfo>
-    <unitInfo nodeId="1462969652806437175" fileName="Importer.java" startLine="10" startPosition="0" endLine="92" endPosition="0" unitName="jetbrains.mps.build.generictasks.taskfromjar.Importer" />
-    <unitInfo nodeId="1462969652806437178" fileName="Importer.java" startLine="79" startPosition="0" endLine="87" endPosition="0" unitName="jetbrains.mps.build.generictasks.taskfromjar.Importer$IBuilder" />
     <unitInfo nodeId="1462969652806437229" fileName="Importer.java" startLine="88" startPosition="0" endLine="91" endPosition="0" unitName="jetbrains.mps.build.generictasks.taskfromjar.Importer$IClassInfoProvider" />
+    <unitInfo nodeId="1462969652806437178" fileName="Importer.java" startLine="79" startPosition="0" endLine="87" endPosition="0" unitName="jetbrains.mps.build.generictasks.taskfromjar.Importer$IBuilder" />
+    <unitInfo nodeId="1462969652806437175" fileName="Importer.java" startLine="10" startPosition="0" endLine="92" endPosition="0" unitName="jetbrains.mps.build.generictasks.taskfromjar.Importer" />
   </root>
-  <root nodeId="1462969652806437601">
+  <root nodeId="1462969652806437601" modelId="r:641cc795-9da1-457c-a0b5-fbe12a078030(jetbrains.mps.build.generictasks.taskfromjar)">
     <nodeInfo nodeId="1462969652806437603" fileName="NamesMap.java" startLine="12" startPosition="23" endLine="13" endPosition="80" conceptFqName="jetbrains.mps.baseLanguage.structure.FieldDeclaration" propertyString="myMap" />
     <nodeInfo nodeId="1462969652806437621" fileName="NamesMap.java" startLine="18" startPosition="72" endLine="19" endPosition="79" conceptFqName="jetbrains.mps.baseLanguage.structure.LocalVariableDeclarationStatement" />
     <nodeInfo nodeId="1462969652806437632" fileName="NamesMap.java" startLine="20" startPosition="18" endLine="21" endPosition="35" conceptFqName="jetbrains.mps.baseLanguage.structure.LocalVariableDeclarationStatement" />
@@ -1629,7 +1629,7 @@
     </scopeInfo>
     <unitInfo nodeId="1462969652806437601" fileName="NamesMap.java" startLine="12" startPosition="0" endLine="53" endPosition="0" unitName="jetbrains.mps.build.generictasks.taskfromjar.NamesMap" />
   </root>
-  <root nodeId="1462969652806437758">
+  <root nodeId="1462969652806437758" modelId="r:641cc795-9da1-457c-a0b5-fbe12a078030(jetbrains.mps.build.generictasks.taskfromjar)">
     <nodeInfo nodeId="1462969652806437760" fileName="Scanner.java" startLine="29" startPosition="22" endLine="30" endPosition="68" conceptFqName="jetbrains.mps.baseLanguage.structure.StaticFieldDeclaration" propertyString="LOG" />
     <nodeInfo nodeId="1462969652806437765" fileName="Scanner.java" startLine="30" startPosition="68" endLine="31" endPosition="55" conceptFqName="jetbrains.mps.baseLanguage.structure.StaticFieldDeclaration" propertyString="CLASSFILE_EXT" />
     <nodeInfo nodeId="1462969652806437769" fileName="Scanner.java" startLine="31" startPosition="55" endLine="32" endPosition="58" conceptFqName="jetbrains.mps.baseLanguage.structure.StaticFieldDeclaration" propertyString="LIB_ANT_JAR" />
@@ -1925,8 +1925,8 @@
       <varInfo nodeId="1462969652806438236" varName="loader" />
       <varInfo nodeId="1462969652806438238" varName="parentClass" />
     </scopeInfo>
-    <unitInfo nodeId="1462969652806437758" fileName="Scanner.java" startLine="29" startPosition="0" endLine="221" endPosition="0" unitName="jetbrains.mps.build.generictasks.taskfromjar.Scanner" />
     <unitInfo nodeId="1462969652806438427" fileName="Scanner.java" startLine="101" startPosition="15" endLine="105" endPosition="5" unitName="jetbrains.mps.build.generictasks.taskfromjar.Scanner$1" />
+    <unitInfo nodeId="1462969652806437758" fileName="Scanner.java" startLine="29" startPosition="0" endLine="221" endPosition="0" unitName="jetbrains.mps.build.generictasks.taskfromjar.Scanner" />
   </root>
 </debugInfo>
 

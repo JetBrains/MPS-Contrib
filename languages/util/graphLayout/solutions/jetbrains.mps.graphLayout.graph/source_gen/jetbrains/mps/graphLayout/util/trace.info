@@ -1,13 +1,13 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <debugInfo>
-  <root nodeId="40016457508978131">
+  <root nodeId="40016457508978131" modelId="r:8254b240-abed-4f97-a7cd-2eef733ec7fb(jetbrains.mps.graphLayout.util)">
     <nodeInfo nodeId="40016457508978132" fileName="Filter.java" startLine="6" startPosition="28" endLine="7" endPosition="29" conceptFqName="jetbrains.mps.baseLanguage.structure.InstanceMethodDeclaration" propertyString="accept#(null)Z" />
     <scopeInfo nodeId="40016457508978132" fileName="Filter.java" startLine="6" startPosition="28" endLine="7" endPosition="29">
       <varInfo nodeId="40016457508978136" varName="t" />
     </scopeInfo>
     <unitInfo nodeId="40016457508978131" fileName="Filter.java" startLine="6" startPosition="0" endLine="9" endPosition="0" unitName="jetbrains.mps.graphLayout.util.Filter" />
   </root>
-  <root nodeId="40016457508983181">
+  <root nodeId="40016457508983181" modelId="r:8254b240-abed-4f97-a7cd-2eef733ec7fb(jetbrains.mps.graphLayout.util)">
     <nodeInfo nodeId="40016457508983198" fileName="DefaultFilter.java" startLine="10" startPosition="30" endLine="11" endPosition="16" conceptFqName="jetbrains.mps.baseLanguage.structure.ReturnStatement" />
     <nodeInfo nodeId="40016457508983183" fileName="DefaultFilter.java" startLine="6" startPosition="52" endLine="8" endPosition="3" conceptFqName="jetbrains.mps.baseLanguage.structure.ConstructorDeclaration" propertyString="DefaultFilter#()V" />
     <nodeInfo nodeId="40016457508983191" fileName="DefaultFilter.java" startLine="9" startPosition="0" endLine="13" endPosition="0" conceptFqName="jetbrains.mps.baseLanguage.structure.InstanceMethodDeclaration" propertyString="accept#(null)Z" />
@@ -19,7 +19,7 @@
     </scopeInfo>
     <unitInfo nodeId="40016457508983181" fileName="DefaultFilter.java" startLine="6" startPosition="0" endLine="14" endPosition="0" unitName="jetbrains.mps.graphLayout.util.DefaultFilter" />
   </root>
-  <root nodeId="5180427534211916789">
+  <root nodeId="5180427534211916789" modelId="r:8254b240-abed-4f97-a7cd-2eef733ec7fb(jetbrains.mps.graphLayout.util)">
     <nodeInfo nodeId="5180427534211916797" fileName="NodeMap.java" startLine="14" startPosition="49" endLine="15" endPosition="29" conceptFqName="jetbrains.mps.baseLanguage.structure.FieldDeclaration" propertyString="myMap" />
     <nodeInfo nodeId="6220135881201382331" fileName="NodeMap.java" startLine="15" startPosition="29" endLine="16" endPosition="24" conceptFqName="jetbrains.mps.baseLanguage.structure.FieldDeclaration" propertyString="myGraph" />
     <nodeInfo nodeId="5180427534211916804" fileName="NodeMap.java" startLine="18" startPosition="31" endLine="19" endPosition="50" conceptFqName="jetbrains.mps.baseLanguage.structure.ExpressionStatement" />

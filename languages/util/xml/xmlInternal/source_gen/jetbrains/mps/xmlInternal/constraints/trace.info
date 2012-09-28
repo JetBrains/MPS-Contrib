@@ -30,8 +30,8 @@
       <varInfo nodeId="1213104847207" varName="properties" />
     </scopeInfo>
     <scopeInfo nodeId="1213104847207" fileName="XmlFile_Constraints.java" startLine="18" startPosition="0" endLine="36" endPosition="0" />
-    <unitInfo nodeId="1213104847207" fileName="XmlFile_Constraints.java" startLine="14" startPosition="0" endLine="37" endPosition="0" unitName="jetbrains.mps.xmlInternal.constraints.XmlFile_Constraints" />
     <unitInfo nodeId="1213104847207" fileName="XmlFile_Constraints.java" startLine="22" startPosition="31" endLine="33" endPosition="5" unitName="jetbrains.mps.xmlInternal.constraints.XmlFile_Constraints$1" />
+    <unitInfo nodeId="1213104847207" fileName="XmlFile_Constraints.java" startLine="14" startPosition="0" endLine="37" endPosition="0" unitName="jetbrains.mps.xmlInternal.constraints.XmlFile_Constraints" />
   </root>
 </debugInfo>
 

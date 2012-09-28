@@ -35,6 +35,7 @@
     <scopeInfo nodeId="734650238126517439" fileName="CompositePrinter.java" startLine="20" startPosition="33" endLine="23" endPosition="7">
       <varInfo nodeId="734650238126517441" varName="printer" />
     </scopeInfo>
+    <scopeInfo nodeId="734650238126517477" fileName="CompositePrinter.java" startLine="33" startPosition="92" endLine="36" endPosition="5" />
     <scopeInfo nodeId="734650238126517478" fileName="CompositePrinter.java" startLine="33" startPosition="92" endLine="36" endPosition="5">
       <varInfo nodeId="734650238126517480" varName="printer" />
     </scopeInfo>

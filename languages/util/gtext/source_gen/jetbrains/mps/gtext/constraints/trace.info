@@ -47,8 +47,8 @@
       <varInfo nodeId="1213104844571" varName="properties" />
     </scopeInfo>
     <scopeInfo nodeId="1213104844571" fileName="GDocument_Constraints.java" startLine="18" startPosition="0" endLine="47" endPosition="0" />
-    <unitInfo nodeId="1213104844571" fileName="GDocument_Constraints.java" startLine="14" startPosition="0" endLine="48" endPosition="0" unitName="jetbrains.mps.gtext.constraints.GDocument_Constraints" />
     <unitInfo nodeId="1213104844571" fileName="GDocument_Constraints.java" startLine="22" startPosition="31" endLine="44" endPosition="5" unitName="jetbrains.mps.gtext.constraints.GDocument_Constraints$1" />
+    <unitInfo nodeId="1213104844571" fileName="GDocument_Constraints.java" startLine="14" startPosition="0" endLine="48" endPosition="0" unitName="jetbrains.mps.gtext.constraints.GDocument_Constraints" />
   </root>
   <root nodeId="1213107436024" modelId="r:00000000-0000-4000-0000-011c89590571(jetbrains.mps.gtext.constraints)">
     <nodeInfo nodeId="1213107436024" fileName="GContentPlaceholder_Constraints.java" startLine="13" startPosition="80" endLine="14" endPosition="165" conceptFqName="jetbrains.mps.baseLanguage.structure.StaticFieldDeclaration" propertyString="canBeChildBreakingPoint" />
