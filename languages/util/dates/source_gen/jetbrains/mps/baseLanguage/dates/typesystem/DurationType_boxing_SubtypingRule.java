@@ -87,7 +87,7 @@ public class DurationType_boxing_SubtypingRule extends SubtypingRule_Runtime imp
         }
         {
           SNodePointer pointer = SNODE_POINTER_jq3mqm_a0a0a0a0b0c0a0a0a0a0a0c;
-          if (!(PatternUtil.matchReferentWithNode(pointer, nodeToMatch_DurationType_boxing_etxu84_a0a.getReferent("classifier")))) {
+          if (!(PatternUtil.matchReferentWithNode(pointer, nodeToMatch_DurationType_boxing_etxu84_a0a.getReferenceTarget("classifier")))) {
             return false;
           }
         }
