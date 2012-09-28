@@ -56,10 +56,10 @@
       <varInfo nodeId="1213104840187" varName="references" />
     </scopeInfo>
     <scopeInfo nodeId="1213104840187" fileName="ComponentReference_Constraints.java" startLine="31" startPosition="0" endLine="75" endPosition="0" />
-    <unitInfo nodeId="1213104840187" fileName="ComponentReference_Constraints.java" startLine="25" startPosition="0" endLine="76" endPosition="0" unitName="jetbrains.mps.uiLanguage.constraints.ComponentReference_Constraints" />
-    <unitInfo nodeId="1213104840187" fileName="ComponentReference_Constraints.java" startLine="35" startPosition="36" endLine="72" endPosition="5" unitName="jetbrains.mps.uiLanguage.constraints.ComponentReference_Constraints$1" />
-    <unitInfo nodeId="1213104840187" fileName="ComponentReference_Constraints.java" startLine="44" startPosition="19" endLine="70" endPosition="9" unitName="jetbrains.mps.uiLanguage.constraints.ComponentReference_Constraints$2" />
     <unitInfo nodeId="1227876799509" fileName="ComponentReference_Constraints.java" startLine="57" startPosition="221" endLine="61" endPosition="15" unitName="jetbrains.mps.uiLanguage.constraints.ComponentReference_Constraints$3" />
+    <unitInfo nodeId="1213104840187" fileName="ComponentReference_Constraints.java" startLine="44" startPosition="19" endLine="70" endPosition="9" unitName="jetbrains.mps.uiLanguage.constraints.ComponentReference_Constraints$2" />
+    <unitInfo nodeId="1213104840187" fileName="ComponentReference_Constraints.java" startLine="35" startPosition="36" endLine="72" endPosition="5" unitName="jetbrains.mps.uiLanguage.constraints.ComponentReference_Constraints$1" />
+    <unitInfo nodeId="1213104840187" fileName="ComponentReference_Constraints.java" startLine="25" startPosition="0" endLine="76" endPosition="0" unitName="jetbrains.mps.uiLanguage.constraints.ComponentReference_Constraints" />
   </root>
   <root nodeId="1213104846152" modelId="r:00000000-0000-4000-0000-011c8959054e(jetbrains.mps.uiLanguage.constraints)">
     <nodeInfo nodeId="1213104846152" fileName="ComponentInstance_Constraints.java" startLine="24" startPosition="78" endLine="25" endPosition="185" conceptFqName="jetbrains.mps.baseLanguage.structure.StaticFieldDeclaration" propertyString="breakingNode_hoyq5w_a0a1a0a0a1a0b0a1a0" />
@@ -104,10 +104,10 @@
       <varInfo nodeId="1213104846152" varName="references" />
     </scopeInfo>
     <scopeInfo nodeId="1213104846152" fileName="ComponentInstance_Constraints.java" startLine="30" startPosition="0" endLine="64" endPosition="0" />
-    <unitInfo nodeId="1213104846152" fileName="ComponentInstance_Constraints.java" startLine="24" startPosition="0" endLine="65" endPosition="0" unitName="jetbrains.mps.uiLanguage.constraints.ComponentInstance_Constraints" />
-    <unitInfo nodeId="1213104846152" fileName="ComponentInstance_Constraints.java" startLine="34" startPosition="47" endLine="61" endPosition="5" unitName="jetbrains.mps.uiLanguage.constraints.ComponentInstance_Constraints$1" />
-    <unitInfo nodeId="1213104846152" fileName="ComponentInstance_Constraints.java" startLine="43" startPosition="19" endLine="59" endPosition="9" unitName="jetbrains.mps.uiLanguage.constraints.ComponentInstance_Constraints$2" />
     <unitInfo nodeId="1227876806094" fileName="ComponentInstance_Constraints.java" startLine="47" startPosition="243" endLine="51" endPosition="13" unitName="jetbrains.mps.uiLanguage.constraints.ComponentInstance_Constraints$3" />
+    <unitInfo nodeId="1213104846152" fileName="ComponentInstance_Constraints.java" startLine="43" startPosition="19" endLine="59" endPosition="9" unitName="jetbrains.mps.uiLanguage.constraints.ComponentInstance_Constraints$2" />
+    <unitInfo nodeId="1213104846152" fileName="ComponentInstance_Constraints.java" startLine="34" startPosition="47" endLine="61" endPosition="5" unitName="jetbrains.mps.uiLanguage.constraints.ComponentInstance_Constraints$1" />
+    <unitInfo nodeId="1213104846152" fileName="ComponentInstance_Constraints.java" startLine="24" startPosition="0" endLine="65" endPosition="0" unitName="jetbrains.mps.uiLanguage.constraints.ComponentInstance_Constraints" />
   </root>
   <root nodeId="1213104846650" modelId="r:00000000-0000-4000-0000-011c8959054e(jetbrains.mps.uiLanguage.constraints)">
     <nodeInfo nodeId="1213104846650" fileName="ComponentController_Constraints.java" startLine="16" startPosition="44" endLine="17" endPosition="68" conceptFqName="jetbrains.mps.baseLanguage.structure.SuperConstructorInvocation" />
@@ -138,8 +138,8 @@
       <varInfo nodeId="1213104846650" varName="properties" />
     </scopeInfo>
     <scopeInfo nodeId="1213104846650" fileName="ComponentController_Constraints.java" startLine="19" startPosition="0" endLine="37" endPosition="0" />
-    <unitInfo nodeId="1213104846650" fileName="ComponentController_Constraints.java" startLine="15" startPosition="0" endLine="38" endPosition="0" unitName="jetbrains.mps.uiLanguage.constraints.ComponentController_Constraints" />
     <unitInfo nodeId="1213104846650" fileName="ComponentController_Constraints.java" startLine="23" startPosition="31" endLine="34" endPosition="5" unitName="jetbrains.mps.uiLanguage.constraints.ComponentController_Constraints$1" />
+    <unitInfo nodeId="1213104846650" fileName="ComponentController_Constraints.java" startLine="15" startPosition="0" endLine="38" endPosition="0" unitName="jetbrains.mps.uiLanguage.constraints.ComponentController_Constraints" />
   </root>
   <root nodeId="1213104846878" modelId="r:00000000-0000-4000-0000-011c8959054e(jetbrains.mps.uiLanguage.constraints)">
     <nodeInfo nodeId="1213104846878" fileName="AttributeValue_Constraints.java" startLine="24" startPosition="75" endLine="25" endPosition="185" conceptFqName="jetbrains.mps.baseLanguage.structure.StaticFieldDeclaration" propertyString="breakingNode_v5b4ie_a0a1a0a0a1a0b0a1a0" />
@@ -182,9 +182,9 @@
       <varInfo nodeId="1213104846878" varName="references" />
     </scopeInfo>
     <scopeInfo nodeId="1213104846878" fileName="AttributeValue_Constraints.java" startLine="30" startPosition="0" endLine="63" endPosition="0" />
-    <unitInfo nodeId="1213104846878" fileName="AttributeValue_Constraints.java" startLine="24" startPosition="0" endLine="64" endPosition="0" unitName="jetbrains.mps.uiLanguage.constraints.AttributeValue_Constraints" />
-    <unitInfo nodeId="1213104846878" fileName="AttributeValue_Constraints.java" startLine="34" startPosition="36" endLine="60" endPosition="5" unitName="jetbrains.mps.uiLanguage.constraints.AttributeValue_Constraints$1" />
     <unitInfo nodeId="1213104846878" fileName="AttributeValue_Constraints.java" startLine="43" startPosition="19" endLine="58" endPosition="9" unitName="jetbrains.mps.uiLanguage.constraints.AttributeValue_Constraints$2" />
+    <unitInfo nodeId="1213104846878" fileName="AttributeValue_Constraints.java" startLine="34" startPosition="36" endLine="60" endPosition="5" unitName="jetbrains.mps.uiLanguage.constraints.AttributeValue_Constraints$1" />
+    <unitInfo nodeId="1213104846878" fileName="AttributeValue_Constraints.java" startLine="24" startPosition="0" endLine="64" endPosition="0" unitName="jetbrains.mps.uiLanguage.constraints.AttributeValue_Constraints" />
   </root>
   <root nodeId="1213104847124" modelId="r:00000000-0000-4000-0000-011c8959054e(jetbrains.mps.uiLanguage.constraints)">
     <nodeInfo nodeId="1213104847124" fileName="StubCellRendererInfo_Constraints.java" startLine="21" startPosition="81" endLine="22" endPosition="185" conceptFqName="jetbrains.mps.baseLanguage.structure.StaticFieldDeclaration" propertyString="breakingNode_b4jd4c_a0a1a0a0a1a0b0a1a0" />
@@ -219,9 +219,9 @@
       <varInfo nodeId="1213104847124" varName="references" />
     </scopeInfo>
     <scopeInfo nodeId="1213104847124" fileName="StubCellRendererInfo_Constraints.java" startLine="27" startPosition="0" endLine="55" endPosition="0" />
-    <unitInfo nodeId="1213104847124" fileName="StubCellRendererInfo_Constraints.java" startLine="21" startPosition="0" endLine="56" endPosition="0" unitName="jetbrains.mps.uiLanguage.constraints.StubCellRendererInfo_Constraints" />
-    <unitInfo nodeId="1213104847124" fileName="StubCellRendererInfo_Constraints.java" startLine="31" startPosition="45" endLine="52" endPosition="5" unitName="jetbrains.mps.uiLanguage.constraints.StubCellRendererInfo_Constraints$1" />
     <unitInfo nodeId="1213104847124" fileName="StubCellRendererInfo_Constraints.java" startLine="40" startPosition="19" endLine="50" endPosition="9" unitName="jetbrains.mps.uiLanguage.constraints.StubCellRendererInfo_Constraints$2" />
+    <unitInfo nodeId="1213104847124" fileName="StubCellRendererInfo_Constraints.java" startLine="31" startPosition="45" endLine="52" endPosition="5" unitName="jetbrains.mps.uiLanguage.constraints.StubCellRendererInfo_Constraints$1" />
+    <unitInfo nodeId="1213104847124" fileName="StubCellRendererInfo_Constraints.java" startLine="21" startPosition="0" endLine="56" endPosition="0" unitName="jetbrains.mps.uiLanguage.constraints.StubCellRendererInfo_Constraints" />
   </root>
   <root nodeId="1213107435785" modelId="r:00000000-0000-4000-0000-011c8959054e(jetbrains.mps.uiLanguage.constraints)">
     <nodeInfo nodeId="1213107435785" fileName="EventHandlerReference_Constraints.java" startLine="13" startPosition="82" endLine="14" endPosition="170" conceptFqName="jetbrains.mps.baseLanguage.structure.StaticFieldDeclaration" propertyString="canBeChildBreakingPoint" />
@@ -651,8 +651,8 @@
       <varInfo nodeId="1213107437627" varName="parentNode" />
     </scopeInfo>
     <scopeInfo nodeId="1213107437635" fileName="ListElements_Constraints.java" startLine="54" startPosition="0" endLine="67" endPosition="0" />
-    <unitInfo nodeId="1213107437627" fileName="ListElements_Constraints.java" startLine="21" startPosition="0" endLine="69" endPosition="0" unitName="jetbrains.mps.uiLanguage.constraints.ListElements_Constraints" />
     <unitInfo nodeId="1213107437635" fileName="ListElements_Constraints.java" startLine="51" startPosition="0" endLine="68" endPosition="0" unitName="jetbrains.mps.uiLanguage.constraints.ListElements_Constraints$QuotationClass_fpzj2u_a0a0a0a0a" />
+    <unitInfo nodeId="1213107437627" fileName="ListElements_Constraints.java" startLine="21" startPosition="0" endLine="69" endPosition="0" unitName="jetbrains.mps.uiLanguage.constraints.ListElements_Constraints" />
   </root>
   <root nodeId="1213107437711" modelId="r:00000000-0000-4000-0000-011c8959054e(jetbrains.mps.uiLanguage.constraints)">
     <nodeInfo nodeId="1213107437711" fileName="AddListenerOperation_Constraints.java" startLine="14" startPosition="81" endLine="15" endPosition="171" conceptFqName="jetbrains.mps.baseLanguage.structure.StaticFieldDeclaration" propertyString="canBeParentBreakingPoint" />

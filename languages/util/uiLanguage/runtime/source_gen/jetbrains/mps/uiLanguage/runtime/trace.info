@@ -96,6 +96,9 @@
     <nodeInfo nodeId="5606982432899038995" fileName="SimpleListModel.java" startLine="7" startPosition="55" endLine="12" endPosition="3" conceptFqName="jetbrains.mps.baseLanguage.structure.ConstructorDeclaration" propertyString="SimpleListModel#(Ljava/lang/Iterable;)V" />
     <scopeInfo nodeId="5606982432899039005" fileName="SimpleListModel.java" startLine="9" startPosition="25" endLine="10" endPosition="25" />
     <scopeInfo nodeId="5606982432899039000" fileName="SimpleListModel.java" startLine="8" startPosition="39" endLine="11" endPosition="5" />
+    <scopeInfo nodeId="5606982432899039001" fileName="SimpleListModel.java" startLine="8" startPosition="39" endLine="11" endPosition="5">
+      <varInfo nodeId="5606982432899039003" varName="o" />
+    </scopeInfo>
     <scopeInfo nodeId="5606982432899038995" fileName="SimpleListModel.java" startLine="7" startPosition="55" endLine="12" endPosition="3">
       <varInfo nodeId="5606982432899038998" varName="it" />
     </scopeInfo>

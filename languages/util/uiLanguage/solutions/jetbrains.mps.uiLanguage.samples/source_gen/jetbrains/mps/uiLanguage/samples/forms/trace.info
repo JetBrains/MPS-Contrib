@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <debugInfo>
-  <root nodeId="1202817919406">
+  <root nodeId="1202817919406" modelId="r:00000000-0000-4000-0000-011c8959055e(jetbrains.mps.uiLanguage.samples.forms)">
     <nodeInfo nodeId="1202817919406" fileName="FormDemo.java" startLine="19" startPosition="38" endLine="20" endPosition="25" conceptFqName="jetbrains.mps.baseLanguage.structure.FieldDeclaration" propertyString="myThis" />
     <nodeInfo nodeId="1202817919406" fileName="FormDemo.java" startLine="20" startPosition="25" endLine="21" endPosition="39" conceptFqName="jetbrains.mps.baseLanguage.structure.FieldDeclaration" propertyString="myComponent_4g3yb7_a0" />
     <nodeInfo nodeId="1202817919406" fileName="FormDemo.java" startLine="21" startPosition="39" endLine="22" endPosition="40" conceptFqName="jetbrains.mps.baseLanguage.structure.FieldDeclaration" propertyString="myComponent_4g3yb7_b0a" />
@@ -128,6 +128,9 @@
     <scopeInfo nodeId="1202817919406" fileName="FormDemo.java" startLine="49" startPosition="0" endLine="54" endPosition="0" />
     <scopeInfo nodeId="1202817919406" fileName="FormDemo.java" startLine="54" startPosition="0" endLine="59" endPosition="0" />
     <scopeInfo nodeId="1202817919406" fileName="FormDemo.java" startLine="63" startPosition="25" endLine="68" endPosition="5" />
+    <scopeInfo nodeId="1202817919406" fileName="FormDemo.java" startLine="63" startPosition="25" endLine="68" endPosition="5">
+      <varInfo nodeId="1202817919406" varName="binding" />
+    </scopeInfo>
     <scopeInfo nodeId="1202817919406" fileName="FormDemo.java" startLine="76" startPosition="41" endLine="81" endPosition="17">
       <varInfo nodeId="1202817919406" varName="c" />
     </scopeInfo>
@@ -162,13 +165,13 @@
       <varInfo nodeId="1202817919406" varName="component" />
     </scopeInfo>
     <scopeInfo nodeId="1202817919406" fileName="FormDemo.java" startLine="70" startPosition="0" endLine="125" endPosition="0" />
-    <unitInfo nodeId="1202817919406" fileName="FormDemo.java" startLine="19" startPosition="0" endLine="160" endPosition="0" unitName="jetbrains.mps.uiLanguage.samples.forms.FormDemo" />
     <unitInfo nodeId="1202817919406" fileName="FormDemo.java" startLine="28" startPosition="32" endLine="34" endPosition="3" unitName="jetbrains.mps.uiLanguage.samples.forms.FormDemo$1" />
     <unitInfo nodeId="1202817919406" fileName="FormDemo.java" startLine="75" startPosition="57" endLine="83" endPosition="5" unitName="jetbrains.mps.uiLanguage.samples.forms.FormDemo$2" />
     <unitInfo nodeId="1202817919406" fileName="FormDemo.java" startLine="84" startPosition="57" endLine="92" endPosition="5" unitName="jetbrains.mps.uiLanguage.samples.forms.FormDemo$3" />
     <unitInfo nodeId="1202817919406" fileName="FormDemo.java" startLine="93" startPosition="57" endLine="102" endPosition="5" unitName="jetbrains.mps.uiLanguage.samples.forms.FormDemo$4" />
     <unitInfo nodeId="1202817919406" fileName="FormDemo.java" startLine="103" startPosition="57" endLine="112" endPosition="5" unitName="jetbrains.mps.uiLanguage.samples.forms.FormDemo$5" />
     <unitInfo nodeId="1202817919406" fileName="FormDemo.java" startLine="113" startPosition="57" endLine="122" endPosition="5" unitName="jetbrains.mps.uiLanguage.samples.forms.FormDemo$6" />
+    <unitInfo nodeId="1202817919406" fileName="FormDemo.java" startLine="19" startPosition="0" endLine="160" endPosition="0" unitName="jetbrains.mps.uiLanguage.samples.forms.FormDemo" />
   </root>
 </debugInfo>
 

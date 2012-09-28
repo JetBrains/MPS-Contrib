@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <debugInfo>
-  <root nodeId="6936542821591824460">
+  <root nodeId="6936542821591824460" modelId="r:1d745698-959f-411a-bdd4-ff06bf4a08cf(jetbrains.mps.uiLanguage.samples.dogfood)">
     <nodeInfo nodeId="6936542821591824460" fileName="Dog.java" startLine="13" startPosition="33" endLine="14" endPosition="20" conceptFqName="jetbrains.mps.baseLanguage.structure.FieldDeclaration" propertyString="myThis" />
     <nodeInfo nodeId="6936542821591824460" fileName="Dog.java" startLine="14" startPosition="20" endLine="15" endPosition="34" conceptFqName="jetbrains.mps.baseLanguage.structure.FieldDeclaration" propertyString="myComponent_qku_b0" />
     <nodeInfo nodeId="6936542821591824460" fileName="Dog.java" startLine="15" startPosition="34" endLine="16" endPosition="92" conceptFqName="jetbrains.mps.baseLanguage.structure.FieldDeclaration" propertyString="myBindings" />
@@ -48,16 +48,17 @@
     </scopeInfo>
     <scopeInfo nodeId="6936542821591824460" fileName="Dog.java" startLine="36" startPosition="0" endLine="41" endPosition="0" />
     <scopeInfo nodeId="6936542821591824460" fileName="Dog.java" startLine="41" startPosition="0" endLine="46" endPosition="0" />
+    <scopeInfo nodeId="6936542821591824460" fileName="Dog.java" startLine="50" startPosition="25" endLine="55" endPosition="5" />
     <scopeInfo nodeId="6936542821591824460" fileName="Dog.java" startLine="50" startPosition="25" endLine="55" endPosition="5">
       <varInfo nodeId="6936542821591824460" varName="binding" />
     </scopeInfo>
     <scopeInfo nodeId="6936542821591824460" fileName="Dog.java" startLine="57" startPosition="0" endLine="63" endPosition="0" />
     <scopeInfo nodeId="6936542821591824460" fileName="Dog.java" startLine="24" startPosition="0" endLine="31" endPosition="3" />
     <scopeInfo nodeId="6936542821591824460" fileName="Dog.java" startLine="49" startPosition="0" endLine="57" endPosition="0" />
-    <unitInfo nodeId="6936542821591824460" fileName="Dog.java" startLine="13" startPosition="0" endLine="64" endPosition="0" unitName="jetbrains.mps.uiLanguage.samples.dogfood.Dog" />
     <unitInfo nodeId="6936542821591824460" fileName="Dog.java" startLine="17" startPosition="32" endLine="23" endPosition="3" unitName="jetbrains.mps.uiLanguage.samples.dogfood.Dog$1" />
+    <unitInfo nodeId="6936542821591824460" fileName="Dog.java" startLine="13" startPosition="0" endLine="64" endPosition="0" unitName="jetbrains.mps.uiLanguage.samples.dogfood.Dog" />
   </root>
-  <root nodeId="6936542821591824462">
+  <root nodeId="6936542821591824462" modelId="r:1d745698-959f-411a-bdd4-ff06bf4a08cf(jetbrains.mps.uiLanguage.samples.dogfood)">
     <nodeInfo nodeId="6936542821591824462" fileName="Food.java" startLine="14" startPosition="34" endLine="15" endPosition="21" conceptFqName="jetbrains.mps.baseLanguage.structure.FieldDeclaration" propertyString="myThis" />
     <nodeInfo nodeId="6936542821591824462" fileName="Food.java" startLine="15" startPosition="21" endLine="16" endPosition="33" conceptFqName="jetbrains.mps.baseLanguage.structure.FieldDeclaration" propertyString="myLabel_nj27_b0" />
     <nodeInfo nodeId="6936542821591824462" fileName="Food.java" startLine="16" startPosition="33" endLine="17" endPosition="92" conceptFqName="jetbrains.mps.baseLanguage.structure.FieldDeclaration" propertyString="myBindings" />
@@ -106,11 +107,14 @@
     <scopeInfo nodeId="6936542821591824462" fileName="Food.java" startLine="37" startPosition="0" endLine="42" endPosition="0" />
     <scopeInfo nodeId="6936542821591824462" fileName="Food.java" startLine="42" startPosition="0" endLine="47" endPosition="0" />
     <scopeInfo nodeId="6936542821591824462" fileName="Food.java" startLine="51" startPosition="25" endLine="56" endPosition="5" />
+    <scopeInfo nodeId="6936542821591824462" fileName="Food.java" startLine="51" startPosition="25" endLine="56" endPosition="5">
+      <varInfo nodeId="6936542821591824462" varName="binding" />
+    </scopeInfo>
     <scopeInfo nodeId="6936542821591824462" fileName="Food.java" startLine="58" startPosition="0" endLine="64" endPosition="0" />
     <scopeInfo nodeId="6936542821591824462" fileName="Food.java" startLine="25" startPosition="0" endLine="32" endPosition="3" />
     <scopeInfo nodeId="6936542821591824462" fileName="Food.java" startLine="50" startPosition="0" endLine="58" endPosition="0" />
-    <unitInfo nodeId="6936542821591824462" fileName="Food.java" startLine="14" startPosition="0" endLine="65" endPosition="0" unitName="jetbrains.mps.uiLanguage.samples.dogfood.Food" />
     <unitInfo nodeId="6936542821591824462" fileName="Food.java" startLine="18" startPosition="32" endLine="24" endPosition="3" unitName="jetbrains.mps.uiLanguage.samples.dogfood.Food$1" />
+    <unitInfo nodeId="6936542821591824462" fileName="Food.java" startLine="14" startPosition="0" endLine="65" endPosition="0" unitName="jetbrains.mps.uiLanguage.samples.dogfood.Food" />
   </root>
 </debugInfo>
 

@@ -61,6 +61,7 @@
     <scopeInfo nodeId="3987693689859618201" fileName="Event.java" startLine="11" startPosition="0" endLine="14" endPosition="3">
       <varInfo nodeId="3987693689859618204" varName="name" />
     </scopeInfo>
+    <scopeInfo nodeId="3987693689859618247" fileName="Event.java" startLine="28" startPosition="31" endLine="31" endPosition="5" />
     <scopeInfo nodeId="3987693689859618248" fileName="Event.java" startLine="28" startPosition="31" endLine="31" endPosition="5">
       <varInfo nodeId="3987693689859618252" varName="listener" />
     </scopeInfo>
