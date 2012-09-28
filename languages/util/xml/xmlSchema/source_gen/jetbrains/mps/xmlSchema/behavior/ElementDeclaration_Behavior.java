@@ -73,6 +73,11 @@ public class ElementDeclaration_Behavior {
     return (SNode) descriptor.invoke(Object.class, SNodeOperations.cast(thisNode, "jetbrains.mps.xmlSchema.structure.ElementDeclaration"), "virtual_getComplexType_1213877429806", PARAMETERS_1213877429806, new Object[]{});
   }
 
+  public static SNode callSuperNew_getComplexType_1213877429806(SNode thisNode, String callerConceptFqName) {
+    return (SNode) BehaviorManager.getInstance().invokeSuperNew(Object.class, SNodeOperations.cast(thisNode, "jetbrains.mps.xmlSchema.structure.ElementDeclaration"), callerConceptFqName, "virtual_getComplexType_1213877429806", PARAMETERS_1213877429806, new Object[]{});
+  }
+
+  @Deprecated
   public static SNode callSuper_getComplexType_1213877429806(SNode thisNode, String callerConceptFqName) {
     return (SNode) BehaviorManager.getInstance().invokeSuper(Object.class, SNodeOperations.cast(thisNode, "jetbrains.mps.xmlSchema.structure.ElementDeclaration"), callerConceptFqName, "virtual_getComplexType_1213877429806", PARAMETERS_1213877429806, new Object[]{});
   }

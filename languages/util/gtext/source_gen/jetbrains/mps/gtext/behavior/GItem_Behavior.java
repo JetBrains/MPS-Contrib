@@ -23,6 +23,11 @@ public class GItem_Behavior {
     return (Boolean) descriptor.invoke(Boolean.class, SNodeOperations.cast(thisNode, "jetbrains.mps.gtext.structure.GItem"), "virtual_isComplex_1213877298853", PARAMETERS_1213877298853, new Object[]{});
   }
 
+  public static boolean callSuperNew_isComplex_1213877298853(SNode thisNode, String callerConceptFqName) {
+    return (Boolean) BehaviorManager.getInstance().invokeSuperNew(Boolean.class, SNodeOperations.cast(thisNode, "jetbrains.mps.gtext.structure.GItem"), callerConceptFqName, "virtual_isComplex_1213877298853", PARAMETERS_1213877298853, new Object[]{});
+  }
+
+  @Deprecated
   public static boolean callSuper_isComplex_1213877298853(SNode thisNode, String callerConceptFqName) {
     return (Boolean) BehaviorManager.getInstance().invokeSuper(Boolean.class, SNodeOperations.cast(thisNode, "jetbrains.mps.gtext.structure.GItem"), callerConceptFqName, "virtual_isComplex_1213877298853", PARAMETERS_1213877298853, new Object[]{});
   }
