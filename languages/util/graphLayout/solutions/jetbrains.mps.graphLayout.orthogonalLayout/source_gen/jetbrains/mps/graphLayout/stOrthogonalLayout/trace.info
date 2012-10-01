@@ -308,7 +308,9 @@
     <scopeInfo nodeId="6494745554568982389" fileName="LayoutOptimizer.java" startLine="146" startPosition="0" endLine="150" endPosition="0">
       <varInfo nodeId="6494745554568982393" varName="layout" />
     </scopeInfo>
-    <scopeInfo nodeId="6494745554568988517" fileName="LayoutOptimizer.java" startLine="121" startPosition="108" endLine="126" endPosition="7" />
+    <scopeInfo nodeId="6494745554568988529" fileName="LayoutOptimizer.java" startLine="121" startPosition="108" endLine="126" endPosition="7">
+      <varInfo nodeId="6494745554568988530" varName="p" />
+    </scopeInfo>
     <scopeInfo nodeId="8680836410351713653" fileName="LayoutOptimizer.java" startLine="127" startPosition="5" endLine="132" endPosition="5">
       <varInfo nodeId="8680836410351713654" varName="labelRect" />
     </scopeInfo>

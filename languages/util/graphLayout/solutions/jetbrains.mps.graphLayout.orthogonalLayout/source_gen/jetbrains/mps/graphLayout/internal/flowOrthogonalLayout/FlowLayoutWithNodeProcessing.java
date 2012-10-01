@@ -85,14 +85,14 @@ public class FlowLayoutWithNodeProcessing implements IPointLayouter {
 
   private void updateHistory(Map<Edge, Edge> replacedEdges, Map<Edge, List<Edge>> history) {
     for (List<Edge> list : Sequence.fromIterable(MapSequence.fromMap(history).values())) {
-      Edge first = Sequence.fromIterable(list).first();
+      Edge first = ListSequence.fromList(list).first();
       if (MapSequence.fromMap(replacedEdges).containsKey(first)) {
         ListSequence.fromList(list).setElement(0, MapSequence.fromMap(replacedEdges).get(first));
       }
-      if (Sequence.fromIterable(list).count() > 1) {
-        Edge last = Sequence.fromIterable(list).last();
+      if (ListSequence.fromList(list).count() > 1) {
+        Edge last = ListSequence.fromList(list).last();
         if (MapSequence.fromMap(replacedEdges).containsKey(last)) {
-          ListSequence.fromList(list).setElement(Sequence.fromIterable(list).count() - 1, MapSequence.fromMap(replacedEdges).get(last));
+          ListSequence.fromList(list).setElement(ListSequence.fromList(list).count() - 1, MapSequence.fromMap(replacedEdges).get(last));
         }
       }
     }
