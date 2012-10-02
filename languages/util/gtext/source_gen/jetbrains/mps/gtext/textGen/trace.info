@@ -32,6 +32,9 @@
     </scopeInfo>
     <scopeInfo nodeId="1234548035318" fileName="GConditionalLine_TextGen.java" startLine="39" startPosition="31" endLine="40" endPosition="86" />
     <scopeInfo nodeId="1237463991927" fileName="GConditionalLine_TextGen.java" startLine="26" startPosition="93" endLine="29" endPosition="7" />
+    <scopeInfo nodeId="1237463991927" fileName="GConditionalLine_TextGen.java" startLine="26" startPosition="93" endLine="29" endPosition="7">
+      <varInfo nodeId="1237463991927" varName="item" />
+    </scopeInfo>
     <scopeInfo nodeId="1237463991927" fileName="GConditionalLine_TextGen.java" startLine="25" startPosition="5" endLine="30" endPosition="5" />
     <scopeInfo nodeId="1234548035318" fileName="GConditionalLine_TextGen.java" startLine="35" startPosition="7" endLine="42" endPosition="80">
       <varInfo nodeId="1234548035318" varName="traceableProperty" />
@@ -70,6 +73,9 @@
     <scopeInfo nodeId="1234548158731" fileName="GDocument_TextGen.java" startLine="33" startPosition="31" endLine="34" endPosition="77" />
     <scopeInfo nodeId="1234548158731" fileName="GDocument_TextGen.java" startLine="41" startPosition="42" endLine="42" endPosition="60" />
     <scopeInfo nodeId="1237463992939" fileName="GDocument_TextGen.java" startLine="23" startPosition="93" endLine="26" endPosition="7" />
+    <scopeInfo nodeId="1237463992939" fileName="GDocument_TextGen.java" startLine="23" startPosition="93" endLine="26" endPosition="7">
+      <varInfo nodeId="1237463992939" varName="item" />
+    </scopeInfo>
     <scopeInfo nodeId="1234548158731" fileName="GDocument_TextGen.java" startLine="40" startPosition="0" endLine="44" endPosition="0">
       <varInfo nodeId="1234548158731" varName="node" />
     </scopeInfo>
@@ -204,6 +210,9 @@
     </scopeInfo>
     <scopeInfo nodeId="1234795650950" fileName="GItemList_TextGen.java" startLine="32" startPosition="31" endLine="33" endPosition="86" />
     <scopeInfo nodeId="1237463993067" fileName="GItemList_TextGen.java" startLine="22" startPosition="93" endLine="25" endPosition="7" />
+    <scopeInfo nodeId="1237463993067" fileName="GItemList_TextGen.java" startLine="22" startPosition="93" endLine="25" endPosition="7">
+      <varInfo nodeId="1237463993067" varName="item" />
+    </scopeInfo>
     <scopeInfo nodeId="1237463993067" fileName="GItemList_TextGen.java" startLine="21" startPosition="5" endLine="26" endPosition="5" />
     <scopeInfo nodeId="1234795650950" fileName="GItemList_TextGen.java" startLine="28" startPosition="7" endLine="35" endPosition="80">
       <varInfo nodeId="1234795650950" varName="traceableProperty" />
@@ -241,6 +250,9 @@
     </scopeInfo>
     <scopeInfo nodeId="1234795672226" fileName="GLine_TextGen.java" startLine="34" startPosition="31" endLine="35" endPosition="86" />
     <scopeInfo nodeId="1237463992085" fileName="GLine_TextGen.java" startLine="23" startPosition="93" endLine="26" endPosition="7" />
+    <scopeInfo nodeId="1237463992085" fileName="GLine_TextGen.java" startLine="23" startPosition="93" endLine="26" endPosition="7">
+      <varInfo nodeId="1237463992085" varName="item" />
+    </scopeInfo>
     <scopeInfo nodeId="1237463992085" fileName="GLine_TextGen.java" startLine="22" startPosition="24" endLine="28" endPosition="25" />
     <scopeInfo nodeId="1234795672226" fileName="GLine_TextGen.java" startLine="30" startPosition="7" endLine="37" endPosition="80">
       <varInfo nodeId="1234795672226" varName="traceableProperty" />
