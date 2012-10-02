@@ -20,6 +20,11 @@ public class ISource_Behavior {
     return (List<String>) descriptor.invoke(Object.class, SNodeOperations.cast(thisNode, "jetbrains.mps.buildlanguage.structure.ISource"), "virtual_getPaths_1213877276955", PARAMETERS_1213877276955, new Object[]{});
   }
 
+  public static List<String> callSuperNew_getPaths_1213877276955(SNode thisNode, String callerConceptFqName) {
+    return (List<String>) BehaviorManager.getInstance().invokeSuperNew(Object.class, SNodeOperations.cast(thisNode, "jetbrains.mps.buildlanguage.structure.ISource"), callerConceptFqName, "virtual_getPaths_1213877276955", PARAMETERS_1213877276955, new Object[]{});
+  }
+
+  @Deprecated
   public static List<String> callSuper_getPaths_1213877276955(SNode thisNode, String callerConceptFqName) {
     return (List<String>) BehaviorManager.getInstance().invokeSuper(Object.class, SNodeOperations.cast(thisNode, "jetbrains.mps.buildlanguage.structure.ISource"), callerConceptFqName, "virtual_getPaths_1213877276955", PARAMETERS_1213877276955, new Object[]{});
   }

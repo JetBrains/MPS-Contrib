@@ -120,7 +120,7 @@
     </scopeInfo>
     <scopeInfo nodeId="3805314409601860960" fileName="ClusteredGraphLayout.java" startLine="33" startPosition="0" endLine="37" endPosition="0" />
     <scopeInfo nodeId="3805314409601860954" fileName="ClusteredGraphLayout.java" startLine="40" startPosition="92" endLine="44" endPosition="5">
-      <varInfo nodeId="3805314409601860954" varName="cluster" />
+      <varInfo nodeId="3805314409601860955" varName="cluster" />
     </scopeInfo>
     <scopeInfo nodeId="3805314409601904151" fileName="ClusteredGraphLayout.java" startLine="56" startPosition="72" endLine="60" endPosition="35" />
     <scopeInfo nodeId="3805314409601860929" fileName="ClusteredGraphLayout.java" startLine="39" startPosition="61" endLine="45" endPosition="23">
@@ -128,10 +128,10 @@
     </scopeInfo>
     <scopeInfo nodeId="3805314409601904146" fileName="ClusteredGraphLayout.java" startLine="55" startPosition="69" endLine="61" endPosition="7" />
     <scopeInfo nodeId="3805314409601904148" fileName="ClusteredGraphLayout.java" startLine="55" startPosition="69" endLine="61" endPosition="7">
-      <varInfo nodeId="3805314409601904148" varName="p" />
+      <varInfo nodeId="3805314409601904149" varName="p" />
     </scopeInfo>
     <scopeInfo nodeId="3805314409601904143" fileName="ClusteredGraphLayout.java" startLine="54" startPosition="27" endLine="62" endPosition="5">
-      <varInfo nodeId="3805314409601904143" varName="cluster" />
+      <varInfo nodeId="3805314409601904144" varName="cluster" />
     </scopeInfo>
     <scopeInfo nodeId="3805314409601860922" fileName="ClusteredGraphLayout.java" startLine="37" startPosition="0" endLine="47" endPosition="0">
       <varInfo nodeId="3805314409601860925" varName="xShift" />
@@ -290,7 +290,7 @@
       <varInfo nodeId="1714301205550514236" varName="layoutInfo" />
     </scopeInfo>
     <scopeInfo nodeId="1714301205550511439" fileName="HyperGraphLayouter.java" startLine="160" startPosition="52" endLine="164" endPosition="5">
-      <varInfo nodeId="1714301205550511439" varName="child" />
+      <varInfo nodeId="1714301205550511440" varName="child" />
     </scopeInfo>
     <scopeInfo nodeId="1714301205550512263" fileName="HyperGraphLayouter.java" startLine="132" startPosition="65" endLine="137" endPosition="7">
       <varInfo nodeId="1714301205550512243" varName="leafNode" />
@@ -302,24 +302,24 @@
     </scopeInfo>
     <scopeInfo nodeId="1714301205550512197" fileName="HyperGraphLayouter.java" startLine="149" startPosition="28" endLine="154" endPosition="5" />
     <scopeInfo nodeId="1714301205550512198" fileName="HyperGraphLayouter.java" startLine="149" startPosition="28" endLine="154" endPosition="5">
-      <varInfo nodeId="1714301205550512198" varName="edge" />
+      <varInfo nodeId="1714301205550512191" varName="edge" />
     </scopeInfo>
     <scopeInfo nodeId="1714301205550511228" fileName="HyperGraphLayouter.java" startLine="32" startPosition="0" endLine="38" endPosition="3">
       <varInfo nodeId="1714301205550511299" varName="clusterLayouter" />
     </scopeInfo>
     <scopeInfo nodeId="1714301205550513278" fileName="HyperGraphLayouter.java" startLine="114" startPosition="28" endLine="120" endPosition="18" />
     <scopeInfo nodeId="1714301205550512259" fileName="HyperGraphLayouter.java" startLine="131" startPosition="62" endLine="138" endPosition="5">
-      <varInfo nodeId="1714301205550512259" varName="node" />
+      <varInfo nodeId="1714301205550512241" varName="node" />
     </scopeInfo>
     <scopeInfo nodeId="1714301205550512292" fileName="HyperGraphLayouter.java" startLine="138" startPosition="5" endLine="145" endPosition="5">
-      <varInfo nodeId="1714301205550512292" varName="edge" />
+      <varInfo nodeId="1714301205550512245" varName="edge" />
     </scopeInfo>
     <scopeInfo nodeId="1714301205550512345" fileName="HyperGraphLayouter.java" startLine="67" startPosition="65" endLine="75" endPosition="7">
       <varInfo nodeId="1714301205550512330" varName="leafNode" />
     </scopeInfo>
     <scopeInfo nodeId="1714301205550512194" fileName="HyperGraphLayouter.java" startLine="148" startPosition="0" endLine="156" endPosition="0" />
     <scopeInfo nodeId="1714301205550512344" fileName="HyperGraphLayouter.java" startLine="66" startPosition="55" endLine="76" endPosition="5">
-      <varInfo nodeId="1714301205550512344" varName="node" />
+      <varInfo nodeId="1714301205550512328" varName="node" />
     </scopeInfo>
     <scopeInfo nodeId="1714301205550512816" fileName="HyperGraphLayouter.java" startLine="112" startPosition="39" endLine="122" endPosition="18">
       <varInfo nodeId="1714301205550513263" varName="res" />
@@ -351,7 +351,7 @@
       <varInfo nodeId="1714301205550511580" varName="root" />
     </scopeInfo>
     <scopeInfo nodeId="1714301205550512389" fileName="HyperGraphLayouter.java" startLine="76" startPosition="5" endLine="94" endPosition="5">
-      <varInfo nodeId="1714301205550512389" varName="edge" />
+      <varInfo nodeId="1714301205550512390" varName="edge" />
     </scopeInfo>
     <scopeInfo nodeId="1714301205550512729" fileName="HyperGraphLayouter.java" startLine="106" startPosition="14" endLine="124" endPosition="14">
       <varInfo nodeId="1714301205550512791" varName="bp" />
@@ -364,7 +364,7 @@
     </scopeInfo>
     <scopeInfo nodeId="1714301205550512696" fileName="HyperGraphLayouter.java" startLine="103" startPosition="50" endLine="125" endPosition="7" />
     <scopeInfo nodeId="1714301205550512693" fileName="HyperGraphLayouter.java" startLine="102" startPosition="74" endLine="126" endPosition="5">
-      <varInfo nodeId="1714301205550512693" varName="q" />
+      <varInfo nodeId="1714301205550512694" varName="q" />
     </scopeInfo>
     <scopeInfo nodeId="1714301205550512525" fileName="HyperGraphLayouter.java" startLine="98" startPosition="77" endLine="127" endPosition="20">
       <varInfo nodeId="1714301205550512782" varName="cornerPoints" />
@@ -686,22 +686,22 @@
     </scopeInfo>
     <scopeInfo nodeId="1074674001963584198" fileName="BasicLayouter.java" startLine="97" startPosition="77" endLine="99" endPosition="51" />
     <scopeInfo nodeId="3444434563276236783" fileName="BasicLayouter.java" startLine="41" startPosition="26" endLine="44" endPosition="5">
-      <varInfo nodeId="3444434563276236783" varName="node" />
+      <varInfo nodeId="3444434563276236739" varName="node" />
     </scopeInfo>
     <scopeInfo nodeId="3444434563276236879" fileName="BasicLayouter.java" startLine="61" startPosition="105" endLine="64" endPosition="5">
-      <varInfo nodeId="3444434563276236879" varName="layout" />
+      <varInfo nodeId="3444434563276236750" varName="layout" />
     </scopeInfo>
     <scopeInfo nodeId="3444434563276236920" fileName="BasicLayouter.java" startLine="71" startPosition="71" endLine="74" endPosition="45">
       <varInfo nodeId="3444434563276236756" varName="rect" />
     </scopeInfo>
     <scopeInfo nodeId="3444434563276236961" fileName="BasicLayouter.java" startLine="77" startPosition="74" endLine="80" endPosition="9">
-      <varInfo nodeId="3444434563276236961" varName="point" />
+      <varInfo nodeId="3444434563276236761" varName="point" />
     </scopeInfo>
     <scopeInfo nodeId="3444434563276236981" fileName="BasicLayouter.java" startLine="82" startPosition="78" endLine="85" endPosition="49">
       <varInfo nodeId="3444434563276236762" varName="rect" />
     </scopeInfo>
     <scopeInfo nodeId="1074674001963584195" fileName="BasicLayouter.java" startLine="96" startPosition="19" endLine="100" endPosition="5">
-      <varInfo nodeId="1074674001963584195" varName="layoutRect" />
+      <varInfo nodeId="1074674001963584196" varName="layoutRect" />
     </scopeInfo>
     <scopeInfo nodeId="1074674001963584139" fileName="BasicLayouter.java" startLine="103" startPosition="0" endLine="107" endPosition="0" />
     <scopeInfo nodeId="1074674001963584145" fileName="BasicLayouter.java" startLine="107" startPosition="0" endLine="111" endPosition="0">
@@ -711,7 +711,7 @@
       <varInfo nodeId="3444434563276236744" varName="node" />
     </scopeInfo>
     <scopeInfo nodeId="3444434563276236916" fileName="BasicLayouter.java" startLine="70" startPosition="84" endLine="75" endPosition="7">
-      <varInfo nodeId="3444434563276236916" varName="node" />
+      <varInfo nodeId="3444434563276236755" varName="node" />
     </scopeInfo>
     <scopeInfo nodeId="8729833695221619983" fileName="BasicLayouter.java" startLine="29" startPosition="55" endLine="35" endPosition="25">
       <varInfo nodeId="1074674001963613643" varName="graphLayout" />
@@ -738,7 +738,7 @@
       <varInfo nodeId="3444434563276236748" varName="subgraphInfo" />
     </scopeInfo>
     <scopeInfo nodeId="3444434563276236946" fileName="BasicLayouter.java" startLine="75" startPosition="7" endLine="87" endPosition="7">
-      <varInfo nodeId="3444434563276236946" varName="edge" />
+      <varInfo nodeId="3444434563276236759" varName="edge" />
     </scopeInfo>
     <scopeInfo nodeId="3444434563276236813" fileName="BasicLayouter.java" startLine="47" startPosition="105" endLine="60" endPosition="5">
       <varInfo nodeId="3444434563276236743" varName="num" />
@@ -899,16 +899,16 @@
     <scopeInfo nodeId="3698135283642022812" fileName="GraphLayout.java" startLine="161" startPosition="88" endLine="162" endPosition="104" />
     <scopeInfo nodeId="1265453300920959166" fileName="GraphLayout.java" startLine="111" startPosition="14" endLine="113" endPosition="21" />
     <scopeInfo nodeId="5639900666367180698" fileName="GraphLayout.java" startLine="94" startPosition="34" endLine="97" endPosition="5">
-      <varInfo nodeId="5639900666367180698" varName="edge" />
+      <varInfo nodeId="5639900666367180699" varName="edge" />
     </scopeInfo>
     <scopeInfo nodeId="1265453300920959002" fileName="GraphLayout.java" startLine="97" startPosition="5" endLine="100" endPosition="5">
-      <varInfo nodeId="1265453300920959002" varName="edge" />
+      <varInfo nodeId="1265453300920959003" varName="edge" />
     </scopeInfo>
     <scopeInfo nodeId="3698135283642022718" fileName="GraphLayout.java" startLine="157" startPosition="33" endLine="160" endPosition="5">
-      <varInfo nodeId="3698135283642022718" varName="node" />
+      <varInfo nodeId="3698135283642022719" varName="node" />
     </scopeInfo>
     <scopeInfo nodeId="3698135283642022807" fileName="GraphLayout.java" startLine="160" startPosition="5" endLine="163" endPosition="5">
-      <varInfo nodeId="3698135283642022807" varName="edge" />
+      <varInfo nodeId="3698135283642022808" varName="edge" />
     </scopeInfo>
     <scopeInfo nodeId="3805314409601860818" fileName="GraphLayout.java" startLine="175" startPosition="64" endLine="178" endPosition="44">
       <varInfo nodeId="3805314409601861190" varName="edgeLayout" />
@@ -962,30 +962,30 @@
       <varInfo nodeId="3805314409601860875" varName="rect" />
     </scopeInfo>
     <scopeInfo nodeId="3805314409601860815" fileName="GraphLayout.java" startLine="174" startPosition="5" endLine="179" endPosition="5">
-      <varInfo nodeId="3805314409601860815" varName="edge" />
+      <varInfo nodeId="3805314409601860816" varName="edge" />
     </scopeInfo>
     <scopeInfo nodeId="903391227141129820" fileName="GraphLayout.java" startLine="26" startPosition="0" endLine="32" endPosition="3">
       <varInfo nodeId="903391227141129974" varName="graph" />
     </scopeInfo>
     <scopeInfo nodeId="5639900666367175070" fileName="GraphLayout.java" startLine="94" startPosition="34" endLine="100" endPosition="5" />
     <scopeInfo nodeId="5639900666367310746" fileName="GraphLayout.java" startLine="136" startPosition="33" endLine="142" endPosition="5">
-      <varInfo nodeId="5639900666367310746" varName="rect" />
+      <varInfo nodeId="5639900666367310747" varName="rect" />
     </scopeInfo>
     <scopeInfo nodeId="5639900666367310844" fileName="GraphLayout.java" startLine="143" startPosition="96" endLine="149" endPosition="7" />
     <scopeInfo nodeId="5639900666367310851" fileName="GraphLayout.java" startLine="143" startPosition="96" endLine="149" endPosition="7">
-      <varInfo nodeId="5639900666367310851" varName="p" />
+      <varInfo nodeId="5639900666367310852" varName="p" />
     </scopeInfo>
     <scopeInfo nodeId="3805314409601860768" fileName="GraphLayout.java" startLine="168" startPosition="77" endLine="174" endPosition="5">
-      <varInfo nodeId="3805314409601860768" varName="node" />
+      <varInfo nodeId="3805314409601860769" varName="node" />
     </scopeInfo>
     <scopeInfo nodeId="3805314409601860866" fileName="GraphLayout.java" startLine="179" startPosition="5" endLine="185" endPosition="5">
-      <varInfo nodeId="3805314409601860866" varName="edge" />
+      <varInfo nodeId="3805314409601860867" varName="edge" />
     </scopeInfo>
     <scopeInfo nodeId="1265453300920959137" fileName="GraphLayout.java" startLine="107" startPosition="53" endLine="114" endPosition="7">
       <varInfo nodeId="1265453300920959102" varName="curVer" />
     </scopeInfo>
     <scopeInfo nodeId="5639900666367310841" fileName="GraphLayout.java" startLine="142" startPosition="5" endLine="150" endPosition="5">
-      <varInfo nodeId="5639900666367310841" varName="path" />
+      <varInfo nodeId="5639900666367310842" varName="path" />
     </scopeInfo>
     <scopeInfo nodeId="5639900666367175067" fileName="GraphLayout.java" startLine="93" startPosition="0" endLine="102" endPosition="0" />
     <scopeInfo nodeId="3698135283642022555" fileName="GraphLayout.java" startLine="155" startPosition="28" endLine="164" endPosition="30">

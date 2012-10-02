@@ -65,8 +65,8 @@ public class MedianLayerSorter implements IOneLayerSorter {
     if ((int) ListSequence.fromList(adjNodesOrder).count() == 0) {
       return -1;
     }
-    adjNodesOrder = ListSequence.fromList(adjNodesOrder).sort(new ISelector<Integer, Comparable<?>>() {
-      public Comparable<?> select(Integer it) {
+    adjNodesOrder = ListSequence.fromList(adjNodesOrder).sort(new ISelector<Integer, Integer>() {
+      public Integer select(Integer it) {
         return it;
       }
     }, true).toListSequence();

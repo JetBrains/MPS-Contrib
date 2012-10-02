@@ -106,7 +106,7 @@ public class Generator {
     });
     ListSequence.fromList(SLinkOperations.getTargets(decl, "fakeDeclaration", true)).visitAll(new IVisitor<SNode>() {
       public void visit(SNode it) {
-        SPropertyOperations.set(it, "fake", "" + true);
+        SPropertyOperations.set(it, "fake", "" + (true));
       }
     });
 
@@ -230,13 +230,13 @@ public class Generator {
         }
       }
       if (!(AttributeDeclaration_Behavior.call_isDeprecated_353793545802643819(ad)) && att.isDeprecated()) {
-        SPropertyOperations.set(ad, "deprecated", "" + att.isDeprecated());
+        SPropertyOperations.set(ad, "deprecated", "" + (att.isDeprecated()));
       }
     }
 
     private void createAttribute(SNode decl, ClassInfo.MyAttribute att) {
       SNode attrDecl = Generator.GENERATOR.createAttributeDeclaration(att.getName(), Generator.Builder.getType(att.getType()));
-      SPropertyOperations.set(attrDecl, "deprecated", "" + att.isDeprecated());
+      SPropertyOperations.set(attrDecl, "deprecated", "" + (att.isDeprecated()));
       this.addEnum(attrDecl, att.getEnumValues());
       ListSequence.fromList(SLinkOperations.getTargets(decl, "attributesDecl", true)).addElement(attrDecl);
     }
@@ -308,7 +308,7 @@ public class Generator {
         fake = Generator.GENERATOR.createDeclaration(name, SPropertyOperations.getString(parentDeclaration, "classname"), SPropertyOperations.getBoolean(parentDeclaration, "abstract"), SPropertyOperations.getBoolean(parentDeclaration, "canHaveInternalText"), SPropertyOperations.getBoolean(parentDeclaration, "depracated"));
         SLinkOperations.setTarget(fake, "parentRef", parentRef, true);
       }
-      SPropertyOperations.set(fake, "fake", "" + true);
+      SPropertyOperations.set(fake, "fake", "" + (true));
       ListSequence.fromList(SLinkOperations.getTargets(nref, "role", true)).addElement(Generator.GENERATOR.createDeclarationReference(fake));
       ListSequence.fromList(SLinkOperations.getTargets(declaration, "fakeDeclaration", true)).addElement(fake);
     }
@@ -325,14 +325,14 @@ public class Generator {
         }
         if (SPropertyOperations.getBoolean(decl, "abstract") != ci.isAbstract()) {
           System.out.format("Declaration %s abstract proprety has been set to %b.\n", ci.getDeclarationClass().getName(), ci.isAbstract());
-          SPropertyOperations.set(decl, "abstract", "" + ci.isAbstract());
+          SPropertyOperations.set(decl, "abstract", "" + (ci.isAbstract()));
         }
         if (SPropertyOperations.getBoolean(decl, "canHaveInternalText") != ci.canHaveInternalText()) {
           System.out.format("Declaration %s can have internal name proprety has been set to %b.\n", ci.getDeclarationClass().getName(), ci.canHaveInternalText());
-          SPropertyOperations.set(decl, "canHaveInternalText", "" + ci.canHaveInternalText());
+          SPropertyOperations.set(decl, "canHaveInternalText", "" + (ci.canHaveInternalText()));
         }
         if (!(SPropertyOperations.getBoolean(decl, "depracated")) && ci.isDeprecated()) {
-          SPropertyOperations.set(decl, "depracated", "" + ci.isDeprecated());
+          SPropertyOperations.set(decl, "depracated", "" + (ci.isDeprecated()));
           System.out.format("Declaration %s has been set deprecated.\n", ci.getDeclarationClass().getName());
         }
       }

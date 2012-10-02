@@ -20,6 +20,11 @@ public class IPropertyHolder_Behavior {
     return (List<SNode>) descriptor.invoke(Object.class, SNodeOperations.cast(thisNode, "jetbrains.mps.buildlanguage.structure.IPropertyHolder"), "virtual_getProperties_1213877375726", PARAMETERS_1213877375726, new Object[]{});
   }
 
+  public static List<SNode> callSuperNew_getProperties_1213877375726(SNode thisNode, String callerConceptFqName) {
+    return (List<SNode>) BehaviorManager.getInstance().invokeSuperNew(Object.class, SNodeOperations.cast(thisNode, "jetbrains.mps.buildlanguage.structure.IPropertyHolder"), callerConceptFqName, "virtual_getProperties_1213877375726", PARAMETERS_1213877375726, new Object[]{});
+  }
+
+  @Deprecated
   public static List<SNode> callSuper_getProperties_1213877375726(SNode thisNode, String callerConceptFqName) {
     return (List<SNode>) BehaviorManager.getInstance().invokeSuper(Object.class, SNodeOperations.cast(thisNode, "jetbrains.mps.buildlanguage.structure.IPropertyHolder"), callerConceptFqName, "virtual_getProperties_1213877375726", PARAMETERS_1213877375726, new Object[]{});
   }

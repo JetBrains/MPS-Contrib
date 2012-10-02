@@ -25,10 +25,20 @@ public class IJavaRunConfigurationParameter_Behavior {
     return (SNode) descriptor.invoke(Object.class, SNodeOperations.cast(thisNode, "jetbrains.mps.execution.configurations.deprecated.structure.IJavaRunConfigurationParameter"), "virtual_getParameterType_1810772216404820824", PARAMETERS_1810772216404820824, new Object[]{});
   }
 
+  public static String callSuperNew_getVariableForExecuteBlockName_1810772216404807669(SNode thisNode, String callerConceptFqName) {
+    return (String) BehaviorManager.getInstance().invokeSuperNew(Object.class, SNodeOperations.cast(thisNode, "jetbrains.mps.execution.configurations.deprecated.structure.IJavaRunConfigurationParameter"), callerConceptFqName, "virtual_getVariableForExecuteBlockName_1810772216404807669", PARAMETERS_1810772216404807669, new Object[]{});
+  }
+
+  public static SNode callSuperNew_getParameterType_1810772216404820824(SNode thisNode, String callerConceptFqName) {
+    return (SNode) BehaviorManager.getInstance().invokeSuperNew(Object.class, SNodeOperations.cast(thisNode, "jetbrains.mps.execution.configurations.deprecated.structure.IJavaRunConfigurationParameter"), callerConceptFqName, "virtual_getParameterType_1810772216404820824", PARAMETERS_1810772216404820824, new Object[]{});
+  }
+
+  @Deprecated
   public static String callSuper_getVariableForExecuteBlockName_1810772216404807669(SNode thisNode, String callerConceptFqName) {
     return (String) BehaviorManager.getInstance().invokeSuper(Object.class, SNodeOperations.cast(thisNode, "jetbrains.mps.execution.configurations.deprecated.structure.IJavaRunConfigurationParameter"), callerConceptFqName, "virtual_getVariableForExecuteBlockName_1810772216404807669", PARAMETERS_1810772216404807669, new Object[]{});
   }
 
+  @Deprecated
   public static SNode callSuper_getParameterType_1810772216404820824(SNode thisNode, String callerConceptFqName) {
     return (SNode) BehaviorManager.getInstance().invokeSuper(Object.class, SNodeOperations.cast(thisNode, "jetbrains.mps.execution.configurations.deprecated.structure.IJavaRunConfigurationParameter"), callerConceptFqName, "virtual_getParameterType_1810772216404820824", PARAMETERS_1810772216404820824, new Object[]{});
   }
