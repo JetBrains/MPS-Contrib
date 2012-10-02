@@ -221,6 +221,9 @@
     <scopeInfo nodeId="1202829285111" fileName="DialogDemo.java" startLine="63" startPosition="0" endLine="68" endPosition="0" />
     <scopeInfo nodeId="1202829285111" fileName="DialogDemo.java" startLine="68" startPosition="0" endLine="73" endPosition="0" />
     <scopeInfo nodeId="1202829285111" fileName="DialogDemo.java" startLine="95" startPosition="25" endLine="100" endPosition="5" />
+    <scopeInfo nodeId="1202829285111" fileName="DialogDemo.java" startLine="95" startPosition="25" endLine="100" endPosition="5">
+      <varInfo nodeId="1202829285111" varName="binding" />
+    </scopeInfo>
     <scopeInfo nodeId="1202829285111" fileName="DialogDemo.java" startLine="108" startPosition="41" endLine="113" endPosition="17">
       <varInfo nodeId="1202829285111" varName="c" />
     </scopeInfo>
