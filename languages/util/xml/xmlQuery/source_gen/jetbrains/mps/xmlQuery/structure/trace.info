@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <debugInfo>
-  <unitInfo fileName="XmlQuery_Language.java" startLine="9" startPosition="0" endLine="16" endPosition="0" unitName="jetbrains.mps.xmlQuery.structure.XmlQuery_Language" />
   <unitInfo fileName="StructureAspectDescriptor.java" startLine="10" startPosition="0" endLine="85" endPosition="0" unitName="jetbrains.mps.xmlQuery.structure.StructureAspectDescriptor" />
+  <unitInfo fileName="XmlQuery_Language.java" startLine="9" startPosition="0" endLine="16" endPosition="0" unitName="jetbrains.mps.xmlQuery.structure.XmlQuery_Language" />
   <root nodeId="10026583185341422" modelId="r:bd6e2c7d-3a5d-4eed-9ff9-27f23ecb34e2(jetbrains.mps.xmlQuery.structure)">
     <nodeInfo nodeId="10026583185341422" fileName="TextBuilder.java" startLine="12" startPosition="42" endLine="13" endPosition="86" conceptFqName="jetbrains.mps.baseLanguage.structure.StaticFieldDeclaration" propertyString="concept" />
     <nodeInfo nodeId="10026583185341422" fileName="TextBuilder.java" startLine="13" startPosition="86" endLine="14" endPosition="45" conceptFqName="jetbrains.mps.baseLanguage.structure.StaticFieldDeclaration" propertyString="VALUE" />
@@ -694,41 +694,41 @@
   </root>
   <root nodeId="4635390255048069776" modelId="r:bd6e2c7d-3a5d-4eed-9ff9-27f23ecb34e2(jetbrains.mps.xmlQuery.structure)">
     <nodeInfo nodeId="4635390255048069776" fileName="XMLSAXAttributeHandler.java" startLine="10" startPosition="67" endLine="11" endPosition="97" conceptFqName="jetbrains.mps.baseLanguage.structure.StaticFieldDeclaration" propertyString="concept" />
-    <nodeInfo nodeId="4635390255048078244" fileName="XMLSAXAttributeHandler_value.java" startLine="11" startPosition="76" endLine="12" endPosition="103" conceptFqName="jetbrains.mps.baseLanguage.structure.StaticFieldDeclaration" propertyString="concept" />
     <nodeInfo nodeId="4635390255048069776" fileName="XMLSAXAttributeHandler.java" startLine="13" startPosition="45" endLine="14" endPosition="16" conceptFqName="jetbrains.mps.baseLanguage.structure.SuperConstructorInvocation" />
-    <nodeInfo nodeId="4635390255048078244" fileName="XMLSAXAttributeHandler_value.java" startLine="14" startPosition="51" endLine="15" endPosition="16" conceptFqName="jetbrains.mps.baseLanguage.structure.SuperConstructorInvocation" />
     <nodeInfo nodeId="4635390255048069776" fileName="XMLSAXAttributeHandler.java" startLine="17" startPosition="77" endLine="18" endPosition="190" conceptFqName="jetbrains.mps.baseLanguage.structure.ReturnStatement" />
-    <nodeInfo nodeId="4635390255048078244" fileName="XMLSAXAttributeHandler_value.java" startLine="18" startPosition="83" endLine="19" endPosition="202" conceptFqName="jetbrains.mps.baseLanguage.structure.ReturnStatement" />
     <nodeInfo nodeId="4635390255048069776" fileName="XMLSAXAttributeHandler.java" startLine="21" startPosition="63" endLine="22" endPosition="57" conceptFqName="jetbrains.mps.baseLanguage.structure.ReturnStatement" />
-    <nodeInfo nodeId="4635390255048078244" fileName="XMLSAXAttributeHandler_value.java" startLine="22" startPosition="69" endLine="23" endPosition="63" conceptFqName="jetbrains.mps.baseLanguage.structure.ReturnStatement" />
     <nodeInfo nodeId="4635390255048069776" fileName="XMLSAXAttributeHandler.java" startLine="12" startPosition="0" endLine="15" endPosition="3" conceptFqName="jetbrains.mps.baseLanguage.structure.ConstructorDeclaration" propertyString="XMLSAXAttributeHandler#(Ljetbrains/mps/smodel/SNode;)V" />
-    <nodeInfo nodeId="4635390255048078244" fileName="XMLSAXAttributeHandler_value.java" startLine="13" startPosition="0" endLine="16" endPosition="3" conceptFqName="jetbrains.mps.baseLanguage.structure.ConstructorDeclaration" propertyString="XMLSAXAttributeHandler_value#(Ljetbrains/mps/smodel/SNode;)V" />
     <nodeInfo nodeId="4635390255048069776" fileName="XMLSAXAttributeHandler.java" startLine="16" startPosition="0" endLine="20" endPosition="0" conceptFqName="jetbrains.mps.baseLanguage.structure.StaticMethodDeclaration" propertyString="newInstance#(Ljetbrains/mps/smodel/SModel;Z)Ljetbrains/mps/xmlQuery/structure/XMLSAXAttributeHandler;" />
-    <nodeInfo nodeId="4635390255048078244" fileName="XMLSAXAttributeHandler_value.java" startLine="17" startPosition="0" endLine="21" endPosition="0" conceptFqName="jetbrains.mps.baseLanguage.structure.StaticMethodDeclaration" propertyString="newInstance#(Ljetbrains/mps/smodel/SModel;Z)Ljetbrains/mps/xmlQuery/structure/XMLSAXAttributeHandler_value;" />
     <nodeInfo nodeId="4635390255048069776" fileName="XMLSAXAttributeHandler.java" startLine="20" startPosition="0" endLine="24" endPosition="0" conceptFqName="jetbrains.mps.baseLanguage.structure.StaticMethodDeclaration" propertyString="newInstance#(Ljetbrains/mps/smodel/SModel;)Ljetbrains/mps/xmlQuery/structure/XMLSAXAttributeHandler;" />
+    <nodeInfo nodeId="4635390255048078244" fileName="XMLSAXAttributeHandler_value.java" startLine="11" startPosition="76" endLine="12" endPosition="103" conceptFqName="jetbrains.mps.baseLanguage.structure.StaticFieldDeclaration" propertyString="concept" />
+    <nodeInfo nodeId="4635390255048078244" fileName="XMLSAXAttributeHandler_value.java" startLine="14" startPosition="51" endLine="15" endPosition="16" conceptFqName="jetbrains.mps.baseLanguage.structure.SuperConstructorInvocation" />
+    <nodeInfo nodeId="4635390255048078244" fileName="XMLSAXAttributeHandler_value.java" startLine="18" startPosition="83" endLine="19" endPosition="202" conceptFqName="jetbrains.mps.baseLanguage.structure.ReturnStatement" />
+    <nodeInfo nodeId="4635390255048078244" fileName="XMLSAXAttributeHandler_value.java" startLine="22" startPosition="69" endLine="23" endPosition="63" conceptFqName="jetbrains.mps.baseLanguage.structure.ReturnStatement" />
+    <nodeInfo nodeId="4635390255048078244" fileName="XMLSAXAttributeHandler_value.java" startLine="13" startPosition="0" endLine="16" endPosition="3" conceptFqName="jetbrains.mps.baseLanguage.structure.ConstructorDeclaration" propertyString="XMLSAXAttributeHandler_value#(Ljetbrains/mps/smodel/SNode;)V" />
+    <nodeInfo nodeId="4635390255048078244" fileName="XMLSAXAttributeHandler_value.java" startLine="17" startPosition="0" endLine="21" endPosition="0" conceptFqName="jetbrains.mps.baseLanguage.structure.StaticMethodDeclaration" propertyString="newInstance#(Ljetbrains/mps/smodel/SModel;Z)Ljetbrains/mps/xmlQuery/structure/XMLSAXAttributeHandler_value;" />
     <nodeInfo nodeId="4635390255048078244" fileName="XMLSAXAttributeHandler_value.java" startLine="21" startPosition="0" endLine="25" endPosition="0" conceptFqName="jetbrains.mps.baseLanguage.structure.StaticMethodDeclaration" propertyString="newInstance#(Ljetbrains/mps/smodel/SModel;)Ljetbrains/mps/xmlQuery/structure/XMLSAXAttributeHandler_value;" />
     <scopeInfo nodeId="4635390255048069776" fileName="XMLSAXAttributeHandler.java" startLine="13" startPosition="45" endLine="14" endPosition="16" />
-    <scopeInfo nodeId="4635390255048078244" fileName="XMLSAXAttributeHandler_value.java" startLine="14" startPosition="51" endLine="15" endPosition="16" />
     <scopeInfo nodeId="4635390255048069776" fileName="XMLSAXAttributeHandler.java" startLine="17" startPosition="77" endLine="18" endPosition="190" />
-    <scopeInfo nodeId="4635390255048078244" fileName="XMLSAXAttributeHandler_value.java" startLine="18" startPosition="83" endLine="19" endPosition="202" />
     <scopeInfo nodeId="4635390255048069776" fileName="XMLSAXAttributeHandler.java" startLine="21" startPosition="63" endLine="22" endPosition="57" />
-    <scopeInfo nodeId="4635390255048078244" fileName="XMLSAXAttributeHandler_value.java" startLine="22" startPosition="69" endLine="23" endPosition="63" />
     <scopeInfo nodeId="4635390255048069776" fileName="XMLSAXAttributeHandler.java" startLine="12" startPosition="0" endLine="15" endPosition="3">
       <varInfo nodeId="4635390255048069776" varName="node" />
-    </scopeInfo>
-    <scopeInfo nodeId="4635390255048078244" fileName="XMLSAXAttributeHandler_value.java" startLine="13" startPosition="0" endLine="16" endPosition="3">
-      <varInfo nodeId="4635390255048078244" varName="node" />
     </scopeInfo>
     <scopeInfo nodeId="4635390255048069776" fileName="XMLSAXAttributeHandler.java" startLine="16" startPosition="0" endLine="20" endPosition="0">
       <varInfo nodeId="4635390255048069776" varName="init" />
       <varInfo nodeId="4635390255048069776" varName="sm" />
     </scopeInfo>
+    <scopeInfo nodeId="4635390255048069776" fileName="XMLSAXAttributeHandler.java" startLine="20" startPosition="0" endLine="24" endPosition="0">
+      <varInfo nodeId="4635390255048069776" varName="sm" />
+    </scopeInfo>
+    <scopeInfo nodeId="4635390255048078244" fileName="XMLSAXAttributeHandler_value.java" startLine="14" startPosition="51" endLine="15" endPosition="16" />
+    <scopeInfo nodeId="4635390255048078244" fileName="XMLSAXAttributeHandler_value.java" startLine="18" startPosition="83" endLine="19" endPosition="202" />
+    <scopeInfo nodeId="4635390255048078244" fileName="XMLSAXAttributeHandler_value.java" startLine="22" startPosition="69" endLine="23" endPosition="63" />
+    <scopeInfo nodeId="4635390255048078244" fileName="XMLSAXAttributeHandler_value.java" startLine="13" startPosition="0" endLine="16" endPosition="3">
+      <varInfo nodeId="4635390255048078244" varName="node" />
+    </scopeInfo>
     <scopeInfo nodeId="4635390255048078244" fileName="XMLSAXAttributeHandler_value.java" startLine="17" startPosition="0" endLine="21" endPosition="0">
       <varInfo nodeId="4635390255048078244" varName="init" />
       <varInfo nodeId="4635390255048078244" varName="sm" />
-    </scopeInfo>
-    <scopeInfo nodeId="4635390255048069776" fileName="XMLSAXAttributeHandler.java" startLine="20" startPosition="0" endLine="24" endPosition="0">
-      <varInfo nodeId="4635390255048069776" varName="sm" />
     </scopeInfo>
     <scopeInfo nodeId="4635390255048078244" fileName="XMLSAXAttributeHandler_value.java" startLine="21" startPosition="0" endLine="25" endPosition="0">
       <varInfo nodeId="4635390255048078244" varName="sm" />
@@ -772,41 +772,41 @@
   </root>
   <root nodeId="4635390255048097273" modelId="r:bd6e2c7d-3a5d-4eed-9ff9-27f23ecb34e2(jetbrains.mps.xmlQuery.structure)">
     <nodeInfo nodeId="4635390255048097273" fileName="XMLSAXTextHandler.java" startLine="10" startPosition="62" endLine="11" endPosition="92" conceptFqName="jetbrains.mps.baseLanguage.structure.StaticFieldDeclaration" propertyString="concept" />
-    <nodeInfo nodeId="4635390255048098132" fileName="XMLSAXTextHandler_value.java" startLine="11" startPosition="71" endLine="12" endPosition="98" conceptFqName="jetbrains.mps.baseLanguage.structure.StaticFieldDeclaration" propertyString="concept" />
     <nodeInfo nodeId="4635390255048097273" fileName="XMLSAXTextHandler.java" startLine="13" startPosition="40" endLine="14" endPosition="16" conceptFqName="jetbrains.mps.baseLanguage.structure.SuperConstructorInvocation" />
-    <nodeInfo nodeId="4635390255048098132" fileName="XMLSAXTextHandler_value.java" startLine="14" startPosition="46" endLine="15" endPosition="16" conceptFqName="jetbrains.mps.baseLanguage.structure.SuperConstructorInvocation" />
     <nodeInfo nodeId="4635390255048097273" fileName="XMLSAXTextHandler.java" startLine="17" startPosition="72" endLine="18" endPosition="180" conceptFqName="jetbrains.mps.baseLanguage.structure.ReturnStatement" />
-    <nodeInfo nodeId="4635390255048098132" fileName="XMLSAXTextHandler_value.java" startLine="18" startPosition="78" endLine="19" endPosition="192" conceptFqName="jetbrains.mps.baseLanguage.structure.ReturnStatement" />
     <nodeInfo nodeId="4635390255048097273" fileName="XMLSAXTextHandler.java" startLine="21" startPosition="58" endLine="22" endPosition="52" conceptFqName="jetbrains.mps.baseLanguage.structure.ReturnStatement" />
-    <nodeInfo nodeId="4635390255048098132" fileName="XMLSAXTextHandler_value.java" startLine="22" startPosition="64" endLine="23" endPosition="58" conceptFqName="jetbrains.mps.baseLanguage.structure.ReturnStatement" />
     <nodeInfo nodeId="4635390255048097273" fileName="XMLSAXTextHandler.java" startLine="12" startPosition="0" endLine="15" endPosition="3" conceptFqName="jetbrains.mps.baseLanguage.structure.ConstructorDeclaration" propertyString="XMLSAXTextHandler#(Ljetbrains/mps/smodel/SNode;)V" />
-    <nodeInfo nodeId="4635390255048098132" fileName="XMLSAXTextHandler_value.java" startLine="13" startPosition="0" endLine="16" endPosition="3" conceptFqName="jetbrains.mps.baseLanguage.structure.ConstructorDeclaration" propertyString="XMLSAXTextHandler_value#(Ljetbrains/mps/smodel/SNode;)V" />
     <nodeInfo nodeId="4635390255048097273" fileName="XMLSAXTextHandler.java" startLine="16" startPosition="0" endLine="20" endPosition="0" conceptFqName="jetbrains.mps.baseLanguage.structure.StaticMethodDeclaration" propertyString="newInstance#(Ljetbrains/mps/smodel/SModel;Z)Ljetbrains/mps/xmlQuery/structure/XMLSAXTextHandler;" />
-    <nodeInfo nodeId="4635390255048098132" fileName="XMLSAXTextHandler_value.java" startLine="17" startPosition="0" endLine="21" endPosition="0" conceptFqName="jetbrains.mps.baseLanguage.structure.StaticMethodDeclaration" propertyString="newInstance#(Ljetbrains/mps/smodel/SModel;Z)Ljetbrains/mps/xmlQuery/structure/XMLSAXTextHandler_value;" />
     <nodeInfo nodeId="4635390255048097273" fileName="XMLSAXTextHandler.java" startLine="20" startPosition="0" endLine="24" endPosition="0" conceptFqName="jetbrains.mps.baseLanguage.structure.StaticMethodDeclaration" propertyString="newInstance#(Ljetbrains/mps/smodel/SModel;)Ljetbrains/mps/xmlQuery/structure/XMLSAXTextHandler;" />
+    <nodeInfo nodeId="4635390255048098132" fileName="XMLSAXTextHandler_value.java" startLine="11" startPosition="71" endLine="12" endPosition="98" conceptFqName="jetbrains.mps.baseLanguage.structure.StaticFieldDeclaration" propertyString="concept" />
+    <nodeInfo nodeId="4635390255048098132" fileName="XMLSAXTextHandler_value.java" startLine="14" startPosition="46" endLine="15" endPosition="16" conceptFqName="jetbrains.mps.baseLanguage.structure.SuperConstructorInvocation" />
+    <nodeInfo nodeId="4635390255048098132" fileName="XMLSAXTextHandler_value.java" startLine="18" startPosition="78" endLine="19" endPosition="192" conceptFqName="jetbrains.mps.baseLanguage.structure.ReturnStatement" />
+    <nodeInfo nodeId="4635390255048098132" fileName="XMLSAXTextHandler_value.java" startLine="22" startPosition="64" endLine="23" endPosition="58" conceptFqName="jetbrains.mps.baseLanguage.structure.ReturnStatement" />
+    <nodeInfo nodeId="4635390255048098132" fileName="XMLSAXTextHandler_value.java" startLine="13" startPosition="0" endLine="16" endPosition="3" conceptFqName="jetbrains.mps.baseLanguage.structure.ConstructorDeclaration" propertyString="XMLSAXTextHandler_value#(Ljetbrains/mps/smodel/SNode;)V" />
+    <nodeInfo nodeId="4635390255048098132" fileName="XMLSAXTextHandler_value.java" startLine="17" startPosition="0" endLine="21" endPosition="0" conceptFqName="jetbrains.mps.baseLanguage.structure.StaticMethodDeclaration" propertyString="newInstance#(Ljetbrains/mps/smodel/SModel;Z)Ljetbrains/mps/xmlQuery/structure/XMLSAXTextHandler_value;" />
     <nodeInfo nodeId="4635390255048098132" fileName="XMLSAXTextHandler_value.java" startLine="21" startPosition="0" endLine="25" endPosition="0" conceptFqName="jetbrains.mps.baseLanguage.structure.StaticMethodDeclaration" propertyString="newInstance#(Ljetbrains/mps/smodel/SModel;)Ljetbrains/mps/xmlQuery/structure/XMLSAXTextHandler_value;" />
     <scopeInfo nodeId="4635390255048097273" fileName="XMLSAXTextHandler.java" startLine="13" startPosition="40" endLine="14" endPosition="16" />
-    <scopeInfo nodeId="4635390255048098132" fileName="XMLSAXTextHandler_value.java" startLine="14" startPosition="46" endLine="15" endPosition="16" />
     <scopeInfo nodeId="4635390255048097273" fileName="XMLSAXTextHandler.java" startLine="17" startPosition="72" endLine="18" endPosition="180" />
-    <scopeInfo nodeId="4635390255048098132" fileName="XMLSAXTextHandler_value.java" startLine="18" startPosition="78" endLine="19" endPosition="192" />
     <scopeInfo nodeId="4635390255048097273" fileName="XMLSAXTextHandler.java" startLine="21" startPosition="58" endLine="22" endPosition="52" />
-    <scopeInfo nodeId="4635390255048098132" fileName="XMLSAXTextHandler_value.java" startLine="22" startPosition="64" endLine="23" endPosition="58" />
     <scopeInfo nodeId="4635390255048097273" fileName="XMLSAXTextHandler.java" startLine="12" startPosition="0" endLine="15" endPosition="3">
       <varInfo nodeId="4635390255048097273" varName="node" />
-    </scopeInfo>
-    <scopeInfo nodeId="4635390255048098132" fileName="XMLSAXTextHandler_value.java" startLine="13" startPosition="0" endLine="16" endPosition="3">
-      <varInfo nodeId="4635390255048098132" varName="node" />
     </scopeInfo>
     <scopeInfo nodeId="4635390255048097273" fileName="XMLSAXTextHandler.java" startLine="16" startPosition="0" endLine="20" endPosition="0">
       <varInfo nodeId="4635390255048097273" varName="init" />
       <varInfo nodeId="4635390255048097273" varName="sm" />
     </scopeInfo>
+    <scopeInfo nodeId="4635390255048097273" fileName="XMLSAXTextHandler.java" startLine="20" startPosition="0" endLine="24" endPosition="0">
+      <varInfo nodeId="4635390255048097273" varName="sm" />
+    </scopeInfo>
+    <scopeInfo nodeId="4635390255048098132" fileName="XMLSAXTextHandler_value.java" startLine="14" startPosition="46" endLine="15" endPosition="16" />
+    <scopeInfo nodeId="4635390255048098132" fileName="XMLSAXTextHandler_value.java" startLine="18" startPosition="78" endLine="19" endPosition="192" />
+    <scopeInfo nodeId="4635390255048098132" fileName="XMLSAXTextHandler_value.java" startLine="22" startPosition="64" endLine="23" endPosition="58" />
+    <scopeInfo nodeId="4635390255048098132" fileName="XMLSAXTextHandler_value.java" startLine="13" startPosition="0" endLine="16" endPosition="3">
+      <varInfo nodeId="4635390255048098132" varName="node" />
+    </scopeInfo>
     <scopeInfo nodeId="4635390255048098132" fileName="XMLSAXTextHandler_value.java" startLine="17" startPosition="0" endLine="21" endPosition="0">
       <varInfo nodeId="4635390255048098132" varName="init" />
       <varInfo nodeId="4635390255048098132" varName="sm" />
-    </scopeInfo>
-    <scopeInfo nodeId="4635390255048097273" fileName="XMLSAXTextHandler.java" startLine="20" startPosition="0" endLine="24" endPosition="0">
-      <varInfo nodeId="4635390255048097273" varName="sm" />
     </scopeInfo>
     <scopeInfo nodeId="4635390255048098132" fileName="XMLSAXTextHandler_value.java" startLine="21" startPosition="0" endLine="25" endPosition="0">
       <varInfo nodeId="4635390255048098132" varName="sm" />
