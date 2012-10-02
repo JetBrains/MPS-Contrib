@@ -20,6 +20,11 @@ public class GCompositeItem_Behavior {
     return (List<SNode>) descriptor.invoke(Object.class, SNodeOperations.cast(thisNode, "jetbrains.mps.gtext.structure.GCompositeItem"), "virtual_getItems_1239125087745", PARAMETERS_1239125087745, new Object[]{});
   }
 
+  public static List<SNode> callSuperNew_getItems_1239125087745(SNode thisNode, String callerConceptFqName) {
+    return (List<SNode>) BehaviorManager.getInstance().invokeSuperNew(Object.class, SNodeOperations.cast(thisNode, "jetbrains.mps.gtext.structure.GCompositeItem"), callerConceptFqName, "virtual_getItems_1239125087745", PARAMETERS_1239125087745, new Object[]{});
+  }
+
+  @Deprecated
   public static List<SNode> callSuper_getItems_1239125087745(SNode thisNode, String callerConceptFqName) {
     return (List<SNode>) BehaviorManager.getInstance().invokeSuper(Object.class, SNodeOperations.cast(thisNode, "jetbrains.mps.gtext.structure.GCompositeItem"), callerConceptFqName, "virtual_getItems_1239125087745", PARAMETERS_1239125087745, new Object[]{});
   }

@@ -19,6 +19,7 @@
   </dependency>
   <dependency className="jetbrains.mps.buildlanguage.behavior.AbstractImportProperties_Behavior" file="AbstractImportProperties_Behavior.java">
     <classNode dependClassName="java.lang.Class" />
+    <classNode dependClassName="java.lang.Deprecated" />
     <classNode dependClassName="java.lang.Object" />
     <classNode dependClassName="java.lang.String" />
     <classNode dependClassName="java.util.ArrayList" />
@@ -83,6 +84,7 @@
   </dependency>
   <dependency className="jetbrains.mps.buildlanguage.behavior.BinaryOperation_Behavior" file="BinaryOperation_Behavior.java">
     <classNode dependClassName="java.lang.Class" />
+    <classNode dependClassName="java.lang.Deprecated" />
     <classNode dependClassName="java.lang.Object" />
     <classNode dependClassName="java.lang.String" />
     <classNode dependClassName="jetbrains.mps.lang.smodel.generator.smodelAdapter.SNodeOperations" />
@@ -191,6 +193,7 @@
   <dependency className="jetbrains.mps.buildlanguage.behavior.IDeclaration_Behavior" file="IDeclaration_Behavior.java">
     <classNode dependClassName="java.lang.Boolean" />
     <classNode dependClassName="java.lang.Class" />
+    <classNode dependClassName="java.lang.Deprecated" />
     <classNode dependClassName="java.lang.Object" />
     <classNode dependClassName="java.lang.String" />
     <classNode dependClassName="java.util.List" />
@@ -213,6 +216,7 @@
   </dependency>
   <dependency className="jetbrains.mps.buildlanguage.behavior.IPropertyHolder_Behavior" file="IPropertyHolder_Behavior.java">
     <classNode dependClassName="java.lang.Class" />
+    <classNode dependClassName="java.lang.Deprecated" />
     <classNode dependClassName="java.lang.Object" />
     <classNode dependClassName="java.lang.String" />
     <classNode dependClassName="java.util.List" />
@@ -228,6 +232,7 @@
   </dependency>
   <dependency className="jetbrains.mps.buildlanguage.behavior.ISource_Behavior" file="ISource_Behavior.java">
     <classNode dependClassName="java.lang.Class" />
+    <classNode dependClassName="java.lang.Deprecated" />
     <classNode dependClassName="java.lang.Object" />
     <classNode dependClassName="java.lang.String" />
     <classNode dependClassName="java.util.List" />
@@ -244,6 +249,7 @@
   </dependency>
   <dependency className="jetbrains.mps.buildlanguage.behavior.ITargetReference_Behavior" file="ITargetReference_Behavior.java">
     <classNode dependClassName="java.lang.Class" />
+    <classNode dependClassName="java.lang.Deprecated" />
     <classNode dependClassName="java.lang.Object" />
     <classNode dependClassName="java.lang.String" />
     <classNode dependClassName="jetbrains.mps.lang.smodel.generator.smodelAdapter.SNodeOperations" />
@@ -412,6 +418,7 @@
   </dependency>
   <dependency className="jetbrains.mps.buildlanguage.behavior.PropertyValueExpression_Behavior" file="PropertyValueExpression_Behavior.java">
     <classNode dependClassName="java.lang.Class" />
+    <classNode dependClassName="java.lang.Deprecated" />
     <classNode dependClassName="java.lang.Object" />
     <classNode dependClassName="java.lang.String" />
     <classNode dependClassName="java.util.ArrayList" />

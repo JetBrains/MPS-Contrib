@@ -590,7 +590,7 @@
     <scopeInfo nodeId="4631964019510578235" fileName="BaseRunner.java" startLine="137" startPosition="63" endLine="142" endPosition="5" />
     <scopeInfo nodeId="1240470842553275541" fileName="BaseRunner.java" startLine="156" startPosition="27" endLine="161" endPosition="9" />
     <scopeInfo nodeId="4631964019510578211" fileName="BaseRunner.java" startLine="198" startPosition="40" endLine="203" endPosition="5">
-      <varInfo nodeId="4631964019510578211" varName="javaHome" />
+      <varInfo nodeId="4631964019510578212" varName="javaHome" />
     </scopeInfo>
     <scopeInfo nodeId="4631964019510577879" fileName="BaseRunner.java" startLine="82" startPosition="98" endLine="88" endPosition="10">
       <varInfo nodeId="4631964019510577881" varName="paramList" />

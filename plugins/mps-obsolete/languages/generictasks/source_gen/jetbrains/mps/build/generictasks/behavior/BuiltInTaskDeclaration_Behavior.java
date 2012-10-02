@@ -87,7 +87,7 @@ public class BuiltInTaskDeclaration_Behavior {
       }
       return false;
     }
-    if (IDeclaration_Behavior.callSuper_isHeirOf_5699548131010535069(thisNode, "jetbrains.mps.build.generictasks.structure.BuiltInTaskDeclaration", probableParent)) {
+    if (IDeclaration_Behavior.callSuperNew_isHeirOf_5699548131010535069(thisNode, "jetbrains.mps.build.generictasks.structure.ITaskDeclaration", probableParent)) {
       return true;
     }
     if (SNodeOperations.isInstanceOf(probableParent, "jetbrains.mps.build.generictasks.structure.TaskInterfaceDeclaration")) {
@@ -105,15 +105,15 @@ public class BuiltInTaskDeclaration_Behavior {
   }
 
   public static boolean virtual_canBeRootTask_1449762848926780427(SNode thisNode) {
-    return ITaskDeclaration_Behavior.callSuper_canBeRootTask_1449762848926780427(thisNode, "jetbrains.mps.build.generictasks.structure.BuiltInTaskDeclaration") && !(SPropertyOperations.getBoolean(thisNode, "fake"));
+    return ITaskDeclaration_Behavior.callSuperNew_canBeRootTask_1449762848926780427(thisNode, "jetbrains.mps.build.generictasks.structure.ITaskDeclaration") && !(SPropertyOperations.getBoolean(thisNode, "fake"));
   }
 
   public static Iterable<SNode> virtual_getPossibleNesteds_1449762848926780436(SNode thisNode, List<SNode> declarations) {
-    return Sequence.fromIterable(ITaskDeclaration_Behavior.callSuper_getPossibleNesteds_1449762848926780436(thisNode, "jetbrains.mps.build.generictasks.structure.BuiltInTaskDeclaration", declarations)).union(ListSequence.fromList(BuiltInTaskDeclaration_Behavior.call_getFakeDeclarations_353793545802644200(thisNode)));
+    return Sequence.fromIterable(ITaskDeclaration_Behavior.callSuperNew_getPossibleNesteds_1449762848926780436(thisNode, "jetbrains.mps.build.generictasks.structure.ITaskDeclaration", declarations)).union(ListSequence.fromList(BuiltInTaskDeclaration_Behavior.call_getFakeDeclarations_353793545802644200(thisNode)));
   }
 
   public static boolean virtual_isPossibleNested_1648602681640249389(SNode thisNode, SNode declaration, List<SNode> nestedTasks) {
-    return ITaskDeclaration_Behavior.callSuper_isPossibleNested_1648602681640249389(thisNode, "jetbrains.mps.build.generictasks.structure.BuiltInTaskDeclaration", declaration, nestedTasks) || ListSequence.fromList(BuiltInTaskDeclaration_Behavior.call_getFakeDeclarations_353793545802644200(thisNode)).contains(declaration);
+    return ITaskDeclaration_Behavior.callSuperNew_isPossibleNested_1648602681640249389(thisNode, "jetbrains.mps.build.generictasks.structure.ITaskDeclaration", declaration, nestedTasks) || ListSequence.fromList(BuiltInTaskDeclaration_Behavior.call_getFakeDeclarations_353793545802644200(thisNode)).contains(declaration);
   }
 
   public static boolean virtual_filterMeOut_4710899751214010949(SNode thisNode) {

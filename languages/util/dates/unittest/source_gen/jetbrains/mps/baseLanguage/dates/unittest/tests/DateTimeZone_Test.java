@@ -20,17 +20,17 @@ public class DateTimeZone_Test extends BaseTestCase {
 
   public void test_londonAndMoscowFullTime() throws Exception {
     Long current = System.currentTimeMillis();
-    Assert.assertFalse((DateTimeOperations.print(current, DateTimeFormat.fullTime(), new Locale("ru", "RU", ""), DateTimeZone.forID("Europe/London"))).equals(DateTimeOperations.print((DateTimeArithmetics.minus(current, Period.hours(3))), DateTimeFormat.fullTime(), new Locale("ru", "RU", ""), DateTimeZone.forID("Europe/Moscow"))));
+    Assert.assertFalse((DateTimeOperations.print(current, DateTimeFormat.fullTime(), new Locale("ru", "RU", ""), DateTimeZone.forID("Europe/London"))).equals(DateTimeOperations.print(DateTimeArithmetics.minus(current, (Period.hours(3))), DateTimeFormat.fullTime(), new Locale("ru", "RU", ""), DateTimeZone.forID("Europe/Moscow"))));
   }
 
   public void test_westernHemisphereTime() throws Exception {
     Long yesterday = DateTimeOperations.convert((new DateTime(2009, 7, 23, 13, 18, 20, 0, DateTimeZone.forID("UTC"))));
-    Assert.assertEquals(DateTimeOperations.print(yesterday, DateTimeFormat.shortTime(), null, DateTimeZone.forID("America/New_York")), DateTimeOperations.print((DateTimeArithmetics.minus(yesterday, Period.hours(11))), DateTimeFormat.shortTime(), null, DateTimeZone.forID("Asia/Bangkok")));
+    Assert.assertEquals(DateTimeOperations.print(yesterday, DateTimeFormat.shortTime(), null, DateTimeZone.forID("America/New_York")), DateTimeOperations.print(DateTimeArithmetics.minus(yesterday, (Period.hours(11))), DateTimeFormat.shortTime(), null, DateTimeZone.forID("Asia/Bangkok")));
   }
 
   public void test_westernHemisphereDate() throws Exception {
     Long yesterday = DateTimeOperations.convert((new DateTime(2009, 7, 23, 13, 18, 20, 0, DateTimeZone.forID("UTC"))));
-    Assert.assertFalse((DateTimeOperations.print(yesterday, DateTimeFormat.fullDate(), Locale.US, DateTimeZone.forID("America/New_York"))).equals(DateTimeOperations.print((DateTimeArithmetics.plus(yesterday, Period.hours(22))), DateTimeFormat.fullDate(), Locale.US, DateTimeZone.forID("Asia/Bangkok"))));
+    Assert.assertFalse((DateTimeOperations.print(yesterday, DateTimeFormat.fullDate(), Locale.US, DateTimeZone.forID("America/New_York"))).equals(DateTimeOperations.print(DateTimeArithmetics.plus(yesterday, (Period.hours(22))), DateTimeFormat.fullDate(), Locale.US, DateTimeZone.forID("Asia/Bangkok"))));
   }
 
   public void test_timeZoneFromVariable() throws Exception {

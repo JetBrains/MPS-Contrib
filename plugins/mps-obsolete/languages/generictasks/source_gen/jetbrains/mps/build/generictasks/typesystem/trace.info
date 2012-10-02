@@ -182,7 +182,7 @@
     </scopeInfo>
     <scopeInfo nodeId="353793545802854719" fileName="checkParentsOfInterfaceAreInterfaces_NonTypesystemRule.java" startLine="23" startPosition="140" endLine="31" endPosition="5" />
     <scopeInfo nodeId="353793545802854720" fileName="checkParentsOfInterfaceAreInterfaces_NonTypesystemRule.java" startLine="23" startPosition="140" endLine="31" endPosition="5">
-      <varInfo nodeId="353793545802854720" varName="parent" />
+      <varInfo nodeId="353793545802854721" varName="parent" />
     </scopeInfo>
     <scopeInfo nodeId="353793545802854718" fileName="checkParentsOfInterfaceAreInterfaces_NonTypesystemRule.java" startLine="22" startPosition="0" endLine="33" endPosition="0">
       <varInfo nodeId="353793545802854718" varName="genericInterfaceDeclaration" />
@@ -280,7 +280,7 @@
       <varInfo nodeId="353793545802854795" varName="argument" />
     </scopeInfo>
     <scopeInfo nodeId="353793545802854814" fileName="checkAllRequiredAttributesPresent_NonTypesystemRule.java" startLine="27" startPosition="30" endLine="35" endPosition="9">
-      <varInfo nodeId="353793545802854814" varName="attr" />
+      <varInfo nodeId="353793545802854815" varName="attr" />
     </scopeInfo>
     <scopeInfo nodeId="353793545802854809" fileName="checkAllRequiredAttributesPresent_NonTypesystemRule.java" startLine="26" startPosition="87" endLine="42" endPosition="9">
       <varInfo nodeId="353793545802854811" varName="found" />
@@ -288,7 +288,7 @@
     <scopeInfo nodeId="353793545802854804" fileName="checkAllRequiredAttributesPresent_NonTypesystemRule.java" startLine="25" startPosition="194" endLine="43" endPosition="7" />
     <scopeInfo nodeId="353793545802854796" fileName="checkAllRequiredAttributesPresent_NonTypesystemRule.java" startLine="24" startPosition="128" endLine="44" endPosition="5" />
     <scopeInfo nodeId="353793545802854797" fileName="checkAllRequiredAttributesPresent_NonTypesystemRule.java" startLine="24" startPosition="128" endLine="44" endPosition="5">
-      <varInfo nodeId="353793545802854797" varName="attrDecl" />
+      <varInfo nodeId="353793545802854798" varName="attrDecl" />
     </scopeInfo>
     <scopeInfo nodeId="353793545802854795" fileName="checkAllRequiredAttributesPresent_NonTypesystemRule.java" startLine="23" startPosition="0" endLine="46" endPosition="0">
       <varInfo nodeId="353793545802854795" varName="genericTaskCall" />

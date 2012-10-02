@@ -118,21 +118,21 @@
       <varInfo nodeId="2581841087371093116" varName="it" />
     </scopeInfo>
     <scopeInfo nodeId="2581841087371093155" fileName="ScriptsUtil.java" startLine="44" startPosition="62" endLine="49" endPosition="7">
-      <varInfo nodeId="2581841087371093155" varName="ref" />
+      <varInfo nodeId="2581841087371093156" varName="ref" />
     </scopeInfo>
     <scopeInfo nodeId="2182799002613251017" fileName="ScriptsUtil.java" startLine="59" startPosition="176" endLine="64" endPosition="11" />
     <scopeInfo nodeId="2581841087371093146" fileName="ScriptsUtil.java" startLine="43" startPosition="117" endLine="49" endPosition="7">
       <varInfo nodeId="2581841087371093148" varName="references" />
     </scopeInfo>
     <scopeInfo nodeId="2581841087371093140" fileName="ScriptsUtil.java" startLine="42" startPosition="76" endLine="50" endPosition="5">
-      <varInfo nodeId="2581841087371093140" varName="chileNode" />
+      <varInfo nodeId="2581841087371093141" varName="chileNode" />
     </scopeInfo>
     <scopeInfo nodeId="2182799002613251015" fileName="ScriptsUtil.java" startLine="57" startPosition="64" endLine="65" endPosition="9">
       <varInfo nodeId="2182799002613251872" varName="resolveInfo" />
     </scopeInfo>
     <scopeInfo nodeId="2581841087371073730" fileName="ScriptsUtil.java" startLine="22" startPosition="102" endLine="31" endPosition="7" />
     <scopeInfo nodeId="2182799002613251012" fileName="ScriptsUtil.java" startLine="56" startPosition="62" endLine="66" endPosition="7">
-      <varInfo nodeId="2182799002613251012" varName="ref" />
+      <varInfo nodeId="2182799002613251013" varName="ref" />
     </scopeInfo>
     <scopeInfo nodeId="2182799002613251003" fileName="ScriptsUtil.java" startLine="55" startPosition="117" endLine="66" endPosition="7">
       <varInfo nodeId="2182799002613251005" varName="references" />
@@ -142,7 +142,7 @@
       <varInfo nodeId="2581841087371092304" varName="model" />
     </scopeInfo>
     <scopeInfo nodeId="2182799002613250997" fileName="ScriptsUtil.java" startLine="54" startPosition="26" endLine="67" endPosition="5">
-      <varInfo nodeId="2182799002613250997" varName="childNode" />
+      <varInfo nodeId="2182799002613250998" varName="childNode" />
     </scopeInfo>
     <scopeInfo nodeId="2581841087371093095" fileName="ScriptsUtil.java" startLine="34" startPosition="116" endLine="50" endPosition="5">
       <varInfo nodeId="2581841087371093102" varName="imports" />

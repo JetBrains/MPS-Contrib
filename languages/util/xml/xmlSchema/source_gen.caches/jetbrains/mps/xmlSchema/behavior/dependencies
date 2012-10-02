@@ -158,6 +158,7 @@
   <dependency className="jetbrains.mps.xmlSchema.behavior.ContentItem_Behavior" file="ContentItem_Behavior.java">
     <classNode dependClassName="java.lang.Boolean" />
     <classNode dependClassName="java.lang.Class" />
+    <classNode dependClassName="java.lang.Deprecated" />
     <classNode dependClassName="java.lang.Object" />
     <classNode dependClassName="java.lang.String" />
     <classNode dependClassName="java.util.List" />
@@ -198,6 +199,7 @@
   </dependency>
   <dependency className="jetbrains.mps.xmlSchema.behavior.ElementDeclaration_Behavior" file="ElementDeclaration_Behavior.java">
     <classNode dependClassName="java.lang.Class" />
+    <classNode dependClassName="java.lang.Deprecated" />
     <classNode dependClassName="java.lang.Object" />
     <classNode dependClassName="java.lang.String" />
     <classNode dependClassName="java.util.ArrayList" />
@@ -464,6 +466,7 @@
   <dependency className="jetbrains.mps.xmlSchema.behavior.TypeExpression_Behavior" file="TypeExpression_Behavior.java">
     <classNode dependClassName="java.lang.Boolean" />
     <classNode dependClassName="java.lang.Class" />
+    <classNode dependClassName="java.lang.Deprecated" />
     <classNode dependClassName="java.lang.Object" />
     <classNode dependClassName="java.lang.String" />
     <classNode dependClassName="java.util.List" />

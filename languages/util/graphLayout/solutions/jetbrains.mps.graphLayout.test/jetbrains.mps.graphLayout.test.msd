@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <solution name="jetbrains.mps.graphLayout.test" uuid="1cf9ab03-28e6-49cc-b765-555cd6dcfc28" compileInMPS="true">
   <models>
-    <modelRoot path="${solution_descriptor}/" />
+    <modelRoot path="${module}/" />
   </models>
   <sourcePath />
   <dependencies>
