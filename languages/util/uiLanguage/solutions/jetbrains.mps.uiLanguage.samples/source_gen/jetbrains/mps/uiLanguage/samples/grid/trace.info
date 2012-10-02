@@ -105,9 +105,6 @@
     <scopeInfo nodeId="1202823852897" fileName="GridDemo.java" startLine="47" startPosition="0" endLine="52" endPosition="0" />
     <scopeInfo nodeId="1202823852897" fileName="GridDemo.java" startLine="52" startPosition="0" endLine="57" endPosition="0" />
     <scopeInfo nodeId="1202823852897" fileName="GridDemo.java" startLine="61" startPosition="25" endLine="66" endPosition="5" />
-    <scopeInfo nodeId="1202823852897" fileName="GridDemo.java" startLine="61" startPosition="25" endLine="66" endPosition="5">
-      <varInfo nodeId="1202823852897" varName="binding" />
-    </scopeInfo>
     <scopeInfo nodeId="1202823852897" fileName="GridDemo.java" startLine="95" startPosition="0" endLine="101" endPosition="0" />
     <scopeInfo nodeId="1202823852897" fileName="GridDemo.java" startLine="34" startPosition="21" endLine="41" endPosition="31">
       <varInfo nodeId="1202823852897" varName="component" />
