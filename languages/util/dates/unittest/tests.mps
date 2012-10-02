@@ -4002,7 +4002,6 @@
           </node>
           <node role="statement" roleId="tpee.1068581517665" type="tpe3.AssertEquals" typeId="tpe3.1171978097730" id="1238681502819">
             <node role="actual" roleId="tpe3.8427750732757990725" type="tp6x.FormatExpression" typeId="tp6x.1169557513226" id="1238681563415">
-              <link role="zone" roleId="tp6x.1239015930559" targetNodeId="tp6y.1238675442422" resolveInfo="MOSCOW" />
               <link role="dateFormat" roleId="tp6x.1169557643590" targetNodeId="tp6y.1173884323756" resolveInfo="shortTime" />
               <link role="locale" roleId="tp6x.1238661857677" targetNodeId="tp6y.1172681496091" resolveInfo="RU" />
               <node role="dateExpression" roleId="tp6x.1169557612323" type="tpee.ParenthesizedExpression" typeId="tpee.1079359253375" id="1238681557692">
@@ -4023,7 +4022,6 @@
               </node>
             </node>
             <node role="expected" roleId="tpe3.8427750732757990724" type="tp6x.FormatExpression" typeId="tp6x.1169557513226" id="1238681508823">
-              <link role="zone" roleId="tp6x.1239015930559" targetNodeId="tp6y.1238676682406" resolveInfo="TOKYO" />
               <link role="dateFormat" roleId="tp6x.1169557643590" targetNodeId="tp6y.1173884323756" resolveInfo="shortTime" />
               <link role="locale" roleId="tp6x.1238661857677" targetNodeId="tp6y.1172681496091" resolveInfo="RU" />
               <node role="dateExpression" roleId="tp6x.1169557612323" type="tpee.LocalVariableReference" typeId="tpee.1068581242866" id="1238681508824">
@@ -4052,7 +4050,6 @@
               <node role="operand" roleId="tpee.1197027771414" type="tpee.ParenthesizedExpression" typeId="tpee.1079359253375" id="1238681884762">
                 <node role="expression" roleId="tpee.1079359253376" type="tp6x.FormatExpression" typeId="tp6x.1169557513226" id="1238681884763">
                   <link role="locale" roleId="tp6x.1238661857677" targetNodeId="tp6y.1172681496091" resolveInfo="RU" />
-                  <link role="zone" roleId="tp6x.1239015930559" targetNodeId="tp6y.1238676682406" resolveInfo="TOKYO" />
                   <link role="dateFormat" roleId="tp6x.1169557643590" targetNodeId="tp6y.1173884489979" resolveInfo="fullTime" />
                   <node role="dateExpression" roleId="tp6x.1169557612323" type="tpee.LocalVariableReference" typeId="tpee.1068581242866" id="1238681884764">
                     <link role="variableDeclaration" roleId="tpee.1068581517664" targetNodeId="1238681853229" resolveInfo="current" />
@@ -4066,7 +4063,6 @@
                 <link role="baseMethodDeclaration" roleId="tpee.1068499141037" targetNodeId="e2lb.~String%dequals(java%dlang%dObject)%cboolean" resolveInfo="equals" />
                 <node role="actualArgument" roleId="tpee.1068499141038" type="tp6x.FormatExpression" typeId="tp6x.1169557513226" id="1238681916600">
                   <link role="locale" roleId="tp6x.1238661857677" targetNodeId="tp6y.1172681496091" resolveInfo="RU" />
-                  <link role="zone" roleId="tp6x.1239015930559" targetNodeId="tp6y.1238675442422" resolveInfo="MOSCOW" />
                   <link role="dateFormat" roleId="tp6x.1169557643590" targetNodeId="tp6y.1173884489979" resolveInfo="fullTime" />
                   <node role="dateExpression" roleId="tp6x.1169557612323" type="tpee.ParenthesizedExpression" typeId="tpee.1079359253375" id="1238681916601">
                     <node role="expression" roleId="tpee.1079359253376" type="tpee.MinusExpression" typeId="tpee.1068581242869" id="1239359466497">
@@ -4118,7 +4114,6 @@
           </node>
           <node role="statement" roleId="tpee.1068581517665" type="tpe3.AssertEquals" typeId="tpe3.1171978097730" id="1238683493368">
             <node role="expected" roleId="tpe3.8427750732757990724" type="tp6x.FormatExpression" typeId="tp6x.1169557513226" id="1238683692932">
-              <link role="zone" roleId="tp6x.1239015930559" targetNodeId="tp6y.1238676062546" resolveInfo="NEWYORK" />
               <link role="dateFormat" roleId="tp6x.1169557643590" targetNodeId="tp6y.1173884323756" resolveInfo="shortTime" />
               <node role="dateExpression" roleId="tp6x.1169557612323" type="tpee.LocalVariableReference" typeId="tpee.1068581242866" id="1238683687696">
                 <link role="variableDeclaration" roleId="tpee.1068581517664" targetNodeId="1238683391695" resolveInfo="yesterday" />
@@ -4128,7 +4123,6 @@
               </node>
             </node>
             <node role="actual" roleId="tpe3.8427750732757990725" type="tp6x.FormatExpression" typeId="tp6x.1169557513226" id="1238683752926">
-              <link role="zone" roleId="tp6x.1239015930559" targetNodeId="tp6y.1238676634201" resolveInfo="BANGKOK" />
               <link role="dateFormat" roleId="tp6x.1169557643590" targetNodeId="tp6y.1173884323756" resolveInfo="shortTime" />
               <node role="dateExpression" roleId="tp6x.1169557612323" type="tpee.ParenthesizedExpression" typeId="tpee.1079359253375" id="1238683836920">
                 <node role="expression" roleId="tpee.1079359253376" type="tpee.MinusExpression" typeId="tpee.1068581242869" id="1239359848455">
@@ -4180,7 +4174,6 @@
             <node role="condition" roleId="tpe3.1171983854940" type="tpee.DotExpression" typeId="tpee.1197027756228" id="1238684186339">
               <node role="operand" roleId="tpee.1197027771414" type="tpee.ParenthesizedExpression" typeId="tpee.1079359253375" id="1238684183352">
                 <node role="expression" roleId="tpee.1079359253376" type="tp6x.FormatExpression" typeId="tp6x.1169557513226" id="1238684183353">
-                  <link role="zone" roleId="tp6x.1239015930559" targetNodeId="tp6y.1238676062546" resolveInfo="NEWYORK" />
                   <link role="locale" roleId="tp6x.1238661857677" targetNodeId="tp6y.1172681410396" resolveInfo="US" />
                   <link role="dateFormat" roleId="tp6x.1169557643590" targetNodeId="tp6y.1173884354722" resolveInfo="fullDate" />
                   <node role="dateExpression" roleId="tp6x.1169557612323" type="tpee.LocalVariableReference" typeId="tpee.1068581242866" id="1238684183354">
@@ -4194,7 +4187,6 @@
               <node role="operation" roleId="tpee.1197027833540" type="tpee.InstanceMethodCallOperation" typeId="tpee.1202948039474" id="1238684187653">
                 <link role="baseMethodDeclaration" roleId="tpee.1068499141037" targetNodeId="e2lb.~String%dequals(java%dlang%dObject)%cboolean" resolveInfo="equals" />
                 <node role="actualArgument" roleId="tpee.1068499141038" type="tp6x.FormatExpression" typeId="tp6x.1169557513226" id="1238684191436">
-                  <link role="zone" roleId="tp6x.1239015930559" targetNodeId="tp6y.1238676634201" resolveInfo="BANGKOK" />
                   <link role="dateFormat" roleId="tp6x.1169557643590" targetNodeId="tp6y.1173884354722" resolveInfo="fullDate" />
                   <link role="locale" roleId="tp6x.1238661857677" targetNodeId="tp6y.1172681410396" resolveInfo="US" />
                   <node role="dateExpression" roleId="tp6x.1169557612323" type="tpee.ParenthesizedExpression" typeId="tpee.1079359253375" id="1238684191437">

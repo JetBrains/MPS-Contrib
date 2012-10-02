@@ -458,7 +458,7 @@ public class Generator {
         {
           quotedNode_1 = SModelUtil_new.instantiateConceptDeclaration("jetbrains.mps.build.generictasks.structure.NestedDeclaration", null, GlobalScope.getInstance(), false);
           SNode quotedNode1_2 = quotedNode_1;
-          quotedNode1_2.setReferent("declaration", (SNode) parameter_3);
+          quotedNode1_2.setReferenceTarget("declaration", (SNode) parameter_3);
           result = quotedNode1_2;
         }
         return result;
