@@ -93,7 +93,7 @@ public class ElementBuilder_Behavior {
         {
           quotedNode_2 = SModelUtil_new.instantiateConceptDeclaration("jetbrains.mps.baseLanguage.structure.ClassCreator", null, GlobalScope.getInstance(), false);
           SNode quotedNode1_5 = quotedNode_2;
-          quotedNode1_5.addReference(SReference.create("baseMethodDeclaration", quotedNode1_5, SModelReference.fromString("f:java_stub#6ed54515-acc8-4d1e-a16c-9fd6cfe951ea#org.jdom(MPS.Core/org.jdom@java_stub)"), SNodeId.fromString("~Element.<init>(java.lang.String)")));
+          quotedNode1_5.setReference("baseMethodDeclaration", SReference.create("baseMethodDeclaration", quotedNode1_5, SModelReference.fromString("f:java_stub#6ed54515-acc8-4d1e-a16c-9fd6cfe951ea#org.jdom(MPS.Core/org.jdom@java_stub)"), SNodeId.fromString("~Element.<init>(java.lang.String)")));
           {
             quotedNode_3 = SModelUtil_new.instantiateConceptDeclaration("jetbrains.mps.baseLanguage.structure.StringLiteral", null, GlobalScope.getInstance(), false);
             SNode quotedNode1_6 = quotedNode_3;
@@ -144,7 +144,7 @@ public class ElementBuilder_Behavior {
           {
             quotedNode_4 = SModelUtil_new.instantiateConceptDeclaration("jetbrains.mps.baseLanguage.structure.InstanceMethodCallOperation", null, GlobalScope.getInstance(), false);
             SNode quotedNode1_11 = quotedNode_4;
-            quotedNode1_11.addReference(SReference.create("baseMethodDeclaration", quotedNode1_11, SModelReference.fromString("f:java_stub#6ed54515-acc8-4d1e-a16c-9fd6cfe951ea#org.jdom(MPS.Core/org.jdom@java_stub)"), SNodeId.fromString("~Element.addContent(org.jdom.Element):org.jdom.Element")));
+            quotedNode1_11.setReference("baseMethodDeclaration", SReference.create("baseMethodDeclaration", quotedNode1_11, SModelReference.fromString("f:java_stub#6ed54515-acc8-4d1e-a16c-9fd6cfe951ea#org.jdom(MPS.Core/org.jdom@java_stub)"), SNodeId.fromString("~Element.addContent(org.jdom.Element):org.jdom.Element")));
             {
               quotedNode_6 = (SNode) parameter_14;
               SNode quotedNode1_12;
