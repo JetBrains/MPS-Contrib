@@ -67,10 +67,10 @@
       <link role="applicableConcept" roleId="tpf8.1168285871518" targetNodeId="11eb.1810772216404800349" resolveInfo="IJavaRunConfigurationParameter" />
     </node>
     <node type="11eb.RunConfigurationDeclaration" typeId="11eb.314981645426569350" id="8126994885493665468">
-      <property name="name" nameId="tpck.1169194664001" value="JavaRunConfiguration" />
       <property name="iconPath" nameId="11eb.314981645426569354" value="${mps_home}/about.txt" />
-      <property name="isDebuggable" nameId="11eb.314981645426569370" value="true" />
+      <property name="name" nameId="tpck.1169194664001" value="JavaRunConfiguration" />
       <property name="virtualPackage" nameId="tpck.1193676396447" value="java" />
+      <property name="isDebuggable" nameId="11eb.314981645426569370" value="true" />
       <link role="stateTypeParameter" roleId="11eb.314981645426569353" targetNodeId="9mpx.4631964019510578639" resolveInfo="JavaRunProfileState" />
     </node>
     <node type="tpf8.MappingConfiguration" typeId="tpf8.1095416546421" id="6629582826328981981">
@@ -3433,7 +3433,7 @@
                     </node>
                   </node>
                   <node role="operation" roleId="tpee.1197027833540" type="tpee.InstanceMethodCallOperation" typeId="tpee.1202948039474" id="2144206851851948690">
-                    <link role="baseMethodDeclaration" roleId="tpee.1068499141037" targetNodeId="hmg3.~SNode%dgetSNodeId()%corg%djetbrains%dmps%dopenapi%dmodel%dSNodeId" resolveInfo="getSNodeId" />
+                    <link role="baseMethodDeclaration" roleId="tpee.1068499141037" targetNodeId="cu2c.~SNode%dgetSNodeId()%cjetbrains%dmps%dsmodel%dSNodeId" resolveInfo="getSNodeId" />
                   </node>
                 </node>
                 <node role="operation" roleId="tpee.1197027833540" type="tpee.InstanceMethodCallOperation" typeId="tpee.1202948039474" id="2144206851851948691">
