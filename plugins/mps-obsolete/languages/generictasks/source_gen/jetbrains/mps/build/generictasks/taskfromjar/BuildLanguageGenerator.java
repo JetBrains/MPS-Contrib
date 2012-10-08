@@ -21,7 +21,7 @@ public class BuildLanguageGenerator {
     SNode decl = SConceptOperations.createNewNode("jetbrains.mps.build.generictasks.structure.TaskInterfaceDeclaration", null);
     SPropertyOperations.set(decl, "name", declName);
     SPropertyOperations.set(decl, "classname", className);
-    SPropertyOperations.set(decl, "depracated", "" + isDeprecated);
+    SPropertyOperations.set(decl, "depracated", "" + (isDeprecated));
     return decl;
   }
 
@@ -29,9 +29,9 @@ public class BuildLanguageGenerator {
     SNode decl = SConceptOperations.createNewNode("jetbrains.mps.build.generictasks.structure.BuiltInTaskDeclaration", null);
     SPropertyOperations.set(decl, "name", declName);
     SPropertyOperations.set(decl, "classname", className);
-    SPropertyOperations.set(decl, "abstract", "" + isAbstract);
-    SPropertyOperations.set(decl, "canHaveInternalText", "" + canHaveInternalText);
-    SPropertyOperations.set(decl, "depracated", "" + isDeprecated);
+    SPropertyOperations.set(decl, "abstract", "" + (isAbstract));
+    SPropertyOperations.set(decl, "canHaveInternalText", "" + (canHaveInternalText));
+    SPropertyOperations.set(decl, "depracated", "" + (isDeprecated));
     return decl;
   }
 
@@ -61,7 +61,7 @@ public class BuildLanguageGenerator {
       {
         quotedNode_1 = SModelUtil_new.instantiateConceptDeclaration("jetbrains.mps.build.generictasks.structure.TaskReference", null, GlobalScope.getInstance(), false);
         SNode quotedNode1_2 = quotedNode_1;
-        quotedNode1_2.setReferent("declaration", (SNode) parameter_3);
+        quotedNode1_2.setReferenceTarget("declaration", (SNode) parameter_3);
         result = quotedNode1_2;
       }
       return result;

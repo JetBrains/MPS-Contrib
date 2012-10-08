@@ -72,8 +72,8 @@ public class BKCoordinatePlacer implements ICoordinatePlacer {
       for (int i = 0; i < ListSequence.fromList(xCoords).count(); i++) {
         ListSequence.fromList(nodeXCoords).addElement(MapSequence.fromMap(ListSequence.fromList(xCoords).getElement(i)).get(node) + ListSequence.fromList(shifts).getElement(i));
       }
-      nodeXCoords = ListSequence.fromList(nodeXCoords).sort(new ISelector<Integer, Comparable<?>>() {
-        public Comparable<?> select(Integer it) {
+      nodeXCoords = ListSequence.fromList(nodeXCoords).sort(new ISelector<Integer, Integer>() {
+        public Integer select(Integer it) {
           return it;
         }
       }, true).toListSequence();

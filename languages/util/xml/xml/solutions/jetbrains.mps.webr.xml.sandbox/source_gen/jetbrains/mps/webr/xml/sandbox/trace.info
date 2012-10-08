@@ -34,7 +34,7 @@
     <nodeInfo nodeId="1211753978542106109" fileName="ff.f" startLine="1" startPosition="5" endLine="5" endPosition="7" conceptFqName="jetbrains.mps.gtext.structure.GItemList" />
     <nodeInfo nodeId="1211753978542106110" fileName="ff.f" startLine="1" startPosition="6" endLine="5" endPosition="0" conceptFqName="jetbrains.mps.gtext.structure.GItemList" />
     <nodeInfo nodeId="1211753978542106110" fileName="ff.f" startLine="1" startPosition="6" endLine="5" endPosition="0" conceptFqName="jetbrains.mps.gtext.structure.GItemList" />
-    <unitInfo nodeId="1211753978542106105" fileName="ff.f" startLine="1" startPosition="0" endLine="5" endPosition="7" unitName="ff.f" />
+    <unitInfo nodeId="1211753978542106105" fileName="ff.f" startLine="1" startPosition="0" endLine="5" endPosition="7" unitName="jetbrains.mps.webr.xml.sandbox.ff$f" />
   </root>
   <root nodeId="1238684155881" modelId="r:00000000-0000-4000-0000-011c8959058c(jetbrains.mps.webr.xml.sandbox)">
     <nodeInfo nodeId="1238684163057" fileName="b.xml" startLine="1" startPosition="0" endLine="1" endPosition="5" conceptFqName="jetbrains.mps.gtext.structure.GText" />
@@ -60,7 +60,7 @@
     <nodeInfo nodeId="1238684163057" fileName="b.xml" startLine="1" startPosition="5" endLine="4" endPosition="7" conceptFqName="jetbrains.mps.gtext.structure.GItemList" />
     <nodeInfo nodeId="1238684163058" fileName="b.xml" startLine="1" startPosition="6" endLine="4" endPosition="0" conceptFqName="jetbrains.mps.gtext.structure.GItemList" />
     <nodeInfo nodeId="1238684163058" fileName="b.xml" startLine="1" startPosition="6" endLine="4" endPosition="0" conceptFqName="jetbrains.mps.gtext.structure.GItemList" />
-    <unitInfo nodeId="1238684155881" fileName="b.xml" startLine="1" startPosition="0" endLine="4" endPosition="7" unitName="b.xml" />
+    <unitInfo nodeId="1238684155881" fileName="b.xml" startLine="1" startPosition="0" endLine="4" endPosition="7" unitName="jetbrains.mps.webr.xml.sandbox.b$xml" />
   </root>
 </debugInfo>
 

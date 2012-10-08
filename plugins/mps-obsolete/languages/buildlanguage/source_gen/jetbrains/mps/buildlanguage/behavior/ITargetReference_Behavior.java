@@ -19,6 +19,11 @@ public class ITargetReference_Behavior {
     return (String) descriptor.invoke(Object.class, SNodeOperations.cast(thisNode, "jetbrains.mps.buildlanguage.structure.ITargetReference"), "virtual_getProjectFileName_1230222765831", PARAMETERS_1230222765831, new Object[]{});
   }
 
+  public static String callSuperNew_getProjectFileName_1230222765831(SNode thisNode, String callerConceptFqName) {
+    return (String) BehaviorManager.getInstance().invokeSuperNew(Object.class, SNodeOperations.cast(thisNode, "jetbrains.mps.buildlanguage.structure.ITargetReference"), callerConceptFqName, "virtual_getProjectFileName_1230222765831", PARAMETERS_1230222765831, new Object[]{});
+  }
+
+  @Deprecated
   public static String callSuper_getProjectFileName_1230222765831(SNode thisNode, String callerConceptFqName) {
     return (String) BehaviorManager.getInstance().invokeSuper(Object.class, SNodeOperations.cast(thisNode, "jetbrains.mps.buildlanguage.structure.ITargetReference"), callerConceptFqName, "virtual_getProjectFileName_1230222765831", PARAMETERS_1230222765831, new Object[]{});
   }

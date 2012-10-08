@@ -49,7 +49,7 @@ public class typeof_RunConfigurationRunProfileState_InferenceRule extends Abstra
 
   public IsApplicableStatus isApplicableAndPattern(SNode argument) {
     {
-      boolean b = SModelUtil_new.isAssignableConcept(argument.getConceptFqName(), this.getApplicableConceptFQName());
+      boolean b = SModelUtil_new.isAssignableConcept(argument.getConcept().getId(), this.getApplicableConceptFQName());
       return new IsApplicableStatus(b, null);
     }
   }
@@ -69,7 +69,7 @@ public class typeof_RunConfigurationRunProfileState_InferenceRule extends Abstra
       {
         quotedNode_1 = SModelUtil_new.instantiateConceptDeclaration("jetbrains.mps.baseLanguage.structure.ClassifierType", null, GlobalScope.getInstance(), false);
         SNode quotedNode1_2 = quotedNode_1;
-        quotedNode1_2.addReference(SReference.create("classifier", quotedNode1_2, SModelReference.fromString("r:00f87323-e6a8-42b3-9a91-892d878daf8f(jetbrains.mps.debug)"), SNodeId.fromString("251277163127780701")));
+        quotedNode1_2.setReference("classifier", SReference.create("classifier", quotedNode1_2, SModelReference.fromString("r:00f87323-e6a8-42b3-9a91-892d878daf8f(jetbrains.mps.debug)"), SNodeId.fromString("251277163127780701")));
         result = quotedNode1_2;
       }
       return result;
@@ -82,7 +82,7 @@ public class typeof_RunConfigurationRunProfileState_InferenceRule extends Abstra
       {
         quotedNode_1 = SModelUtil_new.instantiateConceptDeclaration("jetbrains.mps.baseLanguage.structure.ClassifierType", null, GlobalScope.getInstance(), false);
         SNode quotedNode1_2 = quotedNode_1;
-        quotedNode1_2.addReference(SReference.create("classifier", quotedNode1_2, SModelReference.fromString("r:00f87323-e6a8-42b3-9a91-892d878daf8f(jetbrains.mps.debug)"), SNodeId.fromString("251277163127780701")));
+        quotedNode1_2.setReference("classifier", SReference.create("classifier", quotedNode1_2, SModelReference.fromString("r:00f87323-e6a8-42b3-9a91-892d878daf8f(jetbrains.mps.debug)"), SNodeId.fromString("251277163127780701")));
         result = quotedNode1_2;
       }
       return result;
@@ -100,7 +100,7 @@ public class typeof_RunConfigurationRunProfileState_InferenceRule extends Abstra
       {
         quotedNode_1 = SModelUtil_new.instantiateConceptDeclaration("jetbrains.mps.baseLanguage.structure.ClassifierType", null, GlobalScope.getInstance(), false);
         SNode quotedNode1_2 = quotedNode_1;
-        quotedNode1_2.addReference(SReference.create("classifier", quotedNode1_2, SModelReference.fromString("f:java_stub#742f6602-5a2f-4313-aa6e-ae1cd4ffdc61#com.intellij.execution.configurations(MPS.Platform/com.intellij.execution.configurations@java_stub)"), SNodeId.fromString("~RunProfileState")));
+        quotedNode1_2.setReference("classifier", SReference.create("classifier", quotedNode1_2, SModelReference.fromString("f:java_stub#742f6602-5a2f-4313-aa6e-ae1cd4ffdc61#com.intellij.execution.configurations(MPS.Platform/com.intellij.execution.configurations@java_stub)"), SNodeId.fromString("~RunProfileState")));
         result = quotedNode1_2;
       }
       return result;
@@ -113,7 +113,7 @@ public class typeof_RunConfigurationRunProfileState_InferenceRule extends Abstra
       {
         quotedNode_1 = SModelUtil_new.instantiateConceptDeclaration("jetbrains.mps.baseLanguage.structure.ClassifierType", null, GlobalScope.getInstance(), false);
         SNode quotedNode1_2 = quotedNode_1;
-        quotedNode1_2.addReference(SReference.create("classifier", quotedNode1_2, SModelReference.fromString("f:java_stub#742f6602-5a2f-4313-aa6e-ae1cd4ffdc61#com.intellij.execution.configurations(MPS.Platform/com.intellij.execution.configurations@java_stub)"), SNodeId.fromString("~RunProfileState")));
+        quotedNode1_2.setReference("classifier", SReference.create("classifier", quotedNode1_2, SModelReference.fromString("f:java_stub#742f6602-5a2f-4313-aa6e-ae1cd4ffdc61#com.intellij.execution.configurations(MPS.Platform/com.intellij.execution.configurations@java_stub)"), SNodeId.fromString("~RunProfileState")));
         result = quotedNode1_2;
       }
       return result;

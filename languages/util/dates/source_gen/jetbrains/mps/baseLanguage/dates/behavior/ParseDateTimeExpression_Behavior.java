@@ -48,10 +48,20 @@ public class ParseDateTimeExpression_Behavior {
     return (SNode) descriptor.invoke(Object.class, SNodeOperations.cast(thisNode, "jetbrains.mps.baseLanguage.dates.structure.ParseDateTimeExpression"), "virtual_deriveType_4555537781928374706", PARAMETERS_7499037524191428434, new Object[]{expression, link});
   }
 
+  public static SNode callSuperNew_deriveType_7499037524191428325(SNode thisNode, String callerConceptFqName, SNode expression) {
+    return (SNode) BehaviorManager.getInstance().invokeSuperNew(Object.class, SNodeOperations.cast(thisNode, "jetbrains.mps.baseLanguage.dates.structure.ParseDateTimeExpression"), callerConceptFqName, "virtual_deriveType_1213877435747", PARAMETERS_7499037524191428325, new Object[]{expression});
+  }
+
+  public static SNode callSuperNew_deriveType_7499037524191428434(SNode thisNode, String callerConceptFqName, SNode expression, SNode link) {
+    return (SNode) BehaviorManager.getInstance().invokeSuperNew(Object.class, SNodeOperations.cast(thisNode, "jetbrains.mps.baseLanguage.dates.structure.ParseDateTimeExpression"), callerConceptFqName, "virtual_deriveType_4555537781928374706", PARAMETERS_7499037524191428434, new Object[]{expression, link});
+  }
+
+  @Deprecated
   public static SNode callSuper_deriveType_7499037524191428325(SNode thisNode, String callerConceptFqName, SNode expression) {
     return (SNode) BehaviorManager.getInstance().invokeSuper(Object.class, SNodeOperations.cast(thisNode, "jetbrains.mps.baseLanguage.dates.structure.ParseDateTimeExpression"), callerConceptFqName, "virtual_deriveType_1213877435747", PARAMETERS_7499037524191428325, new Object[]{expression});
   }
 
+  @Deprecated
   public static SNode callSuper_deriveType_7499037524191428434(SNode thisNode, String callerConceptFqName, SNode expression, SNode link) {
     return (SNode) BehaviorManager.getInstance().invokeSuper(Object.class, SNodeOperations.cast(thisNode, "jetbrains.mps.baseLanguage.dates.structure.ParseDateTimeExpression"), callerConceptFqName, "virtual_deriveType_4555537781928374706", PARAMETERS_7499037524191428434, new Object[]{expression, link});
   }
