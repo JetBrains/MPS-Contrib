@@ -78,8 +78,10 @@
     <classNode extendsClassName="javax.swing.JComponent" />
   </dependency>
   <dependency className="jetbrains.mps.uiLanguage.components.List" file="List.java">
+    <classNode dependClassName="java.awt.List" />
     <classNode dependClassName="java.lang.Object" />
     <classNode dependClassName="java.util.ArrayList" />
+    <classNode dependClassName="java.util.List" />
     <classNode dependClassName="jetbrains.mps.internal.collections.runtime.ListSequence" />
     <classNode dependClassName="jetbrains.mps.uiLanguage.runtime.events.Events" />
     <classNode dependClassName="org.jdesktop.beansbinding.AutoBinding" />
