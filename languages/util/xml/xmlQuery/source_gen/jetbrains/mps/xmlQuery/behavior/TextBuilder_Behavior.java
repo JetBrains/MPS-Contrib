@@ -52,14 +52,29 @@ public class TextBuilder_Behavior {
     return (SNode) descriptor.invoke(Object.class, SNodeOperations.cast(thisNode, "jetbrains.mps.xmlQuery.structure.TextBuilder"), "virtual_getAttachStatementChild_4797501453850305563", PARAMETERS_608266221866981707, new Object[]{parentBuilder, parentRef, childRef});
   }
 
+  public static SNode callSuperNew_getResultType_10026583185457217(SNode thisNode, String callerConceptFqName) {
+    return (SNode) BehaviorManager.getInstance().invokeSuperNew(Object.class, SNodeOperations.cast(thisNode, "jetbrains.mps.xmlQuery.structure.TextBuilder"), callerConceptFqName, "virtual_getResultType_7057666463730718251", PARAMETERS_10026583185457217, new Object[]{});
+  }
+
+  public static SNode callSuperNew_getCreatorExpression_10026583185457221(SNode thisNode, String callerConceptFqName, SNode parentRef) {
+    return (SNode) BehaviorManager.getInstance().invokeSuperNew(Object.class, SNodeOperations.cast(thisNode, "jetbrains.mps.xmlQuery.structure.TextBuilder"), callerConceptFqName, "virtual_getCreatorExpression_7057666463730727863", PARAMETERS_10026583185457221, new Object[]{parentRef});
+  }
+
+  public static SNode callSuperNew_getAttachStatementChild_608266221866981707(SNode thisNode, String callerConceptFqName, SNode parentBuilder, SNode parentRef, SNode childRef) {
+    return (SNode) BehaviorManager.getInstance().invokeSuperNew(Object.class, SNodeOperations.cast(thisNode, "jetbrains.mps.xmlQuery.structure.TextBuilder"), callerConceptFqName, "virtual_getAttachStatementChild_4797501453850305563", PARAMETERS_608266221866981707, new Object[]{parentBuilder, parentRef, childRef});
+  }
+
+  @Deprecated
   public static SNode callSuper_getResultType_10026583185457217(SNode thisNode, String callerConceptFqName) {
     return (SNode) BehaviorManager.getInstance().invokeSuper(Object.class, SNodeOperations.cast(thisNode, "jetbrains.mps.xmlQuery.structure.TextBuilder"), callerConceptFqName, "virtual_getResultType_7057666463730718251", PARAMETERS_10026583185457217, new Object[]{});
   }
 
+  @Deprecated
   public static SNode callSuper_getCreatorExpression_10026583185457221(SNode thisNode, String callerConceptFqName, SNode parentRef) {
     return (SNode) BehaviorManager.getInstance().invokeSuper(Object.class, SNodeOperations.cast(thisNode, "jetbrains.mps.xmlQuery.structure.TextBuilder"), callerConceptFqName, "virtual_getCreatorExpression_7057666463730727863", PARAMETERS_10026583185457221, new Object[]{parentRef});
   }
 
+  @Deprecated
   public static SNode callSuper_getAttachStatementChild_608266221866981707(SNode thisNode, String callerConceptFqName, SNode parentBuilder, SNode parentRef, SNode childRef) {
     return (SNode) BehaviorManager.getInstance().invokeSuper(Object.class, SNodeOperations.cast(thisNode, "jetbrains.mps.xmlQuery.structure.TextBuilder"), callerConceptFqName, "virtual_getAttachStatementChild_4797501453850305563", PARAMETERS_608266221866981707, new Object[]{parentBuilder, parentRef, childRef});
   }
@@ -116,7 +131,7 @@ public class TextBuilder_Behavior {
           {
             quotedNode_4 = SModelUtil_new.instantiateConceptDeclaration("jetbrains.mps.baseLanguage.structure.InstanceMethodCallOperation", null, GlobalScope.getInstance(), false);
             SNode quotedNode1_10 = quotedNode_4;
-            quotedNode1_10.addReference(SReference.create("baseMethodDeclaration", quotedNode1_10, SModelReference.fromString("f:java_stub#6ed54515-acc8-4d1e-a16c-9fd6cfe951ea#org.jdom(MPS.Core/org.jdom@java_stub)"), SNodeId.fromString("~Element.setText(java.lang.String):org.jdom.Element")));
+            quotedNode1_10.setReference("baseMethodDeclaration", SReference.create("baseMethodDeclaration", quotedNode1_10, SModelReference.fromString("f:java_stub#6ed54515-acc8-4d1e-a16c-9fd6cfe951ea#org.jdom(MPS.Core/org.jdom@java_stub)"), SNodeId.fromString("~Element.setText(java.lang.String):org.jdom.Element")));
             {
               quotedNode_6 = (SNode) parameter_13;
               SNode quotedNode1_11;

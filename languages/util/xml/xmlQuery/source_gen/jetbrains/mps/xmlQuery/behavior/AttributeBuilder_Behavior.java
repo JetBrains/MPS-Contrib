@@ -54,14 +54,29 @@ public class AttributeBuilder_Behavior {
     return (SNode) descriptor.invoke(Object.class, SNodeOperations.cast(thisNode, "jetbrains.mps.xmlQuery.structure.AttributeBuilder"), "virtual_getAttachStatementChild_4797501453850305563", PARAMETERS_608266221866981658, new Object[]{parentBuilder, parentRef, childRef});
   }
 
+  public static SNode callSuperNew_getResultType_7225751495667376241(SNode thisNode, String callerConceptFqName) {
+    return (SNode) BehaviorManager.getInstance().invokeSuperNew(Object.class, SNodeOperations.cast(thisNode, "jetbrains.mps.xmlQuery.structure.AttributeBuilder"), callerConceptFqName, "virtual_getResultType_7057666463730718251", PARAMETERS_7225751495667376241, new Object[]{});
+  }
+
+  public static SNode callSuperNew_getCreatorExpression_7225751495667376245(SNode thisNode, String callerConceptFqName, SNode parentRef) {
+    return (SNode) BehaviorManager.getInstance().invokeSuperNew(Object.class, SNodeOperations.cast(thisNode, "jetbrains.mps.xmlQuery.structure.AttributeBuilder"), callerConceptFqName, "virtual_getCreatorExpression_7057666463730727863", PARAMETERS_7225751495667376245, new Object[]{parentRef});
+  }
+
+  public static SNode callSuperNew_getAttachStatementChild_608266221866981658(SNode thisNode, String callerConceptFqName, SNode parentBuilder, SNode parentRef, SNode childRef) {
+    return (SNode) BehaviorManager.getInstance().invokeSuperNew(Object.class, SNodeOperations.cast(thisNode, "jetbrains.mps.xmlQuery.structure.AttributeBuilder"), callerConceptFqName, "virtual_getAttachStatementChild_4797501453850305563", PARAMETERS_608266221866981658, new Object[]{parentBuilder, parentRef, childRef});
+  }
+
+  @Deprecated
   public static SNode callSuper_getResultType_7225751495667376241(SNode thisNode, String callerConceptFqName) {
     return (SNode) BehaviorManager.getInstance().invokeSuper(Object.class, SNodeOperations.cast(thisNode, "jetbrains.mps.xmlQuery.structure.AttributeBuilder"), callerConceptFqName, "virtual_getResultType_7057666463730718251", PARAMETERS_7225751495667376241, new Object[]{});
   }
 
+  @Deprecated
   public static SNode callSuper_getCreatorExpression_7225751495667376245(SNode thisNode, String callerConceptFqName, SNode parentRef) {
     return (SNode) BehaviorManager.getInstance().invokeSuper(Object.class, SNodeOperations.cast(thisNode, "jetbrains.mps.xmlQuery.structure.AttributeBuilder"), callerConceptFqName, "virtual_getCreatorExpression_7057666463730727863", PARAMETERS_7225751495667376245, new Object[]{parentRef});
   }
 
+  @Deprecated
   public static SNode callSuper_getAttachStatementChild_608266221866981658(SNode thisNode, String callerConceptFqName, SNode parentBuilder, SNode parentRef, SNode childRef) {
     return (SNode) BehaviorManager.getInstance().invokeSuper(Object.class, SNodeOperations.cast(thisNode, "jetbrains.mps.xmlQuery.structure.AttributeBuilder"), callerConceptFqName, "virtual_getAttachStatementChild_4797501453850305563", PARAMETERS_608266221866981658, new Object[]{parentBuilder, parentRef, childRef});
   }
@@ -104,7 +119,7 @@ public class AttributeBuilder_Behavior {
           {
             quotedNode_4 = SModelUtil_new.instantiateConceptDeclaration("jetbrains.mps.baseLanguage.structure.InstanceMethodCallOperation", null, GlobalScope.getInstance(), false);
             SNode quotedNode1_13 = quotedNode_4;
-            quotedNode1_13.addReference(SReference.create("baseMethodDeclaration", quotedNode1_13, SModelReference.fromString("f:java_stub#6ed54515-acc8-4d1e-a16c-9fd6cfe951ea#org.jdom(MPS.Core/org.jdom@java_stub)"), SNodeId.fromString("~Element.setAttribute(java.lang.String,java.lang.String):org.jdom.Element")));
+            quotedNode1_13.setReference("baseMethodDeclaration", SReference.create("baseMethodDeclaration", quotedNode1_13, SModelReference.fromString("f:java_stub#6ed54515-acc8-4d1e-a16c-9fd6cfe951ea#org.jdom(MPS.Core/org.jdom@java_stub)"), SNodeId.fromString("~Element.setAttribute(java.lang.String,java.lang.String):org.jdom.Element")));
             {
               quotedNode_6 = SModelUtil_new.instantiateConceptDeclaration("jetbrains.mps.baseLanguage.structure.StringLiteral", null, GlobalScope.getInstance(), false);
               SNode quotedNode1_14 = quotedNode_6;

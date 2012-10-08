@@ -48,10 +48,20 @@ public class FormatPeriodExpression_Behavior {
     return (SNode) descriptor.invoke(Object.class, SNodeOperations.cast(thisNode, "jetbrains.mps.baseLanguage.dates.structure.FormatPeriodExpression"), "virtual_deriveType_4555537781928374706", PARAMETERS_34521615669576905, new Object[]{expression, link});
   }
 
+  public static SNode callSuperNew_deriveType_34521615669576867(SNode thisNode, String callerConceptFqName, SNode expression) {
+    return (SNode) BehaviorManager.getInstance().invokeSuperNew(Object.class, SNodeOperations.cast(thisNode, "jetbrains.mps.baseLanguage.dates.structure.FormatPeriodExpression"), callerConceptFqName, "virtual_deriveType_1213877435747", PARAMETERS_34521615669576867, new Object[]{expression});
+  }
+
+  public static SNode callSuperNew_deriveType_34521615669576905(SNode thisNode, String callerConceptFqName, SNode expression, SNode link) {
+    return (SNode) BehaviorManager.getInstance().invokeSuperNew(Object.class, SNodeOperations.cast(thisNode, "jetbrains.mps.baseLanguage.dates.structure.FormatPeriodExpression"), callerConceptFqName, "virtual_deriveType_4555537781928374706", PARAMETERS_34521615669576905, new Object[]{expression, link});
+  }
+
+  @Deprecated
   public static SNode callSuper_deriveType_34521615669576867(SNode thisNode, String callerConceptFqName, SNode expression) {
     return (SNode) BehaviorManager.getInstance().invokeSuper(Object.class, SNodeOperations.cast(thisNode, "jetbrains.mps.baseLanguage.dates.structure.FormatPeriodExpression"), callerConceptFqName, "virtual_deriveType_1213877435747", PARAMETERS_34521615669576867, new Object[]{expression});
   }
 
+  @Deprecated
   public static SNode callSuper_deriveType_34521615669576905(SNode thisNode, String callerConceptFqName, SNode expression, SNode link) {
     return (SNode) BehaviorManager.getInstance().invokeSuper(Object.class, SNodeOperations.cast(thisNode, "jetbrains.mps.baseLanguage.dates.structure.FormatPeriodExpression"), callerConceptFqName, "virtual_deriveType_4555537781928374706", PARAMETERS_34521615669576905, new Object[]{expression, link});
   }
