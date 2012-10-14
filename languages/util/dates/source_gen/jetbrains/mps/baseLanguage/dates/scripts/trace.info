@@ -2,79 +2,83 @@
 <debugInfo>
   <root nodeId="4882587297988985540" modelId="r:1ecf29c8-3ec1-440d-9374-4e458ded0cbe(jetbrains.mps.baseLanguage.dates.scripts)">
     <nodeInfo nodeId="4882587297988985540" fileName="convert_DateTimeOperations_MigrationScript.java" startLine="13" startPosition="89" endLine="14" endPosition="42" conceptFqName="jetbrains.mps.baseLanguage.structure.SuperConstructorInvocation" />
-    <nodeInfo nodeId="4882587297988985540" fileName="convert_DateTimeOperations_MigrationScript.java" startLine="16" startPosition="31" endLine="17" endPosition="41" conceptFqName="jetbrains.mps.baseLanguage.structure.ReturnStatement" />
-    <nodeInfo nodeId="4882587297988985540" fileName="convert_DateTimeOperations_MigrationScript.java" startLine="20" startPosition="41" endLine="21" endPosition="41" conceptFqName="jetbrains.mps.baseLanguage.structure.ReturnStatement" />
-    <nodeInfo nodeId="4882587297988985540" fileName="convert_DateTimeOperations_MigrationScript.java" startLine="24" startPosition="59" endLine="25" endPosition="89" conceptFqName="jetbrains.mps.baseLanguage.structure.ReturnStatement" />
-    <nodeInfo nodeId="4882587297988985540" fileName="convert_DateTimeOperations_MigrationScript.java" startLine="28" startPosition="59" endLine="29" endPosition="20" conceptFqName="jetbrains.mps.baseLanguage.structure.ReturnStatement" />
+    <nodeInfo nodeId="4882587297988985541" fileName="convert_DateTimeOperations_MigrationScript.java" startLine="16" startPosition="31" endLine="17" endPosition="41" conceptFqName="jetbrains.mps.baseLanguage.structure.ReturnStatement" />
+    <nodeInfo nodeId="4882587297988985541" fileName="convert_DateTimeOperations_MigrationScript.java" startLine="20" startPosition="41" endLine="21" endPosition="41" conceptFqName="jetbrains.mps.baseLanguage.structure.ReturnStatement" />
+    <nodeInfo nodeId="4882587297988985541" fileName="convert_DateTimeOperations_MigrationScript.java" startLine="24" startPosition="59" endLine="25" endPosition="89" conceptFqName="jetbrains.mps.baseLanguage.structure.ReturnStatement" />
+    <nodeInfo nodeId="4882587297988985541" fileName="convert_DateTimeOperations_MigrationScript.java" startLine="28" startPosition="59" endLine="29" endPosition="20" conceptFqName="jetbrains.mps.baseLanguage.structure.ReturnStatement" />
     <nodeInfo nodeId="5487985028841941308" fileName="convert_DateTimeOperations_MigrationScript.java" startLine="32" startPosition="52" endLine="33" endPosition="130" conceptFqName="jetbrains.mps.baseLanguage.structure.LocalVariableDeclarationStatement" />
     <nodeInfo nodeId="5487985028841941314" fileName="convert_DateTimeOperations_MigrationScript.java" startLine="33" startPosition="130" endLine="34" endPosition="127" conceptFqName="jetbrains.mps.baseLanguage.structure.ExpressionStatement" />
     <nodeInfo nodeId="5487985028841941322" fileName="convert_DateTimeOperations_MigrationScript.java" startLine="34" startPosition="127" endLine="35" endPosition="129" conceptFqName="jetbrains.mps.baseLanguage.structure.ExpressionStatement" />
-    <nodeInfo nodeId="4882587297988985540" fileName="convert_DateTimeOperations_MigrationScript.java" startLine="38" startPosition="42" endLine="39" endPosition="21" conceptFqName="jetbrains.mps.baseLanguage.structure.ReturnStatement" />
-    <nodeInfo nodeId="4882587297988985540" fileName="convert_DateTimeOperations_MigrationScript.java" startLine="43" startPosition="31" endLine="44" endPosition="40" conceptFqName="jetbrains.mps.baseLanguage.structure.ReturnStatement" />
-    <nodeInfo nodeId="4882587297988985540" fileName="convert_DateTimeOperations_MigrationScript.java" startLine="47" startPosition="41" endLine="48" endPosition="40" conceptFqName="jetbrains.mps.baseLanguage.structure.ReturnStatement" />
-    <nodeInfo nodeId="4882587297988985540" fileName="convert_DateTimeOperations_MigrationScript.java" startLine="51" startPosition="59" endLine="52" endPosition="88" conceptFqName="jetbrains.mps.baseLanguage.structure.ReturnStatement" />
-    <nodeInfo nodeId="4882587297988985540" fileName="convert_DateTimeOperations_MigrationScript.java" startLine="55" startPosition="59" endLine="56" endPosition="20" conceptFqName="jetbrains.mps.baseLanguage.structure.ReturnStatement" />
+    <nodeInfo nodeId="4882587297988985541" fileName="convert_DateTimeOperations_MigrationScript.java" startLine="38" startPosition="42" endLine="39" endPosition="21" conceptFqName="jetbrains.mps.baseLanguage.structure.ReturnStatement" />
+    <nodeInfo nodeId="4882587297988985547" fileName="convert_DateTimeOperations_MigrationScript.java" startLine="43" startPosition="31" endLine="44" endPosition="40" conceptFqName="jetbrains.mps.baseLanguage.structure.ReturnStatement" />
+    <nodeInfo nodeId="4882587297988985547" fileName="convert_DateTimeOperations_MigrationScript.java" startLine="47" startPosition="41" endLine="48" endPosition="40" conceptFqName="jetbrains.mps.baseLanguage.structure.ReturnStatement" />
+    <nodeInfo nodeId="4882587297988985547" fileName="convert_DateTimeOperations_MigrationScript.java" startLine="51" startPosition="59" endLine="52" endPosition="88" conceptFqName="jetbrains.mps.baseLanguage.structure.ReturnStatement" />
+    <nodeInfo nodeId="4882587297988985547" fileName="convert_DateTimeOperations_MigrationScript.java" startLine="55" startPosition="59" endLine="56" endPosition="20" conceptFqName="jetbrains.mps.baseLanguage.structure.ReturnStatement" />
     <nodeInfo nodeId="4882587297988985550" fileName="convert_DateTimeOperations_MigrationScript.java" startLine="59" startPosition="52" endLine="60" endPosition="129" conceptFqName="jetbrains.mps.baseLanguage.structure.LocalVariableDeclarationStatement" />
     <nodeInfo nodeId="4882587297988985556" fileName="convert_DateTimeOperations_MigrationScript.java" startLine="60" startPosition="129" endLine="61" endPosition="127" conceptFqName="jetbrains.mps.baseLanguage.structure.ExpressionStatement" />
     <nodeInfo nodeId="4882587297988985564" fileName="convert_DateTimeOperations_MigrationScript.java" startLine="61" startPosition="127" endLine="62" endPosition="129" conceptFqName="jetbrains.mps.baseLanguage.structure.ExpressionStatement" />
-    <nodeInfo nodeId="4882587297988985540" fileName="convert_DateTimeOperations_MigrationScript.java" startLine="65" startPosition="42" endLine="66" endPosition="21" conceptFqName="jetbrains.mps.baseLanguage.structure.ReturnStatement" />
-    <nodeInfo nodeId="4882587297988985540" fileName="convert_DateTimeOperations_MigrationScript.java" startLine="15" startPosition="76" endLine="19" endPosition="0" conceptFqName="jetbrains.mps.baseLanguage.structure.InstanceMethodDeclaration" propertyString="getName#()Ljava/lang/String;" />
-    <nodeInfo nodeId="4882587297988985540" fileName="convert_DateTimeOperations_MigrationScript.java" startLine="19" startPosition="0" endLine="23" endPosition="0" conceptFqName="jetbrains.mps.baseLanguage.structure.InstanceMethodDeclaration" propertyString="getAdditionalInfo#()Ljava/lang/String;" />
-    <nodeInfo nodeId="4882587297988985540" fileName="convert_DateTimeOperations_MigrationScript.java" startLine="23" startPosition="0" endLine="27" endPosition="0" conceptFqName="jetbrains.mps.baseLanguage.structure.InstanceMethodDeclaration" propertyString="getFqNameOfConceptToSearchInstances#()Ljava/lang/String;" />
-    <nodeInfo nodeId="4882587297988985540" fileName="convert_DateTimeOperations_MigrationScript.java" startLine="27" startPosition="0" endLine="31" endPosition="0" conceptFqName="jetbrains.mps.baseLanguage.structure.InstanceMethodDeclaration" propertyString="isApplicableInstanceNode#(Ljetbrains/mps/smodel/SNode;)Z" />
-    <nodeInfo nodeId="4882587297988985540" fileName="convert_DateTimeOperations_MigrationScript.java" startLine="37" startPosition="0" endLine="41" endPosition="0" conceptFqName="jetbrains.mps.baseLanguage.structure.InstanceMethodDeclaration" propertyString="isShowAsIntention#()Z" />
-    <nodeInfo nodeId="4882587297988985540" fileName="convert_DateTimeOperations_MigrationScript.java" startLine="42" startPosition="76" endLine="46" endPosition="0" conceptFqName="jetbrains.mps.baseLanguage.structure.InstanceMethodDeclaration" propertyString="getName#()Ljava/lang/String;" />
-    <nodeInfo nodeId="4882587297988985540" fileName="convert_DateTimeOperations_MigrationScript.java" startLine="46" startPosition="0" endLine="50" endPosition="0" conceptFqName="jetbrains.mps.baseLanguage.structure.InstanceMethodDeclaration" propertyString="getAdditionalInfo#()Ljava/lang/String;" />
-    <nodeInfo nodeId="4882587297988985540" fileName="convert_DateTimeOperations_MigrationScript.java" startLine="50" startPosition="0" endLine="54" endPosition="0" conceptFqName="jetbrains.mps.baseLanguage.structure.InstanceMethodDeclaration" propertyString="getFqNameOfConceptToSearchInstances#()Ljava/lang/String;" />
-    <nodeInfo nodeId="4882587297988985540" fileName="convert_DateTimeOperations_MigrationScript.java" startLine="54" startPosition="0" endLine="58" endPosition="0" conceptFqName="jetbrains.mps.baseLanguage.structure.InstanceMethodDeclaration" propertyString="isApplicableInstanceNode#(Ljetbrains/mps/smodel/SNode;)Z" />
-    <nodeInfo nodeId="4882587297988985540" fileName="convert_DateTimeOperations_MigrationScript.java" startLine="64" startPosition="0" endLine="68" endPosition="0" conceptFqName="jetbrains.mps.baseLanguage.structure.InstanceMethodDeclaration" propertyString="isShowAsIntention#()Z" />
-    <nodeInfo nodeId="4882587297988985540" fileName="convert_DateTimeOperations_MigrationScript.java" startLine="31" startPosition="0" endLine="37" endPosition="0" conceptFqName="jetbrains.mps.baseLanguage.structure.InstanceMethodDeclaration" propertyString="doUpdateInstanceNode#(Ljetbrains/mps/smodel/SNode;)V" />
-    <nodeInfo nodeId="4882587297988985540" fileName="convert_DateTimeOperations_MigrationScript.java" startLine="58" startPosition="0" endLine="64" endPosition="0" conceptFqName="jetbrains.mps.baseLanguage.structure.InstanceMethodDeclaration" propertyString="doUpdateInstanceNode#(Ljetbrains/mps/smodel/SNode;)V" />
-    <nodeInfo nodeId="4882587297988985540" fileName="convert_DateTimeOperations_MigrationScript.java" startLine="14" startPosition="42" endLine="41" endPosition="7" conceptFqName="jetbrains.mps.baseLanguage.structure.ExpressionStatement" />
-    <nodeInfo nodeId="4882587297988985540" fileName="convert_DateTimeOperations_MigrationScript.java" startLine="41" startPosition="7" endLine="68" endPosition="7" conceptFqName="jetbrains.mps.baseLanguage.structure.ExpressionStatement" />
+    <nodeInfo nodeId="4882587297988985547" fileName="convert_DateTimeOperations_MigrationScript.java" startLine="65" startPosition="42" endLine="66" endPosition="21" conceptFqName="jetbrains.mps.baseLanguage.structure.ReturnStatement" />
+    <nodeInfo nodeId="4882587297988985541" fileName="convert_DateTimeOperations_MigrationScript.java" startLine="15" startPosition="76" endLine="19" endPosition="0" conceptFqName="jetbrains.mps.baseLanguage.structure.InstanceMethodDeclaration" propertyString="getName#()Ljava/lang/String;" />
+    <nodeInfo nodeId="4882587297988985541" fileName="convert_DateTimeOperations_MigrationScript.java" startLine="19" startPosition="0" endLine="23" endPosition="0" conceptFqName="jetbrains.mps.baseLanguage.structure.InstanceMethodDeclaration" propertyString="getAdditionalInfo#()Ljava/lang/String;" />
+    <nodeInfo nodeId="4882587297988985541" fileName="convert_DateTimeOperations_MigrationScript.java" startLine="23" startPosition="0" endLine="27" endPosition="0" conceptFqName="jetbrains.mps.baseLanguage.structure.InstanceMethodDeclaration" propertyString="getFqNameOfConceptToSearchInstances#()Ljava/lang/String;" />
+    <nodeInfo nodeId="4882587297988985541" fileName="convert_DateTimeOperations_MigrationScript.java" startLine="27" startPosition="0" endLine="31" endPosition="0" conceptFqName="jetbrains.mps.baseLanguage.structure.InstanceMethodDeclaration" propertyString="isApplicableInstanceNode#(Ljetbrains/mps/smodel/SNode;)Z" />
+    <nodeInfo nodeId="4882587297988985541" fileName="convert_DateTimeOperations_MigrationScript.java" startLine="37" startPosition="0" endLine="41" endPosition="0" conceptFqName="jetbrains.mps.baseLanguage.structure.InstanceMethodDeclaration" propertyString="isShowAsIntention#()Z" />
+    <nodeInfo nodeId="4882587297988985547" fileName="convert_DateTimeOperations_MigrationScript.java" startLine="42" startPosition="76" endLine="46" endPosition="0" conceptFqName="jetbrains.mps.baseLanguage.structure.InstanceMethodDeclaration" propertyString="getName#()Ljava/lang/String;" />
+    <nodeInfo nodeId="4882587297988985547" fileName="convert_DateTimeOperations_MigrationScript.java" startLine="46" startPosition="0" endLine="50" endPosition="0" conceptFqName="jetbrains.mps.baseLanguage.structure.InstanceMethodDeclaration" propertyString="getAdditionalInfo#()Ljava/lang/String;" />
+    <nodeInfo nodeId="4882587297988985547" fileName="convert_DateTimeOperations_MigrationScript.java" startLine="50" startPosition="0" endLine="54" endPosition="0" conceptFqName="jetbrains.mps.baseLanguage.structure.InstanceMethodDeclaration" propertyString="getFqNameOfConceptToSearchInstances#()Ljava/lang/String;" />
+    <nodeInfo nodeId="4882587297988985547" fileName="convert_DateTimeOperations_MigrationScript.java" startLine="54" startPosition="0" endLine="58" endPosition="0" conceptFqName="jetbrains.mps.baseLanguage.structure.InstanceMethodDeclaration" propertyString="isApplicableInstanceNode#(Ljetbrains/mps/smodel/SNode;)Z" />
+    <nodeInfo nodeId="4882587297988985547" fileName="convert_DateTimeOperations_MigrationScript.java" startLine="64" startPosition="0" endLine="68" endPosition="0" conceptFqName="jetbrains.mps.baseLanguage.structure.InstanceMethodDeclaration" propertyString="isShowAsIntention#()Z" />
+    <nodeInfo nodeId="4882587297988985541" fileName="convert_DateTimeOperations_MigrationScript.java" startLine="31" startPosition="0" endLine="37" endPosition="0" conceptFqName="jetbrains.mps.baseLanguage.structure.InstanceMethodDeclaration" propertyString="doUpdateInstanceNode#(Ljetbrains/mps/smodel/SNode;)V" />
+    <nodeInfo nodeId="4882587297988985547" fileName="convert_DateTimeOperations_MigrationScript.java" startLine="58" startPosition="0" endLine="64" endPosition="0" conceptFqName="jetbrains.mps.baseLanguage.structure.InstanceMethodDeclaration" propertyString="doUpdateInstanceNode#(Ljetbrains/mps/smodel/SNode;)V" />
+    <nodeInfo nodeId="4882587297988985540" fileName="convert_DateTimeOperations_MigrationScript.java" startLine="14" startPosition="42" endLine="41" endPosition="7" conceptFqName="jetbrains.mps.baseLanguage.structure.BlockStatement" />
+    <nodeInfo nodeId="4882587297988985541" fileName="convert_DateTimeOperations_MigrationScript.java" startLine="14" startPosition="42" endLine="41" endPosition="7" conceptFqName="jetbrains.mps.baseLanguage.structure.ExpressionStatement" />
+    <nodeInfo nodeId="4882587297988985540" fileName="convert_DateTimeOperations_MigrationScript.java" startLine="41" startPosition="7" endLine="68" endPosition="7" conceptFqName="jetbrains.mps.baseLanguage.structure.BlockStatement" />
+    <nodeInfo nodeId="4882587297988985547" fileName="convert_DateTimeOperations_MigrationScript.java" startLine="41" startPosition="7" endLine="68" endPosition="7" conceptFqName="jetbrains.mps.baseLanguage.structure.ExpressionStatement" />
     <nodeInfo nodeId="4882587297988985540" fileName="convert_DateTimeOperations_MigrationScript.java" startLine="12" startPosition="85" endLine="69" endPosition="3" conceptFqName="jetbrains.mps.baseLanguage.structure.ConstructorDeclaration" propertyString="convert_DateTimeOperations_MigrationScript#(Ljetbrains/mps/smodel/IOperationContext;)V" />
-    <scopeInfo nodeId="4882587297988985540" fileName="convert_DateTimeOperations_MigrationScript.java" startLine="16" startPosition="31" endLine="17" endPosition="41" />
-    <scopeInfo nodeId="4882587297988985540" fileName="convert_DateTimeOperations_MigrationScript.java" startLine="20" startPosition="41" endLine="21" endPosition="41" />
-    <scopeInfo nodeId="4882587297988985540" fileName="convert_DateTimeOperations_MigrationScript.java" startLine="24" startPosition="59" endLine="25" endPosition="89" />
-    <scopeInfo nodeId="4882587297988985540" fileName="convert_DateTimeOperations_MigrationScript.java" startLine="28" startPosition="59" endLine="29" endPosition="20" />
-    <scopeInfo nodeId="4882587297988985540" fileName="convert_DateTimeOperations_MigrationScript.java" startLine="38" startPosition="42" endLine="39" endPosition="21" />
-    <scopeInfo nodeId="4882587297988985540" fileName="convert_DateTimeOperations_MigrationScript.java" startLine="43" startPosition="31" endLine="44" endPosition="40" />
-    <scopeInfo nodeId="4882587297988985540" fileName="convert_DateTimeOperations_MigrationScript.java" startLine="47" startPosition="41" endLine="48" endPosition="40" />
-    <scopeInfo nodeId="4882587297988985540" fileName="convert_DateTimeOperations_MigrationScript.java" startLine="51" startPosition="59" endLine="52" endPosition="88" />
-    <scopeInfo nodeId="4882587297988985540" fileName="convert_DateTimeOperations_MigrationScript.java" startLine="55" startPosition="59" endLine="56" endPosition="20" />
-    <scopeInfo nodeId="4882587297988985540" fileName="convert_DateTimeOperations_MigrationScript.java" startLine="65" startPosition="42" endLine="66" endPosition="21" />
+    <scopeInfo nodeId="4882587297988985541" fileName="convert_DateTimeOperations_MigrationScript.java" startLine="16" startPosition="31" endLine="17" endPosition="41" />
+    <scopeInfo nodeId="4882587297988985541" fileName="convert_DateTimeOperations_MigrationScript.java" startLine="20" startPosition="41" endLine="21" endPosition="41" />
+    <scopeInfo nodeId="4882587297988985541" fileName="convert_DateTimeOperations_MigrationScript.java" startLine="24" startPosition="59" endLine="25" endPosition="89" />
+    <scopeInfo nodeId="4882587297988985541" fileName="convert_DateTimeOperations_MigrationScript.java" startLine="28" startPosition="59" endLine="29" endPosition="20" />
+    <scopeInfo nodeId="4882587297988985541" fileName="convert_DateTimeOperations_MigrationScript.java" startLine="38" startPosition="42" endLine="39" endPosition="21" />
+    <scopeInfo nodeId="4882587297988985547" fileName="convert_DateTimeOperations_MigrationScript.java" startLine="43" startPosition="31" endLine="44" endPosition="40" />
+    <scopeInfo nodeId="4882587297988985547" fileName="convert_DateTimeOperations_MigrationScript.java" startLine="47" startPosition="41" endLine="48" endPosition="40" />
+    <scopeInfo nodeId="4882587297988985547" fileName="convert_DateTimeOperations_MigrationScript.java" startLine="51" startPosition="59" endLine="52" endPosition="88" />
+    <scopeInfo nodeId="4882587297988985547" fileName="convert_DateTimeOperations_MigrationScript.java" startLine="55" startPosition="59" endLine="56" endPosition="20" />
+    <scopeInfo nodeId="4882587297988985547" fileName="convert_DateTimeOperations_MigrationScript.java" startLine="65" startPosition="42" endLine="66" endPosition="21" />
     <scopeInfo nodeId="4882587297988985543" fileName="convert_DateTimeOperations_MigrationScript.java" startLine="32" startPosition="52" endLine="35" endPosition="129">
       <varInfo nodeId="5487985028841941309" varName="minusExpression" />
     </scopeInfo>
     <scopeInfo nodeId="4882587297988985549" fileName="convert_DateTimeOperations_MigrationScript.java" startLine="59" startPosition="52" endLine="62" endPosition="129">
       <varInfo nodeId="4882587297988985551" varName="minusExpression" />
     </scopeInfo>
-    <scopeInfo nodeId="4882587297988985540" fileName="convert_DateTimeOperations_MigrationScript.java" startLine="15" startPosition="76" endLine="19" endPosition="0" />
-    <scopeInfo nodeId="4882587297988985540" fileName="convert_DateTimeOperations_MigrationScript.java" startLine="19" startPosition="0" endLine="23" endPosition="0" />
-    <scopeInfo nodeId="4882587297988985540" fileName="convert_DateTimeOperations_MigrationScript.java" startLine="23" startPosition="0" endLine="27" endPosition="0" />
-    <scopeInfo nodeId="4882587297988985540" fileName="convert_DateTimeOperations_MigrationScript.java" startLine="27" startPosition="0" endLine="31" endPosition="0">
-      <varInfo nodeId="4882587297988985540" varName="node" />
+    <scopeInfo nodeId="4882587297988985541" fileName="convert_DateTimeOperations_MigrationScript.java" startLine="15" startPosition="76" endLine="19" endPosition="0" />
+    <scopeInfo nodeId="4882587297988985541" fileName="convert_DateTimeOperations_MigrationScript.java" startLine="19" startPosition="0" endLine="23" endPosition="0" />
+    <scopeInfo nodeId="4882587297988985541" fileName="convert_DateTimeOperations_MigrationScript.java" startLine="23" startPosition="0" endLine="27" endPosition="0" />
+    <scopeInfo nodeId="4882587297988985541" fileName="convert_DateTimeOperations_MigrationScript.java" startLine="27" startPosition="0" endLine="31" endPosition="0">
+      <varInfo nodeId="4882587297988985541" varName="node" />
     </scopeInfo>
-    <scopeInfo nodeId="4882587297988985540" fileName="convert_DateTimeOperations_MigrationScript.java" startLine="37" startPosition="0" endLine="41" endPosition="0" />
-    <scopeInfo nodeId="4882587297988985540" fileName="convert_DateTimeOperations_MigrationScript.java" startLine="42" startPosition="76" endLine="46" endPosition="0" />
-    <scopeInfo nodeId="4882587297988985540" fileName="convert_DateTimeOperations_MigrationScript.java" startLine="46" startPosition="0" endLine="50" endPosition="0" />
-    <scopeInfo nodeId="4882587297988985540" fileName="convert_DateTimeOperations_MigrationScript.java" startLine="50" startPosition="0" endLine="54" endPosition="0" />
-    <scopeInfo nodeId="4882587297988985540" fileName="convert_DateTimeOperations_MigrationScript.java" startLine="54" startPosition="0" endLine="58" endPosition="0">
-      <varInfo nodeId="4882587297988985540" varName="node" />
+    <scopeInfo nodeId="4882587297988985541" fileName="convert_DateTimeOperations_MigrationScript.java" startLine="37" startPosition="0" endLine="41" endPosition="0" />
+    <scopeInfo nodeId="4882587297988985547" fileName="convert_DateTimeOperations_MigrationScript.java" startLine="42" startPosition="76" endLine="46" endPosition="0" />
+    <scopeInfo nodeId="4882587297988985547" fileName="convert_DateTimeOperations_MigrationScript.java" startLine="46" startPosition="0" endLine="50" endPosition="0" />
+    <scopeInfo nodeId="4882587297988985547" fileName="convert_DateTimeOperations_MigrationScript.java" startLine="50" startPosition="0" endLine="54" endPosition="0" />
+    <scopeInfo nodeId="4882587297988985547" fileName="convert_DateTimeOperations_MigrationScript.java" startLine="54" startPosition="0" endLine="58" endPosition="0">
+      <varInfo nodeId="4882587297988985547" varName="node" />
     </scopeInfo>
-    <scopeInfo nodeId="4882587297988985540" fileName="convert_DateTimeOperations_MigrationScript.java" startLine="64" startPosition="0" endLine="68" endPosition="0" />
-    <scopeInfo nodeId="4882587297988985540" fileName="convert_DateTimeOperations_MigrationScript.java" startLine="31" startPosition="0" endLine="37" endPosition="0">
-      <varInfo nodeId="4882587297988985540" varName="node" />
+    <scopeInfo nodeId="4882587297988985547" fileName="convert_DateTimeOperations_MigrationScript.java" startLine="64" startPosition="0" endLine="68" endPosition="0" />
+    <scopeInfo nodeId="4882587297988985541" fileName="convert_DateTimeOperations_MigrationScript.java" startLine="31" startPosition="0" endLine="37" endPosition="0">
+      <varInfo nodeId="4882587297988985541" varName="node" />
     </scopeInfo>
-    <scopeInfo nodeId="4882587297988985540" fileName="convert_DateTimeOperations_MigrationScript.java" startLine="58" startPosition="0" endLine="64" endPosition="0">
-      <varInfo nodeId="4882587297988985540" varName="node" />
+    <scopeInfo nodeId="4882587297988985547" fileName="convert_DateTimeOperations_MigrationScript.java" startLine="58" startPosition="0" endLine="64" endPosition="0">
+      <varInfo nodeId="4882587297988985547" varName="node" />
     </scopeInfo>
+    <scopeInfo nodeId="4882587297988985541" fileName="convert_DateTimeOperations_MigrationScript.java" startLine="14" startPosition="42" endLine="41" endPosition="7" />
+    <scopeInfo nodeId="4882587297988985547" fileName="convert_DateTimeOperations_MigrationScript.java" startLine="41" startPosition="7" endLine="68" endPosition="7" />
     <scopeInfo nodeId="4882587297988985540" fileName="convert_DateTimeOperations_MigrationScript.java" startLine="13" startPosition="89" endLine="68" endPosition="7" />
     <scopeInfo nodeId="4882587297988985540" fileName="convert_DateTimeOperations_MigrationScript.java" startLine="12" startPosition="85" endLine="69" endPosition="3">
       <varInfo nodeId="4882587297988985540" varName="operationContext" />
     </scopeInfo>
-    <unitInfo nodeId="4882587297988985540" fileName="convert_DateTimeOperations_MigrationScript.java" startLine="15" startPosition="28" endLine="41" endPosition="5" unitName="jetbrains.mps.baseLanguage.dates.scripts.convert_DateTimeOperations_MigrationScript$1" />
-    <unitInfo nodeId="4882587297988985540" fileName="convert_DateTimeOperations_MigrationScript.java" startLine="42" startPosition="28" endLine="68" endPosition="5" unitName="jetbrains.mps.baseLanguage.dates.scripts.convert_DateTimeOperations_MigrationScript$2" />
+    <unitInfo nodeId="4882587297988985541" fileName="convert_DateTimeOperations_MigrationScript.java" startLine="15" startPosition="28" endLine="41" endPosition="5" unitName="jetbrains.mps.baseLanguage.dates.scripts.convert_DateTimeOperations_MigrationScript$1" />
+    <unitInfo nodeId="4882587297988985547" fileName="convert_DateTimeOperations_MigrationScript.java" startLine="42" startPosition="28" endLine="68" endPosition="5" unitName="jetbrains.mps.baseLanguage.dates.scripts.convert_DateTimeOperations_MigrationScript$2" />
     <unitInfo nodeId="4882587297988985540" fileName="convert_DateTimeOperations_MigrationScript.java" startLine="12" startPosition="0" endLine="71" endPosition="0" unitName="jetbrains.mps.baseLanguage.dates.scripts.convert_DateTimeOperations_MigrationScript" />
   </root>
 </debugInfo>
