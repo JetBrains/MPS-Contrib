@@ -96,7 +96,7 @@
     <nodeInfo nodeId="7727845083901385068" fileName="Dijkstra_Test.java" startLine="61" startPosition="0" endLine="76" endPosition="0" conceptFqName="jetbrains.mps.baseLanguage.structure.InstanceMethodDeclaration" propertyString="test_test4#()V" />
     <scopeInfo nodeId="1953828525454983908" fileName="Dijkstra_Test.java" startLine="82" startPosition="51" endLine="83" endPosition="55" />
     <scopeInfo nodeId="1953828525454983905" fileName="Dijkstra_Test.java" startLine="81" startPosition="19" endLine="84" endPosition="5">
-      <varInfo nodeId="1953828525454983905" varName="edge" />
+      <varInfo nodeId="1953828525454983906" varName="edge" />
     </scopeInfo>
     <scopeInfo nodeId="1953828525454983822" fileName="Dijkstra_Test.java" startLine="77" startPosition="107" endLine="85" endPosition="48">
       <varInfo nodeId="1953828525454983843" varName="finder" />
@@ -215,16 +215,16 @@
     <scopeInfo nodeId="228830736476020753" fileName="MinCirculation_Test.java" startLine="84" startPosition="68" endLine="85" endPosition="129" />
     <scopeInfo nodeId="228830736476020796" fileName="MinCirculation_Test.java" startLine="91" startPosition="79" endLine="92" endPosition="92" />
     <scopeInfo nodeId="228830736476021085" fileName="MinCirculation_Test.java" startLine="41" startPosition="59" endLine="44" endPosition="5">
-      <varInfo nodeId="228830736476021085" varName="edge" />
+      <varInfo nodeId="228830736476021086" varName="edge" />
     </scopeInfo>
     <scopeInfo nodeId="228830736476023033" fileName="MinCirculation_Test.java" startLine="66" startPosition="59" endLine="69" endPosition="5">
-      <varInfo nodeId="228830736476023033" varName="edge" />
+      <varInfo nodeId="228830736476023034" varName="edge" />
     </scopeInfo>
     <scopeInfo nodeId="228830736476020752" fileName="MinCirculation_Test.java" startLine="83" startPosition="44" endLine="86" endPosition="5">
       <varInfo nodeId="228830736476020764" varName="i" />
     </scopeInfo>
     <scopeInfo nodeId="228830736476020791" fileName="MinCirculation_Test.java" startLine="90" startPosition="21" endLine="93" endPosition="5">
-      <varInfo nodeId="228830736476020791" varName="edge" />
+      <varInfo nodeId="228830736476020792" varName="edge" />
     </scopeInfo>
     <scopeInfo nodeId="228830736476020744" fileName="MinCirculation_Test.java" startLine="82" startPosition="92" endLine="86" endPosition="5">
       <varInfo nodeId="228830736476020746" varName="edges" />
@@ -309,28 +309,28 @@
     <scopeInfo nodeId="228830736476019074" fileName="FlowChecker.java" startLine="35" startPosition="63" endLine="37" endPosition="106" />
     <scopeInfo nodeId="3935697627027920277" fileName="FlowChecker.java" startLine="19" startPosition="63" endLine="22" endPosition="7" />
     <scopeInfo nodeId="3935697627027920383" fileName="FlowChecker.java" startLine="24" startPosition="20" endLine="27" endPosition="7">
-      <varInfo nodeId="3935697627027920383" varName="edge" />
+      <varInfo nodeId="3935697627027920384" varName="edge" />
     </scopeInfo>
     <scopeInfo nodeId="3935697627027920414" fileName="FlowChecker.java" startLine="27" startPosition="7" endLine="30" endPosition="7">
-      <varInfo nodeId="3935697627027920414" varName="edge" />
+      <varInfo nodeId="3935697627027920415" varName="edge" />
     </scopeInfo>
     <scopeInfo nodeId="228830736476019089" fileName="FlowChecker.java" startLine="38" startPosition="5" endLine="41" endPosition="5">
-      <varInfo nodeId="228830736476019089" varName="node" />
+      <varInfo nodeId="228830736476019090" varName="node" />
     </scopeInfo>
     <scopeInfo nodeId="228830736476019013" fileName="FlowChecker.java" startLine="45" startPosition="19" endLine="48" endPosition="5">
-      <varInfo nodeId="228830736476019013" varName="edge" />
+      <varInfo nodeId="228830736476018996" varName="edge" />
     </scopeInfo>
     <scopeInfo nodeId="228830736476019027" fileName="FlowChecker.java" startLine="49" startPosition="20" endLine="52" endPosition="5">
-      <varInfo nodeId="228830736476019027" varName="edge" />
+      <varInfo nodeId="228830736476018998" varName="edge" />
     </scopeInfo>
     <scopeInfo nodeId="3935697627027920235" fileName="FlowChecker.java" startLine="14" startPosition="144" endLine="18" endPosition="5">
-      <varInfo nodeId="3935697627027920235" varName="edge" />
+      <varInfo nodeId="3935697627027920236" varName="edge" />
     </scopeInfo>
     <scopeInfo nodeId="228830736476019069" fileName="FlowChecker.java" startLine="34" startPosition="137" endLine="38" endPosition="5">
-      <varInfo nodeId="228830736476019069" varName="edge" />
+      <varInfo nodeId="228830736476019070" varName="edge" />
     </scopeInfo>
     <scopeInfo nodeId="3935697627027920274" fileName="FlowChecker.java" startLine="18" startPosition="5" endLine="23" endPosition="5">
-      <varInfo nodeId="3935697627027920274" varName="node" />
+      <varInfo nodeId="3935697627027920275" varName="node" />
     </scopeInfo>
     <scopeInfo nodeId="3935697627027920360" fileName="FlowChecker.java" startLine="24" startPosition="20" endLine="30" endPosition="7" />
     <scopeInfo nodeId="228830736476019049" fileName="FlowChecker.java" startLine="34" startPosition="137" endLine="41" endPosition="5" />
@@ -416,7 +416,7 @@
       <varInfo nodeId="4189203018295132236" varName="groupTarget" />
     </scopeInfo>
     <scopeInfo nodeId="4189203018295045370" fileName="GroupedGraphModificationSynchronizer_Test.java" startLine="38" startPosition="77" endLine="45" endPosition="5">
-      <varInfo nodeId="4189203018295045370" varName="edge" />
+      <varInfo nodeId="4189203018295045371" varName="edge" />
     </scopeInfo>
     <scopeInfo nodeId="4189203018295045242" fileName="GroupedGraphModificationSynchronizer_Test.java" startLine="24" startPosition="45" endLine="56" endPosition="140">
       <varInfo nodeId="4189203018295045392" varName="edgeMap" />
@@ -557,20 +557,20 @@
     <scopeInfo nodeId="5213231752900628652" fileName="STNumberingChecker.java" startLine="17" startPosition="63" endLine="18" endPosition="82" />
     <scopeInfo nodeId="5213231752900628691" fileName="STNumberingChecker.java" startLine="23" startPosition="45" endLine="24" endPosition="17" />
     <scopeInfo nodeId="5213231752900628649" fileName="STNumberingChecker.java" startLine="16" startPosition="23" endLine="19" endPosition="5">
-      <varInfo nodeId="5213231752900628649" varName="node" />
+      <varInfo nodeId="5213231752900628650" varName="node" />
     </scopeInfo>
     <scopeInfo nodeId="5213231752900628731" fileName="STNumberingChecker.java" startLine="28" startPosition="64" endLine="31" endPosition="77">
       <varInfo nodeId="5213231752900628746" varName="adj" />
     </scopeInfo>
     <scopeInfo nodeId="5213231752900628728" fileName="STNumberingChecker.java" startLine="27" startPosition="22" endLine="32" endPosition="7">
-      <varInfo nodeId="5213231752900628728" varName="edge" />
+      <varInfo nodeId="5213231752900628729" varName="edge" />
     </scopeInfo>
     <scopeInfo nodeId="5213231752900628682" fileName="STNumberingChecker.java" startLine="22" startPosition="63" endLine="34" endPosition="77">
       <varInfo nodeId="5213231752900628723" varName="maxAdj" />
       <varInfo nodeId="5213231752900628708" varName="minAdj" />
     </scopeInfo>
     <scopeInfo nodeId="5213231752900628679" fileName="STNumberingChecker.java" startLine="21" startPosition="91" endLine="35" endPosition="5">
-      <varInfo nodeId="5213231752900628679" varName="node" />
+      <varInfo nodeId="5213231752900628680" varName="node" />
     </scopeInfo>
     <scopeInfo nodeId="5213231752900628610" fileName="STNumberingChecker.java" startLine="15" startPosition="99" endLine="36" endPosition="58">
       <varInfo nodeId="5213231752900628644" varName="maxNumber" />
@@ -613,7 +613,7 @@
     <scopeInfo nodeId="5488345258545816645" fileName="BiconnectAugmentationStressTest.java" startLine="16" startPosition="46" endLine="18" endPosition="3" />
     <scopeInfo nodeId="5488345258545816740" fileName="BiconnectAugmentationStressTest.java" startLine="30" startPosition="65" endLine="33" endPosition="9" />
     <scopeInfo nodeId="5488345258545816735" fileName="BiconnectAugmentationStressTest.java" startLine="29" startPosition="36" endLine="34" endPosition="7">
-      <varInfo nodeId="5488345258545816735" varName="node" />
+      <varInfo nodeId="5488345258545816736" varName="node" />
     </scopeInfo>
     <scopeInfo nodeId="5488345258545816754" fileName="BiconnectAugmentationStressTest.java" startLine="35" startPosition="27" endLine="40" endPosition="43">
       <varInfo nodeId="5488345258545816756" varName="out" />
@@ -686,7 +686,7 @@
     <scopeInfo nodeId="6074874003310499816" fileName="BiconnectivityChecker.java" startLine="40" startPosition="51" endLine="42" endPosition="47" />
     <scopeInfo nodeId="6074874003310499990" fileName="BiconnectivityChecker.java" startLine="57" startPosition="29" endLine="59" endPosition="62" />
     <scopeInfo nodeId="6074874003310500120" fileName="BiconnectivityChecker.java" startLine="33" startPosition="50" endLine="36" endPosition="5">
-      <varInfo nodeId="6074874003310500120" varName="node" />
+      <varInfo nodeId="6074874003310500121" varName="node" />
     </scopeInfo>
     <scopeInfo nodeId="6074874003310499838" fileName="BiconnectivityChecker.java" startLine="46" startPosition="54" endLine="50" endPosition="5">
       <varInfo nodeId="6074874003310499840" varName="next" />
@@ -811,10 +811,10 @@
     <scopeInfo nodeId="7727845083901344011" fileName="MinCostMaxFlowWithPotentials_Test.java" startLine="39" startPosition="63" endLine="40" endPosition="93" />
     <scopeInfo nodeId="7727845083901372067" fileName="MinCostMaxFlowWithPotentials_Test.java" startLine="26" startPosition="52" endLine="28" endPosition="45" />
     <scopeInfo nodeId="7727845083901344006" fileName="MinCostMaxFlowWithPotentials_Test.java" startLine="38" startPosition="22" endLine="41" endPosition="5">
-      <varInfo nodeId="7727845083901344006" varName="edge" />
+      <varInfo nodeId="7727845083901344007" varName="edge" />
     </scopeInfo>
     <scopeInfo nodeId="7727845083901372064" fileName="MinCostMaxFlowWithPotentials_Test.java" startLine="25" startPosition="40" endLine="29" endPosition="5">
-      <varInfo nodeId="7727845083901372064" varName="edge" />
+      <varInfo nodeId="7727845083901372065" varName="edge" />
     </scopeInfo>
     <scopeInfo nodeId="7727845083901343953" fileName="MinCostMaxFlowWithPotentials_Test.java" startLine="35" startPosition="135" endLine="42" endPosition="49">
       <varInfo nodeId="7727845083901343955" varName="flow" />
@@ -906,13 +906,13 @@
     <scopeInfo nodeId="7851503458189909344" fileName="CompareFlowStressTest.java" startLine="21" startPosition="36" endLine="23" endPosition="3" />
     <scopeInfo nodeId="7851503458189909644" fileName="CompareFlowStressTest.java" startLine="48" startPosition="65" endLine="50" endPosition="63" />
     <scopeInfo nodeId="7851503458189916020" fileName="CompareFlowStressTest.java" startLine="53" startPosition="37" endLine="56" endPosition="7">
-      <varInfo nodeId="7851503458189916020" varName="edge" />
+      <varInfo nodeId="7851503458189916021" varName="edge" />
     </scopeInfo>
     <scopeInfo nodeId="7851503458189916098" fileName="CompareFlowStressTest.java" startLine="80" startPosition="21" endLine="83" endPosition="5">
-      <varInfo nodeId="7851503458189916098" varName="edge" />
+      <varInfo nodeId="7851503458189916099" varName="edge" />
     </scopeInfo>
     <scopeInfo nodeId="7851503458189909639" fileName="CompareFlowStressTest.java" startLine="47" startPosition="82" endLine="51" endPosition="7">
-      <varInfo nodeId="7851503458189909639" varName="edge" />
+      <varInfo nodeId="7851503458189909640" varName="edge" />
     </scopeInfo>
     <scopeInfo nodeId="7851503458189934602" fileName="CompareFlowStressTest.java" startLine="88" startPosition="79" endLine="92" endPosition="7">
       <varInfo nodeId="7851503458189934610" varName="edgeFlow" />
@@ -923,10 +923,10 @@
     <scopeInfo nodeId="7851503458189909531" fileName="CompareFlowStressTest.java" startLine="37" startPosition="65" endLine="43" endPosition="12" />
     <scopeInfo nodeId="7851503458189934592" fileName="CompareFlowStressTest.java" startLine="87" startPosition="57" endLine="93" endPosition="5" />
     <scopeInfo nodeId="7851503458189934599" fileName="CompareFlowStressTest.java" startLine="87" startPosition="57" endLine="93" endPosition="5">
-      <varInfo nodeId="7851503458189934599" varName="edge" />
+      <varInfo nodeId="7851503458189934600" varName="edge" />
     </scopeInfo>
     <scopeInfo nodeId="7851503458189909528" fileName="CompareFlowStressTest.java" startLine="36" startPosition="16" endLine="44" endPosition="7">
-      <varInfo nodeId="7851503458189909528" varName="node" />
+      <varInfo nodeId="7851503458189909529" varName="node" />
     </scopeInfo>
     <scopeInfo nodeId="7851503458189916073" fileName="CompareFlowStressTest.java" startLine="78" startPosition="0" endLine="86" endPosition="0">
       <varInfo nodeId="7851503458189916079" varName="flow" />
@@ -1046,7 +1046,7 @@
       <varInfo nodeId="9057893087611426420" varName="i" />
     </scopeInfo>
     <scopeInfo nodeId="9057893087611433081" fileName="MinCostMaxFlow_Test.java" startLine="79" startPosition="21" endLine="82" endPosition="5">
-      <varInfo nodeId="9057893087611433081" varName="edge" />
+      <varInfo nodeId="9057893087611433082" varName="edge" />
     </scopeInfo>
     <scopeInfo nodeId="9057893087611426352" fileName="MinCostMaxFlow_Test.java" startLine="71" startPosition="92" endLine="75" endPosition="5">
       <varInfo nodeId="9057893087611426397" varName="edges" />

@@ -19,7 +19,7 @@ public class AbstractEnhancedConceptFunction_Behavior {
   }
 
   public static List<SNode> virtual_getParameters_1213877374450(SNode thisNode) {
-    List<SNode> conceptFunctionParameterConcepts = ConceptFunction_Behavior.callSuper_getParameters_1213877374450(thisNode, "jetbrains.mps.execution.configurations.deprecated.structure.AbstractEnhancedConceptFunction");
+    List<SNode> conceptFunctionParameterConcepts = ConceptFunction_Behavior.callSuperNew_getParameters_1213877374450(thisNode, "jetbrains.mps.baseLanguage.structure.ConceptFunction");
 
     SNode parametrizedExecuteBlock = SNodeOperations.getAncestor(thisNode, "jetbrains.mps.execution.configurations.deprecated.structure.ParametrizedExecuteBlock", false, false);
     if ((parametrizedExecuteBlock != null) && (SLinkOperations.getTarget(parametrizedExecuteBlock, "executeParameterQuery", true) != null)) {

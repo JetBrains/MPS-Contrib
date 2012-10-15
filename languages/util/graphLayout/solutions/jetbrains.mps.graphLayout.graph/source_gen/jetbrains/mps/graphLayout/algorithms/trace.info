@@ -58,11 +58,11 @@
     <scopeInfo nodeId="5213231752900627204" fileName="STNumbering.java" startLine="49" startPosition="0" endLine="51" endPosition="5" />
     <scopeInfo nodeId="5213231752900627145" fileName="STNumbering.java" startLine="19" startPosition="64" endLine="22" endPosition="7" />
     <scopeInfo nodeId="5213231752900628284" fileName="STNumbering.java" startLine="34" startPosition="19" endLine="37" endPosition="5">
-      <varInfo nodeId="5213231752900628284" varName="node" />
+      <varInfo nodeId="5213231752900628285" varName="node" />
     </scopeInfo>
     <scopeInfo nodeId="5213231752900627597" fileName="STNumbering.java" startLine="78" startPosition="0" endLine="82" endPosition="0" />
     <scopeInfo nodeId="5213231752900627143" fileName="STNumbering.java" startLine="18" startPosition="32" endLine="23" endPosition="5">
-      <varInfo nodeId="5213231752900627143" varName="edge" />
+      <varInfo nodeId="5213231752900627144" varName="edge" />
     </scopeInfo>
     <scopeInfo nodeId="5213231752900627580" fileName="STNumbering.java" startLine="67" startPosition="29" endLine="75" endPosition="118">
       <varInfo nodeId="5213231752900627398" varName="nodeIndex" />
@@ -125,7 +125,7 @@
       <varInfo nodeId="1654665216152488946" varName="targetNum" />
     </scopeInfo>
     <scopeInfo nodeId="1654665216152488903" fileName="GraphOrientation.java" startLine="14" startPosition="79" endLine="21" endPosition="5">
-      <varInfo nodeId="1654665216152488903" varName="edge" />
+      <varInfo nodeId="1654665216152488904" varName="edge" />
     </scopeInfo>
     <scopeInfo nodeId="4644851485137274645" fileName="GraphOrientation.java" startLine="24" startPosition="0" endLine="31" endPosition="0">
       <varInfo nodeId="4644851485137274659" varName="graph" />
@@ -216,10 +216,10 @@
     <scopeInfo nodeId="1953828525454980115" fileName="Dijkstra.java" startLine="100" startPosition="60" endLine="102" endPosition="5" />
     <scopeInfo nodeId="1953828525454955936" fileName="Dijkstra.java" startLine="27" startPosition="73" endLine="30" endPosition="24" />
     <scopeInfo nodeId="1953828525454961191" fileName="Dijkstra.java" startLine="72" startPosition="61" endLine="75" endPosition="5">
-      <varInfo nodeId="1953828525454961191" varName="node" />
+      <varInfo nodeId="1953828525454961192" varName="node" />
     </scopeInfo>
     <scopeInfo nodeId="1953828525454980224" fileName="Dijkstra.java" startLine="76" startPosition="49" endLine="79" endPosition="5">
-      <varInfo nodeId="1953828525454980224" varName="node" />
+      <varInfo nodeId="1953828525454980225" varName="node" />
     </scopeInfo>
     <scopeInfo nodeId="1953828525454980442" fileName="Dijkstra.java" startLine="88" startPosition="29" endLine="91" endPosition="34">
       <varInfo nodeId="1953828525454980444" varName="prev" />
@@ -259,7 +259,7 @@
       <varInfo nodeId="1953828525454980465" varName="target" />
     </scopeInfo>
     <scopeInfo nodeId="1953828525454979979" fileName="Dijkstra.java" startLine="48" startPosition="26" endLine="65" endPosition="7">
-      <varInfo nodeId="1953828525454979979" varName="edge" />
+      <varInfo nodeId="1953828525454979980" varName="edge" />
     </scopeInfo>
     <scopeInfo nodeId="1953828525454979964" fileName="Dijkstra.java" startLine="43" startPosition="30" endLine="65" endPosition="7">
       <varInfo nodeId="1953828525454979973" varName="first" />
@@ -339,11 +339,11 @@
     <scopeInfo nodeId="1953828525455084635" fileName="MinCostMaxFlowWithPotentials.java" startLine="75" startPosition="103" endLine="76" endPosition="58" />
     <scopeInfo nodeId="1953828525455084453" fileName="MinCostMaxFlowWithPotentials.java" startLine="81" startPosition="55" endLine="82" endPosition="29" />
     <scopeInfo nodeId="1953828525455084362" fileName="MinCostMaxFlowWithPotentials.java" startLine="53" startPosition="44" endLine="56" endPosition="9">
-      <varInfo nodeId="1953828525455084362" varName="edge" />
+      <varInfo nodeId="1953828525455084363" varName="edge" />
     </scopeInfo>
     <scopeInfo nodeId="1953828525455084419" fileName="MinCostMaxFlowWithPotentials.java" startLine="63" startPosition="18" endLine="66" endPosition="124" />
     <scopeInfo nodeId="1953828525455084450" fileName="MinCostMaxFlowWithPotentials.java" startLine="80" startPosition="5" endLine="83" endPosition="5">
-      <varInfo nodeId="1953828525455084450" varName="edge" />
+      <varInfo nodeId="1953828525455084451" varName="edge" />
     </scopeInfo>
     <scopeInfo nodeId="1953828525455084459" fileName="MinCostMaxFlowWithPotentials.java" startLine="84" startPosition="53" endLine="87" endPosition="105" />
     <scopeInfo nodeId="1953828525455084328" fileName="MinCostMaxFlowWithPotentials.java" startLine="44" startPosition="88" endLine="48" endPosition="0">
@@ -357,14 +357,14 @@
       <varInfo nodeId="1953828525455084267" varName="oppositeEdge" />
     </scopeInfo>
     <scopeInfo nodeId="1953828525455084578" fileName="MinCostMaxFlowWithPotentials.java" startLine="69" startPosition="71" endLine="78" endPosition="9">
-      <varInfo nodeId="1953828525455084578" varName="edge" />
+      <varInfo nodeId="1953828525455084579" varName="edge" />
     </scopeInfo>
     <scopeInfo nodeId="1953828525455084377" fileName="MinCostMaxFlowWithPotentials.java" startLine="57" startPosition="55" endLine="67" endPosition="11" />
     <scopeInfo nodeId="1953828525455084246" fileName="MinCostMaxFlowWithPotentials.java" startLine="27" startPosition="68" endLine="38" endPosition="5">
-      <varInfo nodeId="1953828525455084246" varName="edge" />
+      <varInfo nodeId="1953828525455084247" varName="edge" />
     </scopeInfo>
     <scopeInfo nodeId="1953828525455084374" fileName="MinCostMaxFlowWithPotentials.java" startLine="56" startPosition="9" endLine="68" endPosition="9">
-      <varInfo nodeId="1953828525455084374" varName="edge" />
+      <varInfo nodeId="1953828525455084375" varName="edge" />
     </scopeInfo>
     <scopeInfo nodeId="1953828525455084357" fileName="MinCostMaxFlowWithPotentials.java" startLine="52" startPosition="14" endLine="78" endPosition="9">
       <varInfo nodeId="1953828525455084570" varName="distance" />
@@ -457,26 +457,26 @@
     <scopeInfo nodeId="228830736476024023" fileName="MinCostCirculation.java" startLine="41" startPosition="28" endLine="43" endPosition="50" />
     <scopeInfo nodeId="7727845083901418331" fileName="MinCostCirculation.java" startLine="53" startPosition="67" endLine="55" endPosition="110" />
     <scopeInfo nodeId="228830736476016193" fileName="MinCostCirculation.java" startLine="19" startPosition="37" endLine="22" endPosition="5">
-      <varInfo nodeId="228830736476016193" varName="edge" />
+      <varInfo nodeId="228830736476016194" varName="edge" />
     </scopeInfo>
     <scopeInfo nodeId="228830736476016026" fileName="MinCostCirculation.java" startLine="27" startPosition="19" endLine="30" endPosition="7">
-      <varInfo nodeId="228830736476016026" varName="edge" />
+      <varInfo nodeId="228830736476016027" varName="edge" />
     </scopeInfo>
     <scopeInfo nodeId="228830736476016048" fileName="MinCostCirculation.java" startLine="30" startPosition="7" endLine="33" endPosition="7">
-      <varInfo nodeId="228830736476016048" varName="edge" />
+      <varInfo nodeId="228830736476016049" varName="edge" />
     </scopeInfo>
     <scopeInfo nodeId="228830736476016258" fileName="MinCostCirculation.java" startLine="65" startPosition="69" endLine="68" endPosition="9" />
     <scopeInfo nodeId="228830736476016318" fileName="MinCostCirculation.java" startLine="70" startPosition="6" endLine="73" endPosition="5">
-      <varInfo nodeId="228830736476016318" varName="edge" />
+      <varInfo nodeId="228830736476016319" varName="edge" />
     </scopeInfo>
     <scopeInfo nodeId="228830736476024899" fileName="MinCostCirculation.java" startLine="75" startPosition="29" endLine="78" endPosition="5">
-      <varInfo nodeId="228830736476024899" varName="edge" />
+      <varInfo nodeId="228830736476024900" varName="edge" />
     </scopeInfo>
     <scopeInfo nodeId="7727845083901418328" fileName="MinCostCirculation.java" startLine="52" startPosition="32" endLine="56" endPosition="9">
-      <varInfo nodeId="7727845083901418328" varName="edge" />
+      <varInfo nodeId="7727845083901418329" varName="edge" />
     </scopeInfo>
     <scopeInfo nodeId="228830736476016255" fileName="MinCostCirculation.java" startLine="64" startPosition="6" endLine="69" endPosition="7">
-      <varInfo nodeId="228830736476016255" varName="edge" />
+      <varInfo nodeId="228830736476016256" varName="edge" />
     </scopeInfo>
     <scopeInfo nodeId="1953828525455088161" fileName="MinCostCirculation.java" startLine="47" startPosition="24" endLine="60" endPosition="8" />
     <scopeInfo nodeId="228830736476016002" fileName="MinCostCirculation.java" startLine="23" startPosition="63" endLine="44" endPosition="7">
@@ -484,7 +484,7 @@
       <varInfo nodeId="228830736476023999" varName="newEdge" />
     </scopeInfo>
     <scopeInfo nodeId="228830736476015999" fileName="MinCostCirculation.java" startLine="22" startPosition="5" endLine="45" endPosition="5">
-      <varInfo nodeId="228830736476015999" varName="node" />
+      <varInfo nodeId="228830736476016000" varName="node" />
     </scopeInfo>
     <scopeInfo nodeId="228830736476010503" fileName="MinCostCirculation.java" startLine="16" startPosition="149" endLine="79" endPosition="16">
       <varInfo nodeId="228830736476016181" varName="capacity" />
@@ -618,7 +618,7 @@
     <scopeInfo nodeId="4644851485137246201" fileName="BiconnectedComponent.java" startLine="44" startPosition="0" endLine="48" endPosition="0" />
     <scopeInfo nodeId="4644851485137246278" fileName="BiconnectedComponent.java" startLine="48" startPosition="0" endLine="52" endPosition="0" />
     <scopeInfo nodeId="4644851485137246881" fileName="BiconnectedComponent.java" startLine="89" startPosition="127" endLine="93" endPosition="5">
-      <varInfo nodeId="4644851485137246881" varName="child" />
+      <varInfo nodeId="4644851485137246882" varName="child" />
     </scopeInfo>
     <scopeInfo nodeId="4644851485137244690" fileName="BiconnectedComponent.java" startLine="112" startPosition="0" endLine="116" endPosition="5">
       <varInfo nodeId="4644851485137244919" varName="low" />
@@ -651,7 +651,7 @@
       <varInfo nodeId="529057043639383821" varName="cutpoint" />
     </scopeInfo>
     <scopeInfo nodeId="4644851485137246158" fileName="BiconnectedComponent.java" startLine="144" startPosition="7" endLine="150" endPosition="7">
-      <varInfo nodeId="4644851485137246158" varName="edge" />
+      <varInfo nodeId="4644851485137246159" varName="edge" />
     </scopeInfo>
     <scopeInfo nodeId="4644851485137246837" fileName="BiconnectedComponent.java" startLine="87" startPosition="41" endLine="94" endPosition="30">
       <varInfo nodeId="4644851485137246845" varName="builder" />
@@ -834,7 +834,7 @@
     </scopeInfo>
     <scopeInfo nodeId="4179389957059012371" fileName="ShortestPath.java" startLine="43" startPosition="72" endLine="51" endPosition="9" />
     <scopeInfo nodeId="4179389957059012368" fileName="ShortestPath.java" startLine="42" startPosition="7" endLine="52" endPosition="7">
-      <varInfo nodeId="4179389957059012368" varName="edge" />
+      <varInfo nodeId="4179389957059012369" varName="edge" />
     </scopeInfo>
     <scopeInfo nodeId="4179389957059012332" fileName="ShortestPath.java" startLine="37" startPosition="56" endLine="52" endPosition="7">
       <varInfo nodeId="4179389957059012358" varName="cur" />
@@ -971,7 +971,7 @@
     <scopeInfo nodeId="7953585273259917364" fileName="FordBellman.java" startLine="122" startPosition="31" endLine="124" endPosition="20" />
     <scopeInfo nodeId="4250605017401923984" fileName="FordBellman.java" startLine="29" startPosition="76" endLine="32" endPosition="24" />
     <scopeInfo nodeId="4250605017401924094" fileName="FordBellman.java" startLine="72" startPosition="43" endLine="75" endPosition="5">
-      <varInfo nodeId="4250605017401924094" varName="node" />
+      <varInfo nodeId="4250605017401924095" varName="node" />
     </scopeInfo>
     <scopeInfo nodeId="4250605017401924314" fileName="FordBellman.java" startLine="85" startPosition="29" endLine="88" endPosition="34">
       <varInfo nodeId="4250605017401928009" varName="prev" />
@@ -1000,14 +1000,14 @@
     <scopeInfo nodeId="4250605017401932557" fileName="FordBellman.java" startLine="60" startPosition="29" endLine="65" endPosition="29" />
     <scopeInfo nodeId="7953585273259917340" fileName="FordBellman.java" startLine="120" startPosition="63" endLine="125" endPosition="13" />
     <scopeInfo nodeId="7953585273259922420" fileName="FordBellman.java" startLine="152" startPosition="7" endLine="157" endPosition="7">
-      <varInfo nodeId="7953585273259922420" varName="anotherNode" />
+      <varInfo nodeId="7953585273259922421" varName="anotherNode" />
     </scopeInfo>
     <scopeInfo nodeId="4250605017401928120" fileName="FordBellman.java" startLine="48" startPosition="13" endLine="54" endPosition="11">
       <varInfo nodeId="4250605017401928122" varName="target" />
       <varInfo nodeId="4250605017401928136" varName="targetDist" />
     </scopeInfo>
     <scopeInfo nodeId="7953585273259917337" fileName="FordBellman.java" startLine="119" startPosition="27" endLine="126" endPosition="11">
-      <varInfo nodeId="7953585273259917337" varName="cycleEdge" />
+      <varInfo nodeId="7953585273259917338" varName="cycleEdge" />
     </scopeInfo>
     <scopeInfo nodeId="4250605017401932554" fileName="FordBellman.java" startLine="59" startPosition="0" endLine="67" endPosition="0" />
     <scopeInfo nodeId="4250605017401924065" fileName="FordBellman.java" startLine="68" startPosition="117" endLine="76" endPosition="49" />
@@ -1020,7 +1020,7 @@
       <varInfo nodeId="4250605017401924299" varName="path" />
     </scopeInfo>
     <scopeInfo nodeId="4250605017401928117" fileName="FordBellman.java" startLine="43" startPosition="9" endLine="55" endPosition="9">
-      <varInfo nodeId="4250605017401928117" varName="edge" />
+      <varInfo nodeId="4250605017401928118" varName="edge" />
     </scopeInfo>
     <scopeInfo nodeId="4250605017401924285" fileName="FordBellman.java" startLine="78" startPosition="0" endLine="92" endPosition="0">
       <varInfo nodeId="4250605017401924296" varName="target" />
@@ -1033,11 +1033,11 @@
       <varInfo nodeId="7953585273259917021" varName="sourceDist" />
     </scopeInfo>
     <scopeInfo nodeId="7953585273259917465" fileName="FordBellman.java" startLine="142" startPosition="65" endLine="158" endPosition="5">
-      <varInfo nodeId="7953585273259917465" varName="node" />
+      <varInfo nodeId="7953585273259917466" varName="node" />
     </scopeInfo>
     <scopeInfo nodeId="4250605017401924133" fileName="FordBellman.java" startLine="38" startPosition="66" endLine="56" endPosition="7" />
     <scopeInfo nodeId="4250605017401928107" fileName="FordBellman.java" startLine="38" startPosition="66" endLine="56" endPosition="7">
-      <varInfo nodeId="4250605017401928107" varName="node" />
+      <varInfo nodeId="4250605017401928108" varName="node" />
     </scopeInfo>
     <scopeInfo nodeId="7953585273259917408" fileName="FordBellman.java" startLine="141" startPosition="182" endLine="159" endPosition="16">
       <varInfo nodeId="7953585273259917451" varName="visited" />
@@ -1068,13 +1068,13 @@
       <varInfo nodeId="7953585273259917098" varName="targetDist" />
     </scopeInfo>
     <scopeInfo nodeId="7953585273259917072" fileName="FordBellman.java" startLine="98" startPosition="7" endLine="132" endPosition="7">
-      <varInfo nodeId="7953585273259917072" varName="edge" />
+      <varInfo nodeId="7953585273259917073" varName="edge" />
     </scopeInfo>
     <scopeInfo nodeId="7953585273259917059" fileName="FordBellman.java" startLine="94" startPosition="65" endLine="132" endPosition="7">
       <varInfo nodeId="7953585273259917061" varName="sourceDist" />
     </scopeInfo>
     <scopeInfo nodeId="7953585273259917054" fileName="FordBellman.java" startLine="93" startPosition="59" endLine="133" endPosition="5">
-      <varInfo nodeId="7953585273259917054" varName="node" />
+      <varInfo nodeId="7953585273259917055" varName="node" />
     </scopeInfo>
     <scopeInfo nodeId="7953585273259917040" fileName="FordBellman.java" startLine="93" startPosition="59" endLine="134" endPosition="16" />
     <scopeInfo nodeId="7953585273259917037" fileName="FordBellman.java" startLine="92" startPosition="0" endLine="136" endPosition="0" />
@@ -1152,7 +1152,7 @@
     <scopeInfo nodeId="4660430665333277273" fileName="Dfs.java" startLine="23" startPosition="0" endLine="25" endPosition="3" />
     <scopeInfo nodeId="4660430665333277361" fileName="Dfs.java" startLine="42" startPosition="74" endLine="45" endPosition="30" />
     <scopeInfo nodeId="1654665216152485559" fileName="Dfs.java" startLine="62" startPosition="28" endLine="65" endPosition="5">
-      <varInfo nodeId="1654665216152485559" varName="node" />
+      <varInfo nodeId="1654665216152485535" varName="node" />
     </scopeInfo>
     <scopeInfo nodeId="4519409331094802661" fileName="Dfs.java" startLine="83" startPosition="0" endLine="86" endPosition="0">
       <varInfo nodeId="529057043639072441" varName="root" />
@@ -1190,7 +1190,7 @@
       <varInfo nodeId="4660430665333277474" varName="target" />
     </scopeInfo>
     <scopeInfo nodeId="4660430665333277337" fileName="Dfs.java" startLine="40" startPosition="44" endLine="47" endPosition="5">
-      <varInfo nodeId="4660430665333277337" varName="node" />
+      <varInfo nodeId="4660430665333277338" varName="node" />
     </scopeInfo>
     <scopeInfo nodeId="1654665216152485543" fileName="Dfs.java" startLine="58" startPosition="133" endLine="65" endPosition="5" />
     <scopeInfo nodeId="4660430665333277434" fileName="Dfs.java" startLine="71" startPosition="93" endLine="78" endPosition="7" />
@@ -1204,7 +1204,7 @@
       <varInfo nodeId="3182425861591375273" varName="graph" />
     </scopeInfo>
     <scopeInfo nodeId="4660430665333277431" fileName="Dfs.java" startLine="70" startPosition="27" endLine="79" endPosition="5">
-      <varInfo nodeId="4660430665333277431" varName="edge" />
+      <varInfo nodeId="4660430665333277432" varName="edge" />
     </scopeInfo>
     <scopeInfo nodeId="1654665216152485538" fileName="Dfs.java" startLine="57" startPosition="0" endLine="67" endPosition="0">
       <varInfo nodeId="1654665216152485537" varName="direction" />
@@ -1310,14 +1310,14 @@
       <varInfo nodeId="920414672219835550" varName="target" />
     </scopeInfo>
     <scopeInfo nodeId="920414672219835491" fileName="TopologicalNumbering.java" startLine="23" startPosition="63" endLine="26" endPosition="5">
-      <varInfo nodeId="920414672219835491" varName="node" />
+      <varInfo nodeId="920414672219835492" varName="node" />
     </scopeInfo>
     <scopeInfo nodeId="920414672219835515" fileName="TopologicalNumbering.java" startLine="27" startPosition="54" endLine="31" endPosition="7" />
     <scopeInfo nodeId="920414672219835517" fileName="TopologicalNumbering.java" startLine="27" startPosition="54" endLine="31" endPosition="7">
-      <varInfo nodeId="920414672219835517" varName="edge" />
+      <varInfo nodeId="920414672219835518" varName="edge" />
     </scopeInfo>
     <scopeInfo nodeId="920414672219835512" fileName="TopologicalNumbering.java" startLine="26" startPosition="5" endLine="32" endPosition="5">
-      <varInfo nodeId="920414672219835512" varName="node" />
+      <varInfo nodeId="920414672219835513" varName="node" />
     </scopeInfo>
     <scopeInfo nodeId="920414672219832486" fileName="TopologicalNumbering.java" startLine="18" startPosition="88" endLine="33" endPosition="21">
       <varInfo nodeId="920414672219832517" varName="numbering" />
@@ -1405,13 +1405,13 @@
       <varInfo nodeId="3182425861591381310" varName="i" />
     </scopeInfo>
     <scopeInfo nodeId="3182425861591392771" fileName="ConnectivityComponents.java" startLine="51" startPosition="5" endLine="54" endPosition="5">
-      <varInfo nodeId="3182425861591392771" varName="node" />
+      <varInfo nodeId="3182425861591392772" varName="node" />
     </scopeInfo>
     <scopeInfo nodeId="8949260152464198538" fileName="ConnectivityComponents.java" startLine="59" startPosition="26" endLine="62" endPosition="5">
-      <varInfo nodeId="8949260152464198538" varName="node" />
+      <varInfo nodeId="8949260152464198526" varName="node" />
     </scopeInfo>
     <scopeInfo nodeId="8949260152464208348" fileName="ConnectivityComponents.java" startLine="70" startPosition="33" endLine="73" endPosition="5">
-      <varInfo nodeId="8949260152464208348" varName="node" />
+      <varInfo nodeId="8949260152464208349" varName="node" />
     </scopeInfo>
     <scopeInfo nodeId="5213231752900660205" fileName="ConnectivityComponents.java" startLine="93" startPosition="132" endLine="96" endPosition="54" />
     <scopeInfo nodeId="3182425861591378998" fileName="ConnectivityComponents.java" startLine="23" startPosition="83" endLine="27" endPosition="0">
@@ -1420,7 +1420,7 @@
     <scopeInfo nodeId="5213231752900665221" fileName="ConnectivityComponents.java" startLine="108" startPosition="0" endLine="112" endPosition="0" />
     <scopeInfo nodeId="5213231752900660281" fileName="ConnectivityComponents.java" startLine="22" startPosition="63" endLine="27" endPosition="7" />
     <scopeInfo nodeId="7953585273260012489" fileName="ConnectivityComponents.java" startLine="37" startPosition="56" endLine="42" endPosition="5">
-      <varInfo nodeId="7953585273260012489" varName="node" />
+      <varInfo nodeId="7953585273260012490" varName="node" />
     </scopeInfo>
     <scopeInfo nodeId="8949260152464198534" fileName="ConnectivityComponents.java" startLine="58" startPosition="70" endLine="63" endPosition="25">
       <varInfo nodeId="8949260152464198525" varName="componentsNum" />
@@ -1575,10 +1575,10 @@
     <scopeInfo nodeId="6074874003310495339" fileName="BiconnectAugmentation.java" startLine="102" startPosition="53" endLine="104" endPosition="49" />
     <scopeInfo nodeId="529057043639337138" fileName="BiconnectAugmentation.java" startLine="68" startPosition="12" endLine="71" endPosition="7" />
     <scopeInfo nodeId="529057043639337139" fileName="BiconnectAugmentation.java" startLine="68" startPosition="12" endLine="71" endPosition="7">
-      <varInfo nodeId="529057043639337139" varName="child" />
+      <varInfo nodeId="529057043639337140" varName="child" />
     </scopeInfo>
     <scopeInfo nodeId="6074874003310498618" fileName="BiconnectAugmentation.java" startLine="94" startPosition="72" endLine="97" endPosition="7">
-      <varInfo nodeId="6074874003310498618" varName="node" />
+      <varInfo nodeId="6074874003310498619" varName="node" />
     </scopeInfo>
     <scopeInfo nodeId="6074874003310498441" fileName="BiconnectAugmentation.java" startLine="137" startPosition="33" endLine="140" endPosition="63" />
     <scopeInfo nodeId="5213231752900665929" fileName="BiconnectAugmentation.java" startLine="21" startPosition="0" endLine="25" endPosition="0">
@@ -1603,7 +1603,7 @@
       <varInfo nodeId="5488345258545819694" varName="cutpoint" />
     </scopeInfo>
     <scopeInfo nodeId="529057043639337241" fileName="BiconnectAugmentation.java" startLine="45" startPosition="23" endLine="51" endPosition="7">
-      <varInfo nodeId="529057043639337241" varName="node" />
+      <varInfo nodeId="529057043639337242" varName="node" />
     </scopeInfo>
     <scopeInfo nodeId="6074874003310495332" fileName="BiconnectAugmentation.java" startLine="100" startPosition="0" endLine="106" endPosition="0">
       <varInfo nodeId="6074874003310495337" varName="from" />
@@ -1710,11 +1710,11 @@
     <scopeInfo nodeId="7144400041334863116" fileName="MinCostMaxFlow.java" startLine="67" startPosition="55" endLine="68" endPosition="29" />
     <scopeInfo nodeId="5488345258545835402" fileName="MinCostMaxFlow.java" startLine="70" startPosition="24" endLine="72" endPosition="105" />
     <scopeInfo nodeId="7144400041334860870" fileName="MinCostMaxFlow.java" startLine="49" startPosition="44" endLine="52" endPosition="9">
-      <varInfo nodeId="7144400041334860870" varName="edge" />
+      <varInfo nodeId="7144400041334860871" varName="edge" />
     </scopeInfo>
     <scopeInfo nodeId="7144400041334860998" fileName="MinCostMaxFlow.java" startLine="59" startPosition="18" endLine="62" endPosition="124" />
     <scopeInfo nodeId="7144400041334863113" fileName="MinCostMaxFlow.java" startLine="66" startPosition="5" endLine="69" endPosition="5">
-      <varInfo nodeId="7144400041334863113" varName="edge" />
+      <varInfo nodeId="7144400041334863114" varName="edge" />
     </scopeInfo>
     <scopeInfo nodeId="7144400041334860821" fileName="MinCostMaxFlow.java" startLine="40" startPosition="88" endLine="44" endPosition="0">
       <varInfo nodeId="7144400041334860821" varName="edge" />
@@ -1726,11 +1726,11 @@
       <varInfo nodeId="7144400041334857115" varName="oppositeEdge" />
     </scopeInfo>
     <scopeInfo nodeId="7144400041334857102" fileName="MinCostMaxFlow.java" startLine="26" startPosition="68" endLine="36" endPosition="5">
-      <varInfo nodeId="7144400041334857102" varName="edge" />
+      <varInfo nodeId="7144400041334857103" varName="edge" />
     </scopeInfo>
     <scopeInfo nodeId="7144400041334860917" fileName="MinCostMaxFlow.java" startLine="53" startPosition="55" endLine="63" endPosition="11" />
     <scopeInfo nodeId="7144400041334860914" fileName="MinCostMaxFlow.java" startLine="52" startPosition="9" endLine="64" endPosition="9">
-      <varInfo nodeId="7144400041334860914" varName="edge" />
+      <varInfo nodeId="7144400041334860915" varName="edge" />
     </scopeInfo>
     <scopeInfo nodeId="7144400041334860869" fileName="MinCostMaxFlow.java" startLine="48" startPosition="14" endLine="64" endPosition="9">
       <varInfo nodeId="7144400041334860876" varName="minCapacity" />
@@ -1808,11 +1808,11 @@
     <scopeInfo nodeId="7953585273259926386" fileName="MinCostMaxFlowCycleCancelling.java" startLine="66" startPosition="55" endLine="67" endPosition="29" />
     <scopeInfo nodeId="7953585273259926392" fileName="MinCostMaxFlowCycleCancelling.java" startLine="69" startPosition="24" endLine="71" endPosition="105" />
     <scopeInfo nodeId="7953585273259926295" fileName="MinCostMaxFlowCycleCancelling.java" startLine="48" startPosition="44" endLine="51" endPosition="9">
-      <varInfo nodeId="7953585273259926295" varName="edge" />
+      <varInfo nodeId="7953585273259926296" varName="edge" />
     </scopeInfo>
     <scopeInfo nodeId="7953585273259926352" fileName="MinCostMaxFlowCycleCancelling.java" startLine="58" startPosition="18" endLine="61" endPosition="124" />
     <scopeInfo nodeId="7953585273259926383" fileName="MinCostMaxFlowCycleCancelling.java" startLine="65" startPosition="5" endLine="68" endPosition="5">
-      <varInfo nodeId="7953585273259926383" varName="edge" />
+      <varInfo nodeId="7953585273259926384" varName="edge" />
     </scopeInfo>
     <scopeInfo nodeId="2173844983035785636" fileName="MinCostMaxFlowCycleCancelling.java" startLine="39" startPosition="81" endLine="43" endPosition="0">
       <varInfo nodeId="2173844983035785636" varName="edge" />
@@ -1824,11 +1824,11 @@
       <varInfo nodeId="7953585273259926200" varName="oppositeEdge" />
     </scopeInfo>
     <scopeInfo nodeId="7953585273259926179" fileName="MinCostMaxFlowCycleCancelling.java" startLine="26" startPosition="68" endLine="35" endPosition="5">
-      <varInfo nodeId="7953585273259926179" varName="edge" />
+      <varInfo nodeId="7953585273259926180" varName="edge" />
     </scopeInfo>
     <scopeInfo nodeId="7953585273259926310" fileName="MinCostMaxFlowCycleCancelling.java" startLine="52" startPosition="56" endLine="62" endPosition="11" />
     <scopeInfo nodeId="7953585273259926307" fileName="MinCostMaxFlowCycleCancelling.java" startLine="51" startPosition="9" endLine="63" endPosition="9">
-      <varInfo nodeId="7953585273259926307" varName="edge" />
+      <varInfo nodeId="7953585273259926308" varName="edge" />
     </scopeInfo>
     <scopeInfo nodeId="7953585273259926290" fileName="MinCostMaxFlowCycleCancelling.java" startLine="47" startPosition="14" endLine="63" endPosition="9">
       <varInfo nodeId="7953585273259926292" varName="minCapacity" />
@@ -1898,11 +1898,11 @@
     <scopeInfo nodeId="7953585273259926641" fileName="MaxFlow.java" startLine="44" startPosition="55" endLine="45" endPosition="87" />
     <scopeInfo nodeId="7953585273259926729" fileName="MaxFlow.java" startLine="61" startPosition="55" endLine="62" endPosition="29" />
     <scopeInfo nodeId="7953585273259926638" fileName="MaxFlow.java" startLine="43" startPosition="44" endLine="46" endPosition="9">
-      <varInfo nodeId="7953585273259926638" varName="edge" />
+      <varInfo nodeId="7953585273259926639" varName="edge" />
     </scopeInfo>
     <scopeInfo nodeId="7953585273259926695" fileName="MaxFlow.java" startLine="53" startPosition="18" endLine="56" endPosition="124" />
     <scopeInfo nodeId="7953585273259926726" fileName="MaxFlow.java" startLine="60" startPosition="5" endLine="63" endPosition="5">
-      <varInfo nodeId="7953585273259926726" varName="edge" />
+      <varInfo nodeId="7953585273259926727" varName="edge" />
     </scopeInfo>
     <scopeInfo nodeId="7953585273259926807" fileName="MaxFlow.java" startLine="35" startPosition="141" endLine="39" endPosition="0">
       <varInfo nodeId="7953585273259926807" varName="edge" />
@@ -1914,11 +1914,11 @@
       <varInfo nodeId="7953585273259926543" varName="oppositeEdge" />
     </scopeInfo>
     <scopeInfo nodeId="7953585273259926522" fileName="MaxFlow.java" startLine="23" startPosition="68" endLine="32" endPosition="5">
-      <varInfo nodeId="7953585273259926522" varName="edge" />
+      <varInfo nodeId="7953585273259926523" varName="edge" />
     </scopeInfo>
     <scopeInfo nodeId="7953585273259926653" fileName="MaxFlow.java" startLine="47" startPosition="55" endLine="57" endPosition="11" />
     <scopeInfo nodeId="7953585273259926650" fileName="MaxFlow.java" startLine="46" startPosition="9" endLine="58" endPosition="9">
-      <varInfo nodeId="7953585273259926650" varName="edge" />
+      <varInfo nodeId="7953585273259926651" varName="edge" />
     </scopeInfo>
     <scopeInfo nodeId="7953585273259926633" fileName="MaxFlow.java" startLine="42" startPosition="14" endLine="58" endPosition="9">
       <varInfo nodeId="7953585273259926635" varName="minCapacity" />
@@ -1961,14 +1961,14 @@
       <varInfo nodeId="903391227141022985" varName="target" />
     </scopeInfo>
     <scopeInfo nodeId="903391227141022962" fileName="WeightedTopologicalNumbering.java" startLine="20" startPosition="63" endLine="23" endPosition="5">
-      <varInfo nodeId="903391227141022962" varName="node" />
+      <varInfo nodeId="903391227141022963" varName="node" />
     </scopeInfo>
     <scopeInfo nodeId="903391227141022977" fileName="WeightedTopologicalNumbering.java" startLine="24" startPosition="54" endLine="28" endPosition="7" />
     <scopeInfo nodeId="903391227141022978" fileName="WeightedTopologicalNumbering.java" startLine="24" startPosition="54" endLine="28" endPosition="7">
-      <varInfo nodeId="903391227141022978" varName="edge" />
+      <varInfo nodeId="903391227141022979" varName="edge" />
     </scopeInfo>
     <scopeInfo nodeId="903391227141022974" fileName="WeightedTopologicalNumbering.java" startLine="23" startPosition="5" endLine="29" endPosition="5">
-      <varInfo nodeId="903391227141022974" varName="node" />
+      <varInfo nodeId="903391227141022975" varName="node" />
     </scopeInfo>
     <scopeInfo nodeId="903391227141019965" fileName="WeightedTopologicalNumbering.java" startLine="15" startPosition="116" endLine="30" endPosition="21">
       <varInfo nodeId="903391227141022954" varName="numbering" />

@@ -53,8 +53,8 @@ public class OrthogonalFromVisibility implements IPointLayouter {
       for (Edge edge : ListSequence.fromList(node.getEdges())) {
         ListSequence.fromList(edgesX).addElement(MapSequence.fromMap(visibility).get(edge).x);
       }
-      edgesX = ListSequence.fromList(edgesX).sort(new ISelector<Integer, Comparable<?>>() {
-        public Comparable<?> select(Integer it) {
+      edgesX = ListSequence.fromList(edgesX).sort(new ISelector<Integer, Integer>() {
+        public Integer select(Integer it) {
           return it;
         }
       }, true).toListSequence();

@@ -90,7 +90,7 @@
     </scopeInfo>
     <scopeInfo nodeId="8653275637018846063" fileName="GraphLayoutOutputUtil.java" startLine="47" startPosition="53" endLine="75" endPosition="18" />
     <scopeInfo nodeId="8653275637018846060" fileName="GraphLayoutOutputUtil.java" startLine="46" startPosition="16" endLine="76" endPosition="5">
-      <varInfo nodeId="8653275637018846060" varName="next" />
+      <varInfo nodeId="8653275637018846061" varName="next" />
     </scopeInfo>
     <scopeInfo nodeId="8653275637018846001" fileName="GraphLayoutOutputUtil.java" startLine="40" startPosition="84" endLine="86" endPosition="17">
       <varInfo nodeId="8653275637018846308" varName="l" />
