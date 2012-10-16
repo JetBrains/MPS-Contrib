@@ -2587,8 +2587,8 @@
         </node>
       </node>
       <node role="field" roleId="tpee.1068390468199" type="tpee.FieldDeclaration" typeId="tpee.1068390468200" id="314981645427225095">
-        <property name="isFinal" nameId="tpee.1176718929932" value="true" />
         <property name="name" nameId="tpck.1169194664001" value="myActions" />
+        <property name="isFinal" nameId="tpee.1176718929932" value="true" />
         <node role="visibility" roleId="tpee.1178549979242" type="tpee.PrivateVisibility" typeId="tpee.1146644623116" id="314981645427225096" />
         <node role="type" roleId="tpee.5680397130376446158" type="tpee.ArrayType" typeId="tpee.1070534760951" id="314981645427225097">
           <node role="componentType" roleId="tpee.1070534760952" type="tpee.ClassifierType" typeId="tpee.1107535904670" id="314981645427225098">
@@ -2597,8 +2597,8 @@
         </node>
       </node>
       <node role="field" roleId="tpee.1068390468199" type="tpee.FieldDeclaration" typeId="tpee.1068390468200" id="314981645427225099">
-        <property name="isFinal" nameId="tpee.1176718929932" value="true" />
         <property name="name" nameId="tpck.1169194664001" value="myConsole" />
+        <property name="isFinal" nameId="tpee.1176718929932" value="true" />
         <node role="visibility" roleId="tpee.1178549979242" type="tpee.PrivateVisibility" typeId="tpee.1146644623116" id="314981645427225100" />
         <node role="type" roleId="tpee.5680397130376446158" type="tpee.ClassifierType" typeId="tpee.1107535904670" id="314981645427225101">
           <link role="classifier" roleId="tpee.1107535924139" targetNodeId="vstq.~ExecutionConsole" resolveInfo="ExecutionConsole" />
@@ -6678,7 +6678,7 @@
                 <link role="baseMethodDeclaration" roleId="tpee.1068499141037" targetNodeId="hf1o.~BaseConfigCreator%dsetSourceElement(com%dintellij%dpsi%dPsiElement)%cvoid" resolveInfo="setSourceElement" />
                 <node role="actualArgument" roleId="tpee.1068499141038" type="tpee.GenericNewExpression" typeId="tpee.1145552977093" id="314981645427227050">
                   <node role="creator" roleId="tpee.1145553007750" type="tpee.ClassCreator" typeId="tpee.1212685548494" id="314981645427227051">
-                    <link role="baseMethodDeclaration" roleId="tpee.1068499141037" targetNodeId="hoff.~MPSPsiElement%d&lt;init&gt;(jetbrains%dmps%dproject%dIModule)" resolveInfo="MPSPsiElement" />
+                    <link role="baseMethodDeclaration" roleId="tpee.1068499141037" targetNodeId="hoff.~MPSPsiElement%d&lt;init&gt;(jetbrains%dmps%dproject%dMPSProject)" resolveInfo="MPSPsiElement" />
                     <node role="actualArgument" roleId="tpee.1068499141038" type="tpee.NullLiteral" typeId="tpee.1070534058343" id="314981645427227052">
                       <node role="smodelAttribute" roleId="tpck.5169995583184591170" type="tpf8.CopySrcNodeMacro" typeId="tpf8.1114706874351" id="314981645427227053">
                         <node role="sourceNodeQuery" roleId="tpf8.1168024447342" type="tpf8.SourceSubstituteMacro_SourceNodeQuery" typeId="tpf8.1168024337012" id="314981645427227054">

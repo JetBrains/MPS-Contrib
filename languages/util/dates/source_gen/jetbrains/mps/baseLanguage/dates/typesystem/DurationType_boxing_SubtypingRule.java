@@ -82,12 +82,12 @@ public class DurationType_boxing_SubtypingRule extends SubtypingRule_Runtime imp
       {
         SNode nodeToMatch_DurationType_boxing_etxu84_a0a;
         nodeToMatch_DurationType_boxing_etxu84_a0a = nodeToMatch;
-        if (!("jetbrains.mps.baseLanguage.structure.ClassifierType".equals(nodeToMatch_DurationType_boxing_etxu84_a0a.getConceptFqName()))) {
+        if (!("jetbrains.mps.baseLanguage.structure.ClassifierType".equals(nodeToMatch_DurationType_boxing_etxu84_a0a.getConcept().getId()))) {
           return false;
         }
         {
           SNodePointer pointer = SNODE_POINTER_jq3mqm_a0a0a0a0b0c0a0a0a0a0a0c;
-          if (!(PatternUtil.matchReferentWithNode(pointer, nodeToMatch_DurationType_boxing_etxu84_a0a.getReferent("classifier")))) {
+          if (!(PatternUtil.matchReferentWithNode(pointer, nodeToMatch_DurationType_boxing_etxu84_a0a.getReferenceTarget("classifier")))) {
             return false;
           }
         }
