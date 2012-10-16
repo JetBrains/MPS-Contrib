@@ -4,7 +4,7 @@ package jetbrains.mps.buildlanguage.editor;
 
 import jetbrains.mps.nodeEditor.DefaultNodeEditor;
 import jetbrains.mps.nodeEditor.cells.EditorCell;
-import jetbrains.mps.nodeEditor.EditorContext;
+import jetbrains.mps.openapi.editor.EditorContext;
 import jetbrains.mps.smodel.SNode;
 import jetbrains.mps.nodeEditor.cells.EditorCell_Collection;
 import jetbrains.mps.nodeEditor.style.Style;
@@ -93,7 +93,7 @@ public class ExternalPropertyDeclaration_Editor extends DefaultNodeEditor {
   }
 
   private EditorCell createConstant_i6hv21_a0a(EditorContext editorContext, SNode node) {
-    EditorCell_Constant editorCell = new EditorCell_Constant(editorContext, node, "//");
+    EditorCell_Constant editorCell = new EditorCell_Constant((jetbrains.mps.nodeEditor.EditorContext) editorContext, node, "//");
     editorCell.setCellId("Constant_i6hv21_a0a");
     BuildLanguageStyle_StyleSheet.getComment(editorCell).apply(editorCell);
     editorCell.setDefaultText("");
@@ -101,7 +101,7 @@ public class ExternalPropertyDeclaration_Editor extends DefaultNodeEditor {
   }
 
   private EditorCell createConstant_i6hv21_a1a(EditorContext editorContext, SNode node) {
-    EditorCell_Constant editorCell = new EditorCell_Constant(editorContext, node, "checked");
+    EditorCell_Constant editorCell = new EditorCell_Constant((jetbrains.mps.nodeEditor.EditorContext) editorContext, node, "checked");
     editorCell.setCellId("Constant_i6hv21_a1a");
     BuildLanguageStyle_StyleSheet.getKeyword(editorCell).apply(editorCell);
     editorCell.setDefaultText("");
@@ -109,14 +109,14 @@ public class ExternalPropertyDeclaration_Editor extends DefaultNodeEditor {
   }
 
   private EditorCell createConstant_i6hv21_d1a(EditorContext editorContext, SNode node) {
-    EditorCell_Constant editorCell = new EditorCell_Constant(editorContext, node, ":");
+    EditorCell_Constant editorCell = new EditorCell_Constant((jetbrains.mps.nodeEditor.EditorContext) editorContext, node, ":");
     editorCell.setCellId("Constant_i6hv21_d1a");
     editorCell.setDefaultText("");
     return editorCell;
   }
 
   private EditorCell createConstant_i6hv21_a0a_0(EditorContext editorContext, SNode node) {
-    EditorCell_Constant editorCell = new EditorCell_Constant(editorContext, node, "check on start");
+    EditorCell_Constant editorCell = new EditorCell_Constant((jetbrains.mps.nodeEditor.EditorContext) editorContext, node, "check on start");
     editorCell.setCellId("Constant_i6hv21_a0a_0");
     BuildLanguageStyle_StyleSheet.getAttributeName(editorCell).apply(editorCell);
     editorCell.setDefaultText("");
@@ -124,7 +124,7 @@ public class ExternalPropertyDeclaration_Editor extends DefaultNodeEditor {
   }
 
   private EditorCell createConstant_i6hv21_b0a(EditorContext editorContext, SNode node) {
-    EditorCell_Constant editorCell = new EditorCell_Constant(editorContext, node, "=");
+    EditorCell_Constant editorCell = new EditorCell_Constant((jetbrains.mps.nodeEditor.EditorContext) editorContext, node, "=");
     editorCell.setCellId("Constant_i6hv21_b0a");
     editorCell.setDefaultText("");
     return editorCell;

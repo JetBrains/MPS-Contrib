@@ -5,7 +5,7 @@ package jetbrains.mps.execution.configurations.deprecated.editor;
 import jetbrains.mps.nodeEditor.AbstractCellProvider;
 import jetbrains.mps.smodel.SNode;
 import jetbrains.mps.nodeEditor.cells.EditorCell;
-import jetbrains.mps.nodeEditor.EditorContext;
+import jetbrains.mps.openapi.editor.EditorContext;
 import jetbrains.mps.nodeEditor.cells.EditorCell_Collection;
 import jetbrains.mps.nodeEditor.style.Style;
 import jetbrains.mps.nodeEditor.style.StyleAttributes;
@@ -39,6 +39,12 @@ public class RunConfigurationBody extends AbstractCellProvider {
 
   public EditorCell createEditorCell(EditorContext editorContext, SNode node) {
     return this.createCollection_mrxxs6_a(editorContext, node);
+  }
+
+  @Deprecated
+  public EditorCell createEditorCell(jetbrains.mps.nodeEditor.EditorContext editorContext) {
+    // This method was added in MPS 3.0 for the compatibility with prev. generated code 
+    return createEditorCell((EditorContext) editorContext);
   }
 
   private EditorCell createCollection_mrxxs6_a(EditorContext editorContext, SNode node) {
@@ -104,7 +110,7 @@ public class RunConfigurationBody extends AbstractCellProvider {
   }
 
   private EditorCell createConstant_mrxxs6_b0(EditorContext editorContext, SNode node) {
-    EditorCell_Constant editorCell = new EditorCell_Constant(editorContext, node, "");
+    EditorCell_Constant editorCell = new EditorCell_Constant((jetbrains.mps.nodeEditor.EditorContext) editorContext, node, "");
     editorCell.setCellId("Constant_mrxxs6_b0");
     {
       Style style = editorCell.getStyle();
@@ -115,14 +121,14 @@ public class RunConfigurationBody extends AbstractCellProvider {
   }
 
   private EditorCell createConstant_mrxxs6_a2a(EditorContext editorContext, SNode node) {
-    EditorCell_Constant editorCell = new EditorCell_Constant(editorContext, node, "editor");
+    EditorCell_Constant editorCell = new EditorCell_Constant((jetbrains.mps.nodeEditor.EditorContext) editorContext, node, "editor");
     editorCell.setCellId("Constant_mrxxs6_a2a");
     editorCell.setDefaultText("");
     return editorCell;
   }
 
   private EditorCell createConstant_mrxxs6_d0(EditorContext editorContext, SNode node) {
-    EditorCell_Constant editorCell = new EditorCell_Constant(editorContext, node, "");
+    EditorCell_Constant editorCell = new EditorCell_Constant((jetbrains.mps.nodeEditor.EditorContext) editorContext, node, "");
     editorCell.setCellId("Constant_mrxxs6_d0");
     {
       Style style = editorCell.getStyle();
@@ -133,7 +139,7 @@ public class RunConfigurationBody extends AbstractCellProvider {
   }
 
   private EditorCell createConstant_mrxxs6_f0(EditorContext editorContext, SNode node) {
-    EditorCell_Constant editorCell = new EditorCell_Constant(editorContext, node, "");
+    EditorCell_Constant editorCell = new EditorCell_Constant((jetbrains.mps.nodeEditor.EditorContext) editorContext, node, "");
     editorCell.setCellId("Constant_mrxxs6_f0");
     {
       Style style = editorCell.getStyle();
@@ -144,7 +150,7 @@ public class RunConfigurationBody extends AbstractCellProvider {
   }
 
   private EditorCell createConstant_mrxxs6_h0(EditorContext editorContext, SNode node) {
-    EditorCell_Constant editorCell = new EditorCell_Constant(editorContext, node, "");
+    EditorCell_Constant editorCell = new EditorCell_Constant((jetbrains.mps.nodeEditor.EditorContext) editorContext, node, "");
     editorCell.setCellId("Constant_mrxxs6_h0");
     {
       Style style = editorCell.getStyle();
@@ -155,21 +161,21 @@ public class RunConfigurationBody extends AbstractCellProvider {
   }
 
   private EditorCell createConstant_mrxxs6_a8a(EditorContext editorContext, SNode node) {
-    EditorCell_Constant editorCell = new EditorCell_Constant(editorContext, node, "execution parameters (deprecated):");
+    EditorCell_Constant editorCell = new EditorCell_Constant((jetbrains.mps.nodeEditor.EditorContext) editorContext, node, "execution parameters (deprecated):");
     editorCell.setCellId("Constant_mrxxs6_a8a");
     editorCell.setDefaultText("");
     return editorCell;
   }
 
   private EditorCell createConstant_mrxxs6_j0(EditorContext editorContext, SNode node) {
-    EditorCell_Constant editorCell = new EditorCell_Constant(editorContext, node, "");
+    EditorCell_Constant editorCell = new EditorCell_Constant((jetbrains.mps.nodeEditor.EditorContext) editorContext, node, "");
     editorCell.setCellId("Constant_mrxxs6_j0");
     editorCell.setDefaultText("");
     return editorCell;
   }
 
   private EditorCell createConstant_mrxxs6_l0(EditorContext editorContext, SNode node) {
-    EditorCell_Constant editorCell = new EditorCell_Constant(editorContext, node, "");
+    EditorCell_Constant editorCell = new EditorCell_Constant((jetbrains.mps.nodeEditor.EditorContext) editorContext, node, "");
     editorCell.setCellId("Constant_mrxxs6_l0");
     {
       Style style = editorCell.getStyle();
@@ -196,7 +202,7 @@ public class RunConfigurationBody extends AbstractCellProvider {
   }
 
   private EditorCell createIndentCell_mrxxs6_a1i0(EditorContext editorContext, SNode node) {
-    EditorCell_Indent result = new EditorCell_Indent(editorContext, node);
+    EditorCell_Indent result = new EditorCell_Indent((jetbrains.mps.nodeEditor.EditorContext) editorContext, node);
     return result;
   }
 

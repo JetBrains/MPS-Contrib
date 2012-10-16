@@ -4,7 +4,7 @@ package jetbrains.mps.baseLanguage.dates.editor;
 
 import jetbrains.mps.nodeEditor.DefaultNodeEditor;
 import jetbrains.mps.nodeEditor.cells.EditorCell;
-import jetbrains.mps.nodeEditor.EditorContext;
+import jetbrains.mps.openapi.editor.EditorContext;
 import jetbrains.mps.smodel.SNode;
 import jetbrains.mps.nodeEditor.cells.EditorCell_Error;
 
@@ -14,7 +14,7 @@ public class FormatToken_Editor extends DefaultNodeEditor {
   }
 
   private EditorCell createError_ilswth_a(EditorContext editorContext, SNode node) {
-    EditorCell_Error editorCell = new EditorCell_Error(editorContext, node, "format token");
+    EditorCell_Error editorCell = new EditorCell_Error((jetbrains.mps.nodeEditor.EditorContext) editorContext, node, "format token");
     editorCell.setCellId("Error_ilswth_a");
     return editorCell;
   }
