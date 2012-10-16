@@ -5,7 +5,7 @@ package jetbrains.mps.build.generictasks.editor;
 import jetbrains.mps.nodeEditor.AbstractCellProvider;
 import jetbrains.mps.smodel.SNode;
 import jetbrains.mps.nodeEditor.cells.EditorCell;
-import jetbrains.mps.nodeEditor.EditorContext;
+import jetbrains.mps.openapi.editor.EditorContext;
 import jetbrains.mps.nodeEditor.cells.EditorCell_Collection;
 import jetbrains.mps.nodeEditor.style.Style;
 import jetbrains.mps.nodeEditor.style.StyleAttributes;
@@ -32,6 +32,12 @@ public class TaskDeclarationAttributes_EditorComponent extends AbstractCellProvi
 
   public EditorCell createEditorCell(EditorContext editorContext, SNode node) {
     return this.createCollection_p33j5q_a(editorContext, node);
+  }
+
+  @Deprecated
+  public EditorCell createEditorCell(jetbrains.mps.nodeEditor.EditorContext editorContext) {
+    // This method was added in MPS 3.0 for the compatibility with prev. generated code 
+    return createEditorCell((EditorContext) editorContext);
   }
 
   private EditorCell createCollection_p33j5q_a(EditorContext editorContext, SNode node) {
@@ -66,7 +72,7 @@ public class TaskDeclarationAttributes_EditorComponent extends AbstractCellProvi
   }
 
   private EditorCell createConstant_p33j5q_a0a(EditorContext editorContext, SNode node) {
-    EditorCell_Constant editorCell = new EditorCell_Constant(editorContext, node, "attributes:");
+    EditorCell_Constant editorCell = new EditorCell_Constant((jetbrains.mps.nodeEditor.EditorContext) editorContext, node, "attributes:");
     editorCell.setCellId("Constant_p33j5q_a0a");
     BuildLanguageStyle_StyleSheet.getKeyword(editorCell).apply(editorCell);
     editorCell.setDefaultText("");
@@ -86,7 +92,7 @@ public class TaskDeclarationAttributes_EditorComponent extends AbstractCellProvi
   }
 
   private EditorCell createIndentCell_p33j5q_a1a(EditorContext editorContext, SNode node) {
-    EditorCell_Indent result = new EditorCell_Indent(editorContext, node);
+    EditorCell_Indent result = new EditorCell_Indent((jetbrains.mps.nodeEditor.EditorContext) editorContext, node);
     return result;
   }
 

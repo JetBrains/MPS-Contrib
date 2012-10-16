@@ -4,7 +4,7 @@ package jetbrains.mps.baseLanguage.dates.editor;
 
 import jetbrains.mps.nodeEditor.DefaultNodeEditor;
 import jetbrains.mps.nodeEditor.cells.EditorCell;
-import jetbrains.mps.nodeEditor.EditorContext;
+import jetbrains.mps.openapi.editor.EditorContext;
 import jetbrains.mps.smodel.SNode;
 import jetbrains.mps.nodeEditor.cells.EditorCell_Collection;
 import jetbrains.mps.nodeEditor.style.Style;
@@ -97,7 +97,7 @@ public class TimeZoneNameOperation_Editor extends DefaultNodeEditor {
   }
 
   private EditorCell createConstant_vkak8k_b0(EditorContext editorContext, SNode node) {
-    EditorCell_Constant editorCell = new EditorCell_Constant(editorContext, node, "at");
+    EditorCell_Constant editorCell = new EditorCell_Constant((jetbrains.mps.nodeEditor.EditorContext) editorContext, node, "at");
     editorCell.setCellId("Constant_vkak8k_b0");
     BaseLanguageStyle_StyleSheet.getField(editorCell).apply(editorCell);
     editorCell.setDefaultText("");
@@ -105,7 +105,7 @@ public class TimeZoneNameOperation_Editor extends DefaultNodeEditor {
   }
 
   private EditorCell createConstant_vkak8k_c0(EditorContext editorContext, SNode node) {
-    EditorCell_Constant editorCell = new EditorCell_Constant(editorContext, node, "(");
+    EditorCell_Constant editorCell = new EditorCell_Constant((jetbrains.mps.nodeEditor.EditorContext) editorContext, node, "(");
     editorCell.setCellId("Constant_vkak8k_c0");
     BaseLanguageStyle_StyleSheet.getLeftBrace(editorCell).apply(editorCell);
     {
@@ -118,7 +118,7 @@ public class TimeZoneNameOperation_Editor extends DefaultNodeEditor {
   }
 
   private EditorCell createConstant_vkak8k_e0(EditorContext editorContext, SNode node) {
-    EditorCell_Constant editorCell = new EditorCell_Constant(editorContext, node, ")");
+    EditorCell_Constant editorCell = new EditorCell_Constant((jetbrains.mps.nodeEditor.EditorContext) editorContext, node, ")");
     editorCell.setCellId("Constant_vkak8k_e0");
     BaseLanguageStyle_StyleSheet.getRightBrace(editorCell).apply(editorCell);
     {
@@ -130,7 +130,7 @@ public class TimeZoneNameOperation_Editor extends DefaultNodeEditor {
   }
 
   private EditorCell createConstant_vkak8k_a5a(EditorContext editorContext, SNode node) {
-    EditorCell_Constant editorCell = new EditorCell_Constant(editorContext, node, "in");
+    EditorCell_Constant editorCell = new EditorCell_Constant((jetbrains.mps.nodeEditor.EditorContext) editorContext, node, "in");
     editorCell.setCellId("Constant_vkak8k_a5a");
     Dates_StyleSheet.getDateCompactKeyWord(editorCell).apply(editorCell);
     editorCell.setDefaultText("");
@@ -138,7 +138,7 @@ public class TimeZoneNameOperation_Editor extends DefaultNodeEditor {
   }
 
   private EditorCell createConstant_vkak8k_b5a(EditorContext editorContext, SNode node) {
-    EditorCell_Constant editorCell = new EditorCell_Constant(editorContext, node, "(");
+    EditorCell_Constant editorCell = new EditorCell_Constant((jetbrains.mps.nodeEditor.EditorContext) editorContext, node, "(");
     editorCell.setCellId("Constant_vkak8k_b5a");
     {
       Style style = editorCell.getStyle();
@@ -149,7 +149,7 @@ public class TimeZoneNameOperation_Editor extends DefaultNodeEditor {
   }
 
   private EditorCell createConstant_vkak8k_d5a(EditorContext editorContext, SNode node) {
-    EditorCell_Constant editorCell = new EditorCell_Constant(editorContext, node, ")");
+    EditorCell_Constant editorCell = new EditorCell_Constant((jetbrains.mps.nodeEditor.EditorContext) editorContext, node, ")");
     editorCell.setCellId("Constant_vkak8k_d5a");
     {
       Style style = editorCell.getStyle();
@@ -160,14 +160,14 @@ public class TimeZoneNameOperation_Editor extends DefaultNodeEditor {
   }
 
   private EditorCell createConstant_vkak8k_a0a(EditorContext editorContext, SNode node) {
-    EditorCell_Constant editorCell = new EditorCell_Constant(editorContext, node, "locale");
+    EditorCell_Constant editorCell = new EditorCell_Constant((jetbrains.mps.nodeEditor.EditorContext) editorContext, node, "locale");
     editorCell.setCellId("Constant_vkak8k_a0a");
     editorCell.setDefaultText("");
     return editorCell;
   }
 
   private EditorCell createConstant_vkak8k_a1a(EditorContext editorContext, SNode node) {
-    EditorCell_Constant editorCell = new EditorCell_Constant(editorContext, node, "short");
+    EditorCell_Constant editorCell = new EditorCell_Constant((jetbrains.mps.nodeEditor.EditorContext) editorContext, node, "short");
     editorCell.setCellId("Constant_vkak8k_a1a");
     editorCell.setDefaultText("");
     return editorCell;
