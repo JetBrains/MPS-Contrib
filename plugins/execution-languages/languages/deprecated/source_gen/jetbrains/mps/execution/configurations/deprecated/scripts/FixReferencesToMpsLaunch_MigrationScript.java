@@ -40,7 +40,7 @@ public class FixReferencesToMpsLaunch_MigrationScript extends BaseMigrationScrip
       }
 
       public void doUpdateInstanceNode(SNode node) {
-        SNode mpsLaunch = SLinkOperations.getTarget(new FixReferencesToMpsLaunch_MigrationScript.QuotationClass_cadwxu_a0a0a0e0a0a0b0a().createNode(), "classifier", false);
+        SNode mpsLaunch = SLinkOperations.getTarget(new FixReferencesToMpsLaunch_MigrationScript.QuotationClass_cadwxu_a0a0a0e0a0a0a0b0a().createNode(), "classifier", false);
         ScriptsUtil.updateReferencesToClassifier(node, "jetbrains.mps.baseLanguage.util.plugin.run", SPropertyOperations.getString(mpsLaunch, "name"), SNodeOperations.getModel(mpsLaunch).getSModelReference(), mpsLaunch);
       }
 
@@ -50,8 +50,8 @@ public class FixReferencesToMpsLaunch_MigrationScript extends BaseMigrationScrip
     });
   }
 
-  public static class QuotationClass_cadwxu_a0a0a0e0a0a0b0a {
-    public QuotationClass_cadwxu_a0a0a0e0a0a0b0a() {
+  public static class QuotationClass_cadwxu_a0a0a0e0a0a0a0b0a {
+    public QuotationClass_cadwxu_a0a0a0e0a0a0a0b0a() {
     }
 
     public SNode createNode() {

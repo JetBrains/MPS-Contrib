@@ -42,7 +42,7 @@ public class FixReferencesToDeletedRunModels_MigrationScript extends BaseMigrati
       }
 
       public void doUpdateInstanceNode(SNode node) {
-        ScriptsUtil.updateReferencesToModel(node, "jetbrains.mps.baseLanguage.util.plugin.run", SNodeOperations.getModel(SLinkOperations.getTarget(new FixReferencesToDeletedRunModels_MigrationScript.QuotationClass_s5mt6f_a0a0a2a0a4a0a0a1a0().createNode(), "classifier", false)).getSModelReference());
+        ScriptsUtil.updateReferencesToModel(node, "jetbrains.mps.baseLanguage.util.plugin.run", SNodeOperations.getModel(SLinkOperations.getTarget(new FixReferencesToDeletedRunModels_MigrationScript.QuotationClass_s5mt6f_a0a0a2a0a4a0a0a0a1a0().createNode(), "classifier", false)).getSModelReference());
       }
 
       public boolean isShowAsIntention() {
@@ -77,7 +77,7 @@ public class FixReferencesToDeletedRunModels_MigrationScript extends BaseMigrati
       }
 
       public void doUpdateInstanceNode(SNode node) {
-        ScriptsUtil.updateReferencesToModel(node, "jetbrains.mps.lang.plugin.run", SNodeOperations.getModel(SLinkOperations.getTarget(new FixReferencesToDeletedRunModels_MigrationScript.QuotationClass_s5mt6f_a0a0a2a0a4a0a0a2a0().createNode(), "classifier", false)).getSModelReference());
+        ScriptsUtil.updateReferencesToModel(node, "jetbrains.mps.lang.plugin.run", SNodeOperations.getModel(SLinkOperations.getTarget(new FixReferencesToDeletedRunModels_MigrationScript.QuotationClass_s5mt6f_a0a0a2a0a4a0a0a0a2a0().createNode(), "classifier", false)).getSModelReference());
       }
 
       public boolean isShowAsIntention() {
@@ -86,8 +86,8 @@ public class FixReferencesToDeletedRunModels_MigrationScript extends BaseMigrati
     });
   }
 
-  public static class QuotationClass_s5mt6f_a0a0a2a0a4a0a0a1a0 {
-    public QuotationClass_s5mt6f_a0a0a2a0a4a0a0a1a0() {
+  public static class QuotationClass_s5mt6f_a0a0a2a0a4a0a0a0a1a0 {
+    public QuotationClass_s5mt6f_a0a0a2a0a4a0a0a0a1a0() {
     }
 
     public SNode createNode() {
@@ -104,8 +104,8 @@ public class FixReferencesToDeletedRunModels_MigrationScript extends BaseMigrati
     }
   }
 
-  public static class QuotationClass_s5mt6f_a0a0a2a0a4a0a0a2a0 {
-    public QuotationClass_s5mt6f_a0a0a2a0a4a0a0a2a0() {
+  public static class QuotationClass_s5mt6f_a0a0a2a0a4a0a0a0a2a0 {
+    public QuotationClass_s5mt6f_a0a0a2a0a4a0a0a0a2a0() {
     }
 
     public SNode createNode() {
