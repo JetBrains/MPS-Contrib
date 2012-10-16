@@ -4,7 +4,7 @@ package jetbrains.mps.uiLanguage.editor;
 
 import javax.swing.JButton;
 import jetbrains.mps.smodel.SNode;
-import jetbrains.mps.nodeEditor.EditorContext;
+import jetbrains.mps.openapi.editor.EditorContext;
 import javax.swing.AbstractAction;
 import java.awt.event.ActionEvent;
 import java.awt.Component;
