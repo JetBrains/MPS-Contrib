@@ -2174,7 +2174,7 @@
   <root id="1238088357338">
     <node role="cellModel" roleId="tpc2.1080736633877" type="tpc2.CellModel_ConceptProperty" typeId="tpc2.1137553248617" id="1238088358637">
       <link role="styleClass" roleId="tpc2.1186406756722" targetNodeId="1219659527813" resolveInfo="DateCompactKeyWord" />
-      <link role="relationDeclaration" roleId="tpc2.1140103550593" targetNodeId="tpck.1156235010670" resolveInfo="alias" />
+      <link role="relationDeclaration" roleId="tpc2.1140103550593" targetNodeId="tpck.1137473891462" resolveInfo="alias" />
     </node>
   </root>
   <root id="1238248097333">
@@ -3229,8 +3229,8 @@
   </root>
   <root id="5600029375247572396">
     <node role="item" roleId="tpc2.1139535219969" type="tpc2.CellActionMapItem" typeId="tpc2.1139535280617" id="5600029375247572397">
-      <property name="actionId" nameId="tpc2.1139535298778" value="delete_action_id" />
       <property name="description" nameId="tpc2.1139537298254" value="Delete timezone" />
+      <property name="actionId" nameId="tpc2.1139535298778" value="delete_action_id" />
       <node role="executeFunction" roleId="tpc2.1139535280620" type="tpc2.CellActionMap_ExecuteFunction" typeId="tpc2.1139535439104" id="5600029375247572398">
         <node role="body" roleId="tpee.1137022507850" type="tpee.StatementList" typeId="tpee.1068580123136" id="5600029375247572399">
           <node role="statement" roleId="tpee.1068581517665" type="tpee.ExpressionStatement" typeId="tpee.1068580123155" id="5600029375247572400">
@@ -3252,8 +3252,8 @@
   </root>
   <root id="5600029375248625372">
     <node role="item" roleId="tpc2.1139535219969" type="tpc2.CellActionMapItem" typeId="tpc2.1139535280617" id="5600029375248627568">
-      <property name="actionId" nameId="tpc2.1139535298778" value="delete_action_id" />
       <property name="description" nameId="tpc2.1139537298254" value="Remove property" />
+      <property name="actionId" nameId="tpc2.1139535298778" value="delete_action_id" />
       <node role="executeFunction" roleId="tpc2.1139535280620" type="tpc2.CellActionMap_ExecuteFunction" typeId="tpc2.1139535439104" id="5600029375248627569">
         <node role="body" roleId="tpee.1137022507850" type="tpee.StatementList" typeId="tpee.1068580123136" id="5600029375248627570">
           <node role="statement" roleId="tpee.1068581517665" type="tpee.ExpressionStatement" typeId="tpee.1068580123155" id="5600029375248627571">
@@ -3275,8 +3275,8 @@
   </root>
   <root id="6240071430105681206">
     <node role="item" roleId="tpc2.1139535219969" type="tpc2.CellActionMapItem" typeId="tpc2.1139535280617" id="6240071430105682166">
-      <property name="actionId" nameId="tpc2.1139535298778" value="delete_action_id" />
       <property name="description" nameId="tpc2.1139537298254" value="Remove formatting" />
+      <property name="actionId" nameId="tpc2.1139535298778" value="delete_action_id" />
       <node role="executeFunction" roleId="tpc2.1139535280620" type="tpc2.CellActionMap_ExecuteFunction" typeId="tpc2.1139535439104" id="6240071430105682167">
         <node role="body" roleId="tpee.1137022507850" type="tpee.StatementList" typeId="tpee.1068580123136" id="6240071430105682168">
           <node role="statement" roleId="tpee.1068581517665" type="tpee.LocalVariableDeclarationStatement" typeId="tpee.1068581242864" id="2192048487563549503">
@@ -3319,8 +3319,8 @@
   </root>
   <root id="6240071430105858338">
     <node role="item" roleId="tpc2.1139535219969" type="tpc2.CellActionMapItem" typeId="tpc2.1139535280617" id="6240071430105860531">
-      <property name="actionId" nameId="tpc2.1139535298778" value="delete_action_id" />
       <property name="description" nameId="tpc2.1139537298254" value="Delete locale" />
+      <property name="actionId" nameId="tpc2.1139535298778" value="delete_action_id" />
       <node role="executeFunction" roleId="tpc2.1139535280620" type="tpc2.CellActionMap_ExecuteFunction" typeId="tpc2.1139535439104" id="6240071430105860532">
         <node role="body" roleId="tpee.1137022507850" type="tpee.StatementList" typeId="tpee.1068580123136" id="6240071430105860533">
           <node role="statement" roleId="tpee.1068581517665" type="tpee.ExpressionStatement" typeId="tpee.1068580123155" id="6240071430105860534">
@@ -3342,8 +3342,8 @@
   </root>
   <root id="6240071430106213339">
     <node role="item" roleId="tpc2.1139535219969" type="tpc2.CellActionMapItem" typeId="tpc2.1139535280617" id="6240071430106214299">
-      <property name="actionId" nameId="tpc2.1139535298778" value="delete_action_id" />
       <property name="description" nameId="tpc2.1139537298254" value="Remove formatting" />
+      <property name="actionId" nameId="tpc2.1139535298778" value="delete_action_id" />
       <node role="executeFunction" roleId="tpc2.1139535280620" type="tpc2.CellActionMap_ExecuteFunction" typeId="tpc2.1139535439104" id="6240071430106214300">
         <node role="body" roleId="tpee.1137022507850" type="tpee.StatementList" typeId="tpee.1068580123136" id="6240071430106214301">
           <node role="statement" roleId="tpee.1068581517665" type="tpee.LocalVariableDeclarationStatement" typeId="tpee.1068581242864" id="2192048487563547664">
@@ -3386,8 +3386,8 @@
   </root>
   <root id="6240071430106390467">
     <node role="item" roleId="tpc2.1139535219969" type="tpc2.CellActionMapItem" typeId="tpc2.1139535280617" id="6240071430106390468">
-      <property name="actionId" nameId="tpc2.1139535298778" value="delete_action_id" />
       <property name="description" nameId="tpc2.1139537298254" value="Remove locale" />
+      <property name="actionId" nameId="tpc2.1139535298778" value="delete_action_id" />
       <node role="executeFunction" roleId="tpc2.1139535280620" type="tpc2.CellActionMap_ExecuteFunction" typeId="tpc2.1139535439104" id="6240071430106390469">
         <node role="body" roleId="tpee.1137022507850" type="tpee.StatementList" typeId="tpee.1068580123136" id="6240071430106390470">
           <node role="statement" roleId="tpee.1068581517665" type="tpee.ExpressionStatement" typeId="tpee.1068580123155" id="6240071430106390471">
@@ -3573,8 +3573,8 @@
   </root>
   <root id="8875872347489706928">
     <node role="item" roleId="tpc2.1139535219969" type="tpc2.CellActionMapItem" typeId="tpc2.1139535280617" id="8875872347489706929">
-      <property name="actionId" nameId="tpc2.1139535298778" value="delete_action_id" />
       <property name="description" nameId="tpc2.1139537298254" value="Remove formatting" />
+      <property name="actionId" nameId="tpc2.1139535298778" value="delete_action_id" />
       <node role="executeFunction" roleId="tpc2.1139535280620" type="tpc2.CellActionMap_ExecuteFunction" typeId="tpc2.1139535439104" id="8875872347489706930">
         <node role="body" roleId="tpee.1137022507850" type="tpee.StatementList" typeId="tpee.1068580123136" id="8875872347489706931">
           <node role="statement" roleId="tpee.1068581517665" type="tpee.LocalVariableDeclarationStatement" typeId="tpee.1068581242864" id="8875872347489706932">
@@ -4199,8 +4199,8 @@
           <property name="text" nameId="tpc2.1073389577007" value="text for last separator" />
         </node>
         <node role="childCellModel" roleId="tpc2.1073389446424" type="tpc2.CellModel_Property" typeId="tpc2.1073389658414" id="5581663871702548620">
-          <property name="emptyNoTargetText" nameId="tpc2.1214560368769" value="false" />
           <property name="allowEmptyText" nameId="tpc2.1140114345053" value="true" />
+          <property name="emptyNoTargetText" nameId="tpc2.1214560368769" value="false" />
           <link role="relationDeclaration" roleId="tpc2.1140103550593" targetNodeId="tp6x.5581663871702358900" resolveInfo="lastText" />
           <node role="styleItem" roleId="tpc2.1219418656006" type="tpc2.FontStyleStyleClassItem" typeId="tpc2.1186403751766" id="5581663871702740284">
             <property name="style" nameId="tpc2.1186403771423" value="BOLD" />

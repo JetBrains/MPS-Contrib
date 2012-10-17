@@ -242,8 +242,8 @@
         </node>
         <node role="childCellModel" roleId="tpc2.1073389446424" type="tpc2.CellModel_RefNodeList" typeId="tpc2.1073390211982" id="353793545802643566">
           <property name="vertical" nameId="tpc2.1140524450554" value="true" />
-          <property name="gridLayout" nameId="tpc2.1140524450555" value="true" />
           <property name="usesBraces" nameId="tpc2.1140524450556" value="false" />
+          <property name="gridLayout" nameId="tpc2.1140524450555" value="true" />
           <link role="relationDeclaration" roleId="tpc2.1140103550593" targetNodeId="ddum.353793545802643479" />
           <node role="emptyCellModel" roleId="tpc2.1140524464359" type="tpc2.CellModel_Constant" typeId="tpc2.1073389577006" id="353793545802643567">
             <property name="text" nameId="tpc2.1073389577007" value="&lt;attributes&gt;" />
@@ -821,7 +821,7 @@
         </node>
         <node role="childCellModel" roleId="tpc2.1073389446424" type="tpc2.CellModel_ConceptProperty" typeId="tpc2.1137553248617" id="8241842287689220308">
           <link role="styleClass" roleId="tpc2.1186406756722" targetNodeId="tpsu.1197151281083" resolveInfo="keyword" />
-          <link role="relationDeclaration" roleId="tpc2.1140103550593" targetNodeId="tpck.1156235010670" resolveInfo="alias" />
+          <link role="relationDeclaration" roleId="tpc2.1140103550593" targetNodeId="tpck.1137473891462" resolveInfo="alias" />
         </node>
         <node role="childCellModel" roleId="tpc2.1073389446424" type="tpc2.CellModel_Property" typeId="tpc2.1073389658414" id="8241842287689220309">
           <link role="relationDeclaration" roleId="tpc2.1140103550593" targetNodeId="tpck.1169194664001" resolveInfo="name" />
