@@ -42,21 +42,21 @@ public class GTextOptimizer {
       if (SNodeOperations.isInstanceOf(optChild, "jetbrains.mps.gtext.structure.GConditionalLine")) {
         SNode nextChild = optChild;
         if (SPropertyOperations.getBoolean(SNodeOperations.cast(optChild, "jetbrains.mps.gtext.structure.GConditionalLine"), "isSeparate")) {
-          SNodeOperations.insertNextSiblingChild(nextChild, SModelOperations.createNewNode(SNodeOperations.getModel(item), "jetbrains.mps.gtext.structure.GIndent", null));
+          SNodeOperations.insertNextSiblingChild(nextChild, SModelOperations.createNewNode(SNodeOperations.getModel(item), null, "jetbrains.mps.gtext.structure.GIndent"));
           nextChild = SNodeOperations.cast(SNodeOperations.getNextSibling(nextChild), "jetbrains.mps.gtext.structure.GItem");
         }
         nextChild = inlineChildren(optChild, nextChild);
         if (SPropertyOperations.getBoolean(SNodeOperations.cast(optChild, "jetbrains.mps.gtext.structure.GConditionalLine"), "isSeparate")) {
-          SNodeOperations.insertNextSiblingChild(nextChild, SModelOperations.createNewNode(SNodeOperations.getModel(item), "jetbrains.mps.gtext.structure.GNewLine", null));
+          SNodeOperations.insertNextSiblingChild(nextChild, SModelOperations.createNewNode(SNodeOperations.getModel(item), null, "jetbrains.mps.gtext.structure.GNewLine"));
         }
         SNodeOperations.deleteNode(optChild);
       } else
       if (SNodeOperations.isInstanceOf(optChild, "jetbrains.mps.gtext.structure.GLine")) {
         SNode nextChild = optChild;
-        SNodeOperations.insertNextSiblingChild(nextChild, SModelOperations.createNewNode(SNodeOperations.getModel(item), "jetbrains.mps.gtext.structure.GIndent", null));
+        SNodeOperations.insertNextSiblingChild(nextChild, SModelOperations.createNewNode(SNodeOperations.getModel(item), null, "jetbrains.mps.gtext.structure.GIndent"));
         nextChild = SNodeOperations.cast(SNodeOperations.getNextSibling(nextChild), "jetbrains.mps.gtext.structure.GItem");
         nextChild = inlineChildren(optChild, nextChild);
-        SNodeOperations.insertNextSiblingChild(nextChild, SModelOperations.createNewNode(SNodeOperations.getModel(item), "jetbrains.mps.gtext.structure.GNewLine", null));
+        SNodeOperations.insertNextSiblingChild(nextChild, SModelOperations.createNewNode(SNodeOperations.getModel(item), null, "jetbrains.mps.gtext.structure.GNewLine"));
         SNodeOperations.deleteNode(optChild);
       }
     }
