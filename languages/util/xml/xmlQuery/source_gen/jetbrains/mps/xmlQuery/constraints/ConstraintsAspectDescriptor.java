@@ -7,7 +7,7 @@ import java.util.Arrays;
 import jetbrains.mps.smodel.runtime.base.BaseConstraintsDescriptor;
 
 public class ConstraintsAspectDescriptor implements jetbrains.mps.smodel.runtime.ConstraintsAspectDescriptor {
-  private static String[] stringSwitchCases_2qnle6_a0a0a = new String[]{"jetbrains.mps.xmlQuery.structure.AccessAttributeOperation", "jetbrains.mps.xmlQuery.structure.AccessChildrenOperation", "jetbrains.mps.xmlQuery.structure.AttributeBuilder", "jetbrains.mps.xmlQuery.structure.ElementBuilder", "jetbrains.mps.xmlQuery.structure.TextBuilder", "jetbrains.mps.xmlQuery.structure.XMLElementOperation", "jetbrains.mps.xmlQuery.structure.XMLElementType", "jetbrains.mps.xmlQuery.structure.XMLSAXAttributeReference", "jetbrains.mps.xmlQuery.structure.XMLSAXBreakStatement", "jetbrains.mps.xmlQuery.structure.XMLSAXChildRule", "jetbrains.mps.xmlQuery.structure.XMLSAXFieldReference", "jetbrains.mps.xmlQuery.structure.XMLSAXLocatorExpression"};
+  private static String[] stringSwitchCases_2qnle6_a0a0a = new String[]{"jetbrains.mps.xmlQuery.structure.AccessAttributeOperation", "jetbrains.mps.xmlQuery.structure.AccessChildrenOperation", "jetbrains.mps.xmlQuery.structure.AttributeBuilder", "jetbrains.mps.xmlQuery.structure.ElementBuilder", "jetbrains.mps.xmlQuery.structure.TextBuilder", "jetbrains.mps.xmlQuery.structure.XMLElementOperation", "jetbrains.mps.xmlQuery.structure.XMLElementType"};
 
   public ConstraintsAspectDescriptor() {
   }
@@ -28,16 +28,6 @@ public class ConstraintsAspectDescriptor implements jetbrains.mps.smodel.runtime
         return new TextBuilder_Constraints();
       case 3:
         return new ElementBuilder_Constraints();
-      case 7:
-        return new XMLSAXAttributeReference_Constraints();
-      case 10:
-        return new XMLSAXFieldReference_Constraints();
-      case 11:
-        return new XMLSAXLocatorExpression_Constraints();
-      case 8:
-        return new XMLSAXBreakStatement_Constraints();
-      case 9:
-        return new XMLSAXChildRule_Constraints();
       default:
         // todo: illegal in some cases? 
         return new BaseConstraintsDescriptor(fqName);
