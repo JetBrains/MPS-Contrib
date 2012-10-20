@@ -894,7 +894,7 @@
           <node role="expression" roleId="tpee.1068581517676" type="tp25.StaticConceptMethodCall" typeId="tp25.1206019730951" id="1445805690439864462">
             <link role="concept" roleId="tp25.1206019820684" targetNodeId="ddum.353793545802643486" resolveInfo="BuiltInTaskDeclaration" />
             <link role="baseMethodDeclaration" roleId="tpee.1068499141037" targetNodeId="uvv6.1445805690439864419" resolveInfo="isInGeneratedModels" />
-            <node role="actualArgument" roleId="tpee.1068499141038" type="tpcw.ConceptFunctionParameter_operationContext" typeId="tpcw.1161622753914" id="1445805690439864463" />
+            <node role="actualArgument" roleId="tpee.1068499141038" type="tpcw.ConceptFunctionParameter_model" typeId="tpcw.1161622665029" id="2949368995682919026" />
           </node>
         </node>
       </node>
@@ -907,7 +907,7 @@
           <node role="expression" roleId="tpee.1068580123156" type="tp25.StaticConceptMethodCall" typeId="tp25.1206019730951" id="1445805690439864468">
             <link role="concept" roleId="tp25.1206019820684" targetNodeId="ddum.353793545802643486" resolveInfo="BuiltInTaskDeclaration" />
             <link role="baseMethodDeclaration" roleId="tpee.1068499141037" targetNodeId="uvv6.1445805690439864419" resolveInfo="isInGeneratedModels" />
-            <node role="actualArgument" roleId="tpee.1068499141038" type="tpcw.ConceptFunctionParameter_operationContext" typeId="tpcw.1161622753914" id="1445805690439864469" />
+            <node role="actualArgument" roleId="tpee.1068499141038" type="tpcw.ConceptFunctionParameter_model" typeId="tpcw.1161622665029" id="2949368995682919027" />
           </node>
         </node>
       </node>

@@ -4,7 +4,7 @@ package jetbrains.mps.xmlSchema.editor;
 
 import jetbrains.mps.nodeEditor.DefaultNodeEditor;
 import jetbrains.mps.nodeEditor.cells.EditorCell;
-import jetbrains.mps.nodeEditor.EditorContext;
+import jetbrains.mps.openapi.editor.EditorContext;
 import jetbrains.mps.smodel.SNode;
 import jetbrains.mps.nodeEditor.cells.EditorCell_Collection;
 import jetbrains.mps.nodeEditor.cells.EditorCell_Constant;
@@ -38,7 +38,7 @@ public class AttributeDeclaration_Editor extends DefaultNodeEditor {
   }
 
   private EditorCell createConstant_vddsqv_a0(EditorContext editorContext, SNode node) {
-    EditorCell_Constant editorCell = new EditorCell_Constant(editorContext, node, "attribute");
+    EditorCell_Constant editorCell = new EditorCell_Constant((jetbrains.mps.nodeEditor.EditorContext) editorContext, node, "attribute");
     editorCell.setCellId("Constant_vddsqv_a0");
     {
       Style style = editorCell.getStyle();
@@ -49,14 +49,14 @@ public class AttributeDeclaration_Editor extends DefaultNodeEditor {
   }
 
   private EditorCell createConstant_vddsqv_d0(EditorContext editorContext, SNode node) {
-    EditorCell_Constant editorCell = new EditorCell_Constant(editorContext, node, "(");
+    EditorCell_Constant editorCell = new EditorCell_Constant((jetbrains.mps.nodeEditor.EditorContext) editorContext, node, "(");
     editorCell.setCellId("Constant_vddsqv_d0");
     editorCell.setDefaultText("");
     return editorCell;
   }
 
   private EditorCell createConstant_vddsqv_f0(EditorContext editorContext, SNode node) {
-    EditorCell_Constant editorCell = new EditorCell_Constant(editorContext, node, ")");
+    EditorCell_Constant editorCell = new EditorCell_Constant((jetbrains.mps.nodeEditor.EditorContext) editorContext, node, ")");
     editorCell.setCellId("Constant_vddsqv_f0");
     editorCell.setDefaultText("");
     return editorCell;
@@ -129,7 +129,7 @@ public class AttributeDeclaration_Editor extends DefaultNodeEditor {
     return editorCell;
   }
 
-  private static Color _StyleParameter_QueryFunction_vddsqv_a1b0(SNode node, EditorContext editorContext) {
+  private static Color _StyleParameter_QueryFunction_vddsqv_a1b0(SNode node, jetbrains.mps.nodeEditor.EditorContext editorContext) {
     return XmlColorConstants.XML_COLOR;
   }
 }

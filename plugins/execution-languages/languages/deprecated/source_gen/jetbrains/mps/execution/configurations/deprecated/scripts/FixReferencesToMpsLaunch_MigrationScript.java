@@ -40,7 +40,7 @@ public class FixReferencesToMpsLaunch_MigrationScript extends BaseMigrationScrip
       }
 
       public void doUpdateInstanceNode(SNode node) {
-        SNode mpsLaunch = SLinkOperations.getTarget(new FixReferencesToMpsLaunch_MigrationScript.QuotationClass_cadwxu_a0a0a0e0a0a0b0a().createNode(), "classifier", false);
+        SNode mpsLaunch = SLinkOperations.getTarget(new FixReferencesToMpsLaunch_MigrationScript.QuotationClass_cadwxu_a0a0a0e0a0a0a0b0a().createNode(), "classifier", false);
         ScriptsUtil.updateReferencesToClassifier(node, "jetbrains.mps.baseLanguage.util.plugin.run", SPropertyOperations.getString(mpsLaunch, "name"), SNodeOperations.getModel(mpsLaunch).getSModelReference(), mpsLaunch);
       }
 
@@ -50,8 +50,8 @@ public class FixReferencesToMpsLaunch_MigrationScript extends BaseMigrationScrip
     });
   }
 
-  public static class QuotationClass_cadwxu_a0a0a0e0a0a0b0a {
-    public QuotationClass_cadwxu_a0a0a0e0a0a0b0a() {
+  public static class QuotationClass_cadwxu_a0a0a0e0a0a0a0b0a {
+    public QuotationClass_cadwxu_a0a0a0e0a0a0a0b0a() {
     }
 
     public SNode createNode() {
@@ -61,7 +61,7 @@ public class FixReferencesToMpsLaunch_MigrationScript extends BaseMigrationScrip
       {
         quotedNode_1 = SModelUtil_new.instantiateConceptDeclaration("jetbrains.mps.baseLanguage.structure.ClassifierType", null, GlobalScope.getInstance(), false);
         SNode quotedNode1_2 = quotedNode_1;
-        quotedNode1_2.addReference(SReference.create("classifier", quotedNode1_2, SModelReference.fromString("f:java_stub#920eaa0e-ecca-46bc-bee7-4e5c59213dd6#jetbrains.mps(Testbench/jetbrains.mps@java_stub)"), SNodeId.fromString("~MPSLaunch")));
+        quotedNode1_2.setReference("classifier", SReference.create("classifier", quotedNode1_2, SModelReference.fromString("f:java_stub#920eaa0e-ecca-46bc-bee7-4e5c59213dd6#jetbrains.mps(Testbench/jetbrains.mps@java_stub)"), SNodeId.fromString("~MPSLaunch")));
         result = quotedNode1_2;
       }
       return result;

@@ -4,7 +4,7 @@ package jetbrains.mps.gtext.editor;
 
 import jetbrains.mps.nodeEditor.DefaultNodeEditor;
 import jetbrains.mps.nodeEditor.cells.EditorCell;
-import jetbrains.mps.nodeEditor.EditorContext;
+import jetbrains.mps.openapi.editor.EditorContext;
 import jetbrains.mps.smodel.SNode;
 import jetbrains.mps.nodeEditor.cells.EditorCell_Collection;
 import jetbrains.mps.nodeEditor.cells.EditorCell_Constant;
@@ -41,7 +41,7 @@ public class GDocument_Editor extends DefaultNodeEditor {
   }
 
   private EditorCell createConstant_rt0po5_b0(EditorContext editorContext, SNode node) {
-    EditorCell_Constant editorCell = new EditorCell_Constant(editorContext, node, ".");
+    EditorCell_Constant editorCell = new EditorCell_Constant((jetbrains.mps.nodeEditor.EditorContext) editorContext, node, ".");
     editorCell.setCellId("Constant_rt0po5_b0");
     {
       Style style = editorCell.getStyle();
@@ -53,7 +53,7 @@ public class GDocument_Editor extends DefaultNodeEditor {
   }
 
   private EditorCell createConstant_rt0po5_d0(EditorContext editorContext, SNode node) {
-    EditorCell_Constant editorCell = new EditorCell_Constant(editorContext, node, "gDocument");
+    EditorCell_Constant editorCell = new EditorCell_Constant((jetbrains.mps.nodeEditor.EditorContext) editorContext, node, "gDocument");
     editorCell.setCellId("Constant_rt0po5_d0");
     {
       Style style = editorCell.getStyle();
@@ -64,7 +64,7 @@ public class GDocument_Editor extends DefaultNodeEditor {
   }
 
   private EditorCell createConstant_rt0po5_e0(EditorContext editorContext, SNode node) {
-    EditorCell_Constant editorCell = new EditorCell_Constant(editorContext, node, "");
+    EditorCell_Constant editorCell = new EditorCell_Constant((jetbrains.mps.nodeEditor.EditorContext) editorContext, node, "");
     editorCell.setCellId("Constant_rt0po5_e0");
     {
       Style style = editorCell.getStyle();

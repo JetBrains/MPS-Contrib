@@ -7,7 +7,7 @@ import java.util.Arrays;
 import jetbrains.mps.smodel.runtime.interpreted.BehaviorAspectInterpreted;
 
 public class BehaviorAspectDescriptor implements jetbrains.mps.smodel.runtime.BehaviorAspectDescriptor {
-  private static String[] stringSwitchCases_846f5o_a0a0a = new String[]{"jetbrains.mps.xmlQuery.structure.AccessArbitraryAttributeOperation", "jetbrains.mps.xmlQuery.structure.AccessArbitraryChildrenOperation", "jetbrains.mps.xmlQuery.structure.AccessAttributeOperation", "jetbrains.mps.xmlQuery.structure.AccessChildrenOperation", "jetbrains.mps.xmlQuery.structure.AccessTextOperation", "jetbrains.mps.xmlQuery.structure.AttributeBuilder", "jetbrains.mps.xmlQuery.structure.ElementBuilder", "jetbrains.mps.xmlQuery.structure.TextBuilder", "jetbrains.mps.xmlQuery.structure.XMLElementCreator", "jetbrains.mps.xmlQuery.structure.XMLElementType", "jetbrains.mps.xmlQuery.structure.XMLSAXAttributeHandler", "jetbrains.mps.xmlQuery.structure.XMLSAXAttributeHandler_value", "jetbrains.mps.xmlQuery.structure.XMLSAXAttributeReference", "jetbrains.mps.xmlQuery.structure.XMLSAXAttributeRule", "jetbrains.mps.xmlQuery.structure.XMLSAXBreakStatement", "jetbrains.mps.xmlQuery.structure.XMLSAXChildHandler", "jetbrains.mps.xmlQuery.structure.XMLSAXChildHandler_childObject", "jetbrains.mps.xmlQuery.structure.XMLSAXChildRule", "jetbrains.mps.xmlQuery.structure.XMLSAXFieldDeclaration", "jetbrains.mps.xmlQuery.structure.XMLSAXFieldReference", "jetbrains.mps.xmlQuery.structure.XMLSAXHandler_resultObject", "jetbrains.mps.xmlQuery.structure.XMLSAXLocatorExpression", "jetbrains.mps.xmlQuery.structure.XMLSAXNodeCreator", "jetbrains.mps.xmlQuery.structure.XMLSAXNodeRule", "jetbrains.mps.xmlQuery.structure.XMLSAXNodeValidator", "jetbrains.mps.xmlQuery.structure.XMLSAXParser", "jetbrains.mps.xmlQuery.structure.XMLSAXTextHandler", "jetbrains.mps.xmlQuery.structure.XMLSAXTextHandler_value", "jetbrains.mps.xmlQuery.structure.XMLSAXTextRule"};
+  private static String[] stringSwitchCases_846f5o_a0a0a = new String[]{"jetbrains.mps.xmlQuery.structure.AccessArbitraryAttributeOperation", "jetbrains.mps.xmlQuery.structure.AccessArbitraryChildrenOperation", "jetbrains.mps.xmlQuery.structure.AccessAttributeOperation", "jetbrains.mps.xmlQuery.structure.AccessChildrenOperation", "jetbrains.mps.xmlQuery.structure.AccessTextOperation", "jetbrains.mps.xmlQuery.structure.AttributeBuilder", "jetbrains.mps.xmlQuery.structure.ElementBuilder", "jetbrains.mps.xmlQuery.structure.TextBuilder", "jetbrains.mps.xmlQuery.structure.XMLElementCreator", "jetbrains.mps.xmlQuery.structure.XMLElementType"};
 
   public BehaviorAspectDescriptor() {
   }
@@ -34,44 +34,6 @@ public class BehaviorAspectDescriptor implements jetbrains.mps.smodel.runtime.Be
         return new TextBuilder_BehaviorDescriptor();
       case 6:
         return new ElementBuilder_BehaviorDescriptor();
-      case 25:
-        return new XMLSAXParser_BehaviorDescriptor();
-      case 23:
-        return new XMLSAXNodeRule_BehaviorDescriptor();
-      case 13:
-        return new XMLSAXAttributeRule_BehaviorDescriptor();
-      case 10:
-        return new XMLSAXAttributeHandler_BehaviorDescriptor();
-      case 11:
-        return new XMLSAXAttributeHandler_value_BehaviorDescriptor();
-      case 28:
-        return new XMLSAXTextRule_BehaviorDescriptor();
-      case 26:
-        return new XMLSAXTextHandler_BehaviorDescriptor();
-      case 27:
-        return new XMLSAXTextHandler_value_BehaviorDescriptor();
-      case 20:
-        return new XMLSAXHandler_resultObject_BehaviorDescriptor();
-      case 17:
-        return new XMLSAXChildRule_BehaviorDescriptor();
-      case 15:
-        return new XMLSAXChildHandler_BehaviorDescriptor();
-      case 16:
-        return new XMLSAXChildHandler_childObject_BehaviorDescriptor();
-      case 22:
-        return new XMLSAXNodeCreator_BehaviorDescriptor();
-      case 24:
-        return new XMLSAXNodeValidator_BehaviorDescriptor();
-      case 12:
-        return new XMLSAXAttributeReference_BehaviorDescriptor();
-      case 18:
-        return new XMLSAXFieldDeclaration_BehaviorDescriptor();
-      case 19:
-        return new XMLSAXFieldReference_BehaviorDescriptor();
-      case 21:
-        return new XMLSAXLocatorExpression_BehaviorDescriptor();
-      case 14:
-        return new XMLSAXBreakStatement_BehaviorDescriptor();
       default:
         return BehaviorAspectInterpreted.getInstance().getDescriptor(fqName);
     }

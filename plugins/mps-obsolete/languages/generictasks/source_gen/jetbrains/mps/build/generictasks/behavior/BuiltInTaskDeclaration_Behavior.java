@@ -11,11 +11,12 @@ import jetbrains.mps.lang.smodel.generator.smodelAdapter.SLinkOperations;
 import jetbrains.mps.lang.smodel.generator.smodelAdapter.SNodeOperations;
 import jetbrains.mps.buildlanguage.behavior.IDeclaration_Behavior;
 import jetbrains.mps.internal.collections.runtime.Sequence;
-import jetbrains.mps.smodel.IOperationContext;
+import jetbrains.mps.smodel.SModel;
 import jetbrains.mps.build.generictasks.pluginSolution.plugin.ImportAntStuffUtil;
 import jetbrains.mps.project.ModuleId;
 import jetbrains.mps.project.structure.modules.ModuleReference;
 import jetbrains.mps.project.IModule;
+import jetbrains.mps.smodel.SModelDescriptor;
 import jetbrains.mps.smodel.Language;
 
 public class BuiltInTaskDeclaration_Behavior {
@@ -120,8 +121,8 @@ public class BuiltInTaskDeclaration_Behavior {
     return SPropertyOperations.getBoolean(thisNode, "fake");
   }
 
-  public static boolean isInGeneratedModels_1445805690439864419(IOperationContext operationContext) {
-    return eq_y5o5bz_a0a0j(check_y5o5bz_a0a0a(check_y5o5bz_a0a0a0(check_y5o5bz_a0a0a0a(operationContext))), check_y5o5bz_a0a0a_0(check_y5o5bz_a0a0a0_0(ImportAntStuffUtil.getLanguageReference())));
+  public static boolean isInGeneratedModels_1445805690439864419(SModel model) {
+    return eq_y5o5bz_a0a0j(check_y5o5bz_a0a0a(check_y5o5bz_a0a0a0(check_y5o5bz_a0a0a0a(check_y5o5bz_a0a0a0a0(model)))), check_y5o5bz_a0a0a_0(check_y5o5bz_a0a0a0_0(ImportAntStuffUtil.getLanguageReference())));
   }
 
   private static ModuleId check_y5o5bz_a0a0a(ModuleReference checkedDotOperand) {
@@ -138,9 +139,16 @@ public class BuiltInTaskDeclaration_Behavior {
     return null;
   }
 
-  private static IModule check_y5o5bz_a0a0a0a(IOperationContext checkedDotOperand) {
+  private static IModule check_y5o5bz_a0a0a0a(SModelDescriptor checkedDotOperand) {
     if (null != checkedDotOperand) {
       return checkedDotOperand.getModule();
+    }
+    return null;
+  }
+
+  private static SModelDescriptor check_y5o5bz_a0a0a0a0(SModel checkedDotOperand) {
+    if (null != checkedDotOperand) {
+      return checkedDotOperand.getModelDescriptor();
     }
     return null;
   }
